@@ -1499,18 +1499,7 @@ export default {
       "en": "channel someone",
       "zh": "展現／模仿某人的風格",
       "note": "來源詞義：展現／模仿某人的風格",
-      "examples": [
-        [
-          "Staff channelled visitors towards the main entrance.",
-          "員工把訪客引導往正門。",
-          "展現／模仿某人的風格"
-        ],
-        [
-          "Barriers channel the crowd into separate queues.",
-          "欄杆把人群分流到不同隊伍。",
-          "展現／模仿某人的風格"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1667,6 +1656,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "channel-reviewed-66c8c05660",
+      "title": "引導人流",
+      "form": "channel · source section 79",
+      "en": "引導人流",
+      "zh": "引導人流",
+      "note": "對照原始教材第 79 節及例句核實。",
+      "examples": [
+        [
+          "Staff channelled visitors towards the main entrance.",
+          "員工把訪客引導往正門。",
+          "引導人流"
+        ],
+        [
+          "Barriers channel the crowd into separate queues.",
+          "欄杆把人群分流到不同隊伍。",
+          "引導人流"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1678,11 +1689,9 @@ export default {
       "masked": "Teams should agree on ____.",
       "options": [
         "channel-mcq-01",
-        "channel-mcq-02",
-        "channel-mcq-03",
-        "channel-mcq-04",
-        "channel-mcq-05",
-        "channel-mcq-06"
+        "channel-mcq-34",
+        "channel-mcq-59",
+        "channel-reviewed-66c8c05660"
       ],
       "explanation": "本句的「channels for updates」指「溝通／資訊渠道」。",
       "sentenceIndex": 0,
@@ -1691,12 +1700,10 @@ export default {
         "channels for updates"
       ],
       "optionReasons": {
-        "channel-mcq-01": "本句指「溝通／資訊渠道」。",
-        "channel-mcq-02": "「溝通渠道」與本句語境不同。",
-        "channel-mcq-03": "「更新渠道」與本句語境不同。",
-        "channel-mcq-04": "「溝通途徑」與本句語境不同。",
-        "channel-mcq-05": "「資訊渠道」與本句語境不同。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。"
+        "channel-mcq-01": "本句的「channels for updates」指「溝通／資訊渠道」。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-01"
     },
@@ -1708,11 +1715,9 @@ export default {
       "masked": "Email is our main ____ with clients.",
       "options": [
         "channel-mcq-01",
-        "channel-mcq-02",
-        "channel-mcq-03",
-        "channel-mcq-04",
-        "channel-mcq-05",
-        "channel-mcq-06"
+        "channel-mcq-19",
+        "channel-mcq-58",
+        "channel-mcq-40"
       ],
       "explanation": "本句的「channel of communication」指「溝通／資訊渠道」。",
       "sentenceIndex": 1,
@@ -1721,12 +1726,10 @@ export default {
         "channel of communication"
       ],
       "optionReasons": {
-        "channel-mcq-01": "本句指「溝通／資訊渠道」。",
-        "channel-mcq-02": "「溝通渠道」與本句語境不同。",
-        "channel-mcq-03": "「更新渠道」與本句語境不同。",
-        "channel-mcq-04": "「溝通途徑」與本句語境不同。",
-        "channel-mcq-05": "「資訊渠道」與本句語境不同。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。"
+        "channel-mcq-01": "本句的「channel of communication」指「溝通／資訊渠道」。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-01"
     },
@@ -1738,11 +1741,9 @@ export default {
       "masked": "Too many communication ____ can create confusion.",
       "options": [
         "channel-mcq-01",
-        "channel-mcq-02",
-        "channel-mcq-03",
-        "channel-mcq-04",
-        "channel-mcq-05",
-        "channel-mcq-06"
+        "channel-reviewed-66c8c05660",
+        "channel-mcq-40",
+        "channel-mcq-64"
       ],
       "explanation": "本句的「channels」指「溝通／資訊渠道」。",
       "sentenceIndex": 2,
@@ -1751,12 +1752,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-01": "本句指「溝通／資訊渠道」。",
-        "channel-mcq-02": "「溝通渠道」與本句語境不同。",
-        "channel-mcq-03": "「更新渠道」與本句語境不同。",
-        "channel-mcq-04": "「溝通途徑」與本句語境不同。",
-        "channel-mcq-05": "「資訊渠道」與本句語境不同。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。"
+        "channel-mcq-01": "本句的「channels」指「溝通／資訊渠道」。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-01"
     },
@@ -1768,11 +1767,9 @@ export default {
       "masked": "Every project needs a clear ____.",
       "options": [
         "channel-mcq-02",
-        "channel-mcq-01",
-        "channel-mcq-03",
-        "channel-mcq-04",
-        "channel-mcq-05",
-        "channel-mcq-06"
+        "channel-mcq-58",
+        "channel-mcq-56",
+        "channel-mcq-39"
       ],
       "explanation": "本句的「communication channel」指「溝通渠道」。",
       "sentenceIndex": 3,
@@ -1781,12 +1778,10 @@ export default {
         "communication channel"
       ],
       "optionReasons": {
-        "channel-mcq-02": "本句指「溝通渠道」。",
-        "channel-mcq-01": "「溝通／資訊渠道」與本句語境不同。",
-        "channel-mcq-03": "「更新渠道」與本句語境不同。",
-        "channel-mcq-04": "「溝通途徑」與本句語境不同。",
-        "channel-mcq-05": "「資訊渠道」與本句語境不同。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。"
+        "channel-mcq-02": "本句的「communication channel」指「溝通渠道」。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-02"
     },
@@ -1798,11 +1793,9 @@ export default {
       "masked": "Different communication ____ are suitable for different messages.",
       "options": [
         "channel-mcq-02",
-        "channel-mcq-01",
-        "channel-mcq-03",
-        "channel-mcq-04",
-        "channel-mcq-05",
-        "channel-mcq-06"
+        "channel-mcq-39",
+        "channel-mcq-57",
+        "channel-pdf-001"
       ],
       "explanation": "本句的「channels」指「溝通渠道」。",
       "sentenceIndex": 4,
@@ -1811,12 +1804,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-02": "本句指「溝通渠道」。",
-        "channel-mcq-01": "「溝通／資訊渠道」與本句語境不同。",
-        "channel-mcq-03": "「更新渠道」與本句語境不同。",
-        "channel-mcq-04": "「溝通途徑」與本句語境不同。",
-        "channel-mcq-05": "「資訊渠道」與本句語境不同。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。"
+        "channel-mcq-02": "本句的「channels」指「溝通渠道」。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-02"
     },
@@ -1828,11 +1819,9 @@ export default {
       "masked": "The team uses a shared chat as its main ____.",
       "options": [
         "channel-mcq-03",
-        "channel-mcq-02",
-        "channel-mcq-04",
-        "channel-mcq-01",
-        "channel-mcq-05",
-        "channel-mcq-06"
+        "channel-mcq-65",
+        "channel-mcq-41",
+        "channel-mcq-19"
       ],
       "explanation": "本句的「channel for updates」指「更新渠道」。",
       "sentenceIndex": 5,
@@ -1841,12 +1830,10 @@ export default {
         "channel for updates"
       ],
       "optionReasons": {
-        "channel-mcq-03": "本句指「更新渠道」。",
-        "channel-mcq-02": "「溝通渠道」與本句語境不同。",
-        "channel-mcq-04": "「溝通途徑」與本句語境不同。",
-        "channel-mcq-01": "「溝通／資訊渠道」與本句語境不同。",
-        "channel-mcq-05": "「資訊渠道」與本句語境不同。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。"
+        "channel-mcq-03": "本句的「channel for updates」指「更新渠道」。",
+        "channel-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-03"
     },
@@ -1858,11 +1845,9 @@ export default {
       "masked": "Agree on one ____ for urgent updates.",
       "options": [
         "channel-mcq-03",
-        "channel-mcq-02",
+        "channel-mcq-64",
         "channel-mcq-04",
-        "channel-mcq-01",
-        "channel-mcq-05",
-        "channel-mcq-06"
+        "channel-pdf-001"
       ],
       "explanation": "本句的「channel」指「更新渠道」。",
       "sentenceIndex": 6,
@@ -1871,12 +1856,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-03": "本句指「更新渠道」。",
-        "channel-mcq-02": "「溝通渠道」與本句語境不同。",
-        "channel-mcq-04": "「溝通途徑」與本句語境不同。",
-        "channel-mcq-01": "「溝通／資訊渠道」與本句語境不同。",
-        "channel-mcq-05": "「資訊渠道」與本句語境不同。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。"
+        "channel-mcq-03": "本句的「channel」指「更新渠道」。",
+        "channel-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-03"
     },
@@ -1888,11 +1871,9 @@ export default {
       "masked": "Formal ____ should be clearly defined.",
       "options": [
         "channel-mcq-04",
-        "channel-mcq-03",
-        "channel-mcq-05",
-        "channel-mcq-02",
-        "channel-mcq-06",
-        "channel-mcq-01"
+        "channel-mcq-40",
+        "channel-mcq-37",
+        "channel-mcq-26"
       ],
       "explanation": "本句的「channels of communication」指「溝通途徑」。",
       "sentenceIndex": 7,
@@ -1901,12 +1882,10 @@ export default {
         "channels of communication"
       ],
       "optionReasons": {
-        "channel-mcq-04": "本句指「溝通途徑」。",
-        "channel-mcq-03": "「更新渠道」與本句語境不同。",
-        "channel-mcq-05": "「資訊渠道」與本句語境不同。",
-        "channel-mcq-02": "「溝通渠道」與本句語境不同。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。",
-        "channel-mcq-01": "「溝通／資訊渠道」與本句語境不同。"
+        "channel-mcq-04": "本句的「channels of communication」指「溝通途徑」。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-04"
     },
@@ -1918,11 +1897,9 @@ export default {
       "masked": "The manager opened a direct ____ of communication with staff.",
       "options": [
         "channel-mcq-04",
-        "channel-mcq-03",
-        "channel-mcq-05",
-        "channel-mcq-02",
-        "channel-mcq-06",
-        "channel-mcq-01"
+        "channel-mcq-59",
+        "channel-mcq-20",
+        "channel-mcq-38"
       ],
       "explanation": "本句的「channel」指「溝通途徑」。",
       "sentenceIndex": 8,
@@ -1931,12 +1908,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-04": "本句指「溝通途徑」。",
-        "channel-mcq-03": "「更新渠道」與本句語境不同。",
-        "channel-mcq-05": "「資訊渠道」與本句語境不同。",
-        "channel-mcq-02": "「溝通渠道」與本句語境不同。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。",
-        "channel-mcq-01": "「溝通／資訊渠道」與本句語境不同。"
+        "channel-mcq-04": "本句的「channel」指「溝通途徑」。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-04"
     },
@@ -1948,11 +1923,9 @@ export default {
       "masked": "Employees receive news through several ____.",
       "options": [
         "channel-mcq-05",
-        "channel-mcq-04",
-        "channel-mcq-06",
-        "channel-mcq-03",
-        "channel-mcq-07",
-        "channel-mcq-02"
+        "channel-mcq-59",
+        "channel-mcq-39",
+        "channel-mcq-04"
       ],
       "explanation": "本句的「information channels」指「資訊渠道」。",
       "sentenceIndex": 9,
@@ -1961,12 +1934,10 @@ export default {
         "information channels"
       ],
       "optionReasons": {
-        "channel-mcq-05": "本句指「資訊渠道」。",
-        "channel-mcq-04": "「溝通途徑」與本句語境不同。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。",
-        "channel-mcq-03": "「更新渠道」與本句語境不同。",
-        "channel-mcq-07": "「回饋渠道」與本句語境不同。",
-        "channel-mcq-02": "「溝通渠道」與本句語境不同。"
+        "channel-mcq-05": "本句的「information channels」指「資訊渠道」。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-05"
     },
@@ -1978,11 +1949,9 @@ export default {
       "masked": "Reliable information ____ reduce rumours.",
       "options": [
         "channel-mcq-05",
-        "channel-mcq-04",
-        "channel-mcq-06",
-        "channel-mcq-03",
-        "channel-mcq-07",
-        "channel-mcq-02"
+        "channel-mcq-62",
+        "channel-mcq-59",
+        "channel-mcq-58"
       ],
       "explanation": "本句的「channels」指「資訊渠道」。",
       "sentenceIndex": 10,
@@ -1991,12 +1960,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-05": "本句指「資訊渠道」。",
-        "channel-mcq-04": "「溝通途徑」與本句語境不同。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。",
-        "channel-mcq-03": "「更新渠道」與本句語境不同。",
-        "channel-mcq-07": "「回饋渠道」與本句語境不同。",
-        "channel-mcq-02": "「溝通渠道」與本句語境不同。"
+        "channel-mcq-05": "本句的「channels」指「資訊渠道」。",
+        "channel-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-05"
     },
@@ -2008,11 +1975,9 @@ export default {
       "masked": "Staff need a confidential ____.",
       "options": [
         "channel-mcq-06",
-        "channel-mcq-05",
-        "channel-mcq-07",
         "channel-mcq-04",
-        "channel-mcq-08",
-        "channel-mcq-03"
+        "channel-mcq-39",
+        "channel-mcq-62"
       ],
       "explanation": "本句的「reporting channel」指「匯報渠道」。",
       "sentenceIndex": 11,
@@ -2021,12 +1986,10 @@ export default {
         "reporting channel"
       ],
       "optionReasons": {
-        "channel-mcq-06": "本句指「匯報渠道」。",
-        "channel-mcq-05": "「資訊渠道」與本句語境不同。",
-        "channel-mcq-07": "「回饋渠道」與本句語境不同。",
-        "channel-mcq-04": "「溝通途徑」與本句語境不同。",
-        "channel-mcq-08": "「正式渠道」與本句語境不同。",
-        "channel-mcq-03": "「更新渠道」與本句語境不同。"
+        "channel-mcq-06": "本句的「reporting channel」指「匯報渠道」。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-06"
     },
@@ -2038,11 +2001,9 @@ export default {
       "masked": "The organisation created a new reporting ____ for safety concerns.",
       "options": [
         "channel-mcq-06",
-        "channel-mcq-05",
-        "channel-mcq-07",
-        "channel-mcq-04",
-        "channel-mcq-08",
-        "channel-mcq-03"
+        "channel-pdf-002",
+        "channel-mcq-59",
+        "channel-pdf-003"
       ],
       "explanation": "本句的「channel」指「匯報渠道」。",
       "sentenceIndex": 12,
@@ -2051,12 +2012,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-06": "本句指「匯報渠道」。",
-        "channel-mcq-05": "「資訊渠道」與本句語境不同。",
-        "channel-mcq-07": "「回饋渠道」與本句語境不同。",
-        "channel-mcq-04": "「溝通途徑」與本句語境不同。",
-        "channel-mcq-08": "「正式渠道」與本句語境不同。",
-        "channel-mcq-03": "「更新渠道」與本句語境不同。"
+        "channel-mcq-06": "本句的「channel」指「匯報渠道」。",
+        "channel-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-06"
     },
@@ -2068,11 +2027,9 @@ export default {
       "masked": "The company created several ____.",
       "options": [
         "channel-mcq-07",
-        "channel-mcq-06",
-        "channel-mcq-08",
-        "channel-mcq-05",
-        "channel-mcq-09",
-        "channel-mcq-04"
+        "channel-reviewed-66c8c05660",
+        "channel-mcq-57",
+        "channel-mcq-39"
       ],
       "explanation": "本句的「feedback channels」指「回饋渠道」。",
       "sentenceIndex": 13,
@@ -2081,12 +2038,10 @@ export default {
         "feedback channels"
       ],
       "optionReasons": {
-        "channel-mcq-07": "本句指「回饋渠道」。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。",
-        "channel-mcq-08": "「正式渠道」與本句語境不同。",
-        "channel-mcq-05": "「資訊渠道」與本句語境不同。",
-        "channel-mcq-09": "「正規渠道」與本句語境不同。",
-        "channel-mcq-04": "「溝通途徑」與本句語境不同。"
+        "channel-mcq-07": "本句的「feedback channels」指「回饋渠道」。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-07"
     },
@@ -2098,11 +2053,9 @@ export default {
       "masked": "Anonymous surveys provide another feedback ____.",
       "options": [
         "channel-mcq-07",
-        "channel-mcq-06",
-        "channel-mcq-08",
-        "channel-mcq-05",
-        "channel-mcq-09",
-        "channel-mcq-04"
+        "channel-mcq-39",
+        "channel-mcq-18",
+        "channel-mcq-60"
       ],
       "explanation": "本句的「channel」指「回饋渠道」。",
       "sentenceIndex": 14,
@@ -2111,12 +2064,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-07": "本句指「回饋渠道」。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。",
-        "channel-mcq-08": "「正式渠道」與本句語境不同。",
-        "channel-mcq-05": "「資訊渠道」與本句語境不同。",
-        "channel-mcq-09": "「正規渠道」與本句語境不同。",
-        "channel-mcq-04": "「溝通途徑」與本句語境不同。"
+        "channel-mcq-07": "本句的「channel」指「回饋渠道」。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-07"
     },
@@ -2128,11 +2079,9 @@ export default {
       "masked": "The complaint should be submitted through ____.",
       "options": [
         "channel-mcq-08",
-        "channel-mcq-07",
-        "channel-mcq-09",
-        "channel-mcq-06",
-        "channel-mcq-10",
-        "channel-mcq-05"
+        "channel-pdf-001",
+        "channel-mcq-65",
+        "channel-mcq-19"
       ],
       "explanation": "本句的「official channels」指「正式渠道」。",
       "sentenceIndex": 15,
@@ -2141,12 +2090,10 @@ export default {
         "official channels"
       ],
       "optionReasons": {
-        "channel-mcq-08": "本句指「正式渠道」。",
-        "channel-mcq-07": "「回饋渠道」與本句語境不同。",
-        "channel-mcq-09": "「正規渠道」與本句語境不同。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。",
-        "channel-mcq-10": "「正常渠道」與本句語境不同。",
-        "channel-mcq-05": "「資訊渠道」與本句語境不同。"
+        "channel-mcq-08": "本句的「official channels」指「正式渠道」。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-08"
     },
@@ -2158,11 +2105,9 @@ export default {
       "masked": "Information was shared through official ____.",
       "options": [
         "channel-mcq-08",
-        "channel-mcq-07",
-        "channel-mcq-09",
-        "channel-mcq-06",
-        "channel-mcq-10",
-        "channel-mcq-05"
+        "channel-mcq-04",
+        "channel-mcq-19",
+        "channel-mcq-60"
       ],
       "explanation": "本句的「channels」指「正式渠道」。",
       "sentenceIndex": 16,
@@ -2171,12 +2116,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-08": "本句指「正式渠道」。",
-        "channel-mcq-07": "「回饋渠道」與本句語境不同。",
-        "channel-mcq-09": "「正規渠道」與本句語境不同。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。",
-        "channel-mcq-10": "「正常渠道」與本句語境不同。",
-        "channel-mcq-05": "「資訊渠道」與本句語境不同。"
+        "channel-mcq-08": "本句的「channels」指「正式渠道」。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-08"
     },
@@ -2188,11 +2131,9 @@ export default {
       "masked": "Please raise the issue through the ____.",
       "options": [
         "channel-mcq-09",
-        "channel-mcq-08",
-        "channel-mcq-10",
-        "channel-mcq-07",
-        "channel-mcq-11",
-        "channel-mcq-06"
+        "channel-mcq-65",
+        "channel-mcq-40",
+        "channel-pdf-003"
       ],
       "explanation": "本句的「proper channels」指「正規渠道」。",
       "sentenceIndex": 17,
@@ -2201,12 +2142,10 @@ export default {
         "proper channels"
       ],
       "optionReasons": {
-        "channel-mcq-09": "本句指「正規渠道」。",
-        "channel-mcq-08": "「正式渠道」與本句語境不同。",
-        "channel-mcq-10": "「正常渠道」與本句語境不同。",
-        "channel-mcq-07": "「回饋渠道」與本句語境不同。",
-        "channel-mcq-11": "「私下／非公開渠道」與本句語境不同。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。"
+        "channel-mcq-09": "本句的「proper channels」指「正規渠道」。",
+        "channel-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-09"
     },
@@ -2218,11 +2157,9 @@ export default {
       "masked": "He bypassed the proper ____ and contacted the director directly.",
       "options": [
         "channel-mcq-09",
-        "channel-mcq-08",
-        "channel-mcq-10",
-        "channel-mcq-07",
-        "channel-mcq-11",
-        "channel-mcq-06"
+        "channel-mcq-56",
+        "channel-mcq-18",
+        "channel-mcq-62"
       ],
       "explanation": "本句的「channels」指「正規渠道」。",
       "sentenceIndex": 18,
@@ -2231,12 +2168,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-09": "本句指「正規渠道」。",
-        "channel-mcq-08": "「正式渠道」與本句語境不同。",
-        "channel-mcq-10": "「正常渠道」與本句語境不同。",
-        "channel-mcq-07": "「回饋渠道」與本句語境不同。",
-        "channel-mcq-11": "「私下／非公開渠道」與本句語境不同。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。"
+        "channel-mcq-09": "本句的「channels」指「正規渠道」。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-09"
     },
@@ -2248,11 +2183,9 @@ export default {
       "masked": "The request should go through the ____.",
       "options": [
         "channel-mcq-10",
-        "channel-mcq-09",
-        "channel-mcq-11",
-        "channel-mcq-08",
-        "channel-mcq-12",
-        "channel-mcq-07"
+        "channel-mcq-40",
+        "channel-mcq-58",
+        "channel-mcq-65"
       ],
       "explanation": "本句的「usual channels」指「正常渠道」。",
       "sentenceIndex": 19,
@@ -2261,12 +2194,10 @@ export default {
         "usual channels"
       ],
       "optionReasons": {
-        "channel-mcq-10": "本句指「正常渠道」。",
-        "channel-mcq-09": "「正規渠道」與本句語境不同。",
-        "channel-mcq-11": "「私下／非公開渠道」與本句語境不同。",
-        "channel-mcq-08": "「正式渠道」與本句語境不同。",
-        "channel-mcq-12": "「外交渠道」與本句語境不同。",
-        "channel-mcq-07": "「回饋渠道」與本句語境不同。"
+        "channel-mcq-10": "本句的「usual channels」指「正常渠道」。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-10"
     },
@@ -2278,11 +2209,9 @@ export default {
       "masked": "The problem could not be solved through normal ____.",
       "options": [
         "channel-mcq-10",
-        "channel-mcq-09",
-        "channel-mcq-11",
-        "channel-mcq-08",
-        "channel-mcq-12",
-        "channel-mcq-07"
+        "channel-pdf-002",
+        "channel-mcq-55",
+        "channel-mcq-58"
       ],
       "explanation": "本句的「channels」指「正常渠道」。",
       "sentenceIndex": 20,
@@ -2291,12 +2220,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-10": "本句指「正常渠道」。",
-        "channel-mcq-09": "「正規渠道」與本句語境不同。",
-        "channel-mcq-11": "「私下／非公開渠道」與本句語境不同。",
-        "channel-mcq-08": "「正式渠道」與本句語境不同。",
-        "channel-mcq-12": "「外交渠道」與本句語境不同。",
-        "channel-mcq-07": "「回饋渠道」與本句語境不同。"
+        "channel-mcq-10": "本句的「channels」指「正常渠道」。",
+        "channel-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-10"
     },
@@ -2308,11 +2235,9 @@ export default {
       "masked": "You'll need to ____.",
       "options": [
         "channel-mcq-10",
-        "channel-mcq-09",
-        "channel-mcq-11",
-        "channel-mcq-08",
-        "channel-mcq-12",
-        "channel-mcq-07"
+        "channel-pdf-001",
+        "channel-mcq-57",
+        "channel-reviewed-66c8c05660"
       ],
       "explanation": "本句的「go through the proper channels」指「正常渠道」。",
       "sentenceIndex": 21,
@@ -2321,12 +2246,10 @@ export default {
         "go through the proper channels"
       ],
       "optionReasons": {
-        "channel-mcq-10": "本句指「正常渠道」。",
-        "channel-mcq-09": "「正規渠道」與本句語境不同。",
-        "channel-mcq-11": "「私下／非公開渠道」與本句語境不同。",
-        "channel-mcq-08": "「正式渠道」與本句語境不同。",
-        "channel-mcq-12": "「外交渠道」與本句語境不同。",
-        "channel-mcq-07": "「回饋渠道」與本句語境不同。"
+        "channel-mcq-10": "本句的「go through the proper channels」指「正常渠道」。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-10"
     },
@@ -2338,11 +2261,9 @@ export default {
       "masked": "Approvals must go through established ____.",
       "options": [
         "channel-mcq-10",
-        "channel-mcq-09",
-        "channel-mcq-11",
-        "channel-mcq-08",
-        "channel-mcq-12",
-        "channel-mcq-07"
+        "channel-mcq-39",
+        "channel-reviewed-66c8c05660",
+        "channel-mcq-64"
       ],
       "explanation": "本句的「channels」指「正常渠道」。",
       "sentenceIndex": 22,
@@ -2351,12 +2272,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-10": "本句指「正常渠道」。",
-        "channel-mcq-09": "「正規渠道」與本句語境不同。",
-        "channel-mcq-11": "「私下／非公開渠道」與本句語境不同。",
-        "channel-mcq-08": "「正式渠道」與本句語境不同。",
-        "channel-mcq-12": "「外交渠道」與本句語境不同。",
-        "channel-mcq-07": "「回饋渠道」與本句語境不同。"
+        "channel-mcq-10": "本句的「channels」指「正常渠道」。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-10"
     },
@@ -2368,11 +2287,9 @@ export default {
       "masked": "She bypassed the usual ____ to report the emergency.",
       "options": [
         "channel-mcq-10",
-        "channel-mcq-09",
-        "channel-mcq-11",
-        "channel-mcq-08",
-        "channel-mcq-12",
-        "channel-mcq-07"
+        "channel-mcq-18",
+        "channel-mcq-34",
+        "channel-mcq-41"
       ],
       "explanation": "本句的「channels」指「正常渠道」。",
       "sentenceIndex": 23,
@@ -2381,12 +2298,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-10": "本句指「正常渠道」。",
-        "channel-mcq-09": "「正規渠道」與本句語境不同。",
-        "channel-mcq-11": "「私下／非公開渠道」與本句語境不同。",
-        "channel-mcq-08": "「正式渠道」與本句語境不同。",
-        "channel-mcq-12": "「外交渠道」與本句語境不同。",
-        "channel-mcq-07": "「回饋渠道」與本句語境不同。"
+        "channel-mcq-10": "本句的「channels」指「正常渠道」。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-10"
     },
@@ -2398,11 +2313,9 @@ export default {
       "masked": "Bypassing formal ____ can sometimes create confusion.",
       "options": [
         "channel-mcq-10",
-        "channel-mcq-09",
-        "channel-mcq-11",
-        "channel-mcq-08",
-        "channel-mcq-12",
-        "channel-mcq-07"
+        "channel-mcq-19",
+        "channel-mcq-55",
+        "channel-mcq-34"
       ],
       "explanation": "本句的「channels」指「正常渠道」。",
       "sentenceIndex": 24,
@@ -2411,12 +2324,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-10": "本句指「正常渠道」。",
-        "channel-mcq-09": "「正規渠道」與本句語境不同。",
-        "channel-mcq-11": "「私下／非公開渠道」與本句語境不同。",
-        "channel-mcq-08": "「正式渠道」與本句語境不同。",
-        "channel-mcq-12": "「外交渠道」與本句語境不同。",
-        "channel-mcq-07": "「回饋渠道」與本句語境不同。"
+        "channel-mcq-10": "本句的「channels」指「正常渠道」。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-10"
     },
@@ -2428,11 +2339,9 @@ export default {
       "masked": "The two countries remained in contact through ____.",
       "options": [
         "channel-mcq-12",
-        "channel-mcq-11",
-        "channel-mcq-13",
-        "channel-mcq-10",
-        "channel-mcq-14",
-        "channel-mcq-09"
+        "channel-mcq-65",
+        "channel-mcq-19",
+        "channel-mcq-39"
       ],
       "explanation": "本句的「diplomatic channels」指「外交渠道」。",
       "sentenceIndex": 25,
@@ -2441,12 +2350,10 @@ export default {
         "diplomatic channels"
       ],
       "optionReasons": {
-        "channel-mcq-12": "本句指「外交渠道」。",
-        "channel-mcq-11": "「私下／非公開渠道」與本句語境不同。",
-        "channel-mcq-13": "「頻道」與本句語境不同。",
-        "channel-mcq-10": "「正常渠道」與本句語境不同。",
-        "channel-mcq-14": "「項目頻道」與本句語境不同。",
-        "channel-mcq-09": "「正規渠道」與本句語境不同。"
+        "channel-mcq-12": "本句的「diplomatic channels」指「外交渠道」。",
+        "channel-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-12"
     },
@@ -2458,11 +2365,9 @@ export default {
       "masked": "The dispute was discussed through diplomatic ____.",
       "options": [
         "channel-mcq-12",
-        "channel-mcq-11",
-        "channel-mcq-13",
-        "channel-mcq-10",
-        "channel-mcq-14",
-        "channel-mcq-09"
+        "channel-mcq-61",
+        "channel-pdf-003",
+        "channel-mcq-04"
       ],
       "explanation": "本句的「channels」指「外交渠道」。",
       "sentenceIndex": 26,
@@ -2471,12 +2376,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-12": "本句指「外交渠道」。",
-        "channel-mcq-11": "「私下／非公開渠道」與本句語境不同。",
-        "channel-mcq-13": "「頻道」與本句語境不同。",
-        "channel-mcq-10": "「正常渠道」與本句語境不同。",
-        "channel-mcq-14": "「項目頻道」與本句語境不同。",
-        "channel-mcq-09": "「正規渠道」與本句語境不同。"
+        "channel-mcq-12": "本句的「channels」指「外交渠道」。",
+        "channel-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-12"
     },
@@ -2488,11 +2391,9 @@ export default {
       "masked": "Negotiations continued through a ____.",
       "options": [
         "channel-mcq-11",
-        "channel-mcq-10",
-        "channel-mcq-12",
-        "channel-mcq-09",
-        "channel-mcq-13",
-        "channel-mcq-08"
+        "channel-mcq-04",
+        "channel-mcq-40",
+        "channel-mcq-59"
       ],
       "explanation": "本句的「back channel」指「私下／非公開渠道」。",
       "sentenceIndex": 27,
@@ -2501,12 +2402,10 @@ export default {
         "back channel"
       ],
       "optionReasons": {
-        "channel-mcq-11": "本句指「私下／非公開渠道」。",
-        "channel-mcq-10": "「正常渠道」與本句語境不同。",
-        "channel-mcq-12": "「外交渠道」與本句語境不同。",
-        "channel-mcq-09": "「正規渠道」與本句語境不同。",
-        "channel-mcq-13": "「頻道」與本句語境不同。",
-        "channel-mcq-08": "「正式渠道」與本句語境不同。"
+        "channel-mcq-11": "本句的「back channel」指「私下／非公開渠道」。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-11"
     },
@@ -2518,11 +2417,9 @@ export default {
       "masked": "The two sides maintained back-____ communication.",
       "options": [
         "channel-mcq-11",
-        "channel-mcq-10",
-        "channel-mcq-12",
-        "channel-mcq-09",
-        "channel-mcq-13",
-        "channel-mcq-08"
+        "channel-reviewed-66c8c05660",
+        "channel-pdf-002",
+        "channel-mcq-18"
       ],
       "explanation": "本句的「channel」指「私下／非公開渠道」。",
       "sentenceIndex": 28,
@@ -2531,12 +2428,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-11": "本句指「私下／非公開渠道」。",
-        "channel-mcq-10": "「正常渠道」與本句語境不同。",
-        "channel-mcq-12": "「外交渠道」與本句語境不同。",
-        "channel-mcq-09": "「正規渠道」與本句語境不同。",
-        "channel-mcq-13": "「頻道」與本句語境不同。",
-        "channel-mcq-08": "「正式渠道」與本句語境不同。"
+        "channel-mcq-11": "本句的「channel」指「私下／非公開渠道」。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-11"
     },
@@ -2548,11 +2443,9 @@ export default {
       "masked": "Back-____ communication helped reduce tension.",
       "options": [
         "channel-mcq-11",
-        "channel-mcq-10",
-        "channel-mcq-12",
-        "channel-mcq-09",
-        "channel-mcq-13",
-        "channel-mcq-08"
+        "channel-mcq-40",
+        "channel-mcq-34",
+        "channel-mcq-64"
       ],
       "explanation": "本句的「channel」指「私下／非公開渠道」。",
       "sentenceIndex": 29,
@@ -2561,12 +2454,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-11": "本句指「私下／非公開渠道」。",
-        "channel-mcq-10": "「正常渠道」與本句語境不同。",
-        "channel-mcq-12": "「外交渠道」與本句語境不同。",
-        "channel-mcq-09": "「正規渠道」與本句語境不同。",
-        "channel-mcq-13": "「頻道」與本句語境不同。",
-        "channel-mcq-08": "「正式渠道」與本句語境不同。"
+        "channel-mcq-11": "本句的「channel」指「私下／非公開渠道」。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-11"
     },
@@ -2578,11 +2469,9 @@ export default {
       "masked": "The parties used back-____ talks before formal negotiations began.",
       "options": [
         "channel-mcq-11",
-        "channel-mcq-10",
-        "channel-mcq-12",
-        "channel-mcq-09",
-        "channel-mcq-13",
-        "channel-mcq-08"
+        "channel-mcq-40",
+        "channel-mcq-58",
+        "channel-mcq-56"
       ],
       "explanation": "本句的「channel」指「私下／非公開渠道」。",
       "sentenceIndex": 30,
@@ -2591,12 +2480,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-11": "本句指「私下／非公開渠道」。",
-        "channel-mcq-10": "「正常渠道」與本句語境不同。",
-        "channel-mcq-12": "「外交渠道」與本句語境不同。",
-        "channel-mcq-09": "「正規渠道」與本句語境不同。",
-        "channel-mcq-13": "「頻道」與本句語境不同。",
-        "channel-mcq-08": "「正式渠道」與本句語境不同。"
+        "channel-mcq-11": "本句的「channel」指「私下／非公開渠道」。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-11"
     },
@@ -2608,11 +2495,9 @@ export default {
       "masked": "All project decisions should be recorded in the ____.",
       "options": [
         "channel-mcq-14",
-        "channel-mcq-13",
-        "channel-mcq-15",
-        "channel-mcq-12",
-        "channel-mcq-16",
-        "channel-mcq-11"
+        "channel-pdf-002",
+        "channel-mcq-61",
+        "channel-mcq-38"
       ],
       "explanation": "本句的「project channel」指「項目頻道」。",
       "sentenceIndex": 33,
@@ -2621,12 +2506,10 @@ export default {
         "project channel"
       ],
       "optionReasons": {
-        "channel-mcq-14": "本句指「項目頻道」。",
-        "channel-mcq-13": "「頻道」與本句語境不同。",
-        "channel-mcq-15": "「私人頻道」與本句語境不同。",
-        "channel-mcq-12": "「外交渠道」與本句語境不同。",
-        "channel-mcq-16": "「電視頻道」與本句語境不同。",
-        "channel-mcq-11": "「私下／非公開渠道」與本句語境不同。"
+        "channel-mcq-14": "本句的「project channel」指「項目頻道」。",
+        "channel-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-14"
     },
@@ -2638,11 +2521,9 @@ export default {
       "masked": "Join the team ____ for daily updates.",
       "options": [
         "channel-mcq-14",
-        "channel-mcq-13",
-        "channel-mcq-15",
-        "channel-mcq-12",
-        "channel-mcq-16",
-        "channel-mcq-11"
+        "channel-mcq-18",
+        "channel-mcq-62",
+        "channel-mcq-64"
       ],
       "explanation": "本句的「channel」指「項目頻道」。",
       "sentenceIndex": 34,
@@ -2651,12 +2532,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-14": "本句指「項目頻道」。",
-        "channel-mcq-13": "「頻道」與本句語境不同。",
-        "channel-mcq-15": "「私人頻道」與本句語境不同。",
-        "channel-mcq-12": "「外交渠道」與本句語境不同。",
-        "channel-mcq-16": "「電視頻道」與本句語境不同。",
-        "channel-mcq-11": "「私下／非公開渠道」與本句語境不同。"
+        "channel-mcq-14": "本句的「channel」指「項目頻道」。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-14"
     },
@@ -2668,11 +2547,9 @@ export default {
       "masked": "General announcements go in a ____.",
       "options": [
         "channel-mcq-15",
-        "channel-mcq-14",
-        "channel-mcq-16",
-        "channel-mcq-13",
-        "channel-mcq-17",
-        "channel-mcq-12"
+        "channel-mcq-04",
+        "channel-reviewed-66c8c05660",
+        "channel-mcq-56"
       ],
       "explanation": "本句的「public channel」指「私人頻道」。",
       "sentenceIndex": 35,
@@ -2681,12 +2558,10 @@ export default {
         "public channel"
       ],
       "optionReasons": {
-        "channel-mcq-15": "本句指「私人頻道」。",
-        "channel-mcq-14": "「項目頻道」與本句語境不同。",
-        "channel-mcq-16": "「電視頻道」與本句語境不同。",
-        "channel-mcq-13": "「頻道」與本句語境不同。",
-        "channel-mcq-17": "「新聞頻道」與本句語境不同。",
-        "channel-mcq-12": "「外交渠道」與本句語境不同。"
+        "channel-mcq-15": "本句的「public channel」指「私人頻道」。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-15"
     },
@@ -2698,11 +2573,9 @@ export default {
       "masked": "Sensitive matters should stay in a private ____.",
       "options": [
         "channel-mcq-15",
-        "channel-mcq-14",
-        "channel-mcq-16",
-        "channel-mcq-13",
-        "channel-mcq-17",
-        "channel-mcq-12"
+        "channel-mcq-58",
+        "channel-pdf-002",
+        "channel-mcq-18"
       ],
       "explanation": "本句的「channel」指「私人頻道」。",
       "sentenceIndex": 36,
@@ -2711,12 +2584,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-15": "本句指「私人頻道」。",
-        "channel-mcq-14": "「項目頻道」與本句語境不同。",
-        "channel-mcq-16": "「電視頻道」與本句語境不同。",
-        "channel-mcq-13": "「頻道」與本句語境不同。",
-        "channel-mcq-17": "「新聞頻道」與本句語境不同。",
-        "channel-mcq-12": "「外交渠道」與本句語境不同。"
+        "channel-mcq-15": "本句的「channel」指「私人頻道」。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-15"
     },
@@ -2728,11 +2599,9 @@ export default {
       "masked": "Which ____ is the programme on?",
       "options": [
         "channel-pdf-001",
-        "channel-mcq-15",
-        "channel-mcq-17",
-        "channel-mcq-14",
-        "channel-mcq-18",
-        "channel-mcq-13"
+        "channel-mcq-12",
+        "channel-mcq-62",
+        "channel-mcq-04"
       ],
       "explanation": "本句的「channel」指「播放一系列電視節目的電視服務或指定傳輸頻段」。",
       "sentenceIndex": 37,
@@ -2741,12 +2610,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-pdf-001": "本句指「播放一系列電視節目的電視服務或指定傳輸頻段」。",
-        "channel-mcq-15": "「私人頻道」與本句語境不同。",
-        "channel-mcq-17": "「新聞頻道」與本句語境不同。",
-        "channel-mcq-14": "「項目頻道」與本句語境不同。",
-        "channel-mcq-18": "「轉台」與本句語境不同。",
-        "channel-mcq-13": "「頻道」與本句語境不同。"
+        "channel-pdf-001": "本句的「channel」指「播放一系列電視節目的電視服務或指定傳輸頻段」。",
+        "channel-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-pdf-001"
     },
@@ -2758,11 +2625,9 @@ export default {
       "masked": "The television receives hundreds of ____.",
       "options": [
         "channel-pdf-001",
-        "channel-mcq-15",
-        "channel-mcq-17",
-        "channel-mcq-14",
-        "channel-mcq-18",
-        "channel-mcq-13"
+        "channel-mcq-31",
+        "channel-mcq-05",
+        "channel-mcq-56"
       ],
       "explanation": "本句的「channels」指「播放一系列電視節目的電視服務或指定傳輸頻段」。",
       "sentenceIndex": 38,
@@ -2771,12 +2636,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-pdf-001": "本句指「播放一系列電視節目的電視服務或指定傳輸頻段」。",
-        "channel-mcq-15": "「私人頻道」與本句語境不同。",
-        "channel-mcq-17": "「新聞頻道」與本句語境不同。",
-        "channel-mcq-14": "「項目頻道」與本句語境不同。",
-        "channel-mcq-18": "「轉台」與本句語境不同。",
-        "channel-mcq-13": "「頻道」與本句語境不同。"
+        "channel-pdf-001": "本句的「channels」指「播放一系列電視節目的電視服務或指定傳輸頻段」。",
+        "channel-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-pdf-001"
     },
@@ -2788,11 +2651,9 @@ export default {
       "masked": "She works for a national ____.",
       "options": [
         "channel-mcq-16",
-        "channel-mcq-15",
-        "channel-mcq-17",
-        "channel-mcq-14",
-        "channel-mcq-18",
-        "channel-mcq-13"
+        "channel-mcq-04",
+        "channel-mcq-37",
+        "channel-pdf-003"
       ],
       "explanation": "本句的「TV channel」指「電視頻道」。",
       "sentenceIndex": 39,
@@ -2801,12 +2662,10 @@ export default {
         "TV channel"
       ],
       "optionReasons": {
-        "channel-mcq-16": "本句指「電視頻道」。",
-        "channel-mcq-15": "「私人頻道」與本句語境不同。",
-        "channel-mcq-17": "「新聞頻道」與本句語境不同。",
-        "channel-mcq-14": "「項目頻道」與本句語境不同。",
-        "channel-mcq-18": "「轉台」與本句語境不同。",
-        "channel-mcq-13": "「頻道」與本句語境不同。"
+        "channel-mcq-16": "本句的「TV channel」指「電視頻道」。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-16"
     },
@@ -2818,11 +2677,9 @@ export default {
       "masked": "Several ____ broadcast the event live.",
       "options": [
         "channel-mcq-16",
-        "channel-mcq-15",
-        "channel-mcq-17",
-        "channel-mcq-14",
-        "channel-mcq-18",
-        "channel-mcq-13"
+        "channel-mcq-39",
+        "channel-mcq-58",
+        "channel-mcq-59"
       ],
       "explanation": "本句的「channels」指「電視頻道」。",
       "sentenceIndex": 40,
@@ -2831,12 +2688,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-16": "本句指「電視頻道」。",
-        "channel-mcq-15": "「私人頻道」與本句語境不同。",
-        "channel-mcq-17": "「新聞頻道」與本句語境不同。",
-        "channel-mcq-14": "「項目頻道」與本句語境不同。",
-        "channel-mcq-18": "「轉台」與本句語境不同。",
-        "channel-mcq-13": "「頻道」與本句語境不同。"
+        "channel-mcq-16": "本句的「channels」指「電視頻道」。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-16"
     },
@@ -2848,11 +2703,9 @@ export default {
       "masked": "He watches a ____ every morning.",
       "options": [
         "channel-mcq-17",
-        "channel-mcq-16",
-        "channel-mcq-18",
-        "channel-mcq-15",
-        "channel-mcq-19",
-        "channel-mcq-14"
+        "channel-mcq-40",
+        "channel-mcq-60",
+        "channel-mcq-57"
       ],
       "explanation": "本句的「news channel」指「新聞頻道」。",
       "sentenceIndex": 41,
@@ -2861,12 +2714,10 @@ export default {
         "news channel"
       ],
       "optionReasons": {
-        "channel-mcq-17": "本句指「新聞頻道」。",
-        "channel-mcq-16": "「電視頻道」與本句語境不同。",
-        "channel-mcq-18": "「轉台」與本句語境不同。",
-        "channel-mcq-15": "「私人頻道」與本句語境不同。",
-        "channel-mcq-19": "「不停轉台」與本句語境不同。",
-        "channel-mcq-14": "「項目頻道」與本句語境不同。"
+        "channel-mcq-17": "本句的「news channel」指「新聞頻道」。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-17"
     },
@@ -2878,11 +2729,9 @@ export default {
       "masked": "The news ____ provided continuous coverage.",
       "options": [
         "channel-mcq-17",
-        "channel-mcq-16",
-        "channel-mcq-18",
-        "channel-mcq-15",
-        "channel-mcq-19",
-        "channel-mcq-14"
+        "channel-mcq-56",
+        "channel-pdf-002",
+        "channel-mcq-64"
       ],
       "explanation": "本句的「channel」指「新聞頻道」。",
       "sentenceIndex": 42,
@@ -2891,12 +2740,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-17": "本句指「新聞頻道」。",
-        "channel-mcq-16": "「電視頻道」與本句語境不同。",
-        "channel-mcq-18": "「轉台」與本句語境不同。",
-        "channel-mcq-15": "「私人頻道」與本句語境不同。",
-        "channel-mcq-19": "「不停轉台」與本句語境不同。",
-        "channel-mcq-14": "「項目頻道」與本句語境不同。"
+        "channel-mcq-17": "本句的「channel」指「新聞頻道」。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-17"
     },
@@ -2908,11 +2755,9 @@ export default {
       "masked": "The package includes several ____.",
       "options": [
         "channel-mcq-17",
-        "channel-mcq-16",
+        "channel-mcq-55",
         "channel-mcq-18",
-        "channel-mcq-15",
-        "channel-mcq-19",
-        "channel-mcq-14"
+        "channel-mcq-60"
       ],
       "explanation": "本句的「sports channels」指「新聞頻道」。",
       "sentenceIndex": 43,
@@ -2921,12 +2766,10 @@ export default {
         "sports channels"
       ],
       "optionReasons": {
-        "channel-mcq-17": "本句指「新聞頻道」。",
-        "channel-mcq-16": "「電視頻道」與本句語境不同。",
-        "channel-mcq-18": "「轉台」與本句語境不同。",
-        "channel-mcq-15": "「私人頻道」與本句語境不同。",
-        "channel-mcq-19": "「不停轉台」與本句語境不同。",
-        "channel-mcq-14": "「項目頻道」與本句語境不同。"
+        "channel-mcq-17": "本句的「sports channels」指「新聞頻道」。",
+        "channel-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-17"
     },
@@ -2938,11 +2781,9 @@ export default {
       "masked": "The children's ____ broadcasts educational programmes.",
       "options": [
         "channel-mcq-17",
-        "channel-mcq-16",
-        "channel-mcq-18",
-        "channel-mcq-15",
-        "channel-mcq-19",
-        "channel-mcq-14"
+        "channel-mcq-39",
+        "channel-mcq-65",
+        "channel-mcq-57"
       ],
       "explanation": "本句的「channel」指「新聞頻道」。",
       "sentenceIndex": 44,
@@ -2951,12 +2792,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-17": "本句指「新聞頻道」。",
-        "channel-mcq-16": "「電視頻道」與本句語境不同。",
-        "channel-mcq-18": "「轉台」與本句語境不同。",
-        "channel-mcq-15": "「私人頻道」與本句語境不同。",
-        "channel-mcq-19": "「不停轉台」與本句語境不同。",
-        "channel-mcq-14": "「項目頻道」與本句語境不同。"
+        "channel-mcq-17": "本句的「channel」指「新聞頻道」。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-17"
     },
@@ -2968,11 +2807,9 @@ export default {
       "masked": "The match is available only on a ____.",
       "options": [
         "channel-mcq-17",
-        "channel-mcq-16",
+        "channel-mcq-38",
         "channel-mcq-18",
-        "channel-mcq-15",
-        "channel-mcq-19",
-        "channel-mcq-14"
+        "channel-mcq-65"
       ],
       "explanation": "本句的「pay channel」指「新聞頻道」。",
       "sentenceIndex": 45,
@@ -2981,12 +2818,10 @@ export default {
         "pay channel"
       ],
       "optionReasons": {
-        "channel-mcq-17": "本句指「新聞頻道」。",
-        "channel-mcq-16": "「電視頻道」與本句語境不同。",
-        "channel-mcq-18": "「轉台」與本句語境不同。",
-        "channel-mcq-15": "「私人頻道」與本句語境不同。",
-        "channel-mcq-19": "「不停轉台」與本句語境不同。",
-        "channel-mcq-14": "「項目頻道」與本句語境不同。"
+        "channel-mcq-17": "本句的「pay channel」指「新聞頻道」。",
+        "channel-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-17"
     },
@@ -2998,11 +2833,9 @@ export default {
       "masked": "Subscription ____ charge viewers a regular fee.",
       "options": [
         "channel-mcq-17",
-        "channel-mcq-16",
-        "channel-mcq-18",
-        "channel-mcq-15",
-        "channel-mcq-19",
-        "channel-mcq-14"
+        "channel-mcq-55",
+        "channel-mcq-34",
+        "channel-mcq-40"
       ],
       "explanation": "本句的「channels」指「新聞頻道」。",
       "sentenceIndex": 46,
@@ -3011,12 +2844,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-17": "本句指「新聞頻道」。",
-        "channel-mcq-16": "「電視頻道」與本句語境不同。",
-        "channel-mcq-18": "「轉台」與本句語境不同。",
-        "channel-mcq-15": "「私人頻道」與本句語境不同。",
-        "channel-mcq-19": "「不停轉台」與本句語境不同。",
-        "channel-mcq-14": "「項目頻道」與本句語境不同。"
+        "channel-mcq-17": "本句的「channels」指「新聞頻道」。",
+        "channel-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-17"
     },
@@ -3028,11 +2859,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "channel-mcq-18",
-        "channel-mcq-17",
-        "channel-mcq-19",
-        "channel-mcq-16",
-        "channel-mcq-20",
-        "channel-mcq-15"
+        "channel-mcq-31",
+        "channel-mcq-14",
+        "channel-mcq-56"
       ],
       "explanation": "本句的「change the channel」指「轉台」。",
       "sentenceIndex": 47,
@@ -3041,12 +2870,10 @@ export default {
         "change the channel"
       ],
       "optionReasons": {
-        "channel-mcq-18": "本句指「轉台」。",
-        "channel-mcq-17": "「新聞頻道」與本句語境不同。",
-        "channel-mcq-19": "「不停轉台」與本句語境不同。",
-        "channel-mcq-16": "「電視頻道」與本句語境不同。",
-        "channel-mcq-20": "「無線電頻道」與本句語境不同。",
-        "channel-mcq-15": "「私人頻道」與本句語境不同。"
+        "channel-mcq-18": "本句的「change the channel」指「轉台」。",
+        "channel-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-18"
     },
@@ -3058,11 +2885,9 @@ export default {
       "masked": "She switched ____ during the advertisement.",
       "options": [
         "channel-mcq-18",
-        "channel-mcq-17",
-        "channel-mcq-19",
-        "channel-mcq-16",
-        "channel-mcq-20",
-        "channel-mcq-15"
+        "channel-mcq-36",
+        "channel-mcq-59",
+        "channel-mcq-38"
       ],
       "explanation": "本句的「channels」指「轉台」。",
       "sentenceIndex": 48,
@@ -3071,12 +2896,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-18": "本句指「轉台」。",
-        "channel-mcq-17": "「新聞頻道」與本句語境不同。",
-        "channel-mcq-19": "「不停轉台」與本句語境不同。",
-        "channel-mcq-16": "「電視頻道」與本句語境不同。",
-        "channel-mcq-20": "「無線電頻道」與本句語境不同。",
-        "channel-mcq-15": "「私人頻道」與本句語境不同。"
+        "channel-mcq-18": "本句的「channels」指「轉台」。",
+        "channel-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-18"
     },
@@ -3088,11 +2911,9 @@ export default {
       "masked": "He spent the evening ____.",
       "options": [
         "channel-mcq-19",
-        "channel-mcq-18",
-        "channel-mcq-20",
+        "channel-mcq-09",
         "channel-mcq-17",
-        "channel-mcq-21",
-        "channel-mcq-16"
+        "channel-mcq-60"
       ],
       "explanation": "本句的「channel surfing」指「不停轉台」。",
       "sentenceIndex": 49,
@@ -3101,12 +2922,10 @@ export default {
         "channel surfing"
       ],
       "optionReasons": {
-        "channel-mcq-19": "本句指「不停轉台」。",
-        "channel-mcq-18": "「轉台」與本句語境不同。",
-        "channel-mcq-20": "「無線電頻道」與本句語境不同。",
-        "channel-mcq-17": "「新聞頻道」與本句語境不同。",
-        "channel-mcq-21": "「廣播頻道」與本句語境不同。",
-        "channel-mcq-16": "「電視頻道」與本句語境不同。"
+        "channel-mcq-19": "本句的「channel surfing」指「不停轉台」。",
+        "channel-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-19"
     },
@@ -3118,11 +2937,9 @@ export default {
       "masked": "Streaming has reduced traditional ____ surfing.",
       "options": [
         "channel-mcq-19",
-        "channel-mcq-18",
-        "channel-mcq-20",
-        "channel-mcq-17",
-        "channel-mcq-21",
-        "channel-mcq-16"
+        "channel-mcq-35",
+        "channel-mcq-60",
+        "channel-mcq-57"
       ],
       "explanation": "本句的「channel」指「不停轉台」。",
       "sentenceIndex": 50,
@@ -3131,12 +2948,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-19": "本句指「不停轉台」。",
-        "channel-mcq-18": "「轉台」與本句語境不同。",
-        "channel-mcq-20": "「無線電頻道」與本句語境不同。",
-        "channel-mcq-17": "「新聞頻道」與本句語境不同。",
-        "channel-mcq-21": "「廣播頻道」與本句語境不同。",
-        "channel-mcq-16": "「電視頻道」與本句語境不同。"
+        "channel-mcq-19": "本句的「channel」指「不停轉台」。",
+        "channel-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-19"
     },
@@ -3148,11 +2963,9 @@ export default {
       "masked": "Emergency staff communicate on a dedicated ____.",
       "options": [
         "channel-mcq-20",
-        "channel-mcq-19",
-        "channel-mcq-21",
         "channel-mcq-18",
-        "channel-mcq-22",
-        "channel-mcq-17"
+        "channel-mcq-55",
+        "channel-reviewed-66c8c05660"
       ],
       "explanation": "本句的「radio channel」指「無線電頻道」。",
       "sentenceIndex": 51,
@@ -3161,12 +2974,10 @@ export default {
         "radio channel"
       ],
       "optionReasons": {
-        "channel-mcq-20": "本句指「無線電頻道」。",
-        "channel-mcq-19": "「不停轉台」與本句語境不同。",
-        "channel-mcq-21": "「廣播頻道」與本句語境不同。",
-        "channel-mcq-18": "「轉台」與本句語境不同。",
-        "channel-mcq-22": "「信道」與本句語境不同。",
-        "channel-mcq-17": "「新聞頻道」與本句語境不同。"
+        "channel-mcq-20": "本句的「radio channel」指「無線電頻道」。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-20"
     },
@@ -3178,11 +2989,9 @@ export default {
       "masked": "Switch to another radio ____.",
       "options": [
         "channel-mcq-20",
-        "channel-mcq-19",
-        "channel-mcq-21",
-        "channel-mcq-18",
-        "channel-mcq-22",
-        "channel-mcq-17"
+        "channel-mcq-34",
+        "channel-mcq-65",
+        "channel-mcq-18"
       ],
       "explanation": "本句的「channel」指「無線電頻道」。",
       "sentenceIndex": 52,
@@ -3191,12 +3000,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-20": "本句指「無線電頻道」。",
-        "channel-mcq-19": "「不停轉台」與本句語境不同。",
-        "channel-mcq-21": "「廣播頻道」與本句語境不同。",
-        "channel-mcq-18": "「轉台」與本句語境不同。",
-        "channel-mcq-22": "「信道」與本句語境不同。",
-        "channel-mcq-17": "「新聞頻道」與本句語境不同。"
+        "channel-mcq-20": "本句的「channel」指「無線電頻道」。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-20"
     },
@@ -3208,11 +3015,9 @@ export default {
       "masked": "The signal is carried on a separate ____.",
       "options": [
         "channel-mcq-21",
-        "channel-mcq-20",
-        "channel-mcq-22",
-        "channel-mcq-19",
-        "channel-mcq-23",
-        "channel-mcq-18"
+        "channel-mcq-65",
+        "channel-mcq-61",
+        "channel-mcq-60"
       ],
       "explanation": "本句的「broadcast channel」指「廣播頻道」。",
       "sentenceIndex": 53,
@@ -3221,12 +3026,10 @@ export default {
         "broadcast channel"
       ],
       "optionReasons": {
-        "channel-mcq-21": "本句指「廣播頻道」。",
-        "channel-mcq-20": "「無線電頻道」與本句語境不同。",
-        "channel-mcq-22": "「信道」與本句語境不同。",
-        "channel-mcq-19": "「不停轉台」與本句語境不同。",
-        "channel-mcq-23": "「頻率信道」與本句語境不同。",
-        "channel-mcq-18": "「轉台」與本句語境不同。"
+        "channel-mcq-21": "本句的「broadcast channel」指「廣播頻道」。",
+        "channel-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-21"
     },
@@ -3238,11 +3041,9 @@ export default {
       "masked": "Each broadcast ____ uses allocated spectrum.",
       "options": [
         "channel-mcq-21",
-        "channel-mcq-20",
-        "channel-mcq-22",
-        "channel-mcq-19",
-        "channel-mcq-23",
-        "channel-mcq-18"
+        "channel-mcq-57",
+        "channel-pdf-002",
+        "channel-mcq-39"
       ],
       "explanation": "本句的「channel」指「廣播頻道」。",
       "sentenceIndex": 54,
@@ -3251,12 +3052,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-21": "本句指「廣播頻道」。",
-        "channel-mcq-20": "「無線電頻道」與本句語境不同。",
-        "channel-mcq-22": "「信道」與本句語境不同。",
-        "channel-mcq-19": "「不停轉台」與本句語境不同。",
-        "channel-mcq-23": "「頻率信道」與本句語境不同。",
-        "channel-mcq-18": "「轉台」與本句語境不同。"
+        "channel-mcq-21": "本句的「channel」指「廣播頻道」。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-21"
     },
@@ -3268,11 +3067,9 @@ export default {
       "masked": "The signal travels through a communication ____.",
       "options": [
         "channel-pdf-002",
-        "channel-mcq-21",
-        "channel-mcq-23",
+        "channel-mcq-44",
         "channel-mcq-20",
-        "channel-mcq-24",
-        "channel-mcq-19"
+        "channel-mcq-35"
       ],
       "explanation": "本句的「channel」指「通訊系統中訊號由發送端傳到接收端所經過的路徑／媒介」。",
       "sentenceIndex": 55,
@@ -3281,12 +3078,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-pdf-002": "本句指「通訊系統中訊號由發送端傳到接收端所經過的路徑／媒介」。",
-        "channel-mcq-21": "「廣播頻道」與本句語境不同。",
-        "channel-mcq-23": "「頻率信道」與本句語境不同。",
-        "channel-mcq-20": "「無線電頻道」與本句語境不同。",
-        "channel-mcq-24": "「無線信道」與本句語境不同。",
-        "channel-mcq-19": "「不停轉台」與本句語境不同。"
+        "channel-pdf-002": "本句的「channel」指「通訊系統中訊號由發送端傳到接收端所經過的路徑／媒介」。",
+        "channel-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-pdf-002"
     },
@@ -3298,11 +3093,9 @@ export default {
       "masked": "Noise can reduce the quality of the ____.",
       "options": [
         "channel-pdf-002",
-        "channel-mcq-21",
-        "channel-mcq-23",
-        "channel-mcq-20",
-        "channel-mcq-24",
-        "channel-mcq-19"
+        "channel-mcq-36",
+        "channel-mcq-61",
+        "channel-mcq-60"
       ],
       "explanation": "本句的「channel」指「通訊系統中訊號由發送端傳到接收端所經過的路徑／媒介」。",
       "sentenceIndex": 56,
@@ -3311,12 +3104,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-pdf-002": "本句指「通訊系統中訊號由發送端傳到接收端所經過的路徑／媒介」。",
-        "channel-mcq-21": "「廣播頻道」與本句語境不同。",
-        "channel-mcq-23": "「頻率信道」與本句語境不同。",
-        "channel-mcq-20": "「無線電頻道」與本句語境不同。",
-        "channel-mcq-24": "「無線信道」與本句語境不同。",
-        "channel-mcq-19": "「不停轉台」與本句語境不同。"
+        "channel-pdf-002": "本句的「channel」指「通訊系統中訊號由發送端傳到接收端所經過的路徑／媒介」。",
+        "channel-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-pdf-002"
     },
@@ -3328,11 +3119,9 @@ export default {
       "masked": "Wireless networks use radio waves as communication ____.",
       "options": [
         "channel-mcq-02",
-        "channel-mcq-01",
-        "channel-mcq-03",
-        "channel-mcq-04",
-        "channel-mcq-05",
-        "channel-mcq-06"
+        "channel-mcq-18",
+        "channel-mcq-34",
+        "channel-mcq-59"
       ],
       "explanation": "本句的「channels」指「溝通渠道」。",
       "sentenceIndex": 57,
@@ -3341,12 +3130,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-02": "本句指「溝通渠道」。",
-        "channel-mcq-01": "「溝通／資訊渠道」與本句語境不同。",
-        "channel-mcq-03": "「更新渠道」與本句語境不同。",
-        "channel-mcq-04": "「溝通途徑」與本句語境不同。",
-        "channel-mcq-05": "「資訊渠道」與本句語境不同。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。"
+        "channel-mcq-02": "本句的「channels」指「溝通渠道」。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-02"
     },
@@ -3358,11 +3145,9 @@ export default {
       "masked": "A ____ may carry voice, video or data.",
       "options": [
         "channel-mcq-02",
-        "channel-mcq-01",
-        "channel-mcq-03",
-        "channel-mcq-04",
-        "channel-mcq-05",
-        "channel-mcq-06"
+        "channel-mcq-19",
+        "channel-mcq-59",
+        "channel-pdf-003"
       ],
       "explanation": "本句的「channel」指「溝通渠道」。",
       "sentenceIndex": 58,
@@ -3371,12 +3156,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-02": "本句指「溝通渠道」。",
-        "channel-mcq-01": "「溝通／資訊渠道」與本句語境不同。",
-        "channel-mcq-03": "「更新渠道」與本句語境不同。",
-        "channel-mcq-04": "「溝通途徑」與本句語境不同。",
-        "channel-mcq-05": "「資訊渠道」與本句語境不同。",
-        "channel-mcq-06": "「匯報渠道」與本句語境不同。"
+        "channel-mcq-02": "本句的「channel」指「溝通渠道」。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-02"
     },
@@ -3388,11 +3171,9 @@ export default {
       "masked": "The devices operate on different ____.",
       "options": [
         "channel-mcq-23",
-        "channel-mcq-22",
-        "channel-mcq-24",
-        "channel-mcq-21",
-        "channel-mcq-25",
-        "channel-mcq-20"
+        "channel-mcq-58",
+        "channel-mcq-56",
+        "channel-pdf-002"
       ],
       "explanation": "本句的「frequency channels」指「頻率信道」。",
       "sentenceIndex": 59,
@@ -3401,12 +3182,10 @@ export default {
         "frequency channels"
       ],
       "optionReasons": {
-        "channel-mcq-23": "本句指「頻率信道」。",
-        "channel-mcq-22": "「信道」與本句語境不同。",
-        "channel-mcq-24": "「無線信道」與本句語境不同。",
-        "channel-mcq-21": "「廣播頻道」與本句語境不同。",
-        "channel-mcq-25": "「信道頻寬」與本句語境不同。",
-        "channel-mcq-20": "「無線電頻道」與本句語境不同。"
+        "channel-mcq-23": "本句的「frequency channels」指「頻率信道」。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-23"
     },
@@ -3418,11 +3197,9 @@ export default {
       "masked": "Changing the ____ can reduce interference.",
       "options": [
         "channel-mcq-23",
-        "channel-mcq-22",
-        "channel-mcq-24",
-        "channel-mcq-21",
-        "channel-mcq-25",
-        "channel-mcq-20"
+        "channel-mcq-57",
+        "channel-mcq-40",
+        "channel-mcq-60"
       ],
       "explanation": "本句的「channel」指「頻率信道」。",
       "sentenceIndex": 60,
@@ -3431,12 +3208,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-23": "本句指「頻率信道」。",
-        "channel-mcq-22": "「信道」與本句語境不同。",
-        "channel-mcq-24": "「無線信道」與本句語境不同。",
-        "channel-mcq-21": "「廣播頻道」與本句語境不同。",
-        "channel-mcq-25": "「信道頻寬」與本句語境不同。",
-        "channel-mcq-20": "「無線電頻道」與本句語境不同。"
+        "channel-mcq-23": "本句的「channel」指「頻率信道」。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-23"
     },
@@ -3448,11 +3223,9 @@ export default {
       "masked": "Signal quality varies across the ____.",
       "options": [
         "channel-mcq-24",
-        "channel-mcq-23",
-        "channel-mcq-25",
-        "channel-mcq-22",
-        "channel-mcq-26",
-        "channel-mcq-21"
+        "channel-reviewed-66c8c05660",
+        "channel-mcq-57",
+        "channel-mcq-18"
       ],
       "explanation": "本句的「wireless channel」指「無線信道」。",
       "sentenceIndex": 61,
@@ -3461,12 +3234,10 @@ export default {
         "wireless channel"
       ],
       "optionReasons": {
-        "channel-mcq-24": "本句指「無線信道」。",
-        "channel-mcq-23": "「頻率信道」與本句語境不同。",
-        "channel-mcq-25": "「信道頻寬」與本句語境不同。",
-        "channel-mcq-22": "「信道」與本句語境不同。",
-        "channel-mcq-26": "「信道容量」與本句語境不同。",
-        "channel-mcq-21": "「廣播頻道」與本句語境不同。"
+        "channel-mcq-24": "本句的「wireless channel」指「無線信道」。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-24"
     },
@@ -3478,11 +3249,9 @@ export default {
       "masked": "Obstacles can affect wireless-____ performance.",
       "options": [
         "channel-mcq-24",
-        "channel-mcq-23",
-        "channel-mcq-25",
-        "channel-mcq-22",
-        "channel-mcq-26",
-        "channel-mcq-21"
+        "channel-mcq-64",
+        "channel-pdf-002",
+        "channel-reviewed-66c8c05660"
       ],
       "explanation": "本句的「channel」指「無線信道」。",
       "sentenceIndex": 62,
@@ -3491,12 +3260,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-24": "本句指「無線信道」。",
-        "channel-mcq-23": "「頻率信道」與本句語境不同。",
-        "channel-mcq-25": "「信道頻寬」與本句語境不同。",
-        "channel-mcq-22": "「信道」與本句語境不同。",
-        "channel-mcq-26": "「信道容量」與本句語境不同。",
-        "channel-mcq-21": "「廣播頻道」與本句語境不同。"
+        "channel-mcq-24": "本句的「channel」指「無線信道」。",
+        "channel-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-24"
     },
@@ -3508,11 +3275,9 @@ export default {
       "masked": "Higher ____ allows more data to be transmitted.",
       "options": [
         "channel-mcq-25",
-        "channel-mcq-24",
-        "channel-mcq-26",
-        "channel-mcq-23",
-        "channel-mcq-27",
-        "channel-mcq-22"
+        "channel-mcq-61",
+        "channel-mcq-56",
+        "channel-mcq-41"
       ],
       "explanation": "本句的「channel bandwidth」指「信道頻寬」。",
       "sentenceIndex": 63,
@@ -3521,12 +3286,10 @@ export default {
         "channel bandwidth"
       ],
       "optionReasons": {
-        "channel-mcq-25": "本句指「信道頻寬」。",
-        "channel-mcq-24": "「無線信道」與本句語境不同。",
-        "channel-mcq-26": "「信道容量」與本句語境不同。",
-        "channel-mcq-23": "「頻率信道」與本句語境不同。",
-        "channel-mcq-27": "「音訊聲道」與本句語境不同。",
-        "channel-mcq-22": "「信道」與本句語境不同。"
+        "channel-mcq-25": "本句的「channel bandwidth」指「信道頻寬」。",
+        "channel-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-25"
     },
@@ -3538,11 +3301,9 @@ export default {
       "masked": "Theoretical ____ depends on signal and noise conditions.",
       "options": [
         "channel-mcq-26",
-        "channel-mcq-25",
-        "channel-mcq-27",
-        "channel-mcq-24",
-        "channel-mcq-28",
-        "channel-mcq-23"
+        "channel-mcq-18",
+        "channel-mcq-60",
+        "channel-mcq-04"
       ],
       "explanation": "本句的「channel capacity」指「信道容量」。",
       "sentenceIndex": 64,
@@ -3551,12 +3312,10 @@ export default {
         "channel capacity"
       ],
       "optionReasons": {
-        "channel-mcq-26": "本句指「信道容量」。",
-        "channel-mcq-25": "「信道頻寬」與本句語境不同。",
-        "channel-mcq-27": "「音訊聲道」與本句語境不同。",
-        "channel-mcq-24": "「無線信道」與本句語境不同。",
-        "channel-mcq-28": "「左／右聲道」與本句語境不同。",
-        "channel-mcq-23": "「頻率信道」與本句語境不同。"
+        "channel-mcq-26": "本句的「channel capacity」指「信道容量」。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-26"
     },
@@ -3568,11 +3327,9 @@ export default {
       "masked": "Engineers seek to increase ____ capacity.",
       "options": [
         "channel-mcq-26",
-        "channel-mcq-25",
-        "channel-mcq-27",
-        "channel-mcq-24",
-        "channel-mcq-28",
-        "channel-mcq-23"
+        "channel-mcq-40",
+        "channel-mcq-61",
+        "channel-mcq-59"
       ],
       "explanation": "本句的「channel」指「信道容量」。",
       "sentenceIndex": 65,
@@ -3581,12 +3338,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-26": "本句指「信道容量」。",
-        "channel-mcq-25": "「信道頻寬」與本句語境不同。",
-        "channel-mcq-27": "「音訊聲道」與本句語境不同。",
-        "channel-mcq-24": "「無線信道」與本句語境不同。",
-        "channel-mcq-28": "「左／右聲道」與本句語境不同。",
-        "channel-mcq-23": "「頻率信道」與本句語境不同。"
+        "channel-mcq-26": "本句的「channel」指「信道容量」。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-26"
     },
@@ -3598,11 +3353,9 @@ export default {
       "masked": "The recording has two ____.",
       "options": [
         "channel-mcq-27",
-        "channel-mcq-26",
-        "channel-mcq-28",
-        "channel-mcq-25",
-        "channel-mcq-29",
-        "channel-mcq-24"
+        "channel-mcq-04",
+        "channel-mcq-58",
+        "channel-mcq-41"
       ],
       "explanation": "本句的「audio channels」指「音訊聲道」。",
       "sentenceIndex": 66,
@@ -3611,12 +3364,10 @@ export default {
         "audio channels"
       ],
       "optionReasons": {
-        "channel-mcq-27": "本句指「音訊聲道」。",
-        "channel-mcq-26": "「信道容量」與本句語境不同。",
-        "channel-mcq-28": "「左／右聲道」與本句語境不同。",
-        "channel-mcq-25": "「信道頻寬」與本句語境不同。",
-        "channel-mcq-29": "「多聲道音訊」與本句語境不同。",
-        "channel-mcq-24": "「無線信道」與本句語境不同。"
+        "channel-mcq-27": "本句的「audio channels」指「音訊聲道」。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-27"
     },
@@ -3628,11 +3379,9 @@ export default {
       "masked": "One ____ carries the left-side audio.",
       "options": [
         "channel-mcq-27",
-        "channel-mcq-26",
-        "channel-mcq-28",
-        "channel-mcq-25",
-        "channel-mcq-29",
-        "channel-mcq-24"
+        "channel-mcq-60",
+        "channel-mcq-55",
+        "channel-mcq-37"
       ],
       "explanation": "本句的「channel」指「音訊聲道」。",
       "sentenceIndex": 67,
@@ -3641,12 +3390,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-27": "本句指「音訊聲道」。",
-        "channel-mcq-26": "「信道容量」與本句語境不同。",
-        "channel-mcq-28": "「左／右聲道」與本句語境不同。",
-        "channel-mcq-25": "「信道頻寬」與本句語境不同。",
-        "channel-mcq-29": "「多聲道音訊」與本句語境不同。",
-        "channel-mcq-24": "「無線信道」與本句語境不同。"
+        "channel-mcq-27": "本句的「channel」指「音訊聲道」。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-27"
     },
@@ -3658,11 +3405,9 @@ export default {
       "masked": "The left ____ is quieter than the right.",
       "options": [
         "channel-mcq-28",
-        "channel-mcq-27",
-        "channel-mcq-29",
-        "channel-mcq-26",
-        "channel-mcq-30",
-        "channel-mcq-25"
+        "channel-mcq-34",
+        "channel-mcq-58",
+        "channel-mcq-18"
       ],
       "explanation": "本句的「channel」指「左／右聲道」。",
       "sentenceIndex": 68,
@@ -3671,12 +3416,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-28": "本句指「左／右聲道」。",
-        "channel-mcq-27": "「音訊聲道」與本句語境不同。",
-        "channel-mcq-29": "「多聲道音訊」與本句語境不同。",
-        "channel-mcq-26": "「信道容量」與本句語境不同。",
-        "channel-mcq-30": "「色彩通道」與本句語境不同。",
-        "channel-mcq-25": "「信道頻寬」與本句語境不同。"
+        "channel-mcq-28": "本句的「channel」指「左／右聲道」。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-28"
     },
@@ -3688,11 +3431,9 @@ export default {
       "masked": "Check both ____ during the sound test.",
       "options": [
         "channel-mcq-28",
-        "channel-mcq-27",
-        "channel-mcq-29",
-        "channel-mcq-26",
-        "channel-mcq-30",
-        "channel-mcq-25"
+        "channel-mcq-04",
+        "channel-pdf-001",
+        "channel-mcq-58"
       ],
       "explanation": "本句的「channels」指「左／右聲道」。",
       "sentenceIndex": 69,
@@ -3701,12 +3442,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-28": "本句指「左／右聲道」。",
-        "channel-mcq-27": "「音訊聲道」與本句語境不同。",
-        "channel-mcq-29": "「多聲道音訊」與本句語境不同。",
-        "channel-mcq-26": "「信道容量」與本句語境不同。",
-        "channel-mcq-30": "「色彩通道」與本句語境不同。",
-        "channel-mcq-25": "「信道頻寬」與本句語境不同。"
+        "channel-mcq-28": "本句的「channels」指「左／右聲道」。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-28"
     },
@@ -3718,11 +3457,9 @@ export default {
       "masked": "Stereo normally uses separate left and right ____.",
       "options": [
         "channel-mcq-28",
-        "channel-mcq-27",
-        "channel-mcq-29",
-        "channel-mcq-26",
-        "channel-mcq-30",
-        "channel-mcq-25"
+        "channel-reviewed-66c8c05660",
+        "channel-mcq-57",
+        "channel-mcq-18"
       ],
       "explanation": "本句的「channels」指「左／右聲道」。",
       "sentenceIndex": 70,
@@ -3731,12 +3468,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-28": "本句指「左／右聲道」。",
-        "channel-mcq-27": "「音訊聲道」與本句語境不同。",
-        "channel-mcq-29": "「多聲道音訊」與本句語境不同。",
-        "channel-mcq-26": "「信道容量」與本句語境不同。",
-        "channel-mcq-30": "「色彩通道」與本句語境不同。",
-        "channel-mcq-25": "「信道頻寬」與本句語境不同。"
+        "channel-mcq-28": "本句的「channels」指「左／右聲道」。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-28"
     },
@@ -3748,11 +3483,9 @@ export default {
       "masked": "The system supports multiple surround-sound ____.",
       "options": [
         "channel-mcq-28",
-        "channel-mcq-27",
-        "channel-mcq-29",
-        "channel-mcq-26",
-        "channel-mcq-30",
-        "channel-mcq-25"
+        "channel-mcq-58",
+        "channel-mcq-04",
+        "channel-mcq-19"
       ],
       "explanation": "本句的「channels」指「左／右聲道」。",
       "sentenceIndex": 71,
@@ -3761,12 +3494,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-28": "本句指「左／右聲道」。",
-        "channel-mcq-27": "「音訊聲道」與本句語境不同。",
-        "channel-mcq-29": "「多聲道音訊」與本句語境不同。",
-        "channel-mcq-26": "「信道容量」與本句語境不同。",
-        "channel-mcq-30": "「色彩通道」與本句語境不同。",
-        "channel-mcq-25": "「信道頻寬」與本句語境不同。"
+        "channel-mcq-28": "本句的「channels」指「左／右聲道」。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-28"
     },
@@ -3778,11 +3509,9 @@ export default {
       "masked": "The film uses ____.",
       "options": [
         "channel-mcq-29",
-        "channel-mcq-28",
-        "channel-mcq-30",
-        "channel-mcq-27",
-        "channel-mcq-31",
-        "channel-mcq-26"
+        "channel-mcq-62",
+        "channel-mcq-41",
+        "channel-mcq-55"
       ],
       "explanation": "本句的「multichannel audio」指「多聲道音訊」。",
       "sentenceIndex": 72,
@@ -3791,12 +3520,10 @@ export default {
         "multichannel audio"
       ],
       "optionReasons": {
-        "channel-mcq-29": "本句指「多聲道音訊」。",
-        "channel-mcq-28": "「左／右聲道」與本句語境不同。",
-        "channel-mcq-30": "「色彩通道」與本句語境不同。",
-        "channel-mcq-27": "「音訊聲道」與本句語境不同。",
-        "channel-mcq-31": "「Alpha 透明通道」與本句語境不同。",
-        "channel-mcq-26": "「信道容量」與本句語境不同。"
+        "channel-mcq-29": "本句的「multichannel audio」指「多聲道音訊」。",
+        "channel-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-29"
     },
@@ -3808,11 +3535,9 @@ export default {
       "masked": "An RGB image contains red, green and blue ____.",
       "options": [
         "channel-mcq-30",
-        "channel-mcq-29",
-        "channel-mcq-31",
-        "channel-mcq-28",
-        "channel-mcq-32",
-        "channel-mcq-27"
+        "channel-mcq-60",
+        "channel-mcq-55",
+        "channel-pdf-001"
       ],
       "explanation": "本句的「channels」指「色彩通道」。",
       "sentenceIndex": 73,
@@ -3821,12 +3546,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-30": "本句指「色彩通道」。",
-        "channel-mcq-29": "「多聲道音訊」與本句語境不同。",
-        "channel-mcq-31": "「Alpha 透明通道」與本句語境不同。",
-        "channel-mcq-28": "「左／右聲道」與本句語境不同。",
-        "channel-mcq-32": "「水道；河道」與本句語境不同。",
-        "channel-mcq-27": "「音訊聲道」與本句語境不同。"
+        "channel-mcq-30": "本句的「channels」指「色彩通道」。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-30"
     },
@@ -3838,11 +3561,9 @@ export default {
       "masked": "Adjusting one colour ____ changes part of the image.",
       "options": [
         "channel-mcq-30",
-        "channel-mcq-29",
-        "channel-mcq-31",
-        "channel-mcq-28",
-        "channel-mcq-32",
-        "channel-mcq-27"
+        "channel-mcq-60",
+        "channel-mcq-38",
+        "channel-mcq-39"
       ],
       "explanation": "本句的「channel」指「色彩通道」。",
       "sentenceIndex": 74,
@@ -3851,12 +3572,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-30": "本句指「色彩通道」。",
-        "channel-mcq-29": "「多聲道音訊」與本句語境不同。",
-        "channel-mcq-31": "「Alpha 透明通道」與本句語境不同。",
-        "channel-mcq-28": "「左／右聲道」與本句語境不同。",
-        "channel-mcq-32": "「水道；河道」與本句語境不同。",
-        "channel-mcq-27": "「音訊聲道」與本句語境不同。"
+        "channel-mcq-30": "本句的「channel」指「色彩通道」。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-30"
     },
@@ -3868,11 +3587,9 @@ export default {
       "masked": "The image includes an ____ for transparency.",
       "options": [
         "channel-mcq-31",
-        "channel-mcq-30",
-        "channel-mcq-32",
-        "channel-mcq-29",
-        "channel-mcq-33",
-        "channel-mcq-28"
+        "channel-mcq-38",
+        "channel-mcq-18",
+        "channel-mcq-40"
       ],
       "explanation": "本句的「alpha channel」指「Alpha 透明通道」。",
       "sentenceIndex": 75,
@@ -3881,12 +3598,10 @@ export default {
         "alpha channel"
       ],
       "optionReasons": {
-        "channel-mcq-31": "本句指「Alpha 透明通道」。",
-        "channel-mcq-30": "「色彩通道」與本句語境不同。",
-        "channel-mcq-32": "「水道；河道」與本句語境不同。",
-        "channel-mcq-29": "「多聲道音訊」與本句語境不同。",
-        "channel-mcq-33": "「河道」與本句語境不同。",
-        "channel-mcq-28": "「左／右聲道」與本句語境不同。"
+        "channel-mcq-31": "本句的「alpha channel」指「Alpha 透明通道」。",
+        "channel-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-31"
     },
@@ -3898,11 +3613,9 @@ export default {
       "masked": "Removing the alpha ____ removes transparency information.",
       "options": [
         "channel-mcq-31",
-        "channel-mcq-30",
-        "channel-mcq-32",
-        "channel-mcq-29",
-        "channel-mcq-33",
-        "channel-mcq-28"
+        "channel-mcq-18",
+        "channel-mcq-40",
+        "channel-mcq-56"
       ],
       "explanation": "本句的「channel」指「Alpha 透明通道」。",
       "sentenceIndex": 76,
@@ -3911,12 +3624,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-31": "本句指「Alpha 透明通道」。",
-        "channel-mcq-30": "「色彩通道」與本句語境不同。",
-        "channel-mcq-32": "「水道；河道」與本句語境不同。",
-        "channel-mcq-29": "「多聲道音訊」與本句語境不同。",
-        "channel-mcq-33": "「河道」與本句語境不同。",
-        "channel-mcq-28": "「左／右聲道」與本句語境不同。"
+        "channel-mcq-31": "本句的「channel」指「Alpha 透明通道」。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-31"
     },
@@ -3928,11 +3639,9 @@ export default {
       "masked": "The boat moved through a narrow ____.",
       "options": [
         "channel-mcq-32",
-        "channel-mcq-31",
-        "channel-mcq-33",
-        "channel-mcq-30",
-        "channel-mcq-34",
-        "channel-mcq-29"
+        "channel-mcq-19",
+        "channel-pdf-001",
+        "channel-mcq-55"
       ],
       "explanation": "本句的「channel」指「水道；河道」。",
       "sentenceIndex": 77,
@@ -3941,12 +3650,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-32": "本句指「水道；河道」。",
-        "channel-mcq-31": "「Alpha 透明通道」與本句語境不同。",
-        "channel-mcq-33": "「河道」與本句語境不同。",
-        "channel-mcq-30": "「色彩通道」與本句語境不同。",
-        "channel-mcq-34": "「英倫海峽」與本句語境不同。",
-        "channel-mcq-29": "「多聲道音訊」與本句語境不同。"
+        "channel-mcq-32": "本句的「channel」指「水道；河道」。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-32"
     },
@@ -3958,11 +3665,9 @@ export default {
       "masked": "The river divides into several ____.",
       "options": [
         "channel-mcq-32",
-        "channel-mcq-31",
-        "channel-mcq-33",
-        "channel-mcq-30",
-        "channel-mcq-34",
-        "channel-mcq-29"
+        "channel-mcq-39",
+        "channel-mcq-38",
+        "channel-mcq-58"
       ],
       "explanation": "本句的「channels」指「水道；河道」。",
       "sentenceIndex": 78,
@@ -3971,12 +3676,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-32": "本句指「水道；河道」。",
-        "channel-mcq-31": "「Alpha 透明通道」與本句語境不同。",
-        "channel-mcq-33": "「河道」與本句語境不同。",
-        "channel-mcq-30": "「色彩通道」與本句語境不同。",
-        "channel-mcq-34": "「英倫海峽」與本句語境不同。",
-        "channel-mcq-29": "「多聲道音訊」與本句語境不同。"
+        "channel-mcq-32": "本句的「channels」指「水道；河道」。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-32"
     },
@@ -3988,11 +3691,9 @@ export default {
       "masked": "Heavy rain changed the ____.",
       "options": [
         "channel-mcq-33",
-        "channel-mcq-32",
-        "channel-mcq-34",
-        "channel-mcq-31",
-        "channel-mcq-35",
-        "channel-mcq-30"
+        "channel-pdf-002",
+        "channel-mcq-56",
+        "channel-mcq-37"
       ],
       "explanation": "本句的「river channel」指「河道」。",
       "sentenceIndex": 79,
@@ -4001,12 +3702,10 @@ export default {
         "river channel"
       ],
       "optionReasons": {
-        "channel-mcq-33": "本句指「河道」。",
-        "channel-mcq-32": "「水道；河道」與本句語境不同。",
-        "channel-mcq-34": "「英倫海峽」與本句語境不同。",
-        "channel-mcq-31": "「Alpha 透明通道」與本句語境不同。",
-        "channel-mcq-35": "「航運水道」與本句語境不同。",
-        "channel-mcq-30": "「色彩通道」與本句語境不同。"
+        "channel-mcq-33": "本句的「river channel」指「河道」。",
+        "channel-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-33"
     },
@@ -4018,11 +3717,9 @@ export default {
       "masked": "Sediment accumulated in the main river ____.",
       "options": [
         "channel-mcq-33",
-        "channel-mcq-32",
-        "channel-mcq-34",
-        "channel-mcq-31",
-        "channel-mcq-35",
-        "channel-mcq-30"
+        "channel-mcq-40",
+        "channel-mcq-60",
+        "channel-mcq-04"
       ],
       "explanation": "本句的「channel」指「河道」。",
       "sentenceIndex": 80,
@@ -4031,12 +3728,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-33": "本句指「河道」。",
-        "channel-mcq-32": "「水道；河道」與本句語境不同。",
-        "channel-mcq-34": "「英倫海峽」與本句語境不同。",
-        "channel-mcq-31": "「Alpha 透明通道」與本句語境不同。",
-        "channel-mcq-35": "「航運水道」與本句語境不同。",
-        "channel-mcq-30": "「色彩通道」與本句語境不同。"
+        "channel-mcq-33": "本句的「channel」指「河道」。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-33"
     },
@@ -4048,11 +3743,9 @@ export default {
       "masked": "Larger vessels stay in the ____.",
       "options": [
         "channel-mcq-33",
-        "channel-mcq-32",
-        "channel-mcq-34",
-        "channel-mcq-31",
-        "channel-mcq-35",
-        "channel-mcq-30"
+        "channel-mcq-04",
+        "channel-mcq-62",
+        "channel-mcq-59"
       ],
       "explanation": "本句的「main channel」指「河道」。",
       "sentenceIndex": 81,
@@ -4061,12 +3754,10 @@ export default {
         "main channel"
       ],
       "optionReasons": {
-        "channel-mcq-33": "本句指「河道」。",
-        "channel-mcq-32": "「水道；河道」與本句語境不同。",
-        "channel-mcq-34": "「英倫海峽」與本句語境不同。",
-        "channel-mcq-31": "「Alpha 透明通道」與本句語境不同。",
-        "channel-mcq-35": "「航運水道」與本句語境不同。",
-        "channel-mcq-30": "「色彩通道」與本句語境不同。"
+        "channel-mcq-33": "本句的「main channel」指「河道」。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-33"
     },
@@ -4078,11 +3769,9 @@ export default {
       "masked": "Most of the water flows through the main ____.",
       "options": [
         "channel-mcq-33",
-        "channel-mcq-32",
-        "channel-mcq-34",
-        "channel-mcq-31",
-        "channel-mcq-35",
-        "channel-mcq-30"
+        "channel-mcq-38",
+        "channel-mcq-62",
+        "channel-mcq-61"
       ],
       "explanation": "本句的「channel」指「河道」。",
       "sentenceIndex": 82,
@@ -4091,12 +3780,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-33": "本句指「河道」。",
-        "channel-mcq-32": "「水道；河道」與本句語境不同。",
-        "channel-mcq-34": "「英倫海峽」與本句語境不同。",
-        "channel-mcq-31": "「Alpha 透明通道」與本句語境不同。",
-        "channel-mcq-35": "「航運水道」與本句語境不同。",
-        "channel-mcq-30": "「色彩通道」與本句語境不同。"
+        "channel-mcq-33": "本句的「channel」指「河道」。",
+        "channel-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-33"
     },
@@ -4108,11 +3795,9 @@ export default {
       "masked": "The wetlands contain several ____.",
       "options": [
         "channel-mcq-33",
-        "channel-mcq-32",
-        "channel-mcq-34",
-        "channel-mcq-31",
-        "channel-mcq-35",
-        "channel-mcq-30"
+        "channel-mcq-37",
+        "channel-mcq-40",
+        "channel-mcq-56"
       ],
       "explanation": "本句的「tidal channels」指「河道」。",
       "sentenceIndex": 83,
@@ -4121,12 +3806,10 @@ export default {
         "tidal channels"
       ],
       "optionReasons": {
-        "channel-mcq-33": "本句指「河道」。",
-        "channel-mcq-32": "「水道；河道」與本句語境不同。",
-        "channel-mcq-34": "「英倫海峽」與本句語境不同。",
-        "channel-mcq-31": "「Alpha 透明通道」與本句語境不同。",
-        "channel-mcq-35": "「航運水道」與本句語境不同。",
-        "channel-mcq-30": "「色彩通道」與本句語境不同。"
+        "channel-mcq-33": "本句的「tidal channels」指「河道」。",
+        "channel-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-33"
     },
@@ -4138,11 +3821,9 @@ export default {
       "masked": "Water moves through the ____ with the tide.",
       "options": [
         "channel-mcq-33",
-        "channel-mcq-32",
-        "channel-mcq-34",
-        "channel-mcq-31",
-        "channel-mcq-35",
-        "channel-mcq-30"
+        "channel-mcq-60",
+        "channel-mcq-40",
+        "channel-mcq-19"
       ],
       "explanation": "本句的「channels」指「河道」。",
       "sentenceIndex": 84,
@@ -4151,12 +3832,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-33": "本句指「河道」。",
-        "channel-mcq-32": "「水道；河道」與本句語境不同。",
-        "channel-mcq-34": "「英倫海峽」與本句語境不同。",
-        "channel-mcq-31": "「Alpha 透明通道」與本句語境不同。",
-        "channel-mcq-35": "「航運水道」與本句語境不同。",
-        "channel-mcq-30": "「色彩通道」與本句語境不同。"
+        "channel-mcq-33": "本句的「channels」指「河道」。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-33"
     },
@@ -4168,11 +3847,9 @@ export default {
       "masked": "They crossed the ____ by ferry.",
       "options": [
         "channel-mcq-34",
-        "channel-mcq-33",
-        "channel-mcq-35",
-        "channel-mcq-32",
-        "channel-mcq-36",
-        "channel-mcq-31"
+        "channel-mcq-44",
+        "channel-mcq-29",
+        "channel-mcq-04"
       ],
       "explanation": "本句的「English Channel」指「英倫海峽」。",
       "sentenceIndex": 85,
@@ -4181,12 +3858,10 @@ export default {
         "English Channel"
       ],
       "optionReasons": {
-        "channel-mcq-34": "本句指「英倫海峽」。",
-        "channel-mcq-33": "「河道」與本句語境不同。",
-        "channel-mcq-35": "「航運水道」與本句語境不同。",
-        "channel-mcq-32": "「水道；河道」與本句語境不同。",
-        "channel-mcq-36": "「航道」與本句語境不同。",
-        "channel-mcq-31": "「Alpha 透明通道」與本句語境不同。"
+        "channel-mcq-34": "本句的「English Channel」指「英倫海峽」。",
+        "channel-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-34"
     },
@@ -4198,11 +3873,9 @@ export default {
       "masked": "The ____ separates southern England from northern France.",
       "options": [
         "channel-mcq-34",
-        "channel-mcq-33",
-        "channel-mcq-35",
-        "channel-mcq-32",
-        "channel-mcq-36",
-        "channel-mcq-31"
+        "channel-mcq-65",
+        "channel-mcq-28",
+        "channel-mcq-58"
       ],
       "explanation": "本句的「Channel」指「英倫海峽」。",
       "sentenceIndex": 86,
@@ -4211,12 +3884,10 @@ export default {
         "Channel"
       ],
       "optionReasons": {
-        "channel-mcq-34": "本句指「英倫海峽」。",
-        "channel-mcq-33": "「河道」與本句語境不同。",
-        "channel-mcq-35": "「航運水道」與本句語境不同。",
-        "channel-mcq-32": "「水道；河道」與本句語境不同。",
-        "channel-mcq-36": "「航道」與本句語境不同。",
-        "channel-mcq-31": "「Alpha 透明通道」與本句語境不同。"
+        "channel-mcq-34": "本句的「Channel」指「英倫海峽」。",
+        "channel-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-34"
     },
@@ -4228,11 +3899,9 @@ export default {
       "masked": "The vessel entered the ____.",
       "options": [
         "channel-mcq-35",
+        "channel-mcq-19",
         "channel-mcq-34",
-        "channel-mcq-36",
-        "channel-mcq-33",
-        "channel-mcq-37",
-        "channel-mcq-32"
+        "channel-pdf-001"
       ],
       "explanation": "本句的「shipping channel」指「航運水道」。",
       "sentenceIndex": 87,
@@ -4241,12 +3910,10 @@ export default {
         "shipping channel"
       ],
       "optionReasons": {
-        "channel-mcq-35": "本句指「航運水道」。",
-        "channel-mcq-34": "「英倫海峽」與本句語境不同。",
-        "channel-mcq-36": "「航道」與本句語境不同。",
-        "channel-mcq-33": "「河道」與本句語境不同。",
-        "channel-mcq-37": "「排水渠」與本句語境不同。",
-        "channel-mcq-32": "「水道；河道」與本句語境不同。"
+        "channel-mcq-35": "本句的「shipping channel」指「航運水道」。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-35"
     },
@@ -4258,11 +3925,9 @@ export default {
       "masked": "The shipping ____ must be kept clear.",
       "options": [
         "channel-mcq-35",
-        "channel-mcq-34",
-        "channel-mcq-36",
-        "channel-mcq-33",
-        "channel-mcq-37",
-        "channel-mcq-32"
+        "channel-mcq-39",
+        "channel-pdf-002",
+        "channel-mcq-58"
       ],
       "explanation": "本句的「channel」指「航運水道」。",
       "sentenceIndex": 88,
@@ -4271,12 +3936,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-35": "本句指「航運水道」。",
-        "channel-mcq-34": "「英倫海峽」與本句語境不同。",
-        "channel-mcq-36": "「航道」與本句語境不同。",
-        "channel-mcq-33": "「河道」與本句語境不同。",
-        "channel-mcq-37": "「排水渠」與本句語境不同。",
-        "channel-mcq-32": "「水道；河道」與本句語境不同。"
+        "channel-mcq-35": "本句的「channel」指「航運水道」。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-35"
     },
@@ -4288,11 +3951,9 @@ export default {
       "masked": "Dredging keeps the ____ deep enough for ships.",
       "options": [
         "channel-mcq-36",
-        "channel-mcq-35",
-        "channel-mcq-37",
-        "channel-mcq-34",
-        "channel-mcq-38",
-        "channel-mcq-33"
+        "channel-pdf-001",
+        "channel-pdf-002",
+        "channel-mcq-38"
       ],
       "explanation": "本句的「navigation channel」指「航道」。",
       "sentenceIndex": 89,
@@ -4301,12 +3962,10 @@ export default {
         "navigation channel"
       ],
       "optionReasons": {
-        "channel-mcq-36": "本句指「航道」。",
-        "channel-mcq-35": "「航運水道」與本句語境不同。",
-        "channel-mcq-37": "「排水渠」與本句語境不同。",
-        "channel-mcq-34": "「英倫海峽」與本句語境不同。",
-        "channel-mcq-38": "「灌溉渠」與本句語境不同。",
-        "channel-mcq-33": "「河道」與本句語境不同。"
+        "channel-mcq-36": "本句的「navigation channel」指「航道」。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-36"
     },
@@ -4318,11 +3977,9 @@ export default {
       "masked": "Buoys mark the navigation ____.",
       "options": [
         "channel-mcq-36",
-        "channel-mcq-35",
-        "channel-mcq-37",
-        "channel-mcq-34",
-        "channel-mcq-38",
-        "channel-mcq-33"
+        "channel-mcq-64",
+        "channel-mcq-62",
+        "channel-pdf-003"
       ],
       "explanation": "本句的「channel」指「航道」。",
       "sentenceIndex": 90,
@@ -4331,12 +3988,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-36": "本句指「航道」。",
-        "channel-mcq-35": "「航運水道」與本句語境不同。",
-        "channel-mcq-37": "「排水渠」與本句語境不同。",
-        "channel-mcq-34": "「英倫海峽」與本句語境不同。",
-        "channel-mcq-38": "「灌溉渠」與本句語境不同。",
-        "channel-mcq-33": "「河道」與本句語境不同。"
+        "channel-mcq-36": "本句的「channel」指「航道」。",
+        "channel-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-36"
     },
@@ -4348,11 +4003,9 @@ export default {
       "masked": "Stay within the marked ____.",
       "options": [
         "channel-mcq-36",
-        "channel-mcq-35",
-        "channel-mcq-37",
-        "channel-mcq-34",
         "channel-mcq-38",
-        "channel-mcq-33"
+        "channel-mcq-19",
+        "channel-mcq-57"
       ],
       "explanation": "本句的「channel」指「航道」。",
       "sentenceIndex": 91,
@@ -4361,12 +4014,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-36": "本句指「航道」。",
-        "channel-mcq-35": "「航運水道」與本句語境不同。",
-        "channel-mcq-37": "「排水渠」與本句語境不同。",
-        "channel-mcq-34": "「英倫海峽」與本句語境不同。",
-        "channel-mcq-38": "「灌溉渠」與本句語境不同。",
-        "channel-mcq-33": "「河道」與本句語境不同。"
+        "channel-mcq-36": "本句的「channel」指「航道」。",
+        "channel-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-36"
     },
@@ -4378,11 +4029,9 @@ export default {
       "masked": "The captain guided the ship through the ____.",
       "options": [
         "channel-mcq-36",
-        "channel-mcq-35",
-        "channel-mcq-37",
-        "channel-mcq-34",
-        "channel-mcq-38",
-        "channel-mcq-33"
+        "channel-mcq-64",
+        "channel-mcq-18",
+        "channel-mcq-65"
       ],
       "explanation": "本句的「channel」指「航道」。",
       "sentenceIndex": 92,
@@ -4391,12 +4040,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-36": "本句指「航道」。",
-        "channel-mcq-35": "「航運水道」與本句語境不同。",
-        "channel-mcq-37": "「排水渠」與本句語境不同。",
-        "channel-mcq-34": "「英倫海峽」與本句語境不同。",
-        "channel-mcq-38": "「灌溉渠」與本句語境不同。",
-        "channel-mcq-33": "「河道」與本句語境不同。"
+        "channel-mcq-36": "本句的「channel」指「航道」。",
+        "channel-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-36"
     },
@@ -4408,10 +4055,8 @@ export default {
       "masked": "Rainwater flows into a ____.",
       "options": [
         "channel-mcq-37",
-        "channel-mcq-36",
-        "channel-mcq-38",
-        "channel-mcq-35",
-        "channel-mcq-39",
+        "channel-mcq-20",
+        "channel-mcq-29",
         "channel-mcq-34"
       ],
       "explanation": "本句的「drainage channel」指「排水渠」。",
@@ -4421,12 +4066,10 @@ export default {
         "drainage channel"
       ],
       "optionReasons": {
-        "channel-mcq-37": "本句指「排水渠」。",
-        "channel-mcq-36": "「航道」與本句語境不同。",
-        "channel-mcq-38": "「灌溉渠」與本句語境不同。",
-        "channel-mcq-35": "「航運水道」與本句語境不同。",
-        "channel-mcq-39": "「槽；凹槽」與本句語境不同。",
-        "channel-mcq-34": "「英倫海峽」與本句語境不同。"
+        "channel-mcq-37": "本句的「drainage channel」指「排水渠」。",
+        "channel-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-37"
     },
@@ -4438,11 +4081,9 @@ export default {
       "masked": "The ____ was blocked by leaves.",
       "options": [
         "channel-mcq-37",
-        "channel-mcq-36",
-        "channel-mcq-38",
-        "channel-mcq-35",
-        "channel-mcq-39",
-        "channel-mcq-34"
+        "channel-mcq-58",
+        "channel-mcq-41",
+        "channel-mcq-21"
       ],
       "explanation": "本句的「channel」指「排水渠」。",
       "sentenceIndex": 94,
@@ -4451,12 +4092,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-37": "本句指「排水渠」。",
-        "channel-mcq-36": "「航道」與本句語境不同。",
-        "channel-mcq-38": "「灌溉渠」與本句語境不同。",
-        "channel-mcq-35": "「航運水道」與本句語境不同。",
-        "channel-mcq-39": "「槽；凹槽」與本句語境不同。",
-        "channel-mcq-34": "「英倫海峽」與本句語境不同。"
+        "channel-mcq-37": "本句的「channel」指「排水渠」。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-37"
     },
@@ -4468,11 +4107,9 @@ export default {
       "masked": "Water reaches the fields through ____.",
       "options": [
         "channel-mcq-38",
-        "channel-mcq-37",
-        "channel-mcq-39",
-        "channel-mcq-36",
-        "channel-mcq-40",
-        "channel-mcq-35"
+        "channel-mcq-16",
+        "channel-mcq-41",
+        "channel-mcq-04"
       ],
       "explanation": "本句的「irrigation channels」指「灌溉渠」。",
       "sentenceIndex": 95,
@@ -4481,12 +4118,10 @@ export default {
         "irrigation channels"
       ],
       "optionReasons": {
-        "channel-mcq-38": "本句指「灌溉渠」。",
-        "channel-mcq-37": "「排水渠」與本句語境不同。",
-        "channel-mcq-39": "「槽；凹槽」與本句語境不同。",
-        "channel-mcq-36": "「航道」與本句語境不同。",
-        "channel-mcq-40": "「電線槽」與本句語境不同。",
-        "channel-mcq-35": "「航運水道」與本句語境不同。"
+        "channel-mcq-38": "本句的「irrigation channels」指「灌溉渠」。",
+        "channel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-38"
     },
@@ -4498,11 +4133,9 @@ export default {
       "masked": "Farmers cleaned the irrigation ____.",
       "options": [
         "channel-mcq-38",
-        "channel-mcq-37",
-        "channel-mcq-39",
-        "channel-mcq-36",
-        "channel-mcq-40",
-        "channel-mcq-35"
+        "channel-reviewed-66c8c05660",
+        "channel-mcq-15",
+        "channel-mcq-64"
       ],
       "explanation": "本句的「channel」指「灌溉渠」。",
       "sentenceIndex": 96,
@@ -4511,12 +4144,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-38": "本句指「灌溉渠」。",
-        "channel-mcq-37": "「排水渠」與本句語境不同。",
-        "channel-mcq-39": "「槽；凹槽」與本句語境不同。",
-        "channel-mcq-36": "「航道」與本句語境不同。",
-        "channel-mcq-40": "「電線槽」與本句語境不同。",
-        "channel-mcq-35": "「航運水道」與本句語境不同。"
+        "channel-mcq-38": "本句的「channel」指「灌溉渠」。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-38"
     },
@@ -4528,11 +4159,9 @@ export default {
       "masked": "The ditch ____.",
       "options": [
         "channel-mcq-61",
-        "channel-mcq-60",
-        "channel-mcq-62",
-        "channel-mcq-59",
-        "channel-mcq-63",
-        "channel-mcq-58"
+        "channel-mcq-18",
+        "channel-mcq-07",
+        "channel-mcq-25"
       ],
       "explanation": "本句的「channels rainwater away from the road」指「引導水流」。",
       "sentenceIndex": 97,
@@ -4541,12 +4170,10 @@ export default {
         "channels rainwater away from the road"
       ],
       "optionReasons": {
-        "channel-mcq-61": "本句指「引導水流」。",
-        "channel-mcq-60": "「疏導憤怒」與本句語境不同。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。",
-        "channel-mcq-59": "「把精力投入 X」與本句語境不同。",
-        "channel-mcq-63": "「展現／模仿某人的風格」與本句語境不同。",
-        "channel-mcq-58": "「引導注意力」與本句語境不同。"
+        "channel-mcq-61": "本句的「channels rainwater away from the road」指「引導水流」。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-61"
     },
@@ -4558,11 +4185,9 @@ export default {
       "masked": "Pipes ____ water into the storage tank.",
       "options": [
         "channel-mcq-61",
-        "channel-mcq-60",
-        "channel-mcq-62",
-        "channel-mcq-59",
-        "channel-mcq-63",
-        "channel-mcq-58"
+        "channel-pdf-003",
+        "channel-mcq-07",
+        "channel-mcq-57"
       ],
       "explanation": "本句的「channel」指「引導水流」。",
       "sentenceIndex": 98,
@@ -4571,12 +4196,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-61": "本句指「引導水流」。",
-        "channel-mcq-60": "「疏導憤怒」與本句語境不同。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。",
-        "channel-mcq-59": "「把精力投入 X」與本句語境不同。",
-        "channel-mcq-63": "「展現／模仿某人的風格」與本句語境不同。",
-        "channel-mcq-58": "「引導注意力」與本句語境不同。"
+        "channel-mcq-61": "本句的「channel」指「引導水流」。",
+        "channel-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-61"
     },
@@ -4588,11 +4211,9 @@ export default {
       "masked": "The cable runs through a narrow ____ in the wall.",
       "options": [
         "channel-mcq-39",
-        "channel-mcq-38",
-        "channel-mcq-40",
-        "channel-mcq-37",
-        "channel-mcq-41",
-        "channel-mcq-36"
+        "channel-pdf-001",
+        "channel-mcq-24",
+        "channel-mcq-51"
       ],
       "explanation": "本句的「channel」指「槽；凹槽」。",
       "sentenceIndex": 99,
@@ -4601,12 +4222,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-39": "本句指「槽；凹槽」。",
-        "channel-mcq-38": "「灌溉渠」與本句語境不同。",
-        "channel-mcq-40": "「電線槽」與本句語境不同。",
-        "channel-mcq-37": "「排水渠」與本句語境不同。",
-        "channel-mcq-41": "「C 型槽鋼」與本句語境不同。",
-        "channel-mcq-36": "「航道」與本句語境不同。"
+        "channel-mcq-39": "本句的「channel」指「槽；凹槽」。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-39"
     },
@@ -4618,11 +4237,9 @@ export default {
       "masked": "Water flows through ____ cut into the surface.",
       "options": [
         "channel-mcq-39",
-        "channel-mcq-38",
-        "channel-mcq-40",
-        "channel-mcq-37",
-        "channel-mcq-41",
-        "channel-mcq-36"
+        "channel-mcq-14",
+        "channel-mcq-11",
+        "channel-mcq-29"
       ],
       "explanation": "本句的「channels」指「槽；凹槽」。",
       "sentenceIndex": 100,
@@ -4631,12 +4248,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-39": "本句指「槽；凹槽」。",
-        "channel-mcq-38": "「灌溉渠」與本句語境不同。",
-        "channel-mcq-40": "「電線槽」與本句語境不同。",
-        "channel-mcq-37": "「排水渠」與本句語境不同。",
-        "channel-mcq-41": "「C 型槽鋼」與本句語境不同。",
-        "channel-mcq-36": "「航道」與本句語境不同。"
+        "channel-mcq-39": "本句的「channels」指「槽；凹槽」。",
+        "channel-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-39"
     },
@@ -4648,11 +4263,9 @@ export default {
       "masked": "The wires are hidden inside a ____.",
       "options": [
         "channel-mcq-40",
-        "channel-mcq-39",
-        "channel-mcq-41",
-        "channel-mcq-38",
-        "channel-mcq-42",
-        "channel-mcq-37"
+        "channel-mcq-17",
+        "channel-mcq-10",
+        "channel-mcq-61"
       ],
       "explanation": "本句的「cable channel」指「電線槽」。",
       "sentenceIndex": 101,
@@ -4661,12 +4274,10 @@ export default {
         "cable channel"
       ],
       "optionReasons": {
-        "channel-mcq-40": "本句指「電線槽」。",
-        "channel-mcq-39": "「槽；凹槽」與本句語境不同。",
-        "channel-mcq-41": "「C 型槽鋼」與本句語境不同。",
-        "channel-mcq-38": "「灌溉渠」與本句語境不同。",
-        "channel-mcq-42": "「離子通道」與本句語境不同。",
-        "channel-mcq-37": "「排水渠」與本句語境不同。"
+        "channel-mcq-40": "本句的「cable channel」指「電線槽」。",
+        "channel-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-40"
     },
@@ -4678,11 +4289,9 @@ export default {
       "masked": "Install the ____ along the wall.",
       "options": [
         "channel-mcq-40",
-        "channel-mcq-39",
-        "channel-mcq-41",
-        "channel-mcq-38",
-        "channel-mcq-42",
-        "channel-mcq-37"
+        "channel-mcq-35",
+        "channel-mcq-59",
+        "channel-mcq-28"
       ],
       "explanation": "本句的「channel」指「電線槽」。",
       "sentenceIndex": 102,
@@ -4691,12 +4300,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-40": "本句指「電線槽」。",
-        "channel-mcq-39": "「槽；凹槽」與本句語境不同。",
-        "channel-mcq-41": "「C 型槽鋼」與本句語境不同。",
-        "channel-mcq-38": "「灌溉渠」與本句語境不同。",
-        "channel-mcq-42": "「離子通道」與本句語境不同。",
-        "channel-mcq-37": "「排水渠」與本句語境不同。"
+        "channel-mcq-40": "本句的「channel」指「電線槽」。",
+        "channel-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-40"
     },
@@ -4708,11 +4315,9 @@ export default {
       "masked": "The frame uses steel ____.",
       "options": [
         "channel-mcq-41",
-        "channel-mcq-40",
-        "channel-mcq-42",
-        "channel-mcq-39",
-        "channel-mcq-43",
-        "channel-mcq-38"
+        "channel-pdf-001",
+        "channel-mcq-23",
+        "channel-mcq-19"
       ],
       "explanation": "本句的「C-channels」指「C 型槽鋼」。",
       "sentenceIndex": 103,
@@ -4721,12 +4326,10 @@ export default {
         "C-channels"
       ],
       "optionReasons": {
-        "channel-mcq-41": "本句指「C 型槽鋼」。",
-        "channel-mcq-40": "「電線槽」與本句語境不同。",
-        "channel-mcq-42": "「離子通道」與本句語境不同。",
-        "channel-mcq-39": "「槽；凹槽」與本句語境不同。",
-        "channel-mcq-43": "「通道蛋白」與本句語境不同。",
-        "channel-mcq-38": "「灌溉渠」與本句語境不同。"
+        "channel-mcq-41": "本句的「C-channels」指「C 型槽鋼」。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-41"
     },
@@ -4738,11 +4341,9 @@ export default {
       "masked": "A ____ section has a characteristic open profile.",
       "options": [
         "channel-mcq-41",
-        "channel-mcq-40",
-        "channel-mcq-42",
-        "channel-mcq-39",
-        "channel-mcq-43",
-        "channel-mcq-38"
+        "channel-mcq-06",
+        "channel-mcq-34",
+        "channel-mcq-04"
       ],
       "explanation": "本句的「channel」指「C 型槽鋼」。",
       "sentenceIndex": 104,
@@ -4751,12 +4352,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-41": "本句指「C 型槽鋼」。",
-        "channel-mcq-40": "「電線槽」與本句語境不同。",
-        "channel-mcq-42": "「離子通道」與本句語境不同。",
-        "channel-mcq-39": "「槽；凹槽」與本句語境不同。",
-        "channel-mcq-43": "「通道蛋白」與本句語境不同。",
-        "channel-mcq-38": "「灌溉渠」與本句語境不同。"
+        "channel-mcq-41": "本句的「channel」指「C 型槽鋼」。",
+        "channel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-41"
     },
@@ -4768,11 +4367,9 @@ export default {
       "masked": "____ allow charged particles to cross cell membranes.",
       "options": [
         "channel-mcq-42",
-        "channel-mcq-41",
-        "channel-mcq-43",
-        "channel-mcq-40",
-        "channel-mcq-44",
-        "channel-mcq-39"
+        "channel-mcq-58",
+        "channel-mcq-55",
+        "channel-mcq-38"
       ],
       "explanation": "本句的「Ion channels」指「離子通道」。",
       "sentenceIndex": 105,
@@ -4781,12 +4378,10 @@ export default {
         "Ion channels"
       ],
       "optionReasons": {
-        "channel-mcq-42": "本句指「離子通道」。",
-        "channel-mcq-41": "「C 型槽鋼」與本句語境不同。",
-        "channel-mcq-43": "「通道蛋白」與本句語境不同。",
-        "channel-mcq-40": "「電線槽」與本句語境不同。",
-        "channel-mcq-44": "「銷售渠道」與本句語境不同。",
-        "channel-mcq-39": "「槽；凹槽」與本句語境不同。"
+        "channel-mcq-42": "本句的「Ion channels」指「離子通道」。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-42"
     },
@@ -4798,11 +4393,9 @@ export default {
       "masked": "Some medicines affect ion-____ activity.",
       "options": [
         "channel-mcq-42",
+        "channel-mcq-57",
         "channel-mcq-41",
-        "channel-mcq-43",
-        "channel-mcq-40",
-        "channel-mcq-44",
-        "channel-mcq-39"
+        "channel-mcq-18"
       ],
       "explanation": "本句的「channel」指「離子通道」。",
       "sentenceIndex": 106,
@@ -4811,12 +4404,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-42": "本句指「離子通道」。",
-        "channel-mcq-41": "「C 型槽鋼」與本句語境不同。",
-        "channel-mcq-43": "「通道蛋白」與本句語境不同。",
-        "channel-mcq-40": "「電線槽」與本句語境不同。",
-        "channel-mcq-44": "「銷售渠道」與本句語境不同。",
-        "channel-mcq-39": "「槽；凹槽」與本句語境不同。"
+        "channel-mcq-42": "本句的「channel」指「離子通道」。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-42"
     },
@@ -4828,11 +4419,9 @@ export default {
       "masked": "The drug blocks ____.",
       "options": [
         "channel-mcq-42",
-        "channel-mcq-41",
-        "channel-mcq-43",
-        "channel-mcq-40",
-        "channel-mcq-44",
-        "channel-mcq-39"
+        "channel-reviewed-66c8c05660",
+        "channel-mcq-34",
+        "channel-mcq-55"
       ],
       "explanation": "本句的「calcium channels」指「離子通道」。",
       "sentenceIndex": 107,
@@ -4841,12 +4430,10 @@ export default {
         "calcium channels"
       ],
       "optionReasons": {
-        "channel-mcq-42": "本句指「離子通道」。",
-        "channel-mcq-41": "「C 型槽鋼」與本句語境不同。",
-        "channel-mcq-43": "「通道蛋白」與本句語境不同。",
-        "channel-mcq-40": "「電線槽」與本句語境不同。",
-        "channel-mcq-44": "「銷售渠道」與本句語境不同。",
-        "channel-mcq-39": "「槽；凹槽」與本句語境不同。"
+        "channel-mcq-42": "本句的「calcium channels」指「離子通道」。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-42"
     },
@@ -4858,11 +4445,9 @@ export default {
       "masked": "Sodium ____ are important in nerve signalling.",
       "options": [
         "channel-mcq-42",
-        "channel-mcq-41",
-        "channel-mcq-43",
-        "channel-mcq-40",
-        "channel-mcq-44",
-        "channel-mcq-39"
+        "channel-pdf-001",
+        "channel-mcq-61",
+        "channel-mcq-60"
       ],
       "explanation": "本句的「channels」指「離子通道」。",
       "sentenceIndex": 108,
@@ -4871,12 +4456,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-42": "本句指「離子通道」。",
-        "channel-mcq-41": "「C 型槽鋼」與本句語境不同。",
-        "channel-mcq-43": "「通道蛋白」與本句語境不同。",
-        "channel-mcq-40": "「電線槽」與本句語境不同。",
-        "channel-mcq-44": "「銷售渠道」與本句語境不同。",
-        "channel-mcq-39": "「槽；凹槽」與本句語境不同。"
+        "channel-mcq-42": "本句的「channels」指「離子通道」。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-42"
     },
@@ -4888,11 +4471,9 @@ export default {
       "masked": "A ____ allows particular molecules or ions through a membrane.",
       "options": [
         "channel-mcq-43",
-        "channel-mcq-42",
-        "channel-mcq-44",
-        "channel-mcq-41",
-        "channel-mcq-45",
-        "channel-mcq-40"
+        "channel-mcq-60",
+        "channel-mcq-59",
+        "channel-pdf-001"
       ],
       "explanation": "本句的「channel protein」指「通道蛋白」。",
       "sentenceIndex": 109,
@@ -4901,12 +4482,10 @@ export default {
         "channel protein"
       ],
       "optionReasons": {
-        "channel-mcq-43": "本句指「通道蛋白」。",
-        "channel-mcq-42": "「離子通道」與本句語境不同。",
-        "channel-mcq-44": "「銷售渠道」與本句語境不同。",
-        "channel-mcq-41": "「C 型槽鋼」與本句語境不同。",
-        "channel-mcq-45": "「分銷渠道」與本句語境不同。",
-        "channel-mcq-40": "「電線槽」與本句語境不同。"
+        "channel-mcq-43": "本句的「channel protein」指「通道蛋白」。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-43"
     },
@@ -4918,11 +4497,9 @@ export default {
       "masked": "Different ____ proteins have different selectivity.",
       "options": [
         "channel-mcq-43",
-        "channel-mcq-42",
-        "channel-mcq-44",
-        "channel-mcq-41",
-        "channel-mcq-45",
-        "channel-mcq-40"
+        "channel-mcq-40",
+        "channel-mcq-57",
+        "channel-pdf-003"
       ],
       "explanation": "本句的「channel」指「通道蛋白」。",
       "sentenceIndex": 110,
@@ -4931,12 +4508,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-43": "本句指「通道蛋白」。",
-        "channel-mcq-42": "「離子通道」與本句語境不同。",
-        "channel-mcq-44": "「銷售渠道」與本句語境不同。",
-        "channel-mcq-41": "「C 型槽鋼」與本句語境不同。",
-        "channel-mcq-45": "「分銷渠道」與本句語境不同。",
-        "channel-mcq-40": "「電線槽」與本句語境不同。"
+        "channel-mcq-43": "本句的「channel」指「通道蛋白」。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-43"
     },
@@ -4948,11 +4523,9 @@ export default {
       "masked": "Online stores are an important ____.",
       "options": [
         "channel-mcq-44",
-        "channel-mcq-43",
-        "channel-mcq-45",
-        "channel-mcq-42",
-        "channel-mcq-46",
-        "channel-mcq-41"
+        "channel-mcq-19",
+        "channel-mcq-59",
+        "channel-mcq-04"
       ],
       "explanation": "本句的「sales channel」指「銷售渠道」。",
       "sentenceIndex": 111,
@@ -4961,12 +4534,10 @@ export default {
         "sales channel"
       ],
       "optionReasons": {
-        "channel-mcq-44": "本句指「銷售渠道」。",
-        "channel-mcq-43": "「通道蛋白」與本句語境不同。",
-        "channel-mcq-45": "「分銷渠道」與本句語境不同。",
-        "channel-mcq-42": "「離子通道」與本句語境不同。",
-        "channel-mcq-46": "「營銷渠道」與本句語境不同。",
-        "channel-mcq-41": "「C 型槽鋼」與本句語境不同。"
+        "channel-mcq-44": "本句的「sales channel」指「銷售渠道」。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-44"
     },
@@ -4978,11 +4549,9 @@ export default {
       "masked": "The company uses several sales ____.",
       "options": [
         "channel-mcq-44",
-        "channel-mcq-43",
-        "channel-mcq-45",
-        "channel-mcq-42",
-        "channel-mcq-46",
-        "channel-mcq-41"
+        "channel-mcq-62",
+        "channel-mcq-41",
+        "channel-mcq-04"
       ],
       "explanation": "本句的「channels」指「銷售渠道」。",
       "sentenceIndex": 112,
@@ -4991,12 +4560,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-44": "本句指「銷售渠道」。",
-        "channel-mcq-43": "「通道蛋白」與本句語境不同。",
-        "channel-mcq-45": "「分銷渠道」與本句語境不同。",
-        "channel-mcq-42": "「離子通道」與本句語境不同。",
-        "channel-mcq-46": "「營銷渠道」與本句語境不同。",
-        "channel-mcq-41": "「C 型槽鋼」與本句語境不同。"
+        "channel-mcq-44": "本句的「channels」指「銷售渠道」。",
+        "channel-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-44"
     },
@@ -5008,11 +4575,9 @@ export default {
       "masked": "The company expanded its ____.",
       "options": [
         "channel-mcq-45",
-        "channel-mcq-44",
-        "channel-mcq-46",
-        "channel-mcq-43",
-        "channel-mcq-47",
-        "channel-mcq-42"
+        "channel-mcq-19",
+        "channel-pdf-003",
+        "channel-mcq-65"
       ],
       "explanation": "本句的「distribution channels」指「分銷渠道」。",
       "sentenceIndex": 113,
@@ -5021,12 +4586,10 @@ export default {
         "distribution channels"
       ],
       "optionReasons": {
-        "channel-mcq-45": "本句指「分銷渠道」。",
-        "channel-mcq-44": "「銷售渠道」與本句語境不同。",
-        "channel-mcq-46": "「營銷渠道」與本句語境不同。",
-        "channel-mcq-43": "「通道蛋白」與本句語境不同。",
-        "channel-mcq-47": "「數碼渠道」與本句語境不同。",
-        "channel-mcq-42": "「離子通道」與本句語境不同。"
+        "channel-mcq-45": "本句的「distribution channels」指「分銷渠道」。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-45"
     },
@@ -5038,11 +4601,9 @@ export default {
       "masked": "Products reach consumers through several distribution ____.",
       "options": [
         "channel-mcq-45",
-        "channel-mcq-44",
-        "channel-mcq-46",
-        "channel-mcq-43",
-        "channel-mcq-47",
-        "channel-mcq-42"
+        "channel-pdf-001",
+        "channel-mcq-58",
+        "channel-mcq-18"
       ],
       "explanation": "本句的「channels」指「分銷渠道」。",
       "sentenceIndex": 114,
@@ -5051,12 +4612,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-45": "本句指「分銷渠道」。",
-        "channel-mcq-44": "「銷售渠道」與本句語境不同。",
-        "channel-mcq-46": "「營銷渠道」與本句語境不同。",
-        "channel-mcq-43": "「通道蛋白」與本句語境不同。",
-        "channel-mcq-47": "「數碼渠道」與本句語境不同。",
-        "channel-mcq-42": "「離子通道」與本句語境不同。"
+        "channel-mcq-45": "本句的「channels」指「分銷渠道」。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-45"
     },
@@ -5068,11 +4627,9 @@ export default {
       "masked": "Social media is an important ____.",
       "options": [
         "channel-mcq-46",
-        "channel-mcq-45",
-        "channel-mcq-47",
-        "channel-mcq-44",
-        "channel-mcq-48",
-        "channel-mcq-43"
+        "channel-mcq-58",
+        "channel-mcq-19",
+        "channel-mcq-04"
       ],
       "explanation": "本句的「marketing channel」指「營銷渠道」。",
       "sentenceIndex": 115,
@@ -5081,12 +4638,10 @@ export default {
         "marketing channel"
       ],
       "optionReasons": {
-        "channel-mcq-46": "本句指「營銷渠道」。",
-        "channel-mcq-45": "「分銷渠道」與本句語境不同。",
-        "channel-mcq-47": "「數碼渠道」與本句語境不同。",
-        "channel-mcq-44": "「銷售渠道」與本句語境不同。",
-        "channel-mcq-48": "「直接渠道」與本句語境不同。",
-        "channel-mcq-43": "「通道蛋白」與本句語境不同。"
+        "channel-mcq-46": "本句的「marketing channel」指「營銷渠道」。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-46"
     },
@@ -5098,11 +4653,9 @@ export default {
       "masked": "Different marketing ____ reach different audiences.",
       "options": [
         "channel-mcq-46",
-        "channel-mcq-45",
-        "channel-mcq-47",
-        "channel-mcq-44",
-        "channel-mcq-48",
-        "channel-mcq-43"
+        "channel-mcq-04",
+        "channel-mcq-56",
+        "channel-mcq-58"
       ],
       "explanation": "本句的「channels」指「營銷渠道」。",
       "sentenceIndex": 116,
@@ -5111,12 +4664,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-46": "本句指「營銷渠道」。",
-        "channel-mcq-45": "「分銷渠道」與本句語境不同。",
-        "channel-mcq-47": "「數碼渠道」與本句語境不同。",
-        "channel-mcq-44": "「銷售渠道」與本句語境不同。",
-        "channel-mcq-48": "「直接渠道」與本句語境不同。",
-        "channel-mcq-43": "「通道蛋白」與本句語境不同。"
+        "channel-mcq-46": "本句的「channels」指「營銷渠道」。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-46"
     },
@@ -5128,11 +4679,9 @@ export default {
       "masked": "Customers increasingly use ____.",
       "options": [
         "channel-mcq-47",
-        "channel-mcq-46",
-        "channel-mcq-48",
-        "channel-mcq-45",
-        "channel-mcq-49",
-        "channel-mcq-44"
+        "channel-mcq-57",
+        "channel-pdf-001",
+        "channel-mcq-39"
       ],
       "explanation": "本句的「digital channels」指「數碼渠道」。",
       "sentenceIndex": 117,
@@ -5141,12 +4690,10 @@ export default {
         "digital channels"
       ],
       "optionReasons": {
-        "channel-mcq-47": "本句指「數碼渠道」。",
-        "channel-mcq-46": "「營銷渠道」與本句語境不同。",
-        "channel-mcq-48": "「直接渠道」與本句語境不同。",
-        "channel-mcq-45": "「分銷渠道」與本句語境不同。",
-        "channel-mcq-49": "「間接渠道」與本句語境不同。",
-        "channel-mcq-44": "「銷售渠道」與本句語境不同。"
+        "channel-mcq-47": "本句的「digital channels」指「數碼渠道」。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-47"
     },
@@ -5158,11 +4705,9 @@ export default {
       "masked": "The bank offers support through digital ____.",
       "options": [
         "channel-mcq-47",
-        "channel-mcq-46",
-        "channel-mcq-48",
-        "channel-mcq-45",
-        "channel-mcq-49",
-        "channel-mcq-44"
+        "channel-mcq-59",
+        "channel-mcq-61",
+        "channel-mcq-19"
       ],
       "explanation": "本句的「channels」指「數碼渠道」。",
       "sentenceIndex": 118,
@@ -5171,12 +4716,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-47": "本句指「數碼渠道」。",
-        "channel-mcq-46": "「營銷渠道」與本句語境不同。",
-        "channel-mcq-48": "「直接渠道」與本句語境不同。",
-        "channel-mcq-45": "「分銷渠道」與本句語境不同。",
-        "channel-mcq-49": "「間接渠道」與本句語境不同。",
-        "channel-mcq-44": "「銷售渠道」與本句語境不同。"
+        "channel-mcq-47": "本句的「channels」指「數碼渠道」。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-47"
     },
@@ -5188,11 +4731,9 @@ export default {
       "masked": "The product is sold through traditional ____.",
       "options": [
         "channel-mcq-44",
-        "channel-mcq-43",
-        "channel-mcq-45",
-        "channel-mcq-42",
-        "channel-mcq-46",
-        "channel-mcq-41"
+        "channel-mcq-19",
+        "channel-mcq-34",
+        "channel-mcq-40"
       ],
       "explanation": "本句的「retail channels」指「銷售渠道」。",
       "sentenceIndex": 119,
@@ -5201,12 +4742,10 @@ export default {
         "retail channels"
       ],
       "optionReasons": {
-        "channel-mcq-44": "本句指「銷售渠道」。",
-        "channel-mcq-43": "「通道蛋白」與本句語境不同。",
-        "channel-mcq-45": "「分銷渠道」與本句語境不同。",
-        "channel-mcq-42": "「離子通道」與本句語境不同。",
-        "channel-mcq-46": "「營銷渠道」與本句語境不同。",
-        "channel-mcq-41": "「C 型槽鋼」與本句語境不同。"
+        "channel-mcq-44": "本句的「retail channels」指「銷售渠道」。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-44"
     },
@@ -5218,10 +4757,8 @@ export default {
       "masked": "Online retail has become a major ____.",
       "options": [
         "channel-mcq-44",
-        "channel-mcq-43",
-        "channel-mcq-45",
-        "channel-mcq-42",
-        "channel-mcq-46",
+        "channel-mcq-59",
+        "channel-mcq-60",
         "channel-mcq-41"
       ],
       "explanation": "本句的「channel」指「銷售渠道」。",
@@ -5231,12 +4768,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-44": "本句指「銷售渠道」。",
-        "channel-mcq-43": "「通道蛋白」與本句語境不同。",
-        "channel-mcq-45": "「分銷渠道」與本句語境不同。",
-        "channel-mcq-42": "「離子通道」與本句語境不同。",
-        "channel-mcq-46": "「營銷渠道」與本句語境不同。",
-        "channel-mcq-41": "「C 型槽鋼」與本句語境不同。"
+        "channel-mcq-44": "本句的「channel」指「銷售渠道」。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-44"
     },
@@ -5248,11 +4783,9 @@ export default {
       "masked": "The company sells through a ____ without intermediaries.",
       "options": [
         "channel-mcq-48",
-        "channel-mcq-47",
-        "channel-mcq-49",
-        "channel-mcq-46",
-        "channel-mcq-50",
-        "channel-mcq-45"
+        "channel-mcq-34",
+        "channel-mcq-57",
+        "channel-mcq-04"
       ],
       "explanation": "本句的「direct channel」指「直接渠道」。",
       "sentenceIndex": 121,
@@ -5261,12 +4794,10 @@ export default {
         "direct channel"
       ],
       "optionReasons": {
-        "channel-mcq-48": "本句指「直接渠道」。",
-        "channel-mcq-47": "「數碼渠道」與本句語境不同。",
-        "channel-mcq-49": "「間接渠道」與本句語境不同。",
-        "channel-mcq-46": "「營銷渠道」與本句語境不同。",
-        "channel-mcq-50": "「渠道合作夥伴」與本句語境不同。",
-        "channel-mcq-45": "「分銷渠道」與本句語境不同。"
+        "channel-mcq-48": "本句的「direct channel」指「直接渠道」。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-48"
     },
@@ -5278,11 +4809,9 @@ export default {
       "masked": "Its website is the main direct-sales ____.",
       "options": [
         "channel-mcq-48",
-        "channel-mcq-47",
-        "channel-mcq-49",
-        "channel-mcq-46",
-        "channel-mcq-50",
-        "channel-mcq-45"
+        "channel-mcq-39",
+        "channel-mcq-56",
+        "channel-mcq-19"
       ],
       "explanation": "本句的「channel」指「直接渠道」。",
       "sentenceIndex": 122,
@@ -5291,12 +4820,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-48": "本句指「直接渠道」。",
-        "channel-mcq-47": "「數碼渠道」與本句語境不同。",
-        "channel-mcq-49": "「間接渠道」與本句語境不同。",
-        "channel-mcq-46": "「營銷渠道」與本句語境不同。",
-        "channel-mcq-50": "「渠道合作夥伴」與本句語境不同。",
-        "channel-mcq-45": "「分銷渠道」與本句語境不同。"
+        "channel-mcq-48": "本句的「channel」指「直接渠道」。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-48"
     },
@@ -5308,11 +4835,9 @@ export default {
       "masked": "Distributors provide an ____ to customers.",
       "options": [
         "channel-mcq-49",
-        "channel-mcq-48",
-        "channel-mcq-50",
-        "channel-mcq-47",
-        "channel-mcq-51",
-        "channel-mcq-46"
+        "channel-mcq-18",
+        "channel-mcq-34",
+        "channel-mcq-39"
       ],
       "explanation": "本句的「indirect channel」指「間接渠道」。",
       "sentenceIndex": 123,
@@ -5321,12 +4846,10 @@ export default {
         "indirect channel"
       ],
       "optionReasons": {
-        "channel-mcq-49": "本句指「間接渠道」。",
-        "channel-mcq-48": "「直接渠道」與本句語境不同。",
-        "channel-mcq-50": "「渠道合作夥伴」與本句語境不同。",
-        "channel-mcq-47": "「數碼渠道」與本句語境不同。",
-        "channel-mcq-51": "「渠道管理」與本句語境不同。",
-        "channel-mcq-46": "「營銷渠道」與本句語境不同。"
+        "channel-mcq-49": "本句的「indirect channel」指「間接渠道」。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-49"
     },
@@ -5338,11 +4861,9 @@ export default {
       "masked": "Indirect ____ may involve wholesalers and retailers.",
       "options": [
         "channel-mcq-49",
-        "channel-mcq-48",
-        "channel-mcq-50",
-        "channel-mcq-47",
-        "channel-mcq-51",
-        "channel-mcq-46"
+        "channel-mcq-34",
+        "channel-mcq-60",
+        "channel-mcq-61"
       ],
       "explanation": "本句的「channels」指「間接渠道」。",
       "sentenceIndex": 124,
@@ -5351,12 +4872,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-49": "本句指「間接渠道」。",
-        "channel-mcq-48": "「直接渠道」與本句語境不同。",
-        "channel-mcq-50": "「渠道合作夥伴」與本句語境不同。",
-        "channel-mcq-47": "「數碼渠道」與本句語境不同。",
-        "channel-mcq-51": "「渠道管理」與本句語境不同。",
-        "channel-mcq-46": "「營銷渠道」與本句語境不同。"
+        "channel-mcq-49": "本句的「channels」指「間接渠道」。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-49"
     },
@@ -5368,11 +4887,9 @@ export default {
       "masked": "The software company sells through ____.",
       "options": [
         "channel-mcq-50",
-        "channel-mcq-49",
-        "channel-mcq-51",
-        "channel-mcq-48",
-        "channel-mcq-52",
-        "channel-mcq-47"
+        "channel-mcq-39",
+        "channel-reviewed-66c8c05660",
+        "channel-mcq-56"
       ],
       "explanation": "本句的「channel partners」指「渠道合作夥伴」。",
       "sentenceIndex": 125,
@@ -5381,12 +4898,10 @@ export default {
         "channel partners"
       ],
       "optionReasons": {
-        "channel-mcq-50": "本句指「渠道合作夥伴」。",
-        "channel-mcq-49": "「間接渠道」與本句語境不同。",
-        "channel-mcq-51": "「渠道管理」與本句語境不同。",
-        "channel-mcq-48": "「直接渠道」與本句語境不同。",
-        "channel-mcq-52": "「渠道衝突」與本句語境不同。",
-        "channel-mcq-47": "「數碼渠道」與本句語境不同。"
+        "channel-mcq-50": "本句的「channel partners」指「渠道合作夥伴」。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-50"
     },
@@ -5398,11 +4913,9 @@ export default {
       "masked": "Distributors and resellers can act as ____ partners.",
       "options": [
         "channel-mcq-50",
-        "channel-mcq-49",
-        "channel-mcq-51",
-        "channel-mcq-48",
-        "channel-mcq-52",
-        "channel-mcq-47"
+        "channel-mcq-65",
+        "channel-mcq-34",
+        "channel-mcq-19"
       ],
       "explanation": "本句的「channel」指「渠道合作夥伴」。",
       "sentenceIndex": 126,
@@ -5411,12 +4924,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-50": "本句指「渠道合作夥伴」。",
-        "channel-mcq-49": "「間接渠道」與本句語境不同。",
-        "channel-mcq-51": "「渠道管理」與本句語境不同。",
-        "channel-mcq-48": "「直接渠道」與本句語境不同。",
-        "channel-mcq-52": "「渠道衝突」與本句語境不同。",
-        "channel-mcq-47": "「數碼渠道」與本句語境不同。"
+        "channel-mcq-50": "本句的「channel」指「渠道合作夥伴」。",
+        "channel-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-50"
     },
@@ -5428,11 +4939,9 @@ export default {
       "masked": "Effective ____ can improve market coverage.",
       "options": [
         "channel-mcq-51",
-        "channel-mcq-50",
-        "channel-mcq-52",
-        "channel-mcq-49",
-        "channel-mcq-53",
-        "channel-mcq-48"
+        "channel-mcq-41",
+        "channel-mcq-59",
+        "channel-mcq-60"
       ],
       "explanation": "本句的「channel management」指「渠道管理」。",
       "sentenceIndex": 127,
@@ -5441,12 +4950,10 @@ export default {
         "channel management"
       ],
       "optionReasons": {
-        "channel-mcq-51": "本句指「渠道管理」。",
-        "channel-mcq-50": "「渠道合作夥伴」與本句語境不同。",
-        "channel-mcq-52": "「渠道衝突」與本句語境不同。",
-        "channel-mcq-49": "「間接渠道」與本句語境不同。",
-        "channel-mcq-53": "「多渠道的」與本句語境不同。",
-        "channel-mcq-48": "「直接渠道」與本句語境不同。"
+        "channel-mcq-51": "本句的「channel management」指「渠道管理」。",
+        "channel-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-51"
     },
@@ -5458,11 +4965,9 @@ export default {
       "masked": "The company changed its ____ strategy.",
       "options": [
         "channel-mcq-51",
-        "channel-mcq-50",
-        "channel-mcq-52",
-        "channel-mcq-49",
-        "channel-mcq-53",
-        "channel-mcq-48"
+        "channel-mcq-64",
+        "channel-mcq-62",
+        "channel-pdf-002"
       ],
       "explanation": "本句的「channel-management」指「渠道管理」。",
       "sentenceIndex": 128,
@@ -5471,12 +4976,10 @@ export default {
         "channel-management"
       ],
       "optionReasons": {
-        "channel-mcq-51": "本句指「渠道管理」。",
-        "channel-mcq-50": "「渠道合作夥伴」與本句語境不同。",
-        "channel-mcq-52": "「渠道衝突」與本句語境不同。",
-        "channel-mcq-49": "「間接渠道」與本句語境不同。",
-        "channel-mcq-53": "「多渠道的」與本句語境不同。",
-        "channel-mcq-48": "「直接渠道」與本句語境不同。"
+        "channel-mcq-51": "本句的「channel-management」指「渠道管理」。",
+        "channel-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-51"
     },
@@ -5488,11 +4991,9 @@ export default {
       "masked": "Selling directly online created ____ with retailers.",
       "options": [
         "channel-mcq-52",
-        "channel-mcq-51",
-        "channel-mcq-53",
-        "channel-mcq-50",
-        "channel-mcq-54",
-        "channel-mcq-49"
+        "channel-pdf-003",
+        "channel-reviewed-66c8c05660",
+        "channel-mcq-39"
       ],
       "explanation": "本句的「channel conflict」指「渠道衝突」。",
       "sentenceIndex": 129,
@@ -5501,12 +5002,10 @@ export default {
         "channel conflict"
       ],
       "optionReasons": {
-        "channel-mcq-52": "本句指「渠道衝突」。",
-        "channel-mcq-51": "「渠道管理」與本句語境不同。",
-        "channel-mcq-53": "「多渠道的」與本句語境不同。",
-        "channel-mcq-50": "「渠道合作夥伴」與本句語境不同。",
-        "channel-mcq-54": "「全渠道整合的」與本句語境不同。",
-        "channel-mcq-49": "「間接渠道」與本句語境不同。"
+        "channel-mcq-52": "本句的「channel conflict」指「渠道衝突」。",
+        "channel-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-52"
     },
@@ -5518,11 +5017,9 @@ export default {
       "masked": "____ conflict can arise when different sellers compete for the same customers.",
       "options": [
         "channel-mcq-52",
-        "channel-mcq-51",
-        "channel-mcq-53",
-        "channel-mcq-50",
-        "channel-mcq-54",
-        "channel-mcq-49"
+        "channel-mcq-61",
+        "channel-pdf-001",
+        "channel-pdf-003"
       ],
       "explanation": "本句的「Channel」指「渠道衝突」。",
       "sentenceIndex": 130,
@@ -5531,12 +5028,10 @@ export default {
         "Channel"
       ],
       "optionReasons": {
-        "channel-mcq-52": "本句指「渠道衝突」。",
-        "channel-mcq-51": "「渠道管理」與本句語境不同。",
-        "channel-mcq-53": "「多渠道的」與本句語境不同。",
-        "channel-mcq-50": "「渠道合作夥伴」與本句語境不同。",
-        "channel-mcq-54": "「全渠道整合的」與本句語境不同。",
-        "channel-mcq-49": "「間接渠道」與本句語境不同。"
+        "channel-mcq-52": "本句的「Channel」指「渠道衝突」。",
+        "channel-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-52"
     },
@@ -5548,11 +5043,9 @@ export default {
       "masked": "The company uses a ____.",
       "options": [
         "channel-mcq-53",
-        "channel-mcq-52",
-        "channel-mcq-54",
-        "channel-mcq-51",
-        "channel-mcq-55",
-        "channel-mcq-50"
+        "channel-pdf-002",
+        "channel-mcq-57",
+        "channel-reviewed-66c8c05660"
       ],
       "explanation": "本句的「multichannel marketing strategy」指「多渠道的」。",
       "sentenceIndex": 131,
@@ -5561,12 +5054,10 @@ export default {
         "multichannel marketing strategy"
       ],
       "optionReasons": {
-        "channel-mcq-53": "本句指「多渠道的」。",
-        "channel-mcq-52": "「渠道衝突」與本句語境不同。",
-        "channel-mcq-54": "「全渠道整合的」與本句語境不同。",
-        "channel-mcq-51": "「渠道管理」與本句語境不同。",
-        "channel-mcq-55": "「把資金投入 X」與本句語境不同。",
-        "channel-mcq-50": "「渠道合作夥伴」與本句語境不同。"
+        "channel-mcq-53": "本句的「multichannel marketing strategy」指「多渠道的」。",
+        "channel-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-53"
     },
@@ -5578,11 +5069,9 @@ export default {
       "masked": "Customers can contact us through several ____.",
       "options": [
         "channel-mcq-53",
-        "channel-mcq-52",
-        "channel-mcq-54",
-        "channel-mcq-51",
-        "channel-mcq-55",
-        "channel-mcq-50"
+        "channel-mcq-41",
+        "channel-mcq-56",
+        "channel-mcq-18"
       ],
       "explanation": "本句的「channels」指「多渠道的」。",
       "sentenceIndex": 132,
@@ -5591,12 +5080,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-53": "本句指「多渠道的」。",
-        "channel-mcq-52": "「渠道衝突」與本句語境不同。",
-        "channel-mcq-54": "「全渠道整合的」與本句語境不同。",
-        "channel-mcq-51": "「渠道管理」與本句語境不同。",
-        "channel-mcq-55": "「把資金投入 X」與本句語境不同。",
-        "channel-mcq-50": "「渠道合作夥伴」與本句語境不同。"
+        "channel-mcq-53": "本句的「channels」指「多渠道的」。",
+        "channel-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-53"
     },
@@ -5608,11 +5095,9 @@ export default {
       "masked": "The retailer offers an ____.",
       "options": [
         "channel-mcq-54",
-        "channel-mcq-53",
-        "channel-mcq-55",
-        "channel-mcq-52",
-        "channel-mcq-56",
-        "channel-mcq-51"
+        "channel-pdf-001",
+        "channel-mcq-19",
+        "channel-mcq-55"
       ],
       "explanation": "本句的「omnichannel shopping experience」指「全渠道整合的」。",
       "sentenceIndex": 133,
@@ -5621,12 +5106,10 @@ export default {
         "omnichannel shopping experience"
       ],
       "optionReasons": {
-        "channel-mcq-54": "本句指「全渠道整合的」。",
-        "channel-mcq-53": "「多渠道的」與本句語境不同。",
-        "channel-mcq-55": "「把資金投入 X」與本句語境不同。",
-        "channel-mcq-52": "「渠道衝突」與本句語境不同。",
-        "channel-mcq-56": "「調配資源」與本句語境不同。",
-        "channel-mcq-51": "「渠道管理」與本句語境不同。"
+        "channel-mcq-54": "本句的「omnichannel shopping experience」指「全渠道整合的」。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-54"
     },
@@ -5638,11 +5121,9 @@ export default {
       "masked": "Omnichannel service connects online and physical ____.",
       "options": [
         "channel-mcq-54",
-        "channel-mcq-53",
-        "channel-mcq-55",
-        "channel-mcq-52",
-        "channel-mcq-56",
-        "channel-mcq-51"
+        "channel-mcq-62",
+        "channel-mcq-04",
+        "channel-pdf-003"
       ],
       "explanation": "本句的「channels」指「全渠道整合的」。",
       "sentenceIndex": 134,
@@ -5651,12 +5132,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-54": "本句指「全渠道整合的」。",
-        "channel-mcq-53": "「多渠道的」與本句語境不同。",
-        "channel-mcq-55": "「把資金投入 X」與本句語境不同。",
-        "channel-mcq-52": "「渠道衝突」與本句語境不同。",
-        "channel-mcq-56": "「調配資源」與本句語境不同。",
-        "channel-mcq-51": "「渠道管理」與本句語境不同。"
+        "channel-mcq-54": "本句的「channels」指「全渠道整合的」。",
+        "channel-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-54"
     },
@@ -5668,11 +5147,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "channel-mcq-55",
-        "channel-mcq-54",
-        "channel-mcq-56",
-        "channel-mcq-53",
-        "channel-mcq-57",
-        "channel-mcq-52"
+        "channel-mcq-06",
+        "channel-mcq-20",
+        "channel-mcq-64"
       ],
       "explanation": "本句的「channelled more resources into training」指「把資金投入 X」。",
       "sentenceIndex": 135,
@@ -5681,12 +5158,10 @@ export default {
         "channelled more resources into training"
       ],
       "optionReasons": {
-        "channel-mcq-55": "本句指「把資金投入 X」。",
-        "channel-mcq-54": "「全渠道整合的」與本句語境不同。",
-        "channel-mcq-56": "「調配資源」與本句語境不同。",
-        "channel-mcq-53": "「多渠道的」與本句語境不同。",
-        "channel-mcq-57": "「集中努力」與本句語境不同。",
-        "channel-mcq-52": "「渠道衝突」與本句語境不同。"
+        "channel-mcq-55": "本句的「channelled more resources into training」指「把資金投入 X」。",
+        "channel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-55"
     },
@@ -5698,11 +5173,9 @@ export default {
       "masked": "Funds were ____ into research.",
       "options": [
         "channel-mcq-55",
-        "channel-mcq-54",
-        "channel-mcq-56",
-        "channel-mcq-53",
-        "channel-mcq-57",
-        "channel-mcq-52"
+        "channel-pdf-003",
+        "channel-mcq-44",
+        "channel-mcq-18"
       ],
       "explanation": "本句的「channeled」指「把資金投入 X」。",
       "sentenceIndex": 136,
@@ -5711,12 +5184,10 @@ export default {
         "channeled"
       ],
       "optionReasons": {
-        "channel-mcq-55": "本句指「把資金投入 X」。",
-        "channel-mcq-54": "「全渠道整合的」與本句語境不同。",
-        "channel-mcq-56": "「調配資源」與本句語境不同。",
-        "channel-mcq-53": "「多渠道的」與本句語境不同。",
-        "channel-mcq-57": "「集中努力」與本句語境不同。",
-        "channel-mcq-52": "「渠道衝突」與本句語境不同。"
+        "channel-mcq-55": "本句的「channeled」指「把資金投入 X」。",
+        "channel-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-55"
     },
@@ -5728,11 +5199,9 @@ export default {
       "masked": "The organisation ____.",
       "options": [
         "channel-mcq-55",
-        "channel-mcq-54",
-        "channel-mcq-56",
-        "channel-mcq-53",
-        "channel-mcq-57",
-        "channel-mcq-52"
+        "channel-mcq-18",
+        "channel-mcq-49",
+        "channel-mcq-42"
       ],
       "explanation": "本句的「channelled funds into community projects」指「把資金投入 X」。",
       "sentenceIndex": 137,
@@ -5741,12 +5210,10 @@ export default {
         "channelled funds into community projects"
       ],
       "optionReasons": {
-        "channel-mcq-55": "本句指「把資金投入 X」。",
-        "channel-mcq-54": "「全渠道整合的」與本句語境不同。",
-        "channel-mcq-56": "「調配資源」與本句語境不同。",
-        "channel-mcq-53": "「多渠道的」與本句語境不同。",
-        "channel-mcq-57": "「集中努力」與本句語境不同。",
-        "channel-mcq-52": "「渠道衝突」與本句語境不同。"
+        "channel-mcq-55": "本句的「channelled funds into community projects」指「把資金投入 X」。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-55"
     },
@@ -5758,11 +5225,9 @@ export default {
       "masked": "More money should be ____ towards frontline services.",
       "options": [
         "channel-mcq-55",
-        "channel-mcq-54",
-        "channel-mcq-56",
-        "channel-mcq-53",
-        "channel-mcq-57",
-        "channel-mcq-52"
+        "channel-mcq-33",
+        "channel-mcq-34",
+        "channel-pdf-001"
       ],
       "explanation": "本句的「channeled」指「把資金投入 X」。",
       "sentenceIndex": 138,
@@ -5771,12 +5236,10 @@ export default {
         "channeled"
       ],
       "optionReasons": {
-        "channel-mcq-55": "本句指「把資金投入 X」。",
-        "channel-mcq-54": "「全渠道整合的」與本句語境不同。",
-        "channel-mcq-56": "「調配資源」與本句語境不同。",
-        "channel-mcq-53": "「多渠道的」與本句語境不同。",
-        "channel-mcq-57": "「集中努力」與本句語境不同。",
-        "channel-mcq-52": "「渠道衝突」與本句語境不同。"
+        "channel-mcq-55": "本句的「channeled」指「把資金投入 X」。",
+        "channel-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-55"
     },
@@ -5788,11 +5251,9 @@ export default {
       "masked": "Managers should ____.",
       "options": [
         "channel-mcq-56",
-        "channel-mcq-55",
-        "channel-mcq-57",
-        "channel-mcq-54",
-        "channel-mcq-58",
-        "channel-mcq-53"
+        "channel-mcq-44",
+        "channel-mcq-21",
+        "channel-mcq-28"
       ],
       "explanation": "本句的「channel resources towards priority tasks」指「調配資源」。",
       "sentenceIndex": 139,
@@ -5801,12 +5262,10 @@ export default {
         "channel resources towards priority tasks"
       ],
       "optionReasons": {
-        "channel-mcq-56": "本句指「調配資源」。",
-        "channel-mcq-55": "「把資金投入 X」與本句語境不同。",
-        "channel-mcq-57": "「集中努力」與本句語境不同。",
-        "channel-mcq-54": "「全渠道整合的」與本句語境不同。",
-        "channel-mcq-58": "「引導注意力」與本句語境不同。",
-        "channel-mcq-53": "「多渠道的」與本句語境不同。"
+        "channel-mcq-56": "本句的「channel resources towards priority tasks」指「調配資源」。",
+        "channel-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-56"
     },
@@ -5818,11 +5277,9 @@ export default {
       "masked": "The emergency required resources to be ____ elsewhere.",
       "options": [
         "channel-mcq-56",
-        "channel-mcq-55",
-        "channel-mcq-57",
-        "channel-mcq-54",
-        "channel-mcq-58",
-        "channel-mcq-53"
+        "channel-pdf-001",
+        "channel-mcq-61",
+        "channel-mcq-35"
       ],
       "explanation": "本句的「channelled」指「調配資源」。",
       "sentenceIndex": 140,
@@ -5831,12 +5288,10 @@ export default {
         "channelled"
       ],
       "optionReasons": {
-        "channel-mcq-56": "本句指「調配資源」。",
-        "channel-mcq-55": "「把資金投入 X」與本句語境不同。",
-        "channel-mcq-57": "「集中努力」與本句語境不同。",
-        "channel-mcq-54": "「全渠道整合的」與本句語境不同。",
-        "channel-mcq-58": "「引導注意力」與本句語境不同。",
-        "channel-mcq-53": "「多渠道的」與本句語境不同。"
+        "channel-mcq-56": "本句的「channelled」指「調配資源」。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-56"
     },
@@ -5848,11 +5303,9 @@ export default {
       "masked": "The team ____.",
       "options": [
         "channel-mcq-57",
-        "channel-mcq-56",
-        "channel-mcq-58",
-        "channel-mcq-55",
-        "channel-mcq-59",
-        "channel-mcq-54"
+        "channel-mcq-49",
+        "channel-mcq-43",
+        "channel-mcq-23"
       ],
       "explanation": "本句的「channelled its efforts into solving the main problem」指「集中努力」。",
       "sentenceIndex": 141,
@@ -5861,12 +5314,10 @@ export default {
         "channelled its efforts into solving the main problem"
       ],
       "optionReasons": {
-        "channel-mcq-57": "本句指「集中努力」。",
-        "channel-mcq-56": "「調配資源」與本句語境不同。",
-        "channel-mcq-58": "「引導注意力」與本句語境不同。",
-        "channel-mcq-55": "「把資金投入 X」與本句語境不同。",
-        "channel-mcq-59": "「把精力投入 X」與本句語境不同。",
-        "channel-mcq-54": "「全渠道整合的」與本句語境不同。"
+        "channel-mcq-57": "本句的「channelled its efforts into solving the main problem」指「集中努力」。",
+        "channel-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-57"
     },
@@ -5878,11 +5329,9 @@ export default {
       "masked": "Employees need a clear goal so they can ____ their efforts effectively.",
       "options": [
         "channel-mcq-57",
-        "channel-mcq-56",
-        "channel-mcq-58",
-        "channel-mcq-55",
-        "channel-mcq-59",
-        "channel-mcq-54"
+        "channel-mcq-10",
+        "channel-mcq-30",
+        "channel-pdf-001"
       ],
       "explanation": "本句的「channel」指「集中努力」。",
       "sentenceIndex": 142,
@@ -5891,12 +5340,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-57": "本句指「集中努力」。",
-        "channel-mcq-56": "「調配資源」與本句語境不同。",
-        "channel-mcq-58": "「引導注意力」與本句語境不同。",
-        "channel-mcq-55": "「把資金投入 X」與本句語境不同。",
-        "channel-mcq-59": "「把精力投入 X」與本句語境不同。",
-        "channel-mcq-54": "「全渠道整合的」與本句語境不同。"
+        "channel-mcq-57": "本句的「channel」指「集中努力」。",
+        "channel-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-57"
     },
@@ -5908,11 +5355,9 @@ export default {
       "masked": "The report ____ attention towards the underlying problem.",
       "options": [
         "channel-mcq-58",
-        "channel-mcq-57",
-        "channel-mcq-59",
-        "channel-mcq-56",
-        "channel-mcq-60",
-        "channel-mcq-55"
+        "channel-mcq-44",
+        "channel-mcq-31",
+        "channel-mcq-23"
       ],
       "explanation": "本句的「channels」指「引導注意力」。",
       "sentenceIndex": 143,
@@ -5921,12 +5366,10 @@ export default {
         "channels"
       ],
       "optionReasons": {
-        "channel-mcq-58": "本句指「引導注意力」。",
-        "channel-mcq-57": "「集中努力」與本句語境不同。",
-        "channel-mcq-59": "「把精力投入 X」與本句語境不同。",
-        "channel-mcq-56": "「調配資源」與本句語境不同。",
-        "channel-mcq-60": "「疏導憤怒」與本句語境不同。",
-        "channel-mcq-55": "「把資金投入 X」與本句語境不同。"
+        "channel-mcq-58": "本句的「channels」指「引導注意力」。",
+        "channel-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-58"
     },
@@ -5938,11 +5381,9 @@ export default {
       "masked": "Leaders should ____ the discussion towards solutions.",
       "options": [
         "channel-mcq-58",
-        "channel-mcq-57",
-        "channel-mcq-59",
-        "channel-mcq-56",
-        "channel-mcq-60",
-        "channel-mcq-55"
+        "channel-mcq-54",
+        "channel-mcq-21",
+        "channel-mcq-35"
       ],
       "explanation": "本句的「channel」指「引導注意力」。",
       "sentenceIndex": 144,
@@ -5951,12 +5392,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-58": "本句指「引導注意力」。",
-        "channel-mcq-57": "「集中努力」與本句語境不同。",
-        "channel-mcq-59": "「把精力投入 X」與本句語境不同。",
-        "channel-mcq-56": "「調配資源」與本句語境不同。",
-        "channel-mcq-60": "「疏導憤怒」與本句語境不同。",
-        "channel-mcq-55": "「把資金投入 X」與本句語境不同。"
+        "channel-mcq-58": "本句的「channel」指「引導注意力」。",
+        "channel-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-58"
     },
@@ -5968,11 +5407,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "channel-mcq-59",
-        "channel-mcq-58",
-        "channel-mcq-60",
-        "channel-mcq-57",
-        "channel-mcq-61",
-        "channel-mcq-56"
+        "channel-mcq-43",
+        "channel-mcq-27",
+        "channel-mcq-64"
       ],
       "explanation": "本句的「channelled her energy into work」指「把精力投入 X」。",
       "sentenceIndex": 145,
@@ -5981,12 +5418,10 @@ export default {
         "channelled her energy into work"
       ],
       "optionReasons": {
-        "channel-mcq-59": "本句指「把精力投入 X」。",
-        "channel-mcq-58": "「引導注意力」與本句語境不同。",
-        "channel-mcq-60": "「疏導憤怒」與本句語境不同。",
-        "channel-mcq-57": "「集中努力」與本句語境不同。",
-        "channel-mcq-61": "「引導水流」與本句語境不同。",
-        "channel-mcq-56": "「調配資源」與本句語境不同。"
+        "channel-mcq-59": "本句的「channelled her energy into work」指「把精力投入 X」。",
+        "channel-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-59"
     },
@@ -5998,11 +5433,9 @@ export default {
       "masked": "The team ____ its frustration into constructive action.",
       "options": [
         "channel-mcq-59",
-        "channel-mcq-58",
-        "channel-mcq-60",
-        "channel-mcq-57",
-        "channel-mcq-61",
-        "channel-mcq-56"
+        "channel-mcq-53",
+        "channel-mcq-40",
+        "channel-mcq-60"
       ],
       "explanation": "本句的「channelled」指「把精力投入 X」。",
       "sentenceIndex": 146,
@@ -6011,12 +5444,10 @@ export default {
         "channelled"
       ],
       "optionReasons": {
-        "channel-mcq-59": "本句指「把精力投入 X」。",
-        "channel-mcq-58": "「引導注意力」與本句語境不同。",
-        "channel-mcq-60": "「疏導憤怒」與本句語境不同。",
-        "channel-mcq-57": "「集中努力」與本句語境不同。",
-        "channel-mcq-61": "「引導水流」與本句語境不同。",
-        "channel-mcq-56": "「調配資源」與本句語境不同。"
+        "channel-mcq-59": "本句的「channelled」指「把精力投入 X」。",
+        "channel-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-59"
     },
@@ -6028,11 +5459,9 @@ export default {
       "masked": "He learned to ____.",
       "options": [
         "channel-mcq-60",
-        "channel-mcq-59",
-        "channel-mcq-61",
-        "channel-mcq-58",
-        "channel-mcq-62",
-        "channel-mcq-57"
+        "channel-mcq-50",
+        "channel-mcq-56",
+        "channel-mcq-31"
       ],
       "explanation": "本句的「channel his anger into exercise」指「疏導憤怒」。",
       "sentenceIndex": 147,
@@ -6041,12 +5470,10 @@ export default {
         "channel his anger into exercise"
       ],
       "optionReasons": {
-        "channel-mcq-60": "本句指「疏導憤怒」。",
-        "channel-mcq-59": "「把精力投入 X」與本句語境不同。",
-        "channel-mcq-61": "「引導水流」與本句語境不同。",
-        "channel-mcq-58": "「引導注意力」與本句語境不同。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。",
-        "channel-mcq-57": "「集中努力」與本句語境不同。"
+        "channel-mcq-60": "本句的「channel his anger into exercise」指「疏導憤怒」。",
+        "channel-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-60"
     },
@@ -6058,11 +5485,9 @@ export default {
       "masked": "Conflict-resolution training can help people ____ frustration constructively.",
       "options": [
         "channel-mcq-60",
-        "channel-mcq-59",
-        "channel-mcq-61",
-        "channel-mcq-58",
-        "channel-mcq-62",
-        "channel-mcq-57"
+        "channel-mcq-08",
+        "channel-mcq-41",
+        "channel-mcq-56"
       ],
       "explanation": "本句的「channel」指「疏導憤怒」。",
       "sentenceIndex": 148,
@@ -6071,12 +5496,10 @@ export default {
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-60": "本句指「疏導憤怒」。",
-        "channel-mcq-59": "「把精力投入 X」與本句語境不同。",
-        "channel-mcq-61": "「引導水流」與本句語境不同。",
-        "channel-mcq-58": "「引導注意力」與本句語境不同。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。",
-        "channel-mcq-57": "「集中努力」與本句語境不同。"
+        "channel-mcq-60": "本句的「channel」指「疏導憤怒」。",
+        "channel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-60"
     },
@@ -6088,11 +5511,9 @@ export default {
       "masked": "Clear constraints can help ____.",
       "options": [
         "channel-mcq-61",
-        "channel-mcq-60",
-        "channel-mcq-62",
-        "channel-mcq-59",
-        "channel-mcq-63",
-        "channel-mcq-58"
+        "channel-mcq-21",
+        "channel-mcq-18",
+        "channel-mcq-54"
       ],
       "explanation": "本句的「channel creativity」指「引導水流」。",
       "sentenceIndex": 149,
@@ -6101,12 +5522,10 @@ export default {
         "channel creativity"
       ],
       "optionReasons": {
-        "channel-mcq-61": "本句指「引導水流」。",
-        "channel-mcq-60": "「疏導憤怒」與本句語境不同。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。",
-        "channel-mcq-59": "「把精力投入 X」與本句語境不同。",
-        "channel-mcq-63": "「展現／模仿某人的風格」與本句語境不同。",
-        "channel-mcq-58": "「引導注意力」與本句語境不同。"
+        "channel-mcq-61": "本句的「channel creativity」指「引導水流」。",
+        "channel-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-61"
     },
@@ -6118,11 +5537,9 @@ export default {
       "masked": "She ____ her creativity into design.",
       "options": [
         "channel-mcq-61",
-        "channel-mcq-60",
-        "channel-mcq-62",
-        "channel-mcq-59",
-        "channel-mcq-63",
-        "channel-mcq-58"
+        "channel-mcq-24",
+        "channel-mcq-49",
+        "channel-mcq-56"
       ],
       "explanation": "本句的「channelled」指「引導水流」。",
       "sentenceIndex": 150,
@@ -6131,12 +5548,10 @@ export default {
         "channelled"
       ],
       "optionReasons": {
-        "channel-mcq-61": "本句指「引導水流」。",
-        "channel-mcq-60": "「疏導憤怒」與本句語境不同。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。",
-        "channel-mcq-59": "「把精力投入 X」與本句語境不同。",
-        "channel-mcq-63": "「展現／模仿某人的風格」與本句語境不同。",
-        "channel-mcq-58": "「引導注意力」與本句語境不同。"
+        "channel-mcq-61": "本句的「channelled」指「引導水流」。",
+        "channel-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-61"
     },
@@ -6148,11 +5563,9 @@ export default {
       "masked": "The system ____.",
       "options": [
         "channel-mcq-61",
-        "channel-mcq-60",
-        "channel-mcq-62",
-        "channel-mcq-59",
-        "channel-mcq-63",
-        "channel-mcq-58"
+        "channel-pdf-001",
+        "channel-mcq-55",
+        "channel-mcq-17"
       ],
       "explanation": "本句的「channels requests through one central office」指「引導水流」。",
       "sentenceIndex": 151,
@@ -6161,12 +5574,10 @@ export default {
         "channels requests through one central office"
       ],
       "optionReasons": {
-        "channel-mcq-61": "本句指「引導水流」。",
-        "channel-mcq-60": "「疏導憤怒」與本句語境不同。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。",
-        "channel-mcq-59": "「把精力投入 X」與本句語境不同。",
-        "channel-mcq-63": "「展現／模仿某人的風格」與本句語境不同。",
-        "channel-mcq-58": "「引導注意力」與本句語境不同。"
+        "channel-mcq-61": "本句的「channels requests through one central office」指「引導水流」。",
+        "channel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-61"
     },
@@ -6178,11 +5589,9 @@ export default {
       "masked": "Traffic was ____ through a temporary route.",
       "options": [
         "channel-mcq-61",
-        "channel-mcq-60",
-        "channel-mcq-62",
-        "channel-mcq-59",
-        "channel-mcq-63",
-        "channel-mcq-58"
+        "channel-mcq-02",
+        "channel-mcq-40",
+        "channel-mcq-23"
       ],
       "explanation": "本句的「channelled」指「引導水流」。",
       "sentenceIndex": 152,
@@ -6191,12 +5600,10 @@ export default {
         "channelled"
       ],
       "optionReasons": {
-        "channel-mcq-61": "本句指「引導水流」。",
-        "channel-mcq-60": "「疏導憤怒」與本句語境不同。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。",
-        "channel-mcq-59": "「把精力投入 X」與本句語境不同。",
-        "channel-mcq-63": "「展現／模仿某人的風格」與本句語境不同。",
-        "channel-mcq-58": "「引導注意力」與本句語境不同。"
+        "channel-mcq-61": "本句的「channelled」指「引導水流」。",
+        "channel-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-61"
     },
@@ -6208,11 +5615,9 @@ export default {
       "masked": "Barriers ____.",
       "options": [
         "channel-mcq-62",
-        "channel-mcq-61",
-        "channel-mcq-63",
-        "channel-mcq-60",
-        "channel-mcq-64",
-        "channel-mcq-59"
+        "channel-mcq-21",
+        "channel-mcq-29",
+        "channel-mcq-54"
       ],
       "explanation": "本句的「channel traffic into two lanes」指「疏導交通」。",
       "sentenceIndex": 153,
@@ -6221,12 +5626,10 @@ export default {
         "channel traffic into two lanes"
       ],
       "optionReasons": {
-        "channel-mcq-62": "本句指「疏導交通」。",
-        "channel-mcq-61": "「引導水流」與本句語境不同。",
-        "channel-mcq-63": "「展現／模仿某人的風格」與本句語境不同。",
-        "channel-mcq-60": "「疏導憤怒」與本句語境不同。",
-        "channel-mcq-64": "「發揮內在的 X 特質」與本句語境不同。",
-        "channel-mcq-59": "「把精力投入 X」與本句語境不同。"
+        "channel-mcq-62": "本句的「channel traffic into two lanes」指「疏導交通」。",
+        "channel-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-62"
     },
@@ -6238,11 +5641,9 @@ export default {
       "masked": "Police ____ vehicles away from the accident.",
       "options": [
         "channel-mcq-62",
-        "channel-mcq-61",
-        "channel-mcq-63",
-        "channel-mcq-60",
-        "channel-mcq-64",
-        "channel-mcq-59"
+        "channel-mcq-44",
+        "channel-mcq-59",
+        "channel-mcq-24"
       ],
       "explanation": "本句的「channelled」指「疏導交通」。",
       "sentenceIndex": 154,
@@ -6251,74 +5652,68 @@ export default {
         "channelled"
       ],
       "optionReasons": {
-        "channel-mcq-62": "本句指「疏導交通」。",
-        "channel-mcq-61": "「引導水流」與本句語境不同。",
-        "channel-mcq-63": "「展現／模仿某人的風格」與本句語境不同。",
-        "channel-mcq-60": "「疏導憤怒」與本句語境不同。",
-        "channel-mcq-64": "「發揮內在的 X 特質」與本句語境不同。",
-        "channel-mcq-59": "「把精力投入 X」與本句語境不同。"
+        "channel-mcq-62": "本句的「channelled」指「疏導交通」。",
+        "channel-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-62"
     },
     {
       "id": "channel-79-0",
-      "sense": "channel-mcq-63",
+      "sense": "channel-reviewed-66c8c05660",
       "en": "Staff channelled visitors towards the main entrance.",
       "zh": "員工把訪客引導往正門。",
       "masked": "Staff ____.",
       "options": [
-        "channel-mcq-63",
-        "channel-mcq-62",
-        "channel-mcq-64",
-        "channel-mcq-61",
+        "channel-reviewed-66c8c05660",
         "channel-mcq-65",
-        "channel-mcq-60"
+        "channel-mcq-53",
+        "channel-mcq-57"
       ],
-      "explanation": "本句的「channelled visitors towards the main entrance」指「展現／模仿某人的風格」。",
+      "explanation": "對照完整句子：「員工把訪客引導往正門。」。這裡的「channelled visitors towards the main entrance」表示「引導人流」。",
       "sentenceIndex": 155,
       "sourcePractice": 1,
       "targets": [
         "channelled visitors towards the main entrance"
       ],
       "optionReasons": {
-        "channel-mcq-63": "本句指「展現／模仿某人的風格」。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。",
-        "channel-mcq-64": "「發揮內在的 X 特質」與本句語境不同。",
-        "channel-mcq-61": "「引導水流」與本句語境不同。",
-        "channel-mcq-65": "「通靈」與本句語境不同。",
-        "channel-mcq-60": "「疏導憤怒」與本句語境不同。"
+        "channel-reviewed-66c8c05660": "對照完整句子：「員工把訪客引導往正門。」。這裡的「channelled visitors towards the main entrance」表示「引導人流」。",
+        "channel-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "channel-mcq-63"
+      "correctOption": "channel-reviewed-66c8c05660",
+      "previousCorrectOption": "channel-mcq-63",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "channel-79-1",
-      "sense": "channel-mcq-63",
+      "sense": "channel-reviewed-66c8c05660",
       "en": "Barriers channel the crowd into separate queues.",
       "zh": "欄杆把人群分流到不同隊伍。",
       "masked": "Barriers ____ the crowd into separate queues.",
       "options": [
-        "channel-mcq-63",
-        "channel-mcq-62",
-        "channel-mcq-64",
-        "channel-mcq-61",
-        "channel-mcq-65",
-        "channel-mcq-60"
+        "channel-reviewed-66c8c05660",
+        "channel-mcq-56",
+        "channel-mcq-04",
+        "channel-mcq-15"
       ],
-      "explanation": "本句的「channel」指「展現／模仿某人的風格」。",
+      "explanation": "對照完整句子：「欄杆把人群分流到不同隊伍。」。這裡的「channel」表示「引導人流」。",
       "sentenceIndex": 156,
       "sourcePractice": 2,
       "targets": [
         "channel"
       ],
       "optionReasons": {
-        "channel-mcq-63": "本句指「展現／模仿某人的風格」。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。",
-        "channel-mcq-64": "「發揮內在的 X 特質」與本句語境不同。",
-        "channel-mcq-61": "「引導水流」與本句語境不同。",
-        "channel-mcq-65": "「通靈」與本句語境不同。",
-        "channel-mcq-60": "「疏導憤怒」與本句語境不同。"
+        "channel-reviewed-66c8c05660": "對照完整句子：「欄杆把人群分流到不同隊伍。」。這裡的「channel」表示「引導人流」。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "channel-mcq-63"
+      "correctOption": "channel-reviewed-66c8c05660",
+      "previousCorrectOption": "channel-mcq-63",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "channel-80-0",
@@ -6328,11 +5723,9 @@ export default {
       "masked": "The singer seemed to be ____.",
       "options": [
         "channel-pdf-003",
-        "channel-mcq-62",
-        "channel-mcq-64",
-        "channel-mcq-61",
-        "channel-mcq-65",
-        "channel-mcq-60"
+        "channel-mcq-40",
+        "channel-mcq-59",
+        "channel-mcq-06"
       ],
       "explanation": "本句的「channeling an earlier generation of jazz performers」指「以自己的行為、造型或表達方式令人聯想到某人的特色或風格」。",
       "sentenceIndex": 157,
@@ -6341,12 +5734,10 @@ export default {
         "channeling an earlier generation of jazz performers"
       ],
       "optionReasons": {
-        "channel-pdf-003": "本句指「以自己的行為、造型或表達方式令人聯想到某人的特色或風格」。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。",
-        "channel-mcq-64": "「發揮內在的 X 特質」與本句語境不同。",
-        "channel-mcq-61": "「引導水流」與本句語境不同。",
-        "channel-mcq-65": "「通靈」與本句語境不同。",
-        "channel-mcq-60": "「疏導憤怒」與本句語境不同。"
+        "channel-pdf-003": "本句的「channeling an earlier generation of jazz performers」指「以自己的行為、造型或表達方式令人聯想到某人的特色或風格」。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-pdf-003"
     },
@@ -6358,11 +5749,9 @@ export default {
       "masked": "Her speech ____ the confidence of a seasoned leader.",
       "options": [
         "channel-pdf-003",
-        "channel-mcq-62",
-        "channel-mcq-64",
-        "channel-mcq-61",
-        "channel-mcq-65",
-        "channel-mcq-60"
+        "channel-reviewed-66c8c05660",
+        "channel-mcq-43",
+        "channel-mcq-35"
       ],
       "explanation": "本句的「channelled」指「以自己的行為、造型或表達方式令人聯想到某人的特色或風格」。",
       "sentenceIndex": 158,
@@ -6371,12 +5760,10 @@ export default {
         "channelled"
       ],
       "optionReasons": {
-        "channel-pdf-003": "本句指「以自己的行為、造型或表達方式令人聯想到某人的特色或風格」。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。",
-        "channel-mcq-64": "「發揮內在的 X 特質」與本句語境不同。",
-        "channel-mcq-61": "「引導水流」與本句語境不同。",
-        "channel-mcq-65": "「通靈」與本句語境不同。",
-        "channel-mcq-60": "「疏導憤怒」與本句語境不同。"
+        "channel-pdf-003": "本句的「channelled」指「以自己的行為、造型或表達方式令人聯想到某人的特色或風格」。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-pdf-003"
     },
@@ -6388,11 +5775,9 @@ export default {
       "masked": "____ and make the room more creative.",
       "options": [
         "channel-mcq-64",
-        "channel-mcq-63",
-        "channel-mcq-65",
-        "channel-mcq-62",
-        "channel-mcq-66",
-        "channel-mcq-61"
+        "channel-mcq-21",
+        "channel-reviewed-66c8c05660",
+        "channel-mcq-26"
       ],
       "explanation": "本句的「Channel your inner designer」指「發揮內在的 X 特質」。",
       "sentenceIndex": 159,
@@ -6401,12 +5786,10 @@ export default {
         "Channel your inner designer"
       ],
       "optionReasons": {
-        "channel-mcq-64": "本句指「發揮內在的 X 特質」。",
-        "channel-mcq-63": "「展現／模仿某人的風格」與本句語境不同。",
-        "channel-mcq-65": "「通靈」與本句語境不同。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。",
-        "channel-mcq-66": "「導流；渠道化」與本句語境不同。",
-        "channel-mcq-61": "「引導水流」與本句語境不同。"
+        "channel-mcq-64": "本句的「Channel your inner designer」指「發揮內在的 X 特質」。",
+        "channel-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "channel-reviewed-66c8c05660": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-64"
     },
@@ -6418,11 +5801,9 @@ export default {
       "masked": "She ____ her inner leader during the crisis.",
       "options": [
         "channel-mcq-64",
-        "channel-mcq-63",
-        "channel-mcq-65",
-        "channel-mcq-62",
-        "channel-mcq-66",
-        "channel-mcq-61"
+        "channel-mcq-10",
+        "channel-mcq-34",
+        "channel-mcq-56"
       ],
       "explanation": "本句的「channelled」指「發揮內在的 X 特質」。",
       "sentenceIndex": 160,
@@ -6431,12 +5812,10 @@ export default {
         "channelled"
       ],
       "optionReasons": {
-        "channel-mcq-64": "本句指「發揮內在的 X 特質」。",
-        "channel-mcq-63": "「展現／模仿某人的風格」與本句語境不同。",
-        "channel-mcq-65": "「通靈」與本句語境不同。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。",
-        "channel-mcq-66": "「導流；渠道化」與本句語境不同。",
-        "channel-mcq-61": "「引導水流」與本句語境不同。"
+        "channel-mcq-64": "本句的「channelled」指「發揮內在的 X 特質」。",
+        "channel-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-64"
     },
@@ -6448,11 +5827,9 @@ export default {
       "masked": "The medium claimed to ____.",
       "options": [
         "channel-mcq-65",
-        "channel-mcq-64",
-        "channel-mcq-66",
-        "channel-mcq-63",
-        "channel-mcq-67",
-        "channel-mcq-62"
+        "channel-mcq-06",
+        "channel-mcq-26",
+        "channel-mcq-28"
       ],
       "explanation": "本句的「channel a spirit」指「通靈」。",
       "sentenceIndex": 161,
@@ -6461,12 +5838,10 @@ export default {
         "channel a spirit"
       ],
       "optionReasons": {
-        "channel-mcq-65": "本句指「通靈」。",
-        "channel-mcq-64": "「發揮內在的 X 特質」與本句語境不同。",
-        "channel-mcq-66": "「導流；渠道化」與本句語境不同。",
-        "channel-mcq-63": "「展現／模仿某人的風格」與本句語境不同。",
-        "channel-mcq-67": "「導流／渠道化」與本句語境不同。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。"
+        "channel-mcq-65": "本句的「channel a spirit」指「通靈」。",
+        "channel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-65"
     },
@@ -6478,11 +5853,9 @@ export default {
       "masked": "____” is used in some spiritualist traditions for receiving messages believed to come from non-physical beings.",
       "options": [
         "channel-mcq-65",
-        "channel-mcq-64",
-        "channel-mcq-66",
-        "channel-mcq-63",
-        "channel-mcq-67",
-        "channel-mcq-62"
+        "channel-mcq-14",
+        "channel-mcq-06",
+        "channel-mcq-34"
       ],
       "explanation": "本句的「Channel」指「通靈」。",
       "sentenceIndex": 162,
@@ -6491,12 +5864,10 @@ export default {
         "Channel"
       ],
       "optionReasons": {
-        "channel-mcq-65": "本句指「通靈」。",
-        "channel-mcq-64": "「發揮內在的 X 特質」與本句語境不同。",
-        "channel-mcq-66": "「導流；渠道化」與本句語境不同。",
-        "channel-mcq-63": "「展現／模仿某人的風格」與本句語境不同。",
-        "channel-mcq-67": "「導流／渠道化」與本句語境不同。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。"
+        "channel-mcq-65": "本句的「Channel」指「通靈」。",
+        "channel-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-65"
     },
@@ -6508,11 +5879,9 @@ export default {
       "masked": "Engineers ____ to control flooding.",
       "options": [
         "channel-mcq-66",
-        "channel-mcq-65",
-        "channel-mcq-67",
-        "channel-mcq-64",
-        "channel-mcq-63",
-        "channel-mcq-62"
+        "channel-mcq-39",
+        "channel-mcq-18",
+        "channel-pdf-003"
       ],
       "explanation": "本句的「channelized the stream」指「導流；渠道化」。",
       "sentenceIndex": 165,
@@ -6521,12 +5890,10 @@ export default {
         "channelized the stream"
       ],
       "optionReasons": {
-        "channel-mcq-66": "本句指「導流；渠道化」。",
-        "channel-mcq-65": "「通靈」與本句語境不同。",
-        "channel-mcq-67": "「導流／渠道化」與本句語境不同。",
-        "channel-mcq-64": "「發揮內在的 X 特質」與本句語境不同。",
-        "channel-mcq-63": "「展現／模仿某人的風格」與本句語境不同。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。"
+        "channel-mcq-66": "本句的「channelized the stream」指「導流；渠道化」。",
+        "channel-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-66"
     },
@@ -6538,11 +5905,9 @@ export default {
       "masked": "Traffic was ____ into separate lanes.",
       "options": [
         "channel-mcq-66",
-        "channel-mcq-65",
-        "channel-mcq-67",
-        "channel-mcq-64",
-        "channel-mcq-63",
-        "channel-mcq-62"
+        "channel-pdf-003",
+        "channel-mcq-57",
+        "channel-mcq-40"
       ],
       "explanation": "本句的「channelised」指「導流；渠道化」。",
       "sentenceIndex": 166,
@@ -6551,12 +5916,10 @@ export default {
         "channelised"
       ],
       "optionReasons": {
-        "channel-mcq-66": "本句指「導流；渠道化」。",
-        "channel-mcq-65": "「通靈」與本句語境不同。",
-        "channel-mcq-67": "「導流／渠道化」與本句語境不同。",
-        "channel-mcq-64": "「發揮內在的 X 特質」與本句語境不同。",
-        "channel-mcq-63": "「展現／模仿某人的風格」與本句語境不同。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。"
+        "channel-mcq-66": "本句的「channelised」指「導流；渠道化」。",
+        "channel-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-66"
     },
@@ -6568,11 +5931,9 @@ export default {
       "masked": "River ____ changed the natural flow.",
       "options": [
         "channel-mcq-67",
-        "channel-mcq-66",
-        "channel-mcq-65",
-        "channel-mcq-64",
-        "channel-mcq-63",
-        "channel-mcq-62"
+        "channel-mcq-40",
+        "channel-mcq-19",
+        "channel-pdf-003"
       ],
       "explanation": "本句的「channelization」指「導流／渠道化」。",
       "sentenceIndex": 167,
@@ -6581,12 +5942,10 @@ export default {
         "channelization"
       ],
       "optionReasons": {
-        "channel-mcq-67": "本句指「導流／渠道化」。",
-        "channel-mcq-66": "「導流；渠道化」與本句語境不同。",
-        "channel-mcq-65": "「通靈」與本句語境不同。",
-        "channel-mcq-64": "「發揮內在的 X 特質」與本句語境不同。",
-        "channel-mcq-63": "「展現／模仿某人的風格」與本句語境不同。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。"
+        "channel-mcq-67": "本句的「channelization」指「導流／渠道化」。",
+        "channel-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "channel-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-67"
     },
@@ -6598,11 +5957,9 @@ export default {
       "masked": "Road ____ can separate traffic movements.",
       "options": [
         "channel-mcq-67",
-        "channel-mcq-66",
-        "channel-mcq-65",
-        "channel-mcq-64",
-        "channel-mcq-63",
-        "channel-mcq-62"
+        "channel-mcq-04",
+        "channel-mcq-41",
+        "channel-mcq-64"
       ],
       "explanation": "本句的「channelisation」指「導流／渠道化」。",
       "sentenceIndex": 168,
@@ -6611,12 +5968,10 @@ export default {
         "channelisation"
       ],
       "optionReasons": {
-        "channel-mcq-67": "本句指「導流／渠道化」。",
-        "channel-mcq-66": "「導流；渠道化」與本句語境不同。",
-        "channel-mcq-65": "「通靈」與本句語境不同。",
-        "channel-mcq-64": "「發揮內在的 X 特質」與本句語境不同。",
-        "channel-mcq-63": "「展現／模仿某人的風格」與本句語境不同。",
-        "channel-mcq-62": "「疏導交通」與本句語境不同。"
+        "channel-mcq-67": "本句的「channelisation」指「導流／渠道化」。",
+        "channel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "channel-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "channel-mcq-67"
     }
@@ -6628,5 +5983,7 @@ export default {
     "sha256": "92c33a7f3c3d84e8b8ec4134fb942456d42d00358c15c7242c014a39fb1cf680",
     "pages": 51
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

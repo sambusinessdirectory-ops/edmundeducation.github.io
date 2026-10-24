@@ -305,11 +305,9 @@ export default {
       "masked": "a ____ train, a busy café, and a noisy office",
       "options": [
         "pack-mcq-01",
-        "pack-mcq-02",
-        "pack-mcq-03",
-        "pack-mcq-04",
-        "pack-mcq-05",
-        "pack-mcq-06"
+        "pack-mcq-11",
+        "pack-mcq-08",
+        "pack-mcq-12"
       ],
       "explanation": "本句的「packed」指「人數多得幾乎佔滿所有可用空間、非常擠迫的」。",
       "sentenceIndex": 0,
@@ -318,12 +316,10 @@ export default {
         "packed"
       ],
       "optionReasons": {
-        "pack-mcq-01": "本句指「人數多得幾乎佔滿所有可用空間、非常擠迫的」。",
-        "pack-mcq-02": "「大量物件密集地佔滿有限空間、幾乎沒有剩餘位置的」是「packed container/place」的用法，與本句語境不同。",
-        "pack-mcq-03": "「時間被大量活動或安排佔滿、幾乎沒有空檔的」是「packed schedule/day」的用法，與本句語境不同。",
-        "pack-mcq-04": "「在有限內容或產品中包含大量資訊、功能或其他元素」是「packed with information/features」的用法，與本句語境不同。",
-        "pack-mcq-05": "「把要攜帶、運送或保存的物品整理並放入容器」是「pack a suitcase/box」的用法，與本句語境不同。",
-        "pack-mcq-06": "「為運送、儲存或保護而把商品妥善包裝」是「pack a product」的用法，與本句語境不同。"
+        "pack-mcq-01": "本句的「packed」指「人數多得幾乎佔滿所有可用空間、非常擠迫的」。",
+        "pack-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-01"
     },
@@ -335,11 +331,9 @@ export default {
       "masked": "The stadium was ____ for the final.",
       "options": [
         "pack-mcq-01",
-        "pack-mcq-02",
-        "pack-mcq-03",
-        "pack-mcq-04",
-        "pack-mcq-05",
-        "pack-mcq-06"
+        "pack-mcq-11",
+        "pack-mcq-06",
+        "pack-mcq-12"
       ],
       "explanation": "本句的「packed」指「人數多得幾乎佔滿所有可用空間、非常擠迫的」。",
       "sentenceIndex": 1,
@@ -348,12 +342,10 @@ export default {
         "packed"
       ],
       "optionReasons": {
-        "pack-mcq-01": "本句指「人數多得幾乎佔滿所有可用空間、非常擠迫的」。",
-        "pack-mcq-02": "「大量物件密集地佔滿有限空間、幾乎沒有剩餘位置的」是「packed container/place」的用法，與本句語境不同。",
-        "pack-mcq-03": "「時間被大量活動或安排佔滿、幾乎沒有空檔的」是「packed schedule/day」的用法，與本句語境不同。",
-        "pack-mcq-04": "「在有限內容或產品中包含大量資訊、功能或其他元素」是「packed with information/features」的用法，與本句語境不同。",
-        "pack-mcq-05": "「把要攜帶、運送或保存的物品整理並放入容器」是「pack a suitcase/box」的用法，與本句語境不同。",
-        "pack-mcq-06": "「為運送、儲存或保護而把商品妥善包裝」是「pack a product」的用法，與本句語境不同。"
+        "pack-mcq-01": "本句的「packed」指「人數多得幾乎佔滿所有可用空間、非常擠迫的」。",
+        "pack-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-01"
     },
@@ -365,11 +357,9 @@ export default {
       "masked": "We could hardly move because the bus was ____.",
       "options": [
         "pack-mcq-01",
-        "pack-mcq-02",
-        "pack-mcq-03",
-        "pack-mcq-04",
-        "pack-mcq-05",
-        "pack-mcq-06"
+        "pack-mcq-11",
+        "pack-mcq-06",
+        "pack-mcq-12"
       ],
       "explanation": "本句的「packed」指「人數多得幾乎佔滿所有可用空間、非常擠迫的」。",
       "sentenceIndex": 2,
@@ -378,12 +368,10 @@ export default {
         "packed"
       ],
       "optionReasons": {
-        "pack-mcq-01": "本句指「人數多得幾乎佔滿所有可用空間、非常擠迫的」。",
-        "pack-mcq-02": "「大量物件密集地佔滿有限空間、幾乎沒有剩餘位置的」是「packed container/place」的用法，與本句語境不同。",
-        "pack-mcq-03": "「時間被大量活動或安排佔滿、幾乎沒有空檔的」是「packed schedule/day」的用法，與本句語境不同。",
-        "pack-mcq-04": "「在有限內容或產品中包含大量資訊、功能或其他元素」是「packed with information/features」的用法，與本句語境不同。",
-        "pack-mcq-05": "「把要攜帶、運送或保存的物品整理並放入容器」是「pack a suitcase/box」的用法，與本句語境不同。",
-        "pack-mcq-06": "「為運送、儲存或保護而把商品妥善包裝」是「pack a product」的用法，與本句語境不同。"
+        "pack-mcq-01": "本句的「packed」指「人數多得幾乎佔滿所有可用空間、非常擠迫的」。",
+        "pack-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-01"
     },
@@ -395,11 +383,9 @@ export default {
       "masked": "The cupboard was ____ with old books.",
       "options": [
         "pack-mcq-02",
-        "pack-mcq-01",
-        "pack-mcq-03",
-        "pack-mcq-04",
-        "pack-mcq-05",
-        "pack-mcq-06"
+        "pack-mcq-13",
+        "pack-mcq-09",
+        "pack-mcq-10"
       ],
       "explanation": "本句的「packed」指「大量物件密集地佔滿有限空間、幾乎沒有剩餘位置的」。",
       "sentenceIndex": 3,
@@ -408,12 +394,10 @@ export default {
         "packed"
       ],
       "optionReasons": {
-        "pack-mcq-02": "本句指「大量物件密集地佔滿有限空間、幾乎沒有剩餘位置的」。",
-        "pack-mcq-01": "「人數多得幾乎佔滿所有可用空間、非常擠迫的」是「packed train/place」的用法，與本句語境不同。",
-        "pack-mcq-03": "「時間被大量活動或安排佔滿、幾乎沒有空檔的」是「packed schedule/day」的用法，與本句語境不同。",
-        "pack-mcq-04": "「在有限內容或產品中包含大量資訊、功能或其他元素」是「packed with information/features」的用法，與本句語境不同。",
-        "pack-mcq-05": "「把要攜帶、運送或保存的物品整理並放入容器」是「pack a suitcase/box」的用法，與本句語境不同。",
-        "pack-mcq-06": "「為運送、儲存或保護而把商品妥善包裝」是「pack a product」的用法，與本句語境不同。"
+        "pack-mcq-02": "本句的「packed」指「大量物件密集地佔滿有限空間、幾乎沒有剩餘位置的」。",
+        "pack-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-02"
     },
@@ -425,11 +409,9 @@ export default {
       "masked": "Her suitcase was ____ with clothes.",
       "options": [
         "pack-mcq-02",
-        "pack-mcq-01",
-        "pack-mcq-03",
-        "pack-mcq-04",
-        "pack-mcq-05",
-        "pack-mcq-06"
+        "pack-mcq-13",
+        "pack-mcq-09",
+        "pack-mcq-11"
       ],
       "explanation": "本句的「packed」指「大量物件密集地佔滿有限空間、幾乎沒有剩餘位置的」。",
       "sentenceIndex": 4,
@@ -438,12 +420,10 @@ export default {
         "packed"
       ],
       "optionReasons": {
-        "pack-mcq-02": "本句指「大量物件密集地佔滿有限空間、幾乎沒有剩餘位置的」。",
-        "pack-mcq-01": "「人數多得幾乎佔滿所有可用空間、非常擠迫的」是「packed train/place」的用法，與本句語境不同。",
-        "pack-mcq-03": "「時間被大量活動或安排佔滿、幾乎沒有空檔的」是「packed schedule/day」的用法，與本句語境不同。",
-        "pack-mcq-04": "「在有限內容或產品中包含大量資訊、功能或其他元素」是「packed with information/features」的用法，與本句語境不同。",
-        "pack-mcq-05": "「把要攜帶、運送或保存的物品整理並放入容器」是「pack a suitcase/box」的用法，與本句語境不同。",
-        "pack-mcq-06": "「為運送、儲存或保護而把商品妥善包裝」是「pack a product」的用法，與本句語境不同。"
+        "pack-mcq-02": "本句的「packed」指「大量物件密集地佔滿有限空間、幾乎沒有剩餘位置的」。",
+        "pack-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-02"
     },
@@ -455,11 +435,9 @@ export default {
       "masked": "I have a ____ schedule this week.",
       "options": [
         "pack-mcq-03",
-        "pack-mcq-02",
-        "pack-mcq-04",
-        "pack-mcq-01",
-        "pack-mcq-05",
-        "pack-mcq-06"
+        "pack-mcq-06",
+        "pack-mcq-09",
+        "pack-mcq-12"
       ],
       "explanation": "本句的「packed」指「時間被大量活動或安排佔滿、幾乎沒有空檔的」。",
       "sentenceIndex": 5,
@@ -468,12 +446,10 @@ export default {
         "packed"
       ],
       "optionReasons": {
-        "pack-mcq-03": "本句指「時間被大量活動或安排佔滿、幾乎沒有空檔的」。",
-        "pack-mcq-02": "「大量物件密集地佔滿有限空間、幾乎沒有剩餘位置的」是「packed container/place」的用法，與本句語境不同。",
-        "pack-mcq-04": "「在有限內容或產品中包含大量資訊、功能或其他元素」是「packed with information/features」的用法，與本句語境不同。",
-        "pack-mcq-01": "「人數多得幾乎佔滿所有可用空間、非常擠迫的」是「packed train/place」的用法，與本句語境不同。",
-        "pack-mcq-05": "「把要攜帶、運送或保存的物品整理並放入容器」是「pack a suitcase/box」的用法，與本句語境不同。",
-        "pack-mcq-06": "「為運送、儲存或保護而把商品妥善包裝」是「pack a product」的用法，與本句語境不同。"
+        "pack-mcq-03": "本句的「packed」指「時間被大量活動或安排佔滿、幾乎沒有空檔的」。",
+        "pack-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-03"
     },
@@ -485,11 +461,9 @@ export default {
       "masked": "It was a ____ day of meetings and presentations.",
       "options": [
         "pack-mcq-03",
-        "pack-mcq-02",
-        "pack-mcq-04",
-        "pack-mcq-01",
-        "pack-mcq-05",
-        "pack-mcq-06"
+        "pack-mcq-09",
+        "pack-mcq-13",
+        "pack-mcq-12"
       ],
       "explanation": "本句的「packed」指「時間被大量活動或安排佔滿、幾乎沒有空檔的」。",
       "sentenceIndex": 6,
@@ -498,12 +472,10 @@ export default {
         "packed"
       ],
       "optionReasons": {
-        "pack-mcq-03": "本句指「時間被大量活動或安排佔滿、幾乎沒有空檔的」。",
-        "pack-mcq-02": "「大量物件密集地佔滿有限空間、幾乎沒有剩餘位置的」是「packed container/place」的用法，與本句語境不同。",
-        "pack-mcq-04": "「在有限內容或產品中包含大量資訊、功能或其他元素」是「packed with information/features」的用法，與本句語境不同。",
-        "pack-mcq-01": "「人數多得幾乎佔滿所有可用空間、非常擠迫的」是「packed train/place」的用法，與本句語境不同。",
-        "pack-mcq-05": "「把要攜帶、運送或保存的物品整理並放入容器」是「pack a suitcase/box」的用法，與本句語境不同。",
-        "pack-mcq-06": "「為運送、儲存或保護而把商品妥善包裝」是「pack a product」的用法，與本句語境不同。"
+        "pack-mcq-03": "本句的「packed」指「時間被大量活動或安排佔滿、幾乎沒有空檔的」。",
+        "pack-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-03"
     },
@@ -515,11 +487,9 @@ export default {
       "masked": "The guide is ____ with useful information.",
       "options": [
         "pack-mcq-04",
-        "pack-mcq-03",
-        "pack-mcq-05",
-        "pack-mcq-02",
-        "pack-mcq-06",
-        "pack-mcq-01"
+        "pack-mcq-10",
+        "pack-mcq-09",
+        "pack-mcq-12"
       ],
       "explanation": "本句的「packed」指「在有限內容或產品中包含大量資訊、功能或其他元素」。",
       "sentenceIndex": 7,
@@ -528,12 +498,10 @@ export default {
         "packed"
       ],
       "optionReasons": {
-        "pack-mcq-04": "本句指「在有限內容或產品中包含大量資訊、功能或其他元素」。",
-        "pack-mcq-03": "「時間被大量活動或安排佔滿、幾乎沒有空檔的」是「packed schedule/day」的用法，與本句語境不同。",
-        "pack-mcq-05": "「把要攜帶、運送或保存的物品整理並放入容器」是「pack a suitcase/box」的用法，與本句語境不同。",
-        "pack-mcq-02": "「大量物件密集地佔滿有限空間、幾乎沒有剩餘位置的」是「packed container/place」的用法，與本句語境不同。",
-        "pack-mcq-06": "「為運送、儲存或保護而把商品妥善包裝」是「pack a product」的用法，與本句語境不同。",
-        "pack-mcq-01": "「人數多得幾乎佔滿所有可用空間、非常擠迫的」是「packed train/place」的用法，與本句語境不同。"
+        "pack-mcq-04": "本句的「packed」指「在有限內容或產品中包含大量資訊、功能或其他元素」。",
+        "pack-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-04"
     },
@@ -545,11 +513,9 @@ export default {
       "masked": "The phone is ____ with new features.",
       "options": [
         "pack-mcq-04",
-        "pack-mcq-03",
-        "pack-mcq-05",
-        "pack-mcq-02",
-        "pack-mcq-06",
-        "pack-mcq-01"
+        "pack-mcq-09",
+        "pack-mcq-10",
+        "pack-mcq-12"
       ],
       "explanation": "本句的「packed」指「在有限內容或產品中包含大量資訊、功能或其他元素」。",
       "sentenceIndex": 8,
@@ -558,12 +524,10 @@ export default {
         "packed"
       ],
       "optionReasons": {
-        "pack-mcq-04": "本句指「在有限內容或產品中包含大量資訊、功能或其他元素」。",
-        "pack-mcq-03": "「時間被大量活動或安排佔滿、幾乎沒有空檔的」是「packed schedule/day」的用法，與本句語境不同。",
-        "pack-mcq-05": "「把要攜帶、運送或保存的物品整理並放入容器」是「pack a suitcase/box」的用法，與本句語境不同。",
-        "pack-mcq-02": "「大量物件密集地佔滿有限空間、幾乎沒有剩餘位置的」是「packed container/place」的用法，與本句語境不同。",
-        "pack-mcq-06": "「為運送、儲存或保護而把商品妥善包裝」是「pack a product」的用法，與本句語境不同。",
-        "pack-mcq-01": "「人數多得幾乎佔滿所有可用空間、非常擠迫的」是「packed train/place」的用法，與本句語境不同。"
+        "pack-mcq-04": "本句的「packed」指「在有限內容或產品中包含大量資訊、功能或其他元素」。",
+        "pack-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-04"
     },
@@ -575,11 +539,9 @@ export default {
       "masked": "I need to ____ my suitcase tonight.",
       "options": [
         "pack-mcq-05",
-        "pack-mcq-04",
-        "pack-mcq-06",
-        "pack-mcq-03",
-        "pack-mcq-07",
-        "pack-mcq-02"
+        "pack-mcq-02",
+        "pack-mcq-11",
+        "pack-mcq-12"
       ],
       "explanation": "本句的「pack」指「把要攜帶、運送或保存的物品整理並放入容器」。",
       "sentenceIndex": 9,
@@ -588,12 +550,10 @@ export default {
         "pack"
       ],
       "optionReasons": {
-        "pack-mcq-05": "本句指「把要攜帶、運送或保存的物品整理並放入容器」。",
-        "pack-mcq-04": "「在有限內容或產品中包含大量資訊、功能或其他元素」是「packed with information/features」的用法，與本句語境不同。",
-        "pack-mcq-06": "「為運送、儲存或保護而把商品妥善包裝」是「pack a product」的用法，與本句語境不同。",
-        "pack-mcq-03": "「時間被大量活動或安排佔滿、幾乎沒有空檔的」是「packed schedule/day」的用法，與本句語境不同。",
-        "pack-mcq-07": "「把大量人或物集中塞進有限空間」是「pack people/things into a space」的用法，與本句語境不同。",
-        "pack-mcq-02": "「大量物件密集地佔滿有限空間、幾乎沒有剩餘位置的」是「packed container/place」的用法，與本句語境不同。"
+        "pack-mcq-05": "本句的「pack」指「把要攜帶、運送或保存的物品整理並放入容器」。",
+        "pack-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-05"
     },
@@ -605,11 +565,9 @@ export default {
       "masked": "She ____ the books into several boxes.",
       "options": [
         "pack-mcq-05",
-        "pack-mcq-04",
-        "pack-mcq-06",
-        "pack-mcq-03",
-        "pack-mcq-07",
-        "pack-mcq-02"
+        "pack-mcq-02",
+        "pack-mcq-11",
+        "pack-mcq-12"
       ],
       "explanation": "本句的「packed」指「把要攜帶、運送或保存的物品整理並放入容器」。",
       "sentenceIndex": 10,
@@ -618,12 +576,10 @@ export default {
         "packed"
       ],
       "optionReasons": {
-        "pack-mcq-05": "本句指「把要攜帶、運送或保存的物品整理並放入容器」。",
-        "pack-mcq-04": "「在有限內容或產品中包含大量資訊、功能或其他元素」是「packed with information/features」的用法，與本句語境不同。",
-        "pack-mcq-06": "「為運送、儲存或保護而把商品妥善包裝」是「pack a product」的用法，與本句語境不同。",
-        "pack-mcq-03": "「時間被大量活動或安排佔滿、幾乎沒有空檔的」是「packed schedule/day」的用法，與本句語境不同。",
-        "pack-mcq-07": "「把大量人或物集中塞進有限空間」是「pack people/things into a space」的用法，與本句語境不同。",
-        "pack-mcq-02": "「大量物件密集地佔滿有限空間、幾乎沒有剩餘位置的」是「packed container/place」的用法，與本句語境不同。"
+        "pack-mcq-05": "本句的「packed」指「把要攜帶、運送或保存的物品整理並放入容器」。",
+        "pack-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-05"
     },
@@ -635,11 +591,9 @@ export default {
       "masked": "The workers ____ the glasses carefully.",
       "options": [
         "pack-mcq-06",
-        "pack-mcq-05",
-        "pack-mcq-07",
-        "pack-mcq-04",
-        "pack-mcq-08",
-        "pack-mcq-03"
+        "pack-mcq-09",
+        "pack-mcq-02",
+        "pack-mcq-11"
       ],
       "explanation": "本句的「packed」指「為運送、儲存或保護而把商品妥善包裝」。",
       "sentenceIndex": 11,
@@ -648,12 +602,10 @@ export default {
         "packed"
       ],
       "optionReasons": {
-        "pack-mcq-06": "本句指「為運送、儲存或保護而把商品妥善包裝」。",
-        "pack-mcq-05": "「把要攜帶、運送或保存的物品整理並放入容器」是「pack a suitcase/box」的用法，與本句語境不同。",
-        "pack-mcq-07": "「把大量人或物集中塞進有限空間」是「pack people/things into a space」的用法，與本句語境不同。",
-        "pack-mcq-04": "「在有限內容或產品中包含大量資訊、功能或其他元素」是「packed with information/features」的用法，與本句語境不同。",
-        "pack-mcq-08": "「作為一個單位包裝、出售或使用的一組物品」是「a pack of items」的用法，與本句語境不同。",
-        "pack-mcq-03": "「時間被大量活動或安排佔滿、幾乎沒有空檔的」是「packed schedule/day」的用法，與本句語境不同。"
+        "pack-mcq-06": "本句的「packed」指「為運送、儲存或保護而把商品妥善包裝」。",
+        "pack-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-06"
     },
@@ -665,11 +617,9 @@ export default {
       "masked": "The equipment was ____ in protective foam.",
       "options": [
         "pack-mcq-06",
-        "pack-mcq-05",
-        "pack-mcq-07",
-        "pack-mcq-04",
-        "pack-mcq-08",
-        "pack-mcq-03"
+        "pack-mcq-12",
+        "pack-mcq-09",
+        "pack-mcq-02"
       ],
       "explanation": "本句的「packed」指「為運送、儲存或保護而把商品妥善包裝」。",
       "sentenceIndex": 12,
@@ -678,12 +628,10 @@ export default {
         "packed"
       ],
       "optionReasons": {
-        "pack-mcq-06": "本句指「為運送、儲存或保護而把商品妥善包裝」。",
-        "pack-mcq-05": "「把要攜帶、運送或保存的物品整理並放入容器」是「pack a suitcase/box」的用法，與本句語境不同。",
-        "pack-mcq-07": "「把大量人或物集中塞進有限空間」是「pack people/things into a space」的用法，與本句語境不同。",
-        "pack-mcq-04": "「在有限內容或產品中包含大量資訊、功能或其他元素」是「packed with information/features」的用法，與本句語境不同。",
-        "pack-mcq-08": "「作為一個單位包裝、出售或使用的一組物品」是「a pack of items」的用法，與本句語境不同。",
-        "pack-mcq-03": "「時間被大量活動或安排佔滿、幾乎沒有空檔的」是「packed schedule/day」的用法，與本句語境不同。"
+        "pack-mcq-06": "本句的「packed」指「為運送、儲存或保護而把商品妥善包裝」。",
+        "pack-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-06"
     },
@@ -696,10 +644,8 @@ export default {
       "options": [
         "pack-mcq-07",
         "pack-mcq-06",
-        "pack-mcq-08",
-        "pack-mcq-05",
-        "pack-mcq-09",
-        "pack-mcq-04"
+        "pack-mcq-11",
+        "pack-mcq-09"
       ],
       "explanation": "本句的「packed」指「把大量人或物集中塞進有限空間」。",
       "sentenceIndex": 13,
@@ -708,12 +654,10 @@ export default {
         "packed"
       ],
       "optionReasons": {
-        "pack-mcq-07": "本句指「把大量人或物集中塞進有限空間」。",
-        "pack-mcq-06": "「為運送、儲存或保護而把商品妥善包裝」是「pack a product」的用法，與本句語境不同。",
-        "pack-mcq-08": "「作為一個單位包裝、出售或使用的一組物品」是「a pack of items」的用法，與本句語境不同。",
-        "pack-mcq-05": "「把要攜帶、運送或保存的物品整理並放入容器」是「pack a suitcase/box」的用法，與本句語境不同。",
-        "pack-mcq-09": "「作為完整一套使用的一副紙牌」是「a pack of cards」的用法，與本句語境不同。",
-        "pack-mcq-04": "「在有限內容或產品中包含大量資訊、功能或其他元素」是「packed with information/features」的用法，與本句語境不同。"
+        "pack-mcq-07": "本句的「packed」指「把大量人或物集中塞進有限空間」。",
+        "pack-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-07"
     },
@@ -725,11 +669,9 @@ export default {
       "masked": "The designer managed to ____ several functions into one small device.",
       "options": [
         "pack-mcq-07",
-        "pack-mcq-06",
-        "pack-mcq-08",
         "pack-mcq-05",
-        "pack-mcq-09",
-        "pack-mcq-04"
+        "pack-mcq-11",
+        "pack-mcq-09"
       ],
       "explanation": "本句的「pack」指「把大量人或物集中塞進有限空間」。",
       "sentenceIndex": 14,
@@ -738,12 +680,10 @@ export default {
         "pack"
       ],
       "optionReasons": {
-        "pack-mcq-07": "本句指「把大量人或物集中塞進有限空間」。",
-        "pack-mcq-06": "「為運送、儲存或保護而把商品妥善包裝」是「pack a product」的用法，與本句語境不同。",
-        "pack-mcq-08": "「作為一個單位包裝、出售或使用的一組物品」是「a pack of items」的用法，與本句語境不同。",
-        "pack-mcq-05": "「把要攜帶、運送或保存的物品整理並放入容器」是「pack a suitcase/box」的用法，與本句語境不同。",
-        "pack-mcq-09": "「作為完整一套使用的一副紙牌」是「a pack of cards」的用法，與本句語境不同。",
-        "pack-mcq-04": "「在有限內容或產品中包含大量資訊、功能或其他元素」是「packed with information/features」的用法，與本句語境不同。"
+        "pack-mcq-07": "本句的「pack」指「把大量人或物集中塞進有限空間」。",
+        "pack-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-07"
     },
@@ -755,11 +695,9 @@ export default {
       "masked": "I bought a ____ of batteries.",
       "options": [
         "pack-mcq-08",
-        "pack-mcq-07",
-        "pack-mcq-09",
-        "pack-mcq-06",
-        "pack-mcq-10",
-        "pack-mcq-05"
+        "pack-mcq-03",
+        "pack-mcq-11",
+        "pack-mcq-12"
       ],
       "explanation": "本句的「pack」指「作為一個單位包裝、出售或使用的一組物品」。",
       "sentenceIndex": 15,
@@ -768,12 +706,10 @@ export default {
         "pack"
       ],
       "optionReasons": {
-        "pack-mcq-08": "本句指「作為一個單位包裝、出售或使用的一組物品」。",
-        "pack-mcq-07": "「把大量人或物集中塞進有限空間」是「pack people/things into a space」的用法，與本句語境不同。",
-        "pack-mcq-09": "「作為完整一套使用的一副紙牌」是「a pack of cards」的用法，與本句語境不同。",
-        "pack-mcq-06": "「為運送、儲存或保護而把商品妥善包裝」是「pack a product」的用法，與本句語境不同。",
-        "pack-mcq-10": "「共同生活、移動或捕獵的一群動物」是「a pack of animals」的用法，與本句語境不同。",
-        "pack-mcq-05": "「把要攜帶、運送或保存的物品整理並放入容器」是「pack a suitcase/box」的用法，與本句語境不同。"
+        "pack-mcq-08": "本句的「pack」指「作為一個單位包裝、出售或使用的一組物品」。",
+        "pack-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-08"
     },
@@ -785,11 +721,9 @@ export default {
       "masked": "There are six bottles in each ____.",
       "options": [
         "pack-mcq-08",
-        "pack-mcq-07",
-        "pack-mcq-09",
-        "pack-mcq-06",
-        "pack-mcq-10",
-        "pack-mcq-05"
+        "pack-mcq-11",
+        "pack-mcq-12",
+        "pack-mcq-01"
       ],
       "explanation": "本句的「pack」指「作為一個單位包裝、出售或使用的一組物品」。",
       "sentenceIndex": 16,
@@ -798,12 +732,10 @@ export default {
         "pack"
       ],
       "optionReasons": {
-        "pack-mcq-08": "本句指「作為一個單位包裝、出售或使用的一組物品」。",
-        "pack-mcq-07": "「把大量人或物集中塞進有限空間」是「pack people/things into a space」的用法，與本句語境不同。",
-        "pack-mcq-09": "「作為完整一套使用的一副紙牌」是「a pack of cards」的用法，與本句語境不同。",
-        "pack-mcq-06": "「為運送、儲存或保護而把商品妥善包裝」是「pack a product」的用法，與本句語境不同。",
-        "pack-mcq-10": "「共同生活、移動或捕獵的一群動物」是「a pack of animals」的用法，與本句語境不同。",
-        "pack-mcq-05": "「把要攜帶、運送或保存的物品整理並放入容器」是「pack a suitcase/box」的用法，與本句語境不同。"
+        "pack-mcq-08": "本句的「pack」指「作為一個單位包裝、出售或使用的一組物品」。",
+        "pack-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-08"
     },
@@ -815,11 +747,9 @@ export default {
       "masked": "We need a ____ of cards for the game.",
       "options": [
         "pack-mcq-09",
-        "pack-mcq-08",
-        "pack-mcq-10",
-        "pack-mcq-07",
-        "pack-mcq-11",
-        "pack-mcq-06"
+        "pack-mcq-03",
+        "pack-mcq-13",
+        "pack-mcq-12"
       ],
       "explanation": "本句的「pack」指「作為完整一套使用的一副紙牌」。",
       "sentenceIndex": 17,
@@ -828,12 +758,10 @@ export default {
         "pack"
       ],
       "optionReasons": {
-        "pack-mcq-09": "本句指「作為完整一套使用的一副紙牌」。",
-        "pack-mcq-08": "「作為一個單位包裝、出售或使用的一組物品」是「a pack of items」的用法，與本句語境不同。",
-        "pack-mcq-10": "「共同生活、移動或捕獵的一群動物」是「a pack of animals」的用法，與本句語境不同。",
-        "pack-mcq-07": "「把大量人或物集中塞進有限空間」是「pack people/things into a space」的用法，與本句語境不同。",
-        "pack-mcq-11": "「被視為一起行動的一群人，有時帶負面語氣」是「a pack of people」的用法，與本句語境不同。",
-        "pack-mcq-06": "「為運送、儲存或保護而把商品妥善包裝」是「pack a product」的用法，與本句語境不同。"
+        "pack-mcq-09": "本句的「pack」指「作為完整一套使用的一副紙牌」。",
+        "pack-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-09"
     },
@@ -845,11 +773,9 @@ export default {
       "masked": "He shuffled the ____ before dealing the cards.",
       "options": [
         "pack-mcq-09",
-        "pack-mcq-08",
-        "pack-mcq-10",
-        "pack-mcq-07",
-        "pack-mcq-11",
-        "pack-mcq-06"
+        "pack-mcq-02",
+        "pack-mcq-13",
+        "pack-mcq-12"
       ],
       "explanation": "本句的「pack」指「作為完整一套使用的一副紙牌」。",
       "sentenceIndex": 18,
@@ -858,12 +784,10 @@ export default {
         "pack"
       ],
       "optionReasons": {
-        "pack-mcq-09": "本句指「作為完整一套使用的一副紙牌」。",
-        "pack-mcq-08": "「作為一個單位包裝、出售或使用的一組物品」是「a pack of items」的用法，與本句語境不同。",
-        "pack-mcq-10": "「共同生活、移動或捕獵的一群動物」是「a pack of animals」的用法，與本句語境不同。",
-        "pack-mcq-07": "「把大量人或物集中塞進有限空間」是「pack people/things into a space」的用法，與本句語境不同。",
-        "pack-mcq-11": "「被視為一起行動的一群人，有時帶負面語氣」是「a pack of people」的用法，與本句語境不同。",
-        "pack-mcq-06": "「為運送、儲存或保護而把商品妥善包裝」是「pack a product」的用法，與本句語境不同。"
+        "pack-mcq-09": "本句的「pack」指「作為完整一套使用的一副紙牌」。",
+        "pack-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-09"
     },
@@ -876,10 +800,8 @@ export default {
       "options": [
         "pack-mcq-10",
         "pack-mcq-09",
-        "pack-mcq-11",
-        "pack-mcq-08",
-        "pack-mcq-12",
-        "pack-mcq-07"
+        "pack-mcq-07",
+        "pack-mcq-08"
       ],
       "explanation": "本句的「pack」指「共同生活、移動或捕獵的一群動物」。",
       "sentenceIndex": 19,
@@ -888,12 +810,10 @@ export default {
         "pack"
       ],
       "optionReasons": {
-        "pack-mcq-10": "本句指「共同生活、移動或捕獵的一群動物」。",
-        "pack-mcq-09": "「作為完整一套使用的一副紙牌」是「a pack of cards」的用法，與本句語境不同。",
-        "pack-mcq-11": "「被視為一起行動的一群人，有時帶負面語氣」是「a pack of people」的用法，與本句語境不同。",
-        "pack-mcq-08": "「作為一個單位包裝、出售或使用的一組物品」是「a pack of items」的用法，與本句語境不同。",
-        "pack-mcq-12": "「比賽中大部分參賽者形成的主要群體」是「the pack — competition」的用法，與本句語境不同。",
-        "pack-mcq-07": "「把大量人或物集中塞進有限空間」是「pack people/things into a space」的用法，與本句語境不同。"
+        "pack-mcq-10": "本句的「pack」指「共同生活、移動或捕獵的一群動物」。",
+        "pack-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-10"
     },
@@ -905,11 +825,9 @@ export default {
       "masked": "Wild dogs often hunt in ____.",
       "options": [
         "pack-mcq-10",
+        "pack-mcq-07",
         "pack-mcq-09",
-        "pack-mcq-11",
-        "pack-mcq-08",
-        "pack-mcq-12",
-        "pack-mcq-07"
+        "pack-mcq-08"
       ],
       "explanation": "本句的「packs」指「共同生活、移動或捕獵的一群動物」。",
       "sentenceIndex": 20,
@@ -918,12 +836,10 @@ export default {
         "packs"
       ],
       "optionReasons": {
-        "pack-mcq-10": "本句指「共同生活、移動或捕獵的一群動物」。",
-        "pack-mcq-09": "「作為完整一套使用的一副紙牌」是「a pack of cards」的用法，與本句語境不同。",
-        "pack-mcq-11": "「被視為一起行動的一群人，有時帶負面語氣」是「a pack of people」的用法，與本句語境不同。",
-        "pack-mcq-08": "「作為一個單位包裝、出售或使用的一組物品」是「a pack of items」的用法，與本句語境不同。",
-        "pack-mcq-12": "「比賽中大部分參賽者形成的主要群體」是「the pack — competition」的用法，與本句語境不同。",
-        "pack-mcq-07": "「把大量人或物集中塞進有限空間」是「pack people/things into a space」的用法，與本句語境不同。"
+        "pack-mcq-10": "本句的「packs」指「共同生活、移動或捕獵的一群動物」。",
+        "pack-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-10"
     },
@@ -935,11 +851,9 @@ export default {
       "masked": "A ____ of reporters surrounded the actor.",
       "options": [
         "pack-mcq-11",
-        "pack-mcq-10",
-        "pack-mcq-12",
+        "pack-mcq-06",
         "pack-mcq-09",
-        "pack-mcq-13",
-        "pack-mcq-08"
+        "pack-mcq-02"
       ],
       "explanation": "本句的「pack」指「被視為一起行動的一群人，有時帶負面語氣」。",
       "sentenceIndex": 21,
@@ -948,12 +862,10 @@ export default {
         "pack"
       ],
       "optionReasons": {
-        "pack-mcq-11": "本句指「被視為一起行動的一群人，有時帶負面語氣」。",
-        "pack-mcq-10": "「共同生活、移動或捕獵的一群動物」是「a pack of animals」的用法，與本句語境不同。",
-        "pack-mcq-12": "「比賽中大部分參賽者形成的主要群體」是「the pack — competition」的用法，與本句語境不同。",
-        "pack-mcq-09": "「作為完整一套使用的一副紙牌」是「a pack of cards」的用法，與本句語境不同。",
-        "pack-mcq-13": "「收拾行李或把物品裝入容器／包裝中的過程」是「packing」的用法，與本句語境不同。",
-        "pack-mcq-08": "「作為一個單位包裝、出售或使用的一組物品」是「a pack of items」的用法，與本句語境不同。"
+        "pack-mcq-11": "本句的「pack」指「被視為一起行動的一群人，有時帶負面語氣」。",
+        "pack-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-11"
     },
@@ -965,11 +877,9 @@ export default {
       "masked": "He was followed by a ____ of photographers.",
       "options": [
         "pack-mcq-11",
-        "pack-mcq-10",
-        "pack-mcq-12",
+        "pack-mcq-08",
         "pack-mcq-09",
-        "pack-mcq-13",
-        "pack-mcq-08"
+        "pack-mcq-02"
       ],
       "explanation": "本句的「pack」指「被視為一起行動的一群人，有時帶負面語氣」。",
       "sentenceIndex": 22,
@@ -978,12 +888,10 @@ export default {
         "pack"
       ],
       "optionReasons": {
-        "pack-mcq-11": "本句指「被視為一起行動的一群人，有時帶負面語氣」。",
-        "pack-mcq-10": "「共同生活、移動或捕獵的一群動物」是「a pack of animals」的用法，與本句語境不同。",
-        "pack-mcq-12": "「比賽中大部分參賽者形成的主要群體」是「the pack — competition」的用法，與本句語境不同。",
-        "pack-mcq-09": "「作為完整一套使用的一副紙牌」是「a pack of cards」的用法，與本句語境不同。",
-        "pack-mcq-13": "「收拾行李或把物品裝入容器／包裝中的過程」是「packing」的用法，與本句語境不同。",
-        "pack-mcq-08": "「作為一個單位包裝、出售或使用的一組物品」是「a pack of items」的用法，與本句語境不同。"
+        "pack-mcq-11": "本句的「pack」指「被視為一起行動的一群人，有時帶負面語氣」。",
+        "pack-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-11"
     },
@@ -995,11 +903,9 @@ export default {
       "masked": "She broke away from the ____ near the end of the race.",
       "options": [
         "pack-mcq-12",
-        "pack-mcq-11",
-        "pack-mcq-13",
-        "pack-mcq-10",
+        "pack-mcq-06",
         "pack-mcq-09",
-        "pack-mcq-08"
+        "pack-mcq-03"
       ],
       "explanation": "本句的「pack」指「比賽中大部分參賽者形成的主要群體」。",
       "sentenceIndex": 23,
@@ -1008,12 +914,10 @@ export default {
         "pack"
       ],
       "optionReasons": {
-        "pack-mcq-12": "本句指「比賽中大部分參賽者形成的主要群體」。",
-        "pack-mcq-11": "「被視為一起行動的一群人，有時帶負面語氣」是「a pack of people」的用法，與本句語境不同。",
-        "pack-mcq-13": "「收拾行李或把物品裝入容器／包裝中的過程」是「packing」的用法，與本句語境不同。",
-        "pack-mcq-10": "「共同生活、移動或捕獵的一群動物」是「a pack of animals」的用法，與本句語境不同。",
-        "pack-mcq-09": "「作為完整一套使用的一副紙牌」是「a pack of cards」的用法，與本句語境不同。",
-        "pack-mcq-08": "「作為一個單位包裝、出售或使用的一組物品」是「a pack of items」的用法，與本句語境不同。"
+        "pack-mcq-12": "本句的「pack」指「比賽中大部分參賽者形成的主要群體」。",
+        "pack-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-12"
     },
@@ -1025,11 +929,9 @@ export default {
       "masked": "He remained near the front of the ____.",
       "options": [
         "pack-mcq-12",
-        "pack-mcq-11",
-        "pack-mcq-13",
-        "pack-mcq-10",
-        "pack-mcq-09",
-        "pack-mcq-08"
+        "pack-mcq-06",
+        "pack-mcq-01",
+        "pack-mcq-11"
       ],
       "explanation": "本句的「pack」指「比賽中大部分參賽者形成的主要群體」。",
       "sentenceIndex": 24,
@@ -1038,12 +940,10 @@ export default {
         "pack"
       ],
       "optionReasons": {
-        "pack-mcq-12": "本句指「比賽中大部分參賽者形成的主要群體」。",
-        "pack-mcq-11": "「被視為一起行動的一群人，有時帶負面語氣」是「a pack of people」的用法，與本句語境不同。",
-        "pack-mcq-13": "「收拾行李或把物品裝入容器／包裝中的過程」是「packing」的用法，與本句語境不同。",
-        "pack-mcq-10": "「共同生活、移動或捕獵的一群動物」是「a pack of animals」的用法，與本句語境不同。",
-        "pack-mcq-09": "「作為完整一套使用的一副紙牌」是「a pack of cards」的用法，與本句語境不同。",
-        "pack-mcq-08": "「作為一個單位包裝、出售或使用的一組物品」是「a pack of items」的用法，與本句語境不同。"
+        "pack-mcq-12": "本句的「pack」指「比賽中大部分參賽者形成的主要群體」。",
+        "pack-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-12"
     },
@@ -1055,11 +955,9 @@ export default {
       "masked": "I haven’t finished my ____ yet.",
       "options": [
         "pack-mcq-13",
+        "pack-mcq-03",
         "pack-mcq-12",
-        "pack-mcq-11",
-        "pack-mcq-10",
-        "pack-mcq-09",
-        "pack-mcq-08"
+        "pack-mcq-09"
       ],
       "explanation": "本句的「packing」指「收拾行李或把物品裝入容器／包裝中的過程」。",
       "sentenceIndex": 25,
@@ -1068,12 +966,10 @@ export default {
         "packing"
       ],
       "optionReasons": {
-        "pack-mcq-13": "本句指「收拾行李或把物品裝入容器／包裝中的過程」。",
-        "pack-mcq-12": "「比賽中大部分參賽者形成的主要群體」是「the pack — competition」的用法，與本句語境不同。",
-        "pack-mcq-11": "「被視為一起行動的一群人，有時帶負面語氣」是「a pack of people」的用法，與本句語境不同。",
-        "pack-mcq-10": "「共同生活、移動或捕獵的一群動物」是「a pack of animals」的用法，與本句語境不同。",
-        "pack-mcq-09": "「作為完整一套使用的一副紙牌」是「a pack of cards」的用法，與本句語境不同。",
-        "pack-mcq-08": "「作為一個單位包裝、出售或使用的一組物品」是「a pack of items」的用法，與本句語境不同。"
+        "pack-mcq-13": "本句的「packing」指「收拾行李或把物品裝入容器／包裝中的過程」。",
+        "pack-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-13"
     },
@@ -1085,11 +981,9 @@ export default {
       "masked": "The company uses machines for ____ the products.",
       "options": [
         "pack-mcq-13",
-        "pack-mcq-12",
-        "pack-mcq-11",
-        "pack-mcq-10",
         "pack-mcq-09",
-        "pack-mcq-08"
+        "pack-mcq-10",
+        "pack-mcq-07"
       ],
       "explanation": "本句的「packing」指「收拾行李或把物品裝入容器／包裝中的過程」。",
       "sentenceIndex": 26,
@@ -1098,12 +992,10 @@ export default {
         "packing"
       ],
       "optionReasons": {
-        "pack-mcq-13": "本句指「收拾行李或把物品裝入容器／包裝中的過程」。",
-        "pack-mcq-12": "「比賽中大部分參賽者形成的主要群體」是「the pack — competition」的用法，與本句語境不同。",
-        "pack-mcq-11": "「被視為一起行動的一群人，有時帶負面語氣」是「a pack of people」的用法，與本句語境不同。",
-        "pack-mcq-10": "「共同生活、移動或捕獵的一群動物」是「a pack of animals」的用法，與本句語境不同。",
-        "pack-mcq-09": "「作為完整一套使用的一副紙牌」是「a pack of cards」的用法，與本句語境不同。",
-        "pack-mcq-08": "「作為一個單位包裝、出售或使用的一組物品」是「a pack of items」的用法，與本句語境不同。"
+        "pack-mcq-13": "本句的「packing」指「收拾行李或把物品裝入容器／包裝中的過程」。",
+        "pack-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pack-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pack-mcq-13"
     }
@@ -1115,5 +1007,7 @@ export default {
     "sha256": "a4e7c65431d43a2b1aa03bb301a4e189fc5a10258bf14a50f2bb303049e24f04",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

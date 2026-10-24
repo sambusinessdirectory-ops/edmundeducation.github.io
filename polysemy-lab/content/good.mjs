@@ -603,11 +603,9 @@ export default {
       "masked": "This is a ____ for beginners.",
       "options": [
         "good-mcq-01",
-        "good-mcq-02",
-        "good-mcq-03",
         "good-mcq-04",
-        "good-mcq-05",
-        "good-mcq-06"
+        "good-mcq-17",
+        "good-mcq-26"
       ],
       "explanation": "本句的「good book」指「質素、表現或完成程度達到令人滿意甚至優秀水平的」。",
       "sentenceIndex": 0,
@@ -616,12 +614,10 @@ export default {
         "good book"
       ],
       "optionReasons": {
-        "good-mcq-01": "本句指「質素、表現或完成程度達到令人滿意甚至優秀水平的」。",
-        "good-mcq-02": "「在思考價值、邏輯或啟發性方面值得肯定的」是「good question/idea/point」的用法，與本句語境不同。",
-        "good-mcq-03": "「在品格、意圖或行為方面善良、正直、符合道德標準的」是「good — moral」的用法，與本句語境不同。",
-        "good-mcq-04": "「在某項技能、活動或學科方面具有較強能力」是「good at」的用法，與本句語境不同。",
-        "good-mcq-05": "「很懂得與某類人相處，或很會操作／處理某類事物」是「good with」的用法，與本句語境不同。",
-        "good-mcq-06": "「對某人的健康、發展或結果帶來正面作用」是「good for — beneficial」的用法，與本句語境不同。"
+        "good-mcq-01": "本句的「good book」指「質素、表現或完成程度達到令人滿意甚至優秀水平的」。",
+        "good-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-01"
     },
@@ -633,11 +629,9 @@ export default {
       "masked": "She did a ____ on the presentation.",
       "options": [
         "good-mcq-01",
-        "good-mcq-02",
-        "good-mcq-03",
-        "good-mcq-04",
         "good-mcq-05",
-        "good-mcq-06"
+        "good-mcq-19",
+        "good-mcq-18"
       ],
       "explanation": "本句的「good job」指「質素、表現或完成程度達到令人滿意甚至優秀水平的」。",
       "sentenceIndex": 1,
@@ -646,12 +640,10 @@ export default {
         "good job"
       ],
       "optionReasons": {
-        "good-mcq-01": "本句指「質素、表現或完成程度達到令人滿意甚至優秀水平的」。",
-        "good-mcq-02": "「在思考價值、邏輯或啟發性方面值得肯定的」是「good question/idea/point」的用法，與本句語境不同。",
-        "good-mcq-03": "「在品格、意圖或行為方面善良、正直、符合道德標準的」是「good — moral」的用法，與本句語境不同。",
-        "good-mcq-04": "「在某項技能、活動或學科方面具有較強能力」是「good at」的用法，與本句語境不同。",
-        "good-mcq-05": "「很懂得與某類人相處，或很會操作／處理某類事物」是「good with」的用法，與本句語境不同。",
-        "good-mcq-06": "「對某人的健康、發展或結果帶來正面作用」是「good for — beneficial」的用法，與本句語境不同。"
+        "good-mcq-01": "本句的「good job」指「質素、表現或完成程度達到令人滿意甚至優秀水平的」。",
+        "good-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-01"
     },
@@ -663,11 +655,9 @@ export default {
       "masked": "A ____ could open a door.",
       "options": [
         "good-mcq-02",
-        "good-mcq-01",
+        "good-mcq-17",
         "good-mcq-03",
-        "good-mcq-04",
-        "good-mcq-05",
-        "good-mcq-06"
+        "good-mcq-08"
       ],
       "explanation": "本句的「good question」指「在思考價值、邏輯或啟發性方面值得肯定的」。",
       "sentenceIndex": 2,
@@ -676,12 +666,10 @@ export default {
         "good question"
       ],
       "optionReasons": {
-        "good-mcq-02": "本句指「在思考價值、邏輯或啟發性方面值得肯定的」。",
-        "good-mcq-01": "「質素、表現或完成程度達到令人滿意甚至優秀水平的」是「good — quality」的用法，與本句語境不同。",
-        "good-mcq-03": "「在品格、意圖或行為方面善良、正直、符合道德標準的」是「good — moral」的用法，與本句語境不同。",
-        "good-mcq-04": "「在某項技能、活動或學科方面具有較強能力」是「good at」的用法，與本句語境不同。",
-        "good-mcq-05": "「很懂得與某類人相處，或很會操作／處理某類事物」是「good with」的用法，與本句語境不同。",
-        "good-mcq-06": "「對某人的健康、發展或結果帶來正面作用」是「good for — beneficial」的用法，與本句語境不同。"
+        "good-mcq-02": "本句的「good question」指「在思考價值、邏輯或啟發性方面值得肯定的」。",
+        "good-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-02"
     },
@@ -693,11 +681,9 @@ export default {
       "masked": "That is a ____.",
       "options": [
         "good-mcq-02",
-        "good-mcq-01",
-        "good-mcq-03",
-        "good-mcq-04",
-        "good-mcq-05",
-        "good-mcq-06"
+        "good-mcq-20",
+        "good-mcq-10",
+        "good-mcq-05"
       ],
       "explanation": "本句的「good point」指「在思考價值、邏輯或啟發性方面值得肯定的」。",
       "sentenceIndex": 3,
@@ -706,12 +692,10 @@ export default {
         "good point"
       ],
       "optionReasons": {
-        "good-mcq-02": "本句指「在思考價值、邏輯或啟發性方面值得肯定的」。",
-        "good-mcq-01": "「質素、表現或完成程度達到令人滿意甚至優秀水平的」是「good — quality」的用法，與本句語境不同。",
-        "good-mcq-03": "「在品格、意圖或行為方面善良、正直、符合道德標準的」是「good — moral」的用法，與本句語境不同。",
-        "good-mcq-04": "「在某項技能、活動或學科方面具有較強能力」是「good at」的用法，與本句語境不同。",
-        "good-mcq-05": "「很懂得與某類人相處，或很會操作／處理某類事物」是「good with」的用法，與本句語境不同。",
-        "good-mcq-06": "「對某人的健康、發展或結果帶來正面作用」是「good for — beneficial」的用法，與本句語境不同。"
+        "good-mcq-02": "本句的「good point」指「在思考價值、邏輯或啟發性方面值得肯定的」。",
+        "good-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-02"
     },
@@ -723,11 +707,9 @@ export default {
       "masked": "She gave a ____ for changing the plan.",
       "options": [
         "good-mcq-02",
-        "good-mcq-01",
         "good-mcq-03",
-        "good-mcq-04",
-        "good-mcq-05",
-        "good-mcq-06"
+        "good-mcq-08",
+        "good-mcq-09"
       ],
       "explanation": "本句的「good reason」指「在思考價值、邏輯或啟發性方面值得肯定的」。",
       "sentenceIndex": 4,
@@ -736,12 +718,10 @@ export default {
         "good reason"
       ],
       "optionReasons": {
-        "good-mcq-02": "本句指「在思考價值、邏輯或啟發性方面值得肯定的」。",
-        "good-mcq-01": "「質素、表現或完成程度達到令人滿意甚至優秀水平的」是「good — quality」的用法，與本句語境不同。",
-        "good-mcq-03": "「在品格、意圖或行為方面善良、正直、符合道德標準的」是「good — moral」的用法，與本句語境不同。",
-        "good-mcq-04": "「在某項技能、活動或學科方面具有較強能力」是「good at」的用法，與本句語境不同。",
-        "good-mcq-05": "「很懂得與某類人相處，或很會操作／處理某類事物」是「good with」的用法，與本句語境不同。",
-        "good-mcq-06": "「對某人的健康、發展或結果帶來正面作用」是「good for — beneficial」的用法，與本句語境不同。"
+        "good-mcq-02": "本句的「good reason」指「在思考價值、邏輯或啟發性方面值得肯定的」。",
+        "good-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-02"
     },
@@ -753,11 +733,9 @@ export default {
       "masked": "She is a genuinely ____.",
       "options": [
         "good-mcq-03",
-        "good-mcq-02",
         "good-mcq-04",
-        "good-mcq-01",
-        "good-mcq-05",
-        "good-mcq-06"
+        "good-mcq-15",
+        "good-mcq-17"
       ],
       "explanation": "本句的「good person」指「在品格、意圖或行為方面善良、正直、符合道德標準的」。",
       "sentenceIndex": 5,
@@ -766,12 +744,10 @@ export default {
         "good person"
       ],
       "optionReasons": {
-        "good-mcq-03": "本句指「在品格、意圖或行為方面善良、正直、符合道德標準的」。",
-        "good-mcq-02": "「在思考價值、邏輯或啟發性方面值得肯定的」是「good question/idea/point」的用法，與本句語境不同。",
-        "good-mcq-04": "「在某項技能、活動或學科方面具有較強能力」是「good at」的用法，與本句語境不同。",
-        "good-mcq-01": "「質素、表現或完成程度達到令人滿意甚至優秀水平的」是「good — quality」的用法，與本句語境不同。",
-        "good-mcq-05": "「很懂得與某類人相處，或很會操作／處理某類事物」是「good with」的用法，與本句語境不同。",
-        "good-mcq-06": "「對某人的健康、發展或結果帶來正面作用」是「good for — beneficial」的用法，與本句語境不同。"
+        "good-mcq-03": "本句的「good person」指「在品格、意圖或行為方面善良、正直、符合道德標準的」。",
+        "good-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-03"
     },
@@ -783,11 +759,9 @@ export default {
       "masked": "He tried to do the ____ thing even when it was difficult.",
       "options": [
         "good-mcq-03",
-        "good-mcq-02",
-        "good-mcq-04",
-        "good-mcq-01",
-        "good-mcq-05",
-        "good-mcq-06"
+        "good-mcq-18",
+        "good-mcq-19",
+        "good-mcq-14"
       ],
       "explanation": "本句的「good」指「在品格、意圖或行為方面善良、正直、符合道德標準的」。",
       "sentenceIndex": 6,
@@ -796,12 +770,10 @@ export default {
         "good"
       ],
       "optionReasons": {
-        "good-mcq-03": "本句指「在品格、意圖或行為方面善良、正直、符合道德標準的」。",
-        "good-mcq-02": "「在思考價值、邏輯或啟發性方面值得肯定的」是「good question/idea/point」的用法，與本句語境不同。",
-        "good-mcq-04": "「在某項技能、活動或學科方面具有較強能力」是「good at」的用法，與本句語境不同。",
-        "good-mcq-01": "「質素、表現或完成程度達到令人滿意甚至優秀水平的」是「good — quality」的用法，與本句語境不同。",
-        "good-mcq-05": "「很懂得與某類人相處，或很會操作／處理某類事物」是「good with」的用法，與本句語境不同。",
-        "good-mcq-06": "「對某人的健康、發展或結果帶來正面作用」是「good for — beneficial」的用法，與本句語境不同。"
+        "good-mcq-03": "本句的「good」指「在品格、意圖或行為方面善良、正直、符合道德標準的」。",
+        "good-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-03"
     },
@@ -813,11 +785,9 @@ export default {
       "masked": "He was ____ difficult ideas.",
       "options": [
         "good-mcq-04",
-        "good-mcq-03",
-        "good-mcq-05",
-        "good-mcq-02",
-        "good-mcq-06",
-        "good-mcq-01"
+        "good-mcq-17",
+        "good-mcq-11",
+        "good-mcq-12"
       ],
       "explanation": "本句的「good at explaining」指「在某項技能、活動或學科方面具有較強能力」。",
       "sentenceIndex": 7,
@@ -826,12 +796,10 @@ export default {
         "good at explaining"
       ],
       "optionReasons": {
-        "good-mcq-04": "本句指「在某項技能、活動或學科方面具有較強能力」。",
-        "good-mcq-03": "「在品格、意圖或行為方面善良、正直、符合道德標準的」是「good — moral」的用法，與本句語境不同。",
-        "good-mcq-05": "「很懂得與某類人相處，或很會操作／處理某類事物」是「good with」的用法，與本句語境不同。",
-        "good-mcq-02": "「在思考價值、邏輯或啟發性方面值得肯定的」是「good question/idea/point」的用法，與本句語境不同。",
-        "good-mcq-06": "「對某人的健康、發展或結果帶來正面作用」是「good for — beneficial」的用法，與本句語境不同。",
-        "good-mcq-01": "「質素、表現或完成程度達到令人滿意甚至優秀水平的」是「good — quality」的用法，與本句語境不同。"
+        "good-mcq-04": "本句的「good at explaining」指「在某項技能、活動或學科方面具有較強能力」。",
+        "good-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-04"
     },
@@ -843,11 +811,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "good-mcq-04",
-        "good-mcq-03",
-        "good-mcq-05",
-        "good-mcq-02",
         "good-mcq-06",
-        "good-mcq-01"
+        "good-mcq-05",
+        "good-mcq-10"
       ],
       "explanation": "本句的「good at history」指「在某項技能、活動或學科方面具有較強能力」。",
       "sentenceIndex": 8,
@@ -856,12 +822,10 @@ export default {
         "good at history"
       ],
       "optionReasons": {
-        "good-mcq-04": "本句指「在某項技能、活動或學科方面具有較強能力」。",
-        "good-mcq-03": "「在品格、意圖或行為方面善良、正直、符合道德標準的」是「good — moral」的用法，與本句語境不同。",
-        "good-mcq-05": "「很懂得與某類人相處，或很會操作／處理某類事物」是「good with」的用法，與本句語境不同。",
-        "good-mcq-02": "「在思考價值、邏輯或啟發性方面值得肯定的」是「good question/idea/point」的用法，與本句語境不同。",
-        "good-mcq-06": "「對某人的健康、發展或結果帶來正面作用」是「good for — beneficial」的用法，與本句語境不同。",
-        "good-mcq-01": "「質素、表現或完成程度達到令人滿意甚至優秀水平的」是「good — quality」的用法，與本句語境不同。"
+        "good-mcq-04": "本句的「good at history」指「在某項技能、活動或學科方面具有較強能力」。",
+        "good-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-04"
     },
@@ -873,11 +837,9 @@ export default {
       "masked": "He is very ____.",
       "options": [
         "good-mcq-05",
-        "good-mcq-04",
-        "good-mcq-06",
-        "good-mcq-03",
-        "good-mcq-07",
-        "good-mcq-02"
+        "good-mcq-02",
+        "good-mcq-01",
+        "good-mcq-06"
       ],
       "explanation": "本句的「good with children」指「很懂得與某類人相處，或很會操作／處理某類事物」。",
       "sentenceIndex": 9,
@@ -886,12 +848,10 @@ export default {
         "good with children"
       ],
       "optionReasons": {
-        "good-mcq-05": "本句指「很懂得與某類人相處，或很會操作／處理某類事物」。",
-        "good-mcq-04": "「在某項技能、活動或學科方面具有較強能力」是「good at」的用法，與本句語境不同。",
-        "good-mcq-06": "「對某人的健康、發展或結果帶來正面作用」是「good for — beneficial」的用法，與本句語境不同。",
-        "good-mcq-03": "「在品格、意圖或行為方面善良、正直、符合道德標準的」是「good — moral」的用法，與本句語境不同。",
-        "good-mcq-07": "「適合某種用途、情境或活動」是「good for — suitable」的用法，與本句語境不同。",
-        "good-mcq-02": "「在思考價值、邏輯或啟發性方面值得肯定的」是「good question/idea/point」的用法，與本句語境不同。"
+        "good-mcq-05": "本句的「good with children」指「很懂得與某類人相處，或很會操作／處理某類事物」。",
+        "good-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-05"
     },
@@ -903,11 +863,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "good-mcq-05",
-        "good-mcq-04",
-        "good-mcq-06",
-        "good-mcq-03",
-        "good-mcq-07",
-        "good-mcq-02"
+        "good-mcq-21",
+        "good-mcq-24",
+        "good-mcq-23"
       ],
       "explanation": "本句的「good with computers」指「很懂得與某類人相處，或很會操作／處理某類事物」。",
       "sentenceIndex": 10,
@@ -916,12 +874,10 @@ export default {
         "good with computers"
       ],
       "optionReasons": {
-        "good-mcq-05": "本句指「很懂得與某類人相處，或很會操作／處理某類事物」。",
-        "good-mcq-04": "「在某項技能、活動或學科方面具有較強能力」是「good at」的用法，與本句語境不同。",
-        "good-mcq-06": "「對某人的健康、發展或結果帶來正面作用」是「good for — beneficial」的用法，與本句語境不同。",
-        "good-mcq-03": "「在品格、意圖或行為方面善良、正直、符合道德標準的」是「good — moral」的用法，與本句語境不同。",
-        "good-mcq-07": "「適合某種用途、情境或活動」是「good for — suitable」的用法，與本句語境不同。",
-        "good-mcq-02": "「在思考價值、邏輯或啟發性方面值得肯定的」是「good question/idea/point」的用法，與本句語境不同。"
+        "good-mcq-05": "本句的「good with computers」指「很懂得與某類人相處，或很會操作／處理某類事物」。",
+        "good-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-05"
     },
@@ -933,11 +889,9 @@ export default {
       "masked": "Regular exercise is ____.",
       "options": [
         "good-mcq-06",
-        "good-mcq-05",
-        "good-mcq-07",
-        "good-mcq-04",
-        "good-mcq-08",
-        "good-mcq-03"
+        "good-mcq-11",
+        "good-mcq-22",
+        "good-mcq-14"
       ],
       "explanation": "本句的「good for your health」指「對某人的健康、發展或結果帶來正面作用」。",
       "sentenceIndex": 11,
@@ -946,12 +900,10 @@ export default {
         "good for your health"
       ],
       "optionReasons": {
-        "good-mcq-06": "本句指「對某人的健康、發展或結果帶來正面作用」。",
-        "good-mcq-05": "「很懂得與某類人相處，或很會操作／處理某類事物」是「good with」的用法，與本句語境不同。",
-        "good-mcq-07": "「適合某種用途、情境或活動」是「good for — suitable」的用法，與本句語境不同。",
-        "good-mcq-04": "「在某項技能、活動或學科方面具有較強能力」是「good at」的用法，與本句語境不同。",
-        "good-mcq-08": "「在某段時間／數量範圍內仍然有效、可用或足夠」是「good for — duration」的用法，與本句語境不同。",
-        "good-mcq-03": "「在品格、意圖或行為方面善良、正直、符合道德標準的」是「good — moral」的用法，與本句語境不同。"
+        "good-mcq-06": "本句的「good for your health」指「對某人的健康、發展或結果帶來正面作用」。",
+        "good-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-06"
     },
@@ -963,11 +915,9 @@ export default {
       "masked": "Reading widely is ____.",
       "options": [
         "good-mcq-06",
-        "good-mcq-05",
-        "good-mcq-07",
-        "good-mcq-04",
-        "good-mcq-08",
-        "good-mcq-03"
+        "good-mcq-24",
+        "good-mcq-01",
+        "good-mcq-10"
       ],
       "explanation": "本句的「good for your vocabulary」指「對某人的健康、發展或結果帶來正面作用」。",
       "sentenceIndex": 12,
@@ -976,12 +926,10 @@ export default {
         "good for your vocabulary"
       ],
       "optionReasons": {
-        "good-mcq-06": "本句指「對某人的健康、發展或結果帶來正面作用」。",
-        "good-mcq-05": "「很懂得與某類人相處，或很會操作／處理某類事物」是「good with」的用法，與本句語境不同。",
-        "good-mcq-07": "「適合某種用途、情境或活動」是「good for — suitable」的用法，與本句語境不同。",
-        "good-mcq-04": "「在某項技能、活動或學科方面具有較強能力」是「good at」的用法，與本句語境不同。",
-        "good-mcq-08": "「在某段時間／數量範圍內仍然有效、可用或足夠」是「good for — duration」的用法，與本句語境不同。",
-        "good-mcq-03": "「在品格、意圖或行為方面善良、正直、符合道德標準的」是「good — moral」的用法，與本句語境不同。"
+        "good-mcq-06": "本句的「good for your vocabulary」指「對某人的健康、發展或結果帶來正面作用」。",
+        "good-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-06"
     },
@@ -993,11 +941,9 @@ export default {
       "masked": "This room is ____.",
       "options": [
         "good-mcq-07",
-        "good-mcq-06",
-        "good-mcq-08",
-        "good-mcq-05",
+        "good-mcq-19",
         "good-mcq-09",
-        "good-mcq-04"
+        "good-mcq-15"
       ],
       "explanation": "本句的「good for small meetings」指「適合某種用途、情境或活動」。",
       "sentenceIndex": 13,
@@ -1006,12 +952,10 @@ export default {
         "good for small meetings"
       ],
       "optionReasons": {
-        "good-mcq-07": "本句指「適合某種用途、情境或活動」。",
-        "good-mcq-06": "「對某人的健康、發展或結果帶來正面作用」是「good for — beneficial」的用法，與本句語境不同。",
-        "good-mcq-08": "「在某段時間／數量範圍內仍然有效、可用或足夠」是「good for — duration」的用法，與本句語境不同。",
-        "good-mcq-05": "「很懂得與某類人相處，或很會操作／處理某類事物」是「good with」的用法，與本句語境不同。",
-        "good-mcq-09": "「以友善、體貼、關懷的方式對待某人」是「good to someone」的用法，與本句語境不同。",
-        "good-mcq-04": "「在某項技能、活動或學科方面具有較強能力」是「good at」的用法，與本句語境不同。"
+        "good-mcq-07": "本句的「good for small meetings」指「適合某種用途、情境或活動」。",
+        "good-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-07"
     },
@@ -1023,11 +967,9 @@ export default {
       "masked": "These headphones are ____.",
       "options": [
         "good-mcq-07",
-        "good-mcq-06",
-        "good-mcq-08",
-        "good-mcq-05",
-        "good-mcq-09",
-        "good-mcq-04"
+        "good-mcq-18",
+        "good-mcq-12",
+        "good-mcq-08"
       ],
       "explanation": "本句的「good for travelling」指「適合某種用途、情境或活動」。",
       "sentenceIndex": 14,
@@ -1036,12 +978,10 @@ export default {
         "good for travelling"
       ],
       "optionReasons": {
-        "good-mcq-07": "本句指「適合某種用途、情境或活動」。",
-        "good-mcq-06": "「對某人的健康、發展或結果帶來正面作用」是「good for — beneficial」的用法，與本句語境不同。",
-        "good-mcq-08": "「在某段時間／數量範圍內仍然有效、可用或足夠」是「good for — duration」的用法，與本句語境不同。",
-        "good-mcq-05": "「很懂得與某類人相處，或很會操作／處理某類事物」是「good with」的用法，與本句語境不同。",
-        "good-mcq-09": "「以友善、體貼、關懷的方式對待某人」是「good to someone」的用法，與本句語境不同。",
-        "good-mcq-04": "「在某項技能、活動或學科方面具有較強能力」是「good at」的用法，與本句語境不同。"
+        "good-mcq-07": "本句的「good for travelling」指「適合某種用途、情境或活動」。",
+        "good-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-07"
     },
@@ -1053,11 +993,9 @@ export default {
       "masked": "The ticket is ____.",
       "options": [
         "good-mcq-08",
-        "good-mcq-07",
-        "good-mcq-09",
-        "good-mcq-06",
-        "good-mcq-10",
-        "good-mcq-05"
+        "good-mcq-25",
+        "good-mcq-22",
+        "good-mcq-04"
       ],
       "explanation": "本句的「good for one day」指「在某段時間／數量範圍內仍然有效、可用或足夠」。",
       "sentenceIndex": 15,
@@ -1066,12 +1004,10 @@ export default {
         "good for one day"
       ],
       "optionReasons": {
-        "good-mcq-08": "本句指「在某段時間／數量範圍內仍然有效、可用或足夠」。",
-        "good-mcq-07": "「適合某種用途、情境或活動」是「good for — suitable」的用法，與本句語境不同。",
-        "good-mcq-09": "「以友善、體貼、關懷的方式對待某人」是「good to someone」的用法，與本句語境不同。",
-        "good-mcq-06": "「對某人的健康、發展或結果帶來正面作用」是「good for — beneficial」的用法，與本句語境不同。",
-        "good-mcq-10": "「某個安排、時間或選擇符合需要，因此合適／可以接受」是「good — acceptable」的用法，與本句語境不同。",
-        "good-mcq-05": "「很懂得與某類人相處，或很會操作／處理某類事物」是「good with」的用法，與本句語境不同。"
+        "good-mcq-08": "本句的「good for one day」指「在某段時間／數量範圍內仍然有效、可用或足夠」。",
+        "good-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-08"
     },
@@ -1083,11 +1019,9 @@ export default {
       "masked": "The battery is ____.",
       "options": [
         "good-mcq-08",
-        "good-mcq-07",
-        "good-mcq-09",
-        "good-mcq-06",
-        "good-mcq-10",
-        "good-mcq-05"
+        "good-mcq-12",
+        "good-mcq-13",
+        "good-mcq-19"
       ],
       "explanation": "本句的「good for about ten hours」指「在某段時間／數量範圍內仍然有效、可用或足夠」。",
       "sentenceIndex": 16,
@@ -1096,12 +1030,10 @@ export default {
         "good for about ten hours"
       ],
       "optionReasons": {
-        "good-mcq-08": "本句指「在某段時間／數量範圍內仍然有效、可用或足夠」。",
-        "good-mcq-07": "「適合某種用途、情境或活動」是「good for — suitable」的用法，與本句語境不同。",
-        "good-mcq-09": "「以友善、體貼、關懷的方式對待某人」是「good to someone」的用法，與本句語境不同。",
-        "good-mcq-06": "「對某人的健康、發展或結果帶來正面作用」是「good for — beneficial」的用法，與本句語境不同。",
-        "good-mcq-10": "「某個安排、時間或選擇符合需要，因此合適／可以接受」是「good — acceptable」的用法，與本句語境不同。",
-        "good-mcq-05": "「很懂得與某類人相處，或很會操作／處理某類事物」是「good with」的用法，與本句語境不同。"
+        "good-mcq-08": "本句的「good for about ten hours」指「在某段時間／數量範圍內仍然有效、可用或足夠」。",
+        "good-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-08"
     },
@@ -1113,11 +1045,9 @@ export default {
       "masked": "He was always ____.",
       "options": [
         "good-mcq-09",
-        "good-mcq-08",
-        "good-mcq-10",
-        "good-mcq-07",
-        "good-mcq-11",
-        "good-mcq-06"
+        "good-mcq-02",
+        "good-mcq-12",
+        "good-mcq-01"
       ],
       "explanation": "本句的「good to his students」指「以友善、體貼、關懷的方式對待某人」。",
       "sentenceIndex": 17,
@@ -1126,12 +1056,10 @@ export default {
         "good to his students"
       ],
       "optionReasons": {
-        "good-mcq-09": "本句指「以友善、體貼、關懷的方式對待某人」。",
-        "good-mcq-08": "「在某段時間／數量範圍內仍然有效、可用或足夠」是「good for — duration」的用法，與本句語境不同。",
-        "good-mcq-10": "「某個安排、時間或選擇符合需要，因此合適／可以接受」是「good — acceptable」的用法，與本句語境不同。",
-        "good-mcq-07": "「適合某種用途、情境或活動」是「good for — suitable」的用法，與本句語境不同。",
-        "good-mcq-11": "「某段經歷令人感到愉快、滿足或順利」是「good — enjoyable」的用法，與本句語境不同。",
-        "good-mcq-06": "「對某人的健康、發展或結果帶來正面作用」是「good for — beneficial」的用法，與本句語境不同。"
+        "good-mcq-09": "本句的「good to his students」指「以友善、體貼、關懷的方式對待某人」。",
+        "good-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-09"
     },
@@ -1143,11 +1071,9 @@ export default {
       "masked": "She has been very ____.",
       "options": [
         "good-mcq-09",
-        "good-mcq-08",
-        "good-mcq-10",
-        "good-mcq-07",
+        "good-mcq-18",
         "good-mcq-11",
-        "good-mcq-06"
+        "good-mcq-14"
       ],
       "explanation": "本句的「good to me」指「以友善、體貼、關懷的方式對待某人」。",
       "sentenceIndex": 18,
@@ -1156,12 +1082,10 @@ export default {
         "good to me"
       ],
       "optionReasons": {
-        "good-mcq-09": "本句指「以友善、體貼、關懷的方式對待某人」。",
-        "good-mcq-08": "「在某段時間／數量範圍內仍然有效、可用或足夠」是「good for — duration」的用法，與本句語境不同。",
-        "good-mcq-10": "「某個安排、時間或選擇符合需要，因此合適／可以接受」是「good — acceptable」的用法，與本句語境不同。",
-        "good-mcq-07": "「適合某種用途、情境或活動」是「good for — suitable」的用法，與本句語境不同。",
-        "good-mcq-11": "「某段經歷令人感到愉快、滿足或順利」是「good — enjoyable」的用法，與本句語境不同。",
-        "good-mcq-06": "「對某人的健康、發展或結果帶來正面作用」是「good for — beneficial」的用法，與本句語境不同。"
+        "good-mcq-09": "本句的「good to me」指「以友善、體貼、關懷的方式對待某人」。",
+        "good-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-09"
     },
@@ -1173,11 +1097,9 @@ export default {
       "masked": "Is Friday ____ for you?",
       "options": [
         "good-mcq-10",
-        "good-mcq-09",
-        "good-mcq-11",
-        "good-mcq-08",
-        "good-mcq-12",
-        "good-mcq-07"
+        "good-mcq-14",
+        "good-mcq-13",
+        "good-mcq-22"
       ],
       "explanation": "本句的「good」指「某個安排、時間或選擇符合需要，因此合適／可以接受」。",
       "sentenceIndex": 19,
@@ -1186,12 +1108,10 @@ export default {
         "good"
       ],
       "optionReasons": {
-        "good-mcq-10": "本句指「某個安排、時間或選擇符合需要，因此合適／可以接受」。",
-        "good-mcq-09": "「以友善、體貼、關懷的方式對待某人」是「good to someone」的用法，與本句語境不同。",
-        "good-mcq-11": "「某段經歷令人感到愉快、滿足或順利」是「good — enjoyable」的用法，與本句語境不同。",
-        "good-mcq-08": "「在某段時間／數量範圍內仍然有效、可用或足夠」是「good for — duration」的用法，與本句語境不同。",
-        "good-mcq-12": "「某個結果、消息或情況朝正面、有利方向發展」是「good — favourable」的用法，與本句語境不同。",
-        "good-mcq-07": "「適合某種用途、情境或活動」是「good for — suitable」的用法，與本句語境不同。"
+        "good-mcq-10": "本句的「good」指「某個安排、時間或選擇符合需要，因此合適／可以接受」。",
+        "good-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-10"
     },
@@ -1203,11 +1123,9 @@ export default {
       "masked": "Six o’clock sounds ____.",
       "options": [
         "good-mcq-10",
-        "good-mcq-09",
-        "good-mcq-11",
-        "good-mcq-08",
-        "good-mcq-12",
-        "good-mcq-07"
+        "good-mcq-22",
+        "good-mcq-01",
+        "good-mcq-24"
       ],
       "explanation": "本句的「good」指「某個安排、時間或選擇符合需要，因此合適／可以接受」。",
       "sentenceIndex": 20,
@@ -1216,12 +1134,10 @@ export default {
         "good"
       ],
       "optionReasons": {
-        "good-mcq-10": "本句指「某個安排、時間或選擇符合需要，因此合適／可以接受」。",
-        "good-mcq-09": "「以友善、體貼、關懷的方式對待某人」是「good to someone」的用法，與本句語境不同。",
-        "good-mcq-11": "「某段經歷令人感到愉快、滿足或順利」是「good — enjoyable」的用法，與本句語境不同。",
-        "good-mcq-08": "「在某段時間／數量範圍內仍然有效、可用或足夠」是「good for — duration」的用法，與本句語境不同。",
-        "good-mcq-12": "「某個結果、消息或情況朝正面、有利方向發展」是「good — favourable」的用法，與本句語境不同。",
-        "good-mcq-07": "「適合某種用途、情境或活動」是「good for — suitable」的用法，與本句語境不同。"
+        "good-mcq-10": "本句的「good」指「某個安排、時間或選擇符合需要，因此合適／可以接受」。",
+        "good-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-10"
     },
@@ -1233,11 +1149,9 @@ export default {
       "masked": "We had a ____ at the reunion.",
       "options": [
         "good-mcq-11",
-        "good-mcq-10",
-        "good-mcq-12",
-        "good-mcq-09",
-        "good-mcq-13",
-        "good-mcq-08"
+        "good-mcq-04",
+        "good-mcq-23",
+        "good-mcq-22"
       ],
       "explanation": "本句的「good time」指「某段經歷令人感到愉快、滿足或順利」。",
       "sentenceIndex": 21,
@@ -1246,12 +1160,10 @@ export default {
         "good time"
       ],
       "optionReasons": {
-        "good-mcq-11": "本句指「某段經歷令人感到愉快、滿足或順利」。",
-        "good-mcq-10": "「某個安排、時間或選擇符合需要，因此合適／可以接受」是「good — acceptable」的用法，與本句語境不同。",
-        "good-mcq-12": "「某個結果、消息或情況朝正面、有利方向發展」是「good — favourable」的用法，與本句語境不同。",
-        "good-mcq-09": "「以友善、體貼、關懷的方式對待某人」是「good to someone」的用法，與本句語境不同。",
-        "good-mcq-13": "「身體、物件或系統保持正常健康、沒有重大問題」是「good — condition」的用法，與本句語境不同。",
-        "good-mcq-08": "「在某段時間／數量範圍內仍然有效、可用或足夠」是「good for — duration」的用法，與本句語境不同。"
+        "good-mcq-11": "本句的「good time」指「某段經歷令人感到愉快、滿足或順利」。",
+        "good-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-11"
     },
@@ -1263,11 +1175,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "good-mcq-11",
-        "good-mcq-10",
-        "good-mcq-12",
-        "good-mcq-09",
-        "good-mcq-13",
-        "good-mcq-08"
+        "good-mcq-05",
+        "good-mcq-15",
+        "good-mcq-23"
       ],
       "explanation": "本句的「good day」指「某段經歷令人感到愉快、滿足或順利」。",
       "sentenceIndex": 22,
@@ -1276,12 +1186,10 @@ export default {
         "good day"
       ],
       "optionReasons": {
-        "good-mcq-11": "本句指「某段經歷令人感到愉快、滿足或順利」。",
-        "good-mcq-10": "「某個安排、時間或選擇符合需要，因此合適／可以接受」是「good — acceptable」的用法，與本句語境不同。",
-        "good-mcq-12": "「某個結果、消息或情況朝正面、有利方向發展」是「good — favourable」的用法，與本句語境不同。",
-        "good-mcq-09": "「以友善、體貼、關懷的方式對待某人」是「good to someone」的用法，與本句語境不同。",
-        "good-mcq-13": "「身體、物件或系統保持正常健康、沒有重大問題」是「good — condition」的用法，與本句語境不同。",
-        "good-mcq-08": "「在某段時間／數量範圍內仍然有效、可用或足夠」是「good for — duration」的用法，與本句語境不同。"
+        "good-mcq-11": "本句的「good day」指「某段經歷令人感到愉快、滿足或順利」。",
+        "good-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-11"
     },
@@ -1293,11 +1201,9 @@ export default {
       "masked": "That’s ____.",
       "options": [
         "good-mcq-12",
-        "good-mcq-11",
-        "good-mcq-13",
-        "good-mcq-10",
-        "good-mcq-14",
-        "good-mcq-09"
+        "good-mcq-07",
+        "good-mcq-15",
+        "good-mcq-05"
       ],
       "explanation": "本句的「good news」指「某個結果、消息或情況朝正面、有利方向發展」。",
       "sentenceIndex": 23,
@@ -1306,12 +1212,10 @@ export default {
         "good news"
       ],
       "optionReasons": {
-        "good-mcq-12": "本句指「某個結果、消息或情況朝正面、有利方向發展」。",
-        "good-mcq-11": "「某段經歷令人感到愉快、滿足或順利」是「good — enjoyable」的用法，與本句語境不同。",
-        "good-mcq-13": "「身體、物件或系統保持正常健康、沒有重大問題」是「good — condition」的用法，與本句語境不同。",
-        "good-mcq-10": "「某個安排、時間或選擇符合需要，因此合適／可以接受」是「good — acceptable」的用法，與本句語境不同。",
-        "good-mcq-14": "「在可靠性、充分程度或可能性方面達到相當高水平」是「good evidence/chance」的用法，與本句語境不同。",
-        "good-mcq-09": "「以友善、體貼、關懷的方式對待某人」是「good to someone」的用法，與本句語境不同。"
+        "good-mcq-12": "本句的「good news」指「某個結果、消息或情況朝正面、有利方向發展」。",
+        "good-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-12"
     },
@@ -1323,11 +1227,9 @@ export default {
       "masked": "The results were ____.",
       "options": [
         "good-mcq-12",
-        "good-mcq-11",
-        "good-mcq-13",
-        "good-mcq-10",
-        "good-mcq-14",
-        "good-mcq-09"
+        "good-mcq-07",
+        "good-mcq-05",
+        "good-mcq-26"
       ],
       "explanation": "本句的「good」指「某個結果、消息或情況朝正面、有利方向發展」。",
       "sentenceIndex": 24,
@@ -1336,12 +1238,10 @@ export default {
         "good"
       ],
       "optionReasons": {
-        "good-mcq-12": "本句指「某個結果、消息或情況朝正面、有利方向發展」。",
-        "good-mcq-11": "「某段經歷令人感到愉快、滿足或順利」是「good — enjoyable」的用法，與本句語境不同。",
-        "good-mcq-13": "「身體、物件或系統保持正常健康、沒有重大問題」是「good — condition」的用法，與本句語境不同。",
-        "good-mcq-10": "「某個安排、時間或選擇符合需要，因此合適／可以接受」是「good — acceptable」的用法，與本句語境不同。",
-        "good-mcq-14": "「在可靠性、充分程度或可能性方面達到相當高水平」是「good evidence/chance」的用法，與本句語境不同。",
-        "good-mcq-09": "「以友善、體貼、關懷的方式對待某人」是「good to someone」的用法，與本句語境不同。"
+        "good-mcq-12": "本句的「good」指「某個結果、消息或情況朝正面、有利方向發展」。",
+        "good-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-12"
     },
@@ -1353,11 +1253,9 @@ export default {
       "masked": "His health is still ____.",
       "options": [
         "good-mcq-13",
-        "good-mcq-12",
-        "good-mcq-14",
-        "good-mcq-11",
-        "good-mcq-15",
-        "good-mcq-10"
+        "good-mcq-21",
+        "good-mcq-19",
+        "good-mcq-11"
       ],
       "explanation": "本句的「good」指「身體、物件或系統保持正常健康、沒有重大問題」。",
       "sentenceIndex": 25,
@@ -1366,12 +1264,10 @@ export default {
         "good"
       ],
       "optionReasons": {
-        "good-mcq-13": "本句指「身體、物件或系統保持正常健康、沒有重大問題」。",
-        "good-mcq-12": "「某個結果、消息或情況朝正面、有利方向發展」是「good — favourable」的用法，與本句語境不同。",
-        "good-mcq-14": "「在可靠性、充分程度或可能性方面達到相當高水平」是「good evidence/chance」的用法，與本句語境不同。",
-        "good-mcq-11": "「某段經歷令人感到愉快、滿足或順利」是「good — enjoyable」的用法，與本句語境不同。",
-        "good-mcq-15": "「用來強調數量、時間或距離相當大／充分」是「good — considerable」的用法，與本句語境不同。",
-        "good-mcq-10": "「某個安排、時間或選擇符合需要，因此合適／可以接受」是「good — acceptable」的用法，與本句語境不同。"
+        "good-mcq-13": "本句的「good」指「身體、物件或系統保持正常健康、沒有重大問題」。",
+        "good-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-13"
     },
@@ -1383,11 +1279,9 @@ export default {
       "masked": "The laptop is still in ____.",
       "options": [
         "good-mcq-13",
-        "good-mcq-12",
-        "good-mcq-14",
-        "good-mcq-11",
-        "good-mcq-15",
-        "good-mcq-10"
+        "good-mcq-05",
+        "good-mcq-08",
+        "good-mcq-22"
       ],
       "explanation": "本句的「good condition」指「身體、物件或系統保持正常健康、沒有重大問題」。",
       "sentenceIndex": 26,
@@ -1396,12 +1290,10 @@ export default {
         "good condition"
       ],
       "optionReasons": {
-        "good-mcq-13": "本句指「身體、物件或系統保持正常健康、沒有重大問題」。",
-        "good-mcq-12": "「某個結果、消息或情況朝正面、有利方向發展」是「good — favourable」的用法，與本句語境不同。",
-        "good-mcq-14": "「在可靠性、充分程度或可能性方面達到相當高水平」是「good evidence/chance」的用法，與本句語境不同。",
-        "good-mcq-11": "「某段經歷令人感到愉快、滿足或順利」是「good — enjoyable」的用法，與本句語境不同。",
-        "good-mcq-15": "「用來強調數量、時間或距離相當大／充分」是「good — considerable」的用法，與本句語境不同。",
-        "good-mcq-10": "「某個安排、時間或選擇符合需要，因此合適／可以接受」是「good — acceptable」的用法，與本句語境不同。"
+        "good-mcq-13": "本句的「good condition」指「身體、物件或系統保持正常健康、沒有重大問題」。",
+        "good-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-13"
     },
@@ -1414,10 +1306,8 @@ export default {
       "options": [
         "good-mcq-14",
         "good-mcq-13",
-        "good-mcq-15",
-        "good-mcq-12",
-        "good-mcq-16",
-        "good-mcq-11"
+        "good-mcq-17",
+        "good-mcq-19"
       ],
       "explanation": "本句的「good evidence」指「在可靠性、充分程度或可能性方面達到相當高水平」。",
       "sentenceIndex": 27,
@@ -1426,12 +1316,10 @@ export default {
         "good evidence"
       ],
       "optionReasons": {
-        "good-mcq-14": "本句指「在可靠性、充分程度或可能性方面達到相當高水平」。",
-        "good-mcq-13": "「身體、物件或系統保持正常健康、沒有重大問題」是「good — condition」的用法，與本句語境不同。",
-        "good-mcq-15": "「用來強調數量、時間或距離相當大／充分」是「good — considerable」的用法，與本句語境不同。",
-        "good-mcq-12": "「某個結果、消息或情況朝正面、有利方向發展」是「good — favourable」的用法，與本句語境不同。",
-        "good-mcq-16": "「道德上正確、正面或有益的事物／特質」是「the good」的用法，與本句語境不同。",
-        "good-mcq-11": "「某段經歷令人感到愉快、滿足或順利」是「good — enjoyable」的用法，與本句語境不同。"
+        "good-mcq-14": "本句的「good evidence」指「在可靠性、充分程度或可能性方面達到相當高水平」。",
+        "good-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-14"
     },
@@ -1443,11 +1331,9 @@ export default {
       "masked": "There is a ____ that she will pass.",
       "options": [
         "good-mcq-14",
+        "good-mcq-09",
         "good-mcq-13",
-        "good-mcq-15",
-        "good-mcq-12",
-        "good-mcq-16",
-        "good-mcq-11"
+        "good-mcq-12"
       ],
       "explanation": "本句的「good chance」指「在可靠性、充分程度或可能性方面達到相當高水平」。",
       "sentenceIndex": 28,
@@ -1456,12 +1342,10 @@ export default {
         "good chance"
       ],
       "optionReasons": {
-        "good-mcq-14": "本句指「在可靠性、充分程度或可能性方面達到相當高水平」。",
-        "good-mcq-13": "「身體、物件或系統保持正常健康、沒有重大問題」是「good — condition」的用法，與本句語境不同。",
-        "good-mcq-15": "「用來強調數量、時間或距離相當大／充分」是「good — considerable」的用法，與本句語境不同。",
-        "good-mcq-12": "「某個結果、消息或情況朝正面、有利方向發展」是「good — favourable」的用法，與本句語境不同。",
-        "good-mcq-16": "「道德上正確、正面或有益的事物／特質」是「the good」的用法，與本句語境不同。",
-        "good-mcq-11": "「某段經歷令人感到愉快、滿足或順利」是「good — enjoyable」的用法，與本句語境不同。"
+        "good-mcq-14": "本句的「good chance」指「在可靠性、充分程度或可能性方面達到相當高水平」。",
+        "good-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-14"
     },
@@ -1473,11 +1357,9 @@ export default {
       "masked": "It took a ____ to finish.",
       "options": [
         "good-mcq-15",
-        "good-mcq-14",
-        "good-mcq-16",
-        "good-mcq-13",
-        "good-mcq-17",
-        "good-mcq-12"
+        "good-mcq-25",
+        "good-mcq-03",
+        "good-mcq-20"
       ],
       "explanation": "本句的「good two hours」指「用來強調數量、時間或距離相當大／充分」。",
       "sentenceIndex": 29,
@@ -1486,12 +1368,10 @@ export default {
         "good two hours"
       ],
       "optionReasons": {
-        "good-mcq-15": "本句指「用來強調數量、時間或距離相當大／充分」。",
-        "good-mcq-14": "「在可靠性、充分程度或可能性方面達到相當高水平」是「good evidence/chance」的用法，與本句語境不同。",
-        "good-mcq-16": "「道德上正確、正面或有益的事物／特質」是「the good」的用法，與本句語境不同。",
-        "good-mcq-13": "「身體、物件或系統保持正常健康、沒有重大問題」是「good — condition」的用法，與本句語境不同。",
-        "good-mcq-17": "「為某人／群體的利益或福祉」是「for the good of」的用法，與本句語境不同。",
-        "good-mcq-12": "「某個結果、消息或情況朝正面、有利方向發展」是「good — favourable」的用法，與本句語境不同。"
+        "good-mcq-15": "本句的「good two hours」指「用來強調數量、時間或距離相當大／充分」。",
+        "good-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-15"
     },
@@ -1503,11 +1383,9 @@ export default {
       "masked": "We walked a ____ before stopping.",
       "options": [
         "good-mcq-15",
-        "good-mcq-14",
-        "good-mcq-16",
-        "good-mcq-13",
-        "good-mcq-17",
-        "good-mcq-12"
+        "good-mcq-07",
+        "good-mcq-23",
+        "good-mcq-05"
       ],
       "explanation": "本句的「good distance」指「用來強調數量、時間或距離相當大／充分」。",
       "sentenceIndex": 30,
@@ -1516,12 +1394,10 @@ export default {
         "good distance"
       ],
       "optionReasons": {
-        "good-mcq-15": "本句指「用來強調數量、時間或距離相當大／充分」。",
-        "good-mcq-14": "「在可靠性、充分程度或可能性方面達到相當高水平」是「good evidence/chance」的用法，與本句語境不同。",
-        "good-mcq-16": "「道德上正確、正面或有益的事物／特質」是「the good」的用法，與本句語境不同。",
-        "good-mcq-13": "「身體、物件或系統保持正常健康、沒有重大問題」是「good — condition」的用法，與本句語境不同。",
-        "good-mcq-17": "「為某人／群體的利益或福祉」是「for the good of」的用法，與本句語境不同。",
-        "good-mcq-12": "「某個結果、消息或情況朝正面、有利方向發展」是「good — favourable」的用法，與本句語境不同。"
+        "good-mcq-15": "本句的「good distance」指「用來強調數量、時間或距離相當大／充分」。",
+        "good-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-15"
     },
@@ -1533,11 +1409,9 @@ export default {
       "masked": "People often disagree about what counts as ____.",
       "options": [
         "good-pdf-001",
-        "good-mcq-15",
+        "good-mcq-21",
         "good-mcq-17",
-        "good-mcq-14",
-        "good-mcq-18",
-        "good-mcq-13"
+        "good-mcq-11"
       ],
       "explanation": "本句的「the good」指「有價值、正面或善良的部分」。",
       "sentenceIndex": 31,
@@ -1546,12 +1420,10 @@ export default {
         "the good"
       ],
       "optionReasons": {
-        "good-pdf-001": "本句指「有價值、正面或善良的部分」。",
-        "good-mcq-15": "「用來強調數量、時間或距離相當大／充分」是「good — considerable」的用法，與本句語境不同。",
-        "good-mcq-17": "「為某人／群體的利益或福祉」是「for the good of」的用法，與本句語境不同。",
-        "good-mcq-14": "「在可靠性、充分程度或可能性方面達到相當高水平」是「good evidence/chance」的用法，與本句語境不同。",
-        "good-mcq-18": "「沒有實際作用、效果或價值」是「no good」的用法，與本句語境不同。",
-        "good-mcq-13": "「身體、物件或系統保持正常健康、沒有重大問題」是「good — condition」的用法，與本句語境不同。"
+        "good-pdf-001": "本句的「the good」指「有價值、正面或善良的部分」。",
+        "good-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-pdf-001"
     },
@@ -1563,11 +1435,9 @@ export default {
       "masked": "She always tries to see the ____ in people.",
       "options": [
         "good-pdf-001",
-        "good-mcq-15",
-        "good-mcq-17",
-        "good-mcq-14",
-        "good-mcq-18",
-        "good-mcq-13"
+        "good-mcq-20",
+        "good-mcq-05",
+        "good-mcq-07"
       ],
       "explanation": "本句的「good」指「有價值、正面或善良的部分」。",
       "sentenceIndex": 32,
@@ -1576,12 +1446,10 @@ export default {
         "good"
       ],
       "optionReasons": {
-        "good-pdf-001": "本句指「有價值、正面或善良的部分」。",
-        "good-mcq-15": "「用來強調數量、時間或距離相當大／充分」是「good — considerable」的用法，與本句語境不同。",
-        "good-mcq-17": "「為某人／群體的利益或福祉」是「for the good of」的用法，與本句語境不同。",
-        "good-mcq-14": "「在可靠性、充分程度或可能性方面達到相當高水平」是「good evidence/chance」的用法，與本句語境不同。",
-        "good-mcq-18": "「沒有實際作用、效果或價值」是「no good」的用法，與本句語境不同。",
-        "good-mcq-13": "「身體、物件或系統保持正常健康、沒有重大問題」是「good — condition」的用法，與本句語境不同。"
+        "good-pdf-001": "本句的「good」指「有價值、正面或善良的部分」。",
+        "good-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-pdf-001"
     },
@@ -1593,11 +1461,9 @@ export default {
       "masked": "The decision was made ____.",
       "options": [
         "good-mcq-17",
-        "good-mcq-16",
-        "good-mcq-18",
-        "good-mcq-15",
-        "good-mcq-19",
-        "good-mcq-14"
+        "good-mcq-04",
+        "good-pdf-001",
+        "good-mcq-10"
       ],
       "explanation": "本句的「for the good of the students」指「為某人／群體的利益或福祉」。",
       "sentenceIndex": 33,
@@ -1606,12 +1472,10 @@ export default {
         "for the good of the students"
       ],
       "optionReasons": {
-        "good-mcq-17": "本句指「為某人／群體的利益或福祉」。",
-        "good-mcq-16": "「道德上正確、正面或有益的事物／特質」是「the good」的用法，與本句語境不同。",
-        "good-mcq-18": "「沒有實際作用、效果或價值」是「no good」的用法，與本句語境不同。",
-        "good-mcq-15": "「用來強調數量、時間或距離相當大／充分」是「good — considerable」的用法，與本句語境不同。",
-        "good-mcq-19": "「永久地；不再恢復原來狀態」是「for good」的用法，與本句語境不同。",
-        "good-mcq-14": "「在可靠性、充分程度或可能性方面達到相當高水平」是「good evidence/chance」的用法，與本句語境不同。"
+        "good-mcq-17": "本句的「for the good of the students」指「為某人／群體的利益或福祉」。",
+        "good-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "good-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-17"
     },
@@ -1623,11 +1487,9 @@ export default {
       "masked": "Sometimes individuals make sacrifices for the ____.",
       "options": [
         "good-mcq-17",
-        "good-mcq-16",
-        "good-mcq-18",
-        "good-mcq-15",
-        "good-mcq-19",
-        "good-mcq-14"
+        "good-mcq-03",
+        "good-mcq-08",
+        "good-mcq-19"
       ],
       "explanation": "本句的「common good」指「為某人／群體的利益或福祉」。",
       "sentenceIndex": 34,
@@ -1636,12 +1498,10 @@ export default {
         "common good"
       ],
       "optionReasons": {
-        "good-mcq-17": "本句指「為某人／群體的利益或福祉」。",
-        "good-mcq-16": "「道德上正確、正面或有益的事物／特質」是「the good」的用法，與本句語境不同。",
-        "good-mcq-18": "「沒有實際作用、效果或價值」是「no good」的用法，與本句語境不同。",
-        "good-mcq-15": "「用來強調數量、時間或距離相當大／充分」是「good — considerable」的用法，與本句語境不同。",
-        "good-mcq-19": "「永久地；不再恢復原來狀態」是「for good」的用法，與本句語境不同。",
-        "good-mcq-14": "「在可靠性、充分程度或可能性方面達到相當高水平」是「good evidence/chance」的用法，與本句語境不同。"
+        "good-mcq-17": "本句的「common good」指「為某人／群體的利益或福祉」。",
+        "good-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-17"
     },
@@ -1653,11 +1513,9 @@ export default {
       "masked": "This old charger is ____ anymore.",
       "options": [
         "good-mcq-18",
-        "good-mcq-17",
+        "good-mcq-09",
         "good-mcq-19",
-        "good-mcq-16",
-        "good-mcq-20",
-        "good-mcq-15"
+        "good-mcq-05"
       ],
       "explanation": "本句的「no good」指「沒有實際作用、效果或價值」。",
       "sentenceIndex": 35,
@@ -1666,12 +1524,10 @@ export default {
         "no good"
       ],
       "optionReasons": {
-        "good-mcq-18": "本句指「沒有實際作用、效果或價值」。",
-        "good-mcq-17": "「為某人／群體的利益或福祉」是「for the good of」的用法，與本句語境不同。",
-        "good-mcq-19": "「永久地；不再恢復原來狀態」是「for good」的用法，與本句語境不同。",
-        "good-mcq-16": "「道德上正確、正面或有益的事物／特質」是「the good」的用法，與本句語境不同。",
-        "good-mcq-20": "「在實際效果上幾乎等同於某種狀態」是「as good as」的用法，與本句語境不同。",
-        "good-mcq-15": "「用來強調數量、時間或距離相當大／充分」是「good — considerable」的用法，與本句語境不同。"
+        "good-mcq-18": "本句的「no good」指「沒有實際作用、效果或價值」。",
+        "good-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-18"
     },
@@ -1683,11 +1539,9 @@ export default {
       "masked": "Arguing with him is ____.",
       "options": [
         "good-mcq-18",
-        "good-mcq-17",
-        "good-mcq-19",
-        "good-mcq-16",
-        "good-mcq-20",
-        "good-mcq-15"
+        "good-mcq-07",
+        "good-mcq-09",
+        "good-mcq-05"
       ],
       "explanation": "本句的「no good」指「沒有實際作用、效果或價值」。",
       "sentenceIndex": 36,
@@ -1696,12 +1550,10 @@ export default {
         "no good"
       ],
       "optionReasons": {
-        "good-mcq-18": "本句指「沒有實際作用、效果或價值」。",
-        "good-mcq-17": "「為某人／群體的利益或福祉」是「for the good of」的用法，與本句語境不同。",
-        "good-mcq-19": "「永久地；不再恢復原來狀態」是「for good」的用法，與本句語境不同。",
-        "good-mcq-16": "「道德上正確、正面或有益的事物／特質」是「the good」的用法，與本句語境不同。",
-        "good-mcq-20": "「在實際效果上幾乎等同於某種狀態」是「as good as」的用法，與本句語境不同。",
-        "good-mcq-15": "「用來強調數量、時間或距離相當大／充分」是「good — considerable」的用法，與本句語境不同。"
+        "good-mcq-18": "本句的「no good」指「沒有實際作用、效果或價值」。",
+        "good-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-18"
     },
@@ -1713,11 +1565,9 @@ export default {
       "masked": "She left the city ____.",
       "options": [
         "good-mcq-19",
-        "good-mcq-18",
-        "good-mcq-20",
-        "good-mcq-17",
-        "good-mcq-21",
-        "good-mcq-16"
+        "good-mcq-02",
+        "good-mcq-03",
+        "good-mcq-04"
       ],
       "explanation": "本句的「for good」指「永久地；不再恢復原來狀態」。",
       "sentenceIndex": 37,
@@ -1726,12 +1576,10 @@ export default {
         "for good"
       ],
       "optionReasons": {
-        "good-mcq-19": "本句指「永久地；不再恢復原來狀態」。",
-        "good-mcq-18": "「沒有實際作用、效果或價值」是「no good」的用法，與本句語境不同。",
-        "good-mcq-20": "「在實際效果上幾乎等同於某種狀態」是「as good as」的用法，與本句語境不同。",
-        "good-mcq-17": "「為某人／群體的利益或福祉」是「for the good of」的用法，與本句語境不同。",
-        "good-mcq-21": "「質素或程度已達特定用途所需標準」是「good enough」的用法，與本句語境不同。",
-        "good-mcq-16": "「道德上正確、正面或有益的事物／特質」是「the good」的用法，與本句語境不同。"
+        "good-mcq-19": "本句的「for good」指「永久地；不再恢復原來狀態」。",
+        "good-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-19"
     },
@@ -1743,11 +1591,9 @@ export default {
       "masked": "The shop closed ____ last year.",
       "options": [
         "good-mcq-19",
-        "good-mcq-18",
-        "good-mcq-20",
-        "good-mcq-17",
-        "good-mcq-21",
-        "good-mcq-16"
+        "good-mcq-02",
+        "good-mcq-12",
+        "good-mcq-17"
       ],
       "explanation": "本句的「for good」指「永久地；不再恢復原來狀態」。",
       "sentenceIndex": 38,
@@ -1756,12 +1602,10 @@ export default {
         "for good"
       ],
       "optionReasons": {
-        "good-mcq-19": "本句指「永久地；不再恢復原來狀態」。",
-        "good-mcq-18": "「沒有實際作用、效果或價值」是「no good」的用法，與本句語境不同。",
-        "good-mcq-20": "「在實際效果上幾乎等同於某種狀態」是「as good as」的用法，與本句語境不同。",
-        "good-mcq-17": "「為某人／群體的利益或福祉」是「for the good of」的用法，與本句語境不同。",
-        "good-mcq-21": "「質素或程度已達特定用途所需標準」是「good enough」的用法，與本句語境不同。",
-        "good-mcq-16": "「道德上正確、正面或有益的事物／特質」是「the good」的用法，與本句語境不同。"
+        "good-mcq-19": "本句的「for good」指「永久地；不再恢復原來狀態」。",
+        "good-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-19"
     },
@@ -1773,11 +1617,9 @@ export default {
       "masked": "The project is ____.",
       "options": [
         "good-mcq-20",
-        "good-mcq-19",
-        "good-mcq-21",
-        "good-mcq-18",
-        "good-mcq-22",
-        "good-mcq-17"
+        "good-mcq-05",
+        "good-mcq-02",
+        "good-mcq-09"
       ],
       "explanation": "本句的「as good as finished」指「在實際效果上幾乎等同於某種狀態」。",
       "sentenceIndex": 39,
@@ -1786,12 +1628,10 @@ export default {
         "as good as finished"
       ],
       "optionReasons": {
-        "good-mcq-20": "本句指「在實際效果上幾乎等同於某種狀態」。",
-        "good-mcq-19": "「永久地；不再恢復原來狀態」是「for good」的用法，與本句語境不同。",
-        "good-mcq-21": "「質素或程度已達特定用途所需標準」是「good enough」的用法，與本句語境不同。",
-        "good-mcq-18": "「沒有實際作用、效果或價值」是「no good」的用法，與本句語境不同。",
-        "good-mcq-22": "「good 的不規則比較級／最高級」是「better / best」的用法，與本句語境不同。",
-        "good-mcq-17": "「為某人／群體的利益或福祉」是「for the good of」的用法，與本句語境不同。"
+        "good-mcq-20": "本句的「as good as finished」指「在實際效果上幾乎等同於某種狀態」。",
+        "good-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-20"
     },
@@ -1803,10 +1643,8 @@ export default {
       "masked": "Without the key, the device is ____.",
       "options": [
         "good-mcq-20",
-        "good-mcq-19",
-        "good-mcq-21",
-        "good-mcq-18",
-        "good-mcq-22",
+        "good-mcq-01",
+        "good-pdf-001",
         "good-mcq-17"
       ],
       "explanation": "本句的「as good as useless」指「在實際效果上幾乎等同於某種狀態」。",
@@ -1816,12 +1654,10 @@ export default {
         "as good as useless"
       ],
       "optionReasons": {
-        "good-mcq-20": "本句指「在實際效果上幾乎等同於某種狀態」。",
-        "good-mcq-19": "「永久地；不再恢復原來狀態」是「for good」的用法，與本句語境不同。",
-        "good-mcq-21": "「質素或程度已達特定用途所需標準」是「good enough」的用法，與本句語境不同。",
-        "good-mcq-18": "「沒有實際作用、效果或價值」是「no good」的用法，與本句語境不同。",
-        "good-mcq-22": "「good 的不規則比較級／最高級」是「better / best」的用法，與本句語境不同。",
-        "good-mcq-17": "「為某人／群體的利益或福祉」是「for the good of」的用法，與本句語境不同。"
+        "good-mcq-20": "本句的「as good as useless」指「在實際效果上幾乎等同於某種狀態」。",
+        "good-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "good-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-20"
     },
@@ -1833,10 +1669,8 @@ export default {
       "masked": "The answer is ____ for this exercise.",
       "options": [
         "good-mcq-21",
-        "good-mcq-20",
-        "good-mcq-22",
-        "good-mcq-19",
-        "good-mcq-23",
+        "good-mcq-06",
+        "good-mcq-05",
         "good-mcq-18"
       ],
       "explanation": "本句的「good enough」指「質素或程度已達特定用途所需標準」。",
@@ -1846,12 +1680,10 @@ export default {
         "good enough"
       ],
       "optionReasons": {
-        "good-mcq-21": "本句指「質素或程度已達特定用途所需標準」。",
-        "good-mcq-20": "「在實際效果上幾乎等同於某種狀態」是「as good as」的用法，與本句語境不同。",
-        "good-mcq-22": "「good 的不規則比較級／最高級」是「better / best」的用法，與本句語境不同。",
-        "good-mcq-19": "「永久地；不再恢復原來狀態」是「for good」的用法，與本句語境不同。",
-        "good-mcq-23": "「善良、正面價值或「好」的特質」是「goodness」的用法，與本句語境不同。",
-        "good-mcq-18": "「沒有實際作用、效果或價值」是「no good」的用法，與本句語境不同。"
+        "good-mcq-21": "本句的「good enough」指「質素或程度已達特定用途所需標準」。",
+        "good-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-21"
     },
@@ -1863,11 +1695,9 @@ export default {
       "masked": "The sound quality was not ____ for professional use.",
       "options": [
         "good-mcq-21",
-        "good-mcq-20",
-        "good-mcq-22",
-        "good-mcq-19",
-        "good-mcq-23",
-        "good-mcq-18"
+        "good-mcq-09",
+        "good-mcq-11",
+        "good-mcq-04"
       ],
       "explanation": "本句的「good enough」指「質素或程度已達特定用途所需標準」。",
       "sentenceIndex": 42,
@@ -1876,12 +1706,10 @@ export default {
         "good enough"
       ],
       "optionReasons": {
-        "good-mcq-21": "本句指「質素或程度已達特定用途所需標準」。",
-        "good-mcq-20": "「在實際效果上幾乎等同於某種狀態」是「as good as」的用法，與本句語境不同。",
-        "good-mcq-22": "「good 的不規則比較級／最高級」是「better / best」的用法，與本句語境不同。",
-        "good-mcq-19": "「永久地；不再恢復原來狀態」是「for good」的用法，與本句語境不同。",
-        "good-mcq-23": "「善良、正面價值或「好」的特質」是「goodness」的用法，與本句語境不同。",
-        "good-mcq-18": "「沒有實際作用、效果或價值」是「no good」的用法，與本句語境不同。"
+        "good-mcq-21": "本句的「good enough」指「質素或程度已達特定用途所需標準」。",
+        "good-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-21"
     },
@@ -1893,11 +1721,9 @@ export default {
       "masked": "This explanation is ____ than the first one.",
       "options": [
         "good-mcq-22",
-        "good-mcq-21",
-        "good-mcq-23",
-        "good-mcq-20",
-        "good-mcq-24",
-        "good-mcq-19"
+        "good-mcq-13",
+        "good-mcq-02",
+        "good-mcq-07"
       ],
       "explanation": "本句的「better」指「good 的不規則比較級／最高級」。",
       "sentenceIndex": 43,
@@ -1906,12 +1732,10 @@ export default {
         "better"
       ],
       "optionReasons": {
-        "good-mcq-22": "本句指「good 的不規則比較級／最高級」。",
-        "good-mcq-21": "「質素或程度已達特定用途所需標準」是「good enough」的用法，與本句語境不同。",
-        "good-mcq-23": "「善良、正面價值或「好」的特質」是「goodness」的用法，與本句語境不同。",
-        "good-mcq-20": "「在實際效果上幾乎等同於某種狀態」是「as good as」的用法，與本句語境不同。",
-        "good-mcq-24": "「為出售、運輸或交易而存在的實體商品／貨物」是「goods」的用法，與本句語境不同。",
-        "good-mcq-19": "「永久地；不再恢復原來狀態」是「for good」的用法，與本句語境不同。"
+        "good-mcq-22": "本句的「better」指「good 的不規則比較級／最高級」。",
+        "good-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-22"
     },
@@ -1923,11 +1747,9 @@ export default {
       "masked": "That was the ____ lesson I had all year.",
       "options": [
         "good-mcq-22",
-        "good-mcq-21",
-        "good-mcq-23",
-        "good-mcq-20",
         "good-mcq-24",
-        "good-mcq-19"
+        "good-mcq-01",
+        "good-mcq-10"
       ],
       "explanation": "本句的「best」指「good 的不規則比較級／最高級」。",
       "sentenceIndex": 44,
@@ -1936,12 +1758,10 @@ export default {
         "best"
       ],
       "optionReasons": {
-        "good-mcq-22": "本句指「good 的不規則比較級／最高級」。",
-        "good-mcq-21": "「質素或程度已達特定用途所需標準」是「good enough」的用法，與本句語境不同。",
-        "good-mcq-23": "「善良、正面價值或「好」的特質」是「goodness」的用法，與本句語境不同。",
-        "good-mcq-20": "「在實際效果上幾乎等同於某種狀態」是「as good as」的用法，與本句語境不同。",
-        "good-mcq-24": "「為出售、運輸或交易而存在的實體商品／貨物」是「goods」的用法，與本句語境不同。",
-        "good-mcq-19": "「永久地；不再恢復原來狀態」是「for good」的用法，與本句語境不同。"
+        "good-mcq-22": "本句的「best」指「good 的不規則比較級／最高級」。",
+        "good-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-22"
     },
@@ -1953,11 +1773,9 @@ export default {
       "masked": "She believed in the basic ____ of people.",
       "options": [
         "good-mcq-23",
-        "good-mcq-22",
         "good-mcq-24",
-        "good-mcq-21",
-        "good-mcq-25",
-        "good-mcq-20"
+        "good-mcq-19",
+        "good-mcq-15"
       ],
       "explanation": "本句的「goodness」指「善良、正面價值或「好」的特質」。",
       "sentenceIndex": 45,
@@ -1966,12 +1784,10 @@ export default {
         "goodness"
       ],
       "optionReasons": {
-        "good-mcq-23": "本句指「善良、正面價值或「好」的特質」。",
-        "good-mcq-22": "「good 的不規則比較級／最高級」是「better / best」的用法，與本句語境不同。",
-        "good-mcq-24": "「為出售、運輸或交易而存在的實體商品／貨物」是「goods」的用法，與本句語境不同。",
-        "good-mcq-21": "「質素或程度已達特定用途所需標準」是「good enough」的用法，與本句語境不同。",
-        "good-mcq-25": "「對某人或組織所持的友善、信任和正面態度」是「goodwill — ordinary」的用法，與本句語境不同。",
-        "good-mcq-20": "「在實際效果上幾乎等同於某種狀態」是「as good as」的用法，與本句語境不同。"
+        "good-mcq-23": "本句的「goodness」指「善良、正面價值或「好」的特質」。",
+        "good-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-23"
     },
@@ -1983,11 +1799,9 @@ export default {
       "masked": "The story focuses on kindness and human ____.",
       "options": [
         "good-mcq-23",
-        "good-mcq-22",
-        "good-mcq-24",
-        "good-mcq-21",
-        "good-mcq-25",
-        "good-mcq-20"
+        "good-mcq-11",
+        "good-mcq-04",
+        "good-mcq-17"
       ],
       "explanation": "本句的「goodness」指「善良、正面價值或「好」的特質」。",
       "sentenceIndex": 46,
@@ -1996,12 +1810,10 @@ export default {
         "goodness"
       ],
       "optionReasons": {
-        "good-mcq-23": "本句指「善良、正面價值或「好」的特質」。",
-        "good-mcq-22": "「good 的不規則比較級／最高級」是「better / best」的用法，與本句語境不同。",
-        "good-mcq-24": "「為出售、運輸或交易而存在的實體商品／貨物」是「goods」的用法，與本句語境不同。",
-        "good-mcq-21": "「質素或程度已達特定用途所需標準」是「good enough」的用法，與本句語境不同。",
-        "good-mcq-25": "「對某人或組織所持的友善、信任和正面態度」是「goodwill — ordinary」的用法，與本句語境不同。",
-        "good-mcq-20": "「在實際效果上幾乎等同於某種狀態」是「as good as」的用法，與本句語境不同。"
+        "good-mcq-23": "本句的「goodness」指「善良、正面價值或「好」的特質」。",
+        "good-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-23"
     },
@@ -2013,11 +1825,9 @@ export default {
       "masked": "The company imports electronic ____.",
       "options": [
         "good-mcq-24",
-        "good-mcq-23",
-        "good-mcq-25",
-        "good-mcq-22",
-        "good-mcq-26",
-        "good-mcq-21"
+        "good-mcq-05",
+        "good-mcq-15",
+        "good-mcq-22"
       ],
       "explanation": "本句的「goods」指「為出售、運輸或交易而存在的實體商品／貨物」。",
       "sentenceIndex": 47,
@@ -2026,12 +1836,10 @@ export default {
         "goods"
       ],
       "optionReasons": {
-        "good-mcq-24": "本句指「為出售、運輸或交易而存在的實體商品／貨物」。",
-        "good-mcq-23": "「善良、正面價值或「好」的特質」是「goodness」的用法，與本句語境不同。",
-        "good-mcq-25": "「對某人或組織所持的友善、信任和正面態度」是「goodwill — ordinary」的用法，與本句語境不同。",
-        "good-mcq-22": "「good 的不規則比較級／最高級」是「better / best」的用法，與本句語境不同。",
-        "good-mcq-26": "「品牌、聲譽和客戶關係等帶來的額外無形商業價值」是「goodwill — accounting」的用法，與本句語境不同。",
-        "good-mcq-21": "「質素或程度已達特定用途所需標準」是「good enough」的用法，與本句語境不同。"
+        "good-mcq-24": "本句的「goods」指「為出售、運輸或交易而存在的實體商品／貨物」。",
+        "good-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-24"
     },
@@ -2043,11 +1851,9 @@ export default {
       "masked": "The damaged ____ were returned to the supplier.",
       "options": [
         "good-mcq-24",
-        "good-mcq-23",
-        "good-mcq-25",
-        "good-mcq-22",
-        "good-mcq-26",
-        "good-mcq-21"
+        "good-mcq-21",
+        "good-mcq-10",
+        "good-mcq-19"
       ],
       "explanation": "本句的「goods」指「為出售、運輸或交易而存在的實體商品／貨物」。",
       "sentenceIndex": 48,
@@ -2056,12 +1862,10 @@ export default {
         "goods"
       ],
       "optionReasons": {
-        "good-mcq-24": "本句指「為出售、運輸或交易而存在的實體商品／貨物」。",
-        "good-mcq-23": "「善良、正面價值或「好」的特質」是「goodness」的用法，與本句語境不同。",
-        "good-mcq-25": "「對某人或組織所持的友善、信任和正面態度」是「goodwill — ordinary」的用法，與本句語境不同。",
-        "good-mcq-22": "「good 的不規則比較級／最高級」是「better / best」的用法，與本句語境不同。",
-        "good-mcq-26": "「品牌、聲譽和客戶關係等帶來的額外無形商業價值」是「goodwill — accounting」的用法，與本句語境不同。",
-        "good-mcq-21": "「質素或程度已達特定用途所需標準」是「good enough」的用法，與本句語境不同。"
+        "good-mcq-24": "本句的「goods」指「為出售、運輸或交易而存在的實體商品／貨物」。",
+        "good-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-24"
     },
@@ -2073,11 +1877,9 @@ export default {
       "masked": "The teacher built up a great deal of ____ among students.",
       "options": [
         "good-mcq-25",
-        "good-mcq-24",
-        "good-mcq-26",
-        "good-mcq-23",
-        "good-mcq-22",
-        "good-mcq-21"
+        "good-mcq-07",
+        "good-mcq-05",
+        "good-mcq-26"
       ],
       "explanation": "本句的「goodwill」指「對某人或組織所持的友善、信任和正面態度」。",
       "sentenceIndex": 49,
@@ -2086,12 +1888,10 @@ export default {
         "goodwill"
       ],
       "optionReasons": {
-        "good-mcq-25": "本句指「對某人或組織所持的友善、信任和正面態度」。",
-        "good-mcq-24": "「為出售、運輸或交易而存在的實體商品／貨物」是「goods」的用法，與本句語境不同。",
-        "good-mcq-26": "「品牌、聲譽和客戶關係等帶來的額外無形商業價值」是「goodwill — accounting」的用法，與本句語境不同。",
-        "good-mcq-23": "「善良、正面價值或「好」的特質」是「goodness」的用法，與本句語境不同。",
-        "good-mcq-22": "「good 的不規則比較級／最高級」是「better / best」的用法，與本句語境不同。",
-        "good-mcq-21": "「質素或程度已達特定用途所需標準」是「good enough」的用法，與本句語境不同。"
+        "good-mcq-25": "本句的「goodwill」指「對某人或組織所持的友善、信任和正面態度」。",
+        "good-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-25"
     },
@@ -2103,11 +1903,9 @@ export default {
       "masked": "The apology helped restore ____ between the two sides.",
       "options": [
         "good-mcq-25",
+        "good-mcq-07",
         "good-mcq-24",
-        "good-mcq-26",
-        "good-mcq-23",
-        "good-mcq-22",
-        "good-mcq-21"
+        "good-mcq-22"
       ],
       "explanation": "本句的「goodwill」指「對某人或組織所持的友善、信任和正面態度」。",
       "sentenceIndex": 50,
@@ -2116,12 +1914,10 @@ export default {
         "goodwill"
       ],
       "optionReasons": {
-        "good-mcq-25": "本句指「對某人或組織所持的友善、信任和正面態度」。",
-        "good-mcq-24": "「為出售、運輸或交易而存在的實體商品／貨物」是「goods」的用法，與本句語境不同。",
-        "good-mcq-26": "「品牌、聲譽和客戶關係等帶來的額外無形商業價值」是「goodwill — accounting」的用法，與本句語境不同。",
-        "good-mcq-23": "「善良、正面價值或「好」的特質」是「goodness」的用法，與本句語境不同。",
-        "good-mcq-22": "「good 的不規則比較級／最高級」是「better / best」的用法，與本句語境不同。",
-        "good-mcq-21": "「質素或程度已達特定用途所需標準」是「good enough」的用法，與本句語境不同。"
+        "good-mcq-25": "本句的「goodwill」指「對某人或組織所持的友善、信任和正面態度」。",
+        "good-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-25"
     },
@@ -2133,11 +1929,9 @@ export default {
       "masked": "The company recorded ____ after the acquisition.",
       "options": [
         "good-mcq-26",
-        "good-mcq-25",
-        "good-mcq-24",
-        "good-mcq-23",
-        "good-mcq-22",
-        "good-mcq-21"
+        "good-mcq-04",
+        "good-mcq-08",
+        "good-mcq-13"
       ],
       "explanation": "本句的「goodwill」指「品牌、聲譽和客戶關係等帶來的額外無形商業價值」。",
       "sentenceIndex": 51,
@@ -2146,12 +1940,10 @@ export default {
         "goodwill"
       ],
       "optionReasons": {
-        "good-mcq-26": "本句指「品牌、聲譽和客戶關係等帶來的額外無形商業價值」。",
-        "good-mcq-25": "「對某人或組織所持的友善、信任和正面態度」是「goodwill — ordinary」的用法，與本句語境不同。",
-        "good-mcq-24": "「為出售、運輸或交易而存在的實體商品／貨物」是「goods」的用法，與本句語境不同。",
-        "good-mcq-23": "「善良、正面價值或「好」的特質」是「goodness」的用法，與本句語境不同。",
-        "good-mcq-22": "「good 的不規則比較級／最高級」是「better / best」的用法，與本句語境不同。",
-        "good-mcq-21": "「質素或程度已達特定用途所需標準」是「good enough」的用法，與本句語境不同。"
+        "good-mcq-26": "本句的「goodwill」指「品牌、聲譽和客戶關係等帶來的額外無形商業價值」。",
+        "good-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-26"
     },
@@ -2163,11 +1955,9 @@ export default {
       "masked": "Part of the purchase price reflected the brand’s ____.",
       "options": [
         "good-mcq-26",
-        "good-mcq-25",
-        "good-mcq-24",
-        "good-mcq-23",
-        "good-mcq-22",
-        "good-mcq-21"
+        "good-mcq-13",
+        "good-mcq-01",
+        "good-mcq-05"
       ],
       "explanation": "本句的「goodwill」指「品牌、聲譽和客戶關係等帶來的額外無形商業價值」。",
       "sentenceIndex": 52,
@@ -2176,12 +1966,10 @@ export default {
         "goodwill"
       ],
       "optionReasons": {
-        "good-mcq-26": "本句指「品牌、聲譽和客戶關係等帶來的額外無形商業價值」。",
-        "good-mcq-25": "「對某人或組織所持的友善、信任和正面態度」是「goodwill — ordinary」的用法，與本句語境不同。",
-        "good-mcq-24": "「為出售、運輸或交易而存在的實體商品／貨物」是「goods」的用法，與本句語境不同。",
-        "good-mcq-23": "「善良、正面價值或「好」的特質」是「goodness」的用法，與本句語境不同。",
-        "good-mcq-22": "「good 的不規則比較級／最高級」是「better / best」的用法，與本句語境不同。",
-        "good-mcq-21": "「質素或程度已達特定用途所需標準」是「good enough」的用法，與本句語境不同。"
+        "good-mcq-26": "本句的「goodwill」指「品牌、聲譽和客戶關係等帶來的額外無形商業價值」。",
+        "good-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "good-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "good-mcq-26"
     }
@@ -2193,5 +1981,7 @@ export default {
     "sha256": "4c2762dd0af920d5cff80cd25de3b1b8f7ac624daa6e47c52a247f86a09148fb",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

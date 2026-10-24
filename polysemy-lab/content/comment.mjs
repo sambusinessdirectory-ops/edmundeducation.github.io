@@ -510,11 +510,9 @@ export default {
       "masked": "She made a brief ____ about the presentation.",
       "options": [
         "comment-mcq-01",
-        "comment-mcq-02",
-        "comment-mcq-03",
+        "comment-mcq-27",
         "comment-mcq-04",
-        "comment-mcq-05",
-        "comment-mcq-06"
+        "comment-mcq-15"
       ],
       "explanation": "本句的「comment」指「對某人、某事或某情況作出的簡短意見／評語」。",
       "sentenceIndex": 0,
@@ -523,12 +521,10 @@ export default {
         "comment"
       ],
       "optionReasons": {
-        "comment-mcq-01": "本句指「對某人、某事或某情況作出的簡短意見／評語」。",
-        "comment-mcq-02": "「使用者針對貼文、影片等公開留下的書面回應」與本句語境不同。",
-        "comment-mcq-03": "「集中顯示網上使用者留言的區域」與本句語境不同。",
-        "comment-mcq-04": "「在網上內容下方發表文字回應」與本句語境不同。",
-        "comment-mcq-05": "「就某件事表達看法、觀察或評價」與本句語境不同。",
-        "comment-mcq-06": "「對 X 發表意見／評論」與本句語境不同。"
+        "comment-mcq-01": "本句的「comment」指「對某人、某事或某情況作出的簡短意見／評語」。",
+        "comment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-01"
     },
@@ -540,11 +536,9 @@ export default {
       "masked": "His ____ made everyone laugh.",
       "options": [
         "comment-mcq-01",
-        "comment-mcq-02",
-        "comment-mcq-03",
-        "comment-mcq-04",
-        "comment-mcq-05",
-        "comment-mcq-06"
+        "comment-mcq-27",
+        "comment-mcq-15",
+        "comment-mcq-12"
       ],
       "explanation": "本句的「comment」指「對某人、某事或某情況作出的簡短意見／評語」。",
       "sentenceIndex": 1,
@@ -553,12 +547,10 @@ export default {
         "comment"
       ],
       "optionReasons": {
-        "comment-mcq-01": "本句指「對某人、某事或某情況作出的簡短意見／評語」。",
-        "comment-mcq-02": "「使用者針對貼文、影片等公開留下的書面回應」與本句語境不同。",
-        "comment-mcq-03": "「集中顯示網上使用者留言的區域」與本句語境不同。",
-        "comment-mcq-04": "「在網上內容下方發表文字回應」與本句語境不同。",
-        "comment-mcq-05": "「就某件事表達看法、觀察或評價」與本句語境不同。",
-        "comment-mcq-06": "「對 X 發表意見／評論」與本句語境不同。"
+        "comment-mcq-01": "本句的「comment」指「對某人、某事或某情況作出的簡短意見／評語」。",
+        "comment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-01"
     },
@@ -570,11 +562,9 @@ export default {
       "masked": "The ____ became very active.",
       "options": [
         "comment-mcq-03",
-        "comment-mcq-02",
-        "comment-mcq-04",
-        "comment-mcq-01",
-        "comment-mcq-05",
-        "comment-mcq-06"
+        "comment-mcq-15",
+        "comment-mcq-10",
+        "comment-mcq-25"
       ],
       "explanation": "本句的「comment section」指「集中顯示網上使用者留言的區域」。",
       "sentenceIndex": 8,
@@ -583,12 +573,10 @@ export default {
         "comment section"
       ],
       "optionReasons": {
-        "comment-mcq-03": "本句指「集中顯示網上使用者留言的區域」。",
-        "comment-mcq-02": "「使用者針對貼文、影片等公開留下的書面回應」與本句語境不同。",
-        "comment-mcq-04": "「在網上內容下方發表文字回應」與本句語境不同。",
-        "comment-mcq-01": "「對某人、某事或某情況作出的簡短意見／評語」與本句語境不同。",
-        "comment-mcq-05": "「就某件事表達看法、觀察或評價」與本句語境不同。",
-        "comment-mcq-06": "「對 X 發表意見／評論」與本句語境不同。"
+        "comment-mcq-03": "本句的「comment section」指「集中顯示網上使用者留言的區域」。",
+        "comment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-03"
     },
@@ -600,11 +588,9 @@ export default {
       "masked": "I stopped reading the ____ section.",
       "options": [
         "comment-mcq-03",
-        "comment-mcq-02",
-        "comment-mcq-04",
-        "comment-mcq-01",
-        "comment-mcq-05",
-        "comment-mcq-06"
+        "comment-mcq-07",
+        "comment-mcq-24",
+        "comment-mcq-21"
       ],
       "explanation": "本句的「comment」指「集中顯示網上使用者留言的區域」。",
       "sentenceIndex": 9,
@@ -613,12 +599,10 @@ export default {
         "comment"
       ],
       "optionReasons": {
-        "comment-mcq-03": "本句指「集中顯示網上使用者留言的區域」。",
-        "comment-mcq-02": "「使用者針對貼文、影片等公開留下的書面回應」與本句語境不同。",
-        "comment-mcq-04": "「在網上內容下方發表文字回應」與本句語境不同。",
-        "comment-mcq-01": "「對某人、某事或某情況作出的簡短意見／評語」與本句語境不同。",
-        "comment-mcq-05": "「就某件事表達看法、觀察或評價」與本句語境不同。",
-        "comment-mcq-06": "「對 X 發表意見／評論」與本句語境不同。"
+        "comment-mcq-03": "本句的「comment」指「集中顯示網上使用者留言的區域」。",
+        "comment-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-03"
     },
@@ -630,11 +614,9 @@ export default {
       "masked": "He ____ beneath the photo.",
       "options": [
         "comment-mcq-04",
-        "comment-mcq-03",
-        "comment-mcq-05",
-        "comment-mcq-02",
-        "comment-mcq-06",
-        "comment-mcq-01"
+        "comment-mcq-21",
+        "comment-mcq-12",
+        "comment-mcq-24"
       ],
       "explanation": "本句的「posted a comment」指「在網上內容下方發表文字回應」。",
       "sentenceIndex": 12,
@@ -643,12 +625,10 @@ export default {
         "posted a comment"
       ],
       "optionReasons": {
-        "comment-mcq-04": "本句指「在網上內容下方發表文字回應」。",
-        "comment-mcq-03": "「集中顯示網上使用者留言的區域」與本句語境不同。",
-        "comment-mcq-05": "「就某件事表達看法、觀察或評價」與本句語境不同。",
-        "comment-mcq-02": "「使用者針對貼文、影片等公開留下的書面回應」與本句語境不同。",
-        "comment-mcq-06": "「對 X 發表意見／評論」與本句語境不同。",
-        "comment-mcq-01": "「對某人、某事或某情況作出的簡短意見／評語」與本句語境不同。"
+        "comment-mcq-04": "本句的「posted a comment」指「在網上內容下方發表文字回應」。",
+        "comment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-04"
     },
@@ -660,11 +640,9 @@ export default {
       "masked": "Users can post ____ anonymously.",
       "options": [
         "comment-mcq-04",
-        "comment-mcq-03",
-        "comment-mcq-05",
-        "comment-mcq-02",
-        "comment-mcq-06",
-        "comment-mcq-01"
+        "comment-mcq-12",
+        "comment-mcq-24",
+        "comment-mcq-21"
       ],
       "explanation": "本句的「comments」指「在網上內容下方發表文字回應」。",
       "sentenceIndex": 13,
@@ -673,12 +651,10 @@ export default {
         "comments"
       ],
       "optionReasons": {
-        "comment-mcq-04": "本句指「在網上內容下方發表文字回應」。",
-        "comment-mcq-03": "「集中顯示網上使用者留言的區域」與本句語境不同。",
-        "comment-mcq-05": "「就某件事表達看法、觀察或評價」與本句語境不同。",
-        "comment-mcq-02": "「使用者針對貼文、影片等公開留下的書面回應」與本句語境不同。",
-        "comment-mcq-06": "「對 X 發表意見／評論」與本句語境不同。",
-        "comment-mcq-01": "「對某人、某事或某情況作出的簡短意見／評語」與本句語境不同。"
+        "comment-mcq-04": "本句的「comments」指「在網上內容下方發表文字回應」。",
+        "comment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-04"
     },
@@ -690,11 +666,9 @@ export default {
       "masked": "The company issued a ____ on the incident.",
       "options": [
         "comment-mcq-07",
-        "comment-mcq-06",
-        "comment-mcq-08",
-        "comment-mcq-05",
-        "comment-mcq-09",
-        "comment-mcq-04"
+        "comment-mcq-12",
+        "comment-mcq-15",
+        "comment-mcq-21"
       ],
       "explanation": "本句的「comment」指「機構／人士對事件作出的公開回應」。",
       "sentenceIndex": 30,
@@ -703,12 +677,10 @@ export default {
         "comment"
       ],
       "optionReasons": {
-        "comment-mcq-07": "本句指「機構／人士對事件作出的公開回應」。",
-        "comment-mcq-06": "「對 X 發表意見／評論」與本句語境不同。",
-        "comment-mcq-08": "「明確拒絕公開回答或表示立場；無可奉告」與本句語境不同。",
-        "comment-mcq-05": "「就某件事表達看法、觀察或評價」與本句語境不同。",
-        "comment-mcq-09": "「對作品、作業或草稿提出的評語／批註」與本句語境不同。",
-        "comment-mcq-04": "「在網上內容下方發表文字回應」與本句語境不同。"
+        "comment-mcq-07": "本句的「comment」指「機構／人士對事件作出的公開回應」。",
+        "comment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-07"
     },
@@ -720,11 +692,9 @@ export default {
       "masked": "Officials declined to ____.",
       "options": [
         "comment-mcq-07",
-        "comment-mcq-06",
-        "comment-mcq-08",
-        "comment-mcq-05",
-        "comment-mcq-09",
-        "comment-mcq-04"
+        "comment-mcq-24",
+        "comment-mcq-15",
+        "comment-mcq-21"
       ],
       "explanation": "本句的「comment」指「機構／人士對事件作出的公開回應」。",
       "sentenceIndex": 31,
@@ -733,12 +703,10 @@ export default {
         "comment"
       ],
       "optionReasons": {
-        "comment-mcq-07": "本句指「機構／人士對事件作出的公開回應」。",
-        "comment-mcq-06": "「對 X 發表意見／評論」與本句語境不同。",
-        "comment-mcq-08": "「明確拒絕公開回答或表示立場；無可奉告」與本句語境不同。",
-        "comment-mcq-05": "「就某件事表達看法、觀察或評價」與本句語境不同。",
-        "comment-mcq-09": "「對作品、作業或草稿提出的評語／批註」與本句語境不同。",
-        "comment-mcq-04": "「在網上內容下方發表文字回應」與本句語境不同。"
+        "comment-mcq-07": "本句的「comment」指「機構／人士對事件作出的公開回應」。",
+        "comment-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-07"
     },
@@ -750,11 +718,9 @@ export default {
       "masked": "When asked about the rumours, he said, ‘____.",
       "options": [
         "comment-mcq-08",
-        "comment-mcq-07",
-        "comment-mcq-09",
-        "comment-mcq-06",
         "comment-mcq-10",
-        "comment-mcq-05"
+        "comment-mcq-03",
+        "comment-mcq-25"
       ],
       "explanation": "本句的「No comment」指「明確拒絕公開回答或表示立場；無可奉告」。",
       "sentenceIndex": 32,
@@ -763,12 +729,10 @@ export default {
         "No comment"
       ],
       "optionReasons": {
-        "comment-mcq-08": "本句指「明確拒絕公開回答或表示立場；無可奉告」。",
-        "comment-mcq-07": "「機構／人士對事件作出的公開回應」與本句語境不同。",
-        "comment-mcq-09": "「對作品、作業或草稿提出的評語／批註」與本句語境不同。",
-        "comment-mcq-06": "「對 X 發表意見／評論」與本句語境不同。",
-        "comment-mcq-10": "「附加於文件某處、不直接成為正文的審閱註解」與本句語境不同。",
-        "comment-mcq-05": "「就某件事表達看法、觀察或評價」與本句語境不同。"
+        "comment-mcq-08": "本句的「No comment」指「明確拒絕公開回答或表示立場；無可奉告」。",
+        "comment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-08"
     },
@@ -780,11 +744,9 @@ export default {
       "masked": "The company had no ____ on the report.",
       "options": [
         "comment-mcq-08",
-        "comment-mcq-07",
-        "comment-mcq-09",
-        "comment-mcq-06",
-        "comment-mcq-10",
-        "comment-mcq-05"
+        "comment-mcq-25",
+        "comment-mcq-26",
+        "comment-mcq-15"
       ],
       "explanation": "本句的「comment」指「明確拒絕公開回答或表示立場；無可奉告」。",
       "sentenceIndex": 33,
@@ -793,12 +755,10 @@ export default {
         "comment"
       ],
       "optionReasons": {
-        "comment-mcq-08": "本句指「明確拒絕公開回答或表示立場；無可奉告」。",
-        "comment-mcq-07": "「機構／人士對事件作出的公開回應」與本句語境不同。",
-        "comment-mcq-09": "「對作品、作業或草稿提出的評語／批註」與本句語境不同。",
-        "comment-mcq-06": "「對 X 發表意見／評論」與本句語境不同。",
-        "comment-mcq-10": "「附加於文件某處、不直接成為正文的審閱註解」與本句語境不同。",
-        "comment-mcq-05": "「就某件事表達看法、觀察或評價」與本句語境不同。"
+        "comment-mcq-08": "本句的「comment」指「明確拒絕公開回答或表示立場；無可奉告」。",
+        "comment-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-08"
     },
@@ -810,11 +770,9 @@ export default {
       "masked": "I added a ____ to the document.",
       "options": [
         "comment-mcq-10",
-        "comment-mcq-09",
-        "comment-mcq-11",
+        "comment-mcq-03",
         "comment-mcq-08",
-        "comment-mcq-12",
-        "comment-mcq-07"
+        "comment-mcq-23"
       ],
       "explanation": "本句的「comment」指「附加於文件某處、不直接成為正文的審閱註解」。",
       "sentenceIndex": 50,
@@ -823,12 +781,10 @@ export default {
         "comment"
       ],
       "optionReasons": {
-        "comment-mcq-10": "本句指「附加於文件某處、不直接成為正文的審閱註解」。",
-        "comment-mcq-09": "「對作品、作業或草稿提出的評語／批註」與本句語境不同。",
-        "comment-mcq-11": "「程式碼中供人閱讀、通常不由程式執行的說明文字」與本句語境不同。",
-        "comment-mcq-08": "「明確拒絕公開回答或表示立場；無可奉告」與本句語境不同。",
-        "comment-mcq-12": "「用註解符號令一段程式碼暫時不被執行」與本句語境不同。",
-        "comment-mcq-07": "「機構／人士對事件作出的公開回應」與本句語境不同。"
+        "comment-mcq-10": "本句的「comment」指「附加於文件某處、不直接成為正文的審閱註解」。",
+        "comment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-10"
     },
@@ -840,11 +796,9 @@ export default {
       "masked": "Click the ____ to see the reviewer’s note.",
       "options": [
         "comment-mcq-10",
-        "comment-mcq-09",
-        "comment-mcq-11",
-        "comment-mcq-08",
-        "comment-mcq-12",
-        "comment-mcq-07"
+        "comment-mcq-03",
+        "comment-mcq-23",
+        "comment-mcq-08"
       ],
       "explanation": "本句的「comment」指「附加於文件某處、不直接成為正文的審閱註解」。",
       "sentenceIndex": 51,
@@ -853,12 +807,10 @@ export default {
         "comment"
       ],
       "optionReasons": {
-        "comment-mcq-10": "本句指「附加於文件某處、不直接成為正文的審閱註解」。",
-        "comment-mcq-09": "「對作品、作業或草稿提出的評語／批註」與本句語境不同。",
-        "comment-mcq-11": "「程式碼中供人閱讀、通常不由程式執行的說明文字」與本句語境不同。",
-        "comment-mcq-08": "「明確拒絕公開回答或表示立場；無可奉告」與本句語境不同。",
-        "comment-mcq-12": "「用註解符號令一段程式碼暫時不被執行」與本句語境不同。",
-        "comment-mcq-07": "「機構／人士對事件作出的公開回應」與本句語境不同。"
+        "comment-mcq-10": "本句的「comment」指「附加於文件某處、不直接成為正文的審閱註解」。",
+        "comment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-10"
     },
@@ -870,11 +822,9 @@ export default {
       "masked": "The ____ is outdated.",
       "options": [
         "comment-mcq-11",
-        "comment-mcq-10",
-        "comment-mcq-12",
-        "comment-mcq-09",
-        "comment-mcq-13",
-        "comment-mcq-08"
+        "comment-mcq-20",
+        "comment-mcq-25",
+        "comment-mcq-26"
       ],
       "explanation": "本句的「code comment」指「程式碼中供人閱讀、通常不由程式執行的說明文字」。",
       "sentenceIndex": 58,
@@ -883,12 +833,10 @@ export default {
         "code comment"
       ],
       "optionReasons": {
-        "comment-mcq-11": "本句指「程式碼中供人閱讀、通常不由程式執行的說明文字」。",
-        "comment-mcq-10": "「附加於文件某處、不直接成為正文的審閱註解」與本句語境不同。",
-        "comment-mcq-12": "「用註解符號令一段程式碼暫時不被執行」與本句語境不同。",
-        "comment-mcq-09": "「對作品、作業或草稿提出的評語／批註」與本句語境不同。",
-        "comment-mcq-13": "「對正在發生的比賽／事件持續進行描述和分析」與本句語境不同。",
-        "comment-mcq-08": "「明確拒絕公開回答或表示立場；無可奉告」與本句語境不同。"
+        "comment-mcq-11": "本句的「code comment」指「程式碼中供人閱讀、通常不由程式執行的說明文字」。",
+        "comment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-11"
     },
@@ -900,11 +848,9 @@ export default {
       "masked": "Remove unnecessary code ____.",
       "options": [
         "comment-mcq-11",
-        "comment-mcq-10",
-        "comment-mcq-12",
-        "comment-mcq-09",
-        "comment-mcq-13",
-        "comment-mcq-08"
+        "comment-mcq-07",
+        "comment-mcq-25",
+        "comment-mcq-26"
       ],
       "explanation": "本句的「comments」指「程式碼中供人閱讀、通常不由程式執行的說明文字」。",
       "sentenceIndex": 59,
@@ -913,12 +859,10 @@ export default {
         "comments"
       ],
       "optionReasons": {
-        "comment-mcq-11": "本句指「程式碼中供人閱讀、通常不由程式執行的說明文字」。",
-        "comment-mcq-10": "「附加於文件某處、不直接成為正文的審閱註解」與本句語境不同。",
-        "comment-mcq-12": "「用註解符號令一段程式碼暫時不被執行」與本句語境不同。",
-        "comment-mcq-09": "「對作品、作業或草稿提出的評語／批註」與本句語境不同。",
-        "comment-mcq-13": "「對正在發生的比賽／事件持續進行描述和分析」與本句語境不同。",
-        "comment-mcq-08": "「明確拒絕公開回答或表示立場；無可奉告」與本句語境不同。"
+        "comment-mcq-11": "本句的「comments」指「程式碼中供人閱讀、通常不由程式執行的說明文字」。",
+        "comment-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-11"
     },
@@ -930,11 +874,9 @@ export default {
       "masked": "Try ____ this line.",
       "options": [
         "comment-mcq-12",
-        "comment-mcq-11",
-        "comment-mcq-13",
-        "comment-mcq-10",
-        "comment-mcq-14",
-        "comment-mcq-09"
+        "comment-mcq-28",
+        "comment-mcq-08",
+        "comment-mcq-23"
       ],
       "explanation": "本句的「commenting out」指「用註解符號令一段程式碼暫時不被執行」。",
       "sentenceIndex": 60,
@@ -943,12 +885,10 @@ export default {
         "commenting out"
       ],
       "optionReasons": {
-        "comment-mcq-12": "本句指「用註解符號令一段程式碼暫時不被執行」。",
-        "comment-mcq-11": "「程式碼中供人閱讀、通常不由程式執行的說明文字」與本句語境不同。",
-        "comment-mcq-13": "「對正在發生的比賽／事件持續進行描述和分析」與本句語境不同。",
-        "comment-mcq-10": "「附加於文件某處、不直接成為正文的審閱註解」與本句語境不同。",
-        "comment-mcq-14": "「對某議題作較深入、持續的分析與評論」與本句語境不同。",
-        "comment-mcq-09": "「對作品、作業或草稿提出的評語／批註」與本句語境不同。"
+        "comment-mcq-12": "本句的「commenting out」指「用註解符號令一段程式碼暫時不被執行」。",
+        "comment-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-12"
     },
@@ -960,11 +900,9 @@ export default {
       "masked": "The developer ____ out the old code instead of deleting it.",
       "options": [
         "comment-mcq-12",
-        "comment-mcq-11",
-        "comment-mcq-13",
-        "comment-mcq-10",
-        "comment-mcq-14",
-        "comment-mcq-09"
+        "comment-mcq-26",
+        "comment-mcq-23",
+        "comment-mcq-20"
       ],
       "explanation": "本句的「commented」指「用註解符號令一段程式碼暫時不被執行」。",
       "sentenceIndex": 61,
@@ -973,12 +911,10 @@ export default {
         "commented"
       ],
       "optionReasons": {
-        "comment-mcq-12": "本句指「用註解符號令一段程式碼暫時不被執行」。",
-        "comment-mcq-11": "「程式碼中供人閱讀、通常不由程式執行的說明文字」與本句語境不同。",
-        "comment-mcq-13": "「對正在發生的比賽／事件持續進行描述和分析」與本句語境不同。",
-        "comment-mcq-10": "「附加於文件某處、不直接成為正文的審閱註解」與本句語境不同。",
-        "comment-mcq-14": "「對某議題作較深入、持續的分析與評論」與本句語境不同。",
-        "comment-mcq-09": "「對作品、作業或草稿提出的評語／批註」與本句語境不同。"
+        "comment-mcq-12": "本句的「commented」指「用註解符號令一段程式碼暫時不被執行」。",
+        "comment-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-12"
     },
@@ -990,10 +926,8 @@ export default {
       "masked": "The film contains strong ____.",
       "options": [
         "comment-mcq-15",
-        "comment-mcq-14",
-        "comment-mcq-16",
-        "comment-mcq-13",
-        "comment-mcq-17",
+        "comment-mcq-27",
+        "comment-mcq-01",
         "comment-mcq-12"
       ],
       "explanation": "本句的「social commentary」指「對社會現象、制度或文化所作的分析／批判」。",
@@ -1003,12 +937,10 @@ export default {
         "social commentary"
       ],
       "optionReasons": {
-        "comment-mcq-15": "本句指「對社會現象、制度或文化所作的分析／批判」。",
-        "comment-mcq-14": "「對某議題作較深入、持續的分析與評論」與本句語境不同。",
-        "comment-mcq-16": "「對文本作逐段或深入解釋的評註材料」與本句語境不同。",
-        "comment-mcq-13": "「對正在發生的比賽／事件持續進行描述和分析」與本句語境不同。",
-        "comment-mcq-17": "「專業／公開持續分析事件、比賽或議題的人」與本句語境不同。",
-        "comment-mcq-12": "「用註解符號令一段程式碼暫時不被執行」與本句語境不同。"
+        "comment-mcq-15": "本句的「social commentary」指「對社會現象、制度或文化所作的分析／批判」。",
+        "comment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-15"
     },
@@ -1020,10 +952,8 @@ export default {
       "masked": "Comedy can be a form of social ____.",
       "options": [
         "comment-mcq-15",
-        "comment-mcq-14",
-        "comment-mcq-16",
-        "comment-mcq-13",
-        "comment-mcq-17",
+        "comment-mcq-28",
+        "comment-mcq-08",
         "comment-mcq-12"
       ],
       "explanation": "本句的「commentary」指「對社會現象、制度或文化所作的分析／批判」。",
@@ -1033,12 +963,10 @@ export default {
         "commentary"
       ],
       "optionReasons": {
-        "comment-mcq-15": "本句指「對社會現象、制度或文化所作的分析／批判」。",
-        "comment-mcq-14": "「對某議題作較深入、持續的分析與評論」與本句語境不同。",
-        "comment-mcq-16": "「對文本作逐段或深入解釋的評註材料」與本句語境不同。",
-        "comment-mcq-13": "「對正在發生的比賽／事件持續進行描述和分析」與本句語境不同。",
-        "comment-mcq-17": "「專業／公開持續分析事件、比賽或議題的人」與本句語境不同。",
-        "comment-mcq-12": "「用註解符號令一段程式碼暫時不被執行」與本句語境不同。"
+        "comment-mcq-15": "本句的「commentary」指「對社會現象、制度或文化所作的分析／批判」。",
+        "comment-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-15"
     },
@@ -1050,11 +978,9 @@ export default {
       "masked": "The proposal is open for ____.",
       "options": [
         "comment-mcq-20",
-        "comment-mcq-19",
-        "comment-mcq-21",
-        "comment-mcq-18",
-        "comment-mcq-22",
-        "comment-mcq-17"
+        "comment-mcq-28",
+        "comment-mcq-12",
+        "comment-mcq-23"
       ],
       "explanation": "本句的「public comment」指「公眾對政策、規則或提案正式提交的意見」。",
       "sentenceIndex": 97,
@@ -1063,12 +989,10 @@ export default {
         "public comment"
       ],
       "optionReasons": {
-        "comment-mcq-20": "本句指「公眾對政策、規則或提案正式提交的意見」。",
-        "comment-mcq-19": "「為比賽／事件作實況評述」與本句語境不同。",
-        "comment-mcq-21": "「表格中供填寫額外意見／備註的欄位」與本句語境不同。",
-        "comment-mcq-18": "「發表留言或評論的人，尤其網絡使用者」與本句語境不同。",
-        "comment-mcq-22": "「向相關人士要求公開回應／置評」與本句語境不同。",
-        "comment-mcq-17": "「專業／公開持續分析事件、比賽或議題的人」與本句語境不同。"
+        "comment-mcq-20": "本句的「public comment」指「公眾對政策、規則或提案正式提交的意見」。",
+        "comment-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-20"
     },
@@ -1080,11 +1004,9 @@ export default {
       "masked": "The agency received hundreds of public ____.",
       "options": [
         "comment-mcq-20",
-        "comment-mcq-19",
-        "comment-mcq-21",
-        "comment-mcq-18",
-        "comment-mcq-22",
-        "comment-mcq-17"
+        "comment-mcq-03",
+        "comment-mcq-23",
+        "comment-mcq-12"
       ],
       "explanation": "本句的「comments」指「公眾對政策、規則或提案正式提交的意見」。",
       "sentenceIndex": 98,
@@ -1093,12 +1015,10 @@ export default {
         "comments"
       ],
       "optionReasons": {
-        "comment-mcq-20": "本句指「公眾對政策、規則或提案正式提交的意見」。",
-        "comment-mcq-19": "「為比賽／事件作實況評述」與本句語境不同。",
-        "comment-mcq-21": "「表格中供填寫額外意見／備註的欄位」與本句語境不同。",
-        "comment-mcq-18": "「發表留言或評論的人，尤其網絡使用者」與本句語境不同。",
-        "comment-mcq-22": "「向相關人士要求公開回應／置評」與本句語境不同。",
-        "comment-mcq-17": "「專業／公開持續分析事件、比賽或議題的人」與本句語境不同。"
+        "comment-mcq-20": "本句的「comments」指「公眾對政策、規則或提案正式提交的意見」。",
+        "comment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-20"
     },
@@ -1110,11 +1030,9 @@ export default {
       "masked": "The ____ closes next month.",
       "options": [
         "comment-mcq-20",
-        "comment-mcq-19",
-        "comment-mcq-21",
-        "comment-mcq-18",
-        "comment-mcq-22",
-        "comment-mcq-17"
+        "comment-mcq-12",
+        "comment-mcq-03",
+        "comment-mcq-23"
       ],
       "explanation": "本句的「public comment period」指「公眾對政策、規則或提案正式提交的意見」。",
       "sentenceIndex": 99,
@@ -1123,12 +1041,10 @@ export default {
         "public comment period"
       ],
       "optionReasons": {
-        "comment-mcq-20": "本句指「公眾對政策、規則或提案正式提交的意見」。",
-        "comment-mcq-19": "「為比賽／事件作實況評述」與本句語境不同。",
-        "comment-mcq-21": "「表格中供填寫額外意見／備註的欄位」與本句語境不同。",
-        "comment-mcq-18": "「發表留言或評論的人，尤其網絡使用者」與本句語境不同。",
-        "comment-mcq-22": "「向相關人士要求公開回應／置評」與本句語境不同。",
-        "comment-mcq-17": "「專業／公開持續分析事件、比賽或議題的人」與本句語境不同。"
+        "comment-mcq-20": "本句的「public comment period」指「公眾對政策、規則或提案正式提交的意見」。",
+        "comment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-20"
     },
@@ -1140,11 +1056,9 @@ export default {
       "masked": "Changes may be made after the public ____ period.",
       "options": [
         "comment-mcq-20",
-        "comment-mcq-19",
-        "comment-mcq-21",
-        "comment-mcq-18",
-        "comment-mcq-22",
-        "comment-mcq-17"
+        "comment-mcq-12",
+        "comment-mcq-27",
+        "comment-mcq-04"
       ],
       "explanation": "本句的「comment」指「公眾對政策、規則或提案正式提交的意見」。",
       "sentenceIndex": 100,
@@ -1153,12 +1067,10 @@ export default {
         "comment"
       ],
       "optionReasons": {
-        "comment-mcq-20": "本句指「公眾對政策、規則或提案正式提交的意見」。",
-        "comment-mcq-19": "「為比賽／事件作實況評述」與本句語境不同。",
-        "comment-mcq-21": "「表格中供填寫額外意見／備註的欄位」與本句語境不同。",
-        "comment-mcq-18": "「發表留言或評論的人，尤其網絡使用者」與本句語境不同。",
-        "comment-mcq-22": "「向相關人士要求公開回應／置評」與本句語境不同。",
-        "comment-mcq-17": "「專業／公開持續分析事件、比賽或議題的人」與本句語境不同。"
+        "comment-mcq-20": "本句的「comment」指「公眾對政策、規則或提案正式提交的意見」。",
+        "comment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-20"
     },
@@ -1170,11 +1082,9 @@ export default {
       "masked": "Add any extra information in the ____.",
       "options": [
         "comment-mcq-21",
-        "comment-mcq-20",
-        "comment-mcq-22",
-        "comment-mcq-19",
+        "comment-mcq-28",
         "comment-mcq-23",
-        "comment-mcq-18"
+        "comment-mcq-15"
       ],
       "explanation": "本句的「comments box」指「表格中供填寫額外意見／備註的欄位」。",
       "sentenceIndex": 105,
@@ -1183,12 +1093,10 @@ export default {
         "comments box"
       ],
       "optionReasons": {
-        "comment-mcq-21": "本句指「表格中供填寫額外意見／備註的欄位」。",
-        "comment-mcq-20": "「公眾對政策、規則或提案正式提交的意見」與本句語境不同。",
-        "comment-mcq-22": "「向相關人士要求公開回應／置評」與本句語境不同。",
-        "comment-mcq-19": "「為比賽／事件作實況評述」與本句語境不同。",
-        "comment-mcq-23": "「隨口說出、原本沒有打算認真強調的評論」與本句語境不同。",
-        "comment-mcq-18": "「發表留言或評論的人，尤其網絡使用者」與本句語境不同。"
+        "comment-mcq-21": "本句的「comments box」指「表格中供填寫額外意見／備註的欄位」。",
+        "comment-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-21"
     },
@@ -1200,11 +1108,9 @@ export default {
       "masked": "The form includes a ____ field.",
       "options": [
         "comment-mcq-21",
-        "comment-mcq-20",
-        "comment-mcq-22",
-        "comment-mcq-19",
         "comment-mcq-23",
-        "comment-mcq-18"
+        "comment-mcq-07",
+        "comment-mcq-03"
       ],
       "explanation": "本句的「comments」指「表格中供填寫額外意見／備註的欄位」。",
       "sentenceIndex": 106,
@@ -1213,12 +1119,10 @@ export default {
         "comments"
       ],
       "optionReasons": {
-        "comment-mcq-21": "本句指「表格中供填寫額外意見／備註的欄位」。",
-        "comment-mcq-20": "「公眾對政策、規則或提案正式提交的意見」與本句語境不同。",
-        "comment-mcq-22": "「向相關人士要求公開回應／置評」與本句語境不同。",
-        "comment-mcq-19": "「為比賽／事件作實況評述」與本句語境不同。",
-        "comment-mcq-23": "「隨口說出、原本沒有打算認真強調的評論」與本句語境不同。",
-        "comment-mcq-18": "「發表留言或評論的人，尤其網絡使用者」與本句語境不同。"
+        "comment-mcq-21": "本句的「comments」指「表格中供填寫額外意見／備註的欄位」。",
+        "comment-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-21"
     },
@@ -1230,11 +1134,9 @@ export default {
       "masked": "A ____ stayed in her mind.",
       "options": [
         "comment-mcq-23",
-        "comment-mcq-22",
-        "comment-mcq-24",
+        "comment-mcq-12",
         "comment-mcq-21",
-        "comment-mcq-25",
-        "comment-mcq-20"
+        "comment-mcq-15"
       ],
       "explanation": "本句的「throwaway comment」指「隨口說出、原本沒有打算認真強調的評論」。",
       "sentenceIndex": 114,
@@ -1243,12 +1145,10 @@ export default {
         "throwaway comment"
       ],
       "optionReasons": {
-        "comment-mcq-23": "本句指「隨口說出、原本沒有打算認真強調的評論」。",
-        "comment-mcq-22": "「向相關人士要求公開回應／置評」與本句語境不同。",
-        "comment-mcq-24": "「尖銳而帶有明確暗示／批評意味的評論」與本句語境不同。",
-        "comment-mcq-21": "「表格中供填寫額外意見／備註的欄位」與本句語境不同。",
-        "comment-mcq-25": "「連續不斷地描述／評論正在發生的事情」與本句語境不同。",
-        "comment-mcq-20": "「公眾對政策、規則或提案正式提交的意見」與本句語境不同。"
+        "comment-mcq-23": "本句的「throwaway comment」指「隨口說出、原本沒有打算認真強調的評論」。",
+        "comment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-23"
     },
@@ -1260,11 +1160,9 @@ export default {
       "masked": "He did not intend the ____ to be taken seriously.",
       "options": [
         "comment-mcq-23",
-        "comment-mcq-22",
-        "comment-mcq-24",
-        "comment-mcq-21",
-        "comment-mcq-25",
-        "comment-mcq-20"
+        "comment-mcq-15",
+        "comment-mcq-12",
+        "comment-mcq-03"
       ],
       "explanation": "本句的「comment」指「隨口說出、原本沒有打算認真強調的評論」。",
       "sentenceIndex": 115,
@@ -1273,12 +1171,10 @@ export default {
         "comment"
       ],
       "optionReasons": {
-        "comment-mcq-23": "本句指「隨口說出、原本沒有打算認真強調的評論」。",
-        "comment-mcq-22": "「向相關人士要求公開回應／置評」與本句語境不同。",
-        "comment-mcq-24": "「尖銳而帶有明確暗示／批評意味的評論」與本句語境不同。",
-        "comment-mcq-21": "「表格中供填寫額外意見／備註的欄位」與本句語境不同。",
-        "comment-mcq-25": "「連續不斷地描述／評論正在發生的事情」與本句語境不同。",
-        "comment-mcq-20": "「公眾對政策、規則或提案正式提交的意見」與本句語境不同。"
+        "comment-mcq-23": "本句的「comment」指「隨口說出、原本沒有打算認真強調的評論」。",
+        "comment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-23"
     },
@@ -1290,11 +1186,9 @@ export default {
       "masked": "She made a ____ about his lateness.",
       "options": [
         "comment-mcq-24",
-        "comment-mcq-23",
-        "comment-mcq-25",
-        "comment-mcq-22",
-        "comment-mcq-26",
-        "comment-mcq-21"
+        "comment-mcq-03",
+        "comment-mcq-10",
+        "comment-mcq-07"
       ],
       "explanation": "本句的「pointed comment」指「尖銳而帶有明確暗示／批評意味的評論」。",
       "sentenceIndex": 116,
@@ -1303,12 +1197,10 @@ export default {
         "pointed comment"
       ],
       "optionReasons": {
-        "comment-mcq-24": "本句指「尖銳而帶有明確暗示／批評意味的評論」。",
-        "comment-mcq-23": "「隨口說出、原本沒有打算認真強調的評論」與本句語境不同。",
-        "comment-mcq-25": "「連續不斷地描述／評論正在發生的事情」與本句語境不同。",
-        "comment-mcq-22": "「向相關人士要求公開回應／置評」與本句語境不同。",
-        "comment-mcq-26": "「審核、管理及移除不適當網上留言的工作」與本句語境不同。",
-        "comment-mcq-21": "「表格中供填寫額外意見／備註的欄位」與本句語境不同。"
+        "comment-mcq-24": "本句的「pointed comment」指「尖銳而帶有明確暗示／批評意味的評論」。",
+        "comment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-24"
     },
@@ -1320,11 +1212,9 @@ export default {
       "masked": "He gave a ____ on everything that happened.",
       "options": [
         "comment-mcq-25",
-        "comment-mcq-24",
-        "comment-mcq-26",
-        "comment-mcq-23",
-        "comment-mcq-27",
-        "comment-mcq-22"
+        "comment-mcq-03",
+        "comment-mcq-08",
+        "comment-mcq-15"
       ],
       "explanation": "本句的「running commentary」指「連續不斷地描述／評論正在發生的事情」。",
       "sentenceIndex": 117,
@@ -1333,12 +1223,10 @@ export default {
         "running commentary"
       ],
       "optionReasons": {
-        "comment-mcq-25": "本句指「連續不斷地描述／評論正在發生的事情」。",
-        "comment-mcq-24": "「尖銳而帶有明確暗示／批評意味的評論」與本句語境不同。",
-        "comment-mcq-26": "「審核、管理及移除不適當網上留言的工作」與本句語境不同。",
-        "comment-mcq-23": "「隨口說出、原本沒有打算認真強調的評論」與本句語境不同。",
-        "comment-mcq-27": "「由主留言及後續回覆形成的討論串」與本句語境不同。",
-        "comment-mcq-22": "「向相關人士要求公開回應／置評」與本句語境不同。"
+        "comment-mcq-25": "本句的「running commentary」指「連續不斷地描述／評論正在發生的事情」。",
+        "comment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-25"
     },
@@ -1350,11 +1238,9 @@ export default {
       "masked": "I do not need a running ____ on my driving.",
       "options": [
         "comment-mcq-25",
-        "comment-mcq-24",
-        "comment-mcq-26",
-        "comment-mcq-23",
-        "comment-mcq-27",
-        "comment-mcq-22"
+        "comment-mcq-28",
+        "comment-mcq-21",
+        "comment-mcq-15"
       ],
       "explanation": "本句的「commentary」指「連續不斷地描述／評論正在發生的事情」。",
       "sentenceIndex": 118,
@@ -1363,12 +1249,10 @@ export default {
         "commentary"
       ],
       "optionReasons": {
-        "comment-mcq-25": "本句指「連續不斷地描述／評論正在發生的事情」。",
-        "comment-mcq-24": "「尖銳而帶有明確暗示／批評意味的評論」與本句語境不同。",
-        "comment-mcq-26": "「審核、管理及移除不適當網上留言的工作」與本句語境不同。",
-        "comment-mcq-23": "「隨口說出、原本沒有打算認真強調的評論」與本句語境不同。",
-        "comment-mcq-27": "「由主留言及後續回覆形成的討論串」與本句語境不同。",
-        "comment-mcq-22": "「向相關人士要求公開回應／置評」與本句語境不同。"
+        "comment-mcq-25": "本句的「commentary」指「連續不斷地描述／評論正在發生的事情」。",
+        "comment-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-25"
     },
@@ -1380,11 +1264,9 @@ export default {
       "masked": "The platform uses automatic ____.",
       "options": [
         "comment-mcq-26",
-        "comment-mcq-25",
-        "comment-mcq-27",
-        "comment-mcq-24",
-        "comment-mcq-28",
-        "comment-mcq-23"
+        "comment-mcq-12",
+        "comment-mcq-23",
+        "comment-mcq-08"
       ],
       "explanation": "本句的「comment moderation」指「審核、管理及移除不適當網上留言的工作」。",
       "sentenceIndex": 121,
@@ -1393,12 +1275,10 @@ export default {
         "comment moderation"
       ],
       "optionReasons": {
-        "comment-mcq-26": "本句指「審核、管理及移除不適當網上留言的工作」。",
-        "comment-mcq-25": "「連續不斷地描述／評論正在發生的事情」與本句語境不同。",
-        "comment-mcq-27": "「由主留言及後續回覆形成的討論串」與本句語境不同。",
-        "comment-mcq-24": "「尖銳而帶有明確暗示／批評意味的評論」與本句語境不同。",
-        "comment-mcq-28": "「某篇內容收到的留言總數」與本句語境不同。",
-        "comment-mcq-23": "「隨口說出、原本沒有打算認真強調的評論」與本句語境不同。"
+        "comment-mcq-26": "本句的「comment moderation」指「審核、管理及移除不適當網上留言的工作」。",
+        "comment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-26"
     },
@@ -1410,11 +1290,9 @@ export default {
       "masked": "____ moderation can reduce abusive content.",
       "options": [
         "comment-mcq-26",
-        "comment-mcq-25",
-        "comment-mcq-27",
-        "comment-mcq-24",
-        "comment-mcq-28",
-        "comment-mcq-23"
+        "comment-mcq-12",
+        "comment-mcq-01",
+        "comment-mcq-15"
       ],
       "explanation": "本句的「Comment」指「審核、管理及移除不適當網上留言的工作」。",
       "sentenceIndex": 122,
@@ -1423,12 +1301,10 @@ export default {
         "Comment"
       ],
       "optionReasons": {
-        "comment-mcq-26": "本句指「審核、管理及移除不適當網上留言的工作」。",
-        "comment-mcq-25": "「連續不斷地描述／評論正在發生的事情」與本句語境不同。",
-        "comment-mcq-27": "「由主留言及後續回覆形成的討論串」與本句語境不同。",
-        "comment-mcq-24": "「尖銳而帶有明確暗示／批評意味的評論」與本句語境不同。",
-        "comment-mcq-28": "「某篇內容收到的留言總數」與本句語境不同。",
-        "comment-mcq-23": "「隨口說出、原本沒有打算認真強調的評論」與本句語境不同。"
+        "comment-mcq-26": "本句的「Comment」指「審核、管理及移除不適當網上留言的工作」。",
+        "comment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-26"
     },
@@ -1440,11 +1316,9 @@ export default {
       "masked": "An argument started in the ____.",
       "options": [
         "comment-mcq-27",
-        "comment-mcq-26",
-        "comment-mcq-28",
-        "comment-mcq-25",
-        "comment-mcq-24",
-        "comment-mcq-23"
+        "comment-mcq-20",
+        "comment-mcq-12",
+        "comment-mcq-07"
       ],
       "explanation": "本句的「comment thread」指「由主留言及後續回覆形成的討論串」。",
       "sentenceIndex": 125,
@@ -1453,12 +1327,10 @@ export default {
         "comment thread"
       ],
       "optionReasons": {
-        "comment-mcq-27": "本句指「由主留言及後續回覆形成的討論串」。",
-        "comment-mcq-26": "「審核、管理及移除不適當網上留言的工作」與本句語境不同。",
-        "comment-mcq-28": "「某篇內容收到的留言總數」與本句語境不同。",
-        "comment-mcq-25": "「連續不斷地描述／評論正在發生的事情」與本句語境不同。",
-        "comment-mcq-24": "「尖銳而帶有明確暗示／批評意味的評論」與本句語境不同。",
-        "comment-mcq-23": "「隨口說出、原本沒有打算認真強調的評論」與本句語境不同。"
+        "comment-mcq-27": "本句的「comment thread」指「由主留言及後續回覆形成的討論串」。",
+        "comment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-27"
     },
@@ -1470,11 +1342,9 @@ export default {
       "masked": "The ____ rose rapidly.",
       "options": [
         "comment-mcq-28",
-        "comment-mcq-27",
-        "comment-mcq-26",
-        "comment-mcq-25",
-        "comment-mcq-24",
-        "comment-mcq-23"
+        "comment-mcq-08",
+        "comment-mcq-15",
+        "comment-mcq-12"
       ],
       "explanation": "本句的「comment count」指「某篇內容收到的留言總數」。",
       "sentenceIndex": 128,
@@ -1483,12 +1353,10 @@ export default {
         "comment count"
       ],
       "optionReasons": {
-        "comment-mcq-28": "本句指「某篇內容收到的留言總數」。",
-        "comment-mcq-27": "「由主留言及後續回覆形成的討論串」與本句語境不同。",
-        "comment-mcq-26": "「審核、管理及移除不適當網上留言的工作」與本句語境不同。",
-        "comment-mcq-25": "「連續不斷地描述／評論正在發生的事情」與本句語境不同。",
-        "comment-mcq-24": "「尖銳而帶有明確暗示／批評意味的評論」與本句語境不同。",
-        "comment-mcq-23": "「隨口說出、原本沒有打算認真強調的評論」與本句語境不同。"
+        "comment-mcq-28": "本句的「comment count」指「某篇內容收到的留言總數」。",
+        "comment-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-28"
     },
@@ -1500,11 +1368,9 @@ export default {
       "masked": "A high ____ count can indicate strong engagement.",
       "options": [
         "comment-mcq-28",
-        "comment-mcq-27",
-        "comment-mcq-26",
+        "comment-mcq-08",
         "comment-mcq-25",
-        "comment-mcq-24",
-        "comment-mcq-23"
+        "comment-mcq-15"
       ],
       "explanation": "本句的「comment」指「某篇內容收到的留言總數」。",
       "sentenceIndex": 129,
@@ -1513,12 +1379,10 @@ export default {
         "comment"
       ],
       "optionReasons": {
-        "comment-mcq-28": "本句指「某篇內容收到的留言總數」。",
-        "comment-mcq-27": "「由主留言及後續回覆形成的討論串」與本句語境不同。",
-        "comment-mcq-26": "「審核、管理及移除不適當網上留言的工作」與本句語境不同。",
-        "comment-mcq-25": "「連續不斷地描述／評論正在發生的事情」與本句語境不同。",
-        "comment-mcq-24": "「尖銳而帶有明確暗示／批評意味的評論」與本句語境不同。",
-        "comment-mcq-23": "「隨口說出、原本沒有打算認真強調的評論」與本句語境不同。"
+        "comment-mcq-28": "本句的「comment」指「某篇內容收到的留言總數」。",
+        "comment-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "comment-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comment-mcq-28"
     }
@@ -1530,5 +1394,7 @@ export default {
     "sha256": "4517a853e3d8ce1bc0ca7104c090b5adbe4ac042163c202771cd832c8c4a73d9",
     "pages": 42
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

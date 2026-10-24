@@ -162,11 +162,7 @@ export default {
       "masked": "The village lies ____ the river.",
       "options": [
         "beyond-mcq-01",
-        "beyond-mcq-02",
-        "beyond-mcq-03",
-        "beyond-mcq-04",
-        "beyond-mcq-05",
-        "beyond-mcq-06"
+        "beyond-mcq-02"
       ],
       "explanation": "本句的「beyond」指「在某個地點、界線或範圍更遠的一邊；在……之外」。",
       "sentenceIndex": 0,
@@ -175,12 +171,8 @@ export default {
         "beyond"
       ],
       "optionReasons": {
-        "beyond-mcq-01": "本句指「在某個地點、界線或範圍更遠的一邊；在……之外」。",
-        "beyond-mcq-02": "「超過或晚於某個時間點」與本句語境不同。",
-        "beyond-mcq-03": "「超出某個能力、程度、控制、範圍或界線」與本句語境不同。",
-        "beyond-mcq-04": "「除了某件事之外；在某事以外」與本句語境不同。",
-        "beyond-mcq-05": "「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」與本句語境不同。",
-        "beyond-mcq-06": "「超出某件事情原本的範圍、作用或意義」與本句語境不同。"
+        "beyond-mcq-01": "本句的「beyond」指「在某個地點、界線或範圍更遠的一邊；在……之外」。",
+        "beyond-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beyond-mcq-01"
     },
@@ -192,11 +184,7 @@ export default {
       "masked": "We could see mountains ____ the town.",
       "options": [
         "beyond-mcq-01",
-        "beyond-mcq-02",
-        "beyond-mcq-03",
-        "beyond-mcq-04",
-        "beyond-mcq-05",
-        "beyond-mcq-06"
+        "beyond-mcq-02"
       ],
       "explanation": "本句的「beyond」指「在某個地點、界線或範圍更遠的一邊；在……之外」。",
       "sentenceIndex": 1,
@@ -205,12 +193,8 @@ export default {
         "beyond"
       ],
       "optionReasons": {
-        "beyond-mcq-01": "本句指「在某個地點、界線或範圍更遠的一邊；在……之外」。",
-        "beyond-mcq-02": "「超過或晚於某個時間點」與本句語境不同。",
-        "beyond-mcq-03": "「超出某個能力、程度、控制、範圍或界線」與本句語境不同。",
-        "beyond-mcq-04": "「除了某件事之外；在某事以外」與本句語境不同。",
-        "beyond-mcq-05": "「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」與本句語境不同。",
-        "beyond-mcq-06": "「超出某件事情原本的範圍、作用或意義」與本句語境不同。"
+        "beyond-mcq-01": "本句的「beyond」指「在某個地點、界線或範圍更遠的一邊；在……之外」。",
+        "beyond-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beyond-mcq-01"
     },
@@ -222,11 +206,8 @@ export default {
       "masked": "The meeting continued ____ midnight.",
       "options": [
         "beyond-mcq-02",
-        "beyond-mcq-01",
-        "beyond-mcq-03",
         "beyond-mcq-04",
-        "beyond-mcq-05",
-        "beyond-mcq-06"
+        "beyond-mcq-03"
       ],
       "explanation": "本句的「beyond」指「超過或晚於某個時間點」。",
       "sentenceIndex": 2,
@@ -235,12 +216,9 @@ export default {
         "beyond"
       ],
       "optionReasons": {
-        "beyond-mcq-02": "本句指「超過或晚於某個時間點」。",
-        "beyond-mcq-01": "「在某個地點、界線或範圍更遠的一邊；在……之外」與本句語境不同。",
-        "beyond-mcq-03": "「超出某個能力、程度、控制、範圍或界線」與本句語境不同。",
-        "beyond-mcq-04": "「除了某件事之外；在某事以外」與本句語境不同。",
-        "beyond-mcq-05": "「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」與本句語境不同。",
-        "beyond-mcq-06": "「超出某件事情原本的範圍、作用或意義」與本句語境不同。"
+        "beyond-mcq-02": "本句的「beyond」指「超過或晚於某個時間點」。",
+        "beyond-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beyond-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beyond-mcq-02"
     },
@@ -252,11 +230,8 @@ export default {
       "masked": "The shop stayed open ____ its usual closing time.",
       "options": [
         "beyond-mcq-02",
-        "beyond-mcq-01",
-        "beyond-mcq-03",
         "beyond-mcq-04",
-        "beyond-mcq-05",
-        "beyond-mcq-06"
+        "beyond-mcq-03"
       ],
       "explanation": "本句的「beyond」指「超過或晚於某個時間點」。",
       "sentenceIndex": 3,
@@ -265,12 +240,9 @@ export default {
         "beyond"
       ],
       "optionReasons": {
-        "beyond-mcq-02": "本句指「超過或晚於某個時間點」。",
-        "beyond-mcq-01": "「在某個地點、界線或範圍更遠的一邊；在……之外」與本句語境不同。",
-        "beyond-mcq-03": "「超出某個能力、程度、控制、範圍或界線」與本句語境不同。",
-        "beyond-mcq-04": "「除了某件事之外；在某事以外」與本句語境不同。",
-        "beyond-mcq-05": "「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」與本句語境不同。",
-        "beyond-mcq-06": "「超出某件事情原本的範圍、作用或意義」與本句語境不同。"
+        "beyond-mcq-02": "本句的「beyond」指「超過或晚於某個時間點」。",
+        "beyond-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beyond-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beyond-mcq-02"
     },
@@ -282,11 +254,8 @@ export default {
       "masked": "The lesson goes far ____ repairing a bicycle.",
       "options": [
         "beyond-mcq-03",
-        "beyond-mcq-02",
         "beyond-mcq-04",
-        "beyond-mcq-01",
-        "beyond-mcq-05",
-        "beyond-mcq-06"
+        "beyond-mcq-02"
       ],
       "explanation": "本句的「beyond」指「超出某個能力、程度、控制、範圍或界線」。",
       "sentenceIndex": 4,
@@ -295,12 +264,9 @@ export default {
         "beyond"
       ],
       "optionReasons": {
-        "beyond-mcq-03": "本句指「超出某個能力、程度、控制、範圍或界線」。",
-        "beyond-mcq-02": "「超過或晚於某個時間點」與本句語境不同。",
-        "beyond-mcq-04": "「除了某件事之外；在某事以外」與本句語境不同。",
-        "beyond-mcq-01": "「在某個地點、界線或範圍更遠的一邊；在……之外」與本句語境不同。",
-        "beyond-mcq-05": "「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」與本句語境不同。",
-        "beyond-mcq-06": "「超出某件事情原本的範圍、作用或意義」與本句語境不同。"
+        "beyond-mcq-03": "本句的「beyond」指「超出某個能力、程度、控制、範圍或界線」。",
+        "beyond-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beyond-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beyond-mcq-03"
     },
@@ -312,11 +278,8 @@ export default {
       "masked": "The problem is ____ my control.",
       "options": [
         "beyond-mcq-03",
-        "beyond-mcq-02",
         "beyond-mcq-04",
-        "beyond-mcq-01",
-        "beyond-mcq-05",
-        "beyond-mcq-06"
+        "beyond-mcq-02"
       ],
       "explanation": "本句的「beyond」指「超出某個能力、程度、控制、範圍或界線」。",
       "sentenceIndex": 5,
@@ -325,12 +288,9 @@ export default {
         "beyond"
       ],
       "optionReasons": {
-        "beyond-mcq-03": "本句指「超出某個能力、程度、控制、範圍或界線」。",
-        "beyond-mcq-02": "「超過或晚於某個時間點」與本句語境不同。",
-        "beyond-mcq-04": "「除了某件事之外；在某事以外」與本句語境不同。",
-        "beyond-mcq-01": "「在某個地點、界線或範圍更遠的一邊；在……之外」與本句語境不同。",
-        "beyond-mcq-05": "「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」與本句語境不同。",
-        "beyond-mcq-06": "「超出某件事情原本的範圍、作用或意義」與本句語境不同。"
+        "beyond-mcq-03": "本句的「beyond」指「超出某個能力、程度、控制、範圍或界線」。",
+        "beyond-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beyond-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beyond-mcq-03"
     },
@@ -342,11 +302,8 @@ export default {
       "masked": "The damage was ____ repair.",
       "options": [
         "beyond-mcq-03",
-        "beyond-mcq-02",
         "beyond-mcq-04",
-        "beyond-mcq-01",
-        "beyond-mcq-05",
-        "beyond-mcq-06"
+        "beyond-mcq-02"
       ],
       "explanation": "本句的「beyond」指「超出某個能力、程度、控制、範圍或界線」。",
       "sentenceIndex": 6,
@@ -355,12 +312,9 @@ export default {
         "beyond"
       ],
       "optionReasons": {
-        "beyond-mcq-03": "本句指「超出某個能力、程度、控制、範圍或界線」。",
-        "beyond-mcq-02": "「超過或晚於某個時間點」與本句語境不同。",
-        "beyond-mcq-04": "「除了某件事之外；在某事以外」與本句語境不同。",
-        "beyond-mcq-01": "「在某個地點、界線或範圍更遠的一邊；在……之外」與本句語境不同。",
-        "beyond-mcq-05": "「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」與本句語境不同。",
-        "beyond-mcq-06": "「超出某件事情原本的範圍、作用或意義」與本句語境不同。"
+        "beyond-mcq-03": "本句的「beyond」指「超出某個能力、程度、控制、範圍或界線」。",
+        "beyond-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beyond-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beyond-mcq-03"
     },
@@ -372,11 +326,8 @@ export default {
       "masked": "The mathematics is ____ me.",
       "options": [
         "beyond-mcq-03",
-        "beyond-mcq-02",
         "beyond-mcq-04",
-        "beyond-mcq-01",
-        "beyond-mcq-05",
-        "beyond-mcq-06"
+        "beyond-mcq-02"
       ],
       "explanation": "本句的「beyond」指「超出某個能力、程度、控制、範圍或界線」。",
       "sentenceIndex": 7,
@@ -385,12 +336,9 @@ export default {
         "beyond"
       ],
       "optionReasons": {
-        "beyond-mcq-03": "本句指「超出某個能力、程度、控制、範圍或界線」。",
-        "beyond-mcq-02": "「超過或晚於某個時間點」與本句語境不同。",
-        "beyond-mcq-04": "「除了某件事之外；在某事以外」與本句語境不同。",
-        "beyond-mcq-01": "「在某個地點、界線或範圍更遠的一邊；在……之外」與本句語境不同。",
-        "beyond-mcq-05": "「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」與本句語境不同。",
-        "beyond-mcq-06": "「超出某件事情原本的範圍、作用或意義」與本句語境不同。"
+        "beyond-mcq-03": "本句的「beyond」指「超出某個能力、程度、控制、範圍或界線」。",
+        "beyond-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beyond-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beyond-mcq-03"
     },
@@ -402,11 +350,8 @@ export default {
       "masked": "That price is ____ our budget.",
       "options": [
         "beyond-mcq-03",
-        "beyond-mcq-02",
         "beyond-mcq-04",
-        "beyond-mcq-01",
-        "beyond-mcq-05",
-        "beyond-mcq-06"
+        "beyond-mcq-02"
       ],
       "explanation": "本句的「beyond」指「超出某個能力、程度、控制、範圍或界線」。",
       "sentenceIndex": 8,
@@ -415,12 +360,9 @@ export default {
         "beyond"
       ],
       "optionReasons": {
-        "beyond-mcq-03": "本句指「超出某個能力、程度、控制、範圍或界線」。",
-        "beyond-mcq-02": "「超過或晚於某個時間點」與本句語境不同。",
-        "beyond-mcq-04": "「除了某件事之外；在某事以外」與本句語境不同。",
-        "beyond-mcq-01": "「在某個地點、界線或範圍更遠的一邊；在……之外」與本句語境不同。",
-        "beyond-mcq-05": "「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」與本句語境不同。",
-        "beyond-mcq-06": "「超出某件事情原本的範圍、作用或意義」與本句語境不同。"
+        "beyond-mcq-03": "本句的「beyond」指「超出某個能力、程度、控制、範圍或界線」。",
+        "beyond-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beyond-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beyond-mcq-03"
     },
@@ -433,10 +375,7 @@ export default {
       "options": [
         "beyond-mcq-04",
         "beyond-mcq-03",
-        "beyond-mcq-05",
-        "beyond-mcq-02",
-        "beyond-mcq-06",
-        "beyond-mcq-01"
+        "beyond-mcq-02"
       ],
       "explanation": "本句的「beyond」指「除了某件事之外；在某事以外」。",
       "sentenceIndex": 9,
@@ -445,12 +384,9 @@ export default {
         "beyond"
       ],
       "optionReasons": {
-        "beyond-mcq-04": "本句指「除了某件事之外；在某事以外」。",
-        "beyond-mcq-03": "「超出某個能力、程度、控制、範圍或界線」與本句語境不同。",
-        "beyond-mcq-05": "「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」與本句語境不同。",
-        "beyond-mcq-02": "「超過或晚於某個時間點」與本句語境不同。",
-        "beyond-mcq-06": "「超出某件事情原本的範圍、作用或意義」與本句語境不同。",
-        "beyond-mcq-01": "「在某個地點、界線或範圍更遠的一邊；在……之外」與本句語境不同。"
+        "beyond-mcq-04": "本句的「beyond」指「除了某件事之外；在某事以外」。",
+        "beyond-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "beyond-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beyond-mcq-04"
     },
@@ -462,11 +398,8 @@ export default {
       "masked": "She has few interests ____ work.",
       "options": [
         "beyond-mcq-04",
-        "beyond-mcq-03",
-        "beyond-mcq-05",
         "beyond-mcq-02",
-        "beyond-mcq-06",
-        "beyond-mcq-01"
+        "beyond-mcq-03"
       ],
       "explanation": "本句的「beyond」指「除了某件事之外；在某事以外」。",
       "sentenceIndex": 10,
@@ -475,12 +408,9 @@ export default {
         "beyond"
       ],
       "optionReasons": {
-        "beyond-mcq-04": "本句指「除了某件事之外；在某事以外」。",
-        "beyond-mcq-03": "「超出某個能力、程度、控制、範圍或界線」與本句語境不同。",
-        "beyond-mcq-05": "「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」與本句語境不同。",
-        "beyond-mcq-02": "「超過或晚於某個時間點」與本句語境不同。",
-        "beyond-mcq-06": "「超出某件事情原本的範圍、作用或意義」與本句語境不同。",
-        "beyond-mcq-01": "「在某個地點、界線或範圍更遠的一邊；在……之外」與本句語境不同。"
+        "beyond-mcq-04": "本句的「beyond」指「除了某件事之外；在某事以外」。",
+        "beyond-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "beyond-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beyond-mcq-04"
     },
@@ -492,11 +422,8 @@ export default {
       "masked": "The story explores ideas about life and the ____.",
       "options": [
         "beyond-mcq-05",
-        "beyond-mcq-04",
         "beyond-mcq-06",
-        "beyond-mcq-03",
-        "beyond-mcq-02",
-        "beyond-mcq-01"
+        "beyond-mcq-02"
       ],
       "explanation": "本句的「beyond」指「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」。",
       "sentenceIndex": 11,
@@ -505,12 +432,9 @@ export default {
         "beyond"
       ],
       "optionReasons": {
-        "beyond-mcq-05": "本句指「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」。",
-        "beyond-mcq-04": "「除了某件事之外；在某事以外」與本句語境不同。",
-        "beyond-mcq-06": "「超出某件事情原本的範圍、作用或意義」與本句語境不同。",
-        "beyond-mcq-03": "「超出某個能力、程度、控制、範圍或界線」與本句語境不同。",
-        "beyond-mcq-02": "「超過或晚於某個時間點」與本句語境不同。",
-        "beyond-mcq-01": "「在某個地點、界線或範圍更遠的一邊；在……之外」與本句語境不同。"
+        "beyond-mcq-05": "本句的「beyond」指「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」。",
+        "beyond-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "beyond-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beyond-mcq-05"
     },
@@ -522,11 +446,8 @@ export default {
       "masked": "He claimed to receive messages from the ____.",
       "options": [
         "beyond-mcq-05",
-        "beyond-mcq-04",
-        "beyond-mcq-06",
-        "beyond-mcq-03",
         "beyond-mcq-02",
-        "beyond-mcq-01"
+        "beyond-mcq-06"
       ],
       "explanation": "本句的「beyond」指「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」。",
       "sentenceIndex": 12,
@@ -535,12 +456,9 @@ export default {
         "beyond"
       ],
       "optionReasons": {
-        "beyond-mcq-05": "本句指「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」。",
-        "beyond-mcq-04": "「除了某件事之外；在某事以外」與本句語境不同。",
-        "beyond-mcq-06": "「超出某件事情原本的範圍、作用或意義」與本句語境不同。",
-        "beyond-mcq-03": "「超出某個能力、程度、控制、範圍或界線」與本句語境不同。",
-        "beyond-mcq-02": "「超過或晚於某個時間點」與本句語境不同。",
-        "beyond-mcq-01": "「在某個地點、界線或範圍更遠的一邊；在……之外」與本句語境不同。"
+        "beyond-mcq-05": "本句的「beyond」指「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」。",
+        "beyond-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "beyond-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beyond-mcq-05"
     },
@@ -553,10 +471,7 @@ export default {
       "options": [
         "beyond-mcq-06",
         "beyond-mcq-05",
-        "beyond-mcq-04",
-        "beyond-mcq-03",
-        "beyond-mcq-02",
-        "beyond-mcq-01"
+        "beyond-mcq-02"
       ],
       "explanation": "本句的「beyond」指「超出某件事情原本的範圍、作用或意義」。",
       "sentenceIndex": 13,
@@ -565,12 +480,9 @@ export default {
         "beyond"
       ],
       "optionReasons": {
-        "beyond-mcq-06": "本句指「超出某件事情原本的範圍、作用或意義」。",
-        "beyond-mcq-05": "「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」與本句語境不同。",
-        "beyond-mcq-04": "「除了某件事之外；在某事以外」與本句語境不同。",
-        "beyond-mcq-03": "「超出某個能力、程度、控制、範圍或界線」與本句語境不同。",
-        "beyond-mcq-02": "「超過或晚於某個時間點」與本句語境不同。",
-        "beyond-mcq-01": "「在某個地點、界線或範圍更遠的一邊；在……之外」與本句語境不同。"
+        "beyond-mcq-06": "本句的「beyond」指「超出某件事情原本的範圍、作用或意義」。",
+        "beyond-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "beyond-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beyond-mcq-06"
     },
@@ -583,10 +495,7 @@ export default {
       "options": [
         "beyond-mcq-06",
         "beyond-mcq-05",
-        "beyond-mcq-04",
-        "beyond-mcq-03",
-        "beyond-mcq-02",
-        "beyond-mcq-01"
+        "beyond-mcq-02"
       ],
       "explanation": "本句的「beyond」指「超出某件事情原本的範圍、作用或意義」。",
       "sentenceIndex": 14,
@@ -595,12 +504,9 @@ export default {
         "beyond"
       ],
       "optionReasons": {
-        "beyond-mcq-06": "本句指「超出某件事情原本的範圍、作用或意義」。",
-        "beyond-mcq-05": "「死後世界、彼岸或普通人類經驗之外的未知領域；較文學」與本句語境不同。",
-        "beyond-mcq-04": "「除了某件事之外；在某事以外」與本句語境不同。",
-        "beyond-mcq-03": "「超出某個能力、程度、控制、範圍或界線」與本句語境不同。",
-        "beyond-mcq-02": "「超過或晚於某個時間點」與本句語境不同。",
-        "beyond-mcq-01": "「在某個地點、界線或範圍更遠的一邊；在……之外」與本句語境不同。"
+        "beyond-mcq-06": "本句的「beyond」指「超出某件事情原本的範圍、作用或意義」。",
+        "beyond-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "beyond-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beyond-mcq-06"
     }
@@ -612,5 +518,7 @@ export default {
     "sha256": "c87b0b81eace6420e3d563ef3322f2aab6411365fdd5be987295ef6a48866594",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -246,11 +246,6 @@ export default {
       "note": "來源詞義：補充最後欠缺的資訊，使全貌清楚",
       "examples": [
         [
-          "The new defender completes the squad.",
-          "新加入的後衛令球隊陣容變得完整。",
-          "補充最後欠缺的資訊，使全貌清楚"
-        ],
-        [
           "The financial records help complete the picture.",
           "財務紀錄有助我們了解完整情況／補全整體圖像。",
           "補充最後欠缺的資訊，使全貌清楚"
@@ -685,13 +680,7 @@ export default {
       "en": "completion — property",
       "zh": "物業交易正式完成成交／交收的階段",
       "note": "來源詞義：物業交易正式完成成交／交收的階段",
-      "examples": [
-        [
-          "The analysis requires complete data.",
-          "分析需要完整資料。",
-          "物業交易正式完成成交／交收的階段"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -815,13 +804,7 @@ export default {
       "en": "Incomplete — grade",
       "zh": "某些教育制度中的未完成／暫緩評分成績",
       "note": "來源詞義：某些教育制度中的未完成／暫緩評分成績",
-      "examples": [
-        [
-          "‘Because I was tired’ may be treated as an incomplete sentence in traditional classroom grammar.",
-          "在傳統課堂文法中，‘Because I was tired’ 可能被視為不完整句子。",
-          "某些教育制度中的未完成／暫緩評分成績"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -891,6 +874,57 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "complete-reviewed-8fd055fd8a",
+      "title": "補足陣容",
+      "form": "complete · source section 14",
+      "en": "補足陣容",
+      "zh": "補足陣容",
+      "note": "對照原始教材第 14 節及例句核實。",
+      "examples": [
+        [
+          "The new defender completes the squad.",
+          "新加入的後衛令球隊陣容變得完整。",
+          "補足陣容"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "complete-reviewed-30f83fe13c",
+      "title": "資料完整",
+      "form": "complete · source section 67",
+      "en": "資料完整",
+      "zh": "資料完整",
+      "note": "對照原始教材第 67 節及例句核實。",
+      "examples": [
+        [
+          "The analysis requires complete data.",
+          "分析需要完整資料。",
+          "資料完整"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "complete-reviewed-1b640282f2",
+      "title": "不完整句",
+      "form": "complete · source section 85",
+      "en": "不完整句",
+      "zh": "不完整句",
+      "note": "對照原始教材第 85 節及例句核實。",
+      "examples": [
+        [
+          "‘Because I was tired’ may be treated as an incomplete sentence in traditional classroom grammar.",
+          "在傳統課堂文法中，‘Because I was tired’ 可能被視為不完整句子。",
+          "不完整句"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -902,11 +936,9 @@ export default {
       "masked": "Students may ____ the exercises.",
       "options": [
         "complete-mcq-01",
-        "complete-mcq-02",
-        "complete-mcq-03",
-        "complete-mcq-04",
-        "complete-mcq-05",
-        "complete-mcq-06"
+        "complete-mcq-38",
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-22"
       ],
       "explanation": "本句的「complete」指「把所有要求的部分做完；完成」。",
       "sentenceIndex": 0,
@@ -915,12 +947,10 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-01": "本句指「把所有要求的部分做完；完成」。",
-        "complete-mcq-02": "「完成全部課程／培訓要求」與本句語境不同。",
-        "complete-mcq-03": "「完成學位課程及相關要求」與本句語境不同。",
-        "complete-mcq-04": "「把項目／流程進行到終點」與本句語境不同。",
-        "complete-mcq-05": "「完成工程；完工」與本句語境不同。",
-        "complete-mcq-06": "「完成全程」與本句語境不同。"
+        "complete-mcq-01": "本句的「complete」指「把所有要求的部分做完；完成」。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-01"
     },
@@ -932,11 +962,9 @@ export default {
       "masked": "Please ____ the task before lunch.",
       "options": [
         "complete-mcq-01",
-        "complete-mcq-02",
-        "complete-mcq-03",
-        "complete-mcq-04",
-        "complete-mcq-05",
-        "complete-mcq-06"
+        "complete-mcq-12",
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-04"
       ],
       "explanation": "本句的「complete」指「把所有要求的部分做完；完成」。",
       "sentenceIndex": 1,
@@ -945,12 +973,10 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-01": "本句指「把所有要求的部分做完；完成」。",
-        "complete-mcq-02": "「完成全部課程／培訓要求」與本句語境不同。",
-        "complete-mcq-03": "「完成學位課程及相關要求」與本句語境不同。",
-        "complete-mcq-04": "「把項目／流程進行到終點」與本句語境不同。",
-        "complete-mcq-05": "「完成工程；完工」與本句語境不同。",
-        "complete-mcq-06": "「完成全程」與本句語境不同。"
+        "complete-mcq-01": "本句的「complete」指「把所有要求的部分做完；完成」。",
+        "complete-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-01"
     },
@@ -962,11 +988,9 @@ export default {
       "masked": "She ____ all her assignments on time.",
       "options": [
         "complete-mcq-01",
-        "complete-mcq-02",
-        "complete-mcq-03",
-        "complete-mcq-04",
-        "complete-mcq-05",
-        "complete-mcq-06"
+        "complete-mcq-38",
+        "complete-mcq-12",
+        "complete-reviewed-8fd055fd8a"
       ],
       "explanation": "本句的「completed」指「把所有要求的部分做完；完成」。",
       "sentenceIndex": 2,
@@ -975,12 +999,10 @@ export default {
         "completed"
       ],
       "optionReasons": {
-        "complete-mcq-01": "本句指「把所有要求的部分做完；完成」。",
-        "complete-mcq-02": "「完成全部課程／培訓要求」與本句語境不同。",
-        "complete-mcq-03": "「完成學位課程及相關要求」與本句語境不同。",
-        "complete-mcq-04": "「把項目／流程進行到終點」與本句語境不同。",
-        "complete-mcq-05": "「完成工程；完工」與本句語境不同。",
-        "complete-mcq-06": "「完成全程」與本句語境不同。"
+        "complete-mcq-01": "本句的「completed」指「把所有要求的部分做完；完成」。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-01"
     },
@@ -992,11 +1014,9 @@ export default {
       "masked": "She ____ the training programme successfully.",
       "options": [
         "complete-mcq-02",
-        "complete-mcq-01",
-        "complete-mcq-03",
-        "complete-mcq-04",
-        "complete-mcq-05",
-        "complete-mcq-06"
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-22",
+        "complete-mcq-25"
       ],
       "explanation": "本句的「completed」指「完成全部課程／培訓要求」。",
       "sentenceIndex": 3,
@@ -1005,12 +1025,10 @@ export default {
         "completed"
       ],
       "optionReasons": {
-        "complete-mcq-02": "本句指「完成全部課程／培訓要求」。",
-        "complete-mcq-01": "「把所有要求的部分做完；完成」與本句語境不同。",
-        "complete-mcq-03": "「完成學位課程及相關要求」與本句語境不同。",
-        "complete-mcq-04": "「把項目／流程進行到終點」與本句語境不同。",
-        "complete-mcq-05": "「完成工程；完工」與本句語境不同。",
-        "complete-mcq-06": "「完成全程」與本句語境不同。"
+        "complete-mcq-02": "本句的「completed」指「完成全部課程／培訓要求」。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-02"
     },
@@ -1022,11 +1040,9 @@ export default {
       "masked": "Students must ____ six modules.",
       "options": [
         "complete-mcq-02",
-        "complete-mcq-01",
-        "complete-mcq-03",
-        "complete-mcq-04",
-        "complete-mcq-05",
-        "complete-mcq-06"
+        "complete-mcq-22",
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-04"
       ],
       "explanation": "本句的「complete」指「完成全部課程／培訓要求」。",
       "sentenceIndex": 4,
@@ -1035,12 +1051,10 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-02": "本句指「完成全部課程／培訓要求」。",
-        "complete-mcq-01": "「把所有要求的部分做完；完成」與本句語境不同。",
-        "complete-mcq-03": "「完成學位課程及相關要求」與本句語境不同。",
-        "complete-mcq-04": "「把項目／流程進行到終點」與本句語境不同。",
-        "complete-mcq-05": "「完成工程；完工」與本句語境不同。",
-        "complete-mcq-06": "「完成全程」與本句語境不同。"
+        "complete-mcq-02": "本句的「complete」指「完成全部課程／培訓要求」。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-02"
     },
@@ -1052,11 +1066,9 @@ export default {
       "masked": "He ____ his degree last year.",
       "options": [
         "complete-mcq-03",
-        "complete-mcq-02",
-        "complete-mcq-04",
-        "complete-mcq-01",
-        "complete-mcq-05",
-        "complete-mcq-06"
+        "complete-mcq-21",
+        "complete-mcq-22",
+        "complete-reviewed-8fd055fd8a"
       ],
       "explanation": "本句的「completed」指「完成學位課程及相關要求」。",
       "sentenceIndex": 5,
@@ -1065,12 +1077,10 @@ export default {
         "completed"
       ],
       "optionReasons": {
-        "complete-mcq-03": "本句指「完成學位課程及相關要求」。",
-        "complete-mcq-02": "「完成全部課程／培訓要求」與本句語境不同。",
-        "complete-mcq-04": "「把項目／流程進行到終點」與本句語境不同。",
-        "complete-mcq-01": "「把所有要求的部分做完；完成」與本句語境不同。",
-        "complete-mcq-05": "「完成工程；完工」與本句語境不同。",
-        "complete-mcq-06": "「完成全程」與本句語境不同。"
+        "complete-mcq-03": "本句的「completed」指「完成學位課程及相關要求」。",
+        "complete-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-03"
     },
@@ -1082,11 +1092,9 @@ export default {
       "masked": "The team ____ the project ahead of schedule.",
       "options": [
         "complete-mcq-04",
-        "complete-mcq-03",
-        "complete-mcq-05",
-        "complete-mcq-02",
-        "complete-mcq-06",
-        "complete-mcq-01"
+        "complete-mcq-20",
+        "complete-mcq-25",
+        "complete-mcq-17"
       ],
       "explanation": "本句的「completed」指「把項目／流程進行到終點」。",
       "sentenceIndex": 6,
@@ -1095,12 +1103,10 @@ export default {
         "completed"
       ],
       "optionReasons": {
-        "complete-mcq-04": "本句指「把項目／流程進行到終點」。",
-        "complete-mcq-03": "「完成學位課程及相關要求」與本句語境不同。",
-        "complete-mcq-05": "「完成工程；完工」與本句語境不同。",
-        "complete-mcq-02": "「完成全部課程／培訓要求」與本句語境不同。",
-        "complete-mcq-06": "「完成全程」與本句語境不同。",
-        "complete-mcq-01": "「把所有要求的部分做完；完成」與本句語境不同。"
+        "complete-mcq-04": "本句的「completed」指「把項目／流程進行到終點」。",
+        "complete-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-04"
     },
@@ -1112,11 +1118,9 @@ export default {
       "masked": "The process takes two hours to ____.",
       "options": [
         "complete-mcq-04",
-        "complete-mcq-03",
-        "complete-mcq-05",
-        "complete-mcq-02",
-        "complete-mcq-06",
-        "complete-mcq-01"
+        "complete-mcq-48",
+        "complete-mcq-25",
+        "complete-reviewed-8fd055fd8a"
       ],
       "explanation": "本句的「complete」指「把項目／流程進行到終點」。",
       "sentenceIndex": 7,
@@ -1125,12 +1129,10 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-04": "本句指「把項目／流程進行到終點」。",
-        "complete-mcq-03": "「完成學位課程及相關要求」與本句語境不同。",
-        "complete-mcq-05": "「完成工程；完工」與本句語境不同。",
-        "complete-mcq-02": "「完成全部課程／培訓要求」與本句語境不同。",
-        "complete-mcq-06": "「完成全程」與本句語境不同。",
-        "complete-mcq-01": "「把所有要求的部分做完；完成」與本句語境不同。"
+        "complete-mcq-04": "本句的「complete」指「把項目／流程進行到終點」。",
+        "complete-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-04"
     },
@@ -1142,11 +1144,9 @@ export default {
       "masked": "Construction was ____ in June.",
       "options": [
         "complete-mcq-05",
-        "complete-mcq-04",
-        "complete-mcq-06",
-        "complete-mcq-03",
-        "complete-mcq-07",
-        "complete-mcq-02"
+        "complete-mcq-08",
+        "complete-mcq-12",
+        "complete-mcq-22"
       ],
       "explanation": "本句的「completed」指「完成工程；完工」。",
       "sentenceIndex": 8,
@@ -1155,12 +1155,10 @@ export default {
         "completed"
       ],
       "optionReasons": {
-        "complete-mcq-05": "本句指「完成工程；完工」。",
-        "complete-mcq-04": "「把項目／流程進行到終點」與本句語境不同。",
-        "complete-mcq-06": "「完成全程」與本句語境不同。",
-        "complete-mcq-03": "「完成學位課程及相關要求」與本句語境不同。",
-        "complete-mcq-07": "「完成一整圈／一完整循環」與本句語境不同。",
-        "complete-mcq-02": "「完成全部課程／培訓要求」與本句語境不同。"
+        "complete-mcq-05": "本句的「completed」指「完成工程；完工」。",
+        "complete-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-05"
     },
@@ -1172,11 +1170,9 @@ export default {
       "masked": "The contractor expects to ____ the building next year.",
       "options": [
         "complete-mcq-05",
-        "complete-mcq-04",
-        "complete-mcq-06",
-        "complete-mcq-03",
-        "complete-mcq-07",
-        "complete-mcq-02"
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-16",
+        "complete-mcq-12"
       ],
       "explanation": "本句的「complete」指「完成工程；完工」。",
       "sentenceIndex": 9,
@@ -1185,12 +1181,10 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-05": "本句指「完成工程；完工」。",
-        "complete-mcq-04": "「把項目／流程進行到終點」與本句語境不同。",
-        "complete-mcq-06": "「完成全程」與本句語境不同。",
-        "complete-mcq-03": "「完成學位課程及相關要求」與本句語境不同。",
-        "complete-mcq-07": "「完成一整圈／一完整循環」與本句語境不同。",
-        "complete-mcq-02": "「完成全部課程／培訓要求」與本句語境不同。"
+        "complete-mcq-05": "本句的「complete」指「完成工程；完工」。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-05"
     },
@@ -1202,11 +1196,9 @@ export default {
       "masked": "They ____ the journey in six hours.",
       "options": [
         "complete-mcq-06",
-        "complete-mcq-05",
-        "complete-mcq-07",
-        "complete-mcq-04",
-        "complete-mcq-08",
-        "complete-mcq-03"
+        "complete-reviewed-8fd055fd8a",
+        "complete-pdf-001",
+        "complete-mcq-22"
       ],
       "explanation": "本句的「completed」指「完成全程」。",
       "sentenceIndex": 10,
@@ -1215,12 +1207,10 @@ export default {
         "completed"
       ],
       "optionReasons": {
-        "complete-mcq-06": "本句指「完成全程」。",
-        "complete-mcq-05": "「完成工程；完工」與本句語境不同。",
-        "complete-mcq-07": "「完成一整圈／一完整循環」與本句語境不同。",
-        "complete-mcq-04": "「把項目／流程進行到終點」與本句語境不同。",
-        "complete-mcq-08": "「把所有必需欄目填妥」與本句語境不同。",
-        "complete-mcq-03": "「完成學位課程及相關要求」與本句語境不同。"
+        "complete-mcq-06": "本句的「completed」指「完成全程」。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-06"
     },
@@ -1232,11 +1222,9 @@ export default {
       "masked": "Only half the runners ____ the course.",
       "options": [
         "complete-mcq-06",
-        "complete-mcq-05",
-        "complete-mcq-07",
-        "complete-mcq-04",
-        "complete-mcq-08",
-        "complete-mcq-03"
+        "complete-pdf-001",
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-22"
       ],
       "explanation": "本句的「completed」指「完成全程」。",
       "sentenceIndex": 11,
@@ -1245,12 +1233,10 @@ export default {
         "completed"
       ],
       "optionReasons": {
-        "complete-mcq-06": "本句指「完成全程」。",
-        "complete-mcq-05": "「完成工程；完工」與本句語境不同。",
-        "complete-mcq-07": "「完成一整圈／一完整循環」與本句語境不同。",
-        "complete-mcq-04": "「把項目／流程進行到終點」與本句語境不同。",
-        "complete-mcq-08": "「把所有必需欄目填妥」與本句語境不同。",
-        "complete-mcq-03": "「完成學位課程及相關要求」與本句語境不同。"
+        "complete-mcq-06": "本句的「completed」指「完成全程」。",
+        "complete-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-06"
     },
@@ -1262,11 +1248,9 @@ export default {
       "masked": "The runner ____ another lap.",
       "options": [
         "complete-mcq-07",
-        "complete-mcq-06",
-        "complete-mcq-08",
-        "complete-mcq-05",
-        "complete-mcq-09",
-        "complete-mcq-04"
+        "complete-mcq-38",
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-22"
       ],
       "explanation": "本句的「completed」指「完成一整圈／一完整循環」。",
       "sentenceIndex": 12,
@@ -1275,12 +1259,10 @@ export default {
         "completed"
       ],
       "optionReasons": {
-        "complete-mcq-07": "本句指「完成一整圈／一完整循環」。",
-        "complete-mcq-06": "「完成全程」與本句語境不同。",
-        "complete-mcq-08": "「把所有必需欄目填妥」與本句語境不同。",
-        "complete-mcq-05": "「完成工程；完工」與本句語境不同。",
-        "complete-mcq-09": "「加入所需內容使句子完整」與本句語境不同。",
-        "complete-mcq-04": "「把項目／流程進行到終點」與本句語境不同。"
+        "complete-mcq-07": "本句的「completed」指「完成一整圈／一完整循環」。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-07"
     },
@@ -1292,10 +1274,8 @@ export default {
       "masked": "The satellite takes about ninety minutes to ____.",
       "options": [
         "complete-mcq-07",
-        "complete-mcq-06",
-        "complete-mcq-08",
-        "complete-mcq-05",
-        "complete-mcq-09",
+        "complete-mcq-38",
+        "complete-mcq-12",
         "complete-mcq-04"
       ],
       "explanation": "本句的「complete an orbit」指「完成一整圈／一完整循環」。",
@@ -1305,12 +1285,10 @@ export default {
         "complete an orbit"
       ],
       "optionReasons": {
-        "complete-mcq-07": "本句指「完成一整圈／一完整循環」。",
-        "complete-mcq-06": "「完成全程」與本句語境不同。",
-        "complete-mcq-08": "「把所有必需欄目填妥」與本句語境不同。",
-        "complete-mcq-05": "「完成工程；完工」與本句語境不同。",
-        "complete-mcq-09": "「加入所需內容使句子完整」與本句語境不同。",
-        "complete-mcq-04": "「把項目／流程進行到終點」與本句語境不同。"
+        "complete-mcq-07": "本句的「complete an orbit」指「完成一整圈／一完整循環」。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-07"
     },
@@ -1322,11 +1300,9 @@ export default {
       "masked": "Please ____ the application form.",
       "options": [
         "complete-mcq-08",
-        "complete-mcq-07",
-        "complete-mcq-09",
-        "complete-mcq-06",
-        "complete-mcq-10",
-        "complete-mcq-05"
+        "complete-mcq-38",
+        "complete-mcq-12",
+        "complete-mcq-03"
       ],
       "explanation": "本句的「complete」指「把所有必需欄目填妥」。",
       "sentenceIndex": 14,
@@ -1335,12 +1311,10 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-08": "本句指「把所有必需欄目填妥」。",
-        "complete-mcq-07": "「完成一整圈／一完整循環」與本句語境不同。",
-        "complete-mcq-09": "「加入所需內容使句子完整」與本句語境不同。",
-        "complete-mcq-06": "「完成全程」與本句語境不同。",
-        "complete-mcq-10": "「補上欠缺元素，使序列／圖案完整」與本句語境不同。",
-        "complete-mcq-05": "「完成工程；完工」與本句語境不同。"
+        "complete-mcq-08": "本句的「complete」指「把所有必需欄目填妥」。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-08"
     },
@@ -1352,11 +1326,9 @@ export default {
       "masked": "All applicants must ____ the questionnaire.",
       "options": [
         "complete-mcq-08",
-        "complete-mcq-07",
-        "complete-mcq-09",
-        "complete-mcq-06",
-        "complete-mcq-10",
-        "complete-mcq-05"
+        "complete-mcq-22",
+        "complete-mcq-17",
+        "complete-mcq-12"
       ],
       "explanation": "本句的「complete」指「把所有必需欄目填妥」。",
       "sentenceIndex": 15,
@@ -1365,12 +1337,10 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-08": "本句指「把所有必需欄目填妥」。",
-        "complete-mcq-07": "「完成一整圈／一完整循環」與本句語境不同。",
-        "complete-mcq-09": "「加入所需內容使句子完整」與本句語境不同。",
-        "complete-mcq-06": "「完成全程」與本句語境不同。",
-        "complete-mcq-10": "「補上欠缺元素，使序列／圖案完整」與本句語境不同。",
-        "complete-mcq-05": "「完成工程；完工」與本句語境不同。"
+        "complete-mcq-08": "本句的「complete」指「把所有必需欄目填妥」。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-08"
     },
@@ -1382,11 +1352,9 @@ export default {
       "masked": "____ the sentence with the correct verb.",
       "options": [
         "complete-mcq-09",
-        "complete-mcq-08",
-        "complete-mcq-10",
-        "complete-mcq-07",
-        "complete-mcq-11",
-        "complete-mcq-06"
+        "complete-mcq-25",
+        "complete-mcq-22",
+        "complete-mcq-04"
       ],
       "explanation": "本句的「Complete」指「加入所需內容使句子完整」。",
       "sentenceIndex": 16,
@@ -1395,12 +1363,10 @@ export default {
         "Complete"
       ],
       "optionReasons": {
-        "complete-mcq-09": "本句指「加入所需內容使句子完整」。",
-        "complete-mcq-08": "「把所有必需欄目填妥」與本句語境不同。",
-        "complete-mcq-10": "「補上欠缺元素，使序列／圖案完整」與本句語境不同。",
-        "complete-mcq-07": "「完成一整圈／一完整循環」與本句語境不同。",
-        "complete-mcq-11": "「集齊／湊齊所有成員」與本句語境不同。",
-        "complete-mcq-06": "「完成全程」與本句語境不同。"
+        "complete-mcq-09": "本句的「Complete」指「加入所需內容使句子完整」。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-09"
     },
@@ -1412,11 +1378,9 @@ export default {
       "masked": "Choose the number that ____ the sequence.",
       "options": [
         "complete-mcq-10",
-        "complete-mcq-09",
-        "complete-mcq-11",
-        "complete-mcq-08",
-        "complete-mcq-12",
-        "complete-mcq-07"
+        "complete-mcq-22",
+        "complete-mcq-04",
+        "complete-mcq-25"
       ],
       "explanation": "本句的「completes」指「補上欠缺元素，使序列／圖案完整」。",
       "sentenceIndex": 17,
@@ -1425,12 +1389,10 @@ export default {
         "completes"
       ],
       "optionReasons": {
-        "complete-mcq-10": "本句指「補上欠缺元素，使序列／圖案完整」。",
-        "complete-mcq-09": "「加入所需內容使句子完整」與本句語境不同。",
-        "complete-mcq-11": "「集齊／湊齊所有成員」與本句語境不同。",
-        "complete-mcq-08": "「把所有必需欄目填妥」與本句語境不同。",
-        "complete-mcq-12": "「補充最後欠缺的資訊，使全貌清楚」與本句語境不同。",
-        "complete-mcq-07": "「完成一整圈／一完整循環」與本句語境不同。"
+        "complete-mcq-10": "本句的「completes」指「補上欠缺元素，使序列／圖案完整」。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-10"
     },
@@ -1442,11 +1404,9 @@ export default {
       "masked": "Add the missing piece to ____ the pattern.",
       "options": [
         "complete-mcq-10",
-        "complete-mcq-09",
-        "complete-mcq-11",
-        "complete-mcq-08",
-        "complete-mcq-12",
-        "complete-mcq-07"
+        "complete-mcq-04",
+        "complete-mcq-25",
+        "complete-mcq-22"
       ],
       "explanation": "本句的「complete」指「補上欠缺元素，使序列／圖案完整」。",
       "sentenceIndex": 18,
@@ -1455,12 +1415,10 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-10": "本句指「補上欠缺元素，使序列／圖案完整」。",
-        "complete-mcq-09": "「加入所需內容使句子完整」與本句語境不同。",
-        "complete-mcq-11": "「集齊／湊齊所有成員」與本句語境不同。",
-        "complete-mcq-08": "「把所有必需欄目填妥」與本句語境不同。",
-        "complete-mcq-12": "「補充最後欠缺的資訊，使全貌清楚」與本句語境不同。",
-        "complete-mcq-07": "「完成一整圈／一完整循環」與本句語境不同。"
+        "complete-mcq-10": "本句的「complete」指「補上欠缺元素，使序列／圖案完整」。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-10"
     },
@@ -1472,11 +1430,9 @@ export default {
       "masked": "We need one more chair to ____ the set.",
       "options": [
         "complete-pdf-001",
-        "complete-mcq-09",
-        "complete-mcq-11",
-        "complete-mcq-08",
-        "complete-mcq-12",
-        "complete-mcq-07"
+        "complete-mcq-06",
+        "complete-mcq-04",
+        "complete-mcq-22"
       ],
       "explanation": "本句的「complete」指「加入欠缺的部分，使整體不再有重要缺口」。",
       "sentenceIndex": 19,
@@ -1485,12 +1441,10 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-pdf-001": "本句指「加入欠缺的部分，使整體不再有重要缺口」。",
-        "complete-mcq-09": "「加入所需內容使句子完整」與本句語境不同。",
-        "complete-mcq-11": "「集齊／湊齊所有成員」與本句語境不同。",
-        "complete-mcq-08": "「把所有必需欄目填妥」與本句語境不同。",
-        "complete-mcq-12": "「補充最後欠缺的資訊，使全貌清楚」與本句語境不同。",
-        "complete-mcq-07": "「完成一整圈／一完整循環」與本句語境不同。"
+        "complete-pdf-001": "本句的「complete」指「加入欠缺的部分，使整體不再有重要缺口」。",
+        "complete-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-pdf-001"
     },
@@ -1502,11 +1456,9 @@ export default {
       "masked": "The final chapter ____ the story.",
       "options": [
         "complete-pdf-001",
-        "complete-mcq-09",
-        "complete-mcq-11",
-        "complete-mcq-08",
-        "complete-mcq-12",
-        "complete-mcq-07"
+        "complete-mcq-06",
+        "complete-mcq-22",
+        "complete-mcq-04"
       ],
       "explanation": "本句的「completes」指「加入欠缺的部分，使整體不再有重要缺口」。",
       "sentenceIndex": 20,
@@ -1515,12 +1467,10 @@ export default {
         "completes"
       ],
       "optionReasons": {
-        "complete-pdf-001": "本句指「加入欠缺的部分，使整體不再有重要缺口」。",
-        "complete-mcq-09": "「加入所需內容使句子完整」與本句語境不同。",
-        "complete-mcq-11": "「集齊／湊齊所有成員」與本句語境不同。",
-        "complete-mcq-08": "「把所有必需欄目填妥」與本句語境不同。",
-        "complete-mcq-12": "「補充最後欠缺的資訊，使全貌清楚」與本句語境不同。",
-        "complete-mcq-07": "「完成一整圈／一完整循環」與本句語境不同。"
+        "complete-pdf-001": "本句的「completes」指「加入欠缺的部分，使整體不再有重要缺口」。",
+        "complete-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-pdf-001"
     },
@@ -1532,11 +1482,9 @@ export default {
       "masked": "He needs one more card to ____ the collection.",
       "options": [
         "complete-mcq-11",
-        "complete-mcq-10",
-        "complete-mcq-12",
-        "complete-mcq-09",
-        "complete-mcq-13",
-        "complete-mcq-08"
+        "complete-mcq-38",
+        "complete-mcq-22",
+        "complete-mcq-04"
       ],
       "explanation": "本句的「complete」指「集齊／湊齊所有成員」。",
       "sentenceIndex": 21,
@@ -1545,44 +1493,40 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-11": "本句指「集齊／湊齊所有成員」。",
-        "complete-mcq-10": "「補上欠缺元素，使序列／圖案完整」與本句語境不同。",
-        "complete-mcq-12": "「補充最後欠缺的資訊，使全貌清楚」與本句語境不同。",
-        "complete-mcq-09": "「加入所需內容使句子完整」與本句語境不同。",
-        "complete-mcq-13": "「加入最後元素使造型完整」與本句語境不同。",
-        "complete-mcq-08": "「把所有必需欄目填妥」與本句語境不同。"
+        "complete-mcq-11": "本句的「complete」指「集齊／湊齊所有成員」。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-11"
     },
     {
       "id": "complete-14-0",
-      "sense": "complete-mcq-12",
+      "sense": "complete-reviewed-8fd055fd8a",
       "en": "The new defender completes the squad.",
       "zh": "新加入的後衛令球隊陣容變得完整。",
       "masked": "The new defender ____ the squad.",
       "options": [
-        "complete-mcq-12",
-        "complete-mcq-11",
-        "complete-mcq-13",
-        "complete-mcq-10",
-        "complete-mcq-14",
-        "complete-mcq-09"
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-19",
+        "complete-mcq-17",
+        "complete-mcq-04"
       ],
-      "explanation": "本句的「completes」指「補充最後欠缺的資訊，使全貌清楚」。",
+      "explanation": "對照完整句子：「新加入的後衛令球隊陣容變得完整。」。這裡的「completes」表示「補足陣容」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "completes"
       ],
       "optionReasons": {
-        "complete-mcq-12": "本句指「補充最後欠缺的資訊，使全貌清楚」。",
-        "complete-mcq-11": "「集齊／湊齊所有成員」與本句語境不同。",
-        "complete-mcq-13": "「加入最後元素使造型完整」與本句語境不同。",
-        "complete-mcq-10": "「補上欠缺元素，使序列／圖案完整」與本句語境不同。",
-        "complete-mcq-14": "「令某人在情感上感到完整／圓滿」與本句語境不同。",
-        "complete-mcq-09": "「加入所需內容使句子完整」與本句語境不同。"
+        "complete-reviewed-8fd055fd8a": "對照完整句子：「新加入的後衛令球隊陣容變得完整。」。這裡的「completes」表示「補足陣容」。",
+        "complete-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "complete-mcq-12"
+      "correctOption": "complete-reviewed-8fd055fd8a",
+      "previousCorrectOption": "complete-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "complete-15-0",
@@ -1592,11 +1536,9 @@ export default {
       "masked": "The financial records help ____.",
       "options": [
         "complete-mcq-12",
-        "complete-mcq-11",
-        "complete-mcq-13",
-        "complete-mcq-10",
-        "complete-mcq-14",
-        "complete-mcq-09"
+        "complete-mcq-05",
+        "complete-mcq-04",
+        "complete-mcq-44"
       ],
       "explanation": "本句的「complete the picture」指「補充最後欠缺的資訊，使全貌清楚」。",
       "sentenceIndex": 23,
@@ -1605,12 +1547,10 @@ export default {
         "complete the picture"
       ],
       "optionReasons": {
-        "complete-mcq-12": "本句指「補充最後欠缺的資訊，使全貌清楚」。",
-        "complete-mcq-11": "「集齊／湊齊所有成員」與本句語境不同。",
-        "complete-mcq-13": "「加入最後元素使造型完整」與本句語境不同。",
-        "complete-mcq-10": "「補上欠缺元素，使序列／圖案完整」與本句語境不同。",
-        "complete-mcq-14": "「令某人在情感上感到完整／圓滿」與本句語境不同。",
-        "complete-mcq-09": "「加入所需內容使句子完整」與本句語境不同。"
+        "complete-mcq-12": "本句的「complete the picture」指「補充最後欠缺的資訊，使全貌清楚」。",
+        "complete-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-12"
     },
@@ -1622,11 +1562,9 @@ export default {
       "masked": "A simple scarf ____.",
       "options": [
         "complete-mcq-13",
-        "complete-mcq-12",
-        "complete-mcq-14",
-        "complete-mcq-11",
-        "complete-mcq-15",
-        "complete-mcq-10"
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-25",
+        "complete-mcq-22"
       ],
       "explanation": "本句的「completes the look」指「加入最後元素使造型完整」。",
       "sentenceIndex": 24,
@@ -1635,12 +1573,10 @@ export default {
         "completes the look"
       ],
       "optionReasons": {
-        "complete-mcq-13": "本句指「加入最後元素使造型完整」。",
-        "complete-mcq-12": "「補充最後欠缺的資訊，使全貌清楚」與本句語境不同。",
-        "complete-mcq-14": "「令某人在情感上感到完整／圓滿」與本句語境不同。",
-        "complete-mcq-11": "「集齊／湊齊所有成員」與本句語境不同。",
-        "complete-mcq-15": "「完成所有步驟，使交易正式完成」與本句語境不同。",
-        "complete-mcq-10": "「補上欠缺元素，使序列／圖案完整」與本句語境不同。"
+        "complete-mcq-13": "本句的「completes the look」指「加入最後元素使造型完整」。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-13"
     },
@@ -1652,11 +1588,9 @@ export default {
       "masked": "Click here to ____ your purchase.",
       "options": [
         "complete-mcq-15",
-        "complete-mcq-14",
-        "complete-mcq-16",
-        "complete-mcq-13",
-        "complete-mcq-17",
-        "complete-mcq-12"
+        "complete-mcq-04",
+        "complete-mcq-12",
+        "complete-mcq-22"
       ],
       "explanation": "本句的「complete」指「完成所有步驟，使交易正式完成」。",
       "sentenceIndex": 25,
@@ -1665,12 +1599,10 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-15": "本句指「完成所有步驟，使交易正式完成」。",
-        "complete-mcq-14": "「令某人在情感上感到完整／圓滿」與本句語境不同。",
-        "complete-mcq-16": "「所有必要部分都存在、沒有缺漏的」與本句語境不同。",
-        "complete-mcq-13": "「加入最後元素使造型完整」與本句語境不同。",
-        "complete-mcq-17": "「已完成／已完工的」與本句語境不同。",
-        "complete-mcq-12": "「補充最後欠缺的資訊，使全貌清楚」與本句語境不同。"
+        "complete-mcq-15": "本句的「complete」指「完成所有步驟，使交易正式完成」。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-15"
     },
@@ -1682,11 +1614,9 @@ export default {
       "masked": "The payment must be received before the transaction can be ____.",
       "options": [
         "complete-mcq-15",
-        "complete-mcq-14",
-        "complete-mcq-16",
-        "complete-mcq-13",
-        "complete-mcq-17",
-        "complete-mcq-12"
+        "complete-mcq-12",
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-22"
       ],
       "explanation": "本句的「completed」指「完成所有步驟，使交易正式完成」。",
       "sentenceIndex": 26,
@@ -1695,12 +1625,10 @@ export default {
         "completed"
       ],
       "optionReasons": {
-        "complete-mcq-15": "本句指「完成所有步驟，使交易正式完成」。",
-        "complete-mcq-14": "「令某人在情感上感到完整／圓滿」與本句語境不同。",
-        "complete-mcq-16": "「所有必要部分都存在、沒有缺漏的」與本句語境不同。",
-        "complete-mcq-13": "「加入最後元素使造型完整」與本句語境不同。",
-        "complete-mcq-17": "「已完成／已完工的」與本句語境不同。",
-        "complete-mcq-12": "「補充最後欠缺的資訊，使全貌清楚」與本句語境不同。"
+        "complete-mcq-15": "本句的「completed」指「完成所有步驟，使交易正式完成」。",
+        "complete-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-15"
     },
@@ -1712,11 +1640,9 @@ export default {
       "masked": "Enter your payment details to ____ the booking.",
       "options": [
         "complete-mcq-15",
-        "complete-mcq-14",
-        "complete-mcq-16",
-        "complete-mcq-13",
-        "complete-mcq-17",
-        "complete-mcq-12"
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-04",
+        "complete-mcq-38"
       ],
       "explanation": "本句的「complete」指「完成所有步驟，使交易正式完成」。",
       "sentenceIndex": 27,
@@ -1725,12 +1651,10 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-15": "本句指「完成所有步驟，使交易正式完成」。",
-        "complete-mcq-14": "「令某人在情感上感到完整／圓滿」與本句語境不同。",
-        "complete-mcq-16": "「所有必要部分都存在、沒有缺漏的」與本句語境不同。",
-        "complete-mcq-13": "「加入最後元素使造型完整」與本句語境不同。",
-        "complete-mcq-17": "「已完成／已完工的」與本句語境不同。",
-        "complete-mcq-12": "「補充最後欠缺的資訊，使全貌清楚」與本句語境不同。"
+        "complete-mcq-15": "本句的「complete」指「完成所有步驟，使交易正式完成」。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-15"
     },
@@ -1742,11 +1666,9 @@ export default {
       "masked": "We need a ____ list of all participants.",
       "options": [
         "complete-mcq-16",
-        "complete-mcq-15",
-        "complete-mcq-17",
-        "complete-mcq-14",
-        "complete-mcq-18",
-        "complete-mcq-13"
+        "complete-mcq-38",
+        "complete-mcq-47",
+        "complete-mcq-22"
       ],
       "explanation": "本句的「complete」指「所有必要部分都存在、沒有缺漏的」。",
       "sentenceIndex": 28,
@@ -1755,12 +1677,10 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-16": "本句指「所有必要部分都存在、沒有缺漏的」。",
-        "complete-mcq-15": "「完成所有步驟，使交易正式完成」與本句語境不同。",
-        "complete-mcq-17": "「已完成／已完工的」與本句語境不同。",
-        "complete-mcq-14": "「令某人在情感上感到完整／圓滿」與本句語境不同。",
-        "complete-mcq-18": "「完全的、徹底的、百分之百的」與本句語境不同。",
-        "complete-mcq-13": "「加入最後元素使造型完整」與本句語境不同。"
+        "complete-mcq-16": "本句的「complete」指「所有必要部分都存在、沒有缺漏的」。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-16"
     },
@@ -1772,11 +1692,9 @@ export default {
       "masked": "The museum owns a ____ set of the books.",
       "options": [
         "complete-mcq-16",
-        "complete-mcq-15",
-        "complete-mcq-17",
-        "complete-mcq-14",
-        "complete-mcq-18",
-        "complete-mcq-13"
+        "complete-mcq-47",
+        "complete-mcq-04",
+        "complete-mcq-38"
       ],
       "explanation": "本句的「complete」指「所有必要部分都存在、沒有缺漏的」。",
       "sentenceIndex": 29,
@@ -1785,12 +1703,10 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-16": "本句指「所有必要部分都存在、沒有缺漏的」。",
-        "complete-mcq-15": "「完成所有步驟，使交易正式完成」與本句語境不同。",
-        "complete-mcq-17": "「已完成／已完工的」與本句語境不同。",
-        "complete-mcq-14": "「令某人在情感上感到完整／圓滿」與本句語境不同。",
-        "complete-mcq-18": "「完全的、徹底的、百分之百的」與本句語境不同。",
-        "complete-mcq-13": "「加入最後元素使造型完整」與本句語境不同。"
+        "complete-mcq-16": "本句的「complete」指「所有必要部分都存在、沒有缺漏的」。",
+        "complete-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-16"
     },
@@ -1802,11 +1718,9 @@ export default {
       "masked": "There is no ____ record of what happened.",
       "options": [
         "complete-mcq-17",
-        "complete-mcq-16",
-        "complete-mcq-18",
-        "complete-mcq-15",
-        "complete-mcq-19",
-        "complete-mcq-14"
+        "complete-mcq-08",
+        "complete-mcq-04",
+        "complete-mcq-38"
       ],
       "explanation": "本句的「complete」指「已完成／已完工的」。",
       "sentenceIndex": 30,
@@ -1815,12 +1729,10 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-17": "本句指「已完成／已完工的」。",
-        "complete-mcq-16": "「所有必要部分都存在、沒有缺漏的」與本句語境不同。",
-        "complete-mcq-18": "「完全的、徹底的、百分之百的」與本句語境不同。",
-        "complete-mcq-15": "「完成所有步驟，使交易正式完成」與本句語境不同。",
-        "complete-mcq-19": "「完全不認識的陌生人」與本句語境不同。",
-        "complete-mcq-14": "「令某人在情感上感到完整／圓滿」與本句語境不同。"
+        "complete-mcq-17": "本句的「complete」指「已完成／已完工的」。",
+        "complete-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-17"
     },
@@ -1832,11 +1744,9 @@ export default {
       "masked": "The work is now ____.",
       "options": [
         "complete-mcq-17",
-        "complete-mcq-16",
-        "complete-mcq-18",
-        "complete-mcq-15",
-        "complete-mcq-19",
-        "complete-mcq-14"
+        "complete-mcq-12",
+        "complete-mcq-22",
+        "complete-mcq-04"
       ],
       "explanation": "本句的「complete」指「已完成／已完工的」。",
       "sentenceIndex": 33,
@@ -1845,12 +1755,10 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-17": "本句指「已完成／已完工的」。",
-        "complete-mcq-16": "「所有必要部分都存在、沒有缺漏的」與本句語境不同。",
-        "complete-mcq-18": "「完全的、徹底的、百分之百的」與本句語境不同。",
-        "complete-mcq-15": "「完成所有步驟，使交易正式完成」與本句語境不同。",
-        "complete-mcq-19": "「完全不認識的陌生人」與本句語境不同。",
-        "complete-mcq-14": "「令某人在情感上感到完整／圓滿」與本句語境不同。"
+        "complete-mcq-17": "本句的「complete」指「已完成／已完工的」。",
+        "complete-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-17"
     },
@@ -1862,11 +1770,9 @@ export default {
       "masked": "The building is almost ____.",
       "options": [
         "complete-mcq-17",
-        "complete-mcq-16",
-        "complete-mcq-18",
-        "complete-mcq-15",
-        "complete-mcq-19",
-        "complete-mcq-14"
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-12",
+        "complete-mcq-38"
       ],
       "explanation": "本句的「complete」指「已完成／已完工的」。",
       "sentenceIndex": 34,
@@ -1875,12 +1781,10 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-17": "本句指「已完成／已完工的」。",
-        "complete-mcq-16": "「所有必要部分都存在、沒有缺漏的」與本句語境不同。",
-        "complete-mcq-18": "「完全的、徹底的、百分之百的」與本句語境不同。",
-        "complete-mcq-15": "「完成所有步驟，使交易正式完成」與本句語境不同。",
-        "complete-mcq-19": "「完全不認識的陌生人」與本句語境不同。",
-        "complete-mcq-14": "「令某人在情感上感到完整／圓滿」與本句語境不同。"
+        "complete-mcq-17": "本句的「complete」指「已完成／已完工的」。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-17"
     },
@@ -1892,11 +1796,9 @@ export default {
       "masked": "The plan was a ____.",
       "options": [
         "complete-mcq-18",
-        "complete-mcq-17",
-        "complete-mcq-19",
-        "complete-mcq-16",
-        "complete-mcq-20",
-        "complete-mcq-15"
+        "complete-mcq-04",
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-22"
       ],
       "explanation": "本句的「complete disaster」指「完全的、徹底的、百分之百的」。",
       "sentenceIndex": 35,
@@ -1905,12 +1807,10 @@ export default {
         "complete disaster"
       ],
       "optionReasons": {
-        "complete-mcq-18": "本句指「完全的、徹底的、百分之百的」。",
-        "complete-mcq-17": "「已完成／已完工的」與本句語境不同。",
-        "complete-mcq-19": "「完全不認識的陌生人」與本句語境不同。",
-        "complete-mcq-16": "「所有必要部分都存在、沒有缺漏的」與本句語境不同。",
-        "complete-mcq-20": "「完全／正好相反」與本句語境不同。",
-        "complete-mcq-15": "「完成所有步驟，使交易正式完成」與本句語境不同。"
+        "complete-mcq-18": "本句的「complete disaster」指「完全的、徹底的、百分之百的」。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-18"
     },
@@ -1922,11 +1822,9 @@ export default {
       "masked": "There was ____.",
       "options": [
         "complete-mcq-18",
-        "complete-mcq-17",
-        "complete-mcq-19",
-        "complete-mcq-16",
-        "complete-mcq-20",
-        "complete-mcq-15"
+        "complete-mcq-04",
+        "complete-mcq-22",
+        "complete-mcq-25"
       ],
       "explanation": "本句的「complete silence」指「完全的、徹底的、百分之百的」。",
       "sentenceIndex": 36,
@@ -1935,12 +1833,10 @@ export default {
         "complete silence"
       ],
       "optionReasons": {
-        "complete-mcq-18": "本句指「完全的、徹底的、百分之百的」。",
-        "complete-mcq-17": "「已完成／已完工的」與本句語境不同。",
-        "complete-mcq-19": "「完全不認識的陌生人」與本句語境不同。",
-        "complete-mcq-16": "「所有必要部分都存在、沒有缺漏的」與本句語境不同。",
-        "complete-mcq-20": "「完全／正好相反」與本句語境不同。",
-        "complete-mcq-15": "「完成所有步驟，使交易正式完成」與本句語境不同。"
+        "complete-mcq-18": "本句的「complete silence」指「完全的、徹底的、百分之百的」。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-18"
     },
@@ -1952,11 +1848,9 @@ export default {
       "masked": "I have ____ in her.",
       "options": [
         "complete-mcq-18",
-        "complete-mcq-17",
-        "complete-mcq-19",
-        "complete-mcq-16",
-        "complete-mcq-20",
-        "complete-mcq-15"
+        "complete-mcq-25",
+        "complete-mcq-22",
+        "complete-mcq-04"
       ],
       "explanation": "本句的「complete confidence」指「完全的、徹底的、百分之百的」。",
       "sentenceIndex": 37,
@@ -1965,12 +1859,10 @@ export default {
         "complete confidence"
       ],
       "optionReasons": {
-        "complete-mcq-18": "本句指「完全的、徹底的、百分之百的」。",
-        "complete-mcq-17": "「已完成／已完工的」與本句語境不同。",
-        "complete-mcq-19": "「完全不認識的陌生人」與本句語境不同。",
-        "complete-mcq-16": "「所有必要部分都存在、沒有缺漏的」與本句語境不同。",
-        "complete-mcq-20": "「完全／正好相反」與本句語境不同。",
-        "complete-mcq-15": "「完成所有步驟，使交易正式完成」與本句語境不同。"
+        "complete-mcq-18": "本句的「complete confidence」指「完全的、徹底的、百分之百的」。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-18"
     },
@@ -1982,11 +1874,9 @@ export default {
       "masked": "I would not give my password to a ____.",
       "options": [
         "complete-mcq-19",
-        "complete-mcq-18",
-        "complete-mcq-20",
-        "complete-mcq-17",
-        "complete-mcq-21",
-        "complete-mcq-16"
+        "complete-mcq-22",
+        "complete-mcq-04",
+        "complete-mcq-25"
       ],
       "explanation": "本句的「complete stranger」指「完全不認識的陌生人」。",
       "sentenceIndex": 38,
@@ -1995,12 +1885,10 @@ export default {
         "complete stranger"
       ],
       "optionReasons": {
-        "complete-mcq-19": "本句指「完全不認識的陌生人」。",
-        "complete-mcq-18": "「完全的、徹底的、百分之百的」與本句語境不同。",
-        "complete-mcq-20": "「完全／正好相反」與本句語境不同。",
-        "complete-mcq-17": "「已完成／已完工的」與本句語境不同。",
-        "complete-mcq-21": "「各方面能力或特質俱備、非常全面的」與本句語境不同。",
-        "complete-mcq-16": "「所有必要部分都存在、沒有缺漏的」與本句語境不同。"
+        "complete-mcq-19": "本句的「complete stranger」指「完全不認識的陌生人」。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-19"
     },
@@ -2012,11 +1900,9 @@ export default {
       "masked": "The truth was the ____ of what I expected.",
       "options": [
         "complete-mcq-20",
-        "complete-mcq-19",
-        "complete-mcq-21",
-        "complete-mcq-18",
-        "complete-mcq-22",
-        "complete-mcq-17"
+        "complete-mcq-25",
+        "complete-mcq-04",
+        "complete-mcq-22"
       ],
       "explanation": "本句的「complete opposite」指「完全／正好相反」。",
       "sentenceIndex": 39,
@@ -2025,12 +1911,10 @@ export default {
         "complete opposite"
       ],
       "optionReasons": {
-        "complete-mcq-20": "本句指「完全／正好相反」。",
-        "complete-mcq-19": "「完全不認識的陌生人」與本句語境不同。",
-        "complete-mcq-21": "「各方面能力或特質俱備、非常全面的」與本句語境不同。",
-        "complete-mcq-18": "「完全的、徹底的、百分之百的」與本句語境不同。",
-        "complete-mcq-22": "「連同、附有、包括某項額外東西」與本句語境不同。",
-        "complete-mcq-17": "「已完成／已完工的」與本句語境不同。"
+        "complete-mcq-20": "本句的「complete opposite」指「完全／正好相反」。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-20"
     },
@@ -2042,11 +1926,9 @@ export default {
       "masked": "She has developed into a ____.",
       "options": [
         "complete-mcq-21",
-        "complete-mcq-20",
+        "complete-mcq-05",
         "complete-mcq-22",
-        "complete-mcq-19",
-        "complete-mcq-23",
-        "complete-mcq-18"
+        "complete-reviewed-8fd055fd8a"
       ],
       "explanation": "本句的「complete player」指「各方面能力或特質俱備、非常全面的」。",
       "sentenceIndex": 40,
@@ -2055,12 +1937,10 @@ export default {
         "complete player"
       ],
       "optionReasons": {
-        "complete-mcq-21": "本句指「各方面能力或特質俱備、非常全面的」。",
-        "complete-mcq-20": "「完全／正好相反」與本句語境不同。",
-        "complete-mcq-22": "「連同、附有、包括某項額外東西」與本句語境不同。",
-        "complete-mcq-19": "「完全不認識的陌生人」與本句語境不同。",
-        "complete-mcq-23": "「文法結構足以獨立成立的完整句」與本句語境不同。",
-        "complete-mcq-18": "「完全的、徹底的、百分之百的」與本句語境不同。"
+        "complete-mcq-21": "本句的「complete player」指「各方面能力或特質俱備、非常全面的」。",
+        "complete-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-21"
     },
@@ -2072,11 +1952,9 @@ export default {
       "masked": "He is a remarkably ____.",
       "options": [
         "complete-mcq-21",
-        "complete-mcq-20",
-        "complete-mcq-22",
-        "complete-mcq-19",
-        "complete-mcq-23",
-        "complete-mcq-18"
+        "complete-mcq-47",
+        "complete-mcq-25",
+        "complete-reviewed-8fd055fd8a"
       ],
       "explanation": "本句的「complete musician」指「各方面能力或特質俱備、非常全面的」。",
       "sentenceIndex": 41,
@@ -2085,12 +1963,10 @@ export default {
         "complete musician"
       ],
       "optionReasons": {
-        "complete-mcq-21": "本句指「各方面能力或特質俱備、非常全面的」。",
-        "complete-mcq-20": "「完全／正好相反」與本句語境不同。",
-        "complete-mcq-22": "「連同、附有、包括某項額外東西」與本句語境不同。",
-        "complete-mcq-19": "「完全不認識的陌生人」與本句語境不同。",
-        "complete-mcq-23": "「文法結構足以獨立成立的完整句」與本句語境不同。",
-        "complete-mcq-18": "「完全的、徹底的、百分之百的」與本句語境不同。"
+        "complete-mcq-21": "本句的「complete musician」指「各方面能力或特質俱備、非常全面的」。",
+        "complete-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-21"
     },
@@ -2102,11 +1978,9 @@ export default {
       "masked": "She has experience, technical skill and leadership ability—the ____.",
       "options": [
         "complete-mcq-21",
-        "complete-mcq-20",
-        "complete-mcq-22",
-        "complete-mcq-19",
-        "complete-mcq-23",
-        "complete-mcq-18"
+        "complete-mcq-05",
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-25"
       ],
       "explanation": "本句的「complete package」指「各方面能力或特質俱備、非常全面的」。",
       "sentenceIndex": 42,
@@ -2115,12 +1989,10 @@ export default {
         "complete package"
       ],
       "optionReasons": {
-        "complete-mcq-21": "本句指「各方面能力或特質俱備、非常全面的」。",
-        "complete-mcq-20": "「完全／正好相反」與本句語境不同。",
-        "complete-mcq-22": "「連同、附有、包括某項額外東西」與本句語境不同。",
-        "complete-mcq-19": "「完全不認識的陌生人」與本句語境不同。",
-        "complete-mcq-23": "「文法結構足以獨立成立的完整句」與本句語境不同。",
-        "complete-mcq-18": "「完全的、徹底的、百分之百的」與本句語境不同。"
+        "complete-mcq-21": "本句的「complete package」指「各方面能力或特質俱備、非常全面的」。",
+        "complete-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-21"
     },
@@ -2132,11 +2004,9 @@ export default {
       "masked": "The apartment comes ____ furniture.",
       "options": [
         "complete-mcq-22",
-        "complete-mcq-21",
-        "complete-mcq-23",
-        "complete-mcq-20",
-        "complete-mcq-24",
-        "complete-mcq-19"
+        "complete-mcq-02",
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-12"
       ],
       "explanation": "本句的「complete with」指「連同、附有、包括某項額外東西」。",
       "sentenceIndex": 43,
@@ -2145,12 +2015,10 @@ export default {
         "complete with"
       ],
       "optionReasons": {
-        "complete-mcq-22": "本句指「連同、附有、包括某項額外東西」。",
-        "complete-mcq-21": "「各方面能力或特質俱備、非常全面的」與本句語境不同。",
-        "complete-mcq-23": "「文法結構足以獨立成立的完整句」與本句語境不同。",
-        "complete-mcq-20": "「完全／正好相反」與本句語境不同。",
-        "complete-mcq-24": "「形成不間斷導電路徑的完整／閉合電路」與本句語境不同。",
-        "complete-mcq-19": "「完全不認識的陌生人」與本句語境不同。"
+        "complete-mcq-22": "本句的「complete with」指「連同、附有、包括某項額外東西」。",
+        "complete-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-22"
     },
@@ -2162,11 +2030,9 @@ export default {
       "masked": "He arrived in full costume, ____ a hat and sword.",
       "options": [
         "complete-mcq-22",
-        "complete-mcq-21",
-        "complete-mcq-23",
-        "complete-mcq-20",
-        "complete-mcq-24",
-        "complete-mcq-19"
+        "complete-mcq-43",
+        "complete-mcq-03",
+        "complete-reviewed-8fd055fd8a"
       ],
       "explanation": "本句的「complete with」指「連同、附有、包括某項額外東西」。",
       "sentenceIndex": 44,
@@ -2175,12 +2041,10 @@ export default {
         "complete with"
       ],
       "optionReasons": {
-        "complete-mcq-22": "本句指「連同、附有、包括某項額外東西」。",
-        "complete-mcq-21": "「各方面能力或特質俱備、非常全面的」與本句語境不同。",
-        "complete-mcq-23": "「文法結構足以獨立成立的完整句」與本句語境不同。",
-        "complete-mcq-20": "「完全／正好相反」與本句語境不同。",
-        "complete-mcq-24": "「形成不間斷導電路徑的完整／閉合電路」與本句語境不同。",
-        "complete-mcq-19": "「完全不認識的陌生人」與本句語境不同。"
+        "complete-mcq-22": "本句的「complete with」指「連同、附有、包括某項額外東西」。",
+        "complete-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-22"
     },
@@ -2192,11 +2056,9 @@ export default {
       "masked": "Closing the switch ____.",
       "options": [
         "complete-mcq-24",
-        "complete-mcq-23",
-        "complete-mcq-25",
         "complete-mcq-22",
-        "complete-mcq-26",
-        "complete-mcq-21"
+        "complete-mcq-04",
+        "complete-mcq-12"
       ],
       "explanation": "本句的「completes the circuit」指「形成不間斷導電路徑的完整／閉合電路」。",
       "sentenceIndex": 45,
@@ -2205,12 +2067,10 @@ export default {
         "completes the circuit"
       ],
       "optionReasons": {
-        "complete-mcq-24": "本句指「形成不間斷導電路徑的完整／閉合電路」。",
-        "complete-mcq-23": "「文法結構足以獨立成立的完整句」與本句語境不同。",
-        "complete-mcq-25": "「體育中成功把球傳給隊友」與本句語境不同。",
-        "complete-mcq-22": "「連同、附有、包括某項額外東西」與本句語境不同。",
-        "complete-mcq-26": "「棒球中先發投手投完整場比賽；完投」與本句語境不同。",
-        "complete-mcq-21": "「各方面能力或特質俱備、非常全面的」與本句語境不同。"
+        "complete-mcq-24": "本句的「completes the circuit」指「形成不間斷導電路徑的完整／閉合電路」。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-24"
     },
@@ -2222,11 +2082,9 @@ export default {
       "masked": "The quarterback ____ twenty passes.",
       "options": [
         "complete-mcq-25",
-        "complete-mcq-24",
-        "complete-mcq-26",
-        "complete-mcq-23",
-        "complete-mcq-27",
-        "complete-mcq-22"
+        "complete-reviewed-1b640282f2",
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-38"
       ],
       "explanation": "本句的「completed」指「體育中成功把球傳給隊友」。",
       "sentenceIndex": 46,
@@ -2235,12 +2093,10 @@ export default {
         "completed"
       ],
       "optionReasons": {
-        "complete-mcq-25": "本句指「體育中成功把球傳給隊友」。",
-        "complete-mcq-24": "「形成不間斷導電路徑的完整／閉合電路」與本句語境不同。",
-        "complete-mcq-26": "「棒球中先發投手投完整場比賽；完投」與本句語境不同。",
-        "complete-mcq-23": "「文法結構足以獨立成立的完整句」與本句語境不同。",
-        "complete-mcq-27": "「按醫療標準檢測不到相關疾病跡象的完全反應／緩解」與本句語境不同。",
-        "complete-mcq-22": "「連同、附有、包括某項額外東西」與本句語境不同。"
+        "complete-mcq-25": "本句的「completed」指「體育中成功把球傳給隊友」。",
+        "complete-reviewed-1b640282f2": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-25"
     },
@@ -2252,11 +2108,9 @@ export default {
       "masked": "The editor can automatically ____ function names.",
       "options": [
         "complete-mcq-38",
-        "complete-mcq-37",
-        "complete-mcq-39",
-        "complete-mcq-36",
-        "complete-mcq-40",
-        "complete-mcq-35"
+        "complete-mcq-16",
+        "complete-mcq-22",
+        "complete-mcq-25"
       ],
       "explanation": "本句的「complete」指「自動補全輸入／程式碼」。",
       "sentenceIndex": 47,
@@ -2265,44 +2119,40 @@ export default {
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-38": "本句指「自動補全輸入／程式碼」。",
-        "complete-mcq-37": "「具有通用計算能力的圖靈完備」與本句語境不同。",
-        "complete-mcq-39": "「完成、完工的過程或狀態」與本句語境不同。",
-        "complete-mcq-36": "「計算複雜度理論中的 NP 完全」與本句語境不同。",
-        "complete-mcq-40": "「物業交易正式完成成交／交收的階段」與本句語境不同。",
-        "complete-mcq-35": "「按特定結構規則填滿節點的完全二元樹」與本句語境不同。"
+        "complete-mcq-38": "本句的「complete」指「自動補全輸入／程式碼」。",
+        "complete-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-38"
     },
     {
       "id": "complete-67-0",
-      "sense": "complete-mcq-40",
+      "sense": "complete-reviewed-30f83fe13c",
       "en": "The analysis requires complete data.",
       "zh": "分析需要完整資料。",
       "masked": "The analysis requires ____ data.",
       "options": [
-        "complete-mcq-40",
-        "complete-mcq-39",
-        "complete-mcq-41",
+        "complete-reviewed-30f83fe13c",
+        "complete-reviewed-8fd055fd8a",
         "complete-mcq-38",
-        "complete-mcq-42",
-        "complete-mcq-37"
+        "complete-mcq-25"
       ],
-      "explanation": "本句的「complete」指「物業交易正式完成成交／交收的階段」。",
+      "explanation": "對照完整句子：「分析需要完整資料。」。這裡的「complete」表示「資料完整」。",
       "sentenceIndex": 48,
       "sourcePractice": 49,
       "targets": [
         "complete"
       ],
       "optionReasons": {
-        "complete-mcq-40": "本句指「物業交易正式完成成交／交收的階段」。",
-        "complete-mcq-39": "「完成、完工的過程或狀態」與本句語境不同。",
-        "complete-mcq-41": "「成功傳球一次」與本句語境不同。",
-        "complete-mcq-38": "「自動補全輸入／程式碼」與本句語境不同。",
-        "complete-mcq-42": "「完井；使鑽井準備好生產／注入的工程」與本句語境不同。",
-        "complete-mcq-37": "「具有通用計算能力的圖靈完備」與本句語境不同。"
+        "complete-reviewed-30f83fe13c": "對照完整句子：「分析需要完整資料。」。這裡的「complete」表示「資料完整」。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "complete-mcq-40"
+      "correctOption": "complete-reviewed-30f83fe13c",
+      "previousCorrectOption": "complete-mcq-40",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "complete-72-0",
@@ -2312,11 +2162,9 @@ export default {
       "masked": "The room was ____ empty.",
       "options": [
         "complete-mcq-43",
-        "complete-mcq-42",
-        "complete-mcq-44",
-        "complete-mcq-41",
-        "complete-mcq-45",
-        "complete-mcq-40"
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-22",
+        "complete-mcq-25"
       ],
       "explanation": "本句的「completely」指「完全地、徹底地」。",
       "sentenceIndex": 49,
@@ -2325,12 +2173,10 @@ export default {
         "completely"
       ],
       "optionReasons": {
-        "complete-mcq-43": "本句指「完全地、徹底地」。",
-        "complete-mcq-42": "「完井；使鑽井準備好生產／注入的工程」與本句語境不同。",
-        "complete-mcq-44": "「完整性；專業數學／邏輯可指完備性」與本句語境不同。",
-        "complete-mcq-41": "「成功傳球一次」與本句語境不同。",
-        "complete-mcq-45": "「缺少必要部分或尚未完成的」與本句語境不同。",
-        "complete-mcq-40": "「物業交易正式完成成交／交收的階段」與本句語境不同。"
+        "complete-mcq-43": "本句的「completely」指「完全地、徹底地」。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-43"
     },
@@ -2342,11 +2188,9 @@ export default {
       "masked": "I ____ agree.",
       "options": [
         "complete-mcq-43",
-        "complete-mcq-42",
-        "complete-mcq-44",
-        "complete-mcq-41",
-        "complete-mcq-45",
-        "complete-mcq-40"
+        "complete-mcq-25",
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-04"
       ],
       "explanation": "本句的「completely」指「完全地、徹底地」。",
       "sentenceIndex": 50,
@@ -2355,12 +2199,10 @@ export default {
         "completely"
       ],
       "optionReasons": {
-        "complete-mcq-43": "本句指「完全地、徹底地」。",
-        "complete-mcq-42": "「完井；使鑽井準備好生產／注入的工程」與本句語境不同。",
-        "complete-mcq-44": "「完整性；專業數學／邏輯可指完備性」與本句語境不同。",
-        "complete-mcq-41": "「成功傳球一次」與本句語境不同。",
-        "complete-mcq-45": "「缺少必要部分或尚未完成的」與本句語境不同。",
-        "complete-mcq-40": "「物業交易正式完成成交／交收的階段」與本句語境不同。"
+        "complete-mcq-43": "本句的「completely」指「完全地、徹底地」。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-43"
     },
@@ -2372,11 +2214,9 @@ export default {
       "masked": "The two situations are ____ different.",
       "options": [
         "complete-mcq-43",
-        "complete-mcq-42",
-        "complete-mcq-44",
-        "complete-mcq-41",
-        "complete-mcq-45",
-        "complete-mcq-40"
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-25",
+        "complete-mcq-04"
       ],
       "explanation": "本句的「completely」指「完全地、徹底地」。",
       "sentenceIndex": 51,
@@ -2385,12 +2225,10 @@ export default {
         "completely"
       ],
       "optionReasons": {
-        "complete-mcq-43": "本句指「完全地、徹底地」。",
-        "complete-mcq-42": "「完井；使鑽井準備好生產／注入的工程」與本句語境不同。",
-        "complete-mcq-44": "「完整性；專業數學／邏輯可指完備性」與本句語境不同。",
-        "complete-mcq-41": "「成功傳球一次」與本句語境不同。",
-        "complete-mcq-45": "「缺少必要部分或尚未完成的」與本句語境不同。",
-        "complete-mcq-40": "「物業交易正式完成成交／交收的階段」與本句語境不同。"
+        "complete-mcq-43": "本句的「completely」指「完全地、徹底地」。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-43"
     },
@@ -2402,11 +2240,9 @@ export default {
       "masked": "Make sure the paint dries ____.",
       "options": [
         "complete-mcq-43",
-        "complete-mcq-42",
-        "complete-mcq-44",
-        "complete-mcq-41",
-        "complete-mcq-45",
-        "complete-mcq-40"
+        "complete-mcq-25",
+        "complete-mcq-04",
+        "complete-reviewed-8fd055fd8a"
       ],
       "explanation": "本句的「completely」指「完全地、徹底地」。",
       "sentenceIndex": 52,
@@ -2415,12 +2251,10 @@ export default {
         "completely"
       ],
       "optionReasons": {
-        "complete-mcq-43": "本句指「完全地、徹底地」。",
-        "complete-mcq-42": "「完井；使鑽井準備好生產／注入的工程」與本句語境不同。",
-        "complete-mcq-44": "「完整性；專業數學／邏輯可指完備性」與本句語境不同。",
-        "complete-mcq-41": "「成功傳球一次」與本句語境不同。",
-        "complete-mcq-45": "「缺少必要部分或尚未完成的」與本句語境不同。",
-        "complete-mcq-40": "「物業交易正式完成成交／交收的階段」與本句語境不同。"
+        "complete-mcq-43": "本句的「completely」指「完全地、徹底地」。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-43"
     },
@@ -2432,11 +2266,9 @@ export default {
       "masked": "The project is nearing ____.",
       "options": [
         "complete-mcq-44",
-        "complete-mcq-43",
-        "complete-mcq-45",
-        "complete-mcq-42",
-        "complete-mcq-46",
-        "complete-mcq-41"
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-38",
+        "complete-mcq-12"
       ],
       "explanation": "本句的「completion」指「完整性；專業數學／邏輯可指完備性」。",
       "sentenceIndex": 53,
@@ -2445,12 +2277,10 @@ export default {
         "completion"
       ],
       "optionReasons": {
-        "complete-mcq-44": "本句指「完整性；專業數學／邏輯可指完備性」。",
-        "complete-mcq-43": "「完全地、徹底地」與本句語境不同。",
-        "complete-mcq-45": "「缺少必要部分或尚未完成的」與本句語境不同。",
-        "complete-mcq-42": "「完井；使鑽井準備好生產／注入的工程」與本句語境不同。",
-        "complete-mcq-46": "「某些教育制度中的未完成／暫緩評分成績」與本句語境不同。",
-        "complete-mcq-41": "「成功傳球一次」與本句語境不同。"
+        "complete-mcq-44": "本句的「completion」指「完整性；專業數學／邏輯可指完備性」。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-44"
     },
@@ -2462,11 +2292,9 @@ export default {
       "masked": "Payment is due on ____ of the work.",
       "options": [
         "complete-mcq-44",
-        "complete-mcq-43",
-        "complete-mcq-45",
-        "complete-mcq-42",
-        "complete-mcq-46",
-        "complete-mcq-41"
+        "complete-mcq-25",
+        "complete-mcq-12",
+        "complete-mcq-38"
       ],
       "explanation": "本句的「completion」指「完整性；專業數學／邏輯可指完備性」。",
       "sentenceIndex": 54,
@@ -2475,12 +2303,10 @@ export default {
         "completion"
       ],
       "optionReasons": {
-        "complete-mcq-44": "本句指「完整性；專業數學／邏輯可指完備性」。",
-        "complete-mcq-43": "「完全地、徹底地」與本句語境不同。",
-        "complete-mcq-45": "「缺少必要部分或尚未完成的」與本句語境不同。",
-        "complete-mcq-42": "「完井；使鑽井準備好生產／注入的工程」與本句語境不同。",
-        "complete-mcq-46": "「某些教育制度中的未完成／暫緩評分成績」與本句語境不同。",
-        "complete-mcq-41": "「成功傳球一次」與本句語境不同。"
+        "complete-mcq-44": "本句的「completion」指「完整性；專業數學／邏輯可指完備性」。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-44"
     },
@@ -2492,11 +2318,9 @@ export default {
       "masked": "The auditor checked the ____ of the records.",
       "options": [
         "complete-mcq-44",
-        "complete-mcq-43",
-        "complete-mcq-45",
-        "complete-mcq-42",
-        "complete-mcq-46",
-        "complete-mcq-41"
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-38",
+        "complete-mcq-04"
       ],
       "explanation": "本句的「completeness」指「完整性；專業數學／邏輯可指完備性」。",
       "sentenceIndex": 55,
@@ -2505,12 +2329,10 @@ export default {
         "completeness"
       ],
       "optionReasons": {
-        "complete-mcq-44": "本句指「完整性；專業數學／邏輯可指完備性」。",
-        "complete-mcq-43": "「完全地、徹底地」與本句語境不同。",
-        "complete-mcq-45": "「缺少必要部分或尚未完成的」與本句語境不同。",
-        "complete-mcq-42": "「完井；使鑽井準備好生產／注入的工程」與本句語境不同。",
-        "complete-mcq-46": "「某些教育制度中的未完成／暫緩評分成績」與本句語境不同。",
-        "complete-mcq-41": "「成功傳球一次」與本句語境不同。"
+        "complete-mcq-44": "本句的「completeness」指「完整性；專業數學／邏輯可指完備性」。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-44"
     },
@@ -2522,11 +2344,9 @@ export default {
       "masked": "We cannot guarantee the accuracy or ____ of the information.",
       "options": [
         "complete-mcq-44",
-        "complete-mcq-43",
-        "complete-mcq-45",
-        "complete-mcq-42",
-        "complete-mcq-46",
-        "complete-mcq-41"
+        "complete-mcq-25",
+        "complete-mcq-12",
+        "complete-mcq-38"
       ],
       "explanation": "本句的「completeness」指「完整性；專業數學／邏輯可指完備性」。",
       "sentenceIndex": 56,
@@ -2535,12 +2355,10 @@ export default {
         "completeness"
       ],
       "optionReasons": {
-        "complete-mcq-44": "本句指「完整性；專業數學／邏輯可指完備性」。",
-        "complete-mcq-43": "「完全地、徹底地」與本句語境不同。",
-        "complete-mcq-45": "「缺少必要部分或尚未完成的」與本句語境不同。",
-        "complete-mcq-42": "「完井；使鑽井準備好生產／注入的工程」與本句語境不同。",
-        "complete-mcq-46": "「某些教育制度中的未完成／暫緩評分成績」與本句語境不同。",
-        "complete-mcq-41": "「成功傳球一次」與本句語境不同。"
+        "complete-mcq-44": "本句的「completeness」指「完整性；專業數學／邏輯可指完備性」。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-44"
     },
@@ -2552,11 +2370,9 @@ export default {
       "masked": "The application is ____.",
       "options": [
         "complete-mcq-45",
-        "complete-mcq-44",
-        "complete-mcq-46",
-        "complete-mcq-43",
-        "complete-mcq-47",
-        "complete-mcq-42"
+        "complete-mcq-21",
+        "complete-mcq-04",
+        "complete-reviewed-8fd055fd8a"
       ],
       "explanation": "本句的「incomplete」指「缺少必要部分或尚未完成的」。",
       "sentenceIndex": 57,
@@ -2565,12 +2381,10 @@ export default {
         "incomplete"
       ],
       "optionReasons": {
-        "complete-mcq-45": "本句指「缺少必要部分或尚未完成的」。",
-        "complete-mcq-44": "「完整性；專業數學／邏輯可指完備性」與本句語境不同。",
-        "complete-mcq-46": "「某些教育制度中的未完成／暫緩評分成績」與本句語境不同。",
-        "complete-mcq-43": "「完全地、徹底地」與本句語境不同。",
-        "complete-mcq-47": "「尚未完成的，強調工作過程未結束」與本句語境不同。",
-        "complete-mcq-42": "「完井；使鑽井準備好生產／注入的工程」與本句語境不同。"
+        "complete-mcq-45": "本句的「incomplete」指「缺少必要部分或尚未完成的」。",
+        "complete-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-45"
     },
@@ -2582,11 +2396,9 @@ export default {
       "masked": "We only have an ____ picture of what happened.",
       "options": [
         "complete-mcq-45",
-        "complete-mcq-44",
-        "complete-mcq-46",
-        "complete-mcq-43",
-        "complete-mcq-47",
-        "complete-mcq-42"
+        "complete-mcq-21",
+        "complete-mcq-38",
+        "complete-reviewed-8fd055fd8a"
       ],
       "explanation": "本句的「incomplete」指「缺少必要部分或尚未完成的」。",
       "sentenceIndex": 58,
@@ -2595,12 +2407,10 @@ export default {
         "incomplete"
       ],
       "optionReasons": {
-        "complete-mcq-45": "本句指「缺少必要部分或尚未完成的」。",
-        "complete-mcq-44": "「完整性；專業數學／邏輯可指完備性」與本句語境不同。",
-        "complete-mcq-46": "「某些教育制度中的未完成／暫緩評分成績」與本句語境不同。",
-        "complete-mcq-43": "「完全地、徹底地」與本句語境不同。",
-        "complete-mcq-47": "「尚未完成的，強調工作過程未結束」與本句語境不同。",
-        "complete-mcq-42": "「完井；使鑽井準備好生產／注入的工程」與本句語境不同。"
+        "complete-mcq-45": "本句的「incomplete」指「缺少必要部分或尚未完成的」。",
+        "complete-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-45"
     },
@@ -2612,11 +2422,9 @@ export default {
       "masked": "The work remains ____.",
       "options": [
         "complete-mcq-45",
-        "complete-mcq-44",
-        "complete-mcq-46",
-        "complete-mcq-43",
-        "complete-mcq-47",
-        "complete-mcq-42"
+        "complete-mcq-22",
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-21"
       ],
       "explanation": "本句的「incomplete」指「缺少必要部分或尚未完成的」。",
       "sentenceIndex": 59,
@@ -2625,44 +2433,40 @@ export default {
         "incomplete"
       ],
       "optionReasons": {
-        "complete-mcq-45": "本句指「缺少必要部分或尚未完成的」。",
-        "complete-mcq-44": "「完整性；專業數學／邏輯可指完備性」與本句語境不同。",
-        "complete-mcq-46": "「某些教育制度中的未完成／暫緩評分成績」與本句語境不同。",
-        "complete-mcq-43": "「完全地、徹底地」與本句語境不同。",
-        "complete-mcq-47": "「尚未完成的，強調工作過程未結束」與本句語境不同。",
-        "complete-mcq-42": "「完井；使鑽井準備好生產／注入的工程」與本句語境不同。"
+        "complete-mcq-45": "本句的「incomplete」指「缺少必要部分或尚未完成的」。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-45"
     },
     {
       "id": "complete-85-0",
-      "sense": "complete-mcq-46",
+      "sense": "complete-reviewed-1b640282f2",
       "en": "‘Because I was tired’ may be treated as an incomplete sentence in traditional classroom grammar.",
       "zh": "在傳統課堂文法中，‘Because I was tired’ 可能被視為不完整句子。",
       "masked": "‘Because I was tired’ may be treated as an ____ in traditional classroom grammar.",
       "options": [
-        "complete-mcq-46",
-        "complete-mcq-45",
-        "complete-mcq-47",
-        "complete-mcq-44",
-        "complete-mcq-48",
-        "complete-mcq-43"
+        "complete-reviewed-1b640282f2",
+        "complete-mcq-22",
+        "complete-mcq-25",
+        "complete-mcq-38"
       ],
-      "explanation": "本句的「incomplete sentence」指「某些教育制度中的未完成／暫緩評分成績」。",
+      "explanation": "對照完整句子：「在傳統課堂文法中，‘Because I was tired’ 可能被視為不完整句子。」。這裡的「incomplete sentence」表示「不完整句」。",
       "sentenceIndex": 60,
       "sourcePractice": 61,
       "targets": [
         "incomplete sentence"
       ],
       "optionReasons": {
-        "complete-mcq-46": "本句指「某些教育制度中的未完成／暫緩評分成績」。",
-        "complete-mcq-45": "「缺少必要部分或尚未完成的」與本句語境不同。",
-        "complete-mcq-47": "「尚未完成的，強調工作過程未結束」與本句語境不同。",
-        "complete-mcq-44": "「完整性；專業數學／邏輯可指完備性」與本句語境不同。",
-        "complete-mcq-48": "「希望把遊戲／收藏全部完成、收集齊全的人」與本句語境不同。",
-        "complete-mcq-43": "「完全地、徹底地」與本句語境不同。"
+        "complete-reviewed-1b640282f2": "對照完整句子：「在傳統課堂文法中，‘Because I was tired’ 可能被視為不完整句子。」。這裡的「incomplete sentence」表示「不完整句」。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "complete-mcq-46"
+      "correctOption": "complete-reviewed-1b640282f2",
+      "previousCorrectOption": "complete-mcq-46",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "complete-88-0",
@@ -2672,11 +2476,9 @@ export default {
       "masked": "The form was ____ filled out.",
       "options": [
         "complete-mcq-47",
-        "complete-mcq-46",
-        "complete-mcq-48",
-        "complete-mcq-45",
-        "complete-mcq-49",
-        "complete-mcq-44"
+        "complete-mcq-12",
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-08"
       ],
       "explanation": "本句的「incompletely」指「尚未完成的，強調工作過程未結束」。",
       "sentenceIndex": 61,
@@ -2685,12 +2487,10 @@ export default {
         "incompletely"
       ],
       "optionReasons": {
-        "complete-mcq-47": "本句指「尚未完成的，強調工作過程未結束」。",
-        "complete-mcq-46": "「某些教育制度中的未完成／暫緩評分成績」與本句語境不同。",
-        "complete-mcq-48": "「希望把遊戲／收藏全部完成、收集齊全的人」與本句語境不同。",
-        "complete-mcq-45": "「缺少必要部分或尚未完成的」與本句語境不同。",
-        "complete-mcq-49": "「語言學中表示動作完成的完成性／完成體」與本句語境不同。",
-        "complete-mcq-44": "「完整性；專業數學／邏輯可指完備性」與本句語境不同。"
+        "complete-mcq-47": "本句的「incompletely」指「尚未完成的，強調工作過程未結束」。",
+        "complete-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-47"
     },
@@ -2702,11 +2502,9 @@ export default {
       "masked": "A ____ might spend hundreds of hours on the game.",
       "options": [
         "complete-mcq-48",
-        "complete-mcq-47",
-        "complete-mcq-49",
-        "complete-mcq-46",
-        "complete-mcq-45",
-        "complete-mcq-44"
+        "complete-reviewed-8fd055fd8a",
+        "complete-mcq-22",
+        "complete-mcq-04"
       ],
       "explanation": "本句的「completionist」指「希望把遊戲／收藏全部完成、收集齊全的人」。",
       "sentenceIndex": 62,
@@ -2715,12 +2513,10 @@ export default {
         "completionist"
       ],
       "optionReasons": {
-        "complete-mcq-48": "本句指「希望把遊戲／收藏全部完成、收集齊全的人」。",
-        "complete-mcq-47": "「尚未完成的，強調工作過程未結束」與本句語境不同。",
-        "complete-mcq-49": "「語言學中表示動作完成的完成性／完成體」與本句語境不同。",
-        "complete-mcq-46": "「某些教育制度中的未完成／暫緩評分成績」與本句語境不同。",
-        "complete-mcq-45": "「缺少必要部分或尚未完成的」與本句語境不同。",
-        "complete-mcq-44": "「完整性；專業數學／邏輯可指完備性」與本句語境不同。"
+        "complete-mcq-48": "本句的「completionist」指「希望把遊戲／收藏全部完成、收集齊全的人」。",
+        "complete-reviewed-8fd055fd8a": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complete-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complete-mcq-48"
     }
@@ -2732,5 +2528,7 @@ export default {
     "sha256": "253237063eb4879cf077dc3ddeaeddf69c5de77ede0ec5b05bd069f098d0498f",
     "pages": 49
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

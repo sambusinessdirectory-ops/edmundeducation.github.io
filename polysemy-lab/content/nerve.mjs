@@ -490,7 +490,7 @@ export default {
     },
     {
       "id": "nerve-mcq-25",
-      "title": "表示神經",
+      "title": "神經",
       "form": "2. nerve — anatomical structure",
       "en": "2. nerve — anatomical structure",
       "zh": "表示神經",
@@ -520,11 +520,9 @@ export default {
       "masked": "The chapter about regret really ____.",
       "options": [
         "nerve-mcq-24",
-        "nerve-mcq-23",
-        "nerve-mcq-25",
-        "nerve-mcq-22",
-        "nerve-mcq-21",
-        "nerve-mcq-20"
+        "nerve-mcq-13",
+        "nerve-mcq-07",
+        "nerve-mcq-12"
       ],
       "explanation": "本句的「hit a nerve」指「觸動敏感點；戳中痛處；引起強烈共鳴」。",
       "sentenceIndex": 0,
@@ -533,12 +531,10 @@ export default {
         "hit a nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-24": "本句指「觸動敏感點；戳中痛處；引起強烈共鳴」。",
-        "nerve-mcq-23": "「雙方以心理壓力消耗對方的心理戰／意志較量」是「war of nerves」的用法，與本句語境不同。",
-        "nerve-mcq-25": "「表示神經」是「2. nerve — anatomical structure」的用法，與本句語境不同。",
-        "nerve-mcq-22": "「緊張不安的」是「nervy — anxious」的用法，與本句語境不同。",
-        "nerve-mcq-21": "「大膽甚至有點冒失／厚臉皮的」是「nervy — bold」的用法，與本句語境不同。",
-        "nerve-mcq-20": "「大腦、脊髓及神經組成的神經系統」是「nervous system」的用法，與本句語境不同。"
+        "nerve-mcq-24": "本句的「hit a nerve」指「觸動敏感點；戳中痛處；引起強烈共鳴」。",
+        "nerve-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-24"
     },
@@ -550,11 +546,9 @@ export default {
       "masked": "His comment ____ because it reminded her of an old insecurity.",
       "options": [
         "nerve-mcq-24",
-        "nerve-mcq-23",
-        "nerve-mcq-25",
-        "nerve-mcq-22",
-        "nerve-mcq-21",
-        "nerve-mcq-20"
+        "nerve-mcq-20",
+        "nerve-mcq-03",
+        "nerve-mcq-12"
       ],
       "explanation": "本句的「hit a nerve」指「觸動敏感點；戳中痛處；引起強烈共鳴」。",
       "sentenceIndex": 1,
@@ -563,12 +557,10 @@ export default {
         "hit a nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-24": "本句指「觸動敏感點；戳中痛處；引起強烈共鳴」。",
-        "nerve-mcq-23": "「雙方以心理壓力消耗對方的心理戰／意志較量」是「war of nerves」的用法，與本句語境不同。",
-        "nerve-mcq-25": "「表示神經」是「2. nerve — anatomical structure」的用法，與本句語境不同。",
-        "nerve-mcq-22": "「緊張不安的」是「nervy — anxious」的用法，與本句語境不同。",
-        "nerve-mcq-21": "「大膽甚至有點冒失／厚臉皮的」是「nervy — bold」的用法，與本句語境不同。",
-        "nerve-mcq-20": "「大腦、脊髓及神經組成的神經系統」是「nervous system」的用法，與本句語境不同。"
+        "nerve-mcq-24": "本句的「hit a nerve」指「觸動敏感點；戳中痛處；引起強烈共鳴」。",
+        "nerve-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-24"
     },
@@ -580,11 +572,9 @@ export default {
       "masked": "The injury damaged a ____ in his hand.",
       "options": [
         "nerve-mcq-25",
-        "nerve-mcq-24",
-        "nerve-mcq-23",
-        "nerve-mcq-22",
-        "nerve-mcq-21",
-        "nerve-mcq-20"
+        "nerve-mcq-05",
+        "nerve-mcq-09",
+        "nerve-mcq-06"
       ],
       "explanation": "本句的「nerve」指「表示神經」。",
       "sentenceIndex": 2,
@@ -593,12 +583,10 @@ export default {
         "nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-25": "本句指「表示神經」。",
-        "nerve-mcq-24": "「觸動敏感點；戳中痛處；引起強烈共鳴」是「Passage meaning」的用法，與本句語境不同。",
-        "nerve-mcq-23": "「雙方以心理壓力消耗對方的心理戰／意志較量」是「war of nerves」的用法，與本句語境不同。",
-        "nerve-mcq-22": "「緊張不安的」是「nervy — anxious」的用法，與本句語境不同。",
-        "nerve-mcq-21": "「大膽甚至有點冒失／厚臉皮的」是「nervy — bold」的用法，與本句語境不同。",
-        "nerve-mcq-20": "「大腦、脊髓及神經組成的神經系統」是「nervous system」的用法，與本句語境不同。"
+        "nerve-mcq-25": "本句的「nerve」指「表示神經」。",
+        "nerve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-25"
     },
@@ -610,11 +598,9 @@ export default {
       "masked": "The dentist tried to avoid touching the ____.",
       "options": [
         "nerve-mcq-25",
-        "nerve-mcq-24",
-        "nerve-mcq-23",
-        "nerve-mcq-22",
-        "nerve-mcq-21",
-        "nerve-mcq-20"
+        "nerve-mcq-11",
+        "nerve-mcq-06",
+        "nerve-mcq-04"
       ],
       "explanation": "本句的「nerve」指「表示神經」。",
       "sentenceIndex": 3,
@@ -623,12 +609,10 @@ export default {
         "nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-25": "本句指「表示神經」。",
-        "nerve-mcq-24": "「觸動敏感點；戳中痛處；引起強烈共鳴」是「Passage meaning」的用法，與本句語境不同。",
-        "nerve-mcq-23": "「雙方以心理壓力消耗對方的心理戰／意志較量」是「war of nerves」的用法，與本句語境不同。",
-        "nerve-mcq-22": "「緊張不安的」是「nervy — anxious」的用法，與本句語境不同。",
-        "nerve-mcq-21": "「大膽甚至有點冒失／厚臉皮的」是「nervy — bold」的用法，與本句語境不同。",
-        "nerve-mcq-20": "「大腦、脊髓及神經組成的神經系統」是「nervous system」的用法，與本句語境不同。"
+        "nerve-mcq-25": "本句的「nerve」指「表示神經」。",
+        "nerve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-25"
     },
@@ -640,11 +624,9 @@ export default {
       "masked": "The skin contains many ____.",
       "options": [
         "nerve-mcq-02",
-        "nerve-mcq-01",
-        "nerve-mcq-03",
         "nerve-mcq-04",
-        "nerve-mcq-05",
-        "nerve-mcq-06"
+        "nerve-mcq-23",
+        "nerve-mcq-14"
       ],
       "explanation": "本句的「nerve endings」指「感受疼痛、觸覺、溫度等的神經末梢」。",
       "sentenceIndex": 4,
@@ -653,12 +635,10 @@ export default {
         "nerve endings"
       ],
       "optionReasons": {
-        "nerve-mcq-02": "本句指「感受疼痛、觸覺、溫度等的神經末梢」。",
-        "nerve-mcq-01": "「傳遞身體感覺與訊號的神經」是「nerve — anatomy」的用法，與本句語境不同。",
-        "nerve-mcq-03": "「面對危險、壓力或困難時的膽量／勇氣」是「nerve — courage」的用法，與本句語境不同。",
-        "nerve-mcq-04": "「在關鍵時刻失去勇氣或信心；怯場」是「lose your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-05": "「在壓力下保持鎮定與勇氣」是「hold your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-06": "「令人吃驚或無禮的大膽；厚臉皮／竟敢」是「nerve — audacity」的用法，與本句語境不同。"
+        "nerve-mcq-02": "本句的「nerve endings」指「感受疼痛、觸覺、溫度等的神經末梢」。",
+        "nerve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-02"
     },
@@ -670,11 +650,9 @@ export default {
       "masked": "Cold can affect the ____ in your fingers.",
       "options": [
         "nerve-mcq-02",
-        "nerve-mcq-01",
-        "nerve-mcq-03",
-        "nerve-mcq-04",
-        "nerve-mcq-05",
-        "nerve-mcq-06"
+        "nerve-mcq-14",
+        "nerve-mcq-12",
+        "nerve-mcq-05"
       ],
       "explanation": "本句的「nerve endings」指「感受疼痛、觸覺、溫度等的神經末梢」。",
       "sentenceIndex": 5,
@@ -683,12 +661,10 @@ export default {
         "nerve endings"
       ],
       "optionReasons": {
-        "nerve-mcq-02": "本句指「感受疼痛、觸覺、溫度等的神經末梢」。",
-        "nerve-mcq-01": "「傳遞身體感覺與訊號的神經」是「nerve — anatomy」的用法，與本句語境不同。",
-        "nerve-mcq-03": "「面對危險、壓力或困難時的膽量／勇氣」是「nerve — courage」的用法，與本句語境不同。",
-        "nerve-mcq-04": "「在關鍵時刻失去勇氣或信心；怯場」是「lose your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-05": "「在壓力下保持鎮定與勇氣」是「hold your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-06": "「令人吃驚或無禮的大膽；厚臉皮／竟敢」是「nerve — audacity」的用法，與本句語境不同。"
+        "nerve-mcq-02": "本句的「nerve endings」指「感受疼痛、觸覺、溫度等的神經末梢」。",
+        "nerve-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-02"
     },
@@ -700,11 +676,9 @@ export default {
       "masked": "She had the ____ to speak in front of hundreds of people.",
       "options": [
         "nerve-mcq-03",
-        "nerve-mcq-02",
-        "nerve-mcq-04",
-        "nerve-mcq-01",
-        "nerve-mcq-05",
-        "nerve-mcq-06"
+        "nerve-mcq-22",
+        "nerve-mcq-25",
+        "nerve-mcq-08"
       ],
       "explanation": "本句的「nerve」指「面對危險、壓力或困難時的膽量／勇氣」。",
       "sentenceIndex": 6,
@@ -713,12 +687,10 @@ export default {
         "nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-03": "本句指「面對危險、壓力或困難時的膽量／勇氣」。",
-        "nerve-mcq-02": "「感受疼痛、觸覺、溫度等的神經末梢」是「nerve endings」的用法，與本句語境不同。",
-        "nerve-mcq-04": "「在關鍵時刻失去勇氣或信心；怯場」是「lose your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-01": "「傳遞身體感覺與訊號的神經」是「nerve — anatomy」的用法，與本句語境不同。",
-        "nerve-mcq-05": "「在壓力下保持鎮定與勇氣」是「hold your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-06": "「令人吃驚或無禮的大膽；厚臉皮／竟敢」是「nerve — audacity」的用法，與本句語境不同。"
+        "nerve-mcq-03": "本句的「nerve」指「面對危險、壓力或困難時的膽量／勇氣」。",
+        "nerve-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-03"
     },
@@ -730,11 +702,9 @@ export default {
       "masked": "I don’t think I’d have the ____ to do that.",
       "options": [
         "nerve-mcq-03",
-        "nerve-mcq-02",
-        "nerve-mcq-04",
-        "nerve-mcq-01",
-        "nerve-mcq-05",
-        "nerve-mcq-06"
+        "nerve-mcq-24",
+        "nerve-mcq-25",
+        "nerve-mcq-12"
       ],
       "explanation": "本句的「nerve」指「面對危險、壓力或困難時的膽量／勇氣」。",
       "sentenceIndex": 7,
@@ -743,12 +713,10 @@ export default {
         "nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-03": "本句指「面對危險、壓力或困難時的膽量／勇氣」。",
-        "nerve-mcq-02": "「感受疼痛、觸覺、溫度等的神經末梢」是「nerve endings」的用法，與本句語境不同。",
-        "nerve-mcq-04": "「在關鍵時刻失去勇氣或信心；怯場」是「lose your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-01": "「傳遞身體感覺與訊號的神經」是「nerve — anatomy」的用法，與本句語境不同。",
-        "nerve-mcq-05": "「在壓力下保持鎮定與勇氣」是「hold your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-06": "「令人吃驚或無禮的大膽；厚臉皮／竟敢」是「nerve — audacity」的用法，與本句語境不同。"
+        "nerve-mcq-03": "本句的「nerve」指「面對危險、壓力或困難時的膽量／勇氣」。",
+        "nerve-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-03"
     },
@@ -760,11 +728,9 @@ export default {
       "masked": "He ____ just before the jump.",
       "options": [
         "nerve-mcq-04",
-        "nerve-mcq-03",
-        "nerve-mcq-05",
-        "nerve-mcq-02",
-        "nerve-mcq-06",
-        "nerve-mcq-01"
+        "nerve-mcq-15",
+        "nerve-mcq-24",
+        "nerve-mcq-14"
       ],
       "explanation": "本句的「lost his nerve」指「在關鍵時刻失去勇氣或信心；怯場」。",
       "sentenceIndex": 8,
@@ -773,12 +739,10 @@ export default {
         "lost his nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-04": "本句指「在關鍵時刻失去勇氣或信心；怯場」。",
-        "nerve-mcq-03": "「面對危險、壓力或困難時的膽量／勇氣」是「nerve — courage」的用法，與本句語境不同。",
-        "nerve-mcq-05": "「在壓力下保持鎮定與勇氣」是「hold your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-02": "「感受疼痛、觸覺、溫度等的神經末梢」是「nerve endings」的用法，與本句語境不同。",
-        "nerve-mcq-06": "「令人吃驚或無禮的大膽；厚臉皮／竟敢」是「nerve — audacity」的用法，與本句語境不同。",
-        "nerve-mcq-01": "「傳遞身體感覺與訊號的神經」是「nerve — anatomy」的用法，與本句語境不同。"
+        "nerve-mcq-04": "本句的「lost his nerve」指「在關鍵時刻失去勇氣或信心；怯場」。",
+        "nerve-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-04"
     },
@@ -790,11 +754,9 @@ export default {
       "masked": "Don’t ____ now.",
       "options": [
         "nerve-mcq-04",
-        "nerve-mcq-03",
-        "nerve-mcq-05",
-        "nerve-mcq-02",
+        "nerve-mcq-22",
         "nerve-mcq-06",
-        "nerve-mcq-01"
+        "nerve-mcq-25"
       ],
       "explanation": "本句的「lose your nerve」指「在關鍵時刻失去勇氣或信心；怯場」。",
       "sentenceIndex": 9,
@@ -803,12 +765,10 @@ export default {
         "lose your nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-04": "本句指「在關鍵時刻失去勇氣或信心；怯場」。",
-        "nerve-mcq-03": "「面對危險、壓力或困難時的膽量／勇氣」是「nerve — courage」的用法，與本句語境不同。",
-        "nerve-mcq-05": "「在壓力下保持鎮定與勇氣」是「hold your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-02": "「感受疼痛、觸覺、溫度等的神經末梢」是「nerve endings」的用法，與本句語境不同。",
-        "nerve-mcq-06": "「令人吃驚或無禮的大膽；厚臉皮／竟敢」是「nerve — audacity」的用法，與本句語境不同。",
-        "nerve-mcq-01": "「傳遞身體感覺與訊號的神經」是「nerve — anatomy」的用法，與本句語境不同。"
+        "nerve-mcq-04": "本句的「lose your nerve」指「在關鍵時刻失去勇氣或信心；怯場」。",
+        "nerve-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-04"
     },
@@ -820,11 +780,9 @@ export default {
       "masked": "She ____ and finished the presentation.",
       "options": [
         "nerve-mcq-05",
-        "nerve-mcq-04",
-        "nerve-mcq-06",
-        "nerve-mcq-03",
-        "nerve-mcq-07",
-        "nerve-mcq-02"
+        "nerve-mcq-08",
+        "nerve-mcq-17",
+        "nerve-mcq-14"
       ],
       "explanation": "本句的「held her nerve」指「在壓力下保持鎮定與勇氣」。",
       "sentenceIndex": 10,
@@ -833,12 +791,10 @@ export default {
         "held her nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-05": "本句指「在壓力下保持鎮定與勇氣」。",
-        "nerve-mcq-04": "「在關鍵時刻失去勇氣或信心；怯場」是「lose your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-06": "「令人吃驚或無禮的大膽；厚臉皮／竟敢」是「nerve — audacity」的用法，與本句語境不同。",
-        "nerve-mcq-03": "「面對危險、壓力或困難時的膽量／勇氣」是「nerve — courage」的用法，與本句語境不同。",
-        "nerve-mcq-07": "「有膽量做某事；負面語氣時指竟敢／厚著臉皮做」是「have the nerve to do」的用法，與本句語境不同。",
-        "nerve-mcq-02": "「感受疼痛、觸覺、溫度等的神經末梢」是「nerve endings」的用法，與本句語境不同。"
+        "nerve-mcq-05": "本句的「held her nerve」指「在壓力下保持鎮定與勇氣」。",
+        "nerve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-05"
     },
@@ -850,11 +806,9 @@ export default {
       "masked": "The player ____ in the final seconds.",
       "options": [
         "nerve-mcq-05",
-        "nerve-mcq-04",
         "nerve-mcq-06",
-        "nerve-mcq-03",
-        "nerve-mcq-07",
-        "nerve-mcq-02"
+        "nerve-mcq-24",
+        "nerve-mcq-22"
       ],
       "explanation": "本句的「held his nerve」指「在壓力下保持鎮定與勇氣」。",
       "sentenceIndex": 11,
@@ -863,12 +817,10 @@ export default {
         "held his nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-05": "本句指「在壓力下保持鎮定與勇氣」。",
-        "nerve-mcq-04": "「在關鍵時刻失去勇氣或信心；怯場」是「lose your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-06": "「令人吃驚或無禮的大膽；厚臉皮／竟敢」是「nerve — audacity」的用法，與本句語境不同。",
-        "nerve-mcq-03": "「面對危險、壓力或困難時的膽量／勇氣」是「nerve — courage」的用法，與本句語境不同。",
-        "nerve-mcq-07": "「有膽量做某事；負面語氣時指竟敢／厚著臉皮做」是「have the nerve to do」的用法，與本句語境不同。",
-        "nerve-mcq-02": "「感受疼痛、觸覺、溫度等的神經末梢」是「nerve endings」的用法，與本句語境不同。"
+        "nerve-mcq-05": "本句的「held his nerve」指「在壓力下保持鎮定與勇氣」。",
+        "nerve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-05"
     },
@@ -881,10 +833,8 @@ export default {
       "options": [
         "nerve-mcq-06",
         "nerve-mcq-05",
-        "nerve-mcq-07",
-        "nerve-mcq-04",
-        "nerve-mcq-08",
-        "nerve-mcq-03"
+        "nerve-mcq-14",
+        "nerve-mcq-25"
       ],
       "explanation": "本句的「nerve」指「令人吃驚或無禮的大膽；厚臉皮／竟敢」。",
       "sentenceIndex": 12,
@@ -893,12 +843,10 @@ export default {
         "nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-06": "本句指「令人吃驚或無禮的大膽；厚臉皮／竟敢」。",
-        "nerve-mcq-05": "「在壓力下保持鎮定與勇氣」是「hold your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-07": "「有膽量做某事；負面語氣時指竟敢／厚著臉皮做」是「have the nerve to do」的用法，與本句語境不同。",
-        "nerve-mcq-04": "「在關鍵時刻失去勇氣或信心；怯場」是「lose your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-08": "「觸及某人情緒上敏感的地方；戳中痛處」是「hit a nerve」的用法，與本句語境不同。",
-        "nerve-mcq-03": "「面對危險、壓力或困難時的膽量／勇氣」是「nerve — courage」的用法，與本句語境不同。"
+        "nerve-mcq-06": "本句的「nerve」指「令人吃驚或無禮的大膽；厚臉皮／竟敢」。",
+        "nerve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-06"
     },
@@ -910,11 +858,9 @@ export default {
       "masked": "She had the ____ to ask for more money.",
       "options": [
         "nerve-mcq-06",
-        "nerve-mcq-05",
-        "nerve-mcq-07",
-        "nerve-mcq-04",
         "nerve-mcq-08",
-        "nerve-mcq-03"
+        "nerve-mcq-11",
+        "nerve-mcq-04"
       ],
       "explanation": "本句的「nerve」指「令人吃驚或無禮的大膽；厚臉皮／竟敢」。",
       "sentenceIndex": 13,
@@ -923,12 +869,10 @@ export default {
         "nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-06": "本句指「令人吃驚或無禮的大膽；厚臉皮／竟敢」。",
-        "nerve-mcq-05": "「在壓力下保持鎮定與勇氣」是「hold your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-07": "「有膽量做某事；負面語氣時指竟敢／厚著臉皮做」是「have the nerve to do」的用法，與本句語境不同。",
-        "nerve-mcq-04": "「在關鍵時刻失去勇氣或信心；怯場」是「lose your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-08": "「觸及某人情緒上敏感的地方；戳中痛處」是「hit a nerve」的用法，與本句語境不同。",
-        "nerve-mcq-03": "「面對危險、壓力或困難時的膽量／勇氣」是「nerve — courage」的用法，與本句語境不同。"
+        "nerve-mcq-06": "本句的「nerve」指「令人吃驚或無禮的大膽；厚臉皮／竟敢」。",
+        "nerve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-06"
     },
@@ -940,11 +884,9 @@ export default {
       "masked": "You’ve got a ____ asking me that!",
       "options": [
         "nerve-mcq-07",
-        "nerve-mcq-06",
-        "nerve-mcq-08",
-        "nerve-mcq-05",
+        "nerve-mcq-16",
         "nerve-mcq-09",
-        "nerve-mcq-04"
+        "nerve-mcq-11"
       ],
       "explanation": "本句的「nerve」指「有膽量做某事；負面語氣時指竟敢／厚著臉皮做」。",
       "sentenceIndex": 14,
@@ -953,12 +895,10 @@ export default {
         "nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-07": "本句指「有膽量做某事；負面語氣時指竟敢／厚著臉皮做」。",
-        "nerve-mcq-06": "「令人吃驚或無禮的大膽；厚臉皮／竟敢」是「nerve — audacity」的用法，與本句語境不同。",
-        "nerve-mcq-08": "「觸及某人情緒上敏感的地方；戳中痛處」是「hit a nerve」的用法，與本句語境不同。",
-        "nerve-mcq-05": "「在壓力下保持鎮定與勇氣」是「hold your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-09": "「引起強烈情緒反應；觸及敏感點」是「touch a nerve」的用法，與本句語境不同。",
-        "nerve-mcq-04": "「在關鍵時刻失去勇氣或信心；怯場」是「lose your nerve」的用法，與本句語境不同。"
+        "nerve-mcq-07": "本句的「nerve」指「有膽量做某事；負面語氣時指竟敢／厚著臉皮做」。",
+        "nerve-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-07"
     },
@@ -970,11 +910,9 @@ export default {
       "masked": "He’s got a ____ complaining after what he did.",
       "options": [
         "nerve-mcq-07",
-        "nerve-mcq-06",
-        "nerve-mcq-08",
-        "nerve-mcq-05",
-        "nerve-mcq-09",
-        "nerve-mcq-04"
+        "nerve-mcq-15",
+        "nerve-mcq-24",
+        "nerve-mcq-12"
       ],
       "explanation": "本句的「nerve」指「有膽量做某事；負面語氣時指竟敢／厚著臉皮做」。",
       "sentenceIndex": 15,
@@ -983,12 +921,10 @@ export default {
         "nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-07": "本句指「有膽量做某事；負面語氣時指竟敢／厚著臉皮做」。",
-        "nerve-mcq-06": "「令人吃驚或無禮的大膽；厚臉皮／竟敢」是「nerve — audacity」的用法，與本句語境不同。",
-        "nerve-mcq-08": "「觸及某人情緒上敏感的地方；戳中痛處」是「hit a nerve」的用法，與本句語境不同。",
-        "nerve-mcq-05": "「在壓力下保持鎮定與勇氣」是「hold your nerve」的用法，與本句語境不同。",
-        "nerve-mcq-09": "「引起強烈情緒反應；觸及敏感點」是「touch a nerve」的用法，與本句語境不同。",
-        "nerve-mcq-04": "「在關鍵時刻失去勇氣或信心；怯場」是「lose your nerve」的用法，與本句語境不同。"
+        "nerve-mcq-07": "本句的「nerve」指「有膽量做某事；負面語氣時指竟敢／厚著臉皮做」。",
+        "nerve-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-07"
     },
@@ -1000,11 +936,9 @@ export default {
       "masked": "The article ____ with readers.",
       "options": [
         "nerve-mcq-08",
-        "nerve-mcq-07",
-        "nerve-mcq-09",
-        "nerve-mcq-06",
-        "nerve-mcq-10",
-        "nerve-mcq-05"
+        "nerve-mcq-17",
+        "nerve-mcq-03",
+        "nerve-mcq-22"
       ],
       "explanation": "本句的「hit a nerve」指「觸及某人情緒上敏感的地方；戳中痛處」。",
       "sentenceIndex": 16,
@@ -1013,12 +947,10 @@ export default {
         "hit a nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-08": "本句指「觸及某人情緒上敏感的地方；戳中痛處」。",
-        "nerve-mcq-07": "「有膽量做某事；負面語氣時指竟敢／厚著臉皮做」是「have the nerve to do」的用法，與本句語境不同。",
-        "nerve-mcq-09": "「引起強烈情緒反應；觸及敏感點」是「touch a nerve」的用法，與本句語境不同。",
-        "nerve-mcq-06": "「令人吃驚或無禮的大膽；厚臉皮／竟敢」是「nerve — audacity」的用法，與本句語境不同。",
-        "nerve-mcq-10": "「極度敏感、容易引起痛苦反應的議題」是「raw nerve」的用法，與本句語境不同。",
-        "nerve-mcq-05": "「在壓力下保持鎮定與勇氣」是「hold your nerve」的用法，與本句語境不同。"
+        "nerve-mcq-08": "本句的「hit a nerve」指「觸及某人情緒上敏感的地方；戳中痛處」。",
+        "nerve-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-08"
     },
@@ -1030,11 +962,9 @@ export default {
       "masked": "Her question ____.",
       "options": [
         "nerve-mcq-08",
-        "nerve-mcq-07",
-        "nerve-mcq-09",
-        "nerve-mcq-06",
-        "nerve-mcq-10",
-        "nerve-mcq-05"
+        "nerve-mcq-03",
+        "nerve-mcq-20",
+        "nerve-mcq-14"
       ],
       "explanation": "本句的「hit a nerve」指「觸及某人情緒上敏感的地方；戳中痛處」。",
       "sentenceIndex": 17,
@@ -1043,12 +973,10 @@ export default {
         "hit a nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-08": "本句指「觸及某人情緒上敏感的地方；戳中痛處」。",
-        "nerve-mcq-07": "「有膽量做某事；負面語氣時指竟敢／厚著臉皮做」是「have the nerve to do」的用法，與本句語境不同。",
-        "nerve-mcq-09": "「引起強烈情緒反應；觸及敏感點」是「touch a nerve」的用法，與本句語境不同。",
-        "nerve-mcq-06": "「令人吃驚或無禮的大膽；厚臉皮／竟敢」是「nerve — audacity」的用法，與本句語境不同。",
-        "nerve-mcq-10": "「極度敏感、容易引起痛苦反應的議題」是「raw nerve」的用法，與本句語境不同。",
-        "nerve-mcq-05": "「在壓力下保持鎮定與勇氣」是「hold your nerve」的用法，與本句語境不同。"
+        "nerve-mcq-08": "本句的「hit a nerve」指「觸及某人情緒上敏感的地方；戳中痛處」。",
+        "nerve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-08"
     },
@@ -1060,11 +988,9 @@ export default {
       "masked": "The speech ____ in the audience.",
       "options": [
         "nerve-mcq-09",
-        "nerve-mcq-08",
-        "nerve-mcq-10",
-        "nerve-mcq-07",
         "nerve-mcq-11",
-        "nerve-mcq-06"
+        "nerve-mcq-06",
+        "nerve-mcq-25"
       ],
       "explanation": "本句的「touched a nerve」指「引起強烈情緒反應；觸及敏感點」。",
       "sentenceIndex": 18,
@@ -1073,12 +999,10 @@ export default {
         "touched a nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-09": "本句指「引起強烈情緒反應；觸及敏感點」。",
-        "nerve-mcq-08": "「觸及某人情緒上敏感的地方；戳中痛處」是「hit a nerve」的用法，與本句語境不同。",
-        "nerve-mcq-10": "「極度敏感、容易引起痛苦反應的議題」是「raw nerve」的用法，與本句語境不同。",
-        "nerve-mcq-07": "「有膽量做某事；負面語氣時指竟敢／厚著臉皮做」是「have the nerve to do」的用法，與本句語境不同。",
-        "nerve-mcq-11": "「緊張、焦慮或心理壓力」是「nerves — anxiety」的用法，與本句語境不同。",
-        "nerve-mcq-06": "「令人吃驚或無禮的大膽；厚臉皮／竟敢」是「nerve — audacity」的用法，與本句語境不同。"
+        "nerve-mcq-09": "本句的「touched a nerve」指「引起強烈情緒反應；觸及敏感點」。",
+        "nerve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-09"
     },
@@ -1090,11 +1014,9 @@ export default {
       "masked": "The issue clearly ____.",
       "options": [
         "nerve-mcq-09",
-        "nerve-mcq-08",
-        "nerve-mcq-10",
-        "nerve-mcq-07",
         "nerve-mcq-11",
-        "nerve-mcq-06"
+        "nerve-mcq-25",
+        "nerve-mcq-12"
       ],
       "explanation": "本句的「touched a nerve」指「引起強烈情緒反應；觸及敏感點」。",
       "sentenceIndex": 19,
@@ -1103,12 +1025,10 @@ export default {
         "touched a nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-09": "本句指「引起強烈情緒反應；觸及敏感點」。",
-        "nerve-mcq-08": "「觸及某人情緒上敏感的地方；戳中痛處」是「hit a nerve」的用法，與本句語境不同。",
-        "nerve-mcq-10": "「極度敏感、容易引起痛苦反應的議題」是「raw nerve」的用法，與本句語境不同。",
-        "nerve-mcq-07": "「有膽量做某事；負面語氣時指竟敢／厚著臉皮做」是「have the nerve to do」的用法，與本句語境不同。",
-        "nerve-mcq-11": "「緊張、焦慮或心理壓力」是「nerves — anxiety」的用法，與本句語境不同。",
-        "nerve-mcq-06": "「令人吃驚或無禮的大膽；厚臉皮／竟敢」是「nerve — audacity」的用法，與本句語境不同。"
+        "nerve-mcq-09": "本句的「touched a nerve」指「引起強烈情緒反應；觸及敏感點」。",
+        "nerve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-09"
     },
@@ -1120,11 +1040,9 @@ export default {
       "masked": "Her ____ were beginning to show.",
       "options": [
         "nerve-mcq-11",
-        "nerve-mcq-10",
-        "nerve-mcq-12",
-        "nerve-mcq-09",
-        "nerve-mcq-13",
-        "nerve-mcq-08"
+        "nerve-mcq-24",
+        "nerve-mcq-17",
+        "nerve-mcq-07"
       ],
       "explanation": "本句的「nerves」指「緊張、焦慮或心理壓力」。",
       "sentenceIndex": 20,
@@ -1133,12 +1051,10 @@ export default {
         "nerves"
       ],
       "optionReasons": {
-        "nerve-mcq-11": "本句指「緊張、焦慮或心理壓力」。",
-        "nerve-mcq-10": "「極度敏感、容易引起痛苦反應的議題」是「raw nerve」的用法，與本句語境不同。",
-        "nerve-mcq-12": "「不斷惹某人心煩／令某人煩躁」是「get on someone’s nerves」的用法，與本句語境不同。",
-        "nerve-mcq-09": "「引起強烈情緒反應；觸及敏感點」是「touch a nerve」的用法，與本句語境不同。",
-        "nerve-mcq-13": "「在巨大壓力下仍極度沉著的心理素質」是「nerves of steel」的用法，與本句語境不同。",
-        "nerve-mcq-08": "「觸及某人情緒上敏感的地方；戳中痛處」是「hit a nerve」的用法，與本句語境不同。"
+        "nerve-mcq-11": "本句的「nerves」指「緊張、焦慮或心理壓力」。",
+        "nerve-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-11"
     },
@@ -1150,11 +1066,9 @@ export default {
       "masked": "The interview really tested my ____.",
       "options": [
         "nerve-mcq-11",
-        "nerve-mcq-10",
-        "nerve-mcq-12",
-        "nerve-mcq-09",
-        "nerve-mcq-13",
-        "nerve-mcq-08"
+        "nerve-mcq-02",
+        "nerve-mcq-24",
+        "nerve-mcq-07"
       ],
       "explanation": "本句的「nerves」指「緊張、焦慮或心理壓力」。",
       "sentenceIndex": 21,
@@ -1163,12 +1077,10 @@ export default {
         "nerves"
       ],
       "optionReasons": {
-        "nerve-mcq-11": "本句指「緊張、焦慮或心理壓力」。",
-        "nerve-mcq-10": "「極度敏感、容易引起痛苦反應的議題」是「raw nerve」的用法，與本句語境不同。",
-        "nerve-mcq-12": "「不斷惹某人心煩／令某人煩躁」是「get on someone’s nerves」的用法，與本句語境不同。",
-        "nerve-mcq-09": "「引起強烈情緒反應；觸及敏感點」是「touch a nerve」的用法，與本句語境不同。",
-        "nerve-mcq-13": "「在巨大壓力下仍極度沉著的心理素質」是「nerves of steel」的用法，與本句語境不同。",
-        "nerve-mcq-08": "「觸及某人情緒上敏感的地方；戳中痛處」是「hit a nerve」的用法，與本句語境不同。"
+        "nerve-mcq-11": "本句的「nerves」指「緊張、焦慮或心理壓力」。",
+        "nerve-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-11"
     },
@@ -1180,9 +1092,7 @@ export default {
       "masked": "That constant tapping really ____.",
       "options": [
         "nerve-mcq-12",
-        "nerve-mcq-11",
-        "nerve-mcq-13",
-        "nerve-mcq-10",
+        "nerve-mcq-02",
         "nerve-mcq-14",
         "nerve-mcq-09"
       ],
@@ -1193,12 +1103,10 @@ export default {
         "gets on my nerves"
       ],
       "optionReasons": {
-        "nerve-mcq-12": "本句指「不斷惹某人心煩／令某人煩躁」。",
-        "nerve-mcq-11": "「緊張、焦慮或心理壓力」是「nerves — anxiety」的用法，與本句語境不同。",
-        "nerve-mcq-13": "「在巨大壓力下仍極度沉著的心理素質」是「nerves of steel」的用法，與本句語境不同。",
-        "nerve-mcq-10": "「極度敏感、容易引起痛苦反應的議題」是「raw nerve」的用法，與本句語境不同。",
-        "nerve-mcq-14": "「讓自己從緊張中冷靜下來」是「steady your nerves」的用法，與本句語境不同。",
-        "nerve-mcq-09": "「引起強烈情緒反應；觸及敏感點」是「touch a nerve」的用法，與本句語境不同。"
+        "nerve-mcq-12": "本句的「gets on my nerves」指「不斷惹某人心煩／令某人煩躁」。",
+        "nerve-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-12"
     },
@@ -1210,11 +1118,9 @@ export default {
       "masked": "His complaining is starting to ____.",
       "options": [
         "nerve-mcq-12",
-        "nerve-mcq-11",
-        "nerve-mcq-13",
-        "nerve-mcq-10",
-        "nerve-mcq-14",
-        "nerve-mcq-09"
+        "nerve-mcq-25",
+        "nerve-mcq-03",
+        "nerve-mcq-14"
       ],
       "explanation": "本句的「get on her nerves」指「不斷惹某人心煩／令某人煩躁」。",
       "sentenceIndex": 23,
@@ -1223,12 +1129,10 @@ export default {
         "get on her nerves"
       ],
       "optionReasons": {
-        "nerve-mcq-12": "本句指「不斷惹某人心煩／令某人煩躁」。",
-        "nerve-mcq-11": "「緊張、焦慮或心理壓力」是「nerves — anxiety」的用法，與本句語境不同。",
-        "nerve-mcq-13": "「在巨大壓力下仍極度沉著的心理素質」是「nerves of steel」的用法，與本句語境不同。",
-        "nerve-mcq-10": "「極度敏感、容易引起痛苦反應的議題」是「raw nerve」的用法，與本句語境不同。",
-        "nerve-mcq-14": "「讓自己從緊張中冷靜下來」是「steady your nerves」的用法，與本句語境不同。",
-        "nerve-mcq-09": "「引起強烈情緒反應；觸及敏感點」是「touch a nerve」的用法，與本句語境不同。"
+        "nerve-mcq-12": "本句的「get on her nerves」指「不斷惹某人心煩／令某人煩躁」。",
+        "nerve-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-12"
     },
@@ -1240,11 +1144,9 @@ export default {
       "masked": "Surgeons need ____.",
       "options": [
         "nerve-mcq-13",
-        "nerve-mcq-12",
         "nerve-mcq-14",
-        "nerve-mcq-11",
-        "nerve-mcq-15",
-        "nerve-mcq-10"
+        "nerve-mcq-09",
+        "nerve-mcq-25"
       ],
       "explanation": "本句的「nerves of steel」指「在巨大壓力下仍極度沉著的心理素質」。",
       "sentenceIndex": 24,
@@ -1253,12 +1155,10 @@ export default {
         "nerves of steel"
       ],
       "optionReasons": {
-        "nerve-mcq-13": "本句指「在巨大壓力下仍極度沉著的心理素質」。",
-        "nerve-mcq-12": "「不斷惹某人心煩／令某人煩躁」是「get on someone’s nerves」的用法，與本句語境不同。",
-        "nerve-mcq-14": "「讓自己從緊張中冷靜下來」是「steady your nerves」的用法，與本句語境不同。",
-        "nerve-mcq-11": "「緊張、焦慮或心理壓力」是「nerves — anxiety」的用法，與本句語境不同。",
-        "nerve-mcq-15": "「因長期壓力而神經緊繃、情緒疲憊」是「frayed nerves」的用法，與本句語境不同。",
-        "nerve-mcq-10": "「極度敏感、容易引起痛苦反應的議題」是「raw nerve」的用法，與本句語境不同。"
+        "nerve-mcq-13": "本句的「nerves of steel」指「在巨大壓力下仍極度沉著的心理素質」。",
+        "nerve-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-13"
     },
@@ -1270,11 +1170,9 @@ export default {
       "masked": "She showed ____ during the emergency.",
       "options": [
         "nerve-mcq-13",
-        "nerve-mcq-12",
+        "nerve-mcq-24",
         "nerve-mcq-14",
-        "nerve-mcq-11",
-        "nerve-mcq-15",
-        "nerve-mcq-10"
+        "nerve-mcq-25"
       ],
       "explanation": "本句的「nerves of steel」指「在巨大壓力下仍極度沉著的心理素質」。",
       "sentenceIndex": 25,
@@ -1283,12 +1181,10 @@ export default {
         "nerves of steel"
       ],
       "optionReasons": {
-        "nerve-mcq-13": "本句指「在巨大壓力下仍極度沉著的心理素質」。",
-        "nerve-mcq-12": "「不斷惹某人心煩／令某人煩躁」是「get on someone’s nerves」的用法，與本句語境不同。",
-        "nerve-mcq-14": "「讓自己從緊張中冷靜下來」是「steady your nerves」的用法，與本句語境不同。",
-        "nerve-mcq-11": "「緊張、焦慮或心理壓力」是「nerves — anxiety」的用法，與本句語境不同。",
-        "nerve-mcq-15": "「因長期壓力而神經緊繃、情緒疲憊」是「frayed nerves」的用法，與本句語境不同。",
-        "nerve-mcq-10": "「極度敏感、容易引起痛苦反應的議題」是「raw nerve」的用法，與本句語境不同。"
+        "nerve-mcq-13": "本句的「nerves of steel」指「在巨大壓力下仍極度沉著的心理素質」。",
+        "nerve-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-13"
     },
@@ -1300,11 +1196,9 @@ export default {
       "masked": "He took a deep breath to ____.",
       "options": [
         "nerve-mcq-14",
-        "nerve-mcq-13",
-        "nerve-mcq-15",
-        "nerve-mcq-12",
-        "nerve-mcq-16",
-        "nerve-mcq-11"
+        "nerve-mcq-09",
+        "nerve-mcq-06",
+        "nerve-mcq-20"
       ],
       "explanation": "本句的「steady his nerves」指「讓自己從緊張中冷靜下來」。",
       "sentenceIndex": 26,
@@ -1313,12 +1207,10 @@ export default {
         "steady his nerves"
       ],
       "optionReasons": {
-        "nerve-mcq-14": "本句指「讓自己從緊張中冷靜下來」。",
-        "nerve-mcq-13": "「在巨大壓力下仍極度沉著的心理素質」是「nerves of steel」的用法，與本句語境不同。",
-        "nerve-mcq-15": "「因長期壓力而神經緊繃、情緒疲憊」是「frayed nerves」的用法，與本句語境不同。",
-        "nerve-mcq-12": "「不斷惹某人心煩／令某人煩躁」是「get on someone’s nerves」的用法，與本句語境不同。",
-        "nerve-mcq-16": "「被周圍組織壓迫的神經」是「pinched nerve」的用法，與本句語境不同。",
-        "nerve-mcq-11": "「緊張、焦慮或心理壓力」是「nerves — anxiety」的用法，與本句語境不同。"
+        "nerve-mcq-14": "本句的「steady his nerves」指「讓自己從緊張中冷靜下來」。",
+        "nerve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-14"
     },
@@ -1330,11 +1222,9 @@ export default {
       "masked": "She drank some water to ____ before speaking.",
       "options": [
         "nerve-mcq-14",
-        "nerve-mcq-13",
-        "nerve-mcq-15",
-        "nerve-mcq-12",
-        "nerve-mcq-16",
-        "nerve-mcq-11"
+        "nerve-mcq-20",
+        "nerve-mcq-06",
+        "nerve-mcq-13"
       ],
       "explanation": "本句的「steady her nerves」指「讓自己從緊張中冷靜下來」。",
       "sentenceIndex": 27,
@@ -1343,12 +1233,10 @@ export default {
         "steady her nerves"
       ],
       "optionReasons": {
-        "nerve-mcq-14": "本句指「讓自己從緊張中冷靜下來」。",
-        "nerve-mcq-13": "「在巨大壓力下仍極度沉著的心理素質」是「nerves of steel」的用法，與本句語境不同。",
-        "nerve-mcq-15": "「因長期壓力而神經緊繃、情緒疲憊」是「frayed nerves」的用法，與本句語境不同。",
-        "nerve-mcq-12": "「不斷惹某人心煩／令某人煩躁」是「get on someone’s nerves」的用法，與本句語境不同。",
-        "nerve-mcq-16": "「被周圍組織壓迫的神經」是「pinched nerve」的用法，與本句語境不同。",
-        "nerve-mcq-11": "「緊張、焦慮或心理壓力」是「nerves — anxiety」的用法，與本句語境不同。"
+        "nerve-mcq-14": "本句的「steady her nerves」指「讓自己從緊張中冷靜下來」。",
+        "nerve-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-14"
     },
@@ -1360,10 +1248,8 @@ export default {
       "masked": "Weeks of uncertainty left everyone with ____.",
       "options": [
         "nerve-mcq-15",
-        "nerve-mcq-14",
-        "nerve-mcq-16",
-        "nerve-mcq-13",
-        "nerve-mcq-17",
+        "nerve-mcq-06",
+        "nerve-mcq-04",
         "nerve-mcq-12"
       ],
       "explanation": "本句的「frayed nerves」指「因長期壓力而神經緊繃、情緒疲憊」。",
@@ -1373,12 +1259,10 @@ export default {
         "frayed nerves"
       ],
       "optionReasons": {
-        "nerve-mcq-15": "本句指「因長期壓力而神經緊繃、情緒疲憊」。",
-        "nerve-mcq-14": "「讓自己從緊張中冷靜下來」是「steady your nerves」的用法，與本句語境不同。",
-        "nerve-mcq-16": "「被周圍組織壓迫的神經」是「pinched nerve」的用法，與本句語境不同。",
-        "nerve-mcq-13": "「在巨大壓力下仍極度沉著的心理素質」是「nerves of steel」的用法，與本句語境不同。",
-        "nerve-mcq-17": "「神經受傷或功能受損」是「nerve damage」的用法，與本句語境不同。",
-        "nerve-mcq-12": "「不斷惹某人心煩／令某人煩躁」是「get on someone’s nerves」的用法，與本句語境不同。"
+        "nerve-mcq-15": "本句的「frayed nerves」指「因長期壓力而神經緊繃、情緒疲憊」。",
+        "nerve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-15"
     },
@@ -1390,11 +1274,9 @@ export default {
       "masked": "The constant noise wore on their ____.",
       "options": [
         "nerve-mcq-15",
-        "nerve-mcq-14",
-        "nerve-mcq-16",
-        "nerve-mcq-13",
-        "nerve-mcq-17",
-        "nerve-mcq-12"
+        "nerve-mcq-06",
+        "nerve-mcq-24",
+        "nerve-mcq-04"
       ],
       "explanation": "本句的「frayed nerves」指「因長期壓力而神經緊繃、情緒疲憊」。",
       "sentenceIndex": 29,
@@ -1403,12 +1285,10 @@ export default {
         "frayed nerves"
       ],
       "optionReasons": {
-        "nerve-mcq-15": "本句指「因長期壓力而神經緊繃、情緒疲憊」。",
-        "nerve-mcq-14": "「讓自己從緊張中冷靜下來」是「steady your nerves」的用法，與本句語境不同。",
-        "nerve-mcq-16": "「被周圍組織壓迫的神經」是「pinched nerve」的用法，與本句語境不同。",
-        "nerve-mcq-13": "「在巨大壓力下仍極度沉著的心理素質」是「nerves of steel」的用法，與本句語境不同。",
-        "nerve-mcq-17": "「神經受傷或功能受損」是「nerve damage」的用法，與本句語境不同。",
-        "nerve-mcq-12": "「不斷惹某人心煩／令某人煩躁」是「get on someone’s nerves」的用法，與本句語境不同。"
+        "nerve-mcq-15": "本句的「frayed nerves」指「因長期壓力而神經緊繃、情緒疲憊」。",
+        "nerve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-15"
     },
@@ -1420,11 +1300,9 @@ export default {
       "masked": "A ____ can cause pain or numbness.",
       "options": [
         "nerve-mcq-16",
-        "nerve-mcq-15",
-        "nerve-mcq-17",
-        "nerve-mcq-14",
-        "nerve-mcq-18",
-        "nerve-mcq-13"
+        "nerve-mcq-24",
+        "nerve-mcq-06",
+        "nerve-mcq-14"
       ],
       "explanation": "本句的「pinched nerve」指「被周圍組織壓迫的神經」。",
       "sentenceIndex": 30,
@@ -1433,12 +1311,10 @@ export default {
         "pinched nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-16": "本句指「被周圍組織壓迫的神經」。",
-        "nerve-mcq-15": "「因長期壓力而神經緊繃、情緒疲憊」是「frayed nerves」的用法，與本句語境不同。",
-        "nerve-mcq-17": "「神經受傷或功能受損」是「nerve damage」的用法，與本句語境不同。",
-        "nerve-mcq-14": "「讓自己從緊張中冷靜下來」是「steady your nerves」的用法，與本句語境不同。",
-        "nerve-mcq-18": "「感到緊張、焦慮的」是「nervous — anxious」的用法，與本句語境不同。",
-        "nerve-mcq-13": "「在巨大壓力下仍極度沉著的心理素質」是「nerves of steel」的用法，與本句語境不同。"
+        "nerve-mcq-16": "本句的「pinched nerve」指「被周圍組織壓迫的神經」。",
+        "nerve-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-16"
     },
@@ -1450,11 +1326,9 @@ export default {
       "masked": "The doctor suspected a ____ in his neck.",
       "options": [
         "nerve-mcq-16",
-        "nerve-mcq-15",
-        "nerve-mcq-17",
-        "nerve-mcq-14",
-        "nerve-mcq-18",
-        "nerve-mcq-13"
+        "nerve-mcq-07",
+        "nerve-mcq-22",
+        "nerve-mcq-24"
       ],
       "explanation": "本句的「pinched nerve」指「被周圍組織壓迫的神經」。",
       "sentenceIndex": 31,
@@ -1463,12 +1337,10 @@ export default {
         "pinched nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-16": "本句指「被周圍組織壓迫的神經」。",
-        "nerve-mcq-15": "「因長期壓力而神經緊繃、情緒疲憊」是「frayed nerves」的用法，與本句語境不同。",
-        "nerve-mcq-17": "「神經受傷或功能受損」是「nerve damage」的用法，與本句語境不同。",
-        "nerve-mcq-14": "「讓自己從緊張中冷靜下來」是「steady your nerves」的用法，與本句語境不同。",
-        "nerve-mcq-18": "「感到緊張、焦慮的」是「nervous — anxious」的用法，與本句語境不同。",
-        "nerve-mcq-13": "「在巨大壓力下仍極度沉著的心理素質」是「nerves of steel」的用法，與本句語境不同。"
+        "nerve-mcq-16": "本句的「pinched nerve」指「被周圍組織壓迫的神經」。",
+        "nerve-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-16"
     },
@@ -1480,11 +1352,9 @@ export default {
       "masked": "The accident caused permanent ____.",
       "options": [
         "nerve-mcq-17",
-        "nerve-mcq-16",
-        "nerve-mcq-18",
-        "nerve-mcq-15",
-        "nerve-mcq-19",
-        "nerve-mcq-14"
+        "nerve-mcq-07",
+        "nerve-mcq-24",
+        "nerve-mcq-11"
       ],
       "explanation": "本句的「nerve damage」指「神經受傷或功能受損」。",
       "sentenceIndex": 32,
@@ -1493,12 +1363,10 @@ export default {
         "nerve damage"
       ],
       "optionReasons": {
-        "nerve-mcq-17": "本句指「神經受傷或功能受損」。",
-        "nerve-mcq-16": "「被周圍組織壓迫的神經」是「pinched nerve」的用法，與本句語境不同。",
-        "nerve-mcq-18": "「感到緊張、焦慮的」是「nervous — anxious」的用法，與本句語境不同。",
-        "nerve-mcq-15": "「因長期壓力而神經緊繃、情緒疲憊」是「frayed nerves」的用法，與本句語境不同。",
-        "nerve-mcq-19": "「與神經或神經系統有關的」是「nervous — anatomical」的用法，與本句語境不同。",
-        "nerve-mcq-14": "「讓自己從緊張中冷靜下來」是「steady your nerves」的用法，與本句語境不同。"
+        "nerve-mcq-17": "本句的「nerve damage」指「神經受傷或功能受損」。",
+        "nerve-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-17"
     },
@@ -1510,11 +1378,9 @@ export default {
       "masked": "Diabetes can sometimes lead to ____.",
       "options": [
         "nerve-mcq-17",
-        "nerve-mcq-16",
-        "nerve-mcq-18",
-        "nerve-mcq-15",
-        "nerve-mcq-19",
-        "nerve-mcq-14"
+        "nerve-mcq-03",
+        "nerve-mcq-24",
+        "nerve-mcq-12"
       ],
       "explanation": "本句的「nerve damage」指「神經受傷或功能受損」。",
       "sentenceIndex": 33,
@@ -1523,12 +1389,10 @@ export default {
         "nerve damage"
       ],
       "optionReasons": {
-        "nerve-mcq-17": "本句指「神經受傷或功能受損」。",
-        "nerve-mcq-16": "「被周圍組織壓迫的神經」是「pinched nerve」的用法，與本句語境不同。",
-        "nerve-mcq-18": "「感到緊張、焦慮的」是「nervous — anxious」的用法，與本句語境不同。",
-        "nerve-mcq-15": "「因長期壓力而神經緊繃、情緒疲憊」是「frayed nerves」的用法，與本句語境不同。",
-        "nerve-mcq-19": "「與神經或神經系統有關的」是「nervous — anatomical」的用法，與本句語境不同。",
-        "nerve-mcq-14": "「讓自己從緊張中冷靜下來」是「steady your nerves」的用法，與本句語境不同。"
+        "nerve-mcq-17": "本句的「nerve damage」指「神經受傷或功能受損」。",
+        "nerve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-17"
     },
@@ -1540,11 +1404,9 @@ export default {
       "masked": "The brain is part of the ____.",
       "options": [
         "nerve-mcq-20",
-        "nerve-mcq-19",
-        "nerve-mcq-21",
-        "nerve-mcq-18",
-        "nerve-mcq-22",
-        "nerve-mcq-17"
+        "nerve-mcq-05",
+        "nerve-mcq-07",
+        "nerve-mcq-08"
       ],
       "explanation": "本句的「nervous system」指「大腦、脊髓及神經組成的神經系統」。",
       "sentenceIndex": 34,
@@ -1553,12 +1415,10 @@ export default {
         "nervous system"
       ],
       "optionReasons": {
-        "nerve-mcq-20": "本句指「大腦、脊髓及神經組成的神經系統」。",
-        "nerve-mcq-19": "「與神經或神經系統有關的」是「nervous — anatomical」的用法，與本句語境不同。",
-        "nerve-mcq-21": "「大膽甚至有點冒失／厚臉皮的」是「nervy — bold」的用法，與本句語境不同。",
-        "nerve-mcq-18": "「感到緊張、焦慮的」是「nervous — anxious」的用法，與本句語境不同。",
-        "nerve-mcq-22": "「緊張不安的」是「nervy — anxious」的用法，與本句語境不同。",
-        "nerve-mcq-17": "「神經受傷或功能受損」是「nerve damage」的用法，與本句語境不同。"
+        "nerve-mcq-20": "本句的「nervous system」指「大腦、脊髓及神經組成的神經系統」。",
+        "nerve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-20"
     },
@@ -1570,11 +1430,9 @@ export default {
       "masked": "Stress can affect the ____.",
       "options": [
         "nerve-mcq-20",
-        "nerve-mcq-19",
-        "nerve-mcq-21",
-        "nerve-mcq-18",
-        "nerve-mcq-22",
-        "nerve-mcq-17"
+        "nerve-mcq-03",
+        "nerve-mcq-08",
+        "nerve-mcq-22"
       ],
       "explanation": "本句的「nervous system」指「大腦、脊髓及神經組成的神經系統」。",
       "sentenceIndex": 35,
@@ -1583,12 +1441,10 @@ export default {
         "nervous system"
       ],
       "optionReasons": {
-        "nerve-mcq-20": "本句指「大腦、脊髓及神經組成的神經系統」。",
-        "nerve-mcq-19": "「與神經或神經系統有關的」是「nervous — anatomical」的用法，與本句語境不同。",
-        "nerve-mcq-21": "「大膽甚至有點冒失／厚臉皮的」是「nervy — bold」的用法，與本句語境不同。",
-        "nerve-mcq-18": "「感到緊張、焦慮的」是「nervous — anxious」的用法，與本句語境不同。",
-        "nerve-mcq-22": "「緊張不安的」是「nervy — anxious」的用法，與本句語境不同。",
-        "nerve-mcq-17": "「神經受傷或功能受損」是「nerve damage」的用法，與本句語境不同。"
+        "nerve-mcq-20": "本句的「nervous system」指「大腦、脊髓及神經組成的神經系統」。",
+        "nerve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-20"
     },
@@ -1600,11 +1456,9 @@ export default {
       "masked": "She smiled ____.",
       "options": [
         "nerve-mcq-22",
-        "nerve-mcq-21",
         "nerve-mcq-23",
-        "nerve-mcq-20",
-        "nerve-mcq-24",
-        "nerve-mcq-19"
+        "nerve-mcq-09",
+        "nerve-mcq-25"
       ],
       "explanation": "本句的「nervously」指「緊張不安的」。",
       "sentenceIndex": 36,
@@ -1613,12 +1467,10 @@ export default {
         "nervously"
       ],
       "optionReasons": {
-        "nerve-mcq-22": "本句指「緊張不安的」。",
-        "nerve-mcq-21": "「大膽甚至有點冒失／厚臉皮的」是「nervy — bold」的用法，與本句語境不同。",
-        "nerve-mcq-23": "「雙方以心理壓力消耗對方的心理戰／意志較量」是「war of nerves」的用法，與本句語境不同。",
-        "nerve-mcq-20": "「大腦、脊髓及神經組成的神經系統」是「nervous system」的用法，與本句語境不同。",
-        "nerve-mcq-24": "「觸動敏感點；戳中痛處；引起強烈共鳴」是「Passage meaning」的用法，與本句語境不同。",
-        "nerve-mcq-19": "「與神經或神經系統有關的」是「nervous — anatomical」的用法，與本句語境不同。"
+        "nerve-mcq-22": "本句的「nervously」指「緊張不安的」。",
+        "nerve-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-22"
     },
@@ -1630,11 +1482,9 @@ export default {
       "masked": "He waited ____ outside.",
       "options": [
         "nerve-mcq-22",
-        "nerve-mcq-21",
-        "nerve-mcq-23",
+        "nerve-mcq-05",
         "nerve-mcq-20",
-        "nerve-mcq-24",
-        "nerve-mcq-19"
+        "nerve-mcq-06"
       ],
       "explanation": "本句的「nervously」指「緊張不安的」。",
       "sentenceIndex": 37,
@@ -1643,12 +1493,10 @@ export default {
         "nervously"
       ],
       "optionReasons": {
-        "nerve-mcq-22": "本句指「緊張不安的」。",
-        "nerve-mcq-21": "「大膽甚至有點冒失／厚臉皮的」是「nervy — bold」的用法，與本句語境不同。",
-        "nerve-mcq-23": "「雙方以心理壓力消耗對方的心理戰／意志較量」是「war of nerves」的用法，與本句語境不同。",
-        "nerve-mcq-20": "「大腦、脊髓及神經組成的神經系統」是「nervous system」的用法，與本句語境不同。",
-        "nerve-mcq-24": "「觸動敏感點；戳中痛處；引起強烈共鳴」是「Passage meaning」的用法，與本句語境不同。",
-        "nerve-mcq-19": "「與神經或神經系統有關的」是「nervous — anatomical」的用法，與本句語境不同。"
+        "nerve-mcq-22": "本句的「nervously」指「緊張不安的」。",
+        "nerve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-22"
     },
@@ -1660,10 +1508,8 @@ export default {
       "masked": "The question ____.",
       "options": [
         "nerve-mcq-09",
-        "nerve-mcq-08",
-        "nerve-mcq-10",
-        "nerve-mcq-07",
-        "nerve-mcq-11",
+        "nerve-mcq-13",
+        "nerve-mcq-25",
         "nerve-mcq-06"
       ],
       "explanation": "本句的「touched a raw nerve」指「引起強烈情緒反應；觸及敏感點」。",
@@ -1673,12 +1519,10 @@ export default {
         "touched a raw nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-09": "本句指「引起強烈情緒反應；觸及敏感點」。",
-        "nerve-mcq-08": "「觸及某人情緒上敏感的地方；戳中痛處」是「hit a nerve」的用法，與本句語境不同。",
-        "nerve-mcq-10": "「極度敏感、容易引起痛苦反應的議題」是「raw nerve」的用法，與本句語境不同。",
-        "nerve-mcq-07": "「有膽量做某事；負面語氣時指竟敢／厚著臉皮做」是「have the nerve to do」的用法，與本句語境不同。",
-        "nerve-mcq-11": "「緊張、焦慮或心理壓力」是「nerves — anxiety」的用法，與本句語境不同。",
-        "nerve-mcq-06": "「令人吃驚或無禮的大膽；厚臉皮／竟敢」是「nerve — audacity」的用法，與本句語境不同。"
+        "nerve-mcq-09": "本句的「touched a raw nerve」指「引起強烈情緒反應；觸及敏感點」。",
+        "nerve-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-09"
     },
@@ -1690,11 +1534,9 @@ export default {
       "masked": "The debate ____ in the community.",
       "options": [
         "nerve-mcq-09",
-        "nerve-mcq-08",
-        "nerve-mcq-10",
-        "nerve-mcq-07",
-        "nerve-mcq-11",
-        "nerve-mcq-06"
+        "nerve-mcq-16",
+        "nerve-mcq-03",
+        "nerve-mcq-14"
       ],
       "explanation": "本句的「struck a raw nerve」指「引起強烈情緒反應；觸及敏感點」。",
       "sentenceIndex": 39,
@@ -1703,12 +1545,10 @@ export default {
         "struck a raw nerve"
       ],
       "optionReasons": {
-        "nerve-mcq-09": "本句指「引起強烈情緒反應；觸及敏感點」。",
-        "nerve-mcq-08": "「觸及某人情緒上敏感的地方；戳中痛處」是「hit a nerve」的用法，與本句語境不同。",
-        "nerve-mcq-10": "「極度敏感、容易引起痛苦反應的議題」是「raw nerve」的用法，與本句語境不同。",
-        "nerve-mcq-07": "「有膽量做某事；負面語氣時指竟敢／厚著臉皮做」是「have the nerve to do」的用法，與本句語境不同。",
-        "nerve-mcq-11": "「緊張、焦慮或心理壓力」是「nerves — anxiety」的用法，與本句語境不同。",
-        "nerve-mcq-06": "「令人吃驚或無禮的大膽；厚臉皮／竟敢」是「nerve — audacity」的用法，與本句語境不同。"
+        "nerve-mcq-09": "本句的「struck a raw nerve」指「引起強烈情緒反應；觸及敏感點」。",
+        "nerve-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-09"
     },
@@ -1720,11 +1560,9 @@ export default {
       "masked": "The negotiations became a ____.",
       "options": [
         "nerve-mcq-23",
-        "nerve-mcq-22",
+        "nerve-mcq-02",
         "nerve-mcq-24",
-        "nerve-mcq-21",
-        "nerve-mcq-25",
-        "nerve-mcq-20"
+        "nerve-mcq-22"
       ],
       "explanation": "本句的「war of nerves」指「雙方以心理壓力消耗對方的心理戰／意志較量」。",
       "sentenceIndex": 40,
@@ -1733,12 +1571,10 @@ export default {
         "war of nerves"
       ],
       "optionReasons": {
-        "nerve-mcq-23": "本句指「雙方以心理壓力消耗對方的心理戰／意志較量」。",
-        "nerve-mcq-22": "「緊張不安的」是「nervy — anxious」的用法，與本句語境不同。",
-        "nerve-mcq-24": "「觸動敏感點；戳中痛處；引起強烈共鳴」是「Passage meaning」的用法，與本句語境不同。",
-        "nerve-mcq-21": "「大膽甚至有點冒失／厚臉皮的」是「nervy — bold」的用法，與本句語境不同。",
-        "nerve-mcq-25": "「表示神經」是「2. nerve — anatomical structure」的用法，與本句語境不同。",
-        "nerve-mcq-20": "「大腦、脊髓及神經組成的神經系統」是「nervous system」的用法，與本句語境不同。"
+        "nerve-mcq-23": "本句的「war of nerves」指「雙方以心理壓力消耗對方的心理戰／意志較量」。",
+        "nerve-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-23"
     },
@@ -1750,11 +1586,9 @@ export default {
       "masked": "The final stage was a ____ between the two teams.",
       "options": [
         "nerve-mcq-23",
-        "nerve-mcq-22",
-        "nerve-mcq-24",
-        "nerve-mcq-21",
-        "nerve-mcq-25",
-        "nerve-mcq-20"
+        "nerve-mcq-02",
+        "nerve-mcq-09",
+        "nerve-mcq-06"
       ],
       "explanation": "本句的「war of nerves」指「雙方以心理壓力消耗對方的心理戰／意志較量」。",
       "sentenceIndex": 41,
@@ -1763,12 +1597,10 @@ export default {
         "war of nerves"
       ],
       "optionReasons": {
-        "nerve-mcq-23": "本句指「雙方以心理壓力消耗對方的心理戰／意志較量」。",
-        "nerve-mcq-22": "「緊張不安的」是「nervy — anxious」的用法，與本句語境不同。",
-        "nerve-mcq-24": "「觸動敏感點；戳中痛處；引起強烈共鳴」是「Passage meaning」的用法，與本句語境不同。",
-        "nerve-mcq-21": "「大膽甚至有點冒失／厚臉皮的」是「nervy — bold」的用法，與本句語境不同。",
-        "nerve-mcq-25": "「表示神經」是「2. nerve — anatomical structure」的用法，與本句語境不同。",
-        "nerve-mcq-20": "「大腦、脊髓及神經組成的神經系統」是「nervous system」的用法，與本句語境不同。"
+        "nerve-mcq-23": "本句的「war of nerves」指「雙方以心理壓力消耗對方的心理戰／意志較量」。",
+        "nerve-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "nerve-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nerve-mcq-23"
     }
@@ -1780,5 +1612,7 @@ export default {
     "sha256": "33bc26c15e743f390af3dbd618d7b9c444a183a714f0502a78d17dbdcb58ae2c",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

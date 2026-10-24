@@ -504,16 +504,6 @@ export default {
           "A drill is a common power tool.",
           "電鑽是一種常見的電動工具。",
           "由電力／機械動力驅動的"
-        ],
-        [
-          "Press the power button to turn the device on.",
-          "按下電源鍵開機。",
-          "由電力／機械動力驅動的"
-        ],
-        [
-          "The power button is on the side.",
-          "電源鍵在側面。",
-          "由電力／機械動力驅動的"
         ]
       ],
       "options": [],
@@ -780,6 +770,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "power-reviewed-1eece775a0",
+      "title": "用來開啟／關閉設備電源的按鈕",
+      "form": "power · source section 26",
+      "en": "用來開啟／關閉設備電源的按鈕",
+      "zh": "用來開啟／關閉設備電源的按鈕",
+      "note": "對照原始教材第 26 節及例句核實。",
+      "examples": [
+        [
+          "Press the power button to turn the device on.",
+          "按下電源鍵開機。",
+          "用來開啟／關閉設備電源的按鈕"
+        ],
+        [
+          "The power button is on the side.",
+          "電源鍵在側面。",
+          "用來開啟／關閉設備電源的按鈕"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -791,10 +803,8 @@ export default {
       "masked": "Kindness has the ____ to comfort people.",
       "options": [
         "power-mcq-01",
-        "power-mcq-02",
-        "power-mcq-03",
-        "power-mcq-04",
-        "power-mcq-05",
+        "power-mcq-18",
+        "power-pdf-001",
         "power-mcq-06"
       ],
       "explanation": "本句的「power」指「令某件事情發生、改變或產生顯著效果的能力」。",
@@ -804,12 +814,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-01": "本句指「令某件事情發生、改變或產生顯著效果的能力」。",
-        "power-mcq-02": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。",
-        "power-mcq-03": "「控制事情、作決定或影響別人行動的權力」是「power — control/authority」的用法，與本句語境不同。",
-        "power-mcq-04": "「擁有做某事所需的能力、權力或影響力」是「have the power to」的用法，與本句語境不同。",
-        "power-mcq-05": "「控制政府、制定政策和作政治決策的權力」是「power — political」的用法，與本句語境不同。",
-        "power-mcq-06": "「開始掌握政治控制權；上台執政」是「come to power」的用法，與本句語境不同。"
+        "power-mcq-01": "本句的「power」指「令某件事情發生、改變或產生顯著效果的能力」。",
+        "power-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-01"
     },
@@ -821,11 +829,9 @@ export default {
       "masked": "Words have the ____ to change how people think.",
       "options": [
         "power-mcq-01",
-        "power-mcq-02",
-        "power-mcq-03",
-        "power-mcq-04",
-        "power-mcq-05",
-        "power-mcq-06"
+        "power-mcq-06",
+        "power-mcq-18",
+        "power-pdf-001"
       ],
       "explanation": "本句的「power」指「令某件事情發生、改變或產生顯著效果的能力」。",
       "sentenceIndex": 1,
@@ -834,12 +840,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-01": "本句指「令某件事情發生、改變或產生顯著效果的能力」。",
-        "power-mcq-02": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。",
-        "power-mcq-03": "「控制事情、作決定或影響別人行動的權力」是「power — control/authority」的用法，與本句語境不同。",
-        "power-mcq-04": "「擁有做某事所需的能力、權力或影響力」是「have the power to」的用法，與本句語境不同。",
-        "power-mcq-05": "「控制政府、制定政策和作政治決策的權力」是「power — political」的用法，與本句語境不同。",
-        "power-mcq-06": "「開始掌握政治控制權；上台執政」是「come to power」的用法，與本句語境不同。"
+        "power-mcq-01": "本句的「power」指「令某件事情發生、改變或產生顯著效果的能力」。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-01"
     },
@@ -851,11 +855,9 @@ export default {
       "masked": "The book explores the ____.",
       "options": [
         "power-mcq-02",
-        "power-mcq-01",
-        "power-mcq-03",
-        "power-mcq-04",
-        "power-mcq-05",
-        "power-mcq-06"
+        "power-mcq-07",
+        "power-mcq-20",
+        "power-mcq-31"
       ],
       "explanation": "本句的「power of kindness」指「某事物產生影響、改變或效果的能力」。",
       "sentenceIndex": 2,
@@ -864,12 +866,10 @@ export default {
         "power of kindness"
       ],
       "optionReasons": {
-        "power-mcq-02": "本句指「某事物產生影響、改變或效果的能力」。",
-        "power-mcq-01": "「令某件事情發生、改變或產生顯著效果的能力」是「power — capacity/effect」的用法，與本句語境不同。",
-        "power-mcq-03": "「控制事情、作決定或影響別人行動的權力」是「power — control/authority」的用法，與本句語境不同。",
-        "power-mcq-04": "「擁有做某事所需的能力、權力或影響力」是「have the power to」的用法，與本句語境不同。",
-        "power-mcq-05": "「控制政府、制定政策和作政治決策的權力」是「power — political」的用法，與本句語境不同。",
-        "power-mcq-06": "「開始掌握政治控制權；上台執政」是「come to power」的用法，與本句語境不同。"
+        "power-mcq-02": "本句的「power of kindness」指「某事物產生影響、改變或效果的能力」。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-02"
     },
@@ -881,11 +881,9 @@ export default {
       "masked": "Never underestimate the ____.",
       "options": [
         "power-mcq-02",
-        "power-mcq-01",
-        "power-mcq-03",
-        "power-mcq-04",
-        "power-mcq-05",
-        "power-mcq-06"
+        "power-mcq-31",
+        "power-reviewed-1eece775a0",
+        "power-mcq-07"
       ],
       "explanation": "本句的「power of a simple gesture」指「某事物產生影響、改變或效果的能力」。",
       "sentenceIndex": 3,
@@ -894,12 +892,10 @@ export default {
         "power of a simple gesture"
       ],
       "optionReasons": {
-        "power-mcq-02": "本句指「某事物產生影響、改變或效果的能力」。",
-        "power-mcq-01": "「令某件事情發生、改變或產生顯著效果的能力」是「power — capacity/effect」的用法，與本句語境不同。",
-        "power-mcq-03": "「控制事情、作決定或影響別人行動的權力」是「power — control/authority」的用法，與本句語境不同。",
-        "power-mcq-04": "「擁有做某事所需的能力、權力或影響力」是「have the power to」的用法，與本句語境不同。",
-        "power-mcq-05": "「控制政府、制定政策和作政治決策的權力」是「power — political」的用法，與本句語境不同。",
-        "power-mcq-06": "「開始掌握政治控制權；上台執政」是「come to power」的用法，與本句語境不同。"
+        "power-mcq-02": "本句的「power of a simple gesture」指「某事物產生影響、改變或效果的能力」。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-02"
     },
@@ -911,11 +907,9 @@ export default {
       "masked": "The manager has the ____ to make the final decision.",
       "options": [
         "power-mcq-03",
-        "power-mcq-02",
-        "power-mcq-04",
-        "power-mcq-01",
-        "power-mcq-05",
-        "power-mcq-06"
+        "power-mcq-20",
+        "power-reviewed-1eece775a0",
+        "power-mcq-11"
       ],
       "explanation": "本句的「power」指「控制事情、作決定或影響別人行動的權力」。",
       "sentenceIndex": 4,
@@ -924,12 +918,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-03": "本句指「控制事情、作決定或影響別人行動的權力」。",
-        "power-mcq-02": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。",
-        "power-mcq-04": "「擁有做某事所需的能力、權力或影響力」是「have the power to」的用法，與本句語境不同。",
-        "power-mcq-01": "「令某件事情發生、改變或產生顯著效果的能力」是「power — capacity/effect」的用法，與本句語境不同。",
-        "power-mcq-05": "「控制政府、制定政策和作政治決策的權力」是「power — political」的用法，與本句語境不同。",
-        "power-mcq-06": "「開始掌握政治控制權；上台執政」是「come to power」的用法，與本句語境不同。"
+        "power-mcq-03": "本句的「power」指「控制事情、作決定或影響別人行動的權力」。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-03"
     },
@@ -941,11 +933,9 @@ export default {
       "masked": "No single person should have too much ____.",
       "options": [
         "power-mcq-03",
-        "power-mcq-02",
-        "power-mcq-04",
-        "power-mcq-01",
-        "power-mcq-05",
-        "power-mcq-06"
+        "power-pdf-001",
+        "power-reviewed-1eece775a0",
+        "power-mcq-11"
       ],
       "explanation": "本句的「power」指「控制事情、作決定或影響別人行動的權力」。",
       "sentenceIndex": 5,
@@ -954,12 +944,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-03": "本句指「控制事情、作決定或影響別人行動的權力」。",
-        "power-mcq-02": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。",
-        "power-mcq-04": "「擁有做某事所需的能力、權力或影響力」是「have the power to」的用法，與本句語境不同。",
-        "power-mcq-01": "「令某件事情發生、改變或產生顯著效果的能力」是「power — capacity/effect」的用法，與本句語境不同。",
-        "power-mcq-05": "「控制政府、制定政策和作政治決策的權力」是「power — political」的用法，與本句語境不同。",
-        "power-mcq-06": "「開始掌握政治控制權；上台執政」是「come to power」的用法，與本句語境不同。"
+        "power-mcq-03": "本句的「power」指「控制事情、作決定或影響別人行動的權力」。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-03"
     },
@@ -971,11 +959,9 @@ export default {
       "masked": "The court has the ____ stop the order.",
       "options": [
         "power-mcq-04",
-        "power-mcq-03",
-        "power-mcq-05",
-        "power-mcq-02",
-        "power-mcq-06",
-        "power-mcq-01"
+        "power-pdf-001",
+        "power-reviewed-1eece775a0",
+        "power-mcq-11"
       ],
       "explanation": "本句的「power to」指「擁有做某事所需的能力、權力或影響力」。",
       "sentenceIndex": 6,
@@ -984,12 +970,10 @@ export default {
         "power to"
       ],
       "optionReasons": {
-        "power-mcq-04": "本句指「擁有做某事所需的能力、權力或影響力」。",
-        "power-mcq-03": "「控制事情、作決定或影響別人行動的權力」是「power — control/authority」的用法，與本句語境不同。",
-        "power-mcq-05": "「控制政府、制定政策和作政治決策的權力」是「power — political」的用法，與本句語境不同。",
-        "power-mcq-02": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。",
-        "power-mcq-06": "「開始掌握政治控制權；上台執政」是「come to power」的用法，與本句語境不同。",
-        "power-mcq-01": "「令某件事情發生、改變或產生顯著效果的能力」是「power — capacity/effect」的用法，與本句語境不同。"
+        "power-mcq-04": "本句的「power to」指「擁有做某事所需的能力、權力或影響力」。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-04"
     },
@@ -1001,11 +985,9 @@ export default {
       "masked": "Small actions have the ____ change a relationship.",
       "options": [
         "power-mcq-04",
-        "power-mcq-03",
-        "power-mcq-05",
-        "power-mcq-02",
-        "power-mcq-06",
-        "power-mcq-01"
+        "power-reviewed-1eece775a0",
+        "power-mcq-20",
+        "power-mcq-06"
       ],
       "explanation": "本句的「power to」指「擁有做某事所需的能力、權力或影響力」。",
       "sentenceIndex": 7,
@@ -1014,12 +996,10 @@ export default {
         "power to"
       ],
       "optionReasons": {
-        "power-mcq-04": "本句指「擁有做某事所需的能力、權力或影響力」。",
-        "power-mcq-03": "「控制事情、作決定或影響別人行動的權力」是「power — control/authority」的用法，與本句語境不同。",
-        "power-mcq-05": "「控制政府、制定政策和作政治決策的權力」是「power — political」的用法，與本句語境不同。",
-        "power-mcq-02": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。",
-        "power-mcq-06": "「開始掌握政治控制權；上台執政」是「come to power」的用法，與本句語境不同。",
-        "power-mcq-01": "「令某件事情發生、改變或產生顯著效果的能力」是「power — capacity/effect」的用法，與本句語境不同。"
+        "power-mcq-04": "本句的「power to」指「擁有做某事所需的能力、權力或影響力」。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-04"
     },
@@ -1031,11 +1011,9 @@ export default {
       "masked": "The new government came to ____.",
       "options": [
         "power-mcq-05",
-        "power-mcq-04",
-        "power-mcq-06",
-        "power-mcq-03",
-        "power-mcq-07",
-        "power-mcq-02"
+        "power-reviewed-1eece775a0",
+        "power-mcq-20",
+        "power-mcq-11"
       ],
       "explanation": "本句的「power」指「控制政府、制定政策和作政治決策的權力」。",
       "sentenceIndex": 8,
@@ -1044,12 +1022,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-05": "本句指「控制政府、制定政策和作政治決策的權力」。",
-        "power-mcq-04": "「擁有做某事所需的能力、權力或影響力」是「have the power to」的用法，與本句語境不同。",
-        "power-mcq-06": "「開始掌握政治控制權；上台執政」是「come to power」的用法，與本句語境不同。",
-        "power-mcq-03": "「控制事情、作決定或影響別人行動的權力」是「power — control/authority」的用法，與本句語境不同。",
-        "power-mcq-07": "「正在掌握政府／政治控制權」是「be in power」的用法，與本句語境不同。",
-        "power-mcq-02": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。"
+        "power-mcq-05": "本句的「power」指「控制政府、制定政策和作政治決策的權力」。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-05"
     },
@@ -1061,11 +1037,9 @@ export default {
       "masked": "The party remained in ____ for several years.",
       "options": [
         "power-mcq-05",
-        "power-mcq-04",
-        "power-mcq-06",
-        "power-mcq-03",
-        "power-mcq-07",
-        "power-mcq-02"
+        "power-pdf-001",
+        "power-reviewed-1eece775a0",
+        "power-mcq-32"
       ],
       "explanation": "本句的「power」指「控制政府、制定政策和作政治決策的權力」。",
       "sentenceIndex": 9,
@@ -1074,12 +1048,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-05": "本句指「控制政府、制定政策和作政治決策的權力」。",
-        "power-mcq-04": "「擁有做某事所需的能力、權力或影響力」是「have the power to」的用法，與本句語境不同。",
-        "power-mcq-06": "「開始掌握政治控制權；上台執政」是「come to power」的用法，與本句語境不同。",
-        "power-mcq-03": "「控制事情、作決定或影響別人行動的權力」是「power — control/authority」的用法，與本句語境不同。",
-        "power-mcq-07": "「正在掌握政府／政治控制權」是「be in power」的用法，與本句語境不同。",
-        "power-mcq-02": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。"
+        "power-mcq-05": "本句的「power」指「控制政府、制定政策和作政治決策的權力」。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-05"
     },
@@ -1091,11 +1063,9 @@ export default {
       "masked": "The government came to ____ after the election.",
       "options": [
         "power-mcq-06",
-        "power-mcq-05",
-        "power-mcq-07",
-        "power-mcq-04",
-        "power-mcq-08",
-        "power-mcq-03"
+        "power-mcq-13",
+        "power-mcq-20",
+        "power-mcq-18"
       ],
       "explanation": "本句的「power」指「開始掌握政治控制權；上台執政」。",
       "sentenceIndex": 10,
@@ -1104,12 +1074,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-06": "本句指「開始掌握政治控制權；上台執政」。",
-        "power-mcq-05": "「控制政府、制定政策和作政治決策的權力」是「power — political」的用法，與本句語境不同。",
-        "power-mcq-07": "「正在掌握政府／政治控制權」是「be in power」的用法，與本句語境不同。",
-        "power-mcq-04": "「擁有做某事所需的能力、權力或影響力」是「have the power to」的用法，與本句語境不同。",
-        "power-mcq-08": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。",
-        "power-mcq-03": "「控制事情、作決定或影響別人行動的權力」是「power — control/authority」的用法，與本句語境不同。"
+        "power-mcq-06": "本句的「power」指「開始掌握政治控制權；上台執政」。",
+        "power-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-06"
     },
@@ -1121,11 +1089,9 @@ export default {
       "masked": "The movement eventually came to ____.",
       "options": [
         "power-mcq-06",
-        "power-mcq-05",
-        "power-mcq-07",
-        "power-mcq-04",
-        "power-mcq-08",
-        "power-mcq-03"
+        "power-mcq-10",
+        "power-mcq-16",
+        "power-pdf-001"
       ],
       "explanation": "本句的「power」指「開始掌握政治控制權；上台執政」。",
       "sentenceIndex": 11,
@@ -1134,12 +1100,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-06": "本句指「開始掌握政治控制權；上台執政」。",
-        "power-mcq-05": "「控制政府、制定政策和作政治決策的權力」是「power — political」的用法，與本句語境不同。",
-        "power-mcq-07": "「正在掌握政府／政治控制權」是「be in power」的用法，與本句語境不同。",
-        "power-mcq-04": "「擁有做某事所需的能力、權力或影響力」是「have the power to」的用法，與本句語境不同。",
-        "power-mcq-08": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。",
-        "power-mcq-03": "「控制事情、作決定或影響別人行動的權力」是「power — control/authority」的用法，與本句語境不同。"
+        "power-mcq-06": "本句的「power」指「開始掌握政治控制權；上台執政」。",
+        "power-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-06"
     },
@@ -1151,11 +1115,9 @@ export default {
       "masked": "The party was in ____ for eight years.",
       "options": [
         "power-mcq-07",
-        "power-mcq-06",
-        "power-mcq-08",
-        "power-mcq-05",
-        "power-mcq-09",
-        "power-mcq-04"
+        "power-mcq-19",
+        "power-mcq-10",
+        "power-mcq-32"
       ],
       "explanation": "本句的「power」指「正在掌握政府／政治控制權」。",
       "sentenceIndex": 12,
@@ -1164,12 +1126,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-07": "本句指「正在掌握政府／政治控制權」。",
-        "power-mcq-06": "「開始掌握政治控制權；上台執政」是「come to power」的用法，與本句語境不同。",
-        "power-mcq-08": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。",
-        "power-mcq-05": "「控制政府、制定政策和作政治決策的權力」是「power — political」的用法，與本句語境不同。",
-        "power-mcq-09": "「供設備、建築或機器運作所需的電力／能源」是「power — electricity」的用法，與本句語境不同。",
-        "power-mcq-04": "「擁有做某事所需的能力、權力或影響力」是「have the power to」的用法，與本句語境不同。"
+        "power-mcq-07": "本句的「power」指「正在掌握政府／政治控制權」。",
+        "power-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-07"
     },
@@ -1181,11 +1141,9 @@ export default {
       "masked": "Who was in ____ at the time?",
       "options": [
         "power-mcq-07",
-        "power-mcq-06",
-        "power-mcq-08",
-        "power-mcq-05",
-        "power-mcq-09",
-        "power-mcq-04"
+        "power-mcq-16",
+        "power-pdf-001",
+        "power-mcq-32"
       ],
       "explanation": "本句的「power」指「正在掌握政府／政治控制權」。",
       "sentenceIndex": 13,
@@ -1194,12 +1152,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-07": "本句指「正在掌握政府／政治控制權」。",
-        "power-mcq-06": "「開始掌握政治控制權；上台執政」是「come to power」的用法，與本句語境不同。",
-        "power-mcq-08": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。",
-        "power-mcq-05": "「控制政府、制定政策和作政治決策的權力」是「power — political」的用法，與本句語境不同。",
-        "power-mcq-09": "「供設備、建築或機器運作所需的電力／能源」是「power — electricity」的用法，與本句語境不同。",
-        "power-mcq-04": "「擁有做某事所需的能力、權力或影響力」是「have the power to」的用法，與本句語境不同。"
+        "power-mcq-07": "本句的「power」指「正在掌握政府／政治控制權」。",
+        "power-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-07"
     },
@@ -1211,11 +1167,9 @@ export default {
       "masked": "The wave hit the rocks with enormous ____.",
       "options": [
         "power-mcq-08",
-        "power-mcq-07",
-        "power-mcq-09",
-        "power-mcq-06",
-        "power-mcq-10",
-        "power-mcq-05"
+        "power-mcq-18",
+        "power-reviewed-1eece775a0",
+        "power-mcq-20"
       ],
       "explanation": "本句的「power」指「能產生動作、衝擊或物理效果的力量」。",
       "sentenceIndex": 14,
@@ -1224,12 +1178,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-08": "本句指「能產生動作、衝擊或物理效果的力量」。",
-        "power-mcq-07": "「正在掌握政府／政治控制權」是「be in power」的用法，與本句語境不同。",
-        "power-mcq-09": "「供設備、建築或機器運作所需的電力／能源」是「power — electricity」的用法，與本句語境不同。",
-        "power-mcq-06": "「開始掌握政治控制權；上台執政」是「come to power」的用法，與本句語境不同。",
-        "power-mcq-10": "「提供電力的系統或裝置」是「power supply」的用法，與本句語境不同。",
-        "power-mcq-05": "「控制政府、制定政策和作政治決策的權力」是「power — political」的用法，與本句語境不同。"
+        "power-mcq-08": "本句的「power」指「能產生動作、衝擊或物理效果的力量」。",
+        "power-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-08"
     },
@@ -1241,11 +1193,9 @@ export default {
       "masked": "She struck the ball with great ____.",
       "options": [
         "power-mcq-08",
-        "power-mcq-07",
-        "power-mcq-09",
-        "power-mcq-06",
-        "power-mcq-10",
-        "power-mcq-05"
+        "power-mcq-20",
+        "power-reviewed-1eece775a0",
+        "power-mcq-18"
       ],
       "explanation": "本句的「power」指「能產生動作、衝擊或物理效果的力量」。",
       "sentenceIndex": 15,
@@ -1254,12 +1204,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-08": "本句指「能產生動作、衝擊或物理效果的力量」。",
-        "power-mcq-07": "「正在掌握政府／政治控制權」是「be in power」的用法，與本句語境不同。",
-        "power-mcq-09": "「供設備、建築或機器運作所需的電力／能源」是「power — electricity」的用法，與本句語境不同。",
-        "power-mcq-06": "「開始掌握政治控制權；上台執政」是「come to power」的用法，與本句語境不同。",
-        "power-mcq-10": "「提供電力的系統或裝置」是「power supply」的用法，與本句語境不同。",
-        "power-mcq-05": "「控制政府、制定政策和作政治決策的權力」是「power — political」的用法，與本句語境不同。"
+        "power-mcq-08": "本句的「power」指「能產生動作、衝擊或物理效果的力量」。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-08"
     },
@@ -1271,11 +1219,9 @@ export default {
       "masked": "The building lost ____ during the storm.",
       "options": [
         "power-mcq-09",
-        "power-mcq-08",
-        "power-mcq-10",
-        "power-mcq-07",
-        "power-mcq-11",
-        "power-mcq-06"
+        "power-mcq-06",
+        "power-mcq-31",
+        "power-mcq-20"
       ],
       "explanation": "本句的「power」指「供設備、建築或機器運作所需的電力／能源」。",
       "sentenceIndex": 16,
@@ -1284,12 +1230,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-09": "本句指「供設備、建築或機器運作所需的電力／能源」。",
-        "power-mcq-08": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。",
-        "power-mcq-10": "「提供電力的系統或裝置」是「power supply」的用法，與本句語境不同。",
-        "power-mcq-07": "「正在掌握政府／政治控制權」是「be in power」的用法，與本句語境不同。",
-        "power-mcq-11": "「電力供應暫時中斷；停電」是「power failure/outage」的用法，與本句語境不同。",
-        "power-mcq-06": "「開始掌握政治控制權；上台執政」是「come to power」的用法，與本句語境不同。"
+        "power-mcq-09": "本句的「power」指「供設備、建築或機器運作所需的電力／能源」。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-09"
     },
@@ -1301,11 +1245,9 @@ export default {
       "masked": "This machine uses very little ____.",
       "options": [
         "power-mcq-09",
-        "power-mcq-08",
-        "power-mcq-10",
-        "power-mcq-07",
-        "power-mcq-11",
-        "power-mcq-06"
+        "power-pdf-001",
+        "power-mcq-06",
+        "power-mcq-31"
       ],
       "explanation": "本句的「power」指「供設備、建築或機器運作所需的電力／能源」。",
       "sentenceIndex": 17,
@@ -1314,12 +1256,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-09": "本句指「供設備、建築或機器運作所需的電力／能源」。",
-        "power-mcq-08": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。",
-        "power-mcq-10": "「提供電力的系統或裝置」是「power supply」的用法，與本句語境不同。",
-        "power-mcq-07": "「正在掌握政府／政治控制權」是「be in power」的用法，與本句語境不同。",
-        "power-mcq-11": "「電力供應暫時中斷；停電」是「power failure/outage」的用法，與本句語境不同。",
-        "power-mcq-06": "「開始掌握政治控制權；上台執政」是「come to power」的用法，與本句語境不同。"
+        "power-mcq-09": "本句的「power」指「供設備、建築或機器運作所需的電力／能源」。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-09"
     },
@@ -1331,11 +1271,9 @@ export default {
       "masked": "The storm interrupted the ____.",
       "options": [
         "power-mcq-10",
-        "power-mcq-09",
-        "power-mcq-11",
-        "power-mcq-08",
-        "power-mcq-12",
-        "power-mcq-07"
+        "power-mcq-20",
+        "power-mcq-31",
+        "power-mcq-06"
       ],
       "explanation": "本句的「power supply」指「提供電力的系統或裝置」。",
       "sentenceIndex": 18,
@@ -1344,12 +1282,10 @@ export default {
         "power supply"
       ],
       "optionReasons": {
-        "power-mcq-10": "本句指「提供電力的系統或裝置」。",
-        "power-mcq-09": "「供設備、建築或機器運作所需的電力／能源」是「power — electricity」的用法，與本句語境不同。",
-        "power-mcq-11": "「電力供應暫時中斷；停電」是「power failure/outage」的用法，與本句語境不同。",
-        "power-mcq-08": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。",
-        "power-mcq-12": "「機械／電氣系統產生能量或輸出的能力／功率」是「power — machine output」的用法，與本句語境不同。",
-        "power-mcq-07": "「正在掌握政府／政治控制權」是「be in power」的用法，與本句語境不同。"
+        "power-mcq-10": "本句的「power supply」指「提供電力的系統或裝置」。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-10"
     },
@@ -1361,11 +1297,9 @@ export default {
       "masked": "Check the computer’s ____.",
       "options": [
         "power-mcq-10",
-        "power-mcq-09",
-        "power-mcq-11",
-        "power-mcq-08",
-        "power-mcq-12",
-        "power-mcq-07"
+        "power-mcq-18",
+        "power-mcq-20",
+        "power-mcq-06"
       ],
       "explanation": "本句的「power supply」指「提供電力的系統或裝置」。",
       "sentenceIndex": 19,
@@ -1374,12 +1308,10 @@ export default {
         "power supply"
       ],
       "optionReasons": {
-        "power-mcq-10": "本句指「提供電力的系統或裝置」。",
-        "power-mcq-09": "「供設備、建築或機器運作所需的電力／能源」是「power — electricity」的用法，與本句語境不同。",
-        "power-mcq-11": "「電力供應暫時中斷；停電」是「power failure/outage」的用法，與本句語境不同。",
-        "power-mcq-08": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。",
-        "power-mcq-12": "「機械／電氣系統產生能量或輸出的能力／功率」是「power — machine output」的用法，與本句語境不同。",
-        "power-mcq-07": "「正在掌握政府／政治控制權」是「be in power」的用法，與本句語境不同。"
+        "power-mcq-10": "本句的「power supply」指「提供電力的系統或裝置」。",
+        "power-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-10"
     },
@@ -1391,11 +1323,9 @@ export default {
       "masked": "The storm caused a ____.",
       "options": [
         "power-mcq-11",
-        "power-mcq-10",
-        "power-mcq-12",
-        "power-mcq-09",
-        "power-mcq-13",
-        "power-mcq-08"
+        "power-mcq-20",
+        "power-mcq-31",
+        "power-mcq-07"
       ],
       "explanation": "本句的「power failure」指「電力供應暫時中斷；停電」。",
       "sentenceIndex": 20,
@@ -1404,12 +1334,10 @@ export default {
         "power failure"
       ],
       "optionReasons": {
-        "power-mcq-11": "本句指「電力供應暫時中斷；停電」。",
-        "power-mcq-10": "「提供電力的系統或裝置」是「power supply」的用法，與本句語境不同。",
-        "power-mcq-12": "「機械／電氣系統產生能量或輸出的能力／功率」是「power — machine output」的用法，與本句語境不同。",
-        "power-mcq-09": "「供設備、建築或機器運作所需的電力／能源」是「power — electricity」的用法，與本句語境不同。",
-        "power-mcq-13": "「電腦或處理器進行運算及資料處理的能力」是「computing power」的用法，與本句語境不同。",
-        "power-mcq-08": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。"
+        "power-mcq-11": "本句的「power failure」指「電力供應暫時中斷；停電」。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-11"
     },
@@ -1421,11 +1349,9 @@ export default {
       "masked": "The hospital has backup systems for a ____.",
       "options": [
         "power-mcq-11",
-        "power-mcq-10",
-        "power-mcq-12",
-        "power-mcq-09",
-        "power-mcq-13",
-        "power-mcq-08"
+        "power-pdf-001",
+        "power-mcq-07",
+        "power-mcq-31"
       ],
       "explanation": "本句的「power outage」指「電力供應暫時中斷；停電」。",
       "sentenceIndex": 21,
@@ -1434,12 +1360,10 @@ export default {
         "power outage"
       ],
       "optionReasons": {
-        "power-mcq-11": "本句指「電力供應暫時中斷；停電」。",
-        "power-mcq-10": "「提供電力的系統或裝置」是「power supply」的用法，與本句語境不同。",
-        "power-mcq-12": "「機械／電氣系統產生能量或輸出的能力／功率」是「power — machine output」的用法，與本句語境不同。",
-        "power-mcq-09": "「供設備、建築或機器運作所需的電力／能源」是「power — electricity」的用法，與本句語境不同。",
-        "power-mcq-13": "「電腦或處理器進行運算及資料處理的能力」是「computing power」的用法，與本句語境不同。",
-        "power-mcq-08": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。"
+        "power-mcq-11": "本句的「power outage」指「電力供應暫時中斷；停電」。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-11"
     },
@@ -1451,11 +1375,9 @@ export default {
       "masked": "The new engine produces more ____.",
       "options": [
         "power-mcq-12",
-        "power-mcq-11",
-        "power-mcq-13",
-        "power-mcq-10",
-        "power-mcq-14",
-        "power-mcq-09"
+        "power-pdf-001",
+        "power-mcq-06",
+        "power-mcq-31"
       ],
       "explanation": "本句的「power」指「機械／電氣系統產生能量或輸出的能力／功率」。",
       "sentenceIndex": 22,
@@ -1464,12 +1386,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-12": "本句指「機械／電氣系統產生能量或輸出的能力／功率」。",
-        "power-mcq-11": "「電力供應暫時中斷；停電」是「power failure/outage」的用法，與本句語境不同。",
-        "power-mcq-13": "「電腦或處理器進行運算及資料處理的能力」是「computing power」的用法，與本句語境不同。",
-        "power-mcq-10": "「提供電力的系統或裝置」是「power supply」的用法，與本句語境不同。",
-        "power-mcq-14": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。",
-        "power-mcq-09": "「供設備、建築或機器運作所需的電力／能源」是「power — electricity」的用法，與本句語境不同。"
+        "power-mcq-12": "本句的「power」指「機械／電氣系統產生能量或輸出的能力／功率」。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-12"
     },
@@ -1481,11 +1401,9 @@ export default {
       "masked": "The motor needs more ____.",
       "options": [
         "power-mcq-12",
-        "power-mcq-11",
-        "power-mcq-13",
-        "power-mcq-10",
-        "power-mcq-14",
-        "power-mcq-09"
+        "power-mcq-20",
+        "power-mcq-06",
+        "power-mcq-31"
       ],
       "explanation": "本句的「power」指「機械／電氣系統產生能量或輸出的能力／功率」。",
       "sentenceIndex": 23,
@@ -1494,12 +1412,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-12": "本句指「機械／電氣系統產生能量或輸出的能力／功率」。",
-        "power-mcq-11": "「電力供應暫時中斷；停電」是「power failure/outage」的用法，與本句語境不同。",
-        "power-mcq-13": "「電腦或處理器進行運算及資料處理的能力」是「computing power」的用法，與本句語境不同。",
-        "power-mcq-10": "「提供電力的系統或裝置」是「power supply」的用法，與本句語境不同。",
-        "power-mcq-14": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。",
-        "power-mcq-09": "「供設備、建築或機器運作所需的電力／能源」是「power — electricity」的用法，與本句語境不同。"
+        "power-mcq-12": "本句的「power」指「機械／電氣系統產生能量或輸出的能力／功率」。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-12"
     },
@@ -1511,11 +1427,9 @@ export default {
       "masked": "Modern phones have impressive computing ____.",
       "options": [
         "power-mcq-13",
-        "power-mcq-12",
-        "power-mcq-14",
-        "power-mcq-11",
-        "power-mcq-15",
-        "power-mcq-10"
+        "power-mcq-18",
+        "power-mcq-20",
+        "power-mcq-06"
       ],
       "explanation": "本句的「power」指「電腦或處理器進行運算及資料處理的能力」。",
       "sentenceIndex": 24,
@@ -1524,12 +1438,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-13": "本句指「電腦或處理器進行運算及資料處理的能力」。",
-        "power-mcq-12": "「機械／電氣系統產生能量或輸出的能力／功率」是「power — machine output」的用法，與本句語境不同。",
-        "power-mcq-14": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。",
-        "power-mcq-11": "「電力供應暫時中斷；停電」是「power failure/outage」的用法，與本句語境不同。",
-        "power-mcq-15": "「影響別人的思想、行為或事件發展的能力」是「power — influence」的用法，與本句語境不同。",
-        "power-mcq-10": "「提供電力的系統或裝置」是「power supply」的用法，與本句語境不同。"
+        "power-mcq-13": "本句的「power」指「電腦或處理器進行運算及資料處理的能力」。",
+        "power-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-13"
     },
@@ -1541,11 +1453,9 @@ export default {
       "masked": "The project requires more processing ____.",
       "options": [
         "power-mcq-13",
-        "power-mcq-12",
-        "power-mcq-14",
-        "power-mcq-11",
-        "power-mcq-15",
-        "power-mcq-10"
+        "power-pdf-001",
+        "power-mcq-07",
+        "power-mcq-32"
       ],
       "explanation": "本句的「power」指「電腦或處理器進行運算及資料處理的能力」。",
       "sentenceIndex": 25,
@@ -1554,12 +1464,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-13": "本句指「電腦或處理器進行運算及資料處理的能力」。",
-        "power-mcq-12": "「機械／電氣系統產生能量或輸出的能力／功率」是「power — machine output」的用法，與本句語境不同。",
-        "power-mcq-14": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。",
-        "power-mcq-11": "「電力供應暫時中斷；停電」是「power failure/outage」的用法，與本句語境不同。",
-        "power-mcq-15": "「影響別人的思想、行為或事件發展的能力」是「power — influence」的用法，與本句語境不同。",
-        "power-mcq-10": "「提供電力的系統或裝置」是「power supply」的用法，與本句語境不同。"
+        "power-mcq-13": "本句的「power」指「電腦或處理器進行運算及資料處理的能力」。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-13"
     },
@@ -1571,11 +1479,9 @@ export default {
       "masked": "Inflation reduces purchasing ____.",
       "options": [
         "power-mcq-14",
-        "power-mcq-13",
-        "power-mcq-15",
-        "power-mcq-12",
-        "power-mcq-16",
-        "power-mcq-11"
+        "power-pdf-001",
+        "power-mcq-07",
+        "power-reviewed-1eece775a0"
       ],
       "explanation": "本句的「power」指「收入／貨幣實際可購買商品和服務的能力」。",
       "sentenceIndex": 26,
@@ -1584,12 +1490,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-14": "本句指「收入／貨幣實際可購買商品和服務的能力」。",
-        "power-mcq-13": "「電腦或處理器進行運算及資料處理的能力」是「computing power」的用法，與本句語境不同。",
-        "power-mcq-15": "「影響別人的思想、行為或事件發展的能力」是「power — influence」的用法，與本句語境不同。",
-        "power-mcq-12": "「機械／電氣系統產生能量或輸出的能力／功率」是「power — machine output」的用法，與本句語境不同。",
-        "power-mcq-16": "「透過資金、市場地位或資源影響結果的能力」是「economic power」的用法，與本句語境不同。",
-        "power-mcq-11": "「電力供應暫時中斷；停電」是「power failure/outage」的用法，與本句語境不同。"
+        "power-mcq-14": "本句的「power」指「收入／貨幣實際可購買商品和服務的能力」。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-14"
     },
@@ -1601,11 +1505,9 @@ export default {
       "masked": "Higher wages increased household purchasing ____.",
       "options": [
         "power-mcq-14",
-        "power-mcq-13",
-        "power-mcq-15",
-        "power-mcq-12",
-        "power-mcq-16",
-        "power-mcq-11"
+        "power-mcq-20",
+        "power-mcq-18",
+        "power-mcq-06"
       ],
       "explanation": "本句的「power」指「收入／貨幣實際可購買商品和服務的能力」。",
       "sentenceIndex": 27,
@@ -1614,12 +1516,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-14": "本句指「收入／貨幣實際可購買商品和服務的能力」。",
-        "power-mcq-13": "「電腦或處理器進行運算及資料處理的能力」是「computing power」的用法，與本句語境不同。",
-        "power-mcq-15": "「影響別人的思想、行為或事件發展的能力」是「power — influence」的用法，與本句語境不同。",
-        "power-mcq-12": "「機械／電氣系統產生能量或輸出的能力／功率」是「power — machine output」的用法，與本句語境不同。",
-        "power-mcq-16": "「透過資金、市場地位或資源影響結果的能力」是「economic power」的用法，與本句語境不同。",
-        "power-mcq-11": "「電力供應暫時中斷；停電」是「power failure/outage」的用法，與本句語境不同。"
+        "power-mcq-14": "本句的「power」指「收入／貨幣實際可購買商品和服務的能力」。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-14"
     },
@@ -1631,11 +1531,9 @@ export default {
       "masked": "The media has considerable ____ to shape public opinion.",
       "options": [
         "power-mcq-15",
-        "power-mcq-14",
-        "power-mcq-16",
-        "power-mcq-13",
-        "power-mcq-17",
-        "power-mcq-12"
+        "power-reviewed-1eece775a0",
+        "power-mcq-07",
+        "power-pdf-001"
       ],
       "explanation": "本句的「power」指「影響別人的思想、行為或事件發展的能力」。",
       "sentenceIndex": 28,
@@ -1644,12 +1542,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-15": "本句指「影響別人的思想、行為或事件發展的能力」。",
-        "power-mcq-14": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。",
-        "power-mcq-16": "「透過資金、市場地位或資源影響結果的能力」是「economic power」的用法，與本句語境不同。",
-        "power-mcq-13": "「電腦或處理器進行運算及資料處理的能力」是「computing power」的用法，與本句語境不同。",
-        "power-mcq-17": "「一個國家／組織擁有的軍事實力」是「military power」的用法，與本句語境不同。",
-        "power-mcq-12": "「機械／電氣系統產生能量或輸出的能力／功率」是「power — machine output」的用法，與本句語境不同。"
+        "power-mcq-15": "本句的「power」指「影響別人的思想、行為或事件發展的能力」。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-15"
     },
@@ -1661,11 +1557,9 @@ export default {
       "masked": "Money can give people social ____.",
       "options": [
         "power-mcq-15",
-        "power-mcq-14",
-        "power-mcq-16",
-        "power-mcq-13",
-        "power-mcq-17",
-        "power-mcq-12"
+        "power-mcq-06",
+        "power-mcq-31",
+        "power-pdf-001"
       ],
       "explanation": "本句的「power」指「影響別人的思想、行為或事件發展的能力」。",
       "sentenceIndex": 29,
@@ -1674,12 +1568,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-15": "本句指「影響別人的思想、行為或事件發展的能力」。",
-        "power-mcq-14": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。",
-        "power-mcq-16": "「透過資金、市場地位或資源影響結果的能力」是「economic power」的用法，與本句語境不同。",
-        "power-mcq-13": "「電腦或處理器進行運算及資料處理的能力」是「computing power」的用法，與本句語境不同。",
-        "power-mcq-17": "「一個國家／組織擁有的軍事實力」是「military power」的用法，與本句語境不同。",
-        "power-mcq-12": "「機械／電氣系統產生能量或輸出的能力／功率」是「power — machine output」的用法，與本句語境不同。"
+        "power-mcq-15": "本句的「power」指「影響別人的思想、行為或事件發展的能力」。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-15"
     },
@@ -1691,11 +1583,9 @@ export default {
       "masked": "The city became a centre of economic ____.",
       "options": [
         "power-mcq-16",
-        "power-mcq-15",
-        "power-mcq-17",
-        "power-mcq-14",
-        "power-mcq-18",
-        "power-mcq-13"
+        "power-mcq-07",
+        "power-pdf-001",
+        "power-mcq-31"
       ],
       "explanation": "本句的「power」指「透過資金、市場地位或資源影響結果的能力」。",
       "sentenceIndex": 30,
@@ -1704,12 +1594,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-16": "本句指「透過資金、市場地位或資源影響結果的能力」。",
-        "power-mcq-15": "「影響別人的思想、行為或事件發展的能力」是「power — influence」的用法，與本句語境不同。",
-        "power-mcq-17": "「一個國家／組織擁有的軍事實力」是「military power」的用法，與本句語境不同。",
-        "power-mcq-14": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。",
-        "power-mcq-18": "「法律或制度正式賦予某機構／職位的權限」是「powers — official authority」的用法，與本句語境不同。",
-        "power-mcq-13": "「電腦或處理器進行運算及資料處理的能力」是「computing power」的用法，與本句語境不同。"
+        "power-mcq-16": "本句的「power」指「透過資金、市場地位或資源影響結果的能力」。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-16"
     },
@@ -1721,11 +1609,9 @@ export default {
       "masked": "Large companies can exercise considerable economic ____.",
       "options": [
         "power-mcq-16",
-        "power-mcq-15",
-        "power-mcq-17",
-        "power-mcq-14",
-        "power-mcq-18",
-        "power-mcq-13"
+        "power-mcq-31",
+        "power-mcq-20",
+        "power-mcq-06"
       ],
       "explanation": "本句的「power」指「透過資金、市場地位或資源影響結果的能力」。",
       "sentenceIndex": 31,
@@ -1734,12 +1620,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-16": "本句指「透過資金、市場地位或資源影響結果的能力」。",
-        "power-mcq-15": "「影響別人的思想、行為或事件發展的能力」是「power — influence」的用法，與本句語境不同。",
-        "power-mcq-17": "「一個國家／組織擁有的軍事實力」是「military power」的用法，與本句語境不同。",
-        "power-mcq-14": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。",
-        "power-mcq-18": "「法律或制度正式賦予某機構／職位的權限」是「powers — official authority」的用法，與本句語境不同。",
-        "power-mcq-13": "「電腦或處理器進行運算及資料處理的能力」是「computing power」的用法，與本句語境不同。"
+        "power-mcq-16": "本句的「power」指「透過資金、市場地位或資源影響結果的能力」。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-16"
     },
@@ -1751,11 +1635,9 @@ export default {
       "masked": "The country increased its military ____.",
       "options": [
         "power-mcq-17",
-        "power-mcq-16",
-        "power-mcq-18",
-        "power-mcq-15",
-        "power-mcq-19",
-        "power-mcq-14"
+        "power-mcq-20",
+        "power-reviewed-1eece775a0",
+        "power-mcq-07"
       ],
       "explanation": "本句的「power」指「一個國家／組織擁有的軍事實力」。",
       "sentenceIndex": 32,
@@ -1764,12 +1646,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-17": "本句指「一個國家／組織擁有的軍事實力」。",
-        "power-mcq-16": "「透過資金、市場地位或資源影響結果的能力」是「economic power」的用法，與本句語境不同。",
-        "power-mcq-18": "「法律或制度正式賦予某機構／職位的權限」是「powers — official authority」的用法，與本句語境不同。",
-        "power-mcq-15": "「影響別人的思想、行為或事件發展的能力」是「power — influence」的用法，與本句語境不同。",
-        "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。",
-        "power-mcq-14": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。"
+        "power-mcq-17": "本句的「power」指「一個國家／組織擁有的軍事實力」。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-17"
     },
@@ -1781,11 +1661,9 @@ export default {
       "masked": "Military ____ alone cannot solve every problem.",
       "options": [
         "power-mcq-17",
-        "power-mcq-16",
-        "power-mcq-18",
-        "power-mcq-15",
-        "power-mcq-19",
-        "power-mcq-14"
+        "power-mcq-06",
+        "power-mcq-20",
+        "power-mcq-31"
       ],
       "explanation": "本句的「power」指「一個國家／組織擁有的軍事實力」。",
       "sentenceIndex": 33,
@@ -1794,12 +1672,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-17": "本句指「一個國家／組織擁有的軍事實力」。",
-        "power-mcq-16": "「透過資金、市場地位或資源影響結果的能力」是「economic power」的用法，與本句語境不同。",
-        "power-mcq-18": "「法律或制度正式賦予某機構／職位的權限」是「powers — official authority」的用法，與本句語境不同。",
-        "power-mcq-15": "「影響別人的思想、行為或事件發展的能力」是「power — influence」的用法，與本句語境不同。",
-        "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。",
-        "power-mcq-14": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。"
+        "power-mcq-17": "本句的「power」指「一個國家／組織擁有的軍事實力」。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-17"
     },
@@ -1811,11 +1687,9 @@ export default {
       "masked": "The agency has broad investigative ____.",
       "options": [
         "power-mcq-18",
-        "power-mcq-17",
-        "power-mcq-19",
-        "power-mcq-16",
+        "power-mcq-08",
         "power-mcq-20",
-        "power-mcq-15"
+        "power-mcq-11"
       ],
       "explanation": "本句的「powers」指「法律或制度正式賦予某機構／職位的權限」。",
       "sentenceIndex": 34,
@@ -1824,12 +1698,10 @@ export default {
         "powers"
       ],
       "optionReasons": {
-        "power-mcq-18": "本句指「法律或制度正式賦予某機構／職位的權限」。",
-        "power-mcq-17": "「一個國家／組織擁有的軍事實力」是「military power」的用法，與本句語境不同。",
-        "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。",
-        "power-mcq-16": "「透過資金、市場地位或資源影響結果的能力」是「economic power」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。",
-        "power-mcq-15": "「影響別人的思想、行為或事件發展的能力」是「power — influence」的用法，與本句語境不同。"
+        "power-mcq-18": "本句的「powers」指「法律或制度正式賦予某機構／職位的權限」。",
+        "power-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-18"
     },
@@ -1841,11 +1713,9 @@ export default {
       "masked": "The law gives the court additional ____.",
       "options": [
         "power-mcq-18",
-        "power-mcq-17",
-        "power-mcq-19",
-        "power-mcq-16",
+        "power-mcq-13",
         "power-mcq-20",
-        "power-mcq-15"
+        "power-mcq-11"
       ],
       "explanation": "本句的「powers」指「法律或制度正式賦予某機構／職位的權限」。",
       "sentenceIndex": 35,
@@ -1854,12 +1724,10 @@ export default {
         "powers"
       ],
       "optionReasons": {
-        "power-mcq-18": "本句指「法律或制度正式賦予某機構／職位的權限」。",
-        "power-mcq-17": "「一個國家／組織擁有的軍事實力」是「military power」的用法，與本句語境不同。",
-        "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。",
-        "power-mcq-16": "「透過資金、市場地位或資源影響結果的能力」是「economic power」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。",
-        "power-mcq-15": "「影響別人的思想、行為或事件發展的能力」是「power — influence」的用法，與本句語境不同。"
+        "power-mcq-18": "本句的「powers」指「法律或制度正式賦予某機構／職位的權限」。",
+        "power-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-18"
     },
@@ -1871,11 +1739,9 @@ export default {
       "masked": "His ____ of concentration are excellent.",
       "options": [
         "power-mcq-19",
-        "power-mcq-18",
-        "power-mcq-20",
-        "power-mcq-17",
-        "power-mcq-21",
-        "power-mcq-16"
+        "power-mcq-07",
+        "power-reviewed-1eece775a0",
+        "power-mcq-20"
       ],
       "explanation": "本句的「powers」指「某人的心理、感官或身體能力」。",
       "sentenceIndex": 36,
@@ -1884,12 +1750,10 @@ export default {
         "powers"
       ],
       "optionReasons": {
-        "power-mcq-19": "本句指「某人的心理、感官或身體能力」。",
-        "power-mcq-18": "「法律或制度正式賦予某機構／職位的權限」是「powers — official authority」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。",
-        "power-mcq-17": "「一個國家／組織擁有的軍事實力」是「military power」的用法，與本句語境不同。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-16": "「透過資金、市場地位或資源影響結果的能力」是「economic power」的用法，與本句語境不同。"
+        "power-mcq-19": "本句的「powers」指「某人的心理、感官或身體能力」。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-19"
     },
@@ -1901,11 +1765,9 @@ export default {
       "masked": "Age had weakened some of her physical ____.",
       "options": [
         "power-mcq-19",
-        "power-mcq-18",
-        "power-mcq-20",
-        "power-mcq-17",
-        "power-mcq-21",
-        "power-mcq-16"
+        "power-pdf-001",
+        "power-mcq-06",
+        "power-reviewed-1eece775a0"
       ],
       "explanation": "本句的「powers」指「某人的心理、感官或身體能力」。",
       "sentenceIndex": 37,
@@ -1914,12 +1776,10 @@ export default {
         "powers"
       ],
       "optionReasons": {
-        "power-mcq-19": "本句指「某人的心理、感官或身體能力」。",
-        "power-mcq-18": "「法律或制度正式賦予某機構／職位的權限」是「powers — official authority」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。",
-        "power-mcq-17": "「一個國家／組織擁有的軍事實力」是「military power」的用法，與本句語境不同。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-16": "「透過資金、市場地位或資源影響結果的能力」是「economic power」的用法，與本句語境不同。"
+        "power-mcq-19": "本句的「powers」指「某人的心理、感官或身體能力」。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-19"
     },
@@ -1931,11 +1791,9 @@ export default {
       "masked": "She has remarkable ____ of observation.",
       "options": [
         "power-mcq-19",
-        "power-mcq-18",
-        "power-mcq-20",
-        "power-mcq-17",
-        "power-mcq-21",
-        "power-mcq-16"
+        "power-mcq-06",
+        "power-pdf-001",
+        "power-reviewed-1eece775a0"
       ],
       "explanation": "本句的「powers」指「某人的心理、感官或身體能力」。",
       "sentenceIndex": 38,
@@ -1944,12 +1802,10 @@ export default {
         "powers"
       ],
       "optionReasons": {
-        "power-mcq-19": "本句指「某人的心理、感官或身體能力」。",
-        "power-mcq-18": "「法律或制度正式賦予某機構／職位的權限」是「powers — official authority」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。",
-        "power-mcq-17": "「一個國家／組織擁有的軍事實力」是「military power」的用法，與本句語境不同。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-16": "「透過資金、市場地位或資源影響結果的能力」是「economic power」的用法，與本句語境不同。"
+        "power-mcq-19": "本句的「powers」指「某人的心理、感官或身體能力」。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-19"
     },
@@ -1961,11 +1817,9 @@ export default {
       "masked": "Children often have strong ____ of imagination.",
       "options": [
         "power-mcq-19",
-        "power-mcq-18",
+        "power-mcq-07",
         "power-mcq-20",
-        "power-mcq-17",
-        "power-mcq-21",
-        "power-mcq-16"
+        "power-reviewed-1eece775a0"
       ],
       "explanation": "本句的「powers」指「某人的心理、感官或身體能力」。",
       "sentenceIndex": 39,
@@ -1974,12 +1828,10 @@ export default {
         "powers"
       ],
       "optionReasons": {
-        "power-mcq-19": "本句指「某人的心理、感官或身體能力」。",
-        "power-mcq-18": "「法律或制度正式賦予某機構／職位的權限」是「powers — official authority」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。",
-        "power-mcq-17": "「一個國家／組織擁有的軍事實力」是「military power」的用法，與本句語境不同。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-16": "「透過資金、市場地位或資源影響結果的能力」是「economic power」的用法，與本句語境不同。"
+        "power-mcq-19": "本句的「powers」指「某人的心理、感官或身體能力」。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-19"
     },
@@ -1991,11 +1843,9 @@ export default {
       "masked": "Two to the third ____ is eight.",
       "options": [
         "power-mcq-20",
-        "power-mcq-19",
-        "power-mcq-21",
-        "power-mcq-18",
-        "power-mcq-22",
-        "power-mcq-17"
+        "power-mcq-03",
+        "power-mcq-10",
+        "power-mcq-32"
       ],
       "explanation": "本句的「power」指「數學中的次方／冪概念」。",
       "sentenceIndex": 40,
@@ -2004,12 +1854,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-20": "本句指「數學中的次方／冪概念」。",
-        "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-18": "「法律或制度正式賦予某機構／職位的權限」是「powers — official authority」的用法，與本句語境不同。",
-        "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。",
-        "power-mcq-17": "「一個國家／組織擁有的軍事實力」是「military power」的用法，與本句語境不同。"
+        "power-mcq-20": "本句的「power」指「數學中的次方／冪概念」。",
+        "power-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-20"
     },
@@ -2021,11 +1869,9 @@ export default {
       "masked": "Raise the number to the second ____.",
       "options": [
         "power-mcq-20",
-        "power-mcq-19",
-        "power-mcq-21",
-        "power-mcq-18",
-        "power-mcq-22",
-        "power-mcq-17"
+        "power-mcq-08",
+        "power-mcq-07",
+        "power-mcq-10"
       ],
       "explanation": "本句的「power」指「數學中的次方／冪概念」。",
       "sentenceIndex": 41,
@@ -2034,12 +1880,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-20": "本句指「數學中的次方／冪概念」。",
-        "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-18": "「法律或制度正式賦予某機構／職位的權限」是「powers — official authority」的用法，與本句語境不同。",
-        "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。",
-        "power-mcq-17": "「一個國家／組織擁有的軍事實力」是「military power」的用法，與本句語境不同。"
+        "power-mcq-20": "本句的「power」指「數學中的次方／冪概念」。",
+        "power-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-20"
     },
@@ -2051,11 +1895,9 @@ export default {
       "masked": "A thousand is a ____.",
       "options": [
         "power-pdf-001",
-        "power-mcq-19",
-        "power-mcq-21",
-        "power-mcq-18",
-        "power-mcq-22",
-        "power-mcq-17"
+        "power-mcq-25",
+        "power-mcq-07",
+        "power-mcq-09"
       ],
       "explanation": "本句的「power of ten」指「10 自乘若干次所得的數」。",
       "sentenceIndex": 42,
@@ -2064,12 +1906,10 @@ export default {
         "power of ten"
       ],
       "optionReasons": {
-        "power-pdf-001": "本句指「10 自乘若干次所得的數」。",
-        "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-18": "「法律或制度正式賦予某機構／職位的權限」是「powers — official authority」的用法，與本句語境不同。",
-        "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。",
-        "power-mcq-17": "「一個國家／組織擁有的軍事實力」是「military power」的用法，與本句語境不同。"
+        "power-pdf-001": "本句的「power of ten」指「10 自乘若干次所得的數」。",
+        "power-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-pdf-001"
     },
@@ -2081,11 +1921,9 @@ export default {
       "masked": "Scientific notation uses ____.",
       "options": [
         "power-pdf-001",
-        "power-mcq-19",
-        "power-mcq-21",
-        "power-mcq-18",
-        "power-mcq-22",
-        "power-mcq-17"
+        "power-mcq-26",
+        "power-mcq-11",
+        "power-reviewed-1eece775a0"
       ],
       "explanation": "本句的「powers of ten」指「10 自乘若干次所得的數」。",
       "sentenceIndex": 43,
@@ -2094,12 +1932,10 @@ export default {
         "powers of ten"
       ],
       "optionReasons": {
-        "power-pdf-001": "本句指「10 自乘若干次所得的數」。",
-        "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-18": "「法律或制度正式賦予某機構／職位的權限」是「powers — official authority」的用法，與本句語境不同。",
-        "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。",
-        "power-mcq-17": "「一個國家／組織擁有的軍事實力」是「military power」的用法，與本句語境不同。"
+        "power-pdf-001": "本句的「powers of ten」指「10 自乘若干次所得的數」。",
+        "power-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-pdf-001"
     },
@@ -2111,11 +1947,9 @@ export default {
       "masked": "This microscope has greater magnifying ____.",
       "options": [
         "power-mcq-21",
-        "power-mcq-20",
-        "power-mcq-22",
-        "power-mcq-19",
-        "power-mcq-23",
-        "power-mcq-18"
+        "power-mcq-07",
+        "power-mcq-31",
+        "power-pdf-001"
       ],
       "explanation": "本句的「power」指「光學系統的放大或折射能力」。",
       "sentenceIndex": 44,
@@ -2124,12 +1958,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-21": "本句指「光學系統的放大或折射能力」。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。",
-        "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。",
-        "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。",
-        "power-mcq-23": "「為機器／系統提供能源或驅動力」是「power — verb」的用法，與本句語境不同。",
-        "power-mcq-18": "「法律或制度正式賦予某機構／職位的權限」是「powers — official authority」的用法，與本句語境不同。"
+        "power-mcq-21": "本句的「power」指「光學系統的放大或折射能力」。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-21"
     },
@@ -2141,11 +1973,9 @@ export default {
       "masked": "The lens has a higher optical ____.",
       "options": [
         "power-mcq-21",
-        "power-mcq-20",
-        "power-mcq-22",
-        "power-mcq-19",
-        "power-mcq-23",
-        "power-mcq-18"
+        "power-mcq-06",
+        "power-mcq-18",
+        "power-pdf-001"
       ],
       "explanation": "本句的「power」指「光學系統的放大或折射能力」。",
       "sentenceIndex": 45,
@@ -2154,12 +1984,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-21": "本句指「光學系統的放大或折射能力」。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。",
-        "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。",
-        "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。",
-        "power-mcq-23": "「為機器／系統提供能源或驅動力」是「power — verb」的用法，與本句語境不同。",
-        "power-mcq-18": "「法律或制度正式賦予某機構／職位的權限」是「powers — official authority」的用法，與本句語境不同。"
+        "power-mcq-21": "本句的「power」指「光學系統的放大或折射能力」。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-21"
     },
@@ -2171,11 +1999,9 @@ export default {
       "masked": "The car has ____.",
       "options": [
         "power-mcq-22",
-        "power-mcq-21",
-        "power-mcq-23",
-        "power-mcq-20",
-        "power-mcq-24",
-        "power-mcq-19"
+        "power-pdf-001",
+        "power-mcq-31",
+        "power-mcq-07"
       ],
       "explanation": "本句的「power steering」指「由電力／機械動力驅動的」。",
       "sentenceIndex": 46,
@@ -2184,12 +2010,10 @@ export default {
         "power steering"
       ],
       "optionReasons": {
-        "power-mcq-22": "本句指「由電力／機械動力驅動的」。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-23": "「為機器／系統提供能源或驅動力」是「power — verb」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。",
-        "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。"
+        "power-mcq-22": "本句的「power steering」指「由電力／機械動力驅動的」。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-22"
     },
@@ -2201,11 +2025,9 @@ export default {
       "masked": "Use a ____ for the job.",
       "options": [
         "power-mcq-22",
-        "power-mcq-21",
-        "power-mcq-23",
+        "power-mcq-31",
         "power-mcq-20",
-        "power-mcq-24",
-        "power-mcq-19"
+        "power-mcq-07"
       ],
       "explanation": "本句的「power tool」指「由電力／機械動力驅動的」。",
       "sentenceIndex": 47,
@@ -2214,12 +2036,10 @@ export default {
         "power tool"
       ],
       "optionReasons": {
-        "power-mcq-22": "本句指「由電力／機械動力驅動的」。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-23": "「為機器／系統提供能源或驅動力」是「power — verb」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。",
-        "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。"
+        "power-mcq-22": "本句的「power tool」指「由電力／機械動力驅動的」。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-22"
     },
@@ -2231,11 +2051,9 @@ export default {
       "masked": "Always wear protection when using ____.",
       "options": [
         "power-mcq-22",
-        "power-mcq-21",
-        "power-mcq-23",
         "power-mcq-20",
-        "power-mcq-24",
-        "power-mcq-19"
+        "power-mcq-07",
+        "power-mcq-31"
       ],
       "explanation": "本句的「power tools」指「由電力／機械動力驅動的」。",
       "sentenceIndex": 48,
@@ -2244,12 +2062,10 @@ export default {
         "power tools"
       ],
       "optionReasons": {
-        "power-mcq-22": "本句指「由電力／機械動力驅動的」。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-23": "「為機器／系統提供能源或驅動力」是「power — verb」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。",
-        "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。"
+        "power-mcq-22": "本句的「power tools」指「由電力／機械動力驅動的」。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-22"
     },
@@ -2261,11 +2077,9 @@ export default {
       "masked": "A drill is a common ____.",
       "options": [
         "power-mcq-22",
-        "power-mcq-21",
-        "power-mcq-23",
-        "power-mcq-20",
-        "power-mcq-24",
-        "power-mcq-19"
+        "power-pdf-001",
+        "power-mcq-31",
+        "power-mcq-06"
       ],
       "explanation": "本句的「power tool」指「由電力／機械動力驅動的」。",
       "sentenceIndex": 49,
@@ -2274,74 +2088,68 @@ export default {
         "power tool"
       ],
       "optionReasons": {
-        "power-mcq-22": "本句指「由電力／機械動力驅動的」。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-23": "「為機器／系統提供能源或驅動力」是「power — verb」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。",
-        "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。"
+        "power-mcq-22": "本句的「power tool」指「由電力／機械動力驅動的」。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-22"
     },
     {
       "id": "power-26-0",
-      "sense": "power-mcq-22",
+      "sense": "power-reviewed-1eece775a0",
       "en": "Press the power button to turn the device on.",
       "zh": "按下電源鍵開機。",
       "masked": "Press the ____ to turn the device on.",
       "options": [
-        "power-mcq-22",
-        "power-mcq-21",
-        "power-mcq-23",
-        "power-mcq-20",
-        "power-mcq-24",
-        "power-mcq-19"
+        "power-reviewed-1eece775a0",
+        "power-mcq-08",
+        "power-pdf-001",
+        "power-mcq-32"
       ],
-      "explanation": "本句的「power button」指「由電力／機械動力驅動的」。",
+      "explanation": "對照完整句子：「按下電源鍵開機。」。這裡的「power button」表示「用來開啟／關閉設備電源的按鈕」。",
       "sentenceIndex": 50,
       "sourcePractice": 51,
       "targets": [
         "power button"
       ],
       "optionReasons": {
-        "power-mcq-22": "本句指「由電力／機械動力驅動的」。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-23": "「為機器／系統提供能源或驅動力」是「power — verb」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。",
-        "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。"
+        "power-reviewed-1eece775a0": "對照完整句子：「按下電源鍵開機。」。這裡的「power button」表示「用來開啟／關閉設備電源的按鈕」。",
+        "power-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "power-mcq-22"
+      "correctOption": "power-reviewed-1eece775a0",
+      "previousCorrectOption": "power-mcq-22",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "power-26-1",
-      "sense": "power-mcq-22",
+      "sense": "power-reviewed-1eece775a0",
       "en": "The power button is on the side.",
       "zh": "電源鍵在側面。",
       "masked": "The ____ is on the side.",
       "options": [
-        "power-mcq-22",
-        "power-mcq-21",
-        "power-mcq-23",
-        "power-mcq-20",
-        "power-mcq-24",
-        "power-mcq-19"
+        "power-reviewed-1eece775a0",
+        "power-mcq-01",
+        "power-mcq-07",
+        "power-mcq-31"
       ],
-      "explanation": "本句的「power button」指「由電力／機械動力驅動的」。",
+      "explanation": "對照完整句子：「電源鍵在側面。」。這裡的「power button」表示「用來開啟／關閉設備電源的按鈕」。",
       "sentenceIndex": 51,
       "sourcePractice": 52,
       "targets": [
         "power button"
       ],
       "optionReasons": {
-        "power-mcq-22": "本句指「由電力／機械動力驅動的」。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-23": "「為機器／系統提供能源或驅動力」是「power — verb」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。",
-        "power-mcq-19": "「某人的心理、感官或身體能力」是「powers — faculties」的用法，與本句語境不同。"
+        "power-reviewed-1eece775a0": "對照完整句子：「電源鍵在側面。」。這裡的「power button」表示「用來開啟／關閉設備電源的按鈕」。",
+        "power-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "power-mcq-22"
+      "correctOption": "power-reviewed-1eece775a0",
+      "previousCorrectOption": "power-mcq-22",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "power-27-0",
@@ -2351,11 +2159,9 @@ export default {
       "masked": "Solar panels ____ the building.",
       "options": [
         "power-mcq-23",
-        "power-mcq-22",
-        "power-mcq-24",
-        "power-mcq-21",
-        "power-mcq-25",
-        "power-mcq-20"
+        "power-mcq-20",
+        "power-mcq-31",
+        "power-mcq-06"
       ],
       "explanation": "本句的「power」指「為機器／系統提供能源或驅動力」。",
       "sentenceIndex": 52,
@@ -2364,12 +2170,10 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "power-mcq-23": "本句指「為機器／系統提供能源或驅動力」。",
-        "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-25": "「以強烈、有力或極具影響的方式」是「powerfully」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。"
+        "power-mcq-23": "本句的「power」指「為機器／系統提供能源或驅動力」。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-23"
     },
@@ -2381,11 +2185,9 @@ export default {
       "masked": "The battery ____ the device.",
       "options": [
         "power-mcq-23",
-        "power-mcq-22",
-        "power-mcq-24",
-        "power-mcq-21",
-        "power-mcq-25",
-        "power-mcq-20"
+        "power-mcq-31",
+        "power-mcq-06",
+        "power-pdf-001"
       ],
       "explanation": "本句的「powers」指「為機器／系統提供能源或驅動力」。",
       "sentenceIndex": 53,
@@ -2394,12 +2196,10 @@ export default {
         "powers"
       ],
       "optionReasons": {
-        "power-mcq-23": "本句指「為機器／系統提供能源或驅動力」。",
-        "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-25": "「以強烈、有力或極具影響的方式」是「powerfully」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。"
+        "power-mcq-23": "本句的「powers」指「為機器／系統提供能源或驅動力」。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-23"
     },
@@ -2411,11 +2211,9 @@ export default {
       "masked": "A small motor ____ the wheels.",
       "options": [
         "power-mcq-23",
-        "power-mcq-22",
-        "power-mcq-24",
-        "power-mcq-21",
-        "power-mcq-25",
-        "power-mcq-20"
+        "power-pdf-001",
+        "power-mcq-07",
+        "power-mcq-31"
       ],
       "explanation": "本句的「powers」指「為機器／系統提供能源或驅動力」。",
       "sentenceIndex": 54,
@@ -2424,12 +2222,10 @@ export default {
         "powers"
       ],
       "optionReasons": {
-        "power-mcq-23": "本句指「為機器／系統提供能源或驅動力」。",
-        "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-25": "「以強烈、有力或極具影響的方式」是「powerfully」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。"
+        "power-mcq-23": "本句的「powers」指「為機器／系統提供能源或驅動力」。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-23"
     },
@@ -2441,11 +2237,9 @@ export default {
       "masked": "Wind ____ the turbine.",
       "options": [
         "power-mcq-23",
-        "power-mcq-22",
-        "power-mcq-24",
-        "power-mcq-21",
-        "power-mcq-25",
-        "power-mcq-20"
+        "power-mcq-20",
+        "power-mcq-06",
+        "power-mcq-31"
       ],
       "explanation": "本句的「powers」指「為機器／系統提供能源或驅動力」。",
       "sentenceIndex": 55,
@@ -2454,12 +2248,10 @@ export default {
         "powers"
       ],
       "optionReasons": {
-        "power-mcq-23": "本句指「為機器／系統提供能源或驅動力」。",
-        "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-25": "「以強烈、有力或極具影響的方式」是「powerfully」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。"
+        "power-mcq-23": "本句的「powers」指「為機器／系統提供能源或驅動力」。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-23"
     },
@@ -2471,11 +2263,9 @@ export default {
       "masked": "She ____ the final hour of work.",
       "options": [
         "power-mcq-32",
-        "power-mcq-31",
-        "power-mcq-30",
-        "power-mcq-29",
-        "power-mcq-28",
-        "power-mcq-27"
+        "power-mcq-07",
+        "power-mcq-20",
+        "power-mcq-31"
       ],
       "explanation": "本句的「powered through」指「即使疲累、困難或阻力很大，仍以意志或力氣繼續完成」。",
       "sentenceIndex": 56,
@@ -2484,12 +2274,10 @@ export default {
         "powered through"
       ],
       "optionReasons": {
-        "power-mcq-32": "本句指「即使疲累、困難或阻力很大，仍以意志或力氣繼續完成」。",
-        "power-mcq-31": "「法律上授權另一人代表自己作決定或處理事務的代理權」是「power of attorney」的用法，與本句語境不同。",
-        "power-mcq-30": "「個人／群體獲得更多能力、資源或決策權的過程」是「empowerment」的用法，與本句語境不同。",
-        "power-mcq-29": "「擁有或感受到較多自主能力、控制力或信心的」是「empowered」的用法，與本句語境不同。",
-        "power-mcq-28": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "power-mcq-27": "「缺乏控制或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。"
+        "power-mcq-32": "本句的「powered through」指「即使疲累、困難或阻力很大，仍以意志或力氣繼續完成」。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-32"
     },
@@ -2502,10 +2290,8 @@ export default {
       "options": [
         "power-mcq-32",
         "power-mcq-31",
-        "power-mcq-30",
-        "power-mcq-29",
-        "power-mcq-28",
-        "power-mcq-27"
+        "power-mcq-07",
+        "power-mcq-20"
       ],
       "explanation": "本句的「powered through」指「即使疲累、困難或阻力很大，仍以意志或力氣繼續完成」。",
       "sentenceIndex": 57,
@@ -2514,12 +2300,10 @@ export default {
         "powered through"
       ],
       "optionReasons": {
-        "power-mcq-32": "本句指「即使疲累、困難或阻力很大，仍以意志或力氣繼續完成」。",
-        "power-mcq-31": "「法律上授權另一人代表自己作決定或處理事務的代理權」是「power of attorney」的用法，與本句語境不同。",
-        "power-mcq-30": "「個人／群體獲得更多能力、資源或決策權的過程」是「empowerment」的用法，與本句語境不同。",
-        "power-mcq-29": "「擁有或感受到較多自主能力、控制力或信心的」是「empowered」的用法，與本句語境不同。",
-        "power-mcq-28": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "power-mcq-27": "「缺乏控制或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。"
+        "power-mcq-32": "本句的「powered through」指「即使疲累、困難或阻力很大，仍以意志或力氣繼續完成」。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-32"
     },
@@ -2531,11 +2315,9 @@ export default {
       "masked": "The computer is ____.",
       "options": [
         "power-mcq-23",
-        "power-mcq-22",
-        "power-mcq-24",
-        "power-mcq-21",
-        "power-mcq-25",
-        "power-mcq-20"
+        "power-mcq-07",
+        "power-mcq-20",
+        "power-mcq-31"
       ],
       "explanation": "本句的「powering up」指「為機器／系統提供能源或驅動力」。",
       "sentenceIndex": 58,
@@ -2544,12 +2326,10 @@ export default {
         "powering up"
       ],
       "optionReasons": {
-        "power-mcq-23": "本句指「為機器／系統提供能源或驅動力」。",
-        "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-25": "「以強烈、有力或極具影響的方式」是「powerfully」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。"
+        "power-mcq-23": "本句的「powering up」指「為機器／系統提供能源或驅動力」。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-23"
     },
@@ -2561,11 +2341,9 @@ export default {
       "masked": "Please ____ the system.",
       "options": [
         "power-mcq-23",
-        "power-mcq-22",
-        "power-mcq-24",
-        "power-mcq-21",
-        "power-mcq-25",
-        "power-mcq-20"
+        "power-mcq-20",
+        "power-mcq-06",
+        "power-mcq-31"
       ],
       "explanation": "本句的「power down」指「為機器／系統提供能源或驅動力」。",
       "sentenceIndex": 59,
@@ -2574,12 +2352,10 @@ export default {
         "power down"
       ],
       "optionReasons": {
-        "power-mcq-23": "本句指「為機器／系統提供能源或驅動力」。",
-        "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。",
-        "power-mcq-25": "「以強烈、有力或極具影響的方式」是「powerfully」的用法，與本句語境不同。",
-        "power-mcq-20": "「數學中的次方／冪概念」是「power — mathematics」的用法，與本句語境不同。"
+        "power-mcq-23": "本句的「power down」指「為機器／系統提供能源或驅動力」。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-23"
     },
@@ -2591,11 +2367,9 @@ export default {
       "masked": "She gave a ____ speech.",
       "options": [
         "power-mcq-24",
-        "power-mcq-23",
-        "power-mcq-25",
-        "power-mcq-22",
-        "power-mcq-26",
-        "power-mcq-21"
+        "power-pdf-001",
+        "power-reviewed-1eece775a0",
+        "power-mcq-11"
       ],
       "explanation": "本句的「powerful」指「擁有很大力量、權力、能力或影響效果的」。",
       "sentenceIndex": 60,
@@ -2604,12 +2378,10 @@ export default {
         "powerful"
       ],
       "optionReasons": {
-        "power-mcq-24": "本句指「擁有很大力量、權力、能力或影響效果的」。",
-        "power-mcq-23": "「為機器／系統提供能源或驅動力」是「power — verb」的用法，與本句語境不同。",
-        "power-mcq-25": "「以強烈、有力或極具影響的方式」是「powerfully」的用法，與本句語境不同。",
-        "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。",
-        "power-mcq-26": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。"
+        "power-mcq-24": "本句的「powerful」指「擁有很大力量、權力、能力或影響效果的」。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-24"
     },
@@ -2621,11 +2393,9 @@ export default {
       "masked": "The machine is extremely ____.",
       "options": [
         "power-mcq-24",
-        "power-mcq-23",
-        "power-mcq-25",
-        "power-mcq-22",
-        "power-mcq-26",
-        "power-mcq-21"
+        "power-pdf-001",
+        "power-reviewed-1eece775a0",
+        "power-mcq-18"
       ],
       "explanation": "本句的「powerful」指「擁有很大力量、權力、能力或影響效果的」。",
       "sentenceIndex": 61,
@@ -2634,12 +2404,10 @@ export default {
         "powerful"
       ],
       "optionReasons": {
-        "power-mcq-24": "本句指「擁有很大力量、權力、能力或影響效果的」。",
-        "power-mcq-23": "「為機器／系統提供能源或驅動力」是「power — verb」的用法，與本句語境不同。",
-        "power-mcq-25": "「以強烈、有力或極具影響的方式」是「powerfully」的用法，與本句語境不同。",
-        "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。",
-        "power-mcq-26": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。",
-        "power-mcq-21": "「光學系統的放大或折射能力」是「power — optics」的用法，與本句語境不同。"
+        "power-mcq-24": "本句的「powerful」指「擁有很大力量、權力、能力或影響效果的」。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-24"
     },
@@ -2651,11 +2419,9 @@ export default {
       "masked": "The film ____ conveys grief.",
       "options": [
         "power-mcq-25",
-        "power-mcq-24",
-        "power-mcq-26",
-        "power-mcq-23",
-        "power-mcq-27",
-        "power-mcq-22"
+        "power-mcq-06",
+        "power-pdf-001",
+        "power-reviewed-1eece775a0"
       ],
       "explanation": "本句的「powerfully」指「以強烈、有力或極具影響的方式」。",
       "sentenceIndex": 62,
@@ -2664,12 +2430,10 @@ export default {
         "powerfully"
       ],
       "optionReasons": {
-        "power-mcq-25": "本句指「以強烈、有力或極具影響的方式」。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。",
-        "power-mcq-26": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。",
-        "power-mcq-23": "「為機器／系統提供能源或驅動力」是「power — verb」的用法，與本句語境不同。",
-        "power-mcq-27": "「缺乏控制或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。",
-        "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。"
+        "power-mcq-25": "本句的「powerfully」指「以強烈、有力或極具影響的方式」。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-25"
     },
@@ -2681,11 +2445,9 @@ export default {
       "masked": "She argued her case ____.",
       "options": [
         "power-mcq-25",
-        "power-mcq-24",
-        "power-mcq-26",
-        "power-mcq-23",
-        "power-mcq-27",
-        "power-mcq-22"
+        "power-pdf-001",
+        "power-mcq-07",
+        "power-reviewed-1eece775a0"
       ],
       "explanation": "本句的「powerfully」指「以強烈、有力或極具影響的方式」。",
       "sentenceIndex": 63,
@@ -2694,12 +2456,10 @@ export default {
         "powerfully"
       ],
       "optionReasons": {
-        "power-mcq-25": "本句指「以強烈、有力或極具影響的方式」。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。",
-        "power-mcq-26": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。",
-        "power-mcq-23": "「為機器／系統提供能源或驅動力」是「power — verb」的用法，與本句語境不同。",
-        "power-mcq-27": "「缺乏控制或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。",
-        "power-mcq-22": "「由電力／機械動力驅動的」是「power + noun」的用法，與本句語境不同。"
+        "power-mcq-25": "本句的「powerfully」指「以強烈、有力或極具影響的方式」。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-25"
     },
@@ -2711,11 +2471,9 @@ export default {
       "masked": "He felt ____ to change the situation.",
       "options": [
         "power-mcq-26",
-        "power-mcq-25",
-        "power-mcq-27",
-        "power-mcq-24",
-        "power-mcq-28",
-        "power-mcq-23"
+        "power-mcq-20",
+        "power-reviewed-1eece775a0",
+        "power-mcq-32"
       ],
       "explanation": "本句的「powerless」指「沒有足夠能力、權力或控制力去改變事情的」。",
       "sentenceIndex": 64,
@@ -2724,12 +2482,10 @@ export default {
         "powerless"
       ],
       "optionReasons": {
-        "power-mcq-26": "本句指「沒有足夠能力、權力或控制力去改變事情的」。",
-        "power-mcq-25": "「以強烈、有力或極具影響的方式」是「powerfully」的用法，與本句語境不同。",
-        "power-mcq-27": "「缺乏控制或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。",
-        "power-mcq-28": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "power-mcq-23": "「為機器／系統提供能源或驅動力」是「power — verb」的用法，與本句語境不同。"
+        "power-mcq-26": "本句的「powerless」指「沒有足夠能力、權力或控制力去改變事情的」。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-26"
     },
@@ -2741,11 +2497,9 @@ export default {
       "masked": "The workers were ____ to stop the decision.",
       "options": [
         "power-mcq-26",
-        "power-mcq-25",
-        "power-mcq-27",
-        "power-mcq-24",
-        "power-mcq-28",
-        "power-mcq-23"
+        "power-pdf-001",
+        "power-reviewed-1eece775a0",
+        "power-mcq-31"
       ],
       "explanation": "本句的「powerless」指「沒有足夠能力、權力或控制力去改變事情的」。",
       "sentenceIndex": 65,
@@ -2754,12 +2508,10 @@ export default {
         "powerless"
       ],
       "optionReasons": {
-        "power-mcq-26": "本句指「沒有足夠能力、權力或控制力去改變事情的」。",
-        "power-mcq-25": "「以強烈、有力或極具影響的方式」是「powerfully」的用法，與本句語境不同。",
-        "power-mcq-27": "「缺乏控制或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。",
-        "power-mcq-28": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "power-mcq-23": "「為機器／系統提供能源或驅動力」是「power — verb」的用法，與本句語境不同。"
+        "power-mcq-26": "本句的「powerless」指「沒有足夠能力、權力或控制力去改變事情的」。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-26"
     },
@@ -2771,11 +2523,9 @@ export default {
       "masked": "The experience left her with a sense of ____.",
       "options": [
         "power-mcq-27",
-        "power-mcq-26",
-        "power-mcq-28",
-        "power-mcq-25",
-        "power-mcq-29",
-        "power-mcq-24"
+        "power-mcq-20",
+        "power-reviewed-1eece775a0",
+        "power-mcq-31"
       ],
       "explanation": "本句的「powerlessness」指「缺乏控制或改變情況能力的狀態／感受」。",
       "sentenceIndex": 66,
@@ -2784,12 +2534,10 @@ export default {
         "powerlessness"
       ],
       "optionReasons": {
-        "power-mcq-27": "本句指「缺乏控制或改變情況能力的狀態／感受」。",
-        "power-mcq-26": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。",
-        "power-mcq-28": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "power-mcq-25": "「以強烈、有力或極具影響的方式」是「powerfully」的用法，與本句語境不同。",
-        "power-mcq-29": "「擁有或感受到較多自主能力、控制力或信心的」是「empowered」的用法，與本句語境不同。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。"
+        "power-mcq-27": "本句的「powerlessness」指「缺乏控制或改變情況能力的狀態／感受」。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-27"
     },
@@ -2801,11 +2549,9 @@ export default {
       "masked": "Long delays can create feelings of ____.",
       "options": [
         "power-mcq-27",
-        "power-mcq-26",
-        "power-mcq-28",
-        "power-mcq-25",
-        "power-mcq-29",
-        "power-mcq-24"
+        "power-reviewed-1eece775a0",
+        "power-pdf-001",
+        "power-mcq-31"
       ],
       "explanation": "本句的「powerlessness」指「缺乏控制或改變情況能力的狀態／感受」。",
       "sentenceIndex": 67,
@@ -2814,12 +2560,10 @@ export default {
         "powerlessness"
       ],
       "optionReasons": {
-        "power-mcq-27": "本句指「缺乏控制或改變情況能力的狀態／感受」。",
-        "power-mcq-26": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。",
-        "power-mcq-28": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "power-mcq-25": "「以強烈、有力或極具影響的方式」是「powerfully」的用法，與本句語境不同。",
-        "power-mcq-29": "「擁有或感受到較多自主能力、控制力或信心的」是「empowered」的用法，與本句語境不同。",
-        "power-mcq-24": "「擁有很大力量、權力、能力或影響效果的」是「powerful」的用法，與本句語境不同。"
+        "power-mcq-27": "本句的「powerlessness」指「缺乏控制或改變情況能力的狀態／感受」。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-27"
     },
@@ -2831,11 +2575,9 @@ export default {
       "masked": "Education can ____ people.",
       "options": [
         "power-mcq-28",
-        "power-mcq-27",
-        "power-mcq-29",
-        "power-mcq-26",
-        "power-mcq-30",
-        "power-mcq-25"
+        "power-mcq-20",
+        "power-mcq-07",
+        "power-mcq-32"
       ],
       "explanation": "本句的「empower」指「給予某人更多能力、資源、信心或決策權，使其能自行行動」。",
       "sentenceIndex": 68,
@@ -2844,12 +2586,10 @@ export default {
         "empower"
       ],
       "optionReasons": {
-        "power-mcq-28": "本句指「給予某人更多能力、資源、信心或決策權，使其能自行行動」。",
-        "power-mcq-27": "「缺乏控制或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。",
-        "power-mcq-29": "「擁有或感受到較多自主能力、控制力或信心的」是「empowered」的用法，與本句語境不同。",
-        "power-mcq-26": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。",
-        "power-mcq-30": "「個人／群體獲得更多能力、資源或決策權的過程」是「empowerment」的用法，與本句語境不同。",
-        "power-mcq-25": "「以強烈、有力或極具影響的方式」是「powerfully」的用法，與本句語境不同。"
+        "power-mcq-28": "本句的「empower」指「給予某人更多能力、資源、信心或決策權，使其能自行行動」。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-28"
     },
@@ -2861,11 +2601,9 @@ export default {
       "masked": "Managers should ____ staff to make decisions.",
       "options": [
         "power-mcq-28",
-        "power-mcq-27",
-        "power-mcq-29",
-        "power-mcq-26",
-        "power-mcq-30",
-        "power-mcq-25"
+        "power-mcq-20",
+        "power-mcq-07",
+        "power-reviewed-1eece775a0"
       ],
       "explanation": "本句的「empower」指「給予某人更多能力、資源、信心或決策權，使其能自行行動」。",
       "sentenceIndex": 69,
@@ -2874,12 +2612,10 @@ export default {
         "empower"
       ],
       "optionReasons": {
-        "power-mcq-28": "本句指「給予某人更多能力、資源、信心或決策權，使其能自行行動」。",
-        "power-mcq-27": "「缺乏控制或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。",
-        "power-mcq-29": "「擁有或感受到較多自主能力、控制力或信心的」是「empowered」的用法，與本句語境不同。",
-        "power-mcq-26": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。",
-        "power-mcq-30": "「個人／群體獲得更多能力、資源或決策權的過程」是「empowerment」的用法，與本句語境不同。",
-        "power-mcq-25": "「以強烈、有力或極具影響的方式」是「powerfully」的用法，與本句語境不同。"
+        "power-mcq-28": "本句的「empower」指「給予某人更多能力、資源、信心或決策權，使其能自行行動」。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-28"
     },
@@ -2891,11 +2627,9 @@ export default {
       "masked": "She felt ____ after learning the new skills.",
       "options": [
         "power-mcq-29",
-        "power-mcq-28",
-        "power-mcq-30",
-        "power-mcq-27",
-        "power-mcq-31",
-        "power-mcq-26"
+        "power-reviewed-1eece775a0",
+        "power-mcq-20",
+        "power-mcq-32"
       ],
       "explanation": "本句的「empowered」指「擁有或感受到較多自主能力、控制力或信心的」。",
       "sentenceIndex": 70,
@@ -2904,12 +2638,10 @@ export default {
         "empowered"
       ],
       "optionReasons": {
-        "power-mcq-29": "本句指「擁有或感受到較多自主能力、控制力或信心的」。",
-        "power-mcq-28": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "power-mcq-30": "「個人／群體獲得更多能力、資源或決策權的過程」是「empowerment」的用法，與本句語境不同。",
-        "power-mcq-27": "「缺乏控制或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。",
-        "power-mcq-31": "「法律上授權另一人代表自己作決定或處理事務的代理權」是「power of attorney」的用法，與本句語境不同。",
-        "power-mcq-26": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。"
+        "power-mcq-29": "本句的「empowered」指「擁有或感受到較多自主能力、控制力或信心的」。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-29"
     },
@@ -2921,11 +2653,9 @@ export default {
       "masked": "Employees feel ____ when they are trusted.",
       "options": [
         "power-mcq-29",
-        "power-mcq-28",
-        "power-mcq-30",
-        "power-mcq-27",
-        "power-mcq-31",
-        "power-mcq-26"
+        "power-mcq-20",
+        "power-reviewed-1eece775a0",
+        "power-mcq-32"
       ],
       "explanation": "本句的「empowered」指「擁有或感受到較多自主能力、控制力或信心的」。",
       "sentenceIndex": 71,
@@ -2934,12 +2664,10 @@ export default {
         "empowered"
       ],
       "optionReasons": {
-        "power-mcq-29": "本句指「擁有或感受到較多自主能力、控制力或信心的」。",
-        "power-mcq-28": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "power-mcq-30": "「個人／群體獲得更多能力、資源或決策權的過程」是「empowerment」的用法，與本句語境不同。",
-        "power-mcq-27": "「缺乏控制或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。",
-        "power-mcq-31": "「法律上授權另一人代表自己作決定或處理事務的代理權」是「power of attorney」的用法，與本句語境不同。",
-        "power-mcq-26": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。"
+        "power-mcq-29": "本句的「empowered」指「擁有或感受到較多自主能力、控制力或信心的」。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-reviewed-1eece775a0": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-29"
     },
@@ -2951,11 +2679,9 @@ export default {
       "masked": "The programme focuses on community ____.",
       "options": [
         "power-mcq-30",
-        "power-mcq-29",
-        "power-mcq-31",
-        "power-mcq-28",
-        "power-mcq-32",
-        "power-mcq-27"
+        "power-mcq-20",
+        "power-mcq-22",
+        "power-mcq-06"
       ],
       "explanation": "本句的「empowerment」指「個人／群體獲得更多能力、資源或決策權的過程」。",
       "sentenceIndex": 72,
@@ -2964,12 +2690,10 @@ export default {
         "empowerment"
       ],
       "optionReasons": {
-        "power-mcq-30": "本句指「個人／群體獲得更多能力、資源或決策權的過程」。",
-        "power-mcq-29": "「擁有或感受到較多自主能力、控制力或信心的」是「empowered」的用法，與本句語境不同。",
-        "power-mcq-31": "「法律上授權另一人代表自己作決定或處理事務的代理權」是「power of attorney」的用法，與本句語境不同。",
-        "power-mcq-28": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "power-mcq-32": "「即使疲累、困難或阻力很大，仍以意志或力氣繼續完成」是「29. power through（撐著完成） — 強行完成；堅持做完」的用法，與本句語境不同。",
-        "power-mcq-27": "「缺乏控制或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。"
+        "power-mcq-30": "本句的「empowerment」指「個人／群體獲得更多能力、資源或決策權的過程」。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-30"
     },
@@ -2981,11 +2705,9 @@ export default {
       "masked": "Education can support personal ____.",
       "options": [
         "power-mcq-30",
-        "power-mcq-29",
-        "power-mcq-31",
-        "power-mcq-28",
+        "power-pdf-001",
         "power-mcq-32",
-        "power-mcq-27"
+        "power-mcq-22"
       ],
       "explanation": "本句的「empowerment」指「個人／群體獲得更多能力、資源或決策權的過程」。",
       "sentenceIndex": 73,
@@ -2994,12 +2716,10 @@ export default {
         "empowerment"
       ],
       "optionReasons": {
-        "power-mcq-30": "本句指「個人／群體獲得更多能力、資源或決策權的過程」。",
-        "power-mcq-29": "「擁有或感受到較多自主能力、控制力或信心的」是「empowered」的用法，與本句語境不同。",
-        "power-mcq-31": "「法律上授權另一人代表自己作決定或處理事務的代理權」是「power of attorney」的用法，與本句語境不同。",
-        "power-mcq-28": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "power-mcq-32": "「即使疲累、困難或阻力很大，仍以意志或力氣繼續完成」是「29. power through（撐著完成） — 強行完成；堅持做完」的用法，與本句語境不同。",
-        "power-mcq-27": "「缺乏控制或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。"
+        "power-mcq-30": "本句的「empowerment」指「個人／群體獲得更多能力、資源或決策權的過程」。",
+        "power-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-30"
     },
@@ -3011,11 +2731,9 @@ export default {
       "masked": "She gave her son ____.",
       "options": [
         "power-mcq-31",
-        "power-mcq-30",
-        "power-mcq-32",
-        "power-mcq-29",
-        "power-mcq-28",
-        "power-mcq-27"
+        "power-mcq-23",
+        "power-mcq-01",
+        "power-mcq-20"
       ],
       "explanation": "本句的「power of attorney」指「法律上授權另一人代表自己作決定或處理事務的代理權」。",
       "sentenceIndex": 74,
@@ -3024,12 +2742,10 @@ export default {
         "power of attorney"
       ],
       "optionReasons": {
-        "power-mcq-31": "本句指「法律上授權另一人代表自己作決定或處理事務的代理權」。",
-        "power-mcq-30": "「個人／群體獲得更多能力、資源或決策權的過程」是「empowerment」的用法，與本句語境不同。",
-        "power-mcq-32": "「即使疲累、困難或阻力很大，仍以意志或力氣繼續完成」是「29. power through（撐著完成） — 強行完成；堅持做完」的用法，與本句語境不同。",
-        "power-mcq-29": "「擁有或感受到較多自主能力、控制力或信心的」是「empowered」的用法，與本句語境不同。",
-        "power-mcq-28": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "power-mcq-27": "「缺乏控制或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。"
+        "power-mcq-31": "本句的「power of attorney」指「法律上授權另一人代表自己作決定或處理事務的代理權」。",
+        "power-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-31"
     },
@@ -3041,11 +2757,9 @@ export default {
       "masked": "The document grants ____ over financial matters.",
       "options": [
         "power-mcq-31",
-        "power-mcq-30",
-        "power-mcq-32",
-        "power-mcq-29",
-        "power-mcq-28",
-        "power-mcq-27"
+        "power-mcq-23",
+        "power-mcq-17",
+        "power-mcq-32"
       ],
       "explanation": "本句的「power of attorney」指「法律上授權另一人代表自己作決定或處理事務的代理權」。",
       "sentenceIndex": 75,
@@ -3054,12 +2768,10 @@ export default {
         "power of attorney"
       ],
       "optionReasons": {
-        "power-mcq-31": "本句指「法律上授權另一人代表自己作決定或處理事務的代理權」。",
-        "power-mcq-30": "「個人／群體獲得更多能力、資源或決策權的過程」是「empowerment」的用法，與本句語境不同。",
-        "power-mcq-32": "「即使疲累、困難或阻力很大，仍以意志或力氣繼續完成」是「29. power through（撐著完成） — 強行完成；堅持做完」的用法，與本句語境不同。",
-        "power-mcq-29": "「擁有或感受到較多自主能力、控制力或信心的」是「empowered」的用法，與本句語境不同。",
-        "power-mcq-28": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "power-mcq-27": "「缺乏控制或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。"
+        "power-mcq-31": "本句的「power of attorney」指「法律上授權另一人代表自己作決定或處理事務的代理權」。",
+        "power-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "power-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "power-mcq-31"
     }
@@ -3071,5 +2783,7 @@ export default {
     "sha256": "94e90cb0b30fcbbcbaad94011061851dc02a26eca029e3dbffa0f128b645e14b",
     "pages": 25
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

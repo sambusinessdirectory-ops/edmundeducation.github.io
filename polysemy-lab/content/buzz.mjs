@@ -365,11 +365,9 @@ export default {
       "masked": "I could hear the ____ of the fan.",
       "options": [
         "buzz-mcq-01",
-        "buzz-mcq-02",
-        "buzz-mcq-03",
-        "buzz-mcq-04",
         "buzz-mcq-05",
-        "buzz-mcq-06"
+        "buzz-pdf-002",
+        "buzz-mcq-13"
       ],
       "explanation": "本句的「buzz」指「持續或短促、低沉而帶震動感的嗡嗡聲」。",
       "sentenceIndex": 0,
@@ -378,12 +376,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-01": "本句指「持續或短促、低沉而帶震動感的嗡嗡聲」。",
-        "buzz-mcq-02": "「蜜蜂、蚊等翅膀快速振動產生的聲音」與本句語境不同。",
-        "buzz-mcq-03": "「手機／裝置收到通知時發出的震動或低沉提示聲」與本句語境不同。",
-        "buzz-mcq-04": "「由興奮、活動和討論形成的熱鬧氣氛」與本句語境不同。",
-        "buzz-mcq-05": "「圍繞某人／事物形成的大量熱烈討論與關注」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。"
+        "buzz-mcq-01": "本句的「buzz」指「持續或短促、低沉而帶震動感的嗡嗡聲」。",
+        "buzz-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "buzz-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-01"
     },
@@ -395,11 +391,9 @@ export default {
       "masked": "There was a faint electrical ____ in the room.",
       "options": [
         "buzz-mcq-01",
-        "buzz-mcq-02",
-        "buzz-mcq-03",
-        "buzz-mcq-04",
-        "buzz-mcq-05",
-        "buzz-mcq-06"
+        "buzz-mcq-12",
+        "buzz-mcq-06",
+        "buzz-mcq-10"
       ],
       "explanation": "本句的「buzz」指「持續或短促、低沉而帶震動感的嗡嗡聲」。",
       "sentenceIndex": 1,
@@ -408,12 +402,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-01": "本句指「持續或短促、低沉而帶震動感的嗡嗡聲」。",
-        "buzz-mcq-02": "「蜜蜂、蚊等翅膀快速振動產生的聲音」與本句語境不同。",
-        "buzz-mcq-03": "「手機／裝置收到通知時發出的震動或低沉提示聲」與本句語境不同。",
-        "buzz-mcq-04": "「由興奮、活動和討論形成的熱鬧氣氛」與本句語境不同。",
-        "buzz-mcq-05": "「圍繞某人／事物形成的大量熱烈討論與關注」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。"
+        "buzz-mcq-01": "本句的「buzz」指「持續或短促、低沉而帶震動感的嗡嗡聲」。",
+        "buzz-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-01"
     },
@@ -425,10 +417,8 @@ export default {
       "masked": "The ____ of bees filled the garden.",
       "options": [
         "buzz-mcq-02",
-        "buzz-mcq-01",
-        "buzz-mcq-03",
-        "buzz-mcq-04",
-        "buzz-mcq-05",
+        "buzz-mcq-13",
+        "buzz-mcq-12",
         "buzz-mcq-06"
       ],
       "explanation": "本句的「buzz」指「蜜蜂、蚊等翅膀快速振動產生的聲音」。",
@@ -438,12 +428,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-02": "本句指「蜜蜂、蚊等翅膀快速振動產生的聲音」。",
-        "buzz-mcq-01": "「持續或短促、低沉而帶震動感的嗡嗡聲」與本句語境不同。",
-        "buzz-mcq-03": "「手機／裝置收到通知時發出的震動或低沉提示聲」與本句語境不同。",
-        "buzz-mcq-04": "「由興奮、活動和討論形成的熱鬧氣氛」與本句語境不同。",
-        "buzz-mcq-05": "「圍繞某人／事物形成的大量熱烈討論與關注」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。"
+        "buzz-mcq-02": "本句的「buzz」指「蜜蜂、蚊等翅膀快速振動產生的聲音」。",
+        "buzz-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-02"
     },
@@ -455,11 +443,9 @@ export default {
       "masked": "A mosquito ____ near my ear.",
       "options": [
         "buzz-mcq-02",
-        "buzz-mcq-01",
-        "buzz-mcq-03",
-        "buzz-mcq-04",
-        "buzz-mcq-05",
-        "buzz-mcq-06"
+        "buzz-mcq-11",
+        "buzz-mcq-10",
+        "buzz-pdf-002"
       ],
       "explanation": "本句的「buzzed」指「蜜蜂、蚊等翅膀快速振動產生的聲音」。",
       "sentenceIndex": 3,
@@ -468,12 +454,10 @@ export default {
         "buzzed"
       ],
       "optionReasons": {
-        "buzz-mcq-02": "本句指「蜜蜂、蚊等翅膀快速振動產生的聲音」。",
-        "buzz-mcq-01": "「持續或短促、低沉而帶震動感的嗡嗡聲」與本句語境不同。",
-        "buzz-mcq-03": "「手機／裝置收到通知時發出的震動或低沉提示聲」與本句語境不同。",
-        "buzz-mcq-04": "「由興奮、活動和討論形成的熱鬧氣氛」與本句語境不同。",
-        "buzz-mcq-05": "「圍繞某人／事物形成的大量熱烈討論與關注」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。"
+        "buzz-mcq-02": "本句的「buzzed」指「蜜蜂、蚊等翅膀快速振動產生的聲音」。",
+        "buzz-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "buzz-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-02"
     },
@@ -485,10 +469,8 @@ export default {
       "masked": "Every ____ seemed to demand my attention.",
       "options": [
         "buzz-mcq-03",
-        "buzz-mcq-02",
-        "buzz-mcq-04",
-        "buzz-mcq-01",
-        "buzz-mcq-05",
+        "buzz-mcq-13",
+        "buzz-mcq-08",
         "buzz-mcq-06"
       ],
       "explanation": "本句的「buzz」指「手機／裝置收到通知時發出的震動或低沉提示聲」。",
@@ -498,12 +480,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-03": "本句指「手機／裝置收到通知時發出的震動或低沉提示聲」。",
-        "buzz-mcq-02": "「蜜蜂、蚊等翅膀快速振動產生的聲音」與本句語境不同。",
-        "buzz-mcq-04": "「由興奮、活動和討論形成的熱鬧氣氛」與本句語境不同。",
-        "buzz-mcq-01": "「持續或短促、低沉而帶震動感的嗡嗡聲」與本句語境不同。",
-        "buzz-mcq-05": "「圍繞某人／事物形成的大量熱烈討論與關注」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。"
+        "buzz-mcq-03": "本句的「buzz」指「手機／裝置收到通知時發出的震動或低沉提示聲」。",
+        "buzz-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-03"
     },
@@ -515,10 +495,8 @@ export default {
       "masked": "My phone gave a ____ during class.",
       "options": [
         "buzz-mcq-03",
-        "buzz-mcq-02",
-        "buzz-mcq-04",
-        "buzz-mcq-01",
         "buzz-mcq-05",
+        "buzz-mcq-13",
         "buzz-mcq-06"
       ],
       "explanation": "本句的「buzz」指「手機／裝置收到通知時發出的震動或低沉提示聲」。",
@@ -528,12 +506,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-03": "本句指「手機／裝置收到通知時發出的震動或低沉提示聲」。",
-        "buzz-mcq-02": "「蜜蜂、蚊等翅膀快速振動產生的聲音」與本句語境不同。",
-        "buzz-mcq-04": "「由興奮、活動和討論形成的熱鬧氣氛」與本句語境不同。",
-        "buzz-mcq-01": "「持續或短促、低沉而帶震動感的嗡嗡聲」與本句語境不同。",
-        "buzz-mcq-05": "「圍繞某人／事物形成的大量熱烈討論與關注」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。"
+        "buzz-mcq-03": "本句的「buzz」指「手機／裝置收到通知時發出的震動或低沉提示聲」。",
+        "buzz-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-03"
     },
@@ -545,10 +521,8 @@ export default {
       "masked": "There was a real ____ around the event.",
       "options": [
         "buzz-mcq-04",
-        "buzz-mcq-03",
-        "buzz-mcq-05",
-        "buzz-mcq-02",
-        "buzz-mcq-06",
+        "buzz-pdf-002",
+        "buzz-mcq-11",
         "buzz-mcq-01"
       ],
       "explanation": "本句的「buzz」指「由興奮、活動和討論形成的熱鬧氣氛」。",
@@ -558,12 +532,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-04": "本句指「由興奮、活動和討論形成的熱鬧氣氛」。",
-        "buzz-mcq-03": "「手機／裝置收到通知時發出的震動或低沉提示聲」與本句語境不同。",
-        "buzz-mcq-05": "「圍繞某人／事物形成的大量熱烈討論與關注」與本句語境不同。",
-        "buzz-mcq-02": "「蜜蜂、蚊等翅膀快速振動產生的聲音」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。",
-        "buzz-mcq-01": "「持續或短促、低沉而帶震動感的嗡嗡聲」與本句語境不同。"
+        "buzz-mcq-04": "本句的「buzz」指「由興奮、活動和討論形成的熱鬧氣氛」。",
+        "buzz-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-04"
     },
@@ -575,11 +547,9 @@ export default {
       "masked": "The opening created a ____ in the neighbourhood.",
       "options": [
         "buzz-mcq-04",
-        "buzz-mcq-03",
-        "buzz-mcq-05",
-        "buzz-mcq-02",
         "buzz-mcq-06",
-        "buzz-mcq-01"
+        "buzz-pdf-002",
+        "buzz-mcq-13"
       ],
       "explanation": "本句的「buzz」指「由興奮、活動和討論形成的熱鬧氣氛」。",
       "sentenceIndex": 7,
@@ -588,12 +558,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-04": "本句指「由興奮、活動和討論形成的熱鬧氣氛」。",
-        "buzz-mcq-03": "「手機／裝置收到通知時發出的震動或低沉提示聲」與本句語境不同。",
-        "buzz-mcq-05": "「圍繞某人／事物形成的大量熱烈討論與關注」與本句語境不同。",
-        "buzz-mcq-02": "「蜜蜂、蚊等翅膀快速振動產生的聲音」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。",
-        "buzz-mcq-01": "「持續或短促、低沉而帶震動感的嗡嗡聲」與本句語境不同。"
+        "buzz-mcq-04": "本句的「buzz」指「由興奮、活動和討論形成的熱鬧氣氛」。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "buzz-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-04"
     },
@@ -605,11 +573,9 @@ export default {
       "masked": "The new product generated a lot of ____ online.",
       "options": [
         "buzz-mcq-05",
-        "buzz-mcq-04",
-        "buzz-mcq-06",
-        "buzz-mcq-03",
-        "buzz-mcq-07",
-        "buzz-mcq-02"
+        "buzz-mcq-09",
+        "buzz-pdf-001",
+        "buzz-mcq-06"
       ],
       "explanation": "本句的「buzz」指「圍繞某人／事物形成的大量熱烈討論與關注」。",
       "sentenceIndex": 8,
@@ -618,12 +584,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-05": "本句指「圍繞某人／事物形成的大量熱烈討論與關注」。",
-        "buzz-mcq-04": "「由興奮、活動和討論形成的熱鬧氣氛」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。",
-        "buzz-mcq-03": "「手機／裝置收到通知時發出的震動或低沉提示聲」與本句語境不同。",
-        "buzz-mcq-07": "「某種活動帶來的興奮、刺激快感」與本句語境不同。",
-        "buzz-mcq-02": "「蜜蜂、蚊等翅膀快速振動產生的聲音」與本句語境不同。"
+        "buzz-mcq-05": "本句的「buzz」指「圍繞某人／事物形成的大量熱烈討論與關注」。",
+        "buzz-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "buzz-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-05"
     },
@@ -635,11 +599,9 @@ export default {
       "masked": "There was plenty of ____ before the film was released.",
       "options": [
         "buzz-mcq-05",
-        "buzz-mcq-04",
-        "buzz-mcq-06",
-        "buzz-mcq-03",
-        "buzz-mcq-07",
-        "buzz-mcq-02"
+        "buzz-mcq-01",
+        "buzz-pdf-002",
+        "buzz-mcq-06"
       ],
       "explanation": "本句的「buzz」指「圍繞某人／事物形成的大量熱烈討論與關注」。",
       "sentenceIndex": 9,
@@ -648,12 +610,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-05": "本句指「圍繞某人／事物形成的大量熱烈討論與關注」。",
-        "buzz-mcq-04": "「由興奮、活動和討論形成的熱鬧氣氛」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。",
-        "buzz-mcq-03": "「手機／裝置收到通知時發出的震動或低沉提示聲」與本句語境不同。",
-        "buzz-mcq-07": "「某種活動帶來的興奮、刺激快感」與本句語境不同。",
-        "buzz-mcq-02": "「蜜蜂、蚊等翅膀快速振動產生的聲音」與本句語境不同。"
+        "buzz-mcq-05": "本句的「buzz」指「圍繞某人／事物形成的大量熱烈討論與關注」。",
+        "buzz-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "buzz-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-05"
     },
@@ -665,10 +625,8 @@ export default {
       "masked": "The ____ is that the company may expand.",
       "options": [
         "buzz-mcq-06",
-        "buzz-mcq-05",
-        "buzz-mcq-07",
         "buzz-mcq-04",
-        "buzz-mcq-08",
+        "buzz-pdf-001",
         "buzz-mcq-03"
       ],
       "explanation": "本句的「buzz」指「非正式流傳的消息、風聲或傳聞」。",
@@ -678,12 +636,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-06": "本句指「非正式流傳的消息、風聲或傳聞」。",
-        "buzz-mcq-05": "「圍繞某人／事物形成的大量熱烈討論與關注」與本句語境不同。",
-        "buzz-mcq-07": "「某種活動帶來的興奮、刺激快感」與本句語境不同。",
-        "buzz-mcq-04": "「由興奮、活動和討論形成的熱鬧氣氛」與本句語境不同。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。",
-        "buzz-mcq-03": "「手機／裝置收到通知時發出的震動或低沉提示聲」與本句語境不同。"
+        "buzz-mcq-06": "本句的「buzz」指「非正式流傳的消息、風聲或傳聞」。",
+        "buzz-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "buzz-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-06"
     },
@@ -695,11 +651,9 @@ export default {
       "masked": "I heard some ____ about a new manager.",
       "options": [
         "buzz-mcq-06",
-        "buzz-mcq-05",
-        "buzz-mcq-07",
-        "buzz-mcq-04",
+        "buzz-pdf-001",
         "buzz-mcq-08",
-        "buzz-mcq-03"
+        "buzz-mcq-09"
       ],
       "explanation": "本句的「buzz」指「非正式流傳的消息、風聲或傳聞」。",
       "sentenceIndex": 11,
@@ -708,12 +662,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-06": "本句指「非正式流傳的消息、風聲或傳聞」。",
-        "buzz-mcq-05": "「圍繞某人／事物形成的大量熱烈討論與關注」與本句語境不同。",
-        "buzz-mcq-07": "「某種活動帶來的興奮、刺激快感」與本句語境不同。",
-        "buzz-mcq-04": "「由興奮、活動和討論形成的熱鬧氣氛」與本句語境不同。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。",
-        "buzz-mcq-03": "「手機／裝置收到通知時發出的震動或低沉提示聲」與本句語境不同。"
+        "buzz-mcq-06": "本句的「buzz」指「非正式流傳的消息、風聲或傳聞」。",
+        "buzz-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-06"
     },
@@ -725,11 +677,9 @@ export default {
       "masked": "She gets a ____ from performing on stage.",
       "options": [
         "buzz-mcq-07",
-        "buzz-mcq-06",
-        "buzz-mcq-08",
-        "buzz-mcq-05",
-        "buzz-mcq-09",
-        "buzz-mcq-04"
+        "buzz-mcq-11",
+        "buzz-pdf-002",
+        "buzz-mcq-01"
       ],
       "explanation": "本句的「buzz」指「某種活動帶來的興奮、刺激快感」。",
       "sentenceIndex": 12,
@@ -738,12 +688,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-07": "本句指「某種活動帶來的興奮、刺激快感」。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。",
-        "buzz-mcq-05": "「圍繞某人／事物形成的大量熱烈討論與關注」與本句語境不同。",
-        "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
-        "buzz-mcq-04": "「由興奮、活動和討論形成的熱鬧氣氛」與本句語境不同。"
+        "buzz-mcq-07": "本句的「buzz」指「某種活動帶來的興奮、刺激快感」。",
+        "buzz-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "buzz-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-07"
     },
@@ -756,10 +704,8 @@ export default {
       "options": [
         "buzz-mcq-07",
         "buzz-mcq-06",
-        "buzz-mcq-08",
-        "buzz-mcq-05",
-        "buzz-mcq-09",
-        "buzz-mcq-04"
+        "buzz-mcq-12",
+        "buzz-mcq-13"
       ],
       "explanation": "本句的「buzz」指「某種活動帶來的興奮、刺激快感」。",
       "sentenceIndex": 13,
@@ -768,12 +714,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-07": "本句指「某種活動帶來的興奮、刺激快感」。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。",
-        "buzz-mcq-05": "「圍繞某人／事物形成的大量熱烈討論與關注」與本句語境不同。",
-        "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
-        "buzz-mcq-04": "「由興奮、活動和討論形成的熱鬧氣氛」與本句語境不同。"
+        "buzz-mcq-07": "本句的「buzz」指「某種活動帶來的興奮、刺激快感」。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-07"
     },
@@ -785,11 +729,9 @@ export default {
       "masked": "He felt a slight ____ after the drink.",
       "options": [
         "buzz-mcq-08",
-        "buzz-mcq-07",
         "buzz-mcq-09",
-        "buzz-mcq-06",
-        "buzz-mcq-10",
-        "buzz-mcq-05"
+        "buzz-mcq-11",
+        "buzz-mcq-10"
       ],
       "explanation": "本句的「buzz」指「酒精、咖啡因等帶來的輕微亢奮／微醺感」。",
       "sentenceIndex": 14,
@@ -798,12 +740,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-08": "本句指「酒精、咖啡因等帶來的輕微亢奮／微醺感」。",
-        "buzz-mcq-07": "「某種活動帶來的興奮、刺激快感」與本句語境不同。",
-        "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。",
-        "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
-        "buzz-mcq-05": "「圍繞某人／事物形成的大量熱烈討論與關注」與本句語境不同。"
+        "buzz-mcq-08": "本句的「buzz」指「酒精、咖啡因等帶來的輕微亢奮／微醺感」。",
+        "buzz-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-08"
     },
@@ -815,11 +755,9 @@ export default {
       "masked": "The caffeine gave her a quick ____.",
       "options": [
         "buzz-mcq-08",
-        "buzz-mcq-07",
-        "buzz-mcq-09",
-        "buzz-mcq-06",
-        "buzz-mcq-10",
-        "buzz-mcq-05"
+        "buzz-mcq-12",
+        "buzz-mcq-13",
+        "buzz-mcq-06"
       ],
       "explanation": "本句的「buzz」指「酒精、咖啡因等帶來的輕微亢奮／微醺感」。",
       "sentenceIndex": 15,
@@ -828,12 +766,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-08": "本句指「酒精、咖啡因等帶來的輕微亢奮／微醺感」。",
-        "buzz-mcq-07": "「某種活動帶來的興奮、刺激快感」與本句語境不同。",
-        "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。",
-        "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
-        "buzz-mcq-05": "「圍繞某人／事物形成的大量熱烈討論與關注」與本句語境不同。"
+        "buzz-mcq-08": "本句的「buzz」指「酒精、咖啡因等帶來的輕微亢奮／微醺感」。",
+        "buzz-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-08"
     },
@@ -845,11 +781,9 @@ export default {
       "masked": "He enjoys the ____ of competition.",
       "options": [
         "buzz-mcq-07",
-        "buzz-mcq-06",
-        "buzz-mcq-08",
-        "buzz-mcq-05",
-        "buzz-mcq-09",
-        "buzz-mcq-04"
+        "buzz-mcq-12",
+        "buzz-mcq-13",
+        "buzz-mcq-06"
       ],
       "explanation": "本句的「buzz」指「某種活動帶來的興奮、刺激快感」。",
       "sentenceIndex": 16,
@@ -858,12 +792,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-07": "本句指「某種活動帶來的興奮、刺激快感」。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。",
-        "buzz-mcq-05": "「圍繞某人／事物形成的大量熱烈討論與關注」與本句語境不同。",
-        "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
-        "buzz-mcq-04": "「由興奮、活動和討論形成的熱鬧氣氛」與本句語境不同。"
+        "buzz-mcq-07": "本句的「buzz」指「某種活動帶來的興奮、刺激快感」。",
+        "buzz-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-07"
     },
@@ -876,10 +808,8 @@ export default {
       "options": [
         "buzz-mcq-07",
         "buzz-mcq-06",
-        "buzz-mcq-08",
-        "buzz-mcq-05",
-        "buzz-mcq-09",
-        "buzz-mcq-04"
+        "buzz-pdf-002",
+        "buzz-mcq-13"
       ],
       "explanation": "本句的「buzz」指「某種活動帶來的興奮、刺激快感」。",
       "sentenceIndex": 17,
@@ -888,12 +818,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-07": "本句指「某種活動帶來的興奮、刺激快感」。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。",
-        "buzz-mcq-05": "「圍繞某人／事物形成的大量熱烈討論與關注」與本句語境不同。",
-        "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
-        "buzz-mcq-04": "「由興奮、活動和討論形成的熱鬧氣氛」與本句語境不同。"
+        "buzz-mcq-07": "本句的「buzz」指「某種活動帶來的興奮、刺激快感」。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "buzz-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-07"
     },
@@ -905,10 +833,8 @@ export default {
       "masked": "The lights were ____.",
       "options": [
         "buzz-mcq-09",
-        "buzz-mcq-08",
-        "buzz-mcq-10",
-        "buzz-mcq-07",
-        "buzz-mcq-11",
+        "buzz-mcq-05",
+        "buzz-mcq-13",
         "buzz-mcq-06"
       ],
       "explanation": "本句的「buzzing」指「發出嗡嗡聲；裝置震動提示」。",
@@ -918,12 +844,10 @@ export default {
         "buzzing"
       ],
       "optionReasons": {
-        "buzz-mcq-09": "本句指「發出嗡嗡聲；裝置震動提示」。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。",
-        "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
-        "buzz-mcq-07": "「某種活動帶來的興奮、刺激快感」與本句語境不同。",
-        "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。"
+        "buzz-mcq-09": "本句的「buzzing」指「發出嗡嗡聲；裝置震動提示」。",
+        "buzz-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-09"
     },
@@ -935,10 +859,8 @@ export default {
       "masked": "A bee ____ around the flowers.",
       "options": [
         "buzz-mcq-09",
-        "buzz-mcq-08",
-        "buzz-mcq-10",
-        "buzz-mcq-07",
-        "buzz-mcq-11",
+        "buzz-mcq-13",
+        "buzz-mcq-05",
         "buzz-mcq-06"
       ],
       "explanation": "本句的「buzzed」指「發出嗡嗡聲；裝置震動提示」。",
@@ -948,12 +870,10 @@ export default {
         "buzzed"
       ],
       "optionReasons": {
-        "buzz-mcq-09": "本句指「發出嗡嗡聲；裝置震動提示」。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。",
-        "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
-        "buzz-mcq-07": "「某種活動帶來的興奮、刺激快感」與本句語境不同。",
-        "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。"
+        "buzz-mcq-09": "本句的「buzzed」指「發出嗡嗡聲；裝置震動提示」。",
+        "buzz-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-09"
     },
@@ -965,11 +885,9 @@ export default {
       "masked": "My phone ____ in my pocket.",
       "options": [
         "buzz-mcq-09",
-        "buzz-mcq-08",
-        "buzz-mcq-10",
-        "buzz-mcq-07",
-        "buzz-mcq-11",
-        "buzz-mcq-06"
+        "buzz-mcq-13",
+        "buzz-mcq-05",
+        "buzz-pdf-001"
       ],
       "explanation": "本句的「buzzed」指「發出嗡嗡聲；裝置震動提示」。",
       "sentenceIndex": 20,
@@ -978,12 +896,10 @@ export default {
         "buzzed"
       ],
       "optionReasons": {
-        "buzz-mcq-09": "本句指「發出嗡嗡聲；裝置震動提示」。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。",
-        "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
-        "buzz-mcq-07": "「某種活動帶來的興奮、刺激快感」與本句語境不同。",
-        "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。"
+        "buzz-mcq-09": "本句的「buzzed」指「發出嗡嗡聲；裝置震動提示」。",
+        "buzz-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "buzz-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-09"
     },
@@ -995,10 +911,8 @@ export default {
       "masked": "The watch ____ to remind me of the meeting.",
       "options": [
         "buzz-mcq-09",
-        "buzz-mcq-08",
-        "buzz-mcq-10",
-        "buzz-mcq-07",
-        "buzz-mcq-11",
+        "buzz-mcq-05",
+        "buzz-mcq-13",
         "buzz-mcq-06"
       ],
       "explanation": "本句的「buzzed」指「發出嗡嗡聲；裝置震動提示」。",
@@ -1008,12 +922,10 @@ export default {
         "buzzed"
       ],
       "optionReasons": {
-        "buzz-mcq-09": "本句指「發出嗡嗡聲；裝置震動提示」。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。",
-        "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
-        "buzz-mcq-07": "「某種活動帶來的興奮、刺激快感」與本句語境不同。",
-        "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。"
+        "buzz-mcq-09": "本句的「buzzed」指「發出嗡嗡聲；裝置震動提示」。",
+        "buzz-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-09"
     },
@@ -1025,10 +937,8 @@ export default {
       "masked": "Staff were ____ the café.",
       "options": [
         "buzz-pdf-001",
-        "buzz-mcq-08",
-        "buzz-mcq-10",
-        "buzz-mcq-07",
-        "buzz-mcq-11",
+        "buzz-mcq-05",
+        "buzz-pdf-002",
         "buzz-mcq-06"
       ],
       "explanation": "本句的「buzzing around」指「以快速、活躍、略帶連續動感的方式來回移動」。",
@@ -1038,12 +948,10 @@ export default {
         "buzzing around"
       ],
       "optionReasons": {
-        "buzz-pdf-001": "本句指「以快速、活躍、略帶連續動感的方式來回移動」。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。",
-        "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
-        "buzz-mcq-07": "「某種活動帶來的興奮、刺激快感」與本句語境不同。",
-        "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。"
+        "buzz-pdf-001": "本句的「buzzing around」指「以快速、活躍、略帶連續動感的方式來回移動」。",
+        "buzz-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "buzz-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-pdf-001"
     },
@@ -1055,10 +963,8 @@ export default {
       "masked": "Motorbikes ____ through the streets.",
       "options": [
         "buzz-pdf-001",
-        "buzz-mcq-08",
-        "buzz-mcq-10",
-        "buzz-mcq-07",
-        "buzz-mcq-11",
+        "buzz-mcq-05",
+        "buzz-mcq-13",
         "buzz-mcq-06"
       ],
       "explanation": "本句的「buzzed」指「以快速、活躍、略帶連續動感的方式來回移動」。",
@@ -1068,12 +974,10 @@ export default {
         "buzzed"
       ],
       "optionReasons": {
-        "buzz-pdf-001": "本句指「以快速、活躍、略帶連續動感的方式來回移動」。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。",
-        "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
-        "buzz-mcq-07": "「某種活動帶來的興奮、刺激快感」與本句語境不同。",
-        "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
-        "buzz-mcq-06": "「非正式流傳的消息、風聲或傳聞」與本句語境不同。"
+        "buzz-pdf-001": "本句的「buzzed」指「以快速、活躍、略帶連續動感的方式來回移動」。",
+        "buzz-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-pdf-001"
     },
@@ -1085,11 +989,9 @@ export default {
       "masked": "The café was ____ on Friday night.",
       "options": [
         "buzz-mcq-10",
-        "buzz-mcq-09",
+        "buzz-pdf-002",
         "buzz-mcq-11",
-        "buzz-mcq-08",
-        "buzz-mcq-12",
-        "buzz-mcq-07"
+        "buzz-mcq-01"
       ],
       "explanation": "本句的「buzzing」指「某地非常熱鬧、充滿活動與興奮氣氛」。",
       "sentenceIndex": 24,
@@ -1098,12 +1000,10 @@ export default {
         "buzzing"
       ],
       "optionReasons": {
-        "buzz-mcq-10": "本句指「某地非常熱鬧、充滿活動與興奮氣氛」。",
-        "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
-        "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。",
-        "buzz-mcq-12": "「透過電子門禁解除門鎖讓某人進入」與本句語境不同。",
-        "buzz-mcq-07": "「某種活動帶來的興奮、刺激快感」與本句語境不同。"
+        "buzz-mcq-10": "本句的「buzzing」指「某地非常熱鬧、充滿活動與興奮氣氛」。",
+        "buzz-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-10"
     },
@@ -1115,11 +1015,9 @@ export default {
       "masked": "The whole city was ____ after the match.",
       "options": [
         "buzz-mcq-10",
-        "buzz-mcq-09",
-        "buzz-mcq-11",
-        "buzz-mcq-08",
         "buzz-mcq-12",
-        "buzz-mcq-07"
+        "buzz-mcq-01",
+        "buzz-mcq-06"
       ],
       "explanation": "本句的「buzzing」指「某地非常熱鬧、充滿活動與興奮氣氛」。",
       "sentenceIndex": 25,
@@ -1128,12 +1026,10 @@ export default {
         "buzzing"
       ],
       "optionReasons": {
-        "buzz-mcq-10": "本句指「某地非常熱鬧、充滿活動與興奮氣氛」。",
-        "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
-        "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。",
-        "buzz-mcq-12": "「透過電子門禁解除門鎖讓某人進入」與本句語境不同。",
-        "buzz-mcq-07": "「某種活動帶來的興奮、刺激快感」與本句語境不同。"
+        "buzz-mcq-10": "本句的「buzzing」指「某地非常熱鬧、充滿活動與興奮氣氛」。",
+        "buzz-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-10"
     },
@@ -1145,11 +1041,8 @@ export default {
       "masked": "I’ll ____ you later.",
       "options": [
         "buzz-mcq-11",
-        "buzz-mcq-10",
-        "buzz-mcq-12",
         "buzz-mcq-09",
-        "buzz-mcq-13",
-        "buzz-mcq-08"
+        "buzz-mcq-07"
       ],
       "explanation": "本句的「buzz」指「非正式地打電話給某人」。",
       "sentenceIndex": 28,
@@ -1158,12 +1051,9 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-11": "本句指「非正式地打電話給某人」。",
-        "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
-        "buzz-mcq-12": "「透過電子門禁解除門鎖讓某人進入」與本句語境不同。",
-        "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
-        "buzz-mcq-13": "「用電推剪把頭髮剪得非常短的髮型」與本句語境不同。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。"
+        "buzz-mcq-11": "本句的「buzz」指「非正式地打電話給某人」。",
+        "buzz-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-11"
     },
@@ -1175,11 +1065,9 @@ export default {
       "masked": "____ me when you arrive.",
       "options": [
         "buzz-mcq-11",
-        "buzz-mcq-10",
-        "buzz-mcq-12",
-        "buzz-mcq-09",
-        "buzz-mcq-13",
-        "buzz-mcq-08"
+        "buzz-mcq-08",
+        "buzz-pdf-001",
+        "buzz-mcq-09"
       ],
       "explanation": "本句的「Buzz」指「非正式地打電話給某人」。",
       "sentenceIndex": 29,
@@ -1188,12 +1076,10 @@ export default {
         "Buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-11": "本句指「非正式地打電話給某人」。",
-        "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
-        "buzz-mcq-12": "「透過電子門禁解除門鎖讓某人進入」與本句語境不同。",
-        "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
-        "buzz-mcq-13": "「用電推剪把頭髮剪得非常短的髮型」與本句語境不同。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。"
+        "buzz-mcq-11": "本句的「Buzz」指「非正式地打電話給某人」。",
+        "buzz-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "buzz-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-11"
     },
@@ -1205,11 +1091,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "buzz-mcq-12",
-        "buzz-mcq-11",
-        "buzz-mcq-13",
-        "buzz-mcq-10",
-        "buzz-mcq-09",
-        "buzz-mcq-08"
+        "buzz-mcq-08",
+        "buzz-mcq-01",
+        "buzz-mcq-10"
       ],
       "explanation": "本句的「buzz me in」指「透過電子門禁解除門鎖讓某人進入」。",
       "sentenceIndex": 30,
@@ -1218,12 +1102,10 @@ export default {
         "buzz me in"
       ],
       "optionReasons": {
-        "buzz-mcq-12": "本句指「透過電子門禁解除門鎖讓某人進入」。",
-        "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
-        "buzz-mcq-13": "「用電推剪把頭髮剪得非常短的髮型」與本句語境不同。",
-        "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
-        "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。"
+        "buzz-mcq-12": "本句的「buzz me in」指「透過電子門禁解除門鎖讓某人進入」。",
+        "buzz-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-12"
     },
@@ -1235,11 +1117,9 @@ export default {
       "masked": "The receptionist ____ the visitor in.",
       "options": [
         "buzz-mcq-12",
-        "buzz-mcq-11",
-        "buzz-mcq-13",
-        "buzz-mcq-10",
-        "buzz-mcq-09",
-        "buzz-mcq-08"
+        "buzz-mcq-06",
+        "buzz-mcq-07",
+        "buzz-mcq-01"
       ],
       "explanation": "本句的「buzzed」指「透過電子門禁解除門鎖讓某人進入」。",
       "sentenceIndex": 31,
@@ -1248,12 +1128,10 @@ export default {
         "buzzed"
       ],
       "optionReasons": {
-        "buzz-mcq-12": "本句指「透過電子門禁解除門鎖讓某人進入」。",
-        "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
-        "buzz-mcq-13": "「用電推剪把頭髮剪得非常短的髮型」與本句語境不同。",
-        "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
-        "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。"
+        "buzz-mcq-12": "本句的「buzzed」指「透過電子門禁解除門鎖讓某人進入」。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-12"
     },
@@ -1265,11 +1143,9 @@ export default {
       "masked": "I heard the ____ from the front door.",
       "options": [
         "buzz-pdf-002",
-        "buzz-mcq-11",
-        "buzz-mcq-13",
-        "buzz-mcq-10",
-        "buzz-mcq-09",
-        "buzz-mcq-08"
+        "buzz-mcq-07",
+        "buzz-mcq-06",
+        "buzz-mcq-13"
       ],
       "explanation": "本句的「buzz」指「電子門禁／對講系統發出的提示聲」。",
       "sentenceIndex": 32,
@@ -1278,12 +1154,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-pdf-002": "本句指「電子門禁／對講系統發出的提示聲」。",
-        "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
-        "buzz-mcq-13": "「用電推剪把頭髮剪得非常短的髮型」與本句語境不同。",
-        "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
-        "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。"
+        "buzz-pdf-002": "本句的「buzz」指「電子門禁／對講系統發出的提示聲」。",
+        "buzz-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-pdf-002"
     },
@@ -1295,11 +1169,9 @@ export default {
       "masked": "A ____ indicated that the door had unlocked.",
       "options": [
         "buzz-pdf-002",
-        "buzz-mcq-11",
-        "buzz-mcq-13",
+        "buzz-mcq-08",
         "buzz-mcq-10",
-        "buzz-mcq-09",
-        "buzz-mcq-08"
+        "buzz-pdf-001"
       ],
       "explanation": "本句的「buzz」指「電子門禁／對講系統發出的提示聲」。",
       "sentenceIndex": 33,
@@ -1308,12 +1180,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-pdf-002": "本句指「電子門禁／對講系統發出的提示聲」。",
-        "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
-        "buzz-mcq-13": "「用電推剪把頭髮剪得非常短的髮型」與本句語境不同。",
-        "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
-        "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。"
+        "buzz-pdf-002": "本句的「buzz」指「電子門禁／對講系統發出的提示聲」。",
+        "buzz-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "buzz-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-pdf-002"
     },
@@ -1325,11 +1195,9 @@ export default {
       "masked": "He got a ____ for summer.",
       "options": [
         "buzz-mcq-13",
-        "buzz-mcq-12",
-        "buzz-mcq-11",
-        "buzz-mcq-10",
+        "buzz-mcq-02",
         "buzz-mcq-09",
-        "buzz-mcq-08"
+        "buzz-mcq-06"
       ],
       "explanation": "本句的「buzz cut」指「用電推剪把頭髮剪得非常短的髮型」。",
       "sentenceIndex": 34,
@@ -1338,12 +1206,10 @@ export default {
         "buzz cut"
       ],
       "optionReasons": {
-        "buzz-mcq-13": "本句指「用電推剪把頭髮剪得非常短的髮型」。",
-        "buzz-mcq-12": "「透過電子門禁解除門鎖讓某人進入」與本句語境不同。",
-        "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
-        "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
-        "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。"
+        "buzz-mcq-13": "本句的「buzz cut」指「用電推剪把頭髮剪得非常短的髮型」。",
+        "buzz-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-13"
     },
@@ -1355,11 +1221,9 @@ export default {
       "masked": "The ____ cut is easy to maintain.",
       "options": [
         "buzz-mcq-13",
-        "buzz-mcq-12",
-        "buzz-mcq-11",
-        "buzz-mcq-10",
+        "buzz-mcq-04",
         "buzz-mcq-09",
-        "buzz-mcq-08"
+        "buzz-pdf-001"
       ],
       "explanation": "本句的「buzz」指「用電推剪把頭髮剪得非常短的髮型」。",
       "sentenceIndex": 35,
@@ -1368,12 +1232,10 @@ export default {
         "buzz"
       ],
       "optionReasons": {
-        "buzz-mcq-13": "本句指「用電推剪把頭髮剪得非常短的髮型」。",
-        "buzz-mcq-12": "「透過電子門禁解除門鎖讓某人進入」與本句語境不同。",
-        "buzz-mcq-11": "「非正式地打電話給某人」與本句語境不同。",
-        "buzz-mcq-10": "「某地非常熱鬧、充滿活動與興奮氣氛」與本句語境不同。",
-        "buzz-mcq-09": "「發出嗡嗡聲；裝置震動提示」與本句語境不同。",
-        "buzz-mcq-08": "「酒精、咖啡因等帶來的輕微亢奮／微醺感」與本句語境不同。"
+        "buzz-mcq-13": "本句的「buzz」指「用電推剪把頭髮剪得非常短的髮型」。",
+        "buzz-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "buzz-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "buzz-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "buzz-mcq-13"
     }
@@ -1385,5 +1247,7 @@ export default {
     "sha256": "312b75a43b2edb4dbe633534c5af59d8be226cd349eb48898006aef46542846a",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

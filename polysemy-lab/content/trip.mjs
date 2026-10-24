@@ -169,11 +169,9 @@ export default {
       "masked": "In the middle of the ____, a sea turtle appeared.",
       "options": [
         "trip-mcq-01",
-        "trip-mcq-02",
         "trip-mcq-03",
-        "trip-mcq-04",
-        "trip-mcq-05",
-        "trip-mcq-06"
+        "trip-mcq-06",
+        "trip-mcq-05"
       ],
       "explanation": "本句的「trip」指「為旅行、工作、參觀等目的前往另一地的一段具體行程／旅程」。",
       "sentenceIndex": 0,
@@ -182,12 +180,10 @@ export default {
         "trip"
       ],
       "optionReasons": {
-        "trip-mcq-01": "本句指「為旅行、工作、參觀等目的前往另一地的一段具體行程／旅程」。",
-        "trip-mcq-02": "「一次較短、目的明確的外出或短途行程；屬於 journey 義」與本句語境不同。",
-        "trip-mcq-03": "「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」與本句語境不同。",
-        "trip-mcq-04": "「令某人的腳被阻住而失去平衡；與 stumble 義相關」與本句語境不同。",
-        "trip-mcq-05": "「觸發開關、警報、斷路器等機制」與本句語境不同。",
-        "trip-mcq-06": "「迷幻藥引起的知覺或心理體驗；非正式、低優先度」與本句語境不同。"
+        "trip-mcq-01": "本句的「trip」指「為旅行、工作、參觀等目的前往另一地的一段具體行程／旅程」。",
+        "trip-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trip-mcq-01"
     },
@@ -199,11 +195,9 @@ export default {
       "masked": "We took a weekend ____ to the island.",
       "options": [
         "trip-mcq-01",
-        "trip-mcq-02",
-        "trip-mcq-03",
         "trip-mcq-04",
-        "trip-mcq-05",
-        "trip-mcq-06"
+        "trip-mcq-06",
+        "trip-mcq-05"
       ],
       "explanation": "本句的「trip」指「為旅行、工作、參觀等目的前往另一地的一段具體行程／旅程」。",
       "sentenceIndex": 1,
@@ -212,12 +206,10 @@ export default {
         "trip"
       ],
       "optionReasons": {
-        "trip-mcq-01": "本句指「為旅行、工作、參觀等目的前往另一地的一段具體行程／旅程」。",
-        "trip-mcq-02": "「一次較短、目的明確的外出或短途行程；屬於 journey 義」與本句語境不同。",
-        "trip-mcq-03": "「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」與本句語境不同。",
-        "trip-mcq-04": "「令某人的腳被阻住而失去平衡；與 stumble 義相關」與本句語境不同。",
-        "trip-mcq-05": "「觸發開關、警報、斷路器等機制」與本句語境不同。",
-        "trip-mcq-06": "「迷幻藥引起的知覺或心理體驗；非正式、低優先度」與本句語境不同。"
+        "trip-mcq-01": "本句的「trip」指「為旅行、工作、參觀等目的前往另一地的一段具體行程／旅程」。",
+        "trip-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trip-mcq-01"
     },
@@ -229,11 +221,9 @@ export default {
       "masked": "How was your ____ to Japan?",
       "options": [
         "trip-mcq-01",
-        "trip-mcq-02",
         "trip-mcq-03",
-        "trip-mcq-04",
         "trip-mcq-05",
-        "trip-mcq-06"
+        "trip-mcq-07"
       ],
       "explanation": "本句的「trip」指「為旅行、工作、參觀等目的前往另一地的一段具體行程／旅程」。",
       "sentenceIndex": 2,
@@ -242,12 +232,10 @@ export default {
         "trip"
       ],
       "optionReasons": {
-        "trip-mcq-01": "本句指「為旅行、工作、參觀等目的前往另一地的一段具體行程／旅程」。",
-        "trip-mcq-02": "「一次較短、目的明確的外出或短途行程；屬於 journey 義」與本句語境不同。",
-        "trip-mcq-03": "「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」與本句語境不同。",
-        "trip-mcq-04": "「令某人的腳被阻住而失去平衡；與 stumble 義相關」與本句語境不同。",
-        "trip-mcq-05": "「觸發開關、警報、斷路器等機制」與本句語境不同。",
-        "trip-mcq-06": "「迷幻藥引起的知覺或心理體驗；非正式、低優先度」與本句語境不同。"
+        "trip-mcq-01": "本句的「trip」指「為旅行、工作、參觀等目的前往另一地的一段具體行程／旅程」。",
+        "trip-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trip-mcq-01"
     },
@@ -259,11 +247,9 @@ export default {
       "masked": "We made a quick ____ to the supermarket.",
       "options": [
         "trip-mcq-02",
-        "trip-mcq-01",
         "trip-mcq-03",
-        "trip-mcq-04",
-        "trip-mcq-05",
-        "trip-mcq-06"
+        "trip-mcq-07",
+        "trip-mcq-05"
       ],
       "explanation": "本句的「trip」指「一次較短、目的明確的外出或短途行程；屬於 journey 義」。",
       "sentenceIndex": 3,
@@ -272,12 +258,10 @@ export default {
         "trip"
       ],
       "optionReasons": {
-        "trip-mcq-02": "本句指「一次較短、目的明確的外出或短途行程；屬於 journey 義」。",
-        "trip-mcq-01": "「為旅行、工作、參觀等目的前往另一地的一段具體行程／旅程」與本句語境不同。",
-        "trip-mcq-03": "「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」與本句語境不同。",
-        "trip-mcq-04": "「令某人的腳被阻住而失去平衡；與 stumble 義相關」與本句語境不同。",
-        "trip-mcq-05": "「觸發開關、警報、斷路器等機制」與本句語境不同。",
-        "trip-mcq-06": "「迷幻藥引起的知覺或心理體驗；非正式、低優先度」與本句語境不同。"
+        "trip-mcq-02": "本句的「trip」指「一次較短、目的明確的外出或短途行程；屬於 journey 義」。",
+        "trip-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trip-mcq-02"
     },
@@ -289,11 +273,9 @@ export default {
       "masked": "The class went on a day ____ to the museum.",
       "options": [
         "trip-mcq-02",
-        "trip-mcq-01",
+        "trip-mcq-07",
         "trip-mcq-03",
-        "trip-mcq-04",
-        "trip-mcq-05",
-        "trip-mcq-06"
+        "trip-mcq-05"
       ],
       "explanation": "本句的「trip」指「一次較短、目的明確的外出或短途行程；屬於 journey 義」。",
       "sentenceIndex": 4,
@@ -302,12 +284,10 @@ export default {
         "trip"
       ],
       "optionReasons": {
-        "trip-mcq-02": "本句指「一次較短、目的明確的外出或短途行程；屬於 journey 義」。",
-        "trip-mcq-01": "「為旅行、工作、參觀等目的前往另一地的一段具體行程／旅程」與本句語境不同。",
-        "trip-mcq-03": "「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」與本句語境不同。",
-        "trip-mcq-04": "「令某人的腳被阻住而失去平衡；與 stumble 義相關」與本句語境不同。",
-        "trip-mcq-05": "「觸發開關、警報、斷路器等機制」與本句語境不同。",
-        "trip-mcq-06": "「迷幻藥引起的知覺或心理體驗；非正式、低優先度」與本句語境不同。"
+        "trip-mcq-02": "本句的「trip」指「一次較短、目的明確的外出或短途行程；屬於 journey 義」。",
+        "trip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trip-mcq-02"
     },
@@ -319,11 +299,9 @@ export default {
       "masked": "She ____ over a stone.",
       "options": [
         "trip-mcq-03",
-        "trip-mcq-02",
-        "trip-mcq-04",
         "trip-mcq-01",
-        "trip-mcq-05",
-        "trip-mcq-06"
+        "trip-mcq-06",
+        "trip-mcq-05"
       ],
       "explanation": "本句的「tripped」指「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」。",
       "sentenceIndex": 5,
@@ -332,12 +310,10 @@ export default {
         "tripped"
       ],
       "optionReasons": {
-        "trip-mcq-03": "本句指「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」。",
-        "trip-mcq-02": "「一次較短、目的明確的外出或短途行程；屬於 journey 義」與本句語境不同。",
-        "trip-mcq-04": "「令某人的腳被阻住而失去平衡；與 stumble 義相關」與本句語境不同。",
-        "trip-mcq-01": "「為旅行、工作、參觀等目的前往另一地的一段具體行程／旅程」與本句語境不同。",
-        "trip-mcq-05": "「觸發開關、警報、斷路器等機制」與本句語境不同。",
-        "trip-mcq-06": "「迷幻藥引起的知覺或心理體驗；非正式、低優先度」與本句語境不同。"
+        "trip-mcq-03": "本句的「tripped」指「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」。",
+        "trip-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trip-mcq-03"
     },
@@ -349,11 +325,9 @@ export default {
       "masked": "Be careful not to ____ on the cable.",
       "options": [
         "trip-mcq-03",
+        "trip-mcq-07",
         "trip-mcq-02",
-        "trip-mcq-04",
-        "trip-mcq-01",
-        "trip-mcq-05",
-        "trip-mcq-06"
+        "trip-mcq-05"
       ],
       "explanation": "本句的「trip」指「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」。",
       "sentenceIndex": 6,
@@ -362,12 +336,10 @@ export default {
         "trip"
       ],
       "optionReasons": {
-        "trip-mcq-03": "本句指「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」。",
-        "trip-mcq-02": "「一次較短、目的明確的外出或短途行程；屬於 journey 義」與本句語境不同。",
-        "trip-mcq-04": "「令某人的腳被阻住而失去平衡；與 stumble 義相關」與本句語境不同。",
-        "trip-mcq-01": "「為旅行、工作、參觀等目的前往另一地的一段具體行程／旅程」與本句語境不同。",
-        "trip-mcq-05": "「觸發開關、警報、斷路器等機制」與本句語境不同。",
-        "trip-mcq-06": "「迷幻藥引起的知覺或心理體驗；非正式、低優先度」與本句語境不同。"
+        "trip-mcq-03": "本句的「trip」指「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」。",
+        "trip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trip-mcq-03"
     },
@@ -379,11 +351,9 @@ export default {
       "masked": "The loose wire ____ him.",
       "options": [
         "trip-mcq-04",
-        "trip-mcq-03",
+        "trip-mcq-01",
         "trip-mcq-05",
-        "trip-mcq-02",
-        "trip-mcq-06",
-        "trip-mcq-01"
+        "trip-mcq-06"
       ],
       "explanation": "本句的「tripped」指「令某人的腳被阻住而失去平衡；與 stumble 義相關」。",
       "sentenceIndex": 7,
@@ -392,12 +362,10 @@ export default {
         "tripped"
       ],
       "optionReasons": {
-        "trip-mcq-04": "本句指「令某人的腳被阻住而失去平衡；與 stumble 義相關」。",
-        "trip-mcq-03": "「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」與本句語境不同。",
-        "trip-mcq-05": "「觸發開關、警報、斷路器等機制」與本句語境不同。",
-        "trip-mcq-02": "「一次較短、目的明確的外出或短途行程；屬於 journey 義」與本句語境不同。",
-        "trip-mcq-06": "「迷幻藥引起的知覺或心理體驗；非正式、低優先度」與本句語境不同。",
-        "trip-mcq-01": "「為旅行、工作、參觀等目的前往另一地的一段具體行程／旅程」與本句語境不同。"
+        "trip-mcq-04": "本句的「tripped」指「令某人的腳被阻住而失去平衡；與 stumble 義相關」。",
+        "trip-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trip-mcq-04"
     },
@@ -409,10 +377,8 @@ export default {
       "masked": "He was accidentally ____ during the game.",
       "options": [
         "trip-mcq-04",
-        "trip-mcq-03",
-        "trip-mcq-05",
-        "trip-mcq-02",
         "trip-mcq-06",
+        "trip-mcq-05",
         "trip-mcq-01"
       ],
       "explanation": "本句的「tripped」指「令某人的腳被阻住而失去平衡；與 stumble 義相關」。",
@@ -422,12 +388,10 @@ export default {
         "tripped"
       ],
       "optionReasons": {
-        "trip-mcq-04": "本句指「令某人的腳被阻住而失去平衡；與 stumble 義相關」。",
-        "trip-mcq-03": "「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」與本句語境不同。",
-        "trip-mcq-05": "「觸發開關、警報、斷路器等機制」與本句語境不同。",
-        "trip-mcq-02": "「一次較短、目的明確的外出或短途行程；屬於 journey 義」與本句語境不同。",
-        "trip-mcq-06": "「迷幻藥引起的知覺或心理體驗；非正式、低優先度」與本句語境不同。",
-        "trip-mcq-01": "「為旅行、工作、參觀等目的前往另一地的一段具體行程／旅程」與本句語境不同。"
+        "trip-mcq-04": "本句的「tripped」指「令某人的腳被阻住而失去平衡；與 stumble 義相關」。",
+        "trip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trip-mcq-04"
     },
@@ -441,8 +405,6 @@ export default {
         "trip-mcq-05",
         "trip-mcq-04",
         "trip-mcq-06",
-        "trip-mcq-03",
-        "trip-mcq-07",
         "trip-mcq-02"
       ],
       "explanation": "本句的「tripped」指「觸發開關、警報、斷路器等機制」。",
@@ -452,12 +414,10 @@ export default {
         "tripped"
       ],
       "optionReasons": {
-        "trip-mcq-05": "本句指「觸發開關、警報、斷路器等機制」。",
-        "trip-mcq-04": "「令某人的腳被阻住而失去平衡；與 stumble 義相關」與本句語境不同。",
-        "trip-mcq-06": "「迷幻藥引起的知覺或心理體驗；非正式、低優先度」與本句語境不同。",
-        "trip-mcq-03": "「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」與本句語境不同。",
-        "trip-mcq-07": "「奇異、強烈或令人感官震撼的體驗；俚語延伸」與本句語境不同。",
-        "trip-mcq-02": "「一次較短、目的明確的外出或短途行程；屬於 journey 義」與本句語境不同。"
+        "trip-mcq-05": "本句的「tripped」指「觸發開關、警報、斷路器等機制」。",
+        "trip-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trip-mcq-05"
     },
@@ -469,11 +429,9 @@ export default {
       "masked": "Opening the door ____ the alarm.",
       "options": [
         "trip-mcq-05",
-        "trip-mcq-04",
         "trip-mcq-06",
-        "trip-mcq-03",
-        "trip-mcq-07",
-        "trip-mcq-02"
+        "trip-mcq-02",
+        "trip-mcq-04"
       ],
       "explanation": "本句的「tripped」指「觸發開關、警報、斷路器等機制」。",
       "sentenceIndex": 10,
@@ -482,12 +440,10 @@ export default {
         "tripped"
       ],
       "optionReasons": {
-        "trip-mcq-05": "本句指「觸發開關、警報、斷路器等機制」。",
-        "trip-mcq-04": "「令某人的腳被阻住而失去平衡；與 stumble 義相關」與本句語境不同。",
-        "trip-mcq-06": "「迷幻藥引起的知覺或心理體驗；非正式、低優先度」與本句語境不同。",
-        "trip-mcq-03": "「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」與本句語境不同。",
-        "trip-mcq-07": "「奇異、強烈或令人感官震撼的體驗；俚語延伸」與本句語境不同。",
-        "trip-mcq-02": "「一次較短、目的明確的外出或短途行程；屬於 journey 義」與本句語境不同。"
+        "trip-mcq-05": "本句的「tripped」指「觸發開關、警報、斷路器等機制」。",
+        "trip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trip-mcq-05"
     },
@@ -499,11 +455,9 @@ export default {
       "masked": "The word ____ can refer to a hallucinogenic drug experience.",
       "options": [
         "trip-mcq-06",
-        "trip-mcq-05",
-        "trip-mcq-07",
         "trip-mcq-04",
-        "trip-mcq-03",
-        "trip-mcq-02"
+        "trip-mcq-02",
+        "trip-mcq-05"
       ],
       "explanation": "本句的「trip」指「迷幻藥引起的知覺或心理體驗；非正式、低優先度」。",
       "sentenceIndex": 11,
@@ -512,12 +466,10 @@ export default {
         "trip"
       ],
       "optionReasons": {
-        "trip-mcq-06": "本句指「迷幻藥引起的知覺或心理體驗；非正式、低優先度」。",
-        "trip-mcq-05": "「觸發開關、警報、斷路器等機制」與本句語境不同。",
-        "trip-mcq-07": "「奇異、強烈或令人感官震撼的體驗；俚語延伸」與本句語境不同。",
-        "trip-mcq-04": "「令某人的腳被阻住而失去平衡；與 stumble 義相關」與本句語境不同。",
-        "trip-mcq-03": "「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」與本句語境不同。",
-        "trip-mcq-02": "「一次較短、目的明確的外出或短途行程；屬於 journey 義」與本句語境不同。"
+        "trip-mcq-06": "本句的「trip」指「迷幻藥引起的知覺或心理體驗；非正式、低優先度」。",
+        "trip-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trip-mcq-06"
     },
@@ -529,11 +481,9 @@ export default {
       "masked": "That exhibition was quite a ____.",
       "options": [
         "trip-mcq-07",
-        "trip-mcq-06",
-        "trip-mcq-05",
-        "trip-mcq-04",
         "trip-mcq-03",
-        "trip-mcq-02"
+        "trip-mcq-02",
+        "trip-mcq-05"
       ],
       "explanation": "本句的「trip」指「奇異、強烈或令人感官震撼的體驗；俚語延伸」。",
       "sentenceIndex": 12,
@@ -542,12 +492,10 @@ export default {
         "trip"
       ],
       "optionReasons": {
-        "trip-mcq-07": "本句指「奇異、強烈或令人感官震撼的體驗；俚語延伸」。",
-        "trip-mcq-06": "「迷幻藥引起的知覺或心理體驗；非正式、低優先度」與本句語境不同。",
-        "trip-mcq-05": "「觸發開關、警報、斷路器等機制」與本句語境不同。",
-        "trip-mcq-04": "「令某人的腳被阻住而失去平衡；與 stumble 義相關」與本句語境不同。",
-        "trip-mcq-03": "「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」與本句語境不同。",
-        "trip-mcq-02": "「一次較短、目的明確的外出或短途行程；屬於 journey 義」與本句語境不同。"
+        "trip-mcq-07": "本句的「trip」指「奇異、強烈或令人感官震撼的體驗；俚語延伸」。",
+        "trip-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trip-mcq-07"
     },
@@ -559,11 +507,9 @@ export default {
       "masked": "The whole experience was a real ____.",
       "options": [
         "trip-mcq-07",
-        "trip-mcq-06",
         "trip-mcq-05",
-        "trip-mcq-04",
-        "trip-mcq-03",
-        "trip-mcq-02"
+        "trip-mcq-02",
+        "trip-mcq-03"
       ],
       "explanation": "本句的「trip」指「奇異、強烈或令人感官震撼的體驗；俚語延伸」。",
       "sentenceIndex": 13,
@@ -572,12 +518,10 @@ export default {
         "trip"
       ],
       "optionReasons": {
-        "trip-mcq-07": "本句指「奇異、強烈或令人感官震撼的體驗；俚語延伸」。",
-        "trip-mcq-06": "「迷幻藥引起的知覺或心理體驗；非正式、低優先度」與本句語境不同。",
-        "trip-mcq-05": "「觸發開關、警報、斷路器等機制」與本句語境不同。",
-        "trip-mcq-04": "「令某人的腳被阻住而失去平衡；與 stumble 義相關」與本句語境不同。",
-        "trip-mcq-03": "「腳被某物阻住或勾到而失去平衡；絆倒／絆一下」與本句語境不同。",
-        "trip-mcq-02": "「一次較短、目的明確的外出或短途行程；屬於 journey 義」與本句語境不同。"
+        "trip-mcq-07": "本句的「trip」指「奇異、強烈或令人感官震撼的體驗；俚語延伸」。",
+        "trip-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trip-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trip-mcq-07"
     }
@@ -589,5 +533,7 @@ export default {
     "sha256": "dd027dde3ab626adf93d9e52561e4dd43fba4aff93ca642c2f47a84c7be3b03d",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

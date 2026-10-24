@@ -490,11 +490,7 @@ export default {
       "masked": "A ____ developed between them.",
       "options": [
         "romance-mcq-01",
-        "romance-mcq-02",
-        "romance-mcq-03",
-        "romance-mcq-04",
-        "romance-mcq-05",
-        "romance-mcq-06"
+        "romance-mcq-10"
       ],
       "explanation": "本句的「romance」指「一段帶有愛情／戀愛性質的關係；戀情」。",
       "sentenceIndex": 0,
@@ -503,12 +499,8 @@ export default {
         "romance"
       ],
       "optionReasons": {
-        "romance-mcq-01": "本句指「一段帶有愛情／戀愛性質的關係；戀情」。",
-        "romance-mcq-02": "「與 X 發展一段戀情」與本句語境不同。",
-        "romance-mcq-03": "「發展非常快速而強烈的戀情」與本句語境不同。",
-        "romance-mcq-04": "「夏日／旅行期間發展的短期戀情」與本句語境不同。",
-        "romance-mcq-05": "「同一工作場所人士之間的戀情」與本句語境不同。",
-        "romance-mcq-06": "「秘密／受到社會或其他限制的戀情」與本句語境不同。"
+        "romance-mcq-01": "本句的「romance」指「一段帶有愛情／戀愛性質的關係；戀情」。",
+        "romance-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "romance-mcq-01"
     },
@@ -520,11 +512,7 @@ export default {
       "masked": "They married after a whirlwind ____.",
       "options": [
         "romance-mcq-03",
-        "romance-mcq-02",
-        "romance-mcq-04",
-        "romance-mcq-01",
-        "romance-mcq-05",
-        "romance-mcq-06"
+        "romance-mcq-08"
       ],
       "explanation": "本句的「romance」指「發展非常快速而強烈的戀情」。",
       "sentenceIndex": 3,
@@ -533,12 +521,8 @@ export default {
         "romance"
       ],
       "optionReasons": {
-        "romance-mcq-03": "本句指「發展非常快速而強烈的戀情」。",
-        "romance-mcq-02": "「與 X 發展一段戀情」與本句語境不同。",
-        "romance-mcq-04": "「夏日／旅行期間發展的短期戀情」與本句語境不同。",
-        "romance-mcq-01": "「一段帶有愛情／戀愛性質的關係；戀情」與本句語境不同。",
-        "romance-mcq-05": "「同一工作場所人士之間的戀情」與本句語境不同。",
-        "romance-mcq-06": "「秘密／受到社會或其他限制的戀情」與本句語境不同。"
+        "romance-mcq-03": "本句的「romance」指「發展非常快速而強烈的戀情」。",
+        "romance-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "romance-mcq-03"
     },
@@ -550,11 +534,7 @@ export default {
       "masked": "They still try to keep the ____ alive.",
       "options": [
         "romance-mcq-08",
-        "romance-mcq-07",
-        "romance-mcq-09",
-        "romance-mcq-06",
-        "romance-mcq-10",
-        "romance-mcq-05"
+        "romance-mcq-03"
       ],
       "explanation": "本句的「romance」指「維持伴侶關係中的浪漫感」。",
       "sentenceIndex": 6,
@@ -563,12 +543,8 @@ export default {
         "romance"
       ],
       "optionReasons": {
-        "romance-mcq-08": "本句指「維持伴侶關係中的浪漫感」。",
-        "romance-mcq-07": "「戀愛中的浪漫感、愛情氣氛」與本句語境不同。",
-        "romance-mcq-09": "「X 所帶來的理想化、迷人、富想像力的魅力」與本句語境不同。",
-        "romance-mcq-06": "「秘密／受到社會或其他限制的戀情」與本句語境不同。",
-        "romance-mcq-10": "「把某生活方式看得過分美好的一種浪漫幻想」與本句語境不同。",
-        "romance-mcq-05": "「同一工作場所人士之間的戀情」與本句語境不同。"
+        "romance-mcq-08": "本句的「romance」指「維持伴侶關係中的浪漫感」。",
+        "romance-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "romance-mcq-08"
     },
@@ -580,11 +556,7 @@ export default {
       "masked": "Forget the ____ for a moment and look at the numbers.",
       "options": [
         "romance-mcq-10",
-        "romance-mcq-09",
-        "romance-mcq-11",
-        "romance-mcq-08",
-        "romance-mcq-12",
-        "romance-mcq-07"
+        "romance-mcq-03"
       ],
       "explanation": "本句的「romance」指「把某生活方式看得過分美好的一種浪漫幻想」。",
       "sentenceIndex": 9,
@@ -593,12 +565,8 @@ export default {
         "romance"
       ],
       "optionReasons": {
-        "romance-mcq-10": "本句指「把某生活方式看得過分美好的一種浪漫幻想」。",
-        "romance-mcq-09": "「X 所帶來的理想化、迷人、富想像力的魅力」與本句語境不同。",
-        "romance-mcq-11": "「以浪漫愛情關係為主要故事核心的小說／文類」與本句語境不同。",
-        "romance-mcq-08": "「維持伴侶關係中的浪漫感」與本句語境不同。",
-        "romance-mcq-12": "「以歷史時代為背景的愛情小說」與本句語境不同。",
-        "romance-mcq-07": "「戀愛中的浪漫感、愛情氣氛」與本句語境不同。"
+        "romance-mcq-10": "本句的「romance」指「把某生活方式看得過分美好的一種浪漫幻想」。",
+        "romance-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "romance-mcq-10"
     },
@@ -610,11 +578,7 @@ export default {
       "masked": "It's a ____ set in nineteenth-century France.",
       "options": [
         "romance-mcq-01",
-        "romance-mcq-02",
-        "romance-mcq-03",
-        "romance-mcq-04",
-        "romance-mcq-05",
-        "romance-mcq-06"
+        "romance-mcq-10"
       ],
       "explanation": "本句的「romance」指「一段帶有愛情／戀愛性質的關係；戀情」。",
       "sentenceIndex": 10,
@@ -623,12 +587,8 @@ export default {
         "romance"
       ],
       "optionReasons": {
-        "romance-mcq-01": "本句指「一段帶有愛情／戀愛性質的關係；戀情」。",
-        "romance-mcq-02": "「與 X 發展一段戀情」與本句語境不同。",
-        "romance-mcq-03": "「發展非常快速而強烈的戀情」與本句語境不同。",
-        "romance-mcq-04": "「夏日／旅行期間發展的短期戀情」與本句語境不同。",
-        "romance-mcq-05": "「同一工作場所人士之間的戀情」與本句語境不同。",
-        "romance-mcq-06": "「秘密／受到社會或其他限制的戀情」與本句語境不同。"
+        "romance-mcq-01": "本句的「romance」指「一段帶有愛情／戀愛性質的關係；戀情」。",
+        "romance-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "romance-mcq-01"
     },
@@ -640,11 +600,7 @@ export default {
       "masked": "She writes ____ novels.",
       "options": [
         "romance-mcq-11",
-        "romance-mcq-10",
-        "romance-mcq-12",
-        "romance-mcq-09",
-        "romance-mcq-13",
-        "romance-mcq-08"
+        "romance-mcq-03"
       ],
       "explanation": "本句的「romance」指「以浪漫愛情關係為主要故事核心的小說／文類」。",
       "sentenceIndex": 11,
@@ -653,12 +609,8 @@ export default {
         "romance"
       ],
       "optionReasons": {
-        "romance-mcq-11": "本句指「以浪漫愛情關係為主要故事核心的小說／文類」。",
-        "romance-mcq-10": "「把某生活方式看得過分美好的一種浪漫幻想」與本句語境不同。",
-        "romance-mcq-12": "「以歷史時代為背景的愛情小說」與本句語境不同。",
-        "romance-mcq-09": "「X 所帶來的理想化、迷人、富想像力的魅力」與本句語境不同。",
-        "romance-mcq-13": "「以愛情發展配合喜劇元素的愛情喜劇」與本句語境不同。",
-        "romance-mcq-08": "「維持伴侶關係中的浪漫感」與本句語境不同。"
+        "romance-mcq-11": "本句的「romance」指「以浪漫愛情關係為主要故事核心的小說／文類」。",
+        "romance-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "romance-mcq-11"
     }
@@ -670,5 +622,7 @@ export default {
     "sha256": "4654c9c6b5bd6c80b49fce60098188391e7d4d815e40c1d76c975c419f2d443a",
     "pages": 40
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -147,11 +147,8 @@ export default {
       "masked": "I was on ____ with my family in Okinawa.",
       "options": [
         "holiday-mcq-01",
-        "holiday-mcq-02",
-        "holiday-mcq-03",
-        "holiday-mcq-04",
         "holiday-mcq-05",
-        "holiday-mcq-06"
+        "holiday-mcq-03"
       ],
       "explanation": "本句的「holiday」指「離開日常工作或學業去休息、旅行或娛樂的一段假期」。",
       "sentenceIndex": 0,
@@ -160,12 +157,9 @@ export default {
         "holiday"
       ],
       "optionReasons": {
-        "holiday-mcq-01": "本句指「離開日常工作或學業去休息、旅行或娛樂的一段假期」。",
-        "holiday-mcq-02": "「因法定、宗教、紀念或公共原因而不用正常上班／上課的特定日子」與本句語境不同。",
-        "holiday-mcq-03": "「具有宗教、文化或社會意義的節日；美式英語尤其常見」與本句語境不同。",
-        "holiday-mcq-04": "「學校停止上課的一段假期；可併入 vacation-period 義」與本句語境不同。",
-        "holiday-mcq-05": "「在某地度假；較英式」與本句語境不同。",
-        "holiday-mcq-06": "「正在度假的旅客／度假人士」與本句語境不同。"
+        "holiday-mcq-01": "本句的「holiday」指「離開日常工作或學業去休息、旅行或娛樂的一段假期」。",
+        "holiday-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "holiday-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "holiday-mcq-01"
     },
@@ -177,11 +171,8 @@ export default {
       "masked": "We’re going on ____ next month.",
       "options": [
         "holiday-mcq-01",
-        "holiday-mcq-02",
-        "holiday-mcq-03",
-        "holiday-mcq-04",
         "holiday-mcq-05",
-        "holiday-mcq-06"
+        "holiday-mcq-03"
       ],
       "explanation": "本句的「holiday」指「離開日常工作或學業去休息、旅行或娛樂的一段假期」。",
       "sentenceIndex": 1,
@@ -190,12 +181,9 @@ export default {
         "holiday"
       ],
       "optionReasons": {
-        "holiday-mcq-01": "本句指「離開日常工作或學業去休息、旅行或娛樂的一段假期」。",
-        "holiday-mcq-02": "「因法定、宗教、紀念或公共原因而不用正常上班／上課的特定日子」與本句語境不同。",
-        "holiday-mcq-03": "「具有宗教、文化或社會意義的節日；美式英語尤其常見」與本句語境不同。",
-        "holiday-mcq-04": "「學校停止上課的一段假期；可併入 vacation-period 義」與本句語境不同。",
-        "holiday-mcq-05": "「在某地度假；較英式」與本句語境不同。",
-        "holiday-mcq-06": "「正在度假的旅客／度假人士」與本句語境不同。"
+        "holiday-mcq-01": "本句的「holiday」指「離開日常工作或學業去休息、旅行或娛樂的一段假期」。",
+        "holiday-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "holiday-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "holiday-mcq-01"
     },
@@ -207,11 +195,8 @@ export default {
       "masked": "She spent the summer ____ by the sea.",
       "options": [
         "holiday-mcq-01",
-        "holiday-mcq-02",
-        "holiday-mcq-03",
-        "holiday-mcq-04",
         "holiday-mcq-05",
-        "holiday-mcq-06"
+        "holiday-mcq-03"
       ],
       "explanation": "本句的「holiday」指「離開日常工作或學業去休息、旅行或娛樂的一段假期」。",
       "sentenceIndex": 2,
@@ -220,12 +205,9 @@ export default {
         "holiday"
       ],
       "optionReasons": {
-        "holiday-mcq-01": "本句指「離開日常工作或學業去休息、旅行或娛樂的一段假期」。",
-        "holiday-mcq-02": "「因法定、宗教、紀念或公共原因而不用正常上班／上課的特定日子」與本句語境不同。",
-        "holiday-mcq-03": "「具有宗教、文化或社會意義的節日；美式英語尤其常見」與本句語境不同。",
-        "holiday-mcq-04": "「學校停止上課的一段假期；可併入 vacation-period 義」與本句語境不同。",
-        "holiday-mcq-05": "「在某地度假；較英式」與本句語境不同。",
-        "holiday-mcq-06": "「正在度假的旅客／度假人士」與本句語境不同。"
+        "holiday-mcq-01": "本句的「holiday」指「離開日常工作或學業去休息、旅行或娛樂的一段假期」。",
+        "holiday-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "holiday-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "holiday-mcq-01"
     },
@@ -237,11 +219,7 @@ export default {
       "masked": "Monday is a public ____.",
       "options": [
         "holiday-mcq-02",
-        "holiday-mcq-01",
-        "holiday-mcq-03",
-        "holiday-mcq-04",
-        "holiday-mcq-05",
-        "holiday-mcq-06"
+        "holiday-mcq-05"
       ],
       "explanation": "本句的「holiday」指「因法定、宗教、紀念或公共原因而不用正常上班／上課的特定日子」。",
       "sentenceIndex": 3,
@@ -250,12 +228,8 @@ export default {
         "holiday"
       ],
       "optionReasons": {
-        "holiday-mcq-02": "本句指「因法定、宗教、紀念或公共原因而不用正常上班／上課的特定日子」。",
-        "holiday-mcq-01": "「離開日常工作或學業去休息、旅行或娛樂的一段假期」與本句語境不同。",
-        "holiday-mcq-03": "「具有宗教、文化或社會意義的節日；美式英語尤其常見」與本句語境不同。",
-        "holiday-mcq-04": "「學校停止上課的一段假期；可併入 vacation-period 義」與本句語境不同。",
-        "holiday-mcq-05": "「在某地度假；較英式」與本句語境不同。",
-        "holiday-mcq-06": "「正在度假的旅客／度假人士」與本句語境不同。"
+        "holiday-mcq-02": "本句的「holiday」指「因法定、宗教、紀念或公共原因而不用正常上班／上課的特定日子」。",
+        "holiday-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "holiday-mcq-02"
     },
@@ -267,11 +241,7 @@ export default {
       "masked": "Banks are closed on national ____.",
       "options": [
         "holiday-mcq-02",
-        "holiday-mcq-01",
-        "holiday-mcq-03",
-        "holiday-mcq-04",
-        "holiday-mcq-05",
-        "holiday-mcq-06"
+        "holiday-mcq-05"
       ],
       "explanation": "本句的「holidays」指「因法定、宗教、紀念或公共原因而不用正常上班／上課的特定日子」。",
       "sentenceIndex": 4,
@@ -280,12 +250,8 @@ export default {
         "holidays"
       ],
       "optionReasons": {
-        "holiday-mcq-02": "本句指「因法定、宗教、紀念或公共原因而不用正常上班／上課的特定日子」。",
-        "holiday-mcq-01": "「離開日常工作或學業去休息、旅行或娛樂的一段假期」與本句語境不同。",
-        "holiday-mcq-03": "「具有宗教、文化或社會意義的節日；美式英語尤其常見」與本句語境不同。",
-        "holiday-mcq-04": "「學校停止上課的一段假期；可併入 vacation-period 義」與本句語境不同。",
-        "holiday-mcq-05": "「在某地度假；較英式」與本句語境不同。",
-        "holiday-mcq-06": "「正在度假的旅客／度假人士」與本句語境不同。"
+        "holiday-mcq-02": "本句的「holidays」指「因法定、宗教、紀念或公共原因而不用正常上班／上課的特定日子」。",
+        "holiday-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "holiday-mcq-02"
     },
@@ -297,11 +263,8 @@ export default {
       "masked": "Christmas is an important ____ for many families.",
       "options": [
         "holiday-mcq-03",
-        "holiday-mcq-02",
-        "holiday-mcq-04",
-        "holiday-mcq-01",
-        "holiday-mcq-05",
-        "holiday-mcq-06"
+        "holiday-mcq-06",
+        "holiday-mcq-04"
       ],
       "explanation": "本句的「holiday」指「具有宗教、文化或社會意義的節日；美式英語尤其常見」。",
       "sentenceIndex": 5,
@@ -310,12 +273,9 @@ export default {
         "holiday"
       ],
       "optionReasons": {
-        "holiday-mcq-03": "本句指「具有宗教、文化或社會意義的節日；美式英語尤其常見」。",
-        "holiday-mcq-02": "「因法定、宗教、紀念或公共原因而不用正常上班／上課的特定日子」與本句語境不同。",
-        "holiday-mcq-04": "「學校停止上課的一段假期；可併入 vacation-period 義」與本句語境不同。",
-        "holiday-mcq-01": "「離開日常工作或學業去休息、旅行或娛樂的一段假期」與本句語境不同。",
-        "holiday-mcq-05": "「在某地度假；較英式」與本句語境不同。",
-        "holiday-mcq-06": "「正在度假的旅客／度假人士」與本句語境不同。"
+        "holiday-mcq-03": "本句的「holiday」指「具有宗教、文化或社會意義的節日；美式英語尤其常見」。",
+        "holiday-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "holiday-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "holiday-mcq-03"
     },
@@ -327,11 +287,8 @@ export default {
       "masked": "People travel a lot during the ____ season.",
       "options": [
         "holiday-mcq-03",
-        "holiday-mcq-02",
-        "holiday-mcq-04",
-        "holiday-mcq-01",
-        "holiday-mcq-05",
-        "holiday-mcq-06"
+        "holiday-mcq-06",
+        "holiday-mcq-04"
       ],
       "explanation": "本句的「holiday」指「具有宗教、文化或社會意義的節日；美式英語尤其常見」。",
       "sentenceIndex": 6,
@@ -340,12 +297,9 @@ export default {
         "holiday"
       ],
       "optionReasons": {
-        "holiday-mcq-03": "本句指「具有宗教、文化或社會意義的節日；美式英語尤其常見」。",
-        "holiday-mcq-02": "「因法定、宗教、紀念或公共原因而不用正常上班／上課的特定日子」與本句語境不同。",
-        "holiday-mcq-04": "「學校停止上課的一段假期；可併入 vacation-period 義」與本句語境不同。",
-        "holiday-mcq-01": "「離開日常工作或學業去休息、旅行或娛樂的一段假期」與本句語境不同。",
-        "holiday-mcq-05": "「在某地度假；較英式」與本句語境不同。",
-        "holiday-mcq-06": "「正在度假的旅客／度假人士」與本句語境不同。"
+        "holiday-mcq-03": "本句的「holiday」指「具有宗教、文化或社會意義的節日；美式英語尤其常見」。",
+        "holiday-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "holiday-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "holiday-mcq-03"
     },
@@ -357,11 +311,8 @@ export default {
       "masked": "The children are on school ____.",
       "options": [
         "holiday-mcq-04",
-        "holiday-mcq-03",
-        "holiday-mcq-05",
-        "holiday-mcq-02",
         "holiday-mcq-06",
-        "holiday-mcq-01"
+        "holiday-mcq-03"
       ],
       "explanation": "本句的「holiday」指「學校停止上課的一段假期；可併入 vacation-period 義」。",
       "sentenceIndex": 7,
@@ -370,12 +321,9 @@ export default {
         "holiday"
       ],
       "optionReasons": {
-        "holiday-mcq-04": "本句指「學校停止上課的一段假期；可併入 vacation-period 義」。",
-        "holiday-mcq-03": "「具有宗教、文化或社會意義的節日；美式英語尤其常見」與本句語境不同。",
-        "holiday-mcq-05": "「在某地度假；較英式」與本句語境不同。",
-        "holiday-mcq-02": "「因法定、宗教、紀念或公共原因而不用正常上班／上課的特定日子」與本句語境不同。",
-        "holiday-mcq-06": "「正在度假的旅客／度假人士」與本句語境不同。",
-        "holiday-mcq-01": "「離開日常工作或學業去休息、旅行或娛樂的一段假期」與本句語境不同。"
+        "holiday-mcq-04": "本句的「holiday」指「學校停止上課的一段假期；可併入 vacation-period 義」。",
+        "holiday-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "holiday-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "holiday-mcq-04"
     },
@@ -387,11 +335,8 @@ export default {
       "masked": "The Easter ____ begin next week.",
       "options": [
         "holiday-mcq-04",
-        "holiday-mcq-03",
-        "holiday-mcq-05",
-        "holiday-mcq-02",
         "holiday-mcq-06",
-        "holiday-mcq-01"
+        "holiday-mcq-03"
       ],
       "explanation": "本句的「holidays」指「學校停止上課的一段假期；可併入 vacation-period 義」。",
       "sentenceIndex": 8,
@@ -400,12 +345,9 @@ export default {
         "holidays"
       ],
       "optionReasons": {
-        "holiday-mcq-04": "本句指「學校停止上課的一段假期；可併入 vacation-period 義」。",
-        "holiday-mcq-03": "「具有宗教、文化或社會意義的節日；美式英語尤其常見」與本句語境不同。",
-        "holiday-mcq-05": "「在某地度假；較英式」與本句語境不同。",
-        "holiday-mcq-02": "「因法定、宗教、紀念或公共原因而不用正常上班／上課的特定日子」與本句語境不同。",
-        "holiday-mcq-06": "「正在度假的旅客／度假人士」與本句語境不同。",
-        "holiday-mcq-01": "「離開日常工作或學業去休息、旅行或娛樂的一段假期」與本句語境不同。"
+        "holiday-mcq-04": "本句的「holidays」指「學校停止上課的一段假期；可併入 vacation-period 義」。",
+        "holiday-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "holiday-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "holiday-mcq-04"
     },
@@ -417,11 +359,7 @@ export default {
       "masked": "They ____ in Spain last summer.",
       "options": [
         "holiday-mcq-05",
-        "holiday-mcq-04",
-        "holiday-mcq-06",
-        "holiday-mcq-03",
-        "holiday-mcq-02",
-        "holiday-mcq-01"
+        "holiday-mcq-02"
       ],
       "explanation": "本句的「holidayed」指「在某地度假；較英式」。",
       "sentenceIndex": 9,
@@ -430,12 +368,8 @@ export default {
         "holidayed"
       ],
       "optionReasons": {
-        "holiday-mcq-05": "本句指「在某地度假；較英式」。",
-        "holiday-mcq-04": "「學校停止上課的一段假期；可併入 vacation-period 義」與本句語境不同。",
-        "holiday-mcq-06": "「正在度假的旅客／度假人士」與本句語境不同。",
-        "holiday-mcq-03": "「具有宗教、文化或社會意義的節日；美式英語尤其常見」與本句語境不同。",
-        "holiday-mcq-02": "「因法定、宗教、紀念或公共原因而不用正常上班／上課的特定日子」與本句語境不同。",
-        "holiday-mcq-01": "「離開日常工作或學業去休息、旅行或娛樂的一段假期」與本句語境不同。"
+        "holiday-mcq-05": "本句的「holidayed」指「在某地度假；較英式」。",
+        "holiday-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "holiday-mcq-05"
     },
@@ -447,11 +381,7 @@ export default {
       "masked": "The family often ____ by the coast.",
       "options": [
         "holiday-mcq-05",
-        "holiday-mcq-04",
-        "holiday-mcq-06",
-        "holiday-mcq-03",
-        "holiday-mcq-02",
-        "holiday-mcq-01"
+        "holiday-mcq-02"
       ],
       "explanation": "本句的「holidays」指「在某地度假；較英式」。",
       "sentenceIndex": 10,
@@ -460,12 +390,8 @@ export default {
         "holidays"
       ],
       "optionReasons": {
-        "holiday-mcq-05": "本句指「在某地度假；較英式」。",
-        "holiday-mcq-04": "「學校停止上課的一段假期；可併入 vacation-period 義」與本句語境不同。",
-        "holiday-mcq-06": "「正在度假的旅客／度假人士」與本句語境不同。",
-        "holiday-mcq-03": "「具有宗教、文化或社會意義的節日；美式英語尤其常見」與本句語境不同。",
-        "holiday-mcq-02": "「因法定、宗教、紀念或公共原因而不用正常上班／上課的特定日子」與本句語境不同。",
-        "holiday-mcq-01": "「離開日常工作或學業去休息、旅行或娛樂的一段假期」與本句語境不同。"
+        "holiday-mcq-05": "本句的「holidays」指「在某地度假；較英式」。",
+        "holiday-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "holiday-mcq-05"
     },
@@ -477,11 +403,8 @@ export default {
       "masked": "The beach was crowded with ____.",
       "options": [
         "holiday-mcq-06",
-        "holiday-mcq-05",
-        "holiday-mcq-04",
         "holiday-mcq-03",
-        "holiday-mcq-02",
-        "holiday-mcq-01"
+        "holiday-mcq-04"
       ],
       "explanation": "本句的「holidaymakers」指「正在度假的旅客／度假人士」。",
       "sentenceIndex": 11,
@@ -490,12 +413,9 @@ export default {
         "holidaymakers"
       ],
       "optionReasons": {
-        "holiday-mcq-06": "本句指「正在度假的旅客／度假人士」。",
-        "holiday-mcq-05": "「在某地度假；較英式」與本句語境不同。",
-        "holiday-mcq-04": "「學校停止上課的一段假期；可併入 vacation-period 義」與本句語境不同。",
-        "holiday-mcq-03": "「具有宗教、文化或社會意義的節日；美式英語尤其常見」與本句語境不同。",
-        "holiday-mcq-02": "「因法定、宗教、紀念或公共原因而不用正常上班／上課的特定日子」與本句語境不同。",
-        "holiday-mcq-01": "「離開日常工作或學業去休息、旅行或娛樂的一段假期」與本句語境不同。"
+        "holiday-mcq-06": "本句的「holidaymakers」指「正在度假的旅客／度假人士」。",
+        "holiday-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "holiday-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "holiday-mcq-06"
     }
@@ -507,5 +427,7 @@ export default {
     "sha256": "1e6525864642a334ac9ee340f2072c019659c886a5dcaa8f12e93cfa62fad743",
     "pages": 7
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

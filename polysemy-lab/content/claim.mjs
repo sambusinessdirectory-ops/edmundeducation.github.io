@@ -158,7 +158,7 @@ export default {
     },
     {
       "id": "claim-mcq-07",
-      "title": "表示自己對某物擁有合法權利／所有權",
+      "title": "自己對某物擁有合法權利／所有權",
       "form": "claim ownership/right",
       "en": "claim ownership/right",
       "zh": "表示自己對某物擁有合法權利／所有權",
@@ -288,7 +288,7 @@ export default {
     },
     {
       "id": "claim-mcq-12",
-      "title": "表示某項成果應歸功於自己",
+      "title": "某項成果應歸功於自己",
       "form": "claim credit",
       "en": "claim credit",
       "zh": "表示某項成果應歸功於自己",
@@ -433,11 +433,9 @@ export default {
       "masked": "Another person ____ the video was embarrassing.",
       "options": [
         "claim-pdf-001",
-        "claim-mcq-02",
-        "claim-mcq-03",
-        "claim-mcq-04",
-        "claim-mcq-05",
-        "claim-mcq-06"
+        "claim-mcq-06",
+        "claim-pdf-004",
+        "claim-mcq-12"
       ],
       "explanation": "本句的「claimed」指「明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時」。",
       "sentenceIndex": 0,
@@ -446,12 +444,10 @@ export default {
         "claimed"
       ],
       "optionReasons": {
-        "claim-pdf-001": "本句指「明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時」。",
-        "claim-mcq-02": "「聲稱某事為真」與本句語境不同。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。"
+        "claim-pdf-001": "本句的「claimed」指「明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時」。",
+        "claim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-pdf-001"
     },
@@ -463,11 +459,9 @@ export default {
       "masked": "He ____ that he had never seen the message.",
       "options": [
         "claim-pdf-001",
-        "claim-mcq-02",
+        "claim-mcq-06",
         "claim-mcq-03",
-        "claim-mcq-04",
-        "claim-mcq-05",
-        "claim-mcq-06"
+        "claim-pdf-004"
       ],
       "explanation": "本句的「claimed」指「明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時」。",
       "sentenceIndex": 1,
@@ -476,12 +470,10 @@ export default {
         "claimed"
       ],
       "optionReasons": {
-        "claim-pdf-001": "本句指「明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時」。",
-        "claim-mcq-02": "「聲稱某事為真」與本句語境不同。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。"
+        "claim-pdf-001": "本句的「claimed」指「明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時」。",
+        "claim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-pdf-001"
     },
@@ -493,11 +485,9 @@ export default {
       "masked": "The company ____ its product is safer.",
       "options": [
         "claim-pdf-001",
-        "claim-mcq-02",
         "claim-mcq-03",
-        "claim-mcq-04",
         "claim-mcq-05",
-        "claim-mcq-06"
+        "claim-pdf-004"
       ],
       "explanation": "本句的「claims」指「明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時」。",
       "sentenceIndex": 2,
@@ -506,12 +496,10 @@ export default {
         "claims"
       ],
       "optionReasons": {
-        "claim-pdf-001": "本句指「明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時」。",
-        "claim-mcq-02": "「聲稱某事為真」與本句語境不同。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。"
+        "claim-pdf-001": "本句的「claims」指「明確表示某件事是真的，尤其當該說法可能受質疑或尚未完全證實時」。",
+        "claim-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-pdf-001"
     },
@@ -523,11 +511,9 @@ export default {
       "masked": "She ____ the account had been hacked.",
       "options": [
         "claim-mcq-02",
-        "claim-mcq-01",
-        "claim-mcq-03",
-        "claim-mcq-04",
-        "claim-mcq-05",
-        "claim-mcq-06"
+        "claim-pdf-004",
+        "claim-mcq-06",
+        "claim-mcq-09"
       ],
       "explanation": "本句的「claimed that」指「聲稱某事為真」。",
       "sentenceIndex": 3,
@@ -536,12 +522,10 @@ export default {
         "claimed that"
       ],
       "optionReasons": {
-        "claim-mcq-02": "本句指「聲稱某事為真」。",
-        "claim-mcq-01": "「把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑」與本句語境不同。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。"
+        "claim-mcq-02": "本句的「claimed that」指「聲稱某事為真」。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-02"
     },
@@ -553,11 +537,9 @@ export default {
       "masked": "They ____ that the new system is faster.",
       "options": [
         "claim-mcq-02",
-        "claim-mcq-01",
-        "claim-mcq-03",
-        "claim-mcq-04",
-        "claim-mcq-05",
-        "claim-mcq-06"
+        "claim-pdf-004",
+        "claim-mcq-08",
+        "claim-mcq-09"
       ],
       "explanation": "本句的「claim」指「聲稱某事為真」。",
       "sentenceIndex": 4,
@@ -566,12 +548,10 @@ export default {
         "claim"
       ],
       "optionReasons": {
-        "claim-mcq-02": "本句指「聲稱某事為真」。",
-        "claim-mcq-01": "「把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑」與本句語境不同。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。"
+        "claim-mcq-02": "本句的「claim」指「聲稱某事為真」。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-02"
     },
@@ -583,11 +563,9 @@ export default {
       "masked": "He ____ the answer.",
       "options": [
         "claim-mcq-03",
-        "claim-mcq-02",
+        "claim-pdf-002",
         "claim-mcq-04",
-        "claim-mcq-01",
-        "claim-mcq-05",
-        "claim-mcq-06"
+        "claim-mcq-10"
       ],
       "explanation": "本句的「claimed to know」指「聲稱自己具有某能力／身分或做過某事」。",
       "sentenceIndex": 5,
@@ -596,12 +574,10 @@ export default {
         "claimed to know"
       ],
       "optionReasons": {
-        "claim-mcq-03": "本句指「聲稱自己具有某能力／身分或做過某事」。",
-        "claim-mcq-02": "「聲稱某事為真」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
-        "claim-mcq-01": "「把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。"
+        "claim-mcq-03": "本句的「claimed to know」指「聲稱自己具有某能力／身分或做過某事」。",
+        "claim-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-03"
     },
@@ -613,11 +589,9 @@ export default {
       "masked": "The website ____ to offer free advice.",
       "options": [
         "claim-mcq-03",
-        "claim-mcq-02",
         "claim-mcq-04",
-        "claim-mcq-01",
-        "claim-mcq-05",
-        "claim-mcq-06"
+        "claim-pdf-004",
+        "claim-mcq-09"
       ],
       "explanation": "本句的「claims」指「聲稱自己具有某能力／身分或做過某事」。",
       "sentenceIndex": 6,
@@ -626,12 +600,10 @@ export default {
         "claims"
       ],
       "optionReasons": {
-        "claim-mcq-03": "本句指「聲稱自己具有某能力／身分或做過某事」。",
-        "claim-mcq-02": "「聲稱某事為真」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
-        "claim-mcq-01": "「把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。"
+        "claim-mcq-03": "本句的「claims」指「聲稱自己具有某能力／身分或做過某事」。",
+        "claim-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-03"
     },
@@ -643,11 +615,9 @@ export default {
       "masked": "There is little evidence to support the ____.",
       "options": [
         "claim-mcq-04",
-        "claim-mcq-03",
-        "claim-mcq-05",
-        "claim-mcq-02",
-        "claim-mcq-06",
-        "claim-mcq-01"
+        "claim-mcq-09",
+        "claim-mcq-11",
+        "claim-mcq-10"
       ],
       "explanation": "本句的「claim」指「被提出並當作真實、但可能需要證據支持的說法／主張」。",
       "sentenceIndex": 7,
@@ -656,12 +626,10 @@ export default {
         "claim"
       ],
       "optionReasons": {
-        "claim-mcq-04": "本句指「被提出並當作真實、但可能需要證據支持的說法／主張」。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-02": "「聲稱某事為真」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。",
-        "claim-mcq-01": "「把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑」與本句語境不同。"
+        "claim-mcq-04": "本句的「claim」指「被提出並當作真實、但可能需要證據支持的說法／主張」。",
+        "claim-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-04"
     },
@@ -673,11 +641,9 @@ export default {
       "masked": "His ____ was widely questioned.",
       "options": [
         "claim-mcq-04",
-        "claim-mcq-03",
-        "claim-mcq-05",
-        "claim-mcq-02",
-        "claim-mcq-06",
-        "claim-mcq-01"
+        "claim-mcq-11",
+        "claim-mcq-09",
+        "claim-mcq-10"
       ],
       "explanation": "本句的「claim」指「被提出並當作真實、但可能需要證據支持的說法／主張」。",
       "sentenceIndex": 8,
@@ -686,12 +652,10 @@ export default {
         "claim"
       ],
       "optionReasons": {
-        "claim-mcq-04": "本句指「被提出並當作真實、但可能需要證據支持的說法／主張」。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-02": "「聲稱某事為真」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。",
-        "claim-mcq-01": "「把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑」與本句語境不同。"
+        "claim-mcq-04": "本句的「claim」指「被提出並當作真實、但可能需要證據支持的說法／主張」。",
+        "claim-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-04"
     },
@@ -703,11 +667,9 @@ export default {
       "masked": "The article makes several strong ____.",
       "options": [
         "claim-mcq-04",
-        "claim-mcq-03",
-        "claim-mcq-05",
-        "claim-mcq-02",
-        "claim-mcq-06",
-        "claim-mcq-01"
+        "claim-mcq-12",
+        "claim-pdf-004",
+        "claim-mcq-05"
       ],
       "explanation": "本句的「claims」指「被提出並當作真實、但可能需要證據支持的說法／主張」。",
       "sentenceIndex": 9,
@@ -716,12 +678,10 @@ export default {
         "claims"
       ],
       "optionReasons": {
-        "claim-mcq-04": "本句指「被提出並當作真實、但可能需要證據支持的說法／主張」。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-02": "「聲稱某事為真」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。",
-        "claim-mcq-01": "「把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑」與本句語境不同。"
+        "claim-mcq-04": "本句的「claims」指「被提出並當作真實、但可能需要證據支持的說法／主張」。",
+        "claim-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-04"
     },
@@ -733,11 +693,9 @@ export default {
       "masked": "You need evidence before making that ____.",
       "options": [
         "claim-mcq-04",
+        "claim-mcq-10",
         "claim-mcq-03",
-        "claim-mcq-05",
-        "claim-mcq-02",
-        "claim-mcq-06",
-        "claim-mcq-01"
+        "claim-mcq-09"
       ],
       "explanation": "本句的「claim」指「被提出並當作真實、但可能需要證據支持的說法／主張」。",
       "sentenceIndex": 10,
@@ -746,12 +704,10 @@ export default {
         "claim"
       ],
       "optionReasons": {
-        "claim-mcq-04": "本句指「被提出並當作真實、但可能需要證據支持的說法／主張」。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-02": "「聲稱某事為真」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。",
-        "claim-mcq-01": "「把某個說法提出為真實，但其真實性可能仍需證明／可能受質疑」與本句語境不同。"
+        "claim-mcq-04": "本句的「claim」指「被提出並當作真實、但可能需要證據支持的說法／主張」。",
+        "claim-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-04"
     },
@@ -763,11 +719,9 @@ export default {
       "masked": "You can ____ a refund.",
       "options": [
         "claim-mcq-05",
-        "claim-mcq-04",
-        "claim-mcq-06",
-        "claim-mcq-03",
-        "claim-mcq-07",
-        "claim-mcq-02"
+        "claim-mcq-12",
+        "claim-mcq-02",
+        "claim-pdf-004"
       ],
       "explanation": "本句的「claim」指「根據資格、規則或權利要求取得某物」。",
       "sentenceIndex": 11,
@@ -776,12 +730,10 @@ export default {
         "claim"
       ],
       "optionReasons": {
-        "claim-mcq-05": "本句指「根據資格、規則或權利要求取得某物」。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
-        "claim-mcq-02": "「聲稱某事為真」與本句語境不同。"
+        "claim-mcq-05": "本句的「claim」指「根據資格、規則或權利要求取得某物」。",
+        "claim-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-05"
     },
@@ -793,11 +745,9 @@ export default {
       "masked": "Employees may ____ travel expenses.",
       "options": [
         "claim-mcq-05",
-        "claim-mcq-04",
-        "claim-mcq-06",
-        "claim-mcq-03",
-        "claim-mcq-07",
-        "claim-mcq-02"
+        "claim-pdf-004",
+        "claim-mcq-02",
+        "claim-mcq-12"
       ],
       "explanation": "本句的「claim」指「根據資格、規則或權利要求取得某物」。",
       "sentenceIndex": 12,
@@ -806,12 +756,10 @@ export default {
         "claim"
       ],
       "optionReasons": {
-        "claim-mcq-05": "本句指「根據資格、規則或權利要求取得某物」。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
-        "claim-mcq-02": "「聲稱某事為真」與本句語境不同。"
+        "claim-mcq-05": "本句的「claim」指「根據資格、規則或權利要求取得某物」。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-05"
     },
@@ -823,11 +771,9 @@ export default {
       "masked": "She submitted an insurance ____.",
       "options": [
         "claim-mcq-06",
-        "claim-mcq-05",
-        "claim-mcq-07",
-        "claim-mcq-04",
-        "claim-mcq-08",
-        "claim-mcq-03"
+        "claim-pdf-003",
+        "claim-mcq-02",
+        "claim-pdf-004"
       ],
       "explanation": "本句的「claim」指「正式提出的索償、福利或金錢申領要求」。",
       "sentenceIndex": 13,
@@ -836,12 +782,10 @@ export default {
         "claim"
       ],
       "optionReasons": {
-        "claim-mcq-06": "本句指「正式提出的索償、福利或金錢申領要求」。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。"
+        "claim-mcq-06": "本句的「claim」指「正式提出的索償、福利或金錢申領要求」。",
+        "claim-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-06"
     },
@@ -853,11 +797,9 @@ export default {
       "masked": "The ____ was approved.",
       "options": [
         "claim-mcq-06",
-        "claim-mcq-05",
-        "claim-mcq-07",
-        "claim-mcq-04",
-        "claim-mcq-08",
-        "claim-mcq-03"
+        "claim-mcq-03",
+        "claim-pdf-004",
+        "claim-pdf-001"
       ],
       "explanation": "本句的「claim」指「正式提出的索償、福利或金錢申領要求」。",
       "sentenceIndex": 14,
@@ -866,12 +808,10 @@ export default {
         "claim"
       ],
       "optionReasons": {
-        "claim-mcq-06": "本句指「正式提出的索償、福利或金錢申領要求」。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。"
+        "claim-mcq-06": "本句的「claim」指「正式提出的索償、福利或金錢申領要求」。",
+        "claim-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-06"
     },
@@ -883,11 +823,9 @@ export default {
       "masked": "He made an ____ after the accident.",
       "options": [
         "claim-mcq-06",
-        "claim-mcq-05",
-        "claim-mcq-07",
-        "claim-mcq-04",
-        "claim-mcq-08",
-        "claim-mcq-03"
+        "claim-mcq-10",
+        "claim-mcq-09",
+        "claim-mcq-02"
       ],
       "explanation": "本句的「insurance claim」指「正式提出的索償、福利或金錢申領要求」。",
       "sentenceIndex": 15,
@@ -896,12 +834,10 @@ export default {
         "insurance claim"
       ],
       "optionReasons": {
-        "claim-mcq-06": "本句指「正式提出的索償、福利或金錢申領要求」。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。"
+        "claim-mcq-06": "本句的「insurance claim」指「正式提出的索償、福利或金錢申領要求」。",
+        "claim-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-06"
     },
@@ -913,11 +849,9 @@ export default {
       "masked": "The insurer rejected the ____.",
       "options": [
         "claim-mcq-06",
-        "claim-mcq-05",
-        "claim-mcq-07",
-        "claim-mcq-04",
-        "claim-mcq-08",
-        "claim-mcq-03"
+        "claim-mcq-10",
+        "claim-mcq-03",
+        "claim-pdf-001"
       ],
       "explanation": "本句的「claim」指「正式提出的索償、福利或金錢申領要求」。",
       "sentenceIndex": 16,
@@ -926,12 +860,10 @@ export default {
         "claim"
       ],
       "optionReasons": {
-        "claim-mcq-06": "本句指「正式提出的索償、福利或金錢申領要求」。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。"
+        "claim-mcq-06": "本句的「claim」指「正式提出的索償、福利或金錢申領要求」。",
+        "claim-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-06"
     },
@@ -943,11 +875,9 @@ export default {
       "masked": "Passengers can ____ for long delays.",
       "options": [
         "claim-mcq-06",
-        "claim-mcq-05",
-        "claim-mcq-07",
-        "claim-mcq-04",
-        "claim-mcq-08",
-        "claim-mcq-03"
+        "claim-pdf-003",
+        "claim-pdf-001",
+        "claim-pdf-004"
       ],
       "explanation": "本句的「claim compensation」指「正式提出的索償、福利或金錢申領要求」。",
       "sentenceIndex": 17,
@@ -956,12 +886,10 @@ export default {
         "claim compensation"
       ],
       "optionReasons": {
-        "claim-mcq-06": "本句指「正式提出的索償、福利或金錢申領要求」。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。"
+        "claim-mcq-06": "本句的「claim compensation」指「正式提出的索償、福利或金錢申領要求」。",
+        "claim-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-06"
     },
@@ -973,11 +901,9 @@ export default {
       "masked": "She ____ compensation for the damage.",
       "options": [
         "claim-mcq-06",
-        "claim-mcq-05",
-        "claim-mcq-07",
-        "claim-mcq-04",
-        "claim-mcq-08",
-        "claim-mcq-03"
+        "claim-mcq-09",
+        "claim-mcq-11",
+        "claim-pdf-001"
       ],
       "explanation": "本句的「claimed」指「正式提出的索償、福利或金錢申領要求」。",
       "sentenceIndex": 18,
@@ -986,12 +912,10 @@ export default {
         "claimed"
       ],
       "optionReasons": {
-        "claim-mcq-06": "本句指「正式提出的索償、福利或金錢申領要求」。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。"
+        "claim-mcq-06": "本句的「claimed」指「正式提出的索償、福利或金錢申領要求」。",
+        "claim-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-06"
     },
@@ -1003,11 +927,9 @@ export default {
       "masked": "Eligible workers can ____.",
       "options": [
         "claim-pdf-002",
-        "claim-mcq-05",
-        "claim-mcq-07",
-        "claim-mcq-04",
-        "claim-mcq-08",
-        "claim-mcq-03"
+        "claim-mcq-02",
+        "claim-mcq-10",
+        "claim-mcq-12"
       ],
       "explanation": "本句的「claim benefits」指「按資格正式申領政府／機構提供的福利」。",
       "sentenceIndex": 19,
@@ -1016,12 +938,10 @@ export default {
         "claim benefits"
       ],
       "optionReasons": {
-        "claim-pdf-002": "本句指「按資格正式申領政府／機構提供的福利」。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。"
+        "claim-pdf-002": "本句的「claim benefits」指「按資格正式申領政府／機構提供的福利」。",
+        "claim-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-pdf-002"
     },
@@ -1033,11 +953,9 @@ export default {
       "masked": "He ____ unemployment benefit for several months.",
       "options": [
         "claim-pdf-002",
-        "claim-mcq-05",
-        "claim-mcq-07",
-        "claim-mcq-04",
-        "claim-mcq-08",
-        "claim-mcq-03"
+        "claim-pdf-001",
+        "claim-mcq-12",
+        "claim-mcq-10"
       ],
       "explanation": "本句的「claimed」指「按資格正式申領政府／機構提供的福利」。",
       "sentenceIndex": 20,
@@ -1046,12 +964,10 @@ export default {
         "claimed"
       ],
       "optionReasons": {
-        "claim-pdf-002": "本句指「按資格正式申領政府／機構提供的福利」。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-03": "「聲稱自己具有某能力／身分或做過某事」與本句語境不同。"
+        "claim-pdf-002": "本句的「claimed」指「按資格正式申領政府／機構提供的福利」。",
+        "claim-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-pdf-002"
     },
@@ -1063,11 +979,9 @@ export default {
       "masked": "Both sides ____ of the land.",
       "options": [
         "claim-mcq-07",
-        "claim-mcq-06",
-        "claim-mcq-08",
-        "claim-mcq-05",
         "claim-mcq-09",
-        "claim-mcq-04"
+        "claim-mcq-10",
+        "claim-mcq-02"
       ],
       "explanation": "本句的「claim ownership」指「表示自己對某物擁有合法權利／所有權」。",
       "sentenceIndex": 21,
@@ -1076,12 +990,10 @@ export default {
         "claim ownership"
       ],
       "optionReasons": {
-        "claim-mcq-07": "本句指「表示自己對某物擁有合法權利／所有權」。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。"
+        "claim-mcq-07": "本句的「claim ownership」指「表示自己對某物擁有合法權利／所有權」。",
+        "claim-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-07"
     },
@@ -1093,11 +1005,9 @@ export default {
       "masked": "She ____ the property as her own.",
       "options": [
         "claim-mcq-07",
-        "claim-mcq-06",
-        "claim-mcq-08",
-        "claim-mcq-05",
-        "claim-mcq-09",
-        "claim-mcq-04"
+        "claim-pdf-004",
+        "claim-mcq-02",
+        "claim-mcq-09"
       ],
       "explanation": "本句的「claimed」指「表示自己對某物擁有合法權利／所有權」。",
       "sentenceIndex": 22,
@@ -1106,12 +1016,10 @@ export default {
         "claimed"
       ],
       "optionReasons": {
-        "claim-mcq-07": "本句指「表示自己對某物擁有合法權利／所有權」。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。"
+        "claim-mcq-07": "本句的「claimed」指「表示自己對某物擁有合法權利／所有權」。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-07"
     },
@@ -1123,11 +1031,9 @@ export default {
       "masked": "He has no legal ____ to the property.",
       "options": [
         "claim-mcq-07",
-        "claim-mcq-06",
-        "claim-mcq-08",
-        "claim-mcq-05",
+        "claim-mcq-02",
         "claim-mcq-09",
-        "claim-mcq-04"
+        "claim-pdf-004"
       ],
       "explanation": "本句的「claim」指「表示自己對某物擁有合法權利／所有權」。",
       "sentenceIndex": 23,
@@ -1136,12 +1042,10 @@ export default {
         "claim"
       ],
       "optionReasons": {
-        "claim-mcq-07": "本句指「表示自己對某物擁有合法權利／所有權」。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。"
+        "claim-mcq-07": "本句的「claim」指「表示自己對某物擁有合法權利／所有權」。",
+        "claim-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-07"
     },
@@ -1153,11 +1057,9 @@ export default {
       "masked": "Several people made ____ to the inheritance.",
       "options": [
         "claim-mcq-07",
-        "claim-mcq-06",
-        "claim-mcq-08",
-        "claim-mcq-05",
         "claim-mcq-09",
-        "claim-mcq-04"
+        "claim-pdf-004",
+        "claim-mcq-02"
       ],
       "explanation": "本句的「claims」指「表示自己對某物擁有合法權利／所有權」。",
       "sentenceIndex": 24,
@@ -1166,12 +1068,10 @@ export default {
         "claims"
       ],
       "optionReasons": {
-        "claim-mcq-07": "本句指「表示自己對某物擁有合法權利／所有權」。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。"
+        "claim-mcq-07": "本句的「claims」指「表示自己對某物擁有合法權利／所有權」。",
+        "claim-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-07"
     },
@@ -1183,11 +1083,9 @@ export default {
       "masked": "Two families ____ the land.",
       "options": [
         "claim-pdf-003",
-        "claim-mcq-06",
-        "claim-mcq-08",
-        "claim-mcq-05",
-        "claim-mcq-09",
-        "claim-mcq-04"
+        "claim-pdf-002",
+        "claim-pdf-001",
+        "claim-mcq-10"
       ],
       "explanation": "本句的「laid claim to」指「公開主張自己有權擁有／代表／享有某物」。",
       "sentenceIndex": 25,
@@ -1196,12 +1094,10 @@ export default {
         "laid claim to"
       ],
       "optionReasons": {
-        "claim-pdf-003": "本句指「公開主張自己有權擁有／代表／享有某物」。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。"
+        "claim-pdf-003": "本句的「laid claim to」指「公開主張自己有權擁有／代表／享有某物」。",
+        "claim-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-pdf-003"
     },
@@ -1213,11 +1109,9 @@ export default {
       "masked": "Several cities lay ____ to being the birthplace of the dish.",
       "options": [
         "claim-pdf-003",
+        "claim-pdf-004",
         "claim-mcq-06",
-        "claim-mcq-08",
-        "claim-mcq-05",
-        "claim-mcq-09",
-        "claim-mcq-04"
+        "claim-pdf-001"
       ],
       "explanation": "本句的「claim」指「公開主張自己有權擁有／代表／享有某物」。",
       "sentenceIndex": 26,
@@ -1226,12 +1120,10 @@ export default {
         "claim"
       ],
       "optionReasons": {
-        "claim-pdf-003": "本句指「公開主張自己有權擁有／代表／享有某物」。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-04": "「被提出並當作真實、但可能需要證據支持的說法／主張」與本句語境不同。"
+        "claim-pdf-003": "本句的「claim」指「公開主張自己有權擁有／代表／享有某物」。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-pdf-003"
     },
@@ -1243,11 +1135,9 @@ export default {
       "masked": "Please ____ your luggage at the desk.",
       "options": [
         "claim-mcq-08",
-        "claim-mcq-07",
-        "claim-mcq-09",
-        "claim-mcq-06",
         "claim-mcq-10",
-        "claim-mcq-05"
+        "claim-mcq-02",
+        "claim-mcq-09"
       ],
       "explanation": "本句的「claim」指「正式確認某物屬於自己並領取」。",
       "sentenceIndex": 27,
@@ -1256,12 +1146,10 @@ export default {
         "claim"
       ],
       "optionReasons": {
-        "claim-mcq-08": "本句指「正式確認某物屬於自己並領取」。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。",
-        "claim-mcq-10": "「災難、疾病或事故造成死亡」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。"
+        "claim-mcq-08": "本句的「claim」指「正式確認某物屬於自己並領取」。",
+        "claim-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-08"
     },
@@ -1273,9 +1161,7 @@ export default {
       "masked": "The prize must be ____ within thirty days.",
       "options": [
         "claim-mcq-08",
-        "claim-mcq-07",
-        "claim-mcq-09",
-        "claim-mcq-06",
+        "claim-mcq-02",
         "claim-mcq-10",
         "claim-mcq-05"
       ],
@@ -1286,12 +1172,10 @@ export default {
         "claimed"
       ],
       "optionReasons": {
-        "claim-mcq-08": "本句指「正式確認某物屬於自己並領取」。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。",
-        "claim-mcq-10": "「災難、疾病或事故造成死亡」與本句語境不同。",
-        "claim-mcq-05": "「根據資格、規則或權利要求取得某物」與本句語境不同。"
+        "claim-mcq-08": "本句的「claimed」指「正式確認某物屬於自己並領取」。",
+        "claim-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-08"
     },
@@ -1303,11 +1187,9 @@ export default {
       "masked": "She ____ the championship title.",
       "options": [
         "claim-mcq-09",
-        "claim-mcq-08",
-        "claim-mcq-10",
-        "claim-mcq-07",
-        "claim-mcq-11",
-        "claim-mcq-06"
+        "claim-mcq-04",
+        "claim-mcq-03",
+        "claim-pdf-004"
       ],
       "explanation": "本句的「claimed」指「成功取得競逐中的頭銜、獎項或位置」。",
       "sentenceIndex": 29,
@@ -1316,12 +1198,10 @@ export default {
         "claimed"
       ],
       "optionReasons": {
-        "claim-mcq-09": "本句指「成功取得競逐中的頭銜、獎項或位置」。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-10": "「災難、疾病或事故造成死亡」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
-        "claim-mcq-11": "「公開表示某行動由自己／某組織所做」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。"
+        "claim-mcq-09": "本句的「claimed」指「成功取得競逐中的頭銜、獎項或位置」。",
+        "claim-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-09"
     },
@@ -1333,11 +1213,9 @@ export default {
       "masked": "The team ____ first place.",
       "options": [
         "claim-mcq-09",
-        "claim-mcq-08",
-        "claim-mcq-10",
-        "claim-mcq-07",
-        "claim-mcq-11",
-        "claim-mcq-06"
+        "claim-mcq-13",
+        "claim-pdf-004",
+        "claim-pdf-001"
       ],
       "explanation": "本句的「claimed」指「成功取得競逐中的頭銜、獎項或位置」。",
       "sentenceIndex": 30,
@@ -1346,12 +1224,10 @@ export default {
         "claimed"
       ],
       "optionReasons": {
-        "claim-mcq-09": "本句指「成功取得競逐中的頭銜、獎項或位置」。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-10": "「災難、疾病或事故造成死亡」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
-        "claim-mcq-11": "「公開表示某行動由自己／某組織所做」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。"
+        "claim-mcq-09": "本句的「claimed」指「成功取得競逐中的頭銜、獎項或位置」。",
+        "claim-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-09"
     },
@@ -1363,11 +1239,9 @@ export default {
       "masked": "The team ____ in the final.",
       "options": [
         "claim-mcq-09",
-        "claim-mcq-08",
-        "claim-mcq-10",
-        "claim-mcq-07",
-        "claim-mcq-11",
-        "claim-mcq-06"
+        "claim-pdf-003",
+        "claim-pdf-004",
+        "claim-mcq-13"
       ],
       "explanation": "本句的「claimed victory」指「成功取得競逐中的頭銜、獎項或位置」。",
       "sentenceIndex": 31,
@@ -1376,12 +1250,10 @@ export default {
         "claimed victory"
       ],
       "optionReasons": {
-        "claim-mcq-09": "本句指「成功取得競逐中的頭銜、獎項或位置」。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-10": "「災難、疾病或事故造成死亡」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
-        "claim-mcq-11": "「公開表示某行動由自己／某組織所做」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。"
+        "claim-mcq-09": "本句的「claimed victory」指「成功取得競逐中的頭銜、獎項或位置」。",
+        "claim-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-09"
     },
@@ -1393,11 +1265,9 @@ export default {
       "masked": "The candidate ____ victory before all votes were counted.",
       "options": [
         "claim-mcq-09",
-        "claim-mcq-08",
-        "claim-mcq-10",
-        "claim-mcq-07",
-        "claim-mcq-11",
-        "claim-mcq-06"
+        "claim-mcq-06",
+        "claim-pdf-003",
+        "claim-pdf-001"
       ],
       "explanation": "本句的「claimed」指「成功取得競逐中的頭銜、獎項或位置」。",
       "sentenceIndex": 32,
@@ -1406,12 +1276,10 @@ export default {
         "claimed"
       ],
       "optionReasons": {
-        "claim-mcq-09": "本句指「成功取得競逐中的頭銜、獎項或位置」。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-10": "「災難、疾病或事故造成死亡」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。",
-        "claim-mcq-11": "「公開表示某行動由自己／某組織所做」與本句語境不同。",
-        "claim-mcq-06": "「正式提出的索償、福利或金錢申領要求」與本句語境不同。"
+        "claim-mcq-09": "本句的「claimed」指「成功取得競逐中的頭銜、獎項或位置」。",
+        "claim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-09"
     },
@@ -1423,11 +1291,9 @@ export default {
       "masked": "The fire ____ three lives.",
       "options": [
         "claim-mcq-10",
-        "claim-mcq-09",
-        "claim-mcq-11",
-        "claim-mcq-08",
-        "claim-mcq-12",
-        "claim-mcq-07"
+        "claim-mcq-03",
+        "claim-pdf-002",
+        "claim-pdf-001"
       ],
       "explanation": "本句的「claimed」指「災難、疾病或事故造成死亡」。",
       "sentenceIndex": 33,
@@ -1436,12 +1302,10 @@ export default {
         "claimed"
       ],
       "optionReasons": {
-        "claim-mcq-10": "本句指「災難、疾病或事故造成死亡」。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-11": "「公開表示某行動由自己／某組織所做」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-12": "「表示某項成果應歸功於自己」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。"
+        "claim-mcq-10": "本句的「claimed」指「災難、疾病或事故造成死亡」。",
+        "claim-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-10"
     },
@@ -1453,11 +1317,9 @@ export default {
       "masked": "The storm ____ several homes.",
       "options": [
         "claim-mcq-10",
-        "claim-mcq-09",
-        "claim-mcq-11",
-        "claim-mcq-08",
-        "claim-mcq-12",
-        "claim-mcq-07"
+        "claim-mcq-03",
+        "claim-mcq-04",
+        "claim-pdf-002"
       ],
       "explanation": "本句的「claimed」指「災難、疾病或事故造成死亡」。",
       "sentenceIndex": 34,
@@ -1466,12 +1328,10 @@ export default {
         "claimed"
       ],
       "optionReasons": {
-        "claim-mcq-10": "本句指「災難、疾病或事故造成死亡」。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-11": "「公開表示某行動由自己／某組織所做」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-12": "「表示某項成果應歸功於自己」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。"
+        "claim-mcq-10": "本句的「claimed」指「災難、疾病或事故造成死亡」。",
+        "claim-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-10"
     },
@@ -1483,11 +1343,9 @@ export default {
       "masked": "The accident ____.",
       "options": [
         "claim-pdf-004",
-        "claim-mcq-09",
-        "claim-mcq-11",
+        "claim-mcq-05",
         "claim-mcq-08",
-        "claim-mcq-12",
-        "claim-mcq-07"
+        "claim-mcq-04"
       ],
       "explanation": "本句的「claimed his life」指「導致某人死亡」。",
       "sentenceIndex": 35,
@@ -1496,12 +1354,10 @@ export default {
         "claimed his life"
       ],
       "optionReasons": {
-        "claim-pdf-004": "本句指「導致某人死亡」。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-11": "「公開表示某行動由自己／某組織所做」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-12": "「表示某項成果應歸功於自己」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。"
+        "claim-pdf-004": "本句的「claimed his life」指「導致某人死亡」。",
+        "claim-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-pdf-004"
     },
@@ -1513,11 +1369,9 @@ export default {
       "masked": "The disease has ____ many lives.",
       "options": [
         "claim-pdf-004",
-        "claim-mcq-09",
-        "claim-mcq-11",
-        "claim-mcq-08",
-        "claim-mcq-12",
-        "claim-mcq-07"
+        "claim-mcq-07",
+        "claim-mcq-06",
+        "claim-mcq-02"
       ],
       "explanation": "本句的「claimed」指「導致某人死亡」。",
       "sentenceIndex": 36,
@@ -1526,12 +1380,10 @@ export default {
         "claimed"
       ],
       "optionReasons": {
-        "claim-pdf-004": "本句指「導致某人死亡」。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-11": "「公開表示某行動由自己／某組織所做」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。",
-        "claim-mcq-12": "「表示某項成果應歸功於自己」與本句語境不同。",
-        "claim-mcq-07": "「表示自己對某物擁有合法權利／所有權」與本句語境不同。"
+        "claim-pdf-004": "本句的「claimed」指「導致某人死亡」。",
+        "claim-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-pdf-004"
     },
@@ -1543,11 +1395,9 @@ export default {
       "masked": "The group ____ for the attack.",
       "options": [
         "claim-mcq-11",
-        "claim-mcq-10",
-        "claim-mcq-12",
+        "claim-mcq-02",
         "claim-mcq-09",
-        "claim-mcq-13",
-        "claim-mcq-08"
+        "claim-mcq-06"
       ],
       "explanation": "本句的「claimed responsibility」指「公開表示某行動由自己／某組織所做」。",
       "sentenceIndex": 37,
@@ -1556,12 +1406,10 @@ export default {
         "claimed responsibility"
       ],
       "optionReasons": {
-        "claim-mcq-11": "本句指「公開表示某行動由自己／某組織所做」。",
-        "claim-mcq-10": "「災難、疾病或事故造成死亡」與本句語境不同。",
-        "claim-mcq-12": "「表示某項成果應歸功於自己」與本句語境不同。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-13": "「正式提出索償、福利申請或法律權利要求的人」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。"
+        "claim-mcq-11": "本句的「claimed responsibility」指「公開表示某行動由自己／某組織所做」。",
+        "claim-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-11"
     },
@@ -1573,11 +1421,9 @@ export default {
       "masked": "No one has ____ responsibility for the damage.",
       "options": [
         "claim-mcq-11",
-        "claim-mcq-10",
-        "claim-mcq-12",
-        "claim-mcq-09",
-        "claim-mcq-13",
-        "claim-mcq-08"
+        "claim-mcq-02",
+        "claim-mcq-05",
+        "claim-mcq-10"
       ],
       "explanation": "本句的「claimed」指「公開表示某行動由自己／某組織所做」。",
       "sentenceIndex": 38,
@@ -1586,12 +1432,10 @@ export default {
         "claimed"
       ],
       "optionReasons": {
-        "claim-mcq-11": "本句指「公開表示某行動由自己／某組織所做」。",
-        "claim-mcq-10": "「災難、疾病或事故造成死亡」與本句語境不同。",
-        "claim-mcq-12": "「表示某項成果應歸功於自己」與本句語境不同。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-13": "「正式提出索償、福利申請或法律權利要求的人」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。"
+        "claim-mcq-11": "本句的「claimed」指「公開表示某行動由自己／某組織所做」。",
+        "claim-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-11"
     },
@@ -1603,11 +1447,9 @@ export default {
       "masked": "He tried to ____ for the idea.",
       "options": [
         "claim-mcq-12",
-        "claim-mcq-11",
-        "claim-mcq-13",
-        "claim-mcq-10",
-        "claim-mcq-09",
-        "claim-mcq-08"
+        "claim-mcq-06",
+        "claim-pdf-004",
+        "claim-mcq-02"
       ],
       "explanation": "本句的「claim credit」指「表示某項成果應歸功於自己」。",
       "sentenceIndex": 39,
@@ -1616,12 +1458,10 @@ export default {
         "claim credit"
       ],
       "optionReasons": {
-        "claim-mcq-12": "本句指「表示某項成果應歸功於自己」。",
-        "claim-mcq-11": "「公開表示某行動由自己／某組織所做」與本句語境不同。",
-        "claim-mcq-13": "「正式提出索償、福利申請或法律權利要求的人」與本句語境不同。",
-        "claim-mcq-10": "「災難、疾病或事故造成死亡」與本句語境不同。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。"
+        "claim-mcq-12": "本句的「claim credit」指「表示某項成果應歸功於自己」。",
+        "claim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-12"
     },
@@ -1633,11 +1473,9 @@ export default {
       "masked": "She never ____ credit for other people’s work.",
       "options": [
         "claim-mcq-12",
-        "claim-mcq-11",
-        "claim-mcq-13",
-        "claim-mcq-10",
-        "claim-mcq-09",
-        "claim-mcq-08"
+        "claim-mcq-04",
+        "claim-mcq-05",
+        "claim-pdf-004"
       ],
       "explanation": "本句的「claims」指「表示某項成果應歸功於自己」。",
       "sentenceIndex": 40,
@@ -1646,12 +1484,10 @@ export default {
         "claims"
       ],
       "optionReasons": {
-        "claim-mcq-12": "本句指「表示某項成果應歸功於自己」。",
-        "claim-mcq-11": "「公開表示某行動由自己／某組織所做」與本句語境不同。",
-        "claim-mcq-13": "「正式提出索償、福利申請或法律權利要求的人」與本句語境不同。",
-        "claim-mcq-10": "「災難、疾病或事故造成死亡」與本句語境不同。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。"
+        "claim-mcq-12": "本句的「claims」指「表示某項成果應歸功於自己」。",
+        "claim-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "claim-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-12"
     },
@@ -1663,11 +1499,9 @@ export default {
       "masked": "The ____ must provide evidence.",
       "options": [
         "claim-mcq-13",
-        "claim-mcq-12",
         "claim-mcq-11",
         "claim-mcq-10",
-        "claim-mcq-09",
-        "claim-mcq-08"
+        "claim-mcq-09"
       ],
       "explanation": "本句的「claimant」指「正式提出索償、福利申請或法律權利要求的人」。",
       "sentenceIndex": 41,
@@ -1676,12 +1510,10 @@ export default {
         "claimant"
       ],
       "optionReasons": {
-        "claim-mcq-13": "本句指「正式提出索償、福利申請或法律權利要求的人」。",
-        "claim-mcq-12": "「表示某項成果應歸功於自己」與本句語境不同。",
-        "claim-mcq-11": "「公開表示某行動由自己／某組織所做」與本句語境不同。",
-        "claim-mcq-10": "「災難、疾病或事故造成死亡」與本句語境不同。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。"
+        "claim-mcq-13": "本句的「claimant」指「正式提出索償、福利申請或法律權利要求的人」。",
+        "claim-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-13"
     },
@@ -1693,11 +1525,9 @@ export default {
       "masked": "Each ____ was interviewed separately.",
       "options": [
         "claim-mcq-13",
-        "claim-mcq-12",
         "claim-mcq-11",
-        "claim-mcq-10",
-        "claim-mcq-09",
-        "claim-mcq-08"
+        "claim-mcq-02",
+        "claim-mcq-10"
       ],
       "explanation": "本句的「claimant」指「正式提出索償、福利申請或法律權利要求的人」。",
       "sentenceIndex": 42,
@@ -1706,12 +1536,10 @@ export default {
         "claimant"
       ],
       "optionReasons": {
-        "claim-mcq-13": "本句指「正式提出索償、福利申請或法律權利要求的人」。",
-        "claim-mcq-12": "「表示某項成果應歸功於自己」與本句語境不同。",
-        "claim-mcq-11": "「公開表示某行動由自己／某組織所做」與本句語境不同。",
-        "claim-mcq-10": "「災難、疾病或事故造成死亡」與本句語境不同。",
-        "claim-mcq-09": "「成功取得競逐中的頭銜、獎項或位置」與本句語境不同。",
-        "claim-mcq-08": "「正式確認某物屬於自己並領取」與本句語境不同。"
+        "claim-mcq-13": "本句的「claimant」指「正式提出索償、福利申請或法律權利要求的人」。",
+        "claim-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "claim-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "claim-mcq-13"
     }
@@ -1723,5 +1551,7 @@ export default {
     "sha256": "854e1ee3cc5cafafa416345ee081b86731a19fed1d301de4a96f04a183a57b3a",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "offer-mcq-01",
-      "title": "表示提供；給予；帶來；例句：「這本小說提供了一個深思熟慮的角度來看待後悔。」",
+      "title": "提供；給予；帶來",
       "form": "Passage anchor > “Instead, it offers a quiet reminder that life is rarely perfect…",
       "en": "Passage anchor > “Instead, it offers a quiet reminder that life is rarely perfect…",
       "zh": "表示提供；給予；帶來；例句：「這本小說提供了一個深思熟慮的角度來看待後悔。」",
@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "offer-mcq-02",
-      "title": "表示提供；給予；例句：「她給我一杯茶。」",
+      "title": "提供；給予",
       "form": "offer — present something for someone to take = say that someone can have or use something 提供；給予",
       "en": "offer — present something for someone to take = say that someone can have or use something 提供；給予",
       "zh": "表示提供；給予；例句：「她給我一杯茶。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "offer-mcq-03",
-      "title": "表示提供某人某物；例句：「飯店為住客提供免費早餐。」",
+      "title": "提供某人某物",
       "form": "offer someone something = make something available to someone 提供某人某物",
       "en": "offer someone something = make something available to someone 提供某人某物",
       "zh": "表示提供某人某物；例句：「飯店為住客提供免費早餐。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "offer-mcq-04",
-      "title": "表示把某物提供給某人；例句：「他們把這份工作給了她。」",
+      "title": "把某物提供給某人",
       "form": "offer something to someone = present something for someone’s use, acceptance, or consideration 把某物提供給某人",
       "en": "offer something to someone = present something for someone’s use, acceptance, or consideration 把某物提供給某人",
       "zh": "表示把某物提供給某人；例句：「他們把這份工作給了她。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "offer-mcq-05",
-      "title": "表示主動提出做某事；例句：「她主動提出幫忙。」",
+      "title": "主動提出做某事",
       "form": "offer to do something = say that you are willing to do something 主動提出做某事",
       "en": "offer to do something = say that you are willing to do something 主動提出做某事",
       "zh": "表示主動提出做某事；例句：「她主動提出幫忙。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "offer-mcq-06",
-      "title": "表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」",
+      "title": "提供幫助／建議／支援",
       "form": "offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援",
       "en": "offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援",
       "zh": "表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "offer-mcq-07",
-      "title": "表示提供；供應；例句：「這家餐廳提供素食選擇。」",
+      "title": "提供；供應",
       "form": "offer — provide as a service or feature = make a product, service, course, facility, etc. available 提供；供應",
       "en": "offer — provide as a service or feature = make a product, service, course, facility, etc. available 提供；供應",
       "zh": "表示提供；供應；例句：「這家餐廳提供素食選擇。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "offer-mcq-08",
-      "title": "表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」",
+      "title": "提供機會；帶來可能性",
       "form": "offer — give access/opportunity = provide a chance, possibility, benefit, or experience 提供機會；帶來可能性",
       "en": "offer — give access/opportunity = provide a chance, possibility, benefit, or experience 提供機會；帶來可能性",
       "zh": "表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "offer-mcq-09",
-      "title": "表示提出；提供；例句：「報告提出了一個解釋。」",
+      "title": "提出；提供",
       "form": "offer — present information, explanation, or interpretation = put forward an explanation, opinion, argument, or perspective 提出；提供",
       "en": "offer — present information, explanation, or interpretation = put forward an explanation, opinion, argument, or perspective 提出；提供",
       "zh": "表示提出；提供；例句：「報告提出了一個解釋。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "offer-mcq-10",
-      "title": "表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」",
+      "title": "提議；出價；條件",
       "form": "offer — proposal = proposal to give, buy, sell, or do something 提議；出價；條件",
       "en": "offer — proposal = proposal to give, buy, sell, or do something 提議；出價；條件",
       "zh": "表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "offer-mcq-11",
-      "title": "表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」",
+      "title": "工作邀請；錄用通知",
       "form": "job offer = formal proposal of employment 工作邀請；錄用通知",
       "en": "job offer = formal proposal of employment 工作邀請；錄用通知",
       "zh": "表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "offer-mcq-12",
-      "title": "表示出價；提出條件；例句：「他們對那間公寓出價。」",
+      "title": "出價；提出條件",
       "form": "make an offer = propose a price or terms 出價；提出條件",
       "en": "make an offer = propose a price or terms 出價；提出條件",
       "zh": "表示出價；提出條件；例句：「他們對那間公寓出價。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "offer-mcq-13",
-      "title": "表示優惠；特價；例句：「這家店這星期有特別優惠。」",
+      "title": "優惠；特價",
       "form": "offer — special deal = temporary deal in which a product/service is cheaper or includes extra value 優惠；特價",
       "en": "offer — special deal = temporary deal in which a product/service is cheaper or includes extra value 優惠；特價",
       "zh": "表示優惠；特價；例句：「這家店這星期有特別優惠。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "offer-mcq-14",
-      "title": "表示出價；報價；例句：「我們收到三個對房產的出價。」",
+      "title": "出價；報價",
       "form": "offer — amount someone is willing to pay = proposed price for something 出價；報價",
       "en": "offer — amount someone is willing to pay = proposed price for something 出價；報價",
       "zh": "表示出價；報價；例句：「我們收到三個對房產的出價。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "offer-mcq-15",
-      "title": "表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」",
+      "title": "表示道歉／感謝／祝賀",
       "form": "offer an apology / thanks / congratulations = formally or deliberately express something 表示道歉／感謝／祝賀",
       "en": "offer an apology / thanks / congratulations = formally or deliberately express something 表示道歉／感謝／祝賀",
       "zh": "表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "offer-mcq-16",
-      "title": "表示奉上；獻上；例句：「他們為受害者獻上祈禱。」",
+      "title": "奉上；獻上",
       "form": "offer a prayer / sacrifice = present something ceremonially or religiously 奉上；獻上",
       "en": "offer a prayer / sacrifice = present something ceremonially or religiously 奉上；獻上",
       "zh": "表示奉上；獻上；例句：「他們為受害者獻上祈禱。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "offer-mcq-17",
-      "title": "表示提出證據／證詞；例句：「律師提出證據支持該主張。」",
+      "title": "提出證據／證詞",
       "form": "offer evidence / testimony Formal/legal: = formally present evidence or testimony for consideration 提出證據／證詞",
       "en": "offer evidence / testimony Formal/legal: = formally present evidence or testimony for consideration 提出證據／證詞",
       "zh": "表示提出證據／證詞；例句：「律師提出證據支持該主張。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "offer-mcq-18",
-      "title": "表示接受某人的提議；例句：「我可能會接受你的提議。」",
+      "title": "接受某人的提議",
       "form": "take someone up on an offer = accept someone’s offer 接受某人的提議",
       "en": "take someone up on an offer = accept someone’s offer 接受某人的提議",
       "zh": "表示接受某人的提議；例句：「我可能會接受你的提議。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "offer-mcq-19",
-      "title": "表示拒絕提議／條件；例句：「他拒絕了那個提議。」",
+      "title": "拒絕提議／條件",
       "form": "turn down an offer = refuse an offer 拒絕提議／條件",
       "en": "turn down an offer = refuse an offer 拒絕提議／條件",
       "zh": "表示拒絕提議／條件；例句：「他拒絕了那個提議。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "offer-mcq-20",
-      "title": "表示難以拒絕的提議；例句：「那個折扣實在是個難以拒絕的優惠。」",
+      "title": "難以拒絕的提議",
       "form": "an offer you can’t refuse = extremely attractive offer, or humorously/coercively an offer difficult to reject 難以拒絕的提議",
       "en": "an offer you can’t refuse = extremely attractive offer, or humorously/coercively an offer difficult to reject 難以拒絕的提議",
       "zh": "表示難以拒絕的提議；例句：「那個折扣實在是個難以拒絕的優惠。」",
@@ -455,11 +455,9 @@ export default {
       "masked": "The novel ____ on regret.",
       "options": [
         "offer-mcq-01",
-        "offer-mcq-02",
-        "offer-mcq-03",
-        "offer-mcq-04",
-        "offer-mcq-05",
-        "offer-mcq-06"
+        "offer-mcq-14",
+        "offer-mcq-11",
+        "offer-mcq-16"
       ],
       "explanation": "本句的「offers a thoughtful perspective」指「表示提供；給予；帶來；例句：「這本小說提供了一個深思熟慮的角度來看待後悔。」」。",
       "sentenceIndex": 0,
@@ -468,12 +466,10 @@ export default {
         "offers a thoughtful perspective"
       ],
       "optionReasons": {
-        "offer-mcq-01": "本句指「表示提供；給予；帶來；例句：「這本小說提供了一個深思熟慮的角度來看待後悔。」」。",
-        "offer-mcq-02": "「表示提供；給予；例句：「她給我一杯茶。」」是「offer — present something for someone to take = say that someone can have or use something 提供；給予」的用法，與本句語境不同。",
-        "offer-mcq-03": "「表示提供某人某物；例句：「飯店為住客提供免費早餐。」」是「offer someone something = make something available to someone 提供某人某物」的用法，與本句語境不同。",
-        "offer-mcq-04": "「表示把某物提供給某人；例句：「他們把這份工作給了她。」」是「offer something to someone = present something for someone’s use, acceptance, or consideration 把某物提供給某人」的用法，與本句語境不同。",
-        "offer-mcq-05": "「表示主動提出做某事；例句：「她主動提出幫忙。」」是「offer to do something = say that you are willing to do something 主動提出做某事」的用法，與本句語境不同。",
-        "offer-mcq-06": "「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」是「offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援」的用法，與本句語境不同。"
+        "offer-mcq-01": "本句的「offers a thoughtful perspective」指「表示提供；給予；帶來；例句：「這本小說提供了一個深思熟慮的角度來看待後悔。」」。",
+        "offer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-01"
     },
@@ -485,11 +481,9 @@ export default {
       "masked": "The story ____ without becoming sentimental.",
       "options": [
         "offer-mcq-01",
-        "offer-mcq-02",
-        "offer-mcq-03",
-        "offer-mcq-04",
-        "offer-mcq-05",
-        "offer-mcq-06"
+        "offer-mcq-11",
+        "offer-mcq-13",
+        "offer-mcq-16"
       ],
       "explanation": "本句的「offers some comfort」指「表示提供；給予；帶來；例句：「這本小說提供了一個深思熟慮的角度來看待後悔。」」。",
       "sentenceIndex": 1,
@@ -498,12 +492,10 @@ export default {
         "offers some comfort"
       ],
       "optionReasons": {
-        "offer-mcq-01": "本句指「表示提供；給予；帶來；例句：「這本小說提供了一個深思熟慮的角度來看待後悔。」」。",
-        "offer-mcq-02": "「表示提供；給予；例句：「她給我一杯茶。」」是「offer — present something for someone to take = say that someone can have or use something 提供；給予」的用法，與本句語境不同。",
-        "offer-mcq-03": "「表示提供某人某物；例句：「飯店為住客提供免費早餐。」」是「offer someone something = make something available to someone 提供某人某物」的用法，與本句語境不同。",
-        "offer-mcq-04": "「表示把某物提供給某人；例句：「他們把這份工作給了她。」」是「offer something to someone = present something for someone’s use, acceptance, or consideration 把某物提供給某人」的用法，與本句語境不同。",
-        "offer-mcq-05": "「表示主動提出做某事；例句：「她主動提出幫忙。」」是「offer to do something = say that you are willing to do something 主動提出做某事」的用法，與本句語境不同。",
-        "offer-mcq-06": "「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」是「offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援」的用法，與本句語境不同。"
+        "offer-mcq-01": "本句的「offers some comfort」指「表示提供；給予；帶來；例句：「這本小說提供了一個深思熟慮的角度來看待後悔。」」。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-01"
     },
@@ -515,11 +507,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "offer-mcq-02",
-        "offer-mcq-01",
-        "offer-mcq-03",
-        "offer-mcq-04",
-        "offer-mcq-05",
-        "offer-mcq-06"
+        "offer-mcq-15",
+        "offer-mcq-14",
+        "offer-mcq-16"
       ],
       "explanation": "本句的「offered me a cup of tea」指「表示提供；給予；例句：「她給我一杯茶。」」。",
       "sentenceIndex": 2,
@@ -528,12 +518,10 @@ export default {
         "offered me a cup of tea"
       ],
       "optionReasons": {
-        "offer-mcq-02": "本句指「表示提供；給予；例句：「她給我一杯茶。」」。",
-        "offer-mcq-01": "「表示提供；給予；帶來；例句：「這本小說提供了一個深思熟慮的角度來看待後悔。」」是「Passage anchor > “Instead, it offers a quiet reminder that life is rarely perfect…」的用法，與本句語境不同。",
-        "offer-mcq-03": "「表示提供某人某物；例句：「飯店為住客提供免費早餐。」」是「offer someone something = make something available to someone 提供某人某物」的用法，與本句語境不同。",
-        "offer-mcq-04": "「表示把某物提供給某人；例句：「他們把這份工作給了她。」」是「offer something to someone = present something for someone’s use, acceptance, or consideration 把某物提供給某人」的用法，與本句語境不同。",
-        "offer-mcq-05": "「表示主動提出做某事；例句：「她主動提出幫忙。」」是「offer to do something = say that you are willing to do something 主動提出做某事」的用法，與本句語境不同。",
-        "offer-mcq-06": "「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」是「offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援」的用法，與本句語境不同。"
+        "offer-mcq-02": "本句的「offered me a cup of tea」指「表示提供；給予；例句：「她給我一杯茶。」」。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-02"
     },
@@ -545,11 +533,9 @@ export default {
       "masked": "He ____ to an older passenger.",
       "options": [
         "offer-mcq-02",
-        "offer-mcq-01",
-        "offer-mcq-03",
-        "offer-mcq-04",
-        "offer-mcq-05",
-        "offer-mcq-06"
+        "offer-mcq-13",
+        "offer-mcq-15",
+        "offer-mcq-11"
       ],
       "explanation": "本句的「offered his seat」指「表示提供；給予；例句：「她給我一杯茶。」」。",
       "sentenceIndex": 3,
@@ -558,12 +544,10 @@ export default {
         "offered his seat"
       ],
       "optionReasons": {
-        "offer-mcq-02": "本句指「表示提供；給予；例句：「她給我一杯茶。」」。",
-        "offer-mcq-01": "「表示提供；給予；帶來；例句：「這本小說提供了一個深思熟慮的角度來看待後悔。」」是「Passage anchor > “Instead, it offers a quiet reminder that life is rarely perfect…」的用法，與本句語境不同。",
-        "offer-mcq-03": "「表示提供某人某物；例句：「飯店為住客提供免費早餐。」」是「offer someone something = make something available to someone 提供某人某物」的用法，與本句語境不同。",
-        "offer-mcq-04": "「表示把某物提供給某人；例句：「他們把這份工作給了她。」」是「offer something to someone = present something for someone’s use, acceptance, or consideration 把某物提供給某人」的用法，與本句語境不同。",
-        "offer-mcq-05": "「表示主動提出做某事；例句：「她主動提出幫忙。」」是「offer to do something = say that you are willing to do something 主動提出做某事」的用法，與本句語境不同。",
-        "offer-mcq-06": "「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」是「offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援」的用法，與本句語境不同。"
+        "offer-mcq-02": "本句的「offered his seat」指「表示提供；給予；例句：「她給我一杯茶。」」。",
+        "offer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-02"
     },
@@ -575,11 +559,9 @@ export default {
       "masked": "The hotel ____.",
       "options": [
         "offer-mcq-03",
-        "offer-mcq-02",
-        "offer-mcq-04",
-        "offer-mcq-01",
-        "offer-mcq-05",
-        "offer-mcq-06"
+        "offer-mcq-14",
+        "offer-mcq-11",
+        "offer-mcq-16"
       ],
       "explanation": "本句的「offers guests free breakfast」指「表示提供某人某物；例句：「飯店為住客提供免費早餐。」」。",
       "sentenceIndex": 4,
@@ -588,12 +570,10 @@ export default {
         "offers guests free breakfast"
       ],
       "optionReasons": {
-        "offer-mcq-03": "本句指「表示提供某人某物；例句：「飯店為住客提供免費早餐。」」。",
-        "offer-mcq-02": "「表示提供；給予；例句：「她給我一杯茶。」」是「offer — present something for someone to take = say that someone can have or use something 提供；給予」的用法，與本句語境不同。",
-        "offer-mcq-04": "「表示把某物提供給某人；例句：「他們把這份工作給了她。」」是「offer something to someone = present something for someone’s use, acceptance, or consideration 把某物提供給某人」的用法，與本句語境不同。",
-        "offer-mcq-01": "「表示提供；給予；帶來；例句：「這本小說提供了一個深思熟慮的角度來看待後悔。」」是「Passage anchor > “Instead, it offers a quiet reminder that life is rarely perfect…」的用法，與本句語境不同。",
-        "offer-mcq-05": "「表示主動提出做某事；例句：「她主動提出幫忙。」」是「offer to do something = say that you are willing to do something 主動提出做某事」的用法，與本句語境不同。",
-        "offer-mcq-06": "「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」是「offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援」的用法，與本句語境不同。"
+        "offer-mcq-03": "本句的「offers guests free breakfast」指「表示提供某人某物；例句：「飯店為住客提供免費早餐。」」。",
+        "offer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-03"
     },
@@ -605,11 +585,9 @@ export default {
       "masked": "The school ____.",
       "options": [
         "offer-mcq-03",
-        "offer-mcq-02",
-        "offer-mcq-04",
-        "offer-mcq-01",
-        "offer-mcq-05",
-        "offer-mcq-06"
+        "offer-mcq-11",
+        "offer-mcq-14",
+        "offer-mcq-15"
       ],
       "explanation": "本句的「offers students extra support」指「表示提供某人某物；例句：「飯店為住客提供免費早餐。」」。",
       "sentenceIndex": 5,
@@ -618,12 +596,10 @@ export default {
         "offers students extra support"
       ],
       "optionReasons": {
-        "offer-mcq-03": "本句指「表示提供某人某物；例句：「飯店為住客提供免費早餐。」」。",
-        "offer-mcq-02": "「表示提供；給予；例句：「她給我一杯茶。」」是「offer — present something for someone to take = say that someone can have or use something 提供；給予」的用法，與本句語境不同。",
-        "offer-mcq-04": "「表示把某物提供給某人；例句：「他們把這份工作給了她。」」是「offer something to someone = present something for someone’s use, acceptance, or consideration 把某物提供給某人」的用法，與本句語境不同。",
-        "offer-mcq-01": "「表示提供；給予；帶來；例句：「這本小說提供了一個深思熟慮的角度來看待後悔。」」是「Passage anchor > “Instead, it offers a quiet reminder that life is rarely perfect…」的用法，與本句語境不同。",
-        "offer-mcq-05": "「表示主動提出做某事；例句：「她主動提出幫忙。」」是「offer to do something = say that you are willing to do something 主動提出做某事」的用法，與本句語境不同。",
-        "offer-mcq-06": "「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」是「offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援」的用法，與本句語境不同。"
+        "offer-mcq-03": "本句的「offers students extra support」指「表示提供某人某物；例句：「飯店為住客提供免費早餐。」」。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-03"
     },
@@ -635,11 +611,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "offer-mcq-04",
-        "offer-mcq-03",
-        "offer-mcq-05",
-        "offer-mcq-02",
-        "offer-mcq-06",
-        "offer-mcq-01"
+        "offer-mcq-15",
+        "offer-mcq-14",
+        "offer-mcq-16"
       ],
       "explanation": "本句的「offered the job to her」指「表示把某物提供給某人；例句：「他們把這份工作給了她。」」。",
       "sentenceIndex": 6,
@@ -648,12 +622,10 @@ export default {
         "offered the job to her"
       ],
       "optionReasons": {
-        "offer-mcq-04": "本句指「表示把某物提供給某人；例句：「他們把這份工作給了她。」」。",
-        "offer-mcq-03": "「表示提供某人某物；例句：「飯店為住客提供免費早餐。」」是「offer someone something = make something available to someone 提供某人某物」的用法，與本句語境不同。",
-        "offer-mcq-05": "「表示主動提出做某事；例句：「她主動提出幫忙。」」是「offer to do something = say that you are willing to do something 主動提出做某事」的用法，與本句語境不同。",
-        "offer-mcq-02": "「表示提供；給予；例句：「她給我一杯茶。」」是「offer — present something for someone to take = say that someone can have or use something 提供；給予」的用法，與本句語境不同。",
-        "offer-mcq-06": "「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」是「offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援」的用法，與本句語境不同。",
-        "offer-mcq-01": "「表示提供；給予；帶來；例句：「這本小說提供了一個深思熟慮的角度來看待後悔。」」是「Passage anchor > “Instead, it offers a quiet reminder that life is rarely perfect…」的用法，與本句語境不同。"
+        "offer-mcq-04": "本句的「offered the job to her」指「表示把某物提供給某人；例句：「他們把這份工作給了她。」」。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-04"
     },
@@ -665,11 +637,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "offer-mcq-04",
-        "offer-mcq-03",
-        "offer-mcq-05",
-        "offer-mcq-02",
-        "offer-mcq-06",
-        "offer-mcq-01"
+        "offer-mcq-15",
+        "offer-mcq-16",
+        "offer-mcq-11"
       ],
       "explanation": "本句的「offered the documents to the police」指「表示把某物提供給某人；例句：「他們把這份工作給了她。」」。",
       "sentenceIndex": 7,
@@ -678,12 +648,10 @@ export default {
         "offered the documents to the police"
       ],
       "optionReasons": {
-        "offer-mcq-04": "本句指「表示把某物提供給某人；例句：「他們把這份工作給了她。」」。",
-        "offer-mcq-03": "「表示提供某人某物；例句：「飯店為住客提供免費早餐。」」是「offer someone something = make something available to someone 提供某人某物」的用法，與本句語境不同。",
-        "offer-mcq-05": "「表示主動提出做某事；例句：「她主動提出幫忙。」」是「offer to do something = say that you are willing to do something 主動提出做某事」的用法，與本句語境不同。",
-        "offer-mcq-02": "「表示提供；給予；例句：「她給我一杯茶。」」是「offer — present something for someone to take = say that someone can have or use something 提供；給予」的用法，與本句語境不同。",
-        "offer-mcq-06": "「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」是「offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援」的用法，與本句語境不同。",
-        "offer-mcq-01": "「表示提供；給予；帶來；例句：「這本小說提供了一個深思熟慮的角度來看待後悔。」」是「Passage anchor > “Instead, it offers a quiet reminder that life is rarely perfect…」的用法，與本句語境不同。"
+        "offer-mcq-04": "本句的「offered the documents to the police」指「表示把某物提供給某人；例句：「他們把這份工作給了她。」」。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-04"
     },
@@ -695,11 +663,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "offer-mcq-05",
-        "offer-mcq-04",
-        "offer-mcq-06",
-        "offer-mcq-03",
-        "offer-mcq-07",
-        "offer-mcq-02"
+        "offer-mcq-13",
+        "offer-mcq-11",
+        "offer-mcq-15"
       ],
       "explanation": "本句的「offered to help」指「表示主動提出做某事；例句：「她主動提出幫忙。」」。",
       "sentenceIndex": 8,
@@ -708,12 +674,10 @@ export default {
         "offered to help"
       ],
       "optionReasons": {
-        "offer-mcq-05": "本句指「表示主動提出做某事；例句：「她主動提出幫忙。」」。",
-        "offer-mcq-04": "「表示把某物提供給某人；例句：「他們把這份工作給了她。」」是「offer something to someone = present something for someone’s use, acceptance, or consideration 把某物提供給某人」的用法，與本句語境不同。",
-        "offer-mcq-06": "「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」是「offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援」的用法，與本句語境不同。",
-        "offer-mcq-03": "「表示提供某人某物；例句：「飯店為住客提供免費早餐。」」是「offer someone something = make something available to someone 提供某人某物」的用法，與本句語境不同。",
-        "offer-mcq-07": "「表示提供；供應；例句：「這家餐廳提供素食選擇。」」是「offer — provide as a service or feature = make a product, service, course, facility, etc. available 提供；供應」的用法，與本句語境不同。",
-        "offer-mcq-02": "「表示提供；給予；例句：「她給我一杯茶。」」是「offer — present something for someone to take = say that someone can have or use something 提供；給予」的用法，與本句語境不同。"
+        "offer-mcq-05": "本句的「offered to help」指「表示主動提出做某事；例句：「她主動提出幫忙。」」。",
+        "offer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-05"
     },
@@ -725,11 +689,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "offer-mcq-05",
-        "offer-mcq-04",
-        "offer-mcq-06",
-        "offer-mcq-03",
-        "offer-mcq-07",
-        "offer-mcq-02"
+        "offer-mcq-13",
+        "offer-mcq-16",
+        "offer-mcq-11"
       ],
       "explanation": "本句的「offered to drive me home」指「表示主動提出做某事；例句：「她主動提出幫忙。」」。",
       "sentenceIndex": 9,
@@ -738,12 +700,10 @@ export default {
         "offered to drive me home"
       ],
       "optionReasons": {
-        "offer-mcq-05": "本句指「表示主動提出做某事；例句：「她主動提出幫忙。」」。",
-        "offer-mcq-04": "「表示把某物提供給某人；例句：「他們把這份工作給了她。」」是「offer something to someone = present something for someone’s use, acceptance, or consideration 把某物提供給某人」的用法，與本句語境不同。",
-        "offer-mcq-06": "「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」是「offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援」的用法，與本句語境不同。",
-        "offer-mcq-03": "「表示提供某人某物；例句：「飯店為住客提供免費早餐。」」是「offer someone something = make something available to someone 提供某人某物」的用法，與本句語境不同。",
-        "offer-mcq-07": "「表示提供；供應；例句：「這家餐廳提供素食選擇。」」是「offer — provide as a service or feature = make a product, service, course, facility, etc. available 提供；供應」的用法，與本句語境不同。",
-        "offer-mcq-02": "「表示提供；給予；例句：「她給我一杯茶。」」是「offer — present something for someone to take = say that someone can have or use something 提供；給予」的用法，與本句語境不同。"
+        "offer-mcq-05": "本句的「offered to drive me home」指「表示主動提出做某事；例句：「她主動提出幫忙。」」。",
+        "offer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-05"
     },
@@ -755,11 +715,9 @@ export default {
       "masked": "She ____ when I asked.",
       "options": [
         "offer-mcq-06",
-        "offer-mcq-05",
-        "offer-mcq-07",
-        "offer-mcq-04",
-        "offer-mcq-08",
-        "offer-mcq-03"
+        "offer-mcq-11",
+        "offer-mcq-16",
+        "offer-mcq-13"
       ],
       "explanation": "本句的「offered advice」指「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」。",
       "sentenceIndex": 10,
@@ -768,12 +726,10 @@ export default {
         "offered advice"
       ],
       "optionReasons": {
-        "offer-mcq-06": "本句指「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」。",
-        "offer-mcq-05": "「表示主動提出做某事；例句：「她主動提出幫忙。」」是「offer to do something = say that you are willing to do something 主動提出做某事」的用法，與本句語境不同。",
-        "offer-mcq-07": "「表示提供；供應；例句：「這家餐廳提供素食選擇。」」是「offer — provide as a service or feature = make a product, service, course, facility, etc. available 提供；供應」的用法，與本句語境不同。",
-        "offer-mcq-04": "「表示把某物提供給某人；例句：「他們把這份工作給了她。」」是「offer something to someone = present something for someone’s use, acceptance, or consideration 把某物提供給某人」的用法，與本句語境不同。",
-        "offer-mcq-08": "「表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」」是「offer — give access/opportunity = provide a chance, possibility, benefit, or experience 提供機會；帶來可能性」的用法，與本句語境不同。",
-        "offer-mcq-03": "「表示提供某人某物；例句：「飯店為住客提供免費早餐。」」是「offer someone something = make something available to someone 提供某人某物」的用法，與本句語境不同。"
+        "offer-mcq-06": "本句的「offered advice」指「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-06"
     },
@@ -785,11 +741,9 @@ export default {
       "masked": "The organization ____ to families.",
       "options": [
         "offer-mcq-06",
-        "offer-mcq-05",
-        "offer-mcq-07",
-        "offer-mcq-04",
-        "offer-mcq-08",
-        "offer-mcq-03"
+        "offer-mcq-13",
+        "offer-mcq-16",
+        "offer-mcq-11"
       ],
       "explanation": "本句的「offers support」指「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」。",
       "sentenceIndex": 11,
@@ -798,12 +752,10 @@ export default {
         "offers support"
       ],
       "optionReasons": {
-        "offer-mcq-06": "本句指「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」。",
-        "offer-mcq-05": "「表示主動提出做某事；例句：「她主動提出幫忙。」」是「offer to do something = say that you are willing to do something 主動提出做某事」的用法，與本句語境不同。",
-        "offer-mcq-07": "「表示提供；供應；例句：「這家餐廳提供素食選擇。」」是「offer — provide as a service or feature = make a product, service, course, facility, etc. available 提供；供應」的用法，與本句語境不同。",
-        "offer-mcq-04": "「表示把某物提供給某人；例句：「他們把這份工作給了她。」」是「offer something to someone = present something for someone’s use, acceptance, or consideration 把某物提供給某人」的用法，與本句語境不同。",
-        "offer-mcq-08": "「表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」」是「offer — give access/opportunity = provide a chance, possibility, benefit, or experience 提供機會；帶來可能性」的用法，與本句語境不同。",
-        "offer-mcq-03": "「表示提供某人某物；例句：「飯店為住客提供免費早餐。」」是「offer someone something = make something available to someone 提供某人某物」的用法，與本句語境不同。"
+        "offer-mcq-06": "本句的「offers support」指「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」。",
+        "offer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-06"
     },
@@ -815,11 +767,9 @@ export default {
       "masked": "The restaurant ____.",
       "options": [
         "offer-mcq-07",
-        "offer-mcq-06",
-        "offer-mcq-08",
-        "offer-mcq-05",
-        "offer-mcq-09",
-        "offer-mcq-04"
+        "offer-mcq-14",
+        "offer-mcq-15",
+        "offer-mcq-11"
       ],
       "explanation": "本句的「offers vegetarian options」指「表示提供；供應；例句：「這家餐廳提供素食選擇。」」。",
       "sentenceIndex": 12,
@@ -828,12 +778,10 @@ export default {
         "offers vegetarian options"
       ],
       "optionReasons": {
-        "offer-mcq-07": "本句指「表示提供；供應；例句：「這家餐廳提供素食選擇。」」。",
-        "offer-mcq-06": "「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」是「offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援」的用法，與本句語境不同。",
-        "offer-mcq-08": "「表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」」是「offer — give access/opportunity = provide a chance, possibility, benefit, or experience 提供機會；帶來可能性」的用法，與本句語境不同。",
-        "offer-mcq-05": "「表示主動提出做某事；例句：「她主動提出幫忙。」」是「offer to do something = say that you are willing to do something 主動提出做某事」的用法，與本句語境不同。",
-        "offer-mcq-09": "「表示提出；提供；例句：「報告提出了一個解釋。」」是「offer — present information, explanation, or interpretation = put forward an explanation, opinion, argument, or perspective 提出；提供」的用法，與本句語境不同。",
-        "offer-mcq-04": "「表示把某物提供給某人；例句：「他們把這份工作給了她。」」是「offer something to someone = present something for someone’s use, acceptance, or consideration 把某物提供給某人」的用法，與本句語境不同。"
+        "offer-mcq-07": "本句的「offers vegetarian options」指「表示提供；供應；例句：「這家餐廳提供素食選擇。」」。",
+        "offer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-07"
     },
@@ -845,11 +793,9 @@ export default {
       "masked": "The university ____.",
       "options": [
         "offer-mcq-07",
-        "offer-mcq-06",
-        "offer-mcq-08",
-        "offer-mcq-05",
-        "offer-mcq-09",
-        "offer-mcq-04"
+        "offer-mcq-11",
+        "offer-mcq-16",
+        "offer-mcq-15"
       ],
       "explanation": "本句的「offers several language courses」指「表示提供；供應；例句：「這家餐廳提供素食選擇。」」。",
       "sentenceIndex": 13,
@@ -858,12 +804,10 @@ export default {
         "offers several language courses"
       ],
       "optionReasons": {
-        "offer-mcq-07": "本句指「表示提供；供應；例句：「這家餐廳提供素食選擇。」」。",
-        "offer-mcq-06": "「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」是「offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援」的用法，與本句語境不同。",
-        "offer-mcq-08": "「表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」」是「offer — give access/opportunity = provide a chance, possibility, benefit, or experience 提供機會；帶來可能性」的用法，與本句語境不同。",
-        "offer-mcq-05": "「表示主動提出做某事；例句：「她主動提出幫忙。」」是「offer to do something = say that you are willing to do something 主動提出做某事」的用法，與本句語境不同。",
-        "offer-mcq-09": "「表示提出；提供；例句：「報告提出了一個解釋。」」是「offer — present information, explanation, or interpretation = put forward an explanation, opinion, argument, or perspective 提出；提供」的用法，與本句語境不同。",
-        "offer-mcq-04": "「表示把某物提供給某人；例句：「他們把這份工作給了她。」」是「offer something to someone = present something for someone’s use, acceptance, or consideration 把某物提供給某人」的用法，與本句語境不同。"
+        "offer-mcq-07": "本句的「offers several language courses」指「表示提供；供應；例句：「這家餐廳提供素食選擇。」」。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-07"
     },
@@ -875,11 +819,9 @@ export default {
       "masked": "The job ____.",
       "options": [
         "offer-mcq-08",
-        "offer-mcq-07",
-        "offer-mcq-09",
-        "offer-mcq-06",
-        "offer-mcq-10",
-        "offer-mcq-05"
+        "offer-mcq-11",
+        "offer-mcq-14",
+        "offer-mcq-16"
       ],
       "explanation": "本句的「offers excellent training」指「表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」」。",
       "sentenceIndex": 14,
@@ -888,12 +830,10 @@ export default {
         "offers excellent training"
       ],
       "optionReasons": {
-        "offer-mcq-08": "本句指「表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」」。",
-        "offer-mcq-07": "「表示提供；供應；例句：「這家餐廳提供素食選擇。」」是「offer — provide as a service or feature = make a product, service, course, facility, etc. available 提供；供應」的用法，與本句語境不同。",
-        "offer-mcq-09": "「表示提出；提供；例句：「報告提出了一個解釋。」」是「offer — present information, explanation, or interpretation = put forward an explanation, opinion, argument, or perspective 提出；提供」的用法，與本句語境不同。",
-        "offer-mcq-06": "「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」是「offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援」的用法，與本句語境不同。",
-        "offer-mcq-10": "「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」是「offer — proposal = proposal to give, buy, sell, or do something 提議；出價；條件」的用法，與本句語境不同。",
-        "offer-mcq-05": "「表示主動提出做某事；例句：「她主動提出幫忙。」」是「offer to do something = say that you are willing to do something 主動提出做某事」的用法，與本句語境不同。"
+        "offer-mcq-08": "本句的「offers excellent training」指「表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」」。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-08"
     },
@@ -905,11 +845,9 @@ export default {
       "masked": "Travel can ____.",
       "options": [
         "offer-mcq-08",
-        "offer-mcq-07",
-        "offer-mcq-09",
-        "offer-mcq-06",
-        "offer-mcq-10",
-        "offer-mcq-05"
+        "offer-mcq-13",
+        "offer-mcq-15",
+        "offer-mcq-11"
       ],
       "explanation": "本句的「offer a new perspective」指「表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」」。",
       "sentenceIndex": 15,
@@ -918,12 +856,10 @@ export default {
         "offer a new perspective"
       ],
       "optionReasons": {
-        "offer-mcq-08": "本句指「表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」」。",
-        "offer-mcq-07": "「表示提供；供應；例句：「這家餐廳提供素食選擇。」」是「offer — provide as a service or feature = make a product, service, course, facility, etc. available 提供；供應」的用法，與本句語境不同。",
-        "offer-mcq-09": "「表示提出；提供；例句：「報告提出了一個解釋。」」是「offer — present information, explanation, or interpretation = put forward an explanation, opinion, argument, or perspective 提出；提供」的用法，與本句語境不同。",
-        "offer-mcq-06": "「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」是「offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援」的用法，與本句語境不同。",
-        "offer-mcq-10": "「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」是「offer — proposal = proposal to give, buy, sell, or do something 提議；出價；條件」的用法，與本句語境不同。",
-        "offer-mcq-05": "「表示主動提出做某事；例句：「她主動提出幫忙。」」是「offer to do something = say that you are willing to do something 主動提出做某事」的用法，與本句語境不同。"
+        "offer-mcq-08": "本句的「offer a new perspective」指「表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」」。",
+        "offer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-08"
     },
@@ -935,11 +871,9 @@ export default {
       "masked": "The report ____ for the change.",
       "options": [
         "offer-mcq-09",
-        "offer-mcq-08",
-        "offer-mcq-10",
-        "offer-mcq-07",
+        "offer-mcq-15",
         "offer-mcq-11",
-        "offer-mcq-06"
+        "offer-mcq-16"
       ],
       "explanation": "本句的「offers an explanation」指「表示提出；提供；例句：「報告提出了一個解釋。」」。",
       "sentenceIndex": 16,
@@ -948,12 +882,10 @@ export default {
         "offers an explanation"
       ],
       "optionReasons": {
-        "offer-mcq-09": "本句指「表示提出；提供；例句：「報告提出了一個解釋。」」。",
-        "offer-mcq-08": "「表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」」是「offer — give access/opportunity = provide a chance, possibility, benefit, or experience 提供機會；帶來可能性」的用法，與本句語境不同。",
-        "offer-mcq-10": "「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」是「offer — proposal = proposal to give, buy, sell, or do something 提議；出價；條件」的用法，與本句語境不同。",
-        "offer-mcq-07": "「表示提供；供應；例句：「這家餐廳提供素食選擇。」」是「offer — provide as a service or feature = make a product, service, course, facility, etc. available 提供；供應」的用法，與本句語境不同。",
-        "offer-mcq-11": "「表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」」是「job offer = formal proposal of employment 工作邀請；錄用通知」的用法，與本句語境不同。",
-        "offer-mcq-06": "「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」是「offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援」的用法，與本句語境不同。"
+        "offer-mcq-09": "本句的「offers an explanation」指「表示提出；提供；例句：「報告提出了一個解釋。」」。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-09"
     },
@@ -965,11 +897,9 @@ export default {
       "masked": "The book ____.",
       "options": [
         "offer-mcq-09",
-        "offer-mcq-08",
-        "offer-mcq-10",
-        "offer-mcq-07",
-        "offer-mcq-11",
-        "offer-mcq-06"
+        "offer-mcq-13",
+        "offer-mcq-16",
+        "offer-mcq-15"
       ],
       "explanation": "本句的「offers a different interpretation」指「表示提出；提供；例句：「報告提出了一個解釋。」」。",
       "sentenceIndex": 17,
@@ -978,12 +908,10 @@ export default {
         "offers a different interpretation"
       ],
       "optionReasons": {
-        "offer-mcq-09": "本句指「表示提出；提供；例句：「報告提出了一個解釋。」」。",
-        "offer-mcq-08": "「表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」」是「offer — give access/opportunity = provide a chance, possibility, benefit, or experience 提供機會；帶來可能性」的用法，與本句語境不同。",
-        "offer-mcq-10": "「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」是「offer — proposal = proposal to give, buy, sell, or do something 提議；出價；條件」的用法，與本句語境不同。",
-        "offer-mcq-07": "「表示提供；供應；例句：「這家餐廳提供素食選擇。」」是「offer — provide as a service or feature = make a product, service, course, facility, etc. available 提供；供應」的用法，與本句語境不同。",
-        "offer-mcq-11": "「表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」」是「job offer = formal proposal of employment 工作邀請；錄用通知」的用法，與本句語境不同。",
-        "offer-mcq-06": "「表示提供幫助／建議／支援；例句：「我問她時，她給了建議。」」是「offer help / advice / support = make help, advice, or support available 提供幫助／建議／支援」的用法，與本句語境不同。"
+        "offer-mcq-09": "本句的「offers a different interpretation」指「表示提出；提供；例句：「報告提出了一個解釋。」」。",
+        "offer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-09"
     },
@@ -995,11 +923,9 @@ export default {
       "masked": "She accepted the job ____.",
       "options": [
         "offer-mcq-10",
-        "offer-mcq-09",
         "offer-mcq-11",
-        "offer-mcq-08",
-        "offer-mcq-12",
-        "offer-mcq-07"
+        "offer-mcq-15",
+        "offer-mcq-16"
       ],
       "explanation": "本句的「offer」指「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」。",
       "sentenceIndex": 18,
@@ -1008,12 +934,10 @@ export default {
         "offer"
       ],
       "optionReasons": {
-        "offer-mcq-10": "本句指「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」。",
-        "offer-mcq-09": "「表示提出；提供；例句：「報告提出了一個解釋。」」是「offer — present information, explanation, or interpretation = put forward an explanation, opinion, argument, or perspective 提出；提供」的用法，與本句語境不同。",
-        "offer-mcq-11": "「表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」」是「job offer = formal proposal of employment 工作邀請；錄用通知」的用法，與本句語境不同。",
-        "offer-mcq-08": "「表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」」是「offer — give access/opportunity = provide a chance, possibility, benefit, or experience 提供機會；帶來可能性」的用法，與本句語境不同。",
-        "offer-mcq-12": "「表示出價；提出條件；例句：「他們對那間公寓出價。」」是「make an offer = propose a price or terms 出價；提出條件」的用法，與本句語境不同。",
-        "offer-mcq-07": "「表示提供；供應；例句：「這家餐廳提供素食選擇。」」是「offer — provide as a service or feature = make a product, service, course, facility, etc. available 提供；供應」的用法，與本句語境不同。"
+        "offer-mcq-10": "本句的「offer」指「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-10"
     },
@@ -1025,11 +949,9 @@ export default {
       "masked": "They made an ____ on the house.",
       "options": [
         "offer-mcq-10",
-        "offer-mcq-09",
         "offer-mcq-11",
-        "offer-mcq-08",
-        "offer-mcq-12",
-        "offer-mcq-07"
+        "offer-mcq-16",
+        "offer-mcq-15"
       ],
       "explanation": "本句的「offer」指「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」。",
       "sentenceIndex": 19,
@@ -1038,12 +960,10 @@ export default {
         "offer"
       ],
       "optionReasons": {
-        "offer-mcq-10": "本句指「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」。",
-        "offer-mcq-09": "「表示提出；提供；例句：「報告提出了一個解釋。」」是「offer — present information, explanation, or interpretation = put forward an explanation, opinion, argument, or perspective 提出；提供」的用法，與本句語境不同。",
-        "offer-mcq-11": "「表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」」是「job offer = formal proposal of employment 工作邀請；錄用通知」的用法，與本句語境不同。",
-        "offer-mcq-08": "「表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」」是「offer — give access/opportunity = provide a chance, possibility, benefit, or experience 提供機會；帶來可能性」的用法，與本句語境不同。",
-        "offer-mcq-12": "「表示出價；提出條件；例句：「他們對那間公寓出價。」」是「make an offer = propose a price or terms 出價；提出條件」的用法，與本句語境不同。",
-        "offer-mcq-07": "「表示提供；供應；例句：「這家餐廳提供素食選擇。」」是「offer — provide as a service or feature = make a product, service, course, facility, etc. available 提供；供應」的用法，與本句語境不同。"
+        "offer-mcq-10": "本句的「offer」指「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-10"
     },
@@ -1055,11 +975,9 @@ export default {
       "masked": "He received a ____ yesterday.",
       "options": [
         "offer-mcq-11",
-        "offer-mcq-10",
-        "offer-mcq-12",
-        "offer-mcq-09",
+        "offer-mcq-20",
         "offer-mcq-13",
-        "offer-mcq-08"
+        "offer-mcq-17"
       ],
       "explanation": "本句的「job offer」指「表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」」。",
       "sentenceIndex": 20,
@@ -1068,12 +986,10 @@ export default {
         "job offer"
       ],
       "optionReasons": {
-        "offer-mcq-11": "本句指「表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」」。",
-        "offer-mcq-10": "「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」是「offer — proposal = proposal to give, buy, sell, or do something 提議；出價；條件」的用法，與本句語境不同。",
-        "offer-mcq-12": "「表示出價；提出條件；例句：「他們對那間公寓出價。」」是「make an offer = propose a price or terms 出價；提出條件」的用法，與本句語境不同。",
-        "offer-mcq-09": "「表示提出；提供；例句：「報告提出了一個解釋。」」是「offer — present information, explanation, or interpretation = put forward an explanation, opinion, argument, or perspective 提出；提供」的用法，與本句語境不同。",
-        "offer-mcq-13": "「表示優惠；特價；例句：「這家店這星期有特別優惠。」」是「offer — special deal = temporary deal in which a product/service is cheaper or includes extra value 優惠；特價」的用法，與本句語境不同。",
-        "offer-mcq-08": "「表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」」是「offer — give access/opportunity = provide a chance, possibility, benefit, or experience 提供機會；帶來可能性」的用法，與本句語境不同。"
+        "offer-mcq-11": "本句的「job offer」指「表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」」。",
+        "offer-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-11"
     },
@@ -1085,11 +1001,9 @@ export default {
       "masked": "She turned down the ____.",
       "options": [
         "offer-mcq-11",
+        "offer-mcq-02",
         "offer-mcq-10",
-        "offer-mcq-12",
-        "offer-mcq-09",
-        "offer-mcq-13",
-        "offer-mcq-08"
+        "offer-mcq-16"
       ],
       "explanation": "本句的「job offer」指「表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」」。",
       "sentenceIndex": 21,
@@ -1098,12 +1012,10 @@ export default {
         "job offer"
       ],
       "optionReasons": {
-        "offer-mcq-11": "本句指「表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」」。",
-        "offer-mcq-10": "「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」是「offer — proposal = proposal to give, buy, sell, or do something 提議；出價；條件」的用法，與本句語境不同。",
-        "offer-mcq-12": "「表示出價；提出條件；例句：「他們對那間公寓出價。」」是「make an offer = propose a price or terms 出價；提出條件」的用法，與本句語境不同。",
-        "offer-mcq-09": "「表示提出；提供；例句：「報告提出了一個解釋。」」是「offer — present information, explanation, or interpretation = put forward an explanation, opinion, argument, or perspective 提出；提供」的用法，與本句語境不同。",
-        "offer-mcq-13": "「表示優惠；特價；例句：「這家店這星期有特別優惠。」」是「offer — special deal = temporary deal in which a product/service is cheaper or includes extra value 優惠；特價」的用法，與本句語境不同。",
-        "offer-mcq-08": "「表示提供機會；帶來可能性；例句：「這份工作提供很好的培訓機會。」」是「offer — give access/opportunity = provide a chance, possibility, benefit, or experience 提供機會；帶來可能性」的用法，與本句語境不同。"
+        "offer-mcq-11": "本句的「job offer」指「表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」」。",
+        "offer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-11"
     },
@@ -1115,11 +1027,9 @@ export default {
       "masked": "They ____ on the apartment.",
       "options": [
         "offer-mcq-12",
+        "offer-mcq-15",
         "offer-mcq-11",
-        "offer-mcq-13",
-        "offer-mcq-10",
-        "offer-mcq-14",
-        "offer-mcq-09"
+        "offer-mcq-16"
       ],
       "explanation": "本句的「made an offer」指「表示出價；提出條件；例句：「他們對那間公寓出價。」」。",
       "sentenceIndex": 22,
@@ -1128,12 +1038,10 @@ export default {
         "made an offer"
       ],
       "optionReasons": {
-        "offer-mcq-12": "本句指「表示出價；提出條件；例句：「他們對那間公寓出價。」」。",
-        "offer-mcq-11": "「表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」」是「job offer = formal proposal of employment 工作邀請；錄用通知」的用法，與本句語境不同。",
-        "offer-mcq-13": "「表示優惠；特價；例句：「這家店這星期有特別優惠。」」是「offer — special deal = temporary deal in which a product/service is cheaper or includes extra value 優惠；特價」的用法，與本句語境不同。",
-        "offer-mcq-10": "「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」是「offer — proposal = proposal to give, buy, sell, or do something 提議；出價；條件」的用法，與本句語境不同。",
-        "offer-mcq-14": "「表示出價；報價；例句：「我們收到三個對房產的出價。」」是「offer — amount someone is willing to pay = proposed price for something 出價；報價」的用法，與本句語境不同。",
-        "offer-mcq-09": "「表示提出；提供；例句：「報告提出了一個解釋。」」是「offer — present information, explanation, or interpretation = put forward an explanation, opinion, argument, or perspective 提出；提供」的用法，與本句語境不同。"
+        "offer-mcq-12": "本句的「made an offer」指「表示出價；提出條件；例句：「他們對那間公寓出價。」」。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-12"
     },
@@ -1146,10 +1054,8 @@ export default {
       "options": [
         "offer-mcq-12",
         "offer-mcq-11",
-        "offer-mcq-13",
-        "offer-mcq-10",
-        "offer-mcq-14",
-        "offer-mcq-09"
+        "offer-mcq-15",
+        "offer-mcq-16"
       ],
       "explanation": "本句的「made a generous offer」指「表示出價；提出條件；例句：「他們對那間公寓出價。」」。",
       "sentenceIndex": 23,
@@ -1158,12 +1064,10 @@ export default {
         "made a generous offer"
       ],
       "optionReasons": {
-        "offer-mcq-12": "本句指「表示出價；提出條件；例句：「他們對那間公寓出價。」」。",
-        "offer-mcq-11": "「表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」」是「job offer = formal proposal of employment 工作邀請；錄用通知」的用法，與本句語境不同。",
-        "offer-mcq-13": "「表示優惠；特價；例句：「這家店這星期有特別優惠。」」是「offer — special deal = temporary deal in which a product/service is cheaper or includes extra value 優惠；特價」的用法，與本句語境不同。",
-        "offer-mcq-10": "「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」是「offer — proposal = proposal to give, buy, sell, or do something 提議；出價；條件」的用法，與本句語境不同。",
-        "offer-mcq-14": "「表示出價；報價；例句：「我們收到三個對房產的出價。」」是「offer — amount someone is willing to pay = proposed price for something 出價；報價」的用法，與本句語境不同。",
-        "offer-mcq-09": "「表示提出；提供；例句：「報告提出了一個解釋。」」是「offer — present information, explanation, or interpretation = put forward an explanation, opinion, argument, or perspective 提出；提供」的用法，與本句語境不同。"
+        "offer-mcq-12": "本句的「made a generous offer」指「表示出價；提出條件；例句：「他們對那間公寓出價。」」。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-12"
     },
@@ -1175,11 +1079,9 @@ export default {
       "masked": "The store has a special ____ this week.",
       "options": [
         "offer-mcq-13",
-        "offer-mcq-12",
-        "offer-mcq-14",
-        "offer-mcq-11",
+        "offer-mcq-19",
         "offer-mcq-15",
-        "offer-mcq-10"
+        "offer-mcq-16"
       ],
       "explanation": "本句的「offer」指「表示優惠；特價；例句：「這家店這星期有特別優惠。」」。",
       "sentenceIndex": 24,
@@ -1188,12 +1090,10 @@ export default {
         "offer"
       ],
       "optionReasons": {
-        "offer-mcq-13": "本句指「表示優惠；特價；例句：「這家店這星期有特別優惠。」」。",
-        "offer-mcq-12": "「表示出價；提出條件；例句：「他們對那間公寓出價。」」是「make an offer = propose a price or terms 出價；提出條件」的用法，與本句語境不同。",
-        "offer-mcq-14": "「表示出價；報價；例句：「我們收到三個對房產的出價。」」是「offer — amount someone is willing to pay = proposed price for something 出價；報價」的用法，與本句語境不同。",
-        "offer-mcq-11": "「表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」」是「job offer = formal proposal of employment 工作邀請；錄用通知」的用法，與本句語境不同。",
-        "offer-mcq-15": "「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」是「offer an apology / thanks / congratulations = formally or deliberately express something 表示道歉／感謝／祝賀」的用法，與本句語境不同。",
-        "offer-mcq-10": "「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」是「offer — proposal = proposal to give, buy, sell, or do something 提議；出價；條件」的用法，與本句語境不同。"
+        "offer-mcq-13": "本句的「offer」指「表示優惠；特價；例句：「這家店這星期有特別優惠。」」。",
+        "offer-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-13"
     },
@@ -1205,11 +1105,9 @@ export default {
       "masked": "The membership ____ ends tomorrow.",
       "options": [
         "offer-mcq-13",
-        "offer-mcq-12",
-        "offer-mcq-14",
-        "offer-mcq-11",
-        "offer-mcq-15",
-        "offer-mcq-10"
+        "offer-mcq-20",
+        "offer-mcq-17",
+        "offer-mcq-16"
       ],
       "explanation": "本句的「offer」指「表示優惠；特價；例句：「這家店這星期有特別優惠。」」。",
       "sentenceIndex": 25,
@@ -1218,12 +1116,10 @@ export default {
         "offer"
       ],
       "optionReasons": {
-        "offer-mcq-13": "本句指「表示優惠；特價；例句：「這家店這星期有特別優惠。」」。",
-        "offer-mcq-12": "「表示出價；提出條件；例句：「他們對那間公寓出價。」」是「make an offer = propose a price or terms 出價；提出條件」的用法，與本句語境不同。",
-        "offer-mcq-14": "「表示出價；報價；例句：「我們收到三個對房產的出價。」」是「offer — amount someone is willing to pay = proposed price for something 出價；報價」的用法，與本句語境不同。",
-        "offer-mcq-11": "「表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」」是「job offer = formal proposal of employment 工作邀請；錄用通知」的用法，與本句語境不同。",
-        "offer-mcq-15": "「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」是「offer an apology / thanks / congratulations = formally or deliberately express something 表示道歉／感謝／祝賀」的用法，與本句語境不同。",
-        "offer-mcq-10": "「表示提議；出價；條件；例句：「她接受了那份工作邀請／錄用條件。」」是「offer — proposal = proposal to give, buy, sell, or do something 提議；出價；條件」的用法，與本句語境不同。"
+        "offer-mcq-13": "本句的「offer」指「表示優惠；特價；例句：「這家店這星期有特別優惠。」」。",
+        "offer-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-13"
     },
@@ -1235,10 +1131,8 @@ export default {
       "masked": "We received three ____ for the property.",
       "options": [
         "offer-mcq-14",
-        "offer-mcq-13",
-        "offer-mcq-15",
-        "offer-mcq-12",
-        "offer-mcq-16",
+        "offer-mcq-02",
+        "offer-mcq-20",
         "offer-mcq-11"
       ],
       "explanation": "本句的「offers」指「表示出價；報價；例句：「我們收到三個對房產的出價。」」。",
@@ -1248,12 +1142,10 @@ export default {
         "offers"
       ],
       "optionReasons": {
-        "offer-mcq-14": "本句指「表示出價；報價；例句：「我們收到三個對房產的出價。」」。",
-        "offer-mcq-13": "「表示優惠；特價；例句：「這家店這星期有特別優惠。」」是「offer — special deal = temporary deal in which a product/service is cheaper or includes extra value 優惠；特價」的用法，與本句語境不同。",
-        "offer-mcq-15": "「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」是「offer an apology / thanks / congratulations = formally or deliberately express something 表示道歉／感謝／祝賀」的用法，與本句語境不同。",
-        "offer-mcq-12": "「表示出價；提出條件；例句：「他們對那間公寓出價。」」是「make an offer = propose a price or terms 出價；提出條件」的用法，與本句語境不同。",
-        "offer-mcq-16": "「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」是「offer a prayer / sacrifice = present something ceremonially or religiously 奉上；獻上」的用法，與本句語境不同。",
-        "offer-mcq-11": "「表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」」是「job offer = formal proposal of employment 工作邀請；錄用通知」的用法，與本句語境不同。"
+        "offer-mcq-14": "本句的「offers」指「表示出價；報價；例句：「我們收到三個對房產的出價。」」。",
+        "offer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-14"
     },
@@ -1265,11 +1157,9 @@ export default {
       "masked": "Their final ____ was too low.",
       "options": [
         "offer-mcq-14",
-        "offer-mcq-13",
-        "offer-mcq-15",
-        "offer-mcq-12",
-        "offer-mcq-16",
-        "offer-mcq-11"
+        "offer-mcq-19",
+        "offer-mcq-08",
+        "offer-mcq-15"
       ],
       "explanation": "本句的「offer」指「表示出價；報價；例句：「我們收到三個對房產的出價。」」。",
       "sentenceIndex": 27,
@@ -1278,12 +1168,10 @@ export default {
         "offer"
       ],
       "optionReasons": {
-        "offer-mcq-14": "本句指「表示出價；報價；例句：「我們收到三個對房產的出價。」」。",
-        "offer-mcq-13": "「表示優惠；特價；例句：「這家店這星期有特別優惠。」」是「offer — special deal = temporary deal in which a product/service is cheaper or includes extra value 優惠；特價」的用法，與本句語境不同。",
-        "offer-mcq-15": "「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」是「offer an apology / thanks / congratulations = formally or deliberately express something 表示道歉／感謝／祝賀」的用法，與本句語境不同。",
-        "offer-mcq-12": "「表示出價；提出條件；例句：「他們對那間公寓出價。」」是「make an offer = propose a price or terms 出價；提出條件」的用法，與本句語境不同。",
-        "offer-mcq-16": "「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」是「offer a prayer / sacrifice = present something ceremonially or religiously 奉上；獻上」的用法，與本句語境不同。",
-        "offer-mcq-11": "「表示工作邀請；錄用通知；例句：「他昨天收到一份工作邀請。」」是「job offer = formal proposal of employment 工作邀請；錄用通知」的用法，與本句語境不同。"
+        "offer-mcq-14": "本句的「offer」指「表示出價；報價；例句：「我們收到三個對房產的出價。」」。",
+        "offer-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-14"
     },
@@ -1295,11 +1183,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "offer-mcq-15",
-        "offer-mcq-14",
-        "offer-mcq-16",
-        "offer-mcq-13",
         "offer-mcq-17",
-        "offer-mcq-12"
+        "offer-mcq-11",
+        "offer-mcq-16"
       ],
       "explanation": "本句的「offered an apology」指「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」。",
       "sentenceIndex": 28,
@@ -1308,12 +1194,10 @@ export default {
         "offered an apology"
       ],
       "optionReasons": {
-        "offer-mcq-15": "本句指「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」。",
-        "offer-mcq-14": "「表示出價；報價；例句：「我們收到三個對房產的出價。」」是「offer — amount someone is willing to pay = proposed price for something 出價；報價」的用法，與本句語境不同。",
-        "offer-mcq-16": "「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」是「offer a prayer / sacrifice = present something ceremonially or religiously 奉上；獻上」的用法，與本句語境不同。",
-        "offer-mcq-13": "「表示優惠；特價；例句：「這家店這星期有特別優惠。」」是「offer — special deal = temporary deal in which a product/service is cheaper or includes extra value 優惠；特價」的用法，與本句語境不同。",
-        "offer-mcq-17": "「表示提出證據／證詞；例句：「律師提出證據支持該主張。」」是「offer evidence / testimony Formal/legal: = formally present evidence or testimony for consideration 提出證據／證詞」的用法，與本句語境不同。",
-        "offer-mcq-12": "「表示出價；提出條件；例句：「他們對那間公寓出價。」」是「make an offer = propose a price or terms 出價；提出條件」的用法，與本句語境不同。"
+        "offer-mcq-15": "本句的「offered an apology」指「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」。",
+        "offer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-15"
     },
@@ -1325,11 +1209,9 @@ export default {
       "masked": "She ____ to the team.",
       "options": [
         "offer-mcq-15",
-        "offer-mcq-14",
-        "offer-mcq-16",
         "offer-mcq-13",
-        "offer-mcq-17",
-        "offer-mcq-12"
+        "offer-mcq-01",
+        "offer-mcq-05"
       ],
       "explanation": "本句的「offered her thanks」指「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」。",
       "sentenceIndex": 29,
@@ -1338,12 +1220,10 @@ export default {
         "offered her thanks"
       ],
       "optionReasons": {
-        "offer-mcq-15": "本句指「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」。",
-        "offer-mcq-14": "「表示出價；報價；例句：「我們收到三個對房產的出價。」」是「offer — amount someone is willing to pay = proposed price for something 出價；報價」的用法，與本句語境不同。",
-        "offer-mcq-16": "「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」是「offer a prayer / sacrifice = present something ceremonially or religiously 奉上；獻上」的用法，與本句語境不同。",
-        "offer-mcq-13": "「表示優惠；特價；例句：「這家店這星期有特別優惠。」」是「offer — special deal = temporary deal in which a product/service is cheaper or includes extra value 優惠；特價」的用法，與本句語境不同。",
-        "offer-mcq-17": "「表示提出證據／證詞；例句：「律師提出證據支持該主張。」」是「offer evidence / testimony Formal/legal: = formally present evidence or testimony for consideration 提出證據／證詞」的用法，與本句語境不同。",
-        "offer-mcq-12": "「表示出價；提出條件；例句：「他們對那間公寓出價。」」是「make an offer = propose a price or terms 出價；提出條件」的用法，與本句語境不同。"
+        "offer-mcq-15": "本句的「offered her thanks」指「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」。",
+        "offer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-15"
     },
@@ -1355,11 +1235,9 @@ export default {
       "masked": "They ____ for the victims.",
       "options": [
         "offer-mcq-16",
-        "offer-mcq-15",
-        "offer-mcq-17",
-        "offer-mcq-14",
-        "offer-mcq-18",
-        "offer-mcq-13"
+        "offer-mcq-04",
+        "offer-mcq-11",
+        "offer-mcq-15"
       ],
       "explanation": "本句的「offered a prayer」指「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」。",
       "sentenceIndex": 30,
@@ -1368,12 +1246,10 @@ export default {
         "offered a prayer"
       ],
       "optionReasons": {
-        "offer-mcq-16": "本句指「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」。",
-        "offer-mcq-15": "「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」是「offer an apology / thanks / congratulations = formally or deliberately express something 表示道歉／感謝／祝賀」的用法，與本句語境不同。",
-        "offer-mcq-17": "「表示提出證據／證詞；例句：「律師提出證據支持該主張。」」是「offer evidence / testimony Formal/legal: = formally present evidence or testimony for consideration 提出證據／證詞」的用法，與本句語境不同。",
-        "offer-mcq-14": "「表示出價；報價；例句：「我們收到三個對房產的出價。」」是「offer — amount someone is willing to pay = proposed price for something 出價；報價」的用法，與本句語境不同。",
-        "offer-mcq-18": "「表示接受某人的提議；例句：「我可能會接受你的提議。」」是「take someone up on an offer = accept someone’s offer 接受某人的提議」的用法，與本句語境不同。",
-        "offer-mcq-13": "「表示優惠；特價；例句：「這家店這星期有特別優惠。」」是「offer — special deal = temporary deal in which a product/service is cheaper or includes extra value 優惠；特價」的用法，與本句語境不同。"
+        "offer-mcq-16": "本句的「offered a prayer」指「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」。",
+        "offer-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-16"
     },
@@ -1386,10 +1262,8 @@ export default {
       "options": [
         "offer-mcq-16",
         "offer-mcq-15",
-        "offer-mcq-17",
-        "offer-mcq-14",
-        "offer-mcq-18",
-        "offer-mcq-13"
+        "offer-mcq-06",
+        "offer-mcq-17"
       ],
       "explanation": "本句的「offering a sacrifice」指「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」。",
       "sentenceIndex": 31,
@@ -1398,12 +1272,10 @@ export default {
         "offering a sacrifice"
       ],
       "optionReasons": {
-        "offer-mcq-16": "本句指「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」。",
-        "offer-mcq-15": "「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」是「offer an apology / thanks / congratulations = formally or deliberately express something 表示道歉／感謝／祝賀」的用法，與本句語境不同。",
-        "offer-mcq-17": "「表示提出證據／證詞；例句：「律師提出證據支持該主張。」」是「offer evidence / testimony Formal/legal: = formally present evidence or testimony for consideration 提出證據／證詞」的用法，與本句語境不同。",
-        "offer-mcq-14": "「表示出價；報價；例句：「我們收到三個對房產的出價。」」是「offer — amount someone is willing to pay = proposed price for something 出價；報價」的用法，與本句語境不同。",
-        "offer-mcq-18": "「表示接受某人的提議；例句：「我可能會接受你的提議。」」是「take someone up on an offer = accept someone’s offer 接受某人的提議」的用法，與本句語境不同。",
-        "offer-mcq-13": "「表示優惠；特價；例句：「這家店這星期有特別優惠。」」是「offer — special deal = temporary deal in which a product/service is cheaper or includes extra value 優惠；特價」的用法，與本句語境不同。"
+        "offer-mcq-16": "本句的「offering a sacrifice」指「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-16"
     },
@@ -1415,11 +1287,9 @@ export default {
       "masked": "The lawyer ____ in support of the claim.",
       "options": [
         "offer-mcq-17",
-        "offer-mcq-16",
-        "offer-mcq-18",
         "offer-mcq-15",
-        "offer-mcq-19",
-        "offer-mcq-14"
+        "offer-mcq-13",
+        "offer-mcq-16"
       ],
       "explanation": "本句的「offered evidence」指「表示提出證據／證詞；例句：「律師提出證據支持該主張。」」。",
       "sentenceIndex": 32,
@@ -1428,12 +1298,10 @@ export default {
         "offered evidence"
       ],
       "optionReasons": {
-        "offer-mcq-17": "本句指「表示提出證據／證詞；例句：「律師提出證據支持該主張。」」。",
-        "offer-mcq-16": "「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」是「offer a prayer / sacrifice = present something ceremonially or religiously 奉上；獻上」的用法，與本句語境不同。",
-        "offer-mcq-18": "「表示接受某人的提議；例句：「我可能會接受你的提議。」」是「take someone up on an offer = accept someone’s offer 接受某人的提議」的用法，與本句語境不同。",
-        "offer-mcq-15": "「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」是「offer an apology / thanks / congratulations = formally or deliberately express something 表示道歉／感謝／祝賀」的用法，與本句語境不同。",
-        "offer-mcq-19": "「表示拒絕提議／條件；例句：「他拒絕了那個提議。」」是「turn down an offer = refuse an offer 拒絕提議／條件」的用法，與本句語境不同。",
-        "offer-mcq-14": "「表示出價；報價；例句：「我們收到三個對房產的出價。」」是「offer — amount someone is willing to pay = proposed price for something 出價；報價」的用法，與本句語境不同。"
+        "offer-mcq-17": "本句的「offered evidence」指「表示提出證據／證詞；例句：「律師提出證據支持該主張。」」。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-17"
     },
@@ -1445,11 +1313,9 @@ export default {
       "masked": "The witness ____.",
       "options": [
         "offer-mcq-17",
-        "offer-mcq-16",
-        "offer-mcq-18",
+        "offer-mcq-13",
         "offer-mcq-15",
-        "offer-mcq-19",
-        "offer-mcq-14"
+        "offer-mcq-16"
       ],
       "explanation": "本句的「offered testimony」指「表示提出證據／證詞；例句：「律師提出證據支持該主張。」」。",
       "sentenceIndex": 33,
@@ -1458,12 +1324,10 @@ export default {
         "offered testimony"
       ],
       "optionReasons": {
-        "offer-mcq-17": "本句指「表示提出證據／證詞；例句：「律師提出證據支持該主張。」」。",
-        "offer-mcq-16": "「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」是「offer a prayer / sacrifice = present something ceremonially or religiously 奉上；獻上」的用法，與本句語境不同。",
-        "offer-mcq-18": "「表示接受某人的提議；例句：「我可能會接受你的提議。」」是「take someone up on an offer = accept someone’s offer 接受某人的提議」的用法，與本句語境不同。",
-        "offer-mcq-15": "「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」是「offer an apology / thanks / congratulations = formally or deliberately express something 表示道歉／感謝／祝賀」的用法，與本句語境不同。",
-        "offer-mcq-19": "「表示拒絕提議／條件；例句：「他拒絕了那個提議。」」是「turn down an offer = refuse an offer 拒絕提議／條件」的用法，與本句語境不同。",
-        "offer-mcq-14": "「表示出價；報價；例句：「我們收到三個對房產的出價。」」是「offer — amount someone is willing to pay = proposed price for something 出價；報價」的用法，與本句語境不同。"
+        "offer-mcq-17": "本句的「offered testimony」指「表示提出證據／證詞；例句：「律師提出證據支持該主張。」」。",
+        "offer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-17"
     },
@@ -1475,10 +1339,8 @@ export default {
       "masked": "I may ____.",
       "options": [
         "offer-mcq-18",
-        "offer-mcq-17",
-        "offer-mcq-19",
-        "offer-mcq-16",
-        "offer-mcq-20",
+        "offer-mcq-11",
+        "offer-mcq-13",
         "offer-mcq-15"
       ],
       "explanation": "本句的「take you up on that offer」指「表示接受某人的提議；例句：「我可能會接受你的提議。」」。",
@@ -1488,12 +1350,10 @@ export default {
         "take you up on that offer"
       ],
       "optionReasons": {
-        "offer-mcq-18": "本句指「表示接受某人的提議；例句：「我可能會接受你的提議。」」。",
-        "offer-mcq-17": "「表示提出證據／證詞；例句：「律師提出證據支持該主張。」」是「offer evidence / testimony Formal/legal: = formally present evidence or testimony for consideration 提出證據／證詞」的用法，與本句語境不同。",
-        "offer-mcq-19": "「表示拒絕提議／條件；例句：「他拒絕了那個提議。」」是「turn down an offer = refuse an offer 拒絕提議／條件」的用法，與本句語境不同。",
-        "offer-mcq-16": "「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」是「offer a prayer / sacrifice = present something ceremonially or religiously 奉上；獻上」的用法，與本句語境不同。",
-        "offer-mcq-20": "「表示難以拒絕的提議；例句：「那個折扣實在是個難以拒絕的優惠。」」是「an offer you can’t refuse = extremely attractive offer, or humorously/coercively an offer difficult to reject 難以拒絕的提議」的用法，與本句語境不同。",
-        "offer-mcq-15": "「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」是「offer an apology / thanks / congratulations = formally or deliberately express something 表示道歉／感謝／祝賀」的用法，與本句語境不同。"
+        "offer-mcq-18": "本句的「take you up on that offer」指「表示接受某人的提議；例句：「我可能會接受你的提議。」」。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-18"
     },
@@ -1505,10 +1365,8 @@ export default {
       "masked": "She ____ to help.",
       "options": [
         "offer-mcq-18",
-        "offer-mcq-17",
-        "offer-mcq-19",
         "offer-mcq-16",
-        "offer-mcq-20",
+        "offer-mcq-11",
         "offer-mcq-15"
       ],
       "explanation": "本句的「took him up on his offer」指「表示接受某人的提議；例句：「我可能會接受你的提議。」」。",
@@ -1518,12 +1376,10 @@ export default {
         "took him up on his offer"
       ],
       "optionReasons": {
-        "offer-mcq-18": "本句指「表示接受某人的提議；例句：「我可能會接受你的提議。」」。",
-        "offer-mcq-17": "「表示提出證據／證詞；例句：「律師提出證據支持該主張。」」是「offer evidence / testimony Formal/legal: = formally present evidence or testimony for consideration 提出證據／證詞」的用法，與本句語境不同。",
-        "offer-mcq-19": "「表示拒絕提議／條件；例句：「他拒絕了那個提議。」」是「turn down an offer = refuse an offer 拒絕提議／條件」的用法，與本句語境不同。",
-        "offer-mcq-16": "「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」是「offer a prayer / sacrifice = present something ceremonially or religiously 奉上；獻上」的用法，與本句語境不同。",
-        "offer-mcq-20": "「表示難以拒絕的提議；例句：「那個折扣實在是個難以拒絕的優惠。」」是「an offer you can’t refuse = extremely attractive offer, or humorously/coercively an offer difficult to reject 難以拒絕的提議」的用法，與本句語境不同。",
-        "offer-mcq-15": "「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」是「offer an apology / thanks / congratulations = formally or deliberately express something 表示道歉／感謝／祝賀」的用法，與本句語境不同。"
+        "offer-mcq-18": "本句的「took him up on his offer」指「表示接受某人的提議；例句：「我可能會接受你的提議。」」。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-18"
     },
@@ -1535,10 +1391,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "offer-mcq-19",
-        "offer-mcq-18",
-        "offer-mcq-20",
-        "offer-mcq-17",
-        "offer-mcq-16",
+        "offer-mcq-11",
+        "offer-mcq-14",
         "offer-mcq-15"
       ],
       "explanation": "本句的「turned down the offer」指「表示拒絕提議／條件；例句：「他拒絕了那個提議。」」。",
@@ -1548,12 +1402,10 @@ export default {
         "turned down the offer"
       ],
       "optionReasons": {
-        "offer-mcq-19": "本句指「表示拒絕提議／條件；例句：「他拒絕了那個提議。」」。",
-        "offer-mcq-18": "「表示接受某人的提議；例句：「我可能會接受你的提議。」」是「take someone up on an offer = accept someone’s offer 接受某人的提議」的用法，與本句語境不同。",
-        "offer-mcq-20": "「表示難以拒絕的提議；例句：「那個折扣實在是個難以拒絕的優惠。」」是「an offer you can’t refuse = extremely attractive offer, or humorously/coercively an offer difficult to reject 難以拒絕的提議」的用法，與本句語境不同。",
-        "offer-mcq-17": "「表示提出證據／證詞；例句：「律師提出證據支持該主張。」」是「offer evidence / testimony Formal/legal: = formally present evidence or testimony for consideration 提出證據／證詞」的用法，與本句語境不同。",
-        "offer-mcq-16": "「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」是「offer a prayer / sacrifice = present something ceremonially or religiously 奉上；獻上」的用法，與本句語境不同。",
-        "offer-mcq-15": "「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」是「offer an apology / thanks / congratulations = formally or deliberately express something 表示道歉／感謝／祝賀」的用法，與本句語境不同。"
+        "offer-mcq-19": "本句的「turned down the offer」指「表示拒絕提議／條件；例句：「他拒絕了那個提議。」」。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-19"
     },
@@ -1565,11 +1417,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "offer-mcq-19",
-        "offer-mcq-18",
-        "offer-mcq-20",
-        "offer-mcq-17",
         "offer-mcq-16",
-        "offer-mcq-15"
+        "offer-mcq-13",
+        "offer-mcq-11"
       ],
       "explanation": "本句的「turned down a job offer」指「表示拒絕提議／條件；例句：「他拒絕了那個提議。」」。",
       "sentenceIndex": 37,
@@ -1578,12 +1428,10 @@ export default {
         "turned down a job offer"
       ],
       "optionReasons": {
-        "offer-mcq-19": "本句指「表示拒絕提議／條件；例句：「他拒絕了那個提議。」」。",
-        "offer-mcq-18": "「表示接受某人的提議；例句：「我可能會接受你的提議。」」是「take someone up on an offer = accept someone’s offer 接受某人的提議」的用法，與本句語境不同。",
-        "offer-mcq-20": "「表示難以拒絕的提議；例句：「那個折扣實在是個難以拒絕的優惠。」」是「an offer you can’t refuse = extremely attractive offer, or humorously/coercively an offer difficult to reject 難以拒絕的提議」的用法，與本句語境不同。",
-        "offer-mcq-17": "「表示提出證據／證詞；例句：「律師提出證據支持該主張。」」是「offer evidence / testimony Formal/legal: = formally present evidence or testimony for consideration 提出證據／證詞」的用法，與本句語境不同。",
-        "offer-mcq-16": "「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」是「offer a prayer / sacrifice = present something ceremonially or religiously 奉上；獻上」的用法，與本句語境不同。",
-        "offer-mcq-15": "「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」是「offer an apology / thanks / congratulations = formally or deliberately express something 表示道歉／感謝／祝賀」的用法，與本句語境不同。"
+        "offer-mcq-19": "本句的「turned down a job offer」指「表示拒絕提議／條件；例句：「他拒絕了那個提議。」」。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-19"
     },
@@ -1595,11 +1443,9 @@ export default {
       "masked": "The discount was an ____.",
       "options": [
         "offer-mcq-20",
-        "offer-mcq-19",
-        "offer-mcq-18",
-        "offer-mcq-17",
-        "offer-mcq-16",
-        "offer-mcq-15"
+        "offer-mcq-11",
+        "offer-mcq-15",
+        "offer-mcq-16"
       ],
       "explanation": "本句的「offer I couldn’t refuse」指「表示難以拒絕的提議；例句：「那個折扣實在是個難以拒絕的優惠。」」。",
       "sentenceIndex": 38,
@@ -1608,12 +1454,10 @@ export default {
         "offer I couldn’t refuse"
       ],
       "optionReasons": {
-        "offer-mcq-20": "本句指「表示難以拒絕的提議；例句：「那個折扣實在是個難以拒絕的優惠。」」。",
-        "offer-mcq-19": "「表示拒絕提議／條件；例句：「他拒絕了那個提議。」」是「turn down an offer = refuse an offer 拒絕提議／條件」的用法，與本句語境不同。",
-        "offer-mcq-18": "「表示接受某人的提議；例句：「我可能會接受你的提議。」」是「take someone up on an offer = accept someone’s offer 接受某人的提議」的用法，與本句語境不同。",
-        "offer-mcq-17": "「表示提出證據／證詞；例句：「律師提出證據支持該主張。」」是「offer evidence / testimony Formal/legal: = formally present evidence or testimony for consideration 提出證據／證詞」的用法，與本句語境不同。",
-        "offer-mcq-16": "「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」是「offer a prayer / sacrifice = present something ceremonially or religiously 奉上；獻上」的用法，與本句語境不同。",
-        "offer-mcq-15": "「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」是「offer an apology / thanks / congratulations = formally or deliberately express something 表示道歉／感謝／祝賀」的用法，與本句語境不同。"
+        "offer-mcq-20": "本句的「offer I couldn’t refuse」指「表示難以拒絕的提議；例句：「那個折扣實在是個難以拒絕的優惠。」」。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-20"
     },
@@ -1625,11 +1469,9 @@ export default {
       "masked": "He jokingly called it an ____.",
       "options": [
         "offer-mcq-20",
-        "offer-mcq-19",
-        "offer-mcq-18",
-        "offer-mcq-17",
+        "offer-mcq-14",
         "offer-mcq-16",
-        "offer-mcq-15"
+        "offer-mcq-11"
       ],
       "explanation": "本句的「offer she couldn’t refuse」指「表示難以拒絕的提議；例句：「那個折扣實在是個難以拒絕的優惠。」」。",
       "sentenceIndex": 39,
@@ -1638,12 +1480,10 @@ export default {
         "offer she couldn’t refuse"
       ],
       "optionReasons": {
-        "offer-mcq-20": "本句指「表示難以拒絕的提議；例句：「那個折扣實在是個難以拒絕的優惠。」」。",
-        "offer-mcq-19": "「表示拒絕提議／條件；例句：「他拒絕了那個提議。」」是「turn down an offer = refuse an offer 拒絕提議／條件」的用法，與本句語境不同。",
-        "offer-mcq-18": "「表示接受某人的提議；例句：「我可能會接受你的提議。」」是「take someone up on an offer = accept someone’s offer 接受某人的提議」的用法，與本句語境不同。",
-        "offer-mcq-17": "「表示提出證據／證詞；例句：「律師提出證據支持該主張。」」是「offer evidence / testimony Formal/legal: = formally present evidence or testimony for consideration 提出證據／證詞」的用法，與本句語境不同。",
-        "offer-mcq-16": "「表示奉上；獻上；例句：「他們為受害者獻上祈禱。」」是「offer a prayer / sacrifice = present something ceremonially or religiously 奉上；獻上」的用法，與本句語境不同。",
-        "offer-mcq-15": "「表示表示道歉／感謝／祝賀；例句：「他表示了歉意。」」是「offer an apology / thanks / congratulations = formally or deliberately express something 表示道歉／感謝／祝賀」的用法，與本句語境不同。"
+        "offer-mcq-20": "本句的「offer she couldn’t refuse」指「表示難以拒絕的提議；例句：「那個折扣實在是個難以拒絕的優惠。」」。",
+        "offer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "offer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "offer-mcq-20"
     }
@@ -1655,5 +1495,7 @@ export default {
     "sha256": "e6f8dff3fa1865e14d1f4ddc56846cd36bb9a8cfc3fde75b7ce08d1721034d30",
     "pages": 14
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

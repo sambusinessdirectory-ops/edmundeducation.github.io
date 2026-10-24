@@ -193,16 +193,6 @@ export default {
       "note": "來源詞義：工作以抵償自己的食宿／證明自己值得被供養",
       "examples": [
         [
-          "Customers earn points on every purchase.",
-          "顧客每次消費都可以賺取／累積積分。",
-          "工作以抵償自己的食宿／證明自己值得被供養"
-        ],
-        [
-          "You can earn airline miles by using the card.",
-          "使用這張卡可以累積航空里數。",
-          "工作以抵償自己的食宿／證明自己值得被供養"
-        ],
-        [
           "Everyone on the farm was expected to earn their keep.",
           "農場上的每個人都要工作，以換取自己的食宿／維持自己的生活所需。",
           "工作以抵償自己的食宿／證明自己值得被供養"
@@ -300,6 +290,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "earn-reviewed-12a0fb1def",
+      "title": "賺取／累積積分、里數、獎賞",
+      "form": "earn · source section 10",
+      "en": "賺取／累積積分、里數、獎賞",
+      "zh": "賺取／累積積分、里數、獎賞",
+      "note": "對照原始教材第 10 節及例句核實。",
+      "examples": [
+        [
+          "Customers earn points on every purchase.",
+          "顧客每次消費都可以賺取／累積積分。",
+          "賺取／累積積分、里數、獎賞"
+        ],
+        [
+          "You can earn airline miles by using the card.",
+          "使用這張卡可以累積航空里數。",
+          "賺取／累積積分、里數、獎賞"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -311,11 +323,8 @@ export default {
       "masked": "Tutors ____ income by teaching students.",
       "options": [
         "earn-mcq-01",
-        "earn-mcq-02",
-        "earn-mcq-03",
-        "earn-mcq-04",
-        "earn-mcq-05",
-        "earn-mcq-06"
+        "earn-mcq-07",
+        "earn-reviewed-12a0fb1def"
       ],
       "explanation": "本句的「earn」指「因工作、勞動或提供服務而取得金錢／收入」。",
       "sentenceIndex": 0,
@@ -324,12 +333,9 @@ export default {
         "earn"
       ],
       "optionReasons": {
-        "earn-mcq-01": "本句指「因工作、勞動或提供服務而取得金錢／收入」。",
-        "earn-mcq-02": "「透過工作取得足以維持生活的收入；謀生」與本句語境不同。",
-        "earn-mcq-03": "「資金／投資產生利息、收益或回報」與本句語境不同。",
-        "earn-mcq-04": "「因努力、能力或達到要求而取得資格、機會、分數、學位等」與本句語境不同。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。"
+        "earn-mcq-01": "本句的「earn」指「因工作、勞動或提供服務而取得金錢／收入」。",
+        "earn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-01"
     },
@@ -341,11 +347,8 @@ export default {
       "masked": "She ____ $20 an hour.",
       "options": [
         "earn-mcq-01",
-        "earn-mcq-02",
-        "earn-mcq-03",
-        "earn-mcq-04",
-        "earn-mcq-05",
-        "earn-mcq-06"
+        "earn-mcq-07",
+        "earn-reviewed-12a0fb1def"
       ],
       "explanation": "本句的「earns」指「因工作、勞動或提供服務而取得金錢／收入」。",
       "sentenceIndex": 1,
@@ -354,12 +357,9 @@ export default {
         "earns"
       ],
       "optionReasons": {
-        "earn-mcq-01": "本句指「因工作、勞動或提供服務而取得金錢／收入」。",
-        "earn-mcq-02": "「透過工作取得足以維持生活的收入；謀生」與本句語境不同。",
-        "earn-mcq-03": "「資金／投資產生利息、收益或回報」與本句語境不同。",
-        "earn-mcq-04": "「因努力、能力或達到要求而取得資格、機會、分數、學位等」與本句語境不同。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。"
+        "earn-mcq-01": "本句的「earns」指「因工作、勞動或提供服務而取得金錢／收入」。",
+        "earn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-01"
     },
@@ -371,11 +371,8 @@ export default {
       "masked": "He ____ his money by repairing computers.",
       "options": [
         "earn-mcq-01",
-        "earn-mcq-02",
-        "earn-mcq-03",
-        "earn-mcq-04",
-        "earn-mcq-05",
-        "earn-mcq-06"
+        "earn-mcq-07",
+        "earn-reviewed-12a0fb1def"
       ],
       "explanation": "本句的「earns」指「因工作、勞動或提供服務而取得金錢／收入」。",
       "sentenceIndex": 2,
@@ -384,12 +381,9 @@ export default {
         "earns"
       ],
       "optionReasons": {
-        "earn-mcq-01": "本句指「因工作、勞動或提供服務而取得金錢／收入」。",
-        "earn-mcq-02": "「透過工作取得足以維持生活的收入；謀生」與本句語境不同。",
-        "earn-mcq-03": "「資金／投資產生利息、收益或回報」與本句語境不同。",
-        "earn-mcq-04": "「因努力、能力或達到要求而取得資格、機會、分數、學位等」與本句語境不同。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。"
+        "earn-mcq-01": "本句的「earns」指「因工作、勞動或提供服務而取得金錢／收入」。",
+        "earn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-01"
     },
@@ -401,11 +395,8 @@ export default {
       "masked": "She ____ as a designer.",
       "options": [
         "earn-mcq-02",
-        "earn-mcq-01",
-        "earn-mcq-03",
-        "earn-mcq-04",
-        "earn-mcq-05",
-        "earn-mcq-06"
+        "earn-mcq-06",
+        "earn-reviewed-12a0fb1def"
       ],
       "explanation": "本句的「earns a living」指「透過工作取得足以維持生活的收入；謀生」。",
       "sentenceIndex": 3,
@@ -414,12 +405,9 @@ export default {
         "earns a living"
       ],
       "optionReasons": {
-        "earn-mcq-02": "本句指「透過工作取得足以維持生活的收入；謀生」。",
-        "earn-mcq-01": "「因工作、勞動或提供服務而取得金錢／收入」與本句語境不同。",
-        "earn-mcq-03": "「資金／投資產生利息、收益或回報」與本句語境不同。",
-        "earn-mcq-04": "「因努力、能力或達到要求而取得資格、機會、分數、學位等」與本句語境不同。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。"
+        "earn-mcq-02": "本句的「earns a living」指「透過工作取得足以維持生活的收入；謀生」。",
+        "earn-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-02"
     },
@@ -431,11 +419,8 @@ export default {
       "masked": "It is difficult to ____ from seasonal work alone.",
       "options": [
         "earn-mcq-02",
-        "earn-mcq-01",
-        "earn-mcq-03",
-        "earn-mcq-04",
-        "earn-mcq-05",
-        "earn-mcq-06"
+        "earn-mcq-07",
+        "earn-reviewed-12a0fb1def"
       ],
       "explanation": "本句的「earn a living」指「透過工作取得足以維持生活的收入；謀生」。",
       "sentenceIndex": 4,
@@ -444,12 +429,9 @@ export default {
         "earn a living"
       ],
       "optionReasons": {
-        "earn-mcq-02": "本句指「透過工作取得足以維持生活的收入；謀生」。",
-        "earn-mcq-01": "「因工作、勞動或提供服務而取得金錢／收入」與本句語境不同。",
-        "earn-mcq-03": "「資金／投資產生利息、收益或回報」與本句語境不同。",
-        "earn-mcq-04": "「因努力、能力或達到要求而取得資格、機會、分數、學位等」與本句語境不同。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。"
+        "earn-mcq-02": "本句的「earn a living」指「透過工作取得足以維持生活的收入；謀生」。",
+        "earn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-02"
     },
@@ -461,10 +443,8 @@ export default {
       "masked": "The account ____ interest every month.",
       "options": [
         "earn-mcq-03",
-        "earn-mcq-02",
-        "earn-mcq-04",
-        "earn-mcq-01",
-        "earn-mcq-05",
+        "earn-reviewed-12a0fb1def",
+        "earn-mcq-09",
         "earn-mcq-06"
       ],
       "explanation": "本句的「earns」指「資金／投資產生利息、收益或回報」。",
@@ -474,12 +454,10 @@ export default {
         "earns"
       ],
       "optionReasons": {
-        "earn-mcq-03": "本句指「資金／投資產生利息、收益或回報」。",
-        "earn-mcq-02": "「透過工作取得足以維持生活的收入；謀生」與本句語境不同。",
-        "earn-mcq-04": "「因努力、能力或達到要求而取得資格、機會、分數、學位等」與本句語境不同。",
-        "earn-mcq-01": "「因工作、勞動或提供服務而取得金錢／收入」與本句語境不同。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。"
+        "earn-mcq-03": "本句的「earns」指「資金／投資產生利息、收益或回報」。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-03"
     },
@@ -491,11 +469,9 @@ export default {
       "masked": "The investment ____ a 6% return.",
       "options": [
         "earn-mcq-03",
-        "earn-mcq-02",
-        "earn-mcq-04",
-        "earn-mcq-01",
-        "earn-mcq-05",
-        "earn-mcq-06"
+        "earn-mcq-09",
+        "earn-mcq-06",
+        "earn-reviewed-12a0fb1def"
       ],
       "explanation": "本句的「earned」指「資金／投資產生利息、收益或回報」。",
       "sentenceIndex": 6,
@@ -504,12 +480,10 @@ export default {
         "earned"
       ],
       "optionReasons": {
-        "earn-mcq-03": "本句指「資金／投資產生利息、收益或回報」。",
-        "earn-mcq-02": "「透過工作取得足以維持生活的收入；謀生」與本句語境不同。",
-        "earn-mcq-04": "「因努力、能力或達到要求而取得資格、機會、分數、學位等」與本句語境不同。",
-        "earn-mcq-01": "「因工作、勞動或提供服務而取得金錢／收入」與本句語境不同。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。"
+        "earn-mcq-03": "本句的「earned」指「資金／投資產生利息、收益或回報」。",
+        "earn-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-03"
     },
@@ -521,11 +495,8 @@ export default {
       "masked": "She ____ a place at the university.",
       "options": [
         "earn-mcq-04",
-        "earn-mcq-03",
-        "earn-mcq-05",
-        "earn-mcq-02",
-        "earn-mcq-06",
-        "earn-mcq-01"
+        "earn-mcq-07",
+        "earn-mcq-08"
       ],
       "explanation": "本句的「earned」指「因努力、能力或達到要求而取得資格、機會、分數、學位等」。",
       "sentenceIndex": 7,
@@ -534,12 +505,9 @@ export default {
         "earned"
       ],
       "optionReasons": {
-        "earn-mcq-04": "本句指「因努力、能力或達到要求而取得資格、機會、分數、學位等」。",
-        "earn-mcq-03": "「資金／投資產生利息、收益或回報」與本句語境不同。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。",
-        "earn-mcq-02": "「透過工作取得足以維持生活的收入；謀生」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。",
-        "earn-mcq-01": "「因工作、勞動或提供服務而取得金錢／收入」與本句語境不同。"
+        "earn-mcq-04": "本句的「earned」指「因努力、能力或達到要求而取得資格、機會、分數、學位等」。",
+        "earn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-04"
     },
@@ -551,11 +519,8 @@ export default {
       "masked": "He ____ a promotion after years of hard work.",
       "options": [
         "earn-mcq-04",
-        "earn-mcq-03",
-        "earn-mcq-05",
-        "earn-mcq-02",
-        "earn-mcq-06",
-        "earn-mcq-01"
+        "earn-mcq-08",
+        "earn-mcq-07"
       ],
       "explanation": "本句的「earned」指「因努力、能力或達到要求而取得資格、機會、分數、學位等」。",
       "sentenceIndex": 8,
@@ -564,12 +529,9 @@ export default {
         "earned"
       ],
       "optionReasons": {
-        "earn-mcq-04": "本句指「因努力、能力或達到要求而取得資格、機會、分數、學位等」。",
-        "earn-mcq-03": "「資金／投資產生利息、收益或回報」與本句語境不同。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。",
-        "earn-mcq-02": "「透過工作取得足以維持生活的收入；謀生」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。",
-        "earn-mcq-01": "「因工作、勞動或提供服務而取得金錢／收入」與本句語境不同。"
+        "earn-mcq-04": "本句的「earned」指「因努力、能力或達到要求而取得資格、機會、分數、學位等」。",
+        "earn-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-04"
     },
@@ -581,11 +543,9 @@ export default {
       "masked": "Students can ____ extra credits by completing the project.",
       "options": [
         "earn-mcq-04",
-        "earn-mcq-03",
-        "earn-mcq-05",
-        "earn-mcq-02",
-        "earn-mcq-06",
-        "earn-mcq-01"
+        "earn-mcq-11",
+        "earn-mcq-08",
+        "earn-mcq-05"
       ],
       "explanation": "本句的「earn」指「因努力、能力或達到要求而取得資格、機會、分數、學位等」。",
       "sentenceIndex": 9,
@@ -594,12 +554,10 @@ export default {
         "earn"
       ],
       "optionReasons": {
-        "earn-mcq-04": "本句指「因努力、能力或達到要求而取得資格、機會、分數、學位等」。",
-        "earn-mcq-03": "「資金／投資產生利息、收益或回報」與本句語境不同。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。",
-        "earn-mcq-02": "「透過工作取得足以維持生活的收入；謀生」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。",
-        "earn-mcq-01": "「因工作、勞動或提供服務而取得金錢／收入」與本句語境不同。"
+        "earn-mcq-04": "本句的「earn」指「因努力、能力或達到要求而取得資格、機會、分數、學位等」。",
+        "earn-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-04"
     },
@@ -611,11 +569,9 @@ export default {
       "masked": "She ____ a degree in engineering.",
       "options": [
         "earn-mcq-04",
-        "earn-mcq-03",
-        "earn-mcq-05",
-        "earn-mcq-02",
-        "earn-mcq-06",
-        "earn-mcq-01"
+        "earn-mcq-11",
+        "earn-mcq-08",
+        "earn-mcq-05"
       ],
       "explanation": "本句的「earned」指「因努力、能力或達到要求而取得資格、機會、分數、學位等」。",
       "sentenceIndex": 10,
@@ -624,12 +580,10 @@ export default {
         "earned"
       ],
       "optionReasons": {
-        "earn-mcq-04": "本句指「因努力、能力或達到要求而取得資格、機會、分數、學位等」。",
-        "earn-mcq-03": "「資金／投資產生利息、收益或回報」與本句語境不同。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。",
-        "earn-mcq-02": "「透過工作取得足以維持生活的收入；謀生」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。",
-        "earn-mcq-01": "「因工作、勞動或提供服務而取得金錢／收入」與本句語境不同。"
+        "earn-mcq-04": "本句的「earned」指「因努力、能力或達到要求而取得資格、機會、分數、學位等」。",
+        "earn-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-04"
     },
@@ -641,11 +595,9 @@ export default {
       "masked": "She quickly ____ the respect of her colleagues.",
       "options": [
         "earn-mcq-05",
-        "earn-mcq-04",
-        "earn-mcq-06",
-        "earn-mcq-03",
-        "earn-mcq-07",
-        "earn-mcq-02"
+        "earn-mcq-11",
+        "earn-reviewed-12a0fb1def",
+        "earn-mcq-13"
       ],
       "explanation": "本句的「earned」指「因行為或表現而逐漸贏得尊重、信任、認可或名聲」。",
       "sentenceIndex": 11,
@@ -654,12 +606,10 @@ export default {
         "earned"
       ],
       "optionReasons": {
-        "earn-mcq-05": "本句指「因行為或表現而逐漸贏得尊重、信任、認可或名聲」。",
-        "earn-mcq-04": "「因努力、能力或達到要求而取得資格、機會、分數、學位等」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。",
-        "earn-mcq-03": "「資金／投資產生利息、收益或回報」與本句語境不同。",
-        "earn-mcq-07": "「某項行為、表現或事件為某人帶來某種結果」與本句語境不同。",
-        "earn-mcq-02": "「透過工作取得足以維持生活的收入；謀生」與本句語境不同。"
+        "earn-mcq-05": "本句的「earned」指「因行為或表現而逐漸贏得尊重、信任、認可或名聲」。",
+        "earn-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-05"
     },
@@ -671,11 +621,9 @@ export default {
       "masked": "It takes time to ____ people’s trust.",
       "options": [
         "earn-mcq-05",
-        "earn-mcq-04",
-        "earn-mcq-06",
+        "earn-reviewed-12a0fb1def",
         "earn-mcq-03",
-        "earn-mcq-07",
-        "earn-mcq-02"
+        "earn-mcq-08"
       ],
       "explanation": "本句的「earn」指「因行為或表現而逐漸贏得尊重、信任、認可或名聲」。",
       "sentenceIndex": 12,
@@ -684,12 +632,10 @@ export default {
         "earn"
       ],
       "optionReasons": {
-        "earn-mcq-05": "本句指「因行為或表現而逐漸贏得尊重、信任、認可或名聲」。",
-        "earn-mcq-04": "「因努力、能力或達到要求而取得資格、機會、分數、學位等」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。",
-        "earn-mcq-03": "「資金／投資產生利息、收益或回報」與本句語境不同。",
-        "earn-mcq-07": "「某項行為、表現或事件為某人帶來某種結果」與本句語境不同。",
-        "earn-mcq-02": "「透過工作取得足以維持生活的收入；謀生」與本句語境不同。"
+        "earn-mcq-05": "本句的「earn」指「因行為或表現而逐漸贏得尊重、信任、認可或名聲」。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-05"
     },
@@ -701,11 +647,9 @@ export default {
       "masked": "His work ____ him international recognition.",
       "options": [
         "earn-mcq-05",
-        "earn-mcq-04",
-        "earn-mcq-06",
         "earn-mcq-03",
-        "earn-mcq-07",
-        "earn-mcq-02"
+        "earn-reviewed-12a0fb1def",
+        "earn-mcq-08"
       ],
       "explanation": "本句的「earned」指「因行為或表現而逐漸贏得尊重、信任、認可或名聲」。",
       "sentenceIndex": 13,
@@ -714,12 +658,10 @@ export default {
         "earned"
       ],
       "optionReasons": {
-        "earn-mcq-05": "本句指「因行為或表現而逐漸贏得尊重、信任、認可或名聲」。",
-        "earn-mcq-04": "「因努力、能力或達到要求而取得資格、機會、分數、學位等」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。",
-        "earn-mcq-03": "「資金／投資產生利息、收益或回報」與本句語境不同。",
-        "earn-mcq-07": "「某項行為、表現或事件為某人帶來某種結果」與本句語境不同。",
-        "earn-mcq-02": "「透過工作取得足以維持生活的收入；謀生」與本句語境不同。"
+        "earn-mcq-05": "本句的「earned」指「因行為或表現而逐漸贏得尊重、信任、認可或名聲」。",
+        "earn-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-05"
     },
@@ -731,11 +673,8 @@ export default {
       "masked": "You’ve ____ a rest.",
       "options": [
         "earn-mcq-06",
-        "earn-mcq-05",
-        "earn-mcq-07",
-        "earn-mcq-04",
-        "earn-mcq-08",
-        "earn-mcq-03"
+        "earn-mcq-02",
+        "earn-reviewed-12a0fb1def"
       ],
       "explanation": "本句的「earned」指「因自己的行為而應得／招致某種結果」。",
       "sentenceIndex": 16,
@@ -744,12 +683,9 @@ export default {
         "earned"
       ],
       "optionReasons": {
-        "earn-mcq-06": "本句指「因自己的行為而應得／招致某種結果」。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。",
-        "earn-mcq-07": "「某項行為、表現或事件為某人帶來某種結果」與本句語境不同。",
-        "earn-mcq-04": "「因努力、能力或達到要求而取得資格、機會、分數、學位等」與本句語境不同。",
-        "earn-mcq-08": "「工作以抵償自己的食宿／證明自己值得被供養」與本句語境不同。",
-        "earn-mcq-03": "「資金／投資產生利息、收益或回報」與本句語境不同。"
+        "earn-mcq-06": "本句的「earned」指「因自己的行為而應得／招致某種結果」。",
+        "earn-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-06"
     },
@@ -761,11 +697,9 @@ export default {
       "masked": "Her performance ____ her the award.",
       "options": [
         "earn-mcq-06",
-        "earn-mcq-05",
-        "earn-mcq-07",
-        "earn-mcq-04",
-        "earn-mcq-08",
-        "earn-mcq-03"
+        "earn-mcq-09",
+        "earn-mcq-11",
+        "earn-reviewed-12a0fb1def"
       ],
       "explanation": "本句的「earned」指「因自己的行為而應得／招致某種結果」。",
       "sentenceIndex": 17,
@@ -774,12 +708,10 @@ export default {
         "earned"
       ],
       "optionReasons": {
-        "earn-mcq-06": "本句指「因自己的行為而應得／招致某種結果」。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。",
-        "earn-mcq-07": "「某項行為、表現或事件為某人帶來某種結果」與本句語境不同。",
-        "earn-mcq-04": "「因努力、能力或達到要求而取得資格、機會、分數、學位等」與本句語境不同。",
-        "earn-mcq-08": "「工作以抵償自己的食宿／證明自己值得被供養」與本句語境不同。",
-        "earn-mcq-03": "「資金／投資產生利息、收益或回報」與本句語境不同。"
+        "earn-mcq-06": "本句的「earned」指「因自己的行為而應得／招致某種結果」。",
+        "earn-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-06"
     },
@@ -791,11 +723,8 @@ export default {
       "masked": "The goal ____ the team three points.",
       "options": [
         "earn-mcq-07",
-        "earn-mcq-06",
-        "earn-mcq-08",
-        "earn-mcq-05",
-        "earn-mcq-09",
-        "earn-mcq-04"
+        "earn-mcq-02",
+        "earn-reviewed-12a0fb1def"
       ],
       "explanation": "本句的「earned」指「某項行為、表現或事件為某人帶來某種結果」。",
       "sentenceIndex": 18,
@@ -804,12 +733,9 @@ export default {
         "earned"
       ],
       "optionReasons": {
-        "earn-mcq-07": "本句指「某項行為、表現或事件為某人帶來某種結果」。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。",
-        "earn-mcq-08": "「工作以抵償自己的食宿／證明自己值得被供養」與本句語境不同。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。",
-        "earn-mcq-09": "「透過經驗及努力證明能力並取得認可」與本句語境不同。",
-        "earn-mcq-04": "「因努力、能力或達到要求而取得資格、機會、分數、學位等」與本句語境不同。"
+        "earn-mcq-07": "本句的「earned」指「某項行為、表現或事件為某人帶來某種結果」。",
+        "earn-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-07"
     },
@@ -821,10 +747,7 @@ export default {
       "masked": "The mistake ____ him a warning.",
       "options": [
         "earn-mcq-07",
-        "earn-mcq-06",
         "earn-mcq-08",
-        "earn-mcq-05",
-        "earn-mcq-09",
         "earn-mcq-04"
       ],
       "explanation": "本句的「earned」指「某項行為、表現或事件為某人帶來某種結果」。",
@@ -834,12 +757,9 @@ export default {
         "earned"
       ],
       "optionReasons": {
-        "earn-mcq-07": "本句指「某項行為、表現或事件為某人帶來某種結果」。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。",
-        "earn-mcq-08": "「工作以抵償自己的食宿／證明自己值得被供養」與本句語境不同。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。",
-        "earn-mcq-09": "「透過經驗及努力證明能力並取得認可」與本句語境不同。",
-        "earn-mcq-04": "「因努力、能力或達到要求而取得資格、機會、分數、學位等」與本句語境不同。"
+        "earn-mcq-07": "本句的「earned」指「某項行為、表現或事件為某人帶來某種結果」。",
+        "earn-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-07"
     },
@@ -851,11 +771,8 @@ export default {
       "masked": "Her honesty ____ her their trust.",
       "options": [
         "earn-mcq-07",
-        "earn-mcq-06",
-        "earn-mcq-08",
-        "earn-mcq-05",
-        "earn-mcq-09",
-        "earn-mcq-04"
+        "earn-mcq-02",
+        "earn-reviewed-12a0fb1def"
       ],
       "explanation": "本句的「earned」指「某項行為、表現或事件為某人帶來某種結果」。",
       "sentenceIndex": 20,
@@ -864,74 +781,67 @@ export default {
         "earned"
       ],
       "optionReasons": {
-        "earn-mcq-07": "本句指「某項行為、表現或事件為某人帶來某種結果」。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。",
-        "earn-mcq-08": "「工作以抵償自己的食宿／證明自己值得被供養」與本句語境不同。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。",
-        "earn-mcq-09": "「透過經驗及努力證明能力並取得認可」與本句語境不同。",
-        "earn-mcq-04": "「因努力、能力或達到要求而取得資格、機會、分數、學位等」與本句語境不同。"
+        "earn-mcq-07": "本句的「earned」指「某項行為、表現或事件為某人帶來某種結果」。",
+        "earn-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-07"
     },
     {
       "id": "earn-10-0",
-      "sense": "earn-mcq-08",
+      "sense": "earn-reviewed-12a0fb1def",
       "en": "Customers earn points on every purchase.",
       "zh": "顧客每次消費都可以賺取／累積積分。",
       "masked": "Customers ____ points on every purchase.",
       "options": [
-        "earn-mcq-08",
-        "earn-mcq-07",
-        "earn-mcq-09",
-        "earn-mcq-06",
-        "earn-mcq-10",
-        "earn-mcq-05"
+        "earn-reviewed-12a0fb1def",
+        "earn-mcq-03",
+        "earn-mcq-05",
+        "earn-mcq-08"
       ],
-      "explanation": "本句的「earn」指「工作以抵償自己的食宿／證明自己值得被供養」。",
+      "explanation": "對照完整句子：「顧客每次消費都可以賺取／累積積分。」。這裡的「earn」表示「賺取／累積積分、里數、獎賞」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "earn"
       ],
       "optionReasons": {
-        "earn-mcq-08": "本句指「工作以抵償自己的食宿／證明自己值得被供養」。",
-        "earn-mcq-07": "「某項行為、表現或事件為某人帶來某種結果」與本句語境不同。",
-        "earn-mcq-09": "「透過經驗及努力證明能力並取得認可」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。",
-        "earn-mcq-10": "「個人因工作取得的收入」與本句語境不同。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。"
+        "earn-reviewed-12a0fb1def": "對照完整句子：「顧客每次消費都可以賺取／累積積分。」。這裡的「earn」表示「賺取／累積積分、里數、獎賞」。",
+        "earn-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "earn-mcq-08"
+      "correctOption": "earn-reviewed-12a0fb1def",
+      "previousCorrectOption": "earn-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "earn-10-1",
-      "sense": "earn-mcq-08",
+      "sense": "earn-reviewed-12a0fb1def",
       "en": "You can earn airline miles by using the card.",
       "zh": "使用這張卡可以累積航空里數。",
       "masked": "You can ____ airline miles by using the card.",
       "options": [
-        "earn-mcq-08",
-        "earn-mcq-07",
-        "earn-mcq-09",
+        "earn-reviewed-12a0fb1def",
         "earn-mcq-06",
-        "earn-mcq-10",
-        "earn-mcq-05"
+        "earn-mcq-11",
+        "earn-mcq-09"
       ],
-      "explanation": "本句的「earn」指「工作以抵償自己的食宿／證明自己值得被供養」。",
+      "explanation": "對照完整句子：「使用這張卡可以累積航空里數。」。這裡的「earn」表示「賺取／累積積分、里數、獎賞」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "earn"
       ],
       "optionReasons": {
-        "earn-mcq-08": "本句指「工作以抵償自己的食宿／證明自己值得被供養」。",
-        "earn-mcq-07": "「某項行為、表現或事件為某人帶來某種結果」與本句語境不同。",
-        "earn-mcq-09": "「透過經驗及努力證明能力並取得認可」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。",
-        "earn-mcq-10": "「個人因工作取得的收入」與本句語境不同。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。"
+        "earn-reviewed-12a0fb1def": "對照完整句子：「使用這張卡可以累積航空里數。」。這裡的「earn」表示「賺取／累積積分、里數、獎賞」。",
+        "earn-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "earn-mcq-08"
+      "correctOption": "earn-reviewed-12a0fb1def",
+      "previousCorrectOption": "earn-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "earn-11-0",
@@ -941,11 +851,9 @@ export default {
       "masked": "Everyone on the farm was expected to ____.",
       "options": [
         "earn-mcq-08",
+        "earn-mcq-13",
         "earn-mcq-07",
-        "earn-mcq-09",
-        "earn-mcq-06",
-        "earn-mcq-10",
-        "earn-mcq-05"
+        "earn-reviewed-12a0fb1def"
       ],
       "explanation": "本句的「earn their keep」指「工作以抵償自己的食宿／證明自己值得被供養」。",
       "sentenceIndex": 23,
@@ -954,12 +862,10 @@ export default {
         "earn their keep"
       ],
       "optionReasons": {
-        "earn-mcq-08": "本句指「工作以抵償自己的食宿／證明自己值得被供養」。",
-        "earn-mcq-07": "「某項行為、表現或事件為某人帶來某種結果」與本句語境不同。",
-        "earn-mcq-09": "「透過經驗及努力證明能力並取得認可」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。",
-        "earn-mcq-10": "「個人因工作取得的收入」與本句語境不同。",
-        "earn-mcq-05": "「因行為或表現而逐漸贏得尊重、信任、認可或名聲」與本句語境不同。"
+        "earn-mcq-08": "本句的「earn their keep」指「工作以抵償自己的食宿／證明自己值得被供養」。",
+        "earn-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-08"
     },
@@ -971,11 +877,9 @@ export default {
       "masked": "She ____ by handling several difficult projects.",
       "options": [
         "earn-mcq-09",
-        "earn-mcq-08",
-        "earn-mcq-10",
-        "earn-mcq-07",
+        "earn-mcq-06",
         "earn-mcq-11",
-        "earn-mcq-06"
+        "earn-reviewed-12a0fb1def"
       ],
       "explanation": "本句的「earned her stripes」指「透過經驗及努力證明能力並取得認可」。",
       "sentenceIndex": 24,
@@ -984,12 +888,10 @@ export default {
         "earned her stripes"
       ],
       "optionReasons": {
-        "earn-mcq-09": "本句指「透過經驗及努力證明能力並取得認可」。",
-        "earn-mcq-08": "「工作以抵償自己的食宿／證明自己值得被供養」與本句語境不同。",
-        "earn-mcq-10": "「個人因工作取得的收入」與本句語境不同。",
-        "earn-mcq-07": "「某項行為、表現或事件為某人帶來某種結果」與本句語境不同。",
-        "earn-mcq-11": "「公司盈利／收益，常指利潤」與本句語境不同。",
-        "earn-mcq-06": "「因自己的行為而應得／招致某種結果」與本句語境不同。"
+        "earn-mcq-09": "本句的「earned her stripes」指「透過經驗及努力證明能力並取得認可」。",
+        "earn-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-09"
     },
@@ -1001,11 +903,8 @@ export default {
       "masked": "Her monthly ____ increased.",
       "options": [
         "earn-mcq-10",
-        "earn-mcq-09",
-        "earn-mcq-11",
-        "earn-mcq-08",
-        "earn-mcq-12",
-        "earn-mcq-07"
+        "earn-mcq-07",
+        "earn-reviewed-12a0fb1def"
       ],
       "explanation": "本句的「earnings」指「個人因工作取得的收入」。",
       "sentenceIndex": 25,
@@ -1014,12 +913,9 @@ export default {
         "earnings"
       ],
       "optionReasons": {
-        "earn-mcq-10": "本句指「個人因工作取得的收入」。",
-        "earn-mcq-09": "「透過經驗及努力證明能力並取得認可」與本句語境不同。",
-        "earn-mcq-11": "「公司盈利／收益，常指利潤」與本句語境不同。",
-        "earn-mcq-08": "「工作以抵償自己的食宿／證明自己值得被供養」與本句語境不同。",
-        "earn-mcq-12": "「賺取收入的人或能產生收入的事物」與本句語境不同。",
-        "earn-mcq-07": "「某項行為、表現或事件為某人帶來某種結果」與本句語境不同。"
+        "earn-mcq-10": "本句的「earnings」指「個人因工作取得的收入」。",
+        "earn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-10"
     },
@@ -1031,11 +927,9 @@ export default {
       "masked": "The company reported higher quarterly ____.",
       "options": [
         "earn-mcq-11",
-        "earn-mcq-10",
-        "earn-mcq-12",
-        "earn-mcq-09",
         "earn-mcq-13",
-        "earn-mcq-08"
+        "earn-mcq-06",
+        "earn-reviewed-12a0fb1def"
       ],
       "explanation": "本句的「earnings」指「公司盈利／收益，常指利潤」。",
       "sentenceIndex": 26,
@@ -1044,12 +938,10 @@ export default {
         "earnings"
       ],
       "optionReasons": {
-        "earn-mcq-11": "本句指「公司盈利／收益，常指利潤」。",
-        "earn-mcq-10": "「個人因工作取得的收入」與本句語境不同。",
-        "earn-mcq-12": "「賺取收入的人或能產生收入的事物」與本句語境不同。",
-        "earn-mcq-09": "「透過經驗及努力證明能力並取得認可」與本句語境不同。",
-        "earn-mcq-13": "「經過大量努力才取得的；辛苦賺來的」與本句語境不同。",
-        "earn-mcq-08": "「工作以抵償自己的食宿／證明自己值得被供養」與本句語境不同。"
+        "earn-mcq-11": "本句的「earnings」指「公司盈利／收益，常指利潤」。",
+        "earn-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "earn-reviewed-12a0fb1def": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-11"
     },
@@ -1061,11 +953,8 @@ export default {
       "masked": "She is the main ____ in the family.",
       "options": [
         "earn-mcq-12",
-        "earn-mcq-11",
-        "earn-mcq-13",
-        "earn-mcq-10",
-        "earn-mcq-09",
-        "earn-mcq-08"
+        "earn-mcq-06",
+        "earn-mcq-09"
       ],
       "explanation": "本句的「earner」指「賺取收入的人或能產生收入的事物」。",
       "sentenceIndex": 27,
@@ -1074,12 +963,9 @@ export default {
         "earner"
       ],
       "optionReasons": {
-        "earn-mcq-12": "本句指「賺取收入的人或能產生收入的事物」。",
-        "earn-mcq-11": "「公司盈利／收益，常指利潤」與本句語境不同。",
-        "earn-mcq-13": "「經過大量努力才取得的；辛苦賺來的」與本句語境不同。",
-        "earn-mcq-10": "「個人因工作取得的收入」與本句語境不同。",
-        "earn-mcq-09": "「透過經驗及努力證明能力並取得認可」與本句語境不同。",
-        "earn-mcq-08": "「工作以抵償自己的食宿／證明自己值得被供養」與本句語境不同。"
+        "earn-mcq-12": "本句的「earner」指「賺取收入的人或能產生收入的事物」。",
+        "earn-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-12"
     },
@@ -1091,11 +977,9 @@ export default {
       "masked": "People do not want to waste their ____ money.",
       "options": [
         "earn-mcq-13",
-        "earn-mcq-12",
+        "earn-mcq-08",
         "earn-mcq-11",
-        "earn-mcq-10",
-        "earn-mcq-09",
-        "earn-mcq-08"
+        "earn-mcq-05"
       ],
       "explanation": "本句的「hard-earned」指「經過大量努力才取得的；辛苦賺來的」。",
       "sentenceIndex": 28,
@@ -1104,12 +988,10 @@ export default {
         "hard-earned"
       ],
       "optionReasons": {
-        "earn-mcq-13": "本句指「經過大量努力才取得的；辛苦賺來的」。",
-        "earn-mcq-12": "「賺取收入的人或能產生收入的事物」與本句語境不同。",
-        "earn-mcq-11": "「公司盈利／收益，常指利潤」與本句語境不同。",
-        "earn-mcq-10": "「個人因工作取得的收入」與本句語境不同。",
-        "earn-mcq-09": "「透過經驗及努力證明能力並取得認可」與本句語境不同。",
-        "earn-mcq-08": "「工作以抵償自己的食宿／證明自己值得被供養」與本句語境不同。"
+        "earn-mcq-13": "本句的「hard-earned」指「經過大量努力才取得的；辛苦賺來的」。",
+        "earn-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-13"
     },
@@ -1121,10 +1003,8 @@ export default {
       "masked": "She took a ____ break.",
       "options": [
         "earn-mcq-13",
-        "earn-mcq-12",
-        "earn-mcq-11",
-        "earn-mcq-10",
-        "earn-mcq-09",
+        "earn-mcq-03",
+        "earn-mcq-05",
         "earn-mcq-08"
       ],
       "explanation": "本句的「hard-earned」指「經過大量努力才取得的；辛苦賺來的」。",
@@ -1134,12 +1014,10 @@ export default {
         "hard-earned"
       ],
       "optionReasons": {
-        "earn-mcq-13": "本句指「經過大量努力才取得的；辛苦賺來的」。",
-        "earn-mcq-12": "「賺取收入的人或能產生收入的事物」與本句語境不同。",
-        "earn-mcq-11": "「公司盈利／收益，常指利潤」與本句語境不同。",
-        "earn-mcq-10": "「個人因工作取得的收入」與本句語境不同。",
-        "earn-mcq-09": "「透過經驗及努力證明能力並取得認可」與本句語境不同。",
-        "earn-mcq-08": "「工作以抵償自己的食宿／證明自己值得被供養」與本句語境不同。"
+        "earn-mcq-13": "本句的「hard-earned」指「經過大量努力才取得的；辛苦賺來的」。",
+        "earn-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "earn-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earn-mcq-13"
     }
@@ -1151,5 +1029,7 @@ export default {
     "sha256": "bd0fef8f209befafd057173352f9bc6e43a1d0e785d4f9f22d801ed738ba39d0",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

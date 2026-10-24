@@ -174,10 +174,6 @@ export default {
       "masked": "He can move from a serious topic to a witty ____ in a heartbeat.",
       "options": [
         "remark-mcq-01",
-        "remark-mcq-02",
-        "remark-mcq-03",
-        "remark-mcq-04",
-        "remark-mcq-05",
         "remark-mcq-06"
       ],
       "explanation": "本句的「remark」指「某人針對某件事情說出的一句簡短評論、意見或觀察性說話」。",
@@ -187,12 +183,8 @@ export default {
         "remark"
       ],
       "optionReasons": {
-        "remark-mcq-01": "本句指「某人針對某件事情說出的一句簡短評論、意見或觀察性說話」。",
-        "remark-mcq-02": "「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」與本句語境不同。",
-        "remark-mcq-03": "「針對某件事情作出簡短評論、觀察或說明」與本句語境不同。",
-        "remark-mcq-04": "「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」與本句語境不同。",
-        "remark-mcq-05": "「因非常不尋常、出色或令人驚訝，而特別值得注意的」與本句語境不同。",
-        "remark-mcq-06": "「以不尋常、令人驚訝或值得注意的程度／方式」與本句語境不同。"
+        "remark-mcq-01": "本句的「remark」指「某人針對某件事情說出的一句簡短評論、意見或觀察性說話」。",
+        "remark-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remark-mcq-01"
     },
@@ -204,10 +196,6 @@ export default {
       "masked": "She made an interesting ____ about the changing neighbourhood.",
       "options": [
         "remark-mcq-01",
-        "remark-mcq-02",
-        "remark-mcq-03",
-        "remark-mcq-04",
-        "remark-mcq-05",
         "remark-mcq-06"
       ],
       "explanation": "本句的「remark」指「某人針對某件事情說出的一句簡短評論、意見或觀察性說話」。",
@@ -217,12 +205,8 @@ export default {
         "remark"
       ],
       "optionReasons": {
-        "remark-mcq-01": "本句指「某人針對某件事情說出的一句簡短評論、意見或觀察性說話」。",
-        "remark-mcq-02": "「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」與本句語境不同。",
-        "remark-mcq-03": "「針對某件事情作出簡短評論、觀察或說明」與本句語境不同。",
-        "remark-mcq-04": "「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」與本句語境不同。",
-        "remark-mcq-05": "「因非常不尋常、出色或令人驚訝，而特別值得注意的」與本句語境不同。",
-        "remark-mcq-06": "「以不尋常、令人驚訝或值得注意的程度／方式」與本句語境不同。"
+        "remark-mcq-01": "本句的「remark」指「某人針對某件事情說出的一句簡短評論、意見或觀察性說話」。",
+        "remark-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remark-mcq-01"
     },
@@ -234,10 +218,6 @@ export default {
       "masked": "His final ____ made everyone laugh.",
       "options": [
         "remark-mcq-01",
-        "remark-mcq-02",
-        "remark-mcq-03",
-        "remark-mcq-04",
-        "remark-mcq-05",
         "remark-mcq-06"
       ],
       "explanation": "本句的「remark」指「某人針對某件事情說出的一句簡短評論、意見或觀察性說話」。",
@@ -247,12 +227,8 @@ export default {
         "remark"
       ],
       "optionReasons": {
-        "remark-mcq-01": "本句指「某人針對某件事情說出的一句簡短評論、意見或觀察性說話」。",
-        "remark-mcq-02": "「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」與本句語境不同。",
-        "remark-mcq-03": "「針對某件事情作出簡短評論、觀察或說明」與本句語境不同。",
-        "remark-mcq-04": "「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」與本句語境不同。",
-        "remark-mcq-05": "「因非常不尋常、出色或令人驚訝，而特別值得注意的」與本句語境不同。",
-        "remark-mcq-06": "「以不尋常、令人驚訝或值得注意的程度／方式」與本句語境不同。"
+        "remark-mcq-01": "本句的「remark」指「某人針對某件事情說出的一句簡短評論、意見或觀察性說話」。",
+        "remark-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remark-mcq-01"
     },
@@ -264,10 +240,6 @@ export default {
       "masked": "The director began with a few brief ____.",
       "options": [
         "remark-mcq-02",
-        "remark-mcq-01",
-        "remark-mcq-03",
-        "remark-mcq-04",
-        "remark-mcq-05",
         "remark-mcq-06"
       ],
       "explanation": "本句的「remarks」指「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」。",
@@ -277,12 +249,8 @@ export default {
         "remarks"
       ],
       "optionReasons": {
-        "remark-mcq-02": "本句指「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」。",
-        "remark-mcq-01": "「某人針對某件事情說出的一句簡短評論、意見或觀察性說話」與本句語境不同。",
-        "remark-mcq-03": "「針對某件事情作出簡短評論、觀察或說明」與本句語境不同。",
-        "remark-mcq-04": "「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」與本句語境不同。",
-        "remark-mcq-05": "「因非常不尋常、出色或令人驚訝，而特別值得注意的」與本句語境不同。",
-        "remark-mcq-06": "「以不尋常、令人驚訝或值得注意的程度／方式」與本句語境不同。"
+        "remark-mcq-02": "本句的「remarks」指「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」。",
+        "remark-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remark-mcq-02"
     },
@@ -294,10 +262,6 @@ export default {
       "masked": "Her closing ____ thanked everyone for their support.",
       "options": [
         "remark-mcq-02",
-        "remark-mcq-01",
-        "remark-mcq-03",
-        "remark-mcq-04",
-        "remark-mcq-05",
         "remark-mcq-06"
       ],
       "explanation": "本句的「remarks」指「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」。",
@@ -307,12 +271,8 @@ export default {
         "remarks"
       ],
       "optionReasons": {
-        "remark-mcq-02": "本句指「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」。",
-        "remark-mcq-01": "「某人針對某件事情說出的一句簡短評論、意見或觀察性說話」與本句語境不同。",
-        "remark-mcq-03": "「針對某件事情作出簡短評論、觀察或說明」與本句語境不同。",
-        "remark-mcq-04": "「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」與本句語境不同。",
-        "remark-mcq-05": "「因非常不尋常、出色或令人驚訝，而特別值得注意的」與本句語境不同。",
-        "remark-mcq-06": "「以不尋常、令人驚訝或值得注意的程度／方式」與本句語境不同。"
+        "remark-mcq-02": "本句的「remarks」指「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」。",
+        "remark-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remark-mcq-02"
     },
@@ -324,10 +284,6 @@ export default {
       "masked": "She ____ that the city had changed dramatically.",
       "options": [
         "remark-mcq-03",
-        "remark-mcq-02",
-        "remark-mcq-04",
-        "remark-mcq-01",
-        "remark-mcq-05",
         "remark-mcq-06"
       ],
       "explanation": "本句的「remarked」指「針對某件事情作出簡短評論、觀察或說明」。",
@@ -337,12 +293,8 @@ export default {
         "remarked"
       ],
       "optionReasons": {
-        "remark-mcq-03": "本句指「針對某件事情作出簡短評論、觀察或說明」。",
-        "remark-mcq-02": "「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」與本句語境不同。",
-        "remark-mcq-04": "「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」與本句語境不同。",
-        "remark-mcq-01": "「某人針對某件事情說出的一句簡短評論、意見或觀察性說話」與本句語境不同。",
-        "remark-mcq-05": "「因非常不尋常、出色或令人驚訝，而特別值得注意的」與本句語境不同。",
-        "remark-mcq-06": "「以不尋常、令人驚訝或值得注意的程度／方式」與本句語境不同。"
+        "remark-mcq-03": "本句的「remarked」指「針對某件事情作出簡短評論、觀察或說明」。",
+        "remark-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remark-mcq-03"
     },
@@ -354,10 +306,6 @@ export default {
       "masked": "‘That’s unusual,’ he ____.",
       "options": [
         "remark-mcq-03",
-        "remark-mcq-02",
-        "remark-mcq-04",
-        "remark-mcq-01",
-        "remark-mcq-05",
         "remark-mcq-06"
       ],
       "explanation": "本句的「remarked」指「針對某件事情作出簡短評論、觀察或說明」。",
@@ -367,12 +315,8 @@ export default {
         "remarked"
       ],
       "optionReasons": {
-        "remark-mcq-03": "本句指「針對某件事情作出簡短評論、觀察或說明」。",
-        "remark-mcq-02": "「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」與本句語境不同。",
-        "remark-mcq-04": "「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」與本句語境不同。",
-        "remark-mcq-01": "「某人針對某件事情說出的一句簡短評論、意見或觀察性說話」與本句語境不同。",
-        "remark-mcq-05": "「因非常不尋常、出色或令人驚訝，而特別值得注意的」與本句語境不同。",
-        "remark-mcq-06": "「以不尋常、令人驚訝或值得注意的程度／方式」與本句語境不同。"
+        "remark-mcq-03": "本句的「remarked」指「針對某件事情作出簡短評論、觀察或說明」。",
+        "remark-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remark-mcq-03"
     },
@@ -384,11 +328,7 @@ export default {
       "masked": "Several guests ____ the unusual design.",
       "options": [
         "remark-mcq-04",
-        "remark-mcq-03",
-        "remark-mcq-05",
-        "remark-mcq-02",
-        "remark-mcq-06",
-        "remark-mcq-01"
+        "remark-mcq-06"
       ],
       "explanation": "本句的「remarked on」指「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」。",
       "sentenceIndex": 7,
@@ -397,12 +337,8 @@ export default {
         "remarked on"
       ],
       "optionReasons": {
-        "remark-mcq-04": "本句指「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」。",
-        "remark-mcq-03": "「針對某件事情作出簡短評論、觀察或說明」與本句語境不同。",
-        "remark-mcq-05": "「因非常不尋常、出色或令人驚訝，而特別值得注意的」與本句語境不同。",
-        "remark-mcq-02": "「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」與本句語境不同。",
-        "remark-mcq-06": "「以不尋常、令人驚訝或值得注意的程度／方式」與本句語境不同。",
-        "remark-mcq-01": "「某人針對某件事情說出的一句簡短評論、意見或觀察性說話」與本句語境不同。"
+        "remark-mcq-04": "本句的「remarked on」指「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」。",
+        "remark-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remark-mcq-04"
     },
@@ -414,11 +350,7 @@ export default {
       "masked": "He ____ how quiet the room had become.",
       "options": [
         "remark-mcq-04",
-        "remark-mcq-03",
-        "remark-mcq-05",
-        "remark-mcq-02",
-        "remark-mcq-06",
-        "remark-mcq-01"
+        "remark-mcq-06"
       ],
       "explanation": "本句的「remarked upon」指「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」。",
       "sentenceIndex": 8,
@@ -427,12 +359,8 @@ export default {
         "remarked upon"
       ],
       "optionReasons": {
-        "remark-mcq-04": "本句指「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」。",
-        "remark-mcq-03": "「針對某件事情作出簡短評論、觀察或說明」與本句語境不同。",
-        "remark-mcq-05": "「因非常不尋常、出色或令人驚訝，而特別值得注意的」與本句語境不同。",
-        "remark-mcq-02": "「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」與本句語境不同。",
-        "remark-mcq-06": "「以不尋常、令人驚訝或值得注意的程度／方式」與本句語境不同。",
-        "remark-mcq-01": "「某人針對某件事情說出的一句簡短評論、意見或觀察性說話」與本句語境不同。"
+        "remark-mcq-04": "本句的「remarked upon」指「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」。",
+        "remark-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remark-mcq-04"
     },
@@ -444,10 +372,6 @@ export default {
       "masked": "She made a ____ recovery.",
       "options": [
         "remark-mcq-05",
-        "remark-mcq-04",
-        "remark-mcq-06",
-        "remark-mcq-03",
-        "remark-mcq-07",
         "remark-mcq-02"
       ],
       "explanation": "本句的「remarkable」指「因非常不尋常、出色或令人驚訝，而特別值得注意的」。",
@@ -457,12 +381,8 @@ export default {
         "remarkable"
       ],
       "optionReasons": {
-        "remark-mcq-05": "本句指「因非常不尋常、出色或令人驚訝，而特別值得注意的」。",
-        "remark-mcq-04": "「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」與本句語境不同。",
-        "remark-mcq-06": "「以不尋常、令人驚訝或值得注意的程度／方式」與本句語境不同。",
-        "remark-mcq-03": "「針對某件事情作出簡短評論、觀察或說明」與本句語境不同。",
-        "remark-mcq-07": "「沒有特別突出、驚人或值得注意之處的；普通、不起眼的」與本句語境不同。",
-        "remark-mcq-02": "「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」與本句語境不同。"
+        "remark-mcq-05": "本句的「remarkable」指「因非常不尋常、出色或令人驚訝，而特別值得注意的」。",
+        "remark-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remark-mcq-05"
     },
@@ -474,10 +394,6 @@ export default {
       "masked": "He has a ____ memory for small details.",
       "options": [
         "remark-mcq-05",
-        "remark-mcq-04",
-        "remark-mcq-06",
-        "remark-mcq-03",
-        "remark-mcq-07",
         "remark-mcq-02"
       ],
       "explanation": "本句的「remarkable」指「因非常不尋常、出色或令人驚訝，而特別值得注意的」。",
@@ -487,12 +403,8 @@ export default {
         "remarkable"
       ],
       "optionReasons": {
-        "remark-mcq-05": "本句指「因非常不尋常、出色或令人驚訝，而特別值得注意的」。",
-        "remark-mcq-04": "「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」與本句語境不同。",
-        "remark-mcq-06": "「以不尋常、令人驚訝或值得注意的程度／方式」與本句語境不同。",
-        "remark-mcq-03": "「針對某件事情作出簡短評論、觀察或說明」與本句語境不同。",
-        "remark-mcq-07": "「沒有特別突出、驚人或值得注意之處的；普通、不起眼的」與本句語境不同。",
-        "remark-mcq-02": "「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」與本句語境不同。"
+        "remark-mcq-05": "本句的「remarkable」指「因非常不尋常、出色或令人驚訝，而特別值得注意的」。",
+        "remark-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remark-mcq-05"
     },
@@ -504,10 +416,6 @@ export default {
       "masked": "The building is ____ well preserved.",
       "options": [
         "remark-mcq-06",
-        "remark-mcq-05",
-        "remark-mcq-07",
-        "remark-mcq-04",
-        "remark-mcq-03",
         "remark-mcq-02"
       ],
       "explanation": "本句的「remarkably」指「以不尋常、令人驚訝或值得注意的程度／方式」。",
@@ -517,12 +425,8 @@ export default {
         "remarkably"
       ],
       "optionReasons": {
-        "remark-mcq-06": "本句指「以不尋常、令人驚訝或值得注意的程度／方式」。",
-        "remark-mcq-05": "「因非常不尋常、出色或令人驚訝，而特別值得注意的」與本句語境不同。",
-        "remark-mcq-07": "「沒有特別突出、驚人或值得注意之處的；普通、不起眼的」與本句語境不同。",
-        "remark-mcq-04": "「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」與本句語境不同。",
-        "remark-mcq-03": "「針對某件事情作出簡短評論、觀察或說明」與本句語境不同。",
-        "remark-mcq-02": "「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」與本句語境不同。"
+        "remark-mcq-06": "本句的「remarkably」指「以不尋常、令人驚訝或值得注意的程度／方式」。",
+        "remark-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remark-mcq-06"
     },
@@ -534,10 +438,6 @@ export default {
       "masked": "She remained ____ calm.",
       "options": [
         "remark-mcq-06",
-        "remark-mcq-05",
-        "remark-mcq-07",
-        "remark-mcq-04",
-        "remark-mcq-03",
         "remark-mcq-02"
       ],
       "explanation": "本句的「remarkably」指「以不尋常、令人驚訝或值得注意的程度／方式」。",
@@ -547,12 +447,8 @@ export default {
         "remarkably"
       ],
       "optionReasons": {
-        "remark-mcq-06": "本句指「以不尋常、令人驚訝或值得注意的程度／方式」。",
-        "remark-mcq-05": "「因非常不尋常、出色或令人驚訝，而特別值得注意的」與本句語境不同。",
-        "remark-mcq-07": "「沒有特別突出、驚人或值得注意之處的；普通、不起眼的」與本句語境不同。",
-        "remark-mcq-04": "「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」與本句語境不同。",
-        "remark-mcq-03": "「針對某件事情作出簡短評論、觀察或說明」與本句語境不同。",
-        "remark-mcq-02": "「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」與本句語境不同。"
+        "remark-mcq-06": "本句的「remarkably」指「以不尋常、令人驚訝或值得注意的程度／方式」。",
+        "remark-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remark-mcq-06"
     },
@@ -564,11 +460,7 @@ export default {
       "masked": "The building looks fairly ____ from the outside.",
       "options": [
         "remark-mcq-07",
-        "remark-mcq-06",
-        "remark-mcq-05",
-        "remark-mcq-04",
-        "remark-mcq-03",
-        "remark-mcq-02"
+        "remark-mcq-04"
       ],
       "explanation": "本句的「unremarkable」指「沒有特別突出、驚人或值得注意之處的；普通、不起眼的」。",
       "sentenceIndex": 13,
@@ -577,12 +469,8 @@ export default {
         "unremarkable"
       ],
       "optionReasons": {
-        "remark-mcq-07": "本句指「沒有特別突出、驚人或值得注意之處的；普通、不起眼的」。",
-        "remark-mcq-06": "「以不尋常、令人驚訝或值得注意的程度／方式」與本句語境不同。",
-        "remark-mcq-05": "「因非常不尋常、出色或令人驚訝，而特別值得注意的」與本句語境不同。",
-        "remark-mcq-04": "「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」與本句語境不同。",
-        "remark-mcq-03": "「針對某件事情作出簡短評論、觀察或說明」與本句語境不同。",
-        "remark-mcq-02": "「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」與本句語境不同。"
+        "remark-mcq-07": "本句的「unremarkable」指「沒有特別突出、驚人或值得注意之處的；普通、不起眼的」。",
+        "remark-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remark-mcq-07"
     },
@@ -594,11 +482,7 @@ export default {
       "masked": "It was an otherwise ____ day.",
       "options": [
         "remark-mcq-07",
-        "remark-mcq-06",
-        "remark-mcq-05",
-        "remark-mcq-04",
-        "remark-mcq-03",
-        "remark-mcq-02"
+        "remark-mcq-03"
       ],
       "explanation": "本句的「unremarkable」指「沒有特別突出、驚人或值得注意之處的；普通、不起眼的」。",
       "sentenceIndex": 14,
@@ -607,12 +491,8 @@ export default {
         "unremarkable"
       ],
       "optionReasons": {
-        "remark-mcq-07": "本句指「沒有特別突出、驚人或值得注意之處的；普通、不起眼的」。",
-        "remark-mcq-06": "「以不尋常、令人驚訝或值得注意的程度／方式」與本句語境不同。",
-        "remark-mcq-05": "「因非常不尋常、出色或令人驚訝，而特別值得注意的」與本句語境不同。",
-        "remark-mcq-04": "「就某件事情作出評論或觀察；屬於動詞 remark 的同一核心概念」與本句語境不同。",
-        "remark-mcq-03": "「針對某件事情作出簡短評論、觀察或說明」與本句語境不同。",
-        "remark-mcq-02": "「在會議、演說或典禮等場合中作出的評論或發言；屬於名詞「評論／說話」的同一核心概念」與本句語境不同。"
+        "remark-mcq-07": "本句的「unremarkable」指「沒有特別突出、驚人或值得注意之處的；普通、不起眼的」。",
+        "remark-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remark-mcq-07"
     }
@@ -624,5 +504,7 @@ export default {
     "sha256": "e5722e21dcbbb91fe90b8b22cda116cc6e3f7d303809d6b672b738e251d97201",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

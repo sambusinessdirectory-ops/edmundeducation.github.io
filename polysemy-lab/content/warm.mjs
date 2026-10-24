@@ -518,7 +518,7 @@ export default {
     },
     {
       "id": "warm-mcq-24",
-      "title": "表示溫度逐步升高的過程",
+      "title": "溫度逐步升高的過程",
       "form": "20. warming = process of becoming warmer（變暖） — 升溫；變暖",
       "en": "20. warming = process of becoming warmer（變暖） — 升溫；變暖",
       "zh": "表示溫度逐步升高的過程",
@@ -570,11 +570,9 @@ export default {
       "masked": "The room is nice and ____.",
       "options": [
         "warm-mcq-01",
-        "warm-mcq-02",
-        "warm-mcq-03",
+        "warm-mcq-12",
         "warm-mcq-04",
-        "warm-mcq-05",
-        "warm-mcq-06"
+        "warm-mcq-10"
       ],
       "explanation": "本句的「warm」指「溫度高於冷／涼但通常未達很熱程度的」。",
       "sentenceIndex": 0,
@@ -583,12 +581,10 @@ export default {
         "warm"
       ],
       "optionReasons": {
-        "warm-mcq-01": "本句指「溫度高於冷／涼但通常未達很熱程度的」。",
-        "warm-mcq-02": "「氣溫令人感到舒服地偏暖的」是「warm weather/climate」的用法，與本句語境不同。",
-        "warm-mcq-03": "「待人友善親切、有關懷感並令人容易感到安心的」是「warm — personality」的用法，與本句語境不同。",
-        "warm-mcq-04": "「表情、語氣或舉止帶有友善、關懷和親近感」是「warm smile/voice/manner」的用法，與本句語境不同。",
-        "warm-mcq-05": "「以友善、熱情和真誠的方式歡迎／接待某人」是「warm welcome/reception」的用法，與本句語境不同。",
-        "warm-mcq-06": "「關係中帶有真誠、友善和情感親近感」是「warm relationship/friendship」的用法，與本句語境不同。"
+        "warm-mcq-01": "本句的「warm」指「溫度高於冷／涼但通常未達很熱程度的」。",
+        "warm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-01"
     },
@@ -600,11 +596,9 @@ export default {
       "masked": "She washed her hands in ____ water.",
       "options": [
         "warm-mcq-01",
-        "warm-mcq-02",
-        "warm-mcq-03",
         "warm-mcq-04",
-        "warm-mcq-05",
-        "warm-mcq-06"
+        "warm-mcq-09",
+        "warm-mcq-12"
       ],
       "explanation": "本句的「warm」指「溫度高於冷／涼但通常未達很熱程度的」。",
       "sentenceIndex": 1,
@@ -613,12 +607,10 @@ export default {
         "warm"
       ],
       "optionReasons": {
-        "warm-mcq-01": "本句指「溫度高於冷／涼但通常未達很熱程度的」。",
-        "warm-mcq-02": "「氣溫令人感到舒服地偏暖的」是「warm weather/climate」的用法，與本句語境不同。",
-        "warm-mcq-03": "「待人友善親切、有關懷感並令人容易感到安心的」是「warm — personality」的用法，與本句語境不同。",
-        "warm-mcq-04": "「表情、語氣或舉止帶有友善、關懷和親近感」是「warm smile/voice/manner」的用法，與本句語境不同。",
-        "warm-mcq-05": "「以友善、熱情和真誠的方式歡迎／接待某人」是「warm welcome/reception」的用法，與本句語境不同。",
-        "warm-mcq-06": "「關係中帶有真誠、友善和情感親近感」是「warm relationship/friendship」的用法，與本句語境不同。"
+        "warm-mcq-01": "本句的「warm」指「溫度高於冷／涼但通常未達很熱程度的」。",
+        "warm-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-01"
     },
@@ -630,11 +622,9 @@ export default {
       "masked": "The weather is much ____ today.",
       "options": [
         "warm-mcq-02",
-        "warm-mcq-01",
-        "warm-mcq-03",
-        "warm-mcq-04",
-        "warm-mcq-05",
-        "warm-mcq-06"
+        "warm-mcq-08",
+        "warm-mcq-12",
+        "warm-mcq-01"
       ],
       "explanation": "本句的「warmer」指「氣溫令人感到舒服地偏暖的」。",
       "sentenceIndex": 2,
@@ -643,12 +633,10 @@ export default {
         "warmer"
       ],
       "optionReasons": {
-        "warm-mcq-02": "本句指「氣溫令人感到舒服地偏暖的」。",
-        "warm-mcq-01": "「溫度高於冷／涼但通常未達很熱程度的」是「warm — temperature」的用法，與本句語境不同。",
-        "warm-mcq-03": "「待人友善親切、有關懷感並令人容易感到安心的」是「warm — personality」的用法，與本句語境不同。",
-        "warm-mcq-04": "「表情、語氣或舉止帶有友善、關懷和親近感」是「warm smile/voice/manner」的用法，與本句語境不同。",
-        "warm-mcq-05": "「以友善、熱情和真誠的方式歡迎／接待某人」是「warm welcome/reception」的用法，與本句語境不同。",
-        "warm-mcq-06": "「關係中帶有真誠、友善和情感親近感」是「warm relationship/friendship」的用法，與本句語境不同。"
+        "warm-mcq-02": "本句的「warmer」指「氣溫令人感到舒服地偏暖的」。",
+        "warm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-02"
     },
@@ -660,11 +648,9 @@ export default {
       "masked": "They moved to a ____ climate.",
       "options": [
         "warm-mcq-02",
-        "warm-mcq-01",
-        "warm-mcq-03",
-        "warm-mcq-04",
-        "warm-mcq-05",
-        "warm-mcq-06"
+        "warm-mcq-12",
+        "warm-mcq-16",
+        "warm-mcq-24"
       ],
       "explanation": "本句的「warm」指「氣溫令人感到舒服地偏暖的」。",
       "sentenceIndex": 3,
@@ -673,12 +659,10 @@ export default {
         "warm"
       ],
       "optionReasons": {
-        "warm-mcq-02": "本句指「氣溫令人感到舒服地偏暖的」。",
-        "warm-mcq-01": "「溫度高於冷／涼但通常未達很熱程度的」是「warm — temperature」的用法，與本句語境不同。",
-        "warm-mcq-03": "「待人友善親切、有關懷感並令人容易感到安心的」是「warm — personality」的用法，與本句語境不同。",
-        "warm-mcq-04": "「表情、語氣或舉止帶有友善、關懷和親近感」是「warm smile/voice/manner」的用法，與本句語境不同。",
-        "warm-mcq-05": "「以友善、熱情和真誠的方式歡迎／接待某人」是「warm welcome/reception」的用法，與本句語境不同。",
-        "warm-mcq-06": "「關係中帶有真誠、友善和情感親近感」是「warm relationship/friendship」的用法，與本句語境不同。"
+        "warm-mcq-02": "本句的「warm」指「氣溫令人感到舒服地偏暖的」。",
+        "warm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-02"
     },
@@ -690,11 +674,9 @@ export default {
       "masked": "People often describe her as ____.",
       "options": [
         "warm-mcq-03",
-        "warm-mcq-02",
-        "warm-mcq-04",
-        "warm-mcq-01",
-        "warm-mcq-05",
-        "warm-mcq-06"
+        "warm-mcq-12",
+        "warm-mcq-08",
+        "warm-mcq-10"
       ],
       "explanation": "本句的「warm」指「待人友善親切、有關懷感並令人容易感到安心的」。",
       "sentenceIndex": 4,
@@ -703,12 +685,10 @@ export default {
         "warm"
       ],
       "optionReasons": {
-        "warm-mcq-03": "本句指「待人友善親切、有關懷感並令人容易感到安心的」。",
-        "warm-mcq-02": "「氣溫令人感到舒服地偏暖的」是「warm weather/climate」的用法，與本句語境不同。",
-        "warm-mcq-04": "「表情、語氣或舉止帶有友善、關懷和親近感」是「warm smile/voice/manner」的用法，與本句語境不同。",
-        "warm-mcq-01": "「溫度高於冷／涼但通常未達很熱程度的」是「warm — temperature」的用法，與本句語境不同。",
-        "warm-mcq-05": "「以友善、熱情和真誠的方式歡迎／接待某人」是「warm welcome/reception」的用法，與本句語境不同。",
-        "warm-mcq-06": "「關係中帶有真誠、友善和情感親近感」是「warm relationship/friendship」的用法，與本句語境不同。"
+        "warm-mcq-03": "本句的「warm」指「待人友善親切、有關懷感並令人容易感到安心的」。",
+        "warm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-03"
     },
@@ -720,11 +700,9 @@ export default {
       "masked": "She has a very ____.",
       "options": [
         "warm-mcq-03",
-        "warm-mcq-02",
-        "warm-mcq-04",
-        "warm-mcq-01",
-        "warm-mcq-05",
-        "warm-mcq-06"
+        "warm-mcq-10",
+        "warm-mcq-08",
+        "warm-mcq-12"
       ],
       "explanation": "本句的「warm personality」指「待人友善親切、有關懷感並令人容易感到安心的」。",
       "sentenceIndex": 5,
@@ -733,12 +711,10 @@ export default {
         "warm personality"
       ],
       "optionReasons": {
-        "warm-mcq-03": "本句指「待人友善親切、有關懷感並令人容易感到安心的」。",
-        "warm-mcq-02": "「氣溫令人感到舒服地偏暖的」是「warm weather/climate」的用法，與本句語境不同。",
-        "warm-mcq-04": "「表情、語氣或舉止帶有友善、關懷和親近感」是「warm smile/voice/manner」的用法，與本句語境不同。",
-        "warm-mcq-01": "「溫度高於冷／涼但通常未達很熱程度的」是「warm — temperature」的用法，與本句語境不同。",
-        "warm-mcq-05": "「以友善、熱情和真誠的方式歡迎／接待某人」是「warm welcome/reception」的用法，與本句語境不同。",
-        "warm-mcq-06": "「關係中帶有真誠、友善和情感親近感」是「warm relationship/friendship」的用法，與本句語境不同。"
+        "warm-mcq-03": "本句的「warm personality」指「待人友善親切、有關懷感並令人容易感到安心的」。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-03"
     },
@@ -750,11 +726,9 @@ export default {
       "masked": "He is quiet, but very ____ once you know him.",
       "options": [
         "warm-mcq-03",
-        "warm-mcq-02",
-        "warm-mcq-04",
-        "warm-mcq-01",
-        "warm-mcq-05",
-        "warm-mcq-06"
+        "warm-mcq-13",
+        "warm-mcq-16",
+        "warm-mcq-10"
       ],
       "explanation": "本句的「warm」指「待人友善親切、有關懷感並令人容易感到安心的」。",
       "sentenceIndex": 6,
@@ -763,12 +737,10 @@ export default {
         "warm"
       ],
       "optionReasons": {
-        "warm-mcq-03": "本句指「待人友善親切、有關懷感並令人容易感到安心的」。",
-        "warm-mcq-02": "「氣溫令人感到舒服地偏暖的」是「warm weather/climate」的用法，與本句語境不同。",
-        "warm-mcq-04": "「表情、語氣或舉止帶有友善、關懷和親近感」是「warm smile/voice/manner」的用法，與本句語境不同。",
-        "warm-mcq-01": "「溫度高於冷／涼但通常未達很熱程度的」是「warm — temperature」的用法，與本句語境不同。",
-        "warm-mcq-05": "「以友善、熱情和真誠的方式歡迎／接待某人」是「warm welcome/reception」的用法，與本句語境不同。",
-        "warm-mcq-06": "「關係中帶有真誠、友善和情感親近感」是「warm relationship/friendship」的用法，與本句語境不同。"
+        "warm-mcq-03": "本句的「warm」指「待人友善親切、有關懷感並令人容易感到安心的」。",
+        "warm-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-03"
     },
@@ -780,11 +752,9 @@ export default {
       "masked": "She greeted me with a ____.",
       "options": [
         "warm-mcq-04",
-        "warm-mcq-03",
-        "warm-mcq-05",
-        "warm-mcq-02",
-        "warm-mcq-06",
-        "warm-mcq-01"
+        "warm-mcq-01",
+        "warm-mcq-08",
+        "warm-mcq-10"
       ],
       "explanation": "本句的「warm smile」指「表情、語氣或舉止帶有友善、關懷和親近感」。",
       "sentenceIndex": 7,
@@ -793,12 +763,10 @@ export default {
         "warm smile"
       ],
       "optionReasons": {
-        "warm-mcq-04": "本句指「表情、語氣或舉止帶有友善、關懷和親近感」。",
-        "warm-mcq-03": "「待人友善親切、有關懷感並令人容易感到安心的」是「warm — personality」的用法，與本句語境不同。",
-        "warm-mcq-05": "「以友善、熱情和真誠的方式歡迎／接待某人」是「warm welcome/reception」的用法，與本句語境不同。",
-        "warm-mcq-02": "「氣溫令人感到舒服地偏暖的」是「warm weather/climate」的用法，與本句語境不同。",
-        "warm-mcq-06": "「關係中帶有真誠、友善和情感親近感」是「warm relationship/friendship」的用法，與本句語境不同。",
-        "warm-mcq-01": "「溫度高於冷／涼但通常未達很熱程度的」是「warm — temperature」的用法，與本句語境不同。"
+        "warm-mcq-04": "本句的「warm smile」指「表情、語氣或舉止帶有友善、關懷和親近感」。",
+        "warm-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-04"
     },
@@ -810,11 +778,9 @@ export default {
       "masked": "He spoke in a ____.",
       "options": [
         "warm-mcq-04",
-        "warm-mcq-03",
-        "warm-mcq-05",
-        "warm-mcq-02",
-        "warm-mcq-06",
-        "warm-mcq-01"
+        "warm-mcq-01",
+        "warm-mcq-10",
+        "warm-mcq-22"
       ],
       "explanation": "本句的「warm voice」指「表情、語氣或舉止帶有友善、關懷和親近感」。",
       "sentenceIndex": 8,
@@ -823,12 +789,10 @@ export default {
         "warm voice"
       ],
       "optionReasons": {
-        "warm-mcq-04": "本句指「表情、語氣或舉止帶有友善、關懷和親近感」。",
-        "warm-mcq-03": "「待人友善親切、有關懷感並令人容易感到安心的」是「warm — personality」的用法，與本句語境不同。",
-        "warm-mcq-05": "「以友善、熱情和真誠的方式歡迎／接待某人」是「warm welcome/reception」的用法，與本句語境不同。",
-        "warm-mcq-02": "「氣溫令人感到舒服地偏暖的」是「warm weather/climate」的用法，與本句語境不同。",
-        "warm-mcq-06": "「關係中帶有真誠、友善和情感親近感」是「warm relationship/friendship」的用法，與本句語境不同。",
-        "warm-mcq-01": "「溫度高於冷／涼但通常未達很熱程度的」是「warm — temperature」的用法，與本句語境不同。"
+        "warm-mcq-04": "本句的「warm voice」指「表情、語氣或舉止帶有友善、關懷和親近感」。",
+        "warm-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-04"
     },
@@ -840,11 +804,9 @@ export default {
       "masked": "We received a ____.",
       "options": [
         "warm-mcq-05",
-        "warm-mcq-04",
-        "warm-mcq-06",
-        "warm-mcq-03",
-        "warm-mcq-07",
-        "warm-mcq-02"
+        "warm-mcq-17",
+        "warm-mcq-10",
+        "warm-mcq-22"
       ],
       "explanation": "本句的「warm welcome」指「以友善、熱情和真誠的方式歡迎／接待某人」。",
       "sentenceIndex": 9,
@@ -853,12 +815,10 @@ export default {
         "warm welcome"
       ],
       "optionReasons": {
-        "warm-mcq-05": "本句指「以友善、熱情和真誠的方式歡迎／接待某人」。",
-        "warm-mcq-04": "「表情、語氣或舉止帶有友善、關懷和親近感」是「warm smile/voice/manner」的用法，與本句語境不同。",
-        "warm-mcq-06": "「關係中帶有真誠、友善和情感親近感」是「warm relationship/friendship」的用法，與本句語境不同。",
-        "warm-mcq-03": "「待人友善親切、有關懷感並令人容易感到安心的」是「warm — personality」的用法，與本句語境不同。",
-        "warm-mcq-07": "「帶有喜愛、關懷、親切或感動的正面情緒」是「warm feelings」的用法，與本句語境不同。",
-        "warm-mcq-02": "「氣溫令人感到舒服地偏暖的」是「warm weather/climate」的用法，與本句語境不同。"
+        "warm-mcq-05": "本句的「warm welcome」指「以友善、熱情和真誠的方式歡迎／接待某人」。",
+        "warm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-05"
     },
@@ -870,10 +830,8 @@ export default {
       "masked": "The visitors were given a ____.",
       "options": [
         "warm-mcq-05",
-        "warm-mcq-04",
-        "warm-mcq-06",
-        "warm-mcq-03",
-        "warm-mcq-07",
+        "warm-mcq-24",
+        "warm-mcq-20",
         "warm-mcq-02"
       ],
       "explanation": "本句的「warm reception」指「以友善、熱情和真誠的方式歡迎／接待某人」。",
@@ -883,12 +841,10 @@ export default {
         "warm reception"
       ],
       "optionReasons": {
-        "warm-mcq-05": "本句指「以友善、熱情和真誠的方式歡迎／接待某人」。",
-        "warm-mcq-04": "「表情、語氣或舉止帶有友善、關懷和親近感」是「warm smile/voice/manner」的用法，與本句語境不同。",
-        "warm-mcq-06": "「關係中帶有真誠、友善和情感親近感」是「warm relationship/friendship」的用法，與本句語境不同。",
-        "warm-mcq-03": "「待人友善親切、有關懷感並令人容易感到安心的」是「warm — personality」的用法，與本句語境不同。",
-        "warm-mcq-07": "「帶有喜愛、關懷、親切或感動的正面情緒」是「warm feelings」的用法，與本句語境不同。",
-        "warm-mcq-02": "「氣溫令人感到舒服地偏暖的」是「warm weather/climate」的用法，與本句語境不同。"
+        "warm-mcq-05": "本句的「warm reception」指「以友善、熱情和真誠的方式歡迎／接待某人」。",
+        "warm-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-05"
     },
@@ -900,11 +856,9 @@ export default {
       "masked": "They have a ____.",
       "options": [
         "warm-mcq-06",
-        "warm-mcq-05",
-        "warm-mcq-07",
-        "warm-mcq-04",
-        "warm-mcq-08",
-        "warm-mcq-03"
+        "warm-mcq-24",
+        "warm-mcq-10",
+        "warm-mcq-16"
       ],
       "explanation": "本句的「warm relationship」指「關係中帶有真誠、友善和情感親近感」。",
       "sentenceIndex": 11,
@@ -913,12 +867,10 @@ export default {
         "warm relationship"
       ],
       "optionReasons": {
-        "warm-mcq-06": "本句指「關係中帶有真誠、友善和情感親近感」。",
-        "warm-mcq-05": "「以友善、熱情和真誠的方式歡迎／接待某人」是「warm welcome/reception」的用法，與本句語境不同。",
-        "warm-mcq-07": "「帶有喜愛、關懷、親切或感動的正面情緒」是「warm feelings」的用法，與本句語境不同。",
-        "warm-mcq-04": "「表情、語氣或舉止帶有友善、關懷和親近感」是「warm smile/voice/manner」的用法，與本句語境不同。",
-        "warm-mcq-08": "「對某件事表現出明顯熱情和積極支持的回應」是「warm response」的用法，與本句語境不同。",
-        "warm-mcq-03": "「待人友善親切、有關懷感並令人容易感到安心的」是「warm — personality」的用法，與本句語境不同。"
+        "warm-mcq-06": "本句的「warm relationship」指「關係中帶有真誠、友善和情感親近感」。",
+        "warm-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-06"
     },
@@ -930,11 +882,9 @@ export default {
       "masked": "A ____ developed between them.",
       "options": [
         "warm-mcq-06",
-        "warm-mcq-05",
-        "warm-mcq-07",
-        "warm-mcq-04",
-        "warm-mcq-08",
-        "warm-mcq-03"
+        "warm-mcq-13",
+        "warm-mcq-16",
+        "warm-mcq-22"
       ],
       "explanation": "本句的「warm friendship」指「關係中帶有真誠、友善和情感親近感」。",
       "sentenceIndex": 12,
@@ -943,12 +893,10 @@ export default {
         "warm friendship"
       ],
       "optionReasons": {
-        "warm-mcq-06": "本句指「關係中帶有真誠、友善和情感親近感」。",
-        "warm-mcq-05": "「以友善、熱情和真誠的方式歡迎／接待某人」是「warm welcome/reception」的用法，與本句語境不同。",
-        "warm-mcq-07": "「帶有喜愛、關懷、親切或感動的正面情緒」是「warm feelings」的用法，與本句語境不同。",
-        "warm-mcq-04": "「表情、語氣或舉止帶有友善、關懷和親近感」是「warm smile/voice/manner」的用法，與本句語境不同。",
-        "warm-mcq-08": "「對某件事表現出明顯熱情和積極支持的回應」是「warm response」的用法，與本句語境不同。",
-        "warm-mcq-03": "「待人友善親切、有關懷感並令人容易感到安心的」是「warm — personality」的用法，與本句語境不同。"
+        "warm-mcq-06": "本句的「warm friendship」指「關係中帶有真誠、友善和情感親近感」。",
+        "warm-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-06"
     },
@@ -960,11 +908,9 @@ export default {
       "masked": "She has ____ toward the family.",
       "options": [
         "warm-mcq-07",
-        "warm-mcq-06",
+        "warm-mcq-23",
         "warm-mcq-08",
-        "warm-mcq-05",
-        "warm-mcq-09",
-        "warm-mcq-04"
+        "warm-mcq-01"
       ],
       "explanation": "本句的「warm feelings」指「帶有喜愛、關懷、親切或感動的正面情緒」。",
       "sentenceIndex": 13,
@@ -973,12 +919,10 @@ export default {
         "warm feelings"
       ],
       "optionReasons": {
-        "warm-mcq-07": "本句指「帶有喜愛、關懷、親切或感動的正面情緒」。",
-        "warm-mcq-06": "「關係中帶有真誠、友善和情感親近感」是「warm relationship/friendship」的用法，與本句語境不同。",
-        "warm-mcq-08": "「對某件事表現出明顯熱情和積極支持的回應」是「warm response」的用法，與本句語境不同。",
-        "warm-mcq-05": "「以友善、熱情和真誠的方式歡迎／接待某人」是「warm welcome/reception」的用法，與本句語境不同。",
-        "warm-mcq-09": "「能令人產生安心、親密、感動或幸福感的」是「warm — emotionally comforting」的用法，與本句語境不同。",
-        "warm-mcq-04": "「表情、語氣或舉止帶有友善、關懷和親近感」是「warm smile/voice/manner」的用法，與本句語境不同。"
+        "warm-mcq-07": "本句的「warm feelings」指「帶有喜愛、關懷、親切或感動的正面情緒」。",
+        "warm-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-07"
     },
@@ -990,11 +934,9 @@ export default {
       "masked": "The memory filled him with ____.",
       "options": [
         "warm-mcq-07",
-        "warm-mcq-06",
-        "warm-mcq-08",
-        "warm-mcq-05",
-        "warm-mcq-09",
-        "warm-mcq-04"
+        "warm-mcq-01",
+        "warm-mcq-19",
+        "warm-mcq-10"
       ],
       "explanation": "本句的「warm affection」指「帶有喜愛、關懷、親切或感動的正面情緒」。",
       "sentenceIndex": 14,
@@ -1003,12 +945,10 @@ export default {
         "warm affection"
       ],
       "optionReasons": {
-        "warm-mcq-07": "本句指「帶有喜愛、關懷、親切或感動的正面情緒」。",
-        "warm-mcq-06": "「關係中帶有真誠、友善和情感親近感」是「warm relationship/friendship」的用法，與本句語境不同。",
-        "warm-mcq-08": "「對某件事表現出明顯熱情和積極支持的回應」是「warm response」的用法，與本句語境不同。",
-        "warm-mcq-05": "「以友善、熱情和真誠的方式歡迎／接待某人」是「warm welcome/reception」的用法，與本句語境不同。",
-        "warm-mcq-09": "「能令人產生安心、親密、感動或幸福感的」是「warm — emotionally comforting」的用法，與本句語境不同。",
-        "warm-mcq-04": "「表情、語氣或舉止帶有友善、關懷和親近感」是「warm smile/voice/manner」的用法，與本句語境不同。"
+        "warm-mcq-07": "本句的「warm affection」指「帶有喜愛、關懷、親切或感動的正面情緒」。",
+        "warm-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-07"
     },
@@ -1020,11 +960,9 @@ export default {
       "masked": "The proposal received a ____.",
       "options": [
         "warm-mcq-08",
-        "warm-mcq-07",
-        "warm-mcq-09",
         "warm-mcq-06",
-        "warm-mcq-10",
-        "warm-mcq-05"
+        "warm-mcq-11",
+        "warm-mcq-22"
       ],
       "explanation": "本句的「warm response」指「對某件事表現出明顯熱情和積極支持的回應」。",
       "sentenceIndex": 15,
@@ -1033,12 +971,10 @@ export default {
         "warm response"
       ],
       "optionReasons": {
-        "warm-mcq-08": "本句指「對某件事表現出明顯熱情和積極支持的回應」。",
-        "warm-mcq-07": "「帶有喜愛、關懷、親切或感動的正面情緒」是「warm feelings」的用法，與本句語境不同。",
-        "warm-mcq-09": "「能令人產生安心、親密、感動或幸福感的」是「warm — emotionally comforting」的用法，與本句語境不同。",
-        "warm-mcq-06": "「關係中帶有真誠、友善和情感親近感」是「warm relationship/friendship」的用法，與本句語境不同。",
-        "warm-mcq-10": "「視覺上偏紅、橙、黃等暖色系的」是「warm colour/tone」的用法，與本句語境不同。",
-        "warm-mcq-05": "「以友善、熱情和真誠的方式歡迎／接待某人」是「warm welcome/reception」的用法，與本句語境不同。"
+        "warm-mcq-08": "本句的「warm response」指「對某件事表現出明顯熱情和積極支持的回應」。",
+        "warm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-08"
     },
@@ -1050,11 +986,9 @@ export default {
       "masked": "The audience gave her a ____.",
       "options": [
         "warm-mcq-08",
-        "warm-mcq-07",
-        "warm-mcq-09",
-        "warm-mcq-06",
         "warm-mcq-10",
-        "warm-mcq-05"
+        "warm-mcq-24",
+        "warm-mcq-06"
       ],
       "explanation": "本句的「warm round of applause」指「對某件事表現出明顯熱情和積極支持的回應」。",
       "sentenceIndex": 16,
@@ -1063,12 +997,10 @@ export default {
         "warm round of applause"
       ],
       "optionReasons": {
-        "warm-mcq-08": "本句指「對某件事表現出明顯熱情和積極支持的回應」。",
-        "warm-mcq-07": "「帶有喜愛、關懷、親切或感動的正面情緒」是「warm feelings」的用法，與本句語境不同。",
-        "warm-mcq-09": "「能令人產生安心、親密、感動或幸福感的」是「warm — emotionally comforting」的用法，與本句語境不同。",
-        "warm-mcq-06": "「關係中帶有真誠、友善和情感親近感」是「warm relationship/friendship」的用法，與本句語境不同。",
-        "warm-mcq-10": "「視覺上偏紅、橙、黃等暖色系的」是「warm colour/tone」的用法，與本句語境不同。",
-        "warm-mcq-05": "「以友善、熱情和真誠的方式歡迎／接待某人」是「warm welcome/reception」的用法，與本句語境不同。"
+        "warm-mcq-08": "本句的「warm round of applause」指「對某件事表現出明顯熱情和積極支持的回應」。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-08"
     },
@@ -1080,11 +1012,9 @@ export default {
       "masked": "The story left me with a ____.",
       "options": [
         "warm-mcq-09",
-        "warm-mcq-08",
-        "warm-mcq-10",
-        "warm-mcq-07",
-        "warm-mcq-11",
-        "warm-mcq-06"
+        "warm-mcq-24",
+        "warm-mcq-23",
+        "warm-mcq-08"
       ],
       "explanation": "本句的「warm feeling」指「能令人產生安心、親密、感動或幸福感的」。",
       "sentenceIndex": 17,
@@ -1093,12 +1023,10 @@ export default {
         "warm feeling"
       ],
       "optionReasons": {
-        "warm-mcq-09": "本句指「能令人產生安心、親密、感動或幸福感的」。",
-        "warm-mcq-08": "「對某件事表現出明顯熱情和積極支持的回應」是「warm response」的用法，與本句語境不同。",
-        "warm-mcq-10": "「視覺上偏紅、橙、黃等暖色系的」是「warm colour/tone」的用法，與本句語境不同。",
-        "warm-mcq-07": "「帶有喜愛、關懷、親切或感動的正面情緒」是「warm feelings」的用法，與本句語境不同。",
-        "warm-mcq-11": "「色調偏黃橙、常令人感到舒適柔和的光線」是「warm light」的用法，與本句語境不同。",
-        "warm-mcq-06": "「關係中帶有真誠、友善和情感親近感」是「warm relationship/friendship」的用法，與本句語境不同。"
+        "warm-mcq-09": "本句的「warm feeling」指「能令人產生安心、親密、感動或幸福感的」。",
+        "warm-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-09"
     },
@@ -1110,11 +1038,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "warm-mcq-09",
-        "warm-mcq-08",
         "warm-mcq-10",
-        "warm-mcq-07",
-        "warm-mcq-11",
-        "warm-mcq-06"
+        "warm-mcq-08",
+        "warm-mcq-24"
       ],
       "explanation": "本句的「warm family moment」指「能令人產生安心、親密、感動或幸福感的」。",
       "sentenceIndex": 18,
@@ -1123,12 +1049,10 @@ export default {
         "warm family moment"
       ],
       "optionReasons": {
-        "warm-mcq-09": "本句指「能令人產生安心、親密、感動或幸福感的」。",
-        "warm-mcq-08": "「對某件事表現出明顯熱情和積極支持的回應」是「warm response」的用法，與本句語境不同。",
-        "warm-mcq-10": "「視覺上偏紅、橙、黃等暖色系的」是「warm colour/tone」的用法，與本句語境不同。",
-        "warm-mcq-07": "「帶有喜愛、關懷、親切或感動的正面情緒」是「warm feelings」的用法，與本句語境不同。",
-        "warm-mcq-11": "「色調偏黃橙、常令人感到舒適柔和的光線」是「warm light」的用法，與本句語境不同。",
-        "warm-mcq-06": "「關係中帶有真誠、友善和情感親近感」是「warm relationship/friendship」的用法，與本句語境不同。"
+        "warm-mcq-09": "本句的「warm family moment」指「能令人產生安心、親密、感動或幸福感的」。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-09"
     },
@@ -1140,11 +1064,9 @@ export default {
       "masked": "The room uses ____ such as orange and red.",
       "options": [
         "warm-mcq-10",
-        "warm-mcq-09",
-        "warm-mcq-11",
-        "warm-mcq-08",
-        "warm-mcq-12",
-        "warm-mcq-07"
+        "warm-mcq-15",
+        "warm-mcq-24",
+        "warm-mcq-22"
       ],
       "explanation": "本句的「warm colours」指「視覺上偏紅、橙、黃等暖色系的」。",
       "sentenceIndex": 19,
@@ -1153,12 +1075,10 @@ export default {
         "warm colours"
       ],
       "optionReasons": {
-        "warm-mcq-10": "本句指「視覺上偏紅、橙、黃等暖色系的」。",
-        "warm-mcq-09": "「能令人產生安心、親密、感動或幸福感的」是「warm — emotionally comforting」的用法，與本句語境不同。",
-        "warm-mcq-11": "「色調偏黃橙、常令人感到舒適柔和的光線」是「warm light」的用法，與本句語境不同。",
-        "warm-mcq-08": "「對某件事表現出明顯熱情和積極支持的回應」是「warm response」的用法，與本句語境不同。",
-        "warm-mcq-12": "「在尋找或猜測時逐漸接近正確答案／目標」是「warm — guessing」的用法，與本句語境不同。",
-        "warm-mcq-07": "「帶有喜愛、關懷、親切或感動的正面情緒」是「warm feelings」的用法，與本句語境不同。"
+        "warm-mcq-10": "本句的「warm colours」指「視覺上偏紅、橙、黃等暖色系的」。",
+        "warm-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-10"
     },
@@ -1170,11 +1090,9 @@ export default {
       "masked": "The photograph has a ____.",
       "options": [
         "warm-mcq-10",
-        "warm-mcq-09",
-        "warm-mcq-11",
-        "warm-mcq-08",
-        "warm-mcq-12",
-        "warm-mcq-07"
+        "warm-mcq-03",
+        "warm-mcq-20",
+        "warm-mcq-22"
       ],
       "explanation": "本句的「warm tone」指「視覺上偏紅、橙、黃等暖色系的」。",
       "sentenceIndex": 20,
@@ -1183,12 +1101,10 @@ export default {
         "warm tone"
       ],
       "optionReasons": {
-        "warm-mcq-10": "本句指「視覺上偏紅、橙、黃等暖色系的」。",
-        "warm-mcq-09": "「能令人產生安心、親密、感動或幸福感的」是「warm — emotionally comforting」的用法，與本句語境不同。",
-        "warm-mcq-11": "「色調偏黃橙、常令人感到舒適柔和的光線」是「warm light」的用法，與本句語境不同。",
-        "warm-mcq-08": "「對某件事表現出明顯熱情和積極支持的回應」是「warm response」的用法，與本句語境不同。",
-        "warm-mcq-12": "「在尋找或猜測時逐漸接近正確答案／目標」是「warm — guessing」的用法，與本句語境不同。",
-        "warm-mcq-07": "「帶有喜愛、關懷、親切或感動的正面情緒」是「warm feelings」的用法，與本句語境不同。"
+        "warm-mcq-10": "本句的「warm tone」指「視覺上偏紅、橙、黃等暖色系的」。",
+        "warm-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-10"
     },
@@ -1200,11 +1116,9 @@ export default {
       "masked": "The lamp gives off a ____.",
       "options": [
         "warm-mcq-11",
-        "warm-mcq-10",
-        "warm-mcq-12",
-        "warm-mcq-09",
+        "warm-mcq-16",
         "warm-mcq-13",
-        "warm-mcq-08"
+        "warm-mcq-06"
       ],
       "explanation": "本句的「warm light」指「色調偏黃橙、常令人感到舒適柔和的光線」。",
       "sentenceIndex": 21,
@@ -1213,12 +1127,10 @@ export default {
         "warm light"
       ],
       "optionReasons": {
-        "warm-mcq-11": "本句指「色調偏黃橙、常令人感到舒適柔和的光線」。",
-        "warm-mcq-10": "「視覺上偏紅、橙、黃等暖色系的」是「warm colour/tone」的用法，與本句語境不同。",
-        "warm-mcq-12": "「在尋找或猜測時逐漸接近正確答案／目標」是「warm — guessing」的用法，與本句語境不同。",
-        "warm-mcq-09": "「能令人產生安心、親密、感動或幸福感的」是「warm — emotionally comforting」的用法，與本句語境不同。",
-        "warm-mcq-13": "「使某人／某物溫度升高，或逐漸變暖」是「warm — verb」的用法，與本句語境不同。",
-        "warm-mcq-08": "「對某件事表現出明顯熱情和積極支持的回應」是「warm response」的用法，與本句語境不同。"
+        "warm-mcq-11": "本句的「warm light」指「色調偏黃橙、常令人感到舒適柔和的光線」。",
+        "warm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-11"
     },
@@ -1230,11 +1142,9 @@ export default {
       "masked": "The restaurant uses ____.",
       "options": [
         "warm-mcq-11",
-        "warm-mcq-10",
-        "warm-mcq-12",
-        "warm-mcq-09",
         "warm-mcq-13",
-        "warm-mcq-08"
+        "warm-mcq-08",
+        "warm-mcq-06"
       ],
       "explanation": "本句的「warm lighting」指「色調偏黃橙、常令人感到舒適柔和的光線」。",
       "sentenceIndex": 22,
@@ -1243,12 +1153,10 @@ export default {
         "warm lighting"
       ],
       "optionReasons": {
-        "warm-mcq-11": "本句指「色調偏黃橙、常令人感到舒適柔和的光線」。",
-        "warm-mcq-10": "「視覺上偏紅、橙、黃等暖色系的」是「warm colour/tone」的用法，與本句語境不同。",
-        "warm-mcq-12": "「在尋找或猜測時逐漸接近正確答案／目標」是「warm — guessing」的用法，與本句語境不同。",
-        "warm-mcq-09": "「能令人產生安心、親密、感動或幸福感的」是「warm — emotionally comforting」的用法，與本句語境不同。",
-        "warm-mcq-13": "「使某人／某物溫度升高，或逐漸變暖」是「warm — verb」的用法，與本句語境不同。",
-        "warm-mcq-08": "「對某件事表現出明顯熱情和積極支持的回應」是「warm response」的用法，與本句語境不同。"
+        "warm-mcq-11": "本句的「warm lighting」指「色調偏黃橙、常令人感到舒適柔和的光線」。",
+        "warm-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-11"
     },
@@ -1260,11 +1168,9 @@ export default {
       "masked": "The perfume has a ____.",
       "options": [
         "warm-pdf-001",
-        "warm-mcq-10",
+        "warm-mcq-08",
         "warm-mcq-12",
-        "warm-mcq-09",
-        "warm-mcq-13",
-        "warm-mcq-08"
+        "warm-mcq-07"
       ],
       "explanation": "本句的「warm, spicy scent」指「氣味或風味令人聯想到溫暖、柔和、辛香或舒適感」。",
       "sentenceIndex": 23,
@@ -1273,12 +1179,10 @@ export default {
         "warm, spicy scent"
       ],
       "optionReasons": {
-        "warm-pdf-001": "本句指「氣味或風味令人聯想到溫暖、柔和、辛香或舒適感」。",
-        "warm-mcq-10": "「視覺上偏紅、橙、黃等暖色系的」是「warm colour/tone」的用法，與本句語境不同。",
-        "warm-mcq-12": "「在尋找或猜測時逐漸接近正確答案／目標」是「warm — guessing」的用法，與本句語境不同。",
-        "warm-mcq-09": "「能令人產生安心、親密、感動或幸福感的」是「warm — emotionally comforting」的用法，與本句語境不同。",
-        "warm-mcq-13": "「使某人／某物溫度升高，或逐漸變暖」是「warm — verb」的用法，與本句語境不同。",
-        "warm-mcq-08": "「對某件事表現出明顯熱情和積極支持的回應」是「warm response」的用法，與本句語境不同。"
+        "warm-pdf-001": "本句的「warm, spicy scent」指「氣味或風味令人聯想到溫暖、柔和、辛香或舒適感」。",
+        "warm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-pdf-001"
     },
@@ -1290,11 +1194,9 @@ export default {
       "masked": "The dish has a ____ from cinnamon and cloves.",
       "options": [
         "warm-pdf-001",
-        "warm-mcq-10",
         "warm-mcq-12",
-        "warm-mcq-09",
-        "warm-mcq-13",
-        "warm-mcq-08"
+        "warm-mcq-08",
+        "warm-mcq-10"
       ],
       "explanation": "本句的「warm flavour」指「氣味或風味令人聯想到溫暖、柔和、辛香或舒適感」。",
       "sentenceIndex": 24,
@@ -1303,12 +1205,10 @@ export default {
         "warm flavour"
       ],
       "optionReasons": {
-        "warm-pdf-001": "本句指「氣味或風味令人聯想到溫暖、柔和、辛香或舒適感」。",
-        "warm-mcq-10": "「視覺上偏紅、橙、黃等暖色系的」是「warm colour/tone」的用法，與本句語境不同。",
-        "warm-mcq-12": "「在尋找或猜測時逐漸接近正確答案／目標」是「warm — guessing」的用法，與本句語境不同。",
-        "warm-mcq-09": "「能令人產生安心、親密、感動或幸福感的」是「warm — emotionally comforting」的用法，與本句語境不同。",
-        "warm-mcq-13": "「使某人／某物溫度升高，或逐漸變暖」是「warm — verb」的用法，與本句語境不同。",
-        "warm-mcq-08": "「對某件事表現出明顯熱情和積極支持的回應」是「warm response」的用法，與本句語境不同。"
+        "warm-pdf-001": "本句的「warm flavour」指「氣味或風味令人聯想到溫暖、柔和、辛香或舒適感」。",
+        "warm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-pdf-001"
     },
@@ -1320,11 +1220,9 @@ export default {
       "masked": "You’re getting ____.",
       "options": [
         "warm-mcq-12",
-        "warm-mcq-11",
-        "warm-mcq-13",
-        "warm-mcq-10",
-        "warm-mcq-14",
-        "warm-mcq-09"
+        "warm-mcq-08",
+        "warm-mcq-09",
+        "warm-mcq-10"
       ],
       "explanation": "本句的「warmer」指「在尋找或猜測時逐漸接近正確答案／目標」。",
       "sentenceIndex": 25,
@@ -1333,12 +1231,10 @@ export default {
         "warmer"
       ],
       "optionReasons": {
-        "warm-mcq-12": "本句指「在尋找或猜測時逐漸接近正確答案／目標」。",
-        "warm-mcq-11": "「色調偏黃橙、常令人感到舒適柔和的光線」是「warm light」的用法，與本句語境不同。",
-        "warm-mcq-13": "「使某人／某物溫度升高，或逐漸變暖」是「warm — verb」的用法，與本句語境不同。",
-        "warm-mcq-10": "「視覺上偏紅、橙、黃等暖色系的」是「warm colour/tone」的用法，與本句語境不同。",
-        "warm-mcq-14": "「從較冷淡／中立的態度逐漸產生好感、興趣或接受」是「warm to」的用法，與本句語境不同。",
-        "warm-mcq-09": "「能令人產生安心、親密、感動或幸福感的」是「warm — emotionally comforting」的用法，與本句語境不同。"
+        "warm-mcq-12": "本句的「warmer」指「在尋找或猜測時逐漸接近正確答案／目標」。",
+        "warm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-12"
     },
@@ -1350,11 +1246,9 @@ export default {
       "masked": "That guess is much ____.",
       "options": [
         "warm-mcq-12",
-        "warm-mcq-11",
-        "warm-mcq-13",
-        "warm-mcq-10",
-        "warm-mcq-14",
-        "warm-mcq-09"
+        "warm-mcq-16",
+        "warm-mcq-21",
+        "warm-mcq-10"
       ],
       "explanation": "本句的「warmer」指「在尋找或猜測時逐漸接近正確答案／目標」。",
       "sentenceIndex": 26,
@@ -1363,12 +1257,10 @@ export default {
         "warmer"
       ],
       "optionReasons": {
-        "warm-mcq-12": "本句指「在尋找或猜測時逐漸接近正確答案／目標」。",
-        "warm-mcq-11": "「色調偏黃橙、常令人感到舒適柔和的光線」是「warm light」的用法，與本句語境不同。",
-        "warm-mcq-13": "「使某人／某物溫度升高，或逐漸變暖」是「warm — verb」的用法，與本句語境不同。",
-        "warm-mcq-10": "「視覺上偏紅、橙、黃等暖色系的」是「warm colour/tone」的用法，與本句語境不同。",
-        "warm-mcq-14": "「從較冷淡／中立的態度逐漸產生好感、興趣或接受」是「warm to」的用法，與本句語境不同。",
-        "warm-mcq-09": "「能令人產生安心、親密、感動或幸福感的」是「warm — emotionally comforting」的用法，與本句語境不同。"
+        "warm-mcq-12": "本句的「warmer」指「在尋找或猜測時逐漸接近正確答案／目標」。",
+        "warm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-12"
     },
@@ -1380,11 +1272,9 @@ export default {
       "masked": "The client seemed ____ to the idea.",
       "options": [
         "warm-mcq-20",
-        "warm-mcq-19",
-        "warm-mcq-21",
-        "warm-mcq-18",
-        "warm-mcq-22",
-        "warm-mcq-17"
+        "warm-mcq-12",
+        "warm-mcq-10",
+        "warm-mcq-03"
       ],
       "explanation": "本句的「warm」指「對某個想法、人或提議表現出一定程度的興趣、支持或好感」。",
       "sentenceIndex": 27,
@@ -1393,12 +1283,10 @@ export default {
         "warm"
       ],
       "optionReasons": {
-        "warm-mcq-20": "本句指「對某個想法、人或提議表現出一定程度的興趣、支持或好感」。",
-        "warm-mcq-19": "「對人真誠友善、富同情心並願意關心幫助別人的」是「warm-hearted」的用法，與本句語境不同。",
-        "warm-mcq-21": "「透過熱力令人或物感到較暖」是「16. warm someone's hands/body（暖和身體） — 使暖和」的用法，與本句語境不同。",
-        "warm-mcq-18": "「待人方式中表現出的真誠友善、關懷和感情」是「warmth — emotional」的用法，與本句語境不同。",
-        "warm-mcq-22": "「在運動前以較輕活動令肌肉和身體準備好」是「18. warm up = prepare body for exercise（熱身） — 熱身」的用法，與本句語境不同。",
-        "warm-mcq-17": "「溫度帶來的暖和感」是「warmth — physical」的用法，與本句語境不同。"
+        "warm-mcq-20": "本句的「warm」指「對某個想法、人或提議表現出一定程度的興趣、支持或好感」。",
+        "warm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-20"
     },
@@ -1410,11 +1298,9 @@ export default {
       "masked": "They gave the proposal a ____ response.",
       "options": [
         "warm-mcq-20",
-        "warm-mcq-19",
-        "warm-mcq-21",
-        "warm-mcq-18",
-        "warm-mcq-22",
-        "warm-mcq-17"
+        "warm-mcq-05",
+        "warm-mcq-10",
+        "warm-mcq-21"
       ],
       "explanation": "本句的「warm」指「對某個想法、人或提議表現出一定程度的興趣、支持或好感」。",
       "sentenceIndex": 28,
@@ -1423,12 +1309,10 @@ export default {
         "warm"
       ],
       "optionReasons": {
-        "warm-mcq-20": "本句指「對某個想法、人或提議表現出一定程度的興趣、支持或好感」。",
-        "warm-mcq-19": "「對人真誠友善、富同情心並願意關心幫助別人的」是「warm-hearted」的用法，與本句語境不同。",
-        "warm-mcq-21": "「透過熱力令人或物感到較暖」是「16. warm someone's hands/body（暖和身體） — 使暖和」的用法，與本句語境不同。",
-        "warm-mcq-18": "「待人方式中表現出的真誠友善、關懷和感情」是「warmth — emotional」的用法，與本句語境不同。",
-        "warm-mcq-22": "「在運動前以較輕活動令肌肉和身體準備好」是「18. warm up = prepare body for exercise（熱身） — 熱身」的用法，與本句語境不同。",
-        "warm-mcq-17": "「溫度帶來的暖和感」是「warmth — physical」的用法，與本句語境不同。"
+        "warm-mcq-20": "本句的「warm」指「對某個想法、人或提議表現出一定程度的興趣、支持或好感」。",
+        "warm-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-20"
     },
@@ -1440,11 +1324,9 @@ export default {
       "masked": "She ____ the soup.",
       "options": [
         "warm-mcq-13",
-        "warm-mcq-12",
-        "warm-mcq-14",
-        "warm-mcq-11",
-        "warm-mcq-15",
-        "warm-mcq-10"
+        "warm-mcq-18",
+        "warm-mcq-16",
+        "warm-mcq-22"
       ],
       "explanation": "本句的「warmed」指「使某人／某物溫度升高，或逐漸變暖」。",
       "sentenceIndex": 29,
@@ -1453,12 +1335,10 @@ export default {
         "warmed"
       ],
       "optionReasons": {
-        "warm-mcq-13": "本句指「使某人／某物溫度升高，或逐漸變暖」。",
-        "warm-mcq-12": "「在尋找或猜測時逐漸接近正確答案／目標」是「warm — guessing」的用法，與本句語境不同。",
-        "warm-mcq-14": "「從較冷淡／中立的態度逐漸產生好感、興趣或接受」是「warm to」的用法，與本句語境不同。",
-        "warm-mcq-11": "「色調偏黃橙、常令人感到舒適柔和的光線」是「warm light」的用法，與本句語境不同。",
-        "warm-mcq-15": "「以友善、熱情、有感情的方式」是「warmly — friendly」的用法，與本句語境不同。",
-        "warm-mcq-10": "「視覺上偏紅、橙、黃等暖色系的」是「warm colour/tone」的用法，與本句語境不同。"
+        "warm-mcq-13": "本句的「warmed」指「使某人／某物溫度升高，或逐漸變暖」。",
+        "warm-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-13"
     },
@@ -1470,11 +1350,9 @@ export default {
       "masked": "The room began to ____ in the afternoon sun.",
       "options": [
         "warm-mcq-13",
-        "warm-mcq-12",
-        "warm-mcq-14",
-        "warm-mcq-11",
-        "warm-mcq-15",
-        "warm-mcq-10"
+        "warm-mcq-06",
+        "warm-mcq-16",
+        "warm-mcq-11"
       ],
       "explanation": "本句的「warm」指「使某人／某物溫度升高，或逐漸變暖」。",
       "sentenceIndex": 30,
@@ -1483,12 +1361,10 @@ export default {
         "warm"
       ],
       "optionReasons": {
-        "warm-mcq-13": "本句指「使某人／某物溫度升高，或逐漸變暖」。",
-        "warm-mcq-12": "「在尋找或猜測時逐漸接近正確答案／目標」是「warm — guessing」的用法，與本句語境不同。",
-        "warm-mcq-14": "「從較冷淡／中立的態度逐漸產生好感、興趣或接受」是「warm to」的用法，與本句語境不同。",
-        "warm-mcq-11": "「色調偏黃橙、常令人感到舒適柔和的光線」是「warm light」的用法，與本句語境不同。",
-        "warm-mcq-15": "「以友善、熱情、有感情的方式」是「warmly — friendly」的用法，與本句語境不同。",
-        "warm-mcq-10": "「視覺上偏紅、橙、黃等暖色系的」是「warm colour/tone」的用法，與本句語境不同。"
+        "warm-mcq-13": "本句的「warm」指「使某人／某物溫度升高，或逐漸變暖」。",
+        "warm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-13"
     },
@@ -1500,11 +1376,9 @@ export default {
       "masked": "She held the cup to ____.",
       "options": [
         "warm-mcq-21",
-        "warm-mcq-20",
-        "warm-mcq-22",
-        "warm-mcq-19",
         "warm-mcq-23",
-        "warm-mcq-18"
+        "warm-mcq-07",
+        "warm-mcq-10"
       ],
       "explanation": "本句的「warm her hands」指「透過熱力令人或物感到較暖」。",
       "sentenceIndex": 31,
@@ -1513,12 +1387,10 @@ export default {
         "warm her hands"
       ],
       "optionReasons": {
-        "warm-mcq-21": "本句指「透過熱力令人或物感到較暖」。",
-        "warm-mcq-20": "「對某個想法、人或提議表現出一定程度的興趣、支持或好感」是「14. warm = slightly encouraging / interested（態度） — 稍有興趣的；較正面的」的用法，與本句語境不同。",
-        "warm-mcq-22": "「在運動前以較輕活動令肌肉和身體準備好」是「18. warm up = prepare body for exercise（熱身） — 熱身」的用法，與本句語境不同。",
-        "warm-mcq-19": "「對人真誠友善、富同情心並願意關心幫助別人的」是「warm-hearted」的用法，與本句語境不同。",
-        "warm-mcq-23": "「氣氛或人的態度由冷淡、拘謹逐漸變得友善、活躍」是「19. warm up = become friendlier / more relaxed（氣氛／人） — 熱絡起來；放鬆下來」的用法，與本句語境不同。",
-        "warm-mcq-18": "「待人方式中表現出的真誠友善、關懷和感情」是「warmth — emotional」的用法，與本句語境不同。"
+        "warm-mcq-21": "本句的「warm her hands」指「透過熱力令人或物感到較暖」。",
+        "warm-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-21"
     },
@@ -1530,11 +1402,9 @@ export default {
       "masked": "The fire ____ the room.",
       "options": [
         "warm-mcq-21",
-        "warm-mcq-20",
-        "warm-mcq-22",
-        "warm-mcq-19",
-        "warm-mcq-23",
-        "warm-mcq-18"
+        "warm-mcq-12",
+        "warm-mcq-10",
+        "warm-mcq-16"
       ],
       "explanation": "本句的「warmed」指「透過熱力令人或物感到較暖」。",
       "sentenceIndex": 32,
@@ -1543,12 +1413,10 @@ export default {
         "warmed"
       ],
       "optionReasons": {
-        "warm-mcq-21": "本句指「透過熱力令人或物感到較暖」。",
-        "warm-mcq-20": "「對某個想法、人或提議表現出一定程度的興趣、支持或好感」是「14. warm = slightly encouraging / interested（態度） — 稍有興趣的；較正面的」的用法，與本句語境不同。",
-        "warm-mcq-22": "「在運動前以較輕活動令肌肉和身體準備好」是「18. warm up = prepare body for exercise（熱身） — 熱身」的用法，與本句語境不同。",
-        "warm-mcq-19": "「對人真誠友善、富同情心並願意關心幫助別人的」是「warm-hearted」的用法，與本句語境不同。",
-        "warm-mcq-23": "「氣氛或人的態度由冷淡、拘謹逐漸變得友善、活躍」是「19. warm up = become friendlier / more relaxed（氣氛／人） — 熱絡起來；放鬆下來」的用法，與本句語境不同。",
-        "warm-mcq-18": "「待人方式中表現出的真誠友善、關懷和感情」是「warmth — emotional」的用法，與本句語境不同。"
+        "warm-mcq-21": "本句的「warmed」指「透過熱力令人或物感到較暖」。",
+        "warm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-21"
     },
@@ -1560,11 +1428,9 @@ export default {
       "masked": "She gradually ____ the new neighbour.",
       "options": [
         "warm-mcq-14",
-        "warm-mcq-13",
-        "warm-mcq-15",
-        "warm-mcq-12",
-        "warm-mcq-16",
-        "warm-mcq-11"
+        "warm-mcq-19",
+        "warm-mcq-10",
+        "warm-mcq-02"
       ],
       "explanation": "本句的「warmed to」指「從較冷淡／中立的態度逐漸產生好感、興趣或接受」。",
       "sentenceIndex": 33,
@@ -1573,12 +1439,10 @@ export default {
         "warmed to"
       ],
       "optionReasons": {
-        "warm-mcq-14": "本句指「從較冷淡／中立的態度逐漸產生好感、興趣或接受」。",
-        "warm-mcq-13": "「使某人／某物溫度升高，或逐漸變暖」是「warm — verb」的用法，與本句語境不同。",
-        "warm-mcq-15": "「以友善、熱情、有感情的方式」是「warmly — friendly」的用法，與本句語境不同。",
-        "warm-mcq-12": "「在尋找或猜測時逐漸接近正確答案／目標」是「warm — guessing」的用法，與本句語境不同。",
-        "warm-mcq-16": "「以明顯熱情、欣賞或支持的方式」是「warmly — approving」的用法，與本句語境不同。",
-        "warm-mcq-11": "「色調偏黃橙、常令人感到舒適柔和的光線」是「warm light」的用法，與本句語境不同。"
+        "warm-mcq-14": "本句的「warmed to」指「從較冷淡／中立的態度逐漸產生好感、興趣或接受」。",
+        "warm-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-14"
     },
@@ -1590,11 +1454,9 @@ export default {
       "masked": "The team eventually ____ the idea.",
       "options": [
         "warm-mcq-14",
-        "warm-mcq-13",
-        "warm-mcq-15",
-        "warm-mcq-12",
-        "warm-mcq-16",
-        "warm-mcq-11"
+        "warm-mcq-19",
+        "warm-mcq-10",
+        "warm-pdf-001"
       ],
       "explanation": "本句的「warmed to」指「從較冷淡／中立的態度逐漸產生好感、興趣或接受」。",
       "sentenceIndex": 34,
@@ -1603,12 +1465,10 @@ export default {
         "warmed to"
       ],
       "optionReasons": {
-        "warm-mcq-14": "本句指「從較冷淡／中立的態度逐漸產生好感、興趣或接受」。",
-        "warm-mcq-13": "「使某人／某物溫度升高，或逐漸變暖」是「warm — verb」的用法，與本句語境不同。",
-        "warm-mcq-15": "「以友善、熱情、有感情的方式」是「warmly — friendly」的用法，與本句語境不同。",
-        "warm-mcq-12": "「在尋找或猜測時逐漸接近正確答案／目標」是「warm — guessing」的用法，與本句語境不同。",
-        "warm-mcq-16": "「以明顯熱情、欣賞或支持的方式」是「warmly — approving」的用法，與本句語境不同。",
-        "warm-mcq-11": "「色調偏黃橙、常令人感到舒適柔和的光線」是「warm light」的用法，與本句語境不同。"
+        "warm-mcq-14": "本句的「warmed to」指「從較冷淡／中立的態度逐漸產生好感、興趣或接受」。",
+        "warm-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "warm-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-14"
     },
@@ -1620,11 +1480,9 @@ export default {
       "masked": "Always ____ before exercising.",
       "options": [
         "warm-mcq-22",
-        "warm-mcq-21",
-        "warm-mcq-23",
-        "warm-mcq-20",
-        "warm-mcq-24",
-        "warm-mcq-19"
+        "warm-mcq-05",
+        "warm-mcq-17",
+        "warm-mcq-10"
       ],
       "explanation": "本句的「warm up」指「在運動前以較輕活動令肌肉和身體準備好」。",
       "sentenceIndex": 35,
@@ -1633,12 +1491,10 @@ export default {
         "warm up"
       ],
       "optionReasons": {
-        "warm-mcq-22": "本句指「在運動前以較輕活動令肌肉和身體準備好」。",
-        "warm-mcq-21": "「透過熱力令人或物感到較暖」是「16. warm someone's hands/body（暖和身體） — 使暖和」的用法，與本句語境不同。",
-        "warm-mcq-23": "「氣氛或人的態度由冷淡、拘謹逐漸變得友善、活躍」是「19. warm up = become friendlier / more relaxed（氣氛／人） — 熱絡起來；放鬆下來」的用法，與本句語境不同。",
-        "warm-mcq-20": "「對某個想法、人或提議表現出一定程度的興趣、支持或好感」是「14. warm = slightly encouraging / interested（態度） — 稍有興趣的；較正面的」的用法，與本句語境不同。",
-        "warm-mcq-24": "「表示溫度逐步升高的過程」是「20. warming = process of becoming warmer（變暖） — 升溫；變暖」的用法，與本句語境不同。",
-        "warm-mcq-19": "「對人真誠友善、富同情心並願意關心幫助別人的」是「warm-hearted」的用法，與本句語境不同。"
+        "warm-mcq-22": "本句的「warm up」指「在運動前以較輕活動令肌肉和身體準備好」。",
+        "warm-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-22"
     },
@@ -1650,11 +1506,9 @@ export default {
       "masked": "The players were ____ before the match.",
       "options": [
         "warm-mcq-22",
-        "warm-mcq-21",
-        "warm-mcq-23",
-        "warm-mcq-20",
-        "warm-mcq-24",
-        "warm-mcq-19"
+        "warm-mcq-18",
+        "warm-mcq-01",
+        "warm-mcq-16"
       ],
       "explanation": "本句的「warming up」指「在運動前以較輕活動令肌肉和身體準備好」。",
       "sentenceIndex": 36,
@@ -1663,12 +1517,10 @@ export default {
         "warming up"
       ],
       "optionReasons": {
-        "warm-mcq-22": "本句指「在運動前以較輕活動令肌肉和身體準備好」。",
-        "warm-mcq-21": "「透過熱力令人或物感到較暖」是「16. warm someone's hands/body（暖和身體） — 使暖和」的用法，與本句語境不同。",
-        "warm-mcq-23": "「氣氛或人的態度由冷淡、拘謹逐漸變得友善、活躍」是「19. warm up = become friendlier / more relaxed（氣氛／人） — 熱絡起來；放鬆下來」的用法，與本句語境不同。",
-        "warm-mcq-20": "「對某個想法、人或提議表現出一定程度的興趣、支持或好感」是「14. warm = slightly encouraging / interested（態度） — 稍有興趣的；較正面的」的用法，與本句語境不同。",
-        "warm-mcq-24": "「表示溫度逐步升高的過程」是「20. warming = process of becoming warmer（變暖） — 升溫；變暖」的用法，與本句語境不同。",
-        "warm-mcq-19": "「對人真誠友善、富同情心並願意關心幫助別人的」是「warm-hearted」的用法，與本句語境不同。"
+        "warm-mcq-22": "本句的「warming up」指「在運動前以較輕活動令肌肉和身體準備好」。",
+        "warm-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-22"
     },
@@ -1680,11 +1532,9 @@ export default {
       "masked": "The conversation ____ after a few minutes.",
       "options": [
         "warm-mcq-23",
-        "warm-mcq-22",
-        "warm-mcq-24",
+        "warm-mcq-08",
         "warm-mcq-21",
-        "warm-mcq-20",
-        "warm-mcq-19"
+        "warm-mcq-07"
       ],
       "explanation": "本句的「warmed up」指「氣氛或人的態度由冷淡、拘謹逐漸變得友善、活躍」。",
       "sentenceIndex": 37,
@@ -1693,12 +1543,10 @@ export default {
         "warmed up"
       ],
       "optionReasons": {
-        "warm-mcq-23": "本句指「氣氛或人的態度由冷淡、拘謹逐漸變得友善、活躍」。",
-        "warm-mcq-22": "「在運動前以較輕活動令肌肉和身體準備好」是「18. warm up = prepare body for exercise（熱身） — 熱身」的用法，與本句語境不同。",
-        "warm-mcq-24": "「表示溫度逐步升高的過程」是「20. warming = process of becoming warmer（變暖） — 升溫；變暖」的用法，與本句語境不同。",
-        "warm-mcq-21": "「透過熱力令人或物感到較暖」是「16. warm someone's hands/body（暖和身體） — 使暖和」的用法，與本句語境不同。",
-        "warm-mcq-20": "「對某個想法、人或提議表現出一定程度的興趣、支持或好感」是「14. warm = slightly encouraging / interested（態度） — 稍有興趣的；較正面的」的用法，與本句語境不同。",
-        "warm-mcq-19": "「對人真誠友善、富同情心並願意關心幫助別人的」是「warm-hearted」的用法，與本句語境不同。"
+        "warm-mcq-23": "本句的「warmed up」指「氣氛或人的態度由冷淡、拘謹逐漸變得友善、活躍」。",
+        "warm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-23"
     },
@@ -1710,11 +1558,9 @@ export default {
       "masked": "He was shy at first but soon ____.",
       "options": [
         "warm-mcq-23",
-        "warm-mcq-22",
-        "warm-mcq-24",
-        "warm-mcq-21",
-        "warm-mcq-20",
-        "warm-mcq-19"
+        "warm-mcq-11",
+        "warm-mcq-07",
+        "warm-mcq-08"
       ],
       "explanation": "本句的「warmed up」指「氣氛或人的態度由冷淡、拘謹逐漸變得友善、活躍」。",
       "sentenceIndex": 38,
@@ -1723,12 +1569,10 @@ export default {
         "warmed up"
       ],
       "optionReasons": {
-        "warm-mcq-23": "本句指「氣氛或人的態度由冷淡、拘謹逐漸變得友善、活躍」。",
-        "warm-mcq-22": "「在運動前以較輕活動令肌肉和身體準備好」是「18. warm up = prepare body for exercise（熱身） — 熱身」的用法，與本句語境不同。",
-        "warm-mcq-24": "「表示溫度逐步升高的過程」是「20. warming = process of becoming warmer（變暖） — 升溫；變暖」的用法，與本句語境不同。",
-        "warm-mcq-21": "「透過熱力令人或物感到較暖」是「16. warm someone's hands/body（暖和身體） — 使暖和」的用法，與本句語境不同。",
-        "warm-mcq-20": "「對某個想法、人或提議表現出一定程度的興趣、支持或好感」是「14. warm = slightly encouraging / interested（態度） — 稍有興趣的；較正面的」的用法，與本句語境不同。",
-        "warm-mcq-19": "「對人真誠友善、富同情心並願意關心幫助別人的」是「warm-hearted」的用法，與本句語境不同。"
+        "warm-mcq-23": "本句的「warmed up」指「氣氛或人的態度由冷淡、拘謹逐漸變得友善、活躍」。",
+        "warm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-23"
     },
@@ -1740,11 +1584,9 @@ export default {
       "masked": "The gradual ____ of the room made everyone more comfortable.",
       "options": [
         "warm-mcq-24",
-        "warm-mcq-23",
-        "warm-mcq-22",
-        "warm-mcq-21",
-        "warm-mcq-20",
-        "warm-mcq-19"
+        "warm-mcq-08",
+        "warm-mcq-04",
+        "warm-mcq-22"
       ],
       "explanation": "本句的「warming」指「表示溫度逐步升高的過程」。",
       "sentenceIndex": 39,
@@ -1753,12 +1595,10 @@ export default {
         "warming"
       ],
       "optionReasons": {
-        "warm-mcq-24": "本句指「表示溫度逐步升高的過程」。",
-        "warm-mcq-23": "「氣氛或人的態度由冷淡、拘謹逐漸變得友善、活躍」是「19. warm up = become friendlier / more relaxed（氣氛／人） — 熱絡起來；放鬆下來」的用法，與本句語境不同。",
-        "warm-mcq-22": "「在運動前以較輕活動令肌肉和身體準備好」是「18. warm up = prepare body for exercise（熱身） — 熱身」的用法，與本句語境不同。",
-        "warm-mcq-21": "「透過熱力令人或物感到較暖」是「16. warm someone's hands/body（暖和身體） — 使暖和」的用法，與本句語境不同。",
-        "warm-mcq-20": "「對某個想法、人或提議表現出一定程度的興趣、支持或好感」是「14. warm = slightly encouraging / interested（態度） — 稍有興趣的；較正面的」的用法，與本句語境不同。",
-        "warm-mcq-19": "「對人真誠友善、富同情心並願意關心幫助別人的」是「warm-hearted」的用法，與本句語境不同。"
+        "warm-mcq-24": "本句的「warming」指「表示溫度逐步升高的過程」。",
+        "warm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-24"
     },
@@ -1770,11 +1610,9 @@ export default {
       "masked": "Ocean ____ affects marine ecosystems.",
       "options": [
         "warm-mcq-24",
-        "warm-mcq-23",
-        "warm-mcq-22",
-        "warm-mcq-21",
-        "warm-mcq-20",
-        "warm-mcq-19"
+        "warm-mcq-18",
+        "warm-mcq-16",
+        "warm-mcq-10"
       ],
       "explanation": "本句的「warming」指「表示溫度逐步升高的過程」。",
       "sentenceIndex": 40,
@@ -1783,12 +1621,10 @@ export default {
         "warming"
       ],
       "optionReasons": {
-        "warm-mcq-24": "本句指「表示溫度逐步升高的過程」。",
-        "warm-mcq-23": "「氣氛或人的態度由冷淡、拘謹逐漸變得友善、活躍」是「19. warm up = become friendlier / more relaxed（氣氛／人） — 熱絡起來；放鬆下來」的用法，與本句語境不同。",
-        "warm-mcq-22": "「在運動前以較輕活動令肌肉和身體準備好」是「18. warm up = prepare body for exercise（熱身） — 熱身」的用法，與本句語境不同。",
-        "warm-mcq-21": "「透過熱力令人或物感到較暖」是「16. warm someone's hands/body（暖和身體） — 使暖和」的用法，與本句語境不同。",
-        "warm-mcq-20": "「對某個想法、人或提議表現出一定程度的興趣、支持或好感」是「14. warm = slightly encouraging / interested（態度） — 稍有興趣的；較正面的」的用法，與本句語境不同。",
-        "warm-mcq-19": "「對人真誠友善、富同情心並願意關心幫助別人的」是「warm-hearted」的用法，與本句語境不同。"
+        "warm-mcq-24": "本句的「warming」指「表示溫度逐步升高的過程」。",
+        "warm-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-24"
     },
@@ -1800,11 +1636,9 @@ export default {
       "masked": "She ____ welcomed everyone.",
       "options": [
         "warm-mcq-15",
-        "warm-mcq-14",
-        "warm-mcq-16",
-        "warm-mcq-13",
-        "warm-mcq-17",
-        "warm-mcq-12"
+        "warm-mcq-10",
+        "warm-mcq-22",
+        "warm-mcq-13"
       ],
       "explanation": "本句的「warmly」指「以友善、熱情、有感情的方式」。",
       "sentenceIndex": 41,
@@ -1813,12 +1647,10 @@ export default {
         "warmly"
       ],
       "optionReasons": {
-        "warm-mcq-15": "本句指「以友善、熱情、有感情的方式」。",
-        "warm-mcq-14": "「從較冷淡／中立的態度逐漸產生好感、興趣或接受」是「warm to」的用法，與本句語境不同。",
-        "warm-mcq-16": "「以明顯熱情、欣賞或支持的方式」是「warmly — approving」的用法，與本句語境不同。",
-        "warm-mcq-13": "「使某人／某物溫度升高，或逐漸變暖」是「warm — verb」的用法，與本句語境不同。",
-        "warm-mcq-17": "「溫度帶來的暖和感」是「warmth — physical」的用法，與本句語境不同。",
-        "warm-mcq-12": "「在尋找或猜測時逐漸接近正確答案／目標」是「warm — guessing」的用法，與本句語境不同。"
+        "warm-mcq-15": "本句的「warmly」指「以友善、熱情、有感情的方式」。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-15"
     },
@@ -1830,11 +1662,9 @@ export default {
       "masked": "He spoke ____ about his grandmother.",
       "options": [
         "warm-mcq-15",
-        "warm-mcq-14",
-        "warm-mcq-16",
-        "warm-mcq-13",
-        "warm-mcq-17",
-        "warm-mcq-12"
+        "warm-mcq-24",
+        "warm-mcq-22",
+        "warm-mcq-10"
       ],
       "explanation": "本句的「warmly」指「以友善、熱情、有感情的方式」。",
       "sentenceIndex": 42,
@@ -1843,12 +1673,10 @@ export default {
         "warmly"
       ],
       "optionReasons": {
-        "warm-mcq-15": "本句指「以友善、熱情、有感情的方式」。",
-        "warm-mcq-14": "「從較冷淡／中立的態度逐漸產生好感、興趣或接受」是「warm to」的用法，與本句語境不同。",
-        "warm-mcq-16": "「以明顯熱情、欣賞或支持的方式」是「warmly — approving」的用法，與本句語境不同。",
-        "warm-mcq-13": "「使某人／某物溫度升高，或逐漸變暖」是「warm — verb」的用法，與本句語境不同。",
-        "warm-mcq-17": "「溫度帶來的暖和感」是「warmth — physical」的用法，與本句語境不同。",
-        "warm-mcq-12": "「在尋找或猜測時逐漸接近正確答案／目標」是「warm — guessing」的用法，與本句語境不同。"
+        "warm-mcq-15": "本句的「warmly」指「以友善、熱情、有感情的方式」。",
+        "warm-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-15"
     },
@@ -1860,11 +1688,9 @@ export default {
       "masked": "The idea was ____ received.",
       "options": [
         "warm-mcq-16",
-        "warm-mcq-15",
-        "warm-mcq-17",
-        "warm-mcq-14",
-        "warm-mcq-18",
-        "warm-mcq-13"
+        "warm-mcq-13",
+        "warm-mcq-11",
+        "warm-mcq-06"
       ],
       "explanation": "本句的「warmly」指「以明顯熱情、欣賞或支持的方式」。",
       "sentenceIndex": 43,
@@ -1873,12 +1699,10 @@ export default {
         "warmly"
       ],
       "optionReasons": {
-        "warm-mcq-16": "本句指「以明顯熱情、欣賞或支持的方式」。",
-        "warm-mcq-15": "「以友善、熱情、有感情的方式」是「warmly — friendly」的用法，與本句語境不同。",
-        "warm-mcq-17": "「溫度帶來的暖和感」是「warmth — physical」的用法，與本句語境不同。",
-        "warm-mcq-14": "「從較冷淡／中立的態度逐漸產生好感、興趣或接受」是「warm to」的用法，與本句語境不同。",
-        "warm-mcq-18": "「待人方式中表現出的真誠友善、關懷和感情」是「warmth — emotional」的用法，與本句語境不同。",
-        "warm-mcq-13": "「使某人／某物溫度升高，或逐漸變暖」是「warm — verb」的用法，與本句語境不同。"
+        "warm-mcq-16": "本句的「warmly」指「以明顯熱情、欣賞或支持的方式」。",
+        "warm-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-16"
     },
@@ -1890,11 +1714,9 @@ export default {
       "masked": "The audience ____ applauded the speaker.",
       "options": [
         "warm-mcq-16",
-        "warm-mcq-15",
-        "warm-mcq-17",
-        "warm-mcq-14",
-        "warm-mcq-18",
-        "warm-mcq-13"
+        "warm-mcq-04",
+        "warm-pdf-001",
+        "warm-mcq-12"
       ],
       "explanation": "本句的「warmly」指「以明顯熱情、欣賞或支持的方式」。",
       "sentenceIndex": 44,
@@ -1903,12 +1725,10 @@ export default {
         "warmly"
       ],
       "optionReasons": {
-        "warm-mcq-16": "本句指「以明顯熱情、欣賞或支持的方式」。",
-        "warm-mcq-15": "「以友善、熱情、有感情的方式」是「warmly — friendly」的用法，與本句語境不同。",
-        "warm-mcq-17": "「溫度帶來的暖和感」是「warmth — physical」的用法，與本句語境不同。",
-        "warm-mcq-14": "「從較冷淡／中立的態度逐漸產生好感、興趣或接受」是「warm to」的用法，與本句語境不同。",
-        "warm-mcq-18": "「待人方式中表現出的真誠友善、關懷和感情」是「warmth — emotional」的用法，與本句語境不同。",
-        "warm-mcq-13": "「使某人／某物溫度升高，或逐漸變暖」是「warm — verb」的用法，與本句語境不同。"
+        "warm-mcq-16": "本句的「warmly」指「以明顯熱情、欣賞或支持的方式」。",
+        "warm-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "warm-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-16"
     },
@@ -1921,10 +1741,8 @@ export default {
       "options": [
         "warm-mcq-17",
         "warm-mcq-16",
-        "warm-mcq-18",
-        "warm-mcq-15",
-        "warm-mcq-19",
-        "warm-mcq-14"
+        "warm-mcq-12",
+        "warm-mcq-03"
       ],
       "explanation": "本句的「warmth」指「溫度帶來的暖和感」。",
       "sentenceIndex": 45,
@@ -1933,12 +1751,10 @@ export default {
         "warmth"
       ],
       "optionReasons": {
-        "warm-mcq-17": "本句指「溫度帶來的暖和感」。",
-        "warm-mcq-16": "「以明顯熱情、欣賞或支持的方式」是「warmly — approving」的用法，與本句語境不同。",
-        "warm-mcq-18": "「待人方式中表現出的真誠友善、關懷和感情」是「warmth — emotional」的用法，與本句語境不同。",
-        "warm-mcq-15": "「以友善、熱情、有感情的方式」是「warmly — friendly」的用法，與本句語境不同。",
-        "warm-mcq-19": "「對人真誠友善、富同情心並願意關心幫助別人的」是「warm-hearted」的用法，與本句語境不同。",
-        "warm-mcq-14": "「從較冷淡／中立的態度逐漸產生好感、興趣或接受」是「warm to」的用法，與本句語境不同。"
+        "warm-mcq-17": "本句的「warmth」指「溫度帶來的暖和感」。",
+        "warm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-17"
     },
@@ -1950,11 +1766,9 @@ export default {
       "masked": "The blanket provided extra ____.",
       "options": [
         "warm-mcq-17",
-        "warm-mcq-16",
-        "warm-mcq-18",
-        "warm-mcq-15",
-        "warm-mcq-19",
-        "warm-mcq-14"
+        "warm-mcq-08",
+        "warm-mcq-12",
+        "warm-mcq-10"
       ],
       "explanation": "本句的「warmth」指「溫度帶來的暖和感」。",
       "sentenceIndex": 46,
@@ -1963,12 +1777,10 @@ export default {
         "warmth"
       ],
       "optionReasons": {
-        "warm-mcq-17": "本句指「溫度帶來的暖和感」。",
-        "warm-mcq-16": "「以明顯熱情、欣賞或支持的方式」是「warmly — approving」的用法，與本句語境不同。",
-        "warm-mcq-18": "「待人方式中表現出的真誠友善、關懷和感情」是「warmth — emotional」的用法，與本句語境不同。",
-        "warm-mcq-15": "「以友善、熱情、有感情的方式」是「warmly — friendly」的用法，與本句語境不同。",
-        "warm-mcq-19": "「對人真誠友善、富同情心並願意關心幫助別人的」是「warm-hearted」的用法，與本句語境不同。",
-        "warm-mcq-14": "「從較冷淡／中立的態度逐漸產生好感、興趣或接受」是「warm to」的用法，與本句語境不同。"
+        "warm-mcq-17": "本句的「warmth」指「溫度帶來的暖和感」。",
+        "warm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-17"
     },
@@ -1980,11 +1792,9 @@ export default {
       "masked": "Everyone appreciated her ____.",
       "options": [
         "warm-mcq-18",
-        "warm-mcq-17",
-        "warm-mcq-19",
+        "warm-mcq-13",
         "warm-mcq-16",
-        "warm-mcq-20",
-        "warm-mcq-15"
+        "warm-mcq-22"
       ],
       "explanation": "本句的「warmth」指「待人方式中表現出的真誠友善、關懷和感情」。",
       "sentenceIndex": 47,
@@ -1993,12 +1803,10 @@ export default {
         "warmth"
       ],
       "optionReasons": {
-        "warm-mcq-18": "本句指「待人方式中表現出的真誠友善、關懷和感情」。",
-        "warm-mcq-17": "「溫度帶來的暖和感」是「warmth — physical」的用法，與本句語境不同。",
-        "warm-mcq-19": "「對人真誠友善、富同情心並願意關心幫助別人的」是「warm-hearted」的用法，與本句語境不同。",
-        "warm-mcq-16": "「以明顯熱情、欣賞或支持的方式」是「warmly — approving」的用法，與本句語境不同。",
-        "warm-mcq-20": "「對某個想法、人或提議表現出一定程度的興趣、支持或好感」是「14. warm = slightly encouraging / interested（態度） — 稍有興趣的；較正面的」的用法，與本句語境不同。",
-        "warm-mcq-15": "「以友善、熱情、有感情的方式」是「warmly — friendly」的用法，與本句語境不同。"
+        "warm-mcq-18": "本句的「warmth」指「待人方式中表現出的真誠友善、關懷和感情」。",
+        "warm-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-18"
     },
@@ -2010,11 +1818,9 @@ export default {
       "masked": "She spoke with great ____.",
       "options": [
         "warm-mcq-18",
-        "warm-mcq-17",
-        "warm-mcq-19",
+        "warm-mcq-13",
         "warm-mcq-16",
-        "warm-mcq-20",
-        "warm-mcq-15"
+        "warm-mcq-22"
       ],
       "explanation": "本句的「warmth」指「待人方式中表現出的真誠友善、關懷和感情」。",
       "sentenceIndex": 48,
@@ -2023,12 +1829,10 @@ export default {
         "warmth"
       ],
       "optionReasons": {
-        "warm-mcq-18": "本句指「待人方式中表現出的真誠友善、關懷和感情」。",
-        "warm-mcq-17": "「溫度帶來的暖和感」是「warmth — physical」的用法，與本句語境不同。",
-        "warm-mcq-19": "「對人真誠友善、富同情心並願意關心幫助別人的」是「warm-hearted」的用法，與本句語境不同。",
-        "warm-mcq-16": "「以明顯熱情、欣賞或支持的方式」是「warmly — approving」的用法，與本句語境不同。",
-        "warm-mcq-20": "「對某個想法、人或提議表現出一定程度的興趣、支持或好感」是「14. warm = slightly encouraging / interested（態度） — 稍有興趣的；較正面的」的用法，與本句語境不同。",
-        "warm-mcq-15": "「以友善、熱情、有感情的方式」是「warmly — friendly」的用法，與本句語境不同。"
+        "warm-mcq-18": "本句的「warmth」指「待人方式中表現出的真誠友善、關懷和感情」。",
+        "warm-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-18"
     },
@@ -2040,11 +1844,9 @@ export default {
       "masked": "She is a ____ person.",
       "options": [
         "warm-mcq-19",
-        "warm-mcq-18",
-        "warm-mcq-20",
-        "warm-mcq-17",
         "warm-mcq-21",
-        "warm-mcq-16"
+        "warm-mcq-24",
+        "warm-mcq-22"
       ],
       "explanation": "本句的「warm-hearted」指「對人真誠友善、富同情心並願意關心幫助別人的」。",
       "sentenceIndex": 49,
@@ -2053,12 +1855,10 @@ export default {
         "warm-hearted"
       ],
       "optionReasons": {
-        "warm-mcq-19": "本句指「對人真誠友善、富同情心並願意關心幫助別人的」。",
-        "warm-mcq-18": "「待人方式中表現出的真誠友善、關懷和感情」是「warmth — emotional」的用法，與本句語境不同。",
-        "warm-mcq-20": "「對某個想法、人或提議表現出一定程度的興趣、支持或好感」是「14. warm = slightly encouraging / interested（態度） — 稍有興趣的；較正面的」的用法，與本句語境不同。",
-        "warm-mcq-17": "「溫度帶來的暖和感」是「warmth — physical」的用法，與本句語境不同。",
-        "warm-mcq-21": "「透過熱力令人或物感到較暖」是「16. warm someone's hands/body（暖和身體） — 使暖和」的用法，與本句語境不同。",
-        "warm-mcq-16": "「以明顯熱情、欣賞或支持的方式」是「warmly — approving」的用法，與本句語境不同。"
+        "warm-mcq-19": "本句的「warm-hearted」指「對人真誠友善、富同情心並願意關心幫助別人的」。",
+        "warm-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-19"
     },
@@ -2070,11 +1870,9 @@ export default {
       "masked": "His grandmother was generous and ____.",
       "options": [
         "warm-mcq-19",
-        "warm-mcq-18",
-        "warm-mcq-20",
-        "warm-mcq-17",
-        "warm-mcq-21",
-        "warm-mcq-16"
+        "warm-mcq-01",
+        "warm-mcq-02",
+        "warm-mcq-22"
       ],
       "explanation": "本句的「warm-hearted」指「對人真誠友善、富同情心並願意關心幫助別人的」。",
       "sentenceIndex": 50,
@@ -2083,12 +1881,10 @@ export default {
         "warm-hearted"
       ],
       "optionReasons": {
-        "warm-mcq-19": "本句指「對人真誠友善、富同情心並願意關心幫助別人的」。",
-        "warm-mcq-18": "「待人方式中表現出的真誠友善、關懷和感情」是「warmth — emotional」的用法，與本句語境不同。",
-        "warm-mcq-20": "「對某個想法、人或提議表現出一定程度的興趣、支持或好感」是「14. warm = slightly encouraging / interested（態度） — 稍有興趣的；較正面的」的用法，與本句語境不同。",
-        "warm-mcq-17": "「溫度帶來的暖和感」是「warmth — physical」的用法，與本句語境不同。",
-        "warm-mcq-21": "「透過熱力令人或物感到較暖」是「16. warm someone's hands/body（暖和身體） — 使暖和」的用法，與本句語境不同。",
-        "warm-mcq-16": "「以明顯熱情、欣賞或支持的方式」是「warmly — approving」的用法，與本句語境不同。"
+        "warm-mcq-19": "本句的「warm-hearted」指「對人真誠友善、富同情心並願意關心幫助別人的」。",
+        "warm-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "warm-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "warm-mcq-19"
     }
@@ -2100,5 +1896,7 @@ export default {
     "sha256": "2a348df27043d186b88a2b7814d5e516b4ab81ddd8b6f682e91c894f4866ef69",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

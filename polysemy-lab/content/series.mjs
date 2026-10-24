@@ -492,11 +492,9 @@ export default {
       "masked": "He made history feel like a ____.",
       "options": [
         "series-pdf-001",
-        "series-mcq-02",
-        "series-mcq-03",
-        "series-mcq-04",
-        "series-mcq-05",
-        "series-mcq-06"
+        "series-mcq-14",
+        "series-mcq-10",
+        "series-mcq-09"
       ],
       "explanation": "本句的「series of human stories」指「多個彼此相關、按次序或接連出現的 X」。",
       "sentenceIndex": 0,
@@ -505,12 +503,10 @@ export default {
         "series of human stories"
       ],
       "optionReasons": {
-        "series-pdf-001": "本句指「多個彼此相關、按次序或接連出現的 X」。",
-        "series-mcq-02": "「一連串事件」與本句語境不同。",
-        "series-mcq-03": "「一連串問題」與本句語境不同。",
-        "series-mcq-04": "「系列書籍」與本句語境不同。",
-        "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
-        "series-mcq-06": "「系列講座」與本句語境不同。"
+        "series-pdf-001": "本句的「series of human stories」指「多個彼此相關、按次序或接連出現的 X」。",
+        "series-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-pdf-001"
     },
@@ -522,11 +518,9 @@ export default {
       "masked": "The accident was caused by a ____.",
       "options": [
         "series-pdf-001",
-        "series-mcq-02",
-        "series-mcq-03",
-        "series-mcq-04",
         "series-mcq-05",
-        "series-mcq-06"
+        "series-mcq-11",
+        "series-mcq-13"
       ],
       "explanation": "本句的「series of mistakes」指「多個彼此相關、按次序或接連出現的 X」。",
       "sentenceIndex": 1,
@@ -535,12 +529,10 @@ export default {
         "series of mistakes"
       ],
       "optionReasons": {
-        "series-pdf-001": "本句指「多個彼此相關、按次序或接連出現的 X」。",
-        "series-mcq-02": "「一連串事件」與本句語境不同。",
-        "series-mcq-03": "「一連串問題」與本句語境不同。",
-        "series-mcq-04": "「系列書籍」與本句語境不同。",
-        "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
-        "series-mcq-06": "「系列講座」與本句語境不同。"
+        "series-pdf-001": "本句的「series of mistakes」指「多個彼此相關、按次序或接連出現的 X」。",
+        "series-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-pdf-001"
     },
@@ -552,11 +544,9 @@ export default {
       "masked": "She asked me a ____.",
       "options": [
         "series-pdf-001",
-        "series-mcq-02",
-        "series-mcq-03",
-        "series-mcq-04",
-        "series-mcq-05",
-        "series-mcq-06"
+        "series-pdf-002",
+        "series-mcq-11",
+        "series-mcq-13"
       ],
       "explanation": "本句的「series of questions」指「多個彼此相關、按次序或接連出現的 X」。",
       "sentenceIndex": 2,
@@ -565,12 +555,10 @@ export default {
         "series of questions"
       ],
       "optionReasons": {
-        "series-pdf-001": "本句指「多個彼此相關、按次序或接連出現的 X」。",
-        "series-mcq-02": "「一連串事件」與本句語境不同。",
-        "series-mcq-03": "「一連串問題」與本句語境不同。",
-        "series-mcq-04": "「系列書籍」與本句語境不同。",
-        "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
-        "series-mcq-06": "「系列講座」與本句語境不同。"
+        "series-pdf-001": "本句的「series of questions」指「多個彼此相關、按次序或接連出現的 X」。",
+        "series-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-pdf-001"
     },
@@ -582,11 +570,9 @@ export default {
       "masked": "A ____ led to the decision.",
       "options": [
         "series-mcq-02",
-        "series-mcq-01",
-        "series-mcq-03",
         "series-mcq-04",
-        "series-mcq-05",
-        "series-mcq-06"
+        "series-mcq-11",
+        "series-mcq-09"
       ],
       "explanation": "本句的「series of events」指「一連串事件」。",
       "sentenceIndex": 3,
@@ -595,12 +581,10 @@ export default {
         "series of events"
       ],
       "optionReasons": {
-        "series-mcq-02": "本句指「一連串事件」。",
-        "series-mcq-01": "「一連串故事」與本句語境不同。",
-        "series-mcq-03": "「一連串問題」與本句語境不同。",
-        "series-mcq-04": "「系列書籍」與本句語境不同。",
-        "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
-        "series-mcq-06": "「系列講座」與本句語境不同。"
+        "series-mcq-02": "本句的「series of events」指「一連串事件」。",
+        "series-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-02"
     },
@@ -612,11 +596,9 @@ export default {
       "masked": "The crisis began with a ____.",
       "options": [
         "series-mcq-02",
-        "series-mcq-01",
-        "series-mcq-03",
-        "series-mcq-04",
-        "series-mcq-05",
-        "series-mcq-06"
+        "series-mcq-14",
+        "series-mcq-09",
+        "series-mcq-16"
       ],
       "explanation": "本句的「series of small events」指「一連串事件」。",
       "sentenceIndex": 4,
@@ -625,12 +607,10 @@ export default {
         "series of small events"
       ],
       "optionReasons": {
-        "series-mcq-02": "本句指「一連串事件」。",
-        "series-mcq-01": "「一連串故事」與本句語境不同。",
-        "series-mcq-03": "「一連串問題」與本句語境不同。",
-        "series-mcq-04": "「系列書籍」與本句語境不同。",
-        "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
-        "series-mcq-06": "「系列講座」與本句語境不同。"
+        "series-mcq-02": "本句的「series of small events」指「一連串事件」。",
+        "series-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-02"
     },
@@ -642,11 +622,9 @@ export default {
       "masked": "The interviewer asked a ____.",
       "options": [
         "series-mcq-03",
-        "series-mcq-02",
-        "series-mcq-04",
-        "series-mcq-01",
-        "series-mcq-05",
-        "series-mcq-06"
+        "series-mcq-08",
+        "series-mcq-11",
+        "series-mcq-16"
       ],
       "explanation": "本句的「series of questions」指「一連串問題」。",
       "sentenceIndex": 5,
@@ -655,12 +633,10 @@ export default {
         "series of questions"
       ],
       "optionReasons": {
-        "series-mcq-03": "本句指「一連串問題」。",
-        "series-mcq-02": "「一連串事件」與本句語境不同。",
-        "series-mcq-04": "「系列書籍」與本句語境不同。",
-        "series-mcq-01": "「一連串故事」與本句語境不同。",
-        "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
-        "series-mcq-06": "「系列講座」與本句語境不同。"
+        "series-mcq-03": "本句的「series of questions」指「一連串問題」。",
+        "series-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-03"
     },
@@ -672,11 +648,9 @@ export default {
       "masked": "We held a ____ over several weeks.",
       "options": [
         "series-mcq-03",
-        "series-mcq-02",
-        "series-mcq-04",
-        "series-mcq-01",
-        "series-mcq-05",
-        "series-mcq-06"
+        "series-mcq-09",
+        "series-mcq-14",
+        "series-mcq-16"
       ],
       "explanation": "本句的「series of meetings」指「一連串問題」。",
       "sentenceIndex": 6,
@@ -685,12 +659,10 @@ export default {
         "series of meetings"
       ],
       "optionReasons": {
-        "series-mcq-03": "本句指「一連串問題」。",
-        "series-mcq-02": "「一連串事件」與本句語境不同。",
-        "series-mcq-04": "「系列書籍」與本句語境不同。",
-        "series-mcq-01": "「一連串故事」與本句語境不同。",
-        "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
-        "series-mcq-06": "「系列講座」與本句語境不同。"
+        "series-mcq-03": "本句的「series of meetings」指「一連串問題」。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-03"
     },
@@ -702,11 +674,9 @@ export default {
       "masked": "This novel is the first book in a fantasy ____.",
       "options": [
         "series-mcq-04",
-        "series-mcq-03",
-        "series-mcq-05",
-        "series-mcq-02",
-        "series-mcq-06",
-        "series-mcq-01"
+        "series-mcq-11",
+        "series-mcq-12",
+        "series-mcq-09"
       ],
       "explanation": "本句的「series」指「系列書籍」。",
       "sentenceIndex": 7,
@@ -715,12 +685,10 @@ export default {
         "series"
       ],
       "optionReasons": {
-        "series-mcq-04": "本句指「系列書籍」。",
-        "series-mcq-03": "「一連串問題」與本句語境不同。",
-        "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
-        "series-mcq-02": "「一連串事件」與本句語境不同。",
-        "series-mcq-06": "「系列講座」與本句語境不同。",
-        "series-mcq-01": "「一連串故事」與本句語境不同。"
+        "series-mcq-04": "本句的「series」指「系列書籍」。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-04"
     },
@@ -732,11 +700,9 @@ export default {
       "masked": "She has written a ____ of children's books.",
       "options": [
         "series-mcq-04",
-        "series-mcq-03",
-        "series-mcq-05",
-        "series-mcq-02",
-        "series-mcq-06",
-        "series-mcq-01"
+        "series-mcq-12",
+        "series-mcq-11",
+        "series-mcq-16"
       ],
       "explanation": "本句的「series」指「系列書籍」。",
       "sentenceIndex": 8,
@@ -745,12 +711,10 @@ export default {
         "series"
       ],
       "optionReasons": {
-        "series-mcq-04": "本句指「系列書籍」。",
-        "series-mcq-03": "「一連串問題」與本句語境不同。",
-        "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
-        "series-mcq-02": "「一連串事件」與本句語境不同。",
-        "series-mcq-06": "「系列講座」與本句語境不同。",
-        "series-mcq-01": "「一連串故事」與本句語境不同。"
+        "series-mcq-04": "本句的「series」指「系列書籍」。",
+        "series-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-04"
     },
@@ -762,11 +726,9 @@ export default {
       "masked": "The novel belongs to a popular ____.",
       "options": [
         "series-mcq-04",
-        "series-mcq-03",
-        "series-mcq-05",
-        "series-mcq-02",
-        "series-mcq-06",
-        "series-mcq-01"
+        "series-mcq-12",
+        "series-mcq-09",
+        "series-mcq-11"
       ],
       "explanation": "本句的「book series」指「系列書籍」。",
       "sentenceIndex": 9,
@@ -775,12 +737,10 @@ export default {
         "book series"
       ],
       "optionReasons": {
-        "series-mcq-04": "本句指「系列書籍」。",
-        "series-mcq-03": "「一連串問題」與本句語境不同。",
-        "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
-        "series-mcq-02": "「一連串事件」與本句語境不同。",
-        "series-mcq-06": "「系列講座」與本句語境不同。",
-        "series-mcq-01": "「一連串故事」與本句語境不同。"
+        "series-mcq-04": "本句的「book series」指「系列書籍」。",
+        "series-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-04"
     },
@@ -792,11 +752,9 @@ export default {
       "masked": "The ____ contains seven books.",
       "options": [
         "series-mcq-04",
-        "series-mcq-03",
-        "series-mcq-05",
-        "series-mcq-02",
-        "series-mcq-06",
-        "series-mcq-01"
+        "series-mcq-09",
+        "series-mcq-17",
+        "series-mcq-13"
       ],
       "explanation": "本句的「series」指「系列書籍」。",
       "sentenceIndex": 10,
@@ -805,12 +763,10 @@ export default {
         "series"
       ],
       "optionReasons": {
-        "series-mcq-04": "本句指「系列書籍」。",
-        "series-mcq-03": "「一連串問題」與本句語境不同。",
-        "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
-        "series-mcq-02": "「一連串事件」與本句語境不同。",
-        "series-mcq-06": "「系列講座」與本句語境不同。",
-        "series-mcq-01": "「一連串故事」與本句語境不同。"
+        "series-mcq-04": "本句的「series」指「系列書籍」。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-04"
     },
@@ -822,11 +778,9 @@ export default {
       "masked": "We watched a new ____ last night.",
       "options": [
         "series-mcq-05",
-        "series-mcq-04",
-        "series-mcq-06",
-        "series-mcq-03",
-        "series-mcq-07",
-        "series-mcq-02"
+        "series-mcq-17",
+        "series-pdf-001",
+        "series-mcq-09"
       ],
       "explanation": "本句的「TV series」指「電視劇集／系列節目」。",
       "sentenceIndex": 11,
@@ -835,12 +789,10 @@ export default {
         "TV series"
       ],
       "optionReasons": {
-        "series-mcq-05": "本句指「電視劇集／系列節目」。",
-        "series-mcq-04": "「系列書籍」與本句語境不同。",
-        "series-mcq-06": "「系列講座」與本句語境不同。",
-        "series-mcq-03": "「一連串問題」與本句語境不同。",
-        "series-mcq-07": "「系列音樂會」與本句語境不同。",
-        "series-mcq-02": "「一連串事件」與本句語境不同。"
+        "series-mcq-05": "本句的「TV series」指「電視劇集／系列節目」。",
+        "series-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "series-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-05"
     },
@@ -852,11 +804,9 @@ export default {
       "masked": "The ____ has ten episodes.",
       "options": [
         "series-mcq-05",
-        "series-mcq-04",
-        "series-mcq-06",
-        "series-mcq-03",
-        "series-mcq-07",
-        "series-mcq-02"
+        "series-mcq-18",
+        "series-mcq-11",
+        "series-mcq-13"
       ],
       "explanation": "本句的「series」指「電視劇集／系列節目」。",
       "sentenceIndex": 12,
@@ -865,12 +815,10 @@ export default {
         "series"
       ],
       "optionReasons": {
-        "series-mcq-05": "本句指「電視劇集／系列節目」。",
-        "series-mcq-04": "「系列書籍」與本句語境不同。",
-        "series-mcq-06": "「系列講座」與本句語境不同。",
-        "series-mcq-03": "「一連串問題」與本句語境不同。",
-        "series-mcq-07": "「系列音樂會」與本句語境不同。",
-        "series-mcq-02": "「一連串事件」與本句語境不同。"
+        "series-mcq-05": "本句的「series」指「電視劇集／系列節目」。",
+        "series-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-05"
     },
@@ -882,11 +830,9 @@ export default {
       "masked": "The ____ has twelve episodes.",
       "options": [
         "series-pdf-002",
-        "series-mcq-05",
-        "series-mcq-07",
-        "series-mcq-04",
-        "series-mcq-08",
-        "series-mcq-03"
+        "series-mcq-02",
+        "series-mcq-09",
+        "series-mcq-16"
       ],
       "explanation": "本句的「series」指「整套作品；episode = 系列中的其中一集」。",
       "sentenceIndex": 13,
@@ -895,12 +841,10 @@ export default {
         "series"
       ],
       "optionReasons": {
-        "series-pdf-002": "本句指「整套作品；episode = 系列中的其中一集」。",
-        "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
-        "series-mcq-07": "「系列音樂會」與本句語境不同。",
-        "series-mcq-04": "「系列書籍」與本句語境不同。",
-        "series-mcq-08": "「系列賽」與本句語境不同。",
-        "series-mcq-03": "「一連串問題」與本句語境不同。"
+        "series-pdf-002": "本句的「series」指「整套作品；episode = 系列中的其中一集」。",
+        "series-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-pdf-002"
     },
@@ -912,11 +856,9 @@ export default {
       "masked": "I watched the first episode of the ____.",
       "options": [
         "series-pdf-002",
-        "series-mcq-05",
-        "series-mcq-07",
-        "series-mcq-04",
-        "series-mcq-08",
-        "series-mcq-03"
+        "series-pdf-001",
+        "series-mcq-12",
+        "series-mcq-09"
       ],
       "explanation": "本句的「series」指「整套作品；episode = 系列中的其中一集」。",
       "sentenceIndex": 14,
@@ -925,12 +867,10 @@ export default {
         "series"
       ],
       "optionReasons": {
-        "series-pdf-002": "本句指「整套作品；episode = 系列中的其中一集」。",
-        "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
-        "series-mcq-07": "「系列音樂會」與本句語境不同。",
-        "series-mcq-04": "「系列書籍」與本句語境不同。",
-        "series-mcq-08": "「系列賽」與本句語境不同。",
-        "series-mcq-03": "「一連串問題」與本句語境不同。"
+        "series-pdf-002": "本句的「series」指「整套作品；episode = 系列中的其中一集」。",
+        "series-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-pdf-002"
     },
@@ -942,11 +882,9 @@ export default {
       "masked": "The university organized a ____ on history.",
       "options": [
         "series-mcq-07",
-        "series-mcq-06",
-        "series-mcq-08",
-        "series-mcq-05",
         "series-mcq-09",
-        "series-mcq-04"
+        "series-mcq-16",
+        "series-mcq-13"
       ],
       "explanation": "本句的「lecture series」指「系列音樂會」。",
       "sentenceIndex": 15,
@@ -955,12 +893,10 @@ export default {
         "lecture series"
       ],
       "optionReasons": {
-        "series-mcq-07": "本句指「系列音樂會」。",
-        "series-mcq-06": "「系列講座」與本句語境不同。",
-        "series-mcq-08": "「系列賽」與本句語境不同。",
-        "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
-        "series-mcq-09": "「世界大賽」與本句語境不同。",
-        "series-mcq-04": "「系列書籍」與本句語境不同。"
+        "series-mcq-07": "本句的「lecture series」指「系列音樂會」。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-07"
     },
@@ -972,11 +908,9 @@ export default {
       "masked": "The orchestra announced a summer ____.",
       "options": [
         "series-mcq-07",
-        "series-mcq-06",
-        "series-mcq-08",
-        "series-mcq-05",
-        "series-mcq-09",
-        "series-mcq-04"
+        "series-mcq-12",
+        "series-mcq-16",
+        "series-mcq-09"
       ],
       "explanation": "本句的「concert series」指「系列音樂會」。",
       "sentenceIndex": 16,
@@ -985,12 +919,10 @@ export default {
         "concert series"
       ],
       "optionReasons": {
-        "series-mcq-07": "本句指「系列音樂會」。",
-        "series-mcq-06": "「系列講座」與本句語境不同。",
-        "series-mcq-08": "「系列賽」與本句語境不同。",
-        "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。",
-        "series-mcq-09": "「世界大賽」與本句語境不同。",
-        "series-mcq-04": "「系列書籍」與本句語境不同。"
+        "series-mcq-07": "本句的「concert series」指「系列音樂會」。",
+        "series-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-07"
     },
@@ -1002,11 +934,9 @@ export default {
       "masked": "The two teams played a five-game ____.",
       "options": [
         "series-mcq-08",
-        "series-mcq-07",
-        "series-mcq-09",
-        "series-mcq-06",
-        "series-mcq-10",
-        "series-mcq-05"
+        "series-mcq-03",
+        "series-pdf-001",
+        "series-mcq-12"
       ],
       "explanation": "本句的「series」指「系列賽」。",
       "sentenceIndex": 17,
@@ -1015,12 +945,10 @@ export default {
         "series"
       ],
       "optionReasons": {
-        "series-mcq-08": "本句指「系列賽」。",
-        "series-mcq-07": "「系列音樂會」與本句語境不同。",
-        "series-mcq-09": "「世界大賽」與本句語境不同。",
-        "series-mcq-06": "「系列講座」與本句語境不同。",
-        "series-mcq-10": "「一串數字」與本句語境不同。",
-        "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。"
+        "series-mcq-08": "本句的「series」指「系列賽」。",
+        "series-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "series-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-08"
     },
@@ -1032,11 +960,9 @@ export default {
       "masked": "They won the ____ three games to one.",
       "options": [
         "series-mcq-08",
-        "series-mcq-07",
-        "series-mcq-09",
-        "series-mcq-06",
-        "series-mcq-10",
-        "series-mcq-05"
+        "series-mcq-17",
+        "series-mcq-03",
+        "series-mcq-12"
       ],
       "explanation": "本句的「series」指「系列賽」。",
       "sentenceIndex": 18,
@@ -1045,12 +971,10 @@ export default {
         "series"
       ],
       "optionReasons": {
-        "series-mcq-08": "本句指「系列賽」。",
-        "series-mcq-07": "「系列音樂會」與本句語境不同。",
-        "series-mcq-09": "「世界大賽」與本句語境不同。",
-        "series-mcq-06": "「系列講座」與本句語境不同。",
-        "series-mcq-10": "「一串數字」與本句語境不同。",
-        "series-mcq-05": "「電視劇集／系列節目」與本句語境不同。"
+        "series-mcq-08": "本句的「series」指「系列賽」。",
+        "series-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-08"
     },
@@ -1062,11 +986,9 @@ export default {
       "masked": "The team reached the ____.",
       "options": [
         "series-mcq-09",
-        "series-mcq-08",
-        "series-mcq-10",
-        "series-mcq-07",
-        "series-mcq-11",
-        "series-mcq-06"
+        "series-pdf-001",
+        "series-mcq-13",
+        "series-mcq-11"
       ],
       "explanation": "本句的「World Series」指「世界大賽」。",
       "sentenceIndex": 19,
@@ -1075,12 +997,10 @@ export default {
         "World Series"
       ],
       "optionReasons": {
-        "series-mcq-09": "本句指「世界大賽」。",
-        "series-mcq-08": "「系列賽」與本句語境不同。",
-        "series-mcq-10": "「一串數字」與本句語境不同。",
-        "series-mcq-07": "「系列音樂會」與本句語境不同。",
-        "series-mcq-11": "「級數」與本句語境不同。",
-        "series-mcq-06": "「系列講座」與本句語境不同。"
+        "series-mcq-09": "本句的「World Series」指「世界大賽」。",
+        "series-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-09"
     },
@@ -1092,11 +1012,9 @@ export default {
       "masked": "He watched every game of the ____.",
       "options": [
         "series-mcq-09",
-        "series-mcq-08",
-        "series-mcq-10",
-        "series-mcq-07",
-        "series-mcq-11",
-        "series-mcq-06"
+        "series-mcq-12",
+        "series-mcq-03",
+        "series-mcq-20"
       ],
       "explanation": "本句的「World Series」指「世界大賽」。",
       "sentenceIndex": 20,
@@ -1105,12 +1023,10 @@ export default {
         "World Series"
       ],
       "optionReasons": {
-        "series-mcq-09": "本句指「世界大賽」。",
-        "series-mcq-08": "「系列賽」與本句語境不同。",
-        "series-mcq-10": "「一串數字」與本句語境不同。",
-        "series-mcq-07": "「系列音樂會」與本句語境不同。",
-        "series-mcq-11": "「級數」與本句語境不同。",
-        "series-mcq-06": "「系列講座」與本句語境不同。"
+        "series-mcq-09": "本句的「World Series」指「世界大賽」。",
+        "series-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-09"
     },
@@ -1122,11 +1038,9 @@ export default {
       "masked": "The code contains a ____.",
       "options": [
         "series-mcq-10",
-        "series-mcq-09",
-        "series-mcq-11",
-        "series-mcq-08",
-        "series-mcq-12",
-        "series-mcq-07"
+        "series-mcq-20",
+        "series-mcq-17",
+        "series-mcq-09"
       ],
       "explanation": "本句的「series of numbers」指「一串數字」。",
       "sentenceIndex": 21,
@@ -1135,12 +1049,10 @@ export default {
         "series of numbers"
       ],
       "optionReasons": {
-        "series-mcq-10": "本句指「一串數字」。",
-        "series-mcq-09": "「世界大賽」與本句語境不同。",
-        "series-mcq-11": "「級數」與本句語境不同。",
-        "series-mcq-08": "「系列賽」與本句語境不同。",
-        "series-mcq-12": "「串聯電路」與本句語境不同。",
-        "series-mcq-07": "「系列音樂會」與本句語境不同。"
+        "series-mcq-10": "本句的「series of numbers」指「一串數字」。",
+        "series-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-10"
     },
@@ -1152,10 +1064,8 @@ export default {
       "masked": "Students studied a ____.",
       "options": [
         "series-mcq-10",
+        "series-mcq-19",
         "series-mcq-09",
-        "series-mcq-11",
-        "series-mcq-08",
-        "series-mcq-12",
         "series-mcq-07"
       ],
       "explanation": "本句的「series of values」指「一串數字」。",
@@ -1165,12 +1075,10 @@ export default {
         "series of values"
       ],
       "optionReasons": {
-        "series-mcq-10": "本句指「一串數字」。",
-        "series-mcq-09": "「世界大賽」與本句語境不同。",
-        "series-mcq-11": "「級數」與本句語境不同。",
-        "series-mcq-08": "「系列賽」與本句語境不同。",
-        "series-mcq-12": "「串聯電路」與本句語境不同。",
-        "series-mcq-07": "「系列音樂會」與本句語境不同。"
+        "series-mcq-10": "本句的「series of values」指「一串數字」。",
+        "series-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-10"
     },
@@ -1182,11 +1090,9 @@ export default {
       "masked": "The students learned about infinite ____.",
       "options": [
         "series-mcq-11",
-        "series-mcq-10",
-        "series-mcq-12",
-        "series-mcq-09",
-        "series-mcq-13",
-        "series-mcq-08"
+        "series-mcq-08",
+        "series-mcq-03",
+        "series-mcq-17"
       ],
       "explanation": "本句的「series」指「級數」。",
       "sentenceIndex": 23,
@@ -1195,12 +1101,10 @@ export default {
         "series"
       ],
       "optionReasons": {
-        "series-mcq-11": "本句指「級數」。",
-        "series-mcq-10": "「一串數字」與本句語境不同。",
-        "series-mcq-12": "「串聯電路」與本句語境不同。",
-        "series-mcq-09": "「世界大賽」與本句語境不同。",
-        "series-mcq-13": "「串聯」與本句語境不同。",
-        "series-mcq-08": "「系列賽」與本句語境不同。"
+        "series-mcq-11": "本句的「series」指「級數」。",
+        "series-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-11"
     },
@@ -1212,11 +1116,9 @@ export default {
       "masked": "This ____ converges to a finite value.",
       "options": [
         "series-mcq-11",
-        "series-mcq-10",
-        "series-mcq-12",
-        "series-mcq-09",
+        "series-mcq-04",
         "series-mcq-13",
-        "series-mcq-08"
+        "series-mcq-17"
       ],
       "explanation": "本句的「series」指「級數」。",
       "sentenceIndex": 24,
@@ -1225,12 +1127,10 @@ export default {
         "series"
       ],
       "optionReasons": {
-        "series-mcq-11": "本句指「級數」。",
-        "series-mcq-10": "「一串數字」與本句語境不同。",
-        "series-mcq-12": "「串聯電路」與本句語境不同。",
-        "series-mcq-09": "「世界大賽」與本句語境不同。",
-        "series-mcq-13": "「串聯」與本句語境不同。",
-        "series-mcq-08": "「系列賽」與本句語境不同。"
+        "series-mcq-11": "本句的「series」指「級數」。",
+        "series-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-11"
     },
@@ -1242,11 +1142,9 @@ export default {
       "masked": "The bulbs are connected in a ____.",
       "options": [
         "series-mcq-12",
-        "series-mcq-11",
-        "series-mcq-13",
-        "series-mcq-10",
-        "series-mcq-14",
-        "series-mcq-09"
+        "series-mcq-19",
+        "series-pdf-002",
+        "series-mcq-11"
       ],
       "explanation": "本句的「series circuit」指「串聯電路」。",
       "sentenceIndex": 25,
@@ -1255,12 +1153,10 @@ export default {
         "series circuit"
       ],
       "optionReasons": {
-        "series-mcq-12": "本句指「串聯電路」。",
-        "series-mcq-11": "「級數」與本句語境不同。",
-        "series-mcq-13": "「串聯」與本句語境不同。",
-        "series-mcq-10": "「一串數字」與本句語境不同。",
-        "series-mcq-14": "「產品系列」與本句語境不同。",
-        "series-mcq-09": "「世界大賽」與本句語境不同。"
+        "series-mcq-12": "本句的「series circuit」指「串聯電路」。",
+        "series-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "series-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-12"
     },
@@ -1272,10 +1168,8 @@ export default {
       "masked": "In a ____, current passes through each component in turn.",
       "options": [
         "series-mcq-12",
-        "series-mcq-11",
-        "series-mcq-13",
-        "series-mcq-10",
-        "series-mcq-14",
+        "series-mcq-15",
+        "series-mcq-16",
         "series-mcq-09"
       ],
       "explanation": "本句的「series circuit」指「串聯電路」。",
@@ -1285,12 +1179,10 @@ export default {
         "series circuit"
       ],
       "optionReasons": {
-        "series-mcq-12": "本句指「串聯電路」。",
-        "series-mcq-11": "「級數」與本句語境不同。",
-        "series-mcq-13": "「串聯」與本句語境不同。",
-        "series-mcq-10": "「一串數字」與本句語境不同。",
-        "series-mcq-14": "「產品系列」與本句語境不同。",
-        "series-mcq-09": "「世界大賽」與本句語境不同。"
+        "series-mcq-12": "本句的「series circuit」指「串聯電路」。",
+        "series-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-12"
     },
@@ -1302,11 +1194,9 @@ export default {
       "masked": "The batteries are connected ____.",
       "options": [
         "series-mcq-13",
-        "series-mcq-12",
-        "series-mcq-14",
-        "series-mcq-11",
-        "series-mcq-15",
-        "series-mcq-10"
+        "series-mcq-18",
+        "series-mcq-08",
+        "series-mcq-11"
       ],
       "explanation": "本句的「in series」指「串聯」。",
       "sentenceIndex": 27,
@@ -1315,12 +1205,10 @@ export default {
         "in series"
       ],
       "optionReasons": {
-        "series-mcq-13": "本句指「串聯」。",
-        "series-mcq-12": "「串聯電路」與本句語境不同。",
-        "series-mcq-14": "「產品系列」與本句語境不同。",
-        "series-mcq-11": "「級數」與本句語境不同。",
-        "series-mcq-15": "「連續的；系列的」與本句語境不同。",
-        "series-mcq-10": "「一串數字」與本句語境不同。"
+        "series-mcq-13": "本句的「in series」指「串聯」。",
+        "series-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-13"
     },
@@ -1332,11 +1220,9 @@ export default {
       "masked": "The components were arranged ____.",
       "options": [
         "series-mcq-13",
-        "series-mcq-12",
-        "series-mcq-14",
-        "series-mcq-11",
+        "series-mcq-16",
         "series-mcq-15",
-        "series-mcq-10"
+        "series-mcq-17"
       ],
       "explanation": "本句的「in series」指「串聯」。",
       "sentenceIndex": 28,
@@ -1345,12 +1231,10 @@ export default {
         "in series"
       ],
       "optionReasons": {
-        "series-mcq-13": "本句指「串聯」。",
-        "series-mcq-12": "「串聯電路」與本句語境不同。",
-        "series-mcq-14": "「產品系列」與本句語境不同。",
-        "series-mcq-11": "「級數」與本句語境不同。",
-        "series-mcq-15": "「連續的；系列的」與本句語境不同。",
-        "series-mcq-10": "「一串數字」與本句語境不同。"
+        "series-mcq-13": "本句的「in series」指「串聯」。",
+        "series-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-13"
     },
@@ -1362,11 +1246,9 @@ export default {
       "masked": "This laptop belongs to the company's new X ____.",
       "options": [
         "series-mcq-14",
-        "series-mcq-13",
-        "series-mcq-15",
-        "series-mcq-12",
-        "series-mcq-16",
-        "series-mcq-11"
+        "series-mcq-11",
+        "series-pdf-001",
+        "series-mcq-09"
       ],
       "explanation": "本句的「Series」指「產品系列」。",
       "sentenceIndex": 29,
@@ -1375,12 +1257,10 @@ export default {
         "Series"
       ],
       "optionReasons": {
-        "series-mcq-14": "本句指「產品系列」。",
-        "series-mcq-13": "「串聯」與本句語境不同。",
-        "series-mcq-15": "「連續的；系列的」與本句語境不同。",
-        "series-mcq-12": "「串聯電路」與本句語境不同。",
-        "series-mcq-16": "「序號」與本句語境不同。",
-        "series-mcq-11": "「級數」與本句語境不同。"
+        "series-mcq-14": "本句的「Series」指「產品系列」。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "series-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-14"
     },
@@ -1392,11 +1272,9 @@ export default {
       "masked": "The manufacturer launched a new ____ of cameras.",
       "options": [
         "series-mcq-14",
-        "series-mcq-13",
-        "series-mcq-15",
-        "series-mcq-12",
+        "series-mcq-17",
         "series-mcq-16",
-        "series-mcq-11"
+        "series-mcq-12"
       ],
       "explanation": "本句的「series」指「產品系列」。",
       "sentenceIndex": 30,
@@ -1405,12 +1283,10 @@ export default {
         "series"
       ],
       "optionReasons": {
-        "series-mcq-14": "本句指「產品系列」。",
-        "series-mcq-13": "「串聯」與本句語境不同。",
-        "series-mcq-15": "「連續的；系列的」與本句語境不同。",
-        "series-mcq-12": "「串聯電路」與本句語境不同。",
-        "series-mcq-16": "「序號」與本句語境不同。",
-        "series-mcq-11": "「級數」與本句語境不同。"
+        "series-mcq-14": "本句的「series」指「產品系列」。",
+        "series-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-14"
     },
@@ -1422,10 +1298,8 @@ export default {
       "masked": "The police investigated several ____.",
       "options": [
         "series-mcq-15",
-        "series-mcq-14",
         "series-mcq-16",
-        "series-mcq-13",
-        "series-mcq-17",
+        "series-mcq-11",
         "series-mcq-12"
       ],
       "explanation": "本句的「serial offences」指「連續的；系列的」。",
@@ -1435,12 +1309,10 @@ export default {
         "serial offences"
       ],
       "optionReasons": {
-        "series-mcq-15": "本句指「連續的；系列的」。",
-        "series-mcq-14": "「產品系列」與本句語境不同。",
-        "series-mcq-16": "「序號」與本句語境不同。",
-        "series-mcq-13": "「串聯」與本句語境不同。",
-        "series-mcq-17": "「連環殺手」與本句語境不同。",
-        "series-mcq-12": "「串聯電路」與本句語境不同。"
+        "series-mcq-15": "本句的「serial offences」指「連續的；系列的」。",
+        "series-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-15"
     },
@@ -1452,11 +1324,9 @@ export default {
       "masked": "The device uses ____.",
       "options": [
         "series-mcq-15",
-        "series-mcq-14",
         "series-mcq-16",
-        "series-mcq-13",
-        "series-mcq-17",
-        "series-mcq-12"
+        "series-mcq-09",
+        "series-mcq-10"
       ],
       "explanation": "本句的「serial communication」指「連續的；系列的」。",
       "sentenceIndex": 32,
@@ -1465,12 +1335,10 @@ export default {
         "serial communication"
       ],
       "optionReasons": {
-        "series-mcq-15": "本句指「連續的；系列的」。",
-        "series-mcq-14": "「產品系列」與本句語境不同。",
-        "series-mcq-16": "「序號」與本句語境不同。",
-        "series-mcq-13": "「串聯」與本句語境不同。",
-        "series-mcq-17": "「連環殺手」與本句語境不同。",
-        "series-mcq-12": "「串聯電路」與本句語境不同。"
+        "series-mcq-15": "本句的「serial communication」指「連續的；系列的」。",
+        "series-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-15"
     },
@@ -1482,11 +1350,9 @@ export default {
       "masked": "Enter the product's ____.",
       "options": [
         "series-mcq-16",
-        "series-mcq-15",
-        "series-mcq-17",
-        "series-mcq-14",
-        "series-mcq-18",
-        "series-mcq-13"
+        "series-mcq-08",
+        "series-mcq-13",
+        "series-mcq-11"
       ],
       "explanation": "本句的「serial number」指「序號」。",
       "sentenceIndex": 33,
@@ -1495,12 +1361,10 @@ export default {
         "serial number"
       ],
       "optionReasons": {
-        "series-mcq-16": "本句指「序號」。",
-        "series-mcq-15": "「連續的；系列的」與本句語境不同。",
-        "series-mcq-17": "「連環殺手」與本句語境不同。",
-        "series-mcq-14": "「產品系列」與本句語境不同。",
-        "series-mcq-18": "「連載作品」與本句語境不同。",
-        "series-mcq-13": "「串聯」與本句語境不同。"
+        "series-mcq-16": "本句的「serial number」指「序號」。",
+        "series-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-16"
     },
@@ -1512,11 +1376,9 @@ export default {
       "masked": "The ____ is printed on the back.",
       "options": [
         "series-mcq-16",
-        "series-mcq-15",
-        "series-mcq-17",
-        "series-mcq-14",
-        "series-mcq-18",
-        "series-mcq-13"
+        "series-mcq-05",
+        "series-mcq-03",
+        "series-mcq-09"
       ],
       "explanation": "本句的「serial number」指「序號」。",
       "sentenceIndex": 34,
@@ -1525,12 +1387,10 @@ export default {
         "serial number"
       ],
       "optionReasons": {
-        "series-mcq-16": "本句指「序號」。",
-        "series-mcq-15": "「連續的；系列的」與本句語境不同。",
-        "series-mcq-17": "「連環殺手」與本句語境不同。",
-        "series-mcq-14": "「產品系列」與本句語境不同。",
-        "series-mcq-18": "「連載作品」與本句語境不同。",
-        "series-mcq-13": "「串聯」與本句語境不同。"
+        "series-mcq-16": "本句的「serial number」指「序號」。",
+        "series-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-16"
     },
@@ -1543,10 +1403,8 @@ export default {
       "options": [
         "series-mcq-17",
         "series-mcq-16",
-        "series-mcq-18",
-        "series-mcq-15",
-        "series-mcq-19",
-        "series-mcq-14"
+        "series-mcq-04",
+        "series-mcq-10"
       ],
       "explanation": "本句的「serial killer」指「連環殺手」。",
       "sentenceIndex": 35,
@@ -1555,12 +1413,10 @@ export default {
         "serial killer"
       ],
       "optionReasons": {
-        "series-mcq-17": "本句指「連環殺手」。",
-        "series-mcq-16": "「序號」與本句語境不同。",
-        "series-mcq-18": "「連載作品」與本句語境不同。",
-        "series-mcq-15": "「連續的；系列的」與本句語境不同。",
-        "series-mcq-19": "「連載；序列化」與本句語境不同。",
-        "series-mcq-14": "「產品系列」與本句語境不同。"
+        "series-mcq-17": "本句的「serial killer」指「連環殺手」。",
+        "series-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-17"
     },
@@ -1572,11 +1428,9 @@ export default {
       "masked": "The court described him as a ____.",
       "options": [
         "series-mcq-17",
-        "series-mcq-16",
-        "series-mcq-18",
-        "series-mcq-15",
-        "series-mcq-19",
-        "series-mcq-14"
+        "series-mcq-04",
+        "series-mcq-12",
+        "series-mcq-09"
       ],
       "explanation": "本句的「serial offender」指「連環殺手」。",
       "sentenceIndex": 36,
@@ -1585,12 +1439,10 @@ export default {
         "serial offender"
       ],
       "optionReasons": {
-        "series-mcq-17": "本句指「連環殺手」。",
-        "series-mcq-16": "「序號」與本句語境不同。",
-        "series-mcq-18": "「連載作品」與本句語境不同。",
-        "series-mcq-15": "「連續的；系列的」與本句語境不同。",
-        "series-mcq-19": "「連載；序列化」與本句語境不同。",
-        "series-mcq-14": "「產品系列」與本句語境不同。"
+        "series-mcq-17": "本句的「serial offender」指「連環殺手」。",
+        "series-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-17"
     },
@@ -1602,11 +1454,9 @@ export default {
       "masked": "The story first appeared as a newspaper ____.",
       "options": [
         "series-mcq-18",
-        "series-mcq-17",
-        "series-mcq-19",
-        "series-mcq-16",
-        "series-mcq-15",
-        "series-mcq-14"
+        "series-mcq-07",
+        "series-mcq-13",
+        "series-mcq-11"
       ],
       "explanation": "本句的「serial」指「連載作品」。",
       "sentenceIndex": 37,
@@ -1615,12 +1465,10 @@ export default {
         "serial"
       ],
       "optionReasons": {
-        "series-mcq-18": "本句指「連載作品」。",
-        "series-mcq-17": "「連環殺手」與本句語境不同。",
-        "series-mcq-19": "「連載；序列化」與本句語境不同。",
-        "series-mcq-16": "「序號」與本句語境不同。",
-        "series-mcq-15": "「連續的；系列的」與本句語境不同。",
-        "series-mcq-14": "「產品系列」與本句語境不同。"
+        "series-mcq-18": "本句的「serial」指「連載作品」。",
+        "series-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-18"
     },
@@ -1632,11 +1480,9 @@ export default {
       "masked": "The radio ____ became extremely popular.",
       "options": [
         "series-mcq-18",
-        "series-mcq-17",
-        "series-mcq-19",
         "series-mcq-16",
-        "series-mcq-15",
-        "series-mcq-14"
+        "series-mcq-10",
+        "series-mcq-05"
       ],
       "explanation": "本句的「serial」指「連載作品」。",
       "sentenceIndex": 38,
@@ -1645,12 +1491,10 @@ export default {
         "serial"
       ],
       "optionReasons": {
-        "series-mcq-18": "本句指「連載作品」。",
-        "series-mcq-17": "「連環殺手」與本句語境不同。",
-        "series-mcq-19": "「連載；序列化」與本句語境不同。",
-        "series-mcq-16": "「序號」與本句語境不同。",
-        "series-mcq-15": "「連續的；系列的」與本句語境不同。",
-        "series-mcq-14": "「產品系列」與本句語境不同。"
+        "series-mcq-18": "本句的「serial」指「連載作品」。",
+        "series-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-18"
     },
@@ -1662,11 +1506,9 @@ export default {
       "masked": "The novel was ____ in a magazine.",
       "options": [
         "series-mcq-19",
-        "series-mcq-18",
-        "series-mcq-17",
-        "series-mcq-16",
-        "series-mcq-15",
-        "series-mcq-14"
+        "series-mcq-11",
+        "series-mcq-13",
+        "series-mcq-09"
       ],
       "explanation": "本句的「serialized」指「連載；序列化」。",
       "sentenceIndex": 39,
@@ -1675,12 +1517,10 @@ export default {
         "serialized"
       ],
       "optionReasons": {
-        "series-mcq-19": "本句指「連載；序列化」。",
-        "series-mcq-18": "「連載作品」與本句語境不同。",
-        "series-mcq-17": "「連環殺手」與本句語境不同。",
-        "series-mcq-16": "「序號」與本句語境不同。",
-        "series-mcq-15": "「連續的；系列的」與本句語境不同。",
-        "series-mcq-14": "「產品系列」與本句語境不同。"
+        "series-mcq-19": "本句的「serialized」指「連載；序列化」。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-19"
     },
@@ -1692,11 +1532,9 @@ export default {
       "masked": "The newspaper ____ the story over several months.",
       "options": [
         "series-mcq-19",
-        "series-mcq-18",
-        "series-mcq-17",
-        "series-mcq-16",
-        "series-mcq-15",
-        "series-mcq-14"
+        "series-mcq-09",
+        "series-mcq-12",
+        "series-mcq-11"
       ],
       "explanation": "本句的「serialised」指「連載；序列化」。",
       "sentenceIndex": 40,
@@ -1705,12 +1543,10 @@ export default {
         "serialised"
       ],
       "optionReasons": {
-        "series-mcq-19": "本句指「連載；序列化」。",
-        "series-mcq-18": "「連載作品」與本句語境不同。",
-        "series-mcq-17": "「連環殺手」與本句語境不同。",
-        "series-mcq-16": "「序號」與本句語境不同。",
-        "series-mcq-15": "「連續的；系列的」與本句語境不同。",
-        "series-mcq-14": "「產品系列」與本句語境不同。"
+        "series-mcq-19": "本句的「serialised」指「連載；序列化」。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-19"
     },
@@ -1722,11 +1558,9 @@ export default {
       "masked": "The novel's newspaper ____ increased its popularity.",
       "options": [
         "series-mcq-20",
-        "series-mcq-18",
-        "series-mcq-17",
-        "series-mcq-16",
-        "series-mcq-15",
-        "series-mcq-14"
+        "series-mcq-12",
+        "series-mcq-09",
+        "series-mcq-11"
       ],
       "explanation": "本句的「serialization」指「連載；序列化」。",
       "sentenceIndex": 41,
@@ -1735,12 +1569,10 @@ export default {
         "serialization"
       ],
       "optionReasons": {
-        "series-mcq-20": "本句指「連載；序列化」。",
-        "series-mcq-18": "「連載作品」與本句語境不同。",
-        "series-mcq-17": "「連環殺手」與本句語境不同。",
-        "series-mcq-16": "「序號」與本句語境不同。",
-        "series-mcq-15": "「連續的；系列的」與本句語境不同。",
-        "series-mcq-14": "「產品系列」與本句語境不同。"
+        "series-mcq-20": "本句的「serialization」指「連載；序列化」。",
+        "series-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-20"
     },
@@ -1752,11 +1584,9 @@ export default {
       "masked": "The system uses data ____.",
       "options": [
         "series-mcq-20",
-        "series-mcq-18",
-        "series-mcq-17",
-        "series-mcq-16",
-        "series-mcq-15",
-        "series-mcq-14"
+        "series-mcq-09",
+        "series-mcq-12",
+        "series-mcq-11"
       ],
       "explanation": "本句的「serialization」指「連載；序列化」。",
       "sentenceIndex": 42,
@@ -1765,12 +1595,10 @@ export default {
         "serialization"
       ],
       "optionReasons": {
-        "series-mcq-20": "本句指「連載；序列化」。",
-        "series-mcq-18": "「連載作品」與本句語境不同。",
-        "series-mcq-17": "「連環殺手」與本句語境不同。",
-        "series-mcq-16": "「序號」與本句語境不同。",
-        "series-mcq-15": "「連續的；系列的」與本句語境不同。",
-        "series-mcq-14": "「產品系列」與本句語境不同。"
+        "series-mcq-20": "本句的「serialization」指「連載；序列化」。",
+        "series-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "series-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "series-mcq-20"
     }
@@ -1782,5 +1610,7 @@ export default {
     "sha256": "9f5143f95c1af0517a9e0a3d909b38b0043c170da1cff9464baf1fa5e8a2de0c",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

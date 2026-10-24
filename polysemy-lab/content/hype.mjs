@@ -316,11 +316,7 @@ export default {
       "masked": "There was a lot of ____ around the new phone.",
       "options": [
         "hype-mcq-01",
-        "hype-mcq-02",
-        "hype-mcq-03",
-        "hype-mcq-04",
-        "hype-mcq-05",
-        "hype-mcq-06"
+        "contrast-duration"
       ],
       "explanation": "本句的「hype」指「圍繞產品、人物或事件形成的大量宣傳、討論、關注和期待」。",
       "sentenceIndex": 0,
@@ -329,12 +325,8 @@ export default {
         "hype"
       ],
       "optionReasons": {
-        "hype-mcq-01": "本句指「圍繞產品、人物或事件形成的大量宣傳、討論、關注和期待」。",
-        "hype-mcq-02": "「把某件事宣傳或稱讚得比實際更重要、更精彩的炒作／吹捧」與本句語境不同。",
-        "hype-mcq-03": "「因宣傳、口碑和大量討論而形成的公眾高期待」與本句語境不同。",
-        "hype-mcq-04": "「實際品質或表現達到先前宣傳和好評所建立的高期待」與本句語境不同。",
-        "hype-mcq-05": "「實際表現低於外界宣傳和好評所造成的期待」與本句語境不同。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。"
+        "hype-mcq-01": "本句的「hype」指「圍繞產品、人物或事件形成的大量宣傳、討論、關注和期待」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-01"
     },
@@ -346,11 +338,7 @@ export default {
       "masked": "The film received enormous ____ before its release.",
       "options": [
         "hype-mcq-01",
-        "hype-mcq-02",
-        "hype-mcq-03",
-        "hype-mcq-04",
-        "hype-mcq-05",
-        "hype-mcq-06"
+        "contrast-duration"
       ],
       "explanation": "本句的「hype」指「圍繞產品、人物或事件形成的大量宣傳、討論、關注和期待」。",
       "sentenceIndex": 1,
@@ -359,12 +347,8 @@ export default {
         "hype"
       ],
       "optionReasons": {
-        "hype-mcq-01": "本句指「圍繞產品、人物或事件形成的大量宣傳、討論、關注和期待」。",
-        "hype-mcq-02": "「把某件事宣傳或稱讚得比實際更重要、更精彩的炒作／吹捧」與本句語境不同。",
-        "hype-mcq-03": "「因宣傳、口碑和大量討論而形成的公眾高期待」與本句語境不同。",
-        "hype-mcq-04": "「實際品質或表現達到先前宣傳和好評所建立的高期待」與本句語境不同。",
-        "hype-mcq-05": "「實際表現低於外界宣傳和好評所造成的期待」與本句語境不同。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。"
+        "hype-mcq-01": "本句的「hype」指「圍繞產品、人物或事件形成的大量宣傳、討論、關注和期待」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-01"
     },
@@ -376,11 +360,7 @@ export default {
       "masked": "Most of the claims were just marketing ____.",
       "options": [
         "hype-mcq-02",
-        "hype-mcq-01",
-        "hype-mcq-03",
-        "hype-mcq-04",
-        "hype-mcq-05",
-        "hype-mcq-06"
+        "hype-mcq-10"
       ],
       "explanation": "本句的「hype」指「把某件事宣傳或稱讚得比實際更重要、更精彩的炒作／吹捧」。",
       "sentenceIndex": 2,
@@ -389,12 +369,8 @@ export default {
         "hype"
       ],
       "optionReasons": {
-        "hype-mcq-02": "本句指「把某件事宣傳或稱讚得比實際更重要、更精彩的炒作／吹捧」。",
-        "hype-mcq-01": "「圍繞產品、人物或事件形成的大量宣傳、討論、關注和期待」與本句語境不同。",
-        "hype-mcq-03": "「因宣傳、口碑和大量討論而形成的公眾高期待」與本句語境不同。",
-        "hype-mcq-04": "「實際品質或表現達到先前宣傳和好評所建立的高期待」與本句語境不同。",
-        "hype-mcq-05": "「實際表現低於外界宣傳和好評所造成的期待」與本句語境不同。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。"
+        "hype-mcq-02": "本句的「hype」指「把某件事宣傳或稱讚得比實際更重要、更精彩的炒作／吹捧」。",
+        "hype-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-02"
     },
@@ -406,11 +382,7 @@ export default {
       "masked": "Ignore the ____ and look at the actual performance.",
       "options": [
         "hype-mcq-02",
-        "hype-mcq-01",
-        "hype-mcq-03",
-        "hype-mcq-04",
-        "hype-mcq-05",
-        "hype-mcq-06"
+        "hype-mcq-10"
       ],
       "explanation": "本句的「hype」指「把某件事宣傳或稱讚得比實際更重要、更精彩的炒作／吹捧」。",
       "sentenceIndex": 3,
@@ -419,12 +391,8 @@ export default {
         "hype"
       ],
       "optionReasons": {
-        "hype-mcq-02": "本句指「把某件事宣傳或稱讚得比實際更重要、更精彩的炒作／吹捧」。",
-        "hype-mcq-01": "「圍繞產品、人物或事件形成的大量宣傳、討論、關注和期待」與本句語境不同。",
-        "hype-mcq-03": "「因宣傳、口碑和大量討論而形成的公眾高期待」與本句語境不同。",
-        "hype-mcq-04": "「實際品質或表現達到先前宣傳和好評所建立的高期待」與本句語境不同。",
-        "hype-mcq-05": "「實際表現低於外界宣傳和好評所造成的期待」與本句語境不同。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。"
+        "hype-mcq-02": "本句的「hype」指「把某件事宣傳或稱讚得比實際更重要、更精彩的炒作／吹捧」。",
+        "hype-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-02"
     },
@@ -436,11 +404,7 @@ export default {
       "masked": "The new restaurant didn’t match ____.",
       "options": [
         "hype-mcq-03",
-        "hype-mcq-02",
-        "hype-mcq-04",
-        "hype-mcq-01",
-        "hype-mcq-05",
-        "hype-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「the hype」指「因宣傳、口碑和大量討論而形成的公眾高期待」。",
       "sentenceIndex": 4,
@@ -449,12 +413,8 @@ export default {
         "the hype"
       ],
       "optionReasons": {
-        "hype-mcq-03": "本句指「因宣傳、口碑和大量討論而形成的公眾高期待」。",
-        "hype-mcq-02": "「把某件事宣傳或稱讚得比實際更重要、更精彩的炒作／吹捧」與本句語境不同。",
-        "hype-mcq-04": "「實際品質或表現達到先前宣傳和好評所建立的高期待」與本句語境不同。",
-        "hype-mcq-01": "「圍繞產品、人物或事件形成的大量宣傳、討論、關注和期待」與本句語境不同。",
-        "hype-mcq-05": "「實際表現低於外界宣傳和好評所造成的期待」與本句語境不同。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。"
+        "hype-mcq-03": "本句的「the hype」指「因宣傳、口碑和大量討論而形成的公眾高期待」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-03"
     },
@@ -466,11 +426,7 @@ export default {
       "masked": "After months of positive reviews, ____ was huge.",
       "options": [
         "hype-mcq-03",
-        "hype-mcq-02",
-        "hype-mcq-04",
-        "hype-mcq-01",
-        "hype-mcq-05",
-        "hype-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「the hype」指「因宣傳、口碑和大量討論而形成的公眾高期待」。",
       "sentenceIndex": 5,
@@ -479,12 +435,8 @@ export default {
         "the hype"
       ],
       "optionReasons": {
-        "hype-mcq-03": "本句指「因宣傳、口碑和大量討論而形成的公眾高期待」。",
-        "hype-mcq-02": "「把某件事宣傳或稱讚得比實際更重要、更精彩的炒作／吹捧」與本句語境不同。",
-        "hype-mcq-04": "「實際品質或表現達到先前宣傳和好評所建立的高期待」與本句語境不同。",
-        "hype-mcq-01": "「圍繞產品、人物或事件形成的大量宣傳、討論、關注和期待」與本句語境不同。",
-        "hype-mcq-05": "「實際表現低於外界宣傳和好評所造成的期待」與本句語境不同。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。"
+        "hype-mcq-03": "本句的「the hype」指「因宣傳、口碑和大量討論而形成的公眾高期待」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-03"
     },
@@ -496,11 +448,7 @@ export default {
       "masked": "They really ____.",
       "options": [
         "hype-mcq-04",
-        "hype-mcq-03",
-        "hype-mcq-05",
-        "hype-mcq-02",
-        "hype-mcq-06",
-        "hype-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「lived up to the hype」指「實際品質或表現達到先前宣傳和好評所建立的高期待」。",
       "sentenceIndex": 6,
@@ -509,12 +457,8 @@ export default {
         "lived up to the hype"
       ],
       "optionReasons": {
-        "hype-mcq-04": "本句指「實際品質或表現達到先前宣傳和好評所建立的高期待」。",
-        "hype-mcq-03": "「因宣傳、口碑和大量討論而形成的公眾高期待」與本句語境不同。",
-        "hype-mcq-05": "「實際表現低於外界宣傳和好評所造成的期待」與本句語境不同。",
-        "hype-mcq-02": "「把某件事宣傳或稱讚得比實際更重要、更精彩的炒作／吹捧」與本句語境不同。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。",
-        "hype-mcq-01": "「圍繞產品、人物或事件形成的大量宣傳、討論、關注和期待」與本句語境不同。"
+        "hype-mcq-04": "本句的「lived up to the hype」指「實際品質或表現達到先前宣傳和好評所建立的高期待」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-04"
     },
@@ -526,11 +470,7 @@ export default {
       "masked": "The restaurant completely ____.",
       "options": [
         "hype-mcq-04",
-        "hype-mcq-03",
-        "hype-mcq-05",
-        "hype-mcq-02",
-        "hype-mcq-06",
-        "hype-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「lived up to the hype」指「實際品質或表現達到先前宣傳和好評所建立的高期待」。",
       "sentenceIndex": 7,
@@ -539,12 +479,8 @@ export default {
         "lived up to the hype"
       ],
       "optionReasons": {
-        "hype-mcq-04": "本句指「實際品質或表現達到先前宣傳和好評所建立的高期待」。",
-        "hype-mcq-03": "「因宣傳、口碑和大量討論而形成的公眾高期待」與本句語境不同。",
-        "hype-mcq-05": "「實際表現低於外界宣傳和好評所造成的期待」與本句語境不同。",
-        "hype-mcq-02": "「把某件事宣傳或稱讚得比實際更重要、更精彩的炒作／吹捧」與本句語境不同。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。",
-        "hype-mcq-01": "「圍繞產品、人物或事件形成的大量宣傳、討論、關注和期待」與本句語境不同。"
+        "hype-mcq-04": "本句的「lived up to the hype」指「實際品質或表現達到先前宣傳和好評所建立的高期待」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-04"
     },
@@ -556,11 +492,7 @@ export default {
       "masked": "The new game actually ____.",
       "options": [
         "hype-mcq-04",
-        "hype-mcq-03",
-        "hype-mcq-05",
-        "hype-mcq-02",
-        "hype-mcq-06",
-        "hype-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「lives up to the hype」指「實際品質或表現達到先前宣傳和好評所建立的高期待」。",
       "sentenceIndex": 8,
@@ -569,12 +501,8 @@ export default {
         "lives up to the hype"
       ],
       "optionReasons": {
-        "hype-mcq-04": "本句指「實際品質或表現達到先前宣傳和好評所建立的高期待」。",
-        "hype-mcq-03": "「因宣傳、口碑和大量討論而形成的公眾高期待」與本句語境不同。",
-        "hype-mcq-05": "「實際表現低於外界宣傳和好評所造成的期待」與本句語境不同。",
-        "hype-mcq-02": "「把某件事宣傳或稱讚得比實際更重要、更精彩的炒作／吹捧」與本句語境不同。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。",
-        "hype-mcq-01": "「圍繞產品、人物或事件形成的大量宣傳、討論、關注和期待」與本句語境不同。"
+        "hype-mcq-04": "本句的「lives up to the hype」指「實際品質或表現達到先前宣傳和好評所建立的高期待」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-04"
     },
@@ -586,11 +514,7 @@ export default {
       "masked": "The product didn’t ____.",
       "options": [
         "hype-mcq-05",
-        "hype-mcq-04",
-        "hype-mcq-06",
-        "hype-mcq-03",
-        "hype-mcq-07",
-        "hype-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「live up to the hype」指「實際表現低於外界宣傳和好評所造成的期待」。",
       "sentenceIndex": 9,
@@ -599,12 +523,8 @@ export default {
         "live up to the hype"
       ],
       "optionReasons": {
-        "hype-mcq-05": "本句指「實際表現低於外界宣傳和好評所造成的期待」。",
-        "hype-mcq-04": "「實際品質或表現達到先前宣傳和好評所建立的高期待」與本句語境不同。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。",
-        "hype-mcq-03": "「因宣傳、口碑和大量討論而形成的公眾高期待」與本句語境不同。",
-        "hype-mcq-07": "「接受外界的宣傳、吹捧和高評價為可信」與本句語境不同。",
-        "hype-mcq-02": "「把某件事宣傳或稱讚得比實際更重要、更精彩的炒作／吹捧」與本句語境不同。"
+        "hype-mcq-05": "本句的「live up to the hype」指「實際表現低於外界宣傳和好評所造成的期待」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-05"
     },
@@ -616,11 +536,7 @@ export default {
       "masked": "For me, the film didn’t quite ____.",
       "options": [
         "hype-mcq-05",
-        "hype-mcq-04",
-        "hype-mcq-06",
-        "hype-mcq-03",
-        "hype-mcq-07",
-        "hype-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「live up to the hype」指「實際表現低於外界宣傳和好評所造成的期待」。",
       "sentenceIndex": 10,
@@ -629,12 +545,8 @@ export default {
         "live up to the hype"
       ],
       "optionReasons": {
-        "hype-mcq-05": "本句指「實際表現低於外界宣傳和好評所造成的期待」。",
-        "hype-mcq-04": "「實際品質或表現達到先前宣傳和好評所建立的高期待」與本句語境不同。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。",
-        "hype-mcq-03": "「因宣傳、口碑和大量討論而形成的公眾高期待」與本句語境不同。",
-        "hype-mcq-07": "「接受外界的宣傳、吹捧和高評價為可信」與本句語境不同。",
-        "hype-mcq-02": "「把某件事宣傳或稱讚得比實際更重要、更精彩的炒作／吹捧」與本句語境不同。"
+        "hype-mcq-05": "本句的「live up to the hype」指「實際表現低於外界宣傳和好評所造成的期待」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-05"
     },
@@ -646,11 +558,7 @@ export default {
       "masked": "Are these headphones really ____?",
       "options": [
         "hype-mcq-06",
-        "hype-mcq-05",
-        "hype-mcq-07",
-        "hype-mcq-04",
-        "hype-mcq-08",
-        "hype-mcq-03"
+        "hype-mcq-10"
       ],
       "explanation": "本句的「worth the hype」指「實際品質足以證明外界的大量關注和稱讚是合理的」。",
       "sentenceIndex": 11,
@@ -659,12 +567,8 @@ export default {
         "worth the hype"
       ],
       "optionReasons": {
-        "hype-mcq-06": "本句指「實際品質足以證明外界的大量關注和稱讚是合理的」。",
-        "hype-mcq-05": "「實際表現低於外界宣傳和好評所造成的期待」與本句語境不同。",
-        "hype-mcq-07": "「接受外界的宣傳、吹捧和高評價為可信」與本句語境不同。",
-        "hype-mcq-04": "「實際品質或表現達到先前宣傳和好評所建立的高期待」與本句語境不同。",
-        "hype-mcq-08": "「透過大量宣傳或讚美提高公眾興奮感和期待」與本句語境不同。",
-        "hype-mcq-03": "「因宣傳、口碑和大量討論而形成的公眾高期待」與本句語境不同。"
+        "hype-mcq-06": "本句的「worth the hype」指「實際品質足以證明外界的大量關注和稱讚是合理的」。",
+        "hype-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-06"
     },
@@ -676,11 +580,7 @@ export default {
       "masked": "The café is expensive, but I think it’s ____.",
       "options": [
         "hype-mcq-06",
-        "hype-mcq-05",
-        "hype-mcq-07",
-        "hype-mcq-04",
-        "hype-mcq-08",
-        "hype-mcq-03"
+        "hype-mcq-10"
       ],
       "explanation": "本句的「worth the hype」指「實際品質足以證明外界的大量關注和稱讚是合理的」。",
       "sentenceIndex": 12,
@@ -689,12 +589,8 @@ export default {
         "worth the hype"
       ],
       "optionReasons": {
-        "hype-mcq-06": "本句指「實際品質足以證明外界的大量關注和稱讚是合理的」。",
-        "hype-mcq-05": "「實際表現低於外界宣傳和好評所造成的期待」與本句語境不同。",
-        "hype-mcq-07": "「接受外界的宣傳、吹捧和高評價為可信」與本句語境不同。",
-        "hype-mcq-04": "「實際品質或表現達到先前宣傳和好評所建立的高期待」與本句語境不同。",
-        "hype-mcq-08": "「透過大量宣傳或讚美提高公眾興奮感和期待」與本句語境不同。",
-        "hype-mcq-03": "「因宣傳、口碑和大量討論而形成的公眾高期待」與本句語境不同。"
+        "hype-mcq-06": "本句的「worth the hype」指「實際品質足以證明外界的大量關注和稱讚是合理的」。",
+        "hype-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-06"
     },
@@ -706,11 +602,7 @@ export default {
       "masked": "Don’t automatically ____.",
       "options": [
         "hype-mcq-07",
-        "hype-mcq-06",
-        "hype-mcq-08",
-        "hype-mcq-05",
-        "hype-mcq-09",
-        "hype-mcq-04"
+        "hype-mcq-10"
       ],
       "explanation": "本句的「believe the hype」指「接受外界的宣傳、吹捧和高評價為可信」。",
       "sentenceIndex": 13,
@@ -719,12 +611,8 @@ export default {
         "believe the hype"
       ],
       "optionReasons": {
-        "hype-mcq-07": "本句指「接受外界的宣傳、吹捧和高評價為可信」。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。",
-        "hype-mcq-08": "「透過大量宣傳或讚美提高公眾興奮感和期待」與本句語境不同。",
-        "hype-mcq-05": "「實際表現低於外界宣傳和好評所造成的期待」與本句語境不同。",
-        "hype-mcq-09": "「受到大量宣傳和討論、因此具有很高話題度的」與本句語境不同。",
-        "hype-mcq-04": "「實際品質或表現達到先前宣傳和好評所建立的高期待」與本句語境不同。"
+        "hype-mcq-07": "本句的「believe the hype」指「接受外界的宣傳、吹捧和高評價為可信」。",
+        "hype-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-07"
     },
@@ -736,11 +624,7 @@ export default {
       "masked": "I didn’t ____ until I tried the product myself.",
       "options": [
         "hype-mcq-07",
-        "hype-mcq-06",
-        "hype-mcq-08",
-        "hype-mcq-05",
-        "hype-mcq-09",
-        "hype-mcq-04"
+        "hype-mcq-10"
       ],
       "explanation": "本句的「believe the hype」指「接受外界的宣傳、吹捧和高評價為可信」。",
       "sentenceIndex": 14,
@@ -749,12 +633,8 @@ export default {
         "believe the hype"
       ],
       "optionReasons": {
-        "hype-mcq-07": "本句指「接受外界的宣傳、吹捧和高評價為可信」。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。",
-        "hype-mcq-08": "「透過大量宣傳或讚美提高公眾興奮感和期待」與本句語境不同。",
-        "hype-mcq-05": "「實際表現低於外界宣傳和好評所造成的期待」與本句語境不同。",
-        "hype-mcq-09": "「受到大量宣傳和討論、因此具有很高話題度的」與本句語境不同。",
-        "hype-mcq-04": "「實際品質或表現達到先前宣傳和好評所建立的高期待」與本句語境不同。"
+        "hype-mcq-07": "本句的「believe the hype」指「接受外界的宣傳、吹捧和高評價為可信」。",
+        "hype-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-07"
     },
@@ -766,11 +646,7 @@ export default {
       "masked": "I don’t understand ____ about this app.",
       "options": [
         "hype-pdf-001",
-        "hype-mcq-07",
-        "hype-mcq-09",
-        "hype-mcq-06",
-        "hype-mcq-10",
-        "hype-mcq-05"
+        "hype-mcq-10"
       ],
       "explanation": "本句的「all the hype」指「圍繞某件事出現的大量關注、討論和宣傳」。",
       "sentenceIndex": 15,
@@ -779,12 +655,8 @@ export default {
         "all the hype"
       ],
       "optionReasons": {
-        "hype-pdf-001": "本句指「圍繞某件事出現的大量關注、討論和宣傳」。",
-        "hype-mcq-07": "「接受外界的宣傳、吹捧和高評價為可信」與本句語境不同。",
-        "hype-mcq-09": "「受到大量宣傳和討論、因此具有很高話題度的」與本句語境不同。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。",
-        "hype-mcq-10": "「非正式：對即將發生的事非常興奮和期待的」與本句語境不同。",
-        "hype-mcq-05": "「實際表現低於外界宣傳和好評所造成的期待」與本句語境不同。"
+        "hype-pdf-001": "本句的「all the hype」指「圍繞某件事出現的大量關注、討論和宣傳」。",
+        "hype-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-pdf-001"
     },
@@ -796,11 +668,7 @@ export default {
       "masked": "What is ____ about?",
       "options": [
         "hype-pdf-001",
-        "hype-mcq-07",
-        "hype-mcq-09",
-        "hype-mcq-06",
-        "hype-mcq-10",
-        "hype-mcq-05"
+        "hype-mcq-10"
       ],
       "explanation": "本句的「all the hype」指「圍繞某件事出現的大量關注、討論和宣傳」。",
       "sentenceIndex": 16,
@@ -809,12 +677,8 @@ export default {
         "all the hype"
       ],
       "optionReasons": {
-        "hype-pdf-001": "本句指「圍繞某件事出現的大量關注、討論和宣傳」。",
-        "hype-mcq-07": "「接受外界的宣傳、吹捧和高評價為可信」與本句語境不同。",
-        "hype-mcq-09": "「受到大量宣傳和討論、因此具有很高話題度的」與本句語境不同。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。",
-        "hype-mcq-10": "「非正式：對即將發生的事非常興奮和期待的」與本句語境不同。",
-        "hype-mcq-05": "「實際表現低於外界宣傳和好評所造成的期待」與本句語境不同。"
+        "hype-pdf-001": "本句的「all the hype」指「圍繞某件事出現的大量關注、討論和宣傳」。",
+        "hype-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-pdf-001"
     },
@@ -826,11 +690,7 @@ export default {
       "masked": "The company heavily ____ the new product.",
       "options": [
         "hype-mcq-09",
-        "hype-mcq-08",
-        "hype-mcq-10",
-        "hype-mcq-07",
-        "hype-mcq-11",
-        "hype-mcq-06"
+        "hype-mcq-10"
       ],
       "explanation": "本句的「hyped」指「受到大量宣傳和討論、因此具有很高話題度的」。",
       "sentenceIndex": 17,
@@ -839,12 +699,8 @@ export default {
         "hyped"
       ],
       "optionReasons": {
-        "hype-mcq-09": "本句指「受到大量宣傳和討論、因此具有很高話題度的」。",
-        "hype-mcq-08": "「透過大量宣傳或讚美提高公眾興奮感和期待」與本句語境不同。",
-        "hype-mcq-10": "「非正式：對即將發生的事非常興奮和期待的」與本句語境不同。",
-        "hype-mcq-07": "「接受外界的宣傳、吹捧和高評價為可信」與本句語境不同。",
-        "hype-mcq-11": "「對某件事作超過其實際價值所值得的宣傳或吹捧」與本句語境不同。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。"
+        "hype-mcq-09": "本句的「hyped」指「受到大量宣傳和討論、因此具有很高話題度的」。",
+        "hype-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-09"
     },
@@ -856,11 +712,7 @@ export default {
       "masked": "The media ____ the event for weeks.",
       "options": [
         "hype-mcq-09",
-        "hype-mcq-08",
-        "hype-mcq-10",
-        "hype-mcq-07",
-        "hype-mcq-11",
-        "hype-mcq-06"
+        "hype-mcq-10"
       ],
       "explanation": "本句的「hyped」指「受到大量宣傳和討論、因此具有很高話題度的」。",
       "sentenceIndex": 18,
@@ -869,12 +721,8 @@ export default {
         "hyped"
       ],
       "optionReasons": {
-        "hype-mcq-09": "本句指「受到大量宣傳和討論、因此具有很高話題度的」。",
-        "hype-mcq-08": "「透過大量宣傳或讚美提高公眾興奮感和期待」與本句語境不同。",
-        "hype-mcq-10": "「非正式：對即將發生的事非常興奮和期待的」與本句語境不同。",
-        "hype-mcq-07": "「接受外界的宣傳、吹捧和高評價為可信」與本句語境不同。",
-        "hype-mcq-11": "「對某件事作超過其實際價值所值得的宣傳或吹捧」與本句語境不同。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。"
+        "hype-mcq-09": "本句的「hyped」指「受到大量宣傳和討論、因此具有很高話題度的」。",
+        "hype-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-09"
     },
@@ -886,11 +734,7 @@ export default {
       "masked": "It was one of the most ____ products of the year.",
       "options": [
         "hype-mcq-09",
-        "hype-mcq-08",
-        "hype-mcq-10",
-        "hype-mcq-07",
-        "hype-mcq-11",
-        "hype-mcq-06"
+        "hype-mcq-10"
       ],
       "explanation": "本句的「hyped」指「受到大量宣傳和討論、因此具有很高話題度的」。",
       "sentenceIndex": 19,
@@ -899,12 +743,8 @@ export default {
         "hyped"
       ],
       "optionReasons": {
-        "hype-mcq-09": "本句指「受到大量宣傳和討論、因此具有很高話題度的」。",
-        "hype-mcq-08": "「透過大量宣傳或讚美提高公眾興奮感和期待」與本句語境不同。",
-        "hype-mcq-10": "「非正式：對即將發生的事非常興奮和期待的」與本句語境不同。",
-        "hype-mcq-07": "「接受外界的宣傳、吹捧和高評價為可信」與本句語境不同。",
-        "hype-mcq-11": "「對某件事作超過其實際價值所值得的宣傳或吹捧」與本句語境不同。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。"
+        "hype-mcq-09": "本句的「hyped」指「受到大量宣傳和討論、因此具有很高話題度的」。",
+        "hype-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-09"
     },
@@ -916,11 +756,7 @@ export default {
       "masked": "The highly ____ film received mixed reviews.",
       "options": [
         "hype-mcq-09",
-        "hype-mcq-08",
-        "hype-mcq-10",
-        "hype-mcq-07",
-        "hype-mcq-11",
-        "hype-mcq-06"
+        "hype-mcq-10"
       ],
       "explanation": "本句的「hyped」指「受到大量宣傳和討論、因此具有很高話題度的」。",
       "sentenceIndex": 20,
@@ -929,12 +765,8 @@ export default {
         "hyped"
       ],
       "optionReasons": {
-        "hype-mcq-09": "本句指「受到大量宣傳和討論、因此具有很高話題度的」。",
-        "hype-mcq-08": "「透過大量宣傳或讚美提高公眾興奮感和期待」與本句語境不同。",
-        "hype-mcq-10": "「非正式：對即將發生的事非常興奮和期待的」與本句語境不同。",
-        "hype-mcq-07": "「接受外界的宣傳、吹捧和高評價為可信」與本句語境不同。",
-        "hype-mcq-11": "「對某件事作超過其實際價值所值得的宣傳或吹捧」與本句語境不同。",
-        "hype-mcq-06": "「實際品質足以證明外界的大量關注和稱讚是合理的」與本句語境不同。"
+        "hype-mcq-09": "本句的「hyped」指「受到大量宣傳和討論、因此具有很高話題度的」。",
+        "hype-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-09"
     },
@@ -946,11 +778,7 @@ export default {
       "masked": "I’m really ____ for the concert.",
       "options": [
         "hype-mcq-10",
-        "hype-mcq-09",
-        "hype-mcq-11",
-        "hype-mcq-08",
-        "hype-mcq-12",
-        "hype-mcq-07"
+        "hype-mcq-12"
       ],
       "explanation": "本句的「hyped」指「非正式：對即將發生的事非常興奮和期待的」。",
       "sentenceIndex": 21,
@@ -959,12 +787,8 @@ export default {
         "hyped"
       ],
       "optionReasons": {
-        "hype-mcq-10": "本句指「非正式：對即將發生的事非常興奮和期待的」。",
-        "hype-mcq-09": "「受到大量宣傳和討論、因此具有很高話題度的」與本句語境不同。",
-        "hype-mcq-11": "「對某件事作超過其實際價值所值得的宣傳或吹捧」與本句語境不同。",
-        "hype-mcq-08": "「透過大量宣傳或讚美提高公眾興奮感和期待」與本句語境不同。",
-        "hype-mcq-12": "「外界宣傳和稱讚高於其實際品質或價值所值得的」與本句語境不同。",
-        "hype-mcq-07": "「接受外界的宣傳、吹捧和高評價為可信」與本句語境不同。"
+        "hype-mcq-10": "本句的「hyped」指「非正式：對即將發生的事非常興奮和期待的」。",
+        "hype-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-10"
     },
@@ -976,11 +800,7 @@ export default {
       "masked": "Everyone was ____ before the game.",
       "options": [
         "hype-mcq-10",
-        "hype-mcq-09",
-        "hype-mcq-11",
-        "hype-mcq-08",
-        "hype-mcq-12",
-        "hype-mcq-07"
+        "hype-pdf-001"
       ],
       "explanation": "本句的「hyped」指「非正式：對即將發生的事非常興奮和期待的」。",
       "sentenceIndex": 22,
@@ -989,12 +809,8 @@ export default {
         "hyped"
       ],
       "optionReasons": {
-        "hype-mcq-10": "本句指「非正式：對即將發生的事非常興奮和期待的」。",
-        "hype-mcq-09": "「受到大量宣傳和討論、因此具有很高話題度的」與本句語境不同。",
-        "hype-mcq-11": "「對某件事作超過其實際價值所值得的宣傳或吹捧」與本句語境不同。",
-        "hype-mcq-08": "「透過大量宣傳或讚美提高公眾興奮感和期待」與本句語境不同。",
-        "hype-mcq-12": "「外界宣傳和稱讚高於其實際品質或價值所值得的」與本句語境不同。",
-        "hype-mcq-07": "「接受外界的宣傳、吹捧和高評價為可信」與本句語境不同。"
+        "hype-mcq-10": "本句的「hyped」指「非正式：對即將發生的事非常興奮和期待的」。",
+        "hype-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-10"
     },
@@ -1006,11 +822,7 @@ export default {
       "masked": "Some companies ____ minor improvements.",
       "options": [
         "hype-mcq-11",
-        "hype-mcq-10",
-        "hype-mcq-12",
-        "hype-mcq-09",
-        "hype-mcq-13",
-        "hype-mcq-08"
+        "hype-mcq-10"
       ],
       "explanation": "本句的「overhype」指「對某件事作超過其實際價值所值得的宣傳或吹捧」。",
       "sentenceIndex": 23,
@@ -1019,12 +831,8 @@ export default {
         "overhype"
       ],
       "optionReasons": {
-        "hype-mcq-11": "本句指「對某件事作超過其實際價值所值得的宣傳或吹捧」。",
-        "hype-mcq-10": "「非正式：對即將發生的事非常興奮和期待的」與本句語境不同。",
-        "hype-mcq-12": "「外界宣傳和稱讚高於其實際品質或價值所值得的」與本句語境不同。",
-        "hype-mcq-09": "「受到大量宣傳和討論、因此具有很高話題度的」與本句語境不同。",
-        "hype-mcq-13": "「非正式：熱衷追逐被炒熱的潮牌、球鞋和限量時尚產品的人」與本句語境不同。",
-        "hype-mcq-08": "「透過大量宣傳或讚美提高公眾興奮感和期待」與本句語境不同。"
+        "hype-mcq-11": "本句的「overhype」指「對某件事作超過其實際價值所值得的宣傳或吹捧」。",
+        "hype-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-11"
     },
@@ -1036,11 +844,7 @@ export default {
       "masked": "The media may have ____ the story.",
       "options": [
         "hype-mcq-11",
-        "hype-mcq-10",
-        "hype-mcq-12",
-        "hype-mcq-09",
-        "hype-mcq-13",
-        "hype-mcq-08"
+        "hype-mcq-10"
       ],
       "explanation": "本句的「overhyped」指「對某件事作超過其實際價值所值得的宣傳或吹捧」。",
       "sentenceIndex": 24,
@@ -1049,12 +853,8 @@ export default {
         "overhyped"
       ],
       "optionReasons": {
-        "hype-mcq-11": "本句指「對某件事作超過其實際價值所值得的宣傳或吹捧」。",
-        "hype-mcq-10": "「非正式：對即將發生的事非常興奮和期待的」與本句語境不同。",
-        "hype-mcq-12": "「外界宣傳和稱讚高於其實際品質或價值所值得的」與本句語境不同。",
-        "hype-mcq-09": "「受到大量宣傳和討論、因此具有很高話題度的」與本句語境不同。",
-        "hype-mcq-13": "「非正式：熱衷追逐被炒熱的潮牌、球鞋和限量時尚產品的人」與本句語境不同。",
-        "hype-mcq-08": "「透過大量宣傳或讚美提高公眾興奮感和期待」與本句語境不同。"
+        "hype-mcq-11": "本句的「overhyped」指「對某件事作超過其實際價值所值得的宣傳或吹捧」。",
+        "hype-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-11"
     },
@@ -1066,11 +866,7 @@ export default {
       "masked": "I thought the restaurant was ____.",
       "options": [
         "hype-mcq-12",
-        "hype-mcq-11",
-        "hype-mcq-13",
-        "hype-mcq-10",
-        "hype-mcq-09",
-        "hype-mcq-08"
+        "hype-mcq-10"
       ],
       "explanation": "本句的「overhyped」指「外界宣傳和稱讚高於其實際品質或價值所值得的」。",
       "sentenceIndex": 25,
@@ -1079,12 +875,8 @@ export default {
         "overhyped"
       ],
       "optionReasons": {
-        "hype-mcq-12": "本句指「外界宣傳和稱讚高於其實際品質或價值所值得的」。",
-        "hype-mcq-11": "「對某件事作超過其實際價值所值得的宣傳或吹捧」與本句語境不同。",
-        "hype-mcq-13": "「非正式：熱衷追逐被炒熱的潮牌、球鞋和限量時尚產品的人」與本句語境不同。",
-        "hype-mcq-10": "「非正式：對即將發生的事非常興奮和期待的」與本句語境不同。",
-        "hype-mcq-09": "「受到大量宣傳和討論、因此具有很高話題度的」與本句語境不同。",
-        "hype-mcq-08": "「透過大量宣傳或讚美提高公眾興奮感和期待」與本句語境不同。"
+        "hype-mcq-12": "本句的「overhyped」指「外界宣傳和稱讚高於其實際品質或價值所值得的」。",
+        "hype-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-12"
     },
@@ -1096,11 +888,7 @@ export default {
       "masked": "The product is expensive and slightly ____.",
       "options": [
         "hype-mcq-12",
-        "hype-mcq-11",
-        "hype-mcq-13",
-        "hype-mcq-10",
-        "hype-mcq-09",
-        "hype-mcq-08"
+        "hype-mcq-10"
       ],
       "explanation": "本句的「overhyped」指「外界宣傳和稱讚高於其實際品質或價值所值得的」。",
       "sentenceIndex": 26,
@@ -1109,12 +897,8 @@ export default {
         "overhyped"
       ],
       "optionReasons": {
-        "hype-mcq-12": "本句指「外界宣傳和稱讚高於其實際品質或價值所值得的」。",
-        "hype-mcq-11": "「對某件事作超過其實際價值所值得的宣傳或吹捧」與本句語境不同。",
-        "hype-mcq-13": "「非正式：熱衷追逐被炒熱的潮牌、球鞋和限量時尚產品的人」與本句語境不同。",
-        "hype-mcq-10": "「非正式：對即將發生的事非常興奮和期待的」與本句語境不同。",
-        "hype-mcq-09": "「受到大量宣傳和討論、因此具有很高話題度的」與本句語境不同。",
-        "hype-mcq-08": "「透過大量宣傳或讚美提高公眾興奮感和期待」與本句語境不同。"
+        "hype-mcq-12": "本句的「overhyped」指「外界宣傳和稱讚高於其實際品質或價值所值得的」。",
+        "hype-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hype-mcq-12"
     }
@@ -1126,5 +910,16 @@ export default {
     "sha256": "4bc0af2315d844947580f7dd926c7de5600cae92738cf58797ab8662d0f071a6",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-duration",
+      "title": "某件事持續的一段時間"
+    },
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

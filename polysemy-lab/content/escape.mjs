@@ -415,11 +415,9 @@ export default {
       "masked": "The family managed to ____ the burning building.",
       "options": [
         "escape-mcq-01",
-        "escape-mcq-02",
-        "escape-mcq-03",
-        "escape-mcq-04",
-        "escape-mcq-05",
-        "escape-mcq-06"
+        "escape-mcq-16",
+        "escape-mcq-17",
+        "escape-mcq-18"
       ],
       "explanation": "本句的「escape from」指「成功離開原本被困、受控制或存在危險的地方／處境」。",
       "sentenceIndex": 0,
@@ -428,12 +426,10 @@ export default {
         "escape from"
       ],
       "optionReasons": {
-        "escape-mcq-01": "本句指「成功離開原本被困、受控制或存在危險的地方／處境」。",
-        "escape-mcq-02": "「成功擺脫限制、追捕或危險並離開」是「escape — get away」的用法，與本句語境不同。",
-        "escape-mcq-03": "「成功避免遭遇原本可能發生的傷害、危險或懲罰」是「escape injury/punishment」的用法，與本句語境不同。",
-        "escape-mcq-04": "「某事存在，但沒有被別人注意或偵測出來」是「escape notice/detection」的用法，與本句語境不同。",
-        "escape-mcq-05": "「某項資料原本可能知道，但當下就是想不起來」是「something escapes someone」的用法，與本句語境不同。",
-        "escape-mcq-06": "「氣體、液體等從封閉地方意外洩漏或逸出」是「gas/liquid escapes」的用法，與本句語境不同。"
+        "escape-mcq-01": "本句的「escape from」指「成功離開原本被困、受控制或存在危險的地方／處境」。",
+        "escape-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-01"
     },
@@ -445,11 +441,8 @@ export default {
       "masked": "The prisoner tried to ____ custody.",
       "options": [
         "escape-mcq-01",
-        "escape-mcq-02",
-        "escape-mcq-03",
-        "escape-mcq-04",
-        "escape-mcq-05",
-        "escape-mcq-06"
+        "escape-mcq-15",
+        "escape-mcq-18"
       ],
       "explanation": "本句的「escape from」指「成功離開原本被困、受控制或存在危險的地方／處境」。",
       "sentenceIndex": 1,
@@ -458,12 +451,9 @@ export default {
         "escape from"
       ],
       "optionReasons": {
-        "escape-mcq-01": "本句指「成功離開原本被困、受控制或存在危險的地方／處境」。",
-        "escape-mcq-02": "「成功擺脫限制、追捕或危險並離開」是「escape — get away」的用法，與本句語境不同。",
-        "escape-mcq-03": "「成功避免遭遇原本可能發生的傷害、危險或懲罰」是「escape injury/punishment」的用法，與本句語境不同。",
-        "escape-mcq-04": "「某事存在，但沒有被別人注意或偵測出來」是「escape notice/detection」的用法，與本句語境不同。",
-        "escape-mcq-05": "「某項資料原本可能知道，但當下就是想不起來」是「something escapes someone」的用法，與本句語境不同。",
-        "escape-mcq-06": "「氣體、液體等從封閉地方意外洩漏或逸出」是「gas/liquid escapes」的用法，與本句語境不同。"
+        "escape-mcq-01": "本句的「escape from」指「成功離開原本被困、受控制或存在危險的地方／處境」。",
+        "escape-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-01"
     },
@@ -475,11 +465,9 @@ export default {
       "masked": "Two prisoners ____ during the night.",
       "options": [
         "escape-mcq-02",
-        "escape-mcq-01",
-        "escape-mcq-03",
-        "escape-mcq-04",
-        "escape-mcq-05",
-        "escape-mcq-06"
+        "escape-mcq-16",
+        "escape-mcq-06",
+        "escape-mcq-04"
       ],
       "explanation": "本句的「escaped」指「成功擺脫限制、追捕或危險並離開」。",
       "sentenceIndex": 0,
@@ -488,12 +476,10 @@ export default {
         "escaped"
       ],
       "optionReasons": {
-        "escape-mcq-02": "本句指「成功擺脫限制、追捕或危險並離開」。",
-        "escape-mcq-01": "「成功離開原本被困、受控制或存在危險的地方／處境」是「escape from danger/place」的用法，與本句語境不同。",
-        "escape-mcq-03": "「成功避免遭遇原本可能發生的傷害、危險或懲罰」是「escape injury/punishment」的用法，與本句語境不同。",
-        "escape-mcq-04": "「某事存在，但沒有被別人注意或偵測出來」是「escape notice/detection」的用法，與本句語境不同。",
-        "escape-mcq-05": "「某項資料原本可能知道，但當下就是想不起來」是「something escapes someone」的用法，與本句語境不同。",
-        "escape-mcq-06": "「氣體、液體等從封閉地方意外洩漏或逸出」是「gas/liquid escapes」的用法，與本句語境不同。"
+        "escape-mcq-02": "本句的「escaped」指「成功擺脫限制、追捕或危險並離開」。",
+        "escape-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-02"
     },
@@ -505,11 +491,9 @@ export default {
       "masked": "The driver ____ before the police arrived.",
       "options": [
         "escape-mcq-02",
-        "escape-mcq-01",
-        "escape-mcq-03",
-        "escape-mcq-04",
-        "escape-mcq-05",
-        "escape-mcq-06"
+        "escape-mcq-06",
+        "escape-mcq-17",
+        "escape-mcq-16"
       ],
       "explanation": "本句的「escaped」指「成功擺脫限制、追捕或危險並離開」。",
       "sentenceIndex": 1,
@@ -518,12 +502,10 @@ export default {
         "escaped"
       ],
       "optionReasons": {
-        "escape-mcq-02": "本句指「成功擺脫限制、追捕或危險並離開」。",
-        "escape-mcq-01": "「成功離開原本被困、受控制或存在危險的地方／處境」是「escape from danger/place」的用法，與本句語境不同。",
-        "escape-mcq-03": "「成功避免遭遇原本可能發生的傷害、危險或懲罰」是「escape injury/punishment」的用法，與本句語境不同。",
-        "escape-mcq-04": "「某事存在，但沒有被別人注意或偵測出來」是「escape notice/detection」的用法，與本句語境不同。",
-        "escape-mcq-05": "「某項資料原本可能知道，但當下就是想不起來」是「something escapes someone」的用法，與本句語境不同。",
-        "escape-mcq-06": "「氣體、液體等從封閉地方意外洩漏或逸出」是「gas/liquid escapes」的用法，與本句語境不同。"
+        "escape-mcq-02": "本句的「escaped」指「成功擺脫限制、追捕或危險並離開」。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-02"
     },
@@ -535,11 +517,9 @@ export default {
       "masked": "She narrowly ____ in the accident.",
       "options": [
         "escape-mcq-03",
-        "escape-mcq-02",
-        "escape-mcq-04",
-        "escape-mcq-01",
-        "escape-mcq-05",
-        "escape-mcq-06"
+        "escape-mcq-06",
+        "escape-mcq-13",
+        "escape-mcq-17"
       ],
       "explanation": "本句的「escaped injury」指「成功避免遭遇原本可能發生的傷害、危險或懲罰」。",
       "sentenceIndex": 0,
@@ -548,12 +528,10 @@ export default {
         "escaped injury"
       ],
       "optionReasons": {
-        "escape-mcq-03": "本句指「成功避免遭遇原本可能發生的傷害、危險或懲罰」。",
-        "escape-mcq-02": "「成功擺脫限制、追捕或危險並離開」是「escape — get away」的用法，與本句語境不同。",
-        "escape-mcq-04": "「某事存在，但沒有被別人注意或偵測出來」是「escape notice/detection」的用法，與本句語境不同。",
-        "escape-mcq-01": "「成功離開原本被困、受控制或存在危險的地方／處境」是「escape from danger/place」的用法，與本句語境不同。",
-        "escape-mcq-05": "「某項資料原本可能知道，但當下就是想不起來」是「something escapes someone」的用法，與本句語境不同。",
-        "escape-mcq-06": "「氣體、液體等從封閉地方意外洩漏或逸出」是「gas/liquid escapes」的用法，與本句語境不同。"
+        "escape-mcq-03": "本句的「escaped injury」指「成功避免遭遇原本可能發生的傷害、危險或懲罰」。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-03"
     },
@@ -565,11 +543,9 @@ export default {
       "masked": "He cannot expect to ____.",
       "options": [
         "escape-mcq-03",
-        "escape-mcq-02",
-        "escape-mcq-04",
-        "escape-mcq-01",
-        "escape-mcq-05",
-        "escape-mcq-06"
+        "escape-mcq-06",
+        "escape-mcq-09",
+        "escape-mcq-13"
       ],
       "explanation": "本句的「escape punishment」指「成功避免遭遇原本可能發生的傷害、危險或懲罰」。",
       "sentenceIndex": 1,
@@ -578,12 +554,10 @@ export default {
         "escape punishment"
       ],
       "optionReasons": {
-        "escape-mcq-03": "本句指「成功避免遭遇原本可能發生的傷害、危險或懲罰」。",
-        "escape-mcq-02": "「成功擺脫限制、追捕或危險並離開」是「escape — get away」的用法，與本句語境不同。",
-        "escape-mcq-04": "「某事存在，但沒有被別人注意或偵測出來」是「escape notice/detection」的用法，與本句語境不同。",
-        "escape-mcq-01": "「成功離開原本被困、受控制或存在危險的地方／處境」是「escape from danger/place」的用法，與本句語境不同。",
-        "escape-mcq-05": "「某項資料原本可能知道，但當下就是想不起來」是「something escapes someone」的用法，與本句語境不同。",
-        "escape-mcq-06": "「氣體、液體等從封閉地方意外洩漏或逸出」是「gas/liquid escapes」的用法，與本句語境不同。"
+        "escape-mcq-03": "本句的「escape punishment」指「成功避免遭遇原本可能發生的傷害、危險或懲罰」。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-03"
     },
@@ -595,11 +569,9 @@ export default {
       "masked": "The small error ____ everyone’s notice.",
       "options": [
         "escape-mcq-04",
-        "escape-mcq-03",
-        "escape-mcq-05",
-        "escape-mcq-02",
-        "escape-mcq-06",
-        "escape-mcq-01"
+        "escape-mcq-08",
+        "escape-mcq-13",
+        "escape-mcq-18"
       ],
       "explanation": "本句的「escaped」指「某事存在，但沒有被別人注意或偵測出來」。",
       "sentenceIndex": 0,
@@ -608,12 +580,10 @@ export default {
         "escaped"
       ],
       "optionReasons": {
-        "escape-mcq-04": "本句指「某事存在，但沒有被別人注意或偵測出來」。",
-        "escape-mcq-03": "「成功避免遭遇原本可能發生的傷害、危險或懲罰」是「escape injury/punishment」的用法，與本句語境不同。",
-        "escape-mcq-05": "「某項資料原本可能知道，但當下就是想不起來」是「something escapes someone」的用法，與本句語境不同。",
-        "escape-mcq-02": "「成功擺脫限制、追捕或危險並離開」是「escape — get away」的用法，與本句語境不同。",
-        "escape-mcq-06": "「氣體、液體等從封閉地方意外洩漏或逸出」是「gas/liquid escapes」的用法，與本句語境不同。",
-        "escape-mcq-01": "「成功離開原本被困、受控制或存在危險的地方／處境」是「escape from danger/place」的用法，與本句語境不同。"
+        "escape-mcq-04": "本句的「escaped」指「某事存在，但沒有被別人注意或偵測出來」。",
+        "escape-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-04"
     },
@@ -625,11 +595,9 @@ export default {
       "masked": "The problem ____ for several months.",
       "options": [
         "escape-mcq-04",
-        "escape-mcq-03",
-        "escape-mcq-05",
-        "escape-mcq-02",
-        "escape-mcq-06",
-        "escape-mcq-01"
+        "escape-mcq-08",
+        "escape-mcq-13",
+        "escape-mcq-18"
       ],
       "explanation": "本句的「escaped detection」指「某事存在，但沒有被別人注意或偵測出來」。",
       "sentenceIndex": 1,
@@ -638,12 +606,10 @@ export default {
         "escaped detection"
       ],
       "optionReasons": {
-        "escape-mcq-04": "本句指「某事存在，但沒有被別人注意或偵測出來」。",
-        "escape-mcq-03": "「成功避免遭遇原本可能發生的傷害、危險或懲罰」是「escape injury/punishment」的用法，與本句語境不同。",
-        "escape-mcq-05": "「某項資料原本可能知道，但當下就是想不起來」是「something escapes someone」的用法，與本句語境不同。",
-        "escape-mcq-02": "「成功擺脫限制、追捕或危險並離開」是「escape — get away」的用法，與本句語境不同。",
-        "escape-mcq-06": "「氣體、液體等從封閉地方意外洩漏或逸出」是「gas/liquid escapes」的用法，與本句語境不同。",
-        "escape-mcq-01": "「成功離開原本被困、受控制或存在危險的地方／處境」是「escape from danger/place」的用法，與本句語境不同。"
+        "escape-mcq-04": "本句的「escaped detection」指「某事存在，但沒有被別人注意或偵測出來」。",
+        "escape-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-04"
     },
@@ -655,11 +621,9 @@ export default {
       "masked": "His name ____ at the moment.",
       "options": [
         "escape-mcq-05",
-        "escape-mcq-04",
         "escape-mcq-06",
-        "escape-mcq-03",
-        "escape-mcq-07",
-        "escape-mcq-02"
+        "escape-mcq-12",
+        "escape-mcq-08"
       ],
       "explanation": "本句的「escapes me」指「某項資料原本可能知道，但當下就是想不起來」。",
       "sentenceIndex": 0,
@@ -668,12 +632,10 @@ export default {
         "escapes me"
       ],
       "optionReasons": {
-        "escape-mcq-05": "本句指「某項資料原本可能知道，但當下就是想不起來」。",
-        "escape-mcq-04": "「某事存在，但沒有被別人注意或偵測出來」是「escape notice/detection」的用法，與本句語境不同。",
-        "escape-mcq-06": "「氣體、液體等從封閉地方意外洩漏或逸出」是「gas/liquid escapes」的用法，與本句語境不同。",
-        "escape-mcq-03": "「成功避免遭遇原本可能發生的傷害、危險或懲罰」是「escape injury/punishment」的用法，與本句語境不同。",
-        "escape-mcq-07": "「從危險、受困或限制中成功離開的行動／事件」是「an escape — physical」的用法，與本句語境不同。",
-        "escape-mcq-02": "「成功擺脫限制、追捕或危險並離開」是「escape — get away」的用法，與本句語境不同。"
+        "escape-mcq-05": "本句的「escapes me」指「某項資料原本可能知道，但當下就是想不起來」。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-05"
     },
@@ -685,11 +647,9 @@ export default {
       "masked": "The exact date ____.",
       "options": [
         "escape-mcq-05",
-        "escape-mcq-04",
-        "escape-mcq-06",
-        "escape-mcq-03",
-        "escape-mcq-07",
-        "escape-mcq-02"
+        "escape-mcq-18",
+        "escape-mcq-13",
+        "escape-mcq-12"
       ],
       "explanation": "本句的「escaped her」指「某項資料原本可能知道，但當下就是想不起來」。",
       "sentenceIndex": 1,
@@ -698,12 +658,10 @@ export default {
         "escaped her"
       ],
       "optionReasons": {
-        "escape-mcq-05": "本句指「某項資料原本可能知道，但當下就是想不起來」。",
-        "escape-mcq-04": "「某事存在，但沒有被別人注意或偵測出來」是「escape notice/detection」的用法，與本句語境不同。",
-        "escape-mcq-06": "「氣體、液體等從封閉地方意外洩漏或逸出」是「gas/liquid escapes」的用法，與本句語境不同。",
-        "escape-mcq-03": "「成功避免遭遇原本可能發生的傷害、危險或懲罰」是「escape injury/punishment」的用法，與本句語境不同。",
-        "escape-mcq-07": "「從危險、受困或限制中成功離開的行動／事件」是「an escape — physical」的用法，與本句語境不同。",
-        "escape-mcq-02": "「成功擺脫限制、追捕或危險並離開」是「escape — get away」的用法，與本句語境不同。"
+        "escape-mcq-05": "本句的「escaped her」指「某項資料原本可能知道，但當下就是想不起來」。",
+        "escape-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-05"
     },
@@ -715,11 +673,9 @@ export default {
       "masked": "Gas was ____ from the damaged pipe.",
       "options": [
         "escape-mcq-06",
-        "escape-mcq-05",
-        "escape-mcq-07",
-        "escape-mcq-04",
         "escape-mcq-08",
-        "escape-mcq-03"
+        "escape-mcq-13",
+        "escape-mcq-10"
       ],
       "explanation": "本句的「escaping」指「氣體、液體等從封閉地方意外洩漏或逸出」。",
       "sentenceIndex": 0,
@@ -728,12 +684,10 @@ export default {
         "escaping"
       ],
       "optionReasons": {
-        "escape-mcq-06": "本句指「氣體、液體等從封閉地方意外洩漏或逸出」。",
-        "escape-mcq-05": "「某項資料原本可能知道，但當下就是想不起來」是「something escapes someone」的用法，與本句語境不同。",
-        "escape-mcq-07": "「從危險、受困或限制中成功離開的行動／事件」是「an escape — physical」的用法，與本句語境不同。",
-        "escape-mcq-04": "「某事存在，但沒有被別人注意或偵測出來」是「escape notice/detection」的用法，與本句語境不同。",
-        "escape-mcq-08": "「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」是「an escape from stress/routine」的用法，與本句語境不同。",
-        "escape-mcq-03": "「成功避免遭遇原本可能發生的傷害、危險或懲罰」是「escape injury/punishment」的用法，與本句語境不同。"
+        "escape-mcq-06": "本句的「escaping」指「氣體、液體等從封閉地方意外洩漏或逸出」。",
+        "escape-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-06"
     },
@@ -745,11 +699,9 @@ export default {
       "masked": "A little steam ____ when she opened the lid.",
       "options": [
         "escape-mcq-06",
-        "escape-mcq-05",
-        "escape-mcq-07",
-        "escape-mcq-04",
-        "escape-mcq-08",
-        "escape-mcq-03"
+        "escape-mcq-03",
+        "escape-mcq-09",
+        "escape-mcq-18"
       ],
       "explanation": "本句的「escaped」指「氣體、液體等從封閉地方意外洩漏或逸出」。",
       "sentenceIndex": 1,
@@ -758,12 +710,10 @@ export default {
         "escaped"
       ],
       "optionReasons": {
-        "escape-mcq-06": "本句指「氣體、液體等從封閉地方意外洩漏或逸出」。",
-        "escape-mcq-05": "「某項資料原本可能知道，但當下就是想不起來」是「something escapes someone」的用法，與本句語境不同。",
-        "escape-mcq-07": "「從危險、受困或限制中成功離開的行動／事件」是「an escape — physical」的用法，與本句語境不同。",
-        "escape-mcq-04": "「某事存在，但沒有被別人注意或偵測出來」是「escape notice/detection」的用法，與本句語境不同。",
-        "escape-mcq-08": "「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」是「an escape from stress/routine」的用法，與本句語境不同。",
-        "escape-mcq-03": "「成功避免遭遇原本可能發生的傷害、危險或懲罰」是「escape injury/punishment」的用法，與本句語境不同。"
+        "escape-mcq-06": "本句的「escaped」指「氣體、液體等從封閉地方意外洩漏或逸出」。",
+        "escape-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-06"
     },
@@ -776,10 +726,8 @@ export default {
       "options": [
         "escape-mcq-07",
         "escape-mcq-06",
-        "escape-mcq-08",
-        "escape-mcq-05",
-        "escape-mcq-09",
-        "escape-mcq-04"
+        "escape-mcq-04",
+        "escape-mcq-16"
       ],
       "explanation": "本句的「escape」指「從危險、受困或限制中成功離開的行動／事件」。",
       "sentenceIndex": 0,
@@ -788,12 +736,10 @@ export default {
         "escape"
       ],
       "optionReasons": {
-        "escape-mcq-07": "本句指「從危險、受困或限制中成功離開的行動／事件」。",
-        "escape-mcq-06": "「氣體、液體等從封閉地方意外洩漏或逸出」是「gas/liquid escapes」的用法，與本句語境不同。",
-        "escape-mcq-08": "「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」是「an escape from stress/routine」的用法，與本句語境不同。",
-        "escape-mcq-05": "「某項資料原本可能知道，但當下就是想不起來」是「something escapes someone」的用法，與本句語境不同。",
-        "escape-mcq-09": "「用來暫時忘記現實壓力、獲得心理放鬆的活動」是「escape — recreation」的用法，與本句語境不同。",
-        "escape-mcq-04": "「某事存在，但沒有被別人注意或偵測出來」是「escape notice/detection」的用法，與本句語境不同。"
+        "escape-mcq-07": "本句的「escape」指「從危險、受困或限制中成功離開的行動／事件」。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-07"
     },
@@ -805,11 +751,9 @@ export default {
       "masked": "Their ____ from the building took only a few minutes.",
       "options": [
         "escape-mcq-07",
-        "escape-mcq-06",
-        "escape-mcq-08",
-        "escape-mcq-05",
-        "escape-mcq-09",
-        "escape-mcq-04"
+        "escape-mcq-16",
+        "escape-mcq-04",
+        "escape-mcq-06"
       ],
       "explanation": "本句的「escape」指「從危險、受困或限制中成功離開的行動／事件」。",
       "sentenceIndex": 1,
@@ -818,12 +762,10 @@ export default {
         "escape"
       ],
       "optionReasons": {
-        "escape-mcq-07": "本句指「從危險、受困或限制中成功離開的行動／事件」。",
-        "escape-mcq-06": "「氣體、液體等從封閉地方意外洩漏或逸出」是「gas/liquid escapes」的用法，與本句語境不同。",
-        "escape-mcq-08": "「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」是「an escape from stress/routine」的用法，與本句語境不同。",
-        "escape-mcq-05": "「某項資料原本可能知道，但當下就是想不起來」是「something escapes someone」的用法，與本句語境不同。",
-        "escape-mcq-09": "「用來暫時忘記現實壓力、獲得心理放鬆的活動」是「escape — recreation」的用法，與本句語境不同。",
-        "escape-mcq-04": "「某事存在，但沒有被別人注意或偵測出來」是「escape notice/detection」的用法，與本句語境不同。"
+        "escape-mcq-07": "本句的「escape」指「從危險、受困或限制中成功離開的行動／事件」。",
+        "escape-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-07"
     },
@@ -835,11 +777,9 @@ export default {
       "masked": "The headphones seemed like a small ____ from everyday chaos.",
       "options": [
         "escape-mcq-08",
-        "escape-mcq-07",
-        "escape-mcq-09",
-        "escape-mcq-06",
         "escape-mcq-10",
-        "escape-mcq-05"
+        "escape-mcq-17",
+        "escape-mcq-04"
       ],
       "explanation": "本句的「escape」指「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」。",
       "sentenceIndex": 0,
@@ -848,12 +788,10 @@ export default {
         "escape"
       ],
       "optionReasons": {
-        "escape-mcq-08": "本句指「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」。",
-        "escape-mcq-07": "「從危險、受困或限制中成功離開的行動／事件」是「an escape — physical」的用法，與本句語境不同。",
-        "escape-mcq-09": "「用來暫時忘記現實壓力、獲得心理放鬆的活動」是「escape — recreation」的用法，與本句語境不同。",
-        "escape-mcq-06": "「氣體、液體等從封閉地方意外洩漏或逸出」是「gas/liquid escapes」的用法，與本句語境不同。",
-        "escape-mcq-10": "「非常接近遭遇危險或事故，但最後僥倖避過」是「narrow escape」的用法，與本句語境不同。",
-        "escape-mcq-05": "「某項資料原本可能知道，但當下就是想不起來」是「something escapes someone」的用法，與本句語境不同。"
+        "escape-mcq-08": "本句的「escape」指「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」。",
+        "escape-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-08"
     },
@@ -865,11 +803,9 @@ export default {
       "masked": "Reading gives her an ____ the pressures of work.",
       "options": [
         "escape-mcq-08",
-        "escape-mcq-07",
-        "escape-mcq-09",
-        "escape-mcq-06",
+        "escape-mcq-13",
         "escape-mcq-10",
-        "escape-mcq-05"
+        "escape-mcq-04"
       ],
       "explanation": "本句的「escape from」指「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」。",
       "sentenceIndex": 1,
@@ -878,12 +814,10 @@ export default {
         "escape from"
       ],
       "optionReasons": {
-        "escape-mcq-08": "本句指「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」。",
-        "escape-mcq-07": "「從危險、受困或限制中成功離開的行動／事件」是「an escape — physical」的用法，與本句語境不同。",
-        "escape-mcq-09": "「用來暫時忘記現實壓力、獲得心理放鬆的活動」是「escape — recreation」的用法，與本句語境不同。",
-        "escape-mcq-06": "「氣體、液體等從封閉地方意外洩漏或逸出」是「gas/liquid escapes」的用法，與本句語境不同。",
-        "escape-mcq-10": "「非常接近遭遇危險或事故，但最後僥倖避過」是「narrow escape」的用法，與本句語境不同。",
-        "escape-mcq-05": "「某項資料原本可能知道，但當下就是想不起來」是「something escapes someone」的用法，與本句語境不同。"
+        "escape-mcq-08": "本句的「escape from」指「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」。",
+        "escape-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-08"
     },
@@ -895,11 +829,9 @@ export default {
       "masked": "The weekend trip was a welcome ____ routine.",
       "options": [
         "escape-mcq-08",
-        "escape-mcq-07",
-        "escape-mcq-09",
-        "escape-mcq-06",
-        "escape-mcq-10",
-        "escape-mcq-05"
+        "escape-mcq-04",
+        "escape-mcq-05",
+        "escape-mcq-06"
       ],
       "explanation": "本句的「escape from」指「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」。",
       "sentenceIndex": 2,
@@ -908,12 +840,10 @@ export default {
         "escape from"
       ],
       "optionReasons": {
-        "escape-mcq-08": "本句指「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」。",
-        "escape-mcq-07": "「從危險、受困或限制中成功離開的行動／事件」是「an escape — physical」的用法，與本句語境不同。",
-        "escape-mcq-09": "「用來暫時忘記現實壓力、獲得心理放鬆的活動」是「escape — recreation」的用法，與本句語境不同。",
-        "escape-mcq-06": "「氣體、液體等從封閉地方意外洩漏或逸出」是「gas/liquid escapes」的用法，與本句語境不同。",
-        "escape-mcq-10": "「非常接近遭遇危險或事故，但最後僥倖避過」是「narrow escape」的用法，與本句語境不同。",
-        "escape-mcq-05": "「某項資料原本可能知道，但當下就是想不起來」是「something escapes someone」的用法，與本句語境不同。"
+        "escape-mcq-08": "本句的「escape from」指「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」。",
+        "escape-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-08"
     },
@@ -925,11 +855,9 @@ export default {
       "masked": "Music became his main ____ during a difficult year.",
       "options": [
         "escape-mcq-09",
-        "escape-mcq-08",
+        "escape-mcq-06",
         "escape-mcq-10",
-        "escape-mcq-07",
-        "escape-mcq-11",
-        "escape-mcq-06"
+        "escape-mcq-12"
       ],
       "explanation": "本句的「escape」指「用來暫時忘記現實壓力、獲得心理放鬆的活動」。",
       "sentenceIndex": 0,
@@ -938,12 +866,10 @@ export default {
         "escape"
       ],
       "optionReasons": {
-        "escape-mcq-09": "本句指「用來暫時忘記現實壓力、獲得心理放鬆的活動」。",
-        "escape-mcq-08": "「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」是「an escape from stress/routine」的用法，與本句語境不同。",
-        "escape-mcq-10": "「非常接近遭遇危險或事故，但最後僥倖避過」是「narrow escape」的用法，與本句語境不同。",
-        "escape-mcq-07": "「從危險、受困或限制中成功離開的行動／事件」是「an escape — physical」的用法，與本句語境不同。",
-        "escape-mcq-11": "「危險或緊急情況下供人離開某地的安全路線」是「escape route」的用法，與本句語境不同。",
-        "escape-mcq-06": "「氣體、液體等從封閉地方意外洩漏或逸出」是「gas/liquid escapes」的用法，與本句語境不同。"
+        "escape-mcq-09": "本句的「escape」指「用來暫時忘記現實壓力、獲得心理放鬆的活動」。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-09"
     },
@@ -955,11 +881,9 @@ export default {
       "masked": "For many people, gaming provides an ____.",
       "options": [
         "escape-mcq-09",
-        "escape-mcq-08",
-        "escape-mcq-10",
-        "escape-mcq-07",
-        "escape-mcq-11",
-        "escape-mcq-06"
+        "escape-mcq-13",
+        "escape-mcq-03",
+        "escape-mcq-12"
       ],
       "explanation": "本句的「escape」指「用來暫時忘記現實壓力、獲得心理放鬆的活動」。",
       "sentenceIndex": 1,
@@ -968,12 +892,10 @@ export default {
         "escape"
       ],
       "optionReasons": {
-        "escape-mcq-09": "本句指「用來暫時忘記現實壓力、獲得心理放鬆的活動」。",
-        "escape-mcq-08": "「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」是「an escape from stress/routine」的用法，與本句語境不同。",
-        "escape-mcq-10": "「非常接近遭遇危險或事故，但最後僥倖避過」是「narrow escape」的用法，與本句語境不同。",
-        "escape-mcq-07": "「從危險、受困或限制中成功離開的行動／事件」是「an escape — physical」的用法，與本句語境不同。",
-        "escape-mcq-11": "「危險或緊急情況下供人離開某地的安全路線」是「escape route」的用法，與本句語境不同。",
-        "escape-mcq-06": "「氣體、液體等從封閉地方意外洩漏或逸出」是「gas/liquid escapes」的用法，與本句語境不同。"
+        "escape-mcq-09": "本句的「escape」指「用來暫時忘記現實壓力、獲得心理放鬆的活動」。",
+        "escape-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-09"
     },
@@ -985,11 +907,9 @@ export default {
       "masked": "That was a ____.",
       "options": [
         "escape-mcq-10",
-        "escape-mcq-09",
-        "escape-mcq-11",
-        "escape-mcq-08",
-        "escape-mcq-12",
-        "escape-mcq-07"
+        "escape-mcq-13",
+        "escape-mcq-06",
+        "escape-mcq-12"
       ],
       "explanation": "本句的「narrow escape」指「非常接近遭遇危險或事故，但最後僥倖避過」。",
       "sentenceIndex": 0,
@@ -998,12 +918,10 @@ export default {
         "narrow escape"
       ],
       "optionReasons": {
-        "escape-mcq-10": "本句指「非常接近遭遇危險或事故，但最後僥倖避過」。",
-        "escape-mcq-09": "「用來暫時忘記現實壓力、獲得心理放鬆的活動」是「escape — recreation」的用法，與本句語境不同。",
-        "escape-mcq-11": "「危險或緊急情況下供人離開某地的安全路線」是「escape route」的用法，與本句語境不同。",
-        "escape-mcq-08": "「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」是「an escape from stress/routine」的用法，與本句語境不同。",
-        "escape-mcq-12": "「火警等緊急情況下供人離開建築物的專用逃生設施」是「fire escape」的用法，與本句語境不同。",
-        "escape-mcq-07": "「從危險、受困或限制中成功離開的行動／事件」是「an escape — physical」的用法，與本句語境不同。"
+        "escape-mcq-10": "本句的「narrow escape」指「非常接近遭遇危險或事故，但最後僥倖避過」。",
+        "escape-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-10"
     },
@@ -1015,11 +933,9 @@ export default {
       "masked": "They had a ____ when the tree fell beside the car.",
       "options": [
         "escape-mcq-10",
+        "escape-mcq-06",
         "escape-mcq-09",
-        "escape-mcq-11",
-        "escape-mcq-08",
-        "escape-mcq-12",
-        "escape-mcq-07"
+        "escape-mcq-18"
       ],
       "explanation": "本句的「narrow escape」指「非常接近遭遇危險或事故，但最後僥倖避過」。",
       "sentenceIndex": 1,
@@ -1028,12 +944,10 @@ export default {
         "narrow escape"
       ],
       "optionReasons": {
-        "escape-mcq-10": "本句指「非常接近遭遇危險或事故，但最後僥倖避過」。",
-        "escape-mcq-09": "「用來暫時忘記現實壓力、獲得心理放鬆的活動」是「escape — recreation」的用法，與本句語境不同。",
-        "escape-mcq-11": "「危險或緊急情況下供人離開某地的安全路線」是「escape route」的用法，與本句語境不同。",
-        "escape-mcq-08": "「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」是「an escape from stress/routine」的用法，與本句語境不同。",
-        "escape-mcq-12": "「火警等緊急情況下供人離開建築物的專用逃生設施」是「fire escape」的用法，與本句語境不同。",
-        "escape-mcq-07": "「從危險、受困或限制中成功離開的行動／事件」是「an escape — physical」的用法，與本句語境不同。"
+        "escape-mcq-10": "本句的「narrow escape」指「非常接近遭遇危險或事故，但最後僥倖避過」。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-10"
     },
@@ -1045,11 +959,9 @@ export default {
       "masked": "The emergency plan identifies every ____.",
       "options": [
         "escape-mcq-11",
-        "escape-mcq-10",
-        "escape-mcq-12",
-        "escape-mcq-09",
         "escape-mcq-13",
-        "escape-mcq-08"
+        "escape-mcq-09",
+        "escape-mcq-04"
       ],
       "explanation": "本句的「escape route」指「危險或緊急情況下供人離開某地的安全路線」。",
       "sentenceIndex": 0,
@@ -1058,12 +970,10 @@ export default {
         "escape route"
       ],
       "optionReasons": {
-        "escape-mcq-11": "本句指「危險或緊急情況下供人離開某地的安全路線」。",
-        "escape-mcq-10": "「非常接近遭遇危險或事故，但最後僥倖避過」是「narrow escape」的用法，與本句語境不同。",
-        "escape-mcq-12": "「火警等緊急情況下供人離開建築物的專用逃生設施」是「fire escape」的用法，與本句語境不同。",
-        "escape-mcq-09": "「用來暫時忘記現實壓力、獲得心理放鬆的活動」是「escape — recreation」的用法，與本句語境不同。",
-        "escape-mcq-13": "「已從監禁、拘留或其他受控制情況中逃走的人」是「escapee」的用法，與本句語境不同。",
-        "escape-mcq-08": "「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」是「an escape from stress/routine」的用法，與本句語境不同。"
+        "escape-mcq-11": "本句的「escape route」指「危險或緊急情況下供人離開某地的安全路線」。",
+        "escape-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-11"
     },
@@ -1075,11 +985,9 @@ export default {
       "masked": "Never block an ____.",
       "options": [
         "escape-mcq-11",
-        "escape-mcq-10",
-        "escape-mcq-12",
-        "escape-mcq-09",
-        "escape-mcq-13",
-        "escape-mcq-08"
+        "escape-mcq-17",
+        "escape-mcq-06",
+        "escape-mcq-13"
       ],
       "explanation": "本句的「escape route」指「危險或緊急情況下供人離開某地的安全路線」。",
       "sentenceIndex": 1,
@@ -1088,12 +996,10 @@ export default {
         "escape route"
       ],
       "optionReasons": {
-        "escape-mcq-11": "本句指「危險或緊急情況下供人離開某地的安全路線」。",
-        "escape-mcq-10": "「非常接近遭遇危險或事故，但最後僥倖避過」是「narrow escape」的用法，與本句語境不同。",
-        "escape-mcq-12": "「火警等緊急情況下供人離開建築物的專用逃生設施」是「fire escape」的用法，與本句語境不同。",
-        "escape-mcq-09": "「用來暫時忘記現實壓力、獲得心理放鬆的活動」是「escape — recreation」的用法，與本句語境不同。",
-        "escape-mcq-13": "「已從監禁、拘留或其他受控制情況中逃走的人」是「escapee」的用法，與本句語境不同。",
-        "escape-mcq-08": "「暫時從壓力、例行生活或不愉快現實中抽離並得到喘息」是「an escape from stress/routine」的用法，與本句語境不同。"
+        "escape-mcq-11": "本句的「escape route」指「危險或緊急情況下供人離開某地的安全路線」。",
+        "escape-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-11"
     },
@@ -1105,11 +1011,9 @@ export default {
       "masked": "The building has a metal ____ at the back.",
       "options": [
         "escape-mcq-12",
-        "escape-mcq-11",
-        "escape-mcq-13",
-        "escape-mcq-10",
-        "escape-mcq-14",
-        "escape-mcq-09"
+        "escape-mcq-17",
+        "escape-mcq-05",
+        "escape-mcq-04"
       ],
       "explanation": "本句的「fire escape」指「火警等緊急情況下供人離開建築物的專用逃生設施」。",
       "sentenceIndex": 0,
@@ -1118,12 +1022,10 @@ export default {
         "fire escape"
       ],
       "optionReasons": {
-        "escape-mcq-12": "本句指「火警等緊急情況下供人離開建築物的專用逃生設施」。",
-        "escape-mcq-11": "「危險或緊急情況下供人離開某地的安全路線」是「escape route」的用法，與本句語境不同。",
-        "escape-mcq-13": "「已從監禁、拘留或其他受控制情況中逃走的人」是「escapee」的用法，與本句語境不同。",
-        "escape-mcq-10": "「非常接近遭遇危險或事故，但最後僥倖避過」是「narrow escape」的用法，與本句語境不同。",
-        "escape-mcq-14": "「透過幻想或娛樂暫時避開現實問題和壓力的傾向」是「escapism」的用法，與本句語境不同。",
-        "escape-mcq-09": "「用來暫時忘記現實壓力、獲得心理放鬆的活動」是「escape — recreation」的用法，與本句語境不同。"
+        "escape-mcq-12": "本句的「fire escape」指「火警等緊急情況下供人離開建築物的專用逃生設施」。",
+        "escape-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-12"
     },
@@ -1135,11 +1037,9 @@ export default {
       "masked": "Keep the ____ clear at all times.",
       "options": [
         "escape-mcq-12",
-        "escape-mcq-11",
-        "escape-mcq-13",
+        "escape-mcq-15",
         "escape-mcq-10",
-        "escape-mcq-14",
-        "escape-mcq-09"
+        "escape-mcq-04"
       ],
       "explanation": "本句的「fire escape」指「火警等緊急情況下供人離開建築物的專用逃生設施」。",
       "sentenceIndex": 1,
@@ -1148,12 +1048,10 @@ export default {
         "fire escape"
       ],
       "optionReasons": {
-        "escape-mcq-12": "本句指「火警等緊急情況下供人離開建築物的專用逃生設施」。",
-        "escape-mcq-11": "「危險或緊急情況下供人離開某地的安全路線」是「escape route」的用法，與本句語境不同。",
-        "escape-mcq-13": "「已從監禁、拘留或其他受控制情況中逃走的人」是「escapee」的用法，與本句語境不同。",
-        "escape-mcq-10": "「非常接近遭遇危險或事故，但最後僥倖避過」是「narrow escape」的用法，與本句語境不同。",
-        "escape-mcq-14": "「透過幻想或娛樂暫時避開現實問題和壓力的傾向」是「escapism」的用法，與本句語境不同。",
-        "escape-mcq-09": "「用來暫時忘記現實壓力、獲得心理放鬆的活動」是「escape — recreation」的用法，與本句語境不同。"
+        "escape-mcq-12": "本句的「fire escape」指「火警等緊急情況下供人離開建築物的專用逃生設施」。",
+        "escape-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-12"
     },
@@ -1165,11 +1063,9 @@ export default {
       "masked": "Police searched the area for the ____.",
       "options": [
         "escape-mcq-13",
-        "escape-mcq-12",
-        "escape-mcq-14",
         "escape-mcq-11",
-        "escape-mcq-15",
-        "escape-mcq-10"
+        "escape-mcq-14",
+        "escape-mcq-04"
       ],
       "explanation": "本句的「escapee」指「已從監禁、拘留或其他受控制情況中逃走的人」。",
       "sentenceIndex": 0,
@@ -1178,12 +1074,10 @@ export default {
         "escapee"
       ],
       "optionReasons": {
-        "escape-mcq-13": "本句指「已從監禁、拘留或其他受控制情況中逃走的人」。",
-        "escape-mcq-12": "「火警等緊急情況下供人離開建築物的專用逃生設施」是「fire escape」的用法，與本句語境不同。",
-        "escape-mcq-14": "「透過幻想或娛樂暫時避開現實問題和壓力的傾向」是「escapism」的用法，與本句語境不同。",
-        "escape-mcq-11": "「危險或緊急情況下供人離開某地的安全路線」是「escape route」的用法，與本句語境不同。",
-        "escape-mcq-15": "「主要用來讓人暫時忘記日常現實和壓力的」是「escapist — adjective」的用法，與本句語境不同。",
-        "escape-mcq-10": "「非常接近遭遇危險或事故，但最後僥倖避過」是「narrow escape」的用法，與本句語境不同。"
+        "escape-mcq-13": "本句的「escapee」指「已從監禁、拘留或其他受控制情況中逃走的人」。",
+        "escape-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-13"
     },
@@ -1195,11 +1089,9 @@ export default {
       "masked": "The ____ were found several hours later.",
       "options": [
         "escape-mcq-13",
-        "escape-mcq-12",
-        "escape-mcq-14",
-        "escape-mcq-11",
         "escape-mcq-15",
-        "escape-mcq-10"
+        "escape-mcq-10",
+        "escape-mcq-04"
       ],
       "explanation": "本句的「escapees」指「已從監禁、拘留或其他受控制情況中逃走的人」。",
       "sentenceIndex": 1,
@@ -1208,12 +1100,10 @@ export default {
         "escapees"
       ],
       "optionReasons": {
-        "escape-mcq-13": "本句指「已從監禁、拘留或其他受控制情況中逃走的人」。",
-        "escape-mcq-12": "「火警等緊急情況下供人離開建築物的專用逃生設施」是「fire escape」的用法，與本句語境不同。",
-        "escape-mcq-14": "「透過幻想或娛樂暫時避開現實問題和壓力的傾向」是「escapism」的用法，與本句語境不同。",
-        "escape-mcq-11": "「危險或緊急情況下供人離開某地的安全路線」是「escape route」的用法，與本句語境不同。",
-        "escape-mcq-15": "「主要用來讓人暫時忘記日常現實和壓力的」是「escapist — adjective」的用法，與本句語境不同。",
-        "escape-mcq-10": "「非常接近遭遇危險或事故，但最後僥倖避過」是「narrow escape」的用法，與本句語境不同。"
+        "escape-mcq-13": "本句的「escapees」指「已從監禁、拘留或其他受控制情況中逃走的人」。",
+        "escape-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-13"
     },
@@ -1225,11 +1115,9 @@ export default {
       "masked": "For him, films were a form of ____.",
       "options": [
         "escape-mcq-14",
-        "escape-mcq-13",
-        "escape-mcq-15",
-        "escape-mcq-12",
-        "escape-mcq-16",
-        "escape-mcq-11"
+        "escape-mcq-17",
+        "escape-mcq-04",
+        "escape-mcq-06"
       ],
       "explanation": "本句的「escapism」指「透過幻想或娛樂暫時避開現實問題和壓力的傾向」。",
       "sentenceIndex": 0,
@@ -1238,12 +1126,10 @@ export default {
         "escapism"
       ],
       "optionReasons": {
-        "escape-mcq-14": "本句指「透過幻想或娛樂暫時避開現實問題和壓力的傾向」。",
-        "escape-mcq-13": "「已從監禁、拘留或其他受控制情況中逃走的人」是「escapee」的用法，與本句語境不同。",
-        "escape-mcq-15": "「主要用來讓人暫時忘記日常現實和壓力的」是「escapist — adjective」的用法，與本句語境不同。",
-        "escape-mcq-12": "「火警等緊急情況下供人離開建築物的專用逃生設施」是「fire escape」的用法，與本句語境不同。",
-        "escape-mcq-16": "「習慣透過幻想等方式逃避現實問題的人」是「escapist — person」的用法，與本句語境不同。",
-        "escape-mcq-11": "「危險或緊急情況下供人離開某地的安全路線」是「escape route」的用法，與本句語境不同。"
+        "escape-mcq-14": "本句的「escapism」指「透過幻想或娛樂暫時避開現實問題和壓力的傾向」。",
+        "escape-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-14"
     },
@@ -1255,11 +1141,9 @@ export default {
       "masked": "The novel offers pure ____.",
       "options": [
         "escape-mcq-14",
-        "escape-mcq-13",
-        "escape-mcq-15",
-        "escape-mcq-12",
-        "escape-mcq-16",
-        "escape-mcq-11"
+        "escape-mcq-17",
+        "escape-mcq-04",
+        "escape-mcq-06"
       ],
       "explanation": "本句的「escapism」指「透過幻想或娛樂暫時避開現實問題和壓力的傾向」。",
       "sentenceIndex": 1,
@@ -1268,12 +1152,10 @@ export default {
         "escapism"
       ],
       "optionReasons": {
-        "escape-mcq-14": "本句指「透過幻想或娛樂暫時避開現實問題和壓力的傾向」。",
-        "escape-mcq-13": "「已從監禁、拘留或其他受控制情況中逃走的人」是「escapee」的用法，與本句語境不同。",
-        "escape-mcq-15": "「主要用來讓人暫時忘記日常現實和壓力的」是「escapist — adjective」的用法，與本句語境不同。",
-        "escape-mcq-12": "「火警等緊急情況下供人離開建築物的專用逃生設施」是「fire escape」的用法，與本句語境不同。",
-        "escape-mcq-16": "「習慣透過幻想等方式逃避現實問題的人」是「escapist — person」的用法，與本句語境不同。",
-        "escape-mcq-11": "「危險或緊急情況下供人離開某地的安全路線」是「escape route」的用法，與本句語境不同。"
+        "escape-mcq-14": "本句的「escapism」指「透過幻想或娛樂暫時避開現實問題和壓力的傾向」。",
+        "escape-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-14"
     },
@@ -1285,11 +1167,9 @@ export default {
       "masked": "The film is light, entertaining, and deliberately ____.",
       "options": [
         "escape-mcq-15",
-        "escape-mcq-14",
-        "escape-mcq-16",
         "escape-mcq-13",
-        "escape-mcq-17",
-        "escape-mcq-12"
+        "escape-mcq-11",
+        "escape-mcq-06"
       ],
       "explanation": "本句的「escapist」指「主要用來讓人暫時忘記日常現實和壓力的」。",
       "sentenceIndex": 0,
@@ -1298,12 +1178,10 @@ export default {
         "escapist"
       ],
       "optionReasons": {
-        "escape-mcq-15": "本句指「主要用來讓人暫時忘記日常現實和壓力的」。",
-        "escape-mcq-14": "「透過幻想或娛樂暫時避開現實問題和壓力的傾向」是「escapism」的用法，與本句語境不同。",
-        "escape-mcq-16": "「習慣透過幻想等方式逃避現實問題的人」是「escapist — person」的用法，與本句語境不同。",
-        "escape-mcq-13": "「已從監禁、拘留或其他受控制情況中逃走的人」是「escapee」的用法，與本句語境不同。",
-        "escape-mcq-17": "「鍵盤上通常用來取消、退出或中止目前操作的 Esc 鍵」是「Escape key」的用法，與本句語境不同。",
-        "escape-mcq-12": "「火警等緊急情況下供人離開建築物的專用逃生設施」是「fire escape」的用法，與本句語境不同。"
+        "escape-mcq-15": "本句的「escapist」指「主要用來讓人暫時忘記日常現實和壓力的」。",
+        "escape-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-15"
     },
@@ -1315,11 +1193,9 @@ export default {
       "masked": "She enjoys ____ fiction after a stressful day.",
       "options": [
         "escape-mcq-15",
-        "escape-mcq-14",
-        "escape-mcq-16",
-        "escape-mcq-13",
-        "escape-mcq-17",
-        "escape-mcq-12"
+        "escape-mcq-12",
+        "escape-mcq-03",
+        "escape-mcq-06"
       ],
       "explanation": "本句的「escapist」指「主要用來讓人暫時忘記日常現實和壓力的」。",
       "sentenceIndex": 1,
@@ -1328,12 +1204,10 @@ export default {
         "escapist"
       ],
       "optionReasons": {
-        "escape-mcq-15": "本句指「主要用來讓人暫時忘記日常現實和壓力的」。",
-        "escape-mcq-14": "「透過幻想或娛樂暫時避開現實問題和壓力的傾向」是「escapism」的用法，與本句語境不同。",
-        "escape-mcq-16": "「習慣透過幻想等方式逃避現實問題的人」是「escapist — person」的用法，與本句語境不同。",
-        "escape-mcq-13": "「已從監禁、拘留或其他受控制情況中逃走的人」是「escapee」的用法，與本句語境不同。",
-        "escape-mcq-17": "「鍵盤上通常用來取消、退出或中止目前操作的 Esc 鍵」是「Escape key」的用法，與本句語境不同。",
-        "escape-mcq-12": "「火警等緊急情況下供人離開建築物的專用逃生設施」是「fire escape」的用法，與本句語境不同。"
+        "escape-mcq-15": "本句的「escapist」指「主要用來讓人暫時忘記日常現實和壓力的」。",
+        "escape-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-15"
     },
@@ -1345,11 +1219,9 @@ export default {
       "masked": "He was accused of being an ____ rather than facing the problem.",
       "options": [
         "escape-mcq-16",
-        "escape-mcq-15",
         "escape-mcq-17",
-        "escape-mcq-14",
-        "escape-mcq-18",
-        "escape-mcq-13"
+        "escape-mcq-01",
+        "escape-mcq-18"
       ],
       "explanation": "本句的「escapist」指「習慣透過幻想等方式逃避現實問題的人」。",
       "sentenceIndex": 0,
@@ -1358,12 +1230,10 @@ export default {
         "escapist"
       ],
       "optionReasons": {
-        "escape-mcq-16": "本句指「習慣透過幻想等方式逃避現實問題的人」。",
-        "escape-mcq-15": "「主要用來讓人暫時忘記日常現實和壓力的」是「escapist — adjective」的用法，與本句語境不同。",
-        "escape-mcq-17": "「鍵盤上通常用來取消、退出或中止目前操作的 Esc 鍵」是「Escape key」的用法，與本句語境不同。",
-        "escape-mcq-14": "「透過幻想或娛樂暫時避開現實問題和壓力的傾向」是「escapism」的用法，與本句語境不同。",
-        "escape-mcq-18": "「玩家限時解謎並完成「逃離」任務的密室逃脫遊戲」是「escape room」的用法，與本句語境不同。",
-        "escape-mcq-13": "「已從監禁、拘留或其他受控制情況中逃走的人」是「escapee」的用法，與本句語境不同。"
+        "escape-mcq-16": "本句的「escapist」指「習慣透過幻想等方式逃避現實問題的人」。",
+        "escape-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-16"
     },
@@ -1375,11 +1245,9 @@ export default {
       "masked": "Being imaginative does not necessarily make someone an ____.",
       "options": [
         "escape-mcq-16",
-        "escape-mcq-15",
-        "escape-mcq-17",
-        "escape-mcq-14",
-        "escape-mcq-18",
-        "escape-mcq-13"
+        "escape-mcq-04",
+        "escape-mcq-02",
+        "escape-mcq-17"
       ],
       "explanation": "本句的「escapist」指「習慣透過幻想等方式逃避現實問題的人」。",
       "sentenceIndex": 1,
@@ -1388,12 +1256,10 @@ export default {
         "escapist"
       ],
       "optionReasons": {
-        "escape-mcq-16": "本句指「習慣透過幻想等方式逃避現實問題的人」。",
-        "escape-mcq-15": "「主要用來讓人暫時忘記日常現實和壓力的」是「escapist — adjective」的用法，與本句語境不同。",
-        "escape-mcq-17": "「鍵盤上通常用來取消、退出或中止目前操作的 Esc 鍵」是「Escape key」的用法，與本句語境不同。",
-        "escape-mcq-14": "「透過幻想或娛樂暫時避開現實問題和壓力的傾向」是「escapism」的用法，與本句語境不同。",
-        "escape-mcq-18": "「玩家限時解謎並完成「逃離」任務的密室逃脫遊戲」是「escape room」的用法，與本句語境不同。",
-        "escape-mcq-13": "「已從監禁、拘留或其他受控制情況中逃走的人」是「escapee」的用法，與本句語境不同。"
+        "escape-mcq-16": "本句的「escapist」指「習慣透過幻想等方式逃避現實問題的人」。",
+        "escape-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-16"
     },
@@ -1405,11 +1271,9 @@ export default {
       "masked": "Press the ____ to close the menu.",
       "options": [
         "escape-mcq-17",
-        "escape-mcq-16",
-        "escape-mcq-18",
-        "escape-mcq-15",
+        "escape-mcq-02",
         "escape-mcq-14",
-        "escape-mcq-13"
+        "escape-mcq-06"
       ],
       "explanation": "本句的「Escape key」指「鍵盤上通常用來取消、退出或中止目前操作的 Esc 鍵」。",
       "sentenceIndex": 0,
@@ -1418,12 +1282,10 @@ export default {
         "Escape key"
       ],
       "optionReasons": {
-        "escape-mcq-17": "本句指「鍵盤上通常用來取消、退出或中止目前操作的 Esc 鍵」。",
-        "escape-mcq-16": "「習慣透過幻想等方式逃避現實問題的人」是「escapist — person」的用法，與本句語境不同。",
-        "escape-mcq-18": "「玩家限時解謎並完成「逃離」任務的密室逃脫遊戲」是「escape room」的用法，與本句語境不同。",
-        "escape-mcq-15": "「主要用來讓人暫時忘記日常現實和壓力的」是「escapist — adjective」的用法，與本句語境不同。",
-        "escape-mcq-14": "「透過幻想或娛樂暫時避開現實問題和壓力的傾向」是「escapism」的用法，與本句語境不同。",
-        "escape-mcq-13": "「已從監禁、拘留或其他受控制情況中逃走的人」是「escapee」的用法，與本句語境不同。"
+        "escape-mcq-17": "本句的「Escape key」指「鍵盤上通常用來取消、退出或中止目前操作的 Esc 鍵」。",
+        "escape-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-17"
     },
@@ -1435,11 +1297,9 @@ export default {
       "masked": "You can cancel the command by pressing ____.",
       "options": [
         "escape-mcq-17",
-        "escape-mcq-16",
+        "escape-mcq-07",
         "escape-mcq-18",
-        "escape-mcq-15",
-        "escape-mcq-14",
-        "escape-mcq-13"
+        "escape-mcq-14"
       ],
       "explanation": "本句的「Escape」指「鍵盤上通常用來取消、退出或中止目前操作的 Esc 鍵」。",
       "sentenceIndex": 1,
@@ -1448,12 +1308,10 @@ export default {
         "Escape"
       ],
       "optionReasons": {
-        "escape-mcq-17": "本句指「鍵盤上通常用來取消、退出或中止目前操作的 Esc 鍵」。",
-        "escape-mcq-16": "「習慣透過幻想等方式逃避現實問題的人」是「escapist — person」的用法，與本句語境不同。",
-        "escape-mcq-18": "「玩家限時解謎並完成「逃離」任務的密室逃脫遊戲」是「escape room」的用法，與本句語境不同。",
-        "escape-mcq-15": "「主要用來讓人暫時忘記日常現實和壓力的」是「escapist — adjective」的用法，與本句語境不同。",
-        "escape-mcq-14": "「透過幻想或娛樂暫時避開現實問題和壓力的傾向」是「escapism」的用法，與本句語境不同。",
-        "escape-mcq-13": "「已從監禁、拘留或其他受控制情況中逃走的人」是「escapee」的用法，與本句語境不同。"
+        "escape-mcq-17": "本句的「Escape」指「鍵盤上通常用來取消、退出或中止目前操作的 Esc 鍵」。",
+        "escape-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-17"
     },
@@ -1465,11 +1323,9 @@ export default {
       "masked": "We tried an ____ for her birthday.",
       "options": [
         "escape-mcq-18",
-        "escape-mcq-17",
-        "escape-mcq-16",
-        "escape-mcq-15",
-        "escape-mcq-14",
-        "escape-mcq-13"
+        "escape-mcq-10",
+        "escape-mcq-04",
+        "escape-mcq-06"
       ],
       "explanation": "本句的「escape room」指「玩家限時解謎並完成「逃離」任務的密室逃脫遊戲」。",
       "sentenceIndex": 0,
@@ -1478,12 +1334,10 @@ export default {
         "escape room"
       ],
       "optionReasons": {
-        "escape-mcq-18": "本句指「玩家限時解謎並完成「逃離」任務的密室逃脫遊戲」。",
-        "escape-mcq-17": "「鍵盤上通常用來取消、退出或中止目前操作的 Esc 鍵」是「Escape key」的用法，與本句語境不同。",
-        "escape-mcq-16": "「習慣透過幻想等方式逃避現實問題的人」是「escapist — person」的用法，與本句語境不同。",
-        "escape-mcq-15": "「主要用來讓人暫時忘記日常現實和壓力的」是「escapist — adjective」的用法，與本句語境不同。",
-        "escape-mcq-14": "「透過幻想或娛樂暫時避開現實問題和壓力的傾向」是「escapism」的用法，與本句語境不同。",
-        "escape-mcq-13": "「已從監禁、拘留或其他受控制情況中逃走的人」是「escapee」的用法，與本句語境不同。"
+        "escape-mcq-18": "本句的「escape room」指「玩家限時解謎並完成「逃離」任務的密室逃脫遊戲」。",
+        "escape-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-18"
     },
@@ -1495,11 +1349,9 @@ export default {
       "masked": "The ____ was difficult but fun.",
       "options": [
         "escape-mcq-18",
-        "escape-mcq-17",
-        "escape-mcq-16",
-        "escape-mcq-15",
-        "escape-mcq-14",
-        "escape-mcq-13"
+        "escape-mcq-05",
+        "escape-mcq-04",
+        "escape-mcq-06"
       ],
       "explanation": "本句的「escape room」指「玩家限時解謎並完成「逃離」任務的密室逃脫遊戲」。",
       "sentenceIndex": 1,
@@ -1508,12 +1360,10 @@ export default {
         "escape room"
       ],
       "optionReasons": {
-        "escape-mcq-18": "本句指「玩家限時解謎並完成「逃離」任務的密室逃脫遊戲」。",
-        "escape-mcq-17": "「鍵盤上通常用來取消、退出或中止目前操作的 Esc 鍵」是「Escape key」的用法，與本句語境不同。",
-        "escape-mcq-16": "「習慣透過幻想等方式逃避現實問題的人」是「escapist — person」的用法，與本句語境不同。",
-        "escape-mcq-15": "「主要用來讓人暫時忘記日常現實和壓力的」是「escapist — adjective」的用法，與本句語境不同。",
-        "escape-mcq-14": "「透過幻想或娛樂暫時避開現實問題和壓力的傾向」是「escapism」的用法，與本句語境不同。",
-        "escape-mcq-13": "「已從監禁、拘留或其他受控制情況中逃走的人」是「escapee」的用法，與本句語境不同。"
+        "escape-mcq-18": "本句的「escape room」指「玩家限時解謎並完成「逃離」任務的密室逃脫遊戲」。",
+        "escape-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "escape-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "escape-mcq-18"
     }
@@ -1526,5 +1376,7 @@ export default {
     "pages": 15,
     "sha256": "798fbff3bbfb3784c0fe020b0ffdebe5173102e7e26c6ebb386f6dc16c063d15"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

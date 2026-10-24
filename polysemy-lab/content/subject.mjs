@@ -507,7 +507,7 @@ export default {
     },
     {
       "id": "subject-mcq-21",
-      "title": "表示主語；主詞",
+      "title": "主語；主詞",
       "form": "12. subject — grammatical subject",
       "en": "12. subject — grammatical subject",
       "zh": "表示主語；主詞",
@@ -529,7 +529,7 @@ export default {
     },
     {
       "id": "subject-mcq-22",
-      "title": "表示主觀地",
+      "title": "主觀地",
       "form": "23. subjectively",
       "en": "23. subjectively",
       "zh": "表示主觀地",
@@ -559,11 +559,9 @@ export default {
       "masked": "Physics became one of my favourite ____.",
       "options": [
         "subject-mcq-20",
-        "subject-mcq-19",
-        "subject-mcq-21",
-        "subject-mcq-18",
-        "subject-mcq-22",
-        "subject-mcq-17"
+        "subject-mcq-04",
+        "subject-mcq-15",
+        "subject-mcq-19"
       ],
       "explanation": "本句的「subjects」指「科學／理科不是我最擅長的科目」。",
       "sentenceIndex": 0,
@@ -572,12 +570,10 @@ export default {
         "subjects"
       ],
       "optionReasons": {
-        "subject-mcq-20": "本句指「科學／理科不是我最擅長的科目」。",
-        "subject-mcq-19": "「個人觀點與感受對判斷所造成的主觀性」是「subjectivity」的用法，與本句語境不同。",
-        "subject-mcq-21": "「表示主語；主詞」是「12. subject — grammatical subject」的用法，與本句語境不同。",
-        "subject-mcq-18": "「受個人感受、觀點或判斷影響的；主觀的」是「subjective」的用法，與本句語境不同。",
-        "subject-mcq-22": "「表示主觀地」是「23. subjectively」的用法，與本句語境不同。",
-        "subject-mcq-17": "「某作品、課程或討論所處理的主要內容／題材」是「subject matter」的用法，與本句語境不同。"
+        "subject-mcq-20": "本句的「subjects」指「科學／理科不是我最擅長的科目」。",
+        "subject-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-20"
     },
@@ -589,11 +585,9 @@ export default {
       "masked": "Mathematics was always my strongest ____ at school.",
       "options": [
         "subject-mcq-20",
-        "subject-mcq-19",
-        "subject-mcq-21",
-        "subject-mcq-18",
-        "subject-mcq-22",
-        "subject-mcq-17"
+        "subject-mcq-12",
+        "subject-mcq-03",
+        "subject-mcq-14"
       ],
       "explanation": "本句的「subject」指「科學／理科不是我最擅長的科目」。",
       "sentenceIndex": 1,
@@ -602,12 +596,10 @@ export default {
         "subject"
       ],
       "optionReasons": {
-        "subject-mcq-20": "本句指「科學／理科不是我最擅長的科目」。",
-        "subject-mcq-19": "「個人觀點與感受對判斷所造成的主觀性」是「subjectivity」的用法，與本句語境不同。",
-        "subject-mcq-21": "「表示主語；主詞」是「12. subject — grammatical subject」的用法，與本句語境不同。",
-        "subject-mcq-18": "「受個人感受、觀點或判斷影響的；主觀的」是「subjective」的用法，與本句語境不同。",
-        "subject-mcq-22": "「表示主觀地」是「23. subjectively」的用法，與本句語境不同。",
-        "subject-mcq-17": "「某作品、課程或討論所處理的主要內容／題材」是「subject matter」的用法，與本句語境不同。"
+        "subject-mcq-20": "本句的「subject」指「科學／理科不是我最擅長的科目」。",
+        "subject-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-20"
     },
@@ -619,11 +611,9 @@ export default {
       "masked": "English is my favourite ____.",
       "options": [
         "subject-mcq-01",
-        "subject-mcq-02",
-        "subject-mcq-03",
-        "subject-mcq-04",
-        "subject-mcq-05",
-        "subject-mcq-06"
+        "subject-mcq-19",
+        "subject-mcq-14",
+        "subject-mcq-16"
       ],
       "explanation": "本句的「subject」指「在學校、大學等正式學習或教授的一個知識領域；科目／學科」。",
       "sentenceIndex": 2,
@@ -632,12 +622,10 @@ export default {
         "subject"
       ],
       "optionReasons": {
-        "subject-mcq-01": "本句指「在學校、大學等正式學習或教授的一個知識領域；科目／學科」。",
-        "subject-mcq-02": "「學校課程中正式教授的一門科目」是「school subject」的用法，與本句語境不同。",
-        "subject-mcq-03": "「人們正在談論、寫作、思考或研究的主題／話題」是「subject — topic」的用法，與本句語境不同。",
-        "subject-mcq-04": "「書籍、文章、演講等主要討論的內容／題材」是「subject of a book/article」的用法，與本句語境不同。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。"
+        "subject-mcq-01": "本句的「subject」指「在學校、大學等正式學習或教授的一個知識領域；科目／學科」。",
+        "subject-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-01"
     },
@@ -649,11 +637,9 @@ export default {
       "masked": "Which ____ are you taking this year?",
       "options": [
         "subject-mcq-01",
-        "subject-mcq-02",
-        "subject-mcq-03",
-        "subject-mcq-04",
-        "subject-mcq-05",
-        "subject-mcq-06"
+        "subject-mcq-11",
+        "subject-mcq-19",
+        "subject-mcq-09"
       ],
       "explanation": "本句的「subjects」指「在學校、大學等正式學習或教授的一個知識領域；科目／學科」。",
       "sentenceIndex": 3,
@@ -662,12 +648,10 @@ export default {
         "subjects"
       ],
       "optionReasons": {
-        "subject-mcq-01": "本句指「在學校、大學等正式學習或教授的一個知識領域；科目／學科」。",
-        "subject-mcq-02": "「學校課程中正式教授的一門科目」是「school subject」的用法，與本句語境不同。",
-        "subject-mcq-03": "「人們正在談論、寫作、思考或研究的主題／話題」是「subject — topic」的用法，與本句語境不同。",
-        "subject-mcq-04": "「書籍、文章、演講等主要討論的內容／題材」是「subject of a book/article」的用法，與本句語境不同。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。"
+        "subject-mcq-01": "本句的「subjects」指「在學校、大學等正式學習或教授的一個知識領域；科目／學科」。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-01"
     },
@@ -679,11 +663,9 @@ export default {
       "masked": "History is a compulsory ____.",
       "options": [
         "subject-mcq-02",
-        "subject-mcq-01",
-        "subject-mcq-03",
-        "subject-mcq-04",
-        "subject-mcq-05",
-        "subject-mcq-06"
+        "subject-mcq-14",
+        "subject-mcq-19",
+        "subject-mcq-09"
       ],
       "explanation": "本句的「school subject」指「學校課程中正式教授的一門科目」。",
       "sentenceIndex": 4,
@@ -692,12 +674,10 @@ export default {
         "school subject"
       ],
       "optionReasons": {
-        "subject-mcq-02": "本句指「學校課程中正式教授的一門科目」。",
-        "subject-mcq-01": "「在學校、大學等正式學習或教授的一個知識領域；科目／學科」是「subject — school/academic」的用法，與本句語境不同。",
-        "subject-mcq-03": "「人們正在談論、寫作、思考或研究的主題／話題」是「subject — topic」的用法，與本句語境不同。",
-        "subject-mcq-04": "「書籍、文章、演講等主要討論的內容／題材」是「subject of a book/article」的用法，與本句語境不同。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。"
+        "subject-mcq-02": "本句的「school subject」指「學校課程中正式教授的一門科目」。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-02"
     },
@@ -709,11 +689,9 @@ export default {
       "masked": "Science was never my strongest ____.",
       "options": [
         "subject-mcq-02",
-        "subject-mcq-01",
-        "subject-mcq-03",
-        "subject-mcq-04",
-        "subject-mcq-05",
-        "subject-mcq-06"
+        "subject-mcq-18",
+        "subject-mcq-06",
+        "subject-mcq-14"
       ],
       "explanation": "本句的「school subject」指「學校課程中正式教授的一門科目」。",
       "sentenceIndex": 5,
@@ -722,12 +700,10 @@ export default {
         "school subject"
       ],
       "optionReasons": {
-        "subject-mcq-02": "本句指「學校課程中正式教授的一門科目」。",
-        "subject-mcq-01": "「在學校、大學等正式學習或教授的一個知識領域；科目／學科」是「subject — school/academic」的用法，與本句語境不同。",
-        "subject-mcq-03": "「人們正在談論、寫作、思考或研究的主題／話題」是「subject — topic」的用法，與本句語境不同。",
-        "subject-mcq-04": "「書籍、文章、演講等主要討論的內容／題材」是「subject of a book/article」的用法，與本句語境不同。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。"
+        "subject-mcq-02": "本句的「school subject」指「學校課程中正式教授的一門科目」。",
+        "subject-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-02"
     },
@@ -739,11 +715,9 @@ export default {
       "masked": "Physics is a demanding ____.",
       "options": [
         "subject-mcq-02",
-        "subject-mcq-01",
-        "subject-mcq-03",
-        "subject-mcq-04",
-        "subject-mcq-05",
-        "subject-mcq-06"
+        "subject-mcq-07",
+        "subject-mcq-16",
+        "subject-mcq-08"
       ],
       "explanation": "本句的「academic subject」指「學校課程中正式教授的一門科目」。",
       "sentenceIndex": 6,
@@ -752,12 +726,10 @@ export default {
         "academic subject"
       ],
       "optionReasons": {
-        "subject-mcq-02": "本句指「學校課程中正式教授的一門科目」。",
-        "subject-mcq-01": "「在學校、大學等正式學習或教授的一個知識領域；科目／學科」是「subject — school/academic」的用法，與本句語境不同。",
-        "subject-mcq-03": "「人們正在談論、寫作、思考或研究的主題／話題」是「subject — topic」的用法，與本句語境不同。",
-        "subject-mcq-04": "「書籍、文章、演講等主要討論的內容／題材」是「subject of a book/article」的用法，與本句語境不同。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。"
+        "subject-mcq-02": "本句的「academic subject」指「學校課程中正式教授的一門科目」。",
+        "subject-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-02"
     },
@@ -769,11 +741,9 @@ export default {
       "masked": "She has strong knowledge across several ____.",
       "options": [
         "subject-mcq-02",
-        "subject-mcq-01",
-        "subject-mcq-03",
-        "subject-mcq-04",
-        "subject-mcq-05",
-        "subject-mcq-06"
+        "subject-mcq-14",
+        "subject-mcq-18",
+        "subject-mcq-08"
       ],
       "explanation": "本句的「academic subjects」指「學校課程中正式教授的一門科目」。",
       "sentenceIndex": 7,
@@ -782,12 +752,10 @@ export default {
         "academic subjects"
       ],
       "optionReasons": {
-        "subject-mcq-02": "本句指「學校課程中正式教授的一門科目」。",
-        "subject-mcq-01": "「在學校、大學等正式學習或教授的一個知識領域；科目／學科」是「subject — school/academic」的用法，與本句語境不同。",
-        "subject-mcq-03": "「人們正在談論、寫作、思考或研究的主題／話題」是「subject — topic」的用法，與本句語境不同。",
-        "subject-mcq-04": "「書籍、文章、演講等主要討論的內容／題材」是「subject of a book/article」的用法，與本句語境不同。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。"
+        "subject-mcq-02": "本句的「academic subjects」指「學校課程中正式教授的一門科目」。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-02"
     },
@@ -799,11 +767,9 @@ export default {
       "masked": "We changed the ____.",
       "options": [
         "subject-mcq-03",
-        "subject-mcq-02",
-        "subject-mcq-04",
-        "subject-mcq-01",
-        "subject-mcq-05",
-        "subject-mcq-06"
+        "subject-mcq-09",
+        "subject-mcq-20",
+        "subject-mcq-13"
       ],
       "explanation": "本句的「subject」指「人們正在談論、寫作、思考或研究的主題／話題」。",
       "sentenceIndex": 8,
@@ -812,12 +778,10 @@ export default {
         "subject"
       ],
       "optionReasons": {
-        "subject-mcq-03": "本句指「人們正在談論、寫作、思考或研究的主題／話題」。",
-        "subject-mcq-02": "「學校課程中正式教授的一門科目」是「school subject」的用法，與本句語境不同。",
-        "subject-mcq-04": "「書籍、文章、演講等主要討論的內容／題材」是「subject of a book/article」的用法，與本句語境不同。",
-        "subject-mcq-01": "「在學校、大學等正式學習或教授的一個知識領域；科目／學科」是「subject — school/academic」的用法，與本句語境不同。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。"
+        "subject-mcq-03": "本句的「subject」指「人們正在談論、寫作、思考或研究的主題／話題」。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-03"
     },
@@ -829,11 +793,9 @@ export default {
       "masked": "Money can be a difficult ____ to discuss.",
       "options": [
         "subject-mcq-03",
-        "subject-mcq-02",
-        "subject-mcq-04",
-        "subject-mcq-01",
-        "subject-mcq-05",
-        "subject-mcq-06"
+        "subject-mcq-14",
+        "subject-mcq-10",
+        "subject-mcq-11"
       ],
       "explanation": "本句的「subject」指「人們正在談論、寫作、思考或研究的主題／話題」。",
       "sentenceIndex": 9,
@@ -842,12 +804,10 @@ export default {
         "subject"
       ],
       "optionReasons": {
-        "subject-mcq-03": "本句指「人們正在談論、寫作、思考或研究的主題／話題」。",
-        "subject-mcq-02": "「學校課程中正式教授的一門科目」是「school subject」的用法，與本句語境不同。",
-        "subject-mcq-04": "「書籍、文章、演講等主要討論的內容／題材」是「subject of a book/article」的用法，與本句語境不同。",
-        "subject-mcq-01": "「在學校、大學等正式學習或教授的一個知識領域；科目／學科」是「subject — school/academic」的用法，與本句語境不同。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。"
+        "subject-mcq-03": "本句的「subject」指「人們正在談論、寫作、思考或研究的主題／話題」。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-03"
     },
@@ -859,11 +819,9 @@ export default {
       "masked": "Climate change was the main ____.",
       "options": [
         "subject-mcq-04",
-        "subject-mcq-03",
-        "subject-mcq-05",
-        "subject-mcq-02",
-        "subject-mcq-06",
-        "subject-mcq-01"
+        "subject-mcq-20",
+        "subject-mcq-11",
+        "subject-mcq-05"
       ],
       "explanation": "本句的「subject of discussion」指「書籍、文章、演講等主要討論的內容／題材」。",
       "sentenceIndex": 10,
@@ -872,12 +830,10 @@ export default {
         "subject of discussion"
       ],
       "optionReasons": {
-        "subject-mcq-04": "本句指「書籍、文章、演講等主要討論的內容／題材」。",
-        "subject-mcq-03": "「人們正在談論、寫作、思考或研究的主題／話題」是「subject — topic」的用法，與本句語境不同。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。",
-        "subject-mcq-02": "「學校課程中正式教授的一門科目」是「school subject」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。",
-        "subject-mcq-01": "「在學校、大學等正式學習或教授的一個知識領域；科目／學科」是「subject — school/academic」的用法，與本句語境不同。"
+        "subject-mcq-04": "本句的「subject of discussion」指「書籍、文章、演講等主要討論的內容／題材」。",
+        "subject-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-04"
     },
@@ -889,11 +845,9 @@ export default {
       "masked": "The conversation moved to a different ____.",
       "options": [
         "subject-mcq-04",
-        "subject-mcq-03",
         "subject-mcq-05",
-        "subject-mcq-02",
-        "subject-mcq-06",
-        "subject-mcq-01"
+        "subject-mcq-09",
+        "subject-mcq-11"
       ],
       "explanation": "本句的「subject」指「書籍、文章、演講等主要討論的內容／題材」。",
       "sentenceIndex": 11,
@@ -902,12 +856,10 @@ export default {
         "subject"
       ],
       "optionReasons": {
-        "subject-mcq-04": "本句指「書籍、文章、演講等主要討論的內容／題材」。",
-        "subject-mcq-03": "「人們正在談論、寫作、思考或研究的主題／話題」是「subject — topic」的用法，與本句語境不同。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。",
-        "subject-mcq-02": "「學校課程中正式教授的一門科目」是「school subject」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。",
-        "subject-mcq-01": "「在學校、大學等正式學習或教授的一個知識領域；科目／學科」是「subject — school/academic」的用法，與本句語境不同。"
+        "subject-mcq-04": "本句的「subject」指「書籍、文章、演講等主要討論的內容／題材」。",
+        "subject-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-04"
     },
@@ -919,11 +871,9 @@ export default {
       "masked": "The ____ is human memory.",
       "options": [
         "subject-mcq-04",
-        "subject-mcq-03",
-        "subject-mcq-05",
+        "subject-mcq-09",
         "subject-mcq-02",
-        "subject-mcq-06",
-        "subject-mcq-01"
+        "subject-mcq-11"
       ],
       "explanation": "本句的「subject of the book」指「書籍、文章、演講等主要討論的內容／題材」。",
       "sentenceIndex": 12,
@@ -932,12 +882,10 @@ export default {
         "subject of the book"
       ],
       "optionReasons": {
-        "subject-mcq-04": "本句指「書籍、文章、演講等主要討論的內容／題材」。",
-        "subject-mcq-03": "「人們正在談論、寫作、思考或研究的主題／話題」是「subject — topic」的用法，與本句語境不同。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。",
-        "subject-mcq-02": "「學校課程中正式教授的一門科目」是「school subject」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。",
-        "subject-mcq-01": "「在學校、大學等正式學習或教授的一個知識領域；科目／學科」是「subject — school/academic」的用法，與本句語境不同。"
+        "subject-mcq-04": "本句的「subject of the book」指「書籍、文章、演講等主要討論的內容／題材」。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-04"
     },
@@ -949,11 +897,9 @@ export default {
       "masked": "Her speech dealt with the ____.",
       "options": [
         "subject-mcq-04",
-        "subject-mcq-03",
-        "subject-mcq-05",
+        "subject-mcq-09",
         "subject-mcq-02",
-        "subject-mcq-06",
-        "subject-mcq-01"
+        "subject-mcq-11"
       ],
       "explanation": "本句的「subject of education」指「書籍、文章、演講等主要討論的內容／題材」。",
       "sentenceIndex": 13,
@@ -962,12 +908,10 @@ export default {
         "subject of education"
       ],
       "optionReasons": {
-        "subject-mcq-04": "本句指「書籍、文章、演講等主要討論的內容／題材」。",
-        "subject-mcq-03": "「人們正在談論、寫作、思考或研究的主題／話題」是「subject — topic」的用法，與本句語境不同。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。",
-        "subject-mcq-02": "「學校課程中正式教授的一門科目」是「school subject」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。",
-        "subject-mcq-01": "「在學校、大學等正式學習或教授的一個知識領域；科目／學科」是「subject — school/academic」的用法，與本句語境不同。"
+        "subject-mcq-04": "本句的「subject of education」指「書籍、文章、演講等主要討論的內容／題材」。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-04"
     },
@@ -979,11 +923,9 @@ export default {
       "masked": "The study involved fifty ____.",
       "options": [
         "subject-mcq-05",
-        "subject-mcq-04",
-        "subject-mcq-06",
-        "subject-mcq-03",
-        "subject-mcq-07",
-        "subject-mcq-02"
+        "subject-mcq-21",
+        "subject-mcq-20",
+        "subject-mcq-11"
       ],
       "explanation": "本句的「subjects」指「在實驗或研究中被觀察、測試或研究的人；受試者」。",
       "sentenceIndex": 14,
@@ -992,12 +934,10 @@ export default {
         "subjects"
       ],
       "optionReasons": {
-        "subject-mcq-05": "本句指「在實驗或研究中被觀察、測試或研究的人；受試者」。",
-        "subject-mcq-04": "「書籍、文章、演講等主要討論的內容／題材」是「subject of a book/article」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。",
-        "subject-mcq-03": "「人們正在談論、寫作、思考或研究的主題／話題」是「subject — topic」的用法，與本句語境不同。",
-        "subject-mcq-07": "「受君主統治並效忠於其權威的人；臣民」是「subject — monarch’s citizen」的用法，與本句語境不同。",
-        "subject-mcq-02": "「學校課程中正式教授的一門科目」是「school subject」的用法，與本句語境不同。"
+        "subject-mcq-05": "本句的「subjects」指「在實驗或研究中被觀察、測試或研究的人；受試者」。",
+        "subject-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-05"
     },
@@ -1009,11 +949,9 @@ export default {
       "masked": "Each ____ completed the same task.",
       "options": [
         "subject-mcq-05",
-        "subject-mcq-04",
+        "subject-mcq-15",
         "subject-mcq-06",
-        "subject-mcq-03",
-        "subject-mcq-07",
-        "subject-mcq-02"
+        "subject-mcq-20"
       ],
       "explanation": "本句的「subject」指「在實驗或研究中被觀察、測試或研究的人；受試者」。",
       "sentenceIndex": 15,
@@ -1022,12 +960,10 @@ export default {
         "subject"
       ],
       "optionReasons": {
-        "subject-mcq-05": "本句指「在實驗或研究中被觀察、測試或研究的人；受試者」。",
-        "subject-mcq-04": "「書籍、文章、演講等主要討論的內容／題材」是「subject of a book/article」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。",
-        "subject-mcq-03": "「人們正在談論、寫作、思考或研究的主題／話題」是「subject — topic」的用法，與本句語境不同。",
-        "subject-mcq-07": "「受君主統治並效忠於其權威的人；臣民」是「subject — monarch’s citizen」的用法，與本句語境不同。",
-        "subject-mcq-02": "「學校課程中正式教授的一門科目」是「school subject」的用法，與本句語境不同。"
+        "subject-mcq-05": "本句的「subject」指「在實驗或研究中被觀察、測試或研究的人；受試者」。",
+        "subject-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-05"
     },
@@ -1039,11 +975,9 @@ export default {
       "masked": "The ____ were divided into two groups.",
       "options": [
         "subject-mcq-05",
-        "subject-mcq-04",
-        "subject-mcq-06",
-        "subject-mcq-03",
-        "subject-mcq-07",
-        "subject-mcq-02"
+        "subject-mcq-16",
+        "subject-mcq-09",
+        "subject-mcq-20"
       ],
       "explanation": "本句的「experimental subjects」指「在實驗或研究中被觀察、測試或研究的人；受試者」。",
       "sentenceIndex": 16,
@@ -1052,12 +986,10 @@ export default {
         "experimental subjects"
       ],
       "optionReasons": {
-        "subject-mcq-05": "本句指「在實驗或研究中被觀察、測試或研究的人；受試者」。",
-        "subject-mcq-04": "「書籍、文章、演講等主要討論的內容／題材」是「subject of a book/article」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。",
-        "subject-mcq-03": "「人們正在談論、寫作、思考或研究的主題／話題」是「subject — topic」的用法，與本句語境不同。",
-        "subject-mcq-07": "「受君主統治並效忠於其權威的人；臣民」是「subject — monarch’s citizen」的用法，與本句語境不同。",
-        "subject-mcq-02": "「學校課程中正式教授的一門科目」是「school subject」的用法，與本句語境不同。"
+        "subject-mcq-05": "本句的「experimental subjects」指「在實驗或研究中被觀察、測試或研究的人；受試者」。",
+        "subject-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-05"
     },
@@ -1069,11 +1001,9 @@ export default {
       "masked": "Researchers monitored each ____ carefully.",
       "options": [
         "subject-mcq-05",
-        "subject-mcq-04",
+        "subject-mcq-20",
         "subject-mcq-06",
-        "subject-mcq-03",
-        "subject-mcq-07",
-        "subject-mcq-02"
+        "subject-mcq-11"
       ],
       "explanation": "本句的「subject」指「在實驗或研究中被觀察、測試或研究的人；受試者」。",
       "sentenceIndex": 17,
@@ -1082,12 +1012,10 @@ export default {
         "subject"
       ],
       "optionReasons": {
-        "subject-mcq-05": "本句指「在實驗或研究中被觀察、測試或研究的人；受試者」。",
-        "subject-mcq-04": "「書籍、文章、演講等主要討論的內容／題材」是「subject of a book/article」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。",
-        "subject-mcq-03": "「人們正在談論、寫作、思考或研究的主題／話題」是「subject — topic」的用法，與本句語境不同。",
-        "subject-mcq-07": "「受君主統治並效忠於其權威的人；臣民」是「subject — monarch’s citizen」的用法，與本句語境不同。",
-        "subject-mcq-02": "「學校課程中正式教授的一門科目」是「school subject」的用法，與本句語境不同。"
+        "subject-mcq-05": "本句的「subject」指「在實驗或研究中被觀察、測試或研究的人；受試者」。",
+        "subject-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-05"
     },
@@ -1099,11 +1027,9 @@ export default {
       "masked": "The ____ of the photograph is an elderly woman.",
       "options": [
         "subject-mcq-06",
-        "subject-mcq-05",
-        "subject-mcq-07",
-        "subject-mcq-04",
-        "subject-mcq-08",
-        "subject-mcq-03"
+        "subject-mcq-11",
+        "subject-mcq-12",
+        "subject-mcq-14"
       ],
       "explanation": "本句的「subject」指「照片、畫作等主要呈現或描繪的人／物；主體／題材」。",
       "sentenceIndex": 18,
@@ -1112,12 +1038,10 @@ export default {
         "subject"
       ],
       "optionReasons": {
-        "subject-mcq-06": "本句指「照片、畫作等主要呈現或描繪的人／物；主體／題材」。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。",
-        "subject-mcq-07": "「受君主統治並效忠於其權威的人；臣民」是「subject — monarch’s citizen」的用法，與本句語境不同。",
-        "subject-mcq-04": "「書籍、文章、演講等主要討論的內容／題材」是「subject of a book/article」的用法，與本句語境不同。",
-        "subject-mcq-08": "「句子中通常表示動作者或被描述者的成分；主語／主詞」是「subject — grammar」的用法，與本句語境不同。",
-        "subject-mcq-03": "「人們正在談論、寫作、思考或研究的主題／話題」是「subject — topic」的用法，與本句語境不同。"
+        "subject-mcq-06": "本句的「subject」指「照片、畫作等主要呈現或描繪的人／物；主體／題材」。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-06"
     },
@@ -1129,11 +1053,9 @@ export default {
       "masked": "Flowers were a common ____ in his paintings.",
       "options": [
         "subject-mcq-06",
-        "subject-mcq-05",
-        "subject-mcq-07",
-        "subject-mcq-04",
-        "subject-mcq-08",
-        "subject-mcq-03"
+        "subject-mcq-12",
+        "subject-mcq-20",
+        "subject-mcq-14"
       ],
       "explanation": "本句的「subject」指「照片、畫作等主要呈現或描繪的人／物；主體／題材」。",
       "sentenceIndex": 19,
@@ -1142,12 +1064,10 @@ export default {
         "subject"
       ],
       "optionReasons": {
-        "subject-mcq-06": "本句指「照片、畫作等主要呈現或描繪的人／物；主體／題材」。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。",
-        "subject-mcq-07": "「受君主統治並效忠於其權威的人；臣民」是「subject — monarch’s citizen」的用法，與本句語境不同。",
-        "subject-mcq-04": "「書籍、文章、演講等主要討論的內容／題材」是「subject of a book/article」的用法，與本句語境不同。",
-        "subject-mcq-08": "「句子中通常表示動作者或被描述者的成分；主語／主詞」是「subject — grammar」的用法，與本句語境不同。",
-        "subject-mcq-03": "「人們正在談論、寫作、思考或研究的主題／話題」是「subject — topic」的用法，與本句語境不同。"
+        "subject-mcq-06": "本句的「subject」指「照片、畫作等主要呈現或描繪的人／物；主體／題材」。",
+        "subject-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-06"
     },
@@ -1159,11 +1079,9 @@ export default {
       "masked": "The king’s ____ were required to pay taxes.",
       "options": [
         "subject-mcq-07",
-        "subject-mcq-06",
-        "subject-mcq-08",
-        "subject-mcq-05",
-        "subject-mcq-09",
-        "subject-mcq-04"
+        "subject-mcq-02",
+        "subject-mcq-11",
+        "subject-mcq-09"
       ],
       "explanation": "本句的「subjects」指「受君主統治並效忠於其權威的人；臣民」。",
       "sentenceIndex": 20,
@@ -1172,12 +1090,10 @@ export default {
         "subjects"
       ],
       "optionReasons": {
-        "subject-mcq-07": "本句指「受君主統治並效忠於其權威的人；臣民」。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。",
-        "subject-mcq-08": "「句子中通常表示動作者或被描述者的成分；主語／主詞」是「subject — grammar」的用法，與本句語境不同。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。",
-        "subject-mcq-09": "「使某人被迫經歷某事，尤其是不愉快的事」是「subject someone to something」的用法，與本句語境不同。",
-        "subject-mcq-04": "「書籍、文章、演講等主要討論的內容／題材」是「subject of a book/article」的用法，與本句語境不同。"
+        "subject-mcq-07": "本句的「subjects」指「受君主統治並效忠於其權威的人；臣民」。",
+        "subject-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-07"
     },
@@ -1189,11 +1105,9 @@ export default {
       "masked": "Medieval rulers expected loyalty from their ____.",
       "options": [
         "subject-mcq-07",
-        "subject-mcq-06",
-        "subject-mcq-08",
-        "subject-mcq-05",
-        "subject-mcq-09",
-        "subject-mcq-04"
+        "subject-mcq-20",
+        "subject-mcq-11",
+        "subject-mcq-16"
       ],
       "explanation": "本句的「subjects」指「受君主統治並效忠於其權威的人；臣民」。",
       "sentenceIndex": 21,
@@ -1202,12 +1116,10 @@ export default {
         "subjects"
       ],
       "optionReasons": {
-        "subject-mcq-07": "本句指「受君主統治並效忠於其權威的人；臣民」。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。",
-        "subject-mcq-08": "「句子中通常表示動作者或被描述者的成分；主語／主詞」是「subject — grammar」的用法，與本句語境不同。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。",
-        "subject-mcq-09": "「使某人被迫經歷某事，尤其是不愉快的事」是「subject someone to something」的用法，與本句語境不同。",
-        "subject-mcq-04": "「書籍、文章、演講等主要討論的內容／題材」是「subject of a book/article」的用法，與本句語境不同。"
+        "subject-mcq-07": "本句的「subjects」指「受君主統治並效忠於其權威的人；臣民」。",
+        "subject-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-07"
     },
@@ -1219,11 +1131,9 @@ export default {
       "masked": "In “____ teaches physics,” she is the subject.",
       "options": [
         "subject-mcq-21",
-        "subject-mcq-20",
-        "subject-mcq-22",
-        "subject-mcq-19",
-        "subject-mcq-18",
-        "subject-mcq-17"
+        "subject-mcq-14",
+        "subject-mcq-11",
+        "subject-mcq-15"
       ],
       "explanation": "本句的「she」指「表示主語；主詞」。",
       "sentenceIndex": 22,
@@ -1232,12 +1142,10 @@ export default {
         "she"
       ],
       "optionReasons": {
-        "subject-mcq-21": "本句指「表示主語；主詞」。",
-        "subject-mcq-20": "「科學／理科不是我最擅長的科目」是「Passage meaning」的用法，與本句語境不同。",
-        "subject-mcq-22": "「表示主觀地」是「23. subjectively」的用法，與本句語境不同。",
-        "subject-mcq-19": "「個人觀點與感受對判斷所造成的主觀性」是「subjectivity」的用法，與本句語境不同。",
-        "subject-mcq-18": "「受個人感受、觀點或判斷影響的；主觀的」是「subjective」的用法，與本句語境不同。",
-        "subject-mcq-17": "「某作品、課程或討論所處理的主要內容／題材」是「subject matter」的用法，與本句語境不同。"
+        "subject-mcq-21": "本句的「she」指「表示主語；主詞」。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-21"
     },
@@ -1249,11 +1157,9 @@ export default {
       "masked": "Every complete clause normally has a ____.",
       "options": [
         "subject-mcq-21",
-        "subject-mcq-20",
-        "subject-mcq-22",
-        "subject-mcq-19",
-        "subject-mcq-18",
-        "subject-mcq-17"
+        "subject-mcq-09",
+        "subject-mcq-05",
+        "subject-mcq-20"
       ],
       "explanation": "本句的「subject」指「表示主語；主詞」。",
       "sentenceIndex": 23,
@@ -1262,12 +1168,10 @@ export default {
         "subject"
       ],
       "optionReasons": {
-        "subject-mcq-21": "本句指「表示主語；主詞」。",
-        "subject-mcq-20": "「科學／理科不是我最擅長的科目」是「Passage meaning」的用法，與本句語境不同。",
-        "subject-mcq-22": "「表示主觀地」是「23. subjectively」的用法，與本句語境不同。",
-        "subject-mcq-19": "「個人觀點與感受對判斷所造成的主觀性」是「subjectivity」的用法，與本句語境不同。",
-        "subject-mcq-18": "「受個人感受、觀點或判斷影響的；主觀的」是「subjective」的用法，與本句語境不同。",
-        "subject-mcq-17": "「某作品、課程或討論所處理的主要內容／題材」是「subject matter」的用法，與本句語境不同。"
+        "subject-mcq-21": "本句的「subject」指「表示主語；主詞」。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-21"
     },
@@ -1279,11 +1183,9 @@ export default {
       "masked": "In “The teacher helped the student,” “the teacher” is the ____.",
       "options": [
         "subject-mcq-08",
-        "subject-mcq-07",
-        "subject-mcq-09",
-        "subject-mcq-06",
-        "subject-mcq-10",
-        "subject-mcq-05"
+        "subject-mcq-16",
+        "subject-mcq-13",
+        "subject-mcq-09"
       ],
       "explanation": "本句的「subject」指「句子中通常表示動作者或被描述者的成分；主語／主詞」。",
       "sentenceIndex": 24,
@@ -1292,12 +1194,10 @@ export default {
         "subject"
       ],
       "optionReasons": {
-        "subject-mcq-08": "本句指「句子中通常表示動作者或被描述者的成分；主語／主詞」。",
-        "subject-mcq-07": "「受君主統治並效忠於其權威的人；臣民」是「subject — monarch’s citizen」的用法，與本句語境不同。",
-        "subject-mcq-09": "「使某人被迫經歷某事，尤其是不愉快的事」是「subject someone to something」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。",
-        "subject-mcq-10": "「使某物接受測試、分析、壓力等處理」是「subject something to testing/analysis」的用法，與本句語境不同。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。"
+        "subject-mcq-08": "本句的「subject」指「句子中通常表示動作者或被描述者的成分；主語／主詞」。",
+        "subject-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-08"
     },
@@ -1309,11 +1209,9 @@ export default {
       "masked": "Students often confuse the ____ with the object.",
       "options": [
         "subject-mcq-08",
-        "subject-mcq-07",
+        "subject-mcq-02",
         "subject-mcq-09",
-        "subject-mcq-06",
-        "subject-mcq-10",
-        "subject-mcq-05"
+        "subject-mcq-16"
       ],
       "explanation": "本句的「subject」指「句子中通常表示動作者或被描述者的成分；主語／主詞」。",
       "sentenceIndex": 25,
@@ -1322,12 +1220,10 @@ export default {
         "subject"
       ],
       "optionReasons": {
-        "subject-mcq-08": "本句指「句子中通常表示動作者或被描述者的成分；主語／主詞」。",
-        "subject-mcq-07": "「受君主統治並效忠於其權威的人；臣民」是「subject — monarch’s citizen」的用法，與本句語境不同。",
-        "subject-mcq-09": "「使某人被迫經歷某事，尤其是不愉快的事」是「subject someone to something」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。",
-        "subject-mcq-10": "「使某物接受測試、分析、壓力等處理」是「subject something to testing/analysis」的用法，與本句語境不同。",
-        "subject-mcq-05": "「在實驗或研究中被觀察、測試或研究的人；受試者」是「subject — research participant」的用法，與本句語境不同。"
+        "subject-mcq-08": "本句的「subject」指「句子中通常表示動作者或被描述者的成分；主語／主詞」。",
+        "subject-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-08"
     },
@@ -1339,11 +1235,9 @@ export default {
       "masked": "The workers were ____.",
       "options": [
         "subject-mcq-09",
-        "subject-mcq-08",
-        "subject-mcq-10",
-        "subject-mcq-07",
-        "subject-mcq-11",
-        "subject-mcq-06"
+        "subject-mcq-05",
+        "subject-mcq-19",
+        "subject-mcq-20"
       ],
       "explanation": "本句的「subjected to harsh conditions」指「使某人被迫經歷某事，尤其是不愉快的事」。",
       "sentenceIndex": 26,
@@ -1352,12 +1246,10 @@ export default {
         "subjected to harsh conditions"
       ],
       "optionReasons": {
-        "subject-mcq-09": "本句指「使某人被迫經歷某事，尤其是不愉快的事」。",
-        "subject-mcq-08": "「句子中通常表示動作者或被描述者的成分；主語／主詞」是「subject — grammar」的用法，與本句語境不同。",
-        "subject-mcq-10": "「使某物接受測試、分析、壓力等處理」是「subject something to testing/analysis」的用法，與本句語境不同。",
-        "subject-mcq-07": "「受君主統治並效忠於其權威的人；臣民」是「subject — monarch’s citizen」的用法，與本句語境不同。",
-        "subject-mcq-11": "「尚未完全固定，之後可能更改」是「subject to change」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。"
+        "subject-mcq-09": "本句的「subjected to harsh conditions」指「使某人被迫經歷某事，尤其是不愉快的事」。",
+        "subject-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-09"
     },
@@ -1369,11 +1261,9 @@ export default {
       "masked": "Students should not be ____.",
       "options": [
         "subject-mcq-09",
-        "subject-mcq-08",
-        "subject-mcq-10",
-        "subject-mcq-07",
-        "subject-mcq-11",
-        "subject-mcq-06"
+        "subject-mcq-06",
+        "subject-mcq-03",
+        "subject-mcq-11"
       ],
       "explanation": "本句的「subjected to unnecessary pressure」指「使某人被迫經歷某事，尤其是不愉快的事」。",
       "sentenceIndex": 27,
@@ -1382,12 +1272,10 @@ export default {
         "subjected to unnecessary pressure"
       ],
       "optionReasons": {
-        "subject-mcq-09": "本句指「使某人被迫經歷某事，尤其是不愉快的事」。",
-        "subject-mcq-08": "「句子中通常表示動作者或被描述者的成分；主語／主詞」是「subject — grammar」的用法，與本句語境不同。",
-        "subject-mcq-10": "「使某物接受測試、分析、壓力等處理」是「subject something to testing/analysis」的用法，與本句語境不同。",
-        "subject-mcq-07": "「受君主統治並效忠於其權威的人；臣民」是「subject — monarch’s citizen」的用法，與本句語境不同。",
-        "subject-mcq-11": "「尚未完全固定，之後可能更改」是「subject to change」的用法，與本句語境不同。",
-        "subject-mcq-06": "「照片、畫作等主要呈現或描繪的人／物；主體／題材」是「subject — art/photo」的用法，與本句語境不同。"
+        "subject-mcq-09": "本句的「subjected to unnecessary pressure」指「使某人被迫經歷某事，尤其是不愉快的事」。",
+        "subject-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-09"
     },
@@ -1399,11 +1287,9 @@ export default {
       "masked": "The material was ____.",
       "options": [
         "subject-mcq-10",
-        "subject-mcq-09",
-        "subject-mcq-11",
-        "subject-mcq-08",
-        "subject-mcq-12",
-        "subject-mcq-07"
+        "subject-mcq-02",
+        "subject-mcq-21",
+        "subject-mcq-16"
       ],
       "explanation": "本句的「subjected to extreme heat」指「使某物接受測試、分析、壓力等處理」。",
       "sentenceIndex": 28,
@@ -1412,12 +1298,10 @@ export default {
         "subjected to extreme heat"
       ],
       "optionReasons": {
-        "subject-mcq-10": "本句指「使某物接受測試、分析、壓力等處理」。",
-        "subject-mcq-09": "「使某人被迫經歷某事，尤其是不愉快的事」是「subject someone to something」的用法，與本句語境不同。",
-        "subject-mcq-11": "「尚未完全固定，之後可能更改」是「subject to change」的用法，與本句語境不同。",
-        "subject-mcq-08": "「句子中通常表示動作者或被描述者的成分；主語／主詞」是「subject — grammar」的用法，與本句語境不同。",
-        "subject-mcq-12": "「必須先獲得批准才能生效」是「subject to approval」的用法，與本句語境不同。",
-        "subject-mcq-07": "「受君主統治並效忠於其權威的人；臣民」是「subject — monarch’s citizen」的用法，與本句語境不同。"
+        "subject-mcq-10": "本句的「subjected to extreme heat」指「使某物接受測試、分析、壓力等處理」。",
+        "subject-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-10"
     },
@@ -1429,11 +1313,9 @@ export default {
       "masked": "The results were ____.",
       "options": [
         "subject-mcq-10",
-        "subject-mcq-09",
-        "subject-mcq-11",
-        "subject-mcq-08",
-        "subject-mcq-12",
-        "subject-mcq-07"
+        "subject-mcq-22",
+        "subject-mcq-02",
+        "subject-mcq-16"
       ],
       "explanation": "本句的「subjected to further analysis」指「使某物接受測試、分析、壓力等處理」。",
       "sentenceIndex": 29,
@@ -1442,12 +1324,10 @@ export default {
         "subjected to further analysis"
       ],
       "optionReasons": {
-        "subject-mcq-10": "本句指「使某物接受測試、分析、壓力等處理」。",
-        "subject-mcq-09": "「使某人被迫經歷某事，尤其是不愉快的事」是「subject someone to something」的用法，與本句語境不同。",
-        "subject-mcq-11": "「尚未完全固定，之後可能更改」是「subject to change」的用法，與本句語境不同。",
-        "subject-mcq-08": "「句子中通常表示動作者或被描述者的成分；主語／主詞」是「subject — grammar」的用法，與本句語境不同。",
-        "subject-mcq-12": "「必須先獲得批准才能生效」是「subject to approval」的用法，與本句語境不同。",
-        "subject-mcq-07": "「受君主統治並效忠於其權威的人；臣民」是「subject — monarch’s citizen」的用法，與本句語境不同。"
+        "subject-mcq-10": "本句的「subjected to further analysis」指「使某物接受測試、分析、壓力等處理」。",
+        "subject-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-10"
     },
@@ -1459,11 +1339,9 @@ export default {
       "masked": "The schedule is ____.",
       "options": [
         "subject-mcq-10",
-        "subject-mcq-09",
-        "subject-mcq-11",
-        "subject-mcq-08",
-        "subject-mcq-12",
-        "subject-mcq-07"
+        "subject-mcq-22",
+        "subject-mcq-16",
+        "subject-mcq-11"
       ],
       "explanation": "本句的「subject to change」指「使某物接受測試、分析、壓力等處理」。",
       "sentenceIndex": 30,
@@ -1472,12 +1350,10 @@ export default {
         "subject to change"
       ],
       "optionReasons": {
-        "subject-mcq-10": "本句指「使某物接受測試、分析、壓力等處理」。",
-        "subject-mcq-09": "「使某人被迫經歷某事，尤其是不愉快的事」是「subject someone to something」的用法，與本句語境不同。",
-        "subject-mcq-11": "「尚未完全固定，之後可能更改」是「subject to change」的用法，與本句語境不同。",
-        "subject-mcq-08": "「句子中通常表示動作者或被描述者的成分；主語／主詞」是「subject — grammar」的用法，與本句語境不同。",
-        "subject-mcq-12": "「必須先獲得批准才能生效」是「subject to approval」的用法，與本句語境不同。",
-        "subject-mcq-07": "「受君主統治並效忠於其權威的人；臣民」是「subject — monarch’s citizen」的用法，與本句語境不同。"
+        "subject-mcq-10": "本句的「subject to change」指「使某物接受測試、分析、壓力等處理」。",
+        "subject-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-10"
     },
@@ -1489,11 +1365,9 @@ export default {
       "masked": "The offer is ____.",
       "options": [
         "subject-mcq-10",
-        "subject-mcq-09",
-        "subject-mcq-11",
-        "subject-mcq-08",
-        "subject-mcq-12",
-        "subject-mcq-07"
+        "subject-mcq-21",
+        "subject-mcq-16",
+        "subject-mcq-11"
       ],
       "explanation": "本句的「subject to approval」指「使某物接受測試、分析、壓力等處理」。",
       "sentenceIndex": 31,
@@ -1502,12 +1376,10 @@ export default {
         "subject to approval"
       ],
       "optionReasons": {
-        "subject-mcq-10": "本句指「使某物接受測試、分析、壓力等處理」。",
-        "subject-mcq-09": "「使某人被迫經歷某事，尤其是不愉快的事」是「subject someone to something」的用法，與本句語境不同。",
-        "subject-mcq-11": "「尚未完全固定，之後可能更改」是「subject to change」的用法，與本句語境不同。",
-        "subject-mcq-08": "「句子中通常表示動作者或被描述者的成分；主語／主詞」是「subject — grammar」的用法，與本句語境不同。",
-        "subject-mcq-12": "「必須先獲得批准才能生效」是「subject to approval」的用法，與本句語境不同。",
-        "subject-mcq-07": "「受君主統治並效忠於其權威的人；臣民」是「subject — monarch’s citizen」的用法，與本句語境不同。"
+        "subject-mcq-10": "本句的「subject to approval」指「使某物接受測試、分析、壓力等處理」。",
+        "subject-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-10"
     },
@@ -1519,11 +1391,9 @@ export default {
       "masked": "Prices are ____ without notice.",
       "options": [
         "subject-mcq-11",
-        "subject-mcq-10",
-        "subject-mcq-12",
+        "subject-mcq-14",
         "subject-mcq-09",
-        "subject-mcq-13",
-        "subject-mcq-08"
+        "subject-mcq-04"
       ],
       "explanation": "本句的「subject to change」指「尚未完全固定，之後可能更改」。",
       "sentenceIndex": 32,
@@ -1532,12 +1402,10 @@ export default {
         "subject to change"
       ],
       "optionReasons": {
-        "subject-mcq-11": "本句指「尚未完全固定，之後可能更改」。",
-        "subject-mcq-10": "「使某物接受測試、分析、壓力等處理」是「subject something to testing/analysis」的用法，與本句語境不同。",
-        "subject-mcq-12": "「必須先獲得批准才能生效」是「subject to approval」的用法，與本句語境不同。",
-        "subject-mcq-09": "「使某人被迫經歷某事，尤其是不愉快的事」是「subject someone to something」的用法，與本句語境不同。",
-        "subject-mcq-13": "「容易遭受或受到某種情況影響」是「subject to something — vulnerable」的用法，與本句語境不同。",
-        "subject-mcq-08": "「句子中通常表示動作者或被描述者的成分；主語／主詞」是「subject — grammar」的用法，與本句語境不同。"
+        "subject-mcq-11": "本句的「subject to change」指「尚未完全固定，之後可能更改」。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-11"
     },
@@ -1549,11 +1417,9 @@ export default {
       "masked": "The programme is ____.",
       "options": [
         "subject-mcq-11",
-        "subject-mcq-10",
+        "subject-mcq-22",
         "subject-mcq-12",
-        "subject-mcq-09",
-        "subject-mcq-13",
-        "subject-mcq-08"
+        "subject-mcq-14"
       ],
       "explanation": "本句的「subject to change」指「尚未完全固定，之後可能更改」。",
       "sentenceIndex": 33,
@@ -1562,12 +1428,10 @@ export default {
         "subject to change"
       ],
       "optionReasons": {
-        "subject-mcq-11": "本句指「尚未完全固定，之後可能更改」。",
-        "subject-mcq-10": "「使某物接受測試、分析、壓力等處理」是「subject something to testing/analysis」的用法，與本句語境不同。",
-        "subject-mcq-12": "「必須先獲得批准才能生效」是「subject to approval」的用法，與本句語境不同。",
-        "subject-mcq-09": "「使某人被迫經歷某事，尤其是不愉快的事」是「subject someone to something」的用法，與本句語境不同。",
-        "subject-mcq-13": "「容易遭受或受到某種情況影響」是「subject to something — vulnerable」的用法，與本句語境不同。",
-        "subject-mcq-08": "「句子中通常表示動作者或被描述者的成分；主語／主詞」是「subject — grammar」的用法，與本句語境不同。"
+        "subject-mcq-11": "本句的「subject to change」指「尚未完全固定，之後可能更改」。",
+        "subject-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-11"
     },
@@ -1579,11 +1443,9 @@ export default {
       "masked": "The plan is ____ by the board.",
       "options": [
         "subject-mcq-12",
-        "subject-mcq-11",
-        "subject-mcq-13",
-        "subject-mcq-10",
+        "subject-mcq-03",
         "subject-mcq-14",
-        "subject-mcq-09"
+        "subject-mcq-08"
       ],
       "explanation": "本句的「subject to approval」指「必須先獲得批准才能生效」。",
       "sentenceIndex": 34,
@@ -1592,12 +1454,10 @@ export default {
         "subject to approval"
       ],
       "optionReasons": {
-        "subject-mcq-12": "本句指「必須先獲得批准才能生效」。",
-        "subject-mcq-11": "「尚未完全固定，之後可能更改」是「subject to change」的用法，與本句語境不同。",
-        "subject-mcq-13": "「容易遭受或受到某種情況影響」是「subject to something — vulnerable」的用法，與本句語境不同。",
-        "subject-mcq-10": "「使某物接受測試、分析、壓力等處理」是「subject something to testing/analysis」的用法，與本句語境不同。",
-        "subject-mcq-14": "「受某項法律、制度或規則約束」是「subject to law/rules」的用法，與本句語境不同。",
-        "subject-mcq-09": "「使某人被迫經歷某事，尤其是不愉快的事」是「subject someone to something」的用法，與本句語境不同。"
+        "subject-mcq-12": "本句的「subject to approval」指「必須先獲得批准才能生效」。",
+        "subject-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-12"
     },
@@ -1609,11 +1469,9 @@ export default {
       "masked": "Funding is ____.",
       "options": [
         "subject-mcq-12",
-        "subject-mcq-11",
-        "subject-mcq-13",
-        "subject-mcq-10",
         "subject-mcq-14",
-        "subject-mcq-09"
+        "subject-mcq-20",
+        "subject-mcq-17"
       ],
       "explanation": "本句的「subject to final approval」指「必須先獲得批准才能生效」。",
       "sentenceIndex": 35,
@@ -1622,12 +1480,10 @@ export default {
         "subject to final approval"
       ],
       "optionReasons": {
-        "subject-mcq-12": "本句指「必須先獲得批准才能生效」。",
-        "subject-mcq-11": "「尚未完全固定，之後可能更改」是「subject to change」的用法，與本句語境不同。",
-        "subject-mcq-13": "「容易遭受或受到某種情況影響」是「subject to something — vulnerable」的用法，與本句語境不同。",
-        "subject-mcq-10": "「使某物接受測試、分析、壓力等處理」是「subject something to testing/analysis」的用法，與本句語境不同。",
-        "subject-mcq-14": "「受某項法律、制度或規則約束」是「subject to law/rules」的用法，與本句語境不同。",
-        "subject-mcq-09": "「使某人被迫經歷某事，尤其是不愉快的事」是「subject someone to something」的用法，與本句語境不同。"
+        "subject-mcq-12": "本句的「subject to final approval」指「必須先獲得批准才能生效」。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-12"
     },
@@ -1639,11 +1495,9 @@ export default {
       "masked": "The area is ____.",
       "options": [
         "subject-mcq-13",
-        "subject-mcq-12",
-        "subject-mcq-14",
-        "subject-mcq-11",
+        "subject-mcq-02",
         "subject-mcq-15",
-        "subject-mcq-10"
+        "subject-mcq-08"
       ],
       "explanation": "本句的「subject to flooding」指「容易遭受或受到某種情況影響」。",
       "sentenceIndex": 36,
@@ -1652,12 +1506,10 @@ export default {
         "subject to flooding"
       ],
       "optionReasons": {
-        "subject-mcq-13": "本句指「容易遭受或受到某種情況影響」。",
-        "subject-mcq-12": "「必須先獲得批准才能生效」是「subject to approval」的用法，與本句語境不同。",
-        "subject-mcq-14": "「受某項法律、制度或規則約束」是「subject to law/rules」的用法，與本句語境不同。",
-        "subject-mcq-11": "「尚未完全固定，之後可能更改」是「subject to change」的用法，與本句語境不同。",
-        "subject-mcq-15": "「停止原本話題並開始談另一件事」是「change the subject」的用法，與本句語境不同。",
-        "subject-mcq-10": "「使某物接受測試、分析、壓力等處理」是「subject something to testing/analysis」的用法，與本句語境不同。"
+        "subject-mcq-13": "本句的「subject to flooding」指「容易遭受或受到某種情況影響」。",
+        "subject-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-13"
     },
@@ -1669,11 +1521,9 @@ export default {
       "masked": "Older equipment is more ____.",
       "options": [
         "subject-mcq-13",
-        "subject-mcq-12",
-        "subject-mcq-14",
-        "subject-mcq-11",
+        "subject-mcq-06",
         "subject-mcq-15",
-        "subject-mcq-10"
+        "subject-mcq-08"
       ],
       "explanation": "本句的「subject to failure」指「容易遭受或受到某種情況影響」。",
       "sentenceIndex": 37,
@@ -1682,12 +1532,10 @@ export default {
         "subject to failure"
       ],
       "optionReasons": {
-        "subject-mcq-13": "本句指「容易遭受或受到某種情況影響」。",
-        "subject-mcq-12": "「必須先獲得批准才能生效」是「subject to approval」的用法，與本句語境不同。",
-        "subject-mcq-14": "「受某項法律、制度或規則約束」是「subject to law/rules」的用法，與本句語境不同。",
-        "subject-mcq-11": "「尚未完全固定，之後可能更改」是「subject to change」的用法，與本句語境不同。",
-        "subject-mcq-15": "「停止原本話題並開始談另一件事」是「change the subject」的用法，與本句語境不同。",
-        "subject-mcq-10": "「使某物接受測試、分析、壓力等處理」是「subject something to testing/analysis」的用法，與本句語境不同。"
+        "subject-mcq-13": "本句的「subject to failure」指「容易遭受或受到某種情況影響」。",
+        "subject-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-13"
     },
@@ -1699,11 +1547,9 @@ export default {
       "masked": "The plan was ____.",
       "options": [
         "subject-mcq-13",
-        "subject-mcq-12",
-        "subject-mcq-14",
-        "subject-mcq-11",
         "subject-mcq-15",
-        "subject-mcq-10"
+        "subject-mcq-06",
+        "subject-mcq-12"
       ],
       "explanation": "本句的「subject to heavy criticism」指「容易遭受或受到某種情況影響」。",
       "sentenceIndex": 38,
@@ -1712,12 +1558,10 @@ export default {
         "subject to heavy criticism"
       ],
       "optionReasons": {
-        "subject-mcq-13": "本句指「容易遭受或受到某種情況影響」。",
-        "subject-mcq-12": "「必須先獲得批准才能生效」是「subject to approval」的用法，與本句語境不同。",
-        "subject-mcq-14": "「受某項法律、制度或規則約束」是「subject to law/rules」的用法，與本句語境不同。",
-        "subject-mcq-11": "「尚未完全固定，之後可能更改」是「subject to change」的用法，與本句語境不同。",
-        "subject-mcq-15": "「停止原本話題並開始談另一件事」是「change the subject」的用法，與本句語境不同。",
-        "subject-mcq-10": "「使某物接受測試、分析、壓力等處理」是「subject something to testing/analysis」的用法，與本句語境不同。"
+        "subject-mcq-13": "本句的「subject to heavy criticism」指「容易遭受或受到某種情況影響」。",
+        "subject-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-13"
     },
@@ -1730,10 +1574,8 @@ export default {
       "options": [
         "subject-mcq-13",
         "subject-mcq-12",
-        "subject-mcq-14",
-        "subject-mcq-11",
-        "subject-mcq-15",
-        "subject-mcq-10"
+        "subject-mcq-01",
+        "subject-mcq-11"
       ],
       "explanation": "本句的「subject to external pressure」指「容易遭受或受到某種情況影響」。",
       "sentenceIndex": 39,
@@ -1742,12 +1584,10 @@ export default {
         "subject to external pressure"
       ],
       "optionReasons": {
-        "subject-mcq-13": "本句指「容易遭受或受到某種情況影響」。",
-        "subject-mcq-12": "「必須先獲得批准才能生效」是「subject to approval」的用法，與本句語境不同。",
-        "subject-mcq-14": "「受某項法律、制度或規則約束」是「subject to law/rules」的用法，與本句語境不同。",
-        "subject-mcq-11": "「尚未完全固定，之後可能更改」是「subject to change」的用法，與本句語境不同。",
-        "subject-mcq-15": "「停止原本話題並開始談另一件事」是「change the subject」的用法，與本句語境不同。",
-        "subject-mcq-10": "「使某物接受測試、分析、壓力等處理」是「subject something to testing/analysis」的用法，與本句語境不同。"
+        "subject-mcq-13": "本句的「subject to external pressure」指「容易遭受或受到某種情況影響」。",
+        "subject-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-13"
     },
@@ -1759,11 +1599,9 @@ export default {
       "masked": "All employees are ____.",
       "options": [
         "subject-mcq-14",
-        "subject-mcq-13",
-        "subject-mcq-15",
+        "subject-mcq-04",
         "subject-mcq-12",
-        "subject-mcq-16",
-        "subject-mcq-11"
+        "subject-mcq-15"
       ],
       "explanation": "本句的「subject to company rules」指「受某項法律、制度或規則約束」。",
       "sentenceIndex": 40,
@@ -1772,12 +1610,10 @@ export default {
         "subject to company rules"
       ],
       "optionReasons": {
-        "subject-mcq-14": "本句指「受某項法律、制度或規則約束」。",
-        "subject-mcq-13": "「容易遭受或受到某種情況影響」是「subject to something — vulnerable」的用法，與本句語境不同。",
-        "subject-mcq-15": "「停止原本話題並開始談另一件事」是「change the subject」的用法，與本句語境不同。",
-        "subject-mcq-12": "「必須先獲得批准才能生效」是「subject to approval」的用法，與本句語境不同。",
-        "subject-mcq-16": "「說到／關於某一話題」是「on the subject of...」的用法，與本句語境不同。",
-        "subject-mcq-11": "「尚未完全固定，之後可能更改」是「subject to change」的用法，與本句語境不同。"
+        "subject-mcq-14": "本句的「subject to company rules」指「受某項法律、制度或規則約束」。",
+        "subject-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-14"
     },
@@ -1789,11 +1625,9 @@ export default {
       "masked": "The transaction is ____.",
       "options": [
         "subject-mcq-14",
-        "subject-mcq-13",
-        "subject-mcq-15",
-        "subject-mcq-12",
-        "subject-mcq-16",
-        "subject-mcq-11"
+        "subject-mcq-08",
+        "subject-mcq-09",
+        "subject-mcq-20"
       ],
       "explanation": "本句的「subject to local law」指「受某項法律、制度或規則約束」。",
       "sentenceIndex": 41,
@@ -1802,12 +1636,10 @@ export default {
         "subject to local law"
       ],
       "optionReasons": {
-        "subject-mcq-14": "本句指「受某項法律、制度或規則約束」。",
-        "subject-mcq-13": "「容易遭受或受到某種情況影響」是「subject to something — vulnerable」的用法，與本句語境不同。",
-        "subject-mcq-15": "「停止原本話題並開始談另一件事」是「change the subject」的用法，與本句語境不同。",
-        "subject-mcq-12": "「必須先獲得批准才能生效」是「subject to approval」的用法，與本句語境不同。",
-        "subject-mcq-16": "「說到／關於某一話題」是「on the subject of...」的用法，與本句語境不同。",
-        "subject-mcq-11": "「尚未完全固定，之後可能更改」是「subject to change」的用法，與本句語境不同。"
+        "subject-mcq-14": "本句的「subject to local law」指「受某項法律、制度或規則約束」。",
+        "subject-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-14"
     },
@@ -1819,11 +1651,9 @@ export default {
       "masked": "Beauty is partly ____.",
       "options": [
         "subject-mcq-18",
-        "subject-mcq-17",
-        "subject-mcq-19",
-        "subject-mcq-16",
-        "subject-mcq-20",
-        "subject-mcq-15"
+        "subject-mcq-01",
+        "subject-mcq-11",
+        "subject-mcq-09"
       ],
       "explanation": "本句的「subjective」指「受個人感受、觀點或判斷影響的；主觀的」。",
       "sentenceIndex": 42,
@@ -1832,12 +1662,10 @@ export default {
         "subjective"
       ],
       "optionReasons": {
-        "subject-mcq-18": "本句指「受個人感受、觀點或判斷影響的；主觀的」。",
-        "subject-mcq-17": "「某作品、課程或討論所處理的主要內容／題材」是「subject matter」的用法，與本句語境不同。",
-        "subject-mcq-19": "「個人觀點與感受對判斷所造成的主觀性」是「subjectivity」的用法，與本句語境不同。",
-        "subject-mcq-16": "「說到／關於某一話題」是「on the subject of...」的用法，與本句語境不同。",
-        "subject-mcq-20": "「科學／理科不是我最擅長的科目」是「Passage meaning」的用法，與本句語境不同。",
-        "subject-mcq-15": "「停止原本話題並開始談另一件事」是「change the subject」的用法，與本句語境不同。"
+        "subject-mcq-18": "本句的「subjective」指「受個人感受、觀點或判斷影響的；主觀的」。",
+        "subject-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-18"
     },
@@ -1849,11 +1677,9 @@ export default {
       "masked": "Her judgment was too ____.",
       "options": [
         "subject-mcq-18",
-        "subject-mcq-17",
-        "subject-mcq-19",
-        "subject-mcq-16",
-        "subject-mcq-20",
-        "subject-mcq-15"
+        "subject-mcq-15",
+        "subject-mcq-11",
+        "subject-mcq-09"
       ],
       "explanation": "本句的「subjective」指「受個人感受、觀點或判斷影響的；主觀的」。",
       "sentenceIndex": 43,
@@ -1862,12 +1688,10 @@ export default {
         "subjective"
       ],
       "optionReasons": {
-        "subject-mcq-18": "本句指「受個人感受、觀點或判斷影響的；主觀的」。",
-        "subject-mcq-17": "「某作品、課程或討論所處理的主要內容／題材」是「subject matter」的用法，與本句語境不同。",
-        "subject-mcq-19": "「個人觀點與感受對判斷所造成的主觀性」是「subjectivity」的用法，與本句語境不同。",
-        "subject-mcq-16": "「說到／關於某一話題」是「on the subject of...」的用法，與本句語境不同。",
-        "subject-mcq-20": "「科學／理科不是我最擅長的科目」是「Passage meaning」的用法，與本句語境不同。",
-        "subject-mcq-15": "「停止原本話題並開始談另一件事」是「change the subject」的用法，與本句語境不同。"
+        "subject-mcq-18": "本句的「subjective」指「受個人感受、觀點或判斷影響的；主觀的」。",
+        "subject-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-18"
     },
@@ -1879,11 +1703,9 @@ export default {
       "masked": "The experience may be perceived ____.",
       "options": [
         "subject-mcq-22",
-        "subject-mcq-21",
-        "subject-mcq-20",
-        "subject-mcq-19",
-        "subject-mcq-18",
-        "subject-mcq-17"
+        "subject-mcq-15",
+        "subject-mcq-12",
+        "subject-mcq-01"
       ],
       "explanation": "本句的「subjectively」指「表示主觀地」。",
       "sentenceIndex": 44,
@@ -1892,12 +1714,10 @@ export default {
         "subjectively"
       ],
       "optionReasons": {
-        "subject-mcq-22": "本句指「表示主觀地」。",
-        "subject-mcq-21": "「表示主語；主詞」是「12. subject — grammatical subject」的用法，與本句語境不同。",
-        "subject-mcq-20": "「科學／理科不是我最擅長的科目」是「Passage meaning」的用法，與本句語境不同。",
-        "subject-mcq-19": "「個人觀點與感受對判斷所造成的主觀性」是「subjectivity」的用法，與本句語境不同。",
-        "subject-mcq-18": "「受個人感受、觀點或判斷影響的；主觀的」是「subjective」的用法，與本句語境不同。",
-        "subject-mcq-17": "「某作品、課程或討論所處理的主要內容／題材」是「subject matter」的用法，與本句語境不同。"
+        "subject-mcq-22": "本句的「subjectively」指「表示主觀地」。",
+        "subject-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-22"
     },
@@ -1909,11 +1729,9 @@ export default {
       "masked": "People assess risk ____.",
       "options": [
         "subject-mcq-22",
-        "subject-mcq-21",
-        "subject-mcq-20",
-        "subject-mcq-19",
-        "subject-mcq-18",
-        "subject-mcq-17"
+        "subject-mcq-12",
+        "subject-mcq-14",
+        "subject-mcq-16"
       ],
       "explanation": "本句的「subjectively」指「表示主觀地」。",
       "sentenceIndex": 45,
@@ -1922,12 +1740,10 @@ export default {
         "subjectively"
       ],
       "optionReasons": {
-        "subject-mcq-22": "本句指「表示主觀地」。",
-        "subject-mcq-21": "「表示主語；主詞」是「12. subject — grammatical subject」的用法，與本句語境不同。",
-        "subject-mcq-20": "「科學／理科不是我最擅長的科目」是「Passage meaning」的用法，與本句語境不同。",
-        "subject-mcq-19": "「個人觀點與感受對判斷所造成的主觀性」是「subjectivity」的用法，與本句語境不同。",
-        "subject-mcq-18": "「受個人感受、觀點或判斷影響的；主觀的」是「subjective」的用法，與本句語境不同。",
-        "subject-mcq-17": "「某作品、課程或討論所處理的主要內容／題材」是「subject matter」的用法，與本句語境不同。"
+        "subject-mcq-22": "本句的「subjectively」指「表示主觀地」。",
+        "subject-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-22"
     },
@@ -1939,11 +1755,9 @@ export default {
       "masked": "Complete objectivity is difficult because of human ____.",
       "options": [
         "subject-mcq-19",
-        "subject-mcq-18",
-        "subject-mcq-20",
-        "subject-mcq-17",
-        "subject-mcq-21",
-        "subject-mcq-16"
+        "subject-mcq-02",
+        "subject-mcq-11",
+        "subject-mcq-15"
       ],
       "explanation": "本句的「subjectivity」指「個人觀點與感受對判斷所造成的主觀性」。",
       "sentenceIndex": 46,
@@ -1952,12 +1766,10 @@ export default {
         "subjectivity"
       ],
       "optionReasons": {
-        "subject-mcq-19": "本句指「個人觀點與感受對判斷所造成的主觀性」。",
-        "subject-mcq-18": "「受個人感受、觀點或判斷影響的；主觀的」是「subjective」的用法，與本句語境不同。",
-        "subject-mcq-20": "「科學／理科不是我最擅長的科目」是「Passage meaning」的用法，與本句語境不同。",
-        "subject-mcq-17": "「某作品、課程或討論所處理的主要內容／題材」是「subject matter」的用法，與本句語境不同。",
-        "subject-mcq-21": "「表示主語；主詞」是「12. subject — grammatical subject」的用法，與本句語境不同。",
-        "subject-mcq-16": "「說到／關於某一話題」是「on the subject of...」的用法，與本句語境不同。"
+        "subject-mcq-19": "本句的「subjectivity」指「個人觀點與感受對判斷所造成的主觀性」。",
+        "subject-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-19"
     },
@@ -1969,11 +1781,9 @@ export default {
       "masked": "The essay discusses ____ in interpretation.",
       "options": [
         "subject-mcq-19",
-        "subject-mcq-18",
-        "subject-mcq-20",
-        "subject-mcq-17",
-        "subject-mcq-21",
-        "subject-mcq-16"
+        "subject-mcq-01",
+        "subject-mcq-15",
+        "subject-mcq-12"
       ],
       "explanation": "本句的「subjectivity」指「個人觀點與感受對判斷所造成的主觀性」。",
       "sentenceIndex": 47,
@@ -1982,12 +1792,10 @@ export default {
         "subjectivity"
       ],
       "optionReasons": {
-        "subject-mcq-19": "本句指「個人觀點與感受對判斷所造成的主觀性」。",
-        "subject-mcq-18": "「受個人感受、觀點或判斷影響的；主觀的」是「subjective」的用法，與本句語境不同。",
-        "subject-mcq-20": "「科學／理科不是我最擅長的科目」是「Passage meaning」的用法，與本句語境不同。",
-        "subject-mcq-17": "「某作品、課程或討論所處理的主要內容／題材」是「subject matter」的用法，與本句語境不同。",
-        "subject-mcq-21": "「表示主語；主詞」是「12. subject — grammatical subject」的用法，與本句語境不同。",
-        "subject-mcq-16": "「說到／關於某一話題」是「on the subject of...」的用法，與本句語境不同。"
+        "subject-mcq-19": "本句的「subjectivity」指「個人觀點與感受對判斷所造成的主觀性」。",
+        "subject-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-19"
     },
@@ -1999,11 +1807,9 @@ export default {
       "masked": "He looked uncomfortable and quickly ____.",
       "options": [
         "subject-mcq-15",
-        "subject-mcq-14",
-        "subject-mcq-16",
-        "subject-mcq-13",
-        "subject-mcq-17",
-        "subject-mcq-12"
+        "subject-mcq-01",
+        "subject-mcq-11",
+        "subject-mcq-08"
       ],
       "explanation": "本句的「changed the subject」指「停止原本話題並開始談另一件事」。",
       "sentenceIndex": 48,
@@ -2012,12 +1818,10 @@ export default {
         "changed the subject"
       ],
       "optionReasons": {
-        "subject-mcq-15": "本句指「停止原本話題並開始談另一件事」。",
-        "subject-mcq-14": "「受某項法律、制度或規則約束」是「subject to law/rules」的用法，與本句語境不同。",
-        "subject-mcq-16": "「說到／關於某一話題」是「on the subject of...」的用法，與本句語境不同。",
-        "subject-mcq-13": "「容易遭受或受到某種情況影響」是「subject to something — vulnerable」的用法，與本句語境不同。",
-        "subject-mcq-17": "「某作品、課程或討論所處理的主要內容／題材」是「subject matter」的用法，與本句語境不同。",
-        "subject-mcq-12": "「必須先獲得批准才能生效」是「subject to approval」的用法，與本句語境不同。"
+        "subject-mcq-15": "本句的「changed the subject」指「停止原本話題並開始談另一件事」。",
+        "subject-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-15"
     },
@@ -2029,11 +1833,9 @@ export default {
       "masked": "Let’s ____.",
       "options": [
         "subject-mcq-15",
-        "subject-mcq-14",
-        "subject-mcq-16",
-        "subject-mcq-13",
-        "subject-mcq-17",
-        "subject-mcq-12"
+        "subject-mcq-05",
+        "subject-mcq-20",
+        "subject-mcq-14"
       ],
       "explanation": "本句的「change the subject」指「停止原本話題並開始談另一件事」。",
       "sentenceIndex": 49,
@@ -2042,12 +1844,10 @@ export default {
         "change the subject"
       ],
       "optionReasons": {
-        "subject-mcq-15": "本句指「停止原本話題並開始談另一件事」。",
-        "subject-mcq-14": "「受某項法律、制度或規則約束」是「subject to law/rules」的用法，與本句語境不同。",
-        "subject-mcq-16": "「說到／關於某一話題」是「on the subject of...」的用法，與本句語境不同。",
-        "subject-mcq-13": "「容易遭受或受到某種情況影響」是「subject to something — vulnerable」的用法，與本句語境不同。",
-        "subject-mcq-17": "「某作品、課程或討論所處理的主要內容／題材」是「subject matter」的用法，與本句語境不同。",
-        "subject-mcq-12": "「必須先獲得批准才能生效」是「subject to approval」的用法，與本句語境不同。"
+        "subject-mcq-15": "本句的「change the subject」指「停止原本話題並開始談另一件事」。",
+        "subject-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-15"
     },
@@ -2059,10 +1859,8 @@ export default {
       "masked": "We somehow ____.",
       "options": [
         "subject-mcq-16",
-        "subject-mcq-15",
-        "subject-mcq-17",
-        "subject-mcq-14",
-        "subject-mcq-18",
+        "subject-mcq-20",
+        "subject-mcq-11",
         "subject-mcq-13"
       ],
       "explanation": "本句的「got onto the subject of school memories」指「說到／關於某一話題」。",
@@ -2072,12 +1870,10 @@ export default {
         "got onto the subject of school memories"
       ],
       "optionReasons": {
-        "subject-mcq-16": "本句指「說到／關於某一話題」。",
-        "subject-mcq-15": "「停止原本話題並開始談另一件事」是「change the subject」的用法，與本句語境不同。",
-        "subject-mcq-17": "「某作品、課程或討論所處理的主要內容／題材」是「subject matter」的用法，與本句語境不同。",
-        "subject-mcq-14": "「受某項法律、制度或規則約束」是「subject to law/rules」的用法，與本句語境不同。",
-        "subject-mcq-18": "「受個人感受、觀點或判斷影響的；主觀的」是「subjective」的用法，與本句語境不同。",
-        "subject-mcq-13": "「容易遭受或受到某種情況影響」是「subject to something — vulnerable」的用法，與本句語境不同。"
+        "subject-mcq-16": "本句的「got onto the subject of school memories」指「說到／關於某一話題」。",
+        "subject-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-16"
     },
@@ -2089,11 +1885,9 @@ export default {
       "masked": "Once they ____, they talked for hours.",
       "options": [
         "subject-mcq-16",
-        "subject-mcq-15",
-        "subject-mcq-17",
         "subject-mcq-14",
-        "subject-mcq-18",
-        "subject-mcq-13"
+        "subject-mcq-05",
+        "subject-mcq-09"
       ],
       "explanation": "本句的「got onto the subject of travel」指「說到／關於某一話題」。",
       "sentenceIndex": 51,
@@ -2102,12 +1896,10 @@ export default {
         "got onto the subject of travel"
       ],
       "optionReasons": {
-        "subject-mcq-16": "本句指「說到／關於某一話題」。",
-        "subject-mcq-15": "「停止原本話題並開始談另一件事」是「change the subject」的用法，與本句語境不同。",
-        "subject-mcq-17": "「某作品、課程或討論所處理的主要內容／題材」是「subject matter」的用法，與本句語境不同。",
-        "subject-mcq-14": "「受某項法律、制度或規則約束」是「subject to law/rules」的用法，與本句語境不同。",
-        "subject-mcq-18": "「受個人感受、觀點或判斷影響的；主觀的」是「subjective」的用法，與本句語境不同。",
-        "subject-mcq-13": "「容易遭受或受到某種情況影響」是「subject to something — vulnerable」的用法，與本句語境不同。"
+        "subject-mcq-16": "本句的「got onto the subject of travel」指「說到／關於某一話題」。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-16"
     },
@@ -2119,10 +1911,8 @@ export default {
       "masked": "____, she had strong opinions.",
       "options": [
         "subject-mcq-16",
-        "subject-mcq-15",
-        "subject-mcq-17",
-        "subject-mcq-14",
-        "subject-mcq-18",
+        "subject-mcq-09",
+        "subject-mcq-05",
         "subject-mcq-13"
       ],
       "explanation": "本句的「On the subject of education」指「說到／關於某一話題」。",
@@ -2132,12 +1922,10 @@ export default {
         "On the subject of education"
       ],
       "optionReasons": {
-        "subject-mcq-16": "本句指「說到／關於某一話題」。",
-        "subject-mcq-15": "「停止原本話題並開始談另一件事」是「change the subject」的用法，與本句語境不同。",
-        "subject-mcq-17": "「某作品、課程或討論所處理的主要內容／題材」是「subject matter」的用法，與本句語境不同。",
-        "subject-mcq-14": "「受某項法律、制度或規則約束」是「subject to law/rules」的用法，與本句語境不同。",
-        "subject-mcq-18": "「受個人感受、觀點或判斷影響的；主觀的」是「subjective」的用法，與本句語境不同。",
-        "subject-mcq-13": "「容易遭受或受到某種情況影響」是「subject to something — vulnerable」的用法，與本句語境不同。"
+        "subject-mcq-16": "本句的「On the subject of education」指「說到／關於某一話題」。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-16"
     },
@@ -2149,11 +1937,9 @@ export default {
       "masked": "While we’re ____, when is the next one?",
       "options": [
         "subject-mcq-16",
-        "subject-mcq-15",
-        "subject-mcq-17",
-        "subject-mcq-14",
-        "subject-mcq-18",
-        "subject-mcq-13"
+        "subject-mcq-02",
+        "subject-mcq-09",
+        "subject-mcq-19"
       ],
       "explanation": "本句的「on the subject of exams」指「說到／關於某一話題」。",
       "sentenceIndex": 53,
@@ -2162,12 +1948,10 @@ export default {
         "on the subject of exams"
       ],
       "optionReasons": {
-        "subject-mcq-16": "本句指「說到／關於某一話題」。",
-        "subject-mcq-15": "「停止原本話題並開始談另一件事」是「change the subject」的用法，與本句語境不同。",
-        "subject-mcq-17": "「某作品、課程或討論所處理的主要內容／題材」是「subject matter」的用法，與本句語境不同。",
-        "subject-mcq-14": "「受某項法律、制度或規則約束」是「subject to law/rules」的用法，與本句語境不同。",
-        "subject-mcq-18": "「受個人感受、觀點或判斷影響的；主觀的」是「subjective」的用法，與本句語境不同。",
-        "subject-mcq-13": "「容易遭受或受到某種情況影響」是「subject to something — vulnerable」的用法，與本句語境不同。"
+        "subject-mcq-16": "本句的「on the subject of exams」指「說到／關於某一話題」。",
+        "subject-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-16"
     },
@@ -2179,10 +1963,8 @@ export default {
       "masked": "The ____ is quite technical.",
       "options": [
         "subject-mcq-17",
-        "subject-mcq-16",
-        "subject-mcq-18",
-        "subject-mcq-15",
-        "subject-mcq-19",
+        "subject-mcq-09",
+        "subject-mcq-11",
         "subject-mcq-14"
       ],
       "explanation": "本句的「subject matter」指「某作品、課程或討論所處理的主要內容／題材」。",
@@ -2192,12 +1974,10 @@ export default {
         "subject matter"
       ],
       "optionReasons": {
-        "subject-mcq-17": "本句指「某作品、課程或討論所處理的主要內容／題材」。",
-        "subject-mcq-16": "「說到／關於某一話題」是「on the subject of...」的用法，與本句語境不同。",
-        "subject-mcq-18": "「受個人感受、觀點或判斷影響的；主觀的」是「subjective」的用法，與本句語境不同。",
-        "subject-mcq-15": "「停止原本話題並開始談另一件事」是「change the subject」的用法，與本句語境不同。",
-        "subject-mcq-19": "「個人觀點與感受對判斷所造成的主觀性」是「subjectivity」的用法，與本句語境不同。",
-        "subject-mcq-14": "「受某項法律、制度或規則約束」是「subject to law/rules」的用法，與本句語境不同。"
+        "subject-mcq-17": "本句的「subject matter」指「某作品、課程或討論所處理的主要內容／題材」。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-17"
     },
@@ -2209,10 +1989,8 @@ export default {
       "masked": "The film deals with difficult ____.",
       "options": [
         "subject-mcq-17",
-        "subject-mcq-16",
-        "subject-mcq-18",
-        "subject-mcq-15",
-        "subject-mcq-19",
+        "subject-mcq-09",
+        "subject-mcq-11",
         "subject-mcq-14"
       ],
       "explanation": "本句的「subject matter」指「某作品、課程或討論所處理的主要內容／題材」。",
@@ -2222,12 +2000,10 @@ export default {
         "subject matter"
       ],
       "optionReasons": {
-        "subject-mcq-17": "本句指「某作品、課程或討論所處理的主要內容／題材」。",
-        "subject-mcq-16": "「說到／關於某一話題」是「on the subject of...」的用法，與本句語境不同。",
-        "subject-mcq-18": "「受個人感受、觀點或判斷影響的；主觀的」是「subjective」的用法，與本句語境不同。",
-        "subject-mcq-15": "「停止原本話題並開始談另一件事」是「change the subject」的用法，與本句語境不同。",
-        "subject-mcq-19": "「個人觀點與感受對判斷所造成的主觀性」是「subjectivity」的用法，與本句語境不同。",
-        "subject-mcq-14": "「受某項法律、制度或規則約束」是「subject to law/rules」的用法，與本句語境不同。"
+        "subject-mcq-17": "本句的「subject matter」指「某作品、課程或討論所處理的主要內容／題材」。",
+        "subject-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "subject-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subject-mcq-17"
     }
@@ -2239,5 +2015,7 @@ export default {
     "sha256": "b809e4cd6a9793a2bfcfb149bdc38d4ff196d8f020873860ebc5e30464c2ab7d",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

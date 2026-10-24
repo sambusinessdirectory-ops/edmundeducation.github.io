@@ -492,11 +492,9 @@ export default {
       "masked": "Please ____ the keys on the table.",
       "options": [
         "put-mcq-01",
-        "put-mcq-02",
-        "put-mcq-03",
-        "put-mcq-04",
-        "put-mcq-05",
-        "put-mcq-06"
+        "put-mcq-14",
+        "put-mcq-10",
+        "put-mcq-17"
       ],
       "explanation": "本句的「put」指「把某物移動並放置到指定位置」。",
       "sentenceIndex": 0,
@@ -505,12 +503,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-01": "本句指「把某物移動並放置到指定位置」。",
-        "put-mcq-02": "「把衣物、配件或可穿戴裝置放到身體適當位置並開始穿戴」是「put clothing/headphones on」的用法，與本句語境不同。",
-        "put-mcq-03": "「使某人或某事物進入某種狀態或處境」是「put someone in a state/situation」的用法，與本句語境不同。",
-        "put-mcq-04": "「使某人或某物承受壓力、風險或其他影響」是「put someone under pressure / at risk」的用法，與本句語境不同。",
-        "put-mcq-05": "「把想法或感受轉化成可以說出或寫出的語言」是「put something into words/writing」的用法，與本句語境不同。",
-        "put-mcq-06": "「以某種特定措辭或方式表達一件事情」是「put it simply/another way」的用法，與本句語境不同。"
+        "put-mcq-01": "本句的「put」指「把某物移動並放置到指定位置」。",
+        "put-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-01"
     },
@@ -522,11 +518,9 @@ export default {
       "masked": "She ____ the documents in her bag.",
       "options": [
         "put-mcq-01",
-        "put-mcq-02",
-        "put-mcq-03",
-        "put-mcq-04",
-        "put-mcq-05",
-        "put-mcq-06"
+        "put-mcq-14",
+        "put-mcq-10",
+        "put-mcq-05"
       ],
       "explanation": "本句的「put」指「把某物移動並放置到指定位置」。",
       "sentenceIndex": 1,
@@ -535,12 +529,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-01": "本句指「把某物移動並放置到指定位置」。",
-        "put-mcq-02": "「把衣物、配件或可穿戴裝置放到身體適當位置並開始穿戴」是「put clothing/headphones on」的用法，與本句語境不同。",
-        "put-mcq-03": "「使某人或某事物進入某種狀態或處境」是「put someone in a state/situation」的用法，與本句語境不同。",
-        "put-mcq-04": "「使某人或某物承受壓力、風險或其他影響」是「put someone under pressure / at risk」的用法，與本句語境不同。",
-        "put-mcq-05": "「把想法或感受轉化成可以說出或寫出的語言」是「put something into words/writing」的用法，與本句語境不同。",
-        "put-mcq-06": "「以某種特定措辭或方式表達一件事情」是「put it simply/another way」的用法，與本句語境不同。"
+        "put-mcq-01": "本句的「put」指「把某物移動並放置到指定位置」。",
+        "put-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-01"
     },
@@ -552,11 +544,9 @@ export default {
       "masked": "As soon as they ____, everything seemed to fade into the background.",
       "options": [
         "put-mcq-02",
-        "put-mcq-01",
-        "put-mcq-03",
-        "put-mcq-04",
-        "put-mcq-05",
-        "put-mcq-06"
+        "put-mcq-08",
+        "put-mcq-09",
+        "put-mcq-15"
       ],
       "explanation": "本句的「put the headphones on」指「把衣物、配件或可穿戴裝置放到身體適當位置並開始穿戴」。",
       "sentenceIndex": 2,
@@ -565,12 +555,10 @@ export default {
         "put the headphones on"
       ],
       "optionReasons": {
-        "put-mcq-02": "本句指「把衣物、配件或可穿戴裝置放到身體適當位置並開始穿戴」。",
-        "put-mcq-01": "「把某物移動並放置到指定位置」是「put something somewhere」的用法，與本句語境不同。",
-        "put-mcq-03": "「使某人或某事物進入某種狀態或處境」是「put someone in a state/situation」的用法，與本句語境不同。",
-        "put-mcq-04": "「使某人或某物承受壓力、風險或其他影響」是「put someone under pressure / at risk」的用法，與本句語境不同。",
-        "put-mcq-05": "「把想法或感受轉化成可以說出或寫出的語言」是「put something into words/writing」的用法，與本句語境不同。",
-        "put-mcq-06": "「以某種特定措辭或方式表達一件事情」是「put it simply/another way」的用法，與本句語境不同。"
+        "put-mcq-02": "本句的「put the headphones on」指「把衣物、配件或可穿戴裝置放到身體適當位置並開始穿戴」。",
+        "put-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-02"
     },
@@ -582,11 +570,9 @@ export default {
       "masked": "She ____ her glasses before reading the document.",
       "options": [
         "put-mcq-02",
-        "put-mcq-01",
-        "put-mcq-03",
-        "put-mcq-04",
         "put-mcq-05",
-        "put-mcq-06"
+        "put-mcq-14",
+        "put-mcq-20"
       ],
       "explanation": "本句的「put on」指「把衣物、配件或可穿戴裝置放到身體適當位置並開始穿戴」。",
       "sentenceIndex": 3,
@@ -595,12 +581,10 @@ export default {
         "put on"
       ],
       "optionReasons": {
-        "put-mcq-02": "本句指「把衣物、配件或可穿戴裝置放到身體適當位置並開始穿戴」。",
-        "put-mcq-01": "「把某物移動並放置到指定位置」是「put something somewhere」的用法，與本句語境不同。",
-        "put-mcq-03": "「使某人或某事物進入某種狀態或處境」是「put someone in a state/situation」的用法，與本句語境不同。",
-        "put-mcq-04": "「使某人或某物承受壓力、風險或其他影響」是「put someone under pressure / at risk」的用法，與本句語境不同。",
-        "put-mcq-05": "「把想法或感受轉化成可以說出或寫出的語言」是「put something into words/writing」的用法，與本句語境不同。",
-        "put-mcq-06": "「以某種特定措辭或方式表達一件事情」是「put it simply/another way」的用法，與本句語境不同。"
+        "put-mcq-02": "本句的「put on」指「把衣物、配件或可穿戴裝置放到身體適當位置並開始穿戴」。",
+        "put-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-02"
     },
@@ -612,11 +596,9 @@ export default {
       "masked": "He ____ before going outside.",
       "options": [
         "put-mcq-02",
-        "put-mcq-01",
-        "put-mcq-03",
-        "put-mcq-04",
-        "put-mcq-05",
-        "put-mcq-06"
+        "put-mcq-07",
+        "put-mcq-13",
+        "put-mcq-10"
       ],
       "explanation": "本句的「put his jacket on」指「把衣物、配件或可穿戴裝置放到身體適當位置並開始穿戴」。",
       "sentenceIndex": 4,
@@ -625,12 +607,10 @@ export default {
         "put his jacket on"
       ],
       "optionReasons": {
-        "put-mcq-02": "本句指「把衣物、配件或可穿戴裝置放到身體適當位置並開始穿戴」。",
-        "put-mcq-01": "「把某物移動並放置到指定位置」是「put something somewhere」的用法，與本句語境不同。",
-        "put-mcq-03": "「使某人或某事物進入某種狀態或處境」是「put someone in a state/situation」的用法，與本句語境不同。",
-        "put-mcq-04": "「使某人或某物承受壓力、風險或其他影響」是「put someone under pressure / at risk」的用法，與本句語境不同。",
-        "put-mcq-05": "「把想法或感受轉化成可以說出或寫出的語言」是「put something into words/writing」的用法，與本句語境不同。",
-        "put-mcq-06": "「以某種特定措辭或方式表達一件事情」是「put it simply/another way」的用法，與本句語境不同。"
+        "put-mcq-02": "本句的「put his jacket on」指「把衣物、配件或可穿戴裝置放到身體適當位置並開始穿戴」。",
+        "put-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-02"
     },
@@ -642,11 +622,9 @@ export default {
       "masked": "The delay ____ us in a difficult position.",
       "options": [
         "put-mcq-03",
-        "put-mcq-02",
-        "put-mcq-04",
-        "put-mcq-01",
-        "put-mcq-05",
-        "put-mcq-06"
+        "put-mcq-21",
+        "put-mcq-08",
+        "put-mcq-02"
       ],
       "explanation": "本句的「put」指「使某人或某事物進入某種狀態或處境」。",
       "sentenceIndex": 5,
@@ -655,12 +633,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-03": "本句指「使某人或某事物進入某種狀態或處境」。",
-        "put-mcq-02": "「把衣物、配件或可穿戴裝置放到身體適當位置並開始穿戴」是「put clothing/headphones on」的用法，與本句語境不同。",
-        "put-mcq-04": "「使某人或某物承受壓力、風險或其他影響」是「put someone under pressure / at risk」的用法，與本句語境不同。",
-        "put-mcq-01": "「把某物移動並放置到指定位置」是「put something somewhere」的用法，與本句語境不同。",
-        "put-mcq-05": "「把想法或感受轉化成可以說出或寫出的語言」是「put something into words/writing」的用法，與本句語境不同。",
-        "put-mcq-06": "「以某種特定措辭或方式表達一件事情」是「put it simply/another way」的用法，與本句語境不同。"
+        "put-mcq-03": "本句的「put」指「使某人或某事物進入某種狀態或處境」。",
+        "put-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-03"
     },
@@ -672,10 +648,8 @@ export default {
       "masked": "The good news ____ everyone in a better mood.",
       "options": [
         "put-mcq-03",
-        "put-mcq-02",
-        "put-mcq-04",
-        "put-mcq-01",
-        "put-mcq-05",
+        "put-mcq-20",
+        "put-mcq-13",
         "put-mcq-06"
       ],
       "explanation": "本句的「put」指「使某人或某事物進入某種狀態或處境」。",
@@ -685,12 +659,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-03": "本句指「使某人或某事物進入某種狀態或處境」。",
-        "put-mcq-02": "「把衣物、配件或可穿戴裝置放到身體適當位置並開始穿戴」是「put clothing/headphones on」的用法，與本句語境不同。",
-        "put-mcq-04": "「使某人或某物承受壓力、風險或其他影響」是「put someone under pressure / at risk」的用法，與本句語境不同。",
-        "put-mcq-01": "「把某物移動並放置到指定位置」是「put something somewhere」的用法，與本句語境不同。",
-        "put-mcq-05": "「把想法或感受轉化成可以說出或寫出的語言」是「put something into words/writing」的用法，與本句語境不同。",
-        "put-mcq-06": "「以某種特定措辭或方式表達一件事情」是「put it simply/another way」的用法，與本句語境不同。"
+        "put-mcq-03": "本句的「put」指「使某人或某事物進入某種狀態或處境」。",
+        "put-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-03"
     },
@@ -702,11 +674,9 @@ export default {
       "masked": "The deadline ____ the team under enormous pressure.",
       "options": [
         "put-mcq-04",
-        "put-mcq-03",
-        "put-mcq-05",
-        "put-mcq-02",
-        "put-mcq-06",
-        "put-mcq-01"
+        "put-mcq-20",
+        "put-mcq-17",
+        "put-mcq-18"
       ],
       "explanation": "本句的「put」指「使某人或某物承受壓力、風險或其他影響」。",
       "sentenceIndex": 7,
@@ -715,12 +685,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-04": "本句指「使某人或某物承受壓力、風險或其他影響」。",
-        "put-mcq-03": "「使某人或某事物進入某種狀態或處境」是「put someone in a state/situation」的用法，與本句語境不同。",
-        "put-mcq-05": "「把想法或感受轉化成可以說出或寫出的語言」是「put something into words/writing」的用法，與本句語境不同。",
-        "put-mcq-02": "「把衣物、配件或可穿戴裝置放到身體適當位置並開始穿戴」是「put clothing/headphones on」的用法，與本句語境不同。",
-        "put-mcq-06": "「以某種特定措辭或方式表達一件事情」是「put it simply/another way」的用法，與本句語境不同。",
-        "put-mcq-01": "「把某物移動並放置到指定位置」是「put something somewhere」的用法，與本句語境不同。"
+        "put-mcq-04": "本句的「put」指「使某人或某物承受壓力、風險或其他影響」。",
+        "put-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-04"
     },
@@ -732,11 +700,9 @@ export default {
       "masked": "The decision could ____ jobs at risk.",
       "options": [
         "put-mcq-04",
-        "put-mcq-03",
-        "put-mcq-05",
-        "put-mcq-02",
-        "put-mcq-06",
-        "put-mcq-01"
+        "put-mcq-18",
+        "put-mcq-12",
+        "put-mcq-06"
       ],
       "explanation": "本句的「put」指「使某人或某物承受壓力、風險或其他影響」。",
       "sentenceIndex": 8,
@@ -745,12 +711,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-04": "本句指「使某人或某物承受壓力、風險或其他影響」。",
-        "put-mcq-03": "「使某人或某事物進入某種狀態或處境」是「put someone in a state/situation」的用法，與本句語境不同。",
-        "put-mcq-05": "「把想法或感受轉化成可以說出或寫出的語言」是「put something into words/writing」的用法，與本句語境不同。",
-        "put-mcq-02": "「把衣物、配件或可穿戴裝置放到身體適當位置並開始穿戴」是「put clothing/headphones on」的用法，與本句語境不同。",
-        "put-mcq-06": "「以某種特定措辭或方式表達一件事情」是「put it simply/another way」的用法，與本句語境不同。",
-        "put-mcq-01": "「把某物移動並放置到指定位置」是「put something somewhere」的用法，與本句語境不同。"
+        "put-mcq-04": "本句的「put」指「使某人或某物承受壓力、風險或其他影響」。",
+        "put-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-04"
     },
@@ -762,11 +726,9 @@ export default {
       "masked": "It is difficult to ____ this feeling into words.",
       "options": [
         "put-mcq-05",
-        "put-mcq-04",
-        "put-mcq-06",
-        "put-mcq-03",
-        "put-mcq-07",
-        "put-mcq-02"
+        "put-mcq-14",
+        "put-mcq-10",
+        "put-mcq-20"
       ],
       "explanation": "本句的「put」指「把想法或感受轉化成可以說出或寫出的語言」。",
       "sentenceIndex": 9,
@@ -775,12 +737,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-05": "本句指「把想法或感受轉化成可以說出或寫出的語言」。",
-        "put-mcq-04": "「使某人或某物承受壓力、風險或其他影響」是「put someone under pressure / at risk」的用法，與本句語境不同。",
-        "put-mcq-06": "「以某種特定措辭或方式表達一件事情」是「put it simply/another way」的用法，與本句語境不同。",
-        "put-mcq-03": "「使某人或某事物進入某種狀態或處境」是「put someone in a state/situation」的用法，與本句語境不同。",
-        "put-mcq-07": "「把問題、建議或提案提出給某人考慮或回答」是「put a question/proposal to someone」的用法，與本句語境不同。",
-        "put-mcq-02": "「把衣物、配件或可穿戴裝置放到身體適當位置並開始穿戴」是「put clothing/headphones on」的用法，與本句語境不同。"
+        "put-mcq-05": "本句的「put」指「把想法或感受轉化成可以說出或寫出的語言」。",
+        "put-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-05"
     },
@@ -792,10 +752,8 @@ export default {
       "masked": "She ____ her concerns in writing.",
       "options": [
         "put-mcq-05",
-        "put-mcq-04",
+        "put-mcq-11",
         "put-mcq-06",
-        "put-mcq-03",
-        "put-mcq-07",
         "put-mcq-02"
       ],
       "explanation": "本句的「put」指「把想法或感受轉化成可以說出或寫出的語言」。",
@@ -805,12 +763,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-05": "本句指「把想法或感受轉化成可以說出或寫出的語言」。",
-        "put-mcq-04": "「使某人或某物承受壓力、風險或其他影響」是「put someone under pressure / at risk」的用法，與本句語境不同。",
-        "put-mcq-06": "「以某種特定措辭或方式表達一件事情」是「put it simply/another way」的用法，與本句語境不同。",
-        "put-mcq-03": "「使某人或某事物進入某種狀態或處境」是「put someone in a state/situation」的用法，與本句語境不同。",
-        "put-mcq-07": "「把問題、建議或提案提出給某人考慮或回答」是「put a question/proposal to someone」的用法，與本句語境不同。",
-        "put-mcq-02": "「把衣物、配件或可穿戴裝置放到身體適當位置並開始穿戴」是「put clothing/headphones on」的用法，與本句語境不同。"
+        "put-mcq-05": "本句的「put」指「把想法或感受轉化成可以說出或寫出的語言」。",
+        "put-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-05"
     },
@@ -822,11 +778,9 @@ export default {
       "masked": "To ____, the plan costs too much.",
       "options": [
         "put-mcq-06",
-        "put-mcq-05",
-        "put-mcq-07",
         "put-mcq-04",
-        "put-mcq-08",
-        "put-mcq-03"
+        "put-mcq-10",
+        "put-mcq-05"
       ],
       "explanation": "本句的「put it simply」指「以某種特定措辭或方式表達一件事情」。",
       "sentenceIndex": 11,
@@ -835,12 +789,10 @@ export default {
         "put it simply"
       ],
       "optionReasons": {
-        "put-mcq-06": "本句指「以某種特定措辭或方式表達一件事情」。",
-        "put-mcq-05": "「把想法或感受轉化成可以說出或寫出的語言」是「put something into words/writing」的用法，與本句語境不同。",
-        "put-mcq-07": "「把問題、建議或提案提出給某人考慮或回答」是「put a question/proposal to someone」的用法，與本句語境不同。",
-        "put-mcq-04": "「使某人或某物承受壓力、風險或其他影響」是「put someone under pressure / at risk」的用法，與本句語境不同。",
-        "put-mcq-08": "「為某事估算或指定某個金額或數值」是「put a price/value/figure on something」的用法，與本句語境不同。",
-        "put-mcq-03": "「使某人或某事物進入某種狀態或處境」是「put someone in a state/situation」的用法，與本句語境不同。"
+        "put-mcq-06": "本句的「put it simply」指「以某種特定措辭或方式表達一件事情」。",
+        "put-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-06"
     },
@@ -852,11 +804,9 @@ export default {
       "masked": "Let me ____.",
       "options": [
         "put-mcq-06",
-        "put-mcq-05",
-        "put-mcq-07",
-        "put-mcq-04",
-        "put-mcq-08",
-        "put-mcq-03"
+        "put-mcq-03",
+        "put-mcq-17",
+        "put-pdf-001"
       ],
       "explanation": "本句的「put it another way」指「以某種特定措辭或方式表達一件事情」。",
       "sentenceIndex": 12,
@@ -865,12 +815,10 @@ export default {
         "put it another way"
       ],
       "optionReasons": {
-        "put-mcq-06": "本句指「以某種特定措辭或方式表達一件事情」。",
-        "put-mcq-05": "「把想法或感受轉化成可以說出或寫出的語言」是「put something into words/writing」的用法，與本句語境不同。",
-        "put-mcq-07": "「把問題、建議或提案提出給某人考慮或回答」是「put a question/proposal to someone」的用法，與本句語境不同。",
-        "put-mcq-04": "「使某人或某物承受壓力、風險或其他影響」是「put someone under pressure / at risk」的用法，與本句語境不同。",
-        "put-mcq-08": "「為某事估算或指定某個金額或數值」是「put a price/value/figure on something」的用法，與本句語境不同。",
-        "put-mcq-03": "「使某人或某事物進入某種狀態或處境」是「put someone in a state/situation」的用法，與本句語境不同。"
+        "put-mcq-06": "本句的「put it another way」指「以某種特定措辭或方式表達一件事情」。",
+        "put-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "put-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-06"
     },
@@ -882,11 +830,9 @@ export default {
       "masked": "I ____ the question to the manager.",
       "options": [
         "put-mcq-07",
+        "put-mcq-02",
         "put-mcq-06",
-        "put-mcq-08",
-        "put-mcq-05",
-        "put-mcq-09",
-        "put-mcq-04"
+        "put-mcq-16"
       ],
       "explanation": "本句的「put」指「把問題、建議或提案提出給某人考慮或回答」。",
       "sentenceIndex": 13,
@@ -895,12 +841,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-07": "本句指「把問題、建議或提案提出給某人考慮或回答」。",
-        "put-mcq-06": "「以某種特定措辭或方式表達一件事情」是「put it simply/another way」的用法，與本句語境不同。",
-        "put-mcq-08": "「為某事估算或指定某個金額或數值」是「put a price/value/figure on something」的用法，與本句語境不同。",
-        "put-mcq-05": "「把想法或感受轉化成可以說出或寫出的語言」是「put something into words/writing」的用法，與本句語境不同。",
-        "put-mcq-09": "「把金錢、時間或其他資源投入某項事情」是「put money/resources into something」的用法，與本句語境不同。",
-        "put-mcq-04": "「使某人或某物承受壓力、風險或其他影響」是「put someone under pressure / at risk」的用法，與本句語境不同。"
+        "put-mcq-07": "本句的「put」指「把問題、建議或提案提出給某人考慮或回答」。",
+        "put-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-07"
     },
@@ -912,11 +856,9 @@ export default {
       "masked": "The proposal was ____ to the committee.",
       "options": [
         "put-mcq-07",
-        "put-mcq-06",
-        "put-mcq-08",
-        "put-mcq-05",
         "put-mcq-09",
-        "put-mcq-04"
+        "put-mcq-17",
+        "put-mcq-13"
       ],
       "explanation": "本句的「put」指「把問題、建議或提案提出給某人考慮或回答」。",
       "sentenceIndex": 14,
@@ -925,12 +867,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-07": "本句指「把問題、建議或提案提出給某人考慮或回答」。",
-        "put-mcq-06": "「以某種特定措辭或方式表達一件事情」是「put it simply/another way」的用法，與本句語境不同。",
-        "put-mcq-08": "「為某事估算或指定某個金額或數值」是「put a price/value/figure on something」的用法，與本句語境不同。",
-        "put-mcq-05": "「把想法或感受轉化成可以說出或寫出的語言」是「put something into words/writing」的用法，與本句語境不同。",
-        "put-mcq-09": "「把金錢、時間或其他資源投入某項事情」是「put money/resources into something」的用法，與本句語境不同。",
-        "put-mcq-04": "「使某人或某物承受壓力、風險或其他影響」是「put someone under pressure / at risk」的用法，與本句語境不同。"
+        "put-mcq-07": "本句的「put」指「把問題、建議或提案提出給某人考慮或回答」。",
+        "put-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-07"
     },
@@ -942,11 +882,9 @@ export default {
       "masked": "It is difficult to ____ a price on good health.",
       "options": [
         "put-mcq-08",
-        "put-mcq-07",
-        "put-mcq-09",
-        "put-mcq-06",
-        "put-mcq-10",
-        "put-mcq-05"
+        "put-mcq-14",
+        "put-mcq-17",
+        "put-pdf-001"
       ],
       "explanation": "本句的「put」指「為某事估算或指定某個金額或數值」。",
       "sentenceIndex": 15,
@@ -955,12 +893,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-08": "本句指「為某事估算或指定某個金額或數值」。",
-        "put-mcq-07": "「把問題、建議或提案提出給某人考慮或回答」是「put a question/proposal to someone」的用法，與本句語境不同。",
-        "put-mcq-09": "「把金錢、時間或其他資源投入某項事情」是「put money/resources into something」的用法，與本句語境不同。",
-        "put-mcq-06": "「以某種特定措辭或方式表達一件事情」是「put it simply/another way」的用法，與本句語境不同。",
-        "put-mcq-10": "「為某事投入大量精力、時間和心力」是「put effort/work into something」的用法，與本句語境不同。",
-        "put-mcq-05": "「把想法或感受轉化成可以說出或寫出的語言」是「put something into words/writing」的用法，與本句語境不同。"
+        "put-mcq-08": "本句的「put」指「為某事估算或指定某個金額或數值」。",
+        "put-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "put-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-08"
     },
@@ -972,11 +908,9 @@ export default {
       "masked": "Experts ____ the cost at around two million dollars.",
       "options": [
         "put-mcq-08",
-        "put-mcq-07",
-        "put-mcq-09",
-        "put-mcq-06",
-        "put-mcq-10",
-        "put-mcq-05"
+        "put-mcq-18",
+        "put-mcq-20",
+        "put-mcq-04"
       ],
       "explanation": "本句的「put」指「為某事估算或指定某個金額或數值」。",
       "sentenceIndex": 16,
@@ -985,12 +919,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-08": "本句指「為某事估算或指定某個金額或數值」。",
-        "put-mcq-07": "「把問題、建議或提案提出給某人考慮或回答」是「put a question/proposal to someone」的用法，與本句語境不同。",
-        "put-mcq-09": "「把金錢、時間或其他資源投入某項事情」是「put money/resources into something」的用法，與本句語境不同。",
-        "put-mcq-06": "「以某種特定措辭或方式表達一件事情」是「put it simply/another way」的用法，與本句語境不同。",
-        "put-mcq-10": "「為某事投入大量精力、時間和心力」是「put effort/work into something」的用法，與本句語境不同。",
-        "put-mcq-05": "「把想法或感受轉化成可以說出或寫出的語言」是「put something into words/writing」的用法，與本句語境不同。"
+        "put-mcq-08": "本句的「put」指「為某事估算或指定某個金額或數值」。",
+        "put-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-08"
     },
@@ -1002,11 +934,9 @@ export default {
       "masked": "The company ____ millions of dollars into the new project.",
       "options": [
         "put-mcq-09",
-        "put-mcq-08",
-        "put-mcq-10",
-        "put-mcq-07",
-        "put-mcq-11",
-        "put-mcq-06"
+        "put-mcq-15",
+        "put-mcq-17",
+        "put-mcq-02"
       ],
       "explanation": "本句的「put」指「把金錢、時間或其他資源投入某項事情」。",
       "sentenceIndex": 17,
@@ -1015,12 +945,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-09": "本句指「把金錢、時間或其他資源投入某項事情」。",
-        "put-mcq-08": "「為某事估算或指定某個金額或數值」是「put a price/value/figure on something」的用法，與本句語境不同。",
-        "put-mcq-10": "「為某事投入大量精力、時間和心力」是「put effort/work into something」的用法，與本句語境不同。",
-        "put-mcq-07": "「把問題、建議或提案提出給某人考慮或回答」是「put a question/proposal to someone」的用法，與本句語境不同。",
-        "put-mcq-11": "「安排或指派某人擔任某個角色／責任」是「put someone in charge/a role」的用法，與本句語境不同。",
-        "put-mcq-06": "「以某種特定措辭或方式表達一件事情」是「put it simply/another way」的用法，與本句語境不同。"
+        "put-mcq-09": "本句的「put」指「把金錢、時間或其他資源投入某項事情」。",
+        "put-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-09"
     },
@@ -1032,11 +960,9 @@ export default {
       "masked": "She ____ a lot of time into preparing the presentation.",
       "options": [
         "put-mcq-09",
-        "put-mcq-08",
-        "put-mcq-10",
-        "put-mcq-07",
+        "put-mcq-17",
         "put-mcq-11",
-        "put-mcq-06"
+        "put-mcq-21"
       ],
       "explanation": "本句的「put」指「把金錢、時間或其他資源投入某項事情」。",
       "sentenceIndex": 18,
@@ -1045,12 +971,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-09": "本句指「把金錢、時間或其他資源投入某項事情」。",
-        "put-mcq-08": "「為某事估算或指定某個金額或數值」是「put a price/value/figure on something」的用法，與本句語境不同。",
-        "put-mcq-10": "「為某事投入大量精力、時間和心力」是「put effort/work into something」的用法，與本句語境不同。",
-        "put-mcq-07": "「把問題、建議或提案提出給某人考慮或回答」是「put a question/proposal to someone」的用法，與本句語境不同。",
-        "put-mcq-11": "「安排或指派某人擔任某個角色／責任」是「put someone in charge/a role」的用法，與本句語境不同。",
-        "put-mcq-06": "「以某種特定措辭或方式表達一件事情」是「put it simply/another way」的用法，與本句語境不同。"
+        "put-mcq-09": "本句的「put」指「把金錢、時間或其他資源投入某項事情」。",
+        "put-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-09"
     },
@@ -1062,11 +986,9 @@ export default {
       "masked": "He ____ a great deal of effort into improving his English.",
       "options": [
         "put-mcq-10",
-        "put-mcq-09",
-        "put-mcq-11",
-        "put-mcq-08",
-        "put-mcq-12",
-        "put-mcq-07"
+        "put-mcq-05",
+        "put-mcq-01",
+        "put-mcq-16"
       ],
       "explanation": "本句的「put」指「為某事投入大量精力、時間和心力」。",
       "sentenceIndex": 19,
@@ -1075,12 +997,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-10": "本句指「為某事投入大量精力、時間和心力」。",
-        "put-mcq-09": "「把金錢、時間或其他資源投入某項事情」是「put money/resources into something」的用法，與本句語境不同。",
-        "put-mcq-11": "「安排或指派某人擔任某個角色／責任」是「put someone in charge/a role」的用法，與本句語境不同。",
-        "put-mcq-08": "「為某事估算或指定某個金額或數值」是「put a price/value/figure on something」的用法，與本句語境不同。",
-        "put-mcq-12": "「把資料寫入、輸入或記錄在指定位置」是「put information somewhere」的用法，與本句語境不同。",
-        "put-mcq-07": "「把問題、建議或提案提出給某人考慮或回答」是「put a question/proposal to someone」的用法，與本句語境不同。"
+        "put-mcq-10": "本句的「put」指「為某事投入大量精力、時間和心力」。",
+        "put-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-10"
     },
@@ -1092,11 +1012,9 @@ export default {
       "masked": "They ____ a lot of work into the campaign.",
       "options": [
         "put-mcq-10",
-        "put-mcq-09",
-        "put-mcq-11",
-        "put-mcq-08",
-        "put-mcq-12",
-        "put-mcq-07"
+        "put-pdf-001",
+        "put-mcq-17",
+        "put-mcq-02"
       ],
       "explanation": "本句的「put」指「為某事投入大量精力、時間和心力」。",
       "sentenceIndex": 20,
@@ -1105,12 +1023,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-10": "本句指「為某事投入大量精力、時間和心力」。",
-        "put-mcq-09": "「把金錢、時間或其他資源投入某項事情」是「put money/resources into something」的用法，與本句語境不同。",
-        "put-mcq-11": "「安排或指派某人擔任某個角色／責任」是「put someone in charge/a role」的用法，與本句語境不同。",
-        "put-mcq-08": "「為某事估算或指定某個金額或數值」是「put a price/value/figure on something」的用法，與本句語境不同。",
-        "put-mcq-12": "「把資料寫入、輸入或記錄在指定位置」是「put information somewhere」的用法，與本句語境不同。",
-        "put-mcq-07": "「把問題、建議或提案提出給某人考慮或回答」是「put a question/proposal to someone」的用法，與本句語境不同。"
+        "put-mcq-10": "本句的「put」指「為某事投入大量精力、時間和心力」。",
+        "put-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-10"
     },
@@ -1122,11 +1038,9 @@ export default {
       "masked": "They ____ her in charge of the project.",
       "options": [
         "put-mcq-11",
+        "put-mcq-21",
         "put-mcq-10",
-        "put-mcq-12",
-        "put-mcq-09",
-        "put-mcq-13",
-        "put-mcq-08"
+        "put-mcq-20"
       ],
       "explanation": "本句的「put」指「安排或指派某人擔任某個角色／責任」。",
       "sentenceIndex": 21,
@@ -1135,12 +1049,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-11": "本句指「安排或指派某人擔任某個角色／責任」。",
-        "put-mcq-10": "「為某事投入大量精力、時間和心力」是「put effort/work into something」的用法，與本句語境不同。",
-        "put-mcq-12": "「把資料寫入、輸入或記錄在指定位置」是「put information somewhere」的用法，與本句語境不同。",
-        "put-mcq-09": "「把金錢、時間或其他資源投入某項事情」是「put money/resources into something」的用法，與本句語境不同。",
-        "put-mcq-13": "「把事物安排到指定次序或分類中」是「put something in order/category」的用法，與本句語境不同。",
-        "put-mcq-08": "「為某事估算或指定某個金額或數值」是「put a price/value/figure on something」的用法，與本句語境不同。"
+        "put-mcq-11": "本句的「put」指「安排或指派某人擔任某個角色／責任」。",
+        "put-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-11"
     },
@@ -1153,10 +1065,8 @@ export default {
       "options": [
         "put-mcq-11",
         "put-mcq-10",
-        "put-mcq-12",
-        "put-mcq-09",
-        "put-mcq-13",
-        "put-mcq-08"
+        "put-mcq-05",
+        "put-mcq-18"
       ],
       "explanation": "本句的「put」指「安排或指派某人擔任某個角色／責任」。",
       "sentenceIndex": 22,
@@ -1165,12 +1075,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-11": "本句指「安排或指派某人擔任某個角色／責任」。",
-        "put-mcq-10": "「為某事投入大量精力、時間和心力」是「put effort/work into something」的用法，與本句語境不同。",
-        "put-mcq-12": "「把資料寫入、輸入或記錄在指定位置」是「put information somewhere」的用法，與本句語境不同。",
-        "put-mcq-09": "「把金錢、時間或其他資源投入某項事情」是「put money/resources into something」的用法，與本句語境不同。",
-        "put-mcq-13": "「把事物安排到指定次序或分類中」是「put something in order/category」的用法，與本句語境不同。",
-        "put-mcq-08": "「為某事估算或指定某個金額或數值」是「put a price/value/figure on something」的用法，與本句語境不同。"
+        "put-mcq-11": "本句的「put」指「安排或指派某人擔任某個角色／責任」。",
+        "put-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-11"
     },
@@ -1182,11 +1090,9 @@ export default {
       "masked": "____ your name at the top of the form.",
       "options": [
         "put-mcq-12",
-        "put-mcq-11",
-        "put-mcq-13",
-        "put-mcq-10",
-        "put-mcq-14",
-        "put-mcq-09"
+        "put-mcq-15",
+        "put-mcq-20",
+        "put-mcq-17"
       ],
       "explanation": "本句的「Put」指「把資料寫入、輸入或記錄在指定位置」。",
       "sentenceIndex": 23,
@@ -1195,12 +1101,10 @@ export default {
         "Put"
       ],
       "optionReasons": {
-        "put-mcq-12": "本句指「把資料寫入、輸入或記錄在指定位置」。",
-        "put-mcq-11": "「安排或指派某人擔任某個角色／責任」是「put someone in charge/a role」的用法，與本句語境不同。",
-        "put-mcq-13": "「把事物安排到指定次序或分類中」是「put something in order/category」的用法，與本句語境不同。",
-        "put-mcq-10": "「為某事投入大量精力、時間和心力」是「put effort/work into something」的用法，與本句語境不同。",
-        "put-mcq-14": "「把責任、重要性或重點歸到某人／某事上」是「put blame/emphasis on」的用法，與本句語境不同。",
-        "put-mcq-09": "「把金錢、時間或其他資源投入某項事情」是「put money/resources into something」的用法，與本句語境不同。"
+        "put-mcq-12": "本句的「Put」指「把資料寫入、輸入或記錄在指定位置」。",
+        "put-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-12"
     },
@@ -1212,11 +1116,9 @@ export default {
       "masked": "I ____ the appointment in my calendar.",
       "options": [
         "put-mcq-12",
-        "put-mcq-11",
-        "put-mcq-13",
-        "put-mcq-10",
-        "put-mcq-14",
-        "put-mcq-09"
+        "put-mcq-17",
+        "put-mcq-07",
+        "put-mcq-16"
       ],
       "explanation": "本句的「put」指「把資料寫入、輸入或記錄在指定位置」。",
       "sentenceIndex": 24,
@@ -1225,12 +1127,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-12": "本句指「把資料寫入、輸入或記錄在指定位置」。",
-        "put-mcq-11": "「安排或指派某人擔任某個角色／責任」是「put someone in charge/a role」的用法，與本句語境不同。",
-        "put-mcq-13": "「把事物安排到指定次序或分類中」是「put something in order/category」的用法，與本句語境不同。",
-        "put-mcq-10": "「為某事投入大量精力、時間和心力」是「put effort/work into something」的用法，與本句語境不同。",
-        "put-mcq-14": "「把責任、重要性或重點歸到某人／某事上」是「put blame/emphasis on」的用法，與本句語境不同。",
-        "put-mcq-09": "「把金錢、時間或其他資源投入某項事情」是「put money/resources into something」的用法，與本句語境不同。"
+        "put-mcq-12": "本句的「put」指「把資料寫入、輸入或記錄在指定位置」。",
+        "put-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-12"
     },
@@ -1242,11 +1142,9 @@ export default {
       "masked": "Please ____ these files in alphabetical order.",
       "options": [
         "put-mcq-13",
-        "put-mcq-12",
-        "put-mcq-14",
-        "put-mcq-11",
-        "put-mcq-15",
-        "put-mcq-10"
+        "put-mcq-04",
+        "put-mcq-20",
+        "put-mcq-21"
       ],
       "explanation": "本句的「put」指「把事物安排到指定次序或分類中」。",
       "sentenceIndex": 25,
@@ -1255,12 +1153,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-13": "本句指「把事物安排到指定次序或分類中」。",
-        "put-mcq-12": "「把資料寫入、輸入或記錄在指定位置」是「put information somewhere」的用法，與本句語境不同。",
-        "put-mcq-14": "「把責任、重要性或重點歸到某人／某事上」是「put blame/emphasis on」的用法，與本句語境不同。",
-        "put-mcq-11": "「安排或指派某人擔任某個角色／責任」是「put someone in charge/a role」的用法，與本句語境不同。",
-        "put-mcq-15": "「對某人或某事寄予信任或信心」是「put trust/faith in」的用法，與本句語境不同。",
-        "put-mcq-10": "「為某事投入大量精力、時間和心力」是「put effort/work into something」的用法，與本句語境不同。"
+        "put-mcq-13": "本句的「put」指「把事物安排到指定次序或分類中」。",
+        "put-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-13"
     },
@@ -1272,11 +1168,9 @@ export default {
       "masked": "The books were ____ into different categories.",
       "options": [
         "put-mcq-13",
-        "put-mcq-12",
-        "put-mcq-14",
-        "put-mcq-11",
-        "put-mcq-15",
-        "put-mcq-10"
+        "put-mcq-10",
+        "put-mcq-04",
+        "put-mcq-20"
       ],
       "explanation": "本句的「put」指「把事物安排到指定次序或分類中」。",
       "sentenceIndex": 26,
@@ -1285,12 +1179,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-13": "本句指「把事物安排到指定次序或分類中」。",
-        "put-mcq-12": "「把資料寫入、輸入或記錄在指定位置」是「put information somewhere」的用法，與本句語境不同。",
-        "put-mcq-14": "「把責任、重要性或重點歸到某人／某事上」是「put blame/emphasis on」的用法，與本句語境不同。",
-        "put-mcq-11": "「安排或指派某人擔任某個角色／責任」是「put someone in charge/a role」的用法，與本句語境不同。",
-        "put-mcq-15": "「對某人或某事寄予信任或信心」是「put trust/faith in」的用法，與本句語境不同。",
-        "put-mcq-10": "「為某事投入大量精力、時間和心力」是「put effort/work into something」的用法，與本句語境不同。"
+        "put-mcq-13": "本句的「put」指「把事物安排到指定次序或分類中」。",
+        "put-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-13"
     },
@@ -1302,11 +1194,9 @@ export default {
       "masked": "The report ____ the blame on poor management.",
       "options": [
         "put-mcq-14",
-        "put-mcq-13",
-        "put-mcq-15",
-        "put-mcq-12",
-        "put-mcq-16",
-        "put-mcq-11"
+        "put-mcq-02",
+        "put-mcq-10",
+        "put-mcq-06"
       ],
       "explanation": "本句的「puts」指「把責任、重要性或重點歸到某人／某事上」。",
       "sentenceIndex": 27,
@@ -1315,12 +1205,10 @@ export default {
         "puts"
       ],
       "optionReasons": {
-        "put-mcq-14": "本句指「把責任、重要性或重點歸到某人／某事上」。",
-        "put-mcq-13": "「把事物安排到指定次序或分類中」是「put something in order/category」的用法，與本句語境不同。",
-        "put-mcq-15": "「對某人或某事寄予信任或信心」是「put trust/faith in」的用法，與本句語境不同。",
-        "put-mcq-12": "「把資料寫入、輸入或記錄在指定位置」是「put information somewhere」的用法，與本句語境不同。",
-        "put-mcq-16": "「安排並舉辦或上演某項活動」是「put on a show/event」的用法，與本句語境不同。",
-        "put-mcq-11": "「安排或指派某人擔任某個角色／責任」是「put someone in charge/a role」的用法，與本句語境不同。"
+        "put-mcq-14": "本句的「puts」指「把責任、重要性或重點歸到某人／某事上」。",
+        "put-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-14"
     },
@@ -1332,11 +1220,9 @@ export default {
       "masked": "The course ____ more emphasis on practical skills.",
       "options": [
         "put-mcq-14",
-        "put-mcq-13",
-        "put-mcq-15",
-        "put-mcq-12",
-        "put-mcq-16",
-        "put-mcq-11"
+        "put-mcq-18",
+        "put-mcq-09",
+        "put-mcq-13"
       ],
       "explanation": "本句的「puts」指「把責任、重要性或重點歸到某人／某事上」。",
       "sentenceIndex": 28,
@@ -1345,12 +1231,10 @@ export default {
         "puts"
       ],
       "optionReasons": {
-        "put-mcq-14": "本句指「把責任、重要性或重點歸到某人／某事上」。",
-        "put-mcq-13": "「把事物安排到指定次序或分類中」是「put something in order/category」的用法，與本句語境不同。",
-        "put-mcq-15": "「對某人或某事寄予信任或信心」是「put trust/faith in」的用法，與本句語境不同。",
-        "put-mcq-12": "「把資料寫入、輸入或記錄在指定位置」是「put information somewhere」的用法，與本句語境不同。",
-        "put-mcq-16": "「安排並舉辦或上演某項活動」是「put on a show/event」的用法，與本句語境不同。",
-        "put-mcq-11": "「安排或指派某人擔任某個角色／責任」是「put someone in charge/a role」的用法，與本句語境不同。"
+        "put-mcq-14": "本句的「puts」指「把責任、重要性或重點歸到某人／某事上」。",
+        "put-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-14"
     },
@@ -1362,11 +1246,9 @@ export default {
       "masked": "Customers ____ their trust in the company.",
       "options": [
         "put-mcq-15",
-        "put-mcq-14",
-        "put-mcq-16",
         "put-mcq-13",
-        "put-mcq-17",
-        "put-mcq-12"
+        "put-pdf-001",
+        "put-mcq-02"
       ],
       "explanation": "本句的「put」指「對某人或某事寄予信任或信心」。",
       "sentenceIndex": 29,
@@ -1375,12 +1257,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-15": "本句指「對某人或某事寄予信任或信心」。",
-        "put-mcq-14": "「把責任、重要性或重點歸到某人／某事上」是「put blame/emphasis on」的用法，與本句語境不同。",
-        "put-mcq-16": "「安排並舉辦或上演某項活動」是「put on a show/event」的用法，與本句語境不同。",
-        "put-mcq-13": "「把事物安排到指定次序或分類中」是「put something in order/category」的用法，與本句語境不同。",
-        "put-mcq-17": "「體重增加」是「put on weight」的用法，與本句語境不同。",
-        "put-mcq-12": "「把資料寫入、輸入或記錄在指定位置」是「put information somewhere」的用法，與本句語境不同。"
+        "put-mcq-15": "本句的「put」指「對某人或某事寄予信任或信心」。",
+        "put-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "put-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-15"
     },
@@ -1392,10 +1272,8 @@ export default {
       "masked": "She ____ her faith in the new treatment.",
       "options": [
         "put-mcq-15",
-        "put-mcq-14",
+        "put-mcq-05",
         "put-mcq-16",
-        "put-mcq-13",
-        "put-mcq-17",
         "put-mcq-12"
       ],
       "explanation": "本句的「put」指「對某人或某事寄予信任或信心」。",
@@ -1405,12 +1283,10 @@ export default {
         "put"
       ],
       "optionReasons": {
-        "put-mcq-15": "本句指「對某人或某事寄予信任或信心」。",
-        "put-mcq-14": "「把責任、重要性或重點歸到某人／某事上」是「put blame/emphasis on」的用法，與本句語境不同。",
-        "put-mcq-16": "「安排並舉辦或上演某項活動」是「put on a show/event」的用法，與本句語境不同。",
-        "put-mcq-13": "「把事物安排到指定次序或分類中」是「put something in order/category」的用法，與本句語境不同。",
-        "put-mcq-17": "「體重增加」是「put on weight」的用法，與本句語境不同。",
-        "put-mcq-12": "「把資料寫入、輸入或記錄在指定位置」是「put information somewhere」的用法，與本句語境不同。"
+        "put-mcq-15": "本句的「put」指「對某人或某事寄予信任或信心」。",
+        "put-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-15"
     },
@@ -1422,11 +1298,9 @@ export default {
       "masked": "The school ____ a concert for parents.",
       "options": [
         "put-mcq-16",
-        "put-mcq-15",
         "put-mcq-17",
-        "put-mcq-14",
-        "put-mcq-18",
-        "put-mcq-13"
+        "put-mcq-10",
+        "put-mcq-03"
       ],
       "explanation": "本句的「put on」指「安排並舉辦或上演某項活動」。",
       "sentenceIndex": 31,
@@ -1435,12 +1309,10 @@ export default {
         "put on"
       ],
       "optionReasons": {
-        "put-mcq-16": "本句指「安排並舉辦或上演某項活動」。",
-        "put-mcq-15": "「對某人或某事寄予信任或信心」是「put trust/faith in」的用法，與本句語境不同。",
-        "put-mcq-17": "「體重增加」是「put on weight」的用法，與本句語境不同。",
-        "put-mcq-14": "「把責任、重要性或重點歸到某人／某事上」是「put blame/emphasis on」的用法，與本句語境不同。",
-        "put-mcq-18": "「故意裝出某種聲音、表情或形象」是「put on an accent/expression」的用法，與本句語境不同。",
-        "put-mcq-13": "「把事物安排到指定次序或分類中」是「put something in order/category」的用法，與本句語境不同。"
+        "put-mcq-16": "本句的「put on」指「安排並舉辦或上演某項活動」。",
+        "put-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-16"
     },
@@ -1452,11 +1324,9 @@ export default {
       "masked": "The theatre is ____ a new play.",
       "options": [
         "put-mcq-16",
-        "put-mcq-15",
         "put-mcq-17",
-        "put-mcq-14",
         "put-mcq-18",
-        "put-mcq-13"
+        "put-mcq-05"
       ],
       "explanation": "本句的「putting on」指「安排並舉辦或上演某項活動」。",
       "sentenceIndex": 32,
@@ -1465,12 +1335,10 @@ export default {
         "putting on"
       ],
       "optionReasons": {
-        "put-mcq-16": "本句指「安排並舉辦或上演某項活動」。",
-        "put-mcq-15": "「對某人或某事寄予信任或信心」是「put trust/faith in」的用法，與本句語境不同。",
-        "put-mcq-17": "「體重增加」是「put on weight」的用法，與本句語境不同。",
-        "put-mcq-14": "「把責任、重要性或重點歸到某人／某事上」是「put blame/emphasis on」的用法，與本句語境不同。",
-        "put-mcq-18": "「故意裝出某種聲音、表情或形象」是「put on an accent/expression」的用法，與本句語境不同。",
-        "put-mcq-13": "「把事物安排到指定次序或分類中」是「put something in order/category」的用法，與本句語境不同。"
+        "put-mcq-16": "本句的「putting on」指「安排並舉辦或上演某項活動」。",
+        "put-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-16"
     },
@@ -1482,11 +1350,9 @@ export default {
       "masked": "I ____ some weight during the holidays.",
       "options": [
         "put-mcq-17",
-        "put-mcq-16",
-        "put-mcq-18",
-        "put-mcq-15",
-        "put-mcq-19",
-        "put-mcq-14"
+        "put-mcq-08",
+        "put-mcq-03",
+        "put-mcq-06"
       ],
       "explanation": "本句的「put on」指「體重增加」。",
       "sentenceIndex": 33,
@@ -1495,12 +1361,10 @@ export default {
         "put on"
       ],
       "optionReasons": {
-        "put-mcq-17": "本句指「體重增加」。",
-        "put-mcq-16": "「安排並舉辦或上演某項活動」是「put on a show/event」的用法，與本句語境不同。",
-        "put-mcq-18": "「故意裝出某種聲音、表情或形象」是「put on an accent/expression」的用法，與本句語境不同。",
-        "put-mcq-15": "「對某人或某事寄予信任或信心」是「put trust/faith in」的用法，與本句語境不同。",
-        "put-mcq-19": "「「放置／安排」這個動作的 -ing 形式」是「putting — put」的用法，與本句語境不同。",
-        "put-mcq-14": "「把責任、重要性或重點歸到某人／某事上」是「put blame/emphasis on」的用法，與本句語境不同。"
+        "put-mcq-17": "本句的「put on」指「體重增加」。",
+        "put-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-17"
     },
@@ -1512,11 +1376,9 @@ export default {
       "masked": "He has ____ five kilos.",
       "options": [
         "put-mcq-17",
-        "put-mcq-16",
-        "put-mcq-18",
-        "put-mcq-15",
-        "put-mcq-19",
-        "put-mcq-14"
+        "put-mcq-03",
+        "put-pdf-001",
+        "put-mcq-18"
       ],
       "explanation": "本句的「put on」指「體重增加」。",
       "sentenceIndex": 34,
@@ -1525,12 +1387,10 @@ export default {
         "put on"
       ],
       "optionReasons": {
-        "put-mcq-17": "本句指「體重增加」。",
-        "put-mcq-16": "「安排並舉辦或上演某項活動」是「put on a show/event」的用法，與本句語境不同。",
-        "put-mcq-18": "「故意裝出某種聲音、表情或形象」是「put on an accent/expression」的用法，與本句語境不同。",
-        "put-mcq-15": "「對某人或某事寄予信任或信心」是「put trust/faith in」的用法，與本句語境不同。",
-        "put-mcq-19": "「「放置／安排」這個動作的 -ing 形式」是「putting — put」的用法，與本句語境不同。",
-        "put-mcq-14": "「把責任、重要性或重點歸到某人／某事上」是「put blame/emphasis on」的用法，與本句語境不同。"
+        "put-mcq-17": "本句的「put on」指「體重增加」。",
+        "put-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "put-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-17"
     },
@@ -1542,11 +1402,9 @@ export default {
       "masked": "He ____ a serious expression.",
       "options": [
         "put-mcq-18",
-        "put-mcq-17",
-        "put-mcq-19",
-        "put-mcq-16",
-        "put-mcq-20",
-        "put-mcq-15"
+        "put-mcq-06",
+        "put-mcq-01",
+        "put-mcq-20"
       ],
       "explanation": "本句的「put on」指「故意裝出某種聲音、表情或形象」。",
       "sentenceIndex": 35,
@@ -1555,12 +1413,10 @@ export default {
         "put on"
       ],
       "optionReasons": {
-        "put-mcq-18": "本句指「故意裝出某種聲音、表情或形象」。",
-        "put-mcq-17": "「體重增加」是「put on weight」的用法，與本句語境不同。",
-        "put-mcq-19": "「「放置／安排」這個動作的 -ing 形式」是「putting — put」的用法，與本句語境不同。",
-        "put-mcq-16": "「安排並舉辦或上演某項活動」是「put on a show/event」的用法，與本句語境不同。",
-        "put-mcq-20": "「高爾夫球中把球沿地面擊向洞口的推桿動作」是「putting — golf」的用法，與本句語境不同。",
-        "put-mcq-15": "「對某人或某事寄予信任或信心」是「put trust/faith in」的用法，與本句語境不同。"
+        "put-mcq-18": "本句的「put on」指「故意裝出某種聲音、表情或形象」。",
+        "put-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-18"
     },
@@ -1572,11 +1428,9 @@ export default {
       "masked": "She ____ a British accent as a joke.",
       "options": [
         "put-mcq-18",
-        "put-mcq-17",
-        "put-mcq-19",
-        "put-mcq-16",
-        "put-mcq-20",
-        "put-mcq-15"
+        "put-mcq-15",
+        "put-mcq-01",
+        "put-mcq-20"
       ],
       "explanation": "本句的「put on」指「故意裝出某種聲音、表情或形象」。",
       "sentenceIndex": 36,
@@ -1585,12 +1439,10 @@ export default {
         "put on"
       ],
       "optionReasons": {
-        "put-mcq-18": "本句指「故意裝出某種聲音、表情或形象」。",
-        "put-mcq-17": "「體重增加」是「put on weight」的用法，與本句語境不同。",
-        "put-mcq-19": "「「放置／安排」這個動作的 -ing 形式」是「putting — put」的用法，與本句語境不同。",
-        "put-mcq-16": "「安排並舉辦或上演某項活動」是「put on a show/event」的用法，與本句語境不同。",
-        "put-mcq-20": "「高爾夫球中把球沿地面擊向洞口的推桿動作」是「putting — golf」的用法，與本句語境不同。",
-        "put-mcq-15": "「對某人或某事寄予信任或信心」是「put trust/faith in」的用法，與本句語境不同。"
+        "put-mcq-18": "本句的「put on」指「故意裝出某種聲音、表情或形象」。",
+        "put-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-18"
     },
@@ -1602,11 +1454,9 @@ export default {
       "masked": "She was ____ the files back on the shelf.",
       "options": [
         "put-pdf-001",
-        "put-mcq-18",
-        "put-mcq-20",
-        "put-mcq-17",
-        "put-mcq-21",
-        "put-mcq-16"
+        "put-mcq-13",
+        "put-mcq-15",
+        "put-mcq-09"
       ],
       "explanation": "本句的「putting」指「put 這個動作正在進行，或把該動作當作名詞概念使用」。",
       "sentenceIndex": 37,
@@ -1615,12 +1465,10 @@ export default {
         "putting"
       ],
       "optionReasons": {
-        "put-pdf-001": "本句指「put 這個動作正在進行，或把該動作當作名詞概念使用」。",
-        "put-mcq-18": "「故意裝出某種聲音、表情或形象」是「put on an accent/expression」的用法，與本句語境不同。",
-        "put-mcq-20": "「高爾夫球中把球沿地面擊向洞口的推桿動作」是「putting — golf」的用法，與本句語境不同。",
-        "put-mcq-17": "「體重增加」是「put on weight」的用法，與本句語境不同。",
-        "put-mcq-21": "「故意裝出來、並非真實的表現或騙局」是「put-on」的用法，與本句語境不同。",
-        "put-mcq-16": "「安排並舉辦或上演某項活動」是「put on a show/event」的用法，與本句語境不同。"
+        "put-pdf-001": "本句的「putting」指「put 這個動作正在進行，或把該動作當作名詞概念使用」。",
+        "put-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-pdf-001"
     },
@@ -1632,11 +1480,9 @@ export default {
       "masked": "____ too much information on one slide can confuse the audience.",
       "options": [
         "put-pdf-001",
-        "put-mcq-18",
-        "put-mcq-20",
-        "put-mcq-17",
-        "put-mcq-21",
-        "put-mcq-16"
+        "put-mcq-04",
+        "put-mcq-10",
+        "put-mcq-06"
       ],
       "explanation": "本句的「Putting」指「put 這個動作正在進行，或把該動作當作名詞概念使用」。",
       "sentenceIndex": 38,
@@ -1645,12 +1491,10 @@ export default {
         "Putting"
       ],
       "optionReasons": {
-        "put-pdf-001": "本句指「put 這個動作正在進行，或把該動作當作名詞概念使用」。",
-        "put-mcq-18": "「故意裝出某種聲音、表情或形象」是「put on an accent/expression」的用法，與本句語境不同。",
-        "put-mcq-20": "「高爾夫球中把球沿地面擊向洞口的推桿動作」是「putting — golf」的用法，與本句語境不同。",
-        "put-mcq-17": "「體重增加」是「put on weight」的用法，與本句語境不同。",
-        "put-mcq-21": "「故意裝出來、並非真實的表現或騙局」是「put-on」的用法，與本句語境不同。",
-        "put-mcq-16": "「安排並舉辦或上演某項活動」是「put on a show/event」的用法，與本句語境不同。"
+        "put-pdf-001": "本句的「Putting」指「put 這個動作正在進行，或把該動作當作名詞概念使用」。",
+        "put-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-pdf-001"
     },
@@ -1662,11 +1506,9 @@ export default {
       "masked": "She practised her ____ before the tournament.",
       "options": [
         "put-mcq-20",
-        "put-mcq-19",
-        "put-mcq-21",
-        "put-mcq-18",
-        "put-mcq-17",
-        "put-mcq-16"
+        "put-mcq-15",
+        "put-mcq-13",
+        "put-mcq-17"
       ],
       "explanation": "本句的「putting」指「高爾夫球中把球沿地面擊向洞口的推桿動作」。",
       "sentenceIndex": 39,
@@ -1675,12 +1517,10 @@ export default {
         "putting"
       ],
       "optionReasons": {
-        "put-mcq-20": "本句指「高爾夫球中把球沿地面擊向洞口的推桿動作」。",
-        "put-mcq-19": "「「放置／安排」這個動作的 -ing 形式」是「putting — put」的用法，與本句語境不同。",
-        "put-mcq-21": "「故意裝出來、並非真實的表現或騙局」是「put-on」的用法，與本句語境不同。",
-        "put-mcq-18": "「故意裝出某種聲音、表情或形象」是「put on an accent/expression」的用法，與本句語境不同。",
-        "put-mcq-17": "「體重增加」是「put on weight」的用法，與本句語境不同。",
-        "put-mcq-16": "「安排並舉辦或上演某項活動」是「put on a show/event」的用法，與本句語境不同。"
+        "put-mcq-20": "本句的「putting」指「高爾夫球中把球沿地面擊向洞口的推桿動作」。",
+        "put-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-20"
     },
@@ -1692,11 +1532,9 @@ export default {
       "masked": "Good ____ can save several shots.",
       "options": [
         "put-mcq-20",
-        "put-mcq-19",
-        "put-mcq-21",
+        "put-mcq-03",
         "put-mcq-18",
-        "put-mcq-17",
-        "put-mcq-16"
+        "put-mcq-08"
       ],
       "explanation": "本句的「putting」指「高爾夫球中把球沿地面擊向洞口的推桿動作」。",
       "sentenceIndex": 40,
@@ -1705,12 +1543,10 @@ export default {
         "putting"
       ],
       "optionReasons": {
-        "put-mcq-20": "本句指「高爾夫球中把球沿地面擊向洞口的推桿動作」。",
-        "put-mcq-19": "「「放置／安排」這個動作的 -ing 形式」是「putting — put」的用法，與本句語境不同。",
-        "put-mcq-21": "「故意裝出來、並非真實的表現或騙局」是「put-on」的用法，與本句語境不同。",
-        "put-mcq-18": "「故意裝出某種聲音、表情或形象」是「put on an accent/expression」的用法，與本句語境不同。",
-        "put-mcq-17": "「體重增加」是「put on weight」的用法，與本句語境不同。",
-        "put-mcq-16": "「安排並舉辦或上演某項活動」是「put on a show/event」的用法，與本句語境不同。"
+        "put-mcq-20": "本句的「putting」指「高爾夫球中把球沿地面擊向洞口的推桿動作」。",
+        "put-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-20"
     },
@@ -1723,10 +1559,8 @@ export default {
       "options": [
         "put-mcq-21",
         "put-mcq-20",
-        "put-mcq-19",
-        "put-mcq-18",
-        "put-mcq-17",
-        "put-mcq-16"
+        "put-mcq-14",
+        "put-mcq-10"
       ],
       "explanation": "本句的「put-on」指「故意裝出來、並非真實的表現或騙局」。",
       "sentenceIndex": 41,
@@ -1735,12 +1569,10 @@ export default {
         "put-on"
       ],
       "optionReasons": {
-        "put-mcq-21": "本句指「故意裝出來、並非真實的表現或騙局」。",
-        "put-mcq-20": "「高爾夫球中把球沿地面擊向洞口的推桿動作」是「putting — golf」的用法，與本句語境不同。",
-        "put-mcq-19": "「「放置／安排」這個動作的 -ing 形式」是「putting — put」的用法，與本句語境不同。",
-        "put-mcq-18": "「故意裝出某種聲音、表情或形象」是「put on an accent/expression」的用法，與本句語境不同。",
-        "put-mcq-17": "「體重增加」是「put on weight」的用法，與本句語境不同。",
-        "put-mcq-16": "「安排並舉辦或上演某項活動」是「put on a show/event」的用法，與本句語境不同。"
+        "put-mcq-21": "本句的「put-on」指「故意裝出來、並非真實的表現或騙局」。",
+        "put-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-21"
     },
@@ -1752,11 +1584,9 @@ export default {
       "masked": "Her shocked reaction was obviously a ____.",
       "options": [
         "put-mcq-21",
+        "put-mcq-11",
         "put-mcq-20",
-        "put-mcq-19",
-        "put-mcq-18",
-        "put-mcq-17",
-        "put-mcq-16"
+        "put-mcq-17"
       ],
       "explanation": "本句的「put-on」指「故意裝出來、並非真實的表現或騙局」。",
       "sentenceIndex": 42,
@@ -1765,12 +1595,10 @@ export default {
         "put-on"
       ],
       "optionReasons": {
-        "put-mcq-21": "本句指「故意裝出來、並非真實的表現或騙局」。",
-        "put-mcq-20": "「高爾夫球中把球沿地面擊向洞口的推桿動作」是「putting — golf」的用法，與本句語境不同。",
-        "put-mcq-19": "「「放置／安排」這個動作的 -ing 形式」是「putting — put」的用法，與本句語境不同。",
-        "put-mcq-18": "「故意裝出某種聲音、表情或形象」是「put on an accent/expression」的用法，與本句語境不同。",
-        "put-mcq-17": "「體重增加」是「put on weight」的用法，與本句語境不同。",
-        "put-mcq-16": "「安排並舉辦或上演某項活動」是「put on a show/event」的用法，與本句語境不同。"
+        "put-mcq-21": "本句的「put-on」指「故意裝出來、並非真實的表現或騙局」。",
+        "put-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "put-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "put-mcq-21"
     }
@@ -1782,5 +1610,7 @@ export default {
     "sha256": "5e887870c9b40d75bc7561a4964f2b1a33f4a7d8b1b713981da5cb360cd18d6c",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -394,11 +394,7 @@ export default {
       "masked": "I really ____.",
       "options": [
         "enjoy-mcq-01",
-        "enjoy-mcq-02",
-        "enjoy-mcq-03",
-        "enjoy-mcq-04",
-        "enjoy-mcq-05",
-        "enjoy-mcq-06"
+        "enjoy-mcq-13"
       ],
       "explanation": "本句的「enjoy this book」指「喜歡；享受某物」。",
       "sentenceIndex": 0,
@@ -407,12 +403,8 @@ export default {
         "enjoy this book"
       ],
       "optionReasons": {
-        "enjoy-mcq-01": "本句指「喜歡；享受某物」。",
-        "enjoy-mcq-02": "「喜歡做 X」是「enjoy doing X」的用法，與本句語境不同。",
-        "enjoy-mcq-03": "「喜歡和 X 相處」是「enjoy being around X」的用法，與本句語境不同。",
-        "enjoy-mcq-04": "「喜歡某人的陪伴」是「enjoy someone's company」的用法，與本句語境不同。",
-        "enjoy-mcq-05": "「玩得開心；過得愉快」是「enjoy yourself」的用法，與本句語境不同。",
-        "enjoy-mcq-06": "「享受生活」是「enjoy life」的用法，與本句語境不同。"
+        "enjoy-mcq-01": "本句的「enjoy this book」指「喜歡；享受某物」。",
+        "enjoy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-01"
     },
@@ -424,11 +416,7 @@ export default {
       "masked": "She ____ from many different countries.",
       "options": [
         "enjoy-mcq-01",
-        "enjoy-mcq-02",
-        "enjoy-mcq-03",
-        "enjoy-mcq-04",
-        "enjoy-mcq-05",
-        "enjoy-mcq-06"
+        "enjoy-mcq-10"
       ],
       "explanation": "本句的「enjoys music」指「喜歡；享受某物」。",
       "sentenceIndex": 1,
@@ -437,12 +425,8 @@ export default {
         "enjoys music"
       ],
       "optionReasons": {
-        "enjoy-mcq-01": "本句指「喜歡；享受某物」。",
-        "enjoy-mcq-02": "「喜歡做 X」是「enjoy doing X」的用法，與本句語境不同。",
-        "enjoy-mcq-03": "「喜歡和 X 相處」是「enjoy being around X」的用法，與本句語境不同。",
-        "enjoy-mcq-04": "「喜歡某人的陪伴」是「enjoy someone's company」的用法，與本句語境不同。",
-        "enjoy-mcq-05": "「玩得開心；過得愉快」是「enjoy yourself」的用法，與本句語境不同。",
-        "enjoy-mcq-06": "「享受生活」是「enjoy life」的用法，與本句語境不同。"
+        "enjoy-mcq-01": "本句的「enjoys music」指「喜歡；享受某物」。",
+        "enjoy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-01"
     },
@@ -454,11 +438,7 @@ export default {
       "masked": "I ____.",
       "options": [
         "enjoy-mcq-02",
-        "enjoy-mcq-01",
-        "enjoy-mcq-03",
-        "enjoy-mcq-04",
-        "enjoy-mcq-05",
-        "enjoy-mcq-06"
+        "enjoy-mcq-10"
       ],
       "explanation": "本句的「enjoy being around him」指「喜歡做 X」。",
       "sentenceIndex": 2,
@@ -467,12 +447,8 @@ export default {
         "enjoy being around him"
       ],
       "optionReasons": {
-        "enjoy-mcq-02": "本句指「喜歡做 X」。",
-        "enjoy-mcq-01": "「喜歡；享受某物」是「enjoy something」的用法，與本句語境不同。",
-        "enjoy-mcq-03": "「喜歡和 X 相處」是「enjoy being around X」的用法，與本句語境不同。",
-        "enjoy-mcq-04": "「喜歡某人的陪伴」是「enjoy someone's company」的用法，與本句語境不同。",
-        "enjoy-mcq-05": "「玩得開心；過得愉快」是「enjoy yourself」的用法，與本句語境不同。",
-        "enjoy-mcq-06": "「享受生活」是「enjoy life」的用法，與本句語境不同。"
+        "enjoy-mcq-02": "本句的「enjoy being around him」指「喜歡做 X」。",
+        "enjoy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-02"
     },
@@ -484,11 +460,7 @@ export default {
       "masked": "She ____ before bed.",
       "options": [
         "enjoy-mcq-02",
-        "enjoy-mcq-01",
-        "enjoy-mcq-03",
-        "enjoy-mcq-04",
-        "enjoy-mcq-05",
-        "enjoy-mcq-06"
+        "enjoy-mcq-09"
       ],
       "explanation": "本句的「enjoys reading」指「喜歡做 X」。",
       "sentenceIndex": 3,
@@ -497,12 +469,8 @@ export default {
         "enjoys reading"
       ],
       "optionReasons": {
-        "enjoy-mcq-02": "本句指「喜歡做 X」。",
-        "enjoy-mcq-01": "「喜歡；享受某物」是「enjoy something」的用法，與本句語境不同。",
-        "enjoy-mcq-03": "「喜歡和 X 相處」是「enjoy being around X」的用法，與本句語境不同。",
-        "enjoy-mcq-04": "「喜歡某人的陪伴」是「enjoy someone's company」的用法，與本句語境不同。",
-        "enjoy-mcq-05": "「玩得開心；過得愉快」是「enjoy yourself」的用法，與本句語境不同。",
-        "enjoy-mcq-06": "「享受生活」是「enjoy life」的用法，與本句語境不同。"
+        "enjoy-mcq-02": "本句的「enjoys reading」指「喜歡做 X」。",
+        "enjoy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-02"
     },
@@ -514,11 +482,7 @@ export default {
       "masked": "We ____.",
       "options": [
         "enjoy-mcq-02",
-        "enjoy-mcq-01",
-        "enjoy-mcq-03",
-        "enjoy-mcq-04",
-        "enjoy-mcq-05",
-        "enjoy-mcq-06"
+        "enjoy-mcq-13"
       ],
       "explanation": "本句的「enjoy spending time together」指「喜歡做 X」。",
       "sentenceIndex": 4,
@@ -527,12 +491,8 @@ export default {
         "enjoy spending time together"
       ],
       "optionReasons": {
-        "enjoy-mcq-02": "本句指「喜歡做 X」。",
-        "enjoy-mcq-01": "「喜歡；享受某物」是「enjoy something」的用法，與本句語境不同。",
-        "enjoy-mcq-03": "「喜歡和 X 相處」是「enjoy being around X」的用法，與本句語境不同。",
-        "enjoy-mcq-04": "「喜歡某人的陪伴」是「enjoy someone's company」的用法，與本句語境不同。",
-        "enjoy-mcq-05": "「玩得開心；過得愉快」是「enjoy yourself」的用法，與本句語境不同。",
-        "enjoy-mcq-06": "「享受生活」是「enjoy life」的用法，與本句語境不同。"
+        "enjoy-mcq-02": "本句的「enjoy spending time together」指「喜歡做 X」。",
+        "enjoy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-02"
     },
@@ -544,11 +504,7 @@ export default {
       "masked": "I really ____.",
       "options": [
         "enjoy-mcq-03",
-        "enjoy-mcq-02",
-        "enjoy-mcq-04",
-        "enjoy-mcq-01",
-        "enjoy-mcq-05",
-        "enjoy-mcq-06"
+        "enjoy-mcq-15"
       ],
       "explanation": "本句的「enjoy being with my grandparents」指「喜歡和 X 相處」。",
       "sentenceIndex": 5,
@@ -557,12 +513,8 @@ export default {
         "enjoy being with my grandparents"
       ],
       "optionReasons": {
-        "enjoy-mcq-03": "本句指「喜歡和 X 相處」。",
-        "enjoy-mcq-02": "「喜歡做 X」是「enjoy doing X」的用法，與本句語境不同。",
-        "enjoy-mcq-04": "「喜歡某人的陪伴」是「enjoy someone's company」的用法，與本句語境不同。",
-        "enjoy-mcq-01": "「喜歡；享受某物」是「enjoy something」的用法，與本句語境不同。",
-        "enjoy-mcq-05": "「玩得開心；過得愉快」是「enjoy yourself」的用法，與本句語境不同。",
-        "enjoy-mcq-06": "「享受生活」是「enjoy life」的用法，與本句語境不同。"
+        "enjoy-mcq-03": "本句的「enjoy being with my grandparents」指「喜歡和 X 相處」。",
+        "enjoy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-03"
     },
@@ -574,11 +526,7 @@ export default {
       "masked": "Everyone ____ because she is so warm and funny.",
       "options": [
         "enjoy-mcq-03",
-        "enjoy-mcq-02",
-        "enjoy-mcq-04",
-        "enjoy-mcq-01",
-        "enjoy-mcq-05",
-        "enjoy-mcq-06"
+        "enjoy-mcq-15"
       ],
       "explanation": "本句的「enjoys being around her」指「喜歡和 X 相處」。",
       "sentenceIndex": 6,
@@ -587,12 +535,8 @@ export default {
         "enjoys being around her"
       ],
       "optionReasons": {
-        "enjoy-mcq-03": "本句指「喜歡和 X 相處」。",
-        "enjoy-mcq-02": "「喜歡做 X」是「enjoy doing X」的用法，與本句語境不同。",
-        "enjoy-mcq-04": "「喜歡某人的陪伴」是「enjoy someone's company」的用法，與本句語境不同。",
-        "enjoy-mcq-01": "「喜歡；享受某物」是「enjoy something」的用法，與本句語境不同。",
-        "enjoy-mcq-05": "「玩得開心；過得愉快」是「enjoy yourself」的用法，與本句語境不同。",
-        "enjoy-mcq-06": "「享受生活」是「enjoy life」的用法，與本句語境不同。"
+        "enjoy-mcq-03": "本句的「enjoys being around her」指「喜歡和 X 相處」。",
+        "enjoy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-03"
     },
@@ -604,11 +548,8 @@ export default {
       "masked": "I always ____.",
       "options": [
         "enjoy-mcq-04",
-        "enjoy-mcq-03",
-        "enjoy-mcq-05",
-        "enjoy-mcq-02",
-        "enjoy-mcq-06",
-        "enjoy-mcq-01"
+        "enjoy-mcq-09",
+        "enjoy-mcq-11"
       ],
       "explanation": "本句的「enjoy her company」指「喜歡某人的陪伴」。",
       "sentenceIndex": 7,
@@ -617,12 +558,9 @@ export default {
         "enjoy her company"
       ],
       "optionReasons": {
-        "enjoy-mcq-04": "本句指「喜歡某人的陪伴」。",
-        "enjoy-mcq-03": "「喜歡和 X 相處」是「enjoy being around X」的用法，與本句語境不同。",
-        "enjoy-mcq-05": "「玩得開心；過得愉快」是「enjoy yourself」的用法，與本句語境不同。",
-        "enjoy-mcq-02": "「喜歡做 X」是「enjoy doing X」的用法，與本句語境不同。",
-        "enjoy-mcq-06": "「享受生活」是「enjoy life」的用法，與本句語境不同。",
-        "enjoy-mcq-01": "「喜歡；享受某物」是「enjoy something」的用法，與本句語境不同。"
+        "enjoy-mcq-04": "本句的「enjoy her company」指「喜歡某人的陪伴」。",
+        "enjoy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-04"
     },
@@ -634,11 +572,8 @@ export default {
       "masked": "He said he really ____.",
       "options": [
         "enjoy-mcq-04",
-        "enjoy-mcq-03",
-        "enjoy-mcq-05",
-        "enjoy-mcq-02",
-        "enjoy-mcq-06",
-        "enjoy-mcq-01"
+        "enjoy-mcq-13",
+        "enjoy-mcq-11"
       ],
       "explanation": "本句的「enjoyed our company」指「喜歡某人的陪伴」。",
       "sentenceIndex": 8,
@@ -647,12 +582,9 @@ export default {
         "enjoyed our company"
       ],
       "optionReasons": {
-        "enjoy-mcq-04": "本句指「喜歡某人的陪伴」。",
-        "enjoy-mcq-03": "「喜歡和 X 相處」是「enjoy being around X」的用法，與本句語境不同。",
-        "enjoy-mcq-05": "「玩得開心；過得愉快」是「enjoy yourself」的用法，與本句語境不同。",
-        "enjoy-mcq-02": "「喜歡做 X」是「enjoy doing X」的用法，與本句語境不同。",
-        "enjoy-mcq-06": "「享受生活」是「enjoy life」的用法，與本句語境不同。",
-        "enjoy-mcq-01": "「喜歡；享受某物」是「enjoy something」的用法，與本句語境不同。"
+        "enjoy-mcq-04": "本句的「enjoyed our company」指「喜歡某人的陪伴」。",
+        "enjoy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-04"
     },
@@ -664,11 +596,8 @@ export default {
       "masked": "Did you ____ at the party?",
       "options": [
         "enjoy-mcq-05",
-        "enjoy-mcq-04",
-        "enjoy-mcq-06",
-        "enjoy-mcq-03",
-        "enjoy-mcq-07",
-        "enjoy-mcq-02"
+        "enjoy-mcq-10",
+        "enjoy-mcq-11"
       ],
       "explanation": "本句的「enjoy yourself」指「玩得開心；過得愉快」。",
       "sentenceIndex": 9,
@@ -677,12 +606,9 @@ export default {
         "enjoy yourself"
       ],
       "optionReasons": {
-        "enjoy-mcq-05": "本句指「玩得開心；過得愉快」。",
-        "enjoy-mcq-04": "「喜歡某人的陪伴」是「enjoy someone's company」的用法，與本句語境不同。",
-        "enjoy-mcq-06": "「享受生活」是「enjoy life」的用法，與本句語境不同。",
-        "enjoy-mcq-03": "「喜歡和 X 相處」是「enjoy being around X」的用法，與本句語境不同。",
-        "enjoy-mcq-07": "「享受一餐／旅程」是「enjoy a meal/trip」的用法，與本句語境不同。",
-        "enjoy-mcq-02": "「喜歡做 X」是「enjoy doing X」的用法，與本句語境不同。"
+        "enjoy-mcq-05": "本句的「enjoy yourself」指「玩得開心；過得愉快」。",
+        "enjoy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-05"
     },
@@ -694,11 +620,8 @@ export default {
       "masked": "Relax and ____.",
       "options": [
         "enjoy-mcq-05",
-        "enjoy-mcq-04",
-        "enjoy-mcq-06",
-        "enjoy-mcq-03",
-        "enjoy-mcq-07",
-        "enjoy-mcq-02"
+        "enjoy-mcq-11",
+        "enjoy-mcq-13"
       ],
       "explanation": "本句的「enjoy yourself」指「玩得開心；過得愉快」。",
       "sentenceIndex": 10,
@@ -707,12 +630,9 @@ export default {
         "enjoy yourself"
       ],
       "optionReasons": {
-        "enjoy-mcq-05": "本句指「玩得開心；過得愉快」。",
-        "enjoy-mcq-04": "「喜歡某人的陪伴」是「enjoy someone's company」的用法，與本句語境不同。",
-        "enjoy-mcq-06": "「享受生活」是「enjoy life」的用法，與本句語境不同。",
-        "enjoy-mcq-03": "「喜歡和 X 相處」是「enjoy being around X」的用法，與本句語境不同。",
-        "enjoy-mcq-07": "「享受一餐／旅程」是「enjoy a meal/trip」的用法，與本句語境不同。",
-        "enjoy-mcq-02": "「喜歡做 X」是「enjoy doing X」的用法，與本句語境不同。"
+        "enjoy-mcq-05": "本句的「enjoy yourself」指「玩得開心；過得愉快」。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-05"
     },
@@ -724,11 +644,8 @@ export default {
       "masked": "She works hard but also knows how to ____.",
       "options": [
         "enjoy-mcq-06",
-        "enjoy-mcq-05",
-        "enjoy-mcq-07",
-        "enjoy-mcq-04",
-        "enjoy-mcq-08",
-        "enjoy-mcq-03"
+        "enjoy-mcq-13",
+        "enjoy-mcq-11"
       ],
       "explanation": "本句的「enjoy life」指「享受生活」。",
       "sentenceIndex": 11,
@@ -737,12 +654,9 @@ export default {
         "enjoy life"
       ],
       "optionReasons": {
-        "enjoy-mcq-06": "本句指「享受生活」。",
-        "enjoy-mcq-05": "「玩得開心；過得愉快」是「enjoy yourself」的用法，與本句語境不同。",
-        "enjoy-mcq-07": "「享受一餐／旅程」是「enjoy a meal/trip」的用法，與本句語境不同。",
-        "enjoy-mcq-04": "「喜歡某人的陪伴」是「enjoy someone's company」的用法，與本句語境不同。",
-        "enjoy-mcq-08": "「好好享受！／請慢用！」是「Enjoy!」的用法，與本句語境不同。",
-        "enjoy-mcq-03": "「喜歡和 X 相處」是「enjoy being around X」的用法，與本句語境不同。"
+        "enjoy-mcq-06": "本句的「enjoy life」指「享受生活」。",
+        "enjoy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-06"
     },
@@ -754,11 +668,8 @@ export default {
       "masked": "As he got older, he learned to ____.",
       "options": [
         "enjoy-mcq-06",
-        "enjoy-mcq-05",
-        "enjoy-mcq-07",
-        "enjoy-mcq-04",
-        "enjoy-mcq-08",
-        "enjoy-mcq-03"
+        "enjoy-mcq-09",
+        "enjoy-mcq-11"
       ],
       "explanation": "本句的「enjoy life more」指「享受生活」。",
       "sentenceIndex": 12,
@@ -767,12 +678,9 @@ export default {
         "enjoy life more"
       ],
       "optionReasons": {
-        "enjoy-mcq-06": "本句指「享受生活」。",
-        "enjoy-mcq-05": "「玩得開心；過得愉快」是「enjoy yourself」的用法，與本句語境不同。",
-        "enjoy-mcq-07": "「享受一餐／旅程」是「enjoy a meal/trip」的用法，與本句語境不同。",
-        "enjoy-mcq-04": "「喜歡某人的陪伴」是「enjoy someone's company」的用法，與本句語境不同。",
-        "enjoy-mcq-08": "「好好享受！／請慢用！」是「Enjoy!」的用法，與本句語境不同。",
-        "enjoy-mcq-03": "「喜歡和 X 相處」是「enjoy being around X」的用法，與本句語境不同。"
+        "enjoy-mcq-06": "本句的「enjoy life more」指「享受生活」。",
+        "enjoy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-06"
     },
@@ -784,11 +692,8 @@ export default {
       "masked": "We really ____.",
       "options": [
         "enjoy-mcq-07",
-        "enjoy-mcq-06",
-        "enjoy-mcq-08",
-        "enjoy-mcq-05",
-        "enjoy-mcq-09",
-        "enjoy-mcq-04"
+        "enjoy-mcq-11",
+        "enjoy-mcq-10"
       ],
       "explanation": "本句的「enjoyed the meal」指「享受一餐／旅程」。",
       "sentenceIndex": 13,
@@ -797,12 +702,9 @@ export default {
         "enjoyed the meal"
       ],
       "optionReasons": {
-        "enjoy-mcq-07": "本句指「享受一餐／旅程」。",
-        "enjoy-mcq-06": "「享受生活」是「enjoy life」的用法，與本句語境不同。",
-        "enjoy-mcq-08": "「好好享受！／請慢用！」是「Enjoy!」的用法，與本句語境不同。",
-        "enjoy-mcq-05": "「玩得開心；過得愉快」是「enjoy yourself」的用法，與本句語境不同。",
-        "enjoy-mcq-09": "「享有良好健康」是「enjoy good health」的用法，與本句語境不同。",
-        "enjoy-mcq-04": "「喜歡某人的陪伴」是「enjoy someone's company」的用法，與本句語境不同。"
+        "enjoy-mcq-07": "本句的「enjoyed the meal」指「享受一餐／旅程」。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-07"
     },
@@ -814,11 +716,8 @@ export default {
       "masked": "I hope you ____.",
       "options": [
         "enjoy-mcq-07",
-        "enjoy-mcq-06",
-        "enjoy-mcq-08",
-        "enjoy-mcq-05",
-        "enjoy-mcq-09",
-        "enjoy-mcq-04"
+        "enjoy-mcq-11",
+        "enjoy-mcq-13"
       ],
       "explanation": "本句的「enjoy your holiday」指「享受一餐／旅程」。",
       "sentenceIndex": 14,
@@ -827,12 +726,9 @@ export default {
         "enjoy your holiday"
       ],
       "optionReasons": {
-        "enjoy-mcq-07": "本句指「享受一餐／旅程」。",
-        "enjoy-mcq-06": "「享受生活」是「enjoy life」的用法，與本句語境不同。",
-        "enjoy-mcq-08": "「好好享受！／請慢用！」是「Enjoy!」的用法，與本句語境不同。",
-        "enjoy-mcq-05": "「玩得開心；過得愉快」是「enjoy yourself」的用法，與本句語境不同。",
-        "enjoy-mcq-09": "「享有良好健康」是「enjoy good health」的用法，與本句語境不同。",
-        "enjoy-mcq-04": "「喜歡某人的陪伴」是「enjoy someone's company」的用法，與本句語境不同。"
+        "enjoy-mcq-07": "本句的「enjoy your holiday」指「享受一餐／旅程」。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-07"
     },
@@ -844,11 +740,8 @@ export default {
       "masked": "Here's your dessert. ____",
       "options": [
         "enjoy-mcq-08",
-        "enjoy-mcq-07",
-        "enjoy-mcq-09",
-        "enjoy-mcq-06",
-        "enjoy-mcq-10",
-        "enjoy-mcq-05"
+        "enjoy-mcq-11",
+        "enjoy-mcq-10"
       ],
       "explanation": "本句的「Enjoy!」指「好好享受！／請慢用！」。",
       "sentenceIndex": 15,
@@ -857,12 +750,9 @@ export default {
         "Enjoy!"
       ],
       "optionReasons": {
-        "enjoy-mcq-08": "本句指「好好享受！／請慢用！」。",
-        "enjoy-mcq-07": "「享受一餐／旅程」是「enjoy a meal/trip」的用法，與本句語境不同。",
-        "enjoy-mcq-09": "「享有良好健康」是「enjoy good health」的用法，與本句語境不同。",
-        "enjoy-mcq-06": "「享受生活」是「enjoy life」的用法，與本句語境不同。",
-        "enjoy-mcq-10": "「享有／取得成功」是「enjoy success」的用法，與本句語境不同。",
-        "enjoy-mcq-05": "「玩得開心；過得愉快」是「enjoy yourself」的用法，與本句語境不同。"
+        "enjoy-mcq-08": "本句的「Enjoy!」指「好好享受！／請慢用！」。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-08"
     },
@@ -874,11 +764,8 @@ export default {
       "masked": "Have a great trip—____",
       "options": [
         "enjoy-mcq-08",
-        "enjoy-mcq-07",
-        "enjoy-mcq-09",
-        "enjoy-mcq-06",
-        "enjoy-mcq-10",
-        "enjoy-mcq-05"
+        "enjoy-mcq-11",
+        "enjoy-mcq-10"
       ],
       "explanation": "本句的「enjoy!」指「好好享受！／請慢用！」。",
       "sentenceIndex": 16,
@@ -887,12 +774,9 @@ export default {
         "enjoy!"
       ],
       "optionReasons": {
-        "enjoy-mcq-08": "本句指「好好享受！／請慢用！」。",
-        "enjoy-mcq-07": "「享受一餐／旅程」是「enjoy a meal/trip」的用法，與本句語境不同。",
-        "enjoy-mcq-09": "「享有良好健康」是「enjoy good health」的用法，與本句語境不同。",
-        "enjoy-mcq-06": "「享受生活」是「enjoy life」的用法，與本句語境不同。",
-        "enjoy-mcq-10": "「享有／取得成功」是「enjoy success」的用法，與本句語境不同。",
-        "enjoy-mcq-05": "「玩得開心；過得愉快」是「enjoy yourself」的用法，與本句語境不同。"
+        "enjoy-mcq-08": "本句的「enjoy!」指「好好享受！／請慢用！」。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-08"
     },
@@ -904,11 +788,8 @@ export default {
       "masked": "She still ____ in her seventies.",
       "options": [
         "enjoy-mcq-09",
-        "enjoy-mcq-08",
-        "enjoy-mcq-10",
-        "enjoy-mcq-07",
-        "enjoy-mcq-11",
-        "enjoy-mcq-06"
+        "enjoy-mcq-05",
+        "enjoy-mcq-11"
       ],
       "explanation": "本句的「enjoys good health」指「享有良好健康」。",
       "sentenceIndex": 17,
@@ -917,12 +798,9 @@ export default {
         "enjoys good health"
       ],
       "optionReasons": {
-        "enjoy-mcq-09": "本句指「享有良好健康」。",
-        "enjoy-mcq-08": "「好好享受！／請慢用！」是「Enjoy!」的用法，與本句語境不同。",
-        "enjoy-mcq-10": "「享有／取得成功」是「enjoy success」的用法，與本句語境不同。",
-        "enjoy-mcq-07": "「享受一餐／旅程」是「enjoy a meal/trip」的用法，與本句語境不同。",
-        "enjoy-mcq-11": "「廣受歡迎」是「enjoy popularity」的用法，與本句語境不同。",
-        "enjoy-mcq-06": "「享受生活」是「enjoy life」的用法，與本句語境不同。"
+        "enjoy-mcq-09": "本句的「enjoys good health」指「享有良好健康」。",
+        "enjoy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-09"
     },
@@ -934,11 +812,8 @@ export default {
       "masked": "He ____ for most of his life.",
       "options": [
         "enjoy-mcq-09",
-        "enjoy-mcq-08",
-        "enjoy-mcq-10",
-        "enjoy-mcq-07",
-        "enjoy-mcq-11",
-        "enjoy-mcq-06"
+        "enjoy-mcq-16",
+        "enjoy-mcq-11"
       ],
       "explanation": "本句的「enjoyed excellent health」指「享有良好健康」。",
       "sentenceIndex": 18,
@@ -947,12 +822,9 @@ export default {
         "enjoyed excellent health"
       ],
       "optionReasons": {
-        "enjoy-mcq-09": "本句指「享有良好健康」。",
-        "enjoy-mcq-08": "「好好享受！／請慢用！」是「Enjoy!」的用法，與本句語境不同。",
-        "enjoy-mcq-10": "「享有／取得成功」是「enjoy success」的用法，與本句語境不同。",
-        "enjoy-mcq-07": "「享受一餐／旅程」是「enjoy a meal/trip」的用法，與本句語境不同。",
-        "enjoy-mcq-11": "「廣受歡迎」是「enjoy popularity」的用法，與本句語境不同。",
-        "enjoy-mcq-06": "「享受生活」是「enjoy life」的用法，與本句語境不同。"
+        "enjoy-mcq-09": "本句的「enjoyed excellent health」指「享有良好健康」。",
+        "enjoy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-09"
     },
@@ -964,11 +836,7 @@ export default {
       "masked": "The company has ____.",
       "options": [
         "enjoy-mcq-10",
-        "enjoy-mcq-09",
-        "enjoy-mcq-11",
-        "enjoy-mcq-08",
-        "enjoy-mcq-12",
-        "enjoy-mcq-07"
+        "enjoy-mcq-03"
       ],
       "explanation": "本句的「enjoyed considerable success」指「享有／取得成功」。",
       "sentenceIndex": 19,
@@ -977,12 +845,8 @@ export default {
         "enjoyed considerable success"
       ],
       "optionReasons": {
-        "enjoy-mcq-10": "本句指「享有／取得成功」。",
-        "enjoy-mcq-09": "「享有良好健康」是「enjoy good health」的用法，與本句語境不同。",
-        "enjoy-mcq-11": "「廣受歡迎」是「enjoy popularity」的用法，與本句語境不同。",
-        "enjoy-mcq-08": "「好好享受！／請慢用！」是「Enjoy!」的用法，與本句語境不同。",
-        "enjoy-mcq-12": "「得到支持」是「enjoy support」的用法，與本句語境不同。",
-        "enjoy-mcq-07": "「享受一餐／旅程」是「enjoy a meal/trip」的用法，與本句語境不同。"
+        "enjoy-mcq-10": "本句的「enjoyed considerable success」指「享有／取得成功」。",
+        "enjoy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-10"
     },
@@ -994,11 +858,8 @@ export default {
       "masked": "The film ____.",
       "options": [
         "enjoy-mcq-10",
-        "enjoy-mcq-09",
-        "enjoy-mcq-11",
-        "enjoy-mcq-08",
-        "enjoy-mcq-12",
-        "enjoy-mcq-07"
+        "enjoy-mcq-16",
+        "enjoy-mcq-11"
       ],
       "explanation": "本句的「enjoyed international success」指「享有／取得成功」。",
       "sentenceIndex": 20,
@@ -1007,12 +868,9 @@ export default {
         "enjoyed international success"
       ],
       "optionReasons": {
-        "enjoy-mcq-10": "本句指「享有／取得成功」。",
-        "enjoy-mcq-09": "「享有良好健康」是「enjoy good health」的用法，與本句語境不同。",
-        "enjoy-mcq-11": "「廣受歡迎」是「enjoy popularity」的用法，與本句語境不同。",
-        "enjoy-mcq-08": "「好好享受！／請慢用！」是「Enjoy!」的用法，與本句語境不同。",
-        "enjoy-mcq-12": "「得到支持」是「enjoy support」的用法，與本句語境不同。",
-        "enjoy-mcq-07": "「享受一餐／旅程」是「enjoy a meal/trip」的用法，與本句語境不同。"
+        "enjoy-mcq-10": "本句的「enjoyed international success」指「享有／取得成功」。",
+        "enjoy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-10"
     },
@@ -1024,11 +882,8 @@ export default {
       "masked": "The programme ____.",
       "options": [
         "enjoy-mcq-11",
-        "enjoy-mcq-10",
-        "enjoy-mcq-12",
         "enjoy-mcq-09",
-        "enjoy-mcq-13",
-        "enjoy-mcq-08"
+        "enjoy-mcq-05"
       ],
       "explanation": "本句的「enjoys strong public support」指「廣受歡迎」。",
       "sentenceIndex": 21,
@@ -1037,12 +892,9 @@ export default {
         "enjoys strong public support"
       ],
       "optionReasons": {
-        "enjoy-mcq-11": "本句指「廣受歡迎」。",
-        "enjoy-mcq-10": "「享有／取得成功」是「enjoy success」的用法，與本句語境不同。",
-        "enjoy-mcq-12": "「得到支持」是「enjoy support」的用法，與本句語境不同。",
-        "enjoy-mcq-09": "「享有良好健康」是「enjoy good health」的用法，與本句語境不同。",
-        "enjoy-mcq-13": "「享有好處／福利」是「enjoy benefits」的用法，與本句語境不同。",
-        "enjoy-mcq-08": "「好好享受！／請慢用！」是「Enjoy!」的用法，與本句語境不同。"
+        "enjoy-mcq-11": "本句的「enjoys strong public support」指「廣受歡迎」。",
+        "enjoy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-11"
     },
@@ -1054,11 +906,8 @@ export default {
       "masked": "The singer ____ among young people.",
       "options": [
         "enjoy-mcq-11",
-        "enjoy-mcq-10",
-        "enjoy-mcq-12",
-        "enjoy-mcq-09",
-        "enjoy-mcq-13",
-        "enjoy-mcq-08"
+        "enjoy-mcq-15",
+        "enjoy-mcq-05"
       ],
       "explanation": "本句的「enjoys great popularity」指「廣受歡迎」。",
       "sentenceIndex": 22,
@@ -1067,12 +916,9 @@ export default {
         "enjoys great popularity"
       ],
       "optionReasons": {
-        "enjoy-mcq-11": "本句指「廣受歡迎」。",
-        "enjoy-mcq-10": "「享有／取得成功」是「enjoy success」的用法，與本句語境不同。",
-        "enjoy-mcq-12": "「得到支持」是「enjoy support」的用法，與本句語境不同。",
-        "enjoy-mcq-09": "「享有良好健康」是「enjoy good health」的用法，與本句語境不同。",
-        "enjoy-mcq-13": "「享有好處／福利」是「enjoy benefits」的用法，與本句語境不同。",
-        "enjoy-mcq-08": "「好好享受！／請慢用！」是「Enjoy!」的用法，與本句語境不同。"
+        "enjoy-mcq-11": "本句的「enjoys great popularity」指「廣受歡迎」。",
+        "enjoy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-11"
     },
@@ -1084,11 +930,8 @@ export default {
       "masked": "Employees ____.",
       "options": [
         "enjoy-mcq-13",
-        "enjoy-mcq-12",
-        "enjoy-mcq-14",
-        "enjoy-mcq-11",
-        "enjoy-mcq-15",
-        "enjoy-mcq-10"
+        "enjoy-mcq-16",
+        "enjoy-mcq-11"
       ],
       "explanation": "本句的「enjoy a number of benefits」指「享有好處／福利」。",
       "sentenceIndex": 23,
@@ -1097,12 +940,9 @@ export default {
         "enjoy a number of benefits"
       ],
       "optionReasons": {
-        "enjoy-mcq-13": "本句指「享有好處／福利」。",
-        "enjoy-mcq-12": "「得到支持」是「enjoy support」的用法，與本句語境不同。",
-        "enjoy-mcq-14": "「享有權利」是「enjoy rights」的用法，與本句語境不同。",
-        "enjoy-mcq-11": "「廣受歡迎」是「enjoy popularity」的用法，與本句語境不同。",
-        "enjoy-mcq-15": "「享有保障」是「enjoy protection」的用法，與本句語境不同。",
-        "enjoy-mcq-10": "「享有／取得成功」是「enjoy success」的用法，與本句語境不同。"
+        "enjoy-mcq-13": "本句的「enjoy a number of benefits」指「享有好處／福利」。",
+        "enjoy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-13"
     },
@@ -1114,11 +954,8 @@ export default {
       "masked": "People living here ____.",
       "options": [
         "enjoy-mcq-13",
-        "enjoy-mcq-12",
-        "enjoy-mcq-14",
-        "enjoy-mcq-11",
-        "enjoy-mcq-15",
-        "enjoy-mcq-10"
+        "enjoy-mcq-16",
+        "enjoy-mcq-11"
       ],
       "explanation": "本句的「enjoy easy access to public transport」指「享有好處／福利」。",
       "sentenceIndex": 24,
@@ -1127,12 +964,9 @@ export default {
         "enjoy easy access to public transport"
       ],
       "optionReasons": {
-        "enjoy-mcq-13": "本句指「享有好處／福利」。",
-        "enjoy-mcq-12": "「得到支持」是「enjoy support」的用法，與本句語境不同。",
-        "enjoy-mcq-14": "「享有權利」是「enjoy rights」的用法，與本句語境不同。",
-        "enjoy-mcq-11": "「廣受歡迎」是「enjoy popularity」的用法，與本句語境不同。",
-        "enjoy-mcq-15": "「享有保障」是「enjoy protection」的用法，與本句語境不同。",
-        "enjoy-mcq-10": "「享有／取得成功」是「enjoy success」的用法，與本句語境不同。"
+        "enjoy-mcq-13": "本句的「enjoy easy access to public transport」指「享有好處／福利」。",
+        "enjoy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-13"
     },
@@ -1144,11 +978,8 @@ export default {
       "masked": "Citizens ____.",
       "options": [
         "enjoy-mcq-15",
-        "enjoy-mcq-14",
-        "enjoy-mcq-16",
-        "enjoy-mcq-13",
-        "enjoy-mcq-17",
-        "enjoy-mcq-12"
+        "enjoy-mcq-11",
+        "enjoy-mcq-04"
       ],
       "explanation": "本句的「enjoy equal rights under the law」指「享有保障」。",
       "sentenceIndex": 25,
@@ -1157,12 +988,9 @@ export default {
         "enjoy equal rights under the law"
       ],
       "optionReasons": {
-        "enjoy-mcq-15": "本句指「享有保障」。",
-        "enjoy-mcq-14": "「享有權利」是「enjoy rights」的用法，與本句語境不同。",
-        "enjoy-mcq-16": "「令人愉快的」是「enjoyable」的用法，與本句語境不同。",
-        "enjoy-mcq-13": "「享有好處／福利」是「enjoy benefits」的用法，與本句語境不同。",
-        "enjoy-mcq-17": "「樂趣；享受」是「enjoyment」的用法，與本句語境不同。",
-        "enjoy-mcq-12": "「得到支持」是「enjoy support」的用法，與本句語境不同。"
+        "enjoy-mcq-15": "本句的「enjoy equal rights under the law」指「享有保障」。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-15"
     },
@@ -1174,11 +1002,8 @@ export default {
       "masked": "Workers ____ against discrimination.",
       "options": [
         "enjoy-mcq-15",
-        "enjoy-mcq-14",
         "enjoy-mcq-16",
-        "enjoy-mcq-13",
-        "enjoy-mcq-17",
-        "enjoy-mcq-12"
+        "enjoy-mcq-11"
       ],
       "explanation": "本句的「enjoy legal protection」指「享有保障」。",
       "sentenceIndex": 26,
@@ -1187,12 +1012,9 @@ export default {
         "enjoy legal protection"
       ],
       "optionReasons": {
-        "enjoy-mcq-15": "本句指「享有保障」。",
-        "enjoy-mcq-14": "「享有權利」是「enjoy rights」的用法，與本句語境不同。",
-        "enjoy-mcq-16": "「令人愉快的」是「enjoyable」的用法，與本句語境不同。",
-        "enjoy-mcq-13": "「享有好處／福利」是「enjoy benefits」的用法，與本句語境不同。",
-        "enjoy-mcq-17": "「樂趣；享受」是「enjoyment」的用法，與本句語境不同。",
-        "enjoy-mcq-12": "「得到支持」是「enjoy support」的用法，與本句語境不同。"
+        "enjoy-mcq-15": "本句的「enjoy legal protection」指「享有保障」。",
+        "enjoy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-15"
     },
@@ -1204,11 +1026,8 @@ export default {
       "masked": "We had a very ____.",
       "options": [
         "enjoy-mcq-16",
-        "enjoy-mcq-15",
-        "enjoy-mcq-17",
-        "enjoy-mcq-14",
-        "enjoy-mcq-18",
-        "enjoy-mcq-13"
+        "enjoy-mcq-10",
+        "enjoy-mcq-11"
       ],
       "explanation": "本句的「enjoyable evening」指「令人愉快的」。",
       "sentenceIndex": 27,
@@ -1217,12 +1036,9 @@ export default {
         "enjoyable evening"
       ],
       "optionReasons": {
-        "enjoy-mcq-16": "本句指「令人愉快的」。",
-        "enjoy-mcq-15": "「享有保障」是「enjoy protection」的用法，與本句語境不同。",
-        "enjoy-mcq-17": "「樂趣；享受」是「enjoyment」的用法，與本句語境不同。",
-        "enjoy-mcq-14": "「享有權利」是「enjoy rights」的用法，與本句語境不同。",
-        "enjoy-mcq-18": "「供你欣賞／享用」是「for your enjoyment」的用法，與本句語境不同。",
-        "enjoy-mcq-13": "「享有好處／福利」是「enjoy benefits」的用法，與本句語境不同。"
+        "enjoy-mcq-16": "本句的「enjoyable evening」指「令人愉快的」。",
+        "enjoy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-16"
     },
@@ -1234,11 +1050,8 @@ export default {
       "masked": "The course was both useful and ____.",
       "options": [
         "enjoy-mcq-16",
-        "enjoy-mcq-15",
-        "enjoy-mcq-17",
-        "enjoy-mcq-14",
-        "enjoy-mcq-18",
-        "enjoy-mcq-13"
+        "enjoy-mcq-13",
+        "enjoy-mcq-11"
       ],
       "explanation": "本句的「enjoyable」指「令人愉快的」。",
       "sentenceIndex": 28,
@@ -1247,12 +1060,9 @@ export default {
         "enjoyable"
       ],
       "optionReasons": {
-        "enjoy-mcq-16": "本句指「令人愉快的」。",
-        "enjoy-mcq-15": "「享有保障」是「enjoy protection」的用法，與本句語境不同。",
-        "enjoy-mcq-17": "「樂趣；享受」是「enjoyment」的用法，與本句語境不同。",
-        "enjoy-mcq-14": "「享有權利」是「enjoy rights」的用法，與本句語境不同。",
-        "enjoy-mcq-18": "「供你欣賞／享用」是「for your enjoyment」的用法，與本句語境不同。",
-        "enjoy-mcq-13": "「享有好處／福利」是「enjoy benefits」的用法，與本句語境不同。"
+        "enjoy-mcq-16": "本句的「enjoyable」指「令人愉快的」。",
+        "enjoy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-16"
     },
@@ -1264,10 +1074,7 @@ export default {
       "masked": "Reading gives me a lot of ____.",
       "options": [
         "enjoy-mcq-17",
-        "enjoy-mcq-16",
-        "enjoy-mcq-18",
-        "enjoy-mcq-15",
-        "enjoy-mcq-14",
+        "enjoy-mcq-11",
         "enjoy-mcq-13"
       ],
       "explanation": "本句的「enjoyment」指「樂趣；享受」。",
@@ -1277,12 +1084,9 @@ export default {
         "enjoyment"
       ],
       "optionReasons": {
-        "enjoy-mcq-17": "本句指「樂趣；享受」。",
-        "enjoy-mcq-16": "「令人愉快的」是「enjoyable」的用法，與本句語境不同。",
-        "enjoy-mcq-18": "「供你欣賞／享用」是「for your enjoyment」的用法，與本句語境不同。",
-        "enjoy-mcq-15": "「享有保障」是「enjoy protection」的用法，與本句語境不同。",
-        "enjoy-mcq-14": "「享有權利」是「enjoy rights」的用法，與本句語境不同。",
-        "enjoy-mcq-13": "「享有好處／福利」是「enjoy benefits」的用法，與本句語境不同。"
+        "enjoy-mcq-17": "本句的「enjoyment」指「樂趣；享受」。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-17"
     },
@@ -1294,11 +1098,8 @@ export default {
       "masked": "Her face showed obvious ____.",
       "options": [
         "enjoy-mcq-17",
-        "enjoy-mcq-16",
-        "enjoy-mcq-18",
-        "enjoy-mcq-15",
-        "enjoy-mcq-14",
-        "enjoy-mcq-13"
+        "enjoy-mcq-10",
+        "enjoy-mcq-11"
       ],
       "explanation": "本句的「enjoyment」指「樂趣；享受」。",
       "sentenceIndex": 30,
@@ -1307,12 +1108,9 @@ export default {
         "enjoyment"
       ],
       "optionReasons": {
-        "enjoy-mcq-17": "本句指「樂趣；享受」。",
-        "enjoy-mcq-16": "「令人愉快的」是「enjoyable」的用法，與本句語境不同。",
-        "enjoy-mcq-18": "「供你欣賞／享用」是「for your enjoyment」的用法，與本句語境不同。",
-        "enjoy-mcq-15": "「享有保障」是「enjoy protection」的用法，與本句語境不同。",
-        "enjoy-mcq-14": "「享有權利」是「enjoy rights」的用法，與本句語境不同。",
-        "enjoy-mcq-13": "「享有好處／福利」是「enjoy benefits」的用法，與本句語境不同。"
+        "enjoy-mcq-17": "本句的「enjoyment」指「樂趣；享受」。",
+        "enjoy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-17"
     },
@@ -1324,11 +1122,8 @@ export default {
       "masked": "The garden is open for the ____ of local residents.",
       "options": [
         "enjoy-mcq-18",
-        "enjoy-mcq-17",
-        "enjoy-mcq-16",
-        "enjoy-mcq-15",
-        "enjoy-mcq-14",
-        "enjoy-mcq-13"
+        "enjoy-mcq-11",
+        "enjoy-mcq-10"
       ],
       "explanation": "本句的「enjoyment」指「供你欣賞／享用」。",
       "sentenceIndex": 31,
@@ -1337,12 +1132,9 @@ export default {
         "enjoyment"
       ],
       "optionReasons": {
-        "enjoy-mcq-18": "本句指「供你欣賞／享用」。",
-        "enjoy-mcq-17": "「樂趣；享受」是「enjoyment」的用法，與本句語境不同。",
-        "enjoy-mcq-16": "「令人愉快的」是「enjoyable」的用法，與本句語境不同。",
-        "enjoy-mcq-15": "「享有保障」是「enjoy protection」的用法，與本句語境不同。",
-        "enjoy-mcq-14": "「享有權利」是「enjoy rights」的用法，與本句語境不同。",
-        "enjoy-mcq-13": "「享有好處／福利」是「enjoy benefits」的用法，與本句語境不同。"
+        "enjoy-mcq-18": "本句的「enjoyment」指「供你欣賞／享用」。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-18"
     },
@@ -1354,10 +1146,7 @@ export default {
       "masked": "We have prepared some music for your ____.",
       "options": [
         "enjoy-mcq-18",
-        "enjoy-mcq-17",
-        "enjoy-mcq-16",
-        "enjoy-mcq-15",
-        "enjoy-mcq-14",
+        "enjoy-mcq-11",
         "enjoy-mcq-13"
       ],
       "explanation": "本句的「enjoyment」指「供你欣賞／享用」。",
@@ -1367,12 +1156,9 @@ export default {
         "enjoyment"
       ],
       "optionReasons": {
-        "enjoy-mcq-18": "本句指「供你欣賞／享用」。",
-        "enjoy-mcq-17": "「樂趣；享受」是「enjoyment」的用法，與本句語境不同。",
-        "enjoy-mcq-16": "「令人愉快的」是「enjoyable」的用法，與本句語境不同。",
-        "enjoy-mcq-15": "「享有保障」是「enjoy protection」的用法，與本句語境不同。",
-        "enjoy-mcq-14": "「享有權利」是「enjoy rights」的用法，與本句語境不同。",
-        "enjoy-mcq-13": "「享有好處／福利」是「enjoy benefits」的用法，與本句語境不同。"
+        "enjoy-mcq-18": "本句的「enjoyment」指「供你欣賞／享用」。",
+        "enjoy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "enjoy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "enjoy-mcq-18"
     }
@@ -1384,5 +1170,7 @@ export default {
     "sha256": "e678e748fc2e40643f378aebaa72ff9d2cc2cd50694a827fdf9e3e9f5e774631",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

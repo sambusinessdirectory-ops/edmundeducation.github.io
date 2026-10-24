@@ -663,11 +663,9 @@ export default {
       "masked": "She has had a really important ____.",
       "options": [
         "influence-mcq-01",
-        "influence-mcq-02",
-        "influence-mcq-03",
-        "influence-mcq-04",
-        "influence-mcq-05",
-        "influence-mcq-06"
+        "influence-mcq-18",
+        "influence-mcq-25",
+        "influence-mcq-03"
       ],
       "explanation": "本句的「influence on my life」指「對 X 的發展、行為、想法或結果產生作用」。",
       "sentenceIndex": 0,
@@ -676,12 +674,10 @@ export default {
         "influence on my life"
       ],
       "optionReasons": {
-        "influence-mcq-01": "本句指「對 X 的發展、行為、想法或結果產生作用」。",
-        "influence-mcq-02": "「對某人／某事產生改變或塑造作用」是「have an influence on（對……有影響）」的用法，與本句語境不同。",
-        "influence-mcq-03": "「一個人的言行、價值觀或榜樣長期塑造另一個人」是「influence = lasting personal impact（人生／人格上的影響）」的用法，與本句語境不同。",
-        "influence-mcq-04": "「能左右他人決定、觀點或行動的能力／力量」是「influence = power to affect decisions/actions（影響力）」的用法，與本句語境不同。",
-        "influence-mcq-05": "「對某人／某事的決策或行為具有左右作用」是「influence over someone/something（對……的影響力）」的用法，與本句語境不同。",
-        "influence-mcq-06": "「對某人的思想、風格、行為或發展產生塑造作用的人／事物」是「influence = person/thing that shapes someone（影響來源）」的用法，與本句語境不同。"
+        "influence-mcq-01": "本句的「influence on my life」指「對 X 的發展、行為、想法或結果產生作用」。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-01"
     },
@@ -693,11 +689,9 @@ export default {
       "masked": "Parents can have a strong ____.",
       "options": [
         "influence-mcq-01",
-        "influence-mcq-02",
-        "influence-mcq-03",
-        "influence-mcq-04",
-        "influence-mcq-05",
-        "influence-mcq-06"
+        "influence-mcq-18",
+        "influence-mcq-25",
+        "influence-mcq-03"
       ],
       "explanation": "本句的「influence on their children」指「對 X 的發展、行為、想法或結果產生作用」。",
       "sentenceIndex": 1,
@@ -706,12 +700,10 @@ export default {
         "influence on their children"
       ],
       "optionReasons": {
-        "influence-mcq-01": "本句指「對 X 的發展、行為、想法或結果產生作用」。",
-        "influence-mcq-02": "「對某人／某事產生改變或塑造作用」是「have an influence on（對……有影響）」的用法，與本句語境不同。",
-        "influence-mcq-03": "「一個人的言行、價值觀或榜樣長期塑造另一個人」是「influence = lasting personal impact（人生／人格上的影響）」的用法，與本句語境不同。",
-        "influence-mcq-04": "「能左右他人決定、觀點或行動的能力／力量」是「influence = power to affect decisions/actions（影響力）」的用法，與本句語境不同。",
-        "influence-mcq-05": "「對某人／某事的決策或行為具有左右作用」是「influence over someone/something（對……的影響力）」的用法，與本句語境不同。",
-        "influence-mcq-06": "「對某人的思想、風格、行為或發展產生塑造作用的人／事物」是「influence = person/thing that shapes someone（影響來源）」的用法，與本句語境不同。"
+        "influence-mcq-01": "本句的「influence on their children」指「對 X 的發展、行為、想法或結果產生作用」。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-01"
     },
@@ -723,11 +715,9 @@ export default {
       "masked": "Music had a major ____ on his career.",
       "options": [
         "influence-mcq-01",
-        "influence-mcq-02",
-        "influence-mcq-03",
-        "influence-mcq-04",
-        "influence-mcq-05",
-        "influence-mcq-06"
+        "influence-mcq-25",
+        "influence-mcq-18",
+        "influence-mcq-03"
       ],
       "explanation": "本句的「influence」指「對 X 的發展、行為、想法或結果產生作用」。",
       "sentenceIndex": 2,
@@ -736,12 +726,10 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-01": "本句指「對 X 的發展、行為、想法或結果產生作用」。",
-        "influence-mcq-02": "「對某人／某事產生改變或塑造作用」是「have an influence on（對……有影響）」的用法，與本句語境不同。",
-        "influence-mcq-03": "「一個人的言行、價值觀或榜樣長期塑造另一個人」是「influence = lasting personal impact（人生／人格上的影響）」的用法，與本句語境不同。",
-        "influence-mcq-04": "「能左右他人決定、觀點或行動的能力／力量」是「influence = power to affect decisions/actions（影響力）」的用法，與本句語境不同。",
-        "influence-mcq-05": "「對某人／某事的決策或行為具有左右作用」是「influence over someone/something（對……的影響力）」的用法，與本句語境不同。",
-        "influence-mcq-06": "「對某人的思想、風格、行為或發展產生塑造作用的人／事物」是「influence = person/thing that shapes someone（影響來源）」的用法，與本句語境不同。"
+        "influence-mcq-01": "本句的「influence」指「對 X 的發展、行為、想法或結果產生作用」。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-01"
     },
@@ -753,11 +741,8 @@ export default {
       "masked": "Teachers can ____ their students.",
       "options": [
         "influence-mcq-02",
-        "influence-mcq-01",
-        "influence-mcq-03",
-        "influence-mcq-04",
-        "influence-mcq-05",
-        "influence-mcq-06"
+        "influence-mcq-18",
+        "influence-mcq-12"
       ],
       "explanation": "本句的「have a lasting influence on」指「對某人／某事產生改變或塑造作用」。",
       "sentenceIndex": 3,
@@ -766,12 +751,9 @@ export default {
         "have a lasting influence on"
       ],
       "optionReasons": {
-        "influence-mcq-02": "本句指「對某人／某事產生改變或塑造作用」。",
-        "influence-mcq-01": "「對 X 的發展、行為、想法或結果產生作用」是「influence = effect on someone/something（影響）」的用法，與本句語境不同。",
-        "influence-mcq-03": "「一個人的言行、價值觀或榜樣長期塑造另一個人」是「influence = lasting personal impact（人生／人格上的影響）」的用法，與本句語境不同。",
-        "influence-mcq-04": "「能左右他人決定、觀點或行動的能力／力量」是「influence = power to affect decisions/actions（影響力）」的用法，與本句語境不同。",
-        "influence-mcq-05": "「對某人／某事的決策或行為具有左右作用」是「influence over someone/something（對……的影響力）」的用法，與本句語境不同。",
-        "influence-mcq-06": "「對某人的思想、風格、行為或發展產生塑造作用的人／事物」是「influence = person/thing that shapes someone（影響來源）」的用法，與本句語境不同。"
+        "influence-mcq-02": "本句的「have a lasting influence on」指「對某人／某事產生改變或塑造作用」。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-02"
     },
@@ -783,11 +765,8 @@ export default {
       "masked": "His childhood had a strong ____ on his personality.",
       "options": [
         "influence-mcq-02",
-        "influence-mcq-01",
-        "influence-mcq-03",
-        "influence-mcq-04",
-        "influence-mcq-05",
-        "influence-mcq-06"
+        "influence-mcq-15",
+        "influence-mcq-16"
       ],
       "explanation": "本句的「influence」指「對某人／某事產生改變或塑造作用」。",
       "sentenceIndex": 4,
@@ -796,12 +775,9 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-02": "本句指「對某人／某事產生改變或塑造作用」。",
-        "influence-mcq-01": "「對 X 的發展、行為、想法或結果產生作用」是「influence = effect on someone/something（影響）」的用法，與本句語境不同。",
-        "influence-mcq-03": "「一個人的言行、價值觀或榜樣長期塑造另一個人」是「influence = lasting personal impact（人生／人格上的影響）」的用法，與本句語境不同。",
-        "influence-mcq-04": "「能左右他人決定、觀點或行動的能力／力量」是「influence = power to affect decisions/actions（影響力）」的用法，與本句語境不同。",
-        "influence-mcq-05": "「對某人／某事的決策或行為具有左右作用」是「influence over someone/something（對……的影響力）」的用法，與本句語境不同。",
-        "influence-mcq-06": "「對某人的思想、風格、行為或發展產生塑造作用的人／事物」是「influence = person/thing that shapes someone（影響來源）」的用法，與本句語境不同。"
+        "influence-mcq-02": "本句的「influence」指「對某人／某事產生改變或塑造作用」。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-02"
     },
@@ -813,11 +789,9 @@ export default {
       "masked": "My grandmother had a huge ____.",
       "options": [
         "influence-mcq-03",
-        "influence-mcq-02",
-        "influence-mcq-04",
-        "influence-mcq-01",
-        "influence-mcq-05",
-        "influence-mcq-06"
+        "influence-mcq-12",
+        "influence-mcq-25",
+        "influence-mcq-20"
       ],
       "explanation": "本句的「influence on the way I see family」指「一個人的言行、價值觀或榜樣長期塑造另一個人」。",
       "sentenceIndex": 5,
@@ -826,12 +800,10 @@ export default {
         "influence on the way I see family"
       ],
       "optionReasons": {
-        "influence-mcq-03": "本句指「一個人的言行、價值觀或榜樣長期塑造另一個人」。",
-        "influence-mcq-02": "「對某人／某事產生改變或塑造作用」是「have an influence on（對……有影響）」的用法，與本句語境不同。",
-        "influence-mcq-04": "「能左右他人決定、觀點或行動的能力／力量」是「influence = power to affect decisions/actions（影響力）」的用法，與本句語境不同。",
-        "influence-mcq-01": "「對 X 的發展、行為、想法或結果產生作用」是「influence = effect on someone/something（影響）」的用法，與本句語境不同。",
-        "influence-mcq-05": "「對某人／某事的決策或行為具有左右作用」是「influence over someone/something（對……的影響力）」的用法，與本句語境不同。",
-        "influence-mcq-06": "「對某人的思想、風格、行為或發展產生塑造作用的人／事物」是「influence = person/thing that shapes someone（影響來源）」的用法，與本句語境不同。"
+        "influence-mcq-03": "本句的「influence on the way I see family」指「一個人的言行、價值觀或榜樣長期塑造另一個人」。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-03"
     },
@@ -843,11 +815,9 @@ export default {
       "masked": "One teacher had a lasting ____ on my confidence.",
       "options": [
         "influence-mcq-03",
-        "influence-mcq-02",
-        "influence-mcq-04",
-        "influence-mcq-01",
-        "influence-mcq-05",
-        "influence-mcq-06"
+        "influence-mcq-15",
+        "influence-mcq-18",
+        "influence-mcq-25"
       ],
       "explanation": "本句的「influence」指「一個人的言行、價值觀或榜樣長期塑造另一個人」。",
       "sentenceIndex": 6,
@@ -856,12 +826,10 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-03": "本句指「一個人的言行、價值觀或榜樣長期塑造另一個人」。",
-        "influence-mcq-02": "「對某人／某事產生改變或塑造作用」是「have an influence on（對……有影響）」的用法，與本句語境不同。",
-        "influence-mcq-04": "「能左右他人決定、觀點或行動的能力／力量」是「influence = power to affect decisions/actions（影響力）」的用法，與本句語境不同。",
-        "influence-mcq-01": "「對 X 的發展、行為、想法或結果產生作用」是「influence = effect on someone/something（影響）」的用法，與本句語境不同。",
-        "influence-mcq-05": "「對某人／某事的決策或行為具有左右作用」是「influence over someone/something（對……的影響力）」的用法，與本句語境不同。",
-        "influence-mcq-06": "「對某人的思想、風格、行為或發展產生塑造作用的人／事物」是「influence = person/thing that shapes someone（影響來源）」的用法，與本句語境不同。"
+        "influence-mcq-03": "本句的「influence」指「一個人的言行、價值觀或榜樣長期塑造另一個人」。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-03"
     },
@@ -873,11 +841,7 @@ export default {
       "masked": "She has a lot of ____ in the organization.",
       "options": [
         "influence-mcq-04",
-        "influence-mcq-03",
-        "influence-mcq-05",
-        "influence-mcq-02",
-        "influence-mcq-06",
-        "influence-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「influence」指「能左右他人決定、觀點或行動的能力／力量」。",
       "sentenceIndex": 7,
@@ -886,12 +850,8 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-04": "本句指「能左右他人決定、觀點或行動的能力／力量」。",
-        "influence-mcq-03": "「一個人的言行、價值觀或榜樣長期塑造另一個人」是「influence = lasting personal impact（人生／人格上的影響）」的用法，與本句語境不同。",
-        "influence-mcq-05": "「對某人／某事的決策或行為具有左右作用」是「influence over someone/something（對……的影響力）」的用法，與本句語境不同。",
-        "influence-mcq-02": "「對某人／某事產生改變或塑造作用」是「have an influence on（對……有影響）」的用法，與本句語境不同。",
-        "influence-mcq-06": "「對某人的思想、風格、行為或發展產生塑造作用的人／事物」是「influence = person/thing that shapes someone（影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-01": "「對 X 的發展、行為、想法或結果產生作用」是「influence = effect on someone/something（影響）」的用法，與本句語境不同。"
+        "influence-mcq-04": "本句的「influence」指「能左右他人決定、觀點或行動的能力／力量」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-04"
     },
@@ -903,11 +863,7 @@ export default {
       "masked": "Parents still have considerable ____ over young children.",
       "options": [
         "influence-mcq-04",
-        "influence-mcq-03",
-        "influence-mcq-05",
-        "influence-mcq-02",
-        "influence-mcq-06",
-        "influence-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「influence」指「能左右他人決定、觀點或行動的能力／力量」。",
       "sentenceIndex": 8,
@@ -916,12 +872,8 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-04": "本句指「能左右他人決定、觀點或行動的能力／力量」。",
-        "influence-mcq-03": "「一個人的言行、價值觀或榜樣長期塑造另一個人」是「influence = lasting personal impact（人生／人格上的影響）」的用法，與本句語境不同。",
-        "influence-mcq-05": "「對某人／某事的決策或行為具有左右作用」是「influence over someone/something（對……的影響力）」的用法，與本句語境不同。",
-        "influence-mcq-02": "「對某人／某事產生改變或塑造作用」是「have an influence on（對……有影響）」的用法，與本句語境不同。",
-        "influence-mcq-06": "「對某人的思想、風格、行為或發展產生塑造作用的人／事物」是「influence = person/thing that shapes someone（影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-01": "「對 X 的發展、行為、想法或結果產生作用」是「influence = effect on someone/something（影響）」的用法，與本句語境不同。"
+        "influence-mcq-04": "本句的「influence」指「能左右他人決定、觀點或行動的能力／力量」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-04"
     },
@@ -933,11 +885,8 @@ export default {
       "masked": "He has considerable ____ the team.",
       "options": [
         "influence-mcq-05",
-        "influence-mcq-04",
-        "influence-mcq-06",
-        "influence-mcq-03",
-        "influence-mcq-07",
-        "influence-mcq-02"
+        "influence-mcq-20",
+        "influence-mcq-12"
       ],
       "explanation": "本句的「influence over」指「對某人／某事的決策或行為具有左右作用」。",
       "sentenceIndex": 9,
@@ -946,12 +895,9 @@ export default {
         "influence over"
       ],
       "optionReasons": {
-        "influence-mcq-05": "本句指「對某人／某事的決策或行為具有左右作用」。",
-        "influence-mcq-04": "「能左右他人決定、觀點或行動的能力／力量」是「influence = power to affect decisions/actions（影響力）」的用法，與本句語境不同。",
-        "influence-mcq-06": "「對某人的思想、風格、行為或發展產生塑造作用的人／事物」是「influence = person/thing that shapes someone（影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-03": "「一個人的言行、價值觀或榜樣長期塑造另一個人」是「influence = lasting personal impact（人生／人格上的影響）」的用法，與本句語境不同。",
-        "influence-mcq-07": "「對某人的行為、態度或發展帶來正面／負面塑造作用的人或因素」是「positive/negative influence（正面／負面影響）」的用法，與本句語境不同。",
-        "influence-mcq-02": "「對某人／某事產生改變或塑造作用」是「have an influence on（對……有影響）」的用法，與本句語境不同。"
+        "influence-mcq-05": "本句的「influence over」指「對某人／某事的決策或行為具有左右作用」。",
+        "influence-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-05"
     },
@@ -963,11 +909,8 @@ export default {
       "masked": "Advertising has ____ over consumer choices.",
       "options": [
         "influence-mcq-05",
-        "influence-mcq-04",
-        "influence-mcq-06",
-        "influence-mcq-03",
-        "influence-mcq-07",
-        "influence-mcq-02"
+        "influence-mcq-20",
+        "influence-mcq-12"
       ],
       "explanation": "本句的「influence」指「對某人／某事的決策或行為具有左右作用」。",
       "sentenceIndex": 10,
@@ -976,12 +919,9 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-05": "本句指「對某人／某事的決策或行為具有左右作用」。",
-        "influence-mcq-04": "「能左右他人決定、觀點或行動的能力／力量」是「influence = power to affect decisions/actions（影響力）」的用法，與本句語境不同。",
-        "influence-mcq-06": "「對某人的思想、風格、行為或發展產生塑造作用的人／事物」是「influence = person/thing that shapes someone（影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-03": "「一個人的言行、價值觀或榜樣長期塑造另一個人」是「influence = lasting personal impact（人生／人格上的影響）」的用法，與本句語境不同。",
-        "influence-mcq-07": "「對某人的行為、態度或發展帶來正面／負面塑造作用的人或因素」是「positive/negative influence（正面／負面影響）」的用法，與本句語境不同。",
-        "influence-mcq-02": "「對某人／某事產生改變或塑造作用」是「have an influence on（對……有影響）」的用法，與本句語境不同。"
+        "influence-mcq-05": "本句的「influence」指「對某人／某事的決策或行為具有左右作用」。",
+        "influence-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-05"
     },
@@ -993,11 +933,9 @@ export default {
       "masked": "Her mother was a major ____ on her.",
       "options": [
         "influence-mcq-06",
-        "influence-mcq-05",
-        "influence-mcq-07",
-        "influence-mcq-04",
-        "influence-mcq-08",
-        "influence-mcq-03"
+        "influence-mcq-15",
+        "influence-mcq-25",
+        "influence-mcq-18"
       ],
       "explanation": "本句的「influence」指「對某人的思想、風格、行為或發展產生塑造作用的人／事物」。",
       "sentenceIndex": 11,
@@ -1006,12 +944,10 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-06": "本句指「對某人的思想、風格、行為或發展產生塑造作用的人／事物」。",
-        "influence-mcq-05": "「對某人／某事的決策或行為具有左右作用」是「influence over someone/something（對……的影響力）」的用法，與本句語境不同。",
-        "influence-mcq-07": "「對某人的行為、態度或發展帶來正面／負面塑造作用的人或因素」是「positive/negative influence（正面／負面影響）」的用法，與本句語境不同。",
-        "influence-mcq-04": "「能左右他人決定、觀點或行動的能力／力量」是「influence = power to affect decisions/actions（影響力）」的用法，與本句語境不同。",
-        "influence-mcq-08": "「使某人的行為、態度或選擇變差的人／事物」是「bad influence（壞影響的人／因素）」的用法，與本句語境不同。",
-        "influence-mcq-03": "「一個人的言行、價值觀或榜樣長期塑造另一個人」是「influence = lasting personal impact（人生／人格上的影響）」的用法，與本句語境不同。"
+        "influence-mcq-06": "本句的「influence」指「對某人的思想、風格、行為或發展產生塑造作用的人／事物」。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-06"
     },
@@ -1023,11 +959,9 @@ export default {
       "masked": "Jazz was an important ____ on his music.",
       "options": [
         "influence-mcq-06",
-        "influence-mcq-05",
-        "influence-mcq-07",
-        "influence-mcq-04",
-        "influence-mcq-08",
-        "influence-mcq-03"
+        "influence-mcq-15",
+        "influence-mcq-25",
+        "influence-mcq-18"
       ],
       "explanation": "本句的「influence」指「對某人的思想、風格、行為或發展產生塑造作用的人／事物」。",
       "sentenceIndex": 12,
@@ -1036,12 +970,10 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-06": "本句指「對某人的思想、風格、行為或發展產生塑造作用的人／事物」。",
-        "influence-mcq-05": "「對某人／某事的決策或行為具有左右作用」是「influence over someone/something（對……的影響力）」的用法，與本句語境不同。",
-        "influence-mcq-07": "「對某人的行為、態度或發展帶來正面／負面塑造作用的人或因素」是「positive/negative influence（正面／負面影響）」的用法，與本句語境不同。",
-        "influence-mcq-04": "「能左右他人決定、觀點或行動的能力／力量」是「influence = power to affect decisions/actions（影響力）」的用法，與本句語境不同。",
-        "influence-mcq-08": "「使某人的行為、態度或選擇變差的人／事物」是「bad influence（壞影響的人／因素）」的用法，與本句語境不同。",
-        "influence-mcq-03": "「一個人的言行、價值觀或榜樣長期塑造另一個人」是「influence = lasting personal impact（人生／人格上的影響）」的用法，與本句語境不同。"
+        "influence-mcq-06": "本句的「influence」指「對某人的思想、風格、行為或發展產生塑造作用的人／事物」。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-06"
     },
@@ -1053,11 +985,9 @@ export default {
       "masked": "She was a very ____ on me.",
       "options": [
         "influence-mcq-07",
-        "influence-mcq-06",
-        "influence-mcq-08",
-        "influence-mcq-05",
-        "influence-mcq-09",
-        "influence-mcq-04"
+        "influence-mcq-15",
+        "influence-mcq-18",
+        "influence-mcq-25"
       ],
       "explanation": "本句的「positive influence」指「對某人的行為、態度或發展帶來正面／負面塑造作用的人或因素」。",
       "sentenceIndex": 13,
@@ -1066,12 +996,10 @@ export default {
         "positive influence"
       ],
       "optionReasons": {
-        "influence-mcq-07": "本句指「對某人的行為、態度或發展帶來正面／負面塑造作用的人或因素」。",
-        "influence-mcq-06": "「對某人的思想、風格、行為或發展產生塑造作用的人／事物」是「influence = person/thing that shapes someone（影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-08": "「使某人的行為、態度或選擇變差的人／事物」是「bad influence（壞影響的人／因素）」的用法，與本句語境不同。",
-        "influence-mcq-05": "「對某人／某事的決策或行為具有左右作用」是「influence over someone/something（對……的影響力）」的用法，與本句語境不同。",
-        "influence-mcq-09": "「對作品、設計、思想或風格形成具有塑造作用的來源」是「influence = cultural/artistic source（藝術／文化影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-04": "「能左右他人決定、觀點或行動的能力／力量」是「influence = power to affect decisions/actions（影響力）」的用法，與本句語境不同。"
+        "influence-mcq-07": "本句的「positive influence」指「對某人的行為、態度或發展帶來正面／負面塑造作用的人或因素」。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-07"
     },
@@ -1083,11 +1011,9 @@ export default {
       "masked": "Some friends can be a negative ____.",
       "options": [
         "influence-mcq-07",
-        "influence-mcq-06",
-        "influence-mcq-08",
-        "influence-mcq-05",
-        "influence-mcq-09",
-        "influence-mcq-04"
+        "influence-mcq-15",
+        "influence-mcq-18",
+        "influence-mcq-25"
       ],
       "explanation": "本句的「influence」指「對某人的行為、態度或發展帶來正面／負面塑造作用的人或因素」。",
       "sentenceIndex": 14,
@@ -1096,12 +1022,10 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-07": "本句指「對某人的行為、態度或發展帶來正面／負面塑造作用的人或因素」。",
-        "influence-mcq-06": "「對某人的思想、風格、行為或發展產生塑造作用的人／事物」是「influence = person/thing that shapes someone（影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-08": "「使某人的行為、態度或選擇變差的人／事物」是「bad influence（壞影響的人／因素）」的用法，與本句語境不同。",
-        "influence-mcq-05": "「對某人／某事的決策或行為具有左右作用」是「influence over someone/something（對……的影響力）」的用法，與本句語境不同。",
-        "influence-mcq-09": "「對作品、設計、思想或風格形成具有塑造作用的來源」是「influence = cultural/artistic source（藝術／文化影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-04": "「能左右他人決定、觀點或行動的能力／力量」是「influence = power to affect decisions/actions（影響力）」的用法，與本句語境不同。"
+        "influence-mcq-07": "本句的「influence」指「對某人的行為、態度或發展帶來正面／負面塑造作用的人或因素」。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-07"
     },
@@ -1113,11 +1037,9 @@ export default {
       "masked": "His parents thought those friends were a ____.",
       "options": [
         "influence-mcq-08",
-        "influence-mcq-07",
-        "influence-mcq-09",
-        "influence-mcq-06",
-        "influence-mcq-10",
-        "influence-mcq-05"
+        "influence-mcq-15",
+        "influence-mcq-18",
+        "influence-mcq-25"
       ],
       "explanation": "本句的「bad influence」指「使某人的行為、態度或選擇變差的人／事物」。",
       "sentenceIndex": 15,
@@ -1126,12 +1048,10 @@ export default {
         "bad influence"
       ],
       "optionReasons": {
-        "influence-mcq-08": "本句指「使某人的行為、態度或選擇變差的人／事物」。",
-        "influence-mcq-07": "「對某人的行為、態度或發展帶來正面／負面塑造作用的人或因素」是「positive/negative influence（正面／負面影響）」的用法，與本句語境不同。",
-        "influence-mcq-09": "「對作品、設計、思想或風格形成具有塑造作用的來源」是「influence = cultural/artistic source（藝術／文化影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-06": "「對某人的思想、風格、行為或發展產生塑造作用的人／事物」是「influence = person/thing that shapes someone（影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-10": "「共同塑造某人創作、思想或風格的人／作品／傳統」是「influences = inspirations/sources shaping style（風格影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-05": "「對某人／某事的決策或行為具有左右作用」是「influence over someone/something（對……的影響力）」的用法，與本句語境不同。"
+        "influence-mcq-08": "本句的「bad influence」指「使某人的行為、態度或選擇變差的人／事物」。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-08"
     },
@@ -1143,11 +1063,9 @@ export default {
       "masked": "He worried that social media was becoming a bad ____.",
       "options": [
         "influence-mcq-08",
-        "influence-mcq-07",
-        "influence-mcq-09",
-        "influence-mcq-06",
-        "influence-mcq-10",
-        "influence-mcq-05"
+        "influence-mcq-12",
+        "influence-mcq-18",
+        "influence-mcq-25"
       ],
       "explanation": "本句的「influence」指「使某人的行為、態度或選擇變差的人／事物」。",
       "sentenceIndex": 16,
@@ -1156,12 +1074,10 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-08": "本句指「使某人的行為、態度或選擇變差的人／事物」。",
-        "influence-mcq-07": "「對某人的行為、態度或發展帶來正面／負面塑造作用的人或因素」是「positive/negative influence（正面／負面影響）」的用法，與本句語境不同。",
-        "influence-mcq-09": "「對作品、設計、思想或風格形成具有塑造作用的來源」是「influence = cultural/artistic source（藝術／文化影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-06": "「對某人的思想、風格、行為或發展產生塑造作用的人／事物」是「influence = person/thing that shapes someone（影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-10": "「共同塑造某人創作、思想或風格的人／作品／傳統」是「influences = inspirations/sources shaping style（風格影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-05": "「對某人／某事的決策或行為具有左右作用」是「influence over someone/something（對……的影響力）」的用法，與本句語境不同。"
+        "influence-mcq-08": "本句的「influence」指「使某人的行為、態度或選擇變差的人／事物」。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-08"
     },
@@ -1173,11 +1089,7 @@ export default {
       "masked": "Traditional music is a strong ____.",
       "options": [
         "influence-mcq-09",
-        "influence-mcq-08",
-        "influence-mcq-10",
-        "influence-mcq-07",
-        "influence-mcq-11",
-        "influence-mcq-06"
+        "influence-mcq-29"
       ],
       "explanation": "本句的「influence on her work」指「對作品、設計、思想或風格形成具有塑造作用的來源」。",
       "sentenceIndex": 17,
@@ -1186,12 +1098,8 @@ export default {
         "influence on her work"
       ],
       "optionReasons": {
-        "influence-mcq-09": "本句指「對作品、設計、思想或風格形成具有塑造作用的來源」。",
-        "influence-mcq-08": "「使某人的行為、態度或選擇變差的人／事物」是「bad influence（壞影響的人／因素）」的用法，與本句語境不同。",
-        "influence-mcq-10": "「共同塑造某人創作、思想或風格的人／作品／傳統」是「influences = inspirations/sources shaping style（風格影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-07": "「對某人的行為、態度或發展帶來正面／負面塑造作用的人或因素」是「positive/negative influence（正面／負面影響）」的用法，與本句語境不同。",
-        "influence-mcq-11": "「對某人的思想、行為、選擇或發展產生作用」是「influence = verb: affect how someone thinks/acts（影響）」的用法，與本句語境不同。",
-        "influence-mcq-06": "「對某人的思想、風格、行為或發展產生塑造作用的人／事物」是「influence = person/thing that shapes someone（影響來源）」的用法，與本句語境不同。"
+        "influence-mcq-09": "本句的「influence on her work」指「對作品、設計、思想或風格形成具有塑造作用的來源」。",
+        "influence-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-09"
     },
@@ -1203,11 +1111,7 @@ export default {
       "masked": "You can hear several musical ____ in the album.",
       "options": [
         "influence-mcq-09",
-        "influence-mcq-08",
-        "influence-mcq-10",
-        "influence-mcq-07",
-        "influence-mcq-11",
-        "influence-mcq-06"
+        "influence-mcq-29"
       ],
       "explanation": "本句的「influences」指「對作品、設計、思想或風格形成具有塑造作用的來源」。",
       "sentenceIndex": 18,
@@ -1216,12 +1120,8 @@ export default {
         "influences"
       ],
       "optionReasons": {
-        "influence-mcq-09": "本句指「對作品、設計、思想或風格形成具有塑造作用的來源」。",
-        "influence-mcq-08": "「使某人的行為、態度或選擇變差的人／事物」是「bad influence（壞影響的人／因素）」的用法，與本句語境不同。",
-        "influence-mcq-10": "「共同塑造某人創作、思想或風格的人／作品／傳統」是「influences = inspirations/sources shaping style（風格影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-07": "「對某人的行為、態度或發展帶來正面／負面塑造作用的人或因素」是「positive/negative influence（正面／負面影響）」的用法，與本句語境不同。",
-        "influence-mcq-11": "「對某人的思想、行為、選擇或發展產生作用」是「influence = verb: affect how someone thinks/acts（影響）」的用法，與本句語境不同。",
-        "influence-mcq-06": "「對某人的思想、風格、行為或發展產生塑造作用的人／事物」是「influence = person/thing that shapes someone（影響來源）」的用法，與本句語境不同。"
+        "influence-mcq-09": "本句的「influences」指「對作品、設計、思想或風格形成具有塑造作用的來源」。",
+        "influence-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-09"
     },
@@ -1233,11 +1133,9 @@ export default {
       "masked": "The designer talked about her main ____.",
       "options": [
         "influence-mcq-10",
-        "influence-mcq-09",
-        "influence-mcq-11",
-        "influence-mcq-08",
         "influence-mcq-12",
-        "influence-mcq-07"
+        "influence-mcq-18",
+        "influence-mcq-25"
       ],
       "explanation": "本句的「influences」指「共同塑造某人創作、思想或風格的人／作品／傳統」。",
       "sentenceIndex": 19,
@@ -1246,12 +1144,10 @@ export default {
         "influences"
       ],
       "optionReasons": {
-        "influence-mcq-10": "本句指「共同塑造某人創作、思想或風格的人／作品／傳統」。",
-        "influence-mcq-09": "「對作品、設計、思想或風格形成具有塑造作用的來源」是「influence = cultural/artistic source（藝術／文化影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-11": "「對某人的思想、行為、選擇或發展產生作用」是「influence = verb: affect how someone thinks/acts（影響）」的用法，與本句語境不同。",
-        "influence-mcq-08": "「使某人的行為、態度或選擇變差的人／事物」是「bad influence（壞影響的人／因素）」的用法，與本句語境不同。",
-        "influence-mcq-12": "「成為令某個決定朝某方向發展的因素之一」是「influence a decision/choice（影響決定／選擇）」的用法，與本句語境不同。",
-        "influence-mcq-07": "「對某人的行為、態度或發展帶來正面／負面塑造作用的人或因素」是「positive/negative influence（正面／負面影響）」的用法，與本句語境不同。"
+        "influence-mcq-10": "本句的「influences」指「共同塑造某人創作、思想或風格的人／作品／傳統」。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-10"
     },
@@ -1263,11 +1159,9 @@ export default {
       "masked": "His ____ include jazz and classical music.",
       "options": [
         "influence-mcq-10",
-        "influence-mcq-09",
-        "influence-mcq-11",
-        "influence-mcq-08",
-        "influence-mcq-12",
-        "influence-mcq-07"
+        "influence-mcq-18",
+        "influence-mcq-15",
+        "influence-mcq-25"
       ],
       "explanation": "本句的「influences」指「共同塑造某人創作、思想或風格的人／作品／傳統」。",
       "sentenceIndex": 20,
@@ -1276,12 +1170,10 @@ export default {
         "influences"
       ],
       "optionReasons": {
-        "influence-mcq-10": "本句指「共同塑造某人創作、思想或風格的人／作品／傳統」。",
-        "influence-mcq-09": "「對作品、設計、思想或風格形成具有塑造作用的來源」是「influence = cultural/artistic source（藝術／文化影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-11": "「對某人的思想、行為、選擇或發展產生作用」是「influence = verb: affect how someone thinks/acts（影響）」的用法，與本句語境不同。",
-        "influence-mcq-08": "「使某人的行為、態度或選擇變差的人／事物」是「bad influence（壞影響的人／因素）」的用法，與本句語境不同。",
-        "influence-mcq-12": "「成為令某個決定朝某方向發展的因素之一」是「influence a decision/choice（影響決定／選擇）」的用法，與本句語境不同。",
-        "influence-mcq-07": "「對某人的行為、態度或發展帶來正面／負面塑造作用的人或因素」是「positive/negative influence（正面／負面影響）」的用法，與本句語境不同。"
+        "influence-mcq-10": "本句的「influences」指「共同塑造某人創作、思想或風格的人／作品／傳統」。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-10"
     },
@@ -1293,11 +1185,9 @@ export default {
       "masked": "She ____ so deeply.",
       "options": [
         "influence-mcq-11",
-        "influence-mcq-10",
-        "influence-mcq-12",
-        "influence-mcq-09",
-        "influence-mcq-13",
-        "influence-mcq-08"
+        "influence-mcq-15",
+        "influence-mcq-25",
+        "influence-mcq-18"
       ],
       "explanation": "本句的「influenced me」指「對某人的思想、行為、選擇或發展產生作用」。",
       "sentenceIndex": 21,
@@ -1306,12 +1196,10 @@ export default {
         "influenced me"
       ],
       "optionReasons": {
-        "influence-mcq-11": "本句指「對某人的思想、行為、選擇或發展產生作用」。",
-        "influence-mcq-10": "「共同塑造某人創作、思想或風格的人／作品／傳統」是「influences = inspirations/sources shaping style（風格影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-12": "「成為令某個決定朝某方向發展的因素之一」是「influence a decision/choice（影響決定／選擇）」的用法，與本句語境不同。",
-        "influence-mcq-09": "「對作品、設計、思想或風格形成具有塑造作用的來源」是「influence = cultural/artistic source（藝術／文化影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-13": "「影響行為時，表示改變／塑造行為」是「influence behaviour（影響行為）」的用法，與本句語境不同。",
-        "influence-mcq-08": "「使某人的行為、態度或選擇變差的人／事物」是「bad influence（壞影響的人／因素）」的用法，與本句語境不同。"
+        "influence-mcq-11": "本句的「influenced me」指「對某人的思想、行為、選擇或發展產生作用」。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-11"
     },
@@ -1323,11 +1211,9 @@ export default {
       "masked": "His teacher ____.",
       "options": [
         "influence-mcq-11",
-        "influence-mcq-10",
-        "influence-mcq-12",
-        "influence-mcq-09",
-        "influence-mcq-13",
-        "influence-mcq-08"
+        "influence-mcq-15",
+        "influence-mcq-25",
+        "influence-mcq-18"
       ],
       "explanation": "本句的「influenced the way he thought」指「對某人的思想、行為、選擇或發展產生作用」。",
       "sentenceIndex": 22,
@@ -1336,12 +1222,10 @@ export default {
         "influenced the way he thought"
       ],
       "optionReasons": {
-        "influence-mcq-11": "本句指「對某人的思想、行為、選擇或發展產生作用」。",
-        "influence-mcq-10": "「共同塑造某人創作、思想或風格的人／作品／傳統」是「influences = inspirations/sources shaping style（風格影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-12": "「成為令某個決定朝某方向發展的因素之一」是「influence a decision/choice（影響決定／選擇）」的用法，與本句語境不同。",
-        "influence-mcq-09": "「對作品、設計、思想或風格形成具有塑造作用的來源」是「influence = cultural/artistic source（藝術／文化影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-13": "「影響行為時，表示改變／塑造行為」是「influence behaviour（影響行為）」的用法，與本句語境不同。",
-        "influence-mcq-08": "「使某人的行為、態度或選擇變差的人／事物」是「bad influence（壞影響的人／因素）」的用法，與本句語境不同。"
+        "influence-mcq-11": "本句的「influenced the way he thought」指「對某人的思想、行為、選擇或發展產生作用」。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-11"
     },
@@ -1353,11 +1237,9 @@ export default {
       "masked": "Friends can ____ your behaviour.",
       "options": [
         "influence-mcq-11",
-        "influence-mcq-10",
-        "influence-mcq-12",
-        "influence-mcq-09",
-        "influence-mcq-13",
-        "influence-mcq-08"
+        "influence-mcq-15",
+        "influence-mcq-25",
+        "influence-mcq-18"
       ],
       "explanation": "本句的「influence」指「對某人的思想、行為、選擇或發展產生作用」。",
       "sentenceIndex": 23,
@@ -1366,12 +1248,10 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-11": "本句指「對某人的思想、行為、選擇或發展產生作用」。",
-        "influence-mcq-10": "「共同塑造某人創作、思想或風格的人／作品／傳統」是「influences = inspirations/sources shaping style（風格影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-12": "「成為令某個決定朝某方向發展的因素之一」是「influence a decision/choice（影響決定／選擇）」的用法，與本句語境不同。",
-        "influence-mcq-09": "「對作品、設計、思想或風格形成具有塑造作用的來源」是「influence = cultural/artistic source（藝術／文化影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-13": "「影響行為時，表示改變／塑造行為」是「influence behaviour（影響行為）」的用法，與本句語境不同。",
-        "influence-mcq-08": "「使某人的行為、態度或選擇變差的人／事物」是「bad influence（壞影響的人／因素）」的用法，與本句語境不同。"
+        "influence-mcq-11": "本句的「influence」指「對某人的思想、行為、選擇或發展產生作用」。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-11"
     },
@@ -1383,11 +1263,8 @@ export default {
       "masked": "Cost ____.",
       "options": [
         "influence-mcq-12",
-        "influence-mcq-11",
-        "influence-mcq-13",
-        "influence-mcq-10",
-        "influence-mcq-14",
-        "influence-mcq-09"
+        "influence-mcq-26",
+        "influence-mcq-19"
       ],
       "explanation": "本句的「influenced my decision」指「成為令某個決定朝某方向發展的因素之一」。",
       "sentenceIndex": 24,
@@ -1396,12 +1273,9 @@ export default {
         "influenced my decision"
       ],
       "optionReasons": {
-        "influence-mcq-12": "本句指「成為令某個決定朝某方向發展的因素之一」。",
-        "influence-mcq-11": "「對某人的思想、行為、選擇或發展產生作用」是「influence = verb: affect how someone thinks/acts（影響）」的用法，與本句語境不同。",
-        "influence-mcq-13": "「影響行為時，表示改變／塑造行為」是「influence behaviour（影響行為）」的用法，與本句語境不同。",
-        "influence-mcq-10": "「共同塑造某人創作、思想或風格的人／作品／傳統」是「influences = inspirations/sources shaping style（風格影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-14": "「使某人的觀點朝某方向形成／改變」是「influence opinion（影響看法）」的用法，與本句語境不同。",
-        "influence-mcq-09": "「對作品、設計、思想或風格形成具有塑造作用的來源」是「influence = cultural/artistic source（藝術／文化影響來源）」的用法，與本句語境不同。"
+        "influence-mcq-12": "本句的「influenced my decision」指「成為令某個決定朝某方向發展的因素之一」。",
+        "influence-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-12"
     },
@@ -1413,11 +1287,8 @@ export default {
       "masked": "Her advice ____ my choice.",
       "options": [
         "influence-mcq-12",
-        "influence-mcq-11",
-        "influence-mcq-13",
-        "influence-mcq-10",
-        "influence-mcq-14",
-        "influence-mcq-09"
+        "influence-mcq-02",
+        "influence-mcq-18"
       ],
       "explanation": "本句的「influenced」指「成為令某個決定朝某方向發展的因素之一」。",
       "sentenceIndex": 25,
@@ -1426,12 +1297,9 @@ export default {
         "influenced"
       ],
       "optionReasons": {
-        "influence-mcq-12": "本句指「成為令某個決定朝某方向發展的因素之一」。",
-        "influence-mcq-11": "「對某人的思想、行為、選擇或發展產生作用」是「influence = verb: affect how someone thinks/acts（影響）」的用法，與本句語境不同。",
-        "influence-mcq-13": "「影響行為時，表示改變／塑造行為」是「influence behaviour（影響行為）」的用法，與本句語境不同。",
-        "influence-mcq-10": "「共同塑造某人創作、思想或風格的人／作品／傳統」是「influences = inspirations/sources shaping style（風格影響來源）」的用法，與本句語境不同。",
-        "influence-mcq-14": "「使某人的觀點朝某方向形成／改變」是「influence opinion（影響看法）」的用法，與本句語境不同。",
-        "influence-mcq-09": "「對作品、設計、思想或風格形成具有塑造作用的來源」是「influence = cultural/artistic source（藝術／文化影響來源）」的用法，與本句語境不同。"
+        "influence-mcq-12": "本句的「influenced」指「成為令某個決定朝某方向發展的因素之一」。",
+        "influence-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-12"
     },
@@ -1444,10 +1312,7 @@ export default {
       "options": [
         "influence-mcq-13",
         "influence-mcq-12",
-        "influence-mcq-14",
-        "influence-mcq-11",
-        "influence-mcq-15",
-        "influence-mcq-10"
+        "influence-mcq-22"
       ],
       "explanation": "本句的「influence children’s behaviour」指「影響行為時，表示改變／塑造行為」。",
       "sentenceIndex": 26,
@@ -1456,12 +1321,9 @@ export default {
         "influence children’s behaviour"
       ],
       "optionReasons": {
-        "influence-mcq-13": "本句指「影響行為時，表示改變／塑造行為」。",
-        "influence-mcq-12": "「成為令某個決定朝某方向發展的因素之一」是「influence a decision/choice（影響決定／選擇）」的用法，與本句語境不同。",
-        "influence-mcq-14": "「使某人的觀點朝某方向形成／改變」是「influence opinion（影響看法）」的用法，與本句語境不同。",
-        "influence-mcq-11": "「對某人的思想、行為、選擇或發展產生作用」是「influence = verb: affect how someone thinks/acts（影響）」的用法，與本句語境不同。",
-        "influence-mcq-15": "「對結果具有作用，但不一定單獨決定結果」是「influence = indirectly affect an outcome（影響結果）」的用法，與本句語境不同。",
-        "influence-mcq-10": "「共同塑造某人創作、思想或風格的人／作品／傳統」是「influences = inspirations/sources shaping style（風格影響來源）」的用法，與本句語境不同。"
+        "influence-mcq-13": "本句的「influence children’s behaviour」指「影響行為時，表示改變／塑造行為」。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-13"
     },
@@ -1474,10 +1336,7 @@ export default {
       "options": [
         "influence-mcq-13",
         "influence-mcq-12",
-        "influence-mcq-14",
-        "influence-mcq-11",
-        "influence-mcq-15",
-        "influence-mcq-10"
+        "influence-mcq-22"
       ],
       "explanation": "本句的「influence」指「影響行為時，表示改變／塑造行為」。",
       "sentenceIndex": 27,
@@ -1486,12 +1345,9 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-13": "本句指「影響行為時，表示改變／塑造行為」。",
-        "influence-mcq-12": "「成為令某個決定朝某方向發展的因素之一」是「influence a decision/choice（影響決定／選擇）」的用法，與本句語境不同。",
-        "influence-mcq-14": "「使某人的觀點朝某方向形成／改變」是「influence opinion（影響看法）」的用法，與本句語境不同。",
-        "influence-mcq-11": "「對某人的思想、行為、選擇或發展產生作用」是「influence = verb: affect how someone thinks/acts（影響）」的用法，與本句語境不同。",
-        "influence-mcq-15": "「對結果具有作用，但不一定單獨決定結果」是「influence = indirectly affect an outcome（影響結果）」的用法，與本句語境不同。",
-        "influence-mcq-10": "「共同塑造某人創作、思想或風格的人／作品／傳統」是「influences = inspirations/sources shaping style（風格影響來源）」的用法，與本句語境不同。"
+        "influence-mcq-13": "本句的「influence」指「影響行為時，表示改變／塑造行為」。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-13"
     },
@@ -1503,11 +1359,8 @@ export default {
       "masked": "News reports can ____.",
       "options": [
         "influence-mcq-14",
-        "influence-mcq-13",
         "influence-mcq-15",
-        "influence-mcq-12",
-        "influence-mcq-16",
-        "influence-mcq-11"
+        "influence-mcq-18"
       ],
       "explanation": "本句的「influence public opinion」指「使某人的觀點朝某方向形成／改變」。",
       "sentenceIndex": 28,
@@ -1516,12 +1369,9 @@ export default {
         "influence public opinion"
       ],
       "optionReasons": {
-        "influence-mcq-14": "本句指「使某人的觀點朝某方向形成／改變」。",
-        "influence-mcq-13": "「影響行為時，表示改變／塑造行為」是「influence behaviour（影響行為）」的用法，與本句語境不同。",
-        "influence-mcq-15": "「對結果具有作用，但不一定單獨決定結果」是「influence = indirectly affect an outcome（影響結果）」的用法，與本句語境不同。",
-        "influence-mcq-12": "「成為令某個決定朝某方向發展的因素之一」是「influence a decision/choice（影響決定／選擇）」的用法，與本句語境不同。",
-        "influence-mcq-16": "「能顯著影響人的思想、行動、文化、政策或發展」是「influential（有影響力的）」的用法，與本句語境不同。",
-        "influence-mcq-11": "「對某人的思想、行為、選擇或發展產生作用」是「influence = verb: affect how someone thinks/acts（影響）」的用法，與本句語境不同。"
+        "influence-mcq-14": "本句的「influence public opinion」指「使某人的觀點朝某方向形成／改變」。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-14"
     },
@@ -1533,11 +1383,8 @@ export default {
       "masked": "His experience ____ his opinion of the issue.",
       "options": [
         "influence-mcq-14",
-        "influence-mcq-13",
-        "influence-mcq-15",
-        "influence-mcq-12",
-        "influence-mcq-16",
-        "influence-mcq-11"
+        "influence-mcq-18",
+        "influence-mcq-15"
       ],
       "explanation": "本句的「influenced」指「使某人的觀點朝某方向形成／改變」。",
       "sentenceIndex": 29,
@@ -1546,12 +1393,9 @@ export default {
         "influenced"
       ],
       "optionReasons": {
-        "influence-mcq-14": "本句指「使某人的觀點朝某方向形成／改變」。",
-        "influence-mcq-13": "「影響行為時，表示改變／塑造行為」是「influence behaviour（影響行為）」的用法，與本句語境不同。",
-        "influence-mcq-15": "「對結果具有作用，但不一定單獨決定結果」是「influence = indirectly affect an outcome（影響結果）」的用法，與本句語境不同。",
-        "influence-mcq-12": "「成為令某個決定朝某方向發展的因素之一」是「influence a decision/choice（影響決定／選擇）」的用法，與本句語境不同。",
-        "influence-mcq-16": "「能顯著影響人的思想、行動、文化、政策或發展」是「influential（有影響力的）」的用法，與本句語境不同。",
-        "influence-mcq-11": "「對某人的思想、行為、選擇或發展產生作用」是「influence = verb: affect how someone thinks/acts（影響）」的用法，與本句語境不同。"
+        "influence-mcq-14": "本句的「influenced」指「使某人的觀點朝某方向形成／改變」。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-14"
     },
@@ -1563,11 +1407,9 @@ export default {
       "masked": "Weather can ____.",
       "options": [
         "influence-mcq-15",
-        "influence-mcq-14",
-        "influence-mcq-16",
-        "influence-mcq-13",
-        "influence-mcq-17",
-        "influence-mcq-12"
+        "influence-mcq-11",
+        "influence-mcq-25",
+        "influence-mcq-18"
       ],
       "explanation": "本句的「influence the final result」指「對結果具有作用，但不一定單獨決定結果」。",
       "sentenceIndex": 30,
@@ -1576,12 +1418,10 @@ export default {
         "influence the final result"
       ],
       "optionReasons": {
-        "influence-mcq-15": "本句指「對結果具有作用，但不一定單獨決定結果」。",
-        "influence-mcq-14": "「使某人的觀點朝某方向形成／改變」是「influence opinion（影響看法）」的用法，與本句語境不同。",
-        "influence-mcq-16": "「能顯著影響人的思想、行動、文化、政策或發展」是「influential（有影響力的）」的用法，與本句語境不同。",
-        "influence-mcq-13": "「影響行為時，表示改變／塑造行為」是「influence behaviour（影響行為）」的用法，與本句語境不同。",
-        "influence-mcq-17": "「能顯著影響其他人的想法、決定或某個領域發展的人」是「influential person/figure（有影響力人物）」的用法，與本句語境不同。",
-        "influence-mcq-12": "「成為令某個決定朝某方向發展的因素之一」是「influence a decision/choice（影響決定／選擇）」的用法，與本句語境不同。"
+        "influence-mcq-15": "本句的「influence the final result」指「對結果具有作用，但不一定單獨決定結果」。",
+        "influence-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-15"
     },
@@ -1593,11 +1433,8 @@ export default {
       "masked": "Several factors ____ the outcome.",
       "options": [
         "influence-mcq-15",
-        "influence-mcq-14",
-        "influence-mcq-16",
-        "influence-mcq-13",
-        "influence-mcq-17",
-        "influence-mcq-12"
+        "influence-mcq-26",
+        "influence-mcq-19"
       ],
       "explanation": "本句的「influenced」指「對結果具有作用，但不一定單獨決定結果」。",
       "sentenceIndex": 31,
@@ -1606,12 +1443,9 @@ export default {
         "influenced"
       ],
       "optionReasons": {
-        "influence-mcq-15": "本句指「對結果具有作用，但不一定單獨決定結果」。",
-        "influence-mcq-14": "「使某人的觀點朝某方向形成／改變」是「influence opinion（影響看法）」的用法，與本句語境不同。",
-        "influence-mcq-16": "「能顯著影響人的思想、行動、文化、政策或發展」是「influential（有影響力的）」的用法，與本句語境不同。",
-        "influence-mcq-13": "「影響行為時，表示改變／塑造行為」是「influence behaviour（影響行為）」的用法，與本句語境不同。",
-        "influence-mcq-17": "「能顯著影響其他人的想法、決定或某個領域發展的人」是「influential person/figure（有影響力人物）」的用法，與本句語境不同。",
-        "influence-mcq-12": "「成為令某個決定朝某方向發展的因素之一」是「influence a decision/choice（影響決定／選擇）」的用法，與本句語境不同。"
+        "influence-mcq-15": "本句的「influenced」指「對結果具有作用，但不一定單獨決定結果」。",
+        "influence-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-15"
     },
@@ -1623,11 +1457,9 @@ export default {
       "masked": "She became an ____.",
       "options": [
         "influence-mcq-16",
+        "influence-mcq-25",
         "influence-mcq-15",
-        "influence-mcq-17",
-        "influence-mcq-14",
-        "influence-mcq-18",
-        "influence-mcq-13"
+        "influence-mcq-03"
       ],
       "explanation": "本句的「influential teacher」指「能顯著影響人的思想、行動、文化、政策或發展」。",
       "sentenceIndex": 32,
@@ -1636,12 +1468,10 @@ export default {
         "influential teacher"
       ],
       "optionReasons": {
-        "influence-mcq-16": "本句指「能顯著影響人的思想、行動、文化、政策或發展」。",
-        "influence-mcq-15": "「對結果具有作用，但不一定單獨決定結果」是「influence = indirectly affect an outcome（影響結果）」的用法，與本句語境不同。",
-        "influence-mcq-17": "「能顯著影響其他人的想法、決定或某個領域發展的人」是「influential person/figure（有影響力人物）」的用法，與本句語境不同。",
-        "influence-mcq-14": "「使某人的觀點朝某方向形成／改變」是「influence opinion（影響看法）」的用法，與本句語境不同。",
-        "influence-mcq-18": "「極具影響力時，表示影響深遠」是「highly influential（極具影響力）」的用法，與本句語境不同。",
-        "influence-mcq-13": "「影響行為時，表示改變／塑造行為」是「influence behaviour（影響行為）」的用法，與本句語境不同。"
+        "influence-mcq-16": "本句的「influential teacher」指「能顯著影響人的思想、行動、文化、政策或發展」。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-16"
     },
@@ -1653,11 +1483,8 @@ export default {
       "masked": "The book was highly ____.",
       "options": [
         "influence-mcq-16",
-        "influence-mcq-15",
-        "influence-mcq-17",
-        "influence-mcq-14",
-        "influence-mcq-18",
-        "influence-mcq-13"
+        "influence-mcq-02",
+        "influence-mcq-15"
       ],
       "explanation": "本句的「influential」指「能顯著影響人的思想、行動、文化、政策或發展」。",
       "sentenceIndex": 33,
@@ -1666,12 +1493,9 @@ export default {
         "influential"
       ],
       "optionReasons": {
-        "influence-mcq-16": "本句指「能顯著影響人的思想、行動、文化、政策或發展」。",
-        "influence-mcq-15": "「對結果具有作用，但不一定單獨決定結果」是「influence = indirectly affect an outcome（影響結果）」的用法，與本句語境不同。",
-        "influence-mcq-17": "「能顯著影響其他人的想法、決定或某個領域發展的人」是「influential person/figure（有影響力人物）」的用法，與本句語境不同。",
-        "influence-mcq-14": "「使某人的觀點朝某方向形成／改變」是「influence opinion（影響看法）」的用法，與本句語境不同。",
-        "influence-mcq-18": "「極具影響力時，表示影響深遠」是「highly influential（極具影響力）」的用法，與本句語境不同。",
-        "influence-mcq-13": "「影響行為時，表示改變／塑造行為」是「influence behaviour（影響行為）」的用法，與本句語境不同。"
+        "influence-mcq-16": "本句的「influential」指「能顯著影響人的思想、行動、文化、政策或發展」。",
+        "influence-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-16"
     },
@@ -1683,11 +1507,7 @@ export default {
       "masked": "She is an ____ in education.",
       "options": [
         "influence-mcq-17",
-        "influence-mcq-16",
-        "influence-mcq-18",
-        "influence-mcq-15",
-        "influence-mcq-19",
-        "influence-mcq-14"
+        "influence-mcq-25"
       ],
       "explanation": "本句的「influential figure」指「能顯著影響其他人的想法、決定或某個領域發展的人」。",
       "sentenceIndex": 34,
@@ -1696,12 +1516,8 @@ export default {
         "influential figure"
       ],
       "optionReasons": {
-        "influence-mcq-17": "本句指「能顯著影響其他人的想法、決定或某個領域發展的人」。",
-        "influence-mcq-16": "「能顯著影響人的思想、行動、文化、政策或發展」是「influential（有影響力的）」的用法，與本句語境不同。",
-        "influence-mcq-18": "「極具影響力時，表示影響深遠」是「highly influential（極具影響力）」的用法，與本句語境不同。",
-        "influence-mcq-15": "「對結果具有作用，但不一定單獨決定結果」是「influence = indirectly affect an outcome（影響結果）」的用法，與本句語境不同。",
-        "influence-mcq-19": "「思想、行為、風格等正在受到 X 的作用／塑造」是「under the influence of someone/something（受……影響）」的用法，與本句語境不同。",
-        "influence-mcq-14": "「使某人的觀點朝某方向形成／改變」是「influence opinion（影響看法）」的用法，與本句語境不同。"
+        "influence-mcq-17": "本句的「influential figure」指「能顯著影響其他人的想法、決定或某個領域發展的人」。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-17"
     },
@@ -1713,11 +1529,7 @@ export default {
       "masked": "Several ____ people supported the project.",
       "options": [
         "influence-mcq-17",
-        "influence-mcq-16",
-        "influence-mcq-18",
-        "influence-mcq-15",
-        "influence-mcq-19",
-        "influence-mcq-14"
+        "influence-mcq-25"
       ],
       "explanation": "本句的「influential」指「能顯著影響其他人的想法、決定或某個領域發展的人」。",
       "sentenceIndex": 35,
@@ -1726,12 +1538,8 @@ export default {
         "influential"
       ],
       "optionReasons": {
-        "influence-mcq-17": "本句指「能顯著影響其他人的想法、決定或某個領域發展的人」。",
-        "influence-mcq-16": "「能顯著影響人的思想、行動、文化、政策或發展」是「influential（有影響力的）」的用法，與本句語境不同。",
-        "influence-mcq-18": "「極具影響力時，表示影響深遠」是「highly influential（極具影響力）」的用法，與本句語境不同。",
-        "influence-mcq-15": "「對結果具有作用，但不一定單獨決定結果」是「influence = indirectly affect an outcome（影響結果）」的用法，與本句語境不同。",
-        "influence-mcq-19": "「思想、行為、風格等正在受到 X 的作用／塑造」是「under the influence of someone/something（受……影響）」的用法，與本句語境不同。",
-        "influence-mcq-14": "「使某人的觀點朝某方向形成／改變」是「influence opinion（影響看法）」的用法，與本句語境不同。"
+        "influence-mcq-17": "本句的「influential」指「能顯著影響其他人的想法、決定或某個領域發展的人」。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-17"
     },
@@ -1743,11 +1551,8 @@ export default {
       "masked": "The research was ____.",
       "options": [
         "influence-mcq-18",
-        "influence-mcq-17",
-        "influence-mcq-19",
-        "influence-mcq-16",
-        "influence-mcq-20",
-        "influence-mcq-15"
+        "influence-mcq-12",
+        "influence-mcq-02"
       ],
       "explanation": "本句的「highly influential」指「極具影響力時，表示影響深遠」。",
       "sentenceIndex": 36,
@@ -1756,12 +1561,9 @@ export default {
         "highly influential"
       ],
       "optionReasons": {
-        "influence-mcq-18": "本句指「極具影響力時，表示影響深遠」。",
-        "influence-mcq-17": "「能顯著影響其他人的想法、決定或某個領域發展的人」是「influential person/figure（有影響力人物）」的用法，與本句語境不同。",
-        "influence-mcq-19": "「思想、行為、風格等正在受到 X 的作用／塑造」是「under the influence of someone/something（受……影響）」的用法，與本句語境不同。",
-        "influence-mcq-16": "「能顯著影響人的思想、行動、文化、政策或發展」是「influential（有影響力的）」的用法，與本句語境不同。",
-        "influence-mcq-20": "「因酒精或藥物作用而令判斷、反應或身體能力受影響」是「under the influence = affected by alcohol/drugs（受酒精／藥物影響）」的用法，與本句語境不同。",
-        "influence-mcq-15": "「對結果具有作用，但不一定單獨決定結果」是「influence = indirectly affect an outcome（影響結果）」的用法，與本句語境不同。"
+        "influence-mcq-18": "本句的「highly influential」指「極具影響力時，表示影響深遠」。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-18"
     },
@@ -1773,11 +1575,9 @@ export default {
       "masked": "She was highly ____ in shaping the programme.",
       "options": [
         "influence-mcq-18",
-        "influence-mcq-17",
-        "influence-mcq-19",
-        "influence-mcq-16",
-        "influence-mcq-20",
-        "influence-mcq-15"
+        "influence-mcq-10",
+        "influence-mcq-25",
+        "influence-mcq-12"
       ],
       "explanation": "本句的「influential」指「極具影響力時，表示影響深遠」。",
       "sentenceIndex": 37,
@@ -1786,12 +1586,10 @@ export default {
         "influential"
       ],
       "optionReasons": {
-        "influence-mcq-18": "本句指「極具影響力時，表示影響深遠」。",
-        "influence-mcq-17": "「能顯著影響其他人的想法、決定或某個領域發展的人」是「influential person/figure（有影響力人物）」的用法，與本句語境不同。",
-        "influence-mcq-19": "「思想、行為、風格等正在受到 X 的作用／塑造」是「under the influence of someone/something（受……影響）」的用法，與本句語境不同。",
-        "influence-mcq-16": "「能顯著影響人的思想、行動、文化、政策或發展」是「influential（有影響力的）」的用法，與本句語境不同。",
-        "influence-mcq-20": "「因酒精或藥物作用而令判斷、反應或身體能力受影響」是「under the influence = affected by alcohol/drugs（受酒精／藥物影響）」的用法，與本句語境不同。",
-        "influence-mcq-15": "「對結果具有作用，但不一定單獨決定結果」是「influence = indirectly affect an outcome（影響結果）」的用法，與本句語境不同。"
+        "influence-mcq-18": "本句的「influential」指「極具影響力時，表示影響深遠」。",
+        "influence-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-18"
     },
@@ -1803,11 +1601,7 @@ export default {
       "masked": "He changed his style ____ his teacher.",
       "options": [
         "influence-mcq-19",
-        "influence-mcq-18",
-        "influence-mcq-20",
-        "influence-mcq-17",
-        "influence-mcq-21",
-        "influence-mcq-16"
+        "influence-mcq-29"
       ],
       "explanation": "本句的「under the influence of」指「思想、行為、風格等正在受到 X 的作用／塑造」。",
       "sentenceIndex": 38,
@@ -1816,12 +1610,8 @@ export default {
         "under the influence of"
       ],
       "optionReasons": {
-        "influence-mcq-19": "本句指「思想、行為、風格等正在受到 X 的作用／塑造」。",
-        "influence-mcq-18": "「極具影響力時，表示影響深遠」是「highly influential（極具影響力）」的用法，與本句語境不同。",
-        "influence-mcq-20": "「因酒精或藥物作用而令判斷、反應或身體能力受影響」是「under the influence = affected by alcohol/drugs（受酒精／藥物影響）」的用法，與本句語境不同。",
-        "influence-mcq-17": "「能顯著影響其他人的想法、決定或某個領域發展的人」是「influential person/figure（有影響力人物）」的用法，與本句語境不同。",
-        "influence-mcq-21": "「主動或實際運用自己的地位／能力去影響結果或他人」是「exert influence（施加影響力）」的用法，與本句語境不同。",
-        "influence-mcq-16": "「能顯著影響人的思想、行動、文化、政策或發展」是「influential（有影響力的）」的用法，與本句語境不同。"
+        "influence-mcq-19": "本句的「under the influence of」指「思想、行為、風格等正在受到 X 的作用／塑造」。",
+        "influence-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-19"
     },
@@ -1833,11 +1623,9 @@ export default {
       "masked": "The artist worked under the ____ of several traditions.",
       "options": [
         "influence-mcq-19",
-        "influence-mcq-18",
-        "influence-mcq-20",
-        "influence-mcq-17",
-        "influence-mcq-21",
-        "influence-mcq-16"
+        "influence-mcq-22",
+        "influence-mcq-12",
+        "influence-mcq-18"
       ],
       "explanation": "本句的「influence」指「思想、行為、風格等正在受到 X 的作用／塑造」。",
       "sentenceIndex": 39,
@@ -1846,12 +1634,10 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-19": "本句指「思想、行為、風格等正在受到 X 的作用／塑造」。",
-        "influence-mcq-18": "「極具影響力時，表示影響深遠」是「highly influential（極具影響力）」的用法，與本句語境不同。",
-        "influence-mcq-20": "「因酒精或藥物作用而令判斷、反應或身體能力受影響」是「under the influence = affected by alcohol/drugs（受酒精／藥物影響）」的用法，與本句語境不同。",
-        "influence-mcq-17": "「能顯著影響其他人的想法、決定或某個領域發展的人」是「influential person/figure（有影響力人物）」的用法，與本句語境不同。",
-        "influence-mcq-21": "「主動或實際運用自己的地位／能力去影響結果或他人」是「exert influence（施加影響力）」的用法，與本句語境不同。",
-        "influence-mcq-16": "「能顯著影響人的思想、行動、文化、政策或發展」是「influential（有影響力的）」的用法，與本句語境不同。"
+        "influence-mcq-19": "本句的「influence」指「思想、行為、風格等正在受到 X 的作用／塑造」。",
+        "influence-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-19"
     },
@@ -1863,11 +1649,8 @@ export default {
       "masked": "He was driving ____.",
       "options": [
         "influence-mcq-20",
-        "influence-mcq-19",
-        "influence-mcq-21",
-        "influence-mcq-18",
         "influence-mcq-22",
-        "influence-mcq-17"
+        "influence-mcq-12"
       ],
       "explanation": "本句的「under the influence」指「因酒精或藥物作用而令判斷、反應或身體能力受影響」。",
       "sentenceIndex": 40,
@@ -1876,12 +1659,9 @@ export default {
         "under the influence"
       ],
       "optionReasons": {
-        "influence-mcq-20": "本句指「因酒精或藥物作用而令判斷、反應或身體能力受影響」。",
-        "influence-mcq-19": "「思想、行為、風格等正在受到 X 的作用／塑造」是「under the influence of someone/something（受……影響）」的用法，與本句語境不同。",
-        "influence-mcq-21": "「主動或實際運用自己的地位／能力去影響結果或他人」是「exert influence（施加影響力）」的用法，與本句語境不同。",
-        "influence-mcq-18": "「極具影響力時，表示影響深遠」是「highly influential（極具影響力）」的用法，與本句語境不同。",
-        "influence-mcq-22": "「利用自己能左右他人的地位／關係來促成結果」是「use influence（運用影響力）」的用法，與本句語境不同。",
-        "influence-mcq-17": "「能顯著影響其他人的想法、決定或某個領域發展的人」是「influential person/figure（有影響力人物）」的用法，與本句語境不同。"
+        "influence-mcq-20": "本句的「under the influence」指「因酒精或藥物作用而令判斷、反應或身體能力受影響」。",
+        "influence-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-20"
     },
@@ -1893,11 +1673,9 @@ export default {
       "masked": "She was under the ____ of alcohol.",
       "options": [
         "influence-mcq-20",
-        "influence-mcq-19",
-        "influence-mcq-21",
-        "influence-mcq-18",
-        "influence-mcq-22",
-        "influence-mcq-17"
+        "influence-mcq-25",
+        "influence-mcq-03",
+        "influence-mcq-15"
       ],
       "explanation": "本句的「influence」指「因酒精或藥物作用而令判斷、反應或身體能力受影響」。",
       "sentenceIndex": 41,
@@ -1906,12 +1684,10 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-20": "本句指「因酒精或藥物作用而令判斷、反應或身體能力受影響」。",
-        "influence-mcq-19": "「思想、行為、風格等正在受到 X 的作用／塑造」是「under the influence of someone/something（受……影響）」的用法，與本句語境不同。",
-        "influence-mcq-21": "「主動或實際運用自己的地位／能力去影響結果或他人」是「exert influence（施加影響力）」的用法，與本句語境不同。",
-        "influence-mcq-18": "「極具影響力時，表示影響深遠」是「highly influential（極具影響力）」的用法，與本句語境不同。",
-        "influence-mcq-22": "「利用自己能左右他人的地位／關係來促成結果」是「use influence（運用影響力）」的用法，與本句語境不同。",
-        "influence-mcq-17": "「能顯著影響其他人的想法、決定或某個領域發展的人」是「influential person/figure（有影響力人物）」的用法，與本句語境不同。"
+        "influence-mcq-20": "本句的「influence」指「因酒精或藥物作用而令判斷、反應或身體能力受影響」。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-20"
     },
@@ -1923,11 +1699,8 @@ export default {
       "masked": "Parents ____ on young children.",
       "options": [
         "influence-mcq-21",
-        "influence-mcq-20",
-        "influence-mcq-22",
-        "influence-mcq-19",
-        "influence-mcq-23",
-        "influence-mcq-18"
+        "influence-mcq-09",
+        "influence-mcq-12"
       ],
       "explanation": "本句的「exert a strong influence」指「主動或實際運用自己的地位／能力去影響結果或他人」。",
       "sentenceIndex": 42,
@@ -1936,12 +1709,9 @@ export default {
         "exert a strong influence"
       ],
       "optionReasons": {
-        "influence-mcq-21": "本句指「主動或實際運用自己的地位／能力去影響結果或他人」。",
-        "influence-mcq-20": "「因酒精或藥物作用而令判斷、反應或身體能力受影響」是「under the influence = affected by alcohol/drugs（受酒精／藥物影響）」的用法，與本句語境不同。",
-        "influence-mcq-22": "「利用自己能左右他人的地位／關係來促成結果」是「use influence（運用影響力）」的用法，與本句語境不同。",
-        "influence-mcq-19": "「思想、行為、風格等正在受到 X 的作用／塑造」是「under the influence of someone/something（受……影響）」的用法，與本句語境不同。",
-        "influence-mcq-23": "「對某個人／群體能產生實際影響的能力」是「influence with someone（對某人有門路／影響力）」的用法，與本句語境不同。",
-        "influence-mcq-18": "「極具影響力時，表示影響深遠」是「highly influential（極具影響力）」的用法，與本句語境不同。"
+        "influence-mcq-21": "本句的「exert a strong influence」指「主動或實際運用自己的地位／能力去影響結果或他人」。",
+        "influence-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-21"
     },
@@ -1953,11 +1723,8 @@ export default {
       "masked": "The organization tried to exert ____ on the decision.",
       "options": [
         "influence-mcq-21",
-        "influence-mcq-20",
-        "influence-mcq-22",
         "influence-mcq-19",
-        "influence-mcq-23",
-        "influence-mcq-18"
+        "influence-mcq-12"
       ],
       "explanation": "本句的「influence」指「主動或實際運用自己的地位／能力去影響結果或他人」。",
       "sentenceIndex": 43,
@@ -1966,12 +1733,9 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-21": "本句指「主動或實際運用自己的地位／能力去影響結果或他人」。",
-        "influence-mcq-20": "「因酒精或藥物作用而令判斷、反應或身體能力受影響」是「under the influence = affected by alcohol/drugs（受酒精／藥物影響）」的用法，與本句語境不同。",
-        "influence-mcq-22": "「利用自己能左右他人的地位／關係來促成結果」是「use influence（運用影響力）」的用法，與本句語境不同。",
-        "influence-mcq-19": "「思想、行為、風格等正在受到 X 的作用／塑造」是「under the influence of someone/something（受……影響）」的用法，與本句語境不同。",
-        "influence-mcq-23": "「對某個人／群體能產生實際影響的能力」是「influence with someone（對某人有門路／影響力）」的用法，與本句語境不同。",
-        "influence-mcq-18": "「極具影響力時，表示影響深遠」是「highly influential（極具影響力）」的用法，與本句語境不同。"
+        "influence-mcq-21": "本句的「influence」指「主動或實際運用自己的地位／能力去影響結果或他人」。",
+        "influence-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-21"
     },
@@ -1983,11 +1747,8 @@ export default {
       "masked": "He used his ____ to help the project.",
       "options": [
         "influence-mcq-22",
-        "influence-mcq-21",
-        "influence-mcq-23",
         "influence-mcq-20",
-        "influence-mcq-24",
-        "influence-mcq-19"
+        "influence-mcq-12"
       ],
       "explanation": "本句的「influence」指「利用自己能左右他人的地位／關係來促成結果」。",
       "sentenceIndex": 44,
@@ -1996,12 +1757,9 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-22": "本句指「利用自己能左右他人的地位／關係來促成結果」。",
-        "influence-mcq-21": "「主動或實際運用自己的地位／能力去影響結果或他人」是「exert influence（施加影響力）」的用法，與本句語境不同。",
-        "influence-mcq-23": "「對某個人／群體能產生實際影響的能力」是「influence with someone（對某人有門路／影響力）」的用法，與本句語境不同。",
-        "influence-mcq-20": "「因酒精或藥物作用而令判斷、反應或身體能力受影響」是「under the influence = affected by alcohol/drugs（受酒精／藥物影響）」的用法，與本句語境不同。",
-        "influence-mcq-24": "「某人／組織能夠產生影響或控制作用的領域／範圍」是「sphere of influence（勢力／影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-19": "「思想、行為、風格等正在受到 X 的作用／塑造」是「under the influence of someone/something（受……影響）」的用法，與本句語境不同。"
+        "influence-mcq-22": "本句的「influence」指「利用自己能左右他人的地位／關係來促成結果」。",
+        "influence-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-22"
     },
@@ -2013,11 +1771,8 @@ export default {
       "masked": "She refused to use her ____ to gain special treatment.",
       "options": [
         "influence-mcq-22",
-        "influence-mcq-21",
-        "influence-mcq-23",
-        "influence-mcq-20",
-        "influence-mcq-24",
-        "influence-mcq-19"
+        "influence-mcq-13",
+        "influence-mcq-12"
       ],
       "explanation": "本句的「influence」指「利用自己能左右他人的地位／關係來促成結果」。",
       "sentenceIndex": 45,
@@ -2026,12 +1781,9 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-22": "本句指「利用自己能左右他人的地位／關係來促成結果」。",
-        "influence-mcq-21": "「主動或實際運用自己的地位／能力去影響結果或他人」是「exert influence（施加影響力）」的用法，與本句語境不同。",
-        "influence-mcq-23": "「對某個人／群體能產生實際影響的能力」是「influence with someone（對某人有門路／影響力）」的用法，與本句語境不同。",
-        "influence-mcq-20": "「因酒精或藥物作用而令判斷、反應或身體能力受影響」是「under the influence = affected by alcohol/drugs（受酒精／藥物影響）」的用法，與本句語境不同。",
-        "influence-mcq-24": "「某人／組織能夠產生影響或控制作用的領域／範圍」是「sphere of influence（勢力／影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-19": "「思想、行為、風格等正在受到 X 的作用／塑造」是「under the influence of someone/something（受……影響）」的用法，與本句語境不同。"
+        "influence-mcq-22": "本句的「influence」指「利用自己能左右他人的地位／關係來促成結果」。",
+        "influence-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-22"
     },
@@ -2043,11 +1795,8 @@ export default {
       "masked": "She has considerable ____ senior management.",
       "options": [
         "influence-mcq-23",
-        "influence-mcq-22",
-        "influence-mcq-24",
-        "influence-mcq-21",
-        "influence-mcq-25",
-        "influence-mcq-20"
+        "influence-mcq-15",
+        "influence-mcq-19"
       ],
       "explanation": "本句的「influence with」指「對某個人／群體能產生實際影響的能力」。",
       "sentenceIndex": 46,
@@ -2056,12 +1805,9 @@ export default {
         "influence with"
       ],
       "optionReasons": {
-        "influence-mcq-23": "本句指「對某個人／群體能產生實際影響的能力」。",
-        "influence-mcq-22": "「利用自己能左右他人的地位／關係來促成結果」是「use influence（運用影響力）」的用法，與本句語境不同。",
-        "influence-mcq-24": "「某人／組織能夠產生影響或控制作用的領域／範圍」是「sphere of influence（勢力／影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-21": "「主動或實際運用自己的地位／能力去影響結果或他人」是「exert influence（施加影響力）」的用法，與本句語境不同。",
-        "influence-mcq-25": "「自己實際能改變／左右的人、事情或情況」是「circle of influence（可影響的範圍）」的用法，與本句語境不同。",
-        "influence-mcq-20": "「因酒精或藥物作用而令判斷、反應或身體能力受影響」是「under the influence = affected by alcohol/drugs（受酒精／藥物影響）」的用法，與本句語境不同。"
+        "influence-mcq-23": "本句的「influence with」指「對某個人／群體能產生實際影響的能力」。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-23"
     },
@@ -2073,11 +1819,8 @@ export default {
       "masked": "He used his ____ with the committee.",
       "options": [
         "influence-mcq-23",
-        "influence-mcq-22",
-        "influence-mcq-24",
-        "influence-mcq-21",
-        "influence-mcq-25",
-        "influence-mcq-20"
+        "influence-mcq-12",
+        "influence-mcq-19"
       ],
       "explanation": "本句的「influence」指「對某個人／群體能產生實際影響的能力」。",
       "sentenceIndex": 47,
@@ -2086,12 +1829,9 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-23": "本句指「對某個人／群體能產生實際影響的能力」。",
-        "influence-mcq-22": "「利用自己能左右他人的地位／關係來促成結果」是「use influence（運用影響力）」的用法，與本句語境不同。",
-        "influence-mcq-24": "「某人／組織能夠產生影響或控制作用的領域／範圍」是「sphere of influence（勢力／影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-21": "「主動或實際運用自己的地位／能力去影響結果或他人」是「exert influence（施加影響力）」的用法，與本句語境不同。",
-        "influence-mcq-25": "「自己實際能改變／左右的人、事情或情況」是「circle of influence（可影響的範圍）」的用法，與本句語境不同。",
-        "influence-mcq-20": "「因酒精或藥物作用而令判斷、反應或身體能力受影響」是「under the influence = affected by alcohol/drugs（受酒精／藥物影響）」的用法，與本句語境不同。"
+        "influence-mcq-23": "本句的「influence」指「對某個人／群體能產生實際影響的能力」。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-23"
     },
@@ -2103,11 +1843,9 @@ export default {
       "masked": "The organization expanded its ____.",
       "options": [
         "influence-mcq-24",
-        "influence-mcq-23",
         "influence-mcq-25",
-        "influence-mcq-22",
-        "influence-mcq-26",
-        "influence-mcq-21"
+        "influence-mcq-12",
+        "influence-mcq-19"
       ],
       "explanation": "本句的「sphere of influence」指「某人／組織能夠產生影響或控制作用的領域／範圍」。",
       "sentenceIndex": 48,
@@ -2116,12 +1854,10 @@ export default {
         "sphere of influence"
       ],
       "optionReasons": {
-        "influence-mcq-24": "本句指「某人／組織能夠產生影響或控制作用的領域／範圍」。",
-        "influence-mcq-23": "「對某個人／群體能產生實際影響的能力」是「influence with someone（對某人有門路／影響力）」的用法，與本句語境不同。",
-        "influence-mcq-25": "「自己實際能改變／左右的人、事情或情況」是「circle of influence（可影響的範圍）」的用法，與本句語境不同。",
-        "influence-mcq-22": "「利用自己能左右他人的地位／關係來促成結果」是「use influence（運用影響力）」的用法，與本句語境不同。",
-        "influence-mcq-26": "「某人沒有足夠能力去改變／左右」是「outside/beyond someone’s influence（超出某人影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-21": "「主動或實際運用自己的地位／能力去影響結果或他人」是「exert influence（施加影響力）」的用法，與本句語境不同。"
+        "influence-mcq-24": "本句的「sphere of influence」指「某人／組織能夠產生影響或控制作用的領域／範圍」。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-24"
     },
@@ -2133,11 +1869,9 @@ export default {
       "masked": "The issue lies outside my sphere of ____.",
       "options": [
         "influence-mcq-24",
-        "influence-mcq-23",
-        "influence-mcq-25",
-        "influence-mcq-22",
-        "influence-mcq-26",
-        "influence-mcq-21"
+        "influence-mcq-19",
+        "influence-mcq-15",
+        "influence-mcq-25"
       ],
       "explanation": "本句的「influence」指「某人／組織能夠產生影響或控制作用的領域／範圍」。",
       "sentenceIndex": 49,
@@ -2146,12 +1880,10 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-24": "本句指「某人／組織能夠產生影響或控制作用的領域／範圍」。",
-        "influence-mcq-23": "「對某個人／群體能產生實際影響的能力」是「influence with someone（對某人有門路／影響力）」的用法，與本句語境不同。",
-        "influence-mcq-25": "「自己實際能改變／左右的人、事情或情況」是「circle of influence（可影響的範圍）」的用法，與本句語境不同。",
-        "influence-mcq-22": "「利用自己能左右他人的地位／關係來促成結果」是「use influence（運用影響力）」的用法，與本句語境不同。",
-        "influence-mcq-26": "「某人沒有足夠能力去改變／左右」是「outside/beyond someone’s influence（超出某人影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-21": "「主動或實際運用自己的地位／能力去影響結果或他人」是「exert influence（施加影響力）」的用法，與本句語境不同。"
+        "influence-mcq-24": "本句的「influence」指「某人／組織能夠產生影響或控制作用的領域／範圍」。",
+        "influence-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-24"
     },
@@ -2163,11 +1895,9 @@ export default {
       "masked": "Focus on your ____.",
       "options": [
         "influence-mcq-25",
-        "influence-mcq-24",
-        "influence-mcq-26",
-        "influence-mcq-23",
-        "influence-mcq-27",
-        "influence-mcq-22"
+        "influence-mcq-18",
+        "influence-mcq-19",
+        "influence-mcq-12"
       ],
       "explanation": "本句的「circle of influence」指「自己實際能改變／左右的人、事情或情況」。",
       "sentenceIndex": 50,
@@ -2176,12 +1906,10 @@ export default {
         "circle of influence"
       ],
       "optionReasons": {
-        "influence-mcq-25": "本句指「自己實際能改變／左右的人、事情或情況」。",
-        "influence-mcq-24": "「某人／組織能夠產生影響或控制作用的領域／範圍」是「sphere of influence（勢力／影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-26": "「某人沒有足夠能力去改變／左右」是「outside/beyond someone’s influence（超出某人影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-23": "「對某個人／群體能產生實際影響的能力」是「influence with someone（對某人有門路／影響力）」的用法，與本句語境不同。",
-        "influence-mcq-27": "「自己的行為、態度或選擇受到別人的榜樣／壓力／意見所塑造」是「influence = social pressure or example（受別人帶動）」的用法，與本句語境不同。",
-        "influence-mcq-22": "「利用自己能左右他人的地位／關係來促成結果」是「use influence（運用影響力）」的用法，與本句語境不同。"
+        "influence-mcq-25": "本句的「circle of influence」指「自己實際能改變／左右的人、事情或情況」。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-25"
     },
@@ -2193,11 +1921,9 @@ export default {
       "masked": "Some problems lie outside our circle of ____.",
       "options": [
         "influence-mcq-25",
-        "influence-mcq-24",
-        "influence-mcq-26",
-        "influence-mcq-23",
-        "influence-mcq-27",
-        "influence-mcq-22"
+        "influence-mcq-07",
+        "influence-mcq-18",
+        "influence-mcq-15"
       ],
       "explanation": "本句的「influence」指「自己實際能改變／左右的人、事情或情況」。",
       "sentenceIndex": 51,
@@ -2206,12 +1932,10 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-25": "本句指「自己實際能改變／左右的人、事情或情況」。",
-        "influence-mcq-24": "「某人／組織能夠產生影響或控制作用的領域／範圍」是「sphere of influence（勢力／影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-26": "「某人沒有足夠能力去改變／左右」是「outside/beyond someone’s influence（超出某人影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-23": "「對某個人／群體能產生實際影響的能力」是「influence with someone（對某人有門路／影響力）」的用法，與本句語境不同。",
-        "influence-mcq-27": "「自己的行為、態度或選擇受到別人的榜樣／壓力／意見所塑造」是「influence = social pressure or example（受別人帶動）」的用法，與本句語境不同。",
-        "influence-mcq-22": "「利用自己能左右他人的地位／關係來促成結果」是「use influence（運用影響力）」的用法，與本句語境不同。"
+        "influence-mcq-25": "本句的「influence」指「自己實際能改變／左右的人、事情或情況」。",
+        "influence-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-25"
     },
@@ -2223,11 +1947,8 @@ export default {
       "masked": "The final decision was ____.",
       "options": [
         "influence-mcq-26",
-        "influence-mcq-25",
-        "influence-mcq-27",
-        "influence-mcq-24",
-        "influence-mcq-28",
-        "influence-mcq-23"
+        "influence-mcq-15",
+        "influence-mcq-19"
       ],
       "explanation": "本句的「beyond my influence」指「某人沒有足夠能力去改變／左右」。",
       "sentenceIndex": 52,
@@ -2236,12 +1957,9 @@ export default {
         "beyond my influence"
       ],
       "optionReasons": {
-        "influence-mcq-26": "本句指「某人沒有足夠能力去改變／左右」。",
-        "influence-mcq-25": "「自己實際能改變／左右的人、事情或情況」是「circle of influence（可影響的範圍）」的用法，與本句語境不同。",
-        "influence-mcq-27": "「自己的行為、態度或選擇受到別人的榜樣／壓力／意見所塑造」是「influence = social pressure or example（受別人帶動）」的用法，與本句語境不同。",
-        "influence-mcq-24": "「某人／組織能夠產生影響或控制作用的領域／範圍」是「sphere of influence（勢力／影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-28": "「自己的看法／選擇容易因別人而改變」是「be easily influenced（容易受影響）」的用法，與本句語境不同。",
-        "influence-mcq-23": "「對某個人／群體能產生實際影響的能力」是「influence with someone（對某人有門路／影響力）」的用法，與本句語境不同。"
+        "influence-mcq-26": "本句的「beyond my influence」指「某人沒有足夠能力去改變／左右」。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-26"
     },
@@ -2253,11 +1971,8 @@ export default {
       "masked": "Some events are outside our ____.",
       "options": [
         "influence-mcq-26",
-        "influence-mcq-25",
-        "influence-mcq-27",
-        "influence-mcq-24",
-        "influence-mcq-28",
-        "influence-mcq-23"
+        "influence-mcq-09",
+        "influence-mcq-12"
       ],
       "explanation": "本句的「influence」指「某人沒有足夠能力去改變／左右」。",
       "sentenceIndex": 53,
@@ -2266,12 +1981,9 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-26": "本句指「某人沒有足夠能力去改變／左右」。",
-        "influence-mcq-25": "「自己實際能改變／左右的人、事情或情況」是「circle of influence（可影響的範圍）」的用法，與本句語境不同。",
-        "influence-mcq-27": "「自己的行為、態度或選擇受到別人的榜樣／壓力／意見所塑造」是「influence = social pressure or example（受別人帶動）」的用法，與本句語境不同。",
-        "influence-mcq-24": "「某人／組織能夠產生影響或控制作用的領域／範圍」是「sphere of influence（勢力／影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-28": "「自己的看法／選擇容易因別人而改變」是「be easily influenced（容易受影響）」的用法，與本句語境不同。",
-        "influence-mcq-23": "「對某個人／群體能產生實際影響的能力」是「influence with someone（對某人有門路／影響力）」的用法，與本句語境不同。"
+        "influence-mcq-26": "本句的「influence」指「某人沒有足夠能力去改變／左右」。",
+        "influence-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-26"
     },
@@ -2283,11 +1995,8 @@ export default {
       "masked": "Teenagers can be strongly ____.",
       "options": [
         "influence-mcq-27",
-        "influence-mcq-26",
-        "influence-mcq-28",
-        "influence-mcq-25",
-        "influence-mcq-29",
-        "influence-mcq-24"
+        "influence-mcq-12",
+        "influence-mcq-18"
       ],
       "explanation": "本句的「influenced by their friends」指「自己的行為、態度或選擇受到別人的榜樣／壓力／意見所塑造」。",
       "sentenceIndex": 54,
@@ -2296,12 +2005,9 @@ export default {
         "influenced by their friends"
       ],
       "optionReasons": {
-        "influence-mcq-27": "本句指「自己的行為、態度或選擇受到別人的榜樣／壓力／意見所塑造」。",
-        "influence-mcq-26": "「某人沒有足夠能力去改變／左右」是「outside/beyond someone’s influence（超出某人影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-28": "「自己的看法／選擇容易因別人而改變」是「be easily influenced（容易受影響）」的用法，與本句語境不同。",
-        "influence-mcq-25": "「自己實際能改變／左右的人、事情或情況」是「circle of influence（可影響的範圍）」的用法，與本句語境不同。",
-        "influence-mcq-29": "「利用權力、關係或壓力不恰當地左右另一個人的自由決定」是「undue influence（不當影響）」的用法，與本句語境不同。",
-        "influence-mcq-24": "「某人／組織能夠產生影響或控制作用的領域／範圍」是「sphere of influence（勢力／影響範圍）」的用法，與本句語境不同。"
+        "influence-mcq-27": "本句的「influenced by their friends」指「自己的行為、態度或選擇受到別人的榜樣／壓力／意見所塑造」。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-27"
     },
@@ -2313,11 +2019,8 @@ export default {
       "masked": "She was ____ by the people around her.",
       "options": [
         "influence-mcq-27",
-        "influence-mcq-26",
-        "influence-mcq-28",
-        "influence-mcq-25",
-        "influence-mcq-29",
-        "influence-mcq-24"
+        "influence-mcq-12",
+        "influence-mcq-18"
       ],
       "explanation": "本句的「influenced」指「自己的行為、態度或選擇受到別人的榜樣／壓力／意見所塑造」。",
       "sentenceIndex": 55,
@@ -2326,12 +2029,9 @@ export default {
         "influenced"
       ],
       "optionReasons": {
-        "influence-mcq-27": "本句指「自己的行為、態度或選擇受到別人的榜樣／壓力／意見所塑造」。",
-        "influence-mcq-26": "「某人沒有足夠能力去改變／左右」是「outside/beyond someone’s influence（超出某人影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-28": "「自己的看法／選擇容易因別人而改變」是「be easily influenced（容易受影響）」的用法，與本句語境不同。",
-        "influence-mcq-25": "「自己實際能改變／左右的人、事情或情況」是「circle of influence（可影響的範圍）」的用法，與本句語境不同。",
-        "influence-mcq-29": "「利用權力、關係或壓力不恰當地左右另一個人的自由決定」是「undue influence（不當影響）」的用法，與本句語境不同。",
-        "influence-mcq-24": "「某人／組織能夠產生影響或控制作用的領域／範圍」是「sphere of influence（勢力／影響範圍）」的用法，與本句語境不同。"
+        "influence-mcq-27": "本句的「influenced」指「自己的行為、態度或選擇受到別人的榜樣／壓力／意見所塑造」。",
+        "influence-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-27"
     },
@@ -2343,11 +2043,8 @@ export default {
       "masked": "Young children can be ____.",
       "options": [
         "influence-mcq-28",
-        "influence-mcq-27",
-        "influence-mcq-29",
-        "influence-mcq-26",
-        "influence-mcq-25",
-        "influence-mcq-24"
+        "influence-mcq-15",
+        "influence-mcq-18"
       ],
       "explanation": "本句的「easily influenced」指「自己的看法／選擇容易因別人而改變」。",
       "sentenceIndex": 56,
@@ -2356,12 +2053,9 @@ export default {
         "easily influenced"
       ],
       "optionReasons": {
-        "influence-mcq-28": "本句指「自己的看法／選擇容易因別人而改變」。",
-        "influence-mcq-27": "「自己的行為、態度或選擇受到別人的榜樣／壓力／意見所塑造」是「influence = social pressure or example（受別人帶動）」的用法，與本句語境不同。",
-        "influence-mcq-29": "「利用權力、關係或壓力不恰當地左右另一個人的自由決定」是「undue influence（不當影響）」的用法，與本句語境不同。",
-        "influence-mcq-26": "「某人沒有足夠能力去改變／左右」是「outside/beyond someone’s influence（超出某人影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-25": "「自己實際能改變／左右的人、事情或情況」是「circle of influence（可影響的範圍）」的用法，與本句語境不同。",
-        "influence-mcq-24": "「某人／組織能夠產生影響或控制作用的領域／範圍」是「sphere of influence（勢力／影響範圍）」的用法，與本句語境不同。"
+        "influence-mcq-28": "本句的「easily influenced」指「自己的看法／選擇容易因別人而改變」。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-28"
     },
@@ -2373,11 +2067,8 @@ export default {
       "masked": "He is too easily ____ by other people’s opinions.",
       "options": [
         "influence-mcq-28",
-        "influence-mcq-27",
-        "influence-mcq-29",
-        "influence-mcq-26",
-        "influence-mcq-25",
-        "influence-mcq-24"
+        "influence-mcq-18",
+        "influence-mcq-15"
       ],
       "explanation": "本句的「influenced」指「自己的看法／選擇容易因別人而改變」。",
       "sentenceIndex": 57,
@@ -2386,12 +2077,9 @@ export default {
         "influenced"
       ],
       "optionReasons": {
-        "influence-mcq-28": "本句指「自己的看法／選擇容易因別人而改變」。",
-        "influence-mcq-27": "「自己的行為、態度或選擇受到別人的榜樣／壓力／意見所塑造」是「influence = social pressure or example（受別人帶動）」的用法，與本句語境不同。",
-        "influence-mcq-29": "「利用權力、關係或壓力不恰當地左右另一個人的自由決定」是「undue influence（不當影響）」的用法，與本句語境不同。",
-        "influence-mcq-26": "「某人沒有足夠能力去改變／左右」是「outside/beyond someone’s influence（超出某人影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-25": "「自己實際能改變／左右的人、事情或情況」是「circle of influence（可影響的範圍）」的用法，與本句語境不同。",
-        "influence-mcq-24": "「某人／組織能夠產生影響或控制作用的領域／範圍」是「sphere of influence（勢力／影響範圍）」的用法，與本句語境不同。"
+        "influence-mcq-28": "本句的「influenced」指「自己的看法／選擇容易因別人而改變」。",
+        "influence-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "influence-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-28"
     },
@@ -2403,11 +2091,7 @@ export default {
       "masked": "The agreement was challenged on the grounds of ____.",
       "options": [
         "influence-mcq-29",
-        "influence-mcq-28",
-        "influence-mcq-27",
-        "influence-mcq-26",
-        "influence-mcq-25",
-        "influence-mcq-24"
+        "influence-mcq-19"
       ],
       "explanation": "本句的「undue influence」指「利用權力、關係或壓力不恰當地左右另一個人的自由決定」。",
       "sentenceIndex": 58,
@@ -2416,12 +2100,8 @@ export default {
         "undue influence"
       ],
       "optionReasons": {
-        "influence-mcq-29": "本句指「利用權力、關係或壓力不恰當地左右另一個人的自由決定」。",
-        "influence-mcq-28": "「自己的看法／選擇容易因別人而改變」是「be easily influenced（容易受影響）」的用法，與本句語境不同。",
-        "influence-mcq-27": "「自己的行為、態度或選擇受到別人的榜樣／壓力／意見所塑造」是「influence = social pressure or example（受別人帶動）」的用法，與本句語境不同。",
-        "influence-mcq-26": "「某人沒有足夠能力去改變／左右」是「outside/beyond someone’s influence（超出某人影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-25": "「自己實際能改變／左右的人、事情或情況」是「circle of influence（可影響的範圍）」的用法，與本句語境不同。",
-        "influence-mcq-24": "「某人／組織能夠產生影響或控制作用的領域／範圍」是「sphere of influence（勢力／影響範圍）」的用法，與本句語境不同。"
+        "influence-mcq-29": "本句的「undue influence」指「利用權力、關係或壓力不恰當地左右另一個人的自由決定」。",
+        "influence-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-29"
     },
@@ -2433,11 +2113,7 @@ export default {
       "masked": "The court considered whether undue ____ had been used.",
       "options": [
         "influence-mcq-29",
-        "influence-mcq-28",
-        "influence-mcq-27",
-        "influence-mcq-26",
-        "influence-mcq-25",
-        "influence-mcq-24"
+        "influence-mcq-19"
       ],
       "explanation": "本句的「influence」指「利用權力、關係或壓力不恰當地左右另一個人的自由決定」。",
       "sentenceIndex": 59,
@@ -2446,12 +2122,8 @@ export default {
         "influence"
       ],
       "optionReasons": {
-        "influence-mcq-29": "本句指「利用權力、關係或壓力不恰當地左右另一個人的自由決定」。",
-        "influence-mcq-28": "「自己的看法／選擇容易因別人而改變」是「be easily influenced（容易受影響）」的用法，與本句語境不同。",
-        "influence-mcq-27": "「自己的行為、態度或選擇受到別人的榜樣／壓力／意見所塑造」是「influence = social pressure or example（受別人帶動）」的用法，與本句語境不同。",
-        "influence-mcq-26": "「某人沒有足夠能力去改變／左右」是「outside/beyond someone’s influence（超出某人影響範圍）」的用法，與本句語境不同。",
-        "influence-mcq-25": "「自己實際能改變／左右的人、事情或情況」是「circle of influence（可影響的範圍）」的用法，與本句語境不同。",
-        "influence-mcq-24": "「某人／組織能夠產生影響或控制作用的領域／範圍」是「sphere of influence（勢力／影響範圍）」的用法，與本句語境不同。"
+        "influence-mcq-29": "本句的「influence」指「利用權力、關係或壓力不恰當地左右另一個人的自由決定」。",
+        "influence-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "influence-mcq-29"
     }
@@ -2463,5 +2135,12 @@ export default {
     "sha256": "029ec24a2d83c096cfa86140c62a72d4165b9c102b94d5728dff3ef424879234",
     "pages": 29
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

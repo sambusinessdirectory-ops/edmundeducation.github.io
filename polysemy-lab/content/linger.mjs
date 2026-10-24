@@ -353,11 +353,9 @@ export default {
       "masked": "We ____ outside the café after dinner.",
       "options": [
         "linger-mcq-01",
-        "linger-mcq-02",
-        "linger-mcq-03",
-        "linger-mcq-04",
-        "linger-mcq-05",
-        "linger-mcq-06"
+        "linger-mcq-12",
+        "linger-mcq-09",
+        "linger-mcq-10"
       ],
       "explanation": "本句的「lingered」指「比預期停留更久；逗留／徘徊」。",
       "sentenceIndex": 2,
@@ -366,12 +364,10 @@ export default {
         "lingered"
       ],
       "optionReasons": {
-        "linger-mcq-01": "本句指「比預期停留更久；逗留／徘徊」。",
-        "linger-mcq-02": "「在附近繼續逗留／留下來」與本句語境不同。",
-        "linger-mcq-03": "「本應消失後仍持續存在；久久不散」與本句語境不同。",
-        "linger-mcq-04": "「持續很久、未完全消失的影響／問題」與本句語境不同。",
-        "linger-mcq-05": "「長時間留在思想或記憶中；揮之不去」與本句語境不同。",
-        "linger-mcq-06": "「久久不散、仍清晰存在的回憶」與本句語境不同。"
+        "linger-mcq-01": "本句的「lingered」指「比預期停留更久；逗留／徘徊」。",
+        "linger-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-01"
     },
@@ -383,11 +379,9 @@ export default {
       "masked": "She ____ by the door before leaving.",
       "options": [
         "linger-mcq-01",
-        "linger-mcq-02",
-        "linger-mcq-03",
-        "linger-mcq-04",
-        "linger-mcq-05",
-        "linger-mcq-06"
+        "linger-mcq-12",
+        "linger-mcq-10",
+        "linger-mcq-09"
       ],
       "explanation": "本句的「lingered」指「比預期停留更久；逗留／徘徊」。",
       "sentenceIndex": 3,
@@ -396,12 +390,10 @@ export default {
         "lingered"
       ],
       "optionReasons": {
-        "linger-mcq-01": "本句指「比預期停留更久；逗留／徘徊」。",
-        "linger-mcq-02": "「在附近繼續逗留／留下來」與本句語境不同。",
-        "linger-mcq-03": "「本應消失後仍持續存在；久久不散」與本句語境不同。",
-        "linger-mcq-04": "「持續很久、未完全消失的影響／問題」與本句語境不同。",
-        "linger-mcq-05": "「長時間留在思想或記憶中；揮之不去」與本句語境不同。",
-        "linger-mcq-06": "「久久不散、仍清晰存在的回憶」與本句語境不同。"
+        "linger-mcq-01": "本句的「lingered」指「比預期停留更久；逗留／徘徊」。",
+        "linger-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-01"
     },
@@ -413,11 +405,9 @@ export default {
       "masked": "A few students ____ after class.",
       "options": [
         "linger-mcq-02",
-        "linger-mcq-01",
-        "linger-mcq-03",
-        "linger-mcq-04",
-        "linger-mcq-05",
-        "linger-mcq-06"
+        "linger-mcq-12",
+        "linger-mcq-09",
+        "linger-mcq-08"
       ],
       "explanation": "本句的「lingered behind」指「在附近繼續逗留／留下來」。",
       "sentenceIndex": 4,
@@ -426,12 +416,10 @@ export default {
         "lingered behind"
       ],
       "optionReasons": {
-        "linger-mcq-02": "本句指「在附近繼續逗留／留下來」。",
-        "linger-mcq-01": "「比預期停留更久；逗留／徘徊」與本句語境不同。",
-        "linger-mcq-03": "「本應消失後仍持續存在；久久不散」與本句語境不同。",
-        "linger-mcq-04": "「持續很久、未完全消失的影響／問題」與本句語境不同。",
-        "linger-mcq-05": "「長時間留在思想或記憶中；揮之不去」與本句語境不同。",
-        "linger-mcq-06": "「久久不散、仍清晰存在的回憶」與本句語境不同。"
+        "linger-mcq-02": "本句的「lingered behind」指「在附近繼續逗留／留下來」。",
+        "linger-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-02"
     },
@@ -443,11 +431,9 @@ export default {
       "masked": "People continued to ____ the entrance.",
       "options": [
         "linger-mcq-02",
-        "linger-mcq-01",
-        "linger-mcq-03",
-        "linger-mcq-04",
-        "linger-mcq-05",
-        "linger-mcq-06"
+        "linger-mcq-11",
+        "linger-mcq-15",
+        "linger-mcq-08"
       ],
       "explanation": "本句的「linger around」指「在附近繼續逗留／留下來」。",
       "sentenceIndex": 5,
@@ -456,12 +442,10 @@ export default {
         "linger around"
       ],
       "optionReasons": {
-        "linger-mcq-02": "本句指「在附近繼續逗留／留下來」。",
-        "linger-mcq-01": "「比預期停留更久；逗留／徘徊」與本句語境不同。",
-        "linger-mcq-03": "「本應消失後仍持續存在；久久不散」與本句語境不同。",
-        "linger-mcq-04": "「持續很久、未完全消失的影響／問題」與本句語境不同。",
-        "linger-mcq-05": "「長時間留在思想或記憶中；揮之不去」與本句語境不同。",
-        "linger-mcq-06": "「久久不散、仍清晰存在的回憶」與本句語境不同。"
+        "linger-mcq-02": "本句的「linger around」指「在附近繼續逗留／留下來」。",
+        "linger-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-02"
     },
@@ -473,11 +457,9 @@ export default {
       "masked": "The tension ____ after the meeting.",
       "options": [
         "linger-mcq-14",
-        "linger-mcq-13",
         "linger-mcq-15",
-        "linger-mcq-12",
-        "linger-mcq-11",
-        "linger-mcq-10"
+        "linger-mcq-09",
+        "linger-mcq-08"
       ],
       "explanation": "本句的「lingered」指「繼續存在／久久不散」。",
       "sentenceIndex": 6,
@@ -486,12 +468,10 @@ export default {
         "lingered"
       ],
       "optionReasons": {
-        "linger-mcq-14": "本句指「繼續存在／久久不散」。",
-        "linger-mcq-13": "「持續不散、未消失的」與本句語境不同。",
-        "linger-mcq-15": "「氣味、氣氛等仍瀰漫著／揮之不去」與本句語境不同。",
-        "linger-mcq-12": "「事件過後仍揮之不去的悲傷／疑慮」與本句語境不同。",
-        "linger-mcq-11": "「長時間不癒的疾病／久病」與本句語境不同。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。"
+        "linger-mcq-14": "本句的「lingered」指「繼續存在／久久不散」。",
+        "linger-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-14"
     },
@@ -503,11 +483,9 @@ export default {
       "masked": "Doubts ____ despite the explanation.",
       "options": [
         "linger-mcq-14",
-        "linger-mcq-13",
-        "linger-mcq-15",
         "linger-mcq-12",
-        "linger-mcq-11",
-        "linger-mcq-10"
+        "linger-mcq-09",
+        "linger-mcq-08"
       ],
       "explanation": "本句的「lingered」指「繼續存在／久久不散」。",
       "sentenceIndex": 7,
@@ -516,12 +494,10 @@ export default {
         "lingered"
       ],
       "optionReasons": {
-        "linger-mcq-14": "本句指「繼續存在／久久不散」。",
-        "linger-mcq-13": "「持續不散、未消失的」與本句語境不同。",
-        "linger-mcq-15": "「氣味、氣氛等仍瀰漫著／揮之不去」與本句語境不同。",
-        "linger-mcq-12": "「事件過後仍揮之不去的悲傷／疑慮」與本句語境不同。",
-        "linger-mcq-11": "「長時間不癒的疾病／久病」與本句語境不同。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。"
+        "linger-mcq-14": "本句的「lingered」指「繼續存在／久久不散」。",
+        "linger-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-14"
     },
@@ -533,11 +509,9 @@ export default {
       "masked": "The illness had ____.",
       "options": [
         "linger-mcq-04",
-        "linger-mcq-03",
-        "linger-mcq-05",
-        "linger-mcq-02",
-        "linger-mcq-06",
-        "linger-mcq-01"
+        "linger-mcq-12",
+        "linger-mcq-09",
+        "linger-mcq-08"
       ],
       "explanation": "本句的「lingering effects」指「持續很久、未完全消失的影響／問題」。",
       "sentenceIndex": 8,
@@ -546,12 +520,10 @@ export default {
         "lingering effects"
       ],
       "optionReasons": {
-        "linger-mcq-04": "本句指「持續很久、未完全消失的影響／問題」。",
-        "linger-mcq-03": "「本應消失後仍持續存在；久久不散」與本句語境不同。",
-        "linger-mcq-05": "「長時間留在思想或記憶中；揮之不去」與本句語境不同。",
-        "linger-mcq-02": "「在附近繼續逗留／留下來」與本句語境不同。",
-        "linger-mcq-06": "「久久不散、仍清晰存在的回憶」與本句語境不同。",
-        "linger-mcq-01": "「比預期停留更久；逗留／徘徊」與本句語境不同。"
+        "linger-mcq-04": "本句的「lingering effects」指「持續很久、未完全消失的影響／問題」。",
+        "linger-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-04"
     },
@@ -563,11 +535,9 @@ export default {
       "masked": "There were ____ about safety.",
       "options": [
         "linger-mcq-04",
-        "linger-mcq-03",
-        "linger-mcq-05",
-        "linger-mcq-02",
-        "linger-mcq-06",
-        "linger-mcq-01"
+        "linger-mcq-12",
+        "linger-mcq-09",
+        "linger-mcq-08"
       ],
       "explanation": "本句的「lingering concerns」指「持續很久、未完全消失的影響／問題」。",
       "sentenceIndex": 9,
@@ -576,12 +546,10 @@ export default {
         "lingering concerns"
       ],
       "optionReasons": {
-        "linger-mcq-04": "本句指「持續很久、未完全消失的影響／問題」。",
-        "linger-mcq-03": "「本應消失後仍持續存在；久久不散」與本句語境不同。",
-        "linger-mcq-05": "「長時間留在思想或記憶中；揮之不去」與本句語境不同。",
-        "linger-mcq-02": "「在附近繼續逗留／留下來」與本句語境不同。",
-        "linger-mcq-06": "「久久不散、仍清晰存在的回憶」與本句語境不同。",
-        "linger-mcq-01": "「比預期停留更久；逗留／徘徊」與本句語境不同。"
+        "linger-mcq-04": "本句的「lingering concerns」指「持續很久、未完全消失的影響／問題」。",
+        "linger-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-04"
     },
@@ -593,11 +561,8 @@ export default {
       "masked": "The image ____.",
       "options": [
         "linger-mcq-05",
-        "linger-mcq-04",
-        "linger-mcq-06",
-        "linger-mcq-03",
-        "linger-mcq-07",
-        "linger-mcq-02"
+        "linger-mcq-01",
+        "linger-mcq-08"
       ],
       "explanation": "本句的「lingered in her memory」指「長時間留在思想或記憶中；揮之不去」。",
       "sentenceIndex": 10,
@@ -606,12 +571,9 @@ export default {
         "lingered in her memory"
       ],
       "optionReasons": {
-        "linger-mcq-05": "本句指「長時間留在思想或記憶中；揮之不去」。",
-        "linger-mcq-04": "「持續很久、未完全消失的影響／問題」與本句語境不同。",
-        "linger-mcq-06": "「久久不散、仍清晰存在的回憶」與本句語境不同。",
-        "linger-mcq-03": "「本應消失後仍持續存在；久久不散」與本句語境不同。",
-        "linger-mcq-07": "「氣味、味道、聲音等持續殘留」與本句語境不同。",
-        "linger-mcq-02": "「在附近繼續逗留／留下來」與本句語境不同。"
+        "linger-mcq-05": "本句的「lingered in her memory」指「長時間留在思想或記憶中；揮之不去」。",
+        "linger-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-05"
     },
@@ -623,11 +585,8 @@ export default {
       "masked": "The question ____.",
       "options": [
         "linger-mcq-05",
-        "linger-mcq-04",
-        "linger-mcq-06",
-        "linger-mcq-03",
-        "linger-mcq-07",
-        "linger-mcq-02"
+        "linger-mcq-01",
+        "linger-mcq-08"
       ],
       "explanation": "本句的「lingered in my mind」指「長時間留在思想或記憶中；揮之不去」。",
       "sentenceIndex": 11,
@@ -636,12 +595,9 @@ export default {
         "lingered in my mind"
       ],
       "optionReasons": {
-        "linger-mcq-05": "本句指「長時間留在思想或記憶中；揮之不去」。",
-        "linger-mcq-04": "「持續很久、未完全消失的影響／問題」與本句語境不同。",
-        "linger-mcq-06": "「久久不散、仍清晰存在的回憶」與本句語境不同。",
-        "linger-mcq-03": "「本應消失後仍持續存在；久久不散」與本句語境不同。",
-        "linger-mcq-07": "「氣味、味道、聲音等持續殘留」與本句語境不同。",
-        "linger-mcq-02": "「在附近繼續逗留／留下來」與本句語境不同。"
+        "linger-mcq-05": "本句的「lingered in my mind」指「長時間留在思想或記憶中；揮之不去」。",
+        "linger-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-05"
     },
@@ -653,11 +609,9 @@ export default {
       "masked": "He carried a ____ of the place.",
       "options": [
         "linger-mcq-06",
-        "linger-mcq-05",
-        "linger-mcq-07",
-        "linger-mcq-04",
         "linger-mcq-08",
-        "linger-mcq-03"
+        "linger-mcq-09",
+        "linger-mcq-01"
       ],
       "explanation": "本句的「lingering memory」指「久久不散、仍清晰存在的回憶」。",
       "sentenceIndex": 12,
@@ -666,12 +620,10 @@ export default {
         "lingering memory"
       ],
       "optionReasons": {
-        "linger-mcq-06": "本句指「久久不散、仍清晰存在的回憶」。",
-        "linger-mcq-05": "「長時間留在思想或記憶中；揮之不去」與本句語境不同。",
-        "linger-mcq-07": "「氣味、味道、聲音等持續殘留」與本句語境不同。",
-        "linger-mcq-04": "「持續很久、未完全消失的影響／問題」與本句語境不同。",
-        "linger-mcq-08": "「因不想離開或想多享受一會而留連」與本句語境不同。",
-        "linger-mcq-03": "「本應消失後仍持續存在；久久不散」與本句語境不同。"
+        "linger-mcq-06": "本句的「lingering memory」指「久久不散、仍清晰存在的回憶」。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-06"
     },
@@ -683,11 +635,9 @@ export default {
       "masked": "The experience left a ____.",
       "options": [
         "linger-mcq-06",
-        "linger-mcq-05",
-        "linger-mcq-07",
-        "linger-mcq-04",
         "linger-mcq-08",
-        "linger-mcq-03"
+        "linger-mcq-09",
+        "linger-mcq-12"
       ],
       "explanation": "本句的「lingering memory」指「久久不散、仍清晰存在的回憶」。",
       "sentenceIndex": 13,
@@ -696,12 +646,10 @@ export default {
         "lingering memory"
       ],
       "optionReasons": {
-        "linger-mcq-06": "本句指「久久不散、仍清晰存在的回憶」。",
-        "linger-mcq-05": "「長時間留在思想或記憶中；揮之不去」與本句語境不同。",
-        "linger-mcq-07": "「氣味、味道、聲音等持續殘留」與本句語境不同。",
-        "linger-mcq-04": "「持續很久、未完全消失的影響／問題」與本句語境不同。",
-        "linger-mcq-08": "「因不想離開或想多享受一會而留連」與本句語境不同。",
-        "linger-mcq-03": "「本應消失後仍持續存在；久久不散」與本句語境不同。"
+        "linger-mcq-06": "本句的「lingering memory」指「久久不散、仍清晰存在的回憶」。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-06"
     },
@@ -713,11 +661,9 @@ export default {
       "masked": "The smell of coffee ____ in the room.",
       "options": [
         "linger-mcq-14",
-        "linger-mcq-13",
-        "linger-mcq-15",
-        "linger-mcq-12",
-        "linger-mcq-11",
-        "linger-mcq-10"
+        "linger-mcq-09",
+        "linger-mcq-08",
+        "linger-mcq-12"
       ],
       "explanation": "本句的「lingered」指「繼續存在／久久不散」。",
       "sentenceIndex": 14,
@@ -726,12 +672,10 @@ export default {
         "lingered"
       ],
       "optionReasons": {
-        "linger-mcq-14": "本句指「繼續存在／久久不散」。",
-        "linger-mcq-13": "「持續不散、未消失的」與本句語境不同。",
-        "linger-mcq-15": "「氣味、氣氛等仍瀰漫著／揮之不去」與本句語境不同。",
-        "linger-mcq-12": "「事件過後仍揮之不去的悲傷／疑慮」與本句語境不同。",
-        "linger-mcq-11": "「長時間不癒的疾病／久病」與本句語境不同。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。"
+        "linger-mcq-14": "本句的「lingered」指「繼續存在／久久不散」。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-14"
     },
@@ -743,11 +687,9 @@ export default {
       "masked": "The music seemed to ____ after it ended.",
       "options": [
         "linger-mcq-14",
-        "linger-mcq-13",
         "linger-mcq-15",
-        "linger-mcq-12",
-        "linger-mcq-11",
-        "linger-mcq-10"
+        "linger-mcq-08",
+        "linger-mcq-09"
       ],
       "explanation": "本句的「linger」指「繼續存在／久久不散」。",
       "sentenceIndex": 15,
@@ -756,12 +698,10 @@ export default {
         "linger"
       ],
       "optionReasons": {
-        "linger-mcq-14": "本句指「繼續存在／久久不散」。",
-        "linger-mcq-13": "「持續不散、未消失的」與本句語境不同。",
-        "linger-mcq-15": "「氣味、氣氛等仍瀰漫著／揮之不去」與本句語境不同。",
-        "linger-mcq-12": "「事件過後仍揮之不去的悲傷／疑慮」與本句語境不同。",
-        "linger-mcq-11": "「長時間不癒的疾病／久病」與本句語境不同。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。"
+        "linger-mcq-14": "本句的「linger」指「繼續存在／久久不散」。",
+        "linger-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-14"
     },
@@ -773,11 +713,9 @@ export default {
       "masked": "There was a ____.",
       "options": [
         "linger-mcq-07",
-        "linger-mcq-06",
-        "linger-mcq-08",
-        "linger-mcq-05",
+        "linger-mcq-12",
         "linger-mcq-09",
-        "linger-mcq-04"
+        "linger-mcq-08"
       ],
       "explanation": "本句的「lingering smell of smoke」指「氣味、味道、聲音等持續殘留」。",
       "sentenceIndex": 16,
@@ -786,12 +724,10 @@ export default {
         "lingering smell of smoke"
       ],
       "optionReasons": {
-        "linger-mcq-07": "本句指「氣味、味道、聲音等持續殘留」。",
-        "linger-mcq-06": "「久久不散、仍清晰存在的回憶」與本句語境不同。",
-        "linger-mcq-08": "「因不想離開或想多享受一會而留連」與本句語境不同。",
-        "linger-mcq-05": "「長時間留在思想或記憶中；揮之不去」與本句語境不同。",
-        "linger-mcq-09": "「花較長時間慢慢享用、閱讀或思考某事」與本句語境不同。",
-        "linger-mcq-04": "「持續很久、未完全消失的影響／問題」與本句語境不同。"
+        "linger-mcq-07": "本句的「lingering smell of smoke」指「氣味、味道、聲音等持續殘留」。",
+        "linger-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-07"
     },
@@ -803,11 +739,9 @@ export default {
       "masked": "The tea leaves a ____.",
       "options": [
         "linger-mcq-07",
-        "linger-mcq-06",
-        "linger-mcq-08",
-        "linger-mcq-05",
         "linger-mcq-09",
-        "linger-mcq-04"
+        "linger-mcq-12",
+        "linger-mcq-08"
       ],
       "explanation": "本句的「lingering sweetness」指「氣味、味道、聲音等持續殘留」。",
       "sentenceIndex": 17,
@@ -816,12 +750,10 @@ export default {
         "lingering sweetness"
       ],
       "optionReasons": {
-        "linger-mcq-07": "本句指「氣味、味道、聲音等持續殘留」。",
-        "linger-mcq-06": "「久久不散、仍清晰存在的回憶」與本句語境不同。",
-        "linger-mcq-08": "「因不想離開或想多享受一會而留連」與本句語境不同。",
-        "linger-mcq-05": "「長時間留在思想或記憶中；揮之不去」與本句語境不同。",
-        "linger-mcq-09": "「花較長時間慢慢享用、閱讀或思考某事」與本句語境不同。",
-        "linger-mcq-04": "「持續很久、未完全消失的影響／問題」與本句語境不同。"
+        "linger-mcq-07": "本句的「lingering sweetness」指「氣味、味道、聲音等持續殘留」。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-07"
     },
@@ -833,11 +765,9 @@ export default {
       "masked": "We ____ over dessert.",
       "options": [
         "linger-mcq-08",
-        "linger-mcq-07",
-        "linger-mcq-09",
+        "linger-mcq-12",
         "linger-mcq-06",
-        "linger-mcq-10",
-        "linger-mcq-05"
+        "linger-mcq-11"
       ],
       "explanation": "本句的「lingered」指「因不想離開或想多享受一會而留連」。",
       "sentenceIndex": 18,
@@ -846,12 +776,10 @@ export default {
         "lingered"
       ],
       "optionReasons": {
-        "linger-mcq-08": "本句指「因不想離開或想多享受一會而留連」。",
-        "linger-mcq-07": "「氣味、味道、聲音等持續殘留」與本句語境不同。",
-        "linger-mcq-09": "「花較長時間慢慢享用、閱讀或思考某事」與本句語境不同。",
-        "linger-mcq-06": "「久久不散、仍清晰存在的回憶」與本句語境不同。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。",
-        "linger-mcq-05": "「長時間留在思想或記憶中；揮之不去」與本句語境不同。"
+        "linger-mcq-08": "本句的「lingered」指「因不想離開或想多享受一會而留連」。",
+        "linger-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-08"
     },
@@ -863,11 +791,9 @@ export default {
       "masked": "She ____ in the garden before going home.",
       "options": [
         "linger-mcq-08",
-        "linger-mcq-07",
-        "linger-mcq-09",
-        "linger-mcq-06",
-        "linger-mcq-10",
-        "linger-mcq-05"
+        "linger-mcq-14",
+        "linger-mcq-11",
+        "linger-mcq-15"
       ],
       "explanation": "本句的「lingered」指「因不想離開或想多享受一會而留連」。",
       "sentenceIndex": 19,
@@ -876,12 +802,10 @@ export default {
         "lingered"
       ],
       "optionReasons": {
-        "linger-mcq-08": "本句指「因不想離開或想多享受一會而留連」。",
-        "linger-mcq-07": "「氣味、味道、聲音等持續殘留」與本句語境不同。",
-        "linger-mcq-09": "「花較長時間慢慢享用、閱讀或思考某事」與本句語境不同。",
-        "linger-mcq-06": "「久久不散、仍清晰存在的回憶」與本句語境不同。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。",
-        "linger-mcq-05": "「長時間留在思想或記憶中；揮之不去」與本句語境不同。"
+        "linger-mcq-08": "本句的「lingered」指「因不想離開或想多享受一會而留連」。",
+        "linger-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-08"
     },
@@ -893,11 +817,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "linger-mcq-09",
-        "linger-mcq-08",
-        "linger-mcq-10",
-        "linger-mcq-07",
-        "linger-mcq-11",
-        "linger-mcq-06"
+        "linger-mcq-06",
+        "linger-mcq-01",
+        "linger-mcq-12"
       ],
       "explanation": "本句的「lingered over her coffee」指「花較長時間慢慢享用、閱讀或思考某事」。",
       "sentenceIndex": 20,
@@ -906,12 +828,10 @@ export default {
         "lingered over her coffee"
       ],
       "optionReasons": {
-        "linger-mcq-09": "本句指「花較長時間慢慢享用、閱讀或思考某事」。",
-        "linger-mcq-08": "「因不想離開或想多享受一會而留連」與本句語境不同。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。",
-        "linger-mcq-07": "「氣味、味道、聲音等持續殘留」與本句語境不同。",
-        "linger-mcq-11": "「長時間不癒的疾病／久病」與本句語境不同。",
-        "linger-mcq-06": "「久久不散、仍清晰存在的回憶」與本句語境不同。"
+        "linger-mcq-09": "本句的「lingered over her coffee」指「花較長時間慢慢享用、閱讀或思考某事」。",
+        "linger-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-09"
     },
@@ -923,11 +843,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "linger-mcq-09",
-        "linger-mcq-08",
-        "linger-mcq-10",
         "linger-mcq-07",
-        "linger-mcq-11",
-        "linger-mcq-06"
+        "linger-mcq-01",
+        "linger-mcq-12"
       ],
       "explanation": "本句的「lingered over the final paragraph」指「花較長時間慢慢享用、閱讀或思考某事」。",
       "sentenceIndex": 21,
@@ -936,12 +854,10 @@ export default {
         "lingered over the final paragraph"
       ],
       "optionReasons": {
-        "linger-mcq-09": "本句指「花較長時間慢慢享用、閱讀或思考某事」。",
-        "linger-mcq-08": "「因不想離開或想多享受一會而留連」與本句語境不同。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。",
-        "linger-mcq-07": "「氣味、味道、聲音等持續殘留」與本句語境不同。",
-        "linger-mcq-11": "「長時間不癒的疾病／久病」與本句語境不同。",
-        "linger-mcq-06": "「久久不散、仍清晰存在的回憶」與本句語境不同。"
+        "linger-mcq-09": "本句的「lingered over the final paragraph」指「花較長時間慢慢享用、閱讀或思考某事」。",
+        "linger-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-09"
     },
@@ -954,10 +870,8 @@ export default {
       "options": [
         "linger-mcq-10",
         "linger-mcq-09",
-        "linger-mcq-11",
         "linger-mcq-08",
-        "linger-mcq-12",
-        "linger-mcq-07"
+        "linger-mcq-01"
       ],
       "explanation": "本句的「lingered」指「病痛、症狀等遲遲不消失／持續」。",
       "sentenceIndex": 22,
@@ -966,12 +880,10 @@ export default {
         "lingered"
       ],
       "optionReasons": {
-        "linger-mcq-10": "本句指「病痛、症狀等遲遲不消失／持續」。",
-        "linger-mcq-09": "「花較長時間慢慢享用、閱讀或思考某事」與本句語境不同。",
-        "linger-mcq-11": "「長時間不癒的疾病／久病」與本句語境不同。",
-        "linger-mcq-08": "「因不想離開或想多享受一會而留連」與本句語境不同。",
-        "linger-mcq-12": "「事件過後仍揮之不去的悲傷／疑慮」與本句語境不同。",
-        "linger-mcq-07": "「氣味、味道、聲音等持續殘留」與本句語境不同。"
+        "linger-mcq-10": "本句的「lingered」指「病痛、症狀等遲遲不消失／持續」。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-10"
     },
@@ -983,11 +895,9 @@ export default {
       "masked": "The pain ____ after the injury.",
       "options": [
         "linger-mcq-10",
-        "linger-mcq-09",
-        "linger-mcq-11",
-        "linger-mcq-08",
         "linger-mcq-12",
-        "linger-mcq-07"
+        "linger-mcq-08",
+        "linger-mcq-09"
       ],
       "explanation": "本句的「lingered」指「病痛、症狀等遲遲不消失／持續」。",
       "sentenceIndex": 23,
@@ -996,12 +906,10 @@ export default {
         "lingered"
       ],
       "optionReasons": {
-        "linger-mcq-10": "本句指「病痛、症狀等遲遲不消失／持續」。",
-        "linger-mcq-09": "「花較長時間慢慢享用、閱讀或思考某事」與本句語境不同。",
-        "linger-mcq-11": "「長時間不癒的疾病／久病」與本句語境不同。",
-        "linger-mcq-08": "「因不想離開或想多享受一會而留連」與本句語境不同。",
-        "linger-mcq-12": "「事件過後仍揮之不去的悲傷／疑慮」與本句語境不同。",
-        "linger-mcq-07": "「氣味、味道、聲音等持續殘留」與本句語境不同。"
+        "linger-mcq-10": "本句的「lingered」指「病痛、症狀等遲遲不消失／持續」。",
+        "linger-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-10"
     },
@@ -1013,10 +921,8 @@ export default {
       "masked": "He recovered slowly from a ____.",
       "options": [
         "linger-mcq-11",
-        "linger-mcq-10",
-        "linger-mcq-12",
-        "linger-mcq-09",
-        "linger-mcq-13",
+        "linger-mcq-15",
+        "linger-mcq-02",
         "linger-mcq-08"
       ],
       "explanation": "本句的「lingering illness」指「長時間不癒的疾病／久病」。",
@@ -1026,12 +932,10 @@ export default {
         "lingering illness"
       ],
       "optionReasons": {
-        "linger-mcq-11": "本句指「長時間不癒的疾病／久病」。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。",
-        "linger-mcq-12": "「事件過後仍揮之不去的悲傷／疑慮」與本句語境不同。",
-        "linger-mcq-09": "「花較長時間慢慢享用、閱讀或思考某事」與本句語境不同。",
-        "linger-mcq-13": "「持續不散、未消失的」與本句語境不同。",
-        "linger-mcq-08": "「因不想離開或想多享受一會而留連」與本句語境不同。"
+        "linger-mcq-11": "本句的「lingering illness」指「長時間不癒的疾病／久病」。",
+        "linger-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-11"
     },
@@ -1043,11 +947,9 @@ export default {
       "masked": "She had been weakened by a ____.",
       "options": [
         "linger-mcq-11",
-        "linger-mcq-10",
-        "linger-mcq-12",
-        "linger-mcq-09",
-        "linger-mcq-13",
-        "linger-mcq-08"
+        "linger-mcq-08",
+        "linger-mcq-15",
+        "linger-mcq-02"
       ],
       "explanation": "本句的「lingering illness」指「長時間不癒的疾病／久病」。",
       "sentenceIndex": 25,
@@ -1056,12 +958,10 @@ export default {
         "lingering illness"
       ],
       "optionReasons": {
-        "linger-mcq-11": "本句指「長時間不癒的疾病／久病」。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。",
-        "linger-mcq-12": "「事件過後仍揮之不去的悲傷／疑慮」與本句語境不同。",
-        "linger-mcq-09": "「花較長時間慢慢享用、閱讀或思考某事」與本句語境不同。",
-        "linger-mcq-13": "「持續不散、未消失的」與本句語境不同。",
-        "linger-mcq-08": "「因不想離開或想多享受一會而留連」與本句語境不同。"
+        "linger-mcq-11": "本句的「lingering illness」指「長時間不癒的疾病／久病」。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-11"
     },
@@ -1073,11 +973,9 @@ export default {
       "masked": "A sense of ____ remained.",
       "options": [
         "linger-mcq-12",
-        "linger-mcq-11",
-        "linger-mcq-13",
-        "linger-mcq-10",
-        "linger-mcq-14",
-        "linger-mcq-09"
+        "linger-mcq-08",
+        "linger-mcq-09",
+        "linger-mcq-07"
       ],
       "explanation": "本句的「lingering sadness」指「事件過後仍揮之不去的悲傷／疑慮」。",
       "sentenceIndex": 26,
@@ -1086,12 +984,10 @@ export default {
         "lingering sadness"
       ],
       "optionReasons": {
-        "linger-mcq-12": "本句指「事件過後仍揮之不去的悲傷／疑慮」。",
-        "linger-mcq-11": "「長時間不癒的疾病／久病」與本句語境不同。",
-        "linger-mcq-13": "「持續不散、未消失的」與本句語境不同。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。",
-        "linger-mcq-14": "「繼續存在／久久不散」與本句語境不同。",
-        "linger-mcq-09": "「花較長時間慢慢享用、閱讀或思考某事」與本句語境不同。"
+        "linger-mcq-12": "本句的「lingering sadness」指「事件過後仍揮之不去的悲傷／疑慮」。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-12"
     },
@@ -1103,11 +999,9 @@ export default {
       "masked": "There was ____ about the decision.",
       "options": [
         "linger-mcq-12",
-        "linger-mcq-11",
-        "linger-mcq-13",
-        "linger-mcq-10",
+        "linger-mcq-01",
         "linger-mcq-14",
-        "linger-mcq-09"
+        "linger-mcq-08"
       ],
       "explanation": "本句的「lingering doubt」指「事件過後仍揮之不去的悲傷／疑慮」。",
       "sentenceIndex": 27,
@@ -1116,12 +1010,10 @@ export default {
         "lingering doubt"
       ],
       "optionReasons": {
-        "linger-mcq-12": "本句指「事件過後仍揮之不去的悲傷／疑慮」。",
-        "linger-mcq-11": "「長時間不癒的疾病／久病」與本句語境不同。",
-        "linger-mcq-13": "「持續不散、未消失的」與本句語境不同。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。",
-        "linger-mcq-14": "「繼續存在／久久不散」與本句語境不同。",
-        "linger-mcq-09": "「花較長時間慢慢享用、閱讀或思考某事」與本句語境不同。"
+        "linger-mcq-12": "本句的「lingering doubt」指「事件過後仍揮之不去的悲傷／疑慮」。",
+        "linger-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-12"
     },
@@ -1133,11 +1025,9 @@ export default {
       "masked": "The memory ____ for years.",
       "options": [
         "linger-mcq-14",
-        "linger-mcq-13",
+        "linger-mcq-09",
         "linger-mcq-15",
-        "linger-mcq-12",
-        "linger-mcq-11",
-        "linger-mcq-10"
+        "linger-mcq-08"
       ],
       "explanation": "本句的「lingered on」指「繼續存在／久久不散」。",
       "sentenceIndex": 28,
@@ -1146,12 +1036,10 @@ export default {
         "lingered on"
       ],
       "optionReasons": {
-        "linger-mcq-14": "本句指「繼續存在／久久不散」。",
-        "linger-mcq-13": "「持續不散、未消失的」與本句語境不同。",
-        "linger-mcq-15": "「氣味、氣氛等仍瀰漫著／揮之不去」與本句語境不同。",
-        "linger-mcq-12": "「事件過後仍揮之不去的悲傷／疑慮」與本句語境不同。",
-        "linger-mcq-11": "「長時間不癒的疾病／久病」與本句語境不同。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。"
+        "linger-mcq-14": "本句的「lingered on」指「繼續存在／久久不散」。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-14"
     },
@@ -1163,11 +1051,9 @@ export default {
       "masked": "The smell ____ after the fire.",
       "options": [
         "linger-mcq-14",
-        "linger-mcq-13",
-        "linger-mcq-15",
-        "linger-mcq-12",
-        "linger-mcq-11",
-        "linger-mcq-10"
+        "linger-mcq-09",
+        "linger-mcq-08",
+        "linger-mcq-12"
       ],
       "explanation": "本句的「lingered on」指「繼續存在／久久不散」。",
       "sentenceIndex": 29,
@@ -1176,12 +1062,10 @@ export default {
         "lingered on"
       ],
       "optionReasons": {
-        "linger-mcq-14": "本句指「繼續存在／久久不散」。",
-        "linger-mcq-13": "「持續不散、未消失的」與本句語境不同。",
-        "linger-mcq-15": "「氣味、氣氛等仍瀰漫著／揮之不去」與本句語境不同。",
-        "linger-mcq-12": "「事件過後仍揮之不去的悲傷／疑慮」與本句語境不同。",
-        "linger-mcq-11": "「長時間不癒的疾病／久病」與本句語境不同。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。"
+        "linger-mcq-14": "本句的「lingered on」指「繼續存在／久久不散」。",
+        "linger-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-14"
     },
@@ -1193,11 +1077,9 @@ export default {
       "masked": "The smell of perfume ____.",
       "options": [
         "linger-mcq-15",
-        "linger-mcq-14",
-        "linger-mcq-13",
-        "linger-mcq-12",
-        "linger-mcq-11",
-        "linger-mcq-10"
+        "linger-mcq-01",
+        "linger-mcq-08",
+        "linger-mcq-04"
       ],
       "explanation": "本句的「lingered in the air」指「氣味、氣氛等仍瀰漫著／揮之不去」。",
       "sentenceIndex": 30,
@@ -1206,12 +1088,10 @@ export default {
         "lingered in the air"
       ],
       "optionReasons": {
-        "linger-mcq-15": "本句指「氣味、氣氛等仍瀰漫著／揮之不去」。",
-        "linger-mcq-14": "「繼續存在／久久不散」與本句語境不同。",
-        "linger-mcq-13": "「持續不散、未消失的」與本句語境不同。",
-        "linger-mcq-12": "「事件過後仍揮之不去的悲傷／疑慮」與本句語境不同。",
-        "linger-mcq-11": "「長時間不癒的疾病／久病」與本句語境不同。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。"
+        "linger-mcq-15": "本句的「lingered in the air」指「氣味、氣氛等仍瀰漫著／揮之不去」。",
+        "linger-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-15"
     },
@@ -1223,11 +1103,9 @@ export default {
       "masked": "An awkward silence ____.",
       "options": [
         "linger-mcq-15",
-        "linger-mcq-14",
-        "linger-mcq-13",
-        "linger-mcq-12",
-        "linger-mcq-11",
-        "linger-mcq-10"
+        "linger-mcq-01",
+        "linger-mcq-08",
+        "linger-mcq-04"
       ],
       "explanation": "本句的「lingered in the air」指「氣味、氣氛等仍瀰漫著／揮之不去」。",
       "sentenceIndex": 31,
@@ -1236,12 +1114,10 @@ export default {
         "lingered in the air"
       ],
       "optionReasons": {
-        "linger-mcq-15": "本句指「氣味、氣氛等仍瀰漫著／揮之不去」。",
-        "linger-mcq-14": "「繼續存在／久久不散」與本句語境不同。",
-        "linger-mcq-13": "「持續不散、未消失的」與本句語境不同。",
-        "linger-mcq-12": "「事件過後仍揮之不去的悲傷／疑慮」與本句語境不同。",
-        "linger-mcq-11": "「長時間不癒的疾病／久病」與本句語境不同。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。"
+        "linger-mcq-15": "本句的「lingered in the air」指「氣味、氣氛等仍瀰漫著／揮之不去」。",
+        "linger-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-15"
     },
@@ -1253,11 +1129,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "linger-mcq-09",
-        "linger-mcq-08",
-        "linger-mcq-10",
-        "linger-mcq-07",
-        "linger-mcq-11",
-        "linger-mcq-06"
+        "linger-mcq-02",
+        "linger-mcq-15",
+        "linger-mcq-08"
       ],
       "explanation": "本句的「lingered over breakfast」指「花較長時間慢慢享用、閱讀或思考某事」。",
       "sentenceIndex": 32,
@@ -1266,12 +1140,10 @@ export default {
         "lingered over breakfast"
       ],
       "optionReasons": {
-        "linger-mcq-09": "本句指「花較長時間慢慢享用、閱讀或思考某事」。",
-        "linger-mcq-08": "「因不想離開或想多享受一會而留連」與本句語境不同。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。",
-        "linger-mcq-07": "「氣味、味道、聲音等持續殘留」與本句語境不同。",
-        "linger-mcq-11": "「長時間不癒的疾病／久病」與本句語境不同。",
-        "linger-mcq-06": "「久久不散、仍清晰存在的回憶」與本句語境不同。"
+        "linger-mcq-09": "本句的「lingered over breakfast」指「花較長時間慢慢享用、閱讀或思考某事」。",
+        "linger-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-09"
     },
@@ -1283,11 +1155,9 @@ export default {
       "masked": "Readers may ____ certain passages.",
       "options": [
         "linger-mcq-09",
-        "linger-mcq-08",
         "linger-mcq-10",
-        "linger-mcq-07",
-        "linger-mcq-11",
-        "linger-mcq-06"
+        "linger-mcq-01",
+        "linger-mcq-12"
       ],
       "explanation": "本句的「linger over」指「花較長時間慢慢享用、閱讀或思考某事」。",
       "sentenceIndex": 33,
@@ -1296,12 +1166,10 @@ export default {
         "linger over"
       ],
       "optionReasons": {
-        "linger-mcq-09": "本句指「花較長時間慢慢享用、閱讀或思考某事」。",
-        "linger-mcq-08": "「因不想離開或想多享受一會而留連」與本句語境不同。",
-        "linger-mcq-10": "「病痛、症狀等遲遲不消失／持續」與本句語境不同。",
-        "linger-mcq-07": "「氣味、味道、聲音等持續殘留」與本句語境不同。",
-        "linger-mcq-11": "「長時間不癒的疾病／久病」與本句語境不同。",
-        "linger-mcq-06": "「久久不散、仍清晰存在的回憶」與本句語境不同。"
+        "linger-mcq-09": "本句的「linger over」指「花較長時間慢慢享用、閱讀或思考某事」。",
+        "linger-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "linger-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "linger-mcq-09"
     }
@@ -1313,5 +1181,7 @@ export default {
     "sha256": "c8d54a2f6cd293bf316091a7abcd0b33d7f0e0fad67ab7ef975481a4896ed65f",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

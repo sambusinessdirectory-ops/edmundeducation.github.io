@@ -459,11 +459,9 @@ export default {
       "masked": "People around the ____ watched the event.",
       "options": [
         "world-mcq-01",
-        "world-mcq-02",
-        "world-mcq-03",
+        "world-mcq-07",
         "world-mcq-04",
-        "world-mcq-05",
-        "world-mcq-06"
+        "world-mcq-18"
       ],
       "explanation": "本句的「world」指「地球以及存在於地球上的人類、國家和自然環境整體」。",
       "sentenceIndex": 0,
@@ -472,12 +470,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-01": "本句指「地球以及存在於地球上的人類、國家和自然環境整體」。",
-        "world-mcq-02": "「全體人類或整個人類社會」是「the world — humanity」的用法，與本句語境不同。",
-        "world-mcq-03": "「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」是「world — external reality」的用法，與本句語境不同。",
-        "world-mcq-04": "「由某個共同職業、興趣或活動形成的領域／圈子」是「business/art/etc. world」的用法，與本句語境不同。",
-        "world-mcq-05": "「具有某種特定生活方式、人物和規則的社會環境」是「social world」的用法，與本句語境不同。",
-        "world-mcq-06": "「構成某人生活、關係、經驗和人生重心的整體」是「someone’s world」的用法，與本句語境不同。"
+        "world-mcq-01": "本句的「world」指「地球以及存在於地球上的人類、國家和自然環境整體」。",
+        "world-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-01"
     },
@@ -489,11 +485,9 @@ export default {
       "masked": "The ____ is facing serious environmental challenges.",
       "options": [
         "world-mcq-01",
-        "world-mcq-02",
-        "world-mcq-03",
-        "world-mcq-04",
-        "world-mcq-05",
-        "world-mcq-06"
+        "world-mcq-19",
+        "world-mcq-07",
+        "world-mcq-11"
       ],
       "explanation": "本句的「world」指「地球以及存在於地球上的人類、國家和自然環境整體」。",
       "sentenceIndex": 1,
@@ -502,12 +496,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-01": "本句指「地球以及存在於地球上的人類、國家和自然環境整體」。",
-        "world-mcq-02": "「全體人類或整個人類社會」是「the world — humanity」的用法，與本句語境不同。",
-        "world-mcq-03": "「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」是「world — external reality」的用法，與本句語境不同。",
-        "world-mcq-04": "「由某個共同職業、興趣或活動形成的領域／圈子」是「business/art/etc. world」的用法，與本句語境不同。",
-        "world-mcq-05": "「具有某種特定生活方式、人物和規則的社會環境」是「social world」的用法，與本句語境不同。",
-        "world-mcq-06": "「構成某人生活、關係、經驗和人生重心的整體」是「someone’s world」的用法，與本句語境不同。"
+        "world-mcq-01": "本句的「world」指「地球以及存在於地球上的人類、國家和自然環境整體」。",
+        "world-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-01"
     },
@@ -519,11 +511,9 @@ export default {
       "masked": "The whole ____ seemed to know about the story.",
       "options": [
         "world-mcq-02",
-        "world-mcq-01",
-        "world-mcq-03",
+        "world-mcq-07",
         "world-mcq-04",
-        "world-mcq-05",
-        "world-mcq-06"
+        "world-mcq-19"
       ],
       "explanation": "本句的「world」指「全體人類或整個人類社會」。",
       "sentenceIndex": 2,
@@ -532,12 +522,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-02": "本句指「全體人類或整個人類社會」。",
-        "world-mcq-01": "「地球以及存在於地球上的人類、國家和自然環境整體」是「the world — Earth」的用法，與本句語境不同。",
-        "world-mcq-03": "「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」是「world — external reality」的用法，與本句語境不同。",
-        "world-mcq-04": "「由某個共同職業、興趣或活動形成的領域／圈子」是「business/art/etc. world」的用法，與本句語境不同。",
-        "world-mcq-05": "「具有某種特定生活方式、人物和規則的社會環境」是「social world」的用法，與本句語境不同。",
-        "world-mcq-06": "「構成某人生活、關係、經驗和人生重心的整體」是「someone’s world」的用法，與本句語境不同。"
+        "world-mcq-02": "本句的「world」指「全體人類或整個人類社會」。",
+        "world-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-02"
     },
@@ -549,11 +537,9 @@ export default {
       "masked": "She wanted to show the ____ what she could do.",
       "options": [
         "world-mcq-02",
-        "world-mcq-01",
-        "world-mcq-03",
+        "world-mcq-07",
         "world-mcq-04",
-        "world-mcq-05",
-        "world-mcq-06"
+        "world-mcq-13"
       ],
       "explanation": "本句的「world」指「全體人類或整個人類社會」。",
       "sentenceIndex": 3,
@@ -562,12 +548,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-02": "本句指「全體人類或整個人類社會」。",
-        "world-mcq-01": "「地球以及存在於地球上的人類、國家和自然環境整體」是「the world — Earth」的用法，與本句語境不同。",
-        "world-mcq-03": "「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」是「world — external reality」的用法，與本句語境不同。",
-        "world-mcq-04": "「由某個共同職業、興趣或活動形成的領域／圈子」是「business/art/etc. world」的用法，與本句語境不同。",
-        "world-mcq-05": "「具有某種特定生活方式、人物和規則的社會環境」是「social world」的用法，與本句語境不同。",
-        "world-mcq-06": "「構成某人生活、關係、經驗和人生重心的整體」是「someone’s world」的用法，與本句語境不同。"
+        "world-mcq-02": "本句的「world」指「全體人類或整個人類社會」。",
+        "world-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-02"
     },
@@ -579,11 +563,9 @@ export default {
       "masked": "It was like someone had pressed a mute button on the outside ____.",
       "options": [
         "world-mcq-03",
+        "world-mcq-11",
         "world-mcq-02",
-        "world-mcq-04",
-        "world-mcq-01",
-        "world-mcq-05",
-        "world-mcq-06"
+        "world-mcq-16"
       ],
       "explanation": "本句的「world」指「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」。",
       "sentenceIndex": 4,
@@ -592,12 +574,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-03": "本句指「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」。",
-        "world-mcq-02": "「全體人類或整個人類社會」是「the world — humanity」的用法，與本句語境不同。",
-        "world-mcq-04": "「由某個共同職業、興趣或活動形成的領域／圈子」是「business/art/etc. world」的用法，與本句語境不同。",
-        "world-mcq-01": "「地球以及存在於地球上的人類、國家和自然環境整體」是「the world — Earth」的用法，與本句語境不同。",
-        "world-mcq-05": "「具有某種特定生活方式、人物和規則的社會環境」是「social world」的用法，與本句語境不同。",
-        "world-mcq-06": "「構成某人生活、關係、經驗和人生重心的整體」是「someone’s world」的用法，與本句語境不同。"
+        "world-mcq-03": "本句的「world」指「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」。",
+        "world-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-03"
     },
@@ -609,11 +589,9 @@ export default {
       "masked": "She closed the door and shut out the ____ for an hour.",
       "options": [
         "world-mcq-03",
+        "world-mcq-14",
         "world-mcq-02",
-        "world-mcq-04",
-        "world-mcq-01",
-        "world-mcq-05",
-        "world-mcq-06"
+        "world-mcq-11"
       ],
       "explanation": "本句的「world」指「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」。",
       "sentenceIndex": 5,
@@ -622,12 +600,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-03": "本句指「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」。",
-        "world-mcq-02": "「全體人類或整個人類社會」是「the world — humanity」的用法，與本句語境不同。",
-        "world-mcq-04": "「由某個共同職業、興趣或活動形成的領域／圈子」是「business/art/etc. world」的用法，與本句語境不同。",
-        "world-mcq-01": "「地球以及存在於地球上的人類、國家和自然環境整體」是「the world — Earth」的用法，與本句語境不同。",
-        "world-mcq-05": "「具有某種特定生活方式、人物和規則的社會環境」是「social world」的用法，與本句語境不同。",
-        "world-mcq-06": "「構成某人生活、關係、經驗和人生重心的整體」是「someone’s world」的用法，與本句語境不同。"
+        "world-mcq-03": "本句的「world」指「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」。",
+        "world-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-03"
     },
@@ -639,11 +615,9 @@ export default {
       "masked": "The headphones helped him disconnect from the ____ around him.",
       "options": [
         "world-mcq-03",
-        "world-mcq-02",
-        "world-mcq-04",
-        "world-mcq-01",
-        "world-mcq-05",
-        "world-mcq-06"
+        "world-mcq-16",
+        "world-mcq-18",
+        "world-mcq-11"
       ],
       "explanation": "本句的「world」指「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」。",
       "sentenceIndex": 6,
@@ -652,12 +626,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-03": "本句指「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」。",
-        "world-mcq-02": "「全體人類或整個人類社會」是「the world — humanity」的用法，與本句語境不同。",
-        "world-mcq-04": "「由某個共同職業、興趣或活動形成的領域／圈子」是「business/art/etc. world」的用法，與本句語境不同。",
-        "world-mcq-01": "「地球以及存在於地球上的人類、國家和自然環境整體」是「the world — Earth」的用法，與本句語境不同。",
-        "world-mcq-05": "「具有某種特定生活方式、人物和規則的社會環境」是「social world」的用法，與本句語境不同。",
-        "world-mcq-06": "「構成某人生活、關係、經驗和人生重心的整體」是「someone’s world」的用法，與本句語境不同。"
+        "world-mcq-03": "本句的「world」指「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」。",
+        "world-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-03"
     },
@@ -669,11 +641,9 @@ export default {
       "masked": "She is well known in the fashion ____.",
       "options": [
         "world-mcq-04",
-        "world-mcq-03",
-        "world-mcq-05",
-        "world-mcq-02",
-        "world-mcq-06",
-        "world-mcq-01"
+        "world-mcq-15",
+        "world-mcq-17",
+        "world-mcq-12"
       ],
       "explanation": "本句的「world」指「由某個共同職業、興趣或活動形成的領域／圈子」。",
       "sentenceIndex": 7,
@@ -682,12 +652,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-04": "本句指「由某個共同職業、興趣或活動形成的領域／圈子」。",
-        "world-mcq-03": "「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」是「world — external reality」的用法，與本句語境不同。",
-        "world-mcq-05": "「具有某種特定生活方式、人物和規則的社會環境」是「social world」的用法，與本句語境不同。",
-        "world-mcq-02": "「全體人類或整個人類社會」是「the world — humanity」的用法，與本句語境不同。",
-        "world-mcq-06": "「構成某人生活、關係、經驗和人生重心的整體」是「someone’s world」的用法，與本句語境不同。",
-        "world-mcq-01": "「地球以及存在於地球上的人類、國家和自然環境整體」是「the world — Earth」的用法，與本句語境不同。"
+        "world-mcq-04": "本句的「world」指「由某個共同職業、興趣或活動形成的領域／圈子」。",
+        "world-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-04"
     },
@@ -699,11 +667,9 @@ export default {
       "masked": "Technology is changing the business ____ rapidly.",
       "options": [
         "world-mcq-04",
-        "world-mcq-03",
-        "world-mcq-05",
-        "world-mcq-02",
-        "world-mcq-06",
-        "world-mcq-01"
+        "world-mcq-20",
+        "world-mcq-09",
+        "world-mcq-15"
       ],
       "explanation": "本句的「world」指「由某個共同職業、興趣或活動形成的領域／圈子」。",
       "sentenceIndex": 8,
@@ -712,12 +678,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-04": "本句指「由某個共同職業、興趣或活動形成的領域／圈子」。",
-        "world-mcq-03": "「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」是「world — external reality」的用法，與本句語境不同。",
-        "world-mcq-05": "「具有某種特定生活方式、人物和規則的社會環境」是「social world」的用法，與本句語境不同。",
-        "world-mcq-02": "「全體人類或整個人類社會」是「the world — humanity」的用法，與本句語境不同。",
-        "world-mcq-06": "「構成某人生活、關係、經驗和人生重心的整體」是「someone’s world」的用法，與本句語境不同。",
-        "world-mcq-01": "「地球以及存在於地球上的人類、國家和自然環境整體」是「the world — Earth」的用法，與本句語境不同。"
+        "world-mcq-04": "本句的「world」指「由某個共同職業、興趣或活動形成的領域／圈子」。",
+        "world-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-04"
     },
@@ -729,11 +693,9 @@ export default {
       "masked": "He grew up in a very different ____ from mine.",
       "options": [
         "world-mcq-05",
-        "world-mcq-04",
-        "world-mcq-06",
-        "world-mcq-03",
-        "world-mcq-07",
-        "world-mcq-02"
+        "world-mcq-15",
+        "world-mcq-16",
+        "world-mcq-11"
       ],
       "explanation": "本句的「world」指「具有某種特定生活方式、人物和規則的社會環境」。",
       "sentenceIndex": 9,
@@ -742,12 +704,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-05": "本句指「具有某種特定生活方式、人物和規則的社會環境」。",
-        "world-mcq-04": "「由某個共同職業、興趣或活動形成的領域／圈子」是「business/art/etc. world」的用法，與本句語境不同。",
-        "world-mcq-06": "「構成某人生活、關係、經驗和人生重心的整體」是「someone’s world」的用法，與本句語境不同。",
-        "world-mcq-03": "「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」是「world — external reality」的用法，與本句語境不同。",
-        "world-mcq-07": "「對某人極其重要、珍貴或具有重大情感價值」是「mean the world to someone」的用法，與本句語境不同。",
-        "world-mcq-02": "「全體人類或整個人類社會」是「the world — humanity」的用法，與本句語境不同。"
+        "world-mcq-05": "本句的「world」指「具有某種特定生活方式、人物和規則的社會環境」。",
+        "world-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-05"
     },
@@ -759,11 +719,9 @@ export default {
       "masked": "She entered a ____ of wealthy clients and luxury hotels.",
       "options": [
         "world-mcq-05",
-        "world-mcq-04",
-        "world-mcq-06",
-        "world-mcq-03",
-        "world-mcq-07",
-        "world-mcq-02"
+        "world-mcq-11",
+        "world-mcq-15",
+        "world-mcq-16"
       ],
       "explanation": "本句的「world」指「具有某種特定生活方式、人物和規則的社會環境」。",
       "sentenceIndex": 10,
@@ -772,12 +730,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-05": "本句指「具有某種特定生活方式、人物和規則的社會環境」。",
-        "world-mcq-04": "「由某個共同職業、興趣或活動形成的領域／圈子」是「business/art/etc. world」的用法，與本句語境不同。",
-        "world-mcq-06": "「構成某人生活、關係、經驗和人生重心的整體」是「someone’s world」的用法，與本句語境不同。",
-        "world-mcq-03": "「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」是「world — external reality」的用法，與本句語境不同。",
-        "world-mcq-07": "「對某人極其重要、珍貴或具有重大情感價值」是「mean the world to someone」的用法，與本句語境不同。",
-        "world-mcq-02": "「全體人類或整個人類社會」是「the world — humanity」的用法，與本句語境不同。"
+        "world-mcq-05": "本句的「world」指「具有某種特定生活方式、人物和規則的社會環境」。",
+        "world-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-05"
     },
@@ -789,11 +745,9 @@ export default {
       "masked": "Her children are the centre of her ____.",
       "options": [
         "world-mcq-06",
-        "world-mcq-05",
-        "world-mcq-07",
-        "world-mcq-04",
-        "world-mcq-08",
-        "world-mcq-03"
+        "world-mcq-20",
+        "world-mcq-15",
+        "world-mcq-14"
       ],
       "explanation": "本句的「world」指「構成某人生活、關係、經驗和人生重心的整體」。",
       "sentenceIndex": 11,
@@ -802,12 +756,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-06": "本句指「構成某人生活、關係、經驗和人生重心的整體」。",
-        "world-mcq-05": "「具有某種特定生活方式、人物和規則的社會環境」是「social world」的用法，與本句語境不同。",
-        "world-mcq-07": "「對某人極其重要、珍貴或具有重大情感價值」是「mean the world to someone」的用法，與本句語境不同。",
-        "world-mcq-04": "「由某個共同職業、興趣或活動形成的領域／圈子」是「business/art/etc. world」的用法，與本句語境不同。",
-        "world-mcq-08": "「某人的生活、安全感或重要關係受到重大破壞」是「world falls apart」的用法，與本句語境不同。",
-        "world-mcq-03": "「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」是「world — external reality」的用法，與本句語境不同。"
+        "world-mcq-06": "本句的「world」指「構成某人生活、關係、經驗和人生重心的整體」。",
+        "world-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-06"
     },
@@ -819,11 +771,9 @@ export default {
       "masked": "His ____ changed completely after he moved abroad.",
       "options": [
         "world-mcq-06",
-        "world-mcq-05",
-        "world-mcq-07",
-        "world-mcq-04",
-        "world-mcq-08",
-        "world-mcq-03"
+        "world-mcq-15",
+        "world-mcq-16",
+        "world-mcq-11"
       ],
       "explanation": "本句的「world」指「構成某人生活、關係、經驗和人生重心的整體」。",
       "sentenceIndex": 12,
@@ -832,12 +782,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-06": "本句指「構成某人生活、關係、經驗和人生重心的整體」。",
-        "world-mcq-05": "「具有某種特定生活方式、人物和規則的社會環境」是「social world」的用法，與本句語境不同。",
-        "world-mcq-07": "「對某人極其重要、珍貴或具有重大情感價值」是「mean the world to someone」的用法，與本句語境不同。",
-        "world-mcq-04": "「由某個共同職業、興趣或活動形成的領域／圈子」是「business/art/etc. world」的用法，與本句語境不同。",
-        "world-mcq-08": "「某人的生活、安全感或重要關係受到重大破壞」是「world falls apart」的用法，與本句語境不同。",
-        "world-mcq-03": "「某人自身或私人空間以外，由其他人、活動和環境構成的外部現實」是「world — external reality」的用法，與本句語境不同。"
+        "world-mcq-06": "本句的「world」指「構成某人生活、關係、經驗和人生重心的整體」。",
+        "world-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-06"
     },
@@ -849,11 +797,9 @@ export default {
       "masked": "My family means the ____ to me.",
       "options": [
         "world-mcq-07",
-        "world-mcq-06",
-        "world-mcq-08",
-        "world-mcq-05",
-        "world-mcq-09",
-        "world-mcq-04"
+        "world-mcq-02",
+        "world-mcq-14",
+        "world-mcq-19"
       ],
       "explanation": "本句的「world」指「對某人極其重要、珍貴或具有重大情感價值」。",
       "sentenceIndex": 13,
@@ -862,12 +808,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-07": "本句指「對某人極其重要、珍貴或具有重大情感價值」。",
-        "world-mcq-06": "「構成某人生活、關係、經驗和人生重心的整體」是「someone’s world」的用法，與本句語境不同。",
-        "world-mcq-08": "「某人的生活、安全感或重要關係受到重大破壞」是「world falls apart」的用法，與本句語境不同。",
-        "world-mcq-05": "「具有某種特定生活方式、人物和規則的社會環境」是「social world」的用法，與本句語境不同。",
-        "world-mcq-09": "「故事、遊戲或想像中具有自己環境和規則的完整世界」是「fictional world」的用法，與本句語境不同。",
-        "world-mcq-04": "「由某個共同職業、興趣或活動形成的領域／圈子」是「business/art/etc. world」的用法，與本句語境不同。"
+        "world-mcq-07": "本句的「world」指「對某人極其重要、珍貴或具有重大情感價值」。",
+        "world-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-07"
     },
@@ -879,11 +823,9 @@ export default {
       "masked": "Your support means the ____ to her.",
       "options": [
         "world-mcq-07",
-        "world-mcq-06",
-        "world-mcq-08",
-        "world-mcq-05",
-        "world-mcq-09",
-        "world-mcq-04"
+        "world-mcq-15",
+        "world-mcq-20",
+        "world-mcq-19"
       ],
       "explanation": "本句的「world」指「對某人極其重要、珍貴或具有重大情感價值」。",
       "sentenceIndex": 14,
@@ -892,12 +834,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-07": "本句指「對某人極其重要、珍貴或具有重大情感價值」。",
-        "world-mcq-06": "「構成某人生活、關係、經驗和人生重心的整體」是「someone’s world」的用法，與本句語境不同。",
-        "world-mcq-08": "「某人的生活、安全感或重要關係受到重大破壞」是「world falls apart」的用法，與本句語境不同。",
-        "world-mcq-05": "「具有某種特定生活方式、人物和規則的社會環境」是「social world」的用法，與本句語境不同。",
-        "world-mcq-09": "「故事、遊戲或想像中具有自己環境和規則的完整世界」是「fictional world」的用法，與本句語境不同。",
-        "world-mcq-04": "「由某個共同職業、興趣或活動形成的領域／圈子」是「business/art/etc. world」的用法，與本句語境不同。"
+        "world-mcq-07": "本句的「world」指「對某人極其重要、珍貴或具有重大情感價值」。",
+        "world-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-07"
     },
@@ -909,11 +849,9 @@ export default {
       "masked": "His ____ fell apart when he lost his job and home.",
       "options": [
         "world-mcq-08",
-        "world-mcq-07",
-        "world-mcq-09",
-        "world-mcq-06",
-        "world-mcq-10",
-        "world-mcq-05"
+        "world-mcq-20",
+        "world-mcq-18",
+        "world-mcq-09"
       ],
       "explanation": "本句的「world」指「某人的生活、安全感或重要關係受到重大破壞」。",
       "sentenceIndex": 15,
@@ -922,12 +860,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-08": "本句指「某人的生活、安全感或重要關係受到重大破壞」。",
-        "world-mcq-07": "「對某人極其重要、珍貴或具有重大情感價值」是「mean the world to someone」的用法，與本句語境不同。",
-        "world-mcq-09": "「故事、遊戲或想像中具有自己環境和規則的完整世界」是「fictional world」的用法，與本句語境不同。",
-        "world-mcq-06": "「構成某人生活、關係、經驗和人生重心的整體」是「someone’s world」的用法，與本句語境不同。",
-        "world-mcq-10": "「被視為獨立環境、尤其可能存在生命的星球」是「world — planet」的用法，與本句語境不同。",
-        "world-mcq-05": "「具有某種特定生活方式、人物和規則的社會環境」是「social world」的用法，與本句語境不同。"
+        "world-mcq-08": "本句的「world」指「某人的生活、安全感或重要關係受到重大破壞」。",
+        "world-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-08"
     },
@@ -939,11 +875,9 @@ export default {
       "masked": "For a while, it felt as though her ____ had collapsed.",
       "options": [
         "world-mcq-08",
-        "world-mcq-07",
+        "world-mcq-20",
         "world-mcq-09",
-        "world-mcq-06",
-        "world-mcq-10",
-        "world-mcq-05"
+        "world-mcq-18"
       ],
       "explanation": "本句的「world」指「某人的生活、安全感或重要關係受到重大破壞」。",
       "sentenceIndex": 16,
@@ -952,12 +886,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-08": "本句指「某人的生活、安全感或重要關係受到重大破壞」。",
-        "world-mcq-07": "「對某人極其重要、珍貴或具有重大情感價值」是「mean the world to someone」的用法，與本句語境不同。",
-        "world-mcq-09": "「故事、遊戲或想像中具有自己環境和規則的完整世界」是「fictional world」的用法，與本句語境不同。",
-        "world-mcq-06": "「構成某人生活、關係、經驗和人生重心的整體」是「someone’s world」的用法，與本句語境不同。",
-        "world-mcq-10": "「被視為獨立環境、尤其可能存在生命的星球」是「world — planet」的用法，與本句語境不同。",
-        "world-mcq-05": "「具有某種特定生活方式、人物和規則的社會環境」是「social world」的用法，與本句語境不同。"
+        "world-mcq-08": "本句的「world」指「某人的生活、安全感或重要關係受到重大破壞」。",
+        "world-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-08"
     },
@@ -969,11 +901,9 @@ export default {
       "masked": "The novel creates a detailed fantasy ____.",
       "options": [
         "world-mcq-09",
-        "world-mcq-08",
-        "world-mcq-10",
-        "world-mcq-07",
-        "world-mcq-11",
-        "world-mcq-06"
+        "world-mcq-15",
+        "world-mcq-04",
+        "world-mcq-14"
       ],
       "explanation": "本句的「world」指「故事、遊戲或想像中具有自己環境和規則的完整世界」。",
       "sentenceIndex": 17,
@@ -982,12 +912,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-09": "本句指「故事、遊戲或想像中具有自己環境和規則的完整世界」。",
-        "world-mcq-08": "「某人的生活、安全感或重要關係受到重大破壞」是「world falls apart」的用法，與本句語境不同。",
-        "world-mcq-10": "「被視為獨立環境、尤其可能存在生命的星球」是「world — planet」的用法，與本句語境不同。",
-        "world-mcq-07": "「對某人極其重要、珍貴或具有重大情感價值」是「mean the world to someone」的用法，與本句語境不同。",
-        "world-mcq-11": "「非常大量或非常大的程度」是「a world of something」的用法，與本句語境不同。",
-        "world-mcq-06": "「構成某人生活、關係、經驗和人生重心的整體」是「someone’s world」的用法，與本句語境不同。"
+        "world-mcq-09": "本句的「world」指「故事、遊戲或想像中具有自己環境和規則的完整世界」。",
+        "world-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-09"
     },
@@ -999,11 +927,9 @@ export default {
       "masked": "Players can explore a huge open ____.",
       "options": [
         "world-mcq-09",
-        "world-mcq-08",
-        "world-mcq-10",
-        "world-mcq-07",
         "world-mcq-11",
-        "world-mcq-06"
+        "world-mcq-04",
+        "world-mcq-16"
       ],
       "explanation": "本句的「world」指「故事、遊戲或想像中具有自己環境和規則的完整世界」。",
       "sentenceIndex": 18,
@@ -1012,12 +938,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-09": "本句指「故事、遊戲或想像中具有自己環境和規則的完整世界」。",
-        "world-mcq-08": "「某人的生活、安全感或重要關係受到重大破壞」是「world falls apart」的用法，與本句語境不同。",
-        "world-mcq-10": "「被視為獨立環境、尤其可能存在生命的星球」是「world — planet」的用法，與本句語境不同。",
-        "world-mcq-07": "「對某人極其重要、珍貴或具有重大情感價值」是「mean the world to someone」的用法，與本句語境不同。",
-        "world-mcq-11": "「非常大量或非常大的程度」是「a world of something」的用法，與本句語境不同。",
-        "world-mcq-06": "「構成某人生活、關係、經驗和人生重心的整體」是「someone’s world」的用法，與本句語境不同。"
+        "world-mcq-09": "本句的「world」指「故事、遊戲或想像中具有自己環境和規則的完整世界」。",
+        "world-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-09"
     },
@@ -1029,11 +953,9 @@ export default {
       "masked": "The story is set on a distant ____.",
       "options": [
         "world-mcq-10",
-        "world-mcq-09",
-        "world-mcq-11",
-        "world-mcq-08",
-        "world-mcq-12",
-        "world-mcq-07"
+        "world-mcq-18",
+        "world-mcq-07",
+        "world-mcq-11"
       ],
       "explanation": "本句的「world」指「被視為獨立環境、尤其可能存在生命的星球」。",
       "sentenceIndex": 19,
@@ -1042,12 +964,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-10": "本句指「被視為獨立環境、尤其可能存在生命的星球」。",
-        "world-mcq-09": "「故事、遊戲或想像中具有自己環境和規則的完整世界」是「fictional world」的用法，與本句語境不同。",
-        "world-mcq-11": "「非常大量或非常大的程度」是「a world of something」的用法，與本句語境不同。",
-        "world-mcq-08": "「某人的生活、安全感或重要關係受到重大破壞」是「world falls apart」的用法，與本句語境不同。",
-        "world-mcq-12": "「在全球所有相關人物或事物之中」是「in the world」的用法，與本句語境不同。",
-        "world-mcq-07": "「對某人極其重要、珍貴或具有重大情感價值」是「mean the world to someone」的用法，與本句語境不同。"
+        "world-mcq-10": "本句的「world」指「被視為獨立環境、尤其可能存在生命的星球」。",
+        "world-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-10"
     },
@@ -1059,10 +979,8 @@ export default {
       "masked": "Scientists continue to search for other habitable ____.",
       "options": [
         "world-mcq-10",
-        "world-mcq-09",
+        "world-mcq-04",
         "world-mcq-11",
-        "world-mcq-08",
-        "world-mcq-12",
         "world-mcq-07"
       ],
       "explanation": "本句的「worlds」指「被視為獨立環境、尤其可能存在生命的星球」。",
@@ -1072,12 +990,10 @@ export default {
         "worlds"
       ],
       "optionReasons": {
-        "world-mcq-10": "本句指「被視為獨立環境、尤其可能存在生命的星球」。",
-        "world-mcq-09": "「故事、遊戲或想像中具有自己環境和規則的完整世界」是「fictional world」的用法，與本句語境不同。",
-        "world-mcq-11": "「非常大量或非常大的程度」是「a world of something」的用法，與本句語境不同。",
-        "world-mcq-08": "「某人的生活、安全感或重要關係受到重大破壞」是「world falls apart」的用法，與本句語境不同。",
-        "world-mcq-12": "「在全球所有相關人物或事物之中」是「in the world」的用法，與本句語境不同。",
-        "world-mcq-07": "「對某人極其重要、珍貴或具有重大情感價值」是「mean the world to someone」的用法，與本句語境不同。"
+        "world-mcq-10": "本句的「worlds」指「被視為獨立環境、尤其可能存在生命的星球」。",
+        "world-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-10"
     },
@@ -1089,11 +1005,9 @@ export default {
       "masked": "A good pair of headphones can make a ____ of difference.",
       "options": [
         "world-mcq-11",
-        "world-mcq-10",
-        "world-mcq-12",
-        "world-mcq-09",
-        "world-mcq-13",
-        "world-mcq-08"
+        "world-mcq-05",
+        "world-mcq-14",
+        "world-mcq-15"
       ],
       "explanation": "本句的「world」指「非常大量或非常大的程度」。",
       "sentenceIndex": 21,
@@ -1102,12 +1016,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-11": "本句指「非常大量或非常大的程度」。",
-        "world-mcq-10": "「被視為獨立環境、尤其可能存在生命的星球」是「world — planet」的用法，與本句語境不同。",
-        "world-mcq-12": "「在全球所有相關人物或事物之中」是「in the world」的用法，與本句語境不同。",
-        "world-mcq-09": "「故事、遊戲或想像中具有自己環境和規則的完整世界」是「fictional world」的用法，與本句語境不同。",
-        "world-mcq-13": "「理論、想像或模擬以外的真實日常生活環境」是「real world」的用法，與本句語境不同。",
-        "world-mcq-08": "「某人的生活、安全感或重要關係受到重大破壞」是「world falls apart」的用法，與本句語境不同。"
+        "world-mcq-11": "本句的「world」指「非常大量或非常大的程度」。",
+        "world-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-11"
     },
@@ -1119,11 +1031,9 @@ export default {
       "masked": "A little preparation can save you a ____ of trouble.",
       "options": [
         "world-mcq-11",
-        "world-mcq-10",
-        "world-mcq-12",
-        "world-mcq-09",
-        "world-mcq-13",
-        "world-mcq-08"
+        "world-mcq-04",
+        "world-mcq-18",
+        "world-mcq-12"
       ],
       "explanation": "本句的「world」指「非常大量或非常大的程度」。",
       "sentenceIndex": 22,
@@ -1132,12 +1042,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-11": "本句指「非常大量或非常大的程度」。",
-        "world-mcq-10": "「被視為獨立環境、尤其可能存在生命的星球」是「world — planet」的用法，與本句語境不同。",
-        "world-mcq-12": "「在全球所有相關人物或事物之中」是「in the world」的用法，與本句語境不同。",
-        "world-mcq-09": "「故事、遊戲或想像中具有自己環境和規則的完整世界」是「fictional world」的用法，與本句語境不同。",
-        "world-mcq-13": "「理論、想像或模擬以外的真實日常生活環境」是「real world」的用法，與本句語境不同。",
-        "world-mcq-08": "「某人的生活、安全感或重要關係受到重大破壞」是「world falls apart」的用法，與本句語境不同。"
+        "world-mcq-11": "本句的「world」指「非常大量或非常大的程度」。",
+        "world-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-11"
     },
@@ -1149,11 +1057,9 @@ export default {
       "masked": "It is one of the largest cities in the ____.",
       "options": [
         "world-mcq-12",
-        "world-mcq-11",
-        "world-mcq-13",
-        "world-mcq-10",
-        "world-mcq-14",
-        "world-mcq-09"
+        "world-mcq-19",
+        "world-mcq-17",
+        "world-mcq-04"
       ],
       "explanation": "本句的「world」指「在全球所有相關人物或事物之中」。",
       "sentenceIndex": 23,
@@ -1162,12 +1068,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-12": "本句指「在全球所有相關人物或事物之中」。",
-        "world-mcq-11": "「非常大量或非常大的程度」是「a world of something」的用法，與本句語境不同。",
-        "world-mcq-13": "「理論、想像或模擬以外的真實日常生活環境」是「real world」的用法，與本句語境不同。",
-        "world-mcq-10": "「被視為獨立環境、尤其可能存在生命的星球」是「world — planet」的用法，與本句語境不同。",
-        "world-mcq-14": "「涉及、存在或發生於全球各地的／在全球各地」是「worldwide」的用法，與本句語境不同。",
-        "world-mcq-09": "「故事、遊戲或想像中具有自己環境和規則的完整世界」是「fictional world」的用法，與本句語境不同。"
+        "world-mcq-12": "本句的「world」指「在全球所有相關人物或事物之中」。",
+        "world-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-12"
     },
@@ -1179,11 +1083,9 @@ export default {
       "masked": "She wants to become the best player in the ____.",
       "options": [
         "world-mcq-12",
-        "world-mcq-11",
+        "world-mcq-18",
         "world-mcq-13",
-        "world-mcq-10",
-        "world-mcq-14",
-        "world-mcq-09"
+        "world-mcq-04"
       ],
       "explanation": "本句的「world」指「在全球所有相關人物或事物之中」。",
       "sentenceIndex": 24,
@@ -1192,12 +1094,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-12": "本句指「在全球所有相關人物或事物之中」。",
-        "world-mcq-11": "「非常大量或非常大的程度」是「a world of something」的用法，與本句語境不同。",
-        "world-mcq-13": "「理論、想像或模擬以外的真實日常生活環境」是「real world」的用法，與本句語境不同。",
-        "world-mcq-10": "「被視為獨立環境、尤其可能存在生命的星球」是「world — planet」的用法，與本句語境不同。",
-        "world-mcq-14": "「涉及、存在或發生於全球各地的／在全球各地」是「worldwide」的用法，與本句語境不同。",
-        "world-mcq-09": "「故事、遊戲或想像中具有自己環境和規則的完整世界」是「fictional world」的用法，與本句語境不同。"
+        "world-mcq-12": "本句的「world」指「在全球所有相關人物或事物之中」。",
+        "world-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-12"
     },
@@ -1209,11 +1109,9 @@ export default {
       "masked": "Students need experience solving real-____ problems.",
       "options": [
         "world-mcq-13",
-        "world-mcq-12",
-        "world-mcq-14",
-        "world-mcq-11",
         "world-mcq-15",
-        "world-mcq-10"
+        "world-mcq-12",
+        "world-mcq-18"
       ],
       "explanation": "本句的「world」指「理論、想像或模擬以外的真實日常生活環境」。",
       "sentenceIndex": 25,
@@ -1222,12 +1120,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-13": "本句指「理論、想像或模擬以外的真實日常生活環境」。",
-        "world-mcq-12": "「在全球所有相關人物或事物之中」是「in the world」的用法，與本句語境不同。",
-        "world-mcq-14": "「涉及、存在或發生於全球各地的／在全球各地」是「worldwide」的用法，與本句語境不同。",
-        "world-mcq-11": "「非常大量或非常大的程度」是「a world of something」的用法，與本句語境不同。",
-        "world-mcq-15": "「在許多國家和地區都廣為人知的」是「world-famous」的用法，與本句語境不同。",
-        "world-mcq-10": "「被視為獨立環境、尤其可能存在生命的星球」是「world — planet」的用法，與本句語境不同。"
+        "world-mcq-13": "本句的「world」指「理論、想像或模擬以外的真實日常生活環境」。",
+        "world-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-13"
     },
@@ -1239,11 +1135,9 @@ export default {
       "masked": "The theory works differently in the real ____.",
       "options": [
         "world-mcq-13",
-        "world-mcq-12",
-        "world-mcq-14",
-        "world-mcq-11",
-        "world-mcq-15",
-        "world-mcq-10"
+        "world-mcq-07",
+        "world-mcq-16",
+        "world-mcq-02"
       ],
       "explanation": "本句的「world」指「理論、想像或模擬以外的真實日常生活環境」。",
       "sentenceIndex": 26,
@@ -1252,12 +1146,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-13": "本句指「理論、想像或模擬以外的真實日常生活環境」。",
-        "world-mcq-12": "「在全球所有相關人物或事物之中」是「in the world」的用法，與本句語境不同。",
-        "world-mcq-14": "「涉及、存在或發生於全球各地的／在全球各地」是「worldwide」的用法，與本句語境不同。",
-        "world-mcq-11": "「非常大量或非常大的程度」是「a world of something」的用法，與本句語境不同。",
-        "world-mcq-15": "「在許多國家和地區都廣為人知的」是「world-famous」的用法，與本句語境不同。",
-        "world-mcq-10": "「被視為獨立環境、尤其可能存在生命的星球」是「world — planet」的用法，與本句語境不同。"
+        "world-mcq-13": "本句的「world」指「理論、想像或模擬以外的真實日常生活環境」。",
+        "world-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-13"
     },
@@ -1269,11 +1161,9 @@ export default {
       "masked": "The company sells its products ____.",
       "options": [
         "world-mcq-14",
-        "world-mcq-13",
-        "world-mcq-15",
-        "world-mcq-12",
-        "world-mcq-16",
-        "world-mcq-11"
+        "world-mcq-09",
+        "world-mcq-18",
+        "world-mcq-20"
       ],
       "explanation": "本句的「worldwide」指「涉及、存在或發生於全球各地的／在全球各地」。",
       "sentenceIndex": 27,
@@ -1282,12 +1172,10 @@ export default {
         "worldwide"
       ],
       "optionReasons": {
-        "world-mcq-14": "本句指「涉及、存在或發生於全球各地的／在全球各地」。",
-        "world-mcq-13": "「理論、想像或模擬以外的真實日常生活環境」是「real world」的用法，與本句語境不同。",
-        "world-mcq-15": "「在許多國家和地區都廣為人知的」是「world-famous」的用法，與本句語境不同。",
-        "world-mcq-12": "「在全球所有相關人物或事物之中」是「in the world」的用法，與本句語境不同。",
-        "world-mcq-16": "「質素或能力達到全球頂尖水平的」是「world-class」的用法，與本句語境不同。",
-        "world-mcq-11": "「非常大量或非常大的程度」是「a world of something」的用法，與本句語境不同。"
+        "world-mcq-14": "本句的「worldwide」指「涉及、存在或發生於全球各地的／在全球各地」。",
+        "world-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-14"
     },
@@ -1299,11 +1187,9 @@ export default {
       "masked": "The film became a ____ success.",
       "options": [
         "world-mcq-14",
-        "world-mcq-13",
+        "world-mcq-07",
         "world-mcq-15",
-        "world-mcq-12",
-        "world-mcq-16",
-        "world-mcq-11"
+        "world-mcq-18"
       ],
       "explanation": "本句的「worldwide」指「涉及、存在或發生於全球各地的／在全球各地」。",
       "sentenceIndex": 28,
@@ -1312,12 +1198,10 @@ export default {
         "worldwide"
       ],
       "optionReasons": {
-        "world-mcq-14": "本句指「涉及、存在或發生於全球各地的／在全球各地」。",
-        "world-mcq-13": "「理論、想像或模擬以外的真實日常生活環境」是「real world」的用法，與本句語境不同。",
-        "world-mcq-15": "「在許多國家和地區都廣為人知的」是「world-famous」的用法，與本句語境不同。",
-        "world-mcq-12": "「在全球所有相關人物或事物之中」是「in the world」的用法，與本句語境不同。",
-        "world-mcq-16": "「質素或能力達到全球頂尖水平的」是「world-class」的用法，與本句語境不同。",
-        "world-mcq-11": "「非常大量或非常大的程度」是「a world of something」的用法，與本句語境不同。"
+        "world-mcq-14": "本句的「worldwide」指「涉及、存在或發生於全球各地的／在全球各地」。",
+        "world-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-14"
     },
@@ -1329,11 +1213,9 @@ export default {
       "masked": "The city is ____-famous for its architecture.",
       "options": [
         "world-mcq-15",
-        "world-mcq-14",
-        "world-mcq-16",
-        "world-mcq-13",
-        "world-mcq-17",
-        "world-mcq-12"
+        "world-mcq-07",
+        "world-mcq-20",
+        "world-mcq-04"
       ],
       "explanation": "本句的「world」指「在許多國家和地區都廣為人知的」。",
       "sentenceIndex": 29,
@@ -1342,12 +1224,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-15": "本句指「在許多國家和地區都廣為人知的」。",
-        "world-mcq-14": "「涉及、存在或發生於全球各地的／在全球各地」是「worldwide」的用法，與本句語境不同。",
-        "world-mcq-16": "「質素或能力達到全球頂尖水平的」是「world-class」的用法，與本句語境不同。",
-        "world-mcq-13": "「理論、想像或模擬以外的真實日常生活環境」是「real world」的用法，與本句語境不同。",
-        "world-mcq-17": "「用來理解世界、社會和人生的一整套基本觀念」是「worldview」的用法，與本句語境不同。",
-        "world-mcq-12": "「在全球所有相關人物或事物之中」是「in the world」的用法，與本句語境不同。"
+        "world-mcq-15": "本句的「world」指「在許多國家和地區都廣為人知的」。",
+        "world-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-15"
     },
@@ -1359,11 +1239,9 @@ export default {
       "masked": "She became a ____-famous musician.",
       "options": [
         "world-mcq-15",
-        "world-mcq-14",
         "world-mcq-16",
-        "world-mcq-13",
         "world-mcq-17",
-        "world-mcq-12"
+        "world-mcq-10"
       ],
       "explanation": "本句的「world」指「在許多國家和地區都廣為人知的」。",
       "sentenceIndex": 30,
@@ -1372,12 +1250,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-15": "本句指「在許多國家和地區都廣為人知的」。",
-        "world-mcq-14": "「涉及、存在或發生於全球各地的／在全球各地」是「worldwide」的用法，與本句語境不同。",
-        "world-mcq-16": "「質素或能力達到全球頂尖水平的」是「world-class」的用法，與本句語境不同。",
-        "world-mcq-13": "「理論、想像或模擬以外的真實日常生活環境」是「real world」的用法，與本句語境不同。",
-        "world-mcq-17": "「用來理解世界、社會和人生的一整套基本觀念」是「worldview」的用法，與本句語境不同。",
-        "world-mcq-12": "「在全球所有相關人物或事物之中」是「in the world」的用法，與本句語境不同。"
+        "world-mcq-15": "本句的「world」指「在許多國家和地區都廣為人知的」。",
+        "world-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-15"
     },
@@ -1390,10 +1266,8 @@ export default {
       "options": [
         "world-mcq-16",
         "world-mcq-15",
-        "world-mcq-17",
-        "world-mcq-14",
-        "world-mcq-18",
-        "world-mcq-13"
+        "world-mcq-05",
+        "world-mcq-04"
       ],
       "explanation": "本句的「world」指「質素或能力達到全球頂尖水平的」。",
       "sentenceIndex": 31,
@@ -1402,12 +1276,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-16": "本句指「質素或能力達到全球頂尖水平的」。",
-        "world-mcq-15": "「在許多國家和地區都廣為人知的」是「world-famous」的用法，與本句語境不同。",
-        "world-mcq-17": "「用來理解世界、社會和人生的一整套基本觀念」是「worldview」的用法，與本句語境不同。",
-        "world-mcq-14": "「涉及、存在或發生於全球各地的／在全球各地」是「worldwide」的用法，與本句語境不同。",
-        "world-mcq-18": "「對社會和人情世故有豐富經驗、較老練的」是「worldly — experienced」的用法，與本句語境不同。",
-        "world-mcq-13": "「理論、想像或模擬以外的真實日常生活環境」是「real world」的用法，與本句語境不同。"
+        "world-mcq-16": "本句的「world」指「質素或能力達到全球頂尖水平的」。",
+        "world-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-16"
     },
@@ -1419,11 +1291,9 @@ export default {
       "masked": "She is a ____-class athlete.",
       "options": [
         "world-mcq-16",
+        "world-mcq-06",
         "world-mcq-15",
-        "world-mcq-17",
-        "world-mcq-14",
-        "world-mcq-18",
-        "world-mcq-13"
+        "world-mcq-11"
       ],
       "explanation": "本句的「world」指「質素或能力達到全球頂尖水平的」。",
       "sentenceIndex": 32,
@@ -1432,12 +1302,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-16": "本句指「質素或能力達到全球頂尖水平的」。",
-        "world-mcq-15": "「在許多國家和地區都廣為人知的」是「world-famous」的用法，與本句語境不同。",
-        "world-mcq-17": "「用來理解世界、社會和人生的一整套基本觀念」是「worldview」的用法，與本句語境不同。",
-        "world-mcq-14": "「涉及、存在或發生於全球各地的／在全球各地」是「worldwide」的用法，與本句語境不同。",
-        "world-mcq-18": "「對社會和人情世故有豐富經驗、較老練的」是「worldly — experienced」的用法，與本句語境不同。",
-        "world-mcq-13": "「理論、想像或模擬以外的真實日常生活環境」是「real world」的用法，與本句語境不同。"
+        "world-mcq-16": "本句的「world」指「質素或能力達到全球頂尖水平的」。",
+        "world-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-16"
     },
@@ -1450,10 +1318,8 @@ export default {
       "options": [
         "world-mcq-17",
         "world-mcq-16",
-        "world-mcq-18",
-        "world-mcq-15",
-        "world-mcq-19",
-        "world-mcq-14"
+        "world-mcq-04",
+        "world-mcq-15"
       ],
       "explanation": "本句的「world」指「用來理解世界、社會和人生的一整套基本觀念」。",
       "sentenceIndex": 33,
@@ -1462,12 +1328,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-17": "本句指「用來理解世界、社會和人生的一整套基本觀念」。",
-        "world-mcq-16": "「質素或能力達到全球頂尖水平的」是「world-class」的用法，與本句語境不同。",
-        "world-mcq-18": "「對社會和人情世故有豐富經驗、較老練的」是「worldly — experienced」的用法，與本句語境不同。",
-        "world-mcq-15": "「在許多國家和地區都廣為人知的」是「world-famous」的用法，與本句語境不同。",
-        "world-mcq-19": "「與物質和世俗生活有關，而非精神層面的」是「worldly — secular/material」的用法，與本句語境不同。",
-        "world-mcq-14": "「涉及、存在或發生於全球各地的／在全球各地」是「worldwide」的用法，與本句語境不同。"
+        "world-mcq-17": "本句的「world」指「用來理解世界、社會和人生的一整套基本觀念」。",
+        "world-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-17"
     },
@@ -1479,11 +1343,9 @@ export default {
       "masked": "Our experiences shape our ____view.",
       "options": [
         "world-mcq-17",
+        "world-mcq-04",
         "world-mcq-16",
-        "world-mcq-18",
-        "world-mcq-15",
-        "world-mcq-19",
-        "world-mcq-14"
+        "world-mcq-15"
       ],
       "explanation": "本句的「world」指「用來理解世界、社會和人生的一整套基本觀念」。",
       "sentenceIndex": 34,
@@ -1492,12 +1354,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-17": "本句指「用來理解世界、社會和人生的一整套基本觀念」。",
-        "world-mcq-16": "「質素或能力達到全球頂尖水平的」是「world-class」的用法，與本句語境不同。",
-        "world-mcq-18": "「對社會和人情世故有豐富經驗、較老練的」是「worldly — experienced」的用法，與本句語境不同。",
-        "world-mcq-15": "「在許多國家和地區都廣為人知的」是「world-famous」的用法，與本句語境不同。",
-        "world-mcq-19": "「與物質和世俗生活有關，而非精神層面的」是「worldly — secular/material」的用法，與本句語境不同。",
-        "world-mcq-14": "「涉及、存在或發生於全球各地的／在全球各地」是「worldwide」的用法，與本句語境不同。"
+        "world-mcq-17": "本句的「world」指「用來理解世界、社會和人生的一整套基本觀念」。",
+        "world-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-17"
     },
@@ -1509,11 +1369,9 @@ export default {
       "masked": "Despite his young age, he seemed surprisingly ____.",
       "options": [
         "world-mcq-18",
-        "world-mcq-17",
-        "world-mcq-19",
-        "world-mcq-16",
-        "world-mcq-20",
-        "world-mcq-15"
+        "world-mcq-13",
+        "world-mcq-15",
+        "world-mcq-11"
       ],
       "explanation": "本句的「worldly」指「對社會和人情世故有豐富經驗、較老練的」。",
       "sentenceIndex": 35,
@@ -1522,12 +1380,10 @@ export default {
         "worldly"
       ],
       "optionReasons": {
-        "world-mcq-18": "本句指「對社會和人情世故有豐富經驗、較老練的」。",
-        "world-mcq-17": "「用來理解世界、社會和人生的一整套基本觀念」是「worldview」的用法，與本句語境不同。",
-        "world-mcq-19": "「與物質和世俗生活有關，而非精神層面的」是「worldly — secular/material」的用法，與本句語境不同。",
-        "world-mcq-16": "「質素或能力達到全球頂尖水平的」是「world-class」的用法，與本句語境不同。",
-        "world-mcq-20": "「遠超一般水平、令人非常驚艷的」是「out of this world」的用法，與本句語境不同。",
-        "world-mcq-15": "「在許多國家和地區都廣為人知的」是「world-famous」的用法，與本句語境不同。"
+        "world-mcq-18": "本句的「worldly」指「對社會和人情世故有豐富經驗、較老練的」。",
+        "world-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-18"
     },
@@ -1539,11 +1395,9 @@ export default {
       "masked": "She was more ____ than her sheltered classmates.",
       "options": [
         "world-mcq-18",
-        "world-mcq-17",
-        "world-mcq-19",
-        "world-mcq-16",
+        "world-mcq-12",
         "world-mcq-20",
-        "world-mcq-15"
+        "world-mcq-13"
       ],
       "explanation": "本句的「worldly」指「對社會和人情世故有豐富經驗、較老練的」。",
       "sentenceIndex": 36,
@@ -1552,12 +1406,10 @@ export default {
         "worldly"
       ],
       "optionReasons": {
-        "world-mcq-18": "本句指「對社會和人情世故有豐富經驗、較老練的」。",
-        "world-mcq-17": "「用來理解世界、社會和人生的一整套基本觀念」是「worldview」的用法，與本句語境不同。",
-        "world-mcq-19": "「與物質和世俗生活有關，而非精神層面的」是「worldly — secular/material」的用法，與本句語境不同。",
-        "world-mcq-16": "「質素或能力達到全球頂尖水平的」是「world-class」的用法，與本句語境不同。",
-        "world-mcq-20": "「遠超一般水平、令人非常驚艷的」是「out of this world」的用法，與本句語境不同。",
-        "world-mcq-15": "「在許多國家和地區都廣為人知的」是「world-famous」的用法，與本句語境不同。"
+        "world-mcq-18": "本句的「worldly」指「對社會和人情世故有豐富經驗、較老練的」。",
+        "world-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-18"
     },
@@ -1569,11 +1421,9 @@ export default {
       "masked": "He had little interest in ____ wealth.",
       "options": [
         "world-mcq-19",
-        "world-mcq-18",
-        "world-mcq-20",
-        "world-mcq-17",
-        "world-mcq-16",
-        "world-mcq-15"
+        "world-mcq-01",
+        "world-mcq-07",
+        "world-mcq-20"
       ],
       "explanation": "本句的「worldly」指「與物質和世俗生活有關，而非精神層面的」。",
       "sentenceIndex": 37,
@@ -1582,12 +1432,10 @@ export default {
         "worldly"
       ],
       "optionReasons": {
-        "world-mcq-19": "本句指「與物質和世俗生活有關，而非精神層面的」。",
-        "world-mcq-18": "「對社會和人情世故有豐富經驗、較老練的」是「worldly — experienced」的用法，與本句語境不同。",
-        "world-mcq-20": "「遠超一般水平、令人非常驚艷的」是「out of this world」的用法，與本句語境不同。",
-        "world-mcq-17": "「用來理解世界、社會和人生的一整套基本觀念」是「worldview」的用法，與本句語境不同。",
-        "world-mcq-16": "「質素或能力達到全球頂尖水平的」是「world-class」的用法，與本句語境不同。",
-        "world-mcq-15": "「在許多國家和地區都廣為人知的」是「world-famous」的用法，與本句語境不同。"
+        "world-mcq-19": "本句的「worldly」指「與物質和世俗生活有關，而非精神層面的」。",
+        "world-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-19"
     },
@@ -1599,11 +1447,9 @@ export default {
       "masked": "She gave up many ____ possessions.",
       "options": [
         "world-mcq-19",
-        "world-mcq-18",
-        "world-mcq-20",
-        "world-mcq-17",
-        "world-mcq-16",
-        "world-mcq-15"
+        "world-mcq-01",
+        "world-mcq-07",
+        "world-mcq-16"
       ],
       "explanation": "本句的「worldly」指「與物質和世俗生活有關，而非精神層面的」。",
       "sentenceIndex": 38,
@@ -1612,12 +1458,10 @@ export default {
         "worldly"
       ],
       "optionReasons": {
-        "world-mcq-19": "本句指「與物質和世俗生活有關，而非精神層面的」。",
-        "world-mcq-18": "「對社會和人情世故有豐富經驗、較老練的」是「worldly — experienced」的用法，與本句語境不同。",
-        "world-mcq-20": "「遠超一般水平、令人非常驚艷的」是「out of this world」的用法，與本句語境不同。",
-        "world-mcq-17": "「用來理解世界、社會和人生的一整套基本觀念」是「worldview」的用法，與本句語境不同。",
-        "world-mcq-16": "「質素或能力達到全球頂尖水平的」是「world-class」的用法，與本句語境不同。",
-        "world-mcq-15": "「在許多國家和地區都廣為人知的」是「world-famous」的用法，與本句語境不同。"
+        "world-mcq-19": "本句的「worldly」指「與物質和世俗生活有關，而非精神層面的」。",
+        "world-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-19"
     },
@@ -1629,11 +1473,9 @@ export default {
       "masked": "The food was out of this ____.",
       "options": [
         "world-mcq-20",
-        "world-mcq-19",
-        "world-mcq-18",
         "world-mcq-17",
-        "world-mcq-16",
-        "world-mcq-15"
+        "world-mcq-01",
+        "world-mcq-04"
       ],
       "explanation": "本句的「world」指「遠超一般水平、令人非常驚艷的」。",
       "sentenceIndex": 39,
@@ -1642,12 +1484,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-20": "本句指「遠超一般水平、令人非常驚艷的」。",
-        "world-mcq-19": "「與物質和世俗生活有關，而非精神層面的」是「worldly — secular/material」的用法，與本句語境不同。",
-        "world-mcq-18": "「對社會和人情世故有豐富經驗、較老練的」是「worldly — experienced」的用法，與本句語境不同。",
-        "world-mcq-17": "「用來理解世界、社會和人生的一整套基本觀念」是「worldview」的用法，與本句語境不同。",
-        "world-mcq-16": "「質素或能力達到全球頂尖水平的」是「world-class」的用法，與本句語境不同。",
-        "world-mcq-15": "「在許多國家和地區都廣為人知的」是「world-famous」的用法，與本句語境不同。"
+        "world-mcq-20": "本句的「world」指「遠超一般水平、令人非常驚艷的」。",
+        "world-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-20"
     },
@@ -1659,11 +1499,9 @@ export default {
       "masked": "The view from the mountain was out of this ____.",
       "options": [
         "world-mcq-20",
-        "world-mcq-19",
-        "world-mcq-18",
         "world-mcq-17",
-        "world-mcq-16",
-        "world-mcq-15"
+        "world-mcq-04",
+        "world-mcq-14"
       ],
       "explanation": "本句的「world」指「遠超一般水平、令人非常驚艷的」。",
       "sentenceIndex": 40,
@@ -1672,12 +1510,10 @@ export default {
         "world"
       ],
       "optionReasons": {
-        "world-mcq-20": "本句指「遠超一般水平、令人非常驚艷的」。",
-        "world-mcq-19": "「與物質和世俗生活有關，而非精神層面的」是「worldly — secular/material」的用法，與本句語境不同。",
-        "world-mcq-18": "「對社會和人情世故有豐富經驗、較老練的」是「worldly — experienced」的用法，與本句語境不同。",
-        "world-mcq-17": "「用來理解世界、社會和人生的一整套基本觀念」是「worldview」的用法，與本句語境不同。",
-        "world-mcq-16": "「質素或能力達到全球頂尖水平的」是「world-class」的用法，與本句語境不同。",
-        "world-mcq-15": "「在許多國家和地區都廣為人知的」是「world-famous」的用法，與本句語境不同。"
+        "world-mcq-20": "本句的「world」指「遠超一般水平、令人非常驚艷的」。",
+        "world-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "world-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "world-mcq-20"
     }
@@ -1689,5 +1525,7 @@ export default {
     "sha256": "58816a1205c2596b60ccc5f60d2976aef4d388dc10dd14cf96826abab8a06577",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

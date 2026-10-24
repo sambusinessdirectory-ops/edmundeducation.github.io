@@ -232,7 +232,7 @@ export default {
     },
     {
       "id": "save-mcq-11",
-      "title": "表示節省／儲蓄）",
+      "title": "節省／儲蓄）",
       "form": "saving = act of keeping money/resources（節省／儲蓄）",
       "en": "saving = act of keeping money/resources（節省／儲蓄）",
       "zh": "表示節省／儲蓄）",
@@ -284,11 +284,9 @@ export default {
       "masked": "The firefighter ____ the child from the burning building.",
       "options": [
         "save-mcq-01",
-        "save-mcq-02",
+        "save-mcq-06",
         "save-mcq-03",
-        "save-mcq-04",
-        "save-mcq-05",
-        "save-mcq-06"
+        "save-mcq-12"
       ],
       "explanation": "本句的「saved」指「阻止某人或某物受到傷害、死亡、毀壞或消失」。",
       "sentenceIndex": 0,
@@ -297,12 +295,10 @@ export default {
         "saved"
       ],
       "optionReasons": {
-        "save-mcq-01": "本句指「阻止某人或某物受到傷害、死亡、毀壞或消失」。",
-        "save-mcq-02": "「把某物保留、保存，以便日後使用」是「save — keep for later」的用法，與本句語境不同。",
-        "save-mcq-03": "「把錢留下來不立即花掉，以供未來使用；儲蓄」是「save — money」的用法，與本句語境不同。",
-        "save-mcq-04": "「減少原本需要花費或承受的時間、金錢、精力、麻煩等」是「save — time/money/effort」的用法，與本句語境不同。",
-        "save-mcq-05": "「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」是「save someone something」的用法，與本句語境不同。",
-        "save-mcq-06": "「把數碼資料儲存，以便日後再次使用」是「save — computing」的用法，與本句語境不同。"
+        "save-mcq-01": "本句的「saved」指「阻止某人或某物受到傷害、死亡、毀壞或消失」。",
+        "save-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-01"
     },
@@ -315,10 +311,8 @@ export default {
       "options": [
         "save-mcq-01",
         "save-mcq-02",
-        "save-mcq-03",
-        "save-mcq-04",
-        "save-mcq-05",
-        "save-mcq-06"
+        "save-mcq-11",
+        "save-mcq-08"
       ],
       "explanation": "本句的「saved」指「阻止某人或某物受到傷害、死亡、毀壞或消失」。",
       "sentenceIndex": 1,
@@ -327,12 +321,10 @@ export default {
         "saved"
       ],
       "optionReasons": {
-        "save-mcq-01": "本句指「阻止某人或某物受到傷害、死亡、毀壞或消失」。",
-        "save-mcq-02": "「把某物保留、保存，以便日後使用」是「save — keep for later」的用法，與本句語境不同。",
-        "save-mcq-03": "「把錢留下來不立即花掉，以供未來使用；儲蓄」是「save — money」的用法，與本句語境不同。",
-        "save-mcq-04": "「減少原本需要花費或承受的時間、金錢、精力、麻煩等」是「save — time/money/effort」的用法，與本句語境不同。",
-        "save-mcq-05": "「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」是「save someone something」的用法，與本句語境不同。",
-        "save-mcq-06": "「把數碼資料儲存，以便日後再次使用」是「save — computing」的用法，與本句語境不同。"
+        "save-mcq-01": "本句的「saved」指「阻止某人或某物受到傷害、死亡、毀壞或消失」。",
+        "save-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-01"
     },
@@ -344,11 +336,9 @@ export default {
       "masked": "I ____ some cake for you.",
       "options": [
         "save-mcq-02",
-        "save-mcq-01",
-        "save-mcq-03",
         "save-mcq-04",
-        "save-mcq-05",
-        "save-mcq-06"
+        "save-mcq-10",
+        "save-mcq-08"
       ],
       "explanation": "本句的「saved」指「把某物保留、保存，以便日後使用」。",
       "sentenceIndex": 2,
@@ -357,12 +347,10 @@ export default {
         "saved"
       ],
       "optionReasons": {
-        "save-mcq-02": "本句指「把某物保留、保存，以便日後使用」。",
-        "save-mcq-01": "「阻止某人或某物受到傷害、死亡、毀壞或消失」是「save — rescue/preserve」的用法，與本句語境不同。",
-        "save-mcq-03": "「把錢留下來不立即花掉，以供未來使用；儲蓄」是「save — money」的用法，與本句語境不同。",
-        "save-mcq-04": "「減少原本需要花費或承受的時間、金錢、精力、麻煩等」是「save — time/money/effort」的用法，與本句語境不同。",
-        "save-mcq-05": "「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」是「save someone something」的用法，與本句語境不同。",
-        "save-mcq-06": "「把數碼資料儲存，以便日後再次使用」是「save — computing」的用法，與本句語境不同。"
+        "save-mcq-02": "本句的「saved」指「把某物保留、保存，以便日後使用」。",
+        "save-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-02"
     },
@@ -374,11 +362,9 @@ export default {
       "masked": "She ____ the letter for many years.",
       "options": [
         "save-mcq-02",
-        "save-mcq-01",
-        "save-mcq-03",
+        "save-mcq-07",
         "save-mcq-04",
-        "save-mcq-05",
-        "save-mcq-06"
+        "save-mcq-11"
       ],
       "explanation": "本句的「saved」指「把某物保留、保存，以便日後使用」。",
       "sentenceIndex": 3,
@@ -387,12 +373,10 @@ export default {
         "saved"
       ],
       "optionReasons": {
-        "save-mcq-02": "本句指「把某物保留、保存，以便日後使用」。",
-        "save-mcq-01": "「阻止某人或某物受到傷害、死亡、毀壞或消失」是「save — rescue/preserve」的用法，與本句語境不同。",
-        "save-mcq-03": "「把錢留下來不立即花掉，以供未來使用；儲蓄」是「save — money」的用法，與本句語境不同。",
-        "save-mcq-04": "「減少原本需要花費或承受的時間、金錢、精力、麻煩等」是「save — time/money/effort」的用法，與本句語境不同。",
-        "save-mcq-05": "「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」是「save someone something」的用法，與本句語境不同。",
-        "save-mcq-06": "「把數碼資料儲存，以便日後再次使用」是「save — computing」的用法，與本句語境不同。"
+        "save-mcq-02": "本句的「saved」指「把某物保留、保存，以便日後使用」。",
+        "save-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-02"
     },
@@ -404,11 +388,9 @@ export default {
       "masked": "She is ____ for a new computer.",
       "options": [
         "save-mcq-03",
-        "save-mcq-02",
-        "save-mcq-04",
-        "save-mcq-01",
-        "save-mcq-05",
-        "save-mcq-06"
+        "save-mcq-08",
+        "save-mcq-10",
+        "save-mcq-12"
       ],
       "explanation": "本句的「saving」指「把錢留下來不立即花掉，以供未來使用；儲蓄」。",
       "sentenceIndex": 4,
@@ -417,12 +399,10 @@ export default {
         "saving"
       ],
       "optionReasons": {
-        "save-mcq-03": "本句指「把錢留下來不立即花掉，以供未來使用；儲蓄」。",
-        "save-mcq-02": "「把某物保留、保存，以便日後使用」是「save — keep for later」的用法，與本句語境不同。",
-        "save-mcq-04": "「減少原本需要花費或承受的時間、金錢、精力、麻煩等」是「save — time/money/effort」的用法，與本句語境不同。",
-        "save-mcq-01": "「阻止某人或某物受到傷害、死亡、毀壞或消失」是「save — rescue/preserve」的用法，與本句語境不同。",
-        "save-mcq-05": "「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」是「save someone something」的用法，與本句語境不同。",
-        "save-mcq-06": "「把數碼資料儲存，以便日後再次使用」是「save — computing」的用法，與本句語境不同。"
+        "save-mcq-03": "本句的「saving」指「把錢留下來不立即花掉，以供未來使用；儲蓄」。",
+        "save-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-03"
     },
@@ -434,11 +414,9 @@ export default {
       "masked": "He tries to ____ part of his salary every month.",
       "options": [
         "save-mcq-03",
-        "save-mcq-02",
-        "save-mcq-04",
         "save-mcq-01",
-        "save-mcq-05",
-        "save-mcq-06"
+        "save-mcq-08",
+        "save-mcq-12"
       ],
       "explanation": "本句的「save」指「把錢留下來不立即花掉，以供未來使用；儲蓄」。",
       "sentenceIndex": 5,
@@ -447,12 +425,10 @@ export default {
         "save"
       ],
       "optionReasons": {
-        "save-mcq-03": "本句指「把錢留下來不立即花掉，以供未來使用；儲蓄」。",
-        "save-mcq-02": "「把某物保留、保存，以便日後使用」是「save — keep for later」的用法，與本句語境不同。",
-        "save-mcq-04": "「減少原本需要花費或承受的時間、金錢、精力、麻煩等」是「save — time/money/effort」的用法，與本句語境不同。",
-        "save-mcq-01": "「阻止某人或某物受到傷害、死亡、毀壞或消失」是「save — rescue/preserve」的用法，與本句語境不同。",
-        "save-mcq-05": "「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」是「save someone something」的用法，與本句語境不同。",
-        "save-mcq-06": "「把數碼資料儲存，以便日後再次使用」是「save — computing」的用法，與本句語境不同。"
+        "save-mcq-03": "本句的「save」指「把錢留下來不立即花掉，以供未來使用；儲蓄」。",
+        "save-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-03"
     },
@@ -464,11 +440,9 @@ export default {
       "masked": "Taking the train will ____ time.",
       "options": [
         "save-mcq-04",
-        "save-mcq-03",
-        "save-mcq-05",
-        "save-mcq-02",
-        "save-mcq-06",
-        "save-mcq-01"
+        "save-mcq-10",
+        "save-mcq-08",
+        "save-mcq-02"
       ],
       "explanation": "本句的「save」指「減少原本需要花費或承受的時間、金錢、精力、麻煩等」。",
       "sentenceIndex": 6,
@@ -477,12 +451,10 @@ export default {
         "save"
       ],
       "optionReasons": {
-        "save-mcq-04": "本句指「減少原本需要花費或承受的時間、金錢、精力、麻煩等」。",
-        "save-mcq-03": "「把錢留下來不立即花掉，以供未來使用；儲蓄」是「save — money」的用法，與本句語境不同。",
-        "save-mcq-05": "「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」是「save someone something」的用法，與本句語境不同。",
-        "save-mcq-02": "「把某物保留、保存，以便日後使用」是「save — keep for later」的用法，與本句語境不同。",
-        "save-mcq-06": "「把數碼資料儲存，以便日後再次使用」是「save — computing」的用法，與本句語境不同。",
-        "save-mcq-01": "「阻止某人或某物受到傷害、死亡、毀壞或消失」是「save — rescue/preserve」的用法，與本句語境不同。"
+        "save-mcq-04": "本句的「save」指「減少原本需要花費或承受的時間、金錢、精力、麻煩等」。",
+        "save-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-04"
     },
@@ -494,11 +466,9 @@ export default {
       "masked": "Buying in bulk can ____ money.",
       "options": [
         "save-mcq-04",
-        "save-mcq-03",
-        "save-mcq-05",
-        "save-mcq-02",
         "save-mcq-06",
-        "save-mcq-01"
+        "save-mcq-07",
+        "save-mcq-11"
       ],
       "explanation": "本句的「save」指「減少原本需要花費或承受的時間、金錢、精力、麻煩等」。",
       "sentenceIndex": 7,
@@ -507,12 +477,10 @@ export default {
         "save"
       ],
       "optionReasons": {
-        "save-mcq-04": "本句指「減少原本需要花費或承受的時間、金錢、精力、麻煩等」。",
-        "save-mcq-03": "「把錢留下來不立即花掉，以供未來使用；儲蓄」是「save — money」的用法，與本句語境不同。",
-        "save-mcq-05": "「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」是「save someone something」的用法，與本句語境不同。",
-        "save-mcq-02": "「把某物保留、保存，以便日後使用」是「save — keep for later」的用法，與本句語境不同。",
-        "save-mcq-06": "「把數碼資料儲存，以便日後再次使用」是「save — computing」的用法，與本句語境不同。",
-        "save-mcq-01": "「阻止某人或某物受到傷害、死亡、毀壞或消失」是「save — rescue/preserve」的用法，與本句語境不同。"
+        "save-mcq-04": "本句的「save」指「減少原本需要花費或承受的時間、金錢、精力、麻煩等」。",
+        "save-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-04"
     },
@@ -524,9 +492,7 @@ export default {
       "masked": "That mindset has ____.",
       "options": [
         "save-mcq-05",
-        "save-mcq-04",
-        "save-mcq-06",
-        "save-mcq-03",
+        "save-mcq-08",
         "save-mcq-07",
         "save-mcq-02"
       ],
@@ -537,12 +503,10 @@ export default {
         "saved me a lot of stress"
       ],
       "optionReasons": {
-        "save-mcq-05": "本句指「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」。",
-        "save-mcq-04": "「減少原本需要花費或承受的時間、金錢、精力、麻煩等」是「save — time/money/effort」的用法，與本句語境不同。",
-        "save-mcq-06": "「把數碼資料儲存，以便日後再次使用」是「save — computing」的用法，與本句語境不同。",
-        "save-mcq-03": "「把錢留下來不立即花掉，以供未來使用；儲蓄」是「save — money」的用法，與本句語境不同。",
-        "save-mcq-07": "「阻止對方得分；撲救」是「save — sport」的用法，與本句語境不同。",
-        "save-mcq-02": "「把某物保留、保存，以便日後使用」是「save — keep for later」的用法，與本句語境不同。"
+        "save-mcq-05": "本句的「saved me a lot of stress」指「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」。",
+        "save-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-05"
     },
@@ -554,11 +518,9 @@ export default {
       "masked": "Planning ahead can ____.",
       "options": [
         "save-mcq-05",
-        "save-mcq-04",
-        "save-mcq-06",
-        "save-mcq-03",
-        "save-mcq-07",
-        "save-mcq-02"
+        "save-mcq-11",
+        "save-mcq-10",
+        "save-mcq-06"
       ],
       "explanation": "本句的「save you a lot of trouble」指「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」。",
       "sentenceIndex": 9,
@@ -567,12 +529,10 @@ export default {
         "save you a lot of trouble"
       ],
       "optionReasons": {
-        "save-mcq-05": "本句指「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」。",
-        "save-mcq-04": "「減少原本需要花費或承受的時間、金錢、精力、麻煩等」是「save — time/money/effort」的用法，與本句語境不同。",
-        "save-mcq-06": "「把數碼資料儲存，以便日後再次使用」是「save — computing」的用法，與本句語境不同。",
-        "save-mcq-03": "「把錢留下來不立即花掉，以供未來使用；儲蓄」是「save — money」的用法，與本句語境不同。",
-        "save-mcq-07": "「阻止對方得分；撲救」是「save — sport」的用法，與本句語境不同。",
-        "save-mcq-02": "「把某物保留、保存，以便日後使用」是「save — keep for later」的用法，與本句語境不同。"
+        "save-mcq-05": "本句的「save you a lot of trouble」指「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」。",
+        "save-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-05"
     },
@@ -584,11 +544,9 @@ export default {
       "masked": "This shortcut will ____.",
       "options": [
         "save-mcq-05",
-        "save-mcq-04",
-        "save-mcq-06",
-        "save-mcq-03",
-        "save-mcq-07",
-        "save-mcq-02"
+        "save-mcq-02",
+        "save-mcq-10",
+        "save-mcq-08"
       ],
       "explanation": "本句的「save us twenty minutes」指「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」。",
       "sentenceIndex": 10,
@@ -597,12 +555,10 @@ export default {
         "save us twenty minutes"
       ],
       "optionReasons": {
-        "save-mcq-05": "本句指「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」。",
-        "save-mcq-04": "「減少原本需要花費或承受的時間、金錢、精力、麻煩等」是「save — time/money/effort」的用法，與本句語境不同。",
-        "save-mcq-06": "「把數碼資料儲存，以便日後再次使用」是「save — computing」的用法，與本句語境不同。",
-        "save-mcq-03": "「把錢留下來不立即花掉，以供未來使用；儲蓄」是「save — money」的用法，與本句語境不同。",
-        "save-mcq-07": "「阻止對方得分；撲救」是「save — sport」的用法，與本句語境不同。",
-        "save-mcq-02": "「把某物保留、保存，以便日後使用」是「save — keep for later」的用法，與本句語境不同。"
+        "save-mcq-05": "本句的「save us twenty minutes」指「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」。",
+        "save-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-05"
     },
@@ -616,9 +572,7 @@ export default {
         "save-mcq-06",
         "save-mcq-05",
         "save-mcq-07",
-        "save-mcq-04",
-        "save-mcq-08",
-        "save-mcq-03"
+        "save-mcq-11"
       ],
       "explanation": "本句的「save」指「把數碼資料儲存，以便日後再次使用」。",
       "sentenceIndex": 11,
@@ -627,12 +581,10 @@ export default {
         "save"
       ],
       "optionReasons": {
-        "save-mcq-06": "本句指「把數碼資料儲存，以便日後再次使用」。",
-        "save-mcq-05": "「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」是「save someone something」的用法，與本句語境不同。",
-        "save-mcq-07": "「阻止對方得分；撲救」是「save — sport」的用法，與本句語境不同。",
-        "save-mcq-04": "「減少原本需要花費或承受的時間、金錢、精力、麻煩等」是「save — time/money/effort」的用法，與本句語境不同。",
-        "save-mcq-08": "「除了……之外；正式／較文學」是「save / save for — except」的用法，與本句語境不同。",
-        "save-mcq-03": "「把錢留下來不立即花掉，以供未來使用；儲蓄」是「save — money」的用法，與本句語境不同。"
+        "save-mcq-06": "本句的「save」指「把數碼資料儲存，以便日後再次使用」。",
+        "save-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-06"
     },
@@ -644,10 +596,8 @@ export default {
       "masked": "The file was automatically ____.",
       "options": [
         "save-mcq-06",
-        "save-mcq-05",
-        "save-mcq-07",
+        "save-mcq-10",
         "save-mcq-04",
-        "save-mcq-08",
         "save-mcq-03"
       ],
       "explanation": "本句的「saved」指「把數碼資料儲存，以便日後再次使用」。",
@@ -657,12 +607,10 @@ export default {
         "saved"
       ],
       "optionReasons": {
-        "save-mcq-06": "本句指「把數碼資料儲存，以便日後再次使用」。",
-        "save-mcq-05": "「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」是「save someone something」的用法，與本句語境不同。",
-        "save-mcq-07": "「阻止對方得分；撲救」是「save — sport」的用法，與本句語境不同。",
-        "save-mcq-04": "「減少原本需要花費或承受的時間、金錢、精力、麻煩等」是「save — time/money/effort」的用法，與本句語境不同。",
-        "save-mcq-08": "「除了……之外；正式／較文學」是「save / save for — except」的用法，與本句語境不同。",
-        "save-mcq-03": "「把錢留下來不立即花掉，以供未來使用；儲蓄」是「save — money」的用法，與本句語境不同。"
+        "save-mcq-06": "本句的「saved」指「把數碼資料儲存，以便日後再次使用」。",
+        "save-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-06"
     },
@@ -674,11 +622,9 @@ export default {
       "masked": "The goalkeeper made an excellent ____.",
       "options": [
         "save-mcq-07",
-        "save-mcq-06",
-        "save-mcq-08",
+        "save-mcq-03",
         "save-mcq-05",
-        "save-mcq-09",
-        "save-mcq-04"
+        "save-mcq-08"
       ],
       "explanation": "本句的「save」指「阻止對方得分；撲救」。",
       "sentenceIndex": 13,
@@ -687,12 +633,10 @@ export default {
         "save"
       ],
       "optionReasons": {
-        "save-mcq-07": "本句指「阻止對方得分；撲救」。",
-        "save-mcq-06": "「把數碼資料儲存，以便日後再次使用」是「save — computing」的用法，與本句語境不同。",
-        "save-mcq-08": "「除了……之外；正式／較文學」是「save / save for — except」的用法，與本句語境不同。",
-        "save-mcq-05": "「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」是「save someone something」的用法，與本句語境不同。",
-        "save-mcq-09": "「已儲起的金錢；亦可指節省下來的數量」是「savings」的用法，與本句語境不同。",
-        "save-mcq-04": "「減少原本需要花費或承受的時間、金錢、精力、麻煩等」是「save — time/money/effort」的用法，與本句語境不同。"
+        "save-mcq-07": "本句的「save」指「阻止對方得分；撲救」。",
+        "save-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-07"
     },
@@ -704,11 +648,9 @@ export default {
       "masked": "She ____ the penalty.",
       "options": [
         "save-mcq-07",
-        "save-mcq-06",
+        "save-mcq-02",
         "save-mcq-08",
-        "save-mcq-05",
-        "save-mcq-09",
-        "save-mcq-04"
+        "save-mcq-05"
       ],
       "explanation": "本句的「saved」指「阻止對方得分；撲救」。",
       "sentenceIndex": 14,
@@ -717,12 +659,10 @@ export default {
         "saved"
       ],
       "optionReasons": {
-        "save-mcq-07": "本句指「阻止對方得分；撲救」。",
-        "save-mcq-06": "「把數碼資料儲存，以便日後再次使用」是「save — computing」的用法，與本句語境不同。",
-        "save-mcq-08": "「除了……之外；正式／較文學」是「save / save for — except」的用法，與本句語境不同。",
-        "save-mcq-05": "「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」是「save someone something」的用法，與本句語境不同。",
-        "save-mcq-09": "「已儲起的金錢；亦可指節省下來的數量」是「savings」的用法，與本句語境不同。",
-        "save-mcq-04": "「減少原本需要花費或承受的時間、金錢、精力、麻煩等」是「save — time/money/effort」的用法，與本句語境不同。"
+        "save-mcq-07": "本句的「saved」指「阻止對方得分；撲救」。",
+        "save-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-07"
     },
@@ -734,11 +674,9 @@ export default {
       "masked": "The campaign aims to ____ the forest.",
       "options": [
         "save-mcq-10",
-        "save-mcq-09",
-        "save-mcq-11",
-        "save-mcq-08",
+        "save-mcq-03",
         "save-mcq-12",
-        "save-mcq-07"
+        "save-mcq-08"
       ],
       "explanation": "本句的「save」指「阻止某物消失、被破壞或被取消」。",
       "sentenceIndex": 15,
@@ -747,12 +685,10 @@ export default {
         "save"
       ],
       "optionReasons": {
-        "save-mcq-10": "本句指「阻止某物消失、被破壞或被取消」。",
-        "save-mcq-09": "「已儲起的金錢；亦可指節省下來的數量」是「savings」的用法，與本句語境不同。",
-        "save-mcq-11": "「表示節省／儲蓄）」是「saving = act of keeping money/resources（節省／儲蓄）」的用法，與本句語境不同。",
-        "save-mcq-08": "「除了……之外；正式／較文學」是「save / save for — except」的用法，與本句語境不同。",
-        "save-mcq-12": "「節省金錢的人，或能節省時間／資源的事物」是「Related form: saver」的用法，與本句語境不同。",
-        "save-mcq-07": "「阻止對方得分；撲救」是「save — sport」的用法，與本句語境不同。"
+        "save-mcq-10": "本句的「save」指「阻止某物消失、被破壞或被取消」。",
+        "save-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-10"
     },
@@ -764,11 +700,9 @@ export default {
       "masked": "Local residents are trying to ____ the old theatre.",
       "options": [
         "save-mcq-10",
-        "save-mcq-09",
         "save-mcq-11",
-        "save-mcq-08",
-        "save-mcq-12",
-        "save-mcq-07"
+        "save-mcq-04",
+        "save-mcq-06"
       ],
       "explanation": "本句的「save」指「阻止某物消失、被破壞或被取消」。",
       "sentenceIndex": 16,
@@ -777,12 +711,10 @@ export default {
         "save"
       ],
       "optionReasons": {
-        "save-mcq-10": "本句指「阻止某物消失、被破壞或被取消」。",
-        "save-mcq-09": "「已儲起的金錢；亦可指節省下來的數量」是「savings」的用法，與本句語境不同。",
-        "save-mcq-11": "「表示節省／儲蓄）」是「saving = act of keeping money/resources（節省／儲蓄）」的用法，與本句語境不同。",
-        "save-mcq-08": "「除了……之外；正式／較文學」是「save / save for — except」的用法，與本句語境不同。",
-        "save-mcq-12": "「節省金錢的人，或能節省時間／資源的事物」是「Related form: saver」的用法，與本句語境不同。",
-        "save-mcq-07": "「阻止對方得分；撲救」是「save — sport」的用法，與本句語境不同。"
+        "save-mcq-10": "本句的「save」指「阻止某物消失、被破壞或被取消」。",
+        "save-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-10"
     },
@@ -794,11 +726,9 @@ export default {
       "masked": "Everyone agreed, ____ one person.",
       "options": [
         "save-mcq-08",
-        "save-mcq-07",
-        "save-mcq-09",
-        "save-mcq-06",
-        "save-mcq-10",
-        "save-mcq-05"
+        "save-mcq-11",
+        "save-mcq-05",
+        "save-mcq-10"
       ],
       "explanation": "本句的「save」指「除了……之外；正式／較文學」。",
       "sentenceIndex": 17,
@@ -807,12 +737,10 @@ export default {
         "save"
       ],
       "optionReasons": {
-        "save-mcq-08": "本句指「除了……之外；正式／較文學」。",
-        "save-mcq-07": "「阻止對方得分；撲救」是「save — sport」的用法，與本句語境不同。",
-        "save-mcq-09": "「已儲起的金錢；亦可指節省下來的數量」是「savings」的用法，與本句語境不同。",
-        "save-mcq-06": "「把數碼資料儲存，以便日後再次使用」是「save — computing」的用法，與本句語境不同。",
-        "save-mcq-10": "「阻止某物消失、被破壞或被取消」是「8. save = preserve something from disappearing/destruction（保護） — 保住；保存」的用法，與本句語境不同。",
-        "save-mcq-05": "「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」是「save someone something」的用法，與本句語境不同。"
+        "save-mcq-08": "本句的「save」指「除了……之外；正式／較文學」。",
+        "save-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-08"
     },
@@ -824,11 +752,9 @@ export default {
       "masked": "The room was empty ____ a chair.",
       "options": [
         "save-mcq-08",
-        "save-mcq-07",
-        "save-mcq-09",
-        "save-mcq-06",
         "save-mcq-10",
-        "save-mcq-05"
+        "save-mcq-04",
+        "save-mcq-11"
       ],
       "explanation": "本句的「save for」指「除了……之外；正式／較文學」。",
       "sentenceIndex": 18,
@@ -837,12 +763,10 @@ export default {
         "save for"
       ],
       "optionReasons": {
-        "save-mcq-08": "本句指「除了……之外；正式／較文學」。",
-        "save-mcq-07": "「阻止對方得分；撲救」是「save — sport」的用法，與本句語境不同。",
-        "save-mcq-09": "「已儲起的金錢；亦可指節省下來的數量」是「savings」的用法，與本句語境不同。",
-        "save-mcq-06": "「把數碼資料儲存，以便日後再次使用」是「save — computing」的用法，與本句語境不同。",
-        "save-mcq-10": "「阻止某物消失、被破壞或被取消」是「8. save = preserve something from disappearing/destruction（保護） — 保住；保存」的用法，與本句語境不同。",
-        "save-mcq-05": "「使某人免於花費或承受某些時間、金錢、麻煩、壓力等」是「save someone something」的用法，與本句語境不同。"
+        "save-mcq-08": "本句的「save for」指「除了……之外；正式／較文學」。",
+        "save-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-08"
     },
@@ -854,11 +778,9 @@ export default {
       "masked": "Energy ____ is important.",
       "options": [
         "save-mcq-11",
-        "save-mcq-10",
-        "save-mcq-12",
-        "save-mcq-09",
         "save-mcq-08",
-        "save-mcq-07"
+        "save-mcq-01",
+        "save-mcq-02"
       ],
       "explanation": "本句的「saving」指「表示節省／儲蓄）」。",
       "sentenceIndex": 19,
@@ -867,12 +789,10 @@ export default {
         "saving"
       ],
       "optionReasons": {
-        "save-mcq-11": "本句指「表示節省／儲蓄）」。",
-        "save-mcq-10": "「阻止某物消失、被破壞或被取消」是「8. save = preserve something from disappearing/destruction（保護） — 保住；保存」的用法，與本句語境不同。",
-        "save-mcq-12": "「節省金錢的人，或能節省時間／資源的事物」是「Related form: saver」的用法，與本句語境不同。",
-        "save-mcq-09": "「已儲起的金錢；亦可指節省下來的數量」是「savings」的用法，與本句語境不同。",
-        "save-mcq-08": "「除了……之外；正式／較文學」是「save / save for — except」的用法，與本句語境不同。",
-        "save-mcq-07": "「阻止對方得分；撲救」是「save — sport」的用法，與本句語境不同。"
+        "save-mcq-11": "本句的「saving」指「表示節省／儲蓄）」。",
+        "save-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-11"
     },
@@ -884,10 +804,8 @@ export default {
       "masked": "Regular ____ helps build financial security.",
       "options": [
         "save-mcq-11",
-        "save-mcq-10",
-        "save-mcq-12",
-        "save-mcq-09",
         "save-mcq-08",
+        "save-mcq-05",
         "save-mcq-07"
       ],
       "explanation": "本句的「saving」指「表示節省／儲蓄）」。",
@@ -897,12 +815,10 @@ export default {
         "saving"
       ],
       "optionReasons": {
-        "save-mcq-11": "本句指「表示節省／儲蓄）」。",
-        "save-mcq-10": "「阻止某物消失、被破壞或被取消」是「8. save = preserve something from disappearing/destruction（保護） — 保住；保存」的用法，與本句語境不同。",
-        "save-mcq-12": "「節省金錢的人，或能節省時間／資源的事物」是「Related form: saver」的用法，與本句語境不同。",
-        "save-mcq-09": "「已儲起的金錢；亦可指節省下來的數量」是「savings」的用法，與本句語境不同。",
-        "save-mcq-08": "「除了……之外；正式／較文學」是「save / save for — except」的用法，與本句語境不同。",
-        "save-mcq-07": "「阻止對方得分；撲救」是「save — sport」的用法，與本句語境不同。"
+        "save-mcq-11": "本句的「saving」指「表示節省／儲蓄）」。",
+        "save-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-11"
     },
@@ -914,11 +830,9 @@ export default {
       "masked": "She used her ____ to pay for the course.",
       "options": [
         "save-mcq-09",
+        "save-mcq-01",
         "save-mcq-08",
-        "save-mcq-10",
-        "save-mcq-07",
-        "save-mcq-11",
-        "save-mcq-06"
+        "save-mcq-02"
       ],
       "explanation": "本句的「savings」指「已儲起的金錢；亦可指節省下來的數量」。",
       "sentenceIndex": 21,
@@ -927,12 +841,10 @@ export default {
         "savings"
       ],
       "optionReasons": {
-        "save-mcq-09": "本句指「已儲起的金錢；亦可指節省下來的數量」。",
-        "save-mcq-08": "「除了……之外；正式／較文學」是「save / save for — except」的用法，與本句語境不同。",
-        "save-mcq-10": "「阻止某物消失、被破壞或被取消」是「8. save = preserve something from disappearing/destruction（保護） — 保住；保存」的用法，與本句語境不同。",
-        "save-mcq-07": "「阻止對方得分；撲救」是「save — sport」的用法，與本句語境不同。",
-        "save-mcq-11": "「表示節省／儲蓄）」是「saving = act of keeping money/resources（節省／儲蓄）」的用法，與本句語境不同。",
-        "save-mcq-06": "「把數碼資料儲存，以便日後再次使用」是「save — computing」的用法，與本句語境不同。"
+        "save-mcq-09": "本句的「savings」指「已儲起的金錢；亦可指節省下來的數量」。",
+        "save-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-09"
     },
@@ -944,11 +856,9 @@ export default {
       "masked": "They have very little in ____.",
       "options": [
         "save-mcq-09",
-        "save-mcq-08",
         "save-mcq-10",
-        "save-mcq-07",
-        "save-mcq-11",
-        "save-mcq-06"
+        "save-mcq-02",
+        "save-mcq-08"
       ],
       "explanation": "本句的「savings」指「已儲起的金錢；亦可指節省下來的數量」。",
       "sentenceIndex": 22,
@@ -957,12 +867,10 @@ export default {
         "savings"
       ],
       "optionReasons": {
-        "save-mcq-09": "本句指「已儲起的金錢；亦可指節省下來的數量」。",
-        "save-mcq-08": "「除了……之外；正式／較文學」是「save / save for — except」的用法，與本句語境不同。",
-        "save-mcq-10": "「阻止某物消失、被破壞或被取消」是「8. save = preserve something from disappearing/destruction（保護） — 保住；保存」的用法，與本句語境不同。",
-        "save-mcq-07": "「阻止對方得分；撲救」是「save — sport」的用法，與本句語境不同。",
-        "save-mcq-11": "「表示節省／儲蓄）」是「saving = act of keeping money/resources（節省／儲蓄）」的用法，與本句語境不同。",
-        "save-mcq-06": "「把數碼資料儲存，以便日後再次使用」是「save — computing」的用法，與本句語境不同。"
+        "save-mcq-09": "本句的「savings」指「已儲起的金錢；亦可指節省下來的數量」。",
+        "save-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-09"
     },
@@ -974,11 +882,9 @@ export default {
       "masked": "She is a careful ____.",
       "options": [
         "save-mcq-12",
-        "save-mcq-11",
+        "save-mcq-02",
         "save-mcq-10",
-        "save-mcq-09",
-        "save-mcq-08",
-        "save-mcq-07"
+        "save-mcq-08"
       ],
       "explanation": "本句的「saver」指「節省金錢的人，或能節省時間／資源的事物」。",
       "sentenceIndex": 23,
@@ -987,12 +893,10 @@ export default {
         "saver"
       ],
       "optionReasons": {
-        "save-mcq-12": "本句指「節省金錢的人，或能節省時間／資源的事物」。",
-        "save-mcq-11": "「表示節省／儲蓄）」是「saving = act of keeping money/resources（節省／儲蓄）」的用法，與本句語境不同。",
-        "save-mcq-10": "「阻止某物消失、被破壞或被取消」是「8. save = preserve something from disappearing/destruction（保護） — 保住；保存」的用法，與本句語境不同。",
-        "save-mcq-09": "「已儲起的金錢；亦可指節省下來的數量」是「savings」的用法，與本句語境不同。",
-        "save-mcq-08": "「除了……之外；正式／較文學」是「save / save for — except」的用法，與本句語境不同。",
-        "save-mcq-07": "「阻止對方得分；撲救」是「save — sport」的用法，與本句語境不同。"
+        "save-mcq-12": "本句的「saver」指「節省金錢的人，或能節省時間／資源的事物」。",
+        "save-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-12"
     },
@@ -1004,11 +908,9 @@ export default {
       "masked": "This device is a real time-____.",
       "options": [
         "save-mcq-12",
-        "save-mcq-11",
-        "save-mcq-10",
-        "save-mcq-09",
-        "save-mcq-08",
-        "save-mcq-07"
+        "save-mcq-01",
+        "save-mcq-02",
+        "save-mcq-08"
       ],
       "explanation": "本句的「saver」指「節省金錢的人，或能節省時間／資源的事物」。",
       "sentenceIndex": 24,
@@ -1017,12 +919,10 @@ export default {
         "saver"
       ],
       "optionReasons": {
-        "save-mcq-12": "本句指「節省金錢的人，或能節省時間／資源的事物」。",
-        "save-mcq-11": "「表示節省／儲蓄）」是「saving = act of keeping money/resources（節省／儲蓄）」的用法，與本句語境不同。",
-        "save-mcq-10": "「阻止某物消失、被破壞或被取消」是「8. save = preserve something from disappearing/destruction（保護） — 保住；保存」的用法，與本句語境不同。",
-        "save-mcq-09": "「已儲起的金錢；亦可指節省下來的數量」是「savings」的用法，與本句語境不同。",
-        "save-mcq-08": "「除了……之外；正式／較文學」是「save / save for — except」的用法，與本句語境不同。",
-        "save-mcq-07": "「阻止對方得分；撲救」是「save — sport」的用法，與本句語境不同。"
+        "save-mcq-12": "本句的「saver」指「節省金錢的人，或能節省時間／資源的事物」。",
+        "save-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "save-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "save-mcq-12"
     }
@@ -1034,5 +934,7 @@ export default {
     "sha256": "31941d6ad9cbd1d6354be3403ae20f89413f08e5ab7250eb60072aef31bc0eca",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

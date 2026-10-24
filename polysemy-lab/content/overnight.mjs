@@ -228,11 +228,8 @@ export default {
       "masked": "It rained heavily ____.",
       "options": [
         "overnight-mcq-01",
-        "overnight-mcq-02",
-        "overnight-mcq-03",
-        "overnight-mcq-04",
-        "overnight-mcq-05",
-        "overnight-mcq-06"
+        "overnight-mcq-07",
+        "overnight-mcq-08"
       ],
       "explanation": "本句的「overnight」指「在某一個夜晚的時間內發生」。",
       "sentenceIndex": 0,
@@ -241,12 +238,9 @@ export default {
         "overnight"
       ],
       "optionReasons": {
-        "overnight-mcq-01": "本句指「在某一個夜晚的時間內發生」。",
-        "overnight-mcq-02": "「某事情持續整晚直到第二天早上；過夜」與本句語境不同。",
-        "overnight-mcq-03": "「在極短時間內突然形成、完成或改變；一夜之間」與本句語境不同。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-06": "「表面上看似在極短時間內突然獲得成功／名聲」與本句語境不同。"
+        "overnight-mcq-01": "本句的「overnight」指「在某一個夜晚的時間內發生」。",
+        "overnight-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overnight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-01"
     },
@@ -258,11 +252,8 @@ export default {
       "masked": "The temperature dropped sharply ____.",
       "options": [
         "overnight-mcq-01",
-        "overnight-mcq-02",
-        "overnight-mcq-03",
-        "overnight-mcq-04",
-        "overnight-mcq-05",
-        "overnight-mcq-06"
+        "overnight-mcq-08",
+        "overnight-mcq-07"
       ],
       "explanation": "本句的「overnight」指「在某一個夜晚的時間內發生」。",
       "sentenceIndex": 1,
@@ -271,12 +262,9 @@ export default {
         "overnight"
       ],
       "optionReasons": {
-        "overnight-mcq-01": "本句指「在某一個夜晚的時間內發生」。",
-        "overnight-mcq-02": "「某事情持續整晚直到第二天早上；過夜」與本句語境不同。",
-        "overnight-mcq-03": "「在極短時間內突然形成、完成或改變；一夜之間」與本句語境不同。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-06": "「表面上看似在極短時間內突然獲得成功／名聲」與本句語境不同。"
+        "overnight-mcq-01": "本句的「overnight」指「在某一個夜晚的時間內發生」。",
+        "overnight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "overnight-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-01"
     },
@@ -288,11 +276,8 @@ export default {
       "masked": "We stayed ____ at a small hotel.",
       "options": [
         "overnight-mcq-02",
-        "overnight-mcq-01",
-        "overnight-mcq-03",
-        "overnight-mcq-04",
-        "overnight-mcq-05",
-        "overnight-mcq-06"
+        "overnight-mcq-08",
+        "overnight-mcq-07"
       ],
       "explanation": "本句的「overnight」指「某事情持續整晚直到第二天早上；過夜」。",
       "sentenceIndex": 2,
@@ -301,12 +286,9 @@ export default {
         "overnight"
       ],
       "optionReasons": {
-        "overnight-mcq-02": "本句指「某事情持續整晚直到第二天早上；過夜」。",
-        "overnight-mcq-01": "「在某一個夜晚的時間內發生」與本句語境不同。",
-        "overnight-mcq-03": "「在極短時間內突然形成、完成或改變；一夜之間」與本句語境不同。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-06": "「表面上看似在極短時間內突然獲得成功／名聲」與本句語境不同。"
+        "overnight-mcq-02": "本句的「overnight」指「某事情持續整晚直到第二天早上；過夜」。",
+        "overnight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "overnight-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-02"
     },
@@ -318,11 +300,8 @@ export default {
       "masked": "Leave the seeds in water ____.",
       "options": [
         "overnight-mcq-02",
-        "overnight-mcq-01",
-        "overnight-mcq-03",
-        "overnight-mcq-04",
-        "overnight-mcq-05",
-        "overnight-mcq-06"
+        "overnight-mcq-07",
+        "overnight-mcq-08"
       ],
       "explanation": "本句的「overnight」指「某事情持續整晚直到第二天早上；過夜」。",
       "sentenceIndex": 3,
@@ -331,12 +310,9 @@ export default {
         "overnight"
       ],
       "optionReasons": {
-        "overnight-mcq-02": "本句指「某事情持續整晚直到第二天早上；過夜」。",
-        "overnight-mcq-01": "「在某一個夜晚的時間內發生」與本句語境不同。",
-        "overnight-mcq-03": "「在極短時間內突然形成、完成或改變；一夜之間」與本句語境不同。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-06": "「表面上看似在極短時間內突然獲得成功／名聲」與本句語境不同。"
+        "overnight-mcq-02": "本句的「overnight」指「某事情持續整晚直到第二天早上；過夜」。",
+        "overnight-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overnight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-02"
     },
@@ -348,11 +324,7 @@ export default {
       "masked": "Her love of growing things did not appear ____.",
       "options": [
         "overnight-mcq-03",
-        "overnight-mcq-02",
-        "overnight-mcq-04",
-        "overnight-mcq-01",
-        "overnight-mcq-05",
-        "overnight-mcq-06"
+        "overnight-mcq-08"
       ],
       "explanation": "本句的「overnight」指「在極短時間內突然形成、完成或改變；一夜之間」。",
       "sentenceIndex": 4,
@@ -361,12 +333,8 @@ export default {
         "overnight"
       ],
       "optionReasons": {
-        "overnight-mcq-03": "本句指「在極短時間內突然形成、完成或改變；一夜之間」。",
-        "overnight-mcq-02": "「某事情持續整晚直到第二天早上；過夜」與本句語境不同。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。",
-        "overnight-mcq-01": "「在某一個夜晚的時間內發生」與本句語境不同。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-06": "「表面上看似在極短時間內突然獲得成功／名聲」與本句語境不同。"
+        "overnight-mcq-03": "本句的「overnight」指「在極短時間內突然形成、完成或改變；一夜之間」。",
+        "overnight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-03"
     },
@@ -378,11 +346,7 @@ export default {
       "masked": "You cannot become an expert ____.",
       "options": [
         "overnight-mcq-03",
-        "overnight-mcq-02",
-        "overnight-mcq-04",
-        "overnight-mcq-01",
-        "overnight-mcq-05",
-        "overnight-mcq-06"
+        "overnight-mcq-09"
       ],
       "explanation": "本句的「overnight」指「在極短時間內突然形成、完成或改變；一夜之間」。",
       "sentenceIndex": 5,
@@ -391,12 +355,8 @@ export default {
         "overnight"
       ],
       "optionReasons": {
-        "overnight-mcq-03": "本句指「在極短時間內突然形成、完成或改變；一夜之間」。",
-        "overnight-mcq-02": "「某事情持續整晚直到第二天早上；過夜」與本句語境不同。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。",
-        "overnight-mcq-01": "「在某一個夜晚的時間內發生」與本句語境不同。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-06": "「表面上看似在極短時間內突然獲得成功／名聲」與本句語境不同。"
+        "overnight-mcq-03": "本句的「overnight」指「在極短時間內突然形成、完成或改變；一夜之間」。",
+        "overnight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-03"
     },
@@ -408,11 +368,7 @@ export default {
       "masked": "The business did not become successful ____.",
       "options": [
         "overnight-mcq-03",
-        "overnight-mcq-02",
-        "overnight-mcq-04",
-        "overnight-mcq-01",
-        "overnight-mcq-05",
-        "overnight-mcq-06"
+        "overnight-mcq-08"
       ],
       "explanation": "本句的「overnight」指「在極短時間內突然形成、完成或改變；一夜之間」。",
       "sentenceIndex": 6,
@@ -421,12 +377,8 @@ export default {
         "overnight"
       ],
       "optionReasons": {
-        "overnight-mcq-03": "本句指「在極短時間內突然形成、完成或改變；一夜之間」。",
-        "overnight-mcq-02": "「某事情持續整晚直到第二天早上；過夜」與本句語境不同。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。",
-        "overnight-mcq-01": "「在某一個夜晚的時間內發生」與本句語境不同。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-06": "「表面上看似在極短時間內突然獲得成功／名聲」與本句語境不同。"
+        "overnight-mcq-03": "本句的「overnight」指「在極短時間內突然形成、完成或改變；一夜之間」。",
+        "overnight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-03"
     },
@@ -438,11 +390,8 @@ export default {
       "masked": "The plants suffered damage from an ____.",
       "options": [
         "overnight-mcq-04",
-        "overnight-mcq-03",
-        "overnight-mcq-05",
-        "overnight-mcq-02",
         "overnight-mcq-06",
-        "overnight-mcq-01"
+        "overnight-mcq-07"
       ],
       "explanation": "本句的「overnight frost」指「在夜間發生、持續一晚或涉及留宿的」。",
       "sentenceIndex": 7,
@@ -451,12 +400,9 @@ export default {
         "overnight frost"
       ],
       "optionReasons": {
-        "overnight-mcq-04": "本句指「在夜間發生、持續一晚或涉及留宿的」。",
-        "overnight-mcq-03": "「在極短時間內突然形成、完成或改變；一夜之間」與本句語境不同。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-02": "「某事情持續整晚直到第二天早上；過夜」與本句語境不同。",
-        "overnight-mcq-06": "「表面上看似在極短時間內突然獲得成功／名聲」與本句語境不同。",
-        "overnight-mcq-01": "「在某一個夜晚的時間內發生」與本句語境不同。"
+        "overnight-mcq-04": "本句的「overnight frost」指「在夜間發生、持續一晚或涉及留宿的」。",
+        "overnight-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "overnight-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-04"
     },
@@ -468,11 +414,8 @@ export default {
       "masked": "We booked an ____.",
       "options": [
         "overnight-mcq-04",
-        "overnight-mcq-03",
-        "overnight-mcq-05",
-        "overnight-mcq-02",
-        "overnight-mcq-06",
-        "overnight-mcq-01"
+        "overnight-mcq-07",
+        "overnight-mcq-06"
       ],
       "explanation": "本句的「overnight stay」指「在夜間發生、持續一晚或涉及留宿的」。",
       "sentenceIndex": 8,
@@ -481,12 +424,9 @@ export default {
         "overnight stay"
       ],
       "optionReasons": {
-        "overnight-mcq-04": "本句指「在夜間發生、持續一晚或涉及留宿的」。",
-        "overnight-mcq-03": "「在極短時間內突然形成、完成或改變；一夜之間」與本句語境不同。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-02": "「某事情持續整晚直到第二天早上；過夜」與本句語境不同。",
-        "overnight-mcq-06": "「表面上看似在極短時間內突然獲得成功／名聲」與本句語境不同。",
-        "overnight-mcq-01": "「在某一個夜晚的時間內發生」與本句語境不同。"
+        "overnight-mcq-04": "本句的「overnight stay」指「在夜間發生、持續一晚或涉及留宿的」。",
+        "overnight-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overnight-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-04"
     },
@@ -498,11 +438,7 @@ export default {
       "masked": "We took an ____.",
       "options": [
         "overnight-mcq-05",
-        "overnight-mcq-04",
-        "overnight-mcq-06",
-        "overnight-mcq-03",
-        "overnight-mcq-07",
-        "overnight-mcq-02"
+        "overnight-mcq-06"
       ],
       "explanation": "本句的「overnight train」指「在夜間行駛並通常跨越一晚的交通服務」。",
       "sentenceIndex": 9,
@@ -511,12 +447,8 @@ export default {
         "overnight train"
       ],
       "optionReasons": {
-        "overnight-mcq-05": "本句指「在夜間行駛並通常跨越一晚的交通服務」。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。",
-        "overnight-mcq-06": "「表面上看似在極短時間內突然獲得成功／名聲」與本句語境不同。",
-        "overnight-mcq-03": "「在極短時間內突然形成、完成或改變；一夜之間」與本句語境不同。",
-        "overnight-mcq-07": "「貨物在下一日／一夜之後快速送達的配送服務」與本句語境不同。",
-        "overnight-mcq-02": "「某事情持續整晚直到第二天早上；過夜」與本句語境不同。"
+        "overnight-mcq-05": "本句的「overnight train」指「在夜間行駛並通常跨越一晚的交通服務」。",
+        "overnight-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-05"
     },
@@ -528,11 +460,7 @@ export default {
       "masked": "She booked an ____ flight to London.",
       "options": [
         "overnight-mcq-05",
-        "overnight-mcq-04",
-        "overnight-mcq-06",
-        "overnight-mcq-03",
-        "overnight-mcq-07",
-        "overnight-mcq-02"
+        "overnight-mcq-06"
       ],
       "explanation": "本句的「overnight」指「在夜間行駛並通常跨越一晚的交通服務」。",
       "sentenceIndex": 10,
@@ -541,12 +469,8 @@ export default {
         "overnight"
       ],
       "optionReasons": {
-        "overnight-mcq-05": "本句指「在夜間行駛並通常跨越一晚的交通服務」。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。",
-        "overnight-mcq-06": "「表面上看似在極短時間內突然獲得成功／名聲」與本句語境不同。",
-        "overnight-mcq-03": "「在極短時間內突然形成、完成或改變；一夜之間」與本句語境不同。",
-        "overnight-mcq-07": "「貨物在下一日／一夜之後快速送達的配送服務」與本句語境不同。",
-        "overnight-mcq-02": "「某事情持續整晚直到第二天早上；過夜」與本句語境不同。"
+        "overnight-mcq-05": "本句的「overnight」指「在夜間行駛並通常跨越一晚的交通服務」。",
+        "overnight-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-05"
     },
@@ -558,11 +482,8 @@ export default {
       "masked": "The singer became famous ____.",
       "options": [
         "overnight-mcq-06",
-        "overnight-mcq-05",
-        "overnight-mcq-07",
-        "overnight-mcq-04",
-        "overnight-mcq-08",
-        "overnight-mcq-03"
+        "overnight-mcq-09",
+        "overnight-mcq-07"
       ],
       "explanation": "本句的「overnight」指「表面上看似在極短時間內突然獲得成功／名聲」。",
       "sentenceIndex": 11,
@@ -571,12 +492,9 @@ export default {
         "overnight"
       ],
       "optionReasons": {
-        "overnight-mcq-06": "本句指「表面上看似在極短時間內突然獲得成功／名聲」。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-07": "「貨物在下一日／一夜之後快速送達的配送服務」與本句語境不同。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。",
-        "overnight-mcq-08": "「裝一晚住宿所需基本物品的小型旅行袋」與本句語境不同。",
-        "overnight-mcq-03": "「在極短時間內突然形成、完成或改變；一夜之間」與本句語境不同。"
+        "overnight-mcq-06": "本句的「overnight」指「表面上看似在極短時間內突然獲得成功／名聲」。",
+        "overnight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "overnight-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-06"
     },
@@ -588,11 +506,8 @@ export default {
       "masked": "The product seemed to become a success ____.",
       "options": [
         "overnight-mcq-06",
-        "overnight-mcq-05",
-        "overnight-mcq-07",
-        "overnight-mcq-04",
         "overnight-mcq-08",
-        "overnight-mcq-03"
+        "overnight-mcq-07"
       ],
       "explanation": "本句的「overnight」指「表面上看似在極短時間內突然獲得成功／名聲」。",
       "sentenceIndex": 12,
@@ -601,12 +516,9 @@ export default {
         "overnight"
       ],
       "optionReasons": {
-        "overnight-mcq-06": "本句指「表面上看似在極短時間內突然獲得成功／名聲」。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-07": "「貨物在下一日／一夜之後快速送達的配送服務」與本句語境不同。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。",
-        "overnight-mcq-08": "「裝一晚住宿所需基本物品的小型旅行袋」與本句語境不同。",
-        "overnight-mcq-03": "「在極短時間內突然形成、完成或改變；一夜之間」與本句語境不同。"
+        "overnight-mcq-06": "本句的「overnight」指「表面上看似在極短時間內突然獲得成功／名聲」。",
+        "overnight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "overnight-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-06"
     },
@@ -618,11 +530,8 @@ export default {
       "masked": "The actor was described as an ____.",
       "options": [
         "overnight-mcq-06",
-        "overnight-mcq-05",
-        "overnight-mcq-07",
-        "overnight-mcq-04",
-        "overnight-mcq-08",
-        "overnight-mcq-03"
+        "overnight-mcq-09",
+        "overnight-mcq-07"
       ],
       "explanation": "本句的「overnight success」指「表面上看似在極短時間內突然獲得成功／名聲」。",
       "sentenceIndex": 13,
@@ -631,12 +540,9 @@ export default {
         "overnight success"
       ],
       "optionReasons": {
-        "overnight-mcq-06": "本句指「表面上看似在極短時間內突然獲得成功／名聲」。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-07": "「貨物在下一日／一夜之後快速送達的配送服務」與本句語境不同。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。",
-        "overnight-mcq-08": "「裝一晚住宿所需基本物品的小型旅行袋」與本句語境不同。",
-        "overnight-mcq-03": "「在極短時間內突然形成、完成或改變；一夜之間」與本句語境不同。"
+        "overnight-mcq-06": "本句的「overnight success」指「表面上看似在極短時間內突然獲得成功／名聲」。",
+        "overnight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "overnight-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-06"
     },
@@ -648,11 +554,8 @@ export default {
       "masked": "The app looked like an ____ success, but the team had worked on it for years.",
       "options": [
         "overnight-mcq-06",
-        "overnight-mcq-05",
         "overnight-mcq-07",
-        "overnight-mcq-04",
-        "overnight-mcq-08",
-        "overnight-mcq-03"
+        "overnight-mcq-08"
       ],
       "explanation": "本句的「overnight」指「表面上看似在極短時間內突然獲得成功／名聲」。",
       "sentenceIndex": 14,
@@ -661,12 +564,9 @@ export default {
         "overnight"
       ],
       "optionReasons": {
-        "overnight-mcq-06": "本句指「表面上看似在極短時間內突然獲得成功／名聲」。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-07": "「貨物在下一日／一夜之後快速送達的配送服務」與本句語境不同。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。",
-        "overnight-mcq-08": "「裝一晚住宿所需基本物品的小型旅行袋」與本句語境不同。",
-        "overnight-mcq-03": "「在極短時間內突然形成、完成或改變；一夜之間」與本句語境不同。"
+        "overnight-mcq-06": "本句的「overnight」指「表面上看似在極短時間內突然獲得成功／名聲」。",
+        "overnight-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overnight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-06"
     },
@@ -678,11 +578,8 @@ export default {
       "masked": "The company offers ____.",
       "options": [
         "overnight-mcq-07",
-        "overnight-mcq-06",
         "overnight-mcq-08",
-        "overnight-mcq-05",
-        "overnight-mcq-09",
-        "overnight-mcq-04"
+        "overnight-mcq-06"
       ],
       "explanation": "本句的「overnight delivery」指「貨物在下一日／一夜之後快速送達的配送服務」。",
       "sentenceIndex": 15,
@@ -691,12 +588,9 @@ export default {
         "overnight delivery"
       ],
       "optionReasons": {
-        "overnight-mcq-07": "本句指「貨物在下一日／一夜之後快速送達的配送服務」。",
-        "overnight-mcq-06": "「表面上看似在極短時間內突然獲得成功／名聲」與本句語境不同。",
-        "overnight-mcq-08": "「裝一晚住宿所需基本物品的小型旅行袋」與本句語境不同。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-09": "「在某個地方留宿一晚的訪客」與本句語境不同。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。"
+        "overnight-mcq-07": "本句的「overnight delivery」指「貨物在下一日／一夜之後快速送達的配送服務」。",
+        "overnight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "overnight-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-07"
     },
@@ -708,11 +602,8 @@ export default {
       "masked": "We paid extra for ____ shipping.",
       "options": [
         "overnight-mcq-07",
-        "overnight-mcq-06",
-        "overnight-mcq-08",
-        "overnight-mcq-05",
         "overnight-mcq-09",
-        "overnight-mcq-04"
+        "overnight-mcq-06"
       ],
       "explanation": "本句的「overnight」指「貨物在下一日／一夜之後快速送達的配送服務」。",
       "sentenceIndex": 16,
@@ -721,12 +612,9 @@ export default {
         "overnight"
       ],
       "optionReasons": {
-        "overnight-mcq-07": "本句指「貨物在下一日／一夜之後快速送達的配送服務」。",
-        "overnight-mcq-06": "「表面上看似在極短時間內突然獲得成功／名聲」與本句語境不同。",
-        "overnight-mcq-08": "「裝一晚住宿所需基本物品的小型旅行袋」與本句語境不同。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-09": "「在某個地方留宿一晚的訪客」與本句語境不同。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。"
+        "overnight-mcq-07": "本句的「overnight」指「貨物在下一日／一夜之後快速送達的配送服務」。",
+        "overnight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "overnight-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-07"
     },
@@ -738,11 +626,7 @@ export default {
       "masked": "She packed an ____.",
       "options": [
         "overnight-mcq-08",
-        "overnight-mcq-07",
-        "overnight-mcq-09",
-        "overnight-mcq-06",
-        "overnight-mcq-05",
-        "overnight-mcq-04"
+        "overnight-mcq-03"
       ],
       "explanation": "本句的「overnight bag」指「裝一晚住宿所需基本物品的小型旅行袋」。",
       "sentenceIndex": 17,
@@ -751,12 +635,8 @@ export default {
         "overnight bag"
       ],
       "optionReasons": {
-        "overnight-mcq-08": "本句指「裝一晚住宿所需基本物品的小型旅行袋」。",
-        "overnight-mcq-07": "「貨物在下一日／一夜之後快速送達的配送服務」與本句語境不同。",
-        "overnight-mcq-09": "「在某個地方留宿一晚的訪客」與本句語境不同。",
-        "overnight-mcq-06": "「表面上看似在極短時間內突然獲得成功／名聲」與本句語境不同。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。"
+        "overnight-mcq-08": "本句的「overnight bag」指「裝一晚住宿所需基本物品的小型旅行袋」。",
+        "overnight-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-08"
     },
@@ -769,10 +649,7 @@ export default {
       "options": [
         "overnight-mcq-08",
         "overnight-mcq-07",
-        "overnight-mcq-09",
-        "overnight-mcq-06",
-        "overnight-mcq-05",
-        "overnight-mcq-04"
+        "overnight-mcq-06"
       ],
       "explanation": "本句的「overnight」指「裝一晚住宿所需基本物品的小型旅行袋」。",
       "sentenceIndex": 18,
@@ -781,12 +658,9 @@ export default {
         "overnight"
       ],
       "optionReasons": {
-        "overnight-mcq-08": "本句指「裝一晚住宿所需基本物品的小型旅行袋」。",
-        "overnight-mcq-07": "「貨物在下一日／一夜之後快速送達的配送服務」與本句語境不同。",
-        "overnight-mcq-09": "「在某個地方留宿一晚的訪客」與本句語境不同。",
-        "overnight-mcq-06": "「表面上看似在極短時間內突然獲得成功／名聲」與本句語境不同。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。"
+        "overnight-mcq-08": "本句的「overnight」指「裝一晚住宿所需基本物品的小型旅行袋」。",
+        "overnight-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overnight-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-08"
     },
@@ -798,11 +672,8 @@ export default {
       "masked": "We had two ____.",
       "options": [
         "overnight-mcq-09",
-        "overnight-mcq-08",
-        "overnight-mcq-07",
         "overnight-mcq-06",
-        "overnight-mcq-05",
-        "overnight-mcq-04"
+        "overnight-mcq-07"
       ],
       "explanation": "本句的「overnight guests」指「在某個地方留宿一晚的訪客」。",
       "sentenceIndex": 19,
@@ -811,12 +682,9 @@ export default {
         "overnight guests"
       ],
       "optionReasons": {
-        "overnight-mcq-09": "本句指「在某個地方留宿一晚的訪客」。",
-        "overnight-mcq-08": "「裝一晚住宿所需基本物品的小型旅行袋」與本句語境不同。",
-        "overnight-mcq-07": "「貨物在下一日／一夜之後快速送達的配送服務」與本句語境不同。",
-        "overnight-mcq-06": "「表面上看似在極短時間內突然獲得成功／名聲」與本句語境不同。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。"
+        "overnight-mcq-09": "本句的「overnight guests」指「在某個地方留宿一晚的訪客」。",
+        "overnight-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "overnight-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-09"
     },
@@ -828,11 +696,8 @@ export default {
       "masked": "The room is prepared for ____ guests.",
       "options": [
         "overnight-mcq-09",
-        "overnight-mcq-08",
         "overnight-mcq-07",
-        "overnight-mcq-06",
-        "overnight-mcq-05",
-        "overnight-mcq-04"
+        "overnight-mcq-06"
       ],
       "explanation": "本句的「overnight」指「在某個地方留宿一晚的訪客」。",
       "sentenceIndex": 20,
@@ -841,12 +706,9 @@ export default {
         "overnight"
       ],
       "optionReasons": {
-        "overnight-mcq-09": "本句指「在某個地方留宿一晚的訪客」。",
-        "overnight-mcq-08": "「裝一晚住宿所需基本物品的小型旅行袋」與本句語境不同。",
-        "overnight-mcq-07": "「貨物在下一日／一夜之後快速送達的配送服務」與本句語境不同。",
-        "overnight-mcq-06": "「表面上看似在極短時間內突然獲得成功／名聲」與本句語境不同。",
-        "overnight-mcq-05": "「在夜間行駛並通常跨越一晚的交通服務」與本句語境不同。",
-        "overnight-mcq-04": "「在夜間發生、持續一晚或涉及留宿的」與本句語境不同。"
+        "overnight-mcq-09": "本句的「overnight」指「在某個地方留宿一晚的訪客」。",
+        "overnight-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overnight-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overnight-mcq-09"
     }
@@ -858,5 +720,7 @@ export default {
     "sha256": "e366fb321b5160c98a8d3339e0f02c0f264191a7b9bff9dc35440b81ab8bc992",
     "pages": 11
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -371,11 +371,9 @@ export default {
       "masked": "He can be a bit ____ once in a while.",
       "options": [
         "stubborn-mcq-01",
-        "stubborn-mcq-02",
-        "stubborn-mcq-03",
-        "stubborn-mcq-04",
-        "stubborn-mcq-05",
-        "stubborn-mcq-06"
+        "stubborn-mcq-12",
+        "stubborn-mcq-15",
+        "stubborn-mcq-07"
       ],
       "explanation": "本句的「stubborn」指「固執的；倔強的」。",
       "sentenceIndex": 0,
@@ -384,12 +382,10 @@ export default {
         "stubborn"
       ],
       "optionReasons": {
-        "stubborn-mcq-01": "本句指「固執的；倔強的」。",
-        "stubborn-mcq-02": "「倔強的孩子」與本句語境不同。",
-        "stubborn-mcq-03": "「對 X 固執」與本句語境不同。",
-        "stubborn-mcq-04": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-05": "「頑強抵抗」與本句語境不同。",
-        "stubborn-mcq-06": "「頑強決心」與本句語境不同。"
+        "stubborn-mcq-01": "本句的「stubborn」指「固執的；倔強的」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-01"
     },
@@ -401,11 +397,9 @@ export default {
       "masked": "She is too ____ to admit that she was wrong.",
       "options": [
         "stubborn-mcq-01",
-        "stubborn-mcq-02",
-        "stubborn-mcq-03",
-        "stubborn-mcq-04",
-        "stubborn-mcq-05",
-        "stubborn-mcq-06"
+        "stubborn-mcq-12",
+        "stubborn-mcq-15",
+        "stubborn-mcq-08"
       ],
       "explanation": "本句的「stubborn」指「固執的；倔強的」。",
       "sentenceIndex": 1,
@@ -414,12 +408,10 @@ export default {
         "stubborn"
       ],
       "optionReasons": {
-        "stubborn-mcq-01": "本句指「固執的；倔強的」。",
-        "stubborn-mcq-02": "「倔強的孩子」與本句語境不同。",
-        "stubborn-mcq-03": "「對 X 固執」與本句語境不同。",
-        "stubborn-mcq-04": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-05": "「頑強抵抗」與本句語境不同。",
-        "stubborn-mcq-06": "「頑強決心」與本句語境不同。"
+        "stubborn-mcq-01": "本句的「stubborn」指「固執的；倔強的」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-01"
     },
@@ -431,11 +423,9 @@ export default {
       "masked": "He's a ____ child who always wants to do things his own way.",
       "options": [
         "stubborn-mcq-01",
-        "stubborn-mcq-02",
-        "stubborn-mcq-03",
-        "stubborn-mcq-04",
+        "stubborn-mcq-12",
         "stubborn-mcq-05",
-        "stubborn-mcq-06"
+        "stubborn-mcq-11"
       ],
       "explanation": "本句的「stubborn」指「固執的；倔強的」。",
       "sentenceIndex": 2,
@@ -444,12 +434,10 @@ export default {
         "stubborn"
       ],
       "optionReasons": {
-        "stubborn-mcq-01": "本句指「固執的；倔強的」。",
-        "stubborn-mcq-02": "「倔強的孩子」與本句語境不同。",
-        "stubborn-mcq-03": "「對 X 固執」與本句語境不同。",
-        "stubborn-mcq-04": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-05": "「頑強抵抗」與本句語境不同。",
-        "stubborn-mcq-06": "「頑強決心」與本句語境不同。"
+        "stubborn-mcq-01": "本句的「stubborn」指「固執的；倔強的」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-01"
     },
@@ -461,10 +449,7 @@ export default {
       "masked": "He is very ____.",
       "options": [
         "stubborn-mcq-03",
-        "stubborn-mcq-02",
-        "stubborn-mcq-04",
-        "stubborn-mcq-01",
-        "stubborn-mcq-05",
+        "stubborn-mcq-12",
         "stubborn-mcq-06"
       ],
       "explanation": "本句的「stubborn about his opinions」指「對 X 固執」。",
@@ -474,12 +459,9 @@ export default {
         "stubborn about his opinions"
       ],
       "optionReasons": {
-        "stubborn-mcq-03": "本句指「對 X 固執」。",
-        "stubborn-mcq-02": "「倔強的孩子」與本句語境不同。",
-        "stubborn-mcq-04": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-01": "「固執的；倔強的」與本句語境不同。",
-        "stubborn-mcq-05": "「頑強抵抗」與本句語境不同。",
-        "stubborn-mcq-06": "「頑強決心」與本句語境不同。"
+        "stubborn-mcq-03": "本句的「stubborn about his opinions」指「對 X 固執」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-03"
     },
@@ -491,11 +473,8 @@ export default {
       "masked": "She can be ____.",
       "options": [
         "stubborn-mcq-03",
-        "stubborn-mcq-02",
-        "stubborn-mcq-04",
-        "stubborn-mcq-01",
         "stubborn-mcq-05",
-        "stubborn-mcq-06"
+        "stubborn-mcq-12"
       ],
       "explanation": "本句的「stubborn about small things」指「對 X 固執」。",
       "sentenceIndex": 4,
@@ -504,12 +483,9 @@ export default {
         "stubborn about small things"
       ],
       "optionReasons": {
-        "stubborn-mcq-03": "本句指「對 X 固執」。",
-        "stubborn-mcq-02": "「倔強的孩子」與本句語境不同。",
-        "stubborn-mcq-04": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-01": "「固執的；倔強的」與本句語境不同。",
-        "stubborn-mcq-05": "「頑強抵抗」與本句語境不同。",
-        "stubborn-mcq-06": "「頑強決心」與本句語境不同。"
+        "stubborn-mcq-03": "本句的「stubborn about small things」指「對 X 固執」。",
+        "stubborn-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-03"
     },
@@ -521,11 +497,9 @@ export default {
       "masked": "His ____ to apologize made the situation worse.",
       "options": [
         "stubborn-mcq-04",
-        "stubborn-mcq-03",
+        "stubborn-mcq-12",
         "stubborn-mcq-05",
-        "stubborn-mcq-02",
-        "stubborn-mcq-06",
-        "stubborn-mcq-01"
+        "stubborn-mcq-08"
       ],
       "explanation": "本句的「stubborn refusal」指「固執地拒絕」。",
       "sentenceIndex": 5,
@@ -534,12 +508,10 @@ export default {
         "stubborn refusal"
       ],
       "optionReasons": {
-        "stubborn-mcq-04": "本句指「固執地拒絕」。",
-        "stubborn-mcq-03": "「對 X 固執」與本句語境不同。",
-        "stubborn-mcq-05": "「頑強抵抗」與本句語境不同。",
-        "stubborn-mcq-02": "「倔強的孩子」與本句語境不同。",
-        "stubborn-mcq-06": "「頑強決心」與本句語境不同。",
-        "stubborn-mcq-01": "「固執的；倔強的」與本句語境不同。"
+        "stubborn-mcq-04": "本句的「stubborn refusal」指「固執地拒絕」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-04"
     },
@@ -551,11 +523,9 @@ export default {
       "masked": "Her ____ to ask for help caused unnecessary problems.",
       "options": [
         "stubborn-mcq-04",
-        "stubborn-mcq-03",
         "stubborn-mcq-05",
-        "stubborn-mcq-02",
-        "stubborn-mcq-06",
-        "stubborn-mcq-01"
+        "stubborn-mcq-12",
+        "stubborn-mcq-07"
       ],
       "explanation": "本句的「stubborn refusal」指「固執地拒絕」。",
       "sentenceIndex": 6,
@@ -564,12 +534,10 @@ export default {
         "stubborn refusal"
       ],
       "optionReasons": {
-        "stubborn-mcq-04": "本句指「固執地拒絕」。",
-        "stubborn-mcq-03": "「對 X 固執」與本句語境不同。",
-        "stubborn-mcq-05": "「頑強抵抗」與本句語境不同。",
-        "stubborn-mcq-02": "「倔強的孩子」與本句語境不同。",
-        "stubborn-mcq-06": "「頑強決心」與本句語境不同。",
-        "stubborn-mcq-01": "「固執的；倔強的」與本句語境不同。"
+        "stubborn-mcq-04": "本句的「stubborn refusal」指「固執地拒絕」。",
+        "stubborn-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-04"
     },
@@ -581,11 +549,8 @@ export default {
       "masked": "The proposal met with ____.",
       "options": [
         "stubborn-mcq-05",
-        "stubborn-mcq-04",
-        "stubborn-mcq-06",
         "stubborn-mcq-03",
-        "stubborn-mcq-07",
-        "stubborn-mcq-02"
+        "stubborn-mcq-12"
       ],
       "explanation": "本句的「stubborn resistance」指「頑強抵抗」。",
       "sentenceIndex": 7,
@@ -594,12 +559,9 @@ export default {
         "stubborn resistance"
       ],
       "optionReasons": {
-        "stubborn-mcq-05": "本句指「頑強抵抗」。",
-        "stubborn-mcq-04": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-06": "「頑強決心」與本句語境不同。",
-        "stubborn-mcq-03": "「對 X 固執」與本句語境不同。",
-        "stubborn-mcq-07": "「頑固難題」與本句語境不同。",
-        "stubborn-mcq-02": "「倔強的孩子」與本句語境不同。"
+        "stubborn-mcq-05": "本句的「stubborn resistance」指「頑強抵抗」。",
+        "stubborn-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-05"
     },
@@ -611,11 +573,9 @@ export default {
       "masked": "The group maintained ____ to the change.",
       "options": [
         "stubborn-mcq-05",
-        "stubborn-mcq-04",
-        "stubborn-mcq-06",
-        "stubborn-mcq-03",
-        "stubborn-mcq-07",
-        "stubborn-mcq-02"
+        "stubborn-mcq-13",
+        "stubborn-mcq-12",
+        "stubborn-mcq-11"
       ],
       "explanation": "本句的「stubborn resistance」指「頑強抵抗」。",
       "sentenceIndex": 8,
@@ -624,12 +584,10 @@ export default {
         "stubborn resistance"
       ],
       "optionReasons": {
-        "stubborn-mcq-05": "本句指「頑強抵抗」。",
-        "stubborn-mcq-04": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-06": "「頑強決心」與本句語境不同。",
-        "stubborn-mcq-03": "「對 X 固執」與本句語境不同。",
-        "stubborn-mcq-07": "「頑固難題」與本句語境不同。",
-        "stubborn-mcq-02": "「倔強的孩子」與本句語境不同。"
+        "stubborn-mcq-05": "本句的「stubborn resistance」指「頑強抵抗」。",
+        "stubborn-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-05"
     },
@@ -641,11 +599,9 @@ export default {
       "masked": "Her ____ helped her finish the race.",
       "options": [
         "stubborn-mcq-06",
-        "stubborn-mcq-05",
-        "stubborn-mcq-07",
-        "stubborn-mcq-04",
-        "stubborn-mcq-08",
-        "stubborn-mcq-03"
+        "stubborn-mcq-14",
+        "stubborn-mcq-12",
+        "stubborn-mcq-11"
       ],
       "explanation": "本句的「stubborn determination」指「頑強決心」。",
       "sentenceIndex": 9,
@@ -654,12 +610,10 @@ export default {
         "stubborn determination"
       ],
       "optionReasons": {
-        "stubborn-mcq-06": "本句指「頑強決心」。",
-        "stubborn-mcq-05": "「頑強抵抗」與本句語境不同。",
-        "stubborn-mcq-07": "「頑固難題」與本句語境不同。",
-        "stubborn-mcq-04": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-08": "「頑固污漬」與本句語境不同。",
-        "stubborn-mcq-03": "「對 X 固執」與本句語境不同。"
+        "stubborn-mcq-06": "本句的「stubborn determination」指「頑強決心」。",
+        "stubborn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-06"
     },
@@ -671,11 +625,9 @@ export default {
       "masked": "He succeeded through ____.",
       "options": [
         "stubborn-mcq-06",
-        "stubborn-mcq-05",
-        "stubborn-mcq-07",
-        "stubborn-mcq-04",
-        "stubborn-mcq-08",
-        "stubborn-mcq-03"
+        "stubborn-mcq-14",
+        "stubborn-mcq-12",
+        "stubborn-mcq-09"
       ],
       "explanation": "本句的「stubborn determination」指「頑強決心」。",
       "sentenceIndex": 10,
@@ -684,12 +636,10 @@ export default {
         "stubborn determination"
       ],
       "optionReasons": {
-        "stubborn-mcq-06": "本句指「頑強決心」。",
-        "stubborn-mcq-05": "「頑強抵抗」與本句語境不同。",
-        "stubborn-mcq-07": "「頑固難題」與本句語境不同。",
-        "stubborn-mcq-04": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-08": "「頑固污漬」與本句語境不同。",
-        "stubborn-mcq-03": "「對 X 固執」與本句語境不同。"
+        "stubborn-mcq-06": "本句的「stubborn determination」指「頑強決心」。",
+        "stubborn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-06"
     },
@@ -701,11 +651,9 @@ export default {
       "masked": "We are still trying to solve a ____ with the system.",
       "options": [
         "stubborn-mcq-07",
-        "stubborn-mcq-06",
-        "stubborn-mcq-08",
-        "stubborn-mcq-05",
-        "stubborn-mcq-09",
-        "stubborn-mcq-04"
+        "stubborn-mcq-12",
+        "stubborn-mcq-13",
+        "stubborn-mcq-05"
       ],
       "explanation": "本句的「stubborn problem」指「頑固難題」。",
       "sentenceIndex": 11,
@@ -714,12 +662,10 @@ export default {
         "stubborn problem"
       ],
       "optionReasons": {
-        "stubborn-mcq-07": "本句指「頑固難題」。",
-        "stubborn-mcq-06": "「頑強決心」與本句語境不同。",
-        "stubborn-mcq-08": "「頑固污漬」與本句語境不同。",
-        "stubborn-mcq-05": "「頑強抵抗」與本句語境不同。",
-        "stubborn-mcq-09": "「頑固污垢」與本句語境不同。",
-        "stubborn-mcq-04": "「固執地拒絕」與本句語境不同。"
+        "stubborn-mcq-07": "本句的「stubborn problem」指「頑固難題」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-07"
     },
@@ -731,11 +677,9 @@ export default {
       "masked": "Inflation remains a ____.",
       "options": [
         "stubborn-mcq-07",
-        "stubborn-mcq-06",
-        "stubborn-mcq-08",
-        "stubborn-mcq-05",
-        "stubborn-mcq-09",
-        "stubborn-mcq-04"
+        "stubborn-mcq-12",
+        "stubborn-mcq-13",
+        "stubborn-mcq-05"
       ],
       "explanation": "本句的「stubborn problem」指「頑固難題」。",
       "sentenceIndex": 12,
@@ -744,12 +688,10 @@ export default {
         "stubborn problem"
       ],
       "optionReasons": {
-        "stubborn-mcq-07": "本句指「頑固難題」。",
-        "stubborn-mcq-06": "「頑強決心」與本句語境不同。",
-        "stubborn-mcq-08": "「頑固污漬」與本句語境不同。",
-        "stubborn-mcq-05": "「頑強抵抗」與本句語境不同。",
-        "stubborn-mcq-09": "「頑固污垢」與本句語境不同。",
-        "stubborn-mcq-04": "「固執地拒絕」與本句語境不同。"
+        "stubborn-mcq-07": "本句的「stubborn problem」指「頑固難題」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-07"
     },
@@ -761,11 +703,9 @@ export default {
       "masked": "This cleaner removes ____.",
       "options": [
         "stubborn-mcq-08",
-        "stubborn-mcq-07",
-        "stubborn-mcq-09",
-        "stubborn-mcq-06",
-        "stubborn-mcq-10",
-        "stubborn-mcq-05"
+        "stubborn-mcq-12",
+        "stubborn-mcq-15",
+        "stubborn-mcq-01"
       ],
       "explanation": "本句的「stubborn stains」指「頑固污漬」。",
       "sentenceIndex": 13,
@@ -774,12 +714,10 @@ export default {
         "stubborn stains"
       ],
       "optionReasons": {
-        "stubborn-mcq-08": "本句指「頑固污漬」。",
-        "stubborn-mcq-07": "「頑固難題」與本句語境不同。",
-        "stubborn-mcq-09": "「頑固污垢」與本句語境不同。",
-        "stubborn-mcq-06": "「頑強決心」與本句語境不同。",
-        "stubborn-mcq-10": "「久咳不癒」與本句語境不同。",
-        "stubborn-mcq-05": "「頑強抵抗」與本句語境不同。"
+        "stubborn-mcq-08": "本句的「stubborn stains」指「頑固污漬」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-08"
     },
@@ -791,11 +729,9 @@ export default {
       "masked": "The red wine left a ____ on the carpet.",
       "options": [
         "stubborn-mcq-08",
-        "stubborn-mcq-07",
-        "stubborn-mcq-09",
+        "stubborn-mcq-12",
         "stubborn-mcq-06",
-        "stubborn-mcq-10",
-        "stubborn-mcq-05"
+        "stubborn-mcq-13"
       ],
       "explanation": "本句的「stubborn stain」指「頑固污漬」。",
       "sentenceIndex": 14,
@@ -804,12 +740,10 @@ export default {
         "stubborn stain"
       ],
       "optionReasons": {
-        "stubborn-mcq-08": "本句指「頑固污漬」。",
-        "stubborn-mcq-07": "「頑固難題」與本句語境不同。",
-        "stubborn-mcq-09": "「頑固污垢」與本句語境不同。",
-        "stubborn-mcq-06": "「頑強決心」與本句語境不同。",
-        "stubborn-mcq-10": "「久咳不癒」與本句語境不同。",
-        "stubborn-mcq-05": "「頑強抵抗」與本句語境不同。"
+        "stubborn-mcq-08": "本句的「stubborn stain」指「頑固污漬」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-08"
     },
@@ -821,11 +755,9 @@ export default {
       "masked": "The brush is designed to remove ____.",
       "options": [
         "stubborn-mcq-09",
-        "stubborn-mcq-08",
-        "stubborn-mcq-10",
-        "stubborn-mcq-07",
-        "stubborn-mcq-11",
-        "stubborn-mcq-06"
+        "stubborn-mcq-12",
+        "stubborn-mcq-15",
+        "stubborn-mcq-14"
       ],
       "explanation": "本句的「stubborn dirt」指「頑固污垢」。",
       "sentenceIndex": 15,
@@ -834,12 +766,10 @@ export default {
         "stubborn dirt"
       ],
       "optionReasons": {
-        "stubborn-mcq-09": "本句指「頑固污垢」。",
-        "stubborn-mcq-08": "「頑固污漬」與本句語境不同。",
-        "stubborn-mcq-10": "「久咳不癒」與本句語境不同。",
-        "stubborn-mcq-07": "「頑固難題」與本句語境不同。",
-        "stubborn-mcq-11": "「頑固感染」與本句語境不同。",
-        "stubborn-mcq-06": "「頑強決心」與本句語境不同。"
+        "stubborn-mcq-09": "本句的「stubborn dirt」指「頑固污垢」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-09"
     },
@@ -851,11 +781,9 @@ export default {
       "masked": "Hot water can help loosen ____.",
       "options": [
         "stubborn-mcq-09",
-        "stubborn-mcq-08",
-        "stubborn-mcq-10",
-        "stubborn-mcq-07",
-        "stubborn-mcq-11",
-        "stubborn-mcq-06"
+        "stubborn-mcq-12",
+        "stubborn-mcq-13",
+        "stubborn-mcq-05"
       ],
       "explanation": "本句的「stubborn grease」指「頑固污垢」。",
       "sentenceIndex": 16,
@@ -864,12 +792,10 @@ export default {
         "stubborn grease"
       ],
       "optionReasons": {
-        "stubborn-mcq-09": "本句指「頑固污垢」。",
-        "stubborn-mcq-08": "「頑固污漬」與本句語境不同。",
-        "stubborn-mcq-10": "「久咳不癒」與本句語境不同。",
-        "stubborn-mcq-07": "「頑固難題」與本句語境不同。",
-        "stubborn-mcq-11": "「頑固感染」與本句語境不同。",
-        "stubborn-mcq-06": "「頑強決心」與本句語境不同。"
+        "stubborn-mcq-09": "本句的「stubborn grease」指「頑固污垢」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-09"
     },
@@ -881,11 +807,9 @@ export default {
       "masked": "He has been suffering from a ____ for weeks.",
       "options": [
         "stubborn-mcq-11",
-        "stubborn-mcq-10",
         "stubborn-mcq-12",
-        "stubborn-mcq-09",
         "stubborn-mcq-13",
-        "stubborn-mcq-08"
+        "stubborn-mcq-06"
       ],
       "explanation": "本句的「stubborn cough」指「頑固感染」。",
       "sentenceIndex": 17,
@@ -894,12 +818,10 @@ export default {
         "stubborn cough"
       ],
       "optionReasons": {
-        "stubborn-mcq-11": "本句指「頑固感染」。",
-        "stubborn-mcq-10": "「久咳不癒」與本句語境不同。",
-        "stubborn-mcq-12": "「持續不退的痛楚」與本句語境不同。",
-        "stubborn-mcq-09": "「頑固污垢」與本句語境不同。",
-        "stubborn-mcq-13": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-08": "「頑固污漬」與本句語境不同。"
+        "stubborn-mcq-11": "本句的「stubborn cough」指「頑固感染」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-11"
     },
@@ -911,11 +833,9 @@ export default {
       "masked": "The doctor treated a ____.",
       "options": [
         "stubborn-mcq-11",
-        "stubborn-mcq-10",
         "stubborn-mcq-12",
-        "stubborn-mcq-09",
-        "stubborn-mcq-13",
-        "stubborn-mcq-08"
+        "stubborn-mcq-01",
+        "stubborn-mcq-15"
       ],
       "explanation": "本句的「stubborn infection」指「頑固感染」。",
       "sentenceIndex": 18,
@@ -924,12 +844,10 @@ export default {
         "stubborn infection"
       ],
       "optionReasons": {
-        "stubborn-mcq-11": "本句指「頑固感染」。",
-        "stubborn-mcq-10": "「久咳不癒」與本句語境不同。",
-        "stubborn-mcq-12": "「持續不退的痛楚」與本句語境不同。",
-        "stubborn-mcq-09": "「頑固污垢」與本句語境不同。",
-        "stubborn-mcq-13": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-08": "「頑固污漬」與本句語境不同。"
+        "stubborn-mcq-11": "本句的「stubborn infection」指「頑固感染」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-11"
     },
@@ -941,10 +859,8 @@ export default {
       "masked": "She has a ____ in her shoulder.",
       "options": [
         "stubborn-mcq-12",
-        "stubborn-mcq-11",
-        "stubborn-mcq-13",
-        "stubborn-mcq-10",
-        "stubborn-mcq-14",
+        "stubborn-mcq-15",
+        "stubborn-mcq-04",
         "stubborn-mcq-09"
       ],
       "explanation": "本句的「stubborn pain」指「持續不退的痛楚」。",
@@ -954,12 +870,10 @@ export default {
         "stubborn pain"
       ],
       "optionReasons": {
-        "stubborn-mcq-12": "本句指「持續不退的痛楚」。",
-        "stubborn-mcq-11": "「頑固感染」與本句語境不同。",
-        "stubborn-mcq-13": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-10": "「久咳不癒」與本句語境不同。",
-        "stubborn-mcq-14": "「固執地堅持」與本句語境不同。",
-        "stubborn-mcq-09": "「頑固污垢」與本句語境不同。"
+        "stubborn-mcq-12": "本句的「stubborn pain」指「持續不退的痛楚」。",
+        "stubborn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-12"
     },
@@ -971,11 +885,8 @@ export default {
       "masked": "The symptom proved surprisingly ____.",
       "options": [
         "stubborn-mcq-12",
-        "stubborn-mcq-11",
-        "stubborn-mcq-13",
-        "stubborn-mcq-10",
-        "stubborn-mcq-14",
-        "stubborn-mcq-09"
+        "stubborn-mcq-03",
+        "stubborn-mcq-05"
       ],
       "explanation": "本句的「stubborn」指「持續不退的痛楚」。",
       "sentenceIndex": 20,
@@ -984,12 +895,9 @@ export default {
         "stubborn"
       ],
       "optionReasons": {
-        "stubborn-mcq-12": "本句指「持續不退的痛楚」。",
-        "stubborn-mcq-11": "「頑固感染」與本句語境不同。",
-        "stubborn-mcq-13": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-10": "「久咳不癒」與本句語境不同。",
-        "stubborn-mcq-14": "「固執地堅持」與本句語境不同。",
-        "stubborn-mcq-09": "「頑固污垢」與本句語境不同。"
+        "stubborn-mcq-12": "本句的「stubborn」指「持續不退的痛楚」。",
+        "stubborn-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-12"
     },
@@ -1002,10 +910,8 @@ export default {
       "options": [
         "stubborn-mcq-13",
         "stubborn-mcq-12",
-        "stubborn-mcq-14",
-        "stubborn-mcq-11",
-        "stubborn-mcq-15",
-        "stubborn-mcq-10"
+        "stubborn-mcq-06",
+        "stubborn-mcq-08"
       ],
       "explanation": "本句的「stubbornly refused」指「固執地拒絕」。",
       "sentenceIndex": 21,
@@ -1014,12 +920,10 @@ export default {
         "stubbornly refused"
       ],
       "optionReasons": {
-        "stubborn-mcq-13": "本句指「固執地拒絕」。",
-        "stubborn-mcq-12": "「持續不退的痛楚」與本句語境不同。",
-        "stubborn-mcq-14": "「固執地堅持」與本句語境不同。",
-        "stubborn-mcq-11": "「頑固感染」與本句語境不同。",
-        "stubborn-mcq-15": "「頑強抗拒」與本句語境不同。",
-        "stubborn-mcq-10": "「久咳不癒」與本句語境不同。"
+        "stubborn-mcq-13": "本句的「stubbornly refused」指「固執地拒絕」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-13"
     },
@@ -1031,11 +935,9 @@ export default {
       "masked": "She ____ to accept any help.",
       "options": [
         "stubborn-mcq-13",
+        "stubborn-mcq-05",
         "stubborn-mcq-12",
-        "stubborn-mcq-14",
-        "stubborn-mcq-11",
-        "stubborn-mcq-15",
-        "stubborn-mcq-10"
+        "stubborn-mcq-09"
       ],
       "explanation": "本句的「stubbornly refused」指「固執地拒絕」。",
       "sentenceIndex": 22,
@@ -1044,12 +946,10 @@ export default {
         "stubbornly refused"
       ],
       "optionReasons": {
-        "stubborn-mcq-13": "本句指「固執地拒絕」。",
-        "stubborn-mcq-12": "「持續不退的痛楚」與本句語境不同。",
-        "stubborn-mcq-14": "「固執地堅持」與本句語境不同。",
-        "stubborn-mcq-11": "「頑固感染」與本句語境不同。",
-        "stubborn-mcq-15": "「頑強抗拒」與本句語境不同。",
-        "stubborn-mcq-10": "「久咳不癒」與本句語境不同。"
+        "stubborn-mcq-13": "本句的「stubbornly refused」指「固執地拒絕」。",
+        "stubborn-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-13"
     },
@@ -1061,11 +961,9 @@ export default {
       "masked": "He ____ that he was right.",
       "options": [
         "stubborn-mcq-14",
-        "stubborn-mcq-13",
-        "stubborn-mcq-15",
-        "stubborn-mcq-12",
-        "stubborn-mcq-16",
-        "stubborn-mcq-11"
+        "stubborn-mcq-06",
+        "stubborn-mcq-08",
+        "stubborn-mcq-12"
       ],
       "explanation": "本句的「stubbornly insisted」指「固執地堅持」。",
       "sentenceIndex": 23,
@@ -1074,12 +972,10 @@ export default {
         "stubbornly insisted"
       ],
       "optionReasons": {
-        "stubborn-mcq-14": "本句指「固執地堅持」。",
-        "stubborn-mcq-13": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-15": "「頑強抗拒」與本句語境不同。",
-        "stubborn-mcq-12": "「持續不退的痛楚」與本句語境不同。",
-        "stubborn-mcq-16": "「固執；頑固」與本句語境不同。",
-        "stubborn-mcq-11": "「頑固感染」與本句語境不同。"
+        "stubborn-mcq-14": "本句的「stubbornly insisted」指「固執地堅持」。",
+        "stubborn-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-14"
     },
@@ -1091,11 +987,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "stubborn-mcq-14",
-        "stubborn-mcq-13",
         "stubborn-mcq-15",
-        "stubborn-mcq-12",
-        "stubborn-mcq-16",
-        "stubborn-mcq-11"
+        "stubborn-mcq-11",
+        "stubborn-mcq-12"
       ],
       "explanation": "本句的「stubbornly insisted on doing everything herself」指「固執地堅持」。",
       "sentenceIndex": 24,
@@ -1104,12 +998,10 @@ export default {
         "stubbornly insisted on doing everything herself"
       ],
       "optionReasons": {
-        "stubborn-mcq-14": "本句指「固執地堅持」。",
-        "stubborn-mcq-13": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-15": "「頑強抗拒」與本句語境不同。",
-        "stubborn-mcq-12": "「持續不退的痛楚」與本句語境不同。",
-        "stubborn-mcq-16": "「固執；頑固」與本句語境不同。",
-        "stubborn-mcq-11": "「頑固感染」與本句語境不同。"
+        "stubborn-mcq-14": "本句的「stubbornly insisted on doing everything herself」指「固執地堅持」。",
+        "stubborn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-14"
     },
@@ -1122,10 +1014,8 @@ export default {
       "options": [
         "stubborn-mcq-15",
         "stubborn-mcq-14",
-        "stubborn-mcq-16",
-        "stubborn-mcq-13",
-        "stubborn-mcq-17",
-        "stubborn-mcq-12"
+        "stubborn-mcq-12",
+        "stubborn-mcq-09"
       ],
       "explanation": "本句的「stubbornly resisted」指「頑強抗拒」。",
       "sentenceIndex": 25,
@@ -1134,12 +1024,10 @@ export default {
         "stubbornly resisted"
       ],
       "optionReasons": {
-        "stubborn-mcq-15": "本句指「頑強抗拒」。",
-        "stubborn-mcq-14": "「固執地堅持」與本句語境不同。",
-        "stubborn-mcq-16": "「固執；頑固」與本句語境不同。",
-        "stubborn-mcq-13": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-17": "「堅韌；不肯放棄」與本句語境不同。",
-        "stubborn-mcq-12": "「持續不退的痛楚」與本句語境不同。"
+        "stubborn-mcq-15": "本句的「stubbornly resisted」指「頑強抗拒」。",
+        "stubborn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-15"
     },
@@ -1151,10 +1039,7 @@ export default {
       "masked": "He ____ every suggestion.",
       "options": [
         "stubborn-mcq-15",
-        "stubborn-mcq-14",
-        "stubborn-mcq-16",
-        "stubborn-mcq-13",
-        "stubborn-mcq-17",
+        "stubborn-mcq-03",
         "stubborn-mcq-12"
       ],
       "explanation": "本句的「stubbornly resisted」指「頑強抗拒」。",
@@ -1164,12 +1049,9 @@ export default {
         "stubbornly resisted"
       ],
       "optionReasons": {
-        "stubborn-mcq-15": "本句指「頑強抗拒」。",
-        "stubborn-mcq-14": "「固執地堅持」與本句語境不同。",
-        "stubborn-mcq-16": "「固執；頑固」與本句語境不同。",
-        "stubborn-mcq-13": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-17": "「堅韌；不肯放棄」與本句語境不同。",
-        "stubborn-mcq-12": "「持續不退的痛楚」與本句語境不同。"
+        "stubborn-mcq-15": "本句的「stubbornly resisted」指「頑強抗拒」。",
+        "stubborn-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-15"
     },
@@ -1181,10 +1063,6 @@ export default {
       "masked": "His ____ sometimes causes arguments.",
       "options": [
         "stubborn-mcq-16",
-        "stubborn-mcq-15",
-        "stubborn-mcq-17",
-        "stubborn-mcq-14",
-        "stubborn-mcq-13",
         "stubborn-mcq-12"
       ],
       "explanation": "本句的「stubbornness」指「固執；頑固」。",
@@ -1194,12 +1072,8 @@ export default {
         "stubbornness"
       ],
       "optionReasons": {
-        "stubborn-mcq-16": "本句指「固執；頑固」。",
-        "stubborn-mcq-15": "「頑強抗拒」與本句語境不同。",
-        "stubborn-mcq-17": "「堅韌；不肯放棄」與本句語境不同。",
-        "stubborn-mcq-14": "「固執地堅持」與本句語境不同。",
-        "stubborn-mcq-13": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-12": "「持續不退的痛楚」與本句語境不同。"
+        "stubborn-mcq-16": "本句的「stubbornness」指「固執；頑固」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-16"
     },
@@ -1211,10 +1085,6 @@ export default {
       "masked": "Her ____ made it difficult to reach an agreement.",
       "options": [
         "stubborn-mcq-16",
-        "stubborn-mcq-15",
-        "stubborn-mcq-17",
-        "stubborn-mcq-14",
-        "stubborn-mcq-13",
         "stubborn-mcq-12"
       ],
       "explanation": "本句的「stubbornness」指「固執；頑固」。",
@@ -1224,12 +1094,8 @@ export default {
         "stubbornness"
       ],
       "optionReasons": {
-        "stubborn-mcq-16": "本句指「固執；頑固」。",
-        "stubborn-mcq-15": "「頑強抗拒」與本句語境不同。",
-        "stubborn-mcq-17": "「堅韌；不肯放棄」與本句語境不同。",
-        "stubborn-mcq-14": "「固執地堅持」與本句語境不同。",
-        "stubborn-mcq-13": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-12": "「持續不退的痛楚」與本句語境不同。"
+        "stubborn-mcq-16": "本句的「stubbornness」指「固執；頑固」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-16"
     },
@@ -1241,10 +1107,6 @@ export default {
       "masked": "A certain amount of ____ helped him keep going.",
       "options": [
         "stubborn-mcq-16",
-        "stubborn-mcq-15",
-        "stubborn-mcq-17",
-        "stubborn-mcq-14",
-        "stubborn-mcq-13",
         "stubborn-mcq-12"
       ],
       "explanation": "本句的「stubbornness」指「固執；頑固」。",
@@ -1254,12 +1116,8 @@ export default {
         "stubbornness"
       ],
       "optionReasons": {
-        "stubborn-mcq-16": "本句指「固執；頑固」。",
-        "stubborn-mcq-15": "「頑強抗拒」與本句語境不同。",
-        "stubborn-mcq-17": "「堅韌；不肯放棄」與本句語境不同。",
-        "stubborn-mcq-14": "「固執地堅持」與本句語境不同。",
-        "stubborn-mcq-13": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-12": "「持續不退的痛楚」與本句語境不同。"
+        "stubborn-mcq-16": "本句的「stubbornness」指「固執；頑固」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-16"
     },
@@ -1271,10 +1129,6 @@ export default {
       "masked": "Her ____ became a strength when things got difficult.",
       "options": [
         "stubborn-mcq-16",
-        "stubborn-mcq-15",
-        "stubborn-mcq-17",
-        "stubborn-mcq-14",
-        "stubborn-mcq-13",
         "stubborn-mcq-12"
       ],
       "explanation": "本句的「stubbornness」指「固執；頑固」。",
@@ -1284,12 +1138,8 @@ export default {
         "stubbornness"
       ],
       "optionReasons": {
-        "stubborn-mcq-16": "本句指「固執；頑固」。",
-        "stubborn-mcq-15": "「頑強抗拒」與本句語境不同。",
-        "stubborn-mcq-17": "「堅韌；不肯放棄」與本句語境不同。",
-        "stubborn-mcq-14": "「固執地堅持」與本句語境不同。",
-        "stubborn-mcq-13": "「固執地拒絕」與本句語境不同。",
-        "stubborn-mcq-12": "「持續不退的痛楚」與本句語境不同。"
+        "stubborn-mcq-16": "本句的「stubbornness」指「固執；頑固」。",
+        "stubborn-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stubborn-mcq-16"
     }
@@ -1301,5 +1151,7 @@ export default {
     "sha256": "cc2f582528eaf133b9e427f589bd49ff35375f2c4920d7a3b5149fc177492d54",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -547,11 +547,9 @@ export default {
       "masked": "I gave a formal presentation at a company ____ last year.",
       "options": [
         "event-mcq-01",
-        "event-mcq-02",
-        "event-mcq-03",
-        "event-mcq-04",
-        "event-mcq-05",
-        "event-mcq-06"
+        "event-mcq-11",
+        "event-mcq-16",
+        "event-mcq-03"
       ],
       "explanation": "本句的「event」指「為特定目的預先安排、在指定時間和場合舉行，供一群人出席或參與的活動」。",
       "sentenceIndex": 0,
@@ -560,12 +558,10 @@ export default {
         "event"
       ],
       "optionReasons": {
-        "event-mcq-01": "本句指「為特定目的預先安排、在指定時間和場合舉行，供一群人出席或參與的活動」。",
-        "event-mcq-02": "「在某個時間實際發生、可視為一件獨立事情的事件／情況」是「event — occurrence」的用法，與本句語境不同。",
-        "event-mcq-03": "「對歷史、社會、組織或個人具有重大影響的重要事件」是「major/historic event」的用法，與本句語境不同。",
-        "event-mcq-04": "「近期在社會、政治、經濟或世界各地發生的重要事情；時事」是「current events」的用法，與本句語境不同。",
-        "event-mcq-05": "「主要供人聚會、交流或建立人際關係的活動」是「social event」的用法，與本句語境不同。",
-        "event-mcq-06": "「為慶祝、紀念、頒獎等目的舉行的正式活動」是「ceremonial/celebration event」的用法，與本句語境不同。"
+        "event-mcq-01": "本句的「event」指「為特定目的預先安排、在指定時間和場合舉行，供一群人出席或參與的活動」。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-01"
     },
@@ -577,11 +573,9 @@ export default {
       "masked": "The charity is organizing a fundraising ____.",
       "options": [
         "event-mcq-01",
-        "event-mcq-02",
         "event-mcq-03",
-        "event-mcq-04",
-        "event-mcq-05",
-        "event-mcq-06"
+        "event-mcq-16",
+        "event-mcq-11"
       ],
       "explanation": "本句的「event」指「為特定目的預先安排、在指定時間和場合舉行，供一群人出席或參與的活動」。",
       "sentenceIndex": 1,
@@ -590,12 +584,10 @@ export default {
         "event"
       ],
       "optionReasons": {
-        "event-mcq-01": "本句指「為特定目的預先安排、在指定時間和場合舉行，供一群人出席或參與的活動」。",
-        "event-mcq-02": "「在某個時間實際發生、可視為一件獨立事情的事件／情況」是「event — occurrence」的用法，與本句語境不同。",
-        "event-mcq-03": "「對歷史、社會、組織或個人具有重大影響的重要事件」是「major/historic event」的用法，與本句語境不同。",
-        "event-mcq-04": "「近期在社會、政治、經濟或世界各地發生的重要事情；時事」是「current events」的用法，與本句語境不同。",
-        "event-mcq-05": "「主要供人聚會、交流或建立人際關係的活動」是「social event」的用法，與本句語境不同。",
-        "event-mcq-06": "「為慶祝、紀念、頒獎等目的舉行的正式活動」是「ceremonial/celebration event」的用法，與本句語境不同。"
+        "event-mcq-01": "本句的「event」指「為特定目的預先安排、在指定時間和場合舉行，供一群人出席或參與的活動」。",
+        "event-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-01"
     },
@@ -607,11 +599,9 @@ export default {
       "masked": "More than five hundred people attended the ____.",
       "options": [
         "event-mcq-01",
-        "event-mcq-02",
-        "event-mcq-03",
-        "event-mcq-04",
-        "event-mcq-05",
-        "event-mcq-06"
+        "event-mcq-14",
+        "event-mcq-17",
+        "event-mcq-03"
       ],
       "explanation": "本句的「event」指「為特定目的預先安排、在指定時間和場合舉行，供一群人出席或參與的活動」。",
       "sentenceIndex": 2,
@@ -620,12 +610,10 @@ export default {
         "event"
       ],
       "optionReasons": {
-        "event-mcq-01": "本句指「為特定目的預先安排、在指定時間和場合舉行，供一群人出席或參與的活動」。",
-        "event-mcq-02": "「在某個時間實際發生、可視為一件獨立事情的事件／情況」是「event — occurrence」的用法，與本句語境不同。",
-        "event-mcq-03": "「對歷史、社會、組織或個人具有重大影響的重要事件」是「major/historic event」的用法，與本句語境不同。",
-        "event-mcq-04": "「近期在社會、政治、經濟或世界各地發生的重要事情；時事」是「current events」的用法，與本句語境不同。",
-        "event-mcq-05": "「主要供人聚會、交流或建立人際關係的活動」是「social event」的用法，與本句語境不同。",
-        "event-mcq-06": "「為慶祝、紀念、頒獎等目的舉行的正式活動」是「ceremonial/celebration event」的用法，與本句語境不同。"
+        "event-mcq-01": "本句的「event」指「為特定目的預先安排、在指定時間和場合舉行，供一群人出席或參與的活動」。",
+        "event-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-01"
     },
@@ -637,11 +625,9 @@ export default {
       "masked": "The accident was a shocking ____.",
       "options": [
         "event-mcq-02",
-        "event-mcq-01",
-        "event-mcq-03",
-        "event-mcq-04",
-        "event-mcq-05",
-        "event-mcq-06"
+        "event-mcq-09",
+        "event-mcq-17",
+        "event-mcq-11"
       ],
       "explanation": "本句的「event」指「在某個時間實際發生、可視為一件獨立事情的事件／情況」。",
       "sentenceIndex": 3,
@@ -650,12 +636,10 @@ export default {
         "event"
       ],
       "optionReasons": {
-        "event-mcq-02": "本句指「在某個時間實際發生、可視為一件獨立事情的事件／情況」。",
-        "event-mcq-01": "「為特定目的預先安排、在指定時間和場合舉行，供一群人出席或參與的活動」是「event — organized occasion」的用法，與本句語境不同。",
-        "event-mcq-03": "「對歷史、社會、組織或個人具有重大影響的重要事件」是「major/historic event」的用法，與本句語境不同。",
-        "event-mcq-04": "「近期在社會、政治、經濟或世界各地發生的重要事情；時事」是「current events」的用法，與本句語境不同。",
-        "event-mcq-05": "「主要供人聚會、交流或建立人際關係的活動」是「social event」的用法，與本句語境不同。",
-        "event-mcq-06": "「為慶祝、紀念、頒獎等目的舉行的正式活動」是「ceremonial/celebration event」的用法，與本句語境不同。"
+        "event-mcq-02": "本句的「event」指「在某個時間實際發生、可視為一件獨立事情的事件／情況」。",
+        "event-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-02"
     },
@@ -667,11 +651,9 @@ export default {
       "masked": "Several important ____ happened that year.",
       "options": [
         "event-mcq-02",
-        "event-mcq-01",
-        "event-mcq-03",
-        "event-mcq-04",
-        "event-mcq-05",
-        "event-mcq-06"
+        "event-mcq-07",
+        "event-mcq-11",
+        "event-mcq-17"
       ],
       "explanation": "本句的「events」指「在某個時間實際發生、可視為一件獨立事情的事件／情況」。",
       "sentenceIndex": 4,
@@ -680,12 +662,10 @@ export default {
         "events"
       ],
       "optionReasons": {
-        "event-mcq-02": "本句指「在某個時間實際發生、可視為一件獨立事情的事件／情況」。",
-        "event-mcq-01": "「為特定目的預先安排、在指定時間和場合舉行，供一群人出席或參與的活動」是「event — organized occasion」的用法，與本句語境不同。",
-        "event-mcq-03": "「對歷史、社會、組織或個人具有重大影響的重要事件」是「major/historic event」的用法，與本句語境不同。",
-        "event-mcq-04": "「近期在社會、政治、經濟或世界各地發生的重要事情；時事」是「current events」的用法，與本句語境不同。",
-        "event-mcq-05": "「主要供人聚會、交流或建立人際關係的活動」是「social event」的用法，與本句語境不同。",
-        "event-mcq-06": "「為慶祝、紀念、頒獎等目的舉行的正式活動」是「ceremonial/celebration event」的用法，與本句語境不同。"
+        "event-mcq-02": "本句的「events」指「在某個時間實際發生、可視為一件獨立事情的事件／情況」。",
+        "event-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-02"
     },
@@ -697,11 +677,9 @@ export default {
       "masked": "The election was a major political ____.",
       "options": [
         "event-mcq-03",
-        "event-mcq-02",
-        "event-mcq-04",
-        "event-mcq-01",
-        "event-mcq-05",
-        "event-mcq-06"
+        "event-mcq-20",
+        "event-mcq-17",
+        "event-mcq-23"
       ],
       "explanation": "本句的「event」指「對歷史、社會、組織或個人具有重大影響的重要事件」。",
       "sentenceIndex": 5,
@@ -710,12 +688,10 @@ export default {
         "event"
       ],
       "optionReasons": {
-        "event-mcq-03": "本句指「對歷史、社會、組織或個人具有重大影響的重要事件」。",
-        "event-mcq-02": "「在某個時間實際發生、可視為一件獨立事情的事件／情況」是「event — occurrence」的用法，與本句語境不同。",
-        "event-mcq-04": "「近期在社會、政治、經濟或世界各地發生的重要事情；時事」是「current events」的用法，與本句語境不同。",
-        "event-mcq-01": "「為特定目的預先安排、在指定時間和場合舉行，供一群人出席或參與的活動」是「event — organized occasion」的用法，與本句語境不同。",
-        "event-mcq-05": "「主要供人聚會、交流或建立人際關係的活動」是「social event」的用法，與本句語境不同。",
-        "event-mcq-06": "「為慶祝、紀念、頒獎等目的舉行的正式活動」是「ceremonial/celebration event」的用法，與本句語境不同。"
+        "event-mcq-03": "本句的「event」指「對歷史、社會、組織或個人具有重大影響的重要事件」。",
+        "event-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-03"
     },
@@ -727,11 +703,9 @@ export default {
       "masked": "The agreement was a historic ____ for the organization.",
       "options": [
         "event-mcq-03",
-        "event-mcq-02",
-        "event-mcq-04",
         "event-mcq-01",
-        "event-mcq-05",
-        "event-mcq-06"
+        "event-mcq-18",
+        "event-mcq-17"
       ],
       "explanation": "本句的「event」指「對歷史、社會、組織或個人具有重大影響的重要事件」。",
       "sentenceIndex": 6,
@@ -740,12 +714,10 @@ export default {
         "event"
       ],
       "optionReasons": {
-        "event-mcq-03": "本句指「對歷史、社會、組織或個人具有重大影響的重要事件」。",
-        "event-mcq-02": "「在某個時間實際發生、可視為一件獨立事情的事件／情況」是「event — occurrence」的用法，與本句語境不同。",
-        "event-mcq-04": "「近期在社會、政治、經濟或世界各地發生的重要事情；時事」是「current events」的用法，與本句語境不同。",
-        "event-mcq-01": "「為特定目的預先安排、在指定時間和場合舉行，供一群人出席或參與的活動」是「event — organized occasion」的用法，與本句語境不同。",
-        "event-mcq-05": "「主要供人聚會、交流或建立人際關係的活動」是「social event」的用法，與本句語境不同。",
-        "event-mcq-06": "「為慶祝、紀念、頒獎等目的舉行的正式活動」是「ceremonial/celebration event」的用法，與本句語境不同。"
+        "event-mcq-03": "本句的「event」指「對歷史、社會、組織或個人具有重大影響的重要事件」。",
+        "event-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-03"
     },
@@ -757,11 +729,9 @@ export default {
       "masked": "The class includes discussions about ____.",
       "options": [
         "event-mcq-04",
-        "event-mcq-03",
-        "event-mcq-05",
-        "event-mcq-02",
-        "event-mcq-06",
-        "event-mcq-01"
+        "event-mcq-11",
+        "event-mcq-20",
+        "event-mcq-08"
       ],
       "explanation": "本句的「current events」指「近期在社會、政治、經濟或世界各地發生的重要事情；時事」。",
       "sentenceIndex": 7,
@@ -770,12 +740,10 @@ export default {
         "current events"
       ],
       "optionReasons": {
-        "event-mcq-04": "本句指「近期在社會、政治、經濟或世界各地發生的重要事情；時事」。",
-        "event-mcq-03": "「對歷史、社會、組織或個人具有重大影響的重要事件」是「major/historic event」的用法，與本句語境不同。",
-        "event-mcq-05": "「主要供人聚會、交流或建立人際關係的活動」是「social event」的用法，與本句語境不同。",
-        "event-mcq-02": "「在某個時間實際發生、可視為一件獨立事情的事件／情況」是「event — occurrence」的用法，與本句語境不同。",
-        "event-mcq-06": "「為慶祝、紀念、頒獎等目的舉行的正式活動」是「ceremonial/celebration event」的用法，與本句語境不同。",
-        "event-mcq-01": "「為特定目的預先安排、在指定時間和場合舉行，供一群人出席或參與的活動」是「event — organized occasion」的用法，與本句語境不同。"
+        "event-mcq-04": "本句的「current events」指「近期在社會、政治、經濟或世界各地發生的重要事情；時事」。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-04"
     },
@@ -787,11 +755,9 @@ export default {
       "masked": "He reads the news every morning to keep up with ____.",
       "options": [
         "event-mcq-04",
-        "event-mcq-03",
-        "event-mcq-05",
-        "event-mcq-02",
-        "event-mcq-06",
-        "event-mcq-01"
+        "event-mcq-18",
+        "event-mcq-11",
+        "event-mcq-07"
       ],
       "explanation": "本句的「current events」指「近期在社會、政治、經濟或世界各地發生的重要事情；時事」。",
       "sentenceIndex": 8,
@@ -800,12 +766,10 @@ export default {
         "current events"
       ],
       "optionReasons": {
-        "event-mcq-04": "本句指「近期在社會、政治、經濟或世界各地發生的重要事情；時事」。",
-        "event-mcq-03": "「對歷史、社會、組織或個人具有重大影響的重要事件」是「major/historic event」的用法，與本句語境不同。",
-        "event-mcq-05": "「主要供人聚會、交流或建立人際關係的活動」是「social event」的用法，與本句語境不同。",
-        "event-mcq-02": "「在某個時間實際發生、可視為一件獨立事情的事件／情況」是「event — occurrence」的用法，與本句語境不同。",
-        "event-mcq-06": "「為慶祝、紀念、頒獎等目的舉行的正式活動」是「ceremonial/celebration event」的用法，與本句語境不同。",
-        "event-mcq-01": "「為特定目的預先安排、在指定時間和場合舉行，供一群人出席或參與的活動」是「event — organized occasion」的用法，與本句語境不同。"
+        "event-mcq-04": "本句的「current events」指「近期在社會、政治、經濟或世界各地發生的重要事情；時事」。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-04"
     },
@@ -817,11 +781,9 @@ export default {
       "masked": "She met several useful contacts at the networking ____.",
       "options": [
         "event-mcq-05",
-        "event-mcq-04",
-        "event-mcq-06",
-        "event-mcq-03",
-        "event-mcq-07",
-        "event-mcq-02"
+        "event-mcq-14",
+        "event-mcq-18",
+        "event-mcq-11"
       ],
       "explanation": "本句的「event」指「主要供人聚會、交流或建立人際關係的活動」。",
       "sentenceIndex": 9,
@@ -830,12 +792,10 @@ export default {
         "event"
       ],
       "optionReasons": {
-        "event-mcq-05": "本句指「主要供人聚會、交流或建立人際關係的活動」。",
-        "event-mcq-04": "「近期在社會、政治、經濟或世界各地發生的重要事情；時事」是「current events」的用法，與本句語境不同。",
-        "event-mcq-06": "「為慶祝、紀念、頒獎等目的舉行的正式活動」是「ceremonial/celebration event」的用法，與本句語境不同。",
-        "event-mcq-03": "「對歷史、社會、組織或個人具有重大影響的重要事件」是「major/historic event」的用法，與本句語境不同。",
-        "event-mcq-07": "「正式安排的體育比賽或競賽活動」是「sporting event」的用法，與本句語境不同。",
-        "event-mcq-02": "「在某個時間實際發生、可視為一件獨立事情的事件／情況」是「event — occurrence」的用法，與本句語境不同。"
+        "event-mcq-05": "本句的「event」指「主要供人聚會、交流或建立人際關係的活動」。",
+        "event-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-05"
     },
@@ -847,11 +807,9 @@ export default {
       "masked": "The dinner was the main social ____ of the conference.",
       "options": [
         "event-mcq-05",
-        "event-mcq-04",
-        "event-mcq-06",
-        "event-mcq-03",
-        "event-mcq-07",
-        "event-mcq-02"
+        "event-mcq-14",
+        "event-mcq-18",
+        "event-mcq-11"
       ],
       "explanation": "本句的「event」指「主要供人聚會、交流或建立人際關係的活動」。",
       "sentenceIndex": 10,
@@ -860,12 +818,10 @@ export default {
         "event"
       ],
       "optionReasons": {
-        "event-mcq-05": "本句指「主要供人聚會、交流或建立人際關係的活動」。",
-        "event-mcq-04": "「近期在社會、政治、經濟或世界各地發生的重要事情；時事」是「current events」的用法，與本句語境不同。",
-        "event-mcq-06": "「為慶祝、紀念、頒獎等目的舉行的正式活動」是「ceremonial/celebration event」的用法，與本句語境不同。",
-        "event-mcq-03": "「對歷史、社會、組織或個人具有重大影響的重要事件」是「major/historic event」的用法，與本句語境不同。",
-        "event-mcq-07": "「正式安排的體育比賽或競賽活動」是「sporting event」的用法，與本句語境不同。",
-        "event-mcq-02": "「在某個時間實際發生、可視為一件獨立事情的事件／情況」是「event — occurrence」的用法，與本句語境不同。"
+        "event-mcq-05": "本句的「event」指「主要供人聚會、交流或建立人際關係的活動」。",
+        "event-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-05"
     },
@@ -877,11 +833,9 @@ export default {
       "masked": "The awards ____ will take place on Friday.",
       "options": [
         "event-mcq-06",
-        "event-mcq-05",
-        "event-mcq-07",
-        "event-mcq-04",
-        "event-mcq-08",
-        "event-mcq-03"
+        "event-mcq-17",
+        "event-mcq-24",
+        "event-mcq-18"
       ],
       "explanation": "本句的「event」指「為慶祝、紀念、頒獎等目的舉行的正式活動」。",
       "sentenceIndex": 11,
@@ -890,12 +844,10 @@ export default {
         "event"
       ],
       "optionReasons": {
-        "event-mcq-06": "本句指「為慶祝、紀念、頒獎等目的舉行的正式活動」。",
-        "event-mcq-05": "「主要供人聚會、交流或建立人際關係的活動」是「social event」的用法，與本句語境不同。",
-        "event-mcq-07": "「正式安排的體育比賽或競賽活動」是「sporting event」的用法，與本句語境不同。",
-        "event-mcq-04": "「近期在社會、政治、經濟或世界各地發生的重要事情；時事」是「current events」的用法，與本句語境不同。",
-        "event-mcq-08": "「大型運動會／比賽中的一個獨立競賽項目」是「event — sports category」的用法，與本句語境不同。",
-        "event-mcq-03": "「對歷史、社會、組織或個人具有重大影響的重要事件」是「major/historic event」的用法，與本句語境不同。"
+        "event-mcq-06": "本句的「event」指「為慶祝、紀念、頒獎等目的舉行的正式活動」。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-06"
     },
@@ -907,11 +859,9 @@ export default {
       "masked": "The school held a special ____ to celebrate its anniversary.",
       "options": [
         "event-mcq-06",
-        "event-mcq-05",
-        "event-mcq-07",
-        "event-mcq-04",
-        "event-mcq-08",
-        "event-mcq-03"
+        "event-mcq-02",
+        "event-mcq-17",
+        "event-mcq-11"
       ],
       "explanation": "本句的「event」指「為慶祝、紀念、頒獎等目的舉行的正式活動」。",
       "sentenceIndex": 12,
@@ -920,12 +870,10 @@ export default {
         "event"
       ],
       "optionReasons": {
-        "event-mcq-06": "本句指「為慶祝、紀念、頒獎等目的舉行的正式活動」。",
-        "event-mcq-05": "「主要供人聚會、交流或建立人際關係的活動」是「social event」的用法，與本句語境不同。",
-        "event-mcq-07": "「正式安排的體育比賽或競賽活動」是「sporting event」的用法，與本句語境不同。",
-        "event-mcq-04": "「近期在社會、政治、經濟或世界各地發生的重要事情；時事」是「current events」的用法，與本句語境不同。",
-        "event-mcq-08": "「大型運動會／比賽中的一個獨立競賽項目」是「event — sports category」的用法，與本句語境不同。",
-        "event-mcq-03": "「對歷史、社會、組織或個人具有重大影響的重要事件」是「major/historic event」的用法，與本句語境不同。"
+        "event-mcq-06": "本句的「event」指「為慶祝、紀念、頒獎等目的舉行的正式活動」。",
+        "event-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-06"
     },
@@ -937,11 +885,9 @@ export default {
       "masked": "The Olympics is one of the world’s biggest sporting ____.",
       "options": [
         "event-mcq-07",
-        "event-mcq-06",
-        "event-mcq-08",
-        "event-mcq-05",
-        "event-mcq-09",
-        "event-mcq-04"
+        "event-mcq-10",
+        "event-mcq-18",
+        "event-mcq-03"
       ],
       "explanation": "本句的「events」指「正式安排的體育比賽或競賽活動」。",
       "sentenceIndex": 13,
@@ -950,12 +896,10 @@ export default {
         "events"
       ],
       "optionReasons": {
-        "event-mcq-07": "本句指「正式安排的體育比賽或競賽活動」。",
-        "event-mcq-06": "「為慶祝、紀念、頒獎等目的舉行的正式活動」是「ceremonial/celebration event」的用法，與本句語境不同。",
-        "event-mcq-08": "「大型運動會／比賽中的一個獨立競賽項目」是「event — sports category」的用法，與本句語境不同。",
-        "event-mcq-05": "「主要供人聚會、交流或建立人際關係的活動」是「social event」的用法，與本句語境不同。",
-        "event-mcq-09": "「一系列活動中最重要、最核心或最受期待的一項／主賽」是「main event」的用法，與本句語境不同。",
-        "event-mcq-04": "「近期在社會、政治、經濟或世界各地發生的重要事情；時事」是「current events」的用法，與本句語境不同。"
+        "event-mcq-07": "本句的「events」指「正式安排的體育比賽或競賽活動」。",
+        "event-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-07"
     },
@@ -967,11 +911,9 @@ export default {
       "masked": "Thousands of fans attended the ____.",
       "options": [
         "event-mcq-07",
-        "event-mcq-06",
-        "event-mcq-08",
-        "event-mcq-05",
-        "event-mcq-09",
-        "event-mcq-04"
+        "event-mcq-21",
+        "event-mcq-17",
+        "event-mcq-18"
       ],
       "explanation": "本句的「event」指「正式安排的體育比賽或競賽活動」。",
       "sentenceIndex": 14,
@@ -980,12 +922,10 @@ export default {
         "event"
       ],
       "optionReasons": {
-        "event-mcq-07": "本句指「正式安排的體育比賽或競賽活動」。",
-        "event-mcq-06": "「為慶祝、紀念、頒獎等目的舉行的正式活動」是「ceremonial/celebration event」的用法，與本句語境不同。",
-        "event-mcq-08": "「大型運動會／比賽中的一個獨立競賽項目」是「event — sports category」的用法，與本句語境不同。",
-        "event-mcq-05": "「主要供人聚會、交流或建立人際關係的活動」是「social event」的用法，與本句語境不同。",
-        "event-mcq-09": "「一系列活動中最重要、最核心或最受期待的一項／主賽」是「main event」的用法，與本句語境不同。",
-        "event-mcq-04": "「近期在社會、政治、經濟或世界各地發生的重要事情；時事」是「current events」的用法，與本句語境不同。"
+        "event-mcq-07": "本句的「event」指「正式安排的體育比賽或競賽活動」。",
+        "event-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-07"
     },
@@ -997,11 +937,9 @@ export default {
       "masked": "She won the 100-metre ____.",
       "options": [
         "event-mcq-08",
-        "event-mcq-07",
-        "event-mcq-09",
-        "event-mcq-06",
-        "event-mcq-10",
-        "event-mcq-05"
+        "event-mcq-15",
+        "event-mcq-23",
+        "event-mcq-11"
       ],
       "explanation": "本句的「event」指「大型運動會／比賽中的一個獨立競賽項目」。",
       "sentenceIndex": 15,
@@ -1010,12 +948,10 @@ export default {
         "event"
       ],
       "optionReasons": {
-        "event-mcq-08": "本句指「大型運動會／比賽中的一個獨立競賽項目」。",
-        "event-mcq-07": "「正式安排的體育比賽或競賽活動」是「sporting event」的用法，與本句語境不同。",
-        "event-mcq-09": "「一系列活動中最重要、最核心或最受期待的一項／主賽」是「main event」的用法，與本句語境不同。",
-        "event-mcq-06": "「為慶祝、紀念、頒獎等目的舉行的正式活動」是「ceremonial/celebration event」的用法，與本句語境不同。",
-        "event-mcq-10": "「在某個系統、過程或時間序列中可識別的一次獨立發生」是「event — process/system occurrence」的用法，與本句語境不同。",
-        "event-mcq-05": "「主要供人聚會、交流或建立人際關係的活動」是「social event」的用法，與本句語境不同。"
+        "event-mcq-08": "本句的「event」指「大型運動會／比賽中的一個獨立競賽項目」。",
+        "event-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-08"
     },
@@ -1027,11 +963,9 @@ export default {
       "masked": "The swimming ____ begin tomorrow.",
       "options": [
         "event-mcq-08",
-        "event-mcq-07",
-        "event-mcq-09",
-        "event-mcq-06",
-        "event-mcq-10",
-        "event-mcq-05"
+        "event-mcq-23",
+        "event-mcq-04",
+        "event-mcq-11"
       ],
       "explanation": "本句的「events」指「大型運動會／比賽中的一個獨立競賽項目」。",
       "sentenceIndex": 16,
@@ -1040,12 +974,10 @@ export default {
         "events"
       ],
       "optionReasons": {
-        "event-mcq-08": "本句指「大型運動會／比賽中的一個獨立競賽項目」。",
-        "event-mcq-07": "「正式安排的體育比賽或競賽活動」是「sporting event」的用法，與本句語境不同。",
-        "event-mcq-09": "「一系列活動中最重要、最核心或最受期待的一項／主賽」是「main event」的用法，與本句語境不同。",
-        "event-mcq-06": "「為慶祝、紀念、頒獎等目的舉行的正式活動」是「ceremonial/celebration event」的用法，與本句語境不同。",
-        "event-mcq-10": "「在某個系統、過程或時間序列中可識別的一次獨立發生」是「event — process/system occurrence」的用法，與本句語境不同。",
-        "event-mcq-05": "「主要供人聚會、交流或建立人際關係的活動」是「social event」的用法，與本句語境不同。"
+        "event-mcq-08": "本句的「events」指「大型運動會／比賽中的一個獨立競賽項目」。",
+        "event-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-08"
     },
@@ -1057,11 +989,9 @@ export default {
       "masked": "The keynote speech was the ____ of the evening.",
       "options": [
         "event-mcq-09",
-        "event-mcq-08",
-        "event-mcq-10",
-        "event-mcq-07",
-        "event-mcq-11",
-        "event-mcq-06"
+        "event-mcq-15",
+        "event-mcq-17",
+        "event-mcq-23"
       ],
       "explanation": "本句的「main event」指「一系列活動中最重要、最核心或最受期待的一項／主賽」。",
       "sentenceIndex": 17,
@@ -1070,12 +1000,10 @@ export default {
         "main event"
       ],
       "optionReasons": {
-        "event-mcq-09": "本句指「一系列活動中最重要、最核心或最受期待的一項／主賽」。",
-        "event-mcq-08": "「大型運動會／比賽中的一個獨立競賽項目」是「event — sports category」的用法，與本句語境不同。",
-        "event-mcq-10": "「在某個系統、過程或時間序列中可識別的一次獨立發生」是「event — process/system occurrence」的用法，與本句語境不同。",
-        "event-mcq-07": "「正式安排的體育比賽或競賽活動」是「sporting event」的用法，與本句語境不同。",
-        "event-mcq-11": "「軟件或系統能偵測並回應的一次操作、訊息或狀態改變」是「event — computing」的用法，與本句語境不同。",
-        "event-mcq-06": "「為慶祝、紀念、頒獎等目的舉行的正式活動」是「ceremonial/celebration event」的用法，與本句語境不同。"
+        "event-mcq-09": "本句的「main event」指「一系列活動中最重要、最核心或最受期待的一項／主賽」。",
+        "event-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-09"
     },
@@ -1087,11 +1015,9 @@ export default {
       "masked": "The championship fight is tonight’s ____.",
       "options": [
         "event-mcq-09",
-        "event-mcq-08",
-        "event-mcq-10",
-        "event-mcq-07",
-        "event-mcq-11",
-        "event-mcq-06"
+        "event-mcq-02",
+        "event-mcq-17",
+        "event-mcq-11"
       ],
       "explanation": "本句的「main event」指「一系列活動中最重要、最核心或最受期待的一項／主賽」。",
       "sentenceIndex": 18,
@@ -1100,12 +1026,10 @@ export default {
         "main event"
       ],
       "optionReasons": {
-        "event-mcq-09": "本句指「一系列活動中最重要、最核心或最受期待的一項／主賽」。",
-        "event-mcq-08": "「大型運動會／比賽中的一個獨立競賽項目」是「event — sports category」的用法，與本句語境不同。",
-        "event-mcq-10": "「在某個系統、過程或時間序列中可識別的一次獨立發生」是「event — process/system occurrence」的用法，與本句語境不同。",
-        "event-mcq-07": "「正式安排的體育比賽或競賽活動」是「sporting event」的用法，與本句語境不同。",
-        "event-mcq-11": "「軟件或系統能偵測並回應的一次操作、訊息或狀態改變」是「event — computing」的用法，與本句語境不同。",
-        "event-mcq-06": "「為慶祝、紀念、頒獎等目的舉行的正式活動」是「ceremonial/celebration event」的用法，與本句語境不同。"
+        "event-mcq-09": "本句的「main event」指「一系列活動中最重要、最核心或最受期待的一項／主賽」。",
+        "event-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-09"
     },
@@ -1117,10 +1041,8 @@ export default {
       "masked": "Each failure was recorded as a separate ____.",
       "options": [
         "event-mcq-10",
-        "event-mcq-09",
-        "event-mcq-11",
-        "event-mcq-08",
-        "event-mcq-12",
+        "event-mcq-03",
+        "event-mcq-18",
         "event-mcq-07"
       ],
       "explanation": "本句的「event」指「在某個系統、過程或時間序列中可識別的一次獨立發生」。",
@@ -1130,12 +1052,10 @@ export default {
         "event"
       ],
       "optionReasons": {
-        "event-mcq-10": "本句指「在某個系統、過程或時間序列中可識別的一次獨立發生」。",
-        "event-mcq-09": "「一系列活動中最重要、最核心或最受期待的一項／主賽」是「main event」的用法，與本句語境不同。",
-        "event-mcq-11": "「軟件或系統能偵測並回應的一次操作、訊息或狀態改變」是「event — computing」的用法，與本句語境不同。",
-        "event-mcq-08": "「大型運動會／比賽中的一個獨立競賽項目」是「event — sports category」的用法，與本句語境不同。",
-        "event-mcq-12": "「在指定電腦事件發生時自動執行相應操作的程式碼／函式」是「event handler」的用法，與本句語境不同。",
-        "event-mcq-07": "「正式安排的體育比賽或競賽活動」是「sporting event」的用法，與本句語境不同。"
+        "event-mcq-10": "本句的「event」指「在某個系統、過程或時間序列中可識別的一次獨立發生」。",
+        "event-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-10"
     },
@@ -1147,11 +1067,9 @@ export default {
       "masked": "The system stores the time of every ____.",
       "options": [
         "event-mcq-10",
-        "event-mcq-09",
-        "event-mcq-11",
-        "event-mcq-08",
-        "event-mcq-12",
-        "event-mcq-07"
+        "event-mcq-18",
+        "event-mcq-06",
+        "event-mcq-03"
       ],
       "explanation": "本句的「event」指「在某個系統、過程或時間序列中可識別的一次獨立發生」。",
       "sentenceIndex": 20,
@@ -1160,12 +1078,10 @@ export default {
         "event"
       ],
       "optionReasons": {
-        "event-mcq-10": "本句指「在某個系統、過程或時間序列中可識別的一次獨立發生」。",
-        "event-mcq-09": "「一系列活動中最重要、最核心或最受期待的一項／主賽」是「main event」的用法，與本句語境不同。",
-        "event-mcq-11": "「軟件或系統能偵測並回應的一次操作、訊息或狀態改變」是「event — computing」的用法，與本句語境不同。",
-        "event-mcq-08": "「大型運動會／比賽中的一個獨立競賽項目」是「event — sports category」的用法，與本句語境不同。",
-        "event-mcq-12": "「在指定電腦事件發生時自動執行相應操作的程式碼／函式」是「event handler」的用法，與本句語境不同。",
-        "event-mcq-07": "「正式安排的體育比賽或競賽活動」是「sporting event」的用法，與本句語境不同。"
+        "event-mcq-10": "本句的「event」指「在某個系統、過程或時間序列中可識別的一次獨立發生」。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-10"
     },
@@ -1177,11 +1093,9 @@ export default {
       "masked": "Clicking the button triggers an ____.",
       "options": [
         "event-mcq-11",
-        "event-mcq-10",
-        "event-mcq-12",
-        "event-mcq-09",
-        "event-mcq-13",
-        "event-mcq-08"
+        "event-mcq-01",
+        "event-mcq-08",
+        "event-mcq-22"
       ],
       "explanation": "本句的「event」指「軟件或系統能偵測並回應的一次操作、訊息或狀態改變」。",
       "sentenceIndex": 21,
@@ -1190,12 +1104,10 @@ export default {
         "event"
       ],
       "optionReasons": {
-        "event-mcq-11": "本句指「軟件或系統能偵測並回應的一次操作、訊息或狀態改變」。",
-        "event-mcq-10": "「在某個系統、過程或時間序列中可識別的一次獨立發生」是「event — process/system occurrence」的用法，與本句語境不同。",
-        "event-mcq-12": "「在指定電腦事件發生時自動執行相應操作的程式碼／函式」是「event handler」的用法，與本句語境不同。",
-        "event-mcq-09": "「一系列活動中最重要、最核心或最受期待的一項／主賽」是「main event」的用法，與本句語境不同。",
-        "event-mcq-13": "「系統行為主要由特定事件的發生來觸發和控制的」是「event-driven」的用法，與本句語境不同。",
-        "event-mcq-08": "「大型運動會／比賽中的一個獨立競賽項目」是「event — sports category」的用法，與本句語境不同。"
+        "event-mcq-11": "本句的「event」指「軟件或系統能偵測並回應的一次操作、訊息或狀態改變」。",
+        "event-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-11"
     },
@@ -1207,11 +1119,9 @@ export default {
       "masked": "The application records user ____ such as logins and purchases.",
       "options": [
         "event-mcq-11",
-        "event-mcq-10",
-        "event-mcq-12",
-        "event-mcq-09",
-        "event-mcq-13",
-        "event-mcq-08"
+        "event-mcq-17",
+        "event-mcq-04",
+        "event-mcq-20"
       ],
       "explanation": "本句的「events」指「軟件或系統能偵測並回應的一次操作、訊息或狀態改變」。",
       "sentenceIndex": 22,
@@ -1220,12 +1130,10 @@ export default {
         "events"
       ],
       "optionReasons": {
-        "event-mcq-11": "本句指「軟件或系統能偵測並回應的一次操作、訊息或狀態改變」。",
-        "event-mcq-10": "「在某個系統、過程或時間序列中可識別的一次獨立發生」是「event — process/system occurrence」的用法，與本句語境不同。",
-        "event-mcq-12": "「在指定電腦事件發生時自動執行相應操作的程式碼／函式」是「event handler」的用法，與本句語境不同。",
-        "event-mcq-09": "「一系列活動中最重要、最核心或最受期待的一項／主賽」是「main event」的用法，與本句語境不同。",
-        "event-mcq-13": "「系統行為主要由特定事件的發生來觸發和控制的」是「event-driven」的用法，與本句語境不同。",
-        "event-mcq-08": "「大型運動會／比賽中的一個獨立競賽項目」是「event — sports category」的用法，與本句語境不同。"
+        "event-mcq-11": "本句的「events」指「軟件或系統能偵測並回應的一次操作、訊息或狀態改變」。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-11"
     },
@@ -1237,11 +1145,9 @@ export default {
       "masked": "The developer added an ____ for the button.",
       "options": [
         "event-mcq-12",
-        "event-mcq-11",
-        "event-mcq-13",
-        "event-mcq-10",
-        "event-mcq-14",
-        "event-mcq-09"
+        "event-mcq-17",
+        "event-mcq-18",
+        "event-mcq-05"
       ],
       "explanation": "本句的「event handler」指「在指定電腦事件發生時自動執行相應操作的程式碼／函式」。",
       "sentenceIndex": 23,
@@ -1250,12 +1156,10 @@ export default {
         "event handler"
       ],
       "optionReasons": {
-        "event-mcq-12": "本句指「在指定電腦事件發生時自動執行相應操作的程式碼／函式」。",
-        "event-mcq-11": "「軟件或系統能偵測並回應的一次操作、訊息或狀態改變」是「event — computing」的用法，與本句語境不同。",
-        "event-mcq-13": "「系統行為主要由特定事件的發生來觸發和控制的」是「event-driven」的用法，與本句語境不同。",
-        "event-mcq-10": "「在某個系統、過程或時間序列中可識別的一次獨立發生」是「event — process/system occurrence」的用法，與本句語境不同。",
-        "event-mcq-14": "「在概率模型中由一個或多個可能結果組成、可計算發生概率的情況」是「event — probability」的用法，與本句語境不同。",
-        "event-mcq-09": "「一系列活動中最重要、最核心或最受期待的一項／主賽」是「main event」的用法，與本句語境不同。"
+        "event-mcq-12": "本句的「event handler」指「在指定電腦事件發生時自動執行相應操作的程式碼／函式」。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-12"
     },
@@ -1267,10 +1171,8 @@ export default {
       "masked": "The ____ runs whenever the user clicks the icon.",
       "options": [
         "event-mcq-12",
-        "event-mcq-11",
-        "event-mcq-13",
-        "event-mcq-10",
-        "event-mcq-14",
+        "event-mcq-18",
+        "event-mcq-17",
         "event-mcq-09"
       ],
       "explanation": "本句的「event handler」指「在指定電腦事件發生時自動執行相應操作的程式碼／函式」。",
@@ -1280,12 +1182,10 @@ export default {
         "event handler"
       ],
       "optionReasons": {
-        "event-mcq-12": "本句指「在指定電腦事件發生時自動執行相應操作的程式碼／函式」。",
-        "event-mcq-11": "「軟件或系統能偵測並回應的一次操作、訊息或狀態改變」是「event — computing」的用法，與本句語境不同。",
-        "event-mcq-13": "「系統行為主要由特定事件的發生來觸發和控制的」是「event-driven」的用法，與本句語境不同。",
-        "event-mcq-10": "「在某個系統、過程或時間序列中可識別的一次獨立發生」是「event — process/system occurrence」的用法，與本句語境不同。",
-        "event-mcq-14": "「在概率模型中由一個或多個可能結果組成、可計算發生概率的情況」是「event — probability」的用法，與本句語境不同。",
-        "event-mcq-09": "「一系列活動中最重要、最核心或最受期待的一項／主賽」是「main event」的用法，與本句語境不同。"
+        "event-mcq-12": "本句的「event handler」指「在指定電腦事件發生時自動執行相應操作的程式碼／函式」。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-12"
     },
@@ -1297,11 +1197,9 @@ export default {
       "masked": "The application uses an ____ architecture.",
       "options": [
         "event-mcq-13",
-        "event-mcq-12",
-        "event-mcq-14",
-        "event-mcq-11",
-        "event-mcq-15",
-        "event-mcq-10"
+        "event-mcq-07",
+        "event-mcq-18",
+        "event-mcq-17"
       ],
       "explanation": "本句的「event-driven」指「系統行為主要由特定事件的發生來觸發和控制的」。",
       "sentenceIndex": 25,
@@ -1310,12 +1208,10 @@ export default {
         "event-driven"
       ],
       "optionReasons": {
-        "event-mcq-13": "本句指「系統行為主要由特定事件的發生來觸發和控制的」。",
-        "event-mcq-12": "「在指定電腦事件發生時自動執行相應操作的程式碼／函式」是「event handler」的用法，與本句語境不同。",
-        "event-mcq-14": "「在概率模型中由一個或多個可能結果組成、可計算發生概率的情況」是「event — probability」的用法，與本句語境不同。",
-        "event-mcq-11": "「軟件或系統能偵測並回應的一次操作、訊息或狀態改變」是「event — computing」的用法，與本句語境不同。",
-        "event-mcq-15": "「如果某個指定情況發生；萬一……」是「in the event of」的用法，與本句語境不同。",
-        "event-mcq-10": "「在某個系統、過程或時間序列中可識別的一次獨立發生」是「event — process/system occurrence」的用法，與本句語境不同。"
+        "event-mcq-13": "本句的「event-driven」指「系統行為主要由特定事件的發生來觸發和控制的」。",
+        "event-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-13"
     },
@@ -1327,11 +1223,9 @@ export default {
       "masked": "In an ____ system, actions occur in response to specific events.",
       "options": [
         "event-mcq-13",
-        "event-mcq-12",
-        "event-mcq-14",
-        "event-mcq-11",
-        "event-mcq-15",
-        "event-mcq-10"
+        "event-mcq-23",
+        "event-mcq-07",
+        "event-mcq-17"
       ],
       "explanation": "本句的「event-driven」指「系統行為主要由特定事件的發生來觸發和控制的」。",
       "sentenceIndex": 26,
@@ -1340,12 +1234,10 @@ export default {
         "event-driven"
       ],
       "optionReasons": {
-        "event-mcq-13": "本句指「系統行為主要由特定事件的發生來觸發和控制的」。",
-        "event-mcq-12": "「在指定電腦事件發生時自動執行相應操作的程式碼／函式」是「event handler」的用法，與本句語境不同。",
-        "event-mcq-14": "「在概率模型中由一個或多個可能結果組成、可計算發生概率的情況」是「event — probability」的用法，與本句語境不同。",
-        "event-mcq-11": "「軟件或系統能偵測並回應的一次操作、訊息或狀態改變」是「event — computing」的用法，與本句語境不同。",
-        "event-mcq-15": "「如果某個指定情況發生；萬一……」是「in the event of」的用法，與本句語境不同。",
-        "event-mcq-10": "「在某個系統、過程或時間序列中可識別的一次獨立發生」是「event — process/system occurrence」的用法，與本句語境不同。"
+        "event-mcq-13": "本句的「event-driven」指「系統行為主要由特定事件的發生來觸發和控制的」。",
+        "event-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-13"
     },
@@ -1357,11 +1249,9 @@ export default {
       "masked": "In probability, an ____ may contain several possible outcomes.",
       "options": [
         "event-mcq-14",
-        "event-mcq-13",
-        "event-mcq-15",
-        "event-mcq-12",
-        "event-mcq-16",
-        "event-mcq-11"
+        "event-mcq-11",
+        "event-mcq-07",
+        "event-mcq-03"
       ],
       "explanation": "本句的「event」指「在概率模型中由一個或多個可能結果組成、可計算發生概率的情況」。",
       "sentenceIndex": 27,
@@ -1370,12 +1260,10 @@ export default {
         "event"
       ],
       "optionReasons": {
-        "event-mcq-14": "本句指「在概率模型中由一個或多個可能結果組成、可計算發生概率的情況」。",
-        "event-mcq-13": "「系統行為主要由特定事件的發生來觸發和控制的」是「event-driven」的用法，與本句語境不同。",
-        "event-mcq-15": "「如果某個指定情況發生；萬一……」是「in the event of」的用法，與本句語境不同。",
-        "event-mcq-12": "「在指定電腦事件發生時自動執行相應操作的程式碼／函式」是「event handler」的用法，與本句語境不同。",
-        "event-mcq-16": "「假如後面所述情況真的發生」是「in the event that」的用法，與本句語境不同。",
-        "event-mcq-11": "「軟件或系統能偵測並回應的一次操作、訊息或狀態改變」是「event — computing」的用法，與本句語境不同。"
+        "event-mcq-14": "本句的「event」指「在概率模型中由一個或多個可能結果組成、可計算發生概率的情況」。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-14"
     },
@@ -1387,11 +1275,9 @@ export default {
       "masked": "The probability of the ____ occurring is 0.5.",
       "options": [
         "event-mcq-14",
-        "event-mcq-13",
-        "event-mcq-15",
-        "event-mcq-12",
-        "event-mcq-16",
-        "event-mcq-11"
+        "event-mcq-01",
+        "event-mcq-11",
+        "event-mcq-08"
       ],
       "explanation": "本句的「event」指「在概率模型中由一個或多個可能結果組成、可計算發生概率的情況」。",
       "sentenceIndex": 28,
@@ -1400,12 +1286,10 @@ export default {
         "event"
       ],
       "optionReasons": {
-        "event-mcq-14": "本句指「在概率模型中由一個或多個可能結果組成、可計算發生概率的情況」。",
-        "event-mcq-13": "「系統行為主要由特定事件的發生來觸發和控制的」是「event-driven」的用法，與本句語境不同。",
-        "event-mcq-15": "「如果某個指定情況發生；萬一……」是「in the event of」的用法，與本句語境不同。",
-        "event-mcq-12": "「在指定電腦事件發生時自動執行相應操作的程式碼／函式」是「event handler」的用法，與本句語境不同。",
-        "event-mcq-16": "「假如後面所述情況真的發生」是「in the event that」的用法，與本句語境不同。",
-        "event-mcq-11": "「軟件或系統能偵測並回應的一次操作、訊息或狀態改變」是「event — computing」的用法，與本句語境不同。"
+        "event-mcq-14": "本句的「event」指「在概率模型中由一個或多個可能結果組成、可計算發生概率的情況」。",
+        "event-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-14"
     },
@@ -1417,11 +1301,9 @@ export default {
       "masked": "____, leave the building immediately.",
       "options": [
         "event-mcq-15",
-        "event-mcq-14",
-        "event-mcq-16",
-        "event-mcq-13",
-        "event-mcq-17",
-        "event-mcq-12"
+        "event-mcq-03",
+        "event-mcq-06",
+        "event-mcq-08"
       ],
       "explanation": "本句的「In the event of a fire」指「如果某個指定情況發生；萬一……」。",
       "sentenceIndex": 29,
@@ -1430,12 +1312,10 @@ export default {
         "In the event of a fire"
       ],
       "optionReasons": {
-        "event-mcq-15": "本句指「如果某個指定情況發生；萬一……」。",
-        "event-mcq-14": "「在概率模型中由一個或多個可能結果組成、可計算發生概率的情況」是「event — probability」的用法，與本句語境不同。",
-        "event-mcq-16": "「假如後面所述情況真的發生」是「in the event that」的用法，與本句語境不同。",
-        "event-mcq-13": "「系統行為主要由特定事件的發生來觸發和控制的」是「event-driven」的用法，與本句語境不同。",
-        "event-mcq-17": "「無論其他情況如何，後面的事情仍然成立；無論如何」是「in any event」的用法，與本句語境不同。",
-        "event-mcq-12": "「在指定電腦事件發生時自動執行相應操作的程式碼／函式」是「event handler」的用法，與本句語境不同。"
+        "event-mcq-15": "本句的「In the event of a fire」指「如果某個指定情況發生；萬一……」。",
+        "event-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-15"
     },
@@ -1447,11 +1327,9 @@ export default {
       "masked": "____, contact support.",
       "options": [
         "event-mcq-15",
-        "event-mcq-14",
-        "event-mcq-16",
-        "event-mcq-13",
-        "event-mcq-17",
-        "event-mcq-12"
+        "event-mcq-03",
+        "event-mcq-07",
+        "event-mcq-17"
       ],
       "explanation": "本句的「In the event of technical problems」指「如果某個指定情況發生；萬一……」。",
       "sentenceIndex": 30,
@@ -1460,12 +1338,10 @@ export default {
         "In the event of technical problems"
       ],
       "optionReasons": {
-        "event-mcq-15": "本句指「如果某個指定情況發生；萬一……」。",
-        "event-mcq-14": "「在概率模型中由一個或多個可能結果組成、可計算發生概率的情況」是「event — probability」的用法，與本句語境不同。",
-        "event-mcq-16": "「假如後面所述情況真的發生」是「in the event that」的用法，與本句語境不同。",
-        "event-mcq-13": "「系統行為主要由特定事件的發生來觸發和控制的」是「event-driven」的用法，與本句語境不同。",
-        "event-mcq-17": "「無論其他情況如何，後面的事情仍然成立；無論如何」是「in any event」的用法，與本句語境不同。",
-        "event-mcq-12": "「在指定電腦事件發生時自動執行相應操作的程式碼／函式」是「event handler」的用法，與本句語境不同。"
+        "event-mcq-15": "本句的「In the event of technical problems」指「如果某個指定情況發生；萬一……」。",
+        "event-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-15"
     },
@@ -1477,11 +1353,9 @@ export default {
       "masked": "____, another manager will present.",
       "options": [
         "event-mcq-16",
-        "event-mcq-15",
-        "event-mcq-17",
-        "event-mcq-14",
-        "event-mcq-18",
-        "event-mcq-13"
+        "event-mcq-07",
+        "event-mcq-11",
+        "event-mcq-03"
       ],
       "explanation": "本句的「In the event that the speaker is unavailable」指「假如後面所述情況真的發生」。",
       "sentenceIndex": 31,
@@ -1490,12 +1364,10 @@ export default {
         "In the event that the speaker is unavailable"
       ],
       "optionReasons": {
-        "event-mcq-16": "本句指「假如後面所述情況真的發生」。",
-        "event-mcq-15": "「如果某個指定情況發生；萬一……」是「in the event of」的用法，與本句語境不同。",
-        "event-mcq-17": "「無論其他情況如何，後面的事情仍然成立；無論如何」是「in any event」的用法，與本句語境不同。",
-        "event-mcq-14": "「在概率模型中由一個或多個可能結果組成、可計算發生概率的情況」是「event — probability」的用法，與本句語境不同。",
-        "event-mcq-18": "「如果剛才提到的情況真的出現；那樣的話」是「in that event」的用法，與本句語境不同。",
-        "event-mcq-13": "「系統行為主要由特定事件的發生來觸發和控制的」是「event-driven」的用法，與本句語境不同。"
+        "event-mcq-16": "本句的「In the event that the speaker is unavailable」指「假如後面所述情況真的發生」。",
+        "event-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-16"
     },
@@ -1507,11 +1379,9 @@ export default {
       "masked": "____, a fee may apply.",
       "options": [
         "event-mcq-16",
-        "event-mcq-15",
-        "event-mcq-17",
-        "event-mcq-14",
-        "event-mcq-18",
-        "event-mcq-13"
+        "event-mcq-08",
+        "event-mcq-20",
+        "event-mcq-11"
       ],
       "explanation": "本句的「In the event that payment is delayed」指「假如後面所述情況真的發生」。",
       "sentenceIndex": 32,
@@ -1520,12 +1390,10 @@ export default {
         "In the event that payment is delayed"
       ],
       "optionReasons": {
-        "event-mcq-16": "本句指「假如後面所述情況真的發生」。",
-        "event-mcq-15": "「如果某個指定情況發生；萬一……」是「in the event of」的用法，與本句語境不同。",
-        "event-mcq-17": "「無論其他情況如何，後面的事情仍然成立；無論如何」是「in any event」的用法，與本句語境不同。",
-        "event-mcq-14": "「在概率模型中由一個或多個可能結果組成、可計算發生概率的情況」是「event — probability」的用法，與本句語境不同。",
-        "event-mcq-18": "「如果剛才提到的情況真的出現；那樣的話」是「in that event」的用法，與本句語境不同。",
-        "event-mcq-13": "「系統行為主要由特定事件的發生來觸發和控制的」是「event-driven」的用法，與本句語境不同。"
+        "event-mcq-16": "本句的「In the event that payment is delayed」指「假如後面所述情況真的發生」。",
+        "event-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-16"
     },
@@ -1537,11 +1405,9 @@ export default {
       "masked": "I was nervous, but ____, I had to give the presentation.",
       "options": [
         "event-mcq-17",
-        "event-mcq-16",
-        "event-mcq-18",
-        "event-mcq-15",
+        "event-mcq-21",
         "event-mcq-19",
-        "event-mcq-14"
+        "event-mcq-18"
       ],
       "explanation": "本句的「in any event」指「無論其他情況如何，後面的事情仍然成立；無論如何」。",
       "sentenceIndex": 33,
@@ -1550,12 +1416,10 @@ export default {
         "in any event"
       ],
       "optionReasons": {
-        "event-mcq-17": "本句指「無論其他情況如何，後面的事情仍然成立；無論如何」。",
-        "event-mcq-16": "「假如後面所述情況真的發生」是「in the event that」的用法，與本句語境不同。",
-        "event-mcq-18": "「如果剛才提到的情況真的出現；那樣的話」是「in that event」的用法，與本句語境不同。",
-        "event-mcq-15": "「如果某個指定情況發生；萬一……」是「in the event of」的用法，與本句語境不同。",
-        "event-mcq-19": "「負責計劃、安排及管理某項活動的人／機構」是「event organizer」的用法，與本句語境不同。",
-        "event-mcq-14": "「在概率模型中由一個或多個可能結果組成、可計算發生概率的情況」是「event — probability」的用法，與本句語境不同。"
+        "event-mcq-17": "本句的「in any event」指「無論其他情況如何，後面的事情仍然成立；無論如何」。",
+        "event-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-17"
     },
@@ -1567,11 +1431,9 @@ export default {
       "masked": "The train may be delayed. ____, we should leave early.",
       "options": [
         "event-mcq-17",
-        "event-mcq-16",
-        "event-mcq-18",
-        "event-mcq-15",
-        "event-mcq-19",
-        "event-mcq-14"
+        "event-mcq-07",
+        "event-mcq-21",
+        "event-mcq-18"
       ],
       "explanation": "本句的「In any event」指「無論其他情況如何，後面的事情仍然成立；無論如何」。",
       "sentenceIndex": 34,
@@ -1580,12 +1442,10 @@ export default {
         "In any event"
       ],
       "optionReasons": {
-        "event-mcq-17": "本句指「無論其他情況如何，後面的事情仍然成立；無論如何」。",
-        "event-mcq-16": "「假如後面所述情況真的發生」是「in the event that」的用法，與本句語境不同。",
-        "event-mcq-18": "「如果剛才提到的情況真的出現；那樣的話」是「in that event」的用法，與本句語境不同。",
-        "event-mcq-15": "「如果某個指定情況發生；萬一……」是「in the event of」的用法，與本句語境不同。",
-        "event-mcq-19": "「負責計劃、安排及管理某項活動的人／機構」是「event organizer」的用法，與本句語境不同。",
-        "event-mcq-14": "「在概率模型中由一個或多個可能結果組成、可計算發生概率的情況」是「event — probability」的用法，與本句語境不同。"
+        "event-mcq-17": "本句的「In any event」指「無論其他情況如何，後面的事情仍然成立；無論如何」。",
+        "event-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-17"
     },
@@ -1598,10 +1458,8 @@ export default {
       "options": [
         "event-mcq-18",
         "event-mcq-17",
-        "event-mcq-19",
-        "event-mcq-16",
-        "event-mcq-20",
-        "event-mcq-15"
+        "event-mcq-24",
+        "event-mcq-07"
       ],
       "explanation": "本句的「In that event」指「如果剛才提到的情況真的出現；那樣的話」。",
       "sentenceIndex": 35,
@@ -1610,12 +1468,10 @@ export default {
         "In that event"
       ],
       "optionReasons": {
-        "event-mcq-18": "本句指「如果剛才提到的情況真的出現；那樣的話」。",
-        "event-mcq-17": "「無論其他情況如何，後面的事情仍然成立；無論如何」是「in any event」的用法，與本句語境不同。",
-        "event-mcq-19": "「負責計劃、安排及管理某項活動的人／機構」是「event organizer」的用法，與本句語境不同。",
-        "event-mcq-16": "「假如後面所述情況真的發生」是「in the event that」的用法，與本句語境不同。",
-        "event-mcq-20": "「舉辦活動、會議、典禮或表演的指定場地」是「event venue」的用法，與本句語境不同。",
-        "event-mcq-15": "「如果某個指定情況發生；萬一……」是「in the event of」的用法，與本句語境不同。"
+        "event-mcq-18": "本句的「In that event」指「如果剛才提到的情況真的出現；那樣的話」。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-18"
     },
@@ -1628,10 +1484,8 @@ export default {
       "options": [
         "event-mcq-18",
         "event-mcq-17",
-        "event-mcq-19",
-        "event-mcq-16",
-        "event-mcq-20",
-        "event-mcq-15"
+        "event-mcq-09",
+        "event-mcq-12"
       ],
       "explanation": "本句的「In that event」指「如果剛才提到的情況真的出現；那樣的話」。",
       "sentenceIndex": 36,
@@ -1640,12 +1494,10 @@ export default {
         "In that event"
       ],
       "optionReasons": {
-        "event-mcq-18": "本句指「如果剛才提到的情況真的出現；那樣的話」。",
-        "event-mcq-17": "「無論其他情況如何，後面的事情仍然成立；無論如何」是「in any event」的用法，與本句語境不同。",
-        "event-mcq-19": "「負責計劃、安排及管理某項活動的人／機構」是「event organizer」的用法，與本句語境不同。",
-        "event-mcq-16": "「假如後面所述情況真的發生」是「in the event that」的用法，與本句語境不同。",
-        "event-mcq-20": "「舉辦活動、會議、典禮或表演的指定場地」是「event venue」的用法，與本句語境不同。",
-        "event-mcq-15": "「如果某個指定情況發生；萬一……」是「in the event of」的用法，與本句語境不同。"
+        "event-mcq-18": "本句的「In that event」指「如果剛才提到的情況真的出現；那樣的話」。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-18"
     },
@@ -1657,11 +1509,9 @@ export default {
       "masked": "The ____ sent us the schedule.",
       "options": [
         "event-mcq-19",
-        "event-mcq-18",
-        "event-mcq-20",
+        "event-mcq-15",
         "event-mcq-17",
-        "event-mcq-21",
-        "event-mcq-16"
+        "event-mcq-23"
       ],
       "explanation": "本句的「event organizer」指「負責計劃、安排及管理某項活動的人／機構」。",
       "sentenceIndex": 37,
@@ -1670,12 +1520,10 @@ export default {
         "event organizer"
       ],
       "optionReasons": {
-        "event-mcq-19": "本句指「負責計劃、安排及管理某項活動的人／機構」。",
-        "event-mcq-18": "「如果剛才提到的情況真的出現；那樣的話」是「in that event」的用法，與本句語境不同。",
-        "event-mcq-20": "「舉辦活動、會議、典禮或表演的指定場地」是「event venue」的用法，與本句語境不同。",
-        "event-mcq-17": "「無論其他情況如何，後面的事情仍然成立；無論如何」是「in any event」的用法，與本句語境不同。",
-        "event-mcq-21": "「在一段時間內發生很多重要、意外或值得注意事情的」是「eventful」的用法，與本句語境不同。",
-        "event-mcq-16": "「假如後面所述情況真的發生」是「in the event that」的用法，與本句語境不同。"
+        "event-mcq-19": "本句的「event organizer」指「負責計劃、安排及管理某項活動的人／機構」。",
+        "event-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-19"
     },
@@ -1687,11 +1535,9 @@ export default {
       "masked": "Contact the ____ if you need special equipment.",
       "options": [
         "event-mcq-19",
-        "event-mcq-18",
-        "event-mcq-20",
-        "event-mcq-17",
         "event-mcq-21",
-        "event-mcq-16"
+        "event-mcq-17",
+        "event-mcq-18"
       ],
       "explanation": "本句的「event organizer」指「負責計劃、安排及管理某項活動的人／機構」。",
       "sentenceIndex": 38,
@@ -1700,12 +1546,10 @@ export default {
         "event organizer"
       ],
       "optionReasons": {
-        "event-mcq-19": "本句指「負責計劃、安排及管理某項活動的人／機構」。",
-        "event-mcq-18": "「如果剛才提到的情況真的出現；那樣的話」是「in that event」的用法，與本句語境不同。",
-        "event-mcq-20": "「舉辦活動、會議、典禮或表演的指定場地」是「event venue」的用法，與本句語境不同。",
-        "event-mcq-17": "「無論其他情況如何，後面的事情仍然成立；無論如何」是「in any event」的用法，與本句語境不同。",
-        "event-mcq-21": "「在一段時間內發生很多重要、意外或值得注意事情的」是「eventful」的用法，與本句語境不同。",
-        "event-mcq-16": "「假如後面所述情況真的發生」是「in the event that」的用法，與本句語境不同。"
+        "event-mcq-19": "本句的「event organizer」指「負責計劃、安排及管理某項活動的人／機構」。",
+        "event-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-19"
     },
@@ -1717,10 +1561,8 @@ export default {
       "masked": "The ____ can hold three hundred people.",
       "options": [
         "event-mcq-20",
-        "event-mcq-19",
-        "event-mcq-21",
-        "event-mcq-18",
         "event-mcq-22",
+        "event-mcq-18",
         "event-mcq-17"
       ],
       "explanation": "本句的「event venue」指「舉辦活動、會議、典禮或表演的指定場地」。",
@@ -1730,12 +1572,10 @@ export default {
         "event venue"
       ],
       "optionReasons": {
-        "event-mcq-20": "本句指「舉辦活動、會議、典禮或表演的指定場地」。",
-        "event-mcq-19": "「負責計劃、安排及管理某項活動的人／機構」是「event organizer」的用法，與本句語境不同。",
-        "event-mcq-21": "「在一段時間內發生很多重要、意外或值得注意事情的」是「eventful」的用法，與本句語境不同。",
-        "event-mcq-18": "「如果剛才提到的情況真的出現；那樣的話」是「in that event」的用法，與本句語境不同。",
-        "event-mcq-22": "「沒有發生重大、意外或特別事情的；平安無事的」是「uneventful」的用法，與本句語境不同。",
-        "event-mcq-17": "「無論其他情況如何，後面的事情仍然成立；無論如何」是「in any event」的用法，與本句語境不同。"
+        "event-mcq-20": "本句的「event venue」指「舉辦活動、會議、典禮或表演的指定場地」。",
+        "event-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-20"
     },
@@ -1747,10 +1587,8 @@ export default {
       "masked": "We arrived at the ____ early.",
       "options": [
         "event-mcq-20",
-        "event-mcq-19",
-        "event-mcq-21",
-        "event-mcq-18",
-        "event-mcq-22",
+        "event-mcq-02",
+        "event-mcq-11",
         "event-mcq-17"
       ],
       "explanation": "本句的「event venue」指「舉辦活動、會議、典禮或表演的指定場地」。",
@@ -1760,12 +1598,10 @@ export default {
         "event venue"
       ],
       "optionReasons": {
-        "event-mcq-20": "本句指「舉辦活動、會議、典禮或表演的指定場地」。",
-        "event-mcq-19": "「負責計劃、安排及管理某項活動的人／機構」是「event organizer」的用法，與本句語境不同。",
-        "event-mcq-21": "「在一段時間內發生很多重要、意外或值得注意事情的」是「eventful」的用法，與本句語境不同。",
-        "event-mcq-18": "「如果剛才提到的情況真的出現；那樣的話」是「in that event」的用法，與本句語境不同。",
-        "event-mcq-22": "「沒有發生重大、意外或特別事情的；平安無事的」是「uneventful」的用法，與本句語境不同。",
-        "event-mcq-17": "「無論其他情況如何，後面的事情仍然成立；無論如何」是「in any event」的用法，與本句語境不同。"
+        "event-mcq-20": "本句的「event venue」指「舉辦活動、會議、典禮或表演的指定場地」。",
+        "event-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-20"
     },
@@ -1777,11 +1613,9 @@ export default {
       "masked": "It was an ____ year for the company.",
       "options": [
         "event-mcq-21",
-        "event-mcq-20",
-        "event-mcq-22",
-        "event-mcq-19",
-        "event-mcq-23",
-        "event-mcq-18"
+        "event-mcq-11",
+        "event-mcq-07",
+        "event-mcq-17"
       ],
       "explanation": "本句的「eventful」指「在一段時間內發生很多重要、意外或值得注意事情的」。",
       "sentenceIndex": 41,
@@ -1790,12 +1624,10 @@ export default {
         "eventful"
       ],
       "optionReasons": {
-        "event-mcq-21": "本句指「在一段時間內發生很多重要、意外或值得注意事情的」。",
-        "event-mcq-20": "「舉辦活動、會議、典禮或表演的指定場地」是「event venue」的用法，與本句語境不同。",
-        "event-mcq-22": "「沒有發生重大、意外或特別事情的；平安無事的」是「uneventful」的用法，與本句語境不同。",
-        "event-mcq-19": "「負責計劃、安排及管理某項活動的人／機構」是「event organizer」的用法，與本句語境不同。",
-        "event-mcq-23": "「經過一段時間或過程後最後出現／形成的；最終的」是「eventual」的用法，與本句語境不同。",
-        "event-mcq-18": "「如果剛才提到的情況真的出現；那樣的話」是「in that event」的用法，與本句語境不同。"
+        "event-mcq-21": "本句的「eventful」指「在一段時間內發生很多重要、意外或值得注意事情的」。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-21"
     },
@@ -1807,11 +1639,9 @@ export default {
       "masked": "We had an ____ journey with delays, lost luggage, and a cancelled train.",
       "options": [
         "event-mcq-21",
-        "event-mcq-20",
-        "event-mcq-22",
         "event-mcq-19",
-        "event-mcq-23",
-        "event-mcq-18"
+        "event-mcq-18",
+        "event-mcq-17"
       ],
       "explanation": "本句的「eventful」指「在一段時間內發生很多重要、意外或值得注意事情的」。",
       "sentenceIndex": 42,
@@ -1820,12 +1650,10 @@ export default {
         "eventful"
       ],
       "optionReasons": {
-        "event-mcq-21": "本句指「在一段時間內發生很多重要、意外或值得注意事情的」。",
-        "event-mcq-20": "「舉辦活動、會議、典禮或表演的指定場地」是「event venue」的用法，與本句語境不同。",
-        "event-mcq-22": "「沒有發生重大、意外或特別事情的；平安無事的」是「uneventful」的用法，與本句語境不同。",
-        "event-mcq-19": "「負責計劃、安排及管理某項活動的人／機構」是「event organizer」的用法，與本句語境不同。",
-        "event-mcq-23": "「經過一段時間或過程後最後出現／形成的；最終的」是「eventual」的用法，與本句語境不同。",
-        "event-mcq-18": "「如果剛才提到的情況真的出現；那樣的話」是「in that event」的用法，與本句語境不同。"
+        "event-mcq-21": "本句的「eventful」指「在一段時間內發生很多重要、意外或值得注意事情的」。",
+        "event-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-21"
     },
@@ -1837,11 +1665,9 @@ export default {
       "masked": "The journey home was completely ____.",
       "options": [
         "event-mcq-22",
-        "event-mcq-21",
         "event-mcq-23",
-        "event-mcq-20",
-        "event-mcq-24",
-        "event-mcq-19"
+        "event-mcq-06",
+        "event-mcq-11"
       ],
       "explanation": "本句的「uneventful」指「沒有發生重大、意外或特別事情的；平安無事的」。",
       "sentenceIndex": 43,
@@ -1850,12 +1676,10 @@ export default {
         "uneventful"
       ],
       "optionReasons": {
-        "event-mcq-22": "本句指「沒有發生重大、意外或特別事情的；平安無事的」。",
-        "event-mcq-21": "「在一段時間內發生很多重要、意外或值得注意事情的」是「eventful」的用法，與本句語境不同。",
-        "event-mcq-23": "「經過一段時間或過程後最後出現／形成的；最終的」是「eventual」的用法，與本句語境不同。",
-        "event-mcq-20": "「舉辦活動、會議、典禮或表演的指定場地」是「event venue」的用法，與本句語境不同。",
-        "event-mcq-24": "「經過一段時間、延誤或過程後某件事情最後發生；終於／最終」是「eventually」的用法，與本句語境不同。",
-        "event-mcq-19": "「負責計劃、安排及管理某項活動的人／機構」是「event organizer」的用法，與本句語境不同。"
+        "event-mcq-22": "本句的「uneventful」指「沒有發生重大、意外或特別事情的；平安無事的」。",
+        "event-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-22"
     },
@@ -1867,11 +1691,9 @@ export default {
       "masked": "After a stressful presentation, I was happy to have an ____ evening.",
       "options": [
         "event-mcq-22",
-        "event-mcq-21",
         "event-mcq-23",
         "event-mcq-20",
-        "event-mcq-24",
-        "event-mcq-19"
+        "event-mcq-11"
       ],
       "explanation": "本句的「uneventful」指「沒有發生重大、意外或特別事情的；平安無事的」。",
       "sentenceIndex": 44,
@@ -1880,12 +1702,10 @@ export default {
         "uneventful"
       ],
       "optionReasons": {
-        "event-mcq-22": "本句指「沒有發生重大、意外或特別事情的；平安無事的」。",
-        "event-mcq-21": "「在一段時間內發生很多重要、意外或值得注意事情的」是「eventful」的用法，與本句語境不同。",
-        "event-mcq-23": "「經過一段時間或過程後最後出現／形成的；最終的」是「eventual」的用法，與本句語境不同。",
-        "event-mcq-20": "「舉辦活動、會議、典禮或表演的指定場地」是「event venue」的用法，與本句語境不同。",
-        "event-mcq-24": "「經過一段時間、延誤或過程後某件事情最後發生；終於／最終」是「eventually」的用法，與本句語境不同。",
-        "event-mcq-19": "「負責計劃、安排及管理某項活動的人／機構」是「event organizer」的用法，與本句語境不同。"
+        "event-mcq-22": "本句的「uneventful」指「沒有發生重大、意外或特別事情的；平安無事的」。",
+        "event-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-22"
     },
@@ -1897,11 +1717,9 @@ export default {
       "masked": "Her ____ came after years of practice.",
       "options": [
         "event-mcq-23",
-        "event-mcq-22",
-        "event-mcq-24",
-        "event-mcq-21",
-        "event-mcq-20",
-        "event-mcq-19"
+        "event-mcq-07",
+        "event-mcq-03",
+        "event-mcq-15"
       ],
       "explanation": "本句的「eventual success」指「經過一段時間或過程後最後出現／形成的；最終的」。",
       "sentenceIndex": 45,
@@ -1910,12 +1728,10 @@ export default {
         "eventual success"
       ],
       "optionReasons": {
-        "event-mcq-23": "本句指「經過一段時間或過程後最後出現／形成的；最終的」。",
-        "event-mcq-22": "「沒有發生重大、意外或特別事情的；平安無事的」是「uneventful」的用法，與本句語境不同。",
-        "event-mcq-24": "「經過一段時間、延誤或過程後某件事情最後發生；終於／最終」是「eventually」的用法，與本句語境不同。",
-        "event-mcq-21": "「在一段時間內發生很多重要、意外或值得注意事情的」是「eventful」的用法，與本句語境不同。",
-        "event-mcq-20": "「舉辦活動、會議、典禮或表演的指定場地」是「event venue」的用法，與本句語境不同。",
-        "event-mcq-19": "「負責計劃、安排及管理某項活動的人／機構」是「event organizer」的用法，與本句語境不同。"
+        "event-mcq-23": "本句的「eventual success」指「經過一段時間或過程後最後出現／形成的；最終的」。",
+        "event-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-23"
     },
@@ -1927,11 +1743,9 @@ export default {
       "masked": "The project’s ____ was better than expected.",
       "options": [
         "event-mcq-23",
-        "event-mcq-22",
-        "event-mcq-24",
-        "event-mcq-21",
         "event-mcq-20",
-        "event-mcq-19"
+        "event-mcq-11",
+        "event-mcq-03"
       ],
       "explanation": "本句的「eventual outcome」指「經過一段時間或過程後最後出現／形成的；最終的」。",
       "sentenceIndex": 46,
@@ -1940,12 +1754,10 @@ export default {
         "eventual outcome"
       ],
       "optionReasons": {
-        "event-mcq-23": "本句指「經過一段時間或過程後最後出現／形成的；最終的」。",
-        "event-mcq-22": "「沒有發生重大、意外或特別事情的；平安無事的」是「uneventful」的用法，與本句語境不同。",
-        "event-mcq-24": "「經過一段時間、延誤或過程後某件事情最後發生；終於／最終」是「eventually」的用法，與本句語境不同。",
-        "event-mcq-21": "「在一段時間內發生很多重要、意外或值得注意事情的」是「eventful」的用法，與本句語境不同。",
-        "event-mcq-20": "「舉辦活動、會議、典禮或表演的指定場地」是「event venue」的用法，與本句語境不同。",
-        "event-mcq-19": "「負責計劃、安排及管理某項活動的人／機構」是「event organizer」的用法，與本句語境不同。"
+        "event-mcq-23": "本句的「eventual outcome」指「經過一段時間或過程後最後出現／形成的；最終的」。",
+        "event-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-23"
     },
@@ -1957,11 +1769,9 @@ export default {
       "masked": "I was nervous at first, but I ____ relaxed.",
       "options": [
         "event-mcq-24",
-        "event-mcq-23",
-        "event-mcq-22",
-        "event-mcq-21",
-        "event-mcq-20",
-        "event-mcq-19"
+        "event-mcq-19",
+        "event-mcq-08",
+        "event-mcq-18"
       ],
       "explanation": "本句的「eventually」指「經過一段時間、延誤或過程後某件事情最後發生；終於／最終」。",
       "sentenceIndex": 47,
@@ -1970,12 +1780,10 @@ export default {
         "eventually"
       ],
       "optionReasons": {
-        "event-mcq-24": "本句指「經過一段時間、延誤或過程後某件事情最後發生；終於／最終」。",
-        "event-mcq-23": "「經過一段時間或過程後最後出現／形成的；最終的」是「eventual」的用法，與本句語境不同。",
-        "event-mcq-22": "「沒有發生重大、意外或特別事情的；平安無事的」是「uneventful」的用法，與本句語境不同。",
-        "event-mcq-21": "「在一段時間內發生很多重要、意外或值得注意事情的」是「eventful」的用法，與本句語境不同。",
-        "event-mcq-20": "「舉辦活動、會議、典禮或表演的指定場地」是「event venue」的用法，與本句語境不同。",
-        "event-mcq-19": "「負責計劃、安排及管理某項活動的人／機構」是「event organizer」的用法，與本句語境不同。"
+        "event-mcq-24": "本句的「eventually」指「經過一段時間、延誤或過程後某件事情最後發生；終於／最終」。",
+        "event-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-24"
     },
@@ -1987,10 +1795,8 @@ export default {
       "masked": "After several attempts, the team ____ solved the problem.",
       "options": [
         "event-mcq-24",
-        "event-mcq-23",
-        "event-mcq-22",
-        "event-mcq-21",
-        "event-mcq-20",
+        "event-mcq-08",
+        "event-mcq-18",
         "event-mcq-19"
       ],
       "explanation": "本句的「eventually」指「經過一段時間、延誤或過程後某件事情最後發生；終於／最終」。",
@@ -2000,12 +1806,10 @@ export default {
         "eventually"
       ],
       "optionReasons": {
-        "event-mcq-24": "本句指「經過一段時間、延誤或過程後某件事情最後發生；終於／最終」。",
-        "event-mcq-23": "「經過一段時間或過程後最後出現／形成的；最終的」是「eventual」的用法，與本句語境不同。",
-        "event-mcq-22": "「沒有發生重大、意外或特別事情的；平安無事的」是「uneventful」的用法，與本句語境不同。",
-        "event-mcq-21": "「在一段時間內發生很多重要、意外或值得注意事情的」是「eventful」的用法，與本句語境不同。",
-        "event-mcq-20": "「舉辦活動、會議、典禮或表演的指定場地」是「event venue」的用法，與本句語境不同。",
-        "event-mcq-19": "「負責計劃、安排及管理某項活動的人／機構」是「event organizer」的用法，與本句語境不同。"
+        "event-mcq-24": "本句的「eventually」指「經過一段時間、延誤或過程後某件事情最後發生；終於／最終」。",
+        "event-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "event-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "event-mcq-24"
     }
@@ -2017,5 +1821,7 @@ export default {
     "sha256": "8101226350bf8197638ef7eb4919ff4b0e628d821207477cc9532373e6816b68",
     "pages": 25
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

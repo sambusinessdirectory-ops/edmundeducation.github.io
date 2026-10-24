@@ -285,7 +285,7 @@ export default {
     },
     {
       "id": "fortune-mcq-13",
-      "title": "表示好事幸運地發生，或壞事沒有發生",
+      "title": "好事幸運地發生，或壞事沒有發生",
       "form": "fortunately",
       "en": "fortunately",
       "zh": "表示好事幸運地發生，或壞事沒有發生",
@@ -425,11 +425,9 @@ export default {
       "masked": "It would ____.",
       "options": [
         "fortune-mcq-04",
-        "fortune-mcq-03",
-        "fortune-mcq-05",
-        "fortune-mcq-02",
-        "fortune-mcq-06",
-        "fortune-mcq-01"
+        "fortune-mcq-17",
+        "fortune-mcq-12",
+        "fortune-mcq-10"
       ],
       "explanation": "本句的「cost a fortune」指「損失非常龐大的金錢」。",
       "sentenceIndex": 0,
@@ -438,12 +436,10 @@ export default {
         "cost a fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-04": "本句指「損失非常龐大的金錢」。",
-        "fortune-mcq-03": "「累積巨額財富；發財／賺大錢」是「make a fortune」的用法，與本句語境不同。",
-        "fortune-mcq-05": "「影響事情結果的好運、壞運或際遇」是「fortune — luck」的用法，與本句語境不同。",
-        "fortune-mcq-02": "「一個人累積或擁有的大量金錢及財產」是「fortune — wealth」的用法，與本句語境不同。",
-        "fortune-mcq-06": "「有利而幸運的際遇／好運」是「good fortune」的用法，與本句語境不同。",
-        "fortune-mcq-01": "「數額非常龐大的一筆金錢；巨款」是「a fortune — money amount」的用法，與本句語境不同。"
+        "fortune-mcq-04": "本句的「cost a fortune」指「損失非常龐大的金錢」。",
+        "fortune-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-04"
     },
@@ -455,11 +451,9 @@ export default {
       "masked": "That painting must be worth a ____.",
       "options": [
         "fortune-mcq-04",
-        "fortune-mcq-03",
-        "fortune-mcq-05",
-        "fortune-mcq-02",
-        "fortune-mcq-06",
-        "fortune-mcq-01"
+        "fortune-pdf-001",
+        "fortune-mcq-17",
+        "fortune-mcq-15"
       ],
       "explanation": "本句的「fortune」指「損失非常龐大的金錢」。",
       "sentenceIndex": 1,
@@ -468,12 +462,10 @@ export default {
         "fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-04": "本句指「損失非常龐大的金錢」。",
-        "fortune-mcq-03": "「累積巨額財富；發財／賺大錢」是「make a fortune」的用法，與本句語境不同。",
-        "fortune-mcq-05": "「影響事情結果的好運、壞運或際遇」是「fortune — luck」的用法，與本句語境不同。",
-        "fortune-mcq-02": "「一個人累積或擁有的大量金錢及財產」是「fortune — wealth」的用法，與本句語境不同。",
-        "fortune-mcq-06": "「有利而幸運的際遇／好運」是「good fortune」的用法，與本句語境不同。",
-        "fortune-mcq-01": "「數額非常龐大的一筆金錢；巨款」是「a fortune — money amount」的用法，與本句語境不同。"
+        "fortune-mcq-04": "本句的「fortune」指「損失非常龐大的金錢」。",
+        "fortune-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-04"
     },
@@ -485,11 +477,9 @@ export default {
       "masked": "She spent a ____ renovating the house.",
       "options": [
         "fortune-mcq-04",
-        "fortune-mcq-03",
-        "fortune-mcq-05",
-        "fortune-mcq-02",
-        "fortune-mcq-06",
-        "fortune-mcq-01"
+        "fortune-mcq-11",
+        "fortune-pdf-001",
+        "fortune-mcq-13"
       ],
       "explanation": "本句的「fortune」指「損失非常龐大的金錢」。",
       "sentenceIndex": 2,
@@ -498,12 +488,10 @@ export default {
         "fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-04": "本句指「損失非常龐大的金錢」。",
-        "fortune-mcq-03": "「累積巨額財富；發財／賺大錢」是「make a fortune」的用法，與本句語境不同。",
-        "fortune-mcq-05": "「影響事情結果的好運、壞運或際遇」是「fortune — luck」的用法，與本句語境不同。",
-        "fortune-mcq-02": "「一個人累積或擁有的大量金錢及財產」是「fortune — wealth」的用法，與本句語境不同。",
-        "fortune-mcq-06": "「有利而幸運的際遇／好運」是「good fortune」的用法，與本句語境不同。",
-        "fortune-mcq-01": "「數額非常龐大的一筆金錢；巨款」是「a fortune — money amount」的用法，與本句語境不同。"
+        "fortune-mcq-04": "本句的「fortune」指「損失非常龐大的金錢」。",
+        "fortune-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fortune-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-04"
     },
@@ -515,11 +503,9 @@ export default {
       "masked": "He made his ____ in technology.",
       "options": [
         "fortune-mcq-02",
-        "fortune-mcq-01",
-        "fortune-mcq-03",
-        "fortune-mcq-04",
-        "fortune-mcq-05",
-        "fortune-mcq-06"
+        "fortune-mcq-17",
+        "fortune-mcq-15",
+        "fortune-mcq-16"
       ],
       "explanation": "本句的「fortune」指「一個人累積或擁有的大量金錢及財產」。",
       "sentenceIndex": 3,
@@ -528,12 +514,10 @@ export default {
         "fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-02": "本句指「一個人累積或擁有的大量金錢及財產」。",
-        "fortune-mcq-01": "「數額非常龐大的一筆金錢；巨款」是「a fortune — money amount」的用法，與本句語境不同。",
-        "fortune-mcq-03": "「累積巨額財富；發財／賺大錢」是「make a fortune」的用法，與本句語境不同。",
-        "fortune-mcq-04": "「損失非常龐大的金錢」是「lose a fortune」的用法，與本句語境不同。",
-        "fortune-mcq-05": "「影響事情結果的好運、壞運或際遇」是「fortune — luck」的用法，與本句語境不同。",
-        "fortune-mcq-06": "「有利而幸運的際遇／好運」是「good fortune」的用法，與本句語境不同。"
+        "fortune-mcq-02": "本句的「fortune」指「一個人累積或擁有的大量金錢及財產」。",
+        "fortune-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-02"
     },
@@ -545,11 +529,9 @@ export default {
       "masked": "She inherited a large ____.",
       "options": [
         "fortune-mcq-02",
-        "fortune-mcq-01",
-        "fortune-mcq-03",
-        "fortune-mcq-04",
-        "fortune-mcq-05",
-        "fortune-mcq-06"
+        "fortune-mcq-06",
+        "fortune-mcq-15",
+        "fortune-mcq-17"
       ],
       "explanation": "本句的「fortune」指「一個人累積或擁有的大量金錢及財產」。",
       "sentenceIndex": 4,
@@ -558,12 +540,10 @@ export default {
         "fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-02": "本句指「一個人累積或擁有的大量金錢及財產」。",
-        "fortune-mcq-01": "「數額非常龐大的一筆金錢；巨款」是「a fortune — money amount」的用法，與本句語境不同。",
-        "fortune-mcq-03": "「累積巨額財富；發財／賺大錢」是「make a fortune」的用法，與本句語境不同。",
-        "fortune-mcq-04": "「損失非常龐大的金錢」是「lose a fortune」的用法，與本句語境不同。",
-        "fortune-mcq-05": "「影響事情結果的好運、壞運或際遇」是「fortune — luck」的用法，與本句語境不同。",
-        "fortune-mcq-06": "「有利而幸運的際遇／好運」是「good fortune」的用法，與本句語境不同。"
+        "fortune-mcq-02": "本句的「fortune」指「一個人累積或擁有的大量金錢及財產」。",
+        "fortune-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-02"
     },
@@ -575,11 +555,9 @@ export default {
       "masked": "The artist never expected to ____ from his work.",
       "options": [
         "fortune-mcq-03",
-        "fortune-mcq-02",
-        "fortune-mcq-04",
-        "fortune-mcq-01",
-        "fortune-mcq-05",
-        "fortune-mcq-06"
+        "fortune-mcq-08",
+        "fortune-mcq-16",
+        "fortune-mcq-17"
       ],
       "explanation": "本句的「make a fortune」指「累積巨額財富；發財／賺大錢」。",
       "sentenceIndex": 5,
@@ -588,12 +566,10 @@ export default {
         "make a fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-03": "本句指「累積巨額財富；發財／賺大錢」。",
-        "fortune-mcq-02": "「一個人累積或擁有的大量金錢及財產」是「fortune — wealth」的用法，與本句語境不同。",
-        "fortune-mcq-04": "「損失非常龐大的金錢」是「lose a fortune」的用法，與本句語境不同。",
-        "fortune-mcq-01": "「數額非常龐大的一筆金錢；巨款」是「a fortune — money amount」的用法，與本句語境不同。",
-        "fortune-mcq-05": "「影響事情結果的好運、壞運或際遇」是「fortune — luck」的用法，與本句語境不同。",
-        "fortune-mcq-06": "「有利而幸運的際遇／好運」是「good fortune」的用法，與本句語境不同。"
+        "fortune-mcq-03": "本句的「make a fortune」指「累積巨額財富；發財／賺大錢」。",
+        "fortune-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-03"
     },
@@ -605,11 +581,9 @@ export default {
       "masked": "He made a ____ selling property.",
       "options": [
         "fortune-mcq-03",
-        "fortune-mcq-02",
-        "fortune-mcq-04",
-        "fortune-mcq-01",
-        "fortune-mcq-05",
-        "fortune-mcq-06"
+        "fortune-mcq-16",
+        "fortune-pdf-001",
+        "fortune-mcq-11"
       ],
       "explanation": "本句的「fortune」指「累積巨額財富；發財／賺大錢」。",
       "sentenceIndex": 6,
@@ -618,12 +592,10 @@ export default {
         "fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-03": "本句指「累積巨額財富；發財／賺大錢」。",
-        "fortune-mcq-02": "「一個人累積或擁有的大量金錢及財產」是「fortune — wealth」的用法，與本句語境不同。",
-        "fortune-mcq-04": "「損失非常龐大的金錢」是「lose a fortune」的用法，與本句語境不同。",
-        "fortune-mcq-01": "「數額非常龐大的一筆金錢；巨款」是「a fortune — money amount」的用法，與本句語境不同。",
-        "fortune-mcq-05": "「影響事情結果的好運、壞運或際遇」是「fortune — luck」的用法，與本句語境不同。",
-        "fortune-mcq-06": "「有利而幸運的際遇／好運」是「good fortune」的用法，與本句語境不同。"
+        "fortune-mcq-03": "本句的「fortune」指「累積巨額財富；發財／賺大錢」。",
+        "fortune-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fortune-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-03"
     },
@@ -635,11 +607,9 @@ export default {
       "masked": "They ____ on the failed project.",
       "options": [
         "fortune-mcq-04",
-        "fortune-mcq-03",
-        "fortune-mcq-05",
-        "fortune-mcq-02",
-        "fortune-mcq-06",
-        "fortune-mcq-01"
+        "fortune-mcq-13",
+        "fortune-mcq-10",
+        "fortune-mcq-15"
       ],
       "explanation": "本句的「lost a fortune」指「損失非常龐大的金錢」。",
       "sentenceIndex": 7,
@@ -648,12 +618,10 @@ export default {
         "lost a fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-04": "本句指「損失非常龐大的金錢」。",
-        "fortune-mcq-03": "「累積巨額財富；發財／賺大錢」是「make a fortune」的用法，與本句語境不同。",
-        "fortune-mcq-05": "「影響事情結果的好運、壞運或際遇」是「fortune — luck」的用法，與本句語境不同。",
-        "fortune-mcq-02": "「一個人累積或擁有的大量金錢及財產」是「fortune — wealth」的用法，與本句語境不同。",
-        "fortune-mcq-06": "「有利而幸運的際遇／好運」是「good fortune」的用法，與本句語境不同。",
-        "fortune-mcq-01": "「數額非常龐大的一筆金錢；巨款」是「a fortune — money amount」的用法，與本句語境不同。"
+        "fortune-mcq-04": "本句的「lost a fortune」指「損失非常龐大的金錢」。",
+        "fortune-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-04"
     },
@@ -665,11 +633,9 @@ export default {
       "masked": "He nearly lost a ____ in the market.",
       "options": [
         "fortune-mcq-04",
-        "fortune-mcq-03",
-        "fortune-mcq-05",
-        "fortune-mcq-02",
-        "fortune-mcq-06",
-        "fortune-mcq-01"
+        "fortune-mcq-12",
+        "fortune-mcq-17",
+        "fortune-mcq-09"
       ],
       "explanation": "本句的「fortune」指「損失非常龐大的金錢」。",
       "sentenceIndex": 8,
@@ -678,12 +644,10 @@ export default {
         "fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-04": "本句指「損失非常龐大的金錢」。",
-        "fortune-mcq-03": "「累積巨額財富；發財／賺大錢」是「make a fortune」的用法，與本句語境不同。",
-        "fortune-mcq-05": "「影響事情結果的好運、壞運或際遇」是「fortune — luck」的用法，與本句語境不同。",
-        "fortune-mcq-02": "「一個人累積或擁有的大量金錢及財產」是「fortune — wealth」的用法，與本句語境不同。",
-        "fortune-mcq-06": "「有利而幸運的際遇／好運」是「good fortune」的用法，與本句語境不同。",
-        "fortune-mcq-01": "「數額非常龐大的一筆金錢；巨款」是「a fortune — money amount」的用法，與本句語境不同。"
+        "fortune-mcq-04": "本句的「fortune」指「損失非常龐大的金錢」。",
+        "fortune-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-04"
     },
@@ -695,11 +659,9 @@ export default {
       "masked": "She had the good ____ to meet the artist.",
       "options": [
         "fortune-mcq-05",
+        "fortune-mcq-15",
         "fortune-mcq-04",
-        "fortune-mcq-06",
-        "fortune-mcq-03",
-        "fortune-mcq-07",
-        "fortune-mcq-02"
+        "fortune-mcq-16"
       ],
       "explanation": "本句的「fortune」指「影響事情結果的好運、壞運或際遇」。",
       "sentenceIndex": 9,
@@ -708,12 +670,10 @@ export default {
         "fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-05": "本句指「影響事情結果的好運、壞運或際遇」。",
-        "fortune-mcq-04": "「損失非常龐大的金錢」是「lose a fortune」的用法，與本句語境不同。",
-        "fortune-mcq-06": "「有利而幸運的際遇／好運」是「good fortune」的用法，與本句語境不同。",
-        "fortune-mcq-03": "「累積巨額財富；發財／賺大錢」是「make a fortune」的用法，與本句語境不同。",
-        "fortune-mcq-07": "「一個人或團體人生／發展中的命運與際遇」是「fortune — fate」的用法，與本句語境不同。",
-        "fortune-mcq-02": "「一個人累積或擁有的大量金錢及財產」是「fortune — wealth」的用法，與本句語境不同。"
+        "fortune-mcq-05": "本句的「fortune」指「影響事情結果的好運、壞運或際遇」。",
+        "fortune-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-05"
     },
@@ -725,11 +685,9 @@ export default {
       "masked": "By a stroke of ____, the painting was recovered.",
       "options": [
         "fortune-mcq-05",
-        "fortune-mcq-04",
-        "fortune-mcq-06",
+        "fortune-mcq-16",
         "fortune-mcq-03",
-        "fortune-mcq-07",
-        "fortune-mcq-02"
+        "fortune-mcq-11"
       ],
       "explanation": "本句的「fortune」指「影響事情結果的好運、壞運或際遇」。",
       "sentenceIndex": 10,
@@ -738,12 +696,10 @@ export default {
         "fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-05": "本句指「影響事情結果的好運、壞運或際遇」。",
-        "fortune-mcq-04": "「損失非常龐大的金錢」是「lose a fortune」的用法，與本句語境不同。",
-        "fortune-mcq-06": "「有利而幸運的際遇／好運」是「good fortune」的用法，與本句語境不同。",
-        "fortune-mcq-03": "「累積巨額財富；發財／賺大錢」是「make a fortune」的用法，與本句語境不同。",
-        "fortune-mcq-07": "「一個人或團體人生／發展中的命運與際遇」是「fortune — fate」的用法，與本句語境不同。",
-        "fortune-mcq-02": "「一個人累積或擁有的大量金錢及財產」是「fortune — wealth」的用法，與本句語境不同。"
+        "fortune-mcq-05": "本句的「fortune」指「影響事情結果的好運、壞運或際遇」。",
+        "fortune-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-05"
     },
@@ -755,11 +711,9 @@ export default {
       "masked": "We had the ____ to visit the museum on a quiet day.",
       "options": [
         "fortune-mcq-06",
-        "fortune-mcq-05",
-        "fortune-mcq-07",
-        "fortune-mcq-04",
-        "fortune-mcq-08",
-        "fortune-mcq-03"
+        "fortune-mcq-11",
+        "fortune-mcq-17",
+        "fortune-mcq-15"
       ],
       "explanation": "本句的「good fortune」指「有利而幸運的際遇／好運」。",
       "sentenceIndex": 11,
@@ -768,12 +722,10 @@ export default {
         "good fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-06": "本句指「有利而幸運的際遇／好運」。",
-        "fortune-mcq-05": "「影響事情結果的好運、壞運或際遇」是「fortune — luck」的用法，與本句語境不同。",
-        "fortune-mcq-07": "「一個人或團體人生／發展中的命運與際遇」是「fortune — fate」的用法，與本句語境不同。",
-        "fortune-mcq-04": "「損失非常龐大的金錢」是「lose a fortune」的用法，與本句語境不同。",
-        "fortune-mcq-08": "「某人／機構一段時間內成功、失敗和境況的變化」是「fortunes」的用法，與本句語境不同。",
-        "fortune-mcq-03": "「累積巨額財富；發財／賺大錢」是「make a fortune」的用法，與本句語境不同。"
+        "fortune-mcq-06": "本句的「good fortune」指「有利而幸運的際遇／好運」。",
+        "fortune-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-06"
     },
@@ -785,11 +737,9 @@ export default {
       "masked": "Her success involved both skill and good ____.",
       "options": [
         "fortune-mcq-06",
-        "fortune-mcq-05",
-        "fortune-mcq-07",
         "fortune-mcq-04",
-        "fortune-mcq-08",
-        "fortune-mcq-03"
+        "fortune-mcq-17",
+        "fortune-mcq-08"
       ],
       "explanation": "本句的「fortune」指「有利而幸運的際遇／好運」。",
       "sentenceIndex": 12,
@@ -798,12 +748,10 @@ export default {
         "fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-06": "本句指「有利而幸運的際遇／好運」。",
-        "fortune-mcq-05": "「影響事情結果的好運、壞運或際遇」是「fortune — luck」的用法，與本句語境不同。",
-        "fortune-mcq-07": "「一個人或團體人生／發展中的命運與際遇」是「fortune — fate」的用法，與本句語境不同。",
-        "fortune-mcq-04": "「損失非常龐大的金錢」是「lose a fortune」的用法，與本句語境不同。",
-        "fortune-mcq-08": "「某人／機構一段時間內成功、失敗和境況的變化」是「fortunes」的用法，與本句語境不同。",
-        "fortune-mcq-03": "「累積巨額財富；發財／賺大錢」是「make a fortune」的用法，與本句語境不同。"
+        "fortune-mcq-06": "本句的「fortune」指「有利而幸運的際遇／好運」。",
+        "fortune-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-06"
     },
@@ -815,10 +763,8 @@ export default {
       "masked": "His ____ changed completely after the war.",
       "options": [
         "fortune-mcq-07",
-        "fortune-mcq-06",
-        "fortune-mcq-08",
-        "fortune-mcq-05",
-        "fortune-mcq-09",
+        "fortune-mcq-16",
+        "fortune-mcq-11",
         "fortune-mcq-04"
       ],
       "explanation": "本句的「fortune」指「一個人或團體人生／發展中的命運與際遇」。",
@@ -828,12 +774,10 @@ export default {
         "fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-07": "本句指「一個人或團體人生／發展中的命運與際遇」。",
-        "fortune-mcq-06": "「有利而幸運的際遇／好運」是「good fortune」的用法，與本句語境不同。",
-        "fortune-mcq-08": "「某人／機構一段時間內成功、失敗和境況的變化」是「fortunes」的用法，與本句語境不同。",
-        "fortune-mcq-05": "「影響事情結果的好運、壞運或際遇」是「fortune — luck」的用法，與本句語境不同。",
-        "fortune-mcq-09": "「對某人未來命運所作的預測」是「fortune — divination」的用法，與本句語境不同。",
-        "fortune-mcq-04": "「損失非常龐大的金錢」是「lose a fortune」的用法，與本句語境不同。"
+        "fortune-mcq-07": "本句的「fortune」指「一個人或團體人生／發展中的命運與際遇」。",
+        "fortune-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-07"
     },
@@ -845,11 +789,9 @@ export default {
       "masked": "The novel follows the ____ of one family.",
       "options": [
         "fortune-mcq-07",
-        "fortune-mcq-06",
-        "fortune-mcq-08",
-        "fortune-mcq-05",
-        "fortune-mcq-09",
-        "fortune-mcq-04"
+        "fortune-mcq-11",
+        "fortune-mcq-04",
+        "fortune-mcq-14"
       ],
       "explanation": "本句的「fortunes」指「一個人或團體人生／發展中的命運與際遇」。",
       "sentenceIndex": 14,
@@ -858,12 +800,10 @@ export default {
         "fortunes"
       ],
       "optionReasons": {
-        "fortune-mcq-07": "本句指「一個人或團體人生／發展中的命運與際遇」。",
-        "fortune-mcq-06": "「有利而幸運的際遇／好運」是「good fortune」的用法，與本句語境不同。",
-        "fortune-mcq-08": "「某人／機構一段時間內成功、失敗和境況的變化」是「fortunes」的用法，與本句語境不同。",
-        "fortune-mcq-05": "「影響事情結果的好運、壞運或際遇」是「fortune — luck」的用法，與本句語境不同。",
-        "fortune-mcq-09": "「對某人未來命運所作的預測」是「fortune — divination」的用法，與本句語境不同。",
-        "fortune-mcq-04": "「損失非常龐大的金錢」是「lose a fortune」的用法，與本句語境不同。"
+        "fortune-mcq-07": "本句的「fortunes」指「一個人或團體人生／發展中的命運與際遇」。",
+        "fortune-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-07"
     },
@@ -875,11 +815,9 @@ export default {
       "masked": "The company’s ____ improved after the new product launch.",
       "options": [
         "fortune-mcq-08",
-        "fortune-mcq-07",
-        "fortune-mcq-09",
-        "fortune-mcq-06",
-        "fortune-mcq-10",
-        "fortune-mcq-05"
+        "fortune-mcq-11",
+        "fortune-mcq-05",
+        "fortune-mcq-03"
       ],
       "explanation": "本句的「fortunes」指「某人／機構一段時間內成功、失敗和境況的變化」。",
       "sentenceIndex": 15,
@@ -888,12 +826,10 @@ export default {
         "fortunes"
       ],
       "optionReasons": {
-        "fortune-mcq-08": "本句指「某人／機構一段時間內成功、失敗和境況的變化」。",
-        "fortune-mcq-07": "「一個人或團體人生／發展中的命運與際遇」是「fortune — fate」的用法，與本句語境不同。",
-        "fortune-mcq-09": "「對某人未來命運所作的預測」是「fortune — divination」的用法，與本句語境不同。",
-        "fortune-mcq-06": "「有利而幸運的際遇／好運」是「good fortune」的用法，與本句語境不同。",
-        "fortune-mcq-10": "「聲稱能預測他人命運或未來的人」是「fortune-teller」的用法，與本句語境不同。",
-        "fortune-mcq-05": "「影響事情結果的好運、壞運或際遇」是「fortune — luck」的用法，與本句語境不同。"
+        "fortune-mcq-08": "本句的「fortunes」指「某人／機構一段時間內成功、失敗和境況的變化」。",
+        "fortune-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-08"
     },
@@ -905,11 +841,9 @@ export default {
       "masked": "The exhibition traces the changing ____ of the artist.",
       "options": [
         "fortune-mcq-08",
-        "fortune-mcq-07",
-        "fortune-mcq-09",
         "fortune-mcq-06",
-        "fortune-mcq-10",
-        "fortune-mcq-05"
+        "fortune-mcq-03",
+        "fortune-mcq-11"
       ],
       "explanation": "本句的「fortunes」指「某人／機構一段時間內成功、失敗和境況的變化」。",
       "sentenceIndex": 16,
@@ -918,12 +852,10 @@ export default {
         "fortunes"
       ],
       "optionReasons": {
-        "fortune-mcq-08": "本句指「某人／機構一段時間內成功、失敗和境況的變化」。",
-        "fortune-mcq-07": "「一個人或團體人生／發展中的命運與際遇」是「fortune — fate」的用法，與本句語境不同。",
-        "fortune-mcq-09": "「對某人未來命運所作的預測」是「fortune — divination」的用法，與本句語境不同。",
-        "fortune-mcq-06": "「有利而幸運的際遇／好運」是「good fortune」的用法，與本句語境不同。",
-        "fortune-mcq-10": "「聲稱能預測他人命運或未來的人」是「fortune-teller」的用法，與本句語境不同。",
-        "fortune-mcq-05": "「影響事情結果的好運、壞運或際遇」是「fortune — luck」的用法，與本句語境不同。"
+        "fortune-mcq-08": "本句的「fortunes」指「某人／機構一段時間內成功、失敗和境況的變化」。",
+        "fortune-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-08"
     },
@@ -935,11 +867,9 @@ export default {
       "masked": "She had her ____ told.",
       "options": [
         "fortune-mcq-09",
-        "fortune-mcq-08",
-        "fortune-mcq-10",
-        "fortune-mcq-07",
-        "fortune-mcq-11",
-        "fortune-mcq-06"
+        "fortune-pdf-001",
+        "fortune-mcq-04",
+        "fortune-mcq-03"
       ],
       "explanation": "本句的「fortune」指「對某人未來命運所作的預測」。",
       "sentenceIndex": 17,
@@ -948,12 +878,10 @@ export default {
         "fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-09": "本句指「對某人未來命運所作的預測」。",
-        "fortune-mcq-08": "「某人／機構一段時間內成功、失敗和境況的變化」是「fortunes」的用法，與本句語境不同。",
-        "fortune-mcq-10": "「聲稱能預測他人命運或未來的人」是「fortune-teller」的用法，與本句語境不同。",
-        "fortune-mcq-07": "「一個人或團體人生／發展中的命運與際遇」是「fortune — fate」的用法，與本句語境不同。",
-        "fortune-mcq-11": "「透過占卜等方式預測個人未來的活動」是「fortune-telling」的用法，與本句語境不同。",
-        "fortune-mcq-06": "「有利而幸運的際遇／好運」是「good fortune」的用法，與本句語境不同。"
+        "fortune-mcq-09": "本句的「fortune」指「對某人未來命運所作的預測」。",
+        "fortune-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-09"
     },
@@ -965,11 +893,9 @@ export default {
       "masked": "The ____ predicted a major change in his life.",
       "options": [
         "fortune-mcq-09",
-        "fortune-mcq-08",
-        "fortune-mcq-10",
-        "fortune-mcq-07",
-        "fortune-mcq-11",
-        "fortune-mcq-06"
+        "fortune-mcq-03",
+        "fortune-mcq-15",
+        "fortune-pdf-001"
       ],
       "explanation": "本句的「fortune」指「對某人未來命運所作的預測」。",
       "sentenceIndex": 18,
@@ -978,12 +904,10 @@ export default {
         "fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-09": "本句指「對某人未來命運所作的預測」。",
-        "fortune-mcq-08": "「某人／機構一段時間內成功、失敗和境況的變化」是「fortunes」的用法，與本句語境不同。",
-        "fortune-mcq-10": "「聲稱能預測他人命運或未來的人」是「fortune-teller」的用法，與本句語境不同。",
-        "fortune-mcq-07": "「一個人或團體人生／發展中的命運與際遇」是「fortune — fate」的用法，與本句語境不同。",
-        "fortune-mcq-11": "「透過占卜等方式預測個人未來的活動」是「fortune-telling」的用法，與本句語境不同。",
-        "fortune-mcq-06": "「有利而幸運的際遇／好運」是「good fortune」的用法，與本句語境不同。"
+        "fortune-mcq-09": "本句的「fortune」指「對某人未來命運所作的預測」。",
+        "fortune-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fortune-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-09"
     },
@@ -995,11 +919,9 @@ export default {
       "masked": "The ____ predicted that she would travel abroad.",
       "options": [
         "fortune-mcq-10",
-        "fortune-mcq-09",
-        "fortune-mcq-11",
-        "fortune-mcq-08",
-        "fortune-mcq-12",
-        "fortune-mcq-07"
+        "fortune-mcq-03",
+        "fortune-pdf-001",
+        "fortune-mcq-15"
       ],
       "explanation": "本句的「fortune-teller」指「聲稱能預測他人命運或未來的人」。",
       "sentenceIndex": 19,
@@ -1008,12 +930,10 @@ export default {
         "fortune-teller"
       ],
       "optionReasons": {
-        "fortune-mcq-10": "本句指「聲稱能預測他人命運或未來的人」。",
-        "fortune-mcq-09": "「對某人未來命運所作的預測」是「fortune — divination」的用法，與本句語境不同。",
-        "fortune-mcq-11": "「透過占卜等方式預測個人未來的活動」是「fortune-telling」的用法，與本句語境不同。",
-        "fortune-mcq-08": "「某人／機構一段時間內成功、失敗和境況的變化」是「fortunes」的用法，與本句語境不同。",
-        "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-07": "「一個人或團體人生／發展中的命運與際遇」是「fortune — fate」的用法，與本句語境不同。"
+        "fortune-mcq-10": "本句的「fortune-teller」指「聲稱能預測他人命運或未來的人」。",
+        "fortune-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fortune-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-10"
     },
@@ -1025,11 +945,9 @@ export default {
       "masked": "He does not believe in ____.",
       "options": [
         "fortune-mcq-10",
-        "fortune-mcq-09",
-        "fortune-mcq-11",
-        "fortune-mcq-08",
-        "fortune-mcq-12",
-        "fortune-mcq-07"
+        "fortune-pdf-001",
+        "fortune-mcq-04",
+        "fortune-mcq-03"
       ],
       "explanation": "本句的「fortune-tellers」指「聲稱能預測他人命運或未來的人」。",
       "sentenceIndex": 20,
@@ -1038,12 +956,10 @@ export default {
         "fortune-tellers"
       ],
       "optionReasons": {
-        "fortune-mcq-10": "本句指「聲稱能預測他人命運或未來的人」。",
-        "fortune-mcq-09": "「對某人未來命運所作的預測」是「fortune — divination」的用法，與本句語境不同。",
-        "fortune-mcq-11": "「透過占卜等方式預測個人未來的活動」是「fortune-telling」的用法，與本句語境不同。",
-        "fortune-mcq-08": "「某人／機構一段時間內成功、失敗和境況的變化」是「fortunes」的用法，與本句語境不同。",
-        "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-07": "「一個人或團體人生／發展中的命運與際遇」是「fortune — fate」的用法，與本句語境不同。"
+        "fortune-mcq-10": "本句的「fortune-tellers」指「聲稱能預測他人命運或未來的人」。",
+        "fortune-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-10"
     },
@@ -1055,11 +971,9 @@ export default {
       "masked": "____ has a long history in many cultures.",
       "options": [
         "fortune-mcq-11",
-        "fortune-mcq-10",
-        "fortune-mcq-12",
-        "fortune-mcq-09",
-        "fortune-mcq-13",
-        "fortune-mcq-08"
+        "fortune-mcq-05",
+        "fortune-mcq-02",
+        "fortune-mcq-15"
       ],
       "explanation": "本句的「Fortune-telling」指「透過占卜等方式預測個人未來的活動」。",
       "sentenceIndex": 21,
@@ -1068,12 +982,10 @@ export default {
         "Fortune-telling"
       ],
       "optionReasons": {
-        "fortune-mcq-11": "本句指「透過占卜等方式預測個人未來的活動」。",
-        "fortune-mcq-10": "「聲稱能預測他人命運或未來的人」是「fortune-teller」的用法，與本句語境不同。",
-        "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-09": "「對某人未來命運所作的預測」是「fortune — divination」的用法，與本句語境不同。",
-        "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
-        "fortune-mcq-08": "「某人／機構一段時間內成功、失敗和境況的變化」是「fortunes」的用法，與本句語境不同。"
+        "fortune-mcq-11": "本句的「Fortune-telling」指「透過占卜等方式預測個人未來的活動」。",
+        "fortune-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-11"
     },
@@ -1085,9 +997,7 @@ export default {
       "masked": "The festival included traditional ____.",
       "options": [
         "fortune-mcq-11",
-        "fortune-mcq-10",
-        "fortune-mcq-12",
-        "fortune-mcq-09",
+        "fortune-mcq-04",
         "fortune-mcq-13",
         "fortune-mcq-08"
       ],
@@ -1098,12 +1008,10 @@ export default {
         "fortune-telling"
       ],
       "optionReasons": {
-        "fortune-mcq-11": "本句指「透過占卜等方式預測個人未來的活動」。",
-        "fortune-mcq-10": "「聲稱能預測他人命運或未來的人」是「fortune-teller」的用法，與本句語境不同。",
-        "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-09": "「對某人未來命運所作的預測」是「fortune — divination」的用法，與本句語境不同。",
-        "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
-        "fortune-mcq-08": "「某人／機構一段時間內成功、失敗和境況的變化」是「fortunes」的用法，與本句語境不同。"
+        "fortune-mcq-11": "本句的「fortune-telling」指「透過占卜等方式預測個人未來的活動」。",
+        "fortune-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-11"
     },
@@ -1115,11 +1023,9 @@ export default {
       "masked": "She opened the ____ after dinner.",
       "options": [
         "fortune-mcq-17",
-        "fortune-mcq-16",
-        "fortune-mcq-15",
         "fortune-mcq-14",
-        "fortune-mcq-13",
-        "fortune-mcq-12"
+        "fortune-mcq-03",
+        "fortune-mcq-13"
       ],
       "explanation": "本句的「fortune cookie」指「內藏一張短句／預言紙條的脆餅」。",
       "sentenceIndex": 23,
@@ -1128,12 +1034,10 @@ export default {
         "fortune cookie"
       ],
       "optionReasons": {
-        "fortune-mcq-17": "本句指「內藏一張短句／預言紙條的脆餅」。",
-        "fortune-mcq-16": "「用來引出令人失望、不利或不幸的事實」是「unfortunately」的用法，與本句語境不同。",
-        "fortune-mcq-15": "「處境較差、資源較少或生活較困難的人」是「the less fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-14": "「帶來不好結果、令人遺憾或不幸的」是「unfortunate」的用法，與本句語境不同。",
-        "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
-        "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。"
+        "fortune-mcq-17": "本句的「fortune cookie」指「內藏一張短句／預言紙條的脆餅」。",
+        "fortune-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-17"
     },
@@ -1145,11 +1049,9 @@ export default {
       "masked": "The message inside the ____ cookie was funny.",
       "options": [
         "fortune-mcq-17",
-        "fortune-mcq-16",
+        "fortune-mcq-02",
         "fortune-mcq-15",
-        "fortune-mcq-14",
-        "fortune-mcq-13",
-        "fortune-mcq-12"
+        "fortune-pdf-001"
       ],
       "explanation": "本句的「fortune」指「內藏一張短句／預言紙條的脆餅」。",
       "sentenceIndex": 24,
@@ -1158,12 +1060,10 @@ export default {
         "fortune"
       ],
       "optionReasons": {
-        "fortune-mcq-17": "本句指「內藏一張短句／預言紙條的脆餅」。",
-        "fortune-mcq-16": "「用來引出令人失望、不利或不幸的事實」是「unfortunately」的用法，與本句語境不同。",
-        "fortune-mcq-15": "「處境較差、資源較少或生活較困難的人」是「the less fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-14": "「帶來不好結果、令人遺憾或不幸的」是「unfortunate」的用法，與本句語境不同。",
-        "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
-        "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。"
+        "fortune-mcq-17": "本句的「fortune」指「內藏一張短句／預言紙條的脆餅」。",
+        "fortune-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fortune-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-17"
     },
@@ -1175,11 +1075,9 @@ export default {
       "masked": "I had the ____ of seeing the original painting in person.",
       "options": [
         "fortune-pdf-001",
-        "fortune-mcq-10",
-        "fortune-mcq-12",
         "fortune-mcq-09",
-        "fortune-mcq-13",
-        "fortune-mcq-08"
+        "fortune-mcq-04",
+        "fortune-mcq-17"
       ],
       "explanation": "本句的「fortune」指「有幸獲得某個難得機會／際遇」。",
       "sentenceIndex": 25,
@@ -1188,12 +1086,10 @@ export default {
         "fortune"
       ],
       "optionReasons": {
-        "fortune-pdf-001": "本句指「有幸獲得某個難得機會／際遇」。",
-        "fortune-mcq-10": "「聲稱能預測他人命運或未來的人」是「fortune-teller」的用法，與本句語境不同。",
-        "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-09": "「對某人未來命運所作的預測」是「fortune — divination」的用法，與本句語境不同。",
-        "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
-        "fortune-mcq-08": "「某人／機構一段時間內成功、失敗和境況的變化」是「fortunes」的用法，與本句語境不同。"
+        "fortune-pdf-001": "本句的「fortune」指「有幸獲得某個難得機會／際遇」。",
+        "fortune-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-pdf-001"
     },
@@ -1205,11 +1101,9 @@ export default {
       "masked": "Few people have the ____ to work with such a talented mentor.",
       "options": [
         "fortune-pdf-001",
-        "fortune-mcq-10",
-        "fortune-mcq-12",
         "fortune-mcq-09",
-        "fortune-mcq-13",
-        "fortune-mcq-08"
+        "fortune-mcq-17",
+        "fortune-mcq-04"
       ],
       "explanation": "本句的「fortune」指「有幸獲得某個難得機會／際遇」。",
       "sentenceIndex": 26,
@@ -1218,12 +1112,10 @@ export default {
         "fortune"
       ],
       "optionReasons": {
-        "fortune-pdf-001": "本句指「有幸獲得某個難得機會／際遇」。",
-        "fortune-mcq-10": "「聲稱能預測他人命運或未來的人」是「fortune-teller」的用法，與本句語境不同。",
-        "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-09": "「對某人未來命運所作的預測」是「fortune — divination」的用法，與本句語境不同。",
-        "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
-        "fortune-mcq-08": "「某人／機構一段時間內成功、失敗和境況的變化」是「fortunes」的用法，與本句語境不同。"
+        "fortune-pdf-001": "本句的「fortune」指「有幸獲得某個難得機會／際遇」。",
+        "fortune-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-pdf-001"
     },
@@ -1235,11 +1127,9 @@ export default {
       "masked": "We were ____ to get tickets.",
       "options": [
         "fortune-mcq-12",
-        "fortune-mcq-11",
-        "fortune-mcq-13",
-        "fortune-mcq-10",
-        "fortune-mcq-14",
-        "fortune-mcq-09"
+        "fortune-mcq-02",
+        "fortune-mcq-17",
+        "fortune-mcq-11"
       ],
       "explanation": "本句的「fortunate」指「因機會、情況或結果有利而幸運的」。",
       "sentenceIndex": 27,
@@ -1248,12 +1138,10 @@ export default {
         "fortunate"
       ],
       "optionReasons": {
-        "fortune-mcq-12": "本句指「因機會、情況或結果有利而幸運的」。",
-        "fortune-mcq-11": "「透過占卜等方式預測個人未來的活動」是「fortune-telling」的用法，與本句語境不同。",
-        "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
-        "fortune-mcq-10": "「聲稱能預測他人命運或未來的人」是「fortune-teller」的用法，與本句語境不同。",
-        "fortune-mcq-14": "「帶來不好結果、令人遺憾或不幸的」是「unfortunate」的用法，與本句語境不同。",
-        "fortune-mcq-09": "「對某人未來命運所作的預測」是「fortune — divination」的用法，與本句語境不同。"
+        "fortune-mcq-12": "本句的「fortunate」指「因機會、情況或結果有利而幸運的」。",
+        "fortune-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-12"
     },
@@ -1265,11 +1153,9 @@ export default {
       "masked": "She was ____ enough to study abroad.",
       "options": [
         "fortune-mcq-12",
+        "fortune-mcq-04",
         "fortune-mcq-11",
-        "fortune-mcq-13",
-        "fortune-mcq-10",
-        "fortune-mcq-14",
-        "fortune-mcq-09"
+        "fortune-mcq-03"
       ],
       "explanation": "本句的「fortunate」指「因機會、情況或結果有利而幸運的」。",
       "sentenceIndex": 28,
@@ -1278,12 +1164,10 @@ export default {
         "fortunate"
       ],
       "optionReasons": {
-        "fortune-mcq-12": "本句指「因機會、情況或結果有利而幸運的」。",
-        "fortune-mcq-11": "「透過占卜等方式預測個人未來的活動」是「fortune-telling」的用法，與本句語境不同。",
-        "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
-        "fortune-mcq-10": "「聲稱能預測他人命運或未來的人」是「fortune-teller」的用法，與本句語境不同。",
-        "fortune-mcq-14": "「帶來不好結果、令人遺憾或不幸的」是「unfortunate」的用法，與本句語境不同。",
-        "fortune-mcq-09": "「對某人未來命運所作的預測」是「fortune — divination」的用法，與本句語境不同。"
+        "fortune-mcq-12": "本句的「fortunate」指「因機會、情況或結果有利而幸運的」。",
+        "fortune-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-12"
     },
@@ -1296,10 +1180,8 @@ export default {
       "options": [
         "fortune-mcq-12",
         "fortune-mcq-11",
-        "fortune-mcq-13",
-        "fortune-mcq-10",
-        "fortune-mcq-14",
-        "fortune-mcq-09"
+        "fortune-mcq-17",
+        "fortune-mcq-15"
       ],
       "explanation": "本句的「fortunate coincidence」指「因機會、情況或結果有利而幸運的」。",
       "sentenceIndex": 29,
@@ -1308,12 +1190,10 @@ export default {
         "fortunate coincidence"
       ],
       "optionReasons": {
-        "fortune-mcq-12": "本句指「因機會、情況或結果有利而幸運的」。",
-        "fortune-mcq-11": "「透過占卜等方式預測個人未來的活動」是「fortune-telling」的用法，與本句語境不同。",
-        "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
-        "fortune-mcq-10": "「聲稱能預測他人命運或未來的人」是「fortune-teller」的用法，與本句語境不同。",
-        "fortune-mcq-14": "「帶來不好結果、令人遺憾或不幸的」是「unfortunate」的用法，與本句語境不同。",
-        "fortune-mcq-09": "「對某人未來命運所作的預測」是「fortune — divination」的用法，與本句語境不同。"
+        "fortune-mcq-12": "本句的「fortunate coincidence」指「因機會、情況或結果有利而幸運的」。",
+        "fortune-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-12"
     },
@@ -1326,10 +1206,8 @@ export default {
       "options": [
         "fortune-mcq-12",
         "fortune-mcq-11",
-        "fortune-mcq-13",
-        "fortune-mcq-10",
-        "fortune-mcq-14",
-        "fortune-mcq-09"
+        "fortune-mcq-04",
+        "fortune-mcq-03"
       ],
       "explanation": "本句的「fortunate」指「因機會、情況或結果有利而幸運的」。",
       "sentenceIndex": 30,
@@ -1338,12 +1216,10 @@ export default {
         "fortunate"
       ],
       "optionReasons": {
-        "fortune-mcq-12": "本句指「因機會、情況或結果有利而幸運的」。",
-        "fortune-mcq-11": "「透過占卜等方式預測個人未來的活動」是「fortune-telling」的用法，與本句語境不同。",
-        "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
-        "fortune-mcq-10": "「聲稱能預測他人命運或未來的人」是「fortune-teller」的用法，與本句語境不同。",
-        "fortune-mcq-14": "「帶來不好結果、令人遺憾或不幸的」是「unfortunate」的用法，與本句語境不同。",
-        "fortune-mcq-09": "「對某人未來命運所作的預測」是「fortune — divination」的用法，與本句語境不同。"
+        "fortune-mcq-12": "本句的「fortunate」指「因機會、情況或結果有利而幸運的」。",
+        "fortune-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-12"
     },
@@ -1355,11 +1231,9 @@ export default {
       "masked": "____, the painting was not damaged.",
       "options": [
         "fortune-mcq-13",
-        "fortune-mcq-12",
-        "fortune-mcq-14",
-        "fortune-mcq-11",
-        "fortune-mcq-15",
-        "fortune-mcq-10"
+        "fortune-mcq-08",
+        "fortune-mcq-04",
+        "fortune-mcq-11"
       ],
       "explanation": "本句的「Fortunately」指「表示好事幸運地發生，或壞事沒有發生」。",
       "sentenceIndex": 31,
@@ -1368,12 +1242,10 @@ export default {
         "Fortunately"
       ],
       "optionReasons": {
-        "fortune-mcq-13": "本句指「表示好事幸運地發生，或壞事沒有發生」。",
-        "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-14": "「帶來不好結果、令人遺憾或不幸的」是「unfortunate」的用法，與本句語境不同。",
-        "fortune-mcq-11": "「透過占卜等方式預測個人未來的活動」是「fortune-telling」的用法，與本句語境不同。",
-        "fortune-mcq-15": "「處境較差、資源較少或生活較困難的人」是「the less fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-10": "「聲稱能預測他人命運或未來的人」是「fortune-teller」的用法，與本句語境不同。"
+        "fortune-mcq-13": "本句的「Fortunately」指「表示好事幸運地發生，或壞事沒有發生」。",
+        "fortune-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-13"
     },
@@ -1385,11 +1257,9 @@ export default {
       "masked": "____, we arrived before the museum closed.",
       "options": [
         "fortune-mcq-13",
-        "fortune-mcq-12",
-        "fortune-mcq-14",
         "fortune-mcq-11",
-        "fortune-mcq-15",
-        "fortune-mcq-10"
+        "fortune-mcq-02",
+        "fortune-mcq-17"
       ],
       "explanation": "本句的「Fortunately」指「表示好事幸運地發生，或壞事沒有發生」。",
       "sentenceIndex": 32,
@@ -1398,12 +1268,10 @@ export default {
         "Fortunately"
       ],
       "optionReasons": {
-        "fortune-mcq-13": "本句指「表示好事幸運地發生，或壞事沒有發生」。",
-        "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-14": "「帶來不好結果、令人遺憾或不幸的」是「unfortunate」的用法，與本句語境不同。",
-        "fortune-mcq-11": "「透過占卜等方式預測個人未來的活動」是「fortune-telling」的用法，與本句語境不同。",
-        "fortune-mcq-15": "「處境較差、資源較少或生活較困難的人」是「the less fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-10": "「聲稱能預測他人命運或未來的人」是「fortune-teller」的用法，與本句語境不同。"
+        "fortune-mcq-13": "本句的「Fortunately」指「表示好事幸運地發生，或壞事沒有發生」。",
+        "fortune-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-13"
     },
@@ -1415,11 +1283,9 @@ export default {
       "masked": "It was an ____.",
       "options": [
         "fortune-mcq-14",
-        "fortune-mcq-13",
-        "fortune-mcq-15",
-        "fortune-mcq-12",
-        "fortune-mcq-16",
-        "fortune-mcq-11"
+        "fortune-mcq-08",
+        "fortune-mcq-17",
+        "fortune-mcq-03"
       ],
       "explanation": "本句的「unfortunate accident」指「帶來不好結果、令人遺憾或不幸的」。",
       "sentenceIndex": 33,
@@ -1428,12 +1294,10 @@ export default {
         "unfortunate accident"
       ],
       "optionReasons": {
-        "fortune-mcq-14": "本句指「帶來不好結果、令人遺憾或不幸的」。",
-        "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
-        "fortune-mcq-15": "「處境較差、資源較少或生活較困難的人」是「the less fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-16": "「用來引出令人失望、不利或不幸的事實」是「unfortunately」的用法，與本句語境不同。",
-        "fortune-mcq-11": "「透過占卜等方式預測個人未來的活動」是「fortune-telling」的用法，與本句語境不同。"
+        "fortune-mcq-14": "本句的「unfortunate accident」指「帶來不好結果、令人遺憾或不幸的」。",
+        "fortune-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-14"
     },
@@ -1445,11 +1309,9 @@ export default {
       "masked": "The timing was ____.",
       "options": [
         "fortune-mcq-14",
-        "fortune-mcq-13",
         "fortune-mcq-15",
-        "fortune-mcq-12",
-        "fortune-mcq-16",
-        "fortune-mcq-11"
+        "fortune-mcq-07",
+        "fortune-mcq-04"
       ],
       "explanation": "本句的「unfortunate」指「帶來不好結果、令人遺憾或不幸的」。",
       "sentenceIndex": 34,
@@ -1458,12 +1320,10 @@ export default {
         "unfortunate"
       ],
       "optionReasons": {
-        "fortune-mcq-14": "本句指「帶來不好結果、令人遺憾或不幸的」。",
-        "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
-        "fortune-mcq-15": "「處境較差、資源較少或生活較困難的人」是「the less fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-16": "「用來引出令人失望、不利或不幸的事實」是「unfortunately」的用法，與本句語境不同。",
-        "fortune-mcq-11": "「透過占卜等方式預測個人未來的活動」是「fortune-telling」的用法，與本句語境不同。"
+        "fortune-mcq-14": "本句的「unfortunate」指「帶來不好結果、令人遺憾或不幸的」。",
+        "fortune-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-14"
     },
@@ -1475,11 +1335,9 @@ export default {
       "masked": "The charity provided food for the less ____.",
       "options": [
         "fortune-mcq-15",
-        "fortune-mcq-14",
         "fortune-mcq-16",
-        "fortune-mcq-13",
-        "fortune-mcq-17",
-        "fortune-mcq-12"
+        "fortune-mcq-03",
+        "fortune-mcq-17"
       ],
       "explanation": "本句的「fortunate」指「處境較差、資源較少或生活較困難的人」。",
       "sentenceIndex": 35,
@@ -1488,12 +1346,10 @@ export default {
         "fortunate"
       ],
       "optionReasons": {
-        "fortune-mcq-15": "本句指「處境較差、資源較少或生活較困難的人」。",
-        "fortune-mcq-14": "「帶來不好結果、令人遺憾或不幸的」是「unfortunate」的用法，與本句語境不同。",
-        "fortune-mcq-16": "「用來引出令人失望、不利或不幸的事實」是「unfortunately」的用法，與本句語境不同。",
-        "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
-        "fortune-mcq-17": "「內藏一張短句／預言紙條的脆餅」是「12. fortune cookie = 幸運餅；籤語餅」的用法，與本句語境不同。",
-        "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。"
+        "fortune-mcq-15": "本句的「fortunate」指「處境較差、資源較少或生活較困難的人」。",
+        "fortune-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-15"
     },
@@ -1505,11 +1361,9 @@ export default {
       "masked": "He wanted to help those less ____ than himself.",
       "options": [
         "fortune-mcq-15",
-        "fortune-mcq-14",
-        "fortune-mcq-16",
-        "fortune-mcq-13",
-        "fortune-mcq-17",
-        "fortune-mcq-12"
+        "fortune-mcq-02",
+        "fortune-mcq-12",
+        "fortune-mcq-17"
       ],
       "explanation": "本句的「fortunate」指「處境較差、資源較少或生活較困難的人」。",
       "sentenceIndex": 36,
@@ -1518,12 +1372,10 @@ export default {
         "fortunate"
       ],
       "optionReasons": {
-        "fortune-mcq-15": "本句指「處境較差、資源較少或生活較困難的人」。",
-        "fortune-mcq-14": "「帶來不好結果、令人遺憾或不幸的」是「unfortunate」的用法，與本句語境不同。",
-        "fortune-mcq-16": "「用來引出令人失望、不利或不幸的事實」是「unfortunately」的用法，與本句語境不同。",
-        "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
-        "fortune-mcq-17": "「內藏一張短句／預言紙條的脆餅」是「12. fortune cookie = 幸運餅；籤語餅」的用法，與本句語境不同。",
-        "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。"
+        "fortune-mcq-15": "本句的「fortunate」指「處境較差、資源較少或生活較困難的人」。",
+        "fortune-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-15"
     },
@@ -1535,11 +1387,9 @@ export default {
       "masked": "____, the museum was closed.",
       "options": [
         "fortune-mcq-16",
-        "fortune-mcq-15",
+        "fortune-mcq-07",
         "fortune-mcq-17",
-        "fortune-mcq-14",
-        "fortune-mcq-13",
-        "fortune-mcq-12"
+        "fortune-mcq-15"
       ],
       "explanation": "本句的「Unfortunately」指「用來引出令人失望、不利或不幸的事實」。",
       "sentenceIndex": 37,
@@ -1548,12 +1398,10 @@ export default {
         "Unfortunately"
       ],
       "optionReasons": {
-        "fortune-mcq-16": "本句指「用來引出令人失望、不利或不幸的事實」。",
-        "fortune-mcq-15": "「處境較差、資源較少或生活較困難的人」是「the less fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-17": "「內藏一張短句／預言紙條的脆餅」是「12. fortune cookie = 幸運餅；籤語餅」的用法，與本句語境不同。",
-        "fortune-mcq-14": "「帶來不好結果、令人遺憾或不幸的」是「unfortunate」的用法，與本句語境不同。",
-        "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
-        "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。"
+        "fortune-mcq-16": "本句的「Unfortunately」指「用來引出令人失望、不利或不幸的事實」。",
+        "fortune-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-16"
     },
@@ -1565,11 +1413,9 @@ export default {
       "masked": "____, the original was too expensive.",
       "options": [
         "fortune-mcq-16",
-        "fortune-mcq-15",
-        "fortune-mcq-17",
-        "fortune-mcq-14",
-        "fortune-mcq-13",
-        "fortune-mcq-12"
+        "fortune-mcq-07",
+        "fortune-mcq-03",
+        "fortune-mcq-15"
       ],
       "explanation": "本句的「Unfortunately」指「用來引出令人失望、不利或不幸的事實」。",
       "sentenceIndex": 38,
@@ -1578,12 +1424,10 @@ export default {
         "Unfortunately"
       ],
       "optionReasons": {
-        "fortune-mcq-16": "本句指「用來引出令人失望、不利或不幸的事實」。",
-        "fortune-mcq-15": "「處境較差、資源較少或生活較困難的人」是「the less fortunate」的用法，與本句語境不同。",
-        "fortune-mcq-17": "「內藏一張短句／預言紙條的脆餅」是「12. fortune cookie = 幸運餅；籤語餅」的用法，與本句語境不同。",
-        "fortune-mcq-14": "「帶來不好結果、令人遺憾或不幸的」是「unfortunate」的用法，與本句語境不同。",
-        "fortune-mcq-13": "「表示好事幸運地發生，或壞事沒有發生」是「fortunately」的用法，與本句語境不同。",
-        "fortune-mcq-12": "「因機會、情況或結果有利而幸運的」是「fortunate」的用法，與本句語境不同。"
+        "fortune-mcq-16": "本句的「Unfortunately」指「用來引出令人失望、不利或不幸的事實」。",
+        "fortune-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fortune-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fortune-mcq-16"
     }
@@ -1595,5 +1439,7 @@ export default {
     "sha256": "de260d1ea1f668f08e8f4953305d9aef21888e198f3b66903ffd82618cb1dace",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

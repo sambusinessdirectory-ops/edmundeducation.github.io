@@ -196,11 +196,8 @@ export default {
       "masked": "The computer selected ten names at ____.",
       "options": [
         "random-mcq-01",
-        "random-mcq-02",
-        "random-mcq-03",
         "random-mcq-04",
-        "random-mcq-05",
-        "random-mcq-06"
+        "random-mcq-05"
       ],
       "explanation": "本句的「random」指「不是按照預定規律、偏好或計劃，而是由機會或隨機程序決定的」。",
       "sentenceIndex": 0,
@@ -209,12 +206,9 @@ export default {
         "random"
       ],
       "optionReasons": {
-        "random-mcq-01": "本句指「不是按照預定規律、偏好或計劃，而是由機會或隨機程序決定的」。",
-        "random-mcq-02": "「缺乏可辨認的固定規律、結構或排列次序的」是「random — no clear pattern/order」的用法，與本句語境不同。",
-        "random-mcq-03": "「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」是「random — unrelated/unexpected in conversation」的用法，與本句語境不同。",
-        "random-mcq-04": "「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」是「random — odd/peculiar, informal」的用法，與本句語境不同。",
-        "random-mcq-05": "「沒有特別指定或挑選理由，任意的一個人或事物」是「random + person/thing」的用法，與本句語境不同。",
-        "random-mcq-06": "「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」是「randomly」的用法，與本句語境不同。"
+        "random-mcq-01": "本句的「random」指「不是按照預定規律、偏好或計劃，而是由機會或隨機程序決定的」。",
+        "random-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "random-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "random-mcq-01"
     },
@@ -226,11 +220,8 @@ export default {
       "masked": "Participants were assigned to groups in a ____ order.",
       "options": [
         "random-mcq-01",
-        "random-mcq-02",
-        "random-mcq-03",
         "random-mcq-04",
-        "random-mcq-05",
-        "random-mcq-06"
+        "random-mcq-05"
       ],
       "explanation": "本句的「random」指「不是按照預定規律、偏好或計劃，而是由機會或隨機程序決定的」。",
       "sentenceIndex": 1,
@@ -239,12 +230,9 @@ export default {
         "random"
       ],
       "optionReasons": {
-        "random-mcq-01": "本句指「不是按照預定規律、偏好或計劃，而是由機會或隨機程序決定的」。",
-        "random-mcq-02": "「缺乏可辨認的固定規律、結構或排列次序的」是「random — no clear pattern/order」的用法，與本句語境不同。",
-        "random-mcq-03": "「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」是「random — unrelated/unexpected in conversation」的用法，與本句語境不同。",
-        "random-mcq-04": "「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」是「random — odd/peculiar, informal」的用法，與本句語境不同。",
-        "random-mcq-05": "「沒有特別指定或挑選理由，任意的一個人或事物」是「random + person/thing」的用法，與本句語境不同。",
-        "random-mcq-06": "「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」是「randomly」的用法，與本句語境不同。"
+        "random-mcq-01": "本句的「random」指「不是按照預定規律、偏好或計劃，而是由機會或隨機程序決定的」。",
+        "random-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "random-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "random-mcq-01"
     },
@@ -256,11 +244,7 @@ export default {
       "masked": "The dots appear in a ____ pattern.",
       "options": [
         "random-mcq-02",
-        "random-mcq-01",
-        "random-mcq-03",
-        "random-mcq-04",
-        "random-mcq-05",
-        "random-mcq-06"
+        "random-mcq-04"
       ],
       "explanation": "本句的「random」指「缺乏可辨認的固定規律、結構或排列次序的」。",
       "sentenceIndex": 2,
@@ -269,12 +253,8 @@ export default {
         "random"
       ],
       "optionReasons": {
-        "random-mcq-02": "本句指「缺乏可辨認的固定規律、結構或排列次序的」。",
-        "random-mcq-01": "「不是按照預定規律、偏好或計劃，而是由機會或隨機程序決定的」是「random — chance-based selection/event」的用法，與本句語境不同。",
-        "random-mcq-03": "「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」是「random — unrelated/unexpected in conversation」的用法，與本句語境不同。",
-        "random-mcq-04": "「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」是「random — odd/peculiar, informal」的用法，與本句語境不同。",
-        "random-mcq-05": "「沒有特別指定或挑選理由，任意的一個人或事物」是「random + person/thing」的用法，與本句語境不同。",
-        "random-mcq-06": "「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」是「randomly」的用法，與本句語境不同。"
+        "random-mcq-02": "本句的「random」指「缺乏可辨認的固定規律、結構或排列次序的」。",
+        "random-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "random-mcq-02"
     },
@@ -286,11 +266,7 @@ export default {
       "masked": "The files were placed in a seemingly ____ order.",
       "options": [
         "random-mcq-02",
-        "random-mcq-01",
-        "random-mcq-03",
-        "random-mcq-04",
-        "random-mcq-05",
-        "random-mcq-06"
+        "random-mcq-04"
       ],
       "explanation": "本句的「random」指「缺乏可辨認的固定規律、結構或排列次序的」。",
       "sentenceIndex": 3,
@@ -299,12 +275,8 @@ export default {
         "random"
       ],
       "optionReasons": {
-        "random-mcq-02": "本句指「缺乏可辨認的固定規律、結構或排列次序的」。",
-        "random-mcq-01": "「不是按照預定規律、偏好或計劃，而是由機會或隨機程序決定的」是「random — chance-based selection/event」的用法，與本句語境不同。",
-        "random-mcq-03": "「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」是「random — unrelated/unexpected in conversation」的用法，與本句語境不同。",
-        "random-mcq-04": "「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」是「random — odd/peculiar, informal」的用法，與本句語境不同。",
-        "random-mcq-05": "「沒有特別指定或挑選理由，任意的一個人或事物」是「random + person/thing」的用法，與本句語境不同。",
-        "random-mcq-06": "「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」是「randomly」的用法，與本句語境不同。"
+        "random-mcq-02": "本句的「random」指「缺乏可辨認的固定規律、結構或排列次序的」。",
+        "random-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "random-mcq-02"
     },
@@ -316,11 +288,7 @@ export default {
       "masked": "That may sound a bit ____, but when he speaks, everything comes alive.",
       "options": [
         "random-mcq-03",
-        "random-mcq-02",
-        "random-mcq-04",
-        "random-mcq-01",
-        "random-mcq-05",
-        "random-mcq-06"
+        "random-mcq-01"
       ],
       "explanation": "本句的「random」指「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」。",
       "sentenceIndex": 4,
@@ -329,12 +297,8 @@ export default {
         "random"
       ],
       "optionReasons": {
-        "random-mcq-03": "本句指「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」。",
-        "random-mcq-02": "「缺乏可辨認的固定規律、結構或排列次序的」是「random — no clear pattern/order」的用法，與本句語境不同。",
-        "random-mcq-04": "「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」是「random — odd/peculiar, informal」的用法，與本句語境不同。",
-        "random-mcq-01": "「不是按照預定規律、偏好或計劃，而是由機會或隨機程序決定的」是「random — chance-based selection/event」的用法，與本句語境不同。",
-        "random-mcq-05": "「沒有特別指定或挑選理由，任意的一個人或事物」是「random + person/thing」的用法，與本句語境不同。",
-        "random-mcq-06": "「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」是「randomly」的用法，與本句語境不同。"
+        "random-mcq-03": "本句的「random」指「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」。",
+        "random-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "random-mcq-03"
     },
@@ -346,11 +310,7 @@ export default {
       "masked": "That was a ____ question.",
       "options": [
         "random-mcq-03",
-        "random-mcq-02",
-        "random-mcq-04",
-        "random-mcq-01",
-        "random-mcq-05",
-        "random-mcq-06"
+        "random-mcq-08"
       ],
       "explanation": "本句的「random」指「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」。",
       "sentenceIndex": 5,
@@ -359,12 +319,8 @@ export default {
         "random"
       ],
       "optionReasons": {
-        "random-mcq-03": "本句指「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」。",
-        "random-mcq-02": "「缺乏可辨認的固定規律、結構或排列次序的」是「random — no clear pattern/order」的用法，與本句語境不同。",
-        "random-mcq-04": "「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」是「random — odd/peculiar, informal」的用法，與本句語境不同。",
-        "random-mcq-01": "「不是按照預定規律、偏好或計劃，而是由機會或隨機程序決定的」是「random — chance-based selection/event」的用法，與本句語境不同。",
-        "random-mcq-05": "「沒有特別指定或挑選理由，任意的一個人或事物」是「random + person/thing」的用法，與本句語境不同。",
-        "random-mcq-06": "「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」是「randomly」的用法，與本句語境不同。"
+        "random-mcq-03": "本句的「random」指「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」。",
+        "random-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "random-mcq-03"
     },
@@ -376,11 +332,7 @@ export default {
       "masked": "He made a completely ____ comment about trains.",
       "options": [
         "random-mcq-03",
-        "random-mcq-02",
-        "random-mcq-04",
-        "random-mcq-01",
-        "random-mcq-05",
-        "random-mcq-06"
+        "random-mcq-01"
       ],
       "explanation": "本句的「random」指「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」。",
       "sentenceIndex": 6,
@@ -389,12 +341,8 @@ export default {
         "random"
       ],
       "optionReasons": {
-        "random-mcq-03": "本句指「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」。",
-        "random-mcq-02": "「缺乏可辨認的固定規律、結構或排列次序的」是「random — no clear pattern/order」的用法，與本句語境不同。",
-        "random-mcq-04": "「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」是「random — odd/peculiar, informal」的用法，與本句語境不同。",
-        "random-mcq-01": "「不是按照預定規律、偏好或計劃，而是由機會或隨機程序決定的」是「random — chance-based selection/event」的用法，與本句語境不同。",
-        "random-mcq-05": "「沒有特別指定或挑選理由，任意的一個人或事物」是「random + person/thing」的用法，與本句語境不同。",
-        "random-mcq-06": "「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」是「randomly」的用法，與本句語境不同。"
+        "random-mcq-03": "本句的「random」指「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」。",
+        "random-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "random-mcq-03"
     },
@@ -406,11 +354,8 @@ export default {
       "masked": "That was such a ____ thing to do.",
       "options": [
         "random-mcq-04",
-        "random-mcq-03",
-        "random-mcq-05",
-        "random-mcq-02",
-        "random-mcq-06",
-        "random-mcq-01"
+        "random-mcq-01",
+        "random-mcq-05"
       ],
       "explanation": "本句的「random」指「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」。",
       "sentenceIndex": 7,
@@ -419,12 +364,9 @@ export default {
         "random"
       ],
       "optionReasons": {
-        "random-mcq-04": "本句指「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」。",
-        "random-mcq-03": "「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」是「random — unrelated/unexpected in conversation」的用法，與本句語境不同。",
-        "random-mcq-05": "「沒有特別指定或挑選理由，任意的一個人或事物」是「random + person/thing」的用法，與本句語境不同。",
-        "random-mcq-02": "「缺乏可辨認的固定規律、結構或排列次序的」是「random — no clear pattern/order」的用法，與本句語境不同。",
-        "random-mcq-06": "「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」是「randomly」的用法，與本句語境不同。",
-        "random-mcq-01": "「不是按照預定規律、偏好或計劃，而是由機會或隨機程序決定的」是「random — chance-based selection/event」的用法，與本句語境不同。"
+        "random-mcq-04": "本句的「random」指「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」。",
+        "random-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "random-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "random-mcq-04"
     },
@@ -436,11 +378,7 @@ export default {
       "masked": "I had a ____ dream about my old school.",
       "options": [
         "random-mcq-04",
-        "random-mcq-03",
-        "random-mcq-05",
-        "random-mcq-02",
-        "random-mcq-06",
-        "random-mcq-01"
+        "random-mcq-02"
       ],
       "explanation": "本句的「random」指「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」。",
       "sentenceIndex": 8,
@@ -449,12 +387,8 @@ export default {
         "random"
       ],
       "optionReasons": {
-        "random-mcq-04": "本句指「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」。",
-        "random-mcq-03": "「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」是「random — unrelated/unexpected in conversation」的用法，與本句語境不同。",
-        "random-mcq-05": "「沒有特別指定或挑選理由，任意的一個人或事物」是「random + person/thing」的用法，與本句語境不同。",
-        "random-mcq-02": "「缺乏可辨認的固定規律、結構或排列次序的」是「random — no clear pattern/order」的用法，與本句語境不同。",
-        "random-mcq-06": "「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」是「randomly」的用法，與本句語境不同。",
-        "random-mcq-01": "「不是按照預定規律、偏好或計劃，而是由機會或隨機程序決定的」是「random — chance-based selection/event」的用法，與本句語境不同。"
+        "random-mcq-04": "本句的「random」指「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」。",
+        "random-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "random-mcq-04"
     },
@@ -467,10 +401,7 @@ export default {
       "options": [
         "random-mcq-05",
         "random-mcq-04",
-        "random-mcq-06",
-        "random-mcq-03",
-        "random-mcq-07",
-        "random-mcq-02"
+        "random-mcq-01"
       ],
       "explanation": "本句的「random」指「沒有特別指定或挑選理由，任意的一個人或事物」。",
       "sentenceIndex": 9,
@@ -479,12 +410,9 @@ export default {
         "random"
       ],
       "optionReasons": {
-        "random-mcq-05": "本句指「沒有特別指定或挑選理由，任意的一個人或事物」。",
-        "random-mcq-04": "「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」是「random — odd/peculiar, informal」的用法，與本句語境不同。",
-        "random-mcq-06": "「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」是「randomly」的用法，與本句語境不同。",
-        "random-mcq-03": "「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」是「random — unrelated/unexpected in conversation」的用法，與本句語境不同。",
-        "random-mcq-07": "「缺乏可預測規律或由機會決定的性質；隨機性」是「randomness」的用法，與本句語境不同。",
-        "random-mcq-02": "「缺乏可辨認的固定規律、結構或排列次序的」是「random — no clear pattern/order」的用法，與本句語境不同。"
+        "random-mcq-05": "本句的「random」指「沒有特別指定或挑選理由，任意的一個人或事物」。",
+        "random-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "random-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "random-mcq-05"
     },
@@ -497,10 +425,7 @@ export default {
       "options": [
         "random-mcq-05",
         "random-mcq-04",
-        "random-mcq-06",
-        "random-mcq-03",
-        "random-mcq-07",
-        "random-mcq-02"
+        "random-mcq-01"
       ],
       "explanation": "本句的「random」指「沒有特別指定或挑選理由，任意的一個人或事物」。",
       "sentenceIndex": 10,
@@ -509,12 +434,9 @@ export default {
         "random"
       ],
       "optionReasons": {
-        "random-mcq-05": "本句指「沒有特別指定或挑選理由，任意的一個人或事物」。",
-        "random-mcq-04": "「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」是「random — odd/peculiar, informal」的用法，與本句語境不同。",
-        "random-mcq-06": "「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」是「randomly」的用法，與本句語境不同。",
-        "random-mcq-03": "「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」是「random — unrelated/unexpected in conversation」的用法，與本句語境不同。",
-        "random-mcq-07": "「缺乏可預測規律或由機會決定的性質；隨機性」是「randomness」的用法，與本句語境不同。",
-        "random-mcq-02": "「缺乏可辨認的固定規律、結構或排列次序的」是「random — no clear pattern/order」的用法，與本句語境不同。"
+        "random-mcq-05": "本句的「random」指「沒有特別指定或挑選理由，任意的一個人或事物」。",
+        "random-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "random-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "random-mcq-05"
     },
@@ -526,11 +448,7 @@ export default {
       "masked": "The questions were ____ selected.",
       "options": [
         "random-mcq-06",
-        "random-mcq-05",
-        "random-mcq-07",
-        "random-mcq-04",
-        "random-mcq-08",
-        "random-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「randomly」指「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」。",
       "sentenceIndex": 11,
@@ -539,12 +457,8 @@ export default {
         "randomly"
       ],
       "optionReasons": {
-        "random-mcq-06": "本句指「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」。",
-        "random-mcq-05": "「沒有特別指定或挑選理由，任意的一個人或事物」是「random + person/thing」的用法，與本句語境不同。",
-        "random-mcq-07": "「缺乏可預測規律或由機會決定的性質；隨機性」是「randomness」的用法，與本句語境不同。",
-        "random-mcq-04": "「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」是「random — odd/peculiar, informal」的用法，與本句語境不同。",
-        "random-mcq-08": "「令次序、分配或選擇由隨機程序決定」是「randomize/randomise」的用法，與本句語境不同。",
-        "random-mcq-03": "「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」是「random — unrelated/unexpected in conversation」的用法，與本句語境不同。"
+        "random-mcq-06": "本句的「randomly」指「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "random-mcq-06"
     },
@@ -556,11 +470,7 @@ export default {
       "masked": "He ____ started talking about his childhood.",
       "options": [
         "random-mcq-06",
-        "random-mcq-05",
-        "random-mcq-07",
-        "random-mcq-04",
-        "random-mcq-08",
-        "random-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「randomly」指「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」。",
       "sentenceIndex": 12,
@@ -569,12 +479,8 @@ export default {
         "randomly"
       ],
       "optionReasons": {
-        "random-mcq-06": "本句指「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」。",
-        "random-mcq-05": "「沒有特別指定或挑選理由，任意的一個人或事物」是「random + person/thing」的用法，與本句語境不同。",
-        "random-mcq-07": "「缺乏可預測規律或由機會決定的性質；隨機性」是「randomness」的用法，與本句語境不同。",
-        "random-mcq-04": "「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」是「random — odd/peculiar, informal」的用法，與本句語境不同。",
-        "random-mcq-08": "「令次序、分配或選擇由隨機程序決定」是「randomize/randomise」的用法，與本句語境不同。",
-        "random-mcq-03": "「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」是「random — unrelated/unexpected in conversation」的用法，與本句語境不同。"
+        "random-mcq-06": "本句的「randomly」指「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "random-mcq-06"
     },
@@ -586,11 +492,7 @@ export default {
       "masked": "The experiment depends on true ____.",
       "options": [
         "random-mcq-07",
-        "random-mcq-06",
-        "random-mcq-08",
-        "random-mcq-05",
-        "random-mcq-04",
-        "random-mcq-03"
+        "random-mcq-04"
       ],
       "explanation": "本句的「randomness」指「缺乏可預測規律或由機會決定的性質；隨機性」。",
       "sentenceIndex": 13,
@@ -599,12 +501,8 @@ export default {
         "randomness"
       ],
       "optionReasons": {
-        "random-mcq-07": "本句指「缺乏可預測規律或由機會決定的性質；隨機性」。",
-        "random-mcq-06": "「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」是「randomly」的用法，與本句語境不同。",
-        "random-mcq-08": "「令次序、分配或選擇由隨機程序決定」是「randomize/randomise」的用法，與本句語境不同。",
-        "random-mcq-05": "「沒有特別指定或挑選理由，任意的一個人或事物」是「random + person/thing」的用法，與本句語境不同。",
-        "random-mcq-04": "「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」是「random — odd/peculiar, informal」的用法，與本句語境不同。",
-        "random-mcq-03": "「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」是「random — unrelated/unexpected in conversation」的用法，與本句語境不同。"
+        "random-mcq-07": "本句的「randomness」指「缺乏可預測規律或由機會決定的性質；隨機性」。",
+        "random-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "random-mcq-07"
     },
@@ -616,11 +514,7 @@ export default {
       "masked": "The apparent ____ of the pattern made it difficult to predict.",
       "options": [
         "random-mcq-07",
-        "random-mcq-06",
-        "random-mcq-08",
-        "random-mcq-05",
-        "random-mcq-04",
-        "random-mcq-03"
+        "random-mcq-04"
       ],
       "explanation": "本句的「randomness」指「缺乏可預測規律或由機會決定的性質；隨機性」。",
       "sentenceIndex": 14,
@@ -629,12 +523,8 @@ export default {
         "randomness"
       ],
       "optionReasons": {
-        "random-mcq-07": "本句指「缺乏可預測規律或由機會決定的性質；隨機性」。",
-        "random-mcq-06": "「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」是「randomly」的用法，與本句語境不同。",
-        "random-mcq-08": "「令次序、分配或選擇由隨機程序決定」是「randomize/randomise」的用法，與本句語境不同。",
-        "random-mcq-05": "「沒有特別指定或挑選理由，任意的一個人或事物」是「random + person/thing」的用法，與本句語境不同。",
-        "random-mcq-04": "「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」是「random — odd/peculiar, informal」的用法，與本句語境不同。",
-        "random-mcq-03": "「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」是「random — unrelated/unexpected in conversation」的用法，與本句語境不同。"
+        "random-mcq-07": "本句的「randomness」指「缺乏可預測規律或由機會決定的性質；隨機性」。",
+        "random-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "random-mcq-07"
     },
@@ -646,10 +536,6 @@ export default {
       "masked": "The software ____ the order of the questions.",
       "options": [
         "random-mcq-08",
-        "random-mcq-07",
-        "random-mcq-06",
-        "random-mcq-05",
-        "random-mcq-04",
         "random-mcq-03"
       ],
       "explanation": "本句的「randomizes」指「令次序、分配或選擇由隨機程序決定」。",
@@ -659,12 +545,8 @@ export default {
         "randomizes"
       ],
       "optionReasons": {
-        "random-mcq-08": "本句指「令次序、分配或選擇由隨機程序決定」。",
-        "random-mcq-07": "「缺乏可預測規律或由機會決定的性質；隨機性」是「randomness」的用法，與本句語境不同。",
-        "random-mcq-06": "「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」是「randomly」的用法，與本句語境不同。",
-        "random-mcq-05": "「沒有特別指定或挑選理由，任意的一個人或事物」是「random + person/thing」的用法，與本句語境不同。",
-        "random-mcq-04": "「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」是「random — odd/peculiar, informal」的用法，與本句語境不同。",
-        "random-mcq-03": "「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」是「random — unrelated/unexpected in conversation」的用法，與本句語境不同。"
+        "random-mcq-08": "本句的「randomizes」指「令次序、分配或選擇由隨機程序決定」。",
+        "random-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "random-mcq-08"
     },
@@ -676,10 +558,6 @@ export default {
       "masked": "Participants were ____ into two groups.",
       "options": [
         "random-mcq-08",
-        "random-mcq-07",
-        "random-mcq-06",
-        "random-mcq-05",
-        "random-mcq-04",
         "random-mcq-03"
       ],
       "explanation": "本句的「randomised」指「令次序、分配或選擇由隨機程序決定」。",
@@ -689,12 +567,8 @@ export default {
         "randomised"
       ],
       "optionReasons": {
-        "random-mcq-08": "本句指「令次序、分配或選擇由隨機程序決定」。",
-        "random-mcq-07": "「缺乏可預測規律或由機會決定的性質；隨機性」是「randomness」的用法，與本句語境不同。",
-        "random-mcq-06": "「以隨機方式；亦可在口語中表示突然、沒有明顯原因地」是「randomly」的用法，與本句語境不同。",
-        "random-mcq-05": "「沒有特別指定或挑選理由，任意的一個人或事物」是「random + person/thing」的用法，與本句語境不同。",
-        "random-mcq-04": "「令人覺得古怪、出乎意料或難以解釋的；與「突然／不相關」義高度相關」是「random — odd/peculiar, informal」的用法，與本句語境不同。",
-        "random-mcq-03": "「在當前話題或情境中突然出現、與前後內容沒有明顯關連的」是「random — unrelated/unexpected in conversation」的用法，與本句語境不同。"
+        "random-mcq-08": "本句的「randomised」指「令次序、分配或選擇由隨機程序決定」。",
+        "random-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "random-mcq-08"
     }
@@ -706,5 +580,12 @@ export default {
     "sha256": "7e679a00bb64779ea14a8f4d2b9f029ebc927ce1ca7b1f6c57ddb5f612021c44",
     "pages": 9
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

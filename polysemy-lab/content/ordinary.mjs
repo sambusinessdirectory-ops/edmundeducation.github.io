@@ -261,11 +261,7 @@ export default {
       "masked": "The ad showed ____ people in stressful places.",
       "options": [
         "ordinary-mcq-01",
-        "ordinary-mcq-02",
-        "ordinary-mcq-03",
-        "ordinary-mcq-04",
-        "ordinary-mcq-05",
-        "ordinary-mcq-06"
+        "ordinary-mcq-09"
       ],
       "explanation": "本句的「ordinary」指「沒有特殊身分、名氣、權力或突出地位的一般人」。",
       "sentenceIndex": 0,
@@ -274,12 +270,8 @@ export default {
         "ordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-01": "本句指「沒有特殊身分、名氣、權力或突出地位的一般人」。",
-        "ordinary-mcq-02": "「與平常情況相若、沒有異常或特別之處的」是「ordinary object/day/event」的用法，與本句語境不同。",
-        "ordinary-mcq-03": "「水準一般、沒有明顯突出優點或令人印象深刻之處的」是「ordinary quality/performance」的用法，與本句語境不同。",
-        "ordinary-mcq-04": "「屬於平常、標準或常規安排，而非特殊安排的」是「ordinary procedure/hours」的用法，與本句語境不同。",
-        "ordinary-mcq-05": "「與平常情況明顯不同、令人覺得不尋常的」是「out of the ordinary」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。"
+        "ordinary-mcq-01": "本句的「ordinary」指「沒有特殊身分、名氣、權力或突出地位的一般人」。",
+        "ordinary-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-01"
     },
@@ -291,11 +283,7 @@ export default {
       "masked": "The documentary focuses on the lives of ____ people.",
       "options": [
         "ordinary-mcq-01",
-        "ordinary-mcq-02",
-        "ordinary-mcq-03",
-        "ordinary-mcq-04",
-        "ordinary-mcq-05",
-        "ordinary-mcq-06"
+        "ordinary-mcq-05"
       ],
       "explanation": "本句的「ordinary」指「沒有特殊身分、名氣、權力或突出地位的一般人」。",
       "sentenceIndex": 1,
@@ -304,12 +292,8 @@ export default {
         "ordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-01": "本句指「沒有特殊身分、名氣、權力或突出地位的一般人」。",
-        "ordinary-mcq-02": "「與平常情況相若、沒有異常或特別之處的」是「ordinary object/day/event」的用法，與本句語境不同。",
-        "ordinary-mcq-03": "「水準一般、沒有明顯突出優點或令人印象深刻之處的」是「ordinary quality/performance」的用法，與本句語境不同。",
-        "ordinary-mcq-04": "「屬於平常、標準或常規安排，而非特殊安排的」是「ordinary procedure/hours」的用法，與本句語境不同。",
-        "ordinary-mcq-05": "「與平常情況明顯不同、令人覺得不尋常的」是「out of the ordinary」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。"
+        "ordinary-mcq-01": "本句的「ordinary」指「沒有特殊身分、名氣、權力或突出地位的一般人」。",
+        "ordinary-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-01"
     },
@@ -321,11 +305,7 @@ export default {
       "masked": "The product was designed for ____ consumers, not professional athletes.",
       "options": [
         "ordinary-mcq-01",
-        "ordinary-mcq-02",
-        "ordinary-mcq-03",
-        "ordinary-mcq-04",
-        "ordinary-mcq-05",
-        "ordinary-mcq-06"
+        "ordinary-mcq-09"
       ],
       "explanation": "本句的「ordinary」指「沒有特殊身分、名氣、權力或突出地位的一般人」。",
       "sentenceIndex": 2,
@@ -334,12 +314,8 @@ export default {
         "ordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-01": "本句指「沒有特殊身分、名氣、權力或突出地位的一般人」。",
-        "ordinary-mcq-02": "「與平常情況相若、沒有異常或特別之處的」是「ordinary object/day/event」的用法，與本句語境不同。",
-        "ordinary-mcq-03": "「水準一般、沒有明顯突出優點或令人印象深刻之處的」是「ordinary quality/performance」的用法，與本句語境不同。",
-        "ordinary-mcq-04": "「屬於平常、標準或常規安排，而非特殊安排的」是「ordinary procedure/hours」的用法，與本句語境不同。",
-        "ordinary-mcq-05": "「與平常情況明顯不同、令人覺得不尋常的」是「out of the ordinary」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。"
+        "ordinary-mcq-01": "本句的「ordinary」指「沒有特殊身分、名氣、權力或突出地位的一般人」。",
+        "ordinary-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-01"
     },
@@ -351,11 +327,8 @@ export default {
       "masked": "It started as an ____ day.",
       "options": [
         "ordinary-mcq-02",
-        "ordinary-mcq-01",
-        "ordinary-mcq-03",
-        "ordinary-mcq-04",
-        "ordinary-mcq-05",
-        "ordinary-mcq-06"
+        "ordinary-mcq-06",
+        "ordinary-mcq-11"
       ],
       "explanation": "本句的「ordinary」指「與平常情況相若、沒有異常或特別之處的」。",
       "sentenceIndex": 3,
@@ -364,12 +337,9 @@ export default {
         "ordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-02": "本句指「與平常情況相若、沒有異常或特別之處的」。",
-        "ordinary-mcq-01": "「沒有特殊身分、名氣、權力或突出地位的一般人」是「ordinary people」的用法，與本句語境不同。",
-        "ordinary-mcq-03": "「水準一般、沒有明顯突出優點或令人印象深刻之處的」是「ordinary quality/performance」的用法，與本句語境不同。",
-        "ordinary-mcq-04": "「屬於平常、標準或常規安排，而非特殊安排的」是「ordinary procedure/hours」的用法，與本句語境不同。",
-        "ordinary-mcq-05": "「與平常情況明顯不同、令人覺得不尋常的」是「out of the ordinary」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。"
+        "ordinary-mcq-02": "本句的「ordinary」指「與平常情況相若、沒有異常或特別之處的」。",
+        "ordinary-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "ordinary-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-02"
     },
@@ -381,11 +351,8 @@ export default {
       "masked": "At first, the package looked completely ____.",
       "options": [
         "ordinary-mcq-02",
-        "ordinary-mcq-01",
-        "ordinary-mcq-03",
-        "ordinary-mcq-04",
-        "ordinary-mcq-05",
-        "ordinary-mcq-06"
+        "ordinary-mcq-06",
+        "ordinary-mcq-11"
       ],
       "explanation": "本句的「ordinary」指「與平常情況相若、沒有異常或特別之處的」。",
       "sentenceIndex": 4,
@@ -394,12 +361,9 @@ export default {
         "ordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-02": "本句指「與平常情況相若、沒有異常或特別之處的」。",
-        "ordinary-mcq-01": "「沒有特殊身分、名氣、權力或突出地位的一般人」是「ordinary people」的用法，與本句語境不同。",
-        "ordinary-mcq-03": "「水準一般、沒有明顯突出優點或令人印象深刻之處的」是「ordinary quality/performance」的用法，與本句語境不同。",
-        "ordinary-mcq-04": "「屬於平常、標準或常規安排，而非特殊安排的」是「ordinary procedure/hours」的用法，與本句語境不同。",
-        "ordinary-mcq-05": "「與平常情況明顯不同、令人覺得不尋常的」是「out of the ordinary」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。"
+        "ordinary-mcq-02": "本句的「ordinary」指「與平常情況相若、沒有異常或特別之處的」。",
+        "ordinary-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "ordinary-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-02"
     },
@@ -411,11 +375,8 @@ export default {
       "masked": "The food was quite ____.",
       "options": [
         "ordinary-mcq-03",
-        "ordinary-mcq-02",
-        "ordinary-mcq-04",
-        "ordinary-mcq-01",
-        "ordinary-mcq-05",
-        "ordinary-mcq-06"
+        "ordinary-mcq-09",
+        "ordinary-mcq-11"
       ],
       "explanation": "本句的「ordinary」指「水準一般、沒有明顯突出優點或令人印象深刻之處的」。",
       "sentenceIndex": 5,
@@ -424,12 +385,9 @@ export default {
         "ordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-03": "本句指「水準一般、沒有明顯突出優點或令人印象深刻之處的」。",
-        "ordinary-mcq-02": "「與平常情況相若、沒有異常或特別之處的」是「ordinary object/day/event」的用法，與本句語境不同。",
-        "ordinary-mcq-04": "「屬於平常、標準或常規安排，而非特殊安排的」是「ordinary procedure/hours」的用法，與本句語境不同。",
-        "ordinary-mcq-01": "「沒有特殊身分、名氣、權力或突出地位的一般人」是「ordinary people」的用法，與本句語境不同。",
-        "ordinary-mcq-05": "「與平常情況明顯不同、令人覺得不尋常的」是「out of the ordinary」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。"
+        "ordinary-mcq-03": "本句的「ordinary」指「水準一般、沒有明顯突出優點或令人印象深刻之處的」。",
+        "ordinary-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ordinary-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-03"
     },
@@ -441,11 +399,8 @@ export default {
       "masked": "His first performance was fairly ____.",
       "options": [
         "ordinary-mcq-03",
-        "ordinary-mcq-02",
-        "ordinary-mcq-04",
-        "ordinary-mcq-01",
-        "ordinary-mcq-05",
-        "ordinary-mcq-06"
+        "ordinary-mcq-11",
+        "ordinary-mcq-09"
       ],
       "explanation": "本句的「ordinary」指「水準一般、沒有明顯突出優點或令人印象深刻之處的」。",
       "sentenceIndex": 6,
@@ -454,12 +409,9 @@ export default {
         "ordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-03": "本句指「水準一般、沒有明顯突出優點或令人印象深刻之處的」。",
-        "ordinary-mcq-02": "「與平常情況相若、沒有異常或特別之處的」是「ordinary object/day/event」的用法，與本句語境不同。",
-        "ordinary-mcq-04": "「屬於平常、標準或常規安排，而非特殊安排的」是「ordinary procedure/hours」的用法，與本句語境不同。",
-        "ordinary-mcq-01": "「沒有特殊身分、名氣、權力或突出地位的一般人」是「ordinary people」的用法，與本句語境不同。",
-        "ordinary-mcq-05": "「與平常情況明顯不同、令人覺得不尋常的」是「out of the ordinary」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。"
+        "ordinary-mcq-03": "本句的「ordinary」指「水準一般、沒有明顯突出優點或令人印象深刻之處的」。",
+        "ordinary-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ordinary-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-03"
     },
@@ -471,11 +423,7 @@ export default {
       "masked": "The request can be handled through the ____ procedure.",
       "options": [
         "ordinary-mcq-04",
-        "ordinary-mcq-03",
-        "ordinary-mcq-05",
-        "ordinary-mcq-02",
-        "ordinary-mcq-06",
-        "ordinary-mcq-01"
+        "ordinary-mcq-03"
       ],
       "explanation": "本句的「ordinary」指「屬於平常、標準或常規安排，而非特殊安排的」。",
       "sentenceIndex": 7,
@@ -484,12 +432,8 @@ export default {
         "ordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-04": "本句指「屬於平常、標準或常規安排，而非特殊安排的」。",
-        "ordinary-mcq-03": "「水準一般、沒有明顯突出優點或令人印象深刻之處的」是「ordinary quality/performance」的用法，與本句語境不同。",
-        "ordinary-mcq-05": "「與平常情況明顯不同、令人覺得不尋常的」是「out of the ordinary」的用法，與本句語境不同。",
-        "ordinary-mcq-02": "「與平常情況相若、沒有異常或特別之處的」是「ordinary object/day/event」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。",
-        "ordinary-mcq-01": "「沒有特殊身分、名氣、權力或突出地位的一般人」是「ordinary people」的用法，與本句語境不同。"
+        "ordinary-mcq-04": "本句的「ordinary」指「屬於平常、標準或常規安排，而非特殊安排的」。",
+        "ordinary-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-04"
     },
@@ -501,11 +445,7 @@ export default {
       "masked": "These cases are dealt with during ____ business hours.",
       "options": [
         "ordinary-mcq-04",
-        "ordinary-mcq-03",
-        "ordinary-mcq-05",
-        "ordinary-mcq-02",
-        "ordinary-mcq-06",
-        "ordinary-mcq-01"
+        "ordinary-mcq-06"
       ],
       "explanation": "本句的「ordinary」指「屬於平常、標準或常規安排，而非特殊安排的」。",
       "sentenceIndex": 8,
@@ -514,12 +454,8 @@ export default {
         "ordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-04": "本句指「屬於平常、標準或常規安排，而非特殊安排的」。",
-        "ordinary-mcq-03": "「水準一般、沒有明顯突出優點或令人印象深刻之處的」是「ordinary quality/performance」的用法，與本句語境不同。",
-        "ordinary-mcq-05": "「與平常情況明顯不同、令人覺得不尋常的」是「out of the ordinary」的用法，與本句語境不同。",
-        "ordinary-mcq-02": "「與平常情況相若、沒有異常或特別之處的」是「ordinary object/day/event」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。",
-        "ordinary-mcq-01": "「沒有特殊身分、名氣、權力或突出地位的一般人」是「ordinary people」的用法，與本句語境不同。"
+        "ordinary-mcq-04": "本句的「ordinary」指「屬於平常、標準或常規安排，而非特殊安排的」。",
+        "ordinary-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-04"
     },
@@ -531,11 +467,7 @@ export default {
       "masked": "Did you notice anything out of the ____?",
       "options": [
         "ordinary-mcq-05",
-        "ordinary-mcq-04",
-        "ordinary-mcq-06",
-        "ordinary-mcq-03",
-        "ordinary-mcq-07",
-        "ordinary-mcq-02"
+        "ordinary-mcq-01"
       ],
       "explanation": "本句的「ordinary」指「與平常情況明顯不同、令人覺得不尋常的」。",
       "sentenceIndex": 9,
@@ -544,12 +476,8 @@ export default {
         "ordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-05": "本句指「與平常情況明顯不同、令人覺得不尋常的」。",
-        "ordinary-mcq-04": "「屬於平常、標準或常規安排，而非特殊安排的」是「ordinary procedure/hours」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。",
-        "ordinary-mcq-03": "「水準一般、沒有明顯突出優點或令人印象深刻之處的」是「ordinary quality/performance」的用法，與本句語境不同。",
-        "ordinary-mcq-07": "「公司治理中通常只需簡單多數票通過的一般決議」是「ordinary resolution」的用法，與本句語境不同。",
-        "ordinary-mcq-02": "「與平常情況相若、沒有異常或特別之處的」是「ordinary object/day/event」的用法，與本句語境不同。"
+        "ordinary-mcq-05": "本句的「ordinary」指「與平常情況明顯不同、令人覺得不尋常的」。",
+        "ordinary-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-05"
     },
@@ -561,11 +489,7 @@ export default {
       "masked": "Nothing out of the ____ happened during the visit.",
       "options": [
         "ordinary-mcq-05",
-        "ordinary-mcq-04",
-        "ordinary-mcq-06",
-        "ordinary-mcq-03",
-        "ordinary-mcq-07",
-        "ordinary-mcq-02"
+        "ordinary-mcq-01"
       ],
       "explanation": "本句的「ordinary」指「與平常情況明顯不同、令人覺得不尋常的」。",
       "sentenceIndex": 10,
@@ -574,12 +498,8 @@ export default {
         "ordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-05": "本句指「與平常情況明顯不同、令人覺得不尋常的」。",
-        "ordinary-mcq-04": "「屬於平常、標準或常規安排，而非特殊安排的」是「ordinary procedure/hours」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。",
-        "ordinary-mcq-03": "「水準一般、沒有明顯突出優點或令人印象深刻之處的」是「ordinary quality/performance」的用法，與本句語境不同。",
-        "ordinary-mcq-07": "「公司治理中通常只需簡單多數票通過的一般決議」是「ordinary resolution」的用法，與本句語境不同。",
-        "ordinary-mcq-02": "「與平常情況相若、沒有異常或特別之處的」是「ordinary object/day/event」的用法，與本句語境不同。"
+        "ordinary-mcq-05": "本句的「ordinary」指「與平常情況明顯不同、令人覺得不尋常的」。",
+        "ordinary-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-05"
     },
@@ -591,11 +511,7 @@ export default {
       "masked": "He owns 2,000 ____ shares in the company.",
       "options": [
         "ordinary-mcq-06",
-        "ordinary-mcq-05",
-        "ordinary-mcq-07",
-        "ordinary-mcq-04",
-        "ordinary-mcq-08",
-        "ordinary-mcq-03"
+        "ordinary-mcq-04"
       ],
       "explanation": "本句的「ordinary」指「公司最基本的一類普通股，通常附有一般股東權利」。",
       "sentenceIndex": 11,
@@ -604,12 +520,8 @@ export default {
         "ordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-06": "本句指「公司最基本的一類普通股，通常附有一般股東權利」。",
-        "ordinary-mcq-05": "「與平常情況明顯不同、令人覺得不尋常的」是「out of the ordinary」的用法，與本句語境不同。",
-        "ordinary-mcq-07": "「公司治理中通常只需簡單多數票通過的一般決議」是「ordinary resolution」的用法，與本句語境不同。",
-        "ordinary-mcq-04": "「屬於平常、標準或常規安排，而非特殊安排的」是「ordinary procedure/hours」的用法，與本句語境不同。",
-        "ordinary-mcq-08": "「在稅務／財務上屬於一般日常所得類別的收入」是「ordinary income」的用法，與本句語境不同。",
-        "ordinary-mcq-03": "「水準一般、沒有明顯突出優點或令人印象深刻之處的」是「ordinary quality/performance」的用法，與本句語境不同。"
+        "ordinary-mcq-06": "本句的「ordinary」指「公司最基本的一類普通股，通常附有一般股東權利」。",
+        "ordinary-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-06"
     },
@@ -621,11 +533,8 @@ export default {
       "masked": "Holders of ____ shares may receive dividends if the company makes a profit.",
       "options": [
         "ordinary-mcq-06",
-        "ordinary-mcq-05",
-        "ordinary-mcq-07",
-        "ordinary-mcq-04",
-        "ordinary-mcq-08",
-        "ordinary-mcq-03"
+        "ordinary-mcq-11",
+        "ordinary-mcq-05"
       ],
       "explanation": "本句的「ordinary」指「公司最基本的一類普通股，通常附有一般股東權利」。",
       "sentenceIndex": 12,
@@ -634,12 +543,9 @@ export default {
         "ordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-06": "本句指「公司最基本的一類普通股，通常附有一般股東權利」。",
-        "ordinary-mcq-05": "「與平常情況明顯不同、令人覺得不尋常的」是「out of the ordinary」的用法，與本句語境不同。",
-        "ordinary-mcq-07": "「公司治理中通常只需簡單多數票通過的一般決議」是「ordinary resolution」的用法，與本句語境不同。",
-        "ordinary-mcq-04": "「屬於平常、標準或常規安排，而非特殊安排的」是「ordinary procedure/hours」的用法，與本句語境不同。",
-        "ordinary-mcq-08": "「在稅務／財務上屬於一般日常所得類別的收入」是「ordinary income」的用法，與本句語境不同。",
-        "ordinary-mcq-03": "「水準一般、沒有明顯突出優點或令人印象深刻之處的」是「ordinary quality/performance」的用法，與本句語境不同。"
+        "ordinary-mcq-06": "本句的「ordinary」指「公司最基本的一類普通股，通常附有一般股東權利」。",
+        "ordinary-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ordinary-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-06"
     },
@@ -651,11 +557,8 @@ export default {
       "masked": "The proposal was approved by an ____ resolution.",
       "options": [
         "ordinary-mcq-07",
-        "ordinary-mcq-06",
-        "ordinary-mcq-08",
-        "ordinary-mcq-05",
-        "ordinary-mcq-09",
-        "ordinary-mcq-04"
+        "ordinary-mcq-11",
+        "ordinary-mcq-02"
       ],
       "explanation": "本句的「ordinary」指「公司治理中通常只需簡單多數票通過的一般決議」。",
       "sentenceIndex": 13,
@@ -664,12 +567,9 @@ export default {
         "ordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-07": "本句指「公司治理中通常只需簡單多數票通過的一般決議」。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。",
-        "ordinary-mcq-08": "「在稅務／財務上屬於一般日常所得類別的收入」是「ordinary income」的用法，與本句語境不同。",
-        "ordinary-mcq-05": "「與平常情況明顯不同、令人覺得不尋常的」是「out of the ordinary」的用法，與本句語境不同。",
-        "ordinary-mcq-09": "「按照平常情況或通常做法而言」是「ordinarily」的用法，與本句語境不同。",
-        "ordinary-mcq-04": "「屬於平常、標準或常規安排，而非特殊安排的」是「ordinary procedure/hours」的用法，與本句語境不同。"
+        "ordinary-mcq-07": "本句的「ordinary」指「公司治理中通常只需簡單多數票通過的一般決議」。",
+        "ordinary-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ordinary-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-07"
     },
@@ -681,11 +581,8 @@ export default {
       "masked": "An ____ resolution is sufficient for this decision.",
       "options": [
         "ordinary-mcq-07",
-        "ordinary-mcq-06",
-        "ordinary-mcq-08",
-        "ordinary-mcq-05",
-        "ordinary-mcq-09",
-        "ordinary-mcq-04"
+        "ordinary-mcq-11",
+        "ordinary-mcq-05"
       ],
       "explanation": "本句的「ordinary」指「公司治理中通常只需簡單多數票通過的一般決議」。",
       "sentenceIndex": 14,
@@ -694,12 +591,9 @@ export default {
         "ordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-07": "本句指「公司治理中通常只需簡單多數票通過的一般決議」。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。",
-        "ordinary-mcq-08": "「在稅務／財務上屬於一般日常所得類別的收入」是「ordinary income」的用法，與本句語境不同。",
-        "ordinary-mcq-05": "「與平常情況明顯不同、令人覺得不尋常的」是「out of the ordinary」的用法，與本句語境不同。",
-        "ordinary-mcq-09": "「按照平常情況或通常做法而言」是「ordinarily」的用法，與本句語境不同。",
-        "ordinary-mcq-04": "「屬於平常、標準或常規安排，而非特殊安排的」是「ordinary procedure/hours」的用法，與本句語境不同。"
+        "ordinary-mcq-07": "本句的「ordinary」指「公司治理中通常只需簡單多數票通過的一般決議」。",
+        "ordinary-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ordinary-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-07"
     },
@@ -711,11 +605,7 @@ export default {
       "masked": "Salary is generally treated as ____ income.",
       "options": [
         "ordinary-mcq-08",
-        "ordinary-mcq-07",
-        "ordinary-mcq-09",
-        "ordinary-mcq-06",
-        "ordinary-mcq-10",
-        "ordinary-mcq-05"
+        "ordinary-mcq-09"
       ],
       "explanation": "本句的「ordinary」指「在稅務／財務上屬於一般日常所得類別的收入」。",
       "sentenceIndex": 15,
@@ -724,12 +614,8 @@ export default {
         "ordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-08": "本句指「在稅務／財務上屬於一般日常所得類別的收入」。",
-        "ordinary-mcq-07": "「公司治理中通常只需簡單多數票通過的一般決議」是「ordinary resolution」的用法，與本句語境不同。",
-        "ordinary-mcq-09": "「按照平常情況或通常做法而言」是「ordinarily」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。",
-        "ordinary-mcq-10": "「明顯超出一般正常程度、非常不尋常或突出的」是「extraordinary — remarkable」的用法，與本句語境不同。",
-        "ordinary-mcq-05": "「與平常情況明顯不同、令人覺得不尋常的」是「out of the ordinary」的用法，與本句語境不同。"
+        "ordinary-mcq-08": "本句的「ordinary」指「在稅務／財務上屬於一般日常所得類別的收入」。",
+        "ordinary-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-08"
     },
@@ -741,10 +627,6 @@ export default {
       "masked": "The tax treatment of ____ income differs from that of capital gains.",
       "options": [
         "ordinary-mcq-08",
-        "ordinary-mcq-07",
-        "ordinary-mcq-09",
-        "ordinary-mcq-06",
-        "ordinary-mcq-10",
         "ordinary-mcq-05"
       ],
       "explanation": "本句的「ordinary」指「在稅務／財務上屬於一般日常所得類別的收入」。",
@@ -754,12 +636,8 @@ export default {
         "ordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-08": "本句指「在稅務／財務上屬於一般日常所得類別的收入」。",
-        "ordinary-mcq-07": "「公司治理中通常只需簡單多數票通過的一般決議」是「ordinary resolution」的用法，與本句語境不同。",
-        "ordinary-mcq-09": "「按照平常情況或通常做法而言」是「ordinarily」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。",
-        "ordinary-mcq-10": "「明顯超出一般正常程度、非常不尋常或突出的」是「extraordinary — remarkable」的用法，與本句語境不同。",
-        "ordinary-mcq-05": "「與平常情況明顯不同、令人覺得不尋常的」是「out of the ordinary」的用法，與本句語境不同。"
+        "ordinary-mcq-08": "本句的「ordinary」指「在稅務／財務上屬於一般日常所得類別的收入」。",
+        "ordinary-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-08"
     },
@@ -771,11 +649,7 @@ export default {
       "masked": "The journey ____ takes about forty minutes.",
       "options": [
         "ordinary-mcq-09",
-        "ordinary-mcq-08",
-        "ordinary-mcq-10",
-        "ordinary-mcq-07",
-        "ordinary-mcq-11",
-        "ordinary-mcq-06"
+        "ordinary-mcq-01"
       ],
       "explanation": "本句的「ordinarily」指「按照平常情況或通常做法而言」。",
       "sentenceIndex": 17,
@@ -784,12 +658,8 @@ export default {
         "ordinarily"
       ],
       "optionReasons": {
-        "ordinary-mcq-09": "本句指「按照平常情況或通常做法而言」。",
-        "ordinary-mcq-08": "「在稅務／財務上屬於一般日常所得類別的收入」是「ordinary income」的用法，與本句語境不同。",
-        "ordinary-mcq-10": "「明顯超出一般正常程度、非常不尋常或突出的」是「extraordinary — remarkable」的用法，與本句語境不同。",
-        "ordinary-mcq-07": "「公司治理中通常只需簡單多數票通過的一般決議」是「ordinary resolution」的用法，與本句語境不同。",
-        "ordinary-mcq-11": "「因特殊情況額外安排、並非日常常規的」是「extraordinary — official」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。"
+        "ordinary-mcq-09": "本句的「ordinarily」指「按照平常情況或通常做法而言」。",
+        "ordinary-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-09"
     },
@@ -801,11 +671,8 @@ export default {
       "masked": "Visitors are ____ required to register at reception.",
       "options": [
         "ordinary-mcq-09",
-        "ordinary-mcq-08",
-        "ordinary-mcq-10",
-        "ordinary-mcq-07",
-        "ordinary-mcq-11",
-        "ordinary-mcq-06"
+        "ordinary-mcq-03",
+        "ordinary-mcq-11"
       ],
       "explanation": "本句的「ordinarily」指「按照平常情況或通常做法而言」。",
       "sentenceIndex": 18,
@@ -814,12 +681,9 @@ export default {
         "ordinarily"
       ],
       "optionReasons": {
-        "ordinary-mcq-09": "本句指「按照平常情況或通常做法而言」。",
-        "ordinary-mcq-08": "「在稅務／財務上屬於一般日常所得類別的收入」是「ordinary income」的用法，與本句語境不同。",
-        "ordinary-mcq-10": "「明顯超出一般正常程度、非常不尋常或突出的」是「extraordinary — remarkable」的用法，與本句語境不同。",
-        "ordinary-mcq-07": "「公司治理中通常只需簡單多數票通過的一般決議」是「ordinary resolution」的用法，與本句語境不同。",
-        "ordinary-mcq-11": "「因特殊情況額外安排、並非日常常規的」是「extraordinary — official」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。"
+        "ordinary-mcq-09": "本句的「ordinarily」指「按照平常情況或通常做法而言」。",
+        "ordinary-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ordinary-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-09"
     },
@@ -832,10 +696,7 @@ export default {
       "options": [
         "ordinary-mcq-10",
         "ordinary-mcq-09",
-        "ordinary-mcq-11",
-        "ordinary-mcq-08",
-        "ordinary-mcq-07",
-        "ordinary-mcq-06"
+        "ordinary-mcq-11"
       ],
       "explanation": "本句的「extraordinary」指「明顯超出一般正常程度、非常不尋常或突出的」。",
       "sentenceIndex": 19,
@@ -844,12 +705,9 @@ export default {
         "extraordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-10": "本句指「明顯超出一般正常程度、非常不尋常或突出的」。",
-        "ordinary-mcq-09": "「按照平常情況或通常做法而言」是「ordinarily」的用法，與本句語境不同。",
-        "ordinary-mcq-11": "「因特殊情況額外安排、並非日常常規的」是「extraordinary — official」的用法，與本句語境不同。",
-        "ordinary-mcq-08": "「在稅務／財務上屬於一般日常所得類別的收入」是「ordinary income」的用法，與本句語境不同。",
-        "ordinary-mcq-07": "「公司治理中通常只需簡單多數票通過的一般決議」是「ordinary resolution」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。"
+        "ordinary-mcq-10": "本句的「extraordinary」指「明顯超出一般正常程度、非常不尋常或突出的」。",
+        "ordinary-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ordinary-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-10"
     },
@@ -862,10 +720,7 @@ export default {
       "options": [
         "ordinary-mcq-10",
         "ordinary-mcq-09",
-        "ordinary-mcq-11",
-        "ordinary-mcq-08",
-        "ordinary-mcq-07",
-        "ordinary-mcq-06"
+        "ordinary-mcq-11"
       ],
       "explanation": "本句的「extraordinary」指「明顯超出一般正常程度、非常不尋常或突出的」。",
       "sentenceIndex": 20,
@@ -874,12 +729,9 @@ export default {
         "extraordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-10": "本句指「明顯超出一般正常程度、非常不尋常或突出的」。",
-        "ordinary-mcq-09": "「按照平常情況或通常做法而言」是「ordinarily」的用法，與本句語境不同。",
-        "ordinary-mcq-11": "「因特殊情況額外安排、並非日常常規的」是「extraordinary — official」的用法，與本句語境不同。",
-        "ordinary-mcq-08": "「在稅務／財務上屬於一般日常所得類別的收入」是「ordinary income」的用法，與本句語境不同。",
-        "ordinary-mcq-07": "「公司治理中通常只需簡單多數票通過的一般決議」是「ordinary resolution」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。"
+        "ordinary-mcq-10": "本句的「extraordinary」指「明顯超出一般正常程度、非常不尋常或突出的」。",
+        "ordinary-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ordinary-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-10"
     },
@@ -891,11 +743,8 @@ export default {
       "masked": "The board called an ____ meeting.",
       "options": [
         "ordinary-mcq-11",
-        "ordinary-mcq-10",
-        "ordinary-mcq-09",
-        "ordinary-mcq-08",
-        "ordinary-mcq-07",
-        "ordinary-mcq-06"
+        "ordinary-mcq-03",
+        "ordinary-mcq-09"
       ],
       "explanation": "本句的「extraordinary」指「因特殊情況額外安排、並非日常常規的」。",
       "sentenceIndex": 21,
@@ -904,12 +753,9 @@ export default {
         "extraordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-11": "本句指「因特殊情況額外安排、並非日常常規的」。",
-        "ordinary-mcq-10": "「明顯超出一般正常程度、非常不尋常或突出的」是「extraordinary — remarkable」的用法，與本句語境不同。",
-        "ordinary-mcq-09": "「按照平常情況或通常做法而言」是「ordinarily」的用法，與本句語境不同。",
-        "ordinary-mcq-08": "「在稅務／財務上屬於一般日常所得類別的收入」是「ordinary income」的用法，與本句語境不同。",
-        "ordinary-mcq-07": "「公司治理中通常只需簡單多數票通過的一般決議」是「ordinary resolution」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。"
+        "ordinary-mcq-11": "本句的「extraordinary」指「因特殊情況額外安排、並非日常常規的」。",
+        "ordinary-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ordinary-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-11"
     },
@@ -921,11 +767,8 @@ export default {
       "masked": "An ____ session was held to deal with the emergency.",
       "options": [
         "ordinary-mcq-11",
-        "ordinary-mcq-10",
-        "ordinary-mcq-09",
-        "ordinary-mcq-08",
-        "ordinary-mcq-07",
-        "ordinary-mcq-06"
+        "ordinary-mcq-03",
+        "ordinary-mcq-09"
       ],
       "explanation": "本句的「extraordinary」指「因特殊情況額外安排、並非日常常規的」。",
       "sentenceIndex": 22,
@@ -934,12 +777,9 @@ export default {
         "extraordinary"
       ],
       "optionReasons": {
-        "ordinary-mcq-11": "本句指「因特殊情況額外安排、並非日常常規的」。",
-        "ordinary-mcq-10": "「明顯超出一般正常程度、非常不尋常或突出的」是「extraordinary — remarkable」的用法，與本句語境不同。",
-        "ordinary-mcq-09": "「按照平常情況或通常做法而言」是「ordinarily」的用法，與本句語境不同。",
-        "ordinary-mcq-08": "「在稅務／財務上屬於一般日常所得類別的收入」是「ordinary income」的用法，與本句語境不同。",
-        "ordinary-mcq-07": "「公司治理中通常只需簡單多數票通過的一般決議」是「ordinary resolution」的用法，與本句語境不同。",
-        "ordinary-mcq-06": "「公司最基本的一類普通股，通常附有一般股東權利」是「ordinary shares」的用法，與本句語境不同。"
+        "ordinary-mcq-11": "本句的「extraordinary」指「因特殊情況額外安排、並非日常常規的」。",
+        "ordinary-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ordinary-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ordinary-mcq-11"
     }
@@ -951,5 +791,7 @@ export default {
     "sha256": "e29e5d8ab30b763ae645060ffd39a9d3786b99332dc541125a4c1f5b537841a1",
     "pages": 9
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

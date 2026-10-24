@@ -284,7 +284,7 @@ export default {
     },
     {
       "id": "say-mcq-13",
-      "title": "表示暫時接受對方說法，有時帶懷疑或不完全信服",
+      "title": "暫時接受對方說法，有時帶懷疑或不完全信服",
       "form": "if you say so",
       "en": "if you say so",
       "zh": "表示暫時接受對方說法，有時帶懷疑或不完全信服",
@@ -416,7 +416,7 @@ export default {
     },
     {
       "id": "say-mcq-19",
-      "title": "表示實際情況可能比剛才的描述更強烈",
+      "title": "實際情況可能比剛才的描述更強烈",
       "form": "to say the least",
       "en": "to say the least",
       "zh": "表示實際情況可能比剛才的描述更強烈",
@@ -614,7 +614,7 @@ export default {
     },
     {
       "id": "say-mcq-28",
-      "title": "表示資訊已足夠理解暗示，不必再進一步解釋",
+      "title": "資訊已足夠理解暗示，不必再進一步解釋",
       "form": "say no more",
       "en": "say no more",
       "zh": "表示資訊已足夠理解暗示，不必再進一步解釋",
@@ -724,7 +724,7 @@ export default {
     },
     {
       "id": "say-mcq-33",
-      "title": "表示文字／訊息指示要做某事",
+      "title": "文字／訊息指示要做某事",
       "form": "32. say = command/instruction in reported language（吩咐／要求；特定語境） — 說要；指示",
       "en": "32. say = command/instruction in reported language（吩咐／要求；特定語境） — 說要；指示",
       "zh": "表示文字／訊息指示要做某事",
@@ -864,11 +864,9 @@ export default {
       "masked": "She ____ something quietly before the presentation.",
       "options": [
         "say-mcq-01",
+        "say-mcq-23",
         "say-mcq-02",
-        "say-mcq-03",
-        "say-mcq-04",
-        "say-mcq-05",
-        "say-mcq-06"
+        "say-pdf-005"
       ],
       "explanation": "本句的「said」指「用說話表達具體內容、句子或訊息」。",
       "sentenceIndex": 0,
@@ -877,12 +875,10 @@ export default {
         "said"
       ],
       "optionReasons": {
-        "say-mcq-01": "本句指「用說話表達具體內容、句子或訊息」。",
-        "say-mcq-02": "「用肯定／否定回答表示接受、同意或拒絕」是「say yes/no」的用法，與本句語境不同。",
-        "say-mcq-03": "「用語言陳述某項資訊、意見或事實」是「say that + clause」的用法，與本句語境不同。",
-        "say-mcq-04": "「把某段具體內容說給某人聽」是「say something to someone」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。"
+        "say-mcq-01": "本句的「said」指「用說話表達具體內容、句子或訊息」。",
+        "say-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-01"
     },
@@ -894,11 +890,9 @@ export default {
       "masked": "I didn’t know what to ____.",
       "options": [
         "say-mcq-01",
-        "say-mcq-02",
-        "say-mcq-03",
-        "say-mcq-04",
-        "say-mcq-05",
-        "say-mcq-06"
+        "say-mcq-23",
+        "say-mcq-08",
+        "say-mcq-21"
       ],
       "explanation": "本句的「say」指「用說話表達具體內容、句子或訊息」。",
       "sentenceIndex": 1,
@@ -907,12 +901,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-01": "本句指「用說話表達具體內容、句子或訊息」。",
-        "say-mcq-02": "「用肯定／否定回答表示接受、同意或拒絕」是「say yes/no」的用法，與本句語境不同。",
-        "say-mcq-03": "「用語言陳述某項資訊、意見或事實」是「say that + clause」的用法，與本句語境不同。",
-        "say-mcq-04": "「把某段具體內容說給某人聽」是「say something to someone」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。"
+        "say-mcq-01": "本句的「say」指「用說話表達具體內容、句子或訊息」。",
+        "say-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-01"
     },
@@ -924,11 +916,9 @@ export default {
       "masked": "If I ____, I would regret it later.",
       "options": [
         "say-mcq-02",
-        "say-mcq-01",
-        "say-mcq-03",
-        "say-mcq-04",
-        "say-mcq-05",
-        "say-mcq-06"
+        "say-mcq-17",
+        "say-pdf-005",
+        "say-mcq-23"
       ],
       "explanation": "本句的「said no」指「用肯定／否定回答表示接受、同意或拒絕」。",
       "sentenceIndex": 2,
@@ -937,12 +927,10 @@ export default {
         "said no"
       ],
       "optionReasons": {
-        "say-mcq-02": "本句指「用肯定／否定回答表示接受、同意或拒絕」。",
-        "say-mcq-01": "「用說話表達具體內容、句子或訊息」是「say — express words/content」的用法，與本句語境不同。",
-        "say-mcq-03": "「用語言陳述某項資訊、意見或事實」是「say that + clause」的用法，與本句語境不同。",
-        "say-mcq-04": "「把某段具體內容說給某人聽」是「say something to someone」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。"
+        "say-mcq-02": "本句的「said no」指「用肯定／否定回答表示接受、同意或拒絕」。",
+        "say-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-02"
     },
@@ -954,11 +942,9 @@ export default {
       "masked": "She ____ to the opportunity.",
       "options": [
         "say-mcq-02",
-        "say-mcq-01",
-        "say-mcq-03",
-        "say-mcq-04",
-        "say-mcq-05",
-        "say-mcq-06"
+        "say-mcq-19",
+        "say-mcq-31",
+        "say-mcq-28"
       ],
       "explanation": "本句的「said yes」指「用肯定／否定回答表示接受、同意或拒絕」。",
       "sentenceIndex": 3,
@@ -967,12 +953,10 @@ export default {
         "said yes"
       ],
       "optionReasons": {
-        "say-mcq-02": "本句指「用肯定／否定回答表示接受、同意或拒絕」。",
-        "say-mcq-01": "「用說話表達具體內容、句子或訊息」是「say — express words/content」的用法，與本句語境不同。",
-        "say-mcq-03": "「用語言陳述某項資訊、意見或事實」是「say that + clause」的用法，與本句語境不同。",
-        "say-mcq-04": "「把某段具體內容說給某人聽」是「say something to someone」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。"
+        "say-mcq-02": "本句的「said yes」指「用肯定／否定回答表示接受、同意或拒絕」。",
+        "say-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-02"
     },
@@ -984,11 +968,9 @@ export default {
       "masked": "He ____ to the proposal.",
       "options": [
         "say-mcq-02",
-        "say-mcq-01",
-        "say-mcq-03",
-        "say-mcq-04",
-        "say-mcq-05",
-        "say-mcq-06"
+        "say-mcq-23",
+        "say-pdf-005",
+        "say-mcq-19"
       ],
       "explanation": "本句的「said no」指「用肯定／否定回答表示接受、同意或拒絕」。",
       "sentenceIndex": 4,
@@ -997,12 +979,10 @@ export default {
         "said no"
       ],
       "optionReasons": {
-        "say-mcq-02": "本句指「用肯定／否定回答表示接受、同意或拒絕」。",
-        "say-mcq-01": "「用說話表達具體內容、句子或訊息」是「say — express words/content」的用法，與本句語境不同。",
-        "say-mcq-03": "「用語言陳述某項資訊、意見或事實」是「say that + clause」的用法，與本句語境不同。",
-        "say-mcq-04": "「把某段具體內容說給某人聽」是「say something to someone」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。"
+        "say-mcq-02": "本句的「said no」指「用肯定／否定回答表示接受、同意或拒絕」。",
+        "say-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-02"
     },
@@ -1014,11 +994,9 @@ export default {
       "masked": "She ____ she was nervous.",
       "options": [
         "say-mcq-03",
-        "say-mcq-02",
-        "say-mcq-04",
-        "say-mcq-01",
-        "say-mcq-05",
-        "say-mcq-06"
+        "say-mcq-08",
+        "say-mcq-13",
+        "say-mcq-21"
       ],
       "explanation": "本句的「said that」指「用語言陳述某項資訊、意見或事實」。",
       "sentenceIndex": 5,
@@ -1027,12 +1005,10 @@ export default {
         "said that"
       ],
       "optionReasons": {
-        "say-mcq-03": "本句指「用語言陳述某項資訊、意見或事實」。",
-        "say-mcq-02": "「用肯定／否定回答表示接受、同意或拒絕」是「say yes/no」的用法，與本句語境不同。",
-        "say-mcq-04": "「把某段具體內容說給某人聽」是「say something to someone」的用法，與本句語境不同。",
-        "say-mcq-01": "「用說話表達具體內容、句子或訊息」是「say — express words/content」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。"
+        "say-mcq-03": "本句的「said that」指「用語言陳述某項資訊、意見或事實」。",
+        "say-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-03"
     },
@@ -1044,11 +1020,9 @@ export default {
       "masked": "The manager ____ the event had gone well.",
       "options": [
         "say-mcq-03",
-        "say-mcq-02",
-        "say-mcq-04",
-        "say-mcq-01",
-        "say-mcq-05",
-        "say-mcq-06"
+        "say-mcq-16",
+        "say-mcq-07",
+        "say-mcq-21"
       ],
       "explanation": "本句的「said that」指「用語言陳述某項資訊、意見或事實」。",
       "sentenceIndex": 6,
@@ -1057,12 +1031,10 @@ export default {
         "said that"
       ],
       "optionReasons": {
-        "say-mcq-03": "本句指「用語言陳述某項資訊、意見或事實」。",
-        "say-mcq-02": "「用肯定／否定回答表示接受、同意或拒絕」是「say yes/no」的用法，與本句語境不同。",
-        "say-mcq-04": "「把某段具體內容說給某人聽」是「say something to someone」的用法，與本句語境不同。",
-        "say-mcq-01": "「用說話表達具體內容、句子或訊息」是「say — express words/content」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。"
+        "say-mcq-03": "本句的「said that」指「用語言陳述某項資訊、意見或事實」。",
+        "say-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-03"
     },
@@ -1074,11 +1046,9 @@ export default {
       "masked": "She ____, ‘Don’t worry.’",
       "options": [
         "say-pdf-001",
-        "say-mcq-03",
-        "say-mcq-05",
-        "say-mcq-02",
-        "say-mcq-06",
-        "say-mcq-01"
+        "say-mcq-20",
+        "say-mcq-26",
+        "say-pdf-005"
       ],
       "explanation": "本句的「said」指「直接引述某人實際說出的內容」。",
       "sentenceIndex": 7,
@@ -1087,12 +1057,10 @@ export default {
         "said"
       ],
       "optionReasons": {
-        "say-pdf-001": "本句指「直接引述某人實際說出的內容」。",
-        "say-mcq-03": "「用語言陳述某項資訊、意見或事實」是「say that + clause」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
-        "say-mcq-02": "「用肯定／否定回答表示接受、同意或拒絕」是「say yes/no」的用法，與本句語境不同。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。",
-        "say-mcq-01": "「用說話表達具體內容、句子或訊息」是「say — express words/content」的用法，與本句語境不同。"
+        "say-pdf-001": "本句的「said」指「直接引述某人實際說出的內容」。",
+        "say-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-pdf-001"
     },
@@ -1104,11 +1072,9 @@ export default {
       "masked": "He ____, ‘You did well.’",
       "options": [
         "say-pdf-001",
-        "say-mcq-03",
-        "say-mcq-05",
-        "say-mcq-02",
-        "say-mcq-06",
-        "say-mcq-01"
+        "say-mcq-32",
+        "say-pdf-005",
+        "say-mcq-26"
       ],
       "explanation": "本句的「said」指「直接引述某人實際說出的內容」。",
       "sentenceIndex": 8,
@@ -1117,12 +1083,10 @@ export default {
         "said"
       ],
       "optionReasons": {
-        "say-pdf-001": "本句指「直接引述某人實際說出的內容」。",
-        "say-mcq-03": "「用語言陳述某項資訊、意見或事實」是「say that + clause」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
-        "say-mcq-02": "「用肯定／否定回答表示接受、同意或拒絕」是「say yes/no」的用法，與本句語境不同。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。",
-        "say-mcq-01": "「用說話表達具體內容、句子或訊息」是「say — express words/content」的用法，與本句語境不同。"
+        "say-pdf-001": "本句的「said」指「直接引述某人實際說出的內容」。",
+        "say-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-pdf-001"
     },
@@ -1134,11 +1098,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "say-mcq-04",
-        "say-mcq-03",
-        "say-mcq-05",
         "say-mcq-02",
-        "say-mcq-06",
-        "say-mcq-01"
+        "say-pdf-005",
+        "say-mcq-05"
       ],
       "explanation": "本句的「said something encouraging to me」指「把某段具體內容說給某人聽」。",
       "sentenceIndex": 9,
@@ -1147,12 +1109,10 @@ export default {
         "said something encouraging to me"
       ],
       "optionReasons": {
-        "say-mcq-04": "本句指「把某段具體內容說給某人聽」。",
-        "say-mcq-03": "「用語言陳述某項資訊、意見或事實」是「say that + clause」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
-        "say-mcq-02": "「用肯定／否定回答表示接受、同意或拒絕」是「say yes/no」的用法，與本句語境不同。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。",
-        "say-mcq-01": "「用說話表達具體內容、句子或訊息」是「say — express words/content」的用法，與本句語境不同。"
+        "say-mcq-04": "本句的「said something encouraging to me」指「把某段具體內容說給某人聽」。",
+        "say-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-04"
     },
@@ -1164,11 +1124,9 @@ export default {
       "masked": "What did the manager ____?",
       "options": [
         "say-mcq-04",
-        "say-mcq-03",
-        "say-mcq-05",
-        "say-mcq-02",
-        "say-mcq-06",
-        "say-mcq-01"
+        "say-mcq-20",
+        "say-mcq-08",
+        "say-mcq-23"
       ],
       "explanation": "本句的「say to you」指「把某段具體內容說給某人聽」。",
       "sentenceIndex": 10,
@@ -1177,12 +1135,10 @@ export default {
         "say to you"
       ],
       "optionReasons": {
-        "say-mcq-04": "本句指「把某段具體內容說給某人聽」。",
-        "say-mcq-03": "「用語言陳述某項資訊、意見或事實」是「say that + clause」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
-        "say-mcq-02": "「用肯定／否定回答表示接受、同意或拒絕」是「say yes/no」的用法，與本句語境不同。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。",
-        "say-mcq-01": "「用說話表達具體內容、句子或訊息」是「say — express words/content」的用法，與本句語境不同。"
+        "say-mcq-04": "本句的「say to you」指「把某段具體內容說給某人聽」。",
+        "say-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-04"
     },
@@ -1194,11 +1150,9 @@ export default {
       "masked": "I would ____ the presentation went well.",
       "options": [
         "say-mcq-05",
-        "say-mcq-04",
-        "say-mcq-06",
-        "say-mcq-03",
-        "say-mcq-07",
-        "say-mcq-02"
+        "say-mcq-18",
+        "say-mcq-33",
+        "say-mcq-21"
       ],
       "explanation": "本句的「say」指「表達自己的判斷、看法或評價」。",
       "sentenceIndex": 11,
@@ -1207,12 +1161,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-05": "本句指「表達自己的判斷、看法或評價」。",
-        "say-mcq-04": "「把某段具體內容說給某人聽」是「say something to someone」的用法，與本句語境不同。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。",
-        "say-mcq-03": "「用語言陳述某項資訊、意見或事實」是「say that + clause」的用法，與本句語境不同。",
-        "say-mcq-07": "「提出一個大概數字、例子或估算，而非精確指定」是「say — approximately」的用法，與本句語境不同。",
-        "say-mcq-02": "「用肯定／否定回答表示接受、同意或拒絕」是「say yes/no」的用法，與本句語境不同。"
+        "say-mcq-05": "本句的「say」指「表達自己的判斷、看法或評價」。",
+        "say-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-05"
     },
@@ -1224,11 +1176,9 @@ export default {
       "masked": "What would you ____ is the biggest challenge?",
       "options": [
         "say-mcq-05",
-        "say-mcq-04",
-        "say-mcq-06",
-        "say-mcq-03",
-        "say-mcq-07",
-        "say-mcq-02"
+        "say-mcq-23",
+        "say-pdf-003",
+        "say-mcq-25"
       ],
       "explanation": "本句的「say」指「表達自己的判斷、看法或評價」。",
       "sentenceIndex": 12,
@@ -1237,12 +1187,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-05": "本句指「表達自己的判斷、看法或評價」。",
-        "say-mcq-04": "「把某段具體內容說給某人聽」是「say something to someone」的用法，與本句語境不同。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。",
-        "say-mcq-03": "「用語言陳述某項資訊、意見或事實」是「say that + clause」的用法，與本句語境不同。",
-        "say-mcq-07": "「提出一個大概數字、例子或估算，而非精確指定」是「say — approximately」的用法，與本句語境不同。",
-        "say-mcq-02": "「用肯定／否定回答表示接受、同意或拒絕」是「say yes/no」的用法，與本句語境不同。"
+        "say-mcq-05": "本句的「say」指「表達自己的判斷、看法或評價」。",
+        "say-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-05"
     },
@@ -1254,11 +1202,9 @@ export default {
       "masked": "I’d ____ preparation was the key.",
       "options": [
         "say-mcq-06",
-        "say-mcq-05",
-        "say-mcq-07",
-        "say-mcq-04",
-        "say-mcq-08",
-        "say-mcq-03"
+        "say-mcq-13",
+        "say-mcq-25",
+        "say-mcq-30"
       ],
       "explanation": "本句的「say」指「以較委婉方式提出個人意見、判斷或估計」。",
       "sentenceIndex": 13,
@@ -1267,12 +1213,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-06": "本句指「以較委婉方式提出個人意見、判斷或估計」。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
-        "say-mcq-07": "「提出一個大概數字、例子或估算，而非精確指定」是「say — approximately」的用法，與本句語境不同。",
-        "say-mcq-04": "「把某段具體內容說給某人聽」是「say something to someone」的用法，與本句語境不同。",
-        "say-mcq-08": "「提出假設情況，方便繼續討論、估算或舉例」是「let’s say」的用法，與本句語境不同。",
-        "say-mcq-03": "「用語言陳述某項資訊、意見或事實」是「say that + clause」的用法，與本句語境不同。"
+        "say-mcq-06": "本句的「say」指「以較委婉方式提出個人意見、判斷或估計」。",
+        "say-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-06"
     },
@@ -1284,11 +1228,9 @@ export default {
       "masked": "I’d ____ about two hundred people attended.",
       "options": [
         "say-mcq-06",
-        "say-mcq-05",
-        "say-mcq-07",
-        "say-mcq-04",
-        "say-mcq-08",
-        "say-mcq-03"
+        "say-mcq-24",
+        "say-mcq-17",
+        "say-mcq-21"
       ],
       "explanation": "本句的「say」指「以較委婉方式提出個人意見、判斷或估計」。",
       "sentenceIndex": 14,
@@ -1297,12 +1239,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-06": "本句指「以較委婉方式提出個人意見、判斷或估計」。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
-        "say-mcq-07": "「提出一個大概數字、例子或估算，而非精確指定」是「say — approximately」的用法，與本句語境不同。",
-        "say-mcq-04": "「把某段具體內容說給某人聽」是「say something to someone」的用法，與本句語境不同。",
-        "say-mcq-08": "「提出假設情況，方便繼續討論、估算或舉例」是「let’s say」的用法，與本句語境不同。",
-        "say-mcq-03": "「用語言陳述某項資訊、意見或事實」是「say that + clause」的用法，與本句語境不同。"
+        "say-mcq-06": "本句的「say」指「以較委婉方式提出個人意見、判斷或估計」。",
+        "say-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-06"
     },
@@ -1314,11 +1254,9 @@ export default {
       "masked": "There were, ____, two hundred people in the room.",
       "options": [
         "say-mcq-07",
-        "say-mcq-06",
-        "say-mcq-08",
-        "say-mcq-05",
-        "say-mcq-09",
-        "say-mcq-04"
+        "say-mcq-03",
+        "say-mcq-16",
+        "say-pdf-005"
       ],
       "explanation": "本句的「say」指「提出一個大概數字、例子或估算，而非精確指定」。",
       "sentenceIndex": 15,
@@ -1327,12 +1265,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-07": "本句指「提出一個大概數字、例子或估算，而非精確指定」。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。",
-        "say-mcq-08": "「提出假設情況，方便繼續討論、估算或舉例」是「let’s say」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
-        "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。",
-        "say-mcq-04": "「把某段具體內容說給某人聽」是「say something to someone」的用法，與本句語境不同。"
+        "say-mcq-07": "本句的「say」指「提出一個大概數字、例子或估算，而非精確指定」。",
+        "say-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-07"
     },
@@ -1344,11 +1280,9 @@ export default {
       "masked": "Let’s ____ the presentation takes fifteen minutes.",
       "options": [
         "say-mcq-07",
-        "say-mcq-06",
-        "say-mcq-08",
-        "say-mcq-05",
-        "say-mcq-09",
-        "say-mcq-04"
+        "say-mcq-28",
+        "say-mcq-14",
+        "say-mcq-15"
       ],
       "explanation": "本句的「say」指「提出一個大概數字、例子或估算，而非精確指定」。",
       "sentenceIndex": 16,
@@ -1357,12 +1291,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-07": "本句指「提出一個大概數字、例子或估算，而非精確指定」。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。",
-        "say-mcq-08": "「提出假設情況，方便繼續討論、估算或舉例」是「let’s say」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
-        "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。",
-        "say-mcq-04": "「把某段具體內容說給某人聽」是「say something to someone」的用法，與本句語境不同。"
+        "say-mcq-07": "本句的「say」指「提出一個大概數字、例子或估算，而非精確指定」。",
+        "say-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-07"
     },
@@ -1374,11 +1306,9 @@ export default {
       "masked": "____ you forget one sentence. What should you do?",
       "options": [
         "say-mcq-08",
-        "say-mcq-07",
-        "say-mcq-09",
-        "say-mcq-06",
-        "say-mcq-10",
-        "say-mcq-05"
+        "say-mcq-32",
+        "say-mcq-02",
+        "say-mcq-18"
       ],
       "explanation": "本句的「Let’s say」指「提出假設情況，方便繼續討論、估算或舉例」。",
       "sentenceIndex": 17,
@@ -1387,12 +1317,10 @@ export default {
         "Let’s say"
       ],
       "optionReasons": {
-        "say-mcq-08": "本句指「提出假設情況，方便繼續討論、估算或舉例」。",
-        "say-mcq-07": "「提出一個大概數字、例子或估算，而非精確指定」是「say — approximately」的用法，與本句語境不同。",
-        "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。",
-        "say-mcq-10": "「把某個詞、名稱或短語用聲音說出來」是「say a word/name」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。"
+        "say-mcq-08": "本句的「Let’s say」指「提出假設情況，方便繼續討論、估算或舉例」。",
+        "say-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-08"
     },
@@ -1404,11 +1332,9 @@ export default {
       "masked": "____ the audience asks a difficult question.",
       "options": [
         "say-mcq-08",
-        "say-mcq-07",
-        "say-mcq-09",
-        "say-mcq-06",
-        "say-mcq-10",
-        "say-mcq-05"
+        "say-mcq-25",
+        "say-mcq-28",
+        "say-mcq-15"
       ],
       "explanation": "本句的「Let’s say」指「提出假設情況，方便繼續討論、估算或舉例」。",
       "sentenceIndex": 18,
@@ -1417,12 +1343,10 @@ export default {
         "Let’s say"
       ],
       "optionReasons": {
-        "say-mcq-08": "本句指「提出假設情況，方便繼續討論、估算或舉例」。",
-        "say-mcq-07": "「提出一個大概數字、例子或估算，而非精確指定」是「say — approximately」的用法，與本句語境不同。",
-        "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。",
-        "say-mcq-10": "「把某個詞、名稱或短語用聲音說出來」是「say a word/name」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。"
+        "say-mcq-08": "本句的「Let’s say」指「提出假設情況，方便繼續討論、估算或舉例」。",
+        "say-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-08"
     },
@@ -1434,11 +1358,9 @@ export default {
       "masked": "The email ____ the meeting starts at nine.",
       "options": [
         "say-mcq-29",
-        "say-mcq-28",
-        "say-mcq-30",
-        "say-mcq-27",
-        "say-mcq-31",
-        "say-mcq-26"
+        "say-pdf-004",
+        "say-mcq-08",
+        "say-pdf-003"
       ],
       "explanation": "本句的「says」指「某段文字、標誌或文件載有／顯示某項內容」。",
       "sentenceIndex": 19,
@@ -1447,12 +1369,10 @@ export default {
         "says"
       ],
       "optionReasons": {
-        "say-mcq-29": "本句指「某段文字、標誌或文件載有／顯示某項內容」。",
-        "say-mcq-28": "「表示資訊已足夠理解暗示，不必再進一步解釋」是「say no more」的用法，與本句語境不同。",
-        "say-mcq-30": "「資料、報告或證據傳達／顯示某項結論或資訊」是「11. say = show/indicate information（顯示） — 顯示；表明」的用法，與本句語境不同。",
-        "say-mcq-27": "「用來引出自己想特別強調的意見或反應」是「I must/have to say」的用法，與本句語境不同。",
-        "say-mcq-31": "「以口頭或內心方式念出／進行祈禱」是「15. say a prayer（祈禱） — 禱告；念禱文」的用法，與本句語境不同。",
-        "say-mcq-26": "「詢問對方是否同意某項建議／邀請；你意下如何？」是「what do you say?」的用法，與本句語境不同。"
+        "say-mcq-29": "本句的「says」指「某段文字、標誌或文件載有／顯示某項內容」。",
+        "say-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-29"
     },
@@ -1464,11 +1384,9 @@ export default {
       "masked": "The sign ____ ‘Exit’.",
       "options": [
         "say-mcq-29",
-        "say-mcq-28",
-        "say-mcq-30",
-        "say-mcq-27",
-        "say-mcq-31",
-        "say-mcq-26"
+        "say-mcq-22",
+        "say-mcq-10",
+        "say-mcq-27"
       ],
       "explanation": "本句的「says」指「某段文字、標誌或文件載有／顯示某項內容」。",
       "sentenceIndex": 20,
@@ -1477,12 +1395,10 @@ export default {
         "says"
       ],
       "optionReasons": {
-        "say-mcq-29": "本句指「某段文字、標誌或文件載有／顯示某項內容」。",
-        "say-mcq-28": "「表示資訊已足夠理解暗示，不必再進一步解釋」是「say no more」的用法，與本句語境不同。",
-        "say-mcq-30": "「資料、報告或證據傳達／顯示某項結論或資訊」是「11. say = show/indicate information（顯示） — 顯示；表明」的用法，與本句語境不同。",
-        "say-mcq-27": "「用來引出自己想特別強調的意見或反應」是「I must/have to say」的用法，與本句語境不同。",
-        "say-mcq-31": "「以口頭或內心方式念出／進行祈禱」是「15. say a prayer（祈禱） — 禱告；念禱文」的用法，與本句語境不同。",
-        "say-mcq-26": "「詢問對方是否同意某項建議／邀請；你意下如何？」是「what do you say?」的用法，與本句語境不同。"
+        "say-mcq-29": "本句的「says」指「某段文字、標誌或文件載有／顯示某項內容」。",
+        "say-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-29"
     },
@@ -1494,11 +1410,9 @@ export default {
       "masked": "The report ____ sales have increased.",
       "options": [
         "say-mcq-30",
-        "say-mcq-29",
         "say-mcq-31",
-        "say-mcq-28",
-        "say-mcq-32",
-        "say-mcq-27"
+        "say-mcq-02",
+        "say-mcq-07"
       ],
       "explanation": "本句的「says」指「資料、報告或證據傳達／顯示某項結論或資訊」。",
       "sentenceIndex": 21,
@@ -1507,12 +1421,10 @@ export default {
         "says"
       ],
       "optionReasons": {
-        "say-mcq-30": "本句指「資料、報告或證據傳達／顯示某項結論或資訊」。",
-        "say-mcq-29": "「某段文字、標誌或文件載有／顯示某項內容」是「10. say = indicate in writing（文字寫著） — 寫著；表示」的用法，與本句語境不同。",
-        "say-mcq-31": "「以口頭或內心方式念出／進行祈禱」是「15. say a prayer（祈禱） — 禱告；念禱文」的用法，與本句語境不同。",
-        "say-mcq-28": "「表示資訊已足夠理解暗示，不必再進一步解釋」是「say no more」的用法，與本句語境不同。",
-        "say-mcq-32": "「參與表達意見或作決定的權利／影響力」是「28. say = opinion/voice in decision-making（發言權） — 意見；決定權」的用法，與本句語境不同。",
-        "say-mcq-27": "「用來引出自己想特別強調的意見或反應」是「I must/have to say」的用法，與本句語境不同。"
+        "say-mcq-30": "本句的「says」指「資料、報告或證據傳達／顯示某項結論或資訊」。",
+        "say-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-30"
     },
@@ -1524,11 +1436,9 @@ export default {
       "masked": "What does the data ____?",
       "options": [
         "say-mcq-30",
-        "say-mcq-29",
-        "say-mcq-31",
-        "say-mcq-28",
-        "say-mcq-32",
-        "say-mcq-27"
+        "say-mcq-23",
+        "say-mcq-21",
+        "say-mcq-13"
       ],
       "explanation": "本句的「say」指「資料、報告或證據傳達／顯示某項結論或資訊」。",
       "sentenceIndex": 22,
@@ -1537,12 +1447,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-30": "本句指「資料、報告或證據傳達／顯示某項結論或資訊」。",
-        "say-mcq-29": "「某段文字、標誌或文件載有／顯示某項內容」是「10. say = indicate in writing（文字寫著） — 寫著；表示」的用法，與本句語境不同。",
-        "say-mcq-31": "「以口頭或內心方式念出／進行祈禱」是「15. say a prayer（祈禱） — 禱告；念禱文」的用法，與本句語境不同。",
-        "say-mcq-28": "「表示資訊已足夠理解暗示，不必再進一步解釋」是「say no more」的用法，與本句語境不同。",
-        "say-mcq-32": "「參與表達意見或作決定的權利／影響力」是「28. say = opinion/voice in decision-making（發言權） — 意見；決定權」的用法，與本句語境不同。",
-        "say-mcq-27": "「用來引出自己想特別強調的意見或反應」是「I must/have to say」的用法，與本句語境不同。"
+        "say-mcq-30": "本句的「say」指「資料、報告或證據傳達／顯示某項結論或資訊」。",
+        "say-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-30"
     },
@@ -1554,11 +1462,9 @@ export default {
       "masked": "Could you ____ again?",
       "options": [
         "say-mcq-10",
-        "say-mcq-09",
-        "say-mcq-11",
-        "say-mcq-08",
-        "say-mcq-12",
-        "say-mcq-07"
+        "say-mcq-14",
+        "say-mcq-21",
+        "say-mcq-33"
       ],
       "explanation": "本句的「say your name」指「把某個詞、名稱或短語用聲音說出來」。",
       "sentenceIndex": 23,
@@ -1567,12 +1473,10 @@ export default {
         "say your name"
       ],
       "optionReasons": {
-        "say-mcq-10": "本句指「把某個詞、名稱或短語用聲音說出來」。",
-        "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。",
-        "say-mcq-11": "「用語言作出招呼、道別、感謝或道歉等社交表達」是「say hello/goodbye/thanks/sorry」的用法，與本句語境不同。",
-        "say-mcq-08": "「提出假設情況，方便繼續討論、估算或舉例」是「let’s say」的用法，與本句語境不同。",
-        "say-mcq-12": "「說出前面所提到的那個意見／內容，避免重複完整句子」是「say so」的用法，與本句語境不同。",
-        "say-mcq-07": "「提出一個大概數字、例子或估算，而非精確指定」是「say — approximately」的用法，與本句語境不同。"
+        "say-mcq-10": "本句的「say your name」指「把某個詞、名稱或短語用聲音說出來」。",
+        "say-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-10"
     },
@@ -1584,11 +1488,9 @@ export default {
       "masked": "How do you ____ this word?",
       "options": [
         "say-mcq-10",
-        "say-mcq-09",
-        "say-mcq-11",
-        "say-mcq-08",
-        "say-mcq-12",
-        "say-mcq-07"
+        "say-mcq-20",
+        "say-pdf-005",
+        "say-mcq-02"
       ],
       "explanation": "本句的「say」指「把某個詞、名稱或短語用聲音說出來」。",
       "sentenceIndex": 24,
@@ -1597,12 +1499,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-10": "本句指「把某個詞、名稱或短語用聲音說出來」。",
-        "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。",
-        "say-mcq-11": "「用語言作出招呼、道別、感謝或道歉等社交表達」是「say hello/goodbye/thanks/sorry」的用法，與本句語境不同。",
-        "say-mcq-08": "「提出假設情況，方便繼續討論、估算或舉例」是「let’s say」的用法，與本句語境不同。",
-        "say-mcq-12": "「說出前面所提到的那個意見／內容，避免重複完整句子」是「say so」的用法，與本句語境不同。",
-        "say-mcq-07": "「提出一個大概數字、例子或估算，而非精確指定」是「say — approximately」的用法，與本句語境不同。"
+        "say-mcq-10": "本句的「say」指「把某個詞、名稱或短語用聲音說出來」。",
+        "say-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-10"
     },
@@ -1614,11 +1514,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "say-pdf-002",
-        "say-mcq-09",
-        "say-mcq-11",
-        "say-mcq-08",
-        "say-mcq-12",
-        "say-mcq-07"
+        "say-mcq-21",
+        "say-mcq-02",
+        "say-mcq-14"
       ],
       "explanation": "本句的「say it clearly」指「以某種方式說出具體內容」。",
       "sentenceIndex": 25,
@@ -1627,12 +1525,10 @@ export default {
         "say it clearly"
       ],
       "optionReasons": {
-        "say-pdf-002": "本句指「以某種方式說出具體內容」。",
-        "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。",
-        "say-mcq-11": "「用語言作出招呼、道別、感謝或道歉等社交表達」是「say hello/goodbye/thanks/sorry」的用法，與本句語境不同。",
-        "say-mcq-08": "「提出假設情況，方便繼續討論、估算或舉例」是「let’s say」的用法，與本句語境不同。",
-        "say-mcq-12": "「說出前面所提到的那個意見／內容，避免重複完整句子」是「say so」的用法，與本句語境不同。",
-        "say-mcq-07": "「提出一個大概數字、例子或估算，而非精確指定」是「say — approximately」的用法，與本句語境不同。"
+        "say-pdf-002": "本句的「say it clearly」指「以某種方式說出具體內容」。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-pdf-002"
     },
@@ -1644,11 +1540,9 @@ export default {
       "masked": "She ____ so everyone could hear.",
       "options": [
         "say-pdf-002",
-        "say-mcq-09",
-        "say-mcq-11",
-        "say-mcq-08",
-        "say-mcq-12",
-        "say-mcq-07"
+        "say-mcq-20",
+        "say-mcq-02",
+        "say-mcq-25"
       ],
       "explanation": "本句的「said it loudly」指「以某種方式說出具體內容」。",
       "sentenceIndex": 26,
@@ -1657,12 +1551,10 @@ export default {
         "said it loudly"
       ],
       "optionReasons": {
-        "say-pdf-002": "本句指「以某種方式說出具體內容」。",
-        "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。",
-        "say-mcq-11": "「用語言作出招呼、道別、感謝或道歉等社交表達」是「say hello/goodbye/thanks/sorry」的用法，與本句語境不同。",
-        "say-mcq-08": "「提出假設情況，方便繼續討論、估算或舉例」是「let’s say」的用法，與本句語境不同。",
-        "say-mcq-12": "「說出前面所提到的那個意見／內容，避免重複完整句子」是「say so」的用法，與本句語境不同。",
-        "say-mcq-07": "「提出一個大概數字、例子或估算，而非精確指定」是「say — approximately」的用法，與本句語境不同。"
+        "say-pdf-002": "本句的「said it loudly」指「以某種方式說出具體內容」。",
+        "say-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-pdf-002"
     },
@@ -1674,11 +1566,9 @@ export default {
       "masked": "I ____ to the audience.",
       "options": [
         "say-mcq-11",
-        "say-mcq-10",
-        "say-mcq-12",
-        "say-mcq-09",
         "say-mcq-13",
-        "say-mcq-08"
+        "say-mcq-17",
+        "say-mcq-21"
       ],
       "explanation": "本句的「said hello」指「用語言作出招呼、道別、感謝或道歉等社交表達」。",
       "sentenceIndex": 27,
@@ -1687,12 +1577,10 @@ export default {
         "said hello"
       ],
       "optionReasons": {
-        "say-mcq-11": "本句指「用語言作出招呼、道別、感謝或道歉等社交表達」。",
-        "say-mcq-10": "「把某個詞、名稱或短語用聲音說出來」是「say a word/name」的用法，與本句語境不同。",
-        "say-mcq-12": "「說出前面所提到的那個意見／內容，避免重複完整句子」是「say so」的用法，與本句語境不同。",
-        "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。",
-        "say-mcq-13": "「表示暫時接受對方說法，有時帶懷疑或不完全信服」是「if you say so」的用法，與本句語境不同。",
-        "say-mcq-08": "「提出假設情況，方便繼續討論、估算或舉例」是「let’s say」的用法，與本句語境不同。"
+        "say-mcq-11": "本句的「said hello」指「用語言作出招呼、道別、感謝或道歉等社交表達」。",
+        "say-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-11"
     },
@@ -1704,11 +1592,9 @@ export default {
       "masked": "Don’t forget to ____.",
       "options": [
         "say-mcq-11",
-        "say-mcq-10",
-        "say-mcq-12",
-        "say-mcq-09",
         "say-mcq-13",
-        "say-mcq-08"
+        "say-mcq-21",
+        "say-mcq-33"
       ],
       "explanation": "本句的「say thank you」指「用語言作出招呼、道別、感謝或道歉等社交表達」。",
       "sentenceIndex": 28,
@@ -1717,12 +1603,10 @@ export default {
         "say thank you"
       ],
       "optionReasons": {
-        "say-mcq-11": "本句指「用語言作出招呼、道別、感謝或道歉等社交表達」。",
-        "say-mcq-10": "「把某個詞、名稱或短語用聲音說出來」是「say a word/name」的用法，與本句語境不同。",
-        "say-mcq-12": "「說出前面所提到的那個意見／內容，避免重複完整句子」是「say so」的用法，與本句語境不同。",
-        "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。",
-        "say-mcq-13": "「表示暫時接受對方說法，有時帶懷疑或不完全信服」是「if you say so」的用法，與本句語境不同。",
-        "say-mcq-08": "「提出假設情況，方便繼續討論、估算或舉例」是「let’s say」的用法，與本句語境不同。"
+        "say-mcq-11": "本句的「say thank you」指「用語言作出招呼、道別、感謝或道歉等社交表達」。",
+        "say-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-11"
     },
@@ -1734,11 +1618,9 @@ export default {
       "masked": "They ____ before the ceremony.",
       "options": [
         "say-mcq-31",
-        "say-mcq-30",
         "say-mcq-32",
-        "say-mcq-29",
-        "say-mcq-33",
-        "say-mcq-28"
+        "say-mcq-13",
+        "say-mcq-33"
       ],
       "explanation": "本句的「said a prayer」指「以口頭或內心方式念出／進行祈禱」。",
       "sentenceIndex": 29,
@@ -1747,12 +1629,10 @@ export default {
         "said a prayer"
       ],
       "optionReasons": {
-        "say-mcq-31": "本句指「以口頭或內心方式念出／進行祈禱」。",
-        "say-mcq-30": "「資料、報告或證據傳達／顯示某項結論或資訊」是「11. say = show/indicate information（顯示） — 顯示；表明」的用法，與本句語境不同。",
-        "say-mcq-32": "「參與表達意見或作決定的權利／影響力」是「28. say = opinion/voice in decision-making（發言權） — 意見；決定權」的用法，與本句語境不同。",
-        "say-mcq-29": "「某段文字、標誌或文件載有／顯示某項內容」是「10. say = indicate in writing（文字寫著） — 寫著；表示」的用法，與本句語境不同。",
-        "say-mcq-33": "「表示文字／訊息指示要做某事」是「32. say = command/instruction in reported language（吩咐／要求；特定語境） — 說要；指示」的用法，與本句語境不同。",
-        "say-mcq-28": "「表示資訊已足夠理解暗示，不必再進一步解釋」是「say no more」的用法，與本句語境不同。"
+        "say-mcq-31": "本句的「said a prayer」指「以口頭或內心方式念出／進行祈禱」。",
+        "say-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-31"
     },
@@ -1764,11 +1644,9 @@ export default {
       "masked": "She quietly ____.",
       "options": [
         "say-mcq-31",
-        "say-mcq-30",
-        "say-mcq-32",
-        "say-mcq-29",
-        "say-mcq-33",
-        "say-mcq-28"
+        "say-mcq-02",
+        "say-mcq-20",
+        "say-mcq-16"
       ],
       "explanation": "本句的「said a prayer」指「以口頭或內心方式念出／進行祈禱」。",
       "sentenceIndex": 30,
@@ -1777,12 +1655,10 @@ export default {
         "said a prayer"
       ],
       "optionReasons": {
-        "say-mcq-31": "本句指「以口頭或內心方式念出／進行祈禱」。",
-        "say-mcq-30": "「資料、報告或證據傳達／顯示某項結論或資訊」是「11. say = show/indicate information（顯示） — 顯示；表明」的用法，與本句語境不同。",
-        "say-mcq-32": "「參與表達意見或作決定的權利／影響力」是「28. say = opinion/voice in decision-making（發言權） — 意見；決定權」的用法，與本句語境不同。",
-        "say-mcq-29": "「某段文字、標誌或文件載有／顯示某項內容」是「10. say = indicate in writing（文字寫著） — 寫著；表示」的用法，與本句語境不同。",
-        "say-mcq-33": "「表示文字／訊息指示要做某事」是「32. say = command/instruction in reported language（吩咐／要求；特定語境） — 說要；指示」的用法，與本句語境不同。",
-        "say-mcq-28": "「表示資訊已足夠理解暗示，不必再進一步解釋」是「say no more」的用法，與本句語境不同。"
+        "say-mcq-31": "本句的「said a prayer」指「以口頭或內心方式念出／進行祈禱」。",
+        "say-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-31"
     },
@@ -1794,11 +1670,9 @@ export default {
       "masked": "If you think the plan is too difficult, just ____.",
       "options": [
         "say-mcq-12",
-        "say-mcq-11",
-        "say-mcq-13",
-        "say-mcq-10",
-        "say-mcq-14",
-        "say-mcq-09"
+        "say-pdf-005",
+        "say-mcq-22",
+        "say-mcq-02"
       ],
       "explanation": "本句的「say so」指「說出前面所提到的那個意見／內容，避免重複完整句子」。",
       "sentenceIndex": 31,
@@ -1807,12 +1681,10 @@ export default {
         "say so"
       ],
       "optionReasons": {
-        "say-mcq-12": "本句指「說出前面所提到的那個意見／內容，避免重複完整句子」。",
-        "say-mcq-11": "「用語言作出招呼、道別、感謝或道歉等社交表達」是「say hello/goodbye/thanks/sorry」的用法，與本句語境不同。",
-        "say-mcq-13": "「表示暫時接受對方說法，有時帶懷疑或不完全信服」是「if you say so」的用法，與本句語境不同。",
-        "say-mcq-10": "「把某個詞、名稱或短語用聲音說出來」是「say a word/name」的用法，與本句語境不同。",
-        "say-mcq-14": "「質疑某個假設、規則或普遍看法是否真的成立」是「who says…?」的用法，與本句語境不同。",
-        "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。"
+        "say-mcq-12": "本句的「say so」指「說出前面所提到的那個意見／內容，避免重複完整句子」。",
+        "say-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-12"
     },
@@ -1824,11 +1696,9 @@ export default {
       "masked": "Nobody ____, but everyone looked nervous.",
       "options": [
         "say-mcq-12",
-        "say-mcq-11",
-        "say-mcq-13",
-        "say-mcq-10",
-        "say-mcq-14",
-        "say-mcq-09"
+        "say-mcq-25",
+        "say-mcq-21",
+        "say-mcq-22"
       ],
       "explanation": "本句的「said so」指「說出前面所提到的那個意見／內容，避免重複完整句子」。",
       "sentenceIndex": 32,
@@ -1837,12 +1707,10 @@ export default {
         "said so"
       ],
       "optionReasons": {
-        "say-mcq-12": "本句指「說出前面所提到的那個意見／內容，避免重複完整句子」。",
-        "say-mcq-11": "「用語言作出招呼、道別、感謝或道歉等社交表達」是「say hello/goodbye/thanks/sorry」的用法，與本句語境不同。",
-        "say-mcq-13": "「表示暫時接受對方說法，有時帶懷疑或不完全信服」是「if you say so」的用法，與本句語境不同。",
-        "say-mcq-10": "「把某個詞、名稱或短語用聲音說出來」是「say a word/name」的用法，與本句語境不同。",
-        "say-mcq-14": "「質疑某個假設、規則或普遍看法是否真的成立」是「who says…?」的用法，與本句語境不同。",
-        "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。"
+        "say-mcq-12": "本句的「said so」指「說出前面所提到的那個意見／內容，避免重複完整句子」。",
+        "say-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-12"
     },
@@ -1854,11 +1722,9 @@ export default {
       "masked": "If you ____.",
       "options": [
         "say-mcq-13",
-        "say-mcq-12",
-        "say-mcq-14",
-        "say-mcq-11",
-        "say-mcq-15",
-        "say-mcq-10"
+        "say-mcq-29",
+        "say-mcq-23",
+        "say-mcq-06"
       ],
       "explanation": "本句的「say so」指「表示暫時接受對方說法，有時帶懷疑或不完全信服」。",
       "sentenceIndex": 33,
@@ -1867,12 +1733,10 @@ export default {
         "say so"
       ],
       "optionReasons": {
-        "say-mcq-13": "本句指「表示暫時接受對方說法，有時帶懷疑或不完全信服」。",
-        "say-mcq-12": "「說出前面所提到的那個意見／內容，避免重複完整句子」是「say so」的用法，與本句語境不同。",
-        "say-mcq-14": "「質疑某個假設、規則或普遍看法是否真的成立」是「who says…?」的用法，與本句語境不同。",
-        "say-mcq-11": "「用語言作出招呼、道別、感謝或道歉等社交表達」是「say hello/goodbye/thanks/sorry」的用法，與本句語境不同。",
-        "say-mcq-15": "「強烈表示同意對方剛才的說法」是「you can say that again」的用法，與本句語境不同。",
-        "say-mcq-10": "「把某個詞、名稱或短語用聲音說出來」是「say a word/name」的用法，與本句語境不同。"
+        "say-mcq-13": "本句的「say so」指「表示暫時接受對方說法，有時帶懷疑或不完全信服」。",
+        "say-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-13"
     },
@@ -1884,11 +1748,9 @@ export default {
       "masked": "If you ____.",
       "options": [
         "say-mcq-13",
-        "say-mcq-12",
-        "say-mcq-14",
-        "say-mcq-11",
-        "say-mcq-15",
-        "say-mcq-10"
+        "say-mcq-32",
+        "say-mcq-23",
+        "say-mcq-29"
       ],
       "explanation": "本句的「say so」指「表示暫時接受對方說法，有時帶懷疑或不完全信服」。",
       "sentenceIndex": 34,
@@ -1897,12 +1759,10 @@ export default {
         "say so"
       ],
       "optionReasons": {
-        "say-mcq-13": "本句指「表示暫時接受對方說法，有時帶懷疑或不完全信服」。",
-        "say-mcq-12": "「說出前面所提到的那個意見／內容，避免重複完整句子」是「say so」的用法，與本句語境不同。",
-        "say-mcq-14": "「質疑某個假設、規則或普遍看法是否真的成立」是「who says…?」的用法，與本句語境不同。",
-        "say-mcq-11": "「用語言作出招呼、道別、感謝或道歉等社交表達」是「say hello/goodbye/thanks/sorry」的用法，與本句語境不同。",
-        "say-mcq-15": "「強烈表示同意對方剛才的說法」是「you can say that again」的用法，與本句語境不同。",
-        "say-mcq-10": "「把某個詞、名稱或短語用聲音說出來」是「say a word/name」的用法，與本句語境不同。"
+        "say-mcq-13": "本句的「say so」指「表示暫時接受對方說法，有時帶懷疑或不完全信服」。",
+        "say-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-13"
     },
@@ -1914,11 +1774,9 @@ export default {
       "masked": "Who ____ nervous people can’t give good presentations?",
       "options": [
         "say-mcq-14",
-        "say-mcq-13",
-        "say-mcq-15",
-        "say-mcq-12",
-        "say-mcq-16",
-        "say-mcq-11"
+        "say-mcq-29",
+        "say-mcq-10",
+        "say-mcq-21"
       ],
       "explanation": "本句的「says」指「質疑某個假設、規則或普遍看法是否真的成立」。",
       "sentenceIndex": 35,
@@ -1927,12 +1785,10 @@ export default {
         "says"
       ],
       "optionReasons": {
-        "say-mcq-14": "本句指「質疑某個假設、規則或普遍看法是否真的成立」。",
-        "say-mcq-13": "「表示暫時接受對方說法，有時帶懷疑或不完全信服」是「if you say so」的用法，與本句語境不同。",
-        "say-mcq-15": "「強烈表示同意對方剛才的說法」是「you can say that again」的用法，與本句語境不同。",
-        "say-mcq-12": "「說出前面所提到的那個意見／內容，避免重複完整句子」是「say so」的用法，與本句語境不同。",
-        "say-mcq-16": "「防止前面說法被過度理解；這並不表示……」是「that’s not to say」的用法，與本句語境不同。",
-        "say-mcq-11": "「用語言作出招呼、道別、感謝或道歉等社交表達」是「say hello/goodbye/thanks/sorry」的用法，與本句語境不同。"
+        "say-mcq-14": "本句的「says」指「質疑某個假設、規則或普遍看法是否真的成立」。",
+        "say-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-14"
     },
@@ -1944,11 +1800,9 @@ export default {
       "masked": "Who ____ you have to be perfect?",
       "options": [
         "say-mcq-14",
-        "say-mcq-13",
-        "say-mcq-15",
-        "say-mcq-12",
-        "say-mcq-16",
-        "say-mcq-11"
+        "say-mcq-04",
+        "say-mcq-11",
+        "say-mcq-07"
       ],
       "explanation": "本句的「says」指「質疑某個假設、規則或普遍看法是否真的成立」。",
       "sentenceIndex": 36,
@@ -1957,12 +1811,10 @@ export default {
         "says"
       ],
       "optionReasons": {
-        "say-mcq-14": "本句指「質疑某個假設、規則或普遍看法是否真的成立」。",
-        "say-mcq-13": "「表示暫時接受對方說法，有時帶懷疑或不完全信服」是「if you say so」的用法，與本句語境不同。",
-        "say-mcq-15": "「強烈表示同意對方剛才的說法」是「you can say that again」的用法，與本句語境不同。",
-        "say-mcq-12": "「說出前面所提到的那個意見／內容，避免重複完整句子」是「say so」的用法，與本句語境不同。",
-        "say-mcq-16": "「防止前面說法被過度理解；這並不表示……」是「that’s not to say」的用法，與本句語境不同。",
-        "say-mcq-11": "「用語言作出招呼、道別、感謝或道歉等社交表達」是「say hello/goodbye/thanks/sorry」的用法，與本句語境不同。"
+        "say-mcq-14": "本句的「says」指「質疑某個假設、規則或普遍看法是否真的成立」。",
+        "say-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-14"
     },
@@ -1974,11 +1826,9 @@ export default {
       "masked": "You can ____.",
       "options": [
         "say-mcq-15",
-        "say-mcq-14",
-        "say-mcq-16",
-        "say-mcq-13",
-        "say-mcq-17",
-        "say-mcq-12"
+        "say-mcq-23",
+        "say-mcq-29",
+        "say-mcq-11"
       ],
       "explanation": "本句的「say that again」指「強烈表示同意對方剛才的說法」。",
       "sentenceIndex": 37,
@@ -1987,12 +1837,10 @@ export default {
         "say that again"
       ],
       "optionReasons": {
-        "say-mcq-15": "本句指「強烈表示同意對方剛才的說法」。",
-        "say-mcq-14": "「質疑某個假設、規則或普遍看法是否真的成立」是「who says…?」的用法，與本句語境不同。",
-        "say-mcq-16": "「防止前面說法被過度理解；這並不表示……」是「that’s not to say」的用法，與本句語境不同。",
-        "say-mcq-13": "「表示暫時接受對方說法，有時帶懷疑或不完全信服」是「if you say so」的用法，與本句語境不同。",
-        "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。",
-        "say-mcq-12": "「說出前面所提到的那個意見／內容，避免重複完整句子」是「say so」的用法，與本句語境不同。"
+        "say-mcq-15": "本句的「say that again」指「強烈表示同意對方剛才的說法」。",
+        "say-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-15"
     },
@@ -2004,11 +1852,9 @@ export default {
       "masked": "You can ____.",
       "options": [
         "say-mcq-15",
-        "say-mcq-14",
-        "say-mcq-16",
-        "say-mcq-13",
-        "say-mcq-17",
-        "say-mcq-12"
+        "say-mcq-28",
+        "say-mcq-11",
+        "say-mcq-21"
       ],
       "explanation": "本句的「say that again」指「強烈表示同意對方剛才的說法」。",
       "sentenceIndex": 38,
@@ -2017,12 +1863,10 @@ export default {
         "say that again"
       ],
       "optionReasons": {
-        "say-mcq-15": "本句指「強烈表示同意對方剛才的說法」。",
-        "say-mcq-14": "「質疑某個假設、規則或普遍看法是否真的成立」是「who says…?」的用法，與本句語境不同。",
-        "say-mcq-16": "「防止前面說法被過度理解；這並不表示……」是「that’s not to say」的用法，與本句語境不同。",
-        "say-mcq-13": "「表示暫時接受對方說法，有時帶懷疑或不完全信服」是「if you say so」的用法，與本句語境不同。",
-        "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。",
-        "say-mcq-12": "「說出前面所提到的那個意見／內容，避免重複完整句子」是「say so」的用法，與本句語境不同。"
+        "say-mcq-15": "本句的「say that again」指「強烈表示同意對方剛才的說法」。",
+        "say-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-15"
     },
@@ -2034,11 +1878,9 @@ export default {
       "masked": "I’m more confident now. ____ I never feel nervous.",
       "options": [
         "say-mcq-16",
-        "say-mcq-15",
-        "say-mcq-17",
-        "say-mcq-14",
-        "say-mcq-18",
-        "say-mcq-13"
+        "say-mcq-32",
+        "say-mcq-08",
+        "say-pdf-005"
       ],
       "explanation": "本句的「That’s not to say」指「防止前面說法被過度理解；這並不表示……」。",
       "sentenceIndex": 39,
@@ -2047,12 +1889,10 @@ export default {
         "That’s not to say"
       ],
       "optionReasons": {
-        "say-mcq-16": "本句指「防止前面說法被過度理解；這並不表示……」。",
-        "say-mcq-15": "「強烈表示同意對方剛才的說法」是「you can say that again」的用法，與本句語境不同。",
-        "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。",
-        "say-mcq-14": "「質疑某個假設、規則或普遍看法是否真的成立」是「who says…?」的用法，與本句語境不同。",
-        "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。",
-        "say-mcq-13": "「表示暫時接受對方說法，有時帶懷疑或不完全信服」是「if you say so」的用法，與本句語境不同。"
+        "say-mcq-16": "本句的「That’s not to say」指「防止前面說法被過度理解；這並不表示……」。",
+        "say-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-16"
     },
@@ -2064,11 +1904,9 @@ export default {
       "masked": "Preparation helps. ____ mistakes never happen.",
       "options": [
         "say-mcq-16",
-        "say-mcq-15",
-        "say-mcq-17",
-        "say-mcq-14",
-        "say-mcq-18",
-        "say-mcq-13"
+        "say-pdf-003",
+        "say-mcq-26",
+        "say-mcq-27"
       ],
       "explanation": "本句的「That’s not to say」指「防止前面說法被過度理解；這並不表示……」。",
       "sentenceIndex": 40,
@@ -2077,12 +1915,10 @@ export default {
         "That’s not to say"
       ],
       "optionReasons": {
-        "say-mcq-16": "本句指「防止前面說法被過度理解；這並不表示……」。",
-        "say-mcq-15": "「強烈表示同意對方剛才的說法」是「you can say that again」的用法，與本句語境不同。",
-        "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。",
-        "say-mcq-14": "「質疑某個假設、規則或普遍看法是否真的成立」是「who says…?」的用法，與本句語境不同。",
-        "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。",
-        "say-mcq-13": "「表示暫時接受對方說法，有時帶懷疑或不完全信服」是「if you say so」的用法，與本句語境不同。"
+        "say-mcq-16": "本句的「That’s not to say」指「防止前面說法被過度理解；這並不表示……」。",
+        "say-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-16"
     },
@@ -2094,11 +1930,9 @@ export default {
       "masked": "The task was optional—that is to ____, nobody had to do it.",
       "options": [
         "say-mcq-17",
-        "say-mcq-16",
-        "say-mcq-18",
-        "say-mcq-15",
-        "say-mcq-19",
-        "say-mcq-14"
+        "say-mcq-27",
+        "say-mcq-02",
+        "say-mcq-08"
       ],
       "explanation": "本句的「say」指「用另一種方式更清楚解釋剛才內容；也就是說」。",
       "sentenceIndex": 41,
@@ -2107,12 +1941,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-17": "本句指「用另一種方式更清楚解釋剛才內容；也就是說」。",
-        "say-mcq-16": "「防止前面說法被過度理解；這並不表示……」是「that’s not to say」的用法，與本句語境不同。",
-        "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。",
-        "say-mcq-15": "「強烈表示同意對方剛才的說法」是「you can say that again」的用法，與本句語境不同。",
-        "say-mcq-19": "「表示實際情況可能比剛才的描述更強烈」是「to say the least」的用法，與本句語境不同。",
-        "say-mcq-14": "「質疑某個假設、規則或普遍看法是否真的成立」是「who says…?」的用法，與本句語境不同。"
+        "say-mcq-17": "本句的「say」指「用另一種方式更清楚解釋剛才內容；也就是說」。",
+        "say-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-17"
     },
@@ -2124,11 +1956,9 @@ export default {
       "masked": "He was the team representative, that is to ____, he spoke on behalf of the group.",
       "options": [
         "say-mcq-17",
-        "say-mcq-16",
-        "say-mcq-18",
-        "say-mcq-15",
-        "say-mcq-19",
-        "say-mcq-14"
+        "say-mcq-07",
+        "say-mcq-26",
+        "say-mcq-25"
       ],
       "explanation": "本句的「say」指「用另一種方式更清楚解釋剛才內容；也就是說」。",
       "sentenceIndex": 42,
@@ -2137,12 +1967,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-17": "本句指「用另一種方式更清楚解釋剛才內容；也就是說」。",
-        "say-mcq-16": "「防止前面說法被過度理解；這並不表示……」是「that’s not to say」的用法，與本句語境不同。",
-        "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。",
-        "say-mcq-15": "「強烈表示同意對方剛才的說法」是「you can say that again」的用法，與本句語境不同。",
-        "say-mcq-19": "「表示實際情況可能比剛才的描述更強烈」是「to say the least」的用法，與本句語境不同。",
-        "say-mcq-14": "「質疑某個假設、規則或普遍看法是否真的成立」是「who says…?」的用法，與本句語境不同。"
+        "say-mcq-17": "本句的「say」指「用另一種方式更清楚解釋剛才內容；也就是說」。",
+        "say-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-17"
     },
@@ -2154,11 +1982,9 @@ export default {
       "masked": "____, I was nervous.",
       "options": [
         "say-mcq-18",
-        "say-mcq-17",
-        "say-mcq-19",
-        "say-mcq-16",
-        "say-mcq-20",
-        "say-mcq-15"
+        "say-mcq-26",
+        "say-mcq-06",
+        "say-mcq-28"
       ],
       "explanation": "本句的「Needless to say」指「後面的事實非常明顯／可預期，因此不用特別說明」。",
       "sentenceIndex": 43,
@@ -2167,12 +1993,10 @@ export default {
         "Needless to say"
       ],
       "optionReasons": {
-        "say-mcq-18": "本句指「後面的事實非常明顯／可預期，因此不用特別說明」。",
-        "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。",
-        "say-mcq-19": "「表示實際情況可能比剛才的描述更強烈」是「to say the least」的用法，與本句語境不同。",
-        "say-mcq-16": "「防止前面說法被過度理解；這並不表示……」是「that’s not to say」的用法，與本句語境不同。",
-        "say-mcq-20": "「有權表達意見，並可能影響決定」是「have a say」的用法，與本句語境不同。",
-        "say-mcq-15": "「強烈表示同意對方剛才的說法」是「you can say that again」的用法，與本句語境不同。"
+        "say-mcq-18": "本句的「Needless to say」指「後面的事實非常明顯／可預期，因此不用特別說明」。",
+        "say-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-18"
     },
@@ -2184,11 +2008,9 @@ export default {
       "masked": "____, everyone was relieved when it ended.",
       "options": [
         "say-mcq-18",
-        "say-mcq-17",
-        "say-mcq-19",
-        "say-mcq-16",
-        "say-mcq-20",
-        "say-mcq-15"
+        "say-mcq-02",
+        "say-mcq-28",
+        "say-mcq-31"
       ],
       "explanation": "本句的「Needless to say」指「後面的事實非常明顯／可預期，因此不用特別說明」。",
       "sentenceIndex": 44,
@@ -2197,12 +2019,10 @@ export default {
         "Needless to say"
       ],
       "optionReasons": {
-        "say-mcq-18": "本句指「後面的事實非常明顯／可預期，因此不用特別說明」。",
-        "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。",
-        "say-mcq-19": "「表示實際情況可能比剛才的描述更強烈」是「to say the least」的用法，與本句語境不同。",
-        "say-mcq-16": "「防止前面說法被過度理解；這並不表示……」是「that’s not to say」的用法，與本句語境不同。",
-        "say-mcq-20": "「有權表達意見，並可能影響決定」是「have a say」的用法，與本句語境不同。",
-        "say-mcq-15": "「強烈表示同意對方剛才的說法」是「you can say that again」的用法，與本句語境不同。"
+        "say-mcq-18": "本句的「Needless to say」指「後面的事實非常明顯／可預期，因此不用特別說明」。",
+        "say-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-18"
     },
@@ -2214,11 +2034,9 @@ export default {
       "masked": "The experience was challenging, ____.",
       "options": [
         "say-mcq-19",
-        "say-mcq-18",
-        "say-mcq-20",
-        "say-mcq-17",
-        "say-mcq-21",
-        "say-mcq-16"
+        "say-mcq-31",
+        "say-mcq-22",
+        "say-mcq-33"
       ],
       "explanation": "本句的「to say the least」指「表示實際情況可能比剛才的描述更強烈」。",
       "sentenceIndex": 45,
@@ -2227,12 +2045,10 @@ export default {
         "to say the least"
       ],
       "optionReasons": {
-        "say-mcq-19": "本句指「表示實際情況可能比剛才的描述更強烈」。",
-        "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。",
-        "say-mcq-20": "「有權表達意見，並可能影響決定」是「have a say」的用法，與本句語境不同。",
-        "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。",
-        "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。",
-        "say-mcq-16": "「防止前面說法被過度理解；這並不表示……」是「that’s not to say」的用法，與本句語境不同。"
+        "say-mcq-19": "本句的「to say the least」指「表示實際情況可能比剛才的描述更強烈」。",
+        "say-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-19"
     },
@@ -2244,11 +2060,9 @@ export default {
       "masked": "He was surprised, ____.",
       "options": [
         "say-mcq-19",
-        "say-mcq-18",
-        "say-mcq-20",
-        "say-mcq-17",
         "say-mcq-21",
-        "say-mcq-16"
+        "say-mcq-29",
+        "say-mcq-02"
       ],
       "explanation": "本句的「to say the least」指「表示實際情況可能比剛才的描述更強烈」。",
       "sentenceIndex": 46,
@@ -2257,12 +2071,10 @@ export default {
         "to say the least"
       ],
       "optionReasons": {
-        "say-mcq-19": "本句指「表示實際情況可能比剛才的描述更強烈」。",
-        "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。",
-        "say-mcq-20": "「有權表達意見，並可能影響決定」是「have a say」的用法，與本句語境不同。",
-        "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。",
-        "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。",
-        "say-mcq-16": "「防止前面說法被過度理解；這並不表示……」是「that’s not to say」的用法，與本句語境不同。"
+        "say-mcq-19": "本句的「to say the least」指「表示實際情況可能比剛才的描述更強烈」。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-19"
     },
@@ -2274,11 +2086,9 @@ export default {
       "masked": "The audience looked concerned, ____ alarmed.",
       "options": [
         "say-pdf-003",
-        "say-mcq-18",
-        "say-mcq-20",
-        "say-mcq-17",
-        "say-mcq-21",
-        "say-mcq-16"
+        "say-mcq-23",
+        "say-mcq-33",
+        "say-mcq-13"
       ],
       "explanation": "本句的「not to say」指「補上一個更強烈、更進一步的描述」。",
       "sentenceIndex": 47,
@@ -2287,12 +2097,10 @@ export default {
         "not to say"
       ],
       "optionReasons": {
-        "say-pdf-003": "本句指「補上一個更強烈、更進一步的描述」。",
-        "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。",
-        "say-mcq-20": "「有權表達意見，並可能影響決定」是「have a say」的用法，與本句語境不同。",
-        "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。",
-        "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。",
-        "say-mcq-16": "「防止前面說法被過度理解；這並不表示……」是「that’s not to say」的用法，與本句語境不同。"
+        "say-pdf-003": "本句的「not to say」指「補上一個更強烈、更進一步的描述」。",
+        "say-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-pdf-003"
     },
@@ -2304,11 +2112,9 @@ export default {
       "masked": "The instructions were confusing, ____ misleading.",
       "options": [
         "say-pdf-003",
-        "say-mcq-18",
-        "say-mcq-20",
-        "say-mcq-17",
-        "say-mcq-21",
-        "say-mcq-16"
+        "say-pdf-004",
+        "say-mcq-02",
+        "say-mcq-08"
       ],
       "explanation": "本句的「not to say」指「補上一個更強烈、更進一步的描述」。",
       "sentenceIndex": 48,
@@ -2317,12 +2123,10 @@ export default {
         "not to say"
       ],
       "optionReasons": {
-        "say-pdf-003": "本句指「補上一個更強烈、更進一步的描述」。",
-        "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。",
-        "say-mcq-20": "「有權表達意見，並可能影響決定」是「have a say」的用法，與本句語境不同。",
-        "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。",
-        "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。",
-        "say-mcq-16": "「防止前面說法被過度理解；這並不表示……」是「that’s not to say」的用法，與本句語境不同。"
+        "say-pdf-003": "本句的「not to say」指「補上一個更強烈、更進一步的描述」。",
+        "say-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-pdf-003"
     },
@@ -2334,11 +2138,9 @@ export default {
       "masked": "Try to ____ clearly.",
       "options": [
         "say-pdf-004",
-        "say-mcq-19",
-        "say-mcq-21",
-        "say-mcq-18",
-        "say-mcq-22",
-        "say-mcq-17"
+        "say-pdf-005",
+        "say-pdf-003",
+        "say-mcq-04"
       ],
       "explanation": "本句的「say what you mean」指「把真正意思清楚表達出來」。",
       "sentenceIndex": 49,
@@ -2347,12 +2149,10 @@ export default {
         "say what you mean"
       ],
       "optionReasons": {
-        "say-pdf-004": "本句指「把真正意思清楚表達出來」。",
-        "say-mcq-19": "「表示實際情況可能比剛才的描述更強烈」是「to say the least」的用法，與本句語境不同。",
-        "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。",
-        "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。",
-        "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。",
-        "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。"
+        "say-pdf-004": "本句的「say what you mean」指「把真正意思清楚表達出來」。",
+        "say-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-pdf-004"
     },
@@ -2364,11 +2164,9 @@ export default {
       "masked": "When she promises something, she ____.",
       "options": [
         "say-pdf-004",
-        "say-mcq-19",
-        "say-mcq-21",
-        "say-mcq-18",
-        "say-mcq-22",
-        "say-mcq-17"
+        "say-mcq-04",
+        "say-pdf-005",
+        "say-mcq-13"
       ],
       "explanation": "本句的「means what she says」指「把真正意思清楚表達出來」。",
       "sentenceIndex": 50,
@@ -2377,12 +2175,10 @@ export default {
         "means what she says"
       ],
       "optionReasons": {
-        "say-pdf-004": "本句指「把真正意思清楚表達出來」。",
-        "say-mcq-19": "「表示實際情況可能比剛才的描述更強烈」是「to say the least」的用法，與本句語境不同。",
-        "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。",
-        "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。",
-        "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。",
-        "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。"
+        "say-pdf-004": "本句的「means what she says」指「把真正意思清楚表達出來」。",
+        "say-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-pdf-004"
     },
@@ -2394,11 +2190,9 @@ export default {
       "masked": "Employees should ____ in decisions that affect them.",
       "options": [
         "say-mcq-20",
-        "say-mcq-19",
-        "say-mcq-21",
-        "say-mcq-18",
-        "say-mcq-22",
-        "say-mcq-17"
+        "say-pdf-005",
+        "say-mcq-28",
+        "say-mcq-08"
       ],
       "explanation": "本句的「have a say」指「有權表達意見，並可能影響決定」。",
       "sentenceIndex": 51,
@@ -2407,12 +2201,10 @@ export default {
         "have a say"
       ],
       "optionReasons": {
-        "say-mcq-20": "本句指「有權表達意見，並可能影響決定」。",
-        "say-mcq-19": "「表示實際情況可能比剛才的描述更強烈」是「to say the least」的用法，與本句語境不同。",
-        "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。",
-        "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。",
-        "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。",
-        "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。"
+        "say-mcq-20": "本句的「have a say」指「有權表達意見，並可能影響決定」。",
+        "say-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-20"
     },
@@ -2424,11 +2216,9 @@ export default {
       "masked": "I had no ____ in the final decision.",
       "options": [
         "say-mcq-20",
-        "say-mcq-19",
-        "say-mcq-21",
-        "say-mcq-18",
-        "say-mcq-22",
-        "say-mcq-17"
+        "say-mcq-29",
+        "say-mcq-10",
+        "say-mcq-31"
       ],
       "explanation": "本句的「say」指「有權表達意見，並可能影響決定」。",
       "sentenceIndex": 52,
@@ -2437,12 +2227,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-20": "本句指「有權表達意見，並可能影響決定」。",
-        "say-mcq-19": "「表示實際情況可能比剛才的描述更強烈」是「to say the least」的用法，與本句語境不同。",
-        "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。",
-        "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。",
-        "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。",
-        "say-mcq-17": "「用另一種方式更清楚解釋剛才內容；也就是說」是「that is to say」的用法，與本句語境不同。"
+        "say-mcq-20": "本句的「say」指「有權表達意見，並可能影響決定」。",
+        "say-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-20"
     },
@@ -2454,11 +2242,9 @@ export default {
       "masked": "Senior management has the ____.",
       "options": [
         "say-mcq-21",
-        "say-mcq-20",
-        "say-mcq-22",
-        "say-mcq-19",
-        "say-mcq-23",
-        "say-mcq-18"
+        "say-mcq-01",
+        "say-mcq-14",
+        "say-mcq-13"
       ],
       "explanation": "本句的「final say」指「對某件事情擁有最後／最高的決定權」。",
       "sentenceIndex": 53,
@@ -2467,12 +2253,10 @@ export default {
         "final say"
       ],
       "optionReasons": {
-        "say-mcq-21": "本句指「對某件事情擁有最後／最高的決定權」。",
-        "say-mcq-20": "「有權表達意見，並可能影響決定」是「have a say」的用法，與本句語境不同。",
-        "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。",
-        "say-mcq-19": "「表示實際情況可能比剛才的描述更強烈」是「to say the least」的用法，與本句語境不同。",
-        "say-mcq-23": "「用來引出常見俗語／諺語」是「as the saying goes」的用法，與本句語境不同。",
-        "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。"
+        "say-mcq-21": "本句的「final say」指「對某件事情擁有最後／最高的決定權」。",
+        "say-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-21"
     },
@@ -2484,11 +2268,9 @@ export default {
       "masked": "The client has the ____ on the design.",
       "options": [
         "say-mcq-21",
-        "say-mcq-20",
-        "say-mcq-22",
-        "say-mcq-19",
-        "say-mcq-23",
-        "say-mcq-18"
+        "say-mcq-12",
+        "say-mcq-08",
+        "say-mcq-31"
       ],
       "explanation": "本句的「final say」指「對某件事情擁有最後／最高的決定權」。",
       "sentenceIndex": 54,
@@ -2497,12 +2279,10 @@ export default {
         "final say"
       ],
       "optionReasons": {
-        "say-mcq-21": "本句指「對某件事情擁有最後／最高的決定權」。",
-        "say-mcq-20": "「有權表達意見，並可能影響決定」是「have a say」的用法，與本句語境不同。",
-        "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。",
-        "say-mcq-19": "「表示實際情況可能比剛才的描述更強烈」是「to say the least」的用法，與本句語境不同。",
-        "say-mcq-23": "「用來引出常見俗語／諺語」是「as the saying goes」的用法，與本句語境不同。",
-        "say-mcq-18": "「後面的事實非常明顯／可預期，因此不用特別說明」是「needless to say」的用法，與本句語境不同。"
+        "say-mcq-21": "本句的「final say」指「對某件事情擁有最後／最高的決定權」。",
+        "say-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-21"
     },
@@ -2514,11 +2294,9 @@ export default {
       "masked": "Everyone should get a ____.",
       "options": [
         "say-mcq-32",
-        "say-mcq-31",
-        "say-mcq-33",
-        "say-mcq-30",
-        "say-mcq-29",
-        "say-mcq-28"
+        "say-mcq-28",
+        "say-mcq-10",
+        "say-pdf-005"
       ],
       "explanation": "本句的「say」指「參與表達意見或作決定的權利／影響力」。",
       "sentenceIndex": 55,
@@ -2527,12 +2305,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-32": "本句指「參與表達意見或作決定的權利／影響力」。",
-        "say-mcq-31": "「以口頭或內心方式念出／進行祈禱」是「15. say a prayer（祈禱） — 禱告；念禱文」的用法，與本句語境不同。",
-        "say-mcq-33": "「表示文字／訊息指示要做某事」是「32. say = command/instruction in reported language（吩咐／要求；特定語境） — 說要；指示」的用法，與本句語境不同。",
-        "say-mcq-30": "「資料、報告或證據傳達／顯示某項結論或資訊」是「11. say = show/indicate information（顯示） — 顯示；表明」的用法，與本句語境不同。",
-        "say-mcq-29": "「某段文字、標誌或文件載有／顯示某項內容」是「10. say = indicate in writing（文字寫著） — 寫著；表示」的用法，與本句語境不同。",
-        "say-mcq-28": "「表示資訊已足夠理解暗示，不必再進一步解釋」是「say no more」的用法，與本句語境不同。"
+        "say-mcq-32": "本句的「say」指「參與表達意見或作決定的權利／影響力」。",
+        "say-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-32"
     },
@@ -2545,10 +2321,8 @@ export default {
       "options": [
         "say-mcq-32",
         "say-mcq-31",
-        "say-mcq-33",
-        "say-mcq-30",
-        "say-mcq-29",
-        "say-mcq-28"
+        "say-mcq-10",
+        "say-mcq-24"
       ],
       "explanation": "本句的「say」指「參與表達意見或作決定的權利／影響力」。",
       "sentenceIndex": 56,
@@ -2557,12 +2331,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-32": "本句指「參與表達意見或作決定的權利／影響力」。",
-        "say-mcq-31": "「以口頭或內心方式念出／進行祈禱」是「15. say a prayer（祈禱） — 禱告；念禱文」的用法，與本句語境不同。",
-        "say-mcq-33": "「表示文字／訊息指示要做某事」是「32. say = command/instruction in reported language（吩咐／要求；特定語境） — 說要；指示」的用法，與本句語境不同。",
-        "say-mcq-30": "「資料、報告或證據傳達／顯示某項結論或資訊」是「11. say = show/indicate information（顯示） — 顯示；表明」的用法，與本句語境不同。",
-        "say-mcq-29": "「某段文字、標誌或文件載有／顯示某項內容」是「10. say = indicate in writing（文字寫著） — 寫著；表示」的用法，與本句語境不同。",
-        "say-mcq-28": "「表示資訊已足夠理解暗示，不必再進一步解釋」是「say no more」的用法，與本句語境不同。"
+        "say-mcq-32": "本句的「say」指「參與表達意見或作決定的權利／影響力」。",
+        "say-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-32"
     },
@@ -2574,11 +2346,9 @@ export default {
       "masked": "There’s an old ____: practice makes perfect.",
       "options": [
         "say-mcq-22",
-        "say-mcq-21",
-        "say-mcq-23",
-        "say-mcq-20",
-        "say-mcq-24",
-        "say-mcq-19"
+        "say-mcq-28",
+        "say-mcq-08",
+        "say-mcq-26"
       ],
       "explanation": "本句的「saying」指「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」。",
       "sentenceIndex": 57,
@@ -2587,12 +2357,10 @@ export default {
         "saying"
       ],
       "optionReasons": {
-        "say-mcq-22": "本句指「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」。",
-        "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。",
-        "say-mcq-23": "「用來引出常見俗語／諺語」是「as the saying goes」的用法，與本句語境不同。",
-        "say-mcq-20": "「有權表達意見，並可能影響決定」是「have a say」的用法，與本句語境不同。",
-        "say-mcq-24": "「某個事實非常明顯、理所當然，不需要特別說明」是「go without saying」的用法，與本句語境不同。",
-        "say-mcq-19": "「表示實際情況可能比剛才的描述更強烈」是「to say the least」的用法，與本句語境不同。"
+        "say-mcq-22": "本句的「saying」指「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」。",
+        "say-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-22"
     },
@@ -2604,11 +2372,9 @@ export default {
       "masked": "Do you know the ____ ‘better late than never’?",
       "options": [
         "say-mcq-22",
-        "say-mcq-21",
-        "say-mcq-23",
-        "say-mcq-20",
-        "say-mcq-24",
-        "say-mcq-19"
+        "say-mcq-29",
+        "say-pdf-003",
+        "say-mcq-06"
       ],
       "explanation": "本句的「saying」指「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」。",
       "sentenceIndex": 58,
@@ -2617,12 +2383,10 @@ export default {
         "saying"
       ],
       "optionReasons": {
-        "say-mcq-22": "本句指「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」。",
-        "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。",
-        "say-mcq-23": "「用來引出常見俗語／諺語」是「as the saying goes」的用法，與本句語境不同。",
-        "say-mcq-20": "「有權表達意見，並可能影響決定」是「have a say」的用法，與本句語境不同。",
-        "say-mcq-24": "「某個事實非常明顯、理所當然，不需要特別說明」是「go without saying」的用法，與本句語境不同。",
-        "say-mcq-19": "「表示實際情況可能比剛才的描述更強烈」是「to say the least」的用法，與本句語境不同。"
+        "say-mcq-22": "本句的「saying」指「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」。",
+        "say-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-22"
     },
@@ -2634,11 +2398,9 @@ export default {
       "masked": "As the ____, practice makes perfect.",
       "options": [
         "say-mcq-23",
-        "say-mcq-22",
-        "say-mcq-24",
-        "say-mcq-21",
-        "say-mcq-25",
-        "say-mcq-20"
+        "say-mcq-29",
+        "say-mcq-14",
+        "say-mcq-16"
       ],
       "explanation": "本句的「saying goes」指「用來引出常見俗語／諺語」。",
       "sentenceIndex": 59,
@@ -2647,12 +2409,10 @@ export default {
         "saying goes"
       ],
       "optionReasons": {
-        "say-mcq-23": "本句指「用來引出常見俗語／諺語」。",
-        "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。",
-        "say-mcq-24": "「某個事實非常明顯、理所當然，不需要特別說明」是「go without saying」的用法，與本句語境不同。",
-        "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。",
-        "say-mcq-25": "「某個行為、結果或事實能間接反映某種特質／情況」是「say something/a lot about」的用法，與本句語境不同。",
-        "say-mcq-20": "「有權表達意見，並可能影響決定」是「have a say」的用法，與本句語境不同。"
+        "say-mcq-23": "本句的「saying goes」指「用來引出常見俗語／諺語」。",
+        "say-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-23"
     },
@@ -2664,11 +2424,9 @@ export default {
       "masked": "As the old ____, nothing ventured, nothing gained.",
       "options": [
         "say-mcq-23",
-        "say-mcq-22",
-        "say-mcq-24",
-        "say-mcq-21",
-        "say-mcq-25",
-        "say-mcq-20"
+        "say-mcq-04",
+        "say-mcq-02",
+        "say-pdf-003"
       ],
       "explanation": "本句的「saying goes」指「用來引出常見俗語／諺語」。",
       "sentenceIndex": 60,
@@ -2677,12 +2435,10 @@ export default {
         "saying goes"
       ],
       "optionReasons": {
-        "say-mcq-23": "本句指「用來引出常見俗語／諺語」。",
-        "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。",
-        "say-mcq-24": "「某個事實非常明顯、理所當然，不需要特別說明」是「go without saying」的用法，與本句語境不同。",
-        "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。",
-        "say-mcq-25": "「某個行為、結果或事實能間接反映某種特質／情況」是「say something/a lot about」的用法，與本句語境不同。",
-        "say-mcq-20": "「有權表達意見，並可能影響決定」是「have a say」的用法，與本句語境不同。"
+        "say-mcq-23": "本句的「saying goes」指「用來引出常見俗語／諺語」。",
+        "say-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-23"
     },
@@ -2694,11 +2450,9 @@ export default {
       "masked": "It ____ that preparation matters.",
       "options": [
         "say-mcq-24",
-        "say-mcq-23",
-        "say-mcq-25",
-        "say-mcq-22",
-        "say-mcq-26",
-        "say-mcq-21"
+        "say-mcq-21",
+        "say-mcq-31",
+        "say-mcq-26"
       ],
       "explanation": "本句的「goes without saying」指「某個事實非常明顯、理所當然，不需要特別說明」。",
       "sentenceIndex": 61,
@@ -2707,12 +2461,10 @@ export default {
         "goes without saying"
       ],
       "optionReasons": {
-        "say-mcq-24": "本句指「某個事實非常明顯、理所當然，不需要特別說明」。",
-        "say-mcq-23": "「用來引出常見俗語／諺語」是「as the saying goes」的用法，與本句語境不同。",
-        "say-mcq-25": "「某個行為、結果或事實能間接反映某種特質／情況」是「say something/a lot about」的用法，與本句語境不同。",
-        "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。",
-        "say-mcq-26": "「詢問對方是否同意某項建議／邀請；你意下如何？」是「what do you say?」的用法，與本句語境不同。",
-        "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。"
+        "say-mcq-24": "本句的「goes without saying」指「某個事實非常明顯、理所當然，不需要特別說明」。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-24"
     },
@@ -2724,11 +2476,9 @@ export default {
       "masked": "It ____ that confidential information should be protected.",
       "options": [
         "say-mcq-24",
-        "say-mcq-23",
-        "say-mcq-25",
-        "say-mcq-22",
-        "say-mcq-26",
-        "say-mcq-21"
+        "say-mcq-31",
+        "say-mcq-32",
+        "say-mcq-26"
       ],
       "explanation": "本句的「goes without saying」指「某個事實非常明顯、理所當然，不需要特別說明」。",
       "sentenceIndex": 62,
@@ -2737,12 +2487,10 @@ export default {
         "goes without saying"
       ],
       "optionReasons": {
-        "say-mcq-24": "本句指「某個事實非常明顯、理所當然，不需要特別說明」。",
-        "say-mcq-23": "「用來引出常見俗語／諺語」是「as the saying goes」的用法，與本句語境不同。",
-        "say-mcq-25": "「某個行為、結果或事實能間接反映某種特質／情況」是「say something/a lot about」的用法，與本句語境不同。",
-        "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。",
-        "say-mcq-26": "「詢問對方是否同意某項建議／邀請；你意下如何？」是「what do you say?」的用法，與本句語境不同。",
-        "say-mcq-21": "「對某件事情擁有最後／最高的決定權」是「have the final say」的用法，與本句語境不同。"
+        "say-mcq-24": "本句的「goes without saying」指「某個事實非常明顯、理所當然，不需要特別說明」。",
+        "say-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-24"
     },
@@ -2754,11 +2502,9 @@ export default {
       "masked": "The email ____ by nine.",
       "options": [
         "say-mcq-33",
-        "say-mcq-32",
-        "say-mcq-31",
-        "say-mcq-30",
-        "say-mcq-29",
-        "say-mcq-28"
+        "say-pdf-004",
+        "say-pdf-003",
+        "say-mcq-08"
       ],
       "explanation": "本句的「said to arrive」指「表示文字／訊息指示要做某事」。",
       "sentenceIndex": 63,
@@ -2767,12 +2513,10 @@ export default {
         "said to arrive"
       ],
       "optionReasons": {
-        "say-mcq-33": "本句指「表示文字／訊息指示要做某事」。",
-        "say-mcq-32": "「參與表達意見或作決定的權利／影響力」是「28. say = opinion/voice in decision-making（發言權） — 意見；決定權」的用法，與本句語境不同。",
-        "say-mcq-31": "「以口頭或內心方式念出／進行祈禱」是「15. say a prayer（祈禱） — 禱告；念禱文」的用法，與本句語境不同。",
-        "say-mcq-30": "「資料、報告或證據傳達／顯示某項結論或資訊」是「11. say = show/indicate information（顯示） — 顯示；表明」的用法，與本句語境不同。",
-        "say-mcq-29": "「某段文字、標誌或文件載有／顯示某項內容」是「10. say = indicate in writing（文字寫著） — 寫著；表示」的用法，與本句語境不同。",
-        "say-mcq-28": "「表示資訊已足夠理解暗示，不必再進一步解釋」是「say no more」的用法，與本句語境不同。"
+        "say-mcq-33": "本句的「said to arrive」指「表示文字／訊息指示要做某事」。",
+        "say-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-33"
     },
@@ -2784,11 +2528,9 @@ export default {
       "masked": "The instructions ____ this button.",
       "options": [
         "say-mcq-33",
-        "say-mcq-32",
-        "say-mcq-31",
-        "say-mcq-30",
-        "say-mcq-29",
-        "say-mcq-28"
+        "say-pdf-005",
+        "say-mcq-27",
+        "say-mcq-22"
       ],
       "explanation": "本句的「say to press」指「表示文字／訊息指示要做某事」。",
       "sentenceIndex": 64,
@@ -2797,12 +2539,10 @@ export default {
         "say to press"
       ],
       "optionReasons": {
-        "say-mcq-33": "本句指「表示文字／訊息指示要做某事」。",
-        "say-mcq-32": "「參與表達意見或作決定的權利／影響力」是「28. say = opinion/voice in decision-making（發言權） — 意見；決定權」的用法，與本句語境不同。",
-        "say-mcq-31": "「以口頭或內心方式念出／進行祈禱」是「15. say a prayer（祈禱） — 禱告；念禱文」的用法，與本句語境不同。",
-        "say-mcq-30": "「資料、報告或證據傳達／顯示某項結論或資訊」是「11. say = show/indicate information（顯示） — 顯示；表明」的用法，與本句語境不同。",
-        "say-mcq-29": "「某段文字、標誌或文件載有／顯示某項內容」是「10. say = indicate in writing（文字寫著） — 寫著；表示」的用法，與本句語境不同。",
-        "say-mcq-28": "「表示資訊已足夠理解暗示，不必再進一步解釋」是「say no more」的用法，與本句語境不同。"
+        "say-mcq-33": "本句的「say to press」指「表示文字／訊息指示要做某事」。",
+        "say-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-33"
     },
@@ -2814,11 +2554,9 @@ export default {
       "masked": "What does that ____ the company culture?",
       "options": [
         "say-pdf-005",
-        "say-mcq-24",
-        "say-mcq-26",
-        "say-mcq-23",
-        "say-mcq-27",
-        "say-mcq-22"
+        "say-mcq-19",
+        "say-mcq-16",
+        "say-mcq-02"
       ],
       "explanation": "本句的「say about」指「某件事反映、顯示或透露 X 的特徵／情況」。",
       "sentenceIndex": 65,
@@ -2827,12 +2565,10 @@ export default {
         "say about"
       ],
       "optionReasons": {
-        "say-pdf-005": "本句指「某件事反映、顯示或透露 X 的特徵／情況」。",
-        "say-mcq-24": "「某個事實非常明顯、理所當然，不需要特別說明」是「go without saying」的用法，與本句語境不同。",
-        "say-mcq-26": "「詢問對方是否同意某項建議／邀請；你意下如何？」是「what do you say?」的用法，與本句語境不同。",
-        "say-mcq-23": "「用來引出常見俗語／諺語」是「as the saying goes」的用法，與本句語境不同。",
-        "say-mcq-27": "「用來引出自己想特別強調的意見或反應」是「I must/have to say」的用法，與本句語境不同。",
-        "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。"
+        "say-pdf-005": "本句的「say about」指「某件事反映、顯示或透露 X 的特徵／情況」。",
+        "say-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-pdf-005"
     },
@@ -2844,11 +2580,9 @@ export default {
       "masked": "His reaction ____ his character.",
       "options": [
         "say-pdf-005",
-        "say-mcq-24",
-        "say-mcq-26",
-        "say-mcq-23",
-        "say-mcq-27",
-        "say-mcq-22"
+        "say-mcq-22",
+        "say-pdf-001",
+        "say-mcq-02"
       ],
       "explanation": "本句的「says a lot about」指「某件事反映、顯示或透露 X 的特徵／情況」。",
       "sentenceIndex": 66,
@@ -2857,12 +2591,10 @@ export default {
         "says a lot about"
       ],
       "optionReasons": {
-        "say-pdf-005": "本句指「某件事反映、顯示或透露 X 的特徵／情況」。",
-        "say-mcq-24": "「某個事實非常明顯、理所當然，不需要特別說明」是「go without saying」的用法，與本句語境不同。",
-        "say-mcq-26": "「詢問對方是否同意某項建議／邀請；你意下如何？」是「what do you say?」的用法，與本句語境不同。",
-        "say-mcq-23": "「用來引出常見俗語／諺語」是「as the saying goes」的用法，與本句語境不同。",
-        "say-mcq-27": "「用來引出自己想特別強調的意見或反應」是「I must/have to say」的用法，與本句語境不同。",
-        "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。"
+        "say-pdf-005": "本句的「says a lot about」指「某件事反映、顯示或透露 X 的特徵／情況」。",
+        "say-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-pdf-005"
     },
@@ -2874,11 +2606,9 @@ export default {
       "masked": "Her calm response ____ her confidence.",
       "options": [
         "say-mcq-25",
-        "say-mcq-24",
-        "say-mcq-26",
-        "say-mcq-23",
-        "say-mcq-27",
-        "say-mcq-22"
+        "say-mcq-07",
+        "say-mcq-32",
+        "say-mcq-23"
       ],
       "explanation": "本句的「says a lot about」指「某個行為、結果或事實能間接反映某種特質／情況」。",
       "sentenceIndex": 67,
@@ -2887,12 +2617,10 @@ export default {
         "says a lot about"
       ],
       "optionReasons": {
-        "say-mcq-25": "本句指「某個行為、結果或事實能間接反映某種特質／情況」。",
-        "say-mcq-24": "「某個事實非常明顯、理所當然，不需要特別說明」是「go without saying」的用法，與本句語境不同。",
-        "say-mcq-26": "「詢問對方是否同意某項建議／邀請；你意下如何？」是「what do you say?」的用法，與本句語境不同。",
-        "say-mcq-23": "「用來引出常見俗語／諺語」是「as the saying goes」的用法，與本句語境不同。",
-        "say-mcq-27": "「用來引出自己想特別強調的意見或反應」是「I must/have to say」的用法，與本句語境不同。",
-        "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。"
+        "say-mcq-25": "本句的「says a lot about」指「某個行為、結果或事實能間接反映某種特質／情況」。",
+        "say-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-25"
     },
@@ -2904,11 +2632,9 @@ export default {
       "masked": "The result ____ the quality of the preparation.",
       "options": [
         "say-mcq-25",
-        "say-mcq-24",
+        "say-mcq-21",
         "say-mcq-26",
-        "say-mcq-23",
-        "say-mcq-27",
-        "say-mcq-22"
+        "say-pdf-003"
       ],
       "explanation": "本句的「says something about」指「某個行為、結果或事實能間接反映某種特質／情況」。",
       "sentenceIndex": 68,
@@ -2917,12 +2643,10 @@ export default {
         "says something about"
       ],
       "optionReasons": {
-        "say-mcq-25": "本句指「某個行為、結果或事實能間接反映某種特質／情況」。",
-        "say-mcq-24": "「某個事實非常明顯、理所當然，不需要特別說明」是「go without saying」的用法，與本句語境不同。",
-        "say-mcq-26": "「詢問對方是否同意某項建議／邀請；你意下如何？」是「what do you say?」的用法，與本句語境不同。",
-        "say-mcq-23": "「用來引出常見俗語／諺語」是「as the saying goes」的用法，與本句語境不同。",
-        "say-mcq-27": "「用來引出自己想特別強調的意見或反應」是「I must/have to say」的用法，與本句語境不同。",
-        "say-mcq-22": "「人們經常引用、通常表達普遍觀察或生活智慧的固定說法」是「a saying」的用法，與本句語境不同。"
+        "say-mcq-25": "本句的「says something about」指「某個行為、結果或事實能間接反映某種特質／情況」。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-25"
     },
@@ -2934,11 +2658,9 @@ export default {
       "masked": "____ you make a mistake halfway through—what then?",
       "options": [
         "say-mcq-08",
-        "say-mcq-07",
-        "say-mcq-09",
-        "say-mcq-06",
-        "say-mcq-10",
-        "say-mcq-05"
+        "say-mcq-16",
+        "say-mcq-03",
+        "say-pdf-005"
       ],
       "explanation": "本句的「Say」指「提出假設情況，方便繼續討論、估算或舉例」。",
       "sentenceIndex": 69,
@@ -2947,12 +2669,10 @@ export default {
         "Say"
       ],
       "optionReasons": {
-        "say-mcq-08": "本句指「提出假設情況，方便繼續討論、估算或舉例」。",
-        "say-mcq-07": "「提出一個大概數字、例子或估算，而非精確指定」是「say — approximately」的用法，與本句語境不同。",
-        "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。",
-        "say-mcq-10": "「把某個詞、名稱或短語用聲音說出來」是「say a word/name」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。"
+        "say-mcq-08": "本句的「Say」指「提出假設情況，方便繼續討論、估算或舉例」。",
+        "say-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-08"
     },
@@ -2964,11 +2684,9 @@ export default {
       "masked": "____ the audience is larger than expected.",
       "options": [
         "say-mcq-08",
-        "say-mcq-07",
-        "say-mcq-09",
-        "say-mcq-06",
-        "say-mcq-10",
-        "say-mcq-05"
+        "say-mcq-17",
+        "say-mcq-24",
+        "say-mcq-22"
       ],
       "explanation": "本句的「Say」指「提出假設情況，方便繼續討論、估算或舉例」。",
       "sentenceIndex": 70,
@@ -2977,12 +2695,10 @@ export default {
         "Say"
       ],
       "optionReasons": {
-        "say-mcq-08": "本句指「提出假設情況，方便繼續討論、估算或舉例」。",
-        "say-mcq-07": "「提出一個大概數字、例子或估算，而非精確指定」是「say — approximately」的用法，與本句語境不同。",
-        "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。",
-        "say-mcq-10": "「把某個詞、名稱或短語用聲音說出來」是「say a word/name」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。"
+        "say-mcq-08": "本句的「Say」指「提出假設情況，方便繼續討論、估算或舉例」。",
+        "say-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-08"
     },
@@ -2994,11 +2710,9 @@ export default {
       "masked": "Give yourself, ____, twenty minutes to practise.",
       "options": [
         "say-mcq-07",
-        "say-mcq-06",
-        "say-mcq-08",
         "say-mcq-05",
-        "say-mcq-09",
-        "say-mcq-04"
+        "say-mcq-16",
+        "say-pdf-003"
       ],
       "explanation": "本句的「say」指「提出一個大概數字、例子或估算，而非精確指定」。",
       "sentenceIndex": 71,
@@ -3007,12 +2721,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-07": "本句指「提出一個大概數字、例子或估算，而非精確指定」。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。",
-        "say-mcq-08": "「提出假設情況，方便繼續討論、估算或舉例」是「let’s say」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
-        "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。",
-        "say-mcq-04": "「把某段具體內容說給某人聽」是「say something to someone」的用法，與本句語境不同。"
+        "say-mcq-07": "本句的「say」指「提出一個大概數字、例子或估算，而非精確指定」。",
+        "say-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "say-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-07"
     },
@@ -3024,11 +2736,9 @@ export default {
       "masked": "We need, ____, three examples.",
       "options": [
         "say-mcq-07",
-        "say-mcq-06",
-        "say-mcq-08",
-        "say-mcq-05",
-        "say-mcq-09",
-        "say-mcq-04"
+        "say-mcq-30",
+        "say-mcq-16",
+        "say-mcq-14"
       ],
       "explanation": "本句的「say」指「提出一個大概數字、例子或估算，而非精確指定」。",
       "sentenceIndex": 72,
@@ -3037,12 +2747,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-07": "本句指「提出一個大概數字、例子或估算，而非精確指定」。",
-        "say-mcq-06": "「以較委婉方式提出個人意見、判斷或估計」是「I’d say」的用法，與本句語境不同。",
-        "say-mcq-08": "「提出假設情況，方便繼續討論、估算或舉例」是「let’s say」的用法，與本句語境不同。",
-        "say-mcq-05": "「表達自己的判斷、看法或評價」是「say — opinion」的用法，與本句語境不同。",
-        "say-mcq-09": "「某段文字、標誌、文件或資料載有／顯示某項內容」是「sign/email/report says」的用法，與本句語境不同。",
-        "say-mcq-04": "「把某段具體內容說給某人聽」是「say something to someone」的用法，與本句語境不同。"
+        "say-mcq-07": "本句的「say」指「提出一個大概數字、例子或估算，而非精確指定」。",
+        "say-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-07"
     },
@@ -3054,11 +2762,9 @@ export default {
       "masked": "Shall we practise once more? What do you ____?",
       "options": [
         "say-mcq-26",
-        "say-mcq-25",
-        "say-mcq-27",
-        "say-mcq-24",
-        "say-mcq-28",
-        "say-mcq-23"
+        "say-mcq-18",
+        "say-mcq-08",
+        "say-mcq-33"
       ],
       "explanation": "本句的「say」指「詢問對方是否同意某項建議／邀請；你意下如何？」。",
       "sentenceIndex": 73,
@@ -3067,12 +2773,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-26": "本句指「詢問對方是否同意某項建議／邀請；你意下如何？」。",
-        "say-mcq-25": "「某個行為、結果或事實能間接反映某種特質／情況」是「say something/a lot about」的用法，與本句語境不同。",
-        "say-mcq-27": "「用來引出自己想特別強調的意見或反應」是「I must/have to say」的用法，與本句語境不同。",
-        "say-mcq-24": "「某個事實非常明顯、理所當然，不需要特別說明」是「go without saying」的用法，與本句語境不同。",
-        "say-mcq-28": "「表示資訊已足夠理解暗示，不必再進一步解釋」是「say no more」的用法，與本句語境不同。",
-        "say-mcq-23": "「用來引出常見俗語／諺語」是「as the saying goes」的用法，與本句語境不同。"
+        "say-mcq-26": "本句的「say」指「詢問對方是否同意某項建議／邀請；你意下如何？」。",
+        "say-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-26"
     },
@@ -3084,11 +2788,9 @@ export default {
       "masked": "Let’s take a break. What do you ____?",
       "options": [
         "say-mcq-26",
-        "say-mcq-25",
-        "say-mcq-27",
-        "say-mcq-24",
-        "say-mcq-28",
-        "say-mcq-23"
+        "say-mcq-13",
+        "say-mcq-23",
+        "say-mcq-19"
       ],
       "explanation": "本句的「say」指「詢問對方是否同意某項建議／邀請；你意下如何？」。",
       "sentenceIndex": 74,
@@ -3097,12 +2799,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-26": "本句指「詢問對方是否同意某項建議／邀請；你意下如何？」。",
-        "say-mcq-25": "「某個行為、結果或事實能間接反映某種特質／情況」是「say something/a lot about」的用法，與本句語境不同。",
-        "say-mcq-27": "「用來引出自己想特別強調的意見或反應」是「I must/have to say」的用法，與本句語境不同。",
-        "say-mcq-24": "「某個事實非常明顯、理所當然，不需要特別說明」是「go without saying」的用法，與本句語境不同。",
-        "say-mcq-28": "「表示資訊已足夠理解暗示，不必再進一步解釋」是「say no more」的用法，與本句語境不同。",
-        "say-mcq-23": "「用來引出常見俗語／諺語」是「as the saying goes」的用法，與本句語境不同。"
+        "say-mcq-26": "本句的「say」指「詢問對方是否同意某項建議／邀請；你意下如何？」。",
+        "say-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-26"
     },
@@ -3114,11 +2814,9 @@ export default {
       "masked": "I must ____, you handled the situation very well.",
       "options": [
         "say-mcq-27",
-        "say-mcq-26",
         "say-mcq-28",
-        "say-mcq-25",
-        "say-mcq-29",
-        "say-mcq-24"
+        "say-mcq-21",
+        "say-mcq-26"
       ],
       "explanation": "本句的「say」指「用來引出自己想特別強調的意見或反應」。",
       "sentenceIndex": 75,
@@ -3127,12 +2825,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-27": "本句指「用來引出自己想特別強調的意見或反應」。",
-        "say-mcq-26": "「詢問對方是否同意某項建議／邀請；你意下如何？」是「what do you say?」的用法，與本句語境不同。",
-        "say-mcq-28": "「表示資訊已足夠理解暗示，不必再進一步解釋」是「say no more」的用法，與本句語境不同。",
-        "say-mcq-25": "「某個行為、結果或事實能間接反映某種特質／情況」是「say something/a lot about」的用法，與本句語境不同。",
-        "say-mcq-29": "「某段文字、標誌或文件載有／顯示某項內容」是「10. say = indicate in writing（文字寫著） — 寫著；表示」的用法，與本句語境不同。",
-        "say-mcq-24": "「某個事實非常明顯、理所當然，不需要特別說明」是「go without saying」的用法，與本句語境不同。"
+        "say-mcq-27": "本句的「say」指「用來引出自己想特別強調的意見或反應」。",
+        "say-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-27"
     },
@@ -3144,11 +2840,9 @@ export default {
       "masked": "I have to ____, I was impressed.",
       "options": [
         "say-mcq-27",
-        "say-mcq-26",
-        "say-mcq-28",
-        "say-mcq-25",
-        "say-mcq-29",
-        "say-mcq-24"
+        "say-mcq-30",
+        "say-mcq-16",
+        "say-mcq-21"
       ],
       "explanation": "本句的「say」指「用來引出自己想特別強調的意見或反應」。",
       "sentenceIndex": 76,
@@ -3157,12 +2851,10 @@ export default {
         "say"
       ],
       "optionReasons": {
-        "say-mcq-27": "本句指「用來引出自己想特別強調的意見或反應」。",
-        "say-mcq-26": "「詢問對方是否同意某項建議／邀請；你意下如何？」是「what do you say?」的用法，與本句語境不同。",
-        "say-mcq-28": "「表示資訊已足夠理解暗示，不必再進一步解釋」是「say no more」的用法，與本句語境不同。",
-        "say-mcq-25": "「某個行為、結果或事實能間接反映某種特質／情況」是「say something/a lot about」的用法，與本句語境不同。",
-        "say-mcq-29": "「某段文字、標誌或文件載有／顯示某項內容」是「10. say = indicate in writing（文字寫著） — 寫著；表示」的用法，與本句語境不同。",
-        "say-mcq-24": "「某個事實非常明顯、理所當然，不需要特別說明」是「go without saying」的用法，與本句語境不同。"
+        "say-mcq-27": "本句的「say」指「用來引出自己想特別強調的意見或反應」。",
+        "say-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-27"
     },
@@ -3174,11 +2866,9 @@ export default {
       "masked": "____",
       "options": [
         "say-mcq-28",
-        "say-mcq-27",
-        "say-mcq-29",
-        "say-mcq-26",
-        "say-mcq-30",
-        "say-mcq-25"
+        "say-pdf-005",
+        "say-mcq-32",
+        "say-mcq-23"
       ],
       "explanation": "本句的「Say no more.」指「表示資訊已足夠理解暗示，不必再進一步解釋」。",
       "sentenceIndex": 77,
@@ -3187,12 +2877,10 @@ export default {
         "Say no more."
       ],
       "optionReasons": {
-        "say-mcq-28": "本句指「表示資訊已足夠理解暗示，不必再進一步解釋」。",
-        "say-mcq-27": "「用來引出自己想特別強調的意見或反應」是「I must/have to say」的用法，與本句語境不同。",
-        "say-mcq-29": "「某段文字、標誌或文件載有／顯示某項內容」是「10. say = indicate in writing（文字寫著） — 寫著；表示」的用法，與本句語境不同。",
-        "say-mcq-26": "「詢問對方是否同意某項建議／邀請；你意下如何？」是「what do you say?」的用法，與本句語境不同。",
-        "say-mcq-30": "「資料、報告或證據傳達／顯示某項結論或資訊」是「11. say = show/indicate information（顯示） — 顯示；表明」的用法，與本句語境不同。",
-        "say-mcq-25": "「某個行為、結果或事實能間接反映某種特質／情況」是「say something/a lot about」的用法，與本句語境不同。"
+        "say-mcq-28": "本句的「Say no more.」指「表示資訊已足夠理解暗示，不必再進一步解釋」。",
+        "say-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-28"
     },
@@ -3204,11 +2892,9 @@ export default {
       "masked": "____",
       "options": [
         "say-mcq-28",
-        "say-mcq-27",
-        "say-mcq-29",
-        "say-mcq-26",
-        "say-mcq-30",
-        "say-mcq-25"
+        "say-mcq-22",
+        "say-mcq-19",
+        "say-mcq-06"
       ],
       "explanation": "本句的「Say no more.」指「表示資訊已足夠理解暗示，不必再進一步解釋」。",
       "sentenceIndex": 78,
@@ -3217,12 +2903,10 @@ export default {
         "Say no more."
       ],
       "optionReasons": {
-        "say-mcq-28": "本句指「表示資訊已足夠理解暗示，不必再進一步解釋」。",
-        "say-mcq-27": "「用來引出自己想特別強調的意見或反應」是「I must/have to say」的用法，與本句語境不同。",
-        "say-mcq-29": "「某段文字、標誌或文件載有／顯示某項內容」是「10. say = indicate in writing（文字寫著） — 寫著；表示」的用法，與本句語境不同。",
-        "say-mcq-26": "「詢問對方是否同意某項建議／邀請；你意下如何？」是「what do you say?」的用法，與本句語境不同。",
-        "say-mcq-30": "「資料、報告或證據傳達／顯示某項結論或資訊」是「11. say = show/indicate information（顯示） — 顯示；表明」的用法，與本句語境不同。",
-        "say-mcq-25": "「某個行為、結果或事實能間接反映某種特質／情況」是「say something/a lot about」的用法，與本句語境不同。"
+        "say-mcq-28": "本句的「Say no more.」指「表示資訊已足夠理解暗示，不必再進一步解釋」。",
+        "say-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "say-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "say-mcq-28"
     }
@@ -3234,5 +2918,7 @@ export default {
     "sha256": "3093bcb62f7cb503313f3444c4645e8928977d7b50db652270ac76253091b4e8",
     "pages": 32
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -580,11 +580,9 @@ export default {
       "masked": "The teacher ____ before the trip.",
       "options": [
         "gather-mcq-01",
-        "gather-mcq-02",
-        "gather-mcq-03",
-        "gather-mcq-04",
-        "gather-mcq-05",
-        "gather-mcq-06"
+        "gather-mcq-11",
+        "gather-mcq-14",
+        "gather-mcq-17"
       ],
       "explanation": "本句的「gathered the students together」指「人群聚集」。",
       "sentenceIndex": 0,
@@ -593,12 +591,10 @@ export default {
         "gathered the students together"
       ],
       "optionReasons": {
-        "gather-mcq-01": "本句指「人群聚集」。",
-        "gather-mcq-02": "「召集人群」是「gather people together」的用法，與本句語境不同。",
-        "gather-mcq-03": "「圍聚」是「gather around」的用法，與本句語境不同。",
-        "gather-mcq-04": "「收集；集中」是「gather things together」的用法，與本句語境不同。",
-        "gather-mcq-05": "「採集；採摘」是「gather flowers/fruit」的用法，與本句語境不同。",
-        "gather-mcq-06": "「蒐集資料」是「gather information」的用法，與本句語境不同。"
+        "gather-mcq-01": "本句的「gathered the students together」指「人群聚集」。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-01"
     },
@@ -610,11 +606,9 @@ export default {
       "masked": "She ____ for a family photo.",
       "options": [
         "gather-mcq-01",
-        "gather-mcq-02",
-        "gather-mcq-03",
-        "gather-mcq-04",
-        "gather-mcq-05",
-        "gather-mcq-06"
+        "gather-mcq-17",
+        "gather-mcq-08",
+        "gather-mcq-11"
       ],
       "explanation": "本句的「gathered everyone together」指「人群聚集」。",
       "sentenceIndex": 1,
@@ -623,12 +617,10 @@ export default {
         "gathered everyone together"
       ],
       "optionReasons": {
-        "gather-mcq-01": "本句指「人群聚集」。",
-        "gather-mcq-02": "「召集人群」是「gather people together」的用法，與本句語境不同。",
-        "gather-mcq-03": "「圍聚」是「gather around」的用法，與本句語境不同。",
-        "gather-mcq-04": "「收集；集中」是「gather things together」的用法，與本句語境不同。",
-        "gather-mcq-05": "「採集；採摘」是「gather flowers/fruit」的用法，與本句語境不同。",
-        "gather-mcq-06": "「蒐集資料」是「gather information」的用法，與本句語境不同。"
+        "gather-mcq-01": "本句的「gathered everyone together」指「人群聚集」。",
+        "gather-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-01"
     },
@@ -640,11 +632,9 @@ export default {
       "masked": "A crowd ____ outside the building.",
       "options": [
         "gather-mcq-01",
-        "gather-mcq-02",
-        "gather-mcq-03",
-        "gather-mcq-04",
-        "gather-mcq-05",
-        "gather-mcq-06"
+        "gather-mcq-09",
+        "gather-mcq-23",
+        "gather-mcq-13"
       ],
       "explanation": "本句的「gathered」指「人群聚集」。",
       "sentenceIndex": 2,
@@ -653,12 +643,10 @@ export default {
         "gathered"
       ],
       "optionReasons": {
-        "gather-mcq-01": "本句指「人群聚集」。",
-        "gather-mcq-02": "「召集人群」是「gather people together」的用法，與本句語境不同。",
-        "gather-mcq-03": "「圍聚」是「gather around」的用法，與本句語境不同。",
-        "gather-mcq-04": "「收集；集中」是「gather things together」的用法，與本句語境不同。",
-        "gather-mcq-05": "「採集；採摘」是「gather flowers/fruit」的用法，與本句語境不同。",
-        "gather-mcq-06": "「蒐集資料」是「gather information」的用法，與本句語境不同。"
+        "gather-mcq-01": "本句的「gathered」指「人群聚集」。",
+        "gather-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-01"
     },
@@ -670,11 +658,9 @@ export default {
       "masked": "The family ____ around the table for dinner.",
       "options": [
         "gather-mcq-01",
-        "gather-mcq-02",
-        "gather-mcq-03",
-        "gather-mcq-04",
-        "gather-mcq-05",
-        "gather-mcq-06"
+        "gather-mcq-11",
+        "gather-mcq-09",
+        "gather-mcq-13"
       ],
       "explanation": "本句的「gathered」指「人群聚集」。",
       "sentenceIndex": 3,
@@ -683,12 +669,10 @@ export default {
         "gathered"
       ],
       "optionReasons": {
-        "gather-mcq-01": "本句指「人群聚集」。",
-        "gather-mcq-02": "「召集人群」是「gather people together」的用法，與本句語境不同。",
-        "gather-mcq-03": "「圍聚」是「gather around」的用法，與本句語境不同。",
-        "gather-mcq-04": "「收集；集中」是「gather things together」的用法，與本句語境不同。",
-        "gather-mcq-05": "「採集；採摘」是「gather flowers/fruit」的用法，與本句語境不同。",
-        "gather-mcq-06": "「蒐集資料」是「gather information」的用法，與本句語境不同。"
+        "gather-mcq-01": "本句的「gathered」指「人群聚集」。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-01"
     },
@@ -700,11 +684,9 @@ export default {
       "masked": "The children ____ the teacher.",
       "options": [
         "gather-mcq-03",
-        "gather-mcq-02",
-        "gather-mcq-04",
-        "gather-mcq-01",
-        "gather-mcq-05",
-        "gather-mcq-06"
+        "gather-mcq-26",
+        "gather-mcq-12",
+        "gather-mcq-25"
       ],
       "explanation": "本句的「gathered around」指「圍聚」。",
       "sentenceIndex": 4,
@@ -713,12 +695,10 @@ export default {
         "gathered around"
       ],
       "optionReasons": {
-        "gather-mcq-03": "本句指「圍聚」。",
-        "gather-mcq-02": "「召集人群」是「gather people together」的用法，與本句語境不同。",
-        "gather-mcq-04": "「收集；集中」是「gather things together」的用法，與本句語境不同。",
-        "gather-mcq-01": "「人群聚集」是「people gather」的用法，與本句語境不同。",
-        "gather-mcq-05": "「採集；採摘」是「gather flowers/fruit」的用法，與本句語境不同。",
-        "gather-mcq-06": "「蒐集資料」是「gather information」的用法，與本句語境不同。"
+        "gather-mcq-03": "本句的「gathered around」指「圍聚」。",
+        "gather-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-03"
     },
@@ -730,11 +710,9 @@ export default {
       "masked": "Everyone ____ the cake.",
       "options": [
         "gather-mcq-03",
-        "gather-mcq-02",
-        "gather-mcq-04",
-        "gather-mcq-01",
-        "gather-mcq-05",
-        "gather-mcq-06"
+        "gather-mcq-26",
+        "gather-mcq-09",
+        "gather-mcq-23"
       ],
       "explanation": "本句的「gathered around」指「圍聚」。",
       "sentenceIndex": 5,
@@ -743,12 +721,10 @@ export default {
         "gathered around"
       ],
       "optionReasons": {
-        "gather-mcq-03": "本句指「圍聚」。",
-        "gather-mcq-02": "「召集人群」是「gather people together」的用法，與本句語境不同。",
-        "gather-mcq-04": "「收集；集中」是「gather things together」的用法，與本句語境不同。",
-        "gather-mcq-01": "「人群聚集」是「people gather」的用法，與本句語境不同。",
-        "gather-mcq-05": "「採集；採摘」是「gather flowers/fruit」的用法，與本句語境不同。",
-        "gather-mcq-06": "「蒐集資料」是「gather information」的用法，與本句語境不同。"
+        "gather-mcq-03": "本句的「gathered around」指「圍聚」。",
+        "gather-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-03"
     },
@@ -760,11 +736,9 @@ export default {
       "masked": "She ____ and left the room.",
       "options": [
         "gather-mcq-04",
-        "gather-mcq-03",
-        "gather-mcq-05",
-        "gather-mcq-02",
-        "gather-mcq-06",
-        "gather-mcq-01"
+        "gather-mcq-11",
+        "gather-mcq-09",
+        "gather-mcq-19"
       ],
       "explanation": "本句的「gathered her books together」指「收集；集中」。",
       "sentenceIndex": 6,
@@ -773,12 +747,10 @@ export default {
         "gathered her books together"
       ],
       "optionReasons": {
-        "gather-mcq-04": "本句指「收集；集中」。",
-        "gather-mcq-03": "「圍聚」是「gather around」的用法，與本句語境不同。",
-        "gather-mcq-05": "「採集；採摘」是「gather flowers/fruit」的用法，與本句語境不同。",
-        "gather-mcq-02": "「召集人群」是「gather people together」的用法，與本句語境不同。",
-        "gather-mcq-06": "「蒐集資料」是「gather information」的用法，與本句語境不同。",
-        "gather-mcq-01": "「人群聚集」是「people gather」的用法，與本句語境不同。"
+        "gather-mcq-04": "本句的「gathered her books together」指「收集；集中」。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-04"
     },
@@ -791,10 +763,8 @@ export default {
       "options": [
         "gather-mcq-04",
         "gather-mcq-03",
-        "gather-mcq-05",
-        "gather-mcq-02",
-        "gather-mcq-06",
-        "gather-mcq-01"
+        "gather-mcq-09",
+        "gather-mcq-11"
       ],
       "explanation": "本句的「gathered all the documents together」指「收集；集中」。",
       "sentenceIndex": 7,
@@ -803,12 +773,10 @@ export default {
         "gathered all the documents together"
       ],
       "optionReasons": {
-        "gather-mcq-04": "本句指「收集；集中」。",
-        "gather-mcq-03": "「圍聚」是「gather around」的用法，與本句語境不同。",
-        "gather-mcq-05": "「採集；採摘」是「gather flowers/fruit」的用法，與本句語境不同。",
-        "gather-mcq-02": "「召集人群」是「gather people together」的用法，與本句語境不同。",
-        "gather-mcq-06": "「蒐集資料」是「gather information」的用法，與本句語境不同。",
-        "gather-mcq-01": "「人群聚集」是「people gather」的用法，與本句語境不同。"
+        "gather-mcq-04": "本句的「gathered all the documents together」指「收集；集中」。",
+        "gather-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-04"
     },
@@ -820,11 +788,9 @@ export default {
       "masked": "The children ____ in the field.",
       "options": [
         "gather-mcq-05",
-        "gather-mcq-04",
-        "gather-mcq-06",
-        "gather-mcq-03",
-        "gather-mcq-07",
-        "gather-mcq-02"
+        "gather-mcq-19",
+        "gather-mcq-15",
+        "gather-mcq-14"
       ],
       "explanation": "本句的「gathered wild flowers」指「採集；採摘」。",
       "sentenceIndex": 8,
@@ -833,12 +799,10 @@ export default {
         "gathered wild flowers"
       ],
       "optionReasons": {
-        "gather-mcq-05": "本句指「採集；採摘」。",
-        "gather-mcq-04": "「收集；集中」是「gather things together」的用法，與本句語境不同。",
-        "gather-mcq-06": "「蒐集資料」是「gather information」的用法，與本句語境不同。",
-        "gather-mcq-03": "「圍聚」是「gather around」的用法，與本句語境不同。",
-        "gather-mcq-07": "「蒐集證據」是「gather evidence」的用法，與本句語境不同。",
-        "gather-mcq-02": "「召集人群」是「gather people together」的用法，與本句語境不同。"
+        "gather-mcq-05": "本句的「gathered wild flowers」指「採集；採摘」。",
+        "gather-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-05"
     },
@@ -850,11 +814,9 @@ export default {
       "masked": "Farmers were ____ before the rain arrived.",
       "options": [
         "gather-mcq-05",
-        "gather-mcq-04",
-        "gather-mcq-06",
-        "gather-mcq-03",
-        "gather-mcq-07",
-        "gather-mcq-02"
+        "gather-mcq-12",
+        "gather-mcq-14",
+        "gather-mcq-15"
       ],
       "explanation": "本句的「gathering the harvest」指「採集；採摘」。",
       "sentenceIndex": 9,
@@ -863,12 +825,10 @@ export default {
         "gathering the harvest"
       ],
       "optionReasons": {
-        "gather-mcq-05": "本句指「採集；採摘」。",
-        "gather-mcq-04": "「收集；集中」是「gather things together」的用法，與本句語境不同。",
-        "gather-mcq-06": "「蒐集資料」是「gather information」的用法，與本句語境不同。",
-        "gather-mcq-03": "「圍聚」是「gather around」的用法，與本句語境不同。",
-        "gather-mcq-07": "「蒐集證據」是「gather evidence」的用法，與本句語境不同。",
-        "gather-mcq-02": "「召集人群」是「gather people together」的用法，與本句語境不同。"
+        "gather-mcq-05": "本句的「gathering the harvest」指「採集；採摘」。",
+        "gather-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-05"
     },
@@ -880,11 +840,9 @@ export default {
       "masked": "The police are ____.",
       "options": [
         "gather-mcq-06",
-        "gather-mcq-05",
-        "gather-mcq-07",
-        "gather-mcq-04",
-        "gather-mcq-08",
-        "gather-mcq-03"
+        "gather-mcq-12",
+        "gather-mcq-19",
+        "gather-mcq-09"
       ],
       "explanation": "本句的「gathering evidence」指「蒐集資料」。",
       "sentenceIndex": 10,
@@ -893,12 +851,10 @@ export default {
         "gathering evidence"
       ],
       "optionReasons": {
-        "gather-mcq-06": "本句指「蒐集資料」。",
-        "gather-mcq-05": "「採集；採摘」是「gather flowers/fruit」的用法，與本句語境不同。",
-        "gather-mcq-07": "「蒐集證據」是「gather evidence」的用法，與本句語境不同。",
-        "gather-mcq-04": "「收集；集中」是「gather things together」的用法，與本句語境不同。",
-        "gather-mcq-08": "「據了解；推斷」是「gather that...」的用法，與本句語境不同。",
-        "gather-mcq-03": "「圍聚」是「gather around」的用法，與本句語境不同。"
+        "gather-mcq-06": "本句的「gathering evidence」指「蒐集資料」。",
+        "gather-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-06"
     },
@@ -910,11 +866,9 @@ export default {
       "masked": "We need to ____ before making a decision.",
       "options": [
         "gather-mcq-06",
-        "gather-mcq-05",
-        "gather-mcq-07",
-        "gather-mcq-04",
-        "gather-mcq-08",
-        "gather-mcq-03"
+        "gather-mcq-20",
+        "gather-mcq-14",
+        "gather-mcq-13"
       ],
       "explanation": "本句的「gather more information」指「蒐集資料」。",
       "sentenceIndex": 11,
@@ -923,12 +877,10 @@ export default {
         "gather more information"
       ],
       "optionReasons": {
-        "gather-mcq-06": "本句指「蒐集資料」。",
-        "gather-mcq-05": "「採集；採摘」是「gather flowers/fruit」的用法，與本句語境不同。",
-        "gather-mcq-07": "「蒐集證據」是「gather evidence」的用法，與本句語境不同。",
-        "gather-mcq-04": "「收集；集中」是「gather things together」的用法，與本句語境不同。",
-        "gather-mcq-08": "「據了解；推斷」是「gather that...」的用法，與本句語境不同。",
-        "gather-mcq-03": "「圍聚」是「gather around」的用法，與本句語境不同。"
+        "gather-mcq-06": "本句的「gather more information」指「蒐集資料」。",
+        "gather-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-06"
     },
@@ -940,11 +892,9 @@ export default {
       "masked": "The journalist spent weeks ____.",
       "options": [
         "gather-mcq-26",
-        "gather-mcq-25",
-        "gather-mcq-24",
-        "gather-mcq-23",
-        "gather-mcq-22",
-        "gather-mcq-21"
+        "gather-mcq-03",
+        "gather-mcq-09",
+        "gather-mcq-14"
       ],
       "explanation": "本句的「gathering facts」指「把零散的事實或細節收集起來」。",
       "sentenceIndex": 12,
@@ -953,12 +903,10 @@ export default {
         "gathering facts"
       ],
       "optionReasons": {
-        "gather-mcq-26": "本句指「把零散的事實或細節收集起來」。",
-        "gather-mcq-25": "「狩獵採集者」是「hunter-gatherer」的用法，與本句語境不同。",
-        "gather-mcq-24": "「採集者；收集者」是「gatherer」的用法，與本句語境不同。",
-        "gather-mcq-23": "「收褶布料」是「gathered fabric」的用法，與本句語境不同。",
-        "gather-mcq-22": "「資料蒐集」是「data gathering」的用法，與本句語境不同。",
-        "gather-mcq-21": "「聚集的人群」是「a gathering of people」的用法，與本句語境不同。"
+        "gather-mcq-26": "本句的「gathering facts」指「把零散的事實或細節收集起來」。",
+        "gather-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-26"
     },
@@ -970,11 +918,9 @@ export default {
       "masked": "Investigators are still ____ about what happened.",
       "options": [
         "gather-mcq-26",
-        "gather-mcq-25",
-        "gather-mcq-24",
-        "gather-mcq-23",
-        "gather-mcq-22",
-        "gather-mcq-21"
+        "gather-mcq-13",
+        "gather-mcq-14",
+        "gather-mcq-20"
       ],
       "explanation": "本句的「gathering details」指「把零散的事實或細節收集起來」。",
       "sentenceIndex": 13,
@@ -983,12 +929,10 @@ export default {
         "gathering details"
       ],
       "optionReasons": {
-        "gather-mcq-26": "本句指「把零散的事實或細節收集起來」。",
-        "gather-mcq-25": "「狩獵採集者」是「hunter-gatherer」的用法，與本句語境不同。",
-        "gather-mcq-24": "「採集者；收集者」是「gatherer」的用法，與本句語境不同。",
-        "gather-mcq-23": "「收褶布料」是「gathered fabric」的用法，與本句語境不同。",
-        "gather-mcq-22": "「資料蒐集」是「data gathering」的用法，與本句語境不同。",
-        "gather-mcq-21": "「聚集的人群」是「a gathering of people」的用法，與本句語境不同。"
+        "gather-mcq-26": "本句的「gathering details」指「把零散的事實或細節收集起來」。",
+        "gather-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-26"
     },
@@ -1000,11 +944,9 @@ export default {
       "masked": "I ____ the meeting has been cancelled.",
       "options": [
         "gather-mcq-08",
-        "gather-mcq-07",
-        "gather-mcq-09",
         "gather-mcq-06",
-        "gather-mcq-10",
-        "gather-mcq-05"
+        "gather-mcq-13",
+        "gather-mcq-20"
       ],
       "explanation": "本句的「gather from your email that」指「據了解；推斷」。",
       "sentenceIndex": 14,
@@ -1013,12 +955,10 @@ export default {
         "gather from your email that"
       ],
       "optionReasons": {
-        "gather-mcq-08": "本句指「據了解；推斷」。",
-        "gather-mcq-07": "「蒐集證據」是「gather evidence」的用法，與本句語境不同。",
-        "gather-mcq-09": "「我聽說／據我了解」是「I gather...」的用法，與本句語境不同。",
-        "gather-mcq-06": "「蒐集資料」是「gather information」的用法，與本句語境不同。",
-        "gather-mcq-10": "「積聚／恢復力量」是「gather strength」的用法，與本句語境不同。",
-        "gather-mcq-05": "「採集；採摘」是「gather flowers/fruit」的用法，與本句語境不同。"
+        "gather-mcq-08": "本句的「gather from your email that」指「據了解；推斷」。",
+        "gather-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-08"
     },
@@ -1030,11 +970,9 @@ export default {
       "masked": "From what I ____, they are planning to move abroad.",
       "options": [
         "gather-mcq-08",
-        "gather-mcq-07",
-        "gather-mcq-09",
-        "gather-mcq-06",
-        "gather-mcq-10",
-        "gather-mcq-05"
+        "gather-mcq-18",
+        "gather-mcq-15",
+        "gather-mcq-12"
       ],
       "explanation": "本句的「gather」指「據了解；推斷」。",
       "sentenceIndex": 15,
@@ -1043,12 +981,10 @@ export default {
         "gather"
       ],
       "optionReasons": {
-        "gather-mcq-08": "本句指「據了解；推斷」。",
-        "gather-mcq-07": "「蒐集證據」是「gather evidence」的用法，與本句語境不同。",
-        "gather-mcq-09": "「我聽說／據我了解」是「I gather...」的用法，與本句語境不同。",
-        "gather-mcq-06": "「蒐集資料」是「gather information」的用法，與本句語境不同。",
-        "gather-mcq-10": "「積聚／恢復力量」是「gather strength」的用法，與本句語境不同。",
-        "gather-mcq-05": "「採集；採摘」是「gather flowers/fruit」的用法，與本句語境不同。"
+        "gather-mcq-08": "本句的「gather」指「據了解；推斷」。",
+        "gather-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-08"
     },
@@ -1060,11 +996,9 @@ export default {
       "masked": "____ you've already spoken to the manager.",
       "options": [
         "gather-mcq-09",
-        "gather-mcq-08",
-        "gather-mcq-10",
-        "gather-mcq-07",
-        "gather-mcq-11",
-        "gather-mcq-06"
+        "gather-mcq-04",
+        "gather-mcq-15",
+        "gather-mcq-11"
       ],
       "explanation": "本句的「I gather」指「我聽說／據我了解」。",
       "sentenceIndex": 16,
@@ -1073,12 +1007,10 @@ export default {
         "I gather"
       ],
       "optionReasons": {
-        "gather-mcq-09": "本句指「我聽說／據我了解」。",
-        "gather-mcq-08": "「據了解；推斷」是「gather that...」的用法，與本句語境不同。",
-        "gather-mcq-10": "「積聚／恢復力量」是「gather strength」的用法，與本句語境不同。",
-        "gather-mcq-07": "「蒐集證據」是「gather evidence」的用法，與本句語境不同。",
-        "gather-mcq-11": "「鼓起勇氣」是「gather courage」的用法，與本句語境不同。",
-        "gather-mcq-06": "「蒐集資料」是「gather information」的用法，與本句語境不同。"
+        "gather-mcq-09": "本句的「I gather」指「我聽說／據我了解」。",
+        "gather-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-09"
     },
@@ -1090,11 +1022,9 @@ export default {
       "masked": "____ the event went very well.",
       "options": [
         "gather-mcq-09",
-        "gather-mcq-08",
-        "gather-mcq-10",
-        "gather-mcq-07",
-        "gather-mcq-11",
-        "gather-mcq-06"
+        "gather-mcq-25",
+        "gather-mcq-26",
+        "gather-mcq-22"
       ],
       "explanation": "本句的「I gather」指「我聽說／據我了解」。",
       "sentenceIndex": 17,
@@ -1103,12 +1033,10 @@ export default {
         "I gather"
       ],
       "optionReasons": {
-        "gather-mcq-09": "本句指「我聽說／據我了解」。",
-        "gather-mcq-08": "「據了解；推斷」是「gather that...」的用法，與本句語境不同。",
-        "gather-mcq-10": "「積聚／恢復力量」是「gather strength」的用法，與本句語境不同。",
-        "gather-mcq-07": "「蒐集證據」是「gather evidence」的用法，與本句語境不同。",
-        "gather-mcq-11": "「鼓起勇氣」是「gather courage」的用法，與本句語境不同。",
-        "gather-mcq-06": "「蒐集資料」是「gather information」的用法，與本句語境不同。"
+        "gather-mcq-09": "本句的「I gather」指「我聽說／據我了解」。",
+        "gather-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-09"
     },
@@ -1120,11 +1048,9 @@ export default {
       "masked": "She rested for a while to ____.",
       "options": [
         "gather-mcq-10",
-        "gather-mcq-09",
-        "gather-mcq-11",
         "gather-mcq-08",
-        "gather-mcq-12",
-        "gather-mcq-07"
+        "gather-mcq-22",
+        "gather-mcq-23"
       ],
       "explanation": "本句的「gather her strength」指「積聚／恢復力量」。",
       "sentenceIndex": 18,
@@ -1133,12 +1059,10 @@ export default {
         "gather her strength"
       ],
       "optionReasons": {
-        "gather-mcq-10": "本句指「積聚／恢復力量」。",
-        "gather-mcq-09": "「我聽說／據我了解」是「I gather...」的用法，與本句語境不同。",
-        "gather-mcq-11": "「鼓起勇氣」是「gather courage」的用法，與本句語境不同。",
-        "gather-mcq-08": "「據了解；推斷」是「gather that...」的用法，與本句語境不同。",
-        "gather-mcq-12": "「整理思緒」是「gather your thoughts」的用法，與本句語境不同。",
-        "gather-mcq-07": "「蒐集證據」是「gather evidence」的用法，與本句語境不同。"
+        "gather-mcq-10": "本句的「gather her strength」指「積聚／恢復力量」。",
+        "gather-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-10"
     },
@@ -1150,11 +1074,9 @@ export default {
       "masked": "He paused to ____ before climbing again.",
       "options": [
         "gather-mcq-10",
-        "gather-mcq-09",
+        "gather-mcq-22",
         "gather-mcq-11",
-        "gather-mcq-08",
-        "gather-mcq-12",
-        "gather-mcq-07"
+        "gather-mcq-23"
       ],
       "explanation": "本句的「gather strength」指「積聚／恢復力量」。",
       "sentenceIndex": 19,
@@ -1163,12 +1085,10 @@ export default {
         "gather strength"
       ],
       "optionReasons": {
-        "gather-mcq-10": "本句指「積聚／恢復力量」。",
-        "gather-mcq-09": "「我聽說／據我了解」是「I gather...」的用法，與本句語境不同。",
-        "gather-mcq-11": "「鼓起勇氣」是「gather courage」的用法，與本句語境不同。",
-        "gather-mcq-08": "「據了解；推斷」是「gather that...」的用法，與本句語境不同。",
-        "gather-mcq-12": "「整理思緒」是「gather your thoughts」的用法，與本句語境不同。",
-        "gather-mcq-07": "「蒐集證據」是「gather evidence」的用法，與本句語境不同。"
+        "gather-mcq-10": "本句的「gather strength」指「積聚／恢復力量」。",
+        "gather-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-10"
     },
@@ -1180,11 +1100,9 @@ export default {
       "masked": "She finally ____ to speak.",
       "options": [
         "gather-mcq-11",
-        "gather-mcq-10",
-        "gather-mcq-12",
+        "gather-mcq-04",
         "gather-mcq-09",
-        "gather-mcq-13",
-        "gather-mcq-08"
+        "gather-mcq-19"
       ],
       "explanation": "本句的「gathered the courage」指「鼓起勇氣」。",
       "sentenceIndex": 20,
@@ -1193,12 +1111,10 @@ export default {
         "gathered the courage"
       ],
       "optionReasons": {
-        "gather-mcq-11": "本句指「鼓起勇氣」。",
-        "gather-mcq-10": "「積聚／恢復力量」是「gather strength」的用法，與本句語境不同。",
-        "gather-mcq-12": "「整理思緒」是「gather your thoughts」的用法，與本句語境不同。",
-        "gather-mcq-09": "「我聽說／據我了解」是「I gather...」的用法，與本句語境不同。",
-        "gather-mcq-13": "「鎮定自己」是「gather yourself」的用法，與本句語境不同。",
-        "gather-mcq-08": "「據了解；推斷」是「gather that...」的用法，與本句語境不同。"
+        "gather-mcq-11": "本句的「gathered the courage」指「鼓起勇氣」。",
+        "gather-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-11"
     },
@@ -1210,11 +1126,9 @@ export default {
       "masked": "He had to ____ before entering the room.",
       "options": [
         "gather-mcq-11",
-        "gather-mcq-10",
-        "gather-mcq-12",
-        "gather-mcq-09",
-        "gather-mcq-13",
-        "gather-mcq-08"
+        "gather-mcq-14",
+        "gather-mcq-19",
+        "gather-mcq-17"
       ],
       "explanation": "本句的「gather his courage」指「鼓起勇氣」。",
       "sentenceIndex": 21,
@@ -1223,12 +1137,10 @@ export default {
         "gather his courage"
       ],
       "optionReasons": {
-        "gather-mcq-11": "本句指「鼓起勇氣」。",
-        "gather-mcq-10": "「積聚／恢復力量」是「gather strength」的用法，與本句語境不同。",
-        "gather-mcq-12": "「整理思緒」是「gather your thoughts」的用法，與本句語境不同。",
-        "gather-mcq-09": "「我聽說／據我了解」是「I gather...」的用法，與本句語境不同。",
-        "gather-mcq-13": "「鎮定自己」是「gather yourself」的用法，與本句語境不同。",
-        "gather-mcq-08": "「據了解；推斷」是「gather that...」的用法，與本句語境不同。"
+        "gather-mcq-11": "本句的「gather his courage」指「鼓起勇氣」。",
+        "gather-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-11"
     },
@@ -1240,11 +1152,9 @@ export default {
       "masked": "Give me a moment to ____.",
       "options": [
         "gather-mcq-12",
-        "gather-mcq-11",
-        "gather-mcq-13",
-        "gather-mcq-10",
-        "gather-mcq-14",
-        "gather-mcq-09"
+        "gather-mcq-18",
+        "gather-mcq-23",
+        "gather-mcq-11"
       ],
       "explanation": "本句的「gather my thoughts」指「整理思緒」。",
       "sentenceIndex": 22,
@@ -1253,12 +1163,10 @@ export default {
         "gather my thoughts"
       ],
       "optionReasons": {
-        "gather-mcq-12": "本句指「整理思緒」。",
-        "gather-mcq-11": "「鼓起勇氣」是「gather courage」的用法，與本句語境不同。",
-        "gather-mcq-13": "「鎮定自己」是「gather yourself」的用法，與本句語境不同。",
-        "gather-mcq-10": "「積聚／恢復力量」是「gather strength」的用法，與本句語境不同。",
-        "gather-mcq-14": "「逐漸加速」是「gather speed」的用法，與本句語境不同。",
-        "gather-mcq-09": "「我聽說／據我了解」是「I gather...」的用法，與本句語境不同。"
+        "gather-mcq-12": "本句的「gather my thoughts」指「整理思緒」。",
+        "gather-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-12"
     },
@@ -1270,11 +1178,9 @@ export default {
       "masked": "She paused before answering to ____.",
       "options": [
         "gather-mcq-12",
+        "gather-mcq-18",
         "gather-mcq-11",
-        "gather-mcq-13",
-        "gather-mcq-10",
-        "gather-mcq-14",
-        "gather-mcq-09"
+        "gather-mcq-13"
       ],
       "explanation": "本句的「gather her thoughts」指「整理思緒」。",
       "sentenceIndex": 23,
@@ -1283,12 +1189,10 @@ export default {
         "gather her thoughts"
       ],
       "optionReasons": {
-        "gather-mcq-12": "本句指「整理思緒」。",
-        "gather-mcq-11": "「鼓起勇氣」是「gather courage」的用法，與本句語境不同。",
-        "gather-mcq-13": "「鎮定自己」是「gather yourself」的用法，與本句語境不同。",
-        "gather-mcq-10": "「積聚／恢復力量」是「gather strength」的用法，與本句語境不同。",
-        "gather-mcq-14": "「逐漸加速」是「gather speed」的用法，與本句語境不同。",
-        "gather-mcq-09": "「我聽說／據我了解」是「I gather...」的用法，與本句語境不同。"
+        "gather-mcq-12": "本句的「gather her thoughts」指「整理思緒」。",
+        "gather-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-12"
     },
@@ -1300,11 +1204,9 @@ export default {
       "masked": "He took a deep breath and ____.",
       "options": [
         "gather-mcq-13",
-        "gather-mcq-12",
-        "gather-mcq-14",
-        "gather-mcq-11",
-        "gather-mcq-15",
-        "gather-mcq-10"
+        "gather-mcq-04",
+        "gather-mcq-09",
+        "gather-mcq-15"
       ],
       "explanation": "本句的「gathered himself」指「鎮定自己」。",
       "sentenceIndex": 24,
@@ -1313,12 +1215,10 @@ export default {
         "gathered himself"
       ],
       "optionReasons": {
-        "gather-mcq-13": "本句指「鎮定自己」。",
-        "gather-mcq-12": "「整理思緒」是「gather your thoughts」的用法，與本句語境不同。",
-        "gather-mcq-14": "「逐漸加速」是「gather speed」的用法，與本句語境不同。",
-        "gather-mcq-11": "「鼓起勇氣」是「gather courage」的用法，與本句語境不同。",
-        "gather-mcq-15": "「勢頭增強」是「gather momentum」的用法，與本句語境不同。",
-        "gather-mcq-10": "「積聚／恢復力量」是「gather strength」的用法，與本句語境不同。"
+        "gather-mcq-13": "本句的「gathered himself」指「鎮定自己」。",
+        "gather-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-13"
     },
@@ -1330,11 +1230,9 @@ export default {
       "masked": "She needed a few minutes to ____ after hearing the news.",
       "options": [
         "gather-mcq-13",
-        "gather-mcq-12",
-        "gather-mcq-14",
-        "gather-mcq-11",
+        "gather-mcq-01",
         "gather-mcq-15",
-        "gather-mcq-10"
+        "gather-mcq-11"
       ],
       "explanation": "本句的「gather herself」指「鎮定自己」。",
       "sentenceIndex": 25,
@@ -1343,12 +1241,10 @@ export default {
         "gather herself"
       ],
       "optionReasons": {
-        "gather-mcq-13": "本句指「鎮定自己」。",
-        "gather-mcq-12": "「整理思緒」是「gather your thoughts」的用法，與本句語境不同。",
-        "gather-mcq-14": "「逐漸加速」是「gather speed」的用法，與本句語境不同。",
-        "gather-mcq-11": "「鼓起勇氣」是「gather courage」的用法，與本句語境不同。",
-        "gather-mcq-15": "「勢頭增強」是「gather momentum」的用法，與本句語境不同。",
-        "gather-mcq-10": "「積聚／恢復力量」是「gather strength」的用法，與本句語境不同。"
+        "gather-mcq-13": "本句的「gather herself」指「鎮定自己」。",
+        "gather-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-13"
     },
@@ -1360,11 +1256,9 @@ export default {
       "masked": "The train ____ as it left the station.",
       "options": [
         "gather-mcq-14",
-        "gather-mcq-13",
-        "gather-mcq-15",
-        "gather-mcq-12",
-        "gather-mcq-16",
-        "gather-mcq-11"
+        "gather-mcq-11",
+        "gather-mcq-08",
+        "gather-mcq-06"
       ],
       "explanation": "本句的「gathered speed」指「逐漸加速」。",
       "sentenceIndex": 26,
@@ -1373,12 +1267,10 @@ export default {
         "gathered speed"
       ],
       "optionReasons": {
-        "gather-mcq-14": "本句指「逐漸加速」。",
-        "gather-mcq-13": "「鎮定自己」是「gather yourself」的用法，與本句語境不同。",
-        "gather-mcq-15": "「勢頭增強」是「gather momentum」的用法，與本句語境不同。",
-        "gather-mcq-12": "「整理思緒」是「gather your thoughts」的用法，與本句語境不同。",
-        "gather-mcq-16": "「雲層聚集」是「clouds gather」的用法，與本句語境不同。",
-        "gather-mcq-11": "「鼓起勇氣」是「gather courage」的用法，與本句語境不同。"
+        "gather-mcq-14": "本句的「gathered speed」指「逐漸加速」。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-14"
     },
@@ -1390,11 +1282,9 @@ export default {
       "masked": "The bicycle ____ on the downhill slope.",
       "options": [
         "gather-mcq-14",
-        "gather-mcq-13",
         "gather-mcq-15",
-        "gather-mcq-12",
-        "gather-mcq-16",
-        "gather-mcq-11"
+        "gather-mcq-09",
+        "gather-mcq-03"
       ],
       "explanation": "本句的「gathered speed」指「逐漸加速」。",
       "sentenceIndex": 27,
@@ -1403,12 +1293,10 @@ export default {
         "gathered speed"
       ],
       "optionReasons": {
-        "gather-mcq-14": "本句指「逐漸加速」。",
-        "gather-mcq-13": "「鎮定自己」是「gather yourself」的用法，與本句語境不同。",
-        "gather-mcq-15": "「勢頭增強」是「gather momentum」的用法，與本句語境不同。",
-        "gather-mcq-12": "「整理思緒」是「gather your thoughts」的用法，與本句語境不同。",
-        "gather-mcq-16": "「雲層聚集」是「clouds gather」的用法，與本句語境不同。",
-        "gather-mcq-11": "「鼓起勇氣」是「gather courage」的用法，與本句語境不同。"
+        "gather-mcq-14": "本句的「gathered speed」指「逐漸加速」。",
+        "gather-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-14"
     },
@@ -1420,11 +1308,9 @@ export default {
       "masked": "The campaign is ____.",
       "options": [
         "gather-mcq-15",
-        "gather-mcq-14",
-        "gather-mcq-16",
-        "gather-mcq-13",
         "gather-mcq-17",
-        "gather-mcq-12"
+        "gather-mcq-21",
+        "gather-mcq-09"
       ],
       "explanation": "本句的「gathering momentum」指「勢頭增強」。",
       "sentenceIndex": 28,
@@ -1433,12 +1319,10 @@ export default {
         "gathering momentum"
       ],
       "optionReasons": {
-        "gather-mcq-15": "本句指「勢頭增強」。",
-        "gather-mcq-14": "「逐漸加速」是「gather speed」的用法，與本句語境不同。",
-        "gather-mcq-16": "「雲層聚集」是「clouds gather」的用法，與本句語境不同。",
-        "gather-mcq-13": "「鎮定自己」是「gather yourself」的用法，與本句語境不同。",
-        "gather-mcq-17": "「積塵；久置不用」是「gather dust」的用法，與本句語境不同。",
-        "gather-mcq-12": "「整理思緒」是「gather your thoughts」的用法，與本句語境不同。"
+        "gather-mcq-15": "本句的「gathering momentum」指「勢頭增強」。",
+        "gather-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-15"
     },
@@ -1450,11 +1334,9 @@ export default {
       "masked": "Support for the idea ____ over the summer.",
       "options": [
         "gather-mcq-15",
-        "gather-mcq-14",
-        "gather-mcq-16",
+        "gather-mcq-21",
         "gather-mcq-13",
-        "gather-mcq-17",
-        "gather-mcq-12"
+        "gather-mcq-23"
       ],
       "explanation": "本句的「gathered momentum」指「勢頭增強」。",
       "sentenceIndex": 29,
@@ -1463,12 +1345,10 @@ export default {
         "gathered momentum"
       ],
       "optionReasons": {
-        "gather-mcq-15": "本句指「勢頭增強」。",
-        "gather-mcq-14": "「逐漸加速」是「gather speed」的用法，與本句語境不同。",
-        "gather-mcq-16": "「雲層聚集」是「clouds gather」的用法，與本句語境不同。",
-        "gather-mcq-13": "「鎮定自己」是「gather yourself」的用法，與本句語境不同。",
-        "gather-mcq-17": "「積塵；久置不用」是「gather dust」的用法，與本句語境不同。",
-        "gather-mcq-12": "「整理思緒」是「gather your thoughts」的用法，與本句語境不同。"
+        "gather-mcq-15": "本句的「gathered momentum」指「勢頭增強」。",
+        "gather-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-15"
     },
@@ -1480,11 +1360,9 @@ export default {
       "masked": "Dark clouds ____ over the mountains.",
       "options": [
         "gather-mcq-16",
-        "gather-mcq-15",
-        "gather-mcq-17",
         "gather-mcq-14",
-        "gather-mcq-18",
-        "gather-mcq-13"
+        "gather-mcq-13",
+        "gather-mcq-09"
       ],
       "explanation": "本句的「gathered」指「雲層聚集」。",
       "sentenceIndex": 30,
@@ -1493,12 +1371,10 @@ export default {
         "gathered"
       ],
       "optionReasons": {
-        "gather-mcq-16": "本句指「雲層聚集」。",
-        "gather-mcq-15": "「勢頭增強」是「gather momentum」的用法，與本句語境不同。",
-        "gather-mcq-17": "「積塵；久置不用」是「gather dust」的用法，與本句語境不同。",
-        "gather-mcq-14": "「逐漸加速」是「gather speed」的用法，與本句語境不同。",
-        "gather-mcq-18": "「聚會；集會」是「gathering」的用法，與本句語境不同。",
-        "gather-mcq-13": "「鎮定自己」是「gather yourself」的用法，與本句語境不同。"
+        "gather-mcq-16": "本句的「gathered」指「雲層聚集」。",
+        "gather-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-16"
     },
@@ -1510,11 +1386,9 @@ export default {
       "masked": "Darkness ____ around the village.",
       "options": [
         "gather-mcq-16",
+        "gather-mcq-11",
         "gather-mcq-15",
-        "gather-mcq-17",
-        "gather-mcq-14",
-        "gather-mcq-18",
-        "gather-mcq-13"
+        "gather-mcq-14"
       ],
       "explanation": "本句的「gathered」指「雲層聚集」。",
       "sentenceIndex": 31,
@@ -1523,12 +1397,10 @@ export default {
         "gathered"
       ],
       "optionReasons": {
-        "gather-mcq-16": "本句指「雲層聚集」。",
-        "gather-mcq-15": "「勢頭增強」是「gather momentum」的用法，與本句語境不同。",
-        "gather-mcq-17": "「積塵；久置不用」是「gather dust」的用法，與本句語境不同。",
-        "gather-mcq-14": "「逐漸加速」是「gather speed」的用法，與本句語境不同。",
-        "gather-mcq-18": "「聚會；集會」是「gathering」的用法，與本句語境不同。",
-        "gather-mcq-13": "「鎮定自己」是「gather yourself」的用法，與本句語境不同。"
+        "gather-mcq-16": "本句的「gathered」指「雲層聚集」。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-16"
     },
@@ -1540,11 +1412,9 @@ export default {
       "masked": "The old books were ____ on the shelf.",
       "options": [
         "gather-mcq-17",
-        "gather-mcq-16",
-        "gather-mcq-18",
-        "gather-mcq-15",
-        "gather-mcq-19",
-        "gather-mcq-14"
+        "gather-mcq-25",
+        "gather-mcq-13",
+        "gather-mcq-16"
       ],
       "explanation": "本句的「gathering dust」指「積塵；久置不用」。",
       "sentenceIndex": 32,
@@ -1553,12 +1423,10 @@ export default {
         "gathering dust"
       ],
       "optionReasons": {
-        "gather-mcq-17": "本句指「積塵；久置不用」。",
-        "gather-mcq-16": "「雲層聚集」是「clouds gather」的用法，與本句語境不同。",
-        "gather-mcq-18": "「聚會；集會」是「gathering」的用法，與本句語境不同。",
-        "gather-mcq-15": "「勢頭增強」是「gather momentum」的用法，與本句語境不同。",
-        "gather-mcq-19": "「家庭聚會」是「family gathering」的用法，與本句語境不同。",
-        "gather-mcq-14": "「逐漸加速」是「gather speed」的用法，與本句語境不同。"
+        "gather-mcq-17": "本句的「gathering dust」指「積塵；久置不用」。",
+        "gather-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-17"
     },
@@ -1570,11 +1438,9 @@ export default {
       "masked": "His guitar has been ____ since he started working full-time.",
       "options": [
         "gather-mcq-17",
-        "gather-mcq-16",
-        "gather-mcq-18",
-        "gather-mcq-15",
-        "gather-mcq-19",
-        "gather-mcq-14"
+        "gather-mcq-01",
+        "gather-mcq-08",
+        "gather-mcq-13"
       ],
       "explanation": "本句的「gathering dust」指「積塵；久置不用」。",
       "sentenceIndex": 33,
@@ -1583,12 +1449,10 @@ export default {
         "gathering dust"
       ],
       "optionReasons": {
-        "gather-mcq-17": "本句指「積塵；久置不用」。",
-        "gather-mcq-16": "「雲層聚集」是「clouds gather」的用法，與本句語境不同。",
-        "gather-mcq-18": "「聚會；集會」是「gathering」的用法，與本句語境不同。",
-        "gather-mcq-15": "「勢頭增強」是「gather momentum」的用法，與本句語境不同。",
-        "gather-mcq-19": "「家庭聚會」是「family gathering」的用法，與本句語境不同。",
-        "gather-mcq-14": "「逐漸加速」是「gather speed」的用法，與本句語境不同。"
+        "gather-mcq-17": "本句的「gathering dust」指「積塵；久置不用」。",
+        "gather-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-17"
     },
@@ -1600,11 +1464,9 @@ export default {
       "masked": "I still remember one family ____.",
       "options": [
         "gather-mcq-18",
-        "gather-mcq-17",
-        "gather-mcq-19",
-        "gather-mcq-16",
-        "gather-mcq-20",
-        "gather-mcq-15"
+        "gather-mcq-12",
+        "gather-mcq-15",
+        "gather-mcq-23"
       ],
       "explanation": "本句的「gathering」指「聚會；集會」。",
       "sentenceIndex": 34,
@@ -1613,12 +1475,10 @@ export default {
         "gathering"
       ],
       "optionReasons": {
-        "gather-mcq-18": "本句指「聚會；集會」。",
-        "gather-mcq-17": "「積塵；久置不用」是「gather dust」的用法，與本句語境不同。",
-        "gather-mcq-19": "「家庭聚會」是「family gathering」的用法，與本句語境不同。",
-        "gather-mcq-16": "「雲層聚集」是「clouds gather」的用法，與本句語境不同。",
-        "gather-mcq-20": "「社交聚會」是「social gathering」的用法，與本句語境不同。",
-        "gather-mcq-15": "「勢頭增強」是「gather momentum」的用法，與本句語境不同。"
+        "gather-mcq-18": "本句的「gathering」指「聚會；集會」。",
+        "gather-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-18"
     },
@@ -1630,11 +1490,9 @@ export default {
       "masked": "We had a small ____ at home on Saturday.",
       "options": [
         "gather-mcq-18",
-        "gather-mcq-17",
-        "gather-mcq-19",
-        "gather-mcq-16",
-        "gather-mcq-20",
-        "gather-mcq-15"
+        "gather-mcq-12",
+        "gather-mcq-09",
+        "gather-mcq-11"
       ],
       "explanation": "本句的「gathering」指「聚會；集會」。",
       "sentenceIndex": 35,
@@ -1643,12 +1501,10 @@ export default {
         "gathering"
       ],
       "optionReasons": {
-        "gather-mcq-18": "本句指「聚會；集會」。",
-        "gather-mcq-17": "「積塵；久置不用」是「gather dust」的用法，與本句語境不同。",
-        "gather-mcq-19": "「家庭聚會」是「family gathering」的用法，與本句語境不同。",
-        "gather-mcq-16": "「雲層聚集」是「clouds gather」的用法，與本句語境不同。",
-        "gather-mcq-20": "「社交聚會」是「social gathering」的用法，與本句語境不同。",
-        "gather-mcq-15": "「勢頭增強」是「gather momentum」的用法，與本句語境不同。"
+        "gather-mcq-18": "本句的「gathering」指「聚會；集會」。",
+        "gather-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-18"
     },
@@ -1660,11 +1516,9 @@ export default {
       "masked": "The event attracted a large ____ of local residents.",
       "options": [
         "gather-mcq-18",
-        "gather-mcq-17",
-        "gather-mcq-19",
-        "gather-mcq-16",
-        "gather-mcq-20",
-        "gather-mcq-15"
+        "gather-mcq-11",
+        "gather-mcq-13",
+        "gather-mcq-12"
       ],
       "explanation": "本句的「gathering」指「聚會；集會」。",
       "sentenceIndex": 36,
@@ -1673,12 +1527,10 @@ export default {
         "gathering"
       ],
       "optionReasons": {
-        "gather-mcq-18": "本句指「聚會；集會」。",
-        "gather-mcq-17": "「積塵；久置不用」是「gather dust」的用法，與本句語境不同。",
-        "gather-mcq-19": "「家庭聚會」是「family gathering」的用法，與本句語境不同。",
-        "gather-mcq-16": "「雲層聚集」是「clouds gather」的用法，與本句語境不同。",
-        "gather-mcq-20": "「社交聚會」是「social gathering」的用法，與本句語境不同。",
-        "gather-mcq-15": "「勢頭增強」是「gather momentum」的用法，與本句語境不同。"
+        "gather-mcq-18": "本句的「gathering」指「聚會；集會」。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-18"
     },
@@ -1690,11 +1542,9 @@ export default {
       "masked": "We usually have a ____ during the holidays.",
       "options": [
         "gather-mcq-19",
-        "gather-mcq-18",
-        "gather-mcq-20",
-        "gather-mcq-17",
-        "gather-mcq-21",
-        "gather-mcq-16"
+        "gather-mcq-09",
+        "gather-mcq-23",
+        "gather-mcq-05"
       ],
       "explanation": "本句的「family gathering」指「家庭聚會」。",
       "sentenceIndex": 37,
@@ -1703,12 +1553,10 @@ export default {
         "family gathering"
       ],
       "optionReasons": {
-        "gather-mcq-19": "本句指「家庭聚會」。",
-        "gather-mcq-18": "「聚會；集會」是「gathering」的用法，與本句語境不同。",
-        "gather-mcq-20": "「社交聚會」是「social gathering」的用法，與本句語境不同。",
-        "gather-mcq-17": "「積塵；久置不用」是「gather dust」的用法，與本句語境不同。",
-        "gather-mcq-21": "「聚集的人群」是「a gathering of people」的用法，與本句語境不同。",
-        "gather-mcq-16": "「雲層聚集」是「clouds gather」的用法，與本句語境不同。"
+        "gather-mcq-19": "本句的「family gathering」指「家庭聚會」。",
+        "gather-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-19"
     },
@@ -1720,11 +1568,9 @@ export default {
       "masked": "He met his cousins at a ____.",
       "options": [
         "gather-mcq-19",
-        "gather-mcq-18",
-        "gather-mcq-20",
-        "gather-mcq-17",
-        "gather-mcq-21",
-        "gather-mcq-16"
+        "gather-mcq-14",
+        "gather-mcq-06",
+        "gather-mcq-25"
       ],
       "explanation": "本句的「family gathering」指「家庭聚會」。",
       "sentenceIndex": 38,
@@ -1733,12 +1579,10 @@ export default {
         "family gathering"
       ],
       "optionReasons": {
-        "gather-mcq-19": "本句指「家庭聚會」。",
-        "gather-mcq-18": "「聚會；集會」是「gathering」的用法，與本句語境不同。",
-        "gather-mcq-20": "「社交聚會」是「social gathering」的用法，與本句語境不同。",
-        "gather-mcq-17": "「積塵；久置不用」是「gather dust」的用法，與本句語境不同。",
-        "gather-mcq-21": "「聚集的人群」是「a gathering of people」的用法，與本句語境不同。",
-        "gather-mcq-16": "「雲層聚集」是「clouds gather」的用法，與本句語境不同。"
+        "gather-mcq-19": "本句的「family gathering」指「家庭聚會」。",
+        "gather-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-19"
     },
@@ -1750,11 +1594,9 @@ export default {
       "masked": "The club organizes regular ____.",
       "options": [
         "gather-mcq-20",
-        "gather-mcq-19",
-        "gather-mcq-21",
-        "gather-mcq-18",
-        "gather-mcq-22",
-        "gather-mcq-17"
+        "gather-mcq-24",
+        "gather-mcq-23",
+        "gather-mcq-22"
       ],
       "explanation": "本句的「social gatherings」指「社交聚會」。",
       "sentenceIndex": 39,
@@ -1763,12 +1605,10 @@ export default {
         "social gatherings"
       ],
       "optionReasons": {
-        "gather-mcq-20": "本句指「社交聚會」。",
-        "gather-mcq-19": "「家庭聚會」是「family gathering」的用法，與本句語境不同。",
-        "gather-mcq-21": "「聚集的人群」是「a gathering of people」的用法，與本句語境不同。",
-        "gather-mcq-18": "「聚會；集會」是「gathering」的用法，與本句語境不同。",
-        "gather-mcq-22": "「資料蒐集」是「data gathering」的用法，與本句語境不同。",
-        "gather-mcq-17": "「積塵；久置不用」是「gather dust」的用法，與本句語境不同。"
+        "gather-mcq-20": "本句的「social gatherings」指「社交聚會」。",
+        "gather-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-20"
     },
@@ -1780,10 +1620,8 @@ export default {
       "masked": "It was meant to be an informal ____.",
       "options": [
         "gather-mcq-20",
-        "gather-mcq-19",
-        "gather-mcq-21",
-        "gather-mcq-18",
-        "gather-mcq-22",
+        "gather-mcq-25",
+        "gather-mcq-14",
         "gather-mcq-17"
       ],
       "explanation": "本句的「social gathering」指「社交聚會」。",
@@ -1793,12 +1631,10 @@ export default {
         "social gathering"
       ],
       "optionReasons": {
-        "gather-mcq-20": "本句指「社交聚會」。",
-        "gather-mcq-19": "「家庭聚會」是「family gathering」的用法，與本句語境不同。",
-        "gather-mcq-21": "「聚集的人群」是「a gathering of people」的用法，與本句語境不同。",
-        "gather-mcq-18": "「聚會；集會」是「gathering」的用法，與本句語境不同。",
-        "gather-mcq-22": "「資料蒐集」是「data gathering」的用法，與本句語境不同。",
-        "gather-mcq-17": "「積塵；久置不用」是「gather dust」的用法，與本句語境不同。"
+        "gather-mcq-20": "本句的「social gathering」指「社交聚會」。",
+        "gather-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-20"
     },
@@ -1810,11 +1646,9 @@ export default {
       "masked": "A small ____ formed outside the station.",
       "options": [
         "gather-mcq-21",
-        "gather-mcq-20",
-        "gather-mcq-22",
-        "gather-mcq-19",
-        "gather-mcq-23",
-        "gather-mcq-18"
+        "gather-mcq-14",
+        "gather-mcq-12",
+        "gather-mcq-17"
       ],
       "explanation": "本句的「gathering」指「聚集的人群」。",
       "sentenceIndex": 41,
@@ -1823,12 +1657,10 @@ export default {
         "gathering"
       ],
       "optionReasons": {
-        "gather-mcq-21": "本句指「聚集的人群」。",
-        "gather-mcq-20": "「社交聚會」是「social gathering」的用法，與本句語境不同。",
-        "gather-mcq-22": "「資料蒐集」是「data gathering」的用法，與本句語境不同。",
-        "gather-mcq-19": "「家庭聚會」是「family gathering」的用法，與本句語境不同。",
-        "gather-mcq-23": "「收褶布料」是「gathered fabric」的用法，與本句語境不同。",
-        "gather-mcq-18": "「聚會；集會」是「gathering」的用法，與本句語境不同。"
+        "gather-mcq-21": "本句的「gathering」指「聚集的人群」。",
+        "gather-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-21"
     },
@@ -1840,11 +1672,9 @@ export default {
       "masked": "Police watched the ____ carefully.",
       "options": [
         "gather-mcq-21",
-        "gather-mcq-20",
-        "gather-mcq-22",
-        "gather-mcq-19",
-        "gather-mcq-23",
-        "gather-mcq-18"
+        "gather-mcq-13",
+        "gather-mcq-12",
+        "gather-mcq-14"
       ],
       "explanation": "本句的「gathering」指「聚集的人群」。",
       "sentenceIndex": 42,
@@ -1853,12 +1683,10 @@ export default {
         "gathering"
       ],
       "optionReasons": {
-        "gather-mcq-21": "本句指「聚集的人群」。",
-        "gather-mcq-20": "「社交聚會」是「social gathering」的用法，與本句語境不同。",
-        "gather-mcq-22": "「資料蒐集」是「data gathering」的用法，與本句語境不同。",
-        "gather-mcq-19": "「家庭聚會」是「family gathering」的用法，與本句語境不同。",
-        "gather-mcq-23": "「收褶布料」是「gathered fabric」的用法，與本句語境不同。",
-        "gather-mcq-18": "「聚會；集會」是「gathering」的用法，與本句語境不同。"
+        "gather-mcq-21": "本句的「gathering」指「聚集的人群」。",
+        "gather-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-21"
     },
@@ -1870,11 +1698,9 @@ export default {
       "masked": "Data ____ took several months.",
       "options": [
         "gather-mcq-22",
-        "gather-mcq-21",
-        "gather-mcq-23",
-        "gather-mcq-20",
-        "gather-mcq-24",
-        "gather-mcq-19"
+        "gather-mcq-15",
+        "gather-mcq-19",
+        "gather-mcq-11"
       ],
       "explanation": "本句的「gathering」指「資料蒐集」。",
       "sentenceIndex": 43,
@@ -1883,12 +1709,10 @@ export default {
         "gathering"
       ],
       "optionReasons": {
-        "gather-mcq-22": "本句指「資料蒐集」。",
-        "gather-mcq-21": "「聚集的人群」是「a gathering of people」的用法，與本句語境不同。",
-        "gather-mcq-23": "「收褶布料」是「gathered fabric」的用法，與本句語境不同。",
-        "gather-mcq-20": "「社交聚會」是「social gathering」的用法，與本句語境不同。",
-        "gather-mcq-24": "「採集者；收集者」是「gatherer」的用法，與本句語境不同。",
-        "gather-mcq-19": "「家庭聚會」是「family gathering」的用法，與本句語境不同。"
+        "gather-mcq-22": "本句的「gathering」指「資料蒐集」。",
+        "gather-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-22"
     },
@@ -1900,10 +1724,8 @@ export default {
       "masked": "Information ____ is an important part of the investigation.",
       "options": [
         "gather-mcq-22",
-        "gather-mcq-21",
-        "gather-mcq-23",
-        "gather-mcq-20",
-        "gather-mcq-24",
+        "gather-mcq-09",
+        "gather-mcq-15",
         "gather-mcq-19"
       ],
       "explanation": "本句的「gathering」指「資料蒐集」。",
@@ -1913,12 +1735,10 @@ export default {
         "gathering"
       ],
       "optionReasons": {
-        "gather-mcq-22": "本句指「資料蒐集」。",
-        "gather-mcq-21": "「聚集的人群」是「a gathering of people」的用法，與本句語境不同。",
-        "gather-mcq-23": "「收褶布料」是「gathered fabric」的用法，與本句語境不同。",
-        "gather-mcq-20": "「社交聚會」是「social gathering」的用法，與本句語境不同。",
-        "gather-mcq-24": "「採集者；收集者」是「gatherer」的用法，與本句語境不同。",
-        "gather-mcq-19": "「家庭聚會」是「family gathering」的用法，與本句語境不同。"
+        "gather-mcq-22": "本句的「gathering」指「資料蒐集」。",
+        "gather-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-22"
     },
@@ -1930,11 +1750,9 @@ export default {
       "masked": "The dress has a ____.",
       "options": [
         "gather-mcq-23",
-        "gather-mcq-22",
-        "gather-mcq-24",
-        "gather-mcq-21",
-        "gather-mcq-25",
-        "gather-mcq-20"
+        "gather-mcq-11",
+        "gather-mcq-17",
+        "gather-mcq-09"
       ],
       "explanation": "本句的「gathered waist」指「收褶布料」。",
       "sentenceIndex": 45,
@@ -1943,12 +1761,10 @@ export default {
         "gathered waist"
       ],
       "optionReasons": {
-        "gather-mcq-23": "本句指「收褶布料」。",
-        "gather-mcq-22": "「資料蒐集」是「data gathering」的用法，與本句語境不同。",
-        "gather-mcq-24": "「採集者；收集者」是「gatherer」的用法，與本句語境不同。",
-        "gather-mcq-21": "「聚集的人群」是「a gathering of people」的用法，與本句語境不同。",
-        "gather-mcq-25": "「狩獵採集者」是「hunter-gatherer」的用法，與本句語境不同。",
-        "gather-mcq-20": "「社交聚會」是「social gathering」的用法，與本句語境不同。"
+        "gather-mcq-23": "本句的「gathered waist」指「收褶布料」。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-23"
     },
@@ -1960,11 +1776,9 @@ export default {
       "masked": "She wore a ____.",
       "options": [
         "gather-mcq-23",
-        "gather-mcq-22",
-        "gather-mcq-24",
-        "gather-mcq-21",
-        "gather-mcq-25",
-        "gather-mcq-20"
+        "gather-mcq-15",
+        "gather-mcq-01",
+        "gather-mcq-08"
       ],
       "explanation": "本句的「gathered skirt」指「收褶布料」。",
       "sentenceIndex": 46,
@@ -1973,12 +1787,10 @@ export default {
         "gathered skirt"
       ],
       "optionReasons": {
-        "gather-mcq-23": "本句指「收褶布料」。",
-        "gather-mcq-22": "「資料蒐集」是「data gathering」的用法，與本句語境不同。",
-        "gather-mcq-24": "「採集者；收集者」是「gatherer」的用法，與本句語境不同。",
-        "gather-mcq-21": "「聚集的人群」是「a gathering of people」的用法，與本句語境不同。",
-        "gather-mcq-25": "「狩獵採集者」是「hunter-gatherer」的用法，與本句語境不同。",
-        "gather-mcq-20": "「社交聚會」是「social gathering」的用法，與本句語境不同。"
+        "gather-mcq-23": "本句的「gathered skirt」指「收褶布料」。",
+        "gather-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-23"
     },
@@ -1990,11 +1802,9 @@ export default {
       "masked": "He was an enthusiastic ____.",
       "options": [
         "gather-mcq-24",
-        "gather-mcq-23",
-        "gather-mcq-25",
-        "gather-mcq-22",
-        "gather-mcq-26",
-        "gather-mcq-21"
+        "gather-mcq-11",
+        "gather-mcq-10",
+        "gather-mcq-15"
       ],
       "explanation": "本句的「gatherer of old photographs」指「採集者；收集者」。",
       "sentenceIndex": 47,
@@ -2003,12 +1813,10 @@ export default {
         "gatherer of old photographs"
       ],
       "optionReasons": {
-        "gather-mcq-24": "本句指「採集者；收集者」。",
-        "gather-mcq-23": "「收褶布料」是「gathered fabric」的用法，與本句語境不同。",
-        "gather-mcq-25": "「狩獵採集者」是「hunter-gatherer」的用法，與本句語境不同。",
-        "gather-mcq-22": "「資料蒐集」是「data gathering」的用法，與本句語境不同。",
-        "gather-mcq-26": "「把零散的事實或細節收集起來」是「7. gather facts / details — 蒐集事實／細節」的用法，與本句語境不同。",
-        "gather-mcq-21": "「聚集的人群」是「a gathering of people」的用法，與本句語境不同。"
+        "gather-mcq-24": "本句的「gatherer of old photographs」指「採集者；收集者」。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-24"
     },
@@ -2020,11 +1828,9 @@ export default {
       "masked": "Early communities included hunters and ____.",
       "options": [
         "gather-mcq-24",
-        "gather-mcq-23",
-        "gather-mcq-25",
-        "gather-mcq-22",
-        "gather-mcq-26",
-        "gather-mcq-21"
+        "gather-mcq-15",
+        "gather-mcq-09",
+        "gather-mcq-12"
       ],
       "explanation": "本句的「gatherers」指「採集者；收集者」。",
       "sentenceIndex": 48,
@@ -2033,12 +1839,10 @@ export default {
         "gatherers"
       ],
       "optionReasons": {
-        "gather-mcq-24": "本句指「採集者；收集者」。",
-        "gather-mcq-23": "「收褶布料」是「gathered fabric」的用法，與本句語境不同。",
-        "gather-mcq-25": "「狩獵採集者」是「hunter-gatherer」的用法，與本句語境不同。",
-        "gather-mcq-22": "「資料蒐集」是「data gathering」的用法，與本句語境不同。",
-        "gather-mcq-26": "「把零散的事實或細節收集起來」是「7. gather facts / details — 蒐集事實／細節」的用法，與本句語境不同。",
-        "gather-mcq-21": "「聚集的人群」是「a gathering of people」的用法，與本句語境不同。"
+        "gather-mcq-24": "本句的「gatherers」指「採集者；收集者」。",
+        "gather-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-24"
     },
@@ -2050,11 +1854,9 @@ export default {
       "masked": "Early ____ moved from place to place in search of food.",
       "options": [
         "gather-mcq-25",
-        "gather-mcq-24",
-        "gather-mcq-26",
-        "gather-mcq-23",
-        "gather-mcq-22",
-        "gather-mcq-21"
+        "gather-mcq-13",
+        "gather-mcq-15",
+        "gather-mcq-12"
       ],
       "explanation": "本句的「hunter-gatherers」指「狩獵採集者」。",
       "sentenceIndex": 49,
@@ -2063,12 +1865,10 @@ export default {
         "hunter-gatherers"
       ],
       "optionReasons": {
-        "gather-mcq-25": "本句指「狩獵採集者」。",
-        "gather-mcq-24": "「採集者；收集者」是「gatherer」的用法，與本句語境不同。",
-        "gather-mcq-26": "「把零散的事實或細節收集起來」是「7. gather facts / details — 蒐集事實／細節」的用法，與本句語境不同。",
-        "gather-mcq-23": "「收褶布料」是「gathered fabric」的用法，與本句語境不同。",
-        "gather-mcq-22": "「資料蒐集」是「data gathering」的用法，與本句語境不同。",
-        "gather-mcq-21": "「聚集的人群」是「a gathering of people」的用法，與本句語境不同。"
+        "gather-mcq-25": "本句的「hunter-gatherers」指「狩獵採集者」。",
+        "gather-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-25"
     },
@@ -2080,11 +1880,9 @@ export default {
       "masked": "The course examines ____.",
       "options": [
         "gather-mcq-25",
-        "gather-mcq-24",
-        "gather-mcq-26",
-        "gather-mcq-23",
-        "gather-mcq-22",
-        "gather-mcq-21"
+        "gather-mcq-15",
+        "gather-mcq-11",
+        "gather-mcq-08"
       ],
       "explanation": "本句的「hunter-gatherer societies」指「狩獵採集者」。",
       "sentenceIndex": 50,
@@ -2093,12 +1891,10 @@ export default {
         "hunter-gatherer societies"
       ],
       "optionReasons": {
-        "gather-mcq-25": "本句指「狩獵採集者」。",
-        "gather-mcq-24": "「採集者；收集者」是「gatherer」的用法，與本句語境不同。",
-        "gather-mcq-26": "「把零散的事實或細節收集起來」是「7. gather facts / details — 蒐集事實／細節」的用法，與本句語境不同。",
-        "gather-mcq-23": "「收褶布料」是「gathered fabric」的用法，與本句語境不同。",
-        "gather-mcq-22": "「資料蒐集」是「data gathering」的用法，與本句語境不同。",
-        "gather-mcq-21": "「聚集的人群」是「a gathering of people」的用法，與本句語境不同。"
+        "gather-mcq-25": "本句的「hunter-gatherer societies」指「狩獵採集者」。",
+        "gather-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gather-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gather-mcq-25"
     }
@@ -2110,5 +1906,7 @@ export default {
     "sha256": "08ba7607025977e89a566d423577add960e63f8cb89ae52ec74e2854d75d48a6",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

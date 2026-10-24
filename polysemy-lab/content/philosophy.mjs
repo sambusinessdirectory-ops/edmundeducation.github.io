@@ -377,11 +377,8 @@ export default {
       "masked": "The novel is emotional but also quite ____.",
       "options": [
         "philosophy-mcq-17",
-        "philosophy-mcq-16",
-        "philosophy-mcq-15",
-        "philosophy-mcq-14",
-        "philosophy-mcq-13",
-        "philosophy-mcq-12"
+        "philosophy-mcq-07",
+        "philosophy-mcq-10"
       ],
       "explanation": "本句的「philosophical」指「帶哲思的；富哲學意味的；探討人生與意義的」。",
       "sentenceIndex": 0,
@@ -390,12 +387,9 @@ export default {
         "philosophical"
       ],
       "optionReasons": {
-        "philosophy-mcq-17": "本句指「帶哲思的；富哲學意味的；探討人生與意義的」。",
-        "philosophy-mcq-16": "「一個人用來指導自己生活和選擇的個人信念／人生哲學」是「personal philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-15": "「關於存在、道德、知識、意義等深層問題的哲學性問題」是「philosophical question」的用法，與本句語境不同。",
-        "philosophy-mcq-14": "「思考或談論人生、真理、意義等哲理問題」是「philosophize / philosophise」的用法，與本句語境不同。",
-        "philosophy-mcq-13": "「以達觀、平靜接受的態度」是「philosophically — calmly」的用法，與本句語境不同。",
-        "philosophy-mcq-12": "「從哲學角度而言／分析」是「philosophically — academic」的用法，與本句語境不同。"
+        "philosophy-mcq-17": "本句的「philosophical」指「帶哲思的；富哲學意味的；探討人生與意義的」。",
+        "philosophy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-17"
     },
@@ -407,11 +401,8 @@ export default {
       "masked": "The story raises several ____ about life.",
       "options": [
         "philosophy-mcq-17",
-        "philosophy-mcq-16",
-        "philosophy-mcq-15",
-        "philosophy-mcq-14",
-        "philosophy-mcq-13",
-        "philosophy-mcq-12"
+        "philosophy-mcq-10",
+        "philosophy-mcq-07"
       ],
       "explanation": "本句的「philosophical questions」指「帶哲思的；富哲學意味的；探討人生與意義的」。",
       "sentenceIndex": 1,
@@ -420,12 +411,9 @@ export default {
         "philosophical questions"
       ],
       "optionReasons": {
-        "philosophy-mcq-17": "本句指「帶哲思的；富哲學意味的；探討人生與意義的」。",
-        "philosophy-mcq-16": "「一個人用來指導自己生活和選擇的個人信念／人生哲學」是「personal philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-15": "「關於存在、道德、知識、意義等深層問題的哲學性問題」是「philosophical question」的用法，與本句語境不同。",
-        "philosophy-mcq-14": "「思考或談論人生、真理、意義等哲理問題」是「philosophize / philosophise」的用法，與本句語境不同。",
-        "philosophy-mcq-13": "「以達觀、平靜接受的態度」是「philosophically — calmly」的用法，與本句語境不同。",
-        "philosophy-mcq-12": "「從哲學角度而言／分析」是「philosophically — academic」的用法，與本句語境不同。"
+        "philosophy-mcq-17": "本句的「philosophical questions」指「帶哲思的；富哲學意味的；探討人生與意義的」。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-17"
     },
@@ -437,10 +425,7 @@ export default {
       "masked": "She studied ____ at university.",
       "options": [
         "philosophy-mcq-01",
-        "philosophy-mcq-02",
-        "philosophy-mcq-03",
-        "philosophy-mcq-04",
-        "philosophy-mcq-05",
+        "philosophy-mcq-10",
         "philosophy-mcq-06"
       ],
       "explanation": "本句的「philosophy」指「研究知識、存在、道德、真理、心靈等根本問題的哲學」。",
@@ -450,12 +435,9 @@ export default {
         "philosophy"
       ],
       "optionReasons": {
-        "philosophy-mcq-01": "本句指「研究知識、存在、道德、真理、心靈等根本問題的哲學」。",
-        "philosophy-mcq-02": "「一套特定的哲學思想或思想流派」是「philosophy — school/system」的用法，與本句語境不同。",
-        "philosophy-mcq-03": "「指導某人、機構或工作的基本理念／原則」是「philosophy — guiding beliefs」的用法，與本句語境不同。",
-        "philosophy-mcq-04": "「經營、教學、設計等背後的一套基本理念」是「business/teaching/design philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-05": "「一個人對人生及處世方式的基本看法；人生哲學」是「philosophy — personal outlook」的用法，與本句語境不同。",
-        "philosophy-mcq-06": "「對人生應如何理解、如何生活的一套人生觀」是「philosophy of life」的用法，與本句語境不同。"
+        "philosophy-mcq-01": "本句的「philosophy」指「研究知識、存在、道德、真理、心靈等根本問題的哲學」。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-01"
     },
@@ -467,10 +449,7 @@ export default {
       "masked": "The course introduces Western ____.",
       "options": [
         "philosophy-mcq-01",
-        "philosophy-mcq-02",
-        "philosophy-mcq-03",
-        "philosophy-mcq-04",
-        "philosophy-mcq-05",
+        "philosophy-mcq-10",
         "philosophy-mcq-06"
       ],
       "explanation": "本句的「philosophy」指「研究知識、存在、道德、真理、心靈等根本問題的哲學」。",
@@ -480,12 +459,9 @@ export default {
         "philosophy"
       ],
       "optionReasons": {
-        "philosophy-mcq-01": "本句指「研究知識、存在、道德、真理、心靈等根本問題的哲學」。",
-        "philosophy-mcq-02": "「一套特定的哲學思想或思想流派」是「philosophy — school/system」的用法，與本句語境不同。",
-        "philosophy-mcq-03": "「指導某人、機構或工作的基本理念／原則」是「philosophy — guiding beliefs」的用法，與本句語境不同。",
-        "philosophy-mcq-04": "「經營、教學、設計等背後的一套基本理念」是「business/teaching/design philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-05": "「一個人對人生及處世方式的基本看法；人生哲學」是「philosophy — personal outlook」的用法，與本句語境不同。",
-        "philosophy-mcq-06": "「對人生應如何理解、如何生活的一套人生觀」是「philosophy of life」的用法，與本句語境不同。"
+        "philosophy-mcq-01": "本句的「philosophy」指「研究知識、存在、道德、真理、心靈等根本問題的哲學」。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-01"
     },
@@ -497,11 +473,9 @@ export default {
       "masked": "He is interested in ancient Greek ____.",
       "options": [
         "philosophy-mcq-02",
-        "philosophy-mcq-01",
         "philosophy-mcq-03",
-        "philosophy-mcq-04",
-        "philosophy-mcq-05",
-        "philosophy-mcq-06"
+        "philosophy-mcq-10",
+        "philosophy-mcq-09"
       ],
       "explanation": "本句的「philosophy」指「一套特定的哲學思想或思想流派」。",
       "sentenceIndex": 4,
@@ -510,12 +484,10 @@ export default {
         "philosophy"
       ],
       "optionReasons": {
-        "philosophy-mcq-02": "本句指「一套特定的哲學思想或思想流派」。",
-        "philosophy-mcq-01": "「研究知識、存在、道德、真理、心靈等根本問題的哲學」是「philosophy — academic discipline」的用法，與本句語境不同。",
-        "philosophy-mcq-03": "「指導某人、機構或工作的基本理念／原則」是「philosophy — guiding beliefs」的用法，與本句語境不同。",
-        "philosophy-mcq-04": "「經營、教學、設計等背後的一套基本理念」是「business/teaching/design philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-05": "「一個人對人生及處世方式的基本看法；人生哲學」是「philosophy — personal outlook」的用法，與本句語境不同。",
-        "philosophy-mcq-06": "「對人生應如何理解、如何生活的一套人生觀」是「philosophy of life」的用法，與本句語境不同。"
+        "philosophy-mcq-02": "本句的「philosophy」指「一套特定的哲學思想或思想流派」。",
+        "philosophy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-02"
     },
@@ -527,11 +499,9 @@ export default {
       "masked": "The book discusses several different ____.",
       "options": [
         "philosophy-mcq-02",
-        "philosophy-mcq-01",
         "philosophy-mcq-03",
-        "philosophy-mcq-04",
-        "philosophy-mcq-05",
-        "philosophy-mcq-06"
+        "philosophy-mcq-10",
+        "philosophy-mcq-09"
       ],
       "explanation": "本句的「philosophies」指「一套特定的哲學思想或思想流派」。",
       "sentenceIndex": 5,
@@ -540,12 +510,10 @@ export default {
         "philosophies"
       ],
       "optionReasons": {
-        "philosophy-mcq-02": "本句指「一套特定的哲學思想或思想流派」。",
-        "philosophy-mcq-01": "「研究知識、存在、道德、真理、心靈等根本問題的哲學」是「philosophy — academic discipline」的用法，與本句語境不同。",
-        "philosophy-mcq-03": "「指導某人、機構或工作的基本理念／原則」是「philosophy — guiding beliefs」的用法，與本句語境不同。",
-        "philosophy-mcq-04": "「經營、教學、設計等背後的一套基本理念」是「business/teaching/design philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-05": "「一個人對人生及處世方式的基本看法；人生哲學」是「philosophy — personal outlook」的用法，與本句語境不同。",
-        "philosophy-mcq-06": "「對人生應如何理解、如何生活的一套人生觀」是「philosophy of life」的用法，與本句語境不同。"
+        "philosophy-mcq-02": "本句的「philosophies」指「一套特定的哲學思想或思想流派」。",
+        "philosophy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-02"
     },
@@ -557,11 +525,9 @@ export default {
       "masked": "The company has a clear management ____.",
       "options": [
         "philosophy-mcq-03",
-        "philosophy-mcq-02",
-        "philosophy-mcq-04",
-        "philosophy-mcq-01",
-        "philosophy-mcq-05",
-        "philosophy-mcq-06"
+        "philosophy-mcq-08",
+        "philosophy-mcq-10",
+        "philosophy-mcq-09"
       ],
       "explanation": "本句的「philosophy」指「指導某人、機構或工作的基本理念／原則」。",
       "sentenceIndex": 6,
@@ -570,12 +536,10 @@ export default {
         "philosophy"
       ],
       "optionReasons": {
-        "philosophy-mcq-03": "本句指「指導某人、機構或工作的基本理念／原則」。",
-        "philosophy-mcq-02": "「一套特定的哲學思想或思想流派」是「philosophy — school/system」的用法，與本句語境不同。",
-        "philosophy-mcq-04": "「經營、教學、設計等背後的一套基本理念」是「business/teaching/design philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-01": "「研究知識、存在、道德、真理、心靈等根本問題的哲學」是「philosophy — academic discipline」的用法，與本句語境不同。",
-        "philosophy-mcq-05": "「一個人對人生及處世方式的基本看法；人生哲學」是「philosophy — personal outlook」的用法，與本句語境不同。",
-        "philosophy-mcq-06": "「對人生應如何理解、如何生活的一套人生觀」是「philosophy of life」的用法，與本句語境不同。"
+        "philosophy-mcq-03": "本句的「philosophy」指「指導某人、機構或工作的基本理念／原則」。",
+        "philosophy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-03"
     },
@@ -587,11 +551,9 @@ export default {
       "masked": "Their teaching ____ emphasizes curiosity.",
       "options": [
         "philosophy-mcq-03",
+        "philosophy-mcq-09",
         "philosophy-mcq-02",
-        "philosophy-mcq-04",
-        "philosophy-mcq-01",
-        "philosophy-mcq-05",
-        "philosophy-mcq-06"
+        "philosophy-mcq-10"
       ],
       "explanation": "本句的「philosophy」指「指導某人、機構或工作的基本理念／原則」。",
       "sentenceIndex": 7,
@@ -600,12 +562,10 @@ export default {
         "philosophy"
       ],
       "optionReasons": {
-        "philosophy-mcq-03": "本句指「指導某人、機構或工作的基本理念／原則」。",
-        "philosophy-mcq-02": "「一套特定的哲學思想或思想流派」是「philosophy — school/system」的用法，與本句語境不同。",
-        "philosophy-mcq-04": "「經營、教學、設計等背後的一套基本理念」是「business/teaching/design philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-01": "「研究知識、存在、道德、真理、心靈等根本問題的哲學」是「philosophy — academic discipline」的用法，與本句語境不同。",
-        "philosophy-mcq-05": "「一個人對人生及處世方式的基本看法；人生哲學」是「philosophy — personal outlook」的用法，與本句語境不同。",
-        "philosophy-mcq-06": "「對人生應如何理解、如何生活的一套人生觀」是「philosophy of life」的用法，與本句語境不同。"
+        "philosophy-mcq-03": "本句的「philosophy」指「指導某人、機構或工作的基本理念／原則」。",
+        "philosophy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-03"
     },
@@ -617,11 +577,9 @@ export default {
       "masked": "Their design ____ focuses on simplicity.",
       "options": [
         "philosophy-mcq-04",
-        "philosophy-mcq-03",
-        "philosophy-mcq-05",
-        "philosophy-mcq-02",
-        "philosophy-mcq-06",
-        "philosophy-mcq-01"
+        "philosophy-mcq-10",
+        "philosophy-mcq-08",
+        "philosophy-mcq-09"
       ],
       "explanation": "本句的「philosophy」指「經營、教學、設計等背後的一套基本理念」。",
       "sentenceIndex": 8,
@@ -630,12 +588,10 @@ export default {
         "philosophy"
       ],
       "optionReasons": {
-        "philosophy-mcq-04": "本句指「經營、教學、設計等背後的一套基本理念」。",
-        "philosophy-mcq-03": "「指導某人、機構或工作的基本理念／原則」是「philosophy — guiding beliefs」的用法，與本句語境不同。",
-        "philosophy-mcq-05": "「一個人對人生及處世方式的基本看法；人生哲學」是「philosophy — personal outlook」的用法，與本句語境不同。",
-        "philosophy-mcq-02": "「一套特定的哲學思想或思想流派」是「philosophy — school/system」的用法，與本句語境不同。",
-        "philosophy-mcq-06": "「對人生應如何理解、如何生活的一套人生觀」是「philosophy of life」的用法，與本句語境不同。",
-        "philosophy-mcq-01": "「研究知識、存在、道德、真理、心靈等根本問題的哲學」是「philosophy — academic discipline」的用法，與本句語境不同。"
+        "philosophy-mcq-04": "本句的「philosophy」指「經營、教學、設計等背後的一套基本理念」。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-04"
     },
@@ -647,11 +603,9 @@ export default {
       "masked": "Her teaching ____ is based on active learning.",
       "options": [
         "philosophy-mcq-04",
-        "philosophy-mcq-03",
-        "philosophy-mcq-05",
-        "philosophy-mcq-02",
-        "philosophy-mcq-06",
-        "philosophy-mcq-01"
+        "philosophy-mcq-10",
+        "philosophy-mcq-09",
+        "philosophy-mcq-08"
       ],
       "explanation": "本句的「philosophy」指「經營、教學、設計等背後的一套基本理念」。",
       "sentenceIndex": 9,
@@ -660,12 +614,10 @@ export default {
         "philosophy"
       ],
       "optionReasons": {
-        "philosophy-mcq-04": "本句指「經營、教學、設計等背後的一套基本理念」。",
-        "philosophy-mcq-03": "「指導某人、機構或工作的基本理念／原則」是「philosophy — guiding beliefs」的用法，與本句語境不同。",
-        "philosophy-mcq-05": "「一個人對人生及處世方式的基本看法；人生哲學」是「philosophy — personal outlook」的用法，與本句語境不同。",
-        "philosophy-mcq-02": "「一套特定的哲學思想或思想流派」是「philosophy — school/system」的用法，與本句語境不同。",
-        "philosophy-mcq-06": "「對人生應如何理解、如何生活的一套人生觀」是「philosophy of life」的用法，與本句語境不同。",
-        "philosophy-mcq-01": "「研究知識、存在、道德、真理、心靈等根本問題的哲學」是「philosophy — academic discipline」的用法，與本句語境不同。"
+        "philosophy-mcq-04": "本句的「philosophy」指「經營、教學、設計等背後的一套基本理念」。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-04"
     },
@@ -677,11 +629,7 @@ export default {
       "masked": "His ____ is to keep things simple.",
       "options": [
         "philosophy-mcq-05",
-        "philosophy-mcq-04",
-        "philosophy-mcq-06",
-        "philosophy-mcq-03",
-        "philosophy-mcq-07",
-        "philosophy-mcq-02"
+        "philosophy-mcq-10"
       ],
       "explanation": "本句的「philosophy」指「一個人對人生及處世方式的基本看法；人生哲學」。",
       "sentenceIndex": 10,
@@ -690,12 +638,8 @@ export default {
         "philosophy"
       ],
       "optionReasons": {
-        "philosophy-mcq-05": "本句指「一個人對人生及處世方式的基本看法；人生哲學」。",
-        "philosophy-mcq-04": "「經營、教學、設計等背後的一套基本理念」是「business/teaching/design philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-06": "「對人生應如何理解、如何生活的一套人生觀」是「philosophy of life」的用法，與本句語境不同。",
-        "philosophy-mcq-03": "「指導某人、機構或工作的基本理念／原則」是「philosophy — guiding beliefs」的用法，與本句語境不同。",
-        "philosophy-mcq-07": "「對某事一貫採用的基本方針／做事理念」是「philosophy — general approach」的用法，與本句語境不同。",
-        "philosophy-mcq-02": "「一套特定的哲學思想或思想流派」是「philosophy — school/system」的用法，與本句語境不同。"
+        "philosophy-mcq-05": "本句的「philosophy」指「一個人對人生及處世方式的基本看法；人生哲學」。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-05"
     },
@@ -707,11 +651,7 @@ export default {
       "masked": "She has a very practical ____.",
       "options": [
         "philosophy-mcq-05",
-        "philosophy-mcq-04",
-        "philosophy-mcq-06",
-        "philosophy-mcq-03",
-        "philosophy-mcq-07",
-        "philosophy-mcq-02"
+        "philosophy-mcq-10"
       ],
       "explanation": "本句的「philosophy of life」指「一個人對人生及處世方式的基本看法；人生哲學」。",
       "sentenceIndex": 11,
@@ -720,12 +660,8 @@ export default {
         "philosophy of life"
       ],
       "optionReasons": {
-        "philosophy-mcq-05": "本句指「一個人對人生及處世方式的基本看法；人生哲學」。",
-        "philosophy-mcq-04": "「經營、教學、設計等背後的一套基本理念」是「business/teaching/design philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-06": "「對人生應如何理解、如何生活的一套人生觀」是「philosophy of life」的用法，與本句語境不同。",
-        "philosophy-mcq-03": "「指導某人、機構或工作的基本理念／原則」是「philosophy — guiding beliefs」的用法，與本句語境不同。",
-        "philosophy-mcq-07": "「對某事一貫採用的基本方針／做事理念」是「philosophy — general approach」的用法，與本句語境不同。",
-        "philosophy-mcq-02": "「一套特定的哲學思想或思想流派」是「philosophy — school/system」的用法，與本句語境不同。"
+        "philosophy-mcq-05": "本句的「philosophy of life」指「一個人對人生及處世方式的基本看法；人生哲學」。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-05"
     },
@@ -737,11 +673,9 @@ export default {
       "masked": "Travel changed his ____.",
       "options": [
         "philosophy-mcq-06",
-        "philosophy-mcq-05",
-        "philosophy-mcq-07",
-        "philosophy-mcq-04",
-        "philosophy-mcq-08",
-        "philosophy-mcq-03"
+        "philosophy-mcq-11",
+        "philosophy-mcq-03",
+        "philosophy-mcq-10"
       ],
       "explanation": "本句的「philosophy of life」指「對人生應如何理解、如何生活的一套人生觀」。",
       "sentenceIndex": 12,
@@ -750,12 +684,10 @@ export default {
         "philosophy of life"
       ],
       "optionReasons": {
-        "philosophy-mcq-06": "本句指「對人生應如何理解、如何生活的一套人生觀」。",
-        "philosophy-mcq-05": "「一個人對人生及處世方式的基本看法；人生哲學」是「philosophy — personal outlook」的用法，與本句語境不同。",
-        "philosophy-mcq-07": "「對某事一貫採用的基本方針／做事理念」是「philosophy — general approach」的用法，與本句語境不同。",
-        "philosophy-mcq-04": "「經營、教學、設計等背後的一套基本理念」是「business/teaching/design philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-08": "「與哲學這門學科有關的」是「philosophical — academic」的用法，與本句語境不同。",
-        "philosophy-mcq-03": "「指導某人、機構或工作的基本理念／原則」是「philosophy — guiding beliefs」的用法，與本句語境不同。"
+        "philosophy-mcq-06": "本句的「philosophy of life」指「對人生應如何理解、如何生活的一套人生觀」。",
+        "philosophy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-06"
     },
@@ -767,10 +699,8 @@ export default {
       "masked": "Her ____ is based on gratitude.",
       "options": [
         "philosophy-mcq-06",
-        "philosophy-mcq-05",
-        "philosophy-mcq-07",
-        "philosophy-mcq-04",
         "philosophy-mcq-08",
+        "philosophy-mcq-10",
         "philosophy-mcq-03"
       ],
       "explanation": "本句的「philosophy of life」指「對人生應如何理解、如何生活的一套人生觀」。",
@@ -780,12 +710,10 @@ export default {
         "philosophy of life"
       ],
       "optionReasons": {
-        "philosophy-mcq-06": "本句指「對人生應如何理解、如何生活的一套人生觀」。",
-        "philosophy-mcq-05": "「一個人對人生及處世方式的基本看法；人生哲學」是「philosophy — personal outlook」的用法，與本句語境不同。",
-        "philosophy-mcq-07": "「對某事一貫採用的基本方針／做事理念」是「philosophy — general approach」的用法，與本句語境不同。",
-        "philosophy-mcq-04": "「經營、教學、設計等背後的一套基本理念」是「business/teaching/design philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-08": "「與哲學這門學科有關的」是「philosophical — academic」的用法，與本句語境不同。",
-        "philosophy-mcq-03": "「指導某人、機構或工作的基本理念／原則」是「philosophy — guiding beliefs」的用法，與本句語境不同。"
+        "philosophy-mcq-06": "本句的「philosophy of life」指「對人生應如何理解、如何生活的一套人生觀」。",
+        "philosophy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-06"
     },
@@ -797,11 +725,9 @@ export default {
       "masked": "Our ____ is to solve problems early.",
       "options": [
         "philosophy-mcq-07",
-        "philosophy-mcq-06",
-        "philosophy-mcq-08",
-        "philosophy-mcq-05",
-        "philosophy-mcq-09",
-        "philosophy-mcq-04"
+        "philosophy-mcq-11",
+        "philosophy-mcq-10",
+        "philosophy-mcq-09"
       ],
       "explanation": "本句的「philosophy」指「對某事一貫採用的基本方針／做事理念」。",
       "sentenceIndex": 14,
@@ -810,12 +736,10 @@ export default {
         "philosophy"
       ],
       "optionReasons": {
-        "philosophy-mcq-07": "本句指「對某事一貫採用的基本方針／做事理念」。",
-        "philosophy-mcq-06": "「對人生應如何理解、如何生活的一套人生觀」是「philosophy of life」的用法，與本句語境不同。",
-        "philosophy-mcq-08": "「與哲學這門學科有關的」是「philosophical — academic」的用法，與本句語境不同。",
-        "philosophy-mcq-05": "「一個人對人生及處世方式的基本看法；人生哲學」是「philosophy — personal outlook」的用法，與本句語境不同。",
-        "philosophy-mcq-09": "「探討人生、存在、價值、意義等深層問題的；富哲思的」是「philosophical — reflective」的用法，與本句語境不同。",
-        "philosophy-mcq-04": "「經營、教學、設計等背後的一套基本理念」是「business/teaching/design philosophy」的用法，與本句語境不同。"
+        "philosophy-mcq-07": "本句的「philosophy」指「對某事一貫採用的基本方針／做事理念」。",
+        "philosophy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-07"
     },
@@ -827,11 +751,9 @@ export default {
       "masked": "The restaurant’s ____ is to use local ingredients.",
       "options": [
         "philosophy-mcq-07",
-        "philosophy-mcq-06",
-        "philosophy-mcq-08",
-        "philosophy-mcq-05",
-        "philosophy-mcq-09",
-        "philosophy-mcq-04"
+        "philosophy-mcq-11",
+        "philosophy-mcq-10",
+        "philosophy-mcq-09"
       ],
       "explanation": "本句的「philosophy」指「對某事一貫採用的基本方針／做事理念」。",
       "sentenceIndex": 15,
@@ -840,12 +762,10 @@ export default {
         "philosophy"
       ],
       "optionReasons": {
-        "philosophy-mcq-07": "本句指「對某事一貫採用的基本方針／做事理念」。",
-        "philosophy-mcq-06": "「對人生應如何理解、如何生活的一套人生觀」是「philosophy of life」的用法，與本句語境不同。",
-        "philosophy-mcq-08": "「與哲學這門學科有關的」是「philosophical — academic」的用法，與本句語境不同。",
-        "philosophy-mcq-05": "「一個人對人生及處世方式的基本看法；人生哲學」是「philosophy — personal outlook」的用法，與本句語境不同。",
-        "philosophy-mcq-09": "「探討人生、存在、價值、意義等深層問題的；富哲思的」是「philosophical — reflective」的用法，與本句語境不同。",
-        "philosophy-mcq-04": "「經營、教學、設計等背後的一套基本理念」是「business/teaching/design philosophy」的用法，與本句語境不同。"
+        "philosophy-mcq-07": "本句的「philosophy」指「對某事一貫採用的基本方針／做事理念」。",
+        "philosophy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-07"
     },
@@ -857,11 +777,9 @@ export default {
       "masked": "The essay discusses a ____.",
       "options": [
         "philosophy-mcq-08",
-        "philosophy-mcq-07",
-        "philosophy-mcq-09",
+        "philosophy-mcq-03",
         "philosophy-mcq-06",
-        "philosophy-mcq-10",
-        "philosophy-mcq-05"
+        "philosophy-mcq-10"
       ],
       "explanation": "本句的「philosophical problem」指「與哲學這門學科有關的」。",
       "sentenceIndex": 16,
@@ -870,12 +788,10 @@ export default {
         "philosophical problem"
       ],
       "optionReasons": {
-        "philosophy-mcq-08": "本句指「與哲學這門學科有關的」。",
-        "philosophy-mcq-07": "「對某事一貫採用的基本方針／做事理念」是「philosophy — general approach」的用法，與本句語境不同。",
-        "philosophy-mcq-09": "「探討人生、存在、價值、意義等深層問題的；富哲思的」是「philosophical — reflective」的用法，與本句語境不同。",
-        "philosophy-mcq-06": "「對人生應如何理解、如何生活的一套人生觀」是「philosophy of life」的用法，與本句語境不同。",
-        "philosophy-mcq-10": "「對困難或失敗看得開、能平靜接受的；達觀的」是「philosophical — accepting」的用法，與本句語境不同。",
-        "philosophy-mcq-05": "「一個人對人生及處世方式的基本看法；人生哲學」是「philosophy — personal outlook」的用法，與本句語境不同。"
+        "philosophy-mcq-08": "本句的「philosophical problem」指「與哲學這門學科有關的」。",
+        "philosophy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-08"
     },
@@ -887,11 +803,9 @@ export default {
       "masked": "They had a long ____.",
       "options": [
         "philosophy-mcq-08",
-        "philosophy-mcq-07",
-        "philosophy-mcq-09",
         "philosophy-mcq-06",
-        "philosophy-mcq-10",
-        "philosophy-mcq-05"
+        "philosophy-mcq-07",
+        "philosophy-mcq-10"
       ],
       "explanation": "本句的「philosophical debate」指「與哲學這門學科有關的」。",
       "sentenceIndex": 17,
@@ -900,12 +814,10 @@ export default {
         "philosophical debate"
       ],
       "optionReasons": {
-        "philosophy-mcq-08": "本句指「與哲學這門學科有關的」。",
-        "philosophy-mcq-07": "「對某事一貫採用的基本方針／做事理念」是「philosophy — general approach」的用法，與本句語境不同。",
-        "philosophy-mcq-09": "「探討人生、存在、價值、意義等深層問題的；富哲思的」是「philosophical — reflective」的用法，與本句語境不同。",
-        "philosophy-mcq-06": "「對人生應如何理解、如何生活的一套人生觀」是「philosophy of life」的用法，與本句語境不同。",
-        "philosophy-mcq-10": "「對困難或失敗看得開、能平靜接受的；達觀的」是「philosophical — accepting」的用法，與本句語境不同。",
-        "philosophy-mcq-05": "「一個人對人生及處世方式的基本看法；人生哲學」是「philosophy — personal outlook」的用法，與本句語境不同。"
+        "philosophy-mcq-08": "本句的「philosophical debate」指「與哲學這門學科有關的」。",
+        "philosophy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-08"
     },
@@ -917,11 +829,9 @@ export default {
       "masked": "The film has a ____ tone.",
       "options": [
         "philosophy-mcq-09",
-        "philosophy-mcq-08",
+        "philosophy-mcq-03",
         "philosophy-mcq-10",
-        "philosophy-mcq-07",
-        "philosophy-mcq-11",
-        "philosophy-mcq-06"
+        "philosophy-mcq-08"
       ],
       "explanation": "本句的「philosophical」指「探討人生、存在、價值、意義等深層問題的；富哲思的」。",
       "sentenceIndex": 18,
@@ -930,12 +840,10 @@ export default {
         "philosophical"
       ],
       "optionReasons": {
-        "philosophy-mcq-09": "本句指「探討人生、存在、價值、意義等深層問題的；富哲思的」。",
-        "philosophy-mcq-08": "「與哲學這門學科有關的」是「philosophical — academic」的用法，與本句語境不同。",
-        "philosophy-mcq-10": "「對困難或失敗看得開、能平靜接受的；達觀的」是「philosophical — accepting」的用法，與本句語境不同。",
-        "philosophy-mcq-07": "「對某事一貫採用的基本方針／做事理念」是「philosophy — general approach」的用法，與本句語境不同。",
-        "philosophy-mcq-11": "「研究、發展或撰寫哲學思想的人；哲學家」是「philosopher」的用法，與本句語境不同。",
-        "philosophy-mcq-06": "「對人生應如何理解、如何生活的一套人生觀」是「philosophy of life」的用法，與本句語境不同。"
+        "philosophy-mcq-09": "本句的「philosophical」指「探討人生、存在、價值、意義等深層問題的；富哲思的」。",
+        "philosophy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-09"
     },
@@ -947,11 +855,9 @@ export default {
       "masked": "The novel becomes more ____ near the end.",
       "options": [
         "philosophy-mcq-09",
-        "philosophy-mcq-08",
-        "philosophy-mcq-10",
         "philosophy-mcq-07",
-        "philosophy-mcq-11",
-        "philosophy-mcq-06"
+        "philosophy-mcq-10",
+        "philosophy-mcq-08"
       ],
       "explanation": "本句的「philosophical」指「探討人生、存在、價值、意義等深層問題的；富哲思的」。",
       "sentenceIndex": 19,
@@ -960,12 +866,10 @@ export default {
         "philosophical"
       ],
       "optionReasons": {
-        "philosophy-mcq-09": "本句指「探討人生、存在、價值、意義等深層問題的；富哲思的」。",
-        "philosophy-mcq-08": "「與哲學這門學科有關的」是「philosophical — academic」的用法，與本句語境不同。",
-        "philosophy-mcq-10": "「對困難或失敗看得開、能平靜接受的；達觀的」是「philosophical — accepting」的用法，與本句語境不同。",
-        "philosophy-mcq-07": "「對某事一貫採用的基本方針／做事理念」是「philosophy — general approach」的用法，與本句語境不同。",
-        "philosophy-mcq-11": "「研究、發展或撰寫哲學思想的人；哲學家」是「philosopher」的用法，與本句語境不同。",
-        "philosophy-mcq-06": "「對人生應如何理解、如何生活的一套人生觀」是「philosophy of life」的用法，與本句語境不同。"
+        "philosophy-mcq-09": "本句的「philosophical」指「探討人生、存在、價值、意義等深層問題的；富哲思的」。",
+        "philosophy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-09"
     },
@@ -977,11 +881,9 @@ export default {
       "masked": "She was surprisingly ____ about the loss.",
       "options": [
         "philosophy-mcq-10",
-        "philosophy-mcq-09",
-        "philosophy-mcq-11",
-        "philosophy-mcq-08",
-        "philosophy-mcq-12",
-        "philosophy-mcq-07"
+        "philosophy-mcq-15",
+        "philosophy-mcq-07",
+        "philosophy-mcq-06"
       ],
       "explanation": "本句的「philosophical」指「對困難或失敗看得開、能平靜接受的；達觀的」。",
       "sentenceIndex": 20,
@@ -990,12 +892,10 @@ export default {
         "philosophical"
       ],
       "optionReasons": {
-        "philosophy-mcq-10": "本句指「對困難或失敗看得開、能平靜接受的；達觀的」。",
-        "philosophy-mcq-09": "「探討人生、存在、價值、意義等深層問題的；富哲思的」是「philosophical — reflective」的用法，與本句語境不同。",
-        "philosophy-mcq-11": "「研究、發展或撰寫哲學思想的人；哲學家」是「philosopher」的用法，與本句語境不同。",
-        "philosophy-mcq-08": "「與哲學這門學科有關的」是「philosophical — academic」的用法，與本句語境不同。",
-        "philosophy-mcq-12": "「從哲學角度而言／分析」是「philosophically — academic」的用法，與本句語境不同。",
-        "philosophy-mcq-07": "「對某事一貫採用的基本方針／做事理念」是「philosophy — general approach」的用法，與本句語境不同。"
+        "philosophy-mcq-10": "本句的「philosophical」指「對困難或失敗看得開、能平靜接受的；達觀的」。",
+        "philosophy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-10"
     },
@@ -1007,11 +907,9 @@ export default {
       "masked": "He took a ____ view of the setback.",
       "options": [
         "philosophy-mcq-10",
-        "philosophy-mcq-09",
-        "philosophy-mcq-11",
         "philosophy-mcq-08",
-        "philosophy-mcq-12",
-        "philosophy-mcq-07"
+        "philosophy-mcq-09",
+        "philosophy-mcq-03"
       ],
       "explanation": "本句的「philosophical」指「對困難或失敗看得開、能平靜接受的；達觀的」。",
       "sentenceIndex": 21,
@@ -1020,12 +918,10 @@ export default {
         "philosophical"
       ],
       "optionReasons": {
-        "philosophy-mcq-10": "本句指「對困難或失敗看得開、能平靜接受的；達觀的」。",
-        "philosophy-mcq-09": "「探討人生、存在、價值、意義等深層問題的；富哲思的」是「philosophical — reflective」的用法，與本句語境不同。",
-        "philosophy-mcq-11": "「研究、發展或撰寫哲學思想的人；哲學家」是「philosopher」的用法，與本句語境不同。",
-        "philosophy-mcq-08": "「與哲學這門學科有關的」是「philosophical — academic」的用法，與本句語境不同。",
-        "philosophy-mcq-12": "「從哲學角度而言／分析」是「philosophically — academic」的用法，與本句語境不同。",
-        "philosophy-mcq-07": "「對某事一貫採用的基本方針／做事理念」是「philosophy — general approach」的用法，與本句語境不同。"
+        "philosophy-mcq-10": "本句的「philosophical」指「對困難或失敗看得開、能平靜接受的；達觀的」。",
+        "philosophy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-10"
     },
@@ -1037,11 +933,9 @@ export default {
       "masked": "Plato was an ancient Greek ____.",
       "options": [
         "philosophy-mcq-11",
+        "philosophy-mcq-07",
         "philosophy-mcq-10",
-        "philosophy-mcq-12",
-        "philosophy-mcq-09",
-        "philosophy-mcq-13",
-        "philosophy-mcq-08"
+        "philosophy-mcq-06"
       ],
       "explanation": "本句的「philosopher」指「研究、發展或撰寫哲學思想的人；哲學家」。",
       "sentenceIndex": 22,
@@ -1050,12 +944,10 @@ export default {
         "philosopher"
       ],
       "optionReasons": {
-        "philosophy-mcq-11": "本句指「研究、發展或撰寫哲學思想的人；哲學家」。",
-        "philosophy-mcq-10": "「對困難或失敗看得開、能平靜接受的；達觀的」是「philosophical — accepting」的用法，與本句語境不同。",
-        "philosophy-mcq-12": "「從哲學角度而言／分析」是「philosophically — academic」的用法，與本句語境不同。",
-        "philosophy-mcq-09": "「探討人生、存在、價值、意義等深層問題的；富哲思的」是「philosophical — reflective」的用法，與本句語境不同。",
-        "philosophy-mcq-13": "「以達觀、平靜接受的態度」是「philosophically — calmly」的用法，與本句語境不同。",
-        "philosophy-mcq-08": "「與哲學這門學科有關的」是「philosophical — academic」的用法，與本句語境不同。"
+        "philosophy-mcq-11": "本句的「philosopher」指「研究、發展或撰寫哲學思想的人；哲學家」。",
+        "philosophy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-11"
     },
@@ -1068,10 +960,8 @@ export default {
       "options": [
         "philosophy-mcq-11",
         "philosophy-mcq-10",
-        "philosophy-mcq-12",
-        "philosophy-mcq-09",
-        "philosophy-mcq-13",
-        "philosophy-mcq-08"
+        "philosophy-mcq-06",
+        "philosophy-mcq-03"
       ],
       "explanation": "本句的「philosopher」指「研究、發展或撰寫哲學思想的人；哲學家」。",
       "sentenceIndex": 23,
@@ -1080,12 +970,10 @@ export default {
         "philosopher"
       ],
       "optionReasons": {
-        "philosophy-mcq-11": "本句指「研究、發展或撰寫哲學思想的人；哲學家」。",
-        "philosophy-mcq-10": "「對困難或失敗看得開、能平靜接受的；達觀的」是「philosophical — accepting」的用法，與本句語境不同。",
-        "philosophy-mcq-12": "「從哲學角度而言／分析」是「philosophically — academic」的用法，與本句語境不同。",
-        "philosophy-mcq-09": "「探討人生、存在、價值、意義等深層問題的；富哲思的」是「philosophical — reflective」的用法，與本句語境不同。",
-        "philosophy-mcq-13": "「以達觀、平靜接受的態度」是「philosophically — calmly」的用法，與本句語境不同。",
-        "philosophy-mcq-08": "「與哲學這門學科有關的」是「philosophical — academic」的用法，與本句語境不同。"
+        "philosophy-mcq-11": "本句的「philosopher」指「研究、發展或撰寫哲學思想的人；哲學家」。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-11"
     },
@@ -1097,11 +985,9 @@ export default {
       "masked": "They spent the evening ____.",
       "options": [
         "philosophy-mcq-14",
-        "philosophy-mcq-13",
-        "philosophy-mcq-15",
-        "philosophy-mcq-12",
-        "philosophy-mcq-16",
-        "philosophy-mcq-11"
+        "philosophy-mcq-10",
+        "philosophy-mcq-07",
+        "philosophy-mcq-08"
       ],
       "explanation": "本句的「philosophizing about life」指「思考或談論人生、真理、意義等哲理問題」。",
       "sentenceIndex": 24,
@@ -1110,12 +996,10 @@ export default {
         "philosophizing about life"
       ],
       "optionReasons": {
-        "philosophy-mcq-14": "本句指「思考或談論人生、真理、意義等哲理問題」。",
-        "philosophy-mcq-13": "「以達觀、平靜接受的態度」是「philosophically — calmly」的用法，與本句語境不同。",
-        "philosophy-mcq-15": "「關於存在、道德、知識、意義等深層問題的哲學性問題」是「philosophical question」的用法，與本句語境不同。",
-        "philosophy-mcq-12": "「從哲學角度而言／分析」是「philosophically — academic」的用法，與本句語境不同。",
-        "philosophy-mcq-16": "「一個人用來指導自己生活和選擇的個人信念／人生哲學」是「personal philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-11": "「研究、發展或撰寫哲學思想的人；哲學家」是「philosopher」的用法，與本句語境不同。"
+        "philosophy-mcq-14": "本句的「philosophizing about life」指「思考或談論人生、真理、意義等哲理問題」。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-14"
     },
@@ -1127,11 +1011,9 @@ export default {
       "masked": "He likes to ____ about happiness.",
       "options": [
         "philosophy-mcq-14",
-        "philosophy-mcq-13",
-        "philosophy-mcq-15",
-        "philosophy-mcq-12",
-        "philosophy-mcq-16",
-        "philosophy-mcq-11"
+        "philosophy-mcq-10",
+        "philosophy-mcq-08",
+        "philosophy-mcq-03"
       ],
       "explanation": "本句的「philosophise」指「思考或談論人生、真理、意義等哲理問題」。",
       "sentenceIndex": 25,
@@ -1140,12 +1022,10 @@ export default {
         "philosophise"
       ],
       "optionReasons": {
-        "philosophy-mcq-14": "本句指「思考或談論人生、真理、意義等哲理問題」。",
-        "philosophy-mcq-13": "「以達觀、平靜接受的態度」是「philosophically — calmly」的用法，與本句語境不同。",
-        "philosophy-mcq-15": "「關於存在、道德、知識、意義等深層問題的哲學性問題」是「philosophical question」的用法，與本句語境不同。",
-        "philosophy-mcq-12": "「從哲學角度而言／分析」是「philosophically — academic」的用法，與本句語境不同。",
-        "philosophy-mcq-16": "「一個人用來指導自己生活和選擇的個人信念／人生哲學」是「personal philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-11": "「研究、發展或撰寫哲學思想的人；哲學家」是「philosopher」的用法，與本句語境不同。"
+        "philosophy-mcq-14": "本句的「philosophise」指「思考或談論人生、真理、意義等哲理問題」。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-14"
     },
@@ -1157,11 +1037,9 @@ export default {
       "masked": "The story raises a ____ about free will.",
       "options": [
         "philosophy-mcq-15",
-        "philosophy-mcq-14",
-        "philosophy-mcq-16",
-        "philosophy-mcq-13",
-        "philosophy-mcq-17",
-        "philosophy-mcq-12"
+        "philosophy-mcq-10",
+        "philosophy-mcq-07",
+        "philosophy-mcq-06"
       ],
       "explanation": "本句的「philosophical question」指「關於存在、道德、知識、意義等深層問題的哲學性問題」。",
       "sentenceIndex": 26,
@@ -1170,12 +1048,10 @@ export default {
         "philosophical question"
       ],
       "optionReasons": {
-        "philosophy-mcq-15": "本句指「關於存在、道德、知識、意義等深層問題的哲學性問題」。",
-        "philosophy-mcq-14": "「思考或談論人生、真理、意義等哲理問題」是「philosophize / philosophise」的用法，與本句語境不同。",
-        "philosophy-mcq-16": "「一個人用來指導自己生活和選擇的個人信念／人生哲學」是「personal philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-13": "「以達觀、平靜接受的態度」是「philosophically — calmly」的用法，與本句語境不同。",
-        "philosophy-mcq-17": "「帶哲思的；富哲學意味的；探討人生與意義的」是「Passage meaning」的用法，與本句語境不同。",
-        "philosophy-mcq-12": "「從哲學角度而言／分析」是「philosophically — academic」的用法，與本句語境不同。"
+        "philosophy-mcq-15": "本句的「philosophical question」指「關於存在、道德、知識、意義等深層問題的哲學性問題」。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-15"
     },
@@ -1187,11 +1063,9 @@ export default {
       "masked": "What makes a good life?” is a ____.",
       "options": [
         "philosophy-mcq-15",
-        "philosophy-mcq-14",
-        "philosophy-mcq-16",
-        "philosophy-mcq-13",
-        "philosophy-mcq-17",
-        "philosophy-mcq-12"
+        "philosophy-mcq-07",
+        "philosophy-mcq-10",
+        "philosophy-mcq-06"
       ],
       "explanation": "本句的「philosophical question」指「關於存在、道德、知識、意義等深層問題的哲學性問題」。",
       "sentenceIndex": 27,
@@ -1200,12 +1074,10 @@ export default {
         "philosophical question"
       ],
       "optionReasons": {
-        "philosophy-mcq-15": "本句指「關於存在、道德、知識、意義等深層問題的哲學性問題」。",
-        "philosophy-mcq-14": "「思考或談論人生、真理、意義等哲理問題」是「philosophize / philosophise」的用法，與本句語境不同。",
-        "philosophy-mcq-16": "「一個人用來指導自己生活和選擇的個人信念／人生哲學」是「personal philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-13": "「以達觀、平靜接受的態度」是「philosophically — calmly」的用法，與本句語境不同。",
-        "philosophy-mcq-17": "「帶哲思的；富哲學意味的；探討人生與意義的」是「Passage meaning」的用法，與本句語境不同。",
-        "philosophy-mcq-12": "「從哲學角度而言／分析」是「philosophically — academic」的用法，與本句語境不同。"
+        "philosophy-mcq-15": "本句的「philosophical question」指「關於存在、道德、知識、意義等深層問題的哲學性問題」。",
+        "philosophy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-15"
     },
@@ -1217,11 +1089,9 @@ export default {
       "masked": "The author takes a ____ to regret.",
       "options": [
         "philosophy-mcq-15",
-        "philosophy-mcq-14",
-        "philosophy-mcq-16",
-        "philosophy-mcq-13",
-        "philosophy-mcq-17",
-        "philosophy-mcq-12"
+        "philosophy-mcq-10",
+        "philosophy-mcq-03",
+        "philosophy-mcq-06"
       ],
       "explanation": "本句的「philosophical approach」指「關於存在、道德、知識、意義等深層問題的哲學性問題」。",
       "sentenceIndex": 28,
@@ -1230,12 +1100,10 @@ export default {
         "philosophical approach"
       ],
       "optionReasons": {
-        "philosophy-mcq-15": "本句指「關於存在、道德、知識、意義等深層問題的哲學性問題」。",
-        "philosophy-mcq-14": "「思考或談論人生、真理、意義等哲理問題」是「philosophize / philosophise」的用法，與本句語境不同。",
-        "philosophy-mcq-16": "「一個人用來指導自己生活和選擇的個人信念／人生哲學」是「personal philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-13": "「以達觀、平靜接受的態度」是「philosophically — calmly」的用法，與本句語境不同。",
-        "philosophy-mcq-17": "「帶哲思的；富哲學意味的；探討人生與意義的」是「Passage meaning」的用法，與本句語境不同。",
-        "philosophy-mcq-12": "「從哲學角度而言／分析」是「philosophically — academic」的用法，與本句語境不同。"
+        "philosophy-mcq-15": "本句的「philosophical approach」指「關於存在、道德、知識、意義等深層問題的哲學性問題」。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-15"
     },
@@ -1247,11 +1115,9 @@ export default {
       "masked": "The discussion became more ____ than practical.",
       "options": [
         "philosophy-mcq-15",
-        "philosophy-mcq-14",
-        "philosophy-mcq-16",
-        "philosophy-mcq-13",
-        "philosophy-mcq-17",
-        "philosophy-mcq-12"
+        "philosophy-mcq-10",
+        "philosophy-mcq-06",
+        "philosophy-mcq-03"
       ],
       "explanation": "本句的「philosophical」指「關於存在、道德、知識、意義等深層問題的哲學性問題」。",
       "sentenceIndex": 29,
@@ -1260,12 +1126,10 @@ export default {
         "philosophical"
       ],
       "optionReasons": {
-        "philosophy-mcq-15": "本句指「關於存在、道德、知識、意義等深層問題的哲學性問題」。",
-        "philosophy-mcq-14": "「思考或談論人生、真理、意義等哲理問題」是「philosophize / philosophise」的用法，與本句語境不同。",
-        "philosophy-mcq-16": "「一個人用來指導自己生活和選擇的個人信念／人生哲學」是「personal philosophy」的用法，與本句語境不同。",
-        "philosophy-mcq-13": "「以達觀、平靜接受的態度」是「philosophically — calmly」的用法，與本句語境不同。",
-        "philosophy-mcq-17": "「帶哲思的；富哲學意味的；探討人生與意義的」是「Passage meaning」的用法，與本句語境不同。",
-        "philosophy-mcq-12": "「從哲學角度而言／分析」是「philosophically — academic」的用法，與本句語境不同。"
+        "philosophy-mcq-15": "本句的「philosophical」指「關於存在、道德、知識、意義等深層問題的哲學性問題」。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-15"
     },
@@ -1277,11 +1141,8 @@ export default {
       "masked": "Her ____ is to be useful rather than impressive.",
       "options": [
         "philosophy-mcq-16",
-        "philosophy-mcq-15",
-        "philosophy-mcq-17",
-        "philosophy-mcq-14",
-        "philosophy-mcq-13",
-        "philosophy-mcq-12"
+        "philosophy-mcq-10",
+        "philosophy-mcq-07"
       ],
       "explanation": "本句的「personal philosophy」指「一個人用來指導自己生活和選擇的個人信念／人生哲學」。",
       "sentenceIndex": 30,
@@ -1290,12 +1151,9 @@ export default {
         "personal philosophy"
       ],
       "optionReasons": {
-        "philosophy-mcq-16": "本句指「一個人用來指導自己生活和選擇的個人信念／人生哲學」。",
-        "philosophy-mcq-15": "「關於存在、道德、知識、意義等深層問題的哲學性問題」是「philosophical question」的用法，與本句語境不同。",
-        "philosophy-mcq-17": "「帶哲思的；富哲學意味的；探討人生與意義的」是「Passage meaning」的用法，與本句語境不同。",
-        "philosophy-mcq-14": "「思考或談論人生、真理、意義等哲理問題」是「philosophize / philosophise」的用法，與本句語境不同。",
-        "philosophy-mcq-13": "「以達觀、平靜接受的態度」是「philosophically — calmly」的用法，與本句語境不同。",
-        "philosophy-mcq-12": "「從哲學角度而言／分析」是「philosophically — academic」的用法，與本句語境不同。"
+        "philosophy-mcq-16": "本句的「personal philosophy」指「一個人用來指導自己生活和選擇的個人信念／人生哲學」。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-16"
     },
@@ -1307,11 +1165,8 @@ export default {
       "masked": "Experience shaped his ____.",
       "options": [
         "philosophy-mcq-16",
-        "philosophy-mcq-15",
-        "philosophy-mcq-17",
-        "philosophy-mcq-14",
-        "philosophy-mcq-13",
-        "philosophy-mcq-12"
+        "philosophy-mcq-10",
+        "philosophy-mcq-07"
       ],
       "explanation": "本句的「personal philosophy」指「一個人用來指導自己生活和選擇的個人信念／人生哲學」。",
       "sentenceIndex": 31,
@@ -1320,12 +1175,9 @@ export default {
         "personal philosophy"
       ],
       "optionReasons": {
-        "philosophy-mcq-16": "本句指「一個人用來指導自己生活和選擇的個人信念／人生哲學」。",
-        "philosophy-mcq-15": "「關於存在、道德、知識、意義等深層問題的哲學性問題」是「philosophical question」的用法，與本句語境不同。",
-        "philosophy-mcq-17": "「帶哲思的；富哲學意味的；探討人生與意義的」是「Passage meaning」的用法，與本句語境不同。",
-        "philosophy-mcq-14": "「思考或談論人生、真理、意義等哲理問題」是「philosophize / philosophise」的用法，與本句語境不同。",
-        "philosophy-mcq-13": "「以達觀、平靜接受的態度」是「philosophically — calmly」的用法，與本句語境不同。",
-        "philosophy-mcq-12": "「從哲學角度而言／分析」是「philosophically — academic」的用法，與本句語境不同。"
+        "philosophy-mcq-16": "本句的「personal philosophy」指「一個人用來指導自己生活和選擇的個人信念／人生哲學」。",
+        "philosophy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "philosophy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "philosophy-mcq-16"
     }
@@ -1337,5 +1189,7 @@ export default {
     "sha256": "e6cae60f83c8cda3c5cf3ad37420c57d73c97a322c71446f1a8ef016e9d14f8a",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -163,11 +163,9 @@ export default {
       "masked": "The bakery is known for its egg ____.",
       "options": [
         "tart-mcq-01",
-        "tart-mcq-02",
+        "tart-mcq-07",
         "tart-mcq-03",
-        "tart-mcq-04",
-        "tart-mcq-05",
-        "tart-mcq-06"
+        "tart-mcq-05"
       ],
       "explanation": "本句的「tarts」指「以酥皮／糕點皮作底或外殼、內有餡料的烘焙糕點」。",
       "sentenceIndex": 0,
@@ -176,12 +174,10 @@ export default {
         "tarts"
       ],
       "optionReasons": {
-        "tart-mcq-01": "本句指「以酥皮／糕點皮作底或外殼、內有餡料的烘焙糕點」。",
-        "tart-mcq-02": "「酸味明顯、帶尖銳酸感的」與本句語境不同。",
-        "tart-mcq-03": "「帶清爽、開胃酸味的」與本句語境不同。",
-        "tart-mcq-04": "「說話尖銳、帶諷刺或不客氣的」與本句語境不同。",
-        "tart-mcq-05": "「表達機智但帶刺、辛辣犀利的」與本句語境不同。",
-        "tart-mcq-06": "「食物中的酸銳味」與本句語境不同。"
+        "tart-mcq-01": "本句的「tarts」指「以酥皮／糕點皮作底或外殼、內有餡料的烘焙糕點」。",
+        "tart-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tart-mcq-01"
     },
@@ -194,10 +190,7 @@ export default {
       "options": [
         "tart-mcq-01",
         "tart-mcq-02",
-        "tart-mcq-03",
-        "tart-mcq-04",
-        "tart-mcq-05",
-        "tart-mcq-06"
+        "tart-mcq-05"
       ],
       "explanation": "本句的「tart」指「以酥皮／糕點皮作底或外殼、內有餡料的烘焙糕點」。",
       "sentenceIndex": 1,
@@ -206,12 +199,9 @@ export default {
         "tart"
       ],
       "optionReasons": {
-        "tart-mcq-01": "本句指「以酥皮／糕點皮作底或外殼、內有餡料的烘焙糕點」。",
-        "tart-mcq-02": "「酸味明顯、帶尖銳酸感的」與本句語境不同。",
-        "tart-mcq-03": "「帶清爽、開胃酸味的」與本句語境不同。",
-        "tart-mcq-04": "「說話尖銳、帶諷刺或不客氣的」與本句語境不同。",
-        "tart-mcq-05": "「表達機智但帶刺、辛辣犀利的」與本句語境不同。",
-        "tart-mcq-06": "「食物中的酸銳味」與本句語境不同。"
+        "tart-mcq-01": "本句的「tart」指「以酥皮／糕點皮作底或外殼、內有餡料的烘焙糕點」。",
+        "tart-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tart-mcq-01"
     },
@@ -223,11 +213,9 @@ export default {
       "masked": "The fruit ____ was served cold.",
       "options": [
         "tart-mcq-01",
-        "tart-mcq-02",
-        "tart-mcq-03",
-        "tart-mcq-04",
+        "tart-mcq-07",
         "tart-mcq-05",
-        "tart-mcq-06"
+        "tart-mcq-03"
       ],
       "explanation": "本句的「tart」指「以酥皮／糕點皮作底或外殼、內有餡料的烘焙糕點」。",
       "sentenceIndex": 2,
@@ -236,12 +224,10 @@ export default {
         "tart"
       ],
       "optionReasons": {
-        "tart-mcq-01": "本句指「以酥皮／糕點皮作底或外殼、內有餡料的烘焙糕點」。",
-        "tart-mcq-02": "「酸味明顯、帶尖銳酸感的」與本句語境不同。",
-        "tart-mcq-03": "「帶清爽、開胃酸味的」與本句語境不同。",
-        "tart-mcq-04": "「說話尖銳、帶諷刺或不客氣的」與本句語境不同。",
-        "tart-mcq-05": "「表達機智但帶刺、辛辣犀利的」與本句語境不同。",
-        "tart-mcq-06": "「食物中的酸銳味」與本句語境不同。"
+        "tart-mcq-01": "本句的「tart」指「以酥皮／糕點皮作底或外殼、內有餡料的烘焙糕點」。",
+        "tart-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tart-mcq-01"
     },
@@ -254,10 +240,7 @@ export default {
       "options": [
         "tart-mcq-02",
         "tart-mcq-01",
-        "tart-mcq-03",
-        "tart-mcq-04",
-        "tart-mcq-05",
-        "tart-mcq-06"
+        "tart-mcq-05"
       ],
       "explanation": "本句的「tart」指「酸味明顯、帶尖銳酸感的」。",
       "sentenceIndex": 5,
@@ -266,12 +249,9 @@ export default {
         "tart"
       ],
       "optionReasons": {
-        "tart-mcq-02": "本句指「酸味明顯、帶尖銳酸感的」。",
-        "tart-mcq-01": "「以酥皮／糕點皮作底或外殼、內有餡料的烘焙糕點」與本句語境不同。",
-        "tart-mcq-03": "「帶清爽、開胃酸味的」與本句語境不同。",
-        "tart-mcq-04": "「說話尖銳、帶諷刺或不客氣的」與本句語境不同。",
-        "tart-mcq-05": "「表達機智但帶刺、辛辣犀利的」與本句語境不同。",
-        "tart-mcq-06": "「食物中的酸銳味」與本句語境不同。"
+        "tart-mcq-02": "本句的「tart」指「酸味明顯、帶尖銳酸感的」。",
+        "tart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tart-mcq-02"
     },
@@ -284,10 +264,7 @@ export default {
       "options": [
         "tart-mcq-02",
         "tart-mcq-01",
-        "tart-mcq-03",
-        "tart-mcq-04",
-        "tart-mcq-05",
-        "tart-mcq-06"
+        "tart-mcq-05"
       ],
       "explanation": "本句的「tart」指「酸味明顯、帶尖銳酸感的」。",
       "sentenceIndex": 6,
@@ -296,12 +273,9 @@ export default {
         "tart"
       ],
       "optionReasons": {
-        "tart-mcq-02": "本句指「酸味明顯、帶尖銳酸感的」。",
-        "tart-mcq-01": "「以酥皮／糕點皮作底或外殼、內有餡料的烘焙糕點」與本句語境不同。",
-        "tart-mcq-03": "「帶清爽、開胃酸味的」與本句語境不同。",
-        "tart-mcq-04": "「說話尖銳、帶諷刺或不客氣的」與本句語境不同。",
-        "tart-mcq-05": "「表達機智但帶刺、辛辣犀利的」與本句語境不同。",
-        "tart-mcq-06": "「食物中的酸銳味」與本句語境不同。"
+        "tart-mcq-02": "本句的「tart」指「酸味明顯、帶尖銳酸感的」。",
+        "tart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tart-mcq-02"
     },
@@ -313,11 +287,9 @@ export default {
       "masked": "The lemon filling is sweet but ____.",
       "options": [
         "tart-mcq-03",
-        "tart-mcq-02",
-        "tart-mcq-04",
+        "tart-mcq-07",
         "tart-mcq-01",
-        "tart-mcq-05",
-        "tart-mcq-06"
+        "tart-mcq-05"
       ],
       "explanation": "本句的「tart」指「帶清爽、開胃酸味的」。",
       "sentenceIndex": 7,
@@ -326,12 +298,10 @@ export default {
         "tart"
       ],
       "optionReasons": {
-        "tart-mcq-03": "本句指「帶清爽、開胃酸味的」。",
-        "tart-mcq-02": "「酸味明顯、帶尖銳酸感的」與本句語境不同。",
-        "tart-mcq-04": "「說話尖銳、帶諷刺或不客氣的」與本句語境不同。",
-        "tart-mcq-01": "「以酥皮／糕點皮作底或外殼、內有餡料的烘焙糕點」與本句語境不同。",
-        "tart-mcq-05": "「表達機智但帶刺、辛辣犀利的」與本句語境不同。",
-        "tart-mcq-06": "「食物中的酸銳味」與本句語境不同。"
+        "tart-mcq-03": "本句的「tart」指「帶清爽、開胃酸味的」。",
+        "tart-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tart-mcq-03"
     },
@@ -343,11 +313,9 @@ export default {
       "masked": "The yogurt has a fresh, ____ taste.",
       "options": [
         "tart-mcq-03",
-        "tart-mcq-02",
-        "tart-mcq-04",
+        "tart-mcq-07",
         "tart-mcq-01",
-        "tart-mcq-05",
-        "tart-mcq-06"
+        "tart-mcq-05"
       ],
       "explanation": "本句的「tart」指「帶清爽、開胃酸味的」。",
       "sentenceIndex": 8,
@@ -356,12 +324,10 @@ export default {
         "tart"
       ],
       "optionReasons": {
-        "tart-mcq-03": "本句指「帶清爽、開胃酸味的」。",
-        "tart-mcq-02": "「酸味明顯、帶尖銳酸感的」與本句語境不同。",
-        "tart-mcq-04": "「說話尖銳、帶諷刺或不客氣的」與本句語境不同。",
-        "tart-mcq-01": "「以酥皮／糕點皮作底或外殼、內有餡料的烘焙糕點」與本句語境不同。",
-        "tart-mcq-05": "「表達機智但帶刺、辛辣犀利的」與本句語境不同。",
-        "tart-mcq-06": "「食物中的酸銳味」與本句語境不同。"
+        "tart-mcq-03": "本句的「tart」指「帶清爽、開胃酸味的」。",
+        "tart-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tart-mcq-03"
     },
@@ -373,11 +339,9 @@ export default {
       "masked": "She gave a ____ reply.",
       "options": [
         "tart-mcq-04",
+        "tart-mcq-01",
         "tart-mcq-03",
-        "tart-mcq-05",
-        "tart-mcq-02",
-        "tart-mcq-06",
-        "tart-mcq-01"
+        "tart-mcq-05"
       ],
       "explanation": "本句的「tart」指「說話尖銳、帶諷刺或不客氣的」。",
       "sentenceIndex": 9,
@@ -386,12 +350,10 @@ export default {
         "tart"
       ],
       "optionReasons": {
-        "tart-mcq-04": "本句指「說話尖銳、帶諷刺或不客氣的」。",
-        "tart-mcq-03": "「帶清爽、開胃酸味的」與本句語境不同。",
-        "tart-mcq-05": "「表達機智但帶刺、辛辣犀利的」與本句語境不同。",
-        "tart-mcq-02": "「酸味明顯、帶尖銳酸感的」與本句語境不同。",
-        "tart-mcq-06": "「食物中的酸銳味」與本句語境不同。",
-        "tart-mcq-01": "「以酥皮／糕點皮作底或外殼、內有餡料的烘焙糕點」與本句語境不同。"
+        "tart-mcq-04": "本句的「tart」指「說話尖銳、帶諷刺或不客氣的」。",
+        "tart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tart-mcq-04"
     },
@@ -403,11 +365,9 @@ export default {
       "masked": "His ____ comment made everyone uncomfortable.",
       "options": [
         "tart-mcq-04",
+        "tart-mcq-01",
         "tart-mcq-03",
-        "tart-mcq-05",
-        "tart-mcq-02",
-        "tart-mcq-06",
-        "tart-mcq-01"
+        "tart-mcq-05"
       ],
       "explanation": "本句的「tart」指「說話尖銳、帶諷刺或不客氣的」。",
       "sentenceIndex": 10,
@@ -416,12 +376,10 @@ export default {
         "tart"
       ],
       "optionReasons": {
-        "tart-mcq-04": "本句指「說話尖銳、帶諷刺或不客氣的」。",
-        "tart-mcq-03": "「帶清爽、開胃酸味的」與本句語境不同。",
-        "tart-mcq-05": "「表達機智但帶刺、辛辣犀利的」與本句語境不同。",
-        "tart-mcq-02": "「酸味明顯、帶尖銳酸感的」與本句語境不同。",
-        "tart-mcq-06": "「食物中的酸銳味」與本句語境不同。",
-        "tart-mcq-01": "「以酥皮／糕點皮作底或外殼、內有餡料的烘焙糕點」與本句語境不同。"
+        "tart-mcq-04": "本句的「tart」指「說話尖銳、帶諷刺或不客氣的」。",
+        "tart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tart-mcq-04"
     },
@@ -433,11 +391,9 @@ export default {
       "masked": "The article contains some ____ about modern life.",
       "options": [
         "tart-mcq-05",
-        "tart-mcq-04",
-        "tart-mcq-06",
-        "tart-mcq-03",
         "tart-mcq-07",
-        "tart-mcq-02"
+        "tart-mcq-01",
+        "tart-mcq-03"
       ],
       "explanation": "本句的「tart observations」指「表達機智但帶刺、辛辣犀利的」。",
       "sentenceIndex": 11,
@@ -446,12 +402,10 @@ export default {
         "tart observations"
       ],
       "optionReasons": {
-        "tart-mcq-05": "本句指「表達機智但帶刺、辛辣犀利的」。",
-        "tart-mcq-04": "「說話尖銳、帶諷刺或不客氣的」與本句語境不同。",
-        "tart-mcq-06": "「食物中的酸銳味」與本句語境不同。",
-        "tart-mcq-03": "「帶清爽、開胃酸味的」與本句語境不同。",
-        "tart-mcq-07": "「語氣中的尖刻／尖銳感」與本句語境不同。",
-        "tart-mcq-02": "「酸味明顯、帶尖銳酸感的」與本句語境不同。"
+        "tart-mcq-05": "本句的「tart observations」指「表達機智但帶刺、辛辣犀利的」。",
+        "tart-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tart-mcq-05"
     },
@@ -463,11 +417,9 @@ export default {
       "masked": "Her writing is elegant but ____.",
       "options": [
         "tart-mcq-05",
-        "tart-mcq-04",
-        "tart-mcq-06",
-        "tart-mcq-03",
+        "tart-mcq-01",
         "tart-mcq-07",
-        "tart-mcq-02"
+        "tart-mcq-03"
       ],
       "explanation": "本句的「tart」指「表達機智但帶刺、辛辣犀利的」。",
       "sentenceIndex": 12,
@@ -476,12 +428,10 @@ export default {
         "tart"
       ],
       "optionReasons": {
-        "tart-mcq-05": "本句指「表達機智但帶刺、辛辣犀利的」。",
-        "tart-mcq-04": "「說話尖銳、帶諷刺或不客氣的」與本句語境不同。",
-        "tart-mcq-06": "「食物中的酸銳味」與本句語境不同。",
-        "tart-mcq-03": "「帶清爽、開胃酸味的」與本句語境不同。",
-        "tart-mcq-07": "「語氣中的尖刻／尖銳感」與本句語境不同。",
-        "tart-mcq-02": "「酸味明顯、帶尖銳酸感的」與本句語境不同。"
+        "tart-mcq-05": "本句的「tart」指「表達機智但帶刺、辛辣犀利的」。",
+        "tart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tart-mcq-05"
     },
@@ -493,11 +443,9 @@ export default {
       "masked": "The sugar balances the ____ of the fruit.",
       "options": [
         "tart-mcq-07",
-        "tart-mcq-06",
         "tart-mcq-05",
-        "tart-mcq-04",
-        "tart-mcq-03",
-        "tart-mcq-02"
+        "tart-mcq-01",
+        "tart-mcq-03"
       ],
       "explanation": "本句的「tartness」指「語氣中的尖刻／尖銳感」。",
       "sentenceIndex": 13,
@@ -506,12 +454,10 @@ export default {
         "tartness"
       ],
       "optionReasons": {
-        "tart-mcq-07": "本句指「語氣中的尖刻／尖銳感」。",
-        "tart-mcq-06": "「食物中的酸銳味」與本句語境不同。",
-        "tart-mcq-05": "「表達機智但帶刺、辛辣犀利的」與本句語境不同。",
-        "tart-mcq-04": "「說話尖銳、帶諷刺或不客氣的」與本句語境不同。",
-        "tart-mcq-03": "「帶清爽、開胃酸味的」與本句語境不同。",
-        "tart-mcq-02": "「酸味明顯、帶尖銳酸感的」與本句語境不同。"
+        "tart-mcq-07": "本句的「tartness」指「語氣中的尖刻／尖銳感」。",
+        "tart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tart-mcq-07"
     },
@@ -523,11 +469,9 @@ export default {
       "masked": "There was a ____ in her voice.",
       "options": [
         "tart-mcq-07",
-        "tart-mcq-06",
         "tart-mcq-05",
-        "tart-mcq-04",
-        "tart-mcq-03",
-        "tart-mcq-02"
+        "tart-mcq-01",
+        "tart-mcq-03"
       ],
       "explanation": "本句的「tartness」指「語氣中的尖刻／尖銳感」。",
       "sentenceIndex": 14,
@@ -536,12 +480,10 @@ export default {
         "tartness"
       ],
       "optionReasons": {
-        "tart-mcq-07": "本句指「語氣中的尖刻／尖銳感」。",
-        "tart-mcq-06": "「食物中的酸銳味」與本句語境不同。",
-        "tart-mcq-05": "「表達機智但帶刺、辛辣犀利的」與本句語境不同。",
-        "tart-mcq-04": "「說話尖銳、帶諷刺或不客氣的」與本句語境不同。",
-        "tart-mcq-03": "「帶清爽、開胃酸味的」與本句語境不同。",
-        "tart-mcq-02": "「酸味明顯、帶尖銳酸感的」與本句語境不同。"
+        "tart-mcq-07": "本句的「tartness」指「語氣中的尖刻／尖銳感」。",
+        "tart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tart-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tart-mcq-07"
     }
@@ -553,5 +495,7 @@ export default {
     "sha256": "ce92d3234e53b19fb7e2c41346e39a4d912cc96dabb25ad2c98bc36446a35921",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

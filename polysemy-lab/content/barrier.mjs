@@ -338,11 +338,9 @@ export default {
       "masked": "A metal ____ blocked the road.",
       "options": [
         "barrier-mcq-01",
-        "barrier-mcq-02",
-        "barrier-mcq-03",
-        "barrier-mcq-04",
-        "barrier-mcq-05",
-        "barrier-mcq-06"
+        "barrier-mcq-13",
+        "barrier-mcq-09",
+        "barrier-mcq-08"
       ],
       "explanation": "本句的「barrier」指「用來阻止人、車、物質等通過的實體阻隔物」。",
       "sentenceIndex": 0,
@@ -351,12 +349,10 @@ export default {
         "barrier"
       ],
       "optionReasons": {
-        "barrier-mcq-01": "本句指「用來阻止人、車、物質等通過的實體阻隔物」。",
-        "barrier-mcq-02": "「令某事難以發生、進展或普及的因素」與本句語境不同。",
-        "barrier-mcq-03": "「在日常執行、操作、時間、成本或設施方面造成的實際障礙」與本句語境不同。",
-        "barrier-mcq-04": "「因金錢不足／成本過高而造成的參與或購買障礙」與本句語境不同。",
-        "barrier-mcq-05": "「因使用不同語言而妨礙有效溝通的障礙」與本句語境不同。",
-        "barrier-mcq-06": "「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」與本句語境不同。"
+        "barrier-mcq-01": "本句的「barrier」指「用來阻止人、車、物質等通過的實體阻隔物」。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-01"
     },
@@ -368,11 +364,9 @@ export default {
       "masked": "The fence forms a ____ between the two properties.",
       "options": [
         "barrier-mcq-01",
-        "barrier-mcq-02",
-        "barrier-mcq-03",
-        "barrier-mcq-04",
-        "barrier-mcq-05",
-        "barrier-mcq-06"
+        "barrier-mcq-08",
+        "barrier-mcq-13",
+        "barrier-mcq-09"
       ],
       "explanation": "本句的「barrier」指「用來阻止人、車、物質等通過的實體阻隔物」。",
       "sentenceIndex": 1,
@@ -381,12 +375,10 @@ export default {
         "barrier"
       ],
       "optionReasons": {
-        "barrier-mcq-01": "本句指「用來阻止人、車、物質等通過的實體阻隔物」。",
-        "barrier-mcq-02": "「令某事難以發生、進展或普及的因素」與本句語境不同。",
-        "barrier-mcq-03": "「在日常執行、操作、時間、成本或設施方面造成的實際障礙」與本句語境不同。",
-        "barrier-mcq-04": "「因金錢不足／成本過高而造成的參與或購買障礙」與本句語境不同。",
-        "barrier-mcq-05": "「因使用不同語言而妨礙有效溝通的障礙」與本句語境不同。",
-        "barrier-mcq-06": "「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」與本句語境不同。"
+        "barrier-mcq-01": "本句的「barrier」指「用來阻止人、車、物質等通過的實體阻隔物」。",
+        "barrier-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-01"
     },
@@ -398,10 +390,8 @@ export default {
       "masked": "Charging access is a practical ____.",
       "options": [
         "barrier-mcq-03",
-        "barrier-mcq-02",
-        "barrier-mcq-04",
-        "barrier-mcq-01",
-        "barrier-mcq-05",
+        "barrier-mcq-11",
+        "barrier-mcq-13",
         "barrier-mcq-06"
       ],
       "explanation": "本句的「barrier」指「在日常執行、操作、時間、成本或設施方面造成的實際障礙」。",
@@ -411,12 +401,10 @@ export default {
         "barrier"
       ],
       "optionReasons": {
-        "barrier-mcq-03": "本句指「在日常執行、操作、時間、成本或設施方面造成的實際障礙」。",
-        "barrier-mcq-02": "「令某事難以發生、進展或普及的因素」與本句語境不同。",
-        "barrier-mcq-04": "「因金錢不足／成本過高而造成的參與或購買障礙」與本句語境不同。",
-        "barrier-mcq-01": "「用來阻止人、車、物質等通過的實體阻隔物」與本句語境不同。",
-        "barrier-mcq-05": "「因使用不同語言而妨礙有效溝通的障礙」與本句語境不同。",
-        "barrier-mcq-06": "「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」與本句語境不同。"
+        "barrier-mcq-03": "本句的「barrier」指「在日常執行、操作、時間、成本或設施方面造成的實際障礙」。",
+        "barrier-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-03"
     },
@@ -428,11 +416,8 @@ export default {
       "masked": "The high purchase price creates a financial ____.",
       "options": [
         "barrier-mcq-04",
-        "barrier-mcq-03",
-        "barrier-mcq-05",
-        "barrier-mcq-02",
-        "barrier-mcq-06",
-        "barrier-mcq-01"
+        "barrier-mcq-11",
+        "barrier-mcq-13"
       ],
       "explanation": "本句的「barrier」指「因金錢不足／成本過高而造成的參與或購買障礙」。",
       "sentenceIndex": 25,
@@ -441,12 +426,9 @@ export default {
         "barrier"
       ],
       "optionReasons": {
-        "barrier-mcq-04": "本句指「因金錢不足／成本過高而造成的參與或購買障礙」。",
-        "barrier-mcq-03": "「在日常執行、操作、時間、成本或設施方面造成的實際障礙」與本句語境不同。",
-        "barrier-mcq-05": "「因使用不同語言而妨礙有效溝通的障礙」與本句語境不同。",
-        "barrier-mcq-02": "「令某事難以發生、進展或普及的因素」與本句語境不同。",
-        "barrier-mcq-06": "「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」與本句語境不同。",
-        "barrier-mcq-01": "「用來阻止人、車、物質等通過的實體阻隔物」與本句語境不同。"
+        "barrier-mcq-04": "本句的「barrier」指「因金錢不足／成本過高而造成的參與或購買障礙」。",
+        "barrier-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-04"
     },
@@ -458,11 +440,8 @@ export default {
       "masked": "Subsidies can reduce financial ____.",
       "options": [
         "barrier-mcq-04",
-        "barrier-mcq-03",
-        "barrier-mcq-05",
-        "barrier-mcq-02",
-        "barrier-mcq-06",
-        "barrier-mcq-01"
+        "barrier-mcq-11",
+        "barrier-mcq-13"
       ],
       "explanation": "本句的「barriers」指「因金錢不足／成本過高而造成的參與或購買障礙」。",
       "sentenceIndex": 26,
@@ -471,12 +450,9 @@ export default {
         "barriers"
       ],
       "optionReasons": {
-        "barrier-mcq-04": "本句指「因金錢不足／成本過高而造成的參與或購買障礙」。",
-        "barrier-mcq-03": "「在日常執行、操作、時間、成本或設施方面造成的實際障礙」與本句語境不同。",
-        "barrier-mcq-05": "「因使用不同語言而妨礙有效溝通的障礙」與本句語境不同。",
-        "barrier-mcq-02": "「令某事難以發生、進展或普及的因素」與本句語境不同。",
-        "barrier-mcq-06": "「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」與本句語境不同。",
-        "barrier-mcq-01": "「用來阻止人、車、物質等通過的實體阻隔物」與本句語境不同。"
+        "barrier-mcq-04": "本句的「barriers」指「因金錢不足／成本過高而造成的參與或購買障礙」。",
+        "barrier-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-04"
     },
@@ -488,11 +464,9 @@ export default {
       "masked": "The ____ made communication difficult.",
       "options": [
         "barrier-mcq-05",
-        "barrier-mcq-04",
-        "barrier-mcq-06",
-        "barrier-mcq-03",
         "barrier-mcq-07",
-        "barrier-mcq-02"
+        "barrier-mcq-08",
+        "barrier-mcq-13"
       ],
       "explanation": "本句的「language barrier」指「因使用不同語言而妨礙有效溝通的障礙」。",
       "sentenceIndex": 33,
@@ -501,12 +475,10 @@ export default {
         "language barrier"
       ],
       "optionReasons": {
-        "barrier-mcq-05": "本句指「因使用不同語言而妨礙有效溝通的障礙」。",
-        "barrier-mcq-04": "「因金錢不足／成本過高而造成的參與或購買障礙」與本句語境不同。",
-        "barrier-mcq-06": "「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」與本句語境不同。",
-        "barrier-mcq-03": "「在日常執行、操作、時間、成本或設施方面造成的實際障礙」與本句語境不同。",
-        "barrier-mcq-07": "「限制跨境商品／服務交易的政策或措施」與本句語境不同。",
-        "barrier-mcq-02": "「令某事難以發生、進展或普及的因素」與本句語境不同。"
+        "barrier-mcq-05": "本句的「language barrier」指「因使用不同語言而妨礙有效溝通的障礙」。",
+        "barrier-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-05"
     },
@@ -518,11 +490,8 @@ export default {
       "masked": "Translation services can reduce language ____.",
       "options": [
         "barrier-mcq-05",
-        "barrier-mcq-04",
-        "barrier-mcq-06",
-        "barrier-mcq-03",
-        "barrier-mcq-07",
-        "barrier-mcq-02"
+        "barrier-mcq-11",
+        "barrier-mcq-13"
       ],
       "explanation": "本句的「barriers」指「因使用不同語言而妨礙有效溝通的障礙」。",
       "sentenceIndex": 34,
@@ -531,12 +500,9 @@ export default {
         "barriers"
       ],
       "optionReasons": {
-        "barrier-mcq-05": "本句指「因使用不同語言而妨礙有效溝通的障礙」。",
-        "barrier-mcq-04": "「因金錢不足／成本過高而造成的參與或購買障礙」與本句語境不同。",
-        "barrier-mcq-06": "「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」與本句語境不同。",
-        "barrier-mcq-03": "「在日常執行、操作、時間、成本或設施方面造成的實際障礙」與本句語境不同。",
-        "barrier-mcq-07": "「限制跨境商品／服務交易的政策或措施」與本句語境不同。",
-        "barrier-mcq-02": "「令某事難以發生、進展或普及的因素」與本句語境不同。"
+        "barrier-mcq-05": "本句的「barriers」指「因使用不同語言而妨礙有效溝通的障礙」。",
+        "barrier-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-05"
     },
@@ -548,10 +514,8 @@ export default {
       "masked": "Fear can become a psychological ____.",
       "options": [
         "barrier-mcq-06",
-        "barrier-mcq-05",
-        "barrier-mcq-07",
-        "barrier-mcq-04",
-        "barrier-mcq-08",
+        "barrier-mcq-11",
+        "barrier-mcq-13",
         "barrier-mcq-03"
       ],
       "explanation": "本句的「barrier」指「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」。",
@@ -561,12 +525,10 @@ export default {
         "barrier"
       ],
       "optionReasons": {
-        "barrier-mcq-06": "本句指「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」。",
-        "barrier-mcq-05": "「因使用不同語言而妨礙有效溝通的障礙」與本句語境不同。",
-        "barrier-mcq-07": "「限制跨境商品／服務交易的政策或措施」與本句語境不同。",
-        "barrier-mcq-04": "「因金錢不足／成本過高而造成的參與或購買障礙」與本句語境不同。",
-        "barrier-mcq-08": "「令新競爭者難以進入某市場的因素」與本句語境不同。",
-        "barrier-mcq-03": "「在日常執行、操作、時間、成本或設施方面造成的實際障礙」與本句語境不同。"
+        "barrier-mcq-06": "本句的「barrier」指「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」。",
+        "barrier-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-06"
     },
@@ -578,11 +540,9 @@ export default {
       "masked": "Lack of confidence creates psychological ____ to change.",
       "options": [
         "barrier-mcq-06",
-        "barrier-mcq-05",
         "barrier-mcq-07",
-        "barrier-mcq-04",
-        "barrier-mcq-08",
-        "barrier-mcq-03"
+        "barrier-mcq-13",
+        "barrier-mcq-09"
       ],
       "explanation": "本句的「barriers」指「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」。",
       "sentenceIndex": 38,
@@ -591,12 +551,10 @@ export default {
         "barriers"
       ],
       "optionReasons": {
-        "barrier-mcq-06": "本句指「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」。",
-        "barrier-mcq-05": "「因使用不同語言而妨礙有效溝通的障礙」與本句語境不同。",
-        "barrier-mcq-07": "「限制跨境商品／服務交易的政策或措施」與本句語境不同。",
-        "barrier-mcq-04": "「因金錢不足／成本過高而造成的參與或購買障礙」與本句語境不同。",
-        "barrier-mcq-08": "「令新競爭者難以進入某市場的因素」與本句語境不同。",
-        "barrier-mcq-03": "「在日常執行、操作、時間、成本或設施方面造成的實際障礙」與本句語境不同。"
+        "barrier-mcq-06": "本句的「barriers」指「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」。",
+        "barrier-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-06"
     },
@@ -608,10 +566,8 @@ export default {
       "masked": "Tariffs can act as trade ____.",
       "options": [
         "barrier-mcq-07",
-        "barrier-mcq-06",
+        "barrier-mcq-13",
         "barrier-mcq-08",
-        "barrier-mcq-05",
-        "barrier-mcq-09",
         "barrier-mcq-04"
       ],
       "explanation": "本句的「barriers」指「限制跨境商品／服務交易的政策或措施」。",
@@ -621,12 +577,10 @@ export default {
         "barriers"
       ],
       "optionReasons": {
-        "barrier-mcq-07": "本句指「限制跨境商品／服務交易的政策或措施」。",
-        "barrier-mcq-06": "「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」與本句語境不同。",
-        "barrier-mcq-08": "「令新競爭者難以進入某市場的因素」與本句語境不同。",
-        "barrier-mcq-05": "「因使用不同語言而妨礙有效溝通的障礙」與本句語境不同。",
-        "barrier-mcq-09": "「因監管規定／審批程序造成的障礙」與本句語境不同。",
-        "barrier-mcq-04": "「因金錢不足／成本過高而造成的參與或購買障礙」與本句語境不同。"
+        "barrier-mcq-07": "本句的「barriers」指「限制跨境商品／服務交易的政策或措施」。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-07"
     },
@@ -638,11 +592,9 @@ export default {
       "masked": "The agreement aims to reduce trade ____.",
       "options": [
         "barrier-mcq-07",
-        "barrier-mcq-06",
         "barrier-mcq-08",
-        "barrier-mcq-05",
-        "barrier-mcq-09",
-        "barrier-mcq-04"
+        "barrier-mcq-04",
+        "barrier-mcq-13"
       ],
       "explanation": "本句的「barriers」指「限制跨境商品／服務交易的政策或措施」。",
       "sentenceIndex": 44,
@@ -651,12 +603,10 @@ export default {
         "barriers"
       ],
       "optionReasons": {
-        "barrier-mcq-07": "本句指「限制跨境商品／服務交易的政策或措施」。",
-        "barrier-mcq-06": "「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」與本句語境不同。",
-        "barrier-mcq-08": "「令新競爭者難以進入某市場的因素」與本句語境不同。",
-        "barrier-mcq-05": "「因使用不同語言而妨礙有效溝通的障礙」與本句語境不同。",
-        "barrier-mcq-09": "「因監管規定／審批程序造成的障礙」與本句語境不同。",
-        "barrier-mcq-04": "「因金錢不足／成本過高而造成的參與或購買障礙」與本句語境不同。"
+        "barrier-mcq-07": "本句的「barriers」指「限制跨境商品／服務交易的政策或措施」。",
+        "barrier-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-07"
     },
@@ -668,11 +618,9 @@ export default {
       "masked": "High start-up costs are a ____ to entry.",
       "options": [
         "barrier-mcq-08",
-        "barrier-mcq-07",
-        "barrier-mcq-09",
-        "barrier-mcq-06",
-        "barrier-mcq-10",
-        "barrier-mcq-05"
+        "barrier-mcq-01",
+        "barrier-mcq-13",
+        "barrier-mcq-09"
       ],
       "explanation": "本句的「barrier」指「令新競爭者難以進入某市場的因素」。",
       "sentenceIndex": 49,
@@ -681,12 +629,10 @@ export default {
         "barrier"
       ],
       "optionReasons": {
-        "barrier-mcq-08": "本句指「令新競爭者難以進入某市場的因素」。",
-        "barrier-mcq-07": "「限制跨境商品／服務交易的政策或措施」與本句語境不同。",
-        "barrier-mcq-09": "「因監管規定／審批程序造成的障礙」與本句語境不同。",
-        "barrier-mcq-06": "「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」與本句語境不同。",
-        "barrier-mcq-10": "「因技術限制或未解決技術問題造成的障礙」與本句語境不同。",
-        "barrier-mcq-05": "「因使用不同語言而妨礙有效溝通的障礙」與本句語境不同。"
+        "barrier-mcq-08": "本句的「barrier」指「令新競爭者難以進入某市場的因素」。",
+        "barrier-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-08"
     },
@@ -698,11 +644,9 @@ export default {
       "masked": "Patents can create ____ to entry.",
       "options": [
         "barrier-mcq-08",
-        "barrier-mcq-07",
-        "barrier-mcq-09",
-        "barrier-mcq-06",
-        "barrier-mcq-10",
-        "barrier-mcq-05"
+        "barrier-mcq-03",
+        "barrier-mcq-13",
+        "barrier-mcq-07"
       ],
       "explanation": "本句的「barriers」指「令新競爭者難以進入某市場的因素」。",
       "sentenceIndex": 50,
@@ -711,12 +655,10 @@ export default {
         "barriers"
       ],
       "optionReasons": {
-        "barrier-mcq-08": "本句指「令新競爭者難以進入某市場的因素」。",
-        "barrier-mcq-07": "「限制跨境商品／服務交易的政策或措施」與本句語境不同。",
-        "barrier-mcq-09": "「因監管規定／審批程序造成的障礙」與本句語境不同。",
-        "barrier-mcq-06": "「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」與本句語境不同。",
-        "barrier-mcq-10": "「因技術限制或未解決技術問題造成的障礙」與本句語境不同。",
-        "barrier-mcq-05": "「因使用不同語言而妨礙有效溝通的障礙」與本句語境不同。"
+        "barrier-mcq-08": "本句的「barriers」指「令新競爭者難以進入某市場的因素」。",
+        "barrier-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-08"
     },
@@ -728,11 +670,9 @@ export default {
       "masked": "Complex approval procedures create regulatory ____.",
       "options": [
         "barrier-mcq-09",
+        "barrier-mcq-01",
         "barrier-mcq-08",
-        "barrier-mcq-10",
-        "barrier-mcq-07",
-        "barrier-mcq-11",
-        "barrier-mcq-06"
+        "barrier-mcq-13"
       ],
       "explanation": "本句的「barriers」指「因監管規定／審批程序造成的障礙」。",
       "sentenceIndex": 55,
@@ -741,12 +681,10 @@ export default {
         "barriers"
       ],
       "optionReasons": {
-        "barrier-mcq-09": "本句指「因監管規定／審批程序造成的障礙」。",
-        "barrier-mcq-08": "「令新競爭者難以進入某市場的因素」與本句語境不同。",
-        "barrier-mcq-10": "「因技術限制或未解決技術問題造成的障礙」與本句語境不同。",
-        "barrier-mcq-07": "「限制跨境商品／服務交易的政策或措施」與本句語境不同。",
-        "barrier-mcq-11": "「皮膚防止水分流失及外來物質進入的保護層功能」與本句語境不同。",
-        "barrier-mcq-06": "「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」與本句語境不同。"
+        "barrier-mcq-09": "本句的「barriers」指「因監管規定／審批程序造成的障礙」。",
+        "barrier-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-09"
     },
@@ -758,11 +696,9 @@ export default {
       "masked": "The reform reduced regulatory ____.",
       "options": [
         "barrier-mcq-09",
-        "barrier-mcq-08",
-        "barrier-mcq-10",
         "barrier-mcq-07",
-        "barrier-mcq-11",
-        "barrier-mcq-06"
+        "barrier-mcq-08",
+        "barrier-mcq-13"
       ],
       "explanation": "本句的「barriers」指「因監管規定／審批程序造成的障礙」。",
       "sentenceIndex": 56,
@@ -771,12 +707,10 @@ export default {
         "barriers"
       ],
       "optionReasons": {
-        "barrier-mcq-09": "本句指「因監管規定／審批程序造成的障礙」。",
-        "barrier-mcq-08": "「令新競爭者難以進入某市場的因素」與本句語境不同。",
-        "barrier-mcq-10": "「因技術限制或未解決技術問題造成的障礙」與本句語境不同。",
-        "barrier-mcq-07": "「限制跨境商品／服務交易的政策或措施」與本句語境不同。",
-        "barrier-mcq-11": "「皮膚防止水分流失及外來物質進入的保護層功能」與本句語境不同。",
-        "barrier-mcq-06": "「因恐懼、缺乏信心等心理因素而妨礙行動的阻力」與本句語境不同。"
+        "barrier-mcq-09": "本句的「barriers」指「因監管規定／審批程序造成的障礙」。",
+        "barrier-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-09"
     },
@@ -788,11 +722,8 @@ export default {
       "masked": "Battery performance remains a technical ____.",
       "options": [
         "barrier-mcq-10",
-        "barrier-mcq-09",
-        "barrier-mcq-11",
         "barrier-mcq-08",
-        "barrier-mcq-12",
-        "barrier-mcq-07"
+        "barrier-mcq-13"
       ],
       "explanation": "本句的「barrier」指「因技術限制或未解決技術問題造成的障礙」。",
       "sentenceIndex": 61,
@@ -801,12 +732,9 @@ export default {
         "barrier"
       ],
       "optionReasons": {
-        "barrier-mcq-10": "本句指「因技術限制或未解決技術問題造成的障礙」。",
-        "barrier-mcq-09": "「因監管規定／審批程序造成的障礙」與本句語境不同。",
-        "barrier-mcq-11": "「皮膚防止水分流失及外來物質進入的保護層功能」與本句語境不同。",
-        "barrier-mcq-08": "「令新競爭者難以進入某市場的因素」與本句語境不同。",
-        "barrier-mcq-12": "「限制血液中物質自由進入腦組織的生理屏障」與本句語境不同。",
-        "barrier-mcq-07": "「限制跨境商品／服務交易的政策或措施」與本句語境不同。"
+        "barrier-mcq-10": "本句的「barrier」指「因技術限制或未解決技術問題造成的障礙」。",
+        "barrier-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-10"
     },
@@ -818,11 +746,8 @@ export default {
       "masked": "Engineers solved several technical ____.",
       "options": [
         "barrier-mcq-10",
-        "barrier-mcq-09",
-        "barrier-mcq-11",
         "barrier-mcq-08",
-        "barrier-mcq-12",
-        "barrier-mcq-07"
+        "barrier-mcq-13"
       ],
       "explanation": "本句的「barriers」指「因技術限制或未解決技術問題造成的障礙」。",
       "sentenceIndex": 62,
@@ -831,12 +756,9 @@ export default {
         "barriers"
       ],
       "optionReasons": {
-        "barrier-mcq-10": "本句指「因技術限制或未解決技術問題造成的障礙」。",
-        "barrier-mcq-09": "「因監管規定／審批程序造成的障礙」與本句語境不同。",
-        "barrier-mcq-11": "「皮膚防止水分流失及外來物質進入的保護層功能」與本句語境不同。",
-        "barrier-mcq-08": "「令新競爭者難以進入某市場的因素」與本句語境不同。",
-        "barrier-mcq-12": "「限制血液中物質自由進入腦組織的生理屏障」與本句語境不同。",
-        "barrier-mcq-07": "「限制跨境商品／服務交易的政策或措施」與本句語境不同。"
+        "barrier-mcq-10": "本句的「barriers」指「因技術限制或未解決技術問題造成的障礙」。",
+        "barrier-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-10"
     },
@@ -848,11 +770,8 @@ export default {
       "masked": "Harsh chemicals can damage the skin ____.",
       "options": [
         "barrier-mcq-11",
-        "barrier-mcq-10",
-        "barrier-mcq-12",
-        "barrier-mcq-09",
         "barrier-mcq-13",
-        "barrier-mcq-08"
+        "barrier-mcq-05"
       ],
       "explanation": "本句的「barrier」指「皮膚防止水分流失及外來物質進入的保護層功能」。",
       "sentenceIndex": 77,
@@ -861,12 +780,9 @@ export default {
         "barrier"
       ],
       "optionReasons": {
-        "barrier-mcq-11": "本句指「皮膚防止水分流失及外來物質進入的保護層功能」。",
-        "barrier-mcq-10": "「因技術限制或未解決技術問題造成的障礙」與本句語境不同。",
-        "barrier-mcq-12": "「限制血液中物質自由進入腦組織的生理屏障」與本句語境不同。",
-        "barrier-mcq-09": "「因監管規定／審批程序造成的障礙」與本句語境不同。",
-        "barrier-mcq-13": "「與接近／超越音速時的氣動效應相關的「音障」概念」與本句語境不同。",
-        "barrier-mcq-08": "「令新競爭者難以進入某市場的因素」與本句語境不同。"
+        "barrier-mcq-11": "本句的「barrier」指「皮膚防止水分流失及外來物質進入的保護層功能」。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-11"
     },
@@ -878,11 +794,9 @@ export default {
       "masked": "The skin ____ helps prevent water loss.",
       "options": [
         "barrier-mcq-11",
-        "barrier-mcq-10",
-        "barrier-mcq-12",
         "barrier-mcq-09",
-        "barrier-mcq-13",
-        "barrier-mcq-08"
+        "barrier-mcq-06",
+        "barrier-mcq-13"
       ],
       "explanation": "本句的「barrier」指「皮膚防止水分流失及外來物質進入的保護層功能」。",
       "sentenceIndex": 78,
@@ -891,12 +805,10 @@ export default {
         "barrier"
       ],
       "optionReasons": {
-        "barrier-mcq-11": "本句指「皮膚防止水分流失及外來物質進入的保護層功能」。",
-        "barrier-mcq-10": "「因技術限制或未解決技術問題造成的障礙」與本句語境不同。",
-        "barrier-mcq-12": "「限制血液中物質自由進入腦組織的生理屏障」與本句語境不同。",
-        "barrier-mcq-09": "「因監管規定／審批程序造成的障礙」與本句語境不同。",
-        "barrier-mcq-13": "「與接近／超越音速時的氣動效應相關的「音障」概念」與本句語境不同。",
-        "barrier-mcq-08": "「令新競爭者難以進入某市場的因素」與本句語境不同。"
+        "barrier-mcq-11": "本句的「barrier」指「皮膚防止水分流失及外來物質進入的保護層功能」。",
+        "barrier-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-11"
     },
@@ -908,11 +820,8 @@ export default {
       "masked": "Some drugs cannot easily cross the blood-brain ____.",
       "options": [
         "barrier-mcq-12",
-        "barrier-mcq-11",
-        "barrier-mcq-13",
-        "barrier-mcq-10",
-        "barrier-mcq-14",
-        "barrier-mcq-09"
+        "barrier-mcq-04",
+        "barrier-mcq-13"
       ],
       "explanation": "本句的「barrier」指「限制血液中物質自由進入腦組織的生理屏障」。",
       "sentenceIndex": 79,
@@ -921,12 +830,9 @@ export default {
         "barrier"
       ],
       "optionReasons": {
-        "barrier-mcq-12": "本句指「限制血液中物質自由進入腦組織的生理屏障」。",
-        "barrier-mcq-11": "「皮膚防止水分流失及外來物質進入的保護層功能」與本句語境不同。",
-        "barrier-mcq-13": "「與接近／超越音速時的氣動效應相關的「音障」概念」與本句語境不同。",
-        "barrier-mcq-10": "「因技術限制或未解決技術問題造成的障礙」與本句語境不同。",
-        "barrier-mcq-14": "「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」與本句語境不同。",
-        "barrier-mcq-09": "「因監管規定／審批程序造成的障礙」與本句語境不同。"
+        "barrier-mcq-12": "本句的「barrier」指「限制血液中物質自由進入腦組織的生理屏障」。",
+        "barrier-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-12"
     },
@@ -938,11 +844,9 @@ export default {
       "masked": "The blood-brain ____ protects brain tissue.",
       "options": [
         "barrier-mcq-12",
-        "barrier-mcq-11",
+        "barrier-mcq-06",
         "barrier-mcq-13",
-        "barrier-mcq-10",
-        "barrier-mcq-14",
-        "barrier-mcq-09"
+        "barrier-mcq-03"
       ],
       "explanation": "本句的「barrier」指「限制血液中物質自由進入腦組織的生理屏障」。",
       "sentenceIndex": 80,
@@ -951,12 +855,10 @@ export default {
         "barrier"
       ],
       "optionReasons": {
-        "barrier-mcq-12": "本句指「限制血液中物質自由進入腦組織的生理屏障」。",
-        "barrier-mcq-11": "「皮膚防止水分流失及外來物質進入的保護層功能」與本句語境不同。",
-        "barrier-mcq-13": "「與接近／超越音速時的氣動效應相關的「音障」概念」與本句語境不同。",
-        "barrier-mcq-10": "「因技術限制或未解決技術問題造成的障礙」與本句語境不同。",
-        "barrier-mcq-14": "「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」與本句語境不同。",
-        "barrier-mcq-09": "「因監管規定／審批程序造成的障礙」與本句語境不同。"
+        "barrier-mcq-12": "本句的「barrier」指「限制血液中物質自由進入腦組織的生理屏障」。",
+        "barrier-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-12"
     },
@@ -968,11 +870,9 @@ export default {
       "masked": "The aircraft broke the ____.",
       "options": [
         "barrier-mcq-13",
-        "barrier-mcq-12",
-        "barrier-mcq-14",
-        "barrier-mcq-11",
-        "barrier-mcq-15",
-        "barrier-mcq-10"
+        "barrier-mcq-08",
+        "barrier-mcq-07",
+        "barrier-mcq-09"
       ],
       "explanation": "本句的「sound barrier」指「與接近／超越音速時的氣動效應相關的「音障」概念」。",
       "sentenceIndex": 92,
@@ -981,12 +881,10 @@ export default {
         "sound barrier"
       ],
       "optionReasons": {
-        "barrier-mcq-13": "本句指「與接近／超越音速時的氣動效應相關的「音障」概念」。",
-        "barrier-mcq-12": "「限制血液中物質自由進入腦組織的生理屏障」與本句語境不同。",
-        "barrier-mcq-14": "「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」與本句語境不同。",
-        "barrier-mcq-11": "「皮膚防止水分流失及外來物質進入的保護層功能」與本句語境不同。",
-        "barrier-mcq-15": "「讓多個執行緒／程序在同一同步點等待的機制」與本句語境不同。",
-        "barrier-mcq-10": "「因技術限制或未解決技術問題造成的障礙」與本句語境不同。"
+        "barrier-mcq-13": "本句的「sound barrier」指「與接近／超越音速時的氣動效應相關的「音障」概念」。",
+        "barrier-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-13"
     },
@@ -998,11 +896,9 @@ export default {
       "masked": "Breaking the sound ____ means exceeding the speed of sound.",
       "options": [
         "barrier-mcq-13",
-        "barrier-mcq-12",
-        "barrier-mcq-14",
-        "barrier-mcq-11",
-        "barrier-mcq-15",
-        "barrier-mcq-10"
+        "barrier-mcq-01",
+        "barrier-mcq-08",
+        "barrier-mcq-09"
       ],
       "explanation": "本句的「barrier」指「與接近／超越音速時的氣動效應相關的「音障」概念」。",
       "sentenceIndex": 93,
@@ -1011,12 +907,10 @@ export default {
         "barrier"
       ],
       "optionReasons": {
-        "barrier-mcq-13": "本句指「與接近／超越音速時的氣動效應相關的「音障」概念」。",
-        "barrier-mcq-12": "「限制血液中物質自由進入腦組織的生理屏障」與本句語境不同。",
-        "barrier-mcq-14": "「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」與本句語境不同。",
-        "barrier-mcq-11": "「皮膚防止水分流失及外來物質進入的保護層功能」與本句語境不同。",
-        "barrier-mcq-15": "「讓多個執行緒／程序在同一同步點等待的機制」與本句語境不同。",
-        "barrier-mcq-10": "「因技術限制或未解決技術問題造成的障礙」與本句語境不同。"
+        "barrier-mcq-13": "本句的「barrier」指「與接近／超越音速時的氣動效應相關的「音障」概念」。",
+        "barrier-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-13"
     },
@@ -1028,11 +922,8 @@ export default {
       "masked": "The building has a ____ entrance.",
       "options": [
         "barrier-mcq-14",
-        "barrier-mcq-13",
-        "barrier-mcq-15",
-        "barrier-mcq-12",
-        "barrier-mcq-11",
-        "barrier-mcq-10"
+        "barrier-mcq-07",
+        "barrier-mcq-13"
       ],
       "explanation": "本句的「barrier-free」指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
       "sentenceIndex": 106,
@@ -1041,12 +932,9 @@ export default {
         "barrier-free"
       ],
       "optionReasons": {
-        "barrier-mcq-14": "本句指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
-        "barrier-mcq-13": "「與接近／超越音速時的氣動效應相關的「音障」概念」與本句語境不同。",
-        "barrier-mcq-15": "「讓多個執行緒／程序在同一同步點等待的機制」與本句語境不同。",
-        "barrier-mcq-12": "「限制血液中物質自由進入腦組織的生理屏障」與本句語境不同。",
-        "barrier-mcq-11": "「皮膚防止水分流失及外來物質進入的保護層功能」與本句語境不同。",
-        "barrier-mcq-10": "「因技術限制或未解決技術問題造成的障礙」與本句語境不同。"
+        "barrier-mcq-14": "本句的「barrier-free」指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
+        "barrier-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-14"
     },
@@ -1058,11 +946,8 @@ export default {
       "masked": "The aim is to create a ____ environment.",
       "options": [
         "barrier-mcq-14",
-        "barrier-mcq-13",
-        "barrier-mcq-15",
-        "barrier-mcq-12",
-        "barrier-mcq-11",
-        "barrier-mcq-10"
+        "barrier-mcq-01",
+        "barrier-mcq-13"
       ],
       "explanation": "本句的「barrier-free」指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
       "sentenceIndex": 107,
@@ -1071,12 +956,9 @@ export default {
         "barrier-free"
       ],
       "optionReasons": {
-        "barrier-mcq-14": "本句指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
-        "barrier-mcq-13": "「與接近／超越音速時的氣動效應相關的「音障」概念」與本句語境不同。",
-        "barrier-mcq-15": "「讓多個執行緒／程序在同一同步點等待的機制」與本句語境不同。",
-        "barrier-mcq-12": "「限制血液中物質自由進入腦組織的生理屏障」與本句語境不同。",
-        "barrier-mcq-11": "「皮膚防止水分流失及外來物質進入的保護層功能」與本句語境不同。",
-        "barrier-mcq-10": "「因技術限制或未解決技術問題造成的障礙」與本句語境不同。"
+        "barrier-mcq-14": "本句的「barrier-free」指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
+        "barrier-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-14"
     },
@@ -1088,11 +970,8 @@ export default {
       "masked": "The station provides ____ access.",
       "options": [
         "barrier-mcq-14",
-        "barrier-mcq-13",
-        "barrier-mcq-15",
-        "barrier-mcq-12",
-        "barrier-mcq-11",
-        "barrier-mcq-10"
+        "barrier-mcq-07",
+        "barrier-mcq-13"
       ],
       "explanation": "本句的「barrier-free」指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
       "sentenceIndex": 108,
@@ -1101,12 +980,9 @@ export default {
         "barrier-free"
       ],
       "optionReasons": {
-        "barrier-mcq-14": "本句指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
-        "barrier-mcq-13": "「與接近／超越音速時的氣動效應相關的「音障」概念」與本句語境不同。",
-        "barrier-mcq-15": "「讓多個執行緒／程序在同一同步點等待的機制」與本句語境不同。",
-        "barrier-mcq-12": "「限制血液中物質自由進入腦組織的生理屏障」與本句語境不同。",
-        "barrier-mcq-11": "「皮膚防止水分流失及外來物質進入的保護層功能」與本句語境不同。",
-        "barrier-mcq-10": "「因技術限制或未解決技術問題造成的障礙」與本句語境不同。"
+        "barrier-mcq-14": "本句的「barrier-free」指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
+        "barrier-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-14"
     },
@@ -1118,11 +994,8 @@ export default {
       "masked": "Lifts improve ____ access.",
       "options": [
         "barrier-mcq-14",
-        "barrier-mcq-13",
-        "barrier-mcq-15",
-        "barrier-mcq-12",
-        "barrier-mcq-11",
-        "barrier-mcq-10"
+        "barrier-mcq-01",
+        "barrier-mcq-13"
       ],
       "explanation": "本句的「barrier-free」指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
       "sentenceIndex": 109,
@@ -1131,12 +1004,9 @@ export default {
         "barrier-free"
       ],
       "optionReasons": {
-        "barrier-mcq-14": "本句指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
-        "barrier-mcq-13": "「與接近／超越音速時的氣動效應相關的「音障」概念」與本句語境不同。",
-        "barrier-mcq-15": "「讓多個執行緒／程序在同一同步點等待的機制」與本句語境不同。",
-        "barrier-mcq-12": "「限制血液中物質自由進入腦組織的生理屏障」與本句語境不同。",
-        "barrier-mcq-11": "「皮膚防止水分流失及外來物質進入的保護層功能」與本句語境不同。",
-        "barrier-mcq-10": "「因技術限制或未解決技術問題造成的障礙」與本句語境不同。"
+        "barrier-mcq-14": "本句的「barrier-free」指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
+        "barrier-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-14"
     },
@@ -1148,11 +1018,8 @@ export default {
       "masked": "The service aims to provide ____ access to information.",
       "options": [
         "barrier-mcq-14",
-        "barrier-mcq-13",
-        "barrier-mcq-15",
-        "barrier-mcq-12",
-        "barrier-mcq-11",
-        "barrier-mcq-10"
+        "barrier-mcq-07",
+        "barrier-mcq-13"
       ],
       "explanation": "本句的「barrier-free」指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
       "sentenceIndex": 112,
@@ -1161,12 +1028,9 @@ export default {
         "barrier-free"
       ],
       "optionReasons": {
-        "barrier-mcq-14": "本句指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
-        "barrier-mcq-13": "「與接近／超越音速時的氣動效應相關的「音障」概念」與本句語境不同。",
-        "barrier-mcq-15": "「讓多個執行緒／程序在同一同步點等待的機制」與本句語境不同。",
-        "barrier-mcq-12": "「限制血液中物質自由進入腦組織的生理屏障」與本句語境不同。",
-        "barrier-mcq-11": "「皮膚防止水分流失及外來物質進入的保護層功能」與本句語境不同。",
-        "barrier-mcq-10": "「因技術限制或未解決技術問題造成的障礙」與本句語境不同。"
+        "barrier-mcq-14": "本句的「barrier-free」指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
+        "barrier-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-14"
     },
@@ -1178,11 +1042,8 @@ export default {
       "masked": "A ____ process should be simple and accessible.",
       "options": [
         "barrier-mcq-14",
-        "barrier-mcq-13",
-        "barrier-mcq-15",
-        "barrier-mcq-12",
-        "barrier-mcq-11",
-        "barrier-mcq-10"
+        "barrier-mcq-01",
+        "barrier-mcq-13"
       ],
       "explanation": "本句的「barrier-free」指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
       "sentenceIndex": 113,
@@ -1191,12 +1052,9 @@ export default {
         "barrier-free"
       ],
       "optionReasons": {
-        "barrier-mcq-14": "本句指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
-        "barrier-mcq-13": "「與接近／超越音速時的氣動效應相關的「音障」概念」與本句語境不同。",
-        "barrier-mcq-15": "「讓多個執行緒／程序在同一同步點等待的機制」與本句語境不同。",
-        "barrier-mcq-12": "「限制血液中物質自由進入腦組織的生理屏障」與本句語境不同。",
-        "barrier-mcq-11": "「皮膚防止水分流失及外來物質進入的保護層功能」與本句語境不同。",
-        "barrier-mcq-10": "「因技術限制或未解決技術問題造成的障礙」與本句語境不同。"
+        "barrier-mcq-14": "本句的「barrier-free」指「不存在妨礙殘疾人士／其他使用者進入和使用的障礙」。",
+        "barrier-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "barrier-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "barrier-mcq-14"
     }
@@ -1208,5 +1066,7 @@ export default {
     "sha256": "e8204dfbeff53048f11d527c8146d16494ace30ef6a11d364d819a7eeb83500e",
     "pages": 45
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

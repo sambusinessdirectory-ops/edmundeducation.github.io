@@ -728,11 +728,7 @@ export default {
       "masked": "The story raises several ____.",
       "options": [
         "moral-mcq-01",
-        "moral-mcq-02",
-        "moral-mcq-03",
-        "moral-mcq-04",
-        "moral-mcq-05",
-        "moral-mcq-06"
+        "moral-mcq-26"
       ],
       "explanation": "本句的「moral questions」指「與人類行為的是非善惡、倫理原則有關的；道德的」。",
       "sentenceIndex": 2,
@@ -741,12 +737,8 @@ export default {
         "moral questions"
       ],
       "optionReasons": {
-        "moral-mcq-01": "本句指「與人類行為的是非善惡、倫理原則有關的；道德的」。",
-        "moral-mcq-02": "「涉及對行為是非善惡判斷的道德問題」與本句語境不同。",
-        "moral-mcq-03": "「即使有壓力、風險仍堅持做自己認為正確之事的道德勇氣」與本句語境不同。",
-        "moral-mcq-04": "「用來判斷行為對錯的道德原則」與本句語境不同。",
-        "moral-mcq-05": "「社會／個人判斷行為是非的道德標準」與本句語境不同。",
-        "moral-mcq-06": "「對甚麼是正確、良善及重要的道德價值觀」與本句語境不同。"
+        "moral-mcq-01": "本句的「moral questions」指「與人類行為的是非善惡、倫理原則有關的；道德的」。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-01"
     },
@@ -758,11 +750,7 @@ export default {
       "masked": "People sometimes face difficult ____.",
       "options": [
         "moral-mcq-01",
-        "moral-mcq-02",
-        "moral-mcq-03",
-        "moral-mcq-04",
-        "moral-mcq-05",
-        "moral-mcq-06"
+        "moral-mcq-26"
       ],
       "explanation": "本句的「moral choices」指「與人類行為的是非善惡、倫理原則有關的；道德的」。",
       "sentenceIndex": 3,
@@ -771,12 +759,8 @@ export default {
         "moral choices"
       ],
       "optionReasons": {
-        "moral-mcq-01": "本句指「與人類行為的是非善惡、倫理原則有關的；道德的」。",
-        "moral-mcq-02": "「涉及對行為是非善惡判斷的道德問題」與本句語境不同。",
-        "moral-mcq-03": "「即使有壓力、風險仍堅持做自己認為正確之事的道德勇氣」與本句語境不同。",
-        "moral-mcq-04": "「用來判斷行為對錯的道德原則」與本句語境不同。",
-        "moral-mcq-05": "「社會／個人判斷行為是非的道德標準」與本句語境不同。",
-        "moral-mcq-06": "「對甚麼是正確、良善及重要的道德價值觀」與本句語境不同。"
+        "moral-mcq-01": "本句的「moral choices」指「與人類行為的是非善惡、倫理原則有關的；道德的」。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-01"
     },
@@ -788,11 +772,8 @@ export default {
       "masked": "The debate raises an important ____.",
       "options": [
         "moral-mcq-02",
-        "moral-mcq-01",
-        "moral-mcq-03",
-        "moral-mcq-04",
-        "moral-mcq-05",
-        "moral-mcq-06"
+        "moral-mcq-07",
+        "moral-mcq-28"
       ],
       "explanation": "本句的「moral issue」指「涉及對行為是非善惡判斷的道德問題」。",
       "sentenceIndex": 4,
@@ -801,12 +782,9 @@ export default {
         "moral issue"
       ],
       "optionReasons": {
-        "moral-mcq-02": "本句指「涉及對行為是非善惡判斷的道德問題」。",
-        "moral-mcq-01": "「與人類行為的是非善惡、倫理原則有關的；道德的」與本句語境不同。",
-        "moral-mcq-03": "「即使有壓力、風險仍堅持做自己認為正確之事的道德勇氣」與本句語境不同。",
-        "moral-mcq-04": "「用來判斷行為對錯的道德原則」與本句語境不同。",
-        "moral-mcq-05": "「社會／個人判斷行為是非的道德標準」與本句語境不同。",
-        "moral-mcq-06": "「對甚麼是正確、良善及重要的道德價值觀」與本句語境不同。"
+        "moral-mcq-02": "本句的「moral issue」指「涉及對行為是非善惡判斷的道德問題」。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-02"
     },
@@ -818,11 +796,8 @@ export default {
       "masked": "Whether to intervene became a ____.",
       "options": [
         "moral-mcq-02",
-        "moral-mcq-01",
-        "moral-mcq-03",
-        "moral-mcq-04",
-        "moral-mcq-05",
-        "moral-mcq-06"
+        "moral-mcq-26",
+        "moral-mcq-07"
       ],
       "explanation": "本句的「moral question」指「涉及對行為是非善惡判斷的道德問題」。",
       "sentenceIndex": 5,
@@ -831,12 +806,9 @@ export default {
         "moral question"
       ],
       "optionReasons": {
-        "moral-mcq-02": "本句指「涉及對行為是非善惡判斷的道德問題」。",
-        "moral-mcq-01": "「與人類行為的是非善惡、倫理原則有關的；道德的」與本句語境不同。",
-        "moral-mcq-03": "「即使有壓力、風險仍堅持做自己認為正確之事的道德勇氣」與本句語境不同。",
-        "moral-mcq-04": "「用來判斷行為對錯的道德原則」與本句語境不同。",
-        "moral-mcq-05": "「社會／個人判斷行為是非的道德標準」與本句語境不同。",
-        "moral-mcq-06": "「對甚麼是正確、良善及重要的道德價值觀」與本句語境不同。"
+        "moral-mcq-02": "本句的「moral question」指「涉及對行為是非善惡判斷的道德問題」。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-02"
     },
@@ -848,11 +820,9 @@ export default {
       "masked": "It took ____ to defend the student.",
       "options": [
         "moral-mcq-03",
-        "moral-mcq-02",
-        "moral-mcq-04",
-        "moral-mcq-01",
-        "moral-mcq-05",
-        "moral-mcq-06"
+        "moral-mcq-23",
+        "moral-mcq-12",
+        "moral-mcq-07"
       ],
       "explanation": "本句的「moral courage」指「即使有壓力、風險仍堅持做自己認為正確之事的道德勇氣」。",
       "sentenceIndex": 6,
@@ -861,12 +831,10 @@ export default {
         "moral courage"
       ],
       "optionReasons": {
-        "moral-mcq-03": "本句指「即使有壓力、風險仍堅持做自己認為正確之事的道德勇氣」。",
-        "moral-mcq-02": "「涉及對行為是非善惡判斷的道德問題」與本句語境不同。",
-        "moral-mcq-04": "「用來判斷行為對錯的道德原則」與本句語境不同。",
-        "moral-mcq-01": "「與人類行為的是非善惡、倫理原則有關的；道德的」與本句語境不同。",
-        "moral-mcq-05": "「社會／個人判斷行為是非的道德標準」與本句語境不同。",
-        "moral-mcq-06": "「對甚麼是正確、良善及重要的道德價值觀」與本句語境不同。"
+        "moral-mcq-03": "本句的「moral courage」指「即使有壓力、風險仍堅持做自己認為正確之事的道德勇氣」。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-03"
     },
@@ -878,11 +846,9 @@ export default {
       "masked": "____ sometimes means refusing to stay silent.",
       "options": [
         "moral-mcq-03",
-        "moral-mcq-02",
-        "moral-mcq-04",
-        "moral-mcq-01",
-        "moral-mcq-05",
-        "moral-mcq-06"
+        "moral-mcq-23",
+        "moral-mcq-12",
+        "moral-mcq-07"
       ],
       "explanation": "本句的「Moral courage」指「即使有壓力、風險仍堅持做自己認為正確之事的道德勇氣」。",
       "sentenceIndex": 7,
@@ -891,12 +857,10 @@ export default {
         "Moral courage"
       ],
       "optionReasons": {
-        "moral-mcq-03": "本句指「即使有壓力、風險仍堅持做自己認為正確之事的道德勇氣」。",
-        "moral-mcq-02": "「涉及對行為是非善惡判斷的道德問題」與本句語境不同。",
-        "moral-mcq-04": "「用來判斷行為對錯的道德原則」與本句語境不同。",
-        "moral-mcq-01": "「與人類行為的是非善惡、倫理原則有關的；道德的」與本句語境不同。",
-        "moral-mcq-05": "「社會／個人判斷行為是非的道德標準」與本句語境不同。",
-        "moral-mcq-06": "「對甚麼是正確、良善及重要的道德價值觀」與本句語境不同。"
+        "moral-mcq-03": "本句的「Moral courage」指「即使有壓力、風險仍堅持做自己認為正確之事的道德勇氣」。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-03"
     },
@@ -908,11 +872,9 @@ export default {
       "masked": "He refused to abandon his ____.",
       "options": [
         "moral-mcq-04",
-        "moral-mcq-03",
-        "moral-mcq-05",
-        "moral-mcq-02",
-        "moral-mcq-06",
-        "moral-mcq-01"
+        "moral-mcq-12",
+        "moral-mcq-07",
+        "moral-mcq-26"
       ],
       "explanation": "本句的「moral principles」指「用來判斷行為對錯的道德原則」。",
       "sentenceIndex": 8,
@@ -921,12 +883,10 @@ export default {
         "moral principles"
       ],
       "optionReasons": {
-        "moral-mcq-04": "本句指「用來判斷行為對錯的道德原則」。",
-        "moral-mcq-03": "「即使有壓力、風險仍堅持做自己認為正確之事的道德勇氣」與本句語境不同。",
-        "moral-mcq-05": "「社會／個人判斷行為是非的道德標準」與本句語境不同。",
-        "moral-mcq-02": "「涉及對行為是非善惡判斷的道德問題」與本句語境不同。",
-        "moral-mcq-06": "「對甚麼是正確、良善及重要的道德價值觀」與本句語境不同。",
-        "moral-mcq-01": "「與人類行為的是非善惡、倫理原則有關的；道德的」與本句語境不同。"
+        "moral-mcq-04": "本句的「moral principles」指「用來判斷行為對錯的道德原則」。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-04"
     },
@@ -938,11 +898,9 @@ export default {
       "masked": "The decision conflicted with her ____.",
       "options": [
         "moral-mcq-04",
-        "moral-mcq-03",
-        "moral-mcq-05",
-        "moral-mcq-02",
-        "moral-mcq-06",
-        "moral-mcq-01"
+        "moral-mcq-07",
+        "moral-mcq-12",
+        "moral-mcq-26"
       ],
       "explanation": "本句的「moral principles」指「用來判斷行為對錯的道德原則」。",
       "sentenceIndex": 9,
@@ -951,12 +909,10 @@ export default {
         "moral principles"
       ],
       "optionReasons": {
-        "moral-mcq-04": "本句指「用來判斷行為對錯的道德原則」。",
-        "moral-mcq-03": "「即使有壓力、風險仍堅持做自己認為正確之事的道德勇氣」與本句語境不同。",
-        "moral-mcq-05": "「社會／個人判斷行為是非的道德標準」與本句語境不同。",
-        "moral-mcq-02": "「涉及對行為是非善惡判斷的道德問題」與本句語境不同。",
-        "moral-mcq-06": "「對甚麼是正確、良善及重要的道德價值觀」與本句語境不同。",
-        "moral-mcq-01": "「與人類行為的是非善惡、倫理原則有關的；道德的」與本句語境不同。"
+        "moral-mcq-04": "本句的「moral principles」指「用來判斷行為對錯的道德原則」。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-04"
     },
@@ -968,11 +924,8 @@ export default {
       "masked": "Different societies may emphasize different ____.",
       "options": [
         "moral-mcq-05",
-        "moral-mcq-04",
-        "moral-mcq-06",
-        "moral-mcq-03",
         "moral-mcq-07",
-        "moral-mcq-02"
+        "moral-mcq-26"
       ],
       "explanation": "本句的「moral standards」指「社會／個人判斷行為是非的道德標準」。",
       "sentenceIndex": 10,
@@ -981,12 +934,9 @@ export default {
         "moral standards"
       ],
       "optionReasons": {
-        "moral-mcq-05": "本句指「社會／個人判斷行為是非的道德標準」。",
-        "moral-mcq-04": "「用來判斷行為對錯的道德原則」與本句語境不同。",
-        "moral-mcq-06": "「對甚麼是正確、良善及重要的道德價值觀」與本句語境不同。",
-        "moral-mcq-03": "「即使有壓力、風險仍堅持做自己認為正確之事的道德勇氣」與本句語境不同。",
-        "moral-mcq-07": "「從倫理角度應承擔的責任」與本句語境不同。",
-        "moral-mcq-02": "「涉及對行為是非善惡判斷的道德問題」與本句語境不同。"
+        "moral-mcq-05": "本句的「moral standards」指「社會／個人判斷行為是非的道德標準」。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-05"
     },
@@ -998,11 +948,8 @@ export default {
       "masked": "He believed public officials should meet high ____.",
       "options": [
         "moral-mcq-05",
-        "moral-mcq-04",
-        "moral-mcq-06",
-        "moral-mcq-03",
         "moral-mcq-07",
-        "moral-mcq-02"
+        "moral-mcq-26"
       ],
       "explanation": "本句的「moral standards」指「社會／個人判斷行為是非的道德標準」。",
       "sentenceIndex": 11,
@@ -1011,12 +958,9 @@ export default {
         "moral standards"
       ],
       "optionReasons": {
-        "moral-mcq-05": "本句指「社會／個人判斷行為是非的道德標準」。",
-        "moral-mcq-04": "「用來判斷行為對錯的道德原則」與本句語境不同。",
-        "moral-mcq-06": "「對甚麼是正確、良善及重要的道德價值觀」與本句語境不同。",
-        "moral-mcq-03": "「即使有壓力、風險仍堅持做自己認為正確之事的道德勇氣」與本句語境不同。",
-        "moral-mcq-07": "「從倫理角度應承擔的責任」與本句語境不同。",
-        "moral-mcq-02": "「涉及對行為是非善惡判斷的道德問題」與本句語境不同。"
+        "moral-mcq-05": "本句的「moral standards」指「社會／個人判斷行為是非的道德標準」。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-05"
     },
@@ -1028,11 +972,9 @@ export default {
       "masked": "Families may teach different ____.",
       "options": [
         "moral-mcq-06",
-        "moral-mcq-05",
-        "moral-mcq-07",
-        "moral-mcq-04",
-        "moral-mcq-08",
-        "moral-mcq-03"
+        "moral-mcq-23",
+        "moral-mcq-26",
+        "moral-mcq-07"
       ],
       "explanation": "本句的「moral values」指「對甚麼是正確、良善及重要的道德價值觀」。",
       "sentenceIndex": 12,
@@ -1041,12 +983,10 @@ export default {
         "moral values"
       ],
       "optionReasons": {
-        "moral-mcq-06": "本句指「對甚麼是正確、良善及重要的道德價值觀」。",
-        "moral-mcq-05": "「社會／個人判斷行為是非的道德標準」與本句語境不同。",
-        "moral-mcq-07": "「從倫理角度應承擔的責任」與本句語境不同。",
-        "moral-mcq-04": "「用來判斷行為對錯的道德原則」與本句語境不同。",
-        "moral-mcq-08": "「不是單靠法律，而由道德原則產生的義務」與本句語境不同。",
-        "moral-mcq-03": "「即使有壓力、風險仍堅持做自己認為正確之事的道德勇氣」與本句語境不同。"
+        "moral-mcq-06": "本句的「moral values」指「對甚麼是正確、良善及重要的道德價值觀」。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-06"
     },
@@ -1058,11 +998,9 @@ export default {
       "masked": "The story explores questions of ____.",
       "options": [
         "moral-mcq-06",
-        "moral-mcq-05",
         "moral-mcq-07",
-        "moral-mcq-04",
-        "moral-mcq-08",
-        "moral-mcq-03"
+        "moral-mcq-23",
+        "moral-mcq-26"
       ],
       "explanation": "本句的「moral values」指「對甚麼是正確、良善及重要的道德價值觀」。",
       "sentenceIndex": 13,
@@ -1071,12 +1009,10 @@ export default {
         "moral values"
       ],
       "optionReasons": {
-        "moral-mcq-06": "本句指「對甚麼是正確、良善及重要的道德價值觀」。",
-        "moral-mcq-05": "「社會／個人判斷行為是非的道德標準」與本句語境不同。",
-        "moral-mcq-07": "「從倫理角度應承擔的責任」與本句語境不同。",
-        "moral-mcq-04": "「用來判斷行為對錯的道德原則」與本句語境不同。",
-        "moral-mcq-08": "「不是單靠法律，而由道德原則產生的義務」與本句語境不同。",
-        "moral-mcq-03": "「即使有壓力、風險仍堅持做自己認為正確之事的道德勇氣」與本句語境不同。"
+        "moral-mcq-06": "本句的「moral values」指「對甚麼是正確、良善及重要的道德價值觀」。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-06"
     },
@@ -1088,11 +1024,9 @@ export default {
       "masked": "We have a ____ to protect vulnerable people.",
       "options": [
         "moral-mcq-07",
-        "moral-mcq-06",
-        "moral-mcq-08",
-        "moral-mcq-05",
-        "moral-mcq-09",
-        "moral-mcq-04"
+        "moral-mcq-23",
+        "moral-mcq-30",
+        "moral-mcq-26"
       ],
       "explanation": "本句的「moral responsibility」指「從倫理角度應承擔的責任」。",
       "sentenceIndex": 14,
@@ -1101,12 +1035,10 @@ export default {
         "moral responsibility"
       ],
       "optionReasons": {
-        "moral-mcq-07": "本句指「從倫理角度應承擔的責任」。",
-        "moral-mcq-06": "「對甚麼是正確、良善及重要的道德價值觀」與本句語境不同。",
-        "moral-mcq-08": "「不是單靠法律，而由道德原則產生的義務」與本句語境不同。",
-        "moral-mcq-05": "「社會／個人判斷行為是非的道德標準」與本句語境不同。",
-        "moral-mcq-09": "「對某行為是否正確／錯誤作出的道德判斷」與本句語境不同。",
-        "moral-mcq-04": "「用來判斷行為對錯的道德原則」與本句語境不同。"
+        "moral-mcq-07": "本句的「moral responsibility」指「從倫理角度應承擔的責任」。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-07"
     },
@@ -1118,11 +1050,9 @@ export default {
       "masked": "The character begins to recognize his ____.",
       "options": [
         "moral-mcq-07",
-        "moral-mcq-06",
-        "moral-mcq-08",
-        "moral-mcq-05",
-        "moral-mcq-09",
-        "moral-mcq-04"
+        "moral-mcq-22",
+        "moral-mcq-28",
+        "moral-mcq-23"
       ],
       "explanation": "本句的「moral responsibility」指「從倫理角度應承擔的責任」。",
       "sentenceIndex": 15,
@@ -1131,12 +1061,10 @@ export default {
         "moral responsibility"
       ],
       "optionReasons": {
-        "moral-mcq-07": "本句指「從倫理角度應承擔的責任」。",
-        "moral-mcq-06": "「對甚麼是正確、良善及重要的道德價值觀」與本句語境不同。",
-        "moral-mcq-08": "「不是單靠法律，而由道德原則產生的義務」與本句語境不同。",
-        "moral-mcq-05": "「社會／個人判斷行為是非的道德標準」與本句語境不同。",
-        "moral-mcq-09": "「對某行為是否正確／錯誤作出的道德判斷」與本句語境不同。",
-        "moral-mcq-04": "「用來判斷行為對錯的道德原則」與本句語境不同。"
+        "moral-mcq-07": "本句的「moral responsibility」指「從倫理角度應承擔的責任」。",
+        "moral-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-07"
     },
@@ -1148,11 +1076,8 @@ export default {
       "masked": "She felt a ____ to help.",
       "options": [
         "moral-mcq-08",
-        "moral-mcq-07",
-        "moral-mcq-09",
-        "moral-mcq-06",
-        "moral-mcq-10",
-        "moral-mcq-05"
+        "moral-mcq-23",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「moral duty」指「不是單靠法律，而由道德原則產生的義務」。",
       "sentenceIndex": 16,
@@ -1161,12 +1086,9 @@ export default {
         "moral duty"
       ],
       "optionReasons": {
-        "moral-mcq-08": "本句指「不是單靠法律，而由道德原則產生的義務」。",
-        "moral-mcq-07": "「從倫理角度應承擔的責任」與本句語境不同。",
-        "moral-mcq-09": "「對某行為是否正確／錯誤作出的道德判斷」與本句語境不同。",
-        "moral-mcq-06": "「對甚麼是正確、良善及重要的道德價值觀」與本句語境不同。",
-        "moral-mcq-10": "「兩種倫理原則／選擇互相衝突形成的道德兩難」與本句語境不同。",
-        "moral-mcq-05": "「社會／個人判斷行為是非的道德標準」與本句語境不同。"
+        "moral-mcq-08": "本句的「moral duty」指「不是單靠法律，而由道德原則產生的義務」。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-08"
     },
@@ -1178,11 +1100,8 @@ export default {
       "masked": "He saw speaking out as a ____.",
       "options": [
         "moral-mcq-08",
-        "moral-mcq-07",
-        "moral-mcq-09",
-        "moral-mcq-06",
-        "moral-mcq-10",
-        "moral-mcq-05"
+        "moral-mcq-23",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「moral obligation」指「不是單靠法律，而由道德原則產生的義務」。",
       "sentenceIndex": 17,
@@ -1191,12 +1110,9 @@ export default {
         "moral obligation"
       ],
       "optionReasons": {
-        "moral-mcq-08": "本句指「不是單靠法律，而由道德原則產生的義務」。",
-        "moral-mcq-07": "「從倫理角度應承擔的責任」與本句語境不同。",
-        "moral-mcq-09": "「對某行為是否正確／錯誤作出的道德判斷」與本句語境不同。",
-        "moral-mcq-06": "「對甚麼是正確、良善及重要的道德價值觀」與本句語境不同。",
-        "moral-mcq-10": "「兩種倫理原則／選擇互相衝突形成的道德兩難」與本句語境不同。",
-        "moral-mcq-05": "「社會／個人判斷行為是非的道德標準」與本句語境不同。"
+        "moral-mcq-08": "本句的「moral obligation」指「不是單靠法律，而由道德原則產生的義務」。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-08"
     },
@@ -1208,11 +1124,9 @@ export default {
       "masked": "The activity requires careful ____.",
       "options": [
         "moral-mcq-09",
-        "moral-mcq-08",
-        "moral-mcq-10",
+        "moral-mcq-12",
         "moral-mcq-07",
-        "moral-mcq-11",
-        "moral-mcq-06"
+        "moral-mcq-26"
       ],
       "explanation": "本句的「moral judgment」指「對某行為是否正確／錯誤作出的道德判斷」。",
       "sentenceIndex": 18,
@@ -1221,12 +1135,10 @@ export default {
         "moral judgment"
       ],
       "optionReasons": {
-        "moral-mcq-09": "本句指「對某行為是否正確／錯誤作出的道德判斷」。",
-        "moral-mcq-08": "「不是單靠法律，而由道德原則產生的義務」與本句語境不同。",
-        "moral-mcq-10": "「兩種倫理原則／選擇互相衝突形成的道德兩難」與本句語境不同。",
-        "moral-mcq-07": "「從倫理角度應承擔的責任」與本句語境不同。",
-        "moral-mcq-11": "「合乎道德原則、品行正當的」與本句語境不同。",
-        "moral-mcq-06": "「對甚麼是正確、良善及重要的道德價值觀」與本句語境不同。"
+        "moral-mcq-09": "本句的「moral judgment」指「對某行為是否正確／錯誤作出的道德判斷」。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-09"
     },
@@ -1238,11 +1150,9 @@ export default {
       "masked": "Young people gradually develop their own ____.",
       "options": [
         "moral-mcq-09",
-        "moral-mcq-08",
-        "moral-mcq-10",
-        "moral-mcq-07",
-        "moral-mcq-11",
-        "moral-mcq-06"
+        "moral-mcq-12",
+        "moral-mcq-26",
+        "moral-mcq-07"
       ],
       "explanation": "本句的「moral judgments」指「對某行為是否正確／錯誤作出的道德判斷」。",
       "sentenceIndex": 19,
@@ -1251,12 +1161,10 @@ export default {
         "moral judgments"
       ],
       "optionReasons": {
-        "moral-mcq-09": "本句指「對某行為是否正確／錯誤作出的道德判斷」。",
-        "moral-mcq-08": "「不是單靠法律，而由道德原則產生的義務」與本句語境不同。",
-        "moral-mcq-10": "「兩種倫理原則／選擇互相衝突形成的道德兩難」與本句語境不同。",
-        "moral-mcq-07": "「從倫理角度應承擔的責任」與本句語境不同。",
-        "moral-mcq-11": "「合乎道德原則、品行正當的」與本句語境不同。",
-        "moral-mcq-06": "「對甚麼是正確、良善及重要的道德價值觀」與本句語境不同。"
+        "moral-mcq-09": "本句的「moral judgments」指「對某行為是否正確／錯誤作出的道德判斷」。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-09"
     },
@@ -1268,11 +1176,8 @@ export default {
       "masked": "The character faces a serious ____.",
       "options": [
         "moral-mcq-10",
-        "moral-mcq-09",
-        "moral-mcq-11",
-        "moral-mcq-08",
-        "moral-mcq-12",
-        "moral-mcq-07"
+        "moral-mcq-23",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「moral dilemma」指「兩種倫理原則／選擇互相衝突形成的道德兩難」。",
       "sentenceIndex": 20,
@@ -1281,12 +1186,9 @@ export default {
         "moral dilemma"
       ],
       "optionReasons": {
-        "moral-mcq-10": "本句指「兩種倫理原則／選擇互相衝突形成的道德兩難」。",
-        "moral-mcq-09": "「對某行為是否正確／錯誤作出的道德判斷」與本句語境不同。",
-        "moral-mcq-11": "「合乎道德原則、品行正當的」與本句語境不同。",
-        "moral-mcq-08": "「不是單靠法律，而由道德原則產生的義務」與本句語境不同。",
-        "moral-mcq-12": "「對是非善惡的內在良知」與本句語境不同。",
-        "moral-mcq-07": "「從倫理角度應承擔的責任」與本句語境不同。"
+        "moral-mcq-10": "本句的「moral dilemma」指「兩種倫理原則／選擇互相衝突形成的道德兩難」。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-10"
     },
@@ -1298,11 +1200,8 @@ export default {
       "masked": "Reporting a friend may create a ____.",
       "options": [
         "moral-mcq-10",
-        "moral-mcq-09",
-        "moral-mcq-11",
-        "moral-mcq-08",
         "moral-mcq-12",
-        "moral-mcq-07"
+        "moral-mcq-23"
       ],
       "explanation": "本句的「moral dilemma」指「兩種倫理原則／選擇互相衝突形成的道德兩難」。",
       "sentenceIndex": 21,
@@ -1311,12 +1210,9 @@ export default {
         "moral dilemma"
       ],
       "optionReasons": {
-        "moral-mcq-10": "本句指「兩種倫理原則／選擇互相衝突形成的道德兩難」。",
-        "moral-mcq-09": "「對某行為是否正確／錯誤作出的道德判斷」與本句語境不同。",
-        "moral-mcq-11": "「合乎道德原則、品行正當的」與本句語境不同。",
-        "moral-mcq-08": "「不是單靠法律，而由道德原則產生的義務」與本句語境不同。",
-        "moral-mcq-12": "「對是非善惡的內在良知」與本句語境不同。",
-        "moral-mcq-07": "「從倫理角度應承擔的責任」與本句語境不同。"
+        "moral-mcq-10": "本句的「moral dilemma」指「兩種倫理原則／選擇互相衝突形成的道德兩難」。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-10"
     },
@@ -1328,11 +1224,9 @@ export default {
       "masked": "He believed he was making the ____.",
       "options": [
         "moral-mcq-11",
-        "moral-mcq-10",
         "moral-mcq-12",
-        "moral-mcq-09",
-        "moral-mcq-13",
-        "moral-mcq-08"
+        "moral-mcq-07",
+        "moral-mcq-26"
       ],
       "explanation": "本句的「moral choice」指「合乎道德原則、品行正當的」。",
       "sentenceIndex": 22,
@@ -1341,12 +1235,10 @@ export default {
         "moral choice"
       ],
       "optionReasons": {
-        "moral-mcq-11": "本句指「合乎道德原則、品行正當的」。",
-        "moral-mcq-10": "「兩種倫理原則／選擇互相衝突形成的道德兩難」與本句語境不同。",
-        "moral-mcq-12": "「對是非善惡的內在良知」與本句語境不同。",
-        "moral-mcq-09": "「對某行為是否正確／錯誤作出的道德判斷」與本句語境不同。",
-        "moral-mcq-13": "「從故事／經歷中得出的道德寓意／教訓」與本句語境不同。",
-        "moral-mcq-08": "「不是單靠法律，而由道德原則產生的義務」與本句語境不同。"
+        "moral-mcq-11": "本句的「moral choice」指「合乎道德原則、品行正當的」。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-11"
     },
@@ -1358,11 +1250,9 @@ export default {
       "masked": "The novel asks what it means to be a ____.",
       "options": [
         "moral-mcq-11",
-        "moral-mcq-10",
+        "moral-mcq-26",
         "moral-mcq-12",
-        "moral-mcq-09",
-        "moral-mcq-13",
-        "moral-mcq-08"
+        "moral-mcq-07"
       ],
       "explanation": "本句的「moral person」指「合乎道德原則、品行正當的」。",
       "sentenceIndex": 23,
@@ -1371,12 +1261,10 @@ export default {
         "moral person"
       ],
       "optionReasons": {
-        "moral-mcq-11": "本句指「合乎道德原則、品行正當的」。",
-        "moral-mcq-10": "「兩種倫理原則／選擇互相衝突形成的道德兩難」與本句語境不同。",
-        "moral-mcq-12": "「對是非善惡的內在良知」與本句語境不同。",
-        "moral-mcq-09": "「對某行為是否正確／錯誤作出的道德判斷」與本句語境不同。",
-        "moral-mcq-13": "「從故事／經歷中得出的道德寓意／教訓」與本句語境不同。",
-        "moral-mcq-08": "「不是單靠法律，而由道德原則產生的義務」與本句語境不同。"
+        "moral-mcq-11": "本句的「moral person」指「合乎道德原則、品行正當的」。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-11"
     },
@@ -1388,11 +1276,9 @@ export default {
       "masked": "His ____ would not let him ignore the problem.",
       "options": [
         "moral-mcq-12",
-        "moral-mcq-11",
         "moral-mcq-13",
-        "moral-mcq-10",
-        "moral-mcq-14",
-        "moral-mcq-09"
+        "moral-mcq-28",
+        "moral-mcq-23"
       ],
       "explanation": "本句的「moral conscience」指「對是非善惡的內在良知」。",
       "sentenceIndex": 24,
@@ -1401,12 +1287,10 @@ export default {
         "moral conscience"
       ],
       "optionReasons": {
-        "moral-mcq-12": "本句指「對是非善惡的內在良知」。",
-        "moral-mcq-11": "「合乎道德原則、品行正當的」與本句語境不同。",
-        "moral-mcq-13": "「從故事／經歷中得出的道德寓意／教訓」與本句語境不同。",
-        "moral-mcq-10": "「兩種倫理原則／選擇互相衝突形成的道德兩難」與本句語境不同。",
-        "moral-mcq-14": "「故事所傳達的主要人生／道德教訓」與本句語境不同。",
-        "moral-mcq-09": "「對某行為是否正確／錯誤作出的道德判斷」與本句語境不同。"
+        "moral-mcq-12": "本句的「moral conscience」指「對是非善惡的內在良知」。",
+        "moral-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-12"
     },
@@ -1418,11 +1302,9 @@ export default {
       "masked": "The experience awakened his ____.",
       "options": [
         "moral-mcq-12",
-        "moral-mcq-11",
-        "moral-mcq-13",
-        "moral-mcq-10",
-        "moral-mcq-14",
-        "moral-mcq-09"
+        "moral-mcq-21",
+        "moral-mcq-26",
+        "moral-mcq-07"
       ],
       "explanation": "本句的「moral conscience」指「對是非善惡的內在良知」。",
       "sentenceIndex": 25,
@@ -1431,12 +1313,10 @@ export default {
         "moral conscience"
       ],
       "optionReasons": {
-        "moral-mcq-12": "本句指「對是非善惡的內在良知」。",
-        "moral-mcq-11": "「合乎道德原則、品行正當的」與本句語境不同。",
-        "moral-mcq-13": "「從故事／經歷中得出的道德寓意／教訓」與本句語境不同。",
-        "moral-mcq-10": "「兩種倫理原則／選擇互相衝突形成的道德兩難」與本句語境不同。",
-        "moral-mcq-14": "「故事所傳達的主要人生／道德教訓」與本句語境不同。",
-        "moral-mcq-09": "「對某行為是否正確／錯誤作出的道德判斷」與本句語境不同。"
+        "moral-mcq-12": "本句的「moral conscience」指「對是非善惡的內在良知」。",
+        "moral-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-12"
     },
@@ -1449,10 +1329,8 @@ export default {
       "options": [
         "moral-mcq-13",
         "moral-mcq-12",
-        "moral-mcq-14",
-        "moral-mcq-11",
-        "moral-mcq-15",
-        "moral-mcq-10"
+        "moral-mcq-07",
+        "moral-mcq-26"
       ],
       "explanation": "本句的「moral of the story」指「從故事／經歷中得出的道德寓意／教訓」。",
       "sentenceIndex": 26,
@@ -1461,12 +1339,10 @@ export default {
         "moral of the story"
       ],
       "optionReasons": {
-        "moral-mcq-13": "本句指「從故事／經歷中得出的道德寓意／教訓」。",
-        "moral-mcq-12": "「對是非善惡的內在良知」與本句語境不同。",
-        "moral-mcq-14": "「故事所傳達的主要人生／道德教訓」與本句語境不同。",
-        "moral-mcq-11": "「合乎道德原則、品行正當的」與本句語境不同。",
-        "moral-mcq-15": "「關於正確行為、價值觀的道德教訓」與本句語境不同。",
-        "moral-mcq-10": "「兩種倫理原則／選擇互相衝突形成的道德兩難」與本句語境不同。"
+        "moral-mcq-13": "本句的「moral of the story」指「從故事／經歷中得出的道德寓意／教訓」。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-13"
     },
@@ -1478,11 +1354,9 @@ export default {
       "masked": "The ____ is that kindness matters.",
       "options": [
         "moral-mcq-13",
+        "moral-mcq-07",
         "moral-mcq-12",
-        "moral-mcq-14",
-        "moral-mcq-11",
-        "moral-mcq-15",
-        "moral-mcq-10"
+        "moral-mcq-26"
       ],
       "explanation": "本句的「moral」指「從故事／經歷中得出的道德寓意／教訓」。",
       "sentenceIndex": 27,
@@ -1491,12 +1365,10 @@ export default {
         "moral"
       ],
       "optionReasons": {
-        "moral-mcq-13": "本句指「從故事／經歷中得出的道德寓意／教訓」。",
-        "moral-mcq-12": "「對是非善惡的內在良知」與本句語境不同。",
-        "moral-mcq-14": "「故事所傳達的主要人生／道德教訓」與本句語境不同。",
-        "moral-mcq-11": "「合乎道德原則、品行正當的」與本句語境不同。",
-        "moral-mcq-15": "「關於正確行為、價值觀的道德教訓」與本句語境不同。",
-        "moral-mcq-10": "「兩種倫理原則／選擇互相衝突形成的道德兩難」與本句語境不同。"
+        "moral-mcq-13": "本句的「moral」指「從故事／經歷中得出的道德寓意／教訓」。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-13"
     },
@@ -1508,11 +1380,9 @@ export default {
       "masked": "The ____ is easy to understand.",
       "options": [
         "moral-mcq-14",
-        "moral-mcq-13",
-        "moral-mcq-15",
+        "moral-mcq-07",
         "moral-mcq-12",
-        "moral-mcq-16",
-        "moral-mcq-11"
+        "moral-mcq-28"
       ],
       "explanation": "本句的「moral of the story」指「故事所傳達的主要人生／道德教訓」。",
       "sentenceIndex": 28,
@@ -1521,12 +1391,10 @@ export default {
         "moral of the story"
       ],
       "optionReasons": {
-        "moral-mcq-14": "本句指「故事所傳達的主要人生／道德教訓」。",
-        "moral-mcq-13": "「從故事／經歷中得出的道德寓意／教訓」與本句語境不同。",
-        "moral-mcq-15": "「關於正確行為、價值觀的道德教訓」與本句語境不同。",
-        "moral-mcq-12": "「對是非善惡的內在良知」與本句語境不同。",
-        "moral-mcq-16": "「個人／社會對行為對錯的道德準則／操守」與本句語境不同。",
-        "moral-mcq-11": "「合乎道德原則、品行正當的」與本句語境不同。"
+        "moral-mcq-14": "本句的「moral of the story」指「故事所傳達的主要人生／道德教訓」。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-14"
     },
@@ -1538,11 +1406,9 @@ export default {
       "masked": "Not every story has a simple ____.",
       "options": [
         "moral-mcq-14",
-        "moral-mcq-13",
-        "moral-mcq-15",
+        "moral-mcq-26",
         "moral-mcq-12",
-        "moral-mcq-16",
-        "moral-mcq-11"
+        "moral-mcq-07"
       ],
       "explanation": "本句的「moral」指「故事所傳達的主要人生／道德教訓」。",
       "sentenceIndex": 29,
@@ -1551,12 +1417,10 @@ export default {
         "moral"
       ],
       "optionReasons": {
-        "moral-mcq-14": "本句指「故事所傳達的主要人生／道德教訓」。",
-        "moral-mcq-13": "「從故事／經歷中得出的道德寓意／教訓」與本句語境不同。",
-        "moral-mcq-15": "「關於正確行為、價值觀的道德教訓」與本句語境不同。",
-        "moral-mcq-12": "「對是非善惡的內在良知」與本句語境不同。",
-        "moral-mcq-16": "「個人／社會對行為對錯的道德準則／操守」與本句語境不同。",
-        "moral-mcq-11": "「合乎道德原則、品行正當的」與本句語境不同。"
+        "moral-mcq-14": "本句的「moral」指「故事所傳達的主要人生／道德教訓」。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-14"
     },
@@ -1568,10 +1432,8 @@ export default {
       "masked": "The story contains a clear ____.",
       "options": [
         "moral-mcq-15",
-        "moral-mcq-14",
-        "moral-mcq-16",
-        "moral-mcq-13",
-        "moral-mcq-17",
+        "moral-mcq-07",
+        "moral-mcq-26",
         "moral-mcq-12"
       ],
       "explanation": "本句的「moral lesson」指「關於正確行為、價值觀的道德教訓」。",
@@ -1581,12 +1443,10 @@ export default {
         "moral lesson"
       ],
       "optionReasons": {
-        "moral-mcq-15": "本句指「關於正確行為、價值觀的道德教訓」。",
-        "moral-mcq-14": "「故事所傳達的主要人生／道德教訓」與本句語境不同。",
-        "moral-mcq-16": "「個人／社會對行為對錯的道德準則／操守」與本句語境不同。",
-        "moral-mcq-13": "「從故事／經歷中得出的道德寓意／教訓」與本句語境不同。",
-        "moral-mcq-17": "「用來判斷行為對錯的道德原則體系／道德觀」與本句語境不同。",
-        "moral-mcq-12": "「對是非善惡的內在良知」與本句語境不同。"
+        "moral-mcq-15": "本句的「moral lesson」指「關於正確行為、價值觀的道德教訓」。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-15"
     },
@@ -1598,11 +1458,9 @@ export default {
       "masked": "The teacher did not want to force a single ____ on the class.",
       "options": [
         "moral-mcq-15",
-        "moral-mcq-14",
-        "moral-mcq-16",
-        "moral-mcq-13",
-        "moral-mcq-17",
-        "moral-mcq-12"
+        "moral-mcq-26",
+        "moral-mcq-12",
+        "moral-mcq-07"
       ],
       "explanation": "本句的「moral lesson」指「關於正確行為、價值觀的道德教訓」。",
       "sentenceIndex": 31,
@@ -1611,12 +1469,10 @@ export default {
         "moral lesson"
       ],
       "optionReasons": {
-        "moral-mcq-15": "本句指「關於正確行為、價值觀的道德教訓」。",
-        "moral-mcq-14": "「故事所傳達的主要人生／道德教訓」與本句語境不同。",
-        "moral-mcq-16": "「個人／社會對行為對錯的道德準則／操守」與本句語境不同。",
-        "moral-mcq-13": "「從故事／經歷中得出的道德寓意／教訓」與本句語境不同。",
-        "moral-mcq-17": "「用來判斷行為對錯的道德原則體系／道德觀」與本句語境不同。",
-        "moral-mcq-12": "「對是非善惡的內在良知」與本句語境不同。"
+        "moral-mcq-15": "本句的「moral lesson」指「關於正確行為、價值觀的道德教訓」。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-15"
     },
@@ -1628,11 +1484,9 @@ export default {
       "masked": "He was criticized for having questionable ____.",
       "options": [
         "moral-mcq-16",
-        "moral-mcq-15",
-        "moral-mcq-17",
-        "moral-mcq-14",
-        "moral-mcq-18",
-        "moral-mcq-13"
+        "moral-mcq-07",
+        "moral-mcq-26",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「morals」指「個人／社會對行為對錯的道德準則／操守」。",
       "sentenceIndex": 32,
@@ -1641,12 +1495,10 @@ export default {
         "morals"
       ],
       "optionReasons": {
-        "moral-mcq-16": "本句指「個人／社會對行為對錯的道德準則／操守」。",
-        "moral-mcq-15": "「關於正確行為、價值觀的道德教訓」與本句語境不同。",
-        "moral-mcq-17": "「用來判斷行為對錯的道德原則體系／道德觀」與本句語境不同。",
-        "moral-mcq-14": "「故事所傳達的主要人生／道德教訓」與本句語境不同。",
-        "moral-mcq-18": "「某行為是否合乎道德的道德性」與本句語境不同。",
-        "moral-mcq-13": "「從故事／經歷中得出的道德寓意／教訓」與本句語境不同。"
+        "moral-mcq-16": "本句的「morals」指「個人／社會對行為對錯的道德準則／操守」。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-16"
     },
@@ -1658,11 +1510,9 @@ export default {
       "masked": "Her decisions reflect strong personal ____.",
       "options": [
         "moral-mcq-16",
-        "moral-mcq-15",
-        "moral-mcq-17",
-        "moral-mcq-14",
-        "moral-mcq-18",
-        "moral-mcq-13"
+        "moral-mcq-26",
+        "moral-mcq-07",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「morals」指「個人／社會對行為對錯的道德準則／操守」。",
       "sentenceIndex": 33,
@@ -1671,12 +1521,10 @@ export default {
         "morals"
       ],
       "optionReasons": {
-        "moral-mcq-16": "本句指「個人／社會對行為對錯的道德準則／操守」。",
-        "moral-mcq-15": "「關於正確行為、價值觀的道德教訓」與本句語境不同。",
-        "moral-mcq-17": "「用來判斷行為對錯的道德原則體系／道德觀」與本句語境不同。",
-        "moral-mcq-14": "「故事所傳達的主要人生／道德教訓」與本句語境不同。",
-        "moral-mcq-18": "「某行為是否合乎道德的道德性」與本句語境不同。",
-        "moral-mcq-13": "「從故事／經歷中得出的道德寓意／教訓」與本句語境不同。"
+        "moral-mcq-16": "本句的「morals」指「個人／社會對行為對錯的道德準則／操守」。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-16"
     },
@@ -1688,11 +1536,9 @@ export default {
       "masked": "The novel explores questions of ____.",
       "options": [
         "moral-mcq-17",
-        "moral-mcq-16",
-        "moral-mcq-18",
-        "moral-mcq-15",
-        "moral-mcq-19",
-        "moral-mcq-14"
+        "moral-mcq-07",
+        "moral-mcq-12",
+        "moral-mcq-26"
       ],
       "explanation": "本句的「morality」指「用來判斷行為對錯的道德原則體系／道德觀」。",
       "sentenceIndex": 34,
@@ -1701,12 +1547,10 @@ export default {
         "morality"
       ],
       "optionReasons": {
-        "moral-mcq-17": "本句指「用來判斷行為對錯的道德原則體系／道德觀」。",
-        "moral-mcq-16": "「個人／社會對行為對錯的道德準則／操守」與本句語境不同。",
-        "moral-mcq-18": "「某行為是否合乎道德的道德性」與本句語境不同。",
-        "moral-mcq-15": "「關於正確行為、價值觀的道德教訓」與本句語境不同。",
-        "moral-mcq-19": "「從道德角度而言；在道德上」與本句語境不同。",
-        "moral-mcq-14": "「故事所傳達的主要人生／道德教訓」與本句語境不同。"
+        "moral-mcq-17": "本句的「morality」指「用來判斷行為對錯的道德原則體系／道德觀」。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-17"
     },
@@ -1718,11 +1562,9 @@ export default {
       "masked": "Ideas about ____ can differ across cultures.",
       "options": [
         "moral-mcq-17",
-        "moral-mcq-16",
-        "moral-mcq-18",
-        "moral-mcq-15",
-        "moral-mcq-19",
-        "moral-mcq-14"
+        "moral-mcq-12",
+        "moral-mcq-07",
+        "moral-mcq-26"
       ],
       "explanation": "本句的「morality」指「用來判斷行為對錯的道德原則體系／道德觀」。",
       "sentenceIndex": 35,
@@ -1731,12 +1573,10 @@ export default {
         "morality"
       ],
       "optionReasons": {
-        "moral-mcq-17": "本句指「用來判斷行為對錯的道德原則體系／道德觀」。",
-        "moral-mcq-16": "「個人／社會對行為對錯的道德準則／操守」與本句語境不同。",
-        "moral-mcq-18": "「某行為是否合乎道德的道德性」與本句語境不同。",
-        "moral-mcq-15": "「關於正確行為、價值觀的道德教訓」與本句語境不同。",
-        "moral-mcq-19": "「從道德角度而言；在道德上」與本句語境不同。",
-        "moral-mcq-14": "「故事所傳達的主要人生／道德教訓」與本句語境不同。"
+        "moral-mcq-17": "本句的「morality」指「用來判斷行為對錯的道德原則體系／道德觀」。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-17"
     },
@@ -1748,11 +1588,9 @@ export default {
       "masked": "The debate was partly about the ____ of the decision.",
       "options": [
         "moral-mcq-17",
-        "moral-mcq-16",
-        "moral-mcq-18",
-        "moral-mcq-15",
-        "moral-mcq-19",
-        "moral-mcq-14"
+        "moral-mcq-12",
+        "moral-mcq-07",
+        "moral-mcq-26"
       ],
       "explanation": "本句的「morality」指「用來判斷行為對錯的道德原則體系／道德觀」。",
       "sentenceIndex": 36,
@@ -1761,12 +1599,10 @@ export default {
         "morality"
       ],
       "optionReasons": {
-        "moral-mcq-17": "本句指「用來判斷行為對錯的道德原則體系／道德觀」。",
-        "moral-mcq-16": "「個人／社會對行為對錯的道德準則／操守」與本句語境不同。",
-        "moral-mcq-18": "「某行為是否合乎道德的道德性」與本句語境不同。",
-        "moral-mcq-15": "「關於正確行為、價值觀的道德教訓」與本句語境不同。",
-        "moral-mcq-19": "「從道德角度而言；在道德上」與本句語境不同。",
-        "moral-mcq-14": "「故事所傳達的主要人生／道德教訓」與本句語境不同。"
+        "moral-mcq-17": "本句的「morality」指「用來判斷行為對錯的道德原則體系／道德觀」。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-17"
     },
@@ -1778,11 +1614,9 @@ export default {
       "masked": "They questioned the ____ of the practice.",
       "options": [
         "moral-mcq-17",
-        "moral-mcq-16",
-        "moral-mcq-18",
-        "moral-mcq-15",
-        "moral-mcq-19",
-        "moral-mcq-14"
+        "moral-mcq-07",
+        "moral-mcq-12",
+        "moral-mcq-26"
       ],
       "explanation": "本句的「morality」指「用來判斷行為對錯的道德原則體系／道德觀」。",
       "sentenceIndex": 37,
@@ -1791,12 +1625,10 @@ export default {
         "morality"
       ],
       "optionReasons": {
-        "moral-mcq-17": "本句指「用來判斷行為對錯的道德原則體系／道德觀」。",
-        "moral-mcq-16": "「個人／社會對行為對錯的道德準則／操守」與本句語境不同。",
-        "moral-mcq-18": "「某行為是否合乎道德的道德性」與本句語境不同。",
-        "moral-mcq-15": "「關於正確行為、價值觀的道德教訓」與本句語境不同。",
-        "moral-mcq-19": "「從道德角度而言；在道德上」與本句語境不同。",
-        "moral-mcq-14": "「故事所傳達的主要人生／道德教訓」與本句語境不同。"
+        "moral-mcq-17": "本句的「morality」指「用來判斷行為對錯的道德原則體系／道德觀」。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-17"
     },
@@ -1808,11 +1640,9 @@ export default {
       "masked": "The decision was ____.",
       "options": [
         "moral-mcq-19",
-        "moral-mcq-18",
-        "moral-mcq-20",
-        "moral-mcq-17",
-        "moral-mcq-21",
-        "moral-mcq-16"
+        "moral-mcq-12",
+        "moral-mcq-26",
+        "moral-mcq-23"
       ],
       "explanation": "本句的「morally difficult」指「從道德角度而言；在道德上」。",
       "sentenceIndex": 38,
@@ -1821,12 +1651,10 @@ export default {
         "morally difficult"
       ],
       "optionReasons": {
-        "moral-mcq-19": "本句指「從道德角度而言；在道德上」。",
-        "moral-mcq-18": "「某行為是否合乎道德的道德性」與本句語境不同。",
-        "moral-mcq-20": "「明顯違反道德原則的；不道德的」與本句語境不同。",
-        "moral-mcq-17": "「用來判斷行為對錯的道德原則體系／道德觀」與本句語境不同。",
-        "moral-mcq-21": "「不道德的品質／行為」與本句語境不同。",
-        "moral-mcq-16": "「個人／社會對行為對錯的道德準則／操守」與本句語境不同。"
+        "moral-mcq-19": "本句的「morally difficult」指「從道德角度而言；在道德上」。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-19"
     },
@@ -1838,11 +1666,9 @@ export default {
       "masked": "He felt ____.",
       "options": [
         "moral-mcq-19",
-        "moral-mcq-18",
-        "moral-mcq-20",
-        "moral-mcq-17",
-        "moral-mcq-21",
-        "moral-mcq-16"
+        "moral-mcq-26",
+        "moral-mcq-12",
+        "moral-mcq-23"
       ],
       "explanation": "本句的「morally responsible」指「從道德角度而言；在道德上」。",
       "sentenceIndex": 39,
@@ -1851,12 +1677,10 @@ export default {
         "morally responsible"
       ],
       "optionReasons": {
-        "moral-mcq-19": "本句指「從道德角度而言；在道德上」。",
-        "moral-mcq-18": "「某行為是否合乎道德的道德性」與本句語境不同。",
-        "moral-mcq-20": "「明顯違反道德原則的；不道德的」與本句語境不同。",
-        "moral-mcq-17": "「用來判斷行為對錯的道德原則體系／道德觀」與本句語境不同。",
-        "moral-mcq-21": "「不道德的品質／行為」與本句語境不同。",
-        "moral-mcq-16": "「個人／社會對行為對錯的道德準則／操守」與本句語境不同。"
+        "moral-mcq-19": "本句的「morally responsible」指「從道德角度而言；在道德上」。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-19"
     },
@@ -1868,11 +1692,9 @@ export default {
       "masked": "She believed speaking up was ____.",
       "options": [
         "moral-mcq-19",
-        "moral-mcq-18",
-        "moral-mcq-20",
-        "moral-mcq-17",
-        "moral-mcq-21",
-        "moral-mcq-16"
+        "moral-mcq-28",
+        "moral-mcq-23",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「morally right」指「從道德角度而言；在道德上」。",
       "sentenceIndex": 40,
@@ -1881,12 +1703,10 @@ export default {
         "morally right"
       ],
       "optionReasons": {
-        "moral-mcq-19": "本句指「從道德角度而言；在道德上」。",
-        "moral-mcq-18": "「某行為是否合乎道德的道德性」與本句語境不同。",
-        "moral-mcq-20": "「明顯違反道德原則的；不道德的」與本句語境不同。",
-        "moral-mcq-17": "「用來判斷行為對錯的道德原則體系／道德觀」與本句語境不同。",
-        "moral-mcq-21": "「不道德的品質／行為」與本句語境不同。",
-        "moral-mcq-16": "「個人／社會對行為對錯的道德準則／操守」與本句語境不同。"
+        "moral-mcq-19": "本句的「morally right」指「從道德角度而言；在道德上」。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-19"
     },
@@ -1898,11 +1718,9 @@ export default {
       "masked": "They argued that the action was ____.",
       "options": [
         "moral-mcq-19",
-        "moral-mcq-18",
-        "moral-mcq-20",
-        "moral-mcq-17",
-        "moral-mcq-21",
-        "moral-mcq-16"
+        "moral-mcq-28",
+        "moral-mcq-23",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「morally wrong」指「從道德角度而言；在道德上」。",
       "sentenceIndex": 41,
@@ -1911,12 +1729,10 @@ export default {
         "morally wrong"
       ],
       "optionReasons": {
-        "moral-mcq-19": "本句指「從道德角度而言；在道德上」。",
-        "moral-mcq-18": "「某行為是否合乎道德的道德性」與本句語境不同。",
-        "moral-mcq-20": "「明顯違反道德原則的；不道德的」與本句語境不同。",
-        "moral-mcq-17": "「用來判斷行為對錯的道德原則體系／道德觀」與本句語境不同。",
-        "moral-mcq-21": "「不道德的品質／行為」與本句語境不同。",
-        "moral-mcq-16": "「個人／社會對行為對錯的道德準則／操守」與本句語境不同。"
+        "moral-mcq-19": "本句的「morally wrong」指「從道德角度而言；在道德上」。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-19"
     },
@@ -1928,11 +1744,9 @@ export default {
       "masked": "Exploiting vulnerable people is ____.",
       "options": [
         "moral-mcq-20",
-        "moral-mcq-19",
-        "moral-mcq-21",
-        "moral-mcq-18",
-        "moral-mcq-22",
-        "moral-mcq-17"
+        "moral-mcq-26",
+        "moral-mcq-23",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「immoral」指「明顯違反道德原則的；不道德的」。",
       "sentenceIndex": 42,
@@ -1941,12 +1755,10 @@ export default {
         "immoral"
       ],
       "optionReasons": {
-        "moral-mcq-20": "本句指「明顯違反道德原則的；不道德的」。",
-        "moral-mcq-19": "「從道德角度而言；在道德上」與本句語境不同。",
-        "moral-mcq-21": "「不道德的品質／行為」與本句語境不同。",
-        "moral-mcq-18": "「某行為是否合乎道德的道德性」與本句語境不同。",
-        "moral-mcq-22": "「不以道德是非作判斷、與道德無關的」與本句語境不同。",
-        "moral-mcq-17": "「用來判斷行為對錯的道德原則體系／道德觀」與本句語境不同。"
+        "moral-mcq-20": "本句的「immoral」指「明顯違反道德原則的；不道德的」。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-20"
     },
@@ -1958,11 +1770,9 @@ export default {
       "masked": "He considered the practice ____.",
       "options": [
         "moral-mcq-20",
-        "moral-mcq-19",
-        "moral-mcq-21",
-        "moral-mcq-18",
-        "moral-mcq-22",
-        "moral-mcq-17"
+        "moral-mcq-26",
+        "moral-mcq-07",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「immoral」指「明顯違反道德原則的；不道德的」。",
       "sentenceIndex": 43,
@@ -1971,12 +1781,10 @@ export default {
         "immoral"
       ],
       "optionReasons": {
-        "moral-mcq-20": "本句指「明顯違反道德原則的；不道德的」。",
-        "moral-mcq-19": "「從道德角度而言；在道德上」與本句語境不同。",
-        "moral-mcq-21": "「不道德的品質／行為」與本句語境不同。",
-        "moral-mcq-18": "「某行為是否合乎道德的道德性」與本句語境不同。",
-        "moral-mcq-22": "「不以道德是非作判斷、與道德無關的」與本句語境不同。",
-        "moral-mcq-17": "「用來判斷行為對錯的道德原則體系／道德觀」與本句語境不同。"
+        "moral-mcq-20": "本句的「immoral」指「明顯違反道德原則的；不道德的」。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-20"
     },
@@ -1988,11 +1796,9 @@ export default {
       "masked": "The writer condemns the ____ of the system.",
       "options": [
         "moral-mcq-21",
-        "moral-mcq-20",
-        "moral-mcq-22",
-        "moral-mcq-19",
-        "moral-mcq-23",
-        "moral-mcq-18"
+        "moral-mcq-26",
+        "moral-mcq-07",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「immorality」指「不道德的品質／行為」。",
       "sentenceIndex": 44,
@@ -2001,12 +1807,10 @@ export default {
         "immorality"
       ],
       "optionReasons": {
-        "moral-mcq-21": "本句指「不道德的品質／行為」。",
-        "moral-mcq-20": "「明顯違反道德原則的；不道德的」與本句語境不同。",
-        "moral-mcq-22": "「不以道德是非作判斷、與道德無關的」與本句語境不同。",
-        "moral-mcq-19": "「從道德角度而言；在道德上」與本句語境不同。",
-        "moral-mcq-23": "「以說教、訓誡方式評論別人行為」與本句語境不同。",
-        "moral-mcq-18": "「某行為是否合乎道德的道德性」與本句語境不同。"
+        "moral-mcq-21": "本句的「immorality」指「不道德的品質／行為」。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-21"
     },
@@ -2018,11 +1822,9 @@ export default {
       "masked": "The novel explores corruption and ____.",
       "options": [
         "moral-mcq-21",
-        "moral-mcq-20",
-        "moral-mcq-22",
-        "moral-mcq-19",
-        "moral-mcq-23",
-        "moral-mcq-18"
+        "moral-mcq-26",
+        "moral-mcq-07",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「immorality」指「不道德的品質／行為」。",
       "sentenceIndex": 45,
@@ -2031,12 +1833,10 @@ export default {
         "immorality"
       ],
       "optionReasons": {
-        "moral-mcq-21": "本句指「不道德的品質／行為」。",
-        "moral-mcq-20": "「明顯違反道德原則的；不道德的」與本句語境不同。",
-        "moral-mcq-22": "「不以道德是非作判斷、與道德無關的」與本句語境不同。",
-        "moral-mcq-19": "「從道德角度而言；在道德上」與本句語境不同。",
-        "moral-mcq-23": "「以說教、訓誡方式評論別人行為」與本句語境不同。",
-        "moral-mcq-18": "「某行為是否合乎道德的道德性」與本句語境不同。"
+        "moral-mcq-21": "本句的「immorality」指「不道德的品質／行為」。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-21"
     },
@@ -2048,11 +1848,9 @@ export default {
       "masked": "A machine is essentially ____; it does not make ethical judgments by itself.",
       "options": [
         "moral-mcq-22",
-        "moral-mcq-21",
         "moral-mcq-23",
-        "moral-mcq-20",
-        "moral-mcq-24",
-        "moral-mcq-19"
+        "moral-mcq-28",
+        "moral-mcq-07"
       ],
       "explanation": "本句的「amoral」指「不以道德是非作判斷、與道德無關的」。",
       "sentenceIndex": 46,
@@ -2061,12 +1859,10 @@ export default {
         "amoral"
       ],
       "optionReasons": {
-        "moral-mcq-22": "本句指「不以道德是非作判斷、與道德無關的」。",
-        "moral-mcq-21": "「不道德的品質／行為」與本句語境不同。",
-        "moral-mcq-23": "「以說教、訓誡方式評論別人行為」與本句語境不同。",
-        "moral-mcq-20": "「明顯違反道德原則的；不道德的」與本句語境不同。",
-        "moral-mcq-24": "「帶有說教／道德訓誡意味的」與本句語境不同。",
-        "moral-mcq-19": "「從道德角度而言；在道德上」與本句語境不同。"
+        "moral-mcq-22": "本句的「amoral」指「不以道德是非作判斷、與道德無關的」。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-22"
     },
@@ -2078,11 +1874,9 @@ export default {
       "masked": "The character is portrayed as cold and ____.",
       "options": [
         "moral-mcq-22",
-        "moral-mcq-21",
+        "moral-mcq-28",
         "moral-mcq-23",
-        "moral-mcq-20",
-        "moral-mcq-24",
-        "moral-mcq-19"
+        "moral-mcq-07"
       ],
       "explanation": "本句的「amoral」指「不以道德是非作判斷、與道德無關的」。",
       "sentenceIndex": 47,
@@ -2091,12 +1885,10 @@ export default {
         "amoral"
       ],
       "optionReasons": {
-        "moral-mcq-22": "本句指「不以道德是非作判斷、與道德無關的」。",
-        "moral-mcq-21": "「不道德的品質／行為」與本句語境不同。",
-        "moral-mcq-23": "「以說教、訓誡方式評論別人行為」與本句語境不同。",
-        "moral-mcq-20": "「明顯違反道德原則的；不道德的」與本句語境不同。",
-        "moral-mcq-24": "「帶有說教／道德訓誡意味的」與本句語境不同。",
-        "moral-mcq-19": "「從道德角度而言；在道德上」與本句語境不同。"
+        "moral-mcq-22": "本句的「amoral」指「不以道德是非作判斷、與道德無關的」。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-22"
     },
@@ -2108,11 +1900,9 @@ export default {
       "masked": "The novel explores difficult choices without ____.",
       "options": [
         "moral-mcq-23",
-        "moral-mcq-22",
-        "moral-mcq-24",
-        "moral-mcq-21",
-        "moral-mcq-25",
-        "moral-mcq-20"
+        "moral-mcq-03",
+        "moral-mcq-12",
+        "moral-mcq-28"
       ],
       "explanation": "本句的「moralizing」指「以說教、訓誡方式評論別人行為」。",
       "sentenceIndex": 48,
@@ -2121,12 +1911,10 @@ export default {
         "moralizing"
       ],
       "optionReasons": {
-        "moral-mcq-23": "本句指「以說教、訓誡方式評論別人行為」。",
-        "moral-mcq-22": "「不以道德是非作判斷、與道德無關的」與本句語境不同。",
-        "moral-mcq-24": "「帶有說教／道德訓誡意味的」與本句語境不同。",
-        "moral-mcq-21": "「不道德的品質／行為」與本句語境不同。",
-        "moral-mcq-25": "「強調道德規範的人；語境中可帶「衛道者」意味」與本句語境不同。",
-        "moral-mcq-20": "「明顯違反道德原則的；不道德的」與本句語境不同。"
+        "moral-mcq-23": "本句的「moralizing」指「以說教、訓誡方式評論別人行為」。",
+        "moral-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-23"
     },
@@ -2138,11 +1926,9 @@ export default {
       "masked": "He tends to ____ about other people’s behavior.",
       "options": [
         "moral-mcq-23",
-        "moral-mcq-22",
-        "moral-mcq-24",
-        "moral-mcq-21",
-        "moral-mcq-25",
-        "moral-mcq-20"
+        "moral-mcq-03",
+        "moral-mcq-28",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「moralize」指「以說教、訓誡方式評論別人行為」。",
       "sentenceIndex": 49,
@@ -2151,12 +1937,10 @@ export default {
         "moralize"
       ],
       "optionReasons": {
-        "moral-mcq-23": "本句指「以說教、訓誡方式評論別人行為」。",
-        "moral-mcq-22": "「不以道德是非作判斷、與道德無關的」與本句語境不同。",
-        "moral-mcq-24": "「帶有說教／道德訓誡意味的」與本句語境不同。",
-        "moral-mcq-21": "「不道德的品質／行為」與本句語境不同。",
-        "moral-mcq-25": "「強調道德規範的人；語境中可帶「衛道者」意味」與本句語境不同。",
-        "moral-mcq-20": "「明顯違反道德原則的；不道德的」與本句語境不同。"
+        "moral-mcq-23": "本句的「moralize」指「以說教、訓誡方式評論別人行為」。",
+        "moral-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-23"
     },
@@ -2168,11 +1952,9 @@ export default {
       "masked": "The ending felt too ____.",
       "options": [
         "moral-mcq-24",
-        "moral-mcq-23",
-        "moral-mcq-25",
-        "moral-mcq-22",
-        "moral-mcq-26",
-        "moral-mcq-21"
+        "moral-mcq-07",
+        "moral-mcq-12",
+        "moral-mcq-28"
       ],
       "explanation": "本句的「moralizing」指「帶有說教／道德訓誡意味的」。",
       "sentenceIndex": 50,
@@ -2181,12 +1963,10 @@ export default {
         "moralizing"
       ],
       "optionReasons": {
-        "moral-mcq-24": "本句指「帶有說教／道德訓誡意味的」。",
-        "moral-mcq-23": "「以說教、訓誡方式評論別人行為」與本句語境不同。",
-        "moral-mcq-25": "「強調道德規範的人；語境中可帶「衛道者」意味」與本句語境不同。",
-        "moral-mcq-22": "「不以道德是非作判斷、與道德無關的」與本句語境不同。",
-        "moral-mcq-26": "「陪伴、鼓勵等帶來的精神／情感支持」與本句語境不同。",
-        "moral-mcq-21": "「不道德的品質／行為」與本句語境不同。"
+        "moral-mcq-24": "本句的「moralizing」指「帶有說教／道德訓誡意味的」。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-24"
     },
@@ -2198,11 +1978,9 @@ export default {
       "masked": "The film avoids a ____.",
       "options": [
         "moral-mcq-24",
-        "moral-mcq-23",
-        "moral-mcq-25",
-        "moral-mcq-22",
-        "moral-mcq-26",
-        "moral-mcq-21"
+        "moral-mcq-28",
+        "moral-mcq-07",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「moralizing tone」指「帶有說教／道德訓誡意味的」。",
       "sentenceIndex": 51,
@@ -2211,12 +1989,10 @@ export default {
         "moralizing tone"
       ],
       "optionReasons": {
-        "moral-mcq-24": "本句指「帶有說教／道德訓誡意味的」。",
-        "moral-mcq-23": "「以說教、訓誡方式評論別人行為」與本句語境不同。",
-        "moral-mcq-25": "「強調道德規範的人；語境中可帶「衛道者」意味」與本句語境不同。",
-        "moral-mcq-22": "「不以道德是非作判斷、與道德無關的」與本句語境不同。",
-        "moral-mcq-26": "「陪伴、鼓勵等帶來的精神／情感支持」與本句語境不同。",
-        "moral-mcq-21": "「不道德的品質／行為」與本句語境不同。"
+        "moral-mcq-24": "本句的「moralizing tone」指「帶有說教／道德訓誡意味的」。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-24"
     },
@@ -2228,11 +2004,9 @@ export default {
       "masked": "He was regarded as a strict ____.",
       "options": [
         "moral-mcq-25",
-        "moral-mcq-24",
-        "moral-mcq-26",
         "moral-mcq-23",
-        "moral-mcq-27",
-        "moral-mcq-22"
+        "moral-mcq-12",
+        "moral-mcq-28"
       ],
       "explanation": "本句的「moralist」指「強調道德規範的人；語境中可帶「衛道者」意味」。",
       "sentenceIndex": 52,
@@ -2241,12 +2015,10 @@ export default {
         "moralist"
       ],
       "optionReasons": {
-        "moral-mcq-25": "本句指「強調道德規範的人；語境中可帶「衛道者」意味」。",
-        "moral-mcq-24": "「帶有說教／道德訓誡意味的」與本句語境不同。",
-        "moral-mcq-26": "「陪伴、鼓勵等帶來的精神／情感支持」與本句語境不同。",
-        "moral-mcq-23": "「以說教、訓誡方式評論別人行為」與本句語境不同。",
-        "moral-mcq-27": "「因被認為正直、有道德而產生的道德威信／影響力」與本句語境不同。",
-        "moral-mcq-22": "「不以道德是非作判斷、與道德無關的」與本句語境不同。"
+        "moral-mcq-25": "本句的「moralist」指「強調道德規範的人；語境中可帶「衛道者」意味」。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-25"
     },
@@ -2258,11 +2030,9 @@ export default {
       "masked": "Critics accused the writer of sounding like a ____.",
       "options": [
         "moral-mcq-25",
-        "moral-mcq-24",
-        "moral-mcq-26",
         "moral-mcq-23",
-        "moral-mcq-27",
-        "moral-mcq-22"
+        "moral-mcq-28",
+        "moral-mcq-07"
       ],
       "explanation": "本句的「moralist」指「強調道德規範的人；語境中可帶「衛道者」意味」。",
       "sentenceIndex": 53,
@@ -2271,12 +2041,10 @@ export default {
         "moralist"
       ],
       "optionReasons": {
-        "moral-mcq-25": "本句指「強調道德規範的人；語境中可帶「衛道者」意味」。",
-        "moral-mcq-24": "「帶有說教／道德訓誡意味的」與本句語境不同。",
-        "moral-mcq-26": "「陪伴、鼓勵等帶來的精神／情感支持」與本句語境不同。",
-        "moral-mcq-23": "「以說教、訓誡方式評論別人行為」與本句語境不同。",
-        "moral-mcq-27": "「因被認為正直、有道德而產生的道德威信／影響力」與本句語境不同。",
-        "moral-mcq-22": "「不以道德是非作判斷、與道德無關的」與本句語境不同。"
+        "moral-mcq-25": "本句的「moralist」指「強調道德規範的人；語境中可帶「衛道者」意味」。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-25"
     },
@@ -2288,11 +2056,9 @@ export default {
       "masked": "I went with her for ____.",
       "options": [
         "moral-mcq-26",
-        "moral-mcq-25",
-        "moral-mcq-27",
-        "moral-mcq-24",
-        "moral-mcq-28",
-        "moral-mcq-23"
+        "moral-mcq-20",
+        "moral-mcq-23",
+        "moral-mcq-07"
       ],
       "explanation": "本句的「moral support」指「陪伴、鼓勵等帶來的精神／情感支持」。",
       "sentenceIndex": 54,
@@ -2301,12 +2067,10 @@ export default {
         "moral support"
       ],
       "optionReasons": {
-        "moral-mcq-26": "本句指「陪伴、鼓勵等帶來的精神／情感支持」。",
-        "moral-mcq-25": "「強調道德規範的人；語境中可帶「衛道者」意味」與本句語境不同。",
-        "moral-mcq-27": "「因被認為正直、有道德而產生的道德威信／影響力」與本句語境不同。",
-        "moral-mcq-24": "「帶有說教／道德訓誡意味的」與本句語境不同。",
-        "moral-mcq-28": "「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」與本句語境不同。",
-        "moral-mcq-23": "「以說教、訓誡方式評論別人行為」與本句語境不同。"
+        "moral-mcq-26": "本句的「moral support」指「陪伴、鼓勵等帶來的精神／情感支持」。",
+        "moral-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-26"
     },
@@ -2318,11 +2082,9 @@ export default {
       "masked": "His friends provided ____.",
       "options": [
         "moral-mcq-26",
-        "moral-mcq-25",
-        "moral-mcq-27",
-        "moral-mcq-24",
-        "moral-mcq-28",
-        "moral-mcq-23"
+        "moral-mcq-15",
+        "moral-mcq-07",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「moral support」指「陪伴、鼓勵等帶來的精神／情感支持」。",
       "sentenceIndex": 55,
@@ -2331,12 +2093,10 @@ export default {
         "moral support"
       ],
       "optionReasons": {
-        "moral-mcq-26": "本句指「陪伴、鼓勵等帶來的精神／情感支持」。",
-        "moral-mcq-25": "「強調道德規範的人；語境中可帶「衛道者」意味」與本句語境不同。",
-        "moral-mcq-27": "「因被認為正直、有道德而產生的道德威信／影響力」與本句語境不同。",
-        "moral-mcq-24": "「帶有說教／道德訓誡意味的」與本句語境不同。",
-        "moral-mcq-28": "「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」與本句語境不同。",
-        "moral-mcq-23": "「以說教、訓誡方式評論別人行為」與本句語境不同。"
+        "moral-mcq-26": "本句的「moral support」指「陪伴、鼓勵等帶來的精神／情感支持」。",
+        "moral-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-26"
     },
@@ -2348,11 +2108,9 @@ export default {
       "masked": "She spoke with considerable ____.",
       "options": [
         "moral-mcq-27",
-        "moral-mcq-26",
-        "moral-mcq-28",
-        "moral-mcq-25",
-        "moral-mcq-29",
-        "moral-mcq-24"
+        "moral-mcq-07",
+        "moral-mcq-23",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「moral authority」指「因被認為正直、有道德而產生的道德威信／影響力」。",
       "sentenceIndex": 56,
@@ -2361,12 +2119,10 @@ export default {
         "moral authority"
       ],
       "optionReasons": {
-        "moral-mcq-27": "本句指「因被認為正直、有道德而產生的道德威信／影響力」。",
-        "moral-mcq-26": "「陪伴、鼓勵等帶來的精神／情感支持」與本句語境不同。",
-        "moral-mcq-28": "「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」與本句語境不同。",
-        "moral-mcq-25": "「強調道德規範的人；語境中可帶「衛道者」意味」與本句語境不同。",
-        "moral-mcq-29": "「堅持道德原則的品格力量／操守」與本句語境不同。",
-        "moral-mcq-24": "「帶有說教／道德訓誡意味的」與本句語境不同。"
+        "moral-mcq-27": "本句的「moral authority」指「因被認為正直、有道德而產生的道德威信／影響力」。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-27"
     },
@@ -2378,11 +2134,9 @@ export default {
       "masked": "The scandal weakened the organization’s ____.",
       "options": [
         "moral-mcq-27",
-        "moral-mcq-26",
-        "moral-mcq-28",
-        "moral-mcq-25",
-        "moral-mcq-29",
-        "moral-mcq-24"
+        "moral-mcq-12",
+        "moral-mcq-23",
+        "moral-mcq-07"
       ],
       "explanation": "本句的「moral authority」指「因被認為正直、有道德而產生的道德威信／影響力」。",
       "sentenceIndex": 57,
@@ -2391,12 +2145,10 @@ export default {
         "moral authority"
       ],
       "optionReasons": {
-        "moral-mcq-27": "本句指「因被認為正直、有道德而產生的道德威信／影響力」。",
-        "moral-mcq-26": "「陪伴、鼓勵等帶來的精神／情感支持」與本句語境不同。",
-        "moral-mcq-28": "「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」與本句語境不同。",
-        "moral-mcq-25": "「強調道德規範的人；語境中可帶「衛道者」意味」與本句語境不同。",
-        "moral-mcq-29": "「堅持道德原則的品格力量／操守」與本句語境不同。",
-        "moral-mcq-24": "「帶有說教／道德訓誡意味的」與本句語境不同。"
+        "moral-mcq-27": "本句的「moral authority」指「因被認為正直、有道德而產生的道德威信／影響力」。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-27"
     },
@@ -2408,11 +2160,9 @@ export default {
       "masked": "They lost the match but regarded the performance as a ____.",
       "options": [
         "moral-mcq-28",
-        "moral-mcq-27",
-        "moral-mcq-29",
-        "moral-mcq-26",
-        "moral-mcq-30",
-        "moral-mcq-25"
+        "moral-mcq-32",
+        "moral-mcq-07",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「moral victory」指「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」。",
       "sentenceIndex": 58,
@@ -2421,12 +2171,10 @@ export default {
         "moral victory"
       ],
       "optionReasons": {
-        "moral-mcq-28": "本句指「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」。",
-        "moral-mcq-27": "「因被認為正直、有道德而產生的道德威信／影響力」與本句語境不同。",
-        "moral-mcq-29": "「堅持道德原則的品格力量／操守」與本句語境不同。",
-        "moral-mcq-26": "「陪伴、鼓勵等帶來的精神／情感支持」與本句語境不同。",
-        "moral-mcq-30": "「引導判斷是非的內在道德準則／良知」與本句語境不同。",
-        "moral-mcq-25": "「強調道德規範的人；語境中可帶「衛道者」意味」與本句語境不同。"
+        "moral-mcq-28": "本句的「moral victory」指「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」。",
+        "moral-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-28"
     },
@@ -2438,11 +2186,9 @@ export default {
       "masked": "The campaign failed officially but achieved a ____.",
       "options": [
         "moral-mcq-28",
-        "moral-mcq-27",
-        "moral-mcq-29",
-        "moral-mcq-26",
-        "moral-mcq-30",
-        "moral-mcq-25"
+        "moral-mcq-19",
+        "moral-mcq-12",
+        "moral-mcq-23"
       ],
       "explanation": "本句的「moral victory」指「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」。",
       "sentenceIndex": 59,
@@ -2451,12 +2197,10 @@ export default {
         "moral victory"
       ],
       "optionReasons": {
-        "moral-mcq-28": "本句指「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」。",
-        "moral-mcq-27": "「因被認為正直、有道德而產生的道德威信／影響力」與本句語境不同。",
-        "moral-mcq-29": "「堅持道德原則的品格力量／操守」與本句語境不同。",
-        "moral-mcq-26": "「陪伴、鼓勵等帶來的精神／情感支持」與本句語境不同。",
-        "moral-mcq-30": "「引導判斷是非的內在道德準則／良知」與本句語境不同。",
-        "moral-mcq-25": "「強調道德規範的人；語境中可帶「衛道者」意味」與本句語境不同。"
+        "moral-mcq-28": "本句的「moral victory」指「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」。",
+        "moral-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-28"
     },
@@ -2468,11 +2212,9 @@ export default {
       "masked": "The crisis tested his ____.",
       "options": [
         "moral-mcq-29",
-        "moral-mcq-28",
-        "moral-mcq-30",
-        "moral-mcq-27",
-        "moral-mcq-31",
-        "moral-mcq-26"
+        "moral-mcq-23",
+        "moral-mcq-12",
+        "moral-mcq-07"
       ],
       "explanation": "本句的「moral fibre」指「堅持道德原則的品格力量／操守」。",
       "sentenceIndex": 60,
@@ -2481,12 +2223,10 @@ export default {
         "moral fibre"
       ],
       "optionReasons": {
-        "moral-mcq-29": "本句指「堅持道德原則的品格力量／操守」。",
-        "moral-mcq-28": "「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」與本句語境不同。",
-        "moral-mcq-30": "「引導判斷是非的內在道德準則／良知」與本句語境不同。",
-        "moral-mcq-27": "「因被認為正直、有道德而產生的道德威信／影響力」與本句語境不同。",
-        "moral-mcq-31": "「因成本由他方承擔而使人更願意冒險的經濟／保險道德風險」與本句語境不同。",
-        "moral-mcq-26": "「陪伴、鼓勵等帶來的精神／情感支持」與本句語境不同。"
+        "moral-mcq-29": "本句的「moral fibre」指「堅持道德原則的品格力量／操守」。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-29"
     },
@@ -2498,11 +2238,9 @@ export default {
       "masked": "She showed real ____ under pressure.",
       "options": [
         "moral-mcq-29",
-        "moral-mcq-28",
-        "moral-mcq-30",
-        "moral-mcq-27",
-        "moral-mcq-31",
-        "moral-mcq-26"
+        "moral-mcq-07",
+        "moral-mcq-23",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「moral fiber」指「堅持道德原則的品格力量／操守」。",
       "sentenceIndex": 61,
@@ -2511,12 +2249,10 @@ export default {
         "moral fiber"
       ],
       "optionReasons": {
-        "moral-mcq-29": "本句指「堅持道德原則的品格力量／操守」。",
-        "moral-mcq-28": "「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」與本句語境不同。",
-        "moral-mcq-30": "「引導判斷是非的內在道德準則／良知」與本句語境不同。",
-        "moral-mcq-27": "「因被認為正直、有道德而產生的道德威信／影響力」與本句語境不同。",
-        "moral-mcq-31": "「因成本由他方承擔而使人更願意冒險的經濟／保險道德風險」與本句語境不同。",
-        "moral-mcq-26": "「陪伴、鼓勵等帶來的精神／情感支持」與本句語境不同。"
+        "moral-mcq-29": "本句的「moral fiber」指「堅持道德原則的品格力量／操守」。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-29"
     },
@@ -2528,11 +2264,9 @@ export default {
       "masked": "He seemed to have lost his ____.",
       "options": [
         "moral-mcq-30",
-        "moral-mcq-29",
-        "moral-mcq-31",
-        "moral-mcq-28",
-        "moral-mcq-32",
-        "moral-mcq-27"
+        "moral-mcq-23",
+        "moral-mcq-26",
+        "moral-mcq-07"
       ],
       "explanation": "本句的「moral compass」指「引導判斷是非的內在道德準則／良知」。",
       "sentenceIndex": 62,
@@ -2541,12 +2275,10 @@ export default {
         "moral compass"
       ],
       "optionReasons": {
-        "moral-mcq-30": "本句指「引導判斷是非的內在道德準則／良知」。",
-        "moral-mcq-29": "「堅持道德原則的品格力量／操守」與本句語境不同。",
-        "moral-mcq-31": "「因成本由他方承擔而使人更願意冒險的經濟／保險道德風險」與本句語境不同。",
-        "moral-mcq-28": "「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」與本句語境不同。",
-        "moral-mcq-32": "「社會對某群體／行為威脅價值秩序產生的大規模道德恐慌」與本句語境不同。",
-        "moral-mcq-27": "「因被認為正直、有道德而產生的道德威信／影響力」與本句語境不同。"
+        "moral-mcq-30": "本句的「moral compass」指「引導判斷是非的內在道德準則／良知」。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-30"
     },
@@ -2558,11 +2290,9 @@ export default {
       "masked": "Strong values can provide a ____.",
       "options": [
         "moral-mcq-30",
-        "moral-mcq-29",
-        "moral-mcq-31",
-        "moral-mcq-28",
-        "moral-mcq-32",
-        "moral-mcq-27"
+        "moral-mcq-07",
+        "moral-mcq-26",
+        "moral-mcq-23"
       ],
       "explanation": "本句的「moral compass」指「引導判斷是非的內在道德準則／良知」。",
       "sentenceIndex": 63,
@@ -2571,12 +2301,10 @@ export default {
         "moral compass"
       ],
       "optionReasons": {
-        "moral-mcq-30": "本句指「引導判斷是非的內在道德準則／良知」。",
-        "moral-mcq-29": "「堅持道德原則的品格力量／操守」與本句語境不同。",
-        "moral-mcq-31": "「因成本由他方承擔而使人更願意冒險的經濟／保險道德風險」與本句語境不同。",
-        "moral-mcq-28": "「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」與本句語境不同。",
-        "moral-mcq-32": "「社會對某群體／行為威脅價值秩序產生的大規模道德恐慌」與本句語境不同。",
-        "moral-mcq-27": "「因被認為正直、有道德而產生的道德威信／影響力」與本句語境不同。"
+        "moral-mcq-30": "本句的「moral compass」指「引導判斷是非的內在道德準則／良知」。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-30"
     },
@@ -2588,11 +2316,9 @@ export default {
       "masked": "Insurance can sometimes create ____.",
       "options": [
         "moral-mcq-31",
-        "moral-mcq-30",
-        "moral-mcq-32",
-        "moral-mcq-29",
         "moral-mcq-28",
-        "moral-mcq-27"
+        "moral-mcq-23",
+        "moral-mcq-12"
       ],
       "explanation": "本句的「moral hazard」指「因成本由他方承擔而使人更願意冒險的經濟／保險道德風險」。",
       "sentenceIndex": 64,
@@ -2601,12 +2327,10 @@ export default {
         "moral hazard"
       ],
       "optionReasons": {
-        "moral-mcq-31": "本句指「因成本由他方承擔而使人更願意冒險的經濟／保險道德風險」。",
-        "moral-mcq-30": "「引導判斷是非的內在道德準則／良知」與本句語境不同。",
-        "moral-mcq-32": "「社會對某群體／行為威脅價值秩序產生的大規模道德恐慌」與本句語境不同。",
-        "moral-mcq-29": "「堅持道德原則的品格力量／操守」與本句語境不同。",
-        "moral-mcq-28": "「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」與本句語境不同。",
-        "moral-mcq-27": "「因被認為正直、有道德而產生的道德威信／影響力」與本句語境不同。"
+        "moral-mcq-31": "本句的「moral hazard」指「因成本由他方承擔而使人更願意冒險的經濟／保險道德風險」。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-31"
     },
@@ -2618,11 +2342,9 @@ export default {
       "masked": "Economists discussed the problem of ____.",
       "options": [
         "moral-mcq-31",
-        "moral-mcq-30",
-        "moral-mcq-32",
-        "moral-mcq-29",
-        "moral-mcq-28",
-        "moral-mcq-27"
+        "moral-mcq-12",
+        "moral-mcq-23",
+        "moral-mcq-28"
       ],
       "explanation": "本句的「moral hazard」指「因成本由他方承擔而使人更願意冒險的經濟／保險道德風險」。",
       "sentenceIndex": 65,
@@ -2631,12 +2353,10 @@ export default {
         "moral hazard"
       ],
       "optionReasons": {
-        "moral-mcq-31": "本句指「因成本由他方承擔而使人更願意冒險的經濟／保險道德風險」。",
-        "moral-mcq-30": "「引導判斷是非的內在道德準則／良知」與本句語境不同。",
-        "moral-mcq-32": "「社會對某群體／行為威脅價值秩序產生的大規模道德恐慌」與本句語境不同。",
-        "moral-mcq-29": "「堅持道德原則的品格力量／操守」與本句語境不同。",
-        "moral-mcq-28": "「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」與本句語境不同。",
-        "moral-mcq-27": "「因被認為正直、有道德而產生的道德威信／影響力」與本句語境不同。"
+        "moral-mcq-31": "本句的「moral hazard」指「因成本由他方承擔而使人更願意冒險的經濟／保險道德風險」。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-31"
     },
@@ -2648,11 +2368,9 @@ export default {
       "masked": "The issue triggered a media ____.",
       "options": [
         "moral-mcq-32",
-        "moral-mcq-31",
-        "moral-mcq-30",
-        "moral-mcq-29",
+        "moral-mcq-12",
         "moral-mcq-28",
-        "moral-mcq-27"
+        "moral-mcq-07"
       ],
       "explanation": "本句的「moral panic」指「社會對某群體／行為威脅價值秩序產生的大規模道德恐慌」。",
       "sentenceIndex": 66,
@@ -2661,12 +2379,10 @@ export default {
         "moral panic"
       ],
       "optionReasons": {
-        "moral-mcq-32": "本句指「社會對某群體／行為威脅價值秩序產生的大規模道德恐慌」。",
-        "moral-mcq-31": "「因成本由他方承擔而使人更願意冒險的經濟／保險道德風險」與本句語境不同。",
-        "moral-mcq-30": "「引導判斷是非的內在道德準則／良知」與本句語境不同。",
-        "moral-mcq-29": "「堅持道德原則的品格力量／操守」與本句語境不同。",
-        "moral-mcq-28": "「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」與本句語境不同。",
-        "moral-mcq-27": "「因被認為正直、有道德而產生的道德威信／影響力」與本句語境不同。"
+        "moral-mcq-32": "本句的「moral panic」指「社會對某群體／行為威脅價值秩序產生的大規模道德恐慌」。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-32"
     },
@@ -2678,11 +2394,9 @@ export default {
       "masked": "Some researchers described the reaction as a ____.",
       "options": [
         "moral-mcq-32",
-        "moral-mcq-31",
-        "moral-mcq-30",
-        "moral-mcq-29",
+        "moral-mcq-12",
         "moral-mcq-28",
-        "moral-mcq-27"
+        "moral-mcq-07"
       ],
       "explanation": "本句的「moral panic」指「社會對某群體／行為威脅價值秩序產生的大規模道德恐慌」。",
       "sentenceIndex": 67,
@@ -2691,12 +2405,10 @@ export default {
         "moral panic"
       ],
       "optionReasons": {
-        "moral-mcq-32": "本句指「社會對某群體／行為威脅價值秩序產生的大規模道德恐慌」。",
-        "moral-mcq-31": "「因成本由他方承擔而使人更願意冒險的經濟／保險道德風險」與本句語境不同。",
-        "moral-mcq-30": "「引導判斷是非的內在道德準則／良知」與本句語境不同。",
-        "moral-mcq-29": "「堅持道德原則的品格力量／操守」與本句語境不同。",
-        "moral-mcq-28": "「正式結果未必勝出，但在原則／尊嚴上取得的精神勝利」與本句語境不同。",
-        "moral-mcq-27": "「因被認為正直、有道德而產生的道德威信／影響力」與本句語境不同。"
+        "moral-mcq-32": "本句的「moral panic」指「社會對某群體／行為威脅價值秩序產生的大規模道德恐慌」。",
+        "moral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "moral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moral-mcq-32"
     }
@@ -2708,5 +2420,7 @@ export default {
     "sha256": "e5a99169d16d3585132f9207817043c9e6975c7388edb251f23c7d6d0741ea77",
     "pages": 21
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

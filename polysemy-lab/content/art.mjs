@@ -500,10 +500,7 @@ export default {
       "options": [
         "art-mcq-01",
         "art-mcq-02",
-        "art-mcq-03",
-        "art-mcq-04",
-        "art-mcq-05",
-        "art-mcq-06"
+        "art-mcq-12"
       ],
       "explanation": "本句的「art」指「透過創造力、技巧和想像表達思想、情感或美感的活動／領域」。",
       "sentenceIndex": 0,
@@ -512,12 +509,9 @@ export default {
         "art"
       ],
       "optionReasons": {
-        "art-mcq-01": "本句指「透過創造力、技巧和想像表達思想、情感或美感的活動／領域」。",
-        "art-mcq-02": "「以繪畫、雕塑、攝影等視覺形式為主的藝術」與本句語境不同。",
-        "art-mcq-03": "「藝術家創作出的藝術作品作為整體」與本句語境不同。",
-        "art-mcq-04": "「一件個別的藝術創作」與本句語境不同。",
-        "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。"
+        "art-mcq-01": "本句的「art」指「透過創造力、技巧和想像表達思想、情感或美感的活動／領域」。",
+        "art-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-01"
     },
@@ -529,11 +523,8 @@ export default {
       "masked": "____ can express emotions that are difficult to put into words.",
       "options": [
         "art-mcq-01",
-        "art-mcq-02",
-        "art-mcq-03",
-        "art-mcq-04",
-        "art-mcq-05",
-        "art-mcq-06"
+        "art-mcq-11",
+        "art-mcq-12"
       ],
       "explanation": "本句的「Art」指「透過創造力、技巧和想像表達思想、情感或美感的活動／領域」。",
       "sentenceIndex": 1,
@@ -542,12 +533,9 @@ export default {
         "Art"
       ],
       "optionReasons": {
-        "art-mcq-01": "本句指「透過創造力、技巧和想像表達思想、情感或美感的活動／領域」。",
-        "art-mcq-02": "「以繪畫、雕塑、攝影等視覺形式為主的藝術」與本句語境不同。",
-        "art-mcq-03": "「藝術家創作出的藝術作品作為整體」與本句語境不同。",
-        "art-mcq-04": "「一件個別的藝術創作」與本句語境不同。",
-        "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。"
+        "art-mcq-01": "本句的「Art」指「透過創造力、技巧和想像表達思想、情感或美感的活動／領域」。",
+        "art-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-01"
     },
@@ -559,11 +547,9 @@ export default {
       "masked": "He studied ____ at school.",
       "options": [
         "art-mcq-02",
-        "art-mcq-01",
-        "art-mcq-03",
-        "art-mcq-04",
-        "art-mcq-05",
-        "art-mcq-06"
+        "art-mcq-06",
+        "art-mcq-12",
+        "art-mcq-20"
       ],
       "explanation": "本句的「art」指「以繪畫、雕塑、攝影等視覺形式為主的藝術」。",
       "sentenceIndex": 2,
@@ -572,12 +558,10 @@ export default {
         "art"
       ],
       "optionReasons": {
-        "art-mcq-02": "本句指「以繪畫、雕塑、攝影等視覺形式為主的藝術」。",
-        "art-mcq-01": "「透過創造力、技巧和想像表達思想、情感或美感的活動／領域」與本句語境不同。",
-        "art-mcq-03": "「藝術家創作出的藝術作品作為整體」與本句語境不同。",
-        "art-mcq-04": "「一件個別的藝術創作」與本句語境不同。",
-        "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。"
+        "art-mcq-02": "本句的「art」指「以繪畫、雕塑、攝影等視覺形式為主的藝術」。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-02"
     },
@@ -589,11 +573,9 @@ export default {
       "masked": "The museum has a large collection of modern ____.",
       "options": [
         "art-mcq-02",
-        "art-mcq-01",
-        "art-mcq-03",
-        "art-mcq-04",
-        "art-mcq-05",
-        "art-mcq-06"
+        "art-mcq-06",
+        "art-mcq-12",
+        "art-mcq-20"
       ],
       "explanation": "本句的「art」指「以繪畫、雕塑、攝影等視覺形式為主的藝術」。",
       "sentenceIndex": 3,
@@ -602,12 +584,10 @@ export default {
         "art"
       ],
       "optionReasons": {
-        "art-mcq-02": "本句指「以繪畫、雕塑、攝影等視覺形式為主的藝術」。",
-        "art-mcq-01": "「透過創造力、技巧和想像表達思想、情感或美感的活動／領域」與本句語境不同。",
-        "art-mcq-03": "「藝術家創作出的藝術作品作為整體」與本句語境不同。",
-        "art-mcq-04": "「一件個別的藝術創作」與本句語境不同。",
-        "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。"
+        "art-mcq-02": "本句的「art」指「以繪畫、雕塑、攝影等視覺形式為主的藝術」。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-02"
     },
@@ -619,11 +599,9 @@ export default {
       "masked": "The gallery sells contemporary ____.",
       "options": [
         "art-mcq-03",
-        "art-mcq-02",
-        "art-mcq-04",
-        "art-mcq-01",
-        "art-mcq-05",
-        "art-mcq-06"
+        "art-mcq-06",
+        "art-mcq-12",
+        "art-mcq-20"
       ],
       "explanation": "本句的「art」指「藝術家創作出的藝術作品作為整體」。",
       "sentenceIndex": 4,
@@ -632,12 +610,10 @@ export default {
         "art"
       ],
       "optionReasons": {
-        "art-mcq-03": "本句指「藝術家創作出的藝術作品作為整體」。",
-        "art-mcq-02": "「以繪畫、雕塑、攝影等視覺形式為主的藝術」與本句語境不同。",
-        "art-mcq-04": "「一件個別的藝術創作」與本句語境不同。",
-        "art-mcq-01": "「透過創造力、技巧和想像表達思想、情感或美感的活動／領域」與本句語境不同。",
-        "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。"
+        "art-mcq-03": "本句的「art」指「藝術家創作出的藝術作品作為整體」。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-03"
     },
@@ -649,11 +625,9 @@ export default {
       "masked": "There is a lot of ____ on the walls.",
       "options": [
         "art-mcq-03",
-        "art-mcq-02",
-        "art-mcq-04",
-        "art-mcq-01",
         "art-mcq-05",
-        "art-mcq-06"
+        "art-mcq-12",
+        "art-mcq-20"
       ],
       "explanation": "本句的「art」指「藝術家創作出的藝術作品作為整體」。",
       "sentenceIndex": 5,
@@ -662,12 +636,10 @@ export default {
         "art"
       ],
       "optionReasons": {
-        "art-mcq-03": "本句指「藝術家創作出的藝術作品作為整體」。",
-        "art-mcq-02": "「以繪畫、雕塑、攝影等視覺形式為主的藝術」與本句語境不同。",
-        "art-mcq-04": "「一件個別的藝術創作」與本句語境不同。",
-        "art-mcq-01": "「透過創造力、技巧和想像表達思想、情感或美感的活動／領域」與本句語境不同。",
-        "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。"
+        "art-mcq-03": "本句的「art」指「藝術家創作出的藝術作品作為整體」。",
+        "art-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-03"
     },
@@ -679,11 +651,9 @@ export default {
       "masked": "The painting is a remarkable ____.",
       "options": [
         "art-mcq-04",
-        "art-mcq-03",
+        "art-mcq-12",
         "art-mcq-05",
-        "art-mcq-02",
-        "art-mcq-06",
-        "art-mcq-01"
+        "art-mcq-20"
       ],
       "explanation": "本句的「work of art」指「一件個別的藝術創作」。",
       "sentenceIndex": 6,
@@ -692,12 +662,10 @@ export default {
         "work of art"
       ],
       "optionReasons": {
-        "art-mcq-04": "本句指「一件個別的藝術創作」。",
-        "art-mcq-03": "「藝術家創作出的藝術作品作為整體」與本句語境不同。",
-        "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。",
-        "art-mcq-02": "「以繪畫、雕塑、攝影等視覺形式為主的藝術」與本句語境不同。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。",
-        "art-mcq-01": "「透過創造力、技巧和想像表達思想、情感或美感的活動／領域」與本句語境不同。"
+        "art-mcq-04": "本句的「work of art」指「一件個別的藝術創作」。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-04"
     },
@@ -709,11 +677,9 @@ export default {
       "masked": "The sculpture is considered a major work of ____.",
       "options": [
         "art-mcq-04",
-        "art-mcq-03",
         "art-mcq-05",
-        "art-mcq-02",
-        "art-mcq-06",
-        "art-mcq-01"
+        "art-mcq-12",
+        "art-mcq-20"
       ],
       "explanation": "本句的「art」指「一件個別的藝術創作」。",
       "sentenceIndex": 7,
@@ -722,12 +688,10 @@ export default {
         "art"
       ],
       "optionReasons": {
-        "art-mcq-04": "本句指「一件個別的藝術創作」。",
-        "art-mcq-03": "「藝術家創作出的藝術作品作為整體」與本句語境不同。",
-        "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。",
-        "art-mcq-02": "「以繪畫、雕塑、攝影等視覺形式為主的藝術」與本句語境不同。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。",
-        "art-mcq-01": "「透過創造力、技巧和想像表達思想、情感或美感的活動／領域」與本句語境不同。"
+        "art-mcq-04": "本句的「art」指「一件個別的藝術創作」。",
+        "art-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-04"
     },
@@ -739,11 +703,9 @@ export default {
       "masked": "There is an ____ to arranging flowers.",
       "options": [
         "art-mcq-05",
-        "art-mcq-04",
-        "art-mcq-06",
-        "art-mcq-03",
-        "art-mcq-07",
-        "art-mcq-02"
+        "art-mcq-09",
+        "art-mcq-12",
+        "art-mcq-20"
       ],
       "explanation": "本句的「art」指「需要經驗、判斷和細膩技巧才能掌握的能力」。",
       "sentenceIndex": 8,
@@ -752,12 +714,10 @@ export default {
         "art"
       ],
       "optionReasons": {
-        "art-mcq-05": "本句指「需要經驗、判斷和細膩技巧才能掌握的能力」。",
-        "art-mcq-04": "「一件個別的藝術創作」與本句語境不同。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。",
-        "art-mcq-03": "「藝術家創作出的藝術作品作為整體」與本句語境不同。",
-        "art-mcq-07": "「音樂、戲劇、舞蹈、視覺藝術、文學等藝術領域整體」與本句語境不同。",
-        "art-mcq-02": "「以繪畫、雕塑、攝影等視覺形式為主的藝術」與本句語境不同。"
+        "art-mcq-05": "本句的「art」指「需要經驗、判斷和細膩技巧才能掌握的能力」。",
+        "art-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-05"
     },
@@ -769,11 +729,9 @@ export default {
       "masked": "Good teaching is an ____.",
       "options": [
         "art-mcq-05",
-        "art-mcq-04",
-        "art-mcq-06",
-        "art-mcq-03",
-        "art-mcq-07",
-        "art-mcq-02"
+        "art-mcq-11",
+        "art-mcq-12",
+        "art-mcq-20"
       ],
       "explanation": "本句的「art」指「需要經驗、判斷和細膩技巧才能掌握的能力」。",
       "sentenceIndex": 9,
@@ -782,12 +740,10 @@ export default {
         "art"
       ],
       "optionReasons": {
-        "art-mcq-05": "本句指「需要經驗、判斷和細膩技巧才能掌握的能力」。",
-        "art-mcq-04": "「一件個別的藝術創作」與本句語境不同。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。",
-        "art-mcq-03": "「藝術家創作出的藝術作品作為整體」與本句語境不同。",
-        "art-mcq-07": "「音樂、戲劇、舞蹈、視覺藝術、文學等藝術領域整體」與本句語境不同。",
-        "art-mcq-02": "「以繪畫、雕塑、攝影等視覺形式為主的藝術」與本句語境不同。"
+        "art-mcq-05": "本句的「art」指「需要經驗、判斷和細膩技巧才能掌握的能力」。",
+        "art-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-05"
     },
@@ -799,11 +755,9 @@ export default {
       "masked": "She has mastered ____.",
       "options": [
         "art-mcq-06",
-        "art-mcq-05",
-        "art-mcq-07",
-        "art-mcq-04",
         "art-mcq-08",
-        "art-mcq-03"
+        "art-mcq-12",
+        "art-mcq-20"
       ],
       "explanation": "本句的「the art of conversation」指「把某件事情做得熟練、細緻、恰到好處的技巧」。",
       "sentenceIndex": 10,
@@ -812,12 +766,10 @@ export default {
         "the art of conversation"
       ],
       "optionReasons": {
-        "art-mcq-06": "本句指「把某件事情做得熟練、細緻、恰到好處的技巧」。",
-        "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。",
-        "art-mcq-07": "「音樂、戲劇、舞蹈、視覺藝術、文學等藝術領域整體」與本句語境不同。",
-        "art-mcq-04": "「一件個別的藝術創作」與本句語境不同。",
-        "art-mcq-08": "「主要透過視覺形式呈現的藝術」與本句語境不同。",
-        "art-mcq-03": "「藝術家創作出的藝術作品作為整體」與本句語境不同。"
+        "art-mcq-06": "本句的「the art of conversation」指「把某件事情做得熟練、細緻、恰到好處的技巧」。",
+        "art-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-06"
     },
@@ -829,11 +781,9 @@ export default {
       "masked": "The book explains the ____ of growing herbs in small spaces.",
       "options": [
         "art-mcq-06",
-        "art-mcq-05",
-        "art-mcq-07",
-        "art-mcq-04",
         "art-mcq-08",
-        "art-mcq-03"
+        "art-mcq-12",
+        "art-mcq-20"
       ],
       "explanation": "本句的「art」指「把某件事情做得熟練、細緻、恰到好處的技巧」。",
       "sentenceIndex": 11,
@@ -842,12 +792,10 @@ export default {
         "art"
       ],
       "optionReasons": {
-        "art-mcq-06": "本句指「把某件事情做得熟練、細緻、恰到好處的技巧」。",
-        "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。",
-        "art-mcq-07": "「音樂、戲劇、舞蹈、視覺藝術、文學等藝術領域整體」與本句語境不同。",
-        "art-mcq-04": "「一件個別的藝術創作」與本句語境不同。",
-        "art-mcq-08": "「主要透過視覺形式呈現的藝術」與本句語境不同。",
-        "art-mcq-03": "「藝術家創作出的藝術作品作為整體」與本句語境不同。"
+        "art-mcq-06": "本句的「art」指「把某件事情做得熟練、細緻、恰到好處的技巧」。",
+        "art-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-06"
     },
@@ -859,11 +807,7 @@ export default {
       "masked": "The government increased funding for ____.",
       "options": [
         "art-mcq-07",
-        "art-mcq-06",
-        "art-mcq-08",
-        "art-mcq-05",
-        "art-mcq-09",
-        "art-mcq-04"
+        "art-mcq-06"
       ],
       "explanation": "本句的「the arts」指「音樂、戲劇、舞蹈、視覺藝術、文學等藝術領域整體」。",
       "sentenceIndex": 14,
@@ -872,12 +816,8 @@ export default {
         "the arts"
       ],
       "optionReasons": {
-        "art-mcq-07": "本句指「音樂、戲劇、舞蹈、視覺藝術、文學等藝術領域整體」。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。",
-        "art-mcq-08": "「主要透過視覺形式呈現的藝術」與本句語境不同。",
-        "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。",
-        "art-mcq-09": "「透過現場／表演形式呈現的藝術」與本句語境不同。",
-        "art-mcq-04": "「一件個別的藝術創作」與本句語境不同。"
+        "art-mcq-07": "本句的「the arts」指「音樂、戲劇、舞蹈、視覺藝術、文學等藝術領域整體」。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-07"
     },
@@ -889,11 +829,7 @@ export default {
       "masked": "She has worked in the ____ for many years.",
       "options": [
         "art-mcq-07",
-        "art-mcq-06",
-        "art-mcq-08",
-        "art-mcq-05",
-        "art-mcq-09",
-        "art-mcq-04"
+        "art-mcq-06"
       ],
       "explanation": "本句的「arts」指「音樂、戲劇、舞蹈、視覺藝術、文學等藝術領域整體」。",
       "sentenceIndex": 15,
@@ -902,12 +838,8 @@ export default {
         "arts"
       ],
       "optionReasons": {
-        "art-mcq-07": "本句指「音樂、戲劇、舞蹈、視覺藝術、文學等藝術領域整體」。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。",
-        "art-mcq-08": "「主要透過視覺形式呈現的藝術」與本句語境不同。",
-        "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。",
-        "art-mcq-09": "「透過現場／表演形式呈現的藝術」與本句語境不同。",
-        "art-mcq-04": "「一件個別的藝術創作」與本句語境不同。"
+        "art-mcq-07": "本句的「arts」指「音樂、戲劇、舞蹈、視覺藝術、文學等藝術領域整體」。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-07"
     },
@@ -919,11 +851,9 @@ export default {
       "masked": "Painting and sculpture are part of the ____.",
       "options": [
         "art-mcq-08",
-        "art-mcq-07",
-        "art-mcq-09",
+        "art-mcq-12",
         "art-mcq-06",
-        "art-mcq-10",
-        "art-mcq-05"
+        "art-mcq-20"
       ],
       "explanation": "本句的「visual arts」指「主要透過視覺形式呈現的藝術」。",
       "sentenceIndex": 16,
@@ -932,12 +862,10 @@ export default {
         "visual arts"
       ],
       "optionReasons": {
-        "art-mcq-08": "本句指「主要透過視覺形式呈現的藝術」。",
-        "art-mcq-07": "「音樂、戲劇、舞蹈、視覺藝術、文學等藝術領域整體」與本句語境不同。",
-        "art-mcq-09": "「透過現場／表演形式呈現的藝術」與本句語境不同。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。",
-        "art-mcq-10": "「主要以審美、創意和藝術表達為目的的純藝術／美術」與本句語境不同。",
-        "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。"
+        "art-mcq-08": "本句的「visual arts」指「主要透過視覺形式呈現的藝術」。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-08"
     },
@@ -949,11 +877,9 @@ export default {
       "masked": "She studied visual ____ at university.",
       "options": [
         "art-mcq-08",
-        "art-mcq-07",
-        "art-mcq-09",
+        "art-mcq-12",
         "art-mcq-06",
-        "art-mcq-10",
-        "art-mcq-05"
+        "art-mcq-20"
       ],
       "explanation": "本句的「arts」指「主要透過視覺形式呈現的藝術」。",
       "sentenceIndex": 17,
@@ -962,12 +888,10 @@ export default {
         "arts"
       ],
       "optionReasons": {
-        "art-mcq-08": "本句指「主要透過視覺形式呈現的藝術」。",
-        "art-mcq-07": "「音樂、戲劇、舞蹈、視覺藝術、文學等藝術領域整體」與本句語境不同。",
-        "art-mcq-09": "「透過現場／表演形式呈現的藝術」與本句語境不同。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。",
-        "art-mcq-10": "「主要以審美、創意和藝術表達為目的的純藝術／美術」與本句語境不同。",
-        "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。"
+        "art-mcq-08": "本句的「arts」指「主要透過視覺形式呈現的藝術」。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-08"
     },
@@ -979,11 +903,9 @@ export default {
       "masked": "Dance is part of the ____.",
       "options": [
         "art-mcq-09",
-        "art-mcq-08",
-        "art-mcq-10",
-        "art-mcq-07",
-        "art-mcq-11",
-        "art-mcq-06"
+        "art-mcq-05",
+        "art-mcq-12",
+        "art-mcq-20"
       ],
       "explanation": "本句的「performing arts」指「透過現場／表演形式呈現的藝術」。",
       "sentenceIndex": 18,
@@ -992,12 +914,10 @@ export default {
         "performing arts"
       ],
       "optionReasons": {
-        "art-mcq-09": "本句指「透過現場／表演形式呈現的藝術」。",
-        "art-mcq-08": "「主要透過視覺形式呈現的藝術」與本句語境不同。",
-        "art-mcq-10": "「主要以審美、創意和藝術表達為目的的純藝術／美術」與本句語境不同。",
-        "art-mcq-07": "「音樂、戲劇、舞蹈、視覺藝術、文學等藝術領域整體」與本句語境不同。",
-        "art-mcq-11": "「把藝術設計應用於具有實際用途物件上的藝術」與本句語境不同。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。"
+        "art-mcq-09": "本句的「performing arts」指「透過現場／表演形式呈現的藝術」。",
+        "art-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-09"
     },
@@ -1009,11 +929,9 @@ export default {
       "masked": "The school has a strong performing ____ programme.",
       "options": [
         "art-mcq-09",
-        "art-mcq-08",
-        "art-mcq-10",
-        "art-mcq-07",
-        "art-mcq-11",
-        "art-mcq-06"
+        "art-mcq-12",
+        "art-mcq-06",
+        "art-mcq-20"
       ],
       "explanation": "本句的「arts」指「透過現場／表演形式呈現的藝術」。",
       "sentenceIndex": 19,
@@ -1022,12 +940,10 @@ export default {
         "arts"
       ],
       "optionReasons": {
-        "art-mcq-09": "本句指「透過現場／表演形式呈現的藝術」。",
-        "art-mcq-08": "「主要透過視覺形式呈現的藝術」與本句語境不同。",
-        "art-mcq-10": "「主要以審美、創意和藝術表達為目的的純藝術／美術」與本句語境不同。",
-        "art-mcq-07": "「音樂、戲劇、舞蹈、視覺藝術、文學等藝術領域整體」與本句語境不同。",
-        "art-mcq-11": "「把藝術設計應用於具有實際用途物件上的藝術」與本句語境不同。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。"
+        "art-mcq-09": "本句的「arts」指「透過現場／表演形式呈現的藝術」。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-09"
     },
@@ -1039,11 +955,9 @@ export default {
       "masked": "She studied ____ in London.",
       "options": [
         "art-mcq-10",
-        "art-mcq-09",
-        "art-mcq-11",
-        "art-mcq-08",
+        "art-mcq-06",
         "art-mcq-12",
-        "art-mcq-07"
+        "art-mcq-20"
       ],
       "explanation": "本句的「fine art」指「主要以審美、創意和藝術表達為目的的純藝術／美術」。",
       "sentenceIndex": 20,
@@ -1052,12 +966,10 @@ export default {
         "fine art"
       ],
       "optionReasons": {
-        "art-mcq-10": "本句指「主要以審美、創意和藝術表達為目的的純藝術／美術」。",
-        "art-mcq-09": "「透過現場／表演形式呈現的藝術」與本句語境不同。",
-        "art-mcq-11": "「把藝術設計應用於具有實際用途物件上的藝術」與本句語境不同。",
-        "art-mcq-08": "「主要透過視覺形式呈現的藝術」與本句語境不同。",
-        "art-mcq-12": "「強調廣泛人文、社會科學等基礎教育的博雅學科」與本句語境不同。",
-        "art-mcq-07": "「音樂、戲劇、舞蹈、視覺藝術、文學等藝術領域整體」與本句語境不同。"
+        "art-mcq-10": "本句的「fine art」指「主要以審美、創意和藝術表達為目的的純藝術／美術」。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-10"
     },
@@ -1069,11 +981,9 @@ export default {
       "masked": "The museum focuses on the fine ____.",
       "options": [
         "art-mcq-10",
-        "art-mcq-09",
-        "art-mcq-11",
-        "art-mcq-08",
         "art-mcq-12",
-        "art-mcq-07"
+        "art-mcq-06",
+        "art-mcq-20"
       ],
       "explanation": "本句的「arts」指「主要以審美、創意和藝術表達為目的的純藝術／美術」。",
       "sentenceIndex": 21,
@@ -1082,12 +992,10 @@ export default {
         "arts"
       ],
       "optionReasons": {
-        "art-mcq-10": "本句指「主要以審美、創意和藝術表達為目的的純藝術／美術」。",
-        "art-mcq-09": "「透過現場／表演形式呈現的藝術」與本句語境不同。",
-        "art-mcq-11": "「把藝術設計應用於具有實際用途物件上的藝術」與本句語境不同。",
-        "art-mcq-08": "「主要透過視覺形式呈現的藝術」與本句語境不同。",
-        "art-mcq-12": "「強調廣泛人文、社會科學等基礎教育的博雅學科」與本句語境不同。",
-        "art-mcq-07": "「音樂、戲劇、舞蹈、視覺藝術、文學等藝術領域整體」與本句語境不同。"
+        "art-mcq-10": "本句的「arts」指「主要以審美、創意和藝術表達為目的的純藝術／美術」。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-10"
     },
@@ -1099,11 +1007,9 @@ export default {
       "masked": "Furniture design can be considered an ____.",
       "options": [
         "art-mcq-11",
-        "art-mcq-10",
         "art-mcq-12",
-        "art-mcq-09",
-        "art-mcq-13",
-        "art-mcq-08"
+        "art-mcq-05",
+        "art-mcq-20"
       ],
       "explanation": "本句的「applied art」指「把藝術設計應用於具有實際用途物件上的藝術」。",
       "sentenceIndex": 22,
@@ -1112,12 +1018,10 @@ export default {
         "applied art"
       ],
       "optionReasons": {
-        "art-mcq-11": "本句指「把藝術設計應用於具有實際用途物件上的藝術」。",
-        "art-mcq-10": "「主要以審美、創意和藝術表達為目的的純藝術／美術」與本句語境不同。",
-        "art-mcq-12": "「強調廣泛人文、社會科學等基礎教育的博雅學科」與本句語境不同。",
-        "art-mcq-09": "「透過現場／表演形式呈現的藝術」與本句語境不同。",
-        "art-mcq-13": "「格鬥、防身或戰鬥技巧體系；武術」與本句語境不同。",
-        "art-mcq-08": "「主要透過視覺形式呈現的藝術」與本句語境不同。"
+        "art-mcq-11": "本句的「applied art」指「把藝術設計應用於具有實際用途物件上的藝術」。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-11"
     },
@@ -1129,11 +1033,9 @@ export default {
       "masked": "Applied ____ combine aesthetics with practical function.",
       "options": [
         "art-mcq-11",
-        "art-mcq-10",
+        "art-mcq-05",
         "art-mcq-12",
-        "art-mcq-09",
-        "art-mcq-13",
-        "art-mcq-08"
+        "art-mcq-20"
       ],
       "explanation": "本句的「arts」指「把藝術設計應用於具有實際用途物件上的藝術」。",
       "sentenceIndex": 23,
@@ -1142,12 +1044,10 @@ export default {
         "arts"
       ],
       "optionReasons": {
-        "art-mcq-11": "本句指「把藝術設計應用於具有實際用途物件上的藝術」。",
-        "art-mcq-10": "「主要以審美、創意和藝術表達為目的的純藝術／美術」與本句語境不同。",
-        "art-mcq-12": "「強調廣泛人文、社會科學等基礎教育的博雅學科」與本句語境不同。",
-        "art-mcq-09": "「透過現場／表演形式呈現的藝術」與本句語境不同。",
-        "art-mcq-13": "「格鬥、防身或戰鬥技巧體系；武術」與本句語境不同。",
-        "art-mcq-08": "「主要透過視覺形式呈現的藝術」與本句語境不同。"
+        "art-mcq-11": "本句的「arts」指「把藝術設計應用於具有實際用途物件上的藝術」。",
+        "art-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-11"
     },
@@ -1159,11 +1059,9 @@ export default {
       "masked": "She studied at a ____ college.",
       "options": [
         "art-mcq-12",
-        "art-mcq-11",
-        "art-mcq-13",
-        "art-mcq-10",
-        "art-mcq-14",
-        "art-mcq-09"
+        "art-mcq-16",
+        "art-mcq-18",
+        "art-mcq-20"
       ],
       "explanation": "本句的「liberal arts」指「強調廣泛人文、社會科學等基礎教育的博雅學科」。",
       "sentenceIndex": 24,
@@ -1172,12 +1070,10 @@ export default {
         "liberal arts"
       ],
       "optionReasons": {
-        "art-mcq-12": "本句指「強調廣泛人文、社會科學等基礎教育的博雅學科」。",
-        "art-mcq-11": "「把藝術設計應用於具有實際用途物件上的藝術」與本句語境不同。",
-        "art-mcq-13": "「格鬥、防身或戰鬥技巧體系；武術」與本句語境不同。",
-        "art-mcq-10": "「主要以審美、創意和藝術表達為目的的純藝術／美術」與本句語境不同。",
-        "art-mcq-14": "「具有自身方法、風格和傳統的一種藝術表達形式」與本句語境不同。",
-        "art-mcq-09": "「透過現場／表演形式呈現的藝術」與本句語境不同。"
+        "art-mcq-12": "本句的「liberal arts」指「強調廣泛人文、社會科學等基礎教育的博雅學科」。",
+        "art-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-12"
     },
@@ -1189,11 +1085,9 @@ export default {
       "masked": "A liberal ____ education covers a broad range of subjects.",
       "options": [
         "art-mcq-12",
-        "art-mcq-11",
-        "art-mcq-13",
-        "art-mcq-10",
-        "art-mcq-14",
-        "art-mcq-09"
+        "art-mcq-18",
+        "art-mcq-20",
+        "art-mcq-16"
       ],
       "explanation": "本句的「arts」指「強調廣泛人文、社會科學等基礎教育的博雅學科」。",
       "sentenceIndex": 25,
@@ -1202,12 +1096,10 @@ export default {
         "arts"
       ],
       "optionReasons": {
-        "art-mcq-12": "本句指「強調廣泛人文、社會科學等基礎教育的博雅學科」。",
-        "art-mcq-11": "「把藝術設計應用於具有實際用途物件上的藝術」與本句語境不同。",
-        "art-mcq-13": "「格鬥、防身或戰鬥技巧體系；武術」與本句語境不同。",
-        "art-mcq-10": "「主要以審美、創意和藝術表達為目的的純藝術／美術」與本句語境不同。",
-        "art-mcq-14": "「具有自身方法、風格和傳統的一種藝術表達形式」與本句語境不同。",
-        "art-mcq-09": "「透過現場／表演形式呈現的藝術」與本句語境不同。"
+        "art-mcq-12": "本句的「arts」指「強調廣泛人文、社會科學等基礎教育的博雅學科」。",
+        "art-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-12"
     },
@@ -1220,10 +1112,8 @@ export default {
       "options": [
         "art-mcq-13",
         "art-mcq-12",
-        "art-mcq-14",
-        "art-mcq-11",
-        "art-mcq-15",
-        "art-mcq-10"
+        "art-mcq-16",
+        "art-pdf-002"
       ],
       "explanation": "本句的「martial arts」指「格鬥、防身或戰鬥技巧體系；武術」。",
       "sentenceIndex": 26,
@@ -1232,12 +1122,10 @@ export default {
         "martial arts"
       ],
       "optionReasons": {
-        "art-mcq-13": "本句指「格鬥、防身或戰鬥技巧體系；武術」。",
-        "art-mcq-12": "「強調廣泛人文、社會科學等基礎教育的博雅學科」與本句語境不同。",
-        "art-mcq-14": "「具有自身方法、風格和傳統的一種藝術表達形式」與本句語境不同。",
-        "art-mcq-11": "「把藝術設計應用於具有實際用途物件上的藝術」與本句語境不同。",
-        "art-mcq-15": "「創作藝術作品的人」與本句語境不同。",
-        "art-mcq-10": "「主要以審美、創意和藝術表達為目的的純藝術／美術」與本句語境不同。"
+        "art-mcq-13": "本句的「martial arts」指「格鬥、防身或戰鬥技巧體系；武術」。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "art-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-13"
     },
@@ -1250,10 +1138,8 @@ export default {
       "options": [
         "art-mcq-13",
         "art-mcq-12",
-        "art-mcq-14",
-        "art-mcq-11",
-        "art-mcq-15",
-        "art-mcq-10"
+        "art-mcq-16",
+        "art-pdf-002"
       ],
       "explanation": "本句的「art」指「格鬥、防身或戰鬥技巧體系；武術」。",
       "sentenceIndex": 27,
@@ -1262,12 +1148,10 @@ export default {
         "art"
       ],
       "optionReasons": {
-        "art-mcq-13": "本句指「格鬥、防身或戰鬥技巧體系；武術」。",
-        "art-mcq-12": "「強調廣泛人文、社會科學等基礎教育的博雅學科」與本句語境不同。",
-        "art-mcq-14": "「具有自身方法、風格和傳統的一種藝術表達形式」與本句語境不同。",
-        "art-mcq-11": "「把藝術設計應用於具有實際用途物件上的藝術」與本句語境不同。",
-        "art-mcq-15": "「創作藝術作品的人」與本句語境不同。",
-        "art-mcq-10": "「主要以審美、創意和藝術表達為目的的純藝術／美術」與本句語境不同。"
+        "art-mcq-13": "本句的「art」指「格鬥、防身或戰鬥技巧體系；武術」。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "art-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-13"
     },
@@ -1279,11 +1163,9 @@ export default {
       "masked": "Photography is now widely accepted as an ____.",
       "options": [
         "art-mcq-14",
-        "art-mcq-13",
-        "art-mcq-15",
+        "art-mcq-05",
         "art-mcq-12",
-        "art-mcq-16",
-        "art-mcq-11"
+        "art-mcq-20"
       ],
       "explanation": "本句的「art form」指「具有自身方法、風格和傳統的一種藝術表達形式」。",
       "sentenceIndex": 28,
@@ -1292,12 +1174,10 @@ export default {
         "art form"
       ],
       "optionReasons": {
-        "art-mcq-14": "本句指「具有自身方法、風格和傳統的一種藝術表達形式」。",
-        "art-mcq-13": "「格鬥、防身或戰鬥技巧體系；武術」與本句語境不同。",
-        "art-mcq-15": "「創作藝術作品的人」與本句語境不同。",
-        "art-mcq-12": "「強調廣泛人文、社會科學等基礎教育的博雅學科」與本句語境不同。",
-        "art-mcq-16": "「從事音樂或其他創意表演的藝人／表演者」與本句語境不同。",
-        "art-mcq-11": "「把藝術設計應用於具有實際用途物件上的藝術」與本句語境不同。"
+        "art-mcq-14": "本句的「art form」指「具有自身方法、風格和傳統的一種藝術表達形式」。",
+        "art-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-14"
     },
@@ -1309,11 +1189,9 @@ export default {
       "masked": "Dance is one of the oldest ____ forms.",
       "options": [
         "art-mcq-14",
-        "art-mcq-13",
-        "art-mcq-15",
         "art-mcq-12",
-        "art-mcq-16",
-        "art-mcq-11"
+        "art-mcq-06",
+        "art-mcq-20"
       ],
       "explanation": "本句的「art」指「具有自身方法、風格和傳統的一種藝術表達形式」。",
       "sentenceIndex": 29,
@@ -1322,12 +1200,10 @@ export default {
         "art"
       ],
       "optionReasons": {
-        "art-mcq-14": "本句指「具有自身方法、風格和傳統的一種藝術表達形式」。",
-        "art-mcq-13": "「格鬥、防身或戰鬥技巧體系；武術」與本句語境不同。",
-        "art-mcq-15": "「創作藝術作品的人」與本句語境不同。",
-        "art-mcq-12": "「強調廣泛人文、社會科學等基礎教育的博雅學科」與本句語境不同。",
-        "art-mcq-16": "「從事音樂或其他創意表演的藝人／表演者」與本句語境不同。",
-        "art-mcq-11": "「把藝術設計應用於具有實際用途物件上的藝術」與本句語境不同。"
+        "art-mcq-14": "本句的「art」指「具有自身方法、風格和傳統的一種藝術表達形式」。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-14"
     },
@@ -1339,11 +1215,9 @@ export default {
       "masked": "Monet was a French ____.",
       "options": [
         "art-mcq-15",
-        "art-mcq-14",
-        "art-mcq-16",
-        "art-mcq-13",
-        "art-mcq-17",
-        "art-mcq-12"
+        "art-mcq-06",
+        "art-mcq-12",
+        "art-mcq-20"
       ],
       "explanation": "本句的「artist」指「創作藝術作品的人」。",
       "sentenceIndex": 30,
@@ -1352,12 +1226,10 @@ export default {
         "artist"
       ],
       "optionReasons": {
-        "art-mcq-15": "本句指「創作藝術作品的人」。",
-        "art-mcq-14": "「具有自身方法、風格和傳統的一種藝術表達形式」與本句語境不同。",
-        "art-mcq-16": "「從事音樂或其他創意表演的藝人／表演者」與本句語境不同。",
-        "art-mcq-13": "「格鬥、防身或戰鬥技巧體系；武術」與本句語境不同。",
-        "art-mcq-17": "「與藝術創作、藝術家或藝術活動有關的」與本句語境不同。",
-        "art-mcq-12": "「強調廣泛人文、社會科學等基礎教育的博雅學科」與本句語境不同。"
+        "art-mcq-15": "本句的「artist」指「創作藝術作品的人」。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-15"
     },
@@ -1369,11 +1241,9 @@ export default {
       "masked": "The ____ experimented with light and colour.",
       "options": [
         "art-mcq-15",
-        "art-mcq-14",
-        "art-mcq-16",
-        "art-mcq-13",
-        "art-mcq-17",
-        "art-mcq-12"
+        "art-mcq-12",
+        "art-mcq-06",
+        "art-mcq-20"
       ],
       "explanation": "本句的「artist」指「創作藝術作品的人」。",
       "sentenceIndex": 31,
@@ -1382,12 +1252,10 @@ export default {
         "artist"
       ],
       "optionReasons": {
-        "art-mcq-15": "本句指「創作藝術作品的人」。",
-        "art-mcq-14": "「具有自身方法、風格和傳統的一種藝術表達形式」與本句語境不同。",
-        "art-mcq-16": "「從事音樂或其他創意表演的藝人／表演者」與本句語境不同。",
-        "art-mcq-13": "「格鬥、防身或戰鬥技巧體系；武術」與本句語境不同。",
-        "art-mcq-17": "「與藝術創作、藝術家或藝術活動有關的」與本句語境不同。",
-        "art-mcq-12": "「強調廣泛人文、社會科學等基礎教育的博雅學科」與本句語境不同。"
+        "art-mcq-15": "本句的「artist」指「創作藝術作品的人」。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-15"
     },
@@ -1399,11 +1267,9 @@ export default {
       "masked": "Several international ____ performed at the festival.",
       "options": [
         "art-mcq-16",
-        "art-mcq-15",
-        "art-mcq-17",
-        "art-mcq-14",
-        "art-mcq-18",
-        "art-mcq-13"
+        "art-mcq-12",
+        "art-mcq-06",
+        "art-mcq-20"
       ],
       "explanation": "本句的「artists」指「從事音樂或其他創意表演的藝人／表演者」。",
       "sentenceIndex": 32,
@@ -1412,12 +1278,10 @@ export default {
         "artists"
       ],
       "optionReasons": {
-        "art-mcq-16": "本句指「從事音樂或其他創意表演的藝人／表演者」。",
-        "art-mcq-15": "「創作藝術作品的人」與本句語境不同。",
-        "art-mcq-17": "「與藝術創作、藝術家或藝術活動有關的」與本句語境不同。",
-        "art-mcq-14": "「具有自身方法、風格和傳統的一種藝術表達形式」與本句語境不同。",
-        "art-mcq-18": "「具有藝術創作能力、審美能力或藝術氣質的」與本句語境不同。",
-        "art-mcq-13": "「格鬥、防身或戰鬥技巧體系；武術」與本句語境不同。"
+        "art-mcq-16": "本句的「artists」指「從事音樂或其他創意表演的藝人／表演者」。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-16"
     },
@@ -1429,11 +1293,9 @@ export default {
       "masked": "She is a recording ____.",
       "options": [
         "art-mcq-16",
-        "art-mcq-15",
-        "art-mcq-17",
-        "art-mcq-14",
-        "art-mcq-18",
-        "art-mcq-13"
+        "art-mcq-06",
+        "art-mcq-12",
+        "art-mcq-20"
       ],
       "explanation": "本句的「artist」指「從事音樂或其他創意表演的藝人／表演者」。",
       "sentenceIndex": 33,
@@ -1442,12 +1304,10 @@ export default {
         "artist"
       ],
       "optionReasons": {
-        "art-mcq-16": "本句指「從事音樂或其他創意表演的藝人／表演者」。",
-        "art-mcq-15": "「創作藝術作品的人」與本句語境不同。",
-        "art-mcq-17": "「與藝術創作、藝術家或藝術活動有關的」與本句語境不同。",
-        "art-mcq-14": "「具有自身方法、風格和傳統的一種藝術表達形式」與本句語境不同。",
-        "art-mcq-18": "「具有藝術創作能力、審美能力或藝術氣質的」與本句語境不同。",
-        "art-mcq-13": "「格鬥、防身或戰鬥技巧體系；武術」與本句語境不同。"
+        "art-mcq-16": "本句的「artist」指「從事音樂或其他創意表演的藝人／表演者」。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-16"
     },
@@ -1459,11 +1319,9 @@ export default {
       "masked": "The city has a rich ____ tradition.",
       "options": [
         "art-mcq-17",
-        "art-mcq-16",
-        "art-mcq-18",
-        "art-mcq-15",
-        "art-mcq-19",
-        "art-mcq-14"
+        "art-mcq-12",
+        "art-mcq-06",
+        "art-mcq-20"
       ],
       "explanation": "本句的「artistic」指「與藝術創作、藝術家或藝術活動有關的」。",
       "sentenceIndex": 34,
@@ -1472,12 +1330,10 @@ export default {
         "artistic"
       ],
       "optionReasons": {
-        "art-mcq-17": "本句指「與藝術創作、藝術家或藝術活動有關的」。",
-        "art-mcq-16": "「從事音樂或其他創意表演的藝人／表演者」與本句語境不同。",
-        "art-mcq-18": "「具有藝術創作能力、審美能力或藝術氣質的」與本句語境不同。",
-        "art-mcq-15": "「創作藝術作品的人」與本句語境不同。",
-        "art-mcq-19": "「創作／表演中展現出的高水平藝術技巧和美感」與本句語境不同。",
-        "art-mcq-14": "「具有自身方法、風格和傳統的一種藝術表達形式」與本句語境不同。"
+        "art-mcq-17": "本句的「artistic」指「與藝術創作、藝術家或藝術活動有關的」。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-17"
     },
@@ -1489,11 +1345,9 @@ export default {
       "masked": "She has strong ____ interests.",
       "options": [
         "art-mcq-17",
-        "art-mcq-16",
-        "art-mcq-18",
-        "art-mcq-15",
-        "art-mcq-19",
-        "art-mcq-14"
+        "art-mcq-05",
+        "art-mcq-12",
+        "art-mcq-20"
       ],
       "explanation": "本句的「artistic」指「與藝術創作、藝術家或藝術活動有關的」。",
       "sentenceIndex": 35,
@@ -1502,12 +1356,10 @@ export default {
         "artistic"
       ],
       "optionReasons": {
-        "art-mcq-17": "本句指「與藝術創作、藝術家或藝術活動有關的」。",
-        "art-mcq-16": "「從事音樂或其他創意表演的藝人／表演者」與本句語境不同。",
-        "art-mcq-18": "「具有藝術創作能力、審美能力或藝術氣質的」與本句語境不同。",
-        "art-mcq-15": "「創作藝術作品的人」與本句語境不同。",
-        "art-mcq-19": "「創作／表演中展現出的高水平藝術技巧和美感」與本句語境不同。",
-        "art-mcq-14": "「具有自身方法、風格和傳統的一種藝術表達形式」與本句語境不同。"
+        "art-mcq-17": "本句的「artistic」指「與藝術創作、藝術家或藝術活動有關的」。",
+        "art-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-17"
     },
@@ -1519,11 +1371,9 @@ export default {
       "masked": "She is very ____.",
       "options": [
         "art-mcq-18",
-        "art-mcq-17",
-        "art-mcq-19",
-        "art-mcq-16",
+        "art-mcq-12",
         "art-mcq-20",
-        "art-mcq-15"
+        "art-mcq-16"
       ],
       "explanation": "本句的「artistic」指「具有藝術創作能力、審美能力或藝術氣質的」。",
       "sentenceIndex": 36,
@@ -1532,12 +1382,10 @@ export default {
         "artistic"
       ],
       "optionReasons": {
-        "art-mcq-18": "本句指「具有藝術創作能力、審美能力或藝術氣質的」。",
-        "art-mcq-17": "「與藝術創作、藝術家或藝術活動有關的」與本句語境不同。",
-        "art-mcq-19": "「創作／表演中展現出的高水平藝術技巧和美感」與本句語境不同。",
-        "art-mcq-16": "「從事音樂或其他創意表演的藝人／表演者」與本句語境不同。",
-        "art-mcq-20": "「代表某領域目前最高、最先進技術水平的」與本句語境不同。",
-        "art-mcq-15": "「創作藝術作品的人」與本句語境不同。"
+        "art-mcq-18": "本句的「artistic」指「具有藝術創作能力、審美能力或藝術氣質的」。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-18"
     },
@@ -1549,11 +1397,9 @@ export default {
       "masked": "The arrangement has an ____ quality.",
       "options": [
         "art-mcq-18",
-        "art-mcq-17",
-        "art-mcq-19",
-        "art-mcq-16",
+        "art-mcq-12",
         "art-mcq-20",
-        "art-mcq-15"
+        "art-mcq-16"
       ],
       "explanation": "本句的「artistic」指「具有藝術創作能力、審美能力或藝術氣質的」。",
       "sentenceIndex": 37,
@@ -1562,12 +1408,10 @@ export default {
         "artistic"
       ],
       "optionReasons": {
-        "art-mcq-18": "本句指「具有藝術創作能力、審美能力或藝術氣質的」。",
-        "art-mcq-17": "「與藝術創作、藝術家或藝術活動有關的」與本句語境不同。",
-        "art-mcq-19": "「創作／表演中展現出的高水平藝術技巧和美感」與本句語境不同。",
-        "art-mcq-16": "「從事音樂或其他創意表演的藝人／表演者」與本句語境不同。",
-        "art-mcq-20": "「代表某領域目前最高、最先進技術水平的」與本句語境不同。",
-        "art-mcq-15": "「創作藝術作品的人」與本句語境不同。"
+        "art-mcq-18": "本句的「artistic」指「具有藝術創作能力、審美能力或藝術氣質的」。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-18"
     },
@@ -1579,11 +1423,9 @@ export default {
       "masked": "The film is ____.",
       "options": [
         "art-pdf-001",
-        "art-mcq-17",
-        "art-mcq-19",
-        "art-mcq-16",
-        "art-mcq-20",
-        "art-mcq-15"
+        "art-mcq-06",
+        "art-mcq-12",
+        "art-mcq-20"
       ],
       "explanation": "本句的「artistically ambitious」指「從藝術角度／以有創意、美感的方式」。",
       "sentenceIndex": 38,
@@ -1592,12 +1434,10 @@ export default {
         "artistically ambitious"
       ],
       "optionReasons": {
-        "art-pdf-001": "本句指「從藝術角度／以有創意、美感的方式」。",
-        "art-mcq-17": "「與藝術創作、藝術家或藝術活動有關的」與本句語境不同。",
-        "art-mcq-19": "「創作／表演中展現出的高水平藝術技巧和美感」與本句語境不同。",
-        "art-mcq-16": "「從事音樂或其他創意表演的藝人／表演者」與本句語境不同。",
-        "art-mcq-20": "「代表某領域目前最高、最先進技術水平的」與本句語境不同。",
-        "art-mcq-15": "「創作藝術作品的人」與本句語境不同。"
+        "art-pdf-001": "本句的「artistically ambitious」指「從藝術角度／以有創意、美感的方式」。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-pdf-001"
     },
@@ -1609,11 +1449,9 @@ export default {
       "masked": "The room was ____ decorated.",
       "options": [
         "art-pdf-001",
-        "art-mcq-17",
-        "art-mcq-19",
-        "art-mcq-16",
-        "art-mcq-20",
-        "art-mcq-15"
+        "art-mcq-05",
+        "art-mcq-12",
+        "art-mcq-20"
       ],
       "explanation": "本句的「artistically」指「從藝術角度／以有創意、美感的方式」。",
       "sentenceIndex": 39,
@@ -1622,12 +1460,10 @@ export default {
         "artistically"
       ],
       "optionReasons": {
-        "art-pdf-001": "本句指「從藝術角度／以有創意、美感的方式」。",
-        "art-mcq-17": "「與藝術創作、藝術家或藝術活動有關的」與本句語境不同。",
-        "art-mcq-19": "「創作／表演中展現出的高水平藝術技巧和美感」與本句語境不同。",
-        "art-mcq-16": "「從事音樂或其他創意表演的藝人／表演者」與本句語境不同。",
-        "art-mcq-20": "「代表某領域目前最高、最先進技術水平的」與本句語境不同。",
-        "art-mcq-15": "「創作藝術作品的人」與本句語境不同。"
+        "art-pdf-001": "本句的「artistically」指「從藝術角度／以有創意、美感的方式」。",
+        "art-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-pdf-001"
     },
@@ -1639,11 +1475,7 @@ export default {
       "masked": "The painting shows extraordinary ____.",
       "options": [
         "art-mcq-19",
-        "art-mcq-18",
-        "art-mcq-20",
-        "art-mcq-17",
-        "art-mcq-16",
-        "art-mcq-15"
+        "art-mcq-12"
       ],
       "explanation": "本句的「artistry」指「創作／表演中展現出的高水平藝術技巧和美感」。",
       "sentenceIndex": 40,
@@ -1652,12 +1484,8 @@ export default {
         "artistry"
       ],
       "optionReasons": {
-        "art-mcq-19": "本句指「創作／表演中展現出的高水平藝術技巧和美感」。",
-        "art-mcq-18": "「具有藝術創作能力、審美能力或藝術氣質的」與本句語境不同。",
-        "art-mcq-20": "「代表某領域目前最高、最先進技術水平的」與本句語境不同。",
-        "art-mcq-17": "「與藝術創作、藝術家或藝術活動有關的」與本句語境不同。",
-        "art-mcq-16": "「從事音樂或其他創意表演的藝人／表演者」與本句語境不同。",
-        "art-mcq-15": "「創作藝術作品的人」與本句語境不同。"
+        "art-mcq-19": "本句的「artistry」指「創作／表演中展現出的高水平藝術技巧和美感」。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-19"
     },
@@ -1669,11 +1497,7 @@ export default {
       "masked": "I admire the ____ of the performance.",
       "options": [
         "art-mcq-19",
-        "art-mcq-18",
-        "art-mcq-20",
-        "art-mcq-17",
-        "art-mcq-16",
-        "art-mcq-15"
+        "art-mcq-12"
       ],
       "explanation": "本句的「artistry」指「創作／表演中展現出的高水平藝術技巧和美感」。",
       "sentenceIndex": 41,
@@ -1682,12 +1506,8 @@ export default {
         "artistry"
       ],
       "optionReasons": {
-        "art-mcq-19": "本句指「創作／表演中展現出的高水平藝術技巧和美感」。",
-        "art-mcq-18": "「具有藝術創作能力、審美能力或藝術氣質的」與本句語境不同。",
-        "art-mcq-20": "「代表某領域目前最高、最先進技術水平的」與本句語境不同。",
-        "art-mcq-17": "「與藝術創作、藝術家或藝術活動有關的」與本句語境不同。",
-        "art-mcq-16": "「從事音樂或其他創意表演的藝人／表演者」與本句語境不同。",
-        "art-mcq-15": "「創作藝術作品的人」與本句語境不同。"
+        "art-mcq-19": "本句的「artistry」指「創作／表演中展現出的高水平藝術技巧和美感」。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-19"
     },
@@ -1699,11 +1519,9 @@ export default {
       "masked": "That cake is a ____.",
       "options": [
         "art-pdf-002",
-        "art-mcq-03",
         "art-mcq-05",
-        "art-mcq-02",
-        "art-mcq-06",
-        "art-mcq-01"
+        "art-mcq-12",
+        "art-mcq-16"
       ],
       "explanation": "本句的「work of art」指「因設計、工藝或美感極出色而被形容為藝術品的東西」。",
       "sentenceIndex": 42,
@@ -1712,12 +1530,10 @@ export default {
         "work of art"
       ],
       "optionReasons": {
-        "art-pdf-002": "本句指「因設計、工藝或美感極出色而被形容為藝術品的東西」。",
-        "art-mcq-03": "「藝術家創作出的藝術作品作為整體」與本句語境不同。",
-        "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。",
-        "art-mcq-02": "「以繪畫、雕塑、攝影等視覺形式為主的藝術」與本句語境不同。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。",
-        "art-mcq-01": "「透過創造力、技巧和想像表達思想、情感或美感的活動／領域」與本句語境不同。"
+        "art-pdf-002": "本句的「work of art」指「因設計、工藝或美感極出色而被形容為藝術品的東西」。",
+        "art-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-pdf-002"
     },
@@ -1729,11 +1545,9 @@ export default {
       "masked": "The building is a work of ____.",
       "options": [
         "art-pdf-002",
-        "art-mcq-03",
-        "art-mcq-05",
-        "art-mcq-02",
         "art-mcq-06",
-        "art-mcq-01"
+        "art-mcq-12",
+        "art-mcq-20"
       ],
       "explanation": "本句的「art」指「因設計、工藝或美感極出色而被形容為藝術品的東西」。",
       "sentenceIndex": 43,
@@ -1742,12 +1556,10 @@ export default {
         "art"
       ],
       "optionReasons": {
-        "art-pdf-002": "本句指「因設計、工藝或美感極出色而被形容為藝術品的東西」。",
-        "art-mcq-03": "「藝術家創作出的藝術作品作為整體」與本句語境不同。",
-        "art-mcq-05": "「需要經驗、判斷和細膩技巧才能掌握的能力」與本句語境不同。",
-        "art-mcq-02": "「以繪畫、雕塑、攝影等視覺形式為主的藝術」與本句語境不同。",
-        "art-mcq-06": "「把某件事情做得熟練、細緻、恰到好處的技巧」與本句語境不同。",
-        "art-mcq-01": "「透過創造力、技巧和想像表達思想、情感或美感的活動／領域」與本句語境不同。"
+        "art-pdf-002": "本句的「art」指「因設計、工藝或美感極出色而被形容為藝術品的東西」。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-pdf-002"
     },
@@ -1759,11 +1571,9 @@ export default {
       "masked": "The museum uses ____ lighting.",
       "options": [
         "art-mcq-20",
-        "art-mcq-19",
-        "art-mcq-18",
-        "art-mcq-17",
         "art-mcq-16",
-        "art-mcq-15"
+        "art-mcq-12",
+        "art-pdf-002"
       ],
       "explanation": "本句的「state-of-the-art」指「代表某領域目前最高、最先進技術水平的」。",
       "sentenceIndex": 44,
@@ -1772,12 +1582,10 @@ export default {
         "state-of-the-art"
       ],
       "optionReasons": {
-        "art-mcq-20": "本句指「代表某領域目前最高、最先進技術水平的」。",
-        "art-mcq-19": "「創作／表演中展現出的高水平藝術技巧和美感」與本句語境不同。",
-        "art-mcq-18": "「具有藝術創作能力、審美能力或藝術氣質的」與本句語境不同。",
-        "art-mcq-17": "「與藝術創作、藝術家或藝術活動有關的」與本句語境不同。",
-        "art-mcq-16": "「從事音樂或其他創意表演的藝人／表演者」與本句語境不同。",
-        "art-mcq-15": "「創作藝術作品的人」與本句語境不同。"
+        "art-mcq-20": "本句的「state-of-the-art」指「代表某領域目前最高、最先進技術水平的」。",
+        "art-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-20"
     },
@@ -1789,11 +1597,9 @@ export default {
       "masked": "The laboratory has state-of-the-____ technology.",
       "options": [
         "art-mcq-20",
-        "art-mcq-19",
-        "art-mcq-18",
-        "art-mcq-17",
         "art-mcq-16",
-        "art-mcq-15"
+        "art-mcq-12",
+        "art-mcq-06"
       ],
       "explanation": "本句的「art」指「代表某領域目前最高、最先進技術水平的」。",
       "sentenceIndex": 45,
@@ -1802,12 +1608,10 @@ export default {
         "art"
       ],
       "optionReasons": {
-        "art-mcq-20": "本句指「代表某領域目前最高、最先進技術水平的」。",
-        "art-mcq-19": "「創作／表演中展現出的高水平藝術技巧和美感」與本句語境不同。",
-        "art-mcq-18": "「具有藝術創作能力、審美能力或藝術氣質的」與本句語境不同。",
-        "art-mcq-17": "「與藝術創作、藝術家或藝術活動有關的」與本句語境不同。",
-        "art-mcq-16": "「從事音樂或其他創意表演的藝人／表演者」與本句語境不同。",
-        "art-mcq-15": "「創作藝術作品的人」與本句語境不同。"
+        "art-mcq-20": "本句的「art」指「代表某領域目前最高、最先進技術水平的」。",
+        "art-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "art-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "art-mcq-20"
     }
@@ -1819,5 +1623,7 @@ export default {
     "sha256": "251efb09382d13221c040fd6967e36407508d01d88969e4f54fd25359b0c5d59",
     "pages": 21
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

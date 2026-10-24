@@ -232,7 +232,7 @@ export default {
     },
     {
       "id": "note-mcq-11",
-      "title": "表示尤其值得注意地；特別是",
+      "title": "尤其值得注意地；特別是",
       "form": "Related form: notably",
       "en": "Related form: notably",
       "zh": "表示尤其值得注意地；特別是",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "note-mcq-13",
-      "title": "表示把重要資料或重點寫下來",
+      "title": "把重要資料或重點寫下來",
       "form": "Useful expression: take notes — 做筆記",
       "en": "Useful expression: take notes — 做筆記",
       "zh": "表示把重要資料或重點寫下來",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "note-mcq-15",
-      "title": "表示請注意",
+      "title": "請注意",
       "form": "Useful expression: please note — 請注意",
       "en": "Useful expression: please note — 請注意",
       "zh": "表示請注意",
@@ -345,11 +345,8 @@ export default {
       "masked": "He quietly shared his ____ with me.",
       "options": [
         "note-mcq-01",
-        "note-mcq-02",
-        "note-mcq-03",
-        "note-mcq-04",
-        "note-mcq-05",
-        "note-mcq-06"
+        "note-mcq-11",
+        "note-mcq-04"
       ],
       "explanation": "本句的「notes」指「為了記住資料、重點或內容而寫下的簡短記錄」。",
       "sentenceIndex": 0,
@@ -358,12 +355,9 @@ export default {
         "notes"
       ],
       "optionReasons": {
-        "note-mcq-01": "本句指「為了記住資料、重點或內容而寫下的簡短記錄」。",
-        "note-mcq-02": "「留言／便條時，表示便條；短訊；簡短書面訊息」是「note = short written message（留言／便條）」的用法，與本句語境不同。",
-        "note-mcq-03": "「為補充、解釋或提醒而附加在文字、文件或資料旁的簡短說明」是「note = explanatory/commentary remark in writing（註解）」的用法，與本句語境不同。",
-        "note-mcq-04": "「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」是「note = particular sound in music（音樂）」的用法，與本句語境不同。",
-        "note-mcq-05": "「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」是「note = quality/tone in a voice, smell, taste, etc.（特徵／調子）」的用法，與本句語境不同。",
-        "note-mcq-06": "「由銀行或政府發行、具有指定面值的紙幣」是「note = money/banknote（鈔票）」的用法，與本句語境不同。"
+        "note-mcq-01": "本句的「notes」指「為了記住資料、重點或內容而寫下的簡短記錄」。",
+        "note-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-01"
     },
@@ -375,11 +369,8 @@ export default {
       "masked": "I took ____ during the lesson.",
       "options": [
         "note-mcq-01",
-        "note-mcq-02",
-        "note-mcq-03",
-        "note-mcq-04",
-        "note-mcq-05",
-        "note-mcq-06"
+        "note-mcq-11",
+        "note-mcq-04"
       ],
       "explanation": "本句的「notes」指「為了記住資料、重點或內容而寫下的簡短記錄」。",
       "sentenceIndex": 1,
@@ -388,12 +379,9 @@ export default {
         "notes"
       ],
       "optionReasons": {
-        "note-mcq-01": "本句指「為了記住資料、重點或內容而寫下的簡短記錄」。",
-        "note-mcq-02": "「留言／便條時，表示便條；短訊；簡短書面訊息」是「note = short written message（留言／便條）」的用法，與本句語境不同。",
-        "note-mcq-03": "「為補充、解釋或提醒而附加在文字、文件或資料旁的簡短說明」是「note = explanatory/commentary remark in writing（註解）」的用法，與本句語境不同。",
-        "note-mcq-04": "「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」是「note = particular sound in music（音樂）」的用法，與本句語境不同。",
-        "note-mcq-05": "「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」是「note = quality/tone in a voice, smell, taste, etc.（特徵／調子）」的用法，與本句語境不同。",
-        "note-mcq-06": "「由銀行或政府發行、具有指定面值的紙幣」是「note = money/banknote（鈔票）」的用法，與本句語境不同。"
+        "note-mcq-01": "本句的「notes」指「為了記住資料、重點或內容而寫下的簡短記錄」。",
+        "note-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-01"
     },
@@ -405,11 +393,8 @@ export default {
       "masked": "She reviewed her ____ before the exam.",
       "options": [
         "note-mcq-01",
-        "note-mcq-02",
-        "note-mcq-03",
         "note-mcq-04",
-        "note-mcq-05",
-        "note-mcq-06"
+        "note-mcq-15"
       ],
       "explanation": "本句的「notes」指「為了記住資料、重點或內容而寫下的簡短記錄」。",
       "sentenceIndex": 2,
@@ -418,12 +403,9 @@ export default {
         "notes"
       ],
       "optionReasons": {
-        "note-mcq-01": "本句指「為了記住資料、重點或內容而寫下的簡短記錄」。",
-        "note-mcq-02": "「留言／便條時，表示便條；短訊；簡短書面訊息」是「note = short written message（留言／便條）」的用法，與本句語境不同。",
-        "note-mcq-03": "「為補充、解釋或提醒而附加在文字、文件或資料旁的簡短說明」是「note = explanatory/commentary remark in writing（註解）」的用法，與本句語境不同。",
-        "note-mcq-04": "「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」是「note = particular sound in music（音樂）」的用法，與本句語境不同。",
-        "note-mcq-05": "「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」是「note = quality/tone in a voice, smell, taste, etc.（特徵／調子）」的用法，與本句語境不同。",
-        "note-mcq-06": "「由銀行或政府發行、具有指定面值的紙幣」是「note = money/banknote（鈔票）」的用法，與本句語境不同。"
+        "note-mcq-01": "本句的「notes」指「為了記住資料、重點或內容而寫下的簡短記錄」。",
+        "note-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-01"
     },
@@ -435,11 +417,9 @@ export default {
       "masked": "She left a ____ on the kitchen table.",
       "options": [
         "note-mcq-02",
-        "note-mcq-01",
-        "note-mcq-03",
-        "note-mcq-04",
-        "note-mcq-05",
-        "note-mcq-06"
+        "note-mcq-10",
+        "note-mcq-06",
+        "note-mcq-05"
       ],
       "explanation": "本句的「note」指「留言／便條時，表示便條；短訊；簡短書面訊息」。",
       "sentenceIndex": 3,
@@ -448,12 +428,10 @@ export default {
         "note"
       ],
       "optionReasons": {
-        "note-mcq-02": "本句指「留言／便條時，表示便條；短訊；簡短書面訊息」。",
-        "note-mcq-01": "「為了記住資料、重點或內容而寫下的簡短記錄」是「note = short written record（筆記）」的用法，與本句語境不同。",
-        "note-mcq-03": "「為補充、解釋或提醒而附加在文字、文件或資料旁的簡短說明」是「note = explanatory/commentary remark in writing（註解）」的用法，與本句語境不同。",
-        "note-mcq-04": "「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」是「note = particular sound in music（音樂）」的用法，與本句語境不同。",
-        "note-mcq-05": "「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」是「note = quality/tone in a voice, smell, taste, etc.（特徵／調子）」的用法，與本句語境不同。",
-        "note-mcq-06": "「由銀行或政府發行、具有指定面值的紙幣」是「note = money/banknote（鈔票）」的用法，與本句語境不同。"
+        "note-mcq-02": "本句的「note」指「留言／便條時，表示便條；短訊；簡短書面訊息」。",
+        "note-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-02"
     },
@@ -465,11 +443,8 @@ export default {
       "masked": "I sent him a quick ____ to say thank you.",
       "options": [
         "note-mcq-02",
-        "note-mcq-01",
-        "note-mcq-03",
-        "note-mcq-04",
-        "note-mcq-05",
-        "note-mcq-06"
+        "note-mcq-09",
+        "note-mcq-05"
       ],
       "explanation": "本句的「note」指「留言／便條時，表示便條；短訊；簡短書面訊息」。",
       "sentenceIndex": 4,
@@ -478,12 +453,9 @@ export default {
         "note"
       ],
       "optionReasons": {
-        "note-mcq-02": "本句指「留言／便條時，表示便條；短訊；簡短書面訊息」。",
-        "note-mcq-01": "「為了記住資料、重點或內容而寫下的簡短記錄」是「note = short written record（筆記）」的用法，與本句語境不同。",
-        "note-mcq-03": "「為補充、解釋或提醒而附加在文字、文件或資料旁的簡短說明」是「note = explanatory/commentary remark in writing（註解）」的用法，與本句語境不同。",
-        "note-mcq-04": "「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」是「note = particular sound in music（音樂）」的用法，與本句語境不同。",
-        "note-mcq-05": "「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」是「note = quality/tone in a voice, smell, taste, etc.（特徵／調子）」的用法，與本句語境不同。",
-        "note-mcq-06": "「由銀行或政府發行、具有指定面值的紙幣」是「note = money/banknote（鈔票）」的用法，與本句語境不同。"
+        "note-mcq-02": "本句的「note」指「留言／便條時，表示便條；短訊；簡短書面訊息」。",
+        "note-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-02"
     },
@@ -495,11 +467,8 @@ export default {
       "masked": "Please read the ____ at the bottom of the page.",
       "options": [
         "note-mcq-03",
-        "note-mcq-02",
         "note-mcq-04",
-        "note-mcq-01",
-        "note-mcq-05",
-        "note-mcq-06"
+        "note-mcq-07"
       ],
       "explanation": "本句的「note」指「為補充、解釋或提醒而附加在文字、文件或資料旁的簡短說明」。",
       "sentenceIndex": 5,
@@ -508,12 +477,9 @@ export default {
         "note"
       ],
       "optionReasons": {
-        "note-mcq-03": "本句指「為補充、解釋或提醒而附加在文字、文件或資料旁的簡短說明」。",
-        "note-mcq-02": "「留言／便條時，表示便條；短訊；簡短書面訊息」是「note = short written message（留言／便條）」的用法，與本句語境不同。",
-        "note-mcq-04": "「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」是「note = particular sound in music（音樂）」的用法，與本句語境不同。",
-        "note-mcq-01": "「為了記住資料、重點或內容而寫下的簡短記錄」是「note = short written record（筆記）」的用法，與本句語境不同。",
-        "note-mcq-05": "「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」是「note = quality/tone in a voice, smell, taste, etc.（特徵／調子）」的用法，與本句語境不同。",
-        "note-mcq-06": "「由銀行或政府發行、具有指定面值的紙幣」是「note = money/banknote（鈔票）」的用法，與本句語境不同。"
+        "note-mcq-03": "本句的「note」指「為補充、解釋或提醒而附加在文字、文件或資料旁的簡短說明」。",
+        "note-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-03"
     },
@@ -525,10 +491,7 @@ export default {
       "masked": "The report includes a ____ explaining the figures.",
       "options": [
         "note-mcq-03",
-        "note-mcq-02",
-        "note-mcq-04",
-        "note-mcq-01",
-        "note-mcq-05",
+        "note-mcq-07",
         "note-mcq-06"
       ],
       "explanation": "本句的「note」指「為補充、解釋或提醒而附加在文字、文件或資料旁的簡短說明」。",
@@ -538,12 +501,9 @@ export default {
         "note"
       ],
       "optionReasons": {
-        "note-mcq-03": "本句指「為補充、解釋或提醒而附加在文字、文件或資料旁的簡短說明」。",
-        "note-mcq-02": "「留言／便條時，表示便條；短訊；簡短書面訊息」是「note = short written message（留言／便條）」的用法，與本句語境不同。",
-        "note-mcq-04": "「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」是「note = particular sound in music（音樂）」的用法，與本句語境不同。",
-        "note-mcq-01": "「為了記住資料、重點或內容而寫下的簡短記錄」是「note = short written record（筆記）」的用法，與本句語境不同。",
-        "note-mcq-05": "「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」是「note = quality/tone in a voice, smell, taste, etc.（特徵／調子）」的用法，與本句語境不同。",
-        "note-mcq-06": "「由銀行或政府發行、具有指定面值的紙幣」是「note = money/banknote（鈔票）」的用法，與本句語境不同。"
+        "note-mcq-03": "本句的「note」指「為補充、解釋或提醒而附加在文字、文件或資料旁的簡短說明」。",
+        "note-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-03"
     },
@@ -556,10 +516,7 @@ export default {
       "options": [
         "note-mcq-04",
         "note-mcq-03",
-        "note-mcq-05",
-        "note-mcq-02",
-        "note-mcq-06",
-        "note-mcq-01"
+        "note-mcq-15"
       ],
       "explanation": "本句的「note」指「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」。",
       "sentenceIndex": 7,
@@ -568,12 +525,9 @@ export default {
         "note"
       ],
       "optionReasons": {
-        "note-mcq-04": "本句指「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」。",
-        "note-mcq-03": "「為補充、解釋或提醒而附加在文字、文件或資料旁的簡短說明」是「note = explanatory/commentary remark in writing（註解）」的用法，與本句語境不同。",
-        "note-mcq-05": "「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」是「note = quality/tone in a voice, smell, taste, etc.（特徵／調子）」的用法，與本句語境不同。",
-        "note-mcq-02": "「留言／便條時，表示便條；短訊；簡短書面訊息」是「note = short written message（留言／便條）」的用法，與本句語境不同。",
-        "note-mcq-06": "「由銀行或政府發行、具有指定面值的紙幣」是「note = money/banknote（鈔票）」的用法，與本句語境不同。",
-        "note-mcq-01": "「為了記住資料、重點或內容而寫下的簡短記錄」是「note = short written record（筆記）」的用法，與本句語境不同。"
+        "note-mcq-04": "本句的「note」指「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」。",
+        "note-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-04"
     },
@@ -585,11 +539,8 @@ export default {
       "masked": "The song begins with a high ____.",
       "options": [
         "note-mcq-04",
-        "note-mcq-03",
-        "note-mcq-05",
         "note-mcq-02",
-        "note-mcq-06",
-        "note-mcq-01"
+        "note-mcq-10"
       ],
       "explanation": "本句的「note」指「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」。",
       "sentenceIndex": 8,
@@ -598,12 +549,9 @@ export default {
         "note"
       ],
       "optionReasons": {
-        "note-mcq-04": "本句指「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」。",
-        "note-mcq-03": "「為補充、解釋或提醒而附加在文字、文件或資料旁的簡短說明」是「note = explanatory/commentary remark in writing（註解）」的用法，與本句語境不同。",
-        "note-mcq-05": "「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」是「note = quality/tone in a voice, smell, taste, etc.（特徵／調子）」的用法，與本句語境不同。",
-        "note-mcq-02": "「留言／便條時，表示便條；短訊；簡短書面訊息」是「note = short written message（留言／便條）」的用法，與本句語境不同。",
-        "note-mcq-06": "「由銀行或政府發行、具有指定面值的紙幣」是「note = money/banknote（鈔票）」的用法，與本句語境不同。",
-        "note-mcq-01": "「為了記住資料、重點或內容而寫下的簡短記錄」是「note = short written record（筆記）」的用法，與本句語境不同。"
+        "note-mcq-04": "本句的「note」指「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」。",
+        "note-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-04"
     },
@@ -615,10 +563,7 @@ export default {
       "masked": "There was a ____ of sadness in his voice.",
       "options": [
         "note-mcq-05",
-        "note-mcq-04",
-        "note-mcq-06",
-        "note-mcq-03",
-        "note-mcq-07",
+        "note-mcq-09",
         "note-mcq-02"
       ],
       "explanation": "本句的「note」指「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」。",
@@ -628,12 +573,9 @@ export default {
         "note"
       ],
       "optionReasons": {
-        "note-mcq-05": "本句指「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」。",
-        "note-mcq-04": "「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」是「note = particular sound in music（音樂）」的用法，與本句語境不同。",
-        "note-mcq-06": "「由銀行或政府發行、具有指定面值的紙幣」是「note = money/banknote（鈔票）」的用法，與本句語境不同。",
-        "note-mcq-03": "「為補充、解釋或提醒而附加在文字、文件或資料旁的簡短說明」是「note = explanatory/commentary remark in writing（註解）」的用法，與本句語境不同。",
-        "note-mcq-07": "「注意到、留意或特別關注某個事實或細節」是「note = observe / notice something（動詞）」的用法，與本句語境不同。",
-        "note-mcq-02": "「留言／便條時，表示便條；短訊；簡短書面訊息」是「note = short written message（留言／便條）」的用法，與本句語境不同。"
+        "note-mcq-05": "本句的「note」指「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」。",
+        "note-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-05"
     },
@@ -645,10 +587,7 @@ export default {
       "masked": "The perfume has a fresh citrus ____.",
       "options": [
         "note-mcq-05",
-        "note-mcq-04",
-        "note-mcq-06",
-        "note-mcq-03",
-        "note-mcq-07",
+        "note-mcq-09",
         "note-mcq-02"
       ],
       "explanation": "本句的「note」指「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」。",
@@ -658,12 +597,9 @@ export default {
         "note"
       ],
       "optionReasons": {
-        "note-mcq-05": "本句指「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」。",
-        "note-mcq-04": "「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」是「note = particular sound in music（音樂）」的用法，與本句語境不同。",
-        "note-mcq-06": "「由銀行或政府發行、具有指定面值的紙幣」是「note = money/banknote（鈔票）」的用法，與本句語境不同。",
-        "note-mcq-03": "「為補充、解釋或提醒而附加在文字、文件或資料旁的簡短說明」是「note = explanatory/commentary remark in writing（註解）」的用法，與本句語境不同。",
-        "note-mcq-07": "「注意到、留意或特別關注某個事實或細節」是「note = observe / notice something（動詞）」的用法，與本句語境不同。",
-        "note-mcq-02": "「留言／便條時，表示便條；短訊；簡短書面訊息」是「note = short written message（留言／便條）」的用法，與本句語境不同。"
+        "note-mcq-05": "本句的「note」指「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」。",
+        "note-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-05"
     },
@@ -675,11 +611,8 @@ export default {
       "masked": "He paid with a twenty-pound ____.",
       "options": [
         "note-mcq-06",
-        "note-mcq-05",
-        "note-mcq-07",
-        "note-mcq-04",
-        "note-mcq-08",
-        "note-mcq-03"
+        "note-mcq-01",
+        "note-mcq-07"
       ],
       "explanation": "本句的「note」指「由銀行或政府發行、具有指定面值的紙幣」。",
       "sentenceIndex": 11,
@@ -688,12 +621,9 @@ export default {
         "note"
       ],
       "optionReasons": {
-        "note-mcq-06": "本句指「由銀行或政府發行、具有指定面值的紙幣」。",
-        "note-mcq-05": "「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」是「note = quality/tone in a voice, smell, taste, etc.（特徵／調子）」的用法，與本句語境不同。",
-        "note-mcq-07": "「注意到、留意或特別關注某個事實或細節」是「note = observe / notice something（動詞）」的用法，與本句語境不同。",
-        "note-mcq-04": "「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」是「note = particular sound in music（音樂）」的用法，與本句語境不同。",
-        "note-mcq-08": "「把某個事實正式寫下、指出或記錄在文件／討論中」是「note = mention / record something formally（動詞）」的用法，與本句語境不同。",
-        "note-mcq-03": "「為補充、解釋或提醒而附加在文字、文件或資料旁的簡短說明」是「note = explanatory/commentary remark in writing（註解）」的用法，與本句語境不同。"
+        "note-mcq-06": "本句的「note」指「由銀行或政府發行、具有指定面值的紙幣」。",
+        "note-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-06"
     },
@@ -705,11 +635,9 @@ export default {
       "masked": "I only have a fifty-dollar ____.",
       "options": [
         "note-mcq-06",
-        "note-mcq-05",
-        "note-mcq-07",
-        "note-mcq-04",
-        "note-mcq-08",
-        "note-mcq-03"
+        "note-mcq-14",
+        "note-mcq-15",
+        "note-mcq-05"
       ],
       "explanation": "本句的「note」指「由銀行或政府發行、具有指定面值的紙幣」。",
       "sentenceIndex": 12,
@@ -718,12 +646,10 @@ export default {
         "note"
       ],
       "optionReasons": {
-        "note-mcq-06": "本句指「由銀行或政府發行、具有指定面值的紙幣」。",
-        "note-mcq-05": "「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」是「note = quality/tone in a voice, smell, taste, etc.（特徵／調子）」的用法，與本句語境不同。",
-        "note-mcq-07": "「注意到、留意或特別關注某個事實或細節」是「note = observe / notice something（動詞）」的用法，與本句語境不同。",
-        "note-mcq-04": "「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」是「note = particular sound in music（音樂）」的用法，與本句語境不同。",
-        "note-mcq-08": "「把某個事實正式寫下、指出或記錄在文件／討論中」是「note = mention / record something formally（動詞）」的用法，與本句語境不同。",
-        "note-mcq-03": "「為補充、解釋或提醒而附加在文字、文件或資料旁的簡短說明」是「note = explanatory/commentary remark in writing（註解）」的用法，與本句語境不同。"
+        "note-mcq-06": "本句的「note」指「由銀行或政府發行、具有指定面值的紙幣」。",
+        "note-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-06"
     },
@@ -735,11 +661,8 @@ export default {
       "masked": "She ____ that the door was already open.",
       "options": [
         "note-mcq-07",
-        "note-mcq-06",
-        "note-mcq-08",
-        "note-mcq-05",
-        "note-mcq-09",
-        "note-mcq-04"
+        "note-mcq-14",
+        "note-mcq-06"
       ],
       "explanation": "本句的「noted」指「注意到、留意或特別關注某個事實或細節」。",
       "sentenceIndex": 13,
@@ -748,12 +671,9 @@ export default {
         "noted"
       ],
       "optionReasons": {
-        "note-mcq-07": "本句指「注意到、留意或特別關注某個事實或細節」。",
-        "note-mcq-06": "「由銀行或政府發行、具有指定面值的紙幣」是「note = money/banknote（鈔票）」的用法，與本句語境不同。",
-        "note-mcq-08": "「把某個事實正式寫下、指出或記錄在文件／討論中」是「note = mention / record something formally（動詞）」的用法，與本句語境不同。",
-        "note-mcq-05": "「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」是「note = quality/tone in a voice, smell, taste, etc.（特徵／調子）」的用法，與本句語境不同。",
-        "note-mcq-09": "「值得注意、具有重要性或相當有名的」是「of note / noteworthy（值得注意）」的用法，與本句語境不同。",
-        "note-mcq-04": "「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」是「note = particular sound in music（音樂）」的用法，與本句語境不同。"
+        "note-mcq-07": "本句的「noted」指「注意到、留意或特別關注某個事實或細節」。",
+        "note-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-07"
     },
@@ -765,11 +685,8 @@ export default {
       "masked": "Please ____ the change in date.",
       "options": [
         "note-mcq-07",
-        "note-mcq-06",
-        "note-mcq-08",
-        "note-mcq-05",
-        "note-mcq-09",
-        "note-mcq-04"
+        "note-mcq-13",
+        "note-mcq-06"
       ],
       "explanation": "本句的「note」指「注意到、留意或特別關注某個事實或細節」。",
       "sentenceIndex": 14,
@@ -778,12 +695,9 @@ export default {
         "note"
       ],
       "optionReasons": {
-        "note-mcq-07": "本句指「注意到、留意或特別關注某個事實或細節」。",
-        "note-mcq-06": "「由銀行或政府發行、具有指定面值的紙幣」是「note = money/banknote（鈔票）」的用法，與本句語境不同。",
-        "note-mcq-08": "「把某個事實正式寫下、指出或記錄在文件／討論中」是「note = mention / record something formally（動詞）」的用法，與本句語境不同。",
-        "note-mcq-05": "「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」是「note = quality/tone in a voice, smell, taste, etc.（特徵／調子）」的用法，與本句語境不同。",
-        "note-mcq-09": "「值得注意、具有重要性或相當有名的」是「of note / noteworthy（值得注意）」的用法，與本句語境不同。",
-        "note-mcq-04": "「音樂中具有特定音高的一個聲音，亦可指代表該聲音的音符」是「note = particular sound in music（音樂）」的用法，與本句語境不同。"
+        "note-mcq-07": "本句的「note」指「注意到、留意或特別關注某個事實或細節」。",
+        "note-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-07"
     },
@@ -795,11 +709,9 @@ export default {
       "masked": "The report ____ several weaknesses in the system.",
       "options": [
         "note-mcq-08",
-        "note-mcq-07",
-        "note-mcq-09",
-        "note-mcq-06",
-        "note-mcq-10",
-        "note-mcq-05"
+        "note-mcq-11",
+        "note-mcq-05",
+        "note-mcq-06"
       ],
       "explanation": "本句的「notes」指「把某個事實正式寫下、指出或記錄在文件／討論中」。",
       "sentenceIndex": 15,
@@ -808,12 +720,10 @@ export default {
         "notes"
       ],
       "optionReasons": {
-        "note-mcq-08": "本句指「把某個事實正式寫下、指出或記錄在文件／討論中」。",
-        "note-mcq-07": "「注意到、留意或特別關注某個事實或細節」是「note = observe / notice something（動詞）」的用法，與本句語境不同。",
-        "note-mcq-09": "「值得注意、具有重要性或相當有名的」是「of note / noteworthy（值得注意）」的用法，與本句語境不同。",
-        "note-mcq-06": "「由銀行或政府發行、具有指定面值的紙幣」是「note = money/banknote（鈔票）」的用法，與本句語境不同。",
-        "note-mcq-10": "「因重要、明顯、出色或不尋常而值得注意的」是「Related form: notable」的用法，與本句語境不同。",
-        "note-mcq-05": "「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」是「note = quality/tone in a voice, smell, taste, etc.（特徵／調子）」的用法，與本句語境不同。"
+        "note-mcq-08": "本句的「notes」指「把某個事實正式寫下、指出或記錄在文件／討論中」。",
+        "note-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-08"
     },
@@ -825,11 +735,9 @@ export default {
       "masked": "The form ____ that identification is required.",
       "options": [
         "note-mcq-08",
-        "note-mcq-07",
-        "note-mcq-09",
-        "note-mcq-06",
-        "note-mcq-10",
-        "note-mcq-05"
+        "note-mcq-05",
+        "note-mcq-15",
+        "note-mcq-06"
       ],
       "explanation": "本句的「notes」指「把某個事實正式寫下、指出或記錄在文件／討論中」。",
       "sentenceIndex": 16,
@@ -838,12 +746,10 @@ export default {
         "notes"
       ],
       "optionReasons": {
-        "note-mcq-08": "本句指「把某個事實正式寫下、指出或記錄在文件／討論中」。",
-        "note-mcq-07": "「注意到、留意或特別關注某個事實或細節」是「note = observe / notice something（動詞）」的用法，與本句語境不同。",
-        "note-mcq-09": "「值得注意、具有重要性或相當有名的」是「of note / noteworthy（值得注意）」的用法，與本句語境不同。",
-        "note-mcq-06": "「由銀行或政府發行、具有指定面值的紙幣」是「note = money/banknote（鈔票）」的用法，與本句語境不同。",
-        "note-mcq-10": "「因重要、明顯、出色或不尋常而值得注意的」是「Related form: notable」的用法，與本句語境不同。",
-        "note-mcq-05": "「在聲音、氣味、味道、情緒或風格中可察覺的一種特定成分或特色」是「note = quality/tone in a voice, smell, taste, etc.（特徵／調子）」的用法，與本句語境不同。"
+        "note-mcq-08": "本句的「notes」指「把某個事實正式寫下、指出或記錄在文件／討論中」。",
+        "note-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-08"
     },
@@ -855,11 +761,8 @@ export default {
       "masked": "Nothing of particular ____ happened.",
       "options": [
         "note-mcq-09",
-        "note-mcq-08",
-        "note-mcq-10",
-        "note-mcq-07",
-        "note-mcq-11",
-        "note-mcq-06"
+        "note-mcq-05",
+        "note-mcq-08"
       ],
       "explanation": "本句的「note」指「值得注意、具有重要性或相當有名的」。",
       "sentenceIndex": 17,
@@ -868,12 +771,9 @@ export default {
         "note"
       ],
       "optionReasons": {
-        "note-mcq-09": "本句指「值得注意、具有重要性或相當有名的」。",
-        "note-mcq-08": "「把某個事實正式寫下、指出或記錄在文件／討論中」是「note = mention / record something formally（動詞）」的用法，與本句語境不同。",
-        "note-mcq-10": "「因重要、明顯、出色或不尋常而值得注意的」是「Related form: notable」的用法，與本句語境不同。",
-        "note-mcq-07": "「注意到、留意或特別關注某個事實或細節」是「note = observe / notice something（動詞）」的用法，與本句語境不同。",
-        "note-mcq-11": "「表示尤其值得注意地；特別是」是「Related form: notably」的用法，與本句語境不同。",
-        "note-mcq-06": "「由銀行或政府發行、具有指定面值的紙幣」是「note = money/banknote（鈔票）」的用法，與本句語境不同。"
+        "note-mcq-09": "本句的「note」指「值得注意、具有重要性或相當有名的」。",
+        "note-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-09"
     },
@@ -886,10 +786,7 @@ export default {
       "options": [
         "note-mcq-09",
         "note-mcq-08",
-        "note-mcq-10",
-        "note-mcq-07",
-        "note-mcq-11",
-        "note-mcq-06"
+        "note-mcq-05"
       ],
       "explanation": "本句的「note」指「值得注意、具有重要性或相當有名的」。",
       "sentenceIndex": 18,
@@ -898,12 +795,9 @@ export default {
         "note"
       ],
       "optionReasons": {
-        "note-mcq-09": "本句指「值得注意、具有重要性或相當有名的」。",
-        "note-mcq-08": "「把某個事實正式寫下、指出或記錄在文件／討論中」是「note = mention / record something formally（動詞）」的用法，與本句語境不同。",
-        "note-mcq-10": "「因重要、明顯、出色或不尋常而值得注意的」是「Related form: notable」的用法，與本句語境不同。",
-        "note-mcq-07": "「注意到、留意或特別關注某個事實或細節」是「note = observe / notice something（動詞）」的用法，與本句語境不同。",
-        "note-mcq-11": "「表示尤其值得注意地；特別是」是「Related form: notably」的用法，與本句語境不同。",
-        "note-mcq-06": "「由銀行或政府發行、具有指定面值的紙幣」是「note = money/banknote（鈔票）」的用法，與本句語境不同。"
+        "note-mcq-09": "本句的「note」指「值得注意、具有重要性或相當有名的」。",
+        "note-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-09"
     },
@@ -915,11 +809,8 @@ export default {
       "masked": "There was a ____ improvement in his work.",
       "options": [
         "note-mcq-10",
-        "note-mcq-09",
-        "note-mcq-11",
-        "note-mcq-08",
-        "note-mcq-12",
-        "note-mcq-07"
+        "note-mcq-04",
+        "note-mcq-02"
       ],
       "explanation": "本句的「notable」指「因重要、明顯、出色或不尋常而值得注意的」。",
       "sentenceIndex": 19,
@@ -928,12 +819,9 @@ export default {
         "notable"
       ],
       "optionReasons": {
-        "note-mcq-10": "本句指「因重要、明顯、出色或不尋常而值得注意的」。",
-        "note-mcq-09": "「值得注意、具有重要性或相當有名的」是「of note / noteworthy（值得注意）」的用法，與本句語境不同。",
-        "note-mcq-11": "「表示尤其值得注意地；特別是」是「Related form: notably」的用法，與本句語境不同。",
-        "note-mcq-08": "「把某個事實正式寫下、指出或記錄在文件／討論中」是「note = mention / record something formally（動詞）」的用法，與本句語境不同。",
-        "note-mcq-12": "「用一套固定符號來表示音樂、數學、科學等資訊的方法／系統」是「Related form: notation」的用法，與本句語境不同。",
-        "note-mcq-07": "「注意到、留意或特別關注某個事實或細節」是「note = observe / notice something（動詞）」的用法，與本句語境不同。"
+        "note-mcq-10": "本句的「notable」指「因重要、明顯、出色或不尋常而值得注意的」。",
+        "note-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-10"
     },
@@ -945,11 +833,8 @@ export default {
       "masked": "The city is known for several ____ buildings.",
       "options": [
         "note-mcq-10",
-        "note-mcq-09",
-        "note-mcq-11",
-        "note-mcq-08",
-        "note-mcq-12",
-        "note-mcq-07"
+        "note-mcq-14",
+        "note-mcq-04"
       ],
       "explanation": "本句的「notable」指「因重要、明顯、出色或不尋常而值得注意的」。",
       "sentenceIndex": 20,
@@ -958,12 +843,9 @@ export default {
         "notable"
       ],
       "optionReasons": {
-        "note-mcq-10": "本句指「因重要、明顯、出色或不尋常而值得注意的」。",
-        "note-mcq-09": "「值得注意、具有重要性或相當有名的」是「of note / noteworthy（值得注意）」的用法，與本句語境不同。",
-        "note-mcq-11": "「表示尤其值得注意地；特別是」是「Related form: notably」的用法，與本句語境不同。",
-        "note-mcq-08": "「把某個事實正式寫下、指出或記錄在文件／討論中」是「note = mention / record something formally（動詞）」的用法，與本句語境不同。",
-        "note-mcq-12": "「用一套固定符號來表示音樂、數學、科學等資訊的方法／系統」是「Related form: notation」的用法，與本句語境不同。",
-        "note-mcq-07": "「注意到、留意或特別關注某個事實或細節」是「note = observe / notice something（動詞）」的用法，與本句語境不同。"
+        "note-mcq-10": "本句的「notable」指「因重要、明顯、出色或不尋常而值得注意的」。",
+        "note-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-10"
     },
@@ -975,11 +857,9 @@ export default {
       "masked": "Several areas improved, most ____ reading.",
       "options": [
         "note-mcq-11",
-        "note-mcq-10",
-        "note-mcq-12",
-        "note-mcq-09",
-        "note-mcq-13",
-        "note-mcq-08"
+        "note-mcq-14",
+        "note-mcq-05",
+        "note-mcq-06"
       ],
       "explanation": "本句的「notably」指「表示尤其值得注意地；特別是」。",
       "sentenceIndex": 21,
@@ -988,12 +868,10 @@ export default {
         "notably"
       ],
       "optionReasons": {
-        "note-mcq-11": "本句指「表示尤其值得注意地；特別是」。",
-        "note-mcq-10": "「因重要、明顯、出色或不尋常而值得注意的」是「Related form: notable」的用法，與本句語境不同。",
-        "note-mcq-12": "「用一套固定符號來表示音樂、數學、科學等資訊的方法／系統」是「Related form: notation」的用法，與本句語境不同。",
-        "note-mcq-09": "「值得注意、具有重要性或相當有名的」是「of note / noteworthy（值得注意）」的用法，與本句語境不同。",
-        "note-mcq-13": "「表示把重要資料或重點寫下來」是「Useful expression: take notes — 做筆記」的用法，與本句語境不同。",
-        "note-mcq-08": "「把某個事實正式寫下、指出或記錄在文件／討論中」是「note = mention / record something formally（動詞）」的用法，與本句語境不同。"
+        "note-mcq-11": "本句的「notably」指「表示尤其值得注意地；特別是」。",
+        "note-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-11"
     },
@@ -1005,10 +883,6 @@ export default {
       "masked": "Students learned basic musical ____.",
       "options": [
         "note-mcq-12",
-        "note-mcq-11",
-        "note-mcq-13",
-        "note-mcq-10",
-        "note-mcq-14",
         "note-mcq-09"
       ],
       "explanation": "本句的「notation」指「用一套固定符號來表示音樂、數學、科學等資訊的方法／系統」。",
@@ -1018,12 +892,8 @@ export default {
         "notation"
       ],
       "optionReasons": {
-        "note-mcq-12": "本句指「用一套固定符號來表示音樂、數學、科學等資訊的方法／系統」。",
-        "note-mcq-11": "「表示尤其值得注意地；特別是」是「Related form: notably」的用法，與本句語境不同。",
-        "note-mcq-13": "「表示把重要資料或重點寫下來」是「Useful expression: take notes — 做筆記」的用法，與本句語境不同。",
-        "note-mcq-10": "「因重要、明顯、出色或不尋常而值得注意的」是「Related form: notable」的用法，與本句語境不同。",
-        "note-mcq-14": "「把某項資料簡短寫下以免忘記」是「Useful expression: make a note of something — 記下」的用法，與本句語境不同。",
-        "note-mcq-09": "「值得注意、具有重要性或相當有名的」是「of note / noteworthy（值得注意）」的用法，與本句語境不同。"
+        "note-mcq-12": "本句的「notation」指「用一套固定符號來表示音樂、數學、科學等資訊的方法／系統」。",
+        "note-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-12"
     },
@@ -1035,11 +905,8 @@ export default {
       "masked": "The formula is written in scientific ____.",
       "options": [
         "note-mcq-12",
-        "note-mcq-11",
-        "note-mcq-13",
-        "note-mcq-10",
-        "note-mcq-14",
-        "note-mcq-09"
+        "note-mcq-15",
+        "note-mcq-06"
       ],
       "explanation": "本句的「notation」指「用一套固定符號來表示音樂、數學、科學等資訊的方法／系統」。",
       "sentenceIndex": 23,
@@ -1048,12 +915,9 @@ export default {
         "notation"
       ],
       "optionReasons": {
-        "note-mcq-12": "本句指「用一套固定符號來表示音樂、數學、科學等資訊的方法／系統」。",
-        "note-mcq-11": "「表示尤其值得注意地；特別是」是「Related form: notably」的用法，與本句語境不同。",
-        "note-mcq-13": "「表示把重要資料或重點寫下來」是「Useful expression: take notes — 做筆記」的用法，與本句語境不同。",
-        "note-mcq-10": "「因重要、明顯、出色或不尋常而值得注意的」是「Related form: notable」的用法，與本句語境不同。",
-        "note-mcq-14": "「把某項資料簡短寫下以免忘記」是「Useful expression: make a note of something — 記下」的用法，與本句語境不同。",
-        "note-mcq-09": "「值得注意、具有重要性或相當有名的」是「of note / noteworthy（值得注意）」的用法，與本句語境不同。"
+        "note-mcq-12": "本句的「notation」指「用一套固定符號來表示音樂、數學、科學等資訊的方法／系統」。",
+        "note-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-12"
     },
@@ -1065,11 +929,8 @@ export default {
       "masked": "Students should ____ during the lesson.",
       "options": [
         "note-mcq-13",
-        "note-mcq-12",
-        "note-mcq-14",
-        "note-mcq-11",
         "note-mcq-15",
-        "note-mcq-10"
+        "note-mcq-04"
       ],
       "explanation": "本句的「take notes」指「表示把重要資料或重點寫下來」。",
       "sentenceIndex": 24,
@@ -1078,12 +939,9 @@ export default {
         "take notes"
       ],
       "optionReasons": {
-        "note-mcq-13": "本句指「表示把重要資料或重點寫下來」。",
-        "note-mcq-12": "「用一套固定符號來表示音樂、數學、科學等資訊的方法／系統」是「Related form: notation」的用法，與本句語境不同。",
-        "note-mcq-14": "「把某項資料簡短寫下以免忘記」是「Useful expression: make a note of something — 記下」的用法，與本句語境不同。",
-        "note-mcq-11": "「表示尤其值得注意地；特別是」是「Related form: notably」的用法，與本句語境不同。",
-        "note-mcq-15": "「表示請注意」是「Useful expression: please note — 請注意」的用法，與本句語境不同。",
-        "note-mcq-10": "「因重要、明顯、出色或不尋常而值得注意的」是「Related form: notable」的用法，與本句語境不同。"
+        "note-mcq-13": "本句的「take notes」指「表示把重要資料或重點寫下來」。",
+        "note-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-13"
     },
@@ -1095,11 +953,8 @@ export default {
       "masked": "I took detailed ____ during the meeting.",
       "options": [
         "note-mcq-13",
-        "note-mcq-12",
-        "note-mcq-14",
         "note-mcq-11",
-        "note-mcq-15",
-        "note-mcq-10"
+        "note-mcq-04"
       ],
       "explanation": "本句的「notes」指「表示把重要資料或重點寫下來」。",
       "sentenceIndex": 25,
@@ -1108,12 +963,9 @@ export default {
         "notes"
       ],
       "optionReasons": {
-        "note-mcq-13": "本句指「表示把重要資料或重點寫下來」。",
-        "note-mcq-12": "「用一套固定符號來表示音樂、數學、科學等資訊的方法／系統」是「Related form: notation」的用法，與本句語境不同。",
-        "note-mcq-14": "「把某項資料簡短寫下以免忘記」是「Useful expression: make a note of something — 記下」的用法，與本句語境不同。",
-        "note-mcq-11": "「表示尤其值得注意地；特別是」是「Related form: notably」的用法，與本句語境不同。",
-        "note-mcq-15": "「表示請注意」是「Useful expression: please note — 請注意」的用法，與本句語境不同。",
-        "note-mcq-10": "「因重要、明顯、出色或不尋常而值得注意的」是「Related form: notable」的用法，與本句語境不同。"
+        "note-mcq-13": "本句的「notes」指「表示把重要資料或重點寫下來」。",
+        "note-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-13"
     },
@@ -1125,11 +977,9 @@ export default {
       "masked": "Make a ____ of the address.",
       "options": [
         "note-mcq-14",
-        "note-mcq-13",
+        "note-mcq-05",
         "note-mcq-15",
-        "note-mcq-12",
-        "note-mcq-11",
-        "note-mcq-10"
+        "note-mcq-06"
       ],
       "explanation": "本句的「note」指「把某項資料簡短寫下以免忘記」。",
       "sentenceIndex": 26,
@@ -1138,12 +988,10 @@ export default {
         "note"
       ],
       "optionReasons": {
-        "note-mcq-14": "本句指「把某項資料簡短寫下以免忘記」。",
-        "note-mcq-13": "「表示把重要資料或重點寫下來」是「Useful expression: take notes — 做筆記」的用法，與本句語境不同。",
-        "note-mcq-15": "「表示請注意」是「Useful expression: please note — 請注意」的用法，與本句語境不同。",
-        "note-mcq-12": "「用一套固定符號來表示音樂、數學、科學等資訊的方法／系統」是「Related form: notation」的用法，與本句語境不同。",
-        "note-mcq-11": "「表示尤其值得注意地；特別是」是「Related form: notably」的用法，與本句語境不同。",
-        "note-mcq-10": "「因重要、明顯、出色或不尋常而值得注意的」是「Related form: notable」的用法，與本句語境不同。"
+        "note-mcq-14": "本句的「note」指「把某項資料簡短寫下以免忘記」。",
+        "note-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-14"
     },
@@ -1155,11 +1003,9 @@ export default {
       "masked": "I made a ____ of her phone number.",
       "options": [
         "note-mcq-14",
-        "note-mcq-13",
-        "note-mcq-15",
-        "note-mcq-12",
-        "note-mcq-11",
-        "note-mcq-10"
+        "note-mcq-10",
+        "note-mcq-06",
+        "note-mcq-05"
       ],
       "explanation": "本句的「note」指「把某項資料簡短寫下以免忘記」。",
       "sentenceIndex": 27,
@@ -1168,12 +1014,10 @@ export default {
         "note"
       ],
       "optionReasons": {
-        "note-mcq-14": "本句指「把某項資料簡短寫下以免忘記」。",
-        "note-mcq-13": "「表示把重要資料或重點寫下來」是「Useful expression: take notes — 做筆記」的用法，與本句語境不同。",
-        "note-mcq-15": "「表示請注意」是「Useful expression: please note — 請注意」的用法，與本句語境不同。",
-        "note-mcq-12": "「用一套固定符號來表示音樂、數學、科學等資訊的方法／系統」是「Related form: notation」的用法，與本句語境不同。",
-        "note-mcq-11": "「表示尤其值得注意地；特別是」是「Related form: notably」的用法，與本句語境不同。",
-        "note-mcq-10": "「因重要、明顯、出色或不尋常而值得注意的」是「Related form: notable」的用法，與本句語境不同。"
+        "note-mcq-14": "本句的「note」指「把某項資料簡短寫下以免忘記」。",
+        "note-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-14"
     },
@@ -1185,11 +1029,9 @@ export default {
       "masked": "Please ____ that the office closes at five.",
       "options": [
         "note-mcq-15",
-        "note-mcq-14",
-        "note-mcq-13",
-        "note-mcq-12",
-        "note-mcq-11",
-        "note-mcq-10"
+        "note-mcq-05",
+        "note-mcq-06",
+        "note-mcq-14"
       ],
       "explanation": "本句的「note」指「表示請注意」。",
       "sentenceIndex": 28,
@@ -1198,12 +1040,10 @@ export default {
         "note"
       ],
       "optionReasons": {
-        "note-mcq-15": "本句指「表示請注意」。",
-        "note-mcq-14": "「把某項資料簡短寫下以免忘記」是「Useful expression: make a note of something — 記下」的用法，與本句語境不同。",
-        "note-mcq-13": "「表示把重要資料或重點寫下來」是「Useful expression: take notes — 做筆記」的用法，與本句語境不同。",
-        "note-mcq-12": "「用一套固定符號來表示音樂、數學、科學等資訊的方法／系統」是「Related form: notation」的用法，與本句語境不同。",
-        "note-mcq-11": "「表示尤其值得注意地；特別是」是「Related form: notably」的用法，與本句語境不同。",
-        "note-mcq-10": "「因重要、明顯、出色或不尋常而值得注意的」是「Related form: notable」的用法，與本句語境不同。"
+        "note-mcq-15": "本句的「note」指「表示請注意」。",
+        "note-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-15"
     },
@@ -1215,11 +1055,9 @@ export default {
       "masked": "Please ____ the following changes.",
       "options": [
         "note-mcq-15",
-        "note-mcq-14",
-        "note-mcq-13",
-        "note-mcq-12",
-        "note-mcq-11",
-        "note-mcq-10"
+        "note-mcq-03",
+        "note-mcq-06",
+        "note-mcq-05"
       ],
       "explanation": "本句的「note」指「表示請注意」。",
       "sentenceIndex": 29,
@@ -1228,12 +1066,10 @@ export default {
         "note"
       ],
       "optionReasons": {
-        "note-mcq-15": "本句指「表示請注意」。",
-        "note-mcq-14": "「把某項資料簡短寫下以免忘記」是「Useful expression: make a note of something — 記下」的用法，與本句語境不同。",
-        "note-mcq-13": "「表示把重要資料或重點寫下來」是「Useful expression: take notes — 做筆記」的用法，與本句語境不同。",
-        "note-mcq-12": "「用一套固定符號來表示音樂、數學、科學等資訊的方法／系統」是「Related form: notation」的用法，與本句語境不同。",
-        "note-mcq-11": "「表示尤其值得注意地；特別是」是「Related form: notably」的用法，與本句語境不同。",
-        "note-mcq-10": "「因重要、明顯、出色或不尋常而值得注意的」是「Related form: notable」的用法，與本句語境不同。"
+        "note-mcq-15": "本句的「note」指「表示請注意」。",
+        "note-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "note-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "note-mcq-15"
     }
@@ -1245,5 +1081,7 @@ export default {
     "sha256": "8d540df9b760f134e02fcc85b5e0b48c692dc45d29317dd95fb3e493301814b3",
     "pages": 13
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

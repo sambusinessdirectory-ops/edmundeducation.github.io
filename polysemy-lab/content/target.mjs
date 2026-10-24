@@ -358,18 +358,8 @@ export default {
       "note": "來源詞義：被特別挑選作攻擊、批評、欺詐等的對象",
       "examples": [
         [
-          "The arrow hit the target.",
-          "箭射中了靶。",
-          "被特別挑選作攻擊、批評、欺詐等的對象"
-        ],
-        [
           "The building became a target.",
           "該建築成為攻擊目標。",
-          "被特別挑選作攻擊、批評、欺詐等的對象"
-        ],
-        [
-          "The telescope moved to the next target.",
-          "望遠鏡轉向下一個觀測目標。",
           "被特別挑選作攻擊、批評、欺詐等的對象"
         ]
       ],
@@ -972,6 +962,40 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "target-reviewed-ea4363a0d7",
+      "title": "靶；目標物",
+      "form": "target · source section 47",
+      "en": "靶；目標物",
+      "zh": "靶；目標物",
+      "note": "對照原始教材第 47 節及例句核實。",
+      "examples": [
+        [
+          "The arrow hit the target.",
+          "箭射中了靶。",
+          "靶；目標物"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "target-reviewed-123288c62a",
+      "title": "天文觀測目標",
+      "form": "target · source section 107",
+      "en": "天文觀測目標",
+      "zh": "天文觀測目標",
+      "note": "對照原始教材第 107 節及例句核實。",
+      "examples": [
+        [
+          "The telescope moved to the next target.",
+          "望遠鏡轉向下一個觀測目標。",
+          "天文觀測目標"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -983,11 +1007,8 @@ export default {
       "masked": "Our ____ is to save $50,000.",
       "options": [
         "target-mcq-01",
-        "target-mcq-02",
-        "target-mcq-03",
-        "target-mcq-04",
-        "target-mcq-05",
-        "target-mcq-06"
+        "target-mcq-27",
+        "target-mcq-39"
       ],
       "explanation": "本句的「target」指「具體、通常可量度的預定成果／目標」。",
       "sentenceIndex": 0,
@@ -996,12 +1017,9 @@ export default {
         "target"
       ],
       "optionReasons": {
-        "target-mcq-01": "本句指「具體、通常可量度的預定成果／目標」。",
-        "target-mcq-02": "「訂立一個明確目標」與本句語境不同。",
-        "target-mcq-03": "「達到／實現目標」與本句語境不同。",
-        "target-mcq-04": "「成功達標」與本句語境不同。",
-        "target-mcq-05": "「表現超越原定目標」與本句語境不同。",
-        "target-mcq-06": "「未達到原定目標」與本句語境不同。"
+        "target-mcq-01": "本句的「target」指「具體、通常可量度的預定成果／目標」。",
+        "target-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "target-mcq-01"
     },
@@ -1013,11 +1031,9 @@ export default {
       "masked": "Set a realistic savings ____.",
       "options": [
         "target-mcq-02",
-        "target-mcq-01",
-        "target-mcq-03",
-        "target-mcq-04",
-        "target-mcq-05",
-        "target-mcq-06"
+        "target-mcq-27",
+        "target-mcq-40",
+        "target-mcq-14"
       ],
       "explanation": "本句的「target」指「訂立一個明確目標」。",
       "sentenceIndex": 1,
@@ -1026,12 +1042,10 @@ export default {
         "target"
       ],
       "optionReasons": {
-        "target-mcq-02": "本句指「訂立一個明確目標」。",
-        "target-mcq-01": "「具體、通常可量度的預定成果／目標」與本句語境不同。",
-        "target-mcq-03": "「達到／實現目標」與本句語境不同。",
-        "target-mcq-04": "「成功達標」與本句語境不同。",
-        "target-mcq-05": "「表現超越原定目標」與本句語境不同。",
-        "target-mcq-06": "「未達到原定目標」與本句語境不同。"
+        "target-mcq-02": "本句的「target」指「訂立一個明確目標」。",
+        "target-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "target-mcq-02"
     },
@@ -1043,11 +1057,9 @@ export default {
       "masked": "The café met its monthly sales ____.",
       "options": [
         "target-mcq-03",
-        "target-mcq-02",
-        "target-mcq-04",
-        "target-mcq-01",
-        "target-mcq-05",
-        "target-mcq-06"
+        "target-mcq-39",
+        "target-mcq-29",
+        "target-mcq-14"
       ],
       "explanation": "本句的「target」指「達到／實現目標」。",
       "sentenceIndex": 3,
@@ -1056,12 +1068,10 @@ export default {
         "target"
       ],
       "optionReasons": {
-        "target-mcq-03": "本句指「達到／實現目標」。",
-        "target-mcq-02": "「訂立一個明確目標」與本句語境不同。",
-        "target-mcq-04": "「成功達標」與本句語境不同。",
-        "target-mcq-01": "「具體、通常可量度的預定成果／目標」與本句語境不同。",
-        "target-mcq-05": "「表現超越原定目標」與本句語境不同。",
-        "target-mcq-06": "「未達到原定目標」與本句語境不同。"
+        "target-mcq-03": "本句的「target」指「達到／實現目標」。",
+        "target-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "target-mcq-03"
     },
@@ -1073,11 +1083,9 @@ export default {
       "masked": "We hit our revenue ____.",
       "options": [
         "target-mcq-04",
-        "target-mcq-03",
-        "target-mcq-05",
-        "target-mcq-02",
-        "target-mcq-06",
-        "target-mcq-01"
+        "target-mcq-31",
+        "target-mcq-39",
+        "target-mcq-14"
       ],
       "explanation": "本句的「target」指「成功達標」。",
       "sentenceIndex": 4,
@@ -1086,12 +1094,10 @@ export default {
         "target"
       ],
       "optionReasons": {
-        "target-mcq-04": "本句指「成功達標」。",
-        "target-mcq-03": "「達到／實現目標」與本句語境不同。",
-        "target-mcq-05": "「表現超越原定目標」與本句語境不同。",
-        "target-mcq-02": "「訂立一個明確目標」與本句語境不同。",
-        "target-mcq-06": "「未達到原定目標」與本句語境不同。",
-        "target-mcq-01": "「具體、通常可量度的預定成果／目標」與本句語境不同。"
+        "target-mcq-04": "本句的「target」指「成功達標」。",
+        "target-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "target-mcq-04"
     },
@@ -1103,11 +1109,9 @@ export default {
       "masked": "Savings reached the ____.",
       "options": [
         "target-mcq-03",
-        "target-mcq-02",
-        "target-mcq-04",
-        "target-mcq-01",
-        "target-mcq-05",
-        "target-mcq-06"
+        "target-mcq-31",
+        "target-mcq-14",
+        "target-mcq-39"
       ],
       "explanation": "本句的「target」指「達到／實現目標」。",
       "sentenceIndex": 5,
@@ -1116,12 +1120,10 @@ export default {
         "target"
       ],
       "optionReasons": {
-        "target-mcq-03": "本句指「達到／實現目標」。",
-        "target-mcq-02": "「訂立一個明確目標」與本句語境不同。",
-        "target-mcq-04": "「成功達標」與本句語境不同。",
-        "target-mcq-01": "「具體、通常可量度的預定成果／目標」與本句語境不同。",
-        "target-mcq-05": "「表現超越原定目標」與本句語境不同。",
-        "target-mcq-06": "「未達到原定目標」與本句語境不同。"
+        "target-mcq-03": "本句的「target」指「達到／實現目標」。",
+        "target-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "target-mcq-03"
     },
@@ -1133,11 +1135,9 @@ export default {
       "masked": "The company achieved its production ____.",
       "options": [
         "target-mcq-03",
-        "target-mcq-02",
-        "target-mcq-04",
-        "target-mcq-01",
-        "target-mcq-05",
-        "target-mcq-06"
+        "target-mcq-40",
+        "target-mcq-27",
+        "target-mcq-14"
       ],
       "explanation": "本句的「target」指「達到／實現目標」。",
       "sentenceIndex": 6,
@@ -1146,12 +1146,10 @@ export default {
         "target"
       ],
       "optionReasons": {
-        "target-mcq-03": "本句指「達到／實現目標」。",
-        "target-mcq-02": "「訂立一個明確目標」與本句語境不同。",
-        "target-mcq-04": "「成功達標」與本句語境不同。",
-        "target-mcq-01": "「具體、通常可量度的預定成果／目標」與本句語境不同。",
-        "target-mcq-05": "「表現超越原定目標」與本句語境不同。",
-        "target-mcq-06": "「未達到原定目標」與本句語境不同。"
+        "target-mcq-03": "本句的「target」指「達到／實現目標」。",
+        "target-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "target-mcq-03"
     },
@@ -1163,11 +1161,9 @@ export default {
       "masked": "We beat our quarterly ____.",
       "options": [
         "target-mcq-05",
-        "target-mcq-04",
-        "target-mcq-06",
-        "target-mcq-03",
-        "target-mcq-07",
-        "target-mcq-02"
+        "target-mcq-27",
+        "target-mcq-40",
+        "target-mcq-14"
       ],
       "explanation": "本句的「target」指「表現超越原定目標」。",
       "sentenceIndex": 8,
@@ -1176,12 +1172,10 @@ export default {
         "target"
       ],
       "optionReasons": {
-        "target-mcq-05": "本句指「表現超越原定目標」。",
-        "target-mcq-04": "「成功達標」與本句語境不同。",
-        "target-mcq-06": "「未達到原定目標」與本句語境不同。",
-        "target-mcq-03": "「達到／實現目標」與本句語境不同。",
-        "target-mcq-07": "「目前進度／表現符合達標要求」與本句語境不同。",
-        "target-mcq-02": "「訂立一個明確目標」與本句語境不同。"
+        "target-mcq-05": "本句的「target」指「表現超越原定目標」。",
+        "target-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "target-mcq-05"
     },
@@ -1193,11 +1187,9 @@ export default {
       "masked": "The firm missed its sales ____.",
       "options": [
         "target-mcq-06",
-        "target-mcq-05",
-        "target-mcq-07",
-        "target-mcq-04",
-        "target-mcq-08",
-        "target-mcq-03"
+        "target-mcq-31",
+        "target-mcq-40",
+        "target-mcq-14"
       ],
       "explanation": "本句的「target」指「未達到原定目標」。",
       "sentenceIndex": 9,
@@ -1206,12 +1198,10 @@ export default {
         "target"
       ],
       "optionReasons": {
-        "target-mcq-06": "本句指「未達到原定目標」。",
-        "target-mcq-05": "「表現超越原定目標」與本句語境不同。",
-        "target-mcq-07": "「目前進度／表現符合達標要求」與本句語境不同。",
-        "target-mcq-04": "「成功達標」與本句語境不同。",
-        "target-mcq-08": "「偏離預期／目標」與本句語境不同。",
-        "target-mcq-03": "「達到／實現目標」與本句語境不同。"
+        "target-mcq-06": "本句的「target」指「未達到原定目標」。",
+        "target-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "target-mcq-06"
     },
@@ -1223,11 +1213,9 @@ export default {
       "masked": "The forecast was badly off ____.",
       "options": [
         "target-mcq-08",
-        "target-mcq-07",
-        "target-mcq-09",
-        "target-mcq-06",
-        "target-mcq-10",
-        "target-mcq-05"
+        "target-mcq-39",
+        "target-mcq-31",
+        "target-mcq-04"
       ],
       "explanation": "本句的「target」指「偏離預期／目標」。",
       "sentenceIndex": 13,
@@ -1236,12 +1224,10 @@ export default {
         "target"
       ],
       "optionReasons": {
-        "target-mcq-08": "本句指「偏離預期／目標」。",
-        "target-mcq-07": "「目前進度／表現符合達標要求」與本句語境不同。",
-        "target-mcq-09": "「具有實際可達性的目標」與本句語境不同。",
-        "target-mcq-06": "「未達到原定目標」與本句語境不同。",
-        "target-mcq-10": "「刻意設定得非常具挑戰性的目標」與本句語境不同。",
-        "target-mcq-05": "「表現超越原定目標」與本句語境不同。"
+        "target-mcq-08": "本句的「target」指「偏離預期／目標」。",
+        "target-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "target-mcq-08"
     },
@@ -1253,11 +1239,9 @@ export default {
       "masked": "Our ____ date for opening is June.",
       "options": [
         "target-mcq-14",
-        "target-mcq-13",
-        "target-mcq-15",
-        "target-mcq-12",
-        "target-mcq-16",
-        "target-mcq-11"
+        "target-mcq-29",
+        "target-reviewed-123288c62a",
+        "target-mcq-39"
       ],
       "explanation": "本句的「target」指「希望事情完成／發生的預定日期」。",
       "sentenceIndex": 15,
@@ -1266,44 +1250,40 @@ export default {
         "target"
       ],
       "optionReasons": {
-        "target-mcq-14": "本句指「希望事情完成／發生的預定日期」。",
-        "target-mcq-13": "「預先訂立的績效成果」與本句語境不同。",
-        "target-mcq-15": "「希望達到的數值／水平」與本句語境不同。",
-        "target-mcq-12": "「希望儲到的指定金額」與本句語境不同。",
-        "target-mcq-16": "「希望維持在內的指定範圍」與本句語境不同。",
-        "target-mcq-11": "「銷售／收入／利潤目標」與本句語境不同。"
+        "target-mcq-14": "本句的「target」指「希望事情完成／發生的預定日期」。",
+        "target-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "target-reviewed-123288c62a": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "target-mcq-14"
     },
     {
       "id": "target-47-0",
-      "sense": "target-mcq-27",
+      "sense": "target-reviewed-ea4363a0d7",
       "en": "The arrow hit the target.",
       "zh": "箭射中了靶。",
       "masked": "The arrow hit the ____.",
       "options": [
-        "target-mcq-27",
-        "target-mcq-26",
-        "target-mcq-28",
-        "target-mcq-25",
-        "target-mcq-29",
-        "target-mcq-24"
+        "target-reviewed-ea4363a0d7",
+        "target-mcq-31",
+        "target-mcq-40",
+        "target-mcq-14"
       ],
-      "explanation": "本句的「target」指「被特別挑選作攻擊、批評、欺詐等的對象」。",
+      "explanation": "對照完整句子：「箭射中了靶。」。這裡的「target」表示「靶；目標物」。",
       "sentenceIndex": 16,
       "sourcePractice": 47,
       "targets": [
         "target"
       ],
       "optionReasons": {
-        "target-mcq-27": "本句指「被特別挑選作攻擊、批評、欺詐等的對象」。",
-        "target-mcq-26": "「對靶進行射擊／投擲練習」與本句語境不同。",
-        "target-mcq-28": "「首要／極有可能被選中的目標」與本句語境不同。",
-        "target-mcq-25": "「移動／固定的靶」與本句語境不同。",
-        "target-mcq-29": "「很容易遭攻擊、嘲笑、欺騙或批評的對象」與本句語境不同。",
-        "target-mcq-24": "「靶中央的靶心」與本句語境不同。"
+        "target-reviewed-ea4363a0d7": "對照完整句子：「箭射中了靶。」。這裡的「target」表示「靶；目標物」。",
+        "target-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "target-mcq-27"
+      "correctOption": "target-reviewed-ea4363a0d7",
+      "previousCorrectOption": "target-mcq-27",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "target-60-0",
@@ -1313,11 +1293,9 @@ export default {
       "masked": "The building became a ____.",
       "options": [
         "target-mcq-27",
-        "target-mcq-26",
-        "target-mcq-28",
-        "target-mcq-25",
-        "target-mcq-29",
-        "target-mcq-24"
+        "target-mcq-02",
+        "target-mcq-04",
+        "target-mcq-14"
       ],
       "explanation": "本句的「target」指「被特別挑選作攻擊、批評、欺詐等的對象」。",
       "sentenceIndex": 18,
@@ -1326,12 +1304,10 @@ export default {
         "target"
       ],
       "optionReasons": {
-        "target-mcq-27": "本句指「被特別挑選作攻擊、批評、欺詐等的對象」。",
-        "target-mcq-26": "「對靶進行射擊／投擲練習」與本句語境不同。",
-        "target-mcq-28": "「首要／極有可能被選中的目標」與本句語境不同。",
-        "target-mcq-25": "「移動／固定的靶」與本句語境不同。",
-        "target-mcq-29": "「很容易遭攻擊、嘲笑、欺騙或批評的對象」與本句語境不同。",
-        "target-mcq-24": "「靶中央的靶心」與本句語境不同。"
+        "target-mcq-27": "本句的「target」指「被特別挑選作攻擊、批評、欺詐等的對象」。",
+        "target-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "target-mcq-27"
     },
@@ -1343,11 +1319,9 @@ export default {
       "masked": "The expensive equipment is a prime ____ for thieves.",
       "options": [
         "target-mcq-28",
-        "target-mcq-27",
-        "target-mcq-29",
-        "target-mcq-26",
-        "target-mcq-30",
-        "target-mcq-25"
+        "target-mcq-31",
+        "target-mcq-14",
+        "target-mcq-40"
       ],
       "explanation": "本句的「target」指「首要／極有可能被選中的目標」。",
       "sentenceIndex": 19,
@@ -1356,12 +1330,10 @@ export default {
         "target"
       ],
       "optionReasons": {
-        "target-mcq-28": "本句指「首要／極有可能被選中的目標」。",
-        "target-mcq-27": "「被特別挑選作攻擊、批評、欺詐等的對象」與本句語境不同。",
-        "target-mcq-29": "「很容易遭攻擊、嘲笑、欺騙或批評的對象」與本句語境不同。",
-        "target-mcq-26": "「對靶進行射擊／投擲練習」與本句語境不同。",
-        "target-mcq-30": "「防護較弱／較難接近或攻擊的目標」與本句語境不同。",
-        "target-mcq-25": "「移動／固定的靶」與本句語境不同。"
+        "target-mcq-28": "本句的「target」指「首要／極有可能被選中的目標」。",
+        "target-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "target-mcq-28"
     },
@@ -1373,11 +1345,9 @@ export default {
       "masked": "New users can become easy ____ for scammers.",
       "options": [
         "target-mcq-29",
-        "target-mcq-28",
-        "target-mcq-30",
-        "target-mcq-27",
-        "target-mcq-31",
-        "target-mcq-26"
+        "target-mcq-05",
+        "target-mcq-40",
+        "target-mcq-14"
       ],
       "explanation": "本句的「targets」指「很容易遭攻擊、嘲笑、欺騙或批評的對象」。",
       "sentenceIndex": 20,
@@ -1386,12 +1356,10 @@ export default {
         "targets"
       ],
       "optionReasons": {
-        "target-mcq-29": "本句指「很容易遭攻擊、嘲笑、欺騙或批評的對象」。",
-        "target-mcq-28": "「首要／極有可能被選中的目標」與本句語境不同。",
-        "target-mcq-30": "「防護較弱／較難接近或攻擊的目標」與本句語境不同。",
-        "target-mcq-27": "「被特別挑選作攻擊、批評、欺詐等的對象」與本句語境不同。",
-        "target-mcq-31": "「批評／嘲笑的集中對象」與本句語境不同。",
-        "target-mcq-26": "「對靶進行射擊／投擲練習」與本句語境不同。"
+        "target-mcq-29": "本句的「targets」指「很容易遭攻擊、嘲笑、欺騙或批評的對象」。",
+        "target-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "target-mcq-29"
     },
@@ -1403,11 +1371,9 @@ export default {
       "masked": "The policy became the ____ of criticism.",
       "options": [
         "target-mcq-31",
-        "target-mcq-30",
-        "target-mcq-32",
-        "target-mcq-29",
+        "target-mcq-39",
         "target-mcq-33",
-        "target-mcq-28"
+        "target-mcq-14"
       ],
       "explanation": "本句的「target」指「批評／嘲笑的集中對象」。",
       "sentenceIndex": 21,
@@ -1416,12 +1382,10 @@ export default {
         "target"
       ],
       "optionReasons": {
-        "target-mcq-31": "本句指「批評／嘲笑的集中對象」。",
-        "target-mcq-30": "「防護較弱／較難接近或攻擊的目標」與本句語境不同。",
-        "target-mcq-32": "「令某人成為大家重點攻擊／批評的對象」與本句語境不同。",
-        "target-mcq-29": "「很容易遭攻擊、嘲笑、欺騙或批評的對象」與本句語境不同。",
-        "target-mcq-33": "「因要求／條件不停改變而難以達到的目標」與本句語境不同。",
-        "target-mcq-28": "「首要／極有可能被選中的目標」與本句語境不同。"
+        "target-mcq-31": "本句的「target」指「批評／嘲笑的集中對象」。",
+        "target-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "target-mcq-31"
     },
@@ -1433,11 +1397,9 @@ export default {
       "masked": "Customer expectations are a moving ____.",
       "options": [
         "target-mcq-33",
-        "target-mcq-32",
-        "target-mcq-34",
         "target-mcq-31",
-        "target-mcq-35",
-        "target-mcq-30"
+        "target-mcq-40",
+        "target-mcq-14"
       ],
       "explanation": "本句的「target」指「因要求／條件不停改變而難以達到的目標」。",
       "sentenceIndex": 23,
@@ -1446,12 +1408,10 @@ export default {
         "target"
       ],
       "optionReasons": {
-        "target-mcq-33": "本句指「因要求／條件不停改變而難以達到的目標」。",
-        "target-mcq-32": "「令某人成為大家重點攻擊／批評的對象」與本句語境不同。",
-        "target-mcq-34": "「企業特別選定希望服務／銷售的市場群體」與本句語境不同。",
-        "target-mcq-31": "「批評／嘲笑的集中對象」與本句語境不同。",
-        "target-mcq-35": "「訊息／媒體內容希望觸及的預定受眾」與本句語境不同。",
-        "target-mcq-30": "「防護較弱／較難接近或攻擊的目標」與本句語境不同。"
+        "target-mcq-33": "本句的「target」指「因要求／條件不停改變而難以達到的目標」。",
+        "target-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "target-mcq-33"
     },
@@ -1463,11 +1423,9 @@ export default {
       "masked": "The advertisement is ____ at students.",
       "options": [
         "target-mcq-39",
-        "target-mcq-38",
-        "target-mcq-40",
-        "target-mcq-37",
-        "target-mcq-41",
-        "target-mcq-36"
+        "target-mcq-29",
+        "target-reviewed-ea4363a0d7",
+        "target-mcq-14"
       ],
       "explanation": "本句的「targeted」指「把產品、廣告、訊息等專門面向 Y」。",
       "sentenceIndex": 27,
@@ -1476,12 +1434,10 @@ export default {
         "targeted"
       ],
       "optionReasons": {
-        "target-mcq-39": "本句指「把產品、廣告、訊息等專門面向 Y」。",
-        "target-mcq-38": "「刻意選擇某人／物作為行動對象」與本句語境不同。",
-        "target-mcq-40": "「專門為 X 設計／面向 X」與本句語境不同。",
-        "target-mcq-37": "「計劃、服務或研究所針對的群體／人口」與本句語境不同。",
-        "target-mcq-41": "「根據指定特徵向特定受眾投放的精準／定向廣告」與本句語境不同。",
-        "target-mcq-36": "「企業主要希望吸引的顧客類型」與本句語境不同。"
+        "target-mcq-39": "本句的「targeted」指「把產品、廣告、訊息等專門面向 Y」。",
+        "target-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "target-reviewed-ea4363a0d7": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "target-mcq-39"
     },
@@ -1493,11 +1449,9 @@ export default {
       "masked": "The course is ____ at beginners.",
       "options": [
         "target-mcq-40",
-        "target-mcq-39",
-        "target-mcq-41",
-        "target-mcq-38",
-        "target-mcq-42",
-        "target-mcq-37"
+        "target-mcq-31",
+        "target-mcq-08",
+        "target-mcq-04"
       ],
       "explanation": "本句的「targeted」指「專門為 X 設計／面向 X」。",
       "sentenceIndex": 28,
@@ -1506,44 +1460,40 @@ export default {
         "targeted"
       ],
       "optionReasons": {
-        "target-mcq-40": "本句指「專門為 X 設計／面向 X」。",
-        "target-mcq-39": "「把產品、廣告、訊息等專門面向 Y」與本句語境不同。",
-        "target-mcq-41": "「根據指定特徵向特定受眾投放的精準／定向廣告」與本句語境不同。",
-        "target-mcq-38": "「刻意選擇某人／物作為行動對象」與本句語境不同。",
-        "target-mcq-42": "「再次向曾經互動過的使用者投放廣告」與本句語境不同。",
-        "target-mcq-37": "「計劃、服務或研究所針對的群體／人口」與本句語境不同。"
+        "target-mcq-40": "本句的「targeted」指「專門為 X 設計／面向 X」。",
+        "target-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "target-mcq-40"
     },
     {
       "id": "target-107-0",
-      "sense": "target-mcq-27",
+      "sense": "target-reviewed-123288c62a",
       "en": "The telescope moved to the next target.",
       "zh": "望遠鏡轉向下一個觀測目標。",
       "masked": "The telescope moved to the next ____.",
       "options": [
+        "target-reviewed-123288c62a",
         "target-mcq-27",
-        "target-mcq-26",
-        "target-mcq-28",
-        "target-mcq-25",
-        "target-mcq-29",
-        "target-mcq-24"
+        "target-mcq-14",
+        "target-mcq-39"
       ],
-      "explanation": "本句的「target」指「被特別挑選作攻擊、批評、欺詐等的對象」。",
+      "explanation": "對照完整句子：「望遠鏡轉向下一個觀測目標。」。這裡的「target」表示「天文觀測目標」。",
       "sentenceIndex": 30,
       "sourcePractice": 107,
       "targets": [
         "target"
       ],
       "optionReasons": {
-        "target-mcq-27": "本句指「被特別挑選作攻擊、批評、欺詐等的對象」。",
-        "target-mcq-26": "「對靶進行射擊／投擲練習」與本句語境不同。",
-        "target-mcq-28": "「首要／極有可能被選中的目標」與本句語境不同。",
-        "target-mcq-25": "「移動／固定的靶」與本句語境不同。",
-        "target-mcq-29": "「很容易遭攻擊、嘲笑、欺騙或批評的對象」與本句語境不同。",
-        "target-mcq-24": "「靶中央的靶心」與本句語境不同。"
+        "target-reviewed-123288c62a": "對照完整句子：「望遠鏡轉向下一個觀測目標。」。這裡的「target」表示「天文觀測目標」。",
+        "target-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "target-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "target-mcq-27"
+      "correctOption": "target-reviewed-123288c62a",
+      "previousCorrectOption": "target-mcq-27",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     }
   ],
   "comparisons": [],
@@ -1553,5 +1503,7 @@ export default {
     "sha256": "3a6bebe5bf09bc6def963df3b4b44c673f824a7cfa634600149531b4ecd99a39",
     "pages": 60
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

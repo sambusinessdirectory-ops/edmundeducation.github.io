@@ -1005,11 +1005,9 @@ export default {
       "masked": "She does not ____ much.",
       "options": [
         "move-mcq-01",
-        "move-mcq-02",
-        "move-mcq-03",
-        "move-mcq-04",
-        "move-mcq-05",
-        "move-mcq-06"
+        "move-mcq-45",
+        "move-mcq-26",
+        "move-mcq-13"
       ],
       "explanation": "本句的「move」指「身體／物件由原來的位置改到另一個位置」。",
       "sentenceIndex": 0,
@@ -1018,12 +1016,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-01": "本句指「身體／物件由原來的位置改到另一個位置」。",
-        "move-mcq-02": "「令身體或身體某部分產生動作」是「move = make a bodily movement（活動身體）」的用法，與本句語境不同。",
-        "move-mcq-03": "「移動身體部位時，表示動；移動」是「move + body part（移動身體部位）」的用法，與本句語境不同。",
-        "move-mcq-04": "「人／群體由一個地方移到另一個地方」是「move = go from one place to another（前往；移動）」的用法，與本句語境不同。",
-        "move-mcq-05": "「使物件從原本位置移到另一位置」是「move something（移動某物）」的用法，與本句語境不同。",
-        "move-mcq-06": "「搬離原本住所，開始在另一個地方居住」是「move = change residence（搬家）」的用法，與本句語境不同。"
+        "move-mcq-01": "本句的「move」指「身體／物件由原來的位置改到另一個位置」。",
+        "move-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-01"
     },
@@ -1035,11 +1031,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "move-mcq-01",
-        "move-mcq-02",
-        "move-mcq-03",
-        "move-mcq-04",
-        "move-mcq-05",
-        "move-mcq-06"
+        "move-mcq-32",
+        "move-mcq-12",
+        "move-mcq-41"
       ],
       "explanation": "本句的「move」指「身體／物件由原來的位置改到另一個位置」。",
       "sentenceIndex": 1,
@@ -1048,12 +1042,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-01": "本句指「身體／物件由原來的位置改到另一個位置」。",
-        "move-mcq-02": "「令身體或身體某部分產生動作」是「move = make a bodily movement（活動身體）」的用法，與本句語境不同。",
-        "move-mcq-03": "「移動身體部位時，表示動；移動」是「move + body part（移動身體部位）」的用法，與本句語境不同。",
-        "move-mcq-04": "「人／群體由一個地方移到另一個地方」是「move = go from one place to another（前往；移動）」的用法，與本句語境不同。",
-        "move-mcq-05": "「使物件從原本位置移到另一位置」是「move something（移動某物）」的用法，與本句語境不同。",
-        "move-mcq-06": "「搬離原本住所，開始在另一個地方居住」是「move = change residence（搬家）」的用法，與本句語境不同。"
+        "move-mcq-01": "本句的「move」指「身體／物件由原來的位置改到另一個位置」。",
+        "move-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-01"
     },
@@ -1065,11 +1057,9 @@ export default {
       "masked": "He ____ closer to the window.",
       "options": [
         "move-mcq-01",
-        "move-mcq-02",
-        "move-mcq-03",
-        "move-mcq-04",
-        "move-mcq-05",
-        "move-mcq-06"
+        "move-mcq-24",
+        "move-mcq-12",
+        "move-mcq-16"
       ],
       "explanation": "本句的「moved」指「身體／物件由原來的位置改到另一個位置」。",
       "sentenceIndex": 2,
@@ -1078,12 +1068,10 @@ export default {
         "moved"
       ],
       "optionReasons": {
-        "move-mcq-01": "本句指「身體／物件由原來的位置改到另一個位置」。",
-        "move-mcq-02": "「令身體或身體某部分產生動作」是「move = make a bodily movement（活動身體）」的用法，與本句語境不同。",
-        "move-mcq-03": "「移動身體部位時，表示動；移動」是「move + body part（移動身體部位）」的用法，與本句語境不同。",
-        "move-mcq-04": "「人／群體由一個地方移到另一個地方」是「move = go from one place to another（前往；移動）」的用法，與本句語境不同。",
-        "move-mcq-05": "「使物件從原本位置移到另一位置」是「move something（移動某物）」的用法，與本句語境不同。",
-        "move-mcq-06": "「搬離原本住所，開始在另一個地方居住」是「move = change residence（搬家）」的用法，與本句語境不同。"
+        "move-mcq-01": "本句的「moved」指「身體／物件由原來的位置改到另一個位置」。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-01"
     },
@@ -1095,11 +1083,9 @@ export default {
       "masked": "She could barely ____ her arm.",
       "options": [
         "move-mcq-02",
-        "move-mcq-01",
-        "move-mcq-03",
-        "move-mcq-04",
-        "move-mcq-05",
-        "move-mcq-06"
+        "move-mcq-11",
+        "move-mcq-33",
+        "move-mcq-35"
       ],
       "explanation": "本句的「move」指「令身體或身體某部分產生動作」。",
       "sentenceIndex": 3,
@@ -1108,12 +1094,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-02": "本句指「令身體或身體某部分產生動作」。",
-        "move-mcq-01": "「身體／物件由原來的位置改到另一個位置」是「move = change physical position（移動）」的用法，與本句語境不同。",
-        "move-mcq-03": "「移動身體部位時，表示動；移動」是「move + body part（移動身體部位）」的用法，與本句語境不同。",
-        "move-mcq-04": "「人／群體由一個地方移到另一個地方」是「move = go from one place to another（前往；移動）」的用法，與本句語境不同。",
-        "move-mcq-05": "「使物件從原本位置移到另一位置」是「move something（移動某物）」的用法，與本句語境不同。",
-        "move-mcq-06": "「搬離原本住所，開始在另一個地方居住」是「move = change residence（搬家）」的用法，與本句語境不同。"
+        "move-mcq-02": "本句的「move」指「令身體或身體某部分產生動作」。",
+        "move-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-02"
     },
@@ -1125,10 +1109,8 @@ export default {
       "masked": "Try to ____ a little every hour.",
       "options": [
         "move-mcq-02",
-        "move-mcq-01",
-        "move-mcq-03",
-        "move-mcq-04",
-        "move-mcq-05",
+        "move-mcq-24",
+        "move-mcq-44",
         "move-mcq-06"
       ],
       "explanation": "本句的「move」指「令身體或身體某部分產生動作」。",
@@ -1138,12 +1120,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-02": "本句指「令身體或身體某部分產生動作」。",
-        "move-mcq-01": "「身體／物件由原來的位置改到另一個位置」是「move = change physical position（移動）」的用法，與本句語境不同。",
-        "move-mcq-03": "「移動身體部位時，表示動；移動」是「move + body part（移動身體部位）」的用法，與本句語境不同。",
-        "move-mcq-04": "「人／群體由一個地方移到另一個地方」是「move = go from one place to another（前往；移動）」的用法，與本句語境不同。",
-        "move-mcq-05": "「使物件從原本位置移到另一位置」是「move something（移動某物）」的用法，與本句語境不同。",
-        "move-mcq-06": "「搬離原本住所，開始在另一個地方居住」是「move = change residence（搬家）」的用法，與本句語境不同。"
+        "move-mcq-02": "本句的「move」指「令身體或身體某部分產生動作」。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-02"
     },
@@ -1155,11 +1135,9 @@ export default {
       "masked": "He ____ toward the cup.",
       "options": [
         "move-mcq-03",
-        "move-mcq-02",
-        "move-mcq-04",
-        "move-mcq-01",
-        "move-mcq-05",
-        "move-mcq-06"
+        "move-mcq-24",
+        "move-mcq-08",
+        "move-mcq-18"
       ],
       "explanation": "本句的「moved his hand」指「移動身體部位時，表示動；移動」。",
       "sentenceIndex": 5,
@@ -1168,12 +1146,10 @@ export default {
         "moved his hand"
       ],
       "optionReasons": {
-        "move-mcq-03": "本句指「移動身體部位時，表示動；移動」。",
-        "move-mcq-02": "「令身體或身體某部分產生動作」是「move = make a bodily movement（活動身體）」的用法，與本句語境不同。",
-        "move-mcq-04": "「人／群體由一個地方移到另一個地方」是「move = go from one place to another（前往；移動）」的用法，與本句語境不同。",
-        "move-mcq-01": "「身體／物件由原來的位置改到另一個位置」是「move = change physical position（移動）」的用法，與本句語境不同。",
-        "move-mcq-05": "「使物件從原本位置移到另一位置」是「move something（移動某物）」的用法，與本句語境不同。",
-        "move-mcq-06": "「搬離原本住所，開始在另一個地方居住」是「move = change residence（搬家）」的用法，與本句語境不同。"
+        "move-mcq-03": "本句的「moved his hand」指「移動身體部位時，表示動；移動」。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-03"
     },
@@ -1185,11 +1161,9 @@ export default {
       "masked": "She couldn’t ____.",
       "options": [
         "move-mcq-03",
-        "move-mcq-02",
-        "move-mcq-04",
-        "move-mcq-01",
-        "move-mcq-05",
-        "move-mcq-06"
+        "move-mcq-08",
+        "move-mcq-33",
+        "move-mcq-26"
       ],
       "explanation": "本句的「move her fingers」指「移動身體部位時，表示動；移動」。",
       "sentenceIndex": 6,
@@ -1198,12 +1172,10 @@ export default {
         "move her fingers"
       ],
       "optionReasons": {
-        "move-mcq-03": "本句指「移動身體部位時，表示動；移動」。",
-        "move-mcq-02": "「令身體或身體某部分產生動作」是「move = make a bodily movement（活動身體）」的用法，與本句語境不同。",
-        "move-mcq-04": "「人／群體由一個地方移到另一個地方」是「move = go from one place to another（前往；移動）」的用法，與本句語境不同。",
-        "move-mcq-01": "「身體／物件由原來的位置改到另一個位置」是「move = change physical position（移動）」的用法，與本句語境不同。",
-        "move-mcq-05": "「使物件從原本位置移到另一位置」是「move something（移動某物）」的用法，與本句語境不同。",
-        "move-mcq-06": "「搬離原本住所，開始在另一個地方居住」是「move = change residence（搬家）」的用法，與本句語境不同。"
+        "move-mcq-03": "本句的「move her fingers」指「移動身體部位時，表示動；移動」。",
+        "move-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-03"
     },
@@ -1215,11 +1187,9 @@ export default {
       "masked": "The group ____ into the next room.",
       "options": [
         "move-mcq-04",
-        "move-mcq-03",
-        "move-mcq-05",
-        "move-mcq-02",
-        "move-mcq-06",
-        "move-mcq-01"
+        "move-mcq-36",
+        "move-mcq-23",
+        "move-mcq-20"
       ],
       "explanation": "本句的「moved」指「人／群體由一個地方移到另一個地方」。",
       "sentenceIndex": 7,
@@ -1228,12 +1198,10 @@ export default {
         "moved"
       ],
       "optionReasons": {
-        "move-mcq-04": "本句指「人／群體由一個地方移到另一個地方」。",
-        "move-mcq-03": "「移動身體部位時，表示動；移動」是「move + body part（移動身體部位）」的用法，與本句語境不同。",
-        "move-mcq-05": "「使物件從原本位置移到另一位置」是「move something（移動某物）」的用法，與本句語境不同。",
-        "move-mcq-02": "「令身體或身體某部分產生動作」是「move = make a bodily movement（活動身體）」的用法，與本句語境不同。",
-        "move-mcq-06": "「搬離原本住所，開始在另一個地方居住」是「move = change residence（搬家）」的用法，與本句語境不同。",
-        "move-mcq-01": "「身體／物件由原來的位置改到另一個位置」是「move = change physical position（移動）」的用法，與本句語境不同。"
+        "move-mcq-04": "本句的「moved」指「人／群體由一個地方移到另一個地方」。",
+        "move-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-04"
     },
@@ -1245,11 +1213,9 @@ export default {
       "masked": "We slowly ____ the exit.",
       "options": [
         "move-mcq-04",
-        "move-mcq-03",
-        "move-mcq-05",
-        "move-mcq-02",
-        "move-mcq-06",
-        "move-mcq-01"
+        "move-mcq-21",
+        "move-mcq-15",
+        "move-mcq-24"
       ],
       "explanation": "本句的「moved toward」指「人／群體由一個地方移到另一個地方」。",
       "sentenceIndex": 8,
@@ -1258,12 +1224,10 @@ export default {
         "moved toward"
       ],
       "optionReasons": {
-        "move-mcq-04": "本句指「人／群體由一個地方移到另一個地方」。",
-        "move-mcq-03": "「移動身體部位時，表示動；移動」是「move + body part（移動身體部位）」的用法，與本句語境不同。",
-        "move-mcq-05": "「使物件從原本位置移到另一位置」是「move something（移動某物）」的用法，與本句語境不同。",
-        "move-mcq-02": "「令身體或身體某部分產生動作」是「move = make a bodily movement（活動身體）」的用法，與本句語境不同。",
-        "move-mcq-06": "「搬離原本住所，開始在另一個地方居住」是「move = change residence（搬家）」的用法，與本句語境不同。",
-        "move-mcq-01": "「身體／物件由原來的位置改到另一個位置」是「move = change physical position（移動）」的用法，與本句語境不同。"
+        "move-mcq-04": "本句的「moved toward」指「人／群體由一個地方移到另一個地方」。",
+        "move-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-04"
     },
@@ -1275,11 +1239,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "move-mcq-05",
-        "move-mcq-04",
-        "move-mcq-06",
-        "move-mcq-03",
-        "move-mcq-07",
-        "move-mcq-02"
+        "move-mcq-10",
+        "move-mcq-28",
+        "move-mcq-33"
       ],
       "explanation": "本句的「move the chair」指「使物件從原本位置移到另一位置」。",
       "sentenceIndex": 9,
@@ -1288,12 +1250,10 @@ export default {
         "move the chair"
       ],
       "optionReasons": {
-        "move-mcq-05": "本句指「使物件從原本位置移到另一位置」。",
-        "move-mcq-04": "「人／群體由一個地方移到另一個地方」是「move = go from one place to another（前往；移動）」的用法，與本句語境不同。",
-        "move-mcq-06": "「搬離原本住所，開始在另一個地方居住」是「move = change residence（搬家）」的用法，與本句語境不同。",
-        "move-mcq-03": "「移動身體部位時，表示動；移動」是「move + body part（移動身體部位）」的用法，與本句語境不同。",
-        "move-mcq-07": "「把居住地／工作地等轉移到另一地方」是「move to + place（搬到某地）」的用法，與本句語境不同。",
-        "move-mcq-02": "「令身體或身體某部分產生動作」是「move = make a bodily movement（活動身體）」的用法，與本句語境不同。"
+        "move-mcq-05": "本句的「move the chair」指「使物件從原本位置移到另一位置」。",
+        "move-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-05"
     },
@@ -1305,11 +1265,9 @@ export default {
       "masked": "She ____ closer to the wall.",
       "options": [
         "move-mcq-05",
-        "move-mcq-04",
-        "move-mcq-06",
-        "move-mcq-03",
-        "move-mcq-07",
-        "move-mcq-02"
+        "move-mcq-35",
+        "move-mcq-24",
+        "move-mcq-43"
       ],
       "explanation": "本句的「moved the table」指「使物件從原本位置移到另一位置」。",
       "sentenceIndex": 10,
@@ -1318,12 +1276,10 @@ export default {
         "moved the table"
       ],
       "optionReasons": {
-        "move-mcq-05": "本句指「使物件從原本位置移到另一位置」。",
-        "move-mcq-04": "「人／群體由一個地方移到另一個地方」是「move = go from one place to another（前往；移動）」的用法，與本句語境不同。",
-        "move-mcq-06": "「搬離原本住所，開始在另一個地方居住」是「move = change residence（搬家）」的用法，與本句語境不同。",
-        "move-mcq-03": "「移動身體部位時，表示動；移動」是「move + body part（移動身體部位）」的用法，與本句語境不同。",
-        "move-mcq-07": "「把居住地／工作地等轉移到另一地方」是「move to + place（搬到某地）」的用法，與本句語境不同。",
-        "move-mcq-02": "「令身體或身體某部分產生動作」是「move = make a bodily movement（活動身體）」的用法，與本句語境不同。"
+        "move-mcq-05": "本句的「moved the table」指「使物件從原本位置移到另一位置」。",
+        "move-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-05"
     },
@@ -1335,11 +1291,9 @@ export default {
       "masked": "We ____ last year.",
       "options": [
         "move-mcq-06",
-        "move-mcq-05",
-        "move-mcq-07",
-        "move-mcq-04",
-        "move-mcq-08",
-        "move-mcq-03"
+        "move-mcq-41",
+        "move-mcq-03",
+        "move-mcq-21"
       ],
       "explanation": "本句的「moved」指「搬離原本住所，開始在另一個地方居住」。",
       "sentenceIndex": 11,
@@ -1348,12 +1302,10 @@ export default {
         "moved"
       ],
       "optionReasons": {
-        "move-mcq-06": "本句指「搬離原本住所，開始在另一個地方居住」。",
-        "move-mcq-05": "「使物件從原本位置移到另一位置」是「move something（移動某物）」的用法，與本句語境不同。",
-        "move-mcq-07": "「把居住地／工作地等轉移到另一地方」是「move to + place（搬到某地）」的用法，與本句語境不同。",
-        "move-mcq-04": "「人／群體由一個地方移到另一個地方」是「move = go from one place to another（前往；移動）」的用法，與本句語境不同。",
-        "move-mcq-08": "「搬離目前住所並入住另一住所」是「move house（搬屋）」的用法，與本句語境不同。",
-        "move-mcq-03": "「移動身體部位時，表示動；移動」是「move + body part（移動身體部位）」的用法，與本句語境不同。"
+        "move-mcq-06": "本句的「moved」指「搬離原本住所，開始在另一個地方居住」。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-06"
     },
@@ -1365,11 +1317,9 @@ export default {
       "masked": "She is planning to ____ soon.",
       "options": [
         "move-mcq-06",
-        "move-mcq-05",
-        "move-mcq-07",
-        "move-mcq-04",
-        "move-mcq-08",
-        "move-mcq-03"
+        "move-mcq-39",
+        "move-mcq-26",
+        "move-mcq-23"
       ],
       "explanation": "本句的「move」指「搬離原本住所，開始在另一個地方居住」。",
       "sentenceIndex": 12,
@@ -1378,12 +1328,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-06": "本句指「搬離原本住所，開始在另一個地方居住」。",
-        "move-mcq-05": "「使物件從原本位置移到另一位置」是「move something（移動某物）」的用法，與本句語境不同。",
-        "move-mcq-07": "「把居住地／工作地等轉移到另一地方」是「move to + place（搬到某地）」的用法，與本句語境不同。",
-        "move-mcq-04": "「人／群體由一個地方移到另一個地方」是「move = go from one place to another（前往；移動）」的用法，與本句語境不同。",
-        "move-mcq-08": "「搬離目前住所並入住另一住所」是「move house（搬屋）」的用法，與本句語境不同。",
-        "move-mcq-03": "「移動身體部位時，表示動；移動」是「move + body part（移動身體部位）」的用法，與本句語境不同。"
+        "move-mcq-06": "本句的「move」指「搬離原本住所，開始在另一個地方居住」。",
+        "move-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-06"
     },
@@ -1395,11 +1343,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "move-mcq-07",
-        "move-mcq-06",
-        "move-mcq-08",
-        "move-mcq-05",
-        "move-mcq-09",
-        "move-mcq-04"
+        "move-mcq-32",
+        "move-mcq-20",
+        "move-mcq-42"
       ],
       "explanation": "本句的「moved to London」指「把居住地／工作地等轉移到另一地方」。",
       "sentenceIndex": 13,
@@ -1408,12 +1354,10 @@ export default {
         "moved to London"
       ],
       "optionReasons": {
-        "move-mcq-07": "本句指「把居住地／工作地等轉移到另一地方」。",
-        "move-mcq-06": "「搬離原本住所，開始在另一個地方居住」是「move = change residence（搬家）」的用法，與本句語境不同。",
-        "move-mcq-08": "「搬離目前住所並入住另一住所」是「move house（搬屋）」的用法，與本句語境不同。",
-        "move-mcq-05": "「使物件從原本位置移到另一位置」是「move something（移動某物）」的用法，與本句語境不同。",
-        "move-mcq-09": "「從一個職位、部門或職業狀態轉到另一個」是「move = change job/position/department（調動／轉職）」的用法，與本句語境不同。",
-        "move-mcq-04": "「人／群體由一個地方移到另一個地方」是「move = go from one place to another（前往；移動）」的用法，與本句語境不同。"
+        "move-mcq-07": "本句的「moved to London」指「把居住地／工作地等轉移到另一地方」。",
+        "move-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-07"
     },
@@ -1425,11 +1369,9 @@ export default {
       "masked": "She ____ to a smaller apartment.",
       "options": [
         "move-mcq-07",
-        "move-mcq-06",
-        "move-mcq-08",
-        "move-mcq-05",
-        "move-mcq-09",
-        "move-mcq-04"
+        "move-mcq-37",
+        "move-mcq-41",
+        "move-mcq-21"
       ],
       "explanation": "本句的「moved」指「把居住地／工作地等轉移到另一地方」。",
       "sentenceIndex": 14,
@@ -1438,12 +1380,10 @@ export default {
         "moved"
       ],
       "optionReasons": {
-        "move-mcq-07": "本句指「把居住地／工作地等轉移到另一地方」。",
-        "move-mcq-06": "「搬離原本住所，開始在另一個地方居住」是「move = change residence（搬家）」的用法，與本句語境不同。",
-        "move-mcq-08": "「搬離目前住所並入住另一住所」是「move house（搬屋）」的用法，與本句語境不同。",
-        "move-mcq-05": "「使物件從原本位置移到另一位置」是「move something（移動某物）」的用法，與本句語境不同。",
-        "move-mcq-09": "「從一個職位、部門或職業狀態轉到另一個」是「move = change job/position/department（調動／轉職）」的用法，與本句語境不同。",
-        "move-mcq-04": "「人／群體由一個地方移到另一個地方」是「move = go from one place to another（前往；移動）」的用法，與本句語境不同。"
+        "move-mcq-07": "本句的「moved」指「把居住地／工作地等轉移到另一地方」。",
+        "move-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-07"
     },
@@ -1455,11 +1395,9 @@ export default {
       "masked": "We’re ____ next month.",
       "options": [
         "move-mcq-08",
-        "move-mcq-07",
-        "move-mcq-09",
-        "move-mcq-06",
-        "move-mcq-10",
-        "move-mcq-05"
+        "move-mcq-33",
+        "move-mcq-20",
+        "move-mcq-42"
       ],
       "explanation": "本句的「moving house」指「搬離目前住所並入住另一住所」。",
       "sentenceIndex": 15,
@@ -1468,12 +1406,10 @@ export default {
         "moving house"
       ],
       "optionReasons": {
-        "move-mcq-08": "本句指「搬離目前住所並入住另一住所」。",
-        "move-mcq-07": "「把居住地／工作地等轉移到另一地方」是「move to + place（搬到某地）」的用法，與本句語境不同。",
-        "move-mcq-09": "「從一個職位、部門或職業狀態轉到另一個」是「move = change job/position/department（調動／轉職）」的用法，與本句語境不同。",
-        "move-mcq-06": "「搬離原本住所，開始在另一個地方居住」是「move = change residence（搬家）」的用法，與本句語境不同。",
-        "move-mcq-10": "「轉入／離開某種工作、角色或領域」是「move into/out of a role（進入／離開某角色）」的用法，與本句語境不同。",
-        "move-mcq-05": "「使物件從原本位置移到另一位置」是「move something（移動某物）」的用法，與本句語境不同。"
+        "move-mcq-08": "本句的「moving house」指「搬離目前住所並入住另一住所」。",
+        "move-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-08"
     },
@@ -1485,11 +1421,9 @@ export default {
       "masked": "____ house can be stressful.",
       "options": [
         "move-mcq-08",
-        "move-mcq-07",
-        "move-mcq-09",
-        "move-mcq-06",
-        "move-mcq-10",
-        "move-mcq-05"
+        "move-mcq-38",
+        "move-mcq-16",
+        "move-mcq-24"
       ],
       "explanation": "本句的「Moving」指「搬離目前住所並入住另一住所」。",
       "sentenceIndex": 16,
@@ -1498,12 +1432,10 @@ export default {
         "Moving"
       ],
       "optionReasons": {
-        "move-mcq-08": "本句指「搬離目前住所並入住另一住所」。",
-        "move-mcq-07": "「把居住地／工作地等轉移到另一地方」是「move to + place（搬到某地）」的用法，與本句語境不同。",
-        "move-mcq-09": "「從一個職位、部門或職業狀態轉到另一個」是「move = change job/position/department（調動／轉職）」的用法，與本句語境不同。",
-        "move-mcq-06": "「搬離原本住所，開始在另一個地方居住」是「move = change residence（搬家）」的用法，與本句語境不同。",
-        "move-mcq-10": "「轉入／離開某種工作、角色或領域」是「move into/out of a role（進入／離開某角色）」的用法，與本句語境不同。",
-        "move-mcq-05": "「使物件從原本位置移到另一位置」是「move something（移動某物）」的用法，與本句語境不同。"
+        "move-mcq-08": "本句的「Moving」指「搬離目前住所並入住另一住所」。",
+        "move-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-08"
     },
@@ -1515,11 +1447,9 @@ export default {
       "masked": "She ____ another department.",
       "options": [
         "move-mcq-09",
-        "move-mcq-08",
-        "move-mcq-10",
-        "move-mcq-07",
-        "move-mcq-11",
-        "move-mcq-06"
+        "move-mcq-22",
+        "move-mcq-14",
+        "move-mcq-20"
       ],
       "explanation": "本句的「moved to」指「從一個職位、部門或職業狀態轉到另一個」。",
       "sentenceIndex": 17,
@@ -1528,12 +1458,10 @@ export default {
         "moved to"
       ],
       "optionReasons": {
-        "move-mcq-09": "本句指「從一個職位、部門或職業狀態轉到另一個」。",
-        "move-mcq-08": "「搬離目前住所並入住另一住所」是「move house（搬屋）」的用法，與本句語境不同。",
-        "move-mcq-10": "「轉入／離開某種工作、角色或領域」是「move into/out of a role（進入／離開某角色）」的用法，與本句語境不同。",
-        "move-mcq-07": "「把居住地／工作地等轉移到另一地方」是「move to + place（搬到某地）」的用法，與本句語境不同。",
-        "move-mcq-11": "「某個計劃、過程、討論等由一個階段進入另一階段」是「move = progress / advance（前進；進展）」的用法，與本句語境不同。",
-        "move-mcq-06": "「搬離原本住所，開始在另一個地方居住」是「move = change residence（搬家）」的用法，與本句語境不同。"
+        "move-mcq-09": "本句的「moved to」指「從一個職位、部門或職業狀態轉到另一個」。",
+        "move-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-09"
     },
@@ -1545,11 +1473,9 @@ export default {
       "masked": "He ____ into management.",
       "options": [
         "move-mcq-09",
-        "move-mcq-08",
-        "move-mcq-10",
-        "move-mcq-07",
-        "move-mcq-11",
-        "move-mcq-06"
+        "move-mcq-43",
+        "move-mcq-23",
+        "move-mcq-31"
       ],
       "explanation": "本句的「moved」指「從一個職位、部門或職業狀態轉到另一個」。",
       "sentenceIndex": 18,
@@ -1558,12 +1484,10 @@ export default {
         "moved"
       ],
       "optionReasons": {
-        "move-mcq-09": "本句指「從一個職位、部門或職業狀態轉到另一個」。",
-        "move-mcq-08": "「搬離目前住所並入住另一住所」是「move house（搬屋）」的用法，與本句語境不同。",
-        "move-mcq-10": "「轉入／離開某種工作、角色或領域」是「move into/out of a role（進入／離開某角色）」的用法，與本句語境不同。",
-        "move-mcq-07": "「把居住地／工作地等轉移到另一地方」是「move to + place（搬到某地）」的用法，與本句語境不同。",
-        "move-mcq-11": "「某個計劃、過程、討論等由一個階段進入另一階段」是「move = progress / advance（前進；進展）」的用法，與本句語境不同。",
-        "move-mcq-06": "「搬離原本住所，開始在另一個地方居住」是「move = change residence（搬家）」的用法，與本句語境不同。"
+        "move-mcq-09": "本句的「moved」指「從一個職位、部門或職業狀態轉到另一個」。",
+        "move-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-09"
     },
@@ -1575,11 +1499,9 @@ export default {
       "masked": "She ____ a leadership role.",
       "options": [
         "move-mcq-10",
-        "move-mcq-09",
-        "move-mcq-11",
-        "move-mcq-08",
-        "move-mcq-12",
-        "move-mcq-07"
+        "move-mcq-34",
+        "move-mcq-43",
+        "move-mcq-04"
       ],
       "explanation": "本句的「moved into」指「轉入／離開某種工作、角色或領域」。",
       "sentenceIndex": 19,
@@ -1588,12 +1510,10 @@ export default {
         "moved into"
       ],
       "optionReasons": {
-        "move-mcq-10": "本句指「轉入／離開某種工作、角色或領域」。",
-        "move-mcq-09": "「從一個職位、部門或職業狀態轉到另一個」是「move = change job/position/department（調動／轉職）」的用法，與本句語境不同。",
-        "move-mcq-11": "「某個計劃、過程、討論等由一個階段進入另一階段」是「move = progress / advance（前進；進展）」的用法，與本句語境不同。",
-        "move-mcq-08": "「搬離目前住所並入住另一住所」是「move house（搬屋）」的用法，與本句語境不同。",
-        "move-mcq-12": "「向前移動；或比喻上繼續發展／採取下一步」是「move forward（向前推進）」的用法，與本句語境不同。",
-        "move-mcq-07": "「把居住地／工作地等轉移到另一地方」是「move to + place（搬到某地）」的用法，與本句語境不同。"
+        "move-mcq-10": "本句的「moved into」指「轉入／離開某種工作、角色或領域」。",
+        "move-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-10"
     },
@@ -1605,11 +1525,9 @@ export default {
       "masked": "He ____ out of sales.",
       "options": [
         "move-mcq-10",
-        "move-mcq-09",
-        "move-mcq-11",
-        "move-mcq-08",
-        "move-mcq-12",
-        "move-mcq-07"
+        "move-mcq-04",
+        "move-mcq-21",
+        "move-mcq-34"
       ],
       "explanation": "本句的「moved」指「轉入／離開某種工作、角色或領域」。",
       "sentenceIndex": 20,
@@ -1618,12 +1536,10 @@ export default {
         "moved"
       ],
       "optionReasons": {
-        "move-mcq-10": "本句指「轉入／離開某種工作、角色或領域」。",
-        "move-mcq-09": "「從一個職位、部門或職業狀態轉到另一個」是「move = change job/position/department（調動／轉職）」的用法，與本句語境不同。",
-        "move-mcq-11": "「某個計劃、過程、討論等由一個階段進入另一階段」是「move = progress / advance（前進；進展）」的用法，與本句語境不同。",
-        "move-mcq-08": "「搬離目前住所並入住另一住所」是「move house（搬屋）」的用法，與本句語境不同。",
-        "move-mcq-12": "「向前移動；或比喻上繼續發展／採取下一步」是「move forward（向前推進）」的用法，與本句語境不同。",
-        "move-mcq-07": "「把居住地／工作地等轉移到另一地方」是「move to + place（搬到某地）」的用法，與本句語境不同。"
+        "move-mcq-10": "本句的「moved」指「轉入／離開某種工作、角色或領域」。",
+        "move-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-10"
     },
@@ -1635,11 +1551,9 @@ export default {
       "masked": "The project is ____ quickly.",
       "options": [
         "move-mcq-11",
-        "move-mcq-10",
-        "move-mcq-12",
-        "move-mcq-09",
-        "move-mcq-13",
-        "move-mcq-08"
+        "move-mcq-21",
+        "move-mcq-41",
+        "move-mcq-42"
       ],
       "explanation": "本句的「moving」指「某個計劃、過程、討論等由一個階段進入另一階段」。",
       "sentenceIndex": 21,
@@ -1648,12 +1562,10 @@ export default {
         "moving"
       ],
       "optionReasons": {
-        "move-mcq-11": "本句指「某個計劃、過程、討論等由一個階段進入另一階段」。",
-        "move-mcq-10": "「轉入／離開某種工作、角色或領域」是「move into/out of a role（進入／離開某角色）」的用法，與本句語境不同。",
-        "move-mcq-12": "「向前移動；或比喻上繼續發展／採取下一步」是「move forward（向前推進）」的用法，與本句語境不同。",
-        "move-mcq-09": "「從一個職位、部門或職業狀態轉到另一個」是「move = change job/position/department（調動／轉職）」的用法，與本句語境不同。",
-        "move-mcq-13": "「繼續向下一階段發展／採取行動」是「move ahead（繼續推進）」的用法，與本句語境不同。",
-        "move-mcq-08": "「搬離目前住所並入住另一住所」是「move house（搬屋）」的用法，與本句語境不同。"
+        "move-mcq-11": "本句的「moving」指「某個計劃、過程、討論等由一個階段進入另一階段」。",
+        "move-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-11"
     },
@@ -1665,11 +1577,9 @@ export default {
       "masked": "The discussion ____.",
       "options": [
         "move-mcq-11",
-        "move-mcq-10",
-        "move-mcq-12",
-        "move-mcq-09",
-        "move-mcq-13",
-        "move-mcq-08"
+        "move-mcq-43",
+        "move-mcq-32",
+        "move-mcq-02"
       ],
       "explanation": "本句的「moved forward」指「某個計劃、過程、討論等由一個階段進入另一階段」。",
       "sentenceIndex": 22,
@@ -1678,12 +1588,10 @@ export default {
         "moved forward"
       ],
       "optionReasons": {
-        "move-mcq-11": "本句指「某個計劃、過程、討論等由一個階段進入另一階段」。",
-        "move-mcq-10": "「轉入／離開某種工作、角色或領域」是「move into/out of a role（進入／離開某角色）」的用法，與本句語境不同。",
-        "move-mcq-12": "「向前移動；或比喻上繼續發展／採取下一步」是「move forward（向前推進）」的用法，與本句語境不同。",
-        "move-mcq-09": "「從一個職位、部門或職業狀態轉到另一個」是「move = change job/position/department（調動／轉職）」的用法，與本句語境不同。",
-        "move-mcq-13": "「繼續向下一階段發展／採取行動」是「move ahead（繼續推進）」的用法，與本句語境不同。",
-        "move-mcq-08": "「搬離目前住所並入住另一住所」是「move house（搬屋）」的用法，與本句語境不同。"
+        "move-mcq-11": "本句的「moved forward」指「某個計劃、過程、討論等由一個階段進入另一階段」。",
+        "move-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-11"
     },
@@ -1695,11 +1603,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "move-mcq-12",
-        "move-mcq-11",
-        "move-mcq-13",
-        "move-mcq-10",
-        "move-mcq-14",
-        "move-mcq-09"
+        "move-mcq-17",
+        "move-mcq-26",
+        "move-mcq-38"
       ],
       "explanation": "本句的「move forward」指「向前移動；或比喻上繼續發展／採取下一步」。",
       "sentenceIndex": 23,
@@ -1708,12 +1614,10 @@ export default {
         "move forward"
       ],
       "optionReasons": {
-        "move-mcq-12": "本句指「向前移動；或比喻上繼續發展／採取下一步」。",
-        "move-mcq-11": "「某個計劃、過程、討論等由一個階段進入另一階段」是「move = progress / advance（前進；進展）」的用法，與本句語境不同。",
-        "move-mcq-13": "「繼續向下一階段發展／採取行動」是「move ahead（繼續推進）」的用法，與本句語境不同。",
-        "move-mcq-10": "「轉入／離開某種工作、角色或領域」是「move into/out of a role（進入／離開某角色）」的用法，與本句語境不同。",
-        "move-mcq-14": "「開始採取實際行動，而不只是等待或討論」是「move = take action（採取行動）」的用法，與本句語境不同。",
-        "move-mcq-09": "「從一個職位、部門或職業狀態轉到另一個」是「move = change job/position/department（調動／轉職）」的用法，與本句語境不同。"
+        "move-mcq-12": "本句的「move forward」指「向前移動；或比喻上繼續發展／採取下一步」。",
+        "move-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-12"
     },
@@ -1725,11 +1629,9 @@ export default {
       "masked": "We need to ____ with the plan.",
       "options": [
         "move-mcq-12",
-        "move-mcq-11",
-        "move-mcq-13",
-        "move-mcq-10",
-        "move-mcq-14",
-        "move-mcq-09"
+        "move-mcq-41",
+        "move-mcq-26",
+        "move-mcq-24"
       ],
       "explanation": "本句的「move forward」指「向前移動；或比喻上繼續發展／採取下一步」。",
       "sentenceIndex": 24,
@@ -1738,12 +1640,10 @@ export default {
         "move forward"
       ],
       "optionReasons": {
-        "move-mcq-12": "本句指「向前移動；或比喻上繼續發展／採取下一步」。",
-        "move-mcq-11": "「某個計劃、過程、討論等由一個階段進入另一階段」是「move = progress / advance（前進；進展）」的用法，與本句語境不同。",
-        "move-mcq-13": "「繼續向下一階段發展／採取行動」是「move ahead（繼續推進）」的用法，與本句語境不同。",
-        "move-mcq-10": "「轉入／離開某種工作、角色或領域」是「move into/out of a role（進入／離開某角色）」的用法，與本句語境不同。",
-        "move-mcq-14": "「開始採取實際行動，而不只是等待或討論」是「move = take action（採取行動）」的用法，與本句語境不同。",
-        "move-mcq-09": "「從一個職位、部門或職業狀態轉到另一個」是「move = change job/position/department（調動／轉職）」的用法，與本句語境不同。"
+        "move-mcq-12": "本句的「move forward」指「向前移動；或比喻上繼續發展／採取下一步」。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-12"
     },
@@ -1755,11 +1655,9 @@ export default {
       "masked": "The team decided to ____.",
       "options": [
         "move-mcq-13",
-        "move-mcq-12",
-        "move-mcq-14",
-        "move-mcq-11",
-        "move-mcq-15",
-        "move-mcq-10"
+        "move-mcq-10",
+        "move-mcq-04",
+        "move-mcq-41"
       ],
       "explanation": "本句的「move ahead」指「繼續向下一階段發展／採取行動」。",
       "sentenceIndex": 25,
@@ -1768,12 +1666,10 @@ export default {
         "move ahead"
       ],
       "optionReasons": {
-        "move-mcq-13": "本句指「繼續向下一階段發展／採取行動」。",
-        "move-mcq-12": "「向前移動；或比喻上繼續發展／採取下一步」是「move forward（向前推進）」的用法，與本句語境不同。",
-        "move-mcq-14": "「開始採取實際行動，而不只是等待或討論」是「move = take action（採取行動）」的用法，與本句語境不同。",
-        "move-mcq-11": "「某個計劃、過程、討論等由一個階段進入另一階段」是「move = progress / advance（前進；進展）」的用法，與本句語境不同。",
-        "move-mcq-15": "「開始採取實際行動，或開始離開某地」是「make a move（採取行動）」的用法，與本句語境不同。",
-        "move-mcq-10": "「轉入／離開某種工作、角色或領域」是「move into/out of a role（進入／離開某角色）」的用法，與本句語境不同。"
+        "move-mcq-13": "本句的「move ahead」指「繼續向下一階段發展／採取行動」。",
+        "move-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-13"
     },
@@ -1785,11 +1681,9 @@ export default {
       "masked": "We can now ____ ahead with the project.",
       "options": [
         "move-mcq-13",
-        "move-mcq-12",
-        "move-mcq-14",
-        "move-mcq-11",
-        "move-mcq-15",
-        "move-mcq-10"
+        "move-mcq-27",
+        "move-mcq-24",
+        "move-mcq-41"
       ],
       "explanation": "本句的「move」指「繼續向下一階段發展／採取行動」。",
       "sentenceIndex": 26,
@@ -1798,12 +1692,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-13": "本句指「繼續向下一階段發展／採取行動」。",
-        "move-mcq-12": "「向前移動；或比喻上繼續發展／採取下一步」是「move forward（向前推進）」的用法，與本句語境不同。",
-        "move-mcq-14": "「開始採取實際行動，而不只是等待或討論」是「move = take action（採取行動）」的用法，與本句語境不同。",
-        "move-mcq-11": "「某個計劃、過程、討論等由一個階段進入另一階段」是「move = progress / advance（前進；進展）」的用法，與本句語境不同。",
-        "move-mcq-15": "「開始採取實際行動，或開始離開某地」是「make a move（採取行動）」的用法，與本句語境不同。",
-        "move-mcq-10": "「轉入／離開某種工作、角色或領域」是「move into/out of a role（進入／離開某角色）」的用法，與本句語境不同。"
+        "move-mcq-13": "本句的「move」指「繼續向下一階段發展／採取行動」。",
+        "move-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-13"
     },
@@ -1815,11 +1707,9 @@ export default {
       "masked": "The company needs to ____.",
       "options": [
         "move-mcq-14",
-        "move-mcq-13",
-        "move-mcq-15",
-        "move-mcq-12",
-        "move-mcq-16",
-        "move-mcq-11"
+        "move-mcq-30",
+        "move-mcq-26",
+        "move-mcq-41"
       ],
       "explanation": "本句的「move quickly」指「開始採取實際行動，而不只是等待或討論」。",
       "sentenceIndex": 27,
@@ -1828,12 +1718,10 @@ export default {
         "move quickly"
       ],
       "optionReasons": {
-        "move-mcq-14": "本句指「開始採取實際行動，而不只是等待或討論」。",
-        "move-mcq-13": "「繼續向下一階段發展／採取行動」是「move ahead（繼續推進）」的用法，與本句語境不同。",
-        "move-mcq-15": "「開始採取實際行動，或開始離開某地」是「make a move（採取行動）」的用法，與本句語境不同。",
-        "move-mcq-12": "「向前移動；或比喻上繼續發展／採取下一步」是「move forward（向前推進）」的用法，與本句語境不同。",
-        "move-mcq-16": "「在雙方都未行動時率先開始」是「make the first move（先採取行動）」的用法，與本句語境不同。",
-        "move-mcq-11": "「某個計劃、過程、討論等由一個階段進入另一階段」是「move = progress / advance（前進；進展）」的用法，與本句語境不同。"
+        "move-mcq-14": "本句的「move quickly」指「開始採取實際行動，而不只是等待或討論」。",
+        "move-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-14"
     },
@@ -1845,11 +1733,9 @@ export default {
       "masked": "The government finally ____ on the issue.",
       "options": [
         "move-mcq-14",
-        "move-mcq-13",
-        "move-mcq-15",
-        "move-mcq-12",
-        "move-mcq-16",
-        "move-mcq-11"
+        "move-mcq-05",
+        "move-mcq-41",
+        "move-mcq-42"
       ],
       "explanation": "本句的「moved」指「開始採取實際行動，而不只是等待或討論」。",
       "sentenceIndex": 28,
@@ -1858,12 +1744,10 @@ export default {
         "moved"
       ],
       "optionReasons": {
-        "move-mcq-14": "本句指「開始採取實際行動，而不只是等待或討論」。",
-        "move-mcq-13": "「繼續向下一階段發展／採取行動」是「move ahead（繼續推進）」的用法，與本句語境不同。",
-        "move-mcq-15": "「開始採取實際行動，或開始離開某地」是「make a move（採取行動）」的用法，與本句語境不同。",
-        "move-mcq-12": "「向前移動；或比喻上繼續發展／採取下一步」是「move forward（向前推進）」的用法，與本句語境不同。",
-        "move-mcq-16": "「在雙方都未行動時率先開始」是「make the first move（先採取行動）」的用法，與本句語境不同。",
-        "move-mcq-11": "「某個計劃、過程、討論等由一個階段進入另一階段」是「move = progress / advance（前進；進展）」的用法，與本句語境不同。"
+        "move-mcq-14": "本句的「moved」指「開始採取實際行動，而不只是等待或討論」。",
+        "move-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-14"
     },
@@ -1875,11 +1759,9 @@ export default {
       "masked": "Someone has to ____.",
       "options": [
         "move-mcq-15",
-        "move-mcq-14",
-        "move-mcq-16",
-        "move-mcq-13",
-        "move-mcq-17",
-        "move-mcq-12"
+        "move-mcq-26",
+        "move-mcq-09",
+        "move-mcq-41"
       ],
       "explanation": "本句的「make a move」指「開始採取實際行動，或開始離開某地」。",
       "sentenceIndex": 29,
@@ -1888,12 +1770,10 @@ export default {
         "make a move"
       ],
       "optionReasons": {
-        "move-mcq-15": "本句指「開始採取實際行動，或開始離開某地」。",
-        "move-mcq-14": "「開始採取實際行動，而不只是等待或討論」是「move = take action（採取行動）」的用法，與本句語境不同。",
-        "move-mcq-16": "「在雙方都未行動時率先開始」是「make the first move（先採取行動）」的用法，與本句語境不同。",
-        "move-mcq-13": "「繼續向下一階段發展／採取行動」是「move ahead（繼續推進）」的用法，與本句語境不同。",
-        "move-mcq-17": "「內容、注意力、討論等由一個主題／狀態轉到另一個」是「move = change situation/position figuratively（改變局面）」的用法，與本句語境不同。",
-        "move-mcq-12": "「向前移動；或比喻上繼續發展／採取下一步」是「move forward（向前推進）」的用法，與本句語境不同。"
+        "move-mcq-15": "本句的「make a move」指「開始採取實際行動，或開始離開某地」。",
+        "move-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-15"
     },
@@ -1905,11 +1785,9 @@ export default {
       "masked": "It’s time to make a ____.",
       "options": [
         "move-mcq-15",
-        "move-mcq-14",
-        "move-mcq-16",
-        "move-mcq-13",
-        "move-mcq-17",
-        "move-mcq-12"
+        "move-mcq-05",
+        "move-mcq-24",
+        "move-mcq-26"
       ],
       "explanation": "本句的「move」指「開始採取實際行動，或開始離開某地」。",
       "sentenceIndex": 30,
@@ -1918,12 +1796,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-15": "本句指「開始採取實際行動，或開始離開某地」。",
-        "move-mcq-14": "「開始採取實際行動，而不只是等待或討論」是「move = take action（採取行動）」的用法，與本句語境不同。",
-        "move-mcq-16": "「在雙方都未行動時率先開始」是「make the first move（先採取行動）」的用法，與本句語境不同。",
-        "move-mcq-13": "「繼續向下一階段發展／採取行動」是「move ahead（繼續推進）」的用法，與本句語境不同。",
-        "move-mcq-17": "「內容、注意力、討論等由一個主題／狀態轉到另一個」是「move = change situation/position figuratively（改變局面）」的用法，與本句語境不同。",
-        "move-mcq-12": "「向前移動；或比喻上繼續發展／採取下一步」是「move forward（向前推進）」的用法，與本句語境不同。"
+        "move-mcq-15": "本句的「move」指「開始採取實際行動，或開始離開某地」。",
+        "move-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-15"
     },
@@ -1935,11 +1811,9 @@ export default {
       "masked": "She made the ____ and started the conversation.",
       "options": [
         "move-mcq-16",
-        "move-mcq-15",
         "move-mcq-17",
-        "move-mcq-14",
-        "move-mcq-18",
-        "move-mcq-13"
+        "move-mcq-44",
+        "move-mcq-33"
       ],
       "explanation": "本句的「first move」指「在雙方都未行動時率先開始」。",
       "sentenceIndex": 31,
@@ -1948,12 +1822,10 @@ export default {
         "first move"
       ],
       "optionReasons": {
-        "move-mcq-16": "本句指「在雙方都未行動時率先開始」。",
-        "move-mcq-15": "「開始採取實際行動，或開始離開某地」是「make a move（採取行動）」的用法，與本句語境不同。",
-        "move-mcq-17": "「內容、注意力、討論等由一個主題／狀態轉到另一個」是「move = change situation/position figuratively（改變局面）」的用法，與本句語境不同。",
-        "move-mcq-14": "「開始採取實際行動，而不只是等待或討論」是「move = take action（採取行動）」的用法，與本句語境不同。",
-        "move-mcq-18": "「轉到下一件事；或停止停留在過去並繼續生活」是「move on（轉到下一階段／離開過去）」的用法，與本句語境不同。",
-        "move-mcq-13": "「繼續向下一階段發展／採取行動」是「move ahead（繼續推進）」的用法，與本句語境不同。"
+        "move-mcq-16": "本句的「first move」指「在雙方都未行動時率先開始」。",
+        "move-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-16"
     },
@@ -1965,11 +1837,9 @@ export default {
       "masked": "Neither side wanted to make the first ____.",
       "options": [
         "move-mcq-16",
-        "move-mcq-15",
-        "move-mcq-17",
-        "move-mcq-14",
-        "move-mcq-18",
-        "move-mcq-13"
+        "move-mcq-24",
+        "move-mcq-40",
+        "move-mcq-44"
       ],
       "explanation": "本句的「move」指「在雙方都未行動時率先開始」。",
       "sentenceIndex": 32,
@@ -1978,12 +1848,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-16": "本句指「在雙方都未行動時率先開始」。",
-        "move-mcq-15": "「開始採取實際行動，或開始離開某地」是「make a move（採取行動）」的用法，與本句語境不同。",
-        "move-mcq-17": "「內容、注意力、討論等由一個主題／狀態轉到另一個」是「move = change situation/position figuratively（改變局面）」的用法，與本句語境不同。",
-        "move-mcq-14": "「開始採取實際行動，而不只是等待或討論」是「move = take action（採取行動）」的用法，與本句語境不同。",
-        "move-mcq-18": "「轉到下一件事；或停止停留在過去並繼續生活」是「move on（轉到下一階段／離開過去）」的用法，與本句語境不同。",
-        "move-mcq-13": "「繼續向下一階段發展／採取行動」是「move ahead（繼續推進）」的用法，與本句語境不同。"
+        "move-mcq-16": "本句的「move」指「在雙方都未行動時率先開始」。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-16"
     },
@@ -1995,11 +1863,9 @@ export default {
       "masked": "The conversation ____ to a different topic.",
       "options": [
         "move-mcq-17",
-        "move-mcq-16",
-        "move-mcq-18",
-        "move-mcq-15",
-        "move-mcq-19",
-        "move-mcq-14"
+        "move-mcq-12",
+        "move-mcq-29",
+        "move-mcq-20"
       ],
       "explanation": "本句的「moved」指「內容、注意力、討論等由一個主題／狀態轉到另一個」。",
       "sentenceIndex": 33,
@@ -2008,12 +1874,10 @@ export default {
         "moved"
       ],
       "optionReasons": {
-        "move-mcq-17": "本句指「內容、注意力、討論等由一個主題／狀態轉到另一個」。",
-        "move-mcq-16": "「在雙方都未行動時率先開始」是「make the first move（先採取行動）」的用法，與本句語境不同。",
-        "move-mcq-18": "「轉到下一件事；或停止停留在過去並繼續生活」是「move on（轉到下一階段／離開過去）」的用法，與本句語境不同。",
-        "move-mcq-15": "「開始採取實際行動，或開始離開某地」是「make a move（採取行動）」的用法，與本句語境不同。",
-        "move-mcq-19": "「令某人產生強烈情感，尤其感動、同情或深受觸動」是「move = affect emotionally（感動）」的用法，與本句語境不同。",
-        "move-mcq-14": "「開始採取實際行動，而不只是等待或討論」是「move = take action（採取行動）」的用法，與本句語境不同。"
+        "move-mcq-17": "本句的「moved」指「內容、注意力、討論等由一個主題／狀態轉到另一個」。",
+        "move-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-17"
     },
@@ -2025,11 +1889,9 @@ export default {
       "masked": "The debate ____ from theory to practice.",
       "options": [
         "move-mcq-17",
-        "move-mcq-16",
-        "move-mcq-18",
         "move-mcq-15",
         "move-mcq-19",
-        "move-mcq-14"
+        "move-mcq-29"
       ],
       "explanation": "本句的「moved」指「內容、注意力、討論等由一個主題／狀態轉到另一個」。",
       "sentenceIndex": 34,
@@ -2038,12 +1900,10 @@ export default {
         "moved"
       ],
       "optionReasons": {
-        "move-mcq-17": "本句指「內容、注意力、討論等由一個主題／狀態轉到另一個」。",
-        "move-mcq-16": "「在雙方都未行動時率先開始」是「make the first move（先採取行動）」的用法，與本句語境不同。",
-        "move-mcq-18": "「轉到下一件事；或停止停留在過去並繼續生活」是「move on（轉到下一階段／離開過去）」的用法，與本句語境不同。",
-        "move-mcq-15": "「開始採取實際行動，或開始離開某地」是「make a move（採取行動）」的用法，與本句語境不同。",
-        "move-mcq-19": "「令某人產生強烈情感，尤其感動、同情或深受觸動」是「move = affect emotionally（感動）」的用法，與本句語境不同。",
-        "move-mcq-14": "「開始採取實際行動，而不只是等待或討論」是「move = take action（採取行動）」的用法，與本句語境不同。"
+        "move-mcq-17": "本句的「moved」指「內容、注意力、討論等由一個主題／狀態轉到另一個」。",
+        "move-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-17"
     },
@@ -2055,11 +1915,9 @@ export default {
       "masked": "Let’s ____ to the next topic.",
       "options": [
         "move-mcq-18",
-        "move-mcq-17",
-        "move-mcq-19",
-        "move-mcq-16",
-        "move-mcq-20",
-        "move-mcq-15"
+        "move-mcq-36",
+        "move-mcq-27",
+        "move-mcq-43"
       ],
       "explanation": "本句的「move on」指「轉到下一件事；或停止停留在過去並繼續生活」。",
       "sentenceIndex": 35,
@@ -2068,12 +1926,10 @@ export default {
         "move on"
       ],
       "optionReasons": {
-        "move-mcq-18": "本句指「轉到下一件事；或停止停留在過去並繼續生活」。",
-        "move-mcq-17": "「內容、注意力、討論等由一個主題／狀態轉到另一個」是「move = change situation/position figuratively（改變局面）」的用法，與本句語境不同。",
-        "move-mcq-19": "「令某人產生強烈情感，尤其感動、同情或深受觸動」是「move = affect emotionally（感動）」的用法，與本句語境不同。",
-        "move-mcq-16": "「在雙方都未行動時率先開始」是「make the first move（先採取行動）」的用法，與本句語境不同。",
-        "move-mcq-20": "「因某件事而受到強烈情感觸動」是「be moved（被感動）」的用法，與本句語境不同。",
-        "move-mcq-15": "「開始採取實際行動，或開始離開某地」是「make a move（採取行動）」的用法，與本句語境不同。"
+        "move-mcq-18": "本句的「move on」指「轉到下一件事；或停止停留在過去並繼續生活」。",
+        "move-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-18"
     },
@@ -2085,11 +1941,9 @@ export default {
       "masked": "It took her time to ____ after the disappointment.",
       "options": [
         "move-mcq-18",
-        "move-mcq-17",
-        "move-mcq-19",
-        "move-mcq-16",
-        "move-mcq-20",
-        "move-mcq-15"
+        "move-mcq-34",
+        "move-mcq-27",
+        "move-mcq-45"
       ],
       "explanation": "本句的「move on」指「轉到下一件事；或停止停留在過去並繼續生活」。",
       "sentenceIndex": 36,
@@ -2098,12 +1952,10 @@ export default {
         "move on"
       ],
       "optionReasons": {
-        "move-mcq-18": "本句指「轉到下一件事；或停止停留在過去並繼續生活」。",
-        "move-mcq-17": "「內容、注意力、討論等由一個主題／狀態轉到另一個」是「move = change situation/position figuratively（改變局面）」的用法，與本句語境不同。",
-        "move-mcq-19": "「令某人產生強烈情感，尤其感動、同情或深受觸動」是「move = affect emotionally（感動）」的用法，與本句語境不同。",
-        "move-mcq-16": "「在雙方都未行動時率先開始」是「make the first move（先採取行動）」的用法，與本句語境不同。",
-        "move-mcq-20": "「因某件事而受到強烈情感觸動」是「be moved（被感動）」的用法，與本句語境不同。",
-        "move-mcq-15": "「開始採取實際行動，或開始離開某地」是「make a move（採取行動）」的用法，與本句語境不同。"
+        "move-mcq-18": "本句的「move on」指「轉到下一件事；或停止停留在過去並繼續生活」。",
+        "move-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-18"
     },
@@ -2115,10 +1967,8 @@ export default {
       "masked": "Her kindness ____.",
       "options": [
         "move-mcq-19",
-        "move-mcq-18",
-        "move-mcq-20",
-        "move-mcq-17",
-        "move-mcq-21",
+        "move-mcq-11",
+        "move-mcq-41",
         "move-mcq-16"
       ],
       "explanation": "本句的「moved me」指「令某人產生強烈情感，尤其感動、同情或深受觸動」。",
@@ -2128,12 +1978,10 @@ export default {
         "moved me"
       ],
       "optionReasons": {
-        "move-mcq-19": "本句指「令某人產生強烈情感，尤其感動、同情或深受觸動」。",
-        "move-mcq-18": "「轉到下一件事；或停止停留在過去並繼續生活」是「move on（轉到下一階段／離開過去）」的用法，與本句語境不同。",
-        "move-mcq-20": "「因某件事而受到強烈情感觸動」是「be moved（被感動）」的用法，與本句語境不同。",
-        "move-mcq-17": "「內容、注意力、討論等由一個主題／狀態轉到另一個」是「move = change situation/position figuratively（改變局面）」的用法，與本句語境不同。",
-        "move-mcq-21": "「能令人產生強烈情感、尤其感動／同情的」是「moving = emotionally touching（感人的）」的用法，與本句語境不同。",
-        "move-mcq-16": "「在雙方都未行動時率先開始」是「make the first move（先採取行動）」的用法，與本句語境不同。"
+        "move-mcq-19": "本句的「moved me」指「令某人產生強烈情感，尤其感動、同情或深受觸動」。",
+        "move-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-19"
     },
@@ -2145,11 +1993,9 @@ export default {
       "masked": "The story ____ everyone in the room.",
       "options": [
         "move-mcq-19",
-        "move-mcq-18",
-        "move-mcq-20",
-        "move-mcq-17",
-        "move-mcq-21",
-        "move-mcq-16"
+        "move-mcq-40",
+        "move-mcq-33",
+        "move-mcq-24"
       ],
       "explanation": "本句的「moved」指「令某人產生強烈情感，尤其感動、同情或深受觸動」。",
       "sentenceIndex": 38,
@@ -2158,12 +2004,10 @@ export default {
         "moved"
       ],
       "optionReasons": {
-        "move-mcq-19": "本句指「令某人產生強烈情感，尤其感動、同情或深受觸動」。",
-        "move-mcq-18": "「轉到下一件事；或停止停留在過去並繼續生活」是「move on（轉到下一階段／離開過去）」的用法，與本句語境不同。",
-        "move-mcq-20": "「因某件事而受到強烈情感觸動」是「be moved（被感動）」的用法，與本句語境不同。",
-        "move-mcq-17": "「內容、注意力、討論等由一個主題／狀態轉到另一個」是「move = change situation/position figuratively（改變局面）」的用法，與本句語境不同。",
-        "move-mcq-21": "「能令人產生強烈情感、尤其感動／同情的」是「moving = emotionally touching（感人的）」的用法，與本句語境不同。",
-        "move-mcq-16": "「在雙方都未行動時率先開始」是「make the first move（先採取行動）」的用法，與本句語境不同。"
+        "move-mcq-19": "本句的「moved」指「令某人產生強烈情感，尤其感動、同情或深受觸動」。",
+        "move-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-19"
     },
@@ -2175,11 +2019,9 @@ export default {
       "masked": "I was deeply ____ by her words.",
       "options": [
         "move-mcq-20",
-        "move-mcq-19",
-        "move-mcq-21",
-        "move-mcq-18",
-        "move-mcq-22",
-        "move-mcq-17"
+        "move-mcq-27",
+        "move-mcq-08",
+        "move-mcq-33"
       ],
       "explanation": "本句的「moved」指「因某件事而受到強烈情感觸動」。",
       "sentenceIndex": 39,
@@ -2188,12 +2030,10 @@ export default {
         "moved"
       ],
       "optionReasons": {
-        "move-mcq-20": "本句指「因某件事而受到強烈情感觸動」。",
-        "move-mcq-19": "「令某人產生強烈情感，尤其感動、同情或深受觸動」是「move = affect emotionally（感動）」的用法，與本句語境不同。",
-        "move-mcq-21": "「能令人產生強烈情感、尤其感動／同情的」是「moving = emotionally touching（感人的）」的用法，與本句語境不同。",
-        "move-mcq-18": "「轉到下一件事；或停止停留在過去並繼續生活」是「move on（轉到下一階段／離開過去）」的用法，與本句語境不同。",
-        "move-mcq-22": "「移動中的時，表示正在移動的」是「moving = changing position（移動中的）」的用法，與本句語境不同。",
-        "move-mcq-17": "「內容、注意力、討論等由一個主題／狀態轉到另一個」是「move = change situation/position figuratively（改變局面）」的用法，與本句語境不同。"
+        "move-mcq-20": "本句的「moved」指「因某件事而受到強烈情感觸動」。",
+        "move-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-20"
     },
@@ -2205,11 +2045,9 @@ export default {
       "masked": "She was ____ by their kindness.",
       "options": [
         "move-mcq-20",
-        "move-mcq-19",
-        "move-mcq-21",
-        "move-mcq-18",
-        "move-mcq-22",
-        "move-mcq-17"
+        "move-mcq-04",
+        "move-mcq-24",
+        "move-mcq-41"
       ],
       "explanation": "本句的「moved」指「因某件事而受到強烈情感觸動」。",
       "sentenceIndex": 40,
@@ -2218,12 +2056,10 @@ export default {
         "moved"
       ],
       "optionReasons": {
-        "move-mcq-20": "本句指「因某件事而受到強烈情感觸動」。",
-        "move-mcq-19": "「令某人產生強烈情感，尤其感動、同情或深受觸動」是「move = affect emotionally（感動）」的用法，與本句語境不同。",
-        "move-mcq-21": "「能令人產生強烈情感、尤其感動／同情的」是「moving = emotionally touching（感人的）」的用法，與本句語境不同。",
-        "move-mcq-18": "「轉到下一件事；或停止停留在過去並繼續生活」是「move on（轉到下一階段／離開過去）」的用法，與本句語境不同。",
-        "move-mcq-22": "「移動中的時，表示正在移動的」是「moving = changing position（移動中的）」的用法，與本句語境不同。",
-        "move-mcq-17": "「內容、注意力、討論等由一個主題／狀態轉到另一個」是「move = change situation/position figuratively（改變局面）」的用法，與本句語境不同。"
+        "move-mcq-20": "本句的「moved」指「因某件事而受到強烈情感觸動」。",
+        "move-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-20"
     },
@@ -2235,11 +2071,9 @@ export default {
       "masked": "She gave a ____.",
       "options": [
         "move-mcq-21",
-        "move-mcq-20",
-        "move-mcq-22",
-        "move-mcq-19",
-        "move-mcq-23",
-        "move-mcq-18"
+        "move-mcq-08",
+        "move-mcq-33",
+        "move-mcq-24"
       ],
       "explanation": "本句的「moving speech」指「能令人產生強烈情感、尤其感動／同情的」。",
       "sentenceIndex": 41,
@@ -2248,12 +2082,10 @@ export default {
         "moving speech"
       ],
       "optionReasons": {
-        "move-mcq-21": "本句指「能令人產生強烈情感、尤其感動／同情的」。",
-        "move-mcq-20": "「因某件事而受到強烈情感觸動」是「be moved（被感動）」的用法，與本句語境不同。",
-        "move-mcq-22": "「移動中的時，表示正在移動的」是「moving = changing position（移動中的）」的用法，與本句語境不同。",
-        "move-mcq-19": "「令某人產生強烈情感，尤其感動、同情或深受觸動」是「move = affect emotionally（感動）」的用法，與本句語境不同。",
-        "move-mcq-23": "「在正式會議中提出一項動議，供討論／表決」是「move = formally propose（動議）」的用法，與本句語境不同。",
-        "move-mcq-18": "「轉到下一件事；或停止停留在過去並繼續生活」是「move on（轉到下一階段／離開過去）」的用法，與本句語境不同。"
+        "move-mcq-21": "本句的「moving speech」指「能令人產生強烈情感、尤其感動／同情的」。",
+        "move-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-21"
     },
@@ -2265,11 +2097,9 @@ export default {
       "masked": "It was a deeply ____ story.",
       "options": [
         "move-mcq-21",
-        "move-mcq-20",
-        "move-mcq-22",
-        "move-mcq-19",
-        "move-mcq-23",
-        "move-mcq-18"
+        "move-mcq-05",
+        "move-mcq-33",
+        "move-mcq-24"
       ],
       "explanation": "本句的「moving」指「能令人產生強烈情感、尤其感動／同情的」。",
       "sentenceIndex": 42,
@@ -2278,12 +2108,10 @@ export default {
         "moving"
       ],
       "optionReasons": {
-        "move-mcq-21": "本句指「能令人產生強烈情感、尤其感動／同情的」。",
-        "move-mcq-20": "「因某件事而受到強烈情感觸動」是「be moved（被感動）」的用法，與本句語境不同。",
-        "move-mcq-22": "「移動中的時，表示正在移動的」是「moving = changing position（移動中的）」的用法，與本句語境不同。",
-        "move-mcq-19": "「令某人產生強烈情感，尤其感動、同情或深受觸動」是「move = affect emotionally（感動）」的用法，與本句語境不同。",
-        "move-mcq-23": "「在正式會議中提出一項動議，供討論／表決」是「move = formally propose（動議）」的用法，與本句語境不同。",
-        "move-mcq-18": "「轉到下一件事；或停止停留在過去並繼續生活」是「move on（轉到下一階段／離開過去）」的用法，與本句語境不同。"
+        "move-mcq-21": "本句的「moving」指「能令人產生強烈情感、尤其感動／同情的」。",
+        "move-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-21"
     },
@@ -2295,11 +2123,9 @@ export default {
       "masked": "Never jump from a ____.",
       "options": [
         "move-mcq-22",
-        "move-mcq-21",
-        "move-mcq-23",
-        "move-mcq-20",
-        "move-mcq-24",
-        "move-mcq-19"
+        "move-mcq-33",
+        "move-mcq-01",
+        "move-mcq-18"
       ],
       "explanation": "本句的「moving vehicle」指「移動中的時，表示正在移動的」。",
       "sentenceIndex": 43,
@@ -2308,12 +2134,10 @@ export default {
         "moving vehicle"
       ],
       "optionReasons": {
-        "move-mcq-22": "本句指「移動中的時，表示正在移動的」。",
-        "move-mcq-21": "「能令人產生強烈情感、尤其感動／同情的」是「moving = emotionally touching（感人的）」的用法，與本句語境不同。",
-        "move-mcq-23": "「在正式會議中提出一項動議，供討論／表決」是「move = formally propose（動議）」的用法，與本句語境不同。",
-        "move-mcq-20": "「因某件事而受到強烈情感觸動」是「be moved（被感動）」的用法，與本句語境不同。",
-        "move-mcq-24": "「正式把一項提議提交給會議討論／表決」是「move a motion（提出動議）」的用法，與本句語境不同。",
-        "move-mcq-19": "「令某人產生強烈情感，尤其感動、同情或深受觸動」是「move = affect emotionally（感動）」的用法，與本句語境不同。"
+        "move-mcq-22": "本句的「moving vehicle」指「移動中的時，表示正在移動的」。",
+        "move-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-22"
     },
@@ -2325,11 +2149,9 @@ export default {
       "masked": "The camera followed the ____ object.",
       "options": [
         "move-mcq-22",
-        "move-mcq-21",
-        "move-mcq-23",
-        "move-mcq-20",
-        "move-mcq-24",
-        "move-mcq-19"
+        "move-mcq-41",
+        "move-mcq-27",
+        "move-mcq-26"
       ],
       "explanation": "本句的「moving」指「移動中的時，表示正在移動的」。",
       "sentenceIndex": 44,
@@ -2338,12 +2160,10 @@ export default {
         "moving"
       ],
       "optionReasons": {
-        "move-mcq-22": "本句指「移動中的時，表示正在移動的」。",
-        "move-mcq-21": "「能令人產生強烈情感、尤其感動／同情的」是「moving = emotionally touching（感人的）」的用法，與本句語境不同。",
-        "move-mcq-23": "「在正式會議中提出一項動議，供討論／表決」是「move = formally propose（動議）」的用法，與本句語境不同。",
-        "move-mcq-20": "「因某件事而受到強烈情感觸動」是「be moved（被感動）」的用法，與本句語境不同。",
-        "move-mcq-24": "「正式把一項提議提交給會議討論／表決」是「move a motion（提出動議）」的用法，與本句語境不同。",
-        "move-mcq-19": "「令某人產生強烈情感，尤其感動、同情或深受觸動」是「move = affect emotionally（感動）」的用法，與本句語境不同。"
+        "move-mcq-22": "本句的「moving」指「移動中的時，表示正在移動的」。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-22"
     },
@@ -2355,11 +2175,9 @@ export default {
       "masked": "I ____ we approve the proposal.",
       "options": [
         "move-mcq-23",
-        "move-mcq-22",
-        "move-mcq-24",
-        "move-mcq-21",
-        "move-mcq-25",
-        "move-mcq-20"
+        "move-mcq-44",
+        "move-mcq-41",
+        "move-mcq-40"
       ],
       "explanation": "本句的「move that」指「在正式會議中提出一項動議，供討論／表決」。",
       "sentenceIndex": 45,
@@ -2368,12 +2186,10 @@ export default {
         "move that"
       ],
       "optionReasons": {
-        "move-mcq-23": "本句指「在正式會議中提出一項動議，供討論／表決」。",
-        "move-mcq-22": "「移動中的時，表示正在移動的」是「moving = changing position（移動中的）」的用法，與本句語境不同。",
-        "move-mcq-24": "「正式把一項提議提交給會議討論／表決」是「move a motion（提出動議）」的用法，與本句語境不同。",
-        "move-mcq-21": "「能令人產生強烈情感、尤其感動／同情的」是「moving = emotionally touching（感人的）」的用法，與本句語境不同。",
-        "move-mcq-25": "「把物品從一處搬運／運輸到另一處」是「move = transfer goods / transport（搬運）」的用法，與本句語境不同。",
-        "move-mcq-20": "「因某件事而受到強烈情感觸動」是「be moved（被感動）」的用法，與本句語境不同。"
+        "move-mcq-23": "本句的「move that」指「在正式會議中提出一項動議，供討論／表決」。",
+        "move-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-23"
     },
@@ -2385,11 +2201,9 @@ export default {
       "masked": "She ____ to postpone the meeting.",
       "options": [
         "move-mcq-23",
-        "move-mcq-22",
-        "move-mcq-24",
-        "move-mcq-21",
-        "move-mcq-25",
-        "move-mcq-20"
+        "move-mcq-05",
+        "move-mcq-18",
+        "move-mcq-41"
       ],
       "explanation": "本句的「moved」指「在正式會議中提出一項動議，供討論／表決」。",
       "sentenceIndex": 46,
@@ -2398,12 +2212,10 @@ export default {
         "moved"
       ],
       "optionReasons": {
-        "move-mcq-23": "本句指「在正式會議中提出一項動議，供討論／表決」。",
-        "move-mcq-22": "「移動中的時，表示正在移動的」是「moving = changing position（移動中的）」的用法，與本句語境不同。",
-        "move-mcq-24": "「正式把一項提議提交給會議討論／表決」是「move a motion（提出動議）」的用法，與本句語境不同。",
-        "move-mcq-21": "「能令人產生強烈情感、尤其感動／同情的」是「moving = emotionally touching（感人的）」的用法，與本句語境不同。",
-        "move-mcq-25": "「把物品從一處搬運／運輸到另一處」是「move = transfer goods / transport（搬運）」的用法，與本句語境不同。",
-        "move-mcq-20": "「因某件事而受到強烈情感觸動」是「be moved（被感動）」的用法，與本句語境不同。"
+        "move-mcq-23": "本句的「moved」指「在正式會議中提出一項動議，供討論／表決」。",
+        "move-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-23"
     },
@@ -2415,11 +2227,9 @@ export default {
       "masked": "He ____ to change the rules.",
       "options": [
         "move-mcq-24",
-        "move-mcq-23",
-        "move-mcq-25",
-        "move-mcq-22",
-        "move-mcq-26",
-        "move-mcq-21"
+        "move-mcq-16",
+        "move-mcq-01",
+        "move-mcq-12"
       ],
       "explanation": "本句的「moved a motion」指「正式把一項提議提交給會議討論／表決」。",
       "sentenceIndex": 47,
@@ -2428,12 +2238,10 @@ export default {
         "moved a motion"
       ],
       "optionReasons": {
-        "move-mcq-24": "本句指「正式把一項提議提交給會議討論／表決」。",
-        "move-mcq-23": "「在正式會議中提出一項動議，供討論／表決」是「move = formally propose（動議）」的用法，與本句語境不同。",
-        "move-mcq-25": "「把物品從一處搬運／運輸到另一處」是「move = transfer goods / transport（搬運）」的用法，與本句語境不同。",
-        "move-mcq-22": "「移動中的時，表示正在移動的」是「moving = changing position（移動中的）」的用法，與本句語境不同。",
-        "move-mcq-26": "「令商品被出售／流通，尤其商業語境」是「move = sell goods successfully（商品賣出／流通；商業）」的用法，與本句語境不同。",
-        "move-mcq-21": "「能令人產生強烈情感、尤其感動／同情的」是「moving = emotionally touching（感人的）」的用法，與本句語境不同。"
+        "move-mcq-24": "本句的「moved a motion」指「正式把一項提議提交給會議討論／表決」。",
+        "move-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-24"
     },
@@ -2445,11 +2253,9 @@ export default {
       "masked": "The motion was ____ and seconded.",
       "options": [
         "move-mcq-24",
-        "move-mcq-23",
-        "move-mcq-25",
-        "move-mcq-22",
-        "move-mcq-26",
-        "move-mcq-21"
+        "move-mcq-30",
+        "move-mcq-41",
+        "move-mcq-16"
       ],
       "explanation": "本句的「moved」指「正式把一項提議提交給會議討論／表決」。",
       "sentenceIndex": 48,
@@ -2458,12 +2264,10 @@ export default {
         "moved"
       ],
       "optionReasons": {
-        "move-mcq-24": "本句指「正式把一項提議提交給會議討論／表決」。",
-        "move-mcq-23": "「在正式會議中提出一項動議，供討論／表決」是「move = formally propose（動議）」的用法，與本句語境不同。",
-        "move-mcq-25": "「把物品從一處搬運／運輸到另一處」是「move = transfer goods / transport（搬運）」的用法，與本句語境不同。",
-        "move-mcq-22": "「移動中的時，表示正在移動的」是「moving = changing position（移動中的）」的用法，與本句語境不同。",
-        "move-mcq-26": "「令商品被出售／流通，尤其商業語境」是「move = sell goods successfully（商品賣出／流通；商業）」的用法，與本句語境不同。",
-        "move-mcq-21": "「能令人產生強烈情感、尤其感動／同情的」是「moving = emotionally touching（感人的）」的用法，與本句語境不同。"
+        "move-mcq-24": "本句的「moved」指「正式把一項提議提交給會議討論／表決」。",
+        "move-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-24"
     },
@@ -2475,11 +2279,9 @@ export default {
       "masked": "The company ____ around the country.",
       "options": [
         "move-mcq-25",
-        "move-mcq-24",
-        "move-mcq-26",
-        "move-mcq-23",
-        "move-mcq-27",
-        "move-mcq-22"
+        "move-mcq-16",
+        "move-mcq-19",
+        "move-mcq-23"
       ],
       "explanation": "本句的「moves goods」指「把物品從一處搬運／運輸到另一處」。",
       "sentenceIndex": 49,
@@ -2488,12 +2290,10 @@ export default {
         "moves goods"
       ],
       "optionReasons": {
-        "move-mcq-25": "本句指「把物品從一處搬運／運輸到另一處」。",
-        "move-mcq-24": "「正式把一項提議提交給會議討論／表決」是「move a motion（提出動議）」的用法，與本句語境不同。",
-        "move-mcq-26": "「令商品被出售／流通，尤其商業語境」是「move = sell goods successfully（商品賣出／流通；商業）」的用法，與本句語境不同。",
-        "move-mcq-23": "「在正式會議中提出一項動議，供討論／表決」是「move = formally propose（動議）」的用法，與本句語境不同。",
-        "move-mcq-27": "「令某個數值、情況或觀點由原有位置／狀態改變」是「move = cause change in price/number/opinion（令數值／看法改變）」的用法，與本句語境不同。",
-        "move-mcq-22": "「移動中的時，表示正在移動的」是「moving = changing position（移動中的）」的用法，與本句語境不同。"
+        "move-mcq-25": "本句的「moves goods」指「把物品從一處搬運／運輸到另一處」。",
+        "move-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-25"
     },
@@ -2505,11 +2305,9 @@ export default {
       "masked": "We need to ____ the equipment downstairs.",
       "options": [
         "move-mcq-25",
-        "move-mcq-24",
-        "move-mcq-26",
-        "move-mcq-23",
-        "move-mcq-27",
-        "move-mcq-22"
+        "move-mcq-35",
+        "move-mcq-21",
+        "move-mcq-23"
       ],
       "explanation": "本句的「move」指「把物品從一處搬運／運輸到另一處」。",
       "sentenceIndex": 50,
@@ -2518,12 +2316,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-25": "本句指「把物品從一處搬運／運輸到另一處」。",
-        "move-mcq-24": "「正式把一項提議提交給會議討論／表決」是「move a motion（提出動議）」的用法，與本句語境不同。",
-        "move-mcq-26": "「令商品被出售／流通，尤其商業語境」是「move = sell goods successfully（商品賣出／流通；商業）」的用法，與本句語境不同。",
-        "move-mcq-23": "「在正式會議中提出一項動議，供討論／表決」是「move = formally propose（動議）」的用法，與本句語境不同。",
-        "move-mcq-27": "「令某個數值、情況或觀點由原有位置／狀態改變」是「move = cause change in price/number/opinion（令數值／看法改變）」的用法，與本句語境不同。",
-        "move-mcq-22": "「移動中的時，表示正在移動的」是「moving = changing position（移動中的）」的用法，與本句語境不同。"
+        "move-mcq-25": "本句的「move」指「把物品從一處搬運／運輸到另一處」。",
+        "move-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-25"
     },
@@ -2535,11 +2331,9 @@ export default {
       "masked": "The shop needs to ____ quickly.",
       "options": [
         "move-mcq-26",
-        "move-mcq-25",
-        "move-mcq-27",
-        "move-mcq-24",
-        "move-mcq-28",
-        "move-mcq-23"
+        "move-mcq-14",
+        "move-mcq-30",
+        "move-mcq-22"
       ],
       "explanation": "本句的「move this stock」指「令商品被出售／流通，尤其商業語境」。",
       "sentenceIndex": 51,
@@ -2548,12 +2342,10 @@ export default {
         "move this stock"
       ],
       "optionReasons": {
-        "move-mcq-26": "本句指「令商品被出售／流通，尤其商業語境」。",
-        "move-mcq-25": "「把物品從一處搬運／運輸到另一處」是「move = transfer goods / transport（搬運）」的用法，與本句語境不同。",
-        "move-mcq-27": "「令某個數值、情況或觀點由原有位置／狀態改變」是「move = cause change in price/number/opinion（令數值／看法改變）」的用法，與本句語境不同。",
-        "move-mcq-24": "「正式把一項提議提交給會議討論／表決」是「move a motion（提出動議）」的用法，與本句語境不同。",
-        "move-mcq-28": "「令某人因某種情感／理由而採取行動」是「move = prompt someone to act（促使）」的用法，與本句語境不同。",
-        "move-mcq-23": "「在正式會議中提出一項動議，供討論／表決」是「move = formally propose（動議）」的用法，與本句語境不同。"
+        "move-mcq-26": "本句的「move this stock」指「令商品被出售／流通，尤其商業語境」。",
+        "move-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-26"
     },
@@ -2565,11 +2357,9 @@ export default {
       "masked": "The promotion helped ____ more units.",
       "options": [
         "move-mcq-26",
-        "move-mcq-25",
-        "move-mcq-27",
-        "move-mcq-24",
-        "move-mcq-28",
-        "move-mcq-23"
+        "move-mcq-39",
+        "move-mcq-15",
+        "move-mcq-20"
       ],
       "explanation": "本句的「move」指「令商品被出售／流通，尤其商業語境」。",
       "sentenceIndex": 52,
@@ -2578,12 +2368,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-26": "本句指「令商品被出售／流通，尤其商業語境」。",
-        "move-mcq-25": "「把物品從一處搬運／運輸到另一處」是「move = transfer goods / transport（搬運）」的用法，與本句語境不同。",
-        "move-mcq-27": "「令某個數值、情況或觀點由原有位置／狀態改變」是「move = cause change in price/number/opinion（令數值／看法改變）」的用法，與本句語境不同。",
-        "move-mcq-24": "「正式把一項提議提交給會議討論／表決」是「move a motion（提出動議）」的用法，與本句語境不同。",
-        "move-mcq-28": "「令某人因某種情感／理由而採取行動」是「move = prompt someone to act（促使）」的用法，與本句語境不同。",
-        "move-mcq-23": "「在正式會議中提出一項動議，供討論／表決」是「move = formally propose（動議）」的用法，與本句語境不同。"
+        "move-mcq-26": "本句的「move」指「令商品被出售／流通，尤其商業語境」。",
+        "move-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-26"
     },
@@ -2595,10 +2383,8 @@ export default {
       "masked": "The announcement ____.",
       "options": [
         "move-mcq-27",
-        "move-mcq-26",
-        "move-mcq-28",
-        "move-mcq-25",
-        "move-mcq-29",
+        "move-mcq-08",
+        "move-mcq-13",
         "move-mcq-24"
       ],
       "explanation": "本句的「moved the market」指「令某個數值、情況或觀點由原有位置／狀態改變」。",
@@ -2608,12 +2394,10 @@ export default {
         "moved the market"
       ],
       "optionReasons": {
-        "move-mcq-27": "本句指「令某個數值、情況或觀點由原有位置／狀態改變」。",
-        "move-mcq-26": "「令商品被出售／流通，尤其商業語境」是「move = sell goods successfully（商品賣出／流通；商業）」的用法，與本句語境不同。",
-        "move-mcq-28": "「令某人因某種情感／理由而採取行動」是「move = prompt someone to act（促使）」的用法，與本句語境不同。",
-        "move-mcq-25": "「把物品從一處搬運／運輸到另一處」是「move = transfer goods / transport（搬運）」的用法，與本句語境不同。",
-        "move-mcq-29": "「一次身體／物件位置改變的動作」是「move = noun: physical movement（移動／動作）」的用法，與本句語境不同。",
-        "move-mcq-24": "「正式把一項提議提交給會議討論／表決」是「move a motion（提出動議）」的用法，與本句語境不同。"
+        "move-mcq-27": "本句的「moved the market」指「令某個數值、情況或觀點由原有位置／狀態改變」。",
+        "move-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-27"
     },
@@ -2625,11 +2409,9 @@ export default {
       "masked": "The new evidence did not ____.",
       "options": [
         "move-mcq-27",
-        "move-mcq-26",
-        "move-mcq-28",
-        "move-mcq-25",
-        "move-mcq-29",
-        "move-mcq-24"
+        "move-mcq-08",
+        "move-mcq-20",
+        "move-mcq-33"
       ],
       "explanation": "本句的「move public opinion」指「令某個數值、情況或觀點由原有位置／狀態改變」。",
       "sentenceIndex": 54,
@@ -2638,12 +2420,10 @@ export default {
         "move public opinion"
       ],
       "optionReasons": {
-        "move-mcq-27": "本句指「令某個數值、情況或觀點由原有位置／狀態改變」。",
-        "move-mcq-26": "「令商品被出售／流通，尤其商業語境」是「move = sell goods successfully（商品賣出／流通；商業）」的用法，與本句語境不同。",
-        "move-mcq-28": "「令某人因某種情感／理由而採取行動」是「move = prompt someone to act（促使）」的用法，與本句語境不同。",
-        "move-mcq-25": "「把物品從一處搬運／運輸到另一處」是「move = transfer goods / transport（搬運）」的用法，與本句語境不同。",
-        "move-mcq-29": "「一次身體／物件位置改變的動作」是「move = noun: physical movement（移動／動作）」的用法，與本句語境不同。",
-        "move-mcq-24": "「正式把一項提議提交給會議討論／表決」是「move a motion（提出動議）」的用法，與本句語境不同。"
+        "move-mcq-27": "本句的「move public opinion」指「令某個數值、情況或觀點由原有位置／狀態改變」。",
+        "move-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-27"
     },
@@ -2655,11 +2435,9 @@ export default {
       "masked": "Her experience ____ others.",
       "options": [
         "move-mcq-28",
-        "move-mcq-27",
-        "move-mcq-29",
-        "move-mcq-26",
-        "move-mcq-30",
-        "move-mcq-25"
+        "move-mcq-08",
+        "move-mcq-33",
+        "move-mcq-10"
       ],
       "explanation": "本句的「moved her to help」指「令某人因某種情感／理由而採取行動」。",
       "sentenceIndex": 55,
@@ -2668,12 +2446,10 @@ export default {
         "moved her to help"
       ],
       "optionReasons": {
-        "move-mcq-28": "本句指「令某人因某種情感／理由而採取行動」。",
-        "move-mcq-27": "「令某個數值、情況或觀點由原有位置／狀態改變」是「move = cause change in price/number/opinion（令數值／看法改變）」的用法，與本句語境不同。",
-        "move-mcq-29": "「一次身體／物件位置改變的動作」是「move = noun: physical movement（移動／動作）」的用法，與本句語境不同。",
-        "move-mcq-26": "「令商品被出售／流通，尤其商業語境」是「move = sell goods successfully（商品賣出／流通；商業）」的用法，與本句語境不同。",
-        "move-mcq-30": "「搬家／把生活或工作位置轉到另一地的事件」是「move = relocation（搬遷）」的用法，與本句語境不同。",
-        "move-mcq-25": "「把物品從一處搬運／運輸到另一處」是「move = transfer goods / transport（搬運）」的用法，與本句語境不同。"
+        "move-mcq-28": "本句的「moved her to help」指「令某人因某種情感／理由而採取行動」。",
+        "move-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-28"
     },
@@ -2685,11 +2461,9 @@ export default {
       "masked": "What ____ you to make that decision?",
       "options": [
         "move-mcq-28",
-        "move-mcq-27",
-        "move-mcq-29",
-        "move-mcq-26",
         "move-mcq-30",
-        "move-mcq-25"
+        "move-mcq-41",
+        "move-mcq-24"
       ],
       "explanation": "本句的「moved」指「令某人因某種情感／理由而採取行動」。",
       "sentenceIndex": 56,
@@ -2698,12 +2472,10 @@ export default {
         "moved"
       ],
       "optionReasons": {
-        "move-mcq-28": "本句指「令某人因某種情感／理由而採取行動」。",
-        "move-mcq-27": "「令某個數值、情況或觀點由原有位置／狀態改變」是「move = cause change in price/number/opinion（令數值／看法改變）」的用法，與本句語境不同。",
-        "move-mcq-29": "「一次身體／物件位置改變的動作」是「move = noun: physical movement（移動／動作）」的用法，與本句語境不同。",
-        "move-mcq-26": "「令商品被出售／流通，尤其商業語境」是「move = sell goods successfully（商品賣出／流通；商業）」的用法，與本句語境不同。",
-        "move-mcq-30": "「搬家／把生活或工作位置轉到另一地的事件」是「move = relocation（搬遷）」的用法，與本句語境不同。",
-        "move-mcq-25": "「把物品從一處搬運／運輸到另一處」是「move = transfer goods / transport（搬運）」的用法，與本句語境不同。"
+        "move-mcq-28": "本句的「moved」指「令某人因某種情感／理由而採取行動」。",
+        "move-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-28"
     },
@@ -2715,11 +2487,9 @@ export default {
       "masked": "Every ____ caused pain.",
       "options": [
         "move-mcq-29",
-        "move-mcq-28",
-        "move-mcq-30",
-        "move-mcq-27",
-        "move-mcq-31",
-        "move-mcq-26"
+        "move-mcq-24",
+        "move-mcq-25",
+        "move-mcq-33"
       ],
       "explanation": "本句的「move」指「一次身體／物件位置改變的動作」。",
       "sentenceIndex": 57,
@@ -2728,12 +2498,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-29": "本句指「一次身體／物件位置改變的動作」。",
-        "move-mcq-28": "「令某人因某種情感／理由而採取行動」是「move = prompt someone to act（促使）」的用法，與本句語境不同。",
-        "move-mcq-30": "「搬家／把生活或工作位置轉到另一地的事件」是「move = relocation（搬遷）」的用法，與本句語境不同。",
-        "move-mcq-27": "「令某個數值、情況或觀點由原有位置／狀態改變」是「move = cause change in price/number/opinion（令數值／看法改變）」的用法，與本句語境不同。",
-        "move-mcq-31": "「為達成某目標而採取的一個行動／決定」是「move = action/decision（行動／舉措）」的用法，與本句語境不同。",
-        "move-mcq-26": "「令商品被出售／流通，尤其商業語境」是「move = sell goods successfully（商品賣出／流通；商業）」的用法，與本句語境不同。"
+        "move-mcq-29": "本句的「move」指「一次身體／物件位置改變的動作」。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-29"
     },
@@ -2745,11 +2513,9 @@ export default {
       "masked": "I watched his every ____.",
       "options": [
         "move-mcq-29",
-        "move-mcq-28",
-        "move-mcq-30",
-        "move-mcq-27",
-        "move-mcq-31",
-        "move-mcq-26"
+        "move-mcq-08",
+        "move-mcq-10",
+        "move-mcq-24"
       ],
       "explanation": "本句的「move」指「一次身體／物件位置改變的動作」。",
       "sentenceIndex": 58,
@@ -2758,12 +2524,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-29": "本句指「一次身體／物件位置改變的動作」。",
-        "move-mcq-28": "「令某人因某種情感／理由而採取行動」是「move = prompt someone to act（促使）」的用法，與本句語境不同。",
-        "move-mcq-30": "「搬家／把生活或工作位置轉到另一地的事件」是「move = relocation（搬遷）」的用法，與本句語境不同。",
-        "move-mcq-27": "「令某個數值、情況或觀點由原有位置／狀態改變」是「move = cause change in price/number/opinion（令數值／看法改變）」的用法，與本句語境不同。",
-        "move-mcq-31": "「為達成某目標而採取的一個行動／決定」是「move = action/decision（行動／舉措）」的用法，與本句語境不同。",
-        "move-mcq-26": "「令商品被出售／流通，尤其商業語境」是「move = sell goods successfully（商品賣出／流通；商業）」的用法，與本句語境不同。"
+        "move-mcq-29": "本句的「move」指「一次身體／物件位置改變的動作」。",
+        "move-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-29"
     },
@@ -2775,11 +2539,9 @@ export default {
       "masked": "The ____ took two days.",
       "options": [
         "move-mcq-30",
-        "move-mcq-29",
-        "move-mcq-31",
-        "move-mcq-28",
-        "move-mcq-32",
-        "move-mcq-27"
+        "move-mcq-34",
+        "move-mcq-45",
+        "move-mcq-24"
       ],
       "explanation": "本句的「move」指「搬家／把生活或工作位置轉到另一地的事件」。",
       "sentenceIndex": 59,
@@ -2788,12 +2550,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-30": "本句指「搬家／把生活或工作位置轉到另一地的事件」。",
-        "move-mcq-29": "「一次身體／物件位置改變的動作」是「move = noun: physical movement（移動／動作）」的用法，與本句語境不同。",
-        "move-mcq-31": "「為達成某目標而採取的一個行動／決定」是「move = action/decision（行動／舉措）」的用法，與本句語境不同。",
-        "move-mcq-28": "「令某人因某種情感／理由而採取行動」是「move = prompt someone to act（促使）」的用法，與本句語境不同。",
-        "move-mcq-32": "「可被評價為好／壞／聰明／冒險的一項行動」是「smart/good/bad move（聰明／好／壞的一步）」的用法，與本句語境不同。",
-        "move-mcq-27": "「令某個數值、情況或觀點由原有位置／狀態改變」是「move = cause change in price/number/opinion（令數值／看法改變）」的用法，與本句語境不同。"
+        "move-mcq-30": "本句的「move」指「搬家／把生活或工作位置轉到另一地的事件」。",
+        "move-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-30"
     },
@@ -2805,11 +2565,9 @@ export default {
       "masked": "The ____ to another city was difficult.",
       "options": [
         "move-mcq-30",
-        "move-mcq-29",
-        "move-mcq-31",
-        "move-mcq-28",
-        "move-mcq-32",
-        "move-mcq-27"
+        "move-mcq-35",
+        "move-mcq-24",
+        "move-mcq-22"
       ],
       "explanation": "本句的「move」指「搬家／把生活或工作位置轉到另一地的事件」。",
       "sentenceIndex": 60,
@@ -2818,12 +2576,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-30": "本句指「搬家／把生活或工作位置轉到另一地的事件」。",
-        "move-mcq-29": "「一次身體／物件位置改變的動作」是「move = noun: physical movement（移動／動作）」的用法，與本句語境不同。",
-        "move-mcq-31": "「為達成某目標而採取的一個行動／決定」是「move = action/decision（行動／舉措）」的用法，與本句語境不同。",
-        "move-mcq-28": "「令某人因某種情感／理由而採取行動」是「move = prompt someone to act（促使）」的用法，與本句語境不同。",
-        "move-mcq-32": "「可被評價為好／壞／聰明／冒險的一項行動」是「smart/good/bad move（聰明／好／壞的一步）」的用法，與本句語境不同。",
-        "move-mcq-27": "「令某個數值、情況或觀點由原有位置／狀態改變」是「move = cause change in price/number/opinion（令數值／看法改變）」的用法，與本句語境不同。"
+        "move-mcq-30": "本句的「move」指「搬家／把生活或工作位置轉到另一地的事件」。",
+        "move-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-30"
     },
@@ -2835,11 +2591,9 @@ export default {
       "masked": "That was a smart ____.",
       "options": [
         "move-mcq-31",
-        "move-mcq-30",
-        "move-mcq-32",
-        "move-mcq-29",
-        "move-mcq-33",
-        "move-mcq-28"
+        "move-mcq-27",
+        "move-mcq-25",
+        "move-mcq-42"
       ],
       "explanation": "本句的「move」指「為達成某目標而採取的一個行動／決定」。",
       "sentenceIndex": 61,
@@ -2848,12 +2602,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-31": "本句指「為達成某目標而採取的一個行動／決定」。",
-        "move-mcq-30": "「搬家／把生活或工作位置轉到另一地的事件」是「move = relocation（搬遷）」的用法，與本句語境不同。",
-        "move-mcq-32": "「可被評價為好／壞／聰明／冒險的一項行動」是「smart/good/bad move（聰明／好／壞的一步）」的用法，與本句語境不同。",
-        "move-mcq-29": "「一次身體／物件位置改變的動作」是「move = noun: physical movement（移動／動作）」的用法，與本句語境不同。",
-        "move-mcq-33": "「為職涯發展而作出的轉職、晉升或其他重要決定」是「career move（職業上的一步）」的用法，與本句語境不同。",
-        "move-mcq-28": "「令某人因某種情感／理由而採取行動」是「move = prompt someone to act（促使）」的用法，與本句語境不同。"
+        "move-mcq-31": "本句的「move」指「為達成某目標而採取的一個行動／決定」。",
+        "move-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-31"
     },
@@ -2865,11 +2617,9 @@ export default {
       "masked": "The company’s next ____ is unclear.",
       "options": [
         "move-mcq-31",
-        "move-mcq-30",
-        "move-mcq-32",
-        "move-mcq-29",
-        "move-mcq-33",
-        "move-mcq-28"
+        "move-mcq-09",
+        "move-mcq-41",
+        "move-mcq-26"
       ],
       "explanation": "本句的「move」指「為達成某目標而採取的一個行動／決定」。",
       "sentenceIndex": 62,
@@ -2878,12 +2628,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-31": "本句指「為達成某目標而採取的一個行動／決定」。",
-        "move-mcq-30": "「搬家／把生活或工作位置轉到另一地的事件」是「move = relocation（搬遷）」的用法，與本句語境不同。",
-        "move-mcq-32": "「可被評價為好／壞／聰明／冒險的一項行動」是「smart/good/bad move（聰明／好／壞的一步）」的用法，與本句語境不同。",
-        "move-mcq-29": "「一次身體／物件位置改變的動作」是「move = noun: physical movement（移動／動作）」的用法，與本句語境不同。",
-        "move-mcq-33": "「為職涯發展而作出的轉職、晉升或其他重要決定」是「career move（職業上的一步）」的用法，與本句語境不同。",
-        "move-mcq-28": "「令某人因某種情感／理由而採取行動」是「move = prompt someone to act（促使）」的用法，與本句語境不同。"
+        "move-mcq-31": "本句的「move」指「為達成某目標而採取的一個行動／決定」。",
+        "move-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-31"
     },
@@ -2895,11 +2643,9 @@ export default {
       "masked": "Accepting the opportunity was a good ____.",
       "options": [
         "move-mcq-32",
-        "move-mcq-31",
-        "move-mcq-33",
-        "move-mcq-30",
-        "move-mcq-34",
-        "move-mcq-29"
+        "move-mcq-10",
+        "move-mcq-41",
+        "move-mcq-18"
       ],
       "explanation": "本句的「move」指「可被評價為好／壞／聰明／冒險的一項行動」。",
       "sentenceIndex": 63,
@@ -2908,12 +2654,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-32": "本句指「可被評價為好／壞／聰明／冒險的一項行動」。",
-        "move-mcq-31": "「為達成某目標而採取的一個行動／決定」是「move = action/decision（行動／舉措）」的用法，與本句語境不同。",
-        "move-mcq-33": "「為職涯發展而作出的轉職、晉升或其他重要決定」是「career move（職業上的一步）」的用法，與本句語境不同。",
-        "move-mcq-30": "「搬家／把生活或工作位置轉到另一地的事件」是「move = relocation（搬遷）」的用法，與本句語境不同。",
-        "move-mcq-34": "「為達成較長遠／競爭目標而採取的策略行動」是「strategic move（策略行動）」的用法，與本句語境不同。",
-        "move-mcq-29": "「一次身體／物件位置改變的動作」是「move = noun: physical movement（移動／動作）」的用法，與本句語境不同。"
+        "move-mcq-32": "本句的「move」指「可被評價為好／壞／聰明／冒險的一項行動」。",
+        "move-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-32"
     },
@@ -2925,11 +2669,9 @@ export default {
       "masked": "Ignoring the warning was a bad ____.",
       "options": [
         "move-mcq-32",
-        "move-mcq-31",
-        "move-mcq-33",
-        "move-mcq-30",
-        "move-mcq-34",
-        "move-mcq-29"
+        "move-mcq-11",
+        "move-mcq-27",
+        "move-mcq-26"
       ],
       "explanation": "本句的「move」指「可被評價為好／壞／聰明／冒險的一項行動」。",
       "sentenceIndex": 64,
@@ -2938,12 +2680,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-32": "本句指「可被評價為好／壞／聰明／冒險的一項行動」。",
-        "move-mcq-31": "「為達成某目標而採取的一個行動／決定」是「move = action/decision（行動／舉措）」的用法，與本句語境不同。",
-        "move-mcq-33": "「為職涯發展而作出的轉職、晉升或其他重要決定」是「career move（職業上的一步）」的用法，與本句語境不同。",
-        "move-mcq-30": "「搬家／把生活或工作位置轉到另一地的事件」是「move = relocation（搬遷）」的用法，與本句語境不同。",
-        "move-mcq-34": "「為達成較長遠／競爭目標而採取的策略行動」是「strategic move（策略行動）」的用法，與本句語境不同。",
-        "move-mcq-29": "「一次身體／物件位置改變的動作」是「move = noun: physical movement（移動／動作）」的用法，與本句語境不同。"
+        "move-mcq-32": "本句的「move」指「可被評價為好／壞／聰明／冒險的一項行動」。",
+        "move-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-32"
     },
@@ -2955,11 +2695,9 @@ export default {
       "masked": "The new role was a good ____.",
       "options": [
         "move-mcq-33",
-        "move-mcq-32",
-        "move-mcq-34",
-        "move-mcq-31",
-        "move-mcq-35",
-        "move-mcq-30"
+        "move-mcq-27",
+        "move-mcq-44",
+        "move-mcq-16"
       ],
       "explanation": "本句的「career move」指「為職涯發展而作出的轉職、晉升或其他重要決定」。",
       "sentenceIndex": 65,
@@ -2968,12 +2706,10 @@ export default {
         "career move"
       ],
       "optionReasons": {
-        "move-mcq-33": "本句指「為職涯發展而作出的轉職、晉升或其他重要決定」。",
-        "move-mcq-32": "「可被評價為好／壞／聰明／冒險的一項行動」是「smart/good/bad move（聰明／好／壞的一步）」的用法，與本句語境不同。",
-        "move-mcq-34": "「為達成較長遠／競爭目標而採取的策略行動」是「strategic move（策略行動）」的用法，與本句語境不同。",
-        "move-mcq-31": "「為達成某目標而採取的一個行動／決定」是「move = action/decision（行動／舉措）」的用法，與本句語境不同。",
-        "move-mcq-35": "「在棋類／策略遊戲中一次合法的行動」是「move = turn/play in a game（一步棋／一步）」的用法，與本句語境不同。",
-        "move-mcq-30": "「搬家／把生活或工作位置轉到另一地的事件」是「move = relocation（搬遷）」的用法，與本句語境不同。"
+        "move-mcq-33": "本句的「career move」指「為職涯發展而作出的轉職、晉升或其他重要決定」。",
+        "move-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-33"
     },
@@ -2985,11 +2721,9 @@ export default {
       "masked": "____ overseas was a major career move.",
       "options": [
         "move-mcq-33",
-        "move-mcq-32",
-        "move-mcq-34",
-        "move-mcq-31",
-        "move-mcq-35",
-        "move-mcq-30"
+        "move-mcq-19",
+        "move-mcq-05",
+        "move-mcq-42"
       ],
       "explanation": "本句的「Moving」指「為職涯發展而作出的轉職、晉升或其他重要決定」。",
       "sentenceIndex": 66,
@@ -2998,12 +2732,10 @@ export default {
         "Moving"
       ],
       "optionReasons": {
-        "move-mcq-33": "本句指「為職涯發展而作出的轉職、晉升或其他重要決定」。",
-        "move-mcq-32": "「可被評價為好／壞／聰明／冒險的一項行動」是「smart/good/bad move（聰明／好／壞的一步）」的用法，與本句語境不同。",
-        "move-mcq-34": "「為達成較長遠／競爭目標而採取的策略行動」是「strategic move（策略行動）」的用法，與本句語境不同。",
-        "move-mcq-31": "「為達成某目標而採取的一個行動／決定」是「move = action/decision（行動／舉措）」的用法，與本句語境不同。",
-        "move-mcq-35": "「在棋類／策略遊戲中一次合法的行動」是「move = turn/play in a game（一步棋／一步）」的用法，與本句語境不同。",
-        "move-mcq-30": "「搬家／把生活或工作位置轉到另一地的事件」是「move = relocation（搬遷）」的用法，與本句語境不同。"
+        "move-mcq-33": "本句的「Moving」指「為職涯發展而作出的轉職、晉升或其他重要決定」。",
+        "move-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-33"
     },
@@ -3015,11 +2747,9 @@ export default {
       "masked": "Lowering the price was a ____.",
       "options": [
         "move-mcq-34",
-        "move-mcq-33",
-        "move-mcq-35",
-        "move-mcq-32",
-        "move-mcq-31",
-        "move-mcq-37"
+        "move-mcq-27",
+        "move-mcq-44",
+        "move-mcq-18"
       ],
       "explanation": "本句的「strategic move」指「為達成較長遠／競爭目標而採取的策略行動」。",
       "sentenceIndex": 67,
@@ -3028,12 +2758,10 @@ export default {
         "strategic move"
       ],
       "optionReasons": {
-        "move-mcq-34": "本句指「為達成較長遠／競爭目標而採取的策略行動」。",
-        "move-mcq-33": "「為職涯發展而作出的轉職、晉升或其他重要決定」是「career move（職業上的一步）」的用法，與本句語境不同。",
-        "move-mcq-35": "「在棋類／策略遊戲中一次合法的行動」是「move = turn/play in a game（一步棋／一步）」的用法，與本句語境不同。",
-        "move-mcq-32": "「可被評價為好／壞／聰明／冒險的一項行動」是「smart/good/bad move（聰明／好／壞的一步）」的用法，與本句語境不同。",
-        "move-mcq-31": "「為達成某目標而採取的一個行動／決定」是「move = action/decision（行動／舉措）」的用法，與本句語境不同。",
-        "move-mcq-37": "「下一步時，表示下一步行動」是「next move（下一步）」的用法，與本句語境不同。"
+        "move-mcq-34": "本句的「strategic move」指「為達成較長遠／競爭目標而採取的策略行動」。",
+        "move-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-34"
     },
@@ -3045,11 +2773,9 @@ export default {
       "masked": "The partnership was a clever strategic ____.",
       "options": [
         "move-mcq-34",
-        "move-mcq-33",
-        "move-mcq-35",
-        "move-mcq-32",
-        "move-mcq-31",
-        "move-mcq-37"
+        "move-mcq-18",
+        "move-mcq-01",
+        "move-mcq-33"
       ],
       "explanation": "本句的「move」指「為達成較長遠／競爭目標而採取的策略行動」。",
       "sentenceIndex": 68,
@@ -3058,12 +2784,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-34": "本句指「為達成較長遠／競爭目標而採取的策略行動」。",
-        "move-mcq-33": "「為職涯發展而作出的轉職、晉升或其他重要決定」是「career move（職業上的一步）」的用法，與本句語境不同。",
-        "move-mcq-35": "「在棋類／策略遊戲中一次合法的行動」是「move = turn/play in a game（一步棋／一步）」的用法，與本句語境不同。",
-        "move-mcq-32": "「可被評價為好／壞／聰明／冒險的一項行動」是「smart/good/bad move（聰明／好／壞的一步）」的用法，與本句語境不同。",
-        "move-mcq-31": "「為達成某目標而採取的一個行動／決定」是「move = action/decision（行動／舉措）」的用法，與本句語境不同。",
-        "move-mcq-37": "「下一步時，表示下一步行動」是「next move（下一步）」的用法，與本句語境不同。"
+        "move-mcq-34": "本句的「move」指「為達成較長遠／競爭目標而採取的策略行動」。",
+        "move-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-34"
     },
@@ -3075,11 +2799,9 @@ export default {
       "masked": "It’s your ____.",
       "options": [
         "move-mcq-35",
-        "move-mcq-34",
-        "move-mcq-33",
-        "move-mcq-37",
-        "move-mcq-32",
-        "move-mcq-38"
+        "move-mcq-24",
+        "move-mcq-30",
+        "move-mcq-42"
       ],
       "explanation": "本句的「move」指「在棋類／策略遊戲中一次合法的行動」。",
       "sentenceIndex": 69,
@@ -3088,12 +2810,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-35": "本句指「在棋類／策略遊戲中一次合法的行動」。",
-        "move-mcq-34": "「為達成較長遠／競爭目標而採取的策略行動」是「strategic move（策略行動）」的用法，與本句語境不同。",
-        "move-mcq-33": "「為職涯發展而作出的轉職、晉升或其他重要決定」是「career move（職業上的一步）」的用法，與本句語境不同。",
-        "move-mcq-37": "「下一步時，表示下一步行動」是「next move（下一步）」的用法，與本句語境不同。",
-        "move-mcq-32": "「可被評價為好／壞／聰明／冒險的一項行動」是「smart/good/bad move（聰明／好／壞的一步）」的用法，與本句語境不同。",
-        "move-mcq-38": "「身體／物件位置改變的行為或能力」是「movement = physical movement（動作／移動）」的用法，與本句語境不同。"
+        "move-mcq-35": "本句的「move」指「在棋類／策略遊戲中一次合法的行動」。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-35"
     },
@@ -3105,11 +2825,9 @@ export default {
       "masked": "That was a brilliant ____.",
       "options": [
         "move-mcq-35",
-        "move-mcq-34",
-        "move-mcq-33",
-        "move-mcq-37",
-        "move-mcq-32",
-        "move-mcq-38"
+        "move-mcq-24",
+        "move-mcq-25",
+        "move-mcq-33"
       ],
       "explanation": "本句的「move」指「在棋類／策略遊戲中一次合法的行動」。",
       "sentenceIndex": 70,
@@ -3118,12 +2836,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-35": "本句指「在棋類／策略遊戲中一次合法的行動」。",
-        "move-mcq-34": "「為達成較長遠／競爭目標而採取的策略行動」是「strategic move（策略行動）」的用法，與本句語境不同。",
-        "move-mcq-33": "「為職涯發展而作出的轉職、晉升或其他重要決定」是「career move（職業上的一步）」的用法，與本句語境不同。",
-        "move-mcq-37": "「下一步時，表示下一步行動」是「next move（下一步）」的用法，與本句語境不同。",
-        "move-mcq-32": "「可被評價為好／壞／聰明／冒險的一項行動」是「smart/good/bad move（聰明／好／壞的一步）」的用法，與本句語境不同。",
-        "move-mcq-38": "「身體／物件位置改變的行為或能力」是「movement = physical movement（動作／移動）」的用法，與本句語境不同。"
+        "move-mcq-35": "本句的「move」指「在棋類／策略遊戲中一次合法的行動」。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-35"
     },
@@ -3135,11 +2851,9 @@ export default {
       "masked": "I’ve made my offer. Now it’s your ____.",
       "options": [
         "move-mcq-36",
-        "move-mcq-37",
-        "move-mcq-34",
-        "move-mcq-38",
-        "move-mcq-33",
-        "move-mcq-39"
+        "move-mcq-08",
+        "move-mcq-10",
+        "move-mcq-26"
       ],
       "explanation": "本句的「move」指「在棋類／策略遊戲中一次合法的行動」。",
       "sentenceIndex": 71,
@@ -3148,12 +2862,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-36": "本句指「在棋類／策略遊戲中一次合法的行動」。",
-        "move-mcq-37": "「下一步時，表示下一步行動」是「next move（下一步）」的用法，與本句語境不同。",
-        "move-mcq-34": "「為達成較長遠／競爭目標而採取的策略行動」是「strategic move（策略行動）」的用法，與本句語境不同。",
-        "move-mcq-38": "「身體／物件位置改變的行為或能力」是「movement = physical movement（動作／移動）」的用法，與本句語境不同。",
-        "move-mcq-33": "「為職涯發展而作出的轉職、晉升或其他重要決定」是「career move（職業上的一步）」的用法，與本句語境不同。",
-        "move-mcq-39": "「由多人共同推動某個社會、文化、政治或改革目標的有組織活動」是「movement = organized social/political campaign（運動）」的用法，與本句語境不同。"
+        "move-mcq-36": "本句的「move」指「在棋類／策略遊戲中一次合法的行動」。",
+        "move-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-36"
     },
@@ -3165,11 +2877,9 @@ export default {
       "masked": "What’s our ____?",
       "options": [
         "move-mcq-37",
-        "move-mcq-36",
-        "move-mcq-38",
-        "move-mcq-39",
-        "move-mcq-34",
-        "move-mcq-40"
+        "move-mcq-09",
+        "move-mcq-42",
+        "move-mcq-24"
       ],
       "explanation": "本句的「next move」指「下一步時，表示下一步行動」。",
       "sentenceIndex": 72,
@@ -3178,12 +2888,10 @@ export default {
         "next move"
       ],
       "optionReasons": {
-        "move-mcq-37": "本句指「下一步時，表示下一步行動」。",
-        "move-mcq-36": "「在棋類／策略遊戲中一次合法的行動」是「your move（輪到你／該你決定）」的用法，與本句語境不同。",
-        "move-mcq-38": "「身體／物件位置改變的行為或能力」是「movement = physical movement（動作／移動）」的用法，與本句語境不同。",
-        "move-mcq-39": "「由多人共同推動某個社會、文化、政治或改革目標的有組織活動」是「movement = organized social/political campaign（運動）」的用法，與本句語境不同。",
-        "move-mcq-34": "「為達成較長遠／競爭目標而採取的策略行動」是「strategic move（策略行動）」的用法，與本句語境不同。",
-        "move-mcq-40": "「數值、價格、市場等由一個水平改變到另一個水平的變化」是「movement = trend/change in value（變動）」的用法，與本句語境不同。"
+        "move-mcq-37": "本句的「next move」指「下一步時，表示下一步行動」。",
+        "move-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-37"
     },
@@ -3195,11 +2903,9 @@ export default {
       "masked": "She carefully planned her next ____.",
       "options": [
         "move-mcq-37",
-        "move-mcq-36",
-        "move-mcq-38",
-        "move-mcq-39",
-        "move-mcq-34",
-        "move-mcq-40"
+        "move-mcq-06",
+        "move-mcq-26",
+        "move-mcq-42"
       ],
       "explanation": "本句的「move」指「下一步時，表示下一步行動」。",
       "sentenceIndex": 73,
@@ -3208,12 +2914,10 @@ export default {
         "move"
       ],
       "optionReasons": {
-        "move-mcq-37": "本句指「下一步時，表示下一步行動」。",
-        "move-mcq-36": "「在棋類／策略遊戲中一次合法的行動」是「your move（輪到你／該你決定）」的用法，與本句語境不同。",
-        "move-mcq-38": "「身體／物件位置改變的行為或能力」是「movement = physical movement（動作／移動）」的用法，與本句語境不同。",
-        "move-mcq-39": "「由多人共同推動某個社會、文化、政治或改革目標的有組織活動」是「movement = organized social/political campaign（運動）」的用法，與本句語境不同。",
-        "move-mcq-34": "「為達成較長遠／競爭目標而採取的策略行動」是「strategic move（策略行動）」的用法，與本句語境不同。",
-        "move-mcq-40": "「數值、價格、市場等由一個水平改變到另一個水平的變化」是「movement = trend/change in value（變動）」的用法，與本句語境不同。"
+        "move-mcq-37": "本句的「move」指「下一步時，表示下一步行動」。",
+        "move-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-37"
     },
@@ -3225,11 +2929,9 @@ export default {
       "masked": "The injury limited her ____.",
       "options": [
         "move-mcq-38",
-        "move-mcq-37",
-        "move-mcq-39",
-        "move-mcq-36",
-        "move-mcq-40",
-        "move-mcq-41"
+        "move-mcq-26",
+        "move-mcq-12",
+        "move-mcq-23"
       ],
       "explanation": "本句的「movement」指「身體／物件位置改變的行為或能力」。",
       "sentenceIndex": 74,
@@ -3238,12 +2940,10 @@ export default {
         "movement"
       ],
       "optionReasons": {
-        "move-mcq-38": "本句指「身體／物件位置改變的行為或能力」。",
-        "move-mcq-37": "「下一步時，表示下一步行動」是「next move（下一步）」的用法，與本句語境不同。",
-        "move-mcq-39": "「由多人共同推動某個社會、文化、政治或改革目標的有組織活動」是「movement = organized social/political campaign（運動）」的用法，與本句語境不同。",
-        "move-mcq-36": "「在棋類／策略遊戲中一次合法的行動」是「your move（輪到你／該你決定）」的用法，與本句語境不同。",
-        "move-mcq-40": "「數值、價格、市場等由一個水平改變到另一個水平的變化」是「movement = trend/change in value（變動）」的用法，與本句語境不同。",
-        "move-mcq-41": "「大型音樂作品中相對獨立的一個主要部分」是「movement = part of a musical composition（樂章）」的用法，與本句語境不同。"
+        "move-mcq-38": "本句的「movement」指「身體／物件位置改變的行為或能力」。",
+        "move-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-38"
     },
@@ -3255,10 +2955,8 @@ export default {
       "masked": "I noticed a slight ____ behind the curtain.",
       "options": [
         "move-mcq-38",
-        "move-mcq-37",
-        "move-mcq-39",
-        "move-mcq-36",
-        "move-mcq-40",
+        "move-mcq-23",
+        "move-mcq-26",
         "move-mcq-41"
       ],
       "explanation": "本句的「movement」指「身體／物件位置改變的行為或能力」。",
@@ -3268,12 +2966,10 @@ export default {
         "movement"
       ],
       "optionReasons": {
-        "move-mcq-38": "本句指「身體／物件位置改變的行為或能力」。",
-        "move-mcq-37": "「下一步時，表示下一步行動」是「next move（下一步）」的用法，與本句語境不同。",
-        "move-mcq-39": "「由多人共同推動某個社會、文化、政治或改革目標的有組織活動」是「movement = organized social/political campaign（運動）」的用法，與本句語境不同。",
-        "move-mcq-36": "「在棋類／策略遊戲中一次合法的行動」是「your move（輪到你／該你決定）」的用法，與本句語境不同。",
-        "move-mcq-40": "「數值、價格、市場等由一個水平改變到另一個水平的變化」是「movement = trend/change in value（變動）」的用法，與本句語境不同。",
-        "move-mcq-41": "「大型音樂作品中相對獨立的一個主要部分」是「movement = part of a musical composition（樂章）」的用法，與本句語境不同。"
+        "move-mcq-38": "本句的「movement」指「身體／物件位置改變的行為或能力」。",
+        "move-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-38"
     },
@@ -3285,11 +2981,9 @@ export default {
       "masked": "The ____ attracted many supporters.",
       "options": [
         "move-mcq-39",
-        "move-mcq-38",
-        "move-mcq-40",
-        "move-mcq-37",
-        "move-mcq-41",
-        "move-mcq-36"
+        "move-mcq-07",
+        "move-mcq-24",
+        "move-mcq-26"
       ],
       "explanation": "本句的「movement」指「由多人共同推動某個社會、文化、政治或改革目標的有組織活動」。",
       "sentenceIndex": 76,
@@ -3298,12 +2992,10 @@ export default {
         "movement"
       ],
       "optionReasons": {
-        "move-mcq-39": "本句指「由多人共同推動某個社會、文化、政治或改革目標的有組織活動」。",
-        "move-mcq-38": "「身體／物件位置改變的行為或能力」是「movement = physical movement（動作／移動）」的用法，與本句語境不同。",
-        "move-mcq-40": "「數值、價格、市場等由一個水平改變到另一個水平的變化」是「movement = trend/change in value（變動）」的用法，與本句語境不同。",
-        "move-mcq-37": "「下一步時，表示下一步行動」是「next move（下一步）」的用法，與本句語境不同。",
-        "move-mcq-41": "「大型音樂作品中相對獨立的一個主要部分」是「movement = part of a musical composition（樂章）」的用法，與本句語境不同。",
-        "move-mcq-36": "「在棋類／策略遊戲中一次合法的行動」是「your move（輪到你／該你決定）」的用法，與本句語境不同。"
+        "move-mcq-39": "本句的「movement」指「由多人共同推動某個社會、文化、政治或改革目標的有組織活動」。",
+        "move-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-39"
     },
@@ -3315,11 +3007,9 @@ export default {
       "masked": "She became involved in an environmental ____.",
       "options": [
         "move-mcq-39",
-        "move-mcq-38",
-        "move-mcq-40",
-        "move-mcq-37",
+        "move-mcq-06",
         "move-mcq-41",
-        "move-mcq-36"
+        "move-mcq-42"
       ],
       "explanation": "本句的「movement」指「由多人共同推動某個社會、文化、政治或改革目標的有組織活動」。",
       "sentenceIndex": 77,
@@ -3328,12 +3018,10 @@ export default {
         "movement"
       ],
       "optionReasons": {
-        "move-mcq-39": "本句指「由多人共同推動某個社會、文化、政治或改革目標的有組織活動」。",
-        "move-mcq-38": "「身體／物件位置改變的行為或能力」是「movement = physical movement（動作／移動）」的用法，與本句語境不同。",
-        "move-mcq-40": "「數值、價格、市場等由一個水平改變到另一個水平的變化」是「movement = trend/change in value（變動）」的用法，與本句語境不同。",
-        "move-mcq-37": "「下一步時，表示下一步行動」是「next move（下一步）」的用法，與本句語境不同。",
-        "move-mcq-41": "「大型音樂作品中相對獨立的一個主要部分」是「movement = part of a musical composition（樂章）」的用法，與本句語境不同。",
-        "move-mcq-36": "「在棋類／策略遊戲中一次合法的行動」是「your move（輪到你／該你決定）」的用法，與本句語境不同。"
+        "move-mcq-39": "本句的「movement」指「由多人共同推動某個社會、文化、政治或改革目標的有組織活動」。",
+        "move-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-39"
     },
@@ -3345,11 +3033,9 @@ export default {
       "masked": "There was little ____.",
       "options": [
         "move-mcq-40",
-        "move-mcq-39",
-        "move-mcq-41",
-        "move-mcq-38",
-        "move-mcq-42",
-        "move-mcq-37"
+        "move-mcq-45",
+        "move-mcq-13",
+        "move-mcq-24"
       ],
       "explanation": "本句的「movement in prices」指「數值、價格、市場等由一個水平改變到另一個水平的變化」。",
       "sentenceIndex": 78,
@@ -3358,12 +3044,10 @@ export default {
         "movement in prices"
       ],
       "optionReasons": {
-        "move-mcq-40": "本句指「數值、價格、市場等由一個水平改變到另一個水平的變化」。",
-        "move-mcq-39": "「由多人共同推動某個社會、文化、政治或改革目標的有組織活動」是「movement = organized social/political campaign（運動）」的用法，與本句語境不同。",
-        "move-mcq-41": "「大型音樂作品中相對獨立的一個主要部分」是「movement = part of a musical composition（樂章）」的用法，與本句語境不同。",
-        "move-mcq-38": "「身體／物件位置改變的行為或能力」是「movement = physical movement（動作／移動）」的用法，與本句語境不同。",
-        "move-mcq-42": "「鐘錶內部令指針／機件運作的機械系統」是「movement = mechanical mechanism（機芯／機械裝置）」的用法，與本句語境不同。",
-        "move-mcq-37": "「下一步時，表示下一步行動」是「next move（下一步）」的用法，與本句語境不同。"
+        "move-mcq-40": "本句的「movement in prices」指「數值、價格、市場等由一個水平改變到另一個水平的變化」。",
+        "move-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-40"
     },
@@ -3375,11 +3059,9 @@ export default {
       "masked": "Analysts watched the ____ of the market.",
       "options": [
         "move-mcq-40",
-        "move-mcq-39",
-        "move-mcq-41",
-        "move-mcq-38",
-        "move-mcq-42",
-        "move-mcq-37"
+        "move-mcq-36",
+        "move-mcq-20",
+        "move-mcq-22"
       ],
       "explanation": "本句的「movement」指「數值、價格、市場等由一個水平改變到另一個水平的變化」。",
       "sentenceIndex": 79,
@@ -3388,12 +3070,10 @@ export default {
         "movement"
       ],
       "optionReasons": {
-        "move-mcq-40": "本句指「數值、價格、市場等由一個水平改變到另一個水平的變化」。",
-        "move-mcq-39": "「由多人共同推動某個社會、文化、政治或改革目標的有組織活動」是「movement = organized social/political campaign（運動）」的用法，與本句語境不同。",
-        "move-mcq-41": "「大型音樂作品中相對獨立的一個主要部分」是「movement = part of a musical composition（樂章）」的用法，與本句語境不同。",
-        "move-mcq-38": "「身體／物件位置改變的行為或能力」是「movement = physical movement（動作／移動）」的用法，與本句語境不同。",
-        "move-mcq-42": "「鐘錶內部令指針／機件運作的機械系統」是「movement = mechanical mechanism（機芯／機械裝置）」的用法，與本句語境不同。",
-        "move-mcq-37": "「下一步時，表示下一步行動」是「next move（下一步）」的用法，與本句語境不同。"
+        "move-mcq-40": "本句的「movement」指「數值、價格、市場等由一個水平改變到另一個水平的變化」。",
+        "move-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-40"
     },
@@ -3405,11 +3085,9 @@ export default {
       "masked": "The symphony has four ____.",
       "options": [
         "move-mcq-41",
-        "move-mcq-40",
-        "move-mcq-42",
-        "move-mcq-39",
-        "move-mcq-43",
-        "move-mcq-38"
+        "move-mcq-04",
+        "move-mcq-21",
+        "move-mcq-37"
       ],
       "explanation": "本句的「movements」指「大型音樂作品中相對獨立的一個主要部分」。",
       "sentenceIndex": 80,
@@ -3418,12 +3096,10 @@ export default {
         "movements"
       ],
       "optionReasons": {
-        "move-mcq-41": "本句指「大型音樂作品中相對獨立的一個主要部分」。",
-        "move-mcq-40": "「數值、價格、市場等由一個水平改變到另一個水平的變化」是「movement = trend/change in value（變動）」的用法，與本句語境不同。",
-        "move-mcq-42": "「鐘錶內部令指針／機件運作的機械系統」是「movement = mechanical mechanism（機芯／機械裝置）」的用法，與本句語境不同。",
-        "move-mcq-39": "「由多人共同推動某個社會、文化、政治或改革目標的有組織活動」是「movement = organized social/political campaign（運動）」的用法，與本句語境不同。",
-        "move-mcq-43": "「能引發強烈情緒、令人深受感動的」是「moving = causing emotion（令人感動的）」的用法，與本句語境不同。",
-        "move-mcq-38": "「身體／物件位置改變的行為或能力」是「movement = physical movement（動作／移動）」的用法，與本句語境不同。"
+        "move-mcq-41": "本句的「movements」指「大型音樂作品中相對獨立的一個主要部分」。",
+        "move-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-41"
     },
@@ -3435,11 +3111,9 @@ export default {
       "masked": "The second ____ is very slow.",
       "options": [
         "move-mcq-41",
-        "move-mcq-40",
-        "move-mcq-42",
-        "move-mcq-39",
         "move-mcq-43",
-        "move-mcq-38"
+        "move-mcq-04",
+        "move-mcq-36"
       ],
       "explanation": "本句的「movement」指「大型音樂作品中相對獨立的一個主要部分」。",
       "sentenceIndex": 81,
@@ -3448,12 +3122,10 @@ export default {
         "movement"
       ],
       "optionReasons": {
-        "move-mcq-41": "本句指「大型音樂作品中相對獨立的一個主要部分」。",
-        "move-mcq-40": "「數值、價格、市場等由一個水平改變到另一個水平的變化」是「movement = trend/change in value（變動）」的用法，與本句語境不同。",
-        "move-mcq-42": "「鐘錶內部令指針／機件運作的機械系統」是「movement = mechanical mechanism（機芯／機械裝置）」的用法，與本句語境不同。",
-        "move-mcq-39": "「由多人共同推動某個社會、文化、政治或改革目標的有組織活動」是「movement = organized social/political campaign（運動）」的用法，與本句語境不同。",
-        "move-mcq-43": "「能引發強烈情緒、令人深受感動的」是「moving = causing emotion（令人感動的）」的用法，與本句語境不同。",
-        "move-mcq-38": "「身體／物件位置改變的行為或能力」是「movement = physical movement（動作／移動）」的用法，與本句語境不同。"
+        "move-mcq-41": "本句的「movement」指「大型音樂作品中相對獨立的一個主要部分」。",
+        "move-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-41"
     },
@@ -3465,11 +3137,9 @@ export default {
       "masked": "The watch has a mechanical ____.",
       "options": [
         "move-mcq-42",
-        "move-mcq-41",
-        "move-mcq-43",
-        "move-mcq-40",
-        "move-mcq-44",
-        "move-mcq-39"
+        "move-mcq-37",
+        "move-mcq-08",
+        "move-mcq-23"
       ],
       "explanation": "本句的「movement」指「鐘錶內部令指針／機件運作的機械系統」。",
       "sentenceIndex": 82,
@@ -3478,12 +3148,10 @@ export default {
         "movement"
       ],
       "optionReasons": {
-        "move-mcq-42": "本句指「鐘錶內部令指針／機件運作的機械系統」。",
-        "move-mcq-41": "「大型音樂作品中相對獨立的一個主要部分」是「movement = part of a musical composition（樂章）」的用法，與本句語境不同。",
-        "move-mcq-43": "「能引發強烈情緒、令人深受感動的」是「moving = causing emotion（令人感動的）」的用法，與本句語境不同。",
-        "move-mcq-40": "「數值、價格、市場等由一個水平改變到另一個水平的變化」是「movement = trend/change in value（變動）」的用法，與本句語境不同。",
-        "move-mcq-44": "「負責搬運家具、物件等的人／搬家公司工作人員」是「mover = person/thing that moves（搬運者／搬家公司人員）」的用法，與本句語境不同。",
-        "move-mcq-39": "「由多人共同推動某個社會、文化、政治或改革目標的有組織活動」是「movement = organized social/political campaign（運動）」的用法，與本句語境不同。"
+        "move-mcq-42": "本句的「movement」指「鐘錶內部令指針／機件運作的機械系統」。",
+        "move-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-42"
     },
@@ -3495,11 +3163,9 @@ export default {
       "masked": "The ____ was repaired.",
       "options": [
         "move-mcq-42",
-        "move-mcq-41",
-        "move-mcq-43",
-        "move-mcq-40",
-        "move-mcq-44",
-        "move-mcq-39"
+        "move-mcq-23",
+        "move-mcq-39",
+        "move-mcq-37"
       ],
       "explanation": "本句的「movement」指「鐘錶內部令指針／機件運作的機械系統」。",
       "sentenceIndex": 83,
@@ -3508,12 +3174,10 @@ export default {
         "movement"
       ],
       "optionReasons": {
-        "move-mcq-42": "本句指「鐘錶內部令指針／機件運作的機械系統」。",
-        "move-mcq-41": "「大型音樂作品中相對獨立的一個主要部分」是「movement = part of a musical composition（樂章）」的用法，與本句語境不同。",
-        "move-mcq-43": "「能引發強烈情緒、令人深受感動的」是「moving = causing emotion（令人感動的）」的用法，與本句語境不同。",
-        "move-mcq-40": "「數值、價格、市場等由一個水平改變到另一個水平的變化」是「movement = trend/change in value（變動）」的用法，與本句語境不同。",
-        "move-mcq-44": "「負責搬運家具、物件等的人／搬家公司工作人員」是「mover = person/thing that moves（搬運者／搬家公司人員）」的用法，與本句語境不同。",
-        "move-mcq-39": "「由多人共同推動某個社會、文化、政治或改革目標的有組織活動」是「movement = organized social/political campaign（運動）」的用法，與本句語境不同。"
+        "move-mcq-42": "本句的「movement」指「鐘錶內部令指針／機件運作的機械系統」。",
+        "move-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-42"
     },
@@ -3525,11 +3189,9 @@ export default {
       "masked": "Her words were very ____.",
       "options": [
         "move-mcq-43",
-        "move-mcq-42",
         "move-mcq-44",
-        "move-mcq-41",
-        "move-mcq-45",
-        "move-mcq-40"
+        "move-mcq-18",
+        "move-mcq-24"
       ],
       "explanation": "本句的「moving」指「能引發強烈情緒、令人深受感動的」。",
       "sentenceIndex": 84,
@@ -3538,12 +3200,10 @@ export default {
         "moving"
       ],
       "optionReasons": {
-        "move-mcq-43": "本句指「能引發強烈情緒、令人深受感動的」。",
-        "move-mcq-42": "「鐘錶內部令指針／機件運作的機械系統」是「movement = mechanical mechanism（機芯／機械裝置）」的用法，與本句語境不同。",
-        "move-mcq-44": "「負責搬運家具、物件等的人／搬家公司工作人員」是「mover = person/thing that moves（搬運者／搬家公司人員）」的用法，與本句語境不同。",
-        "move-mcq-41": "「大型音樂作品中相對獨立的一個主要部分」是「movement = part of a musical composition（樂章）」的用法，與本句語境不同。",
-        "move-mcq-45": "「能作出重要決定、推動事情或具有強大影響力的人」是「mover and shaker（有影響力的人）」的用法，與本句語境不同。",
-        "move-mcq-40": "「數值、價格、市場等由一個水平改變到另一個水平的變化」是「movement = trend/change in value（變動）」的用法，與本句語境不同。"
+        "move-mcq-43": "本句的「moving」指「能引發強烈情緒、令人深受感動的」。",
+        "move-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-43"
     },
@@ -3555,11 +3215,9 @@ export default {
       "masked": "It was a ____ tribute to her grandmother.",
       "options": [
         "move-mcq-43",
-        "move-mcq-42",
-        "move-mcq-44",
-        "move-mcq-41",
-        "move-mcq-45",
-        "move-mcq-40"
+        "move-mcq-40",
+        "move-mcq-18",
+        "move-mcq-44"
       ],
       "explanation": "本句的「moving」指「能引發強烈情緒、令人深受感動的」。",
       "sentenceIndex": 85,
@@ -3568,12 +3226,10 @@ export default {
         "moving"
       ],
       "optionReasons": {
-        "move-mcq-43": "本句指「能引發強烈情緒、令人深受感動的」。",
-        "move-mcq-42": "「鐘錶內部令指針／機件運作的機械系統」是「movement = mechanical mechanism（機芯／機械裝置）」的用法，與本句語境不同。",
-        "move-mcq-44": "「負責搬運家具、物件等的人／搬家公司工作人員」是「mover = person/thing that moves（搬運者／搬家公司人員）」的用法，與本句語境不同。",
-        "move-mcq-41": "「大型音樂作品中相對獨立的一個主要部分」是「movement = part of a musical composition（樂章）」的用法，與本句語境不同。",
-        "move-mcq-45": "「能作出重要決定、推動事情或具有強大影響力的人」是「mover and shaker（有影響力的人）」的用法，與本句語境不同。",
-        "move-mcq-40": "「數值、價格、市場等由一個水平改變到另一個水平的變化」是「movement = trend/change in value（變動）」的用法，與本句語境不同。"
+        "move-mcq-43": "本句的「moving」指「能引發強烈情緒、令人深受感動的」。",
+        "move-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-43"
     },
@@ -3585,11 +3241,9 @@ export default {
       "masked": "The ____ arrived early.",
       "options": [
         "move-mcq-44",
-        "move-mcq-43",
-        "move-mcq-45",
-        "move-mcq-42",
-        "move-mcq-41",
-        "move-mcq-40"
+        "move-mcq-35",
+        "move-mcq-02",
+        "move-mcq-23"
       ],
       "explanation": "本句的「movers」指「負責搬運家具、物件等的人／搬家公司工作人員」。",
       "sentenceIndex": 86,
@@ -3598,12 +3252,10 @@ export default {
         "movers"
       ],
       "optionReasons": {
-        "move-mcq-44": "本句指「負責搬運家具、物件等的人／搬家公司工作人員」。",
-        "move-mcq-43": "「能引發強烈情緒、令人深受感動的」是「moving = causing emotion（令人感動的）」的用法，與本句語境不同。",
-        "move-mcq-45": "「能作出重要決定、推動事情或具有強大影響力的人」是「mover and shaker（有影響力的人）」的用法，與本句語境不同。",
-        "move-mcq-42": "「鐘錶內部令指針／機件運作的機械系統」是「movement = mechanical mechanism（機芯／機械裝置）」的用法，與本句語境不同。",
-        "move-mcq-41": "「大型音樂作品中相對獨立的一個主要部分」是「movement = part of a musical composition（樂章）」的用法，與本句語境不同。",
-        "move-mcq-40": "「數值、價格、市場等由一個水平改變到另一個水平的變化」是「movement = trend/change in value（變動）」的用法，與本句語境不同。"
+        "move-mcq-44": "本句的「movers」指「負責搬運家具、物件等的人／搬家公司工作人員」。",
+        "move-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-44"
     },
@@ -3615,11 +3267,9 @@ export default {
       "masked": "We hired professional ____.",
       "options": [
         "move-mcq-44",
-        "move-mcq-43",
-        "move-mcq-45",
-        "move-mcq-42",
-        "move-mcq-41",
-        "move-mcq-40"
+        "move-mcq-31",
+        "move-mcq-23",
+        "move-mcq-21"
       ],
       "explanation": "本句的「movers」指「負責搬運家具、物件等的人／搬家公司工作人員」。",
       "sentenceIndex": 87,
@@ -3628,12 +3278,10 @@ export default {
         "movers"
       ],
       "optionReasons": {
-        "move-mcq-44": "本句指「負責搬運家具、物件等的人／搬家公司工作人員」。",
-        "move-mcq-43": "「能引發強烈情緒、令人深受感動的」是「moving = causing emotion（令人感動的）」的用法，與本句語境不同。",
-        "move-mcq-45": "「能作出重要決定、推動事情或具有強大影響力的人」是「mover and shaker（有影響力的人）」的用法，與本句語境不同。",
-        "move-mcq-42": "「鐘錶內部令指針／機件運作的機械系統」是「movement = mechanical mechanism（機芯／機械裝置）」的用法，與本句語境不同。",
-        "move-mcq-41": "「大型音樂作品中相對獨立的一個主要部分」是「movement = part of a musical composition（樂章）」的用法，與本句語境不同。",
-        "move-mcq-40": "「數值、價格、市場等由一個水平改變到另一個水平的變化」是「movement = trend/change in value（變動）」的用法，與本句語境不同。"
+        "move-mcq-44": "本句的「movers」指「負責搬運家具、物件等的人／搬家公司工作人員」。",
+        "move-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-44"
     },
@@ -3645,11 +3293,9 @@ export default {
       "masked": "She became one of the industry’s ____.",
       "options": [
         "move-mcq-45",
-        "move-mcq-44",
-        "move-mcq-43",
-        "move-mcq-42",
-        "move-mcq-41",
-        "move-mcq-40"
+        "move-mcq-18",
+        "move-mcq-04",
+        "move-mcq-10"
       ],
       "explanation": "本句的「movers and shakers」指「能作出重要決定、推動事情或具有強大影響力的人」。",
       "sentenceIndex": 88,
@@ -3658,12 +3304,10 @@ export default {
         "movers and shakers"
       ],
       "optionReasons": {
-        "move-mcq-45": "本句指「能作出重要決定、推動事情或具有強大影響力的人」。",
-        "move-mcq-44": "「負責搬運家具、物件等的人／搬家公司工作人員」是「mover = person/thing that moves（搬運者／搬家公司人員）」的用法，與本句語境不同。",
-        "move-mcq-43": "「能引發強烈情緒、令人深受感動的」是「moving = causing emotion（令人感動的）」的用法，與本句語境不同。",
-        "move-mcq-42": "「鐘錶內部令指針／機件運作的機械系統」是「movement = mechanical mechanism（機芯／機械裝置）」的用法，與本句語境不同。",
-        "move-mcq-41": "「大型音樂作品中相對獨立的一個主要部分」是「movement = part of a musical composition（樂章）」的用法，與本句語境不同。",
-        "move-mcq-40": "「數值、價格、市場等由一個水平改變到另一個水平的變化」是「movement = trend/change in value（變動）」的用法，與本句語境不同。"
+        "move-mcq-45": "本句的「movers and shakers」指「能作出重要決定、推動事情或具有強大影響力的人」。",
+        "move-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-45"
     },
@@ -3675,11 +3319,9 @@ export default {
       "masked": "The event attracted local ____ and shakers.",
       "options": [
         "move-mcq-45",
-        "move-mcq-44",
-        "move-mcq-43",
+        "move-mcq-05",
         "move-mcq-42",
-        "move-mcq-41",
-        "move-mcq-40"
+        "move-mcq-18"
       ],
       "explanation": "本句的「movers」指「能作出重要決定、推動事情或具有強大影響力的人」。",
       "sentenceIndex": 89,
@@ -3688,12 +3330,10 @@ export default {
         "movers"
       ],
       "optionReasons": {
-        "move-mcq-45": "本句指「能作出重要決定、推動事情或具有強大影響力的人」。",
-        "move-mcq-44": "「負責搬運家具、物件等的人／搬家公司工作人員」是「mover = person/thing that moves（搬運者／搬家公司人員）」的用法，與本句語境不同。",
-        "move-mcq-43": "「能引發強烈情緒、令人深受感動的」是「moving = causing emotion（令人感動的）」的用法，與本句語境不同。",
-        "move-mcq-42": "「鐘錶內部令指針／機件運作的機械系統」是「movement = mechanical mechanism（機芯／機械裝置）」的用法，與本句語境不同。",
-        "move-mcq-41": "「大型音樂作品中相對獨立的一個主要部分」是「movement = part of a musical composition（樂章）」的用法，與本句語境不同。",
-        "move-mcq-40": "「數值、價格、市場等由一個水平改變到另一個水平的變化」是「movement = trend/change in value（變動）」的用法，與本句語境不同。"
+        "move-mcq-45": "本句的「movers」指「能作出重要決定、推動事情或具有強大影響力的人」。",
+        "move-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "move-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "move-mcq-45"
     }
@@ -3705,5 +3345,7 @@ export default {
     "sha256": "f7956fd50c2ee20f6b37b2151df843b1c0818629a6f86869b57980d77663fa5e",
     "pages": 36
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

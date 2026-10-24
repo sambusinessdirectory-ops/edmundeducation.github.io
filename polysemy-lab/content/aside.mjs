@@ -123,16 +123,6 @@ export default {
           "專門預留一段時間給某項活動"
         ],
         [
-          "Part of the contract is reserved as a small-business set-aside.",
-          "合約的一部分被列為小型企業保留份額。",
-          "專門預留一段時間給某項活動"
-        ],
-        [
-          "The programme includes a set-aside for local suppliers.",
-          "這項計劃為本地供應商設有預留名額／份額。",
-          "專門預留一段時間給某項活動"
-        ],
-        [
           "She set aside Friday afternoon for planning.",
           "她把星期五下午專門留作規劃用途。",
           "專門預留一段時間給某項活動"
@@ -472,6 +462,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "aside-reviewed-a33410162f",
+      "title": "特別保留給某用途、群體或類別的一部分資源／合約",
+      "form": "aside · source section 28",
+      "en": "特別保留給某用途、群體或類別的一部分資源／合約",
+      "zh": "特別保留給某用途、群體或類別的一部分資源／合約",
+      "note": "對照原始教材第 28 節及例句核實。",
+      "examples": [
+        [
+          "Part of the contract is reserved as a small-business set-aside.",
+          "合約的一部分被列為小型企業保留份額。",
+          "特別保留給某用途、群體或類別的一部分資源／合約"
+        ],
+        [
+          "The programme includes a set-aside for local suppliers.",
+          "這項計劃為本地供應商設有預留名額／份額。",
+          "特別保留給某用途、群體或類別的一部分資源／合約"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -483,11 +495,9 @@ export default {
       "masked": "She stepped ____ to let me pass.",
       "options": [
         "aside-mcq-01",
-        "aside-mcq-02",
-        "aside-mcq-03",
-        "aside-mcq-04",
-        "aside-mcq-05",
-        "aside-mcq-06"
+        "aside-reviewed-a33410162f",
+        "aside-mcq-15",
+        "aside-mcq-21"
       ],
       "explanation": "本句的「aside」指「從原來／主要位置移到旁邊」。",
       "sentenceIndex": 0,
@@ -496,12 +506,10 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-01": "本句指「從原來／主要位置移到旁邊」。",
-        "aside-mcq-02": "「移到一邊，通常為別人／物件讓路」與本句語境不同。",
-        "aside-mcq-03": "「把某物移開並暫時不再使用」與本句語境不同。",
-        "aside-mcq-04": "「暫時停止處理／考慮某件事」與本句語境不同。",
-        "aside-mcq-05": "「暫時不讓分歧影響當前合作／行動」與本句語境不同。",
-        "aside-mcq-06": "「專門保留一部分金錢作未來用途」與本句語境不同。"
+        "aside-mcq-01": "本句的「aside」指「從原來／主要位置移到旁邊」。",
+        "aside-reviewed-a33410162f": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-01"
     },
@@ -513,11 +521,9 @@ export default {
       "masked": "He moved the chair ____.",
       "options": [
         "aside-mcq-01",
-        "aside-mcq-02",
-        "aside-mcq-03",
-        "aside-mcq-04",
-        "aside-mcq-05",
-        "aside-mcq-06"
+        "aside-mcq-07",
+        "aside-mcq-11",
+        "aside-mcq-16"
       ],
       "explanation": "本句的「aside」指「從原來／主要位置移到旁邊」。",
       "sentenceIndex": 1,
@@ -526,12 +532,10 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-01": "本句指「從原來／主要位置移到旁邊」。",
-        "aside-mcq-02": "「移到一邊，通常為別人／物件讓路」與本句語境不同。",
-        "aside-mcq-03": "「把某物移開並暫時不再使用」與本句語境不同。",
-        "aside-mcq-04": "「暫時停止處理／考慮某件事」與本句語境不同。",
-        "aside-mcq-05": "「暫時不讓分歧影響當前合作／行動」與本句語境不同。",
-        "aside-mcq-06": "「專門保留一部分金錢作未來用途」與本句語境不同。"
+        "aside-mcq-01": "本句的「aside」指「從原來／主要位置移到旁邊」。",
+        "aside-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-01"
     },
@@ -543,11 +547,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "aside-mcq-02",
-        "aside-mcq-01",
-        "aside-mcq-03",
-        "aside-mcq-04",
-        "aside-mcq-05",
-        "aside-mcq-06"
+        "aside-mcq-15",
+        "aside-mcq-20",
+        "aside-mcq-16"
       ],
       "explanation": "本句的「move aside」指「移到一邊，通常為別人／物件讓路」。",
       "sentenceIndex": 2,
@@ -556,12 +558,10 @@ export default {
         "move aside"
       ],
       "optionReasons": {
-        "aside-mcq-02": "本句指「移到一邊，通常為別人／物件讓路」。",
-        "aside-mcq-01": "「從原來／主要位置移到旁邊」與本句語境不同。",
-        "aside-mcq-03": "「把某物移開並暫時不再使用」與本句語境不同。",
-        "aside-mcq-04": "「暫時停止處理／考慮某件事」與本句語境不同。",
-        "aside-mcq-05": "「暫時不讓分歧影響當前合作／行動」與本句語境不同。",
-        "aside-mcq-06": "「專門保留一部分金錢作未來用途」與本句語境不同。"
+        "aside-mcq-02": "本句的「move aside」指「移到一邊，通常為別人／物件讓路」。",
+        "aside-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-02"
     },
@@ -573,11 +573,9 @@ export default {
       "masked": "People moved ____ for the ambulance crew.",
       "options": [
         "aside-mcq-02",
-        "aside-mcq-01",
-        "aside-mcq-03",
-        "aside-mcq-04",
-        "aside-mcq-05",
-        "aside-mcq-06"
+        "aside-mcq-20",
+        "aside-mcq-15",
+        "aside-mcq-14"
       ],
       "explanation": "本句的「aside」指「移到一邊，通常為別人／物件讓路」。",
       "sentenceIndex": 3,
@@ -586,12 +584,10 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-02": "本句指「移到一邊，通常為別人／物件讓路」。",
-        "aside-mcq-01": "「從原來／主要位置移到旁邊」與本句語境不同。",
-        "aside-mcq-03": "「把某物移開並暫時不再使用」與本句語境不同。",
-        "aside-mcq-04": "「暫時停止處理／考慮某件事」與本句語境不同。",
-        "aside-mcq-05": "「暫時不讓分歧影響當前合作／行動」與本句語境不同。",
-        "aside-mcq-06": "「專門保留一部分金錢作未來用途」與本句語境不同。"
+        "aside-mcq-02": "本句的「aside」指「移到一邊，通常為別人／物件讓路」。",
+        "aside-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-02"
     },
@@ -603,11 +599,9 @@ export default {
       "masked": "He ____ as the door opened.",
       "options": [
         "aside-mcq-20",
-        "aside-mcq-19",
-        "aside-mcq-21",
-        "aside-mcq-18",
-        "aside-mcq-22",
-        "aside-mcq-17"
+        "aside-reviewed-a33410162f",
+        "aside-mcq-10",
+        "aside-mcq-21"
       ],
       "explanation": "本句的「stepped aside」指「離開職位／權力位置，讓另一人接替」。",
       "sentenceIndex": 4,
@@ -616,12 +610,10 @@ export default {
         "stepped aside"
       ],
       "optionReasons": {
-        "aside-mcq-20": "本句指「離開職位／權力位置，讓另一人接替」。",
-        "aside-mcq-19": "「暫停農業生產並保留作政策／環境用途的土地」與本句語境不同。",
-        "aside-mcq-21": "「不參與、不干預正在發生的事情」與本句語境不同。",
-        "aside-mcq-18": "「特別保留給指定群體／用途的合約或資源份額」與本句語境不同。",
-        "aside-mcq-22": "「把某意見／疑慮當作不重要而不認真處理」與本句語境不同。",
-        "aside-mcq-17": "「正式撤銷／使判決、裁決或命令失效」與本句語境不同。"
+        "aside-mcq-20": "本句的「stepped aside」指「離開職位／權力位置，讓另一人接替」。",
+        "aside-reviewed-a33410162f": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-20"
     },
@@ -633,11 +625,9 @@ export default {
       "masked": "Could you step ____ for a moment?",
       "options": [
         "aside-mcq-20",
-        "aside-mcq-19",
-        "aside-mcq-21",
-        "aside-mcq-18",
-        "aside-mcq-22",
-        "aside-mcq-17"
+        "aside-mcq-06",
+        "aside-mcq-02",
+        "aside-mcq-10"
       ],
       "explanation": "本句的「aside」指「離開職位／權力位置，讓另一人接替」。",
       "sentenceIndex": 5,
@@ -646,12 +636,10 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-20": "本句指「離開職位／權力位置，讓另一人接替」。",
-        "aside-mcq-19": "「暫停農業生產並保留作政策／環境用途的土地」與本句語境不同。",
-        "aside-mcq-21": "「不參與、不干預正在發生的事情」與本句語境不同。",
-        "aside-mcq-18": "「特別保留給指定群體／用途的合約或資源份額」與本句語境不同。",
-        "aside-mcq-22": "「把某意見／疑慮當作不重要而不認真處理」與本句語境不同。",
-        "aside-mcq-17": "「正式撤銷／使判決、裁決或命令失效」與本句語境不同。"
+        "aside-mcq-20": "本句的「aside」指「離開職位／權力位置，讓另一人接替」。",
+        "aside-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-20"
     },
@@ -663,11 +651,9 @@ export default {
       "masked": "She ____ some money every month.",
       "options": [
         "aside-mcq-06",
-        "aside-mcq-05",
-        "aside-mcq-07",
-        "aside-mcq-04",
         "aside-mcq-08",
-        "aside-mcq-03"
+        "aside-mcq-15",
+        "aside-mcq-10"
       ],
       "explanation": "本句的「sets aside」指「專門保留一部分金錢作未來用途」。",
       "sentenceIndex": 14,
@@ -676,12 +662,10 @@ export default {
         "sets aside"
       ],
       "optionReasons": {
-        "aside-mcq-06": "本句指「專門保留一部分金錢作未來用途」。",
-        "aside-mcq-05": "「暫時不讓分歧影響當前合作／行動」與本句語境不同。",
-        "aside-mcq-07": "「專門預留一段時間給某項活動」與本句語境不同。",
-        "aside-mcq-04": "「暫時停止處理／考慮某件事」與本句語境不同。",
-        "aside-mcq-08": "「除了某人／物之外」與本句語境不同。",
-        "aside-mcq-03": "「把某物移開並暫時不再使用」與本句語境不同。"
+        "aside-mcq-06": "本句的「sets aside」指「專門保留一部分金錢作未來用途」。",
+        "aside-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-06"
     },
@@ -693,11 +677,9 @@ export default {
       "masked": "We should set ____ money for emergencies.",
       "options": [
         "aside-mcq-06",
-        "aside-mcq-05",
-        "aside-mcq-07",
-        "aside-mcq-04",
+        "aside-mcq-21",
         "aside-mcq-08",
-        "aside-mcq-03"
+        "aside-mcq-16"
       ],
       "explanation": "本句的「aside」指「專門保留一部分金錢作未來用途」。",
       "sentenceIndex": 15,
@@ -706,12 +688,10 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-06": "本句指「專門保留一部分金錢作未來用途」。",
-        "aside-mcq-05": "「暫時不讓分歧影響當前合作／行動」與本句語境不同。",
-        "aside-mcq-07": "「專門預留一段時間給某項活動」與本句語境不同。",
-        "aside-mcq-04": "「暫時停止處理／考慮某件事」與本句語境不同。",
-        "aside-mcq-08": "「除了某人／物之外」與本句語境不同。",
-        "aside-mcq-03": "「把某物移開並暫時不再使用」與本句語境不同。"
+        "aside-mcq-06": "本句的「aside」指「專門保留一部分金錢作未來用途」。",
+        "aside-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-06"
     },
@@ -723,11 +703,9 @@ export default {
       "masked": "Set ____ an hour for revision.",
       "options": [
         "aside-mcq-07",
-        "aside-mcq-06",
-        "aside-mcq-08",
-        "aside-mcq-05",
-        "aside-mcq-09",
-        "aside-mcq-04"
+        "aside-mcq-15",
+        "aside-mcq-16",
+        "aside-mcq-11"
       ],
       "explanation": "本句的「aside」指「專門預留一段時間給某項活動」。",
       "sentenceIndex": 16,
@@ -736,12 +714,10 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-07": "本句指「專門預留一段時間給某項活動」。",
-        "aside-mcq-06": "「專門保留一部分金錢作未來用途」與本句語境不同。",
-        "aside-mcq-08": "「除了某人／物之外」與本句語境不同。",
-        "aside-mcq-05": "「暫時不讓分歧影響當前合作／行動」與本句語境不同。",
-        "aside-mcq-09": "「除了某項特徵／事物之外，還有其他」與本句語境不同。",
-        "aside-mcq-04": "「暫時停止處理／考慮某件事」與本句語境不同。"
+        "aside-mcq-07": "本句的「aside」指「專門預留一段時間給某項活動」。",
+        "aside-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-07"
     },
@@ -753,11 +729,9 @@ export default {
       "masked": "She sets ____ time every week to exercise.",
       "options": [
         "aside-mcq-07",
-        "aside-mcq-06",
-        "aside-mcq-08",
-        "aside-mcq-05",
-        "aside-mcq-09",
-        "aside-mcq-04"
+        "aside-mcq-15",
+        "aside-mcq-11",
+        "aside-mcq-16"
       ],
       "explanation": "本句的「aside」指「專門預留一段時間給某項活動」。",
       "sentenceIndex": 17,
@@ -766,12 +740,10 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-07": "本句指「專門預留一段時間給某項活動」。",
-        "aside-mcq-06": "「專門保留一部分金錢作未來用途」與本句語境不同。",
-        "aside-mcq-08": "「除了某人／物之外」與本句語境不同。",
-        "aside-mcq-05": "「暫時不讓分歧影響當前合作／行動」與本句語境不同。",
-        "aside-mcq-09": "「除了某項特徵／事物之外，還有其他」與本句語境不同。",
-        "aside-mcq-04": "「暫時停止處理／考慮某件事」與本句語境不同。"
+        "aside-mcq-07": "本句的「aside」指「專門預留一段時間給某項活動」。",
+        "aside-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-07"
     },
@@ -783,11 +755,9 @@ export default {
       "masked": "____ one negative comment, the response was positive.",
       "options": [
         "aside-mcq-08",
-        "aside-mcq-07",
-        "aside-mcq-09",
-        "aside-mcq-06",
-        "aside-mcq-10",
-        "aside-mcq-05"
+        "aside-mcq-20",
+        "aside-mcq-14",
+        "aside-mcq-16"
       ],
       "explanation": "本句的「Aside from」指「除了某人／物之外」。",
       "sentenceIndex": 20,
@@ -796,12 +766,10 @@ export default {
         "Aside from"
       ],
       "optionReasons": {
-        "aside-mcq-08": "本句指「除了某人／物之外」。",
-        "aside-mcq-07": "「專門預留一段時間給某項活動」與本句語境不同。",
-        "aside-mcq-09": "「除了某項特徵／事物之外，還有其他」與本句語境不同。",
-        "aside-mcq-06": "「專門保留一部分金錢作未來用途」與本句語境不同。",
-        "aside-mcq-10": "「為討論方便暫時不把某因素納入考慮」與本句語境不同。",
-        "aside-mcq-05": "「暫時不讓分歧影響當前合作／行動」與本句語境不同。"
+        "aside-mcq-08": "本句的「Aside from」指「除了某人／物之外」。",
+        "aside-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-08"
     },
@@ -813,11 +781,9 @@ export default {
       "masked": "____ from the cost, the plan is practical.",
       "options": [
         "aside-mcq-08",
-        "aside-mcq-07",
-        "aside-mcq-09",
+        "aside-mcq-14",
         "aside-mcq-06",
-        "aside-mcq-10",
-        "aside-mcq-05"
+        "aside-mcq-10"
       ],
       "explanation": "本句的「Aside」指「除了某人／物之外」。",
       "sentenceIndex": 21,
@@ -826,12 +792,10 @@ export default {
         "Aside"
       ],
       "optionReasons": {
-        "aside-mcq-08": "本句指「除了某人／物之外」。",
-        "aside-mcq-07": "「專門預留一段時間給某項活動」與本句語境不同。",
-        "aside-mcq-09": "「除了某項特徵／事物之外，還有其他」與本句語境不同。",
-        "aside-mcq-06": "「專門保留一部分金錢作未來用途」與本句語境不同。",
-        "aside-mcq-10": "「為討論方便暫時不把某因素納入考慮」與本句語境不同。",
-        "aside-mcq-05": "「暫時不讓分歧影響當前合作／行動」與本句語境不同。"
+        "aside-mcq-08": "本句的「Aside」指「除了某人／物之外」。",
+        "aside-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-08"
     },
@@ -843,11 +807,9 @@ export default {
       "masked": "____ the emotional effect, there were practical problems too.",
       "options": [
         "aside-mcq-10",
-        "aside-mcq-09",
-        "aside-mcq-11",
-        "aside-mcq-08",
-        "aside-mcq-12",
-        "aside-mcq-07"
+        "aside-mcq-01",
+        "aside-mcq-21",
+        "aside-mcq-06"
       ],
       "explanation": "本句的「Aside from」指「為討論方便暫時不把某因素納入考慮」。",
       "sentenceIndex": 22,
@@ -856,12 +818,10 @@ export default {
         "Aside from"
       ],
       "optionReasons": {
-        "aside-mcq-10": "本句指「為討論方便暫時不把某因素納入考慮」。",
-        "aside-mcq-09": "「除了某項特徵／事物之外，還有其他」與本句語境不同。",
-        "aside-mcq-11": "「把某人帶離其他人，以便私下交談」與本句語境不同。",
-        "aside-mcq-08": "「除了某人／物之外」與本句語境不同。",
-        "aside-mcq-12": "「角色向觀眾／自己說、其他角色假定聽不到的旁語」與本句語境不同。",
-        "aside-mcq-07": "「專門預留一段時間給某項活動」與本句語境不同。"
+        "aside-mcq-10": "本句的「Aside from」指「為討論方便暫時不把某因素納入考慮」。",
+        "aside-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-10"
     },
@@ -873,11 +833,9 @@ export default {
       "masked": "____ from whether it was popular, was the video actually good?",
       "options": [
         "aside-mcq-10",
-        "aside-mcq-09",
-        "aside-mcq-11",
-        "aside-mcq-08",
-        "aside-mcq-12",
-        "aside-mcq-07"
+        "aside-mcq-06",
+        "aside-mcq-02",
+        "aside-mcq-20"
       ],
       "explanation": "本句的「Aside」指「為討論方便暫時不把某因素納入考慮」。",
       "sentenceIndex": 23,
@@ -886,12 +844,10 @@ export default {
         "Aside"
       ],
       "optionReasons": {
-        "aside-mcq-10": "本句指「為討論方便暫時不把某因素納入考慮」。",
-        "aside-mcq-09": "「除了某項特徵／事物之外，還有其他」與本句語境不同。",
-        "aside-mcq-11": "「把某人帶離其他人，以便私下交談」與本句語境不同。",
-        "aside-mcq-08": "「除了某人／物之外」與本句語境不同。",
-        "aside-mcq-12": "「角色向觀眾／自己說、其他角色假定聽不到的旁語」與本句語境不同。",
-        "aside-mcq-07": "「專門預留一段時間給某項活動」與本句語境不同。"
+        "aside-mcq-10": "本句的「Aside」指「為討論方便暫時不把某因素納入考慮」。",
+        "aside-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-10"
     },
@@ -903,11 +859,9 @@ export default {
       "masked": "____ from social media, she enjoys painting.",
       "options": [
         "aside-mcq-08",
-        "aside-mcq-07",
-        "aside-mcq-09",
-        "aside-mcq-06",
-        "aside-mcq-10",
-        "aside-mcq-05"
+        "aside-mcq-21",
+        "aside-mcq-24",
+        "aside-mcq-16"
       ],
       "explanation": "本句的「Aside」指「除了某人／物之外」。",
       "sentenceIndex": 24,
@@ -916,12 +870,10 @@ export default {
         "Aside"
       ],
       "optionReasons": {
-        "aside-mcq-08": "本句指「除了某人／物之外」。",
-        "aside-mcq-07": "「專門預留一段時間給某項活動」與本句語境不同。",
-        "aside-mcq-09": "「除了某項特徵／事物之外，還有其他」與本句語境不同。",
-        "aside-mcq-06": "「專門保留一部分金錢作未來用途」與本句語境不同。",
-        "aside-mcq-10": "「為討論方便暫時不把某因素納入考慮」與本句語境不同。",
-        "aside-mcq-05": "「暫時不讓分歧影響當前合作／行動」與本句語境不同。"
+        "aside-mcq-08": "本句的「Aside」指「除了某人／物之外」。",
+        "aside-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-08"
     },
@@ -933,11 +885,9 @@ export default {
       "masked": "____ from being funny, the video was relatable.",
       "options": [
         "aside-mcq-08",
-        "aside-mcq-07",
-        "aside-mcq-09",
-        "aside-mcq-06",
         "aside-mcq-10",
-        "aside-mcq-05"
+        "aside-mcq-19",
+        "aside-mcq-01"
       ],
       "explanation": "本句的「Aside」指「除了某人／物之外」。",
       "sentenceIndex": 25,
@@ -946,12 +896,10 @@ export default {
         "Aside"
       ],
       "optionReasons": {
-        "aside-mcq-08": "本句指「除了某人／物之外」。",
-        "aside-mcq-07": "「專門預留一段時間給某項活動」與本句語境不同。",
-        "aside-mcq-09": "「除了某項特徵／事物之外，還有其他」與本句語境不同。",
-        "aside-mcq-06": "「專門保留一部分金錢作未來用途」與本句語境不同。",
-        "aside-mcq-10": "「為討論方便暫時不把某因素納入考慮」與本句語境不同。",
-        "aside-mcq-05": "「暫時不讓分歧影響當前合作／行動」與本句語境不同。"
+        "aside-mcq-08": "本句的「Aside」指「除了某人／物之外」。",
+        "aside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-08"
     },
@@ -963,11 +911,9 @@ export default {
       "masked": "The teacher ____ after class.",
       "options": [
         "aside-mcq-11",
-        "aside-mcq-10",
-        "aside-mcq-12",
-        "aside-mcq-09",
-        "aside-mcq-13",
-        "aside-mcq-08"
+        "aside-mcq-21",
+        "aside-mcq-19",
+        "aside-mcq-01"
       ],
       "explanation": "本句的「took me aside」指「把某人帶離其他人，以便私下交談」。",
       "sentenceIndex": 26,
@@ -976,12 +922,10 @@ export default {
         "took me aside"
       ],
       "optionReasons": {
-        "aside-mcq-11": "本句指「把某人帶離其他人，以便私下交談」。",
-        "aside-mcq-10": "「為討論方便暫時不把某因素納入考慮」與本句語境不同。",
-        "aside-mcq-12": "「角色向觀眾／自己說、其他角色假定聽不到的旁語」與本句語境不同。",
-        "aside-mcq-09": "「除了某項特徵／事物之外，還有其他」與本句語境不同。",
-        "aside-mcq-13": "「暫時離開主要話題的一句補充／題外話」與本句語境不同。",
-        "aside-mcq-08": "「除了某人／物之外」與本句語境不同。"
+        "aside-mcq-11": "本句的「took me aside」指「把某人帶離其他人，以便私下交談」。",
+        "aside-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-11"
     },
@@ -993,11 +937,9 @@ export default {
       "masked": "She took him ____ to give him some advice.",
       "options": [
         "aside-mcq-11",
-        "aside-mcq-10",
-        "aside-mcq-12",
-        "aside-mcq-09",
-        "aside-mcq-13",
-        "aside-mcq-08"
+        "aside-mcq-21",
+        "aside-mcq-06",
+        "aside-mcq-01"
       ],
       "explanation": "本句的「aside」指「把某人帶離其他人，以便私下交談」。",
       "sentenceIndex": 27,
@@ -1006,12 +948,10 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-11": "本句指「把某人帶離其他人，以便私下交談」。",
-        "aside-mcq-10": "「為討論方便暫時不把某因素納入考慮」與本句語境不同。",
-        "aside-mcq-12": "「角色向觀眾／自己說、其他角色假定聽不到的旁語」與本句語境不同。",
-        "aside-mcq-09": "「除了某項特徵／事物之外，還有其他」與本句語境不同。",
-        "aside-mcq-13": "「暫時離開主要話題的一句補充／題外話」與本句語境不同。",
-        "aside-mcq-08": "「除了某人／物之外」與本句語境不同。"
+        "aside-mcq-11": "本句的「aside」指「把某人帶離其他人，以便私下交談」。",
+        "aside-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-11"
     },
@@ -1023,11 +963,9 @@ export default {
       "masked": "____, the café used to be a bookstore.",
       "options": [
         "aside-mcq-14",
-        "aside-mcq-13",
+        "aside-mcq-08",
         "aside-mcq-15",
-        "aside-mcq-12",
-        "aside-mcq-16",
-        "aside-mcq-11"
+        "aside-mcq-21"
       ],
       "explanation": "本句的「As an aside」指「用來引出一項與主題稍微偏離的補充」。",
       "sentenceIndex": 36,
@@ -1036,12 +974,10 @@ export default {
         "As an aside"
       ],
       "optionReasons": {
-        "aside-mcq-14": "本句指「用來引出一項與主題稍微偏離的補充」。",
-        "aside-mcq-13": "「暫時離開主要話題的一句補充／題外話」與本句語境不同。",
-        "aside-mcq-15": "「停止玩笑，轉回認真談話」與本句語境不同。",
-        "aside-mcq-12": "「角色向觀眾／自己說、其他角色假定聽不到的旁語」與本句語境不同。",
-        "aside-mcq-16": "「撇開剛才所提的那一點不談」與本句語境不同。",
-        "aside-mcq-11": "「把某人帶離其他人，以便私下交談」與本句語境不同。"
+        "aside-mcq-14": "本句的「As an aside」指「用來引出一項與主題稍微偏離的補充」。",
+        "aside-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-14"
     },
@@ -1053,11 +989,9 @@ export default {
       "masked": "As an ____, I actually knew the owner.",
       "options": [
         "aside-mcq-14",
-        "aside-mcq-13",
-        "aside-mcq-15",
-        "aside-mcq-12",
-        "aside-mcq-16",
-        "aside-mcq-11"
+        "aside-reviewed-a33410162f",
+        "aside-mcq-10",
+        "aside-mcq-21"
       ],
       "explanation": "本句的「aside」指「用來引出一項與主題稍微偏離的補充」。",
       "sentenceIndex": 37,
@@ -1066,12 +1000,10 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-14": "本句指「用來引出一項與主題稍微偏離的補充」。",
-        "aside-mcq-13": "「暫時離開主要話題的一句補充／題外話」與本句語境不同。",
-        "aside-mcq-15": "「停止玩笑，轉回認真談話」與本句語境不同。",
-        "aside-mcq-12": "「角色向觀眾／自己說、其他角色假定聽不到的旁語」與本句語境不同。",
-        "aside-mcq-16": "「撇開剛才所提的那一點不談」與本句語境不同。",
-        "aside-mcq-11": "「把某人帶離其他人，以便私下交談」與本句語境不同。"
+        "aside-mcq-14": "本句的「aside」指「用來引出一項與主題稍微偏離的補充」。",
+        "aside-reviewed-a33410162f": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-14"
     },
@@ -1083,11 +1015,9 @@ export default {
       "masked": "____, online criticism can be painful.",
       "options": [
         "aside-mcq-15",
-        "aside-mcq-14",
-        "aside-mcq-16",
-        "aside-mcq-13",
-        "aside-mcq-17",
-        "aside-mcq-12"
+        "aside-mcq-10",
+        "aside-mcq-21",
+        "aside-mcq-06"
       ],
       "explanation": "本句的「All jokes aside」指「停止玩笑，轉回認真談話」。",
       "sentenceIndex": 42,
@@ -1096,12 +1026,10 @@ export default {
         "All jokes aside"
       ],
       "optionReasons": {
-        "aside-mcq-15": "本句指「停止玩笑，轉回認真談話」。",
-        "aside-mcq-14": "「用來引出一項與主題稍微偏離的補充」與本句語境不同。",
-        "aside-mcq-16": "「撇開剛才所提的那一點不談」與本句語境不同。",
-        "aside-mcq-13": "「暫時離開主要話題的一句補充／題外話」與本句語境不同。",
-        "aside-mcq-17": "「正式撤銷／使判決、裁決或命令失效」與本句語境不同。",
-        "aside-mcq-12": "「角色向觀眾／自己說、其他角色假定聽不到的旁語」與本句語境不同。"
+        "aside-mcq-15": "本句的「All jokes aside」指「停止玩笑，轉回認真談話」。",
+        "aside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-15"
     },
@@ -1113,11 +1041,9 @@ export default {
       "masked": "Jokes ____, we need to finish this today.",
       "options": [
         "aside-mcq-15",
+        "aside-mcq-08",
         "aside-mcq-14",
-        "aside-mcq-16",
-        "aside-mcq-13",
-        "aside-mcq-17",
-        "aside-mcq-12"
+        "aside-mcq-21"
       ],
       "explanation": "本句的「aside」指「停止玩笑，轉回認真談話」。",
       "sentenceIndex": 43,
@@ -1126,12 +1052,10 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-15": "本句指「停止玩笑，轉回認真談話」。",
-        "aside-mcq-14": "「用來引出一項與主題稍微偏離的補充」與本句語境不同。",
-        "aside-mcq-16": "「撇開剛才所提的那一點不談」與本句語境不同。",
-        "aside-mcq-13": "「暫時離開主要話題的一句補充／題外話」與本句語境不同。",
-        "aside-mcq-17": "「正式撤銷／使判決、裁決或命令失效」與本句語境不同。",
-        "aside-mcq-12": "「角色向觀眾／自己說、其他角色假定聽不到的旁語」與本句語境不同。"
+        "aside-mcq-15": "本句的「aside」指「停止玩笑，轉回認真談話」。",
+        "aside-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-15"
     },
@@ -1143,11 +1067,9 @@ export default {
       "masked": "The video was stressful. ____, I learned a lot.",
       "options": [
         "aside-mcq-16",
-        "aside-mcq-15",
-        "aside-mcq-17",
+        "aside-mcq-07",
         "aside-mcq-14",
-        "aside-mcq-18",
-        "aside-mcq-13"
+        "aside-mcq-21"
       ],
       "explanation": "本句的「That aside」指「撇開剛才所提的那一點不談」。",
       "sentenceIndex": 46,
@@ -1156,12 +1078,10 @@ export default {
         "That aside"
       ],
       "optionReasons": {
-        "aside-mcq-16": "本句指「撇開剛才所提的那一點不談」。",
-        "aside-mcq-15": "「停止玩笑，轉回認真談話」與本句語境不同。",
-        "aside-mcq-17": "「正式撤銷／使判決、裁決或命令失效」與本句語境不同。",
-        "aside-mcq-14": "「用來引出一項與主題稍微偏離的補充」與本句語境不同。",
-        "aside-mcq-18": "「特別保留給指定群體／用途的合約或資源份額」與本句語境不同。",
-        "aside-mcq-13": "「暫時離開主要話題的一句補充／題外話」與本句語境不同。"
+        "aside-mcq-16": "本句的「That aside」指「撇開剛才所提的那一點不談」。",
+        "aside-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-16"
     },
@@ -1173,11 +1093,9 @@ export default {
       "masked": "The cost is high. That ____, the plan is excellent.",
       "options": [
         "aside-mcq-16",
-        "aside-mcq-15",
-        "aside-mcq-17",
-        "aside-mcq-14",
-        "aside-mcq-18",
-        "aside-mcq-13"
+        "aside-mcq-21",
+        "aside-mcq-01",
+        "aside-mcq-14"
       ],
       "explanation": "本句的「aside」指「撇開剛才所提的那一點不談」。",
       "sentenceIndex": 47,
@@ -1186,74 +1104,68 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-16": "本句指「撇開剛才所提的那一點不談」。",
-        "aside-mcq-15": "「停止玩笑，轉回認真談話」與本句語境不同。",
-        "aside-mcq-17": "「正式撤銷／使判決、裁決或命令失效」與本句語境不同。",
-        "aside-mcq-14": "「用來引出一項與主題稍微偏離的補充」與本句語境不同。",
-        "aside-mcq-18": "「特別保留給指定群體／用途的合約或資源份額」與本句語境不同。",
-        "aside-mcq-13": "「暫時離開主要話題的一句補充／題外話」與本句語境不同。"
+        "aside-mcq-16": "本句的「aside」指「撇開剛才所提的那一點不談」。",
+        "aside-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-16"
     },
     {
       "id": "aside-28-0",
-      "sense": "aside-mcq-07",
+      "sense": "aside-reviewed-a33410162f",
       "en": "Part of the contract is reserved as a small-business set-aside.",
       "zh": "合約的一部分被列為小型企業保留份額。",
       "masked": "Part of the contract is reserved as a small-business ____.",
       "options": [
-        "aside-mcq-07",
-        "aside-mcq-06",
-        "aside-mcq-08",
-        "aside-mcq-05",
-        "aside-mcq-09",
-        "aside-mcq-04"
+        "aside-reviewed-a33410162f",
+        "aside-mcq-10",
+        "aside-mcq-16",
+        "aside-mcq-21"
       ],
-      "explanation": "本句的「set-aside」指「專門預留一段時間給某項活動」。",
+      "explanation": "對照完整句子：「合約的一部分被列為小型企業保留份額。」。這裡的「set-aside」表示「特別保留給某用途、群體或類別的一部分資源／合約」。",
       "sentenceIndex": 54,
       "sourcePractice": 28,
       "targets": [
         "set-aside"
       ],
       "optionReasons": {
-        "aside-mcq-07": "本句指「專門預留一段時間給某項活動」。",
-        "aside-mcq-06": "「專門保留一部分金錢作未來用途」與本句語境不同。",
-        "aside-mcq-08": "「除了某人／物之外」與本句語境不同。",
-        "aside-mcq-05": "「暫時不讓分歧影響當前合作／行動」與本句語境不同。",
-        "aside-mcq-09": "「除了某項特徵／事物之外，還有其他」與本句語境不同。",
-        "aside-mcq-04": "「暫時停止處理／考慮某件事」與本句語境不同。"
+        "aside-reviewed-a33410162f": "對照完整句子：「合約的一部分被列為小型企業保留份額。」。這裡的「set-aside」表示「特別保留給某用途、群體或類別的一部分資源／合約」。",
+        "aside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "aside-mcq-07"
+      "correctOption": "aside-reviewed-a33410162f",
+      "previousCorrectOption": "aside-mcq-07",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "aside-28-1",
-      "sense": "aside-mcq-07",
+      "sense": "aside-reviewed-a33410162f",
       "en": "The programme includes a set-aside for local suppliers.",
       "zh": "這項計劃為本地供應商設有預留名額／份額。",
       "masked": "The programme includes a set-____ for local suppliers.",
       "options": [
-        "aside-mcq-07",
-        "aside-mcq-06",
-        "aside-mcq-08",
-        "aside-mcq-05",
-        "aside-mcq-09",
-        "aside-mcq-04"
+        "aside-reviewed-a33410162f",
+        "aside-mcq-20",
+        "aside-mcq-21",
+        "aside-mcq-14"
       ],
-      "explanation": "本句的「aside」指「專門預留一段時間給某項活動」。",
+      "explanation": "對照完整句子：「這項計劃為本地供應商設有預留名額／份額。」。這裡的「aside」表示「特別保留給某用途、群體或類別的一部分資源／合約」。",
       "sentenceIndex": 55,
       "sourcePractice": 28,
       "targets": [
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-07": "本句指「專門預留一段時間給某項活動」。",
-        "aside-mcq-06": "「專門保留一部分金錢作未來用途」與本句語境不同。",
-        "aside-mcq-08": "「除了某人／物之外」與本句語境不同。",
-        "aside-mcq-05": "「暫時不讓分歧影響當前合作／行動」與本句語境不同。",
-        "aside-mcq-09": "「除了某項特徵／事物之外，還有其他」與本句語境不同。",
-        "aside-mcq-04": "「暫時停止處理／考慮某件事」與本句語境不同。"
+        "aside-reviewed-a33410162f": "對照完整句子：「這項計劃為本地供應商設有預留名額／份額。」。這裡的「aside」表示「特別保留給某用途、群體或類別的一部分資源／合約」。",
+        "aside-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "aside-mcq-07"
+      "correctOption": "aside-reviewed-a33410162f",
+      "previousCorrectOption": "aside-mcq-07",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "aside-29-0",
@@ -1263,11 +1175,9 @@ export default {
       "masked": "Some farmland was kept as ____.",
       "options": [
         "aside-mcq-19",
-        "aside-mcq-18",
-        "aside-mcq-20",
-        "aside-mcq-17",
-        "aside-mcq-21",
-        "aside-mcq-16"
+        "aside-mcq-01",
+        "aside-mcq-14",
+        "aside-mcq-08"
       ],
       "explanation": "本句的「set-aside land」指「暫停農業生產並保留作政策／環境用途的土地」。",
       "sentenceIndex": 56,
@@ -1276,12 +1186,10 @@ export default {
         "set-aside land"
       ],
       "optionReasons": {
-        "aside-mcq-19": "本句指「暫停農業生產並保留作政策／環境用途的土地」。",
-        "aside-mcq-18": "「特別保留給指定群體／用途的合約或資源份額」與本句語境不同。",
-        "aside-mcq-20": "「離開職位／權力位置，讓另一人接替」與本句語境不同。",
-        "aside-mcq-17": "「正式撤銷／使判決、裁決或命令失效」與本句語境不同。",
-        "aside-mcq-21": "「不參與、不干預正在發生的事情」與本句語境不同。",
-        "aside-mcq-16": "「撇開剛才所提的那一點不談」與本句語境不同。"
+        "aside-mcq-19": "本句的「set-aside land」指「暫停農業生產並保留作政策／環境用途的土地」。",
+        "aside-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-19"
     },
@@ -1293,10 +1201,8 @@ export default {
       "masked": "Set-____ schemes can support wildlife.",
       "options": [
         "aside-mcq-19",
-        "aside-mcq-18",
-        "aside-mcq-20",
-        "aside-mcq-17",
-        "aside-mcq-21",
+        "aside-mcq-14",
+        "aside-mcq-11",
         "aside-mcq-16"
       ],
       "explanation": "本句的「aside」指「暫停農業生產並保留作政策／環境用途的土地」。",
@@ -1306,12 +1212,10 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-19": "本句指「暫停農業生產並保留作政策／環境用途的土地」。",
-        "aside-mcq-18": "「特別保留給指定群體／用途的合約或資源份額」與本句語境不同。",
-        "aside-mcq-20": "「離開職位／權力位置，讓另一人接替」與本句語境不同。",
-        "aside-mcq-17": "「正式撤銷／使判決、裁決或命令失效」與本句語境不同。",
-        "aside-mcq-21": "「不參與、不干預正在發生的事情」與本句語境不同。",
-        "aside-mcq-16": "「撇開剛才所提的那一點不談」與本句語境不同。"
+        "aside-mcq-19": "本句的「aside」指「暫停農業生產並保留作政策／環境用途的土地」。",
+        "aside-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-19"
     },
@@ -1323,11 +1227,9 @@ export default {
       "masked": "She set ____ Friday afternoon for planning.",
       "options": [
         "aside-mcq-07",
-        "aside-mcq-06",
+        "aside-mcq-15",
         "aside-mcq-08",
-        "aside-mcq-05",
-        "aside-mcq-09",
-        "aside-mcq-04"
+        "aside-mcq-01"
       ],
       "explanation": "本句的「aside」指「專門預留一段時間給某項活動」。",
       "sentenceIndex": 60,
@@ -1336,12 +1238,10 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-07": "本句指「專門預留一段時間給某項活動」。",
-        "aside-mcq-06": "「專門保留一部分金錢作未來用途」與本句語境不同。",
-        "aside-mcq-08": "「除了某人／物之外」與本句語境不同。",
-        "aside-mcq-05": "「暫時不讓分歧影響當前合作／行動」與本句語境不同。",
-        "aside-mcq-09": "「除了某項特徵／事物之外，還有其他」與本句語境不同。",
-        "aside-mcq-04": "「暫時停止處理／考慮某件事」與本句語境不同。"
+        "aside-mcq-07": "本句的「aside」指「專門預留一段時間給某項活動」。",
+        "aside-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-07"
     },
@@ -1353,11 +1253,9 @@ export default {
       "masked": "Set ____ enough time to review your work.",
       "options": [
         "aside-mcq-07",
-        "aside-mcq-06",
         "aside-mcq-08",
-        "aside-mcq-05",
-        "aside-mcq-09",
-        "aside-mcq-04"
+        "aside-mcq-16",
+        "aside-mcq-01"
       ],
       "explanation": "本句的「aside」指「專門預留一段時間給某項活動」。",
       "sentenceIndex": 61,
@@ -1366,12 +1264,10 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-07": "本句指「專門預留一段時間給某項活動」。",
-        "aside-mcq-06": "「專門保留一部分金錢作未來用途」與本句語境不同。",
-        "aside-mcq-08": "「除了某人／物之外」與本句語境不同。",
-        "aside-mcq-05": "「暫時不讓分歧影響當前合作／行動」與本句語境不同。",
-        "aside-mcq-09": "「除了某項特徵／事物之外，還有其他」與本句語境不同。",
-        "aside-mcq-04": "「暫時停止處理／考慮某件事」與本句語境不同。"
+        "aside-mcq-07": "本句的「aside」指「專門預留一段時間給某項活動」。",
+        "aside-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-07"
     },
@@ -1383,11 +1279,9 @@ export default {
       "masked": "The manager agreed to ____.",
       "options": [
         "aside-mcq-20",
-        "aside-mcq-19",
-        "aside-mcq-21",
-        "aside-mcq-18",
-        "aside-mcq-22",
-        "aside-mcq-17"
+        "aside-mcq-10",
+        "aside-mcq-15",
+        "aside-mcq-08"
       ],
       "explanation": "本句的「step aside」指「離開職位／權力位置，讓另一人接替」。",
       "sentenceIndex": 64,
@@ -1396,12 +1290,10 @@ export default {
         "step aside"
       ],
       "optionReasons": {
-        "aside-mcq-20": "本句指「離開職位／權力位置，讓另一人接替」。",
-        "aside-mcq-19": "「暫停農業生產並保留作政策／環境用途的土地」與本句語境不同。",
-        "aside-mcq-21": "「不參與、不干預正在發生的事情」與本句語境不同。",
-        "aside-mcq-18": "「特別保留給指定群體／用途的合約或資源份額」與本句語境不同。",
-        "aside-mcq-22": "「把某意見／疑慮當作不重要而不認真處理」與本句語境不同。",
-        "aside-mcq-17": "「正式撤銷／使判決、裁決或命令失效」與本句語境不同。"
+        "aside-mcq-20": "本句的「step aside」指「離開職位／權力位置，讓另一人接替」。",
+        "aside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-20"
     },
@@ -1413,11 +1305,9 @@ export default {
       "masked": "He stepped ____ to allow a younger leader to take over.",
       "options": [
         "aside-mcq-20",
-        "aside-mcq-19",
         "aside-mcq-21",
-        "aside-mcq-18",
-        "aside-mcq-22",
-        "aside-mcq-17"
+        "aside-mcq-06",
+        "aside-mcq-08"
       ],
       "explanation": "本句的「aside」指「離開職位／權力位置，讓另一人接替」。",
       "sentenceIndex": 65,
@@ -1426,12 +1316,10 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-20": "本句指「離開職位／權力位置，讓另一人接替」。",
-        "aside-mcq-19": "「暫停農業生產並保留作政策／環境用途的土地」與本句語境不同。",
-        "aside-mcq-21": "「不參與、不干預正在發生的事情」與本句語境不同。",
-        "aside-mcq-18": "「特別保留給指定群體／用途的合約或資源份額」與本句語境不同。",
-        "aside-mcq-22": "「把某意見／疑慮當作不重要而不認真處理」與本句語境不同。",
-        "aside-mcq-17": "「正式撤銷／使判決、裁決或命令失效」與本句語境不同。"
+        "aside-mcq-20": "本句的「aside」指「離開職位／權力位置，讓另一人接替」。",
+        "aside-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-20"
     },
@@ -1444,10 +1332,8 @@ export default {
       "options": [
         "aside-mcq-21",
         "aside-mcq-20",
-        "aside-mcq-22",
-        "aside-mcq-19",
-        "aside-mcq-23",
-        "aside-mcq-18"
+        "aside-mcq-11",
+        "aside-mcq-16"
       ],
       "explanation": "本句的「stand aside」指「不參與、不干預正在發生的事情」。",
       "sentenceIndex": 80,
@@ -1456,12 +1342,10 @@ export default {
         "stand aside"
       ],
       "optionReasons": {
-        "aside-mcq-21": "本句指「不參與、不干預正在發生的事情」。",
-        "aside-mcq-20": "「離開職位／權力位置，讓另一人接替」與本句語境不同。",
-        "aside-mcq-22": "「把某意見／疑慮當作不重要而不認真處理」與本句語境不同。",
-        "aside-mcq-19": "「暫停農業生產並保留作政策／環境用途的土地」與本句語境不同。",
-        "aside-mcq-23": "「丟到一旁；或摒棄某想法／原則」與本句語境不同。",
-        "aside-mcq-18": "「特別保留給指定群體／用途的合約或資源份額」與本句語境不同。"
+        "aside-mcq-21": "本句的「stand aside」指「不參與、不干預正在發生的事情」。",
+        "aside-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-21"
     },
@@ -1473,11 +1357,9 @@ export default {
       "masked": "The crowd stood ____ to let them pass.",
       "options": [
         "aside-mcq-21",
-        "aside-mcq-20",
-        "aside-mcq-22",
-        "aside-mcq-19",
-        "aside-mcq-23",
-        "aside-mcq-18"
+        "aside-mcq-14",
+        "aside-mcq-02",
+        "aside-mcq-06"
       ],
       "explanation": "本句的「aside」指「不參與、不干預正在發生的事情」。",
       "sentenceIndex": 81,
@@ -1486,12 +1368,10 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-21": "本句指「不參與、不干預正在發生的事情」。",
-        "aside-mcq-20": "「離開職位／權力位置，讓另一人接替」與本句語境不同。",
-        "aside-mcq-22": "「把某意見／疑慮當作不重要而不認真處理」與本句語境不同。",
-        "aside-mcq-19": "「暫停農業生產並保留作政策／環境用途的土地」與本句語境不同。",
-        "aside-mcq-23": "「丟到一旁；或摒棄某想法／原則」與本句語境不同。",
-        "aside-mcq-18": "「特別保留給指定群體／用途的合約或資源份額」與本句語境不同。"
+        "aside-mcq-21": "本句的「aside」指「不參與、不干預正在發生的事情」。",
+        "aside-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-21"
     },
@@ -1504,10 +1384,8 @@ export default {
       "options": [
         "aside-mcq-21",
         "aside-mcq-20",
-        "aside-mcq-22",
-        "aside-mcq-19",
-        "aside-mcq-23",
-        "aside-mcq-18"
+        "aside-mcq-06",
+        "aside-mcq-11"
       ],
       "explanation": "本句的「stand aside」指「不參與、不干預正在發生的事情」。",
       "sentenceIndex": 82,
@@ -1516,12 +1394,10 @@ export default {
         "stand aside"
       ],
       "optionReasons": {
-        "aside-mcq-21": "本句指「不參與、不干預正在發生的事情」。",
-        "aside-mcq-20": "「離開職位／權力位置，讓另一人接替」與本句語境不同。",
-        "aside-mcq-22": "「把某意見／疑慮當作不重要而不認真處理」與本句語境不同。",
-        "aside-mcq-19": "「暫停農業生產並保留作政策／環境用途的土地」與本句語境不同。",
-        "aside-mcq-23": "「丟到一旁；或摒棄某想法／原則」與本句語境不同。",
-        "aside-mcq-18": "「特別保留給指定群體／用途的合約或資源份額」與本句語境不同。"
+        "aside-mcq-21": "本句的「stand aside」指「不參與、不干預正在發生的事情」。",
+        "aside-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-21"
     },
@@ -1534,10 +1410,8 @@ export default {
       "options": [
         "aside-mcq-21",
         "aside-mcq-20",
-        "aside-mcq-22",
-        "aside-mcq-19",
-        "aside-mcq-23",
-        "aside-mcq-18"
+        "aside-mcq-11",
+        "aside-mcq-06"
       ],
       "explanation": "本句的「aside」指「不參與、不干預正在發生的事情」。",
       "sentenceIndex": 83,
@@ -1546,12 +1420,10 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-21": "本句指「不參與、不干預正在發生的事情」。",
-        "aside-mcq-20": "「離開職位／權力位置，讓另一人接替」與本句語境不同。",
-        "aside-mcq-22": "「把某意見／疑慮當作不重要而不認真處理」與本句語境不同。",
-        "aside-mcq-19": "「暫停農業生產並保留作政策／環境用途的土地」與本句語境不同。",
-        "aside-mcq-23": "「丟到一旁；或摒棄某想法／原則」與本句語境不同。",
-        "aside-mcq-18": "「特別保留給指定群體／用途的合約或資源份額」與本句語境不同。"
+        "aside-mcq-21": "本句的「aside」指「不參與、不干預正在發生的事情」。",
+        "aside-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-21"
     },
@@ -1563,11 +1435,9 @@ export default {
       "masked": "She ____ her book.",
       "options": [
         "aside-mcq-24",
-        "aside-mcq-23",
-        "aside-mcq-22",
-        "aside-mcq-21",
-        "aside-mcq-20",
-        "aside-mcq-19"
+        "aside-mcq-10",
+        "aside-mcq-16",
+        "aside-mcq-15"
       ],
       "explanation": "本句的「laid aside」指「較正式地表示放下、擱置或保留」。",
       "sentenceIndex": 84,
@@ -1576,12 +1446,10 @@ export default {
         "laid aside"
       ],
       "optionReasons": {
-        "aside-mcq-24": "本句指「較正式地表示放下、擱置或保留」。",
-        "aside-mcq-23": "「丟到一旁；或摒棄某想法／原則」與本句語境不同。",
-        "aside-mcq-22": "「把某意見／疑慮當作不重要而不認真處理」與本句語境不同。",
-        "aside-mcq-21": "「不參與、不干預正在發生的事情」與本句語境不同。",
-        "aside-mcq-20": "「離開職位／權力位置，讓另一人接替」與本句語境不同。",
-        "aside-mcq-19": "「暫停農業生產並保留作政策／環境用途的土地」與本句語境不同。"
+        "aside-mcq-24": "本句的「laid aside」指「較正式地表示放下、擱置或保留」。",
+        "aside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-24"
     },
@@ -1593,11 +1461,9 @@ export default {
       "masked": "They laid ____ their doubts.",
       "options": [
         "aside-mcq-24",
-        "aside-mcq-23",
-        "aside-mcq-22",
-        "aside-mcq-21",
-        "aside-mcq-20",
-        "aside-mcq-19"
+        "aside-mcq-15",
+        "aside-mcq-16",
+        "aside-mcq-02"
       ],
       "explanation": "本句的「aside」指「較正式地表示放下、擱置或保留」。",
       "sentenceIndex": 85,
@@ -1606,12 +1472,10 @@ export default {
         "aside"
       ],
       "optionReasons": {
-        "aside-mcq-24": "本句指「較正式地表示放下、擱置或保留」。",
-        "aside-mcq-23": "「丟到一旁；或摒棄某想法／原則」與本句語境不同。",
-        "aside-mcq-22": "「把某意見／疑慮當作不重要而不認真處理」與本句語境不同。",
-        "aside-mcq-21": "「不參與、不干預正在發生的事情」與本句語境不同。",
-        "aside-mcq-20": "「離開職位／權力位置，讓另一人接替」與本句語境不同。",
-        "aside-mcq-19": "「暫停農業生產並保留作政策／環境用途的土地」與本句語境不同。"
+        "aside-mcq-24": "本句的「aside」指「較正式地表示放下、擱置或保留」。",
+        "aside-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "aside-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aside-mcq-24"
     }
@@ -1623,5 +1487,7 @@ export default {
     "sha256": "71f21a417535db4a9d1b8f4611212a5763b4136f0e2748727c70b0a444682ea4",
     "pages": 34
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

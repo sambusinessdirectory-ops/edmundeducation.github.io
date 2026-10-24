@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "base-mcq-01",
-      "title": "表示以……為基礎；根據……；建立在……之上；例句：「這個故事建立在一個簡單的哲學概念之上。」",
+      "title": "以……為基礎；根據……；建立在……之上",
       "form": "Passage anchor > “...every book represents a different version of her life based on the choices she could have made.",
       "en": "Passage anchor > “...every book represents a different version of her life based on the choices she could have made.",
       "zh": "表示以……為基礎；根據……；建立在……之上；例句：「這個故事建立在一個簡單的哲學概念之上。」",
@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "base-mcq-02",
-      "title": "表示底部；底座；基座；例句：「這盞燈有一個很重的底座。」",
+      "title": "底部；底座；基座",
       "form": "base — bottom supporting part = lowest part of something that supports the rest 底部；底座；基座",
       "en": "base — bottom supporting part = lowest part of something that supports the rest 底部；底座；基座",
       "zh": "表示底部；底座；基座；例句：「這盞燈有一個很重的底座。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "base-mcq-03",
-      "title": "表示山腳；例句：「我們站在山的山腳。」",
+      "title": "山腳",
       "form": "base of something = lowest or supporting part of an object, structure, mountain, etc. ……的底部；基部",
       "en": "base of something = lowest or supporting part of an object, structure, mountain, etc. ……的底部；基部",
       "zh": "表示山腳；例句：「我們站在山的山腳。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "base-mcq-04",
-      "title": "表示基礎；根基；例句：「信任是一段穩固關係的基礎。」",
+      "title": "基礎；根基",
       "form": "base — foundation = underlying support, foundation, or structure on which something depends 基礎；根基",
       "en": "base — foundation = underlying support, foundation, or structure on which something depends 基礎；根基",
       "zh": "表示基礎；根基；例句：「信任是一段穩固關係的基礎。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "base-mcq-05",
-      "title": "表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」",
+      "title": "基礎；基盤；群體",
       "form": "knowledge base / customer base / support base = established body, group, or foundation supporting something 基礎；基盤；群體",
       "en": "knowledge base / customer base / support base = established body, group, or foundation supporting something 基礎；基盤；群體",
       "zh": "表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "base-mcq-06",
-      "title": "表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」",
+      "title": "基地；據點；大本營",
       "form": "base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營",
       "en": "base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營",
       "zh": "表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "base-mcq-07",
-      "title": "表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」",
+      "title": "主要據點；大本營",
       "form": "home base = main place from which someone normally operates 主要據點；大本營",
       "en": "home base = main place from which someone normally operates 主要據點；大本營",
       "zh": "表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "base-mcq-08",
-      "title": "表示軍事基地；例句：「飛機返回軍事基地。」",
+      "title": "軍事基地",
       "form": "military base = facility from which military personnel and operations are organized 軍事基地",
       "en": "military base = facility from which military personnel and operations are organized 軍事基地",
       "zh": "表示軍事基地；例句：「飛機返回軍事基地。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "base-mcq-09",
-      "title": "表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」",
+      "title": "空軍基地／海軍基地",
       "form": "air base / naval base = military facility for aircraft or naval operations 空軍基地／海軍基地",
       "en": "air base / naval base = military facility for aircraft or naval operations 空軍基地／海軍基地",
       "zh": "表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "base-mcq-10",
-      "title": "表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」",
+      "title": "把……設於；駐紮於",
       "form": "base someone/something somewhere = locate a person, organization, or operation in a particular place 把……設於；駐紮於",
       "en": "base someone/something somewhere = locate a person, organization, or operation in a particular place 把……設於；駐紮於",
       "zh": "表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "base-mcq-11",
-      "title": "表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」",
+      "title": "設於；總部位於；駐於",
       "form": "be based in / at = have one’s main location in a particular place 設於；總部位於；駐於",
       "en": "be based in / at = have one’s main location in a particular place 設於；總部位於；駐於",
       "zh": "表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "base-mcq-12",
-      "title": "表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」",
+      "title": "以……為基礎；根據……",
       "form": "base something on something = use something as the main source, foundation, evidence, or principle 以……為基礎；根據…… This is the exact passage branch.",
       "en": "base something on something = use something as the main source, foundation, evidence, or principle 以……為基礎；根據…… This is the exact passage branch.",
       "zh": "表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "base-mcq-13",
-      "title": "表示根據；建立於；例句：「這套制度建立在信任之上。」",
+      "title": "根據；建立於",
       "form": "be based on = derive from or depend on something 根據；建立於",
       "en": "be based on = derive from or depend on something 根據；建立於",
       "zh": "表示根據；建立於；例句：「這套制度建立在信任之上。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "base-mcq-14",
-      "title": "表示基數；基準；例句：「稅款以固定基數計算。」",
+      "title": "基數；基準",
       "form": "base — starting amount or reference level = starting point or reference amount used for comparison or calculation 基數；基準",
       "en": "base — starting amount or reference level = starting point or reference amount used for comparison or calculation 基數；基準",
       "zh": "表示基數；基準；例句：「稅款以固定基數計算。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "base-mcq-15",
-      "title": "表示基準利率；基本利率；例句：「銀行調整了基準利率。」",
+      "title": "基準利率；基本利率",
       "form": "base rate = basic rate used as a starting point for calculating other rates 基準利率；基本利率",
       "en": "base rate = basic rate used as a starting point for calculating other rates 基準利率；基本利率",
       "zh": "表示基準利率；基本利率；例句：「銀行調整了基準利率。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "base-mcq-16",
-      "title": "表示底數；進位制的基數；例句：「二進位使用基數 2。」",
+      "title": "底數；進位制的基數",
       "form": "base — number system foundation = number that determines the place-value system being used 底數；進位制的基數",
       "en": "base — number system foundation = number that determines the place-value system being used 底數；進位制的基數",
       "zh": "表示底數；進位制的基數；例句：「二進位使用基數 2。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "base-mcq-17",
-      "title": "表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」",
+      "title": "底數",
       "form": "base — exponentiation = number that is raised to a power 底數",
       "en": "base — exponentiation = number that is raised to a power 底數",
       "zh": "表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "base-mcq-18",
-      "title": "表示底邊；底面；例句：「將底邊乘以高度。」",
+      "title": "底邊；底面",
       "form": "base — geometry = side or surface treated as the bottom or reference side of a geometric figure 底邊；底面",
       "en": "base — geometry = side or surface treated as the bottom or reference side of a geometric figure 底邊；底面",
       "zh": "表示底邊；底面；例句：「將底邊乘以高度。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "base-mcq-19",
-      "title": "表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」",
+      "title": "鹼；鹼性物質",
       "form": "base — chemical substance = substance that can accept protons or react with acids, depending on the chemical definition 鹼；鹼性物質",
       "en": "base — chemical substance = substance that can accept protons or react with acids, depending on the chemical definition 鹼；鹼性物質",
       "zh": "表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "base-mcq-20",
-      "title": "表示酸鹼的；例句：「我們學習了酸鹼反應。」",
+      "title": "酸鹼的",
       "form": "acid-base = relating to acids and bases 酸鹼的",
       "en": "acid-base = relating to acids and bases 酸鹼的",
       "zh": "表示酸鹼的；例句：「我們學習了酸鹼反應。」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "base-mcq-21",
-      "title": "表示壘；例句：「跑者到達二壘。」",
+      "title": "壘",
       "form": "base — baseball station = one of the fixed points a player runs between to score 壘",
       "en": "base — baseball station = one of the fixed points a player runs between to score 壘",
       "zh": "表示壘；例句：「跑者到達二壘。」",
@@ -469,7 +469,7 @@ export default {
     },
     {
       "id": "base-mcq-22",
-      "title": "表示一壘／二壘／三壘；例句：「她安全上到一壘。」",
+      "title": "一壘／二壘／三壘",
       "form": "first / second / third base = numbered bases in baseball or softball 一壘／二壘／三壘",
       "en": "first / second / third base = numbered bases in baseball or softball 一壘／二壘／三壘",
       "zh": "表示一壘／二壘／三壘；例句：「她安全上到一壘。」",
@@ -491,7 +491,7 @@ export default {
     },
     {
       "id": "base-mcq-23",
-      "title": "表示資料庫；例句：「紀錄儲存在資料庫中。」",
+      "title": "資料庫",
       "form": "database = organized collection of structured data 資料庫",
       "en": "database = organized collection of structured data 資料庫",
       "zh": "表示資料庫；例句：「紀錄儲存在資料庫中。」",
@@ -513,7 +513,7 @@ export default {
     },
     {
       "id": "base-mcq-24",
-      "title": "表示知識庫；例句：「先查看線上知識庫。」",
+      "title": "知識庫",
       "form": "knowledge base = organized collection of information, documentation, or solutions 知識庫",
       "en": "knowledge base = organized collection of information, documentation, or solutions 知識庫",
       "zh": "表示知識庫；例句：「先查看線上知識庫。」",
@@ -535,7 +535,7 @@ export default {
     },
     {
       "id": "base-mcq-25",
-      "title": "表示程式碼庫；例句：「團隊正在更新程式碼庫。」",
+      "title": "程式碼庫",
       "form": "codebase = complete collection of source code belonging to a software project 程式碼庫",
       "en": "codebase = complete collection of source code belonging to a software project 程式碼庫",
       "zh": "表示程式碼庫；例句：「團隊正在更新程式碼庫。」",
@@ -557,7 +557,7 @@ export default {
     },
     {
       "id": "base-mcq-26",
-      "title": "表示基底；底料；例句：「這個醬汁以番茄作為基底。」",
+      "title": "基底；底料",
       "form": "base — main ingredient or underlying mixture = main material or substance to which other ingredients are added 基底；底料",
       "en": "base — main ingredient or underlying mixture = main material or substance to which other ingredients are added 基底；底料",
       "zh": "表示基底；底料；例句：「這個醬汁以番茄作為基底。」",
@@ -579,7 +579,7 @@ export default {
     },
     {
       "id": "base-mcq-27",
-      "title": "表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」",
+      "title": "底漆；底層",
       "form": "base coat = first layer of paint, polish, etc. applied underneath later layers 底漆；底層",
       "en": "base coat = first layer of paint, polish, etc. applied underneath later layers 底漆；底層",
       "zh": "表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」",
@@ -601,7 +601,7 @@ export default {
     },
     {
       "id": "base-mcq-28",
-      "title": "表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」",
+      "title": "支持者基本盤；核心支持群",
       "form": "support base / voter base = core group of people who regularly support a person, organization, or cause 支持者基本盤；核心支持群",
       "en": "support base / voter base = core group of people who regularly support a person, organization, or cause 支持者基本盤；核心支持群",
       "zh": "表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」",
@@ -623,7 +623,7 @@ export default {
     },
     {
       "id": "base-mcq-29",
-      "title": "表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」",
+      "title": "卑劣的；卑鄙的",
       "form": "base — morally low or dishonorable Formal/literary: = lacking moral principles; dishonorable 卑劣的；卑鄙的",
       "en": "base — morally low or dishonorable Formal/literary: = lacking moral principles; dishonorable 卑劣的；卑鄙的",
       "zh": "表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」",
@@ -645,7 +645,7 @@ export default {
     },
     {
       "id": "base-mcq-30",
-      "title": "表示基本的；基礎的；例句：「我們學了基本規則。」",
+      "title": "基本的；基礎的",
       "form": "basic = forming the simplest or most essential level 基本的；基礎的",
       "en": "basic = forming the simplest or most essential level 基本的；基礎的",
       "zh": "表示基本的；基礎的；例句：「我們學了基本規則。」",
@@ -667,7 +667,7 @@ export default {
     },
     {
       "id": "base-mcq-31",
-      "title": "表示基本上；大致上；例句：「這兩個想法基本上相同。」",
+      "title": "基本上；大致上",
       "form": "basically = in the most important or fundamental respects 基本上；大致上",
       "en": "basically = in the most important or fundamental respects 基本上；大致上",
       "zh": "表示基本上；大致上；例句：「這兩個想法基本上相同。」",
@@ -689,7 +689,7 @@ export default {
     },
     {
       "id": "base-mcq-32",
-      "title": "表示基礎；依據；例句：「那個說法沒有根據。」",
+      "title": "基礎；依據",
       "form": "basis = underlying reason, principle, or foundation 基礎；依據",
       "en": "basis = underlying reason, principle, or foundation 基礎；依據",
       "zh": "表示基礎；依據；例句：「那個說法沒有根據。」",
@@ -711,7 +711,7 @@ export default {
     },
     {
       "id": "base-mcq-33",
-      "title": "表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」",
+      "title": "基準線；基線；基準值",
       "form": "baseline = starting level used for comparison 基準線；基線；基準值",
       "en": "baseline = starting level used for comparison 基準線；基線；基準值",
       "zh": "表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」",
@@ -733,7 +733,7 @@ export default {
     },
     {
       "id": "base-mcq-34",
-      "title": "表示聯絡一下；簡短確認進度；例句：「我們明天再聯絡一下。」",
+      "title": "聯絡一下；簡短確認進度",
       "form": "touch base = briefly contact someone to exchange information or check progress 聯絡一下；簡短確認進度",
       "en": "touch base = briefly contact someone to exchange information or check progress 聯絡一下；簡短確認進度",
       "zh": "表示聯絡一下；簡短確認進度；例句：「我們明天再聯絡一下。」",
@@ -777,7 +777,7 @@ export default {
     },
     {
       "id": "base-mcq-36",
-      "title": "表示不正確的；離譜的；例句：「你的估計有點不準確。」",
+      "title": "不正確的；離譜的",
       "form": "off base = incorrect or mistaken 不正確的；離譜的",
       "en": "off base = incorrect or mistaken 不正確的；離譜的",
       "zh": "表示不正確的；離譜的；例句：「你的估計有點不準確。」",
@@ -807,11 +807,9 @@ export default {
       "masked": "The story is ____ a simple philosophical idea.",
       "options": [
         "base-mcq-01",
-        "base-mcq-02",
-        "base-mcq-03",
-        "base-mcq-04",
-        "base-mcq-05",
-        "base-mcq-06"
+        "base-mcq-21",
+        "base-mcq-24",
+        "base-mcq-03"
       ],
       "explanation": "本句的「based on」指「表示以……為基礎；根據……；建立在……之上；例句：「這個故事建立在一個簡單的哲學概念之上。」」。",
       "sentenceIndex": 0,
@@ -820,12 +818,10 @@ export default {
         "based on"
       ],
       "optionReasons": {
-        "base-mcq-01": "本句指「表示以……為基礎；根據……；建立在……之上；例句：「這個故事建立在一個簡單的哲學概念之上。」」。",
-        "base-mcq-02": "「表示底部；底座；基座；例句：「這盞燈有一個很重的底座。」」是「base — bottom supporting part = lowest part of something that supports the rest 底部；底座；基座」的用法，與本句語境不同。",
-        "base-mcq-03": "「表示山腳；例句：「我們站在山的山腳。」」是「base of something = lowest or supporting part of an object, structure, mountain, etc. ……的底部；基部」的用法，與本句語境不同。",
-        "base-mcq-04": "「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」是「base — foundation = underlying support, foundation, or structure on which something depends 基礎；根基」的用法，與本句語境不同。",
-        "base-mcq-05": "「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」是「knowledge base / customer base / support base = established body, group, or foundation supporting something 基礎；基盤；群體」的用法，與本句語境不同。",
-        "base-mcq-06": "「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」是「base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營」的用法，與本句語境不同。"
+        "base-mcq-01": "本句的「based on」指「表示以……為基礎；根據……；建立在……之上；例句：「這個故事建立在一個簡單的哲學概念之上。」」。",
+        "base-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-01"
     },
@@ -837,11 +833,9 @@ export default {
       "masked": "The decision was ____ the information available at the time.",
       "options": [
         "base-mcq-01",
-        "base-mcq-02",
-        "base-mcq-03",
-        "base-mcq-04",
-        "base-mcq-05",
-        "base-mcq-06"
+        "base-mcq-21",
+        "base-mcq-27",
+        "base-mcq-34"
       ],
       "explanation": "本句的「based on」指「表示以……為基礎；根據……；建立在……之上；例句：「這個故事建立在一個簡單的哲學概念之上。」」。",
       "sentenceIndex": 1,
@@ -850,12 +844,10 @@ export default {
         "based on"
       ],
       "optionReasons": {
-        "base-mcq-01": "本句指「表示以……為基礎；根據……；建立在……之上；例句：「這個故事建立在一個簡單的哲學概念之上。」」。",
-        "base-mcq-02": "「表示底部；底座；基座；例句：「這盞燈有一個很重的底座。」」是「base — bottom supporting part = lowest part of something that supports the rest 底部；底座；基座」的用法，與本句語境不同。",
-        "base-mcq-03": "「表示山腳；例句：「我們站在山的山腳。」」是「base of something = lowest or supporting part of an object, structure, mountain, etc. ……的底部；基部」的用法，與本句語境不同。",
-        "base-mcq-04": "「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」是「base — foundation = underlying support, foundation, or structure on which something depends 基礎；根基」的用法，與本句語境不同。",
-        "base-mcq-05": "「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」是「knowledge base / customer base / support base = established body, group, or foundation supporting something 基礎；基盤；群體」的用法，與本句語境不同。",
-        "base-mcq-06": "「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」是「base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營」的用法，與本句語境不同。"
+        "base-mcq-01": "本句的「based on」指「表示以……為基礎；根據……；建立在……之上；例句：「這個故事建立在一個簡單的哲學概念之上。」」。",
+        "base-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-01"
     },
@@ -867,11 +859,9 @@ export default {
       "masked": "The lamp has a heavy ____.",
       "options": [
         "base-mcq-02",
-        "base-mcq-01",
-        "base-mcq-03",
-        "base-mcq-04",
-        "base-mcq-05",
-        "base-mcq-06"
+        "base-mcq-24",
+        "base-mcq-19",
+        "base-mcq-21"
       ],
       "explanation": "本句的「base」指「表示底部；底座；基座；例句：「這盞燈有一個很重的底座。」」。",
       "sentenceIndex": 2,
@@ -880,12 +870,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-02": "本句指「表示底部；底座；基座；例句：「這盞燈有一個很重的底座。」」。",
-        "base-mcq-01": "「表示以……為基礎；根據……；建立在……之上；例句：「這個故事建立在一個簡單的哲學概念之上。」」是「Passage anchor > “...every book represents a different version of her life based on the choices she could have made.」的用法，與本句語境不同。",
-        "base-mcq-03": "「表示山腳；例句：「我們站在山的山腳。」」是「base of something = lowest or supporting part of an object, structure, mountain, etc. ……的底部；基部」的用法，與本句語境不同。",
-        "base-mcq-04": "「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」是「base — foundation = underlying support, foundation, or structure on which something depends 基礎；根基」的用法，與本句語境不同。",
-        "base-mcq-05": "「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」是「knowledge base / customer base / support base = established body, group, or foundation supporting something 基礎；基盤；群體」的用法，與本句語境不同。",
-        "base-mcq-06": "「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」是「base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營」的用法，與本句語境不同。"
+        "base-mcq-02": "本句的「base」指「表示底部；底座；基座；例句：「這盞燈有一個很重的底座。」」。",
+        "base-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-02"
     },
@@ -897,11 +885,9 @@ export default {
       "masked": "A crack appeared near the ____ of the statue.",
       "options": [
         "base-mcq-02",
-        "base-mcq-01",
-        "base-mcq-03",
-        "base-mcq-04",
-        "base-mcq-05",
-        "base-mcq-06"
+        "base-mcq-19",
+        "base-mcq-29",
+        "base-mcq-03"
       ],
       "explanation": "本句的「base」指「表示底部；底座；基座；例句：「這盞燈有一個很重的底座。」」。",
       "sentenceIndex": 3,
@@ -910,12 +896,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-02": "本句指「表示底部；底座；基座；例句：「這盞燈有一個很重的底座。」」。",
-        "base-mcq-01": "「表示以……為基礎；根據……；建立在……之上；例句：「這個故事建立在一個簡單的哲學概念之上。」」是「Passage anchor > “...every book represents a different version of her life based on the choices she could have made.」的用法，與本句語境不同。",
-        "base-mcq-03": "「表示山腳；例句：「我們站在山的山腳。」」是「base of something = lowest or supporting part of an object, structure, mountain, etc. ……的底部；基部」的用法，與本句語境不同。",
-        "base-mcq-04": "「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」是「base — foundation = underlying support, foundation, or structure on which something depends 基礎；根基」的用法，與本句語境不同。",
-        "base-mcq-05": "「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」是「knowledge base / customer base / support base = established body, group, or foundation supporting something 基礎；基盤；群體」的用法，與本句語境不同。",
-        "base-mcq-06": "「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」是「base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營」的用法，與本句語境不同。"
+        "base-mcq-02": "本句的「base」指「表示底部；底座；基座；例句：「這盞燈有一個很重的底座。」」。",
+        "base-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-02"
     },
@@ -927,11 +911,9 @@ export default {
       "masked": "We stood at the ____.",
       "options": [
         "base-mcq-03",
-        "base-mcq-02",
-        "base-mcq-04",
-        "base-mcq-01",
-        "base-mcq-05",
-        "base-mcq-06"
+        "base-mcq-19",
+        "base-mcq-35",
+        "base-mcq-01"
       ],
       "explanation": "本句的「base of the mountain」指「表示山腳；例句：「我們站在山的山腳。」」。",
       "sentenceIndex": 4,
@@ -940,12 +922,10 @@ export default {
         "base of the mountain"
       ],
       "optionReasons": {
-        "base-mcq-03": "本句指「表示山腳；例句：「我們站在山的山腳。」」。",
-        "base-mcq-02": "「表示底部；底座；基座；例句：「這盞燈有一個很重的底座。」」是「base — bottom supporting part = lowest part of something that supports the rest 底部；底座；基座」的用法，與本句語境不同。",
-        "base-mcq-04": "「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」是「base — foundation = underlying support, foundation, or structure on which something depends 基礎；根基」的用法，與本句語境不同。",
-        "base-mcq-01": "「表示以……為基礎；根據……；建立在……之上；例句：「這個故事建立在一個簡單的哲學概念之上。」」是「Passage anchor > “...every book represents a different version of her life based on the choices she could have made.」的用法，與本句語境不同。",
-        "base-mcq-05": "「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」是「knowledge base / customer base / support base = established body, group, or foundation supporting something 基礎；基盤；群體」的用法，與本句語境不同。",
-        "base-mcq-06": "「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」是「base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營」的用法，與本句語境不同。"
+        "base-mcq-03": "本句的「base of the mountain」指「表示山腳；例句：「我們站在山的山腳。」」。",
+        "base-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-03"
     },
@@ -957,11 +937,9 @@ export default {
       "masked": "The tree is wider at the ____.",
       "options": [
         "base-mcq-03",
-        "base-mcq-02",
-        "base-mcq-04",
-        "base-mcq-01",
-        "base-mcq-05",
-        "base-mcq-06"
+        "base-mcq-14",
+        "base-mcq-23",
+        "base-mcq-20"
       ],
       "explanation": "本句的「base」指「表示山腳；例句：「我們站在山的山腳。」」。",
       "sentenceIndex": 5,
@@ -970,12 +948,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-03": "本句指「表示山腳；例句：「我們站在山的山腳。」」。",
-        "base-mcq-02": "「表示底部；底座；基座；例句：「這盞燈有一個很重的底座。」」是「base — bottom supporting part = lowest part of something that supports the rest 底部；底座；基座」的用法，與本句語境不同。",
-        "base-mcq-04": "「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」是「base — foundation = underlying support, foundation, or structure on which something depends 基礎；根基」的用法，與本句語境不同。",
-        "base-mcq-01": "「表示以……為基礎；根據……；建立在……之上；例句：「這個故事建立在一個簡單的哲學概念之上。」」是「Passage anchor > “...every book represents a different version of her life based on the choices she could have made.」的用法，與本句語境不同。",
-        "base-mcq-05": "「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」是「knowledge base / customer base / support base = established body, group, or foundation supporting something 基礎；基盤；群體」的用法，與本句語境不同。",
-        "base-mcq-06": "「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」是「base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營」的用法，與本句語境不同。"
+        "base-mcq-03": "本句的「base」指「表示山腳；例句：「我們站在山的山腳。」」。",
+        "base-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-03"
     },
@@ -987,11 +963,9 @@ export default {
       "masked": "Trust is the ____ of a strong relationship.",
       "options": [
         "base-mcq-04",
-        "base-mcq-03",
-        "base-mcq-05",
-        "base-mcq-02",
-        "base-mcq-06",
-        "base-mcq-01"
+        "base-mcq-23",
+        "base-mcq-27",
+        "base-mcq-34"
       ],
       "explanation": "本句的「base」指「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」。",
       "sentenceIndex": 6,
@@ -1000,12 +974,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-04": "本句指「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」。",
-        "base-mcq-03": "「表示山腳；例句：「我們站在山的山腳。」」是「base of something = lowest or supporting part of an object, structure, mountain, etc. ……的底部；基部」的用法，與本句語境不同。",
-        "base-mcq-05": "「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」是「knowledge base / customer base / support base = established body, group, or foundation supporting something 基礎；基盤；群體」的用法，與本句語境不同。",
-        "base-mcq-02": "「表示底部；底座；基座；例句：「這盞燈有一個很重的底座。」」是「base — bottom supporting part = lowest part of something that supports the rest 底部；底座；基座」的用法，與本句語境不同。",
-        "base-mcq-06": "「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」是「base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營」的用法，與本句語境不同。",
-        "base-mcq-01": "「表示以……為基礎；根據……；建立在……之上；例句：「這個故事建立在一個簡單的哲學概念之上。」」是「Passage anchor > “...every book represents a different version of her life based on the choices she could have made.」的用法，與本句語境不同。"
+        "base-mcq-04": "本句的「base」指「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」。",
+        "base-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-04"
     },
@@ -1017,11 +989,9 @@ export default {
       "masked": "The company has a solid financial ____.",
       "options": [
         "base-mcq-04",
-        "base-mcq-03",
-        "base-mcq-05",
-        "base-mcq-02",
-        "base-mcq-06",
-        "base-mcq-01"
+        "base-mcq-25",
+        "base-mcq-18",
+        "base-mcq-22"
       ],
       "explanation": "本句的「base」指「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」。",
       "sentenceIndex": 7,
@@ -1030,12 +1000,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-04": "本句指「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」。",
-        "base-mcq-03": "「表示山腳；例句：「我們站在山的山腳。」」是「base of something = lowest or supporting part of an object, structure, mountain, etc. ……的底部；基部」的用法，與本句語境不同。",
-        "base-mcq-05": "「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」是「knowledge base / customer base / support base = established body, group, or foundation supporting something 基礎；基盤；群體」的用法，與本句語境不同。",
-        "base-mcq-02": "「表示底部；底座；基座；例句：「這盞燈有一個很重的底座。」」是「base — bottom supporting part = lowest part of something that supports the rest 底部；底座；基座」的用法，與本句語境不同。",
-        "base-mcq-06": "「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」是「base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營」的用法，與本句語境不同。",
-        "base-mcq-01": "「表示以……為基礎；根據……；建立在……之上；例句：「這個故事建立在一個簡單的哲學概念之上。」」是「Passage anchor > “...every book represents a different version of her life based on the choices she could have made.」的用法，與本句語境不同。"
+        "base-mcq-04": "本句的「base」指「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」。",
+        "base-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-04"
     },
@@ -1047,11 +1015,9 @@ export default {
       "masked": "The company has a large customer ____.",
       "options": [
         "base-mcq-05",
-        "base-mcq-04",
-        "base-mcq-06",
-        "base-mcq-03",
-        "base-mcq-07",
-        "base-mcq-02"
+        "base-mcq-24",
+        "base-mcq-35",
+        "base-mcq-13"
       ],
       "explanation": "本句的「base」指「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」。",
       "sentenceIndex": 8,
@@ -1060,12 +1026,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-05": "本句指「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」。",
-        "base-mcq-04": "「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」是「base — foundation = underlying support, foundation, or structure on which something depends 基礎；根基」的用法，與本句語境不同。",
-        "base-mcq-06": "「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」是「base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營」的用法，與本句語境不同。",
-        "base-mcq-03": "「表示山腳；例句：「我們站在山的山腳。」」是「base of something = lowest or supporting part of an object, structure, mountain, etc. ……的底部；基部」的用法，與本句語境不同。",
-        "base-mcq-07": "「表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」」是「home base = main place from which someone normally operates 主要據點；大本營」的用法，與本句語境不同。",
-        "base-mcq-02": "「表示底部；底座；基座；例句：「這盞燈有一個很重的底座。」」是「base — bottom supporting part = lowest part of something that supports the rest 底部；底座；基座」的用法，與本句語境不同。"
+        "base-mcq-05": "本句的「base」指「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」。",
+        "base-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-05"
     },
@@ -1077,11 +1041,9 @@ export default {
       "masked": "The candidate relied on a loyal support ____.",
       "options": [
         "base-mcq-05",
-        "base-mcq-04",
-        "base-mcq-06",
-        "base-mcq-03",
-        "base-mcq-07",
-        "base-mcq-02"
+        "base-mcq-21",
+        "base-mcq-11",
+        "base-mcq-19"
       ],
       "explanation": "本句的「base」指「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」。",
       "sentenceIndex": 9,
@@ -1090,12 +1052,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-05": "本句指「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」。",
-        "base-mcq-04": "「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」是「base — foundation = underlying support, foundation, or structure on which something depends 基礎；根基」的用法，與本句語境不同。",
-        "base-mcq-06": "「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」是「base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營」的用法，與本句語境不同。",
-        "base-mcq-03": "「表示山腳；例句：「我們站在山的山腳。」」是「base of something = lowest or supporting part of an object, structure, mountain, etc. ……的底部；基部」的用法，與本句語境不同。",
-        "base-mcq-07": "「表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」」是「home base = main place from which someone normally operates 主要據點；大本營」的用法，與本句語境不同。",
-        "base-mcq-02": "「表示底部；底座；基座；例句：「這盞燈有一個很重的底座。」」是「base — bottom supporting part = lowest part of something that supports the rest 底部；底座；基座」的用法，與本句語境不同。"
+        "base-mcq-05": "本句的「base」指「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」。",
+        "base-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-05"
     },
@@ -1107,11 +1067,9 @@ export default {
       "masked": "The team uses London as its ____.",
       "options": [
         "base-mcq-06",
-        "base-mcq-05",
-        "base-mcq-07",
-        "base-mcq-04",
-        "base-mcq-08",
-        "base-mcq-03"
+        "base-mcq-10",
+        "base-mcq-29",
+        "base-mcq-34"
       ],
       "explanation": "本句的「base」指「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」。",
       "sentenceIndex": 10,
@@ -1120,12 +1078,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-06": "本句指「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」。",
-        "base-mcq-05": "「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」是「knowledge base / customer base / support base = established body, group, or foundation supporting something 基礎；基盤；群體」的用法，與本句語境不同。",
-        "base-mcq-07": "「表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」」是「home base = main place from which someone normally operates 主要據點；大本營」的用法，與本句語境不同。",
-        "base-mcq-04": "「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」是「base — foundation = underlying support, foundation, or structure on which something depends 基礎；根基」的用法，與本句語境不同。",
-        "base-mcq-08": "「表示軍事基地；例句：「飛機返回軍事基地。」」是「military base = facility from which military personnel and operations are organized 軍事基地」的用法，與本句語境不同。",
-        "base-mcq-03": "「表示山腳；例句：「我們站在山的山腳。」」是「base of something = lowest or supporting part of an object, structure, mountain, etc. ……的底部；基部」的用法，與本句語境不同。"
+        "base-mcq-06": "本句的「base」指「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」。",
+        "base-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-06"
     },
@@ -1137,11 +1093,9 @@ export default {
       "masked": "The researchers established a temporary ____ near the coast.",
       "options": [
         "base-mcq-06",
-        "base-mcq-05",
-        "base-mcq-07",
-        "base-mcq-04",
-        "base-mcq-08",
-        "base-mcq-03"
+        "base-mcq-11",
+        "base-mcq-21",
+        "base-mcq-29"
       ],
       "explanation": "本句的「base」指「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」。",
       "sentenceIndex": 11,
@@ -1150,12 +1104,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-06": "本句指「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」。",
-        "base-mcq-05": "「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」是「knowledge base / customer base / support base = established body, group, or foundation supporting something 基礎；基盤；群體」的用法，與本句語境不同。",
-        "base-mcq-07": "「表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」」是「home base = main place from which someone normally operates 主要據點；大本營」的用法，與本句語境不同。",
-        "base-mcq-04": "「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」是「base — foundation = underlying support, foundation, or structure on which something depends 基礎；根基」的用法，與本句語境不同。",
-        "base-mcq-08": "「表示軍事基地；例句：「飛機返回軍事基地。」」是「military base = facility from which military personnel and operations are organized 軍事基地」的用法，與本句語境不同。",
-        "base-mcq-03": "「表示山腳；例句：「我們站在山的山腳。」」是「base of something = lowest or supporting part of an object, structure, mountain, etc. ……的底部；基部」的用法，與本句語境不同。"
+        "base-mcq-06": "本句的「base」指「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」。",
+        "base-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-06"
     },
@@ -1167,11 +1119,9 @@ export default {
       "masked": "Singapore became the company’s Asian ____.",
       "options": [
         "base-mcq-07",
-        "base-mcq-06",
-        "base-mcq-08",
-        "base-mcq-05",
         "base-mcq-09",
-        "base-mcq-04"
+        "base-mcq-03",
+        "base-mcq-17"
       ],
       "explanation": "本句的「home base」指「表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」」。",
       "sentenceIndex": 12,
@@ -1180,12 +1130,10 @@ export default {
         "home base"
       ],
       "optionReasons": {
-        "base-mcq-07": "本句指「表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」」。",
-        "base-mcq-06": "「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」是「base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營」的用法，與本句語境不同。",
-        "base-mcq-08": "「表示軍事基地；例句：「飛機返回軍事基地。」」是「military base = facility from which military personnel and operations are organized 軍事基地」的用法，與本句語境不同。",
-        "base-mcq-05": "「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」是「knowledge base / customer base / support base = established body, group, or foundation supporting something 基礎；基盤；群體」的用法，與本句語境不同。",
-        "base-mcq-09": "「表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」」是「air base / naval base = military facility for aircraft or naval operations 空軍基地／海軍基地」的用法，與本句語境不同。",
-        "base-mcq-04": "「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」是「base — foundation = underlying support, foundation, or structure on which something depends 基礎；根基」的用法，與本句語境不同。"
+        "base-mcq-07": "本句的「home base」指「表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」」。",
+        "base-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-07"
     },
@@ -1197,11 +1145,9 @@ export default {
       "masked": "We returned to ____ after the trip.",
       "options": [
         "base-mcq-07",
-        "base-mcq-06",
-        "base-mcq-08",
-        "base-mcq-05",
-        "base-mcq-09",
-        "base-mcq-04"
+        "base-mcq-10",
+        "base-mcq-34",
+        "base-mcq-21"
       ],
       "explanation": "本句的「home base」指「表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」」。",
       "sentenceIndex": 13,
@@ -1210,12 +1156,10 @@ export default {
         "home base"
       ],
       "optionReasons": {
-        "base-mcq-07": "本句指「表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」」。",
-        "base-mcq-06": "「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」是「base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營」的用法，與本句語境不同。",
-        "base-mcq-08": "「表示軍事基地；例句：「飛機返回軍事基地。」」是「military base = facility from which military personnel and operations are organized 軍事基地」的用法，與本句語境不同。",
-        "base-mcq-05": "「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」是「knowledge base / customer base / support base = established body, group, or foundation supporting something 基礎；基盤；群體」的用法，與本句語境不同。",
-        "base-mcq-09": "「表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」」是「air base / naval base = military facility for aircraft or naval operations 空軍基地／海軍基地」的用法，與本句語境不同。",
-        "base-mcq-04": "「表示基礎；根基；例句：「信任是一段穩固關係的基礎。」」是「base — foundation = underlying support, foundation, or structure on which something depends 基礎；根基」的用法，與本句語境不同。"
+        "base-mcq-07": "本句的「home base」指「表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」」。",
+        "base-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-07"
     },
@@ -1227,11 +1171,9 @@ export default {
       "masked": "The aircraft returned to the military ____.",
       "options": [
         "base-mcq-08",
-        "base-mcq-07",
-        "base-mcq-09",
-        "base-mcq-06",
-        "base-mcq-10",
-        "base-mcq-05"
+        "base-mcq-36",
+        "base-mcq-27",
+        "base-mcq-25"
       ],
       "explanation": "本句的「base」指「表示軍事基地；例句：「飛機返回軍事基地。」」。",
       "sentenceIndex": 14,
@@ -1240,12 +1182,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-08": "本句指「表示軍事基地；例句：「飛機返回軍事基地。」」。",
-        "base-mcq-07": "「表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」」是「home base = main place from which someone normally operates 主要據點；大本營」的用法，與本句語境不同。",
-        "base-mcq-09": "「表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」」是「air base / naval base = military facility for aircraft or naval operations 空軍基地／海軍基地」的用法，與本句語境不同。",
-        "base-mcq-06": "「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」是「base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營」的用法，與本句語境不同。",
-        "base-mcq-10": "「表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」」是「base someone/something somewhere = locate a person, organization, or operation in a particular place 把……設於；駐紮於」的用法，與本句語境不同。",
-        "base-mcq-05": "「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」是「knowledge base / customer base / support base = established body, group, or foundation supporting something 基礎；基盤；群體」的用法，與本句語境不同。"
+        "base-mcq-08": "本句的「base」指「表示軍事基地；例句：「飛機返回軍事基地。」」。",
+        "base-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-08"
     },
@@ -1257,11 +1197,9 @@ export default {
       "masked": "The troops were stationed at an overseas ____.",
       "options": [
         "base-mcq-08",
-        "base-mcq-07",
-        "base-mcq-09",
-        "base-mcq-06",
-        "base-mcq-10",
-        "base-mcq-05"
+        "base-mcq-23",
+        "base-mcq-11",
+        "base-mcq-27"
       ],
       "explanation": "本句的「base」指「表示軍事基地；例句：「飛機返回軍事基地。」」。",
       "sentenceIndex": 15,
@@ -1270,12 +1208,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-08": "本句指「表示軍事基地；例句：「飛機返回軍事基地。」」。",
-        "base-mcq-07": "「表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」」是「home base = main place from which someone normally operates 主要據點；大本營」的用法，與本句語境不同。",
-        "base-mcq-09": "「表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」」是「air base / naval base = military facility for aircraft or naval operations 空軍基地／海軍基地」的用法，與本句語境不同。",
-        "base-mcq-06": "「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」是「base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營」的用法，與本句語境不同。",
-        "base-mcq-10": "「表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」」是「base someone/something somewhere = locate a person, organization, or operation in a particular place 把……設於；駐紮於」的用法，與本句語境不同。",
-        "base-mcq-05": "「表示基礎；基盤；群體；例句：「公司擁有龐大的客戶基礎／客群。」」是「knowledge base / customer base / support base = established body, group, or foundation supporting something 基礎；基盤；群體」的用法，與本句語境不同。"
+        "base-mcq-08": "本句的「base」指「表示軍事基地；例句：「飛機返回軍事基地。」」。",
+        "base-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-08"
     },
@@ -1287,11 +1223,9 @@ export default {
       "masked": "The aircraft took off from an ____.",
       "options": [
         "base-mcq-09",
-        "base-mcq-08",
-        "base-mcq-10",
-        "base-mcq-07",
-        "base-mcq-11",
-        "base-mcq-06"
+        "base-mcq-36",
+        "base-mcq-25",
+        "base-mcq-21"
       ],
       "explanation": "本句的「air base」指「表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」」。",
       "sentenceIndex": 16,
@@ -1300,12 +1234,10 @@ export default {
         "air base"
       ],
       "optionReasons": {
-        "base-mcq-09": "本句指「表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」」。",
-        "base-mcq-08": "「表示軍事基地；例句：「飛機返回軍事基地。」」是「military base = facility from which military personnel and operations are organized 軍事基地」的用法，與本句語境不同。",
-        "base-mcq-10": "「表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」」是「base someone/something somewhere = locate a person, organization, or operation in a particular place 把……設於；駐紮於」的用法，與本句語境不同。",
-        "base-mcq-07": "「表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」」是「home base = main place from which someone normally operates 主要據點；大本營」的用法，與本句語境不同。",
-        "base-mcq-11": "「表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」」是「be based in / at = have one’s main location in a particular place 設於；總部位於；駐於」的用法，與本句語境不同。",
-        "base-mcq-06": "「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」是「base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營」的用法，與本句語境不同。"
+        "base-mcq-09": "本句的「air base」指「表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」」。",
+        "base-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-09"
     },
@@ -1317,11 +1249,9 @@ export default {
       "masked": "The fleet returned to its ____.",
       "options": [
         "base-mcq-09",
-        "base-mcq-08",
         "base-mcq-10",
         "base-mcq-07",
-        "base-mcq-11",
-        "base-mcq-06"
+        "base-mcq-03"
       ],
       "explanation": "本句的「naval base」指「表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」」。",
       "sentenceIndex": 17,
@@ -1330,12 +1260,10 @@ export default {
         "naval base"
       ],
       "optionReasons": {
-        "base-mcq-09": "本句指「表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」」。",
-        "base-mcq-08": "「表示軍事基地；例句：「飛機返回軍事基地。」」是「military base = facility from which military personnel and operations are organized 軍事基地」的用法，與本句語境不同。",
-        "base-mcq-10": "「表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」」是「base someone/something somewhere = locate a person, organization, or operation in a particular place 把……設於；駐紮於」的用法，與本句語境不同。",
-        "base-mcq-07": "「表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」」是「home base = main place from which someone normally operates 主要據點；大本營」的用法，與本句語境不同。",
-        "base-mcq-11": "「表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」」是「be based in / at = have one’s main location in a particular place 設於；總部位於；駐於」的用法，與本句語境不同。",
-        "base-mcq-06": "「表示基地；據點；大本營；例句：「團隊以倫敦作為主要據點。」」是「base — main place from which someone operates = place where a person, organization, team, etc. mainly works or operates 基地；據點；大本營」的用法，與本句語境不同。"
+        "base-mcq-09": "本句的「naval base」指「表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」」。",
+        "base-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-09"
     },
@@ -1347,11 +1275,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "base-mcq-10",
-        "base-mcq-09",
-        "base-mcq-11",
-        "base-mcq-08",
-        "base-mcq-12",
-        "base-mcq-07"
+        "base-mcq-06",
+        "base-mcq-27",
+        "base-mcq-25"
       ],
       "explanation": "本句的「based its regional office in Tokyo」指「表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」」。",
       "sentenceIndex": 18,
@@ -1360,12 +1286,10 @@ export default {
         "based its regional office in Tokyo"
       ],
       "optionReasons": {
-        "base-mcq-10": "本句指「表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」」。",
-        "base-mcq-09": "「表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」」是「air base / naval base = military facility for aircraft or naval operations 空軍基地／海軍基地」的用法，與本句語境不同。",
-        "base-mcq-11": "「表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」」是「be based in / at = have one’s main location in a particular place 設於；總部位於；駐於」的用法，與本句語境不同。",
-        "base-mcq-08": "「表示軍事基地；例句：「飛機返回軍事基地。」」是「military base = facility from which military personnel and operations are organized 軍事基地」的用法，與本句語境不同。",
-        "base-mcq-12": "「表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」」是「base something on something = use something as the main source, foundation, evidence, or principle 以……為基礎；根據…… This is the exact passage branch.」的用法，與本句語境不同。",
-        "base-mcq-07": "「表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」」是「home base = main place from which someone normally operates 主要據點；大本營」的用法，與本句語境不同。"
+        "base-mcq-10": "本句的「based its regional office in Tokyo」指「表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」」。",
+        "base-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-10"
     },
@@ -1377,11 +1301,9 @@ export default {
       "masked": "The unit is ____.",
       "options": [
         "base-mcq-10",
-        "base-mcq-09",
-        "base-mcq-11",
-        "base-mcq-08",
-        "base-mcq-12",
-        "base-mcq-07"
+        "base-mcq-35",
+        "base-mcq-20",
+        "base-mcq-23"
       ],
       "explanation": "本句的「based in Germany」指「表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」」。",
       "sentenceIndex": 19,
@@ -1390,12 +1312,10 @@ export default {
         "based in Germany"
       ],
       "optionReasons": {
-        "base-mcq-10": "本句指「表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」」。",
-        "base-mcq-09": "「表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」」是「air base / naval base = military facility for aircraft or naval operations 空軍基地／海軍基地」的用法，與本句語境不同。",
-        "base-mcq-11": "「表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」」是「be based in / at = have one’s main location in a particular place 設於；總部位於；駐於」的用法，與本句語境不同。",
-        "base-mcq-08": "「表示軍事基地；例句：「飛機返回軍事基地。」」是「military base = facility from which military personnel and operations are organized 軍事基地」的用法，與本句語境不同。",
-        "base-mcq-12": "「表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」」是「base something on something = use something as the main source, foundation, evidence, or principle 以……為基礎；根據…… This is the exact passage branch.」的用法，與本句語境不同。",
-        "base-mcq-07": "「表示主要據點；大本營；例句：「新加坡成為公司在亞洲的主要據點。」」是「home base = main place from which someone normally operates 主要據點；大本營」的用法，與本句語境不同。"
+        "base-mcq-10": "本句的「based in Germany」指「表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」」。",
+        "base-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-10"
     },
@@ -1407,11 +1327,9 @@ export default {
       "masked": "The company is ____ London.",
       "options": [
         "base-mcq-11",
-        "base-mcq-10",
-        "base-mcq-12",
-        "base-mcq-09",
-        "base-mcq-13",
-        "base-mcq-08"
+        "base-mcq-05",
+        "base-mcq-19",
+        "base-mcq-06"
       ],
       "explanation": "本句的「based in」指「表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」」。",
       "sentenceIndex": 20,
@@ -1420,12 +1338,10 @@ export default {
         "based in"
       ],
       "optionReasons": {
-        "base-mcq-11": "本句指「表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」」。",
-        "base-mcq-10": "「表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」」是「base someone/something somewhere = locate a person, organization, or operation in a particular place 把……設於；駐紮於」的用法，與本句語境不同。",
-        "base-mcq-12": "「表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」」是「base something on something = use something as the main source, foundation, evidence, or principle 以……為基礎；根據…… This is the exact passage branch.」的用法，與本句語境不同。",
-        "base-mcq-09": "「表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」」是「air base / naval base = military facility for aircraft or naval operations 空軍基地／海軍基地」的用法，與本句語境不同。",
-        "base-mcq-13": "「表示根據；建立於；例句：「這套制度建立在信任之上。」」是「be based on = derive from or depend on something 根據；建立於」的用法，與本句語境不同。",
-        "base-mcq-08": "「表示軍事基地；例句：「飛機返回軍事基地。」」是「military base = facility from which military personnel and operations are organized 軍事基地」的用法，與本句語境不同。"
+        "base-mcq-11": "本句的「based in」指「表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」」。",
+        "base-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-11"
     },
@@ -1437,11 +1353,9 @@ export default {
       "masked": "The research team is ____ the university.",
       "options": [
         "base-mcq-11",
-        "base-mcq-10",
-        "base-mcq-12",
-        "base-mcq-09",
-        "base-mcq-13",
-        "base-mcq-08"
+        "base-mcq-28",
+        "base-mcq-03",
+        "base-mcq-22"
       ],
       "explanation": "本句的「based at」指「表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」」。",
       "sentenceIndex": 21,
@@ -1450,12 +1364,10 @@ export default {
         "based at"
       ],
       "optionReasons": {
-        "base-mcq-11": "本句指「表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」」。",
-        "base-mcq-10": "「表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」」是「base someone/something somewhere = locate a person, organization, or operation in a particular place 把……設於；駐紮於」的用法，與本句語境不同。",
-        "base-mcq-12": "「表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」」是「base something on something = use something as the main source, foundation, evidence, or principle 以……為基礎；根據…… This is the exact passage branch.」的用法，與本句語境不同。",
-        "base-mcq-09": "「表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」」是「air base / naval base = military facility for aircraft or naval operations 空軍基地／海軍基地」的用法，與本句語境不同。",
-        "base-mcq-13": "「表示根據；建立於；例句：「這套制度建立在信任之上。」」是「be based on = derive from or depend on something 根據；建立於」的用法，與本句語境不同。",
-        "base-mcq-08": "「表示軍事基地；例句：「飛機返回軍事基地。」」是「military base = facility from which military personnel and operations are organized 軍事基地」的用法，與本句語境不同。"
+        "base-mcq-11": "本句的「based at」指「表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」」。",
+        "base-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-11"
     },
@@ -1467,11 +1379,9 @@ export default {
       "masked": "The film is ____ a true story.",
       "options": [
         "base-mcq-12",
-        "base-mcq-11",
-        "base-mcq-13",
         "base-mcq-10",
-        "base-mcq-14",
-        "base-mcq-09"
+        "base-mcq-35",
+        "base-mcq-17"
       ],
       "explanation": "本句的「based on」指「表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」」。",
       "sentenceIndex": 22,
@@ -1480,12 +1390,10 @@ export default {
         "based on"
       ],
       "optionReasons": {
-        "base-mcq-12": "本句指「表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」」。",
-        "base-mcq-11": "「表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」」是「be based in / at = have one’s main location in a particular place 設於；總部位於；駐於」的用法，與本句語境不同。",
-        "base-mcq-13": "「表示根據；建立於；例句：「這套制度建立在信任之上。」」是「be based on = derive from or depend on something 根據；建立於」的用法，與本句語境不同。",
-        "base-mcq-10": "「表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」」是「base someone/something somewhere = locate a person, organization, or operation in a particular place 把……設於；駐紮於」的用法，與本句語境不同。",
-        "base-mcq-14": "「表示基數；基準；例句：「稅款以固定基數計算。」」是「base — starting amount or reference level = starting point or reference amount used for comparison or calculation 基數；基準」的用法，與本句語境不同。",
-        "base-mcq-09": "「表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」」是「air base / naval base = military facility for aircraft or naval operations 空軍基地／海軍基地」的用法，與本句語境不同。"
+        "base-mcq-12": "本句的「based on」指「表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」」。",
+        "base-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-12"
     },
@@ -1498,10 +1406,8 @@ export default {
       "options": [
         "base-mcq-12",
         "base-mcq-11",
-        "base-mcq-13",
-        "base-mcq-10",
-        "base-mcq-14",
-        "base-mcq-09"
+        "base-mcq-03",
+        "base-mcq-35"
       ],
       "explanation": "本句的「based on」指「表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」」。",
       "sentenceIndex": 23,
@@ -1510,12 +1416,10 @@ export default {
         "based on"
       ],
       "optionReasons": {
-        "base-mcq-12": "本句指「表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」」。",
-        "base-mcq-11": "「表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」」是「be based in / at = have one’s main location in a particular place 設於；總部位於；駐於」的用法，與本句語境不同。",
-        "base-mcq-13": "「表示根據；建立於；例句：「這套制度建立在信任之上。」」是「be based on = derive from or depend on something 根據；建立於」的用法，與本句語境不同。",
-        "base-mcq-10": "「表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」」是「base someone/something somewhere = locate a person, organization, or operation in a particular place 把……設於；駐紮於」的用法，與本句語境不同。",
-        "base-mcq-14": "「表示基數；基準；例句：「稅款以固定基數計算。」」是「base — starting amount or reference level = starting point or reference amount used for comparison or calculation 基數；基準」的用法，與本句語境不同。",
-        "base-mcq-09": "「表示空軍基地／海軍基地；例句：「飛機從空軍基地起飛。」」是「air base / naval base = military facility for aircraft or naval operations 空軍基地／海軍基地」的用法，與本句語境不同。"
+        "base-mcq-12": "本句的「based on」指「表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」」。",
+        "base-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-12"
     },
@@ -1527,11 +1431,9 @@ export default {
       "masked": "The system is ____ trust.",
       "options": [
         "base-mcq-13",
-        "base-mcq-12",
-        "base-mcq-14",
-        "base-mcq-11",
-        "base-mcq-15",
-        "base-mcq-10"
+        "base-mcq-29",
+        "base-mcq-08",
+        "base-mcq-18"
       ],
       "explanation": "本句的「based on」指「表示根據；建立於；例句：「這套制度建立在信任之上。」」。",
       "sentenceIndex": 24,
@@ -1540,12 +1442,10 @@ export default {
         "based on"
       ],
       "optionReasons": {
-        "base-mcq-13": "本句指「表示根據；建立於；例句：「這套制度建立在信任之上。」」。",
-        "base-mcq-12": "「表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」」是「base something on something = use something as the main source, foundation, evidence, or principle 以……為基礎；根據…… This is the exact passage branch.」的用法，與本句語境不同。",
-        "base-mcq-14": "「表示基數；基準；例句：「稅款以固定基數計算。」」是「base — starting amount or reference level = starting point or reference amount used for comparison or calculation 基數；基準」的用法，與本句語境不同。",
-        "base-mcq-11": "「表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」」是「be based in / at = have one’s main location in a particular place 設於；總部位於；駐於」的用法，與本句語境不同。",
-        "base-mcq-15": "「表示基準利率；基本利率；例句：「銀行調整了基準利率。」」是「base rate = basic rate used as a starting point for calculating other rates 基準利率；基本利率」的用法，與本句語境不同。",
-        "base-mcq-10": "「表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」」是「base someone/something somewhere = locate a person, organization, or operation in a particular place 把……設於；駐紮於」的用法，與本句語境不同。"
+        "base-mcq-13": "本句的「based on」指「表示根據；建立於；例句：「這套制度建立在信任之上。」」。",
+        "base-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-13"
     },
@@ -1557,10 +1457,8 @@ export default {
       "masked": "The design is ____ traditional architecture.",
       "options": [
         "base-mcq-13",
-        "base-mcq-12",
-        "base-mcq-14",
-        "base-mcq-11",
-        "base-mcq-15",
+        "base-mcq-09",
+        "base-mcq-35",
         "base-mcq-10"
       ],
       "explanation": "本句的「based on」指「表示根據；建立於；例句：「這套制度建立在信任之上。」」。",
@@ -1570,12 +1468,10 @@ export default {
         "based on"
       ],
       "optionReasons": {
-        "base-mcq-13": "本句指「表示根據；建立於；例句：「這套制度建立在信任之上。」」。",
-        "base-mcq-12": "「表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」」是「base something on something = use something as the main source, foundation, evidence, or principle 以……為基礎；根據…… This is the exact passage branch.」的用法，與本句語境不同。",
-        "base-mcq-14": "「表示基數；基準；例句：「稅款以固定基數計算。」」是「base — starting amount or reference level = starting point or reference amount used for comparison or calculation 基數；基準」的用法，與本句語境不同。",
-        "base-mcq-11": "「表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」」是「be based in / at = have one’s main location in a particular place 設於；總部位於；駐於」的用法，與本句語境不同。",
-        "base-mcq-15": "「表示基準利率；基本利率；例句：「銀行調整了基準利率。」」是「base rate = basic rate used as a starting point for calculating other rates 基準利率；基本利率」的用法，與本句語境不同。",
-        "base-mcq-10": "「表示把……設於；駐紮於；例句：「公司把地區辦公室設在東京。」」是「base someone/something somewhere = locate a person, organization, or operation in a particular place 把……設於；駐紮於」的用法，與本句語境不同。"
+        "base-mcq-13": "本句的「based on」指「表示根據；建立於；例句：「這套制度建立在信任之上。」」。",
+        "base-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-13"
     },
@@ -1587,11 +1483,9 @@ export default {
       "masked": "The tax is calculated from a fixed ____.",
       "options": [
         "base-mcq-14",
-        "base-mcq-13",
-        "base-mcq-15",
-        "base-mcq-12",
-        "base-mcq-16",
-        "base-mcq-11"
+        "base-mcq-24",
+        "base-mcq-03",
+        "base-mcq-21"
       ],
       "explanation": "本句的「base」指「表示基數；基準；例句：「稅款以固定基數計算。」」。",
       "sentenceIndex": 26,
@@ -1600,12 +1494,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-14": "本句指「表示基數；基準；例句：「稅款以固定基數計算。」」。",
-        "base-mcq-13": "「表示根據；建立於；例句：「這套制度建立在信任之上。」」是「be based on = derive from or depend on something 根據；建立於」的用法，與本句語境不同。",
-        "base-mcq-15": "「表示基準利率；基本利率；例句：「銀行調整了基準利率。」」是「base rate = basic rate used as a starting point for calculating other rates 基準利率；基本利率」的用法，與本句語境不同。",
-        "base-mcq-12": "「表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」」是「base something on something = use something as the main source, foundation, evidence, or principle 以……為基礎；根據…… This is the exact passage branch.」的用法，與本句語境不同。",
-        "base-mcq-16": "「表示底數；進位制的基數；例句：「二進位使用基數 2。」」是「base — number system foundation = number that determines the place-value system being used 底數；進位制的基數」的用法，與本句語境不同。",
-        "base-mcq-11": "「表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」」是「be based in / at = have one’s main location in a particular place 設於；總部位於；駐於」的用法，與本句語境不同。"
+        "base-mcq-14": "本句的「base」指「表示基數；基準；例句：「稅款以固定基數計算。」」。",
+        "base-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-14"
     },
@@ -1617,11 +1509,9 @@ export default {
       "masked": "Prices were compared against the previous year’s ____.",
       "options": [
         "base-mcq-14",
-        "base-mcq-13",
-        "base-mcq-15",
-        "base-mcq-12",
-        "base-mcq-16",
-        "base-mcq-11"
+        "base-mcq-18",
+        "base-mcq-10",
+        "base-mcq-20"
       ],
       "explanation": "本句的「base」指「表示基數；基準；例句：「稅款以固定基數計算。」」。",
       "sentenceIndex": 27,
@@ -1630,12 +1520,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-14": "本句指「表示基數；基準；例句：「稅款以固定基數計算。」」。",
-        "base-mcq-13": "「表示根據；建立於；例句：「這套制度建立在信任之上。」」是「be based on = derive from or depend on something 根據；建立於」的用法，與本句語境不同。",
-        "base-mcq-15": "「表示基準利率；基本利率；例句：「銀行調整了基準利率。」」是「base rate = basic rate used as a starting point for calculating other rates 基準利率；基本利率」的用法，與本句語境不同。",
-        "base-mcq-12": "「表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」」是「base something on something = use something as the main source, foundation, evidence, or principle 以……為基礎；根據…… This is the exact passage branch.」的用法，與本句語境不同。",
-        "base-mcq-16": "「表示底數；進位制的基數；例句：「二進位使用基數 2。」」是「base — number system foundation = number that determines the place-value system being used 底數；進位制的基數」的用法，與本句語境不同。",
-        "base-mcq-11": "「表示設於；總部位於；駐於；例句：「公司總部設在倫敦。」」是「be based in / at = have one’s main location in a particular place 設於；總部位於；駐於」的用法，與本句語境不同。"
+        "base-mcq-14": "本句的「base」指「表示基數；基準；例句：「稅款以固定基數計算。」」。",
+        "base-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-14"
     },
@@ -1647,11 +1535,9 @@ export default {
       "masked": "The bank changed its ____.",
       "options": [
         "base-mcq-15",
-        "base-mcq-14",
-        "base-mcq-16",
-        "base-mcq-13",
-        "base-mcq-17",
-        "base-mcq-12"
+        "base-mcq-29",
+        "base-mcq-24",
+        "base-mcq-17"
       ],
       "explanation": "本句的「base rate」指「表示基準利率；基本利率；例句：「銀行調整了基準利率。」」。",
       "sentenceIndex": 28,
@@ -1660,12 +1546,10 @@ export default {
         "base rate"
       ],
       "optionReasons": {
-        "base-mcq-15": "本句指「表示基準利率；基本利率；例句：「銀行調整了基準利率。」」。",
-        "base-mcq-14": "「表示基數；基準；例句：「稅款以固定基數計算。」」是「base — starting amount or reference level = starting point or reference amount used for comparison or calculation 基數；基準」的用法，與本句語境不同。",
-        "base-mcq-16": "「表示底數；進位制的基數；例句：「二進位使用基數 2。」」是「base — number system foundation = number that determines the place-value system being used 底數；進位制的基數」的用法，與本句語境不同。",
-        "base-mcq-13": "「表示根據；建立於；例句：「這套制度建立在信任之上。」」是「be based on = derive from or depend on something 根據；建立於」的用法，與本句語境不同。",
-        "base-mcq-17": "「表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」」是「base — exponentiation = number that is raised to a power 底數」的用法，與本句語境不同。",
-        "base-mcq-12": "「表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」」是「base something on something = use something as the main source, foundation, evidence, or principle 以……為基礎；根據…… This is the exact passage branch.」的用法，與本句語境不同。"
+        "base-mcq-15": "本句的「base rate」指「表示基準利率；基本利率；例句：「銀行調整了基準利率。」」。",
+        "base-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-15"
     },
@@ -1677,11 +1561,9 @@ export default {
       "masked": "Loan rates often move with the ____.",
       "options": [
         "base-mcq-15",
-        "base-mcq-14",
-        "base-mcq-16",
-        "base-mcq-13",
+        "base-mcq-25",
         "base-mcq-17",
-        "base-mcq-12"
+        "base-mcq-36"
       ],
       "explanation": "本句的「base rate」指「表示基準利率；基本利率；例句：「銀行調整了基準利率。」」。",
       "sentenceIndex": 29,
@@ -1690,12 +1572,10 @@ export default {
         "base rate"
       ],
       "optionReasons": {
-        "base-mcq-15": "本句指「表示基準利率；基本利率；例句：「銀行調整了基準利率。」」。",
-        "base-mcq-14": "「表示基數；基準；例句：「稅款以固定基數計算。」」是「base — starting amount or reference level = starting point or reference amount used for comparison or calculation 基數；基準」的用法，與本句語境不同。",
-        "base-mcq-16": "「表示底數；進位制的基數；例句：「二進位使用基數 2。」」是「base — number system foundation = number that determines the place-value system being used 底數；進位制的基數」的用法，與本句語境不同。",
-        "base-mcq-13": "「表示根據；建立於；例句：「這套制度建立在信任之上。」」是「be based on = derive from or depend on something 根據；建立於」的用法，與本句語境不同。",
-        "base-mcq-17": "「表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」」是「base — exponentiation = number that is raised to a power 底數」的用法，與本句語境不同。",
-        "base-mcq-12": "「表示以……為基礎；根據……；例句：「這部電影根據真實故事改編。」」是「base something on something = use something as the main source, foundation, evidence, or principle 以……為基礎；根據…… This is the exact passage branch.」的用法，與本句語境不同。"
+        "base-mcq-15": "本句的「base rate」指「表示基準利率；基本利率；例句：「銀行調整了基準利率。」」。",
+        "base-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-15"
     },
@@ -1707,11 +1587,9 @@ export default {
       "masked": "Binary uses ____.",
       "options": [
         "base-mcq-16",
-        "base-mcq-15",
-        "base-mcq-17",
-        "base-mcq-14",
-        "base-mcq-18",
-        "base-mcq-13"
+        "base-mcq-35",
+        "base-mcq-20",
+        "base-mcq-10"
       ],
       "explanation": "本句的「base 2」指「表示底數；進位制的基數；例句：「二進位使用基數 2。」」。",
       "sentenceIndex": 30,
@@ -1720,12 +1598,10 @@ export default {
         "base 2"
       ],
       "optionReasons": {
-        "base-mcq-16": "本句指「表示底數；進位制的基數；例句：「二進位使用基數 2。」」。",
-        "base-mcq-15": "「表示基準利率；基本利率；例句：「銀行調整了基準利率。」」是「base rate = basic rate used as a starting point for calculating other rates 基準利率；基本利率」的用法，與本句語境不同。",
-        "base-mcq-17": "「表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」」是「base — exponentiation = number that is raised to a power 底數」的用法，與本句語境不同。",
-        "base-mcq-14": "「表示基數；基準；例句：「稅款以固定基數計算。」」是「base — starting amount or reference level = starting point or reference amount used for comparison or calculation 基數；基準」的用法，與本句語境不同。",
-        "base-mcq-18": "「表示底邊；底面；例句：「將底邊乘以高度。」」是「base — geometry = side or surface treated as the bottom or reference side of a geometric figure 底邊；底面」的用法，與本句語境不同。",
-        "base-mcq-13": "「表示根據；建立於；例句：「這套制度建立在信任之上。」」是「be based on = derive from or depend on something 根據；建立於」的用法，與本句語境不同。"
+        "base-mcq-16": "本句的「base 2」指「表示底數；進位制的基數；例句：「二進位使用基數 2。」」。",
+        "base-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-16"
     },
@@ -1737,11 +1613,9 @@ export default {
       "masked": "Decimal notation is ____.",
       "options": [
         "base-mcq-16",
-        "base-mcq-15",
-        "base-mcq-17",
-        "base-mcq-14",
-        "base-mcq-18",
-        "base-mcq-13"
+        "base-mcq-13",
+        "base-mcq-03",
+        "base-mcq-36"
       ],
       "explanation": "本句的「base 10」指「表示底數；進位制的基數；例句：「二進位使用基數 2。」」。",
       "sentenceIndex": 31,
@@ -1750,12 +1624,10 @@ export default {
         "base 10"
       ],
       "optionReasons": {
-        "base-mcq-16": "本句指「表示底數；進位制的基數；例句：「二進位使用基數 2。」」。",
-        "base-mcq-15": "「表示基準利率；基本利率；例句：「銀行調整了基準利率。」」是「base rate = basic rate used as a starting point for calculating other rates 基準利率；基本利率」的用法，與本句語境不同。",
-        "base-mcq-17": "「表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」」是「base — exponentiation = number that is raised to a power 底數」的用法，與本句語境不同。",
-        "base-mcq-14": "「表示基數；基準；例句：「稅款以固定基數計算。」」是「base — starting amount or reference level = starting point or reference amount used for comparison or calculation 基數；基準」的用法，與本句語境不同。",
-        "base-mcq-18": "「表示底邊；底面；例句：「將底邊乘以高度。」」是「base — geometry = side or surface treated as the bottom or reference side of a geometric figure 底邊；底面」的用法，與本句語境不同。",
-        "base-mcq-13": "「表示根據；建立於；例句：「這套制度建立在信任之上。」」是「be based on = derive from or depend on something 根據；建立於」的用法，與本句語境不同。"
+        "base-mcq-16": "本句的「base 10」指「表示底數；進位制的基數；例句：「二進位使用基數 2。」」。",
+        "base-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-16"
     },
@@ -1767,11 +1639,9 @@ export default {
       "masked": "In \\(2^3\\), 2 is the ____.",
       "options": [
         "base-mcq-17",
-        "base-mcq-16",
-        "base-mcq-18",
-        "base-mcq-15",
-        "base-mcq-19",
-        "base-mcq-14"
+        "base-mcq-21",
+        "base-mcq-06",
+        "base-mcq-03"
       ],
       "explanation": "本句的「base」指「表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」」。",
       "sentenceIndex": 32,
@@ -1780,12 +1650,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-17": "本句指「表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」」。",
-        "base-mcq-16": "「表示底數；進位制的基數；例句：「二進位使用基數 2。」」是「base — number system foundation = number that determines the place-value system being used 底數；進位制的基數」的用法，與本句語境不同。",
-        "base-mcq-18": "「表示底邊；底面；例句：「將底邊乘以高度。」」是「base — geometry = side or surface treated as the bottom or reference side of a geometric figure 底邊；底面」的用法，與本句語境不同。",
-        "base-mcq-15": "「表示基準利率；基本利率；例句：「銀行調整了基準利率。」」是「base rate = basic rate used as a starting point for calculating other rates 基準利率；基本利率」的用法，與本句語境不同。",
-        "base-mcq-19": "「表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」」是「base — chemical substance = substance that can accept protons or react with acids, depending on the chemical definition 鹼；鹼性物質」的用法，與本句語境不同。",
-        "base-mcq-14": "「表示基數；基準；例句：「稅款以固定基數計算。」」是「base — starting amount or reference level = starting point or reference amount used for comparison or calculation 基數；基準」的用法，與本句語境不同。"
+        "base-mcq-17": "本句的「base」指「表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」」。",
+        "base-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-17"
     },
@@ -1797,11 +1665,9 @@ export default {
       "masked": "Identify the ____ before applying the exponent.",
       "options": [
         "base-mcq-17",
-        "base-mcq-16",
-        "base-mcq-18",
-        "base-mcq-15",
-        "base-mcq-19",
-        "base-mcq-14"
+        "base-mcq-09",
+        "base-mcq-36",
+        "base-mcq-07"
       ],
       "explanation": "本句的「base」指「表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」」。",
       "sentenceIndex": 33,
@@ -1810,12 +1676,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-17": "本句指「表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」」。",
-        "base-mcq-16": "「表示底數；進位制的基數；例句：「二進位使用基數 2。」」是「base — number system foundation = number that determines the place-value system being used 底數；進位制的基數」的用法，與本句語境不同。",
-        "base-mcq-18": "「表示底邊；底面；例句：「將底邊乘以高度。」」是「base — geometry = side or surface treated as the bottom or reference side of a geometric figure 底邊；底面」的用法，與本句語境不同。",
-        "base-mcq-15": "「表示基準利率；基本利率；例句：「銀行調整了基準利率。」」是「base rate = basic rate used as a starting point for calculating other rates 基準利率；基本利率」的用法，與本句語境不同。",
-        "base-mcq-19": "「表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」」是「base — chemical substance = substance that can accept protons or react with acids, depending on the chemical definition 鹼；鹼性物質」的用法，與本句語境不同。",
-        "base-mcq-14": "「表示基數；基準；例句：「稅款以固定基數計算。」」是「base — starting amount or reference level = starting point or reference amount used for comparison or calculation 基數；基準」的用法，與本句語境不同。"
+        "base-mcq-17": "本句的「base」指「表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」」。",
+        "base-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-17"
     },
@@ -1827,11 +1691,9 @@ export default {
       "masked": "Multiply the ____ by the height.",
       "options": [
         "base-mcq-18",
-        "base-mcq-17",
-        "base-mcq-19",
-        "base-mcq-16",
-        "base-mcq-20",
-        "base-mcq-15"
+        "base-mcq-03",
+        "base-mcq-04",
+        "base-mcq-23"
       ],
       "explanation": "本句的「base」指「表示底邊；底面；例句：「將底邊乘以高度。」」。",
       "sentenceIndex": 34,
@@ -1840,12 +1702,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-18": "本句指「表示底邊；底面；例句：「將底邊乘以高度。」」。",
-        "base-mcq-17": "「表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」」是「base — exponentiation = number that is raised to a power 底數」的用法，與本句語境不同。",
-        "base-mcq-19": "「表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」」是「base — chemical substance = substance that can accept protons or react with acids, depending on the chemical definition 鹼；鹼性物質」的用法，與本句語境不同。",
-        "base-mcq-16": "「表示底數；進位制的基數；例句：「二進位使用基數 2。」」是「base — number system foundation = number that determines the place-value system being used 底數；進位制的基數」的用法，與本句語境不同。",
-        "base-mcq-20": "「表示酸鹼的；例句：「我們學習了酸鹼反應。」」是「acid-base = relating to acids and bases 酸鹼的」的用法，與本句語境不同。",
-        "base-mcq-15": "「表示基準利率；基本利率；例句：「銀行調整了基準利率。」」是「base rate = basic rate used as a starting point for calculating other rates 基準利率；基本利率」的用法，與本句語境不同。"
+        "base-mcq-18": "本句的「base」指「表示底邊；底面；例句：「將底邊乘以高度。」」。",
+        "base-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-18"
     },
@@ -1857,11 +1717,9 @@ export default {
       "masked": "The pyramid has a square ____.",
       "options": [
         "base-mcq-18",
-        "base-mcq-17",
-        "base-mcq-19",
-        "base-mcq-16",
-        "base-mcq-20",
-        "base-mcq-15"
+        "base-mcq-10",
+        "base-mcq-33",
+        "base-mcq-24"
       ],
       "explanation": "本句的「base」指「表示底邊；底面；例句：「將底邊乘以高度。」」。",
       "sentenceIndex": 35,
@@ -1870,12 +1728,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-18": "本句指「表示底邊；底面；例句：「將底邊乘以高度。」」。",
-        "base-mcq-17": "「表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」」是「base — exponentiation = number that is raised to a power 底數」的用法，與本句語境不同。",
-        "base-mcq-19": "「表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」」是「base — chemical substance = substance that can accept protons or react with acids, depending on the chemical definition 鹼；鹼性物質」的用法，與本句語境不同。",
-        "base-mcq-16": "「表示底數；進位制的基數；例句：「二進位使用基數 2。」」是「base — number system foundation = number that determines the place-value system being used 底數；進位制的基數」的用法，與本句語境不同。",
-        "base-mcq-20": "「表示酸鹼的；例句：「我們學習了酸鹼反應。」」是「acid-base = relating to acids and bases 酸鹼的」的用法，與本句語境不同。",
-        "base-mcq-15": "「表示基準利率；基本利率；例句：「銀行調整了基準利率。」」是「base rate = basic rate used as a starting point for calculating other rates 基準利率；基本利率」的用法，與本句語境不同。"
+        "base-mcq-18": "本句的「base」指「表示底邊；底面；例句：「將底邊乘以高度。」」。",
+        "base-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-18"
     },
@@ -1887,11 +1743,9 @@ export default {
       "masked": "Sodium hydroxide is a strong ____.",
       "options": [
         "base-mcq-19",
-        "base-mcq-18",
-        "base-mcq-20",
         "base-mcq-17",
-        "base-mcq-21",
-        "base-mcq-16"
+        "base-mcq-13",
+        "base-mcq-06"
       ],
       "explanation": "本句的「base」指「表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」」。",
       "sentenceIndex": 36,
@@ -1900,12 +1754,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-19": "本句指「表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」」。",
-        "base-mcq-18": "「表示底邊；底面；例句：「將底邊乘以高度。」」是「base — geometry = side or surface treated as the bottom or reference side of a geometric figure 底邊；底面」的用法，與本句語境不同。",
-        "base-mcq-20": "「表示酸鹼的；例句：「我們學習了酸鹼反應。」」是「acid-base = relating to acids and bases 酸鹼的」的用法，與本句語境不同。",
-        "base-mcq-17": "「表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」」是「base — exponentiation = number that is raised to a power 底數」的用法，與本句語境不同。",
-        "base-mcq-21": "「表示壘；例句：「跑者到達二壘。」」是「base — baseball station = one of the fixed points a player runs between to score 壘」的用法，與本句語境不同。",
-        "base-mcq-16": "「表示底數；進位制的基數；例句：「二進位使用基數 2。」」是「base — number system foundation = number that determines the place-value system being used 底數；進位制的基數」的用法，與本句語境不同。"
+        "base-mcq-19": "本句的「base」指「表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」」。",
+        "base-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-19"
     },
@@ -1917,11 +1769,9 @@ export default {
       "masked": "An acid reacts with a ____.",
       "options": [
         "base-mcq-19",
-        "base-mcq-18",
-        "base-mcq-20",
-        "base-mcq-17",
-        "base-mcq-21",
-        "base-mcq-16"
+        "base-mcq-14",
+        "base-mcq-29",
+        "base-mcq-34"
       ],
       "explanation": "本句的「base」指「表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」」。",
       "sentenceIndex": 37,
@@ -1930,12 +1780,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-19": "本句指「表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」」。",
-        "base-mcq-18": "「表示底邊；底面；例句：「將底邊乘以高度。」」是「base — geometry = side or surface treated as the bottom or reference side of a geometric figure 底邊；底面」的用法，與本句語境不同。",
-        "base-mcq-20": "「表示酸鹼的；例句：「我們學習了酸鹼反應。」」是「acid-base = relating to acids and bases 酸鹼的」的用法，與本句語境不同。",
-        "base-mcq-17": "「表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」」是「base — exponentiation = number that is raised to a power 底數」的用法，與本句語境不同。",
-        "base-mcq-21": "「表示壘；例句：「跑者到達二壘。」」是「base — baseball station = one of the fixed points a player runs between to score 壘」的用法，與本句語境不同。",
-        "base-mcq-16": "「表示底數；進位制的基數；例句：「二進位使用基數 2。」」是「base — number system foundation = number that determines the place-value system being used 底數；進位制的基數」的用法，與本句語境不同。"
+        "base-mcq-19": "本句的「base」指「表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」」。",
+        "base-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-19"
     },
@@ -1947,11 +1795,9 @@ export default {
       "masked": "We studied ____.",
       "options": [
         "base-mcq-20",
-        "base-mcq-19",
-        "base-mcq-21",
-        "base-mcq-18",
-        "base-mcq-22",
-        "base-mcq-17"
+        "base-mcq-35",
+        "base-mcq-02",
+        "base-mcq-33"
       ],
       "explanation": "本句的「acid-base reactions」指「表示酸鹼的；例句：「我們學習了酸鹼反應。」」。",
       "sentenceIndex": 38,
@@ -1960,12 +1806,10 @@ export default {
         "acid-base reactions"
       ],
       "optionReasons": {
-        "base-mcq-20": "本句指「表示酸鹼的；例句：「我們學習了酸鹼反應。」」。",
-        "base-mcq-19": "「表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」」是「base — chemical substance = substance that can accept protons or react with acids, depending on the chemical definition 鹼；鹼性物質」的用法，與本句語境不同。",
-        "base-mcq-21": "「表示壘；例句：「跑者到達二壘。」」是「base — baseball station = one of the fixed points a player runs between to score 壘」的用法，與本句語境不同。",
-        "base-mcq-18": "「表示底邊；底面；例句：「將底邊乘以高度。」」是「base — geometry = side or surface treated as the bottom or reference side of a geometric figure 底邊；底面」的用法，與本句語境不同。",
-        "base-mcq-22": "「表示一壘／二壘／三壘；例句：「她安全上到一壘。」」是「first / second / third base = numbered bases in baseball or softball 一壘／二壘／三壘」的用法，與本句語境不同。",
-        "base-mcq-17": "「表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」」是「base — exponentiation = number that is raised to a power 底數」的用法，與本句語境不同。"
+        "base-mcq-20": "本句的「acid-base reactions」指「表示酸鹼的；例句：「我們學習了酸鹼反應。」」。",
+        "base-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-20"
     },
@@ -1977,11 +1821,9 @@ export default {
       "masked": "The solution’s ____ changed.",
       "options": [
         "base-mcq-20",
-        "base-mcq-19",
-        "base-mcq-21",
-        "base-mcq-18",
-        "base-mcq-22",
-        "base-mcq-17"
+        "base-mcq-28",
+        "base-mcq-36",
+        "base-mcq-25"
       ],
       "explanation": "本句的「acid-base balance」指「表示酸鹼的；例句：「我們學習了酸鹼反應。」」。",
       "sentenceIndex": 39,
@@ -1990,12 +1832,10 @@ export default {
         "acid-base balance"
       ],
       "optionReasons": {
-        "base-mcq-20": "本句指「表示酸鹼的；例句：「我們學習了酸鹼反應。」」。",
-        "base-mcq-19": "「表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」」是「base — chemical substance = substance that can accept protons or react with acids, depending on the chemical definition 鹼；鹼性物質」的用法，與本句語境不同。",
-        "base-mcq-21": "「表示壘；例句：「跑者到達二壘。」」是「base — baseball station = one of the fixed points a player runs between to score 壘」的用法，與本句語境不同。",
-        "base-mcq-18": "「表示底邊；底面；例句：「將底邊乘以高度。」」是「base — geometry = side or surface treated as the bottom or reference side of a geometric figure 底邊；底面」的用法，與本句語境不同。",
-        "base-mcq-22": "「表示一壘／二壘／三壘；例句：「她安全上到一壘。」」是「first / second / third base = numbered bases in baseball or softball 一壘／二壘／三壘」的用法，與本句語境不同。",
-        "base-mcq-17": "「表示底數；例句：「在 \\(2^3\\) 中，2 是底數。」」是「base — exponentiation = number that is raised to a power 底數」的用法，與本句語境不同。"
+        "base-mcq-20": "本句的「acid-base balance」指「表示酸鹼的；例句：「我們學習了酸鹼反應。」」。",
+        "base-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-20"
     },
@@ -2007,11 +1847,9 @@ export default {
       "masked": "The runner reached second ____.",
       "options": [
         "base-mcq-21",
-        "base-mcq-20",
-        "base-mcq-22",
         "base-mcq-19",
         "base-mcq-23",
-        "base-mcq-18"
+        "base-mcq-36"
       ],
       "explanation": "本句的「base」指「表示壘；例句：「跑者到達二壘。」」。",
       "sentenceIndex": 40,
@@ -2020,12 +1858,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-21": "本句指「表示壘；例句：「跑者到達二壘。」」。",
-        "base-mcq-20": "「表示酸鹼的；例句：「我們學習了酸鹼反應。」」是「acid-base = relating to acids and bases 酸鹼的」的用法，與本句語境不同。",
-        "base-mcq-22": "「表示一壘／二壘／三壘；例句：「她安全上到一壘。」」是「first / second / third base = numbered bases in baseball or softball 一壘／二壘／三壘」的用法，與本句語境不同。",
-        "base-mcq-19": "「表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」」是「base — chemical substance = substance that can accept protons or react with acids, depending on the chemical definition 鹼；鹼性物質」的用法，與本句語境不同。",
-        "base-mcq-23": "「表示資料庫；例句：「紀錄儲存在資料庫中。」」是「database = organized collection of structured data 資料庫」的用法，與本句語境不同。",
-        "base-mcq-18": "「表示底邊；底面；例句：「將底邊乘以高度。」」是「base — geometry = side or surface treated as the bottom or reference side of a geometric figure 底邊；底面」的用法，與本句語境不同。"
+        "base-mcq-21": "本句的「base」指「表示壘；例句：「跑者到達二壘。」」。",
+        "base-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-21"
     },
@@ -2037,11 +1873,9 @@ export default {
       "masked": "He stole a ____.",
       "options": [
         "base-mcq-21",
-        "base-mcq-20",
-        "base-mcq-22",
-        "base-mcq-19",
-        "base-mcq-23",
-        "base-mcq-18"
+        "base-mcq-35",
+        "base-mcq-02",
+        "base-mcq-01"
       ],
       "explanation": "本句的「base」指「表示壘；例句：「跑者到達二壘。」」。",
       "sentenceIndex": 41,
@@ -2050,12 +1884,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-21": "本句指「表示壘；例句：「跑者到達二壘。」」。",
-        "base-mcq-20": "「表示酸鹼的；例句：「我們學習了酸鹼反應。」」是「acid-base = relating to acids and bases 酸鹼的」的用法，與本句語境不同。",
-        "base-mcq-22": "「表示一壘／二壘／三壘；例句：「她安全上到一壘。」」是「first / second / third base = numbered bases in baseball or softball 一壘／二壘／三壘」的用法，與本句語境不同。",
-        "base-mcq-19": "「表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」」是「base — chemical substance = substance that can accept protons or react with acids, depending on the chemical definition 鹼；鹼性物質」的用法，與本句語境不同。",
-        "base-mcq-23": "「表示資料庫；例句：「紀錄儲存在資料庫中。」」是「database = organized collection of structured data 資料庫」的用法，與本句語境不同。",
-        "base-mcq-18": "「表示底邊；底面；例句：「將底邊乘以高度。」」是「base — geometry = side or surface treated as the bottom or reference side of a geometric figure 底邊；底面」的用法，與本句語境不同。"
+        "base-mcq-21": "本句的「base」指「表示壘；例句：「跑者到達二壘。」」。",
+        "base-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-21"
     },
@@ -2067,11 +1899,9 @@ export default {
       "masked": "She made it safely to first ____.",
       "options": [
         "base-mcq-22",
-        "base-mcq-21",
+        "base-mcq-18",
         "base-mcq-23",
-        "base-mcq-20",
-        "base-mcq-24",
-        "base-mcq-19"
+        "base-mcq-11"
       ],
       "explanation": "本句的「base」指「表示一壘／二壘／三壘；例句：「她安全上到一壘。」」。",
       "sentenceIndex": 42,
@@ -2080,12 +1910,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-22": "本句指「表示一壘／二壘／三壘；例句：「她安全上到一壘。」」。",
-        "base-mcq-21": "「表示壘；例句：「跑者到達二壘。」」是「base — baseball station = one of the fixed points a player runs between to score 壘」的用法，與本句語境不同。",
-        "base-mcq-23": "「表示資料庫；例句：「紀錄儲存在資料庫中。」」是「database = organized collection of structured data 資料庫」的用法，與本句語境不同。",
-        "base-mcq-20": "「表示酸鹼的；例句：「我們學習了酸鹼反應。」」是「acid-base = relating to acids and bases 酸鹼的」的用法，與本句語境不同。",
-        "base-mcq-24": "「表示知識庫；例句：「先查看線上知識庫。」」是「knowledge base = organized collection of information, documentation, or solutions 知識庫」的用法，與本句語境不同。",
-        "base-mcq-19": "「表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」」是「base — chemical substance = substance that can accept protons or react with acids, depending on the chemical definition 鹼；鹼性物質」的用法，與本句語境不同。"
+        "base-mcq-22": "本句的「base」指「表示一壘／二壘／三壘；例句：「她安全上到一壘。」」。",
+        "base-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-22"
     },
@@ -2097,11 +1925,9 @@ export default {
       "masked": "The runner advanced to third ____.",
       "options": [
         "base-mcq-22",
-        "base-mcq-21",
-        "base-mcq-23",
-        "base-mcq-20",
-        "base-mcq-24",
-        "base-mcq-19"
+        "base-mcq-14",
+        "base-mcq-07",
+        "base-mcq-25"
       ],
       "explanation": "本句的「base」指「表示一壘／二壘／三壘；例句：「她安全上到一壘。」」。",
       "sentenceIndex": 43,
@@ -2110,12 +1936,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-22": "本句指「表示一壘／二壘／三壘；例句：「她安全上到一壘。」」。",
-        "base-mcq-21": "「表示壘；例句：「跑者到達二壘。」」是「base — baseball station = one of the fixed points a player runs between to score 壘」的用法，與本句語境不同。",
-        "base-mcq-23": "「表示資料庫；例句：「紀錄儲存在資料庫中。」」是「database = organized collection of structured data 資料庫」的用法，與本句語境不同。",
-        "base-mcq-20": "「表示酸鹼的；例句：「我們學習了酸鹼反應。」」是「acid-base = relating to acids and bases 酸鹼的」的用法，與本句語境不同。",
-        "base-mcq-24": "「表示知識庫；例句：「先查看線上知識庫。」」是「knowledge base = organized collection of information, documentation, or solutions 知識庫」的用法，與本句語境不同。",
-        "base-mcq-19": "「表示鹼；鹼性物質；例句：「氫氧化鈉是一種強鹼。」」是「base — chemical substance = substance that can accept protons or react with acids, depending on the chemical definition 鹼；鹼性物質」的用法，與本句語境不同。"
+        "base-mcq-22": "本句的「base」指「表示一壘／二壘／三壘；例句：「她安全上到一壘。」」。",
+        "base-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-22"
     },
@@ -2127,11 +1951,9 @@ export default {
       "masked": "The records are stored in a ____.",
       "options": [
         "base-mcq-23",
-        "base-mcq-22",
-        "base-mcq-24",
-        "base-mcq-21",
-        "base-mcq-25",
-        "base-mcq-20"
+        "base-mcq-31",
+        "base-mcq-13",
+        "base-mcq-22"
       ],
       "explanation": "本句的「database」指「表示資料庫；例句：「紀錄儲存在資料庫中。」」。",
       "sentenceIndex": 44,
@@ -2140,12 +1962,10 @@ export default {
         "database"
       ],
       "optionReasons": {
-        "base-mcq-23": "本句指「表示資料庫；例句：「紀錄儲存在資料庫中。」」。",
-        "base-mcq-22": "「表示一壘／二壘／三壘；例句：「她安全上到一壘。」」是「first / second / third base = numbered bases in baseball or softball 一壘／二壘／三壘」的用法，與本句語境不同。",
-        "base-mcq-24": "「表示知識庫；例句：「先查看線上知識庫。」」是「knowledge base = organized collection of information, documentation, or solutions 知識庫」的用法，與本句語境不同。",
-        "base-mcq-21": "「表示壘；例句：「跑者到達二壘。」」是「base — baseball station = one of the fixed points a player runs between to score 壘」的用法，與本句語境不同。",
-        "base-mcq-25": "「表示程式碼庫；例句：「團隊正在更新程式碼庫。」」是「codebase = complete collection of source code belonging to a software project 程式碼庫」的用法，與本句語境不同。",
-        "base-mcq-20": "「表示酸鹼的；例句：「我們學習了酸鹼反應。」」是「acid-base = relating to acids and bases 酸鹼的」的用法，與本句語境不同。"
+        "base-mcq-23": "本句的「database」指「表示資料庫；例句：「紀錄儲存在資料庫中。」」。",
+        "base-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-23"
     },
@@ -2158,10 +1978,8 @@ export default {
       "options": [
         "base-mcq-23",
         "base-mcq-22",
-        "base-mcq-24",
-        "base-mcq-21",
-        "base-mcq-25",
-        "base-mcq-20"
+        "base-mcq-06",
+        "base-mcq-33"
       ],
       "explanation": "本句的「database」指「表示資料庫；例句：「紀錄儲存在資料庫中。」」。",
       "sentenceIndex": 45,
@@ -2170,12 +1988,10 @@ export default {
         "database"
       ],
       "optionReasons": {
-        "base-mcq-23": "本句指「表示資料庫；例句：「紀錄儲存在資料庫中。」」。",
-        "base-mcq-22": "「表示一壘／二壘／三壘；例句：「她安全上到一壘。」」是「first / second / third base = numbered bases in baseball or softball 一壘／二壘／三壘」的用法，與本句語境不同。",
-        "base-mcq-24": "「表示知識庫；例句：「先查看線上知識庫。」」是「knowledge base = organized collection of information, documentation, or solutions 知識庫」的用法，與本句語境不同。",
-        "base-mcq-21": "「表示壘；例句：「跑者到達二壘。」」是「base — baseball station = one of the fixed points a player runs between to score 壘」的用法，與本句語境不同。",
-        "base-mcq-25": "「表示程式碼庫；例句：「團隊正在更新程式碼庫。」」是「codebase = complete collection of source code belonging to a software project 程式碼庫」的用法，與本句語境不同。",
-        "base-mcq-20": "「表示酸鹼的；例句：「我們學習了酸鹼反應。」」是「acid-base = relating to acids and bases 酸鹼的」的用法，與本句語境不同。"
+        "base-mcq-23": "本句的「database」指「表示資料庫；例句：「紀錄儲存在資料庫中。」」。",
+        "base-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-23"
     },
@@ -2187,11 +2003,9 @@ export default {
       "masked": "Check the online ____ first.",
       "options": [
         "base-mcq-24",
-        "base-mcq-23",
-        "base-mcq-25",
-        "base-mcq-22",
-        "base-mcq-26",
-        "base-mcq-21"
+        "base-mcq-20",
+        "base-mcq-06",
+        "base-mcq-35"
       ],
       "explanation": "本句的「knowledge base」指「表示知識庫；例句：「先查看線上知識庫。」」。",
       "sentenceIndex": 46,
@@ -2200,12 +2014,10 @@ export default {
         "knowledge base"
       ],
       "optionReasons": {
-        "base-mcq-24": "本句指「表示知識庫；例句：「先查看線上知識庫。」」。",
-        "base-mcq-23": "「表示資料庫；例句：「紀錄儲存在資料庫中。」」是「database = organized collection of structured data 資料庫」的用法，與本句語境不同。",
-        "base-mcq-25": "「表示程式碼庫；例句：「團隊正在更新程式碼庫。」」是「codebase = complete collection of source code belonging to a software project 程式碼庫」的用法，與本句語境不同。",
-        "base-mcq-22": "「表示一壘／二壘／三壘；例句：「她安全上到一壘。」」是「first / second / third base = numbered bases in baseball or softball 一壘／二壘／三壘」的用法，與本句語境不同。",
-        "base-mcq-26": "「表示基底；底料；例句：「這個醬汁以番茄作為基底。」」是「base — main ingredient or underlying mixture = main material or substance to which other ingredients are added 基底；底料」的用法，與本句語境不同。",
-        "base-mcq-21": "「表示壘；例句：「跑者到達二壘。」」是「base — baseball station = one of the fixed points a player runs between to score 壘」的用法，與本句語境不同。"
+        "base-mcq-24": "本句的「knowledge base」指「表示知識庫；例句：「先查看線上知識庫。」」。",
+        "base-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-24"
     },
@@ -2217,11 +2029,9 @@ export default {
       "masked": "The support team maintains a detailed ____.",
       "options": [
         "base-mcq-24",
-        "base-mcq-23",
-        "base-mcq-25",
-        "base-mcq-22",
-        "base-mcq-26",
-        "base-mcq-21"
+        "base-mcq-32",
+        "base-mcq-36",
+        "base-mcq-19"
       ],
       "explanation": "本句的「knowledge base」指「表示知識庫；例句：「先查看線上知識庫。」」。",
       "sentenceIndex": 47,
@@ -2230,12 +2040,10 @@ export default {
         "knowledge base"
       ],
       "optionReasons": {
-        "base-mcq-24": "本句指「表示知識庫；例句：「先查看線上知識庫。」」。",
-        "base-mcq-23": "「表示資料庫；例句：「紀錄儲存在資料庫中。」」是「database = organized collection of structured data 資料庫」的用法，與本句語境不同。",
-        "base-mcq-25": "「表示程式碼庫；例句：「團隊正在更新程式碼庫。」」是「codebase = complete collection of source code belonging to a software project 程式碼庫」的用法，與本句語境不同。",
-        "base-mcq-22": "「表示一壘／二壘／三壘；例句：「她安全上到一壘。」」是「first / second / third base = numbered bases in baseball or softball 一壘／二壘／三壘」的用法，與本句語境不同。",
-        "base-mcq-26": "「表示基底；底料；例句：「這個醬汁以番茄作為基底。」」是「base — main ingredient or underlying mixture = main material or substance to which other ingredients are added 基底；底料」的用法，與本句語境不同。",
-        "base-mcq-21": "「表示壘；例句：「跑者到達二壘。」」是「base — baseball station = one of the fixed points a player runs between to score 壘」的用法，與本句語境不同。"
+        "base-mcq-24": "本句的「knowledge base」指「表示知識庫；例句：「先查看線上知識庫。」」。",
+        "base-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-24"
     },
@@ -2247,11 +2055,9 @@ export default {
       "masked": "The team is updating the ____.",
       "options": [
         "base-mcq-25",
-        "base-mcq-24",
-        "base-mcq-26",
-        "base-mcq-23",
         "base-mcq-27",
-        "base-mcq-22"
+        "base-mcq-13",
+        "base-mcq-07"
       ],
       "explanation": "本句的「codebase」指「表示程式碼庫；例句：「團隊正在更新程式碼庫。」」。",
       "sentenceIndex": 48,
@@ -2260,12 +2066,10 @@ export default {
         "codebase"
       ],
       "optionReasons": {
-        "base-mcq-25": "本句指「表示程式碼庫；例句：「團隊正在更新程式碼庫。」」。",
-        "base-mcq-24": "「表示知識庫；例句：「先查看線上知識庫。」」是「knowledge base = organized collection of information, documentation, or solutions 知識庫」的用法，與本句語境不同。",
-        "base-mcq-26": "「表示基底；底料；例句：「這個醬汁以番茄作為基底。」」是「base — main ingredient or underlying mixture = main material or substance to which other ingredients are added 基底；底料」的用法，與本句語境不同。",
-        "base-mcq-23": "「表示資料庫；例句：「紀錄儲存在資料庫中。」」是「database = organized collection of structured data 資料庫」的用法，與本句語境不同。",
-        "base-mcq-27": "「表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」」是「base coat = first layer of paint, polish, etc. applied underneath later layers 底漆；底層」的用法，與本句語境不同。",
-        "base-mcq-22": "「表示一壘／二壘／三壘；例句：「她安全上到一壘。」」是「first / second / third base = numbered bases in baseball or softball 一壘／二壘／三壘」的用法，與本句語境不同。"
+        "base-mcq-25": "本句的「codebase」指「表示程式碼庫；例句：「團隊正在更新程式碼庫。」」。",
+        "base-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-25"
     },
@@ -2277,11 +2081,9 @@ export default {
       "masked": "The old ____ is difficult to maintain.",
       "options": [
         "base-mcq-25",
-        "base-mcq-24",
-        "base-mcq-26",
-        "base-mcq-23",
-        "base-mcq-27",
-        "base-mcq-22"
+        "base-mcq-19",
+        "base-mcq-28",
+        "base-mcq-35"
       ],
       "explanation": "本句的「codebase」指「表示程式碼庫；例句：「團隊正在更新程式碼庫。」」。",
       "sentenceIndex": 49,
@@ -2290,12 +2092,10 @@ export default {
         "codebase"
       ],
       "optionReasons": {
-        "base-mcq-25": "本句指「表示程式碼庫；例句：「團隊正在更新程式碼庫。」」。",
-        "base-mcq-24": "「表示知識庫；例句：「先查看線上知識庫。」」是「knowledge base = organized collection of information, documentation, or solutions 知識庫」的用法，與本句語境不同。",
-        "base-mcq-26": "「表示基底；底料；例句：「這個醬汁以番茄作為基底。」」是「base — main ingredient or underlying mixture = main material or substance to which other ingredients are added 基底；底料」的用法，與本句語境不同。",
-        "base-mcq-23": "「表示資料庫；例句：「紀錄儲存在資料庫中。」」是「database = organized collection of structured data 資料庫」的用法，與本句語境不同。",
-        "base-mcq-27": "「表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」」是「base coat = first layer of paint, polish, etc. applied underneath later layers 底漆；底層」的用法，與本句語境不同。",
-        "base-mcq-22": "「表示一壘／二壘／三壘；例句：「她安全上到一壘。」」是「first / second / third base = numbered bases in baseball or softball 一壘／二壘／三壘」的用法，與本句語境不同。"
+        "base-mcq-25": "本句的「codebase」指「表示程式碼庫；例句：「團隊正在更新程式碼庫。」」。",
+        "base-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-25"
     },
@@ -2307,11 +2107,9 @@ export default {
       "masked": "The sauce uses tomatoes as its ____.",
       "options": [
         "base-mcq-26",
-        "base-mcq-25",
-        "base-mcq-27",
-        "base-mcq-24",
-        "base-mcq-28",
-        "base-mcq-23"
+        "base-mcq-22",
+        "base-mcq-13",
+        "base-mcq-10"
       ],
       "explanation": "本句的「base」指「表示基底；底料；例句：「這個醬汁以番茄作為基底。」」。",
       "sentenceIndex": 50,
@@ -2320,12 +2118,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-26": "本句指「表示基底；底料；例句：「這個醬汁以番茄作為基底。」」。",
-        "base-mcq-25": "「表示程式碼庫；例句：「團隊正在更新程式碼庫。」」是「codebase = complete collection of source code belonging to a software project 程式碼庫」的用法，與本句語境不同。",
-        "base-mcq-27": "「表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」」是「base coat = first layer of paint, polish, etc. applied underneath later layers 底漆；底層」的用法，與本句語境不同。",
-        "base-mcq-24": "「表示知識庫；例句：「先查看線上知識庫。」」是「knowledge base = organized collection of information, documentation, or solutions 知識庫」的用法，與本句語境不同。",
-        "base-mcq-28": "「表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」」是「support base / voter base = core group of people who regularly support a person, organization, or cause 支持者基本盤；核心支持群」的用法，與本句語境不同。",
-        "base-mcq-23": "「表示資料庫；例句：「紀錄儲存在資料庫中。」」是「database = organized collection of structured data 資料庫」的用法，與本句語境不同。"
+        "base-mcq-26": "本句的「base」指「表示基底；底料；例句：「這個醬汁以番茄作為基底。」」。",
+        "base-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-26"
     },
@@ -2337,11 +2133,9 @@ export default {
       "masked": "Add the flavoring to the ice-cream ____.",
       "options": [
         "base-mcq-26",
+        "base-mcq-10",
         "base-mcq-25",
-        "base-mcq-27",
-        "base-mcq-24",
-        "base-mcq-28",
-        "base-mcq-23"
+        "base-mcq-07"
       ],
       "explanation": "本句的「base」指「表示基底；底料；例句：「這個醬汁以番茄作為基底。」」。",
       "sentenceIndex": 51,
@@ -2350,12 +2144,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-26": "本句指「表示基底；底料；例句：「這個醬汁以番茄作為基底。」」。",
-        "base-mcq-25": "「表示程式碼庫；例句：「團隊正在更新程式碼庫。」」是「codebase = complete collection of source code belonging to a software project 程式碼庫」的用法，與本句語境不同。",
-        "base-mcq-27": "「表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」」是「base coat = first layer of paint, polish, etc. applied underneath later layers 底漆；底層」的用法，與本句語境不同。",
-        "base-mcq-24": "「表示知識庫；例句：「先查看線上知識庫。」」是「knowledge base = organized collection of information, documentation, or solutions 知識庫」的用法，與本句語境不同。",
-        "base-mcq-28": "「表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」」是「support base / voter base = core group of people who regularly support a person, organization, or cause 支持者基本盤；核心支持群」的用法，與本句語境不同。",
-        "base-mcq-23": "「表示資料庫；例句：「紀錄儲存在資料庫中。」」是「database = organized collection of structured data 資料庫」的用法，與本句語境不同。"
+        "base-mcq-26": "本句的「base」指「表示基底；底料；例句：「這個醬汁以番茄作為基底。」」。",
+        "base-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-26"
     },
@@ -2367,11 +2159,9 @@ export default {
       "masked": "Apply a ____ before the final color.",
       "options": [
         "base-mcq-27",
-        "base-mcq-26",
-        "base-mcq-28",
-        "base-mcq-25",
-        "base-mcq-29",
-        "base-mcq-24"
+        "base-mcq-23",
+        "base-mcq-32",
+        "base-mcq-34"
       ],
       "explanation": "本句的「base coat」指「表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」」。",
       "sentenceIndex": 52,
@@ -2380,12 +2170,10 @@ export default {
         "base coat"
       ],
       "optionReasons": {
-        "base-mcq-27": "本句指「表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」」。",
-        "base-mcq-26": "「表示基底；底料；例句：「這個醬汁以番茄作為基底。」」是「base — main ingredient or underlying mixture = main material or substance to which other ingredients are added 基底；底料」的用法，與本句語境不同。",
-        "base-mcq-28": "「表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」」是「support base / voter base = core group of people who regularly support a person, organization, or cause 支持者基本盤；核心支持群」的用法，與本句語境不同。",
-        "base-mcq-25": "「表示程式碼庫；例句：「團隊正在更新程式碼庫。」」是「codebase = complete collection of source code belonging to a software project 程式碼庫」的用法，與本句語境不同。",
-        "base-mcq-29": "「表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」」是「base — morally low or dishonorable Formal/literary: = lacking moral principles; dishonorable 卑劣的；卑鄙的」的用法，與本句語境不同。",
-        "base-mcq-24": "「表示知識庫；例句：「先查看線上知識庫。」」是「knowledge base = organized collection of information, documentation, or solutions 知識庫」的用法，與本句語境不同。"
+        "base-mcq-27": "本句的「base coat」指「表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」」。",
+        "base-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-27"
     },
@@ -2397,11 +2185,9 @@ export default {
       "masked": "The nail polish needs a ____.",
       "options": [
         "base-mcq-27",
-        "base-mcq-26",
-        "base-mcq-28",
-        "base-mcq-25",
-        "base-mcq-29",
-        "base-mcq-24"
+        "base-mcq-19",
+        "base-mcq-14",
+        "base-mcq-22"
       ],
       "explanation": "本句的「base coat」指「表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」」。",
       "sentenceIndex": 53,
@@ -2410,12 +2196,10 @@ export default {
         "base coat"
       ],
       "optionReasons": {
-        "base-mcq-27": "本句指「表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」」。",
-        "base-mcq-26": "「表示基底；底料；例句：「這個醬汁以番茄作為基底。」」是「base — main ingredient or underlying mixture = main material or substance to which other ingredients are added 基底；底料」的用法，與本句語境不同。",
-        "base-mcq-28": "「表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」」是「support base / voter base = core group of people who regularly support a person, organization, or cause 支持者基本盤；核心支持群」的用法，與本句語境不同。",
-        "base-mcq-25": "「表示程式碼庫；例句：「團隊正在更新程式碼庫。」」是「codebase = complete collection of source code belonging to a software project 程式碼庫」的用法，與本句語境不同。",
-        "base-mcq-29": "「表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」」是「base — morally low or dishonorable Formal/literary: = lacking moral principles; dishonorable 卑劣的；卑鄙的」的用法，與本句語境不同。",
-        "base-mcq-24": "「表示知識庫；例句：「先查看線上知識庫。」」是「knowledge base = organized collection of information, documentation, or solutions 知識庫」的用法，與本句語境不同。"
+        "base-mcq-27": "本句的「base coat」指「表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」」。",
+        "base-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-27"
     },
@@ -2427,11 +2211,9 @@ export default {
       "masked": "The organization has a loyal support ____.",
       "options": [
         "base-mcq-28",
-        "base-mcq-27",
-        "base-mcq-29",
-        "base-mcq-26",
-        "base-mcq-30",
-        "base-mcq-25"
+        "base-mcq-35",
+        "base-mcq-03",
+        "base-mcq-24"
       ],
       "explanation": "本句的「base」指「表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」」。",
       "sentenceIndex": 54,
@@ -2440,12 +2222,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-28": "本句指「表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」」。",
-        "base-mcq-27": "「表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」」是「base coat = first layer of paint, polish, etc. applied underneath later layers 底漆；底層」的用法，與本句語境不同。",
-        "base-mcq-29": "「表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」」是「base — morally low or dishonorable Formal/literary: = lacking moral principles; dishonorable 卑劣的；卑鄙的」的用法，與本句語境不同。",
-        "base-mcq-26": "「表示基底；底料；例句：「這個醬汁以番茄作為基底。」」是「base — main ingredient or underlying mixture = main material or substance to which other ingredients are added 基底；底料」的用法，與本句語境不同。",
-        "base-mcq-30": "「表示基本的；基礎的；例句：「我們學了基本規則。」」是「basic = forming the simplest or most essential level 基本的；基礎的」的用法，與本句語境不同。",
-        "base-mcq-25": "「表示程式碼庫；例句：「團隊正在更新程式碼庫。」」是「codebase = complete collection of source code belonging to a software project 程式碼庫」的用法，與本句語境不同。"
+        "base-mcq-28": "本句的「base」指「表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」」。",
+        "base-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-28"
     },
@@ -2457,11 +2237,9 @@ export default {
       "masked": "The campaign focused on its traditional voter ____.",
       "options": [
         "base-mcq-28",
-        "base-mcq-27",
-        "base-mcq-29",
-        "base-mcq-26",
-        "base-mcq-30",
-        "base-mcq-25"
+        "base-mcq-11",
+        "base-mcq-36",
+        "base-mcq-22"
       ],
       "explanation": "本句的「base」指「表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」」。",
       "sentenceIndex": 55,
@@ -2470,12 +2248,10 @@ export default {
         "base"
       ],
       "optionReasons": {
-        "base-mcq-28": "本句指「表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」」。",
-        "base-mcq-27": "「表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」」是「base coat = first layer of paint, polish, etc. applied underneath later layers 底漆；底層」的用法，與本句語境不同。",
-        "base-mcq-29": "「表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」」是「base — morally low or dishonorable Formal/literary: = lacking moral principles; dishonorable 卑劣的；卑鄙的」的用法，與本句語境不同。",
-        "base-mcq-26": "「表示基底；底料；例句：「這個醬汁以番茄作為基底。」」是「base — main ingredient or underlying mixture = main material or substance to which other ingredients are added 基底；底料」的用法，與本句語境不同。",
-        "base-mcq-30": "「表示基本的；基礎的；例句：「我們學了基本規則。」」是「basic = forming the simplest or most essential level 基本的；基礎的」的用法，與本句語境不同。",
-        "base-mcq-25": "「表示程式碼庫；例句：「團隊正在更新程式碼庫。」」是「codebase = complete collection of source code belonging to a software project 程式碼庫」的用法，與本句語境不同。"
+        "base-mcq-28": "本句的「base」指「表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」」。",
+        "base-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-28"
     },
@@ -2487,11 +2263,9 @@ export default {
       "masked": "He was accused of acting from ____.",
       "options": [
         "base-mcq-29",
-        "base-mcq-28",
-        "base-mcq-30",
-        "base-mcq-27",
-        "base-mcq-31",
-        "base-mcq-26"
+        "base-mcq-03",
+        "base-mcq-06",
+        "base-mcq-05"
       ],
       "explanation": "本句的「base motives」指「表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」」。",
       "sentenceIndex": 56,
@@ -2500,12 +2274,10 @@ export default {
         "base motives"
       ],
       "optionReasons": {
-        "base-mcq-29": "本句指「表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」」。",
-        "base-mcq-28": "「表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」」是「support base / voter base = core group of people who regularly support a person, organization, or cause 支持者基本盤；核心支持群」的用法，與本句語境不同。",
-        "base-mcq-30": "「表示基本的；基礎的；例句：「我們學了基本規則。」」是「basic = forming the simplest or most essential level 基本的；基礎的」的用法，與本句語境不同。",
-        "base-mcq-27": "「表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」」是「base coat = first layer of paint, polish, etc. applied underneath later layers 底漆；底層」的用法，與本句語境不同。",
-        "base-mcq-31": "「表示基本上；大致上；例句：「這兩個想法基本上相同。」」是「basically = in the most important or fundamental respects 基本上；大致上」的用法，與本句語境不同。",
-        "base-mcq-26": "「表示基底；底料；例句：「這個醬汁以番茄作為基底。」」是「base — main ingredient or underlying mixture = main material or substance to which other ingredients are added 基底；底料」的用法，與本句語境不同。"
+        "base-mcq-29": "本句的「base motives」指「表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」」。",
+        "base-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-29"
     },
@@ -2517,11 +2289,9 @@ export default {
       "masked": "The character is driven by ____.",
       "options": [
         "base-mcq-29",
-        "base-mcq-28",
-        "base-mcq-30",
+        "base-mcq-13",
         "base-mcq-27",
-        "base-mcq-31",
-        "base-mcq-26"
+        "base-mcq-30"
       ],
       "explanation": "本句的「base desires」指「表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」」。",
       "sentenceIndex": 57,
@@ -2530,12 +2300,10 @@ export default {
         "base desires"
       ],
       "optionReasons": {
-        "base-mcq-29": "本句指「表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」」。",
-        "base-mcq-28": "「表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」」是「support base / voter base = core group of people who regularly support a person, organization, or cause 支持者基本盤；核心支持群」的用法，與本句語境不同。",
-        "base-mcq-30": "「表示基本的；基礎的；例句：「我們學了基本規則。」」是「basic = forming the simplest or most essential level 基本的；基礎的」的用法，與本句語境不同。",
-        "base-mcq-27": "「表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」」是「base coat = first layer of paint, polish, etc. applied underneath later layers 底漆；底層」的用法，與本句語境不同。",
-        "base-mcq-31": "「表示基本上；大致上；例句：「這兩個想法基本上相同。」」是「basically = in the most important or fundamental respects 基本上；大致上」的用法，與本句語境不同。",
-        "base-mcq-26": "「表示基底；底料；例句：「這個醬汁以番茄作為基底。」」是「base — main ingredient or underlying mixture = main material or substance to which other ingredients are added 基底；底料」的用法，與本句語境不同。"
+        "base-mcq-29": "本句的「base desires」指「表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」」。",
+        "base-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-29"
     },
@@ -2547,10 +2315,8 @@ export default {
       "masked": "We learned the ____.",
       "options": [
         "base-mcq-30",
-        "base-mcq-29",
-        "base-mcq-31",
-        "base-mcq-28",
-        "base-mcq-32",
+        "base-mcq-21",
+        "base-mcq-03",
         "base-mcq-27"
       ],
       "explanation": "本句的「basic rules」指「表示基本的；基礎的；例句：「我們學了基本規則。」」。",
@@ -2560,12 +2326,10 @@ export default {
         "basic rules"
       ],
       "optionReasons": {
-        "base-mcq-30": "本句指「表示基本的；基礎的；例句：「我們學了基本規則。」」。",
-        "base-mcq-29": "「表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」」是「base — morally low or dishonorable Formal/literary: = lacking moral principles; dishonorable 卑劣的；卑鄙的」的用法，與本句語境不同。",
-        "base-mcq-31": "「表示基本上；大致上；例句：「這兩個想法基本上相同。」」是「basically = in the most important or fundamental respects 基本上；大致上」的用法，與本句語境不同。",
-        "base-mcq-28": "「表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」」是「support base / voter base = core group of people who regularly support a person, organization, or cause 支持者基本盤；核心支持群」的用法，與本句語境不同。",
-        "base-mcq-32": "「表示基礎；依據；例句：「那個說法沒有根據。」」是「basis = underlying reason, principle, or foundation 基礎；依據」的用法，與本句語境不同。",
-        "base-mcq-27": "「表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」」是「base coat = first layer of paint, polish, etc. applied underneath later layers 底漆；底層」的用法，與本句語境不同。"
+        "base-mcq-30": "本句的「basic rules」指「表示基本的；基礎的；例句：「我們學了基本規則。」」。",
+        "base-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-30"
     },
@@ -2577,11 +2341,9 @@ export default {
       "masked": "The course covers ____.",
       "options": [
         "base-mcq-30",
-        "base-mcq-29",
-        "base-mcq-31",
-        "base-mcq-28",
-        "base-mcq-32",
-        "base-mcq-27"
+        "base-mcq-35",
+        "base-mcq-36",
+        "base-mcq-19"
       ],
       "explanation": "本句的「basic skills」指「表示基本的；基礎的；例句：「我們學了基本規則。」」。",
       "sentenceIndex": 59,
@@ -2590,12 +2352,10 @@ export default {
         "basic skills"
       ],
       "optionReasons": {
-        "base-mcq-30": "本句指「表示基本的；基礎的；例句：「我們學了基本規則。」」。",
-        "base-mcq-29": "「表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」」是「base — morally low or dishonorable Formal/literary: = lacking moral principles; dishonorable 卑劣的；卑鄙的」的用法，與本句語境不同。",
-        "base-mcq-31": "「表示基本上；大致上；例句：「這兩個想法基本上相同。」」是「basically = in the most important or fundamental respects 基本上；大致上」的用法，與本句語境不同。",
-        "base-mcq-28": "「表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」」是「support base / voter base = core group of people who regularly support a person, organization, or cause 支持者基本盤；核心支持群」的用法，與本句語境不同。",
-        "base-mcq-32": "「表示基礎；依據；例句：「那個說法沒有根據。」」是「basis = underlying reason, principle, or foundation 基礎；依據」的用法，與本句語境不同。",
-        "base-mcq-27": "「表示底漆；底層；例句：「上最終顏色前先塗一層底漆。」」是「base coat = first layer of paint, polish, etc. applied underneath later layers 底漆；底層」的用法，與本句語境不同。"
+        "base-mcq-30": "本句的「basic skills」指「表示基本的；基礎的；例句：「我們學了基本規則。」」。",
+        "base-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-30"
     },
@@ -2607,11 +2367,9 @@ export default {
       "masked": "The two ideas are ____ the same.",
       "options": [
         "base-mcq-31",
-        "base-mcq-30",
-        "base-mcq-32",
-        "base-mcq-29",
-        "base-mcq-33",
-        "base-mcq-28"
+        "base-mcq-23",
+        "base-mcq-21",
+        "base-mcq-11"
       ],
       "explanation": "本句的「basically」指「表示基本上；大致上；例句：「這兩個想法基本上相同。」」。",
       "sentenceIndex": 60,
@@ -2620,12 +2378,10 @@ export default {
         "basically"
       ],
       "optionReasons": {
-        "base-mcq-31": "本句指「表示基本上；大致上；例句：「這兩個想法基本上相同。」」。",
-        "base-mcq-30": "「表示基本的；基礎的；例句：「我們學了基本規則。」」是「basic = forming the simplest or most essential level 基本的；基礎的」的用法，與本句語境不同。",
-        "base-mcq-32": "「表示基礎；依據；例句：「那個說法沒有根據。」」是「basis = underlying reason, principle, or foundation 基礎；依據」的用法，與本句語境不同。",
-        "base-mcq-29": "「表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」」是「base — morally low or dishonorable Formal/literary: = lacking moral principles; dishonorable 卑劣的；卑鄙的」的用法，與本句語境不同。",
-        "base-mcq-33": "「表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」」是「baseline = starting level used for comparison 基準線；基線；基準值」的用法，與本句語境不同。",
-        "base-mcq-28": "「表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」」是「support base / voter base = core group of people who regularly support a person, organization, or cause 支持者基本盤；核心支持群」的用法，與本句語境不同。"
+        "base-mcq-31": "本句的「basically」指「表示基本上；大致上；例句：「這兩個想法基本上相同。」」。",
+        "base-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-31"
     },
@@ -2637,11 +2393,9 @@ export default {
       "masked": "The system is ____ ready.",
       "options": [
         "base-mcq-31",
-        "base-mcq-30",
-        "base-mcq-32",
         "base-mcq-29",
-        "base-mcq-33",
-        "base-mcq-28"
+        "base-mcq-25",
+        "base-mcq-35"
       ],
       "explanation": "本句的「basically」指「表示基本上；大致上；例句：「這兩個想法基本上相同。」」。",
       "sentenceIndex": 61,
@@ -2650,12 +2404,10 @@ export default {
         "basically"
       ],
       "optionReasons": {
-        "base-mcq-31": "本句指「表示基本上；大致上；例句：「這兩個想法基本上相同。」」。",
-        "base-mcq-30": "「表示基本的；基礎的；例句：「我們學了基本規則。」」是「basic = forming the simplest or most essential level 基本的；基礎的」的用法，與本句語境不同。",
-        "base-mcq-32": "「表示基礎；依據；例句：「那個說法沒有根據。」」是「basis = underlying reason, principle, or foundation 基礎；依據」的用法，與本句語境不同。",
-        "base-mcq-29": "「表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」」是「base — morally low or dishonorable Formal/literary: = lacking moral principles; dishonorable 卑劣的；卑鄙的」的用法，與本句語境不同。",
-        "base-mcq-33": "「表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」」是「baseline = starting level used for comparison 基準線；基線；基準值」的用法，與本句語境不同。",
-        "base-mcq-28": "「表示支持者基本盤；核心支持群；例句：「該組織有一群忠實的核心支持者。」」是「support base / voter base = core group of people who regularly support a person, organization, or cause 支持者基本盤；核心支持群」的用法，與本句語境不同。"
+        "base-mcq-31": "本句的「basically」指「表示基本上；大致上；例句：「這兩個想法基本上相同。」」。",
+        "base-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-31"
     },
@@ -2667,11 +2419,9 @@ export default {
       "masked": "There is no ____ for that claim.",
       "options": [
         "base-mcq-32",
-        "base-mcq-31",
-        "base-mcq-33",
-        "base-mcq-30",
-        "base-mcq-34",
-        "base-mcq-29"
+        "base-mcq-35",
+        "base-mcq-25",
+        "base-mcq-19"
       ],
       "explanation": "本句的「basis」指「表示基礎；依據；例句：「那個說法沒有根據。」」。",
       "sentenceIndex": 62,
@@ -2680,12 +2430,10 @@ export default {
         "basis"
       ],
       "optionReasons": {
-        "base-mcq-32": "本句指「表示基礎；依據；例句：「那個說法沒有根據。」」。",
-        "base-mcq-31": "「表示基本上；大致上；例句：「這兩個想法基本上相同。」」是「basically = in the most important or fundamental respects 基本上；大致上」的用法，與本句語境不同。",
-        "base-mcq-33": "「表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」」是「baseline = starting level used for comparison 基準線；基線；基準值」的用法，與本句語境不同。",
-        "base-mcq-30": "「表示基本的；基礎的；例句：「我們學了基本規則。」」是「basic = forming the simplest or most essential level 基本的；基礎的」的用法，與本句語境不同。",
-        "base-mcq-34": "「表示聯絡一下；簡短確認進度；例句：「我們明天再聯絡一下。」」是「touch base = briefly contact someone to exchange information or check progress 聯絡一下；簡短確認進度」的用法，與本句語境不同。",
-        "base-mcq-29": "「表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」」是「base — morally low or dishonorable Formal/literary: = lacking moral principles; dishonorable 卑劣的；卑鄙的」的用法，與本句語境不同。"
+        "base-mcq-32": "本句的「basis」指「表示基礎；依據；例句：「那個說法沒有根據。」」。",
+        "base-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-32"
     },
@@ -2697,10 +2445,8 @@ export default {
       "masked": "Trust is the ____ of the agreement.",
       "options": [
         "base-mcq-32",
-        "base-mcq-31",
-        "base-mcq-33",
-        "base-mcq-30",
-        "base-mcq-34",
+        "base-mcq-25",
+        "base-mcq-36",
         "base-mcq-29"
       ],
       "explanation": "本句的「basis」指「表示基礎；依據；例句：「那個說法沒有根據。」」。",
@@ -2710,12 +2456,10 @@ export default {
         "basis"
       ],
       "optionReasons": {
-        "base-mcq-32": "本句指「表示基礎；依據；例句：「那個說法沒有根據。」」。",
-        "base-mcq-31": "「表示基本上；大致上；例句：「這兩個想法基本上相同。」」是「basically = in the most important or fundamental respects 基本上；大致上」的用法，與本句語境不同。",
-        "base-mcq-33": "「表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」」是「baseline = starting level used for comparison 基準線；基線；基準值」的用法，與本句語境不同。",
-        "base-mcq-30": "「表示基本的；基礎的；例句：「我們學了基本規則。」」是「basic = forming the simplest or most essential level 基本的；基礎的」的用法，與本句語境不同。",
-        "base-mcq-34": "「表示聯絡一下；簡短確認進度；例句：「我們明天再聯絡一下。」」是「touch base = briefly contact someone to exchange information or check progress 聯絡一下；簡短確認進度」的用法，與本句語境不同。",
-        "base-mcq-29": "「表示卑劣的；卑鄙的；例句：「他被指是出於卑劣動機行事。」」是「base — morally low or dishonorable Formal/literary: = lacking moral principles; dishonorable 卑劣的；卑鄙的」的用法，與本句語境不同。"
+        "base-mcq-32": "本句的「basis」指「表示基礎；依據；例句：「那個說法沒有根據。」」。",
+        "base-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-32"
     },
@@ -2727,11 +2471,9 @@ export default {
       "masked": "We need a ____ before measuring improvement.",
       "options": [
         "base-mcq-33",
-        "base-mcq-32",
-        "base-mcq-34",
-        "base-mcq-31",
-        "base-mcq-35",
-        "base-mcq-30"
+        "base-mcq-07",
+        "base-mcq-24",
+        "base-mcq-18"
       ],
       "explanation": "本句的「baseline」指「表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」」。",
       "sentenceIndex": 64,
@@ -2740,12 +2482,10 @@ export default {
         "baseline"
       ],
       "optionReasons": {
-        "base-mcq-33": "本句指「表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」」。",
-        "base-mcq-32": "「表示基礎；依據；例句：「那個說法沒有根據。」」是「basis = underlying reason, principle, or foundation 基礎；依據」的用法，與本句語境不同。",
-        "base-mcq-34": "「表示聯絡一下；簡短確認進度；例句：「我們明天再聯絡一下。」」是「touch base = briefly contact someone to exchange information or check progress 聯絡一下；簡短確認進度」的用法，與本句語境不同。",
-        "base-mcq-31": "「表示基本上；大致上；例句：「這兩個想法基本上相同。」」是「basically = in the most important or fundamental respects 基本上；大致上」的用法，與本句語境不同。",
-        "base-mcq-35": "「顧及所有方面；做好全面準備」是「cover all the bases = prepare for or deal with every important possibility 顧及所有方面；做好全面準備」的用法，與本句語境不同。",
-        "base-mcq-30": "「表示基本的；基礎的；例句：「我們學了基本規則。」」是「basic = forming the simplest or most essential level 基本的；基礎的」的用法，與本句語境不同。"
+        "base-mcq-33": "本句的「baseline」指「表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」」。",
+        "base-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-33"
     },
@@ -2757,11 +2497,9 @@ export default {
       "masked": "The new results were compared with the ____.",
       "options": [
         "base-mcq-33",
-        "base-mcq-32",
-        "base-mcq-34",
-        "base-mcq-31",
-        "base-mcq-35",
-        "base-mcq-30"
+        "base-mcq-11",
+        "base-mcq-24",
+        "base-mcq-20"
       ],
       "explanation": "本句的「baseline」指「表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」」。",
       "sentenceIndex": 65,
@@ -2770,12 +2508,10 @@ export default {
         "baseline"
       ],
       "optionReasons": {
-        "base-mcq-33": "本句指「表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」」。",
-        "base-mcq-32": "「表示基礎；依據；例句：「那個說法沒有根據。」」是「basis = underlying reason, principle, or foundation 基礎；依據」的用法，與本句語境不同。",
-        "base-mcq-34": "「表示聯絡一下；簡短確認進度；例句：「我們明天再聯絡一下。」」是「touch base = briefly contact someone to exchange information or check progress 聯絡一下；簡短確認進度」的用法，與本句語境不同。",
-        "base-mcq-31": "「表示基本上；大致上；例句：「這兩個想法基本上相同。」」是「basically = in the most important or fundamental respects 基本上；大致上」的用法，與本句語境不同。",
-        "base-mcq-35": "「顧及所有方面；做好全面準備」是「cover all the bases = prepare for or deal with every important possibility 顧及所有方面；做好全面準備」的用法，與本句語境不同。",
-        "base-mcq-30": "「表示基本的；基礎的；例句：「我們學了基本規則。」」是「basic = forming the simplest or most essential level 基本的；基礎的」的用法，與本句語境不同。"
+        "base-mcq-33": "本句的「baseline」指「表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」」。",
+        "base-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-33"
     },
@@ -2787,11 +2523,9 @@ export default {
       "masked": "Let’s ____ tomorrow.",
       "options": [
         "base-mcq-34",
-        "base-mcq-33",
-        "base-mcq-35",
-        "base-mcq-32",
-        "base-mcq-36",
-        "base-mcq-31"
+        "base-mcq-06",
+        "base-mcq-18",
+        "base-mcq-22"
       ],
       "explanation": "本句的「touch base」指「表示聯絡一下；簡短確認進度；例句：「我們明天再聯絡一下。」」。",
       "sentenceIndex": 66,
@@ -2800,12 +2534,10 @@ export default {
         "touch base"
       ],
       "optionReasons": {
-        "base-mcq-34": "本句指「表示聯絡一下；簡短確認進度；例句：「我們明天再聯絡一下。」」。",
-        "base-mcq-33": "「表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」」是「baseline = starting level used for comparison 基準線；基線；基準值」的用法，與本句語境不同。",
-        "base-mcq-35": "「顧及所有方面；做好全面準備」是「cover all the bases = prepare for or deal with every important possibility 顧及所有方面；做好全面準備」的用法，與本句語境不同。",
-        "base-mcq-32": "「表示基礎；依據；例句：「那個說法沒有根據。」」是「basis = underlying reason, principle, or foundation 基礎；依據」的用法，與本句語境不同。",
-        "base-mcq-36": "「表示不正確的；離譜的；例句：「你的估計有點不準確。」」是「off base = incorrect or mistaken 不正確的；離譜的」的用法，與本句語境不同。",
-        "base-mcq-31": "「表示基本上；大致上；例句：「這兩個想法基本上相同。」」是「basically = in the most important or fundamental respects 基本上；大致上」的用法，與本句語境不同。"
+        "base-mcq-34": "本句的「touch base」指「表示聯絡一下；簡短確認進度；例句：「我們明天再聯絡一下。」」。",
+        "base-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-34"
     },
@@ -2817,11 +2549,9 @@ export default {
       "masked": "I’ll ____ the team this afternoon.",
       "options": [
         "base-mcq-34",
-        "base-mcq-33",
-        "base-mcq-35",
-        "base-mcq-32",
-        "base-mcq-36",
-        "base-mcq-31"
+        "base-mcq-20",
+        "base-mcq-10",
+        "base-mcq-35"
       ],
       "explanation": "本句的「touch base with」指「表示聯絡一下；簡短確認進度；例句：「我們明天再聯絡一下。」」。",
       "sentenceIndex": 67,
@@ -2830,12 +2560,10 @@ export default {
         "touch base with"
       ],
       "optionReasons": {
-        "base-mcq-34": "本句指「表示聯絡一下；簡短確認進度；例句：「我們明天再聯絡一下。」」。",
-        "base-mcq-33": "「表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」」是「baseline = starting level used for comparison 基準線；基線；基準值」的用法，與本句語境不同。",
-        "base-mcq-35": "「顧及所有方面；做好全面準備」是「cover all the bases = prepare for or deal with every important possibility 顧及所有方面；做好全面準備」的用法，與本句語境不同。",
-        "base-mcq-32": "「表示基礎；依據；例句：「那個說法沒有根據。」」是「basis = underlying reason, principle, or foundation 基礎；依據」的用法，與本句語境不同。",
-        "base-mcq-36": "「表示不正確的；離譜的；例句：「你的估計有點不準確。」」是「off base = incorrect or mistaken 不正確的；離譜的」的用法，與本句語境不同。",
-        "base-mcq-31": "「表示基本上；大致上；例句：「這兩個想法基本上相同。」」是「basically = in the most important or fundamental respects 基本上；大致上」的用法，與本句語境不同。"
+        "base-mcq-34": "本句的「touch base with」指「表示聯絡一下；簡短確認進度；例句：「我們明天再聯絡一下。」」。",
+        "base-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-34"
     },
@@ -2847,11 +2575,9 @@ export default {
       "masked": "We checked everything to ____.",
       "options": [
         "base-mcq-35",
-        "base-mcq-34",
-        "base-mcq-36",
-        "base-mcq-33",
-        "base-mcq-32",
-        "base-mcq-31"
+        "base-mcq-27",
+        "base-mcq-23",
+        "base-mcq-11"
       ],
       "explanation": "本句的「cover all the bases」指「顧及所有方面；做好全面準備」。",
       "sentenceIndex": 68,
@@ -2860,12 +2586,10 @@ export default {
         "cover all the bases"
       ],
       "optionReasons": {
-        "base-mcq-35": "本句指「顧及所有方面；做好全面準備」。",
-        "base-mcq-34": "「表示聯絡一下；簡短確認進度；例句：「我們明天再聯絡一下。」」是「touch base = briefly contact someone to exchange information or check progress 聯絡一下；簡短確認進度」的用法，與本句語境不同。",
-        "base-mcq-36": "「表示不正確的；離譜的；例句：「你的估計有點不準確。」」是「off base = incorrect or mistaken 不正確的；離譜的」的用法，與本句語境不同。",
-        "base-mcq-33": "「表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」」是「baseline = starting level used for comparison 基準線；基線；基準值」的用法，與本句語境不同。",
-        "base-mcq-32": "「表示基礎；依據；例句：「那個說法沒有根據。」」是「basis = underlying reason, principle, or foundation 基礎；依據」的用法，與本句語境不同。",
-        "base-mcq-31": "「表示基本上；大致上；例句：「這兩個想法基本上相同。」」是「basically = in the most important or fundamental respects 基本上；大致上」的用法，與本句語境不同。"
+        "base-mcq-35": "本句的「cover all the bases」指「顧及所有方面；做好全面準備」。",
+        "base-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-35"
     },
@@ -2877,11 +2601,9 @@ export default {
       "masked": "The plan ____.",
       "options": [
         "base-mcq-35",
-        "base-mcq-34",
-        "base-mcq-36",
-        "base-mcq-33",
-        "base-mcq-32",
-        "base-mcq-31"
+        "base-mcq-31",
+        "base-mcq-27",
+        "base-mcq-24"
       ],
       "explanation": "本句的「covers all the bases」指「顧及所有方面；做好全面準備」。",
       "sentenceIndex": 69,
@@ -2890,12 +2612,10 @@ export default {
         "covers all the bases"
       ],
       "optionReasons": {
-        "base-mcq-35": "本句指「顧及所有方面；做好全面準備」。",
-        "base-mcq-34": "「表示聯絡一下；簡短確認進度；例句：「我們明天再聯絡一下。」」是「touch base = briefly contact someone to exchange information or check progress 聯絡一下；簡短確認進度」的用法，與本句語境不同。",
-        "base-mcq-36": "「表示不正確的；離譜的；例句：「你的估計有點不準確。」」是「off base = incorrect or mistaken 不正確的；離譜的」的用法，與本句語境不同。",
-        "base-mcq-33": "「表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」」是「baseline = starting level used for comparison 基準線；基線；基準值」的用法，與本句語境不同。",
-        "base-mcq-32": "「表示基礎；依據；例句：「那個說法沒有根據。」」是「basis = underlying reason, principle, or foundation 基礎；依據」的用法，與本句語境不同。",
-        "base-mcq-31": "「表示基本上；大致上；例句：「這兩個想法基本上相同。」」是「basically = in the most important or fundamental respects 基本上；大致上」的用法，與本句語境不同。"
+        "base-mcq-35": "本句的「covers all the bases」指「顧及所有方面；做好全面準備」。",
+        "base-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-35"
     },
@@ -2907,11 +2627,9 @@ export default {
       "masked": "Your estimate is slightly ____.",
       "options": [
         "base-mcq-36",
-        "base-mcq-35",
-        "base-mcq-34",
-        "base-mcq-33",
-        "base-mcq-32",
-        "base-mcq-31"
+        "base-mcq-24",
+        "base-mcq-27",
+        "base-mcq-33"
       ],
       "explanation": "本句的「off base」指「表示不正確的；離譜的；例句：「你的估計有點不準確。」」。",
       "sentenceIndex": 70,
@@ -2920,12 +2638,10 @@ export default {
         "off base"
       ],
       "optionReasons": {
-        "base-mcq-36": "本句指「表示不正確的；離譜的；例句：「你的估計有點不準確。」」。",
-        "base-mcq-35": "「顧及所有方面；做好全面準備」是「cover all the bases = prepare for or deal with every important possibility 顧及所有方面；做好全面準備」的用法，與本句語境不同。",
-        "base-mcq-34": "「表示聯絡一下；簡短確認進度；例句：「我們明天再聯絡一下。」」是「touch base = briefly contact someone to exchange information or check progress 聯絡一下；簡短確認進度」的用法，與本句語境不同。",
-        "base-mcq-33": "「表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」」是「baseline = starting level used for comparison 基準線；基線；基準值」的用法，與本句語境不同。",
-        "base-mcq-32": "「表示基礎；依據；例句：「那個說法沒有根據。」」是「basis = underlying reason, principle, or foundation 基礎；依據」的用法，與本句語境不同。",
-        "base-mcq-31": "「表示基本上；大致上；例句：「這兩個想法基本上相同。」」是「basically = in the most important or fundamental respects 基本上；大致上」的用法，與本句語境不同。"
+        "base-mcq-36": "本句的「off base」指「表示不正確的；離譜的；例句：「你的估計有點不準確。」」。",
+        "base-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-36"
     },
@@ -2937,11 +2653,9 @@ export default {
       "masked": "His assumption was completely ____.",
       "options": [
         "base-mcq-36",
-        "base-mcq-35",
-        "base-mcq-34",
-        "base-mcq-33",
-        "base-mcq-32",
-        "base-mcq-31"
+        "base-mcq-30",
+        "base-mcq-23",
+        "base-mcq-19"
       ],
       "explanation": "本句的「off base」指「表示不正確的；離譜的；例句：「你的估計有點不準確。」」。",
       "sentenceIndex": 71,
@@ -2950,12 +2664,10 @@ export default {
         "off base"
       ],
       "optionReasons": {
-        "base-mcq-36": "本句指「表示不正確的；離譜的；例句：「你的估計有點不準確。」」。",
-        "base-mcq-35": "「顧及所有方面；做好全面準備」是「cover all the bases = prepare for or deal with every important possibility 顧及所有方面；做好全面準備」的用法，與本句語境不同。",
-        "base-mcq-34": "「表示聯絡一下；簡短確認進度；例句：「我們明天再聯絡一下。」」是「touch base = briefly contact someone to exchange information or check progress 聯絡一下；簡短確認進度」的用法，與本句語境不同。",
-        "base-mcq-33": "「表示基準線；基線；基準值；例句：「在衡量改善之前，我們需要一個基準值。」」是「baseline = starting level used for comparison 基準線；基線；基準值」的用法，與本句語境不同。",
-        "base-mcq-32": "「表示基礎；依據；例句：「那個說法沒有根據。」」是「basis = underlying reason, principle, or foundation 基礎；依據」的用法，與本句語境不同。",
-        "base-mcq-31": "「表示基本上；大致上；例句：「這兩個想法基本上相同。」」是「basically = in the most important or fundamental respects 基本上；大致上」的用法，與本句語境不同。"
+        "base-mcq-36": "本句的「off base」指「表示不正確的；離譜的；例句：「你的估計有點不準確。」」。",
+        "base-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "base-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "base-mcq-36"
     }
@@ -2967,5 +2679,7 @@ export default {
     "sha256": "1f95fc5e6c5247651bf679d51bbefdc2bb656dbff8f747d22b07efdafbae60e4",
     "pages": 19
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

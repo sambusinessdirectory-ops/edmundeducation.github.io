@@ -300,10 +300,8 @@ export default {
       "masked": "She ____ a loaf of bread.",
       "options": [
         "bake-mcq-01",
-        "bake-mcq-02",
-        "bake-mcq-03",
-        "bake-mcq-04",
-        "bake-mcq-05",
+        "bake-mcq-11",
+        "bake-mcq-07",
         "bake-mcq-06"
       ],
       "explanation": "本句的「baked」指「用焗爐／乾熱把食物烤熟」。",
@@ -313,12 +311,10 @@ export default {
         "baked"
       ],
       "optionReasons": {
-        "bake-mcq-01": "本句指「用焗爐／乾熱把食物烤熟」。",
-        "bake-mcq-02": "「已用乾熱方式烤熟的」與本句語境不同。",
-        "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
-        "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。"
+        "bake-mcq-01": "本句的「baked」指「用焗爐／乾熱把食物烤熟」。",
+        "bake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-01"
     },
@@ -330,11 +326,9 @@ export default {
       "masked": "The cake needs to ____ for thirty minutes.",
       "options": [
         "bake-mcq-01",
-        "bake-mcq-02",
-        "bake-mcq-03",
-        "bake-mcq-04",
-        "bake-mcq-05",
-        "bake-mcq-06"
+        "bake-mcq-11",
+        "bake-mcq-06",
+        "bake-pdf-001"
       ],
       "explanation": "本句的「bake」指「用焗爐／乾熱把食物烤熟」。",
       "sentenceIndex": 1,
@@ -343,12 +337,10 @@ export default {
         "bake"
       ],
       "optionReasons": {
-        "bake-mcq-01": "本句指「用焗爐／乾熱把食物烤熟」。",
-        "bake-mcq-02": "「已用乾熱方式烤熟的」與本句語境不同。",
-        "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
-        "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。"
+        "bake-mcq-01": "本句的「bake」指「用焗爐／乾熱把食物烤熟」。",
+        "bake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bake-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-01"
     },
@@ -360,11 +352,9 @@ export default {
       "masked": "The aroma of freshly ____ drifted into the street.",
       "options": [
         "bake-mcq-02",
-        "bake-mcq-01",
-        "bake-mcq-03",
-        "bake-mcq-04",
-        "bake-mcq-05",
-        "bake-mcq-06"
+        "bake-mcq-11",
+        "bake-mcq-07",
+        "bake-pdf-001"
       ],
       "explanation": "本句的「baked bread」指「已用乾熱方式烤熟的」。",
       "sentenceIndex": 2,
@@ -373,12 +363,10 @@ export default {
         "baked bread"
       ],
       "optionReasons": {
-        "bake-mcq-02": "本句指「已用乾熱方式烤熟的」。",
-        "bake-mcq-01": "「用焗爐／乾熱把食物烤熟」與本句語境不同。",
-        "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
-        "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。"
+        "bake-mcq-02": "本句的「baked bread」指「已用乾熱方式烤熟的」。",
+        "bake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bake-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-02"
     },
@@ -390,11 +378,9 @@ export default {
       "masked": "The ____ sells freshly baked pastries.",
       "options": [
         "bake-mcq-02",
-        "bake-mcq-01",
-        "bake-mcq-03",
-        "bake-mcq-04",
-        "bake-mcq-05",
-        "bake-mcq-06"
+        "bake-mcq-08",
+        "bake-mcq-06",
+        "bake-pdf-001"
       ],
       "explanation": "本句的「bakery」指「已用乾熱方式烤熟的」。",
       "sentenceIndex": 3,
@@ -403,12 +389,10 @@ export default {
         "bakery"
       ],
       "optionReasons": {
-        "bake-mcq-02": "本句指「已用乾熱方式烤熟的」。",
-        "bake-mcq-01": "「用焗爐／乾熱把食物烤熟」與本句語境不同。",
-        "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
-        "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。"
+        "bake-mcq-02": "本句的「bakery」指「已用乾熱方式烤熟的」。",
+        "bake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bake-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-02"
     },
@@ -420,10 +404,8 @@ export default {
       "masked": "She enjoys ____ at weekends.",
       "options": [
         "bake-mcq-03",
-        "bake-mcq-02",
-        "bake-mcq-04",
-        "bake-mcq-01",
-        "bake-mcq-05",
+        "bake-pdf-002",
+        "bake-mcq-11",
         "bake-mcq-06"
       ],
       "explanation": "本句的「baking」指「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」。",
@@ -433,12 +415,10 @@ export default {
         "baking"
       ],
       "optionReasons": {
-        "bake-mcq-03": "本句指「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」。",
-        "bake-mcq-02": "「已用乾熱方式烤熟的」與本句語境不同。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
-        "bake-mcq-01": "「用焗爐／乾熱把食物烤熟」與本句語境不同。",
-        "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。"
+        "bake-mcq-03": "本句的「baking」指「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」。",
+        "bake-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-03"
     },
@@ -450,11 +430,9 @@ export default {
       "masked": "____ requires careful control of time and temperature.",
       "options": [
         "bake-mcq-03",
-        "bake-mcq-02",
-        "bake-mcq-04",
-        "bake-mcq-01",
-        "bake-mcq-05",
-        "bake-mcq-06"
+        "bake-pdf-002",
+        "bake-mcq-06",
+        "bake-mcq-11"
       ],
       "explanation": "本句的「Baking」指「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」。",
       "sentenceIndex": 5,
@@ -463,12 +441,10 @@ export default {
         "Baking"
       ],
       "optionReasons": {
-        "bake-mcq-03": "本句指「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」。",
-        "bake-mcq-02": "「已用乾熱方式烤熟的」與本句語境不同。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
-        "bake-mcq-01": "「用焗爐／乾熱把食物烤熟」與本句語境不同。",
-        "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。"
+        "bake-mcq-03": "本句的「Baking」指「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」。",
+        "bake-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-03"
     },
@@ -480,10 +456,8 @@ export default {
       "masked": "____ the tart until the crust is golden.",
       "options": [
         "bake-mcq-01",
-        "bake-mcq-02",
-        "bake-mcq-03",
-        "bake-mcq-04",
-        "bake-mcq-05",
+        "bake-mcq-07",
+        "bake-pdf-001",
         "bake-mcq-06"
       ],
       "explanation": "本句的「Bake」指「用焗爐／乾熱把食物烤熟」。",
@@ -493,12 +467,10 @@ export default {
         "Bake"
       ],
       "optionReasons": {
-        "bake-mcq-01": "本句指「用焗爐／乾熱把食物烤熟」。",
-        "bake-mcq-02": "「已用乾熱方式烤熟的」與本句語境不同。",
-        "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
-        "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。"
+        "bake-mcq-01": "本句的「Bake」指「用焗爐／乾熱把食物烤熟」。",
+        "bake-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bake-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-01"
     },
@@ -510,11 +482,9 @@ export default {
       "masked": "The vegetables were ____ until tender.",
       "options": [
         "bake-mcq-01",
-        "bake-mcq-02",
-        "bake-mcq-03",
-        "bake-mcq-04",
-        "bake-mcq-05",
-        "bake-mcq-06"
+        "bake-pdf-001",
+        "bake-mcq-06",
+        "bake-mcq-07"
       ],
       "explanation": "本句的「baked」指「用焗爐／乾熱把食物烤熟」。",
       "sentenceIndex": 7,
@@ -523,12 +493,10 @@ export default {
         "baked"
       ],
       "optionReasons": {
-        "bake-mcq-01": "本句指「用焗爐／乾熱把食物烤熟」。",
-        "bake-mcq-02": "「已用乾熱方式烤熟的」與本句語境不同。",
-        "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
-        "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。"
+        "bake-mcq-01": "本句的「baked」指「用焗爐／乾熱把食物烤熟」。",
+        "bake-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-01"
     },
@@ -540,11 +508,9 @@ export default {
       "masked": "The clay was ____ in a kiln.",
       "options": [
         "bake-pdf-001",
-        "bake-mcq-04",
-        "bake-mcq-06",
-        "bake-mcq-03",
-        "bake-mcq-07",
-        "bake-mcq-02"
+        "bake-mcq-02",
+        "bake-mcq-08",
+        "bake-mcq-06"
       ],
       "explanation": "本句的「baked」指「透過高溫令材料變硬、固定或完成化學／物理變化」。",
       "sentenceIndex": 8,
@@ -553,12 +519,10 @@ export default {
         "baked"
       ],
       "optionReasons": {
-        "bake-pdf-001": "本句指「透過高溫令材料變硬、固定或完成化學／物理變化」。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。",
-        "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。",
-        "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
-        "bake-mcq-02": "「已用乾熱方式烤熟的」與本句語境不同。"
+        "bake-pdf-001": "本句的「baked」指「透過高溫令材料變硬、固定或完成化學／物理變化」。",
+        "bake-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-pdf-001"
     },
@@ -570,11 +534,9 @@ export default {
       "masked": "The coating is ____ onto the metal surface.",
       "options": [
         "bake-pdf-001",
-        "bake-mcq-04",
-        "bake-mcq-06",
-        "bake-mcq-03",
-        "bake-mcq-07",
-        "bake-mcq-02"
+        "bake-mcq-11",
+        "bake-mcq-02",
+        "bake-mcq-06"
       ],
       "explanation": "本句的「baked」指「透過高溫令材料變硬、固定或完成化學／物理變化」。",
       "sentenceIndex": 9,
@@ -583,12 +545,10 @@ export default {
         "baked"
       ],
       "optionReasons": {
-        "bake-pdf-001": "本句指「透過高溫令材料變硬、固定或完成化學／物理變化」。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。",
-        "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。",
-        "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
-        "bake-mcq-02": "「已用乾熱方式烤熟的」與本句語境不同。"
+        "bake-pdf-001": "本句的「baked」指「透過高溫令材料變硬、固定或完成化學／物理變化」。",
+        "bake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-pdf-001"
     },
@@ -600,10 +560,8 @@ export default {
       "masked": "The pavement was ____ in the afternoon sun.",
       "options": [
         "bake-mcq-05",
-        "bake-mcq-04",
+        "bake-mcq-08",
         "bake-mcq-06",
-        "bake-mcq-03",
-        "bake-mcq-07",
         "bake-mcq-02"
       ],
       "explanation": "本句的「baking」指「因強烈陽光／高溫而變得非常熱」。",
@@ -613,12 +571,10 @@ export default {
         "baking"
       ],
       "optionReasons": {
-        "bake-mcq-05": "本句指「因強烈陽光／高溫而變得非常熱」。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。",
-        "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。",
-        "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
-        "bake-mcq-02": "「已用乾熱方式烤熟的」與本句語境不同。"
+        "bake-mcq-05": "本句的「baking」指「因強烈陽光／高溫而變得非常熱」。",
+        "bake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-05"
     },
@@ -630,11 +586,9 @@ export default {
       "masked": "We sat outside ____ in the heat.",
       "options": [
         "bake-mcq-05",
-        "bake-mcq-04",
-        "bake-mcq-06",
         "bake-mcq-03",
-        "bake-mcq-07",
-        "bake-mcq-02"
+        "bake-mcq-10",
+        "bake-mcq-06"
       ],
       "explanation": "本句的「baking」指「因強烈陽光／高溫而變得非常熱」。",
       "sentenceIndex": 11,
@@ -643,12 +597,10 @@ export default {
         "baking"
       ],
       "optionReasons": {
-        "bake-mcq-05": "本句指「因強烈陽光／高溫而變得非常熱」。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。",
-        "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。",
-        "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
-        "bake-mcq-02": "「已用乾熱方式烤熟的」與本句語境不同。"
+        "bake-mcq-05": "本句的「baking」指「因強烈陽光／高溫而變得非常熱」。",
+        "bake-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-05"
     },
@@ -660,11 +612,9 @@ export default {
       "masked": "The car was ____ after sitting in the sun.",
       "options": [
         "bake-pdf-002",
-        "bake-mcq-05",
+        "bake-mcq-10",
         "bake-mcq-07",
-        "bake-mcq-04",
-        "bake-mcq-08",
-        "bake-mcq-03"
+        "bake-mcq-01"
       ],
       "explanation": "本句的「baked」指「因熱力或陽光而變得非常熱」。",
       "sentenceIndex": 12,
@@ -673,12 +623,10 @@ export default {
         "baked"
       ],
       "optionReasons": {
-        "bake-pdf-002": "本句指「因熱力或陽光而變得非常熱」。",
-        "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。",
-        "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
-        "bake-mcq-08": "「製作及／或出售烘焙食品的店舖／生意」與本句語境不同。",
-        "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。"
+        "bake-pdf-002": "本句的「baked」指「因熱力或陽光而變得非常熱」。",
+        "bake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-pdf-002"
     },
@@ -690,11 +638,9 @@ export default {
       "masked": "The room felt ____ by the afternoon heat.",
       "options": [
         "bake-pdf-002",
-        "bake-mcq-05",
         "bake-mcq-07",
-        "bake-mcq-04",
-        "bake-mcq-08",
-        "bake-mcq-03"
+        "bake-mcq-10",
+        "bake-mcq-02"
       ],
       "explanation": "本句的「baked」指「因熱力或陽光而變得非常熱」。",
       "sentenceIndex": 13,
@@ -703,12 +649,10 @@ export default {
         "baked"
       ],
       "optionReasons": {
-        "bake-pdf-002": "本句指「因熱力或陽光而變得非常熱」。",
-        "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。",
-        "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
-        "bake-mcq-08": "「製作及／或出售烘焙食品的店舖／生意」與本句語境不同。",
-        "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。"
+        "bake-pdf-002": "本句的「baked」指「因熱力或陽光而變得非常熱」。",
+        "bake-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-pdf-002"
     },
@@ -720,11 +664,9 @@ export default {
       "masked": "He looked completely ____.",
       "options": [
         "bake-mcq-06",
-        "bake-mcq-05",
+        "bake-mcq-10",
         "bake-mcq-07",
-        "bake-mcq-04",
-        "bake-mcq-08",
-        "bake-mcq-03"
+        "bake-mcq-01"
       ],
       "explanation": "本句的「baked」指「因使用大麻而處於明顯 intoxicated 狀態」。",
       "sentenceIndex": 14,
@@ -733,12 +675,10 @@ export default {
         "baked"
       ],
       "optionReasons": {
-        "bake-mcq-06": "本句指「因使用大麻而處於明顯 intoxicated 狀態」。",
-        "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。",
-        "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
-        "bake-mcq-08": "「製作及／或出售烘焙食品的店舖／生意」與本句語境不同。",
-        "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。"
+        "bake-mcq-06": "本句的「baked」指「因使用大麻而處於明顯 intoxicated 狀態」。",
+        "bake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-06"
     },
@@ -750,11 +690,9 @@ export default {
       "masked": "They were too ____ to follow the conversation.",
       "options": [
         "bake-mcq-06",
-        "bake-mcq-05",
+        "bake-mcq-01",
         "bake-mcq-07",
-        "bake-mcq-04",
-        "bake-mcq-08",
-        "bake-mcq-03"
+        "bake-mcq-11"
       ],
       "explanation": "本句的「baked」指「因使用大麻而處於明顯 intoxicated 狀態」。",
       "sentenceIndex": 15,
@@ -763,12 +701,10 @@ export default {
         "baked"
       ],
       "optionReasons": {
-        "bake-mcq-06": "本句指「因使用大麻而處於明顯 intoxicated 狀態」。",
-        "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。",
-        "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。",
-        "bake-mcq-08": "「製作及／或出售烘焙食品的店舖／生意」與本句語境不同。",
-        "bake-mcq-03": "「製作麵包、蛋糕、餅乾等焗製食品的活動／過程」與本句語境不同。"
+        "bake-mcq-06": "本句的「baked」指「因使用大麻而處於明顯 intoxicated 狀態」。",
+        "bake-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-06"
     },
@@ -780,11 +716,9 @@ export default {
       "masked": "The ____ starts work before sunrise.",
       "options": [
         "bake-mcq-07",
-        "bake-mcq-06",
-        "bake-mcq-08",
         "bake-mcq-05",
-        "bake-mcq-09",
-        "bake-mcq-04"
+        "bake-mcq-02",
+        "bake-mcq-06"
       ],
       "explanation": "本句的「baker」指「以製作麵包、蛋糕、糕點等為職業的人」。",
       "sentenceIndex": 16,
@@ -793,12 +727,10 @@ export default {
         "baker"
       ],
       "optionReasons": {
-        "bake-mcq-07": "本句指「以製作麵包、蛋糕、糕點等為職業的人」。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。",
-        "bake-mcq-08": "「製作及／或出售烘焙食品的店舖／生意」與本句語境不同。",
-        "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。",
-        "bake-mcq-09": "「以烘焙方式製成的食品整體」與本句語境不同。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。"
+        "bake-mcq-07": "本句的「baker」指「以製作麵包、蛋糕、糕點等為職業的人」。",
+        "bake-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-07"
     },
@@ -810,11 +742,9 @@ export default {
       "masked": "She trained as a professional ____.",
       "options": [
         "bake-mcq-07",
-        "bake-mcq-06",
-        "bake-mcq-08",
-        "bake-mcq-05",
-        "bake-mcq-09",
-        "bake-mcq-04"
+        "bake-pdf-001",
+        "bake-pdf-002",
+        "bake-mcq-11"
       ],
       "explanation": "本句的「baker」指「以製作麵包、蛋糕、糕點等為職業的人」。",
       "sentenceIndex": 17,
@@ -823,12 +753,10 @@ export default {
         "baker"
       ],
       "optionReasons": {
-        "bake-mcq-07": "本句指「以製作麵包、蛋糕、糕點等為職業的人」。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。",
-        "bake-mcq-08": "「製作及／或出售烘焙食品的店舖／生意」與本句語境不同。",
-        "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。",
-        "bake-mcq-09": "「以烘焙方式製成的食品整體」與本句語境不同。",
-        "bake-mcq-04": "「用高溫令材料硬化、固定或完成物理／化學變化」與本句語境不同。"
+        "bake-mcq-07": "本句的「baker」指「以製作麵包、蛋糕、糕點等為職業的人」。",
+        "bake-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "bake-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-07"
     },
@@ -840,11 +768,9 @@ export default {
       "masked": "The ____ opens at six every morning.",
       "options": [
         "bake-mcq-08",
-        "bake-mcq-07",
-        "bake-mcq-09",
         "bake-mcq-06",
-        "bake-mcq-10",
-        "bake-mcq-05"
+        "bake-pdf-001",
+        "bake-mcq-02"
       ],
       "explanation": "本句的「bakery」指「製作及／或出售烘焙食品的店舖／生意」。",
       "sentenceIndex": 18,
@@ -853,12 +779,10 @@ export default {
         "bakery"
       ],
       "optionReasons": {
-        "bake-mcq-08": "本句指「製作及／或出售烘焙食品的店舖／生意」。",
-        "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
-        "bake-mcq-09": "「以烘焙方式製成的食品整體」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。",
-        "bake-mcq-10": "「烘焙時令麵糰／麵糊膨鬆的化學膨鬆劑」與本句語境不同。",
-        "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。"
+        "bake-mcq-08": "本句的「bakery」指「製作及／或出售烘焙食品的店舖／生意」。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bake-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-08"
     },
@@ -870,11 +794,9 @@ export default {
       "masked": "The ____ sells bread, cakes, and pastries.",
       "options": [
         "bake-mcq-08",
-        "bake-mcq-07",
-        "bake-mcq-09",
         "bake-mcq-06",
-        "bake-mcq-10",
-        "bake-mcq-05"
+        "bake-mcq-02",
+        "bake-pdf-001"
       ],
       "explanation": "本句的「bakery」指「製作及／或出售烘焙食品的店舖／生意」。",
       "sentenceIndex": 19,
@@ -883,12 +805,10 @@ export default {
         "bakery"
       ],
       "optionReasons": {
-        "bake-mcq-08": "本句指「製作及／或出售烘焙食品的店舖／生意」。",
-        "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
-        "bake-mcq-09": "「以烘焙方式製成的食品整體」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。",
-        "bake-mcq-10": "「烘焙時令麵糰／麵糊膨鬆的化學膨鬆劑」與本句語境不同。",
-        "bake-mcq-05": "「因強烈陽光／高溫而變得非常熱」與本句語境不同。"
+        "bake-mcq-08": "本句的「bakery」指「製作及／或出售烘焙食品的店舖／生意」。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bake-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-08"
     },
@@ -900,10 +820,8 @@ export default {
       "masked": "The shop sells fresh ____.",
       "options": [
         "bake-mcq-09",
-        "bake-mcq-08",
-        "bake-mcq-10",
-        "bake-mcq-07",
-        "bake-mcq-11",
+        "bake-mcq-02",
+        "bake-pdf-002",
         "bake-mcq-06"
       ],
       "explanation": "本句的「baked goods」指「以烘焙方式製成的食品整體」。",
@@ -913,12 +831,10 @@ export default {
         "baked goods"
       ],
       "optionReasons": {
-        "bake-mcq-09": "本句指「以烘焙方式製成的食品整體」。",
-        "bake-mcq-08": "「製作及／或出售烘焙食品的店舖／生意」與本句語境不同。",
-        "bake-mcq-10": "「烘焙時令麵糰／麵糊膨鬆的化學膨鬆劑」與本句語境不同。",
-        "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
-        "bake-mcq-11": "「碳酸氫鈉；常作烘焙膨鬆劑」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。"
+        "bake-mcq-09": "本句的「baked goods」指「以烘焙方式製成的食品整體」。",
+        "bake-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bake-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-09"
     },
@@ -930,11 +846,9 @@ export default {
       "masked": "Bread and pastries are common ____ goods.",
       "options": [
         "bake-mcq-09",
-        "bake-mcq-08",
-        "bake-mcq-10",
-        "bake-mcq-07",
-        "bake-mcq-11",
-        "bake-mcq-06"
+        "bake-mcq-05",
+        "bake-mcq-06",
+        "bake-mcq-02"
       ],
       "explanation": "本句的「baked」指「以烘焙方式製成的食品整體」。",
       "sentenceIndex": 21,
@@ -943,12 +857,10 @@ export default {
         "baked"
       ],
       "optionReasons": {
-        "bake-mcq-09": "本句指「以烘焙方式製成的食品整體」。",
-        "bake-mcq-08": "「製作及／或出售烘焙食品的店舖／生意」與本句語境不同。",
-        "bake-mcq-10": "「烘焙時令麵糰／麵糊膨鬆的化學膨鬆劑」與本句語境不同。",
-        "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
-        "bake-mcq-11": "「碳酸氫鈉；常作烘焙膨鬆劑」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。"
+        "bake-mcq-09": "本句的「baked」指「以烘焙方式製成的食品整體」。",
+        "bake-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-09"
     },
@@ -960,11 +872,9 @@ export default {
       "masked": "The recipe uses ____.",
       "options": [
         "bake-mcq-10",
-        "bake-mcq-09",
-        "bake-mcq-11",
-        "bake-mcq-08",
-        "bake-mcq-07",
-        "bake-mcq-06"
+        "bake-mcq-05",
+        "bake-mcq-06",
+        "bake-mcq-01"
       ],
       "explanation": "本句的「baking powder」指「烘焙時令麵糰／麵糊膨鬆的化學膨鬆劑」。",
       "sentenceIndex": 24,
@@ -973,12 +883,10 @@ export default {
         "baking powder"
       ],
       "optionReasons": {
-        "bake-mcq-10": "本句指「烘焙時令麵糰／麵糊膨鬆的化學膨鬆劑」。",
-        "bake-mcq-09": "「以烘焙方式製成的食品整體」與本句語境不同。",
-        "bake-mcq-11": "「碳酸氫鈉；常作烘焙膨鬆劑」與本句語境不同。",
-        "bake-mcq-08": "「製作及／或出售烘焙食品的店舖／生意」與本句語境不同。",
-        "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。"
+        "bake-mcq-10": "本句的「baking powder」指「烘焙時令麵糰／麵糊膨鬆的化學膨鬆劑」。",
+        "bake-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-10"
     },
@@ -990,11 +898,9 @@ export default {
       "masked": "____ powder helps the cake rise.",
       "options": [
         "bake-mcq-10",
-        "bake-mcq-09",
-        "bake-mcq-11",
-        "bake-mcq-08",
-        "bake-mcq-07",
-        "bake-mcq-06"
+        "bake-mcq-05",
+        "bake-mcq-06",
+        "bake-mcq-02"
       ],
       "explanation": "本句的「Baking」指「烘焙時令麵糰／麵糊膨鬆的化學膨鬆劑」。",
       "sentenceIndex": 25,
@@ -1003,12 +909,10 @@ export default {
         "Baking"
       ],
       "optionReasons": {
-        "bake-mcq-10": "本句指「烘焙時令麵糰／麵糊膨鬆的化學膨鬆劑」。",
-        "bake-mcq-09": "「以烘焙方式製成的食品整體」與本句語境不同。",
-        "bake-mcq-11": "「碳酸氫鈉；常作烘焙膨鬆劑」與本句語境不同。",
-        "bake-mcq-08": "「製作及／或出售烘焙食品的店舖／生意」與本句語境不同。",
-        "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。"
+        "bake-mcq-10": "本句的「Baking」指「烘焙時令麵糰／麵糊膨鬆的化學膨鬆劑」。",
+        "bake-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-10"
     },
@@ -1020,11 +924,9 @@ export default {
       "masked": "Add half a teaspoon of ____.",
       "options": [
         "bake-mcq-11",
-        "bake-mcq-10",
-        "bake-mcq-09",
-        "bake-mcq-08",
+        "bake-mcq-01",
         "bake-mcq-07",
-        "bake-mcq-06"
+        "bake-pdf-001"
       ],
       "explanation": "本句的「baking soda」指「碳酸氫鈉；常作烘焙膨鬆劑」。",
       "sentenceIndex": 26,
@@ -1033,12 +935,10 @@ export default {
         "baking soda"
       ],
       "optionReasons": {
-        "bake-mcq-11": "本句指「碳酸氫鈉；常作烘焙膨鬆劑」。",
-        "bake-mcq-10": "「烘焙時令麵糰／麵糊膨鬆的化學膨鬆劑」與本句語境不同。",
-        "bake-mcq-09": "「以烘焙方式製成的食品整體」與本句語境不同。",
-        "bake-mcq-08": "「製作及／或出售烘焙食品的店舖／生意」與本句語境不同。",
-        "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。"
+        "bake-mcq-11": "本句的「baking soda」指「碳酸氫鈉；常作烘焙膨鬆劑」。",
+        "bake-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bake-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-11"
     },
@@ -1050,10 +950,8 @@ export default {
       "masked": "____ soda reacts with acidic ingredients.",
       "options": [
         "bake-mcq-11",
-        "bake-mcq-10",
-        "bake-mcq-09",
-        "bake-mcq-08",
-        "bake-mcq-07",
+        "bake-mcq-03",
+        "bake-pdf-001",
         "bake-mcq-06"
       ],
       "explanation": "本句的「Baking」指「碳酸氫鈉；常作烘焙膨鬆劑」。",
@@ -1063,12 +961,10 @@ export default {
         "Baking"
       ],
       "optionReasons": {
-        "bake-mcq-11": "本句指「碳酸氫鈉；常作烘焙膨鬆劑」。",
-        "bake-mcq-10": "「烘焙時令麵糰／麵糊膨鬆的化學膨鬆劑」與本句語境不同。",
-        "bake-mcq-09": "「以烘焙方式製成的食品整體」與本句語境不同。",
-        "bake-mcq-08": "「製作及／或出售烘焙食品的店舖／生意」與本句語境不同。",
-        "bake-mcq-07": "「以製作麵包、蛋糕、糕點等為職業的人」與本句語境不同。",
-        "bake-mcq-06": "「因使用大麻而處於明顯 intoxicated 狀態」與本句語境不同。"
+        "bake-mcq-11": "本句的「Baking」指「碳酸氫鈉；常作烘焙膨鬆劑」。",
+        "bake-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bake-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "bake-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bake-mcq-11"
     }
@@ -1080,5 +976,7 @@ export default {
     "sha256": "83c622ec70980ad133f840f3ff0ec7a7ced0bfe0cbe43d2835dbf49ffb8b6f54",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

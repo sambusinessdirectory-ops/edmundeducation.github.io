@@ -506,11 +506,9 @@ export default {
       "masked": "That was an important ____ in my life.",
       "options": [
         "period-mcq-01",
-        "period-mcq-02",
-        "period-mcq-03",
-        "period-mcq-04",
-        "period-mcq-05",
-        "period-mcq-06"
+        "period-mcq-10",
+        "period-mcq-11",
+        "period-mcq-07"
       ],
       "explanation": "本句的「period」指「有明確或大概起止的一段時間／期間」。",
       "sentenceIndex": 0,
@@ -519,12 +517,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-01": "本句指「有明確或大概起止的一段時間／期間」。",
-        "period-mcq-02": "「一段特定長度的時間」與本句語境不同。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。",
-        "period-mcq-04": "「某人人生中的特定階段／時期」與本句語境不同。",
-        "period-mcq-05": "「歷史、藝術、文化等中的特定時期／時代」與本句語境不同。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。"
+        "period-mcq-01": "本句的「period」指「有明確或大概起止的一段時間／期間」。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-01"
     },
@@ -536,11 +532,9 @@ export default {
       "masked": "She went through a difficult ____ after graduation.",
       "options": [
         "period-mcq-01",
-        "period-mcq-02",
-        "period-mcq-03",
-        "period-mcq-04",
-        "period-mcq-05",
-        "period-mcq-06"
+        "period-mcq-10",
+        "period-mcq-07",
+        "period-mcq-11"
       ],
       "explanation": "本句的「period」指「有明確或大概起止的一段時間／期間」。",
       "sentenceIndex": 1,
@@ -549,12 +543,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-01": "本句指「有明確或大概起止的一段時間／期間」。",
-        "period-mcq-02": "「一段特定長度的時間」與本句語境不同。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。",
-        "period-mcq-04": "「某人人生中的特定階段／時期」與本句語境不同。",
-        "period-mcq-05": "「歷史、藝術、文化等中的特定時期／時代」與本句語境不同。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。"
+        "period-mcq-01": "本句的「period」指「有明確或大概起止的一段時間／期間」。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-01"
     },
@@ -566,11 +558,9 @@ export default {
       "masked": "He stayed abroad for a short ____.",
       "options": [
         "period-mcq-01",
-        "period-mcq-02",
-        "period-mcq-03",
-        "period-mcq-04",
-        "period-mcq-05",
-        "period-mcq-06"
+        "period-mcq-11",
+        "period-mcq-07",
+        "period-mcq-10"
       ],
       "explanation": "本句的「period」指「有明確或大概起止的一段時間／期間」。",
       "sentenceIndex": 2,
@@ -579,12 +569,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-01": "本句指「有明確或大概起止的一段時間／期間」。",
-        "period-mcq-02": "「一段特定長度的時間」與本句語境不同。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。",
-        "period-mcq-04": "「某人人生中的特定階段／時期」與本句語境不同。",
-        "period-mcq-05": "「歷史、藝術、文化等中的特定時期／時代」與本句語境不同。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。"
+        "period-mcq-01": "本句的「period」指「有明確或大概起止的一段時間／期間」。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-01"
     },
@@ -596,11 +584,9 @@ export default {
       "masked": "The building was closed for a long ____.",
       "options": [
         "period-mcq-01",
-        "period-mcq-02",
-        "period-mcq-03",
-        "period-mcq-04",
-        "period-mcq-05",
-        "period-mcq-06"
+        "period-mcq-10",
+        "period-mcq-11",
+        "period-mcq-07"
       ],
       "explanation": "本句的「period」指「有明確或大概起止的一段時間／期間」。",
       "sentenceIndex": 3,
@@ -609,12 +595,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-01": "本句指「有明確或大概起止的一段時間／期間」。",
-        "period-mcq-02": "「一段特定長度的時間」與本句語境不同。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。",
-        "period-mcq-04": "「某人人生中的特定階段／時期」與本句語境不同。",
-        "period-mcq-05": "「歷史、藝術、文化等中的特定時期／時代」與本句語境不同。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。"
+        "period-mcq-01": "本句的「period」指「有明確或大概起止的一段時間／期間」。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-01"
     },
@@ -626,11 +610,9 @@ export default {
       "masked": "The work took a long ____.",
       "options": [
         "period-mcq-02",
-        "period-mcq-01",
-        "period-mcq-03",
-        "period-mcq-04",
-        "period-mcq-05",
-        "period-mcq-06"
+        "period-mcq-09",
+        "period-mcq-11",
+        "period-mcq-07"
       ],
       "explanation": "本句的「period of time」指「一段特定長度的時間」。",
       "sentenceIndex": 4,
@@ -639,12 +621,10 @@ export default {
         "period of time"
       ],
       "optionReasons": {
-        "period-mcq-02": "本句指「一段特定長度的時間」。",
-        "period-mcq-01": "「有明確或大概起止的一段時間／期間」與本句語境不同。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。",
-        "period-mcq-04": "「某人人生中的特定階段／時期」與本句語境不同。",
-        "period-mcq-05": "「歷史、藝術、文化等中的特定時期／時代」與本句語境不同。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。"
+        "period-mcq-02": "本句的「period of time」指「一段特定長度的時間」。",
+        "period-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-02"
     },
@@ -656,11 +636,9 @@ export default {
       "masked": "Over a short ____, the situation changed completely.",
       "options": [
         "period-mcq-02",
-        "period-mcq-01",
-        "period-mcq-03",
-        "period-mcq-04",
-        "period-mcq-05",
-        "period-mcq-06"
+        "period-mcq-10",
+        "period-mcq-20",
+        "period-mcq-11"
       ],
       "explanation": "本句的「period of time」指「一段特定長度的時間」。",
       "sentenceIndex": 5,
@@ -669,12 +647,10 @@ export default {
         "period of time"
       ],
       "optionReasons": {
-        "period-mcq-02": "本句指「一段特定長度的時間」。",
-        "period-mcq-01": "「有明確或大概起止的一段時間／期間」與本句語境不同。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。",
-        "period-mcq-04": "「某人人生中的特定階段／時期」與本句語境不同。",
-        "period-mcq-05": "「歷史、藝術、文化等中的特定時期／時代」與本句語境不同。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。"
+        "period-mcq-02": "本句的「period of time」指「一段特定長度的時間」。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-02"
     },
@@ -686,11 +662,9 @@ export default {
       "masked": "University was a formative ____ in her life.",
       "options": [
         "period-mcq-04",
-        "period-mcq-03",
-        "period-mcq-05",
-        "period-mcq-02",
-        "period-mcq-06",
-        "period-mcq-01"
+        "period-mcq-07",
+        "period-mcq-10",
+        "period-mcq-11"
       ],
       "explanation": "本句的「period」指「某人人生中的特定階段／時期」。",
       "sentenceIndex": 6,
@@ -699,12 +673,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-04": "本句指「某人人生中的特定階段／時期」。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。",
-        "period-mcq-05": "「歷史、藝術、文化等中的特定時期／時代」與本句語境不同。",
-        "period-mcq-02": "「一段特定長度的時間」與本句語境不同。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。",
-        "period-mcq-01": "「有明確或大概起止的一段時間／期間」與本句語境不同。"
+        "period-mcq-04": "本句的「period」指「某人人生中的特定階段／時期」。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-04"
     },
@@ -716,11 +688,9 @@ export default {
       "masked": "He was going through a stressful ____ at work.",
       "options": [
         "period-mcq-04",
-        "period-mcq-03",
-        "period-mcq-05",
-        "period-mcq-02",
-        "period-mcq-06",
-        "period-mcq-01"
+        "period-mcq-07",
+        "period-mcq-10",
+        "period-mcq-11"
       ],
       "explanation": "本句的「period」指「某人人生中的特定階段／時期」。",
       "sentenceIndex": 7,
@@ -729,12 +699,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-04": "本句指「某人人生中的特定階段／時期」。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。",
-        "period-mcq-05": "「歷史、藝術、文化等中的特定時期／時代」與本句語境不同。",
-        "period-mcq-02": "「一段特定長度的時間」與本句語境不同。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。",
-        "period-mcq-01": "「有明確或大概起止的一段時間／期間」與本句語境不同。"
+        "period-mcq-04": "本句的「period」指「某人人生中的特定階段／時期」。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-04"
     },
@@ -746,11 +714,9 @@ export default {
       "masked": "It was a confusing ____.",
       "options": [
         "period-mcq-04",
-        "period-mcq-03",
-        "period-mcq-05",
-        "period-mcq-02",
-        "period-mcq-06",
-        "period-mcq-01"
+        "period-mcq-10",
+        "period-mcq-07",
+        "period-mcq-11"
       ],
       "explanation": "本句的「period in my life」指「某人人生中的特定階段／時期」。",
       "sentenceIndex": 8,
@@ -759,12 +725,10 @@ export default {
         "period in my life"
       ],
       "optionReasons": {
-        "period-mcq-04": "本句指「某人人生中的特定階段／時期」。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。",
-        "period-mcq-05": "「歷史、藝術、文化等中的特定時期／時代」與本句語境不同。",
-        "period-mcq-02": "「一段特定長度的時間」與本句語境不同。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。",
-        "period-mcq-01": "「有明確或大概起止的一段時間／期間」與本句語境不同。"
+        "period-mcq-04": "本句的「period in my life」指「某人人生中的特定階段／時期」。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-04"
     },
@@ -776,11 +740,9 @@ export default {
       "masked": "She remembers that ____ clearly.",
       "options": [
         "period-mcq-04",
-        "period-mcq-03",
-        "period-mcq-05",
-        "period-mcq-02",
-        "period-mcq-06",
-        "period-mcq-01"
+        "period-mcq-11",
+        "period-mcq-10",
+        "period-mcq-07"
       ],
       "explanation": "本句的「period of her life」指「某人人生中的特定階段／時期」。",
       "sentenceIndex": 9,
@@ -789,12 +751,10 @@ export default {
         "period of her life"
       ],
       "optionReasons": {
-        "period-mcq-04": "本句指「某人人生中的特定階段／時期」。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。",
-        "period-mcq-05": "「歷史、藝術、文化等中的特定時期／時代」與本句語境不同。",
-        "period-mcq-02": "「一段特定長度的時間」與本句語境不同。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。",
-        "period-mcq-01": "「有明確或大概起止的一段時間／期間」與本句語境不同。"
+        "period-mcq-04": "本句的「period of her life」指「某人人生中的特定階段／時期」。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-04"
     },
@@ -806,11 +766,9 @@ export default {
       "masked": "The museum focuses on the Victorian ____.",
       "options": [
         "period-mcq-05",
-        "period-mcq-04",
-        "period-mcq-06",
-        "period-mcq-03",
-        "period-mcq-07",
-        "period-mcq-02"
+        "period-mcq-11",
+        "period-mcq-10",
+        "period-mcq-07"
       ],
       "explanation": "本句的「period」指「歷史、藝術、文化等中的特定時期／時代」。",
       "sentenceIndex": 10,
@@ -819,12 +777,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-05": "本句指「歷史、藝術、文化等中的特定時期／時代」。",
-        "period-mcq-04": "「某人人生中的特定階段／時期」與本句語境不同。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。",
-        "period-mcq-07": "「美式英語中句尾的「.」；句號」與本句語境不同。",
-        "period-mcq-02": "「一段特定長度的時間」與本句語境不同。"
+        "period-mcq-05": "本句的「period」指「歷史、藝術、文化等中的特定時期／時代」。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-05"
     },
@@ -836,11 +792,9 @@ export default {
       "masked": "The painting comes from a later ____.",
       "options": [
         "period-mcq-05",
-        "period-mcq-04",
-        "period-mcq-06",
-        "period-mcq-03",
         "period-mcq-07",
-        "period-mcq-02"
+        "period-mcq-10",
+        "period-mcq-11"
       ],
       "explanation": "本句的「period」指「歷史、藝術、文化等中的特定時期／時代」。",
       "sentenceIndex": 11,
@@ -849,12 +803,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-05": "本句指「歷史、藝術、文化等中的特定時期／時代」。",
-        "period-mcq-04": "「某人人生中的特定階段／時期」與本句語境不同。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。",
-        "period-mcq-07": "「美式英語中句尾的「.」；句號」與本句語境不同。",
-        "period-mcq-02": "「一段特定長度的時間」與本句語境不同。"
+        "period-mcq-05": "本句的「period」指「歷史、藝術、文化等中的特定時期／時代」。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-05"
     },
@@ -866,11 +818,9 @@ export default {
       "masked": "The Renaissance was an important historical ____.",
       "options": [
         "period-mcq-05",
-        "period-mcq-04",
-        "period-mcq-06",
-        "period-mcq-03",
         "period-mcq-07",
-        "period-mcq-02"
+        "period-mcq-11",
+        "period-mcq-10"
       ],
       "explanation": "本句的「period」指「歷史、藝術、文化等中的特定時期／時代」。",
       "sentenceIndex": 12,
@@ -879,12 +829,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-05": "本句指「歷史、藝術、文化等中的特定時期／時代」。",
-        "period-mcq-04": "「某人人生中的特定階段／時期」與本句語境不同。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。",
-        "period-mcq-07": "「美式英語中句尾的「.」；句號」與本句語境不同。",
-        "period-mcq-02": "「一段特定長度的時間」與本句語境不同。"
+        "period-mcq-05": "本句的「period」指「歷史、藝術、文化等中的特定時期／時代」。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-05"
     },
@@ -896,11 +844,9 @@ export default {
       "masked": "The book covers several ____ of Chinese history.",
       "options": [
         "period-mcq-05",
-        "period-mcq-04",
-        "period-mcq-06",
-        "period-mcq-03",
+        "period-mcq-11",
         "period-mcq-07",
-        "period-mcq-02"
+        "period-mcq-10"
       ],
       "explanation": "本句的「periods」指「歷史、藝術、文化等中的特定時期／時代」。",
       "sentenceIndex": 13,
@@ -909,12 +855,10 @@ export default {
         "periods"
       ],
       "optionReasons": {
-        "period-mcq-05": "本句指「歷史、藝術、文化等中的特定時期／時代」。",
-        "period-mcq-04": "「某人人生中的特定階段／時期」與本句語境不同。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。",
-        "period-mcq-07": "「美式英語中句尾的「.」；句號」與本句語境不同。",
-        "period-mcq-02": "「一段特定長度的時間」與本句語境不同。"
+        "period-mcq-05": "本句的「periods」指「歷史、藝術、文化等中的特定時期／時代」。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-05"
     },
@@ -926,11 +870,9 @@ export default {
       "masked": "We have math in the first ____.",
       "options": [
         "period-mcq-06",
-        "period-mcq-05",
+        "period-mcq-20",
         "period-mcq-07",
-        "period-mcq-04",
-        "period-mcq-08",
-        "period-mcq-03"
+        "period-mcq-10"
       ],
       "explanation": "本句的「period」指「學校時間表中的一節課」。",
       "sentenceIndex": 14,
@@ -939,12 +881,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-06": "本句指「學校時間表中的一節課」。",
-        "period-mcq-05": "「歷史、藝術、文化等中的特定時期／時代」與本句語境不同。",
-        "period-mcq-07": "「美式英語中句尾的「.」；句號」與本句語境不同。",
-        "period-mcq-04": "「某人人生中的特定階段／時期」與本句語境不同。",
-        "period-mcq-08": "「美式非正式：表示「就這樣，沒有商量」」與本句語境不同。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。"
+        "period-mcq-06": "本句的「period」指「學校時間表中的一節課」。",
+        "period-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-06"
     },
@@ -956,11 +896,9 @@ export default {
       "masked": "The teacher arrived late for third ____.",
       "options": [
         "period-mcq-06",
-        "period-mcq-05",
-        "period-mcq-07",
-        "period-mcq-04",
-        "period-mcq-08",
-        "period-mcq-03"
+        "period-mcq-20",
+        "period-mcq-10",
+        "period-mcq-07"
       ],
       "explanation": "本句的「period」指「學校時間表中的一節課」。",
       "sentenceIndex": 15,
@@ -969,12 +907,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-06": "本句指「學校時間表中的一節課」。",
-        "period-mcq-05": "「歷史、藝術、文化等中的特定時期／時代」與本句語境不同。",
-        "period-mcq-07": "「美式英語中句尾的「.」；句號」與本句語境不同。",
-        "period-mcq-04": "「某人人生中的特定階段／時期」與本句語境不同。",
-        "period-mcq-08": "「美式非正式：表示「就這樣，沒有商量」」與本句語境不同。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。"
+        "period-mcq-06": "本句的「period」指「學校時間表中的一節課」。",
+        "period-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-06"
     },
@@ -986,11 +922,9 @@ export default {
       "masked": "English is in the second ____.",
       "options": [
         "period-mcq-06",
-        "period-mcq-05",
+        "period-mcq-20",
         "period-mcq-07",
-        "period-mcq-04",
-        "period-mcq-08",
-        "period-mcq-03"
+        "period-mcq-10"
       ],
       "explanation": "本句的「period」指「學校時間表中的一節課」。",
       "sentenceIndex": 16,
@@ -999,12 +933,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-06": "本句指「學校時間表中的一節課」。",
-        "period-mcq-05": "「歷史、藝術、文化等中的特定時期／時代」與本句語境不同。",
-        "period-mcq-07": "「美式英語中句尾的「.」；句號」與本句語境不同。",
-        "period-mcq-04": "「某人人生中的特定階段／時期」與本句語境不同。",
-        "period-mcq-08": "「美式非正式：表示「就這樣，沒有商量」」與本句語境不同。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。"
+        "period-mcq-06": "本句的「period」指「學校時間表中的一節課」。",
+        "period-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-06"
     },
@@ -1016,11 +948,9 @@ export default {
       "masked": "We have no class in the last ____.",
       "options": [
         "period-mcq-06",
-        "period-mcq-05",
-        "period-mcq-07",
-        "period-mcq-04",
-        "period-mcq-08",
-        "period-mcq-03"
+        "period-mcq-20",
+        "period-mcq-10",
+        "period-mcq-07"
       ],
       "explanation": "本句的「period」指「學校時間表中的一節課」。",
       "sentenceIndex": 17,
@@ -1029,12 +959,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-06": "本句指「學校時間表中的一節課」。",
-        "period-mcq-05": "「歷史、藝術、文化等中的特定時期／時代」與本句語境不同。",
-        "period-mcq-07": "「美式英語中句尾的「.」；句號」與本句語境不同。",
-        "period-mcq-04": "「某人人生中的特定階段／時期」與本句語境不同。",
-        "period-mcq-08": "「美式非正式：表示「就這樣，沒有商量」」與本句語境不同。",
-        "period-mcq-03": "「人生、職業或發展中的一段時期」與本句語境不同。"
+        "period-mcq-06": "本句的「period」指「學校時間表中的一節課」。",
+        "period-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-06"
     },
@@ -1046,11 +974,9 @@ export default {
       "masked": "Put a ____ at the end of the sentence.",
       "options": [
         "period-mcq-07",
-        "period-mcq-06",
-        "period-mcq-08",
-        "period-mcq-05",
-        "period-mcq-09",
-        "period-mcq-04"
+        "period-mcq-23",
+        "period-mcq-10",
+        "period-mcq-19"
       ],
       "explanation": "本句的「period」指「美式英語中句尾的「.」；句號」。",
       "sentenceIndex": 18,
@@ -1059,12 +985,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-07": "本句指「美式英語中句尾的「.」；句號」。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。",
-        "period-mcq-08": "「美式非正式：表示「就這樣，沒有商量」」與本句語境不同。",
-        "period-mcq-05": "「歷史、藝術、文化等中的特定時期／時代」與本句語境不同。",
-        "period-mcq-09": "「月經／經期」與本句語境不同。",
-        "period-mcq-04": "「某人人生中的特定階段／時期」與本句語境不同。"
+        "period-mcq-07": "本句的「period」指「美式英語中句尾的「.」；句號」。",
+        "period-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-07"
     },
@@ -1076,11 +1000,9 @@ export default {
       "masked": "The sentence is missing a ____.",
       "options": [
         "period-mcq-07",
-        "period-mcq-06",
-        "period-mcq-08",
-        "period-mcq-05",
-        "period-mcq-09",
-        "period-mcq-04"
+        "period-mcq-23",
+        "period-mcq-19",
+        "period-mcq-11"
       ],
       "explanation": "本句的「period」指「美式英語中句尾的「.」；句號」。",
       "sentenceIndex": 19,
@@ -1089,12 +1011,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-07": "本句指「美式英語中句尾的「.」；句號」。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。",
-        "period-mcq-08": "「美式非正式：表示「就這樣，沒有商量」」與本句語境不同。",
-        "period-mcq-05": "「歷史、藝術、文化等中的特定時期／時代」與本句語境不同。",
-        "period-mcq-09": "「月經／經期」與本句語境不同。",
-        "period-mcq-04": "「某人人生中的特定階段／時期」與本句語境不同。"
+        "period-mcq-07": "本句的「period」指「美式英語中句尾的「.」；句號」。",
+        "period-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-07"
     },
@@ -1106,11 +1026,8 @@ export default {
       "masked": "She got her ____ yesterday.",
       "options": [
         "period-mcq-09",
-        "period-mcq-08",
-        "period-mcq-10",
-        "period-mcq-07",
-        "period-mcq-11",
-        "period-mcq-06"
+        "period-mcq-06",
+        "period-mcq-07"
       ],
       "explanation": "本句的「period」指「月經／經期」。",
       "sentenceIndex": 22,
@@ -1119,12 +1036,9 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-09": "本句指「月經／經期」。",
-        "period-mcq-08": "「美式非正式：表示「就這樣，沒有商量」」與本句語境不同。",
-        "period-mcq-10": "「來月經」與本句語境不同。",
-        "period-mcq-07": "「美式英語中句尾的「.」；句號」與本句語境不同。",
-        "period-mcq-11": "「某些運動比賽中的一節／一局」與本句語境不同。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。"
+        "period-mcq-09": "本句的「period」指「月經／經期」。",
+        "period-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-09"
     },
@@ -1136,11 +1050,9 @@ export default {
       "masked": "Some people experience pain during their ____.",
       "options": [
         "period-mcq-09",
-        "period-mcq-08",
-        "period-mcq-10",
-        "period-mcq-07",
+        "period-mcq-02",
         "period-mcq-11",
-        "period-mcq-06"
+        "period-mcq-07"
       ],
       "explanation": "本句的「period」指「月經／經期」。",
       "sentenceIndex": 23,
@@ -1149,12 +1061,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-09": "本句指「月經／經期」。",
-        "period-mcq-08": "「美式非正式：表示「就這樣，沒有商量」」與本句語境不同。",
-        "period-mcq-10": "「來月經」與本句語境不同。",
-        "period-mcq-07": "「美式英語中句尾的「.」；句號」與本句語境不同。",
-        "period-mcq-11": "「某些運動比賽中的一節／一局」與本句語境不同。",
-        "period-mcq-06": "「學校時間表中的一節課」與本句語境不同。"
+        "period-mcq-09": "本句的「period」指「月經／經期」。",
+        "period-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-09"
     },
@@ -1166,11 +1076,9 @@ export default {
       "masked": "She ____ this morning.",
       "options": [
         "period-mcq-10",
-        "period-mcq-09",
-        "period-mcq-11",
-        "period-mcq-08",
-        "period-mcq-12",
-        "period-mcq-07"
+        "period-mcq-22",
+        "period-mcq-19",
+        "period-mcq-11"
       ],
       "explanation": "本句的「got her period」指「來月經」。",
       "sentenceIndex": 24,
@@ -1179,12 +1087,10 @@ export default {
         "got her period"
       ],
       "optionReasons": {
-        "period-mcq-10": "本句指「來月經」。",
-        "period-mcq-09": "「月經／經期」與本句語境不同。",
-        "period-mcq-11": "「某些運動比賽中的一節／一局」與本句語境不同。",
-        "period-mcq-08": "「美式非正式：表示「就這樣，沒有商量」」與本句語境不同。",
-        "period-mcq-12": "「一個重複循環完成一次所需的時間；週期」與本句語境不同。",
-        "period-mcq-07": "「美式英語中句尾的「.」；句號」與本句語境不同。"
+        "period-mcq-10": "本句的「got her period」指「來月經」。",
+        "period-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-10"
     },
@@ -1196,11 +1102,9 @@ export default {
       "masked": "I usually feel tired when I ____.",
       "options": [
         "period-mcq-10",
-        "period-mcq-09",
-        "period-mcq-11",
-        "period-mcq-08",
-        "period-mcq-12",
-        "period-mcq-07"
+        "period-mcq-07",
+        "period-mcq-23",
+        "period-mcq-19"
       ],
       "explanation": "本句的「have my period」指「來月經」。",
       "sentenceIndex": 25,
@@ -1209,12 +1113,10 @@ export default {
         "have my period"
       ],
       "optionReasons": {
-        "period-mcq-10": "本句指「來月經」。",
-        "period-mcq-09": "「月經／經期」與本句語境不同。",
-        "period-mcq-11": "「某些運動比賽中的一節／一局」與本句語境不同。",
-        "period-mcq-08": "「美式非正式：表示「就這樣，沒有商量」」與本句語境不同。",
-        "period-mcq-12": "「一個重複循環完成一次所需的時間；週期」與本句語境不同。",
-        "period-mcq-07": "「美式英語中句尾的「.」；句號」與本句語境不同。"
+        "period-mcq-10": "本句的「have my period」指「來月經」。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-10"
     },
@@ -1226,11 +1128,9 @@ export default {
       "masked": "They scored twice in the first ____.",
       "options": [
         "period-mcq-11",
-        "period-mcq-10",
-        "period-mcq-12",
-        "period-mcq-09",
-        "period-mcq-13",
-        "period-mcq-08"
+        "period-mcq-07",
+        "period-mcq-02",
+        "period-mcq-19"
       ],
       "explanation": "本句的「period」指「某些運動比賽中的一節／一局」。",
       "sentenceIndex": 26,
@@ -1239,12 +1139,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-11": "本句指「某些運動比賽中的一節／一局」。",
-        "period-mcq-10": "「來月經」與本句語境不同。",
-        "period-mcq-12": "「一個重複循環完成一次所需的時間；週期」與本句語境不同。",
-        "period-mcq-09": "「月經／經期」與本句語境不同。",
-        "period-mcq-13": "「天體完成一次軌道運動所需時間；軌道週期」與本句語境不同。",
-        "period-mcq-08": "「美式非正式：表示「就這樣，沒有商量」」與本句語境不同。"
+        "period-mcq-11": "本句的「period」指「某些運動比賽中的一節／一局」。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-11"
     },
@@ -1256,11 +1154,9 @@ export default {
       "masked": "The third ____ was very close.",
       "options": [
         "period-mcq-11",
+        "period-mcq-17",
         "period-mcq-10",
-        "period-mcq-12",
-        "period-mcq-09",
-        "period-mcq-13",
-        "period-mcq-08"
+        "period-mcq-07"
       ],
       "explanation": "本句的「period」指「某些運動比賽中的一節／一局」。",
       "sentenceIndex": 27,
@@ -1269,12 +1165,10 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-11": "本句指「某些運動比賽中的一節／一局」。",
-        "period-mcq-10": "「來月經」與本句語境不同。",
-        "period-mcq-12": "「一個重複循環完成一次所需的時間；週期」與本句語境不同。",
-        "period-mcq-09": "「月經／經期」與本句語境不同。",
-        "period-mcq-13": "「天體完成一次軌道運動所需時間；軌道週期」與本句語境不同。",
-        "period-mcq-08": "「美式非正式：表示「就這樣，沒有商量」」與本句語境不同。"
+        "period-mcq-11": "本句的「period」指「某些運動比賽中的一節／一局」。",
+        "period-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-11"
     },
@@ -1286,10 +1180,7 @@ export default {
       "masked": "Earth’s orbital ____ is about one year.",
       "options": [
         "period-mcq-13",
-        "period-mcq-12",
-        "period-mcq-14",
-        "period-mcq-11",
-        "period-mcq-15",
+        "period-mcq-07",
         "period-mcq-10"
       ],
       "explanation": "本句的「period」指「天體完成一次軌道運動所需時間；軌道週期」。",
@@ -1299,12 +1190,9 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-13": "本句指「天體完成一次軌道運動所需時間；軌道週期」。",
-        "period-mcq-12": "「一個重複循環完成一次所需的時間；週期」與本句語境不同。",
-        "period-mcq-14": "「函數或模式重複一次所需的區間長度；週期」與本句語境不同。",
-        "period-mcq-11": "「某些運動比賽中的一節／一局」與本句語境不同。",
-        "period-mcq-15": "「元素週期表中的一個橫列；週期」與本句語境不同。",
-        "period-mcq-10": "「來月經」與本句語境不同。"
+        "period-mcq-13": "本句的「period」指「天體完成一次軌道運動所需時間；軌道週期」。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-13"
     },
@@ -1316,10 +1204,7 @@ export default {
       "masked": "The satellite has a short orbital ____.",
       "options": [
         "period-mcq-13",
-        "period-mcq-12",
-        "period-mcq-14",
-        "period-mcq-11",
-        "period-mcq-15",
+        "period-mcq-07",
         "period-mcq-10"
       ],
       "explanation": "本句的「period」指「天體完成一次軌道運動所需時間；軌道週期」。",
@@ -1329,12 +1214,9 @@ export default {
         "period"
       ],
       "optionReasons": {
-        "period-mcq-13": "本句指「天體完成一次軌道運動所需時間；軌道週期」。",
-        "period-mcq-12": "「一個重複循環完成一次所需的時間；週期」與本句語境不同。",
-        "period-mcq-14": "「函數或模式重複一次所需的區間長度；週期」與本句語境不同。",
-        "period-mcq-11": "「某些運動比賽中的一節／一局」與本句語境不同。",
-        "period-mcq-15": "「元素週期表中的一個橫列；週期」與本句語境不同。",
-        "period-mcq-10": "「來月經」與本句語境不同。"
+        "period-mcq-13": "本句的「period」指「天體完成一次軌道運動所需時間；軌道週期」。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-13"
     },
@@ -1346,11 +1228,9 @@ export default {
       "masked": "The film uses authentic ____.",
       "options": [
         "period-mcq-16",
-        "period-mcq-15",
-        "period-mcq-17",
-        "period-mcq-14",
-        "period-mcq-18",
-        "period-mcq-13"
+        "period-mcq-10",
+        "period-mcq-20",
+        "period-mcq-11"
       ],
       "explanation": "本句的「period costumes」指「具有特定歷史時代風格的服裝／家具」。",
       "sentenceIndex": 36,
@@ -1359,12 +1239,10 @@ export default {
         "period costumes"
       ],
       "optionReasons": {
-        "period-mcq-16": "本句指「具有特定歷史時代風格的服裝／家具」。",
-        "period-mcq-15": "「元素週期表中的一個橫列；週期」與本句語境不同。",
-        "period-mcq-17": "「以特定歷史時代為背景的時代劇」與本句語境不同。",
-        "period-mcq-14": "「函數或模式重複一次所需的區間長度；週期」與本句語境不同。",
-        "period-mcq-18": "「按固定時間或週期重複出現的」與本句語境不同。",
-        "period-mcq-13": "「天體完成一次軌道運動所需時間；軌道週期」與本句語境不同。"
+        "period-mcq-16": "本句的「period costumes」指「具有特定歷史時代風格的服裝／家具」。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-16"
     },
@@ -1376,11 +1254,9 @@ export default {
       "masked": "The house is filled with ____.",
       "options": [
         "period-mcq-16",
-        "period-mcq-15",
-        "period-mcq-17",
-        "period-mcq-14",
-        "period-mcq-18",
-        "period-mcq-13"
+        "period-mcq-09",
+        "period-mcq-07",
+        "period-mcq-11"
       ],
       "explanation": "本句的「period furniture」指「具有特定歷史時代風格的服裝／家具」。",
       "sentenceIndex": 37,
@@ -1389,12 +1265,10 @@ export default {
         "period furniture"
       ],
       "optionReasons": {
-        "period-mcq-16": "本句指「具有特定歷史時代風格的服裝／家具」。",
-        "period-mcq-15": "「元素週期表中的一個橫列；週期」與本句語境不同。",
-        "period-mcq-17": "「以特定歷史時代為背景的時代劇」與本句語境不同。",
-        "period-mcq-14": "「函數或模式重複一次所需的區間長度；週期」與本句語境不同。",
-        "period-mcq-18": "「按固定時間或週期重複出現的」與本句語境不同。",
-        "period-mcq-13": "「天體完成一次軌道運動所需時間；軌道週期」與本句語境不同。"
+        "period-mcq-16": "本句的「period furniture」指「具有特定歷史時代風格的服裝／家具」。",
+        "period-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-16"
     },
@@ -1406,11 +1280,9 @@ export default {
       "masked": "She enjoys watching ____.",
       "options": [
         "period-mcq-17",
-        "period-mcq-16",
-        "period-mcq-18",
-        "period-mcq-15",
-        "period-mcq-19",
-        "period-mcq-14"
+        "period-mcq-11",
+        "period-mcq-09",
+        "period-mcq-07"
       ],
       "explanation": "本句的「period dramas」指「以特定歷史時代為背景的時代劇」。",
       "sentenceIndex": 38,
@@ -1419,12 +1291,10 @@ export default {
         "period dramas"
       ],
       "optionReasons": {
-        "period-mcq-17": "本句指「以特定歷史時代為背景的時代劇」。",
-        "period-mcq-16": "「具有特定歷史時代風格的服裝／家具」與本句語境不同。",
-        "period-mcq-18": "「按固定時間或週期重複出現的」與本句語境不同。",
-        "period-mcq-15": "「元素週期表中的一個橫列；週期」與本句語境不同。",
-        "period-mcq-19": "「定期地／週期性地」與本句語境不同。",
-        "period-mcq-14": "「函數或模式重複一次所需的區間長度；週期」與本句語境不同。"
+        "period-mcq-17": "本句的「period dramas」指「以特定歷史時代為背景的時代劇」。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-17"
     },
@@ -1436,11 +1306,9 @@ export default {
       "masked": "The series is a lavish ____.",
       "options": [
         "period-mcq-17",
-        "period-mcq-16",
-        "period-mcq-18",
-        "period-mcq-15",
-        "period-mcq-19",
-        "period-mcq-14"
+        "period-mcq-11",
+        "period-mcq-09",
+        "period-mcq-07"
       ],
       "explanation": "本句的「period drama」指「以特定歷史時代為背景的時代劇」。",
       "sentenceIndex": 39,
@@ -1449,12 +1317,10 @@ export default {
         "period drama"
       ],
       "optionReasons": {
-        "period-mcq-17": "本句指「以特定歷史時代為背景的時代劇」。",
-        "period-mcq-16": "「具有特定歷史時代風格的服裝／家具」與本句語境不同。",
-        "period-mcq-18": "「按固定時間或週期重複出現的」與本句語境不同。",
-        "period-mcq-15": "「元素週期表中的一個橫列；週期」與本句語境不同。",
-        "period-mcq-19": "「定期地／週期性地」與本句語境不同。",
-        "period-mcq-14": "「函數或模式重複一次所需的區間長度；週期」與本句語境不同。"
+        "period-mcq-17": "本句的「period drama」指「以特定歷史時代為背景的時代劇」。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-17"
     },
@@ -1466,11 +1332,9 @@ export default {
       "masked": "The machine needs ____.",
       "options": [
         "period-mcq-18",
-        "period-mcq-17",
-        "period-mcq-19",
-        "period-mcq-16",
-        "period-mcq-20",
-        "period-mcq-15"
+        "period-mcq-07",
+        "period-mcq-11",
+        "period-mcq-10"
       ],
       "explanation": "本句的「periodic maintenance」指「按固定時間或週期重複出現的」。",
       "sentenceIndex": 40,
@@ -1479,12 +1343,10 @@ export default {
         "periodic maintenance"
       ],
       "optionReasons": {
-        "period-mcq-18": "本句指「按固定時間或週期重複出現的」。",
-        "period-mcq-17": "「以特定歷史時代為背景的時代劇」與本句語境不同。",
-        "period-mcq-19": "「定期地／週期性地」與本句語境不同。",
-        "period-mcq-16": "「具有特定歷史時代風格的服裝／家具」與本句語境不同。",
-        "period-mcq-20": "「規律重複出現的週期性」與本句語境不同。",
-        "period-mcq-15": "「元素週期表中的一個橫列；週期」與本句語境不同。"
+        "period-mcq-18": "本句的「periodic maintenance」指「按固定時間或週期重複出現的」。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-18"
     },
@@ -1496,11 +1358,9 @@ export default {
       "masked": "The system performs ____.",
       "options": [
         "period-mcq-18",
-        "period-mcq-17",
-        "period-mcq-19",
-        "period-mcq-16",
-        "period-mcq-20",
-        "period-mcq-15"
+        "period-mcq-07",
+        "period-mcq-10",
+        "period-mcq-11"
       ],
       "explanation": "本句的「periodic checks」指「按固定時間或週期重複出現的」。",
       "sentenceIndex": 41,
@@ -1509,12 +1369,10 @@ export default {
         "periodic checks"
       ],
       "optionReasons": {
-        "period-mcq-18": "本句指「按固定時間或週期重複出現的」。",
-        "period-mcq-17": "「以特定歷史時代為背景的時代劇」與本句語境不同。",
-        "period-mcq-19": "「定期地／週期性地」與本句語境不同。",
-        "period-mcq-16": "「具有特定歷史時代風格的服裝／家具」與本句語境不同。",
-        "period-mcq-20": "「規律重複出現的週期性」與本句語境不同。",
-        "period-mcq-15": "「元素週期表中的一個橫列；週期」與本句語境不同。"
+        "period-mcq-18": "本句的「periodic checks」指「按固定時間或週期重複出現的」。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-18"
     },
@@ -1526,11 +1384,9 @@ export default {
       "masked": "The system is updated ____.",
       "options": [
         "period-mcq-19",
-        "period-mcq-18",
-        "period-mcq-20",
-        "period-mcq-17",
-        "period-mcq-21",
-        "period-mcq-16"
+        "period-mcq-10",
+        "period-mcq-11",
+        "period-mcq-07"
       ],
       "explanation": "本句的「periodically」指「定期地／週期性地」。",
       "sentenceIndex": 42,
@@ -1539,12 +1395,10 @@ export default {
         "periodically"
       ],
       "optionReasons": {
-        "period-mcq-19": "本句指「定期地／週期性地」。",
-        "period-mcq-18": "「按固定時間或週期重複出現的」與本句語境不同。",
-        "period-mcq-20": "「規律重複出現的週期性」與本句語境不同。",
-        "period-mcq-17": "「以特定歷史時代為背景的時代劇」與本句語境不同。",
-        "period-mcq-21": "「在一段指定時間內」與本句語境不同。",
-        "period-mcq-16": "「具有特定歷史時代風格的服裝／家具」與本句語境不同。"
+        "period-mcq-19": "本句的「periodically」指「定期地／週期性地」。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-19"
     },
@@ -1556,11 +1410,9 @@ export default {
       "masked": "She returns to the topic ____.",
       "options": [
         "period-mcq-19",
-        "period-mcq-18",
-        "period-mcq-20",
-        "period-mcq-17",
-        "period-mcq-21",
-        "period-mcq-16"
+        "period-mcq-06",
+        "period-mcq-10",
+        "period-mcq-07"
       ],
       "explanation": "本句的「periodically」指「定期地／週期性地」。",
       "sentenceIndex": 43,
@@ -1569,12 +1421,10 @@ export default {
         "periodically"
       ],
       "optionReasons": {
-        "period-mcq-19": "本句指「定期地／週期性地」。",
-        "period-mcq-18": "「按固定時間或週期重複出現的」與本句語境不同。",
-        "period-mcq-20": "「規律重複出現的週期性」與本句語境不同。",
-        "period-mcq-17": "「以特定歷史時代為背景的時代劇」與本句語境不同。",
-        "period-mcq-21": "「在一段指定時間內」與本句語境不同。",
-        "period-mcq-16": "「具有特定歷史時代風格的服裝／家具」與本句語境不同。"
+        "period-mcq-19": "本句的「periodically」指「定期地／週期性地」。",
+        "period-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-19"
     },
@@ -1586,11 +1436,9 @@ export default {
       "masked": "Scientists studied the ____ of the signal.",
       "options": [
         "period-mcq-20",
-        "period-mcq-19",
-        "period-mcq-21",
-        "period-mcq-18",
-        "period-mcq-22",
-        "period-mcq-17"
+        "period-mcq-02",
+        "period-mcq-07",
+        "period-mcq-10"
       ],
       "explanation": "本句的「periodicity」指「規律重複出現的週期性」。",
       "sentenceIndex": 44,
@@ -1599,12 +1447,10 @@ export default {
         "periodicity"
       ],
       "optionReasons": {
-        "period-mcq-20": "本句指「規律重複出現的週期性」。",
-        "period-mcq-19": "「定期地／週期性地」與本句語境不同。",
-        "period-mcq-21": "「在一段指定時間內」與本句語境不同。",
-        "period-mcq-18": "「按固定時間或週期重複出現的」與本句語境不同。",
-        "period-mcq-22": "「持續某段時間／為期……」與本句語境不同。",
-        "period-mcq-17": "「以特定歷史時代為背景的時代劇」與本句語境不同。"
+        "period-mcq-20": "本句的「periodicity」指「規律重複出現的週期性」。",
+        "period-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-20"
     },
@@ -1616,11 +1462,9 @@ export default {
       "masked": "The pattern shows clear ____.",
       "options": [
         "period-mcq-20",
-        "period-mcq-19",
-        "period-mcq-21",
-        "period-mcq-18",
-        "period-mcq-22",
-        "period-mcq-17"
+        "period-mcq-16",
+        "period-mcq-07",
+        "period-mcq-11"
       ],
       "explanation": "本句的「periodicity」指「規律重複出現的週期性」。",
       "sentenceIndex": 45,
@@ -1629,12 +1473,10 @@ export default {
         "periodicity"
       ],
       "optionReasons": {
-        "period-mcq-20": "本句指「規律重複出現的週期性」。",
-        "period-mcq-19": "「定期地／週期性地」與本句語境不同。",
-        "period-mcq-21": "「在一段指定時間內」與本句語境不同。",
-        "period-mcq-18": "「按固定時間或週期重複出現的」與本句語境不同。",
-        "period-mcq-22": "「持續某段時間／為期……」與本句語境不同。",
-        "period-mcq-17": "「以特定歷史時代為背景的時代劇」與本句語境不同。"
+        "period-mcq-20": "本句的「periodicity」指「規律重複出現的週期性」。",
+        "period-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-20"
     },
@@ -1647,10 +1489,8 @@ export default {
       "options": [
         "period-mcq-21",
         "period-mcq-20",
-        "period-mcq-22",
-        "period-mcq-19",
-        "period-mcq-23",
-        "period-mcq-18"
+        "period-mcq-07",
+        "period-mcq-11"
       ],
       "explanation": "本句的「over a period of five years」指「在一段指定時間內」。",
       "sentenceIndex": 46,
@@ -1659,12 +1499,10 @@ export default {
         "over a period of five years"
       ],
       "optionReasons": {
-        "period-mcq-21": "本句指「在一段指定時間內」。",
-        "period-mcq-20": "「規律重複出現的週期性」與本句語境不同。",
-        "period-mcq-22": "「持續某段時間／為期……」與本句語境不同。",
-        "period-mcq-19": "「定期地／週期性地」與本句語境不同。",
-        "period-mcq-23": "「在那一段時期內」與本句語境不同。",
-        "period-mcq-18": "「按固定時間或週期重複出現的」與本句語境不同。"
+        "period-mcq-21": "本句的「over a period of five years」指「在一段指定時間內」。",
+        "period-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-21"
     },
@@ -1677,10 +1515,8 @@ export default {
       "options": [
         "period-mcq-21",
         "period-mcq-20",
-        "period-mcq-22",
-        "period-mcq-19",
-        "period-mcq-23",
-        "period-mcq-18"
+        "period-mcq-07",
+        "period-mcq-10"
       ],
       "explanation": "本句的「over a short period」指「在一段指定時間內」。",
       "sentenceIndex": 47,
@@ -1689,12 +1525,10 @@ export default {
         "over a short period"
       ],
       "optionReasons": {
-        "period-mcq-21": "本句指「在一段指定時間內」。",
-        "period-mcq-20": "「規律重複出現的週期性」與本句語境不同。",
-        "period-mcq-22": "「持續某段時間／為期……」與本句語境不同。",
-        "period-mcq-19": "「定期地／週期性地」與本句語境不同。",
-        "period-mcq-23": "「在那一段時期內」與本句語境不同。",
-        "period-mcq-18": "「按固定時間或週期重複出現的」與本句語境不同。"
+        "period-mcq-21": "本句的「over a short period」指「在一段指定時間內」。",
+        "period-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-21"
     },
@@ -1706,11 +1540,9 @@ export default {
       "masked": "The road will be closed ____.",
       "options": [
         "period-mcq-22",
-        "period-mcq-21",
-        "period-mcq-23",
-        "period-mcq-20",
-        "period-mcq-19",
-        "period-mcq-18"
+        "period-mcq-07",
+        "period-mcq-10",
+        "period-mcq-11"
       ],
       "explanation": "本句的「for a period of two weeks」指「持續某段時間／為期……」。",
       "sentenceIndex": 48,
@@ -1719,12 +1551,10 @@ export default {
         "for a period of two weeks"
       ],
       "optionReasons": {
-        "period-mcq-22": "本句指「持續某段時間／為期……」。",
-        "period-mcq-21": "「在一段指定時間內」與本句語境不同。",
-        "period-mcq-23": "「在那一段時期內」與本句語境不同。",
-        "period-mcq-20": "「規律重複出現的週期性」與本句語境不同。",
-        "period-mcq-19": "「定期地／週期性地」與本句語境不同。",
-        "period-mcq-18": "「按固定時間或週期重複出現的」與本句語境不同。"
+        "period-mcq-22": "本句的「for a period of two weeks」指「持續某段時間／為期……」。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-22"
     },
@@ -1736,11 +1566,9 @@ export default {
       "masked": "She lived abroad ____.",
       "options": [
         "period-mcq-22",
-        "period-mcq-21",
-        "period-mcq-23",
-        "period-mcq-20",
-        "period-mcq-19",
-        "period-mcq-18"
+        "period-mcq-10",
+        "period-mcq-07",
+        "period-mcq-11"
       ],
       "explanation": "本句的「for a period of six months」指「持續某段時間／為期……」。",
       "sentenceIndex": 49,
@@ -1749,12 +1577,10 @@ export default {
         "for a period of six months"
       ],
       "optionReasons": {
-        "period-mcq-22": "本句指「持續某段時間／為期……」。",
-        "period-mcq-21": "「在一段指定時間內」與本句語境不同。",
-        "period-mcq-23": "「在那一段時期內」與本句語境不同。",
-        "period-mcq-20": "「規律重複出現的週期性」與本句語境不同。",
-        "period-mcq-19": "「定期地／週期性地」與本句語境不同。",
-        "period-mcq-18": "「按固定時間或週期重複出現的」與本句語境不同。"
+        "period-mcq-22": "本句的「for a period of six months」指「持續某段時間／為期……」。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-22"
     },
@@ -1766,11 +1592,9 @@ export default {
       "masked": "She changed jobs twice ____.",
       "options": [
         "period-mcq-23",
-        "period-mcq-22",
-        "period-mcq-21",
-        "period-mcq-20",
-        "period-mcq-19",
-        "period-mcq-18"
+        "period-mcq-11",
+        "period-mcq-07",
+        "period-mcq-10"
       ],
       "explanation": "本句的「during that period」指「在那一段時期內」。",
       "sentenceIndex": 50,
@@ -1779,12 +1603,10 @@ export default {
         "during that period"
       ],
       "optionReasons": {
-        "period-mcq-23": "本句指「在那一段時期內」。",
-        "period-mcq-22": "「持續某段時間／為期……」與本句語境不同。",
-        "period-mcq-21": "「在一段指定時間內」與本句語境不同。",
-        "period-mcq-20": "「規律重複出現的週期性」與本句語境不同。",
-        "period-mcq-19": "「定期地／週期性地」與本句語境不同。",
-        "period-mcq-18": "「按固定時間或週期重複出現的」與本句語境不同。"
+        "period-mcq-23": "本句的「during that period」指「在那一段時期內」。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-23"
     },
@@ -1796,11 +1618,9 @@ export default {
       "masked": "Very little was known ____.",
       "options": [
         "period-mcq-23",
-        "period-mcq-22",
-        "period-mcq-21",
-        "period-mcq-20",
-        "period-mcq-19",
-        "period-mcq-18"
+        "period-mcq-07",
+        "period-mcq-10",
+        "period-mcq-11"
       ],
       "explanation": "本句的「during this period」指「在那一段時期內」。",
       "sentenceIndex": 51,
@@ -1809,12 +1629,10 @@ export default {
         "during this period"
       ],
       "optionReasons": {
-        "period-mcq-23": "本句指「在那一段時期內」。",
-        "period-mcq-22": "「持續某段時間／為期……」與本句語境不同。",
-        "period-mcq-21": "「在一段指定時間內」與本句語境不同。",
-        "period-mcq-20": "「規律重複出現的週期性」與本句語境不同。",
-        "period-mcq-19": "「定期地／週期性地」與本句語境不同。",
-        "period-mcq-18": "「按固定時間或週期重複出現的」與本句語境不同。"
+        "period-mcq-23": "本句的「during this period」指「在那一段時期內」。",
+        "period-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "period-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "period-mcq-23"
     }
@@ -1826,5 +1644,7 @@ export default {
     "sha256": "58983033c54f2b056e23fe1644788895315598a7f50cd68ee66398de16021121",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

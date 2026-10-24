@@ -610,7 +610,7 @@ export default {
     },
     {
       "id": "engage-mcq-28",
-      "title": "表示直接面對／直接與……互動",
+      "title": "直接面對／直接與……互動",
       "form": "28. engage directly with",
       "en": "28. engage directly with",
       "zh": "表示直接面對／直接與……互動",
@@ -640,11 +640,9 @@ export default {
       "masked": "The novel has an ____ story from beginning to end.",
       "options": [
         "engage-mcq-26",
-        "engage-mcq-25",
-        "engage-mcq-27",
-        "engage-mcq-24",
-        "engage-mcq-28",
-        "engage-mcq-23"
+        "engage-mcq-05",
+        "engage-mcq-23",
+        "engage-mcq-12"
       ],
       "explanation": "本句的「engaging」指「引人入勝的；吸引人的；有吸引力的」。",
       "sentenceIndex": 0,
@@ -653,12 +651,10 @@ export default {
         "engaging"
       ],
       "optionReasons": {
-        "engage-mcq-26": "本句指「引人入勝的；吸引人的；有吸引力的」。",
-        "engage-mcq-25": "「正積極參與／高度投入的」是「actively engaged」的用法，與本句語境不同。",
-        "engage-mcq-27": "「批判性投入；深入思考與回應」是「26. critical engagement」的用法，與本句語境不同。",
-        "engage-mcq-24": "「激發並吸引某人的想像力」是「engage the imagination」的用法，與本句語境不同。",
-        "engage-mcq-28": "「表示直接面對／直接與……互動」是「28. engage directly with」的用法，與本句語境不同。",
-        "engage-mcq-23": "「電話線正在使用中；佔線的」是「engaged — telephone」的用法，與本句語境不同。"
+        "engage-mcq-26": "本句的「engaging」指「引人入勝的；吸引人的；有吸引力的」。",
+        "engage-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-26"
     },
@@ -670,11 +666,9 @@ export default {
       "masked": "She is an ____ speaker who keeps the audience interested.",
       "options": [
         "engage-mcq-26",
-        "engage-mcq-25",
-        "engage-mcq-27",
-        "engage-mcq-24",
-        "engage-mcq-28",
-        "engage-mcq-23"
+        "engage-mcq-07",
+        "engage-mcq-20",
+        "engage-mcq-16"
       ],
       "explanation": "本句的「engaging」指「引人入勝的；吸引人的；有吸引力的」。",
       "sentenceIndex": 1,
@@ -683,12 +677,10 @@ export default {
         "engaging"
       ],
       "optionReasons": {
-        "engage-mcq-26": "本句指「引人入勝的；吸引人的；有吸引力的」。",
-        "engage-mcq-25": "「正積極參與／高度投入的」是「actively engaged」的用法，與本句語境不同。",
-        "engage-mcq-27": "「批判性投入；深入思考與回應」是「26. critical engagement」的用法，與本句語境不同。",
-        "engage-mcq-24": "「激發並吸引某人的想像力」是「engage the imagination」的用法，與本句語境不同。",
-        "engage-mcq-28": "「表示直接面對／直接與……互動」是「28. engage directly with」的用法，與本句語境不同。",
-        "engage-mcq-23": "「電話線正在使用中；佔線的」是「engaged — telephone」的用法，與本句語境不同。"
+        "engage-mcq-26": "本句的「engaging」指「引人入勝的；吸引人的；有吸引力的」。",
+        "engage-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-26"
     },
@@ -700,11 +692,9 @@ export default {
       "masked": "A good opening should ____ immediately.",
       "options": [
         "engage-mcq-02",
-        "engage-mcq-01",
-        "engage-mcq-03",
-        "engage-mcq-04",
-        "engage-mcq-05",
-        "engage-mcq-06"
+        "engage-mcq-17",
+        "engage-mcq-20",
+        "engage-mcq-04"
       ],
       "explanation": "本句的「engage the reader」指「引起並維持某人的注意／興趣」。",
       "sentenceIndex": 2,
@@ -713,12 +703,10 @@ export default {
         "engage the reader"
       ],
       "optionReasons": {
-        "engage-mcq-02": "本句指「引起並維持某人的注意／興趣」。",
-        "engage-mcq-01": "「吸引並持續抓住某人的注意力／興趣」是「engage — attract attention」的用法，與本句語境不同。",
-        "engage-mcq-03": "「積極參與或從事某項活動」是「engage in something」的用法，與本句語境不同。",
-        "engage-mcq-04": "「積極接觸、深入思考或回應某議題／文本」是「engage with something」的用法，與本句語境不同。",
-        "engage-mcq-05": "「與某人互動、交流或建立接觸」是「engage with someone」的用法，與本句語境不同。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。"
+        "engage-mcq-02": "本句的「engage the reader」指「引起並維持某人的注意／興趣」。",
+        "engage-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-02"
     },
@@ -730,11 +718,9 @@ export default {
       "masked": "The lesson ____.",
       "options": [
         "engage-mcq-02",
-        "engage-mcq-01",
-        "engage-mcq-03",
-        "engage-mcq-04",
-        "engage-mcq-05",
-        "engage-mcq-06"
+        "engage-mcq-18",
+        "engage-mcq-11",
+        "engage-mcq-14"
       ],
       "explanation": "本句的「engaged the students」指「引起並維持某人的注意／興趣」。",
       "sentenceIndex": 3,
@@ -743,12 +729,10 @@ export default {
         "engaged the students"
       ],
       "optionReasons": {
-        "engage-mcq-02": "本句指「引起並維持某人的注意／興趣」。",
-        "engage-mcq-01": "「吸引並持續抓住某人的注意力／興趣」是「engage — attract attention」的用法，與本句語境不同。",
-        "engage-mcq-03": "「積極參與或從事某項活動」是「engage in something」的用法，與本句語境不同。",
-        "engage-mcq-04": "「積極接觸、深入思考或回應某議題／文本」是「engage with something」的用法，與本句語境不同。",
-        "engage-mcq-05": "「與某人互動、交流或建立接觸」是「engage with someone」的用法，與本句語境不同。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。"
+        "engage-mcq-02": "本句的「engaged the students」指「引起並維持某人的注意／興趣」。",
+        "engage-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-02"
     },
@@ -760,11 +744,9 @@ export default {
       "masked": "The puzzle quickly ____.",
       "options": [
         "engage-mcq-02",
-        "engage-mcq-01",
-        "engage-mcq-03",
+        "engage-mcq-16",
         "engage-mcq-04",
-        "engage-mcq-05",
-        "engage-mcq-06"
+        "engage-mcq-11"
       ],
       "explanation": "本句的「engaged his attention」指「引起並維持某人的注意／興趣」。",
       "sentenceIndex": 4,
@@ -773,12 +755,10 @@ export default {
         "engaged his attention"
       ],
       "optionReasons": {
-        "engage-mcq-02": "本句指「引起並維持某人的注意／興趣」。",
-        "engage-mcq-01": "「吸引並持續抓住某人的注意力／興趣」是「engage — attract attention」的用法，與本句語境不同。",
-        "engage-mcq-03": "「積極參與或從事某項活動」是「engage in something」的用法，與本句語境不同。",
-        "engage-mcq-04": "「積極接觸、深入思考或回應某議題／文本」是「engage with something」的用法，與本句語境不同。",
-        "engage-mcq-05": "「與某人互動、交流或建立接觸」是「engage with someone」的用法，與本句語境不同。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。"
+        "engage-mcq-02": "本句的「engaged his attention」指「引起並維持某人的注意／興趣」。",
+        "engage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-02"
     },
@@ -790,11 +770,9 @@ export default {
       "masked": "The topic failed to ____.",
       "options": [
         "engage-mcq-02",
-        "engage-mcq-01",
-        "engage-mcq-03",
-        "engage-mcq-04",
-        "engage-mcq-05",
-        "engage-mcq-06"
+        "engage-mcq-11",
+        "engage-mcq-28",
+        "engage-mcq-27"
       ],
       "explanation": "本句的「engage their interest」指「引起並維持某人的注意／興趣」。",
       "sentenceIndex": 5,
@@ -803,12 +781,10 @@ export default {
         "engage their interest"
       ],
       "optionReasons": {
-        "engage-mcq-02": "本句指「引起並維持某人的注意／興趣」。",
-        "engage-mcq-01": "「吸引並持續抓住某人的注意力／興趣」是「engage — attract attention」的用法，與本句語境不同。",
-        "engage-mcq-03": "「積極參與或從事某項活動」是「engage in something」的用法，與本句語境不同。",
-        "engage-mcq-04": "「積極接觸、深入思考或回應某議題／文本」是「engage with something」的用法，與本句語境不同。",
-        "engage-mcq-05": "「與某人互動、交流或建立接觸」是「engage with someone」的用法，與本句語境不同。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。"
+        "engage-mcq-02": "本句的「engage their interest」指「引起並維持某人的注意／興趣」。",
+        "engage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-02"
     },
@@ -820,11 +796,9 @@ export default {
       "masked": "Students were encouraged to ____.",
       "options": [
         "engage-mcq-03",
-        "engage-mcq-02",
-        "engage-mcq-04",
-        "engage-mcq-01",
-        "engage-mcq-05",
-        "engage-mcq-06"
+        "engage-mcq-07",
+        "engage-mcq-16",
+        "engage-mcq-23"
       ],
       "explanation": "本句的「engage in discussion」指「積極參與或從事某項活動」。",
       "sentenceIndex": 6,
@@ -833,12 +807,10 @@ export default {
         "engage in discussion"
       ],
       "optionReasons": {
-        "engage-mcq-03": "本句指「積極參與或從事某項活動」。",
-        "engage-mcq-02": "「引起並維持某人的注意／興趣」是「engage someone’s attention/interest」的用法，與本句語境不同。",
-        "engage-mcq-04": "「積極接觸、深入思考或回應某議題／文本」是「engage with something」的用法，與本句語境不同。",
-        "engage-mcq-01": "「吸引並持續抓住某人的注意力／興趣」是「engage — attract attention」的用法，與本句語境不同。",
-        "engage-mcq-05": "「與某人互動、交流或建立接觸」是「engage with someone」的用法，與本句語境不同。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。"
+        "engage-mcq-03": "本句的「engage in discussion」指「積極參與或從事某項活動」。",
+        "engage-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-03"
     },
@@ -850,11 +822,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "engage-mcq-03",
-        "engage-mcq-02",
-        "engage-mcq-04",
-        "engage-mcq-01",
-        "engage-mcq-05",
-        "engage-mcq-06"
+        "engage-mcq-15",
+        "engage-mcq-10",
+        "engage-mcq-21"
       ],
       "explanation": "本句的「engages in international trade」指「積極參與或從事某項活動」。",
       "sentenceIndex": 7,
@@ -863,12 +833,10 @@ export default {
         "engages in international trade"
       ],
       "optionReasons": {
-        "engage-mcq-03": "本句指「積極參與或從事某項活動」。",
-        "engage-mcq-02": "「引起並維持某人的注意／興趣」是「engage someone’s attention/interest」的用法，與本句語境不同。",
-        "engage-mcq-04": "「積極接觸、深入思考或回應某議題／文本」是「engage with something」的用法，與本句語境不同。",
-        "engage-mcq-01": "「吸引並持續抓住某人的注意力／興趣」是「engage — attract attention」的用法，與本句語境不同。",
-        "engage-mcq-05": "「與某人互動、交流或建立接觸」是「engage with someone」的用法，與本句語境不同。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。"
+        "engage-mcq-03": "本句的「engages in international trade」指「積極參與或從事某項活動」。",
+        "engage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-03"
     },
@@ -880,11 +848,9 @@ export default {
       "masked": "Readers are encouraged to ____ in the book.",
       "options": [
         "engage-mcq-04",
-        "engage-mcq-03",
-        "engage-mcq-05",
         "engage-mcq-02",
-        "engage-mcq-06",
-        "engage-mcq-01"
+        "engage-mcq-20",
+        "engage-mcq-23"
       ],
       "explanation": "本句的「engage with the ideas」指「積極接觸、深入思考或回應某議題／文本」。",
       "sentenceIndex": 8,
@@ -893,12 +859,10 @@ export default {
         "engage with the ideas"
       ],
       "optionReasons": {
-        "engage-mcq-04": "本句指「積極接觸、深入思考或回應某議題／文本」。",
-        "engage-mcq-03": "「積極參與或從事某項活動」是「engage in something」的用法，與本句語境不同。",
-        "engage-mcq-05": "「與某人互動、交流或建立接觸」是「engage with someone」的用法，與本句語境不同。",
-        "engage-mcq-02": "「引起並維持某人的注意／興趣」是「engage someone’s attention/interest」的用法，與本句語境不同。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。",
-        "engage-mcq-01": "「吸引並持續抓住某人的注意力／興趣」是「engage — attract attention」的用法，與本句語境不同。"
+        "engage-mcq-04": "本句的「engage with the ideas」指「積極接觸、深入思考或回應某議題／文本」。",
+        "engage-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-04"
     },
@@ -910,11 +874,9 @@ export default {
       "masked": "The course asks students to ____.",
       "options": [
         "engage-mcq-04",
-        "engage-mcq-03",
-        "engage-mcq-05",
-        "engage-mcq-02",
-        "engage-mcq-06",
-        "engage-mcq-01"
+        "engage-mcq-12",
+        "engage-mcq-16",
+        "engage-mcq-02"
       ],
       "explanation": "本句的「engage with difficult questions」指「積極接觸、深入思考或回應某議題／文本」。",
       "sentenceIndex": 9,
@@ -923,12 +885,10 @@ export default {
         "engage with difficult questions"
       ],
       "optionReasons": {
-        "engage-mcq-04": "本句指「積極接觸、深入思考或回應某議題／文本」。",
-        "engage-mcq-03": "「積極參與或從事某項活動」是「engage in something」的用法，與本句語境不同。",
-        "engage-mcq-05": "「與某人互動、交流或建立接觸」是「engage with someone」的用法，與本句語境不同。",
-        "engage-mcq-02": "「引起並維持某人的注意／興趣」是「engage someone’s attention/interest」的用法，與本句語境不同。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。",
-        "engage-mcq-01": "「吸引並持續抓住某人的注意力／興趣」是「engage — attract attention」的用法，與本句語境不同。"
+        "engage-mcq-04": "本句的「engage with difficult questions」指「積極接觸、深入思考或回應某議題／文本」。",
+        "engage-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-04"
     },
@@ -940,11 +900,9 @@ export default {
       "masked": "Teachers need to ____.",
       "options": [
         "engage-mcq-05",
-        "engage-mcq-04",
-        "engage-mcq-06",
-        "engage-mcq-03",
-        "engage-mcq-07",
-        "engage-mcq-02"
+        "engage-mcq-25",
+        "engage-mcq-14",
+        "engage-mcq-23"
       ],
       "explanation": "本句的「engage with students」指「與某人互動、交流或建立接觸」。",
       "sentenceIndex": 10,
@@ -953,12 +911,10 @@ export default {
         "engage with students"
       ],
       "optionReasons": {
-        "engage-mcq-05": "本句指「與某人互動、交流或建立接觸」。",
-        "engage-mcq-04": "「積極接觸、深入思考或回應某議題／文本」是「engage with something」的用法，與本句語境不同。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。",
-        "engage-mcq-03": "「積極參與或從事某項活動」是「engage in something」的用法，與本句語境不同。",
-        "engage-mcq-07": "「正式聘請某人提供專業服務」是「engage someone — hire」的用法，與本句語境不同。",
-        "engage-mcq-02": "「引起並維持某人的注意／興趣」是「engage someone’s attention/interest」的用法，與本句語境不同。"
+        "engage-mcq-05": "本句的「engage with students」指「與某人互動、交流或建立接觸」。",
+        "engage-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-05"
     },
@@ -970,11 +926,9 @@ export default {
       "masked": "The organization tries to ____.",
       "options": [
         "engage-mcq-05",
-        "engage-mcq-04",
-        "engage-mcq-06",
-        "engage-mcq-03",
-        "engage-mcq-07",
-        "engage-mcq-02"
+        "engage-mcq-16",
+        "engage-mcq-27",
+        "engage-mcq-26"
       ],
       "explanation": "本句的「engage with local communities」指「與某人互動、交流或建立接觸」。",
       "sentenceIndex": 11,
@@ -983,12 +937,10 @@ export default {
         "engage with local communities"
       ],
       "optionReasons": {
-        "engage-mcq-05": "本句指「與某人互動、交流或建立接觸」。",
-        "engage-mcq-04": "「積極接觸、深入思考或回應某議題／文本」是「engage with something」的用法，與本句語境不同。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。",
-        "engage-mcq-03": "「積極參與或從事某項活動」是「engage in something」的用法，與本句語境不同。",
-        "engage-mcq-07": "「正式聘請某人提供專業服務」是「engage someone — hire」的用法，與本句語境不同。",
-        "engage-mcq-02": "「引起並維持某人的注意／興趣」是「engage someone’s attention/interest」的用法，與本句語境不同。"
+        "engage-mcq-05": "本句的「engage with local communities」指「與某人互動、交流或建立接觸」。",
+        "engage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-05"
     },
@@ -1000,11 +952,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "engage-mcq-06",
-        "engage-mcq-05",
-        "engage-mcq-07",
-        "engage-mcq-04",
-        "engage-mcq-08",
-        "engage-mcq-03"
+        "engage-mcq-14",
+        "engage-mcq-09",
+        "engage-mcq-12"
       ],
       "explanation": "本句的「engaged him in conversation」指「主動讓某人加入談話／與某人攀談」。",
       "sentenceIndex": 12,
@@ -1013,12 +963,10 @@ export default {
         "engaged him in conversation"
       ],
       "optionReasons": {
-        "engage-mcq-06": "本句指「主動讓某人加入談話／與某人攀談」。",
-        "engage-mcq-05": "「與某人互動、交流或建立接觸」是「engage with someone」的用法，與本句語境不同。",
-        "engage-mcq-07": "「正式聘請某人提供專業服務」是「engage someone — hire」的用法，與本句語境不同。",
-        "engage-mcq-04": "「積極接觸、深入思考或回應某議題／文本」是「engage with something」的用法，與本句語境不同。",
-        "engage-mcq-08": "「使某人忙於／投入某項活動」是「engage someone — occupy」的用法，與本句語境不同。",
-        "engage-mcq-03": "「積極參與或從事某項活動」是「engage in something」的用法，與本句語境不同。"
+        "engage-mcq-06": "本句的「engaged him in conversation」指「主動讓某人加入談話／與某人攀談」。",
+        "engage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-06"
     },
@@ -1030,11 +978,9 @@ export default {
       "masked": "The host tried to ____.",
       "options": [
         "engage-mcq-06",
-        "engage-mcq-05",
-        "engage-mcq-07",
-        "engage-mcq-04",
-        "engage-mcq-08",
-        "engage-mcq-03"
+        "engage-mcq-14",
+        "engage-mcq-12",
+        "engage-mcq-09"
       ],
       "explanation": "本句的「engage everyone in discussion」指「主動讓某人加入談話／與某人攀談」。",
       "sentenceIndex": 13,
@@ -1043,12 +989,10 @@ export default {
         "engage everyone in discussion"
       ],
       "optionReasons": {
-        "engage-mcq-06": "本句指「主動讓某人加入談話／與某人攀談」。",
-        "engage-mcq-05": "「與某人互動、交流或建立接觸」是「engage with someone」的用法，與本句語境不同。",
-        "engage-mcq-07": "「正式聘請某人提供專業服務」是「engage someone — hire」的用法，與本句語境不同。",
-        "engage-mcq-04": "「積極接觸、深入思考或回應某議題／文本」是「engage with something」的用法，與本句語境不同。",
-        "engage-mcq-08": "「使某人忙於／投入某項活動」是「engage someone — occupy」的用法，與本句語境不同。",
-        "engage-mcq-03": "「積極參與或從事某項活動」是「engage in something」的用法，與本句語境不同。"
+        "engage-mcq-06": "本句的「engage everyone in discussion」指「主動讓某人加入談話／與某人攀談」。",
+        "engage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-06"
     },
@@ -1060,11 +1004,9 @@ export default {
       "masked": "They ____ to review the contract.",
       "options": [
         "engage-mcq-07",
-        "engage-mcq-06",
-        "engage-mcq-08",
-        "engage-mcq-05",
-        "engage-mcq-09",
-        "engage-mcq-04"
+        "engage-mcq-28",
+        "engage-mcq-10",
+        "engage-mcq-18"
       ],
       "explanation": "本句的「engaged a lawyer」指「正式聘請某人提供專業服務」。",
       "sentenceIndex": 14,
@@ -1073,12 +1015,10 @@ export default {
         "engaged a lawyer"
       ],
       "optionReasons": {
-        "engage-mcq-07": "本句指「正式聘請某人提供專業服務」。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。",
-        "engage-mcq-08": "「使某人忙於／投入某項活動」是「engage someone — occupy」的用法，與本句語境不同。",
-        "engage-mcq-05": "「與某人互動、交流或建立接觸」是「engage with someone」的用法，與本句語境不同。",
-        "engage-mcq-09": "「機械零件互相接合、嚙合並開始運作」是「engage — machinery」的用法，與本句語境不同。",
-        "engage-mcq-04": "「積極接觸、深入思考或回應某議題／文本」是「engage with something」的用法，與本句語境不同。"
+        "engage-mcq-07": "本句的「engaged a lawyer」指「正式聘請某人提供專業服務」。",
+        "engage-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-07"
     },
@@ -1090,11 +1030,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "engage-mcq-07",
-        "engage-mcq-06",
-        "engage-mcq-08",
-        "engage-mcq-05",
         "engage-mcq-09",
-        "engage-mcq-04"
+        "engage-mcq-21",
+        "engage-mcq-18"
       ],
       "explanation": "本句的「engaged a consultant」指「正式聘請某人提供專業服務」。",
       "sentenceIndex": 15,
@@ -1103,12 +1041,10 @@ export default {
         "engaged a consultant"
       ],
       "optionReasons": {
-        "engage-mcq-07": "本句指「正式聘請某人提供專業服務」。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。",
-        "engage-mcq-08": "「使某人忙於／投入某項活動」是「engage someone — occupy」的用法，與本句語境不同。",
-        "engage-mcq-05": "「與某人互動、交流或建立接觸」是「engage with someone」的用法，與本句語境不同。",
-        "engage-mcq-09": "「機械零件互相接合、嚙合並開始運作」是「engage — machinery」的用法，與本句語境不同。",
-        "engage-mcq-04": "「積極接觸、深入思考或回應某議題／文本」是「engage with something」的用法，與本句語境不同。"
+        "engage-mcq-07": "本句的「engaged a consultant」指「正式聘請某人提供專業服務」。",
+        "engage-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-07"
     },
@@ -1120,11 +1056,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "engage-mcq-07",
-        "engage-mcq-06",
-        "engage-mcq-08",
-        "engage-mcq-05",
-        "engage-mcq-09",
-        "engage-mcq-04"
+        "engage-mcq-10",
+        "engage-mcq-16",
+        "engage-mcq-11"
       ],
       "explanation": "本句的「engaged the services of an architect」指「正式聘請某人提供專業服務」。",
       "sentenceIndex": 16,
@@ -1133,12 +1067,10 @@ export default {
         "engaged the services of an architect"
       ],
       "optionReasons": {
-        "engage-mcq-07": "本句指「正式聘請某人提供專業服務」。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。",
-        "engage-mcq-08": "「使某人忙於／投入某項活動」是「engage someone — occupy」的用法，與本句語境不同。",
-        "engage-mcq-05": "「與某人互動、交流或建立接觸」是「engage with someone」的用法，與本句語境不同。",
-        "engage-mcq-09": "「機械零件互相接合、嚙合並開始運作」是「engage — machinery」的用法，與本句語境不同。",
-        "engage-mcq-04": "「積極接觸、深入思考或回應某議題／文本」是「engage with something」的用法，與本句語境不同。"
+        "engage-mcq-07": "本句的「engaged the services of an architect」指「正式聘請某人提供專業服務」。",
+        "engage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-07"
     },
@@ -1150,11 +1082,9 @@ export default {
       "masked": "The family ____.",
       "options": [
         "engage-mcq-07",
-        "engage-mcq-06",
-        "engage-mcq-08",
-        "engage-mcq-05",
-        "engage-mcq-09",
-        "engage-mcq-04"
+        "engage-mcq-11",
+        "engage-mcq-18",
+        "engage-mcq-16"
       ],
       "explanation": "本句的「engaged the services of a specialist」指「正式聘請某人提供專業服務」。",
       "sentenceIndex": 17,
@@ -1163,12 +1093,10 @@ export default {
         "engaged the services of a specialist"
       ],
       "optionReasons": {
-        "engage-mcq-07": "本句指「正式聘請某人提供專業服務」。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。",
-        "engage-mcq-08": "「使某人忙於／投入某項活動」是「engage someone — occupy」的用法，與本句語境不同。",
-        "engage-mcq-05": "「與某人互動、交流或建立接觸」是「engage with someone」的用法，與本句語境不同。",
-        "engage-mcq-09": "「機械零件互相接合、嚙合並開始運作」是「engage — machinery」的用法，與本句語境不同。",
-        "engage-mcq-04": "「積極接觸、深入思考或回應某議題／文本」是「engage with something」的用法，與本句語境不同。"
+        "engage-mcq-07": "本句的「engaged the services of a specialist」指「正式聘請某人提供專業服務」。",
+        "engage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-07"
     },
@@ -1180,11 +1108,9 @@ export default {
       "masked": "The activity ____.",
       "options": [
         "engage-mcq-08",
-        "engage-mcq-07",
-        "engage-mcq-09",
-        "engage-mcq-06",
-        "engage-mcq-10",
-        "engage-mcq-05"
+        "engage-mcq-12",
+        "engage-mcq-14",
+        "engage-mcq-23"
       ],
       "explanation": "本句的「engaged the children for hours」指「使某人忙於／投入某項活動」。",
       "sentenceIndex": 18,
@@ -1193,12 +1119,10 @@ export default {
         "engaged the children for hours"
       ],
       "optionReasons": {
-        "engage-mcq-08": "本句指「使某人忙於／投入某項活動」。",
-        "engage-mcq-07": "「正式聘請某人提供專業服務」是「engage someone — hire」的用法，與本句語境不同。",
-        "engage-mcq-09": "「機械零件互相接合、嚙合並開始運作」是「engage — machinery」的用法，與本句語境不同。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。",
-        "engage-mcq-10": "「接合離合器／掛入齒輪」是「engage the clutch/gear」的用法，與本句語境不同。",
-        "engage-mcq-05": "「與某人互動、交流或建立接觸」是「engage with someone」的用法，與本句語境不同。"
+        "engage-mcq-08": "本句的「engaged the children for hours」指「使某人忙於／投入某項活動」。",
+        "engage-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-08"
     },
@@ -1210,11 +1134,9 @@ export default {
       "masked": "She remained ____ all afternoon.",
       "options": [
         "engage-mcq-08",
-        "engage-mcq-07",
-        "engage-mcq-09",
-        "engage-mcq-06",
-        "engage-mcq-10",
-        "engage-mcq-05"
+        "engage-mcq-23",
+        "engage-mcq-14",
+        "engage-mcq-12"
       ],
       "explanation": "本句的「engaged in her work」指「使某人忙於／投入某項活動」。",
       "sentenceIndex": 19,
@@ -1223,12 +1145,10 @@ export default {
         "engaged in her work"
       ],
       "optionReasons": {
-        "engage-mcq-08": "本句指「使某人忙於／投入某項活動」。",
-        "engage-mcq-07": "「正式聘請某人提供專業服務」是「engage someone — hire」的用法，與本句語境不同。",
-        "engage-mcq-09": "「機械零件互相接合、嚙合並開始運作」是「engage — machinery」的用法，與本句語境不同。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。",
-        "engage-mcq-10": "「接合離合器／掛入齒輪」是「engage the clutch/gear」的用法，與本句語境不同。",
-        "engage-mcq-05": "「與某人互動、交流或建立接觸」是「engage with someone」的用法，與本句語境不同。"
+        "engage-mcq-08": "本句的「engaged in her work」指「使某人忙於／投入某項活動」。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-08"
     },
@@ -1240,11 +1160,9 @@ export default {
       "masked": "The gears failed to ____.",
       "options": [
         "engage-mcq-09",
-        "engage-mcq-08",
-        "engage-mcq-10",
-        "engage-mcq-07",
-        "engage-mcq-11",
-        "engage-mcq-06"
+        "engage-mcq-25",
+        "engage-mcq-15",
+        "engage-mcq-23"
       ],
       "explanation": "本句的「engage」指「機械零件互相接合、嚙合並開始運作」。",
       "sentenceIndex": 20,
@@ -1253,12 +1171,10 @@ export default {
         "engage"
       ],
       "optionReasons": {
-        "engage-mcq-09": "本句指「機械零件互相接合、嚙合並開始運作」。",
-        "engage-mcq-08": "「使某人忙於／投入某項活動」是「engage someone — occupy」的用法，與本句語境不同。",
-        "engage-mcq-10": "「接合離合器／掛入齒輪」是「engage the clutch/gear」的用法，與本句語境不同。",
-        "engage-mcq-07": "「正式聘請某人提供專業服務」是「engage someone — hire」的用法，與本句語境不同。",
-        "engage-mcq-11": "「與敵人交戰／對目標採取攻擊行動」是「engage the enemy/target」的用法，與本句語境不同。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。"
+        "engage-mcq-09": "本句的「engage」指「機械零件互相接合、嚙合並開始運作」。",
+        "engage-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-09"
     },
@@ -1270,11 +1186,9 @@ export default {
       "masked": "Press the lever to ____.",
       "options": [
         "engage-mcq-09",
-        "engage-mcq-08",
-        "engage-mcq-10",
-        "engage-mcq-07",
-        "engage-mcq-11",
-        "engage-mcq-06"
+        "engage-mcq-12",
+        "engage-mcq-23",
+        "engage-mcq-13"
       ],
       "explanation": "本句的「engage the mechanism」指「機械零件互相接合、嚙合並開始運作」。",
       "sentenceIndex": 21,
@@ -1283,12 +1197,10 @@ export default {
         "engage the mechanism"
       ],
       "optionReasons": {
-        "engage-mcq-09": "本句指「機械零件互相接合、嚙合並開始運作」。",
-        "engage-mcq-08": "「使某人忙於／投入某項活動」是「engage someone — occupy」的用法，與本句語境不同。",
-        "engage-mcq-10": "「接合離合器／掛入齒輪」是「engage the clutch/gear」的用法，與本句語境不同。",
-        "engage-mcq-07": "「正式聘請某人提供專業服務」是「engage someone — hire」的用法，與本句語境不同。",
-        "engage-mcq-11": "「與敵人交戰／對目標採取攻擊行動」是「engage the enemy/target」的用法，與本句語境不同。",
-        "engage-mcq-06": "「主動讓某人加入談話／與某人攀談」是「engage someone in conversation」的用法，與本句語境不同。"
+        "engage-mcq-09": "本句的「engage the mechanism」指「機械零件互相接合、嚙合並開始運作」。",
+        "engage-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-09"
     },
@@ -1300,11 +1212,9 @@ export default {
       "masked": "Slowly ____.",
       "options": [
         "engage-mcq-10",
-        "engage-mcq-09",
-        "engage-mcq-11",
-        "engage-mcq-08",
-        "engage-mcq-12",
-        "engage-mcq-07"
+        "engage-mcq-15",
+        "engage-mcq-17",
+        "engage-mcq-20"
       ],
       "explanation": "本句的「engage the clutch」指「接合離合器／掛入齒輪」。",
       "sentenceIndex": 22,
@@ -1313,12 +1223,10 @@ export default {
         "engage the clutch"
       ],
       "optionReasons": {
-        "engage-mcq-10": "本句指「接合離合器／掛入齒輪」。",
-        "engage-mcq-09": "「機械零件互相接合、嚙合並開始運作」是「engage — machinery」的用法，與本句語境不同。",
-        "engage-mcq-11": "「與敵人交戰／對目標採取攻擊行動」是「engage the enemy/target」的用法，與本句語境不同。",
-        "engage-mcq-08": "「使某人忙於／投入某項活動」是「engage someone — occupy」的用法，與本句語境不同。",
-        "engage-mcq-12": "「參與戰鬥；交戰」是「engage in combat」的用法，與本句語境不同。",
-        "engage-mcq-07": "「正式聘請某人提供專業服務」是「engage someone — hire」的用法，與本句語境不同。"
+        "engage-mcq-10": "本句的「engage the clutch」指「接合離合器／掛入齒輪」。",
+        "engage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-10"
     },
@@ -1330,11 +1238,9 @@ export default {
       "masked": "The driver ____.",
       "options": [
         "engage-mcq-10",
-        "engage-mcq-09",
-        "engage-mcq-11",
-        "engage-mcq-08",
-        "engage-mcq-12",
-        "engage-mcq-07"
+        "engage-mcq-20",
+        "engage-mcq-15",
+        "engage-mcq-23"
       ],
       "explanation": "本句的「engaged first gear」指「接合離合器／掛入齒輪」。",
       "sentenceIndex": 23,
@@ -1343,12 +1249,10 @@ export default {
         "engaged first gear"
       ],
       "optionReasons": {
-        "engage-mcq-10": "本句指「接合離合器／掛入齒輪」。",
-        "engage-mcq-09": "「機械零件互相接合、嚙合並開始運作」是「engage — machinery」的用法，與本句語境不同。",
-        "engage-mcq-11": "「與敵人交戰／對目標採取攻擊行動」是「engage the enemy/target」的用法，與本句語境不同。",
-        "engage-mcq-08": "「使某人忙於／投入某項活動」是「engage someone — occupy」的用法，與本句語境不同。",
-        "engage-mcq-12": "「參與戰鬥；交戰」是「engage in combat」的用法，與本句語境不同。",
-        "engage-mcq-07": "「正式聘請某人提供專業服務」是「engage someone — hire」的用法，與本句語境不同。"
+        "engage-mcq-10": "本句的「engaged first gear」指「接合離合器／掛入齒輪」。",
+        "engage-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-10"
     },
@@ -1360,11 +1264,9 @@ export default {
       "masked": "The troops ____ near the bridge.",
       "options": [
         "engage-mcq-11",
-        "engage-mcq-10",
-        "engage-mcq-12",
-        "engage-mcq-09",
-        "engage-mcq-13",
-        "engage-mcq-08"
+        "engage-mcq-24",
+        "engage-mcq-16",
+        "engage-mcq-25"
       ],
       "explanation": "本句的「engaged the enemy」指「與敵人交戰／對目標採取攻擊行動」。",
       "sentenceIndex": 24,
@@ -1373,12 +1275,10 @@ export default {
         "engaged the enemy"
       ],
       "optionReasons": {
-        "engage-mcq-11": "本句指「與敵人交戰／對目標採取攻擊行動」。",
-        "engage-mcq-10": "「接合離合器／掛入齒輪」是「engage the clutch/gear」的用法，與本句語境不同。",
-        "engage-mcq-12": "「參與戰鬥；交戰」是「engage in combat」的用法，與本句語境不同。",
-        "engage-mcq-09": "「機械零件互相接合、嚙合並開始運作」是「engage — machinery」的用法，與本句語境不同。",
-        "engage-mcq-13": "「正式承諾做某事」是「engage to do — formal」的用法，與本句語境不同。",
-        "engage-mcq-08": "「使某人忙於／投入某項活動」是「engage someone — occupy」的用法，與本句語境不同。"
+        "engage-mcq-11": "本句的「engaged the enemy」指「與敵人交戰／對目標採取攻擊行動」。",
+        "engage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-11"
     },
@@ -1390,11 +1290,9 @@ export default {
       "masked": "The aircraft was ordered to ____.",
       "options": [
         "engage-mcq-11",
-        "engage-mcq-10",
-        "engage-mcq-12",
-        "engage-mcq-09",
-        "engage-mcq-13",
-        "engage-mcq-08"
+        "engage-mcq-15",
+        "engage-mcq-21",
+        "engage-mcq-04"
       ],
       "explanation": "本句的「engage the target」指「與敵人交戰／對目標採取攻擊行動」。",
       "sentenceIndex": 25,
@@ -1403,12 +1301,10 @@ export default {
         "engage the target"
       ],
       "optionReasons": {
-        "engage-mcq-11": "本句指「與敵人交戰／對目標採取攻擊行動」。",
-        "engage-mcq-10": "「接合離合器／掛入齒輪」是「engage the clutch/gear」的用法，與本句語境不同。",
-        "engage-mcq-12": "「參與戰鬥；交戰」是「engage in combat」的用法，與本句語境不同。",
-        "engage-mcq-09": "「機械零件互相接合、嚙合並開始運作」是「engage — machinery」的用法，與本句語境不同。",
-        "engage-mcq-13": "「正式承諾做某事」是「engage to do — formal」的用法，與本句語境不同。",
-        "engage-mcq-08": "「使某人忙於／投入某項活動」是「engage someone — occupy」的用法，與本句語境不同。"
+        "engage-mcq-11": "本句的「engage the target」指「與敵人交戰／對目標採取攻擊行動」。",
+        "engage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-11"
     },
@@ -1420,11 +1316,9 @@ export default {
       "masked": "The forces ____.",
       "options": [
         "engage-mcq-12",
-        "engage-mcq-11",
-        "engage-mcq-13",
+        "engage-mcq-17",
         "engage-mcq-10",
-        "engage-mcq-14",
-        "engage-mcq-09"
+        "engage-mcq-28"
       ],
       "explanation": "本句的「engaged in battle」指「參與戰鬥；交戰」。",
       "sentenceIndex": 26,
@@ -1433,12 +1327,10 @@ export default {
         "engaged in battle"
       ],
       "optionReasons": {
-        "engage-mcq-12": "本句指「參與戰鬥；交戰」。",
-        "engage-mcq-11": "「與敵人交戰／對目標採取攻擊行動」是「engage the enemy/target」的用法，與本句語境不同。",
-        "engage-mcq-13": "「正式承諾做某事」是「engage to do — formal」的用法，與本句語境不同。",
-        "engage-mcq-10": "「接合離合器／掛入齒輪」是「engage the clutch/gear」的用法，與本句語境不同。",
-        "engage-mcq-14": "「已正式答應結婚的；訂婚的」是「engaged — marriage」的用法，與本句語境不同。",
-        "engage-mcq-09": "「機械零件互相接合、嚙合並開始運作」是「engage — machinery」的用法，與本句語境不同。"
+        "engage-mcq-12": "本句的「engaged in battle」指「參與戰鬥；交戰」。",
+        "engage-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-12"
     },
@@ -1450,11 +1342,9 @@ export default {
       "masked": "The unit was not authorized to ____.",
       "options": [
         "engage-mcq-12",
-        "engage-mcq-11",
         "engage-mcq-13",
-        "engage-mcq-10",
-        "engage-mcq-14",
-        "engage-mcq-09"
+        "engage-mcq-23",
+        "engage-mcq-21"
       ],
       "explanation": "本句的「engage in combat」指「參與戰鬥；交戰」。",
       "sentenceIndex": 27,
@@ -1463,12 +1353,10 @@ export default {
         "engage in combat"
       ],
       "optionReasons": {
-        "engage-mcq-12": "本句指「參與戰鬥；交戰」。",
-        "engage-mcq-11": "「與敵人交戰／對目標採取攻擊行動」是「engage the enemy/target」的用法，與本句語境不同。",
-        "engage-mcq-13": "「正式承諾做某事」是「engage to do — formal」的用法，與本句語境不同。",
-        "engage-mcq-10": "「接合離合器／掛入齒輪」是「engage the clutch/gear」的用法，與本句語境不同。",
-        "engage-mcq-14": "「已正式答應結婚的；訂婚的」是「engaged — marriage」的用法，與本句語境不同。",
-        "engage-mcq-09": "「機械零件互相接合、嚙合並開始運作」是「engage — machinery」的用法，與本句語境不同。"
+        "engage-mcq-12": "本句的「engage in combat」指「參與戰鬥；交戰」。",
+        "engage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-12"
     },
@@ -1480,10 +1368,8 @@ export default {
       "masked": "He ____ the work by Friday.",
       "options": [
         "engage-mcq-13",
-        "engage-mcq-12",
-        "engage-mcq-14",
-        "engage-mcq-11",
-        "engage-mcq-15",
+        "engage-mcq-02",
+        "engage-mcq-18",
         "engage-mcq-10"
       ],
       "explanation": "本句的「engaged to complete」指「正式承諾做某事」。",
@@ -1493,12 +1379,10 @@ export default {
         "engaged to complete"
       ],
       "optionReasons": {
-        "engage-mcq-13": "本句指「正式承諾做某事」。",
-        "engage-mcq-12": "「參與戰鬥；交戰」是「engage in combat」的用法，與本句語境不同。",
-        "engage-mcq-14": "「已正式答應結婚的；訂婚的」是「engaged — marriage」的用法，與本句語境不同。",
-        "engage-mcq-11": "「與敵人交戰／對目標採取攻擊行動」是「engage the enemy/target」的用法，與本句語境不同。",
-        "engage-mcq-15": "「與某人訂婚」是「engaged to someone」的用法，與本句語境不同。",
-        "engage-mcq-10": "「接合離合器／掛入齒輪」是「engage the clutch/gear」的用法，與本句語境不同。"
+        "engage-mcq-13": "本句的「engaged to complete」指「正式承諾做某事」。",
+        "engage-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-13"
     },
@@ -1511,10 +1395,8 @@ export default {
       "options": [
         "engage-mcq-13",
         "engage-mcq-12",
-        "engage-mcq-14",
-        "engage-mcq-11",
-        "engage-mcq-15",
-        "engage-mcq-10"
+        "engage-mcq-24",
+        "engage-mcq-27"
       ],
       "explanation": "本句的「engaged to provide」指「正式承諾做某事」。",
       "sentenceIndex": 29,
@@ -1523,12 +1405,10 @@ export default {
         "engaged to provide"
       ],
       "optionReasons": {
-        "engage-mcq-13": "本句指「正式承諾做某事」。",
-        "engage-mcq-12": "「參與戰鬥；交戰」是「engage in combat」的用法，與本句語境不同。",
-        "engage-mcq-14": "「已正式答應結婚的；訂婚的」是「engaged — marriage」的用法，與本句語境不同。",
-        "engage-mcq-11": "「與敵人交戰／對目標採取攻擊行動」是「engage the enemy/target」的用法，與本句語境不同。",
-        "engage-mcq-15": "「與某人訂婚」是「engaged to someone」的用法，與本句語境不同。",
-        "engage-mcq-10": "「接合離合器／掛入齒輪」是「engage the clutch/gear」的用法，與本句語境不同。"
+        "engage-mcq-13": "本句的「engaged to provide」指「正式承諾做某事」。",
+        "engage-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-13"
     },
@@ -1540,11 +1420,9 @@ export default {
       "masked": "They are ____.",
       "options": [
         "engage-mcq-14",
-        "engage-mcq-13",
-        "engage-mcq-15",
-        "engage-mcq-12",
-        "engage-mcq-16",
-        "engage-mcq-11"
+        "engage-mcq-24",
+        "engage-mcq-20",
+        "engage-mcq-09"
       ],
       "explanation": "本句的「engaged」指「已正式答應結婚的；訂婚的」。",
       "sentenceIndex": 30,
@@ -1553,12 +1431,10 @@ export default {
         "engaged"
       ],
       "optionReasons": {
-        "engage-mcq-14": "本句指「已正式答應結婚的；訂婚的」。",
-        "engage-mcq-13": "「正式承諾做某事」是「engage to do — formal」的用法，與本句語境不同。",
-        "engage-mcq-15": "「與某人訂婚」是「engaged to someone」的用法，與本句語境不同。",
-        "engage-mcq-12": "「參與戰鬥；交戰」是「engage in combat」的用法，與本句語境不同。",
-        "engage-mcq-16": "「訂婚；婚約」是「engagement — marriage」的用法，與本句語境不同。",
-        "engage-mcq-11": "「與敵人交戰／對目標採取攻擊行動」是「engage the enemy/target」的用法，與本句語境不同。"
+        "engage-mcq-14": "本句的「engaged」指「已正式答應結婚的；訂婚的」。",
+        "engage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-14"
     },
@@ -1570,11 +1446,9 @@ export default {
       "masked": "She got ____ last month.",
       "options": [
         "engage-mcq-14",
-        "engage-mcq-13",
-        "engage-mcq-15",
-        "engage-mcq-12",
-        "engage-mcq-16",
-        "engage-mcq-11"
+        "engage-mcq-18",
+        "engage-mcq-28",
+        "engage-mcq-21"
       ],
       "explanation": "本句的「engaged」指「已正式答應結婚的；訂婚的」。",
       "sentenceIndex": 31,
@@ -1583,12 +1457,10 @@ export default {
         "engaged"
       ],
       "optionReasons": {
-        "engage-mcq-14": "本句指「已正式答應結婚的；訂婚的」。",
-        "engage-mcq-13": "「正式承諾做某事」是「engage to do — formal」的用法，與本句語境不同。",
-        "engage-mcq-15": "「與某人訂婚」是「engaged to someone」的用法，與本句語境不同。",
-        "engage-mcq-12": "「參與戰鬥；交戰」是「engage in combat」的用法，與本句語境不同。",
-        "engage-mcq-16": "「訂婚；婚約」是「engagement — marriage」的用法，與本句語境不同。",
-        "engage-mcq-11": "「與敵人交戰／對目標採取攻擊行動」是「engage the enemy/target」的用法，與本句語境不同。"
+        "engage-mcq-14": "本句的「engaged」指「已正式答應結婚的；訂婚的」。",
+        "engage-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-14"
     },
@@ -1600,11 +1472,9 @@ export default {
       "masked": "He is ____ Maya.",
       "options": [
         "engage-mcq-15",
-        "engage-mcq-14",
-        "engage-mcq-16",
-        "engage-mcq-13",
-        "engage-mcq-17",
-        "engage-mcq-12"
+        "engage-mcq-28",
+        "engage-mcq-21",
+        "engage-mcq-23"
       ],
       "explanation": "本句的「engaged to」指「與某人訂婚」。",
       "sentenceIndex": 32,
@@ -1613,12 +1483,10 @@ export default {
         "engaged to"
       ],
       "optionReasons": {
-        "engage-mcq-15": "本句指「與某人訂婚」。",
-        "engage-mcq-14": "「已正式答應結婚的；訂婚的」是「engaged — marriage」的用法，與本句語境不同。",
-        "engage-mcq-16": "「訂婚；婚約」是「engagement — marriage」的用法，與本句語境不同。",
-        "engage-mcq-13": "「正式承諾做某事」是「engage to do — formal」的用法，與本句語境不同。",
-        "engage-mcq-17": "「已安排好的約會、活動或工作安排」是「engagement — appointment」的用法，與本句語境不同。",
-        "engage-mcq-12": "「參與戰鬥；交戰」是「engage in combat」的用法，與本句語境不同。"
+        "engage-mcq-15": "本句的「engaged to」指「與某人訂婚」。",
+        "engage-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-15"
     },
@@ -1630,11 +1498,9 @@ export default {
       "masked": "She became ____ her longtime partner.",
       "options": [
         "engage-mcq-15",
-        "engage-mcq-14",
-        "engage-mcq-16",
-        "engage-mcq-13",
-        "engage-mcq-17",
-        "engage-mcq-12"
+        "engage-mcq-26",
+        "engage-mcq-20",
+        "engage-mcq-17"
       ],
       "explanation": "本句的「engaged to」指「與某人訂婚」。",
       "sentenceIndex": 33,
@@ -1643,12 +1509,10 @@ export default {
         "engaged to"
       ],
       "optionReasons": {
-        "engage-mcq-15": "本句指「與某人訂婚」。",
-        "engage-mcq-14": "「已正式答應結婚的；訂婚的」是「engaged — marriage」的用法，與本句語境不同。",
-        "engage-mcq-16": "「訂婚；婚約」是「engagement — marriage」的用法，與本句語境不同。",
-        "engage-mcq-13": "「正式承諾做某事」是「engage to do — formal」的用法，與本句語境不同。",
-        "engage-mcq-17": "「已安排好的約會、活動或工作安排」是「engagement — appointment」的用法，與本句語境不同。",
-        "engage-mcq-12": "「參與戰鬥；交戰」是「engage in combat」的用法，與本句語境不同。"
+        "engage-mcq-15": "本句的「engaged to」指「與某人訂婚」。",
+        "engage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-15"
     },
@@ -1660,11 +1524,9 @@ export default {
       "masked": "They announced their ____.",
       "options": [
         "engage-mcq-16",
-        "engage-mcq-15",
-        "engage-mcq-17",
-        "engage-mcq-14",
-        "engage-mcq-18",
-        "engage-mcq-13"
+        "engage-mcq-10",
+        "engage-mcq-28",
+        "engage-mcq-12"
       ],
       "explanation": "本句的「engagement」指「訂婚；婚約」。",
       "sentenceIndex": 34,
@@ -1673,12 +1535,10 @@ export default {
         "engagement"
       ],
       "optionReasons": {
-        "engage-mcq-16": "本句指「訂婚；婚約」。",
-        "engage-mcq-15": "「與某人訂婚」是「engaged to someone」的用法，與本句語境不同。",
-        "engage-mcq-17": "「已安排好的約會、活動或工作安排」是「engagement — appointment」的用法，與本句語境不同。",
-        "engage-mcq-14": "「已正式答應結婚的；訂婚的」是「engaged — marriage」的用法，與本句語境不同。",
-        "engage-mcq-18": "「對活動、內容等的參與度／投入程度」是「engagement — involvement」的用法，與本句語境不同。",
-        "engage-mcq-13": "「正式承諾做某事」是「engage to do — formal」的用法，與本句語境不同。"
+        "engage-mcq-16": "本句的「engagement」指「訂婚；婚約」。",
+        "engage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-16"
     },
@@ -1690,11 +1550,9 @@ export default {
       "masked": "Her ____ is simple and elegant.",
       "options": [
         "engage-mcq-16",
-        "engage-mcq-15",
-        "engage-mcq-17",
-        "engage-mcq-14",
-        "engage-mcq-18",
-        "engage-mcq-13"
+        "engage-mcq-27",
+        "engage-mcq-28",
+        "engage-mcq-23"
       ],
       "explanation": "本句的「engagement ring」指「訂婚；婚約」。",
       "sentenceIndex": 35,
@@ -1703,12 +1561,10 @@ export default {
         "engagement ring"
       ],
       "optionReasons": {
-        "engage-mcq-16": "本句指「訂婚；婚約」。",
-        "engage-mcq-15": "「與某人訂婚」是「engaged to someone」的用法，與本句語境不同。",
-        "engage-mcq-17": "「已安排好的約會、活動或工作安排」是「engagement — appointment」的用法，與本句語境不同。",
-        "engage-mcq-14": "「已正式答應結婚的；訂婚的」是「engaged — marriage」的用法，與本句語境不同。",
-        "engage-mcq-18": "「對活動、內容等的參與度／投入程度」是「engagement — involvement」的用法，與本句語境不同。",
-        "engage-mcq-13": "「正式承諾做某事」是「engage to do — formal」的用法，與本句語境不同。"
+        "engage-mcq-16": "本句的「engagement ring」指「訂婚；婚約」。",
+        "engage-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-16"
     },
@@ -1720,11 +1576,9 @@ export default {
       "masked": "I have a previous ____ this evening.",
       "options": [
         "engage-mcq-17",
-        "engage-mcq-16",
-        "engage-mcq-18",
-        "engage-mcq-15",
-        "engage-mcq-19",
-        "engage-mcq-14"
+        "engage-mcq-02",
+        "engage-mcq-25",
+        "engage-mcq-13"
       ],
       "explanation": "本句的「engagement」指「已安排好的約會、活動或工作安排」。",
       "sentenceIndex": 36,
@@ -1733,12 +1587,10 @@ export default {
         "engagement"
       ],
       "optionReasons": {
-        "engage-mcq-17": "本句指「已安排好的約會、活動或工作安排」。",
-        "engage-mcq-16": "「訂婚；婚約」是「engagement — marriage」的用法，與本句語境不同。",
-        "engage-mcq-18": "「對活動、內容等的參與度／投入程度」是「engagement — involvement」的用法，與本句語境不同。",
-        "engage-mcq-15": "「與某人訂婚」是「engaged to someone」的用法，與本句語境不同。",
-        "engage-mcq-19": "「員工對工作的投入、認同與參與程度」是「employee engagement」的用法，與本句語境不同。",
-        "engage-mcq-14": "「已正式答應結婚的；訂婚的」是「engaged — marriage」的用法，與本句語境不同。"
+        "engage-mcq-17": "本句的「engagement」指「已安排好的約會、活動或工作安排」。",
+        "engage-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-17"
     },
@@ -1750,11 +1602,9 @@ export default {
       "masked": "The speaker has several public ____ this week.",
       "options": [
         "engage-mcq-17",
-        "engage-mcq-16",
-        "engage-mcq-18",
         "engage-mcq-15",
-        "engage-mcq-19",
-        "engage-mcq-14"
+        "engage-mcq-27",
+        "engage-mcq-21"
       ],
       "explanation": "本句的「engagements」指「已安排好的約會、活動或工作安排」。",
       "sentenceIndex": 37,
@@ -1763,12 +1613,10 @@ export default {
         "engagements"
       ],
       "optionReasons": {
-        "engage-mcq-17": "本句指「已安排好的約會、活動或工作安排」。",
-        "engage-mcq-16": "「訂婚；婚約」是「engagement — marriage」的用法，與本句語境不同。",
-        "engage-mcq-18": "「對活動、內容等的參與度／投入程度」是「engagement — involvement」的用法，與本句語境不同。",
-        "engage-mcq-15": "「與某人訂婚」是「engaged to someone」的用法，與本句語境不同。",
-        "engage-mcq-19": "「員工對工作的投入、認同與參與程度」是「employee engagement」的用法，與本句語境不同。",
-        "engage-mcq-14": "「已正式答應結婚的；訂婚的」是「engaged — marriage」的用法，與本句語境不同。"
+        "engage-mcq-17": "本句的「engagements」指「已安排好的約會、活動或工作安排」。",
+        "engage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-17"
     },
@@ -1780,11 +1628,9 @@ export default {
       "masked": "Student ____ improved.",
       "options": [
         "engage-mcq-18",
-        "engage-mcq-17",
-        "engage-mcq-19",
-        "engage-mcq-16",
-        "engage-mcq-20",
-        "engage-mcq-15"
+        "engage-mcq-02",
+        "engage-mcq-13",
+        "engage-mcq-16"
       ],
       "explanation": "本句的「engagement」指「對活動、內容等的參與度／投入程度」。",
       "sentenceIndex": 38,
@@ -1793,12 +1639,10 @@ export default {
         "engagement"
       ],
       "optionReasons": {
-        "engage-mcq-18": "本句指「對活動、內容等的參與度／投入程度」。",
-        "engage-mcq-17": "「已安排好的約會、活動或工作安排」是「engagement — appointment」的用法，與本句語境不同。",
-        "engage-mcq-19": "「員工對工作的投入、認同與參與程度」是「employee engagement」的用法，與本句語境不同。",
-        "engage-mcq-16": "「訂婚；婚約」是「engagement — marriage」的用法，與本句語境不同。",
-        "engage-mcq-20": "「觀眾／顧客的互動與參與程度」是「audience/customer engagement」的用法，與本句語境不同。",
-        "engage-mcq-15": "「與某人訂婚」是「engaged to someone」的用法，與本句語境不同。"
+        "engage-mcq-18": "本句的「engagement」指「對活動、內容等的參與度／投入程度」。",
+        "engage-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-18"
     },
@@ -1810,11 +1654,9 @@ export default {
       "masked": "The campaign increased audience ____.",
       "options": [
         "engage-mcq-18",
-        "engage-mcq-17",
-        "engage-mcq-19",
-        "engage-mcq-16",
-        "engage-mcq-20",
-        "engage-mcq-15"
+        "engage-mcq-07",
+        "engage-mcq-23",
+        "engage-mcq-16"
       ],
       "explanation": "本句的「engagement」指「對活動、內容等的參與度／投入程度」。",
       "sentenceIndex": 39,
@@ -1823,12 +1665,10 @@ export default {
         "engagement"
       ],
       "optionReasons": {
-        "engage-mcq-18": "本句指「對活動、內容等的參與度／投入程度」。",
-        "engage-mcq-17": "「已安排好的約會、活動或工作安排」是「engagement — appointment」的用法，與本句語境不同。",
-        "engage-mcq-19": "「員工對工作的投入、認同與參與程度」是「employee engagement」的用法，與本句語境不同。",
-        "engage-mcq-16": "「訂婚；婚約」是「engagement — marriage」的用法，與本句語境不同。",
-        "engage-mcq-20": "「觀眾／顧客的互動與參與程度」是「audience/customer engagement」的用法，與本句語境不同。",
-        "engage-mcq-15": "「與某人訂婚」是「engaged to someone」的用法，與本句語境不同。"
+        "engage-mcq-18": "本句的「engagement」指「對活動、內容等的參與度／投入程度」。",
+        "engage-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-18"
     },
@@ -1840,11 +1680,9 @@ export default {
       "masked": "The survey measures ____.",
       "options": [
         "engage-mcq-19",
-        "engage-mcq-18",
-        "engage-mcq-20",
-        "engage-mcq-17",
-        "engage-mcq-21",
-        "engage-mcq-16"
+        "engage-mcq-28",
+        "engage-mcq-14",
+        "engage-mcq-23"
       ],
       "explanation": "本句的「employee engagement」指「員工對工作的投入、認同與參與程度」。",
       "sentenceIndex": 40,
@@ -1853,12 +1691,10 @@ export default {
         "employee engagement"
       ],
       "optionReasons": {
-        "engage-mcq-19": "本句指「員工對工作的投入、認同與參與程度」。",
-        "engage-mcq-18": "「對活動、內容等的參與度／投入程度」是「engagement — involvement」的用法，與本句語境不同。",
-        "engage-mcq-20": "「觀眾／顧客的互動與參與程度」是「audience/customer engagement」的用法，與本句語境不同。",
-        "engage-mcq-17": "「已安排好的約會、活動或工作安排」是「engagement — appointment」的用法，與本句語境不同。",
-        "engage-mcq-21": "「能持續吸引注意的；引人入勝／吸引人的」是「engaging — attractive/interesting」的用法，與本句語境不同。",
-        "engage-mcq-16": "「訂婚；婚約」是「engagement — marriage」的用法，與本句語境不同。"
+        "engage-mcq-19": "本句的「employee engagement」指「員工對工作的投入、認同與參與程度」。",
+        "engage-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-19"
     },
@@ -1870,11 +1706,9 @@ export default {
       "masked": "Flexible work can affect ____.",
       "options": [
         "engage-mcq-19",
-        "engage-mcq-18",
-        "engage-mcq-20",
-        "engage-mcq-17",
-        "engage-mcq-21",
-        "engage-mcq-16"
+        "engage-mcq-14",
+        "engage-mcq-09",
+        "engage-mcq-23"
       ],
       "explanation": "本句的「employee engagement」指「員工對工作的投入、認同與參與程度」。",
       "sentenceIndex": 41,
@@ -1883,12 +1717,10 @@ export default {
         "employee engagement"
       ],
       "optionReasons": {
-        "engage-mcq-19": "本句指「員工對工作的投入、認同與參與程度」。",
-        "engage-mcq-18": "「對活動、內容等的參與度／投入程度」是「engagement — involvement」的用法，與本句語境不同。",
-        "engage-mcq-20": "「觀眾／顧客的互動與參與程度」是「audience/customer engagement」的用法，與本句語境不同。",
-        "engage-mcq-17": "「已安排好的約會、活動或工作安排」是「engagement — appointment」的用法，與本句語境不同。",
-        "engage-mcq-21": "「能持續吸引注意的；引人入勝／吸引人的」是「engaging — attractive/interesting」的用法，與本句語境不同。",
-        "engage-mcq-16": "「訂婚；婚約」是「engagement — marriage」的用法，與本句語境不同。"
+        "engage-mcq-19": "本句的「employee engagement」指「員工對工作的投入、認同與參與程度」。",
+        "engage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-19"
     },
@@ -1900,11 +1732,9 @@ export default {
       "masked": "The video generated strong audience ____.",
       "options": [
         "engage-mcq-20",
-        "engage-mcq-19",
-        "engage-mcq-21",
-        "engage-mcq-18",
-        "engage-mcq-22",
-        "engage-mcq-17"
+        "engage-mcq-23",
+        "engage-mcq-26",
+        "engage-mcq-07"
       ],
       "explanation": "本句的「engagement」指「觀眾／顧客的互動與參與程度」。",
       "sentenceIndex": 42,
@@ -1913,12 +1743,10 @@ export default {
         "engagement"
       ],
       "optionReasons": {
-        "engage-mcq-20": "本句指「觀眾／顧客的互動與參與程度」。",
-        "engage-mcq-19": "「員工對工作的投入、認同與參與程度」是「employee engagement」的用法，與本句語境不同。",
-        "engage-mcq-21": "「能持續吸引注意的；引人入勝／吸引人的」是「engaging — attractive/interesting」的用法，與本句語境不同。",
-        "engage-mcq-18": "「對活動、內容等的參與度／投入程度」是「engagement — involvement」的用法，與本句語境不同。",
-        "engage-mcq-22": "「正忙於並投入某活動的」是「engaged — occupied」的用法，與本句語境不同。",
-        "engage-mcq-17": "「已安排好的約會、活動或工作安排」是「engagement — appointment」的用法，與本句語境不同。"
+        "engage-mcq-20": "本句的「engagement」指「觀眾／顧客的互動與參與程度」。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-20"
     },
@@ -1930,11 +1758,9 @@ export default {
       "masked": "The company wants to improve customer ____.",
       "options": [
         "engage-mcq-20",
-        "engage-mcq-19",
-        "engage-mcq-21",
-        "engage-mcq-18",
-        "engage-mcq-22",
-        "engage-mcq-17"
+        "engage-mcq-23",
+        "engage-mcq-14",
+        "engage-mcq-27"
       ],
       "explanation": "本句的「engagement」指「觀眾／顧客的互動與參與程度」。",
       "sentenceIndex": 43,
@@ -1943,12 +1769,10 @@ export default {
         "engagement"
       ],
       "optionReasons": {
-        "engage-mcq-20": "本句指「觀眾／顧客的互動與參與程度」。",
-        "engage-mcq-19": "「員工對工作的投入、認同與參與程度」是「employee engagement」的用法，與本句語境不同。",
-        "engage-mcq-21": "「能持續吸引注意的；引人入勝／吸引人的」是「engaging — attractive/interesting」的用法，與本句語境不同。",
-        "engage-mcq-18": "「對活動、內容等的參與度／投入程度」是「engagement — involvement」的用法，與本句語境不同。",
-        "engage-mcq-22": "「正忙於並投入某活動的」是「engaged — occupied」的用法，與本句語境不同。",
-        "engage-mcq-17": "「已安排好的約會、活動或工作安排」是「engagement — appointment」的用法，與本句語境不同。"
+        "engage-mcq-20": "本句的「engagement」指「觀眾／顧客的互動與參與程度」。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-20"
     },
@@ -1960,11 +1784,9 @@ export default {
       "masked": "She has an ____.",
       "options": [
         "engage-mcq-21",
-        "engage-mcq-20",
-        "engage-mcq-22",
-        "engage-mcq-19",
-        "engage-mcq-23",
-        "engage-mcq-18"
+        "engage-mcq-05",
+        "engage-mcq-11",
+        "engage-mcq-03"
       ],
       "explanation": "本句的「engaging personality」指「能持續吸引注意的；引人入勝／吸引人的」。",
       "sentenceIndex": 44,
@@ -1973,12 +1795,10 @@ export default {
         "engaging personality"
       ],
       "optionReasons": {
-        "engage-mcq-21": "本句指「能持續吸引注意的；引人入勝／吸引人的」。",
-        "engage-mcq-20": "「觀眾／顧客的互動與參與程度」是「audience/customer engagement」的用法，與本句語境不同。",
-        "engage-mcq-22": "「正忙於並投入某活動的」是「engaged — occupied」的用法，與本句語境不同。",
-        "engage-mcq-19": "「員工對工作的投入、認同與參與程度」是「employee engagement」的用法，與本句語境不同。",
-        "engage-mcq-23": "「電話線正在使用中；佔線的」是「engaged — telephone」的用法，與本句語境不同。",
-        "engage-mcq-18": "「對活動、內容等的參與度／投入程度」是「engagement — involvement」的用法，與本句語境不同。"
+        "engage-mcq-21": "本句的「engaging personality」指「能持續吸引注意的；引人入勝／吸引人的」。",
+        "engage-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-21"
     },
@@ -1990,11 +1810,9 @@ export default {
       "masked": "The book has an ____.",
       "options": [
         "engage-mcq-21",
+        "engage-mcq-09",
         "engage-mcq-20",
-        "engage-mcq-22",
-        "engage-mcq-19",
-        "engage-mcq-23",
-        "engage-mcq-18"
+        "engage-mcq-23"
       ],
       "explanation": "本句的「engaging style」指「能持續吸引注意的；引人入勝／吸引人的」。",
       "sentenceIndex": 45,
@@ -2003,12 +1821,10 @@ export default {
         "engaging style"
       ],
       "optionReasons": {
-        "engage-mcq-21": "本句指「能持續吸引注意的；引人入勝／吸引人的」。",
-        "engage-mcq-20": "「觀眾／顧客的互動與參與程度」是「audience/customer engagement」的用法，與本句語境不同。",
-        "engage-mcq-22": "「正忙於並投入某活動的」是「engaged — occupied」的用法，與本句語境不同。",
-        "engage-mcq-19": "「員工對工作的投入、認同與參與程度」是「employee engagement」的用法，與本句語境不同。",
-        "engage-mcq-23": "「電話線正在使用中；佔線的」是「engaged — telephone」的用法，與本句語境不同。",
-        "engage-mcq-18": "「對活動、內容等的參與度／投入程度」是「engagement — involvement」的用法，與本句語境不同。"
+        "engage-mcq-21": "本句的「engaging style」指「能持續吸引注意的；引人入勝／吸引人的」。",
+        "engage-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-21"
     },
@@ -2020,11 +1836,9 @@ export default {
       "masked": "She was deeply ____.",
       "options": [
         "engage-mcq-22",
-        "engage-mcq-21",
-        "engage-mcq-23",
-        "engage-mcq-20",
-        "engage-mcq-24",
-        "engage-mcq-19"
+        "engage-mcq-16",
+        "engage-mcq-12",
+        "engage-mcq-10"
       ],
       "explanation": "本句的「engaged in conversation」指「正忙於並投入某活動的」。",
       "sentenceIndex": 46,
@@ -2033,12 +1847,10 @@ export default {
         "engaged in conversation"
       ],
       "optionReasons": {
-        "engage-mcq-22": "本句指「正忙於並投入某活動的」。",
-        "engage-mcq-21": "「能持續吸引注意的；引人入勝／吸引人的」是「engaging — attractive/interesting」的用法，與本句語境不同。",
-        "engage-mcq-23": "「電話線正在使用中；佔線的」是「engaged — telephone」的用法，與本句語境不同。",
-        "engage-mcq-20": "「觀眾／顧客的互動與參與程度」是「audience/customer engagement」的用法，與本句語境不同。",
-        "engage-mcq-24": "「激發並吸引某人的想像力」是「engage the imagination」的用法，與本句語境不同。",
-        "engage-mcq-19": "「員工對工作的投入、認同與參與程度」是「employee engagement」的用法，與本句語境不同。"
+        "engage-mcq-22": "本句的「engaged in conversation」指「正忙於並投入某活動的」。",
+        "engage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-22"
     },
@@ -2050,11 +1862,9 @@ export default {
       "masked": "He remained ____.",
       "options": [
         "engage-mcq-22",
-        "engage-mcq-21",
-        "engage-mcq-23",
-        "engage-mcq-20",
-        "engage-mcq-24",
-        "engage-mcq-19"
+        "engage-mcq-12",
+        "engage-mcq-16",
+        "engage-mcq-10"
       ],
       "explanation": "本句的「engaged in research」指「正忙於並投入某活動的」。",
       "sentenceIndex": 47,
@@ -2063,12 +1873,10 @@ export default {
         "engaged in research"
       ],
       "optionReasons": {
-        "engage-mcq-22": "本句指「正忙於並投入某活動的」。",
-        "engage-mcq-21": "「能持續吸引注意的；引人入勝／吸引人的」是「engaging — attractive/interesting」的用法，與本句語境不同。",
-        "engage-mcq-23": "「電話線正在使用中；佔線的」是「engaged — telephone」的用法，與本句語境不同。",
-        "engage-mcq-20": "「觀眾／顧客的互動與參與程度」是「audience/customer engagement」的用法，與本句語境不同。",
-        "engage-mcq-24": "「激發並吸引某人的想像力」是「engage the imagination」的用法，與本句語境不同。",
-        "engage-mcq-19": "「員工對工作的投入、認同與參與程度」是「employee engagement」的用法，與本句語境不同。"
+        "engage-mcq-22": "本句的「engaged in research」指「正忙於並投入某活動的」。",
+        "engage-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-22"
     },
@@ -2080,11 +1888,9 @@ export default {
       "masked": "The line is ____.",
       "options": [
         "engage-mcq-23",
-        "engage-mcq-22",
-        "engage-mcq-24",
-        "engage-mcq-21",
-        "engage-mcq-25",
-        "engage-mcq-20"
+        "engage-mcq-03",
+        "engage-mcq-15",
+        "engage-mcq-10"
       ],
       "explanation": "本句的「engaged」指「電話線正在使用中；佔線的」。",
       "sentenceIndex": 48,
@@ -2093,12 +1899,10 @@ export default {
         "engaged"
       ],
       "optionReasons": {
-        "engage-mcq-23": "本句指「電話線正在使用中；佔線的」。",
-        "engage-mcq-22": "「正忙於並投入某活動的」是「engaged — occupied」的用法，與本句語境不同。",
-        "engage-mcq-24": "「激發並吸引某人的想像力」是「engage the imagination」的用法，與本句語境不同。",
-        "engage-mcq-21": "「能持續吸引注意的；引人入勝／吸引人的」是「engaging — attractive/interesting」的用法，與本句語境不同。",
-        "engage-mcq-25": "「正積極參與／高度投入的」是「actively engaged」的用法，與本句語境不同。",
-        "engage-mcq-20": "「觀眾／顧客的互動與參與程度」是「audience/customer engagement」的用法，與本句語境不同。"
+        "engage-mcq-23": "本句的「engaged」指「電話線正在使用中；佔線的」。",
+        "engage-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-23"
     },
@@ -2110,11 +1914,9 @@ export default {
       "masked": "I called twice, but the number was ____.",
       "options": [
         "engage-mcq-23",
-        "engage-mcq-22",
-        "engage-mcq-24",
-        "engage-mcq-21",
-        "engage-mcq-25",
-        "engage-mcq-20"
+        "engage-mcq-28",
+        "engage-mcq-03",
+        "engage-mcq-24"
       ],
       "explanation": "本句的「engaged」指「電話線正在使用中；佔線的」。",
       "sentenceIndex": 49,
@@ -2123,12 +1925,10 @@ export default {
         "engaged"
       ],
       "optionReasons": {
-        "engage-mcq-23": "本句指「電話線正在使用中；佔線的」。",
-        "engage-mcq-22": "「正忙於並投入某活動的」是「engaged — occupied」的用法，與本句語境不同。",
-        "engage-mcq-24": "「激發並吸引某人的想像力」是「engage the imagination」的用法，與本句語境不同。",
-        "engage-mcq-21": "「能持續吸引注意的；引人入勝／吸引人的」是「engaging — attractive/interesting」的用法，與本句語境不同。",
-        "engage-mcq-25": "「正積極參與／高度投入的」是「actively engaged」的用法，與本句語境不同。",
-        "engage-mcq-20": "「觀眾／顧客的互動與參與程度」是「audience/customer engagement」的用法，與本句語境不同。"
+        "engage-mcq-23": "本句的「engaged」指「電話線正在使用中；佔線的」。",
+        "engage-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-23"
     },
@@ -2140,11 +1940,9 @@ export default {
       "masked": "The essay shows strong ____ with the text.",
       "options": [
         "engage-mcq-27",
-        "engage-mcq-26",
-        "engage-mcq-28",
-        "engage-mcq-25",
-        "engage-mcq-24",
-        "engage-mcq-23"
+        "engage-mcq-16",
+        "engage-mcq-20",
+        "engage-mcq-09"
       ],
       "explanation": "本句的「critical engagement」指「批判性投入；深入思考與回應」。",
       "sentenceIndex": 50,
@@ -2153,12 +1951,10 @@ export default {
         "critical engagement"
       ],
       "optionReasons": {
-        "engage-mcq-27": "本句指「批判性投入；深入思考與回應」。",
-        "engage-mcq-26": "「引人入勝的；吸引人的；有吸引力的」是「Passage meaning」的用法，與本句語境不同。",
-        "engage-mcq-28": "「表示直接面對／直接與……互動」是「28. engage directly with」的用法，與本句語境不同。",
-        "engage-mcq-25": "「正積極參與／高度投入的」是「actively engaged」的用法，與本句語境不同。",
-        "engage-mcq-24": "「激發並吸引某人的想像力」是「engage the imagination」的用法，與本句語境不同。",
-        "engage-mcq-23": "「電話線正在使用中；佔線的」是「engaged — telephone」的用法，與本句語境不同。"
+        "engage-mcq-27": "本句的「critical engagement」指「批判性投入；深入思考與回應」。",
+        "engage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-27"
     },
@@ -2170,11 +1966,9 @@ export default {
       "masked": "The course encourages ____ with different viewpoints.",
       "options": [
         "engage-mcq-27",
-        "engage-mcq-26",
-        "engage-mcq-28",
-        "engage-mcq-25",
-        "engage-mcq-24",
-        "engage-mcq-23"
+        "engage-mcq-09",
+        "engage-mcq-03",
+        "engage-mcq-24"
       ],
       "explanation": "本句的「critical engagement」指「批判性投入；深入思考與回應」。",
       "sentenceIndex": 51,
@@ -2183,12 +1977,10 @@ export default {
         "critical engagement"
       ],
       "optionReasons": {
-        "engage-mcq-27": "本句指「批判性投入；深入思考與回應」。",
-        "engage-mcq-26": "「引人入勝的；吸引人的；有吸引力的」是「Passage meaning」的用法，與本句語境不同。",
-        "engage-mcq-28": "「表示直接面對／直接與……互動」是「28. engage directly with」的用法，與本句語境不同。",
-        "engage-mcq-25": "「正積極參與／高度投入的」是「actively engaged」的用法，與本句語境不同。",
-        "engage-mcq-24": "「激發並吸引某人的想像力」是「engage the imagination」的用法，與本句語境不同。",
-        "engage-mcq-23": "「電話線正在使用中；佔線的」是「engaged — telephone」的用法，與本句語境不同。"
+        "engage-mcq-27": "本句的「critical engagement」指「批判性投入；深入思考與回應」。",
+        "engage-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-27"
     },
@@ -2200,11 +1992,9 @@ export default {
       "masked": "The story ____.",
       "options": [
         "engage-mcq-24",
-        "engage-mcq-23",
-        "engage-mcq-25",
-        "engage-mcq-22",
-        "engage-mcq-26",
-        "engage-mcq-21"
+        "engage-mcq-17",
+        "engage-mcq-04",
+        "engage-mcq-28"
       ],
       "explanation": "本句的「engages the reader’s imagination」指「激發並吸引某人的想像力」。",
       "sentenceIndex": 52,
@@ -2213,12 +2003,10 @@ export default {
         "engages the reader’s imagination"
       ],
       "optionReasons": {
-        "engage-mcq-24": "本句指「激發並吸引某人的想像力」。",
-        "engage-mcq-23": "「電話線正在使用中；佔線的」是「engaged — telephone」的用法，與本句語境不同。",
-        "engage-mcq-25": "「正積極參與／高度投入的」是「actively engaged」的用法，與本句語境不同。",
-        "engage-mcq-22": "「正忙於並投入某活動的」是「engaged — occupied」的用法，與本句語境不同。",
-        "engage-mcq-26": "「引人入勝的；吸引人的；有吸引力的」是「Passage meaning」的用法，與本句語境不同。",
-        "engage-mcq-21": "「能持續吸引注意的；引人入勝／吸引人的」是「engaging — attractive/interesting」的用法，與本句語境不同。"
+        "engage-mcq-24": "本句的「engages the reader’s imagination」指「激發並吸引某人的想像力」。",
+        "engage-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-24"
     },
@@ -2230,11 +2018,9 @@ export default {
       "masked": "Good fantasy should ____.",
       "options": [
         "engage-mcq-24",
-        "engage-mcq-23",
-        "engage-mcq-25",
-        "engage-mcq-22",
-        "engage-mcq-26",
-        "engage-mcq-21"
+        "engage-mcq-12",
+        "engage-mcq-17",
+        "engage-mcq-13"
       ],
       "explanation": "本句的「engage the imagination」指「激發並吸引某人的想像力」。",
       "sentenceIndex": 53,
@@ -2243,12 +2029,10 @@ export default {
         "engage the imagination"
       ],
       "optionReasons": {
-        "engage-mcq-24": "本句指「激發並吸引某人的想像力」。",
-        "engage-mcq-23": "「電話線正在使用中；佔線的」是「engaged — telephone」的用法，與本句語境不同。",
-        "engage-mcq-25": "「正積極參與／高度投入的」是「actively engaged」的用法，與本句語境不同。",
-        "engage-mcq-22": "「正忙於並投入某活動的」是「engaged — occupied」的用法，與本句語境不同。",
-        "engage-mcq-26": "「引人入勝的；吸引人的；有吸引力的」是「Passage meaning」的用法，與本句語境不同。",
-        "engage-mcq-21": "「能持續吸引注意的；引人入勝／吸引人的」是「engaging — attractive/interesting」的用法，與本句語境不同。"
+        "engage-mcq-24": "本句的「engage the imagination」指「激發並吸引某人的想像力」。",
+        "engage-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-24"
     },
@@ -2260,10 +2044,8 @@ export default {
       "masked": "The book ____ questions of regret.",
       "options": [
         "engage-mcq-28",
-        "engage-mcq-27",
-        "engage-mcq-26",
-        "engage-mcq-25",
-        "engage-mcq-24",
+        "engage-mcq-15",
+        "engage-mcq-12",
         "engage-mcq-23"
       ],
       "explanation": "本句的「engages directly with」指「表示直接面對／直接與……互動」。",
@@ -2273,12 +2055,10 @@ export default {
         "engages directly with"
       ],
       "optionReasons": {
-        "engage-mcq-28": "本句指「表示直接面對／直接與……互動」。",
-        "engage-mcq-27": "「批判性投入；深入思考與回應」是「26. critical engagement」的用法，與本句語境不同。",
-        "engage-mcq-26": "「引人入勝的；吸引人的；有吸引力的」是「Passage meaning」的用法，與本句語境不同。",
-        "engage-mcq-25": "「正積極參與／高度投入的」是「actively engaged」的用法，與本句語境不同。",
-        "engage-mcq-24": "「激發並吸引某人的想像力」是「engage the imagination」的用法，與本句語境不同。",
-        "engage-mcq-23": "「電話線正在使用中；佔線的」是「engaged — telephone」的用法，與本句語境不同。"
+        "engage-mcq-28": "本句的「engages directly with」指「表示直接面對／直接與……互動」。",
+        "engage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-28"
     },
@@ -2290,11 +2070,9 @@ export default {
       "masked": "Leaders need to ____ employees.",
       "options": [
         "engage-mcq-28",
-        "engage-mcq-27",
-        "engage-mcq-26",
-        "engage-mcq-25",
-        "engage-mcq-24",
-        "engage-mcq-23"
+        "engage-mcq-16",
+        "engage-mcq-02",
+        "engage-mcq-27"
       ],
       "explanation": "本句的「engage directly with」指「表示直接面對／直接與……互動」。",
       "sentenceIndex": 55,
@@ -2303,12 +2081,10 @@ export default {
         "engage directly with"
       ],
       "optionReasons": {
-        "engage-mcq-28": "本句指「表示直接面對／直接與……互動」。",
-        "engage-mcq-27": "「批判性投入；深入思考與回應」是「26. critical engagement」的用法，與本句語境不同。",
-        "engage-mcq-26": "「引人入勝的；吸引人的；有吸引力的」是「Passage meaning」的用法，與本句語境不同。",
-        "engage-mcq-25": "「正積極參與／高度投入的」是「actively engaged」的用法，與本句語境不同。",
-        "engage-mcq-24": "「激發並吸引某人的想像力」是「engage the imagination」的用法，與本句語境不同。",
-        "engage-mcq-23": "「電話線正在使用中；佔線的」是「engaged — telephone」的用法，與本句語境不同。"
+        "engage-mcq-28": "本句的「engage directly with」指「表示直接面對／直接與……互動」。",
+        "engage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-28"
     },
@@ -2320,11 +2096,9 @@ export default {
       "masked": "The students were ____ in the lesson.",
       "options": [
         "engage-mcq-25",
-        "engage-mcq-24",
-        "engage-mcq-26",
-        "engage-mcq-23",
-        "engage-mcq-27",
-        "engage-mcq-22"
+        "engage-mcq-05",
+        "engage-mcq-16",
+        "engage-mcq-09"
       ],
       "explanation": "本句的「actively engaged」指「正積極參與／高度投入的」。",
       "sentenceIndex": 56,
@@ -2333,12 +2107,10 @@ export default {
         "actively engaged"
       ],
       "optionReasons": {
-        "engage-mcq-25": "本句指「正積極參與／高度投入的」。",
-        "engage-mcq-24": "「激發並吸引某人的想像力」是「engage the imagination」的用法，與本句語境不同。",
-        "engage-mcq-26": "「引人入勝的；吸引人的；有吸引力的」是「Passage meaning」的用法，與本句語境不同。",
-        "engage-mcq-23": "「電話線正在使用中；佔線的」是「engaged — telephone」的用法，與本句語境不同。",
-        "engage-mcq-27": "「批判性投入；深入思考與回應」是「26. critical engagement」的用法，與本句語境不同。",
-        "engage-mcq-22": "「正忙於並投入某活動的」是「engaged — occupied」的用法，與本句語境不同。"
+        "engage-mcq-25": "本句的「actively engaged」指「正積極參與／高度投入的」。",
+        "engage-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-25"
     },
@@ -2351,10 +2123,8 @@ export default {
       "options": [
         "engage-mcq-25",
         "engage-mcq-24",
-        "engage-mcq-26",
-        "engage-mcq-23",
-        "engage-mcq-27",
-        "engage-mcq-22"
+        "engage-mcq-17",
+        "engage-mcq-09"
       ],
       "explanation": "本句的「actively engaged」指「正積極參與／高度投入的」。",
       "sentenceIndex": 57,
@@ -2363,12 +2133,10 @@ export default {
         "actively engaged"
       ],
       "optionReasons": {
-        "engage-mcq-25": "本句指「正積極參與／高度投入的」。",
-        "engage-mcq-24": "「激發並吸引某人的想像力」是「engage the imagination」的用法，與本句語境不同。",
-        "engage-mcq-26": "「引人入勝的；吸引人的；有吸引力的」是「Passage meaning」的用法，與本句語境不同。",
-        "engage-mcq-23": "「電話線正在使用中；佔線的」是「engaged — telephone」的用法，與本句語境不同。",
-        "engage-mcq-27": "「批判性投入；深入思考與回應」是「26. critical engagement」的用法，與本句語境不同。",
-        "engage-mcq-22": "「正忙於並投入某活動的」是「engaged — occupied」的用法，與本句語境不同。"
+        "engage-mcq-25": "本句的「actively engaged」指「正積極參與／高度投入的」。",
+        "engage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "engage-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engage-mcq-25"
     }
@@ -2380,5 +2148,7 @@ export default {
     "sha256": "923690b6579e240796682169fb86f316a0985761fd94124272d33088b32a35f8",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

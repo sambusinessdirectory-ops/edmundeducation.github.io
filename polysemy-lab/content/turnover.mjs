@@ -163,16 +163,6 @@ export default {
       "note": "來源詞義：因失誤等令己方失去球權、由對手取得球權",
       "examples": [
         [
-          "The building has a high turnover of tenants.",
-          "這棟大廈的租戶更替率很高。",
-          "因失誤等令己方失去球權、由對手取得球權"
-        ],
-        [
-          "There is constant turnover among volunteers.",
-          "義工人員經常更替。",
-          "因失誤等令己方失去球權、由對手取得球權"
-        ],
-        [
           "The team committed too many turnovers.",
           "這支球隊出現太多次失誤失去球權。",
           "因失誤等令己方失去球權、由對手取得球權"
@@ -240,6 +230,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "turnover-reviewed-78fd1b4a1a",
+      "title": "更替；周轉",
+      "form": "turnover · source section 10",
+      "en": "更替；周轉",
+      "zh": "更替；周轉",
+      "note": "對照原始教材第 10 節及例句核實。",
+      "examples": [
+        [
+          "The building has a high turnover of tenants.",
+          "這棟大廈的租戶更替率很高。",
+          "更替；周轉"
+        ],
+        [
+          "There is constant turnover among volunteers.",
+          "義工人員經常更替。",
+          "更替；周轉"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -251,11 +263,9 @@ export default {
       "masked": "Long-stay customers may reduce the restaurant’s ____ during peak hours.",
       "options": [
         "turnover-mcq-01",
-        "turnover-mcq-02",
-        "turnover-mcq-03",
-        "turnover-mcq-04",
-        "turnover-mcq-05",
-        "turnover-mcq-06"
+        "turnover-mcq-07",
+        "turnover-mcq-09",
+        "turnover-reviewed-78fd1b4a1a"
       ],
       "explanation": "本句的「turnover」指「公司／商戶在一定時期內透過銷售商品或服務所產生的營業額」。",
       "sentenceIndex": 0,
@@ -264,12 +274,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turnover-mcq-01": "本句指「公司／商戶在一定時期內透過銷售商品或服務所產生的營業額」。",
-        "turnover-mcq-02": "「員工離職並由新人取代的速度／比例；員工流失／更替率」與本句語境不同。",
-        "turnover-mcq-03": "「某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程」與本句語境不同。",
-        "turnover-mcq-04": "「存貨售出並重新補貨的速度／次數；存貨周轉率」與本句語境不同。",
-        "turnover-mcq-05": "「餐桌在一定時間內接待不同批顧客的速度；翻桌率」與本句語境不同。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。"
+        "turnover-mcq-01": "本句的「turnover」指「公司／商戶在一定時期內透過銷售商品或服務所產生的營業額」。",
+        "turnover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "turnover-reviewed-78fd1b4a1a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turnover-mcq-01"
     },
@@ -281,11 +289,9 @@ export default {
       "masked": "The company has an annual ____ of several million dollars.",
       "options": [
         "turnover-mcq-01",
-        "turnover-mcq-02",
-        "turnover-mcq-03",
-        "turnover-mcq-04",
-        "turnover-mcq-05",
-        "turnover-mcq-06"
+        "turnover-mcq-10",
+        "turnover-mcq-07",
+        "turnover-mcq-09"
       ],
       "explanation": "本句的「turnover」指「公司／商戶在一定時期內透過銷售商品或服務所產生的營業額」。",
       "sentenceIndex": 1,
@@ -294,12 +300,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turnover-mcq-01": "本句指「公司／商戶在一定時期內透過銷售商品或服務所產生的營業額」。",
-        "turnover-mcq-02": "「員工離職並由新人取代的速度／比例；員工流失／更替率」與本句語境不同。",
-        "turnover-mcq-03": "「某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程」與本句語境不同。",
-        "turnover-mcq-04": "「存貨售出並重新補貨的速度／次數；存貨周轉率」與本句語境不同。",
-        "turnover-mcq-05": "「餐桌在一定時間內接待不同批顧客的速度；翻桌率」與本句語境不同。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。"
+        "turnover-mcq-01": "本句的「turnover」指「公司／商戶在一定時期內透過銷售商品或服務所產生的營業額」。",
+        "turnover-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turnover-mcq-01"
     },
@@ -311,11 +315,9 @@ export default {
       "masked": "The business increased its ____ last year.",
       "options": [
         "turnover-mcq-01",
-        "turnover-mcq-02",
-        "turnover-mcq-03",
-        "turnover-mcq-04",
-        "turnover-mcq-05",
-        "turnover-mcq-06"
+        "turnover-mcq-07",
+        "turnover-mcq-09",
+        "turnover-mcq-10"
       ],
       "explanation": "本句的「turnover」指「公司／商戶在一定時期內透過銷售商品或服務所產生的營業額」。",
       "sentenceIndex": 2,
@@ -324,12 +326,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turnover-mcq-01": "本句指「公司／商戶在一定時期內透過銷售商品或服務所產生的營業額」。",
-        "turnover-mcq-02": "「員工離職並由新人取代的速度／比例；員工流失／更替率」與本句語境不同。",
-        "turnover-mcq-03": "「某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程」與本句語境不同。",
-        "turnover-mcq-04": "「存貨售出並重新補貨的速度／次數；存貨周轉率」與本句語境不同。",
-        "turnover-mcq-05": "「餐桌在一定時間內接待不同批顧客的速度；翻桌率」與本句語境不同。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。"
+        "turnover-mcq-01": "本句的「turnover」指「公司／商戶在一定時期內透過銷售商品或服務所產生的營業額」。",
+        "turnover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turnover-mcq-01"
     },
@@ -341,11 +341,9 @@ export default {
       "masked": "The company has a high staff ____.",
       "options": [
         "turnover-mcq-02",
-        "turnover-mcq-01",
-        "turnover-mcq-03",
-        "turnover-mcq-04",
-        "turnover-mcq-05",
-        "turnover-mcq-06"
+        "turnover-mcq-10",
+        "turnover-mcq-06",
+        "turnover-mcq-09"
       ],
       "explanation": "本句的「turnover」指「員工離職並由新人取代的速度／比例；員工流失／更替率」。",
       "sentenceIndex": 3,
@@ -354,12 +352,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turnover-mcq-02": "本句指「員工離職並由新人取代的速度／比例；員工流失／更替率」。",
-        "turnover-mcq-01": "「公司／商戶在一定時期內透過銷售商品或服務所產生的營業額」與本句語境不同。",
-        "turnover-mcq-03": "「某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程」與本句語境不同。",
-        "turnover-mcq-04": "「存貨售出並重新補貨的速度／次數；存貨周轉率」與本句語境不同。",
-        "turnover-mcq-05": "「餐桌在一定時間內接待不同批顧客的速度；翻桌率」與本句語境不同。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。"
+        "turnover-mcq-02": "本句的「turnover」指「員工離職並由新人取代的速度／比例；員工流失／更替率」。",
+        "turnover-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turnover-mcq-02"
     },
@@ -371,11 +367,9 @@ export default {
       "masked": "High employee ____ can increase recruitment costs.",
       "options": [
         "turnover-mcq-02",
-        "turnover-mcq-01",
-        "turnover-mcq-03",
-        "turnover-mcq-04",
-        "turnover-mcq-05",
-        "turnover-mcq-06"
+        "turnover-mcq-06",
+        "turnover-mcq-10",
+        "turnover-mcq-09"
       ],
       "explanation": "本句的「turnover」指「員工離職並由新人取代的速度／比例；員工流失／更替率」。",
       "sentenceIndex": 4,
@@ -384,12 +378,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turnover-mcq-02": "本句指「員工離職並由新人取代的速度／比例；員工流失／更替率」。",
-        "turnover-mcq-01": "「公司／商戶在一定時期內透過銷售商品或服務所產生的營業額」與本句語境不同。",
-        "turnover-mcq-03": "「某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程」與本句語境不同。",
-        "turnover-mcq-04": "「存貨售出並重新補貨的速度／次數；存貨周轉率」與本句語境不同。",
-        "turnover-mcq-05": "「餐桌在一定時間內接待不同批顧客的速度；翻桌率」與本句語境不同。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。"
+        "turnover-mcq-02": "本句的「turnover」指「員工離職並由新人取代的速度／比例；員工流失／更替率」。",
+        "turnover-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turnover-mcq-02"
     },
@@ -401,10 +393,8 @@ export default {
       "masked": "There has been a rapid ____ of senior managers.",
       "options": [
         "turnover-pdf-001",
-        "turnover-mcq-02",
-        "turnover-mcq-04",
-        "turnover-mcq-01",
-        "turnover-mcq-05",
+        "turnover-mcq-10",
+        "turnover-mcq-09",
         "turnover-mcq-06"
       ],
       "explanation": "本句的「turnover」指「原有的人離開，新的人成為替代者的過程／速度」。",
@@ -414,12 +404,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turnover-pdf-001": "本句指「原有的人離開，新的人成為替代者的過程／速度」。",
-        "turnover-mcq-02": "「員工離職並由新人取代的速度／比例；員工流失／更替率」與本句語境不同。",
-        "turnover-mcq-04": "「存貨售出並重新補貨的速度／次數；存貨周轉率」與本句語境不同。",
-        "turnover-mcq-01": "「公司／商戶在一定時期內透過銷售商品或服務所產生的營業額」與本句語境不同。",
-        "turnover-mcq-05": "「餐桌在一定時間內接待不同批顧客的速度；翻桌率」與本句語境不同。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。"
+        "turnover-pdf-001": "本句的「turnover」指「原有的人離開，新的人成為替代者的過程／速度」。",
+        "turnover-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turnover-pdf-001"
     },
@@ -431,11 +419,9 @@ export default {
       "masked": "The organisation experienced considerable leadership ____.",
       "options": [
         "turnover-pdf-001",
-        "turnover-mcq-02",
-        "turnover-mcq-04",
-        "turnover-mcq-01",
-        "turnover-mcq-05",
-        "turnover-mcq-06"
+        "turnover-mcq-09",
+        "turnover-mcq-10",
+        "turnover-mcq-01"
       ],
       "explanation": "本句的「turnover」指「原有的人離開，新的人成為替代者的過程／速度」。",
       "sentenceIndex": 6,
@@ -444,12 +430,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turnover-pdf-001": "本句指「原有的人離開，新的人成為替代者的過程／速度」。",
-        "turnover-mcq-02": "「員工離職並由新人取代的速度／比例；員工流失／更替率」與本句語境不同。",
-        "turnover-mcq-04": "「存貨售出並重新補貨的速度／次數；存貨周轉率」與本句語境不同。",
-        "turnover-mcq-01": "「公司／商戶在一定時期內透過銷售商品或服務所產生的營業額」與本句語境不同。",
-        "turnover-mcq-05": "「餐桌在一定時間內接待不同批顧客的速度；翻桌率」與本句語境不同。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。"
+        "turnover-pdf-001": "本句的「turnover」指「原有的人離開，新的人成為替代者的過程／速度」。",
+        "turnover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turnover-pdf-001"
     },
@@ -461,11 +445,9 @@ export default {
       "masked": "Fresh food usually requires rapid stock ____.",
       "options": [
         "turnover-mcq-04",
-        "turnover-mcq-03",
-        "turnover-mcq-05",
-        "turnover-mcq-02",
-        "turnover-mcq-06",
-        "turnover-mcq-01"
+        "turnover-mcq-10",
+        "turnover-mcq-09",
+        "turnover-mcq-06"
       ],
       "explanation": "本句的「turnover」指「存貨售出並重新補貨的速度／次數；存貨周轉率」。",
       "sentenceIndex": 7,
@@ -474,12 +456,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turnover-mcq-04": "本句指「存貨售出並重新補貨的速度／次數；存貨周轉率」。",
-        "turnover-mcq-03": "「某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程」與本句語境不同。",
-        "turnover-mcq-05": "「餐桌在一定時間內接待不同批顧客的速度；翻桌率」與本句語境不同。",
-        "turnover-mcq-02": "「員工離職並由新人取代的速度／比例；員工流失／更替率」與本句語境不同。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。",
-        "turnover-mcq-01": "「公司／商戶在一定時期內透過銷售商品或服務所產生的營業額」與本句語境不同。"
+        "turnover-mcq-04": "本句的「turnover」指「存貨售出並重新補貨的速度／次數；存貨周轉率」。",
+        "turnover-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turnover-mcq-04"
     },
@@ -491,11 +471,9 @@ export default {
       "masked": "The company is trying to improve inventory ____.",
       "options": [
         "turnover-mcq-04",
-        "turnover-mcq-03",
-        "turnover-mcq-05",
-        "turnover-mcq-02",
-        "turnover-mcq-06",
-        "turnover-mcq-01"
+        "turnover-mcq-10",
+        "turnover-mcq-09",
+        "turnover-mcq-06"
       ],
       "explanation": "本句的「turnover」指「存貨售出並重新補貨的速度／次數；存貨周轉率」。",
       "sentenceIndex": 8,
@@ -504,12 +482,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turnover-mcq-04": "本句指「存貨售出並重新補貨的速度／次數；存貨周轉率」。",
-        "turnover-mcq-03": "「某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程」與本句語境不同。",
-        "turnover-mcq-05": "「餐桌在一定時間內接待不同批顧客的速度；翻桌率」與本句語境不同。",
-        "turnover-mcq-02": "「員工離職並由新人取代的速度／比例；員工流失／更替率」與本句語境不同。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。",
-        "turnover-mcq-01": "「公司／商戶在一定時期內透過銷售商品或服務所產生的營業額」與本句語境不同。"
+        "turnover-mcq-04": "本句的「turnover」指「存貨售出並重新補貨的速度／次數；存貨周轉率」。",
+        "turnover-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turnover-mcq-04"
     },
@@ -521,11 +497,9 @@ export default {
       "masked": "Fast-food restaurants depend on relatively high table ____ at lunchtime.",
       "options": [
         "turnover-mcq-05",
-        "turnover-mcq-04",
-        "turnover-mcq-06",
-        "turnover-mcq-03",
-        "turnover-mcq-07",
-        "turnover-mcq-02"
+        "turnover-mcq-09",
+        "turnover-reviewed-78fd1b4a1a",
+        "turnover-mcq-10"
       ],
       "explanation": "本句的「turnover」指「餐桌在一定時間內接待不同批顧客的速度；翻桌率」。",
       "sentenceIndex": 9,
@@ -534,12 +508,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turnover-mcq-05": "本句指「餐桌在一定時間內接待不同批顧客的速度；翻桌率」。",
-        "turnover-mcq-04": "「存貨售出並重新補貨的速度／次數；存貨周轉率」與本句語境不同。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。",
-        "turnover-mcq-03": "「某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程」與本句語境不同。",
-        "turnover-mcq-07": "「投資組合持倉被買賣、更換的程度／比率」與本句語境不同。",
-        "turnover-mcq-02": "「員工離職並由新人取代的速度／比例；員工流失／更替率」與本句語境不同。"
+        "turnover-mcq-05": "本句的「turnover」指「餐桌在一定時間內接待不同批顧客的速度；翻桌率」。",
+        "turnover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "turnover-reviewed-78fd1b4a1a": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turnover-mcq-05"
     },
@@ -551,11 +523,9 @@ export default {
       "masked": "Customers who stay for several hours reduce table ____.",
       "options": [
         "turnover-mcq-05",
-        "turnover-mcq-04",
-        "turnover-mcq-06",
-        "turnover-mcq-03",
-        "turnover-mcq-07",
-        "turnover-mcq-02"
+        "turnover-mcq-10",
+        "turnover-reviewed-78fd1b4a1a",
+        "turnover-mcq-09"
       ],
       "explanation": "本句的「turnover」指「餐桌在一定時間內接待不同批顧客的速度；翻桌率」。",
       "sentenceIndex": 10,
@@ -564,12 +534,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turnover-mcq-05": "本句指「餐桌在一定時間內接待不同批顧客的速度；翻桌率」。",
-        "turnover-mcq-04": "「存貨售出並重新補貨的速度／次數；存貨周轉率」與本句語境不同。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。",
-        "turnover-mcq-03": "「某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程」與本句語境不同。",
-        "turnover-mcq-07": "「投資組合持倉被買賣、更換的程度／比率」與本句語境不同。",
-        "turnover-mcq-02": "「員工離職並由新人取代的速度／比例；員工流失／更替率」與本句語境不同。"
+        "turnover-mcq-05": "本句的「turnover」指「餐桌在一定時間內接待不同批顧客的速度；翻桌率」。",
+        "turnover-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turnover-reviewed-78fd1b4a1a": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turnover-mcq-05"
     },
@@ -581,11 +549,9 @@ export default {
       "masked": "The market recorded heavy ____.",
       "options": [
         "turnover-mcq-06",
-        "turnover-mcq-05",
-        "turnover-mcq-07",
-        "turnover-mcq-04",
-        "turnover-mcq-08",
-        "turnover-mcq-03"
+        "turnover-mcq-10",
+        "turnover-reviewed-78fd1b4a1a",
+        "turnover-mcq-09"
       ],
       "explanation": "本句的「turnover」指「某段時間內金融資產的交易額／成交量」。",
       "sentenceIndex": 11,
@@ -594,12 +560,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turnover-mcq-06": "本句指「某段時間內金融資產的交易額／成交量」。",
-        "turnover-mcq-05": "「餐桌在一定時間內接待不同批顧客的速度；翻桌率」與本句語境不同。",
-        "turnover-mcq-07": "「投資組合持倉被買賣、更換的程度／比率」與本句語境不同。",
-        "turnover-mcq-04": "「存貨售出並重新補貨的速度／次數；存貨周轉率」與本句語境不同。",
-        "turnover-mcq-08": "「舊細胞／組織成分被移除後由新成分取代的更新過程」與本句語境不同。",
-        "turnover-mcq-03": "「某批人／物離開、被使用或移除後由另一批取代的周轉／更替過程」與本句語境不同。"
+        "turnover-mcq-06": "本句的「turnover」指「某段時間內金融資產的交易額／成交量」。",
+        "turnover-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turnover-reviewed-78fd1b4a1a": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turnover-mcq-06"
     },
@@ -611,11 +575,9 @@ export default {
       "masked": "The fund has a relatively high portfolio ____.",
       "options": [
         "turnover-mcq-07",
-        "turnover-mcq-06",
-        "turnover-mcq-08",
-        "turnover-mcq-05",
+        "turnover-reviewed-78fd1b4a1a",
         "turnover-mcq-09",
-        "turnover-mcq-04"
+        "turnover-mcq-01"
       ],
       "explanation": "本句的「turnover」指「投資組合持倉被買賣、更換的程度／比率」。",
       "sentenceIndex": 12,
@@ -624,74 +586,68 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turnover-mcq-07": "本句指「投資組合持倉被買賣、更換的程度／比率」。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。",
-        "turnover-mcq-08": "「舊細胞／組織成分被移除後由新成分取代的更新過程」與本句語境不同。",
-        "turnover-mcq-05": "「餐桌在一定時間內接待不同批顧客的速度；翻桌率」與本句語境不同。",
-        "turnover-mcq-09": "「因失誤等令己方失去球權、由對手取得球權」與本句語境不同。",
-        "turnover-mcq-04": "「存貨售出並重新補貨的速度／次數；存貨周轉率」與本句語境不同。"
+        "turnover-mcq-07": "本句的「turnover」指「投資組合持倉被買賣、更換的程度／比率」。",
+        "turnover-reviewed-78fd1b4a1a": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turnover-mcq-07"
     },
     {
       "id": "turnover-10-0",
-      "sense": "turnover-mcq-09",
+      "sense": "turnover-reviewed-78fd1b4a1a",
       "en": "The building has a high turnover of tenants.",
       "zh": "這棟大廈的租戶更替率很高。",
       "masked": "The building has a high ____ of tenants.",
       "options": [
+        "turnover-reviewed-78fd1b4a1a",
         "turnover-mcq-09",
-        "turnover-mcq-08",
-        "turnover-mcq-10",
-        "turnover-mcq-07",
-        "turnover-mcq-11",
-        "turnover-mcq-06"
+        "turnover-mcq-05",
+        "turnover-mcq-10"
       ],
-      "explanation": "本句的「turnover」指「因失誤等令己方失去球權、由對手取得球權」。",
+      "explanation": "對照完整句子：「這棟大廈的租戶更替率很高。」。這裡的「turnover」表示「更替；周轉」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "turnover"
       ],
       "optionReasons": {
-        "turnover-mcq-09": "本句指「因失誤等令己方失去球權、由對手取得球權」。",
-        "turnover-mcq-08": "「舊細胞／組織成分被移除後由新成分取代的更新過程」與本句語境不同。",
-        "turnover-mcq-10": "「把麵皮摺起包住餡料的酥皮／餡餅」與本句語境不同。",
-        "turnover-mcq-07": "「投資組合持倉被買賣、更換的程度／比率」與本句語境不同。",
-        "turnover-mcq-11": "「翻轉、顛倒或轉變；較低頻的一般義」與本句語境不同。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。"
+        "turnover-reviewed-78fd1b4a1a": "對照完整句子：「這棟大廈的租戶更替率很高。」。這裡的「turnover」表示「更替；周轉」。",
+        "turnover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "turnover-mcq-09"
+      "correctOption": "turnover-reviewed-78fd1b4a1a",
+      "previousCorrectOption": "turnover-mcq-09",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "turnover-10-1",
-      "sense": "turnover-mcq-09",
+      "sense": "turnover-reviewed-78fd1b4a1a",
       "en": "There is constant turnover among volunteers.",
       "zh": "義工人員經常更替。",
       "masked": "There is constant ____ among volunteers.",
       "options": [
+        "turnover-reviewed-78fd1b4a1a",
         "turnover-mcq-09",
-        "turnover-mcq-08",
-        "turnover-mcq-10",
-        "turnover-mcq-07",
-        "turnover-mcq-11",
-        "turnover-mcq-06"
+        "turnover-mcq-06",
+        "turnover-mcq-10"
       ],
-      "explanation": "本句的「turnover」指「因失誤等令己方失去球權、由對手取得球權」。",
+      "explanation": "對照完整句子：「義工人員經常更替。」。這裡的「turnover」表示「更替；周轉」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "turnover"
       ],
       "optionReasons": {
-        "turnover-mcq-09": "本句指「因失誤等令己方失去球權、由對手取得球權」。",
-        "turnover-mcq-08": "「舊細胞／組織成分被移除後由新成分取代的更新過程」與本句語境不同。",
-        "turnover-mcq-10": "「把麵皮摺起包住餡料的酥皮／餡餅」與本句語境不同。",
-        "turnover-mcq-07": "「投資組合持倉被買賣、更換的程度／比率」與本句語境不同。",
-        "turnover-mcq-11": "「翻轉、顛倒或轉變；較低頻的一般義」與本句語境不同。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。"
+        "turnover-reviewed-78fd1b4a1a": "對照完整句子：「義工人員經常更替。」。這裡的「turnover」表示「更替；周轉」。",
+        "turnover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "turnover-mcq-09"
+      "correctOption": "turnover-reviewed-78fd1b4a1a",
+      "previousCorrectOption": "turnover-mcq-09",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "turnover-11-0",
@@ -701,11 +657,9 @@ export default {
       "masked": "The team committed too many ____.",
       "options": [
         "turnover-mcq-09",
-        "turnover-mcq-08",
-        "turnover-mcq-10",
         "turnover-mcq-07",
-        "turnover-mcq-11",
-        "turnover-mcq-06"
+        "turnover-mcq-05",
+        "turnover-reviewed-78fd1b4a1a"
       ],
       "explanation": "本句的「turnovers」指「因失誤等令己方失去球權、由對手取得球權」。",
       "sentenceIndex": 16,
@@ -714,12 +668,10 @@ export default {
         "turnovers"
       ],
       "optionReasons": {
-        "turnover-mcq-09": "本句指「因失誤等令己方失去球權、由對手取得球權」。",
-        "turnover-mcq-08": "「舊細胞／組織成分被移除後由新成分取代的更新過程」與本句語境不同。",
-        "turnover-mcq-10": "「把麵皮摺起包住餡料的酥皮／餡餅」與本句語境不同。",
-        "turnover-mcq-07": "「投資組合持倉被買賣、更換的程度／比率」與本句語境不同。",
-        "turnover-mcq-11": "「翻轉、顛倒或轉變；較低頻的一般義」與本句語境不同。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。"
+        "turnover-mcq-09": "本句的「turnovers」指「因失誤等令己方失去球權、由對手取得球權」。",
+        "turnover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "turnover-reviewed-78fd1b4a1a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turnover-mcq-09"
     },
@@ -731,11 +683,9 @@ export default {
       "masked": "The defender forced a ____.",
       "options": [
         "turnover-mcq-09",
-        "turnover-mcq-08",
+        "turnover-mcq-06",
         "turnover-mcq-10",
-        "turnover-mcq-07",
-        "turnover-mcq-11",
-        "turnover-mcq-06"
+        "turnover-reviewed-78fd1b4a1a"
       ],
       "explanation": "本句的「turnover」指「因失誤等令己方失去球權、由對手取得球權」。",
       "sentenceIndex": 17,
@@ -744,12 +694,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turnover-mcq-09": "本句指「因失誤等令己方失去球權、由對手取得球權」。",
-        "turnover-mcq-08": "「舊細胞／組織成分被移除後由新成分取代的更新過程」與本句語境不同。",
-        "turnover-mcq-10": "「把麵皮摺起包住餡料的酥皮／餡餅」與本句語境不同。",
-        "turnover-mcq-07": "「投資組合持倉被買賣、更換的程度／比率」與本句語境不同。",
-        "turnover-mcq-11": "「翻轉、顛倒或轉變；較低頻的一般義」與本句語境不同。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。"
+        "turnover-mcq-09": "本句的「turnover」指「因失誤等令己方失去球權、由對手取得球權」。",
+        "turnover-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turnover-reviewed-78fd1b4a1a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turnover-mcq-09"
     },
@@ -761,11 +709,9 @@ export default {
       "masked": "She bought an apple ____.",
       "options": [
         "turnover-mcq-10",
-        "turnover-mcq-09",
-        "turnover-mcq-11",
-        "turnover-mcq-08",
-        "turnover-mcq-07",
-        "turnover-mcq-06"
+        "turnover-mcq-05",
+        "turnover-reviewed-78fd1b4a1a",
+        "turnover-mcq-09"
       ],
       "explanation": "本句的「turnover」指「把麵皮摺起包住餡料的酥皮／餡餅」。",
       "sentenceIndex": 18,
@@ -774,12 +720,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turnover-mcq-10": "本句指「把麵皮摺起包住餡料的酥皮／餡餅」。",
-        "turnover-mcq-09": "「因失誤等令己方失去球權、由對手取得球權」與本句語境不同。",
-        "turnover-mcq-11": "「翻轉、顛倒或轉變；較低頻的一般義」與本句語境不同。",
-        "turnover-mcq-08": "「舊細胞／組織成分被移除後由新成分取代的更新過程」與本句語境不同。",
-        "turnover-mcq-07": "「投資組合持倉被買賣、更換的程度／比率」與本句語境不同。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。"
+        "turnover-mcq-10": "本句的「turnover」指「把麵皮摺起包住餡料的酥皮／餡餅」。",
+        "turnover-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "turnover-reviewed-78fd1b4a1a": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turnover-mcq-10"
     },
@@ -791,11 +735,9 @@ export default {
       "masked": "The bakery sells fruit ____.",
       "options": [
         "turnover-mcq-10",
-        "turnover-mcq-09",
-        "turnover-mcq-11",
-        "turnover-mcq-08",
-        "turnover-mcq-07",
-        "turnover-mcq-06"
+        "turnover-mcq-06",
+        "turnover-mcq-02",
+        "turnover-mcq-09"
       ],
       "explanation": "本句的「turnovers」指「把麵皮摺起包住餡料的酥皮／餡餅」。",
       "sentenceIndex": 19,
@@ -804,12 +746,10 @@ export default {
         "turnovers"
       ],
       "optionReasons": {
-        "turnover-mcq-10": "本句指「把麵皮摺起包住餡料的酥皮／餡餅」。",
-        "turnover-mcq-09": "「因失誤等令己方失去球權、由對手取得球權」與本句語境不同。",
-        "turnover-mcq-11": "「翻轉、顛倒或轉變；較低頻的一般義」與本句語境不同。",
-        "turnover-mcq-08": "「舊細胞／組織成分被移除後由新成分取代的更新過程」與本句語境不同。",
-        "turnover-mcq-07": "「投資組合持倉被買賣、更換的程度／比率」與本句語境不同。",
-        "turnover-mcq-06": "「某段時間內金融資產的交易額／成交量」與本句語境不同。"
+        "turnover-mcq-10": "本句的「turnovers」指「把麵皮摺起包住餡料的酥皮／餡餅」。",
+        "turnover-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "turnover-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turnover-mcq-10"
     }
@@ -821,5 +761,7 @@ export default {
     "sha256": "d8227df6c9857ec25a6f78d9bda6b42b59ffca09d6bc1c2e003761cbbfa17ee7",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

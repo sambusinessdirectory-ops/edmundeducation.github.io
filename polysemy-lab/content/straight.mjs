@@ -316,11 +316,9 @@ export default {
       "masked": "Draw a ____ line across the page.",
       "options": [
         "straight-mcq-01",
-        "straight-mcq-02",
-        "straight-mcq-03",
-        "straight-mcq-04",
+        "straight-mcq-09",
         "straight-mcq-05",
-        "straight-mcq-06"
+        "straight-mcq-08"
       ],
       "explanation": "本句的「straight」指「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」。",
       "sentenceIndex": 0,
@@ -329,12 +327,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-01": "本句指「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」。",
-        "straight-mcq-02": "「朝同一方向直接前進，中途不轉彎或偏離」是「go/walk straight」的用法，與本句語境不同。",
-        "straight-mcq-03": "「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」是「straight to/past/from somewhere」的用法，與本句語境不同。",
-        "straight-mcq-04": "「某件事情連續發生一段時間或若干次，中間沒有中斷」是「period/event + straight」的用法，與本句語境不同。",
-        "straight-mcq-05": "「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」是「straight — frank/direct」的用法，與本句語境不同。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。"
+        "straight-mcq-01": "本句的「straight」指「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-01"
     },
@@ -346,11 +342,9 @@ export default {
       "masked": "The road is almost perfectly ____ for several kilometres.",
       "options": [
         "straight-mcq-01",
-        "straight-mcq-02",
-        "straight-mcq-03",
-        "straight-mcq-04",
-        "straight-mcq-05",
-        "straight-mcq-06"
+        "straight-mcq-09",
+        "straight-mcq-08",
+        "straight-mcq-11"
       ],
       "explanation": "本句的「straight」指「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」。",
       "sentenceIndex": 1,
@@ -359,12 +353,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-01": "本句指「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」。",
-        "straight-mcq-02": "「朝同一方向直接前進，中途不轉彎或偏離」是「go/walk straight」的用法，與本句語境不同。",
-        "straight-mcq-03": "「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」是「straight to/past/from somewhere」的用法，與本句語境不同。",
-        "straight-mcq-04": "「某件事情連續發生一段時間或若干次，中間沒有中斷」是「period/event + straight」的用法，與本句語境不同。",
-        "straight-mcq-05": "「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」是「straight — frank/direct」的用法，與本句語境不同。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。"
+        "straight-mcq-01": "本句的「straight」指「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-01"
     },
@@ -376,11 +368,9 @@ export default {
       "masked": "Sit up ____.",
       "options": [
         "straight-mcq-01",
-        "straight-mcq-02",
-        "straight-mcq-03",
-        "straight-mcq-04",
-        "straight-mcq-05",
-        "straight-mcq-06"
+        "straight-mcq-09",
+        "straight-mcq-08",
+        "straight-mcq-11"
       ],
       "explanation": "本句的「straight」指「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」。",
       "sentenceIndex": 2,
@@ -389,12 +379,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-01": "本句指「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」。",
-        "straight-mcq-02": "「朝同一方向直接前進，中途不轉彎或偏離」是「go/walk straight」的用法，與本句語境不同。",
-        "straight-mcq-03": "「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」是「straight to/past/from somewhere」的用法，與本句語境不同。",
-        "straight-mcq-04": "「某件事情連續發生一段時間或若干次，中間沒有中斷」是「period/event + straight」的用法，與本句語境不同。",
-        "straight-mcq-05": "「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」是「straight — frank/direct」的用法，與本句語境不同。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。"
+        "straight-mcq-01": "本句的「straight」指「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-01"
     },
@@ -406,11 +394,9 @@ export default {
       "masked": "Is this picture ____?",
       "options": [
         "straight-mcq-01",
-        "straight-mcq-02",
-        "straight-mcq-03",
-        "straight-mcq-04",
+        "straight-mcq-09",
         "straight-mcq-05",
-        "straight-mcq-06"
+        "straight-mcq-08"
       ],
       "explanation": "本句的「straight」指「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」。",
       "sentenceIndex": 3,
@@ -419,12 +405,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-01": "本句指「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」。",
-        "straight-mcq-02": "「朝同一方向直接前進，中途不轉彎或偏離」是「go/walk straight」的用法，與本句語境不同。",
-        "straight-mcq-03": "「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」是「straight to/past/from somewhere」的用法，與本句語境不同。",
-        "straight-mcq-04": "「某件事情連續發生一段時間或若干次，中間沒有中斷」是「period/event + straight」的用法，與本句語境不同。",
-        "straight-mcq-05": "「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」是「straight — frank/direct」的用法，與本句語境不同。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。"
+        "straight-mcq-01": "本句的「straight」指「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-01"
     },
@@ -436,11 +420,9 @@ export default {
       "masked": "Go ____ for two blocks, then turn left.",
       "options": [
         "straight-mcq-02",
-        "straight-mcq-01",
-        "straight-mcq-03",
-        "straight-mcq-04",
-        "straight-mcq-05",
-        "straight-mcq-06"
+        "straight-mcq-12",
+        "straight-mcq-06",
+        "straight-mcq-09"
       ],
       "explanation": "本句的「straight」指「朝同一方向直接前進，中途不轉彎或偏離」。",
       "sentenceIndex": 4,
@@ -449,12 +431,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-02": "本句指「朝同一方向直接前進，中途不轉彎或偏離」。",
-        "straight-mcq-01": "「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」是「straight — physical shape/alignment」的用法，與本句語境不同。",
-        "straight-mcq-03": "「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」是「straight to/past/from somewhere」的用法，與本句語境不同。",
-        "straight-mcq-04": "「某件事情連續發生一段時間或若干次，中間沒有中斷」是「period/event + straight」的用法，與本句語境不同。",
-        "straight-mcq-05": "「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」是「straight — frank/direct」的用法，與本句語境不同。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。"
+        "straight-mcq-02": "本句的「straight」指「朝同一方向直接前進，中途不轉彎或偏離」。",
+        "straight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-02"
     },
@@ -466,11 +446,9 @@ export default {
       "masked": "She drove ____ ahead at the junction.",
       "options": [
         "straight-mcq-02",
-        "straight-mcq-01",
-        "straight-mcq-03",
-        "straight-mcq-04",
-        "straight-mcq-05",
-        "straight-mcq-06"
+        "straight-mcq-07",
+        "straight-mcq-06",
+        "straight-mcq-09"
       ],
       "explanation": "本句的「straight」指「朝同一方向直接前進，中途不轉彎或偏離」。",
       "sentenceIndex": 5,
@@ -479,12 +457,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-02": "本句指「朝同一方向直接前進，中途不轉彎或偏離」。",
-        "straight-mcq-01": "「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」是「straight — physical shape/alignment」的用法，與本句語境不同。",
-        "straight-mcq-03": "「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」是「straight to/past/from somewhere」的用法，與本句語境不同。",
-        "straight-mcq-04": "「某件事情連續發生一段時間或若干次，中間沒有中斷」是「period/event + straight」的用法，與本句語境不同。",
-        "straight-mcq-05": "「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」是「straight — frank/direct」的用法，與本句語境不同。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。"
+        "straight-mcq-02": "本句的「straight」指「朝同一方向直接前進，中途不轉彎或偏離」。",
+        "straight-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-02"
     },
@@ -496,11 +472,9 @@ export default {
       "masked": "Most of us walk ____ those tiny details.",
       "options": [
         "straight-mcq-03",
-        "straight-mcq-02",
-        "straight-mcq-04",
-        "straight-mcq-01",
-        "straight-mcq-05",
-        "straight-mcq-06"
+        "straight-mcq-06",
+        "straight-mcq-08",
+        "straight-mcq-09"
       ],
       "explanation": "本句的「straight past」指「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」。",
       "sentenceIndex": 6,
@@ -509,12 +483,10 @@ export default {
         "straight past"
       ],
       "optionReasons": {
-        "straight-mcq-03": "本句指「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」。",
-        "straight-mcq-02": "「朝同一方向直接前進，中途不轉彎或偏離」是「go/walk straight」的用法，與本句語境不同。",
-        "straight-mcq-04": "「某件事情連續發生一段時間或若干次，中間沒有中斷」是「period/event + straight」的用法，與本句語境不同。",
-        "straight-mcq-01": "「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」是「straight — physical shape/alignment」的用法，與本句語境不同。",
-        "straight-mcq-05": "「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」是「straight — frank/direct」的用法，與本句語境不同。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。"
+        "straight-mcq-03": "本句的「straight past」指「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」。",
+        "straight-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-03"
     },
@@ -526,10 +498,8 @@ export default {
       "masked": "After work, she went ____.",
       "options": [
         "straight-mcq-03",
-        "straight-mcq-02",
-        "straight-mcq-04",
-        "straight-mcq-01",
-        "straight-mcq-05",
+        "straight-mcq-12",
+        "straight-mcq-09",
         "straight-mcq-06"
       ],
       "explanation": "本句的「straight home」指「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」。",
@@ -539,12 +509,10 @@ export default {
         "straight home"
       ],
       "optionReasons": {
-        "straight-mcq-03": "本句指「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」。",
-        "straight-mcq-02": "「朝同一方向直接前進，中途不轉彎或偏離」是「go/walk straight」的用法，與本句語境不同。",
-        "straight-mcq-04": "「某件事情連續發生一段時間或若干次，中間沒有中斷」是「period/event + straight」的用法，與本句語境不同。",
-        "straight-mcq-01": "「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」是「straight — physical shape/alignment」的用法，與本句語境不同。",
-        "straight-mcq-05": "「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」是「straight — frank/direct」的用法，與本句語境不同。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。"
+        "straight-mcq-03": "本句的「straight home」指「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」。",
+        "straight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-03"
     },
@@ -556,11 +524,9 @@ export default {
       "masked": "He walked ____ without saying hello.",
       "options": [
         "straight-mcq-03",
-        "straight-mcq-02",
-        "straight-mcq-04",
-        "straight-mcq-01",
-        "straight-mcq-05",
-        "straight-mcq-06"
+        "straight-mcq-06",
+        "straight-mcq-12",
+        "straight-mcq-09"
       ],
       "explanation": "本句的「straight past me」指「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」。",
       "sentenceIndex": 8,
@@ -569,12 +535,10 @@ export default {
         "straight past me"
       ],
       "optionReasons": {
-        "straight-mcq-03": "本句指「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」。",
-        "straight-mcq-02": "「朝同一方向直接前進，中途不轉彎或偏離」是「go/walk straight」的用法，與本句語境不同。",
-        "straight-mcq-04": "「某件事情連續發生一段時間或若干次，中間沒有中斷」是「period/event + straight」的用法，與本句語境不同。",
-        "straight-mcq-01": "「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」是「straight — physical shape/alignment」的用法，與本句語境不同。",
-        "straight-mcq-05": "「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」是「straight — frank/direct」的用法，與本句語境不同。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。"
+        "straight-mcq-03": "本句的「straight past me」指「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」。",
+        "straight-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-03"
     },
@@ -586,11 +550,9 @@ export default {
       "masked": "He worked for ten hours ____.",
       "options": [
         "straight-mcq-04",
-        "straight-mcq-03",
-        "straight-mcq-05",
         "straight-mcq-02",
-        "straight-mcq-06",
-        "straight-mcq-01"
+        "straight-mcq-10",
+        "straight-mcq-06"
       ],
       "explanation": "本句的「straight」指「某件事情連續發生一段時間或若干次，中間沒有中斷」。",
       "sentenceIndex": 9,
@@ -599,12 +561,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-04": "本句指「某件事情連續發生一段時間或若干次，中間沒有中斷」。",
-        "straight-mcq-03": "「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」是「straight to/past/from somewhere」的用法，與本句語境不同。",
-        "straight-mcq-05": "「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」是「straight — frank/direct」的用法，與本句語境不同。",
-        "straight-mcq-02": "「朝同一方向直接前進，中途不轉彎或偏離」是「go/walk straight」的用法，與本句語境不同。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。",
-        "straight-mcq-01": "「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」是「straight — physical shape/alignment」的用法，與本句語境不同。"
+        "straight-mcq-04": "本句的「straight」指「某件事情連續發生一段時間或若干次，中間沒有中斷」。",
+        "straight-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-04"
     },
@@ -616,11 +576,9 @@ export default {
       "masked": "It rained for three days ____.",
       "options": [
         "straight-mcq-04",
-        "straight-mcq-03",
-        "straight-mcq-05",
-        "straight-mcq-02",
-        "straight-mcq-06",
-        "straight-mcq-01"
+        "straight-mcq-11",
+        "straight-mcq-08",
+        "straight-mcq-10"
       ],
       "explanation": "本句的「straight」指「某件事情連續發生一段時間或若干次，中間沒有中斷」。",
       "sentenceIndex": 10,
@@ -629,12 +587,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-04": "本句指「某件事情連續發生一段時間或若干次，中間沒有中斷」。",
-        "straight-mcq-03": "「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」是「straight to/past/from somewhere」的用法，與本句語境不同。",
-        "straight-mcq-05": "「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」是「straight — frank/direct」的用法，與本句語境不同。",
-        "straight-mcq-02": "「朝同一方向直接前進，中途不轉彎或偏離」是「go/walk straight」的用法，與本句語境不同。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。",
-        "straight-mcq-01": "「沒有彎曲、歪斜或偏離正確方向；筆直、端正或排列整齊的」是「straight — physical shape/alignment」的用法，與本句語境不同。"
+        "straight-mcq-04": "本句的「straight」指「某件事情連續發生一段時間或若干次，中間沒有中斷」。",
+        "straight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-04"
     },
@@ -646,11 +602,9 @@ export default {
       "masked": "The team won five ____ games.",
       "options": [
         "straight-mcq-13",
-        "straight-mcq-12",
-        "straight-mcq-11",
+        "straight-mcq-08",
         "straight-mcq-10",
-        "straight-mcq-09",
-        "straight-mcq-08"
+        "straight-mcq-06"
       ],
       "explanation": "本句的「straight」指「同類事情一個接一個連續發生，中間沒有中斷」。",
       "sentenceIndex": 11,
@@ -659,12 +613,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-13": "本句指「同類事情一個接一個連續發生，中間沒有中斷」。",
-        "straight-mcq-12": "「沒有延誤地立即做某件事；馬上」是「straightaway」的用法，與本句語境不同。",
-        "straight-mcq-11": "「簡單清楚、容易理解或處理的；亦可指坦率直接的」是「straightforward」的用法，與本句語境不同。",
-        "straight-mcq-10": "「令原本彎曲、傾斜或不整齊的東西變得筆直或端正」是「straighten」的用法，與本句語境不同。",
-        "straight-mcq-09": "「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」是「a straight — cards」的用法，與本句語境不同。",
-        "straight-mcq-08": "「性取向主要受到異性吸引的；異性戀的」是「straight — heterosexual」的用法，與本句語境不同。"
+        "straight-mcq-13": "本句的「straight」指「同類事情一個接一個連續發生，中間沒有中斷」。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-13"
     },
@@ -676,11 +628,9 @@ export default {
       "masked": "She worked seven ____ days without a break.",
       "options": [
         "straight-mcq-13",
-        "straight-mcq-12",
-        "straight-mcq-11",
+        "straight-mcq-08",
         "straight-mcq-10",
-        "straight-mcq-09",
-        "straight-mcq-08"
+        "straight-mcq-06"
       ],
       "explanation": "本句的「straight」指「同類事情一個接一個連續發生，中間沒有中斷」。",
       "sentenceIndex": 12,
@@ -689,12 +639,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-13": "本句指「同類事情一個接一個連續發生，中間沒有中斷」。",
-        "straight-mcq-12": "「沒有延誤地立即做某件事；馬上」是「straightaway」的用法，與本句語境不同。",
-        "straight-mcq-11": "「簡單清楚、容易理解或處理的；亦可指坦率直接的」是「straightforward」的用法，與本句語境不同。",
-        "straight-mcq-10": "「令原本彎曲、傾斜或不整齊的東西變得筆直或端正」是「straighten」的用法，與本句語境不同。",
-        "straight-mcq-09": "「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」是「a straight — cards」的用法，與本句語境不同。",
-        "straight-mcq-08": "「性取向主要受到異性吸引的；異性戀的」是「straight — heterosexual」的用法，與本句語境不同。"
+        "straight-mcq-13": "本句的「straight」指「同類事情一個接一個連續發生，中間沒有中斷」。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-13"
     },
@@ -706,11 +654,9 @@ export default {
       "masked": "Give me a ____ answer.",
       "options": [
         "straight-mcq-05",
-        "straight-mcq-04",
-        "straight-mcq-06",
-        "straight-mcq-03",
-        "straight-mcq-07",
-        "straight-mcq-02"
+        "straight-mcq-12",
+        "straight-mcq-08",
+        "straight-mcq-09"
       ],
       "explanation": "本句的「straight」指「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」。",
       "sentenceIndex": 13,
@@ -719,12 +665,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-05": "本句指「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」。",
-        "straight-mcq-04": "「某件事情連續發生一段時間或若干次，中間沒有中斷」是「period/event + straight」的用法，與本句語境不同。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。",
-        "straight-mcq-03": "「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」是「straight to/past/from somewhere」的用法，與本句語境不同。",
-        "straight-mcq-07": "「沒有加入其他成分、變化或額外處理，保持純粹或原本形式」是「straight — unmixed/unmodified」的用法，與本句語境不同。",
-        "straight-mcq-02": "「朝同一方向直接前進，中途不轉彎或偏離」是「go/walk straight」的用法，與本句語境不同。"
+        "straight-mcq-05": "本句的「straight」指「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」。",
+        "straight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-05"
     },
@@ -736,11 +680,9 @@ export default {
       "masked": "She was very ____ with me about the problem.",
       "options": [
         "straight-mcq-05",
-        "straight-mcq-04",
-        "straight-mcq-06",
-        "straight-mcq-03",
-        "straight-mcq-07",
-        "straight-mcq-02"
+        "straight-mcq-12",
+        "straight-mcq-09",
+        "straight-mcq-08"
       ],
       "explanation": "本句的「straight」指「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」。",
       "sentenceIndex": 14,
@@ -749,12 +691,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-05": "本句指「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」。",
-        "straight-mcq-04": "「某件事情連續發生一段時間或若干次，中間沒有中斷」是「period/event + straight」的用法，與本句語境不同。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。",
-        "straight-mcq-03": "「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」是「straight to/past/from somewhere」的用法，與本句語境不同。",
-        "straight-mcq-07": "「沒有加入其他成分、變化或額外處理，保持純粹或原本形式」是「straight — unmixed/unmodified」的用法，與本句語境不同。",
-        "straight-mcq-02": "「朝同一方向直接前進，中途不轉彎或偏離」是「go/walk straight」的用法，與本句語境不同。"
+        "straight-mcq-05": "本句的「straight」指「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」。",
+        "straight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-05"
     },
@@ -766,11 +706,9 @@ export default {
       "masked": "Let me get this ____: you already knew about the problem?",
       "options": [
         "straight-mcq-06",
-        "straight-mcq-05",
-        "straight-mcq-07",
-        "straight-mcq-04",
-        "straight-mcq-08",
-        "straight-mcq-03"
+        "straight-mcq-12",
+        "straight-mcq-09",
+        "straight-mcq-02"
       ],
       "explanation": "本句的「straight」指「資料、理解或說法被整理至清楚、正確、不混亂的狀態」。",
       "sentenceIndex": 15,
@@ -779,12 +717,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-06": "本句指「資料、理解或說法被整理至清楚、正確、不混亂的狀態」。",
-        "straight-mcq-05": "「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」是「straight — frank/direct」的用法，與本句語境不同。",
-        "straight-mcq-07": "「沒有加入其他成分、變化或額外處理，保持純粹或原本形式」是「straight — unmixed/unmodified」的用法，與本句語境不同。",
-        "straight-mcq-04": "「某件事情連續發生一段時間或若干次，中間沒有中斷」是「period/event + straight」的用法，與本句語境不同。",
-        "straight-mcq-08": "「性取向主要受到異性吸引的；異性戀的」是「straight — heterosexual」的用法，與本句語境不同。",
-        "straight-mcq-03": "「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」是「straight to/past/from somewhere」的用法，與本句語境不同。"
+        "straight-mcq-06": "本句的「straight」指「資料、理解或說法被整理至清楚、正確、不混亂的狀態」。",
+        "straight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-06"
     },
@@ -796,11 +732,9 @@ export default {
       "masked": "She wanted to set the record ____.",
       "options": [
         "straight-mcq-06",
-        "straight-mcq-05",
-        "straight-mcq-07",
-        "straight-mcq-04",
-        "straight-mcq-08",
-        "straight-mcq-03"
+        "straight-mcq-13",
+        "straight-mcq-02",
+        "straight-mcq-08"
       ],
       "explanation": "本句的「straight」指「資料、理解或說法被整理至清楚、正確、不混亂的狀態」。",
       "sentenceIndex": 16,
@@ -809,12 +743,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-06": "本句指「資料、理解或說法被整理至清楚、正確、不混亂的狀態」。",
-        "straight-mcq-05": "「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」是「straight — frank/direct」的用法，與本句語境不同。",
-        "straight-mcq-07": "「沒有加入其他成分、變化或額外處理，保持純粹或原本形式」是「straight — unmixed/unmodified」的用法，與本句語境不同。",
-        "straight-mcq-04": "「某件事情連續發生一段時間或若干次，中間沒有中斷」是「period/event + straight」的用法，與本句語境不同。",
-        "straight-mcq-08": "「性取向主要受到異性吸引的；異性戀的」是「straight — heterosexual」的用法，與本句語境不同。",
-        "straight-mcq-03": "「不停下、不繞路或不轉去其他地方，而直接前往、離開或經過某處」是「straight to/past/from somewhere」的用法，與本句語境不同。"
+        "straight-mcq-06": "本句的「straight」指「資料、理解或說法被整理至清楚、正確、不混亂的狀態」。",
+        "straight-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-06"
     },
@@ -826,11 +758,9 @@ export default {
       "masked": "He drinks his coffee ____, without milk or sugar.",
       "options": [
         "straight-mcq-07",
-        "straight-mcq-06",
-        "straight-mcq-08",
         "straight-mcq-05",
-        "straight-mcq-09",
-        "straight-mcq-04"
+        "straight-mcq-08",
+        "straight-mcq-09"
       ],
       "explanation": "本句的「straight」指「沒有加入其他成分、變化或額外處理，保持純粹或原本形式」。",
       "sentenceIndex": 17,
@@ -839,12 +769,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-07": "本句指「沒有加入其他成分、變化或額外處理，保持純粹或原本形式」。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。",
-        "straight-mcq-08": "「性取向主要受到異性吸引的；異性戀的」是「straight — heterosexual」的用法，與本句語境不同。",
-        "straight-mcq-05": "「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」是「straight — frank/direct」的用法，與本句語境不同。",
-        "straight-mcq-09": "「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」是「a straight — cards」的用法，與本句語境不同。",
-        "straight-mcq-04": "「某件事情連續發生一段時間或若干次，中間沒有中斷」是「period/event + straight」的用法，與本句語境不同。"
+        "straight-mcq-07": "本句的「straight」指「沒有加入其他成分、變化或額外處理，保持純粹或原本形式」。",
+        "straight-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-07"
     },
@@ -856,11 +784,9 @@ export default {
       "masked": "She preferred a ____ factual account of what happened.",
       "options": [
         "straight-mcq-07",
-        "straight-mcq-06",
+        "straight-mcq-02",
         "straight-mcq-08",
-        "straight-mcq-05",
-        "straight-mcq-09",
-        "straight-mcq-04"
+        "straight-mcq-09"
       ],
       "explanation": "本句的「straight」指「沒有加入其他成分、變化或額外處理，保持純粹或原本形式」。",
       "sentenceIndex": 18,
@@ -869,12 +795,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-07": "本句指「沒有加入其他成分、變化或額外處理，保持純粹或原本形式」。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。",
-        "straight-mcq-08": "「性取向主要受到異性吸引的；異性戀的」是「straight — heterosexual」的用法，與本句語境不同。",
-        "straight-mcq-05": "「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」是「straight — frank/direct」的用法，與本句語境不同。",
-        "straight-mcq-09": "「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」是「a straight — cards」的用法，與本句語境不同。",
-        "straight-mcq-04": "「某件事情連續發生一段時間或若干次，中間沒有中斷」是「period/event + straight」的用法，與本句語境不同。"
+        "straight-mcq-07": "本句的「straight」指「沒有加入其他成分、變化或額外處理，保持純粹或原本形式」。",
+        "straight-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-07"
     },
@@ -887,10 +811,8 @@ export default {
       "options": [
         "straight-mcq-08",
         "straight-mcq-07",
-        "straight-mcq-09",
-        "straight-mcq-06",
-        "straight-mcq-10",
-        "straight-mcq-05"
+        "straight-mcq-05",
+        "straight-mcq-09"
       ],
       "explanation": "本句的「straight」指「性取向主要受到異性吸引的；異性戀的」。",
       "sentenceIndex": 19,
@@ -899,12 +821,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-08": "本句指「性取向主要受到異性吸引的；異性戀的」。",
-        "straight-mcq-07": "「沒有加入其他成分、變化或額外處理，保持純粹或原本形式」是「straight — unmixed/unmodified」的用法，與本句語境不同。",
-        "straight-mcq-09": "「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」是「a straight — cards」的用法，與本句語境不同。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。",
-        "straight-mcq-10": "「令原本彎曲、傾斜或不整齊的東西變得筆直或端正」是「straighten」的用法，與本句語境不同。",
-        "straight-mcq-05": "「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」是「straight — frank/direct」的用法，與本句語境不同。"
+        "straight-mcq-08": "本句的「straight」指「性取向主要受到異性吸引的；異性戀的」。",
+        "straight-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-08"
     },
@@ -916,11 +836,9 @@ export default {
       "masked": "He identifies as ____.",
       "options": [
         "straight-mcq-08",
-        "straight-mcq-07",
-        "straight-mcq-09",
+        "straight-mcq-13",
         "straight-mcq-06",
-        "straight-mcq-10",
-        "straight-mcq-05"
+        "straight-mcq-10"
       ],
       "explanation": "本句的「straight」指「性取向主要受到異性吸引的；異性戀的」。",
       "sentenceIndex": 20,
@@ -929,12 +847,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-08": "本句指「性取向主要受到異性吸引的；異性戀的」。",
-        "straight-mcq-07": "「沒有加入其他成分、變化或額外處理，保持純粹或原本形式」是「straight — unmixed/unmodified」的用法，與本句語境不同。",
-        "straight-mcq-09": "「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」是「a straight — cards」的用法，與本句語境不同。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。",
-        "straight-mcq-10": "「令原本彎曲、傾斜或不整齊的東西變得筆直或端正」是「straighten」的用法，與本句語境不同。",
-        "straight-mcq-05": "「說話、回答或態度坦率直接，不迴避、不含糊或刻意掩飾」是「straight — frank/direct」的用法，與本句語境不同。"
+        "straight-mcq-08": "本句的「straight」指「性取向主要受到異性吸引的；異性戀的」。",
+        "straight-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-08"
     },
@@ -946,11 +862,9 @@ export default {
       "masked": "He won the hand with a ____.",
       "options": [
         "straight-mcq-09",
-        "straight-mcq-08",
+        "straight-mcq-03",
         "straight-mcq-10",
-        "straight-mcq-07",
-        "straight-mcq-11",
-        "straight-mcq-06"
+        "straight-mcq-12"
       ],
       "explanation": "本句的「straight」指「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」。",
       "sentenceIndex": 21,
@@ -959,12 +873,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-09": "本句指「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」。",
-        "straight-mcq-08": "「性取向主要受到異性吸引的；異性戀的」是「straight — heterosexual」的用法，與本句語境不同。",
-        "straight-mcq-10": "「令原本彎曲、傾斜或不整齊的東西變得筆直或端正」是「straighten」的用法，與本句語境不同。",
-        "straight-mcq-07": "「沒有加入其他成分、變化或額外處理，保持純粹或原本形式」是「straight — unmixed/unmodified」的用法，與本句語境不同。",
-        "straight-mcq-11": "「簡單清楚、容易理解或處理的；亦可指坦率直接的」是「straightforward」的用法，與本句語境不同。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。"
+        "straight-mcq-09": "本句的「straight」指「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」。",
+        "straight-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-09"
     },
@@ -976,11 +888,9 @@ export default {
       "masked": "A ____ consists of five cards in sequence.",
       "options": [
         "straight-mcq-09",
+        "straight-mcq-02",
         "straight-mcq-08",
-        "straight-mcq-10",
-        "straight-mcq-07",
-        "straight-mcq-11",
-        "straight-mcq-06"
+        "straight-mcq-10"
       ],
       "explanation": "本句的「straight」指「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」。",
       "sentenceIndex": 22,
@@ -989,12 +899,10 @@ export default {
         "straight"
       ],
       "optionReasons": {
-        "straight-mcq-09": "本句指「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」。",
-        "straight-mcq-08": "「性取向主要受到異性吸引的；異性戀的」是「straight — heterosexual」的用法，與本句語境不同。",
-        "straight-mcq-10": "「令原本彎曲、傾斜或不整齊的東西變得筆直或端正」是「straighten」的用法，與本句語境不同。",
-        "straight-mcq-07": "「沒有加入其他成分、變化或額外處理，保持純粹或原本形式」是「straight — unmixed/unmodified」的用法，與本句語境不同。",
-        "straight-mcq-11": "「簡單清楚、容易理解或處理的；亦可指坦率直接的」是「straightforward」的用法，與本句語境不同。",
-        "straight-mcq-06": "「資料、理解或說法被整理至清楚、正確、不混亂的狀態」是「straight — correct/clear」的用法，與本句語境不同。"
+        "straight-mcq-09": "本句的「straight」指「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」。",
+        "straight-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-09"
     },
@@ -1007,10 +915,8 @@ export default {
       "options": [
         "straight-mcq-10",
         "straight-mcq-09",
-        "straight-mcq-11",
         "straight-mcq-08",
-        "straight-mcq-12",
-        "straight-mcq-07"
+        "straight-mcq-12"
       ],
       "explanation": "本句的「straightened」指「令原本彎曲、傾斜或不整齊的東西變得筆直或端正」。",
       "sentenceIndex": 23,
@@ -1019,12 +925,10 @@ export default {
         "straightened"
       ],
       "optionReasons": {
-        "straight-mcq-10": "本句指「令原本彎曲、傾斜或不整齊的東西變得筆直或端正」。",
-        "straight-mcq-09": "「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」是「a straight — cards」的用法，與本句語境不同。",
-        "straight-mcq-11": "「簡單清楚、容易理解或處理的；亦可指坦率直接的」是「straightforward」的用法，與本句語境不同。",
-        "straight-mcq-08": "「性取向主要受到異性吸引的；異性戀的」是「straight — heterosexual」的用法，與本句語境不同。",
-        "straight-mcq-12": "「沒有延誤地立即做某件事；馬上」是「straightaway」的用法，與本句語境不同。",
-        "straight-mcq-07": "「沒有加入其他成分、變化或額外處理，保持純粹或原本形式」是「straight — unmixed/unmodified」的用法，與本句語境不同。"
+        "straight-mcq-10": "本句的「straightened」指「令原本彎曲、傾斜或不整齊的東西變得筆直或端正」。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-10"
     },
@@ -1037,10 +941,8 @@ export default {
       "options": [
         "straight-mcq-10",
         "straight-mcq-09",
-        "straight-mcq-11",
         "straight-mcq-08",
-        "straight-mcq-12",
-        "straight-mcq-07"
+        "straight-mcq-12"
       ],
       "explanation": "本句的「straightened」指「令原本彎曲、傾斜或不整齊的東西變得筆直或端正」。",
       "sentenceIndex": 24,
@@ -1049,12 +951,10 @@ export default {
         "straightened"
       ],
       "optionReasons": {
-        "straight-mcq-10": "本句指「令原本彎曲、傾斜或不整齊的東西變得筆直或端正」。",
-        "straight-mcq-09": "「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」是「a straight — cards」的用法，與本句語境不同。",
-        "straight-mcq-11": "「簡單清楚、容易理解或處理的；亦可指坦率直接的」是「straightforward」的用法，與本句語境不同。",
-        "straight-mcq-08": "「性取向主要受到異性吸引的；異性戀的」是「straight — heterosexual」的用法，與本句語境不同。",
-        "straight-mcq-12": "「沒有延誤地立即做某件事；馬上」是「straightaway」的用法，與本句語境不同。",
-        "straight-mcq-07": "「沒有加入其他成分、變化或額外處理，保持純粹或原本形式」是「straight — unmixed/unmodified」的用法，與本句語境不同。"
+        "straight-mcq-10": "本句的「straightened」指「令原本彎曲、傾斜或不整齊的東西變得筆直或端正」。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-10"
     },
@@ -1066,11 +966,9 @@ export default {
       "masked": "The instructions are very ____.",
       "options": [
         "straight-mcq-11",
-        "straight-mcq-10",
-        "straight-mcq-12",
         "straight-mcq-09",
-        "straight-mcq-13",
-        "straight-mcq-08"
+        "straight-mcq-08",
+        "straight-mcq-12"
       ],
       "explanation": "本句的「straightforward」指「簡單清楚、容易理解或處理的；亦可指坦率直接的」。",
       "sentenceIndex": 25,
@@ -1079,12 +977,10 @@ export default {
         "straightforward"
       ],
       "optionReasons": {
-        "straight-mcq-11": "本句指「簡單清楚、容易理解或處理的；亦可指坦率直接的」。",
-        "straight-mcq-10": "「令原本彎曲、傾斜或不整齊的東西變得筆直或端正」是「straighten」的用法，與本句語境不同。",
-        "straight-mcq-12": "「沒有延誤地立即做某件事；馬上」是「straightaway」的用法，與本句語境不同。",
-        "straight-mcq-09": "「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」是「a straight — cards」的用法，與本句語境不同。",
-        "straight-mcq-13": "「同類事情一個接一個連續發生，中間沒有中斷」是「6. straight = consecutive（連續的） — 連續的；接連的」的用法，與本句語境不同。",
-        "straight-mcq-08": "「性取向主要受到異性吸引的；異性戀的」是「straight — heterosexual」的用法，與本句語境不同。"
+        "straight-mcq-11": "本句的「straightforward」指「簡單清楚、容易理解或處理的；亦可指坦率直接的」。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-11"
     },
@@ -1096,10 +992,8 @@ export default {
       "masked": "She was ____ about what she wanted.",
       "options": [
         "straight-mcq-11",
-        "straight-mcq-10",
         "straight-mcq-12",
         "straight-mcq-09",
-        "straight-mcq-13",
         "straight-mcq-08"
       ],
       "explanation": "本句的「straightforward」指「簡單清楚、容易理解或處理的；亦可指坦率直接的」。",
@@ -1109,12 +1003,10 @@ export default {
         "straightforward"
       ],
       "optionReasons": {
-        "straight-mcq-11": "本句指「簡單清楚、容易理解或處理的；亦可指坦率直接的」。",
-        "straight-mcq-10": "「令原本彎曲、傾斜或不整齊的東西變得筆直或端正」是「straighten」的用法，與本句語境不同。",
-        "straight-mcq-12": "「沒有延誤地立即做某件事；馬上」是「straightaway」的用法，與本句語境不同。",
-        "straight-mcq-09": "「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」是「a straight — cards」的用法，與本句語境不同。",
-        "straight-mcq-13": "「同類事情一個接一個連續發生，中間沒有中斷」是「6. straight = consecutive（連續的） — 連續的；接連的」的用法，與本句語境不同。",
-        "straight-mcq-08": "「性取向主要受到異性吸引的；異性戀的」是「straight — heterosexual」的用法，與本句語境不同。"
+        "straight-mcq-11": "本句的「straightforward」指「簡單清楚、容易理解或處理的；亦可指坦率直接的」。",
+        "straight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-11"
     },
@@ -1126,10 +1018,8 @@ export default {
       "masked": "I knew ____ that something was wrong.",
       "options": [
         "straight-mcq-12",
-        "straight-mcq-11",
-        "straight-mcq-13",
+        "straight-mcq-05",
         "straight-mcq-10",
-        "straight-mcq-09",
         "straight-mcq-08"
       ],
       "explanation": "本句的「straightaway」指「沒有延誤地立即做某件事；馬上」。",
@@ -1139,12 +1029,10 @@ export default {
         "straightaway"
       ],
       "optionReasons": {
-        "straight-mcq-12": "本句指「沒有延誤地立即做某件事；馬上」。",
-        "straight-mcq-11": "「簡單清楚、容易理解或處理的；亦可指坦率直接的」是「straightforward」的用法，與本句語境不同。",
-        "straight-mcq-13": "「同類事情一個接一個連續發生，中間沒有中斷」是「6. straight = consecutive（連續的） — 連續的；接連的」的用法，與本句語境不同。",
-        "straight-mcq-10": "「令原本彎曲、傾斜或不整齊的東西變得筆直或端正」是「straighten」的用法，與本句語境不同。",
-        "straight-mcq-09": "「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」是「a straight — cards」的用法，與本句語境不同。",
-        "straight-mcq-08": "「性取向主要受到異性吸引的；異性戀的」是「straight — heterosexual」的用法，與本句語境不同。"
+        "straight-mcq-12": "本句的「straightaway」指「沒有延誤地立即做某件事；馬上」。",
+        "straight-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-12"
     },
@@ -1156,11 +1044,9 @@ export default {
       "masked": "Please call me ____ if anything changes.",
       "options": [
         "straight-mcq-12",
-        "straight-mcq-11",
-        "straight-mcq-13",
         "straight-mcq-10",
-        "straight-mcq-09",
-        "straight-mcq-08"
+        "straight-mcq-08",
+        "straight-mcq-03"
       ],
       "explanation": "本句的「straightaway」指「沒有延誤地立即做某件事；馬上」。",
       "sentenceIndex": 28,
@@ -1169,12 +1055,10 @@ export default {
         "straightaway"
       ],
       "optionReasons": {
-        "straight-mcq-12": "本句指「沒有延誤地立即做某件事；馬上」。",
-        "straight-mcq-11": "「簡單清楚、容易理解或處理的；亦可指坦率直接的」是「straightforward」的用法，與本句語境不同。",
-        "straight-mcq-13": "「同類事情一個接一個連續發生，中間沒有中斷」是「6. straight = consecutive（連續的） — 連續的；接連的」的用法，與本句語境不同。",
-        "straight-mcq-10": "「令原本彎曲、傾斜或不整齊的東西變得筆直或端正」是「straighten」的用法，與本句語境不同。",
-        "straight-mcq-09": "「在撲克等紙牌遊戲中，由連續點數的牌構成的一種牌型」是「a straight — cards」的用法，與本句語境不同。",
-        "straight-mcq-08": "「性取向主要受到異性吸引的；異性戀的」是「straight — heterosexual」的用法，與本句語境不同。"
+        "straight-mcq-12": "本句的「straightaway」指「沒有延誤地立即做某件事；馬上」。",
+        "straight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "straight-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "straight-mcq-12"
     }
@@ -1186,5 +1070,7 @@ export default {
     "sha256": "501a1211a77fcfa592a1e8b0328264438b36a64bda37ce3c181cf3d3afb99c2e",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "so-mcq-01",
-      "title": "表示某種性質、狀態或方式達到很高程度；如此／這麼",
+      "title": "某種性質、狀態或方式達到很高程度；如此／這麼",
       "form": "so + adjective/adverb",
       "en": "so + adjective/adverb",
       "zh": "表示某種性質、狀態或方式達到很高程度；如此／這麼",
@@ -127,7 +127,7 @@ export default {
     },
     {
       "id": "so-mcq-06",
-      "title": "表示前面的肯定情況同樣適用於自己／另一對象",
+      "title": "前面的肯定情況同樣適用於自己／另一對象",
       "form": "so do I",
       "en": "so do I",
       "zh": "表示前面的肯定情況同樣適用於自己／另一對象",
@@ -231,7 +231,7 @@ export default {
     },
     {
       "id": "so-mcq-11",
-      "title": "表示不可數／可數數量達到很高程度",
+      "title": "不可數／可數數量達到很高程度",
       "form": "so much/many",
       "en": "so much/many",
       "zh": "表示不可數／可數數量達到很高程度",
@@ -253,7 +253,7 @@ export default {
     },
     {
       "id": "so-mcq-12",
-      "title": "表示不可數／可數數量非常少",
+      "title": "不可數／可數數量非常少",
       "form": "so little/few",
       "en": "so little/few",
       "zh": "表示不可數／可數數量非常少",
@@ -341,7 +341,7 @@ export default {
     },
     {
       "id": "so-mcq-16",
-      "title": "表示數量、時間等只是約數；大約／左右",
+      "title": "數量、時間等只是約數；大約／左右",
       "form": "or so",
       "en": "or so",
       "zh": "表示數量、時間等只是約數；大約／左右",
@@ -363,7 +363,7 @@ export default {
     },
     {
       "id": "so-mcq-17",
-      "title": "表示仍有其他相似項目，不再一一列出",
+      "title": "仍有其他相似項目，不再一一列出",
       "form": "and so on",
       "en": "and so on",
       "zh": "表示仍有其他相似項目，不再一一列出",
@@ -407,7 +407,7 @@ export default {
     },
     {
       "id": "so-mcq-19",
-      "title": "表示某種程度比比較對象低；沒那麼……",
+      "title": "某種程度比比較對象低；沒那麼……",
       "form": "not so",
       "en": "not so",
       "zh": "表示某種程度比比較對象低；沒那麼……",
@@ -473,7 +473,7 @@ export default {
     },
     {
       "id": "so-mcq-22",
-      "title": "表示的確如此；果然是",
+      "title": "的確如此；果然是",
       "form": "8. so + subject + auxiliary（確認前述事實） — 的確如此；果然是",
       "en": "8. so + subject + auxiliary（確認前述事實） — 的確如此；果然是",
       "zh": "表示的確如此；果然是",
@@ -547,11 +547,9 @@ export default {
       "masked": "The office was ____.",
       "options": [
         "so-mcq-01",
-        "so-mcq-02",
-        "so-mcq-03",
-        "so-mcq-04",
-        "so-mcq-05",
-        "so-mcq-06"
+        "so-mcq-17",
+        "so-mcq-15",
+        "so-mcq-05"
       ],
       "explanation": "本句的「so noisy」指「表示某種性質、狀態或方式達到很高程度；如此／這麼」。",
       "sentenceIndex": 0,
@@ -560,12 +558,10 @@ export default {
         "so noisy"
       ],
       "optionReasons": {
-        "so-mcq-01": "本句指「表示某種性質、狀態或方式達到很高程度；如此／這麼」。",
-        "so-mcq-02": "「某種程度高到足以產生後面所述結果」是「so...that...」的用法，與本句語境不同。",
-        "so-mcq-03": "「前面的原因或情況造成後面的結果；所以／因此」是「so — therefore」的用法，與本句語境不同。",
-        "so-mcq-04": "「以剛才所描述、展示或理解的方式；這樣／如此」是「so — in that way」的用法，與本句語境不同。",
-        "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。"
+        "so-mcq-01": "本句的「so noisy」指「表示某種性質、狀態或方式達到很高程度；如此／這麼」。",
+        "so-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-01"
     },
@@ -577,11 +573,9 @@ export default {
       "masked": "She spoke ____ that I could hardly hear her.",
       "options": [
         "so-mcq-01",
-        "so-mcq-02",
-        "so-mcq-03",
-        "so-mcq-04",
-        "so-mcq-05",
-        "so-mcq-06"
+        "so-mcq-09",
+        "so-mcq-15",
+        "so-mcq-05"
       ],
       "explanation": "本句的「so quietly」指「表示某種性質、狀態或方式達到很高程度；如此／這麼」。",
       "sentenceIndex": 1,
@@ -590,12 +584,10 @@ export default {
         "so quietly"
       ],
       "optionReasons": {
-        "so-mcq-01": "本句指「表示某種性質、狀態或方式達到很高程度；如此／這麼」。",
-        "so-mcq-02": "「某種程度高到足以產生後面所述結果」是「so...that...」的用法，與本句語境不同。",
-        "so-mcq-03": "「前面的原因或情況造成後面的結果；所以／因此」是「so — therefore」的用法，與本句語境不同。",
-        "so-mcq-04": "「以剛才所描述、展示或理解的方式；這樣／如此」是「so — in that way」的用法，與本句語境不同。",
-        "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。"
+        "so-mcq-01": "本句的「so quietly」指「表示某種性質、狀態或方式達到很高程度；如此／這麼」。",
+        "so-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-01"
     },
@@ -607,11 +599,9 @@ export default {
       "masked": "The train was ____ I often got home feeling exhausted.",
       "options": [
         "so-mcq-02",
-        "so-mcq-01",
-        "so-mcq-03",
-        "so-mcq-04",
-        "so-mcq-05",
-        "so-mcq-06"
+        "so-mcq-18",
+        "so-mcq-06",
+        "so-mcq-09"
       ],
       "explanation": "本句的「so noisy and crowded that」指「某種程度高到足以產生後面所述結果」。",
       "sentenceIndex": 2,
@@ -620,12 +610,10 @@ export default {
         "so noisy and crowded that"
       ],
       "optionReasons": {
-        "so-mcq-02": "本句指「某種程度高到足以產生後面所述結果」。",
-        "so-mcq-01": "「表示某種性質、狀態或方式達到很高程度；如此／這麼」是「so + adjective/adverb」的用法，與本句語境不同。",
-        "so-mcq-03": "「前面的原因或情況造成後面的結果；所以／因此」是「so — therefore」的用法，與本句語境不同。",
-        "so-mcq-04": "「以剛才所描述、展示或理解的方式；這樣／如此」是「so — in that way」的用法，與本句語境不同。",
-        "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。"
+        "so-mcq-02": "本句的「so noisy and crowded that」指「某種程度高到足以產生後面所述結果」。",
+        "so-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-02"
     },
@@ -637,10 +625,8 @@ export default {
       "masked": "The headphones were ____ I forgot I was wearing them.",
       "options": [
         "so-mcq-02",
-        "so-mcq-01",
-        "so-mcq-03",
-        "so-mcq-04",
-        "so-mcq-05",
+        "so-mcq-18",
+        "so-mcq-13",
         "so-mcq-06"
       ],
       "explanation": "本句的「so comfortable that」指「某種程度高到足以產生後面所述結果」。",
@@ -650,12 +636,10 @@ export default {
         "so comfortable that"
       ],
       "optionReasons": {
-        "so-mcq-02": "本句指「某種程度高到足以產生後面所述結果」。",
-        "so-mcq-01": "「表示某種性質、狀態或方式達到很高程度；如此／這麼」是「so + adjective/adverb」的用法，與本句語境不同。",
-        "so-mcq-03": "「前面的原因或情況造成後面的結果；所以／因此」是「so — therefore」的用法，與本句語境不同。",
-        "so-mcq-04": "「以剛才所描述、展示或理解的方式；這樣／如此」是「so — in that way」的用法，與本句語境不同。",
-        "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。"
+        "so-mcq-02": "本句的「so comfortable that」指「某種程度高到足以產生後面所述結果」。",
+        "so-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-02"
     },
@@ -667,11 +651,9 @@ export default {
       "masked": "The café was ____ we couldn’t find a seat.",
       "options": [
         "so-mcq-02",
-        "so-mcq-01",
-        "so-mcq-03",
-        "so-mcq-04",
-        "so-mcq-05",
-        "so-mcq-06"
+        "so-mcq-10",
+        "so-mcq-21",
+        "so-mcq-17"
       ],
       "explanation": "本句的「so busy that」指「某種程度高到足以產生後面所述結果」。",
       "sentenceIndex": 4,
@@ -680,12 +662,10 @@ export default {
         "so busy that"
       ],
       "optionReasons": {
-        "so-mcq-02": "本句指「某種程度高到足以產生後面所述結果」。",
-        "so-mcq-01": "「表示某種性質、狀態或方式達到很高程度；如此／這麼」是「so + adjective/adverb」的用法，與本句語境不同。",
-        "so-mcq-03": "「前面的原因或情況造成後面的結果；所以／因此」是「so — therefore」的用法，與本句語境不同。",
-        "so-mcq-04": "「以剛才所描述、展示或理解的方式；這樣／如此」是「so — in that way」的用法，與本句語境不同。",
-        "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。"
+        "so-mcq-02": "本句的「so busy that」指「某種程度高到足以產生後面所述結果」。",
+        "so-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-02"
     },
@@ -697,11 +677,9 @@ export default {
       "masked": "The advertisement worked ____.",
       "options": [
         "so-pdf-001",
-        "so-mcq-02",
-        "so-mcq-03",
-        "so-mcq-04",
-        "so-mcq-05",
-        "so-mcq-06"
+        "so-mcq-10",
+        "so-mcq-18",
+        "so-mcq-11"
       ],
       "explanation": "本句的「so well」指「這麼好／效果這麼好」。",
       "sentenceIndex": 5,
@@ -710,12 +688,10 @@ export default {
         "so well"
       ],
       "optionReasons": {
-        "so-pdf-001": "本句指「這麼好／效果這麼好」。",
-        "so-mcq-02": "「某種程度高到足以產生後面所述結果」是「so...that...」的用法，與本句語境不同。",
-        "so-mcq-03": "「前面的原因或情況造成後面的結果；所以／因此」是「so — therefore」的用法，與本句語境不同。",
-        "so-mcq-04": "「以剛才所描述、展示或理解的方式；這樣／如此」是「so — in that way」的用法，與本句語境不同。",
-        "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。"
+        "so-pdf-001": "本句的「so well」指「這麼好／效果這麼好」。",
+        "so-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-pdf-001"
     },
@@ -727,11 +703,9 @@ export default {
       "masked": "She explained the idea ____.",
       "options": [
         "so-pdf-001",
-        "so-mcq-02",
-        "so-mcq-03",
-        "so-mcq-04",
-        "so-mcq-05",
-        "so-mcq-06"
+        "so-mcq-09",
+        "so-mcq-16",
+        "so-mcq-18"
       ],
       "explanation": "本句的「so clearly」指「這麼好／效果這麼好」。",
       "sentenceIndex": 6,
@@ -740,12 +714,10 @@ export default {
         "so clearly"
       ],
       "optionReasons": {
-        "so-pdf-001": "本句指「這麼好／效果這麼好」。",
-        "so-mcq-02": "「某種程度高到足以產生後面所述結果」是「so...that...」的用法，與本句語境不同。",
-        "so-mcq-03": "「前面的原因或情況造成後面的結果；所以／因此」是「so — therefore」的用法，與本句語境不同。",
-        "so-mcq-04": "「以剛才所描述、展示或理解的方式；這樣／如此」是「so — in that way」的用法，與本句語境不同。",
-        "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。"
+        "so-pdf-001": "本句的「so clearly」指「這麼好／效果這麼好」。",
+        "so-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-pdf-001"
     },
@@ -757,11 +729,9 @@ export default {
       "masked": "The ad mentioned practical features, ____ it still felt believable.",
       "options": [
         "so-mcq-03",
-        "so-mcq-02",
-        "so-mcq-04",
-        "so-mcq-01",
-        "so-mcq-05",
-        "so-mcq-06"
+        "so-mcq-19",
+        "so-mcq-20",
+        "so-mcq-09"
       ],
       "explanation": "本句的「so」指「前面的原因或情況造成後面的結果；所以／因此」。",
       "sentenceIndex": 7,
@@ -770,12 +740,10 @@ export default {
         "so"
       ],
       "optionReasons": {
-        "so-mcq-03": "本句指「前面的原因或情況造成後面的結果；所以／因此」。",
-        "so-mcq-02": "「某種程度高到足以產生後面所述結果」是「so...that...」的用法，與本句語境不同。",
-        "so-mcq-04": "「以剛才所描述、展示或理解的方式；這樣／如此」是「so — in that way」的用法，與本句語境不同。",
-        "so-mcq-01": "「表示某種性質、狀態或方式達到很高程度；如此／這麼」是「so + adjective/adverb」的用法，與本句語境不同。",
-        "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。"
+        "so-mcq-03": "本句的「so」指「前面的原因或情況造成後面的結果；所以／因此」。",
+        "so-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-03"
     },
@@ -787,11 +755,9 @@ export default {
       "masked": "The train was delayed, ____ I arrived late.",
       "options": [
         "so-mcq-03",
-        "so-mcq-02",
-        "so-mcq-04",
-        "so-mcq-01",
-        "so-mcq-05",
-        "so-mcq-06"
+        "so-mcq-14",
+        "so-mcq-10",
+        "so-mcq-20"
       ],
       "explanation": "本句的「so」指「前面的原因或情況造成後面的結果；所以／因此」。",
       "sentenceIndex": 8,
@@ -800,12 +766,10 @@ export default {
         "so"
       ],
       "optionReasons": {
-        "so-mcq-03": "本句指「前面的原因或情況造成後面的結果；所以／因此」。",
-        "so-mcq-02": "「某種程度高到足以產生後面所述結果」是「so...that...」的用法，與本句語境不同。",
-        "so-mcq-04": "「以剛才所描述、展示或理解的方式；這樣／如此」是「so — in that way」的用法，與本句語境不同。",
-        "so-mcq-01": "「表示某種性質、狀態或方式達到很高程度；如此／這麼」是「so + adjective/adverb」的用法，與本句語境不同。",
-        "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。"
+        "so-mcq-03": "本句的「so」指「前面的原因或情況造成後面的結果；所以／因此」。",
+        "so-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-03"
     },
@@ -817,11 +781,9 @@ export default {
       "masked": "The headphones were comfortable, ____ I kept using them.",
       "options": [
         "so-mcq-03",
-        "so-mcq-02",
-        "so-mcq-04",
-        "so-mcq-01",
-        "so-mcq-05",
-        "so-mcq-06"
+        "so-mcq-10",
+        "so-pdf-002",
+        "so-mcq-18"
       ],
       "explanation": "本句的「so」指「前面的原因或情況造成後面的結果；所以／因此」。",
       "sentenceIndex": 9,
@@ -830,12 +792,10 @@ export default {
         "so"
       ],
       "optionReasons": {
-        "so-mcq-03": "本句指「前面的原因或情況造成後面的結果；所以／因此」。",
-        "so-mcq-02": "「某種程度高到足以產生後面所述結果」是「so...that...」的用法，與本句語境不同。",
-        "so-mcq-04": "「以剛才所描述、展示或理解的方式；這樣／如此」是「so — in that way」的用法，與本句語境不同。",
-        "so-mcq-01": "「表示某種性質、狀態或方式達到很高程度；如此／這麼」是「so + adjective/adverb」的用法，與本句語境不同。",
-        "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。"
+        "so-mcq-03": "本句的「so」指「前面的原因或情況造成後面的結果；所以／因此」。",
+        "so-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "so-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-03"
     },
@@ -847,11 +807,9 @@ export default {
       "masked": "Hold the headphones ____.",
       "options": [
         "so-mcq-04",
-        "so-mcq-03",
-        "so-mcq-05",
-        "so-mcq-02",
-        "so-mcq-06",
-        "so-mcq-01"
+        "so-mcq-08",
+        "so-pdf-002",
+        "so-mcq-18"
       ],
       "explanation": "本句的「so」指「以剛才所描述、展示或理解的方式；這樣／如此」。",
       "sentenceIndex": 10,
@@ -860,12 +818,10 @@ export default {
         "so"
       ],
       "optionReasons": {
-        "so-mcq-04": "本句指「以剛才所描述、展示或理解的方式；這樣／如此」。",
-        "so-mcq-03": "「前面的原因或情況造成後面的結果；所以／因此」是「so — therefore」的用法，與本句語境不同。",
-        "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。",
-        "so-mcq-02": "「某種程度高到足以產生後面所述結果」是「so...that...」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。",
-        "so-mcq-01": "「表示某種性質、狀態或方式達到很高程度；如此／這麼」是「so + adjective/adverb」的用法，與本句語境不同。"
+        "so-mcq-04": "本句的「so」指「以剛才所描述、展示或理解的方式；這樣／如此」。",
+        "so-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "so-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-04"
     },
@@ -877,11 +833,9 @@ export default {
       "masked": "If you arrange it ____, it will fit.",
       "options": [
         "so-mcq-04",
-        "so-mcq-03",
-        "so-mcq-05",
-        "so-mcq-02",
-        "so-mcq-06",
-        "so-mcq-01"
+        "so-mcq-12",
+        "so-mcq-13",
+        "so-mcq-08"
       ],
       "explanation": "本句的「so」指「以剛才所描述、展示或理解的方式；這樣／如此」。",
       "sentenceIndex": 11,
@@ -890,12 +844,10 @@ export default {
         "so"
       ],
       "optionReasons": {
-        "so-mcq-04": "本句指「以剛才所描述、展示或理解的方式；這樣／如此」。",
-        "so-mcq-03": "「前面的原因或情況造成後面的結果；所以／因此」是「so — therefore」的用法，與本句語境不同。",
-        "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。",
-        "so-mcq-02": "「某種程度高到足以產生後面所述結果」是「so...that...」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。",
-        "so-mcq-01": "「表示某種性質、狀態或方式達到很高程度；如此／這麼」是「so + adjective/adverb」的用法，與本句語境不同。"
+        "so-mcq-04": "本句的「so」指「以剛才所描述、展示或理解的方式；這樣／如此」。",
+        "so-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-04"
     },
@@ -907,10 +859,8 @@ export default {
       "masked": "Do you think the product is worth the price?” > “I think ____.",
       "options": [
         "so-mcq-05",
-        "so-mcq-04",
-        "so-mcq-06",
-        "so-mcq-03",
-        "so-mcq-07",
+        "so-mcq-10",
+        "so-pdf-001",
         "so-mcq-02"
       ],
       "explanation": "本句的「so」指「用 so 代替前面已提及的整個肯定命題」。",
@@ -920,12 +870,10 @@ export default {
         "so"
       ],
       "optionReasons": {
-        "so-mcq-05": "本句指「用 so 代替前面已提及的整個肯定命題」。",
-        "so-mcq-04": "「以剛才所描述、展示或理解的方式；這樣／如此」是「so — in that way」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。",
-        "so-mcq-03": "「前面的原因或情況造成後面的結果；所以／因此」是「so — therefore」的用法，與本句語境不同。",
-        "so-mcq-07": "「確認前述說法確實如此」是「so I do」的用法，與本句語境不同。",
-        "so-mcq-02": "「某種程度高到足以產生後面所述結果」是「so...that...」的用法，與本句語境不同。"
+        "so-mcq-05": "本句的「so」指「用 so 代替前面已提及的整個肯定命題」。",
+        "so-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "so-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-05"
     },
@@ -937,11 +885,9 @@ export default {
       "masked": "Will the train arrive on time?” > “I hope ____.",
       "options": [
         "so-mcq-05",
-        "so-mcq-04",
-        "so-mcq-06",
-        "so-mcq-03",
-        "so-mcq-07",
-        "so-mcq-02"
+        "so-mcq-01",
+        "so-mcq-18",
+        "so-mcq-09"
       ],
       "explanation": "本句的「so」指「用 so 代替前面已提及的整個肯定命題」。",
       "sentenceIndex": 13,
@@ -950,12 +896,10 @@ export default {
         "so"
       ],
       "optionReasons": {
-        "so-mcq-05": "本句指「用 so 代替前面已提及的整個肯定命題」。",
-        "so-mcq-04": "「以剛才所描述、展示或理解的方式；這樣／如此」是「so — in that way」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。",
-        "so-mcq-03": "「前面的原因或情況造成後面的結果；所以／因此」是「so — therefore」的用法，與本句語境不同。",
-        "so-mcq-07": "「確認前述說法確實如此」是「so I do」的用法，與本句語境不同。",
-        "so-mcq-02": "「某種程度高到足以產生後面所述結果」是「so...that...」的用法，與本句語境不同。"
+        "so-mcq-05": "本句的「so」指「用 so 代替前面已提及的整個肯定命題」。",
+        "so-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-05"
     },
@@ -967,11 +911,9 @@ export default {
       "masked": "Do you think the ad was misleading?” > “I don’t think ____.",
       "options": [
         "so-mcq-21",
-        "so-mcq-20",
-        "so-mcq-22",
-        "so-mcq-19",
-        "so-mcq-18",
-        "so-mcq-17"
+        "so-mcq-16",
+        "so-mcq-17",
+        "so-pdf-001"
       ],
       "explanation": "本句的「so」指「代替前面命題；在否定句中表示「並非如此」」。",
       "sentenceIndex": 14,
@@ -980,12 +922,10 @@ export default {
         "so"
       ],
       "optionReasons": {
-        "so-mcq-21": "本句指「代替前面命題；在否定句中表示「並非如此」」。",
-        "so-mcq-20": "「表現／品質普通，不好也不差」是「so-so」的用法，與本句語境不同。",
-        "so-mcq-22": "「表示的確如此；果然是」是「8. so + subject + auxiliary（確認前述事實） — 的確如此；果然是」的用法，與本句語境不同。",
-        "so-mcq-19": "「表示某種程度比比較對象低；沒那麼……」是「not so」的用法，與本句語境不同。",
-        "so-mcq-18": "「被稱為某名稱的；有時帶懷疑或諷刺語氣」是「so-called」的用法，與本句語境不同。",
-        "so-mcq-17": "「表示仍有其他相似項目，不再一一列出」是「and so on」的用法，與本句語境不同。"
+        "so-mcq-21": "本句的「so」指「代替前面命題；在否定句中表示「並非如此」」。",
+        "so-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "so-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-21"
     },
@@ -998,10 +938,8 @@ export default {
       "options": [
         "so-mcq-21",
         "so-mcq-20",
-        "so-mcq-22",
         "so-mcq-19",
-        "so-mcq-18",
-        "so-mcq-17"
+        "so-pdf-001"
       ],
       "explanation": "本句的「so」指「代替前面命題；在否定句中表示「並非如此」」。",
       "sentenceIndex": 15,
@@ -1010,12 +948,10 @@ export default {
         "so"
       ],
       "optionReasons": {
-        "so-mcq-21": "本句指「代替前面命題；在否定句中表示「並非如此」」。",
-        "so-mcq-20": "「表現／品質普通，不好也不差」是「so-so」的用法，與本句語境不同。",
-        "so-mcq-22": "「表示的確如此；果然是」是「8. so + subject + auxiliary（確認前述事實） — 的確如此；果然是」的用法，與本句語境不同。",
-        "so-mcq-19": "「表示某種程度比比較對象低；沒那麼……」是「not so」的用法，與本句語境不同。",
-        "so-mcq-18": "「被稱為某名稱的；有時帶懷疑或諷刺語氣」是「so-called」的用法，與本句語境不同。",
-        "so-mcq-17": "「表示仍有其他相似項目，不再一一列出」是「and so on」的用法，與本句語境不同。"
+        "so-mcq-21": "本句的「so」指「代替前面命題；在否定句中表示「並非如此」」。",
+        "so-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "so-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-21"
     },
@@ -1027,11 +963,9 @@ export default {
       "masked": "I like these headphones.” > “____",
       "options": [
         "so-mcq-06",
-        "so-mcq-05",
-        "so-mcq-07",
-        "so-mcq-04",
-        "so-mcq-08",
-        "so-mcq-03"
+        "so-mcq-16",
+        "so-mcq-20",
+        "so-mcq-22"
       ],
       "explanation": "本句的「So do I.」指「表示前面的肯定情況同樣適用於自己／另一對象」。",
       "sentenceIndex": 16,
@@ -1040,12 +974,10 @@ export default {
         "So do I."
       ],
       "optionReasons": {
-        "so-mcq-06": "本句指「表示前面的肯定情況同樣適用於自己／另一對象」。",
-        "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。",
-        "so-mcq-07": "「確認前述說法確實如此」是「so I do」的用法，與本句語境不同。",
-        "so-mcq-04": "「以剛才所描述、展示或理解的方式；這樣／如此」是「so — in that way」的用法，與本句語境不同。",
-        "so-mcq-08": "「用來引出下一個問題、決定、總結或話題」是「so — discourse marker」的用法，與本句語境不同。",
-        "so-mcq-03": "「前面的原因或情況造成後面的結果；所以／因此」是「so — therefore」的用法，與本句語境不同。"
+        "so-mcq-06": "本句的「So do I.」指「表示前面的肯定情況同樣適用於自己／另一對象」。",
+        "so-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-06"
     },
@@ -1057,11 +989,9 @@ export default {
       "masked": "I’m tired.” > “____",
       "options": [
         "so-mcq-06",
-        "so-mcq-05",
-        "so-mcq-07",
-        "so-mcq-04",
-        "so-mcq-08",
-        "so-mcq-03"
+        "so-pdf-002",
+        "so-mcq-18",
+        "so-mcq-22"
       ],
       "explanation": "本句的「So am I.」指「表示前面的肯定情況同樣適用於自己／另一對象」。",
       "sentenceIndex": 17,
@@ -1070,12 +1000,10 @@ export default {
         "So am I."
       ],
       "optionReasons": {
-        "so-mcq-06": "本句指「表示前面的肯定情況同樣適用於自己／另一對象」。",
-        "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。",
-        "so-mcq-07": "「確認前述說法確實如此」是「so I do」的用法，與本句語境不同。",
-        "so-mcq-04": "「以剛才所描述、展示或理解的方式；這樣／如此」是「so — in that way」的用法，與本句語境不同。",
-        "so-mcq-08": "「用來引出下一個問題、決定、總結或話題」是「so — discourse marker」的用法，與本句語境不同。",
-        "so-mcq-03": "「前面的原因或情況造成後面的結果；所以／因此」是「so — therefore」的用法，與本句語境不同。"
+        "so-mcq-06": "本句的「So am I.」指「表示前面的肯定情況同樣適用於自己／另一對象」。",
+        "so-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-06"
     },
@@ -1087,11 +1015,9 @@ export default {
       "masked": "I can work from home.” > “____",
       "options": [
         "so-mcq-06",
-        "so-mcq-05",
-        "so-mcq-07",
-        "so-mcq-04",
-        "so-mcq-08",
-        "so-mcq-03"
+        "so-mcq-10",
+        "so-mcq-11",
+        "so-mcq-17"
       ],
       "explanation": "本句的「So can I.」指「表示前面的肯定情況同樣適用於自己／另一對象」。",
       "sentenceIndex": 18,
@@ -1100,12 +1026,10 @@ export default {
         "So can I."
       ],
       "optionReasons": {
-        "so-mcq-06": "本句指「表示前面的肯定情況同樣適用於自己／另一對象」。",
-        "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。",
-        "so-mcq-07": "「確認前述說法確實如此」是「so I do」的用法，與本句語境不同。",
-        "so-mcq-04": "「以剛才所描述、展示或理解的方式；這樣／如此」是「so — in that way」的用法，與本句語境不同。",
-        "so-mcq-08": "「用來引出下一個問題、決定、總結或話題」是「so — discourse marker」的用法，與本句語境不同。",
-        "so-mcq-03": "「前面的原因或情況造成後面的結果；所以／因此」是「so — therefore」的用法，與本句語境不同。"
+        "so-mcq-06": "本句的「So can I.」指「表示前面的肯定情況同樣適用於自己／另一對象」。",
+        "so-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-06"
     },
@@ -1117,11 +1041,9 @@ export default {
       "masked": "You said the café would be crowded.” > “____",
       "options": [
         "so-mcq-22",
-        "so-mcq-21",
-        "so-mcq-20",
-        "so-mcq-19",
-        "so-mcq-18",
-        "so-mcq-17"
+        "so-mcq-10",
+        "so-mcq-05",
+        "so-mcq-14"
       ],
       "explanation": "本句的「So it is.」指「表示的確如此；果然是」。",
       "sentenceIndex": 19,
@@ -1130,12 +1052,10 @@ export default {
         "So it is."
       ],
       "optionReasons": {
-        "so-mcq-22": "本句指「表示的確如此；果然是」。",
-        "so-mcq-21": "「代替前面命題；在否定句中表示「並非如此」」是「6. not...so / I don’t think so — 我想不是；並非如此」的用法，與本句語境不同。",
-        "so-mcq-20": "「表現／品質普通，不好也不差」是「so-so」的用法，與本句語境不同。",
-        "so-mcq-19": "「表示某種程度比比較對象低；沒那麼……」是「not so」的用法，與本句語境不同。",
-        "so-mcq-18": "「被稱為某名稱的；有時帶懷疑或諷刺語氣」是「so-called」的用法，與本句語境不同。",
-        "so-mcq-17": "「表示仍有其他相似項目，不再一一列出」是「and so on」的用法，與本句語境不同。"
+        "so-mcq-22": "本句的「So it is.」指「表示的確如此；果然是」。",
+        "so-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-22"
     },
@@ -1147,11 +1067,9 @@ export default {
       "masked": "He looks tired.” > “____",
       "options": [
         "so-mcq-22",
-        "so-mcq-21",
+        "so-mcq-17",
         "so-mcq-20",
-        "so-mcq-19",
-        "so-mcq-18",
-        "so-mcq-17"
+        "so-mcq-14"
       ],
       "explanation": "本句的「So he does.」指「表示的確如此；果然是」。",
       "sentenceIndex": 20,
@@ -1160,12 +1078,10 @@ export default {
         "So he does."
       ],
       "optionReasons": {
-        "so-mcq-22": "本句指「表示的確如此；果然是」。",
-        "so-mcq-21": "「代替前面命題；在否定句中表示「並非如此」」是「6. not...so / I don’t think so — 我想不是；並非如此」的用法，與本句語境不同。",
-        "so-mcq-20": "「表現／品質普通，不好也不差」是「so-so」的用法，與本句語境不同。",
-        "so-mcq-19": "「表示某種程度比比較對象低；沒那麼……」是「not so」的用法，與本句語境不同。",
-        "so-mcq-18": "「被稱為某名稱的；有時帶懷疑或諷刺語氣」是「so-called」的用法，與本句語境不同。",
-        "so-mcq-17": "「表示仍有其他相似項目，不再一一列出」是「and so on」的用法，與本句語境不同。"
+        "so-mcq-22": "本句的「So he does.」指「表示的確如此；果然是」。",
+        "so-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-22"
     },
@@ -1177,11 +1093,9 @@ export default {
       "masked": "____, what do you think of the product?",
       "options": [
         "so-mcq-08",
-        "so-mcq-07",
-        "so-mcq-09",
-        "so-mcq-06",
+        "so-mcq-12",
         "so-mcq-10",
-        "so-mcq-05"
+        "so-mcq-18"
       ],
       "explanation": "本句的「So」指「用來引出下一個問題、決定、總結或話題」。",
       "sentenceIndex": 21,
@@ -1190,12 +1104,10 @@ export default {
         "So"
       ],
       "optionReasons": {
-        "so-mcq-08": "本句指「用來引出下一個問題、決定、總結或話題」。",
-        "so-mcq-07": "「確認前述說法確實如此」是「so I do」的用法，與本句語境不同。",
-        "so-mcq-09": "「引出行動的目的；以便／為了讓……」是「so that」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。",
-        "so-mcq-10": "「較正式地表示某行動的目的」是「so as to」的用法，與本句語境不同。",
-        "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。"
+        "so-mcq-08": "本句的「So」指「用來引出下一個問題、決定、總結或話題」。",
+        "so-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-08"
     },
@@ -1207,11 +1119,9 @@ export default {
       "masked": "____, let’s look at the final result.",
       "options": [
         "so-mcq-08",
-        "so-mcq-07",
-        "so-mcq-09",
-        "so-mcq-06",
-        "so-mcq-10",
-        "so-mcq-05"
+        "so-mcq-13",
+        "so-mcq-20",
+        "so-mcq-18"
       ],
       "explanation": "本句的「So」指「用來引出下一個問題、決定、總結或話題」。",
       "sentenceIndex": 22,
@@ -1220,12 +1130,10 @@ export default {
         "So"
       ],
       "optionReasons": {
-        "so-mcq-08": "本句指「用來引出下一個問題、決定、總結或話題」。",
-        "so-mcq-07": "「確認前述說法確實如此」是「so I do」的用法，與本句語境不同。",
-        "so-mcq-09": "「引出行動的目的；以便／為了讓……」是「so that」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。",
-        "so-mcq-10": "「較正式地表示某行動的目的」是「so as to」的用法，與本句語境不同。",
-        "so-mcq-05": "「用 so 代替前面已提及的整個肯定命題」是「I think/hope so」的用法，與本句語境不同。"
+        "so-mcq-08": "本句的「So」指「用來引出下一個問題、決定、總結或話題」。",
+        "so-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-08"
     },
@@ -1237,11 +1145,9 @@ export default {
       "masked": "I wore the headphones ____ I could focus.",
       "options": [
         "so-mcq-09",
-        "so-mcq-08",
-        "so-mcq-10",
-        "so-mcq-07",
-        "so-mcq-11",
-        "so-mcq-06"
+        "so-mcq-05",
+        "so-mcq-02",
+        "so-mcq-22"
       ],
       "explanation": "本句的「so that」指「引出行動的目的；以便／為了讓……」。",
       "sentenceIndex": 23,
@@ -1250,12 +1156,10 @@ export default {
         "so that"
       ],
       "optionReasons": {
-        "so-mcq-09": "本句指「引出行動的目的；以便／為了讓……」。",
-        "so-mcq-08": "「用來引出下一個問題、決定、總結或話題」是「so — discourse marker」的用法，與本句語境不同。",
-        "so-mcq-10": "「較正式地表示某行動的目的」是「so as to」的用法，與本句語境不同。",
-        "so-mcq-07": "「確認前述說法確實如此」是「so I do」的用法，與本句語境不同。",
-        "so-mcq-11": "「表示不可數／可數數量達到很高程度」是「so much/many」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。"
+        "so-mcq-09": "本句的「so that」指「引出行動的目的；以便／為了讓……」。",
+        "so-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-09"
     },
@@ -1267,11 +1171,9 @@ export default {
       "masked": "Speak clearly ____ everyone can understand.",
       "options": [
         "so-mcq-09",
-        "so-mcq-08",
-        "so-mcq-10",
-        "so-mcq-07",
-        "so-mcq-11",
-        "so-mcq-06"
+        "so-mcq-12",
+        "so-pdf-001",
+        "so-mcq-22"
       ],
       "explanation": "本句的「so that」指「引出行動的目的；以便／為了讓……」。",
       "sentenceIndex": 24,
@@ -1280,12 +1182,10 @@ export default {
         "so that"
       ],
       "optionReasons": {
-        "so-mcq-09": "本句指「引出行動的目的；以便／為了讓……」。",
-        "so-mcq-08": "「用來引出下一個問題、決定、總結或話題」是「so — discourse marker」的用法，與本句語境不同。",
-        "so-mcq-10": "「較正式地表示某行動的目的」是「so as to」的用法，與本句語境不同。",
-        "so-mcq-07": "「確認前述說法確實如此」是「so I do」的用法，與本句語境不同。",
-        "so-mcq-11": "「表示不可數／可數數量達到很高程度」是「so much/many」的用法，與本句語境不同。",
-        "so-mcq-06": "「表示前面的肯定情況同樣適用於自己／另一對象」是「so do I」的用法，與本句語境不同。"
+        "so-mcq-09": "本句的「so that」指「引出行動的目的；以便／為了讓……」。",
+        "so-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "so-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-09"
     },
@@ -1297,11 +1197,9 @@ export default {
       "masked": "He lowered the volume ____ disturbing others.",
       "options": [
         "so-mcq-10",
-        "so-mcq-09",
-        "so-mcq-11",
-        "so-mcq-08",
         "so-mcq-12",
-        "so-mcq-07"
+        "so-mcq-22",
+        "so-mcq-06"
       ],
       "explanation": "本句的「so as to avoid」指「較正式地表示某行動的目的」。",
       "sentenceIndex": 25,
@@ -1310,12 +1208,10 @@ export default {
         "so as to avoid"
       ],
       "optionReasons": {
-        "so-mcq-10": "本句指「較正式地表示某行動的目的」。",
-        "so-mcq-09": "「引出行動的目的；以便／為了讓……」是「so that」的用法，與本句語境不同。",
-        "so-mcq-11": "「表示不可數／可數數量達到很高程度」是「so much/many」的用法，與本句語境不同。",
-        "so-mcq-08": "「用來引出下一個問題、決定、總結或話題」是「so — discourse marker」的用法，與本句語境不同。",
-        "so-mcq-12": "「表示不可數／可數數量非常少」是「so little/few」的用法，與本句語境不同。",
-        "so-mcq-07": "「確認前述說法確實如此」是「so I do」的用法，與本句語境不同。"
+        "so-mcq-10": "本句的「so as to avoid」指「較正式地表示某行動的目的」。",
+        "so-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-10"
     },
@@ -1327,11 +1223,9 @@ export default {
       "masked": "The design was simplified ____ it easier to use.",
       "options": [
         "so-mcq-10",
-        "so-mcq-09",
-        "so-mcq-11",
-        "so-mcq-08",
-        "so-mcq-12",
-        "so-mcq-07"
+        "so-pdf-002",
+        "so-mcq-06",
+        "so-mcq-22"
       ],
       "explanation": "本句的「so as to make」指「較正式地表示某行動的目的」。",
       "sentenceIndex": 26,
@@ -1340,12 +1234,10 @@ export default {
         "so as to make"
       ],
       "optionReasons": {
-        "so-mcq-10": "本句指「較正式地表示某行動的目的」。",
-        "so-mcq-09": "「引出行動的目的；以便／為了讓……」是「so that」的用法，與本句語境不同。",
-        "so-mcq-11": "「表示不可數／可數數量達到很高程度」是「so much/many」的用法，與本句語境不同。",
-        "so-mcq-08": "「用來引出下一個問題、決定、總結或話題」是「so — discourse marker」的用法，與本句語境不同。",
-        "so-mcq-12": "「表示不可數／可數數量非常少」是「so little/few」的用法，與本句語境不同。",
-        "so-mcq-07": "「確認前述說法確實如此」是「so I do」的用法，與本句語境不同。"
+        "so-mcq-10": "本句的「so as to make」指「較正式地表示某行動的目的」。",
+        "so-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-10"
     },
@@ -1357,11 +1249,9 @@ export default {
       "masked": "Why is there ____?",
       "options": [
         "so-mcq-11",
-        "so-mcq-10",
-        "so-mcq-12",
-        "so-mcq-09",
+        "so-mcq-06",
         "so-mcq-13",
-        "so-mcq-08"
+        "so-mcq-09"
       ],
       "explanation": "本句的「so much noise」指「表示不可數／可數數量達到很高程度」。",
       "sentenceIndex": 27,
@@ -1370,12 +1260,10 @@ export default {
         "so much noise"
       ],
       "optionReasons": {
-        "so-mcq-11": "本句指「表示不可數／可數數量達到很高程度」。",
-        "so-mcq-10": "「較正式地表示某行動的目的」是「so as to」的用法，與本句語境不同。",
-        "so-mcq-12": "「表示不可數／可數數量非常少」是「so little/few」的用法，與本句語境不同。",
-        "so-mcq-09": "「引出行動的目的；以便／為了讓……」是「so that」的用法，與本句語境不同。",
-        "so-mcq-13": "「從較早時間一直到目前為止」是「so far — time」的用法，與本句語境不同。",
-        "so-mcq-08": "「用來引出下一個問題、決定、總結或話題」是「so — discourse marker」的用法，與本句語境不同。"
+        "so-mcq-11": "本句的「so much noise」指「表示不可數／可數數量達到很高程度」。",
+        "so-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-11"
     },
@@ -1387,10 +1275,8 @@ export default {
       "masked": "There were ____ on the train.",
       "options": [
         "so-mcq-11",
-        "so-mcq-10",
-        "so-mcq-12",
-        "so-mcq-09",
-        "so-mcq-13",
+        "so-mcq-05",
+        "so-mcq-20",
         "so-mcq-08"
       ],
       "explanation": "本句的「so many people」指「表示不可數／可數數量達到很高程度」。",
@@ -1400,12 +1286,10 @@ export default {
         "so many people"
       ],
       "optionReasons": {
-        "so-mcq-11": "本句指「表示不可數／可數數量達到很高程度」。",
-        "so-mcq-10": "「較正式地表示某行動的目的」是「so as to」的用法，與本句語境不同。",
-        "so-mcq-12": "「表示不可數／可數數量非常少」是「so little/few」的用法，與本句語境不同。",
-        "so-mcq-09": "「引出行動的目的；以便／為了讓……」是「so that」的用法，與本句語境不同。",
-        "so-mcq-13": "「從較早時間一直到目前為止」是「so far — time」的用法，與本句語境不同。",
-        "so-mcq-08": "「用來引出下一個問題、決定、總結或話題」是「so — discourse marker」的用法，與本句語境不同。"
+        "so-mcq-11": "本句的「so many people」指「表示不可數／可數數量達到很高程度」。",
+        "so-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-11"
     },
@@ -1417,10 +1301,8 @@ export default {
       "masked": "I like these headphones ____.",
       "options": [
         "so-pdf-002",
-        "so-mcq-10",
-        "so-mcq-12",
-        "so-mcq-09",
-        "so-mcq-13",
+        "so-mcq-18",
+        "so-mcq-06",
         "so-mcq-08"
       ],
       "explanation": "本句的「so much」指「程度非常高；這麼／非常」。",
@@ -1430,12 +1312,10 @@ export default {
         "so much"
       ],
       "optionReasons": {
-        "so-pdf-002": "本句指「程度非常高；這麼／非常」。",
-        "so-mcq-10": "「較正式地表示某行動的目的」是「so as to」的用法，與本句語境不同。",
-        "so-mcq-12": "「表示不可數／可數數量非常少」是「so little/few」的用法，與本句語境不同。",
-        "so-mcq-09": "「引出行動的目的；以便／為了讓……」是「so that」的用法，與本句語境不同。",
-        "so-mcq-13": "「從較早時間一直到目前為止」是「so far — time」的用法，與本句語境不同。",
-        "so-mcq-08": "「用來引出下一個問題、決定、總結或話題」是「so — discourse marker」的用法，與本句語境不同。"
+        "so-pdf-002": "本句的「so much」指「程度非常高；這麼／非常」。",
+        "so-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-pdf-002"
     },
@@ -1448,10 +1328,8 @@ export default {
       "options": [
         "so-pdf-002",
         "so-mcq-10",
-        "so-mcq-12",
-        "so-mcq-09",
-        "so-mcq-13",
-        "so-mcq-08"
+        "so-mcq-18",
+        "so-mcq-04"
       ],
       "explanation": "本句的「so much」指「程度非常高；這麼／非常」。",
       "sentenceIndex": 30,
@@ -1460,12 +1338,10 @@ export default {
         "so much"
       ],
       "optionReasons": {
-        "so-pdf-002": "本句指「程度非常高；這麼／非常」。",
-        "so-mcq-10": "「較正式地表示某行動的目的」是「so as to」的用法，與本句語境不同。",
-        "so-mcq-12": "「表示不可數／可數數量非常少」是「so little/few」的用法，與本句語境不同。",
-        "so-mcq-09": "「引出行動的目的；以便／為了讓……」是「so that」的用法，與本句語境不同。",
-        "so-mcq-13": "「從較早時間一直到目前為止」是「so far — time」的用法，與本句語境不同。",
-        "so-mcq-08": "「用來引出下一個問題、決定、總結或話題」是「so — discourse marker」的用法，與本句語境不同。"
+        "so-pdf-002": "本句的「so much」指「程度非常高；這麼／非常」。",
+        "so-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-pdf-002"
     },
@@ -1477,11 +1353,9 @@ export default {
       "masked": "We had ____.",
       "options": [
         "so-mcq-12",
-        "so-mcq-11",
-        "so-mcq-13",
-        "so-mcq-10",
-        "so-mcq-14",
-        "so-mcq-09"
+        "so-mcq-06",
+        "so-mcq-20",
+        "so-mcq-08"
       ],
       "explanation": "本句的「so little time」指「表示不可數／可數數量非常少」。",
       "sentenceIndex": 31,
@@ -1490,12 +1364,10 @@ export default {
         "so little time"
       ],
       "optionReasons": {
-        "so-mcq-12": "本句指「表示不可數／可數數量非常少」。",
-        "so-mcq-11": "「表示不可數／可數數量達到很高程度」是「so much/many」的用法，與本句語境不同。",
-        "so-mcq-13": "「從較早時間一直到目前為止」是「so far — time」的用法，與本句語境不同。",
-        "so-mcq-10": "「較正式地表示某行動的目的」是「so as to」的用法，與本句語境不同。",
-        "so-mcq-14": "「達到這麼遠的距離／這麼大的程度」是「so far — distance/extent」的用法，與本句語境不同。",
-        "so-mcq-09": "「引出行動的目的；以便／為了讓……」是「so that」的用法，與本句語境不同。"
+        "so-mcq-12": "本句的「so little time」指「表示不可數／可數數量非常少」。",
+        "so-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-12"
     },
@@ -1507,11 +1379,9 @@ export default {
       "masked": "There were ____ available.",
       "options": [
         "so-mcq-12",
-        "so-mcq-11",
-        "so-mcq-13",
-        "so-mcq-10",
-        "so-mcq-14",
-        "so-mcq-09"
+        "so-mcq-06",
+        "so-mcq-08",
+        "so-mcq-13"
       ],
       "explanation": "本句的「so few seats」指「表示不可數／可數數量非常少」。",
       "sentenceIndex": 32,
@@ -1520,12 +1390,10 @@ export default {
         "so few seats"
       ],
       "optionReasons": {
-        "so-mcq-12": "本句指「表示不可數／可數數量非常少」。",
-        "so-mcq-11": "「表示不可數／可數數量達到很高程度」是「so much/many」的用法，與本句語境不同。",
-        "so-mcq-13": "「從較早時間一直到目前為止」是「so far — time」的用法，與本句語境不同。",
-        "so-mcq-10": "「較正式地表示某行動的目的」是「so as to」的用法，與本句語境不同。",
-        "so-mcq-14": "「達到這麼遠的距離／這麼大的程度」是「so far — distance/extent」的用法，與本句語境不同。",
-        "so-mcq-09": "「引出行動的目的；以便／為了讓……」是「so that」的用法，與本句語境不同。"
+        "so-mcq-12": "本句的「so few seats」指「表示不可數／可數數量非常少」。",
+        "so-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-12"
     },
@@ -1537,11 +1405,9 @@ export default {
       "masked": "____, the headphones have worked perfectly.",
       "options": [
         "so-mcq-13",
-        "so-mcq-12",
-        "so-mcq-14",
+        "so-pdf-001",
         "so-mcq-11",
-        "so-mcq-15",
-        "so-mcq-10"
+        "so-mcq-20"
       ],
       "explanation": "本句的「So far」指「從較早時間一直到目前為止」。",
       "sentenceIndex": 33,
@@ -1550,12 +1416,10 @@ export default {
         "So far"
       ],
       "optionReasons": {
-        "so-mcq-13": "本句指「從較早時間一直到目前為止」。",
-        "so-mcq-12": "「表示不可數／可數數量非常少」是「so little/few」的用法，與本句語境不同。",
-        "so-mcq-14": "「達到這麼遠的距離／這麼大的程度」是「so far — distance/extent」的用法，與本句語境不同。",
-        "so-mcq-11": "「表示不可數／可數數量達到很高程度」是「so much/many」的用法，與本句語境不同。",
-        "so-mcq-15": "「截至目前情況仍然令人滿意、沒有問題」是「so far, so good」的用法，與本句語境不同。",
-        "so-mcq-10": "「較正式地表示某行動的目的」是「so as to」的用法，與本句語境不同。"
+        "so-mcq-13": "本句的「So far」指「從較早時間一直到目前為止」。",
+        "so-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-13"
     },
@@ -1567,11 +1431,9 @@ export default {
       "masked": "We have had no problems ____.",
       "options": [
         "so-mcq-13",
-        "so-mcq-12",
         "so-mcq-14",
-        "so-mcq-11",
-        "so-mcq-15",
-        "so-mcq-10"
+        "so-mcq-08",
+        "so-mcq-22"
       ],
       "explanation": "本句的「so far」指「從較早時間一直到目前為止」。",
       "sentenceIndex": 34,
@@ -1580,12 +1442,10 @@ export default {
         "so far"
       ],
       "optionReasons": {
-        "so-mcq-13": "本句指「從較早時間一直到目前為止」。",
-        "so-mcq-12": "「表示不可數／可數數量非常少」是「so little/few」的用法，與本句語境不同。",
-        "so-mcq-14": "「達到這麼遠的距離／這麼大的程度」是「so far — distance/extent」的用法，與本句語境不同。",
-        "so-mcq-11": "「表示不可數／可數數量達到很高程度」是「so much/many」的用法，與本句語境不同。",
-        "so-mcq-15": "「截至目前情況仍然令人滿意、沒有問題」是「so far, so good」的用法，與本句語境不同。",
-        "so-mcq-10": "「較正式地表示某行動的目的」是「so as to」的用法，與本句語境不同。"
+        "so-mcq-13": "本句的「so far」指「從較早時間一直到目前為止」。",
+        "so-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-13"
     },
@@ -1597,11 +1457,9 @@ export default {
       "masked": "We had travelled ____ that turning back made no sense.",
       "options": [
         "so-mcq-14",
+        "so-mcq-03",
         "so-mcq-13",
-        "so-mcq-15",
-        "so-mcq-12",
-        "so-mcq-16",
-        "so-mcq-11"
+        "so-mcq-04"
       ],
       "explanation": "本句的「so far」指「達到這麼遠的距離／這麼大的程度」。",
       "sentenceIndex": 35,
@@ -1610,12 +1468,10 @@ export default {
         "so far"
       ],
       "optionReasons": {
-        "so-mcq-14": "本句指「達到這麼遠的距離／這麼大的程度」。",
-        "so-mcq-13": "「從較早時間一直到目前為止」是「so far — time」的用法，與本句語境不同。",
-        "so-mcq-15": "「截至目前情況仍然令人滿意、沒有問題」是「so far, so good」的用法，與本句語境不同。",
-        "so-mcq-12": "「表示不可數／可數數量非常少」是「so little/few」的用法，與本句語境不同。",
-        "so-mcq-16": "「表示數量、時間等只是約數；大約／左右」是「or so」的用法，與本句語境不同。",
-        "so-mcq-11": "「表示不可數／可數數量達到很高程度」是「so much/many」的用法，與本句語境不同。"
+        "so-mcq-14": "本句的「so far」指「達到這麼遠的距離／這麼大的程度」。",
+        "so-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-14"
     },
@@ -1627,11 +1483,9 @@ export default {
       "masked": "I can only go ____ without more information.",
       "options": [
         "so-mcq-14",
-        "so-mcq-13",
-        "so-mcq-15",
-        "so-mcq-12",
-        "so-mcq-16",
-        "so-mcq-11"
+        "so-mcq-17",
+        "so-mcq-22",
+        "so-mcq-10"
       ],
       "explanation": "本句的「so far」指「達到這麼遠的距離／這麼大的程度」。",
       "sentenceIndex": 36,
@@ -1640,12 +1494,10 @@ export default {
         "so far"
       ],
       "optionReasons": {
-        "so-mcq-14": "本句指「達到這麼遠的距離／這麼大的程度」。",
-        "so-mcq-13": "「從較早時間一直到目前為止」是「so far — time」的用法，與本句語境不同。",
-        "so-mcq-15": "「截至目前情況仍然令人滿意、沒有問題」是「so far, so good」的用法，與本句語境不同。",
-        "so-mcq-12": "「表示不可數／可數數量非常少」是「so little/few」的用法，與本句語境不同。",
-        "so-mcq-16": "「表示數量、時間等只是約數；大約／左右」是「or so」的用法，與本句語境不同。",
-        "so-mcq-11": "「表示不可數／可數數量達到很高程度」是「so much/many」的用法，與本句語境不同。"
+        "so-mcq-14": "本句的「so far」指「達到這麼遠的距離／這麼大的程度」。",
+        "so-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-14"
     },
@@ -1657,11 +1509,9 @@ export default {
       "masked": "How is the new job?” > “____",
       "options": [
         "so-mcq-15",
-        "so-mcq-14",
-        "so-mcq-16",
-        "so-mcq-13",
-        "so-mcq-17",
-        "so-mcq-12"
+        "so-mcq-18",
+        "so-mcq-20",
+        "so-mcq-11"
       ],
       "explanation": "本句的「So far, so good.」指「截至目前情況仍然令人滿意、沒有問題」。",
       "sentenceIndex": 37,
@@ -1670,12 +1520,10 @@ export default {
         "So far, so good."
       ],
       "optionReasons": {
-        "so-mcq-15": "本句指「截至目前情況仍然令人滿意、沒有問題」。",
-        "so-mcq-14": "「達到這麼遠的距離／這麼大的程度」是「so far — distance/extent」的用法，與本句語境不同。",
-        "so-mcq-16": "「表示數量、時間等只是約數；大約／左右」是「or so」的用法，與本句語境不同。",
-        "so-mcq-13": "「從較早時間一直到目前為止」是「so far — time」的用法，與本句語境不同。",
-        "so-mcq-17": "「表示仍有其他相似項目，不再一一列出」是「and so on」的用法，與本句語境不同。",
-        "so-mcq-12": "「表示不可數／可數數量非常少」是「so little/few」的用法，與本句語境不同。"
+        "so-mcq-15": "本句的「So far, so good.」指「截至目前情況仍然令人滿意、沒有問題」。",
+        "so-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-15"
     },
@@ -1688,10 +1536,8 @@ export default {
       "options": [
         "so-mcq-15",
         "so-mcq-14",
-        "so-mcq-16",
-        "so-mcq-13",
-        "so-mcq-17",
-        "so-mcq-12"
+        "so-mcq-20",
+        "so-mcq-18"
       ],
       "explanation": "本句的「so far, so good」指「截至目前情況仍然令人滿意、沒有問題」。",
       "sentenceIndex": 38,
@@ -1700,12 +1546,10 @@ export default {
         "so far, so good"
       ],
       "optionReasons": {
-        "so-mcq-15": "本句指「截至目前情況仍然令人滿意、沒有問題」。",
-        "so-mcq-14": "「達到這麼遠的距離／這麼大的程度」是「so far — distance/extent」的用法，與本句語境不同。",
-        "so-mcq-16": "「表示數量、時間等只是約數；大約／左右」是「or so」的用法，與本句語境不同。",
-        "so-mcq-13": "「從較早時間一直到目前為止」是「so far — time」的用法，與本句語境不同。",
-        "so-mcq-17": "「表示仍有其他相似項目，不再一一列出」是「and so on」的用法，與本句語境不同。",
-        "so-mcq-12": "「表示不可數／可數數量非常少」是「so little/few」的用法，與本句語境不同。"
+        "so-mcq-15": "本句的「so far, so good」指「截至目前情況仍然令人滿意、沒有問題」。",
+        "so-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-15"
     },
@@ -1717,11 +1561,9 @@ export default {
       "masked": "It took an hour ____.",
       "options": [
         "so-mcq-16",
-        "so-mcq-15",
-        "so-mcq-17",
-        "so-mcq-14",
-        "so-mcq-18",
-        "so-mcq-13"
+        "so-mcq-03",
+        "so-mcq-09",
+        "so-pdf-001"
       ],
       "explanation": "本句的「or so」指「表示數量、時間等只是約數；大約／左右」。",
       "sentenceIndex": 39,
@@ -1730,12 +1572,10 @@ export default {
         "or so"
       ],
       "optionReasons": {
-        "so-mcq-16": "本句指「表示數量、時間等只是約數；大約／左右」。",
-        "so-mcq-15": "「截至目前情況仍然令人滿意、沒有問題」是「so far, so good」的用法，與本句語境不同。",
-        "so-mcq-17": "「表示仍有其他相似項目，不再一一列出」是「and so on」的用法，與本句語境不同。",
-        "so-mcq-14": "「達到這麼遠的距離／這麼大的程度」是「so far — distance/extent」的用法，與本句語境不同。",
-        "so-mcq-18": "「被稱為某名稱的；有時帶懷疑或諷刺語氣」是「so-called」的用法，與本句語境不同。",
-        "so-mcq-13": "「從較早時間一直到目前為止」是「so far — time」的用法，與本句語境不同。"
+        "so-mcq-16": "本句的「or so」指「表示數量、時間等只是約數；大約／左右」。",
+        "so-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "so-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-16"
     },
@@ -1747,11 +1587,9 @@ export default {
       "masked": "There were twenty people ____.",
       "options": [
         "so-mcq-16",
-        "so-mcq-15",
-        "so-mcq-17",
-        "so-mcq-14",
-        "so-mcq-18",
-        "so-mcq-13"
+        "so-mcq-05",
+        "so-pdf-001",
+        "so-mcq-22"
       ],
       "explanation": "本句的「or so」指「表示數量、時間等只是約數；大約／左右」。",
       "sentenceIndex": 40,
@@ -1760,12 +1598,10 @@ export default {
         "or so"
       ],
       "optionReasons": {
-        "so-mcq-16": "本句指「表示數量、時間等只是約數；大約／左右」。",
-        "so-mcq-15": "「截至目前情況仍然令人滿意、沒有問題」是「so far, so good」的用法，與本句語境不同。",
-        "so-mcq-17": "「表示仍有其他相似項目，不再一一列出」是「and so on」的用法，與本句語境不同。",
-        "so-mcq-14": "「達到這麼遠的距離／這麼大的程度」是「so far — distance/extent」的用法，與本句語境不同。",
-        "so-mcq-18": "「被稱為某名稱的；有時帶懷疑或諷刺語氣」是「so-called」的用法，與本句語境不同。",
-        "so-mcq-13": "「從較早時間一直到目前為止」是「so far — time」的用法，與本句語境不同。"
+        "so-mcq-16": "本句的「or so」指「表示數量、時間等只是約數；大約／左右」。",
+        "so-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "so-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-16"
     },
@@ -1777,11 +1613,9 @@ export default {
       "masked": "The shop sells headphones, speakers, chargers, ____.",
       "options": [
         "so-mcq-17",
-        "so-mcq-16",
-        "so-mcq-18",
-        "so-mcq-15",
-        "so-mcq-19",
-        "so-mcq-14"
+        "so-mcq-12",
+        "so-mcq-05",
+        "so-mcq-18"
       ],
       "explanation": "本句的「and so on」指「表示仍有其他相似項目，不再一一列出」。",
       "sentenceIndex": 41,
@@ -1790,12 +1624,10 @@ export default {
         "and so on"
       ],
       "optionReasons": {
-        "so-mcq-17": "本句指「表示仍有其他相似項目，不再一一列出」。",
-        "so-mcq-16": "「表示數量、時間等只是約數；大約／左右」是「or so」的用法，與本句語境不同。",
-        "so-mcq-18": "「被稱為某名稱的；有時帶懷疑或諷刺語氣」是「so-called」的用法，與本句語境不同。",
-        "so-mcq-15": "「截至目前情況仍然令人滿意、沒有問題」是「so far, so good」的用法，與本句語境不同。",
-        "so-mcq-19": "「表示某種程度比比較對象低；沒那麼……」是「not so」的用法，與本句語境不同。",
-        "so-mcq-14": "「達到這麼遠的距離／這麼大的程度」是「so far — distance/extent」的用法，與本句語境不同。"
+        "so-mcq-17": "本句的「and so on」指「表示仍有其他相似項目，不再一一列出」。",
+        "so-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-17"
     },
@@ -1807,11 +1639,9 @@ export default {
       "masked": "We discussed price, comfort, quality, ____.",
       "options": [
         "so-mcq-17",
-        "so-mcq-16",
-        "so-mcq-18",
-        "so-mcq-15",
-        "so-mcq-19",
-        "so-mcq-14"
+        "so-mcq-12",
+        "so-pdf-001",
+        "so-mcq-04"
       ],
       "explanation": "本句的「and so on」指「表示仍有其他相似項目，不再一一列出」。",
       "sentenceIndex": 42,
@@ -1820,12 +1650,10 @@ export default {
         "and so on"
       ],
       "optionReasons": {
-        "so-mcq-17": "本句指「表示仍有其他相似項目，不再一一列出」。",
-        "so-mcq-16": "「表示數量、時間等只是約數；大約／左右」是「or so」的用法，與本句語境不同。",
-        "so-mcq-18": "「被稱為某名稱的；有時帶懷疑或諷刺語氣」是「so-called」的用法，與本句語境不同。",
-        "so-mcq-15": "「截至目前情況仍然令人滿意、沒有問題」是「so far, so good」的用法，與本句語境不同。",
-        "so-mcq-19": "「表示某種程度比比較對象低；沒那麼……」是「not so」的用法，與本句語境不同。",
-        "so-mcq-14": "「達到這麼遠的距離／這麼大的程度」是「so far — distance/extent」的用法，與本句語境不同。"
+        "so-mcq-17": "本句的「and so on」指「表示仍有其他相似項目，不再一一列出」。",
+        "so-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "so-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-17"
     },
@@ -1837,11 +1665,9 @@ export default {
       "masked": "The ____ ‘premium’ model was disappointing.",
       "options": [
         "so-mcq-18",
-        "so-mcq-17",
-        "so-mcq-19",
-        "so-mcq-16",
-        "so-mcq-20",
-        "so-mcq-15"
+        "so-mcq-06",
+        "so-mcq-14",
+        "so-mcq-09"
       ],
       "explanation": "本句的「so-called」指「被稱為某名稱的；有時帶懷疑或諷刺語氣」。",
       "sentenceIndex": 43,
@@ -1850,12 +1676,10 @@ export default {
         "so-called"
       ],
       "optionReasons": {
-        "so-mcq-18": "本句指「被稱為某名稱的；有時帶懷疑或諷刺語氣」。",
-        "so-mcq-17": "「表示仍有其他相似項目，不再一一列出」是「and so on」的用法，與本句語境不同。",
-        "so-mcq-19": "「表示某種程度比比較對象低；沒那麼……」是「not so」的用法，與本句語境不同。",
-        "so-mcq-16": "「表示數量、時間等只是約數；大約／左右」是「or so」的用法，與本句語境不同。",
-        "so-mcq-20": "「表現／品質普通，不好也不差」是「so-so」的用法，與本句語境不同。",
-        "so-mcq-15": "「截至目前情況仍然令人滿意、沒有問題」是「so far, so good」的用法，與本句語境不同。"
+        "so-mcq-18": "本句的「so-called」指「被稱為某名稱的；有時帶懷疑或諷刺語氣」。",
+        "so-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-18"
     },
@@ -1867,11 +1691,9 @@ export default {
       "masked": "This is part of the ____ attention economy.",
       "options": [
         "so-mcq-18",
-        "so-mcq-17",
-        "so-mcq-19",
-        "so-mcq-16",
-        "so-mcq-20",
-        "so-mcq-15"
+        "so-mcq-14",
+        "so-mcq-08",
+        "so-mcq-20"
       ],
       "explanation": "本句的「so-called」指「被稱為某名稱的；有時帶懷疑或諷刺語氣」。",
       "sentenceIndex": 44,
@@ -1880,12 +1702,10 @@ export default {
         "so-called"
       ],
       "optionReasons": {
-        "so-mcq-18": "本句指「被稱為某名稱的；有時帶懷疑或諷刺語氣」。",
-        "so-mcq-17": "「表示仍有其他相似項目，不再一一列出」是「and so on」的用法，與本句語境不同。",
-        "so-mcq-19": "「表示某種程度比比較對象低；沒那麼……」是「not so」的用法，與本句語境不同。",
-        "so-mcq-16": "「表示數量、時間等只是約數；大約／左右」是「or so」的用法，與本句語境不同。",
-        "so-mcq-20": "「表現／品質普通，不好也不差」是「so-so」的用法，與本句語境不同。",
-        "so-mcq-15": "「截至目前情況仍然令人滿意、沒有問題」是「so far, so good」的用法，與本句語境不同。"
+        "so-mcq-18": "本句的「so-called」指「被稱為某名稱的；有時帶懷疑或諷刺語氣」。",
+        "so-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-18"
     },
@@ -1897,11 +1717,9 @@ export default {
       "masked": "The cheaper model is ____.",
       "options": [
         "so-mcq-19",
-        "so-mcq-18",
-        "so-mcq-20",
+        "so-mcq-04",
         "so-mcq-17",
-        "so-mcq-21",
-        "so-mcq-16"
+        "so-mcq-08"
       ],
       "explanation": "本句的「not so comfortable」指「表示某種程度比比較對象低；沒那麼……」。",
       "sentenceIndex": 45,
@@ -1910,12 +1728,10 @@ export default {
         "not so comfortable"
       ],
       "optionReasons": {
-        "so-mcq-19": "本句指「表示某種程度比比較對象低；沒那麼……」。",
-        "so-mcq-18": "「被稱為某名稱的；有時帶懷疑或諷刺語氣」是「so-called」的用法，與本句語境不同。",
-        "so-mcq-20": "「表現／品質普通，不好也不差」是「so-so」的用法，與本句語境不同。",
-        "so-mcq-17": "「表示仍有其他相似項目，不再一一列出」是「and so on」的用法，與本句語境不同。",
-        "so-mcq-21": "「代替前面命題；在否定句中表示「並非如此」」是「6. not...so / I don’t think so — 我想不是；並非如此」的用法，與本句語境不同。",
-        "so-mcq-16": "「表示數量、時間等只是約數；大約／左右」是「or so」的用法，與本句語境不同。"
+        "so-mcq-19": "本句的「not so comfortable」指「表示某種程度比比較對象低；沒那麼……」。",
+        "so-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-19"
     },
@@ -1927,11 +1743,9 @@ export default {
       "masked": "The second half was ____.",
       "options": [
         "so-mcq-19",
-        "so-mcq-18",
-        "so-mcq-20",
-        "so-mcq-17",
-        "so-mcq-21",
-        "so-mcq-16"
+        "so-mcq-03",
+        "so-mcq-08",
+        "so-mcq-20"
       ],
       "explanation": "本句的「not so interesting」指「表示某種程度比比較對象低；沒那麼……」。",
       "sentenceIndex": 46,
@@ -1940,12 +1754,10 @@ export default {
         "not so interesting"
       ],
       "optionReasons": {
-        "so-mcq-19": "本句指「表示某種程度比比較對象低；沒那麼……」。",
-        "so-mcq-18": "「被稱為某名稱的；有時帶懷疑或諷刺語氣」是「so-called」的用法，與本句語境不同。",
-        "so-mcq-20": "「表現／品質普通，不好也不差」是「so-so」的用法，與本句語境不同。",
-        "so-mcq-17": "「表示仍有其他相似項目，不再一一列出」是「and so on」的用法，與本句語境不同。",
-        "so-mcq-21": "「代替前面命題；在否定句中表示「並非如此」」是「6. not...so / I don’t think so — 我想不是；並非如此」的用法，與本句語境不同。",
-        "so-mcq-16": "「表示數量、時間等只是約數；大約／左右」是「or so」的用法，與本句語境不同。"
+        "so-mcq-19": "本句的「not so interesting」指「表示某種程度比比較對象低；沒那麼……」。",
+        "so-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-19"
     },
@@ -1957,11 +1769,9 @@ export default {
       "masked": "How was the film?” > “____",
       "options": [
         "so-mcq-20",
-        "so-mcq-19",
-        "so-mcq-21",
-        "so-mcq-18",
+        "so-mcq-14",
         "so-mcq-22",
-        "so-mcq-17"
+        "so-mcq-10"
       ],
       "explanation": "本句的「So-so.」指「表現／品質普通，不好也不差」。",
       "sentenceIndex": 47,
@@ -1970,12 +1780,10 @@ export default {
         "So-so."
       ],
       "optionReasons": {
-        "so-mcq-20": "本句指「表現／品質普通，不好也不差」。",
-        "so-mcq-19": "「表示某種程度比比較對象低；沒那麼……」是「not so」的用法，與本句語境不同。",
-        "so-mcq-21": "「代替前面命題；在否定句中表示「並非如此」」是「6. not...so / I don’t think so — 我想不是；並非如此」的用法，與本句語境不同。",
-        "so-mcq-18": "「被稱為某名稱的；有時帶懷疑或諷刺語氣」是「so-called」的用法，與本句語境不同。",
-        "so-mcq-22": "「表示的確如此；果然是」是「8. so + subject + auxiliary（確認前述事實） — 的確如此；果然是」的用法，與本句語境不同。",
-        "so-mcq-17": "「表示仍有其他相似項目，不再一一列出」是「and so on」的用法，與本句語境不同。"
+        "so-mcq-20": "本句的「So-so.」指「表現／品質普通，不好也不差」。",
+        "so-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-20"
     },
@@ -1987,11 +1795,9 @@ export default {
       "masked": "The sound quality is only ____.",
       "options": [
         "so-mcq-20",
-        "so-mcq-19",
-        "so-mcq-21",
-        "so-mcq-18",
-        "so-mcq-22",
-        "so-mcq-17"
+        "so-mcq-12",
+        "so-mcq-09",
+        "so-mcq-13"
       ],
       "explanation": "本句的「so-so」指「表現／品質普通，不好也不差」。",
       "sentenceIndex": 48,
@@ -2000,12 +1806,10 @@ export default {
         "so-so"
       ],
       "optionReasons": {
-        "so-mcq-20": "本句指「表現／品質普通，不好也不差」。",
-        "so-mcq-19": "「表示某種程度比比較對象低；沒那麼……」是「not so」的用法，與本句語境不同。",
-        "so-mcq-21": "「代替前面命題；在否定句中表示「並非如此」」是「6. not...so / I don’t think so — 我想不是；並非如此」的用法，與本句語境不同。",
-        "so-mcq-18": "「被稱為某名稱的；有時帶懷疑或諷刺語氣」是「so-called」的用法，與本句語境不同。",
-        "so-mcq-22": "「表示的確如此；果然是」是「8. so + subject + auxiliary（確認前述事實） — 的確如此；果然是」的用法，與本句語境不同。",
-        "so-mcq-17": "「表示仍有其他相似項目，不再一一列出」是「and so on」的用法，與本句語境不同。"
+        "so-mcq-20": "本句的「so-so」指「表現／品質普通，不好也不差」。",
+        "so-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "so-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "so-mcq-20"
     }
@@ -2017,5 +1821,7 @@ export default {
     "sha256": "83ce9e2fb19de5850bd363afb82eeec9b135113023ef28b8c155c347dcd11413",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -51,23 +51,12 @@ export default {
     },
     {
       "id": "mean-mcq-03",
-      "title": "表示……",
+      "title": "……",
       "form": "mean that...",
       "en": "mean that...",
       "zh": "表示……",
       "note": "來源詞義：表示……",
-      "examples": [
-        [
-          "A red light means that you must stop.",
-          "紅燈表示你必須停下來。",
-          "表示……"
-        ],
-        [
-          "His silence didn't mean that he agreed.",
-          "他的沉默並不表示他同意。",
-          "表示……"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -922,6 +911,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "mean-reviewed-1c9e19766e",
+      "title": "表示某件事的含義或所傳達的訊息",
+      "form": "mean · source section 4",
+      "en": "表示某件事的含義或所傳達的訊息",
+      "zh": "表示某件事的含義或所傳達的訊息",
+      "note": "對照原始教材第 4 節及例句核實。",
+      "examples": [
+        [
+          "A red light means that you must stop.",
+          "紅燈表示你必須停下來。",
+          "表示某件事的含義或所傳達的訊息"
+        ],
+        [
+          "His silence didn't mean that he agreed.",
+          "他的沉默並不表示他同意。",
+          "表示某件事的含義或所傳達的訊息"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -933,11 +944,9 @@ export default {
       "masked": "What does this word ____?",
       "options": [
         "mean-mcq-01",
-        "mean-mcq-02",
-        "mean-mcq-03",
-        "mean-mcq-04",
-        "mean-mcq-05",
-        "mean-mcq-06"
+        "mean-mcq-15",
+        "mean-mcq-44",
+        "mean-mcq-09"
       ],
       "explanation": "本句的「mean」指「意思是；表示」。",
       "sentenceIndex": 0,
@@ -946,12 +955,10 @@ export default {
         "mean"
       ],
       "optionReasons": {
-        "mean-mcq-01": "本句指「意思是；表示」。",
-        "mean-mcq-02": "「所謂 X 是指……」是「mean by X」的用法，與本句語境不同。",
-        "mean-mcq-03": "「表示……」是「mean that...」的用法，與本句語境不同。",
-        "mean-mcq-04": "「X 意味着／涉及 Y」是「X means doing Y」的用法，與本句語境不同。",
-        "mean-mcq-05": "「意味着成本增加」是「mean higher costs」的用法，與本句語境不同。",
-        "mean-mcq-06": "「打算做 X」是「mean to do X」的用法，與本句語境不同。"
+        "mean-mcq-01": "本句的「mean」指「意思是；表示」。",
+        "mean-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-01"
     },
@@ -963,11 +970,9 @@ export default {
       "masked": "Rapid” ____ “very fast.",
       "options": [
         "mean-mcq-01",
-        "mean-mcq-02",
-        "mean-mcq-03",
-        "mean-mcq-04",
-        "mean-mcq-05",
-        "mean-mcq-06"
+        "mean-mcq-12",
+        "mean-mcq-11",
+        "mean-mcq-18"
       ],
       "explanation": "本句的「means」指「意思是；表示」。",
       "sentenceIndex": 1,
@@ -976,12 +981,10 @@ export default {
         "means"
       ],
       "optionReasons": {
-        "mean-mcq-01": "本句指「意思是；表示」。",
-        "mean-mcq-02": "「所謂 X 是指……」是「mean by X」的用法，與本句語境不同。",
-        "mean-mcq-03": "「表示……」是「mean that...」的用法，與本句語境不同。",
-        "mean-mcq-04": "「X 意味着／涉及 Y」是「X means doing Y」的用法，與本句語境不同。",
-        "mean-mcq-05": "「意味着成本增加」是「mean higher costs」的用法，與本句語境不同。",
-        "mean-mcq-06": "「打算做 X」是「mean to do X」的用法，與本句語境不同。"
+        "mean-mcq-01": "本句的「means」指「意思是；表示」。",
+        "mean-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-01"
     },
@@ -993,11 +996,9 @@ export default {
       "masked": "What do you ____ by that?",
       "options": [
         "mean-mcq-34",
-        "mean-mcq-33",
-        "mean-mcq-35",
-        "mean-mcq-32",
-        "mean-mcq-36",
-        "mean-mcq-31"
+        "mean-mcq-38",
+        "mean-mcq-41",
+        "mean-mcq-12"
       ],
       "explanation": "本句的「mean」指「詢問對方剛才的說話究竟想表達甚麼」。",
       "sentenceIndex": 2,
@@ -1006,12 +1007,10 @@ export default {
         "mean"
       ],
       "optionReasons": {
-        "mean-mcq-34": "本句指「詢問對方剛才的說話究竟想表達甚麼」。",
-        "mean-mcq-33": "「經入息／資產審查的」是「means-tested」的用法，與本句語境不同。",
-        "mean-mcq-35": "「透過某個行為有意表達某種訊息或意圖」是「5. mean something by an action — 某個行為有某種意思」的用法，與本句語境不同。",
-        "mean-mcq-32": "「超出負擔能力」是「beyond your means」的用法，與本句語境不同。",
-        "mean-mcq-36": "「某件事會帶來、造成或必然涉及某個結果」是「7. mean = 意味着；會導致某種結果」的用法，與本句語境不同。",
-        "mean-mcq-31": "「量入為出」是「within your means」的用法，與本句語境不同。"
+        "mean-mcq-34": "本句的「mean」指「詢問對方剛才的說話究竟想表達甚麼」。",
+        "mean-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-34"
     },
@@ -1023,11 +1022,9 @@ export default {
       "masked": "I'm not sure what you ____.",
       "options": [
         "mean-mcq-34",
-        "mean-mcq-33",
-        "mean-mcq-35",
-        "mean-mcq-32",
-        "mean-mcq-36",
-        "mean-mcq-31"
+        "mean-mcq-44",
+        "mean-mcq-30",
+        "mean-mcq-06"
       ],
       "explanation": "本句的「mean」指「詢問對方剛才的說話究竟想表達甚麼」。",
       "sentenceIndex": 3,
@@ -1036,12 +1033,10 @@ export default {
         "mean"
       ],
       "optionReasons": {
-        "mean-mcq-34": "本句指「詢問對方剛才的說話究竟想表達甚麼」。",
-        "mean-mcq-33": "「經入息／資產審查的」是「means-tested」的用法，與本句語境不同。",
-        "mean-mcq-35": "「透過某個行為有意表達某種訊息或意圖」是「5. mean something by an action — 某個行為有某種意思」的用法，與本句語境不同。",
-        "mean-mcq-32": "「超出負擔能力」是「beyond your means」的用法，與本句語境不同。",
-        "mean-mcq-36": "「某件事會帶來、造成或必然涉及某個結果」是「7. mean = 意味着；會導致某種結果」的用法，與本句語境不同。",
-        "mean-mcq-31": "「量入為出」是「within your means」的用法，與本句語境不同。"
+        "mean-mcq-34": "本句的「mean」指「詢問對方剛才的說話究竟想表達甚麼」。",
+        "mean-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-34"
     },
@@ -1053,11 +1048,9 @@ export default {
       "masked": "What do you ____”?",
       "options": [
         "mean-mcq-02",
-        "mean-mcq-01",
-        "mean-mcq-03",
-        "mean-mcq-04",
-        "mean-mcq-05",
-        "mean-mcq-06"
+        "mean-mcq-28",
+        "mean-mcq-36",
+        "mean-mcq-14"
       ],
       "explanation": "本句的「mean by “independent thinking」指「所謂 X 是指……」。",
       "sentenceIndex": 4,
@@ -1066,12 +1059,10 @@ export default {
         "mean by “independent thinking"
       ],
       "optionReasons": {
-        "mean-mcq-02": "本句指「所謂 X 是指……」。",
-        "mean-mcq-01": "「意思是；表示」是「mean (word/sign)」的用法，與本句語境不同。",
-        "mean-mcq-03": "「表示……」是「mean that...」的用法，與本句語境不同。",
-        "mean-mcq-04": "「X 意味着／涉及 Y」是「X means doing Y」的用法，與本句語境不同。",
-        "mean-mcq-05": "「意味着成本增加」是「mean higher costs」的用法，與本句語境不同。",
-        "mean-mcq-06": "「打算做 X」是「mean to do X」的用法，與本句語境不同。"
+        "mean-mcq-02": "本句的「mean by “independent thinking」指「所謂 X 是指……」。",
+        "mean-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-02"
     },
@@ -1083,11 +1074,9 @@ export default {
       "masked": "I understand what she ____",
       "options": [
         "mean-mcq-02",
-        "mean-mcq-01",
-        "mean-mcq-03",
-        "mean-mcq-04",
-        "mean-mcq-05",
-        "mean-mcq-06"
+        "mean-mcq-42",
+        "mean-mcq-34",
+        "mean-mcq-12"
       ],
       "explanation": "本句的「means by “balance.」指「所謂 X 是指……」。",
       "sentenceIndex": 5,
@@ -1096,74 +1085,68 @@ export default {
         "means by “balance."
       ],
       "optionReasons": {
-        "mean-mcq-02": "本句指「所謂 X 是指……」。",
-        "mean-mcq-01": "「意思是；表示」是「mean (word/sign)」的用法，與本句語境不同。",
-        "mean-mcq-03": "「表示……」是「mean that...」的用法，與本句語境不同。",
-        "mean-mcq-04": "「X 意味着／涉及 Y」是「X means doing Y」的用法，與本句語境不同。",
-        "mean-mcq-05": "「意味着成本增加」是「mean higher costs」的用法，與本句語境不同。",
-        "mean-mcq-06": "「打算做 X」是「mean to do X」的用法，與本句語境不同。"
+        "mean-mcq-02": "本句的「means by “balance.」指「所謂 X 是指……」。",
+        "mean-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-02"
     },
     {
       "id": "mean-04-0",
-      "sense": "mean-mcq-03",
+      "sense": "mean-reviewed-1c9e19766e",
       "en": "A red light means that you must stop.",
       "zh": "紅燈表示你必須停下來。",
       "masked": "A red light ____.",
       "options": [
-        "mean-mcq-03",
-        "mean-mcq-02",
-        "mean-mcq-04",
-        "mean-mcq-01",
-        "mean-mcq-05",
-        "mean-mcq-06"
+        "mean-reviewed-1c9e19766e",
+        "mean-mcq-09",
+        "mean-mcq-40",
+        "mean-mcq-12"
       ],
-      "explanation": "本句的「means that you must stop」指「表示……」。",
+      "explanation": "對照完整句子：「紅燈表示你必須停下來。」。這裡的「means that you must stop」表示「表示某件事的含義或所傳達的訊息」。",
       "sentenceIndex": 6,
       "sourcePractice": 1,
       "targets": [
         "means that you must stop"
       ],
       "optionReasons": {
-        "mean-mcq-03": "本句指「表示……」。",
-        "mean-mcq-02": "「所謂 X 是指……」是「mean by X」的用法，與本句語境不同。",
-        "mean-mcq-04": "「X 意味着／涉及 Y」是「X means doing Y」的用法，與本句語境不同。",
-        "mean-mcq-01": "「意思是；表示」是「mean (word/sign)」的用法，與本句語境不同。",
-        "mean-mcq-05": "「意味着成本增加」是「mean higher costs」的用法，與本句語境不同。",
-        "mean-mcq-06": "「打算做 X」是「mean to do X」的用法，與本句語境不同。"
+        "mean-reviewed-1c9e19766e": "對照完整句子：「紅燈表示你必須停下來。」。這裡的「means that you must stop」表示「表示某件事的含義或所傳達的訊息」。",
+        "mean-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "mean-mcq-03"
+      "correctOption": "mean-reviewed-1c9e19766e",
+      "previousCorrectOption": "mean-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "mean-04-1",
-      "sense": "mean-mcq-03",
+      "sense": "mean-reviewed-1c9e19766e",
       "en": "His silence didn't mean that he agreed.",
       "zh": "他的沉默並不表示他同意。",
       "masked": "His silence didn't ____.",
       "options": [
-        "mean-mcq-03",
-        "mean-mcq-02",
-        "mean-mcq-04",
-        "mean-mcq-01",
-        "mean-mcq-05",
-        "mean-mcq-06"
+        "mean-reviewed-1c9e19766e",
+        "mean-mcq-11",
+        "mean-mcq-44",
+        "mean-mcq-30"
       ],
-      "explanation": "本句的「mean that he agreed」指「表示……」。",
+      "explanation": "對照完整句子：「他的沉默並不表示他同意。」。這裡的「mean that he agreed」表示「表示某件事的含義或所傳達的訊息」。",
       "sentenceIndex": 7,
       "sourcePractice": 2,
       "targets": [
         "mean that he agreed"
       ],
       "optionReasons": {
-        "mean-mcq-03": "本句指「表示……」。",
-        "mean-mcq-02": "「所謂 X 是指……」是「mean by X」的用法，與本句語境不同。",
-        "mean-mcq-04": "「X 意味着／涉及 Y」是「X means doing Y」的用法，與本句語境不同。",
-        "mean-mcq-01": "「意思是；表示」是「mean (word/sign)」的用法，與本句語境不同。",
-        "mean-mcq-05": "「意味着成本增加」是「mean higher costs」的用法，與本句語境不同。",
-        "mean-mcq-06": "「打算做 X」是「mean to do X」的用法，與本句語境不同。"
+        "mean-reviewed-1c9e19766e": "對照完整句子：「他的沉默並不表示他同意。」。這裡的「mean that he agreed」表示「表示某件事的含義或所傳達的訊息」。",
+        "mean-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "mean-mcq-03"
+      "correctOption": "mean-reviewed-1c9e19766e",
+      "previousCorrectOption": "mean-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "mean-05-0",
@@ -1173,11 +1156,9 @@ export default {
       "masked": "What did he ____?",
       "options": [
         "mean-mcq-35",
-        "mean-mcq-34",
-        "mean-mcq-36",
-        "mean-mcq-33",
-        "mean-mcq-37",
-        "mean-mcq-32"
+        "mean-mcq-15",
+        "mean-mcq-09",
+        "mean-mcq-22"
       ],
       "explanation": "本句的「mean by that smile」指「透過某個行為有意表達某種訊息或意圖」。",
       "sentenceIndex": 8,
@@ -1186,12 +1167,10 @@ export default {
         "mean by that smile"
       ],
       "optionReasons": {
-        "mean-mcq-35": "本句指「透過某個行為有意表達某種訊息或意圖」。",
-        "mean-mcq-34": "「詢問對方剛才的說話究竟想表達甚麼」是「2. What do you mean? — 你是甚麼意思？」的用法，與本句語境不同。",
-        "mean-mcq-36": "「某件事會帶來、造成或必然涉及某個結果」是「7. mean = 意味着；會導致某種結果」的用法，與本句語境不同。",
-        "mean-mcq-33": "「經入息／資產審查的」是「means-tested」的用法，與本句語境不同。",
-        "mean-mcq-37": "「成為決定兩種結果中哪一種出現的關鍵因素」是「8. mean the difference between X and Y — 決定 X 與 Y 的差別」的用法，與本句語境不同。",
-        "mean-mcq-32": "「超出負擔能力」是「beyond your means」的用法，與本句語境不同。"
+        "mean-mcq-35": "本句的「mean by that smile」指「透過某個行為有意表達某種訊息或意圖」。",
+        "mean-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-35"
     },
@@ -1203,11 +1182,9 @@ export default {
       "masked": "I didn't ____.",
       "options": [
         "mean-mcq-35",
-        "mean-mcq-34",
-        "mean-mcq-36",
-        "mean-mcq-33",
-        "mean-mcq-37",
-        "mean-mcq-32"
+        "mean-mcq-27",
+        "mean-mcq-31",
+        "mean-mcq-36"
       ],
       "explanation": "本句的「mean anything by it」指「透過某個行為有意表達某種訊息或意圖」。",
       "sentenceIndex": 9,
@@ -1216,12 +1193,10 @@ export default {
         "mean anything by it"
       ],
       "optionReasons": {
-        "mean-mcq-35": "本句指「透過某個行為有意表達某種訊息或意圖」。",
-        "mean-mcq-34": "「詢問對方剛才的說話究竟想表達甚麼」是「2. What do you mean? — 你是甚麼意思？」的用法，與本句語境不同。",
-        "mean-mcq-36": "「某件事會帶來、造成或必然涉及某個結果」是「7. mean = 意味着；會導致某種結果」的用法，與本句語境不同。",
-        "mean-mcq-33": "「經入息／資產審查的」是「means-tested」的用法，與本句語境不同。",
-        "mean-mcq-37": "「成為決定兩種結果中哪一種出現的關鍵因素」是「8. mean the difference between X and Y — 決定 X 與 Y 的差別」的用法，與本句語境不同。",
-        "mean-mcq-32": "「超出負擔能力」是「beyond your means」的用法，與本句語境不同。"
+        "mean-mcq-35": "本句的「mean anything by it」指「透過某個行為有意表達某種訊息或意圖」。",
+        "mean-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-35"
     },
@@ -1233,11 +1208,9 @@ export default {
       "masked": "I used to think studying ____.",
       "options": [
         "mean-mcq-04",
-        "mean-mcq-03",
-        "mean-mcq-05",
-        "mean-mcq-02",
-        "mean-mcq-06",
-        "mean-mcq-01"
+        "mean-mcq-11",
+        "mean-mcq-12",
+        "mean-mcq-10"
       ],
       "explanation": "本句的「meant memorising facts」指「X 意味着／涉及 Y」。",
       "sentenceIndex": 10,
@@ -1246,12 +1219,10 @@ export default {
         "meant memorising facts"
       ],
       "optionReasons": {
-        "mean-mcq-04": "本句指「X 意味着／涉及 Y」。",
-        "mean-mcq-03": "「表示……」是「mean that...」的用法，與本句語境不同。",
-        "mean-mcq-05": "「意味着成本增加」是「mean higher costs」的用法，與本句語境不同。",
-        "mean-mcq-02": "「所謂 X 是指……」是「mean by X」的用法，與本句語境不同。",
-        "mean-mcq-06": "「打算做 X」是「mean to do X」的用法，與本句語境不同。",
-        "mean-mcq-01": "「意思是；表示」是「mean (word/sign)」的用法，與本句語境不同。"
+        "mean-mcq-04": "本句的「meant memorising facts」指「X 意味着／涉及 Y」。",
+        "mean-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-04"
     },
@@ -1263,11 +1234,9 @@ export default {
       "masked": "Being a teacher ____.",
       "options": [
         "mean-mcq-04",
-        "mean-mcq-03",
-        "mean-mcq-05",
-        "mean-mcq-02",
-        "mean-mcq-06",
-        "mean-mcq-01"
+        "mean-mcq-30",
+        "mean-mcq-31",
+        "mean-mcq-10"
       ],
       "explanation": "本句的「means working with people every day」指「X 意味着／涉及 Y」。",
       "sentenceIndex": 11,
@@ -1276,12 +1245,10 @@ export default {
         "means working with people every day"
       ],
       "optionReasons": {
-        "mean-mcq-04": "本句指「X 意味着／涉及 Y」。",
-        "mean-mcq-03": "「表示……」是「mean that...」的用法，與本句語境不同。",
-        "mean-mcq-05": "「意味着成本增加」是「mean higher costs」的用法，與本句語境不同。",
-        "mean-mcq-02": "「所謂 X 是指……」是「mean by X」的用法，與本句語境不同。",
-        "mean-mcq-06": "「打算做 X」是「mean to do X」的用法，與本句語境不同。",
-        "mean-mcq-01": "「意思是；表示」是「mean (word/sign)」的用法，與本句語境不同。"
+        "mean-mcq-04": "本句的「means working with people every day」指「X 意味着／涉及 Y」。",
+        "mean-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-04"
     },
@@ -1293,11 +1260,9 @@ export default {
       "masked": "Learning a language ____.",
       "options": [
         "mean-mcq-04",
-        "mean-mcq-03",
-        "mean-mcq-05",
-        "mean-mcq-02",
+        "mean-mcq-26",
         "mean-mcq-06",
-        "mean-mcq-01"
+        "mean-mcq-33"
       ],
       "explanation": "本句的「means making mistakes sometimes」指「X 意味着／涉及 Y」。",
       "sentenceIndex": 12,
@@ -1306,12 +1271,10 @@ export default {
         "means making mistakes sometimes"
       ],
       "optionReasons": {
-        "mean-mcq-04": "本句指「X 意味着／涉及 Y」。",
-        "mean-mcq-03": "「表示……」是「mean that...」的用法，與本句語境不同。",
-        "mean-mcq-05": "「意味着成本增加」是「mean higher costs」的用法，與本句語境不同。",
-        "mean-mcq-02": "「所謂 X 是指……」是「mean by X」的用法，與本句語境不同。",
-        "mean-mcq-06": "「打算做 X」是「mean to do X」的用法，與本句語境不同。",
-        "mean-mcq-01": "「意思是；表示」是「mean (word/sign)」的用法，與本句語境不同。"
+        "mean-mcq-04": "本句的「means making mistakes sometimes」指「X 意味着／涉及 Y」。",
+        "mean-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-04"
     },
@@ -1323,11 +1286,9 @@ export default {
       "masked": "Missing the bus will ____.",
       "options": [
         "mean-mcq-36",
-        "mean-mcq-35",
-        "mean-mcq-37",
-        "mean-mcq-34",
-        "mean-mcq-38",
-        "mean-mcq-33"
+        "mean-mcq-02",
+        "mean-mcq-12",
+        "mean-mcq-43"
       ],
       "explanation": "本句的「mean waiting another hour」指「某件事會帶來、造成或必然涉及某個結果」。",
       "sentenceIndex": 13,
@@ -1336,12 +1297,10 @@ export default {
         "mean waiting another hour"
       ],
       "optionReasons": {
-        "mean-mcq-36": "本句指「某件事會帶來、造成或必然涉及某個結果」。",
-        "mean-mcq-35": "「透過某個行為有意表達某種訊息或意圖」是「5. mean something by an action — 某個行為有某種意思」的用法，與本句語境不同。",
-        "mean-mcq-37": "「成為決定兩種結果中哪一種出現的關鍵因素」是「8. mean the difference between X and Y — 決定 X 與 Y 的差別」的用法，與本句語境不同。",
-        "mean-mcq-34": "「詢問對方剛才的說話究竟想表達甚麼」是「2. What do you mean? — 你是甚麼意思？」的用法，與本句語境不同。",
-        "mean-mcq-38": "「有意安排或希望某人／某事出現某個結果」是「11. mean for someone to do something — 打算讓某人做某事」的用法，與本句語境不同。",
-        "mean-mcq-33": "「經入息／資產審查的」是「means-tested」的用法，與本句語境不同。"
+        "mean-mcq-36": "本句的「mean waiting another hour」指「某件事會帶來、造成或必然涉及某個結果」。",
+        "mean-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-36"
     },
@@ -1353,11 +1312,9 @@ export default {
       "masked": "A delay could ____.",
       "options": [
         "mean-mcq-36",
+        "mean-pdf-001",
         "mean-mcq-35",
-        "mean-mcq-37",
-        "mean-mcq-34",
-        "mean-mcq-38",
-        "mean-mcq-33"
+        "mean-mcq-02"
       ],
       "explanation": "本句的「mean higher costs」指「某件事會帶來、造成或必然涉及某個結果」。",
       "sentenceIndex": 14,
@@ -1366,12 +1323,10 @@ export default {
         "mean higher costs"
       ],
       "optionReasons": {
-        "mean-mcq-36": "本句指「某件事會帶來、造成或必然涉及某個結果」。",
-        "mean-mcq-35": "「透過某個行為有意表達某種訊息或意圖」是「5. mean something by an action — 某個行為有某種意思」的用法，與本句語境不同。",
-        "mean-mcq-37": "「成為決定兩種結果中哪一種出現的關鍵因素」是「8. mean the difference between X and Y — 決定 X 與 Y 的差別」的用法，與本句語境不同。",
-        "mean-mcq-34": "「詢問對方剛才的說話究竟想表達甚麼」是「2. What do you mean? — 你是甚麼意思？」的用法，與本句語境不同。",
-        "mean-mcq-38": "「有意安排或希望某人／某事出現某個結果」是「11. mean for someone to do something — 打算讓某人做某事」的用法，與本句語境不同。",
-        "mean-mcq-33": "「經入息／資產審查的」是「means-tested」的用法，與本句語境不同。"
+        "mean-mcq-36": "本句的「mean higher costs」指「某件事會帶來、造成或必然涉及某個結果」。",
+        "mean-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-36"
     },
@@ -1383,11 +1338,9 @@ export default {
       "masked": "One small decision can ____.",
       "options": [
         "mean-mcq-37",
-        "mean-mcq-36",
-        "mean-mcq-38",
         "mean-mcq-35",
-        "mean-mcq-39",
-        "mean-mcq-34"
+        "mean-mcq-02",
+        "mean-mcq-26"
       ],
       "explanation": "本句的「mean the difference between success and failure」指「成為決定兩種結果中哪一種出現的關鍵因素」。",
       "sentenceIndex": 15,
@@ -1396,12 +1349,10 @@ export default {
         "mean the difference between success and failure"
       ],
       "optionReasons": {
-        "mean-mcq-37": "本句指「成為決定兩種結果中哪一種出現的關鍵因素」。",
-        "mean-mcq-36": "「某件事會帶來、造成或必然涉及某個結果」是「7. mean = 意味着；會導致某種結果」的用法，與本句語境不同。",
-        "mean-mcq-38": "「有意安排或希望某人／某事出現某個結果」是「11. mean for someone to do something — 打算讓某人做某事」的用法，與本句語境不同。",
-        "mean-mcq-35": "「透過某個行為有意表達某種訊息或意圖」是「5. mean something by an action — 某個行為有某種意思」的用法，與本句語境不同。",
-        "mean-mcq-39": "「故意以不友善、傷人或令人難受的方式對待別人的」是「21. mean（adjective：刻薄的） — 刻薄的；不友善的」的用法，與本句語境不同。",
-        "mean-mcq-34": "「詢問對方剛才的說話究竟想表達甚麼」是「2. What do you mean? — 你是甚麼意思？」的用法，與本句語境不同。"
+        "mean-mcq-37": "本句的「mean the difference between success and failure」指「成為決定兩種結果中哪一種出現的關鍵因素」。",
+        "mean-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-37"
     },
@@ -1413,11 +1364,9 @@ export default {
       "masked": "Good preparation can ____.",
       "options": [
         "mean-mcq-37",
-        "mean-mcq-36",
-        "mean-mcq-38",
-        "mean-mcq-35",
-        "mean-mcq-39",
-        "mean-mcq-34"
+        "mean-mcq-10",
+        "mean-mcq-34",
+        "mean-mcq-25"
       ],
       "explanation": "本句的「mean the difference between passing and failing」指「成為決定兩種結果中哪一種出現的關鍵因素」。",
       "sentenceIndex": 16,
@@ -1426,12 +1375,10 @@ export default {
         "mean the difference between passing and failing"
       ],
       "optionReasons": {
-        "mean-mcq-37": "本句指「成為決定兩種結果中哪一種出現的關鍵因素」。",
-        "mean-mcq-36": "「某件事會帶來、造成或必然涉及某個結果」是「7. mean = 意味着；會導致某種結果」的用法，與本句語境不同。",
-        "mean-mcq-38": "「有意安排或希望某人／某事出現某個結果」是「11. mean for someone to do something — 打算讓某人做某事」的用法，與本句語境不同。",
-        "mean-mcq-35": "「透過某個行為有意表達某種訊息或意圖」是「5. mean something by an action — 某個行為有某種意思」的用法，與本句語境不同。",
-        "mean-mcq-39": "「故意以不友善、傷人或令人難受的方式對待別人的」是「21. mean（adjective：刻薄的） — 刻薄的；不友善的」的用法，與本句語境不同。",
-        "mean-mcq-34": "「詢問對方剛才的說話究竟想表達甚麼」是「2. What do you mean? — 你是甚麼意思？」的用法，與本句語境不同。"
+        "mean-mcq-37": "本句的「mean the difference between passing and failing」指「成為決定兩種結果中哪一種出現的關鍵因素」。",
+        "mean-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-37"
     },
@@ -1443,11 +1390,9 @@ export default {
       "masked": "I ____ yesterday.",
       "options": [
         "mean-mcq-06",
-        "mean-mcq-05",
-        "mean-mcq-07",
-        "mean-mcq-04",
-        "mean-mcq-08",
-        "mean-mcq-03"
+        "mean-mcq-26",
+        "mean-mcq-34",
+        "mean-mcq-01"
       ],
       "explanation": "本句的「meant to call you」指「打算做 X」。",
       "sentenceIndex": 17,
@@ -1456,12 +1401,10 @@ export default {
         "meant to call you"
       ],
       "optionReasons": {
-        "mean-mcq-06": "本句指「打算做 X」。",
-        "mean-mcq-05": "「意味着成本增加」是「mean higher costs」的用法，與本句語境不同。",
-        "mean-mcq-07": "「不是故意 X」是「didn't mean to X」的用法，與本句語境不同。",
-        "mean-mcq-04": "「X 意味着／涉及 Y」是「X means doing Y」的用法，與本句語境不同。",
-        "mean-mcq-08": "「打算讓 X 發生」是「mean for X to happen」的用法，與本句語境不同。",
-        "mean-mcq-03": "「表示……」是「mean that...」的用法，與本句語境不同。"
+        "mean-mcq-06": "本句的「meant to call you」指「打算做 X」。",
+        "mean-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-06"
     },
@@ -1473,11 +1416,9 @@ export default {
       "masked": "She ____ the report before lunch.",
       "options": [
         "mean-mcq-06",
-        "mean-mcq-05",
-        "mean-mcq-07",
-        "mean-mcq-04",
-        "mean-mcq-08",
-        "mean-mcq-03"
+        "mean-mcq-34",
+        "mean-mcq-13",
+        "mean-mcq-02"
       ],
       "explanation": "本句的「meant to finish」指「打算做 X」。",
       "sentenceIndex": 18,
@@ -1486,12 +1427,10 @@ export default {
         "meant to finish"
       ],
       "optionReasons": {
-        "mean-mcq-06": "本句指「打算做 X」。",
-        "mean-mcq-05": "「意味着成本增加」是「mean higher costs」的用法，與本句語境不同。",
-        "mean-mcq-07": "「不是故意 X」是「didn't mean to X」的用法，與本句語境不同。",
-        "mean-mcq-04": "「X 意味着／涉及 Y」是「X means doing Y」的用法，與本句語境不同。",
-        "mean-mcq-08": "「打算讓 X 發生」是「mean for X to happen」的用法，與本句語境不同。",
-        "mean-mcq-03": "「表示……」是「mean that...」的用法，與本句語境不同。"
+        "mean-mcq-06": "本句的「meant to finish」指「打算做 X」。",
+        "mean-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-06"
     },
@@ -1503,11 +1442,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "mean-mcq-07",
-        "mean-mcq-06",
-        "mean-mcq-08",
-        "mean-mcq-05",
-        "mean-mcq-09",
-        "mean-mcq-04"
+        "mean-mcq-15",
+        "mean-mcq-27",
+        "mean-mcq-33"
       ],
       "explanation": "本句的「didn't mean to hurt you」指「不是故意 X」。",
       "sentenceIndex": 19,
@@ -1516,12 +1453,10 @@ export default {
         "didn't mean to hurt you"
       ],
       "optionReasons": {
-        "mean-mcq-07": "本句指「不是故意 X」。",
-        "mean-mcq-06": "「打算做 X」是「mean to do X」的用法，與本句語境不同。",
-        "mean-mcq-08": "「打算讓 X 發生」是「mean for X to happen」的用法，與本句語境不同。",
-        "mean-mcq-05": "「意味着成本增加」是「mean higher costs」的用法，與本句語境不同。",
-        "mean-mcq-09": "「原定／設計來 X」是「be meant to X」的用法，與本句語境不同。",
-        "mean-mcq-04": "「X 意味着／涉及 Y」是「X means doing Y」的用法，與本句語境不同。"
+        "mean-mcq-07": "本句的「didn't mean to hurt you」指「不是故意 X」。",
+        "mean-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-07"
     },
@@ -1534,10 +1469,8 @@ export default {
       "options": [
         "mean-mcq-07",
         "mean-mcq-06",
-        "mean-mcq-08",
-        "mean-mcq-05",
-        "mean-mcq-09",
-        "mean-mcq-04"
+        "mean-mcq-22",
+        "mean-mcq-16"
       ],
       "explanation": "本句的「didn't mean to interrupt」指「不是故意 X」。",
       "sentenceIndex": 20,
@@ -1546,12 +1479,10 @@ export default {
         "didn't mean to interrupt"
       ],
       "optionReasons": {
-        "mean-mcq-07": "本句指「不是故意 X」。",
-        "mean-mcq-06": "「打算做 X」是「mean to do X」的用法，與本句語境不同。",
-        "mean-mcq-08": "「打算讓 X 發生」是「mean for X to happen」的用法，與本句語境不同。",
-        "mean-mcq-05": "「意味着成本增加」是「mean higher costs」的用法，與本句語境不同。",
-        "mean-mcq-09": "「原定／設計來 X」是「be meant to X」的用法，與本句語境不同。",
-        "mean-mcq-04": "「X 意味着／涉及 Y」是「X means doing Y」的用法，與本句語境不同。"
+        "mean-mcq-07": "本句的「didn't mean to interrupt」指「不是故意 X」。",
+        "mean-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-07"
     },
@@ -1563,11 +1494,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "mean-mcq-38",
-        "mean-mcq-37",
-        "mean-mcq-39",
-        "mean-mcq-36",
-        "mean-mcq-40",
-        "mean-mcq-35"
+        "mean-mcq-43",
+        "mean-mcq-11",
+        "mean-mcq-27"
       ],
       "explanation": "本句的「meant for you to read this first」指「有意安排或希望某人／某事出現某個結果」。",
       "sentenceIndex": 21,
@@ -1576,12 +1505,10 @@ export default {
         "meant for you to read this first"
       ],
       "optionReasons": {
-        "mean-mcq-38": "本句指「有意安排或希望某人／某事出現某個結果」。",
-        "mean-mcq-37": "「成為決定兩種結果中哪一種出現的關鍵因素」是「8. mean the difference between X and Y — 決定 X 與 Y 的差別」的用法，與本句語境不同。",
-        "mean-mcq-39": "「故意以不友善、傷人或令人難受的方式對待別人的」是「21. mean（adjective：刻薄的） — 刻薄的；不友善的」的用法，與本句語境不同。",
-        "mean-mcq-36": "「某件事會帶來、造成或必然涉及某個結果」是「7. mean = 意味着；會導致某種結果」的用法，與本句語境不同。",
-        "mean-mcq-40": "「不願意花錢、分享或給予應有份量的」是「23. mean（吝嗇的） — 吝嗇的；小器的」的用法，與本句語境不同。",
-        "mean-mcq-35": "「透過某個行為有意表達某種訊息或意圖」是「5. mean something by an action — 某個行為有某種意思」的用法，與本句語境不同。"
+        "mean-mcq-38": "本句的「meant for you to read this first」指「有意安排或希望某人／某事出現某個結果」。",
+        "mean-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-38"
     },
@@ -1593,11 +1520,9 @@ export default {
       "masked": "She never ____.",
       "options": [
         "mean-mcq-38",
-        "mean-mcq-37",
-        "mean-mcq-39",
-        "mean-mcq-36",
-        "mean-mcq-40",
-        "mean-mcq-35"
+        "mean-mcq-25",
+        "mean-mcq-16",
+        "mean-mcq-11"
       ],
       "explanation": "本句的「meant for things to become so complicated」指「有意安排或希望某人／某事出現某個結果」。",
       "sentenceIndex": 22,
@@ -1606,12 +1531,10 @@ export default {
         "meant for things to become so complicated"
       ],
       "optionReasons": {
-        "mean-mcq-38": "本句指「有意安排或希望某人／某事出現某個結果」。",
-        "mean-mcq-37": "「成為決定兩種結果中哪一種出現的關鍵因素」是「8. mean the difference between X and Y — 決定 X 與 Y 的差別」的用法，與本句語境不同。",
-        "mean-mcq-39": "「故意以不友善、傷人或令人難受的方式對待別人的」是「21. mean（adjective：刻薄的） — 刻薄的；不友善的」的用法，與本句語境不同。",
-        "mean-mcq-36": "「某件事會帶來、造成或必然涉及某個結果」是「7. mean = 意味着；會導致某種結果」的用法，與本句語境不同。",
-        "mean-mcq-40": "「不願意花錢、分享或給予應有份量的」是「23. mean（吝嗇的） — 吝嗇的；小器的」的用法，與本句語境不同。",
-        "mean-mcq-35": "「透過某個行為有意表達某種訊息或意圖」是「5. mean something by an action — 某個行為有某種意思」的用法，與本句語境不同。"
+        "mean-mcq-38": "本句的「meant for things to become so complicated」指「有意安排或希望某人／某事出現某個結果」。",
+        "mean-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-38"
     },
@@ -1623,11 +1546,9 @@ export default {
       "masked": "This button is ____.",
       "options": [
         "mean-mcq-09",
-        "mean-mcq-08",
-        "mean-mcq-10",
-        "mean-mcq-07",
-        "mean-mcq-11",
-        "mean-mcq-06"
+        "mean-mcq-38",
+        "mean-mcq-34",
+        "mean-mcq-02"
       ],
       "explanation": "本句的「meant to open the door」指「原定／設計來 X」。",
       "sentenceIndex": 23,
@@ -1636,12 +1557,10 @@ export default {
         "meant to open the door"
       ],
       "optionReasons": {
-        "mean-mcq-09": "本句指「原定／設計來 X」。",
-        "mean-mcq-08": "「打算讓 X 發生」是「mean for X to happen」的用法，與本句語境不同。",
-        "mean-mcq-10": "「為 X 而設」是「be meant for X」的用法，與本句語境不同。",
-        "mean-mcq-07": "「不是故意 X」是「didn't mean to X」的用法，與本句語境不同。",
-        "mean-mcq-11": "「天生一對」是「meant for each other」的用法，與本句語境不同。",
-        "mean-mcq-06": "「打算做 X」是「mean to do X」的用法，與本句語境不同。"
+        "mean-mcq-09": "本句的「meant to open the door」指「原定／設計來 X」。",
+        "mean-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-09"
     },
@@ -1653,11 +1572,9 @@ export default {
       "masked": "We were ____.",
       "options": [
         "mean-mcq-09",
-        "mean-mcq-08",
-        "mean-mcq-10",
-        "mean-mcq-07",
-        "mean-mcq-11",
-        "mean-mcq-06"
+        "mean-mcq-26",
+        "mean-mcq-18",
+        "mean-mcq-40"
       ],
       "explanation": "本句的「meant to meet at six」指「原定／設計來 X」。",
       "sentenceIndex": 24,
@@ -1666,12 +1583,10 @@ export default {
         "meant to meet at six"
       ],
       "optionReasons": {
-        "mean-mcq-09": "本句指「原定／設計來 X」。",
-        "mean-mcq-08": "「打算讓 X 發生」是「mean for X to happen」的用法，與本句語境不同。",
-        "mean-mcq-10": "「為 X 而設」是「be meant for X」的用法，與本句語境不同。",
-        "mean-mcq-07": "「不是故意 X」是「didn't mean to X」的用法，與本句語境不同。",
-        "mean-mcq-11": "「天生一對」是「meant for each other」的用法，與本句語境不同。",
-        "mean-mcq-06": "「打算做 X」是「mean to do X」的用法，與本句語境不同。"
+        "mean-mcq-09": "本句的「meant to meet at six」指「原定／設計來 X」。",
+        "mean-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-09"
     },
@@ -1683,11 +1598,9 @@ export default {
       "masked": "This book is ____.",
       "options": [
         "mean-mcq-10",
-        "mean-mcq-09",
-        "mean-mcq-11",
-        "mean-mcq-08",
-        "mean-mcq-12",
-        "mean-mcq-07"
+        "mean-mcq-13",
+        "mean-mcq-15",
+        "mean-reviewed-1c9e19766e"
       ],
       "explanation": "本句的「meant for beginners」指「為 X 而設」。",
       "sentenceIndex": 25,
@@ -1696,12 +1609,10 @@ export default {
         "meant for beginners"
       ],
       "optionReasons": {
-        "mean-mcq-10": "本句指「為 X 而設」。",
-        "mean-mcq-09": "「原定／設計來 X」是「be meant to X」的用法，與本句語境不同。",
-        "mean-mcq-11": "「天生一對」是「meant for each other」的用法，與本句語境不同。",
-        "mean-mcq-08": "「打算讓 X 發生」是「mean for X to happen」的用法，與本句語境不同。",
-        "mean-mcq-12": "「對 X 很重要」是「mean a lot to X」的用法，與本句語境不同。",
-        "mean-mcq-07": "「不是故意 X」是「didn't mean to X」的用法，與本句語境不同。"
+        "mean-mcq-10": "本句的「meant for beginners」指「為 X 而設」。",
+        "mean-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mean-reviewed-1c9e19766e": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-10"
     },
@@ -1713,11 +1624,9 @@ export default {
       "masked": "These exercises are ____.",
       "options": [
         "mean-mcq-10",
-        "mean-mcq-09",
-        "mean-mcq-11",
-        "mean-mcq-08",
-        "mean-mcq-12",
-        "mean-mcq-07"
+        "mean-mcq-15",
+        "mean-mcq-07",
+        "mean-mcq-24"
       ],
       "explanation": "本句的「meant for younger students」指「為 X 而設」。",
       "sentenceIndex": 26,
@@ -1726,12 +1635,10 @@ export default {
         "meant for younger students"
       ],
       "optionReasons": {
-        "mean-mcq-10": "本句指「為 X 而設」。",
-        "mean-mcq-09": "「原定／設計來 X」是「be meant to X」的用法，與本句語境不同。",
-        "mean-mcq-11": "「天生一對」是「meant for each other」的用法，與本句語境不同。",
-        "mean-mcq-08": "「打算讓 X 發生」是「mean for X to happen」的用法，與本句語境不同。",
-        "mean-mcq-12": "「對 X 很重要」是「mean a lot to X」的用法，與本句語境不同。",
-        "mean-mcq-07": "「不是故意 X」是「didn't mean to X」的用法，與本句語境不同。"
+        "mean-mcq-10": "本句的「meant for younger students」指「為 X 而設」。",
+        "mean-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-10"
     },
@@ -1743,11 +1650,9 @@ export default {
       "masked": "They seem to be ____.",
       "options": [
         "mean-mcq-11",
-        "mean-mcq-10",
-        "mean-mcq-12",
-        "mean-mcq-09",
-        "mean-mcq-13",
-        "mean-mcq-08"
+        "mean-mcq-36",
+        "mean-mcq-06",
+        "mean-mcq-43"
       ],
       "explanation": "本句的「meant for each other」指「天生一對」。",
       "sentenceIndex": 27,
@@ -1756,12 +1661,10 @@ export default {
         "meant for each other"
       ],
       "optionReasons": {
-        "mean-mcq-11": "本句指「天生一對」。",
-        "mean-mcq-10": "「為 X 而設」是「be meant for X」的用法，與本句語境不同。",
-        "mean-mcq-12": "「對 X 很重要」是「mean a lot to X」的用法，與本句語境不同。",
-        "mean-mcq-09": "「原定／設計來 X」是「be meant to X」的用法，與本句語境不同。",
-        "mean-mcq-13": "「出於好意」是「mean well」的用法，與本句語境不同。",
-        "mean-mcq-08": "「打算讓 X 發生」是「mean for X to happen」的用法，與本句語境不同。"
+        "mean-mcq-11": "本句的「meant for each other」指「天生一對」。",
+        "mean-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-11"
     },
@@ -1773,11 +1676,9 @@ export default {
       "masked": "Everyone said the couple were ____.",
       "options": [
         "mean-mcq-11",
-        "mean-mcq-10",
-        "mean-mcq-12",
-        "mean-mcq-09",
-        "mean-mcq-13",
-        "mean-mcq-08"
+        "mean-mcq-32",
+        "mean-mcq-30",
+        "mean-mcq-12"
       ],
       "explanation": "本句的「meant for each other」指「天生一對」。",
       "sentenceIndex": 28,
@@ -1786,12 +1687,10 @@ export default {
         "meant for each other"
       ],
       "optionReasons": {
-        "mean-mcq-11": "本句指「天生一對」。",
-        "mean-mcq-10": "「為 X 而設」是「be meant for X」的用法，與本句語境不同。",
-        "mean-mcq-12": "「對 X 很重要」是「mean a lot to X」的用法，與本句語境不同。",
-        "mean-mcq-09": "「原定／設計來 X」是「be meant to X」的用法，與本句語境不同。",
-        "mean-mcq-13": "「出於好意」是「mean well」的用法，與本句語境不同。",
-        "mean-mcq-08": "「打算讓 X 發生」是「mean for X to happen」的用法，與本句語境不同。"
+        "mean-mcq-11": "本句的「meant for each other」指「天生一對」。",
+        "mean-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-11"
     },
@@ -1803,10 +1702,8 @@ export default {
       "masked": "His advice ____.",
       "options": [
         "mean-mcq-12",
-        "mean-mcq-11",
-        "mean-mcq-13",
-        "mean-mcq-10",
-        "mean-mcq-14",
+        "mean-mcq-40",
+        "mean-mcq-32",
         "mean-mcq-09"
       ],
       "explanation": "本句的「meant a lot to me」指「對 X 很重要」。",
@@ -1816,12 +1713,10 @@ export default {
         "meant a lot to me"
       ],
       "optionReasons": {
-        "mean-mcq-12": "本句指「對 X 很重要」。",
-        "mean-mcq-11": "「天生一對」是「meant for each other」的用法，與本句語境不同。",
-        "mean-mcq-13": "「出於好意」是「mean well」的用法，與本句語境不同。",
-        "mean-mcq-10": "「為 X 而設」是「be meant for X」的用法，與本句語境不同。",
-        "mean-mcq-14": "「沒有惡意」是「mean no harm」的用法，與本句語境不同。",
-        "mean-mcq-09": "「原定／設計來 X」是「be meant to X」的用法，與本句語境不同。"
+        "mean-mcq-12": "本句的「meant a lot to me」指「對 X 很重要」。",
+        "mean-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-12"
     },
@@ -1833,11 +1728,9 @@ export default {
       "masked": "This photograph ____.",
       "options": [
         "mean-mcq-12",
+        "mean-mcq-27",
         "mean-mcq-11",
-        "mean-mcq-13",
-        "mean-mcq-10",
-        "mean-mcq-14",
-        "mean-mcq-09"
+        "mean-mcq-01"
       ],
       "explanation": "本句的「means a great deal to her」指「對 X 很重要」。",
       "sentenceIndex": 30,
@@ -1846,12 +1739,10 @@ export default {
         "means a great deal to her"
       ],
       "optionReasons": {
-        "mean-mcq-12": "本句指「對 X 很重要」。",
-        "mean-mcq-11": "「天生一對」是「meant for each other」的用法，與本句語境不同。",
-        "mean-mcq-13": "「出於好意」是「mean well」的用法，與本句語境不同。",
-        "mean-mcq-10": "「為 X 而設」是「be meant for X」的用法，與本句語境不同。",
-        "mean-mcq-14": "「沒有惡意」是「mean no harm」的用法，與本句語境不同。",
-        "mean-mcq-09": "「原定／設計來 X」是「be meant to X」的用法，與本句語境不同。"
+        "mean-mcq-12": "本句的「means a great deal to her」指「對 X 很重要」。",
+        "mean-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-12"
     },
@@ -1863,11 +1754,9 @@ export default {
       "masked": "Money ____ compared with family.",
       "options": [
         "mean-pdf-001",
-        "mean-mcq-11",
-        "mean-mcq-13",
-        "mean-mcq-10",
-        "mean-mcq-14",
-        "mean-mcq-09"
+        "mean-mcq-34",
+        "mean-mcq-27",
+        "mean-mcq-25"
       ],
       "explanation": "本句的「means nothing to him」指「對某人沒有重要性、價值或感情意義」。",
       "sentenceIndex": 31,
@@ -1876,12 +1765,10 @@ export default {
         "means nothing to him"
       ],
       "optionReasons": {
-        "mean-pdf-001": "本句指「對某人沒有重要性、價值或感情意義」。",
-        "mean-mcq-11": "「天生一對」是「meant for each other」的用法，與本句語境不同。",
-        "mean-mcq-13": "「出於好意」是「mean well」的用法，與本句語境不同。",
-        "mean-mcq-10": "「為 X 而設」是「be meant for X」的用法，與本句語境不同。",
-        "mean-mcq-14": "「沒有惡意」是「mean no harm」的用法，與本句語境不同。",
-        "mean-mcq-09": "「原定／設計來 X」是「be meant to X」的用法，與本句語境不同。"
+        "mean-pdf-001": "本句的「means nothing to him」指「對某人沒有重要性、價值或感情意義」。",
+        "mean-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-pdf-001"
     },
@@ -1893,11 +1780,9 @@ export default {
       "masked": "That title ____.",
       "options": [
         "mean-pdf-001",
-        "mean-mcq-11",
-        "mean-mcq-13",
-        "mean-mcq-10",
-        "mean-mcq-14",
-        "mean-mcq-09"
+        "mean-mcq-06",
+        "mean-mcq-31",
+        "mean-mcq-11"
       ],
       "explanation": "本句的「means nothing to me」指「對某人沒有重要性、價值或感情意義」。",
       "sentenceIndex": 32,
@@ -1906,12 +1791,10 @@ export default {
         "means nothing to me"
       ],
       "optionReasons": {
-        "mean-pdf-001": "本句指「對某人沒有重要性、價值或感情意義」。",
-        "mean-mcq-11": "「天生一對」是「meant for each other」的用法，與本句語境不同。",
-        "mean-mcq-13": "「出於好意」是「mean well」的用法，與本句語境不同。",
-        "mean-mcq-10": "「為 X 而設」是「be meant for X」的用法，與本句語境不同。",
-        "mean-mcq-14": "「沒有惡意」是「mean no harm」的用法，與本句語境不同。",
-        "mean-mcq-09": "「原定／設計來 X」是「be meant to X」的用法，與本句語境不同。"
+        "mean-pdf-001": "本句的「means nothing to me」指「對某人沒有重要性、價值或感情意義」。",
+        "mean-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-pdf-001"
     },
@@ -1923,11 +1806,9 @@ export default {
       "masked": "I know she ____.",
       "options": [
         "mean-mcq-13",
-        "mean-mcq-12",
-        "mean-mcq-14",
-        "mean-mcq-11",
-        "mean-mcq-15",
-        "mean-mcq-10"
+        "mean-mcq-16",
+        "mean-mcq-36",
+        "mean-mcq-06"
       ],
       "explanation": "本句的「means well」指「出於好意」。",
       "sentenceIndex": 33,
@@ -1936,12 +1817,10 @@ export default {
         "means well"
       ],
       "optionReasons": {
-        "mean-mcq-13": "本句指「出於好意」。",
-        "mean-mcq-12": "「對 X 很重要」是「mean a lot to X」的用法，與本句語境不同。",
-        "mean-mcq-14": "「沒有惡意」是「mean no harm」的用法，與本句語境不同。",
-        "mean-mcq-11": "「天生一對」是「meant for each other」的用法，與本句語境不同。",
-        "mean-mcq-15": "「是認真的」是「mean business」的用法，與本句語境不同。",
-        "mean-mcq-10": "「為 X 而設」是「be meant for X」的用法，與本句語境不同。"
+        "mean-mcq-13": "本句的「means well」指「出於好意」。",
+        "mean-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-13"
     },
@@ -1953,11 +1832,9 @@ export default {
       "masked": "He sometimes gives too much advice, but he ____.",
       "options": [
         "mean-mcq-13",
-        "mean-mcq-12",
-        "mean-mcq-14",
-        "mean-mcq-11",
-        "mean-mcq-15",
-        "mean-mcq-10"
+        "mean-mcq-10",
+        "mean-mcq-43",
+        "mean-mcq-28"
       ],
       "explanation": "本句的「means well」指「出於好意」。",
       "sentenceIndex": 34,
@@ -1966,12 +1843,10 @@ export default {
         "means well"
       ],
       "optionReasons": {
-        "mean-mcq-13": "本句指「出於好意」。",
-        "mean-mcq-12": "「對 X 很重要」是「mean a lot to X」的用法，與本句語境不同。",
-        "mean-mcq-14": "「沒有惡意」是「mean no harm」的用法，與本句語境不同。",
-        "mean-mcq-11": "「天生一對」是「meant for each other」的用法，與本句語境不同。",
-        "mean-mcq-15": "「是認真的」是「mean business」的用法，與本句語境不同。",
-        "mean-mcq-10": "「為 X 而設」是「be meant for X」的用法，與本句語境不同。"
+        "mean-mcq-13": "本句的「means well」指「出於好意」。",
+        "mean-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-13"
     },
@@ -1983,11 +1858,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "mean-mcq-14",
-        "mean-mcq-13",
-        "mean-mcq-15",
-        "mean-mcq-12",
-        "mean-mcq-16",
-        "mean-mcq-11"
+        "mean-reviewed-1c9e19766e",
+        "mean-mcq-27",
+        "mean-mcq-32"
       ],
       "explanation": "本句的「meant no harm」指「沒有惡意」。",
       "sentenceIndex": 35,
@@ -1996,12 +1869,10 @@ export default {
         "meant no harm"
       ],
       "optionReasons": {
-        "mean-mcq-14": "本句指「沒有惡意」。",
-        "mean-mcq-13": "「出於好意」是「mean well」的用法，與本句語境不同。",
-        "mean-mcq-15": "「是認真的」是「mean business」的用法，與本句語境不同。",
-        "mean-mcq-12": "「對 X 很重要」是「mean a lot to X」的用法，與本句語境不同。",
-        "mean-mcq-16": "「說話是認真的」是「mean what you say」的用法，與本句語境不同。",
-        "mean-mcq-11": "「天生一對」是「meant for each other」的用法，與本句語境不同。"
+        "mean-mcq-14": "本句的「meant no harm」指「沒有惡意」。",
+        "mean-reviewed-1c9e19766e": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-14"
     },
@@ -2013,11 +1884,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "mean-mcq-14",
-        "mean-mcq-13",
-        "mean-mcq-15",
-        "mean-mcq-12",
-        "mean-mcq-16",
-        "mean-mcq-11"
+        "mean-mcq-02",
+        "mean-mcq-37",
+        "mean-mcq-34"
       ],
       "explanation": "本句的「meant no harm by the comment」指「沒有惡意」。",
       "sentenceIndex": 36,
@@ -2026,12 +1895,10 @@ export default {
         "meant no harm by the comment"
       ],
       "optionReasons": {
-        "mean-mcq-14": "本句指「沒有惡意」。",
-        "mean-mcq-13": "「出於好意」是「mean well」的用法，與本句語境不同。",
-        "mean-mcq-15": "「是認真的」是「mean business」的用法，與本句語境不同。",
-        "mean-mcq-12": "「對 X 很重要」是「mean a lot to X」的用法，與本句語境不同。",
-        "mean-mcq-16": "「說話是認真的」是「mean what you say」的用法，與本句語境不同。",
-        "mean-mcq-11": "「天生一對」是「meant for each other」的用法，與本句語境不同。"
+        "mean-mcq-14": "本句的「meant no harm by the comment」指「沒有惡意」。",
+        "mean-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-14"
     },
@@ -2043,11 +1910,9 @@ export default {
       "masked": "When she sets a deadline, she ____.",
       "options": [
         "mean-mcq-15",
-        "mean-mcq-14",
-        "mean-mcq-16",
-        "mean-mcq-13",
-        "mean-mcq-17",
-        "mean-mcq-12"
+        "mean-mcq-39",
+        "mean-mcq-11",
+        "mean-mcq-22"
       ],
       "explanation": "本句的「means business」指「是認真的」。",
       "sentenceIndex": 37,
@@ -2056,12 +1921,10 @@ export default {
         "means business"
       ],
       "optionReasons": {
-        "mean-mcq-15": "本句指「是認真的」。",
-        "mean-mcq-14": "「沒有惡意」是「mean no harm」的用法，與本句語境不同。",
-        "mean-mcq-16": "「說話是認真的」是「mean what you say」的用法，與本句語境不同。",
-        "mean-mcq-13": "「出於好意」是「mean well」的用法，與本句語境不同。",
-        "mean-mcq-17": "「刻薄的」是「mean (unkind)」的用法，與本句語境不同。",
-        "mean-mcq-12": "「對 X 很重要」是「mean a lot to X」的用法，與本句語境不同。"
+        "mean-mcq-15": "本句的「means business」指「是認真的」。",
+        "mean-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-15"
     },
@@ -2073,11 +1936,9 @@ export default {
       "masked": "His expression showed that he ____.",
       "options": [
         "mean-mcq-15",
-        "mean-mcq-14",
-        "mean-mcq-16",
-        "mean-mcq-13",
-        "mean-mcq-17",
-        "mean-mcq-12"
+        "mean-mcq-36",
+        "mean-mcq-32",
+        "mean-mcq-39"
       ],
       "explanation": "本句的「meant business」指「是認真的」。",
       "sentenceIndex": 38,
@@ -2086,12 +1947,10 @@ export default {
         "meant business"
       ],
       "optionReasons": {
-        "mean-mcq-15": "本句指「是認真的」。",
-        "mean-mcq-14": "「沒有惡意」是「mean no harm」的用法，與本句語境不同。",
-        "mean-mcq-16": "「說話是認真的」是「mean what you say」的用法，與本句語境不同。",
-        "mean-mcq-13": "「出於好意」是「mean well」的用法，與本句語境不同。",
-        "mean-mcq-17": "「刻薄的」是「mean (unkind)」的用法，與本句語境不同。",
-        "mean-mcq-12": "「對 X 很重要」是「mean a lot to X」的用法，與本句語境不同。"
+        "mean-mcq-15": "本句的「meant business」指「是認真的」。",
+        "mean-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-15"
     },
@@ -2103,11 +1962,9 @@ export default {
       "masked": "Do you really ____?",
       "options": [
         "mean-mcq-16",
-        "mean-mcq-15",
-        "mean-mcq-17",
-        "mean-mcq-14",
-        "mean-mcq-18",
-        "mean-mcq-13"
+        "mean-mcq-31",
+        "mean-mcq-02",
+        "mean-mcq-41"
       ],
       "explanation": "本句的「mean what you say」指「說話是認真的」。",
       "sentenceIndex": 39,
@@ -2116,12 +1973,10 @@ export default {
         "mean what you say"
       ],
       "optionReasons": {
-        "mean-mcq-16": "本句指「說話是認真的」。",
-        "mean-mcq-15": "「是認真的」是「mean business」的用法，與本句語境不同。",
-        "mean-mcq-17": "「刻薄的」是「mean (unkind)」的用法，與本句語境不同。",
-        "mean-mcq-14": "「沒有惡意」是「mean no harm」的用法，與本句語境不同。",
-        "mean-mcq-18": "「對某人刻薄」是「mean to someone」的用法，與本句語境不同。",
-        "mean-mcq-13": "「出於好意」是「mean well」的用法，與本句語境不同。"
+        "mean-mcq-16": "本句的「mean what you say」指「說話是認真的」。",
+        "mean-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-16"
     },
@@ -2133,11 +1988,9 @@ export default {
       "masked": "She always ____.",
       "options": [
         "mean-mcq-16",
-        "mean-mcq-15",
-        "mean-mcq-17",
-        "mean-mcq-14",
-        "mean-mcq-18",
-        "mean-mcq-13"
+        "mean-mcq-04",
+        "mean-mcq-30",
+        "mean-mcq-35"
       ],
       "explanation": "本句的「means what she says」指「說話是認真的」。",
       "sentenceIndex": 40,
@@ -2146,12 +1999,10 @@ export default {
         "means what she says"
       ],
       "optionReasons": {
-        "mean-mcq-16": "本句指「說話是認真的」。",
-        "mean-mcq-15": "「是認真的」是「mean business」的用法，與本句語境不同。",
-        "mean-mcq-17": "「刻薄的」是「mean (unkind)」的用法，與本句語境不同。",
-        "mean-mcq-14": "「沒有惡意」是「mean no harm」的用法，與本句語境不同。",
-        "mean-mcq-18": "「對某人刻薄」是「mean to someone」的用法，與本句語境不同。",
-        "mean-mcq-13": "「出於好意」是「mean well」的用法，與本句語境不同。"
+        "mean-mcq-16": "本句的「means what she says」指「說話是認真的」。",
+        "mean-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-16"
     },
@@ -2163,11 +2014,9 @@ export default {
       "masked": "That was a ____.",
       "options": [
         "mean-mcq-39",
-        "mean-mcq-38",
-        "mean-mcq-40",
-        "mean-mcq-37",
-        "mean-mcq-41",
-        "mean-mcq-36"
+        "mean-mcq-23",
+        "mean-mcq-27",
+        "mean-mcq-30"
       ],
       "explanation": "本句的「mean thing to say」指「故意以不友善、傷人或令人難受的方式對待別人的」。",
       "sentenceIndex": 41,
@@ -2176,12 +2025,10 @@ export default {
         "mean thing to say"
       ],
       "optionReasons": {
-        "mean-mcq-39": "本句指「故意以不友善、傷人或令人難受的方式對待別人的」。",
-        "mean-mcq-38": "「有意安排或希望某人／某事出現某個結果」是「11. mean for someone to do something — 打算讓某人做某事」的用法，與本句語境不同。",
-        "mean-mcq-40": "「不願意花錢、分享或給予應有份量的」是「23. mean（吝嗇的） — 吝嗇的；小器的」的用法，與本句語境不同。",
-        "mean-mcq-37": "「成為決定兩種結果中哪一種出現的關鍵因素」是「8. mean the difference between X and Y — 決定 X 與 Y 的差別」的用法，與本句語境不同。",
-        "mean-mcq-41": "「過分不願花費或分享金錢／資源」是「24. mean with money — 對金錢很吝嗇」的用法，與本句語境不同。",
-        "mean-mcq-36": "「某件事會帶來、造成或必然涉及某個結果」是「7. mean = 意味着；會導致某種結果」的用法，與本句語境不同。"
+        "mean-mcq-39": "本句的「mean thing to say」指「故意以不友善、傷人或令人難受的方式對待別人的」。",
+        "mean-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-39"
     },
@@ -2193,11 +2040,9 @@ export default {
       "masked": "Don't be ____.",
       "options": [
         "mean-mcq-39",
-        "mean-mcq-38",
-        "mean-mcq-40",
-        "mean-mcq-37",
-        "mean-mcq-41",
-        "mean-mcq-36"
+        "mean-mcq-12",
+        "mean-mcq-27",
+        "mean-mcq-23"
       ],
       "explanation": "本句的「mean to your brother」指「故意以不友善、傷人或令人難受的方式對待別人的」。",
       "sentenceIndex": 42,
@@ -2206,12 +2051,10 @@ export default {
         "mean to your brother"
       ],
       "optionReasons": {
-        "mean-mcq-39": "本句指「故意以不友善、傷人或令人難受的方式對待別人的」。",
-        "mean-mcq-38": "「有意安排或希望某人／某事出現某個結果」是「11. mean for someone to do something — 打算讓某人做某事」的用法，與本句語境不同。",
-        "mean-mcq-40": "「不願意花錢、分享或給予應有份量的」是「23. mean（吝嗇的） — 吝嗇的；小器的」的用法，與本句語境不同。",
-        "mean-mcq-37": "「成為決定兩種結果中哪一種出現的關鍵因素」是「8. mean the difference between X and Y — 決定 X 與 Y 的差別」的用法，與本句語境不同。",
-        "mean-mcq-41": "「過分不願花費或分享金錢／資源」是「24. mean with money — 對金錢很吝嗇」的用法，與本句語境不同。",
-        "mean-mcq-36": "「某件事會帶來、造成或必然涉及某個結果」是「7. mean = 意味着；會導致某種結果」的用法，與本句語境不同。"
+        "mean-mcq-39": "本句的「mean to your brother」指「故意以不友善、傷人或令人難受的方式對待別人的」。",
+        "mean-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-39"
     },
@@ -2223,11 +2066,9 @@ export default {
       "masked": "The other children were ____.",
       "options": [
         "mean-mcq-18",
-        "mean-mcq-17",
-        "mean-mcq-19",
-        "mean-mcq-16",
-        "mean-mcq-20",
-        "mean-mcq-15"
+        "mean-mcq-14",
+        "mean-mcq-33",
+        "mean-mcq-06"
       ],
       "explanation": "本句的「mean to him」指「對某人刻薄」。",
       "sentenceIndex": 43,
@@ -2236,12 +2077,10 @@ export default {
         "mean to him"
       ],
       "optionReasons": {
-        "mean-mcq-18": "本句指「對某人刻薄」。",
-        "mean-mcq-17": "「刻薄的」是「mean (unkind)」的用法，與本句語境不同。",
-        "mean-mcq-19": "「吝嗇的」是「mean (stingy)」的用法，與本句語境不同。",
-        "mean-mcq-16": "「說話是認真的」是「mean what you say」的用法，與本句語境不同。",
-        "mean-mcq-20": "「卑劣手段」是「mean trick」的用法，與本句語境不同。",
-        "mean-mcq-15": "「是認真的」是「mean business」的用法，與本句語境不同。"
+        "mean-mcq-18": "本句的「mean to him」指「對某人刻薄」。",
+        "mean-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-18"
     },
@@ -2253,11 +2092,9 @@ export default {
       "masked": "Why are you being ____?",
       "options": [
         "mean-mcq-18",
-        "mean-mcq-17",
-        "mean-mcq-19",
-        "mean-mcq-16",
-        "mean-mcq-20",
-        "mean-mcq-15"
+        "mean-mcq-09",
+        "mean-mcq-30",
+        "mean-mcq-07"
       ],
       "explanation": "本句的「mean to her」指「對某人刻薄」。",
       "sentenceIndex": 44,
@@ -2266,12 +2103,10 @@ export default {
         "mean to her"
       ],
       "optionReasons": {
-        "mean-mcq-18": "本句指「對某人刻薄」。",
-        "mean-mcq-17": "「刻薄的」是「mean (unkind)」的用法，與本句語境不同。",
-        "mean-mcq-19": "「吝嗇的」是「mean (stingy)」的用法，與本句語境不同。",
-        "mean-mcq-16": "「說話是認真的」是「mean what you say」的用法，與本句語境不同。",
-        "mean-mcq-20": "「卑劣手段」是「mean trick」的用法，與本句語境不同。",
-        "mean-mcq-15": "「是認真的」是「mean business」的用法，與本句語境不同。"
+        "mean-mcq-18": "本句的「mean to her」指「對某人刻薄」。",
+        "mean-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-18"
     },
@@ -2283,11 +2118,9 @@ export default {
       "masked": "He's too ____ anyone a drink.",
       "options": [
         "mean-mcq-40",
-        "mean-mcq-39",
-        "mean-mcq-41",
-        "mean-mcq-38",
-        "mean-mcq-42",
-        "mean-mcq-37"
+        "mean-mcq-23",
+        "mean-mcq-37",
+        "mean-mcq-18"
       ],
       "explanation": "本句的「mean to buy」指「不願意花錢、分享或給予應有份量的」。",
       "sentenceIndex": 45,
@@ -2296,12 +2129,10 @@ export default {
         "mean to buy"
       ],
       "optionReasons": {
-        "mean-mcq-40": "本句指「不願意花錢、分享或給予應有份量的」。",
-        "mean-mcq-39": "「故意以不友善、傷人或令人難受的方式對待別人的」是「21. mean（adjective：刻薄的） — 刻薄的；不友善的」的用法，與本句語境不同。",
-        "mean-mcq-41": "「過分不願花費或分享金錢／資源」是「24. mean with money — 對金錢很吝嗇」的用法，與本句語境不同。",
-        "mean-mcq-38": "「有意安排或希望某人／某事出現某個結果」是「11. mean for someone to do something — 打算讓某人做某事」的用法，與本句語境不同。",
-        "mean-mcq-42": "「行為低劣、不光彩或故意令人受到傷害的」是「25. mean（卑劣的；不光彩的） — 卑劣的；低劣的」的用法，與本句語境不同。",
-        "mean-mcq-37": "「成為決定兩種結果中哪一種出現的關鍵因素」是「8. mean the difference between X and Y — 決定 X 與 Y 的差別」的用法，與本句語境不同。"
+        "mean-mcq-40": "本句的「mean to buy」指「不願意花錢、分享或給予應有份量的」。",
+        "mean-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-40"
     },
@@ -2313,11 +2144,9 @@ export default {
       "masked": "Don't be ____.",
       "options": [
         "mean-mcq-40",
-        "mean-mcq-39",
-        "mean-mcq-41",
-        "mean-mcq-38",
-        "mean-mcq-42",
-        "mean-mcq-37"
+        "mean-mcq-34",
+        "mean-mcq-11",
+        "mean-mcq-36"
       ],
       "explanation": "本句的「mean with the food」指「不願意花錢、分享或給予應有份量的」。",
       "sentenceIndex": 46,
@@ -2326,12 +2155,10 @@ export default {
         "mean with the food"
       ],
       "optionReasons": {
-        "mean-mcq-40": "本句指「不願意花錢、分享或給予應有份量的」。",
-        "mean-mcq-39": "「故意以不友善、傷人或令人難受的方式對待別人的」是「21. mean（adjective：刻薄的） — 刻薄的；不友善的」的用法，與本句語境不同。",
-        "mean-mcq-41": "「過分不願花費或分享金錢／資源」是「24. mean with money — 對金錢很吝嗇」的用法，與本句語境不同。",
-        "mean-mcq-38": "「有意安排或希望某人／某事出現某個結果」是「11. mean for someone to do something — 打算讓某人做某事」的用法，與本句語境不同。",
-        "mean-mcq-42": "「行為低劣、不光彩或故意令人受到傷害的」是「25. mean（卑劣的；不光彩的） — 卑劣的；低劣的」的用法，與本句語境不同。",
-        "mean-mcq-37": "「成為決定兩種結果中哪一種出現的關鍵因素」是「8. mean the difference between X and Y — 決定 X 與 Y 的差別」的用法，與本句語境不同。"
+        "mean-mcq-40": "本句的「mean with the food」指「不願意花錢、分享或給予應有份量的」。",
+        "mean-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-40"
     },
@@ -2343,11 +2170,9 @@ export default {
       "masked": "He's rather ____.",
       "options": [
         "mean-mcq-41",
-        "mean-mcq-40",
-        "mean-mcq-42",
-        "mean-mcq-39",
-        "mean-mcq-43",
-        "mean-mcq-38"
+        "mean-mcq-04",
+        "mean-mcq-30",
+        "mean-mcq-24"
       ],
       "explanation": "本句的「mean with money」指「過分不願花費或分享金錢／資源」。",
       "sentenceIndex": 47,
@@ -2356,12 +2181,10 @@ export default {
         "mean with money"
       ],
       "optionReasons": {
-        "mean-mcq-41": "本句指「過分不願花費或分享金錢／資源」。",
-        "mean-mcq-40": "「不願意花錢、分享或給予應有份量的」是「23. mean（吝嗇的） — 吝嗇的；小器的」的用法，與本句語境不同。",
-        "mean-mcq-42": "「行為低劣、不光彩或故意令人受到傷害的」是「25. mean（卑劣的；不光彩的） — 卑劣的；低劣的」的用法，與本句語境不同。",
-        "mean-mcq-39": "「故意以不友善、傷人或令人難受的方式對待別人的」是「21. mean（adjective：刻薄的） — 刻薄的；不友善的」的用法，與本句語境不同。",
-        "mean-mcq-43": "「以全部數值的總和除以數值數量所得的平均水平」是「26. mean（average：平均的） — 平均的」的用法，與本句語境不同。",
-        "mean-mcq-38": "「有意安排或希望某人／某事出現某個結果」是「11. mean for someone to do something — 打算讓某人做某事」的用法，與本句語境不同。"
+        "mean-mcq-41": "本句的「mean with money」指「過分不願花費或分享金錢／資源」。",
+        "mean-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-41"
     },
@@ -2373,11 +2196,9 @@ export default {
       "masked": "She isn't rich, but she's never ____.",
       "options": [
         "mean-mcq-41",
-        "mean-mcq-40",
-        "mean-mcq-42",
-        "mean-mcq-39",
-        "mean-mcq-43",
-        "mean-mcq-38"
+        "mean-mcq-09",
+        "mean-mcq-27",
+        "mean-mcq-23"
       ],
       "explanation": "本句的「mean with her friends」指「過分不願花費或分享金錢／資源」。",
       "sentenceIndex": 48,
@@ -2386,12 +2207,10 @@ export default {
         "mean with her friends"
       ],
       "optionReasons": {
-        "mean-mcq-41": "本句指「過分不願花費或分享金錢／資源」。",
-        "mean-mcq-40": "「不願意花錢、分享或給予應有份量的」是「23. mean（吝嗇的） — 吝嗇的；小器的」的用法，與本句語境不同。",
-        "mean-mcq-42": "「行為低劣、不光彩或故意令人受到傷害的」是「25. mean（卑劣的；不光彩的） — 卑劣的；低劣的」的用法，與本句語境不同。",
-        "mean-mcq-39": "「故意以不友善、傷人或令人難受的方式對待別人的」是「21. mean（adjective：刻薄的） — 刻薄的；不友善的」的用法，與本句語境不同。",
-        "mean-mcq-43": "「以全部數值的總和除以數值數量所得的平均水平」是「26. mean（average：平均的） — 平均的」的用法，與本句語境不同。",
-        "mean-mcq-38": "「有意安排或希望某人／某事出現某個結果」是「11. mean for someone to do something — 打算讓某人做某事」的用法，與本句語境不同。"
+        "mean-mcq-41": "本句的「mean with her friends」指「過分不願花費或分享金錢／資源」。",
+        "mean-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-41"
     },
@@ -2403,11 +2222,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "mean-mcq-42",
-        "mean-mcq-41",
-        "mean-mcq-43",
-        "mean-mcq-40",
-        "mean-mcq-44",
-        "mean-mcq-39"
+        "mean-mcq-36",
+        "mean-mcq-22",
+        "mean-mcq-41"
       ],
       "explanation": "本句的「mean trick」指「行為低劣、不光彩或故意令人受到傷害的」。",
       "sentenceIndex": 49,
@@ -2416,12 +2233,10 @@ export default {
         "mean trick"
       ],
       "optionReasons": {
-        "mean-mcq-42": "本句指「行為低劣、不光彩或故意令人受到傷害的」。",
-        "mean-mcq-41": "「過分不願花費或分享金錢／資源」是「24. mean with money — 對金錢很吝嗇」的用法，與本句語境不同。",
-        "mean-mcq-43": "「以全部數值的總和除以數值數量所得的平均水平」是「26. mean（average：平均的） — 平均的」的用法，與本句語境不同。",
-        "mean-mcq-40": "「不願意花錢、分享或給予應有份量的」是「23. mean（吝嗇的） — 吝嗇的；小器的」的用法，與本句語境不同。",
-        "mean-mcq-44": "「一個人可運用的金錢、財產或其他資源」是「34. the means to do something — 做某事所需的財力／資源」的用法，與本句語境不同。",
-        "mean-mcq-39": "「故意以不友善、傷人或令人難受的方式對待別人的」是「21. mean（adjective：刻薄的） — 刻薄的；不友善的」的用法，與本句語境不同。"
+        "mean-mcq-42": "本句的「mean trick」指「行為低劣、不光彩或故意令人受到傷害的」。",
+        "mean-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-42"
     },
@@ -2433,11 +2248,9 @@ export default {
       "masked": "He played a ____ on his friend.",
       "options": [
         "mean-mcq-42",
-        "mean-mcq-41",
-        "mean-mcq-43",
-        "mean-mcq-40",
-        "mean-mcq-44",
-        "mean-mcq-39"
+        "mean-mcq-34",
+        "mean-mcq-25",
+        "mean-mcq-12"
       ],
       "explanation": "本句的「mean trick」指「行為低劣、不光彩或故意令人受到傷害的」。",
       "sentenceIndex": 50,
@@ -2446,12 +2259,10 @@ export default {
         "mean trick"
       ],
       "optionReasons": {
-        "mean-mcq-42": "本句指「行為低劣、不光彩或故意令人受到傷害的」。",
-        "mean-mcq-41": "「過分不願花費或分享金錢／資源」是「24. mean with money — 對金錢很吝嗇」的用法，與本句語境不同。",
-        "mean-mcq-43": "「以全部數值的總和除以數值數量所得的平均水平」是「26. mean（average：平均的） — 平均的」的用法，與本句語境不同。",
-        "mean-mcq-40": "「不願意花錢、分享或給予應有份量的」是「23. mean（吝嗇的） — 吝嗇的；小器的」的用法，與本句語境不同。",
-        "mean-mcq-44": "「一個人可運用的金錢、財產或其他資源」是「34. the means to do something — 做某事所需的財力／資源」的用法，與本句語境不同。",
-        "mean-mcq-39": "「故意以不友善、傷人或令人難受的方式對待別人的」是「21. mean（adjective：刻薄的） — 刻薄的；不友善的」的用法，與本句語境不同。"
+        "mean-mcq-42": "本句的「mean trick」指「行為低劣、不光彩或故意令人受到傷害的」。",
+        "mean-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-42"
     },
@@ -2463,11 +2274,9 @@ export default {
       "masked": "The ____ was 20°C.",
       "options": [
         "mean-mcq-43",
-        "mean-mcq-42",
-        "mean-mcq-44",
-        "mean-mcq-41",
-        "mean-mcq-40",
-        "mean-mcq-39"
+        "mean-mcq-10",
+        "mean-mcq-11",
+        "mean-mcq-42"
       ],
       "explanation": "本句的「mean temperature」指「以全部數值的總和除以數值數量所得的平均水平」。",
       "sentenceIndex": 51,
@@ -2476,12 +2285,10 @@ export default {
         "mean temperature"
       ],
       "optionReasons": {
-        "mean-mcq-43": "本句指「以全部數值的總和除以數值數量所得的平均水平」。",
-        "mean-mcq-42": "「行為低劣、不光彩或故意令人受到傷害的」是「25. mean（卑劣的；不光彩的） — 卑劣的；低劣的」的用法，與本句語境不同。",
-        "mean-mcq-44": "「一個人可運用的金錢、財產或其他資源」是「34. the means to do something — 做某事所需的財力／資源」的用法，與本句語境不同。",
-        "mean-mcq-41": "「過分不願花費或分享金錢／資源」是「24. mean with money — 對金錢很吝嗇」的用法，與本句語境不同。",
-        "mean-mcq-40": "「不願意花錢、分享或給予應有份量的」是「23. mean（吝嗇的） — 吝嗇的；小器的」的用法，與本句語境不同。",
-        "mean-mcq-39": "「故意以不友善、傷人或令人難受的方式對待別人的」是「21. mean（adjective：刻薄的） — 刻薄的；不友善的」的用法，與本句語境不同。"
+        "mean-mcq-43": "本句的「mean temperature」指「以全部數值的總和除以數值數量所得的平均水平」。",
+        "mean-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-43"
     },
@@ -2493,11 +2300,9 @@ export default {
       "masked": "We calculated the ____ for the class.",
       "options": [
         "mean-mcq-43",
-        "mean-mcq-42",
-        "mean-mcq-44",
-        "mean-mcq-41",
-        "mean-mcq-40",
-        "mean-mcq-39"
+        "mean-mcq-30",
+        "mean-mcq-10",
+        "mean-mcq-41"
       ],
       "explanation": "本句的「mean score」指「以全部數值的總和除以數值數量所得的平均水平」。",
       "sentenceIndex": 52,
@@ -2506,12 +2311,10 @@ export default {
         "mean score"
       ],
       "optionReasons": {
-        "mean-mcq-43": "本句指「以全部數值的總和除以數值數量所得的平均水平」。",
-        "mean-mcq-42": "「行為低劣、不光彩或故意令人受到傷害的」是「25. mean（卑劣的；不光彩的） — 卑劣的；低劣的」的用法，與本句語境不同。",
-        "mean-mcq-44": "「一個人可運用的金錢、財產或其他資源」是「34. the means to do something — 做某事所需的財力／資源」的用法，與本句語境不同。",
-        "mean-mcq-41": "「過分不願花費或分享金錢／資源」是「24. mean with money — 對金錢很吝嗇」的用法，與本句語境不同。",
-        "mean-mcq-40": "「不願意花錢、分享或給予應有份量的」是「23. mean（吝嗇的） — 吝嗇的；小器的」的用法，與本句語境不同。",
-        "mean-mcq-39": "「故意以不友善、傷人或令人難受的方式對待別人的」是「21. mean（adjective：刻薄的） — 刻薄的；不友善的」的用法，與本句語境不同。"
+        "mean-mcq-43": "本句的「mean score」指「以全部數值的總和除以數值數量所得的平均水平」。",
+        "mean-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-43"
     },
@@ -2523,11 +2326,9 @@ export default {
       "masked": "The ____ of 2, 4, and 6 is 4.",
       "options": [
         "mean-mcq-22",
-        "mean-mcq-21",
-        "mean-mcq-23",
-        "mean-mcq-20",
-        "mean-mcq-24",
-        "mean-mcq-19"
+        "mean-mcq-15",
+        "mean-mcq-36",
+        "mean-mcq-11"
       ],
       "explanation": "本句的「mean」指「平均數」。",
       "sentenceIndex": 53,
@@ -2536,12 +2337,10 @@ export default {
         "mean"
       ],
       "optionReasons": {
-        "mean-mcq-22": "本句指「平均數」。",
-        "mean-mcq-21": "「平均的」是「mean (average adj.)」的用法，與本句語境不同。",
-        "mean-mcq-23": "「方法；手段」是「a means」的用法，與本句語境不同。",
-        "mean-mcq-20": "「卑劣手段」是「mean trick」的用法，與本句語境不同。",
-        "mean-mcq-24": "「X 的方式／手段」是「means of X」的用法，與本句語境不同。",
-        "mean-mcq-19": "「吝嗇的」是「mean (stingy)」的用法，與本句語境不同。"
+        "mean-mcq-22": "本句的「mean」指「平均數」。",
+        "mean-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-22"
     },
@@ -2553,11 +2352,9 @@ export default {
       "masked": "Calculate the ____ of these values.",
       "options": [
         "mean-mcq-22",
-        "mean-mcq-21",
-        "mean-mcq-23",
-        "mean-mcq-20",
-        "mean-mcq-24",
-        "mean-mcq-19"
+        "mean-mcq-36",
+        "mean-mcq-40",
+        "mean-mcq-12"
       ],
       "explanation": "本句的「mean」指「平均數」。",
       "sentenceIndex": 54,
@@ -2566,12 +2363,10 @@ export default {
         "mean"
       ],
       "optionReasons": {
-        "mean-mcq-22": "本句指「平均數」。",
-        "mean-mcq-21": "「平均的」是「mean (average adj.)」的用法，與本句語境不同。",
-        "mean-mcq-23": "「方法；手段」是「a means」的用法，與本句語境不同。",
-        "mean-mcq-20": "「卑劣手段」是「mean trick」的用法，與本句語境不同。",
-        "mean-mcq-24": "「X 的方式／手段」是「means of X」的用法，與本句語境不同。",
-        "mean-mcq-19": "「吝嗇的」是「mean (stingy)」的用法，與本句語境不同。"
+        "mean-mcq-22": "本句的「mean」指「平均數」。",
+        "mean-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-22"
     },
@@ -2583,11 +2378,9 @@ export default {
       "masked": "Email is a useful ____.",
       "options": [
         "mean-mcq-23",
-        "mean-mcq-22",
-        "mean-mcq-24",
-        "mean-mcq-21",
         "mean-mcq-25",
-        "mean-mcq-20"
+        "mean-mcq-26",
+        "mean-mcq-16"
       ],
       "explanation": "本句的「means of communication」指「方法；手段」。",
       "sentenceIndex": 55,
@@ -2596,12 +2389,10 @@ export default {
         "means of communication"
       ],
       "optionReasons": {
-        "mean-mcq-23": "本句指「方法；手段」。",
-        "mean-mcq-22": "「平均數」是「the mean」的用法，與本句語境不同。",
-        "mean-mcq-24": "「X 的方式／手段」是「means of X」的用法，與本句語境不同。",
-        "mean-mcq-21": "「平均的」是「mean (average adj.)」的用法，與本句語境不同。",
-        "mean-mcq-25": "「藉着；透過」是「by means of」的用法，與本句語境不同。",
-        "mean-mcq-20": "「卑劣手段」是「mean trick」的用法，與本句語境不同。"
+        "mean-mcq-23": "本句的「means of communication」指「方法；手段」。",
+        "mean-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-23"
     },
@@ -2613,11 +2404,9 @@ export default {
       "masked": "We need to find a ____.",
       "options": [
         "mean-mcq-23",
-        "mean-mcq-22",
-        "mean-mcq-24",
-        "mean-mcq-21",
         "mean-mcq-25",
-        "mean-mcq-20"
+        "mean-mcq-33",
+        "mean-reviewed-1c9e19766e"
       ],
       "explanation": "本句的「means of solving the problem」指「方法；手段」。",
       "sentenceIndex": 56,
@@ -2626,12 +2415,10 @@ export default {
         "means of solving the problem"
       ],
       "optionReasons": {
-        "mean-mcq-23": "本句指「方法；手段」。",
-        "mean-mcq-22": "「平均數」是「the mean」的用法，與本句語境不同。",
-        "mean-mcq-24": "「X 的方式／手段」是「means of X」的用法，與本句語境不同。",
-        "mean-mcq-21": "「平均的」是「mean (average adj.)」的用法，與本句語境不同。",
-        "mean-mcq-25": "「藉着；透過」是「by means of」的用法，與本句語境不同。",
-        "mean-mcq-20": "「卑劣手段」是「mean trick」的用法，與本句語境不同。"
+        "mean-mcq-23": "本句的「means of solving the problem」指「方法；手段」。",
+        "mean-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "mean-reviewed-1c9e19766e": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-23"
     },
@@ -2643,11 +2430,9 @@ export default {
       "masked": "Exercise is a good ____.",
       "options": [
         "mean-mcq-24",
-        "mean-mcq-23",
-        "mean-mcq-25",
-        "mean-mcq-22",
-        "mean-mcq-26",
-        "mean-mcq-21"
+        "mean-mcq-32",
+        "mean-mcq-16",
+        "mean-pdf-001"
       ],
       "explanation": "本句的「means of reducing stress」指「X 的方式／手段」。",
       "sentenceIndex": 57,
@@ -2656,12 +2441,10 @@ export default {
         "means of reducing stress"
       ],
       "optionReasons": {
-        "mean-mcq-24": "本句指「X 的方式／手段」。",
-        "mean-mcq-23": "「方法；手段」是「a means」的用法，與本句語境不同。",
-        "mean-mcq-25": "「藉着；透過」是「by means of」的用法，與本句語境不同。",
-        "mean-mcq-22": "「平均數」是「the mean」的用法，與本句語境不同。",
-        "mean-mcq-26": "「當然可以」是「by all means」的用法，與本句語境不同。",
-        "mean-mcq-21": "「平均的」是「mean (average adj.)」的用法，與本句語境不同。"
+        "mean-mcq-24": "本句的「means of reducing stress」指「X 的方式／手段」。",
+        "mean-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mean-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-24"
     },
@@ -2673,11 +2456,9 @@ export default {
       "masked": "Language is a ____.",
       "options": [
         "mean-mcq-24",
-        "mean-mcq-23",
-        "mean-mcq-25",
-        "mean-mcq-22",
-        "mean-mcq-26",
-        "mean-mcq-21"
+        "mean-mcq-15",
+        "mean-mcq-10",
+        "mean-mcq-33"
       ],
       "explanation": "本句的「means of expressing ideas」指「X 的方式／手段」。",
       "sentenceIndex": 58,
@@ -2686,12 +2467,10 @@ export default {
         "means of expressing ideas"
       ],
       "optionReasons": {
-        "mean-mcq-24": "本句指「X 的方式／手段」。",
-        "mean-mcq-23": "「方法；手段」是「a means」的用法，與本句語境不同。",
-        "mean-mcq-25": "「藉着；透過」是「by means of」的用法，與本句語境不同。",
-        "mean-mcq-22": "「平均數」是「the mean」的用法，與本句語境不同。",
-        "mean-mcq-26": "「當然可以」是「by all means」的用法，與本句語境不同。",
-        "mean-mcq-21": "「平均的」是「mean (average adj.)」的用法，與本句語境不同。"
+        "mean-mcq-24": "本句的「means of expressing ideas」指「X 的方式／手段」。",
+        "mean-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-24"
     },
@@ -2703,11 +2482,9 @@ export default {
       "masked": "They entered the building ____.",
       "options": [
         "mean-mcq-25",
-        "mean-mcq-24",
-        "mean-mcq-26",
-        "mean-mcq-23",
-        "mean-mcq-27",
-        "mean-mcq-22"
+        "mean-mcq-44",
+        "mean-mcq-15",
+        "mean-mcq-12"
       ],
       "explanation": "本句的「by means of a side door」指「藉着；透過」。",
       "sentenceIndex": 59,
@@ -2716,12 +2493,10 @@ export default {
         "by means of a side door"
       ],
       "optionReasons": {
-        "mean-mcq-25": "本句指「藉着；透過」。",
-        "mean-mcq-24": "「X 的方式／手段」是「means of X」的用法，與本句語境不同。",
-        "mean-mcq-26": "「當然可以」是「by all means」的用法，與本句語境不同。",
-        "mean-mcq-23": "「方法；手段」是「a means」的用法，與本句語境不同。",
-        "mean-mcq-27": "「絕不；一點也不」是「by no means」的用法，與本句語境不同。",
-        "mean-mcq-22": "「平均數」是「the mean」的用法，與本句語境不同。"
+        "mean-mcq-25": "本句的「by means of a side door」指「藉着；透過」。",
+        "mean-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-25"
     },
@@ -2734,10 +2509,8 @@ export default {
       "options": [
         "mean-mcq-25",
         "mean-mcq-24",
-        "mean-mcq-26",
-        "mean-mcq-23",
-        "mean-mcq-27",
-        "mean-mcq-22"
+        "mean-mcq-18",
+        "mean-mcq-40"
       ],
       "explanation": "本句的「by means of an app」指「藉着；透過」。",
       "sentenceIndex": 60,
@@ -2746,12 +2519,10 @@ export default {
         "by means of an app"
       ],
       "optionReasons": {
-        "mean-mcq-25": "本句指「藉着；透過」。",
-        "mean-mcq-24": "「X 的方式／手段」是「means of X」的用法，與本句語境不同。",
-        "mean-mcq-26": "「當然可以」是「by all means」的用法，與本句語境不同。",
-        "mean-mcq-23": "「方法；手段」是「a means」的用法，與本句語境不同。",
-        "mean-mcq-27": "「絕不；一點也不」是「by no means」的用法，與本句語境不同。",
-        "mean-mcq-22": "「平均數」是「the mean」的用法，與本句語境不同。"
+        "mean-mcq-25": "本句的「by means of an app」指「藉着；透過」。",
+        "mean-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-25"
     },
@@ -2763,11 +2534,9 @@ export default {
       "masked": "Can I ask a question?” “____",
       "options": [
         "mean-mcq-26",
-        "mean-mcq-25",
-        "mean-mcq-27",
-        "mean-mcq-24",
-        "mean-mcq-28",
-        "mean-mcq-23"
+        "mean-mcq-31",
+        "mean-mcq-06",
+        "mean-mcq-07"
       ],
       "explanation": "本句的「By all means.」指「當然可以」。",
       "sentenceIndex": 61,
@@ -2776,12 +2545,10 @@ export default {
         "By all means."
       ],
       "optionReasons": {
-        "mean-mcq-26": "本句指「當然可以」。",
-        "mean-mcq-25": "「藉着；透過」是「by means of」的用法，與本句語境不同。",
-        "mean-mcq-27": "「絕不；一點也不」是「by no means」的用法，與本句語境不同。",
-        "mean-mcq-24": "「X 的方式／手段」是「means of X」的用法，與本句語境不同。",
-        "mean-mcq-28": "「達成目的的手段」是「means to an end」的用法，與本句語境不同。",
-        "mean-mcq-23": "「方法；手段」是「a means」的用法，與本句語境不同。"
+        "mean-mcq-26": "本句的「By all means.」指「當然可以」。",
+        "mean-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-26"
     },
@@ -2793,11 +2560,9 @@ export default {
       "masked": "____, use my notes.",
       "options": [
         "mean-mcq-26",
-        "mean-mcq-25",
-        "mean-mcq-27",
-        "mean-mcq-24",
-        "mean-mcq-28",
-        "mean-mcq-23"
+        "mean-mcq-22",
+        "mean-pdf-001",
+        "mean-mcq-06"
       ],
       "explanation": "本句的「By all means」指「當然可以」。",
       "sentenceIndex": 62,
@@ -2806,12 +2571,10 @@ export default {
         "By all means"
       ],
       "optionReasons": {
-        "mean-mcq-26": "本句指「當然可以」。",
-        "mean-mcq-25": "「藉着；透過」是「by means of」的用法，與本句語境不同。",
-        "mean-mcq-27": "「絕不；一點也不」是「by no means」的用法，與本句語境不同。",
-        "mean-mcq-24": "「X 的方式／手段」是「means of X」的用法，與本句語境不同。",
-        "mean-mcq-28": "「達成目的的手段」是「means to an end」的用法，與本句語境不同。",
-        "mean-mcq-23": "「方法；手段」是「a means」的用法，與本句語境不同。"
+        "mean-mcq-26": "本句的「By all means」指「當然可以」。",
+        "mean-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mean-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-26"
     },
@@ -2823,11 +2586,9 @@ export default {
       "masked": "The task is ____.",
       "options": [
         "mean-mcq-27",
-        "mean-mcq-26",
-        "mean-mcq-28",
-        "mean-mcq-25",
-        "mean-mcq-29",
-        "mean-mcq-24"
+        "mean-mcq-24",
+        "mean-mcq-36",
+        "mean-mcq-31"
       ],
       "explanation": "本句的「by no means easy」指「絕不；一點也不」。",
       "sentenceIndex": 63,
@@ -2836,12 +2597,10 @@ export default {
         "by no means easy"
       ],
       "optionReasons": {
-        "mean-mcq-27": "本句指「絕不；一點也不」。",
-        "mean-mcq-26": "「當然可以」是「by all means」的用法，與本句語境不同。",
-        "mean-mcq-28": "「達成目的的手段」是「means to an end」的用法，與本句語境不同。",
-        "mean-mcq-25": "「藉着；透過」是「by means of」的用法，與本句語境不同。",
-        "mean-mcq-29": "「財力；經濟能力」是「means (resources)」的用法，與本句語境不同。",
-        "mean-mcq-24": "「X 的方式／手段」是「means of X」的用法，與本句語境不同。"
+        "mean-mcq-27": "本句的「by no means easy」指「絕不；一點也不」。",
+        "mean-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-27"
     },
@@ -2853,11 +2612,9 @@ export default {
       "masked": "He is ____.",
       "options": [
         "mean-mcq-27",
-        "mean-mcq-26",
-        "mean-mcq-28",
-        "mean-mcq-25",
-        "mean-mcq-29",
-        "mean-mcq-24"
+        "mean-mcq-37",
+        "mean-mcq-15",
+        "mean-mcq-01"
       ],
       "explanation": "本句的「by no means a beginner」指「絕不；一點也不」。",
       "sentenceIndex": 64,
@@ -2866,12 +2623,10 @@ export default {
         "by no means a beginner"
       ],
       "optionReasons": {
-        "mean-mcq-27": "本句指「絕不；一點也不」。",
-        "mean-mcq-26": "「當然可以」是「by all means」的用法，與本句語境不同。",
-        "mean-mcq-28": "「達成目的的手段」是「means to an end」的用法，與本句語境不同。",
-        "mean-mcq-25": "「藉着；透過」是「by means of」的用法，與本句語境不同。",
-        "mean-mcq-29": "「財力；經濟能力」是「means (resources)」的用法，與本句語境不同。",
-        "mean-mcq-24": "「X 的方式／手段」是「means of X」的用法，與本句語境不同。"
+        "mean-mcq-27": "本句的「by no means a beginner」指「絕不；一點也不」。",
+        "mean-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-27"
     },
@@ -2883,11 +2638,9 @@ export default {
       "masked": "For him, money was only ____.",
       "options": [
         "mean-mcq-28",
-        "mean-mcq-27",
-        "mean-mcq-29",
-        "mean-mcq-26",
-        "mean-mcq-30",
-        "mean-mcq-25"
+        "mean-mcq-07",
+        "mean-mcq-15",
+        "mean-mcq-11"
       ],
       "explanation": "本句的「a means to an end」指「達成目的的手段」。",
       "sentenceIndex": 65,
@@ -2896,12 +2649,10 @@ export default {
         "a means to an end"
       ],
       "optionReasons": {
-        "mean-mcq-28": "本句指「達成目的的手段」。",
-        "mean-mcq-27": "「絕不；一點也不」是「by no means」的用法，與本句語境不同。",
-        "mean-mcq-29": "「財力；經濟能力」是「means (resources)」的用法，與本句語境不同。",
-        "mean-mcq-26": "「當然可以」是「by all means」的用法，與本句語境不同。",
-        "mean-mcq-30": "「富有的人」是「person of means」的用法，與本句語境不同。",
-        "mean-mcq-25": "「藉着；透過」是「by means of」的用法，與本句語境不同。"
+        "mean-mcq-28": "本句的「a means to an end」指「達成目的的手段」。",
+        "mean-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-28"
     },
@@ -2913,11 +2664,9 @@ export default {
       "masked": "Exams should not become merely ____.",
       "options": [
         "mean-mcq-28",
-        "mean-mcq-27",
-        "mean-mcq-29",
-        "mean-mcq-26",
-        "mean-mcq-30",
-        "mean-mcq-25"
+        "mean-mcq-12",
+        "mean-mcq-33",
+        "mean-mcq-27"
       ],
       "explanation": "本句的「a means to an end」指「達成目的的手段」。",
       "sentenceIndex": 66,
@@ -2926,12 +2675,10 @@ export default {
         "a means to an end"
       ],
       "optionReasons": {
-        "mean-mcq-28": "本句指「達成目的的手段」。",
-        "mean-mcq-27": "「絕不；一點也不」是「by no means」的用法，與本句語境不同。",
-        "mean-mcq-29": "「財力；經濟能力」是「means (resources)」的用法，與本句語境不同。",
-        "mean-mcq-26": "「當然可以」是「by all means」的用法，與本句語境不同。",
-        "mean-mcq-30": "「富有的人」是「person of means」的用法，與本句語境不同。",
-        "mean-mcq-25": "「藉着；透過」是「by means of」的用法，與本句語境不同。"
+        "mean-mcq-28": "本句的「a means to an end」指「達成目的的手段」。",
+        "mean-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-28"
     },
@@ -2943,11 +2690,9 @@ export default {
       "masked": "They don't have the ____.",
       "options": [
         "mean-mcq-44",
-        "mean-mcq-43",
-        "mean-mcq-42",
-        "mean-mcq-41",
-        "mean-mcq-40",
-        "mean-mcq-39"
+        "mean-mcq-27",
+        "mean-mcq-07",
+        "mean-mcq-34"
       ],
       "explanation": "本句的「means to buy a house」指「一個人可運用的金錢、財產或其他資源」。",
       "sentenceIndex": 67,
@@ -2956,12 +2701,10 @@ export default {
         "means to buy a house"
       ],
       "optionReasons": {
-        "mean-mcq-44": "本句指「一個人可運用的金錢、財產或其他資源」。",
-        "mean-mcq-43": "「以全部數值的總和除以數值數量所得的平均水平」是「26. mean（average：平均的） — 平均的」的用法，與本句語境不同。",
-        "mean-mcq-42": "「行為低劣、不光彩或故意令人受到傷害的」是「25. mean（卑劣的；不光彩的） — 卑劣的；低劣的」的用法，與本句語境不同。",
-        "mean-mcq-41": "「過分不願花費或分享金錢／資源」是「24. mean with money — 對金錢很吝嗇」的用法，與本句語境不同。",
-        "mean-mcq-40": "「不願意花錢、分享或給予應有份量的」是「23. mean（吝嗇的） — 吝嗇的；小器的」的用法，與本句語境不同。",
-        "mean-mcq-39": "「故意以不友善、傷人或令人難受的方式對待別人的」是「21. mean（adjective：刻薄的） — 刻薄的；不友善的」的用法，與本句語境不同。"
+        "mean-mcq-44": "本句的「means to buy a house」指「一個人可運用的金錢、財產或其他資源」。",
+        "mean-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-44"
     },
@@ -2973,11 +2716,9 @@ export default {
       "masked": "Education should be available to people regardless of their ____.",
       "options": [
         "mean-mcq-44",
-        "mean-mcq-43",
-        "mean-mcq-42",
-        "mean-mcq-41",
-        "mean-mcq-40",
-        "mean-mcq-39"
+        "mean-mcq-34",
+        "mean-mcq-26",
+        "mean-mcq-11"
       ],
       "explanation": "本句的「means」指「一個人可運用的金錢、財產或其他資源」。",
       "sentenceIndex": 68,
@@ -2986,12 +2727,10 @@ export default {
         "means"
       ],
       "optionReasons": {
-        "mean-mcq-44": "本句指「一個人可運用的金錢、財產或其他資源」。",
-        "mean-mcq-43": "「以全部數值的總和除以數值數量所得的平均水平」是「26. mean（average：平均的） — 平均的」的用法，與本句語境不同。",
-        "mean-mcq-42": "「行為低劣、不光彩或故意令人受到傷害的」是「25. mean（卑劣的；不光彩的） — 卑劣的；低劣的」的用法，與本句語境不同。",
-        "mean-mcq-41": "「過分不願花費或分享金錢／資源」是「24. mean with money — 對金錢很吝嗇」的用法，與本句語境不同。",
-        "mean-mcq-40": "「不願意花錢、分享或給予應有份量的」是「23. mean（吝嗇的） — 吝嗇的；小器的」的用法，與本句語境不同。",
-        "mean-mcq-39": "「故意以不友善、傷人或令人難受的方式對待別人的」是「21. mean（adjective：刻薄的） — 刻薄的；不友善的」的用法，與本句語境不同。"
+        "mean-mcq-44": "本句的「means」指「一個人可運用的金錢、財產或其他資源」。",
+        "mean-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-44"
     },
@@ -3003,11 +2742,9 @@ export default {
       "masked": "He came from a family of ____.",
       "options": [
         "mean-mcq-30",
-        "mean-mcq-29",
-        "mean-mcq-31",
-        "mean-mcq-28",
-        "mean-mcq-32",
-        "mean-mcq-27"
+        "mean-mcq-42",
+        "mean-reviewed-1c9e19766e",
+        "mean-mcq-33"
       ],
       "explanation": "本句的「means」指「富有的人」。",
       "sentenceIndex": 69,
@@ -3016,12 +2753,10 @@ export default {
         "means"
       ],
       "optionReasons": {
-        "mean-mcq-30": "本句指「富有的人」。",
-        "mean-mcq-29": "「財力；經濟能力」是「means (resources)」的用法，與本句語境不同。",
-        "mean-mcq-31": "「量入為出」是「within your means」的用法，與本句語境不同。",
-        "mean-mcq-28": "「達成目的的手段」是「means to an end」的用法，與本句語境不同。",
-        "mean-mcq-32": "「超出負擔能力」是「beyond your means」的用法，與本句語境不同。",
-        "mean-mcq-27": "「絕不；一點也不」是「by no means」的用法，與本句語境不同。"
+        "mean-mcq-30": "本句的「means」指「富有的人」。",
+        "mean-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "mean-reviewed-1c9e19766e": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-30"
     },
@@ -3033,11 +2768,9 @@ export default {
       "masked": "Only people of considerable ____ could afford it.",
       "options": [
         "mean-mcq-30",
-        "mean-mcq-29",
-        "mean-mcq-31",
-        "mean-mcq-28",
-        "mean-mcq-32",
-        "mean-mcq-27"
+        "mean-reviewed-1c9e19766e",
+        "mean-mcq-22",
+        "mean-mcq-24"
       ],
       "explanation": "本句的「means」指「富有的人」。",
       "sentenceIndex": 70,
@@ -3046,12 +2779,10 @@ export default {
         "means"
       ],
       "optionReasons": {
-        "mean-mcq-30": "本句指「富有的人」。",
-        "mean-mcq-29": "「財力；經濟能力」是「means (resources)」的用法，與本句語境不同。",
-        "mean-mcq-31": "「量入為出」是「within your means」的用法，與本句語境不同。",
-        "mean-mcq-28": "「達成目的的手段」是「means to an end」的用法，與本句語境不同。",
-        "mean-mcq-32": "「超出負擔能力」是「beyond your means」的用法，與本句語境不同。",
-        "mean-mcq-27": "「絕不；一點也不」是「by no means」的用法，與本句語境不同。"
+        "mean-mcq-30": "本句的「means」指「富有的人」。",
+        "mean-reviewed-1c9e19766e": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-30"
     },
@@ -3063,11 +2794,9 @@ export default {
       "masked": "It's important to ____.",
       "options": [
         "mean-mcq-31",
-        "mean-mcq-30",
-        "mean-mcq-32",
-        "mean-mcq-29",
-        "mean-mcq-33",
-        "mean-mcq-28"
+        "mean-mcq-06",
+        "mean-mcq-15",
+        "mean-mcq-04"
       ],
       "explanation": "本句的「live within your means」指「量入為出」。",
       "sentenceIndex": 71,
@@ -3076,12 +2805,10 @@ export default {
         "live within your means"
       ],
       "optionReasons": {
-        "mean-mcq-31": "本句指「量入為出」。",
-        "mean-mcq-30": "「富有的人」是「person of means」的用法，與本句語境不同。",
-        "mean-mcq-32": "「超出負擔能力」是「beyond your means」的用法，與本句語境不同。",
-        "mean-mcq-29": "「財力；經濟能力」是「means (resources)」的用法，與本句語境不同。",
-        "mean-mcq-33": "「經入息／資產審查的」是「means-tested」的用法，與本句語境不同。",
-        "mean-mcq-28": "「達成目的的手段」是「means to an end」的用法，與本句語境不同。"
+        "mean-mcq-31": "本句的「live within your means」指「量入為出」。",
+        "mean-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-31"
     },
@@ -3093,11 +2820,9 @@ export default {
       "masked": "They learned to ____.",
       "options": [
         "mean-mcq-31",
-        "mean-mcq-30",
-        "mean-mcq-32",
-        "mean-mcq-29",
-        "mean-mcq-33",
-        "mean-mcq-28"
+        "mean-mcq-09",
+        "mean-mcq-44",
+        "mean-mcq-02"
       ],
       "explanation": "本句的「live within their means」指「量入為出」。",
       "sentenceIndex": 72,
@@ -3106,12 +2831,10 @@ export default {
         "live within their means"
       ],
       "optionReasons": {
-        "mean-mcq-31": "本句指「量入為出」。",
-        "mean-mcq-30": "「富有的人」是「person of means」的用法，與本句語境不同。",
-        "mean-mcq-32": "「超出負擔能力」是「beyond your means」的用法，與本句語境不同。",
-        "mean-mcq-29": "「財力；經濟能力」是「means (resources)」的用法，與本句語境不同。",
-        "mean-mcq-33": "「經入息／資產審查的」是「means-tested」的用法，與本句語境不同。",
-        "mean-mcq-28": "「達成目的的手段」是「means to an end」的用法，與本句語境不同。"
+        "mean-mcq-31": "本句的「live within their means」指「量入為出」。",
+        "mean-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-31"
     },
@@ -3123,11 +2846,9 @@ export default {
       "masked": "He had been ____.",
       "options": [
         "mean-mcq-32",
-        "mean-mcq-31",
-        "mean-mcq-33",
-        "mean-mcq-30",
-        "mean-mcq-34",
-        "mean-mcq-29"
+        "mean-mcq-07",
+        "mean-mcq-06",
+        "mean-mcq-27"
       ],
       "explanation": "本句的「living beyond his means」指「超出負擔能力」。",
       "sentenceIndex": 73,
@@ -3136,12 +2857,10 @@ export default {
         "living beyond his means"
       ],
       "optionReasons": {
-        "mean-mcq-32": "本句指「超出負擔能力」。",
-        "mean-mcq-31": "「量入為出」是「within your means」的用法，與本句語境不同。",
-        "mean-mcq-33": "「經入息／資產審查的」是「means-tested」的用法，與本句語境不同。",
-        "mean-mcq-30": "「富有的人」是「person of means」的用法，與本句語境不同。",
-        "mean-mcq-34": "「詢問對方剛才的說話究竟想表達甚麼」是「2. What do you mean? — 你是甚麼意思？」的用法，與本句語境不同。",
-        "mean-mcq-29": "「財力；經濟能力」是「means (resources)」的用法，與本句語境不同。"
+        "mean-mcq-32": "本句的「living beyond his means」指「超出負擔能力」。",
+        "mean-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-32"
     },
@@ -3153,11 +2872,9 @@ export default {
       "masked": "Don't borrow money just to ____.",
       "options": [
         "mean-mcq-32",
-        "mean-mcq-31",
-        "mean-mcq-33",
-        "mean-mcq-30",
-        "mean-mcq-34",
-        "mean-mcq-29"
+        "mean-mcq-43",
+        "mean-mcq-12",
+        "mean-mcq-39"
       ],
       "explanation": "本句的「live beyond your means」指「超出負擔能力」。",
       "sentenceIndex": 74,
@@ -3166,12 +2883,10 @@ export default {
         "live beyond your means"
       ],
       "optionReasons": {
-        "mean-mcq-32": "本句指「超出負擔能力」。",
-        "mean-mcq-31": "「量入為出」是「within your means」的用法，與本句語境不同。",
-        "mean-mcq-33": "「經入息／資產審查的」是「means-tested」的用法，與本句語境不同。",
-        "mean-mcq-30": "「富有的人」是「person of means」的用法，與本句語境不同。",
-        "mean-mcq-34": "「詢問對方剛才的說話究竟想表達甚麼」是「2. What do you mean? — 你是甚麼意思？」的用法，與本句語境不同。",
-        "mean-mcq-29": "「財力；經濟能力」是「means (resources)」的用法，與本句語境不同。"
+        "mean-mcq-32": "本句的「live beyond your means」指「超出負擔能力」。",
+        "mean-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-32"
     },
@@ -3183,11 +2898,9 @@ export default {
       "masked": "The benefit is ____.",
       "options": [
         "mean-mcq-33",
-        "mean-mcq-32",
-        "mean-mcq-34",
-        "mean-mcq-31",
-        "mean-mcq-35",
-        "mean-mcq-30"
+        "mean-mcq-02",
+        "mean-mcq-12",
+        "mean-mcq-16"
       ],
       "explanation": "本句的「means-tested」指「經入息／資產審查的」。",
       "sentenceIndex": 75,
@@ -3196,12 +2909,10 @@ export default {
         "means-tested"
       ],
       "optionReasons": {
-        "mean-mcq-33": "本句指「經入息／資產審查的」。",
-        "mean-mcq-32": "「超出負擔能力」是「beyond your means」的用法，與本句語境不同。",
-        "mean-mcq-34": "「詢問對方剛才的說話究竟想表達甚麼」是「2. What do you mean? — 你是甚麼意思？」的用法，與本句語境不同。",
-        "mean-mcq-31": "「量入為出」是「within your means」的用法，與本句語境不同。",
-        "mean-mcq-35": "「透過某個行為有意表達某種訊息或意圖」是「5. mean something by an action — 某個行為有某種意思」的用法，與本句語境不同。",
-        "mean-mcq-30": "「富有的人」是「person of means」的用法，與本句語境不同。"
+        "mean-mcq-33": "本句的「means-tested」指「經入息／資產審查的」。",
+        "mean-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-33"
     },
@@ -3213,11 +2924,9 @@ export default {
       "masked": "They applied for ____.",
       "options": [
         "mean-mcq-33",
-        "mean-mcq-32",
-        "mean-mcq-34",
-        "mean-mcq-31",
-        "mean-mcq-35",
-        "mean-mcq-30"
+        "mean-mcq-10",
+        "mean-mcq-07",
+        "mean-mcq-22"
       ],
       "explanation": "本句的「means-tested support」指「經入息／資產審查的」。",
       "sentenceIndex": 76,
@@ -3226,12 +2935,10 @@ export default {
         "means-tested support"
       ],
       "optionReasons": {
-        "mean-mcq-33": "本句指「經入息／資產審查的」。",
-        "mean-mcq-32": "「超出負擔能力」是「beyond your means」的用法，與本句語境不同。",
-        "mean-mcq-34": "「詢問對方剛才的說話究竟想表達甚麼」是「2. What do you mean? — 你是甚麼意思？」的用法，與本句語境不同。",
-        "mean-mcq-31": "「量入為出」是「within your means」的用法，與本句語境不同。",
-        "mean-mcq-35": "「透過某個行為有意表達某種訊息或意圖」是「5. mean something by an action — 某個行為有某種意思」的用法，與本句語境不同。",
-        "mean-mcq-30": "「富有的人」是「person of means」的用法，與本句語境不同。"
+        "mean-mcq-33": "本句的「means-tested support」指「經入息／資產審查的」。",
+        "mean-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mean-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mean-mcq-33"
     }
@@ -3243,5 +2950,7 @@ export default {
     "sha256": "2593254769a5f8319cb05fa97bd47aa7d38e8fb81c4674095b33373f91d7b67e",
     "pages": 29
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

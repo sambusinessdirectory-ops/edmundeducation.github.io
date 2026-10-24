@@ -634,11 +634,9 @@ export default {
       "masked": "Contribution should be visible rather than ____.",
       "options": [
         "assume-mcq-01",
-        "assume-mcq-02",
-        "assume-mcq-03",
-        "assume-mcq-04",
-        "assume-mcq-05",
-        "assume-mcq-06"
+        "assume-pdf-002",
+        "assume-mcq-16",
+        "assume-mcq-17"
       ],
       "explanation": "本句的「assumed」指「假定；以為」。",
       "sentenceIndex": 0,
@@ -647,12 +645,10 @@ export default {
         "assumed"
       ],
       "optionReasons": {
-        "assume-mcq-01": "本句指「假定；以為」。",
-        "assume-mcq-02": "「假定 X 是 Y」與本句語境不同。",
-        "assume-mcq-03": "「誤以為」與本句語境不同。",
-        "assume-mcq-04": "「合理假定」與本句語境不同。",
-        "assume-mcq-05": "「被假定的；預設的」與本句語境不同。",
-        "assume-mcq-06": "「預設已有知識」與本句語境不同。"
+        "assume-mcq-01": "本句的「assumed」指「假定；以為」。",
+        "assume-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-01"
     },
@@ -664,11 +660,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "assume-mcq-01",
-        "assume-mcq-02",
-        "assume-mcq-03",
-        "assume-mcq-04",
-        "assume-mcq-05",
-        "assume-mcq-06"
+        "assume-mcq-13",
+        "assume-mcq-26",
+        "assume-mcq-23"
       ],
       "explanation": "本句的「assume that everyone contributed equally」指「假定；以為」。",
       "sentenceIndex": 1,
@@ -677,12 +671,10 @@ export default {
         "assume that everyone contributed equally"
       ],
       "optionReasons": {
-        "assume-mcq-01": "本句指「假定；以為」。",
-        "assume-mcq-02": "「假定 X 是 Y」與本句語境不同。",
-        "assume-mcq-03": "「誤以為」與本句語境不同。",
-        "assume-mcq-04": "「合理假定」與本句語境不同。",
-        "assume-mcq-05": "「被假定的；預設的」與本句語境不同。",
-        "assume-mcq-06": "「預設已有知識」與本句語境不同。"
+        "assume-mcq-01": "本句的「assume that everyone contributed equally」指「假定；以為」。",
+        "assume-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-01"
     },
@@ -694,11 +686,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "assume-mcq-01",
-        "assume-mcq-02",
-        "assume-mcq-03",
-        "assume-mcq-04",
-        "assume-mcq-05",
-        "assume-mcq-06"
+        "assume-mcq-23",
+        "assume-mcq-16",
+        "assume-mcq-19"
       ],
       "explanation": "本句的「assumed that the task had already been completed」指「假定；以為」。",
       "sentenceIndex": 2,
@@ -707,12 +697,10 @@ export default {
         "assumed that the task had already been completed"
       ],
       "optionReasons": {
-        "assume-mcq-01": "本句指「假定；以為」。",
-        "assume-mcq-02": "「假定 X 是 Y」與本句語境不同。",
-        "assume-mcq-03": "「誤以為」與本句語境不同。",
-        "assume-mcq-04": "「合理假定」與本句語境不同。",
-        "assume-mcq-05": "「被假定的；預設的」與本句語境不同。",
-        "assume-mcq-06": "「預設已有知識」與本句語境不同。"
+        "assume-mcq-01": "本句的「assumed that the task had already been completed」指「假定；以為」。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-01"
     },
@@ -724,11 +712,9 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "assume-pdf-001",
-        "assume-mcq-01",
-        "assume-mcq-03",
-        "assume-mcq-04",
-        "assume-mcq-05",
-        "assume-mcq-06"
+        "assume-mcq-11",
+        "assume-mcq-13",
+        "assume-mcq-23"
       ],
       "explanation": "本句的「assumed the information to be correct」指「未完全證實便把 X 視為 Y」。",
       "sentenceIndex": 3,
@@ -737,12 +723,10 @@ export default {
         "assumed the information to be correct"
       ],
       "optionReasons": {
-        "assume-pdf-001": "本句指「未完全證實便把 X 視為 Y」。",
-        "assume-mcq-01": "「假定；以為」與本句語境不同。",
-        "assume-mcq-03": "「誤以為」與本句語境不同。",
-        "assume-mcq-04": "「合理假定」與本句語境不同。",
-        "assume-mcq-05": "「被假定的；預設的」與本句語境不同。",
-        "assume-mcq-06": "「預設已有知識」與本句語境不同。"
+        "assume-pdf-001": "本句的「assumed the information to be correct」指「未完全證實便把 X 視為 Y」。",
+        "assume-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-pdf-001"
     },
@@ -754,11 +738,9 @@ export default {
       "masked": "We should not ____ without checking.",
       "options": [
         "assume-pdf-001",
-        "assume-mcq-01",
-        "assume-mcq-03",
-        "assume-mcq-04",
+        "assume-mcq-20",
         "assume-mcq-05",
-        "assume-mcq-06"
+        "assume-mcq-25"
       ],
       "explanation": "本句的「assume every complaint to be genuine」指「未完全證實便把 X 視為 Y」。",
       "sentenceIndex": 4,
@@ -767,12 +749,10 @@ export default {
         "assume every complaint to be genuine"
       ],
       "optionReasons": {
-        "assume-pdf-001": "本句指「未完全證實便把 X 視為 Y」。",
-        "assume-mcq-01": "「假定；以為」與本句語境不同。",
-        "assume-mcq-03": "「誤以為」與本句語境不同。",
-        "assume-mcq-04": "「合理假定」與本句語境不同。",
-        "assume-mcq-05": "「被假定的；預設的」與本句語境不同。",
-        "assume-mcq-06": "「預設已有知識」與本句語境不同。"
+        "assume-pdf-001": "本句的「assume every complaint to be genuine」指「未完全證實便把 X 視為 Y」。",
+        "assume-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-pdf-001"
     },
@@ -784,11 +764,9 @@ export default {
       "masked": "She ____ that everyone understood the instructions.",
       "options": [
         "assume-mcq-03",
-        "assume-mcq-02",
-        "assume-mcq-04",
-        "assume-mcq-01",
-        "assume-mcq-05",
-        "assume-mcq-06"
+        "assume-mcq-06",
+        "assume-mcq-23",
+        "assume-mcq-01"
       ],
       "explanation": "本句的「wrongly assumed」指「誤以為」。",
       "sentenceIndex": 5,
@@ -797,12 +775,10 @@ export default {
         "wrongly assumed"
       ],
       "optionReasons": {
-        "assume-mcq-03": "本句指「誤以為」。",
-        "assume-mcq-02": "「假定 X 是 Y」與本句語境不同。",
-        "assume-mcq-04": "「合理假定」與本句語境不同。",
-        "assume-mcq-01": "「假定；以為」與本句語境不同。",
-        "assume-mcq-05": "「被假定的；預設的」與本句語境不同。",
-        "assume-mcq-06": "「預設已有知識」與本句語境不同。"
+        "assume-mcq-03": "本句的「wrongly assumed」指「誤以為」。",
+        "assume-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-03"
     },
@@ -814,11 +790,9 @@ export default {
       "masked": "I ____ the meeting had been cancelled.",
       "options": [
         "assume-mcq-03",
-        "assume-mcq-02",
-        "assume-mcq-04",
-        "assume-mcq-01",
-        "assume-mcq-05",
-        "assume-mcq-06"
+        "assume-mcq-07",
+        "assume-mcq-19",
+        "assume-mcq-15"
       ],
       "explanation": "本句的「mistakenly assumed」指「誤以為」。",
       "sentenceIndex": 6,
@@ -827,12 +801,10 @@ export default {
         "mistakenly assumed"
       ],
       "optionReasons": {
-        "assume-mcq-03": "本句指「誤以為」。",
-        "assume-mcq-02": "「假定 X 是 Y」與本句語境不同。",
-        "assume-mcq-04": "「合理假定」與本句語境不同。",
-        "assume-mcq-01": "「假定；以為」與本句語境不同。",
-        "assume-mcq-05": "「被假定的；預設的」與本句語境不同。",
-        "assume-mcq-06": "「預設已有知識」與本句語境不同。"
+        "assume-mcq-03": "本句的「mistakenly assumed」指「誤以為」。",
+        "assume-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-03"
     },
@@ -844,11 +816,9 @@ export default {
       "masked": "It is ____ that clear roles reduce confusion.",
       "options": [
         "assume-mcq-04",
-        "assume-mcq-03",
-        "assume-mcq-05",
-        "assume-mcq-02",
-        "assume-mcq-06",
-        "assume-mcq-01"
+        "assume-mcq-13",
+        "assume-mcq-16",
+        "assume-mcq-23"
       ],
       "explanation": "本句的「reasonable to assume」指「合理假定」。",
       "sentenceIndex": 7,
@@ -857,12 +827,10 @@ export default {
         "reasonable to assume"
       ],
       "optionReasons": {
-        "assume-mcq-04": "本句指「合理假定」。",
-        "assume-mcq-03": "「誤以為」與本句語境不同。",
-        "assume-mcq-05": "「被假定的；預設的」與本句語境不同。",
-        "assume-mcq-02": "「假定 X 是 Y」與本句語境不同。",
-        "assume-mcq-06": "「預設已有知識」與本句語境不同。",
-        "assume-mcq-01": "「假定；以為」與本句語境不同。"
+        "assume-mcq-04": "本句的「reasonable to assume」指「合理假定」。",
+        "assume-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-04"
     },
@@ -874,11 +842,9 @@ export default {
       "masked": "It would not be ____ that everyone has read the report.",
       "options": [
         "assume-mcq-04",
-        "assume-mcq-03",
-        "assume-mcq-05",
-        "assume-mcq-02",
-        "assume-mcq-06",
-        "assume-mcq-01"
+        "assume-mcq-14",
+        "assume-mcq-12",
+        "assume-mcq-06"
       ],
       "explanation": "本句的「safe to assume」指「合理假定」。",
       "sentenceIndex": 8,
@@ -887,12 +853,10 @@ export default {
         "safe to assume"
       ],
       "optionReasons": {
-        "assume-mcq-04": "本句指「合理假定」。",
-        "assume-mcq-03": "「誤以為」與本句語境不同。",
-        "assume-mcq-05": "「被假定的；預設的」與本句語境不同。",
-        "assume-mcq-02": "「假定 X 是 Y」與本句語境不同。",
-        "assume-mcq-06": "「預設已有知識」與本句語境不同。",
-        "assume-mcq-01": "「假定；以為」與本句語境不同。"
+        "assume-mcq-04": "本句的「safe to assume」指「合理假定」。",
+        "assume-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-04"
     },
@@ -904,11 +868,9 @@ export default {
       "masked": "The figures are based on an ____.",
       "options": [
         "assume-mcq-05",
-        "assume-mcq-04",
-        "assume-mcq-06",
+        "assume-mcq-25",
         "assume-mcq-03",
-        "assume-mcq-07",
-        "assume-mcq-02"
+        "assume-mcq-16"
       ],
       "explanation": "本句的「assumed growth rate」指「被假定的；預設的」。",
       "sentenceIndex": 9,
@@ -917,12 +879,10 @@ export default {
         "assumed growth rate"
       ],
       "optionReasons": {
-        "assume-mcq-05": "本句指「被假定的；預設的」。",
-        "assume-mcq-04": "「合理假定」與本句語境不同。",
-        "assume-mcq-06": "「預設已有知識」與本句語境不同。",
-        "assume-mcq-03": "「誤以為」與本句語境不同。",
-        "assume-mcq-07": "「假設；假如」與本句語境不同。",
-        "assume-mcq-02": "「假定 X 是 Y」與本句語境不同。"
+        "assume-mcq-05": "本句的「assumed growth rate」指「被假定的；預設的」。",
+        "assume-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-05"
     },
@@ -934,11 +894,9 @@ export default {
       "masked": "The plan depends on several ____.",
       "options": [
         "assume-mcq-05",
-        "assume-mcq-04",
-        "assume-mcq-06",
-        "assume-mcq-03",
-        "assume-mcq-07",
-        "assume-mcq-02"
+        "assume-mcq-12",
+        "assume-mcq-14",
+        "assume-mcq-03"
       ],
       "explanation": "本句的「assumed conditions」指「被假定的；預設的」。",
       "sentenceIndex": 10,
@@ -947,12 +905,10 @@ export default {
         "assumed conditions"
       ],
       "optionReasons": {
-        "assume-mcq-05": "本句指「被假定的；預設的」。",
-        "assume-mcq-04": "「合理假定」與本句語境不同。",
-        "assume-mcq-06": "「預設已有知識」與本句語境不同。",
-        "assume-mcq-03": "「誤以為」與本句語境不同。",
-        "assume-mcq-07": "「假設；假如」與本句語境不同。",
-        "assume-mcq-02": "「假定 X 是 Y」與本句語境不同。"
+        "assume-mcq-05": "本句的「assumed conditions」指「被假定的；預設的」。",
+        "assume-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-05"
     },
@@ -964,11 +920,9 @@ export default {
       "masked": "Basic statistics are ____ for this course.",
       "options": [
         "assume-mcq-06",
-        "assume-mcq-05",
-        "assume-mcq-07",
-        "assume-mcq-04",
-        "assume-mcq-08",
-        "assume-mcq-03"
+        "assume-mcq-15",
+        "assume-mcq-21",
+        "assume-mcq-20"
       ],
       "explanation": "本句的「assumed knowledge」指「預設已有知識」。",
       "sentenceIndex": 11,
@@ -977,12 +931,10 @@ export default {
         "assumed knowledge"
       ],
       "optionReasons": {
-        "assume-mcq-06": "本句指「預設已有知識」。",
-        "assume-mcq-05": "「被假定的；預設的」與本句語境不同。",
-        "assume-mcq-07": "「假設；假如」與本句語境不同。",
-        "assume-mcq-04": "「合理假定」與本句語境不同。",
-        "assume-mcq-08": "「假設；預設」與本句語境不同。",
-        "assume-mcq-03": "「誤以為」與本句語境不同。"
+        "assume-mcq-06": "本句的「assumed knowledge」指「預設已有知識」。",
+        "assume-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-06"
     },
@@ -994,11 +946,9 @@ export default {
       "masked": "The manual contains too much ____.",
       "options": [
         "assume-mcq-06",
-        "assume-mcq-05",
-        "assume-mcq-07",
-        "assume-mcq-04",
-        "assume-mcq-08",
-        "assume-mcq-03"
+        "assume-mcq-24",
+        "assume-mcq-17",
+        "assume-mcq-23"
       ],
       "explanation": "本句的「assumed knowledge」指「預設已有知識」。",
       "sentenceIndex": 12,
@@ -1007,12 +957,10 @@ export default {
         "assumed knowledge"
       ],
       "optionReasons": {
-        "assume-mcq-06": "本句指「預設已有知識」。",
-        "assume-mcq-05": "「被假定的；預設的」與本句語境不同。",
-        "assume-mcq-07": "「假設；假如」與本句語境不同。",
-        "assume-mcq-04": "「合理假定」與本句語境不同。",
-        "assume-mcq-08": "「假設；預設」與本句語境不同。",
-        "assume-mcq-03": "「誤以為」與本句語境不同。"
+        "assume-mcq-06": "本句的「assumed knowledge」指「預設已有知識」。",
+        "assume-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-06"
     },
@@ -1024,11 +972,9 @@ export default {
       "masked": "____, we can begin tomorrow.",
       "options": [
         "assume-mcq-07",
-        "assume-mcq-06",
-        "assume-mcq-08",
-        "assume-mcq-05",
-        "assume-mcq-09",
-        "assume-mcq-04"
+        "assume-mcq-23",
+        "assume-mcq-14",
+        "assume-mcq-17"
       ],
       "explanation": "本句的「Assuming that everyone agrees」指「假設；假如」。",
       "sentenceIndex": 13,
@@ -1037,12 +983,10 @@ export default {
         "Assuming that everyone agrees"
       ],
       "optionReasons": {
-        "assume-mcq-07": "本句指「假設；假如」。",
-        "assume-mcq-06": "「預設已有知識」與本句語境不同。",
-        "assume-mcq-08": "「假設；預設」與本句語境不同。",
-        "assume-mcq-05": "「被假定的；預設的」與本句語境不同。",
-        "assume-mcq-09": "「作出假設」與本句語境不同。",
-        "assume-mcq-04": "「合理假定」與本句語境不同。"
+        "assume-mcq-07": "本句的「Assuming that everyone agrees」指「假設；假如」。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-07"
     },
@@ -1054,11 +998,9 @@ export default {
       "masked": "____, the project is on schedule.",
       "options": [
         "assume-mcq-07",
-        "assume-mcq-06",
-        "assume-mcq-08",
-        "assume-mcq-05",
-        "assume-mcq-09",
-        "assume-mcq-04"
+        "assume-mcq-03",
+        "assume-mcq-17",
+        "assume-mcq-12"
       ],
       "explanation": "本句的「Assuming the data are accurate」指「假設；假如」。",
       "sentenceIndex": 14,
@@ -1067,12 +1009,10 @@ export default {
         "Assuming the data are accurate"
       ],
       "optionReasons": {
-        "assume-mcq-07": "本句指「假設；假如」。",
-        "assume-mcq-06": "「預設已有知識」與本句語境不同。",
-        "assume-mcq-08": "「假設；預設」與本句語境不同。",
-        "assume-mcq-05": "「被假定的；預設的」與本句語境不同。",
-        "assume-mcq-09": "「作出假設」與本句語境不同。",
-        "assume-mcq-04": "「合理假定」與本句語境不同。"
+        "assume-mcq-07": "本句的「Assuming the data are accurate」指「假設；假如」。",
+        "assume-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-07"
     },
@@ -1084,11 +1024,9 @@ export default {
       "masked": "The plan is based on the ____.",
       "options": [
         "assume-mcq-08",
-        "assume-mcq-07",
-        "assume-mcq-09",
-        "assume-mcq-06",
-        "assume-mcq-10",
-        "assume-mcq-05"
+        "assume-mcq-12",
+        "assume-mcq-03",
+        "assume-mcq-13"
       ],
       "explanation": "本句的「assumption that demand will increase」指「假設；預設」。",
       "sentenceIndex": 15,
@@ -1097,12 +1035,10 @@ export default {
         "assumption that demand will increase"
       ],
       "optionReasons": {
-        "assume-mcq-08": "本句指「假設；預設」。",
-        "assume-mcq-07": "「假設；假如」與本句語境不同。",
-        "assume-mcq-09": "「作出假設」與本句語境不同。",
-        "assume-mcq-06": "「預設已有知識」與本句語境不同。",
-        "assume-mcq-10": "「潛在假設」與本句語境不同。",
-        "assume-mcq-05": "「被假定的；預設的」與本句語境不同。"
+        "assume-mcq-08": "本句的「assumption that demand will increase」指「假設；預設」。",
+        "assume-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-08"
     },
@@ -1114,11 +1050,9 @@ export default {
       "masked": "That ____ may be wrong.",
       "options": [
         "assume-mcq-08",
-        "assume-mcq-07",
-        "assume-mcq-09",
-        "assume-mcq-06",
-        "assume-mcq-10",
-        "assume-mcq-05"
+        "assume-mcq-19",
+        "assume-mcq-16",
+        "assume-mcq-25"
       ],
       "explanation": "本句的「assumption」指「假設；預設」。",
       "sentenceIndex": 16,
@@ -1127,12 +1061,10 @@ export default {
         "assumption"
       ],
       "optionReasons": {
-        "assume-mcq-08": "本句指「假設；預設」。",
-        "assume-mcq-07": "「假設；假如」與本句語境不同。",
-        "assume-mcq-09": "「作出假設」與本句語境不同。",
-        "assume-mcq-06": "「預設已有知識」與本句語境不同。",
-        "assume-mcq-10": "「潛在假設」與本句語境不同。",
-        "assume-mcq-05": "「被假定的；預設的」與本句語境不同。"
+        "assume-mcq-08": "本句的「assumption」指「假設；預設」。",
+        "assume-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-08"
     },
@@ -1144,11 +1076,9 @@ export default {
       "masked": "Don't ____ about other people's effort.",
       "options": [
         "assume-mcq-09",
-        "assume-mcq-08",
-        "assume-mcq-10",
-        "assume-mcq-07",
-        "assume-mcq-11",
-        "assume-mcq-06"
+        "assume-mcq-20",
+        "assume-mcq-12",
+        "assume-mcq-14"
       ],
       "explanation": "本句的「make assumptions」指「作出假設」。",
       "sentenceIndex": 17,
@@ -1157,12 +1087,10 @@ export default {
         "make assumptions"
       ],
       "optionReasons": {
-        "assume-mcq-09": "本句指「作出假設」。",
-        "assume-mcq-08": "「假設；預設」與本句語境不同。",
-        "assume-mcq-10": "「潛在假設」與本句語境不同。",
-        "assume-mcq-07": "「假設；假如」與本句語境不同。",
-        "assume-mcq-11": "「錯誤假設」與本句語境不同。",
-        "assume-mcq-06": "「預設已有知識」與本句語境不同。"
+        "assume-mcq-09": "本句的「make assumptions」指「作出假設」。",
+        "assume-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-09"
     },
@@ -1174,11 +1102,9 @@ export default {
       "masked": "We made an incorrect ____ about the deadline.",
       "options": [
         "assume-mcq-09",
-        "assume-mcq-08",
-        "assume-mcq-10",
-        "assume-mcq-07",
-        "assume-mcq-11",
-        "assume-mcq-06"
+        "assume-mcq-14",
+        "assume-mcq-23",
+        "assume-mcq-03"
       ],
       "explanation": "本句的「assumption」指「作出假設」。",
       "sentenceIndex": 18,
@@ -1187,12 +1113,10 @@ export default {
         "assumption"
       ],
       "optionReasons": {
-        "assume-mcq-09": "本句指「作出假設」。",
-        "assume-mcq-08": "「假設；預設」與本句語境不同。",
-        "assume-mcq-10": "「潛在假設」與本句語境不同。",
-        "assume-mcq-07": "「假設；假如」與本句語境不同。",
-        "assume-mcq-11": "「錯誤假設」與本句語境不同。",
-        "assume-mcq-06": "「預設已有知識」與本句語境不同。"
+        "assume-mcq-09": "本句的「assumption」指「作出假設」。",
+        "assume-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-09"
     },
@@ -1204,11 +1128,9 @@ export default {
       "masked": "We need to question the ____ of the policy.",
       "options": [
         "assume-mcq-10",
-        "assume-mcq-09",
-        "assume-mcq-11",
-        "assume-mcq-08",
-        "assume-mcq-12",
-        "assume-mcq-07"
+        "assume-mcq-15",
+        "assume-mcq-20",
+        "assume-mcq-26"
       ],
       "explanation": "本句的「underlying assumptions」指「潛在假設」。",
       "sentenceIndex": 21,
@@ -1217,12 +1139,10 @@ export default {
         "underlying assumptions"
       ],
       "optionReasons": {
-        "assume-mcq-10": "本句指「潛在假設」。",
-        "assume-mcq-09": "「作出假設」與本句語境不同。",
-        "assume-mcq-11": "「錯誤假設」與本句語境不同。",
-        "assume-mcq-08": "「假設；預設」與本句語境不同。",
-        "assume-mcq-12": "「承擔責任」與本句語境不同。",
-        "assume-mcq-07": "「假設；假如」與本句語境不同。"
+        "assume-mcq-10": "本句的「underlying assumptions」指「潛在假設」。",
+        "assume-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-10"
     },
@@ -1234,11 +1154,9 @@ export default {
       "masked": "One ____ is that all team members are equally motivated.",
       "options": [
         "assume-mcq-10",
-        "assume-mcq-09",
-        "assume-mcq-11",
-        "assume-mcq-08",
-        "assume-mcq-12",
-        "assume-mcq-07"
+        "assume-mcq-18",
+        "assume-mcq-14",
+        "assume-mcq-23"
       ],
       "explanation": "本句的「underlying assumption」指「潛在假設」。",
       "sentenceIndex": 22,
@@ -1247,12 +1165,10 @@ export default {
         "underlying assumption"
       ],
       "optionReasons": {
-        "assume-mcq-10": "本句指「潛在假設」。",
-        "assume-mcq-09": "「作出假設」與本句語境不同。",
-        "assume-mcq-11": "「錯誤假設」與本句語境不同。",
-        "assume-mcq-08": "「假設；預設」與本句語境不同。",
-        "assume-mcq-12": "「承擔責任」與本句語境不同。",
-        "assume-mcq-07": "「假設；假如」與本句語境不同。"
+        "assume-mcq-10": "本句的「underlying assumption」指「潛在假設」。",
+        "assume-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-10"
     },
@@ -1264,11 +1180,9 @@ export default {
       "masked": "The decision was based on a ____.",
       "options": [
         "assume-mcq-11",
-        "assume-mcq-10",
-        "assume-mcq-12",
-        "assume-mcq-09",
-        "assume-mcq-13",
-        "assume-mcq-08"
+        "assume-mcq-19",
+        "assume-mcq-23",
+        "assume-mcq-14"
       ],
       "explanation": "本句的「false assumption」指「錯誤假設」。",
       "sentenceIndex": 23,
@@ -1277,12 +1191,10 @@ export default {
         "false assumption"
       ],
       "optionReasons": {
-        "assume-mcq-11": "本句指「錯誤假設」。",
-        "assume-mcq-10": "「潛在假設」與本句語境不同。",
-        "assume-mcq-12": "「承擔責任」與本句語境不同。",
-        "assume-mcq-09": "「作出假設」與本句語境不同。",
-        "assume-mcq-13": "「接管」與本句語境不同。",
-        "assume-mcq-08": "「假設；預設」與本句語境不同。"
+        "assume-mcq-11": "本句的「false assumption」指「錯誤假設」。",
+        "assume-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-11"
     },
@@ -1294,11 +1206,9 @@ export default {
       "masked": "Their ____ caused unnecessary confusion.",
       "options": [
         "assume-mcq-11",
-        "assume-mcq-10",
-        "assume-mcq-12",
-        "assume-mcq-09",
-        "assume-mcq-13",
-        "assume-mcq-08"
+        "assume-mcq-18",
+        "assume-mcq-16",
+        "assume-mcq-17"
       ],
       "explanation": "本句的「mistaken assumption」指「錯誤假設」。",
       "sentenceIndex": 24,
@@ -1307,12 +1217,10 @@ export default {
         "mistaken assumption"
       ],
       "optionReasons": {
-        "assume-mcq-11": "本句指「錯誤假設」。",
-        "assume-mcq-10": "「潛在假設」與本句語境不同。",
-        "assume-mcq-12": "「承擔責任」與本句語境不同。",
-        "assume-mcq-09": "「作出假設」與本句語境不同。",
-        "assume-mcq-13": "「接管」與本句語境不同。",
-        "assume-mcq-08": "「假設；預設」與本句語境不同。"
+        "assume-mcq-11": "本句的「mistaken assumption」指「錯誤假設」。",
+        "assume-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-11"
     },
@@ -1324,11 +1232,9 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "assume-mcq-12",
-        "assume-mcq-11",
-        "assume-mcq-13",
-        "assume-mcq-10",
-        "assume-mcq-14",
-        "assume-mcq-09"
+        "assume-mcq-18",
+        "assume-mcq-05",
+        "assume-mcq-20"
       ],
       "explanation": "本句的「assumed responsibility for the mistake」指「承擔責任」。",
       "sentenceIndex": 25,
@@ -1337,12 +1243,10 @@ export default {
         "assumed responsibility for the mistake"
       ],
       "optionReasons": {
-        "assume-mcq-12": "本句指「承擔責任」。",
-        "assume-mcq-11": "「錯誤假設」與本句語境不同。",
-        "assume-mcq-13": "「接管」與本句語境不同。",
-        "assume-mcq-10": "「潛在假設」與本句語境不同。",
-        "assume-mcq-14": "「接任指揮」與本句語境不同。",
-        "assume-mcq-09": "「作出假設」與本句語境不同。"
+        "assume-mcq-12": "本句的「assumed responsibility for the mistake」指「承擔責任」。",
+        "assume-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-12"
     },
@@ -1354,11 +1258,9 @@ export default {
       "masked": "Each member must ____.",
       "options": [
         "assume-mcq-12",
-        "assume-mcq-11",
-        "assume-mcq-13",
-        "assume-mcq-10",
-        "assume-mcq-14",
-        "assume-mcq-09"
+        "assume-mcq-08",
+        "assume-mcq-21",
+        "assume-mcq-19"
       ],
       "explanation": "本句的「assume responsibility for their own work」指「承擔責任」。",
       "sentenceIndex": 26,
@@ -1367,12 +1269,10 @@ export default {
         "assume responsibility for their own work"
       ],
       "optionReasons": {
-        "assume-mcq-12": "本句指「承擔責任」。",
-        "assume-mcq-11": "「錯誤假設」與本句語境不同。",
-        "assume-mcq-13": "「接管」與本句語境不同。",
-        "assume-mcq-10": "「潛在假設」與本句語境不同。",
-        "assume-mcq-14": "「接任指揮」與本句語境不同。",
-        "assume-mcq-09": "「作出假設」與本句語境不同。"
+        "assume-mcq-12": "本句的「assume responsibility for their own work」指「承擔責任」。",
+        "assume-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-12"
     },
@@ -1384,11 +1284,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "assume-mcq-12",
-        "assume-mcq-11",
-        "assume-mcq-13",
-        "assume-mcq-10",
-        "assume-mcq-14",
-        "assume-mcq-09"
+        "assume-mcq-04",
+        "assume-pdf-001",
+        "assume-mcq-23"
       ],
       "explanation": "本句的「assumed responsibility for coordinating the team」指「承擔責任」。",
       "sentenceIndex": 27,
@@ -1397,12 +1295,10 @@ export default {
         "assumed responsibility for coordinating the team"
       ],
       "optionReasons": {
-        "assume-mcq-12": "本句指「承擔責任」。",
-        "assume-mcq-11": "「錯誤假設」與本句語境不同。",
-        "assume-mcq-13": "「接管」與本句語境不同。",
-        "assume-mcq-10": "「潛在假設」與本句語境不同。",
-        "assume-mcq-14": "「接任指揮」與本句語境不同。",
-        "assume-mcq-09": "「作出假設」與本句語境不同。"
+        "assume-mcq-12": "本句的「assumed responsibility for coordinating the team」指「承擔責任」。",
+        "assume-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "assume-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-12"
     },
@@ -1414,11 +1310,9 @@ export default {
       "masked": "One employee ____.",
       "options": [
         "assume-mcq-12",
-        "assume-mcq-11",
-        "assume-mcq-13",
-        "assume-mcq-10",
-        "assume-mcq-14",
-        "assume-mcq-09"
+        "assume-mcq-18",
+        "assume-mcq-04",
+        "assume-pdf-001"
       ],
       "explanation": "本句的「assumed responsibility for preparing the final report」指「承擔責任」。",
       "sentenceIndex": 28,
@@ -1427,12 +1321,10 @@ export default {
         "assumed responsibility for preparing the final report"
       ],
       "optionReasons": {
-        "assume-mcq-12": "本句指「承擔責任」。",
-        "assume-mcq-11": "「錯誤假設」與本句語境不同。",
-        "assume-mcq-13": "「接管」與本句語境不同。",
-        "assume-mcq-10": "「潛在假設」與本句語境不同。",
-        "assume-mcq-14": "「接任指揮」與本句語境不同。",
-        "assume-mcq-09": "「作出假設」與本句語境不同。"
+        "assume-mcq-12": "本句的「assumed responsibility for preparing the final report」指「承擔責任」。",
+        "assume-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "assume-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-12"
     },
@@ -1444,11 +1336,9 @@ export default {
       "masked": "A new manager ____.",
       "options": [
         "assume-mcq-13",
-        "assume-mcq-12",
-        "assume-mcq-14",
-        "assume-mcq-11",
+        "assume-mcq-01",
         "assume-mcq-15",
-        "assume-mcq-10"
+        "assume-mcq-18"
       ],
       "explanation": "本句的「assumed control of the department」指「接管」。",
       "sentenceIndex": 29,
@@ -1457,12 +1347,10 @@ export default {
         "assumed control of the department"
       ],
       "optionReasons": {
-        "assume-mcq-13": "本句指「接管」。",
-        "assume-mcq-12": "「承擔責任」與本句語境不同。",
-        "assume-mcq-14": "「接任指揮」與本句語境不同。",
-        "assume-mcq-11": "「錯誤假設」與本句語境不同。",
-        "assume-mcq-15": "「就職；上任」與本句語境不同。",
-        "assume-mcq-10": "「潛在假設」與本句語境不同。"
+        "assume-mcq-13": "本句的「assumed control of the department」指「接管」。",
+        "assume-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-13"
     },
@@ -1474,11 +1362,9 @@ export default {
       "masked": "The central office ____.",
       "options": [
         "assume-mcq-13",
-        "assume-mcq-12",
-        "assume-mcq-14",
-        "assume-mcq-11",
-        "assume-mcq-15",
-        "assume-mcq-10"
+        "assume-mcq-03",
+        "assume-mcq-23",
+        "assume-mcq-01"
       ],
       "explanation": "本句的「assumed control of the project」指「接管」。",
       "sentenceIndex": 30,
@@ -1487,12 +1373,10 @@ export default {
         "assumed control of the project"
       ],
       "optionReasons": {
-        "assume-mcq-13": "本句指「接管」。",
-        "assume-mcq-12": "「承擔責任」與本句語境不同。",
-        "assume-mcq-14": "「接任指揮」與本句語境不同。",
-        "assume-mcq-11": "「錯誤假設」與本句語境不同。",
-        "assume-mcq-15": "「就職；上任」與本句語境不同。",
-        "assume-mcq-10": "「潛在假設」與本句語境不同。"
+        "assume-mcq-13": "本句的「assumed control of the project」指「接管」。",
+        "assume-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-13"
     },
@@ -1504,11 +1388,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "assume-mcq-14",
-        "assume-mcq-13",
-        "assume-mcq-15",
-        "assume-mcq-12",
-        "assume-mcq-16",
-        "assume-mcq-11"
+        "assume-mcq-09",
+        "assume-mcq-26",
+        "assume-mcq-23"
       ],
       "explanation": "本句的「assumed command of the team」指「接任指揮」。",
       "sentenceIndex": 31,
@@ -1517,12 +1399,10 @@ export default {
         "assumed command of the team"
       ],
       "optionReasons": {
-        "assume-mcq-14": "本句指「接任指揮」。",
-        "assume-mcq-13": "「接管」與本句語境不同。",
-        "assume-mcq-15": "「就職；上任」與本句語境不同。",
-        "assume-mcq-12": "「承擔責任」與本句語境不同。",
-        "assume-mcq-16": "「擔任角色」與本句語境不同。",
-        "assume-mcq-11": "「錯誤假設」與本句語境不同。"
+        "assume-mcq-14": "本句的「assumed command of the team」指「接任指揮」。",
+        "assume-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-14"
     },
@@ -1534,11 +1414,9 @@ export default {
       "masked": "The deputy ____ during the leader's absence.",
       "options": [
         "assume-mcq-14",
-        "assume-mcq-13",
-        "assume-mcq-15",
-        "assume-mcq-12",
-        "assume-mcq-16",
-        "assume-mcq-11"
+        "assume-mcq-21",
+        "assume-mcq-04",
+        "assume-mcq-20"
       ],
       "explanation": "本句的「assumed command」指「接任指揮」。",
       "sentenceIndex": 32,
@@ -1547,12 +1425,10 @@ export default {
         "assumed command"
       ],
       "optionReasons": {
-        "assume-mcq-14": "本句指「接任指揮」。",
-        "assume-mcq-13": "「接管」與本句語境不同。",
-        "assume-mcq-15": "「就職；上任」與本句語境不同。",
-        "assume-mcq-12": "「承擔責任」與本句語境不同。",
-        "assume-mcq-16": "「擔任角色」與本句語境不同。",
-        "assume-mcq-11": "「錯誤假設」與本句語境不同。"
+        "assume-mcq-14": "本句的「assumed command」指「接任指揮」。",
+        "assume-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-14"
     },
@@ -1564,11 +1440,9 @@ export default {
       "masked": "The new director ____ in January.",
       "options": [
         "assume-mcq-15",
-        "assume-mcq-14",
-        "assume-mcq-16",
-        "assume-mcq-13",
-        "assume-mcq-17",
-        "assume-mcq-12"
+        "assume-mcq-18",
+        "assume-pdf-002",
+        "assume-mcq-05"
       ],
       "explanation": "本句的「assumed office」指「就職；上任」。",
       "sentenceIndex": 33,
@@ -1577,12 +1451,10 @@ export default {
         "assumed office"
       ],
       "optionReasons": {
-        "assume-mcq-15": "本句指「就職；上任」。",
-        "assume-mcq-14": "「接任指揮」與本句語境不同。",
-        "assume-mcq-16": "「擔任角色」與本句語境不同。",
-        "assume-mcq-13": "「接管」與本句語境不同。",
-        "assume-mcq-17": "「接手職責」與本句語境不同。",
-        "assume-mcq-12": "「承擔責任」與本句語境不同。"
+        "assume-mcq-15": "本句的「assumed office」指「就職；上任」。",
+        "assume-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "assume-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-15"
     },
@@ -1594,11 +1466,9 @@ export default {
       "masked": "She ____ after her predecessor retired.",
       "options": [
         "assume-mcq-15",
-        "assume-mcq-14",
-        "assume-mcq-16",
-        "assume-mcq-13",
-        "assume-mcq-17",
-        "assume-mcq-12"
+        "assume-mcq-18",
+        "assume-mcq-26",
+        "assume-mcq-24"
       ],
       "explanation": "本句的「assumed office」指「就職；上任」。",
       "sentenceIndex": 34,
@@ -1607,12 +1477,10 @@ export default {
         "assumed office"
       ],
       "optionReasons": {
-        "assume-mcq-15": "本句指「就職；上任」。",
-        "assume-mcq-14": "「接任指揮」與本句語境不同。",
-        "assume-mcq-16": "「擔任角色」與本句語境不同。",
-        "assume-mcq-13": "「接管」與本句語境不同。",
-        "assume-mcq-17": "「接手職責」與本句語境不同。",
-        "assume-mcq-12": "「承擔責任」與本句語境不同。"
+        "assume-mcq-15": "本句的「assumed office」指「就職；上任」。",
+        "assume-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-15"
     },
@@ -1624,11 +1492,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "assume-mcq-16",
-        "assume-mcq-15",
-        "assume-mcq-17",
-        "assume-mcq-14",
-        "assume-mcq-18",
-        "assume-mcq-13"
+        "assume-mcq-03",
+        "assume-mcq-21",
+        "assume-mcq-17"
       ],
       "explanation": "本句的「assumed the role of team leader」指「擔任角色」。",
       "sentenceIndex": 35,
@@ -1637,12 +1503,10 @@ export default {
         "assumed the role of team leader"
       ],
       "optionReasons": {
-        "assume-mcq-16": "本句指「擔任角色」。",
-        "assume-mcq-15": "「就職；上任」與本句語境不同。",
-        "assume-mcq-17": "「接手職責」與本句語境不同。",
-        "assume-mcq-14": "「接任指揮」與本句語境不同。",
-        "assume-mcq-18": "「呈現某種形式」與本句語境不同。",
-        "assume-mcq-13": "「接管」與本句語境不同。"
+        "assume-mcq-16": "本句的「assumed the role of team leader」指「擔任角色」。",
+        "assume-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-16"
     },
@@ -1654,11 +1518,9 @@ export default {
       "masked": "She gradually ____.",
       "options": [
         "assume-mcq-16",
-        "assume-mcq-15",
-        "assume-mcq-17",
-        "assume-mcq-14",
-        "assume-mcq-18",
-        "assume-mcq-13"
+        "assume-mcq-09",
+        "assume-mcq-03",
+        "assume-mcq-17"
       ],
       "explanation": "本句的「assumed a more senior position」指「擔任角色」。",
       "sentenceIndex": 36,
@@ -1667,12 +1529,10 @@ export default {
         "assumed a more senior position"
       ],
       "optionReasons": {
-        "assume-mcq-16": "本句指「擔任角色」。",
-        "assume-mcq-15": "「就職；上任」與本句語境不同。",
-        "assume-mcq-17": "「接手職責」與本句語境不同。",
-        "assume-mcq-14": "「接任指揮」與本句語境不同。",
-        "assume-mcq-18": "「呈現某種形式」與本句語境不同。",
-        "assume-mcq-13": "「接管」與本句語境不同。"
+        "assume-mcq-16": "本句的「assumed a more senior position」指「擔任角色」。",
+        "assume-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-16"
     },
@@ -1684,11 +1544,9 @@ export default {
       "masked": "The new employee will ____.",
       "options": [
         "assume-mcq-17",
-        "assume-mcq-16",
+        "assume-mcq-26",
         "assume-mcq-18",
-        "assume-mcq-15",
-        "assume-mcq-19",
-        "assume-mcq-14"
+        "assume-mcq-03"
       ],
       "explanation": "本句的「assume her duties next Monday」指「接手職責」。",
       "sentenceIndex": 37,
@@ -1697,12 +1555,10 @@ export default {
         "assume her duties next Monday"
       ],
       "optionReasons": {
-        "assume-mcq-17": "本句指「接手職責」。",
-        "assume-mcq-16": "「擔任角色」與本句語境不同。",
-        "assume-mcq-18": "「呈現某種形式」與本句語境不同。",
-        "assume-mcq-15": "「就職；上任」與本句語境不同。",
-        "assume-mcq-19": "「呈現某種語氣」與本句語境不同。",
-        "assume-mcq-14": "「接任指揮」與本句語境不同。"
+        "assume-mcq-17": "本句的「assume her duties next Monday」指「接手職責」。",
+        "assume-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-17"
     },
@@ -1714,11 +1570,9 @@ export default {
       "masked": "He ____ during the crisis.",
       "options": [
         "assume-mcq-17",
-        "assume-mcq-16",
-        "assume-mcq-18",
-        "assume-mcq-15",
-        "assume-mcq-19",
-        "assume-mcq-14"
+        "assume-mcq-05",
+        "assume-pdf-001",
+        "assume-mcq-18"
       ],
       "explanation": "本句的「assumed additional duties」指「接手職責」。",
       "sentenceIndex": 38,
@@ -1727,12 +1581,10 @@ export default {
         "assumed additional duties"
       ],
       "optionReasons": {
-        "assume-mcq-17": "本句指「接手職責」。",
-        "assume-mcq-16": "「擔任角色」與本句語境不同。",
-        "assume-mcq-18": "「呈現某種形式」與本句語境不同。",
-        "assume-mcq-15": "「就職；上任」與本句語境不同。",
-        "assume-mcq-19": "「呈現某種語氣」與本句語境不同。",
-        "assume-mcq-14": "「接任指揮」與本句語境不同。"
+        "assume-mcq-17": "本句的「assumed additional duties」指「接手職責」。",
+        "assume-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "assume-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-17"
     },
@@ -1744,11 +1596,9 @@ export default {
       "masked": "Her ____ helped restore trust.",
       "options": [
         "assume-pdf-002",
-        "assume-mcq-16",
-        "assume-mcq-18",
+        "assume-mcq-08",
         "assume-mcq-15",
-        "assume-mcq-19",
-        "assume-mcq-14"
+        "assume-pdf-001"
       ],
       "explanation": "本句的「assumption of responsibility」指「正式開始承擔、接管或接受 X」。",
       "sentenceIndex": 39,
@@ -1757,12 +1607,10 @@ export default {
         "assumption of responsibility"
       ],
       "optionReasons": {
-        "assume-pdf-002": "本句指「正式開始承擔、接管或接受 X」。",
-        "assume-mcq-16": "「擔任角色」與本句語境不同。",
-        "assume-mcq-18": "「呈現某種形式」與本句語境不同。",
-        "assume-mcq-15": "「就職；上任」與本句語境不同。",
-        "assume-mcq-19": "「呈現某種語氣」與本句語境不同。",
-        "assume-mcq-14": "「接任指揮」與本句語境不同。"
+        "assume-pdf-002": "本句的「assumption of responsibility」指「正式開始承擔、接管或接受 X」。",
+        "assume-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "assume-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-pdf-002"
     },
@@ -1774,11 +1622,9 @@ export default {
       "masked": "The ____ took place immediately.",
       "options": [
         "assume-pdf-002",
-        "assume-mcq-16",
-        "assume-mcq-18",
-        "assume-mcq-15",
-        "assume-mcq-19",
-        "assume-mcq-14"
+        "assume-mcq-04",
+        "assume-mcq-06",
+        "assume-mcq-11"
       ],
       "explanation": "本句的「assumption of control」指「正式開始承擔、接管或接受 X」。",
       "sentenceIndex": 40,
@@ -1787,12 +1633,10 @@ export default {
         "assumption of control"
       ],
       "optionReasons": {
-        "assume-pdf-002": "本句指「正式開始承擔、接管或接受 X」。",
-        "assume-mcq-16": "「擔任角色」與本句語境不同。",
-        "assume-mcq-18": "「呈現某種形式」與本句語境不同。",
-        "assume-mcq-15": "「就職；上任」與本句語境不同。",
-        "assume-mcq-19": "「呈現某種語氣」與本句語境不同。",
-        "assume-mcq-14": "「接任指揮」與本句語境不同。"
+        "assume-pdf-002": "本句的「assumption of control」指「正式開始承擔、接管或接受 X」。",
+        "assume-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-pdf-002"
     },
@@ -1804,11 +1648,9 @@ export default {
       "masked": "The discussion ____.",
       "options": [
         "assume-mcq-18",
+        "assume-mcq-07",
         "assume-mcq-17",
-        "assume-mcq-19",
-        "assume-mcq-16",
-        "assume-mcq-20",
-        "assume-mcq-15"
+        "assume-mcq-03"
       ],
       "explanation": "本句的「assumed a more serious tone」指「呈現某種形式」。",
       "sentenceIndex": 41,
@@ -1817,12 +1659,10 @@ export default {
         "assumed a more serious tone"
       ],
       "optionReasons": {
-        "assume-mcq-18": "本句指「呈現某種形式」。",
-        "assume-mcq-17": "「接手職責」與本句語境不同。",
-        "assume-mcq-19": "「呈現某種語氣」與本句語境不同。",
-        "assume-mcq-16": "「擔任角色」與本句語境不同。",
-        "assume-mcq-20": "「變得重要」與本句語境不同。",
-        "assume-mcq-15": "「就職；上任」與本句語境不同。"
+        "assume-mcq-18": "本句的「assumed a more serious tone」指「呈現某種形式」。",
+        "assume-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-18"
     },
@@ -1834,11 +1674,9 @@ export default {
       "masked": "The cloud ____.",
       "options": [
         "assume-mcq-18",
-        "assume-mcq-17",
-        "assume-mcq-19",
+        "assume-mcq-08",
         "assume-mcq-16",
-        "assume-mcq-20",
-        "assume-mcq-15"
+        "assume-mcq-21"
       ],
       "explanation": "本句的「assumed an unusual shape」指「呈現某種形式」。",
       "sentenceIndex": 42,
@@ -1847,12 +1685,10 @@ export default {
         "assumed an unusual shape"
       ],
       "optionReasons": {
-        "assume-mcq-18": "本句指「呈現某種形式」。",
-        "assume-mcq-17": "「接手職責」與本句語境不同。",
-        "assume-mcq-19": "「呈現某種語氣」與本句語境不同。",
-        "assume-mcq-16": "「擔任角色」與本句語境不同。",
-        "assume-mcq-20": "「變得重要」與本句語境不同。",
-        "assume-mcq-15": "「就職；上任」與本句語境不同。"
+        "assume-mcq-18": "本句的「assumed an unusual shape」指「呈現某種形式」。",
+        "assume-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-18"
     },
@@ -1864,11 +1700,9 @@ export default {
       "masked": "The meeting suddenly ____.",
       "options": [
         "assume-mcq-19",
-        "assume-mcq-18",
-        "assume-mcq-20",
-        "assume-mcq-17",
-        "assume-mcq-21",
-        "assume-mcq-16"
+        "assume-mcq-16",
+        "assume-mcq-13",
+        "assume-mcq-09"
       ],
       "explanation": "本句的「assumed a confrontational tone」指「呈現某種語氣」。",
       "sentenceIndex": 43,
@@ -1877,12 +1711,10 @@ export default {
         "assumed a confrontational tone"
       ],
       "optionReasons": {
-        "assume-mcq-19": "本句指「呈現某種語氣」。",
-        "assume-mcq-18": "「呈現某種形式」與本句語境不同。",
-        "assume-mcq-20": "「變得重要」與本句語境不同。",
-        "assume-mcq-17": "「接手職責」與本句語境不同。",
-        "assume-mcq-21": "「發展到某種規模」與本句語境不同。",
-        "assume-mcq-16": "「擔任角色」與本句語境不同。"
+        "assume-mcq-19": "本句的「assumed a confrontational tone」指「呈現某種語氣」。",
+        "assume-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-19"
     },
@@ -1894,11 +1726,9 @@ export default {
       "masked": "The debate ____.",
       "options": [
         "assume-mcq-19",
-        "assume-mcq-18",
-        "assume-mcq-20",
-        "assume-mcq-17",
-        "assume-mcq-21",
-        "assume-mcq-16"
+        "assume-mcq-25",
+        "assume-mcq-09",
+        "assume-mcq-23"
       ],
       "explanation": "本句的「assumed a more personal character」指「呈現某種語氣」。",
       "sentenceIndex": 44,
@@ -1907,12 +1737,10 @@ export default {
         "assumed a more personal character"
       ],
       "optionReasons": {
-        "assume-mcq-19": "本句指「呈現某種語氣」。",
-        "assume-mcq-18": "「呈現某種形式」與本句語境不同。",
-        "assume-mcq-20": "「變得重要」與本句語境不同。",
-        "assume-mcq-17": "「接手職責」與本句語境不同。",
-        "assume-mcq-21": "「發展到某種規模」與本句語境不同。",
-        "assume-mcq-16": "「擔任角色」與本句語境不同。"
+        "assume-mcq-19": "本句的「assumed a more personal character」指「呈現某種語氣」。",
+        "assume-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-19"
     },
@@ -1924,11 +1752,9 @@ export default {
       "masked": "Communication ____ in large teams.",
       "options": [
         "assume-mcq-20",
-        "assume-mcq-19",
-        "assume-mcq-21",
-        "assume-mcq-18",
-        "assume-mcq-22",
-        "assume-mcq-17"
+        "assume-pdf-001",
+        "assume-mcq-14",
+        "assume-mcq-09"
       ],
       "explanation": "本句的「assumes greater importance」指「變得重要」。",
       "sentenceIndex": 45,
@@ -1937,12 +1763,10 @@ export default {
         "assumes greater importance"
       ],
       "optionReasons": {
-        "assume-mcq-20": "本句指「變得重要」。",
-        "assume-mcq-19": "「呈現某種語氣」與本句語境不同。",
-        "assume-mcq-21": "「發展到某種規模」與本句語境不同。",
-        "assume-mcq-18": "「呈現某種形式」與本句語境不同。",
-        "assume-mcq-22": "「採用假名」與本句語境不同。",
-        "assume-mcq-17": "「接手職責」與本句語境不同。"
+        "assume-mcq-20": "本句的「assumes greater importance」指「變得重要」。",
+        "assume-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-20"
     },
@@ -1954,10 +1778,8 @@ export default {
       "masked": "The issue ____ after the report was published.",
       "options": [
         "assume-mcq-20",
-        "assume-mcq-19",
-        "assume-mcq-21",
-        "assume-mcq-18",
-        "assume-mcq-22",
+        "assume-mcq-05",
+        "assume-pdf-002",
         "assume-mcq-17"
       ],
       "explanation": "本句的「assumed new significance」指「變得重要」。",
@@ -1967,12 +1789,10 @@ export default {
         "assumed new significance"
       ],
       "optionReasons": {
-        "assume-mcq-20": "本句指「變得重要」。",
-        "assume-mcq-19": "「呈現某種語氣」與本句語境不同。",
-        "assume-mcq-21": "「發展到某種規模」與本句語境不同。",
-        "assume-mcq-18": "「呈現某種形式」與本句語境不同。",
-        "assume-mcq-22": "「採用假名」與本句語境不同。",
-        "assume-mcq-17": "「接手職責」與本句語境不同。"
+        "assume-mcq-20": "本句的「assumed new significance」指「變得重要」。",
+        "assume-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "assume-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-20"
     },
@@ -1984,11 +1804,9 @@ export default {
       "masked": "The disagreement ____.",
       "options": [
         "assume-mcq-21",
-        "assume-mcq-20",
-        "assume-mcq-22",
-        "assume-mcq-19",
-        "assume-mcq-23",
-        "assume-mcq-18"
+        "assume-mcq-26",
+        "assume-mcq-09",
+        "assume-mcq-14"
       ],
       "explanation": "本句的「assumed serious proportions」指「發展到某種規模」。",
       "sentenceIndex": 47,
@@ -1997,12 +1815,10 @@ export default {
         "assumed serious proportions"
       ],
       "optionReasons": {
-        "assume-mcq-21": "本句指「發展到某種規模」。",
-        "assume-mcq-20": "「變得重要」與本句語境不同。",
-        "assume-mcq-22": "「採用假名」與本句語境不同。",
-        "assume-mcq-19": "「呈現某種語氣」與本句語境不同。",
-        "assume-mcq-23": "「冒用身份」與本句語境不同。",
-        "assume-mcq-18": "「呈現某種形式」與本句語境不同。"
+        "assume-mcq-21": "本句的「assumed serious proportions」指「發展到某種規模」。",
+        "assume-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-21"
     },
@@ -2014,11 +1830,9 @@ export default {
       "masked": "The problem quickly ____.",
       "options": [
         "assume-mcq-21",
-        "assume-mcq-20",
-        "assume-mcq-22",
-        "assume-mcq-19",
         "assume-mcq-23",
-        "assume-mcq-18"
+        "assume-mcq-09",
+        "assume-mcq-26"
       ],
       "explanation": "本句的「assumed national proportions」指「發展到某種規模」。",
       "sentenceIndex": 48,
@@ -2027,12 +1841,10 @@ export default {
         "assumed national proportions"
       ],
       "optionReasons": {
-        "assume-mcq-21": "本句指「發展到某種規模」。",
-        "assume-mcq-20": "「變得重要」與本句語境不同。",
-        "assume-mcq-22": "「採用假名」與本句語境不同。",
-        "assume-mcq-19": "「呈現某種語氣」與本句語境不同。",
-        "assume-mcq-23": "「冒用身份」與本句語境不同。",
-        "assume-mcq-18": "「呈現某種形式」與本句語境不同。"
+        "assume-mcq-21": "本句的「assumed national proportions」指「發展到某種規模」。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-21"
     },
@@ -2044,11 +1856,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "assume-mcq-23",
-        "assume-mcq-22",
-        "assume-mcq-24",
-        "assume-mcq-21",
-        "assume-mcq-25",
-        "assume-mcq-20"
+        "assume-mcq-07",
+        "assume-pdf-001",
+        "assume-mcq-03"
       ],
       "explanation": "本句的「assumed a false identity」指「冒用身份」。",
       "sentenceIndex": 49,
@@ -2057,12 +1867,10 @@ export default {
         "assumed a false identity"
       ],
       "optionReasons": {
-        "assume-mcq-23": "本句指「冒用身份」。",
-        "assume-mcq-22": "「採用假名」與本句語境不同。",
-        "assume-mcq-24": "「化名；假名」與本句語境不同。",
-        "assume-mcq-21": "「發展到某種規模」與本句語境不同。",
-        "assume-mcq-25": "「承接債務／責任」與本句語境不同。",
-        "assume-mcq-20": "「變得重要」與本句語境不同。"
+        "assume-mcq-23": "本句的「assumed a false identity」指「冒用身份」。",
+        "assume-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "assume-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-23"
     },
@@ -2074,11 +1882,9 @@ export default {
       "masked": "The writer ____.",
       "options": [
         "assume-mcq-23",
-        "assume-mcq-22",
-        "assume-mcq-24",
-        "assume-mcq-21",
-        "assume-mcq-25",
-        "assume-mcq-20"
+        "assume-mcq-04",
+        "assume-mcq-16",
+        "assume-mcq-17"
       ],
       "explanation": "本句的「assumed a different name」指「冒用身份」。",
       "sentenceIndex": 50,
@@ -2087,12 +1893,10 @@ export default {
         "assumed a different name"
       ],
       "optionReasons": {
-        "assume-mcq-23": "本句指「冒用身份」。",
-        "assume-mcq-22": "「採用假名」與本句語境不同。",
-        "assume-mcq-24": "「化名；假名」與本句語境不同。",
-        "assume-mcq-21": "「發展到某種規模」與本句語境不同。",
-        "assume-mcq-25": "「承接債務／責任」與本句語境不同。",
-        "assume-mcq-20": "「變得重要」與本句語境不同。"
+        "assume-mcq-23": "本句的「assumed a different name」指「冒用身份」。",
+        "assume-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-23"
     },
@@ -2104,11 +1908,9 @@ export default {
       "masked": "He travelled under an ____.",
       "options": [
         "assume-mcq-24",
-        "assume-mcq-23",
-        "assume-mcq-25",
-        "assume-mcq-22",
-        "assume-mcq-26",
-        "assume-mcq-21"
+        "assume-mcq-06",
+        "assume-mcq-12",
+        "assume-mcq-18"
       ],
       "explanation": "本句的「assumed name」指「化名；假名」。",
       "sentenceIndex": 51,
@@ -2117,12 +1919,10 @@ export default {
         "assumed name"
       ],
       "optionReasons": {
-        "assume-mcq-24": "本句指「化名；假名」。",
-        "assume-mcq-23": "「冒用身份」與本句語境不同。",
-        "assume-mcq-25": "「承接債務／責任」與本句語境不同。",
-        "assume-mcq-22": "「採用假名」與本句語境不同。",
-        "assume-mcq-26": "「承擔風險」與本句語境不同。",
-        "assume-mcq-21": "「發展到某種規模」與本句語境不同。"
+        "assume-mcq-24": "本句的「assumed name」指「化名；假名」。",
+        "assume-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-24"
     },
@@ -2134,11 +1934,9 @@ export default {
       "masked": "The author published the work under an ____.",
       "options": [
         "assume-mcq-24",
-        "assume-mcq-23",
-        "assume-mcq-25",
-        "assume-mcq-22",
-        "assume-mcq-26",
-        "assume-mcq-21"
+        "assume-pdf-002",
+        "assume-mcq-14",
+        "assume-mcq-19"
       ],
       "explanation": "本句的「assumed name」指「化名；假名」。",
       "sentenceIndex": 52,
@@ -2147,12 +1945,10 @@ export default {
         "assumed name"
       ],
       "optionReasons": {
-        "assume-mcq-24": "本句指「化名；假名」。",
-        "assume-mcq-23": "「冒用身份」與本句語境不同。",
-        "assume-mcq-25": "「承接債務／責任」與本句語境不同。",
-        "assume-mcq-22": "「採用假名」與本句語境不同。",
-        "assume-mcq-26": "「承擔風險」與本句語境不同。",
-        "assume-mcq-21": "「發展到某種規模」與本句語境不同。"
+        "assume-mcq-24": "本句的「assumed name」指「化名；假名」。",
+        "assume-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-24"
     },
@@ -2165,10 +1961,8 @@ export default {
       "options": [
         "assume-mcq-25",
         "assume-mcq-24",
-        "assume-mcq-26",
-        "assume-mcq-23",
-        "assume-mcq-22",
-        "assume-mcq-21"
+        "assume-mcq-21",
+        "assume-mcq-18"
       ],
       "explanation": "本句的「assume the company's debts」指「承接債務／責任」。",
       "sentenceIndex": 55,
@@ -2177,12 +1971,10 @@ export default {
         "assume the company's debts"
       ],
       "optionReasons": {
-        "assume-mcq-25": "本句指「承接債務／責任」。",
-        "assume-mcq-24": "「化名；假名」與本句語境不同。",
-        "assume-mcq-26": "「承擔風險」與本句語境不同。",
-        "assume-mcq-23": "「冒用身份」與本句語境不同。",
-        "assume-mcq-22": "「採用假名」與本句語境不同。",
-        "assume-mcq-21": "「發展到某種規模」與本句語境不同。"
+        "assume-mcq-25": "本句的「assume the company's debts」指「承接債務／責任」。",
+        "assume-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-25"
     },
@@ -2194,11 +1986,9 @@ export default {
       "masked": "The parent company ____.",
       "options": [
         "assume-mcq-25",
-        "assume-mcq-24",
-        "assume-mcq-26",
-        "assume-mcq-23",
-        "assume-mcq-22",
-        "assume-mcq-21"
+        "assume-mcq-11",
+        "assume-mcq-20",
+        "assume-mcq-19"
       ],
       "explanation": "本句的「assumed liability for the losses」指「承接債務／責任」。",
       "sentenceIndex": 56,
@@ -2207,12 +1997,10 @@ export default {
         "assumed liability for the losses"
       ],
       "optionReasons": {
-        "assume-mcq-25": "本句指「承接債務／責任」。",
-        "assume-mcq-24": "「化名；假名」與本句語境不同。",
-        "assume-mcq-26": "「承擔風險」與本句語境不同。",
-        "assume-mcq-23": "「冒用身份」與本句語境不同。",
-        "assume-mcq-22": "「採用假名」與本句語境不同。",
-        "assume-mcq-21": "「發展到某種規模」與本句語境不同。"
+        "assume-mcq-25": "本句的「assumed liability for the losses」指「承接債務／責任」。",
+        "assume-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-25"
     },
@@ -2224,11 +2012,9 @@ export default {
       "masked": "The agreement includes the ____.",
       "options": [
         "assume-mcq-25",
-        "assume-mcq-24",
-        "assume-mcq-26",
-        "assume-mcq-23",
-        "assume-mcq-22",
-        "assume-mcq-21"
+        "assume-pdf-001",
+        "assume-mcq-10",
+        "assume-mcq-23"
       ],
       "explanation": "本句的「assumption of certain liabilities」指「承接債務／責任」。",
       "sentenceIndex": 57,
@@ -2237,12 +2023,10 @@ export default {
         "assumption of certain liabilities"
       ],
       "optionReasons": {
-        "assume-mcq-25": "本句指「承接債務／責任」。",
-        "assume-mcq-24": "「化名；假名」與本句語境不同。",
-        "assume-mcq-26": "「承擔風險」與本句語境不同。",
-        "assume-mcq-23": "「冒用身份」與本句語境不同。",
-        "assume-mcq-22": "「採用假名」與本句語境不同。",
-        "assume-mcq-21": "「發展到某種規模」與本句語境不同。"
+        "assume-mcq-25": "本句的「assumption of certain liabilities」指「承接債務／責任」。",
+        "assume-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-25"
     },
@@ -2254,11 +2038,9 @@ export default {
       "masked": "The acquisition involved the ____.",
       "options": [
         "assume-mcq-25",
-        "assume-mcq-24",
-        "assume-mcq-26",
-        "assume-mcq-23",
-        "assume-mcq-22",
-        "assume-mcq-21"
+        "assume-mcq-10",
+        "assume-mcq-03",
+        "assume-mcq-23"
       ],
       "explanation": "本句的「assumption of debt」指「承接債務／責任」。",
       "sentenceIndex": 58,
@@ -2267,12 +2049,10 @@ export default {
         "assumption of debt"
       ],
       "optionReasons": {
-        "assume-mcq-25": "本句指「承接債務／責任」。",
-        "assume-mcq-24": "「化名；假名」與本句語境不同。",
-        "assume-mcq-26": "「承擔風險」與本句語境不同。",
-        "assume-mcq-23": "「冒用身份」與本句語境不同。",
-        "assume-mcq-22": "「採用假名」與本句語境不同。",
-        "assume-mcq-21": "「發展到某種規模」與本句語境不同。"
+        "assume-mcq-25": "本句的「assumption of debt」指「承接債務／責任」。",
+        "assume-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-25"
     },
@@ -2284,11 +2064,9 @@ export default {
       "masked": "The contract contains a clause concerning ____.",
       "options": [
         "assume-mcq-26",
-        "assume-mcq-25",
-        "assume-mcq-24",
-        "assume-mcq-23",
-        "assume-mcq-22",
-        "assume-mcq-21"
+        "assume-mcq-08",
+        "assume-mcq-03",
+        "assume-pdf-001"
       ],
       "explanation": "本句的「assumption of risk」指「承擔風險」。",
       "sentenceIndex": 59,
@@ -2297,12 +2075,10 @@ export default {
         "assumption of risk"
       ],
       "optionReasons": {
-        "assume-mcq-26": "本句指「承擔風險」。",
-        "assume-mcq-25": "「承接債務／責任」與本句語境不同。",
-        "assume-mcq-24": "「化名；假名」與本句語境不同。",
-        "assume-mcq-23": "「冒用身份」與本句語境不同。",
-        "assume-mcq-22": "「採用假名」與本句語境不同。",
-        "assume-mcq-21": "「發展到某種規模」與本句語境不同。"
+        "assume-mcq-26": "本句的「assumption of risk」指「承擔風險」。",
+        "assume-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assume-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-26"
     },
@@ -2314,11 +2090,9 @@ export default {
       "masked": "____ may be relevant when someone knowingly accepts a known danger.",
       "options": [
         "assume-mcq-26",
-        "assume-mcq-25",
-        "assume-mcq-24",
-        "assume-mcq-23",
-        "assume-mcq-22",
-        "assume-mcq-21"
+        "assume-mcq-13",
+        "assume-mcq-03",
+        "assume-mcq-23"
       ],
       "explanation": "本句的「Assumption of risk」指「承擔風險」。",
       "sentenceIndex": 60,
@@ -2327,12 +2101,10 @@ export default {
         "Assumption of risk"
       ],
       "optionReasons": {
-        "assume-mcq-26": "本句指「承擔風險」。",
-        "assume-mcq-25": "「承接債務／責任」與本句語境不同。",
-        "assume-mcq-24": "「化名；假名」與本句語境不同。",
-        "assume-mcq-23": "「冒用身份」與本句語境不同。",
-        "assume-mcq-22": "「採用假名」與本句語境不同。",
-        "assume-mcq-21": "「發展到某種規模」與本句語境不同。"
+        "assume-mcq-26": "本句的「Assumption of risk」指「承擔風險」。",
+        "assume-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assume-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assume-mcq-26"
     }
@@ -2344,5 +2116,7 @@ export default {
     "sha256": "35e74193ea2f0e60443b2329008c1baa601f8008e5556e8ad8de46d3dfbb0d5c",
     "pages": 25
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

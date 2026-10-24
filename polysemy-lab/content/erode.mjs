@@ -364,11 +364,8 @@ export default {
       "masked": "The river slowly ____ the riverbank.",
       "options": [
         "erode-mcq-01",
-        "erode-mcq-02",
-        "erode-mcq-03",
-        "erode-mcq-04",
-        "erode-mcq-05",
-        "erode-mcq-06"
+        "erode-mcq-13",
+        "erode-mcq-16"
       ],
       "explanation": "本句的「eroded」指「水、風、冰等逐漸磨走並帶走岩石／土壤；侵蝕」。",
       "sentenceIndex": 0,
@@ -377,12 +374,9 @@ export default {
         "eroded"
       ],
       "optionReasons": {
-        "erode-mcq-01": "本句指「水、風、冰等逐漸磨走並帶走岩石／土壤；侵蝕」。",
-        "erode-mcq-02": "「因流體、粒子、摩擦等逐漸磨損表面」與本句語境不同。",
-        "erode-mcq-03": "「長期逐步削弱信任、價值、標準、支持等」與本句語境不同。",
-        "erode-mcq-04": "「逐步降低價值、購買力、利潤、利潤率等」與本句語境不同。",
-        "erode-mcq-05": "「使表面組織／牙體物質出現逐步缺損」與本句語境不同。",
-        "erode-mcq-06": "「表層土壤被水／風等移走的土壤侵蝕」與本句語境不同。"
+        "erode-mcq-01": "本句的「eroded」指「水、風、冰等逐漸磨走並帶走岩石／土壤；侵蝕」。",
+        "erode-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erode-mcq-01"
     },
@@ -394,11 +388,8 @@ export default {
       "masked": "Wind and rain have ____ the rock.",
       "options": [
         "erode-mcq-01",
-        "erode-mcq-02",
-        "erode-mcq-03",
-        "erode-mcq-04",
-        "erode-mcq-05",
-        "erode-mcq-06"
+        "erode-mcq-13",
+        "erode-mcq-16"
       ],
       "explanation": "本句的「eroded」指「水、風、冰等逐漸磨走並帶走岩石／土壤；侵蝕」。",
       "sentenceIndex": 1,
@@ -407,12 +398,9 @@ export default {
         "eroded"
       ],
       "optionReasons": {
-        "erode-mcq-01": "本句指「水、風、冰等逐漸磨走並帶走岩石／土壤；侵蝕」。",
-        "erode-mcq-02": "「因流體、粒子、摩擦等逐漸磨損表面」與本句語境不同。",
-        "erode-mcq-03": "「長期逐步削弱信任、價值、標準、支持等」與本句語境不同。",
-        "erode-mcq-04": "「逐步降低價值、購買力、利潤、利潤率等」與本句語境不同。",
-        "erode-mcq-05": "「使表面組織／牙體物質出現逐步缺損」與本句語境不同。",
-        "erode-mcq-06": "「表層土壤被水／風等移走的土壤侵蝕」與本句語境不同。"
+        "erode-mcq-01": "本句的「eroded」指「水、風、冰等逐漸磨走並帶走岩石／土壤；侵蝕」。",
+        "erode-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erode-mcq-01"
     },
@@ -424,11 +412,8 @@ export default {
       "masked": "The cliffs are being ____ by the sea.",
       "options": [
         "erode-mcq-01",
-        "erode-mcq-02",
-        "erode-mcq-03",
-        "erode-mcq-04",
-        "erode-mcq-05",
-        "erode-mcq-06"
+        "erode-mcq-13",
+        "erode-mcq-16"
       ],
       "explanation": "本句的「eroded」指「水、風、冰等逐漸磨走並帶走岩石／土壤；侵蝕」。",
       "sentenceIndex": 2,
@@ -437,12 +422,9 @@ export default {
         "eroded"
       ],
       "optionReasons": {
-        "erode-mcq-01": "本句指「水、風、冰等逐漸磨走並帶走岩石／土壤；侵蝕」。",
-        "erode-mcq-02": "「因流體、粒子、摩擦等逐漸磨損表面」與本句語境不同。",
-        "erode-mcq-03": "「長期逐步削弱信任、價值、標準、支持等」與本句語境不同。",
-        "erode-mcq-04": "「逐步降低價值、購買力、利潤、利潤率等」與本句語境不同。",
-        "erode-mcq-05": "「使表面組織／牙體物質出現逐步缺損」與本句語境不同。",
-        "erode-mcq-06": "「表層土壤被水／風等移走的土壤侵蝕」與本句語境不同。"
+        "erode-mcq-01": "本句的「eroded」指「水、風、冰等逐漸磨走並帶走岩石／土壤；侵蝕」。",
+        "erode-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erode-mcq-01"
     },
@@ -454,11 +436,9 @@ export default {
       "masked": "Vegetation helps reduce soil ____.",
       "options": [
         "erode-mcq-06",
-        "erode-mcq-05",
-        "erode-mcq-07",
-        "erode-mcq-04",
-        "erode-mcq-08",
-        "erode-mcq-03"
+        "erode-pdf-001",
+        "erode-mcq-13",
+        "erode-mcq-16"
       ],
       "explanation": "本句的「erosion」指「表層土壤被水／風等移走的土壤侵蝕」。",
       "sentenceIndex": 6,
@@ -467,12 +447,10 @@ export default {
         "erosion"
       ],
       "optionReasons": {
-        "erode-mcq-06": "本句指「表層土壤被水／風等移走的土壤侵蝕」。",
-        "erode-mcq-05": "「使表面組織／牙體物質出現逐步缺損」與本句語境不同。",
-        "erode-mcq-07": "「海浪、水流等造成的岸線／海岸侵蝕」與本句語境不同。",
-        "erode-mcq-04": "「逐步降低價值、購買力、利潤、利潤率等」與本句語境不同。",
-        "erode-mcq-08": "「粒子、液滴或流體造成的機械磨蝕」與本句語境不同。",
-        "erode-mcq-03": "「長期逐步削弱信任、價值、標準、支持等」與本句語境不同。"
+        "erode-mcq-06": "本句的「erosion」指「表層土壤被水／風等移走的土壤侵蝕」。",
+        "erode-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erode-mcq-06"
     },
@@ -484,11 +462,9 @@ export default {
       "masked": "Fast-moving particles can ____ the surface of the pipe.",
       "options": [
         "erode-mcq-02",
-        "erode-mcq-01",
-        "erode-mcq-03",
-        "erode-mcq-04",
-        "erode-mcq-05",
-        "erode-mcq-06"
+        "erode-mcq-23",
+        "erode-mcq-13",
+        "erode-mcq-16"
       ],
       "explanation": "本句的「erode」指「因流體、粒子、摩擦等逐漸磨損表面」。",
       "sentenceIndex": 9,
@@ -497,12 +473,10 @@ export default {
         "erode"
       ],
       "optionReasons": {
-        "erode-mcq-02": "本句指「因流體、粒子、摩擦等逐漸磨損表面」。",
-        "erode-mcq-01": "「水、風、冰等逐漸磨走並帶走岩石／土壤；侵蝕」與本句語境不同。",
-        "erode-mcq-03": "「長期逐步削弱信任、價值、標準、支持等」與本句語境不同。",
-        "erode-mcq-04": "「逐步降低價值、購買力、利潤、利潤率等」與本句語境不同。",
-        "erode-mcq-05": "「使表面組織／牙體物質出現逐步缺損」與本句語境不同。",
-        "erode-mcq-06": "「表層土壤被水／風等移走的土壤侵蝕」與本句語境不同。"
+        "erode-mcq-02": "本句的「erode」指「因流體、粒子、摩擦等逐漸磨損表面」。",
+        "erode-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erode-mcq-02"
     },
@@ -514,11 +488,9 @@ export default {
       "masked": "Such behaviour can ____ everyday courtesy.",
       "options": [
         "erode-pdf-001",
-        "erode-mcq-02",
-        "erode-mcq-04",
-        "erode-mcq-01",
-        "erode-mcq-05",
-        "erode-mcq-06"
+        "erode-mcq-23",
+        "erode-mcq-16",
+        "erode-mcq-13"
       ],
       "explanation": "本句的「erode」指「不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱」。",
       "sentenceIndex": 10,
@@ -527,12 +499,10 @@ export default {
         "erode"
       ],
       "optionReasons": {
-        "erode-pdf-001": "本句指「不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱」。",
-        "erode-mcq-02": "「因流體、粒子、摩擦等逐漸磨損表面」與本句語境不同。",
-        "erode-mcq-04": "「逐步降低價值、購買力、利潤、利潤率等」與本句語境不同。",
-        "erode-mcq-01": "「水、風、冰等逐漸磨走並帶走岩石／土壤；侵蝕」與本句語境不同。",
-        "erode-mcq-05": "「使表面組織／牙體物質出現逐步缺損」與本句語境不同。",
-        "erode-mcq-06": "「表層土壤被水／風等移走的土壤侵蝕」與本句語境不同。"
+        "erode-pdf-001": "本句的「erode」指「不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱」。",
+        "erode-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erode-pdf-001"
     },
@@ -544,11 +514,9 @@ export default {
       "masked": "Repeated dishonesty can ____ trust.",
       "options": [
         "erode-pdf-001",
-        "erode-mcq-02",
-        "erode-mcq-04",
-        "erode-mcq-01",
-        "erode-mcq-05",
-        "erode-mcq-06"
+        "erode-mcq-23",
+        "erode-mcq-16",
+        "erode-mcq-13"
       ],
       "explanation": "本句的「erode」指「不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱」。",
       "sentenceIndex": 11,
@@ -557,12 +525,10 @@ export default {
         "erode"
       ],
       "optionReasons": {
-        "erode-pdf-001": "本句指「不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱」。",
-        "erode-mcq-02": "「因流體、粒子、摩擦等逐漸磨損表面」與本句語境不同。",
-        "erode-mcq-04": "「逐步降低價值、購買力、利潤、利潤率等」與本句語境不同。",
-        "erode-mcq-01": "「水、風、冰等逐漸磨走並帶走岩石／土壤；侵蝕」與本句語境不同。",
-        "erode-mcq-05": "「使表面組織／牙體物質出現逐步缺損」與本句語境不同。",
-        "erode-mcq-06": "「表層土壤被水／風等移走的土壤侵蝕」與本句語境不同。"
+        "erode-pdf-001": "本句的「erode」指「不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱」。",
+        "erode-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erode-pdf-001"
     },
@@ -574,11 +540,9 @@ export default {
       "masked": "Poor communication gradually ____ confidence in the project.",
       "options": [
         "erode-pdf-001",
-        "erode-mcq-02",
-        "erode-mcq-04",
-        "erode-mcq-01",
-        "erode-mcq-05",
-        "erode-mcq-06"
+        "erode-mcq-16",
+        "erode-mcq-23",
+        "erode-mcq-13"
       ],
       "explanation": "本句的「eroded」指「不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱」。",
       "sentenceIndex": 12,
@@ -587,12 +551,10 @@ export default {
         "eroded"
       ],
       "optionReasons": {
-        "erode-pdf-001": "本句指「不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱」。",
-        "erode-mcq-02": "「因流體、粒子、摩擦等逐漸磨損表面」與本句語境不同。",
-        "erode-mcq-04": "「逐步降低價值、購買力、利潤、利潤率等」與本句語境不同。",
-        "erode-mcq-01": "「水、風、冰等逐漸磨走並帶走岩石／土壤；侵蝕」與本句語境不同。",
-        "erode-mcq-05": "「使表面組織／牙體物質出現逐步缺損」與本句語境不同。",
-        "erode-mcq-06": "「表層土壤被水／風等移走的土壤侵蝕」與本句語境不同。"
+        "erode-pdf-001": "本句的「eroded」指「不是突然摧毀，而是透過長期、重複的小幅損害令某事逐漸變弱」。",
+        "erode-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erode-pdf-001"
     },
@@ -604,11 +566,9 @@ export default {
       "masked": "Rising costs caused severe margin ____.",
       "options": [
         "erode-mcq-13",
-        "erode-mcq-12",
-        "erode-mcq-14",
-        "erode-mcq-11",
-        "erode-mcq-15",
-        "erode-mcq-10"
+        "erode-mcq-16",
+        "erode-mcq-23",
+        "erode-pdf-001"
       ],
       "explanation": "本句的「erosion」指「利潤率逐步下降／被壓縮」。",
       "sentenceIndex": 21,
@@ -617,12 +577,10 @@ export default {
         "erosion"
       ],
       "optionReasons": {
-        "erode-mcq-13": "本句指「利潤率逐步下降／被壓縮」。",
-        "erode-mcq-12": "「商品／服務價格逐漸下降」與本句語境不同。",
-        "erode-mcq-14": "「可課稅基礎逐步縮小；稅基侵蝕」與本句語境不同。",
-        "erode-mcq-11": "「信任逐步被削弱」與本句語境不同。",
-        "erode-mcq-15": "「表層上皮組織缺損／糜爛」與本句語境不同。",
-        "erode-mcq-10": "「機械沖蝕與化學／電化學腐蝕共同造成的損害」與本句語境不同。"
+        "erode-mcq-13": "本句的「erosion」指「利潤率逐步下降／被壓縮」。",
+        "erode-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "erode-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erode-mcq-13"
     },
@@ -634,11 +592,9 @@ export default {
       "masked": "Frequent exposure to acidic drinks can contribute to dental ____.",
       "options": [
         "erode-mcq-16",
-        "erode-mcq-15",
-        "erode-mcq-17",
-        "erode-mcq-14",
-        "erode-mcq-18",
-        "erode-mcq-13"
+        "erode-pdf-001",
+        "erode-mcq-13",
+        "erode-mcq-23"
       ],
       "explanation": "本句的「erosion」指「非細菌性酸等造成的牙體物質化學流失／酸蝕」。",
       "sentenceIndex": 23,
@@ -647,12 +603,10 @@ export default {
         "erosion"
       ],
       "optionReasons": {
-        "erode-mcq-16": "本句指「非細菌性酸等造成的牙體物質化學流失／酸蝕」。",
-        "erode-mcq-15": "「表層上皮組織缺損／糜爛」與本句語境不同。",
-        "erode-mcq-17": "「局部骨質被破壞／侵蝕」與本句語境不同。",
-        "erode-mcq-14": "「可課稅基礎逐步縮小；稅基侵蝕」與本句語境不同。",
-        "erode-mcq-18": "「影像處理中使前景區域縮小的形態學侵蝕運算」與本句語境不同。",
-        "erode-mcq-13": "「利潤率逐步下降／被壓縮」與本句語境不同。"
+        "erode-mcq-16": "本句的「erosion」指「非細菌性酸等造成的牙體物質化學流失／酸蝕」。",
+        "erode-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erode-mcq-16"
     },
@@ -664,11 +618,7 @@ export default {
       "masked": "Strong currents have an ____ effect on the riverbank.",
       "options": [
         "erode-mcq-20",
-        "erode-mcq-19",
-        "erode-mcq-21",
-        "erode-mcq-18",
-        "erode-mcq-22",
-        "erode-mcq-17"
+        "erode-mcq-02"
       ],
       "explanation": "本句的「erosive」指「能造成侵蝕／逐步損害的」。",
       "sentenceIndex": 25,
@@ -677,12 +627,8 @@ export default {
         "erosive"
       ],
       "optionReasons": {
-        "erode-mcq-20": "本句指「能造成侵蝕／逐步損害的」。",
-        "erode-mcq-19": "「軟件實作逐漸偏離原設計架構的架構侵蝕」與本句語境不同。",
-        "erode-mcq-21": "「與侵蝕過程有關或由侵蝕形成的」與本句語境不同。",
-        "erode-mcq-18": "「影像處理中使前景區域縮小的形態學侵蝕運算」與本句語境不同。",
-        "erode-mcq-22": "「容易／可以被侵蝕的」與本句語境不同。",
-        "erode-mcq-17": "「局部骨質被破壞／侵蝕」與本句語境不同。"
+        "erode-mcq-20": "本句的「erosive」指「能造成侵蝕／逐步損害的」。",
+        "erode-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erode-mcq-20"
     },
@@ -694,11 +640,9 @@ export default {
       "masked": "Loose soil is highly ____.",
       "options": [
         "erode-mcq-22",
-        "erode-mcq-21",
-        "erode-mcq-23",
-        "erode-mcq-20",
-        "erode-mcq-24",
-        "erode-mcq-19"
+        "erode-pdf-001",
+        "erode-mcq-13",
+        "erode-mcq-16"
       ],
       "explanation": "本句的「erodible」指「容易／可以被侵蝕的」。",
       "sentenceIndex": 26,
@@ -707,12 +651,10 @@ export default {
         "erodible"
       ],
       "optionReasons": {
-        "erode-mcq-22": "本句指「容易／可以被侵蝕的」。",
-        "erode-mcq-21": "「與侵蝕過程有關或由侵蝕形成的」與本句語境不同。",
-        "erode-mcq-23": "「材料／土壤本身被侵蝕的容易程度」與本句語境不同。",
-        "erode-mcq-20": "「能造成侵蝕／逐步損害的」與本句語境不同。",
-        "erode-mcq-24": "「雨、水流等侵蝕作用來源造成侵蝕的能力」與本句語境不同。",
-        "erode-mcq-19": "「軟件實作逐漸偏離原設計架構的架構侵蝕」與本句語境不同。"
+        "erode-mcq-22": "本句的「erodible」指「容易／可以被侵蝕的」。",
+        "erode-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erode-mcq-22"
     },
@@ -724,11 +666,9 @@ export default {
       "masked": "Soil texture strongly affects ____.",
       "options": [
         "erode-mcq-23",
-        "erode-mcq-22",
-        "erode-mcq-24",
-        "erode-mcq-21",
-        "erode-mcq-20",
-        "erode-mcq-19"
+        "erode-pdf-001",
+        "erode-mcq-13",
+        "erode-mcq-16"
       ],
       "explanation": "本句的「erodibility」指「材料／土壤本身被侵蝕的容易程度」。",
       "sentenceIndex": 27,
@@ -737,12 +677,10 @@ export default {
         "erodibility"
       ],
       "optionReasons": {
-        "erode-mcq-23": "本句指「材料／土壤本身被侵蝕的容易程度」。",
-        "erode-mcq-22": "「容易／可以被侵蝕的」與本句語境不同。",
-        "erode-mcq-24": "「雨、水流等侵蝕作用來源造成侵蝕的能力」與本句語境不同。",
-        "erode-mcq-21": "「與侵蝕過程有關或由侵蝕形成的」與本句語境不同。",
-        "erode-mcq-20": "「能造成侵蝕／逐步損害的」與本句語境不同。",
-        "erode-mcq-19": "「軟件實作逐漸偏離原設計架構的架構侵蝕」與本句語境不同。"
+        "erode-mcq-23": "本句的「erodibility」指「材料／土壤本身被侵蝕的容易程度」。",
+        "erode-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "erode-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erode-mcq-23"
     }
@@ -754,5 +692,7 @@ export default {
     "sha256": "778d0af584580f6032e478f7c5663a9ea7b5a65b60749fcfa516d212990364d7",
     "pages": 32
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -1670,11 +1670,9 @@ export default {
       "masked": "Students should ____ the incident to a teacher.",
       "options": [
         "report-mcq-01",
-        "report-mcq-02",
-        "report-mcq-03",
-        "report-mcq-04",
-        "report-mcq-05",
-        "report-mcq-06"
+        "report-mcq-61",
+        "report-mcq-78",
+        "report-mcq-75"
       ],
       "explanation": "本句的「report」指「把某宗事件正式告知老師、警方、機構等負責人士；通報／舉報」。",
       "sentenceIndex": 0,
@@ -1683,12 +1681,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-01": "本句指「把某宗事件正式告知老師、警方、機構等負責人士；通報／舉報」。",
-        "report-mcq-02": "「向某人／機構正式報告某事」與本句語境不同。",
-        "report-mcq-03": "「向有關人士舉報某人的不當行為」與本句語境不同。",
-        "report-mcq-04": "「向某個權力／管理機構舉報某人」與本句語境不同。",
-        "report-mcq-05": "「因某項違規／不當行為而舉報某人」與本句語境不同。",
-        "report-mcq-06": "「向警方正式報案」與本句語境不同。"
+        "report-mcq-01": "本句的「report」指「把某宗事件正式告知老師、警方、機構等負責人士；通報／舉報」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-01"
     },
@@ -1700,11 +1696,9 @@ export default {
       "masked": "She decided to ____ the bullying.",
       "options": [
         "report-mcq-01",
-        "report-mcq-02",
-        "report-mcq-03",
-        "report-mcq-04",
-        "report-mcq-05",
-        "report-mcq-06"
+        "report-mcq-61",
+        "report-mcq-78",
+        "report-mcq-26"
       ],
       "explanation": "本句的「report」指「把某宗事件正式告知老師、警方、機構等負責人士；通報／舉報」。",
       "sentenceIndex": 1,
@@ -1713,12 +1707,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-01": "本句指「把某宗事件正式告知老師、警方、機構等負責人士；通報／舉報」。",
-        "report-mcq-02": "「向某人／機構正式報告某事」與本句語境不同。",
-        "report-mcq-03": "「向有關人士舉報某人的不當行為」與本句語境不同。",
-        "report-mcq-04": "「向某個權力／管理機構舉報某人」與本句語境不同。",
-        "report-mcq-05": "「因某項違規／不當行為而舉報某人」與本句語境不同。",
-        "report-mcq-06": "「向警方正式報案」與本句語境不同。"
+        "report-mcq-01": "本句的「report」指「把某宗事件正式告知老師、警方、機構等負責人士；通報／舉報」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-01"
     },
@@ -1730,11 +1722,9 @@ export default {
       "masked": "She ____ the student to the teacher.",
       "options": [
         "report-mcq-04",
-        "report-mcq-03",
-        "report-mcq-05",
-        "report-mcq-02",
-        "report-mcq-06",
-        "report-mcq-01"
+        "report-mcq-78",
+        "report-mcq-85",
+        "report-mcq-61"
       ],
       "explanation": "本句的「reported」指「向某個權力／管理機構舉報某人」。",
       "sentenceIndex": 6,
@@ -1743,12 +1733,10 @@ export default {
         "reported"
       ],
       "optionReasons": {
-        "report-mcq-04": "本句指「向某個權力／管理機構舉報某人」。",
-        "report-mcq-03": "「向有關人士舉報某人的不當行為」與本句語境不同。",
-        "report-mcq-05": "「因某項違規／不當行為而舉報某人」與本句語境不同。",
-        "report-mcq-02": "「向某人／機構正式報告某事」與本句語境不同。",
-        "report-mcq-06": "「向警方正式報案」與本句語境不同。",
-        "report-mcq-01": "「把某宗事件正式告知老師、警方、機構等負責人士；通報／舉報」與本句語境不同。"
+        "report-mcq-04": "本句的「reported」指「向某個權力／管理機構舉報某人」。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-04"
     },
@@ -1760,11 +1748,9 @@ export default {
       "masked": "The employee was ____ to management.",
       "options": [
         "report-mcq-04",
-        "report-mcq-03",
-        "report-mcq-05",
-        "report-mcq-02",
-        "report-mcq-06",
-        "report-mcq-01"
+        "report-mcq-61",
+        "report-mcq-46",
+        "report-mcq-78"
       ],
       "explanation": "本句的「reported」指「向某個權力／管理機構舉報某人」。",
       "sentenceIndex": 7,
@@ -1773,12 +1759,10 @@ export default {
         "reported"
       ],
       "optionReasons": {
-        "report-mcq-04": "本句指「向某個權力／管理機構舉報某人」。",
-        "report-mcq-03": "「向有關人士舉報某人的不當行為」與本句語境不同。",
-        "report-mcq-05": "「因某項違規／不當行為而舉報某人」與本句語境不同。",
-        "report-mcq-02": "「向某人／機構正式報告某事」與本句語境不同。",
-        "report-mcq-06": "「向警方正式報案」與本句語境不同。",
-        "report-mcq-01": "「把某宗事件正式告知老師、警方、機構等負責人士；通報／舉報」與本句語境不同。"
+        "report-mcq-04": "本句的「reported」指「向某個權力／管理機構舉報某人」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-04"
     },
@@ -1790,11 +1774,9 @@ export default {
       "masked": "Victims are encouraged to ____ the crime.",
       "options": [
         "report-mcq-06",
-        "report-mcq-05",
-        "report-mcq-07",
-        "report-mcq-04",
-        "report-mcq-08",
-        "report-mcq-03"
+        "report-mcq-78",
+        "report-mcq-61",
+        "report-mcq-98"
       ],
       "explanation": "本句的「report」指「向警方正式報案」。",
       "sentenceIndex": 10,
@@ -1803,12 +1785,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-06": "本句指「向警方正式報案」。",
-        "report-mcq-05": "「因某項違規／不當行為而舉報某人」與本句語境不同。",
-        "report-mcq-07": "「向相關人士舉報虐待、騷擾或欺凌」與本句語境不同。",
-        "report-mcq-04": "「向某個權力／管理機構舉報某人」與本句語境不同。",
-        "report-mcq-08": "「向相關部門通報可疑活動」與本句語境不同。",
-        "report-mcq-03": "「向有關人士舉報某人的不當行為」與本句語境不同。"
+        "report-mcq-06": "本句的「report」指「向警方正式報案」。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-98": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-06"
     },
@@ -1820,11 +1800,9 @@ export default {
       "masked": "The theft was never ____.",
       "options": [
         "report-mcq-06",
-        "report-mcq-05",
-        "report-mcq-07",
-        "report-mcq-04",
-        "report-mcq-08",
-        "report-mcq-03"
+        "report-mcq-61",
+        "report-mcq-78",
+        "report-mcq-20"
       ],
       "explanation": "本句的「reported」指「向警方正式報案」。",
       "sentenceIndex": 11,
@@ -1833,12 +1811,10 @@ export default {
         "reported"
       ],
       "optionReasons": {
-        "report-mcq-06": "本句指「向警方正式報案」。",
-        "report-mcq-05": "「因某項違規／不當行為而舉報某人」與本句語境不同。",
-        "report-mcq-07": "「向相關人士舉報虐待、騷擾或欺凌」與本句語境不同。",
-        "report-mcq-04": "「向某個權力／管理機構舉報某人」與本句語境不同。",
-        "report-mcq-08": "「向相關部門通報可疑活動」與本句語境不同。",
-        "report-mcq-03": "「向有關人士舉報某人的不當行為」與本句語境不同。"
+        "report-mcq-06": "本句的「reported」指「向警方正式報案」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-06"
     },
@@ -1850,11 +1826,9 @@ export default {
       "masked": "Passengers were asked to ____ suspicious activity.",
       "options": [
         "report-mcq-08",
-        "report-mcq-07",
-        "report-mcq-09",
-        "report-mcq-06",
-        "report-mcq-10",
-        "report-mcq-05"
+        "report-mcq-46",
+        "report-mcq-61",
+        "report-mcq-78"
       ],
       "explanation": "本句的「report」指「向相關部門通報可疑活動」。",
       "sentenceIndex": 13,
@@ -1863,12 +1837,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-08": "本句指「向相關部門通報可疑活動」。",
-        "report-mcq-07": "「向相關人士舉報虐待、騷擾或欺凌」與本句語境不同。",
-        "report-mcq-09": "「向負責人士反映／報告問題」與本句語境不同。",
-        "report-mcq-06": "「向警方正式報案」與本句語境不同。",
-        "report-mcq-10": "「向維修／服務部門報告故障」與本句語境不同。",
-        "report-mcq-05": "「因某項違規／不當行為而舉報某人」與本句語境不同。"
+        "report-mcq-08": "本句的「report」指「向相關部門通報可疑活動」。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-08"
     },
@@ -1880,11 +1852,9 @@ export default {
       "masked": "Users can ____ a problem through the app.",
       "options": [
         "report-mcq-09",
-        "report-mcq-08",
-        "report-mcq-10",
-        "report-mcq-07",
-        "report-mcq-11",
-        "report-mcq-06"
+        "report-mcq-85",
+        "report-mcq-78",
+        "report-mcq-61"
       ],
       "explanation": "本句的「report」指「向負責人士反映／報告問題」。",
       "sentenceIndex": 14,
@@ -1893,12 +1863,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-09": "本句指「向負責人士反映／報告問題」。",
-        "report-mcq-08": "「向相關部門通報可疑活動」與本句語境不同。",
-        "report-mcq-10": "「向維修／服務部門報告故障」與本句語境不同。",
-        "report-mcq-07": "「向相關人士舉報虐待、騷擾或欺凌」與本句語境不同。",
-        "report-mcq-11": "「正式申報／報告事故」與本句語境不同。",
-        "report-mcq-06": "「向警方正式報案」與本句語境不同。"
+        "report-mcq-09": "本句的「report」指「向負責人士反映／報告問題」。",
+        "report-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-09"
     },
@@ -1910,11 +1878,9 @@ export default {
       "masked": "Please ____ the fault to maintenance.",
       "options": [
         "report-mcq-10",
-        "report-mcq-09",
-        "report-mcq-11",
-        "report-mcq-08",
-        "report-mcq-12",
-        "report-mcq-07"
+        "report-mcq-61",
+        "report-mcq-85",
+        "report-mcq-78"
       ],
       "explanation": "本句的「report」指「向維修／服務部門報告故障」。",
       "sentenceIndex": 15,
@@ -1923,12 +1889,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-10": "本句指「向維修／服務部門報告故障」。",
-        "report-mcq-09": "「向負責人士反映／報告問題」與本句語境不同。",
-        "report-mcq-11": "「正式申報／報告事故」與本句語境不同。",
-        "report-mcq-08": "「向相關部門通報可疑活動」與本句語境不同。",
-        "report-mcq-12": "「正式報失」與本句語境不同。",
-        "report-mcq-07": "「向相關人士舉報虐待、騷擾或欺凌」與本句語境不同。"
+        "report-mcq-10": "本句的「report」指「向維修／服務部門報告故障」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-10"
     },
@@ -1940,11 +1904,9 @@ export default {
       "masked": "All workplace accidents must be ____.",
       "options": [
         "report-mcq-11",
-        "report-mcq-10",
-        "report-mcq-12",
-        "report-mcq-09",
-        "report-mcq-13",
-        "report-mcq-08"
+        "report-mcq-78",
+        "report-mcq-61",
+        "report-mcq-88"
       ],
       "explanation": "本句的「reported」指「正式申報／報告事故」。",
       "sentenceIndex": 16,
@@ -1953,12 +1915,10 @@ export default {
         "reported"
       ],
       "optionReasons": {
-        "report-mcq-11": "本句指「正式申報／報告事故」。",
-        "report-mcq-10": "「向維修／服務部門報告故障」與本句語境不同。",
-        "report-mcq-12": "「正式報失」與本句語境不同。",
-        "report-mcq-09": "「向負責人士反映／報告問題」與本句語境不同。",
-        "report-mcq-13": "「正式報稱某物被盜」與本句語境不同。",
-        "report-mcq-08": "「向相關部門通報可疑活動」與本句語境不同。"
+        "report-mcq-11": "本句的「reported」指「正式申報／報告事故」。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-88": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-11"
     },
@@ -1970,11 +1930,8 @@ export default {
       "masked": "I ____ my wallet lost.",
       "options": [
         "report-mcq-12",
-        "report-mcq-11",
-        "report-mcq-13",
-        "report-mcq-10",
-        "report-mcq-14",
-        "report-mcq-09"
+        "report-mcq-61",
+        "report-mcq-78"
       ],
       "explanation": "本句的「reported」指「正式報失」。",
       "sentenceIndex": 17,
@@ -1983,12 +1940,9 @@ export default {
         "reported"
       ],
       "optionReasons": {
-        "report-mcq-12": "本句指「正式報失」。",
-        "report-mcq-11": "「正式申報／報告事故」與本句語境不同。",
-        "report-mcq-13": "「正式報稱某物被盜」與本句語境不同。",
-        "report-mcq-10": "「向維修／服務部門報告故障」與本句語境不同。",
-        "report-mcq-14": "「正式報稱某人失蹤」與本句語境不同。",
-        "report-mcq-09": "「向負責人士反映／報告問題」與本句語境不同。"
+        "report-mcq-12": "本句的「reported」指「正式報失」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-12"
     },
@@ -2000,11 +1954,9 @@ export default {
       "masked": "The car was ____ stolen.",
       "options": [
         "report-mcq-13",
-        "report-mcq-12",
-        "report-mcq-14",
-        "report-mcq-11",
-        "report-mcq-15",
-        "report-mcq-10"
+        "report-mcq-61",
+        "report-mcq-78",
+        "report-mcq-35"
       ],
       "explanation": "本句的「reported」指「正式報稱某物被盜」。",
       "sentenceIndex": 18,
@@ -2013,12 +1965,10 @@ export default {
         "reported"
       ],
       "optionReasons": {
-        "report-mcq-13": "本句指「正式報稱某物被盜」。",
-        "report-mcq-12": "「正式報失」與本句語境不同。",
-        "report-mcq-14": "「正式報稱某人失蹤」與本句語境不同。",
-        "report-mcq-11": "「正式申報／報告事故」與本句語境不同。",
-        "report-mcq-15": "「正式通報病例／案件」與本句語境不同。",
-        "report-mcq-10": "「向維修／服務部門報告故障」與本句語境不同。"
+        "report-mcq-13": "本句的「reported」指「正式報稱某物被盜」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-13"
     },
@@ -2030,11 +1980,9 @@ export default {
       "masked": "His family ____ him missing.",
       "options": [
         "report-mcq-14",
-        "report-mcq-13",
-        "report-mcq-15",
-        "report-mcq-12",
-        "report-mcq-16",
-        "report-mcq-11"
+        "report-mcq-78",
+        "report-mcq-61",
+        "report-mcq-83"
       ],
       "explanation": "本句的「reported」指「正式報稱某人失蹤」。",
       "sentenceIndex": 19,
@@ -2043,12 +1991,10 @@ export default {
         "reported"
       ],
       "optionReasons": {
-        "report-mcq-14": "本句指「正式報稱某人失蹤」。",
-        "report-mcq-13": "「正式報稱某物被盜」與本句語境不同。",
-        "report-mcq-15": "「正式通報病例／案件」與本句語境不同。",
-        "report-mcq-12": "「正式報失」與本句語境不同。",
-        "report-mcq-16": "「按規定必須申報／通報的」與本句語境不同。",
-        "report-mcq-11": "「正式申報／報告事故」與本句語境不同。"
+        "report-mcq-14": "本句的「reported」指「正式報稱某人失蹤」。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-83": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-14"
     },
@@ -2060,11 +2006,9 @@ export default {
       "masked": "She was ____ missing on Monday.",
       "options": [
         "report-mcq-14",
-        "report-mcq-13",
-        "report-mcq-15",
-        "report-mcq-12",
-        "report-mcq-16",
-        "report-mcq-11"
+        "report-mcq-78",
+        "report-mcq-61",
+        "report-mcq-26"
       ],
       "explanation": "本句的「reported」指「正式報稱某人失蹤」。",
       "sentenceIndex": 20,
@@ -2073,12 +2017,10 @@ export default {
         "reported"
       ],
       "optionReasons": {
-        "report-mcq-14": "本句指「正式報稱某人失蹤」。",
-        "report-mcq-13": "「正式報稱某物被盜」與本句語境不同。",
-        "report-mcq-15": "「正式通報病例／案件」與本句語境不同。",
-        "report-mcq-12": "「正式報失」與本句語境不同。",
-        "report-mcq-16": "「按規定必須申報／通報的」與本句語境不同。",
-        "report-mcq-11": "「正式申報／報告事故」與本句語境不同。"
+        "report-mcq-14": "本句的「reported」指「正式報稱某人失蹤」。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-14"
     },
@@ -2090,11 +2032,9 @@ export default {
       "masked": "Doctors must ____ certain cases to public-health authorities.",
       "options": [
         "report-mcq-15",
-        "report-mcq-14",
-        "report-mcq-16",
-        "report-mcq-13",
-        "report-mcq-17",
-        "report-mcq-12"
+        "report-mcq-77",
+        "report-mcq-04",
+        "report-mcq-100"
       ],
       "explanation": "本句的「report」指「正式通報病例／案件」。",
       "sentenceIndex": 21,
@@ -2103,12 +2043,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-15": "本句指「正式通報病例／案件」。",
-        "report-mcq-14": "「正式報稱某人失蹤」與本句語境不同。",
-        "report-mcq-16": "「按規定必須申報／通報的」與本句語境不同。",
-        "report-mcq-13": "「正式報稱某物被盜」與本句語境不同。",
-        "report-mcq-17": "「法律／政策規定必須呈報的事件」與本句語境不同。",
-        "report-mcq-12": "「正式報失」與本句語境不同。"
+        "report-mcq-15": "本句的「report」指「正式通報病例／案件」。",
+        "report-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-100": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-15"
     },
@@ -2120,11 +2058,9 @@ export default {
       "masked": "She filed a ____ with the police.",
       "options": [
         "report-mcq-18",
-        "report-mcq-17",
-        "report-mcq-19",
-        "report-mcq-16",
-        "report-mcq-20",
-        "report-mcq-15"
+        "report-mcq-61",
+        "report-mcq-78",
+        "report-mcq-83"
       ],
       "explanation": "本句的「report」指「正式提交／登記一份報告或報案紀錄」。",
       "sentenceIndex": 24,
@@ -2133,12 +2069,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-18": "本句指「正式提交／登記一份報告或報案紀錄」。",
-        "report-mcq-17": "「法律／政策規定必須呈報的事件」與本句語境不同。",
-        "report-mcq-19": "「把事件、情況、結果等資料正式傳達出去」與本句語境不同。",
-        "report-mcq-16": "「按規定必須申報／通報的」與本句語境不同。",
-        "report-mcq-20": "「報告／報道稱某事為真」與本句語境不同。",
-        "report-mcq-15": "「正式通報病例／案件」與本句語境不同。"
+        "report-mcq-18": "本句的「report」指「正式提交／登記一份報告或報案紀錄」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-83": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-18"
     },
@@ -2150,11 +2084,9 @@ export default {
       "masked": "The employee filed an incident ____.",
       "options": [
         "report-mcq-18",
-        "report-mcq-17",
-        "report-mcq-19",
-        "report-mcq-16",
-        "report-mcq-20",
-        "report-mcq-15"
+        "report-mcq-61",
+        "report-mcq-78",
+        "report-mcq-04"
       ],
       "explanation": "本句的「report」指「正式提交／登記一份報告或報案紀錄」。",
       "sentenceIndex": 25,
@@ -2163,12 +2095,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-18": "本句指「正式提交／登記一份報告或報案紀錄」。",
-        "report-mcq-17": "「法律／政策規定必須呈報的事件」與本句語境不同。",
-        "report-mcq-19": "「把事件、情況、結果等資料正式傳達出去」與本句語境不同。",
-        "report-mcq-16": "「按規定必須申報／通報的」與本句語境不同。",
-        "report-mcq-20": "「報告／報道稱某事為真」與本句語境不同。",
-        "report-mcq-15": "「正式通報病例／案件」與本句語境不同。"
+        "report-mcq-18": "本句的「report」指「正式提交／登記一份報告或報案紀錄」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-18"
     },
@@ -2180,11 +2110,9 @@ export default {
       "masked": "Police ____ that no one was injured.",
       "options": [
         "report-mcq-20",
-        "report-mcq-19",
-        "report-mcq-21",
-        "report-mcq-18",
-        "report-mcq-22",
-        "report-mcq-17"
+        "report-mcq-85",
+        "report-mcq-78",
+        "report-mcq-61"
       ],
       "explanation": "本句的「reported」指「報告／報道稱某事為真」。",
       "sentenceIndex": 29,
@@ -2193,12 +2121,10 @@ export default {
         "reported"
       ],
       "optionReasons": {
-        "report-mcq-20": "本句指「報告／報道稱某事為真」。",
-        "report-mcq-19": "「把事件、情況、結果等資料正式傳達出去」與本句語境不同。",
-        "report-mcq-21": "「據報某人／某事……」與本句語境不同。",
-        "report-mcq-18": "「正式提交／登記一份報告或報案紀錄」與本句語境不同。",
-        "report-mcq-22": "「據報……」與本句語境不同。",
-        "report-mcq-17": "「法律／政策規定必須呈報的事件」與本句語境不同。"
+        "report-mcq-20": "本句的「reported」指「報告／報道稱某事為真」。",
+        "report-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-20"
     },
@@ -2210,11 +2136,9 @@ export default {
       "masked": "The study ____ that performance improved.",
       "options": [
         "report-mcq-20",
-        "report-mcq-19",
-        "report-mcq-21",
-        "report-mcq-18",
-        "report-mcq-22",
-        "report-mcq-17"
+        "report-mcq-61",
+        "report-mcq-46",
+        "report-mcq-78"
       ],
       "explanation": "本句的「reported」指「報告／報道稱某事為真」。",
       "sentenceIndex": 30,
@@ -2223,12 +2147,10 @@ export default {
         "reported"
       ],
       "optionReasons": {
-        "report-mcq-20": "本句指「報告／報道稱某事為真」。",
-        "report-mcq-19": "「把事件、情況、結果等資料正式傳達出去」與本句語境不同。",
-        "report-mcq-21": "「據報某人／某事……」與本句語境不同。",
-        "report-mcq-18": "「正式提交／登記一份報告或報案紀錄」與本句語境不同。",
-        "report-mcq-22": "「據報……」與本句語境不同。",
-        "report-mcq-17": "「法律／政策規定必須呈報的事件」與本句語境不同。"
+        "report-mcq-20": "本句的「reported」指「報告／報道稱某事為真」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-20"
     },
@@ -2240,11 +2162,9 @@ export default {
       "masked": "The building is ____ to be unsafe.",
       "options": [
         "report-mcq-21",
-        "report-mcq-20",
-        "report-mcq-22",
-        "report-mcq-19",
-        "report-mcq-23",
-        "report-mcq-18"
+        "report-mcq-46",
+        "report-mcq-78",
+        "report-mcq-61"
       ],
       "explanation": "本句的「reported」指「據報某人／某事……」。",
       "sentenceIndex": 31,
@@ -2253,12 +2173,10 @@ export default {
         "reported"
       ],
       "optionReasons": {
-        "report-mcq-21": "本句指「據報某人／某事……」。",
-        "report-mcq-20": "「報告／報道稱某事為真」與本句語境不同。",
-        "report-mcq-22": "「據報……」與本句語境不同。",
-        "report-mcq-19": "「把事件、情況、結果等資料正式傳達出去」與本句語境不同。",
-        "report-mcq-23": "「據報；據稱」與本句語境不同。",
-        "report-mcq-18": "「正式提交／登記一份報告或報案紀錄」與本句語境不同。"
+        "report-mcq-21": "本句的「reported」指「據報某人／某事……」。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-21"
     },
@@ -2270,11 +2188,9 @@ export default {
       "masked": "He is ____ to have left.",
       "options": [
         "report-mcq-21",
-        "report-mcq-20",
-        "report-mcq-22",
-        "report-mcq-19",
-        "report-mcq-23",
-        "report-mcq-18"
+        "report-mcq-78",
+        "report-mcq-61",
+        "report-mcq-85"
       ],
       "explanation": "本句的「reported」指「據報某人／某事……」。",
       "sentenceIndex": 32,
@@ -2283,12 +2199,10 @@ export default {
         "reported"
       ],
       "optionReasons": {
-        "report-mcq-21": "本句指「據報某人／某事……」。",
-        "report-mcq-20": "「報告／報道稱某事為真」與本句語境不同。",
-        "report-mcq-22": "「據報……」與本句語境不同。",
-        "report-mcq-19": "「把事件、情況、結果等資料正式傳達出去」與本句語境不同。",
-        "report-mcq-23": "「據報；據稱」與本句語境不同。",
-        "report-mcq-18": "「正式提交／登記一份報告或報案紀錄」與本句語境不同。"
+        "report-mcq-21": "本句的「reported」指「據報某人／某事……」。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-85": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-21"
     },
@@ -2300,11 +2214,9 @@ export default {
       "masked": "It is ____ that several roads are closed.",
       "options": [
         "report-mcq-21",
-        "report-mcq-20",
-        "report-mcq-22",
-        "report-mcq-19",
-        "report-mcq-23",
-        "report-mcq-18"
+        "report-mcq-46",
+        "report-mcq-61",
+        "report-mcq-78"
       ],
       "explanation": "本句的「reported」指「據報某人／某事……」。",
       "sentenceIndex": 33,
@@ -2313,12 +2225,10 @@ export default {
         "reported"
       ],
       "optionReasons": {
-        "report-mcq-21": "本句指「據報某人／某事……」。",
-        "report-mcq-20": "「報告／報道稱某事為真」與本句語境不同。",
-        "report-mcq-22": "「據報……」與本句語境不同。",
-        "report-mcq-19": "「把事件、情況、結果等資料正式傳達出去」與本句語境不同。",
-        "report-mcq-23": "「據報；據稱」與本句語境不同。",
-        "report-mcq-18": "「正式提交／登記一份報告或報案紀錄」與本句語境不同。"
+        "report-mcq-21": "本句的「reported」指「據報某人／某事……」。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-21"
     },
@@ -2330,11 +2240,9 @@ export default {
       "masked": "The ____ was reporting live from the scene.",
       "options": [
         "report-mcq-26",
-        "report-mcq-25",
-        "report-mcq-27",
-        "report-mcq-24",
-        "report-mcq-28",
-        "report-mcq-23"
+        "report-mcq-61",
+        "report-mcq-78",
+        "report-mcq-46"
       ],
       "explanation": "本句的「reporter」指「從現場即時報道」。",
       "sentenceIndex": 38,
@@ -2343,12 +2251,10 @@ export default {
         "reporter"
       ],
       "optionReasons": {
-        "report-mcq-26": "本句指「從現場即時報道」。",
-        "report-mcq-25": "「從某地作新聞報道」與本句語境不同。",
-        "report-mcq-27": "「採訪並報道新聞的記者」與本句語境不同。",
-        "report-mcq-24": "「就某主題進行報道／作報告」與本句語境不同。",
-        "report-mcq-28": "「報道法院新聞的記者」與本句語境不同。",
-        "report-mcq-23": "「據報；據稱」與本句語境不同。"
+        "report-mcq-26": "本句的「reporter」指「從現場即時報道」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-26"
     },
@@ -2360,11 +2266,9 @@ export default {
       "masked": "I saw a news ____ about the incident.",
       "options": [
         "report-mcq-31",
-        "report-mcq-30",
-        "report-mcq-32",
-        "report-mcq-29",
-        "report-mcq-33",
-        "report-mcq-28"
+        "report-mcq-85",
+        "report-mcq-78",
+        "report-mcq-61"
       ],
       "explanation": "本句的「report」指「對時事事件作出的新聞報道」。",
       "sentenceIndex": 41,
@@ -2373,12 +2277,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-31": "本句指「對時事事件作出的新聞報道」。",
-        "report-mcq-30": "「新聞採訪／報道作品或報道文體」與本句語境不同。",
-        "report-mcq-32": "「媒體發布的報道」與本句語境不同。",
-        "report-mcq-29": "「製作法庭逐字正式紀錄的人」與本句語境不同。",
-        "report-mcq-33": "「天氣狀況／預報的報告」與本句語境不同。",
-        "report-mcq-28": "「報道法院新聞的記者」與本句語境不同。"
+        "report-mcq-31": "本句的「report」指「對時事事件作出的新聞報道」。",
+        "report-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-31"
     },
@@ -2390,11 +2292,9 @@ export default {
       "masked": "According to media ____, the talks have resumed.",
       "options": [
         "report-mcq-32",
-        "report-mcq-31",
-        "report-mcq-33",
-        "report-mcq-30",
-        "report-mcq-34",
-        "report-mcq-29"
+        "report-mcq-61",
+        "report-mcq-46",
+        "report-mcq-78"
       ],
       "explanation": "本句的「reports」指「媒體發布的報道」。",
       "sentenceIndex": 42,
@@ -2403,12 +2303,10 @@ export default {
         "reports"
       ],
       "optionReasons": {
-        "report-mcq-32": "本句指「媒體發布的報道」。",
-        "report-mcq-31": "「對時事事件作出的新聞報道」與本句語境不同。",
-        "report-mcq-33": "「天氣狀況／預報的報告」與本句語境不同。",
-        "report-mcq-30": "「新聞採訪／報道作品或報道文體」與本句語境不同。",
-        "report-mcq-34": "「有關道路交通狀況的報道」與本句語境不同。",
-        "report-mcq-29": "「製作法庭逐字正式紀錄的人」與本句語境不同。"
+        "report-mcq-32": "本句的「reports」指「媒體發布的報道」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-32"
     },
@@ -2420,11 +2318,9 @@ export default {
       "masked": "I checked the weather ____.",
       "options": [
         "report-mcq-33",
-        "report-mcq-32",
-        "report-mcq-34",
-        "report-mcq-31",
-        "report-mcq-35",
-        "report-mcq-30"
+        "report-mcq-85",
+        "report-mcq-61",
+        "report-mcq-78"
       ],
       "explanation": "本句的「report」指「天氣狀況／預報的報告」。",
       "sentenceIndex": 43,
@@ -2433,12 +2329,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-33": "本句指「天氣狀況／預報的報告」。",
-        "report-mcq-32": "「媒體發布的報道」與本句語境不同。",
-        "report-mcq-34": "「有關道路交通狀況的報道」與本句語境不同。",
-        "report-mcq-31": "「對時事事件作出的新聞報道」與本句語境不同。",
-        "report-mcq-35": "「有組織地呈現事實、分析、結果等的報告／報告書」與本句語境不同。",
-        "report-mcq-30": "「新聞採訪／報道作品或報道文體」與本句語境不同。"
+        "report-mcq-33": "本句的「report」指「天氣狀況／預報的報告」。",
+        "report-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-33"
     },
@@ -2450,11 +2344,9 @@ export default {
       "masked": "She wrote a ____ on the project.",
       "options": [
         "report-mcq-35",
-        "report-mcq-34",
-        "report-mcq-36",
-        "report-mcq-33",
-        "report-mcq-37",
-        "report-mcq-32"
+        "report-mcq-85",
+        "report-mcq-61",
+        "report-mcq-78"
       ],
       "explanation": "本句的「report」指「有組織地呈現事實、分析、結果等的報告／報告書」。",
       "sentenceIndex": 44,
@@ -2463,12 +2355,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-35": "本句指「有組織地呈現事實、分析、結果等的報告／報告書」。",
-        "report-mcq-34": "「有關道路交通狀況的報道」與本句語境不同。",
-        "report-mcq-36": "「撰寫／編製一份報告」與本句語境不同。",
-        "report-mcq-33": "「天氣狀況／預報的報告」與本句語境不同。",
-        "report-mcq-37": "「正式提交報告」與本句語境不同。",
-        "report-mcq-32": "「媒體發布的報道」與本句語境不同。"
+        "report-mcq-35": "本句的「report」指「有組織地呈現事實、分析、結果等的報告／報告書」。",
+        "report-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-35"
     },
@@ -2480,11 +2370,9 @@ export default {
       "masked": "The committee published its final ____.",
       "options": [
         "report-mcq-35",
-        "report-mcq-34",
-        "report-mcq-36",
-        "report-mcq-33",
-        "report-mcq-37",
-        "report-mcq-32"
+        "report-mcq-61",
+        "report-mcq-85",
+        "report-mcq-78"
       ],
       "explanation": "本句的「report」指「有組織地呈現事實、分析、結果等的報告／報告書」。",
       "sentenceIndex": 45,
@@ -2493,12 +2381,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-35": "本句指「有組織地呈現事實、分析、結果等的報告／報告書」。",
-        "report-mcq-34": "「有關道路交通狀況的報道」與本句語境不同。",
-        "report-mcq-36": "「撰寫／編製一份報告」與本句語境不同。",
-        "report-mcq-33": "「天氣狀況／預報的報告」與本句語境不同。",
-        "report-mcq-37": "「正式提交報告」與本句語境不同。",
-        "report-mcq-32": "「媒體發布的報道」與本句語境不同。"
+        "report-mcq-35": "本句的「report」指「有組織地呈現事實、分析、結果等的報告／報告書」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-35"
     },
@@ -2510,11 +2396,9 @@ export default {
       "masked": "Students must write a ____.",
       "options": [
         "report-mcq-36",
-        "report-mcq-35",
-        "report-mcq-37",
-        "report-mcq-34",
-        "report-mcq-38",
-        "report-mcq-33"
+        "report-mcq-78",
+        "report-mcq-61",
+        "report-mcq-85"
       ],
       "explanation": "本句的「report」指「撰寫／編製一份報告」。",
       "sentenceIndex": 46,
@@ -2523,12 +2407,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-36": "本句指「撰寫／編製一份報告」。",
-        "report-mcq-35": "「有組織地呈現事實、分析、結果等的報告／報告書」與本句語境不同。",
-        "report-mcq-37": "「正式提交報告」與本句語境不同。",
-        "report-mcq-34": "「有關道路交通狀況的報道」與本句語境不同。",
-        "report-mcq-38": "「正式發布／公布報告」與本句語境不同。",
-        "report-mcq-33": "「天氣狀況／預報的報告」與本句語境不同。"
+        "report-mcq-36": "本句的「report」指「撰寫／編製一份報告」。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-85": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-36"
     },
@@ -2540,11 +2422,9 @@ export default {
       "masked": "The team must submit its ____ by Friday.",
       "options": [
         "report-mcq-37",
-        "report-mcq-36",
-        "report-mcq-38",
-        "report-mcq-35",
-        "report-mcq-39",
-        "report-mcq-34"
+        "report-mcq-61",
+        "report-mcq-78",
+        "report-mcq-32"
       ],
       "explanation": "本句的「report」指「正式提交報告」。",
       "sentenceIndex": 47,
@@ -2553,12 +2433,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-37": "本句指「正式提交報告」。",
-        "report-mcq-36": "「撰寫／編製一份報告」與本句語境不同。",
-        "report-mcq-38": "「正式發布／公布報告」與本句語境不同。",
-        "report-mcq-35": "「有組織地呈現事實、分析、結果等的報告／報告書」與本句語境不同。",
-        "report-mcq-39": "「尚未定稿的報告草稿」與本句語境不同。",
-        "report-mcq-34": "「有關道路交通狀況的報道」與本句語境不同。"
+        "report-mcq-37": "本句的「report」指「正式提交報告」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-37"
     },
@@ -2570,11 +2448,9 @@ export default {
       "masked": "Staff completed an incident ____.",
       "options": [
         "report-mcq-44",
-        "report-mcq-43",
-        "report-mcq-45",
-        "report-mcq-42",
-        "report-mcq-46",
-        "report-mcq-41"
+        "report-mcq-61",
+        "report-mcq-78",
+        "report-mcq-97"
       ],
       "explanation": "本句的「report」指「正式記錄某事件經過的事件報告」。",
       "sentenceIndex": 49,
@@ -2583,12 +2459,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-44": "本句指「正式記錄某事件經過的事件報告」。",
-        "report-mcq-43": "「由官方／正式機構發布的報告」與本句語境不同。",
-        "report-mcq-45": "「記錄事故經過的事故報告」與本句語境不同。",
-        "report-mcq-42": "「資訊仍未完全確定時的初步報告」與本句語境不同。",
-        "report-mcq-46": "「警方就事件／罪案等製作的正式紀錄」與本句語境不同。",
-        "report-mcq-41": "「正式工作尚未完成前發布的中期報告」與本句語境不同。"
+        "report-mcq-44": "本句的「report」指「正式記錄某事件經過的事件報告」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-97": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-44"
     },
@@ -2600,11 +2474,9 @@ export default {
       "masked": "The insurer asked for a copy of the police ____.",
       "options": [
         "report-mcq-46",
-        "report-mcq-45",
-        "report-mcq-47",
-        "report-mcq-44",
-        "report-mcq-48",
-        "report-mcq-43"
+        "report-mcq-56",
+        "report-mcq-97",
+        "report-mcq-26"
       ],
       "explanation": "本句的「report」指「警方就事件／罪案等製作的正式紀錄」。",
       "sentenceIndex": 50,
@@ -2613,12 +2485,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-46": "本句指「警方就事件／罪案等製作的正式紀錄」。",
-        "report-mcq-45": "「記錄事故經過的事故報告」與本句語境不同。",
-        "report-mcq-47": "「描述醫療狀況／結果的醫療報告」與本句語境不同。",
-        "report-mcq-44": "「正式記錄某事件經過的事件報告」與本句語境不同。",
-        "report-mcq-48": "「實驗報告或化驗結果報告，依語境而定」與本句語境不同。",
-        "report-mcq-43": "「由官方／正式機構發布的報告」與本句語境不同。"
+        "report-mcq-46": "本句的「report」指「警方就事件／罪案等製作的正式紀錄」。",
+        "report-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-46"
     },
@@ -2630,11 +2500,9 @@ export default {
       "masked": "The company published its annual ____.",
       "options": [
         "report-mcq-53",
-        "report-mcq-52",
-        "report-mcq-54",
-        "report-mcq-51",
-        "report-mcq-55",
-        "report-mcq-50"
+        "report-mcq-61",
+        "report-mcq-46",
+        "report-mcq-84"
       ],
       "explanation": "本句的「report」指「機構每年發布的年度報告／年報」。",
       "sentenceIndex": 51,
@@ -2643,12 +2511,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-53": "本句指「機構每年發布的年度報告／年報」。",
-        "report-mcq-52": "「呈現審計結果／意見的審計報告」與本句語境不同。",
-        "report-mcq-54": "「呈現財務資料的財務報告」與本句語境不同。",
-        "report-mcq-51": "「記錄檢查結果的檢查報告」與本句語境不同。",
-        "report-mcq-55": "「公司定期公布盈利／業績的報告」與本句語境不同。",
-        "report-mcq-50": "「提供詳細技術資料／分析的技術報告」與本句語境不同。"
+        "report-mcq-53": "本句的「report」指「機構每年發布的年度報告／年報」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-53"
     },
@@ -2660,11 +2526,9 @@ export default {
       "masked": "We submit a progress ____ every month.",
       "options": [
         "report-mcq-56",
-        "report-mcq-55",
-        "report-mcq-57",
-        "report-mcq-54",
-        "report-mcq-58",
-        "report-mcq-53"
+        "report-mcq-46",
+        "report-mcq-61",
+        "report-mcq-32"
       ],
       "explanation": "本句的「report」指「描述工作進度的進度報告」。",
       "sentenceIndex": 52,
@@ -2673,12 +2537,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-56": "本句指「描述工作進度的進度報告」。",
-        "report-mcq-55": "「公司定期公布盈利／業績的報告」與本句語境不同。",
-        "report-mcq-57": "「描述目前狀況的狀態／進度報告」與本句語境不同。",
-        "report-mcq-54": "「呈現財務資料的財務報告」與本句語境不同。",
-        "report-mcq-58": "「總結專案工作／結果的報告」與本句語境不同。",
-        "report-mcq-53": "「機構每年發布的年度報告／年報」與本句語境不同。"
+        "report-mcq-56": "本句的「report」指「描述工作進度的進度報告」。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-56"
     },
@@ -2690,11 +2552,9 @@ export default {
       "masked": "We have to write a book ____.",
       "options": [
         "report-mcq-59",
-        "report-mcq-58",
-        "report-mcq-60",
-        "report-mcq-57",
-        "report-mcq-61",
-        "report-mcq-56"
+        "report-mcq-46",
+        "report-mcq-78",
+        "report-mcq-100"
       ],
       "explanation": "本句的「report」指「學生對一本書所寫／作的讀書報告」。",
       "sentenceIndex": 53,
@@ -2703,12 +2563,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-59": "本句指「學生對一本書所寫／作的讀書報告」。",
-        "report-mcq-58": "「總結專案工作／結果的報告」與本句語境不同。",
-        "report-mcq-60": "「尤其英式：學校對學生學業／表現的評語報告」與本句語境不同。",
-        "report-mcq-57": "「描述目前狀況的狀態／進度報告」與本句語境不同。",
-        "report-mcq-61": "「尤其北美：學生定期成績單」與本句語境不同。",
-        "report-mcq-56": "「描述工作進度的進度報告」與本句語境不同。"
+        "report-mcq-59": "本句的「report」指「學生對一本書所寫／作的讀書報告」。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-100": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-59"
     },
@@ -2720,11 +2578,9 @@ export default {
       "masked": "Students received their ____ cards.",
       "options": [
         "report-mcq-61",
-        "report-mcq-60",
-        "report-mcq-62",
-        "report-mcq-59",
-        "report-mcq-63",
-        "report-mcq-58"
+        "report-mcq-84",
+        "report-mcq-15",
+        "report-mcq-20"
       ],
       "explanation": "本句的「report」指「尤其北美：學生定期成績單」。",
       "sentenceIndex": 54,
@@ -2733,12 +2589,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-61": "本句指「尤其北美：學生定期成績單」。",
-        "report-mcq-60": "「尤其英式：學校對學生學業／表現的評語報告」與本句語境不同。",
-        "report-mcq-62": "「對機構／制度表現的評估」與本句語境不同。",
-        "report-mcq-59": "「學生對一本書所寫／作的讀書報告」與本句語境不同。",
-        "report-mcq-63": "「記錄個人信用歷史的信用報告」與本句語境不同。",
-        "report-mcq-58": "「總結專案工作／結果的報告」與本句語境不同。"
+        "report-mcq-61": "本句的「report」指「尤其北美：學生定期成績單」。",
+        "report-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-61"
     },
@@ -2750,11 +2604,9 @@ export default {
       "masked": "The survey acts as a ____ card on public services.",
       "options": [
         "report-mcq-61",
-        "report-mcq-60",
-        "report-mcq-62",
-        "report-mcq-59",
-        "report-mcq-63",
-        "report-mcq-58"
+        "report-mcq-06",
+        "report-mcq-32",
+        "report-mcq-83"
       ],
       "explanation": "本句的「report」指「尤其北美：學生定期成績單」。",
       "sentenceIndex": 55,
@@ -2763,12 +2615,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-61": "本句指「尤其北美：學生定期成績單」。",
-        "report-mcq-60": "「尤其英式：學校對學生學業／表現的評語報告」與本句語境不同。",
-        "report-mcq-62": "「對機構／制度表現的評估」與本句語境不同。",
-        "report-mcq-59": "「學生對一本書所寫／作的讀書報告」與本句語境不同。",
-        "report-mcq-63": "「記錄個人信用歷史的信用報告」與本句語境不同。",
-        "report-mcq-58": "「總結專案工作／結果的報告」與本句語境不同。"
+        "report-mcq-61": "本句的「report」指「尤其北美：學生定期成績單」。",
+        "report-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-83": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-61"
     },
@@ -2780,11 +2630,9 @@ export default {
       "masked": "The researchers ____ their findings.",
       "options": [
         "report-mcq-64",
-        "report-mcq-63",
-        "report-mcq-65",
-        "report-mcq-62",
-        "report-mcq-66",
-        "report-mcq-61"
+        "report-mcq-78",
+        "report-mcq-04",
+        "report-mcq-33"
       ],
       "explanation": "本句的「reported」指「正式匯報研究／調查結果」。",
       "sentenceIndex": 56,
@@ -2793,12 +2641,10 @@ export default {
         "reported"
       ],
       "optionReasons": {
-        "report-mcq-64": "本句指「正式匯報研究／調查結果」。",
-        "report-mcq-63": "「記錄個人信用歷史的信用報告」與本句語境不同。",
-        "report-mcq-65": "「正式公布數字、收入或盈利」與本句語境不同。",
-        "report-mcq-62": "「對機構／制度表現的評估」與本句語境不同。",
-        "report-mcq-66": "「採訪、整理並發布新聞的工作」與本句語境不同。",
-        "report-mcq-61": "「尤其北美：學生定期成績單」與本句語境不同。"
+        "report-mcq-64": "本句的「reported」指「正式匯報研究／調查結果」。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-64"
     },
@@ -2810,11 +2656,9 @@ export default {
       "masked": "The new rule creates additional ____ requirements.",
       "options": [
         "report-mcq-75",
-        "report-mcq-74",
-        "report-mcq-76",
-        "report-mcq-73",
-        "report-mcq-77",
-        "report-mcq-72"
+        "report-mcq-78",
+        "report-mcq-61",
+        "report-mcq-46"
       ],
       "explanation": "本句的「reporting」指「規則要求必須提交／申報某類資料」。",
       "sentenceIndex": 61,
@@ -2823,12 +2667,10 @@ export default {
         "reporting"
       ],
       "optionReasons": {
-        "report-mcq-75": "本句指「規則要求必須提交／申報某類資料」。",
-        "report-mcq-74": "「把數據整理並以報告／報表形式呈現」與本句語境不同。",
-        "report-mcq-76": "「一份報告所涵蓋的時期」與本句語境不同。",
-        "report-mcq-73": "「供管理層決策／監察使用的內部報告」與本句語境不同。",
-        "report-mcq-77": "「研究參與者自行提供有關自己的資料」與本句語境不同。",
-        "report-mcq-72": "「按監管規定向監管機構提交資料」與本句語境不同。"
+        "report-mcq-75": "本句的「reporting」指「規則要求必須提交／申報某類資料」。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-75"
     },
@@ -2840,11 +2682,9 @@ export default {
       "masked": "The study relied on self-____.",
       "options": [
         "report-mcq-77",
-        "report-mcq-76",
-        "report-mcq-78",
-        "report-mcq-75",
-        "report-mcq-79",
-        "report-mcq-74"
+        "report-mcq-13",
+        "report-mcq-83",
+        "report-mcq-32"
       ],
       "explanation": "本句的「report」指「研究參與者自行提供有關自己的資料」。",
       "sentenceIndex": 62,
@@ -2853,12 +2693,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-77": "本句指「研究參與者自行提供有關自己的資料」。",
-        "report-mcq-76": "「一份報告所涵蓋的時期」與本句語境不同。",
-        "report-mcq-78": "「由當事人自己陳述而非獨立量度的」與本句語境不同。",
-        "report-mcq-75": "「規則要求必須提交／申報某類資料」與本句語境不同。",
-        "report-mcq-79": "「少報、漏報實際存在的個案／數量」與本句語境不同。",
-        "report-mcq-74": "「把數據整理並以報告／報表形式呈現」與本句語境不同。"
+        "report-mcq-77": "本句的「report」指「研究參與者自行提供有關自己的資料」。",
+        "report-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-77"
     },
@@ -2870,11 +2708,9 @@ export default {
       "masked": "The survey measured self-____ stress.",
       "options": [
         "report-mcq-78",
-        "report-mcq-77",
-        "report-mcq-79",
-        "report-mcq-76",
-        "report-mcq-80",
-        "report-mcq-75"
+        "report-mcq-32",
+        "report-mcq-11",
+        "report-mcq-84"
       ],
       "explanation": "本句的「reported」指「由當事人自己陳述而非獨立量度的」。",
       "sentenceIndex": 63,
@@ -2883,12 +2719,10 @@ export default {
         "reported"
       ],
       "optionReasons": {
-        "report-mcq-78": "本句指「由當事人自己陳述而非獨立量度的」。",
-        "report-mcq-77": "「研究參與者自行提供有關自己的資料」與本句語境不同。",
-        "report-mcq-79": "「少報、漏報實際存在的個案／數量」與本句語境不同。",
-        "report-mcq-76": "「一份報告所涵蓋的時期」與本句語境不同。",
-        "report-mcq-80": "「報告的數量／程度高於實際情況」與本句語境不同。",
-        "report-mcq-75": "「規則要求必須提交／申報某類資料」與本句語境不同。"
+        "report-mcq-78": "本句的「reported」指「由當事人自己陳述而非獨立量度的」。",
+        "report-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-78"
     },
@@ -2900,11 +2734,9 @@ export default {
       "masked": "Check what happened and ____ back.",
       "options": [
         "report-mcq-82",
-        "report-mcq-81",
-        "report-mcq-83",
-        "report-mcq-80",
-        "report-mcq-84",
-        "report-mcq-79"
+        "report-mcq-77",
+        "report-mcq-46",
+        "report-mcq-04"
       ],
       "explanation": "本句的「report」指「完成任務／查詢後再回來匯報結果」。",
       "sentenceIndex": 64,
@@ -2913,12 +2745,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-82": "本句指「完成任務／查詢後再回來匯報結果」。",
-        "report-mcq-81": "「錯誤／不準確地報道某事」與本句語境不同。",
-        "report-mcq-83": "「就某件已查詢／處理的事情作回報」與本句語境不同。",
-        "report-mcq-80": "「報告的數量／程度高於實際情況」與本句語境不同。",
-        "report-mcq-84": "「按要求到工作地點上班／報到」與本句語境不同。",
-        "report-mcq-79": "「少報、漏報實際存在的個案／數量」與本句語境不同。"
+        "report-mcq-82": "本句的「report」指「完成任務／查詢後再回來匯報結果」。",
+        "report-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-82"
     },
@@ -2930,11 +2760,9 @@ export default {
       "masked": "She ____ back to the team.",
       "options": [
         "report-mcq-82",
-        "report-mcq-81",
-        "report-mcq-83",
-        "report-mcq-80",
-        "report-mcq-84",
-        "report-mcq-79"
+        "report-mcq-46",
+        "report-mcq-77",
+        "report-mcq-08"
       ],
       "explanation": "本句的「reported」指「完成任務／查詢後再回來匯報結果」。",
       "sentenceIndex": 65,
@@ -2943,12 +2771,10 @@ export default {
         "reported"
       ],
       "optionReasons": {
-        "report-mcq-82": "本句指「完成任務／查詢後再回來匯報結果」。",
-        "report-mcq-81": "「錯誤／不準確地報道某事」與本句語境不同。",
-        "report-mcq-83": "「就某件已查詢／處理的事情作回報」與本句語境不同。",
-        "report-mcq-80": "「報告的數量／程度高於實際情況」與本句語境不同。",
-        "report-mcq-84": "「按要求到工作地點上班／報到」與本句語境不同。",
-        "report-mcq-79": "「少報、漏報實際存在的個案／數量」與本句語境不同。"
+        "report-mcq-82": "本句的「reported」指「完成任務／查詢後再回來匯報結果」。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-82"
     },
@@ -2960,11 +2786,9 @@ export default {
       "masked": "Please ____ back on your findings.",
       "options": [
         "report-mcq-83",
-        "report-mcq-82",
-        "report-mcq-84",
-        "report-mcq-81",
         "report-mcq-85",
-        "report-mcq-80"
+        "report-mcq-78",
+        "report-mcq-61"
       ],
       "explanation": "本句的「report」指「就某件已查詢／處理的事情作回報」。",
       "sentenceIndex": 66,
@@ -2973,12 +2797,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-83": "本句指「就某件已查詢／處理的事情作回報」。",
-        "report-mcq-82": "「完成任務／查詢後再回來匯報結果」與本句語境不同。",
-        "report-mcq-84": "「按要求到工作地點上班／報到」與本句語境不同。",
-        "report-mcq-81": "「錯誤／不準確地報道某事」與本句語境不同。",
-        "report-mcq-85": "「正式到指定地點開始執勤／工作」與本句語境不同。",
-        "report-mcq-80": "「報告的數量／程度高於實際情況」與本句語境不同。"
+        "report-mcq-83": "本句的「report」指「就某件已查詢／處理的事情作回報」。",
+        "report-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-83"
     },
@@ -2990,11 +2812,9 @@ export default {
       "masked": "Employees must ____ to work at eight.",
       "options": [
         "report-mcq-84",
-        "report-mcq-83",
-        "report-mcq-85",
-        "report-mcq-82",
-        "report-mcq-86",
-        "report-mcq-81"
+        "report-mcq-61",
+        "report-mcq-78",
+        "report-mcq-46"
       ],
       "explanation": "本句的「report」指「按要求到工作地點上班／報到」。",
       "sentenceIndex": 67,
@@ -3003,12 +2823,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-84": "本句指「按要求到工作地點上班／報到」。",
-        "report-mcq-83": "「就某件已查詢／處理的事情作回報」與本句語境不同。",
-        "report-mcq-85": "「正式到指定地點開始執勤／工作」與本句語境不同。",
-        "report-mcq-82": "「完成任務／查詢後再回來匯報結果」與本句語境不同。",
-        "report-mcq-86": "「在組織中向某位上級負責／匯報」與本句語境不同。",
-        "report-mcq-81": "「錯誤／不準確地報道某事」與本句語境不同。"
+        "report-mcq-84": "本句的「report」指「按要求到工作地點上班／報到」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-84"
     },
@@ -3020,11 +2838,9 @@ export default {
       "masked": "Officers were told to ____ for duty at six.",
       "options": [
         "report-mcq-85",
-        "report-mcq-84",
-        "report-mcq-86",
         "report-mcq-83",
-        "report-mcq-87",
-        "report-mcq-82"
+        "report-mcq-53",
+        "report-mcq-78"
       ],
       "explanation": "本句的「report」指「正式到指定地點開始執勤／工作」。",
       "sentenceIndex": 68,
@@ -3033,12 +2849,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-85": "本句指「正式到指定地點開始執勤／工作」。",
-        "report-mcq-84": "「按要求到工作地點上班／報到」與本句語境不同。",
-        "report-mcq-86": "「在組織中向某位上級負責／匯報」與本句語境不同。",
-        "report-mcq-83": "「就某件已查詢／處理的事情作回報」與本句語境不同。",
-        "report-mcq-87": "「直接隸屬並向某上級匯報」與本句語境不同。",
-        "report-mcq-82": "「完成任務／查詢後再回來匯報結果」與本句語境不同。"
+        "report-mcq-85": "本句的「report」指「正式到指定地點開始執勤／工作」。",
+        "report-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-85"
     },
@@ -3050,11 +2864,9 @@ export default {
       "masked": "She has six direct ____.",
       "options": [
         "report-mcq-88",
-        "report-mcq-87",
-        "report-mcq-89",
-        "report-mcq-86",
-        "report-mcq-90",
-        "report-mcq-85"
+        "report-mcq-78",
+        "report-mcq-46",
+        "report-mcq-61"
       ],
       "explanation": "本句的「reports」指「直接向某位經理匯報的員工；直接下屬」。",
       "sentenceIndex": 71,
@@ -3063,12 +2875,10 @@ export default {
         "reports"
       ],
       "optionReasons": {
-        "report-mcq-88": "本句指「直接向某位經理匯報的員工；直接下屬」。",
-        "report-mcq-87": "「直接隸屬並向某上級匯報」與本句語境不同。",
-        "report-mcq-89": "「組織層級下但非直接匯報的間接下屬」與本句語境不同。",
-        "report-mcq-86": "「在組織中向某位上級負責／匯報」與本句語境不同。",
-        "report-mcq-90": "「組織中誰向誰匯報的正式隸屬關係」與本句語境不同。",
-        "report-mcq-85": "「正式到指定地點開始執勤／工作」與本句語境不同。"
+        "report-mcq-88": "本句的「reports」指「直接向某位經理匯報的員工；直接下屬」。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-88"
     },
@@ -3080,11 +2890,9 @@ export default {
       "masked": "The reorganization changed the ____ lines.",
       "options": [
         "report-mcq-90",
-        "report-mcq-89",
-        "report-mcq-91",
-        "report-mcq-88",
-        "report-mcq-92",
-        "report-mcq-87"
+        "report-mcq-78",
+        "report-mcq-61",
+        "report-mcq-32"
       ],
       "explanation": "本句的「reporting」指「組織中誰向誰匯報的正式隸屬關係」。",
       "sentenceIndex": 72,
@@ -3093,12 +2901,10 @@ export default {
         "reporting"
       ],
       "optionReasons": {
-        "report-mcq-90": "本句指「組織中誰向誰匯報的正式隸屬關係」。",
-        "report-mcq-89": "「組織層級下但非直接匯報的間接下屬」與本句語境不同。",
-        "report-mcq-91": "「機構的上下級匯報架構」與本句語境不同。",
-        "report-mcq-88": "「直接向某位經理匯報的員工；直接下屬」與本句語境不同。",
-        "report-mcq-92": "「不逐字引用、而轉述他人說話的間接引語」與本句語境不同。",
-        "report-mcq-87": "「直接隸屬並向某上級匯報」與本句語境不同。"
+        "report-mcq-90": "本句的「reporting」指「組織中誰向誰匯報的正式隸屬關係」。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-90"
     },
@@ -3110,11 +2916,9 @@ export default {
       "masked": "According to ____, the road has reopened.",
       "options": [
         "report-mcq-94",
-        "report-mcq-93",
-        "report-mcq-95",
-        "report-mcq-92",
-        "report-mcq-96",
-        "report-mcq-91"
+        "report-mcq-61",
+        "report-mcq-78",
+        "report-mcq-46"
       ],
       "explanation": "本句的「reports」指「根據現有報道／消息」。",
       "sentenceIndex": 73,
@@ -3123,12 +2927,10 @@ export default {
         "reports"
       ],
       "optionReasons": {
-        "report-mcq-94": "本句指「根據現有報道／消息」。",
-        "report-mcq-93": "「用來引入他人說話／思想的轉述動詞」與本句語境不同。",
-        "report-mcq-95": "「尚未經正式證實的消息／報道」與本句語境不同。",
-        "report-mcq-92": "「不逐字引用、而轉述他人說話的間接引語」與本句語境不同。",
-        "report-mcq-96": "「內容不實的報告／虛假報案」與本句語境不同。",
-        "report-mcq-91": "「機構的上下級匯報架構」與本句語境不同。"
+        "report-mcq-94": "本句的「reports」指「根據現有報道／消息」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-94"
     },
@@ -3140,11 +2942,9 @@ export default {
       "masked": "There were unconfirmed ____ of damage.",
       "options": [
         "report-mcq-95",
-        "report-mcq-94",
-        "report-mcq-96",
-        "report-mcq-93",
-        "report-mcq-97",
-        "report-mcq-92"
+        "report-mcq-78",
+        "report-mcq-61",
+        "report-mcq-97"
       ],
       "explanation": "本句的「reports」指「尚未經正式證實的消息／報道」。",
       "sentenceIndex": 74,
@@ -3153,12 +2953,10 @@ export default {
         "reports"
       ],
       "optionReasons": {
-        "report-mcq-95": "本句指「尚未經正式證實的消息／報道」。",
-        "report-mcq-94": "「根據現有報道／消息」與本句語境不同。",
-        "report-mcq-96": "「內容不實的報告／虛假報案」與本句語境不同。",
-        "report-mcq-93": "「用來引入他人說話／思想的轉述動詞」與本句語境不同。",
-        "report-mcq-97": "「向負責人士通報安全隱患」與本句語境不同。",
-        "report-mcq-92": "「不逐字引用、而轉述他人說話的間接引語」與本句語境不同。"
+        "report-mcq-95": "本句的「reports」指「尚未經正式證實的消息／報道」。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-97": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-95"
     },
@@ -3170,11 +2968,9 @@ export default {
       "masked": "Making a false ____ may have serious consequences.",
       "options": [
         "report-mcq-96",
-        "report-mcq-95",
-        "report-mcq-97",
-        "report-mcq-94",
-        "report-mcq-98",
-        "report-mcq-93"
+        "report-mcq-78",
+        "report-mcq-61",
+        "report-mcq-85"
       ],
       "explanation": "本句的「report」指「內容不實的報告／虛假報案」。",
       "sentenceIndex": 75,
@@ -3183,12 +2979,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-96": "本句指「內容不實的報告／虛假報案」。",
-        "report-mcq-95": "「尚未經正式證實的消息／報道」與本句語境不同。",
-        "report-mcq-97": "「向負責人士通報安全隱患」與本句語境不同。",
-        "report-mcq-94": "「根據現有報道／消息」與本句語境不同。",
-        "report-mcq-98": "「在線上平台把內容／帳戶舉報給平台審查」與本句語境不同。",
-        "report-mcq-93": "「用來引入他人說話／思想的轉述動詞」與本句語境不同。"
+        "report-mcq-96": "本句的「report」指「內容不實的報告／虛假報案」。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-85": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-96"
     },
@@ -3200,11 +2994,9 @@ export default {
       "masked": "Employees should ____ hazards immediately.",
       "options": [
         "report-mcq-97",
-        "report-mcq-96",
-        "report-mcq-98",
-        "report-mcq-95",
-        "report-mcq-99",
-        "report-mcq-94"
+        "report-mcq-78",
+        "report-mcq-46",
+        "report-mcq-61"
       ],
       "explanation": "本句的「report」指「向負責人士通報安全隱患」。",
       "sentenceIndex": 76,
@@ -3213,12 +3005,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-97": "本句指「向負責人士通報安全隱患」。",
-        "report-mcq-96": "「內容不實的報告／虛假報案」與本句語境不同。",
-        "report-mcq-98": "「在線上平台把內容／帳戶舉報給平台審查」與本句語境不同。",
-        "report-mcq-95": "「尚未經正式證實的消息／報道」與本句語境不同。",
-        "report-mcq-99": "「舉報垃圾訊息」與本句語境不同。",
-        "report-mcq-94": "「根據現有報道／消息」與本句語境不同。"
+        "report-mcq-97": "本句的「report」指「向負責人士通報安全隱患」。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-97"
     },
@@ -3230,11 +3020,9 @@ export default {
       "masked": "You can ____ the post if it violates the rules.",
       "options": [
         "report-mcq-98",
-        "report-mcq-97",
-        "report-mcq-99",
-        "report-mcq-96",
-        "report-mcq-100",
-        "report-mcq-95"
+        "report-mcq-78",
+        "report-mcq-46",
+        "report-mcq-61"
       ],
       "explanation": "本句的「report」指「在線上平台把內容／帳戶舉報給平台審查」。",
       "sentenceIndex": 77,
@@ -3243,12 +3031,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-98": "本句指「在線上平台把內容／帳戶舉報給平台審查」。",
-        "report-mcq-97": "「向負責人士通報安全隱患」與本句語境不同。",
-        "report-mcq-99": "「舉報垃圾訊息」與本句語境不同。",
-        "report-mcq-96": "「內容不實的報告／虛假報案」與本句語境不同。",
-        "report-mcq-100": "「向開發者回報程式錯誤」與本句語境不同。",
-        "report-mcq-95": "「尚未經正式證實的消息／報道」與本句語境不同。"
+        "report-mcq-98": "本句的「report」指「在線上平台把內容／帳戶舉報給平台審查」。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-98"
     },
@@ -3260,11 +3046,9 @@ export default {
       "masked": "Users can ____ bugs through the support page.",
       "options": [
         "report-mcq-100",
-        "report-mcq-99",
-        "report-mcq-101",
-        "report-mcq-98",
-        "report-mcq-102",
-        "report-mcq-97"
+        "report-mcq-61",
+        "report-mcq-46",
+        "report-mcq-78"
       ],
       "explanation": "本句的「report」指「向開發者回報程式錯誤」。",
       "sentenceIndex": 78,
@@ -3273,12 +3057,10 @@ export default {
         "report"
       ],
       "optionReasons": {
-        "report-mcq-100": "本句指「向開發者回報程式錯誤」。",
-        "report-mcq-99": "「舉報垃圾訊息」與本句語境不同。",
-        "report-mcq-101": "「描述軟體缺陷的錯誤報告」與本句語境不同。",
-        "report-mcq-98": "「在線上平台把內容／帳戶舉報給平台審查」與本句語境不同。",
-        "report-mcq-102": "「軟體／系統當機後產生的診斷報告」與本句語境不同。",
-        "report-mcq-97": "「向負責人士通報安全隱患」與本句語境不同。"
+        "report-mcq-100": "本句的「report」指「向開發者回報程式錯誤」。",
+        "report-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "report-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "report-mcq-100"
     }
@@ -3290,5 +3072,7 @@ export default {
     "sha256": "2beec4a7f34741d3c95a9f1f4dc2ab58d7b771ef4804eaf9dbdd0a540cd1ce9d",
     "pages": 96
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -163,11 +163,7 @@ export default {
       "masked": "Even after a short ____, I often walk away feeling lighter and more awake.",
       "options": [
         "chat-mcq-01",
-        "chat-mcq-02",
-        "chat-mcq-03",
-        "chat-mcq-04",
-        "chat-mcq-05",
-        "chat-mcq-06"
+        "chat-mcq-07"
       ],
       "explanation": "本句的「chat」指「時間通常較短、語氣輕鬆自然、不太正式的交談或閒聊」。",
       "sentenceIndex": 0,
@@ -176,12 +172,8 @@ export default {
         "chat"
       ],
       "optionReasons": {
-        "chat-mcq-01": "本句指「時間通常較短、語氣輕鬆自然、不太正式的交談或閒聊」。",
-        "chat-mcq-02": "「以輕鬆、非正式的方式和別人交談」是「chat — verb」的用法，與本句語境不同。",
-        "chat-mcq-03": "「透過即時通訊平台、聊天室或訊息系統進行的數碼對話」是「chat — online conversation」的用法，與本句語境不同。",
-        "chat-mcq-04": "「即時通訊平台內的一個聊天視窗、對話串或群組；屬於線上聊天義」是「chat — digital thread/window」的用法，與本句語境不同。",
-        "chat-mcq-05": "「喜歡聊天、說話較多而且語氣輕鬆友善的」是「chatty」的用法，與本句語境不同。",
-        "chat-mcq-06": "「以文字或語音方式與使用者進行對話的軟件系統；family extension」是「chatbot」的用法，與本句語境不同。"
+        "chat-mcq-01": "本句的「chat」指「時間通常較短、語氣輕鬆自然、不太正式的交談或閒聊」。",
+        "chat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chat-mcq-01"
     },
@@ -193,11 +185,7 @@ export default {
       "masked": "We had a quick ____ before the meeting.",
       "options": [
         "chat-mcq-01",
-        "chat-mcq-02",
-        "chat-mcq-03",
-        "chat-mcq-04",
-        "chat-mcq-05",
-        "chat-mcq-06"
+        "chat-mcq-07"
       ],
       "explanation": "本句的「chat」指「時間通常較短、語氣輕鬆自然、不太正式的交談或閒聊」。",
       "sentenceIndex": 1,
@@ -206,12 +194,8 @@ export default {
         "chat"
       ],
       "optionReasons": {
-        "chat-mcq-01": "本句指「時間通常較短、語氣輕鬆自然、不太正式的交談或閒聊」。",
-        "chat-mcq-02": "「以輕鬆、非正式的方式和別人交談」是「chat — verb」的用法，與本句語境不同。",
-        "chat-mcq-03": "「透過即時通訊平台、聊天室或訊息系統進行的數碼對話」是「chat — online conversation」的用法，與本句語境不同。",
-        "chat-mcq-04": "「即時通訊平台內的一個聊天視窗、對話串或群組；屬於線上聊天義」是「chat — digital thread/window」的用法，與本句語境不同。",
-        "chat-mcq-05": "「喜歡聊天、說話較多而且語氣輕鬆友善的」是「chatty」的用法，與本句語境不同。",
-        "chat-mcq-06": "「以文字或語音方式與使用者進行對話的軟件系統；family extension」是「chatbot」的用法，與本句語境不同。"
+        "chat-mcq-01": "本句的「chat」指「時間通常較短、語氣輕鬆自然、不太正式的交談或閒聊」。",
+        "chat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chat-mcq-01"
     },
@@ -223,11 +207,7 @@ export default {
       "masked": "She stopped for a ____ with her neighbour.",
       "options": [
         "chat-mcq-01",
-        "chat-mcq-02",
-        "chat-mcq-03",
-        "chat-mcq-04",
-        "chat-mcq-05",
-        "chat-mcq-06"
+        "chat-mcq-07"
       ],
       "explanation": "本句的「chat」指「時間通常較短、語氣輕鬆自然、不太正式的交談或閒聊」。",
       "sentenceIndex": 2,
@@ -236,12 +216,8 @@ export default {
         "chat"
       ],
       "optionReasons": {
-        "chat-mcq-01": "本句指「時間通常較短、語氣輕鬆自然、不太正式的交談或閒聊」。",
-        "chat-mcq-02": "「以輕鬆、非正式的方式和別人交談」是「chat — verb」的用法，與本句語境不同。",
-        "chat-mcq-03": "「透過即時通訊平台、聊天室或訊息系統進行的數碼對話」是「chat — online conversation」的用法，與本句語境不同。",
-        "chat-mcq-04": "「即時通訊平台內的一個聊天視窗、對話串或群組；屬於線上聊天義」是「chat — digital thread/window」的用法，與本句語境不同。",
-        "chat-mcq-05": "「喜歡聊天、說話較多而且語氣輕鬆友善的」是「chatty」的用法，與本句語境不同。",
-        "chat-mcq-06": "「以文字或語音方式與使用者進行對話的軟件系統；family extension」是「chatbot」的用法，與本句語境不同。"
+        "chat-mcq-01": "本句的「chat」指「時間通常較短、語氣輕鬆自然、不太正式的交談或閒聊」。",
+        "chat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chat-mcq-01"
     },
@@ -253,11 +229,7 @@ export default {
       "masked": "We ____ for twenty minutes after class.",
       "options": [
         "chat-mcq-02",
-        "chat-mcq-01",
-        "chat-mcq-03",
-        "chat-mcq-04",
-        "chat-mcq-05",
-        "chat-mcq-06"
+        "chat-mcq-04"
       ],
       "explanation": "本句的「chatted」指「以輕鬆、非正式的方式和別人交談」。",
       "sentenceIndex": 3,
@@ -266,12 +238,8 @@ export default {
         "chatted"
       ],
       "optionReasons": {
-        "chat-mcq-02": "本句指「以輕鬆、非正式的方式和別人交談」。",
-        "chat-mcq-01": "「時間通常較短、語氣輕鬆自然、不太正式的交談或閒聊」是「chat — informal conversation」的用法，與本句語境不同。",
-        "chat-mcq-03": "「透過即時通訊平台、聊天室或訊息系統進行的數碼對話」是「chat — online conversation」的用法，與本句語境不同。",
-        "chat-mcq-04": "「即時通訊平台內的一個聊天視窗、對話串或群組；屬於線上聊天義」是「chat — digital thread/window」的用法，與本句語境不同。",
-        "chat-mcq-05": "「喜歡聊天、說話較多而且語氣輕鬆友善的」是「chatty」的用法，與本句語境不同。",
-        "chat-mcq-06": "「以文字或語音方式與使用者進行對話的軟件系統；family extension」是「chatbot」的用法，與本句語境不同。"
+        "chat-mcq-02": "本句的「chatted」指「以輕鬆、非正式的方式和別人交談」。",
+        "chat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chat-mcq-02"
     },
@@ -283,11 +251,7 @@ export default {
       "masked": "She was ____ with a friend outside the café.",
       "options": [
         "chat-mcq-02",
-        "chat-mcq-01",
-        "chat-mcq-03",
-        "chat-mcq-04",
-        "chat-mcq-05",
-        "chat-mcq-06"
+        "chat-mcq-04"
       ],
       "explanation": "本句的「chatting」指「以輕鬆、非正式的方式和別人交談」。",
       "sentenceIndex": 4,
@@ -296,12 +260,8 @@ export default {
         "chatting"
       ],
       "optionReasons": {
-        "chat-mcq-02": "本句指「以輕鬆、非正式的方式和別人交談」。",
-        "chat-mcq-01": "「時間通常較短、語氣輕鬆自然、不太正式的交談或閒聊」是「chat — informal conversation」的用法，與本句語境不同。",
-        "chat-mcq-03": "「透過即時通訊平台、聊天室或訊息系統進行的數碼對話」是「chat — online conversation」的用法，與本句語境不同。",
-        "chat-mcq-04": "「即時通訊平台內的一個聊天視窗、對話串或群組；屬於線上聊天義」是「chat — digital thread/window」的用法，與本句語境不同。",
-        "chat-mcq-05": "「喜歡聊天、說話較多而且語氣輕鬆友善的」是「chatty」的用法，與本句語境不同。",
-        "chat-mcq-06": "「以文字或語音方式與使用者進行對話的軟件系統；family extension」是「chatbot」的用法，與本句語境不同。"
+        "chat-mcq-02": "本句的「chatting」指「以輕鬆、非正式的方式和別人交談」。",
+        "chat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chat-mcq-02"
     },
@@ -313,11 +273,7 @@ export default {
       "masked": "You can contact customer support through live ____.",
       "options": [
         "chat-mcq-03",
-        "chat-mcq-02",
-        "chat-mcq-04",
-        "chat-mcq-01",
-        "chat-mcq-05",
-        "chat-mcq-06"
+        "chat-mcq-02"
       ],
       "explanation": "本句的「chat」指「透過即時通訊平台、聊天室或訊息系統進行的數碼對話」。",
       "sentenceIndex": 5,
@@ -326,12 +282,8 @@ export default {
         "chat"
       ],
       "optionReasons": {
-        "chat-mcq-03": "本句指「透過即時通訊平台、聊天室或訊息系統進行的數碼對話」。",
-        "chat-mcq-02": "「以輕鬆、非正式的方式和別人交談」是「chat — verb」的用法，與本句語境不同。",
-        "chat-mcq-04": "「即時通訊平台內的一個聊天視窗、對話串或群組；屬於線上聊天義」是「chat — digital thread/window」的用法，與本句語境不同。",
-        "chat-mcq-01": "「時間通常較短、語氣輕鬆自然、不太正式的交談或閒聊」是「chat — informal conversation」的用法，與本句語境不同。",
-        "chat-mcq-05": "「喜歡聊天、說話較多而且語氣輕鬆友善的」是「chatty」的用法，與本句語境不同。",
-        "chat-mcq-06": "「以文字或語音方式與使用者進行對話的軟件系統；family extension」是「chatbot」的用法，與本句語境不同。"
+        "chat-mcq-03": "本句的「chat」指「透過即時通訊平台、聊天室或訊息系統進行的數碼對話」。",
+        "chat-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chat-mcq-03"
     },
@@ -343,11 +295,7 @@ export default {
       "masked": "We continued the discussion in the group ____.",
       "options": [
         "chat-mcq-03",
-        "chat-mcq-02",
-        "chat-mcq-04",
-        "chat-mcq-01",
-        "chat-mcq-05",
-        "chat-mcq-06"
+        "chat-mcq-02"
       ],
       "explanation": "本句的「chat」指「透過即時通訊平台、聊天室或訊息系統進行的數碼對話」。",
       "sentenceIndex": 6,
@@ -356,12 +304,8 @@ export default {
         "chat"
       ],
       "optionReasons": {
-        "chat-mcq-03": "本句指「透過即時通訊平台、聊天室或訊息系統進行的數碼對話」。",
-        "chat-mcq-02": "「以輕鬆、非正式的方式和別人交談」是「chat — verb」的用法，與本句語境不同。",
-        "chat-mcq-04": "「即時通訊平台內的一個聊天視窗、對話串或群組；屬於線上聊天義」是「chat — digital thread/window」的用法，與本句語境不同。",
-        "chat-mcq-01": "「時間通常較短、語氣輕鬆自然、不太正式的交談或閒聊」是「chat — informal conversation」的用法，與本句語境不同。",
-        "chat-mcq-05": "「喜歡聊天、說話較多而且語氣輕鬆友善的」是「chatty」的用法，與本句語境不同。",
-        "chat-mcq-06": "「以文字或語音方式與使用者進行對話的軟件系統；family extension」是「chatbot」的用法，與本句語境不同。"
+        "chat-mcq-03": "本句的「chat」指「透過即時通訊平台、聊天室或訊息系統進行的數碼對話」。",
+        "chat-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chat-mcq-03"
     },
@@ -373,11 +317,7 @@ export default {
       "masked": "I sent the photo in the family ____.",
       "options": [
         "chat-mcq-04",
-        "chat-mcq-03",
-        "chat-mcq-05",
-        "chat-mcq-02",
-        "chat-mcq-06",
-        "chat-mcq-01"
+        "chat-mcq-02"
       ],
       "explanation": "本句的「chat」指「即時通訊平台內的一個聊天視窗、對話串或群組；屬於線上聊天義」。",
       "sentenceIndex": 7,
@@ -386,12 +326,8 @@ export default {
         "chat"
       ],
       "optionReasons": {
-        "chat-mcq-04": "本句指「即時通訊平台內的一個聊天視窗、對話串或群組；屬於線上聊天義」。",
-        "chat-mcq-03": "「透過即時通訊平台、聊天室或訊息系統進行的數碼對話」是「chat — online conversation」的用法，與本句語境不同。",
-        "chat-mcq-05": "「喜歡聊天、說話較多而且語氣輕鬆友善的」是「chatty」的用法，與本句語境不同。",
-        "chat-mcq-02": "「以輕鬆、非正式的方式和別人交談」是「chat — verb」的用法，與本句語境不同。",
-        "chat-mcq-06": "「以文字或語音方式與使用者進行對話的軟件系統；family extension」是「chatbot」的用法，與本句語境不同。",
-        "chat-mcq-01": "「時間通常較短、語氣輕鬆自然、不太正式的交談或閒聊」是「chat — informal conversation」的用法，與本句語境不同。"
+        "chat-mcq-04": "本句的「chat」指「即時通訊平台內的一個聊天視窗、對話串或群組；屬於線上聊天義」。",
+        "chat-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chat-mcq-04"
     },
@@ -403,11 +339,7 @@ export default {
       "masked": "Open the ____ and check the last message.",
       "options": [
         "chat-mcq-04",
-        "chat-mcq-03",
-        "chat-mcq-05",
-        "chat-mcq-02",
-        "chat-mcq-06",
-        "chat-mcq-01"
+        "chat-mcq-02"
       ],
       "explanation": "本句的「chat」指「即時通訊平台內的一個聊天視窗、對話串或群組；屬於線上聊天義」。",
       "sentenceIndex": 8,
@@ -416,12 +348,8 @@ export default {
         "chat"
       ],
       "optionReasons": {
-        "chat-mcq-04": "本句指「即時通訊平台內的一個聊天視窗、對話串或群組；屬於線上聊天義」。",
-        "chat-mcq-03": "「透過即時通訊平台、聊天室或訊息系統進行的數碼對話」是「chat — online conversation」的用法，與本句語境不同。",
-        "chat-mcq-05": "「喜歡聊天、說話較多而且語氣輕鬆友善的」是「chatty」的用法，與本句語境不同。",
-        "chat-mcq-02": "「以輕鬆、非正式的方式和別人交談」是「chat — verb」的用法，與本句語境不同。",
-        "chat-mcq-06": "「以文字或語音方式與使用者進行對話的軟件系統；family extension」是「chatbot」的用法，與本句語境不同。",
-        "chat-mcq-01": "「時間通常較短、語氣輕鬆自然、不太正式的交談或閒聊」是「chat — informal conversation」的用法，與本句語境不同。"
+        "chat-mcq-04": "本句的「chat」指「即時通訊平台內的一個聊天視窗、對話串或群組；屬於線上聊天義」。",
+        "chat-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chat-mcq-04"
     },
@@ -433,10 +361,6 @@ export default {
       "masked": "I used the website’s live ____ to ask about my order.",
       "options": [
         "chat-mcq-07",
-        "chat-mcq-06",
-        "chat-mcq-05",
-        "chat-mcq-04",
-        "chat-mcq-03",
         "chat-mcq-02"
       ],
       "explanation": "本句的「chat」指「透過文字即時通訊向顧客提供協助的客服方式」。",
@@ -446,12 +370,8 @@ export default {
         "chat"
       ],
       "optionReasons": {
-        "chat-mcq-07": "本句指「透過文字即時通訊向顧客提供協助的客服方式」。",
-        "chat-mcq-06": "「以文字或語音方式與使用者進行對話的軟件系統；family extension」是「chatbot」的用法，與本句語境不同。",
-        "chat-mcq-05": "「喜歡聊天、說話較多而且語氣輕鬆友善的」是「chatty」的用法，與本句語境不同。",
-        "chat-mcq-04": "「即時通訊平台內的一個聊天視窗、對話串或群組；屬於線上聊天義」是「chat — digital thread/window」的用法，與本句語境不同。",
-        "chat-mcq-03": "「透過即時通訊平台、聊天室或訊息系統進行的數碼對話」是「chat — online conversation」的用法，與本句語境不同。",
-        "chat-mcq-02": "「以輕鬆、非正式的方式和別人交談」是「chat — verb」的用法，與本句語境不同。"
+        "chat-mcq-07": "本句的「chat」指「透過文字即時通訊向顧客提供協助的客服方式」。",
+        "chat-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chat-mcq-07"
     },
@@ -463,10 +383,6 @@ export default {
       "masked": "The company offers 24-hour ____ support.",
       "options": [
         "chat-mcq-07",
-        "chat-mcq-06",
-        "chat-mcq-05",
-        "chat-mcq-04",
-        "chat-mcq-03",
         "chat-mcq-02"
       ],
       "explanation": "本句的「chat」指「透過文字即時通訊向顧客提供協助的客服方式」。",
@@ -476,12 +392,8 @@ export default {
         "chat"
       ],
       "optionReasons": {
-        "chat-mcq-07": "本句指「透過文字即時通訊向顧客提供協助的客服方式」。",
-        "chat-mcq-06": "「以文字或語音方式與使用者進行對話的軟件系統；family extension」是「chatbot」的用法，與本句語境不同。",
-        "chat-mcq-05": "「喜歡聊天、說話較多而且語氣輕鬆友善的」是「chatty」的用法，與本句語境不同。",
-        "chat-mcq-04": "「即時通訊平台內的一個聊天視窗、對話串或群組；屬於線上聊天義」是「chat — digital thread/window」的用法，與本句語境不同。",
-        "chat-mcq-03": "「透過即時通訊平台、聊天室或訊息系統進行的數碼對話」是「chat — online conversation」的用法，與本句語境不同。",
-        "chat-mcq-02": "「以輕鬆、非正式的方式和別人交談」是「chat — verb」的用法，與本句語境不同。"
+        "chat-mcq-07": "本句的「chat」指「透過文字即時通訊向顧客提供協助的客服方式」。",
+        "chat-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chat-mcq-07"
     },
@@ -493,11 +405,7 @@ export default {
       "masked": "She was very ____ during lunch.",
       "options": [
         "chat-mcq-05",
-        "chat-mcq-04",
-        "chat-mcq-06",
-        "chat-mcq-03",
-        "chat-mcq-07",
-        "chat-mcq-02"
+        "chat-mcq-07"
       ],
       "explanation": "本句的「chatty」指「喜歡聊天、說話較多而且語氣輕鬆友善的」。",
       "sentenceIndex": 11,
@@ -506,12 +414,8 @@ export default {
         "chatty"
       ],
       "optionReasons": {
-        "chat-mcq-05": "本句指「喜歡聊天、說話較多而且語氣輕鬆友善的」。",
-        "chat-mcq-04": "「即時通訊平台內的一個聊天視窗、對話串或群組；屬於線上聊天義」是「chat — digital thread/window」的用法，與本句語境不同。",
-        "chat-mcq-06": "「以文字或語音方式與使用者進行對話的軟件系統；family extension」是「chatbot」的用法，與本句語境不同。",
-        "chat-mcq-03": "「透過即時通訊平台、聊天室或訊息系統進行的數碼對話」是「chat — online conversation」的用法，與本句語境不同。",
-        "chat-mcq-07": "「透過文字即時通訊向顧客提供協助的客服方式」是「5. chat = customer-service interaction（客服對話） — 即時客服對話」的用法，與本句語境不同。",
-        "chat-mcq-02": "「以輕鬆、非正式的方式和別人交談」是「chat — verb」的用法，與本句語境不同。"
+        "chat-mcq-05": "本句的「chatty」指「喜歡聊天、說話較多而且語氣輕鬆友善的」。",
+        "chat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chat-mcq-05"
     },
@@ -523,11 +427,7 @@ export default {
       "masked": "He becomes more ____ when he feels comfortable.",
       "options": [
         "chat-mcq-05",
-        "chat-mcq-04",
-        "chat-mcq-06",
-        "chat-mcq-03",
-        "chat-mcq-07",
-        "chat-mcq-02"
+        "chat-mcq-07"
       ],
       "explanation": "本句的「chatty」指「喜歡聊天、說話較多而且語氣輕鬆友善的」。",
       "sentenceIndex": 12,
@@ -536,12 +436,8 @@ export default {
         "chatty"
       ],
       "optionReasons": {
-        "chat-mcq-05": "本句指「喜歡聊天、說話較多而且語氣輕鬆友善的」。",
-        "chat-mcq-04": "「即時通訊平台內的一個聊天視窗、對話串或群組；屬於線上聊天義」是「chat — digital thread/window」的用法，與本句語境不同。",
-        "chat-mcq-06": "「以文字或語音方式與使用者進行對話的軟件系統；family extension」是「chatbot」的用法，與本句語境不同。",
-        "chat-mcq-03": "「透過即時通訊平台、聊天室或訊息系統進行的數碼對話」是「chat — online conversation」的用法，與本句語境不同。",
-        "chat-mcq-07": "「透過文字即時通訊向顧客提供協助的客服方式」是「5. chat = customer-service interaction（客服對話） — 即時客服對話」的用法，與本句語境不同。",
-        "chat-mcq-02": "「以輕鬆、非正式的方式和別人交談」是「chat — verb」的用法，與本句語境不同。"
+        "chat-mcq-05": "本句的「chatty」指「喜歡聊天、說話較多而且語氣輕鬆友善的」。",
+        "chat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chat-mcq-05"
     }
@@ -553,5 +449,7 @@ export default {
     "sha256": "a2861c55ccc46d34f0c307673ef4a75f17ba366f18636e0bfec5769f12a2f871",
     "pages": 9
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

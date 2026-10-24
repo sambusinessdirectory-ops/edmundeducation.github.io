@@ -328,11 +328,7 @@ export default {
       "masked": "Old tram routes can tell you more about a city than a ____.",
       "options": [
         "history-mcq-01",
-        "history-mcq-02",
-        "history-mcq-03",
-        "history-mcq-04",
-        "history-mcq-05",
-        "history-mcq-06"
+        "history-mcq-07"
       ],
       "explanation": "本句的「history textbook」指「研究、整理和解釋過去人物、事件、社會及其發展的學科」。",
       "sentenceIndex": 0,
@@ -341,12 +337,8 @@ export default {
         "history textbook"
       ],
       "optionReasons": {
-        "history-mcq-01": "本句指「研究、整理和解釋過去人物、事件、社會及其發展的學科」。",
-        "history-mcq-02": "「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」是「history — past events/development」的用法，與本句語境不同。",
-        "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。",
-        "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
-        "history-mcq-05": "「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」是「medical/employment/browser/etc. history」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。"
+        "history-mcq-01": "本句的「history textbook」指「研究、整理和解釋過去人物、事件、社會及其發展的學科」。",
+        "history-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-01"
     },
@@ -358,11 +350,7 @@ export default {
       "masked": "She studied ____ at university.",
       "options": [
         "history-mcq-01",
-        "history-mcq-02",
-        "history-mcq-03",
-        "history-mcq-04",
-        "history-mcq-05",
-        "history-mcq-06"
+        "history-mcq-07"
       ],
       "explanation": "本句的「history」指「研究、整理和解釋過去人物、事件、社會及其發展的學科」。",
       "sentenceIndex": 1,
@@ -371,12 +359,8 @@ export default {
         "history"
       ],
       "optionReasons": {
-        "history-mcq-01": "本句指「研究、整理和解釋過去人物、事件、社會及其發展的學科」。",
-        "history-mcq-02": "「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」是「history — past events/development」的用法，與本句語境不同。",
-        "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。",
-        "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
-        "history-mcq-05": "「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」是「medical/employment/browser/etc. history」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。"
+        "history-mcq-01": "本句的「history」指「研究、整理和解釋過去人物、事件、社會及其發展的學科」。",
+        "history-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-01"
     },
@@ -388,11 +372,7 @@ export default {
       "masked": "____ was my favourite subject at school.",
       "options": [
         "history-mcq-01",
-        "history-mcq-02",
-        "history-mcq-03",
-        "history-mcq-04",
-        "history-mcq-05",
-        "history-mcq-06"
+        "history-mcq-07"
       ],
       "explanation": "本句的「History」指「研究、整理和解釋過去人物、事件、社會及其發展的學科」。",
       "sentenceIndex": 2,
@@ -401,12 +381,8 @@ export default {
         "History"
       ],
       "optionReasons": {
-        "history-mcq-01": "本句指「研究、整理和解釋過去人物、事件、社會及其發展的學科」。",
-        "history-mcq-02": "「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」是「history — past events/development」的用法，與本句語境不同。",
-        "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。",
-        "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
-        "history-mcq-05": "「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」是「medical/employment/browser/etc. history」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。"
+        "history-mcq-01": "本句的「History」指「研究、整理和解釋過去人物、事件、社會及其發展的學科」。",
+        "history-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-01"
     },
@@ -418,11 +394,9 @@ export default {
       "masked": "The building has played an important role in the city’s ____.",
       "options": [
         "history-mcq-02",
-        "history-mcq-01",
-        "history-mcq-03",
-        "history-mcq-04",
-        "history-mcq-05",
-        "history-mcq-06"
+        "history-mcq-09",
+        "history-mcq-11",
+        "history-pdf-001"
       ],
       "explanation": "本句的「history」指「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」。",
       "sentenceIndex": 3,
@@ -431,12 +405,10 @@ export default {
         "history"
       ],
       "optionReasons": {
-        "history-mcq-02": "本句指「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」。",
-        "history-mcq-01": "「研究、整理和解釋過去人物、事件、社會及其發展的學科」是「history — academic subject」的用法，與本句語境不同。",
-        "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。",
-        "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
-        "history-mcq-05": "「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」是「medical/employment/browser/etc. history」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。"
+        "history-mcq-02": "本句的「history」指「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」。",
+        "history-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "history-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "history-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-02"
     },
@@ -448,11 +420,9 @@ export default {
       "masked": "This was one of the most difficult periods in the country’s ____.",
       "options": [
         "history-mcq-02",
-        "history-mcq-01",
-        "history-mcq-03",
-        "history-mcq-04",
-        "history-mcq-05",
-        "history-mcq-06"
+        "history-mcq-11",
+        "history-mcq-09",
+        "history-pdf-001"
       ],
       "explanation": "本句的「history」指「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」。",
       "sentenceIndex": 4,
@@ -461,12 +431,10 @@ export default {
         "history"
       ],
       "optionReasons": {
-        "history-mcq-02": "本句指「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」。",
-        "history-mcq-01": "「研究、整理和解釋過去人物、事件、社會及其發展的學科」是「history — academic subject」的用法，與本句語境不同。",
-        "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。",
-        "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
-        "history-mcq-05": "「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」是「medical/employment/browser/etc. history」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。"
+        "history-mcq-02": "本句的「history」指「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」。",
+        "history-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "history-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "history-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-02"
     },
@@ -478,11 +446,8 @@ export default {
       "masked": "He wrote a ____.",
       "options": [
         "history-mcq-03",
-        "history-mcq-02",
-        "history-mcq-04",
-        "history-mcq-01",
-        "history-mcq-05",
-        "history-mcq-06"
+        "history-mcq-12",
+        "history-mcq-09"
       ],
       "explanation": "本句的「history of Hong Kong cinema」指「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」。",
       "sentenceIndex": 5,
@@ -491,12 +456,9 @@ export default {
         "history of Hong Kong cinema"
       ],
       "optionReasons": {
-        "history-mcq-03": "本句指「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」。",
-        "history-mcq-02": "「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」是「history — past events/development」的用法，與本句語境不同。",
-        "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
-        "history-mcq-01": "「研究、整理和解釋過去人物、事件、社會及其發展的學科」是「history — academic subject」的用法，與本句語境不同。",
-        "history-mcq-05": "「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」是「medical/employment/browser/etc. history」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。"
+        "history-mcq-03": "本句的「history of Hong Kong cinema」指「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」。",
+        "history-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "history-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-03"
     },
@@ -508,11 +470,8 @@ export default {
       "masked": "The book provides a short ____.",
       "options": [
         "history-mcq-03",
-        "history-mcq-02",
-        "history-mcq-04",
-        "history-mcq-01",
-        "history-mcq-05",
-        "history-mcq-06"
+        "history-mcq-12",
+        "history-mcq-09"
       ],
       "explanation": "本句的「history of the railway」指「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」。",
       "sentenceIndex": 6,
@@ -521,12 +480,9 @@ export default {
         "history of the railway"
       ],
       "optionReasons": {
-        "history-mcq-03": "本句指「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」。",
-        "history-mcq-02": "「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」是「history — past events/development」的用法，與本句語境不同。",
-        "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
-        "history-mcq-01": "「研究、整理和解釋過去人物、事件、社會及其發展的學科」是「history — academic subject」的用法，與本句語境不同。",
-        "history-mcq-05": "「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」是「medical/employment/browser/etc. history」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。"
+        "history-mcq-03": "本句的「history of the railway」指「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」。",
+        "history-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "history-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-03"
     },
@@ -538,11 +494,8 @@ export default {
       "masked": "The company has a long ____.",
       "options": [
         "history-mcq-04",
-        "history-mcq-03",
-        "history-mcq-05",
-        "history-mcq-02",
-        "history-mcq-06",
-        "history-mcq-01"
+        "history-mcq-12",
+        "history-mcq-09"
       ],
       "explanation": "本句的「history of innovation」指「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」。",
       "sentenceIndex": 7,
@@ -551,12 +504,9 @@ export default {
         "history of innovation"
       ],
       "optionReasons": {
-        "history-mcq-04": "本句指「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」。",
-        "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。",
-        "history-mcq-05": "「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」是「medical/employment/browser/etc. history」的用法，與本句語境不同。",
-        "history-mcq-02": "「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」是「history — past events/development」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。",
-        "history-mcq-01": "「研究、整理和解釋過去人物、事件、社會及其發展的學科」是「history — academic subject」的用法，與本句語境不同。"
+        "history-mcq-04": "本句的「history of innovation」指「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」。",
+        "history-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "history-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-04"
     },
@@ -568,11 +518,8 @@ export default {
       "masked": "The police looked into his employment and financial ____.",
       "options": [
         "history-mcq-04",
-        "history-mcq-03",
-        "history-mcq-05",
-        "history-mcq-02",
-        "history-mcq-06",
-        "history-mcq-01"
+        "history-mcq-09",
+        "history-mcq-12"
       ],
       "explanation": "本句的「history」指「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」。",
       "sentenceIndex": 8,
@@ -581,12 +528,9 @@ export default {
         "history"
       ],
       "optionReasons": {
-        "history-mcq-04": "本句指「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」。",
-        "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。",
-        "history-mcq-05": "「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」是「medical/employment/browser/etc. history」的用法，與本句語境不同。",
-        "history-mcq-02": "「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」是「history — past events/development」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。",
-        "history-mcq-01": "「研究、整理和解釋過去人物、事件、社會及其發展的學科」是「history — academic subject」的用法，與本句語境不同。"
+        "history-mcq-04": "本句的「history」指「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」。",
+        "history-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "history-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-04"
     },
@@ -598,11 +542,7 @@ export default {
       "masked": "The doctor asked about her medical ____.",
       "options": [
         "history-mcq-05",
-        "history-mcq-04",
-        "history-mcq-06",
-        "history-mcq-03",
-        "history-mcq-07",
-        "history-mcq-02"
+        "history-mcq-09"
       ],
       "explanation": "本句的「history」指「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」。",
       "sentenceIndex": 9,
@@ -611,12 +551,8 @@ export default {
         "history"
       ],
       "optionReasons": {
-        "history-mcq-05": "本句指「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」。",
-        "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。",
-        "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。",
-        "history-mcq-02": "「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」是「history — past events/development」的用法，與本句語境不同。"
+        "history-mcq-05": "本句的「history」指「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」。",
+        "history-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-05"
     },
@@ -628,11 +564,7 @@ export default {
       "masked": "There is no family ____ of the disease.",
       "options": [
         "history-mcq-05",
-        "history-mcq-04",
-        "history-mcq-06",
-        "history-mcq-03",
-        "history-mcq-07",
-        "history-mcq-02"
+        "history-mcq-09"
       ],
       "explanation": "本句的「history」指「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」。",
       "sentenceIndex": 10,
@@ -641,12 +573,8 @@ export default {
         "history"
       ],
       "optionReasons": {
-        "history-mcq-05": "本句指「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」。",
-        "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。",
-        "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。",
-        "history-mcq-02": "「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」是「history — past events/development」的用法，與本句語境不同。"
+        "history-mcq-05": "本句的「history」指「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」。",
+        "history-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-05"
     },
@@ -658,10 +586,8 @@ export default {
       "masked": "I cleared my browser ____.",
       "options": [
         "history-pdf-001",
-        "history-mcq-04",
-        "history-mcq-06",
-        "history-mcq-03",
-        "history-mcq-07",
+        "history-mcq-09",
+        "history-mcq-11",
         "history-mcq-02"
       ],
       "explanation": "本句的「history」指「系統按時間保存的過往活動、操作、搜尋、交易或瀏覽紀錄」。",
@@ -671,12 +597,10 @@ export default {
         "history"
       ],
       "optionReasons": {
-        "history-pdf-001": "本句指「系統按時間保存的過往活動、操作、搜尋、交易或瀏覽紀錄」。",
-        "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。",
-        "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。",
-        "history-mcq-02": "「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」是「history — past events/development」的用法，與本句語境不同。"
+        "history-pdf-001": "本句的「history」指「系統按時間保存的過往活動、操作、搜尋、交易或瀏覽紀錄」。",
+        "history-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "history-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "history-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-pdf-001"
     },
@@ -688,10 +612,8 @@ export default {
       "masked": "You can view your order ____ in the app.",
       "options": [
         "history-pdf-001",
-        "history-mcq-04",
-        "history-mcq-06",
-        "history-mcq-03",
-        "history-mcq-07",
+        "history-mcq-09",
+        "history-mcq-11",
         "history-mcq-02"
       ],
       "explanation": "本句的「history」指「系統按時間保存的過往活動、操作、搜尋、交易或瀏覽紀錄」。",
@@ -701,12 +623,10 @@ export default {
         "history"
       ],
       "optionReasons": {
-        "history-pdf-001": "本句指「系統按時間保存的過往活動、操作、搜尋、交易或瀏覽紀錄」。",
-        "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。",
-        "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。",
-        "history-mcq-02": "「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」是「history — past events/development」的用法，與本句語境不同。"
+        "history-pdf-001": "本句的「history」指「系統按時間保存的過往活動、操作、搜尋、交易或瀏覽紀錄」。",
+        "history-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "history-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "history-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-pdf-001"
     },
@@ -718,11 +638,8 @@ export default {
       "masked": "The building has a ____.",
       "options": [
         "history-pdf-002",
-        "history-mcq-04",
-        "history-mcq-06",
-        "history-mcq-03",
-        "history-mcq-07",
-        "history-mcq-02"
+        "history-mcq-09",
+        "history-mcq-11"
       ],
       "explanation": "本句的「history of electrical problems」指「過去多次出現某種行為、問題或情況，形成一個持續可見的紀錄」。",
       "sentenceIndex": 13,
@@ -731,12 +648,9 @@ export default {
         "history of electrical problems"
       ],
       "optionReasons": {
-        "history-pdf-002": "本句指「過去多次出現某種行為、問題或情況，形成一個持續可見的紀錄」。",
-        "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。",
-        "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。",
-        "history-mcq-02": "「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」是「history — past events/development」的用法，與本句語境不同。"
+        "history-pdf-002": "本句的「history of electrical problems」指「過去多次出現某種行為、問題或情況，形成一個持續可見的紀錄」。",
+        "history-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "history-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-pdf-002"
     },
@@ -748,11 +662,8 @@ export default {
       "masked": "He has a ____.",
       "options": [
         "history-pdf-002",
-        "history-mcq-04",
-        "history-mcq-06",
-        "history-mcq-03",
-        "history-mcq-07",
-        "history-mcq-02"
+        "history-mcq-09",
+        "history-mcq-11"
       ],
       "explanation": "本句的「history of arriving late」指「過去多次出現某種行為、問題或情況，形成一個持續可見的紀錄」。",
       "sentenceIndex": 14,
@@ -761,12 +672,9 @@ export default {
         "history of arriving late"
       ],
       "optionReasons": {
-        "history-pdf-002": "本句指「過去多次出現某種行為、問題或情況，形成一個持續可見的紀錄」。",
-        "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。",
-        "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。",
-        "history-mcq-02": "「某個國家、地方、組織或社會在過去真正發生的事件及發展過程」是「history — past events/development」的用法，與本句語境不同。"
+        "history-pdf-002": "本句的「history of arriving late」指「過去多次出現某種行為、問題或情況，形成一個持續可見的紀錄」。",
+        "history-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "history-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-pdf-002"
     },
@@ -778,11 +686,8 @@ export default {
       "masked": "The museum contains many ____.",
       "options": [
         "history-mcq-06",
-        "history-mcq-05",
-        "history-mcq-07",
-        "history-mcq-04",
-        "history-mcq-08",
-        "history-mcq-03"
+        "history-mcq-12",
+        "history-pdf-001"
       ],
       "explanation": "本句的「historical documents」指「與歷史、過去事件或歷史研究資料有關的」。",
       "sentenceIndex": 15,
@@ -791,12 +696,9 @@ export default {
         "historical documents"
       ],
       "optionReasons": {
-        "history-mcq-06": "本句指「與歷史、過去事件或歷史研究資料有關的」。",
-        "history-mcq-05": "「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」是「medical/employment/browser/etc. history」的用法，與本句語境不同。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。",
-        "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
-        "history-mcq-08": "「從過往歷史情況來看；在歷史發展中」是「historically」的用法，與本句語境不同。",
-        "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。"
+        "history-mcq-06": "本句的「historical documents」指「與歷史、過去事件或歷史研究資料有關的」。",
+        "history-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "history-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-06"
     },
@@ -808,11 +710,8 @@ export default {
       "masked": "The novel is based on ____.",
       "options": [
         "history-mcq-06",
-        "history-mcq-05",
-        "history-mcq-07",
-        "history-mcq-04",
-        "history-mcq-08",
-        "history-mcq-03"
+        "history-mcq-12",
+        "history-pdf-001"
       ],
       "explanation": "本句的「historical events」指「與歷史、過去事件或歷史研究資料有關的」。",
       "sentenceIndex": 16,
@@ -821,12 +720,9 @@ export default {
         "historical events"
       ],
       "optionReasons": {
-        "history-mcq-06": "本句指「與歷史、過去事件或歷史研究資料有關的」。",
-        "history-mcq-05": "「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」是「medical/employment/browser/etc. history」的用法，與本句語境不同。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。",
-        "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。",
-        "history-mcq-08": "「從過往歷史情況來看；在歷史發展中」是「historically」的用法，與本句語境不同。",
-        "history-mcq-03": "「按時間或發展次序整理並記述某個主題過去情況的作品或紀錄」是「a history of something — account」的用法，與本句語境不同。"
+        "history-mcq-06": "本句的「historical events」指「與歷史、過去事件或歷史研究資料有關的」。",
+        "history-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "history-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-06"
     },
@@ -838,11 +734,7 @@ export default {
       "masked": "The leaders reached a ____.",
       "options": [
         "history-mcq-07",
-        "history-mcq-06",
-        "history-mcq-08",
-        "history-mcq-05",
-        "history-mcq-09",
-        "history-mcq-04"
+        "history-mcq-01"
       ],
       "explanation": "本句的「historic agreement」指「重要、突破性或影響深遠，足以在歷史上留下紀錄的」。",
       "sentenceIndex": 17,
@@ -851,12 +743,8 @@ export default {
         "historic agreement"
       ],
       "optionReasons": {
-        "history-mcq-07": "本句指「重要、突破性或影響深遠，足以在歷史上留下紀錄的」。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。",
-        "history-mcq-08": "「從過往歷史情況來看；在歷史發展中」是「historically」的用法，與本句語境不同。",
-        "history-mcq-05": "「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」是「medical/employment/browser/etc. history」的用法，與本句語境不同。",
-        "history-mcq-09": "「專門研究、分析或撰寫歷史的人」是「historian」的用法，與本句語境不同。",
-        "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。"
+        "history-mcq-07": "本句的「historic agreement」指「重要、突破性或影響深遠，足以在歷史上留下紀錄的」。",
+        "history-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-07"
     },
@@ -868,11 +756,7 @@ export default {
       "masked": "It was a ____ for the country.",
       "options": [
         "history-mcq-07",
-        "history-mcq-06",
-        "history-mcq-08",
-        "history-mcq-05",
-        "history-mcq-09",
-        "history-mcq-04"
+        "history-mcq-02"
       ],
       "explanation": "本句的「historic moment」指「重要、突破性或影響深遠，足以在歷史上留下紀錄的」。",
       "sentenceIndex": 18,
@@ -881,12 +765,8 @@ export default {
         "historic moment"
       ],
       "optionReasons": {
-        "history-mcq-07": "本句指「重要、突破性或影響深遠，足以在歷史上留下紀錄的」。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。",
-        "history-mcq-08": "「從過往歷史情況來看；在歷史發展中」是「historically」的用法，與本句語境不同。",
-        "history-mcq-05": "「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」是「medical/employment/browser/etc. history」的用法，與本句語境不同。",
-        "history-mcq-09": "「專門研究、分析或撰寫歷史的人」是「historian」的用法，與本句語境不同。",
-        "history-mcq-04": "「某個人、機構或事物過去曾發生、經歷或做過的事情所形成的背景和紀錄」是「someone/something's history — record/background」的用法，與本句語境不同。"
+        "history-mcq-07": "本句的「historic moment」指「重要、突破性或影響深遠，足以在歷史上留下紀錄的」。",
+        "history-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-07"
     },
@@ -898,11 +778,8 @@ export default {
       "masked": "The area has ____ been a centre of trade.",
       "options": [
         "history-mcq-08",
-        "history-mcq-07",
-        "history-mcq-09",
-        "history-mcq-06",
         "history-mcq-10",
-        "history-mcq-05"
+        "history-pdf-002"
       ],
       "explanation": "本句的「historically」指「從過往歷史情況來看；在歷史發展中」。",
       "sentenceIndex": 19,
@@ -911,12 +788,9 @@ export default {
         "historically"
       ],
       "optionReasons": {
-        "history-mcq-08": "本句指「從過往歷史情況來看；在歷史發展中」。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。",
-        "history-mcq-09": "「專門研究、分析或撰寫歷史的人」是「historian」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。",
-        "history-mcq-10": "「做出重要或前所未有的事情，令該事件值得被後世記錄」是「Fixed expression: make history — 創造歷史」的用法，與本句語境不同。",
-        "history-mcq-05": "「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」是「medical/employment/browser/etc. history」的用法，與本句語境不同。"
+        "history-mcq-08": "本句的「historically」指「從過往歷史情況來看；在歷史發展中」。",
+        "history-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "history-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-08"
     },
@@ -928,11 +802,8 @@ export default {
       "masked": "These two communities have ____ had close ties.",
       "options": [
         "history-mcq-08",
-        "history-mcq-07",
-        "history-mcq-09",
-        "history-mcq-06",
         "history-mcq-10",
-        "history-mcq-05"
+        "history-pdf-002"
       ],
       "explanation": "本句的「historically」指「從過往歷史情況來看；在歷史發展中」。",
       "sentenceIndex": 20,
@@ -941,12 +812,9 @@ export default {
         "historically"
       ],
       "optionReasons": {
-        "history-mcq-08": "本句指「從過往歷史情況來看；在歷史發展中」。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。",
-        "history-mcq-09": "「專門研究、分析或撰寫歷史的人」是「historian」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。",
-        "history-mcq-10": "「做出重要或前所未有的事情，令該事件值得被後世記錄」是「Fixed expression: make history — 創造歷史」的用法，與本句語境不同。",
-        "history-mcq-05": "「某個特定範疇內過往事件或活動的紀錄；屬於「過往紀錄」的同一核心概念」是「medical/employment/browser/etc. history」的用法，與本句語境不同。"
+        "history-mcq-08": "本句的「historically」指「從過往歷史情況來看；在歷史發展中」。",
+        "history-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "history-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-08"
     },
@@ -958,11 +826,9 @@ export default {
       "masked": "The programme interviewed a local ____.",
       "options": [
         "history-mcq-09",
-        "history-mcq-08",
-        "history-mcq-10",
-        "history-mcq-07",
-        "history-mcq-11",
-        "history-mcq-06"
+        "history-pdf-001",
+        "history-mcq-02",
+        "history-mcq-11"
       ],
       "explanation": "本句的「historian」指「專門研究、分析或撰寫歷史的人」。",
       "sentenceIndex": 21,
@@ -971,12 +837,10 @@ export default {
         "historian"
       ],
       "optionReasons": {
-        "history-mcq-09": "本句指「專門研究、分析或撰寫歷史的人」。",
-        "history-mcq-08": "「從過往歷史情況來看；在歷史發展中」是「historically」的用法，與本句語境不同。",
-        "history-mcq-10": "「做出重要或前所未有的事情，令該事件值得被後世記錄」是「Fixed expression: make history — 創造歷史」的用法，與本句語境不同。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。",
-        "history-mcq-11": "「因具有重大或特別意義而長久被後人記住及記錄」是「Fixed expression: go down in history — 載入史冊」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。"
+        "history-mcq-09": "本句的「historian」指「專門研究、分析或撰寫歷史的人」。",
+        "history-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "history-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "history-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-09"
     },
@@ -988,11 +852,8 @@ export default {
       "masked": "Several ____ disagree about the causes of the conflict.",
       "options": [
         "history-mcq-09",
-        "history-mcq-08",
-        "history-mcq-10",
-        "history-mcq-07",
-        "history-mcq-11",
-        "history-mcq-06"
+        "history-mcq-03",
+        "history-mcq-10"
       ],
       "explanation": "本句的「historians」指「專門研究、分析或撰寫歷史的人」。",
       "sentenceIndex": 22,
@@ -1001,12 +862,9 @@ export default {
         "historians"
       ],
       "optionReasons": {
-        "history-mcq-09": "本句指「專門研究、分析或撰寫歷史的人」。",
-        "history-mcq-08": "「從過往歷史情況來看；在歷史發展中」是「historically」的用法，與本句語境不同。",
-        "history-mcq-10": "「做出重要或前所未有的事情，令該事件值得被後世記錄」是「Fixed expression: make history — 創造歷史」的用法，與本句語境不同。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。",
-        "history-mcq-11": "「因具有重大或特別意義而長久被後人記住及記錄」是「Fixed expression: go down in history — 載入史冊」的用法，與本句語境不同。",
-        "history-mcq-06": "「與歷史、過去事件或歷史研究資料有關的」是「historical」的用法，與本句語境不同。"
+        "history-mcq-09": "本句的「historians」指「專門研究、分析或撰寫歷史的人」。",
+        "history-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "history-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-09"
     },
@@ -1018,11 +876,8 @@ export default {
       "masked": "She ____ by becoming the first woman to hold the position.",
       "options": [
         "history-mcq-10",
-        "history-mcq-09",
-        "history-mcq-11",
         "history-mcq-08",
-        "history-mcq-12",
-        "history-mcq-07"
+        "history-pdf-002"
       ],
       "explanation": "本句的「made history」指「做出重要或前所未有的事情，令該事件值得被後世記錄」。",
       "sentenceIndex": 23,
@@ -1031,12 +886,9 @@ export default {
         "made history"
       ],
       "optionReasons": {
-        "history-mcq-10": "本句指「做出重要或前所未有的事情，令該事件值得被後世記錄」。",
-        "history-mcq-09": "「專門研究、分析或撰寫歷史的人」是「historian」的用法，與本句語境不同。",
-        "history-mcq-11": "「因具有重大或特別意義而長久被後人記住及記錄」是「Fixed expression: go down in history — 載入史冊」的用法，與本句語境不同。",
-        "history-mcq-08": "「從過往歷史情況來看；在歷史發展中」是「historically」的用法，與本句語境不同。",
-        "history-mcq-12": "「已經結束、不再存在、不再有用或不再重要；非正式」是「Fixed expression: be history — 成為過去；完蛋／不再存在」的用法，與本句語境不同。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。"
+        "history-mcq-10": "本句的「made history」指「做出重要或前所未有的事情，令該事件值得被後世記錄」。",
+        "history-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "history-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-10"
     },
@@ -1048,11 +900,8 @@ export default {
       "masked": "The team hopes to ____ tonight.",
       "options": [
         "history-mcq-10",
-        "history-mcq-09",
-        "history-mcq-11",
         "history-mcq-08",
-        "history-mcq-12",
-        "history-mcq-07"
+        "history-pdf-002"
       ],
       "explanation": "本句的「make history」指「做出重要或前所未有的事情，令該事件值得被後世記錄」。",
       "sentenceIndex": 24,
@@ -1061,12 +910,9 @@ export default {
         "make history"
       ],
       "optionReasons": {
-        "history-mcq-10": "本句指「做出重要或前所未有的事情，令該事件值得被後世記錄」。",
-        "history-mcq-09": "「專門研究、分析或撰寫歷史的人」是「historian」的用法，與本句語境不同。",
-        "history-mcq-11": "「因具有重大或特別意義而長久被後人記住及記錄」是「Fixed expression: go down in history — 載入史冊」的用法，與本句語境不同。",
-        "history-mcq-08": "「從過往歷史情況來看；在歷史發展中」是「historically」的用法，與本句語境不同。",
-        "history-mcq-12": "「已經結束、不再存在、不再有用或不再重要；非正式」是「Fixed expression: be history — 成為過去；完蛋／不再存在」的用法，與本句語境不同。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。"
+        "history-mcq-10": "本句的「make history」指「做出重要或前所未有的事情，令該事件值得被後世記錄」。",
+        "history-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "history-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-10"
     },
@@ -1078,11 +924,9 @@ export default {
       "masked": "The discovery will ____.",
       "options": [
         "history-mcq-11",
-        "history-mcq-10",
-        "history-mcq-12",
         "history-mcq-09",
-        "history-mcq-08",
-        "history-mcq-07"
+        "history-mcq-02",
+        "history-pdf-001"
       ],
       "explanation": "本句的「go down in history」指「因具有重大或特別意義而長久被後人記住及記錄」。",
       "sentenceIndex": 25,
@@ -1091,12 +935,10 @@ export default {
         "go down in history"
       ],
       "optionReasons": {
-        "history-mcq-11": "本句指「因具有重大或特別意義而長久被後人記住及記錄」。",
-        "history-mcq-10": "「做出重要或前所未有的事情，令該事件值得被後世記錄」是「Fixed expression: make history — 創造歷史」的用法，與本句語境不同。",
-        "history-mcq-12": "「已經結束、不再存在、不再有用或不再重要；非正式」是「Fixed expression: be history — 成為過去；完蛋／不再存在」的用法，與本句語境不同。",
-        "history-mcq-09": "「專門研究、分析或撰寫歷史的人」是「historian」的用法，與本句語境不同。",
-        "history-mcq-08": "「從過往歷史情況來看；在歷史發展中」是「historically」的用法，與本句語境不同。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。"
+        "history-mcq-11": "本句的「go down in history」指「因具有重大或特別意義而長久被後人記住及記錄」。",
+        "history-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "history-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "history-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-11"
     },
@@ -1108,11 +950,8 @@ export default {
       "masked": "That speech went down in ____ as one of his most important.",
       "options": [
         "history-mcq-11",
-        "history-mcq-10",
-        "history-mcq-12",
-        "history-mcq-09",
         "history-mcq-08",
-        "history-mcq-07"
+        "history-pdf-002"
       ],
       "explanation": "本句的「history」指「因具有重大或特別意義而長久被後人記住及記錄」。",
       "sentenceIndex": 26,
@@ -1121,12 +960,9 @@ export default {
         "history"
       ],
       "optionReasons": {
-        "history-mcq-11": "本句指「因具有重大或特別意義而長久被後人記住及記錄」。",
-        "history-mcq-10": "「做出重要或前所未有的事情，令該事件值得被後世記錄」是「Fixed expression: make history — 創造歷史」的用法，與本句語境不同。",
-        "history-mcq-12": "「已經結束、不再存在、不再有用或不再重要；非正式」是「Fixed expression: be history — 成為過去；完蛋／不再存在」的用法，與本句語境不同。",
-        "history-mcq-09": "「專門研究、分析或撰寫歷史的人」是「historian」的用法，與本句語境不同。",
-        "history-mcq-08": "「從過往歷史情況來看；在歷史發展中」是「historically」的用法，與本句語境不同。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。"
+        "history-mcq-11": "本句的「history」指「因具有重大或特別意義而長久被後人記住及記錄」。",
+        "history-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "history-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-11"
     },
@@ -1138,11 +974,8 @@ export default {
       "masked": "Once the new system arrives, these old machines will be ____.",
       "options": [
         "history-mcq-12",
-        "history-mcq-11",
-        "history-mcq-10",
-        "history-mcq-09",
-        "history-mcq-08",
-        "history-mcq-07"
+        "history-mcq-01",
+        "history-pdf-001"
       ],
       "explanation": "本句的「history」指「已經結束、不再存在、不再有用或不再重要；非正式」。",
       "sentenceIndex": 27,
@@ -1151,12 +984,9 @@ export default {
         "history"
       ],
       "optionReasons": {
-        "history-mcq-12": "本句指「已經結束、不再存在、不再有用或不再重要；非正式」。",
-        "history-mcq-11": "「因具有重大或特別意義而長久被後人記住及記錄」是「Fixed expression: go down in history — 載入史冊」的用法，與本句語境不同。",
-        "history-mcq-10": "「做出重要或前所未有的事情，令該事件值得被後世記錄」是「Fixed expression: make history — 創造歷史」的用法，與本句語境不同。",
-        "history-mcq-09": "「專門研究、分析或撰寫歷史的人」是「historian」的用法，與本句語境不同。",
-        "history-mcq-08": "「從過往歷史情況來看；在歷史發展中」是「historically」的用法，與本句語境不同。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。"
+        "history-mcq-12": "本句的「history」指「已經結束、不再存在、不再有用或不再重要；非正式」。",
+        "history-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "history-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-12"
     },
@@ -1168,11 +998,8 @@ export default {
       "masked": "If the company loses that contract, it could be ____.",
       "options": [
         "history-mcq-12",
-        "history-mcq-11",
-        "history-mcq-10",
-        "history-mcq-09",
-        "history-mcq-08",
-        "history-mcq-07"
+        "history-mcq-01",
+        "history-pdf-001"
       ],
       "explanation": "本句的「history」指「已經結束、不再存在、不再有用或不再重要；非正式」。",
       "sentenceIndex": 28,
@@ -1181,12 +1008,9 @@ export default {
         "history"
       ],
       "optionReasons": {
-        "history-mcq-12": "本句指「已經結束、不再存在、不再有用或不再重要；非正式」。",
-        "history-mcq-11": "「因具有重大或特別意義而長久被後人記住及記錄」是「Fixed expression: go down in history — 載入史冊」的用法，與本句語境不同。",
-        "history-mcq-10": "「做出重要或前所未有的事情，令該事件值得被後世記錄」是「Fixed expression: make history — 創造歷史」的用法，與本句語境不同。",
-        "history-mcq-09": "「專門研究、分析或撰寫歷史的人」是「historian」的用法，與本句語境不同。",
-        "history-mcq-08": "「從過往歷史情況來看；在歷史發展中」是「historically」的用法，與本句語境不同。",
-        "history-mcq-07": "「重要、突破性或影響深遠，足以在歷史上留下紀錄的」是「historic」的用法，與本句語境不同。"
+        "history-mcq-12": "本句的「history」指「已經結束、不再存在、不再有用或不再重要；非正式」。",
+        "history-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "history-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "history-mcq-12"
     }
@@ -1198,5 +1022,7 @@ export default {
     "sha256": "338470bf822e480eee131d22c6032134e49961d0cfe0ccf62c916e8df0c74d6a",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

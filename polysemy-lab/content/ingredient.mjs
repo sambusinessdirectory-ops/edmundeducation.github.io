@@ -287,11 +287,7 @@ export default {
       "masked": "Good ____ make a big difference in baking.",
       "options": [
         "ingredient-mcq-01",
-        "ingredient-mcq-02",
-        "ingredient-mcq-03",
-        "ingredient-mcq-04",
-        "ingredient-mcq-05",
-        "ingredient-mcq-06"
+        "ingredient-mcq-08"
       ],
       "explanation": "本句的「ingredients」指「用來製作食物、飲品的其中一種食材／配料」。",
       "sentenceIndex": 0,
@@ -300,12 +296,8 @@ export default {
         "ingredients"
       ],
       "optionReasons": {
-        "ingredient-mcq-01": "本句指「用來製作食物、飲品的其中一種食材／配料」。",
-        "ingredient-mcq-02": "「在食物或產品中最主要的成分／食材」與本句語境不同。",
-        "ingredient-mcq-03": "「化妝品、藥物、清潔用品等所含的一種成分／原料」與本句語境不同。",
-        "ingredient-mcq-04": "「列出食品／產品所含成分的配料表／成分表」與本句語境不同。",
-        "ingredient-mcq-05": "「共同促成某種結果的其中一項要素／因素」與本句語境不同。",
-        "ingredient-mcq-06": "「產品／食譜中的關鍵成分」與本句語境不同。"
+        "ingredient-mcq-01": "本句的「ingredients」指「用來製作食物、飲品的其中一種食材／配料」。",
+        "ingredient-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-01"
     },
@@ -317,11 +309,8 @@ export default {
       "masked": "I would need to calculate the cost of every ____.",
       "options": [
         "ingredient-mcq-01",
-        "ingredient-mcq-02",
-        "ingredient-mcq-03",
-        "ingredient-mcq-04",
-        "ingredient-mcq-05",
-        "ingredient-mcq-06"
+        "ingredient-mcq-12",
+        "ingredient-mcq-03"
       ],
       "explanation": "本句的「ingredient」指「用來製作食物、飲品的其中一種食材／配料」。",
       "sentenceIndex": 1,
@@ -330,12 +319,9 @@ export default {
         "ingredient"
       ],
       "optionReasons": {
-        "ingredient-mcq-01": "本句指「用來製作食物、飲品的其中一種食材／配料」。",
-        "ingredient-mcq-02": "「在食物或產品中最主要的成分／食材」與本句語境不同。",
-        "ingredient-mcq-03": "「化妝品、藥物、清潔用品等所含的一種成分／原料」與本句語境不同。",
-        "ingredient-mcq-04": "「列出食品／產品所含成分的配料表／成分表」與本句語境不同。",
-        "ingredient-mcq-05": "「共同促成某種結果的其中一項要素／因素」與本句語境不同。",
-        "ingredient-mcq-06": "「產品／食譜中的關鍵成分」與本句語境不同。"
+        "ingredient-mcq-01": "本句的「ingredient」指「用來製作食物、飲品的其中一種食材／配料」。",
+        "ingredient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ingredient-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-01"
     },
@@ -347,11 +333,8 @@ export default {
       "masked": "Flour is one of the main ____ in the recipe.",
       "options": [
         "ingredient-mcq-01",
-        "ingredient-mcq-02",
-        "ingredient-mcq-03",
-        "ingredient-mcq-04",
         "ingredient-mcq-05",
-        "ingredient-mcq-06"
+        "ingredient-mcq-03"
       ],
       "explanation": "本句的「ingredients」指「用來製作食物、飲品的其中一種食材／配料」。",
       "sentenceIndex": 2,
@@ -360,12 +343,9 @@ export default {
         "ingredients"
       ],
       "optionReasons": {
-        "ingredient-mcq-01": "本句指「用來製作食物、飲品的其中一種食材／配料」。",
-        "ingredient-mcq-02": "「在食物或產品中最主要的成分／食材」與本句語境不同。",
-        "ingredient-mcq-03": "「化妝品、藥物、清潔用品等所含的一種成分／原料」與本句語境不同。",
-        "ingredient-mcq-04": "「列出食品／產品所含成分的配料表／成分表」與本句語境不同。",
-        "ingredient-mcq-05": "「共同促成某種結果的其中一項要素／因素」與本句語境不同。",
-        "ingredient-mcq-06": "「產品／食譜中的關鍵成分」與本句語境不同。"
+        "ingredient-mcq-01": "本句的「ingredients」指「用來製作食物、飲品的其中一種食材／配料」。",
+        "ingredient-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ingredient-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-01"
     },
@@ -377,11 +357,7 @@ export default {
       "masked": "Mix all the ____ in a large bowl.",
       "options": [
         "ingredient-mcq-01",
-        "ingredient-mcq-02",
-        "ingredient-mcq-03",
-        "ingredient-mcq-04",
-        "ingredient-mcq-05",
-        "ingredient-mcq-06"
+        "ingredient-mcq-08"
       ],
       "explanation": "本句的「ingredients」指「用來製作食物、飲品的其中一種食材／配料」。",
       "sentenceIndex": 3,
@@ -390,12 +366,8 @@ export default {
         "ingredients"
       ],
       "optionReasons": {
-        "ingredient-mcq-01": "本句指「用來製作食物、飲品的其中一種食材／配料」。",
-        "ingredient-mcq-02": "「在食物或產品中最主要的成分／食材」與本句語境不同。",
-        "ingredient-mcq-03": "「化妝品、藥物、清潔用品等所含的一種成分／原料」與本句語境不同。",
-        "ingredient-mcq-04": "「列出食品／產品所含成分的配料表／成分表」與本句語境不同。",
-        "ingredient-mcq-05": "「共同促成某種結果的其中一項要素／因素」與本句語境不同。",
-        "ingredient-mcq-06": "「產品／食譜中的關鍵成分」與本句語境不同。"
+        "ingredient-mcq-01": "本句的「ingredients」指「用來製作食物、飲品的其中一種食材／配料」。",
+        "ingredient-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-01"
     },
@@ -407,11 +379,7 @@ export default {
       "masked": "Chocolate is the main ____ in these brownies.",
       "options": [
         "ingredient-mcq-02",
-        "ingredient-mcq-01",
-        "ingredient-mcq-03",
-        "ingredient-mcq-04",
-        "ingredient-mcq-05",
-        "ingredient-mcq-06"
+        "ingredient-mcq-05"
       ],
       "explanation": "本句的「ingredient」指「在食物或產品中最主要的成分／食材」。",
       "sentenceIndex": 4,
@@ -420,12 +388,8 @@ export default {
         "ingredient"
       ],
       "optionReasons": {
-        "ingredient-mcq-02": "本句指「在食物或產品中最主要的成分／食材」。",
-        "ingredient-mcq-01": "「用來製作食物、飲品的其中一種食材／配料」與本句語境不同。",
-        "ingredient-mcq-03": "「化妝品、藥物、清潔用品等所含的一種成分／原料」與本句語境不同。",
-        "ingredient-mcq-04": "「列出食品／產品所含成分的配料表／成分表」與本句語境不同。",
-        "ingredient-mcq-05": "「共同促成某種結果的其中一項要素／因素」與本句語境不同。",
-        "ingredient-mcq-06": "「產品／食譜中的關鍵成分」與本句語境不同。"
+        "ingredient-mcq-02": "本句的「ingredient」指「在食物或產品中最主要的成分／食材」。",
+        "ingredient-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-02"
     },
@@ -437,11 +401,7 @@ export default {
       "masked": "Rice is the main ____ in the dish.",
       "options": [
         "ingredient-mcq-02",
-        "ingredient-mcq-01",
-        "ingredient-mcq-03",
-        "ingredient-mcq-04",
-        "ingredient-mcq-05",
-        "ingredient-mcq-06"
+        "ingredient-mcq-05"
       ],
       "explanation": "本句的「ingredient」指「在食物或產品中最主要的成分／食材」。",
       "sentenceIndex": 5,
@@ -450,12 +410,8 @@ export default {
         "ingredient"
       ],
       "optionReasons": {
-        "ingredient-mcq-02": "本句指「在食物或產品中最主要的成分／食材」。",
-        "ingredient-mcq-01": "「用來製作食物、飲品的其中一種食材／配料」與本句語境不同。",
-        "ingredient-mcq-03": "「化妝品、藥物、清潔用品等所含的一種成分／原料」與本句語境不同。",
-        "ingredient-mcq-04": "「列出食品／產品所含成分的配料表／成分表」與本句語境不同。",
-        "ingredient-mcq-05": "「共同促成某種結果的其中一項要素／因素」與本句語境不同。",
-        "ingredient-mcq-06": "「產品／食譜中的關鍵成分」與本句語境不同。"
+        "ingredient-mcq-02": "本句的「ingredient」指「在食物或產品中最主要的成分／食材」。",
+        "ingredient-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-02"
     },
@@ -467,11 +423,8 @@ export default {
       "masked": "Check the ____ in the shampoo.",
       "options": [
         "ingredient-mcq-03",
-        "ingredient-mcq-02",
-        "ingredient-mcq-04",
-        "ingredient-mcq-01",
-        "ingredient-mcq-05",
-        "ingredient-mcq-06"
+        "ingredient-mcq-12",
+        "ingredient-mcq-01"
       ],
       "explanation": "本句的「ingredients」指「化妝品、藥物、清潔用品等所含的一種成分／原料」。",
       "sentenceIndex": 6,
@@ -480,12 +433,9 @@ export default {
         "ingredients"
       ],
       "optionReasons": {
-        "ingredient-mcq-03": "本句指「化妝品、藥物、清潔用品等所含的一種成分／原料」。",
-        "ingredient-mcq-02": "「在食物或產品中最主要的成分／食材」與本句語境不同。",
-        "ingredient-mcq-04": "「列出食品／產品所含成分的配料表／成分表」與本句語境不同。",
-        "ingredient-mcq-01": "「用來製作食物、飲品的其中一種食材／配料」與本句語境不同。",
-        "ingredient-mcq-05": "「共同促成某種結果的其中一項要素／因素」與本句語境不同。",
-        "ingredient-mcq-06": "「產品／食譜中的關鍵成分」與本句語境不同。"
+        "ingredient-mcq-03": "本句的「ingredients」指「化妝品、藥物、清潔用品等所含的一種成分／原料」。",
+        "ingredient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ingredient-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-03"
     },
@@ -497,11 +447,8 @@ export default {
       "masked": "The product contains several natural ____.",
       "options": [
         "ingredient-mcq-03",
-        "ingredient-mcq-02",
-        "ingredient-mcq-04",
-        "ingredient-mcq-01",
         "ingredient-mcq-05",
-        "ingredient-mcq-06"
+        "ingredient-mcq-01"
       ],
       "explanation": "本句的「ingredients」指「化妝品、藥物、清潔用品等所含的一種成分／原料」。",
       "sentenceIndex": 7,
@@ -510,12 +457,9 @@ export default {
         "ingredients"
       ],
       "optionReasons": {
-        "ingredient-mcq-03": "本句指「化妝品、藥物、清潔用品等所含的一種成分／原料」。",
-        "ingredient-mcq-02": "「在食物或產品中最主要的成分／食材」與本句語境不同。",
-        "ingredient-mcq-04": "「列出食品／產品所含成分的配料表／成分表」與本句語境不同。",
-        "ingredient-mcq-01": "「用來製作食物、飲品的其中一種食材／配料」與本句語境不同。",
-        "ingredient-mcq-05": "「共同促成某種結果的其中一項要素／因素」與本句語境不同。",
-        "ingredient-mcq-06": "「產品／食譜中的關鍵成分」與本句語境不同。"
+        "ingredient-mcq-03": "本句的「ingredients」指「化妝品、藥物、清潔用品等所含的一種成分／原料」。",
+        "ingredient-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ingredient-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-03"
     },
@@ -527,11 +471,7 @@ export default {
       "masked": "Read the ____ before buying the product.",
       "options": [
         "ingredient-mcq-04",
-        "ingredient-mcq-03",
-        "ingredient-mcq-05",
-        "ingredient-mcq-02",
-        "ingredient-mcq-06",
-        "ingredient-mcq-01"
+        "ingredient-mcq-12"
       ],
       "explanation": "本句的「ingredients list」指「列出食品／產品所含成分的配料表／成分表」。",
       "sentenceIndex": 8,
@@ -540,12 +480,8 @@ export default {
         "ingredients list"
       ],
       "optionReasons": {
-        "ingredient-mcq-04": "本句指「列出食品／產品所含成分的配料表／成分表」。",
-        "ingredient-mcq-03": "「化妝品、藥物、清潔用品等所含的一種成分／原料」與本句語境不同。",
-        "ingredient-mcq-05": "「共同促成某種結果的其中一項要素／因素」與本句語境不同。",
-        "ingredient-mcq-02": "「在食物或產品中最主要的成分／食材」與本句語境不同。",
-        "ingredient-mcq-06": "「產品／食譜中的關鍵成分」與本句語境不同。",
-        "ingredient-mcq-01": "「用來製作食物、飲品的其中一種食材／配料」與本句語境不同。"
+        "ingredient-mcq-04": "本句的「ingredients list」指「列出食品／產品所含成分的配料表／成分表」。",
+        "ingredient-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-04"
     },
@@ -557,11 +493,7 @@ export default {
       "masked": "Sugar appears near the top of the ____.",
       "options": [
         "ingredient-mcq-04",
-        "ingredient-mcq-03",
-        "ingredient-mcq-05",
-        "ingredient-mcq-02",
-        "ingredient-mcq-06",
-        "ingredient-mcq-01"
+        "ingredient-mcq-12"
       ],
       "explanation": "本句的「ingredients list」指「列出食品／產品所含成分的配料表／成分表」。",
       "sentenceIndex": 9,
@@ -570,12 +502,8 @@ export default {
         "ingredients list"
       ],
       "optionReasons": {
-        "ingredient-mcq-04": "本句指「列出食品／產品所含成分的配料表／成分表」。",
-        "ingredient-mcq-03": "「化妝品、藥物、清潔用品等所含的一種成分／原料」與本句語境不同。",
-        "ingredient-mcq-05": "「共同促成某種結果的其中一項要素／因素」與本句語境不同。",
-        "ingredient-mcq-02": "「在食物或產品中最主要的成分／食材」與本句語境不同。",
-        "ingredient-mcq-06": "「產品／食譜中的關鍵成分」與本句語境不同。",
-        "ingredient-mcq-01": "「用來製作食物、飲品的其中一種食材／配料」與本句語境不同。"
+        "ingredient-mcq-04": "本句的「ingredients list」指「列出食品／產品所含成分的配料表／成分表」。",
+        "ingredient-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-04"
     },
@@ -587,11 +515,8 @@ export default {
       "masked": "Trust is an important ____ in a strong relationship.",
       "options": [
         "ingredient-mcq-05",
-        "ingredient-mcq-04",
-        "ingredient-mcq-06",
-        "ingredient-mcq-03",
-        "ingredient-mcq-07",
-        "ingredient-mcq-02"
+        "ingredient-mcq-01",
+        "ingredient-mcq-03"
       ],
       "explanation": "本句的「ingredient」指「共同促成某種結果的其中一項要素／因素」。",
       "sentenceIndex": 10,
@@ -600,12 +525,9 @@ export default {
         "ingredient"
       ],
       "optionReasons": {
-        "ingredient-mcq-05": "本句指「共同促成某種結果的其中一項要素／因素」。",
-        "ingredient-mcq-04": "「列出食品／產品所含成分的配料表／成分表」與本句語境不同。",
-        "ingredient-mcq-06": "「產品／食譜中的關鍵成分」與本句語境不同。",
-        "ingredient-mcq-03": "「化妝品、藥物、清潔用品等所含的一種成分／原料」與本句語境不同。",
-        "ingredient-mcq-07": "「促成成功、關係等的重要關鍵要素」與本句語境不同。",
-        "ingredient-mcq-02": "「在食物或產品中最主要的成分／食材」與本句語境不同。"
+        "ingredient-mcq-05": "本句的「ingredient」指「共同促成某種結果的其中一項要素／因素」。",
+        "ingredient-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "ingredient-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-05"
     },
@@ -617,11 +539,8 @@ export default {
       "masked": "Patience is a key ____ for success.",
       "options": [
         "ingredient-mcq-05",
-        "ingredient-mcq-04",
-        "ingredient-mcq-06",
-        "ingredient-mcq-03",
-        "ingredient-mcq-07",
-        "ingredient-mcq-02"
+        "ingredient-mcq-01",
+        "ingredient-mcq-03"
       ],
       "explanation": "本句的「ingredient」指「共同促成某種結果的其中一項要素／因素」。",
       "sentenceIndex": 11,
@@ -630,12 +549,9 @@ export default {
         "ingredient"
       ],
       "optionReasons": {
-        "ingredient-mcq-05": "本句指「共同促成某種結果的其中一項要素／因素」。",
-        "ingredient-mcq-04": "「列出食品／產品所含成分的配料表／成分表」與本句語境不同。",
-        "ingredient-mcq-06": "「產品／食譜中的關鍵成分」與本句語境不同。",
-        "ingredient-mcq-03": "「化妝品、藥物、清潔用品等所含的一種成分／原料」與本句語境不同。",
-        "ingredient-mcq-07": "「促成成功、關係等的重要關鍵要素」與本句語境不同。",
-        "ingredient-mcq-02": "「在食物或產品中最主要的成分／食材」與本句語境不同。"
+        "ingredient-mcq-05": "本句的「ingredient」指「共同促成某種結果的其中一項要素／因素」。",
+        "ingredient-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "ingredient-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-05"
     },
@@ -647,11 +563,7 @@ export default {
       "masked": "Water is an ____ in the mixture.",
       "options": [
         "ingredient-mcq-08",
-        "ingredient-mcq-07",
-        "ingredient-mcq-09",
-        "ingredient-mcq-06",
-        "ingredient-mcq-10",
-        "ingredient-mcq-05"
+        "ingredient-mcq-01"
       ],
       "explanation": "本句的「essential ingredient」指「必不可少的成分／必要要素」。",
       "sentenceIndex": 12,
@@ -660,12 +572,8 @@ export default {
         "essential ingredient"
       ],
       "optionReasons": {
-        "ingredient-mcq-08": "本句指「必不可少的成分／必要要素」。",
-        "ingredient-mcq-07": "「促成成功、關係等的重要關鍵要素」與本句語境不同。",
-        "ingredient-mcq-09": "「在藥物／產品中產生主要作用的有效／活性成分」與本句語境不同。",
-        "ingredient-mcq-06": "「產品／食譜中的關鍵成分」與本句語境不同。",
-        "ingredient-mcq-10": "「不產生主要療效的非活性成分」與本句語境不同。",
-        "ingredient-mcq-05": "「共同促成某種結果的其中一項要素／因素」與本句語境不同。"
+        "ingredient-mcq-08": "本句的「essential ingredient」指「必不可少的成分／必要要素」。",
+        "ingredient-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-08"
     },
@@ -677,11 +585,7 @@ export default {
       "masked": "Communication is an ____ of teamwork.",
       "options": [
         "ingredient-mcq-08",
-        "ingredient-mcq-07",
-        "ingredient-mcq-09",
-        "ingredient-mcq-06",
-        "ingredient-mcq-10",
-        "ingredient-mcq-05"
+        "ingredient-mcq-01"
       ],
       "explanation": "本句的「essential ingredient」指「必不可少的成分／必要要素」。",
       "sentenceIndex": 13,
@@ -690,12 +594,8 @@ export default {
         "essential ingredient"
       ],
       "optionReasons": {
-        "ingredient-mcq-08": "本句指「必不可少的成分／必要要素」。",
-        "ingredient-mcq-07": "「促成成功、關係等的重要關鍵要素」與本句語境不同。",
-        "ingredient-mcq-09": "「在藥物／產品中產生主要作用的有效／活性成分」與本句語境不同。",
-        "ingredient-mcq-06": "「產品／食譜中的關鍵成分」與本句語境不同。",
-        "ingredient-mcq-10": "「不產生主要療效的非活性成分」與本句語境不同。",
-        "ingredient-mcq-05": "「共同促成某種結果的其中一項要素／因素」與本句語境不同。"
+        "ingredient-mcq-08": "本句的「essential ingredient」指「必不可少的成分／必要要素」。",
+        "ingredient-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-08"
     },
@@ -707,11 +607,7 @@ export default {
       "masked": "Check the ____ in the medicine.",
       "options": [
         "ingredient-mcq-09",
-        "ingredient-mcq-08",
-        "ingredient-mcq-10",
-        "ingredient-mcq-07",
-        "ingredient-mcq-11",
-        "ingredient-mcq-06"
+        "ingredient-mcq-11"
       ],
       "explanation": "本句的「active ingredient」指「在藥物／產品中產生主要作用的有效／活性成分」。",
       "sentenceIndex": 14,
@@ -720,12 +616,8 @@ export default {
         "active ingredient"
       ],
       "optionReasons": {
-        "ingredient-mcq-09": "本句指「在藥物／產品中產生主要作用的有效／活性成分」。",
-        "ingredient-mcq-08": "「必不可少的成分／必要要素」與本句語境不同。",
-        "ingredient-mcq-10": "「不產生主要療效的非活性成分」與本句語境不同。",
-        "ingredient-mcq-07": "「促成成功、關係等的重要關鍵要素」與本句語境不同。",
-        "ingredient-mcq-11": "「用來構成某物的材料；或促成某結果的要素」與本句語境不同。",
-        "ingredient-mcq-06": "「產品／食譜中的關鍵成分」與本句語境不同。"
+        "ingredient-mcq-09": "本句的「active ingredient」指「在藥物／產品中產生主要作用的有效／活性成分」。",
+        "ingredient-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-09"
     },
@@ -737,11 +629,7 @@ export default {
       "masked": "The cream contains an ____ that reduces inflammation.",
       "options": [
         "ingredient-mcq-09",
-        "ingredient-mcq-08",
-        "ingredient-mcq-10",
-        "ingredient-mcq-07",
-        "ingredient-mcq-11",
-        "ingredient-mcq-06"
+        "ingredient-mcq-11"
       ],
       "explanation": "本句的「active ingredient」指「在藥物／產品中產生主要作用的有效／活性成分」。",
       "sentenceIndex": 15,
@@ -750,12 +638,8 @@ export default {
         "active ingredient"
       ],
       "optionReasons": {
-        "ingredient-mcq-09": "本句指「在藥物／產品中產生主要作用的有效／活性成分」。",
-        "ingredient-mcq-08": "「必不可少的成分／必要要素」與本句語境不同。",
-        "ingredient-mcq-10": "「不產生主要療效的非活性成分」與本句語境不同。",
-        "ingredient-mcq-07": "「促成成功、關係等的重要關鍵要素」與本句語境不同。",
-        "ingredient-mcq-11": "「用來構成某物的材料；或促成某結果的要素」與本句語境不同。",
-        "ingredient-mcq-06": "「產品／食譜中的關鍵成分」與本句語境不同。"
+        "ingredient-mcq-09": "本句的「active ingredient」指「在藥物／產品中產生主要作用的有效／活性成分」。",
+        "ingredient-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-09"
     },
@@ -767,11 +651,7 @@ export default {
       "masked": "The label also lists the ____.",
       "options": [
         "ingredient-mcq-10",
-        "ingredient-mcq-09",
-        "ingredient-mcq-11",
-        "ingredient-mcq-08",
-        "ingredient-mcq-12",
-        "ingredient-mcq-07"
+        "ingredient-mcq-12"
       ],
       "explanation": "本句的「inactive ingredients」指「不產生主要療效的非活性成分」。",
       "sentenceIndex": 16,
@@ -780,12 +660,8 @@ export default {
         "inactive ingredients"
       ],
       "optionReasons": {
-        "ingredient-mcq-10": "本句指「不產生主要療效的非活性成分」。",
-        "ingredient-mcq-09": "「在藥物／產品中產生主要作用的有效／活性成分」與本句語境不同。",
-        "ingredient-mcq-11": "「用來構成某物的材料；或促成某結果的要素」與本句語境不同。",
-        "ingredient-mcq-08": "「必不可少的成分／必要要素」與本句語境不同。",
-        "ingredient-mcq-12": "「促成成功所需要的各項條件／要素」與本句語境不同。",
-        "ingredient-mcq-07": "「促成成功、關係等的重要關鍵要素」與本句語境不同。"
+        "ingredient-mcq-10": "本句的「inactive ingredients」指「不產生主要療效的非活性成分」。",
+        "ingredient-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-10"
     },
@@ -797,11 +673,7 @@ export default {
       "masked": "Some people may react to an ____.",
       "options": [
         "ingredient-mcq-10",
-        "ingredient-mcq-09",
-        "ingredient-mcq-11",
-        "ingredient-mcq-08",
-        "ingredient-mcq-12",
-        "ingredient-mcq-07"
+        "ingredient-mcq-12"
       ],
       "explanation": "本句的「inactive ingredient」指「不產生主要療效的非活性成分」。",
       "sentenceIndex": 17,
@@ -810,12 +682,8 @@ export default {
         "inactive ingredient"
       ],
       "optionReasons": {
-        "ingredient-mcq-10": "本句指「不產生主要療效的非活性成分」。",
-        "ingredient-mcq-09": "「在藥物／產品中產生主要作用的有效／活性成分」與本句語境不同。",
-        "ingredient-mcq-11": "「用來構成某物的材料；或促成某結果的要素」與本句語境不同。",
-        "ingredient-mcq-08": "「必不可少的成分／必要要素」與本句語境不同。",
-        "ingredient-mcq-12": "「促成成功所需要的各項條件／要素」與本句語境不同。",
-        "ingredient-mcq-07": "「促成成功、關係等的重要關鍵要素」與本句語境不同。"
+        "ingredient-mcq-10": "本句的「inactive ingredient」指「不產生主要療效的非活性成分」。",
+        "ingredient-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-10"
     },
@@ -827,11 +695,7 @@ export default {
       "masked": "Eggs are an important ____ many cakes.",
       "options": [
         "ingredient-mcq-11",
-        "ingredient-mcq-10",
-        "ingredient-mcq-12",
-        "ingredient-mcq-09",
-        "ingredient-mcq-08",
-        "ingredient-mcq-07"
+        "ingredient-mcq-09"
       ],
       "explanation": "本句的「ingredient for」指「用來構成某物的材料；或促成某結果的要素」。",
       "sentenceIndex": 18,
@@ -840,12 +704,8 @@ export default {
         "ingredient for"
       ],
       "optionReasons": {
-        "ingredient-mcq-11": "本句指「用來構成某物的材料；或促成某結果的要素」。",
-        "ingredient-mcq-10": "「不產生主要療效的非活性成分」與本句語境不同。",
-        "ingredient-mcq-12": "「促成成功所需要的各項條件／要素」與本句語境不同。",
-        "ingredient-mcq-09": "「在藥物／產品中產生主要作用的有效／活性成分」與本句語境不同。",
-        "ingredient-mcq-08": "「必不可少的成分／必要要素」與本句語境不同。",
-        "ingredient-mcq-07": "「促成成功、關係等的重要關鍵要素」與本句語境不同。"
+        "ingredient-mcq-11": "本句的「ingredient for」指「用來構成某物的材料；或促成某結果的要素」。",
+        "ingredient-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-11"
     },
@@ -857,11 +717,7 @@ export default {
       "masked": "Mutual respect is an ____ a healthy partnership.",
       "options": [
         "ingredient-mcq-11",
-        "ingredient-mcq-10",
-        "ingredient-mcq-12",
-        "ingredient-mcq-09",
-        "ingredient-mcq-08",
-        "ingredient-mcq-07"
+        "ingredient-mcq-09"
       ],
       "explanation": "本句的「ingredient for」指「用來構成某物的材料；或促成某結果的要素」。",
       "sentenceIndex": 19,
@@ -870,12 +726,8 @@ export default {
         "ingredient for"
       ],
       "optionReasons": {
-        "ingredient-mcq-11": "本句指「用來構成某物的材料；或促成某結果的要素」。",
-        "ingredient-mcq-10": "「不產生主要療效的非活性成分」與本句語境不同。",
-        "ingredient-mcq-12": "「促成成功所需要的各項條件／要素」與本句語境不同。",
-        "ingredient-mcq-09": "「在藥物／產品中產生主要作用的有效／活性成分」與本句語境不同。",
-        "ingredient-mcq-08": "「必不可少的成分／必要要素」與本句語境不同。",
-        "ingredient-mcq-07": "「促成成功、關係等的重要關鍵要素」與本句語境不同。"
+        "ingredient-mcq-11": "本句的「ingredient for」指「用來構成某物的材料；或促成某結果的要素」。",
+        "ingredient-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-11"
     },
@@ -887,11 +739,7 @@ export default {
       "masked": "The menu includes ____ information.",
       "options": [
         "ingredient-mcq-11",
-        "ingredient-mcq-10",
-        "ingredient-mcq-12",
-        "ingredient-mcq-09",
-        "ingredient-mcq-08",
-        "ingredient-mcq-07"
+        "ingredient-mcq-04"
       ],
       "explanation": "本句的「ingredient-based」指「用來構成某物的材料；或促成某結果的要素」。",
       "sentenceIndex": 20,
@@ -900,12 +748,8 @@ export default {
         "ingredient-based"
       ],
       "optionReasons": {
-        "ingredient-mcq-11": "本句指「用來構成某物的材料；或促成某結果的要素」。",
-        "ingredient-mcq-10": "「不產生主要療效的非活性成分」與本句語境不同。",
-        "ingredient-mcq-12": "「促成成功所需要的各項條件／要素」與本句語境不同。",
-        "ingredient-mcq-09": "「在藥物／產品中產生主要作用的有效／活性成分」與本句語境不同。",
-        "ingredient-mcq-08": "「必不可少的成分／必要要素」與本句語境不同。",
-        "ingredient-mcq-07": "「促成成功、關係等的重要關鍵要素」與本句語境不同。"
+        "ingredient-mcq-11": "本句的「ingredient-based」指「用來構成某物的材料；或促成某結果的要素」。",
+        "ingredient-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-11"
     },
@@ -917,11 +761,7 @@ export default {
       "masked": "Some customers prefer ____ labels.",
       "options": [
         "ingredient-mcq-11",
-        "ingredient-mcq-10",
-        "ingredient-mcq-12",
-        "ingredient-mcq-09",
-        "ingredient-mcq-08",
-        "ingredient-mcq-07"
+        "ingredient-mcq-03"
       ],
       "explanation": "本句的「ingredient-based」指「用來構成某物的材料；或促成某結果的要素」。",
       "sentenceIndex": 21,
@@ -930,12 +770,8 @@ export default {
         "ingredient-based"
       ],
       "optionReasons": {
-        "ingredient-mcq-11": "本句指「用來構成某物的材料；或促成某結果的要素」。",
-        "ingredient-mcq-10": "「不產生主要療效的非活性成分」與本句語境不同。",
-        "ingredient-mcq-12": "「促成成功所需要的各項條件／要素」與本句語境不同。",
-        "ingredient-mcq-09": "「在藥物／產品中產生主要作用的有效／活性成分」與本句語境不同。",
-        "ingredient-mcq-08": "「必不可少的成分／必要要素」與本句語境不同。",
-        "ingredient-mcq-07": "「促成成功、關係等的重要關鍵要素」與本句語境不同。"
+        "ingredient-mcq-11": "本句的「ingredient-based」指「用來構成某物的材料；或促成某結果的要素」。",
+        "ingredient-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-11"
     },
@@ -947,11 +783,7 @@ export default {
       "masked": "Hard work and timing can be a ____.",
       "options": [
         "ingredient-mcq-11",
-        "ingredient-mcq-10",
-        "ingredient-mcq-12",
-        "ingredient-mcq-09",
-        "ingredient-mcq-08",
-        "ingredient-mcq-07"
+        "ingredient-mcq-10"
       ],
       "explanation": "本句的「recipe for success」指「用來構成某物的材料；或促成某結果的要素」。",
       "sentenceIndex": 22,
@@ -960,12 +792,8 @@ export default {
         "recipe for success"
       ],
       "optionReasons": {
-        "ingredient-mcq-11": "本句指「用來構成某物的材料；或促成某結果的要素」。",
-        "ingredient-mcq-10": "「不產生主要療效的非活性成分」與本句語境不同。",
-        "ingredient-mcq-12": "「促成成功所需要的各項條件／要素」與本句語境不同。",
-        "ingredient-mcq-09": "「在藥物／產品中產生主要作用的有效／活性成分」與本句語境不同。",
-        "ingredient-mcq-08": "「必不可少的成分／必要要素」與本句語境不同。",
-        "ingredient-mcq-07": "「促成成功、關係等的重要關鍵要素」與本句語境不同。"
+        "ingredient-mcq-11": "本句的「recipe for success」指「用來構成某物的材料；或促成某結果的要素」。",
+        "ingredient-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-11"
     },
@@ -977,11 +805,7 @@ export default {
       "masked": "Quality and consistency are important ingredients in that ____.",
       "options": [
         "ingredient-mcq-11",
-        "ingredient-mcq-10",
-        "ingredient-mcq-12",
-        "ingredient-mcq-09",
-        "ingredient-mcq-08",
-        "ingredient-mcq-07"
+        "ingredient-mcq-03"
       ],
       "explanation": "本句的「recipe for success」指「用來構成某物的材料；或促成某結果的要素」。",
       "sentenceIndex": 23,
@@ -990,12 +814,8 @@ export default {
         "recipe for success"
       ],
       "optionReasons": {
-        "ingredient-mcq-11": "本句指「用來構成某物的材料；或促成某結果的要素」。",
-        "ingredient-mcq-10": "「不產生主要療效的非活性成分」與本句語境不同。",
-        "ingredient-mcq-12": "「促成成功所需要的各項條件／要素」與本句語境不同。",
-        "ingredient-mcq-09": "「在藥物／產品中產生主要作用的有效／活性成分」與本句語境不同。",
-        "ingredient-mcq-08": "「必不可少的成分／必要要素」與本句語境不同。",
-        "ingredient-mcq-07": "「促成成功、關係等的重要關鍵要素」與本句語境不同。"
+        "ingredient-mcq-11": "本句的「recipe for success」指「用來構成某物的材料；或促成某結果的要素」。",
+        "ingredient-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-11"
     },
@@ -1007,11 +827,8 @@ export default {
       "masked": "Discipline and patience are important ____.",
       "options": [
         "ingredient-mcq-12",
-        "ingredient-mcq-11",
-        "ingredient-mcq-10",
-        "ingredient-mcq-09",
-        "ingredient-mcq-08",
-        "ingredient-mcq-07"
+        "ingredient-mcq-01",
+        "ingredient-mcq-03"
       ],
       "explanation": "本句的「ingredients for success」指「促成成功所需要的各項條件／要素」。",
       "sentenceIndex": 24,
@@ -1020,12 +837,9 @@ export default {
         "ingredients for success"
       ],
       "optionReasons": {
-        "ingredient-mcq-12": "本句指「促成成功所需要的各項條件／要素」。",
-        "ingredient-mcq-11": "「用來構成某物的材料；或促成某結果的要素」與本句語境不同。",
-        "ingredient-mcq-10": "「不產生主要療效的非活性成分」與本句語境不同。",
-        "ingredient-mcq-09": "「在藥物／產品中產生主要作用的有效／活性成分」與本句語境不同。",
-        "ingredient-mcq-08": "「必不可少的成分／必要要素」與本句語境不同。",
-        "ingredient-mcq-07": "「促成成功、關係等的重要關鍵要素」與本句語境不同。"
+        "ingredient-mcq-12": "本句的「ingredients for success」指「促成成功所需要的各項條件／要素」。",
+        "ingredient-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "ingredient-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-12"
     },
@@ -1037,11 +851,8 @@ export default {
       "masked": "The business already has several ____.",
       "options": [
         "ingredient-mcq-12",
-        "ingredient-mcq-11",
-        "ingredient-mcq-10",
-        "ingredient-mcq-09",
-        "ingredient-mcq-08",
-        "ingredient-mcq-07"
+        "ingredient-mcq-01",
+        "ingredient-mcq-03"
       ],
       "explanation": "本句的「ingredients for success」指「促成成功所需要的各項條件／要素」。",
       "sentenceIndex": 25,
@@ -1050,12 +861,9 @@ export default {
         "ingredients for success"
       ],
       "optionReasons": {
-        "ingredient-mcq-12": "本句指「促成成功所需要的各項條件／要素」。",
-        "ingredient-mcq-11": "「用來構成某物的材料；或促成某結果的要素」與本句語境不同。",
-        "ingredient-mcq-10": "「不產生主要療效的非活性成分」與本句語境不同。",
-        "ingredient-mcq-09": "「在藥物／產品中產生主要作用的有效／活性成分」與本句語境不同。",
-        "ingredient-mcq-08": "「必不可少的成分／必要要素」與本句語境不同。",
-        "ingredient-mcq-07": "「促成成功、關係等的重要關鍵要素」與本句語境不同。"
+        "ingredient-mcq-12": "本句的「ingredients for success」指「促成成功所需要的各項條件／要素」。",
+        "ingredient-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "ingredient-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ingredient-mcq-12"
     }
@@ -1067,5 +875,7 @@ export default {
     "sha256": "e8b15f89f6b34130b140723c1d3685102c36760bdab94fe554b1e7d46174e2c4",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

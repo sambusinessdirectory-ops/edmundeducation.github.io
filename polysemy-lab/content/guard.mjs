@@ -971,11 +971,9 @@ export default {
       "masked": "A ____ stood outside the entrance.",
       "options": [
         "guard-mcq-01",
-        "guard-mcq-02",
-        "guard-mcq-03",
-        "guard-mcq-04",
-        "guard-mcq-05",
-        "guard-mcq-06"
+        "guard-mcq-40",
+        "guard-mcq-11",
+        "guard-mcq-31"
       ],
       "explanation": "本句的「guard」指「負責看守、保護某地方／財物／人物的警衛／守衛」。",
       "sentenceIndex": 2,
@@ -984,12 +982,10 @@ export default {
         "guard"
       ],
       "optionReasons": {
-        "guard-mcq-01": "本句指「負責看守、保護某地方／財物／人物的警衛／守衛」。",
-        "guard-mcq-02": "「負責民用建築、屋苑、商場等保安工作的保安員」與本句語境不同。",
-        "guard-mcq-03": "「負責保護某人的護衛」與本句語境不同。",
-        "guard-mcq-04": "「專門貼身保護某人免受人身傷害的保鑣」與本句語境不同。",
-        "guard-mcq-05": "「看守、監管囚犯的獄警」與本句語境不同。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。"
+        "guard-mcq-01": "本句的「guard」指「負責看守、保護某地方／財物／人物的警衛／守衛」。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-01"
     },
@@ -1001,11 +997,9 @@ export default {
       "masked": "The museum employs several ____.",
       "options": [
         "guard-mcq-01",
-        "guard-mcq-02",
-        "guard-mcq-03",
-        "guard-mcq-04",
-        "guard-mcq-05",
-        "guard-mcq-06"
+        "guard-mcq-37",
+        "guard-mcq-40",
+        "guard-mcq-18"
       ],
       "explanation": "本句的「guards」指「負責看守、保護某地方／財物／人物的警衛／守衛」。",
       "sentenceIndex": 3,
@@ -1014,12 +1008,10 @@ export default {
         "guards"
       ],
       "optionReasons": {
-        "guard-mcq-01": "本句指「負責看守、保護某地方／財物／人物的警衛／守衛」。",
-        "guard-mcq-02": "「負責民用建築、屋苑、商場等保安工作的保安員」與本句語境不同。",
-        "guard-mcq-03": "「負責保護某人的護衛」與本句語境不同。",
-        "guard-mcq-04": "「專門貼身保護某人免受人身傷害的保鑣」與本句語境不同。",
-        "guard-mcq-05": "「看守、監管囚犯的獄警」與本句語境不同。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。"
+        "guard-mcq-01": "本句的「guards」指「負責看守、保護某地方／財物／人物的警衛／守衛」。",
+        "guard-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-01"
     },
@@ -1031,11 +1023,9 @@ export default {
       "masked": "The ____ asked to see my pass.",
       "options": [
         "guard-mcq-02",
-        "guard-mcq-01",
-        "guard-mcq-03",
-        "guard-mcq-04",
-        "guard-mcq-05",
-        "guard-mcq-06"
+        "guard-mcq-21",
+        "guard-mcq-37",
+        "guard-mcq-12"
       ],
       "explanation": "本句的「security guard」指「負責民用建築、屋苑、商場等保安工作的保安員」。",
       "sentenceIndex": 4,
@@ -1044,12 +1034,10 @@ export default {
         "security guard"
       ],
       "optionReasons": {
-        "guard-mcq-02": "本句指「負責民用建築、屋苑、商場等保安工作的保安員」。",
-        "guard-mcq-01": "「負責看守、保護某地方／財物／人物的警衛／守衛」與本句語境不同。",
-        "guard-mcq-03": "「負責保護某人的護衛」與本句語境不同。",
-        "guard-mcq-04": "「專門貼身保護某人免受人身傷害的保鑣」與本句語境不同。",
-        "guard-mcq-05": "「看守、監管囚犯的獄警」與本句語境不同。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。"
+        "guard-mcq-02": "本句的「security guard」指「負責民用建築、屋苑、商場等保安工作的保安員」。",
+        "guard-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-02"
     },
@@ -1061,11 +1049,9 @@ export default {
       "masked": "A ____ patrols the building at night.",
       "options": [
         "guard-mcq-02",
-        "guard-mcq-01",
-        "guard-mcq-03",
-        "guard-mcq-04",
-        "guard-mcq-05",
-        "guard-mcq-06"
+        "guard-mcq-40",
+        "guard-mcq-27",
+        "guard-mcq-12"
       ],
       "explanation": "本句的「security guard」指「負責民用建築、屋苑、商場等保安工作的保安員」。",
       "sentenceIndex": 5,
@@ -1074,12 +1060,10 @@ export default {
         "security guard"
       ],
       "optionReasons": {
-        "guard-mcq-02": "本句指「負責民用建築、屋苑、商場等保安工作的保安員」。",
-        "guard-mcq-01": "「負責看守、保護某地方／財物／人物的警衛／守衛」與本句語境不同。",
-        "guard-mcq-03": "「負責保護某人的護衛」與本句語境不同。",
-        "guard-mcq-04": "「專門貼身保護某人免受人身傷害的保鑣」與本句語境不同。",
-        "guard-mcq-05": "「看守、監管囚犯的獄警」與本句語境不同。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。"
+        "guard-mcq-02": "本句的「security guard」指「負責民用建築、屋苑、商場等保安工作的保安員」。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-02"
     },
@@ -1091,11 +1075,9 @@ export default {
       "masked": "Two armed ____ accompanied the official.",
       "options": [
         "guard-mcq-03",
-        "guard-mcq-02",
-        "guard-mcq-04",
-        "guard-mcq-01",
-        "guard-mcq-05",
-        "guard-mcq-06"
+        "guard-mcq-37",
+        "guard-mcq-40",
+        "guard-mcq-05"
       ],
       "explanation": "本句的「guards」指「負責保護某人的護衛」。",
       "sentenceIndex": 6,
@@ -1104,12 +1086,10 @@ export default {
         "guards"
       ],
       "optionReasons": {
-        "guard-mcq-03": "本句指「負責保護某人的護衛」。",
-        "guard-mcq-02": "「負責民用建築、屋苑、商場等保安工作的保安員」與本句語境不同。",
-        "guard-mcq-04": "「專門貼身保護某人免受人身傷害的保鑣」與本句語境不同。",
-        "guard-mcq-01": "「負責看守、保護某地方／財物／人物的警衛／守衛」與本句語境不同。",
-        "guard-mcq-05": "「看守、監管囚犯的獄警」與本句語境不同。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。"
+        "guard-mcq-03": "本句的「guards」指「負責保護某人的護衛」。",
+        "guard-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-03"
     },
@@ -1121,11 +1101,9 @@ export default {
       "masked": "The prisoner was surrounded by ____.",
       "options": [
         "guard-mcq-03",
-        "guard-mcq-02",
-        "guard-mcq-04",
-        "guard-mcq-01",
-        "guard-mcq-05",
-        "guard-mcq-06"
+        "guard-mcq-15",
+        "guard-mcq-11",
+        "guard-mcq-05"
       ],
       "explanation": "本句的「guards」指「負責保護某人的護衛」。",
       "sentenceIndex": 7,
@@ -1134,12 +1112,10 @@ export default {
         "guards"
       ],
       "optionReasons": {
-        "guard-mcq-03": "本句指「負責保護某人的護衛」。",
-        "guard-mcq-02": "「負責民用建築、屋苑、商場等保安工作的保安員」與本句語境不同。",
-        "guard-mcq-04": "「專門貼身保護某人免受人身傷害的保鑣」與本句語境不同。",
-        "guard-mcq-01": "「負責看守、保護某地方／財物／人物的警衛／守衛」與本句語境不同。",
-        "guard-mcq-05": "「看守、監管囚犯的獄警」與本句語境不同。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。"
+        "guard-mcq-03": "本句的「guards」指「負責保護某人的護衛」。",
+        "guard-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-03"
     },
@@ -1151,11 +1127,9 @@ export default {
       "masked": "The singer travelled with a ____.",
       "options": [
         "guard-mcq-04",
-        "guard-mcq-03",
         "guard-mcq-05",
-        "guard-mcq-02",
-        "guard-mcq-06",
-        "guard-mcq-01"
+        "guard-mcq-18",
+        "guard-mcq-15"
       ],
       "explanation": "本句的「bodyguard」指「專門貼身保護某人免受人身傷害的保鑣」。",
       "sentenceIndex": 8,
@@ -1164,12 +1138,10 @@ export default {
         "bodyguard"
       ],
       "optionReasons": {
-        "guard-mcq-04": "本句指「專門貼身保護某人免受人身傷害的保鑣」。",
-        "guard-mcq-03": "「負責保護某人的護衛」與本句語境不同。",
-        "guard-mcq-05": "「看守、監管囚犯的獄警」與本句語境不同。",
-        "guard-mcq-02": "「負責民用建築、屋苑、商場等保安工作的保安員」與本句語境不同。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。",
-        "guard-mcq-01": "「負責看守、保護某地方／財物／人物的警衛／守衛」與本句語境不同。"
+        "guard-mcq-04": "本句的「bodyguard」指「專門貼身保護某人免受人身傷害的保鑣」。",
+        "guard-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-04"
     },
@@ -1181,11 +1153,9 @@ export default {
       "masked": "His ____ stayed close to him.",
       "options": [
         "guard-mcq-04",
-        "guard-mcq-03",
-        "guard-mcq-05",
-        "guard-mcq-02",
-        "guard-mcq-06",
-        "guard-mcq-01"
+        "guard-mcq-29",
+        "guard-mcq-31",
+        "guard-mcq-40"
       ],
       "explanation": "本句的「bodyguards」指「專門貼身保護某人免受人身傷害的保鑣」。",
       "sentenceIndex": 9,
@@ -1194,12 +1164,10 @@ export default {
         "bodyguards"
       ],
       "optionReasons": {
-        "guard-mcq-04": "本句指「專門貼身保護某人免受人身傷害的保鑣」。",
-        "guard-mcq-03": "「負責保護某人的護衛」與本句語境不同。",
-        "guard-mcq-05": "「看守、監管囚犯的獄警」與本句語境不同。",
-        "guard-mcq-02": "「負責民用建築、屋苑、商場等保安工作的保安員」與本句語境不同。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。",
-        "guard-mcq-01": "「負責看守、保護某地方／財物／人物的警衛／守衛」與本句語境不同。"
+        "guard-mcq-04": "本句的「bodyguards」指「專門貼身保護某人免受人身傷害的保鑣」。",
+        "guard-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-04"
     },
@@ -1211,11 +1179,9 @@ export default {
       "masked": "A ____ opened the cell door.",
       "options": [
         "guard-mcq-05",
-        "guard-mcq-04",
-        "guard-mcq-06",
-        "guard-mcq-03",
-        "guard-mcq-07",
-        "guard-mcq-02"
+        "guard-mcq-09",
+        "guard-mcq-38",
+        "guard-mcq-43"
       ],
       "explanation": "本句的「prison guard」指「看守、監管囚犯的獄警」。",
       "sentenceIndex": 10,
@@ -1224,12 +1190,10 @@ export default {
         "prison guard"
       ],
       "optionReasons": {
-        "guard-mcq-05": "本句指「看守、監管囚犯的獄警」。",
-        "guard-mcq-04": "「專門貼身保護某人免受人身傷害的保鑣」與本句語境不同。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。",
-        "guard-mcq-03": "「負責保護某人的護衛」與本句語境不同。",
-        "guard-mcq-07": "「看守並保護地方、物品、入口等」與本句語境不同。",
-        "guard-mcq-02": "「負責民用建築、屋苑、商場等保安工作的保安員」與本句語境不同。"
+        "guard-mcq-05": "本句的「prison guard」指「看守、監管囚犯的獄警」。",
+        "guard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-05"
     },
@@ -1241,11 +1205,9 @@ export default {
       "masked": "The ____ escorted the prisoner away.",
       "options": [
         "guard-mcq-05",
-        "guard-mcq-04",
-        "guard-mcq-06",
-        "guard-mcq-03",
-        "guard-mcq-07",
-        "guard-mcq-02"
+        "guard-mcq-22",
+        "guard-mcq-18",
+        "guard-mcq-43"
       ],
       "explanation": "本句的「guards」指「看守、監管囚犯的獄警」。",
       "sentenceIndex": 11,
@@ -1254,12 +1216,10 @@ export default {
         "guards"
       ],
       "optionReasons": {
-        "guard-mcq-05": "本句指「看守、監管囚犯的獄警」。",
-        "guard-mcq-04": "「專門貼身保護某人免受人身傷害的保鑣」與本句語境不同。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。",
-        "guard-mcq-03": "「負責保護某人的護衛」與本句語境不同。",
-        "guard-mcq-07": "「看守並保護地方、物品、入口等」與本句語境不同。",
-        "guard-mcq-02": "「負責民用建築、屋苑、商場等保安工作的保安員」與本句語境不同。"
+        "guard-mcq-05": "本句的「guards」指「看守、監管囚犯的獄警」。",
+        "guard-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-05"
     },
@@ -1271,11 +1231,9 @@ export default {
       "masked": "Two officers ____.",
       "options": [
         "guard-mcq-05",
-        "guard-mcq-04",
-        "guard-mcq-06",
-        "guard-mcq-03",
-        "guard-mcq-07",
-        "guard-mcq-02"
+        "guard-mcq-24",
+        "guard-mcq-37",
+        "guard-mcq-15"
       ],
       "explanation": "本句的「guarded the prisoner」指「看守、監管囚犯的獄警」。",
       "sentenceIndex": 12,
@@ -1284,12 +1242,10 @@ export default {
         "guarded the prisoner"
       ],
       "optionReasons": {
-        "guard-mcq-05": "本句指「看守、監管囚犯的獄警」。",
-        "guard-mcq-04": "「專門貼身保護某人免受人身傷害的保鑣」與本句語境不同。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。",
-        "guard-mcq-03": "「負責保護某人的護衛」與本句語境不同。",
-        "guard-mcq-07": "「看守並保護地方、物品、入口等」與本句語境不同。",
-        "guard-mcq-02": "「負責民用建築、屋苑、商場等保安工作的保安員」與本句語境不同。"
+        "guard-mcq-05": "本句的「guarded the prisoner」指「看守、監管囚犯的獄警」。",
+        "guard-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-05"
     },
@@ -1301,11 +1257,9 @@ export default {
       "masked": "Soldiers were ordered to ____.",
       "options": [
         "guard-mcq-05",
-        "guard-mcq-04",
-        "guard-mcq-06",
-        "guard-mcq-03",
-        "guard-mcq-07",
-        "guard-mcq-02"
+        "guard-mcq-31",
+        "guard-mcq-36",
+        "guard-mcq-19"
       ],
       "explanation": "本句的「guard the captives」指「看守、監管囚犯的獄警」。",
       "sentenceIndex": 13,
@@ -1314,12 +1268,10 @@ export default {
         "guard the captives"
       ],
       "optionReasons": {
-        "guard-mcq-05": "本句指「看守、監管囚犯的獄警」。",
-        "guard-mcq-04": "「專門貼身保護某人免受人身傷害的保鑣」與本句語境不同。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。",
-        "guard-mcq-03": "「負責保護某人的護衛」與本句語境不同。",
-        "guard-mcq-07": "「看守並保護地方、物品、入口等」與本句語境不同。",
-        "guard-mcq-02": "「負責民用建築、屋苑、商場等保安工作的保安員」與本句語境不同。"
+        "guard-mcq-05": "本句的「guard the captives」指「看守、監管囚犯的獄警」。",
+        "guard-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-05"
     },
@@ -1331,11 +1283,9 @@ export default {
       "masked": "Soldiers ____.",
       "options": [
         "guard-mcq-07",
-        "guard-mcq-06",
-        "guard-mcq-08",
-        "guard-mcq-05",
-        "guard-mcq-09",
-        "guard-mcq-04"
+        "guard-mcq-14",
+        "guard-mcq-11",
+        "guard-mcq-31"
       ],
       "explanation": "本句的「guarded the bridge」指「看守並保護地方、物品、入口等」。",
       "sentenceIndex": 14,
@@ -1344,12 +1294,10 @@ export default {
         "guarded the bridge"
       ],
       "optionReasons": {
-        "guard-mcq-07": "本句指「看守並保護地方、物品、入口等」。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。",
-        "guard-mcq-08": "「把守／守衛入口、邊境等」與本句語境不同。",
-        "guard-mcq-05": "「看守、監管囚犯的獄警」與本句語境不同。",
-        "guard-mcq-09": "「採取措施防範某種風險、危險或問題」與本句語境不同。",
-        "guard-mcq-04": "「專門貼身保護某人免受人身傷害的保鑣」與本句語境不同。"
+        "guard-mcq-07": "本句的「guarded the bridge」指「看守並保護地方、物品、入口等」。",
+        "guard-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-07"
     },
@@ -1361,11 +1309,9 @@ export default {
       "masked": "The dogs ____ at night.",
       "options": [
         "guard-mcq-07",
-        "guard-mcq-06",
-        "guard-mcq-08",
-        "guard-mcq-05",
-        "guard-mcq-09",
-        "guard-mcq-04"
+        "guard-mcq-15",
+        "guard-mcq-18",
+        "guard-mcq-11"
       ],
       "explanation": "本句的「guard the house」指「看守並保護地方、物品、入口等」。",
       "sentenceIndex": 15,
@@ -1374,12 +1320,10 @@ export default {
         "guard the house"
       ],
       "optionReasons": {
-        "guard-mcq-07": "本句指「看守並保護地方、物品、入口等」。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。",
-        "guard-mcq-08": "「把守／守衛入口、邊境等」與本句語境不同。",
-        "guard-mcq-05": "「看守、監管囚犯的獄警」與本句語境不同。",
-        "guard-mcq-09": "「採取措施防範某種風險、危險或問題」與本句語境不同。",
-        "guard-mcq-04": "「專門貼身保護某人免受人身傷害的保鑣」與本句語境不同。"
+        "guard-mcq-07": "本句的「guard the house」指「看守並保護地方、物品、入口等」。",
+        "guard-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-07"
     },
@@ -1391,11 +1335,9 @@ export default {
       "masked": "Police ____.",
       "options": [
         "guard-mcq-08",
-        "guard-mcq-07",
         "guard-mcq-09",
-        "guard-mcq-06",
-        "guard-mcq-10",
-        "guard-mcq-05"
+        "guard-mcq-14",
+        "guard-mcq-11"
       ],
       "explanation": "本句的「guarded the entrance」指「把守／守衛入口、邊境等」。",
       "sentenceIndex": 16,
@@ -1404,12 +1346,10 @@ export default {
         "guarded the entrance"
       ],
       "optionReasons": {
-        "guard-mcq-08": "本句指「把守／守衛入口、邊境等」。",
-        "guard-mcq-07": "「看守並保護地方、物品、入口等」與本句語境不同。",
-        "guard-mcq-09": "「採取措施防範某種風險、危險或問題」與本句語境不同。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。",
-        "guard-mcq-10": "「保守秘密、不讓機密外洩」與本句語境不同。",
-        "guard-mcq-05": "「看守、監管囚犯的獄警」與本句語境不同。"
+        "guard-mcq-08": "本句的「guarded the entrance」指「把守／守衛入口、邊境等」。",
+        "guard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-08"
     },
@@ -1421,11 +1361,9 @@ export default {
       "masked": "Troops were sent to ____.",
       "options": [
         "guard-mcq-08",
-        "guard-mcq-07",
-        "guard-mcq-09",
-        "guard-mcq-06",
-        "guard-mcq-10",
-        "guard-mcq-05"
+        "guard-mcq-04",
+        "guard-mcq-36",
+        "guard-mcq-40"
       ],
       "explanation": "本句的「guard the border」指「把守／守衛入口、邊境等」。",
       "sentenceIndex": 17,
@@ -1434,12 +1372,10 @@ export default {
         "guard the border"
       ],
       "optionReasons": {
-        "guard-mcq-08": "本句指「把守／守衛入口、邊境等」。",
-        "guard-mcq-07": "「看守並保護地方、物品、入口等」與本句語境不同。",
-        "guard-mcq-09": "「採取措施防範某種風險、危險或問題」與本句語境不同。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。",
-        "guard-mcq-10": "「保守秘密、不讓機密外洩」與本句語境不同。",
-        "guard-mcq-05": "「看守、監管囚犯的獄警」與本句語境不同。"
+        "guard-mcq-08": "本句的「guard the border」指「把守／守衛入口、邊境等」。",
+        "guard-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-08"
     },
@@ -1451,11 +1387,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "guard-mcq-09",
-        "guard-mcq-08",
-        "guard-mcq-10",
-        "guard-mcq-07",
-        "guard-mcq-11",
-        "guard-mcq-06"
+        "guard-mcq-30",
+        "guard-mcq-20",
+        "guard-mcq-40"
       ],
       "explanation": "本句的「guard against fraud」指「採取措施防範某種風險、危險或問題」。",
       "sentenceIndex": 18,
@@ -1464,12 +1398,10 @@ export default {
         "guard against fraud"
       ],
       "optionReasons": {
-        "guard-mcq-09": "本句指「採取措施防範某種風險、危險或問題」。",
-        "guard-mcq-08": "「把守／守衛入口、邊境等」與本句語境不同。",
-        "guard-mcq-10": "「保守秘密、不讓機密外洩」與本句語境不同。",
-        "guard-mcq-07": "「看守並保護地方、物品、入口等」與本句語境不同。",
-        "guard-mcq-11": "「謹慎說話，以免說錯／說出不適當內容」與本句語境不同。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。"
+        "guard-mcq-09": "本句的「guard against fraud」指「採取措施防範某種風險、危險或問題」。",
+        "guard-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-09"
     },
@@ -1481,11 +1413,9 @@ export default {
       "masked": "Regular backups help ____.",
       "options": [
         "guard-mcq-09",
-        "guard-mcq-08",
-        "guard-mcq-10",
-        "guard-mcq-07",
+        "guard-mcq-02",
         "guard-mcq-11",
-        "guard-mcq-06"
+        "guard-mcq-05"
       ],
       "explanation": "本句的「guard against data loss」指「採取措施防範某種風險、危險或問題」。",
       "sentenceIndex": 19,
@@ -1494,12 +1424,10 @@ export default {
         "guard against data loss"
       ],
       "optionReasons": {
-        "guard-mcq-09": "本句指「採取措施防範某種風險、危險或問題」。",
-        "guard-mcq-08": "「把守／守衛入口、邊境等」與本句語境不同。",
-        "guard-mcq-10": "「保守秘密、不讓機密外洩」與本句語境不同。",
-        "guard-mcq-07": "「看守並保護地方、物品、入口等」與本句語境不同。",
-        "guard-mcq-11": "「謹慎說話，以免說錯／說出不適當內容」與本句語境不同。",
-        "guard-mcq-06": "「看守某人，防止其逃走或生事」與本句語境不同。"
+        "guard-mcq-09": "本句的「guard against data loss」指「採取措施防範某種風險、危險或問題」。",
+        "guard-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-09"
     },
@@ -1511,11 +1439,9 @@ export default {
       "masked": "She can be trusted to ____.",
       "options": [
         "guard-mcq-10",
-        "guard-mcq-09",
-        "guard-mcq-11",
-        "guard-mcq-08",
-        "guard-mcq-12",
-        "guard-mcq-07"
+        "guard-mcq-37",
+        "guard-mcq-21",
+        "guard-mcq-34"
       ],
       "explanation": "本句的「guard a secret」指「保守秘密、不讓機密外洩」。",
       "sentenceIndex": 22,
@@ -1524,12 +1450,10 @@ export default {
         "guard a secret"
       ],
       "optionReasons": {
-        "guard-mcq-10": "本句指「保守秘密、不讓機密外洩」。",
-        "guard-mcq-09": "「採取措施防範某種風險、危險或問題」與本句語境不同。",
-        "guard-mcq-11": "「謹慎說話，以免說錯／說出不適當內容」與本句語境不同。",
-        "guard-mcq-08": "「把守／守衛入口、邊境等」與本句語境不同。",
-        "guard-mcq-12": "「不輕易讓別人看出自己的情緒」與本句語境不同。",
-        "guard-mcq-07": "「看守並保護地方、物品、入口等」與本句語境不同。"
+        "guard-mcq-10": "本句的「guard a secret」指「保守秘密、不讓機密外洩」。",
+        "guard-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-10"
     },
@@ -1541,11 +1465,9 @@ export default {
       "masked": "He carefully ____.",
       "options": [
         "guard-mcq-10",
-        "guard-mcq-09",
+        "guard-mcq-35",
         "guard-mcq-11",
-        "guard-mcq-08",
-        "guard-mcq-12",
-        "guard-mcq-07"
+        "guard-mcq-21"
       ],
       "explanation": "本句的「guarded the information」指「保守秘密、不讓機密外洩」。",
       "sentenceIndex": 23,
@@ -1554,12 +1476,10 @@ export default {
         "guarded the information"
       ],
       "optionReasons": {
-        "guard-mcq-10": "本句指「保守秘密、不讓機密外洩」。",
-        "guard-mcq-09": "「採取措施防範某種風險、危險或問題」與本句語境不同。",
-        "guard-mcq-11": "「謹慎說話，以免說錯／說出不適當內容」與本句語境不同。",
-        "guard-mcq-08": "「把守／守衛入口、邊境等」與本句語境不同。",
-        "guard-mcq-12": "「不輕易讓別人看出自己的情緒」與本句語境不同。",
-        "guard-mcq-07": "「看守並保護地方、物品、入口等」與本句語境不同。"
+        "guard-mcq-10": "本句的「guarded the information」指「保守秘密、不讓機密外洩」。",
+        "guard-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-10"
     },
@@ -1571,11 +1491,9 @@ export default {
       "masked": "You should ____ in a sensitive situation.",
       "options": [
         "guard-mcq-11",
-        "guard-mcq-10",
-        "guard-mcq-12",
-        "guard-mcq-09",
-        "guard-mcq-13",
-        "guard-mcq-08"
+        "guard-mcq-29",
+        "guard-mcq-14",
+        "guard-mcq-21"
       ],
       "explanation": "本句的「guard your words」指「謹慎說話，以免說錯／說出不適當內容」。",
       "sentenceIndex": 24,
@@ -1584,12 +1502,10 @@ export default {
         "guard your words"
       ],
       "optionReasons": {
-        "guard-mcq-11": "本句指「謹慎說話，以免說錯／說出不適當內容」。",
-        "guard-mcq-10": "「保守秘密、不讓機密外洩」與本句語境不同。",
-        "guard-mcq-12": "「不輕易讓別人看出自己的情緒」與本句語境不同。",
-        "guard-mcq-09": "「採取措施防範某種風險、危險或問題」與本句語境不同。",
-        "guard-mcq-13": "「保持警覺，準備應付可能的危險」與本句語境不同。",
-        "guard-mcq-08": "「把守／守衛入口、邊境等」與本句語境不同。"
+        "guard-mcq-11": "本句的「guard your words」指「謹慎說話，以免說錯／說出不適當內容」。",
+        "guard-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-11"
     },
@@ -1601,11 +1517,9 @@ export default {
       "masked": "He learned to ____.",
       "options": [
         "guard-mcq-11",
-        "guard-mcq-10",
-        "guard-mcq-12",
-        "guard-mcq-09",
-        "guard-mcq-13",
-        "guard-mcq-08"
+        "guard-mcq-03",
+        "guard-mcq-08",
+        "guard-mcq-10"
       ],
       "explanation": "本句的「guard his tongue」指「謹慎說話，以免說錯／說出不適當內容」。",
       "sentenceIndex": 25,
@@ -1614,12 +1528,10 @@ export default {
         "guard his tongue"
       ],
       "optionReasons": {
-        "guard-mcq-11": "本句指「謹慎說話，以免說錯／說出不適當內容」。",
-        "guard-mcq-10": "「保守秘密、不讓機密外洩」與本句語境不同。",
-        "guard-mcq-12": "「不輕易讓別人看出自己的情緒」與本句語境不同。",
-        "guard-mcq-09": "「採取措施防範某種風險、危險或問題」與本句語境不同。",
-        "guard-mcq-13": "「保持警覺，準備應付可能的危險」與本句語境不同。",
-        "guard-mcq-08": "「把守／守衛入口、邊境等」與本句語境不同。"
+        "guard-mcq-11": "本句的「guard his tongue」指「謹慎說話，以免說錯／說出不適當內容」。",
+        "guard-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-11"
     },
@@ -1631,11 +1543,9 @@ export default {
       "masked": "She carefully ____.",
       "options": [
         "guard-mcq-12",
-        "guard-mcq-11",
-        "guard-mcq-13",
-        "guard-mcq-10",
-        "guard-mcq-14",
-        "guard-mcq-09"
+        "guard-mcq-28",
+        "guard-mcq-32",
+        "guard-mcq-40"
       ],
       "explanation": "本句的「guarded her emotions」指「不輕易讓別人看出自己的情緒」。",
       "sentenceIndex": 26,
@@ -1644,12 +1554,10 @@ export default {
         "guarded her emotions"
       ],
       "optionReasons": {
-        "guard-mcq-12": "本句指「不輕易讓別人看出自己的情緒」。",
-        "guard-mcq-11": "「謹慎說話，以免說錯／說出不適當內容」與本句語境不同。",
-        "guard-mcq-13": "「保持警覺，準備應付可能的危險」與本句語境不同。",
-        "guard-mcq-10": "「保守秘密、不讓機密外洩」與本句語境不同。",
-        "guard-mcq-14": "「在某人沒有準備／戒心時令其措手不及」與本句語境不同。",
-        "guard-mcq-09": "「採取措施防範某種風險、危險或問題」與本句語境不同。"
+        "guard-mcq-12": "本句的「guarded her emotions」指「不輕易讓別人看出自己的情緒」。",
+        "guard-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-12"
     },
@@ -1661,11 +1569,9 @@ export default {
       "masked": "He tends to ____ around strangers.",
       "options": [
         "guard-mcq-12",
-        "guard-mcq-11",
-        "guard-mcq-13",
-        "guard-mcq-10",
-        "guard-mcq-14",
-        "guard-mcq-09"
+        "guard-mcq-21",
+        "guard-mcq-20",
+        "guard-mcq-32"
       ],
       "explanation": "本句的「guard his feelings」指「不輕易讓別人看出自己的情緒」。",
       "sentenceIndex": 27,
@@ -1674,12 +1580,10 @@ export default {
         "guard his feelings"
       ],
       "optionReasons": {
-        "guard-mcq-12": "本句指「不輕易讓別人看出自己的情緒」。",
-        "guard-mcq-11": "「謹慎說話，以免說錯／說出不適當內容」與本句語境不同。",
-        "guard-mcq-13": "「保持警覺，準備應付可能的危險」與本句語境不同。",
-        "guard-mcq-10": "「保守秘密、不讓機密外洩」與本句語境不同。",
-        "guard-mcq-14": "「在某人沒有準備／戒心時令其措手不及」與本句語境不同。",
-        "guard-mcq-09": "「採取措施防範某種風險、危險或問題」與本句語境不同。"
+        "guard-mcq-12": "本句的「guard his feelings」指「不輕易讓別人看出自己的情緒」。",
+        "guard-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-12"
     },
@@ -1691,11 +1595,9 @@ export default {
       "masked": "Visitors were told to ____ for pickpockets.",
       "options": [
         "guard-mcq-13",
-        "guard-mcq-12",
-        "guard-mcq-14",
-        "guard-mcq-11",
-        "guard-mcq-15",
-        "guard-mcq-10"
+        "guard-mcq-31",
+        "guard-mcq-34",
+        "guard-mcq-40"
       ],
       "explanation": "本句的「be on guard」指「保持警覺，準備應付可能的危險」。",
       "sentenceIndex": 28,
@@ -1704,12 +1606,10 @@ export default {
         "be on guard"
       ],
       "optionReasons": {
-        "guard-mcq-13": "本句指「保持警覺，準備應付可能的危險」。",
-        "guard-mcq-12": "「不輕易讓別人看出自己的情緒」與本句語境不同。",
-        "guard-mcq-14": "「在某人沒有準備／戒心時令其措手不及」與本句語境不同。",
-        "guard-mcq-11": "「謹慎說話，以免說錯／說出不適當內容」與本句語境不同。",
-        "guard-mcq-15": "「減少戒備；放下戒心」與本句語境不同。",
-        "guard-mcq-10": "「保守秘密、不讓機密外洩」與本句語境不同。"
+        "guard-mcq-13": "本句的「be on guard」指「保持警覺，準備應付可能的危險」。",
+        "guard-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-13"
     },
@@ -1721,11 +1621,9 @@ export default {
       "masked": "After the incident, everyone was ____.",
       "options": [
         "guard-mcq-13",
-        "guard-mcq-12",
-        "guard-mcq-14",
-        "guard-mcq-11",
-        "guard-mcq-15",
-        "guard-mcq-10"
+        "guard-mcq-37",
+        "guard-mcq-27",
+        "guard-mcq-08"
       ],
       "explanation": "本句的「on guard」指「保持警覺，準備應付可能的危險」。",
       "sentenceIndex": 29,
@@ -1734,12 +1632,10 @@ export default {
         "on guard"
       ],
       "optionReasons": {
-        "guard-mcq-13": "本句指「保持警覺，準備應付可能的危險」。",
-        "guard-mcq-12": "「不輕易讓別人看出自己的情緒」與本句語境不同。",
-        "guard-mcq-14": "「在某人沒有準備／戒心時令其措手不及」與本句語境不同。",
-        "guard-mcq-11": "「謹慎說話，以免說錯／說出不適當內容」與本句語境不同。",
-        "guard-mcq-15": "「減少戒備；放下戒心」與本句語境不同。",
-        "guard-mcq-10": "「保守秘密、不讓機密外洩」與本句語境不同。"
+        "guard-mcq-13": "本句的「on guard」指「保持警覺，準備應付可能的危險」。",
+        "guard-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-13"
     },
@@ -1751,11 +1647,9 @@ export default {
       "masked": "The question ____.",
       "options": [
         "guard-mcq-14",
-        "guard-mcq-13",
-        "guard-mcq-15",
-        "guard-mcq-12",
-        "guard-mcq-16",
-        "guard-mcq-11"
+        "guard-mcq-25",
+        "guard-mcq-18",
+        "guard-mcq-32"
       ],
       "explanation": "本句的「caught me off guard」指「在某人沒有準備／戒心時令其措手不及」。",
       "sentenceIndex": 30,
@@ -1764,12 +1658,10 @@ export default {
         "caught me off guard"
       ],
       "optionReasons": {
-        "guard-mcq-14": "本句指「在某人沒有準備／戒心時令其措手不及」。",
-        "guard-mcq-13": "「保持警覺，準備應付可能的危險」與本句語境不同。",
-        "guard-mcq-15": "「減少戒備；放下戒心」與本句語境不同。",
-        "guard-mcq-12": "「不輕易讓別人看出自己的情緒」與本句語境不同。",
-        "guard-mcq-16": "「繼續保持戒心／警覺」與本句語境不同。",
-        "guard-mcq-11": "「謹慎說話，以免說錯／說出不適當內容」與本句語境不同。"
+        "guard-mcq-14": "本句的「caught me off guard」指「在某人沒有準備／戒心時令其措手不及」。",
+        "guard-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-14"
     },
@@ -1781,11 +1673,9 @@ export default {
       "masked": "His sudden apology ____.",
       "options": [
         "guard-mcq-14",
-        "guard-mcq-13",
-        "guard-mcq-15",
-        "guard-mcq-12",
-        "guard-mcq-16",
-        "guard-mcq-11"
+        "guard-mcq-22",
+        "guard-mcq-35",
+        "guard-mcq-18"
       ],
       "explanation": "本句的「caught her off guard」指「在某人沒有準備／戒心時令其措手不及」。",
       "sentenceIndex": 31,
@@ -1794,12 +1684,10 @@ export default {
         "caught her off guard"
       ],
       "optionReasons": {
-        "guard-mcq-14": "本句指「在某人沒有準備／戒心時令其措手不及」。",
-        "guard-mcq-13": "「保持警覺，準備應付可能的危險」與本句語境不同。",
-        "guard-mcq-15": "「減少戒備；放下戒心」與本句語境不同。",
-        "guard-mcq-12": "「不輕易讓別人看出自己的情緒」與本句語境不同。",
-        "guard-mcq-16": "「繼續保持戒心／警覺」與本句語境不同。",
-        "guard-mcq-11": "「謹慎說話，以免說錯／說出不適當內容」與本句語境不同。"
+        "guard-mcq-14": "本句的「caught her off guard」指「在某人沒有準備／戒心時令其措手不及」。",
+        "guard-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-14"
     },
@@ -1811,11 +1699,9 @@ export default {
       "masked": "She finally ____.",
       "options": [
         "guard-mcq-15",
-        "guard-mcq-14",
-        "guard-mcq-16",
-        "guard-mcq-13",
-        "guard-mcq-17",
-        "guard-mcq-12"
+        "guard-mcq-09",
+        "guard-mcq-18",
+        "guard-mcq-11"
       ],
       "explanation": "本句的「lowered her guard」指「減少戒備；放下戒心」。",
       "sentenceIndex": 32,
@@ -1824,12 +1710,10 @@ export default {
         "lowered her guard"
       ],
       "optionReasons": {
-        "guard-mcq-15": "本句指「減少戒備；放下戒心」。",
-        "guard-mcq-14": "「在某人沒有準備／戒心時令其措手不及」與本句語境不同。",
-        "guard-mcq-16": "「繼續保持戒心／警覺」與本句語境不同。",
-        "guard-mcq-13": "「保持警覺，準備應付可能的危險」與本句語境不同。",
-        "guard-mcq-17": "「緊貼並防守對方球員」與本句語境不同。",
-        "guard-mcq-12": "「不輕易讓別人看出自己的情緒」與本句語境不同。"
+        "guard-mcq-15": "本句的「lowered her guard」指「減少戒備；放下戒心」。",
+        "guard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-15"
     },
@@ -1841,11 +1725,9 @@ export default {
       "masked": "Don’t ____ too soon.",
       "options": [
         "guard-mcq-15",
-        "guard-mcq-14",
-        "guard-mcq-16",
-        "guard-mcq-13",
-        "guard-mcq-17",
-        "guard-mcq-12"
+        "guard-mcq-30",
+        "guard-mcq-09",
+        "guard-mcq-20"
       ],
       "explanation": "本句的「drop your guard」指「減少戒備；放下戒心」。",
       "sentenceIndex": 33,
@@ -1854,12 +1736,10 @@ export default {
         "drop your guard"
       ],
       "optionReasons": {
-        "guard-mcq-15": "本句指「減少戒備；放下戒心」。",
-        "guard-mcq-14": "「在某人沒有準備／戒心時令其措手不及」與本句語境不同。",
-        "guard-mcq-16": "「繼續保持戒心／警覺」與本句語境不同。",
-        "guard-mcq-13": "「保持警覺，準備應付可能的危險」與本句語境不同。",
-        "guard-mcq-17": "「緊貼並防守對方球員」與本句語境不同。",
-        "guard-mcq-12": "「不輕易讓別人看出自己的情緒」與本句語境不同。"
+        "guard-mcq-15": "本句的「drop your guard」指「減少戒備；放下戒心」。",
+        "guard-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-15"
     },
@@ -1871,11 +1751,9 @@ export default {
       "masked": "He always ____ around strangers.",
       "options": [
         "guard-mcq-16",
-        "guard-mcq-15",
-        "guard-mcq-17",
-        "guard-mcq-14",
-        "guard-mcq-18",
-        "guard-mcq-13"
+        "guard-mcq-27",
+        "guard-mcq-31",
+        "guard-mcq-12"
       ],
       "explanation": "本句的「keeps his guard up」指「繼續保持戒心／警覺」。",
       "sentenceIndex": 34,
@@ -1884,12 +1762,10 @@ export default {
         "keeps his guard up"
       ],
       "optionReasons": {
-        "guard-mcq-16": "本句指「繼續保持戒心／警覺」。",
-        "guard-mcq-15": "「減少戒備；放下戒心」與本句語境不同。",
-        "guard-mcq-17": "「緊貼並防守對方球員」與本句語境不同。",
-        "guard-mcq-14": "「在某人沒有準備／戒心時令其措手不及」與本句語境不同。",
-        "guard-mcq-18": "「籃球後衛」與本句語境不同。",
-        "guard-mcq-13": "「保持警覺，準備應付可能的危險」與本句語境不同。"
+        "guard-mcq-16": "本句的「keeps his guard up」指「繼續保持戒心／警覺」。",
+        "guard-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-16"
     },
@@ -1901,11 +1777,9 @@ export default {
       "masked": "You need to ____ during negotiations.",
       "options": [
         "guard-mcq-16",
-        "guard-mcq-15",
-        "guard-mcq-17",
-        "guard-mcq-14",
+        "guard-mcq-11",
         "guard-mcq-18",
-        "guard-mcq-13"
+        "guard-mcq-09"
       ],
       "explanation": "本句的「keep your guard up」指「繼續保持戒心／警覺」。",
       "sentenceIndex": 35,
@@ -1914,12 +1788,10 @@ export default {
         "keep your guard up"
       ],
       "optionReasons": {
-        "guard-mcq-16": "本句指「繼續保持戒心／警覺」。",
-        "guard-mcq-15": "「減少戒備；放下戒心」與本句語境不同。",
-        "guard-mcq-17": "「緊貼並防守對方球員」與本句語境不同。",
-        "guard-mcq-14": "「在某人沒有準備／戒心時令其措手不及」與本句語境不同。",
-        "guard-mcq-18": "「籃球後衛」與本句語境不同。",
-        "guard-mcq-13": "「保持警覺，準備應付可能的危險」與本句語境不同。"
+        "guard-mcq-16": "本句的「keep your guard up」指「繼續保持戒心／警覺」。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-16"
     },
@@ -1931,10 +1803,8 @@ export default {
       "masked": "He plays ____ for the school team.",
       "options": [
         "guard-mcq-18",
-        "guard-mcq-17",
-        "guard-mcq-19",
-        "guard-mcq-16",
-        "guard-mcq-20",
+        "guard-mcq-10",
+        "guard-mcq-27",
         "guard-mcq-15"
       ],
       "explanation": "本句的「guard」指「籃球後衛」。",
@@ -1944,12 +1814,10 @@ export default {
         "guard"
       ],
       "optionReasons": {
-        "guard-mcq-18": "本句指「籃球後衛」。",
-        "guard-mcq-17": "「緊貼並防守對方球員」與本句語境不同。",
-        "guard-mcq-19": "「主要負責控球及組織進攻的控球後衛」與本句語境不同。",
-        "guard-mcq-16": "「繼續保持戒心／警覺」與本句語境不同。",
-        "guard-mcq-20": "「主要負責外線得分等的得分後衛」與本句語境不同。",
-        "guard-mcq-15": "「減少戒備；放下戒心」與本句語境不同。"
+        "guard-mcq-18": "本句的「guard」指「籃球後衛」。",
+        "guard-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-18"
     },
@@ -1961,11 +1829,9 @@ export default {
       "masked": "Their starting ____ scored twenty points.",
       "options": [
         "guard-mcq-18",
-        "guard-mcq-17",
-        "guard-mcq-19",
-        "guard-mcq-16",
-        "guard-mcq-20",
-        "guard-mcq-15"
+        "guard-mcq-13",
+        "guard-mcq-41",
+        "guard-mcq-12"
       ],
       "explanation": "本句的「guard」指「籃球後衛」。",
       "sentenceIndex": 39,
@@ -1974,12 +1840,10 @@ export default {
         "guard"
       ],
       "optionReasons": {
-        "guard-mcq-18": "本句指「籃球後衛」。",
-        "guard-mcq-17": "「緊貼並防守對方球員」與本句語境不同。",
-        "guard-mcq-19": "「主要負責控球及組織進攻的控球後衛」與本句語境不同。",
-        "guard-mcq-16": "「繼續保持戒心／警覺」與本句語境不同。",
-        "guard-mcq-20": "「主要負責外線得分等的得分後衛」與本句語境不同。",
-        "guard-mcq-15": "「減少戒備；放下戒心」與本句語境不同。"
+        "guard-mcq-18": "本句的「guard」指「籃球後衛」。",
+        "guard-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-18"
     },
@@ -1991,11 +1855,9 @@ export default {
       "masked": "She is the team’s ____.",
       "options": [
         "guard-mcq-19",
-        "guard-mcq-18",
-        "guard-mcq-20",
-        "guard-mcq-17",
-        "guard-mcq-21",
-        "guard-mcq-16"
+        "guard-mcq-05",
+        "guard-mcq-16",
+        "guard-mcq-09"
       ],
       "explanation": "本句的「point guard」指「主要負責控球及組織進攻的控球後衛」。",
       "sentenceIndex": 40,
@@ -2004,12 +1866,10 @@ export default {
         "point guard"
       ],
       "optionReasons": {
-        "guard-mcq-19": "本句指「主要負責控球及組織進攻的控球後衛」。",
-        "guard-mcq-18": "「籃球後衛」與本句語境不同。",
-        "guard-mcq-20": "「主要負責外線得分等的得分後衛」與本句語境不同。",
-        "guard-mcq-17": "「緊貼並防守對方球員」與本句語境不同。",
-        "guard-mcq-21": "「防止人受傷或設備受損的護罩／防護裝置」與本句語境不同。",
-        "guard-mcq-16": "「繼續保持戒心／警覺」與本句語境不同。"
+        "guard-mcq-19": "本句的「point guard」指「主要負責控球及組織進攻的控球後衛」。",
+        "guard-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-19"
     },
@@ -2021,11 +1881,9 @@ export default {
       "masked": "The ____ brought the ball up the court.",
       "options": [
         "guard-mcq-19",
-        "guard-mcq-18",
-        "guard-mcq-20",
-        "guard-mcq-17",
-        "guard-mcq-21",
-        "guard-mcq-16"
+        "guard-mcq-10",
+        "guard-mcq-07",
+        "guard-mcq-37"
       ],
       "explanation": "本句的「point guard」指「主要負責控球及組織進攻的控球後衛」。",
       "sentenceIndex": 41,
@@ -2034,12 +1892,10 @@ export default {
         "point guard"
       ],
       "optionReasons": {
-        "guard-mcq-19": "本句指「主要負責控球及組織進攻的控球後衛」。",
-        "guard-mcq-18": "「籃球後衛」與本句語境不同。",
-        "guard-mcq-20": "「主要負責外線得分等的得分後衛」與本句語境不同。",
-        "guard-mcq-17": "「緊貼並防守對方球員」與本句語境不同。",
-        "guard-mcq-21": "「防止人受傷或設備受損的護罩／防護裝置」與本句語境不同。",
-        "guard-mcq-16": "「繼續保持戒心／警覺」與本句語境不同。"
+        "guard-mcq-19": "本句的「point guard」指「主要負責控球及組織進攻的控球後衛」。",
+        "guard-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-19"
     },
@@ -2051,11 +1907,9 @@ export default {
       "masked": "He plays ____.",
       "options": [
         "guard-mcq-20",
-        "guard-mcq-19",
-        "guard-mcq-21",
-        "guard-mcq-18",
-        "guard-mcq-22",
-        "guard-mcq-17"
+        "guard-mcq-39",
+        "guard-mcq-43",
+        "guard-mcq-37"
       ],
       "explanation": "本句的「shooting guard」指「主要負責外線得分等的得分後衛」。",
       "sentenceIndex": 42,
@@ -2064,12 +1918,10 @@ export default {
         "shooting guard"
       ],
       "optionReasons": {
-        "guard-mcq-20": "本句指「主要負責外線得分等的得分後衛」。",
-        "guard-mcq-19": "「主要負責控球及組織進攻的控球後衛」與本句語境不同。",
-        "guard-mcq-21": "「防止人受傷或設備受損的護罩／防護裝置」與本句語境不同。",
-        "guard-mcq-18": "「籃球後衛」與本句語境不同。",
-        "guard-mcq-22": "「保護刀片／使用者的刀片護罩」與本句語境不同。",
-        "guard-mcq-17": "「緊貼並防守對方球員」與本句語境不同。"
+        "guard-mcq-20": "本句的「shooting guard」指「主要負責外線得分等的得分後衛」。",
+        "guard-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-20"
     },
@@ -2081,11 +1933,9 @@ export default {
       "masked": "The ____ made three three-pointers.",
       "options": [
         "guard-mcq-20",
-        "guard-mcq-19",
-        "guard-mcq-21",
-        "guard-mcq-18",
-        "guard-mcq-22",
-        "guard-mcq-17"
+        "guard-mcq-26",
+        "guard-mcq-14",
+        "guard-mcq-37"
       ],
       "explanation": "本句的「shooting guard」指「主要負責外線得分等的得分後衛」。",
       "sentenceIndex": 43,
@@ -2094,12 +1944,10 @@ export default {
         "shooting guard"
       ],
       "optionReasons": {
-        "guard-mcq-20": "本句指「主要負責外線得分等的得分後衛」。",
-        "guard-mcq-19": "「主要負責控球及組織進攻的控球後衛」與本句語境不同。",
-        "guard-mcq-21": "「防止人受傷或設備受損的護罩／防護裝置」與本句語境不同。",
-        "guard-mcq-18": "「籃球後衛」與本句語境不同。",
-        "guard-mcq-22": "「保護刀片／使用者的刀片護罩」與本句語境不同。",
-        "guard-mcq-17": "「緊貼並防守對方球員」與本句語境不同。"
+        "guard-mcq-20": "本句的「shooting guard」指「主要負責外線得分等的得分後衛」。",
+        "guard-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-20"
     },
@@ -2111,11 +1959,9 @@ export default {
       "masked": "The machine has a safety ____ around the blade.",
       "options": [
         "guard-mcq-21",
-        "guard-mcq-20",
-        "guard-mcq-22",
-        "guard-mcq-19",
-        "guard-mcq-23",
-        "guard-mcq-18"
+        "guard-mcq-18",
+        "guard-mcq-11",
+        "guard-mcq-05"
       ],
       "explanation": "本句的「guard」指「防止人受傷或設備受損的護罩／防護裝置」。",
       "sentenceIndex": 44,
@@ -2124,12 +1970,10 @@ export default {
         "guard"
       ],
       "optionReasons": {
-        "guard-mcq-21": "本句指「防止人受傷或設備受損的護罩／防護裝置」。",
-        "guard-mcq-20": "「主要負責外線得分等的得分後衛」與本句語境不同。",
-        "guard-mcq-22": "「保護刀片／使用者的刀片護罩」與本句語境不同。",
-        "guard-mcq-19": "「主要負責控球及組織進攻的控球後衛」與本句語境不同。",
-        "guard-mcq-23": "「阻擋水、泥等飛濺的防濺板／擋泥板」與本句語境不同。",
-        "guard-mcq-18": "「籃球後衛」與本句語境不同。"
+        "guard-mcq-21": "本句的「guard」指「防止人受傷或設備受損的護罩／防護裝置」。",
+        "guard-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-21"
     },
@@ -2141,11 +1985,9 @@ export default {
       "masked": "Never operate the machine without the ____ in place.",
       "options": [
         "guard-mcq-21",
-        "guard-mcq-20",
-        "guard-mcq-22",
-        "guard-mcq-19",
-        "guard-mcq-23",
-        "guard-mcq-18"
+        "guard-mcq-11",
+        "guard-mcq-05",
+        "guard-mcq-08"
       ],
       "explanation": "本句的「guard」指「防止人受傷或設備受損的護罩／防護裝置」。",
       "sentenceIndex": 45,
@@ -2154,12 +1996,10 @@ export default {
         "guard"
       ],
       "optionReasons": {
-        "guard-mcq-21": "本句指「防止人受傷或設備受損的護罩／防護裝置」。",
-        "guard-mcq-20": "「主要負責外線得分等的得分後衛」與本句語境不同。",
-        "guard-mcq-22": "「保護刀片／使用者的刀片護罩」與本句語境不同。",
-        "guard-mcq-19": "「主要負責控球及組織進攻的控球後衛」與本句語境不同。",
-        "guard-mcq-23": "「阻擋水、泥等飛濺的防濺板／擋泥板」與本句語境不同。",
-        "guard-mcq-18": "「籃球後衛」與本句語境不同。"
+        "guard-mcq-21": "本句的「guard」指「防止人受傷或設備受損的護罩／防護裝置」。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-21"
     },
@@ -2171,11 +2011,9 @@ export default {
       "masked": "Replace the ____ before storing the tool.",
       "options": [
         "guard-mcq-22",
-        "guard-mcq-21",
-        "guard-mcq-23",
-        "guard-mcq-20",
-        "guard-mcq-24",
-        "guard-mcq-19"
+        "guard-mcq-40",
+        "guard-mcq-18",
+        "guard-mcq-11"
       ],
       "explanation": "本句的「blade guard」指「保護刀片／使用者的刀片護罩」。",
       "sentenceIndex": 46,
@@ -2184,12 +2022,10 @@ export default {
         "blade guard"
       ],
       "optionReasons": {
-        "guard-mcq-22": "本句指「保護刀片／使用者的刀片護罩」。",
-        "guard-mcq-21": "「防止人受傷或設備受損的護罩／防護裝置」與本句語境不同。",
-        "guard-mcq-23": "「阻擋水、泥等飛濺的防濺板／擋泥板」與本句語境不同。",
-        "guard-mcq-20": "「主要負責外線得分等的得分後衛」與本句語境不同。",
-        "guard-mcq-24": "「運動時保護牙齒的護齒」與本句語境不同。",
-        "guard-mcq-19": "「主要負責控球及組織進攻的控球後衛」與本句語境不同。"
+        "guard-mcq-22": "本句的「blade guard」指「保護刀片／使用者的刀片護罩」。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-22"
     },
@@ -2201,11 +2037,9 @@ export default {
       "masked": "The saw includes an automatic ____.",
       "options": [
         "guard-mcq-22",
-        "guard-mcq-21",
-        "guard-mcq-23",
-        "guard-mcq-20",
-        "guard-mcq-24",
-        "guard-mcq-19"
+        "guard-mcq-11",
+        "guard-mcq-40",
+        "guard-mcq-31"
       ],
       "explanation": "本句的「blade guard」指「保護刀片／使用者的刀片護罩」。",
       "sentenceIndex": 47,
@@ -2214,12 +2048,10 @@ export default {
         "blade guard"
       ],
       "optionReasons": {
-        "guard-mcq-22": "本句指「保護刀片／使用者的刀片護罩」。",
-        "guard-mcq-21": "「防止人受傷或設備受損的護罩／防護裝置」與本句語境不同。",
-        "guard-mcq-23": "「阻擋水、泥等飛濺的防濺板／擋泥板」與本句語境不同。",
-        "guard-mcq-20": "「主要負責外線得分等的得分後衛」與本句語境不同。",
-        "guard-mcq-24": "「運動時保護牙齒的護齒」與本句語境不同。",
-        "guard-mcq-19": "「主要負責控球及組織進攻的控球後衛」與本句語境不同。"
+        "guard-mcq-22": "本句的「blade guard」指「保護刀片／使用者的刀片護罩」。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-22"
     },
@@ -2231,11 +2063,9 @@ export default {
       "masked": "The machine has a ____.",
       "options": [
         "guard-mcq-23",
-        "guard-mcq-22",
-        "guard-mcq-24",
-        "guard-mcq-21",
-        "guard-mcq-25",
-        "guard-mcq-20"
+        "guard-mcq-15",
+        "guard-mcq-35",
+        "guard-mcq-11"
       ],
       "explanation": "本句的「splash guard」指「阻擋水、泥等飛濺的防濺板／擋泥板」。",
       "sentenceIndex": 48,
@@ -2244,12 +2074,10 @@ export default {
         "splash guard"
       ],
       "optionReasons": {
-        "guard-mcq-23": "本句指「阻擋水、泥等飛濺的防濺板／擋泥板」。",
-        "guard-mcq-22": "「保護刀片／使用者的刀片護罩」與本句語境不同。",
-        "guard-mcq-24": "「運動時保護牙齒的護齒」與本句語境不同。",
-        "guard-mcq-21": "「防止人受傷或設備受損的護罩／防護裝置」與本句語境不同。",
-        "guard-mcq-25": "「保護小腿脛骨的護脛／護腿板」與本句語境不同。",
-        "guard-mcq-20": "「主要負責外線得分等的得分後衛」與本句語境不同。"
+        "guard-mcq-23": "本句的「splash guard」指「阻擋水、泥等飛濺的防濺板／擋泥板」。",
+        "guard-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-23"
     },
@@ -2261,11 +2089,9 @@ export default {
       "masked": "The bicycle’s ____ kept mud off his clothes.",
       "options": [
         "guard-mcq-23",
-        "guard-mcq-22",
-        "guard-mcq-24",
-        "guard-mcq-21",
-        "guard-mcq-25",
-        "guard-mcq-20"
+        "guard-mcq-13",
+        "guard-mcq-10",
+        "guard-mcq-31"
       ],
       "explanation": "本句的「splash guard」指「阻擋水、泥等飛濺的防濺板／擋泥板」。",
       "sentenceIndex": 49,
@@ -2274,12 +2100,10 @@ export default {
         "splash guard"
       ],
       "optionReasons": {
-        "guard-mcq-23": "本句指「阻擋水、泥等飛濺的防濺板／擋泥板」。",
-        "guard-mcq-22": "「保護刀片／使用者的刀片護罩」與本句語境不同。",
-        "guard-mcq-24": "「運動時保護牙齒的護齒」與本句語境不同。",
-        "guard-mcq-21": "「防止人受傷或設備受損的護罩／防護裝置」與本句語境不同。",
-        "guard-mcq-25": "「保護小腿脛骨的護脛／護腿板」與本句語境不同。",
-        "guard-mcq-20": "「主要負責外線得分等的得分後衛」與本句語境不同。"
+        "guard-mcq-23": "本句的「splash guard」指「阻擋水、泥等飛濺的防濺板／擋泥板」。",
+        "guard-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-23"
     },
@@ -2291,11 +2115,9 @@ export default {
       "masked": "Boxers wear a ____.",
       "options": [
         "guard-mcq-24",
-        "guard-mcq-23",
-        "guard-mcq-25",
-        "guard-mcq-22",
-        "guard-mcq-26",
-        "guard-mcq-21"
+        "guard-mcq-29",
+        "guard-mcq-15",
+        "guard-mcq-20"
       ],
       "explanation": "本句的「mouthguard」指「運動時保護牙齒的護齒」。",
       "sentenceIndex": 50,
@@ -2304,12 +2126,10 @@ export default {
         "mouthguard"
       ],
       "optionReasons": {
-        "guard-mcq-24": "本句指「運動時保護牙齒的護齒」。",
-        "guard-mcq-23": "「阻擋水、泥等飛濺的防濺板／擋泥板」與本句語境不同。",
-        "guard-mcq-25": "「保護小腿脛骨的護脛／護腿板」與本句語境不同。",
-        "guard-mcq-22": "「保護刀片／使用者的刀片護罩」與本句語境不同。",
-        "guard-mcq-26": "「防止車輛／人離開安全範圍的護欄／防撞欄」與本句語境不同。",
-        "guard-mcq-21": "「防止人受傷或設備受損的護罩／防護裝置」與本句語境不同。"
+        "guard-mcq-24": "本句的「mouthguard」指「運動時保護牙齒的護齒」。",
+        "guard-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-24"
     },
@@ -2321,11 +2141,9 @@ export default {
       "masked": "The player forgot his ____.",
       "options": [
         "guard-mcq-24",
-        "guard-mcq-23",
-        "guard-mcq-25",
-        "guard-mcq-22",
-        "guard-mcq-26",
-        "guard-mcq-21"
+        "guard-mcq-28",
+        "guard-mcq-37",
+        "guard-mcq-15"
       ],
       "explanation": "本句的「mouthguard」指「運動時保護牙齒的護齒」。",
       "sentenceIndex": 51,
@@ -2334,12 +2152,10 @@ export default {
         "mouthguard"
       ],
       "optionReasons": {
-        "guard-mcq-24": "本句指「運動時保護牙齒的護齒」。",
-        "guard-mcq-23": "「阻擋水、泥等飛濺的防濺板／擋泥板」與本句語境不同。",
-        "guard-mcq-25": "「保護小腿脛骨的護脛／護腿板」與本句語境不同。",
-        "guard-mcq-22": "「保護刀片／使用者的刀片護罩」與本句語境不同。",
-        "guard-mcq-26": "「防止車輛／人離開安全範圍的護欄／防撞欄」與本句語境不同。",
-        "guard-mcq-21": "「防止人受傷或設備受損的護罩／防護裝置」與本句語境不同。"
+        "guard-mcq-24": "本句的「mouthguard」指「運動時保護牙齒的護齒」。",
+        "guard-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-24"
     },
@@ -2351,11 +2167,9 @@ export default {
       "masked": "Football players wear ____.",
       "options": [
         "guard-mcq-25",
-        "guard-mcq-24",
-        "guard-mcq-26",
-        "guard-mcq-23",
-        "guard-mcq-27",
-        "guard-mcq-22"
+        "guard-mcq-40",
+        "guard-mcq-37",
+        "guard-mcq-08"
       ],
       "explanation": "本句的「shin guards」指「保護小腿脛骨的護脛／護腿板」。",
       "sentenceIndex": 52,
@@ -2364,12 +2178,10 @@ export default {
         "shin guards"
       ],
       "optionReasons": {
-        "guard-mcq-25": "本句指「保護小腿脛骨的護脛／護腿板」。",
-        "guard-mcq-24": "「運動時保護牙齒的護齒」與本句語境不同。",
-        "guard-mcq-26": "「防止車輛／人離開安全範圍的護欄／防撞欄」與本句語境不同。",
-        "guard-mcq-23": "「阻擋水、泥等飛濺的防濺板／擋泥板」與本句語境不同。",
-        "guard-mcq-27": "「放在火爐前防止接觸火焰的防火護欄」與本句語境不同。",
-        "guard-mcq-22": "「保護刀片／使用者的刀片護罩」與本句語境不同。"
+        "guard-mcq-25": "本句的「shin guards」指「保護小腿脛骨的護脛／護腿板」。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-25"
     },
@@ -2381,11 +2193,9 @@ export default {
       "masked": "His ____ slipped during the match.",
       "options": [
         "guard-mcq-25",
-        "guard-mcq-24",
-        "guard-mcq-26",
-        "guard-mcq-23",
-        "guard-mcq-27",
-        "guard-mcq-22"
+        "guard-mcq-05",
+        "guard-mcq-15",
+        "guard-mcq-37"
       ],
       "explanation": "本句的「shin guard」指「保護小腿脛骨的護脛／護腿板」。",
       "sentenceIndex": 53,
@@ -2394,12 +2204,10 @@ export default {
         "shin guard"
       ],
       "optionReasons": {
-        "guard-mcq-25": "本句指「保護小腿脛骨的護脛／護腿板」。",
-        "guard-mcq-24": "「運動時保護牙齒的護齒」與本句語境不同。",
-        "guard-mcq-26": "「防止車輛／人離開安全範圍的護欄／防撞欄」與本句語境不同。",
-        "guard-mcq-23": "「阻擋水、泥等飛濺的防濺板／擋泥板」與本句語境不同。",
-        "guard-mcq-27": "「放在火爐前防止接觸火焰的防火護欄」與本句語境不同。",
-        "guard-mcq-22": "「保護刀片／使用者的刀片護罩」與本句語境不同。"
+        "guard-mcq-25": "本句的「shin guard」指「保護小腿脛骨的護脛／護腿板」。",
+        "guard-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-25"
     },
@@ -2411,11 +2219,9 @@ export default {
       "masked": "The car struck the ____.",
       "options": [
         "guard-mcq-26",
-        "guard-mcq-25",
-        "guard-mcq-27",
-        "guard-mcq-24",
-        "guard-mcq-28",
-        "guard-mcq-23"
+        "guard-mcq-31",
+        "guard-mcq-08",
+        "guard-mcq-19"
       ],
       "explanation": "本句的「guardrail」指「防止車輛／人離開安全範圍的護欄／防撞欄」。",
       "sentenceIndex": 54,
@@ -2424,12 +2230,10 @@ export default {
         "guardrail"
       ],
       "optionReasons": {
-        "guard-mcq-26": "本句指「防止車輛／人離開安全範圍的護欄／防撞欄」。",
-        "guard-mcq-25": "「保護小腿脛骨的護脛／護腿板」與本句語境不同。",
-        "guard-mcq-27": "「放在火爐前防止接觸火焰的防火護欄」與本句語境不同。",
-        "guard-mcq-24": "「運動時保護牙齒的護齒」與本句語境不同。",
-        "guard-mcq-28": "「負責守衛的衛兵／警衛隊」與本句語境不同。",
-        "guard-mcq-23": "「阻擋水、泥等飛濺的防濺板／擋泥板」與本句語境不同。"
+        "guard-mcq-26": "本句的「guardrail」指「防止車輛／人離開安全範圍的護欄／防撞欄」。",
+        "guard-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-26"
     },
@@ -2441,11 +2245,9 @@ export default {
       "masked": "A metal ____ runs along the edge of the road.",
       "options": [
         "guard-mcq-26",
-        "guard-mcq-25",
-        "guard-mcq-27",
-        "guard-mcq-24",
-        "guard-mcq-28",
-        "guard-mcq-23"
+        "guard-mcq-12",
+        "guard-mcq-20",
+        "guard-mcq-29"
       ],
       "explanation": "本句的「guardrail」指「防止車輛／人離開安全範圍的護欄／防撞欄」。",
       "sentenceIndex": 55,
@@ -2454,12 +2256,10 @@ export default {
         "guardrail"
       ],
       "optionReasons": {
-        "guard-mcq-26": "本句指「防止車輛／人離開安全範圍的護欄／防撞欄」。",
-        "guard-mcq-25": "「保護小腿脛骨的護脛／護腿板」與本句語境不同。",
-        "guard-mcq-27": "「放在火爐前防止接觸火焰的防火護欄」與本句語境不同。",
-        "guard-mcq-24": "「運動時保護牙齒的護齒」與本句語境不同。",
-        "guard-mcq-28": "「負責守衛的衛兵／警衛隊」與本句語境不同。",
-        "guard-mcq-23": "「阻擋水、泥等飛濺的防濺板／擋泥板」與本句語境不同。"
+        "guard-mcq-26": "本句的「guardrail」指「防止車輛／人離開安全範圍的護欄／防撞欄」。",
+        "guard-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-26"
     },
@@ -2471,11 +2271,9 @@ export default {
       "masked": "Put a ____ in front of the fireplace.",
       "options": [
         "guard-mcq-27",
-        "guard-mcq-26",
-        "guard-mcq-28",
-        "guard-mcq-25",
         "guard-mcq-29",
-        "guard-mcq-24"
+        "guard-mcq-32",
+        "guard-mcq-18"
       ],
       "explanation": "本句的「fireguard」指「放在火爐前防止接觸火焰的防火護欄」。",
       "sentenceIndex": 56,
@@ -2484,12 +2282,10 @@ export default {
         "fireguard"
       ],
       "optionReasons": {
-        "guard-mcq-27": "本句指「放在火爐前防止接觸火焰的防火護欄」。",
-        "guard-mcq-26": "「防止車輛／人離開安全範圍的護欄／防撞欄」與本句語境不同。",
-        "guard-mcq-28": "「負責守衛的衛兵／警衛隊」與本句語境不同。",
-        "guard-mcq-25": "「保護小腿脛骨的護脛／護腿板」與本句語境不同。",
-        "guard-mcq-29": "「站崗、守衛的警戒勤務」與本句語境不同。",
-        "guard-mcq-24": "「運動時保護牙齒的護齒」與本句語境不同。"
+        "guard-mcq-27": "本句的「fireguard」指「放在火爐前防止接觸火焰的防火護欄」。",
+        "guard-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-27"
     },
@@ -2501,11 +2297,9 @@ export default {
       "masked": "The ____ keeps children away from the flames.",
       "options": [
         "guard-mcq-27",
-        "guard-mcq-26",
-        "guard-mcq-28",
-        "guard-mcq-25",
-        "guard-mcq-29",
-        "guard-mcq-24"
+        "guard-mcq-18",
+        "guard-mcq-11",
+        "guard-mcq-28"
       ],
       "explanation": "本句的「fireguard」指「放在火爐前防止接觸火焰的防火護欄」。",
       "sentenceIndex": 57,
@@ -2514,12 +2308,10 @@ export default {
         "fireguard"
       ],
       "optionReasons": {
-        "guard-mcq-27": "本句指「放在火爐前防止接觸火焰的防火護欄」。",
-        "guard-mcq-26": "「防止車輛／人離開安全範圍的護欄／防撞欄」與本句語境不同。",
-        "guard-mcq-28": "「負責守衛的衛兵／警衛隊」與本句語境不同。",
-        "guard-mcq-25": "「保護小腿脛骨的護脛／護腿板」與本句語境不同。",
-        "guard-mcq-29": "「站崗、守衛的警戒勤務」與本句語境不同。",
-        "guard-mcq-24": "「運動時保護牙齒的護齒」與本句語境不同。"
+        "guard-mcq-27": "本句的「fireguard」指「放在火爐前防止接觸火焰的防火護欄」。",
+        "guard-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-27"
     },
@@ -2531,11 +2323,9 @@ export default {
       "masked": "An armed ____ protected the entrance.",
       "options": [
         "guard-mcq-28",
-        "guard-mcq-27",
-        "guard-mcq-29",
-        "guard-mcq-26",
-        "guard-mcq-30",
-        "guard-mcq-25"
+        "guard-mcq-24",
+        "guard-mcq-38",
+        "guard-mcq-12"
       ],
       "explanation": "本句的「guard」指「負責守衛的衛兵／警衛隊」。",
       "sentenceIndex": 58,
@@ -2544,12 +2334,10 @@ export default {
         "guard"
       ],
       "optionReasons": {
-        "guard-mcq-28": "本句指「負責守衛的衛兵／警衛隊」。",
-        "guard-mcq-27": "「放在火爐前防止接觸火焰的防火護欄」與本句語境不同。",
-        "guard-mcq-29": "「站崗、守衛的警戒勤務」與本句語境不同。",
-        "guard-mcq-26": "「防止車輛／人離開安全範圍的護欄／防撞欄」與本句語境不同。",
-        "guard-mcq-30": "「留在某處守衛／站崗」與本句語境不同。",
-        "guard-mcq-25": "「保護小腿脛骨的護脛／護腿板」與本句語境不同。"
+        "guard-mcq-28": "本句的「guard」指「負責守衛的衛兵／警衛隊」。",
+        "guard-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-28"
     },
@@ -2561,11 +2349,9 @@ export default {
       "masked": "The ____ changed at noon.",
       "options": [
         "guard-mcq-28",
-        "guard-mcq-27",
-        "guard-mcq-29",
-        "guard-mcq-26",
-        "guard-mcq-30",
-        "guard-mcq-25"
+        "guard-mcq-36",
+        "guard-mcq-21",
+        "guard-mcq-40"
       ],
       "explanation": "本句的「guard」指「負責守衛的衛兵／警衛隊」。",
       "sentenceIndex": 59,
@@ -2574,12 +2360,10 @@ export default {
         "guard"
       ],
       "optionReasons": {
-        "guard-mcq-28": "本句指「負責守衛的衛兵／警衛隊」。",
-        "guard-mcq-27": "「放在火爐前防止接觸火焰的防火護欄」與本句語境不同。",
-        "guard-mcq-29": "「站崗、守衛的警戒勤務」與本句語境不同。",
-        "guard-mcq-26": "「防止車輛／人離開安全範圍的護欄／防撞欄」與本句語境不同。",
-        "guard-mcq-30": "「留在某處守衛／站崗」與本句語境不同。",
-        "guard-mcq-25": "「保護小腿脛骨的護脛／護腿板」與本句語境不同。"
+        "guard-mcq-28": "本句的「guard」指「負責守衛的衛兵／警衛隊」。",
+        "guard-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-28"
     },
@@ -2591,11 +2375,9 @@ export default {
       "masked": "He was on ____ overnight.",
       "options": [
         "guard-mcq-29",
-        "guard-mcq-28",
-        "guard-mcq-30",
-        "guard-mcq-27",
-        "guard-mcq-31",
-        "guard-mcq-26"
+        "guard-mcq-04",
+        "guard-mcq-36",
+        "guard-mcq-35"
       ],
       "explanation": "本句的「guard duty」指「站崗、守衛的警戒勤務」。",
       "sentenceIndex": 60,
@@ -2604,12 +2386,10 @@ export default {
         "guard duty"
       ],
       "optionReasons": {
-        "guard-mcq-29": "本句指「站崗、守衛的警戒勤務」。",
-        "guard-mcq-28": "「負責守衛的衛兵／警衛隊」與本句語境不同。",
-        "guard-mcq-30": "「留在某處守衛／站崗」與本句語境不同。",
-        "guard-mcq-27": "「放在火爐前防止接觸火焰的防火護欄」與本句語境不同。",
-        "guard-mcq-31": "「一批衛兵接替另一批的換崗／交接儀式」與本句語境不同。",
-        "guard-mcq-26": "「防止車輛／人離開安全範圍的護欄／防撞欄」與本句語境不同。"
+        "guard-mcq-29": "本句的「guard duty」指「站崗、守衛的警戒勤務」。",
+        "guard-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-29"
     },
@@ -2621,11 +2401,9 @@ export default {
       "masked": "Two soldiers were assigned to ____.",
       "options": [
         "guard-mcq-29",
-        "guard-mcq-28",
-        "guard-mcq-30",
-        "guard-mcq-27",
-        "guard-mcq-31",
-        "guard-mcq-26"
+        "guard-mcq-25",
+        "guard-mcq-37",
+        "guard-mcq-02"
       ],
       "explanation": "本句的「guard duty」指「站崗、守衛的警戒勤務」。",
       "sentenceIndex": 61,
@@ -2634,12 +2412,10 @@ export default {
         "guard duty"
       ],
       "optionReasons": {
-        "guard-mcq-29": "本句指「站崗、守衛的警戒勤務」。",
-        "guard-mcq-28": "「負責守衛的衛兵／警衛隊」與本句語境不同。",
-        "guard-mcq-30": "「留在某處守衛／站崗」與本句語境不同。",
-        "guard-mcq-27": "「放在火爐前防止接觸火焰的防火護欄」與本句語境不同。",
-        "guard-mcq-31": "「一批衛兵接替另一批的換崗／交接儀式」與本句語境不同。",
-        "guard-mcq-26": "「防止車輛／人離開安全範圍的護欄／防撞欄」與本句語境不同。"
+        "guard-mcq-29": "本句的「guard duty」指「站崗、守衛的警戒勤務」。",
+        "guard-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-29"
     },
@@ -2651,11 +2427,9 @@ export default {
       "masked": "Soldiers ____ outside the building.",
       "options": [
         "guard-mcq-30",
-        "guard-mcq-29",
-        "guard-mcq-31",
-        "guard-mcq-28",
-        "guard-mcq-32",
-        "guard-mcq-27"
+        "guard-mcq-04",
+        "guard-mcq-11",
+        "guard-mcq-15"
       ],
       "explanation": "本句的「stood guard」指「留在某處守衛／站崗」。",
       "sentenceIndex": 62,
@@ -2664,12 +2438,10 @@ export default {
         "stood guard"
       ],
       "optionReasons": {
-        "guard-mcq-30": "本句指「留在某處守衛／站崗」。",
-        "guard-mcq-29": "「站崗、守衛的警戒勤務」與本句語境不同。",
-        "guard-mcq-31": "「一批衛兵接替另一批的換崗／交接儀式」與本句語境不同。",
-        "guard-mcq-28": "「負責守衛的衛兵／警衛隊」與本句語境不同。",
-        "guard-mcq-32": "「長期掌權、通常較傳統保守的老一派／元老派」與本句語境不同。",
-        "guard-mcq-27": "「放在火爐前防止接觸火焰的防火護欄」與本句語境不同。"
+        "guard-mcq-30": "本句的「stood guard」指「留在某處守衛／站崗」。",
+        "guard-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-30"
     },
@@ -2681,11 +2453,9 @@ export default {
       "masked": "One officer ____ at the door.",
       "options": [
         "guard-mcq-30",
-        "guard-mcq-29",
-        "guard-mcq-31",
-        "guard-mcq-28",
-        "guard-mcq-32",
-        "guard-mcq-27"
+        "guard-mcq-22",
+        "guard-mcq-35",
+        "guard-mcq-40"
       ],
       "explanation": "本句的「stood guard」指「留在某處守衛／站崗」。",
       "sentenceIndex": 63,
@@ -2694,12 +2464,10 @@ export default {
         "stood guard"
       ],
       "optionReasons": {
-        "guard-mcq-30": "本句指「留在某處守衛／站崗」。",
-        "guard-mcq-29": "「站崗、守衛的警戒勤務」與本句語境不同。",
-        "guard-mcq-31": "「一批衛兵接替另一批的換崗／交接儀式」與本句語境不同。",
-        "guard-mcq-28": "「負責守衛的衛兵／警衛隊」與本句語境不同。",
-        "guard-mcq-32": "「長期掌權、通常較傳統保守的老一派／元老派」與本句語境不同。",
-        "guard-mcq-27": "「放在火爐前防止接觸火焰的防火護欄」與本句語境不同。"
+        "guard-mcq-30": "本句的「stood guard」指「留在某處守衛／站崗」。",
+        "guard-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-30"
     },
@@ -2711,11 +2479,9 @@ export default {
       "masked": "Tourists watched the ____.",
       "options": [
         "guard-mcq-31",
-        "guard-mcq-30",
-        "guard-mcq-32",
-        "guard-mcq-29",
-        "guard-mcq-33",
-        "guard-mcq-28"
+        "guard-mcq-38",
+        "guard-mcq-09",
+        "guard-mcq-05"
       ],
       "explanation": "本句的「changing of the guard」指「一批衛兵接替另一批的換崗／交接儀式」。",
       "sentenceIndex": 65,
@@ -2724,12 +2490,10 @@ export default {
         "changing of the guard"
       ],
       "optionReasons": {
-        "guard-mcq-31": "本句指「一批衛兵接替另一批的換崗／交接儀式」。",
-        "guard-mcq-30": "「留在某處守衛／站崗」與本句語境不同。",
-        "guard-mcq-32": "「長期掌權、通常較傳統保守的老一派／元老派」與本句語境不同。",
-        "guard-mcq-29": "「站崗、守衛的警戒勤務」與本句語境不同。",
-        "guard-mcq-33": "「保護某人／某事的守護者」與本句語境不同。",
-        "guard-mcq-28": "「負責守衛的衛兵／警衛隊」與本句語境不同。"
+        "guard-mcq-31": "本句的「changing of the guard」指「一批衛兵接替另一批的換崗／交接儀式」。",
+        "guard-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-31"
     },
@@ -2741,11 +2505,9 @@ export default {
       "masked": "The ____ takes place each morning.",
       "options": [
         "guard-mcq-31",
-        "guard-mcq-30",
-        "guard-mcq-32",
-        "guard-mcq-29",
         "guard-mcq-33",
-        "guard-mcq-28"
+        "guard-mcq-36",
+        "guard-mcq-35"
       ],
       "explanation": "本句的「changing of the guard」指「一批衛兵接替另一批的換崗／交接儀式」。",
       "sentenceIndex": 66,
@@ -2754,12 +2516,10 @@ export default {
         "changing of the guard"
       ],
       "optionReasons": {
-        "guard-mcq-31": "本句指「一批衛兵接替另一批的換崗／交接儀式」。",
-        "guard-mcq-30": "「留在某處守衛／站崗」與本句語境不同。",
-        "guard-mcq-32": "「長期掌權、通常較傳統保守的老一派／元老派」與本句語境不同。",
-        "guard-mcq-29": "「站崗、守衛的警戒勤務」與本句語境不同。",
-        "guard-mcq-33": "「保護某人／某事的守護者」與本句語境不同。",
-        "guard-mcq-28": "「負責守衛的衛兵／警衛隊」與本句語境不同。"
+        "guard-mcq-31": "本句的「changing of the guard」指「一批衛兵接替另一批的換崗／交接儀式」。",
+        "guard-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-31"
     },
@@ -2771,11 +2531,9 @@ export default {
       "masked": "The reformers challenged the ____.",
       "options": [
         "guard-mcq-32",
-        "guard-mcq-31",
-        "guard-mcq-33",
-        "guard-mcq-30",
-        "guard-mcq-34",
-        "guard-mcq-29"
+        "guard-mcq-21",
+        "guard-mcq-15",
+        "guard-mcq-18"
       ],
       "explanation": "本句的「old guard」指「長期掌權、通常較傳統保守的老一派／元老派」。",
       "sentenceIndex": 67,
@@ -2784,12 +2542,10 @@ export default {
         "old guard"
       ],
       "optionReasons": {
-        "guard-mcq-32": "本句指「長期掌權、通常較傳統保守的老一派／元老派」。",
-        "guard-mcq-31": "「一批衛兵接替另一批的換崗／交接儀式」與本句語境不同。",
-        "guard-mcq-33": "「保護某人／某事的守護者」與本句語境不同。",
-        "guard-mcq-30": "「留在某處守衛／站崗」與本句語境不同。",
-        "guard-mcq-34": "「對兒童等負法律照顧責任的監護人」與本句語境不同。",
-        "guard-mcq-29": "「站崗、守衛的警戒勤務」與本句語境不同。"
+        "guard-mcq-32": "本句的「old guard」指「長期掌權、通常較傳統保守的老一派／元老派」。",
+        "guard-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-32"
     },
@@ -2801,11 +2557,9 @@ export default {
       "masked": "Some members of the ____ resisted the changes.",
       "options": [
         "guard-mcq-32",
-        "guard-mcq-31",
-        "guard-mcq-33",
-        "guard-mcq-30",
-        "guard-mcq-34",
-        "guard-mcq-29"
+        "guard-mcq-19",
+        "guard-mcq-11",
+        "guard-mcq-09"
       ],
       "explanation": "本句的「old guard」指「長期掌權、通常較傳統保守的老一派／元老派」。",
       "sentenceIndex": 68,
@@ -2814,12 +2568,10 @@ export default {
         "old guard"
       ],
       "optionReasons": {
-        "guard-mcq-32": "本句指「長期掌權、通常較傳統保守的老一派／元老派」。",
-        "guard-mcq-31": "「一批衛兵接替另一批的換崗／交接儀式」與本句語境不同。",
-        "guard-mcq-33": "「保護某人／某事的守護者」與本句語境不同。",
-        "guard-mcq-30": "「留在某處守衛／站崗」與本句語境不同。",
-        "guard-mcq-34": "「對兒童等負法律照顧責任的監護人」與本句語境不同。",
-        "guard-mcq-29": "「站崗、守衛的警戒勤務」與本句語境不同。"
+        "guard-mcq-32": "本句的「old guard」指「長期掌權、通常較傳統保守的老一派／元老派」。",
+        "guard-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-32"
     },
@@ -2831,11 +2583,9 @@ export default {
       "masked": "The organization sees itself as a ____.",
       "options": [
         "guard-mcq-33",
-        "guard-mcq-32",
-        "guard-mcq-34",
+        "guard-mcq-18",
         "guard-mcq-31",
-        "guard-mcq-35",
-        "guard-mcq-30"
+        "guard-mcq-11"
       ],
       "explanation": "本句的「guardian of tradition」指「保護某人／某事的守護者」。",
       "sentenceIndex": 69,
@@ -2844,12 +2594,10 @@ export default {
         "guardian of tradition"
       ],
       "optionReasons": {
-        "guard-mcq-33": "本句指「保護某人／某事的守護者」。",
-        "guard-mcq-32": "「長期掌權、通常較傳統保守的老一派／元老派」與本句語境不同。",
-        "guard-mcq-34": "「對兒童等負法律照顧責任的監護人」與本句語境不同。",
-        "guard-mcq-31": "「一批衛兵接替另一批的換崗／交接儀式」與本句語境不同。",
-        "guard-mcq-35": "「法律上的監護責任／監護權」與本句語境不同。",
-        "guard-mcq-30": "「留在某處守衛／站崗」與本句語境不同。"
+        "guard-mcq-33": "本句的「guardian of tradition」指「保護某人／某事的守護者」。",
+        "guard-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-33"
     },
@@ -2861,11 +2609,9 @@ export default {
       "masked": "Parents are often described as ____ of their children’s welfare.",
       "options": [
         "guard-mcq-33",
-        "guard-mcq-32",
-        "guard-mcq-34",
+        "guard-mcq-43",
         "guard-mcq-31",
-        "guard-mcq-35",
-        "guard-mcq-30"
+        "guard-mcq-11"
       ],
       "explanation": "本句的「guardians」指「保護某人／某事的守護者」。",
       "sentenceIndex": 70,
@@ -2874,12 +2620,10 @@ export default {
         "guardians"
       ],
       "optionReasons": {
-        "guard-mcq-33": "本句指「保護某人／某事的守護者」。",
-        "guard-mcq-32": "「長期掌權、通常較傳統保守的老一派／元老派」與本句語境不同。",
-        "guard-mcq-34": "「對兒童等負法律照顧責任的監護人」與本句語境不同。",
-        "guard-mcq-31": "「一批衛兵接替另一批的換崗／交接儀式」與本句語境不同。",
-        "guard-mcq-35": "「法律上的監護責任／監護權」與本句語境不同。",
-        "guard-mcq-30": "「留在某處守衛／站崗」與本句語境不同。"
+        "guard-mcq-33": "本句的「guardians」指「保護某人／某事的守護者」。",
+        "guard-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-33"
     },
@@ -2891,11 +2635,9 @@ export default {
       "masked": "The form must be signed by a parent or ____.",
       "options": [
         "guard-mcq-34",
-        "guard-mcq-33",
-        "guard-mcq-35",
-        "guard-mcq-32",
-        "guard-mcq-36",
-        "guard-mcq-31"
+        "guard-mcq-11",
+        "guard-mcq-40",
+        "guard-mcq-30"
       ],
       "explanation": "本句的「guardian」指「對兒童等負法律照顧責任的監護人」。",
       "sentenceIndex": 71,
@@ -2904,12 +2646,10 @@ export default {
         "guardian"
       ],
       "optionReasons": {
-        "guard-mcq-34": "本句指「對兒童等負法律照顧責任的監護人」。",
-        "guard-mcq-33": "「保護某人／某事的守護者」與本句語境不同。",
-        "guard-mcq-35": "「法律上的監護責任／監護權」與本句語境不同。",
-        "guard-mcq-32": "「長期掌權、通常較傳統保守的老一派／元老派」與本句語境不同。",
-        "guard-mcq-36": "「說話、態度謹慎並有所保留的」與本句語境不同。",
-        "guard-mcq-31": "「一批衛兵接替另一批的換崗／交接儀式」與本句語境不同。"
+        "guard-mcq-34": "本句的「guardian」指「對兒童等負法律照顧責任的監護人」。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-34"
     },
@@ -2921,11 +2661,9 @@ export default {
       "masked": "Her aunt became her legal ____.",
       "options": [
         "guard-mcq-34",
-        "guard-mcq-33",
-        "guard-mcq-35",
-        "guard-mcq-32",
-        "guard-mcq-36",
-        "guard-mcq-31"
+        "guard-mcq-29",
+        "guard-mcq-10",
+        "guard-mcq-12"
       ],
       "explanation": "本句的「guardian」指「對兒童等負法律照顧責任的監護人」。",
       "sentenceIndex": 72,
@@ -2934,12 +2672,10 @@ export default {
         "guardian"
       ],
       "optionReasons": {
-        "guard-mcq-34": "本句指「對兒童等負法律照顧責任的監護人」。",
-        "guard-mcq-33": "「保護某人／某事的守護者」與本句語境不同。",
-        "guard-mcq-35": "「法律上的監護責任／監護權」與本句語境不同。",
-        "guard-mcq-32": "「長期掌權、通常較傳統保守的老一派／元老派」與本句語境不同。",
-        "guard-mcq-36": "「說話、態度謹慎並有所保留的」與本句語境不同。",
-        "guard-mcq-31": "「一批衛兵接替另一批的換崗／交接儀式」與本句語境不同。"
+        "guard-mcq-34": "本句的「guardian」指「對兒童等負法律照顧責任的監護人」。",
+        "guard-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-34"
     },
@@ -2951,11 +2687,9 @@ export default {
       "masked": "The court granted him ____ of the child.",
       "options": [
         "guard-mcq-35",
-        "guard-mcq-34",
-        "guard-mcq-36",
-        "guard-mcq-33",
-        "guard-mcq-37",
-        "guard-mcq-32"
+        "guard-mcq-38",
+        "guard-mcq-31",
+        "guard-mcq-10"
       ],
       "explanation": "本句的「guardianship」指「法律上的監護責任／監護權」。",
       "sentenceIndex": 73,
@@ -2964,12 +2698,10 @@ export default {
         "guardianship"
       ],
       "optionReasons": {
-        "guard-mcq-35": "本句指「法律上的監護責任／監護權」。",
-        "guard-mcq-34": "「對兒童等負法律照顧責任的監護人」與本句語境不同。",
-        "guard-mcq-36": "「說話、態度謹慎並有所保留的」與本句語境不同。",
-        "guard-mcq-33": "「保護某人／某事的守護者」與本句語境不同。",
-        "guard-mcq-37": "「對結果抱希望但仍很謹慎的審慎樂觀」與本句語境不同。",
-        "guard-mcq-32": "「長期掌權、通常較傳統保守的老一派／元老派」與本句語境不同。"
+        "guard-mcq-35": "本句的「guardianship」指「法律上的監護責任／監護權」。",
+        "guard-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-35"
     },
@@ -2981,11 +2713,9 @@ export default {
       "masked": "The case involved a dispute over ____.",
       "options": [
         "guard-mcq-35",
-        "guard-mcq-34",
-        "guard-mcq-36",
-        "guard-mcq-33",
-        "guard-mcq-37",
-        "guard-mcq-32"
+        "guard-mcq-16",
+        "guard-mcq-12",
+        "guard-mcq-09"
       ],
       "explanation": "本句的「guardianship」指「法律上的監護責任／監護權」。",
       "sentenceIndex": 74,
@@ -2994,12 +2724,10 @@ export default {
         "guardianship"
       ],
       "optionReasons": {
-        "guard-mcq-35": "本句指「法律上的監護責任／監護權」。",
-        "guard-mcq-34": "「對兒童等負法律照顧責任的監護人」與本句語境不同。",
-        "guard-mcq-36": "「說話、態度謹慎並有所保留的」與本句語境不同。",
-        "guard-mcq-33": "「保護某人／某事的守護者」與本句語境不同。",
-        "guard-mcq-37": "「對結果抱希望但仍很謹慎的審慎樂觀」與本句語境不同。",
-        "guard-mcq-32": "「長期掌權、通常較傳統保守的老一派／元老派」與本句語境不同。"
+        "guard-mcq-35": "本句的「guardianship」指「法律上的監護責任／監護權」。",
+        "guard-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-35"
     },
@@ -3011,11 +2739,9 @@ export default {
       "masked": "She gave a ____.",
       "options": [
         "guard-mcq-36",
-        "guard-mcq-35",
-        "guard-mcq-37",
-        "guard-mcq-34",
-        "guard-mcq-38",
-        "guard-mcq-33"
+        "guard-mcq-27",
+        "guard-mcq-19",
+        "guard-mcq-43"
       ],
       "explanation": "本句的「guarded response」指「說話、態度謹慎並有所保留的」。",
       "sentenceIndex": 75,
@@ -3024,12 +2750,10 @@ export default {
         "guarded response"
       ],
       "optionReasons": {
-        "guard-mcq-36": "本句指「說話、態度謹慎並有所保留的」。",
-        "guard-mcq-35": "「法律上的監護責任／監護權」與本句語境不同。",
-        "guard-mcq-37": "「對結果抱希望但仍很謹慎的審慎樂觀」與本句語境不同。",
-        "guard-mcq-34": "「對兒童等負法律照顧責任的監護人」與本句語境不同。",
-        "guard-mcq-38": "「謹慎地／有所保留地」與本句語境不同。",
-        "guard-mcq-33": "「保護某人／某事的守護者」與本句語境不同。"
+        "guard-mcq-36": "本句的「guarded response」指「說話、態度謹慎並有所保留的」。",
+        "guard-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-36"
     },
@@ -3041,11 +2765,9 @@ export default {
       "masked": "He remained ____ throughout the interview.",
       "options": [
         "guard-mcq-36",
-        "guard-mcq-35",
-        "guard-mcq-37",
-        "guard-mcq-34",
-        "guard-mcq-38",
-        "guard-mcq-33"
+        "guard-mcq-19",
+        "guard-mcq-29",
+        "guard-mcq-05"
       ],
       "explanation": "本句的「guarded」指「說話、態度謹慎並有所保留的」。",
       "sentenceIndex": 76,
@@ -3054,12 +2776,10 @@ export default {
         "guarded"
       ],
       "optionReasons": {
-        "guard-mcq-36": "本句指「說話、態度謹慎並有所保留的」。",
-        "guard-mcq-35": "「法律上的監護責任／監護權」與本句語境不同。",
-        "guard-mcq-37": "「對結果抱希望但仍很謹慎的審慎樂觀」與本句語境不同。",
-        "guard-mcq-34": "「對兒童等負法律照顧責任的監護人」與本句語境不同。",
-        "guard-mcq-38": "「謹慎地／有所保留地」與本句語境不同。",
-        "guard-mcq-33": "「保護某人／某事的守護者」與本句語境不同。"
+        "guard-mcq-36": "本句的「guarded」指「說話、態度謹慎並有所保留的」。",
+        "guard-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-36"
     },
@@ -3071,11 +2791,9 @@ export default {
       "masked": "Doctors expressed ____.",
       "options": [
         "guard-mcq-37",
-        "guard-mcq-36",
-        "guard-mcq-38",
-        "guard-mcq-35",
-        "guard-mcq-39",
-        "guard-mcq-34"
+        "guard-mcq-02",
+        "guard-mcq-13",
+        "guard-mcq-31"
       ],
       "explanation": "本句的「guarded optimism」指「對結果抱希望但仍很謹慎的審慎樂觀」。",
       "sentenceIndex": 77,
@@ -3084,12 +2802,10 @@ export default {
         "guarded optimism"
       ],
       "optionReasons": {
-        "guard-mcq-37": "本句指「對結果抱希望但仍很謹慎的審慎樂觀」。",
-        "guard-mcq-36": "「說話、態度謹慎並有所保留的」與本句語境不同。",
-        "guard-mcq-38": "「謹慎地／有所保留地」與本句語境不同。",
-        "guard-mcq-35": "「法律上的監護責任／監護權」與本句語境不同。",
-        "guard-mcq-39": "「無人看守／沒有保護的」與本句語境不同。",
-        "guard-mcq-34": "「對兒童等負法律照顧責任的監護人」與本句語境不同。"
+        "guard-mcq-37": "本句的「guarded optimism」指「對結果抱希望但仍很謹慎的審慎樂觀」。",
+        "guard-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-37"
     },
@@ -3101,11 +2817,9 @@ export default {
       "masked": "There is ____ about the plan.",
       "options": [
         "guard-mcq-37",
-        "guard-mcq-36",
-        "guard-mcq-38",
-        "guard-mcq-35",
-        "guard-mcq-39",
-        "guard-mcq-34"
+        "guard-mcq-08",
+        "guard-mcq-32",
+        "guard-mcq-22"
       ],
       "explanation": "本句的「guarded optimism」指「對結果抱希望但仍很謹慎的審慎樂觀」。",
       "sentenceIndex": 78,
@@ -3114,12 +2828,10 @@ export default {
         "guarded optimism"
       ],
       "optionReasons": {
-        "guard-mcq-37": "本句指「對結果抱希望但仍很謹慎的審慎樂觀」。",
-        "guard-mcq-36": "「說話、態度謹慎並有所保留的」與本句語境不同。",
-        "guard-mcq-38": "「謹慎地／有所保留地」與本句語境不同。",
-        "guard-mcq-35": "「法律上的監護責任／監護權」與本句語境不同。",
-        "guard-mcq-39": "「無人看守／沒有保護的」與本句語境不同。",
-        "guard-mcq-34": "「對兒童等負法律照顧責任的監護人」與本句語境不同。"
+        "guard-mcq-37": "本句的「guarded optimism」指「對結果抱希望但仍很謹慎的審慎樂觀」。",
+        "guard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-37"
     },
@@ -3131,11 +2843,9 @@ export default {
       "masked": "She responded ____.",
       "options": [
         "guard-mcq-38",
-        "guard-mcq-37",
-        "guard-mcq-39",
-        "guard-mcq-36",
-        "guard-mcq-40",
-        "guard-mcq-35"
+        "guard-mcq-19",
+        "guard-mcq-27",
+        "guard-mcq-31"
       ],
       "explanation": "本句的「guardedly」指「謹慎地／有所保留地」。",
       "sentenceIndex": 79,
@@ -3144,12 +2854,10 @@ export default {
         "guardedly"
       ],
       "optionReasons": {
-        "guard-mcq-38": "本句指「謹慎地／有所保留地」。",
-        "guard-mcq-37": "「對結果抱希望但仍很謹慎的審慎樂觀」與本句語境不同。",
-        "guard-mcq-39": "「無人看守／沒有保護的」與本句語境不同。",
-        "guard-mcq-36": "「說話、態度謹慎並有所保留的」與本句語境不同。",
-        "guard-mcq-40": "「一時放下戒心、不經意的」與本句語境不同。",
-        "guard-mcq-35": "「法律上的監護責任／監護權」與本句語境不同。"
+        "guard-mcq-38": "本句的「guardedly」指「謹慎地／有所保留地」。",
+        "guard-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-38"
     },
@@ -3161,11 +2869,9 @@ export default {
       "masked": "He spoke ____ about the negotiations.",
       "options": [
         "guard-mcq-38",
-        "guard-mcq-37",
-        "guard-mcq-39",
-        "guard-mcq-36",
-        "guard-mcq-40",
-        "guard-mcq-35"
+        "guard-mcq-23",
+        "guard-mcq-43",
+        "guard-mcq-34"
       ],
       "explanation": "本句的「guardedly」指「謹慎地／有所保留地」。",
       "sentenceIndex": 80,
@@ -3174,12 +2880,10 @@ export default {
         "guardedly"
       ],
       "optionReasons": {
-        "guard-mcq-38": "本句指「謹慎地／有所保留地」。",
-        "guard-mcq-37": "「對結果抱希望但仍很謹慎的審慎樂觀」與本句語境不同。",
-        "guard-mcq-39": "「無人看守／沒有保護的」與本句語境不同。",
-        "guard-mcq-36": "「說話、態度謹慎並有所保留的」與本句語境不同。",
-        "guard-mcq-40": "「一時放下戒心、不經意的」與本句語境不同。",
-        "guard-mcq-35": "「法律上的監護責任／監護權」與本句語境不同。"
+        "guard-mcq-38": "本句的「guardedly」指「謹慎地／有所保留地」。",
+        "guard-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-38"
     },
@@ -3191,11 +2895,9 @@ export default {
       "masked": "The entrance was left ____.",
       "options": [
         "guard-mcq-39",
-        "guard-mcq-38",
-        "guard-mcq-40",
         "guard-mcq-37",
-        "guard-mcq-41",
-        "guard-mcq-36"
+        "guard-mcq-18",
+        "guard-mcq-31"
       ],
       "explanation": "本句的「unguarded」指「無人看守／沒有保護的」。",
       "sentenceIndex": 81,
@@ -3204,12 +2906,10 @@ export default {
         "unguarded"
       ],
       "optionReasons": {
-        "guard-mcq-39": "本句指「無人看守／沒有保護的」。",
-        "guard-mcq-38": "「謹慎地／有所保留地」與本句語境不同。",
-        "guard-mcq-40": "「一時放下戒心、不經意的」與本句語境不同。",
-        "guard-mcq-37": "「對結果抱希望但仍很謹慎的審慎樂觀」與本句語境不同。",
-        "guard-mcq-41": "「防止傷害、損失、濫用等的保障／防護措施」與本句語境不同。",
-        "guard-mcq-36": "「說話、態度謹慎並有所保留的」與本句語境不同。"
+        "guard-mcq-39": "本句的「unguarded」指「無人看守／沒有保護的」。",
+        "guard-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-39"
     },
@@ -3221,11 +2921,9 @@ export default {
       "masked": "Never leave valuables ____.",
       "options": [
         "guard-mcq-39",
-        "guard-mcq-38",
-        "guard-mcq-40",
+        "guard-mcq-19",
         "guard-mcq-37",
-        "guard-mcq-41",
-        "guard-mcq-36"
+        "guard-mcq-40"
       ],
       "explanation": "本句的「unguarded」指「無人看守／沒有保護的」。",
       "sentenceIndex": 82,
@@ -3234,12 +2932,10 @@ export default {
         "unguarded"
       ],
       "optionReasons": {
-        "guard-mcq-39": "本句指「無人看守／沒有保護的」。",
-        "guard-mcq-38": "「謹慎地／有所保留地」與本句語境不同。",
-        "guard-mcq-40": "「一時放下戒心、不經意的」與本句語境不同。",
-        "guard-mcq-37": "「對結果抱希望但仍很謹慎的審慎樂觀」與本句語境不同。",
-        "guard-mcq-41": "「防止傷害、損失、濫用等的保障／防護措施」與本句語境不同。",
-        "guard-mcq-36": "「說話、態度謹慎並有所保留的」與本句語境不同。"
+        "guard-mcq-39": "本句的「unguarded」指「無人看守／沒有保護的」。",
+        "guard-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-39"
     },
@@ -3251,11 +2947,9 @@ export default {
       "masked": "He made an ____.",
       "options": [
         "guard-mcq-40",
-        "guard-mcq-39",
-        "guard-mcq-41",
-        "guard-mcq-38",
-        "guard-mcq-42",
-        "guard-mcq-37"
+        "guard-mcq-09",
+        "guard-mcq-35",
+        "guard-mcq-10"
       ],
       "explanation": "本句的「unguarded remark」指「一時放下戒心、不經意的」。",
       "sentenceIndex": 83,
@@ -3264,12 +2958,10 @@ export default {
         "unguarded remark"
       ],
       "optionReasons": {
-        "guard-mcq-40": "本句指「一時放下戒心、不經意的」。",
-        "guard-mcq-39": "「無人看守／沒有保護的」與本句語境不同。",
-        "guard-mcq-41": "「防止傷害、損失、濫用等的保障／防護措施」與本句語境不同。",
-        "guard-mcq-38": "「謹慎地／有所保留地」與本句語境不同。",
-        "guard-mcq-42": "「保護／保障某人或某物免受傷害」與本句語境不同。",
-        "guard-mcq-37": "「對結果抱希望但仍很謹慎的審慎樂觀」與本句語境不同。"
+        "guard-mcq-40": "本句的「unguarded remark」指「一時放下戒心、不經意的」。",
+        "guard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-40"
     },
@@ -3282,10 +2974,8 @@ export default {
       "options": [
         "guard-mcq-40",
         "guard-mcq-39",
-        "guard-mcq-41",
-        "guard-mcq-38",
-        "guard-mcq-42",
-        "guard-mcq-37"
+        "guard-mcq-20",
+        "guard-mcq-11"
       ],
       "explanation": "本句的「unguarded moment」指「一時放下戒心、不經意的」。",
       "sentenceIndex": 84,
@@ -3294,12 +2984,10 @@ export default {
         "unguarded moment"
       ],
       "optionReasons": {
-        "guard-mcq-40": "本句指「一時放下戒心、不經意的」。",
-        "guard-mcq-39": "「無人看守／沒有保護的」與本句語境不同。",
-        "guard-mcq-41": "「防止傷害、損失、濫用等的保障／防護措施」與本句語境不同。",
-        "guard-mcq-38": "「謹慎地／有所保留地」與本句語境不同。",
-        "guard-mcq-42": "「保護／保障某人或某物免受傷害」與本句語境不同。",
-        "guard-mcq-37": "「對結果抱希望但仍很謹慎的審慎樂觀」與本句語境不同。"
+        "guard-mcq-40": "本句的「unguarded moment」指「一時放下戒心、不經意的」。",
+        "guard-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-40"
     },
@@ -3311,11 +2999,9 @@ export default {
       "masked": "The system includes several ____.",
       "options": [
         "guard-mcq-41",
-        "guard-mcq-40",
-        "guard-mcq-42",
-        "guard-mcq-39",
         "guard-mcq-43",
-        "guard-mcq-38"
+        "guard-mcq-28",
+        "guard-mcq-11"
       ],
       "explanation": "本句的「safeguards」指「防止傷害、損失、濫用等的保障／防護措施」。",
       "sentenceIndex": 85,
@@ -3324,12 +3010,10 @@ export default {
         "safeguards"
       ],
       "optionReasons": {
-        "guard-mcq-41": "本句指「防止傷害、損失、濫用等的保障／防護措施」。",
-        "guard-mcq-40": "「一時放下戒心、不經意的」與本句語境不同。",
-        "guard-mcq-42": "「保護／保障某人或某物免受傷害」與本句語境不同。",
-        "guard-mcq-39": "「無人看守／沒有保護的」與本句語境不同。",
-        "guard-mcq-43": "「放鬆戒備／放下戒心」與本句語境不同。",
-        "guard-mcq-38": "「謹慎地／有所保留地」與本句語境不同。"
+        "guard-mcq-41": "本句的「safeguards」指「防止傷害、損失、濫用等的保障／防護措施」。",
+        "guard-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-41"
     },
@@ -3341,11 +3025,9 @@ export default {
       "masked": "Legal ____ protect consumers.",
       "options": [
         "guard-mcq-41",
-        "guard-mcq-40",
-        "guard-mcq-42",
-        "guard-mcq-39",
-        "guard-mcq-43",
-        "guard-mcq-38"
+        "guard-mcq-11",
+        "guard-mcq-12",
+        "guard-mcq-31"
       ],
       "explanation": "本句的「safeguards」指「防止傷害、損失、濫用等的保障／防護措施」。",
       "sentenceIndex": 86,
@@ -3354,12 +3036,10 @@ export default {
         "safeguards"
       ],
       "optionReasons": {
-        "guard-mcq-41": "本句指「防止傷害、損失、濫用等的保障／防護措施」。",
-        "guard-mcq-40": "「一時放下戒心、不經意的」與本句語境不同。",
-        "guard-mcq-42": "「保護／保障某人或某物免受傷害」與本句語境不同。",
-        "guard-mcq-39": "「無人看守／沒有保護的」與本句語境不同。",
-        "guard-mcq-43": "「放鬆戒備／放下戒心」與本句語境不同。",
-        "guard-mcq-38": "「謹慎地／有所保留地」與本句語境不同。"
+        "guard-mcq-41": "本句的「safeguards」指「防止傷害、損失、濫用等的保障／防護措施」。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-41"
     },
@@ -3371,11 +3051,9 @@ export default {
       "masked": "The rules are designed to ____.",
       "options": [
         "guard-mcq-42",
-        "guard-mcq-41",
-        "guard-mcq-43",
+        "guard-mcq-30",
         "guard-mcq-40",
-        "guard-mcq-44",
-        "guard-mcq-39"
+        "guard-mcq-18"
       ],
       "explanation": "本句的「safeguard children」指「保護／保障某人或某物免受傷害」。",
       "sentenceIndex": 87,
@@ -3384,12 +3062,10 @@ export default {
         "safeguard children"
       ],
       "optionReasons": {
-        "guard-mcq-42": "本句指「保護／保障某人或某物免受傷害」。",
-        "guard-mcq-41": "「防止傷害、損失、濫用等的保障／防護措施」與本句語境不同。",
-        "guard-mcq-43": "「放鬆戒備／放下戒心」與本句語境不同。",
-        "guard-mcq-40": "「一時放下戒心、不經意的」與本句語境不同。",
-        "guard-mcq-44": "「非常嚴密地保護／保守某事」與本句語境不同。",
-        "guard-mcq-39": "「無人看守／沒有保護的」與本句語境不同。"
+        "guard-mcq-42": "本句的「safeguard children」指「保護／保障某人或某物免受傷害」。",
+        "guard-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-42"
     },
@@ -3401,11 +3077,9 @@ export default {
       "masked": "Backups help ____.",
       "options": [
         "guard-mcq-42",
-        "guard-mcq-41",
-        "guard-mcq-43",
-        "guard-mcq-40",
-        "guard-mcq-44",
-        "guard-mcq-39"
+        "guard-mcq-20",
+        "guard-mcq-37",
+        "guard-mcq-43"
       ],
       "explanation": "本句的「safeguard important data」指「保護／保障某人或某物免受傷害」。",
       "sentenceIndex": 88,
@@ -3414,12 +3088,10 @@ export default {
         "safeguard important data"
       ],
       "optionReasons": {
-        "guard-mcq-42": "本句指「保護／保障某人或某物免受傷害」。",
-        "guard-mcq-41": "「防止傷害、損失、濫用等的保障／防護措施」與本句語境不同。",
-        "guard-mcq-43": "「放鬆戒備／放下戒心」與本句語境不同。",
-        "guard-mcq-40": "「一時放下戒心、不經意的」與本句語境不同。",
-        "guard-mcq-44": "「非常嚴密地保護／保守某事」與本句語境不同。",
-        "guard-mcq-39": "「無人看守／沒有保護的」與本句語境不同。"
+        "guard-mcq-42": "本句的「safeguard important data」指「保護／保障某人或某物免受傷害」。",
+        "guard-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-42"
     },
@@ -3431,11 +3103,9 @@ export default {
       "masked": "It took time before he ____.",
       "options": [
         "guard-mcq-43",
-        "guard-mcq-42",
-        "guard-mcq-44",
-        "guard-mcq-41",
-        "guard-mcq-40",
-        "guard-mcq-39"
+        "guard-mcq-04",
+        "guard-mcq-20",
+        "guard-mcq-30"
       ],
       "explanation": "本句的「let his guard down」指「放鬆戒備／放下戒心」。",
       "sentenceIndex": 89,
@@ -3444,12 +3114,10 @@ export default {
         "let his guard down"
       ],
       "optionReasons": {
-        "guard-mcq-43": "本句指「放鬆戒備／放下戒心」。",
-        "guard-mcq-42": "「保護／保障某人或某物免受傷害」與本句語境不同。",
-        "guard-mcq-44": "「非常嚴密地保護／保守某事」與本句語境不同。",
-        "guard-mcq-41": "「防止傷害、損失、濫用等的保障／防護措施」與本句語境不同。",
-        "guard-mcq-40": "「一時放下戒心、不經意的」與本句語境不同。",
-        "guard-mcq-39": "「無人看守／沒有保護的」與本句語境不同。"
+        "guard-mcq-43": "本句的「let his guard down」指「放鬆戒備／放下戒心」。",
+        "guard-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-43"
     },
@@ -3461,11 +3129,9 @@ export default {
       "masked": "She rarely ____ around strangers.",
       "options": [
         "guard-mcq-43",
-        "guard-mcq-42",
-        "guard-mcq-44",
-        "guard-mcq-41",
-        "guard-mcq-40",
-        "guard-mcq-39"
+        "guard-mcq-24",
+        "guard-mcq-10",
+        "guard-mcq-37"
       ],
       "explanation": "本句的「lets her guard down」指「放鬆戒備／放下戒心」。",
       "sentenceIndex": 90,
@@ -3474,12 +3140,10 @@ export default {
         "lets her guard down"
       ],
       "optionReasons": {
-        "guard-mcq-43": "本句指「放鬆戒備／放下戒心」。",
-        "guard-mcq-42": "「保護／保障某人或某物免受傷害」與本句語境不同。",
-        "guard-mcq-44": "「非常嚴密地保護／保守某事」與本句語境不同。",
-        "guard-mcq-41": "「防止傷害、損失、濫用等的保障／防護措施」與本句語境不同。",
-        "guard-mcq-40": "「一時放下戒心、不經意的」與本句語境不同。",
-        "guard-mcq-39": "「無人看守／沒有保護的」與本句語境不同。"
+        "guard-mcq-43": "本句的「lets her guard down」指「放鬆戒備／放下戒心」。",
+        "guard-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-43"
     },
@@ -3492,10 +3156,8 @@ export default {
       "options": [
         "guard-mcq-44",
         "guard-mcq-43",
-        "guard-mcq-42",
-        "guard-mcq-41",
-        "guard-mcq-40",
-        "guard-mcq-39"
+        "guard-mcq-18",
+        "guard-mcq-12"
       ],
       "explanation": "本句的「guarded the secret with his life」指「非常嚴密地保護／保守某事」。",
       "sentenceIndex": 91,
@@ -3504,12 +3166,10 @@ export default {
         "guarded the secret with his life"
       ],
       "optionReasons": {
-        "guard-mcq-44": "本句指「非常嚴密地保護／保守某事」。",
-        "guard-mcq-43": "「放鬆戒備／放下戒心」與本句語境不同。",
-        "guard-mcq-42": "「保護／保障某人或某物免受傷害」與本句語境不同。",
-        "guard-mcq-41": "「防止傷害、損失、濫用等的保障／防護措施」與本句語境不同。",
-        "guard-mcq-40": "「一時放下戒心、不經意的」與本句語境不同。",
-        "guard-mcq-39": "「無人看守／沒有保護的」與本句語境不同。"
+        "guard-mcq-44": "本句的「guarded the secret with his life」指「非常嚴密地保護／保守某事」。",
+        "guard-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-44"
     },
@@ -3521,11 +3181,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "guard-mcq-44",
-        "guard-mcq-43",
-        "guard-mcq-42",
-        "guard-mcq-41",
-        "guard-mcq-40",
-        "guard-mcq-39"
+        "guard-mcq-31",
+        "guard-mcq-11",
+        "guard-mcq-40"
       ],
       "explanation": "本句的「guards the recipe with her life」指「非常嚴密地保護／保守某事」。",
       "sentenceIndex": 92,
@@ -3534,12 +3192,10 @@ export default {
         "guards the recipe with her life"
       ],
       "optionReasons": {
-        "guard-mcq-44": "本句指「非常嚴密地保護／保守某事」。",
-        "guard-mcq-43": "「放鬆戒備／放下戒心」與本句語境不同。",
-        "guard-mcq-42": "「保護／保障某人或某物免受傷害」與本句語境不同。",
-        "guard-mcq-41": "「防止傷害、損失、濫用等的保障／防護措施」與本句語境不同。",
-        "guard-mcq-40": "「一時放下戒心、不經意的」與本句語境不同。",
-        "guard-mcq-39": "「無人看守／沒有保護的」與本句語境不同。"
+        "guard-mcq-44": "本句的「guards the recipe with her life」指「非常嚴密地保護／保守某事」。",
+        "guard-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guard-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guard-mcq-44"
     }
@@ -3551,5 +3207,7 @@ export default {
     "sha256": "a751abbabb1da35ba5e2e4b16f723f168984911c9c8b57c9eca3b58454e56049",
     "pages": 26
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

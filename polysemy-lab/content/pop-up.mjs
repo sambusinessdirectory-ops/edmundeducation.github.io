@@ -550,11 +550,8 @@ export default {
       "masked": "A message ____ up on the screen.",
       "options": [
         "pop-up-mcq-01",
-        "pop-up-mcq-02",
-        "pop-up-mcq-03",
-        "pop-up-mcq-04",
-        "pop-up-mcq-05",
-        "pop-up-mcq-06"
+        "pop-up-mcq-42",
+        "pop-up-mcq-26"
       ],
       "explanation": "本句的「popped」指「某人／物突然出現、冒出來」。",
       "sentenceIndex": 0,
@@ -563,12 +560,9 @@ export default {
         "popped"
       ],
       "optionReasons": {
-        "pop-up-mcq-01": "本句指「某人／物突然出現、冒出來」。",
-        "pop-up-mcq-02": "「意料之外突然出現某問題」與本句語境不同。",
-        "pop-up-mcq-03": "「突然出現一個機會」與本句語境不同。",
-        "pop-up-mcq-04": "「在搜尋、討論等中突然／反覆出現」與本句語境不同。",
-        "pop-up-mcq-05": "「某店／企業突然在某地方出現或開業；不一定臨時」與本句語境不同。",
-        "pop-up-mcq-06": "「只經營短時間、沒有永久店址承諾的快閃商業項目」與本句語境不同。"
+        "pop-up-mcq-01": "本句的「popped」指「某人／物突然出現、冒出來」。",
+        "pop-up-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "pop-up-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pop-up-mcq-01"
     },
@@ -580,11 +574,8 @@ export default {
       "masked": "A new café ____ up around the corner.",
       "options": [
         "pop-up-mcq-01",
-        "pop-up-mcq-02",
-        "pop-up-mcq-03",
-        "pop-up-mcq-04",
-        "pop-up-mcq-05",
-        "pop-up-mcq-06"
+        "pop-up-mcq-42",
+        "pop-up-mcq-26"
       ],
       "explanation": "本句的「popped」指「某人／物突然出現、冒出來」。",
       "sentenceIndex": 1,
@@ -593,12 +584,9 @@ export default {
         "popped"
       ],
       "optionReasons": {
-        "pop-up-mcq-01": "本句指「某人／物突然出現、冒出來」。",
-        "pop-up-mcq-02": "「意料之外突然出現某問題」與本句語境不同。",
-        "pop-up-mcq-03": "「突然出現一個機會」與本句語境不同。",
-        "pop-up-mcq-04": "「在搜尋、討論等中突然／反覆出現」與本句語境不同。",
-        "pop-up-mcq-05": "「某店／企業突然在某地方出現或開業；不一定臨時」與本句語境不同。",
-        "pop-up-mcq-06": "「只經營短時間、沒有永久店址承諾的快閃商業項目」與本句語境不同。"
+        "pop-up-mcq-01": "本句的「popped」指「某人／物突然出現、冒出來」。",
+        "pop-up-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "pop-up-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pop-up-mcq-01"
     },
@@ -610,11 +598,8 @@ export default {
       "masked": "A ____ window appeared.",
       "options": [
         "pop-up-mcq-19",
-        "pop-up-mcq-18",
-        "pop-up-mcq-20",
-        "pop-up-mcq-17",
-        "pop-up-mcq-21",
-        "pop-up-mcq-16"
+        "pop-up-mcq-26",
+        "pop-up-mcq-42"
       ],
       "explanation": "本句的「pop-up」指「電腦／瀏覽器中突然出現的彈出視窗」。",
       "sentenceIndex": 11,
@@ -623,12 +608,9 @@ export default {
         "pop-up"
       ],
       "optionReasons": {
-        "pop-up-mcq-19": "本句指「電腦／瀏覽器中突然出現的彈出視窗」。",
-        "pop-up-mcq-18": "「迅速設置、先以臨時方式使用的公共空間／設施」與本句語境不同。",
-        "pop-up-mcq-20": "「以彈出視窗／覆蓋層形式出現的網絡廣告」與本句語境不同。",
-        "pop-up-mcq-17": "「只為一段短時間提供服務的臨時診所／服務點」與本句語境不同。",
-        "pop-up-mcq-21": "「阻止不需要的瀏覽器彈出視窗的功能」與本句語境不同。",
-        "pop-up-mcq-16": "「臨時設置的展覽／畫廊」與本句語境不同。"
+        "pop-up-mcq-19": "本句的「pop-up」指「電腦／瀏覽器中突然出現的彈出視窗」。",
+        "pop-up-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "pop-up-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pop-up-mcq-19"
     },
@@ -640,11 +622,8 @@ export default {
       "masked": "The child opened a ____ book.",
       "options": [
         "pop-up-mcq-26",
-        "pop-up-mcq-25",
-        "pop-up-mcq-27",
-        "pop-up-mcq-24",
-        "pop-up-mcq-28",
-        "pop-up-mcq-23"
+        "pop-up-mcq-19",
+        "pop-up-mcq-42"
       ],
       "explanation": "本句的「pop-up」指「打開書頁時紙藝結構會立體升起的立體書」。",
       "sentenceIndex": 12,
@@ -653,12 +632,9 @@ export default {
         "pop-up"
       ],
       "optionReasons": {
-        "pop-up-mcq-26": "本句指「打開書頁時紙藝結構會立體升起的立體書」。",
-        "pop-up-mcq-25": "「技術文件／程式元件中常見的一字式拼法」與本句語境不同。",
-        "pop-up-mcq-27": "「打開時內部紙藝圖形升起的立體卡」與本句語境不同。",
-        "pop-up-mcq-24": "「在畫面上暫時彈出的通知／訊息」與本句語境不同。",
-        "pop-up-mcq-28": "「能很快自動／半自動展開的速開帳篷」與本句語境不同。",
-        "pop-up-mcq-23": "「使用時才短暫顯示的彈出式選單」與本句語境不同。"
+        "pop-up-mcq-26": "本句的「pop-up」指「打開書頁時紙藝結構會立體升起的立體書」。",
+        "pop-up-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pop-up-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pop-up-mcq-26"
     },
@@ -670,11 +646,8 @@ export default {
       "masked": "____ up as soon as you catch the wave.",
       "options": [
         "pop-up-mcq-42",
-        "pop-up-mcq-41",
-        "pop-up-mcq-43",
-        "pop-up-mcq-40",
-        "pop-up-mcq-44",
-        "pop-up-mcq-39"
+        "pop-up-mcq-19",
+        "pop-up-mcq-26"
       ],
       "explanation": "本句的「Pop」指「衝浪時由趴在板上快速轉成站立姿勢的起乘動作」。",
       "sentenceIndex": 15,
@@ -683,12 +656,9 @@ export default {
         "Pop"
       ],
       "optionReasons": {
-        "pop-up-mcq-42": "本句指「衝浪時由趴在板上快速轉成站立姿勢的起乘動作」。",
-        "pop-up-mcq-41": "「打出一記 pop-up 高飛球」與本句語境不同。",
-        "pop-up-mcq-43": "「非正式 BrE：快速／短暫去一趟某地方」與本句語境不同。",
-        "pop-up-mcq-40": "「棒球／壘球中高但飛行距離較短的高飛球」與本句語境不同。",
-        "pop-up-mcq-44": "「經營／開設／推出一個短期快閃項目」與本句語境不同。",
-        "pop-up-mcq-39": "「展覽／商業活動中可快速展開的展示架」與本句語境不同。"
+        "pop-up-mcq-42": "本句的「Pop」指「衝浪時由趴在板上快速轉成站立姿勢的起乘動作」。",
+        "pop-up-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pop-up-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pop-up-mcq-42"
     }
@@ -700,5 +670,7 @@ export default {
     "sha256": "2ad3f613e6c2f580af5c1cf66131dcfcd60fb5e7e7d4747538d1acf2c87956b4",
     "pages": 44
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

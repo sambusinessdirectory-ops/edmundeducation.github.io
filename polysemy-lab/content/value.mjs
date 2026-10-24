@@ -760,11 +760,9 @@ export default {
       "masked": "The ____ of the painting has increased.",
       "options": [
         "value-mcq-01",
-        "value-mcq-02",
-        "value-mcq-03",
-        "value-mcq-04",
-        "value-mcq-05",
-        "value-mcq-06"
+        "value-mcq-16",
+        "value-mcq-25",
+        "value-mcq-29"
       ],
       "explanation": "本句的「value」指「價值」。",
       "sentenceIndex": 0,
@@ -773,12 +771,10 @@ export default {
         "value"
       ],
       "optionReasons": {
-        "value-mcq-01": "本句指「價值」。",
-        "value-mcq-02": "「金錢價值」與本句語境不同。",
-        "value-mcq-03": "「市場價值」與本句語境不同。",
-        "value-mcq-04": "「物業價值」與本句語境不同。",
-        "value-mcq-05": "「價值；益處」與本句語境不同。",
-        "value-mcq-06": "「實際價值」與本句語境不同。"
+        "value-mcq-01": "本句的「value」指「價值」。",
+        "value-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-01"
     },
@@ -790,11 +786,9 @@ export default {
       "masked": "What is the current ____ of the car?",
       "options": [
         "value-mcq-01",
-        "value-mcq-02",
-        "value-mcq-03",
-        "value-mcq-04",
-        "value-mcq-05",
-        "value-mcq-06"
+        "value-mcq-29",
+        "value-mcq-25",
+        "value-mcq-12"
       ],
       "explanation": "本句的「value」指「價值」。",
       "sentenceIndex": 1,
@@ -803,12 +797,10 @@ export default {
         "value"
       ],
       "optionReasons": {
-        "value-mcq-01": "本句指「價值」。",
-        "value-mcq-02": "「金錢價值」與本句語境不同。",
-        "value-mcq-03": "「市場價值」與本句語境不同。",
-        "value-mcq-04": "「物業價值」與本句語境不同。",
-        "value-mcq-05": "「價值；益處」與本句語境不同。",
-        "value-mcq-06": "「實際價值」與本句語境不同。"
+        "value-mcq-01": "本句的「value」指「價值」。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-01"
     },
@@ -820,11 +812,9 @@ export default {
       "masked": "The jewellery has a high monetary ____.",
       "options": [
         "value-mcq-01",
-        "value-mcq-02",
-        "value-mcq-03",
-        "value-mcq-04",
-        "value-mcq-05",
-        "value-mcq-06"
+        "value-mcq-14",
+        "value-mcq-25",
+        "value-mcq-29"
       ],
       "explanation": "本句的「value」指「價值」。",
       "sentenceIndex": 2,
@@ -833,12 +823,10 @@ export default {
         "value"
       ],
       "optionReasons": {
-        "value-mcq-01": "本句指「價值」。",
-        "value-mcq-02": "「金錢價值」與本句語境不同。",
-        "value-mcq-03": "「市場價值」與本句語境不同。",
-        "value-mcq-04": "「物業價值」與本句語境不同。",
-        "value-mcq-05": "「價值；益處」與本句語境不同。",
-        "value-mcq-06": "「實際價值」與本句語境不同。"
+        "value-mcq-01": "本句的「value」指「價值」。",
+        "value-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-01"
     },
@@ -850,11 +838,9 @@ export default {
       "masked": "The album had little ____ but enormous emotional significance.",
       "options": [
         "value-mcq-02",
-        "value-mcq-01",
-        "value-mcq-03",
-        "value-mcq-04",
-        "value-mcq-05",
-        "value-mcq-06"
+        "value-mcq-13",
+        "value-mcq-29",
+        "value-mcq-25"
       ],
       "explanation": "本句的「monetary value」指「金錢價值」。",
       "sentenceIndex": 3,
@@ -863,12 +849,10 @@ export default {
         "monetary value"
       ],
       "optionReasons": {
-        "value-mcq-02": "本句指「金錢價值」。",
-        "value-mcq-01": "「價值」與本句語境不同。",
-        "value-mcq-03": "「市場價值」與本句語境不同。",
-        "value-mcq-04": "「物業價值」與本句語境不同。",
-        "value-mcq-05": "「價值；益處」與本句語境不同。",
-        "value-mcq-06": "「實際價值」與本句語境不同。"
+        "value-mcq-02": "本句的「monetary value」指「金錢價值」。",
+        "value-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-02"
     },
@@ -880,11 +864,9 @@ export default {
       "masked": "The prize has a ____ of $500.",
       "options": [
         "value-mcq-02",
-        "value-mcq-01",
-        "value-mcq-03",
-        "value-mcq-04",
-        "value-mcq-05",
-        "value-mcq-06"
+        "value-mcq-12",
+        "value-mcq-10",
+        "value-mcq-25"
       ],
       "explanation": "本句的「monetary value」指「金錢價值」。",
       "sentenceIndex": 4,
@@ -893,12 +875,10 @@ export default {
         "monetary value"
       ],
       "optionReasons": {
-        "value-mcq-02": "本句指「金錢價值」。",
-        "value-mcq-01": "「價值」與本句語境不同。",
-        "value-mcq-03": "「市場價值」與本句語境不同。",
-        "value-mcq-04": "「物業價值」與本句語境不同。",
-        "value-mcq-05": "「價值；益處」與本句語境不同。",
-        "value-mcq-06": "「實際價值」與本句語境不同。"
+        "value-mcq-02": "本句的「monetary value」指「金錢價值」。",
+        "value-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-02"
     },
@@ -910,11 +890,9 @@ export default {
       "masked": "The house has a ____ of about two million dollars.",
       "options": [
         "value-mcq-03",
-        "value-mcq-02",
-        "value-mcq-04",
-        "value-mcq-01",
-        "value-mcq-05",
-        "value-mcq-06"
+        "value-mcq-28",
+        "value-mcq-25",
+        "value-mcq-10"
       ],
       "explanation": "本句的「market value」指「市場價值」。",
       "sentenceIndex": 5,
@@ -923,12 +901,10 @@ export default {
         "market value"
       ],
       "optionReasons": {
-        "value-mcq-03": "本句指「市場價值」。",
-        "value-mcq-02": "「金錢價值」與本句語境不同。",
-        "value-mcq-04": "「物業價值」與本句語境不同。",
-        "value-mcq-01": "「價值」與本句語境不同。",
-        "value-mcq-05": "「價值；益處」與本句語境不同。",
-        "value-mcq-06": "「實際價值」與本句語境不同。"
+        "value-mcq-03": "本句的「market value」指「市場價值」。",
+        "value-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-03"
     },
@@ -940,11 +916,9 @@ export default {
       "masked": "The painting sold for more than its estimated ____.",
       "options": [
         "value-mcq-03",
-        "value-mcq-02",
-        "value-mcq-04",
-        "value-mcq-01",
-        "value-mcq-05",
-        "value-mcq-06"
+        "value-mcq-28",
+        "value-mcq-25",
+        "value-mcq-10"
       ],
       "explanation": "本句的「market value」指「市場價值」。",
       "sentenceIndex": 6,
@@ -953,12 +927,10 @@ export default {
         "market value"
       ],
       "optionReasons": {
-        "value-mcq-03": "本句指「市場價值」。",
-        "value-mcq-02": "「金錢價值」與本句語境不同。",
-        "value-mcq-04": "「物業價值」與本句語境不同。",
-        "value-mcq-01": "「價值」與本句語境不同。",
-        "value-mcq-05": "「價值；益處」與本句語境不同。",
-        "value-mcq-06": "「實際價值」與本句語境不同。"
+        "value-mcq-03": "本句的「market value」指「市場價值」。",
+        "value-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-03"
     },
@@ -970,11 +942,9 @@ export default {
       "masked": "Better transport links can increase ____.",
       "options": [
         "value-mcq-04",
-        "value-mcq-03",
-        "value-mcq-05",
-        "value-mcq-02",
-        "value-mcq-06",
-        "value-mcq-01"
+        "value-mcq-25",
+        "value-mcq-14",
+        "value-mcq-29"
       ],
       "explanation": "本句的「property values」指「物業價值」。",
       "sentenceIndex": 7,
@@ -983,12 +953,10 @@ export default {
         "property values"
       ],
       "optionReasons": {
-        "value-mcq-04": "本句指「物業價值」。",
-        "value-mcq-03": "「市場價值」與本句語境不同。",
-        "value-mcq-05": "「價值；益處」與本句語境不同。",
-        "value-mcq-02": "「金錢價值」與本句語境不同。",
-        "value-mcq-06": "「實際價值」與本句語境不同。",
-        "value-mcq-01": "「價值」與本句語境不同。"
+        "value-mcq-04": "本句的「property values」指「物業價值」。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-04"
     },
@@ -1000,11 +968,9 @@ export default {
       "masked": "Local ____ have fallen.",
       "options": [
         "value-mcq-04",
-        "value-mcq-03",
-        "value-mcq-05",
-        "value-mcq-02",
-        "value-mcq-06",
-        "value-mcq-01"
+        "value-mcq-10",
+        "value-mcq-16",
+        "value-mcq-25"
       ],
       "explanation": "本句的「property values」指「物業價值」。",
       "sentenceIndex": 8,
@@ -1013,12 +979,10 @@ export default {
         "property values"
       ],
       "optionReasons": {
-        "value-mcq-04": "本句指「物業價值」。",
-        "value-mcq-03": "「市場價值」與本句語境不同。",
-        "value-mcq-05": "「價值；益處」與本句語境不同。",
-        "value-mcq-02": "「金錢價值」與本句語境不同。",
-        "value-mcq-06": "「實際價值」與本句語境不同。",
-        "value-mcq-01": "「價值」與本句語境不同。"
+        "value-mcq-04": "本句的「property values」指「物業價值」。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-04"
     },
@@ -1030,11 +994,9 @@ export default {
       "masked": "The course has a lot of ____.",
       "options": [
         "value-mcq-06",
-        "value-mcq-05",
-        "value-mcq-07",
-        "value-mcq-04",
-        "value-mcq-08",
-        "value-mcq-03"
+        "value-mcq-25",
+        "value-mcq-16",
+        "value-mcq-29"
       ],
       "explanation": "本句的「practical value」指「實際價值」。",
       "sentenceIndex": 11,
@@ -1043,12 +1005,10 @@ export default {
         "practical value"
       ],
       "optionReasons": {
-        "value-mcq-06": "本句指「實際價值」。",
-        "value-mcq-05": "「價值；益處」與本句語境不同。",
-        "value-mcq-07": "「教育價值」與本句語境不同。",
-        "value-mcq-04": "「物業價值」與本句語境不同。",
-        "value-mcq-08": "「感情／紀念價值」與本句語境不同。",
-        "value-mcq-03": "「市場價值」與本句語境不同。"
+        "value-mcq-06": "本句的「practical value」指「實際價值」。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-06"
     },
@@ -1060,11 +1020,9 @@ export default {
       "masked": "The idea sounds interesting but has little ____.",
       "options": [
         "value-mcq-06",
-        "value-mcq-05",
-        "value-mcq-07",
-        "value-mcq-04",
-        "value-mcq-08",
-        "value-mcq-03"
+        "value-mcq-28",
+        "value-mcq-25",
+        "value-mcq-10"
       ],
       "explanation": "本句的「practical value」指「實際價值」。",
       "sentenceIndex": 12,
@@ -1073,12 +1031,10 @@ export default {
         "practical value"
       ],
       "optionReasons": {
-        "value-mcq-06": "本句指「實際價值」。",
-        "value-mcq-05": "「價值；益處」與本句語境不同。",
-        "value-mcq-07": "「教育價值」與本句語境不同。",
-        "value-mcq-04": "「物業價值」與本句語境不同。",
-        "value-mcq-08": "「感情／紀念價值」與本句語境不同。",
-        "value-mcq-03": "「市場價值」與本句語境不同。"
+        "value-mcq-06": "本句的「practical value」指「實際價值」。",
+        "value-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-06"
     },
@@ -1090,11 +1046,9 @@ export default {
       "masked": "The museum visit had great ____.",
       "options": [
         "value-mcq-07",
-        "value-mcq-06",
-        "value-mcq-08",
-        "value-mcq-05",
-        "value-mcq-09",
-        "value-mcq-04"
+        "value-mcq-25",
+        "value-mcq-28",
+        "value-mcq-10"
       ],
       "explanation": "本句的「educational value」指「教育價值」。",
       "sentenceIndex": 13,
@@ -1103,12 +1057,10 @@ export default {
         "educational value"
       ],
       "optionReasons": {
-        "value-mcq-07": "本句指「教育價值」。",
-        "value-mcq-06": "「實際價值」與本句語境不同。",
-        "value-mcq-08": "「感情／紀念價值」與本句語境不同。",
-        "value-mcq-05": "「價值；益處」與本句語境不同。",
-        "value-mcq-09": "「有價值」與本句語境不同。",
-        "value-mcq-04": "「物業價值」與本句語境不同。"
+        "value-mcq-07": "本句的「educational value」指「教育價值」。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-07"
     },
@@ -1120,11 +1072,9 @@ export default {
       "masked": "The game has some ____.",
       "options": [
         "value-mcq-07",
-        "value-mcq-06",
-        "value-mcq-08",
-        "value-mcq-05",
-        "value-mcq-09",
-        "value-mcq-04"
+        "value-mcq-10",
+        "value-mcq-28",
+        "value-mcq-25"
       ],
       "explanation": "本句的「educational value」指「教育價值」。",
       "sentenceIndex": 14,
@@ -1133,12 +1083,10 @@ export default {
         "educational value"
       ],
       "optionReasons": {
-        "value-mcq-07": "本句指「教育價值」。",
-        "value-mcq-06": "「實際價值」與本句語境不同。",
-        "value-mcq-08": "「感情／紀念價值」與本句語境不同。",
-        "value-mcq-05": "「價值；益處」與本句語境不同。",
-        "value-mcq-09": "「有價值」與本句語境不同。",
-        "value-mcq-04": "「物業價值」與本句語境不同。"
+        "value-mcq-07": "本句的「educational value」指「教育價值」。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-07"
     },
@@ -1150,11 +1098,9 @@ export default {
       "masked": "The old watch has great ____.",
       "options": [
         "value-mcq-08",
-        "value-mcq-07",
-        "value-mcq-09",
-        "value-mcq-06",
-        "value-mcq-10",
-        "value-mcq-05"
+        "value-mcq-12",
+        "value-mcq-25",
+        "value-mcq-29"
       ],
       "explanation": "本句的「sentimental value」指「感情／紀念價值」。",
       "sentenceIndex": 15,
@@ -1163,12 +1109,10 @@ export default {
         "sentimental value"
       ],
       "optionReasons": {
-        "value-mcq-08": "本句指「感情／紀念價值」。",
-        "value-mcq-07": "「教育價值」與本句語境不同。",
-        "value-mcq-09": "「有價值」與本句語境不同。",
-        "value-mcq-06": "「實際價值」與本句語境不同。",
-        "value-mcq-10": "「很划算」與本句語境不同。",
-        "value-mcq-05": "「價值；益處」與本句語境不同。"
+        "value-mcq-08": "本句的「sentimental value」指「感情／紀念價值」。",
+        "value-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-08"
     },
@@ -1180,11 +1124,9 @@ export default {
       "masked": "The tickets were worthless financially but rich in ____.",
       "options": [
         "value-mcq-08",
-        "value-mcq-07",
-        "value-mcq-09",
-        "value-mcq-06",
         "value-mcq-10",
-        "value-mcq-05"
+        "value-mcq-15",
+        "value-mcq-29"
       ],
       "explanation": "本句的「sentimental value」指「感情／紀念價值」。",
       "sentenceIndex": 16,
@@ -1193,12 +1135,10 @@ export default {
         "sentimental value"
       ],
       "optionReasons": {
-        "value-mcq-08": "本句指「感情／紀念價值」。",
-        "value-mcq-07": "「教育價值」與本句語境不同。",
-        "value-mcq-09": "「有價值」與本句語境不同。",
-        "value-mcq-06": "「實際價值」與本句語境不同。",
-        "value-mcq-10": "「很划算」與本句語境不同。",
-        "value-mcq-05": "「價值；益處」與本句語境不同。"
+        "value-mcq-08": "本句的「sentimental value」指「感情／紀念價值」。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-08"
     },
@@ -1210,11 +1150,9 @@ export default {
       "masked": "I hope this advice is ____ to you.",
       "options": [
         "value-mcq-09",
-        "value-mcq-08",
-        "value-mcq-10",
-        "value-mcq-07",
-        "value-mcq-11",
-        "value-mcq-06"
+        "value-mcq-13",
+        "value-mcq-29",
+        "value-mcq-25"
       ],
       "explanation": "本句的「of value」指「有價值」。",
       "sentenceIndex": 17,
@@ -1223,12 +1161,10 @@ export default {
         "of value"
       ],
       "optionReasons": {
-        "value-mcq-09": "本句指「有價值」。",
-        "value-mcq-08": "「感情／紀念價值」與本句語境不同。",
-        "value-mcq-10": "「很划算」與本句語境不同。",
-        "value-mcq-07": "「教育價值」與本句語境不同。",
-        "value-mcq-11": "「物有所值」與本句語境不同。",
-        "value-mcq-06": "「實際價值」與本句語境不同。"
+        "value-mcq-09": "本句的「of value」指「有價值」。",
+        "value-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-09"
     },
@@ -1240,11 +1176,9 @@ export default {
       "masked": "The report contains information ____.",
       "options": [
         "value-mcq-09",
-        "value-mcq-08",
-        "value-mcq-10",
-        "value-mcq-07",
-        "value-mcq-11",
-        "value-mcq-06"
+        "value-mcq-16",
+        "value-mcq-29",
+        "value-mcq-10"
       ],
       "explanation": "本句的「of great value」指「有價值」。",
       "sentenceIndex": 18,
@@ -1253,12 +1187,10 @@ export default {
         "of great value"
       ],
       "optionReasons": {
-        "value-mcq-09": "本句指「有價值」。",
-        "value-mcq-08": "「感情／紀念價值」與本句語境不同。",
-        "value-mcq-10": "「很划算」與本句語境不同。",
-        "value-mcq-07": "「教育價值」與本句語境不同。",
-        "value-mcq-11": "「物有所值」與本句語境不同。",
-        "value-mcq-06": "「實際價值」與本句語境不同。"
+        "value-mcq-09": "本句的「of great value」指「有價值」。",
+        "value-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-09"
     },
@@ -1270,11 +1202,9 @@ export default {
       "masked": "This restaurant is very ____.",
       "options": [
         "value-mcq-10",
-        "value-mcq-09",
-        "value-mcq-11",
-        "value-mcq-08",
-        "value-mcq-12",
-        "value-mcq-07"
+        "value-mcq-19",
+        "value-mcq-15",
+        "value-mcq-29"
       ],
       "explanation": "本句的「good value」指「很划算」。",
       "sentenceIndex": 19,
@@ -1283,12 +1213,10 @@ export default {
         "good value"
       ],
       "optionReasons": {
-        "value-mcq-10": "本句指「很划算」。",
-        "value-mcq-09": "「有價值」與本句語境不同。",
-        "value-mcq-11": "「物有所值」與本句語境不同。",
-        "value-mcq-08": "「感情／紀念價值」與本句語境不同。",
-        "value-mcq-12": "「重視；珍惜」與本句語境不同。",
-        "value-mcq-07": "「教育價值」與本句語境不同。"
+        "value-mcq-10": "本句的「good value」指「很划算」。",
+        "value-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-10"
     },
@@ -1300,11 +1228,9 @@ export default {
       "masked": "The phone offers ____ for the price.",
       "options": [
         "value-mcq-10",
-        "value-mcq-09",
-        "value-mcq-11",
-        "value-mcq-08",
-        "value-mcq-12",
-        "value-mcq-07"
+        "value-mcq-25",
+        "value-mcq-30",
+        "value-mcq-13"
       ],
       "explanation": "本句的「good value」指「很划算」。",
       "sentenceIndex": 20,
@@ -1313,12 +1239,10 @@ export default {
         "good value"
       ],
       "optionReasons": {
-        "value-mcq-10": "本句指「很划算」。",
-        "value-mcq-09": "「有價值」與本句語境不同。",
-        "value-mcq-11": "「物有所值」與本句語境不同。",
-        "value-mcq-08": "「感情／紀念價值」與本句語境不同。",
-        "value-mcq-12": "「重視；珍惜」與本句語境不同。",
-        "value-mcq-07": "「教育價值」與本句語境不同。"
+        "value-mcq-10": "本句的「good value」指「很划算」。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-10"
     },
@@ -1330,11 +1254,9 @@ export default {
       "masked": "The hotel offers excellent ____.",
       "options": [
         "value-mcq-11",
+        "value-mcq-15",
         "value-mcq-10",
-        "value-mcq-12",
-        "value-mcq-09",
-        "value-mcq-13",
-        "value-mcq-08"
+        "value-mcq-25"
       ],
       "explanation": "本句的「value for money」指「物有所值」。",
       "sentenceIndex": 21,
@@ -1343,12 +1265,10 @@ export default {
         "value for money"
       ],
       "optionReasons": {
-        "value-mcq-11": "本句指「物有所值」。",
-        "value-mcq-10": "「很划算」與本句語境不同。",
-        "value-mcq-12": "「重視；珍惜」與本句語境不同。",
-        "value-mcq-09": "「有價值」與本句語境不同。",
-        "value-mcq-13": "「感到被重視」與本句語境不同。",
-        "value-mcq-08": "「感情／紀念價值」與本句語境不同。"
+        "value-mcq-11": "本句的「value for money」指「物有所值」。",
+        "value-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-11"
     },
@@ -1360,11 +1280,9 @@ export default {
       "masked": "This model gives better ____.",
       "options": [
         "value-mcq-11",
-        "value-mcq-10",
-        "value-mcq-12",
-        "value-mcq-09",
-        "value-mcq-13",
-        "value-mcq-08"
+        "value-mcq-28",
+        "value-mcq-25",
+        "value-mcq-10"
       ],
       "explanation": "本句的「value for money」指「物有所值」。",
       "sentenceIndex": 22,
@@ -1373,12 +1291,10 @@ export default {
         "value for money"
       ],
       "optionReasons": {
-        "value-mcq-11": "本句指「物有所值」。",
-        "value-mcq-10": "「很划算」與本句語境不同。",
-        "value-mcq-12": "「重視；珍惜」與本句語境不同。",
-        "value-mcq-09": "「有價值」與本句語境不同。",
-        "value-mcq-13": "「感到被重視」與本句語境不同。",
-        "value-mcq-08": "「感情／紀念價值」與本句語境不同。"
+        "value-mcq-11": "本句的「value for money」指「物有所值」。",
+        "value-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-11"
     },
@@ -1390,11 +1306,9 @@ export default {
       "masked": "Good friends make you feel ____.",
       "options": [
         "value-mcq-12",
-        "value-mcq-11",
-        "value-mcq-13",
+        "value-mcq-31",
         "value-mcq-10",
-        "value-mcq-14",
-        "value-mcq-09"
+        "value-pdf-001"
       ],
       "explanation": "本句的「valued」指「重視；珍惜」。",
       "sentenceIndex": 25,
@@ -1403,12 +1317,10 @@ export default {
         "valued"
       ],
       "optionReasons": {
-        "value-mcq-12": "本句指「重視；珍惜」。",
-        "value-mcq-11": "「物有所值」與本句語境不同。",
-        "value-mcq-13": "「感到被重視」與本句語境不同。",
-        "value-mcq-10": "「很划算」與本句語境不同。",
-        "value-mcq-14": "「備受重視」與本句語境不同。",
-        "value-mcq-09": "「有價值」與本句語境不同。"
+        "value-mcq-12": "本句的「valued」指「重視；珍惜」。",
+        "value-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-12"
     },
@@ -1420,11 +1332,9 @@ export default {
       "masked": "Employees want to know that the company ____.",
       "options": [
         "value-mcq-12",
-        "value-mcq-11",
-        "value-mcq-13",
+        "value-mcq-20",
         "value-mcq-10",
-        "value-mcq-14",
-        "value-mcq-09"
+        "value-mcq-25"
       ],
       "explanation": "本句的「values them」指「重視；珍惜」。",
       "sentenceIndex": 26,
@@ -1433,12 +1343,10 @@ export default {
         "values them"
       ],
       "optionReasons": {
-        "value-mcq-12": "本句指「重視；珍惜」。",
-        "value-mcq-11": "「物有所值」與本句語境不同。",
-        "value-mcq-13": "「感到被重視」與本句語境不同。",
-        "value-mcq-10": "「很划算」與本句語境不同。",
-        "value-mcq-14": "「備受重視」與本句語境不同。",
-        "value-mcq-09": "「有價值」與本句語境不同。"
+        "value-mcq-12": "本句的「values them」指「重視；珍惜」。",
+        "value-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-12"
     },
@@ -1450,11 +1358,9 @@ export default {
       "masked": "Good gifts can make people feel seen, ____, and remembered.",
       "options": [
         "value-mcq-13",
-        "value-mcq-12",
-        "value-mcq-14",
-        "value-mcq-11",
-        "value-mcq-15",
-        "value-mcq-10"
+        "value-mcq-25",
+        "value-mcq-10",
+        "value-mcq-04"
       ],
       "explanation": "本句的「valued」指「感到被重視」。",
       "sentenceIndex": 27,
@@ -1463,12 +1369,10 @@ export default {
         "valued"
       ],
       "optionReasons": {
-        "value-mcq-13": "本句指「感到被重視」。",
-        "value-mcq-12": "「重視；珍惜」與本句語境不同。",
-        "value-mcq-14": "「備受重視」與本句語境不同。",
-        "value-mcq-11": "「物有所值」與本句語境不同。",
-        "value-mcq-15": "「因 Y 而重視 X」與本句語境不同。",
-        "value-mcq-10": "「很划算」與本句語境不同。"
+        "value-mcq-13": "本句的「valued」指「感到被重視」。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-13"
     },
@@ -1480,11 +1384,9 @@ export default {
       "masked": "Children need to feel loved and ____.",
       "options": [
         "value-mcq-13",
-        "value-mcq-12",
-        "value-mcq-14",
-        "value-mcq-11",
-        "value-mcq-15",
-        "value-mcq-10"
+        "value-mcq-24",
+        "value-mcq-10",
+        "value-mcq-29"
       ],
       "explanation": "本句的「valued」指「感到被重視」。",
       "sentenceIndex": 28,
@@ -1493,12 +1395,10 @@ export default {
         "valued"
       ],
       "optionReasons": {
-        "value-mcq-13": "本句指「感到被重視」。",
-        "value-mcq-12": "「重視；珍惜」與本句語境不同。",
-        "value-mcq-14": "「備受重視」與本句語境不同。",
-        "value-mcq-11": "「物有所值」與本句語境不同。",
-        "value-mcq-15": "「因 Y 而重視 X」與本句語境不同。",
-        "value-mcq-10": "「很划算」與本句語境不同。"
+        "value-mcq-13": "本句的「valued」指「感到被重視」。",
+        "value-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-13"
     },
@@ -1510,11 +1410,9 @@ export default {
       "masked": "She made every member of the team feel ____.",
       "options": [
         "value-mcq-13",
-        "value-mcq-12",
-        "value-mcq-14",
+        "value-mcq-10",
         "value-mcq-11",
-        "value-mcq-15",
-        "value-mcq-10"
+        "value-mcq-29"
       ],
       "explanation": "本句的「valued」指「感到被重視」。",
       "sentenceIndex": 29,
@@ -1523,12 +1421,10 @@ export default {
         "valued"
       ],
       "optionReasons": {
-        "value-mcq-13": "本句指「感到被重視」。",
-        "value-mcq-12": "「重視；珍惜」與本句語境不同。",
-        "value-mcq-14": "「備受重視」與本句語境不同。",
-        "value-mcq-11": "「物有所值」與本句語境不同。",
-        "value-mcq-15": "「因 Y 而重視 X」與本句語境不同。",
-        "value-mcq-10": "「很划算」與本句語境不同。"
+        "value-mcq-13": "本句的「valued」指「感到被重視」。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-13"
     },
@@ -1540,11 +1436,9 @@ export default {
       "masked": "Her experience is ____ by the company.",
       "options": [
         "value-mcq-14",
-        "value-mcq-13",
-        "value-mcq-15",
-        "value-mcq-12",
-        "value-mcq-16",
-        "value-mcq-11"
+        "value-mcq-02",
+        "value-mcq-29",
+        "value-mcq-10"
       ],
       "explanation": "本句的「highly valued」指「備受重視」。",
       "sentenceIndex": 30,
@@ -1553,12 +1447,10 @@ export default {
         "highly valued"
       ],
       "optionReasons": {
-        "value-mcq-14": "本句指「備受重視」。",
-        "value-mcq-13": "「感到被重視」與本句語境不同。",
-        "value-mcq-15": "「因 Y 而重視 X」與本句語境不同。",
-        "value-mcq-12": "「重視；珍惜」與本句語境不同。",
-        "value-mcq-16": "「重視」與本句語境不同。",
-        "value-mcq-11": "「物有所值」與本句語境不同。"
+        "value-mcq-14": "本句的「highly valued」指「備受重視」。",
+        "value-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-14"
     },
@@ -1570,11 +1462,9 @@ export default {
       "masked": "These skills are ____ in the industry.",
       "options": [
         "value-mcq-14",
-        "value-mcq-13",
-        "value-mcq-15",
-        "value-mcq-12",
-        "value-mcq-16",
-        "value-mcq-11"
+        "value-mcq-18",
+        "value-mcq-10",
+        "value-mcq-29"
       ],
       "explanation": "本句的「highly valued」指「備受重視」。",
       "sentenceIndex": 31,
@@ -1583,12 +1473,10 @@ export default {
         "highly valued"
       ],
       "optionReasons": {
-        "value-mcq-14": "本句指「備受重視」。",
-        "value-mcq-13": "「感到被重視」與本句語境不同。",
-        "value-mcq-15": "「因 Y 而重視 X」與本句語境不同。",
-        "value-mcq-12": "「重視；珍惜」與本句語境不同。",
-        "value-mcq-16": "「重視」與本句語境不同。",
-        "value-mcq-11": "「物有所值」與本句語境不同。"
+        "value-mcq-14": "本句的「highly valued」指「備受重視」。",
+        "value-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-14"
     },
@@ -1600,11 +1488,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "value-mcq-15",
-        "value-mcq-14",
-        "value-mcq-16",
-        "value-mcq-13",
-        "value-mcq-17",
-        "value-mcq-12"
+        "value-mcq-07",
+        "value-mcq-25",
+        "value-mcq-10"
       ],
       "explanation": "本句的「value the album for its memories」指「因 Y 而重視 X」。",
       "sentenceIndex": 32,
@@ -1613,12 +1499,10 @@ export default {
         "value the album for its memories"
       ],
       "optionReasons": {
-        "value-mcq-15": "本句指「因 Y 而重視 X」。",
-        "value-mcq-14": "「備受重視」與本句語境不同。",
-        "value-mcq-16": "「重視」與本句語境不同。",
-        "value-mcq-13": "「感到被重視」與本句語境不同。",
-        "value-mcq-17": "「估值為 Y」與本句語境不同。",
-        "value-mcq-12": "「重視；珍惜」與本句語境不同。"
+        "value-mcq-15": "本句的「value the album for its memories」指「因 Y 而重視 X」。",
+        "value-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-15"
     },
@@ -1630,11 +1514,9 @@ export default {
       "masked": "The plant is ____.",
       "options": [
         "value-mcq-15",
-        "value-mcq-14",
-        "value-mcq-16",
-        "value-mcq-13",
-        "value-mcq-17",
-        "value-mcq-12"
+        "value-mcq-09",
+        "value-mcq-10",
+        "value-mcq-29"
       ],
       "explanation": "本句的「valued for its medicinal properties」指「因 Y 而重視 X」。",
       "sentenceIndex": 33,
@@ -1643,12 +1525,10 @@ export default {
         "valued for its medicinal properties"
       ],
       "optionReasons": {
-        "value-mcq-15": "本句指「因 Y 而重視 X」。",
-        "value-mcq-14": "「備受重視」與本句語境不同。",
-        "value-mcq-16": "「重視」與本句語境不同。",
-        "value-mcq-13": "「感到被重視」與本句語境不同。",
-        "value-mcq-17": "「估值為 Y」與本句語境不同。",
-        "value-mcq-12": "「重視；珍惜」與本句語境不同。"
+        "value-mcq-15": "本句的「valued for its medicinal properties」指「因 Y 而重視 X」。",
+        "value-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-15"
     },
@@ -1660,11 +1540,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "value-mcq-16",
-        "value-mcq-15",
-        "value-mcq-17",
-        "value-mcq-14",
-        "value-mcq-18",
-        "value-mcq-13"
+        "value-mcq-08",
+        "value-mcq-10",
+        "value-mcq-29"
       ],
       "explanation": "本句的「places great value on family time」指「重視」。",
       "sentenceIndex": 34,
@@ -1673,12 +1551,10 @@ export default {
         "places great value on family time"
       ],
       "optionReasons": {
-        "value-mcq-16": "本句指「重視」。",
-        "value-mcq-15": "「因 Y 而重視 X」與本句語境不同。",
-        "value-mcq-17": "「估值為 Y」與本句語境不同。",
-        "value-mcq-14": "「備受重視」與本句語境不同。",
-        "value-mcq-18": "「估價；估值」與本句語境不同。",
-        "value-mcq-13": "「感到被重視」與本句語境不同。"
+        "value-mcq-16": "本句的「places great value on family time」指「重視」。",
+        "value-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-16"
     },
@@ -1690,11 +1566,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "value-mcq-16",
-        "value-mcq-15",
-        "value-mcq-17",
-        "value-mcq-14",
-        "value-mcq-18",
-        "value-mcq-13"
+        "value-mcq-19",
+        "value-mcq-10",
+        "value-mcq-25"
       ],
       "explanation": "本句的「places a high value on creativity」指「重視」。",
       "sentenceIndex": 35,
@@ -1703,12 +1577,10 @@ export default {
         "places a high value on creativity"
       ],
       "optionReasons": {
-        "value-mcq-16": "本句指「重視」。",
-        "value-mcq-15": "「因 Y 而重視 X」與本句語境不同。",
-        "value-mcq-17": "「估值為 Y」與本句語境不同。",
-        "value-mcq-14": "「備受重視」與本句語境不同。",
-        "value-mcq-18": "「估價；估值」與本句語境不同。",
-        "value-mcq-13": "「感到被重視」與本句語境不同。"
+        "value-mcq-16": "本句的「places a high value on creativity」指「重視」。",
+        "value-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-16"
     },
@@ -1720,11 +1592,9 @@ export default {
       "masked": "The collection is ____ $50,000.",
       "options": [
         "value-mcq-17",
-        "value-mcq-16",
-        "value-mcq-18",
-        "value-mcq-15",
-        "value-mcq-19",
-        "value-mcq-14"
+        "value-mcq-25",
+        "value-mcq-12",
+        "value-mcq-10"
       ],
       "explanation": "本句的「valued at」指「估值為 Y」。",
       "sentenceIndex": 38,
@@ -1733,12 +1603,10 @@ export default {
         "valued at"
       ],
       "optionReasons": {
-        "value-mcq-17": "本句指「估值為 Y」。",
-        "value-mcq-16": "「重視」與本句語境不同。",
-        "value-mcq-18": "「估價；估值」與本句語境不同。",
-        "value-mcq-15": "「因 Y 而重視 X」與本句語境不同。",
-        "value-mcq-19": "「數值」與本句語境不同。",
-        "value-mcq-14": "「備受重視」與本句語境不同。"
+        "value-mcq-17": "本句的「valued at」指「估值為 Y」。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-17"
     },
@@ -1750,11 +1618,9 @@ export default {
       "masked": "The company was ____ several billion dollars.",
       "options": [
         "value-mcq-17",
-        "value-mcq-16",
-        "value-mcq-18",
-        "value-mcq-15",
-        "value-mcq-19",
-        "value-mcq-14"
+        "value-mcq-10",
+        "value-mcq-29",
+        "value-mcq-12"
       ],
       "explanation": "本句的「valued at」指「估值為 Y」。",
       "sentenceIndex": 39,
@@ -1763,12 +1629,10 @@ export default {
         "valued at"
       ],
       "optionReasons": {
-        "value-mcq-17": "本句指「估值為 Y」。",
-        "value-mcq-16": "「重視」與本句語境不同。",
-        "value-mcq-18": "「估價；估值」與本句語境不同。",
-        "value-mcq-15": "「因 Y 而重視 X」與本句語境不同。",
-        "value-mcq-19": "「數值」與本句語境不同。",
-        "value-mcq-14": "「備受重視」與本句語境不同。"
+        "value-mcq-17": "本句的「valued at」指「估值為 Y」。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-17"
     },
@@ -1780,11 +1644,9 @@ export default {
       "masked": "We requested a professional ____ of the property.",
       "options": [
         "value-mcq-18",
-        "value-mcq-17",
-        "value-mcq-19",
-        "value-mcq-16",
-        "value-mcq-20",
-        "value-mcq-15"
+        "value-mcq-12",
+        "value-mcq-29",
+        "value-mcq-10"
       ],
       "explanation": "本句的「valuation」指「估價；估值」。",
       "sentenceIndex": 40,
@@ -1793,12 +1655,10 @@ export default {
         "valuation"
       ],
       "optionReasons": {
-        "value-mcq-18": "本句指「估價；估值」。",
-        "value-mcq-17": "「估值為 Y」與本句語境不同。",
-        "value-mcq-19": "「數值」與本句語境不同。",
-        "value-mcq-16": "「重視」與本句語境不同。",
-        "value-mcq-20": "「絕對值」與本句語境不同。",
-        "value-mcq-15": "「因 Y 而重視 X」與本句語境不同。"
+        "value-mcq-18": "本句的「valuation」指「估價；估值」。",
+        "value-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-18"
     },
@@ -1810,11 +1670,9 @@ export default {
       "masked": "The company's ____ increased after the investment.",
       "options": [
         "value-mcq-18",
-        "value-mcq-17",
-        "value-mcq-19",
-        "value-mcq-16",
-        "value-mcq-20",
-        "value-mcq-15"
+        "value-mcq-14",
+        "value-mcq-10",
+        "value-mcq-25"
       ],
       "explanation": "本句的「valuation」指「估價；估值」。",
       "sentenceIndex": 41,
@@ -1823,12 +1681,10 @@ export default {
         "valuation"
       ],
       "optionReasons": {
-        "value-mcq-18": "本句指「估價；估值」。",
-        "value-mcq-17": "「估值為 Y」與本句語境不同。",
-        "value-mcq-19": "「數值」與本句語境不同。",
-        "value-mcq-16": "「重視」與本句語境不同。",
-        "value-mcq-20": "「絕對值」與本句語境不同。",
-        "value-mcq-15": "「因 Y 而重視 X」與本句語境不同。"
+        "value-mcq-18": "本句的「valuation」指「估價；估值」。",
+        "value-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-18"
     },
@@ -1840,11 +1696,9 @@ export default {
       "masked": "Enter the correct ____ for x.",
       "options": [
         "value-mcq-19",
-        "value-mcq-18",
-        "value-mcq-20",
-        "value-mcq-17",
-        "value-mcq-21",
-        "value-mcq-16"
+        "value-mcq-15",
+        "value-mcq-29",
+        "value-mcq-10"
       ],
       "explanation": "本句的「value」指「數值」。",
       "sentenceIndex": 42,
@@ -1853,12 +1707,10 @@ export default {
         "value"
       ],
       "optionReasons": {
-        "value-mcq-19": "本句指「數值」。",
-        "value-mcq-18": "「估價；估值」與本句語境不同。",
-        "value-mcq-20": "「絕對值」與本句語境不同。",
-        "value-mcq-17": "「估值為 Y」與本句語境不同。",
-        "value-mcq-21": "「價值觀」與本句語境不同。",
-        "value-mcq-16": "「重視」與本句語境不同。"
+        "value-mcq-19": "本句的「value」指「數值」。",
+        "value-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-19"
     },
@@ -1870,11 +1722,9 @@ export default {
       "masked": "The temperature reached a maximum ____ of 35°C.",
       "options": [
         "value-mcq-19",
-        "value-mcq-18",
-        "value-mcq-20",
-        "value-mcq-17",
-        "value-mcq-21",
-        "value-mcq-16"
+        "value-mcq-14",
+        "value-mcq-10",
+        "value-mcq-25"
       ],
       "explanation": "本句的「value」指「數值」。",
       "sentenceIndex": 43,
@@ -1883,12 +1733,10 @@ export default {
         "value"
       ],
       "optionReasons": {
-        "value-mcq-19": "本句指「數值」。",
-        "value-mcq-18": "「估價；估值」與本句語境不同。",
-        "value-mcq-20": "「絕對值」與本句語境不同。",
-        "value-mcq-17": "「估值為 Y」與本句語境不同。",
-        "value-mcq-21": "「價值觀」與本句語境不同。",
-        "value-mcq-16": "「重視」與本句語境不同。"
+        "value-mcq-19": "本句的「value」指「數值」。",
+        "value-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-19"
     },
@@ -1900,11 +1748,9 @@ export default {
       "masked": "Each answer has a ____.",
       "options": [
         "value-pdf-001",
-        "value-mcq-18",
-        "value-mcq-20",
-        "value-mcq-17",
-        "value-mcq-21",
-        "value-mcq-16"
+        "value-mcq-16",
+        "value-mcq-29",
+        "value-mcq-10"
       ],
       "explanation": "本句的「numerical value」指「以數字表示的確切值」。",
       "sentenceIndex": 44,
@@ -1913,12 +1759,10 @@ export default {
         "numerical value"
       ],
       "optionReasons": {
-        "value-pdf-001": "本句指「以數字表示的確切值」。",
-        "value-mcq-18": "「估價；估值」與本句語境不同。",
-        "value-mcq-20": "「絕對值」與本句語境不同。",
-        "value-mcq-17": "「估值為 Y」與本句語境不同。",
-        "value-mcq-21": "「價值觀」與本句語境不同。",
-        "value-mcq-16": "「重視」與本句語境不同。"
+        "value-pdf-001": "本句的「numerical value」指「以數字表示的確切值」。",
+        "value-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-pdf-001"
     },
@@ -1930,11 +1774,9 @@ export default {
       "masked": "The symbol represents a fixed ____.",
       "options": [
         "value-pdf-001",
-        "value-mcq-18",
-        "value-mcq-20",
-        "value-mcq-17",
-        "value-mcq-21",
-        "value-mcq-16"
+        "value-mcq-12",
+        "value-mcq-10",
+        "value-mcq-29"
       ],
       "explanation": "本句的「numerical value」指「以數字表示的確切值」。",
       "sentenceIndex": 45,
@@ -1943,12 +1785,10 @@ export default {
         "numerical value"
       ],
       "optionReasons": {
-        "value-pdf-001": "本句指「以數字表示的確切值」。",
-        "value-mcq-18": "「估價；估值」與本句語境不同。",
-        "value-mcq-20": "「絕對值」與本句語境不同。",
-        "value-mcq-17": "「估值為 Y」與本句語境不同。",
-        "value-mcq-21": "「價值觀」與本句語境不同。",
-        "value-mcq-16": "「重視」與本句語境不同。"
+        "value-pdf-001": "本句的「numerical value」指「以數字表示的確切值」。",
+        "value-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-pdf-001"
     },
@@ -1960,11 +1800,9 @@ export default {
       "masked": "The ____ of −5 is 5.",
       "options": [
         "value-mcq-20",
-        "value-mcq-19",
-        "value-mcq-21",
-        "value-mcq-18",
-        "value-mcq-22",
-        "value-mcq-17"
+        "value-mcq-16",
+        "value-mcq-29",
+        "value-mcq-10"
       ],
       "explanation": "本句的「absolute value」指「絕對值」。",
       "sentenceIndex": 46,
@@ -1973,12 +1811,10 @@ export default {
         "absolute value"
       ],
       "optionReasons": {
-        "value-mcq-20": "本句指「絕對值」。",
-        "value-mcq-19": "「數值」與本句語境不同。",
-        "value-mcq-21": "「價值觀」與本句語境不同。",
-        "value-mcq-18": "「估價；估值」與本句語境不同。",
-        "value-mcq-22": "「核心價值觀」與本句語境不同。",
-        "value-mcq-17": "「估值為 Y」與本句語境不同。"
+        "value-mcq-20": "本句的「absolute value」指「絕對值」。",
+        "value-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-20"
     },
@@ -1990,11 +1826,9 @@ export default {
       "masked": "Calculate the ____ first.",
       "options": [
         "value-mcq-20",
-        "value-mcq-19",
-        "value-mcq-21",
-        "value-mcq-18",
-        "value-mcq-22",
-        "value-mcq-17"
+        "value-mcq-29",
+        "value-mcq-12",
+        "value-mcq-25"
       ],
       "explanation": "本句的「absolute value」指「絕對值」。",
       "sentenceIndex": 47,
@@ -2003,12 +1837,10 @@ export default {
         "absolute value"
       ],
       "optionReasons": {
-        "value-mcq-20": "本句指「絕對值」。",
-        "value-mcq-19": "「數值」與本句語境不同。",
-        "value-mcq-21": "「價值觀」與本句語境不同。",
-        "value-mcq-18": "「估價；估值」與本句語境不同。",
-        "value-mcq-22": "「核心價值觀」與本句語境不同。",
-        "value-mcq-17": "「估值為 Y」與本句語境不同。"
+        "value-mcq-20": "本句的「absolute value」指「絕對值」。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-20"
     },
@@ -2020,11 +1852,9 @@ export default {
       "masked": "Honesty is one of her core ____.",
       "options": [
         "value-mcq-21",
-        "value-mcq-20",
-        "value-mcq-22",
-        "value-mcq-19",
-        "value-mcq-23",
-        "value-mcq-18"
+        "value-mcq-14",
+        "value-mcq-25",
+        "value-mcq-29"
       ],
       "explanation": "本句的「values」指「價值觀」。",
       "sentenceIndex": 48,
@@ -2033,12 +1863,10 @@ export default {
         "values"
       ],
       "optionReasons": {
-        "value-mcq-21": "本句指「價值觀」。",
-        "value-mcq-20": "「絕對值」與本句語境不同。",
-        "value-mcq-22": "「核心價值觀」與本句語境不同。",
-        "value-mcq-19": "「數值」與本句語境不同。",
-        "value-mcq-23": "「個人價值觀」與本句語境不同。",
-        "value-mcq-18": "「估價；估值」與本句語境不同。"
+        "value-mcq-21": "本句的「values」指「價值觀」。",
+        "value-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-21"
     },
@@ -2050,11 +1878,9 @@ export default {
       "masked": "Their ____ are very different.",
       "options": [
         "value-mcq-21",
-        "value-mcq-20",
-        "value-mcq-22",
-        "value-mcq-19",
-        "value-mcq-23",
-        "value-mcq-18"
+        "value-mcq-12",
+        "value-mcq-25",
+        "value-mcq-29"
       ],
       "explanation": "本句的「values」指「價值觀」。",
       "sentenceIndex": 49,
@@ -2063,12 +1889,10 @@ export default {
         "values"
       ],
       "optionReasons": {
-        "value-mcq-21": "本句指「價值觀」。",
-        "value-mcq-20": "「絕對值」與本句語境不同。",
-        "value-mcq-22": "「核心價值觀」與本句語境不同。",
-        "value-mcq-19": "「數值」與本句語境不同。",
-        "value-mcq-23": "「個人價值觀」與本句語境不同。",
-        "value-mcq-18": "「估價；估值」與本句語境不同。"
+        "value-mcq-21": "本句的「values」指「價值觀」。",
+        "value-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-21"
     },
@@ -2080,11 +1904,9 @@ export default {
       "masked": "Respect is one of the school's ____.",
       "options": [
         "value-mcq-22",
-        "value-mcq-21",
-        "value-mcq-23",
-        "value-mcq-20",
-        "value-mcq-24",
-        "value-mcq-19"
+        "value-mcq-13",
+        "value-mcq-10",
+        "value-mcq-29"
       ],
       "explanation": "本句的「core values」指「核心價值觀」。",
       "sentenceIndex": 50,
@@ -2093,12 +1915,10 @@ export default {
         "core values"
       ],
       "optionReasons": {
-        "value-mcq-22": "本句指「核心價值觀」。",
-        "value-mcq-21": "「價值觀」與本句語境不同。",
-        "value-mcq-23": "「個人價值觀」與本句語境不同。",
-        "value-mcq-20": "「絕對值」與本句語境不同。",
-        "value-mcq-24": "「面值」與本句語境不同。",
-        "value-mcq-19": "「數值」與本句語境不同。"
+        "value-mcq-22": "本句的「core values」指「核心價值觀」。",
+        "value-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-22"
     },
@@ -2110,11 +1930,9 @@ export default {
       "masked": "The company lists trust and responsibility among its ____.",
       "options": [
         "value-mcq-22",
-        "value-mcq-21",
-        "value-mcq-23",
-        "value-mcq-20",
-        "value-mcq-24",
-        "value-mcq-19"
+        "value-mcq-12",
+        "value-mcq-10",
+        "value-mcq-25"
       ],
       "explanation": "本句的「core values」指「核心價值觀」。",
       "sentenceIndex": 51,
@@ -2123,12 +1941,10 @@ export default {
         "core values"
       ],
       "optionReasons": {
-        "value-mcq-22": "本句指「核心價值觀」。",
-        "value-mcq-21": "「價值觀」與本句語境不同。",
-        "value-mcq-23": "「個人價值觀」與本句語境不同。",
-        "value-mcq-20": "「絕對值」與本句語境不同。",
-        "value-mcq-24": "「面值」與本句語境不同。",
-        "value-mcq-19": "「數值」與本句語境不同。"
+        "value-mcq-22": "本句的「core values」指「核心價值觀」。",
+        "value-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-22"
     },
@@ -2140,11 +1956,9 @@ export default {
       "masked": "Career choices often reflect our ____.",
       "options": [
         "value-mcq-23",
-        "value-mcq-22",
-        "value-mcq-24",
-        "value-mcq-21",
-        "value-mcq-25",
-        "value-mcq-20"
+        "value-mcq-12",
+        "value-mcq-29",
+        "value-mcq-25"
       ],
       "explanation": "本句的「personal values」指「個人價值觀」。",
       "sentenceIndex": 54,
@@ -2153,12 +1967,10 @@ export default {
         "personal values"
       ],
       "optionReasons": {
-        "value-mcq-23": "本句指「個人價值觀」。",
-        "value-mcq-22": "「核心價值觀」與本句語境不同。",
-        "value-mcq-24": "「面值」與本句語境不同。",
-        "value-mcq-21": "「價值觀」與本句語境不同。",
-        "value-mcq-25": "「按表面意思」與本句語境不同。",
-        "value-mcq-20": "「絕對值」與本句語境不同。"
+        "value-mcq-23": "本句的「personal values」指「個人價值觀」。",
+        "value-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-23"
     },
@@ -2170,11 +1982,9 @@ export default {
       "masked": "Her decision was consistent with her ____.",
       "options": [
         "value-mcq-23",
-        "value-mcq-22",
-        "value-mcq-24",
-        "value-mcq-21",
-        "value-mcq-25",
-        "value-mcq-20"
+        "value-mcq-12",
+        "value-mcq-10",
+        "value-mcq-25"
       ],
       "explanation": "本句的「personal values」指「個人價值觀」。",
       "sentenceIndex": 55,
@@ -2183,12 +1993,10 @@ export default {
         "personal values"
       ],
       "optionReasons": {
-        "value-mcq-23": "本句指「個人價值觀」。",
-        "value-mcq-22": "「核心價值觀」與本句語境不同。",
-        "value-mcq-24": "「面值」與本句語境不同。",
-        "value-mcq-21": "「價值觀」與本句語境不同。",
-        "value-mcq-25": "「按表面意思」與本句語境不同。",
-        "value-mcq-20": "「絕對值」與本句語境不同。"
+        "value-mcq-23": "本句的「personal values」指「個人價值觀」。",
+        "value-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-23"
     },
@@ -2200,11 +2008,9 @@ export default {
       "masked": "The ticket has a ____ of $100.",
       "options": [
         "value-mcq-24",
-        "value-mcq-23",
         "value-mcq-25",
-        "value-mcq-22",
-        "value-mcq-26",
-        "value-mcq-21"
+        "value-mcq-12",
+        "value-mcq-29"
       ],
       "explanation": "本句的「face value」指「面值」。",
       "sentenceIndex": 56,
@@ -2213,12 +2019,10 @@ export default {
         "face value"
       ],
       "optionReasons": {
-        "value-mcq-24": "本句指「面值」。",
-        "value-mcq-23": "「個人價值觀」與本句語境不同。",
-        "value-mcq-25": "「按表面意思」與本句語境不同。",
-        "value-mcq-22": "「核心價值觀」與本句語境不同。",
-        "value-mcq-26": "「增值的」與本句語境不同。",
-        "value-mcq-21": "「價值觀」與本句語境不同。"
+        "value-mcq-24": "本句的「face value」指「面值」。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-24"
     },
@@ -2230,11 +2034,9 @@ export default {
       "masked": "The bond was issued at its ____.",
       "options": [
         "value-mcq-24",
-        "value-mcq-23",
+        "value-mcq-28",
         "value-mcq-25",
-        "value-mcq-22",
-        "value-mcq-26",
-        "value-mcq-21"
+        "value-mcq-10"
       ],
       "explanation": "本句的「face value」指「面值」。",
       "sentenceIndex": 57,
@@ -2243,12 +2045,10 @@ export default {
         "face value"
       ],
       "optionReasons": {
-        "value-mcq-24": "本句指「面值」。",
-        "value-mcq-23": "「個人價值觀」與本句語境不同。",
-        "value-mcq-25": "「按表面意思」與本句語境不同。",
-        "value-mcq-22": "「核心價值觀」與本句語境不同。",
-        "value-mcq-26": "「增值的」與本句語境不同。",
-        "value-mcq-21": "「價值觀」與本句語境不同。"
+        "value-mcq-24": "本句的「face value」指「面值」。",
+        "value-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-24"
     },
@@ -2260,11 +2060,9 @@ export default {
       "masked": "Don't take everything he says ____.",
       "options": [
         "value-mcq-25",
-        "value-mcq-24",
-        "value-mcq-26",
-        "value-mcq-23",
-        "value-mcq-27",
-        "value-mcq-22"
+        "value-mcq-08",
+        "value-mcq-12",
+        "value-mcq-29"
       ],
       "explanation": "本句的「at face value」指「按表面意思」。",
       "sentenceIndex": 58,
@@ -2273,12 +2071,10 @@ export default {
         "at face value"
       ],
       "optionReasons": {
-        "value-mcq-25": "本句指「按表面意思」。",
-        "value-mcq-24": "「面值」與本句語境不同。",
-        "value-mcq-26": "「增值的」與本句語境不同。",
-        "value-mcq-23": "「個人價值觀」與本句語境不同。",
-        "value-mcq-27": "「有價值的；珍貴的」與本句語境不同。",
-        "value-mcq-22": "「核心價值觀」與本句語境不同。"
+        "value-mcq-25": "本句的「at face value」指「按表面意思」。",
+        "value-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-25"
     },
@@ -2290,11 +2086,9 @@ export default {
       "masked": "The claim should not be accepted ____.",
       "options": [
         "value-mcq-25",
-        "value-mcq-24",
-        "value-mcq-26",
-        "value-mcq-23",
-        "value-mcq-27",
-        "value-mcq-22"
+        "value-mcq-09",
+        "value-mcq-13",
+        "value-mcq-10"
       ],
       "explanation": "本句的「at face value」指「按表面意思」。",
       "sentenceIndex": 59,
@@ -2303,12 +2097,10 @@ export default {
         "at face value"
       ],
       "optionReasons": {
-        "value-mcq-25": "本句指「按表面意思」。",
-        "value-mcq-24": "「面值」與本句語境不同。",
-        "value-mcq-26": "「增值的」與本句語境不同。",
-        "value-mcq-23": "「個人價值觀」與本句語境不同。",
-        "value-mcq-27": "「有價值的；珍貴的」與本句語境不同。",
-        "value-mcq-22": "「核心價值觀」與本句語境不同。"
+        "value-mcq-25": "本句的「at face value」指「按表面意思」。",
+        "value-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-25"
     },
@@ -2320,11 +2112,9 @@ export default {
       "masked": "The company offers ____.",
       "options": [
         "value-mcq-26",
-        "value-mcq-25",
-        "value-mcq-27",
-        "value-mcq-24",
-        "value-mcq-28",
-        "value-mcq-23"
+        "value-mcq-12",
+        "value-mcq-29",
+        "value-mcq-25"
       ],
       "explanation": "本句的「value-added services」指「增值的」。",
       "sentenceIndex": 60,
@@ -2333,12 +2123,10 @@ export default {
         "value-added services"
       ],
       "optionReasons": {
-        "value-mcq-26": "本句指「增值的」。",
-        "value-mcq-25": "「按表面意思」與本句語境不同。",
-        "value-mcq-27": "「有價值的；珍貴的」與本句語境不同。",
-        "value-mcq-24": "「面值」與本句語境不同。",
-        "value-mcq-28": "「貴重物品」與本句語境不同。",
-        "value-mcq-23": "「個人價值觀」與本句語境不同。"
+        "value-mcq-26": "本句的「value-added services」指「增值的」。",
+        "value-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-26"
     },
@@ -2350,11 +2138,9 @@ export default {
       "masked": "Packaging can create ____.",
       "options": [
         "value-mcq-26",
-        "value-mcq-25",
-        "value-mcq-27",
-        "value-mcq-24",
-        "value-mcq-28",
-        "value-mcq-23"
+        "value-mcq-10",
+        "value-mcq-13",
+        "value-mcq-25"
       ],
       "explanation": "本句的「value-added products」指「增值的」。",
       "sentenceIndex": 61,
@@ -2363,12 +2149,10 @@ export default {
         "value-added products"
       ],
       "optionReasons": {
-        "value-mcq-26": "本句指「增值的」。",
-        "value-mcq-25": "「按表面意思」與本句語境不同。",
-        "value-mcq-27": "「有價值的；珍貴的」與本句語境不同。",
-        "value-mcq-24": "「面值」與本句語境不同。",
-        "value-mcq-28": "「貴重物品」與本句語境不同。",
-        "value-mcq-23": "「個人價值觀」與本句語境不同。"
+        "value-mcq-26": "本句的「value-added products」指「增值的」。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-26"
     },
@@ -2380,11 +2164,9 @@ export default {
       "masked": "The painting is extremely ____.",
       "options": [
         "value-mcq-27",
-        "value-mcq-26",
-        "value-mcq-28",
-        "value-mcq-25",
-        "value-mcq-29",
-        "value-mcq-24"
+        "value-mcq-13",
+        "value-mcq-10",
+        "value-mcq-25"
       ],
       "explanation": "本句的「valuable」指「有價值的；珍貴的」。",
       "sentenceIndex": 62,
@@ -2393,12 +2175,10 @@ export default {
         "valuable"
       ],
       "optionReasons": {
-        "value-mcq-27": "本句指「有價值的；珍貴的」。",
-        "value-mcq-26": "「增值的」與本句語境不同。",
-        "value-mcq-28": "「貴重物品」與本句語境不同。",
-        "value-mcq-25": "「按表面意思」與本句語境不同。",
-        "value-mcq-29": "「極其寶貴的」與本句語境不同。",
-        "value-mcq-24": "「面值」與本句語境不同。"
+        "value-mcq-27": "本句的「valuable」指「有價值的；珍貴的」。",
+        "value-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-27"
     },
@@ -2410,11 +2190,9 @@ export default {
       "masked": "Keep ____ items in a safe place.",
       "options": [
         "value-mcq-27",
-        "value-mcq-26",
-        "value-mcq-28",
-        "value-mcq-25",
-        "value-mcq-29",
-        "value-mcq-24"
+        "value-mcq-10",
+        "value-mcq-16",
+        "value-mcq-25"
       ],
       "explanation": "本句的「valuable」指「有價值的；珍貴的」。",
       "sentenceIndex": 63,
@@ -2423,12 +2201,10 @@ export default {
         "valuable"
       ],
       "optionReasons": {
-        "value-mcq-27": "本句指「有價值的；珍貴的」。",
-        "value-mcq-26": "「增值的」與本句語境不同。",
-        "value-mcq-28": "「貴重物品」與本句語境不同。",
-        "value-mcq-25": "「按表面意思」與本句語境不同。",
-        "value-mcq-29": "「極其寶貴的」與本句語境不同。",
-        "value-mcq-24": "「面值」與本句語境不同。"
+        "value-mcq-27": "本句的「valuable」指「有價值的；珍貴的」。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-27"
     },
@@ -2440,11 +2216,9 @@ export default {
       "masked": "She gave me some ____.",
       "options": [
         "value-mcq-27",
-        "value-mcq-26",
-        "value-mcq-28",
+        "value-mcq-14",
         "value-mcq-25",
-        "value-mcq-29",
-        "value-mcq-24"
+        "value-mcq-10"
       ],
       "explanation": "本句的「valuable advice」指「有價值的；珍貴的」。",
       "sentenceIndex": 64,
@@ -2453,12 +2227,10 @@ export default {
         "valuable advice"
       ],
       "optionReasons": {
-        "value-mcq-27": "本句指「有價值的；珍貴的」。",
-        "value-mcq-26": "「增值的」與本句語境不同。",
-        "value-mcq-28": "「貴重物品」與本句語境不同。",
-        "value-mcq-25": "「按表面意思」與本句語境不同。",
-        "value-mcq-29": "「極其寶貴的」與本句語境不同。",
-        "value-mcq-24": "「面值」與本句語境不同。"
+        "value-mcq-27": "本句的「valuable advice」指「有價值的；珍貴的」。",
+        "value-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-27"
     },
@@ -2470,11 +2242,9 @@ export default {
       "masked": "The internship provided ____.",
       "options": [
         "value-mcq-27",
-        "value-mcq-26",
-        "value-mcq-28",
-        "value-mcq-25",
-        "value-mcq-29",
-        "value-mcq-24"
+        "value-mcq-15",
+        "value-mcq-10",
+        "value-mcq-25"
       ],
       "explanation": "本句的「valuable experience」指「有價值的；珍貴的」。",
       "sentenceIndex": 65,
@@ -2483,12 +2253,10 @@ export default {
         "valuable experience"
       ],
       "optionReasons": {
-        "value-mcq-27": "本句指「有價值的；珍貴的」。",
-        "value-mcq-26": "「增值的」與本句語境不同。",
-        "value-mcq-28": "「貴重物品」與本句語境不同。",
-        "value-mcq-25": "「按表面意思」與本句語境不同。",
-        "value-mcq-29": "「極其寶貴的」與本句語境不同。",
-        "value-mcq-24": "「面值」與本句語境不同。"
+        "value-mcq-27": "本句的「valuable experience」指「有價值的；珍貴的」。",
+        "value-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-27"
     },
@@ -2500,11 +2268,9 @@ export default {
       "masked": "Don't leave ____ in the car.",
       "options": [
         "value-mcq-28",
-        "value-mcq-27",
-        "value-mcq-29",
-        "value-mcq-26",
-        "value-mcq-30",
-        "value-mcq-25"
+        "value-mcq-01",
+        "value-mcq-25",
+        "value-mcq-10"
       ],
       "explanation": "本句的「valuables」指「貴重物品」。",
       "sentenceIndex": 66,
@@ -2513,12 +2279,10 @@ export default {
         "valuables"
       ],
       "optionReasons": {
-        "value-mcq-28": "本句指「貴重物品」。",
-        "value-mcq-27": "「有價值的；珍貴的」與本句語境不同。",
-        "value-mcq-29": "「極其寶貴的」與本句語境不同。",
-        "value-mcq-26": "「增值的」與本句語境不同。",
-        "value-mcq-30": "「貶值；貶低」與本句語境不同。",
-        "value-mcq-25": "「按表面意思」與本句語境不同。"
+        "value-mcq-28": "本句的「valuables」指「貴重物品」。",
+        "value-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-28"
     },
@@ -2530,11 +2294,9 @@ export default {
       "masked": "Guests can store their ____ in the hotel safe.",
       "options": [
         "value-mcq-28",
-        "value-mcq-27",
-        "value-mcq-29",
-        "value-mcq-26",
-        "value-mcq-30",
-        "value-mcq-25"
+        "value-mcq-10",
+        "value-mcq-03",
+        "value-pdf-001"
       ],
       "explanation": "本句的「valuables」指「貴重物品」。",
       "sentenceIndex": 67,
@@ -2543,12 +2305,10 @@ export default {
         "valuables"
       ],
       "optionReasons": {
-        "value-mcq-28": "本句指「貴重物品」。",
-        "value-mcq-27": "「有價值的；珍貴的」與本句語境不同。",
-        "value-mcq-29": "「極其寶貴的」與本句語境不同。",
-        "value-mcq-26": "「增值的」與本句語境不同。",
-        "value-mcq-30": "「貶值；貶低」與本句語境不同。",
-        "value-mcq-25": "「按表面意思」與本句語境不同。"
+        "value-mcq-28": "本句的「valuables」指「貴重物品」。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "value-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-28"
     },
@@ -2560,11 +2320,9 @@ export default {
       "masked": "Her advice was ____.",
       "options": [
         "value-mcq-29",
-        "value-mcq-28",
-        "value-mcq-30",
-        "value-mcq-27",
         "value-mcq-31",
-        "value-mcq-26"
+        "value-mcq-13",
+        "value-mcq-10"
       ],
       "explanation": "本句的「invaluable」指「極其寶貴的」。",
       "sentenceIndex": 68,
@@ -2573,12 +2331,10 @@ export default {
         "invaluable"
       ],
       "optionReasons": {
-        "value-mcq-29": "本句指「極其寶貴的」。",
-        "value-mcq-28": "「貴重物品」與本句語境不同。",
-        "value-mcq-30": "「貶值；貶低」與本句語境不同。",
-        "value-mcq-27": "「有價值的；珍貴的」與本句語境不同。",
-        "value-mcq-31": "「低估價值」與本句語境不同。",
-        "value-mcq-26": "「增值的」與本句語境不同。"
+        "value-mcq-29": "本句的「invaluable」指「極其寶貴的」。",
+        "value-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-29"
     },
@@ -2590,11 +2346,9 @@ export default {
       "masked": "His experience proved ____ during the project.",
       "options": [
         "value-mcq-29",
-        "value-mcq-28",
-        "value-mcq-30",
-        "value-mcq-27",
-        "value-mcq-31",
-        "value-mcq-26"
+        "value-mcq-03",
+        "value-mcq-13",
+        "value-pdf-001"
       ],
       "explanation": "本句的「invaluable」指「極其寶貴的」。",
       "sentenceIndex": 69,
@@ -2603,12 +2357,10 @@ export default {
         "invaluable"
       ],
       "optionReasons": {
-        "value-mcq-29": "本句指「極其寶貴的」。",
-        "value-mcq-28": "「貴重物品」與本句語境不同。",
-        "value-mcq-30": "「貶值；貶低」與本句語境不同。",
-        "value-mcq-27": "「有價值的；珍貴的」與本句語境不同。",
-        "value-mcq-31": "「低估價值」與本句語境不同。",
-        "value-mcq-26": "「增值的」與本句語境不同。"
+        "value-mcq-29": "本句的「invaluable」指「極其寶貴的」。",
+        "value-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "value-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-29"
     },
@@ -2620,11 +2372,9 @@ export default {
       "masked": "Inflation can ____.",
       "options": [
         "value-mcq-30",
-        "value-mcq-29",
-        "value-mcq-31",
         "value-mcq-28",
-        "value-mcq-32",
-        "value-mcq-27"
+        "value-mcq-25",
+        "value-mcq-10"
       ],
       "explanation": "本句的「devalue savings」指「貶值；貶低」。",
       "sentenceIndex": 70,
@@ -2633,12 +2383,10 @@ export default {
         "devalue savings"
       ],
       "optionReasons": {
-        "value-mcq-30": "本句指「貶值；貶低」。",
-        "value-mcq-29": "「極其寶貴的」與本句語境不同。",
-        "value-mcq-31": "「低估價值」與本句語境不同。",
-        "value-mcq-28": "「貴重物品」與本句語境不同。",
-        "value-mcq-32": "「高估價值」與本句語境不同。",
-        "value-mcq-27": "「有價值的；珍貴的」與本句語境不同。"
+        "value-mcq-30": "本句的「devalue savings」指「貶值；貶低」。",
+        "value-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-30"
     },
@@ -2650,11 +2398,9 @@ export default {
       "masked": "The currency was ____.",
       "options": [
         "value-mcq-30",
-        "value-mcq-29",
-        "value-mcq-31",
-        "value-mcq-28",
-        "value-mcq-32",
-        "value-mcq-27"
+        "value-mcq-15",
+        "value-mcq-10",
+        "value-mcq-29"
       ],
       "explanation": "本句的「devalued」指「貶值；貶低」。",
       "sentenceIndex": 71,
@@ -2663,12 +2409,10 @@ export default {
         "devalued"
       ],
       "optionReasons": {
-        "value-mcq-30": "本句指「貶值；貶低」。",
-        "value-mcq-29": "「極其寶貴的」與本句語境不同。",
-        "value-mcq-31": "「低估價值」與本句語境不同。",
-        "value-mcq-28": "「貴重物品」與本句語境不同。",
-        "value-mcq-32": "「高估價值」與本句語境不同。",
-        "value-mcq-27": "「有價值的；珍貴的」與本句語境不同。"
+        "value-mcq-30": "本句的「devalued」指「貶值；貶低」。",
+        "value-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-30"
     },
@@ -2680,11 +2424,9 @@ export default {
       "masked": "Constant criticism can make people feel ____.",
       "options": [
         "value-mcq-30",
+        "value-mcq-15",
         "value-mcq-29",
-        "value-mcq-31",
-        "value-mcq-28",
-        "value-mcq-32",
-        "value-mcq-27"
+        "value-mcq-10"
       ],
       "explanation": "本句的「devalued」指「貶值；貶低」。",
       "sentenceIndex": 72,
@@ -2693,12 +2435,10 @@ export default {
         "devalued"
       ],
       "optionReasons": {
-        "value-mcq-30": "本句指「貶值；貶低」。",
-        "value-mcq-29": "「極其寶貴的」與本句語境不同。",
-        "value-mcq-31": "「低估價值」與本句語境不同。",
-        "value-mcq-28": "「貴重物品」與本句語境不同。",
-        "value-mcq-32": "「高估價值」與本句語境不同。",
-        "value-mcq-27": "「有價值的；珍貴的」與本句語境不同。"
+        "value-mcq-30": "本句的「devalued」指「貶值；貶低」。",
+        "value-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-30"
     },
@@ -2710,11 +2450,9 @@ export default {
       "masked": "We should not ____.",
       "options": [
         "value-mcq-30",
-        "value-mcq-29",
-        "value-mcq-31",
+        "value-mcq-25",
         "value-mcq-28",
-        "value-mcq-32",
-        "value-mcq-27"
+        "value-mcq-10"
       ],
       "explanation": "本句的「devalue unpaid work」指「貶值；貶低」。",
       "sentenceIndex": 73,
@@ -2723,12 +2461,10 @@ export default {
         "devalue unpaid work"
       ],
       "optionReasons": {
-        "value-mcq-30": "本句指「貶值；貶低」。",
-        "value-mcq-29": "「極其寶貴的」與本句語境不同。",
-        "value-mcq-31": "「低估價值」與本句語境不同。",
-        "value-mcq-28": "「貴重物品」與本句語境不同。",
-        "value-mcq-32": "「高估價值」與本句語境不同。",
-        "value-mcq-27": "「有價值的；珍貴的」與本句語境不同。"
+        "value-mcq-30": "本句的「devalue unpaid work」指「貶值；貶低」。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-30"
     },
@@ -2740,11 +2476,9 @@ export default {
       "masked": "The house may be ____.",
       "options": [
         "value-mcq-31",
-        "value-mcq-30",
-        "value-mcq-32",
-        "value-mcq-29",
-        "value-mcq-28",
-        "value-mcq-27"
+        "value-mcq-14",
+        "value-mcq-25",
+        "value-mcq-29"
       ],
       "explanation": "本句的「undervalued」指「低估價值」。",
       "sentenceIndex": 74,
@@ -2753,12 +2487,10 @@ export default {
         "undervalued"
       ],
       "optionReasons": {
-        "value-mcq-31": "本句指「低估價值」。",
-        "value-mcq-30": "「貶值；貶低」與本句語境不同。",
-        "value-mcq-32": "「高估價值」與本句語境不同。",
-        "value-mcq-29": "「極其寶貴的」與本句語境不同。",
-        "value-mcq-28": "「貴重物品」與本句語境不同。",
-        "value-mcq-27": "「有價值的；珍貴的」與本句語境不同。"
+        "value-mcq-31": "本句的「undervalued」指「低估價值」。",
+        "value-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-31"
     },
@@ -2770,11 +2502,9 @@ export default {
       "masked": "People often ____ the importance of sleep.",
       "options": [
         "value-mcq-31",
-        "value-mcq-30",
-        "value-mcq-32",
-        "value-mcq-29",
-        "value-mcq-28",
-        "value-mcq-27"
+        "value-mcq-13",
+        "value-mcq-10",
+        "value-mcq-29"
       ],
       "explanation": "本句的「undervalue」指「低估價值」。",
       "sentenceIndex": 75,
@@ -2783,12 +2513,10 @@ export default {
         "undervalue"
       ],
       "optionReasons": {
-        "value-mcq-31": "本句指「低估價值」。",
-        "value-mcq-30": "「貶值；貶低」與本句語境不同。",
-        "value-mcq-32": "「高估價值」與本句語境不同。",
-        "value-mcq-29": "「極其寶貴的」與本句語境不同。",
-        "value-mcq-28": "「貴重物品」與本句語境不同。",
-        "value-mcq-27": "「有價值的；珍貴的」與本句語境不同。"
+        "value-mcq-31": "本句的「undervalue」指「低估價值」。",
+        "value-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-31"
     },
@@ -2800,11 +2528,9 @@ export default {
       "masked": "The shares may be ____.",
       "options": [
         "value-mcq-32",
-        "value-mcq-31",
-        "value-mcq-30",
-        "value-mcq-29",
-        "value-mcq-28",
-        "value-mcq-27"
+        "value-mcq-25",
+        "value-mcq-15",
+        "value-mcq-10"
       ],
       "explanation": "本句的「overvalued」指「高估價值」。",
       "sentenceIndex": 76,
@@ -2813,12 +2539,10 @@ export default {
         "overvalued"
       ],
       "optionReasons": {
-        "value-mcq-32": "本句指「高估價值」。",
-        "value-mcq-31": "「低估價值」與本句語境不同。",
-        "value-mcq-30": "「貶值；貶低」與本句語境不同。",
-        "value-mcq-29": "「極其寶貴的」與本句語境不同。",
-        "value-mcq-28": "「貴重物品」與本句語境不同。",
-        "value-mcq-27": "「有價值的；珍貴的」與本句語境不同。"
+        "value-mcq-32": "本句的「overvalued」指「高估價值」。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-32"
     },
@@ -2830,11 +2554,9 @@ export default {
       "masked": "We sometimes ____ speed and undervalue accuracy.",
       "options": [
         "value-mcq-32",
-        "value-mcq-31",
-        "value-mcq-30",
+        "value-mcq-13",
         "value-mcq-29",
-        "value-mcq-28",
-        "value-mcq-27"
+        "value-mcq-25"
       ],
       "explanation": "本句的「overvalue」指「高估價值」。",
       "sentenceIndex": 77,
@@ -2843,12 +2565,10 @@ export default {
         "overvalue"
       ],
       "optionReasons": {
-        "value-mcq-32": "本句指「高估價值」。",
-        "value-mcq-31": "「低估價值」與本句語境不同。",
-        "value-mcq-30": "「貶值；貶低」與本句語境不同。",
-        "value-mcq-29": "「極其寶貴的」與本句語境不同。",
-        "value-mcq-28": "「貴重物品」與本句語境不同。",
-        "value-mcq-27": "「有價值的；珍貴的」與本句語境不同。"
+        "value-mcq-32": "本句的「overvalue」指「高估價值」。",
+        "value-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "value-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "value-mcq-32"
     }
@@ -2860,5 +2580,7 @@ export default {
     "sha256": "4ba85013c9d51f7360416273dced023040370c80188e140b8729d836068168aa",
     "pages": 29
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

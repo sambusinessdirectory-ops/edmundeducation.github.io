@@ -612,11 +612,8 @@ export default {
       "masked": "The plane taxied towards the ____.",
       "options": [
         "runway-mcq-01",
-        "runway-mcq-02",
-        "runway-mcq-03",
-        "runway-mcq-04",
-        "runway-mcq-05",
-        "runway-mcq-06"
+        "runway-mcq-42",
+        "runway-mcq-30"
       ],
       "explanation": "本句的「runway」指「飛機起飛和降落所使用的指定跑道」。",
       "sentenceIndex": 0,
@@ -625,12 +622,9 @@ export default {
         "runway"
       ],
       "optionReasons": {
-        "runway-mcq-01": "本句指「飛機起飛和降落所使用的指定跑道」。",
-        "runway-mcq-02": "「鋪裝／未鋪裝飛機跑道」與本句語境不同。",
-        "runway-mcq-03": "「用方向等規則識別跑道的編號」與本句語境不同。",
-        "runway-mcq-04": "「與另一條跑道大致平行的跑道」與本句語境不同。",
-        "runway-mcq-05": "「為不同風向提供另一操作方向的跑道」與本句語境不同。",
-        "runway-mcq-06": "「可供該方向著陸的跑道起始門檻」與本句語境不同。"
+        "runway-mcq-01": "本句的「runway」指「飛機起飛和降落所使用的指定跑道」。",
+        "runway-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "runway-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runway-mcq-01"
     },
@@ -642,11 +636,8 @@ export default {
       "masked": "The aircraft landed safely on the ____.",
       "options": [
         "runway-mcq-01",
-        "runway-mcq-02",
-        "runway-mcq-03",
-        "runway-mcq-04",
-        "runway-mcq-05",
-        "runway-mcq-06"
+        "runway-mcq-30",
+        "runway-mcq-41"
       ],
       "explanation": "本句的「runway」指「飛機起飛和降落所使用的指定跑道」。",
       "sentenceIndex": 1,
@@ -655,12 +646,9 @@ export default {
         "runway"
       ],
       "optionReasons": {
-        "runway-mcq-01": "本句指「飛機起飛和降落所使用的指定跑道」。",
-        "runway-mcq-02": "「鋪裝／未鋪裝飛機跑道」與本句語境不同。",
-        "runway-mcq-03": "「用方向等規則識別跑道的編號」與本句語境不同。",
-        "runway-mcq-04": "「與另一條跑道大致平行的跑道」與本句語境不同。",
-        "runway-mcq-05": "「為不同風向提供另一操作方向的跑道」與本句語境不同。",
-        "runway-mcq-06": "「可供該方向著陸的跑道起始門檻」與本句語境不同。"
+        "runway-mcq-01": "本句的「runway」指「飛機起飛和降落所使用的指定跑道」。",
+        "runway-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "runway-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runway-mcq-01"
     },
@@ -672,11 +660,8 @@ export default {
       "masked": "The model walked down the ____.",
       "options": [
         "runway-mcq-27",
-        "runway-mcq-26",
-        "runway-mcq-28",
-        "runway-mcq-25",
-        "runway-mcq-29",
-        "runway-mcq-24"
+        "runway-mcq-01",
+        "runway-mcq-38"
       ],
       "explanation": "本句的「runway」指「模特兒展示時裝時行走的伸展台／天橋」。",
       "sentenceIndex": 2,
@@ -685,12 +670,9 @@ export default {
         "runway"
       ],
       "optionReasons": {
-        "runway-mcq-27": "本句指「模特兒展示時裝時行走的伸展台／天橋」。",
-        "runway-mcq-26": "「標槍助跑道」與本句語境不同。",
-        "runway-mcq-28": "「以模特兒走伸展台展示服裝的時裝秀」與本句語境不同。",
-        "runway-mcq-25": "「撐竿跳助跑道」與本句語境不同。",
-        "runway-mcq-29": "「主要參與時裝秀走台展示的模特兒」與本句語境不同。",
-        "runway-mcq-24": "「三級跳助跑道」與本句語境不同。"
+        "runway-mcq-27": "本句的「runway」指「模特兒展示時裝時行走的伸展台／天橋」。",
+        "runway-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "runway-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runway-mcq-27"
     },
@@ -702,11 +684,8 @@ export default {
       "masked": "She walked the ____ in Paris.",
       "options": [
         "runway-mcq-30",
-        "runway-mcq-29",
-        "runway-mcq-31",
-        "runway-mcq-28",
-        "runway-mcq-32",
-        "runway-mcq-27"
+        "runway-mcq-01",
+        "runway-mcq-39"
       ],
       "explanation": "本句的「runway」指「模特兒在時裝天橋上展示服裝」。",
       "sentenceIndex": 3,
@@ -715,12 +694,9 @@ export default {
         "runway"
       ],
       "optionReasons": {
-        "runway-mcq-30": "本句指「模特兒在時裝天橋上展示服裝」。",
-        "runway-mcq-29": "「主要參與時裝秀走台展示的模特兒」與本句語境不同。",
-        "runway-mcq-31": "「在時裝秀展示的系列／造型」與本句語境不同。",
-        "runway-mcq-28": "「以模特兒走伸展台展示服裝的時裝秀」與本句語境不同。",
-        "runway-mcq-32": "「達到時裝天橋展示水準、造型完整的」與本句語境不同。",
-        "runway-mcq-27": "「模特兒展示時裝時行走的伸展台／天橋」與本句語境不同。"
+        "runway-mcq-30": "本句的「runway」指「模特兒在時裝天橋上展示服裝」。",
+        "runway-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "runway-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runway-mcq-30"
     },
@@ -732,11 +708,8 @@ export default {
       "masked": "The startup ran out of ____ before becoming profitable.",
       "options": [
         "runway-mcq-38",
-        "runway-mcq-37",
-        "runway-mcq-39",
-        "runway-mcq-36",
-        "runway-mcq-40",
-        "runway-mcq-35"
+        "runway-mcq-01",
+        "runway-mcq-27"
       ],
       "explanation": "本句的「runway」指「資金／可支撐時間耗盡」。",
       "sentenceIndex": 6,
@@ -745,12 +718,9 @@ export default {
         "runway"
       ],
       "optionReasons": {
-        "runway-mcq-38": "本句指「資金／可支撐時間耗盡」。",
-        "runway-mcq-37": "「令資金更快耗盡，減少可支撐時間」與本句語境不同。",
-        "runway-mcq-39": "「足以支撐企業直到達至盈利的資金時間」與本句語境不同。",
-        "runway-mcq-36": "「透過增收、減支或融資增加可繼續營運的時間」與本句語境不同。",
-        "runway-mcq-40": "「個人失去正常收入後，儲蓄仍可支持生活多久」與本句語境不同。",
-        "runway-mcq-35": "「尚餘多少個月的資金可支撐期」與本句語境不同。"
+        "runway-mcq-38": "本句的「runway」指「資金／可支撐時間耗盡」。",
+        "runway-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "runway-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runway-mcq-38"
     },
@@ -762,11 +732,8 @@ export default {
       "masked": "Does the company have enough ____ to reach profitability?",
       "options": [
         "runway-mcq-39",
-        "runway-mcq-38",
-        "runway-mcq-40",
-        "runway-mcq-37",
-        "runway-mcq-41",
-        "runway-mcq-36"
+        "runway-mcq-01",
+        "runway-mcq-30"
       ],
       "explanation": "本句的「runway」指「足以支撐企業直到達至盈利的資金時間」。",
       "sentenceIndex": 9,
@@ -775,12 +742,9 @@ export default {
         "runway"
       ],
       "optionReasons": {
-        "runway-mcq-39": "本句指「足以支撐企業直到達至盈利的資金時間」。",
-        "runway-mcq-38": "「資金／可支撐時間耗盡」與本句語境不同。",
-        "runway-mcq-40": "「個人失去正常收入後，儲蓄仍可支持生活多久」與本句語境不同。",
-        "runway-mcq-37": "「令資金更快耗盡，減少可支撐時間」與本句語境不同。",
-        "runway-mcq-41": "「累積足夠資金、時間與準備空間才進行重大轉變／創業」與本句語境不同。",
-        "runway-mcq-36": "「透過增收、減支或融資增加可繼續營運的時間」與本句語境不同。"
+        "runway-mcq-39": "本句的「runway」指「足以支撐企業直到達至盈利的資金時間」。",
+        "runway-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "runway-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runway-mcq-39"
     },
@@ -792,11 +756,8 @@ export default {
       "masked": "The airport plans to build a new ____.",
       "options": [
         "runway-mcq-41",
-        "runway-mcq-40",
-        "runway-mcq-42",
-        "runway-mcq-39",
-        "runway-mcq-43",
-        "runway-mcq-38"
+        "runway-mcq-01",
+        "runway-mcq-30"
       ],
       "explanation": "本句的「runway」指「累積足夠資金、時間與準備空間才進行重大轉變／創業」。",
       "sentenceIndex": 12,
@@ -805,12 +766,9 @@ export default {
         "runway"
       ],
       "optionReasons": {
-        "runway-mcq-41": "本句指「累積足夠資金、時間與準備空間才進行重大轉變／創業」。",
-        "runway-mcq-40": "「個人失去正常收入後，儲蓄仍可支持生活多久」與本句語境不同。",
-        "runway-mcq-42": "「未來仍有很大的發展空間和時間」與本句語境不同。",
-        "runway-mcq-39": "「足以支撐企業直到達至盈利的資金時間」與本句語境不同。",
-        "runway-mcq-43": "「物件沿着移動的軌道、滑道或通道；較專門」與本句語境不同。",
-        "runway-mcq-38": "「資金／可支撐時間耗盡」與本句語境不同。"
+        "runway-mcq-41": "本句的「runway」指「累積足夠資金、時間與準備空間才進行重大轉變／創業」。",
+        "runway-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "runway-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runway-mcq-41"
     },
@@ -822,11 +780,8 @@ export default {
       "masked": "The market offers a long ____ for growth.",
       "options": [
         "runway-mcq-42",
-        "runway-mcq-41",
-        "runway-mcq-43",
-        "runway-mcq-40",
-        "runway-mcq-44",
-        "runway-mcq-39"
+        "runway-mcq-01",
+        "runway-mcq-30"
       ],
       "explanation": "本句的「runway」指「未來仍有很大的發展空間和時間」。",
       "sentenceIndex": 14,
@@ -835,12 +790,9 @@ export default {
         "runway"
       ],
       "optionReasons": {
-        "runway-mcq-42": "本句指「未來仍有很大的發展空間和時間」。",
-        "runway-mcq-41": "「累積足夠資金、時間與準備空間才進行重大轉變／創業」與本句語境不同。",
-        "runway-mcq-43": "「物件沿着移動的軌道、滑道或通道；較專門」與本句語境不同。",
-        "runway-mcq-40": "「個人失去正常收入後，儲蓄仍可支持生活多久」與本句語境不同。",
-        "runway-mcq-44": "「高架／橋式起重機沿着運行的軌道系統」與本句語境不同。",
-        "runway-mcq-39": "「足以支撐企業直到達至盈利的資金時間」與本句語境不同。"
+        "runway-mcq-42": "本句的「runway」指「未來仍有很大的發展空間和時間」。",
+        "runway-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "runway-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runway-mcq-42"
     }
@@ -852,5 +804,7 @@ export default {
     "sha256": "91cb578ed0696fd2f6ded0a9b630de4d0702ce9ae101ce8f8f4e81ab5260b0a0",
     "pages": 45
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

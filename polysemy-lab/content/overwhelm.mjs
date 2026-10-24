@@ -416,11 +416,9 @@ export default {
       "masked": "I was constantly ____.",
       "options": [
         "overwhelm-mcq-01",
-        "overwhelm-mcq-02",
-        "overwhelm-mcq-03",
-        "overwhelm-mcq-04",
         "overwhelm-mcq-05",
-        "overwhelm-mcq-06"
+        "overwhelm-mcq-06",
+        "overwhelm-mcq-17"
       ],
       "explanation": "本句的「overwhelmed by deadlines and work」指「壓垮；令應付不來」。",
       "sentenceIndex": 0,
@@ -429,12 +427,10 @@ export default {
         "overwhelmed by deadlines and work"
       ],
       "optionReasons": {
-        "overwhelm-mcq-01": "本句指「壓垮；令應付不來」。",
-        "overwhelm-mcq-02": "「感到不勝負荷」與本句語境不同。",
-        "overwhelm-mcq-03": "「被工作壓得喘不過氣」與本句語境不同。",
-        "overwhelm-mcq-04": "「任務多得應接不暇」與本句語境不同。",
-        "overwhelm-mcq-05": "「資訊多得難以消化」與本句語境不同。",
-        "overwhelm-mcq-06": "「感激萬分」與本句語境不同。"
+        "overwhelm-mcq-01": "本句的「overwhelmed by deadlines and work」指「壓垮；令應付不來」。",
+        "overwhelm-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-01"
     },
@@ -446,11 +442,9 @@ export default {
       "masked": "Too many tasks can ____.",
       "options": [
         "overwhelm-mcq-01",
-        "overwhelm-mcq-02",
-        "overwhelm-mcq-03",
-        "overwhelm-mcq-04",
+        "overwhelm-mcq-07",
         "overwhelm-mcq-05",
-        "overwhelm-mcq-06"
+        "overwhelm-mcq-17"
       ],
       "explanation": "本句的「overwhelm students」指「壓垮；令應付不來」。",
       "sentenceIndex": 1,
@@ -459,12 +453,10 @@ export default {
         "overwhelm students"
       ],
       "optionReasons": {
-        "overwhelm-mcq-01": "本句指「壓垮；令應付不來」。",
-        "overwhelm-mcq-02": "「感到不勝負荷」與本句語境不同。",
-        "overwhelm-mcq-03": "「被工作壓得喘不過氣」與本句語境不同。",
-        "overwhelm-mcq-04": "「任務多得應接不暇」與本句語境不同。",
-        "overwhelm-mcq-05": "「資訊多得難以消化」與本句語境不同。",
-        "overwhelm-mcq-06": "「感激萬分」與本句語境不同。"
+        "overwhelm-mcq-01": "本句的「overwhelm students」指「壓垮；令應付不來」。",
+        "overwhelm-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-01"
     },
@@ -477,9 +469,7 @@ export default {
       "options": [
         "overwhelm-mcq-01",
         "overwhelm-mcq-02",
-        "overwhelm-mcq-03",
-        "overwhelm-mcq-04",
-        "overwhelm-mcq-05",
+        "overwhelm-mcq-17",
         "overwhelm-mcq-06"
       ],
       "explanation": "本句的「overwhelmed me」指「壓垮；令應付不來」。",
@@ -489,12 +479,10 @@ export default {
         "overwhelmed me"
       ],
       "optionReasons": {
-        "overwhelm-mcq-01": "本句指「壓垮；令應付不來」。",
-        "overwhelm-mcq-02": "「感到不勝負荷」與本句語境不同。",
-        "overwhelm-mcq-03": "「被工作壓得喘不過氣」與本句語境不同。",
-        "overwhelm-mcq-04": "「任務多得應接不暇」與本句語境不同。",
-        "overwhelm-mcq-05": "「資訊多得難以消化」與本句語境不同。",
-        "overwhelm-mcq-06": "「感激萬分」與本句語境不同。"
+        "overwhelm-mcq-01": "本句的「overwhelmed me」指「壓垮；令應付不來」。",
+        "overwhelm-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-01"
     },
@@ -506,11 +494,9 @@ export default {
       "masked": "I ____ by everything I had to do.",
       "options": [
         "overwhelm-mcq-02",
-        "overwhelm-mcq-01",
+        "overwhelm-mcq-17",
         "overwhelm-mcq-03",
-        "overwhelm-mcq-04",
-        "overwhelm-mcq-05",
-        "overwhelm-mcq-06"
+        "overwhelm-mcq-08"
       ],
       "explanation": "本句的「felt overwhelmed」指「感到不勝負荷」。",
       "sentenceIndex": 3,
@@ -519,12 +505,10 @@ export default {
         "felt overwhelmed"
       ],
       "optionReasons": {
-        "overwhelm-mcq-02": "本句指「感到不勝負荷」。",
-        "overwhelm-mcq-01": "「壓垮；令應付不來」與本句語境不同。",
-        "overwhelm-mcq-03": "「被工作壓得喘不過氣」與本句語境不同。",
-        "overwhelm-mcq-04": "「任務多得應接不暇」與本句語境不同。",
-        "overwhelm-mcq-05": "「資訊多得難以消化」與本句語境不同。",
-        "overwhelm-mcq-06": "「感激萬分」與本句語境不同。"
+        "overwhelm-mcq-02": "本句的「felt overwhelmed」指「感到不勝負荷」。",
+        "overwhelm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-02"
     },
@@ -536,11 +520,9 @@ export default {
       "masked": "She started to ____ during exam week.",
       "options": [
         "overwhelm-mcq-02",
-        "overwhelm-mcq-01",
-        "overwhelm-mcq-03",
-        "overwhelm-mcq-04",
-        "overwhelm-mcq-05",
-        "overwhelm-mcq-06"
+        "overwhelm-mcq-07",
+        "overwhelm-mcq-13",
+        "overwhelm-mcq-05"
       ],
       "explanation": "本句的「feel overwhelmed」指「感到不勝負荷」。",
       "sentenceIndex": 4,
@@ -549,12 +531,10 @@ export default {
         "feel overwhelmed"
       ],
       "optionReasons": {
-        "overwhelm-mcq-02": "本句指「感到不勝負荷」。",
-        "overwhelm-mcq-01": "「壓垮；令應付不來」與本句語境不同。",
-        "overwhelm-mcq-03": "「被工作壓得喘不過氣」與本句語境不同。",
-        "overwhelm-mcq-04": "「任務多得應接不暇」與本句語境不同。",
-        "overwhelm-mcq-05": "「資訊多得難以消化」與本句語境不同。",
-        "overwhelm-mcq-06": "「感激萬分」與本句語境不同。"
+        "overwhelm-mcq-02": "本句的「feel overwhelmed」指「感到不勝負荷」。",
+        "overwhelm-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-02"
     },
@@ -566,10 +546,8 @@ export default {
       "masked": "He was ____.",
       "options": [
         "overwhelm-mcq-03",
+        "overwhelm-mcq-07",
         "overwhelm-mcq-02",
-        "overwhelm-mcq-04",
-        "overwhelm-mcq-01",
-        "overwhelm-mcq-05",
         "overwhelm-mcq-06"
       ],
       "explanation": "本句的「overwhelmed by work」指「被工作壓得喘不過氣」。",
@@ -579,12 +557,10 @@ export default {
         "overwhelmed by work"
       ],
       "optionReasons": {
-        "overwhelm-mcq-03": "本句指「被工作壓得喘不過氣」。",
-        "overwhelm-mcq-02": "「感到不勝負荷」與本句語境不同。",
-        "overwhelm-mcq-04": "「任務多得應接不暇」與本句語境不同。",
-        "overwhelm-mcq-01": "「壓垮；令應付不來」與本句語境不同。",
-        "overwhelm-mcq-05": "「資訊多得難以消化」與本句語境不同。",
-        "overwhelm-mcq-06": "「感激萬分」與本句語境不同。"
+        "overwhelm-mcq-03": "本句的「overwhelmed by work」指「被工作壓得喘不過氣」。",
+        "overwhelm-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-03"
     },
@@ -596,11 +572,9 @@ export default {
       "masked": "I don't want to become ____ again.",
       "options": [
         "overwhelm-mcq-03",
-        "overwhelm-mcq-02",
-        "overwhelm-mcq-04",
-        "overwhelm-mcq-01",
+        "overwhelm-mcq-15",
         "overwhelm-mcq-05",
-        "overwhelm-mcq-06"
+        "overwhelm-mcq-17"
       ],
       "explanation": "本句的「overwhelmed by my workload」指「被工作壓得喘不過氣」。",
       "sentenceIndex": 6,
@@ -609,12 +583,10 @@ export default {
         "overwhelmed by my workload"
       ],
       "optionReasons": {
-        "overwhelm-mcq-03": "本句指「被工作壓得喘不過氣」。",
-        "overwhelm-mcq-02": "「感到不勝負荷」與本句語境不同。",
-        "overwhelm-mcq-04": "「任務多得應接不暇」與本句語境不同。",
-        "overwhelm-mcq-01": "「壓垮；令應付不來」與本句語境不同。",
-        "overwhelm-mcq-05": "「資訊多得難以消化」與本句語境不同。",
-        "overwhelm-mcq-06": "「感激萬分」與本句語境不同。"
+        "overwhelm-mcq-03": "本句的「overwhelmed by my workload」指「被工作壓得喘不過氣」。",
+        "overwhelm-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-03"
     },
@@ -626,11 +598,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "overwhelm-mcq-04",
-        "overwhelm-mcq-03",
-        "overwhelm-mcq-05",
-        "overwhelm-mcq-02",
-        "overwhelm-mcq-06",
-        "overwhelm-mcq-01"
+        "overwhelm-mcq-08",
+        "overwhelm-mcq-16",
+        "overwhelm-mcq-11"
       ],
       "explanation": "本句的「overwhelmed with responsibilities」指「任務多得應接不暇」。",
       "sentenceIndex": 7,
@@ -639,12 +609,10 @@ export default {
         "overwhelmed with responsibilities"
       ],
       "optionReasons": {
-        "overwhelm-mcq-04": "本句指「任務多得應接不暇」。",
-        "overwhelm-mcq-03": "「被工作壓得喘不過氣」與本句語境不同。",
-        "overwhelm-mcq-05": "「資訊多得難以消化」與本句語境不同。",
-        "overwhelm-mcq-02": "「感到不勝負荷」與本句語境不同。",
-        "overwhelm-mcq-06": "「感激萬分」與本句語境不同。",
-        "overwhelm-mcq-01": "「壓垮；令應付不來」與本句語境不同。"
+        "overwhelm-mcq-04": "本句的「overwhelmed with responsibilities」指「任務多得應接不暇」。",
+        "overwhelm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-04"
     },
@@ -656,11 +624,9 @@ export default {
       "masked": "The team became ____.",
       "options": [
         "overwhelm-mcq-04",
-        "overwhelm-mcq-03",
-        "overwhelm-mcq-05",
-        "overwhelm-mcq-02",
-        "overwhelm-mcq-06",
-        "overwhelm-mcq-01"
+        "overwhelm-mcq-12",
+        "overwhelm-mcq-07",
+        "overwhelm-mcq-08"
       ],
       "explanation": "本句的「overwhelmed with tasks」指「任務多得應接不暇」。",
       "sentenceIndex": 8,
@@ -669,12 +635,10 @@ export default {
         "overwhelmed with tasks"
       ],
       "optionReasons": {
-        "overwhelm-mcq-04": "本句指「任務多得應接不暇」。",
-        "overwhelm-mcq-03": "「被工作壓得喘不過氣」與本句語境不同。",
-        "overwhelm-mcq-05": "「資訊多得難以消化」與本句語境不同。",
-        "overwhelm-mcq-02": "「感到不勝負荷」與本句語境不同。",
-        "overwhelm-mcq-06": "「感激萬分」與本句語境不同。",
-        "overwhelm-mcq-01": "「壓垮；令應付不來」與本句語境不同。"
+        "overwhelm-mcq-04": "本句的「overwhelmed with tasks」指「任務多得應接不暇」。",
+        "overwhelm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-04"
     },
@@ -686,11 +650,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "overwhelm-mcq-05",
-        "overwhelm-mcq-04",
-        "overwhelm-mcq-06",
-        "overwhelm-mcq-03",
-        "overwhelm-mcq-07",
-        "overwhelm-mcq-02"
+        "overwhelm-mcq-17",
+        "overwhelm-mcq-11",
+        "overwhelm-mcq-15"
       ],
       "explanation": "本句的「overwhelm the audience with too much information」指「資訊多得難以消化」。",
       "sentenceIndex": 9,
@@ -699,12 +661,10 @@ export default {
         "overwhelm the audience with too much information"
       ],
       "optionReasons": {
-        "overwhelm-mcq-05": "本句指「資訊多得難以消化」。",
-        "overwhelm-mcq-04": "「任務多得應接不暇」與本句語境不同。",
-        "overwhelm-mcq-06": "「感激萬分」與本句語境不同。",
-        "overwhelm-mcq-03": "「被工作壓得喘不過氣」與本句語境不同。",
-        "overwhelm-mcq-07": "「被悲痛淹沒」與本句語境不同。",
-        "overwhelm-mcq-02": "「感到不勝負荷」與本句語境不同。"
+        "overwhelm-mcq-05": "本句的「overwhelm the audience with too much information」指「資訊多得難以消化」。",
+        "overwhelm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-05"
     },
@@ -716,11 +676,9 @@ export default {
       "masked": "The instructions ____.",
       "options": [
         "overwhelm-mcq-05",
-        "overwhelm-mcq-04",
-        "overwhelm-mcq-06",
-        "overwhelm-mcq-03",
-        "overwhelm-mcq-07",
-        "overwhelm-mcq-02"
+        "overwhelm-mcq-17",
+        "overwhelm-mcq-16",
+        "overwhelm-mcq-09"
       ],
       "explanation": "本句的「overwhelmed me with details」指「資訊多得難以消化」。",
       "sentenceIndex": 10,
@@ -729,12 +687,10 @@ export default {
         "overwhelmed me with details"
       ],
       "optionReasons": {
-        "overwhelm-mcq-05": "本句指「資訊多得難以消化」。",
-        "overwhelm-mcq-04": "「任務多得應接不暇」與本句語境不同。",
-        "overwhelm-mcq-06": "「感激萬分」與本句語境不同。",
-        "overwhelm-mcq-03": "「被工作壓得喘不過氣」與本句語境不同。",
-        "overwhelm-mcq-07": "「被悲痛淹沒」與本句語境不同。",
-        "overwhelm-mcq-02": "「感到不勝負荷」與本句語境不同。"
+        "overwhelm-mcq-05": "本句的「overwhelmed me with details」指「資訊多得難以消化」。",
+        "overwhelm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-05"
     },
@@ -746,11 +702,9 @@ export default {
       "masked": "I was ____ for their support.",
       "options": [
         "overwhelm-mcq-06",
-        "overwhelm-mcq-05",
-        "overwhelm-mcq-07",
-        "overwhelm-mcq-04",
-        "overwhelm-mcq-08",
-        "overwhelm-mcq-03"
+        "overwhelm-mcq-12",
+        "overwhelm-mcq-18",
+        "overwhelm-mcq-09"
       ],
       "explanation": "本句的「overwhelmed with gratitude」指「感激萬分」。",
       "sentenceIndex": 13,
@@ -759,12 +713,10 @@ export default {
         "overwhelmed with gratitude"
       ],
       "optionReasons": {
-        "overwhelm-mcq-06": "本句指「感激萬分」。",
-        "overwhelm-mcq-05": "「資訊多得難以消化」與本句語境不同。",
-        "overwhelm-mcq-07": "「被悲痛淹沒」與本句語境不同。",
-        "overwhelm-mcq-04": "「任務多得應接不暇」與本句語境不同。",
-        "overwhelm-mcq-08": "「徹底擊敗／壓制」與本句語境不同。",
-        "overwhelm-mcq-03": "「被工作壓得喘不過氣」與本句語境不同。"
+        "overwhelm-mcq-06": "本句的「overwhelmed with gratitude」指「感激萬分」。",
+        "overwhelm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-06"
     },
@@ -776,11 +728,9 @@ export default {
       "masked": "She felt ____.",
       "options": [
         "overwhelm-mcq-06",
-        "overwhelm-mcq-05",
-        "overwhelm-mcq-07",
-        "overwhelm-mcq-04",
-        "overwhelm-mcq-08",
-        "overwhelm-mcq-03"
+        "overwhelm-mcq-16",
+        "overwhelm-mcq-01",
+        "overwhelm-mcq-09"
       ],
       "explanation": "本句的「overwhelmed with gratitude」指「感激萬分」。",
       "sentenceIndex": 14,
@@ -789,12 +739,10 @@ export default {
         "overwhelmed with gratitude"
       ],
       "optionReasons": {
-        "overwhelm-mcq-06": "本句指「感激萬分」。",
-        "overwhelm-mcq-05": "「資訊多得難以消化」與本句語境不同。",
-        "overwhelm-mcq-07": "「被悲痛淹沒」與本句語境不同。",
-        "overwhelm-mcq-04": "「任務多得應接不暇」與本句語境不同。",
-        "overwhelm-mcq-08": "「徹底擊敗／壓制」與本句語境不同。",
-        "overwhelm-mcq-03": "「被工作壓得喘不過氣」與本句語境不同。"
+        "overwhelm-mcq-06": "本句的「overwhelmed with gratitude」指「感激萬分」。",
+        "overwhelm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-06"
     },
@@ -806,11 +754,9 @@ export default {
       "masked": "He was ____ after the loss.",
       "options": [
         "overwhelm-mcq-07",
-        "overwhelm-mcq-06",
-        "overwhelm-mcq-08",
-        "overwhelm-mcq-05",
+        "overwhelm-mcq-13",
         "overwhelm-mcq-09",
-        "overwhelm-mcq-04"
+        "overwhelm-mcq-05"
       ],
       "explanation": "本句的「overwhelmed by grief」指「被悲痛淹沒」。",
       "sentenceIndex": 15,
@@ -819,12 +765,10 @@ export default {
         "overwhelmed by grief"
       ],
       "optionReasons": {
-        "overwhelm-mcq-07": "本句指「被悲痛淹沒」。",
-        "overwhelm-mcq-06": "「感激萬分」與本句語境不同。",
-        "overwhelm-mcq-08": "「徹底擊敗／壓制」與本句語境不同。",
-        "overwhelm-mcq-05": "「資訊多得難以消化」與本句語境不同。",
-        "overwhelm-mcq-09": "「令系統超負荷」與本句語境不同。",
-        "overwhelm-mcq-04": "「任務多得應接不暇」與本句語境不同。"
+        "overwhelm-mcq-07": "本句的「overwhelmed by grief」指「被悲痛淹沒」。",
+        "overwhelm-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-07"
     },
@@ -836,11 +780,9 @@ export default {
       "masked": "She felt ____.",
       "options": [
         "overwhelm-mcq-07",
-        "overwhelm-mcq-06",
-        "overwhelm-mcq-08",
-        "overwhelm-mcq-05",
-        "overwhelm-mcq-09",
-        "overwhelm-mcq-04"
+        "overwhelm-mcq-12",
+        "overwhelm-mcq-01",
+        "overwhelm-mcq-06"
       ],
       "explanation": "本句的「overwhelmed by sadness」指「被悲痛淹沒」。",
       "sentenceIndex": 16,
@@ -849,12 +791,10 @@ export default {
         "overwhelmed by sadness"
       ],
       "optionReasons": {
-        "overwhelm-mcq-07": "本句指「被悲痛淹沒」。",
-        "overwhelm-mcq-06": "「感激萬分」與本句語境不同。",
-        "overwhelm-mcq-08": "「徹底擊敗／壓制」與本句語境不同。",
-        "overwhelm-mcq-05": "「資訊多得難以消化」與本句語境不同。",
-        "overwhelm-mcq-09": "「令系統超負荷」與本句語境不同。",
-        "overwhelm-mcq-04": "「任務多得應接不暇」與本句語境不同。"
+        "overwhelm-mcq-07": "本句的「overwhelmed by sadness」指「被悲痛淹沒」。",
+        "overwhelm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-07"
     },
@@ -866,11 +806,9 @@ export default {
       "masked": "The stronger team ____.",
       "options": [
         "overwhelm-mcq-08",
+        "overwhelm-mcq-04",
         "overwhelm-mcq-07",
-        "overwhelm-mcq-09",
-        "overwhelm-mcq-06",
-        "overwhelm-mcq-10",
-        "overwhelm-mcq-05"
+        "overwhelm-mcq-09"
       ],
       "explanation": "本句的「overwhelmed their opponents」指「徹底擊敗／壓制」。",
       "sentenceIndex": 17,
@@ -879,12 +817,10 @@ export default {
         "overwhelmed their opponents"
       ],
       "optionReasons": {
-        "overwhelm-mcq-08": "本句指「徹底擊敗／壓制」。",
-        "overwhelm-mcq-07": "「被悲痛淹沒」與本句語境不同。",
-        "overwhelm-mcq-09": "「令系統超負荷」與本句語境不同。",
-        "overwhelm-mcq-06": "「感激萬分」與本句語境不同。",
-        "overwhelm-mcq-10": "「壓倒性的；極強的」與本句語境不同。",
-        "overwhelm-mcq-05": "「資訊多得難以消化」與本句語境不同。"
+        "overwhelm-mcq-08": "本句的「overwhelmed their opponents」指「徹底擊敗／壓制」。",
+        "overwhelm-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-08"
     },
@@ -896,11 +832,9 @@ export default {
       "masked": "The army was ____ by a much larger force.",
       "options": [
         "overwhelm-mcq-08",
-        "overwhelm-mcq-07",
-        "overwhelm-mcq-09",
-        "overwhelm-mcq-06",
-        "overwhelm-mcq-10",
-        "overwhelm-mcq-05"
+        "overwhelm-mcq-05",
+        "overwhelm-mcq-04",
+        "overwhelm-mcq-02"
       ],
       "explanation": "本句的「overwhelmed」指「徹底擊敗／壓制」。",
       "sentenceIndex": 18,
@@ -909,12 +843,10 @@ export default {
         "overwhelmed"
       ],
       "optionReasons": {
-        "overwhelm-mcq-08": "本句指「徹底擊敗／壓制」。",
-        "overwhelm-mcq-07": "「被悲痛淹沒」與本句語境不同。",
-        "overwhelm-mcq-09": "「令系統超負荷」與本句語境不同。",
-        "overwhelm-mcq-06": "「感激萬分」與本句語境不同。",
-        "overwhelm-mcq-10": "「壓倒性的；極強的」與本句語境不同。",
-        "overwhelm-mcq-05": "「資訊多得難以消化」與本句語境不同。"
+        "overwhelm-mcq-08": "本句的「overwhelmed」指「徹底擊敗／壓制」。",
+        "overwhelm-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-08"
     },
@@ -927,10 +859,8 @@ export default {
       "options": [
         "overwhelm-mcq-09",
         "overwhelm-mcq-08",
-        "overwhelm-mcq-10",
-        "overwhelm-mcq-07",
-        "overwhelm-mcq-11",
-        "overwhelm-mcq-06"
+        "overwhelm-mcq-17",
+        "overwhelm-mcq-05"
       ],
       "explanation": "本句的「overwhelmed the server」指「令系統超負荷」。",
       "sentenceIndex": 21,
@@ -939,12 +869,10 @@ export default {
         "overwhelmed the server"
       ],
       "optionReasons": {
-        "overwhelm-mcq-09": "本句指「令系統超負荷」。",
-        "overwhelm-mcq-08": "「徹底擊敗／壓制」與本句語境不同。",
-        "overwhelm-mcq-10": "「壓倒性的；極強的」與本句語境不同。",
-        "overwhelm-mcq-07": "「被悲痛淹沒」與本句語境不同。",
-        "overwhelm-mcq-11": "「巨大壓力」與本句語境不同。",
-        "overwhelm-mcq-06": "「感激萬分」與本句語境不同。"
+        "overwhelm-mcq-09": "本句的「overwhelmed the server」指「令系統超負荷」。",
+        "overwhelm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-09"
     },
@@ -956,11 +884,9 @@ export default {
       "masked": "Heavy demand ____.",
       "options": [
         "overwhelm-mcq-09",
-        "overwhelm-mcq-08",
-        "overwhelm-mcq-10",
-        "overwhelm-mcq-07",
-        "overwhelm-mcq-11",
-        "overwhelm-mcq-06"
+        "overwhelm-mcq-04",
+        "overwhelm-mcq-13",
+        "overwhelm-mcq-18"
       ],
       "explanation": "本句的「overwhelmed the service」指「令系統超負荷」。",
       "sentenceIndex": 22,
@@ -969,12 +895,10 @@ export default {
         "overwhelmed the service"
       ],
       "optionReasons": {
-        "overwhelm-mcq-09": "本句指「令系統超負荷」。",
-        "overwhelm-mcq-08": "「徹底擊敗／壓制」與本句語境不同。",
-        "overwhelm-mcq-10": "「壓倒性的；極強的」與本句語境不同。",
-        "overwhelm-mcq-07": "「被悲痛淹沒」與本句語境不同。",
-        "overwhelm-mcq-11": "「巨大壓力」與本句語境不同。",
-        "overwhelm-mcq-06": "「感激萬分」與本句語境不同。"
+        "overwhelm-mcq-09": "本句的「overwhelmed the service」指「令系統超負荷」。",
+        "overwhelm-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-09"
     },
@@ -986,11 +910,9 @@ export default {
       "masked": "The evidence was ____.",
       "options": [
         "overwhelm-mcq-10",
-        "overwhelm-mcq-09",
-        "overwhelm-mcq-11",
-        "overwhelm-mcq-08",
-        "overwhelm-mcq-12",
-        "overwhelm-mcq-07"
+        "overwhelm-mcq-17",
+        "overwhelm-mcq-06",
+        "overwhelm-mcq-02"
       ],
       "explanation": "本句的「overwhelming」指「壓倒性的；極強的」。",
       "sentenceIndex": 25,
@@ -999,12 +921,10 @@ export default {
         "overwhelming"
       ],
       "optionReasons": {
-        "overwhelm-mcq-10": "本句指「壓倒性的；極強的」。",
-        "overwhelm-mcq-09": "「令系統超負荷」與本句語境不同。",
-        "overwhelm-mcq-11": "「巨大壓力」與本句語境不同。",
-        "overwhelm-mcq-08": "「徹底擊敗／壓制」與本句語境不同。",
-        "overwhelm-mcq-12": "「壓倒性證據」與本句語境不同。",
-        "overwhelm-mcq-07": "「被悲痛淹沒」與本句語境不同。"
+        "overwhelm-mcq-10": "本句的「overwhelming」指「壓倒性的；極強的」。",
+        "overwhelm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-10"
     },
@@ -1016,11 +936,9 @@ export default {
       "masked": "She felt ____.",
       "options": [
         "overwhelm-mcq-10",
-        "overwhelm-mcq-09",
-        "overwhelm-mcq-11",
-        "overwhelm-mcq-08",
-        "overwhelm-mcq-12",
-        "overwhelm-mcq-07"
+        "overwhelm-mcq-02",
+        "overwhelm-mcq-05",
+        "overwhelm-mcq-04"
       ],
       "explanation": "本句的「overwhelming relief」指「壓倒性的；極強的」。",
       "sentenceIndex": 26,
@@ -1029,12 +947,10 @@ export default {
         "overwhelming relief"
       ],
       "optionReasons": {
-        "overwhelm-mcq-10": "本句指「壓倒性的；極強的」。",
-        "overwhelm-mcq-09": "「令系統超負荷」與本句語境不同。",
-        "overwhelm-mcq-11": "「巨大壓力」與本句語境不同。",
-        "overwhelm-mcq-08": "「徹底擊敗／壓制」與本句語境不同。",
-        "overwhelm-mcq-12": "「壓倒性證據」與本句語境不同。",
-        "overwhelm-mcq-07": "「被悲痛淹沒」與本句語境不同。"
+        "overwhelm-mcq-10": "本句的「overwhelming relief」指「壓倒性的；極強的」。",
+        "overwhelm-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-10"
     },
@@ -1046,11 +962,9 @@ export default {
       "masked": "He was under ____.",
       "options": [
         "overwhelm-mcq-11",
-        "overwhelm-mcq-10",
-        "overwhelm-mcq-12",
+        "overwhelm-mcq-06",
         "overwhelm-mcq-09",
-        "overwhelm-mcq-13",
-        "overwhelm-mcq-08"
+        "overwhelm-mcq-05"
       ],
       "explanation": "本句的「overwhelming pressure」指「巨大壓力」。",
       "sentenceIndex": 27,
@@ -1059,12 +973,10 @@ export default {
         "overwhelming pressure"
       ],
       "optionReasons": {
-        "overwhelm-mcq-11": "本句指「巨大壓力」。",
-        "overwhelm-mcq-10": "「壓倒性的；極強的」與本句語境不同。",
-        "overwhelm-mcq-12": "「壓倒性證據」與本句語境不同。",
-        "overwhelm-mcq-09": "「令系統超負荷」與本句語境不同。",
-        "overwhelm-mcq-13": "「壓倒性多數」與本句語境不同。",
-        "overwhelm-mcq-08": "「徹底擊敗／壓制」與本句語境不同。"
+        "overwhelm-mcq-11": "本句的「overwhelming pressure」指「巨大壓力」。",
+        "overwhelm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-11"
     },
@@ -1076,11 +988,9 @@ export default {
       "masked": "The ____ affected his judgment.",
       "options": [
         "overwhelm-mcq-11",
-        "overwhelm-mcq-10",
-        "overwhelm-mcq-12",
-        "overwhelm-mcq-09",
-        "overwhelm-mcq-13",
-        "overwhelm-mcq-08"
+        "overwhelm-mcq-05",
+        "overwhelm-mcq-18",
+        "overwhelm-mcq-06"
       ],
       "explanation": "本句的「overwhelming pressure」指「巨大壓力」。",
       "sentenceIndex": 28,
@@ -1089,12 +999,10 @@ export default {
         "overwhelming pressure"
       ],
       "optionReasons": {
-        "overwhelm-mcq-11": "本句指「巨大壓力」。",
-        "overwhelm-mcq-10": "「壓倒性的；極強的」與本句語境不同。",
-        "overwhelm-mcq-12": "「壓倒性證據」與本句語境不同。",
-        "overwhelm-mcq-09": "「令系統超負荷」與本句語境不同。",
-        "overwhelm-mcq-13": "「壓倒性多數」與本句語境不同。",
-        "overwhelm-mcq-08": "「徹底擊敗／壓制」與本句語境不同。"
+        "overwhelm-mcq-11": "本句的「overwhelming pressure」指「巨大壓力」。",
+        "overwhelm-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-11"
     },
@@ -1106,11 +1014,9 @@ export default {
       "masked": "There was ____ that the file had already been uploaded.",
       "options": [
         "overwhelm-mcq-12",
-        "overwhelm-mcq-11",
-        "overwhelm-mcq-13",
-        "overwhelm-mcq-10",
-        "overwhelm-mcq-14",
-        "overwhelm-mcq-09"
+        "overwhelm-mcq-02",
+        "overwhelm-mcq-04",
+        "overwhelm-mcq-05"
       ],
       "explanation": "本句的「overwhelming evidence」指「壓倒性證據」。",
       "sentenceIndex": 29,
@@ -1119,12 +1025,10 @@ export default {
         "overwhelming evidence"
       ],
       "optionReasons": {
-        "overwhelm-mcq-12": "本句指「壓倒性證據」。",
-        "overwhelm-mcq-11": "「巨大壓力」與本句語境不同。",
-        "overwhelm-mcq-13": "「壓倒性多數」與本句語境不同。",
-        "overwhelm-mcq-10": "「壓倒性的；極強的」與本句語境不同。",
-        "overwhelm-mcq-14": "「壓倒性支持」與本句語境不同。",
-        "overwhelm-mcq-09": "「令系統超負荷」與本句語境不同。"
+        "overwhelm-mcq-12": "本句的「overwhelming evidence」指「壓倒性證據」。",
+        "overwhelm-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-12"
     },
@@ -1136,11 +1040,9 @@ export default {
       "masked": "The conclusion was supported by ____.",
       "options": [
         "overwhelm-mcq-12",
-        "overwhelm-mcq-11",
-        "overwhelm-mcq-13",
-        "overwhelm-mcq-10",
-        "overwhelm-mcq-14",
-        "overwhelm-mcq-09"
+        "overwhelm-mcq-04",
+        "overwhelm-mcq-05",
+        "overwhelm-mcq-18"
       ],
       "explanation": "本句的「overwhelming evidence」指「壓倒性證據」。",
       "sentenceIndex": 30,
@@ -1149,12 +1051,10 @@ export default {
         "overwhelming evidence"
       ],
       "optionReasons": {
-        "overwhelm-mcq-12": "本句指「壓倒性證據」。",
-        "overwhelm-mcq-11": "「巨大壓力」與本句語境不同。",
-        "overwhelm-mcq-13": "「壓倒性多數」與本句語境不同。",
-        "overwhelm-mcq-10": "「壓倒性的；極強的」與本句語境不同。",
-        "overwhelm-mcq-14": "「壓倒性支持」與本句語境不同。",
-        "overwhelm-mcq-09": "「令系統超負荷」與本句語境不同。"
+        "overwhelm-mcq-12": "本句的「overwhelming evidence」指「壓倒性證據」。",
+        "overwhelm-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-12"
     },
@@ -1166,11 +1066,9 @@ export default {
       "masked": "An ____ supported the proposal.",
       "options": [
         "overwhelm-mcq-13",
-        "overwhelm-mcq-12",
-        "overwhelm-mcq-14",
-        "overwhelm-mcq-11",
-        "overwhelm-mcq-15",
-        "overwhelm-mcq-10"
+        "overwhelm-mcq-18",
+        "overwhelm-mcq-09",
+        "overwhelm-mcq-07"
       ],
       "explanation": "本句的「overwhelming majority」指「壓倒性多數」。",
       "sentenceIndex": 31,
@@ -1179,12 +1077,10 @@ export default {
         "overwhelming majority"
       ],
       "optionReasons": {
-        "overwhelm-mcq-13": "本句指「壓倒性多數」。",
-        "overwhelm-mcq-12": "「壓倒性證據」與本句語境不同。",
-        "overwhelm-mcq-14": "「壓倒性支持」與本句語境不同。",
-        "overwhelm-mcq-11": "「巨大壓力」與本句語境不同。",
-        "overwhelm-mcq-15": "「極強烈感受」與本句語境不同。",
-        "overwhelm-mcq-10": "「壓倒性的；極強的」與本句語境不同。"
+        "overwhelm-mcq-13": "本句的「overwhelming majority」指「壓倒性多數」。",
+        "overwhelm-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-13"
     },
@@ -1196,11 +1092,9 @@ export default {
       "masked": "The motion passed by an ____.",
       "options": [
         "overwhelm-mcq-13",
-        "overwhelm-mcq-12",
-        "overwhelm-mcq-14",
-        "overwhelm-mcq-11",
-        "overwhelm-mcq-15",
-        "overwhelm-mcq-10"
+        "overwhelm-mcq-06",
+        "overwhelm-mcq-09",
+        "overwhelm-mcq-04"
       ],
       "explanation": "本句的「overwhelming majority」指「壓倒性多數」。",
       "sentenceIndex": 32,
@@ -1209,12 +1103,10 @@ export default {
         "overwhelming majority"
       ],
       "optionReasons": {
-        "overwhelm-mcq-13": "本句指「壓倒性多數」。",
-        "overwhelm-mcq-12": "「壓倒性證據」與本句語境不同。",
-        "overwhelm-mcq-14": "「壓倒性支持」與本句語境不同。",
-        "overwhelm-mcq-11": "「巨大壓力」與本句語境不同。",
-        "overwhelm-mcq-15": "「極強烈感受」與本句語境不同。",
-        "overwhelm-mcq-10": "「壓倒性的；極強的」與本句語境不同。"
+        "overwhelm-mcq-13": "本句的「overwhelming majority」指「壓倒性多數」。",
+        "overwhelm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-13"
     },
@@ -1226,11 +1118,9 @@ export default {
       "masked": "The idea received ____.",
       "options": [
         "overwhelm-mcq-14",
-        "overwhelm-mcq-13",
-        "overwhelm-mcq-15",
-        "overwhelm-mcq-12",
-        "overwhelm-mcq-16",
-        "overwhelm-mcq-11"
+        "overwhelm-mcq-02",
+        "overwhelm-mcq-06",
+        "overwhelm-mcq-05"
       ],
       "explanation": "本句的「overwhelming support」指「壓倒性支持」。",
       "sentenceIndex": 33,
@@ -1239,12 +1129,10 @@ export default {
         "overwhelming support"
       ],
       "optionReasons": {
-        "overwhelm-mcq-14": "本句指「壓倒性支持」。",
-        "overwhelm-mcq-13": "「壓倒性多數」與本句語境不同。",
-        "overwhelm-mcq-15": "「極強烈感受」與本句語境不同。",
-        "overwhelm-mcq-12": "「壓倒性證據」與本句語境不同。",
-        "overwhelm-mcq-16": "「壓倒性地；極其」與本句語境不同。",
-        "overwhelm-mcq-11": "「巨大壓力」與本句語境不同。"
+        "overwhelm-mcq-14": "本句的「overwhelming support」指「壓倒性支持」。",
+        "overwhelm-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-14"
     },
@@ -1256,11 +1144,9 @@ export default {
       "masked": "There was ____ for the change.",
       "options": [
         "overwhelm-mcq-14",
-        "overwhelm-mcq-13",
-        "overwhelm-mcq-15",
-        "overwhelm-mcq-12",
-        "overwhelm-mcq-16",
-        "overwhelm-mcq-11"
+        "overwhelm-mcq-07",
+        "overwhelm-mcq-09",
+        "overwhelm-mcq-17"
       ],
       "explanation": "本句的「overwhelming support」指「壓倒性支持」。",
       "sentenceIndex": 34,
@@ -1269,12 +1155,10 @@ export default {
         "overwhelming support"
       ],
       "optionReasons": {
-        "overwhelm-mcq-14": "本句指「壓倒性支持」。",
-        "overwhelm-mcq-13": "「壓倒性多數」與本句語境不同。",
-        "overwhelm-mcq-15": "「極強烈感受」與本句語境不同。",
-        "overwhelm-mcq-12": "「壓倒性證據」與本句語境不同。",
-        "overwhelm-mcq-16": "「壓倒性地；極其」與本句語境不同。",
-        "overwhelm-mcq-11": "「巨大壓力」與本句語境不同。"
+        "overwhelm-mcq-14": "本句的「overwhelming support」指「壓倒性支持」。",
+        "overwhelm-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-14"
     },
@@ -1286,11 +1170,9 @@ export default {
       "masked": "I had an ____.",
       "options": [
         "overwhelm-mcq-15",
-        "overwhelm-mcq-14",
-        "overwhelm-mcq-16",
-        "overwhelm-mcq-13",
-        "overwhelm-mcq-17",
-        "overwhelm-mcq-12"
+        "overwhelm-mcq-11",
+        "overwhelm-mcq-12",
+        "overwhelm-mcq-17"
       ],
       "explanation": "本句的「overwhelming feeling of relief」指「極強烈感受」。",
       "sentenceIndex": 35,
@@ -1299,12 +1181,10 @@ export default {
         "overwhelming feeling of relief"
       ],
       "optionReasons": {
-        "overwhelm-mcq-15": "本句指「極強烈感受」。",
-        "overwhelm-mcq-14": "「壓倒性支持」與本句語境不同。",
-        "overwhelm-mcq-16": "「壓倒性地；極其」與本句語境不同。",
-        "overwhelm-mcq-13": "「壓倒性多數」與本句語境不同。",
-        "overwhelm-mcq-17": "「絕大多數正面」與本句語境不同。",
-        "overwhelm-mcq-12": "「壓倒性證據」與本句語境不同。"
+        "overwhelm-mcq-15": "本句的「overwhelming feeling of relief」指「極強烈感受」。",
+        "overwhelm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-15"
     },
@@ -1316,11 +1196,9 @@ export default {
       "masked": "She felt an ____.",
       "options": [
         "overwhelm-mcq-15",
-        "overwhelm-mcq-14",
-        "overwhelm-mcq-16",
-        "overwhelm-mcq-13",
         "overwhelm-mcq-17",
-        "overwhelm-mcq-12"
+        "overwhelm-mcq-05",
+        "overwhelm-mcq-14"
       ],
       "explanation": "本句的「overwhelming sense of responsibility」指「極強烈感受」。",
       "sentenceIndex": 36,
@@ -1329,12 +1207,10 @@ export default {
         "overwhelming sense of responsibility"
       ],
       "optionReasons": {
-        "overwhelm-mcq-15": "本句指「極強烈感受」。",
-        "overwhelm-mcq-14": "「壓倒性支持」與本句語境不同。",
-        "overwhelm-mcq-16": "「壓倒性地；極其」與本句語境不同。",
-        "overwhelm-mcq-13": "「壓倒性多數」與本句語境不同。",
-        "overwhelm-mcq-17": "「絕大多數正面」與本句語境不同。",
-        "overwhelm-mcq-12": "「壓倒性證據」與本句語境不同。"
+        "overwhelm-mcq-15": "本句的「overwhelming sense of responsibility」指「極強烈感受」。",
+        "overwhelm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-15"
     },
@@ -1346,11 +1222,9 @@ export default {
       "masked": "The feedback was ____.",
       "options": [
         "overwhelm-mcq-16",
-        "overwhelm-mcq-15",
-        "overwhelm-mcq-17",
-        "overwhelm-mcq-14",
-        "overwhelm-mcq-18",
-        "overwhelm-mcq-13"
+        "overwhelm-mcq-09",
+        "overwhelm-mcq-05",
+        "overwhelm-mcq-04"
       ],
       "explanation": "本句的「overwhelmingly positive」指「壓倒性地；極其」。",
       "sentenceIndex": 37,
@@ -1359,12 +1233,10 @@ export default {
         "overwhelmingly positive"
       ],
       "optionReasons": {
-        "overwhelm-mcq-16": "本句指「壓倒性地；極其」。",
-        "overwhelm-mcq-15": "「極強烈感受」與本句語境不同。",
-        "overwhelm-mcq-17": "「絕大多數正面」與本句語境不同。",
-        "overwhelm-mcq-14": "「壓倒性支持」與本句語境不同。",
-        "overwhelm-mcq-18": "「極有可能」與本句語境不同。",
-        "overwhelm-mcq-13": "「壓倒性多數」與本句語境不同。"
+        "overwhelm-mcq-16": "本句的「overwhelmingly positive」指「壓倒性地；極其」。",
+        "overwhelm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-16"
     },
@@ -1376,11 +1248,9 @@ export default {
       "masked": "The audience was ____.",
       "options": [
         "overwhelm-mcq-16",
-        "overwhelm-mcq-15",
-        "overwhelm-mcq-17",
-        "overwhelm-mcq-14",
-        "overwhelm-mcq-18",
-        "overwhelm-mcq-13"
+        "overwhelm-mcq-07",
+        "overwhelm-mcq-09",
+        "overwhelm-mcq-17"
       ],
       "explanation": "本句的「overwhelmingly supportive」指「壓倒性地；極其」。",
       "sentenceIndex": 38,
@@ -1389,12 +1259,10 @@ export default {
         "overwhelmingly supportive"
       ],
       "optionReasons": {
-        "overwhelm-mcq-16": "本句指「壓倒性地；極其」。",
-        "overwhelm-mcq-15": "「極強烈感受」與本句語境不同。",
-        "overwhelm-mcq-17": "「絕大多數正面」與本句語境不同。",
-        "overwhelm-mcq-14": "「壓倒性支持」與本句語境不同。",
-        "overwhelm-mcq-18": "「極有可能」與本句語境不同。",
-        "overwhelm-mcq-13": "「壓倒性多數」與本句語境不同。"
+        "overwhelm-mcq-16": "本句的「overwhelmingly supportive」指「壓倒性地；極其」。",
+        "overwhelm-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-16"
     },
@@ -1406,11 +1274,9 @@ export default {
       "masked": "The response was ____.",
       "options": [
         "overwhelm-mcq-17",
-        "overwhelm-mcq-16",
-        "overwhelm-mcq-18",
-        "overwhelm-mcq-15",
-        "overwhelm-mcq-14",
-        "overwhelm-mcq-13"
+        "overwhelm-mcq-06",
+        "overwhelm-mcq-01",
+        "overwhelm-mcq-12"
       ],
       "explanation": "本句的「overwhelmingly positive」指「絕大多數正面」。",
       "sentenceIndex": 39,
@@ -1419,12 +1285,10 @@ export default {
         "overwhelmingly positive"
       ],
       "optionReasons": {
-        "overwhelm-mcq-17": "本句指「絕大多數正面」。",
-        "overwhelm-mcq-16": "「壓倒性地；極其」與本句語境不同。",
-        "overwhelm-mcq-18": "「極有可能」與本句語境不同。",
-        "overwhelm-mcq-15": "「極強烈感受」與本句語境不同。",
-        "overwhelm-mcq-14": "「壓倒性支持」與本句語境不同。",
-        "overwhelm-mcq-13": "「壓倒性多數」與本句語境不同。"
+        "overwhelm-mcq-17": "本句的「overwhelmingly positive」指「絕大多數正面」。",
+        "overwhelm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-17"
     },
@@ -1436,11 +1300,9 @@ export default {
       "masked": "Reviews were ____.",
       "options": [
         "overwhelm-mcq-17",
-        "overwhelm-mcq-16",
-        "overwhelm-mcq-18",
-        "overwhelm-mcq-15",
-        "overwhelm-mcq-14",
-        "overwhelm-mcq-13"
+        "overwhelm-mcq-05",
+        "overwhelm-mcq-01",
+        "overwhelm-mcq-09"
       ],
       "explanation": "本句的「overwhelmingly negative」指「絕大多數正面」。",
       "sentenceIndex": 40,
@@ -1449,12 +1311,10 @@ export default {
         "overwhelmingly negative"
       ],
       "optionReasons": {
-        "overwhelm-mcq-17": "本句指「絕大多數正面」。",
-        "overwhelm-mcq-16": "「壓倒性地；極其」與本句語境不同。",
-        "overwhelm-mcq-18": "「極有可能」與本句語境不同。",
-        "overwhelm-mcq-15": "「極強烈感受」與本句語境不同。",
-        "overwhelm-mcq-14": "「壓倒性支持」與本句語境不同。",
-        "overwhelm-mcq-13": "「壓倒性多數」與本句語境不同。"
+        "overwhelm-mcq-17": "本句的「overwhelmingly negative」指「絕大多數正面」。",
+        "overwhelm-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-17"
     },
@@ -1466,11 +1326,9 @@ export default {
       "masked": "It is ____ that the delay was caused by a technical issue.",
       "options": [
         "overwhelm-mcq-18",
-        "overwhelm-mcq-17",
-        "overwhelm-mcq-16",
-        "overwhelm-mcq-15",
         "overwhelm-mcq-14",
-        "overwhelm-mcq-13"
+        "overwhelm-mcq-01",
+        "overwhelm-mcq-06"
       ],
       "explanation": "本句的「overwhelmingly likely」指「極有可能」。",
       "sentenceIndex": 41,
@@ -1479,12 +1337,10 @@ export default {
         "overwhelmingly likely"
       ],
       "optionReasons": {
-        "overwhelm-mcq-18": "本句指「極有可能」。",
-        "overwhelm-mcq-17": "「絕大多數正面」與本句語境不同。",
-        "overwhelm-mcq-16": "「壓倒性地；極其」與本句語境不同。",
-        "overwhelm-mcq-15": "「極強烈感受」與本句語境不同。",
-        "overwhelm-mcq-14": "「壓倒性支持」與本句語境不同。",
-        "overwhelm-mcq-13": "「壓倒性多數」與本句語境不同。"
+        "overwhelm-mcq-18": "本句的「overwhelmingly likely」指「極有可能」。",
+        "overwhelm-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-18"
     },
@@ -1496,11 +1352,9 @@ export default {
       "masked": "The evidence makes that explanation ____.",
       "options": [
         "overwhelm-mcq-18",
-        "overwhelm-mcq-17",
-        "overwhelm-mcq-16",
-        "overwhelm-mcq-15",
-        "overwhelm-mcq-14",
-        "overwhelm-mcq-13"
+        "overwhelm-mcq-06",
+        "overwhelm-mcq-07",
+        "overwhelm-mcq-12"
       ],
       "explanation": "本句的「overwhelmingly likely」指「極有可能」。",
       "sentenceIndex": 42,
@@ -1509,12 +1363,10 @@ export default {
         "overwhelmingly likely"
       ],
       "optionReasons": {
-        "overwhelm-mcq-18": "本句指「極有可能」。",
-        "overwhelm-mcq-17": "「絕大多數正面」與本句語境不同。",
-        "overwhelm-mcq-16": "「壓倒性地；極其」與本句語境不同。",
-        "overwhelm-mcq-15": "「極強烈感受」與本句語境不同。",
-        "overwhelm-mcq-14": "「壓倒性支持」與本句語境不同。",
-        "overwhelm-mcq-13": "「壓倒性多數」與本句語境不同。"
+        "overwhelm-mcq-18": "本句的「overwhelmingly likely」指「極有可能」。",
+        "overwhelm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overwhelm-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overwhelm-mcq-18"
     }
@@ -1526,5 +1378,7 @@ export default {
     "sha256": "14b71843992166e2c0c47496af572e81ebd668c6f1e30529d30c8f07efef2e9d",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

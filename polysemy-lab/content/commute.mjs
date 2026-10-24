@@ -353,11 +353,9 @@ export default {
       "masked": "I was ____ every day.",
       "options": [
         "commute-mcq-01",
-        "commute-mcq-02",
-        "commute-mcq-03",
-        "commute-mcq-04",
-        "commute-mcq-05",
-        "commute-mcq-06"
+        "commute-mcq-08",
+        "commute-mcq-11",
+        "commute-mcq-14"
       ],
       "explanation": "本句的「commuting」指「定期往返住所與固定工作／學習地點」。",
       "sentenceIndex": 0,
@@ -366,12 +364,10 @@ export default {
         "commuting"
       ],
       "optionReasons": {
-        "commute-mcq-01": "本句指「定期往返住所與固定工作／學習地點」。",
-        "commute-mcq-02": "「使用某種交通工具定期上下班／上學」與本句語境不同。",
-        "commute-mcq-03": "「從住所到工作／學校及相關往返的固定通勤旅程」與本句語境不同。",
-        "commute-mcq-04": "「定期往返住所與工作／學習地點的人」與本句語境不同。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。"
+        "commute-mcq-01": "本句的「commuting」指「定期往返住所與固定工作／學習地點」。",
+        "commute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-01"
     },
@@ -383,11 +379,9 @@ export default {
       "masked": "She ____ from the suburbs to the city centre.",
       "options": [
         "commute-mcq-01",
-        "commute-mcq-02",
-        "commute-mcq-03",
-        "commute-mcq-04",
-        "commute-mcq-05",
-        "commute-mcq-06"
+        "commute-mcq-07",
+        "commute-mcq-14",
+        "commute-mcq-11"
       ],
       "explanation": "本句的「commutes」指「定期往返住所與固定工作／學習地點」。",
       "sentenceIndex": 1,
@@ -396,12 +390,10 @@ export default {
         "commutes"
       ],
       "optionReasons": {
-        "commute-mcq-01": "本句指「定期往返住所與固定工作／學習地點」。",
-        "commute-mcq-02": "「使用某種交通工具定期上下班／上學」與本句語境不同。",
-        "commute-mcq-03": "「從住所到工作／學校及相關往返的固定通勤旅程」與本句語境不同。",
-        "commute-mcq-04": "「定期往返住所與工作／學習地點的人」與本句語境不同。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。"
+        "commute-mcq-01": "本句的「commutes」指「定期往返住所與固定工作／學習地點」。",
+        "commute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-01"
     },
@@ -413,11 +405,9 @@ export default {
       "masked": "Thousands of people ____ into the city each morning.",
       "options": [
         "commute-mcq-01",
-        "commute-mcq-02",
-        "commute-mcq-03",
-        "commute-mcq-04",
-        "commute-mcq-05",
-        "commute-mcq-06"
+        "commute-mcq-14",
+        "commute-mcq-12",
+        "commute-mcq-07"
       ],
       "explanation": "本句的「commute」指「定期往返住所與固定工作／學習地點」。",
       "sentenceIndex": 2,
@@ -426,12 +416,10 @@ export default {
         "commute"
       ],
       "optionReasons": {
-        "commute-mcq-01": "本句指「定期往返住所與固定工作／學習地點」。",
-        "commute-mcq-02": "「使用某種交通工具定期上下班／上學」與本句語境不同。",
-        "commute-mcq-03": "「從住所到工作／學校及相關往返的固定通勤旅程」與本句語境不同。",
-        "commute-mcq-04": "「定期往返住所與工作／學習地點的人」與本句語境不同。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。"
+        "commute-mcq-01": "本句的「commute」指「定期往返住所與固定工作／學習地點」。",
+        "commute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-01"
     },
@@ -443,11 +431,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "commute-mcq-02",
-        "commute-mcq-01",
-        "commute-mcq-03",
-        "commute-mcq-04",
-        "commute-mcq-05",
-        "commute-mcq-06"
+        "commute-mcq-07",
+        "commute-mcq-06",
+        "commute-mcq-14"
       ],
       "explanation": "本句的「commute by train」指「使用某種交通工具定期上下班／上學」。",
       "sentenceIndex": 3,
@@ -456,12 +442,10 @@ export default {
         "commute by train"
       ],
       "optionReasons": {
-        "commute-mcq-02": "本句指「使用某種交通工具定期上下班／上學」。",
-        "commute-mcq-01": "「定期往返住所與固定工作／學習地點」與本句語境不同。",
-        "commute-mcq-03": "「從住所到工作／學校及相關往返的固定通勤旅程」與本句語境不同。",
-        "commute-mcq-04": "「定期往返住所與工作／學習地點的人」與本句語境不同。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。"
+        "commute-mcq-02": "本句的「commute by train」指「使用某種交通工具定期上下班／上學」。",
+        "commute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-02"
     },
@@ -473,11 +457,9 @@ export default {
       "masked": "Many employees ____.",
       "options": [
         "commute-mcq-02",
-        "commute-mcq-01",
-        "commute-mcq-03",
-        "commute-mcq-04",
-        "commute-mcq-05",
-        "commute-mcq-06"
+        "commute-mcq-08",
+        "commute-mcq-13",
+        "commute-mcq-14"
       ],
       "explanation": "本句的「commute by bus」指「使用某種交通工具定期上下班／上學」。",
       "sentenceIndex": 4,
@@ -486,12 +468,10 @@ export default {
         "commute by bus"
       ],
       "optionReasons": {
-        "commute-mcq-02": "本句指「使用某種交通工具定期上下班／上學」。",
-        "commute-mcq-01": "「定期往返住所與固定工作／學習地點」與本句語境不同。",
-        "commute-mcq-03": "「從住所到工作／學校及相關往返的固定通勤旅程」與本句語境不同。",
-        "commute-mcq-04": "「定期往返住所與工作／學習地點的人」與本句語境不同。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。"
+        "commute-mcq-02": "本句的「commute by bus」指「使用某種交通工具定期上下班／上學」。",
+        "commute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-02"
     },
@@ -503,11 +483,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "commute-mcq-03",
-        "commute-mcq-02",
-        "commute-mcq-04",
-        "commute-mcq-01",
-        "commute-mcq-05",
-        "commute-mcq-06"
+        "commute-mcq-07",
+        "commute-mcq-11",
+        "commute-mcq-09"
       ],
       "explanation": "本句的「commutes from Seattle to Bellevue」指「從住所到工作／學校及相關往返的固定通勤旅程」。",
       "sentenceIndex": 5,
@@ -516,12 +494,10 @@ export default {
         "commutes from Seattle to Bellevue"
       ],
       "optionReasons": {
-        "commute-mcq-03": "本句指「從住所到工作／學校及相關往返的固定通勤旅程」。",
-        "commute-mcq-02": "「使用某種交通工具定期上下班／上學」與本句語境不同。",
-        "commute-mcq-04": "「定期往返住所與工作／學習地點的人」與本句語境不同。",
-        "commute-mcq-01": "「定期往返住所與固定工作／學習地點」與本句語境不同。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。"
+        "commute-mcq-03": "本句的「commutes from Seattle to Bellevue」指「從住所到工作／學校及相關往返的固定通勤旅程」。",
+        "commute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-03"
     },
@@ -533,11 +509,9 @@ export default {
       "masked": "She commutes ____.",
       "options": [
         "commute-mcq-03",
-        "commute-mcq-02",
-        "commute-mcq-04",
-        "commute-mcq-01",
-        "commute-mcq-05",
-        "commute-mcq-06"
+        "commute-mcq-08",
+        "commute-mcq-11",
+        "commute-mcq-09"
       ],
       "explanation": "本句的「from home to university」指「從住所到工作／學校及相關往返的固定通勤旅程」。",
       "sentenceIndex": 6,
@@ -546,12 +520,10 @@ export default {
         "from home to university"
       ],
       "optionReasons": {
-        "commute-mcq-03": "本句指「從住所到工作／學校及相關往返的固定通勤旅程」。",
-        "commute-mcq-02": "「使用某種交通工具定期上下班／上學」與本句語境不同。",
-        "commute-mcq-04": "「定期往返住所與工作／學習地點的人」與本句語境不同。",
-        "commute-mcq-01": "「定期往返住所與固定工作／學習地點」與本句語境不同。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。"
+        "commute-mcq-03": "本句的「from home to university」指「從住所到工作／學校及相關往返的固定通勤旅程」。",
+        "commute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-03"
     },
@@ -563,11 +535,9 @@ export default {
       "masked": "My morning ____ takes about forty minutes.",
       "options": [
         "commute-mcq-03",
-        "commute-mcq-02",
-        "commute-mcq-04",
-        "commute-mcq-01",
-        "commute-mcq-05",
-        "commute-mcq-06"
+        "commute-mcq-08",
+        "commute-mcq-11",
+        "commute-mcq-09"
       ],
       "explanation": "本句的「commute」指「從住所到工作／學校及相關往返的固定通勤旅程」。",
       "sentenceIndex": 7,
@@ -576,12 +546,10 @@ export default {
         "commute"
       ],
       "optionReasons": {
-        "commute-mcq-03": "本句指「從住所到工作／學校及相關往返的固定通勤旅程」。",
-        "commute-mcq-02": "「使用某種交通工具定期上下班／上學」與本句語境不同。",
-        "commute-mcq-04": "「定期往返住所與工作／學習地點的人」與本句語境不同。",
-        "commute-mcq-01": "「定期往返住所與固定工作／學習地點」與本句語境不同。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。"
+        "commute-mcq-03": "本句的「commute」指「從住所到工作／學校及相關往返的固定通勤旅程」。",
+        "commute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-03"
     },
@@ -593,11 +561,8 @@ export default {
       "masked": "He has a long ____.",
       "options": [
         "commute-mcq-03",
-        "commute-mcq-02",
-        "commute-mcq-04",
-        "commute-mcq-01",
-        "commute-mcq-05",
-        "commute-mcq-06"
+        "commute-mcq-07",
+        "commute-mcq-12"
       ],
       "explanation": "本句的「commute」指「從住所到工作／學校及相關往返的固定通勤旅程」。",
       "sentenceIndex": 8,
@@ -606,12 +571,9 @@ export default {
         "commute"
       ],
       "optionReasons": {
-        "commute-mcq-03": "本句指「從住所到工作／學校及相關往返的固定通勤旅程」。",
-        "commute-mcq-02": "「使用某種交通工具定期上下班／上學」與本句語境不同。",
-        "commute-mcq-04": "「定期往返住所與工作／學習地點的人」與本句語境不同。",
-        "commute-mcq-01": "「定期往返住所與固定工作／學習地點」與本句語境不同。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。"
+        "commute-mcq-03": "本句的「commute」指「從住所到工作／學校及相關往返的固定通勤旅程」。",
+        "commute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-03"
     },
@@ -623,11 +585,9 @@ export default {
       "masked": "A two-hour ____ can be exhausting.",
       "options": [
         "commute-mcq-03",
-        "commute-mcq-02",
-        "commute-mcq-04",
-        "commute-mcq-01",
-        "commute-mcq-05",
-        "commute-mcq-06"
+        "commute-mcq-08",
+        "commute-mcq-11",
+        "commute-mcq-09"
       ],
       "explanation": "本句的「commute」指「從住所到工作／學校及相關往返的固定通勤旅程」。",
       "sentenceIndex": 9,
@@ -636,12 +596,10 @@ export default {
         "commute"
       ],
       "optionReasons": {
-        "commute-mcq-03": "本句指「從住所到工作／學校及相關往返的固定通勤旅程」。",
-        "commute-mcq-02": "「使用某種交通工具定期上下班／上學」與本句語境不同。",
-        "commute-mcq-04": "「定期往返住所與工作／學習地點的人」與本句語境不同。",
-        "commute-mcq-01": "「定期往返住所與固定工作／學習地點」與本句語境不同。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。"
+        "commute-mcq-03": "本句的「commute」指「從住所到工作／學校及相關往返的固定通勤旅程」。",
+        "commute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-03"
     },
@@ -653,11 +611,8 @@ export default {
       "masked": "Moving closer to the office gave her a much shorter ____.",
       "options": [
         "commute-mcq-03",
-        "commute-mcq-02",
-        "commute-mcq-04",
-        "commute-mcq-01",
-        "commute-mcq-05",
-        "commute-mcq-06"
+        "commute-mcq-12",
+        "commute-mcq-07"
       ],
       "explanation": "本句的「commute」指「從住所到工作／學校及相關往返的固定通勤旅程」。",
       "sentenceIndex": 10,
@@ -666,12 +621,9 @@ export default {
         "commute"
       ],
       "optionReasons": {
-        "commute-mcq-03": "本句指「從住所到工作／學校及相關往返的固定通勤旅程」。",
-        "commute-mcq-02": "「使用某種交通工具定期上下班／上學」與本句語境不同。",
-        "commute-mcq-04": "「定期往返住所與工作／學習地點的人」與本句語境不同。",
-        "commute-mcq-01": "「定期往返住所與固定工作／學習地點」與本句語境不同。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。"
+        "commute-mcq-03": "本句的「commute」指「從住所到工作／學校及相關往返的固定通勤旅程」。",
+        "commute-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-03"
     },
@@ -683,11 +635,9 @@ export default {
       "masked": "The train was packed with morning ____.",
       "options": [
         "commute-mcq-04",
-        "commute-mcq-03",
-        "commute-mcq-05",
-        "commute-mcq-02",
-        "commute-mcq-06",
-        "commute-mcq-01"
+        "commute-mcq-07",
+        "commute-mcq-11",
+        "commute-mcq-14"
       ],
       "explanation": "本句的「commuters」指「定期往返住所與工作／學習地點的人」。",
       "sentenceIndex": 11,
@@ -696,12 +646,10 @@ export default {
         "commuters"
       ],
       "optionReasons": {
-        "commute-mcq-04": "本句指「定期往返住所與工作／學習地點的人」。",
-        "commute-mcq-03": "「從住所到工作／學校及相關往返的固定通勤旅程」與本句語境不同。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。",
-        "commute-mcq-02": "「使用某種交通工具定期上下班／上學」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。",
-        "commute-mcq-01": "「定期往返住所與固定工作／學習地點」與本句語境不同。"
+        "commute-mcq-04": "本句的「commuters」指「定期往返住所與工作／學習地點的人」。",
+        "commute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-04"
     },
@@ -713,11 +661,9 @@ export default {
       "masked": "The new service is aimed at ____.",
       "options": [
         "commute-mcq-04",
-        "commute-mcq-03",
-        "commute-mcq-05",
-        "commute-mcq-02",
-        "commute-mcq-06",
-        "commute-mcq-01"
+        "commute-mcq-07",
+        "commute-mcq-14",
+        "commute-mcq-12"
       ],
       "explanation": "本句的「commuters」指「定期往返住所與工作／學習地點的人」。",
       "sentenceIndex": 12,
@@ -726,12 +672,10 @@ export default {
         "commuters"
       ],
       "optionReasons": {
-        "commute-mcq-04": "本句指「定期往返住所與工作／學習地點的人」。",
-        "commute-mcq-03": "「從住所到工作／學校及相關往返的固定通勤旅程」與本句語境不同。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。",
-        "commute-mcq-02": "「使用某種交通工具定期上下班／上學」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。",
-        "commute-mcq-01": "「定期往返住所與固定工作／學習地點」與本句語境不同。"
+        "commute-mcq-04": "本句的「commuters」指「定期往返住所與工作／學習地點的人」。",
+        "commute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-04"
     },
@@ -743,11 +687,9 @@ export default {
       "masked": "The city introduced more ____.",
       "options": [
         "commute-mcq-05",
-        "commute-mcq-04",
-        "commute-mcq-06",
-        "commute-mcq-03",
+        "commute-mcq-09",
         "commute-mcq-07",
-        "commute-mcq-02"
+        "commute-mcq-13"
       ],
       "explanation": "本句的「commuter trains」指「主要為日常上下班／上學通勤者提供服務的交通工具／路線」。",
       "sentenceIndex": 13,
@@ -756,12 +698,10 @@ export default {
         "commuter trains"
       ],
       "optionReasons": {
-        "commute-mcq-05": "本句指「主要為日常上下班／上學通勤者提供服務的交通工具／路線」。",
-        "commute-mcq-04": "「定期往返住所與工作／學習地點的人」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。",
-        "commute-mcq-03": "「從住所到工作／學校及相關往返的固定通勤旅程」與本句語境不同。",
-        "commute-mcq-07": "「由有權機關把原有刑罰改成較輕的刑罰」與本句語境不同。",
-        "commute-mcq-02": "「使用某種交通工具定期上下班／上學」與本句語境不同。"
+        "commute-mcq-05": "本句的「commuter trains」指「主要為日常上下班／上學通勤者提供服務的交通工具／路線」。",
+        "commute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-05"
     },
@@ -773,11 +713,9 @@ export default {
       "masked": "This is one of the busiest ____.",
       "options": [
         "commute-mcq-05",
-        "commute-mcq-04",
-        "commute-mcq-06",
-        "commute-mcq-03",
-        "commute-mcq-07",
-        "commute-mcq-02"
+        "commute-mcq-09",
+        "commute-mcq-08",
+        "commute-mcq-11"
       ],
       "explanation": "本句的「commuter routes」指「主要為日常上下班／上學通勤者提供服務的交通工具／路線」。",
       "sentenceIndex": 14,
@@ -786,12 +724,10 @@ export default {
         "commuter routes"
       ],
       "optionReasons": {
-        "commute-mcq-05": "本句指「主要為日常上下班／上學通勤者提供服務的交通工具／路線」。",
-        "commute-mcq-04": "「定期往返住所與工作／學習地點的人」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。",
-        "commute-mcq-03": "「從住所到工作／學校及相關往返的固定通勤旅程」與本句語境不同。",
-        "commute-mcq-07": "「由有權機關把原有刑罰改成較輕的刑罰」與本句語境不同。",
-        "commute-mcq-02": "「使用某種交通工具定期上下班／上學」與本句語境不同。"
+        "commute-mcq-05": "本句的「commuter routes」指「主要為日常上下班／上學通勤者提供服務的交通工具／路線」。",
+        "commute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-05"
     },
@@ -803,11 +739,9 @@ export default {
       "masked": "The town has become a popular ____.",
       "options": [
         "commute-mcq-06",
-        "commute-mcq-05",
+        "commute-mcq-14",
         "commute-mcq-07",
-        "commute-mcq-04",
-        "commute-mcq-08",
-        "commute-mcq-03"
+        "commute-mcq-12"
       ],
       "explanation": "本句的「commuter town」指「很多居民住在當地但前往另一地區工作的小鎮／住宅區」。",
       "sentenceIndex": 15,
@@ -816,12 +750,10 @@ export default {
         "commuter town"
       ],
       "optionReasons": {
-        "commute-mcq-06": "本句指「很多居民住在當地但前往另一地區工作的小鎮／住宅區」。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。",
-        "commute-mcq-07": "「由有權機關把原有刑罰改成較輕的刑罰」與本句語境不同。",
-        "commute-mcq-04": "「定期往返住所與工作／學習地點的人」與本句語境不同。",
-        "commute-mcq-08": "「正式減輕或變更某人的刑罰」與本句語境不同。",
-        "commute-mcq-03": "「從住所到工作／學校及相關往返的固定通勤旅程」與本句語境不同。"
+        "commute-mcq-06": "本句的「commuter town」指「很多居民住在當地但前往另一地區工作的小鎮／住宅區」。",
+        "commute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-06"
     },
@@ -833,11 +765,9 @@ export default {
       "masked": "Many residents of the ____ work in the city.",
       "options": [
         "commute-mcq-06",
-        "commute-mcq-05",
+        "commute-mcq-11",
         "commute-mcq-07",
-        "commute-mcq-04",
-        "commute-mcq-08",
-        "commute-mcq-03"
+        "commute-mcq-14"
       ],
       "explanation": "本句的「commuter suburb」指「很多居民住在當地但前往另一地區工作的小鎮／住宅區」。",
       "sentenceIndex": 16,
@@ -846,12 +776,10 @@ export default {
         "commuter suburb"
       ],
       "optionReasons": {
-        "commute-mcq-06": "本句指「很多居民住在當地但前往另一地區工作的小鎮／住宅區」。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。",
-        "commute-mcq-07": "「由有權機關把原有刑罰改成較輕的刑罰」與本句語境不同。",
-        "commute-mcq-04": "「定期往返住所與工作／學習地點的人」與本句語境不同。",
-        "commute-mcq-08": "「正式減輕或變更某人的刑罰」與本句語境不同。",
-        "commute-mcq-03": "「從住所到工作／學校及相關往返的固定通勤旅程」與本句語境不同。"
+        "commute-mcq-06": "本句的「commuter suburb」指「很多居民住在當地但前往另一地區工作的小鎮／住宅區」。",
+        "commute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-06"
     },
@@ -863,11 +791,9 @@ export default {
       "masked": "The governor ____ the sentence.",
       "options": [
         "commute-mcq-07",
-        "commute-mcq-06",
-        "commute-mcq-08",
-        "commute-mcq-05",
-        "commute-mcq-09",
-        "commute-mcq-04"
+        "commute-mcq-03",
+        "commute-mcq-11",
+        "commute-mcq-09"
       ],
       "explanation": "本句的「commuted」指「由有權機關把原有刑罰改成較輕的刑罰」。",
       "sentenceIndex": 17,
@@ -876,12 +802,10 @@ export default {
         "commuted"
       ],
       "optionReasons": {
-        "commute-mcq-07": "本句指「由有權機關把原有刑罰改成較輕的刑罰」。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。",
-        "commute-mcq-08": "「正式減輕或變更某人的刑罰」與本句語境不同。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。",
-        "commute-mcq-09": "「把未來定期付款／福利轉換為一次性或另一付款形式」與本句語境不同。",
-        "commute-mcq-04": "「定期往返住所與工作／學習地點的人」與本句語境不同。"
+        "commute-mcq-07": "本句的「commuted」指「由有權機關把原有刑罰改成較輕的刑罰」。",
+        "commute-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-07"
     },
@@ -894,10 +818,8 @@ export default {
       "options": [
         "commute-mcq-07",
         "commute-mcq-06",
-        "commute-mcq-08",
-        "commute-mcq-05",
-        "commute-mcq-09",
-        "commute-mcq-04"
+        "commute-mcq-11",
+        "commute-mcq-14"
       ],
       "explanation": "本句的「commuted to」指「由有權機關把原有刑罰改成較輕的刑罰」。",
       "sentenceIndex": 18,
@@ -906,12 +828,10 @@ export default {
         "commuted to"
       ],
       "optionReasons": {
-        "commute-mcq-07": "本句指「由有權機關把原有刑罰改成較輕的刑罰」。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。",
-        "commute-mcq-08": "「正式減輕或變更某人的刑罰」與本句語境不同。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。",
-        "commute-mcq-09": "「把未來定期付款／福利轉換為一次性或另一付款形式」與本句語境不同。",
-        "commute-mcq-04": "「定期往返住所與工作／學習地點的人」與本句語境不同。"
+        "commute-mcq-07": "本句的「commuted to」指「由有權機關把原有刑罰改成較輕的刑罰」。",
+        "commute-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-07"
     },
@@ -923,11 +843,9 @@ export default {
       "masked": "The prisoner applied for a ____ of his sentence.",
       "options": [
         "commute-mcq-08",
-        "commute-mcq-07",
+        "commute-mcq-03",
         "commute-mcq-09",
-        "commute-mcq-06",
-        "commute-mcq-10",
-        "commute-mcq-05"
+        "commute-mcq-11"
       ],
       "explanation": "本句的「commutation」指「正式減輕或變更某人的刑罰」。",
       "sentenceIndex": 19,
@@ -936,12 +854,10 @@ export default {
         "commutation"
       ],
       "optionReasons": {
-        "commute-mcq-08": "本句指「正式減輕或變更某人的刑罰」。",
-        "commute-mcq-07": "「由有權機關把原有刑罰改成較輕的刑罰」與本句語境不同。",
-        "commute-mcq-09": "「把未來定期付款／福利轉換為一次性或另一付款形式」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。",
-        "commute-mcq-10": "「定期付款／福利的折算或轉換過程」與本句語境不同。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。"
+        "commute-mcq-08": "本句的「commutation」指「正式減輕或變更某人的刑罰」。",
+        "commute-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-08"
     },
@@ -953,11 +869,9 @@ export default {
       "masked": "The president granted a ____.",
       "options": [
         "commute-mcq-08",
-        "commute-mcq-07",
-        "commute-mcq-09",
-        "commute-mcq-06",
-        "commute-mcq-10",
-        "commute-mcq-05"
+        "commute-mcq-05",
+        "commute-mcq-04",
+        "commute-mcq-11"
       ],
       "explanation": "本句的「commutation」指「正式減輕或變更某人的刑罰」。",
       "sentenceIndex": 20,
@@ -966,12 +880,10 @@ export default {
         "commutation"
       ],
       "optionReasons": {
-        "commute-mcq-08": "本句指「正式減輕或變更某人的刑罰」。",
-        "commute-mcq-07": "「由有權機關把原有刑罰改成較輕的刑罰」與本句語境不同。",
-        "commute-mcq-09": "「把未來定期付款／福利轉換為一次性或另一付款形式」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。",
-        "commute-mcq-10": "「定期付款／福利的折算或轉換過程」與本句語境不同。",
-        "commute-mcq-05": "「主要為日常上下班／上學通勤者提供服務的交通工具／路線」與本句語境不同。"
+        "commute-mcq-08": "本句的「commutation」指「正式減輕或變更某人的刑罰」。",
+        "commute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-08"
     },
@@ -983,11 +895,9 @@ export default {
       "masked": "She chose to ____ part of her pension into a lump sum.",
       "options": [
         "commute-mcq-09",
+        "commute-mcq-05",
         "commute-mcq-08",
-        "commute-mcq-10",
-        "commute-mcq-07",
-        "commute-mcq-11",
-        "commute-mcq-06"
+        "commute-mcq-13"
       ],
       "explanation": "本句的「commute」指「把未來定期付款／福利轉換為一次性或另一付款形式」。",
       "sentenceIndex": 21,
@@ -996,12 +906,10 @@ export default {
         "commute"
       ],
       "optionReasons": {
-        "commute-mcq-09": "本句指「把未來定期付款／福利轉換為一次性或另一付款形式」。",
-        "commute-mcq-08": "「正式減輕或變更某人的刑罰」與本句語境不同。",
-        "commute-mcq-10": "「定期付款／福利的折算或轉換過程」與本句語境不同。",
-        "commute-mcq-07": "「由有權機關把原有刑罰改成較輕的刑罰」與本句語境不同。",
-        "commute-mcq-11": "「兩個運算或算符交換先後次序後結果仍相同」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。"
+        "commute-mcq-09": "本句的「commute」指「把未來定期付款／福利轉換為一次性或另一付款形式」。",
+        "commute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-09"
     },
@@ -1014,10 +922,8 @@ export default {
       "options": [
         "commute-mcq-09",
         "commute-mcq-08",
-        "commute-mcq-10",
-        "commute-mcq-07",
-        "commute-mcq-11",
-        "commute-mcq-06"
+        "commute-mcq-05",
+        "commute-mcq-13"
       ],
       "explanation": "本句的「commute」指「把未來定期付款／福利轉換為一次性或另一付款形式」。",
       "sentenceIndex": 22,
@@ -1026,12 +932,10 @@ export default {
         "commute"
       ],
       "optionReasons": {
-        "commute-mcq-09": "本句指「把未來定期付款／福利轉換為一次性或另一付款形式」。",
-        "commute-mcq-08": "「正式減輕或變更某人的刑罰」與本句語境不同。",
-        "commute-mcq-10": "「定期付款／福利的折算或轉換過程」與本句語境不同。",
-        "commute-mcq-07": "「由有權機關把原有刑罰改成較輕的刑罰」與本句語境不同。",
-        "commute-mcq-11": "「兩個運算或算符交換先後次序後結果仍相同」與本句語境不同。",
-        "commute-mcq-06": "「很多居民住在當地但前往另一地區工作的小鎮／住宅區」與本句語境不同。"
+        "commute-mcq-09": "本句的「commute」指「把未來定期付款／福利轉換為一次性或另一付款形式」。",
+        "commute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-09"
     },
@@ -1043,11 +947,9 @@ export default {
       "masked": "The pension scheme permits partial ____.",
       "options": [
         "commute-mcq-10",
-        "commute-mcq-09",
-        "commute-mcq-11",
         "commute-mcq-08",
-        "commute-mcq-12",
-        "commute-mcq-07"
+        "commute-mcq-05",
+        "commute-mcq-06"
       ],
       "explanation": "本句的「commutation」指「定期付款／福利的折算或轉換過程」。",
       "sentenceIndex": 23,
@@ -1056,12 +958,10 @@ export default {
         "commutation"
       ],
       "optionReasons": {
-        "commute-mcq-10": "本句指「定期付款／福利的折算或轉換過程」。",
-        "commute-mcq-09": "「把未來定期付款／福利轉換為一次性或另一付款形式」與本句語境不同。",
-        "commute-mcq-11": "「兩個運算或算符交換先後次序後結果仍相同」與本句語境不同。",
-        "commute-mcq-08": "「正式減輕或變更某人的刑罰」與本句語境不同。",
-        "commute-mcq-12": "「改變運算順序而結果不變、具有交換律的」與本句語境不同。",
-        "commute-mcq-07": "「由有權機關把原有刑罰改成較輕的刑罰」與本句語境不同。"
+        "commute-mcq-10": "本句的「commutation」指「定期付款／福利的折算或轉換過程」。",
+        "commute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-10"
     },
@@ -1073,11 +973,9 @@ export default {
       "masked": "The amount payable after ____ depends on the scheme rules.",
       "options": [
         "commute-mcq-10",
-        "commute-mcq-09",
-        "commute-mcq-11",
         "commute-mcq-08",
-        "commute-mcq-12",
-        "commute-mcq-07"
+        "commute-mcq-06",
+        "commute-mcq-05"
       ],
       "explanation": "本句的「commutation」指「定期付款／福利的折算或轉換過程」。",
       "sentenceIndex": 24,
@@ -1086,12 +984,10 @@ export default {
         "commutation"
       ],
       "optionReasons": {
-        "commute-mcq-10": "本句指「定期付款／福利的折算或轉換過程」。",
-        "commute-mcq-09": "「把未來定期付款／福利轉換為一次性或另一付款形式」與本句語境不同。",
-        "commute-mcq-11": "「兩個運算或算符交換先後次序後結果仍相同」與本句語境不同。",
-        "commute-mcq-08": "「正式減輕或變更某人的刑罰」與本句語境不同。",
-        "commute-mcq-12": "「改變運算順序而結果不變、具有交換律的」與本句語境不同。",
-        "commute-mcq-07": "「由有權機關把原有刑罰改成較輕的刑罰」與本句語境不同。"
+        "commute-mcq-10": "本句的「commutation」指「定期付款／福利的折算或轉換過程」。",
+        "commute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-10"
     },
@@ -1103,11 +999,9 @@ export default {
       "masked": "Addition and multiplication of ordinary numbers are individually commutative, but subtraction does not ____ in the same way.",
       "options": [
         "commute-mcq-11",
-        "commute-mcq-10",
-        "commute-mcq-12",
-        "commute-mcq-09",
-        "commute-mcq-13",
-        "commute-mcq-08"
+        "commute-mcq-01",
+        "commute-mcq-08",
+        "commute-mcq-14"
       ],
       "explanation": "本句的「commute」指「兩個運算或算符交換先後次序後結果仍相同」。",
       "sentenceIndex": 25,
@@ -1116,12 +1010,10 @@ export default {
         "commute"
       ],
       "optionReasons": {
-        "commute-mcq-11": "本句指「兩個運算或算符交換先後次序後結果仍相同」。",
-        "commute-mcq-10": "「定期付款／福利的折算或轉換過程」與本句語境不同。",
-        "commute-mcq-12": "「改變運算順序而結果不變、具有交換律的」與本句語境不同。",
-        "commute-mcq-09": "「把未來定期付款／福利轉換為一次性或另一付款形式」與本句語境不同。",
-        "commute-mcq-13": "「利用資訊科技在遠端工作，以代替親身前往一般工作地點」與本句語境不同。",
-        "commute-mcq-08": "「正式減輕或變更某人的刑罰」與本句語境不同。"
+        "commute-mcq-11": "本句的「commute」指「兩個運算或算符交換先後次序後結果仍相同」。",
+        "commute-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-11"
     },
@@ -1133,11 +1025,9 @@ export default {
       "masked": "These two operators ____.",
       "options": [
         "commute-mcq-11",
-        "commute-mcq-10",
-        "commute-mcq-12",
-        "commute-mcq-09",
-        "commute-mcq-13",
-        "commute-mcq-08"
+        "commute-mcq-03",
+        "commute-mcq-07",
+        "commute-mcq-09"
       ],
       "explanation": "本句的「commute」指「兩個運算或算符交換先後次序後結果仍相同」。",
       "sentenceIndex": 26,
@@ -1146,12 +1036,10 @@ export default {
         "commute"
       ],
       "optionReasons": {
-        "commute-mcq-11": "本句指「兩個運算或算符交換先後次序後結果仍相同」。",
-        "commute-mcq-10": "「定期付款／福利的折算或轉換過程」與本句語境不同。",
-        "commute-mcq-12": "「改變運算順序而結果不變、具有交換律的」與本句語境不同。",
-        "commute-mcq-09": "「把未來定期付款／福利轉換為一次性或另一付款形式」與本句語境不同。",
-        "commute-mcq-13": "「利用資訊科技在遠端工作，以代替親身前往一般工作地點」與本句語境不同。",
-        "commute-mcq-08": "「正式減輕或變更某人的刑罰」與本句語境不同。"
+        "commute-mcq-11": "本句的「commute」指「兩個運算或算符交換先後次序後結果仍相同」。",
+        "commute-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-11"
     },
@@ -1163,11 +1051,9 @@ export default {
       "masked": "Addition is ____.",
       "options": [
         "commute-mcq-12",
-        "commute-mcq-11",
-        "commute-mcq-13",
-        "commute-mcq-10",
         "commute-mcq-14",
-        "commute-mcq-09"
+        "commute-mcq-01",
+        "commute-mcq-07"
       ],
       "explanation": "本句的「commutative」指「改變運算順序而結果不變、具有交換律的」。",
       "sentenceIndex": 27,
@@ -1176,12 +1062,10 @@ export default {
         "commutative"
       ],
       "optionReasons": {
-        "commute-mcq-12": "本句指「改變運算順序而結果不變、具有交換律的」。",
-        "commute-mcq-11": "「兩個運算或算符交換先後次序後結果仍相同」與本句語境不同。",
-        "commute-mcq-13": "「利用資訊科技在遠端工作，以代替親身前往一般工作地點」與本句語境不同。",
-        "commute-mcq-10": "「定期付款／福利的折算或轉換過程」與本句語境不同。",
-        "commute-mcq-14": "「通勤方向與主要繁忙時段人流方向相反」與本句語境不同。",
-        "commute-mcq-09": "「把未來定期付款／福利轉換為一次性或另一付款形式」與本句語境不同。"
+        "commute-mcq-12": "本句的「commutative」指「改變運算順序而結果不變、具有交換律的」。",
+        "commute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-12"
     },
@@ -1193,11 +1077,9 @@ export default {
       "masked": "Matrix multiplication is not generally ____.",
       "options": [
         "commute-mcq-12",
-        "commute-mcq-11",
-        "commute-mcq-13",
-        "commute-mcq-10",
+        "commute-mcq-06",
         "commute-mcq-14",
-        "commute-mcq-09"
+        "commute-mcq-07"
       ],
       "explanation": "本句的「commutative」指「改變運算順序而結果不變、具有交換律的」。",
       "sentenceIndex": 28,
@@ -1206,12 +1088,10 @@ export default {
         "commutative"
       ],
       "optionReasons": {
-        "commute-mcq-12": "本句指「改變運算順序而結果不變、具有交換律的」。",
-        "commute-mcq-11": "「兩個運算或算符交換先後次序後結果仍相同」與本句語境不同。",
-        "commute-mcq-13": "「利用資訊科技在遠端工作，以代替親身前往一般工作地點」與本句語境不同。",
-        "commute-mcq-10": "「定期付款／福利的折算或轉換過程」與本句語境不同。",
-        "commute-mcq-14": "「通勤方向與主要繁忙時段人流方向相反」與本句語境不同。",
-        "commute-mcq-09": "「把未來定期付款／福利轉換為一次性或另一付款形式」與本句語境不同。"
+        "commute-mcq-12": "本句的「commutative」指「改變運算順序而結果不變、具有交換律的」。",
+        "commute-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-12"
     },
@@ -1223,11 +1103,9 @@ export default {
       "masked": "She ____ three days a week.",
       "options": [
         "commute-mcq-13",
+        "commute-mcq-08",
         "commute-mcq-12",
-        "commute-mcq-14",
-        "commute-mcq-11",
-        "commute-mcq-10",
-        "commute-mcq-09"
+        "commute-mcq-14"
       ],
       "explanation": "本句的「telecommutes」指「利用資訊科技在遠端工作，以代替親身前往一般工作地點」。",
       "sentenceIndex": 29,
@@ -1236,12 +1114,10 @@ export default {
         "telecommutes"
       ],
       "optionReasons": {
-        "commute-mcq-13": "本句指「利用資訊科技在遠端工作，以代替親身前往一般工作地點」。",
-        "commute-mcq-12": "「改變運算順序而結果不變、具有交換律的」與本句語境不同。",
-        "commute-mcq-14": "「通勤方向與主要繁忙時段人流方向相反」與本句語境不同。",
-        "commute-mcq-11": "「兩個運算或算符交換先後次序後結果仍相同」與本句語境不同。",
-        "commute-mcq-10": "「定期付款／福利的折算或轉換過程」與本句語境不同。",
-        "commute-mcq-09": "「把未來定期付款／福利轉換為一次性或另一付款形式」與本句語境不同。"
+        "commute-mcq-13": "本句的「telecommutes」指「利用資訊科技在遠端工作，以代替親身前往一般工作地點」。",
+        "commute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-13"
     },
@@ -1253,11 +1129,9 @@ export default {
       "masked": "Many employees began to ____.",
       "options": [
         "commute-mcq-13",
-        "commute-mcq-12",
-        "commute-mcq-14",
+        "commute-mcq-08",
         "commute-mcq-11",
-        "commute-mcq-10",
-        "commute-mcq-09"
+        "commute-mcq-14"
       ],
       "explanation": "本句的「telecommute」指「利用資訊科技在遠端工作，以代替親身前往一般工作地點」。",
       "sentenceIndex": 30,
@@ -1266,12 +1140,10 @@ export default {
         "telecommute"
       ],
       "optionReasons": {
-        "commute-mcq-13": "本句指「利用資訊科技在遠端工作，以代替親身前往一般工作地點」。",
-        "commute-mcq-12": "「改變運算順序而結果不變、具有交換律的」與本句語境不同。",
-        "commute-mcq-14": "「通勤方向與主要繁忙時段人流方向相反」與本句語境不同。",
-        "commute-mcq-11": "「兩個運算或算符交換先後次序後結果仍相同」與本句語境不同。",
-        "commute-mcq-10": "「定期付款／福利的折算或轉換過程」與本句語境不同。",
-        "commute-mcq-09": "「把未來定期付款／福利轉換為一次性或另一付款形式」與本句語境不同。"
+        "commute-mcq-13": "本句的「telecommute」指「利用資訊科技在遠端工作，以代替親身前往一般工作地點」。",
+        "commute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-13"
     },
@@ -1284,10 +1156,8 @@ export default {
       "options": [
         "commute-mcq-13",
         "commute-mcq-12",
-        "commute-mcq-14",
-        "commute-mcq-11",
-        "commute-mcq-10",
-        "commute-mcq-09"
+        "commute-mcq-07",
+        "commute-mcq-14"
       ],
       "explanation": "本句的「telecommuting」指「利用資訊科技在遠端工作，以代替親身前往一般工作地點」。",
       "sentenceIndex": 31,
@@ -1296,12 +1166,10 @@ export default {
         "telecommuting"
       ],
       "optionReasons": {
-        "commute-mcq-13": "本句指「利用資訊科技在遠端工作，以代替親身前往一般工作地點」。",
-        "commute-mcq-12": "「改變運算順序而結果不變、具有交換律的」與本句語境不同。",
-        "commute-mcq-14": "「通勤方向與主要繁忙時段人流方向相反」與本句語境不同。",
-        "commute-mcq-11": "「兩個運算或算符交換先後次序後結果仍相同」與本句語境不同。",
-        "commute-mcq-10": "「定期付款／福利的折算或轉換過程」與本句語境不同。",
-        "commute-mcq-09": "「把未來定期付款／福利轉換為一次性或另一付款形式」與本句語境不同。"
+        "commute-mcq-13": "本句的「telecommuting」指「利用資訊科技在遠端工作，以代替親身前往一般工作地點」。",
+        "commute-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-13"
     },
@@ -1313,11 +1181,9 @@ export default {
       "masked": "He has a ____ from the city to the suburbs.",
       "options": [
         "commute-mcq-14",
+        "commute-mcq-08",
         "commute-mcq-13",
-        "commute-mcq-12",
-        "commute-mcq-11",
-        "commute-mcq-10",
-        "commute-mcq-09"
+        "commute-mcq-10"
       ],
       "explanation": "本句的「reverse commute」指「通勤方向與主要繁忙時段人流方向相反」。",
       "sentenceIndex": 32,
@@ -1326,12 +1192,10 @@ export default {
         "reverse commute"
       ],
       "optionReasons": {
-        "commute-mcq-14": "本句指「通勤方向與主要繁忙時段人流方向相反」。",
-        "commute-mcq-13": "「利用資訊科技在遠端工作，以代替親身前往一般工作地點」與本句語境不同。",
-        "commute-mcq-12": "「改變運算順序而結果不變、具有交換律的」與本句語境不同。",
-        "commute-mcq-11": "「兩個運算或算符交換先後次序後結果仍相同」與本句語境不同。",
-        "commute-mcq-10": "「定期付款／福利的折算或轉換過程」與本句語境不同。",
-        "commute-mcq-09": "「把未來定期付款／福利轉換為一次性或另一付款形式」與本句語境不同。"
+        "commute-mcq-14": "本句的「reverse commute」指「通勤方向與主要繁忙時段人流方向相反」。",
+        "commute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-14"
     },
@@ -1343,11 +1207,9 @@ export default {
       "masked": "A reverse ____ can sometimes mean less traffic.",
       "options": [
         "commute-mcq-14",
-        "commute-mcq-13",
-        "commute-mcq-12",
-        "commute-mcq-11",
-        "commute-mcq-10",
-        "commute-mcq-09"
+        "commute-mcq-09",
+        "commute-mcq-07",
+        "commute-mcq-11"
       ],
       "explanation": "本句的「commute」指「通勤方向與主要繁忙時段人流方向相反」。",
       "sentenceIndex": 33,
@@ -1356,12 +1218,10 @@ export default {
         "commute"
       ],
       "optionReasons": {
-        "commute-mcq-14": "本句指「通勤方向與主要繁忙時段人流方向相反」。",
-        "commute-mcq-13": "「利用資訊科技在遠端工作，以代替親身前往一般工作地點」與本句語境不同。",
-        "commute-mcq-12": "「改變運算順序而結果不變、具有交換律的」與本句語境不同。",
-        "commute-mcq-11": "「兩個運算或算符交換先後次序後結果仍相同」與本句語境不同。",
-        "commute-mcq-10": "「定期付款／福利的折算或轉換過程」與本句語境不同。",
-        "commute-mcq-09": "「把未來定期付款／福利轉換為一次性或另一付款形式」與本句語境不同。"
+        "commute-mcq-14": "本句的「commute」指「通勤方向與主要繁忙時段人流方向相反」。",
+        "commute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "commute-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commute-mcq-14"
     }
@@ -1373,5 +1233,7 @@ export default {
     "sha256": "59e67fa23b6dfbce6c75e1f00ad9a697741509927b566ffccb0e188a0f5cf655",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

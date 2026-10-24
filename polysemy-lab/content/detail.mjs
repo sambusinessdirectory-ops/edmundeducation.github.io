@@ -185,11 +185,8 @@ export default {
       "masked": "He notices the tiny ____ that most of us walk straight past.",
       "options": [
         "detail-mcq-01",
-        "detail-mcq-02",
-        "detail-mcq-03",
-        "detail-mcq-04",
-        "detail-mcq-05",
-        "detail-mcq-06"
+        "detail-mcq-06",
+        "detail-mcq-05"
       ],
       "explanation": "本句的「details」指「構成一個較大整體的細小部分、特徵或具體事項」。",
       "sentenceIndex": 0,
@@ -198,12 +195,9 @@ export default {
         "details"
       ],
       "optionReasons": {
-        "detail-mcq-01": "本句指「構成一個較大整體的細小部分、特徵或具體事項」。",
-        "detail-mcq-02": "「關於某件事情、安排、人物或計劃的具體資料和詳情」是「details — specific information」的用法，與本句語境不同。",
-        "detail-mcq-03": "「以很多具體資料和細小事項進行詳細說明」是「in detail / go into detail」的用法，與本句語境不同。",
-        "detail-mcq-04": "「逐項提供或說明某件事情的具體事實、資料或步驟」是「detail something — explain/list」的用法，與本句語境不同。",
-        "detail-mcq-05": "「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」是「detail someone to/for duty」的用法，與本句語境不同。",
-        "detail-mcq-06": "「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」是「detail a vehicle」的用法，與本句語境不同。"
+        "detail-mcq-01": "本句的「details」指「構成一個較大整體的細小部分、特徵或具體事項」。",
+        "detail-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "detail-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "detail-mcq-01"
     },
@@ -215,11 +209,8 @@ export default {
       "masked": "She noticed every small ____ in the painting.",
       "options": [
         "detail-mcq-01",
-        "detail-mcq-02",
-        "detail-mcq-03",
-        "detail-mcq-04",
-        "detail-mcq-05",
-        "detail-mcq-06"
+        "detail-mcq-06",
+        "detail-mcq-05"
       ],
       "explanation": "本句的「detail」指「構成一個較大整體的細小部分、特徵或具體事項」。",
       "sentenceIndex": 1,
@@ -228,12 +219,9 @@ export default {
         "detail"
       ],
       "optionReasons": {
-        "detail-mcq-01": "本句指「構成一個較大整體的細小部分、特徵或具體事項」。",
-        "detail-mcq-02": "「關於某件事情、安排、人物或計劃的具體資料和詳情」是「details — specific information」的用法，與本句語境不同。",
-        "detail-mcq-03": "「以很多具體資料和細小事項進行詳細說明」是「in detail / go into detail」的用法，與本句語境不同。",
-        "detail-mcq-04": "「逐項提供或說明某件事情的具體事實、資料或步驟」是「detail something — explain/list」的用法，與本句語境不同。",
-        "detail-mcq-05": "「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」是「detail someone to/for duty」的用法，與本句語境不同。",
-        "detail-mcq-06": "「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」是「detail a vehicle」的用法，與本句語境不同。"
+        "detail-mcq-01": "本句的「detail」指「構成一個較大整體的細小部分、特徵或具體事項」。",
+        "detail-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "detail-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "detail-mcq-01"
     },
@@ -245,11 +233,8 @@ export default {
       "masked": "The designer paid close attention to the ____.",
       "options": [
         "detail-mcq-01",
-        "detail-mcq-02",
-        "detail-mcq-03",
-        "detail-mcq-04",
-        "detail-mcq-05",
-        "detail-mcq-06"
+        "detail-mcq-06",
+        "detail-mcq-05"
       ],
       "explanation": "本句的「details」指「構成一個較大整體的細小部分、特徵或具體事項」。",
       "sentenceIndex": 2,
@@ -258,12 +243,9 @@ export default {
         "details"
       ],
       "optionReasons": {
-        "detail-mcq-01": "本句指「構成一個較大整體的細小部分、特徵或具體事項」。",
-        "detail-mcq-02": "「關於某件事情、安排、人物或計劃的具體資料和詳情」是「details — specific information」的用法，與本句語境不同。",
-        "detail-mcq-03": "「以很多具體資料和細小事項進行詳細說明」是「in detail / go into detail」的用法，與本句語境不同。",
-        "detail-mcq-04": "「逐項提供或說明某件事情的具體事實、資料或步驟」是「detail something — explain/list」的用法，與本句語境不同。",
-        "detail-mcq-05": "「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」是「detail someone to/for duty」的用法，與本句語境不同。",
-        "detail-mcq-06": "「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」是「detail a vehicle」的用法，與本句語境不同。"
+        "detail-mcq-01": "本句的「details」指「構成一個較大整體的細小部分、特徵或具體事項」。",
+        "detail-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "detail-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "detail-mcq-01"
     },
@@ -275,10 +257,6 @@ export default {
       "masked": "Please send me the ____ of the meeting.",
       "options": [
         "detail-mcq-02",
-        "detail-mcq-01",
-        "detail-mcq-03",
-        "detail-mcq-04",
-        "detail-mcq-05",
         "detail-mcq-06"
       ],
       "explanation": "本句的「details」指「關於某件事情、安排、人物或計劃的具體資料和詳情」。",
@@ -288,12 +266,8 @@ export default {
         "details"
       ],
       "optionReasons": {
-        "detail-mcq-02": "本句指「關於某件事情、安排、人物或計劃的具體資料和詳情」。",
-        "detail-mcq-01": "「構成一個較大整體的細小部分、特徵或具體事項」是「detail — small feature/fact」的用法，與本句語境不同。",
-        "detail-mcq-03": "「以很多具體資料和細小事項進行詳細說明」是「in detail / go into detail」的用法，與本句語境不同。",
-        "detail-mcq-04": "「逐項提供或說明某件事情的具體事實、資料或步驟」是「detail something — explain/list」的用法，與本句語境不同。",
-        "detail-mcq-05": "「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」是「detail someone to/for duty」的用法，與本句語境不同。",
-        "detail-mcq-06": "「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」是「detail a vehicle」的用法，與本句語境不同。"
+        "detail-mcq-02": "本句的「details」指「關於某件事情、安排、人物或計劃的具體資料和詳情」。",
+        "detail-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "detail-mcq-02"
     },
@@ -305,10 +279,6 @@ export default {
       "masked": "We have not yet received the full ____ of the plan.",
       "options": [
         "detail-mcq-02",
-        "detail-mcq-01",
-        "detail-mcq-03",
-        "detail-mcq-04",
-        "detail-mcq-05",
         "detail-mcq-06"
       ],
       "explanation": "本句的「details」指「關於某件事情、安排、人物或計劃的具體資料和詳情」。",
@@ -318,12 +288,8 @@ export default {
         "details"
       ],
       "optionReasons": {
-        "detail-mcq-02": "本句指「關於某件事情、安排、人物或計劃的具體資料和詳情」。",
-        "detail-mcq-01": "「構成一個較大整體的細小部分、特徵或具體事項」是「detail — small feature/fact」的用法，與本句語境不同。",
-        "detail-mcq-03": "「以很多具體資料和細小事項進行詳細說明」是「in detail / go into detail」的用法，與本句語境不同。",
-        "detail-mcq-04": "「逐項提供或說明某件事情的具體事實、資料或步驟」是「detail something — explain/list」的用法，與本句語境不同。",
-        "detail-mcq-05": "「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」是「detail someone to/for duty」的用法，與本句語境不同。",
-        "detail-mcq-06": "「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」是「detail a vehicle」的用法，與本句語境不同。"
+        "detail-mcq-02": "本句的「details」指「關於某件事情、安排、人物或計劃的具體資料和詳情」。",
+        "detail-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "detail-mcq-02"
     },
@@ -335,11 +301,7 @@ export default {
       "masked": "She explained the process ____.",
       "options": [
         "detail-mcq-03",
-        "detail-mcq-02",
-        "detail-mcq-04",
-        "detail-mcq-01",
-        "detail-mcq-05",
-        "detail-mcq-06"
+        "detail-mcq-05"
       ],
       "explanation": "本句的「in detail」指「以很多具體資料和細小事項進行詳細說明」。",
       "sentenceIndex": 5,
@@ -348,12 +310,8 @@ export default {
         "in detail"
       ],
       "optionReasons": {
-        "detail-mcq-03": "本句指「以很多具體資料和細小事項進行詳細說明」。",
-        "detail-mcq-02": "「關於某件事情、安排、人物或計劃的具體資料和詳情」是「details — specific information」的用法，與本句語境不同。",
-        "detail-mcq-04": "「逐項提供或說明某件事情的具體事實、資料或步驟」是「detail something — explain/list」的用法，與本句語境不同。",
-        "detail-mcq-01": "「構成一個較大整體的細小部分、特徵或具體事項」是「detail — small feature/fact」的用法，與本句語境不同。",
-        "detail-mcq-05": "「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」是「detail someone to/for duty」的用法，與本句語境不同。",
-        "detail-mcq-06": "「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」是「detail a vehicle」的用法，與本句語境不同。"
+        "detail-mcq-03": "本句的「in detail」指「以很多具體資料和細小事項進行詳細說明」。",
+        "detail-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "detail-mcq-03"
     },
@@ -365,11 +323,7 @@ export default {
       "masked": "I don’t want to ____ about what happened.",
       "options": [
         "detail-mcq-03",
-        "detail-mcq-02",
-        "detail-mcq-04",
-        "detail-mcq-01",
-        "detail-mcq-05",
-        "detail-mcq-06"
+        "detail-mcq-05"
       ],
       "explanation": "本句的「go into detail」指「以很多具體資料和細小事項進行詳細說明」。",
       "sentenceIndex": 6,
@@ -378,12 +332,8 @@ export default {
         "go into detail"
       ],
       "optionReasons": {
-        "detail-mcq-03": "本句指「以很多具體資料和細小事項進行詳細說明」。",
-        "detail-mcq-02": "「關於某件事情、安排、人物或計劃的具體資料和詳情」是「details — specific information」的用法，與本句語境不同。",
-        "detail-mcq-04": "「逐項提供或說明某件事情的具體事實、資料或步驟」是「detail something — explain/list」的用法，與本句語境不同。",
-        "detail-mcq-01": "「構成一個較大整體的細小部分、特徵或具體事項」是「detail — small feature/fact」的用法，與本句語境不同。",
-        "detail-mcq-05": "「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」是「detail someone to/for duty」的用法，與本句語境不同。",
-        "detail-mcq-06": "「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」是「detail a vehicle」的用法，與本句語境不同。"
+        "detail-mcq-03": "本句的「go into detail」指「以很多具體資料和細小事項進行詳細說明」。",
+        "detail-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "detail-mcq-03"
     },
@@ -395,11 +345,8 @@ export default {
       "masked": "The report ____ the causes of the accident.",
       "options": [
         "detail-mcq-04",
-        "detail-mcq-03",
-        "detail-mcq-05",
-        "detail-mcq-02",
         "detail-mcq-06",
-        "detail-mcq-01"
+        "detail-mcq-05"
       ],
       "explanation": "本句的「details」指「逐項提供或說明某件事情的具體事實、資料或步驟」。",
       "sentenceIndex": 7,
@@ -408,12 +355,9 @@ export default {
         "details"
       ],
       "optionReasons": {
-        "detail-mcq-04": "本句指「逐項提供或說明某件事情的具體事實、資料或步驟」。",
-        "detail-mcq-03": "「以很多具體資料和細小事項進行詳細說明」是「in detail / go into detail」的用法，與本句語境不同。",
-        "detail-mcq-05": "「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」是「detail someone to/for duty」的用法，與本句語境不同。",
-        "detail-mcq-02": "「關於某件事情、安排、人物或計劃的具體資料和詳情」是「details — specific information」的用法，與本句語境不同。",
-        "detail-mcq-06": "「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」是「detail a vehicle」的用法，與本句語境不同。",
-        "detail-mcq-01": "「構成一個較大整體的細小部分、特徵或具體事項」是「detail — small feature/fact」的用法，與本句語境不同。"
+        "detail-mcq-04": "本句的「details」指「逐項提供或說明某件事情的具體事實、資料或步驟」。",
+        "detail-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "detail-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "detail-mcq-04"
     },
@@ -425,11 +369,8 @@ export default {
       "masked": "She ____ the steps needed to complete the project.",
       "options": [
         "detail-mcq-04",
-        "detail-mcq-03",
-        "detail-mcq-05",
-        "detail-mcq-02",
         "detail-mcq-06",
-        "detail-mcq-01"
+        "detail-mcq-05"
       ],
       "explanation": "本句的「detailed」指「逐項提供或說明某件事情的具體事實、資料或步驟」。",
       "sentenceIndex": 8,
@@ -438,12 +379,9 @@ export default {
         "detailed"
       ],
       "optionReasons": {
-        "detail-mcq-04": "本句指「逐項提供或說明某件事情的具體事實、資料或步驟」。",
-        "detail-mcq-03": "「以很多具體資料和細小事項進行詳細說明」是「in detail / go into detail」的用法，與本句語境不同。",
-        "detail-mcq-05": "「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」是「detail someone to/for duty」的用法，與本句語境不同。",
-        "detail-mcq-02": "「關於某件事情、安排、人物或計劃的具體資料和詳情」是「details — specific information」的用法，與本句語境不同。",
-        "detail-mcq-06": "「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」是「detail a vehicle」的用法，與本句語境不同。",
-        "detail-mcq-01": "「構成一個較大整體的細小部分、特徵或具體事項」是「detail — small feature/fact」的用法，與本句語境不同。"
+        "detail-mcq-04": "本句的「detailed」指「逐項提供或說明某件事情的具體事實、資料或步驟」。",
+        "detail-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "detail-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "detail-mcq-04"
     },
@@ -455,11 +393,8 @@ export default {
       "masked": "Two officers were ____ the entrance.",
       "options": [
         "detail-mcq-05",
-        "detail-mcq-04",
-        "detail-mcq-06",
-        "detail-mcq-03",
         "detail-mcq-07",
-        "detail-mcq-02"
+        "detail-mcq-06"
       ],
       "explanation": "本句的「detailed to guard」指「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」。",
       "sentenceIndex": 9,
@@ -468,12 +403,9 @@ export default {
         "detailed to guard"
       ],
       "optionReasons": {
-        "detail-mcq-05": "本句指「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」。",
-        "detail-mcq-04": "「逐項提供或說明某件事情的具體事實、資料或步驟」是「detail something — explain/list」的用法，與本句語境不同。",
-        "detail-mcq-06": "「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」是「detail a vehicle」的用法，與本句語境不同。",
-        "detail-mcq-03": "「以很多具體資料和細小事項進行詳細說明」是「in detail / go into detail」的用法，與本句語境不同。",
-        "detail-mcq-07": "「包含大量具體資料、細節或細小特徵的；詳盡的」是「detailed」的用法，與本句語境不同。",
-        "detail-mcq-02": "「關於某件事情、安排、人物或計劃的具體資料和詳情」是「details — specific information」的用法，與本句語境不同。"
+        "detail-mcq-05": "本句的「detailed to guard」指「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」。",
+        "detail-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "detail-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "detail-mcq-05"
     },
@@ -486,10 +418,7 @@ export default {
       "options": [
         "detail-mcq-05",
         "detail-mcq-04",
-        "detail-mcq-06",
-        "detail-mcq-03",
-        "detail-mcq-07",
-        "detail-mcq-02"
+        "detail-mcq-06"
       ],
       "explanation": "本句的「detailed for」指「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」。",
       "sentenceIndex": 10,
@@ -498,12 +427,9 @@ export default {
         "detailed for"
       ],
       "optionReasons": {
-        "detail-mcq-05": "本句指「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」。",
-        "detail-mcq-04": "「逐項提供或說明某件事情的具體事實、資料或步驟」是「detail something — explain/list」的用法，與本句語境不同。",
-        "detail-mcq-06": "「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」是「detail a vehicle」的用法，與本句語境不同。",
-        "detail-mcq-03": "「以很多具體資料和細小事項進行詳細說明」是「in detail / go into detail」的用法，與本句語境不同。",
-        "detail-mcq-07": "「包含大量具體資料、細節或細小特徵的；詳盡的」是「detailed」的用法，與本句語境不同。",
-        "detail-mcq-02": "「關於某件事情、安排、人物或計劃的具體資料和詳情」是「details — specific information」的用法，與本句語境不同。"
+        "detail-mcq-05": "本句的「detailed for」指「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」。",
+        "detail-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "detail-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "detail-mcq-05"
     },
@@ -515,11 +441,7 @@ export default {
       "masked": "I had my car ____ before selling it.",
       "options": [
         "detail-mcq-06",
-        "detail-mcq-05",
-        "detail-mcq-07",
-        "detail-mcq-04",
-        "detail-mcq-08",
-        "detail-mcq-03"
+        "detail-mcq-02"
       ],
       "explanation": "本句的「detailed」指「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」。",
       "sentenceIndex": 11,
@@ -528,12 +450,8 @@ export default {
         "detailed"
       ],
       "optionReasons": {
-        "detail-mcq-06": "本句指「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」。",
-        "detail-mcq-05": "「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」是「detail someone to/for duty」的用法，與本句語境不同。",
-        "detail-mcq-07": "「包含大量具體資料、細節或細小特徵的；詳盡的」是「detailed」的用法，與本句語境不同。",
-        "detail-mcq-04": "「逐項提供或說明某件事情的具體事實、資料或步驟」是「detail something — explain/list」的用法，與本句語境不同。",
-        "detail-mcq-08": "「對細小特徵、準確性和具體事項保持高度留意和仔細處理的能力」是「attention to detail」的用法，與本句語境不同。",
-        "detail-mcq-03": "「以很多具體資料和細小事項進行詳細說明」是「in detail / go into detail」的用法，與本句語境不同。"
+        "detail-mcq-06": "本句的「detailed」指「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」。",
+        "detail-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "detail-mcq-06"
     },
@@ -545,11 +463,8 @@ export default {
       "masked": "The shop specializes in ____ luxury cars.",
       "options": [
         "detail-mcq-06",
-        "detail-mcq-05",
-        "detail-mcq-07",
         "detail-mcq-04",
-        "detail-mcq-08",
-        "detail-mcq-03"
+        "detail-mcq-05"
       ],
       "explanation": "本句的「detailing」指「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」。",
       "sentenceIndex": 12,
@@ -558,12 +473,9 @@ export default {
         "detailing"
       ],
       "optionReasons": {
-        "detail-mcq-06": "本句指「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」。",
-        "detail-mcq-05": "「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」是「detail someone to/for duty」的用法，與本句語境不同。",
-        "detail-mcq-07": "「包含大量具體資料、細節或細小特徵的；詳盡的」是「detailed」的用法，與本句語境不同。",
-        "detail-mcq-04": "「逐項提供或說明某件事情的具體事實、資料或步驟」是「detail something — explain/list」的用法，與本句語境不同。",
-        "detail-mcq-08": "「對細小特徵、準確性和具體事項保持高度留意和仔細處理的能力」是「attention to detail」的用法，與本句語境不同。",
-        "detail-mcq-03": "「以很多具體資料和細小事項進行詳細說明」是「in detail / go into detail」的用法，與本句語境不同。"
+        "detail-mcq-06": "本句的「detailing」指「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」。",
+        "detail-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "detail-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "detail-mcq-06"
     },
@@ -576,10 +488,7 @@ export default {
       "options": [
         "detail-mcq-07",
         "detail-mcq-06",
-        "detail-mcq-08",
-        "detail-mcq-05",
-        "detail-mcq-04",
-        "detail-mcq-03"
+        "detail-mcq-05"
       ],
       "explanation": "本句的「detailed explanation」指「包含大量具體資料、細節或細小特徵的；詳盡的」。",
       "sentenceIndex": 13,
@@ -588,12 +497,9 @@ export default {
         "detailed explanation"
       ],
       "optionReasons": {
-        "detail-mcq-07": "本句指「包含大量具體資料、細節或細小特徵的；詳盡的」。",
-        "detail-mcq-06": "「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」是「detail a vehicle」的用法，與本句語境不同。",
-        "detail-mcq-08": "「對細小特徵、準確性和具體事項保持高度留意和仔細處理的能力」是「attention to detail」的用法，與本句語境不同。",
-        "detail-mcq-05": "「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」是「detail someone to/for duty」的用法，與本句語境不同。",
-        "detail-mcq-04": "「逐項提供或說明某件事情的具體事實、資料或步驟」是「detail something — explain/list」的用法，與本句語境不同。",
-        "detail-mcq-03": "「以很多具體資料和細小事項進行詳細說明」是「in detail / go into detail」的用法，與本句語境不同。"
+        "detail-mcq-07": "本句的「detailed explanation」指「包含大量具體資料、細節或細小特徵的；詳盡的」。",
+        "detail-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "detail-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "detail-mcq-07"
     },
@@ -606,10 +512,7 @@ export default {
       "options": [
         "detail-mcq-07",
         "detail-mcq-06",
-        "detail-mcq-08",
-        "detail-mcq-05",
-        "detail-mcq-04",
-        "detail-mcq-03"
+        "detail-mcq-05"
       ],
       "explanation": "本句的「detailed」指「包含大量具體資料、細節或細小特徵的；詳盡的」。",
       "sentenceIndex": 14,
@@ -618,12 +521,9 @@ export default {
         "detailed"
       ],
       "optionReasons": {
-        "detail-mcq-07": "本句指「包含大量具體資料、細節或細小特徵的；詳盡的」。",
-        "detail-mcq-06": "「對車輛內外進行非常仔細的清潔、打理、拋光及外觀護理」是「detail a vehicle」的用法，與本句語境不同。",
-        "detail-mcq-08": "「對細小特徵、準確性和具體事項保持高度留意和仔細處理的能力」是「attention to detail」的用法，與本句語境不同。",
-        "detail-mcq-05": "「正式指派某人負責某項特定任務；常見於軍事、警務或正式語境」是「detail someone to/for duty」的用法，與本句語境不同。",
-        "detail-mcq-04": "「逐項提供或說明某件事情的具體事實、資料或步驟」是「detail something — explain/list」的用法，與本句語境不同。",
-        "detail-mcq-03": "「以很多具體資料和細小事項進行詳細說明」是「in detail / go into detail」的用法，與本句語境不同。"
+        "detail-mcq-07": "本句的「detailed」指「包含大量具體資料、細節或細小特徵的；詳盡的」。",
+        "detail-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "detail-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "detail-mcq-07"
     }
@@ -635,5 +535,7 @@ export default {
     "sha256": "7c80ada6e5df289fc6361a0114989a1cb5abfb1a8494a249146fb75f0c077b34",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

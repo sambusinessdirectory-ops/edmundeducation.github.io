@@ -459,11 +459,8 @@ export default {
       "masked": "He ____ while listening to our conversation.",
       "options": [
         "pretend-mcq-01",
-        "pretend-mcq-02",
-        "pretend-mcq-03",
-        "pretend-mcq-04",
-        "pretend-mcq-05",
-        "pretend-mcq-06"
+        "pretend-mcq-15",
+        "pretend-mcq-18"
       ],
       "explanation": "本句的「pretended to read」指「假裝做 X」。",
       "sentenceIndex": 0,
@@ -472,12 +469,9 @@ export default {
         "pretended to read"
       ],
       "optionReasons": {
-        "pretend-mcq-01": "本句指「假裝做 X」。",
-        "pretend-mcq-02": "「假裝……是真的」是「pretend that...」的用法，與本句語境不同。",
-        "pretend-mcq-03": "「假裝是 X」是「pretend to be X」的用法，與本句語境不同。",
-        "pretend-mcq-04": "「假裝甚麼都沒發生」是「pretend nothing happened」的用法，與本句語境不同。",
-        "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。"
+        "pretend-mcq-01": "本句的「pretended to read」指「假裝做 X」。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-01"
     },
@@ -489,11 +483,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "pretend-mcq-01",
-        "pretend-mcq-02",
-        "pretend-mcq-03",
-        "pretend-mcq-04",
-        "pretend-mcq-05",
-        "pretend-mcq-06"
+        "pretend-mcq-18",
+        "pretend-mcq-15"
       ],
       "explanation": "本句的「pretended to sleep」指「假裝做 X」。",
       "sentenceIndex": 1,
@@ -502,12 +493,9 @@ export default {
         "pretended to sleep"
       ],
       "optionReasons": {
-        "pretend-mcq-01": "本句指「假裝做 X」。",
-        "pretend-mcq-02": "「假裝……是真的」是「pretend that...」的用法，與本句語境不同。",
-        "pretend-mcq-03": "「假裝是 X」是「pretend to be X」的用法，與本句語境不同。",
-        "pretend-mcq-04": "「假裝甚麼都沒發生」是「pretend nothing happened」的用法，與本句語境不同。",
-        "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。"
+        "pretend-mcq-01": "本句的「pretended to sleep」指「假裝做 X」。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-01"
     },
@@ -519,11 +507,8 @@ export default {
       "masked": "He ____ the instructions.",
       "options": [
         "pretend-mcq-01",
-        "pretend-mcq-02",
-        "pretend-mcq-03",
-        "pretend-mcq-04",
-        "pretend-mcq-05",
-        "pretend-mcq-06"
+        "pretend-mcq-15",
+        "pretend-mcq-18"
       ],
       "explanation": "本句的「pretended to understand」指「假裝做 X」。",
       "sentenceIndex": 2,
@@ -532,12 +517,9 @@ export default {
         "pretended to understand"
       ],
       "optionReasons": {
-        "pretend-mcq-01": "本句指「假裝做 X」。",
-        "pretend-mcq-02": "「假裝……是真的」是「pretend that...」的用法，與本句語境不同。",
-        "pretend-mcq-03": "「假裝是 X」是「pretend to be X」的用法，與本句語境不同。",
-        "pretend-mcq-04": "「假裝甚麼都沒發生」是「pretend nothing happened」的用法，與本句語境不同。",
-        "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。"
+        "pretend-mcq-01": "本句的「pretended to understand」指「假裝做 X」。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-01"
     },
@@ -549,11 +531,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "pretend-mcq-02",
-        "pretend-mcq-01",
-        "pretend-mcq-03",
-        "pretend-mcq-04",
-        "pretend-mcq-05",
-        "pretend-mcq-06"
+        "pretend-mcq-15",
+        "pretend-mcq-18"
       ],
       "explanation": "本句的「pretended that she was fine」指「假裝……是真的」。",
       "sentenceIndex": 3,
@@ -562,12 +541,9 @@ export default {
         "pretended that she was fine"
       ],
       "optionReasons": {
-        "pretend-mcq-02": "本句指「假裝……是真的」。",
-        "pretend-mcq-01": "「假裝做 X」是「pretend to do X」的用法，與本句語境不同。",
-        "pretend-mcq-03": "「假裝是 X」是「pretend to be X」的用法，與本句語境不同。",
-        "pretend-mcq-04": "「假裝甚麼都沒發生」是「pretend nothing happened」的用法，與本句語境不同。",
-        "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。"
+        "pretend-mcq-02": "本句的「pretended that she was fine」指「假裝……是真的」。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-02"
     },
@@ -579,11 +555,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "pretend-mcq-02",
-        "pretend-mcq-01",
-        "pretend-mcq-03",
-        "pretend-mcq-04",
-        "pretend-mcq-05",
-        "pretend-mcq-06"
+        "pretend-mcq-15",
+        "pretend-mcq-18"
       ],
       "explanation": "本句的「pretended that nothing had happened」指「假裝……是真的」。",
       "sentenceIndex": 4,
@@ -592,12 +565,9 @@ export default {
         "pretended that nothing had happened"
       ],
       "optionReasons": {
-        "pretend-mcq-02": "本句指「假裝……是真的」。",
-        "pretend-mcq-01": "「假裝做 X」是「pretend to do X」的用法，與本句語境不同。",
-        "pretend-mcq-03": "「假裝是 X」是「pretend to be X」的用法，與本句語境不同。",
-        "pretend-mcq-04": "「假裝甚麼都沒發生」是「pretend nothing happened」的用法，與本句語境不同。",
-        "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。"
+        "pretend-mcq-02": "本句的「pretended that nothing had happened」指「假裝……是真的」。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-02"
     },
@@ -609,11 +579,8 @@ export default {
       "masked": "The child ____.",
       "options": [
         "pretend-mcq-03",
-        "pretend-mcq-02",
-        "pretend-mcq-04",
-        "pretend-mcq-01",
-        "pretend-mcq-05",
-        "pretend-mcq-06"
+        "pretend-mcq-15",
+        "pretend-mcq-18"
       ],
       "explanation": "本句的「pretended to be a doctor」指「假裝是 X」。",
       "sentenceIndex": 5,
@@ -622,12 +589,9 @@ export default {
         "pretended to be a doctor"
       ],
       "optionReasons": {
-        "pretend-mcq-03": "本句指「假裝是 X」。",
-        "pretend-mcq-02": "「假裝……是真的」是「pretend that...」的用法，與本句語境不同。",
-        "pretend-mcq-04": "「假裝甚麼都沒發生」是「pretend nothing happened」的用法，與本句語境不同。",
-        "pretend-mcq-01": "「假裝做 X」是「pretend to do X」的用法，與本句語境不同。",
-        "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。"
+        "pretend-mcq-03": "本句的「pretended to be a doctor」指「假裝是 X」。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-03"
     },
@@ -639,11 +603,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "pretend-mcq-03",
-        "pretend-mcq-02",
-        "pretend-mcq-04",
-        "pretend-mcq-01",
-        "pretend-mcq-05",
-        "pretend-mcq-06"
+        "pretend-mcq-15",
+        "pretend-mcq-18"
       ],
       "explanation": "本句的「pretended to be confident」指「假裝是 X」。",
       "sentenceIndex": 6,
@@ -652,12 +613,9 @@ export default {
         "pretended to be confident"
       ],
       "optionReasons": {
-        "pretend-mcq-03": "本句指「假裝是 X」。",
-        "pretend-mcq-02": "「假裝……是真的」是「pretend that...」的用法，與本句語境不同。",
-        "pretend-mcq-04": "「假裝甚麼都沒發生」是「pretend nothing happened」的用法，與本句語境不同。",
-        "pretend-mcq-01": "「假裝做 X」是「pretend to do X」的用法，與本句語境不同。",
-        "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。"
+        "pretend-mcq-03": "本句的「pretended to be confident」指「假裝是 X」。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-03"
     },
@@ -669,11 +627,9 @@ export default {
       "masked": "Some people ____ instead of admitting their mistakes.",
       "options": [
         "pretend-mcq-04",
-        "pretend-mcq-03",
-        "pretend-mcq-05",
-        "pretend-mcq-02",
-        "pretend-mcq-06",
-        "pretend-mcq-01"
+        "pretend-mcq-18",
+        "pretend-mcq-15",
+        "pretend-mcq-19"
       ],
       "explanation": "本句的「pretend nothing happened」指「假裝甚麼都沒發生」。",
       "sentenceIndex": 7,
@@ -682,12 +638,10 @@ export default {
         "pretend nothing happened"
       ],
       "optionReasons": {
-        "pretend-mcq-04": "本句指「假裝甚麼都沒發生」。",
-        "pretend-mcq-03": "「假裝是 X」是「pretend to be X」的用法，與本句語境不同。",
-        "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。",
-        "pretend-mcq-02": "「假裝……是真的」是「pretend that...」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。",
-        "pretend-mcq-01": "「假裝做 X」是「pretend to do X」的用法，與本句語境不同。"
+        "pretend-mcq-04": "本句的「pretend nothing happened」指「假裝甚麼都沒發生」。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-04"
     },
@@ -699,11 +653,9 @@ export default {
       "masked": "You can't just ____ after hurting someone.",
       "options": [
         "pretend-mcq-04",
-        "pretend-mcq-03",
-        "pretend-mcq-05",
-        "pretend-mcq-02",
-        "pretend-mcq-06",
-        "pretend-mcq-01"
+        "pretend-mcq-15",
+        "pretend-mcq-18",
+        "pretend-mcq-19"
       ],
       "explanation": "本句的「pretend nothing happened」指「假裝甚麼都沒發生」。",
       "sentenceIndex": 8,
@@ -712,12 +664,10 @@ export default {
         "pretend nothing happened"
       ],
       "optionReasons": {
-        "pretend-mcq-04": "本句指「假裝甚麼都沒發生」。",
-        "pretend-mcq-03": "「假裝是 X」是「pretend to be X」的用法，與本句語境不同。",
-        "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。",
-        "pretend-mcq-02": "「假裝……是真的」是「pretend that...」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。",
-        "pretend-mcq-01": "「假裝做 X」是「pretend to do X」的用法，與本句語境不同。"
+        "pretend-mcq-04": "本句的「pretend nothing happened」指「假裝甚麼都沒發生」。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-04"
     },
@@ -729,11 +679,9 @@ export default {
       "masked": "She smiled and ____.",
       "options": [
         "pretend-mcq-05",
-        "pretend-mcq-04",
-        "pretend-mcq-06",
-        "pretend-mcq-03",
-        "pretend-mcq-07",
-        "pretend-mcq-02"
+        "pretend-mcq-18",
+        "pretend-mcq-15",
+        "pretend-mcq-19"
       ],
       "explanation": "本句的「pretended everything was fine」指「假裝一切正常」。",
       "sentenceIndex": 9,
@@ -742,12 +690,10 @@ export default {
         "pretended everything was fine"
       ],
       "optionReasons": {
-        "pretend-mcq-05": "本句指「假裝一切正常」。",
-        "pretend-mcq-04": "「假裝甚麼都沒發生」是「pretend nothing happened」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。",
-        "pretend-mcq-03": "「假裝是 X」是「pretend to be X」的用法，與本句語境不同。",
-        "pretend-mcq-07": "「假裝不在乎」是「pretend not to care」的用法，與本句語境不同。",
-        "pretend-mcq-02": "「假裝……是真的」是「pretend that...」的用法，與本句語境不同。"
+        "pretend-mcq-05": "本句的「pretended everything was fine」指「假裝一切正常」。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-05"
     },
@@ -759,11 +705,9 @@ export default {
       "masked": "It's exhausting to ____ when you're upset.",
       "options": [
         "pretend-mcq-05",
-        "pretend-mcq-04",
-        "pretend-mcq-06",
-        "pretend-mcq-03",
-        "pretend-mcq-07",
-        "pretend-mcq-02"
+        "pretend-mcq-15",
+        "pretend-mcq-18",
+        "pretend-mcq-13"
       ],
       "explanation": "本句的「pretend everything is fine」指「假裝一切正常」。",
       "sentenceIndex": 10,
@@ -772,12 +716,10 @@ export default {
         "pretend everything is fine"
       ],
       "optionReasons": {
-        "pretend-mcq-05": "本句指「假裝一切正常」。",
-        "pretend-mcq-04": "「假裝甚麼都沒發生」是「pretend nothing happened」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。",
-        "pretend-mcq-03": "「假裝是 X」是「pretend to be X」的用法，與本句語境不同。",
-        "pretend-mcq-07": "「假裝不在乎」是「pretend not to care」的用法，與本句語境不同。",
-        "pretend-mcq-02": "「假裝……是真的」是「pretend that...」的用法，與本句語境不同。"
+        "pretend-mcq-05": "本句的「pretend everything is fine」指「假裝一切正常」。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-05"
     },
@@ -789,11 +731,9 @@ export default {
       "masked": "He ____ who had deleted the file.",
       "options": [
         "pretend-mcq-06",
-        "pretend-mcq-05",
-        "pretend-mcq-07",
-        "pretend-mcq-04",
-        "pretend-mcq-08",
-        "pretend-mcq-03"
+        "pretend-mcq-18",
+        "pretend-mcq-15",
+        "pretend-mcq-19"
       ],
       "explanation": "本句的「pretended not to know」指「假裝不知道」。",
       "sentenceIndex": 11,
@@ -802,12 +742,10 @@ export default {
         "pretended not to know"
       ],
       "optionReasons": {
-        "pretend-mcq-06": "本句指「假裝不知道」。",
-        "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。",
-        "pretend-mcq-07": "「假裝不在乎」是「pretend not to care」的用法，與本句語境不同。",
-        "pretend-mcq-04": "「假裝甚麼都沒發生」是「pretend nothing happened」的用法，與本句語境不同。",
-        "pretend-mcq-08": "「假裝有興趣」是「pretend interest」的用法，與本句語境不同。",
-        "pretend-mcq-03": "「假裝是 X」是「pretend to be X」的用法，與本句語境不同。"
+        "pretend-mcq-06": "本句的「pretended not to know」指「假裝不知道」。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-06"
     },
@@ -819,11 +757,9 @@ export default {
       "masked": "She ____ the mistake.",
       "options": [
         "pretend-mcq-06",
-        "pretend-mcq-05",
-        "pretend-mcq-07",
-        "pretend-mcq-04",
-        "pretend-mcq-08",
-        "pretend-mcq-03"
+        "pretend-mcq-18",
+        "pretend-mcq-15",
+        "pretend-mcq-19"
       ],
       "explanation": "本句的「pretended not to notice」指「假裝不知道」。",
       "sentenceIndex": 12,
@@ -832,12 +768,10 @@ export default {
         "pretended not to notice"
       ],
       "optionReasons": {
-        "pretend-mcq-06": "本句指「假裝不知道」。",
-        "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。",
-        "pretend-mcq-07": "「假裝不在乎」是「pretend not to care」的用法，與本句語境不同。",
-        "pretend-mcq-04": "「假裝甚麼都沒發生」是「pretend nothing happened」的用法，與本句語境不同。",
-        "pretend-mcq-08": "「假裝有興趣」是「pretend interest」的用法，與本句語境不同。",
-        "pretend-mcq-03": "「假裝是 X」是「pretend to be X」的用法，與本句語境不同。"
+        "pretend-mcq-06": "本句的「pretended not to notice」指「假裝不知道」。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-06"
     },
@@ -849,11 +783,8 @@ export default {
       "masked": "He ____, but I could tell he was upset.",
       "options": [
         "pretend-mcq-07",
-        "pretend-mcq-06",
-        "pretend-mcq-08",
-        "pretend-mcq-05",
-        "pretend-mcq-09",
-        "pretend-mcq-04"
+        "pretend-mcq-18",
+        "pretend-mcq-15"
       ],
       "explanation": "本句的「pretended not to care」指「假裝不在乎」。",
       "sentenceIndex": 13,
@@ -862,12 +793,9 @@ export default {
         "pretended not to care"
       ],
       "optionReasons": {
-        "pretend-mcq-07": "本句指「假裝不在乎」。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。",
-        "pretend-mcq-08": "「假裝有興趣」是「pretend interest」的用法，與本句語境不同。",
-        "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。",
-        "pretend-mcq-09": "「假裝遊戲」是「pretend play」的用法，與本句語境不同。",
-        "pretend-mcq-04": "「假裝甚麼都沒發生」是「pretend nothing happened」的用法，與本句語境不同。"
+        "pretend-mcq-07": "本句的「pretended not to care」指「假裝不在乎」。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-07"
     },
@@ -879,11 +807,8 @@ export default {
       "masked": "She ____ about the criticism.",
       "options": [
         "pretend-mcq-07",
-        "pretend-mcq-06",
-        "pretend-mcq-08",
-        "pretend-mcq-05",
-        "pretend-mcq-09",
-        "pretend-mcq-04"
+        "pretend-mcq-15",
+        "pretend-mcq-18"
       ],
       "explanation": "本句的「pretended not to care」指「假裝不在乎」。",
       "sentenceIndex": 14,
@@ -892,12 +817,9 @@ export default {
         "pretended not to care"
       ],
       "optionReasons": {
-        "pretend-mcq-07": "本句指「假裝不在乎」。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。",
-        "pretend-mcq-08": "「假裝有興趣」是「pretend interest」的用法，與本句語境不同。",
-        "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。",
-        "pretend-mcq-09": "「假裝遊戲」是「pretend play」的用法，與本句語境不同。",
-        "pretend-mcq-04": "「假裝甚麼都沒發生」是「pretend nothing happened」的用法，與本句語境不同。"
+        "pretend-mcq-07": "本句的「pretended not to care」指「假裝不在乎」。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-07"
     },
@@ -909,11 +831,9 @@ export default {
       "masked": "He ____ in the conversation.",
       "options": [
         "pretend-mcq-08",
-        "pretend-mcq-07",
-        "pretend-mcq-09",
-        "pretend-mcq-06",
-        "pretend-mcq-10",
-        "pretend-mcq-05"
+        "pretend-mcq-15",
+        "pretend-mcq-18",
+        "pretend-mcq-19"
       ],
       "explanation": "本句的「pretended interest」指「假裝有興趣」。",
       "sentenceIndex": 15,
@@ -922,12 +842,10 @@ export default {
         "pretended interest"
       ],
       "optionReasons": {
-        "pretend-mcq-08": "本句指「假裝有興趣」。",
-        "pretend-mcq-07": "「假裝不在乎」是「pretend not to care」的用法，與本句語境不同。",
-        "pretend-mcq-09": "「假裝遊戲」是「pretend play」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。",
-        "pretend-mcq-10": "「假設／假想」是「pretend (hypothetical)」的用法，與本句語境不同。",
-        "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。"
+        "pretend-mcq-08": "本句的「pretended interest」指「假裝有興趣」。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-08"
     },
@@ -939,11 +857,9 @@ export default {
       "masked": "She smiled and ____.",
       "options": [
         "pretend-mcq-08",
-        "pretend-mcq-07",
-        "pretend-mcq-09",
-        "pretend-mcq-06",
-        "pretend-mcq-10",
-        "pretend-mcq-05"
+        "pretend-mcq-18",
+        "pretend-mcq-15",
+        "pretend-mcq-13"
       ],
       "explanation": "本句的「pretended to be interested」指「假裝有興趣」。",
       "sentenceIndex": 16,
@@ -952,12 +868,10 @@ export default {
         "pretended to be interested"
       ],
       "optionReasons": {
-        "pretend-mcq-08": "本句指「假裝有興趣」。",
-        "pretend-mcq-07": "「假裝不在乎」是「pretend not to care」的用法，與本句語境不同。",
-        "pretend-mcq-09": "「假裝遊戲」是「pretend play」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。",
-        "pretend-mcq-10": "「假設／假想」是「pretend (hypothetical)」的用法，與本句語境不同。",
-        "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。"
+        "pretend-mcq-08": "本句的「pretended to be interested」指「假裝有興趣」。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-08"
     },
@@ -969,11 +883,9 @@ export default {
       "masked": "He ____ when asked about the missing file.",
       "options": [
         "pretend-pdf-001",
-        "pretend-mcq-07",
-        "pretend-mcq-09",
-        "pretend-mcq-06",
-        "pretend-mcq-10",
-        "pretend-mcq-05"
+        "pretend-mcq-19",
+        "pretend-mcq-15",
+        "pretend-mcq-13"
       ],
       "explanation": "本句的「pretended ignorance」指「明知某事，卻故意裝作不知道」。",
       "sentenceIndex": 17,
@@ -982,12 +894,10 @@ export default {
         "pretended ignorance"
       ],
       "optionReasons": {
-        "pretend-pdf-001": "本句指「明知某事，卻故意裝作不知道」。",
-        "pretend-mcq-07": "「假裝不在乎」是「pretend not to care」的用法，與本句語境不同。",
-        "pretend-mcq-09": "「假裝遊戲」是「pretend play」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。",
-        "pretend-mcq-10": "「假設／假想」是「pretend (hypothetical)」的用法，與本句語境不同。",
-        "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。"
+        "pretend-pdf-001": "本句的「pretended ignorance」指「明知某事，卻故意裝作不知道」。",
+        "pretend-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-pdf-001"
     },
@@ -999,11 +909,9 @@ export default {
       "masked": "She could no longer ____ of the problem.",
       "options": [
         "pretend-pdf-001",
-        "pretend-mcq-07",
-        "pretend-mcq-09",
-        "pretend-mcq-06",
-        "pretend-mcq-10",
-        "pretend-mcq-05"
+        "pretend-mcq-19",
+        "pretend-mcq-15",
+        "pretend-mcq-08"
       ],
       "explanation": "本句的「pretend ignorance」指「明知某事，卻故意裝作不知道」。",
       "sentenceIndex": 18,
@@ -1012,12 +920,10 @@ export default {
         "pretend ignorance"
       ],
       "optionReasons": {
-        "pretend-pdf-001": "本句指「明知某事，卻故意裝作不知道」。",
-        "pretend-mcq-07": "「假裝不在乎」是「pretend not to care」的用法，與本句語境不同。",
-        "pretend-mcq-09": "「假裝遊戲」是「pretend play」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。",
-        "pretend-mcq-10": "「假設／假想」是「pretend (hypothetical)」的用法，與本句語境不同。",
-        "pretend-mcq-05": "「假裝一切正常」是「pretend everything is fine」的用法，與本句語境不同。"
+        "pretend-pdf-001": "本句的「pretend ignorance」指「明知某事，卻故意裝作不知道」。",
+        "pretend-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-pdf-001"
     },
@@ -1029,11 +935,9 @@ export default {
       "masked": "The children ____.",
       "options": [
         "pretend-mcq-09",
-        "pretend-mcq-08",
-        "pretend-mcq-10",
-        "pretend-mcq-07",
-        "pretend-mcq-11",
-        "pretend-mcq-06"
+        "pretend-mcq-18",
+        "pretend-mcq-15",
+        "pretend-mcq-13"
       ],
       "explanation": "本句的「pretended to be astronauts」指「假裝遊戲」。",
       "sentenceIndex": 19,
@@ -1042,12 +946,10 @@ export default {
         "pretended to be astronauts"
       ],
       "optionReasons": {
-        "pretend-mcq-09": "本句指「假裝遊戲」。",
-        "pretend-mcq-08": "「假裝有興趣」是「pretend interest」的用法，與本句語境不同。",
-        "pretend-mcq-10": "「假設／假想」是「pretend (hypothetical)」的用法，與本句語境不同。",
-        "pretend-mcq-07": "「假裝不在乎」是「pretend not to care」的用法，與本句語境不同。",
-        "pretend-mcq-11": "「裝出來的；假的」是「pretended」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。"
+        "pretend-mcq-09": "本句的「pretended to be astronauts」指「假裝遊戲」。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-09"
     },
@@ -1059,11 +961,9 @@ export default {
       "masked": "Let's ____.",
       "options": [
         "pretend-mcq-09",
-        "pretend-mcq-08",
-        "pretend-mcq-10",
-        "pretend-mcq-07",
-        "pretend-mcq-11",
-        "pretend-mcq-06"
+        "pretend-mcq-18",
+        "pretend-mcq-15",
+        "pretend-mcq-13"
       ],
       "explanation": "本句的「pretend this box is a spaceship」指「假裝遊戲」。",
       "sentenceIndex": 20,
@@ -1072,12 +972,10 @@ export default {
         "pretend this box is a spaceship"
       ],
       "optionReasons": {
-        "pretend-mcq-09": "本句指「假裝遊戲」。",
-        "pretend-mcq-08": "「假裝有興趣」是「pretend interest」的用法，與本句語境不同。",
-        "pretend-mcq-10": "「假設／假想」是「pretend (hypothetical)」的用法，與本句語境不同。",
-        "pretend-mcq-07": "「假裝不在乎」是「pretend not to care」的用法，與本句語境不同。",
-        "pretend-mcq-11": "「裝出來的；假的」是「pretended」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。"
+        "pretend-mcq-09": "本句的「pretend this box is a spaceship」指「假裝遊戲」。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-09"
     },
@@ -1089,11 +987,9 @@ export default {
       "masked": "____ helps children use their imagination.",
       "options": [
         "pretend-mcq-09",
-        "pretend-mcq-08",
-        "pretend-mcq-10",
-        "pretend-mcq-07",
-        "pretend-mcq-11",
-        "pretend-mcq-06"
+        "pretend-mcq-15",
+        "pretend-mcq-18",
+        "pretend-mcq-13"
       ],
       "explanation": "本句的「Pretend play」指「假裝遊戲」。",
       "sentenceIndex": 21,
@@ -1102,12 +998,10 @@ export default {
         "Pretend play"
       ],
       "optionReasons": {
-        "pretend-mcq-09": "本句指「假裝遊戲」。",
-        "pretend-mcq-08": "「假裝有興趣」是「pretend interest」的用法，與本句語境不同。",
-        "pretend-mcq-10": "「假設／假想」是「pretend (hypothetical)」的用法，與本句語境不同。",
-        "pretend-mcq-07": "「假裝不在乎」是「pretend not to care」的用法，與本句語境不同。",
-        "pretend-mcq-11": "「裝出來的；假的」是「pretended」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。"
+        "pretend-mcq-09": "本句的「Pretend play」指「假裝遊戲」。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-09"
     },
@@ -1119,11 +1013,9 @@ export default {
       "masked": "The children engaged in ____.",
       "options": [
         "pretend-mcq-09",
-        "pretend-mcq-08",
-        "pretend-mcq-10",
-        "pretend-mcq-07",
-        "pretend-mcq-11",
-        "pretend-mcq-06"
+        "pretend-mcq-15",
+        "pretend-mcq-18",
+        "pretend-mcq-13"
       ],
       "explanation": "本句的「pretend play」指「假裝遊戲」。",
       "sentenceIndex": 22,
@@ -1132,12 +1024,10 @@ export default {
         "pretend play"
       ],
       "optionReasons": {
-        "pretend-mcq-09": "本句指「假裝遊戲」。",
-        "pretend-mcq-08": "「假裝有興趣」是「pretend interest」的用法，與本句語境不同。",
-        "pretend-mcq-10": "「假設／假想」是「pretend (hypothetical)」的用法，與本句語境不同。",
-        "pretend-mcq-07": "「假裝不在乎」是「pretend not to care」的用法，與本句語境不同。",
-        "pretend-mcq-11": "「裝出來的；假的」是「pretended」的用法，與本句語境不同。",
-        "pretend-mcq-06": "「假裝不知道」是「pretend not to know」的用法，與本句語境不同。"
+        "pretend-mcq-09": "本句的「pretend play」指「假裝遊戲」。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-09"
     },
@@ -1149,11 +1039,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "pretend-mcq-18",
-        "pretend-mcq-17",
+        "pretend-mcq-08",
         "pretend-mcq-19",
-        "pretend-mcq-16",
-        "pretend-mcq-15",
-        "pretend-mcq-14"
+        "pretend-mcq-13"
       ],
       "explanation": "本句的「pretended to be a police officer」指「故意聲稱或表現成 X，尤其是在欺騙別人的情況下」。",
       "sentenceIndex": 23,
@@ -1162,12 +1050,10 @@ export default {
         "pretended to be a police officer"
       ],
       "optionReasons": {
-        "pretend-mcq-18": "本句指「故意聲稱或表現成 X，尤其是在欺騙別人的情況下」。",
-        "pretend-mcq-17": "「毫不假裝」是「make no pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-19": "「暫時假想 X 是真的，以便遊戲、討論或推理」是「20. pretend（想像某種假設情況） — 假設；假想」的用法，與本句語境不同。",
-        "pretend-mcq-16": "「虛假藉口／虛假表現」是「false pretence」的用法，與本句語境不同。",
-        "pretend-mcq-15": "「以……為藉口／名義」是「under the pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-14": "「不再假裝」是「drop the pretence」的用法，與本句語境不同。"
+        "pretend-mcq-18": "本句的「pretended to be a police officer」指「故意聲稱或表現成 X，尤其是在欺騙別人的情況下」。",
+        "pretend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-18"
     },
@@ -1179,11 +1065,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "pretend-mcq-18",
-        "pretend-mcq-17",
-        "pretend-mcq-19",
-        "pretend-mcq-16",
+        "pretend-mcq-04",
         "pretend-mcq-15",
-        "pretend-mcq-14"
+        "pretend-mcq-13"
       ],
       "explanation": "本句的「pretended to represent the company」指「故意聲稱或表現成 X，尤其是在欺騙別人的情況下」。",
       "sentenceIndex": 24,
@@ -1192,12 +1076,10 @@ export default {
         "pretended to represent the company"
       ],
       "optionReasons": {
-        "pretend-mcq-18": "本句指「故意聲稱或表現成 X，尤其是在欺騙別人的情況下」。",
-        "pretend-mcq-17": "「毫不假裝」是「make no pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-19": "「暫時假想 X 是真的，以便遊戲、討論或推理」是「20. pretend（想像某種假設情況） — 假設；假想」的用法，與本句語境不同。",
-        "pretend-mcq-16": "「虛假藉口／虛假表現」是「false pretence」的用法，與本句語境不同。",
-        "pretend-mcq-15": "「以……為藉口／名義」是「under the pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-14": "「不再假裝」是「drop the pretence」的用法，與本句語境不同。"
+        "pretend-mcq-18": "本句的「pretended to represent the company」指「故意聲稱或表現成 X，尤其是在欺騙別人的情況下」。",
+        "pretend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-18"
     },
@@ -1209,11 +1091,9 @@ export default {
       "masked": "He showed ____.",
       "options": [
         "pretend-mcq-11",
-        "pretend-mcq-10",
-        "pretend-mcq-12",
-        "pretend-mcq-09",
-        "pretend-mcq-13",
-        "pretend-mcq-08"
+        "pretend-mcq-15",
+        "pretend-mcq-18",
+        "pretend-mcq-13"
       ],
       "explanation": "本句的「pretended surprise」指「裝出來的；假的」。",
       "sentenceIndex": 25,
@@ -1222,12 +1102,10 @@ export default {
         "pretended surprise"
       ],
       "optionReasons": {
-        "pretend-mcq-11": "本句指「裝出來的；假的」。",
-        "pretend-mcq-10": "「假設／假想」是「pretend (hypothetical)」的用法，與本句語境不同。",
-        "pretend-mcq-12": "「假裝；假象」是「pretence/pretense」的用法，與本句語境不同。",
-        "pretend-mcq-09": "「假裝遊戲」是「pretend play」的用法，與本句語境不同。",
-        "pretend-mcq-13": "「繼續裝下去」是「keep up the pretence」的用法，與本句語境不同。",
-        "pretend-mcq-08": "「假裝有興趣」是「pretend interest」的用法，與本句語境不同。"
+        "pretend-mcq-11": "本句的「pretended surprise」指「裝出來的；假的」。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-11"
     },
@@ -1239,11 +1117,9 @@ export default {
       "masked": "Her concern seemed ____ rather than sincere.",
       "options": [
         "pretend-mcq-11",
-        "pretend-mcq-10",
-        "pretend-mcq-12",
-        "pretend-mcq-09",
-        "pretend-mcq-13",
-        "pretend-mcq-08"
+        "pretend-mcq-18",
+        "pretend-mcq-15",
+        "pretend-mcq-13"
       ],
       "explanation": "本句的「pretended」指「裝出來的；假的」。",
       "sentenceIndex": 26,
@@ -1252,12 +1128,10 @@ export default {
         "pretended"
       ],
       "optionReasons": {
-        "pretend-mcq-11": "本句指「裝出來的；假的」。",
-        "pretend-mcq-10": "「假設／假想」是「pretend (hypothetical)」的用法，與本句語境不同。",
-        "pretend-mcq-12": "「假裝；假象」是「pretence/pretense」的用法，與本句語境不同。",
-        "pretend-mcq-09": "「假裝遊戲」是「pretend play」的用法，與本句語境不同。",
-        "pretend-mcq-13": "「繼續裝下去」是「keep up the pretence」的用法，與本句語境不同。",
-        "pretend-mcq-08": "「假裝有興趣」是「pretend interest」的用法，與本句語境不同。"
+        "pretend-mcq-11": "本句的「pretended」指「裝出來的；假的」。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-11"
     },
@@ -1269,11 +1143,8 @@ export default {
       "masked": "He dropped the ____ that everything was fine.",
       "options": [
         "pretend-mcq-12",
-        "pretend-mcq-11",
-        "pretend-mcq-13",
-        "pretend-mcq-10",
-        "pretend-mcq-14",
-        "pretend-mcq-09"
+        "pretend-mcq-18",
+        "pretend-mcq-15"
       ],
       "explanation": "本句的「pretence」指「假裝；假象」。",
       "sentenceIndex": 27,
@@ -1282,12 +1153,9 @@ export default {
         "pretence"
       ],
       "optionReasons": {
-        "pretend-mcq-12": "本句指「假裝；假象」。",
-        "pretend-mcq-11": "「裝出來的；假的」是「pretended」的用法，與本句語境不同。",
-        "pretend-mcq-13": "「繼續裝下去」是「keep up the pretence」的用法，與本句語境不同。",
-        "pretend-mcq-10": "「假設／假想」是「pretend (hypothetical)」的用法，與本句語境不同。",
-        "pretend-mcq-14": "「不再假裝」是「drop the pretence」的用法，與本句語境不同。",
-        "pretend-mcq-09": "「假裝遊戲」是「pretend play」的用法，與本句語境不同。"
+        "pretend-mcq-12": "本句的「pretence」指「假裝；假象」。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-12"
     },
@@ -1299,11 +1167,8 @@ export default {
       "masked": "Her confidence was mostly a ____.",
       "options": [
         "pretend-mcq-12",
-        "pretend-mcq-11",
-        "pretend-mcq-13",
-        "pretend-mcq-10",
-        "pretend-mcq-14",
-        "pretend-mcq-09"
+        "pretend-mcq-18",
+        "pretend-mcq-15"
       ],
       "explanation": "本句的「pretence」指「假裝；假象」。",
       "sentenceIndex": 28,
@@ -1312,12 +1177,9 @@ export default {
         "pretence"
       ],
       "optionReasons": {
-        "pretend-mcq-12": "本句指「假裝；假象」。",
-        "pretend-mcq-11": "「裝出來的；假的」是「pretended」的用法，與本句語境不同。",
-        "pretend-mcq-13": "「繼續裝下去」是「keep up the pretence」的用法，與本句語境不同。",
-        "pretend-mcq-10": "「假設／假想」是「pretend (hypothetical)」的用法，與本句語境不同。",
-        "pretend-mcq-14": "「不再假裝」是「drop the pretence」的用法，與本句語境不同。",
-        "pretend-mcq-09": "「假裝遊戲」是「pretend play」的用法，與本句語境不同。"
+        "pretend-mcq-12": "本句的「pretence」指「假裝；假象」。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-12"
     },
@@ -1329,11 +1191,9 @@ export default {
       "masked": "He couldn't ____ any longer.",
       "options": [
         "pretend-mcq-13",
-        "pretend-mcq-12",
-        "pretend-mcq-14",
-        "pretend-mcq-11",
+        "pretend-mcq-19",
         "pretend-mcq-15",
-        "pretend-mcq-10"
+        "pretend-mcq-18"
       ],
       "explanation": "本句的「keep up the pretence」指「繼續裝下去」。",
       "sentenceIndex": 29,
@@ -1342,12 +1202,10 @@ export default {
         "keep up the pretence"
       ],
       "optionReasons": {
-        "pretend-mcq-13": "本句指「繼續裝下去」。",
-        "pretend-mcq-12": "「假裝；假象」是「pretence/pretense」的用法，與本句語境不同。",
-        "pretend-mcq-14": "「不再假裝」是「drop the pretence」的用法，與本句語境不同。",
-        "pretend-mcq-11": "「裝出來的；假的」是「pretended」的用法，與本句語境不同。",
-        "pretend-mcq-15": "「以……為藉口／名義」是「under the pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-10": "「假設／假想」是「pretend (hypothetical)」的用法，與本句語境不同。"
+        "pretend-mcq-13": "本句的「keep up the pretence」指「繼續裝下去」。",
+        "pretend-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-13"
     },
@@ -1359,11 +1217,9 @@ export default {
       "masked": "They ____ that nothing was wrong.",
       "options": [
         "pretend-mcq-13",
-        "pretend-mcq-12",
-        "pretend-mcq-14",
-        "pretend-mcq-11",
-        "pretend-mcq-15",
-        "pretend-mcq-10"
+        "pretend-mcq-18",
+        "pretend-mcq-19",
+        "pretend-mcq-15"
       ],
       "explanation": "本句的「kept up the pretence」指「繼續裝下去」。",
       "sentenceIndex": 30,
@@ -1372,12 +1228,10 @@ export default {
         "kept up the pretence"
       ],
       "optionReasons": {
-        "pretend-mcq-13": "本句指「繼續裝下去」。",
-        "pretend-mcq-12": "「假裝；假象」是「pretence/pretense」的用法，與本句語境不同。",
-        "pretend-mcq-14": "「不再假裝」是「drop the pretence」的用法，與本句語境不同。",
-        "pretend-mcq-11": "「裝出來的；假的」是「pretended」的用法，與本句語境不同。",
-        "pretend-mcq-15": "「以……為藉口／名義」是「under the pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-10": "「假設／假想」是「pretend (hypothetical)」的用法，與本句語境不同。"
+        "pretend-mcq-13": "本句的「kept up the pretence」指「繼續裝下去」。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-13"
     },
@@ -1389,11 +1243,8 @@ export default {
       "masked": "She finally ____ and admitted she was angry.",
       "options": [
         "pretend-mcq-14",
-        "pretend-mcq-13",
-        "pretend-mcq-15",
-        "pretend-mcq-12",
-        "pretend-mcq-16",
-        "pretend-mcq-11"
+        "pretend-mcq-18",
+        "pretend-mcq-15"
       ],
       "explanation": "本句的「dropped the pretence」指「不再假裝」。",
       "sentenceIndex": 31,
@@ -1402,12 +1253,9 @@ export default {
         "dropped the pretence"
       ],
       "optionReasons": {
-        "pretend-mcq-14": "本句指「不再假裝」。",
-        "pretend-mcq-13": "「繼續裝下去」是「keep up the pretence」的用法，與本句語境不同。",
-        "pretend-mcq-15": "「以……為藉口／名義」是「under the pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-12": "「假裝；假象」是「pretence/pretense」的用法，與本句語境不同。",
-        "pretend-mcq-16": "「虛假藉口／虛假表現」是「false pretence」的用法，與本句語境不同。",
-        "pretend-mcq-11": "「裝出來的；假的」是「pretended」的用法，與本句語境不同。"
+        "pretend-mcq-14": "本句的「dropped the pretence」指「不再假裝」。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-14"
     },
@@ -1419,11 +1267,8 @@ export default {
       "masked": "Let's ____ that the plan is working.",
       "options": [
         "pretend-mcq-14",
-        "pretend-mcq-13",
-        "pretend-mcq-15",
-        "pretend-mcq-12",
-        "pretend-mcq-16",
-        "pretend-mcq-11"
+        "pretend-mcq-18",
+        "pretend-mcq-15"
       ],
       "explanation": "本句的「drop the pretence」指「不再假裝」。",
       "sentenceIndex": 32,
@@ -1432,12 +1277,9 @@ export default {
         "drop the pretence"
       ],
       "optionReasons": {
-        "pretend-mcq-14": "本句指「不再假裝」。",
-        "pretend-mcq-13": "「繼續裝下去」是「keep up the pretence」的用法，與本句語境不同。",
-        "pretend-mcq-15": "「以……為藉口／名義」是「under the pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-12": "「假裝；假象」是「pretence/pretense」的用法，與本句語境不同。",
-        "pretend-mcq-16": "「虛假藉口／虛假表現」是「false pretence」的用法，與本句語境不同。",
-        "pretend-mcq-11": "「裝出來的；假的」是「pretended」的用法，與本句語境不同。"
+        "pretend-mcq-14": "本句的「drop the pretence」指「不再假裝」。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-14"
     },
@@ -1450,10 +1292,7 @@ export default {
       "options": [
         "pretend-mcq-15",
         "pretend-mcq-14",
-        "pretend-mcq-16",
-        "pretend-mcq-13",
-        "pretend-mcq-17",
-        "pretend-mcq-12"
+        "pretend-mcq-18"
       ],
       "explanation": "本句的「under the pretence of delivering a package」指「以……為藉口／名義」。",
       "sentenceIndex": 33,
@@ -1462,12 +1301,9 @@ export default {
         "under the pretence of delivering a package"
       ],
       "optionReasons": {
-        "pretend-mcq-15": "本句指「以……為藉口／名義」。",
-        "pretend-mcq-14": "「不再假裝」是「drop the pretence」的用法，與本句語境不同。",
-        "pretend-mcq-16": "「虛假藉口／虛假表現」是「false pretence」的用法，與本句語境不同。",
-        "pretend-mcq-13": "「繼續裝下去」是「keep up the pretence」的用法，與本句語境不同。",
-        "pretend-mcq-17": "「毫不假裝」是「make no pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-12": "「假裝；假象」是「pretence/pretense」的用法，與本句語境不同。"
+        "pretend-mcq-15": "本句的「under the pretence of delivering a package」指「以……為藉口／名義」。",
+        "pretend-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-15"
     },
@@ -1479,11 +1315,8 @@ export default {
       "masked": "She contacted him ____.",
       "options": [
         "pretend-mcq-15",
-        "pretend-mcq-14",
-        "pretend-mcq-16",
-        "pretend-mcq-13",
         "pretend-mcq-17",
-        "pretend-mcq-12"
+        "pretend-mcq-18"
       ],
       "explanation": "本句的「under the pretense of asking for advice」指「以……為藉口／名義」。",
       "sentenceIndex": 34,
@@ -1492,12 +1325,9 @@ export default {
         "under the pretense of asking for advice"
       ],
       "optionReasons": {
-        "pretend-mcq-15": "本句指「以……為藉口／名義」。",
-        "pretend-mcq-14": "「不再假裝」是「drop the pretence」的用法，與本句語境不同。",
-        "pretend-mcq-16": "「虛假藉口／虛假表現」是「false pretence」的用法，與本句語境不同。",
-        "pretend-mcq-13": "「繼續裝下去」是「keep up the pretence」的用法，與本句語境不同。",
-        "pretend-mcq-17": "「毫不假裝」是「make no pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-12": "「假裝；假象」是「pretence/pretense」的用法，與本句語境不同。"
+        "pretend-mcq-15": "本句的「under the pretense of asking for advice」指「以……為藉口／名義」。",
+        "pretend-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-15"
     },
@@ -1509,11 +1339,9 @@ export default {
       "masked": "He obtained the information under a ____.",
       "options": [
         "pretend-mcq-16",
-        "pretend-mcq-15",
-        "pretend-mcq-17",
-        "pretend-mcq-14",
-        "pretend-mcq-18",
-        "pretend-mcq-13"
+        "pretend-pdf-001",
+        "pretend-mcq-13",
+        "pretend-mcq-08"
       ],
       "explanation": "本句的「false pretence」指「虛假藉口／虛假表現」。",
       "sentenceIndex": 35,
@@ -1522,12 +1350,10 @@ export default {
         "false pretence"
       ],
       "optionReasons": {
-        "pretend-mcq-16": "本句指「虛假藉口／虛假表現」。",
-        "pretend-mcq-15": "「以……為藉口／名義」是「under the pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-17": "「毫不假裝」是「make no pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-14": "「不再假裝」是「drop the pretence」的用法，與本句語境不同。",
-        "pretend-mcq-18": "「故意聲稱或表現成 X，尤其是在欺騙別人的情況下」是「12. pretend（假稱；冒充） — 假稱；冒充」的用法，與本句語境不同。",
-        "pretend-mcq-13": "「繼續裝下去」是「keep up the pretence」的用法，與本句語境不同。"
+        "pretend-mcq-16": "本句的「false pretence」指「虛假藉口／虛假表現」。",
+        "pretend-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-16"
     },
@@ -1539,11 +1365,9 @@ export default {
       "masked": "They entered under ____.",
       "options": [
         "pretend-mcq-16",
-        "pretend-mcq-15",
-        "pretend-mcq-17",
-        "pretend-mcq-14",
-        "pretend-mcq-18",
-        "pretend-mcq-13"
+        "pretend-mcq-13",
+        "pretend-pdf-001",
+        "pretend-mcq-08"
       ],
       "explanation": "本句的「false pretenses」指「虛假藉口／虛假表現」。",
       "sentenceIndex": 36,
@@ -1552,12 +1376,10 @@ export default {
         "false pretenses"
       ],
       "optionReasons": {
-        "pretend-mcq-16": "本句指「虛假藉口／虛假表現」。",
-        "pretend-mcq-15": "「以……為藉口／名義」是「under the pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-17": "「毫不假裝」是「make no pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-14": "「不再假裝」是「drop the pretence」的用法，與本句語境不同。",
-        "pretend-mcq-18": "「故意聲稱或表現成 X，尤其是在欺騙別人的情況下」是「12. pretend（假稱；冒充） — 假稱；冒充」的用法，與本句語境不同。",
-        "pretend-mcq-13": "「繼續裝下去」是「keep up the pretence」的用法，與本句語境不同。"
+        "pretend-mcq-16": "本句的「false pretenses」指「虛假藉口／虛假表現」。",
+        "pretend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pretend-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-16"
     },
@@ -1569,11 +1391,8 @@ export default {
       "masked": "The book makes ____.",
       "options": [
         "pretend-mcq-17",
-        "pretend-mcq-16",
         "pretend-mcq-18",
-        "pretend-mcq-15",
-        "pretend-mcq-19",
-        "pretend-mcq-14"
+        "pretend-mcq-15"
       ],
       "explanation": "本句的「no pretence of being objective」指「毫不假裝」。",
       "sentenceIndex": 37,
@@ -1582,12 +1401,9 @@ export default {
         "no pretence of being objective"
       ],
       "optionReasons": {
-        "pretend-mcq-17": "本句指「毫不假裝」。",
-        "pretend-mcq-16": "「虛假藉口／虛假表現」是「false pretence」的用法，與本句語境不同。",
-        "pretend-mcq-18": "「故意聲稱或表現成 X，尤其是在欺騙別人的情況下」是「12. pretend（假稱；冒充） — 假稱；冒充」的用法，與本句語境不同。",
-        "pretend-mcq-15": "「以……為藉口／名義」是「under the pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-19": "「暫時假想 X 是真的，以便遊戲、討論或推理」是「20. pretend（想像某種假設情況） — 假設；假想」的用法，與本句語境不同。",
-        "pretend-mcq-14": "「不再假裝」是「drop the pretence」的用法，與本句語境不同。"
+        "pretend-mcq-17": "本句的「no pretence of being objective」指「毫不假裝」。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-17"
     },
@@ -1599,11 +1415,8 @@ export default {
       "masked": "He made ____.",
       "options": [
         "pretend-mcq-17",
-        "pretend-mcq-16",
-        "pretend-mcq-18",
         "pretend-mcq-15",
-        "pretend-mcq-19",
-        "pretend-mcq-14"
+        "pretend-mcq-18"
       ],
       "explanation": "本句的「no pretence of liking the decision」指「毫不假裝」。",
       "sentenceIndex": 38,
@@ -1612,12 +1425,9 @@ export default {
         "no pretence of liking the decision"
       ],
       "optionReasons": {
-        "pretend-mcq-17": "本句指「毫不假裝」。",
-        "pretend-mcq-16": "「虛假藉口／虛假表現」是「false pretence」的用法，與本句語境不同。",
-        "pretend-mcq-18": "「故意聲稱或表現成 X，尤其是在欺騙別人的情況下」是「12. pretend（假稱；冒充） — 假稱；冒充」的用法，與本句語境不同。",
-        "pretend-mcq-15": "「以……為藉口／名義」是「under the pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-19": "「暫時假想 X 是真的，以便遊戲、討論或推理」是「20. pretend（想像某種假設情況） — 假設；假想」的用法，與本句語境不同。",
-        "pretend-mcq-14": "「不再假裝」是「drop the pretence」的用法，與本句語境不同。"
+        "pretend-mcq-17": "本句的「no pretence of liking the decision」指「毫不假裝」。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-17"
     },
@@ -1630,10 +1440,8 @@ export default {
       "options": [
         "pretend-mcq-19",
         "pretend-mcq-18",
-        "pretend-mcq-17",
-        "pretend-mcq-16",
         "pretend-mcq-15",
-        "pretend-mcq-14"
+        "pretend-mcq-13"
       ],
       "explanation": "本句的「Pretend」指「暫時假想 X 是真的，以便遊戲、討論或推理」。",
       "sentenceIndex": 39,
@@ -1642,12 +1450,10 @@ export default {
         "Pretend"
       ],
       "optionReasons": {
-        "pretend-mcq-19": "本句指「暫時假想 X 是真的，以便遊戲、討論或推理」。",
-        "pretend-mcq-18": "「故意聲稱或表現成 X，尤其是在欺騙別人的情況下」是「12. pretend（假稱；冒充） — 假稱；冒充」的用法，與本句語境不同。",
-        "pretend-mcq-17": "「毫不假裝」是「make no pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-16": "「虛假藉口／虛假表現」是「false pretence」的用法，與本句語境不同。",
-        "pretend-mcq-15": "「以……為藉口／名義」是「under the pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-14": "「不再假裝」是「drop the pretence」的用法，與本句語境不同。"
+        "pretend-mcq-19": "本句的「Pretend」指「暫時假想 X 是真的，以便遊戲、討論或推理」。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-19"
     },
@@ -1659,11 +1465,9 @@ export default {
       "masked": "Let's ____ the deadline is tomorrow.",
       "options": [
         "pretend-mcq-19",
+        "pretend-mcq-13",
         "pretend-mcq-18",
-        "pretend-mcq-17",
-        "pretend-mcq-16",
-        "pretend-mcq-15",
-        "pretend-mcq-14"
+        "pretend-mcq-15"
       ],
       "explanation": "本句的「pretend」指「暫時假想 X 是真的，以便遊戲、討論或推理」。",
       "sentenceIndex": 40,
@@ -1672,12 +1476,10 @@ export default {
         "pretend"
       ],
       "optionReasons": {
-        "pretend-mcq-19": "本句指「暫時假想 X 是真的，以便遊戲、討論或推理」。",
-        "pretend-mcq-18": "「故意聲稱或表現成 X，尤其是在欺騙別人的情況下」是「12. pretend（假稱；冒充） — 假稱；冒充」的用法，與本句語境不同。",
-        "pretend-mcq-17": "「毫不假裝」是「make no pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-16": "「虛假藉口／虛假表現」是「false pretence」的用法，與本句語境不同。",
-        "pretend-mcq-15": "「以……為藉口／名義」是「under the pretence of」的用法，與本句語境不同。",
-        "pretend-mcq-14": "「不再假裝」是「drop the pretence」的用法，與本句語境不同。"
+        "pretend-mcq-19": "本句的「pretend」指「暫時假想 X 是真的，以便遊戲、討論或推理」。",
+        "pretend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pretend-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pretend-mcq-19"
     }
@@ -1689,5 +1491,7 @@ export default {
     "sha256": "a1cd4e4f7e69103367c5afeb77bee2622e1ccefe1df48a35ab753a3c4ded71d6",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

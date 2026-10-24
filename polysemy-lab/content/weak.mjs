@@ -547,11 +547,9 @@ export default {
       "masked": "He never made ____ feel small.",
       "options": [
         "weak-mcq-01",
-        "weak-mcq-02",
-        "weak-mcq-03",
-        "weak-mcq-04",
-        "weak-mcq-05",
-        "weak-mcq-06"
+        "weak-mcq-10",
+        "weak-mcq-22",
+        "weak-mcq-11"
       ],
       "explanation": "本句的「weaker students」指「能力較弱的學生」。",
       "sentenceIndex": 0,
@@ -560,12 +558,10 @@ export default {
         "weaker students"
       ],
       "optionReasons": {
-        "weak-mcq-01": "本句指「能力較弱的學生」。",
-        "weak-mcq-02": "「X 較弱」是「weak at/in X」的用法，與本句語境不同。",
-        "weak-mcq-03": "「虛弱的人」是「weak person」的用法，與本句語境不同。",
-        "weak-mcq-04": "「無力肌肉」是「weak muscles」的用法，與本句語境不同。",
-        "weak-mcq-05": "「微弱／無力聲音」是「weak voice」的用法，與本句語境不同。",
-        "weak-mcq-06": "「微弱訊號」是「weak signal」的用法，與本句語境不同。"
+        "weak-mcq-01": "本句的「weaker students」指「能力較弱的學生」。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-01"
     },
@@ -577,11 +573,9 @@ export default {
       "masked": "The teacher gave extra support to ____.",
       "options": [
         "weak-mcq-01",
-        "weak-mcq-02",
-        "weak-mcq-03",
-        "weak-mcq-04",
-        "weak-mcq-05",
-        "weak-mcq-06"
+        "weak-mcq-14",
+        "weak-mcq-10",
+        "weak-mcq-11"
       ],
       "explanation": "本句的「weaker students」指「能力較弱的學生」。",
       "sentenceIndex": 1,
@@ -590,12 +584,10 @@ export default {
         "weaker students"
       ],
       "optionReasons": {
-        "weak-mcq-01": "本句指「能力較弱的學生」。",
-        "weak-mcq-02": "「X 較弱」是「weak at/in X」的用法，與本句語境不同。",
-        "weak-mcq-03": "「虛弱的人」是「weak person」的用法，與本句語境不同。",
-        "weak-mcq-04": "「無力肌肉」是「weak muscles」的用法，與本句語境不同。",
-        "weak-mcq-05": "「微弱／無力聲音」是「weak voice」的用法，與本句語境不同。",
-        "weak-mcq-06": "「微弱訊號」是「weak signal」的用法，與本句語境不同。"
+        "weak-mcq-01": "本句的「weaker students」指「能力較弱的學生」。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-01"
     },
@@ -607,11 +599,9 @@ export default {
       "masked": "She was ____ but strong in languages.",
       "options": [
         "weak-mcq-01",
-        "weak-mcq-02",
-        "weak-mcq-03",
-        "weak-mcq-04",
-        "weak-mcq-05",
-        "weak-mcq-06"
+        "weak-mcq-22",
+        "weak-mcq-14",
+        "weak-mcq-11"
       ],
       "explanation": "本句的「weak in mathematics」指「能力較弱的學生」。",
       "sentenceIndex": 2,
@@ -620,12 +610,10 @@ export default {
         "weak in mathematics"
       ],
       "optionReasons": {
-        "weak-mcq-01": "本句指「能力較弱的學生」。",
-        "weak-mcq-02": "「X 較弱」是「weak at/in X」的用法，與本句語境不同。",
-        "weak-mcq-03": "「虛弱的人」是「weak person」的用法，與本句語境不同。",
-        "weak-mcq-04": "「無力肌肉」是「weak muscles」的用法，與本句語境不同。",
-        "weak-mcq-05": "「微弱／無力聲音」是「weak voice」的用法，與本句語境不同。",
-        "weak-mcq-06": "「微弱訊號」是「weak signal」的用法，與本句語境不同。"
+        "weak-mcq-01": "本句的「weak in mathematics」指「能力較弱的學生」。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-01"
     },
@@ -637,11 +625,9 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "weak-mcq-02",
-        "weak-mcq-01",
-        "weak-mcq-03",
-        "weak-mcq-04",
-        "weak-mcq-05",
-        "weak-mcq-06"
+        "weak-mcq-23",
+        "weak-mcq-10",
+        "weak-mcq-14"
       ],
       "explanation": "本句的「weak at spelling」指「X 較弱」。",
       "sentenceIndex": 3,
@@ -650,12 +636,10 @@ export default {
         "weak at spelling"
       ],
       "optionReasons": {
-        "weak-mcq-02": "本句指「X 較弱」。",
-        "weak-mcq-01": "「能力較弱的學生」是「weak student」的用法，與本句語境不同。",
-        "weak-mcq-03": "「虛弱的人」是「weak person」的用法，與本句語境不同。",
-        "weak-mcq-04": "「無力肌肉」是「weak muscles」的用法，與本句語境不同。",
-        "weak-mcq-05": "「微弱／無力聲音」是「weak voice」的用法，與本句語境不同。",
-        "weak-mcq-06": "「微弱訊號」是「weak signal」的用法，與本句語境不同。"
+        "weak-mcq-02": "本句的「weak at spelling」指「X 較弱」。",
+        "weak-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-02"
     },
@@ -667,11 +651,9 @@ export default {
       "masked": "He is ____.",
       "options": [
         "weak-mcq-02",
-        "weak-mcq-01",
-        "weak-mcq-03",
-        "weak-mcq-04",
-        "weak-mcq-05",
-        "weak-mcq-06"
+        "weak-mcq-23",
+        "weak-mcq-14",
+        "weak-mcq-11"
       ],
       "explanation": "本句的「weak in science」指「X 較弱」。",
       "sentenceIndex": 4,
@@ -680,12 +662,10 @@ export default {
         "weak in science"
       ],
       "optionReasons": {
-        "weak-mcq-02": "本句指「X 較弱」。",
-        "weak-mcq-01": "「能力較弱的學生」是「weak student」的用法，與本句語境不同。",
-        "weak-mcq-03": "「虛弱的人」是「weak person」的用法，與本句語境不同。",
-        "weak-mcq-04": "「無力肌肉」是「weak muscles」的用法，與本句語境不同。",
-        "weak-mcq-05": "「微弱／無力聲音」是「weak voice」的用法，與本句語境不同。",
-        "weak-mcq-06": "「微弱訊號」是「weak signal」的用法，與本句語境不同。"
+        "weak-mcq-02": "本句的「weak in science」指「X 較弱」。",
+        "weak-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-02"
     },
@@ -697,11 +677,9 @@ export default {
       "masked": "She felt ____ after being ill.",
       "options": [
         "weak-mcq-21",
-        "weak-mcq-20",
+        "weak-mcq-02",
         "weak-mcq-22",
-        "weak-mcq-19",
-        "weak-mcq-23",
-        "weak-mcq-18"
+        "weak-mcq-11"
       ],
       "explanation": "本句的「weak」指「身體缺乏力量、體力或能量的」。",
       "sentenceIndex": 5,
@@ -710,12 +688,10 @@ export default {
         "weak"
       ],
       "optionReasons": {
-        "weak-mcq-21": "本句指「身體缺乏力量、體力或能量的」。",
-        "weak-mcq-20": "「虛弱地」是「weakly」的用法，與本句語境不同。",
-        "weak-mcq-22": "「特別喜歡某物，往往很難抗拒」是「19. have a weakness for something — 特別喜愛；難以抗拒」的用法，與本句語境不同。",
-        "weak-mcq-19": "「變弱」是「weaken」的用法，與本句語境不同。",
-        "weak-mcq-23": "「令某物失去部分力量、效果或影響力」是「20. weaken something — 削弱某物」的用法，與本句語境不同。",
-        "weak-mcq-18": "「削弱 X」是「weaken X」的用法，與本句語境不同。"
+        "weak-mcq-21": "本句的「weak」指「身體缺乏力量、體力或能量的」。",
+        "weak-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-21"
     },
@@ -727,11 +703,9 @@ export default {
       "masked": "His legs were too ____ to support him.",
       "options": [
         "weak-mcq-21",
-        "weak-mcq-20",
-        "weak-mcq-22",
-        "weak-mcq-19",
-        "weak-mcq-23",
-        "weak-mcq-18"
+        "weak-mcq-16",
+        "weak-mcq-11",
+        "weak-mcq-14"
       ],
       "explanation": "本句的「weak」指「身體缺乏力量、體力或能量的」。",
       "sentenceIndex": 6,
@@ -740,12 +714,10 @@ export default {
         "weak"
       ],
       "optionReasons": {
-        "weak-mcq-21": "本句指「身體缺乏力量、體力或能量的」。",
-        "weak-mcq-20": "「虛弱地」是「weakly」的用法，與本句語境不同。",
-        "weak-mcq-22": "「特別喜歡某物，往往很難抗拒」是「19. have a weakness for something — 特別喜愛；難以抗拒」的用法，與本句語境不同。",
-        "weak-mcq-19": "「變弱」是「weaken」的用法，與本句語境不同。",
-        "weak-mcq-23": "「令某物失去部分力量、效果或影響力」是「20. weaken something — 削弱某物」的用法，與本句語境不同。",
-        "weak-mcq-18": "「削弱 X」是「weaken X」的用法，與本句語境不同。"
+        "weak-mcq-21": "本句的「weak」指「身體缺乏力量、體力或能量的」。",
+        "weak-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-21"
     },
@@ -757,11 +729,9 @@ export default {
       "masked": "Regular exercise can strengthen ____.",
       "options": [
         "weak-mcq-04",
-        "weak-mcq-03",
-        "weak-mcq-05",
-        "weak-mcq-02",
-        "weak-mcq-06",
-        "weak-mcq-01"
+        "weak-mcq-20",
+        "weak-pdf-001",
+        "weak-mcq-10"
       ],
       "explanation": "本句的「weak muscles」指「無力肌肉」。",
       "sentenceIndex": 7,
@@ -770,12 +740,10 @@ export default {
         "weak muscles"
       ],
       "optionReasons": {
-        "weak-mcq-04": "本句指「無力肌肉」。",
-        "weak-mcq-03": "「虛弱的人」是「weak person」的用法，與本句語境不同。",
-        "weak-mcq-05": "「微弱／無力聲音」是「weak voice」的用法，與本句語境不同。",
-        "weak-mcq-02": "「X 較弱」是「weak at/in X」的用法，與本句語境不同。",
-        "weak-mcq-06": "「微弱訊號」是「weak signal」的用法，與本句語境不同。",
-        "weak-mcq-01": "「能力較弱的學生」是「weak student」的用法，與本句語境不同。"
+        "weak-mcq-04": "本句的「weak muscles」指「無力肌肉」。",
+        "weak-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "weak-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-04"
     },
@@ -787,11 +755,9 @@ export default {
       "masked": "His body was still ____ after the operation.",
       "options": [
         "weak-mcq-04",
-        "weak-mcq-03",
-        "weak-mcq-05",
-        "weak-mcq-02",
-        "weak-mcq-06",
-        "weak-mcq-01"
+        "weak-mcq-15",
+        "weak-pdf-001",
+        "weak-mcq-11"
       ],
       "explanation": "本句的「weak」指「無力肌肉」。",
       "sentenceIndex": 8,
@@ -800,12 +766,10 @@ export default {
         "weak"
       ],
       "optionReasons": {
-        "weak-mcq-04": "本句指「無力肌肉」。",
-        "weak-mcq-03": "「虛弱的人」是「weak person」的用法，與本句語境不同。",
-        "weak-mcq-05": "「微弱／無力聲音」是「weak voice」的用法，與本句語境不同。",
-        "weak-mcq-02": "「X 較弱」是「weak at/in X」的用法，與本句語境不同。",
-        "weak-mcq-06": "「微弱訊號」是「weak signal」的用法，與本句語境不同。",
-        "weak-mcq-01": "「能力較弱的學生」是「weak student」的用法，與本句語境不同。"
+        "weak-mcq-04": "本句的「weak」指「無力肌肉」。",
+        "weak-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "weak-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-04"
     },
@@ -817,11 +781,9 @@ export default {
       "masked": "She answered in a ____.",
       "options": [
         "weak-mcq-05",
-        "weak-mcq-04",
-        "weak-mcq-06",
-        "weak-mcq-03",
-        "weak-mcq-07",
-        "weak-mcq-02"
+        "weak-mcq-22",
+        "weak-mcq-11",
+        "weak-pdf-001"
       ],
       "explanation": "本句的「weak voice」指「微弱／無力聲音」。",
       "sentenceIndex": 9,
@@ -830,12 +792,10 @@ export default {
         "weak voice"
       ],
       "optionReasons": {
-        "weak-mcq-05": "本句指「微弱／無力聲音」。",
-        "weak-mcq-04": "「無力肌肉」是「weak muscles」的用法，與本句語境不同。",
-        "weak-mcq-06": "「微弱訊號」是「weak signal」的用法，與本句語境不同。",
-        "weak-mcq-03": "「虛弱的人」是「weak person」的用法，與本句語境不同。",
-        "weak-mcq-07": "「微弱光線」是「weak light」的用法，與本句語境不同。",
-        "weak-mcq-02": "「X 較弱」是「weak at/in X」的用法，與本句語境不同。"
+        "weak-mcq-05": "本句的「weak voice」指「微弱／無力聲音」。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "weak-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-05"
     },
@@ -847,11 +807,9 @@ export default {
       "masked": "His voice sounded ____.",
       "options": [
         "weak-mcq-05",
-        "weak-mcq-04",
-        "weak-mcq-06",
-        "weak-mcq-03",
-        "weak-mcq-07",
-        "weak-mcq-02"
+        "weak-mcq-22",
+        "weak-pdf-001",
+        "weak-mcq-14"
       ],
       "explanation": "本句的「weak and tired」指「微弱／無力聲音」。",
       "sentenceIndex": 10,
@@ -860,12 +818,10 @@ export default {
         "weak and tired"
       ],
       "optionReasons": {
-        "weak-mcq-05": "本句指「微弱／無力聲音」。",
-        "weak-mcq-04": "「無力肌肉」是「weak muscles」的用法，與本句語境不同。",
-        "weak-mcq-06": "「微弱訊號」是「weak signal」的用法，與本句語境不同。",
-        "weak-mcq-03": "「虛弱的人」是「weak person」的用法，與本句語境不同。",
-        "weak-mcq-07": "「微弱光線」是「weak light」的用法，與本句語境不同。",
-        "weak-mcq-02": "「X 較弱」是「weak at/in X」的用法，與本句語境不同。"
+        "weak-mcq-05": "本句的「weak and tired」指「微弱／無力聲音」。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "weak-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-05"
     },
@@ -877,11 +833,9 @@ export default {
       "masked": "The phone has a ____ here.",
       "options": [
         "weak-mcq-06",
-        "weak-mcq-05",
-        "weak-mcq-07",
-        "weak-mcq-04",
-        "weak-mcq-08",
-        "weak-mcq-03"
+        "weak-mcq-22",
+        "weak-mcq-11",
+        "weak-mcq-14"
       ],
       "explanation": "本句的「weak signal」指「微弱訊號」。",
       "sentenceIndex": 11,
@@ -890,12 +844,10 @@ export default {
         "weak signal"
       ],
       "optionReasons": {
-        "weak-mcq-06": "本句指「微弱訊號」。",
-        "weak-mcq-05": "「微弱／無力聲音」是「weak voice」的用法，與本句語境不同。",
-        "weak-mcq-07": "「微弱光線」是「weak light」的用法，與本句語境不同。",
-        "weak-mcq-04": "「無力肌肉」是「weak muscles」的用法，與本句語境不同。",
-        "weak-mcq-08": "「薄弱論點」是「weak argument」的用法，與本句語境不同。",
-        "weak-mcq-03": "「虛弱的人」是「weak person」的用法，與本句語境不同。"
+        "weak-mcq-06": "本句的「weak signal」指「微弱訊號」。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-06"
     },
@@ -907,11 +859,9 @@ export default {
       "masked": "We lost the connection because of a ____.",
       "options": [
         "weak-mcq-06",
-        "weak-mcq-05",
-        "weak-mcq-07",
-        "weak-mcq-04",
-        "weak-mcq-08",
-        "weak-mcq-03"
+        "weak-mcq-21",
+        "weak-mcq-22",
+        "weak-mcq-14"
       ],
       "explanation": "本句的「weak signal」指「微弱訊號」。",
       "sentenceIndex": 12,
@@ -920,12 +870,10 @@ export default {
         "weak signal"
       ],
       "optionReasons": {
-        "weak-mcq-06": "本句指「微弱訊號」。",
-        "weak-mcq-05": "「微弱／無力聲音」是「weak voice」的用法，與本句語境不同。",
-        "weak-mcq-07": "「微弱光線」是「weak light」的用法，與本句語境不同。",
-        "weak-mcq-04": "「無力肌肉」是「weak muscles」的用法，與本句語境不同。",
-        "weak-mcq-08": "「薄弱論點」是「weak argument」的用法，與本句語境不同。",
-        "weak-mcq-03": "「虛弱的人」是「weak person」的用法，與本句語境不同。"
+        "weak-mcq-06": "本句的「weak signal」指「微弱訊號」。",
+        "weak-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-06"
     },
@@ -937,11 +885,9 @@ export default {
       "masked": "A ____ came through the window.",
       "options": [
         "weak-mcq-07",
-        "weak-mcq-06",
-        "weak-mcq-08",
-        "weak-mcq-05",
-        "weak-mcq-09",
-        "weak-mcq-04"
+        "weak-mcq-14",
+        "weak-mcq-11",
+        "weak-mcq-23"
       ],
       "explanation": "本句的「weak light」指「微弱光線」。",
       "sentenceIndex": 13,
@@ -950,12 +896,10 @@ export default {
         "weak light"
       ],
       "optionReasons": {
-        "weak-mcq-07": "本句指「微弱光線」。",
-        "weak-mcq-06": "「微弱訊號」是「weak signal」的用法，與本句語境不同。",
-        "weak-mcq-08": "「薄弱論點」是「weak argument」的用法，與本句語境不同。",
-        "weak-mcq-05": "「微弱／無力聲音」是「weak voice」的用法，與本句語境不同。",
-        "weak-mcq-09": "「薄弱證據」是「weak evidence」的用法，與本句語境不同。",
-        "weak-mcq-04": "「無力肌肉」是「weak muscles」的用法，與本句語境不同。"
+        "weak-mcq-07": "本句的「weak light」指「微弱光線」。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-07"
     },
@@ -967,11 +911,9 @@ export default {
       "masked": "The lamp gave off a ____.",
       "options": [
         "weak-mcq-07",
-        "weak-mcq-06",
-        "weak-mcq-08",
-        "weak-mcq-05",
-        "weak-mcq-09",
-        "weak-mcq-04"
+        "weak-mcq-22",
+        "weak-mcq-23",
+        "weak-mcq-10"
       ],
       "explanation": "本句的「weak glow」指「微弱光線」。",
       "sentenceIndex": 14,
@@ -980,12 +922,10 @@ export default {
         "weak glow"
       ],
       "optionReasons": {
-        "weak-mcq-07": "本句指「微弱光線」。",
-        "weak-mcq-06": "「微弱訊號」是「weak signal」的用法，與本句語境不同。",
-        "weak-mcq-08": "「薄弱論點」是「weak argument」的用法，與本句語境不同。",
-        "weak-mcq-05": "「微弱／無力聲音」是「weak voice」的用法，與本句語境不同。",
-        "weak-mcq-09": "「薄弱證據」是「weak evidence」的用法，與本句語境不同。",
-        "weak-mcq-04": "「無力肌肉」是「weak muscles」的用法，與本句語境不同。"
+        "weak-mcq-07": "本句的「weak glow」指「微弱光線」。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-07"
     },
@@ -997,11 +937,9 @@ export default {
       "masked": "That's a ____.",
       "options": [
         "weak-mcq-08",
-        "weak-mcq-07",
-        "weak-mcq-09",
-        "weak-mcq-06",
-        "weak-mcq-10",
-        "weak-mcq-05"
+        "weak-mcq-23",
+        "weak-mcq-11",
+        "weak-mcq-10"
       ],
       "explanation": "本句的「weak argument」指「薄弱論點」。",
       "sentenceIndex": 15,
@@ -1010,12 +948,10 @@ export default {
         "weak argument"
       ],
       "optionReasons": {
-        "weak-mcq-08": "本句指「薄弱論點」。",
-        "weak-mcq-07": "「微弱光線」是「weak light」的用法，與本句語境不同。",
-        "weak-mcq-09": "「薄弱證據」是「weak evidence」的用法，與本句語境不同。",
-        "weak-mcq-06": "「微弱訊號」是「weak signal」的用法，與本句語境不同。",
-        "weak-mcq-10": "「牽強藉口」是「weak excuse」的用法，與本句語境不同。",
-        "weak-mcq-05": "「微弱／無力聲音」是「weak voice」的用法，與本句語境不同。"
+        "weak-mcq-08": "本句的「weak argument」指「薄弱論點」。",
+        "weak-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-08"
     },
@@ -1027,11 +963,9 @@ export default {
       "masked": "His argument was ____ because it lacked evidence.",
       "options": [
         "weak-mcq-08",
-        "weak-mcq-07",
-        "weak-mcq-09",
-        "weak-mcq-06",
-        "weak-mcq-10",
-        "weak-mcq-05"
+        "weak-mcq-04",
+        "weak-pdf-001",
+        "weak-mcq-22"
       ],
       "explanation": "本句的「weak」指「薄弱論點」。",
       "sentenceIndex": 16,
@@ -1040,12 +974,10 @@ export default {
         "weak"
       ],
       "optionReasons": {
-        "weak-mcq-08": "本句指「薄弱論點」。",
-        "weak-mcq-07": "「微弱光線」是「weak light」的用法，與本句語境不同。",
-        "weak-mcq-09": "「薄弱證據」是「weak evidence」的用法，與本句語境不同。",
-        "weak-mcq-06": "「微弱訊號」是「weak signal」的用法，與本句語境不同。",
-        "weak-mcq-10": "「牽強藉口」是「weak excuse」的用法，與本句語境不同。",
-        "weak-mcq-05": "「微弱／無力聲音」是「weak voice」的用法，與本句語境不同。"
+        "weak-mcq-08": "本句的「weak」指「薄弱論點」。",
+        "weak-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "weak-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-08"
     },
@@ -1057,11 +989,9 @@ export default {
       "masked": "The claim is based on ____.",
       "options": [
         "weak-mcq-09",
-        "weak-mcq-08",
-        "weak-mcq-10",
-        "weak-mcq-07",
-        "weak-mcq-11",
-        "weak-mcq-06"
+        "weak-mcq-23",
+        "weak-mcq-04",
+        "weak-mcq-14"
       ],
       "explanation": "本句的「weak evidence」指「薄弱證據」。",
       "sentenceIndex": 17,
@@ -1070,12 +1000,10 @@ export default {
         "weak evidence"
       ],
       "optionReasons": {
-        "weak-mcq-09": "本句指「薄弱證據」。",
-        "weak-mcq-08": "「薄弱論點」是「weak argument」的用法，與本句語境不同。",
-        "weak-mcq-10": "「牽強藉口」是「weak excuse」的用法，與本句語境不同。",
-        "weak-mcq-07": "「微弱光線」是「weak light」的用法，與本句語境不同。",
-        "weak-mcq-11": "「表現欠佳」是「weak performance」的用法，與本句語境不同。",
-        "weak-mcq-06": "「微弱訊號」是「weak signal」的用法，與本句語境不同。"
+        "weak-mcq-09": "本句的「weak evidence」指「薄弱證據」。",
+        "weak-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-09"
     },
@@ -1087,11 +1015,9 @@ export default {
       "masked": "The case against him was ____.",
       "options": [
         "weak-mcq-09",
-        "weak-mcq-08",
-        "weak-mcq-10",
-        "weak-mcq-07",
-        "weak-mcq-11",
-        "weak-mcq-06"
+        "weak-pdf-001",
+        "weak-mcq-04",
+        "weak-mcq-10"
       ],
       "explanation": "本句的「weak」指「薄弱證據」。",
       "sentenceIndex": 18,
@@ -1100,12 +1026,10 @@ export default {
         "weak"
       ],
       "optionReasons": {
-        "weak-mcq-09": "本句指「薄弱證據」。",
-        "weak-mcq-08": "「薄弱論點」是「weak argument」的用法，與本句語境不同。",
-        "weak-mcq-10": "「牽強藉口」是「weak excuse」的用法，與本句語境不同。",
-        "weak-mcq-07": "「微弱光線」是「weak light」的用法，與本句語境不同。",
-        "weak-mcq-11": "「表現欠佳」是「weak performance」的用法，與本句語境不同。",
-        "weak-mcq-06": "「微弱訊號」是「weak signal」的用法，與本句語境不同。"
+        "weak-mcq-09": "本句的「weak」指「薄弱證據」。",
+        "weak-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-09"
     },
@@ -1117,11 +1041,9 @@ export default {
       "masked": "That was a ____.",
       "options": [
         "weak-mcq-10",
-        "weak-mcq-09",
-        "weak-mcq-11",
-        "weak-mcq-08",
-        "weak-mcq-12",
-        "weak-mcq-07"
+        "weak-mcq-15",
+        "weak-mcq-14",
+        "weak-mcq-23"
       ],
       "explanation": "本句的「weak excuse」指「牽強藉口」。",
       "sentenceIndex": 19,
@@ -1130,12 +1052,10 @@ export default {
         "weak excuse"
       ],
       "optionReasons": {
-        "weak-mcq-10": "本句指「牽強藉口」。",
-        "weak-mcq-09": "「薄弱證據」是「weak evidence」的用法，與本句語境不同。",
-        "weak-mcq-11": "「表現欠佳」是「weak performance」的用法，與本句語境不同。",
-        "weak-mcq-08": "「薄弱論點」是「weak argument」的用法，與本句語境不同。",
-        "weak-mcq-12": "「疲弱經濟」是「weak economy」的用法，與本句語境不同。",
-        "weak-mcq-07": "「微弱光線」是「weak light」的用法，與本句語境不同。"
+        "weak-mcq-10": "本句的「weak excuse」指「牽強藉口」。",
+        "weak-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-10"
     },
@@ -1147,11 +1067,9 @@ export default {
       "masked": "Her explanation sounded ____.",
       "options": [
         "weak-mcq-10",
-        "weak-mcq-09",
-        "weak-mcq-11",
-        "weak-mcq-08",
+        "weak-mcq-05",
         "weak-mcq-12",
-        "weak-mcq-07"
+        "weak-mcq-09"
       ],
       "explanation": "本句的「weak」指「牽強藉口」。",
       "sentenceIndex": 20,
@@ -1160,12 +1078,10 @@ export default {
         "weak"
       ],
       "optionReasons": {
-        "weak-mcq-10": "本句指「牽強藉口」。",
-        "weak-mcq-09": "「薄弱證據」是「weak evidence」的用法，與本句語境不同。",
-        "weak-mcq-11": "「表現欠佳」是「weak performance」的用法，與本句語境不同。",
-        "weak-mcq-08": "「薄弱論點」是「weak argument」的用法，與本句語境不同。",
-        "weak-mcq-12": "「疲弱經濟」是「weak economy」的用法，與本句語境不同。",
-        "weak-mcq-07": "「微弱光線」是「weak light」的用法，與本句語境不同。"
+        "weak-mcq-10": "本句的「weak」指「牽強藉口」。",
+        "weak-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-10"
     },
@@ -1177,11 +1093,9 @@ export default {
       "masked": "The team gave a ____.",
       "options": [
         "weak-mcq-11",
-        "weak-mcq-10",
         "weak-mcq-12",
-        "weak-mcq-09",
-        "weak-mcq-13",
-        "weak-mcq-08"
+        "weak-mcq-10",
+        "weak-mcq-04"
       ],
       "explanation": "本句的「weak performance」指「表現欠佳」。",
       "sentenceIndex": 21,
@@ -1190,12 +1104,10 @@ export default {
         "weak performance"
       ],
       "optionReasons": {
-        "weak-mcq-11": "本句指「表現欠佳」。",
-        "weak-mcq-10": "「牽強藉口」是「weak excuse」的用法，與本句語境不同。",
-        "weak-mcq-12": "「疲弱經濟」是「weak economy」的用法，與本句語境不同。",
-        "weak-mcq-09": "「薄弱證據」是「weak evidence」的用法，與本句語境不同。",
-        "weak-mcq-13": "「疲弱貨幣」是「weak currency」的用法，與本句語境不同。",
-        "weak-mcq-08": "「薄弱論點」是「weak argument」的用法，與本句語境不同。"
+        "weak-mcq-11": "本句的「weak performance」指「表現欠佳」。",
+        "weak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-11"
     },
@@ -1207,11 +1119,9 @@ export default {
       "masked": "Sales were ____ this month.",
       "options": [
         "weak-mcq-11",
+        "weak-mcq-19",
         "weak-mcq-10",
-        "weak-mcq-12",
-        "weak-mcq-09",
-        "weak-mcq-13",
-        "weak-mcq-08"
+        "weak-mcq-23"
       ],
       "explanation": "本句的「weak」指「表現欠佳」。",
       "sentenceIndex": 22,
@@ -1220,12 +1130,10 @@ export default {
         "weak"
       ],
       "optionReasons": {
-        "weak-mcq-11": "本句指「表現欠佳」。",
-        "weak-mcq-10": "「牽強藉口」是「weak excuse」的用法，與本句語境不同。",
-        "weak-mcq-12": "「疲弱經濟」是「weak economy」的用法，與本句語境不同。",
-        "weak-mcq-09": "「薄弱證據」是「weak evidence」的用法，與本句語境不同。",
-        "weak-mcq-13": "「疲弱貨幣」是「weak currency」的用法，與本句語境不同。",
-        "weak-mcq-08": "「薄弱論點」是「weak argument」的用法，與本句語境不同。"
+        "weak-mcq-11": "本句的「weak」指「表現欠佳」。",
+        "weak-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-11"
     },
@@ -1237,11 +1145,9 @@ export default {
       "masked": "The country is facing a ____.",
       "options": [
         "weak-mcq-12",
-        "weak-mcq-11",
-        "weak-mcq-13",
-        "weak-mcq-10",
-        "weak-mcq-14",
-        "weak-mcq-09"
+        "weak-pdf-001",
+        "weak-mcq-04",
+        "weak-mcq-22"
       ],
       "explanation": "本句的「weak economy」指「疲弱經濟」。",
       "sentenceIndex": 23,
@@ -1250,12 +1156,10 @@ export default {
         "weak economy"
       ],
       "optionReasons": {
-        "weak-mcq-12": "本句指「疲弱經濟」。",
-        "weak-mcq-11": "「表現欠佳」是「weak performance」的用法，與本句語境不同。",
-        "weak-mcq-13": "「疲弱貨幣」是「weak currency」的用法，與本句語境不同。",
-        "weak-mcq-10": "「牽強藉口」是「weak excuse」的用法，與本句語境不同。",
-        "weak-mcq-14": "「淡茶／咖啡」是「weak tea/coffee」的用法，與本句語境不同。",
-        "weak-mcq-09": "「薄弱證據」是「weak evidence」的用法，與本句語境不同。"
+        "weak-mcq-12": "本句的「weak economy」指「疲弱經濟」。",
+        "weak-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-12"
     },
@@ -1267,11 +1171,9 @@ export default {
       "masked": "Consumer demand remained ____.",
       "options": [
         "weak-mcq-12",
-        "weak-mcq-11",
-        "weak-mcq-13",
-        "weak-mcq-10",
         "weak-mcq-14",
-        "weak-mcq-09"
+        "weak-mcq-22",
+        "weak-mcq-11"
       ],
       "explanation": "本句的「weak」指「疲弱經濟」。",
       "sentenceIndex": 24,
@@ -1280,12 +1182,10 @@ export default {
         "weak"
       ],
       "optionReasons": {
-        "weak-mcq-12": "本句指「疲弱經濟」。",
-        "weak-mcq-11": "「表現欠佳」是「weak performance」的用法，與本句語境不同。",
-        "weak-mcq-13": "「疲弱貨幣」是「weak currency」的用法，與本句語境不同。",
-        "weak-mcq-10": "「牽強藉口」是「weak excuse」的用法，與本句語境不同。",
-        "weak-mcq-14": "「淡茶／咖啡」是「weak tea/coffee」的用法，與本句語境不同。",
-        "weak-mcq-09": "「薄弱證據」是「weak evidence」的用法，與本句語境不同。"
+        "weak-mcq-12": "本句的「weak」指「疲弱經濟」。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-12"
     },
@@ -1297,11 +1197,9 @@ export default {
       "masked": "A ____ can make imports more expensive.",
       "options": [
         "weak-mcq-13",
-        "weak-mcq-12",
-        "weak-mcq-14",
         "weak-mcq-11",
-        "weak-mcq-15",
-        "weak-mcq-10"
+        "weak-mcq-23",
+        "weak-mcq-14"
       ],
       "explanation": "本句的「weak currency」指「疲弱貨幣」。",
       "sentenceIndex": 25,
@@ -1310,12 +1208,10 @@ export default {
         "weak currency"
       ],
       "optionReasons": {
-        "weak-mcq-13": "本句指「疲弱貨幣」。",
-        "weak-mcq-12": "「疲弱經濟」是「weak economy」的用法，與本句語境不同。",
-        "weak-mcq-14": "「淡茶／咖啡」是「weak tea/coffee」的用法，與本句語境不同。",
-        "weak-mcq-11": "「表現欠佳」是「weak performance」的用法，與本句語境不同。",
-        "weak-mcq-15": "「弱點」是「weak point」的用法，與本句語境不同。",
-        "weak-mcq-10": "「牽強藉口」是「weak excuse」的用法，與本句語境不同。"
+        "weak-mcq-13": "本句的「weak currency」指「疲弱貨幣」。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-13"
     },
@@ -1327,11 +1223,9 @@ export default {
       "masked": "The currency remained ____ against the dollar.",
       "options": [
         "weak-mcq-13",
-        "weak-mcq-12",
-        "weak-mcq-14",
-        "weak-mcq-11",
-        "weak-mcq-15",
-        "weak-mcq-10"
+        "weak-pdf-001",
+        "weak-mcq-04",
+        "weak-mcq-14"
       ],
       "explanation": "本句的「weak」指「疲弱貨幣」。",
       "sentenceIndex": 26,
@@ -1340,12 +1234,10 @@ export default {
         "weak"
       ],
       "optionReasons": {
-        "weak-mcq-13": "本句指「疲弱貨幣」。",
-        "weak-mcq-12": "「疲弱經濟」是「weak economy」的用法，與本句語境不同。",
-        "weak-mcq-14": "「淡茶／咖啡」是「weak tea/coffee」的用法，與本句語境不同。",
-        "weak-mcq-11": "「表現欠佳」是「weak performance」的用法，與本句語境不同。",
-        "weak-mcq-15": "「弱點」是「weak point」的用法，與本句語境不同。",
-        "weak-mcq-10": "「牽強藉口」是「weak excuse」的用法，與本句語境不同。"
+        "weak-mcq-13": "本句的「weak」指「疲弱貨幣」。",
+        "weak-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-13"
     },
@@ -1357,11 +1249,9 @@ export default {
       "masked": "I prefer ____.",
       "options": [
         "weak-mcq-14",
-        "weak-mcq-13",
-        "weak-mcq-15",
+        "weak-mcq-22",
         "weak-mcq-12",
-        "weak-mcq-16",
-        "weak-mcq-11"
+        "weak-mcq-21"
       ],
       "explanation": "本句的「weak tea」指「淡茶／咖啡」。",
       "sentenceIndex": 27,
@@ -1370,12 +1260,10 @@ export default {
         "weak tea"
       ],
       "optionReasons": {
-        "weak-mcq-14": "本句指「淡茶／咖啡」。",
-        "weak-mcq-13": "「疲弱貨幣」是「weak currency」的用法，與本句語境不同。",
-        "weak-mcq-15": "「弱點」是「weak point」的用法，與本句語境不同。",
-        "weak-mcq-12": "「疲弱經濟」是「weak economy」的用法，與本句語境不同。",
-        "weak-mcq-16": "「弱點；虛弱」是「weakness」的用法，與本句語境不同。",
-        "weak-mcq-11": "「表現欠佳」是「weak performance」的用法，與本句語境不同。"
+        "weak-mcq-14": "本句的「weak tea」指「淡茶／咖啡」。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-14"
     },
@@ -1387,11 +1275,9 @@ export default {
       "masked": "This coffee is too ____.",
       "options": [
         "weak-mcq-14",
-        "weak-mcq-13",
-        "weak-mcq-15",
+        "weak-mcq-05",
         "weak-mcq-12",
-        "weak-mcq-16",
-        "weak-mcq-11"
+        "weak-mcq-23"
       ],
       "explanation": "本句的「weak」指「淡茶／咖啡」。",
       "sentenceIndex": 28,
@@ -1400,12 +1286,10 @@ export default {
         "weak"
       ],
       "optionReasons": {
-        "weak-mcq-14": "本句指「淡茶／咖啡」。",
-        "weak-mcq-13": "「疲弱貨幣」是「weak currency」的用法，與本句語境不同。",
-        "weak-mcq-15": "「弱點」是「weak point」的用法，與本句語境不同。",
-        "weak-mcq-12": "「疲弱經濟」是「weak economy」的用法，與本句語境不同。",
-        "weak-mcq-16": "「弱點；虛弱」是「weakness」的用法，與本句語境不同。",
-        "weak-mcq-11": "「表現欠佳」是「weak performance」的用法，與本句語境不同。"
+        "weak-mcq-14": "本句的「weak」指「淡茶／咖啡」。",
+        "weak-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-14"
     },
@@ -1417,10 +1301,8 @@ export default {
       "masked": "The sauce has a rather ____.",
       "options": [
         "weak-pdf-001",
-        "weak-mcq-13",
-        "weak-mcq-15",
-        "weak-mcq-12",
-        "weak-mcq-16",
+        "weak-mcq-20",
+        "weak-mcq-04",
         "weak-mcq-11"
       ],
       "explanation": "本句的「weak flavour」指「強度、濃度或鮮明程度較低」。",
@@ -1430,12 +1312,10 @@ export default {
         "weak flavour"
       ],
       "optionReasons": {
-        "weak-pdf-001": "本句指「強度、濃度或鮮明程度較低」。",
-        "weak-mcq-13": "「疲弱貨幣」是「weak currency」的用法，與本句語境不同。",
-        "weak-mcq-15": "「弱點」是「weak point」的用法，與本句語境不同。",
-        "weak-mcq-12": "「疲弱經濟」是「weak economy」的用法，與本句語境不同。",
-        "weak-mcq-16": "「弱點；虛弱」是「weakness」的用法，與本句語境不同。",
-        "weak-mcq-11": "「表現欠佳」是「weak performance」的用法，與本句語境不同。"
+        "weak-pdf-001": "本句的「weak flavour」指「強度、濃度或鮮明程度較低」。",
+        "weak-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-pdf-001"
     },
@@ -1447,11 +1327,9 @@ export default {
       "masked": "The colour looks ____ under this light.",
       "options": [
         "weak-pdf-001",
-        "weak-mcq-13",
-        "weak-mcq-15",
         "weak-mcq-12",
-        "weak-mcq-16",
-        "weak-mcq-11"
+        "weak-mcq-11",
+        "weak-mcq-22"
       ],
       "explanation": "本句的「weak」指「強度、濃度或鮮明程度較低」。",
       "sentenceIndex": 30,
@@ -1460,12 +1338,10 @@ export default {
         "weak"
       ],
       "optionReasons": {
-        "weak-pdf-001": "本句指「強度、濃度或鮮明程度較低」。",
-        "weak-mcq-13": "「疲弱貨幣」是「weak currency」的用法，與本句語境不同。",
-        "weak-mcq-15": "「弱點」是「weak point」的用法，與本句語境不同。",
-        "weak-mcq-12": "「疲弱經濟」是「weak economy」的用法，與本句語境不同。",
-        "weak-mcq-16": "「弱點；虛弱」是「weakness」的用法，與本句語境不同。",
-        "weak-mcq-11": "「表現欠佳」是「weak performance」的用法，與本句語境不同。"
+        "weak-pdf-001": "本句的「weak」指「強度、濃度或鮮明程度較低」。",
+        "weak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-pdf-001"
     },
@@ -1477,11 +1353,9 @@ export default {
       "masked": "Grammar is my ____.",
       "options": [
         "weak-mcq-15",
-        "weak-mcq-14",
-        "weak-mcq-16",
-        "weak-mcq-13",
-        "weak-mcq-17",
-        "weak-mcq-12"
+        "weak-mcq-10",
+        "weak-pdf-001",
+        "weak-mcq-04"
       ],
       "explanation": "本句的「weak point」指「弱點」。",
       "sentenceIndex": 31,
@@ -1490,12 +1364,10 @@ export default {
         "weak point"
       ],
       "optionReasons": {
-        "weak-mcq-15": "本句指「弱點」。",
-        "weak-mcq-14": "「淡茶／咖啡」是「weak tea/coffee」的用法，與本句語境不同。",
-        "weak-mcq-16": "「弱點；虛弱」是「weakness」的用法，與本句語境不同。",
-        "weak-mcq-13": "「疲弱貨幣」是「weak currency」的用法，與本句語境不同。",
-        "weak-mcq-17": "「對 X 情有獨鍾」是「weakness for X」的用法，與本句語境不同。",
-        "weak-mcq-12": "「疲弱經濟」是「weak economy」的用法，與本句語境不同。"
+        "weak-mcq-15": "本句的「weak point」指「弱點」。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "weak-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-15"
     },
@@ -1507,11 +1379,9 @@ export default {
       "masked": "Every plan has a ____.",
       "options": [
         "weak-mcq-15",
-        "weak-mcq-14",
-        "weak-mcq-16",
-        "weak-mcq-13",
-        "weak-mcq-17",
-        "weak-mcq-12"
+        "weak-mcq-21",
+        "weak-mcq-11",
+        "weak-mcq-14"
       ],
       "explanation": "本句的「weak point」指「弱點」。",
       "sentenceIndex": 32,
@@ -1520,12 +1390,10 @@ export default {
         "weak point"
       ],
       "optionReasons": {
-        "weak-mcq-15": "本句指「弱點」。",
-        "weak-mcq-14": "「淡茶／咖啡」是「weak tea/coffee」的用法，與本句語境不同。",
-        "weak-mcq-16": "「弱點；虛弱」是「weakness」的用法，與本句語境不同。",
-        "weak-mcq-13": "「疲弱貨幣」是「weak currency」的用法，與本句語境不同。",
-        "weak-mcq-17": "「對 X 情有獨鍾」是「weakness for X」的用法，與本句語境不同。",
-        "weak-mcq-12": "「疲弱經濟」是「weak economy」的用法，與本句語境不同。"
+        "weak-mcq-15": "本句的「weak point」指「弱點」。",
+        "weak-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-15"
     },
@@ -1537,11 +1405,9 @@ export default {
       "masked": "His main ____ is poor time management.",
       "options": [
         "weak-mcq-16",
-        "weak-mcq-15",
-        "weak-mcq-17",
-        "weak-mcq-14",
-        "weak-mcq-18",
-        "weak-mcq-13"
+        "weak-mcq-10",
+        "weak-mcq-22",
+        "weak-mcq-11"
       ],
       "explanation": "本句的「weakness」指「弱點；虛弱」。",
       "sentenceIndex": 33,
@@ -1550,12 +1416,10 @@ export default {
         "weakness"
       ],
       "optionReasons": {
-        "weak-mcq-16": "本句指「弱點；虛弱」。",
-        "weak-mcq-15": "「弱點」是「weak point」的用法，與本句語境不同。",
-        "weak-mcq-17": "「對 X 情有獨鍾」是「weakness for X」的用法，與本句語境不同。",
-        "weak-mcq-14": "「淡茶／咖啡」是「weak tea/coffee」的用法，與本句語境不同。",
-        "weak-mcq-18": "「削弱 X」是「weaken X」的用法，與本句語境不同。",
-        "weak-mcq-13": "「疲弱貨幣」是「weak currency」的用法，與本句語境不同。"
+        "weak-mcq-16": "本句的「weakness」指「弱點；虛弱」。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-16"
     },
@@ -1567,11 +1431,9 @@ export default {
       "masked": "The plan has several ____.",
       "options": [
         "weak-mcq-16",
-        "weak-mcq-15",
-        "weak-mcq-17",
-        "weak-mcq-14",
-        "weak-mcq-18",
-        "weak-mcq-13"
+        "weak-mcq-23",
+        "weak-mcq-11",
+        "weak-mcq-10"
       ],
       "explanation": "本句的「weaknesses」指「弱點；虛弱」。",
       "sentenceIndex": 34,
@@ -1580,12 +1442,10 @@ export default {
         "weaknesses"
       ],
       "optionReasons": {
-        "weak-mcq-16": "本句指「弱點；虛弱」。",
-        "weak-mcq-15": "「弱點」是「weak point」的用法，與本句語境不同。",
-        "weak-mcq-17": "「對 X 情有獨鍾」是「weakness for X」的用法，與本句語境不同。",
-        "weak-mcq-14": "「淡茶／咖啡」是「weak tea/coffee」的用法，與本句語境不同。",
-        "weak-mcq-18": "「削弱 X」是「weaken X」的用法，與本句語境不同。",
-        "weak-mcq-13": "「疲弱貨幣」是「weak currency」的用法，與本句語境不同。"
+        "weak-mcq-16": "本句的「weaknesses」指「弱點；虛弱」。",
+        "weak-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-16"
     },
@@ -1597,11 +1457,9 @@ export default {
       "masked": "She felt sudden ____ in her legs.",
       "options": [
         "weak-mcq-16",
-        "weak-mcq-15",
-        "weak-mcq-17",
-        "weak-mcq-14",
-        "weak-mcq-18",
-        "weak-mcq-13"
+        "weak-mcq-04",
+        "weak-mcq-22",
+        "weak-pdf-001"
       ],
       "explanation": "本句的「weakness」指「弱點；虛弱」。",
       "sentenceIndex": 35,
@@ -1610,12 +1468,10 @@ export default {
         "weakness"
       ],
       "optionReasons": {
-        "weak-mcq-16": "本句指「弱點；虛弱」。",
-        "weak-mcq-15": "「弱點」是「weak point」的用法，與本句語境不同。",
-        "weak-mcq-17": "「對 X 情有獨鍾」是「weakness for X」的用法，與本句語境不同。",
-        "weak-mcq-14": "「淡茶／咖啡」是「weak tea/coffee」的用法，與本句語境不同。",
-        "weak-mcq-18": "「削弱 X」是「weaken X」的用法，與本句語境不同。",
-        "weak-mcq-13": "「疲弱貨幣」是「weak currency」的用法，與本句語境不同。"
+        "weak-mcq-16": "本句的「weakness」指「弱點；虛弱」。",
+        "weak-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "weak-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-16"
     },
@@ -1627,11 +1483,9 @@ export default {
       "masked": "The illness caused severe ____.",
       "options": [
         "weak-mcq-16",
-        "weak-mcq-15",
-        "weak-mcq-17",
-        "weak-mcq-14",
-        "weak-mcq-18",
-        "weak-mcq-13"
+        "weak-mcq-10",
+        "weak-mcq-04",
+        "weak-mcq-23"
       ],
       "explanation": "本句的「weakness」指「弱點；虛弱」。",
       "sentenceIndex": 36,
@@ -1640,12 +1494,10 @@ export default {
         "weakness"
       ],
       "optionReasons": {
-        "weak-mcq-16": "本句指「弱點；虛弱」。",
-        "weak-mcq-15": "「弱點」是「weak point」的用法，與本句語境不同。",
-        "weak-mcq-17": "「對 X 情有獨鍾」是「weakness for X」的用法，與本句語境不同。",
-        "weak-mcq-14": "「淡茶／咖啡」是「weak tea/coffee」的用法，與本句語境不同。",
-        "weak-mcq-18": "「削弱 X」是「weaken X」的用法，與本句語境不同。",
-        "weak-mcq-13": "「疲弱貨幣」是「weak currency」的用法，與本句語境不同。"
+        "weak-mcq-16": "本句的「weakness」指「弱點；虛弱」。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-16"
     },
@@ -1657,11 +1509,9 @@ export default {
       "masked": "I have a ____.",
       "options": [
         "weak-mcq-22",
+        "weak-mcq-19",
         "weak-mcq-21",
-        "weak-mcq-23",
-        "weak-mcq-20",
-        "weak-mcq-24",
-        "weak-mcq-19"
+        "weak-mcq-11"
       ],
       "explanation": "本句的「weakness for chocolate」指「特別喜歡某物，往往很難抗拒」。",
       "sentenceIndex": 37,
@@ -1670,12 +1520,10 @@ export default {
         "weakness for chocolate"
       ],
       "optionReasons": {
-        "weak-mcq-22": "本句指「特別喜歡某物，往往很難抗拒」。",
-        "weak-mcq-21": "「身體缺乏力量、體力或能量的」是「3. weak（身體虛弱的） — 虛弱的；無力的」的用法，與本句語境不同。",
-        "weak-mcq-23": "「令某物失去部分力量、效果或影響力」是「20. weaken something — 削弱某物」的用法，與本句語境不同。",
-        "weak-mcq-20": "「虛弱地」是「weakly」的用法，與本句語境不同。",
-        "weak-mcq-24": "「令某立場或論點變得較難支持或較沒有說服力」是「22. weaken someone's position / argument — 削弱立場／論點」的用法，與本句語境不同。",
-        "weak-mcq-19": "「變弱」是「weaken」的用法，與本句語境不同。"
+        "weak-mcq-22": "本句的「weakness for chocolate」指「特別喜歡某物，往往很難抗拒」。",
+        "weak-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-22"
     },
@@ -1687,11 +1535,9 @@ export default {
       "masked": "She has a ____.",
       "options": [
         "weak-mcq-22",
-        "weak-mcq-21",
-        "weak-mcq-23",
-        "weak-mcq-20",
-        "weak-mcq-24",
-        "weak-mcq-19"
+        "weak-mcq-05",
+        "weak-pdf-001",
+        "weak-mcq-12"
       ],
       "explanation": "本句的「weakness for old bookstores」指「特別喜歡某物，往往很難抗拒」。",
       "sentenceIndex": 38,
@@ -1700,12 +1546,10 @@ export default {
         "weakness for old bookstores"
       ],
       "optionReasons": {
-        "weak-mcq-22": "本句指「特別喜歡某物，往往很難抗拒」。",
-        "weak-mcq-21": "「身體缺乏力量、體力或能量的」是「3. weak（身體虛弱的） — 虛弱的；無力的」的用法，與本句語境不同。",
-        "weak-mcq-23": "「令某物失去部分力量、效果或影響力」是「20. weaken something — 削弱某物」的用法，與本句語境不同。",
-        "weak-mcq-20": "「虛弱地」是「weakly」的用法，與本句語境不同。",
-        "weak-mcq-24": "「令某立場或論點變得較難支持或較沒有說服力」是「22. weaken someone's position / argument — 削弱立場／論點」的用法，與本句語境不同。",
-        "weak-mcq-19": "「變弱」是「weaken」的用法，與本句語境不同。"
+        "weak-mcq-22": "本句的「weakness for old bookstores」指「特別喜歡某物，往往很難抗拒」。",
+        "weak-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "weak-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-22"
     },
@@ -1717,11 +1561,9 @@ export default {
       "masked": "The damage ____.",
       "options": [
         "weak-mcq-23",
+        "weak-mcq-16",
         "weak-mcq-22",
-        "weak-mcq-24",
-        "weak-mcq-21",
-        "weak-mcq-20",
-        "weak-mcq-19"
+        "weak-mcq-14"
       ],
       "explanation": "本句的「weakened the structure」指「令某物失去部分力量、效果或影響力」。",
       "sentenceIndex": 39,
@@ -1730,12 +1572,10 @@ export default {
         "weakened the structure"
       ],
       "optionReasons": {
-        "weak-mcq-23": "本句指「令某物失去部分力量、效果或影響力」。",
-        "weak-mcq-22": "「特別喜歡某物，往往很難抗拒」是「19. have a weakness for something — 特別喜愛；難以抗拒」的用法，與本句語境不同。",
-        "weak-mcq-24": "「令某立場或論點變得較難支持或較沒有說服力」是「22. weaken someone's position / argument — 削弱立場／論點」的用法，與本句語境不同。",
-        "weak-mcq-21": "「身體缺乏力量、體力或能量的」是「3. weak（身體虛弱的） — 虛弱的；無力的」的用法，與本句語境不同。",
-        "weak-mcq-20": "「虛弱地」是「weakly」的用法，與本句語境不同。",
-        "weak-mcq-19": "「變弱」是「weaken」的用法，與本句語境不同。"
+        "weak-mcq-23": "本句的「weakened the structure」指「令某物失去部分力量、效果或影響力」。",
+        "weak-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-23"
     },
@@ -1747,11 +1587,9 @@ export default {
       "masked": "The argument was ____.",
       "options": [
         "weak-mcq-23",
-        "weak-mcq-22",
-        "weak-mcq-24",
-        "weak-mcq-21",
-        "weak-mcq-20",
-        "weak-mcq-19"
+        "weak-mcq-07",
+        "weak-mcq-10",
+        "weak-mcq-13"
       ],
       "explanation": "本句的「weakened by a lack of evidence」指「令某物失去部分力量、效果或影響力」。",
       "sentenceIndex": 40,
@@ -1760,12 +1598,10 @@ export default {
         "weakened by a lack of evidence"
       ],
       "optionReasons": {
-        "weak-mcq-23": "本句指「令某物失去部分力量、效果或影響力」。",
-        "weak-mcq-22": "「特別喜歡某物，往往很難抗拒」是「19. have a weakness for something — 特別喜愛；難以抗拒」的用法，與本句語境不同。",
-        "weak-mcq-24": "「令某立場或論點變得較難支持或較沒有說服力」是「22. weaken someone's position / argument — 削弱立場／論點」的用法，與本句語境不同。",
-        "weak-mcq-21": "「身體缺乏力量、體力或能量的」是「3. weak（身體虛弱的） — 虛弱的；無力的」的用法，與本句語境不同。",
-        "weak-mcq-20": "「虛弱地」是「weakly」的用法，與本句語境不同。",
-        "weak-mcq-19": "「變弱」是「weaken」的用法，與本句語境不同。"
+        "weak-mcq-23": "本句的「weakened by a lack of evidence」指「令某物失去部分力量、效果或影響力」。",
+        "weak-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-23"
     },
@@ -1777,11 +1613,9 @@ export default {
       "masked": "The storm began to ____.",
       "options": [
         "weak-mcq-19",
-        "weak-mcq-18",
-        "weak-mcq-20",
-        "weak-mcq-17",
-        "weak-mcq-21",
-        "weak-mcq-16"
+        "weak-mcq-10",
+        "weak-mcq-23",
+        "weak-mcq-22"
       ],
       "explanation": "本句的「weaken」指「變弱」。",
       "sentenceIndex": 41,
@@ -1790,12 +1624,10 @@ export default {
         "weaken"
       ],
       "optionReasons": {
-        "weak-mcq-19": "本句指「變弱」。",
-        "weak-mcq-18": "「削弱 X」是「weaken X」的用法，與本句語境不同。",
-        "weak-mcq-20": "「虛弱地」是「weakly」的用法，與本句語境不同。",
-        "weak-mcq-17": "「對 X 情有獨鍾」是「weakness for X」的用法，與本句語境不同。",
-        "weak-mcq-21": "「身體缺乏力量、體力或能量的」是「3. weak（身體虛弱的） — 虛弱的；無力的」的用法，與本句語境不同。",
-        "weak-mcq-16": "「弱點；虛弱」是「weakness」的用法，與本句語境不同。"
+        "weak-mcq-19": "本句的「weaken」指「變弱」。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-19"
     },
@@ -1807,11 +1639,9 @@ export default {
       "masked": "Demand has ____ in recent months.",
       "options": [
         "weak-mcq-19",
-        "weak-mcq-18",
-        "weak-mcq-20",
-        "weak-mcq-17",
-        "weak-mcq-21",
-        "weak-mcq-16"
+        "weak-mcq-22",
+        "weak-mcq-10",
+        "weak-mcq-11"
       ],
       "explanation": "本句的「weakened」指「變弱」。",
       "sentenceIndex": 42,
@@ -1820,12 +1650,10 @@ export default {
         "weakened"
       ],
       "optionReasons": {
-        "weak-mcq-19": "本句指「變弱」。",
-        "weak-mcq-18": "「削弱 X」是「weaken X」的用法，與本句語境不同。",
-        "weak-mcq-20": "「虛弱地」是「weakly」的用法，與本句語境不同。",
-        "weak-mcq-17": "「對 X 情有獨鍾」是「weakness for X」的用法，與本句語境不同。",
-        "weak-mcq-21": "「身體缺乏力量、體力或能量的」是「3. weak（身體虛弱的） — 虛弱的；無力的」的用法，與本句語境不同。",
-        "weak-mcq-16": "「弱點；虛弱」是「weakness」的用法，與本句語境不同。"
+        "weak-mcq-19": "本句的「weakened」指「變弱」。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-19"
     },
@@ -1837,11 +1665,9 @@ export default {
       "masked": "The new evidence ____.",
       "options": [
         "weak-mcq-24",
-        "weak-mcq-23",
-        "weak-mcq-22",
-        "weak-mcq-21",
-        "weak-mcq-20",
-        "weak-mcq-19"
+        "weak-mcq-10",
+        "weak-mcq-14",
+        "weak-mcq-07"
       ],
       "explanation": "本句的「weakened his position」指「令某立場或論點變得較難支持或較沒有說服力」。",
       "sentenceIndex": 43,
@@ -1850,12 +1676,10 @@ export default {
         "weakened his position"
       ],
       "optionReasons": {
-        "weak-mcq-24": "本句指「令某立場或論點變得較難支持或較沒有說服力」。",
-        "weak-mcq-23": "「令某物失去部分力量、效果或影響力」是「20. weaken something — 削弱某物」的用法，與本句語境不同。",
-        "weak-mcq-22": "「特別喜歡某物，往往很難抗拒」是「19. have a weakness for something — 特別喜愛；難以抗拒」的用法，與本句語境不同。",
-        "weak-mcq-21": "「身體缺乏力量、體力或能量的」是「3. weak（身體虛弱的） — 虛弱的；無力的」的用法，與本句語境不同。",
-        "weak-mcq-20": "「虛弱地」是「weakly」的用法，與本句語境不同。",
-        "weak-mcq-19": "「變弱」是「weaken」的用法，與本句語境不同。"
+        "weak-mcq-24": "本句的「weakened his position」指「令某立場或論點變得較難支持或較沒有說服力」。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-24"
     },
@@ -1867,11 +1691,9 @@ export default {
       "masked": "This contradiction ____.",
       "options": [
         "weak-mcq-24",
-        "weak-mcq-23",
-        "weak-mcq-22",
-        "weak-mcq-21",
-        "weak-mcq-20",
-        "weak-mcq-19"
+        "weak-mcq-12",
+        "weak-mcq-14",
+        "weak-mcq-06"
       ],
       "explanation": "本句的「weakens the argument」指「令某立場或論點變得較難支持或較沒有說服力」。",
       "sentenceIndex": 44,
@@ -1880,12 +1702,10 @@ export default {
         "weakens the argument"
       ],
       "optionReasons": {
-        "weak-mcq-24": "本句指「令某立場或論點變得較難支持或較沒有說服力」。",
-        "weak-mcq-23": "「令某物失去部分力量、效果或影響力」是「20. weaken something — 削弱某物」的用法，與本句語境不同。",
-        "weak-mcq-22": "「特別喜歡某物，往往很難抗拒」是「19. have a weakness for something — 特別喜愛；難以抗拒」的用法，與本句語境不同。",
-        "weak-mcq-21": "「身體缺乏力量、體力或能量的」是「3. weak（身體虛弱的） — 虛弱的；無力的」的用法，與本句語境不同。",
-        "weak-mcq-20": "「虛弱地」是「weakly」的用法，與本句語境不同。",
-        "weak-mcq-19": "「變弱」是「weaken」的用法，與本句語境不同。"
+        "weak-mcq-24": "本句的「weakens the argument」指「令某立場或論點變得較難支持或較沒有說服力」。",
+        "weak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-24"
     },
@@ -1897,11 +1717,9 @@ export default {
       "masked": "She smiled ____.",
       "options": [
         "weak-mcq-20",
-        "weak-mcq-19",
-        "weak-mcq-21",
-        "weak-mcq-18",
-        "weak-mcq-22",
-        "weak-mcq-17"
+        "weak-mcq-23",
+        "weak-mcq-10",
+        "weak-mcq-11"
       ],
       "explanation": "本句的「weakly」指「虛弱地」。",
       "sentenceIndex": 45,
@@ -1910,12 +1728,10 @@ export default {
         "weakly"
       ],
       "optionReasons": {
-        "weak-mcq-20": "本句指「虛弱地」。",
-        "weak-mcq-19": "「變弱」是「weaken」的用法，與本句語境不同。",
-        "weak-mcq-21": "「身體缺乏力量、體力或能量的」是「3. weak（身體虛弱的） — 虛弱的；無力的」的用法，與本句語境不同。",
-        "weak-mcq-18": "「削弱 X」是「weaken X」的用法，與本句語境不同。",
-        "weak-mcq-22": "「特別喜歡某物，往往很難抗拒」是「19. have a weakness for something — 特別喜愛；難以抗拒」的用法，與本句語境不同。",
-        "weak-mcq-17": "「對 X 情有獨鍾」是「weakness for X」的用法，與本句語境不同。"
+        "weak-mcq-20": "本句的「weakly」指「虛弱地」。",
+        "weak-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-20"
     },
@@ -1927,11 +1743,9 @@ export default {
       "masked": "I'm fine,” he said ____.",
       "options": [
         "weak-mcq-20",
-        "weak-mcq-19",
-        "weak-mcq-21",
-        "weak-mcq-18",
+        "weak-mcq-14",
         "weak-mcq-22",
-        "weak-mcq-17"
+        "weak-mcq-11"
       ],
       "explanation": "本句的「weakly」指「虛弱地」。",
       "sentenceIndex": 46,
@@ -1940,12 +1754,10 @@ export default {
         "weakly"
       ],
       "optionReasons": {
-        "weak-mcq-20": "本句指「虛弱地」。",
-        "weak-mcq-19": "「變弱」是「weaken」的用法，與本句語境不同。",
-        "weak-mcq-21": "「身體缺乏力量、體力或能量的」是「3. weak（身體虛弱的） — 虛弱的；無力的」的用法，與本句語境不同。",
-        "weak-mcq-18": "「削弱 X」是「weaken X」的用法，與本句語境不同。",
-        "weak-mcq-22": "「特別喜歡某物，往往很難抗拒」是「19. have a weakness for something — 特別喜愛；難以抗拒」的用法，與本句語境不同。",
-        "weak-mcq-17": "「對 X 情有獨鍾」是「weakness for X」的用法，與本句語境不同。"
+        "weak-mcq-20": "本句的「weakly」指「虛弱地」。",
+        "weak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "weak-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weak-mcq-20"
     }
@@ -1957,5 +1769,7 @@ export default {
     "sha256": "c9d2010cdaa6e7199e2c71dc31bf139a9481f14681c2746bd1f7f06c50d2e119",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

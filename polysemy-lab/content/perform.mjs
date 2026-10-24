@@ -147,16 +147,6 @@ export default {
           "The students performed a short play.",
           "學生們演出了一齣短劇。",
           "把歌曲、戲劇或其他藝術作品實際呈現給觀眾"
-        ],
-        [
-          "The company rewards its top performers.",
-          "公司獎勵其表現最出色的員工。",
-          "把歌曲、戲劇或其他藝術作品實際呈現給觀眾"
-        ],
-        [
-          "She was the top performer in the squad.",
-          "她是隊伍中表現最出色的成員。",
-          "把歌曲、戲劇或其他藝術作品實際呈現給觀眾"
         ]
       ],
       "options": [],
@@ -367,16 +357,6 @@ export default {
       "note": "來源詞義：呈現給觀眾看的音樂、戲劇、舞蹈等正式演出",
       "examples": [
         [
-          "The organisation uses a formal performance appraisal system.",
-          "機構採用正式的績效評估制度。",
-          "呈現給觀眾看的音樂、戲劇、舞蹈等正式演出"
-        ],
-        [
-          "Performance appraisals are conducted twice a year.",
-          "績效評估每年進行兩次。",
-          "呈現給觀眾看的音樂、戲劇、舞蹈等正式演出"
-        ],
-        [
           "The evening performance starts at eight.",
           "晚上的演出八時開始。",
           "呈現給觀眾看的音樂、戲劇、舞蹈等正式演出"
@@ -508,16 +488,6 @@ export default {
       "note": "來源詞義：按合約或法律要求實際履行已承擔的義務",
       "examples": [
         [
-          "The song sounds different in a live performance.",
-          "這首歌在現場演出時聽起來不同。",
-          "按合約或法律要求實際履行已承擔的義務"
-        ],
-        [
-          "The venue hosts live performances every weekend.",
-          "場地每個週末都有現場表演。",
-          "按合約或法律要求實際履行已承擔的義務"
-        ],
-        [
           "The contract requires full performance of the agreed obligations.",
           "合約要求完整履行已同意的義務。",
           "按合約或法律要求實際履行已承擔的義務"
@@ -547,16 +517,6 @@ export default {
         [
           "The priest performed the wedding ceremony.",
           "神父主持了婚禮儀式。",
-          "按正式或傳統程序主持並完成某項儀式"
-        ],
-        [
-          "The best-performing department received an award.",
-          "表現最佳的部門獲得獎項。",
-          "按正式或傳統程序主持並完成某項儀式"
-        ],
-        [
-          "Poorly performing systems were replaced.",
-          "運作表現差的系統被替換。",
           "按正式或傳統程序主持並完成某項儀式"
         ]
       ],
@@ -606,6 +566,94 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "perform-reviewed-95d6c23f69",
+      "title": "頂尖表現者",
+      "form": "perform · source section 12",
+      "en": "頂尖表現者",
+      "zh": "頂尖表現者",
+      "note": "對照原始教材第 12 節及例句核實。",
+      "examples": [
+        [
+          "The company rewards its top performers.",
+          "公司獎勵其表現最出色的員工。",
+          "頂尖表現者"
+        ],
+        [
+          "She was the top performer in the squad.",
+          "她是隊伍中表現最出色的成員。",
+          "頂尖表現者"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "perform-reviewed-3d4a069021",
+      "title": "績效評估",
+      "form": "perform · source section 26",
+      "en": "績效評估",
+      "zh": "績效評估",
+      "note": "對照原始教材第 26 節及例句核實。",
+      "examples": [
+        [
+          "The organisation uses a formal performance appraisal system.",
+          "機構採用正式的績效評估制度。",
+          "績效評估"
+        ],
+        [
+          "Performance appraisals are conducted twice a year.",
+          "績效評估每年進行兩次。",
+          "績效評估"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "perform-reviewed-a378681023",
+      "title": "現場演出",
+      "form": "perform · source section 32",
+      "en": "現場演出",
+      "zh": "現場演出",
+      "note": "對照原始教材第 32 節及例句核實。",
+      "examples": [
+        [
+          "The song sounds different in a live performance.",
+          "這首歌在現場演出時聽起來不同。",
+          "現場演出"
+        ],
+        [
+          "The venue hosts live performances every weekend.",
+          "場地每個週末都有現場表演。",
+          "現場演出"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "perform-reviewed-26c6ee7aca",
+      "title": "表現中的；運作中的",
+      "form": "perform · source section 35",
+      "en": "表現中的；運作中的",
+      "zh": "表現中的；運作中的",
+      "note": "對照原始教材第 35 節及例句核實。",
+      "examples": [
+        [
+          "The best-performing department received an award.",
+          "表現最佳的部門獲得獎項。",
+          "表現中的；運作中的"
+        ],
+        [
+          "Poorly performing systems were replaced.",
+          "運作表現差的系統被替換。",
+          "表現中的；運作中的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -617,11 +665,9 @@ export default {
       "masked": "Staff must ____ their duties carefully.",
       "options": [
         "perform-mcq-01",
-        "perform-mcq-02",
-        "perform-mcq-03",
-        "perform-mcq-04",
-        "perform-mcq-05",
-        "perform-mcq-06"
+        "perform-reviewed-3d4a069021",
+        "perform-reviewed-a378681023",
+        "perform-mcq-18"
       ],
       "explanation": "本句的「perform」指「按要求正式執行、進行或完成某項任務、行動或程序」。",
       "sentenceIndex": 0,
@@ -630,12 +676,10 @@ export default {
         "perform"
       ],
       "optionReasons": {
-        "perform-mcq-01": "本句指「按要求正式執行、進行或完成某項任務、行動或程序」。",
-        "perform-mcq-02": "「實際履行某個職位／身分應承擔的職責」與本句語境不同。",
-        "perform-mcq-03": "「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」與本句語境不同。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。"
+        "perform-mcq-01": "本句的「perform」指「按要求正式執行、進行或完成某項任務、行動或程序」。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-a378681023": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-01"
     },
@@ -647,11 +691,9 @@ export default {
       "masked": "The technician ____ several checks.",
       "options": [
         "perform-mcq-01",
-        "perform-mcq-02",
-        "perform-mcq-03",
-        "perform-mcq-04",
-        "perform-mcq-05",
-        "perform-mcq-06"
+        "perform-mcq-10",
+        "perform-reviewed-3d4a069021",
+        "perform-reviewed-a378681023"
       ],
       "explanation": "本句的「performed」指「按要求正式執行、進行或完成某項任務、行動或程序」。",
       "sentenceIndex": 1,
@@ -660,12 +702,10 @@ export default {
         "performed"
       ],
       "optionReasons": {
-        "perform-mcq-01": "本句指「按要求正式執行、進行或完成某項任務、行動或程序」。",
-        "perform-mcq-02": "「實際履行某個職位／身分應承擔的職責」與本句語境不同。",
-        "perform-mcq-03": "「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」與本句語境不同。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。"
+        "perform-mcq-01": "本句的「performed」指「按要求正式執行、進行或完成某項任務、行動或程序」。",
+        "perform-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-a378681023": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-01"
     },
@@ -677,11 +717,9 @@ export default {
       "masked": "Each athlete was asked to ____ under time pressure.",
       "options": [
         "perform-mcq-01",
-        "perform-mcq-02",
-        "perform-mcq-03",
-        "perform-mcq-04",
-        "perform-mcq-05",
-        "perform-mcq-06"
+        "perform-mcq-10",
+        "perform-mcq-18",
+        "perform-reviewed-a378681023"
       ],
       "explanation": "本句的「perform a task」指「按要求正式執行、進行或完成某項任務、行動或程序」。",
       "sentenceIndex": 2,
@@ -690,12 +728,10 @@ export default {
         "perform a task"
       ],
       "optionReasons": {
-        "perform-mcq-01": "本句指「按要求正式執行、進行或完成某項任務、行動或程序」。",
-        "perform-mcq-02": "「實際履行某個職位／身分應承擔的職責」與本句語境不同。",
-        "perform-mcq-03": "「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」與本句語境不同。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。"
+        "perform-mcq-01": "本句的「perform a task」指「按要求正式執行、進行或完成某項任務、行動或程序」。",
+        "perform-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-a378681023": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-01"
     },
@@ -707,11 +743,9 @@ export default {
       "masked": "The machine can ____ repetitive tasks automatically.",
       "options": [
         "perform-mcq-01",
-        "perform-mcq-02",
-        "perform-mcq-03",
-        "perform-mcq-04",
-        "perform-mcq-05",
-        "perform-mcq-06"
+        "perform-mcq-18",
+        "perform-mcq-06",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「perform」指「按要求正式執行、進行或完成某項任務、行動或程序」。",
       "sentenceIndex": 3,
@@ -720,12 +754,10 @@ export default {
         "perform"
       ],
       "optionReasons": {
-        "perform-mcq-01": "本句指「按要求正式執行、進行或完成某項任務、行動或程序」。",
-        "perform-mcq-02": "「實際履行某個職位／身分應承擔的職責」與本句語境不同。",
-        "perform-mcq-03": "「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」與本句語境不同。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。"
+        "perform-mcq-01": "本句的「perform」指「按要求正式執行、進行或完成某項任務、行動或程序」。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-01"
     },
@@ -737,11 +769,9 @@ export default {
       "masked": "Coaches must ____ professionally.",
       "options": [
         "perform-mcq-02",
-        "perform-mcq-01",
-        "perform-mcq-03",
-        "perform-mcq-04",
-        "perform-mcq-05",
-        "perform-mcq-06"
+        "perform-mcq-18",
+        "perform-reviewed-95d6c23f69",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「perform their duties」指「實際履行某個職位／身分應承擔的職責」。",
       "sentenceIndex": 4,
@@ -750,12 +780,10 @@ export default {
         "perform their duties"
       ],
       "optionReasons": {
-        "perform-mcq-02": "本句指「實際履行某個職位／身分應承擔的職責」。",
-        "perform-mcq-01": "「按要求正式執行、進行或完成某項任務、行動或程序」與本句語境不同。",
-        "perform-mcq-03": "「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」與本句語境不同。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。"
+        "perform-mcq-02": "本句的「perform their duties」指「實際履行某個職位／身分應承擔的職責」。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-95d6c23f69": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-02"
     },
@@ -767,11 +795,9 @@ export default {
       "masked": "She continued to ____ her duties despite the disruption.",
       "options": [
         "perform-mcq-02",
-        "perform-mcq-01",
-        "perform-mcq-03",
-        "perform-mcq-04",
-        "perform-mcq-05",
-        "perform-mcq-06"
+        "perform-reviewed-26c6ee7aca",
+        "perform-mcq-22",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「perform」指「實際履行某個職位／身分應承擔的職責」。",
       "sentenceIndex": 5,
@@ -780,12 +806,10 @@ export default {
         "perform"
       ],
       "optionReasons": {
-        "perform-mcq-02": "本句指「實際履行某個職位／身分應承擔的職責」。",
-        "perform-mcq-01": "「按要求正式執行、進行或完成某項任務、行動或程序」與本句語境不同。",
-        "perform-mcq-03": "「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」與本句語境不同。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。"
+        "perform-mcq-02": "本句的「perform」指「實際履行某個職位／身分應承擔的職責」。",
+        "perform-reviewed-26c6ee7aca": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-02"
     },
@@ -797,11 +821,8 @@ export default {
       "masked": "I learned to ____.",
       "options": [
         "perform-mcq-03",
-        "perform-mcq-02",
-        "perform-mcq-04",
-        "perform-mcq-01",
-        "perform-mcq-05",
-        "perform-mcq-06"
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-22"
       ],
       "explanation": "本句的「perform under pressure」指「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」。",
       "sentenceIndex": 6,
@@ -810,12 +831,9 @@ export default {
         "perform under pressure"
       ],
       "optionReasons": {
-        "perform-mcq-03": "本句指「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」。",
-        "perform-mcq-02": "「實際履行某個職位／身分應承擔的職責」與本句語境不同。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
-        "perform-mcq-01": "「按要求正式執行、進行或完成某項任務、行動或程序」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。"
+        "perform-mcq-03": "本句的「perform under pressure」指「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-03"
     },
@@ -827,11 +845,8 @@ export default {
       "masked": "The team ____ well in the final.",
       "options": [
         "perform-mcq-03",
-        "perform-mcq-02",
-        "perform-mcq-04",
-        "perform-mcq-01",
-        "perform-mcq-05",
-        "perform-mcq-06"
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-22"
       ],
       "explanation": "本句的「performed」指「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」。",
       "sentenceIndex": 7,
@@ -840,12 +855,9 @@ export default {
         "performed"
       ],
       "optionReasons": {
-        "perform-mcq-03": "本句指「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」。",
-        "perform-mcq-02": "「實際履行某個職位／身分應承擔的職責」與本句語境不同。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
-        "perform-mcq-01": "「按要求正式執行、進行或完成某項任務、行動或程序」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。"
+        "perform-mcq-03": "本句的「performed」指「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-03"
     },
@@ -857,11 +869,8 @@ export default {
       "masked": "She ____ better than expected.",
       "options": [
         "perform-mcq-03",
-        "perform-mcq-02",
-        "perform-mcq-04",
-        "perform-mcq-01",
-        "perform-mcq-05",
-        "perform-mcq-06"
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-22"
       ],
       "explanation": "本句的「performed」指「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」。",
       "sentenceIndex": 8,
@@ -870,12 +879,9 @@ export default {
         "performed"
       ],
       "optionReasons": {
-        "perform-mcq-03": "本句指「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」。",
-        "perform-mcq-02": "「實際履行某個職位／身分應承擔的職責」與本句語境不同。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
-        "perform-mcq-01": "「按要求正式執行、進行或完成某項任務、行動或程序」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。"
+        "perform-mcq-03": "本句的「performed」指「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-03"
     },
@@ -887,11 +893,8 @@ export default {
       "masked": "The athletes ____ despite the heat.",
       "options": [
         "perform-pdf-001",
-        "perform-mcq-02",
-        "perform-mcq-04",
-        "perform-mcq-01",
-        "perform-mcq-05",
-        "perform-mcq-06"
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-04"
       ],
       "explanation": "本句的「performed well」指「顯示某人、團隊、系統或產品在實際運作／活動中的表現水平」。",
       "sentenceIndex": 9,
@@ -900,12 +903,9 @@ export default {
         "performed well"
       ],
       "optionReasons": {
-        "perform-pdf-001": "本句指「顯示某人、團隊、系統或產品在實際運作／活動中的表現水平」。",
-        "perform-mcq-02": "「實際履行某個職位／身分應承擔的職責」與本句語境不同。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
-        "perform-mcq-01": "「按要求正式執行、進行或完成某項任務、行動或程序」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。"
+        "perform-pdf-001": "本句的「performed well」指「顯示某人、團隊、系統或產品在實際運作／活動中的表現水平」。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-pdf-001"
     },
@@ -917,11 +917,8 @@ export default {
       "masked": "The system ____ poorly during testing.",
       "options": [
         "perform-pdf-001",
-        "perform-mcq-02",
         "perform-mcq-04",
-        "perform-mcq-01",
-        "perform-mcq-05",
-        "perform-mcq-06"
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「performed」指「顯示某人、團隊、系統或產品在實際運作／活動中的表現水平」。",
       "sentenceIndex": 10,
@@ -930,12 +927,9 @@ export default {
         "performed"
       ],
       "optionReasons": {
-        "perform-pdf-001": "本句指「顯示某人、團隊、系統或產品在實際運作／活動中的表現水平」。",
-        "perform-mcq-02": "「實際履行某個職位／身分應承擔的職責」與本句語境不同。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
-        "perform-mcq-01": "「按要求正式執行、進行或完成某項任務、行動或程序」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。"
+        "perform-pdf-001": "本句的「performed」指「顯示某人、團隊、系統或產品在實際運作／活動中的表現水平」。",
+        "perform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-pdf-001"
     },
@@ -947,11 +941,9 @@ export default {
       "masked": "Elite athletes need to ____.",
       "options": [
         "perform-mcq-04",
-        "perform-mcq-03",
-        "perform-mcq-05",
-        "perform-mcq-02",
         "perform-mcq-06",
-        "perform-mcq-01"
+        "perform-mcq-09",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「perform under pressure」指「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」。",
       "sentenceIndex": 11,
@@ -960,12 +952,10 @@ export default {
         "perform under pressure"
       ],
       "optionReasons": {
-        "perform-mcq-04": "本句指「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」。",
-        "perform-mcq-03": "「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-02": "「實際履行某個職位／身分應承擔的職責」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。",
-        "perform-mcq-01": "「按要求正式執行、進行或完成某項任務、行動或程序」與本句語境不同。"
+        "perform-mcq-04": "本句的「perform under pressure」指「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」。",
+        "perform-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-04"
     },
@@ -977,11 +967,9 @@ export default {
       "masked": "She ____ well under pressure.",
       "options": [
         "perform-mcq-04",
-        "perform-mcq-03",
-        "perform-mcq-05",
-        "perform-mcq-02",
-        "perform-mcq-06",
-        "perform-mcq-01"
+        "perform-mcq-20",
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-02"
       ],
       "explanation": "本句的「performs」指「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」。",
       "sentenceIndex": 12,
@@ -990,12 +978,10 @@ export default {
         "performs"
       ],
       "optionReasons": {
-        "perform-mcq-04": "本句指「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」。",
-        "perform-mcq-03": "「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-02": "「實際履行某個職位／身分應承擔的職責」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。",
-        "perform-mcq-01": "「按要求正式執行、進行或完成某項任務、行動或程序」與本句語境不同。"
+        "perform-mcq-04": "本句的「performs」指「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」。",
+        "perform-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-04"
     },
@@ -1007,11 +993,9 @@ export default {
       "masked": "The band will ____ tonight.",
       "options": [
         "perform-mcq-05",
-        "perform-mcq-04",
-        "perform-mcq-06",
-        "perform-mcq-03",
-        "perform-mcq-07",
-        "perform-mcq-02"
+        "perform-mcq-13",
+        "perform-mcq-10",
+        "perform-mcq-18"
       ],
       "explanation": "本句的「perform」指「在觀眾面前進行音樂、戲劇、舞蹈等演出」。",
       "sentenceIndex": 13,
@@ -1020,12 +1004,10 @@ export default {
         "perform"
       ],
       "optionReasons": {
-        "perform-mcq-05": "本句指「在觀眾面前進行音樂、戲劇、舞蹈等演出」。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。",
-        "perform-mcq-03": "「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」與本句語境不同。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。",
-        "perform-mcq-02": "「實際履行某個職位／身分應承擔的職責」與本句語境不同。"
+        "perform-mcq-05": "本句的「perform」指「在觀眾面前進行音樂、戲劇、舞蹈等演出」。",
+        "perform-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-05"
     },
@@ -1037,11 +1019,9 @@ export default {
       "masked": "She ____ on stage for the first time.",
       "options": [
         "perform-mcq-05",
-        "perform-mcq-04",
-        "perform-mcq-06",
-        "perform-mcq-03",
-        "perform-mcq-07",
-        "perform-mcq-02"
+        "perform-mcq-22",
+        "perform-mcq-19",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「performed」指「在觀眾面前進行音樂、戲劇、舞蹈等演出」。",
       "sentenceIndex": 14,
@@ -1050,12 +1030,10 @@ export default {
         "performed"
       ],
       "optionReasons": {
-        "perform-mcq-05": "本句指「在觀眾面前進行音樂、戲劇、舞蹈等演出」。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。",
-        "perform-mcq-03": "「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」與本句語境不同。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。",
-        "perform-mcq-02": "「實際履行某個職位／身分應承擔的職責」與本句語境不同。"
+        "perform-mcq-05": "本句的「performed」指「在觀眾面前進行音樂、戲劇、舞蹈等演出」。",
+        "perform-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-05"
     },
@@ -1067,11 +1045,9 @@ export default {
       "masked": "She ____ a traditional song.",
       "options": [
         "perform-mcq-06",
-        "perform-mcq-05",
-        "perform-mcq-07",
         "perform-mcq-04",
-        "perform-mcq-08",
-        "perform-mcq-03"
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-08"
       ],
       "explanation": "本句的「performed」指「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」。",
       "sentenceIndex": 15,
@@ -1080,12 +1056,10 @@ export default {
         "performed"
       ],
       "optionReasons": {
-        "perform-mcq-06": "本句指「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
-        "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。",
-        "perform-mcq-03": "「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」與本句語境不同。"
+        "perform-mcq-06": "本句的「performed」指「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」。",
+        "perform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-06"
     },
@@ -1097,11 +1071,9 @@ export default {
       "masked": "The students ____ a short play.",
       "options": [
         "perform-mcq-06",
-        "perform-mcq-05",
-        "perform-mcq-07",
+        "perform-reviewed-3d4a069021",
         "perform-mcq-04",
-        "perform-mcq-08",
-        "perform-mcq-03"
+        "perform-mcq-08"
       ],
       "explanation": "本句的「performed」指「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」。",
       "sentenceIndex": 16,
@@ -1110,12 +1082,10 @@ export default {
         "performed"
       ],
       "optionReasons": {
-        "perform-mcq-06": "本句指「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
-        "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。",
-        "perform-mcq-03": "「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」與本句語境不同。"
+        "perform-mcq-06": "本句的「performed」指「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-06"
     },
@@ -1127,11 +1097,8 @@ export default {
       "masked": "She is one of the team’s top ____.",
       "options": [
         "perform-mcq-17",
-        "perform-mcq-16",
-        "perform-mcq-18",
-        "perform-mcq-15",
-        "perform-mcq-19",
-        "perform-mcq-14"
+        "perform-mcq-10",
+        "perform-mcq-22"
       ],
       "explanation": "本句的「performers」指「在工作、競賽或市場中呈現某種績效水平的人／事物」。",
       "sentenceIndex": 21,
@@ -1140,12 +1107,9 @@ export default {
         "performers"
       ],
       "optionReasons": {
-        "perform-mcq-17": "本句指「在工作、競賽或市場中呈現某種績效水平的人／事物」。",
-        "perform-mcq-16": "「實際進行舞台／藝術演出的人」與本句語境不同。",
-        "perform-mcq-18": "「設計或運作於非常高能力、速度、效率或競技水平的」與本句語境不同。",
-        "perform-mcq-15": "「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」與本句語境不同。",
-        "perform-mcq-19": "「實際成果持續達到很高水平的」與本句語境不同。",
-        "perform-mcq-14": "「對員工一段時期工作表現進行正式評估和討論」與本句語境不同。"
+        "perform-mcq-17": "本句的「performers」指「在工作、競賽或市場中呈現某種績效水平的人／事物」。",
+        "perform-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-17"
     },
@@ -1157,11 +1121,9 @@ export default {
       "masked": "This product has been a strong ____ in the market.",
       "options": [
         "perform-mcq-17",
-        "perform-mcq-16",
-        "perform-mcq-18",
-        "perform-mcq-15",
-        "perform-mcq-19",
-        "perform-mcq-14"
+        "perform-pdf-002",
+        "perform-mcq-04",
+        "perform-mcq-08"
       ],
       "explanation": "本句的「performer」指「在工作、競賽或市場中呈現某種績效水平的人／事物」。",
       "sentenceIndex": 22,
@@ -1170,74 +1132,68 @@ export default {
         "performer"
       ],
       "optionReasons": {
-        "perform-mcq-17": "本句指「在工作、競賽或市場中呈現某種績效水平的人／事物」。",
-        "perform-mcq-16": "「實際進行舞台／藝術演出的人」與本句語境不同。",
-        "perform-mcq-18": "「設計或運作於非常高能力、速度、效率或競技水平的」與本句語境不同。",
-        "perform-mcq-15": "「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」與本句語境不同。",
-        "perform-mcq-19": "「實際成果持續達到很高水平的」與本句語境不同。",
-        "perform-mcq-14": "「對員工一段時期工作表現進行正式評估和討論」與本句語境不同。"
+        "perform-mcq-17": "本句的「performer」指「在工作、競賽或市場中呈現某種績效水平的人／事物」。",
+        "perform-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-17"
     },
     {
       "id": "perform-12-0",
-      "sense": "perform-mcq-06",
+      "sense": "perform-reviewed-95d6c23f69",
       "en": "The company rewards its top performers.",
       "zh": "公司獎勵其表現最出色的員工。",
       "masked": "The company rewards its ____.",
       "options": [
-        "perform-mcq-06",
-        "perform-mcq-05",
-        "perform-mcq-07",
-        "perform-mcq-04",
-        "perform-mcq-08",
-        "perform-mcq-03"
+        "perform-reviewed-95d6c23f69",
+        "perform-mcq-09",
+        "perform-mcq-21",
+        "perform-mcq-18"
       ],
-      "explanation": "本句的「top performers」指「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」。",
+      "explanation": "對照完整句子：「公司獎勵其表現最出色的員工。」。這裡的「top performers」表示「頂尖表現者」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "top performers"
       ],
       "optionReasons": {
-        "perform-mcq-06": "本句指「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
-        "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。",
-        "perform-mcq-03": "「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」與本句語境不同。"
+        "perform-reviewed-95d6c23f69": "對照完整句子：「公司獎勵其表現最出色的員工。」。這裡的「top performers」表示「頂尖表現者」。",
+        "perform-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "perform-mcq-06"
+      "correctOption": "perform-reviewed-95d6c23f69",
+      "previousCorrectOption": "perform-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "perform-12-1",
-      "sense": "perform-mcq-06",
+      "sense": "perform-reviewed-95d6c23f69",
       "en": "She was the top performer in the squad.",
       "zh": "她是隊伍中表現最出色的成員。",
       "masked": "She was the top ____ in the squad.",
       "options": [
-        "perform-mcq-06",
-        "perform-mcq-05",
-        "perform-mcq-07",
-        "perform-mcq-04",
-        "perform-mcq-08",
-        "perform-mcq-03"
+        "perform-reviewed-95d6c23f69",
+        "perform-mcq-09",
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-10"
       ],
-      "explanation": "本句的「performer」指「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」。",
+      "explanation": "對照完整句子：「她是隊伍中表現最出色的成員。」。這裡的「performer」表示「頂尖表現者」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "performer"
       ],
       "optionReasons": {
-        "perform-mcq-06": "本句指「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。",
-        "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。",
-        "perform-mcq-03": "「在比賽、工作、測試或其他活動中實際展現某種能力和成果水平」與本句語境不同。"
+        "perform-reviewed-95d6c23f69": "對照完整句子：「她是隊伍中表現最出色的成員。」。這裡的「performer」表示「頂尖表現者」。",
+        "perform-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "perform-mcq-06"
+      "correctOption": "perform-reviewed-95d6c23f69",
+      "previousCorrectOption": "perform-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "perform-14-0",
@@ -1247,11 +1203,8 @@ export default {
       "masked": "The update improved system ____.",
       "options": [
         "perform-mcq-07",
-        "perform-mcq-06",
-        "perform-mcq-08",
         "perform-mcq-05",
-        "perform-mcq-09",
-        "perform-mcq-04"
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「performance」指「系統、產品或機器在實際使用中運作並產生某種程度的效果」。",
       "sentenceIndex": 27,
@@ -1260,12 +1213,9 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "perform-mcq-07": "本句指「系統、產品或機器在實際使用中運作並產生某種程度的效果」。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。",
-        "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-09": "「由專業醫療人員實施手術或醫療程序」與本句語境不同。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。"
+        "perform-mcq-07": "本句的「performance」指「系統、產品或機器在實際使用中運作並產生某種程度的效果」。",
+        "perform-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-07"
     },
@@ -1277,11 +1227,7 @@ export default {
       "masked": "Battery life can affect overall product ____.",
       "options": [
         "perform-mcq-07",
-        "perform-mcq-06",
-        "perform-mcq-08",
-        "perform-mcq-05",
-        "perform-mcq-09",
-        "perform-mcq-04"
+        "perform-mcq-14"
       ],
       "explanation": "本句的「performance」指「系統、產品或機器在實際使用中運作並產生某種程度的效果」。",
       "sentenceIndex": 28,
@@ -1290,12 +1236,8 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "perform-mcq-07": "本句指「系統、產品或機器在實際使用中運作並產生某種程度的效果」。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。",
-        "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。",
-        "perform-mcq-09": "「由專業醫療人員實施手術或醫療程序」與本句語境不同。",
-        "perform-mcq-04": "「在緊張、高風險或要求很高的情況下仍能維持並發揮能力」與本句語境不同。"
+        "perform-mcq-07": "本句的「performance」指「系統、產品或機器在實際使用中運作並產生某種程度的效果」。",
+        "perform-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-07"
     },
@@ -1307,11 +1249,9 @@ export default {
       "masked": "The laboratory ____ several tests.",
       "options": [
         "perform-mcq-08",
-        "perform-mcq-07",
-        "perform-mcq-09",
-        "perform-mcq-06",
-        "perform-mcq-10",
-        "perform-mcq-05"
+        "perform-mcq-04",
+        "perform-mcq-15",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「performed」指「按既定程序進行測試、檢驗或實驗」。",
       "sentenceIndex": 29,
@@ -1320,12 +1260,10 @@ export default {
         "performed"
       ],
       "optionReasons": {
-        "perform-mcq-08": "本句指「按既定程序進行測試、檢驗或實驗」。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。",
-        "perform-mcq-09": "「由專業醫療人員實施手術或醫療程序」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。",
-        "perform-mcq-10": "「實際承擔並發揮某種用途或作用」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。"
+        "perform-mcq-08": "本句的「performed」指「按既定程序進行測試、檢驗或實驗」。",
+        "perform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-08"
     },
@@ -1337,11 +1275,9 @@ export default {
       "masked": "Engineers ____ a safety test before launch.",
       "options": [
         "perform-mcq-08",
-        "perform-mcq-07",
-        "perform-mcq-09",
-        "perform-mcq-06",
-        "perform-mcq-10",
-        "perform-mcq-05"
+        "perform-mcq-15",
+        "perform-mcq-18",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「performed」指「按既定程序進行測試、檢驗或實驗」。",
       "sentenceIndex": 30,
@@ -1350,12 +1286,10 @@ export default {
         "performed"
       ],
       "optionReasons": {
-        "perform-mcq-08": "本句指「按既定程序進行測試、檢驗或實驗」。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。",
-        "perform-mcq-09": "「由專業醫療人員實施手術或醫療程序」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。",
-        "perform-mcq-10": "「實際承擔並發揮某種用途或作用」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。"
+        "perform-mcq-08": "本句的「performed」指「按既定程序進行測試、檢驗或實驗」。",
+        "perform-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-08"
     },
@@ -1367,11 +1301,9 @@ export default {
       "masked": "The researchers ____ the experiment three times.",
       "options": [
         "perform-mcq-08",
-        "perform-mcq-07",
-        "perform-mcq-09",
-        "perform-mcq-06",
-        "perform-mcq-10",
-        "perform-mcq-05"
+        "perform-reviewed-95d6c23f69",
+        "perform-mcq-04",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「performed」指「按既定程序進行測試、檢驗或實驗」。",
       "sentenceIndex": 31,
@@ -1380,12 +1312,10 @@ export default {
         "performed"
       ],
       "optionReasons": {
-        "perform-mcq-08": "本句指「按既定程序進行測試、檢驗或實驗」。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。",
-        "perform-mcq-09": "「由專業醫療人員實施手術或醫療程序」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。",
-        "perform-mcq-10": "「實際承擔並發揮某種用途或作用」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。"
+        "perform-mcq-08": "本句的「performed」指「按既定程序進行測試、檢驗或實驗」。",
+        "perform-reviewed-95d6c23f69": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-08"
     },
@@ -1397,11 +1327,9 @@ export default {
       "masked": "Students ____ a simple laboratory experiment.",
       "options": [
         "perform-mcq-08",
-        "perform-mcq-07",
-        "perform-mcq-09",
-        "perform-mcq-06",
-        "perform-mcq-10",
-        "perform-mcq-05"
+        "perform-mcq-18",
+        "perform-reviewed-95d6c23f69",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「performed」指「按既定程序進行測試、檢驗或實驗」。",
       "sentenceIndex": 32,
@@ -1410,12 +1338,10 @@ export default {
         "performed"
       ],
       "optionReasons": {
-        "perform-mcq-08": "本句指「按既定程序進行測試、檢驗或實驗」。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。",
-        "perform-mcq-09": "「由專業醫療人員實施手術或醫療程序」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。",
-        "perform-mcq-10": "「實際承擔並發揮某種用途或作用」與本句語境不同。",
-        "perform-mcq-05": "「在觀眾面前進行音樂、戲劇、舞蹈等演出」與本句語境不同。"
+        "perform-mcq-08": "本句的「performed」指「按既定程序進行測試、檢驗或實驗」。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-95d6c23f69": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-08"
     },
@@ -1427,11 +1353,9 @@ export default {
       "masked": "The surgeon ____ the operation successfully.",
       "options": [
         "perform-mcq-09",
-        "perform-mcq-08",
-        "perform-mcq-10",
-        "perform-mcq-07",
-        "perform-mcq-11",
-        "perform-mcq-06"
+        "perform-mcq-15",
+        "perform-mcq-18",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「performed」指「由專業醫療人員實施手術或醫療程序」。",
       "sentenceIndex": 35,
@@ -1440,12 +1364,10 @@ export default {
         "performed"
       ],
       "optionReasons": {
-        "perform-mcq-09": "本句指「由專業醫療人員實施手術或醫療程序」。",
-        "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。",
-        "perform-mcq-10": "「實際承擔並發揮某種用途或作用」與本句語境不同。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。",
-        "perform-mcq-11": "「某人、團隊或系統在活動中實際達到的表現水平／成果」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。"
+        "perform-mcq-09": "本句的「performed」指「由專業醫療人員實施手術或醫療程序」。",
+        "perform-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-09"
     },
@@ -1457,11 +1379,9 @@ export default {
       "masked": "The procedure was ____ under general anaesthesia.",
       "options": [
         "perform-mcq-09",
-        "perform-mcq-08",
-        "perform-mcq-10",
-        "perform-mcq-07",
-        "perform-mcq-11",
-        "perform-mcq-06"
+        "perform-mcq-04",
+        "perform-reviewed-26c6ee7aca",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「performed」指「由專業醫療人員實施手術或醫療程序」。",
       "sentenceIndex": 36,
@@ -1470,12 +1390,10 @@ export default {
         "performed"
       ],
       "optionReasons": {
-        "perform-mcq-09": "本句指「由專業醫療人員實施手術或醫療程序」。",
-        "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。",
-        "perform-mcq-10": "「實際承擔並發揮某種用途或作用」與本句語境不同。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。",
-        "perform-mcq-11": "「某人、團隊或系統在活動中實際達到的表現水平／成果」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。"
+        "perform-mcq-09": "本句的「performed」指「由專業醫療人員實施手術或醫療程序」。",
+        "perform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-26c6ee7aca": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-09"
     },
@@ -1487,11 +1405,9 @@ export default {
       "masked": "Only trained staff may ____ the procedure.",
       "options": [
         "perform-mcq-09",
-        "perform-mcq-08",
-        "perform-mcq-10",
-        "perform-mcq-07",
-        "perform-mcq-11",
-        "perform-mcq-06"
+        "perform-reviewed-95d6c23f69",
+        "perform-mcq-18",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「perform」指「由專業醫療人員實施手術或醫療程序」。",
       "sentenceIndex": 37,
@@ -1500,12 +1416,10 @@ export default {
         "perform"
       ],
       "optionReasons": {
-        "perform-mcq-09": "本句指「由專業醫療人員實施手術或醫療程序」。",
-        "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。",
-        "perform-mcq-10": "「實際承擔並發揮某種用途或作用」與本句語境不同。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。",
-        "perform-mcq-11": "「某人、團隊或系統在活動中實際達到的表現水平／成果」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。"
+        "perform-mcq-09": "本句的「perform」指「由專業醫療人員實施手術或醫療程序」。",
+        "perform-reviewed-95d6c23f69": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-09"
     },
@@ -1517,11 +1431,9 @@ export default {
       "masked": "The doctor ____ a minor procedure.",
       "options": [
         "perform-mcq-09",
-        "perform-mcq-08",
-        "perform-mcq-10",
-        "perform-mcq-07",
-        "perform-mcq-11",
-        "perform-mcq-06"
+        "perform-mcq-05",
+        "perform-mcq-18",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「performed」指「由專業醫療人員實施手術或醫療程序」。",
       "sentenceIndex": 38,
@@ -1530,12 +1442,10 @@ export default {
         "performed"
       ],
       "optionReasons": {
-        "perform-mcq-09": "本句指「由專業醫療人員實施手術或醫療程序」。",
-        "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。",
-        "perform-mcq-10": "「實際承擔並發揮某種用途或作用」與本句語境不同。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。",
-        "perform-mcq-11": "「某人、團隊或系統在活動中實際達到的表現水平／成果」與本句語境不同。",
-        "perform-mcq-06": "「把歌曲、戲劇或其他藝術作品實際呈現給觀眾」與本句語境不同。"
+        "perform-mcq-09": "本句的「performed」指「由專業醫療人員實施手術或醫療程序」。",
+        "perform-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-09"
     },
@@ -1547,11 +1457,9 @@ export default {
       "masked": "The muscles ____ different functions during running.",
       "options": [
         "perform-mcq-10",
-        "perform-mcq-09",
-        "perform-mcq-11",
-        "perform-mcq-08",
-        "perform-mcq-12",
-        "perform-mcq-07"
+        "perform-reviewed-95d6c23f69",
+        "perform-mcq-01",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「perform」指「實際承擔並發揮某種用途或作用」。",
       "sentenceIndex": 39,
@@ -1560,12 +1468,10 @@ export default {
         "perform"
       ],
       "optionReasons": {
-        "perform-mcq-10": "本句指「實際承擔並發揮某種用途或作用」。",
-        "perform-mcq-09": "「由專業醫療人員實施手術或醫療程序」與本句語境不同。",
-        "perform-mcq-11": "「某人、團隊或系統在活動中實際達到的表現水平／成果」與本句語境不同。",
-        "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。",
-        "perform-mcq-12": "「運動員在訓練或比賽中實際展現出的競技能力和成果」與本句語境不同。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。"
+        "perform-mcq-10": "本句的「perform」指「實際承擔並發揮某種用途或作用」。",
+        "perform-reviewed-95d6c23f69": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-10"
     },
@@ -1577,11 +1483,9 @@ export default {
       "masked": "This component ____ two important functions.",
       "options": [
         "perform-mcq-10",
-        "perform-mcq-09",
-        "perform-mcq-11",
-        "perform-mcq-08",
-        "perform-mcq-12",
-        "perform-mcq-07"
+        "perform-mcq-13",
+        "perform-reviewed-a378681023",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「performs」指「實際承擔並發揮某種用途或作用」。",
       "sentenceIndex": 40,
@@ -1590,12 +1494,10 @@ export default {
         "performs"
       ],
       "optionReasons": {
-        "perform-mcq-10": "本句指「實際承擔並發揮某種用途或作用」。",
-        "perform-mcq-09": "「由專業醫療人員實施手術或醫療程序」與本句語境不同。",
-        "perform-mcq-11": "「某人、團隊或系統在活動中實際達到的表現水平／成果」與本句語境不同。",
-        "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。",
-        "perform-mcq-12": "「運動員在訓練或比賽中實際展現出的競技能力和成果」與本句語境不同。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。"
+        "perform-mcq-10": "本句的「performs」指「實際承擔並發揮某種用途或作用」。",
+        "perform-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-a378681023": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-10"
     },
@@ -1607,11 +1509,9 @@ export default {
       "masked": "The captain ____ an important leadership role.",
       "options": [
         "perform-pdf-002",
-        "perform-mcq-09",
-        "perform-mcq-11",
-        "perform-mcq-08",
-        "perform-mcq-12",
-        "perform-mcq-07"
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-04",
+        "perform-mcq-15"
       ],
       "explanation": "本句的「performs」指「實際履行某個角色所包含的責任或功能」。",
       "sentenceIndex": 41,
@@ -1620,12 +1520,10 @@ export default {
         "performs"
       ],
       "optionReasons": {
-        "perform-pdf-002": "本句指「實際履行某個角色所包含的責任或功能」。",
-        "perform-mcq-09": "「由專業醫療人員實施手術或醫療程序」與本句語境不同。",
-        "perform-mcq-11": "「某人、團隊或系統在活動中實際達到的表現水平／成果」與本句語境不同。",
-        "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。",
-        "perform-mcq-12": "「運動員在訓練或比賽中實際展現出的競技能力和成果」與本句語境不同。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。"
+        "perform-pdf-002": "本句的「performs」指「實際履行某個角色所包含的責任或功能」。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-pdf-002"
     },
@@ -1637,11 +1535,9 @@ export default {
       "masked": "Volunteers ____ several roles during the event.",
       "options": [
         "perform-pdf-002",
-        "perform-mcq-09",
-        "perform-mcq-11",
-        "perform-mcq-08",
-        "perform-mcq-12",
-        "perform-mcq-07"
+        "perform-mcq-13",
+        "perform-mcq-18",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「perform」指「實際履行某個角色所包含的責任或功能」。",
       "sentenceIndex": 42,
@@ -1650,12 +1546,10 @@ export default {
         "perform"
       ],
       "optionReasons": {
-        "perform-pdf-002": "本句指「實際履行某個角色所包含的責任或功能」。",
-        "perform-mcq-09": "「由專業醫療人員實施手術或醫療程序」與本句語境不同。",
-        "perform-mcq-11": "「某人、團隊或系統在活動中實際達到的表現水平／成果」與本句語境不同。",
-        "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。",
-        "perform-mcq-12": "「運動員在訓練或比賽中實際展現出的競技能力和成果」與本句語境不同。",
-        "perform-mcq-07": "「系統、產品或機器在實際使用中運作並產生某種程度的效果」與本句語境不同。"
+        "perform-pdf-002": "本句的「perform」指「實際履行某個角色所包含的責任或功能」。",
+        "perform-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-pdf-002"
     },
@@ -1667,11 +1561,8 @@ export default {
       "masked": "Her ____ improved during the season.",
       "options": [
         "perform-mcq-11",
-        "perform-mcq-10",
-        "perform-mcq-12",
-        "perform-mcq-09",
-        "perform-mcq-13",
-        "perform-mcq-08"
+        "perform-mcq-04",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「performance」指「某人、團隊或系統在活動中實際達到的表現水平／成果」。",
       "sentenceIndex": 43,
@@ -1680,12 +1571,9 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "perform-mcq-11": "本句指「某人、團隊或系統在活動中實際達到的表現水平／成果」。",
-        "perform-mcq-10": "「實際承擔並發揮某種用途或作用」與本句語境不同。",
-        "perform-mcq-12": "「運動員在訓練或比賽中實際展現出的競技能力和成果」與本句語境不同。",
-        "perform-mcq-09": "「由專業醫療人員實施手術或醫療程序」與本句語境不同。",
-        "perform-mcq-13": "「員工在職務中完成工作和達到要求的程度」與本句語境不同。",
-        "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。"
+        "perform-mcq-11": "本句的「performance」指「某人、團隊或系統在活動中實際達到的表現水平／成果」。",
+        "perform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-11"
     },
@@ -1697,11 +1585,8 @@ export default {
       "masked": "The coach reviews each athlete’s ____.",
       "options": [
         "perform-mcq-11",
-        "perform-mcq-10",
-        "perform-mcq-12",
-        "perform-mcq-09",
-        "perform-mcq-13",
-        "perform-mcq-08"
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-04"
       ],
       "explanation": "本句的「performance」指「某人、團隊或系統在活動中實際達到的表現水平／成果」。",
       "sentenceIndex": 44,
@@ -1710,12 +1595,9 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "perform-mcq-11": "本句指「某人、團隊或系統在活動中實際達到的表現水平／成果」。",
-        "perform-mcq-10": "「實際承擔並發揮某種用途或作用」與本句語境不同。",
-        "perform-mcq-12": "「運動員在訓練或比賽中實際展現出的競技能力和成果」與本句語境不同。",
-        "perform-mcq-09": "「由專業醫療人員實施手術或醫療程序」與本句語境不同。",
-        "perform-mcq-13": "「員工在職務中完成工作和達到要求的程度」與本句語境不同。",
-        "perform-mcq-08": "「按既定程序進行測試、檢驗或實驗」與本句語境不同。"
+        "perform-mcq-11": "本句的「performance」指「某人、團隊或系統在活動中實際達到的表現水平／成果」。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-11"
     },
@@ -1727,11 +1609,8 @@ export default {
       "masked": "Recovery has a major effect on athletic ____.",
       "options": [
         "perform-mcq-12",
-        "perform-mcq-11",
-        "perform-mcq-13",
-        "perform-mcq-10",
-        "perform-mcq-14",
-        "perform-mcq-09"
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-22"
       ],
       "explanation": "本句的「performance」指「運動員在訓練或比賽中實際展現出的競技能力和成果」。",
       "sentenceIndex": 45,
@@ -1740,12 +1619,9 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "perform-mcq-12": "本句指「運動員在訓練或比賽中實際展現出的競技能力和成果」。",
-        "perform-mcq-11": "「某人、團隊或系統在活動中實際達到的表現水平／成果」與本句語境不同。",
-        "perform-mcq-13": "「員工在職務中完成工作和達到要求的程度」與本句語境不同。",
-        "perform-mcq-10": "「實際承擔並發揮某種用途或作用」與本句語境不同。",
-        "perform-mcq-14": "「對員工一段時期工作表現進行正式評估和討論」與本句語境不同。",
-        "perform-mcq-09": "「由專業醫療人員實施手術或醫療程序」與本句語境不同。"
+        "perform-mcq-12": "本句的「performance」指「運動員在訓練或比賽中實際展現出的競技能力和成果」。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-12"
     },
@@ -1757,11 +1633,9 @@ export default {
       "masked": "Nutrition can influence sporting ____.",
       "options": [
         "perform-mcq-12",
-        "perform-mcq-11",
-        "perform-mcq-13",
-        "perform-mcq-10",
-        "perform-mcq-14",
-        "perform-mcq-09"
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-08",
+        "perform-mcq-13"
       ],
       "explanation": "本句的「performance」指「運動員在訓練或比賽中實際展現出的競技能力和成果」。",
       "sentenceIndex": 46,
@@ -1770,12 +1644,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "perform-mcq-12": "本句指「運動員在訓練或比賽中實際展現出的競技能力和成果」。",
-        "perform-mcq-11": "「某人、團隊或系統在活動中實際達到的表現水平／成果」與本句語境不同。",
-        "perform-mcq-13": "「員工在職務中完成工作和達到要求的程度」與本句語境不同。",
-        "perform-mcq-10": "「實際承擔並發揮某種用途或作用」與本句語境不同。",
-        "perform-mcq-14": "「對員工一段時期工作表現進行正式評估和討論」與本句語境不同。",
-        "perform-mcq-09": "「由專業醫療人員實施手術或醫療程序」與本句語境不同。"
+        "perform-mcq-12": "本句的「performance」指「運動員在訓練或比賽中實際展現出的競技能力和成果」。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-12"
     },
@@ -1787,11 +1659,9 @@ export default {
       "masked": "Regular feedback can improve ____.",
       "options": [
         "perform-mcq-13",
-        "perform-mcq-12",
-        "perform-mcq-14",
-        "perform-mcq-11",
-        "perform-mcq-15",
-        "perform-mcq-10"
+        "perform-reviewed-95d6c23f69",
+        "perform-mcq-10",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「job performance」指「員工在職務中完成工作和達到要求的程度」。",
       "sentenceIndex": 47,
@@ -1800,12 +1670,10 @@ export default {
         "job performance"
       ],
       "optionReasons": {
-        "perform-mcq-13": "本句指「員工在職務中完成工作和達到要求的程度」。",
-        "perform-mcq-12": "「運動員在訓練或比賽中實際展現出的競技能力和成果」與本句語境不同。",
-        "perform-mcq-14": "「對員工一段時期工作表現進行正式評估和討論」與本句語境不同。",
-        "perform-mcq-11": "「某人、團隊或系統在活動中實際達到的表現水平／成果」與本句語境不同。",
-        "perform-mcq-15": "「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」與本句語境不同。",
-        "perform-mcq-10": "「實際承擔並發揮某種用途或作用」與本句語境不同。"
+        "perform-mcq-13": "本句的「job performance」指「員工在職務中完成工作和達到要求的程度」。",
+        "perform-reviewed-95d6c23f69": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-13"
     },
@@ -1817,11 +1685,9 @@ export default {
       "masked": "Her job ____ has been consistently strong.",
       "options": [
         "perform-mcq-13",
-        "perform-mcq-12",
-        "perform-mcq-14",
-        "perform-mcq-11",
-        "perform-mcq-15",
-        "perform-mcq-10"
+        "perform-mcq-06",
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-08"
       ],
       "explanation": "本句的「performance」指「員工在職務中完成工作和達到要求的程度」。",
       "sentenceIndex": 48,
@@ -1830,12 +1696,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "perform-mcq-13": "本句指「員工在職務中完成工作和達到要求的程度」。",
-        "perform-mcq-12": "「運動員在訓練或比賽中實際展現出的競技能力和成果」與本句語境不同。",
-        "perform-mcq-14": "「對員工一段時期工作表現進行正式評估和討論」與本句語境不同。",
-        "perform-mcq-11": "「某人、團隊或系統在活動中實際達到的表現水平／成果」與本句語境不同。",
-        "perform-mcq-15": "「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」與本句語境不同。",
-        "perform-mcq-10": "「實際承擔並發揮某種用途或作用」與本句語境不同。"
+        "perform-mcq-13": "本句的「performance」指「員工在職務中完成工作和達到要求的程度」。",
+        "perform-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-13"
     },
@@ -1847,11 +1711,8 @@ export default {
       "masked": "Employees receive an annual ____.",
       "options": [
         "perform-mcq-14",
-        "perform-mcq-13",
-        "perform-mcq-15",
-        "perform-mcq-12",
-        "perform-mcq-16",
-        "perform-mcq-11"
+        "perform-mcq-04",
+        "perform-pdf-002"
       ],
       "explanation": "本句的「performance review」指「對員工一段時期工作表現進行正式評估和討論」。",
       "sentenceIndex": 49,
@@ -1860,12 +1721,9 @@ export default {
         "performance review"
       ],
       "optionReasons": {
-        "perform-mcq-14": "本句指「對員工一段時期工作表現進行正式評估和討論」。",
-        "perform-mcq-13": "「員工在職務中完成工作和達到要求的程度」與本句語境不同。",
-        "perform-mcq-15": "「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」與本句語境不同。",
-        "perform-mcq-12": "「運動員在訓練或比賽中實際展現出的競技能力和成果」與本句語境不同。",
-        "perform-mcq-16": "「實際進行舞台／藝術演出的人」與本句語境不同。",
-        "perform-mcq-11": "「某人、團隊或系統在活動中實際達到的表現水平／成果」與本句語境不同。"
+        "perform-mcq-14": "本句的「performance review」指「對員工一段時期工作表現進行正式評估和討論」。",
+        "perform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "perform-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-14"
     },
@@ -1877,11 +1735,8 @@ export default {
       "masked": "The manager discussed her goals during the ____ review.",
       "options": [
         "perform-mcq-14",
-        "perform-mcq-13",
-        "perform-mcq-15",
-        "perform-mcq-12",
-        "perform-mcq-16",
-        "perform-mcq-11"
+        "perform-mcq-18",
+        "perform-mcq-10"
       ],
       "explanation": "本句的「performance」指「對員工一段時期工作表現進行正式評估和討論」。",
       "sentenceIndex": 50,
@@ -1890,74 +1745,67 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "perform-mcq-14": "本句指「對員工一段時期工作表現進行正式評估和討論」。",
-        "perform-mcq-13": "「員工在職務中完成工作和達到要求的程度」與本句語境不同。",
-        "perform-mcq-15": "「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」與本句語境不同。",
-        "perform-mcq-12": "「運動員在訓練或比賽中實際展現出的競技能力和成果」與本句語境不同。",
-        "perform-mcq-16": "「實際進行舞台／藝術演出的人」與本句語境不同。",
-        "perform-mcq-11": "「某人、團隊或系統在活動中實際達到的表現水平／成果」與本句語境不同。"
+        "perform-mcq-14": "本句的「performance」指「對員工一段時期工作表現進行正式評估和討論」。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-14"
     },
     {
       "id": "perform-26-0",
-      "sense": "perform-mcq-15",
+      "sense": "perform-reviewed-3d4a069021",
       "en": "The organisation uses a formal performance appraisal system.",
       "zh": "機構採用正式的績效評估制度。",
       "masked": "The organisation uses a formal ____ appraisal system.",
       "options": [
-        "perform-mcq-15",
-        "perform-mcq-14",
-        "perform-mcq-16",
-        "perform-mcq-13",
-        "perform-mcq-17",
-        "perform-mcq-12"
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-20",
+        "perform-pdf-002",
+        "perform-mcq-04"
       ],
-      "explanation": "本句的「performance」指「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」。",
+      "explanation": "對照完整句子：「機構採用正式的績效評估制度。」。這裡的「performance」表示「績效評估」。",
       "sentenceIndex": 51,
       "sourcePractice": 52,
       "targets": [
         "performance"
       ],
       "optionReasons": {
-        "perform-mcq-15": "本句指「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」。",
-        "perform-mcq-14": "「對員工一段時期工作表現進行正式評估和討論」與本句語境不同。",
-        "perform-mcq-16": "「實際進行舞台／藝術演出的人」與本句語境不同。",
-        "perform-mcq-13": "「員工在職務中完成工作和達到要求的程度」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。",
-        "perform-mcq-12": "「運動員在訓練或比賽中實際展現出的競技能力和成果」與本句語境不同。"
+        "perform-reviewed-3d4a069021": "對照完整句子：「機構採用正式的績效評估制度。」。這裡的「performance」表示「績效評估」。",
+        "perform-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "perform-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "perform-mcq-15"
+      "correctOption": "perform-reviewed-3d4a069021",
+      "previousCorrectOption": "perform-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "perform-26-1",
-      "sense": "perform-mcq-15",
+      "sense": "perform-reviewed-3d4a069021",
       "en": "Performance appraisals are conducted twice a year.",
       "zh": "績效評估每年進行兩次。",
       "masked": "____ appraisals are conducted twice a year.",
       "options": [
-        "perform-mcq-15",
-        "perform-mcq-14",
-        "perform-mcq-16",
-        "perform-mcq-13",
-        "perform-mcq-17",
-        "perform-mcq-12"
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-06",
+        "perform-mcq-09",
+        "perform-mcq-04"
       ],
-      "explanation": "本句的「Performance」指「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」。",
+      "explanation": "對照完整句子：「績效評估每年進行兩次。」。這裡的「Performance」表示「績效評估」。",
       "sentenceIndex": 52,
       "sourcePractice": 53,
       "targets": [
         "Performance"
       ],
       "optionReasons": {
-        "perform-mcq-15": "本句指「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」。",
-        "perform-mcq-14": "「對員工一段時期工作表現進行正式評估和討論」與本句語境不同。",
-        "perform-mcq-16": "「實際進行舞台／藝術演出的人」與本句語境不同。",
-        "perform-mcq-13": "「員工在職務中完成工作和達到要求的程度」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。",
-        "perform-mcq-12": "「運動員在訓練或比賽中實際展現出的競技能力和成果」與本句語境不同。"
+        "perform-reviewed-3d4a069021": "對照完整句子：「績效評估每年進行兩次。」。這裡的「Performance」表示「績效評估」。",
+        "perform-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "perform-mcq-15"
+      "correctOption": "perform-reviewed-3d4a069021",
+      "previousCorrectOption": "perform-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "perform-27-0",
@@ -1967,11 +1815,9 @@ export default {
       "masked": "She works in ____.",
       "options": [
         "perform-mcq-18",
-        "perform-mcq-17",
-        "perform-mcq-19",
-        "perform-mcq-16",
-        "perform-mcq-20",
-        "perform-mcq-15"
+        "perform-mcq-06",
+        "perform-mcq-22",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「high-performance sport」指「設計或運作於非常高能力、速度、效率或競技水平的」。",
       "sentenceIndex": 53,
@@ -1980,12 +1826,10 @@ export default {
         "high-performance sport"
       ],
       "optionReasons": {
-        "perform-mcq-18": "本句指「設計或運作於非常高能力、速度、效率或競技水平的」。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。",
-        "perform-mcq-19": "「實際成果持續達到很高水平的」與本句語境不同。",
-        "perform-mcq-16": "「實際進行舞台／藝術演出的人」與本句語境不同。",
-        "perform-mcq-20": "「用來衡量某人、團隊、系統或計劃表現的指標」與本句語境不同。",
-        "perform-mcq-15": "「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」與本句語境不同。"
+        "perform-mcq-18": "本句的「high-performance sport」指「設計或運作於非常高能力、速度、效率或競技水平的」。",
+        "perform-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-18"
     },
@@ -1997,11 +1841,9 @@ export default {
       "masked": "The laboratory uses high-____ equipment.",
       "options": [
         "perform-mcq-18",
-        "perform-mcq-17",
-        "perform-mcq-19",
-        "perform-mcq-16",
-        "perform-mcq-20",
-        "perform-mcq-15"
+        "perform-mcq-15",
+        "perform-mcq-08",
+        "perform-pdf-002"
       ],
       "explanation": "本句的「performance」指「設計或運作於非常高能力、速度、效率或競技水平的」。",
       "sentenceIndex": 54,
@@ -2010,12 +1852,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "perform-mcq-18": "本句指「設計或運作於非常高能力、速度、效率或競技水平的」。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。",
-        "perform-mcq-19": "「實際成果持續達到很高水平的」與本句語境不同。",
-        "perform-mcq-16": "「實際進行舞台／藝術演出的人」與本句語境不同。",
-        "perform-mcq-20": "「用來衡量某人、團隊、系統或計劃表現的指標」與本句語境不同。",
-        "perform-mcq-15": "「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」與本句語境不同。"
+        "perform-mcq-18": "本句的「performance」指「設計或運作於非常高能力、速度、效率或競技水平的」。",
+        "perform-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "perform-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-18"
     },
@@ -2027,11 +1867,7 @@ export default {
       "masked": "She leads a ____.",
       "options": [
         "perform-mcq-19",
-        "perform-mcq-18",
-        "perform-mcq-20",
-        "perform-mcq-17",
-        "perform-mcq-21",
-        "perform-mcq-16"
+        "perform-mcq-14"
       ],
       "explanation": "本句的「high-performing team」指「實際成果持續達到很高水平的」。",
       "sentenceIndex": 55,
@@ -2040,12 +1876,8 @@ export default {
         "high-performing team"
       ],
       "optionReasons": {
-        "perform-mcq-19": "本句指「實際成果持續達到很高水平的」。",
-        "perform-mcq-18": "「設計或運作於非常高能力、速度、效率或競技水平的」與本句語境不同。",
-        "perform-mcq-20": "「用來衡量某人、團隊、系統或計劃表現的指標」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。",
-        "perform-mcq-21": "「按合約或法律要求實際履行已承擔的義務」與本句語境不同。",
-        "perform-mcq-16": "「實際進行舞台／藝術演出的人」與本句語境不同。"
+        "perform-mcq-19": "本句的「high-performing team」指「實際成果持續達到很高水平的」。",
+        "perform-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-19"
     },
@@ -2057,11 +1889,9 @@ export default {
       "masked": "High-____ athletes manage recovery carefully.",
       "options": [
         "perform-mcq-19",
-        "perform-mcq-18",
-        "perform-mcq-20",
-        "perform-mcq-17",
-        "perform-mcq-21",
-        "perform-mcq-16"
+        "perform-reviewed-26c6ee7aca",
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-01"
       ],
       "explanation": "本句的「performing」指「實際成果持續達到很高水平的」。",
       "sentenceIndex": 56,
@@ -2070,12 +1900,10 @@ export default {
         "performing"
       ],
       "optionReasons": {
-        "perform-mcq-19": "本句指「實際成果持續達到很高水平的」。",
-        "perform-mcq-18": "「設計或運作於非常高能力、速度、效率或競技水平的」與本句語境不同。",
-        "perform-mcq-20": "「用來衡量某人、團隊、系統或計劃表現的指標」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。",
-        "perform-mcq-21": "「按合約或法律要求實際履行已承擔的義務」與本句語境不同。",
-        "perform-mcq-16": "「實際進行舞台／藝術演出的人」與本句語境不同。"
+        "perform-mcq-19": "本句的「performing」指「實際成果持續達到很高水平的」。",
+        "perform-reviewed-26c6ee7aca": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-19"
     },
@@ -2087,11 +1915,9 @@ export default {
       "masked": "Attendance is one of the programme’s key ____.",
       "options": [
         "perform-mcq-20",
-        "perform-mcq-19",
         "perform-mcq-21",
-        "perform-mcq-18",
-        "perform-mcq-22",
-        "perform-mcq-17"
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-18"
       ],
       "explanation": "本句的「performance indicators」指「用來衡量某人、團隊、系統或計劃表現的指標」。",
       "sentenceIndex": 57,
@@ -2100,12 +1926,10 @@ export default {
         "performance indicators"
       ],
       "optionReasons": {
-        "perform-mcq-20": "本句指「用來衡量某人、團隊、系統或計劃表現的指標」。",
-        "perform-mcq-19": "「實際成果持續達到很高水平的」與本句語境不同。",
-        "perform-mcq-21": "「按合約或法律要求實際履行已承擔的義務」與本句語境不同。",
-        "perform-mcq-18": "「設計或運作於非常高能力、速度、效率或競技水平的」與本句語境不同。",
-        "perform-mcq-22": "「按正式或傳統程序主持並完成某項儀式」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。"
+        "perform-mcq-20": "本句的「performance indicators」指「用來衡量某人、團隊、系統或計劃表現的指標」。",
+        "perform-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-20"
     },
@@ -2117,11 +1941,9 @@ export default {
       "masked": "Managers review ____ indicators every month.",
       "options": [
         "perform-mcq-20",
-        "perform-mcq-19",
-        "perform-mcq-21",
-        "perform-mcq-18",
-        "perform-mcq-22",
-        "perform-mcq-17"
+        "perform-mcq-02",
+        "perform-mcq-04",
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「performance」指「用來衡量某人、團隊、系統或計劃表現的指標」。",
       "sentenceIndex": 58,
@@ -2130,12 +1952,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "perform-mcq-20": "本句指「用來衡量某人、團隊、系統或計劃表現的指標」。",
-        "perform-mcq-19": "「實際成果持續達到很高水平的」與本句語境不同。",
-        "perform-mcq-21": "「按合約或法律要求實際履行已承擔的義務」與本句語境不同。",
-        "perform-mcq-18": "「設計或運作於非常高能力、速度、效率或競技水平的」與本句語境不同。",
-        "perform-mcq-22": "「按正式或傳統程序主持並完成某項儀式」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。"
+        "perform-mcq-20": "本句的「performance」指「用來衡量某人、團隊、系統或計劃表現的指標」。",
+        "perform-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-20"
     },
@@ -2147,11 +1967,9 @@ export default {
       "masked": "The coach tracks several ____.",
       "options": [
         "perform-mcq-20",
-        "perform-mcq-19",
-        "perform-mcq-21",
-        "perform-mcq-18",
-        "perform-mcq-22",
-        "perform-mcq-17"
+        "perform-reviewed-3d4a069021",
+        "perform-pdf-002",
+        "perform-mcq-04"
       ],
       "explanation": "本句的「performance metrics」指「用來衡量某人、團隊、系統或計劃表現的指標」。",
       "sentenceIndex": 59,
@@ -2160,12 +1978,10 @@ export default {
         "performance metrics"
       ],
       "optionReasons": {
-        "perform-mcq-20": "本句指「用來衡量某人、團隊、系統或計劃表現的指標」。",
-        "perform-mcq-19": "「實際成果持續達到很高水平的」與本句語境不同。",
-        "perform-mcq-21": "「按合約或法律要求實際履行已承擔的義務」與本句語境不同。",
-        "perform-mcq-18": "「設計或運作於非常高能力、速度、效率或競技水平的」與本句語境不同。",
-        "perform-mcq-22": "「按正式或傳統程序主持並完成某項儀式」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。"
+        "perform-mcq-20": "本句的「performance metrics」指「用來衡量某人、團隊、系統或計劃表現的指標」。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-20"
     },
@@ -2177,11 +1993,9 @@ export default {
       "masked": "Speed and recovery time are useful ____ metrics.",
       "options": [
         "perform-mcq-20",
-        "perform-mcq-19",
-        "perform-mcq-21",
-        "perform-mcq-18",
-        "perform-mcq-22",
-        "perform-mcq-17"
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-04",
+        "perform-pdf-002"
       ],
       "explanation": "本句的「performance」指「用來衡量某人、團隊、系統或計劃表現的指標」。",
       "sentenceIndex": 60,
@@ -2190,12 +2004,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "perform-mcq-20": "本句指「用來衡量某人、團隊、系統或計劃表現的指標」。",
-        "perform-mcq-19": "「實際成果持續達到很高水平的」與本句語境不同。",
-        "perform-mcq-21": "「按合約或法律要求實際履行已承擔的義務」與本句語境不同。",
-        "perform-mcq-18": "「設計或運作於非常高能力、速度、效率或競技水平的」與本句語境不同。",
-        "perform-mcq-22": "「按正式或傳統程序主持並完成某項儀式」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。"
+        "perform-mcq-20": "本句的「performance」指「用來衡量某人、團隊、系統或計劃表現的指標」。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "perform-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-20"
     },
@@ -2207,11 +2019,9 @@ export default {
       "masked": "The evening ____ starts at eight.",
       "options": [
         "perform-mcq-15",
-        "perform-mcq-14",
-        "perform-mcq-16",
-        "perform-mcq-13",
-        "perform-mcq-17",
-        "perform-mcq-12"
+        "perform-mcq-21",
+        "perform-mcq-08",
+        "perform-mcq-18"
       ],
       "explanation": "本句的「performance」指「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」。",
       "sentenceIndex": 61,
@@ -2220,12 +2030,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "perform-mcq-15": "本句指「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」。",
-        "perform-mcq-14": "「對員工一段時期工作表現進行正式評估和討論」與本句語境不同。",
-        "perform-mcq-16": "「實際進行舞台／藝術演出的人」與本句語境不同。",
-        "perform-mcq-13": "「員工在職務中完成工作和達到要求的程度」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。",
-        "perform-mcq-12": "「運動員在訓練或比賽中實際展現出的競技能力和成果」與本句語境不同。"
+        "perform-mcq-15": "本句的「performance」指「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」。",
+        "perform-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-15"
     },
@@ -2237,11 +2045,9 @@ export default {
       "masked": "Her ____ received excellent reviews.",
       "options": [
         "perform-mcq-15",
-        "perform-mcq-14",
-        "perform-mcq-16",
         "perform-mcq-13",
-        "perform-mcq-17",
-        "perform-mcq-12"
+        "perform-mcq-08",
+        "perform-pdf-002"
       ],
       "explanation": "本句的「performance」指「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」。",
       "sentenceIndex": 62,
@@ -2250,74 +2056,68 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "perform-mcq-15": "本句指「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」。",
-        "perform-mcq-14": "「對員工一段時期工作表現進行正式評估和討論」與本句語境不同。",
-        "perform-mcq-16": "「實際進行舞台／藝術演出的人」與本句語境不同。",
-        "perform-mcq-13": "「員工在職務中完成工作和達到要求的程度」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。",
-        "perform-mcq-12": "「運動員在訓練或比賽中實際展現出的競技能力和成果」與本句語境不同。"
+        "perform-mcq-15": "本句的「performance」指「呈現給觀眾看的音樂、戲劇、舞蹈等正式演出」。",
+        "perform-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "perform-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-15"
     },
     {
       "id": "perform-32-0",
-      "sense": "perform-mcq-21",
+      "sense": "perform-reviewed-a378681023",
       "en": "The song sounds different in a live performance.",
       "zh": "這首歌在現場演出時聽起來不同。",
       "masked": "The song sounds different in a ____.",
       "options": [
-        "perform-mcq-21",
-        "perform-mcq-20",
-        "perform-mcq-22",
-        "perform-mcq-19",
+        "perform-reviewed-a378681023",
         "perform-mcq-18",
-        "perform-mcq-17"
+        "perform-mcq-13",
+        "perform-mcq-08"
       ],
-      "explanation": "本句的「live performance」指「按合約或法律要求實際履行已承擔的義務」。",
+      "explanation": "對照完整句子：「這首歌在現場演出時聽起來不同。」。這裡的「live performance」表示「現場演出」。",
       "sentenceIndex": 63,
       "sourcePractice": 64,
       "targets": [
         "live performance"
       ],
       "optionReasons": {
-        "perform-mcq-21": "本句指「按合約或法律要求實際履行已承擔的義務」。",
-        "perform-mcq-20": "「用來衡量某人、團隊、系統或計劃表現的指標」與本句語境不同。",
-        "perform-mcq-22": "「按正式或傳統程序主持並完成某項儀式」與本句語境不同。",
-        "perform-mcq-19": "「實際成果持續達到很高水平的」與本句語境不同。",
-        "perform-mcq-18": "「設計或運作於非常高能力、速度、效率或競技水平的」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。"
+        "perform-reviewed-a378681023": "對照完整句子：「這首歌在現場演出時聽起來不同。」。這裡的「live performance」表示「現場演出」。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "perform-mcq-21"
+      "correctOption": "perform-reviewed-a378681023",
+      "previousCorrectOption": "perform-mcq-21",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "perform-32-1",
-      "sense": "perform-mcq-21",
+      "sense": "perform-reviewed-a378681023",
       "en": "The venue hosts live performances every weekend.",
       "zh": "場地每個週末都有現場表演。",
       "masked": "The venue hosts live ____ every weekend.",
       "options": [
-        "perform-mcq-21",
-        "perform-mcq-20",
-        "perform-mcq-22",
-        "perform-mcq-19",
-        "perform-mcq-18",
-        "perform-mcq-17"
+        "perform-reviewed-a378681023",
+        "perform-mcq-09",
+        "perform-mcq-10",
+        "perform-reviewed-3d4a069021"
       ],
-      "explanation": "本句的「performances」指「按合約或法律要求實際履行已承擔的義務」。",
+      "explanation": "對照完整句子：「場地每個週末都有現場表演。」。這裡的「performances」表示「現場演出」。",
       "sentenceIndex": 64,
       "sourcePractice": 65,
       "targets": [
         "performances"
       ],
       "optionReasons": {
-        "perform-mcq-21": "本句指「按合約或法律要求實際履行已承擔的義務」。",
-        "perform-mcq-20": "「用來衡量某人、團隊、系統或計劃表現的指標」與本句語境不同。",
-        "perform-mcq-22": "「按正式或傳統程序主持並完成某項儀式」與本句語境不同。",
-        "perform-mcq-19": "「實際成果持續達到很高水平的」與本句語境不同。",
-        "perform-mcq-18": "「設計或運作於非常高能力、速度、效率或競技水平的」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。"
+        "perform-reviewed-a378681023": "對照完整句子：「場地每個週末都有現場表演。」。這裡的「performances」表示「現場演出」。",
+        "perform-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "perform-mcq-21"
+      "correctOption": "perform-reviewed-a378681023",
+      "previousCorrectOption": "perform-mcq-21",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "perform-33-0",
@@ -2327,11 +2127,8 @@ export default {
       "masked": "The contract requires full ____ of the agreed obligations.",
       "options": [
         "perform-mcq-21",
-        "perform-mcq-20",
-        "perform-mcq-22",
-        "perform-mcq-19",
-        "perform-mcq-18",
-        "perform-mcq-17"
+        "perform-mcq-17",
+        "perform-mcq-22"
       ],
       "explanation": "本句的「performance」指「按合約或法律要求實際履行已承擔的義務」。",
       "sentenceIndex": 65,
@@ -2340,12 +2137,9 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "perform-mcq-21": "本句指「按合約或法律要求實際履行已承擔的義務」。",
-        "perform-mcq-20": "「用來衡量某人、團隊、系統或計劃表現的指標」與本句語境不同。",
-        "perform-mcq-22": "「按正式或傳統程序主持並完成某項儀式」與本句語境不同。",
-        "perform-mcq-19": "「實際成果持續達到很高水平的」與本句語境不同。",
-        "perform-mcq-18": "「設計或運作於非常高能力、速度、效率或競技水平的」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。"
+        "perform-mcq-21": "本句的「performance」指「按合約或法律要求實際履行已承擔的義務」。",
+        "perform-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-21"
     },
@@ -2358,10 +2152,8 @@ export default {
       "options": [
         "perform-mcq-21",
         "perform-mcq-20",
-        "perform-mcq-22",
-        "perform-mcq-19",
         "perform-mcq-18",
-        "perform-mcq-17"
+        "perform-reviewed-3d4a069021"
       ],
       "explanation": "本句的「performance」指「按合約或法律要求實際履行已承擔的義務」。",
       "sentenceIndex": 66,
@@ -2370,12 +2162,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "perform-mcq-21": "本句指「按合約或法律要求實際履行已承擔的義務」。",
-        "perform-mcq-20": "「用來衡量某人、團隊、系統或計劃表現的指標」與本句語境不同。",
-        "perform-mcq-22": "「按正式或傳統程序主持並完成某項儀式」與本句語境不同。",
-        "perform-mcq-19": "「實際成果持續達到很高水平的」與本句語境不同。",
-        "perform-mcq-18": "「設計或運作於非常高能力、速度、效率或競技水平的」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。"
+        "perform-mcq-21": "本句的「performance」指「按合約或法律要求實際履行已承擔的義務」。",
+        "perform-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-21"
     },
@@ -2387,11 +2177,9 @@ export default {
       "masked": "The official ____ the ceremony.",
       "options": [
         "perform-mcq-22",
-        "perform-mcq-21",
-        "perform-mcq-20",
-        "perform-mcq-19",
-        "perform-mcq-18",
-        "perform-mcq-17"
+        "perform-reviewed-a378681023",
+        "perform-pdf-002",
+        "perform-mcq-18"
       ],
       "explanation": "本句的「performed」指「按正式或傳統程序主持並完成某項儀式」。",
       "sentenceIndex": 67,
@@ -2400,12 +2188,10 @@ export default {
         "performed"
       ],
       "optionReasons": {
-        "perform-mcq-22": "本句指「按正式或傳統程序主持並完成某項儀式」。",
-        "perform-mcq-21": "「按合約或法律要求實際履行已承擔的義務」與本句語境不同。",
-        "perform-mcq-20": "「用來衡量某人、團隊、系統或計劃表現的指標」與本句語境不同。",
-        "perform-mcq-19": "「實際成果持續達到很高水平的」與本句語境不同。",
-        "perform-mcq-18": "「設計或運作於非常高能力、速度、效率或競技水平的」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。"
+        "perform-mcq-22": "本句的「performed」指「按正式或傳統程序主持並完成某項儀式」。",
+        "perform-reviewed-a378681023": "請比較這個意思與句子中標示的用法。",
+        "perform-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-22"
     },
@@ -2417,11 +2203,9 @@ export default {
       "masked": "The priest ____ the wedding ceremony.",
       "options": [
         "perform-mcq-22",
-        "perform-mcq-21",
-        "perform-mcq-20",
-        "perform-mcq-19",
-        "perform-mcq-18",
-        "perform-mcq-17"
+        "perform-mcq-05",
+        "perform-pdf-002",
+        "perform-mcq-18"
       ],
       "explanation": "本句的「performed」指「按正式或傳統程序主持並完成某項儀式」。",
       "sentenceIndex": 68,
@@ -2430,74 +2214,68 @@ export default {
         "performed"
       ],
       "optionReasons": {
-        "perform-mcq-22": "本句指「按正式或傳統程序主持並完成某項儀式」。",
-        "perform-mcq-21": "「按合約或法律要求實際履行已承擔的義務」與本句語境不同。",
-        "perform-mcq-20": "「用來衡量某人、團隊、系統或計劃表現的指標」與本句語境不同。",
-        "perform-mcq-19": "「實際成果持續達到很高水平的」與本句語境不同。",
-        "perform-mcq-18": "「設計或運作於非常高能力、速度、效率或競技水平的」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。"
+        "perform-mcq-22": "本句的「performed」指「按正式或傳統程序主持並完成某項儀式」。",
+        "perform-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "perform-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perform-mcq-22"
     },
     {
       "id": "perform-35-0",
-      "sense": "perform-mcq-22",
+      "sense": "perform-reviewed-26c6ee7aca",
       "en": "The best-performing department received an award.",
       "zh": "表現最佳的部門獲得獎項。",
       "masked": "The best-____ department received an award.",
       "options": [
-        "perform-mcq-22",
+        "perform-reviewed-26c6ee7aca",
         "perform-mcq-21",
-        "perform-mcq-20",
-        "perform-mcq-19",
-        "perform-mcq-18",
-        "perform-mcq-17"
+        "perform-reviewed-3d4a069021",
+        "perform-mcq-09"
       ],
-      "explanation": "本句的「performing」指「按正式或傳統程序主持並完成某項儀式」。",
+      "explanation": "對照完整句子：「表現最佳的部門獲得獎項。」。這裡的「performing」表示「表現中的；運作中的」。",
       "sentenceIndex": 69,
       "sourcePractice": 70,
       "targets": [
         "performing"
       ],
       "optionReasons": {
-        "perform-mcq-22": "本句指「按正式或傳統程序主持並完成某項儀式」。",
-        "perform-mcq-21": "「按合約或法律要求實際履行已承擔的義務」與本句語境不同。",
-        "perform-mcq-20": "「用來衡量某人、團隊、系統或計劃表現的指標」與本句語境不同。",
-        "perform-mcq-19": "「實際成果持續達到很高水平的」與本句語境不同。",
-        "perform-mcq-18": "「設計或運作於非常高能力、速度、效率或競技水平的」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。"
+        "perform-reviewed-26c6ee7aca": "對照完整句子：「表現最佳的部門獲得獎項。」。這裡的「performing」表示「表現中的；運作中的」。",
+        "perform-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "perform-reviewed-3d4a069021": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "perform-mcq-22"
+      "correctOption": "perform-reviewed-26c6ee7aca",
+      "previousCorrectOption": "perform-mcq-22",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "perform-35-1",
-      "sense": "perform-mcq-22",
+      "sense": "perform-reviewed-26c6ee7aca",
       "en": "Poorly performing systems were replaced.",
       "zh": "運作表現差的系統被替換。",
       "masked": "Poorly ____ systems were replaced.",
       "options": [
-        "perform-mcq-22",
-        "perform-mcq-21",
-        "perform-mcq-20",
-        "perform-mcq-19",
-        "perform-mcq-18",
-        "perform-mcq-17"
+        "perform-reviewed-26c6ee7aca",
+        "perform-mcq-13",
+        "perform-mcq-08",
+        "perform-pdf-002"
       ],
-      "explanation": "本句的「performing」指「按正式或傳統程序主持並完成某項儀式」。",
+      "explanation": "對照完整句子：「運作表現差的系統被替換。」。這裡的「performing」表示「表現中的；運作中的」。",
       "sentenceIndex": 70,
       "sourcePractice": 71,
       "targets": [
         "performing"
       ],
       "optionReasons": {
-        "perform-mcq-22": "本句指「按正式或傳統程序主持並完成某項儀式」。",
-        "perform-mcq-21": "「按合約或法律要求實際履行已承擔的義務」與本句語境不同。",
-        "perform-mcq-20": "「用來衡量某人、團隊、系統或計劃表現的指標」與本句語境不同。",
-        "perform-mcq-19": "「實際成果持續達到很高水平的」與本句語境不同。",
-        "perform-mcq-18": "「設計或運作於非常高能力、速度、效率或競技水平的」與本句語境不同。",
-        "perform-mcq-17": "「在工作、競賽或市場中呈現某種績效水平的人／事物」與本句語境不同。"
+        "perform-reviewed-26c6ee7aca": "對照完整句子：「運作表現差的系統被替換。」。這裡的「performing」表示「表現中的；運作中的」。",
+        "perform-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "perform-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "perform-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "perform-mcq-22"
+      "correctOption": "perform-reviewed-26c6ee7aca",
+      "previousCorrectOption": "perform-mcq-22",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     }
   ],
   "comparisons": [],
@@ -2507,5 +2285,7 @@ export default {
     "sha256": "c742d7de486e737974880a8c71cf35a6716bc3845d32038b746482bbb4ef1fa8",
     "pages": 25
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

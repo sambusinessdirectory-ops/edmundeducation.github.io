@@ -56,7 +56,7 @@ export default {
     },
     {
       "id": "exactly-mcq-03",
-      "title": "表示完全同意對方剛才的說法或理解；沒錯／正是如此",
+      "title": "完全同意對方剛才的說法或理解；沒錯／正是如此",
       "form": "Exactly! — agreement",
       "en": "Exactly! — agreement",
       "zh": "表示完全同意對方剛才的說法或理解；沒錯／正是如此",
@@ -196,11 +196,7 @@ export default {
       "masked": "Tell me ____ what happened.",
       "options": [
         "exactly-mcq-01",
-        "exactly-mcq-02",
-        "exactly-mcq-03",
-        "exactly-mcq-04",
-        "exactly-mcq-05",
-        "exactly-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「exactly」指「在數量、內容、位置或描述上完全準確，沒有誤差或模糊」。",
       "sentenceIndex": 0,
@@ -209,12 +205,8 @@ export default {
         "exactly"
       ],
       "optionReasons": {
-        "exactly-mcq-01": "本句指「在數量、內容、位置或描述上完全準確，沒有誤差或模糊」。",
-        "exactly-mcq-02": "「強調某個人、事物、原因或說法與所指內容完全一致；正是／就是」與本句語境不同。",
-        "exactly-mcq-03": "「表示完全同意對方剛才的說法或理解；沒錯／正是如此」與本句語境不同。",
-        "exactly-mcq-04": "「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」與本句語境不同。",
-        "exactly-mcq-05": "「要求提供更準確、具體或清楚的資訊；屬於 precision 義」與本句語境不同。",
-        "exactly-mcq-06": "「在數量、內容、形狀或細節上完全準確、沒有偏差的」與本句語境不同。"
+        "exactly-mcq-01": "本句的「exactly」指「在數量、內容、位置或描述上完全準確，沒有誤差或模糊」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exactly-mcq-01"
     },
@@ -226,11 +218,7 @@ export default {
       "masked": "The two measurements are ____ the same.",
       "options": [
         "exactly-mcq-01",
-        "exactly-mcq-02",
-        "exactly-mcq-03",
-        "exactly-mcq-04",
-        "exactly-mcq-05",
-        "exactly-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「exactly」指「在數量、內容、位置或描述上完全準確，沒有誤差或模糊」。",
       "sentenceIndex": 1,
@@ -239,12 +227,8 @@ export default {
         "exactly"
       ],
       "optionReasons": {
-        "exactly-mcq-01": "本句指「在數量、內容、位置或描述上完全準確，沒有誤差或模糊」。",
-        "exactly-mcq-02": "「強調某個人、事物、原因或說法與所指內容完全一致；正是／就是」與本句語境不同。",
-        "exactly-mcq-03": "「表示完全同意對方剛才的說法或理解；沒錯／正是如此」與本句語境不同。",
-        "exactly-mcq-04": "「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」與本句語境不同。",
-        "exactly-mcq-05": "「要求提供更準確、具體或清楚的資訊；屬於 precision 義」與本句語境不同。",
-        "exactly-mcq-06": "「在數量、內容、形狀或細節上完全準確、沒有偏差的」與本句語境不同。"
+        "exactly-mcq-01": "本句的「exactly」指「在數量、內容、位置或描述上完全準確，沒有誤差或模糊」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exactly-mcq-01"
     },
@@ -256,11 +240,7 @@ export default {
       "masked": "That is ____ why I think he is such an interesting person.",
       "options": [
         "exactly-mcq-02",
-        "exactly-mcq-01",
-        "exactly-mcq-03",
-        "exactly-mcq-04",
-        "exactly-mcq-05",
-        "exactly-mcq-06"
+        "exactly-mcq-07"
       ],
       "explanation": "本句的「exactly」指「強調某個人、事物、原因或說法與所指內容完全一致；正是／就是」。",
       "sentenceIndex": 2,
@@ -269,12 +249,8 @@ export default {
         "exactly"
       ],
       "optionReasons": {
-        "exactly-mcq-02": "本句指「強調某個人、事物、原因或說法與所指內容完全一致；正是／就是」。",
-        "exactly-mcq-01": "「在數量、內容、位置或描述上完全準確，沒有誤差或模糊」與本句語境不同。",
-        "exactly-mcq-03": "「表示完全同意對方剛才的說法或理解；沒錯／正是如此」與本句語境不同。",
-        "exactly-mcq-04": "「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」與本句語境不同。",
-        "exactly-mcq-05": "「要求提供更準確、具體或清楚的資訊；屬於 precision 義」與本句語境不同。",
-        "exactly-mcq-06": "「在數量、內容、形狀或細節上完全準確、沒有偏差的」與本句語境不同。"
+        "exactly-mcq-02": "本句的「exactly」指「強調某個人、事物、原因或說法與所指內容完全一致；正是／就是」。",
+        "exactly-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exactly-mcq-02"
     },
@@ -286,11 +262,7 @@ export default {
       "masked": "That is ____ what I wanted to say.",
       "options": [
         "exactly-mcq-02",
-        "exactly-mcq-01",
-        "exactly-mcq-03",
-        "exactly-mcq-04",
-        "exactly-mcq-05",
-        "exactly-mcq-06"
+        "exactly-mcq-07"
       ],
       "explanation": "本句的「exactly」指「強調某個人、事物、原因或說法與所指內容完全一致；正是／就是」。",
       "sentenceIndex": 3,
@@ -299,12 +271,8 @@ export default {
         "exactly"
       ],
       "optionReasons": {
-        "exactly-mcq-02": "本句指「強調某個人、事物、原因或說法與所指內容完全一致；正是／就是」。",
-        "exactly-mcq-01": "「在數量、內容、位置或描述上完全準確，沒有誤差或模糊」與本句語境不同。",
-        "exactly-mcq-03": "「表示完全同意對方剛才的說法或理解；沒錯／正是如此」與本句語境不同。",
-        "exactly-mcq-04": "「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」與本句語境不同。",
-        "exactly-mcq-05": "「要求提供更準確、具體或清楚的資訊；屬於 precision 義」與本句語境不同。",
-        "exactly-mcq-06": "「在數量、內容、形狀或細節上完全準確、沒有偏差的」與本句語境不同。"
+        "exactly-mcq-02": "本句的「exactly」指「強調某個人、事物、原因或說法與所指內容完全一致；正是／就是」。",
+        "exactly-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exactly-mcq-02"
     },
@@ -316,11 +284,7 @@ export default {
       "masked": "This is ____ the kind of place I was looking for.",
       "options": [
         "exactly-mcq-02",
-        "exactly-mcq-01",
-        "exactly-mcq-03",
-        "exactly-mcq-04",
-        "exactly-mcq-05",
-        "exactly-mcq-06"
+        "exactly-mcq-07"
       ],
       "explanation": "本句的「exactly」指「強調某個人、事物、原因或說法與所指內容完全一致；正是／就是」。",
       "sentenceIndex": 4,
@@ -329,12 +293,8 @@ export default {
         "exactly"
       ],
       "optionReasons": {
-        "exactly-mcq-02": "本句指「強調某個人、事物、原因或說法與所指內容完全一致；正是／就是」。",
-        "exactly-mcq-01": "「在數量、內容、位置或描述上完全準確，沒有誤差或模糊」與本句語境不同。",
-        "exactly-mcq-03": "「表示完全同意對方剛才的說法或理解；沒錯／正是如此」與本句語境不同。",
-        "exactly-mcq-04": "「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」與本句語境不同。",
-        "exactly-mcq-05": "「要求提供更準確、具體或清楚的資訊；屬於 precision 義」與本句語境不同。",
-        "exactly-mcq-06": "「在數量、內容、形狀或細節上完全準確、沒有偏差的」與本句語境不同。"
+        "exactly-mcq-02": "本句的「exactly」指「強調某個人、事物、原因或說法與所指內容完全一致；正是／就是」。",
+        "exactly-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exactly-mcq-02"
     },
@@ -346,11 +306,7 @@ export default {
       "masked": "So the real problem is poor communication.” > “____",
       "options": [
         "exactly-mcq-03",
-        "exactly-mcq-02",
-        "exactly-mcq-04",
-        "exactly-mcq-01",
-        "exactly-mcq-05",
-        "exactly-mcq-06"
+        "exactly-mcq-07"
       ],
       "explanation": "本句的「Exactly.」指「表示完全同意對方剛才的說法或理解；沒錯／正是如此」。",
       "sentenceIndex": 5,
@@ -359,12 +315,8 @@ export default {
         "Exactly."
       ],
       "optionReasons": {
-        "exactly-mcq-03": "本句指「表示完全同意對方剛才的說法或理解；沒錯／正是如此」。",
-        "exactly-mcq-02": "「強調某個人、事物、原因或說法與所指內容完全一致；正是／就是」與本句語境不同。",
-        "exactly-mcq-04": "「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」與本句語境不同。",
-        "exactly-mcq-01": "「在數量、內容、位置或描述上完全準確，沒有誤差或模糊」與本句語境不同。",
-        "exactly-mcq-05": "「要求提供更準確、具體或清楚的資訊；屬於 precision 義」與本句語境不同。",
-        "exactly-mcq-06": "「在數量、內容、形狀或細節上完全準確、沒有偏差的」與本句語境不同。"
+        "exactly-mcq-03": "本句的「Exactly.」指「表示完全同意對方剛才的說法或理解；沒錯／正是如此」。",
+        "exactly-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exactly-mcq-03"
     },
@@ -376,11 +328,7 @@ export default {
       "masked": "You mean he wasn’t being rude—just tired?” > “____",
       "options": [
         "exactly-mcq-03",
-        "exactly-mcq-02",
-        "exactly-mcq-04",
-        "exactly-mcq-01",
-        "exactly-mcq-05",
-        "exactly-mcq-06"
+        "exactly-mcq-07"
       ],
       "explanation": "本句的「Exactly.」指「表示完全同意對方剛才的說法或理解；沒錯／正是如此」。",
       "sentenceIndex": 6,
@@ -389,12 +337,8 @@ export default {
         "Exactly."
       ],
       "optionReasons": {
-        "exactly-mcq-03": "本句指「表示完全同意對方剛才的說法或理解；沒錯／正是如此」。",
-        "exactly-mcq-02": "「強調某個人、事物、原因或說法與所指內容完全一致；正是／就是」與本句語境不同。",
-        "exactly-mcq-04": "「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」與本句語境不同。",
-        "exactly-mcq-01": "「在數量、內容、位置或描述上完全準確，沒有誤差或模糊」與本句語境不同。",
-        "exactly-mcq-05": "「要求提供更準確、具體或清楚的資訊；屬於 precision 義」與本句語境不同。",
-        "exactly-mcq-06": "「在數量、內容、形狀或細節上完全準確、沒有偏差的」與本句語境不同。"
+        "exactly-mcq-03": "本句的「Exactly.」指「表示完全同意對方剛才的說法或理解；沒錯／正是如此」。",
+        "exactly-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exactly-mcq-03"
     },
@@ -406,11 +350,7 @@ export default {
       "masked": "Was the trip relaxing?” > “Not ____.",
       "options": [
         "exactly-mcq-04",
-        "exactly-mcq-03",
-        "exactly-mcq-05",
-        "exactly-mcq-02",
-        "exactly-mcq-06",
-        "exactly-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「exactly」指「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」。",
       "sentenceIndex": 7,
@@ -419,12 +359,8 @@ export default {
         "exactly"
       ],
       "optionReasons": {
-        "exactly-mcq-04": "本句指「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」。",
-        "exactly-mcq-03": "「表示完全同意對方剛才的說法或理解；沒錯／正是如此」與本句語境不同。",
-        "exactly-mcq-05": "「要求提供更準確、具體或清楚的資訊；屬於 precision 義」與本句語境不同。",
-        "exactly-mcq-02": "「強調某個人、事物、原因或說法與所指內容完全一致；正是／就是」與本句語境不同。",
-        "exactly-mcq-06": "「在數量、內容、形狀或細節上完全準確、沒有偏差的」與本句語境不同。",
-        "exactly-mcq-01": "「在數量、內容、位置或描述上完全準確，沒有誤差或模糊」與本句語境不同。"
+        "exactly-mcq-04": "本句的「exactly」指「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exactly-mcq-04"
     },
@@ -436,11 +372,7 @@ export default {
       "masked": "He’s not ____ easy to work with.",
       "options": [
         "exactly-mcq-04",
-        "exactly-mcq-03",
-        "exactly-mcq-05",
-        "exactly-mcq-02",
-        "exactly-mcq-06",
-        "exactly-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「exactly」指「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」。",
       "sentenceIndex": 8,
@@ -449,12 +381,8 @@ export default {
         "exactly"
       ],
       "optionReasons": {
-        "exactly-mcq-04": "本句指「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」。",
-        "exactly-mcq-03": "「表示完全同意對方剛才的說法或理解；沒錯／正是如此」與本句語境不同。",
-        "exactly-mcq-05": "「要求提供更準確、具體或清楚的資訊；屬於 precision 義」與本句語境不同。",
-        "exactly-mcq-02": "「強調某個人、事物、原因或說法與所指內容完全一致；正是／就是」與本句語境不同。",
-        "exactly-mcq-06": "「在數量、內容、形狀或細節上完全準確、沒有偏差的」與本句語境不同。",
-        "exactly-mcq-01": "「在數量、內容、位置或描述上完全準確，沒有誤差或模糊」與本句語境不同。"
+        "exactly-mcq-04": "本句的「exactly」指「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exactly-mcq-04"
     },
@@ -466,11 +394,7 @@ export default {
       "masked": "What ____ do you mean?",
       "options": [
         "exactly-mcq-05",
-        "exactly-mcq-04",
-        "exactly-mcq-06",
-        "exactly-mcq-03",
-        "exactly-mcq-07",
-        "exactly-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「exactly」指「要求提供更準確、具體或清楚的資訊；屬於 precision 義」。",
       "sentenceIndex": 9,
@@ -479,12 +403,8 @@ export default {
         "exactly"
       ],
       "optionReasons": {
-        "exactly-mcq-05": "本句指「要求提供更準確、具體或清楚的資訊；屬於 precision 義」。",
-        "exactly-mcq-04": "「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」與本句語境不同。",
-        "exactly-mcq-06": "「在數量、內容、形狀或細節上完全準確、沒有偏差的」與本句語境不同。",
-        "exactly-mcq-03": "「表示完全同意對方剛才的說法或理解；沒錯／正是如此」與本句語境不同。",
-        "exactly-mcq-07": "「精確、準確而沒有偏差的性質或程度」與本句語境不同。",
-        "exactly-mcq-02": "「強調某個人、事物、原因或說法與所指內容完全一致；正是／就是」與本句語境不同。"
+        "exactly-mcq-05": "本句的「exactly」指「要求提供更準確、具體或清楚的資訊；屬於 precision 義」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exactly-mcq-05"
     },
@@ -496,11 +416,7 @@ export default {
       "masked": "Where ____ did you see him?",
       "options": [
         "exactly-mcq-05",
-        "exactly-mcq-04",
-        "exactly-mcq-06",
-        "exactly-mcq-03",
-        "exactly-mcq-07",
-        "exactly-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「exactly」指「要求提供更準確、具體或清楚的資訊；屬於 precision 義」。",
       "sentenceIndex": 10,
@@ -509,12 +425,8 @@ export default {
         "exactly"
       ],
       "optionReasons": {
-        "exactly-mcq-05": "本句指「要求提供更準確、具體或清楚的資訊；屬於 precision 義」。",
-        "exactly-mcq-04": "「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」與本句語境不同。",
-        "exactly-mcq-06": "「在數量、內容、形狀或細節上完全準確、沒有偏差的」與本句語境不同。",
-        "exactly-mcq-03": "「表示完全同意對方剛才的說法或理解；沒錯／正是如此」與本句語境不同。",
-        "exactly-mcq-07": "「精確、準確而沒有偏差的性質或程度」與本句語境不同。",
-        "exactly-mcq-02": "「強調某個人、事物、原因或說法與所指內容完全一致；正是／就是」與本句語境不同。"
+        "exactly-mcq-05": "本句的「exactly」指「要求提供更準確、具體或清楚的資訊；屬於 precision 義」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exactly-mcq-05"
     },
@@ -526,11 +438,7 @@ export default {
       "masked": "What is the ____ time?",
       "options": [
         "exactly-mcq-06",
-        "exactly-mcq-05",
-        "exactly-mcq-07",
-        "exactly-mcq-04",
-        "exactly-mcq-08",
-        "exactly-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「exact」指「在數量、內容、形狀或細節上完全準確、沒有偏差的」。",
       "sentenceIndex": 11,
@@ -539,12 +447,8 @@ export default {
         "exact"
       ],
       "optionReasons": {
-        "exactly-mcq-06": "本句指「在數量、內容、形狀或細節上完全準確、沒有偏差的」。",
-        "exactly-mcq-05": "「要求提供更準確、具體或清楚的資訊；屬於 precision 義」與本句語境不同。",
-        "exactly-mcq-07": "「精確、準確而沒有偏差的性質或程度」與本句語境不同。",
-        "exactly-mcq-04": "「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」與本句語境不同。",
-        "exactly-mcq-08": "「並非完全準確、精確或吻合的」與本句語境不同。",
-        "exactly-mcq-03": "「表示完全同意對方剛才的說法或理解；沒錯／正是如此」與本句語境不同。"
+        "exactly-mcq-06": "本句的「exact」指「在數量、內容、形狀或細節上完全準確、沒有偏差的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exactly-mcq-06"
     },
@@ -556,11 +460,7 @@ export default {
       "masked": "This is an ____ copy of the original.",
       "options": [
         "exactly-mcq-06",
-        "exactly-mcq-05",
-        "exactly-mcq-07",
-        "exactly-mcq-04",
-        "exactly-mcq-08",
-        "exactly-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「exact」指「在數量、內容、形狀或細節上完全準確、沒有偏差的」。",
       "sentenceIndex": 12,
@@ -569,12 +469,8 @@ export default {
         "exact"
       ],
       "optionReasons": {
-        "exactly-mcq-06": "本句指「在數量、內容、形狀或細節上完全準確、沒有偏差的」。",
-        "exactly-mcq-05": "「要求提供更準確、具體或清楚的資訊；屬於 precision 義」與本句語境不同。",
-        "exactly-mcq-07": "「精確、準確而沒有偏差的性質或程度」與本句語境不同。",
-        "exactly-mcq-04": "「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」與本句語境不同。",
-        "exactly-mcq-08": "「並非完全準確、精確或吻合的」與本句語境不同。",
-        "exactly-mcq-03": "「表示完全同意對方剛才的說法或理解；沒錯／正是如此」與本句語境不同。"
+        "exactly-mcq-06": "本句的「exact」指「在數量、內容、形狀或細節上完全準確、沒有偏差的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exactly-mcq-06"
     },
@@ -586,11 +482,7 @@ export default {
       "masked": "Scientific work requires ____.",
       "options": [
         "exactly-mcq-07",
-        "exactly-mcq-06",
-        "exactly-mcq-08",
-        "exactly-mcq-05",
-        "exactly-mcq-04",
-        "exactly-mcq-03"
+        "exactly-mcq-02"
       ],
       "explanation": "本句的「exactness」指「精確、準確而沒有偏差的性質或程度」。",
       "sentenceIndex": 13,
@@ -599,12 +491,8 @@ export default {
         "exactness"
       ],
       "optionReasons": {
-        "exactly-mcq-07": "本句指「精確、準確而沒有偏差的性質或程度」。",
-        "exactly-mcq-06": "「在數量、內容、形狀或細節上完全準確、沒有偏差的」與本句語境不同。",
-        "exactly-mcq-08": "「並非完全準確、精確或吻合的」與本句語境不同。",
-        "exactly-mcq-05": "「要求提供更準確、具體或清楚的資訊；屬於 precision 義」與本句語境不同。",
-        "exactly-mcq-04": "「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」與本句語境不同。",
-        "exactly-mcq-03": "「表示完全同意對方剛才的說法或理解；沒錯／正是如此」與本句語境不同。"
+        "exactly-mcq-07": "本句的「exactness」指「精確、準確而沒有偏差的性質或程度」。",
+        "exactly-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exactly-mcq-07"
     },
@@ -616,11 +504,7 @@ export default {
       "masked": "He described the scene with remarkable ____.",
       "options": [
         "exactly-mcq-07",
-        "exactly-mcq-06",
-        "exactly-mcq-08",
-        "exactly-mcq-05",
-        "exactly-mcq-04",
-        "exactly-mcq-03"
+        "exactly-mcq-02"
       ],
       "explanation": "本句的「exactness」指「精確、準確而沒有偏差的性質或程度」。",
       "sentenceIndex": 14,
@@ -629,12 +513,8 @@ export default {
         "exactness"
       ],
       "optionReasons": {
-        "exactly-mcq-07": "本句指「精確、準確而沒有偏差的性質或程度」。",
-        "exactly-mcq-06": "「在數量、內容、形狀或細節上完全準確、沒有偏差的」與本句語境不同。",
-        "exactly-mcq-08": "「並非完全準確、精確或吻合的」與本句語境不同。",
-        "exactly-mcq-05": "「要求提供更準確、具體或清楚的資訊；屬於 precision 義」與本句語境不同。",
-        "exactly-mcq-04": "「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」與本句語境不同。",
-        "exactly-mcq-03": "「表示完全同意對方剛才的說法或理解；沒錯／正是如此」與本句語境不同。"
+        "exactly-mcq-07": "本句的「exactness」指「精確、準確而沒有偏差的性質或程度」。",
+        "exactly-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exactly-mcq-07"
     },
@@ -646,11 +526,7 @@ export default {
       "masked": "The estimate is necessarily ____.",
       "options": [
         "exactly-mcq-08",
-        "exactly-mcq-07",
-        "exactly-mcq-06",
-        "exactly-mcq-05",
-        "exactly-mcq-04",
-        "exactly-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「inexact」指「並非完全準確、精確或吻合的」。",
       "sentenceIndex": 15,
@@ -659,12 +535,8 @@ export default {
         "inexact"
       ],
       "optionReasons": {
-        "exactly-mcq-08": "本句指「並非完全準確、精確或吻合的」。",
-        "exactly-mcq-07": "「精確、準確而沒有偏差的性質或程度」與本句語境不同。",
-        "exactly-mcq-06": "「在數量、內容、形狀或細節上完全準確、沒有偏差的」與本句語境不同。",
-        "exactly-mcq-05": "「要求提供更準確、具體或清楚的資訊；屬於 precision 義」與本句語境不同。",
-        "exactly-mcq-04": "「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」與本句語境不同。",
-        "exactly-mcq-03": "「表示完全同意對方剛才的說法或理解；沒錯／正是如此」與本句語境不同。"
+        "exactly-mcq-08": "本句的「inexact」指「並非完全準確、精確或吻合的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exactly-mcq-08"
     },
@@ -676,11 +548,7 @@ export default {
       "masked": "The wording is slightly ____.",
       "options": [
         "exactly-mcq-08",
-        "exactly-mcq-07",
-        "exactly-mcq-06",
-        "exactly-mcq-05",
-        "exactly-mcq-04",
-        "exactly-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「inexact」指「並非完全準確、精確或吻合的」。",
       "sentenceIndex": 16,
@@ -689,12 +557,8 @@ export default {
         "inexact"
       ],
       "optionReasons": {
-        "exactly-mcq-08": "本句指「並非完全準確、精確或吻合的」。",
-        "exactly-mcq-07": "「精確、準確而沒有偏差的性質或程度」與本句語境不同。",
-        "exactly-mcq-06": "「在數量、內容、形狀或細節上完全準確、沒有偏差的」與本句語境不同。",
-        "exactly-mcq-05": "「要求提供更準確、具體或清楚的資訊；屬於 precision 義」與本句語境不同。",
-        "exactly-mcq-04": "「委婉表示某個說法不完全正確、不算如此，甚至相當不符合實際」與本句語境不同。",
-        "exactly-mcq-03": "「表示完全同意對方剛才的說法或理解；沒錯／正是如此」與本句語境不同。"
+        "exactly-mcq-08": "本句的「inexact」指「並非完全準確、精確或吻合的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exactly-mcq-08"
     }
@@ -706,5 +570,12 @@ export default {
     "sha256": "03cf0d309c61c582dbb2d4a4a2b608470004190fdb5ba34db90e7cf1cf6bb939",
     "pages": 9
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

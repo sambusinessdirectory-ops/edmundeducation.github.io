@@ -241,11 +241,8 @@ export default {
       "masked": "He showed me how to check the ____.",
       "options": [
         "chain-mcq-01",
-        "chain-mcq-02",
-        "chain-mcq-03",
         "chain-mcq-04",
-        "chain-mcq-05",
-        "chain-mcq-06"
+        "chain-mcq-07"
       ],
       "explanation": "本句的「chain」指「由一連串相連金屬環／鏈節組成的鏈條」。",
       "sentenceIndex": 0,
@@ -254,12 +251,9 @@ export default {
         "chain"
       ],
       "optionReasons": {
-        "chain-mcq-01": "本句指「由一連串相連金屬環／鏈節組成的鏈條」。",
-        "chain-mcq-02": "「多個事件、事物、階段或單位彼此相連形成的一連串關係」是「chain — connected series」的用法，與本句語境不同。",
-        "chain-mcq-03": "「多間以同一品牌、所有權或管理系統經營的連鎖企業／店舖」是「chain — business group」的用法，與本句語境不同。",
-        "chain-mcq-04": "「用來限制活動的鎖鏈；亦可比喻束縛」是「chains — restraint」的用法，與本句語境不同。",
-        "chain-mcq-05": "「用鏈條把某人／某物固定、鎖住或串連起來」是「chain — verb」的用法，與本句語境不同。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。"
+        "chain-mcq-01": "本句的「chain」指「由一連串相連金屬環／鏈節組成的鏈條」。",
+        "chain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-01"
     },
@@ -271,11 +265,9 @@ export default {
       "masked": "The gate was secured with a heavy ____.",
       "options": [
         "chain-mcq-01",
-        "chain-mcq-02",
-        "chain-mcq-03",
+        "chain-mcq-10",
         "chain-mcq-04",
-        "chain-mcq-05",
-        "chain-mcq-06"
+        "chain-mcq-11"
       ],
       "explanation": "本句的「chain」指「由一連串相連金屬環／鏈節組成的鏈條」。",
       "sentenceIndex": 1,
@@ -284,12 +276,10 @@ export default {
         "chain"
       ],
       "optionReasons": {
-        "chain-mcq-01": "本句指「由一連串相連金屬環／鏈節組成的鏈條」。",
-        "chain-mcq-02": "「多個事件、事物、階段或單位彼此相連形成的一連串關係」是「chain — connected series」的用法，與本句語境不同。",
-        "chain-mcq-03": "「多間以同一品牌、所有權或管理系統經營的連鎖企業／店舖」是「chain — business group」的用法，與本句語境不同。",
-        "chain-mcq-04": "「用來限制活動的鎖鏈；亦可比喻束縛」是「chains — restraint」的用法，與本句語境不同。",
-        "chain-mcq-05": "「用鏈條把某人／某物固定、鎖住或串連起來」是「chain — verb」的用法，與本句語境不同。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。"
+        "chain-mcq-01": "本句的「chain」指「由一連串相連金屬環／鏈節組成的鏈條」。",
+        "chain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-01"
     },
@@ -301,11 +291,7 @@ export default {
       "masked": "The bicycle ____ needs oil.",
       "options": [
         "chain-mcq-01",
-        "chain-mcq-02",
-        "chain-mcq-03",
-        "chain-mcq-04",
-        "chain-mcq-05",
-        "chain-mcq-06"
+        "chain-mcq-03"
       ],
       "explanation": "本句的「chain」指「由一連串相連金屬環／鏈節組成的鏈條」。",
       "sentenceIndex": 2,
@@ -314,12 +300,8 @@ export default {
         "chain"
       ],
       "optionReasons": {
-        "chain-mcq-01": "本句指「由一連串相連金屬環／鏈節組成的鏈條」。",
-        "chain-mcq-02": "「多個事件、事物、階段或單位彼此相連形成的一連串關係」是「chain — connected series」的用法，與本句語境不同。",
-        "chain-mcq-03": "「多間以同一品牌、所有權或管理系統經營的連鎖企業／店舖」是「chain — business group」的用法，與本句語境不同。",
-        "chain-mcq-04": "「用來限制活動的鎖鏈；亦可比喻束縛」是「chains — restraint」的用法，與本句語境不同。",
-        "chain-mcq-05": "「用鏈條把某人／某物固定、鎖住或串連起來」是「chain — verb」的用法，與本句語境不同。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。"
+        "chain-mcq-01": "本句的「chain」指「由一連串相連金屬環／鏈節組成的鏈條」。",
+        "chain-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-01"
     },
@@ -331,11 +313,9 @@ export default {
       "masked": "One mistake led to a ____ of problems.",
       "options": [
         "chain-mcq-02",
-        "chain-mcq-01",
-        "chain-mcq-03",
+        "chain-mcq-11",
         "chain-mcq-04",
-        "chain-mcq-05",
-        "chain-mcq-06"
+        "chain-mcq-05"
       ],
       "explanation": "本句的「chain」指「多個事件、事物、階段或單位彼此相連形成的一連串關係」。",
       "sentenceIndex": 3,
@@ -344,12 +324,10 @@ export default {
         "chain"
       ],
       "optionReasons": {
-        "chain-mcq-02": "本句指「多個事件、事物、階段或單位彼此相連形成的一連串關係」。",
-        "chain-mcq-01": "「由一連串相連金屬環／鏈節組成的鏈條」是「chain — metal links」的用法，與本句語境不同。",
-        "chain-mcq-03": "「多間以同一品牌、所有權或管理系統經營的連鎖企業／店舖」是「chain — business group」的用法，與本句語境不同。",
-        "chain-mcq-04": "「用來限制活動的鎖鏈；亦可比喻束縛」是「chains — restraint」的用法，與本句語境不同。",
-        "chain-mcq-05": "「用鏈條把某人／某物固定、鎖住或串連起來」是「chain — verb」的用法，與本句語境不同。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。"
+        "chain-mcq-02": "本句的「chain」指「多個事件、事物、階段或單位彼此相連形成的一連串關係」。",
+        "chain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-02"
     },
@@ -361,11 +339,9 @@ export default {
       "masked": "The decision caused a ____.",
       "options": [
         "chain-mcq-02",
-        "chain-mcq-01",
-        "chain-mcq-03",
         "chain-mcq-04",
-        "chain-mcq-05",
-        "chain-mcq-06"
+        "chain-mcq-11",
+        "chain-mcq-05"
       ],
       "explanation": "本句的「chain reaction」指「多個事件、事物、階段或單位彼此相連形成的一連串關係」。",
       "sentenceIndex": 4,
@@ -374,12 +350,10 @@ export default {
         "chain reaction"
       ],
       "optionReasons": {
-        "chain-mcq-02": "本句指「多個事件、事物、階段或單位彼此相連形成的一連串關係」。",
-        "chain-mcq-01": "「由一連串相連金屬環／鏈節組成的鏈條」是「chain — metal links」的用法，與本句語境不同。",
-        "chain-mcq-03": "「多間以同一品牌、所有權或管理系統經營的連鎖企業／店舖」是「chain — business group」的用法，與本句語境不同。",
-        "chain-mcq-04": "「用來限制活動的鎖鏈；亦可比喻束縛」是「chains — restraint」的用法，與本句語境不同。",
-        "chain-mcq-05": "「用鏈條把某人／某物固定、鎖住或串連起來」是「chain — verb」的用法，與本句語境不同。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。"
+        "chain-mcq-02": "本句的「chain reaction」指「多個事件、事物、階段或單位彼此相連形成的一連串關係」。",
+        "chain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-02"
     },
@@ -391,11 +365,7 @@ export default {
       "masked": "She works for a large hotel ____.",
       "options": [
         "chain-mcq-03",
-        "chain-mcq-02",
-        "chain-mcq-04",
-        "chain-mcq-01",
-        "chain-mcq-05",
-        "chain-mcq-06"
+        "chain-mcq-01"
       ],
       "explanation": "本句的「chain」指「多間以同一品牌、所有權或管理系統經營的連鎖企業／店舖」。",
       "sentenceIndex": 5,
@@ -404,12 +374,8 @@ export default {
         "chain"
       ],
       "optionReasons": {
-        "chain-mcq-03": "本句指「多間以同一品牌、所有權或管理系統經營的連鎖企業／店舖」。",
-        "chain-mcq-02": "「多個事件、事物、階段或單位彼此相連形成的一連串關係」是「chain — connected series」的用法，與本句語境不同。",
-        "chain-mcq-04": "「用來限制活動的鎖鏈；亦可比喻束縛」是「chains — restraint」的用法，與本句語境不同。",
-        "chain-mcq-01": "「由一連串相連金屬環／鏈節組成的鏈條」是「chain — metal links」的用法，與本句語境不同。",
-        "chain-mcq-05": "「用鏈條把某人／某物固定、鎖住或串連起來」是「chain — verb」的用法，與本句語境不同。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。"
+        "chain-mcq-03": "本句的「chain」指「多間以同一品牌、所有權或管理系統經營的連鎖企業／店舖」。",
+        "chain-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-03"
     },
@@ -422,10 +388,7 @@ export default {
       "options": [
         "chain-mcq-03",
         "chain-mcq-02",
-        "chain-mcq-04",
-        "chain-mcq-01",
-        "chain-mcq-05",
-        "chain-mcq-06"
+        "chain-mcq-05"
       ],
       "explanation": "本句的「chain」指「多間以同一品牌、所有權或管理系統經營的連鎖企業／店舖」。",
       "sentenceIndex": 6,
@@ -434,12 +397,9 @@ export default {
         "chain"
       ],
       "optionReasons": {
-        "chain-mcq-03": "本句指「多間以同一品牌、所有權或管理系統經營的連鎖企業／店舖」。",
-        "chain-mcq-02": "「多個事件、事物、階段或單位彼此相連形成的一連串關係」是「chain — connected series」的用法，與本句語境不同。",
-        "chain-mcq-04": "「用來限制活動的鎖鏈；亦可比喻束縛」是「chains — restraint」的用法，與本句語境不同。",
-        "chain-mcq-01": "「由一連串相連金屬環／鏈節組成的鏈條」是「chain — metal links」的用法，與本句語境不同。",
-        "chain-mcq-05": "「用鏈條把某人／某物固定、鎖住或串連起來」是「chain — verb」的用法，與本句語境不同。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。"
+        "chain-mcq-03": "本句的「chain」指「多間以同一品牌、所有權或管理系統經營的連鎖企業／店舖」。",
+        "chain-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-03"
     },
@@ -451,11 +411,9 @@ export default {
       "masked": "A long mountain ____ stretches across the region.",
       "options": [
         "chain-mcq-07",
-        "chain-mcq-06",
-        "chain-mcq-08",
+        "chain-mcq-04",
         "chain-mcq-05",
-        "chain-mcq-09",
-        "chain-mcq-04"
+        "chain-mcq-02"
       ],
       "explanation": "本句的「chain」指「在空間上連續排列的一系列地形或地理事物」。",
       "sentenceIndex": 7,
@@ -464,12 +422,10 @@ export default {
         "chain"
       ],
       "optionReasons": {
-        "chain-mcq-07": "本句指「在空間上連續排列的一系列地形或地理事物」。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。",
-        "chain-mcq-08": "「多個步驟、層級或參與者依次相連形成的系統」是「5. chain = sequence of responsibility/supply/etc.（系統關係） — 鏈；體系」的用法，與本句語境不同。",
-        "chain-mcq-05": "「用鏈條把某人／某物固定、鎖住或串連起來」是「chain — verb」的用法，與本句語境不同。",
-        "chain-mcq-09": "「把多個元素按順序連接成一個連續系統」是「8. chain = link things together figuratively（動詞） — 串連；連接」的用法，與本句語境不同。",
-        "chain-mcq-04": "「用來限制活動的鎖鏈；亦可比喻束縛」是「chains — restraint」的用法，與本句語境不同。"
+        "chain-mcq-07": "本句的「chain」指「在空間上連續排列的一系列地形或地理事物」。",
+        "chain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-07"
     },
@@ -481,11 +437,8 @@ export default {
       "masked": "The islands form a ____ across the sea.",
       "options": [
         "chain-mcq-07",
-        "chain-mcq-06",
-        "chain-mcq-08",
-        "chain-mcq-05",
-        "chain-mcq-09",
-        "chain-mcq-04"
+        "chain-mcq-04",
+        "chain-mcq-01"
       ],
       "explanation": "本句的「chain」指「在空間上連續排列的一系列地形或地理事物」。",
       "sentenceIndex": 8,
@@ -494,12 +447,9 @@ export default {
         "chain"
       ],
       "optionReasons": {
-        "chain-mcq-07": "本句指「在空間上連續排列的一系列地形或地理事物」。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。",
-        "chain-mcq-08": "「多個步驟、層級或參與者依次相連形成的系統」是「5. chain = sequence of responsibility/supply/etc.（系統關係） — 鏈；體系」的用法，與本句語境不同。",
-        "chain-mcq-05": "「用鏈條把某人／某物固定、鎖住或串連起來」是「chain — verb」的用法，與本句語境不同。",
-        "chain-mcq-09": "「把多個元素按順序連接成一個連續系統」是「8. chain = link things together figuratively（動詞） — 串連；連接」的用法，與本句語境不同。",
-        "chain-mcq-04": "「用來限制活動的鎖鏈；亦可比喻束縛」是「chains — restraint」的用法，與本句語境不同。"
+        "chain-mcq-07": "本句的「chain」指「在空間上連續排列的一系列地形或地理事物」。",
+        "chain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-07"
     },
@@ -511,11 +461,9 @@ export default {
       "masked": "The company is trying to improve its supply ____.",
       "options": [
         "chain-mcq-08",
-        "chain-mcq-07",
-        "chain-mcq-09",
-        "chain-mcq-06",
-        "chain-mcq-10",
-        "chain-mcq-05"
+        "chain-mcq-04",
+        "chain-mcq-05",
+        "chain-mcq-10"
       ],
       "explanation": "本句的「chain」指「多個步驟、層級或參與者依次相連形成的系統」。",
       "sentenceIndex": 9,
@@ -524,12 +472,10 @@ export default {
         "chain"
       ],
       "optionReasons": {
-        "chain-mcq-08": "本句指「多個步驟、層級或參與者依次相連形成的系統」。",
-        "chain-mcq-07": "「在空間上連續排列的一系列地形或地理事物」是「4. chain = connected sequence in geography/nature（地理） — 山脈；島鏈；連串」的用法，與本句語境不同。",
-        "chain-mcq-09": "「把多個元素按順序連接成一個連續系統」是「8. chain = link things together figuratively（動詞） — 串連；連接」的用法，與本句語境不同。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。",
-        "chain-mcq-10": "「一個事件引發下一個，再引發更多事件的連續反應」是「Useful compound: chain reaction — 連鎖反應」的用法，與本句語境不同。",
-        "chain-mcq-05": "「用鏈條把某人／某物固定、鎖住或串連起來」是「chain — verb」的用法，與本句語境不同。"
+        "chain-mcq-08": "本句的「chain」指「多個步驟、層級或參與者依次相連形成的系統」。",
+        "chain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-08"
     },
@@ -541,9 +487,7 @@ export default {
       "masked": "Energy moves through the food ____.",
       "options": [
         "chain-mcq-08",
-        "chain-mcq-07",
-        "chain-mcq-09",
-        "chain-mcq-06",
+        "chain-mcq-04",
         "chain-mcq-10",
         "chain-mcq-05"
       ],
@@ -554,12 +498,10 @@ export default {
         "chain"
       ],
       "optionReasons": {
-        "chain-mcq-08": "本句指「多個步驟、層級或參與者依次相連形成的系統」。",
-        "chain-mcq-07": "「在空間上連續排列的一系列地形或地理事物」是「4. chain = connected sequence in geography/nature（地理） — 山脈；島鏈；連串」的用法，與本句語境不同。",
-        "chain-mcq-09": "「把多個元素按順序連接成一個連續系統」是「8. chain = link things together figuratively（動詞） — 串連；連接」的用法，與本句語境不同。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。",
-        "chain-mcq-10": "「一個事件引發下一個，再引發更多事件的連續反應」是「Useful compound: chain reaction — 連鎖反應」的用法，與本句語境不同。",
-        "chain-mcq-05": "「用鏈條把某人／某物固定、鎖住或串連起來」是「chain — verb」的用法，與本句語境不同。"
+        "chain-mcq-08": "本句的「chain」指「多個步驟、層級或參與者依次相連形成的系統」。",
+        "chain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-08"
     },
@@ -571,11 +513,8 @@ export default {
       "masked": "The prisoner was kept in ____.",
       "options": [
         "chain-mcq-04",
-        "chain-mcq-03",
-        "chain-mcq-05",
-        "chain-mcq-02",
-        "chain-mcq-06",
-        "chain-mcq-01"
+        "chain-mcq-09",
+        "chain-mcq-05"
       ],
       "explanation": "本句的「chains」指「用來限制活動的鎖鏈；亦可比喻束縛」。",
       "sentenceIndex": 11,
@@ -584,12 +523,9 @@ export default {
         "chains"
       ],
       "optionReasons": {
-        "chain-mcq-04": "本句指「用來限制活動的鎖鏈；亦可比喻束縛」。",
-        "chain-mcq-03": "「多間以同一品牌、所有權或管理系統經營的連鎖企業／店舖」是「chain — business group」的用法，與本句語境不同。",
-        "chain-mcq-05": "「用鏈條把某人／某物固定、鎖住或串連起來」是「chain — verb」的用法，與本句語境不同。",
-        "chain-mcq-02": "「多個事件、事物、階段或單位彼此相連形成的一連串關係」是「chain — connected series」的用法，與本句語境不同。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。",
-        "chain-mcq-01": "「由一連串相連金屬環／鏈節組成的鏈條」是「chain — metal links」的用法，與本句語境不同。"
+        "chain-mcq-04": "本句的「chains」指「用來限制活動的鎖鏈；亦可比喻束縛」。",
+        "chain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-04"
     },
@@ -601,11 +537,9 @@ export default {
       "masked": "The image of broken ____ often symbolizes freedom.",
       "options": [
         "chain-mcq-04",
-        "chain-mcq-03",
-        "chain-mcq-05",
+        "chain-mcq-07",
         "chain-mcq-02",
-        "chain-mcq-06",
-        "chain-mcq-01"
+        "chain-mcq-05"
       ],
       "explanation": "本句的「chains」指「用來限制活動的鎖鏈；亦可比喻束縛」。",
       "sentenceIndex": 12,
@@ -614,12 +548,10 @@ export default {
         "chains"
       ],
       "optionReasons": {
-        "chain-mcq-04": "本句指「用來限制活動的鎖鏈；亦可比喻束縛」。",
-        "chain-mcq-03": "「多間以同一品牌、所有權或管理系統經營的連鎖企業／店舖」是「chain — business group」的用法，與本句語境不同。",
-        "chain-mcq-05": "「用鏈條把某人／某物固定、鎖住或串連起來」是「chain — verb」的用法，與本句語境不同。",
-        "chain-mcq-02": "「多個事件、事物、階段或單位彼此相連形成的一連串關係」是「chain — connected series」的用法，與本句語境不同。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。",
-        "chain-mcq-01": "「由一連串相連金屬環／鏈節組成的鏈條」是「chain — metal links」的用法，與本句語境不同。"
+        "chain-mcq-04": "本句的「chains」指「用來限制活動的鎖鏈；亦可比喻束縛」。",
+        "chain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-04"
     },
@@ -631,11 +563,9 @@ export default {
       "masked": "He ____ the bicycle to the fence.",
       "options": [
         "chain-mcq-05",
-        "chain-mcq-04",
-        "chain-mcq-06",
-        "chain-mcq-03",
-        "chain-mcq-07",
-        "chain-mcq-02"
+        "chain-mcq-11",
+        "chain-mcq-10",
+        "chain-mcq-04"
       ],
       "explanation": "本句的「chained」指「用鏈條把某人／某物固定、鎖住或串連起來」。",
       "sentenceIndex": 13,
@@ -644,12 +574,10 @@ export default {
         "chained"
       ],
       "optionReasons": {
-        "chain-mcq-05": "本句指「用鏈條把某人／某物固定、鎖住或串連起來」。",
-        "chain-mcq-04": "「用來限制活動的鎖鏈；亦可比喻束縛」是「chains — restraint」的用法，與本句語境不同。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。",
-        "chain-mcq-03": "「多間以同一品牌、所有權或管理系統經營的連鎖企業／店舖」是「chain — business group」的用法，與本句語境不同。",
-        "chain-mcq-07": "「在空間上連續排列的一系列地形或地理事物」是「4. chain = connected sequence in geography/nature（地理） — 山脈；島鏈；連串」的用法，與本句語境不同。",
-        "chain-mcq-02": "「多個事件、事物、階段或單位彼此相連形成的一連串關係」是「chain — connected series」的用法，與本句語境不同。"
+        "chain-mcq-05": "本句的「chained」指「用鏈條把某人／某物固定、鎖住或串連起來」。",
+        "chain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-05"
     },
@@ -661,11 +589,9 @@ export default {
       "masked": "The gate was ____ shut.",
       "options": [
         "chain-mcq-05",
-        "chain-mcq-04",
-        "chain-mcq-06",
-        "chain-mcq-03",
-        "chain-mcq-07",
-        "chain-mcq-02"
+        "chain-mcq-11",
+        "chain-mcq-10",
+        "chain-mcq-04"
       ],
       "explanation": "本句的「chained」指「用鏈條把某人／某物固定、鎖住或串連起來」。",
       "sentenceIndex": 14,
@@ -674,12 +600,10 @@ export default {
         "chained"
       ],
       "optionReasons": {
-        "chain-mcq-05": "本句指「用鏈條把某人／某物固定、鎖住或串連起來」。",
-        "chain-mcq-04": "「用來限制活動的鎖鏈；亦可比喻束縛」是「chains — restraint」的用法，與本句語境不同。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。",
-        "chain-mcq-03": "「多間以同一品牌、所有權或管理系統經營的連鎖企業／店舖」是「chain — business group」的用法，與本句語境不同。",
-        "chain-mcq-07": "「在空間上連續排列的一系列地形或地理事物」是「4. chain = connected sequence in geography/nature（地理） — 山脈；島鏈；連串」的用法，與本句語境不同。",
-        "chain-mcq-02": "「多個事件、事物、階段或單位彼此相連形成的一連串關係」是「chain — connected series」的用法，與本句語境不同。"
+        "chain-mcq-05": "本句的「chained」指「用鏈條把某人／某物固定、鎖住或串連起來」。",
+        "chain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-05"
     },
@@ -691,11 +615,8 @@ export default {
       "masked": "The system ____ several processes together.",
       "options": [
         "chain-mcq-09",
-        "chain-mcq-08",
-        "chain-mcq-10",
-        "chain-mcq-07",
-        "chain-mcq-11",
-        "chain-mcq-06"
+        "chain-mcq-04",
+        "chain-mcq-05"
       ],
       "explanation": "本句的「chains」指「把多個元素按順序連接成一個連續系統」。",
       "sentenceIndex": 15,
@@ -704,12 +625,9 @@ export default {
         "chains"
       ],
       "optionReasons": {
-        "chain-mcq-09": "本句指「把多個元素按順序連接成一個連續系統」。",
-        "chain-mcq-08": "「多個步驟、層級或參與者依次相連形成的系統」是「5. chain = sequence of responsibility/supply/etc.（系統關係） — 鏈；體系」的用法，與本句語境不同。",
-        "chain-mcq-10": "「一個事件引發下一個，再引發更多事件的連續反應」是「Useful compound: chain reaction — 連鎖反應」的用法，與本句語境不同。",
-        "chain-mcq-07": "「在空間上連續排列的一系列地形或地理事物」是「4. chain = connected sequence in geography/nature（地理） — 山脈；島鏈；連串」的用法，與本句語境不同。",
-        "chain-mcq-11": "「權力或指揮由上而下依次排列的層級系統」是「Useful compound: chain of command — 指揮系統／層級」的用法，與本句語境不同。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。"
+        "chain-mcq-09": "本句的「chains」指「把多個元素按順序連接成一個連續系統」。",
+        "chain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-09"
     },
@@ -721,11 +639,8 @@ export default {
       "masked": "The tasks are ____ in a fixed order.",
       "options": [
         "chain-mcq-09",
-        "chain-mcq-08",
-        "chain-mcq-10",
-        "chain-mcq-07",
-        "chain-mcq-11",
-        "chain-mcq-06"
+        "chain-mcq-04",
+        "chain-mcq-05"
       ],
       "explanation": "本句的「chained」指「把多個元素按順序連接成一個連續系統」。",
       "sentenceIndex": 16,
@@ -734,12 +649,9 @@ export default {
         "chained"
       ],
       "optionReasons": {
-        "chain-mcq-09": "本句指「把多個元素按順序連接成一個連續系統」。",
-        "chain-mcq-08": "「多個步驟、層級或參與者依次相連形成的系統」是「5. chain = sequence of responsibility/supply/etc.（系統關係） — 鏈；體系」的用法，與本句語境不同。",
-        "chain-mcq-10": "「一個事件引發下一個，再引發更多事件的連續反應」是「Useful compound: chain reaction — 連鎖反應」的用法，與本句語境不同。",
-        "chain-mcq-07": "「在空間上連續排列的一系列地形或地理事物」是「4. chain = connected sequence in geography/nature（地理） — 山脈；島鏈；連串」的用法，與本句語境不同。",
-        "chain-mcq-11": "「權力或指揮由上而下依次排列的層級系統」是「Useful compound: chain of command — 指揮系統／層級」的用法，與本句語境不同。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。"
+        "chain-mcq-09": "本句的「chained」指「把多個元素按順序連接成一個連續系統」。",
+        "chain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-09"
     },
@@ -751,11 +663,9 @@ export default {
       "masked": "The first error caused a ____.",
       "options": [
         "chain-mcq-10",
-        "chain-mcq-09",
+        "chain-mcq-04",
         "chain-mcq-11",
-        "chain-mcq-08",
-        "chain-mcq-07",
-        "chain-mcq-06"
+        "chain-mcq-05"
       ],
       "explanation": "本句的「chain reaction」指「一個事件引發下一個，再引發更多事件的連續反應」。",
       "sentenceIndex": 17,
@@ -764,12 +674,10 @@ export default {
         "chain reaction"
       ],
       "optionReasons": {
-        "chain-mcq-10": "本句指「一個事件引發下一個，再引發更多事件的連續反應」。",
-        "chain-mcq-09": "「把多個元素按順序連接成一個連續系統」是「8. chain = link things together figuratively（動詞） — 串連；連接」的用法，與本句語境不同。",
-        "chain-mcq-11": "「權力或指揮由上而下依次排列的層級系統」是「Useful compound: chain of command — 指揮系統／層級」的用法，與本句語境不同。",
-        "chain-mcq-08": "「多個步驟、層級或參與者依次相連形成的系統」是「5. chain = sequence of responsibility/supply/etc.（系統關係） — 鏈；體系」的用法，與本句語境不同。",
-        "chain-mcq-07": "「在空間上連續排列的一系列地形或地理事物」是「4. chain = connected sequence in geography/nature（地理） — 山脈；島鏈；連串」的用法，與本句語境不同。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。"
+        "chain-mcq-10": "本句的「chain reaction」指「一個事件引發下一個，再引發更多事件的連續反應」。",
+        "chain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-10"
     },
@@ -781,11 +689,9 @@ export default {
       "masked": "The request must go through the proper ____.",
       "options": [
         "chain-mcq-11",
-        "chain-mcq-10",
-        "chain-mcq-09",
-        "chain-mcq-08",
-        "chain-mcq-07",
-        "chain-mcq-06"
+        "chain-mcq-02",
+        "chain-mcq-04",
+        "chain-mcq-05"
       ],
       "explanation": "本句的「chain of command」指「權力或指揮由上而下依次排列的層級系統」。",
       "sentenceIndex": 18,
@@ -794,12 +700,10 @@ export default {
         "chain of command"
       ],
       "optionReasons": {
-        "chain-mcq-11": "本句指「權力或指揮由上而下依次排列的層級系統」。",
-        "chain-mcq-10": "「一個事件引發下一個，再引發更多事件的連續反應」是「Useful compound: chain reaction — 連鎖反應」的用法，與本句語境不同。",
-        "chain-mcq-09": "「把多個元素按順序連接成一個連續系統」是「8. chain = link things together figuratively（動詞） — 串連；連接」的用法，與本句語境不同。",
-        "chain-mcq-08": "「多個步驟、層級或參與者依次相連形成的系統」是「5. chain = sequence of responsibility/supply/etc.（系統關係） — 鏈；體系」的用法，與本句語境不同。",
-        "chain-mcq-07": "「在空間上連續排列的一系列地形或地理事物」是「4. chain = connected sequence in geography/nature（地理） — 山脈；島鏈；連串」的用法，與本句語境不同。",
-        "chain-mcq-06": "「以「一環接一環」概念形成的連鎖／鏈式系統」是「chain reaction / supply chain / food chain」的用法，與本句語境不同。"
+        "chain-mcq-11": "本句的「chain of command」指「權力或指揮由上而下依次排列的層級系統」。",
+        "chain-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chain-mcq-11"
     }
@@ -811,5 +715,7 @@ export default {
     "sha256": "c8c04da3df9374244bd87646123de61b8f9d981485fef3be02b0bca048e159e4",
     "pages": 9
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

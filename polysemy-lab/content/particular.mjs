@@ -225,18 +225,7 @@ export default {
       "en": "particular to X",
       "zh": "X 特有的",
       "note": "來源詞義：X 特有的",
-      "examples": [
-        [
-          "Please give particular details of what happened.",
-          "請提供事件的具體細節。",
-          "X 特有的"
-        ],
-        [
-          "The report was very particular in its description.",
-          "這份報告在描述上非常詳細具體。",
-          "X 特有的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -381,6 +370,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "particular-reviewed-ede06abaef",
+      "title": "涉及具體細節，而不是籠統概括",
+      "form": "particular · source section 11",
+      "en": "涉及具體細節，而不是籠統概括",
+      "zh": "涉及具體細節，而不是籠統概括",
+      "note": "對照原始教材第 11 節及例句核實。",
+      "examples": [
+        [
+          "Please give particular details of what happened.",
+          "請提供事件的具體細節。",
+          "涉及具體細節，而不是籠統概括"
+        ],
+        [
+          "The report was very particular in its description.",
+          "這份報告在描述上非常詳細具體。",
+          "涉及具體細節，而不是籠統概括"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -392,11 +403,9 @@ export default {
       "masked": "Why did you choose this ____?",
       "options": [
         "particular-mcq-01",
-        "particular-mcq-02",
-        "particular-mcq-03",
-        "particular-mcq-04",
-        "particular-mcq-05",
-        "particular-mcq-06"
+        "particular-mcq-12",
+        "particular-mcq-09",
+        "particular-reviewed-ede06abaef"
       ],
       "explanation": "本句的「particular gift」指「特定的；某一個的」。",
       "sentenceIndex": 0,
@@ -405,12 +414,10 @@ export default {
         "particular gift"
       ],
       "optionReasons": {
-        "particular-mcq-01": "本句指「特定的；某一個的」。",
-        "particular-mcq-02": "「這個特定的 X」與本句語境不同。",
-        "particular-mcq-03": "「某一個特定的 X」與本句語境不同。",
-        "particular-mcq-04": "「尤其；特別是」與本句語境不同。",
-        "particular-mcq-05": "「沒甚麼特別的」與本句語境不同。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。"
+        "particular-mcq-01": "本句的「particular gift」指「特定的；某一個的」。",
+        "particular-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-01"
     },
@@ -422,11 +429,9 @@ export default {
       "masked": "I'm looking for a ____.",
       "options": [
         "particular-mcq-01",
-        "particular-mcq-02",
-        "particular-mcq-03",
-        "particular-mcq-04",
-        "particular-mcq-05",
-        "particular-mcq-06"
+        "particular-mcq-12",
+        "particular-reviewed-ede06abaef",
+        "particular-mcq-07"
       ],
       "explanation": "本句的「particular book」指「特定的；某一個的」。",
       "sentenceIndex": 1,
@@ -435,12 +440,10 @@ export default {
         "particular book"
       ],
       "optionReasons": {
-        "particular-mcq-01": "本句指「特定的；某一個的」。",
-        "particular-mcq-02": "「這個特定的 X」與本句語境不同。",
-        "particular-mcq-03": "「某一個特定的 X」與本句語境不同。",
-        "particular-mcq-04": "「尤其；特別是」與本句語境不同。",
-        "particular-mcq-05": "「沒甚麼特別的」與本句語境不同。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。"
+        "particular-mcq-01": "本句的「particular book」指「特定的；某一個的」。",
+        "particular-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-01"
     },
@@ -452,11 +455,9 @@ export default {
       "masked": "There was one ____ I remembered clearly.",
       "options": [
         "particular-mcq-01",
-        "particular-mcq-02",
-        "particular-mcq-03",
-        "particular-mcq-04",
-        "particular-mcq-05",
-        "particular-mcq-06"
+        "particular-mcq-11",
+        "particular-mcq-09",
+        "particular-reviewed-ede06abaef"
       ],
       "explanation": "本句的「particular moment」指「特定的；某一個的」。",
       "sentenceIndex": 2,
@@ -465,12 +466,10 @@ export default {
         "particular moment"
       ],
       "optionReasons": {
-        "particular-mcq-01": "本句指「特定的；某一個的」。",
-        "particular-mcq-02": "「這個特定的 X」與本句語境不同。",
-        "particular-mcq-03": "「某一個特定的 X」與本句語境不同。",
-        "particular-mcq-04": "「尤其；特別是」與本句語境不同。",
-        "particular-mcq-05": "「沒甚麼特別的」與本句語境不同。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。"
+        "particular-mcq-01": "本句的「particular moment」指「特定的；某一個的」。",
+        "particular-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-01"
     },
@@ -482,11 +481,9 @@ export default {
       "masked": "I don't remember ____.",
       "options": [
         "particular-mcq-02",
-        "particular-mcq-01",
-        "particular-mcq-03",
-        "particular-mcq-04",
-        "particular-mcq-05",
-        "particular-mcq-06"
+        "particular-mcq-07",
+        "particular-mcq-12",
+        "particular-mcq-09"
       ],
       "explanation": "本句的「that particular day」指「這個特定的 X」。",
       "sentenceIndex": 3,
@@ -495,12 +492,10 @@ export default {
         "that particular day"
       ],
       "optionReasons": {
-        "particular-mcq-02": "本句指「這個特定的 X」。",
-        "particular-mcq-01": "「特定的；某一個的」與本句語境不同。",
-        "particular-mcq-03": "「某一個特定的 X」與本句語境不同。",
-        "particular-mcq-04": "「尤其；特別是」與本句語境不同。",
-        "particular-mcq-05": "「沒甚麼特別的」與本句語境不同。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。"
+        "particular-mcq-02": "本句的「that particular day」指「這個特定的 X」。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-02"
     },
@@ -512,11 +507,9 @@ export default {
       "masked": "Why are you interested in ____?",
       "options": [
         "particular-mcq-02",
-        "particular-mcq-01",
-        "particular-mcq-03",
-        "particular-mcq-04",
-        "particular-mcq-05",
-        "particular-mcq-06"
+        "particular-mcq-09",
+        "particular-mcq-11",
+        "particular-mcq-07"
       ],
       "explanation": "本句的「this particular topic」指「這個特定的 X」。",
       "sentenceIndex": 4,
@@ -525,12 +518,10 @@ export default {
         "this particular topic"
       ],
       "optionReasons": {
-        "particular-mcq-02": "本句指「這個特定的 X」。",
-        "particular-mcq-01": "「特定的；某一個的」與本句語境不同。",
-        "particular-mcq-03": "「某一個特定的 X」與本句語境不同。",
-        "particular-mcq-04": "「尤其；特別是」與本句語境不同。",
-        "particular-mcq-05": "「沒甚麼特別的」與本句語境不同。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。"
+        "particular-mcq-02": "本句的「this particular topic」指「這個特定的 X」。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-02"
     },
@@ -542,11 +533,9 @@ export default {
       "masked": "____ made her laugh.",
       "options": [
         "particular-mcq-03",
-        "particular-mcq-02",
-        "particular-mcq-04",
-        "particular-mcq-01",
-        "particular-mcq-05",
-        "particular-mcq-06"
+        "particular-mcq-09",
+        "particular-mcq-07",
+        "particular-mcq-11"
       ],
       "explanation": "本句的「One particular photo」指「某一個特定的 X」。",
       "sentenceIndex": 5,
@@ -555,12 +544,10 @@ export default {
         "One particular photo"
       ],
       "optionReasons": {
-        "particular-mcq-03": "本句指「某一個特定的 X」。",
-        "particular-mcq-02": "「這個特定的 X」與本句語境不同。",
-        "particular-mcq-04": "「尤其；特別是」與本句語境不同。",
-        "particular-mcq-01": "「特定的；某一個的」與本句語境不同。",
-        "particular-mcq-05": "「沒甚麼特別的」與本句語境不同。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。"
+        "particular-mcq-03": "本句的「One particular photo」指「某一個特定的 X」。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-03"
     },
@@ -572,11 +559,9 @@ export default {
       "masked": "I remember ____ from school.",
       "options": [
         "particular-mcq-03",
-        "particular-mcq-02",
-        "particular-mcq-04",
-        "particular-mcq-01",
-        "particular-mcq-05",
-        "particular-mcq-06"
+        "particular-mcq-07",
+        "particular-reviewed-ede06abaef",
+        "particular-mcq-09"
       ],
       "explanation": "本句的「one particular teacher」指「某一個特定的 X」。",
       "sentenceIndex": 6,
@@ -585,12 +570,10 @@ export default {
         "one particular teacher"
       ],
       "optionReasons": {
-        "particular-mcq-03": "本句指「某一個特定的 X」。",
-        "particular-mcq-02": "「這個特定的 X」與本句語境不同。",
-        "particular-mcq-04": "「尤其；特別是」與本句語境不同。",
-        "particular-mcq-01": "「特定的；某一個的」與本句語境不同。",
-        "particular-mcq-05": "「沒甚麼特別的」與本句語境不同。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。"
+        "particular-mcq-03": "本句的「one particular teacher」指「某一個特定的 X」。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-03"
     },
@@ -602,11 +585,9 @@ export default {
       "masked": "I liked the whole album, but one page ____ stood out.",
       "options": [
         "particular-mcq-04",
-        "particular-mcq-03",
-        "particular-mcq-05",
-        "particular-mcq-02",
-        "particular-mcq-06",
-        "particular-mcq-01"
+        "particular-mcq-11",
+        "particular-mcq-09",
+        "particular-reviewed-ede06abaef"
       ],
       "explanation": "本句的「in particular」指「尤其；特別是」。",
       "sentenceIndex": 7,
@@ -615,12 +596,10 @@ export default {
         "in particular"
       ],
       "optionReasons": {
-        "particular-mcq-04": "本句指「尤其；特別是」。",
-        "particular-mcq-03": "「某一個特定的 X」與本句語境不同。",
-        "particular-mcq-05": "「沒甚麼特別的」與本句語境不同。",
-        "particular-mcq-02": "「這個特定的 X」與本句語境不同。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。",
-        "particular-mcq-01": "「特定的；某一個的」與本句語境不同。"
+        "particular-mcq-04": "本句的「in particular」指「尤其；特別是」。",
+        "particular-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-04"
     },
@@ -632,11 +611,9 @@ export default {
       "masked": "She enjoys fruit, oranges ____.",
       "options": [
         "particular-mcq-04",
-        "particular-mcq-03",
-        "particular-mcq-05",
-        "particular-mcq-02",
-        "particular-mcq-06",
-        "particular-mcq-01"
+        "particular-mcq-07",
+        "particular-mcq-11",
+        "particular-reviewed-ede06abaef"
       ],
       "explanation": "本句的「in particular」指「尤其；特別是」。",
       "sentenceIndex": 8,
@@ -645,12 +622,10 @@ export default {
         "in particular"
       ],
       "optionReasons": {
-        "particular-mcq-04": "本句指「尤其；特別是」。",
-        "particular-mcq-03": "「某一個特定的 X」與本句語境不同。",
-        "particular-mcq-05": "「沒甚麼特別的」與本句語境不同。",
-        "particular-mcq-02": "「這個特定的 X」與本句語境不同。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。",
-        "particular-mcq-01": "「特定的；某一個的」與本句語境不同。"
+        "particular-mcq-04": "本句的「in particular」指「尤其；特別是」。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-04"
     },
@@ -662,11 +637,9 @@ export default {
       "masked": "What are you doing? — ____.",
       "options": [
         "particular-mcq-05",
-        "particular-mcq-04",
-        "particular-mcq-06",
-        "particular-mcq-03",
-        "particular-mcq-07",
-        "particular-mcq-02"
+        "particular-reviewed-ede06abaef",
+        "particular-mcq-11",
+        "particular-mcq-07"
       ],
       "explanation": "本句的「Nothing in particular」指「沒甚麼特別的」。",
       "sentenceIndex": 9,
@@ -675,12 +648,10 @@ export default {
         "Nothing in particular"
       ],
       "optionReasons": {
-        "particular-mcq-05": "本句指「沒甚麼特別的」。",
-        "particular-mcq-04": "「尤其；特別是」與本句語境不同。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。",
-        "particular-mcq-03": "「某一個特定的 X」與本句語境不同。",
-        "particular-mcq-07": "「對 X 很講究」與本句語境不同。",
-        "particular-mcq-02": "「這個特定的 X」與本句語境不同。"
+        "particular-mcq-05": "本句的「Nothing in particular」指「沒甚麼特別的」。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-05"
     },
@@ -692,11 +663,9 @@ export default {
       "masked": "I went out for ____.",
       "options": [
         "particular-mcq-05",
-        "particular-mcq-04",
-        "particular-mcq-06",
-        "particular-mcq-03",
-        "particular-mcq-07",
-        "particular-mcq-02"
+        "particular-reviewed-ede06abaef",
+        "particular-mcq-09",
+        "particular-mcq-12"
       ],
       "explanation": "本句的「no particular reason」指「沒甚麼特別的」。",
       "sentenceIndex": 10,
@@ -705,12 +674,10 @@ export default {
         "no particular reason"
       ],
       "optionReasons": {
-        "particular-mcq-05": "本句指「沒甚麼特別的」。",
-        "particular-mcq-04": "「尤其；特別是」與本句語境不同。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。",
-        "particular-mcq-03": "「某一個特定的 X」與本句語境不同。",
-        "particular-mcq-07": "「對 X 很講究」與本句語境不同。",
-        "particular-mcq-02": "「這個特定的 X」與本句語境不同。"
+        "particular-mcq-05": "本句的「no particular reason」指「沒甚麼特別的」。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-05"
     },
@@ -722,11 +689,9 @@ export default {
       "masked": "He smiled ____.",
       "options": [
         "particular-mcq-06",
-        "particular-mcq-05",
-        "particular-mcq-07",
-        "particular-mcq-04",
-        "particular-mcq-08",
-        "particular-mcq-03"
+        "particular-mcq-12",
+        "particular-reviewed-ede06abaef",
+        "particular-mcq-09"
       ],
       "explanation": "本句的「for no particular reason」指「沒有特別原因」。",
       "sentenceIndex": 11,
@@ -735,12 +700,10 @@ export default {
         "for no particular reason"
       ],
       "optionReasons": {
-        "particular-mcq-06": "本句指「沒有特別原因」。",
-        "particular-mcq-05": "「沒甚麼特別的」與本句語境不同。",
-        "particular-mcq-07": "「對 X 很講究」與本句語境不同。",
-        "particular-mcq-04": "「尤其；特別是」與本句語境不同。",
-        "particular-mcq-08": "「特別注意」與本句語境不同。",
-        "particular-mcq-03": "「某一個特定的 X」與本句語境不同。"
+        "particular-mcq-06": "本句的「for no particular reason」指「沒有特別原因」。",
+        "particular-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-06"
     },
@@ -752,11 +715,9 @@ export default {
       "masked": "I chose that seat ____.",
       "options": [
         "particular-mcq-06",
-        "particular-mcq-05",
-        "particular-mcq-07",
-        "particular-mcq-04",
-        "particular-mcq-08",
-        "particular-mcq-03"
+        "particular-mcq-11",
+        "particular-reviewed-ede06abaef",
+        "particular-mcq-09"
       ],
       "explanation": "本句的「for no particular reason」指「沒有特別原因」。",
       "sentenceIndex": 12,
@@ -765,12 +726,10 @@ export default {
         "for no particular reason"
       ],
       "optionReasons": {
-        "particular-mcq-06": "本句指「沒有特別原因」。",
-        "particular-mcq-05": "「沒甚麼特別的」與本句語境不同。",
-        "particular-mcq-07": "「對 X 很講究」與本句語境不同。",
-        "particular-mcq-04": "「尤其；特別是」與本句語境不同。",
-        "particular-mcq-08": "「特別注意」與本句語境不同。",
-        "particular-mcq-03": "「某一個特定的 X」與本句語境不同。"
+        "particular-mcq-06": "本句的「for no particular reason」指「沒有特別原因」。",
+        "particular-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-06"
     },
@@ -782,11 +741,9 @@ export default {
       "masked": "She's very ____.",
       "options": [
         "particular-mcq-07",
-        "particular-mcq-06",
-        "particular-mcq-08",
-        "particular-mcq-05",
-        "particular-mcq-09",
-        "particular-mcq-04"
+        "particular-pdf-001",
+        "particular-mcq-12",
+        "particular-mcq-09"
       ],
       "explanation": "本句的「particular about food」指「對 X 很講究」。",
       "sentenceIndex": 13,
@@ -795,12 +752,10 @@ export default {
         "particular about food"
       ],
       "optionReasons": {
-        "particular-mcq-07": "本句指「對 X 很講究」。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。",
-        "particular-mcq-08": "「特別注意」與本句語境不同。",
-        "particular-mcq-05": "「沒甚麼特別的」與本句語境不同。",
-        "particular-mcq-09": "「格外小心」與本句語境不同。",
-        "particular-mcq-04": "「尤其；特別是」與本句語境不同。"
+        "particular-mcq-07": "本句的「particular about food」指「對 X 很講究」。",
+        "particular-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-07"
     },
@@ -812,11 +767,9 @@ export default {
       "masked": "He is ____.",
       "options": [
         "particular-mcq-07",
-        "particular-mcq-06",
-        "particular-mcq-08",
-        "particular-mcq-05",
+        "particular-mcq-01",
         "particular-mcq-09",
-        "particular-mcq-04"
+        "particular-mcq-11"
       ],
       "explanation": "本句的「particular about how his desk is arranged」指「對 X 很講究」。",
       "sentenceIndex": 14,
@@ -825,12 +778,10 @@ export default {
         "particular about how his desk is arranged"
       ],
       "optionReasons": {
-        "particular-mcq-07": "本句指「對 X 很講究」。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。",
-        "particular-mcq-08": "「特別注意」與本句語境不同。",
-        "particular-mcq-05": "「沒甚麼特別的」與本句語境不同。",
-        "particular-mcq-09": "「格外小心」與本句語境不同。",
-        "particular-mcq-04": "「尤其；特別是」與本句語境不同。"
+        "particular-mcq-07": "本句的「particular about how his desk is arranged」指「對 X 很講究」。",
+        "particular-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-07"
     },
@@ -842,11 +793,9 @@ export default {
       "masked": "My father is very ____.",
       "options": [
         "particular-mcq-07",
-        "particular-mcq-06",
-        "particular-mcq-08",
-        "particular-mcq-05",
+        "particular-reviewed-ede06abaef",
         "particular-mcq-09",
-        "particular-mcq-04"
+        "particular-mcq-11"
       ],
       "explanation": "本句的「particular about coffee」指「對 X 很講究」。",
       "sentenceIndex": 15,
@@ -855,12 +804,10 @@ export default {
         "particular about coffee"
       ],
       "optionReasons": {
-        "particular-mcq-07": "本句指「對 X 很講究」。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。",
-        "particular-mcq-08": "「特別注意」與本句語境不同。",
-        "particular-mcq-05": "「沒甚麼特別的」與本句語境不同。",
-        "particular-mcq-09": "「格外小心」與本句語境不同。",
-        "particular-mcq-04": "「尤其；特別是」與本句語境不同。"
+        "particular-mcq-07": "本句的「particular about coffee」指「對 X 很講究」。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-07"
     },
@@ -872,11 +819,9 @@ export default {
       "masked": "She's ____.",
       "options": [
         "particular-mcq-07",
-        "particular-mcq-06",
-        "particular-mcq-08",
-        "particular-mcq-05",
-        "particular-mcq-09",
-        "particular-mcq-04"
+        "particular-pdf-001",
+        "particular-mcq-12",
+        "particular-mcq-09"
       ],
       "explanation": "本句的「particular about grammar」指「對 X 很講究」。",
       "sentenceIndex": 16,
@@ -885,12 +830,10 @@ export default {
         "particular about grammar"
       ],
       "optionReasons": {
-        "particular-mcq-07": "本句指「對 X 很講究」。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。",
-        "particular-mcq-08": "「特別注意」與本句語境不同。",
-        "particular-mcq-05": "「沒甚麼特別的」與本句語境不同。",
-        "particular-mcq-09": "「格外小心」與本句語境不同。",
-        "particular-mcq-04": "「尤其；特別是」與本句語境不同。"
+        "particular-mcq-07": "本句的「particular about grammar」指「對 X 很講究」。",
+        "particular-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-07"
     },
@@ -902,11 +845,9 @@ export default {
       "masked": "Pay ____ to the final paragraph.",
       "options": [
         "particular-mcq-08",
-        "particular-mcq-07",
         "particular-mcq-09",
-        "particular-mcq-06",
-        "particular-mcq-10",
-        "particular-mcq-05"
+        "particular-mcq-11",
+        "particular-reviewed-ede06abaef"
       ],
       "explanation": "本句的「particular attention」指「特別注意」。",
       "sentenceIndex": 17,
@@ -915,12 +856,10 @@ export default {
         "particular attention"
       ],
       "optionReasons": {
-        "particular-mcq-08": "本句指「特別注意」。",
-        "particular-mcq-07": "「對 X 很講究」與本句語境不同。",
-        "particular-mcq-09": "「格外小心」與本句語境不同。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。",
-        "particular-mcq-05": "「沒甚麼特別的」與本句語境不同。"
+        "particular-mcq-08": "本句的「particular attention」指「特別注意」。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-08"
     },
@@ -933,10 +872,8 @@ export default {
       "options": [
         "particular-mcq-08",
         "particular-mcq-07",
-        "particular-mcq-09",
-        "particular-mcq-06",
-        "particular-mcq-10",
-        "particular-mcq-05"
+        "particular-mcq-12",
+        "particular-mcq-09"
       ],
       "explanation": "本句的「particular attention」指「特別注意」。",
       "sentenceIndex": 18,
@@ -945,12 +882,10 @@ export default {
         "particular attention"
       ],
       "optionReasons": {
-        "particular-mcq-08": "本句指「特別注意」。",
-        "particular-mcq-07": "「對 X 很講究」與本句語境不同。",
-        "particular-mcq-09": "「格外小心」與本句語境不同。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。",
-        "particular-mcq-05": "「沒甚麼特別的」與本句語境不同。"
+        "particular-mcq-08": "本句的「particular attention」指「特別注意」。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-08"
     },
@@ -963,10 +898,8 @@ export default {
       "options": [
         "particular-mcq-09",
         "particular-mcq-08",
-        "particular-mcq-10",
         "particular-mcq-07",
-        "particular-mcq-11",
-        "particular-mcq-06"
+        "particular-mcq-12"
       ],
       "explanation": "本句的「particular care」指「格外小心」。",
       "sentenceIndex": 19,
@@ -975,12 +908,10 @@ export default {
         "particular care"
       ],
       "optionReasons": {
-        "particular-mcq-09": "本句指「格外小心」。",
-        "particular-mcq-08": "「特別注意」與本句語境不同。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。",
-        "particular-mcq-07": "「對 X 很講究」與本句語境不同。",
-        "particular-mcq-11": "「詳情；資料」與本句語境不同。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。"
+        "particular-mcq-09": "本句的「particular care」指「格外小心」。",
+        "particular-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-09"
     },
@@ -992,11 +923,9 @@ export default {
       "masked": "The old photos were handled with ____.",
       "options": [
         "particular-mcq-09",
-        "particular-mcq-08",
-        "particular-mcq-10",
-        "particular-mcq-07",
-        "particular-mcq-11",
-        "particular-mcq-06"
+        "particular-mcq-05",
+        "particular-mcq-15",
+        "particular-mcq-11"
       ],
       "explanation": "本句的「particular care」指「格外小心」。",
       "sentenceIndex": 20,
@@ -1005,74 +934,68 @@ export default {
         "particular care"
       ],
       "optionReasons": {
-        "particular-mcq-09": "本句指「格外小心」。",
-        "particular-mcq-08": "「特別注意」與本句語境不同。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。",
-        "particular-mcq-07": "「對 X 很講究」與本句語境不同。",
-        "particular-mcq-11": "「詳情；資料」與本句語境不同。",
-        "particular-mcq-06": "「沒有特別原因」與本句語境不同。"
+        "particular-mcq-09": "本句的「particular care」指「格外小心」。",
+        "particular-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-09"
     },
     {
       "id": "particular-11-0",
-      "sense": "particular-mcq-10",
+      "sense": "particular-reviewed-ede06abaef",
       "en": "Please give particular details of what happened.",
       "zh": "請提供事件的具體細節。",
       "masked": "Please give ____ of what happened.",
       "options": [
-        "particular-mcq-10",
+        "particular-reviewed-ede06abaef",
         "particular-mcq-09",
-        "particular-mcq-11",
-        "particular-mcq-08",
-        "particular-mcq-12",
-        "particular-mcq-07"
+        "particular-mcq-07",
+        "particular-mcq-11"
       ],
-      "explanation": "本句的「particular details」指「X 特有的」。",
+      "explanation": "對照完整句子：「請提供事件的具體細節。」。這裡的「particular details」表示「涉及具體細節，而不是籠統概括」。",
       "sentenceIndex": 21,
       "sourcePractice": 1,
       "targets": [
         "particular details"
       ],
       "optionReasons": {
-        "particular-mcq-10": "本句指「X 特有的」。",
-        "particular-mcq-09": "「格外小心」與本句語境不同。",
-        "particular-mcq-11": "「詳情；資料」與本句語境不同。",
-        "particular-mcq-08": "「特別注意」與本句語境不同。",
-        "particular-mcq-12": "「個人資料」與本句語境不同。",
-        "particular-mcq-07": "「對 X 很講究」與本句語境不同。"
+        "particular-reviewed-ede06abaef": "對照完整句子：「請提供事件的具體細節。」。這裡的「particular details」表示「涉及具體細節，而不是籠統概括」。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "particular-mcq-10"
+      "correctOption": "particular-reviewed-ede06abaef",
+      "previousCorrectOption": "particular-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "particular-11-1",
-      "sense": "particular-mcq-10",
+      "sense": "particular-reviewed-ede06abaef",
       "en": "The report was very particular in its description.",
       "zh": "這份報告在描述上非常詳細具體。",
       "masked": "The report was very ____ in its description.",
       "options": [
-        "particular-mcq-10",
-        "particular-mcq-09",
-        "particular-mcq-11",
+        "particular-reviewed-ede06abaef",
         "particular-mcq-08",
-        "particular-mcq-12",
+        "particular-mcq-11",
         "particular-mcq-07"
       ],
-      "explanation": "本句的「particular」指「X 特有的」。",
+      "explanation": "對照完整句子：「這份報告在描述上非常詳細具體。」。這裡的「particular」表示「涉及具體細節，而不是籠統概括」。",
       "sentenceIndex": 22,
       "sourcePractice": 2,
       "targets": [
         "particular"
       ],
       "optionReasons": {
-        "particular-mcq-10": "本句指「X 特有的」。",
-        "particular-mcq-09": "「格外小心」與本句語境不同。",
-        "particular-mcq-11": "「詳情；資料」與本句語境不同。",
-        "particular-mcq-08": "「特別注意」與本句語境不同。",
-        "particular-mcq-12": "「個人資料」與本句語境不同。",
-        "particular-mcq-07": "「對 X 很講究」與本句語境不同。"
+        "particular-reviewed-ede06abaef": "對照完整句子：「這份報告在描述上非常詳細具體。」。這裡的「particular」表示「涉及具體細節，而不是籠統概括」。",
+        "particular-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "particular-mcq-10"
+      "correctOption": "particular-reviewed-ede06abaef",
+      "previousCorrectOption": "particular-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "particular-12-0",
@@ -1082,11 +1005,9 @@ export default {
       "masked": "Please provide your ____.",
       "options": [
         "particular-mcq-11",
-        "particular-mcq-10",
-        "particular-mcq-12",
         "particular-mcq-09",
-        "particular-mcq-13",
-        "particular-mcq-08"
+        "particular-mcq-08",
+        "particular-reviewed-ede06abaef"
       ],
       "explanation": "本句的「personal particulars」指「詳情；資料」。",
       "sentenceIndex": 23,
@@ -1095,12 +1016,10 @@ export default {
         "personal particulars"
       ],
       "optionReasons": {
-        "particular-mcq-11": "本句指「詳情；資料」。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。",
-        "particular-mcq-12": "「個人資料」與本句語境不同。",
-        "particular-mcq-09": "「格外小心」與本句語境不同。",
-        "particular-mcq-13": "「特別；尤其」與本句語境不同。",
-        "particular-mcq-08": "「特別注意」與本句語境不同。"
+        "particular-mcq-11": "本句的「personal particulars」指「詳情；資料」。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-11"
     },
@@ -1112,11 +1031,9 @@ export default {
       "masked": "The police recorded the ____.",
       "options": [
         "particular-mcq-11",
-        "particular-mcq-10",
-        "particular-mcq-12",
+        "particular-mcq-02",
         "particular-mcq-09",
-        "particular-mcq-13",
-        "particular-mcq-08"
+        "particular-reviewed-ede06abaef"
       ],
       "explanation": "本句的「particulars of the incident」指「詳情；資料」。",
       "sentenceIndex": 24,
@@ -1125,12 +1042,10 @@ export default {
         "particulars of the incident"
       ],
       "optionReasons": {
-        "particular-mcq-11": "本句指「詳情；資料」。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。",
-        "particular-mcq-12": "「個人資料」與本句語境不同。",
-        "particular-mcq-09": "「格外小心」與本句語境不同。",
-        "particular-mcq-13": "「特別；尤其」與本句語境不同。",
-        "particular-mcq-08": "「特別注意」與本句語境不同。"
+        "particular-mcq-11": "本句的「particulars of the incident」指「詳情；資料」。",
+        "particular-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-11"
     },
@@ -1142,10 +1057,8 @@ export default {
       "masked": "Fill in your ____ on the form.",
       "options": [
         "particular-mcq-12",
-        "particular-mcq-11",
-        "particular-mcq-13",
-        "particular-mcq-10",
-        "particular-mcq-14",
+        "particular-mcq-03",
+        "particular-mcq-07",
         "particular-mcq-09"
       ],
       "explanation": "本句的「personal particulars」指「個人資料」。",
@@ -1155,12 +1068,10 @@ export default {
         "personal particulars"
       ],
       "optionReasons": {
-        "particular-mcq-12": "本句指「個人資料」。",
-        "particular-mcq-11": "「詳情；資料」與本句語境不同。",
-        "particular-mcq-13": "「特別；尤其」與本句語境不同。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。",
-        "particular-mcq-14": "「不太；不算特別」與本句語境不同。",
-        "particular-mcq-09": "「格外小心」與本句語境不同。"
+        "particular-mcq-12": "本句的「personal particulars」指「個人資料」。",
+        "particular-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-12"
     },
@@ -1172,11 +1083,9 @@ export default {
       "masked": "The document contains his ____.",
       "options": [
         "particular-mcq-12",
-        "particular-mcq-11",
-        "particular-mcq-13",
-        "particular-mcq-10",
-        "particular-mcq-14",
-        "particular-mcq-09"
+        "particular-reviewed-ede06abaef",
+        "particular-mcq-09",
+        "particular-mcq-07"
       ],
       "explanation": "本句的「personal particulars」指「個人資料」。",
       "sentenceIndex": 26,
@@ -1185,12 +1094,10 @@ export default {
         "personal particulars"
       ],
       "optionReasons": {
-        "particular-mcq-12": "本句指「個人資料」。",
-        "particular-mcq-11": "「詳情；資料」與本句語境不同。",
-        "particular-mcq-13": "「特別；尤其」與本句語境不同。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。",
-        "particular-mcq-14": "「不太；不算特別」與本句語境不同。",
-        "particular-mcq-09": "「格外小心」與本句語境不同。"
+        "particular-mcq-12": "本句的「personal particulars」指「個人資料」。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-12"
     },
@@ -1202,9 +1109,7 @@ export default {
       "masked": "We need the ____.",
       "options": [
         "particular-mcq-12",
-        "particular-mcq-11",
-        "particular-mcq-13",
-        "particular-mcq-10",
+        "particular-reviewed-ede06abaef",
         "particular-mcq-14",
         "particular-mcq-09"
       ],
@@ -1215,12 +1120,10 @@ export default {
         "particulars of the agreement"
       ],
       "optionReasons": {
-        "particular-mcq-12": "本句指「個人資料」。",
-        "particular-mcq-11": "「詳情；資料」與本句語境不同。",
-        "particular-mcq-13": "「特別；尤其」與本句語境不同。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。",
-        "particular-mcq-14": "「不太；不算特別」與本句語境不同。",
-        "particular-mcq-09": "「格外小心」與本句語境不同。"
+        "particular-mcq-12": "本句的「particulars of the agreement」指「個人資料」。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-12"
     },
@@ -1232,11 +1135,9 @@ export default {
       "masked": "She gave me the ____.",
       "options": [
         "particular-mcq-12",
-        "particular-mcq-11",
-        "particular-mcq-13",
-        "particular-mcq-10",
-        "particular-mcq-14",
-        "particular-mcq-09"
+        "particular-mcq-02",
+        "particular-mcq-07",
+        "particular-reviewed-ede06abaef"
       ],
       "explanation": "本句的「particulars of the meeting」指「個人資料」。",
       "sentenceIndex": 28,
@@ -1245,12 +1146,10 @@ export default {
         "particulars of the meeting"
       ],
       "optionReasons": {
-        "particular-mcq-12": "本句指「個人資料」。",
-        "particular-mcq-11": "「詳情；資料」與本句語境不同。",
-        "particular-mcq-13": "「特別；尤其」與本句語境不同。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。",
-        "particular-mcq-14": "「不太；不算特別」與本句語境不同。",
-        "particular-mcq-09": "「格外小心」與本句語境不同。"
+        "particular-mcq-12": "本句的「particulars of the meeting」指「個人資料」。",
+        "particular-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-12"
     },
@@ -1262,11 +1161,9 @@ export default {
       "masked": "I ____ liked the handwritten notes.",
       "options": [
         "particular-mcq-13",
-        "particular-mcq-12",
-        "particular-mcq-14",
-        "particular-mcq-11",
-        "particular-mcq-15",
-        "particular-mcq-10"
+        "particular-mcq-07",
+        "particular-mcq-09",
+        "particular-mcq-12"
       ],
       "explanation": "本句的「particularly」指「特別；尤其」。",
       "sentenceIndex": 29,
@@ -1275,12 +1172,10 @@ export default {
         "particularly"
       ],
       "optionReasons": {
-        "particular-mcq-13": "本句指「特別；尤其」。",
-        "particular-mcq-12": "「個人資料」與本句語境不同。",
-        "particular-mcq-14": "「不太；不算特別」與本句語境不同。",
-        "particular-mcq-11": "「詳情；資料」與本句語境不同。",
-        "particular-mcq-15": "「特殊性；獨特之處」與本句語境不同。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。"
+        "particular-mcq-13": "本句的「particularly」指「特別；尤其」。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-13"
     },
@@ -1292,11 +1187,9 @@ export default {
       "masked": "The room was ____ quiet that evening.",
       "options": [
         "particular-mcq-13",
-        "particular-mcq-12",
-        "particular-mcq-14",
-        "particular-mcq-11",
-        "particular-mcq-15",
-        "particular-mcq-10"
+        "particular-mcq-09",
+        "particular-mcq-07",
+        "particular-reviewed-ede06abaef"
       ],
       "explanation": "本句的「particularly」指「特別；尤其」。",
       "sentenceIndex": 30,
@@ -1305,12 +1198,10 @@ export default {
         "particularly"
       ],
       "optionReasons": {
-        "particular-mcq-13": "本句指「特別；尤其」。",
-        "particular-mcq-12": "「個人資料」與本句語境不同。",
-        "particular-mcq-14": "「不太；不算特別」與本句語境不同。",
-        "particular-mcq-11": "「詳情；資料」與本句語境不同。",
-        "particular-mcq-15": "「特殊性；獨特之處」與本句語境不同。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。"
+        "particular-mcq-13": "本句的「particularly」指「特別；尤其」。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-13"
     },
@@ -1322,11 +1213,9 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "particular-mcq-14",
-        "particular-mcq-13",
-        "particular-mcq-15",
+        "particular-reviewed-ede06abaef",
         "particular-mcq-12",
-        "particular-mcq-11",
-        "particular-mcq-10"
+        "particular-mcq-09"
       ],
       "explanation": "本句的「not particularly hungry」指「不太；不算特別」。",
       "sentenceIndex": 31,
@@ -1335,12 +1224,10 @@ export default {
         "not particularly hungry"
       ],
       "optionReasons": {
-        "particular-mcq-14": "本句指「不太；不算特別」。",
-        "particular-mcq-13": "「特別；尤其」與本句語境不同。",
-        "particular-mcq-15": "「特殊性；獨特之處」與本句語境不同。",
-        "particular-mcq-12": "「個人資料」與本句語境不同。",
-        "particular-mcq-11": "「詳情；資料」與本句語境不同。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。"
+        "particular-mcq-14": "本句的「not particularly hungry」指「不太；不算特別」。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-14"
     },
@@ -1352,11 +1239,9 @@ export default {
       "masked": "The film wasn't ____.",
       "options": [
         "particular-mcq-14",
-        "particular-mcq-13",
-        "particular-mcq-15",
-        "particular-mcq-12",
-        "particular-mcq-11",
-        "particular-mcq-10"
+        "particular-mcq-09",
+        "particular-mcq-07",
+        "particular-reviewed-ede06abaef"
       ],
       "explanation": "本句的「particularly interesting」指「不太；不算特別」。",
       "sentenceIndex": 32,
@@ -1365,12 +1250,10 @@ export default {
         "particularly interesting"
       ],
       "optionReasons": {
-        "particular-mcq-14": "本句指「不太；不算特別」。",
-        "particular-mcq-13": "「特別；尤其」與本句語境不同。",
-        "particular-mcq-15": "「特殊性；獨特之處」與本句語境不同。",
-        "particular-mcq-12": "「個人資料」與本句語境不同。",
-        "particular-mcq-11": "「詳情；資料」與本句語境不同。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。"
+        "particular-mcq-14": "本句的「particularly interesting」指「不太；不算特別」。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-14"
     },
@@ -1382,11 +1265,9 @@ export default {
       "masked": "We should preserve the ____ of the local culture.",
       "options": [
         "particular-mcq-15",
-        "particular-mcq-14",
-        "particular-mcq-13",
+        "particular-mcq-09",
         "particular-mcq-12",
-        "particular-mcq-11",
-        "particular-mcq-10"
+        "particular-reviewed-ede06abaef"
       ],
       "explanation": "本句的「particularity」指「特殊性；獨特之處」。",
       "sentenceIndex": 35,
@@ -1395,12 +1276,10 @@ export default {
         "particularity"
       ],
       "optionReasons": {
-        "particular-mcq-15": "本句指「特殊性；獨特之處」。",
-        "particular-mcq-14": "「不太；不算特別」與本句語境不同。",
-        "particular-mcq-13": "「特別；尤其」與本句語境不同。",
-        "particular-mcq-12": "「個人資料」與本句語境不同。",
-        "particular-mcq-11": "「詳情；資料」與本句語境不同。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。"
+        "particular-mcq-15": "本句的「particularity」指「特殊性；獨特之處」。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-15"
     },
@@ -1412,11 +1291,9 @@ export default {
       "masked": "The design has a certain ____.",
       "options": [
         "particular-mcq-15",
-        "particular-mcq-14",
-        "particular-mcq-13",
         "particular-mcq-12",
-        "particular-mcq-11",
-        "particular-mcq-10"
+        "particular-mcq-07",
+        "particular-reviewed-ede06abaef"
       ],
       "explanation": "本句的「particularity」指「特殊性；獨特之處」。",
       "sentenceIndex": 36,
@@ -1425,12 +1302,10 @@ export default {
         "particularity"
       ],
       "optionReasons": {
-        "particular-mcq-15": "本句指「特殊性；獨特之處」。",
-        "particular-mcq-14": "「不太；不算特別」與本句語境不同。",
-        "particular-mcq-13": "「特別；尤其」與本句語境不同。",
-        "particular-mcq-12": "「個人資料」與本句語境不同。",
-        "particular-mcq-11": "「詳情；資料」與本句語境不同。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。"
+        "particular-mcq-15": "本句的「particularity」指「特殊性；獨特之處」。",
+        "particular-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-mcq-15"
     },
@@ -1442,11 +1317,9 @@ export default {
       "masked": "This problem is ____.",
       "options": [
         "particular-pdf-001",
-        "particular-mcq-14",
-        "particular-mcq-13",
+        "particular-mcq-09",
         "particular-mcq-12",
-        "particular-mcq-11",
-        "particular-mcq-10"
+        "particular-reviewed-ede06abaef"
       ],
       "explanation": "本句的「particular to older buildings」指「只在 X 中出現或與 X 特別相關」。",
       "sentenceIndex": 37,
@@ -1455,12 +1328,10 @@ export default {
         "particular to older buildings"
       ],
       "optionReasons": {
-        "particular-pdf-001": "本句指「只在 X 中出現或與 X 特別相關」。",
-        "particular-mcq-14": "「不太；不算特別」與本句語境不同。",
-        "particular-mcq-13": "「特別；尤其」與本句語境不同。",
-        "particular-mcq-12": "「個人資料」與本句語境不同。",
-        "particular-mcq-11": "「詳情；資料」與本句語境不同。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。"
+        "particular-pdf-001": "本句的「particular to older buildings」指「只在 X 中出現或與 X 特別相關」。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "particular-reviewed-ede06abaef": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-pdf-001"
     },
@@ -1472,11 +1343,9 @@ export default {
       "masked": "The custom is ____.",
       "options": [
         "particular-pdf-001",
-        "particular-mcq-14",
-        "particular-mcq-13",
-        "particular-mcq-12",
+        "particular-mcq-07",
         "particular-mcq-11",
-        "particular-mcq-10"
+        "particular-mcq-09"
       ],
       "explanation": "本句的「particular to this region」指「只在 X 中出現或與 X 特別相關」。",
       "sentenceIndex": 38,
@@ -1485,12 +1354,10 @@ export default {
         "particular to this region"
       ],
       "optionReasons": {
-        "particular-pdf-001": "本句指「只在 X 中出現或與 X 特別相關」。",
-        "particular-mcq-14": "「不太；不算特別」與本句語境不同。",
-        "particular-mcq-13": "「特別；尤其」與本句語境不同。",
-        "particular-mcq-12": "「個人資料」與本句語境不同。",
-        "particular-mcq-11": "「詳情；資料」與本句語境不同。",
-        "particular-mcq-10": "「X 特有的」與本句語境不同。"
+        "particular-pdf-001": "本句的「particular to this region」指「只在 X 中出現或與 X 特別相關」。",
+        "particular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "particular-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "particular-pdf-001"
     }
@@ -1502,5 +1369,7 @@ export default {
     "sha256": "da57c268d11277448203f93f99274c03d06c5ba2cde18c2990f734971bb4b5b3",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

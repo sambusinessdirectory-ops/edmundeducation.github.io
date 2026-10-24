@@ -636,11 +636,9 @@ export default {
       "masked": "I ____ her that album.",
       "options": [
         "decide-mcq-01",
-        "decide-mcq-02",
-        "decide-mcq-03",
-        "decide-mcq-04",
+        "decide-mcq-21",
         "decide-mcq-05",
-        "decide-mcq-06"
+        "decide-mcq-28"
       ],
       "explanation": "本句的「decided to give」指「決定做……」。",
       "sentenceIndex": 0,
@@ -649,12 +647,10 @@ export default {
         "decided to give"
       ],
       "optionReasons": {
-        "decide-mcq-01": "本句指「決定做……」。",
-        "decide-mcq-02": "「決定／認定……」是「decide that」的用法，與本句語境不同。",
-        "decide-mcq-03": "「決定甚麼／哪裏／如何」是「decide what/where/how」的用法，與本句語境不同。",
-        "decide-mcq-04": "「決定是否」是「decide whether」的用法，與本句語境不同。",
-        "decide-mcq-05": "「在 A、B 之間選擇」是「decide between A and B」的用法，與本句語境不同。",
-        "decide-mcq-06": "「選定 X」是「decide on X」的用法，與本句語境不同。"
+        "decide-mcq-01": "本句的「decided to give」指「決定做……」。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-01"
     },
@@ -666,11 +662,9 @@ export default {
       "masked": "She ____ abroad.",
       "options": [
         "decide-mcq-01",
-        "decide-mcq-02",
-        "decide-mcq-03",
-        "decide-mcq-04",
-        "decide-mcq-05",
-        "decide-mcq-06"
+        "decide-mcq-23",
+        "decide-mcq-28",
+        "decide-mcq-05"
       ],
       "explanation": "本句的「decided to study」指「決定做……」。",
       "sentenceIndex": 1,
@@ -679,12 +673,10 @@ export default {
         "decided to study"
       ],
       "optionReasons": {
-        "decide-mcq-01": "本句指「決定做……」。",
-        "decide-mcq-02": "「決定／認定……」是「decide that」的用法，與本句語境不同。",
-        "decide-mcq-03": "「決定甚麼／哪裏／如何」是「decide what/where/how」的用法，與本句語境不同。",
-        "decide-mcq-04": "「決定是否」是「decide whether」的用法，與本句語境不同。",
-        "decide-mcq-05": "「在 A、B 之間選擇」是「decide between A and B」的用法，與本句語境不同。",
-        "decide-mcq-06": "「選定 X」是「decide on X」的用法，與本句語境不同。"
+        "decide-mcq-01": "本句的「decided to study」指「決定做……」。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-01"
     },
@@ -696,11 +688,9 @@ export default {
       "masked": "We ____ early.",
       "options": [
         "decide-mcq-01",
-        "decide-mcq-02",
-        "decide-mcq-03",
-        "decide-mcq-04",
-        "decide-mcq-05",
-        "decide-mcq-06"
+        "decide-mcq-18",
+        "decide-mcq-26",
+        "decide-mcq-21"
       ],
       "explanation": "本句的「decided to leave」指「決定做……」。",
       "sentenceIndex": 2,
@@ -709,12 +699,10 @@ export default {
         "decided to leave"
       ],
       "optionReasons": {
-        "decide-mcq-01": "本句指「決定做……」。",
-        "decide-mcq-02": "「決定／認定……」是「decide that」的用法，與本句語境不同。",
-        "decide-mcq-03": "「決定甚麼／哪裏／如何」是「decide what/where/how」的用法，與本句語境不同。",
-        "decide-mcq-04": "「決定是否」是「decide whether」的用法，與本句語境不同。",
-        "decide-mcq-05": "「在 A、B 之間選擇」是「decide between A and B」的用法，與本句語境不同。",
-        "decide-mcq-06": "「選定 X」是「decide on X」的用法，與本句語境不同。"
+        "decide-mcq-01": "本句的「decided to leave」指「決定做……」。",
+        "decide-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-01"
     },
@@ -726,11 +714,9 @@ export default {
       "masked": "We ____ the cheaper option was better.",
       "options": [
         "decide-mcq-02",
-        "decide-mcq-01",
-        "decide-mcq-03",
-        "decide-mcq-04",
-        "decide-mcq-05",
-        "decide-mcq-06"
+        "decide-mcq-21",
+        "decide-mcq-26",
+        "decide-mcq-25"
       ],
       "explanation": "本句的「decided that」指「決定／認定……」。",
       "sentenceIndex": 3,
@@ -739,12 +725,10 @@ export default {
         "decided that"
       ],
       "optionReasons": {
-        "decide-mcq-02": "本句指「決定／認定……」。",
-        "decide-mcq-01": "「決定做……」是「decide to do」的用法，與本句語境不同。",
-        "decide-mcq-03": "「決定甚麼／哪裏／如何」是「decide what/where/how」的用法，與本句語境不同。",
-        "decide-mcq-04": "「決定是否」是「decide whether」的用法，與本句語境不同。",
-        "decide-mcq-05": "「在 A、B 之間選擇」是「decide between A and B」的用法，與本句語境不同。",
-        "decide-mcq-06": "「選定 X」是「decide on X」的用法，與本句語境不同。"
+        "decide-mcq-02": "本句的「decided that」指「決定／認定……」。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-02"
     },
@@ -756,11 +740,9 @@ export default {
       "masked": "She ____ she needed more time.",
       "options": [
         "decide-mcq-02",
-        "decide-mcq-01",
-        "decide-mcq-03",
-        "decide-mcq-04",
-        "decide-mcq-05",
-        "decide-mcq-06"
+        "decide-mcq-26",
+        "decide-mcq-21",
+        "decide-mcq-28"
       ],
       "explanation": "本句的「decided that」指「決定／認定……」。",
       "sentenceIndex": 4,
@@ -769,12 +751,10 @@ export default {
         "decided that"
       ],
       "optionReasons": {
-        "decide-mcq-02": "本句指「決定／認定……」。",
-        "decide-mcq-01": "「決定做……」是「decide to do」的用法，與本句語境不同。",
-        "decide-mcq-03": "「決定甚麼／哪裏／如何」是「decide what/where/how」的用法，與本句語境不同。",
-        "decide-mcq-04": "「決定是否」是「decide whether」的用法，與本句語境不同。",
-        "decide-mcq-05": "「在 A、B 之間選擇」是「decide between A and B」的用法，與本句語境不同。",
-        "decide-mcq-06": "「選定 X」是「decide on X」的用法，與本句語境不同。"
+        "decide-mcq-02": "本句的「decided that」指「決定／認定……」。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-02"
     },
@@ -786,11 +766,9 @@ export default {
       "masked": "I haven't ____ yet.",
       "options": [
         "decide-mcq-03",
-        "decide-mcq-02",
-        "decide-mcq-04",
-        "decide-mcq-01",
-        "decide-mcq-05",
-        "decide-mcq-06"
+        "decide-mcq-21",
+        "decide-mcq-28",
+        "decide-mcq-26"
       ],
       "explanation": "本句的「decided what to buy」指「決定甚麼／哪裏／如何」。",
       "sentenceIndex": 5,
@@ -799,12 +777,10 @@ export default {
         "decided what to buy"
       ],
       "optionReasons": {
-        "decide-mcq-03": "本句指「決定甚麼／哪裏／如何」。",
-        "decide-mcq-02": "「決定／認定……」是「decide that」的用法，與本句語境不同。",
-        "decide-mcq-04": "「決定是否」是「decide whether」的用法，與本句語境不同。",
-        "decide-mcq-01": "「決定做……」是「decide to do」的用法，與本句語境不同。",
-        "decide-mcq-05": "「在 A、B 之間選擇」是「decide between A and B」的用法，與本句語境不同。",
-        "decide-mcq-06": "「選定 X」是「decide on X」的用法，與本句語境不同。"
+        "decide-mcq-03": "本句的「decided what to buy」指「決定甚麼／哪裏／如何」。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-03"
     },
@@ -816,11 +792,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "decide-mcq-03",
-        "decide-mcq-02",
-        "decide-mcq-04",
-        "decide-mcq-01",
-        "decide-mcq-05",
-        "decide-mcq-06"
+        "decide-mcq-28",
+        "decide-mcq-26",
+        "decide-mcq-21"
       ],
       "explanation": "本句的「decide where to meet」指「決定甚麼／哪裏／如何」。",
       "sentenceIndex": 6,
@@ -829,12 +803,10 @@ export default {
         "decide where to meet"
       ],
       "optionReasons": {
-        "decide-mcq-03": "本句指「決定甚麼／哪裏／如何」。",
-        "decide-mcq-02": "「決定／認定……」是「decide that」的用法，與本句語境不同。",
-        "decide-mcq-04": "「決定是否」是「decide whether」的用法，與本句語境不同。",
-        "decide-mcq-01": "「決定做……」是「decide to do」的用法，與本句語境不同。",
-        "decide-mcq-05": "「在 A、B 之間選擇」是「decide between A and B」的用法，與本句語境不同。",
-        "decide-mcq-06": "「選定 X」是「decide on X」的用法，與本句語境不同。"
+        "decide-mcq-03": "本句的「decide where to meet」指「決定甚麼／哪裏／如何」。",
+        "decide-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-03"
     },
@@ -846,11 +818,9 @@ export default {
       "masked": "She hasn't ____.",
       "options": [
         "decide-mcq-04",
-        "decide-mcq-03",
-        "decide-mcq-05",
-        "decide-mcq-02",
-        "decide-mcq-06",
-        "decide-mcq-01"
+        "decide-mcq-25",
+        "decide-mcq-27",
+        "decide-mcq-18"
       ],
       "explanation": "本句的「decided whether to accept the offer」指「決定是否」。",
       "sentenceIndex": 7,
@@ -859,12 +829,10 @@ export default {
         "decided whether to accept the offer"
       ],
       "optionReasons": {
-        "decide-mcq-04": "本句指「決定是否」。",
-        "decide-mcq-03": "「決定甚麼／哪裏／如何」是「decide what/where/how」的用法，與本句語境不同。",
-        "decide-mcq-05": "「在 A、B 之間選擇」是「decide between A and B」的用法，與本句語境不同。",
-        "decide-mcq-02": "「決定／認定……」是「decide that」的用法，與本句語境不同。",
-        "decide-mcq-06": "「選定 X」是「decide on X」的用法，與本句語境不同。",
-        "decide-mcq-01": "「決定做……」是「decide to do」的用法，與本句語境不同。"
+        "decide-mcq-04": "本句的「decided whether to accept the offer」指「決定是否」。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-04"
     },
@@ -876,11 +844,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "decide-mcq-04",
-        "decide-mcq-03",
-        "decide-mcq-05",
-        "decide-mcq-02",
-        "decide-mcq-06",
-        "decide-mcq-01"
+        "decide-mcq-25",
+        "decide-mcq-27",
+        "decide-mcq-18"
       ],
       "explanation": "本句的「decide if we should go」指「決定是否」。",
       "sentenceIndex": 8,
@@ -889,12 +855,10 @@ export default {
         "decide if we should go"
       ],
       "optionReasons": {
-        "decide-mcq-04": "本句指「決定是否」。",
-        "decide-mcq-03": "「決定甚麼／哪裏／如何」是「decide what/where/how」的用法，與本句語境不同。",
-        "decide-mcq-05": "「在 A、B 之間選擇」是「decide between A and B」的用法，與本句語境不同。",
-        "decide-mcq-02": "「決定／認定……」是「decide that」的用法，與本句語境不同。",
-        "decide-mcq-06": "「選定 X」是「decide on X」的用法，與本句語境不同。",
-        "decide-mcq-01": "「決定做……」是「decide to do」的用法，與本句語境不同。"
+        "decide-mcq-04": "本句的「decide if we should go」指「決定是否」。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-04"
     },
@@ -907,10 +871,8 @@ export default {
       "options": [
         "decide-mcq-05",
         "decide-mcq-04",
-        "decide-mcq-06",
-        "decide-mcq-03",
-        "decide-mcq-07",
-        "decide-mcq-02"
+        "decide-mcq-28",
+        "decide-mcq-23"
       ],
       "explanation": "本句的「decide between the blue one and the black one」指「在 A、B 之間選擇」。",
       "sentenceIndex": 9,
@@ -919,12 +881,10 @@ export default {
         "decide between the blue one and the black one"
       ],
       "optionReasons": {
-        "decide-mcq-05": "本句指「在 A、B 之間選擇」。",
-        "decide-mcq-04": "「決定是否」是「decide whether」的用法，與本句語境不同。",
-        "decide-mcq-06": "「選定 X」是「decide on X」的用法，與本句語境不同。",
-        "decide-mcq-03": "「決定甚麼／哪裏／如何」是「decide what/where/how」的用法，與本句語境不同。",
-        "decide-mcq-07": "「決定不用／不做 X」是「decide against X」的用法，與本句語境不同。",
-        "decide-mcq-02": "「決定／認定……」是「decide that」的用法，與本句語境不同。"
+        "decide-mcq-05": "本句的「decide between the blue one and the black one」指「在 A、B 之間選擇」。",
+        "decide-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-05"
     },
@@ -936,11 +896,9 @@ export default {
       "masked": "She had to ____.",
       "options": [
         "decide-mcq-05",
-        "decide-mcq-04",
-        "decide-mcq-06",
-        "decide-mcq-03",
-        "decide-mcq-07",
-        "decide-mcq-02"
+        "decide-mcq-18",
+        "decide-mcq-21",
+        "decide-mcq-24"
       ],
       "explanation": "本句的「decide between two job offers」指「在 A、B 之間選擇」。",
       "sentenceIndex": 10,
@@ -949,12 +907,10 @@ export default {
         "decide between two job offers"
       ],
       "optionReasons": {
-        "decide-mcq-05": "本句指「在 A、B 之間選擇」。",
-        "decide-mcq-04": "「決定是否」是「decide whether」的用法，與本句語境不同。",
-        "decide-mcq-06": "「選定 X」是「decide on X」的用法，與本句語境不同。",
-        "decide-mcq-03": "「決定甚麼／哪裏／如何」是「decide what/where/how」的用法，與本句語境不同。",
-        "decide-mcq-07": "「決定不用／不做 X」是「decide against X」的用法，與本句語境不同。",
-        "decide-mcq-02": "「決定／認定……」是「decide that」的用法，與本句語境不同。"
+        "decide-mcq-05": "本句的「decide between two job offers」指「在 A、B 之間選擇」。",
+        "decide-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-05"
     },
@@ -966,11 +922,9 @@ export default {
       "masked": "We finally ____.",
       "options": [
         "decide-mcq-06",
-        "decide-mcq-05",
-        "decide-mcq-07",
-        "decide-mcq-04",
-        "decide-mcq-08",
-        "decide-mcq-03"
+        "decide-mcq-23",
+        "decide-mcq-21",
+        "decide-mcq-25"
       ],
       "explanation": "本句的「decided on a restaurant」指「選定 X」。",
       "sentenceIndex": 11,
@@ -979,12 +933,10 @@ export default {
         "decided on a restaurant"
       ],
       "optionReasons": {
-        "decide-mcq-06": "本句指「選定 X」。",
-        "decide-mcq-05": "「在 A、B 之間選擇」是「decide between A and B」的用法，與本句語境不同。",
-        "decide-mcq-07": "「決定不用／不做 X」是「decide against X」的用法，與本句語境不同。",
-        "decide-mcq-04": "「決定是否」是「decide whether」的用法，與本句語境不同。",
-        "decide-mcq-08": "「自己決定」是「decide for yourself」的用法，與本句語境不同。",
-        "decide-mcq-03": "「決定甚麼／哪裏／如何」是「decide what/where/how」的用法，與本句語境不同。"
+        "decide-mcq-06": "本句的「decided on a restaurant」指「選定 X」。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-06"
     },
@@ -996,11 +948,9 @@ export default {
       "masked": "Have you ____ for the meeting?",
       "options": [
         "decide-mcq-06",
-        "decide-mcq-05",
-        "decide-mcq-07",
-        "decide-mcq-04",
-        "decide-mcq-08",
-        "decide-mcq-03"
+        "decide-mcq-24",
+        "decide-mcq-25",
+        "decide-mcq-21"
       ],
       "explanation": "本句的「decided on a date」指「選定 X」。",
       "sentenceIndex": 12,
@@ -1009,12 +959,10 @@ export default {
         "decided on a date"
       ],
       "optionReasons": {
-        "decide-mcq-06": "本句指「選定 X」。",
-        "decide-mcq-05": "「在 A、B 之間選擇」是「decide between A and B」的用法，與本句語境不同。",
-        "decide-mcq-07": "「決定不用／不做 X」是「decide against X」的用法，與本句語境不同。",
-        "decide-mcq-04": "「決定是否」是「decide whether」的用法，與本句語境不同。",
-        "decide-mcq-08": "「自己決定」是「decide for yourself」的用法，與本句語境不同。",
-        "decide-mcq-03": "「決定甚麼／哪裏／如何」是「decide what/where/how」的用法，與本句語境不同。"
+        "decide-mcq-06": "本句的「decided on a date」指「選定 X」。",
+        "decide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-06"
     },
@@ -1026,11 +974,9 @@ export default {
       "masked": "We ____ the expensive one.",
       "options": [
         "decide-mcq-26",
+        "decide-mcq-13",
         "decide-mcq-25",
-        "decide-mcq-27",
-        "decide-mcq-24",
-        "decide-mcq-28",
-        "decide-mcq-23"
+        "decide-mcq-18"
       ],
       "explanation": "本句的「decided against buying」指「考慮後選擇不接受、不採用或不進行 X」。",
       "sentenceIndex": 13,
@@ -1039,12 +985,10 @@ export default {
         "decided against buying"
       ],
       "optionReasons": {
-        "decide-mcq-26": "本句指「考慮後選擇不接受、不採用或不進行 X」。",
-        "decide-mcq-25": "「明確的；顯著的」是「decided」的用法，與本句語境不同。",
-        "decide-mcq-27": "「在多個選項之間無法作出選擇」是「9. can't decide / be unable to decide — 拿不定主意」的用法，與本句語境不同。",
-        "decide-mcq-24": "「猶豫不決」是「indecision」的用法，與本句語境不同。",
-        "decide-mcq-28": "「結果非常清楚、沒有太大疑問的勝利」是「23. decisive victory — 壓倒性／明確勝利」的用法，與本句語境不同。",
-        "decide-mcq-23": "「優柔寡斷的」是「indecisive」的用法，與本句語境不同。"
+        "decide-mcq-26": "本句的「decided against buying」指「考慮後選擇不接受、不採用或不進行 X」。",
+        "decide-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-26"
     },
@@ -1056,11 +1000,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "decide-mcq-26",
-        "decide-mcq-25",
-        "decide-mcq-27",
-        "decide-mcq-24",
-        "decide-mcq-28",
-        "decide-mcq-23"
+        "decide-mcq-01",
+        "decide-mcq-18",
+        "decide-mcq-21"
       ],
       "explanation": "本句的「decided against the plan」指「考慮後選擇不接受、不採用或不進行 X」。",
       "sentenceIndex": 14,
@@ -1069,12 +1011,10 @@ export default {
         "decided against the plan"
       ],
       "optionReasons": {
-        "decide-mcq-26": "本句指「考慮後選擇不接受、不採用或不進行 X」。",
-        "decide-mcq-25": "「明確的；顯著的」是「decided」的用法，與本句語境不同。",
-        "decide-mcq-27": "「在多個選項之間無法作出選擇」是「9. can't decide / be unable to decide — 拿不定主意」的用法，與本句語境不同。",
-        "decide-mcq-24": "「猶豫不決」是「indecision」的用法，與本句語境不同。",
-        "decide-mcq-28": "「結果非常清楚、沒有太大疑問的勝利」是「23. decisive victory — 壓倒性／明確勝利」的用法，與本句語境不同。",
-        "decide-mcq-23": "「優柔寡斷的」是「indecisive」的用法，與本句語境不同。"
+        "decide-mcq-26": "本句的「decided against the plan」指「考慮後選擇不接受、不採用或不進行 X」。",
+        "decide-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-26"
     },
@@ -1086,11 +1026,9 @@ export default {
       "masked": "You should ____.",
       "options": [
         "decide-mcq-08",
-        "decide-mcq-07",
-        "decide-mcq-09",
-        "decide-mcq-06",
-        "decide-mcq-10",
-        "decide-mcq-05"
+        "decide-mcq-28",
+        "decide-mcq-26",
+        "decide-mcq-23"
       ],
       "explanation": "本句的「decide for yourself」指「自己決定」。",
       "sentenceIndex": 15,
@@ -1099,12 +1037,10 @@ export default {
         "decide for yourself"
       ],
       "optionReasons": {
-        "decide-mcq-08": "本句指「自己決定」。",
-        "decide-mcq-07": "「決定不用／不做 X」是「decide against X」的用法，與本句語境不同。",
-        "decide-mcq-09": "「拿不定主意」是「can't decide」的用法，與本句語境不同。",
-        "decide-mcq-06": "「選定 X」是「decide on X」的用法，與本句語境不同。",
-        "decide-mcq-10": "「決定結果」是「decide an outcome」的用法，與本句語境不同。",
-        "decide-mcq-05": "「在 A、B 之間選擇」是「decide between A and B」的用法，與本句語境不同。"
+        "decide-mcq-08": "本句的「decide for yourself」指「自己決定」。",
+        "decide-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-08"
     },
@@ -1116,11 +1052,9 @@ export default {
       "masked": "I gave him the facts and let him ____.",
       "options": [
         "decide-mcq-08",
-        "decide-mcq-07",
-        "decide-mcq-09",
-        "decide-mcq-06",
-        "decide-mcq-10",
-        "decide-mcq-05"
+        "decide-mcq-27",
+        "decide-mcq-23",
+        "decide-mcq-21"
       ],
       "explanation": "本句的「decide for himself」指「自己決定」。",
       "sentenceIndex": 16,
@@ -1129,12 +1063,10 @@ export default {
         "decide for himself"
       ],
       "optionReasons": {
-        "decide-mcq-08": "本句指「自己決定」。",
-        "decide-mcq-07": "「決定不用／不做 X」是「decide against X」的用法，與本句語境不同。",
-        "decide-mcq-09": "「拿不定主意」是「can't decide」的用法，與本句語境不同。",
-        "decide-mcq-06": "「選定 X」是「decide on X」的用法，與本句語境不同。",
-        "decide-mcq-10": "「決定結果」是「decide an outcome」的用法，與本句語境不同。",
-        "decide-mcq-05": "「在 A、B 之間選擇」是「decide between A and B」的用法，與本句語境不同。"
+        "decide-mcq-08": "本句的「decide for himself」指「自己決定」。",
+        "decide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-08"
     },
@@ -1146,11 +1078,9 @@ export default {
       "masked": "I ____ what to wear.",
       "options": [
         "decide-mcq-27",
-        "decide-mcq-26",
-        "decide-mcq-28",
-        "decide-mcq-25",
-        "decide-mcq-24",
-        "decide-mcq-23"
+        "decide-mcq-02",
+        "decide-mcq-23",
+        "decide-mcq-25"
       ],
       "explanation": "本句的「can't decide」指「在多個選項之間無法作出選擇」。",
       "sentenceIndex": 17,
@@ -1159,12 +1089,10 @@ export default {
         "can't decide"
       ],
       "optionReasons": {
-        "decide-mcq-27": "本句指「在多個選項之間無法作出選擇」。",
-        "decide-mcq-26": "「考慮後選擇不接受、不採用或不進行 X」是「7. decide against something / doing something — 決定不做／不用」的用法，與本句語境不同。",
-        "decide-mcq-28": "「結果非常清楚、沒有太大疑問的勝利」是「23. decisive victory — 壓倒性／明確勝利」的用法，與本句語境不同。",
-        "decide-mcq-25": "「明確的；顯著的」是「decided」的用法，與本句語境不同。",
-        "decide-mcq-24": "「猶豫不決」是「indecision」的用法，與本句語境不同。",
-        "decide-mcq-23": "「優柔寡斷的」是「indecisive」的用法，與本句語境不同。"
+        "decide-mcq-27": "本句的「can't decide」指「在多個選項之間無法作出選擇」。",
+        "decide-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-27"
     },
@@ -1176,10 +1104,8 @@ export default {
       "masked": "He stood there, ____.",
       "options": [
         "decide-mcq-27",
-        "decide-mcq-26",
-        "decide-mcq-28",
+        "decide-mcq-17",
         "decide-mcq-25",
-        "decide-mcq-24",
         "decide-mcq-23"
       ],
       "explanation": "本句的「unable to decide」指「在多個選項之間無法作出選擇」。",
@@ -1189,12 +1115,10 @@ export default {
         "unable to decide"
       ],
       "optionReasons": {
-        "decide-mcq-27": "本句指「在多個選項之間無法作出選擇」。",
-        "decide-mcq-26": "「考慮後選擇不接受、不採用或不進行 X」是「7. decide against something / doing something — 決定不做／不用」的用法，與本句語境不同。",
-        "decide-mcq-28": "「結果非常清楚、沒有太大疑問的勝利」是「23. decisive victory — 壓倒性／明確勝利」的用法，與本句語境不同。",
-        "decide-mcq-25": "「明確的；顯著的」是「decided」的用法，與本句語境不同。",
-        "decide-mcq-24": "「猶豫不決」是「indecision」的用法，與本句語境不同。",
-        "decide-mcq-23": "「優柔寡斷的」是「indecisive」的用法，與本句語境不同。"
+        "decide-mcq-27": "本句的「unable to decide」指「在多個選項之間無法作出選擇」。",
+        "decide-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-27"
     },
@@ -1206,11 +1130,9 @@ export default {
       "masked": "One goal ____.",
       "options": [
         "decide-mcq-10",
-        "decide-mcq-09",
-        "decide-mcq-11",
-        "decide-mcq-08",
-        "decide-mcq-12",
-        "decide-mcq-07"
+        "decide-mcq-27",
+        "decide-mcq-23",
+        "decide-mcq-21"
       ],
       "explanation": "本句的「decided the match」指「決定結果」。",
       "sentenceIndex": 19,
@@ -1219,12 +1141,10 @@ export default {
         "decided the match"
       ],
       "optionReasons": {
-        "decide-mcq-10": "本句指「決定結果」。",
-        "decide-mcq-09": "「拿不定主意」是「can't decide」的用法，與本句語境不同。",
-        "decide-mcq-11": "「裁決案件」是「decide a case」的用法，與本句語境不同。",
-        "decide-mcq-08": "「自己決定」是「decide for yourself」的用法，與本句語境不同。",
-        "decide-mcq-12": "「決定」是「decision」的用法，與本句語境不同。",
-        "decide-mcq-07": "「決定不用／不做 X」是「decide against X」的用法，與本句語境不同。"
+        "decide-mcq-10": "本句的「decided the match」指「決定結果」。",
+        "decide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-10"
     },
@@ -1236,11 +1156,9 @@ export default {
       "masked": "The final vote could ____.",
       "options": [
         "decide-mcq-10",
-        "decide-mcq-09",
-        "decide-mcq-11",
-        "decide-mcq-08",
-        "decide-mcq-12",
-        "decide-mcq-07"
+        "decide-mcq-26",
+        "decide-mcq-23",
+        "decide-mcq-25"
       ],
       "explanation": "本句的「decide the outcome」指「決定結果」。",
       "sentenceIndex": 20,
@@ -1249,12 +1167,10 @@ export default {
         "decide the outcome"
       ],
       "optionReasons": {
-        "decide-mcq-10": "本句指「決定結果」。",
-        "decide-mcq-09": "「拿不定主意」是「can't decide」的用法，與本句語境不同。",
-        "decide-mcq-11": "「裁決案件」是「decide a case」的用法，與本句語境不同。",
-        "decide-mcq-08": "「自己決定」是「decide for yourself」的用法，與本句語境不同。",
-        "decide-mcq-12": "「決定」是「decision」的用法，與本句語境不同。",
-        "decide-mcq-07": "「決定不用／不做 X」是「decide against X」的用法，與本句語境不同。"
+        "decide-mcq-10": "本句的「decide the outcome」指「決定結果」。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-10"
     },
@@ -1266,11 +1182,9 @@ export default {
       "masked": "The winner will be ____.",
       "options": [
         "decide-pdf-001",
-        "decide-mcq-09",
-        "decide-mcq-11",
-        "decide-mcq-08",
-        "decide-mcq-12",
-        "decide-mcq-07"
+        "decide-mcq-24",
+        "decide-mcq-25",
+        "decide-mcq-05"
       ],
       "explanation": "本句的「decided by the judges」指「最終結果由 X 作出判定或受到 X 關鍵性影響」。",
       "sentenceIndex": 21,
@@ -1279,12 +1193,10 @@ export default {
         "decided by the judges"
       ],
       "optionReasons": {
-        "decide-pdf-001": "本句指「最終結果由 X 作出判定或受到 X 關鍵性影響」。",
-        "decide-mcq-09": "「拿不定主意」是「can't decide」的用法，與本句語境不同。",
-        "decide-mcq-11": "「裁決案件」是「decide a case」的用法，與本句語境不同。",
-        "decide-mcq-08": "「自己決定」是「decide for yourself」的用法，與本句語境不同。",
-        "decide-mcq-12": "「決定」是「decision」的用法，與本句語境不同。",
-        "decide-mcq-07": "「決定不用／不做 X」是「decide against X」的用法，與本句語境不同。"
+        "decide-pdf-001": "本句的「decided by the judges」指「最終結果由 X 作出判定或受到 X 關鍵性影響」。",
+        "decide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-pdf-001"
     },
@@ -1296,11 +1208,9 @@ export default {
       "masked": "The final result was ____.",
       "options": [
         "decide-pdf-001",
-        "decide-mcq-09",
+        "decide-mcq-25",
         "decide-mcq-11",
-        "decide-mcq-08",
-        "decide-mcq-12",
-        "decide-mcq-07"
+        "decide-mcq-05"
       ],
       "explanation": "本句的「decided by one point」指「最終結果由 X 作出判定或受到 X 關鍵性影響」。",
       "sentenceIndex": 22,
@@ -1309,12 +1219,10 @@ export default {
         "decided by one point"
       ],
       "optionReasons": {
-        "decide-pdf-001": "本句指「最終結果由 X 作出判定或受到 X 關鍵性影響」。",
-        "decide-mcq-09": "「拿不定主意」是「can't decide」的用法，與本句語境不同。",
-        "decide-mcq-11": "「裁決案件」是「decide a case」的用法，與本句語境不同。",
-        "decide-mcq-08": "「自己決定」是「decide for yourself」的用法，與本句語境不同。",
-        "decide-mcq-12": "「決定」是「decision」的用法，與本句語境不同。",
-        "decide-mcq-07": "「決定不用／不做 X」是「decide against X」的用法，與本句語境不同。"
+        "decide-pdf-001": "本句的「decided by one point」指「最終結果由 X 作出判定或受到 X 關鍵性影響」。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-pdf-001"
     },
@@ -1326,11 +1234,9 @@ export default {
       "masked": "The court will ____ next month.",
       "options": [
         "decide-mcq-11",
-        "decide-mcq-10",
-        "decide-mcq-12",
-        "decide-mcq-09",
-        "decide-mcq-13",
-        "decide-mcq-08"
+        "decide-mcq-21",
+        "decide-mcq-25",
+        "decide-mcq-26"
       ],
       "explanation": "本句的「decide the case」指「裁決案件」。",
       "sentenceIndex": 23,
@@ -1339,12 +1245,10 @@ export default {
         "decide the case"
       ],
       "optionReasons": {
-        "decide-mcq-11": "本句指「裁決案件」。",
-        "decide-mcq-10": "「決定結果」是「decide an outcome」的用法，與本句語境不同。",
-        "decide-mcq-12": "「決定」是「decision」的用法，與本句語境不同。",
-        "decide-mcq-09": "「拿不定主意」是「can't decide」的用法，與本句語境不同。",
-        "decide-mcq-13": "「作出決定」是「make a decision」的用法，與本句語境不同。",
-        "decide-mcq-08": "「自己決定」是「decide for yourself」的用法，與本句語境不同。"
+        "decide-mcq-11": "本句的「decide the case」指「裁決案件」。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-11"
     },
@@ -1356,11 +1260,9 @@ export default {
       "masked": "An independent panel was asked to ____.",
       "options": [
         "decide-mcq-11",
-        "decide-mcq-10",
-        "decide-mcq-12",
-        "decide-mcq-09",
-        "decide-mcq-13",
-        "decide-mcq-08"
+        "decide-mcq-18",
+        "decide-mcq-05",
+        "decide-mcq-25"
       ],
       "explanation": "本句的「decide the dispute」指「裁決案件」。",
       "sentenceIndex": 24,
@@ -1369,12 +1271,10 @@ export default {
         "decide the dispute"
       ],
       "optionReasons": {
-        "decide-mcq-11": "本句指「裁決案件」。",
-        "decide-mcq-10": "「決定結果」是「decide an outcome」的用法，與本句語境不同。",
-        "decide-mcq-12": "「決定」是「decision」的用法，與本句語境不同。",
-        "decide-mcq-09": "「拿不定主意」是「can't decide」的用法，與本句語境不同。",
-        "decide-mcq-13": "「作出決定」是「make a decision」的用法，與本句語境不同。",
-        "decide-mcq-08": "「自己決定」是「decide for yourself」的用法，與本句語境不同。"
+        "decide-mcq-11": "本句的「decide the dispute」指「裁決案件」。",
+        "decide-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-11"
     },
@@ -1386,11 +1286,9 @@ export default {
       "masked": "It was a difficult ____.",
       "options": [
         "decide-mcq-12",
-        "decide-mcq-11",
-        "decide-mcq-13",
-        "decide-mcq-10",
-        "decide-mcq-14",
-        "decide-mcq-09"
+        "decide-mcq-25",
+        "decide-mcq-26",
+        "decide-mcq-18"
       ],
       "explanation": "本句的「decision」指「決定」。",
       "sentenceIndex": 25,
@@ -1399,12 +1297,10 @@ export default {
         "decision"
       ],
       "optionReasons": {
-        "decide-mcq-12": "本句指「決定」。",
-        "decide-mcq-11": "「裁決案件」是「decide a case」的用法，與本句語境不同。",
-        "decide-mcq-13": "「作出決定」是「make a decision」的用法，與本句語境不同。",
-        "decide-mcq-10": "「決定結果」是「decide an outcome」的用法，與本句語境不同。",
-        "decide-mcq-14": "「達成決定」是「reach a decision」的用法，與本句語境不同。",
-        "decide-mcq-09": "「拿不定主意」是「can't decide」的用法，與本句語境不同。"
+        "decide-mcq-12": "本句的「decision」指「決定」。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-12"
     },
@@ -1416,11 +1312,9 @@ export default {
       "masked": "She made the ____ to leave.",
       "options": [
         "decide-mcq-12",
-        "decide-mcq-11",
-        "decide-mcq-13",
-        "decide-mcq-10",
-        "decide-mcq-14",
-        "decide-mcq-09"
+        "decide-mcq-05",
+        "decide-mcq-28",
+        "decide-mcq-21"
       ],
       "explanation": "本句的「decision」指「決定」。",
       "sentenceIndex": 26,
@@ -1429,12 +1323,10 @@ export default {
         "decision"
       ],
       "optionReasons": {
-        "decide-mcq-12": "本句指「決定」。",
-        "decide-mcq-11": "「裁決案件」是「decide a case」的用法，與本句語境不同。",
-        "decide-mcq-13": "「作出決定」是「make a decision」的用法，與本句語境不同。",
-        "decide-mcq-10": "「決定結果」是「decide an outcome」的用法，與本句語境不同。",
-        "decide-mcq-14": "「達成決定」是「reach a decision」的用法，與本句語境不同。",
-        "decide-mcq-09": "「拿不定主意」是「can't decide」的用法，與本句語境不同。"
+        "decide-mcq-12": "本句的「decision」指「決定」。",
+        "decide-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-12"
     },
@@ -1446,11 +1338,9 @@ export default {
       "masked": "I need more time to ____.",
       "options": [
         "decide-mcq-13",
-        "decide-mcq-12",
-        "decide-mcq-14",
-        "decide-mcq-11",
-        "decide-mcq-15",
-        "decide-mcq-10"
+        "decide-mcq-25",
+        "decide-mcq-23",
+        "decide-mcq-26"
       ],
       "explanation": "本句的「make a decision」指「作出決定」。",
       "sentenceIndex": 27,
@@ -1459,12 +1349,10 @@ export default {
         "make a decision"
       ],
       "optionReasons": {
-        "decide-mcq-13": "本句指「作出決定」。",
-        "decide-mcq-12": "「決定」是「decision」的用法，與本句語境不同。",
-        "decide-mcq-14": "「達成決定」是「reach a decision」的用法，與本句語境不同。",
-        "decide-mcq-11": "「裁決案件」是「decide a case」的用法，與本句語境不同。",
-        "decide-mcq-15": "「最終決定」是「final decision」的用法，與本句語境不同。",
-        "decide-mcq-10": "「決定結果」是「decide an outcome」的用法，與本句語境不同。"
+        "decide-mcq-13": "本句的「make a decision」指「作出決定」。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-13"
     },
@@ -1476,11 +1364,9 @@ export default {
       "masked": "Don't ____ when you're angry.",
       "options": [
         "decide-mcq-13",
-        "decide-mcq-12",
-        "decide-mcq-14",
-        "decide-mcq-11",
-        "decide-mcq-15",
-        "decide-mcq-10"
+        "decide-mcq-26",
+        "decide-mcq-25",
+        "decide-mcq-21"
       ],
       "explanation": "本句的「make a decision」指「作出決定」。",
       "sentenceIndex": 28,
@@ -1489,12 +1375,10 @@ export default {
         "make a decision"
       ],
       "optionReasons": {
-        "decide-mcq-13": "本句指「作出決定」。",
-        "decide-mcq-12": "「決定」是「decision」的用法，與本句語境不同。",
-        "decide-mcq-14": "「達成決定」是「reach a decision」的用法，與本句語境不同。",
-        "decide-mcq-11": "「裁決案件」是「decide a case」的用法，與本句語境不同。",
-        "decide-mcq-15": "「最終決定」是「final decision」的用法，與本句語境不同。",
-        "decide-mcq-10": "「決定結果」是「decide an outcome」的用法，與本句語境不同。"
+        "decide-mcq-13": "本句的「make a decision」指「作出決定」。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-13"
     },
@@ -1506,11 +1390,9 @@ export default {
       "masked": "We finally ____.",
       "options": [
         "decide-mcq-14",
-        "decide-mcq-13",
-        "decide-mcq-15",
-        "decide-mcq-12",
-        "decide-mcq-16",
-        "decide-mcq-11"
+        "decide-mcq-27",
+        "decide-mcq-21",
+        "decide-mcq-23"
       ],
       "explanation": "本句的「reached a decision」指「達成決定」。",
       "sentenceIndex": 29,
@@ -1519,12 +1401,10 @@ export default {
         "reached a decision"
       ],
       "optionReasons": {
-        "decide-mcq-14": "本句指「達成決定」。",
-        "decide-mcq-13": "「作出決定」是「make a decision」的用法，與本句語境不同。",
-        "decide-mcq-15": "「最終決定」是「final decision」的用法，與本句語境不同。",
-        "decide-mcq-12": "「決定」是「decision」的用法，與本句語境不同。",
-        "decide-mcq-16": "「決策」是「decision-making」的用法，與本句語境不同。",
-        "decide-mcq-11": "「裁決案件」是「decide a case」的用法，與本句語境不同。"
+        "decide-mcq-14": "本句的「reached a decision」指「達成決定」。",
+        "decide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-14"
     },
@@ -1536,11 +1416,9 @@ export default {
       "masked": "The committee has not yet ____.",
       "options": [
         "decide-mcq-14",
-        "decide-mcq-13",
-        "decide-mcq-15",
-        "decide-mcq-12",
-        "decide-mcq-16",
-        "decide-mcq-11"
+        "decide-mcq-27",
+        "decide-mcq-18",
+        "decide-mcq-21"
       ],
       "explanation": "本句的「come to a decision」指「達成決定」。",
       "sentenceIndex": 30,
@@ -1549,12 +1427,10 @@ export default {
         "come to a decision"
       ],
       "optionReasons": {
-        "decide-mcq-14": "本句指「達成決定」。",
-        "decide-mcq-13": "「作出決定」是「make a decision」的用法，與本句語境不同。",
-        "decide-mcq-15": "「最終決定」是「final decision」的用法，與本句語境不同。",
-        "decide-mcq-12": "「決定」是「decision」的用法，與本句語境不同。",
-        "decide-mcq-16": "「決策」是「decision-making」的用法，與本句語境不同。",
-        "decide-mcq-11": "「裁決案件」是「decide a case」的用法，與本句語境不同。"
+        "decide-mcq-14": "本句的「come to a decision」指「達成決定」。",
+        "decide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-14"
     },
@@ -1566,11 +1442,9 @@ export default {
       "masked": "The ____ is yours.",
       "options": [
         "decide-mcq-15",
-        "decide-mcq-14",
-        "decide-mcq-16",
-        "decide-mcq-13",
-        "decide-mcq-17",
-        "decide-mcq-12"
+        "decide-mcq-26",
+        "decide-mcq-23",
+        "decide-mcq-21"
       ],
       "explanation": "本句的「final decision」指「最終決定」。",
       "sentenceIndex": 31,
@@ -1579,12 +1453,10 @@ export default {
         "final decision"
       ],
       "optionReasons": {
-        "decide-mcq-15": "本句指「最終決定」。",
-        "decide-mcq-14": "「達成決定」是「reach a decision」的用法，與本句語境不同。",
-        "decide-mcq-16": "「決策」是「decision-making」的用法，與本句語境不同。",
-        "decide-mcq-13": "「作出決定」是「make a decision」的用法，與本句語境不同。",
-        "decide-mcq-17": "「決策者」是「decision-maker」的用法，與本句語境不同。",
-        "decide-mcq-12": "「決定」是「decision」的用法，與本句語境不同。"
+        "decide-mcq-15": "本句的「final decision」指「最終決定」。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-15"
     },
@@ -1596,11 +1468,9 @@ export default {
       "masked": "No ____ has been made yet.",
       "options": [
         "decide-mcq-15",
-        "decide-mcq-14",
-        "decide-mcq-16",
-        "decide-mcq-13",
-        "decide-mcq-17",
-        "decide-mcq-12"
+        "decide-mcq-23",
+        "decide-mcq-26",
+        "decide-mcq-21"
       ],
       "explanation": "本句的「final decision」指「最終決定」。",
       "sentenceIndex": 32,
@@ -1609,12 +1479,10 @@ export default {
         "final decision"
       ],
       "optionReasons": {
-        "decide-mcq-15": "本句指「最終決定」。",
-        "decide-mcq-14": "「達成決定」是「reach a decision」的用法，與本句語境不同。",
-        "decide-mcq-16": "「決策」是「decision-making」的用法，與本句語境不同。",
-        "decide-mcq-13": "「作出決定」是「make a decision」的用法，與本句語境不同。",
-        "decide-mcq-17": "「決策者」是「decision-maker」的用法，與本句語境不同。",
-        "decide-mcq-12": "「決定」是「decision」的用法，與本句語境不同。"
+        "decide-mcq-15": "本句的「final decision」指「最終決定」。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-15"
     },
@@ -1626,11 +1494,9 @@ export default {
       "masked": "Good ____ requires reliable information.",
       "options": [
         "decide-mcq-16",
-        "decide-mcq-15",
-        "decide-mcq-17",
-        "decide-mcq-14",
+        "decide-mcq-06",
         "decide-mcq-18",
-        "decide-mcq-13"
+        "decide-mcq-25"
       ],
       "explanation": "本句的「decision-making」指「決策」。",
       "sentenceIndex": 33,
@@ -1639,12 +1505,10 @@ export default {
         "decision-making"
       ],
       "optionReasons": {
-        "decide-mcq-16": "本句指「決策」。",
-        "decide-mcq-15": "「最終決定」是「final decision」的用法，與本句語境不同。",
-        "decide-mcq-17": "「決策者」是「decision-maker」的用法，與本句語境不同。",
-        "decide-mcq-14": "「達成決定」是「reach a decision」的用法，與本句語境不同。",
-        "decide-mcq-18": "「果斷的」是「decisive (person)」的用法，與本句語境不同。",
-        "decide-mcq-13": "「作出決定」是「make a decision」的用法，與本句語境不同。"
+        "decide-mcq-16": "本句的「decision-making」指「決策」。",
+        "decide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-16"
     },
@@ -1656,11 +1520,9 @@ export default {
       "masked": "Staff should be involved in ____.",
       "options": [
         "decide-mcq-16",
-        "decide-mcq-15",
-        "decide-mcq-17",
-        "decide-mcq-14",
+        "decide-mcq-21",
         "decide-mcq-18",
-        "decide-mcq-13"
+        "decide-mcq-27"
       ],
       "explanation": "本句的「decision-making」指「決策」。",
       "sentenceIndex": 34,
@@ -1669,12 +1531,10 @@ export default {
         "decision-making"
       ],
       "optionReasons": {
-        "decide-mcq-16": "本句指「決策」。",
-        "decide-mcq-15": "「最終決定」是「final decision」的用法，與本句語境不同。",
-        "decide-mcq-17": "「決策者」是「decision-maker」的用法，與本句語境不同。",
-        "decide-mcq-14": "「達成決定」是「reach a decision」的用法，與本句語境不同。",
-        "decide-mcq-18": "「果斷的」是「decisive (person)」的用法，與本句語境不同。",
-        "decide-mcq-13": "「作出決定」是「make a decision」的用法，與本句語境不同。"
+        "decide-mcq-16": "本句的「decision-making」指「決策」。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-16"
     },
@@ -1686,11 +1546,9 @@ export default {
       "masked": "Managers are often key ____.",
       "options": [
         "decide-mcq-17",
-        "decide-mcq-16",
-        "decide-mcq-18",
-        "decide-mcq-15",
-        "decide-mcq-19",
-        "decide-mcq-14"
+        "decide-mcq-27",
+        "decide-mcq-23",
+        "decide-mcq-21"
       ],
       "explanation": "本句的「decision-makers」指「決策者」。",
       "sentenceIndex": 35,
@@ -1699,12 +1557,10 @@ export default {
         "decision-makers"
       ],
       "optionReasons": {
-        "decide-mcq-17": "本句指「決策者」。",
-        "decide-mcq-16": "「決策」是「decision-making」的用法，與本句語境不同。",
-        "decide-mcq-18": "「果斷的」是「decisive (person)」的用法，與本句語境不同。",
-        "decide-mcq-15": "「最終決定」是「final decision」的用法，與本句語境不同。",
-        "decide-mcq-19": "「決定性的」是「decisive (factor)」的用法，與本句語境不同。",
-        "decide-mcq-14": "「達成決定」是「reach a decision」的用法，與本句語境不同。"
+        "decide-mcq-17": "本句的「decision-makers」指「決策者」。",
+        "decide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-17"
     },
@@ -1716,11 +1572,9 @@ export default {
       "masked": "The report is aimed at senior ____.",
       "options": [
         "decide-mcq-17",
-        "decide-mcq-16",
-        "decide-mcq-18",
-        "decide-mcq-15",
-        "decide-mcq-19",
-        "decide-mcq-14"
+        "decide-mcq-05",
+        "decide-mcq-25",
+        "decide-pdf-001"
       ],
       "explanation": "本句的「decision-makers」指「決策者」。",
       "sentenceIndex": 36,
@@ -1729,12 +1583,10 @@ export default {
         "decision-makers"
       ],
       "optionReasons": {
-        "decide-mcq-17": "本句指「決策者」。",
-        "decide-mcq-16": "「決策」是「decision-making」的用法，與本句語境不同。",
-        "decide-mcq-18": "「果斷的」是「decisive (person)」的用法，與本句語境不同。",
-        "decide-mcq-15": "「最終決定」是「final decision」的用法，與本句語境不同。",
-        "decide-mcq-19": "「決定性的」是「decisive (factor)」的用法，與本句語境不同。",
-        "decide-mcq-14": "「達成決定」是「reach a decision」的用法，與本句語境不同。"
+        "decide-mcq-17": "本句的「decision-makers」指「決策者」。",
+        "decide-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decide-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-17"
     },
@@ -1746,11 +1598,9 @@ export default {
       "masked": "A good leader sometimes needs to be ____.",
       "options": [
         "decide-mcq-18",
-        "decide-mcq-17",
-        "decide-mcq-19",
-        "decide-mcq-16",
-        "decide-mcq-20",
-        "decide-mcq-15"
+        "decide-mcq-01",
+        "decide-mcq-26",
+        "decide-mcq-21"
       ],
       "explanation": "本句的「decisive」指「果斷的」。",
       "sentenceIndex": 37,
@@ -1759,12 +1609,10 @@ export default {
         "decisive"
       ],
       "optionReasons": {
-        "decide-mcq-18": "本句指「果斷的」。",
-        "decide-mcq-17": "「決策者」是「decision-maker」的用法，與本句語境不同。",
-        "decide-mcq-19": "「決定性的」是「decisive (factor)」的用法，與本句語境不同。",
-        "decide-mcq-16": "「決策」是「decision-making」的用法，與本句語境不同。",
-        "decide-mcq-20": "「決定性因素」是「decisive factor」的用法，與本句語境不同。",
-        "decide-mcq-15": "「最終決定」是「final decision」的用法，與本句語境不同。"
+        "decide-mcq-18": "本句的「decisive」指「果斷的」。",
+        "decide-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-18"
     },
@@ -1776,11 +1624,9 @@ export default {
       "masked": "She was calm and ____ under pressure.",
       "options": [
         "decide-mcq-18",
-        "decide-mcq-17",
-        "decide-mcq-19",
-        "decide-mcq-16",
-        "decide-mcq-20",
-        "decide-mcq-15"
+        "decide-mcq-04",
+        "decide-mcq-26",
+        "decide-mcq-25"
       ],
       "explanation": "本句的「decisive」指「果斷的」。",
       "sentenceIndex": 38,
@@ -1789,12 +1635,10 @@ export default {
         "decisive"
       ],
       "optionReasons": {
-        "decide-mcq-18": "本句指「果斷的」。",
-        "decide-mcq-17": "「決策者」是「decision-maker」的用法，與本句語境不同。",
-        "decide-mcq-19": "「決定性的」是「decisive (factor)」的用法，與本句語境不同。",
-        "decide-mcq-16": "「決策」是「decision-making」的用法，與本句語境不同。",
-        "decide-mcq-20": "「決定性因素」是「decisive factor」的用法，與本句語境不同。",
-        "decide-mcq-15": "「最終決定」是「final decision」的用法，與本句語境不同。"
+        "decide-mcq-18": "本句的「decisive」指「果斷的」。",
+        "decide-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-18"
     },
@@ -1806,11 +1650,9 @@ export default {
       "masked": "Her experience was the ____.",
       "options": [
         "decide-mcq-19",
-        "decide-mcq-18",
-        "decide-mcq-20",
-        "decide-mcq-17",
         "decide-mcq-21",
-        "decide-mcq-16"
+        "decide-mcq-23",
+        "decide-mcq-26"
       ],
       "explanation": "本句的「decisive factor」指「決定性的」。",
       "sentenceIndex": 39,
@@ -1819,12 +1661,10 @@ export default {
         "decisive factor"
       ],
       "optionReasons": {
-        "decide-mcq-19": "本句指「決定性的」。",
-        "decide-mcq-18": "「果斷的」是「decisive (person)」的用法，與本句語境不同。",
-        "decide-mcq-20": "「決定性因素」是「decisive factor」的用法，與本句語境不同。",
-        "decide-mcq-17": "「決策者」是「decision-maker」的用法，與本句語境不同。",
-        "decide-mcq-21": "「關鍵時刻」是「decisive moment」的用法，與本句語境不同。",
-        "decide-mcq-16": "「決策」是「decision-making」的用法，與本句語境不同。"
+        "decide-mcq-19": "本句的「decisive factor」指「決定性的」。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-19"
     },
@@ -1836,11 +1676,9 @@ export default {
       "masked": "The final goal proved ____.",
       "options": [
         "decide-mcq-19",
-        "decide-mcq-18",
-        "decide-mcq-20",
-        "decide-mcq-17",
+        "decide-mcq-27",
         "decide-mcq-21",
-        "decide-mcq-16"
+        "decide-mcq-23"
       ],
       "explanation": "本句的「decisive」指「決定性的」。",
       "sentenceIndex": 40,
@@ -1849,12 +1687,10 @@ export default {
         "decisive"
       ],
       "optionReasons": {
-        "decide-mcq-19": "本句指「決定性的」。",
-        "decide-mcq-18": "「果斷的」是「decisive (person)」的用法，與本句語境不同。",
-        "decide-mcq-20": "「決定性因素」是「decisive factor」的用法，與本句語境不同。",
-        "decide-mcq-17": "「決策者」是「decision-maker」的用法，與本句語境不同。",
-        "decide-mcq-21": "「關鍵時刻」是「decisive moment」的用法，與本句語境不同。",
-        "decide-mcq-16": "「決策」是「decision-making」的用法，與本句語境不同。"
+        "decide-mcq-19": "本句的「decisive」指「決定性的」。",
+        "decide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-19"
     },
@@ -1866,11 +1702,9 @@ export default {
       "masked": "Cost was the ____ in our choice.",
       "options": [
         "decide-mcq-20",
-        "decide-mcq-19",
-        "decide-mcq-21",
-        "decide-mcq-18",
-        "decide-mcq-22",
-        "decide-mcq-17"
+        "decide-mcq-05",
+        "decide-mcq-25",
+        "decide-mcq-21"
       ],
       "explanation": "本句的「decisive factor」指「決定性因素」。",
       "sentenceIndex": 41,
@@ -1879,12 +1713,10 @@ export default {
         "decisive factor"
       ],
       "optionReasons": {
-        "decide-mcq-20": "本句指「決定性因素」。",
-        "decide-mcq-19": "「決定性的」是「decisive (factor)」的用法，與本句語境不同。",
-        "decide-mcq-21": "「關鍵時刻」是「decisive moment」的用法，與本句語境不同。",
-        "decide-mcq-18": "「果斷的」是「decisive (person)」的用法，與本句語境不同。",
-        "decide-mcq-22": "「果斷地／決定性地」是「decisively」的用法，與本句語境不同。",
-        "decide-mcq-17": "「決策者」是「decision-maker」的用法，與本句語境不同。"
+        "decide-mcq-20": "本句的「decisive factor」指「決定性因素」。",
+        "decide-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-20"
     },
@@ -1896,11 +1728,9 @@ export default {
       "masked": "Location became the ____.",
       "options": [
         "decide-mcq-20",
-        "decide-mcq-19",
         "decide-mcq-21",
-        "decide-mcq-18",
-        "decide-mcq-22",
-        "decide-mcq-17"
+        "decide-mcq-23",
+        "decide-mcq-25"
       ],
       "explanation": "本句的「decisive factor」指「決定性因素」。",
       "sentenceIndex": 42,
@@ -1909,12 +1739,10 @@ export default {
         "decisive factor"
       ],
       "optionReasons": {
-        "decide-mcq-20": "本句指「決定性因素」。",
-        "decide-mcq-19": "「決定性的」是「decisive (factor)」的用法，與本句語境不同。",
-        "decide-mcq-21": "「關鍵時刻」是「decisive moment」的用法，與本句語境不同。",
-        "decide-mcq-18": "「果斷的」是「decisive (person)」的用法，與本句語境不同。",
-        "decide-mcq-22": "「果斷地／決定性地」是「decisively」的用法，與本句語境不同。",
-        "decide-mcq-17": "「決策者」是「decision-maker」的用法，與本句語境不同。"
+        "decide-mcq-20": "本句的「decisive factor」指「決定性因素」。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-20"
     },
@@ -1926,10 +1754,8 @@ export default {
       "masked": "That was the ____ in the match.",
       "options": [
         "decide-mcq-21",
-        "decide-mcq-20",
-        "decide-mcq-22",
         "decide-mcq-19",
-        "decide-mcq-23",
+        "decide-mcq-05",
         "decide-mcq-18"
       ],
       "explanation": "本句的「decisive moment」指「關鍵時刻」。",
@@ -1939,12 +1765,10 @@ export default {
         "decisive moment"
       ],
       "optionReasons": {
-        "decide-mcq-21": "本句指「關鍵時刻」。",
-        "decide-mcq-20": "「決定性因素」是「decisive factor」的用法，與本句語境不同。",
-        "decide-mcq-22": "「果斷地／決定性地」是「decisively」的用法，與本句語境不同。",
-        "decide-mcq-19": "「決定性的」是「decisive (factor)」的用法，與本句語境不同。",
-        "decide-mcq-23": "「優柔寡斷的」是「indecisive」的用法，與本句語境不同。",
-        "decide-mcq-18": "「果斷的」是「decisive (person)」的用法，與本句語境不同。"
+        "decide-mcq-21": "本句的「decisive moment」指「關鍵時刻」。",
+        "decide-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-21"
     },
@@ -1956,10 +1780,8 @@ export default {
       "masked": "Her answer came at a ____.",
       "options": [
         "decide-mcq-21",
-        "decide-mcq-20",
-        "decide-mcq-22",
-        "decide-mcq-19",
-        "decide-mcq-23",
+        "decide-mcq-04",
+        "decide-mcq-05",
         "decide-mcq-18"
       ],
       "explanation": "本句的「decisive moment」指「關鍵時刻」。",
@@ -1969,12 +1791,10 @@ export default {
         "decisive moment"
       ],
       "optionReasons": {
-        "decide-mcq-21": "本句指「關鍵時刻」。",
-        "decide-mcq-20": "「決定性因素」是「decisive factor」的用法，與本句語境不同。",
-        "decide-mcq-22": "「果斷地／決定性地」是「decisively」的用法，與本句語境不同。",
-        "decide-mcq-19": "「決定性的」是「decisive (factor)」的用法，與本句語境不同。",
-        "decide-mcq-23": "「優柔寡斷的」是「indecisive」的用法，與本句語境不同。",
-        "decide-mcq-18": "「果斷的」是「decisive (person)」的用法，與本句語境不同。"
+        "decide-mcq-21": "本句的「decisive moment」指「關鍵時刻」。",
+        "decide-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-21"
     },
@@ -1986,10 +1806,8 @@ export default {
       "masked": "The team achieved a ____.",
       "options": [
         "decide-mcq-28",
-        "decide-mcq-27",
-        "decide-mcq-26",
-        "decide-mcq-25",
-        "decide-mcq-24",
+        "decide-mcq-16",
+        "decide-mcq-06",
         "decide-mcq-23"
       ],
       "explanation": "本句的「decisive victory」指「結果非常清楚、沒有太大疑問的勝利」。",
@@ -1999,12 +1817,10 @@ export default {
         "decisive victory"
       ],
       "optionReasons": {
-        "decide-mcq-28": "本句指「結果非常清楚、沒有太大疑問的勝利」。",
-        "decide-mcq-27": "「在多個選項之間無法作出選擇」是「9. can't decide / be unable to decide — 拿不定主意」的用法，與本句語境不同。",
-        "decide-mcq-26": "「考慮後選擇不接受、不採用或不進行 X」是「7. decide against something / doing something — 決定不做／不用」的用法，與本句語境不同。",
-        "decide-mcq-25": "「明確的；顯著的」是「decided」的用法，與本句語境不同。",
-        "decide-mcq-24": "「猶豫不決」是「indecision」的用法，與本句語境不同。",
-        "decide-mcq-23": "「優柔寡斷的」是「indecisive」的用法，與本句語境不同。"
+        "decide-mcq-28": "本句的「decisive victory」指「結果非常清楚、沒有太大疑問的勝利」。",
+        "decide-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-28"
     },
@@ -2016,11 +1832,9 @@ export default {
       "masked": "They won a ____ in the final.",
       "options": [
         "decide-mcq-28",
-        "decide-mcq-27",
-        "decide-mcq-26",
-        "decide-mcq-25",
         "decide-mcq-24",
-        "decide-mcq-23"
+        "decide-mcq-06",
+        "decide-mcq-21"
       ],
       "explanation": "本句的「decisive victory」指「結果非常清楚、沒有太大疑問的勝利」。",
       "sentenceIndex": 46,
@@ -2029,12 +1843,10 @@ export default {
         "decisive victory"
       ],
       "optionReasons": {
-        "decide-mcq-28": "本句指「結果非常清楚、沒有太大疑問的勝利」。",
-        "decide-mcq-27": "「在多個選項之間無法作出選擇」是「9. can't decide / be unable to decide — 拿不定主意」的用法，與本句語境不同。",
-        "decide-mcq-26": "「考慮後選擇不接受、不採用或不進行 X」是「7. decide against something / doing something — 決定不做／不用」的用法，與本句語境不同。",
-        "decide-mcq-25": "「明確的；顯著的」是「decided」的用法，與本句語境不同。",
-        "decide-mcq-24": "「猶豫不決」是「indecision」的用法，與本句語境不同。",
-        "decide-mcq-23": "「優柔寡斷的」是「indecisive」的用法，與本句語境不同。"
+        "decide-mcq-28": "本句的「decisive victory」指「結果非常清楚、沒有太大疑問的勝利」。",
+        "decide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-28"
     },
@@ -2046,11 +1858,9 @@ export default {
       "masked": "She acted ____.",
       "options": [
         "decide-mcq-22",
-        "decide-mcq-21",
-        "decide-mcq-23",
-        "decide-mcq-20",
-        "decide-mcq-24",
-        "decide-mcq-19"
+        "decide-mcq-26",
+        "decide-mcq-25",
+        "decide-mcq-21"
       ],
       "explanation": "本句的「decisively」指「果斷地／決定性地」。",
       "sentenceIndex": 47,
@@ -2059,12 +1869,10 @@ export default {
         "decisively"
       ],
       "optionReasons": {
-        "decide-mcq-22": "本句指「果斷地／決定性地」。",
-        "decide-mcq-21": "「關鍵時刻」是「decisive moment」的用法，與本句語境不同。",
-        "decide-mcq-23": "「優柔寡斷的」是「indecisive」的用法，與本句語境不同。",
-        "decide-mcq-20": "「決定性因素」是「decisive factor」的用法，與本句語境不同。",
-        "decide-mcq-24": "「猶豫不決」是「indecision」的用法，與本句語境不同。",
-        "decide-mcq-19": "「決定性的」是「decisive (factor)」的用法，與本句語境不同。"
+        "decide-mcq-22": "本句的「decisively」指「果斷地／決定性地」。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-22"
     },
@@ -2076,11 +1884,9 @@ export default {
       "masked": "The team won ____.",
       "options": [
         "decide-mcq-22",
+        "decide-mcq-27",
         "decide-mcq-21",
-        "decide-mcq-23",
-        "decide-mcq-20",
-        "decide-mcq-24",
-        "decide-mcq-19"
+        "decide-mcq-25"
       ],
       "explanation": "本句的「decisively」指「果斷地／決定性地」。",
       "sentenceIndex": 48,
@@ -2089,12 +1895,10 @@ export default {
         "decisively"
       ],
       "optionReasons": {
-        "decide-mcq-22": "本句指「果斷地／決定性地」。",
-        "decide-mcq-21": "「關鍵時刻」是「decisive moment」的用法，與本句語境不同。",
-        "decide-mcq-23": "「優柔寡斷的」是「indecisive」的用法，與本句語境不同。",
-        "decide-mcq-20": "「決定性因素」是「decisive factor」的用法，與本句語境不同。",
-        "decide-mcq-24": "「猶豫不決」是「indecision」的用法，與本句語境不同。",
-        "decide-mcq-19": "「決定性的」是「decisive (factor)」的用法，與本句語境不同。"
+        "decide-mcq-22": "本句的「decisively」指「果斷地／決定性地」。",
+        "decide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-22"
     },
@@ -2106,11 +1910,9 @@ export default {
       "masked": "He can be very ____.",
       "options": [
         "decide-mcq-23",
-        "decide-mcq-22",
-        "decide-mcq-24",
-        "decide-mcq-21",
-        "decide-mcq-25",
-        "decide-mcq-20"
+        "decide-mcq-02",
+        "decide-mcq-27",
+        "decide-mcq-25"
       ],
       "explanation": "本句的「indecisive」指「優柔寡斷的」。",
       "sentenceIndex": 49,
@@ -2119,12 +1921,10 @@ export default {
         "indecisive"
       ],
       "optionReasons": {
-        "decide-mcq-23": "本句指「優柔寡斷的」。",
-        "decide-mcq-22": "「果斷地／決定性地」是「decisively」的用法，與本句語境不同。",
-        "decide-mcq-24": "「猶豫不決」是「indecision」的用法，與本句語境不同。",
-        "decide-mcq-21": "「關鍵時刻」是「decisive moment」的用法，與本句語境不同。",
-        "decide-mcq-25": "「明確的；顯著的」是「decided」的用法，與本句語境不同。",
-        "decide-mcq-20": "「決定性因素」是「decisive factor」的用法，與本句語境不同。"
+        "decide-mcq-23": "本句的「indecisive」指「優柔寡斷的」。",
+        "decide-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-23"
     },
@@ -2136,11 +1936,9 @@ export default {
       "masked": "She felt ____ about which course to choose.",
       "options": [
         "decide-mcq-23",
-        "decide-mcq-22",
-        "decide-mcq-24",
-        "decide-mcq-21",
-        "decide-mcq-25",
-        "decide-mcq-20"
+        "decide-mcq-05",
+        "decide-mcq-15",
+        "decide-mcq-28"
       ],
       "explanation": "本句的「indecisive」指「優柔寡斷的」。",
       "sentenceIndex": 50,
@@ -2149,12 +1947,10 @@ export default {
         "indecisive"
       ],
       "optionReasons": {
-        "decide-mcq-23": "本句指「優柔寡斷的」。",
-        "decide-mcq-22": "「果斷地／決定性地」是「decisively」的用法，與本句語境不同。",
-        "decide-mcq-24": "「猶豫不決」是「indecision」的用法，與本句語境不同。",
-        "decide-mcq-21": "「關鍵時刻」是「decisive moment」的用法，與本句語境不同。",
-        "decide-mcq-25": "「明確的；顯著的」是「decided」的用法，與本句語境不同。",
-        "decide-mcq-20": "「決定性因素」是「decisive factor」的用法，與本句語境不同。"
+        "decide-mcq-23": "本句的「indecisive」指「優柔寡斷的」。",
+        "decide-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-23"
     },
@@ -2166,11 +1962,9 @@ export default {
       "masked": "His ____ delayed the project.",
       "options": [
         "decide-mcq-24",
-        "decide-mcq-23",
-        "decide-mcq-25",
-        "decide-mcq-22",
-        "decide-mcq-26",
-        "decide-mcq-21"
+        "decide-mcq-18",
+        "decide-mcq-27",
+        "decide-mcq-25"
       ],
       "explanation": "本句的「indecision」指「猶豫不決」。",
       "sentenceIndex": 51,
@@ -2179,12 +1973,10 @@ export default {
         "indecision"
       ],
       "optionReasons": {
-        "decide-mcq-24": "本句指「猶豫不決」。",
-        "decide-mcq-23": "「優柔寡斷的」是「indecisive」的用法，與本句語境不同。",
-        "decide-mcq-25": "「明確的；顯著的」是「decided」的用法，與本句語境不同。",
-        "decide-mcq-22": "「果斷地／決定性地」是「decisively」的用法，與本句語境不同。",
-        "decide-mcq-26": "「考慮後選擇不接受、不採用或不進行 X」是「7. decide against something / doing something — 決定不做／不用」的用法，與本句語境不同。",
-        "decide-mcq-21": "「關鍵時刻」是「decisive moment」的用法，與本句語境不同。"
+        "decide-mcq-24": "本句的「indecision」指「猶豫不決」。",
+        "decide-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-24"
     },
@@ -2196,11 +1988,9 @@ export default {
       "masked": "After a moment of ____, she chose the blue one.",
       "options": [
         "decide-mcq-24",
-        "decide-mcq-23",
-        "decide-mcq-25",
-        "decide-mcq-22",
-        "decide-mcq-26",
-        "decide-mcq-21"
+        "decide-mcq-18",
+        "decide-mcq-21",
+        "decide-mcq-05"
       ],
       "explanation": "本句的「indecision」指「猶豫不決」。",
       "sentenceIndex": 52,
@@ -2209,12 +1999,10 @@ export default {
         "indecision"
       ],
       "optionReasons": {
-        "decide-mcq-24": "本句指「猶豫不決」。",
-        "decide-mcq-23": "「優柔寡斷的」是「indecisive」的用法，與本句語境不同。",
-        "decide-mcq-25": "「明確的；顯著的」是「decided」的用法，與本句語境不同。",
-        "decide-mcq-22": "「果斷地／決定性地」是「decisively」的用法，與本句語境不同。",
-        "decide-mcq-26": "「考慮後選擇不接受、不採用或不進行 X」是「7. decide against something / doing something — 決定不做／不用」的用法，與本句語境不同。",
-        "decide-mcq-21": "「關鍵時刻」是「decisive moment」的用法，與本句語境不同。"
+        "decide-mcq-24": "本句的「indecision」指「猶豫不決」。",
+        "decide-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-24"
     },
@@ -2226,11 +2014,9 @@ export default {
       "masked": "There has been a ____ in his work.",
       "options": [
         "decide-mcq-25",
-        "decide-mcq-24",
-        "decide-mcq-26",
-        "decide-mcq-23",
-        "decide-mcq-27",
-        "decide-mcq-22"
+        "decide-mcq-03",
+        "decide-mcq-21",
+        "decide-mcq-05"
       ],
       "explanation": "本句的「decided improvement」指「明確的；顯著的」。",
       "sentenceIndex": 53,
@@ -2239,12 +2025,10 @@ export default {
         "decided improvement"
       ],
       "optionReasons": {
-        "decide-mcq-25": "本句指「明確的；顯著的」。",
-        "decide-mcq-24": "「猶豫不決」是「indecision」的用法，與本句語境不同。",
-        "decide-mcq-26": "「考慮後選擇不接受、不採用或不進行 X」是「7. decide against something / doing something — 決定不做／不用」的用法，與本句語境不同。",
-        "decide-mcq-23": "「優柔寡斷的」是「indecisive」的用法，與本句語境不同。",
-        "decide-mcq-27": "「在多個選項之間無法作出選擇」是「9. can't decide / be unable to decide — 拿不定主意」的用法，與本句語境不同。",
-        "decide-mcq-22": "「果斷地／決定性地」是「decisively」的用法，與本句語境不同。"
+        "decide-mcq-25": "本句的「decided improvement」指「明確的；顯著的」。",
+        "decide-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-25"
     },
@@ -2256,11 +2040,9 @@ export default {
       "masked": "She spoke with a ____ for the first option.",
       "options": [
         "decide-mcq-25",
-        "decide-mcq-24",
-        "decide-mcq-26",
-        "decide-mcq-23",
-        "decide-mcq-27",
-        "decide-mcq-22"
+        "decide-mcq-21",
+        "decide-mcq-13",
+        "decide-mcq-26"
       ],
       "explanation": "本句的「decided preference」指「明確的；顯著的」。",
       "sentenceIndex": 54,
@@ -2269,12 +2051,10 @@ export default {
         "decided preference"
       ],
       "optionReasons": {
-        "decide-mcq-25": "本句指「明確的；顯著的」。",
-        "decide-mcq-24": "「猶豫不決」是「indecision」的用法，與本句語境不同。",
-        "decide-mcq-26": "「考慮後選擇不接受、不採用或不進行 X」是「7. decide against something / doing something — 決定不做／不用」的用法，與本句語境不同。",
-        "decide-mcq-23": "「優柔寡斷的」是「indecisive」的用法，與本句語境不同。",
-        "decide-mcq-27": "「在多個選項之間無法作出選擇」是「9. can't decide / be unable to decide — 拿不定主意」的用法，與本句語境不同。",
-        "decide-mcq-22": "「果斷地／決定性地」是「decisively」的用法，與本句語境不同。"
+        "decide-mcq-25": "本句的「decided preference」指「明確的；顯著的」。",
+        "decide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "decide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decide-mcq-25"
     }
@@ -2286,5 +2066,7 @@ export default {
     "sha256": "d3a4a01d44e54eb48d5231ca8ea5349d0e2e6c3f9eb1ed7697c7a82d52b597d6",
     "pages": 22
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

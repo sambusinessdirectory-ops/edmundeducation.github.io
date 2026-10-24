@@ -284,11 +284,7 @@ export default {
       "masked": "He helped me understand what I had ____.",
       "options": [
         "miss-mcq-01",
-        "miss-mcq-02",
-        "miss-mcq-03",
-        "miss-mcq-04",
-        "miss-mcq-05",
-        "miss-mcq-06"
+        "miss-mcq-10"
       ],
       "explanation": "本句的「missed」指「因時間、缺席、疏忽或其他原因而沒有趕上、看到、聽到或經歷某件事」。",
       "sentenceIndex": 0,
@@ -297,12 +293,8 @@ export default {
         "missed"
       ],
       "optionReasons": {
-        "miss-mcq-01": "本句指「因時間、缺席、疏忽或其他原因而沒有趕上、看到、聽到或經歷某件事」。",
-        "miss-mcq-02": "「原本想擊中、接觸或到達某個目標，但沒有成功」是「miss = fail to hit/reach a target（未擊中）」的用法，與本句語境不同。",
-        "miss-mcq-03": "「沒有注意、理解或識別本來應該察覺的資訊或重點」是「miss = fail to notice/understand something（漏看／沒察覺）」的用法，與本句語境不同。",
-        "miss-mcq-04": "「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」是「miss = feel the absence of someone/something（想念）」的用法，與本句語境不同。",
-        "miss-mcq-05": "「非常接近目標，但最終沒有碰到／擊中」是「miss = avoid narrowly（差點撞到／避過）」的用法，與本句語境不同。",
-        "miss-mcq-06": "「應該包括或處理某項內容，但實際上遺漏了它」是「miss = fail to include / leave out（遺漏）」的用法，與本句語境不同。"
+        "miss-mcq-01": "本句的「missed」指「因時間、缺席、疏忽或其他原因而沒有趕上、看到、聽到或經歷某件事」。",
+        "miss-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-01"
     },
@@ -314,11 +306,7 @@ export default {
       "masked": "I ____ the beginning of the lesson.",
       "options": [
         "miss-mcq-01",
-        "miss-mcq-02",
-        "miss-mcq-03",
-        "miss-mcq-04",
-        "miss-mcq-05",
-        "miss-mcq-06"
+        "miss-mcq-10"
       ],
       "explanation": "本句的「missed」指「因時間、缺席、疏忽或其他原因而沒有趕上、看到、聽到或經歷某件事」。",
       "sentenceIndex": 1,
@@ -327,12 +315,8 @@ export default {
         "missed"
       ],
       "optionReasons": {
-        "miss-mcq-01": "本句指「因時間、缺席、疏忽或其他原因而沒有趕上、看到、聽到或經歷某件事」。",
-        "miss-mcq-02": "「原本想擊中、接觸或到達某個目標，但沒有成功」是「miss = fail to hit/reach a target（未擊中）」的用法，與本句語境不同。",
-        "miss-mcq-03": "「沒有注意、理解或識別本來應該察覺的資訊或重點」是「miss = fail to notice/understand something（漏看／沒察覺）」的用法，與本句語境不同。",
-        "miss-mcq-04": "「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」是「miss = feel the absence of someone/something（想念）」的用法，與本句語境不同。",
-        "miss-mcq-05": "「非常接近目標，但最終沒有碰到／擊中」是「miss = avoid narrowly（差點撞到／避過）」的用法，與本句語境不同。",
-        "miss-mcq-06": "「應該包括或處理某項內容，但實際上遺漏了它」是「miss = fail to include / leave out（遺漏）」的用法，與本句語境不同。"
+        "miss-mcq-01": "本句的「missed」指「因時間、缺席、疏忽或其他原因而沒有趕上、看到、聽到或經歷某件事」。",
+        "miss-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-01"
     },
@@ -344,11 +328,7 @@ export default {
       "masked": "We ____ the last bus.",
       "options": [
         "miss-mcq-01",
-        "miss-mcq-02",
-        "miss-mcq-03",
-        "miss-mcq-04",
-        "miss-mcq-05",
-        "miss-mcq-06"
+        "miss-mcq-10"
       ],
       "explanation": "本句的「missed」指「因時間、缺席、疏忽或其他原因而沒有趕上、看到、聽到或經歷某件事」。",
       "sentenceIndex": 2,
@@ -357,12 +337,8 @@ export default {
         "missed"
       ],
       "optionReasons": {
-        "miss-mcq-01": "本句指「因時間、缺席、疏忽或其他原因而沒有趕上、看到、聽到或經歷某件事」。",
-        "miss-mcq-02": "「原本想擊中、接觸或到達某個目標，但沒有成功」是「miss = fail to hit/reach a target（未擊中）」的用法，與本句語境不同。",
-        "miss-mcq-03": "「沒有注意、理解或識別本來應該察覺的資訊或重點」是「miss = fail to notice/understand something（漏看／沒察覺）」的用法，與本句語境不同。",
-        "miss-mcq-04": "「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」是「miss = feel the absence of someone/something（想念）」的用法，與本句語境不同。",
-        "miss-mcq-05": "「非常接近目標，但最終沒有碰到／擊中」是「miss = avoid narrowly（差點撞到／避過）」的用法，與本句語境不同。",
-        "miss-mcq-06": "「應該包括或處理某項內容，但實際上遺漏了它」是「miss = fail to include / leave out（遺漏）」的用法，與本句語境不同。"
+        "miss-mcq-01": "本句的「missed」指「因時間、缺席、疏忽或其他原因而沒有趕上、看到、聽到或經歷某件事」。",
+        "miss-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-01"
     },
@@ -374,10 +350,7 @@ export default {
       "masked": "He threw the ball but ____ the target.",
       "options": [
         "miss-mcq-02",
-        "miss-mcq-01",
-        "miss-mcq-03",
         "miss-mcq-04",
-        "miss-mcq-05",
         "miss-mcq-06"
       ],
       "explanation": "本句的「missed」指「原本想擊中、接觸或到達某個目標，但沒有成功」。",
@@ -387,12 +360,9 @@ export default {
         "missed"
       ],
       "optionReasons": {
-        "miss-mcq-02": "本句指「原本想擊中、接觸或到達某個目標，但沒有成功」。",
-        "miss-mcq-01": "「因時間、缺席、疏忽或其他原因而沒有趕上、看到、聽到或經歷某件事」是「miss = fail to catch/experience something（錯過）」的用法，與本句語境不同。",
-        "miss-mcq-03": "「沒有注意、理解或識別本來應該察覺的資訊或重點」是「miss = fail to notice/understand something（漏看／沒察覺）」的用法，與本句語境不同。",
-        "miss-mcq-04": "「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」是「miss = feel the absence of someone/something（想念）」的用法，與本句語境不同。",
-        "miss-mcq-05": "「非常接近目標，但最終沒有碰到／擊中」是「miss = avoid narrowly（差點撞到／避過）」的用法，與本句語境不同。",
-        "miss-mcq-06": "「應該包括或處理某項內容，但實際上遺漏了它」是「miss = fail to include / leave out（遺漏）」的用法，與本句語境不同。"
+        "miss-mcq-02": "本句的「missed」指「原本想擊中、接觸或到達某個目標，但沒有成功」。",
+        "miss-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "miss-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-02"
     },
@@ -404,11 +374,7 @@ export default {
       "masked": "She ____ the shot.",
       "options": [
         "miss-mcq-02",
-        "miss-mcq-01",
-        "miss-mcq-03",
-        "miss-mcq-04",
-        "miss-mcq-05",
-        "miss-mcq-06"
+        "miss-mcq-10"
       ],
       "explanation": "本句的「missed」指「原本想擊中、接觸或到達某個目標，但沒有成功」。",
       "sentenceIndex": 4,
@@ -417,12 +383,8 @@ export default {
         "missed"
       ],
       "optionReasons": {
-        "miss-mcq-02": "本句指「原本想擊中、接觸或到達某個目標，但沒有成功」。",
-        "miss-mcq-01": "「因時間、缺席、疏忽或其他原因而沒有趕上、看到、聽到或經歷某件事」是「miss = fail to catch/experience something（錯過）」的用法，與本句語境不同。",
-        "miss-mcq-03": "「沒有注意、理解或識別本來應該察覺的資訊或重點」是「miss = fail to notice/understand something（漏看／沒察覺）」的用法，與本句語境不同。",
-        "miss-mcq-04": "「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」是「miss = feel the absence of someone/something（想念）」的用法，與本句語境不同。",
-        "miss-mcq-05": "「非常接近目標，但最終沒有碰到／擊中」是「miss = avoid narrowly（差點撞到／避過）」的用法，與本句語境不同。",
-        "miss-mcq-06": "「應該包括或處理某項內容，但實際上遺漏了它」是「miss = fail to include / leave out（遺漏）」的用法，與本句語境不同。"
+        "miss-mcq-02": "本句的「missed」指「原本想擊中、接觸或到達某個目標，但沒有成功」。",
+        "miss-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-02"
     },
@@ -434,11 +396,7 @@ export default {
       "masked": "I completely ____ the mistake in the report.",
       "options": [
         "miss-mcq-03",
-        "miss-mcq-02",
-        "miss-mcq-04",
-        "miss-mcq-01",
-        "miss-mcq-05",
-        "miss-mcq-06"
+        "miss-mcq-04"
       ],
       "explanation": "本句的「missed」指「沒有注意、理解或識別本來應該察覺的資訊或重點」。",
       "sentenceIndex": 5,
@@ -447,12 +405,8 @@ export default {
         "missed"
       ],
       "optionReasons": {
-        "miss-mcq-03": "本句指「沒有注意、理解或識別本來應該察覺的資訊或重點」。",
-        "miss-mcq-02": "「原本想擊中、接觸或到達某個目標，但沒有成功」是「miss = fail to hit/reach a target（未擊中）」的用法，與本句語境不同。",
-        "miss-mcq-04": "「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」是「miss = feel the absence of someone/something（想念）」的用法，與本句語境不同。",
-        "miss-mcq-01": "「因時間、缺席、疏忽或其他原因而沒有趕上、看到、聽到或經歷某件事」是「miss = fail to catch/experience something（錯過）」的用法，與本句語境不同。",
-        "miss-mcq-05": "「非常接近目標，但最終沒有碰到／擊中」是「miss = avoid narrowly（差點撞到／避過）」的用法，與本句語境不同。",
-        "miss-mcq-06": "「應該包括或處理某項內容，但實際上遺漏了它」是「miss = fail to include / leave out（遺漏）」的用法，與本句語境不同。"
+        "miss-mcq-03": "本句的「missed」指「沒有注意、理解或識別本來應該察覺的資訊或重點」。",
+        "miss-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-03"
     },
@@ -464,11 +418,7 @@ export default {
       "masked": "You’re ____ the main point.",
       "options": [
         "miss-mcq-03",
-        "miss-mcq-02",
-        "miss-mcq-04",
-        "miss-mcq-01",
-        "miss-mcq-05",
-        "miss-mcq-06"
+        "miss-mcq-04"
       ],
       "explanation": "本句的「missing」指「沒有注意、理解或識別本來應該察覺的資訊或重點」。",
       "sentenceIndex": 6,
@@ -477,12 +427,8 @@ export default {
         "missing"
       ],
       "optionReasons": {
-        "miss-mcq-03": "本句指「沒有注意、理解或識別本來應該察覺的資訊或重點」。",
-        "miss-mcq-02": "「原本想擊中、接觸或到達某個目標，但沒有成功」是「miss = fail to hit/reach a target（未擊中）」的用法，與本句語境不同。",
-        "miss-mcq-04": "「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」是「miss = feel the absence of someone/something（想念）」的用法，與本句語境不同。",
-        "miss-mcq-01": "「因時間、缺席、疏忽或其他原因而沒有趕上、看到、聽到或經歷某件事」是「miss = fail to catch/experience something（錯過）」的用法，與本句語境不同。",
-        "miss-mcq-05": "「非常接近目標，但最終沒有碰到／擊中」是「miss = avoid narrowly（差點撞到／避過）」的用法，與本句語境不同。",
-        "miss-mcq-06": "「應該包括或處理某項內容，但實際上遺漏了它」是「miss = fail to include / leave out（遺漏）」的用法，與本句語境不同。"
+        "miss-mcq-03": "本句的「missing」指「沒有注意、理解或識別本來應該察覺的資訊或重點」。",
+        "miss-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-03"
     },
@@ -494,11 +440,8 @@ export default {
       "masked": "I really ____ my old friends.",
       "options": [
         "miss-mcq-04",
-        "miss-mcq-03",
-        "miss-mcq-05",
-        "miss-mcq-02",
         "miss-mcq-06",
-        "miss-mcq-01"
+        "miss-mcq-12"
       ],
       "explanation": "本句的「miss」指「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」。",
       "sentenceIndex": 7,
@@ -507,12 +450,9 @@ export default {
         "miss"
       ],
       "optionReasons": {
-        "miss-mcq-04": "本句指「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」。",
-        "miss-mcq-03": "「沒有注意、理解或識別本來應該察覺的資訊或重點」是「miss = fail to notice/understand something（漏看／沒察覺）」的用法，與本句語境不同。",
-        "miss-mcq-05": "「非常接近目標，但最終沒有碰到／擊中」是「miss = avoid narrowly（差點撞到／避過）」的用法，與本句語境不同。",
-        "miss-mcq-02": "「原本想擊中、接觸或到達某個目標，但沒有成功」是「miss = fail to hit/reach a target（未擊中）」的用法，與本句語境不同。",
-        "miss-mcq-06": "「應該包括或處理某項內容，但實際上遺漏了它」是「miss = fail to include / leave out（遺漏）」的用法，與本句語境不同。",
-        "miss-mcq-01": "「因時間、缺席、疏忽或其他原因而沒有趕上、看到、聽到或經歷某件事」是「miss = fail to catch/experience something（錯過）」的用法，與本句語境不同。"
+        "miss-mcq-04": "本句的「miss」指「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」。",
+        "miss-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "miss-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-04"
     },
@@ -524,11 +464,7 @@ export default {
       "masked": "She ____ living by the sea.",
       "options": [
         "miss-mcq-04",
-        "miss-mcq-03",
-        "miss-mcq-05",
-        "miss-mcq-02",
-        "miss-mcq-06",
-        "miss-mcq-01"
+        "miss-mcq-11"
       ],
       "explanation": "本句的「misses」指「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」。",
       "sentenceIndex": 8,
@@ -537,12 +473,8 @@ export default {
         "misses"
       ],
       "optionReasons": {
-        "miss-mcq-04": "本句指「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」。",
-        "miss-mcq-03": "「沒有注意、理解或識別本來應該察覺的資訊或重點」是「miss = fail to notice/understand something（漏看／沒察覺）」的用法，與本句語境不同。",
-        "miss-mcq-05": "「非常接近目標，但最終沒有碰到／擊中」是「miss = avoid narrowly（差點撞到／避過）」的用法，與本句語境不同。",
-        "miss-mcq-02": "「原本想擊中、接觸或到達某個目標，但沒有成功」是「miss = fail to hit/reach a target（未擊中）」的用法，與本句語境不同。",
-        "miss-mcq-06": "「應該包括或處理某項內容，但實際上遺漏了它」是「miss = fail to include / leave out（遺漏）」的用法，與本句語境不同。",
-        "miss-mcq-01": "「因時間、缺席、疏忽或其他原因而沒有趕上、看到、聽到或經歷某件事」是「miss = fail to catch/experience something（錯過）」的用法，與本句語境不同。"
+        "miss-mcq-04": "本句的「misses」指「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」。",
+        "miss-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-04"
     },
@@ -555,10 +487,7 @@ export default {
       "options": [
         "miss-mcq-05",
         "miss-mcq-04",
-        "miss-mcq-06",
-        "miss-mcq-03",
-        "miss-mcq-07",
-        "miss-mcq-02"
+        "miss-mcq-06"
       ],
       "explanation": "本句的「missed」指「非常接近目標，但最終沒有碰到／擊中」。",
       "sentenceIndex": 9,
@@ -567,12 +496,9 @@ export default {
         "missed"
       ],
       "optionReasons": {
-        "miss-mcq-05": "本句指「非常接近目標，但最終沒有碰到／擊中」。",
-        "miss-mcq-04": "「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」是「miss = feel the absence of someone/something（想念）」的用法，與本句語境不同。",
-        "miss-mcq-06": "「應該包括或處理某項內容，但實際上遺漏了它」是「miss = fail to include / leave out（遺漏）」的用法，與本句語境不同。",
-        "miss-mcq-03": "「沒有注意、理解或識別本來應該察覺的資訊或重點」是「miss = fail to notice/understand something（漏看／沒察覺）」的用法，與本句語境不同。",
-        "miss-mcq-07": "「沒有出席原本可以或應該參與的活動」是「miss = fail to attend（缺席）」的用法，與本句語境不同。",
-        "miss-mcq-02": "「原本想擊中、接觸或到達某個目標，但沒有成功」是「miss = fail to hit/reach a target（未擊中）」的用法，與本句語境不同。"
+        "miss-mcq-05": "本句的「missed」指「非常接近目標，但最終沒有碰到／擊中」。",
+        "miss-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "miss-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-05"
     },
@@ -585,10 +511,7 @@ export default {
       "options": [
         "miss-mcq-05",
         "miss-mcq-04",
-        "miss-mcq-06",
-        "miss-mcq-03",
-        "miss-mcq-07",
-        "miss-mcq-02"
+        "miss-mcq-06"
       ],
       "explanation": "本句的「missed」指「非常接近目標，但最終沒有碰到／擊中」。",
       "sentenceIndex": 10,
@@ -597,12 +520,9 @@ export default {
         "missed"
       ],
       "optionReasons": {
-        "miss-mcq-05": "本句指「非常接近目標，但最終沒有碰到／擊中」。",
-        "miss-mcq-04": "「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」是「miss = feel the absence of someone/something（想念）」的用法，與本句語境不同。",
-        "miss-mcq-06": "「應該包括或處理某項內容，但實際上遺漏了它」是「miss = fail to include / leave out（遺漏）」的用法，與本句語境不同。",
-        "miss-mcq-03": "「沒有注意、理解或識別本來應該察覺的資訊或重點」是「miss = fail to notice/understand something（漏看／沒察覺）」的用法，與本句語境不同。",
-        "miss-mcq-07": "「沒有出席原本可以或應該參與的活動」是「miss = fail to attend（缺席）」的用法，與本句語境不同。",
-        "miss-mcq-02": "「原本想擊中、接觸或到達某個目標，但沒有成功」是「miss = fail to hit/reach a target（未擊中）」的用法，與本句語境不同。"
+        "miss-mcq-05": "本句的「missed」指「非常接近目標，但最終沒有碰到／擊中」。",
+        "miss-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "miss-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-05"
     },
@@ -614,11 +534,8 @@ export default {
       "masked": "You ____ one name from the list.",
       "options": [
         "miss-mcq-06",
-        "miss-mcq-05",
-        "miss-mcq-07",
-        "miss-mcq-04",
-        "miss-mcq-08",
-        "miss-mcq-03"
+        "miss-mcq-12",
+        "miss-mcq-04"
       ],
       "explanation": "本句的「missed」指「應該包括或處理某項內容，但實際上遺漏了它」。",
       "sentenceIndex": 11,
@@ -627,12 +544,9 @@ export default {
         "missed"
       ],
       "optionReasons": {
-        "miss-mcq-06": "本句指「應該包括或處理某項內容，但實際上遺漏了它」。",
-        "miss-mcq-05": "「非常接近目標，但最終沒有碰到／擊中」是「miss = avoid narrowly（差點撞到／避過）」的用法，與本句語境不同。",
-        "miss-mcq-07": "「沒有出席原本可以或應該參與的活動」是「miss = fail to attend（缺席）」的用法，與本句語境不同。",
-        "miss-mcq-04": "「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」是「miss = feel the absence of someone/something（想念）」的用法，與本句語境不同。",
-        "miss-mcq-08": "「因沒有及時行動而未能利用某個機會」是「miss = fail to take an opportunity/chance（機會）」的用法，與本句語境不同。",
-        "miss-mcq-03": "「沒有注意、理解或識別本來應該察覺的資訊或重點」是「miss = fail to notice/understand something（漏看／沒察覺）」的用法，與本句語境不同。"
+        "miss-mcq-06": "本句的「missed」指「應該包括或處理某項內容，但實際上遺漏了它」。",
+        "miss-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "miss-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-06"
     },
@@ -644,11 +558,8 @@ export default {
       "masked": "Don’t ____ any important details.",
       "options": [
         "miss-mcq-06",
-        "miss-mcq-05",
-        "miss-mcq-07",
-        "miss-mcq-04",
-        "miss-mcq-08",
-        "miss-mcq-03"
+        "miss-mcq-12",
+        "miss-mcq-04"
       ],
       "explanation": "本句的「miss」指「應該包括或處理某項內容，但實際上遺漏了它」。",
       "sentenceIndex": 12,
@@ -657,12 +568,9 @@ export default {
         "miss"
       ],
       "optionReasons": {
-        "miss-mcq-06": "本句指「應該包括或處理某項內容，但實際上遺漏了它」。",
-        "miss-mcq-05": "「非常接近目標，但最終沒有碰到／擊中」是「miss = avoid narrowly（差點撞到／避過）」的用法，與本句語境不同。",
-        "miss-mcq-07": "「沒有出席原本可以或應該參與的活動」是「miss = fail to attend（缺席）」的用法，與本句語境不同。",
-        "miss-mcq-04": "「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」是「miss = feel the absence of someone/something（想念）」的用法，與本句語境不同。",
-        "miss-mcq-08": "「因沒有及時行動而未能利用某個機會」是「miss = fail to take an opportunity/chance（機會）」的用法，與本句語境不同。",
-        "miss-mcq-03": "「沒有注意、理解或識別本來應該察覺的資訊或重點」是「miss = fail to notice/understand something（漏看／沒察覺）」的用法，與本句語境不同。"
+        "miss-mcq-06": "本句的「miss」指「應該包括或處理某項內容，但實際上遺漏了它」。",
+        "miss-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "miss-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-06"
     },
@@ -674,10 +582,6 @@ export default {
       "masked": "He ____ school because he was ill.",
       "options": [
         "miss-mcq-07",
-        "miss-mcq-06",
-        "miss-mcq-08",
-        "miss-mcq-05",
-        "miss-mcq-09",
         "miss-mcq-04"
       ],
       "explanation": "本句的「missed」指「沒有出席原本可以或應該參與的活動」。",
@@ -687,12 +591,8 @@ export default {
         "missed"
       ],
       "optionReasons": {
-        "miss-mcq-07": "本句指「沒有出席原本可以或應該參與的活動」。",
-        "miss-mcq-06": "「應該包括或處理某項內容，但實際上遺漏了它」是「miss = fail to include / leave out（遺漏）」的用法，與本句語境不同。",
-        "miss-mcq-08": "「因沒有及時行動而未能利用某個機會」是「miss = fail to take an opportunity/chance（機會）」的用法，與本句語境不同。",
-        "miss-mcq-05": "「非常接近目標，但最終沒有碰到／擊中」是「miss = avoid narrowly（差點撞到／避過）」的用法，與本句語境不同。",
-        "miss-mcq-09": "「原本應該存在或在某處，但現在找不到／不在那裡的」是「missing = absent / not where expected（不見了） — 失蹤的；不見的」的用法，與本句語境不同。",
-        "miss-mcq-04": "「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」是「miss = feel the absence of someone/something（想念）」的用法，與本句語境不同。"
+        "miss-mcq-07": "本句的「missed」指「沒有出席原本可以或應該參與的活動」。",
+        "miss-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-07"
     },
@@ -704,10 +604,6 @@ export default {
       "masked": "She ____ the meeting yesterday.",
       "options": [
         "miss-mcq-07",
-        "miss-mcq-06",
-        "miss-mcq-08",
-        "miss-mcq-05",
-        "miss-mcq-09",
         "miss-mcq-04"
       ],
       "explanation": "本句的「missed」指「沒有出席原本可以或應該參與的活動」。",
@@ -717,12 +613,8 @@ export default {
         "missed"
       ],
       "optionReasons": {
-        "miss-mcq-07": "本句指「沒有出席原本可以或應該參與的活動」。",
-        "miss-mcq-06": "「應該包括或處理某項內容，但實際上遺漏了它」是「miss = fail to include / leave out（遺漏）」的用法，與本句語境不同。",
-        "miss-mcq-08": "「因沒有及時行動而未能利用某個機會」是「miss = fail to take an opportunity/chance（機會）」的用法，與本句語境不同。",
-        "miss-mcq-05": "「非常接近目標，但最終沒有碰到／擊中」是「miss = avoid narrowly（差點撞到／避過）」的用法，與本句語境不同。",
-        "miss-mcq-09": "「原本應該存在或在某處，但現在找不到／不在那裡的」是「missing = absent / not where expected（不見了） — 失蹤的；不見的」的用法，與本句語境不同。",
-        "miss-mcq-04": "「因為某人／某事物不在身邊或已經不存在，而產生想念、懷念或失」是「miss = feel the absence of someone/something（想念）」的用法，與本句語境不同。"
+        "miss-mcq-07": "本句的「missed」指「沒有出席原本可以或應該參與的活動」。",
+        "miss-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-07"
     },
@@ -734,11 +626,7 @@ export default {
       "masked": "Don’t ____ this opportunity.",
       "options": [
         "miss-mcq-08",
-        "miss-mcq-07",
-        "miss-mcq-09",
-        "miss-mcq-06",
-        "miss-mcq-10",
-        "miss-mcq-05"
+        "miss-mcq-09"
       ],
       "explanation": "本句的「miss」指「因沒有及時行動而未能利用某個機會」。",
       "sentenceIndex": 15,
@@ -747,12 +635,8 @@ export default {
         "miss"
       ],
       "optionReasons": {
-        "miss-mcq-08": "本句指「因沒有及時行動而未能利用某個機會」。",
-        "miss-mcq-07": "「沒有出席原本可以或應該參與的活動」是「miss = fail to attend（缺席）」的用法，與本句語境不同。",
-        "miss-mcq-09": "「原本應該存在或在某處，但現在找不到／不在那裡的」是「missing = absent / not where expected（不見了） — 失蹤的；不見的」的用法，與本句語境不同。",
-        "miss-mcq-06": "「應該包括或處理某項內容，但實際上遺漏了它」是「miss = fail to include / leave out（遺漏）」的用法，與本句語境不同。",
-        "miss-mcq-10": "「某個完整整體中應有但實際不存在的部分」是「missing = omitted / absent from a set（缺少） — 缺少的；遺漏的」的用法，與本句語境不同。",
-        "miss-mcq-05": "「非常接近目標，但最終沒有碰到／擊中」是「miss = avoid narrowly（差點撞到／避過）」的用法，與本句語境不同。"
+        "miss-mcq-08": "本句的「miss」指「因沒有及時行動而未能利用某個機會」。",
+        "miss-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-08"
     },
@@ -764,11 +648,7 @@ export default {
       "masked": "He ____ his chance to speak.",
       "options": [
         "miss-mcq-08",
-        "miss-mcq-07",
-        "miss-mcq-09",
-        "miss-mcq-06",
-        "miss-mcq-10",
-        "miss-mcq-05"
+        "miss-mcq-10"
       ],
       "explanation": "本句的「missed」指「因沒有及時行動而未能利用某個機會」。",
       "sentenceIndex": 16,
@@ -777,12 +657,8 @@ export default {
         "missed"
       ],
       "optionReasons": {
-        "miss-mcq-08": "本句指「因沒有及時行動而未能利用某個機會」。",
-        "miss-mcq-07": "「沒有出席原本可以或應該參與的活動」是「miss = fail to attend（缺席）」的用法，與本句語境不同。",
-        "miss-mcq-09": "「原本應該存在或在某處，但現在找不到／不在那裡的」是「missing = absent / not where expected（不見了） — 失蹤的；不見的」的用法，與本句語境不同。",
-        "miss-mcq-06": "「應該包括或處理某項內容，但實際上遺漏了它」是「miss = fail to include / leave out（遺漏）」的用法，與本句語境不同。",
-        "miss-mcq-10": "「某個完整整體中應有但實際不存在的部分」是「missing = omitted / absent from a set（缺少） — 缺少的；遺漏的」的用法，與本句語境不同。",
-        "miss-mcq-05": "「非常接近目標，但最終沒有碰到／擊中」是「miss = avoid narrowly（差點撞到／避過）」的用法，與本句語境不同。"
+        "miss-mcq-08": "本句的「missed」指「因沒有及時行動而未能利用某個機會」。",
+        "miss-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-08"
     },
@@ -794,11 +670,7 @@ export default {
       "masked": "My keys are ____.",
       "options": [
         "miss-mcq-09",
-        "miss-mcq-08",
-        "miss-mcq-10",
-        "miss-mcq-07",
-        "miss-mcq-11",
-        "miss-mcq-06"
+        "miss-mcq-08"
       ],
       "explanation": "本句的「missing」指「原本應該存在或在某處，但現在找不到／不在那裡的」。",
       "sentenceIndex": 17,
@@ -807,12 +679,8 @@ export default {
         "missing"
       ],
       "optionReasons": {
-        "miss-mcq-09": "本句指「原本應該存在或在某處，但現在找不到／不在那裡的」。",
-        "miss-mcq-08": "「因沒有及時行動而未能利用某個機會」是「miss = fail to take an opportunity/chance（機會）」的用法，與本句語境不同。",
-        "miss-mcq-10": "「某個完整整體中應有但實際不存在的部分」是「missing = omitted / absent from a set（缺少） — 缺少的；遺漏的」的用法，與本句語境不同。",
-        "miss-mcq-07": "「沒有出席原本可以或應該參與的活動」是「miss = fail to attend（缺席）」的用法，與本句語境不同。",
-        "miss-mcq-11": "「沒有理解真正重要的意思或核心」是「Useful expression: miss the point — 沒抓到重點」的用法，與本句語境不同。",
-        "miss-mcq-06": "「應該包括或處理某項內容，但實際上遺漏了它」是「miss = fail to include / leave out（遺漏）」的用法，與本句語境不同。"
+        "miss-mcq-09": "本句的「missing」指「原本應該存在或在某處，但現在找不到／不在那裡的」。",
+        "miss-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-09"
     },
@@ -824,11 +692,7 @@ export default {
       "masked": "The police are searching for a ____ child.",
       "options": [
         "miss-mcq-09",
-        "miss-mcq-08",
-        "miss-mcq-10",
-        "miss-mcq-07",
-        "miss-mcq-11",
-        "miss-mcq-06"
+        "miss-mcq-08"
       ],
       "explanation": "本句的「missing」指「原本應該存在或在某處，但現在找不到／不在那裡的」。",
       "sentenceIndex": 18,
@@ -837,12 +701,8 @@ export default {
         "missing"
       ],
       "optionReasons": {
-        "miss-mcq-09": "本句指「原本應該存在或在某處，但現在找不到／不在那裡的」。",
-        "miss-mcq-08": "「因沒有及時行動而未能利用某個機會」是「miss = fail to take an opportunity/chance（機會）」的用法，與本句語境不同。",
-        "miss-mcq-10": "「某個完整整體中應有但實際不存在的部分」是「missing = omitted / absent from a set（缺少） — 缺少的；遺漏的」的用法，與本句語境不同。",
-        "miss-mcq-07": "「沒有出席原本可以或應該參與的活動」是「miss = fail to attend（缺席）」的用法，與本句語境不同。",
-        "miss-mcq-11": "「沒有理解真正重要的意思或核心」是「Useful expression: miss the point — 沒抓到重點」的用法，與本句語境不同。",
-        "miss-mcq-06": "「應該包括或處理某項內容，但實際上遺漏了它」是「miss = fail to include / leave out（遺漏）」的用法，與本句語境不同。"
+        "miss-mcq-09": "本句的「missing」指「原本應該存在或在某處，但現在找不到／不在那裡的」。",
+        "miss-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-09"
     },
@@ -854,11 +714,7 @@ export default {
       "masked": "One page is ____ from the book.",
       "options": [
         "miss-mcq-10",
-        "miss-mcq-09",
-        "miss-mcq-11",
-        "miss-mcq-08",
-        "miss-mcq-12",
-        "miss-mcq-07"
+        "miss-mcq-12"
       ],
       "explanation": "本句的「missing」指「某個完整整體中應有但實際不存在的部分」。",
       "sentenceIndex": 19,
@@ -867,12 +723,8 @@ export default {
         "missing"
       ],
       "optionReasons": {
-        "miss-mcq-10": "本句指「某個完整整體中應有但實際不存在的部分」。",
-        "miss-mcq-09": "「原本應該存在或在某處，但現在找不到／不在那裡的」是「missing = absent / not where expected（不見了） — 失蹤的；不見的」的用法，與本句語境不同。",
-        "miss-mcq-11": "「沒有理解真正重要的意思或核心」是「Useful expression: miss the point — 沒抓到重點」的用法，與本句語境不同。",
-        "miss-mcq-08": "「因沒有及時行動而未能利用某個機會」是「miss = fail to take an opportunity/chance（機會）」的用法，與本句語境不同。",
-        "miss-mcq-12": "「非常明顯，不可能沒有注意到」是「Useful expression: can’t miss — 很顯眼／不可能看不到」的用法，與本句語境不同。",
-        "miss-mcq-07": "「沒有出席原本可以或應該參與的活動」是「miss = fail to attend（缺席）」的用法，與本句語境不同。"
+        "miss-mcq-10": "本句的「missing」指「某個完整整體中應有但實際不存在的部分」。",
+        "miss-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-10"
     },
@@ -884,11 +736,7 @@ export default {
       "masked": "There is a ____ piece in the puzzle.",
       "options": [
         "miss-mcq-10",
-        "miss-mcq-09",
-        "miss-mcq-11",
-        "miss-mcq-08",
-        "miss-mcq-12",
-        "miss-mcq-07"
+        "miss-mcq-12"
       ],
       "explanation": "本句的「missing」指「某個完整整體中應有但實際不存在的部分」。",
       "sentenceIndex": 20,
@@ -897,12 +745,8 @@ export default {
         "missing"
       ],
       "optionReasons": {
-        "miss-mcq-10": "本句指「某個完整整體中應有但實際不存在的部分」。",
-        "miss-mcq-09": "「原本應該存在或在某處，但現在找不到／不在那裡的」是「missing = absent / not where expected（不見了） — 失蹤的；不見的」的用法，與本句語境不同。",
-        "miss-mcq-11": "「沒有理解真正重要的意思或核心」是「Useful expression: miss the point — 沒抓到重點」的用法，與本句語境不同。",
-        "miss-mcq-08": "「因沒有及時行動而未能利用某個機會」是「miss = fail to take an opportunity/chance（機會）」的用法，與本句語境不同。",
-        "miss-mcq-12": "「非常明顯，不可能沒有注意到」是「Useful expression: can’t miss — 很顯眼／不可能看不到」的用法，與本句語境不同。",
-        "miss-mcq-07": "「沒有出席原本可以或應該參與的活動」是「miss = fail to attend（缺席）」的用法，與本句語境不同。"
+        "miss-mcq-10": "本句的「missing」指「某個完整整體中應有但實際不存在的部分」。",
+        "miss-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-10"
     },
@@ -914,11 +758,7 @@ export default {
       "masked": "You’ve completely ____.",
       "options": [
         "miss-mcq-11",
-        "miss-mcq-10",
-        "miss-mcq-12",
-        "miss-mcq-09",
-        "miss-mcq-08",
-        "miss-mcq-07"
+        "miss-mcq-09"
       ],
       "explanation": "本句的「missed the point」指「沒有理解真正重要的意思或核心」。",
       "sentenceIndex": 21,
@@ -927,12 +767,8 @@ export default {
         "missed the point"
       ],
       "optionReasons": {
-        "miss-mcq-11": "本句指「沒有理解真正重要的意思或核心」。",
-        "miss-mcq-10": "「某個完整整體中應有但實際不存在的部分」是「missing = omitted / absent from a set（缺少） — 缺少的；遺漏的」的用法，與本句語境不同。",
-        "miss-mcq-12": "「非常明顯，不可能沒有注意到」是「Useful expression: can’t miss — 很顯眼／不可能看不到」的用法，與本句語境不同。",
-        "miss-mcq-09": "「原本應該存在或在某處，但現在找不到／不在那裡的」是「missing = absent / not where expected（不見了） — 失蹤的；不見的」的用法，與本句語境不同。",
-        "miss-mcq-08": "「因沒有及時行動而未能利用某個機會」是「miss = fail to take an opportunity/chance（機會）」的用法，與本句語境不同。",
-        "miss-mcq-07": "「沒有出席原本可以或應該參與的活動」是「miss = fail to attend（缺席）」的用法，與本句語境不同。"
+        "miss-mcq-11": "本句的「missed the point」指「沒有理解真正重要的意思或核心」。",
+        "miss-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-11"
     },
@@ -944,11 +780,7 @@ export default {
       "masked": "Don’t ____ of the story.",
       "options": [
         "miss-mcq-11",
-        "miss-mcq-10",
-        "miss-mcq-12",
-        "miss-mcq-09",
-        "miss-mcq-08",
-        "miss-mcq-07"
+        "miss-mcq-09"
       ],
       "explanation": "本句的「miss the point」指「沒有理解真正重要的意思或核心」。",
       "sentenceIndex": 22,
@@ -957,12 +789,8 @@ export default {
         "miss the point"
       ],
       "optionReasons": {
-        "miss-mcq-11": "本句指「沒有理解真正重要的意思或核心」。",
-        "miss-mcq-10": "「某個完整整體中應有但實際不存在的部分」是「missing = omitted / absent from a set（缺少） — 缺少的；遺漏的」的用法，與本句語境不同。",
-        "miss-mcq-12": "「非常明顯，不可能沒有注意到」是「Useful expression: can’t miss — 很顯眼／不可能看不到」的用法，與本句語境不同。",
-        "miss-mcq-09": "「原本應該存在或在某處，但現在找不到／不在那裡的」是「missing = absent / not where expected（不見了） — 失蹤的；不見的」的用法，與本句語境不同。",
-        "miss-mcq-08": "「因沒有及時行動而未能利用某個機會」是「miss = fail to take an opportunity/chance（機會）」的用法，與本句語境不同。",
-        "miss-mcq-07": "「沒有出席原本可以或應該參與的活動」是「miss = fail to attend（缺席）」的用法，與本句語境不同。"
+        "miss-mcq-11": "本句的「miss the point」指「沒有理解真正重要的意思或核心」。",
+        "miss-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-11"
     },
@@ -974,11 +802,8 @@ export default {
       "masked": "The building is bright red—you can’t ____ it.",
       "options": [
         "miss-mcq-12",
-        "miss-mcq-11",
-        "miss-mcq-10",
-        "miss-mcq-09",
-        "miss-mcq-08",
-        "miss-mcq-07"
+        "miss-mcq-06",
+        "miss-mcq-04"
       ],
       "explanation": "本句的「miss」指「非常明顯，不可能沒有注意到」。",
       "sentenceIndex": 23,
@@ -987,12 +812,9 @@ export default {
         "miss"
       ],
       "optionReasons": {
-        "miss-mcq-12": "本句指「非常明顯，不可能沒有注意到」。",
-        "miss-mcq-11": "「沒有理解真正重要的意思或核心」是「Useful expression: miss the point — 沒抓到重點」的用法，與本句語境不同。",
-        "miss-mcq-10": "「某個完整整體中應有但實際不存在的部分」是「missing = omitted / absent from a set（缺少） — 缺少的；遺漏的」的用法，與本句語境不同。",
-        "miss-mcq-09": "「原本應該存在或在某處，但現在找不到／不在那裡的」是「missing = absent / not where expected（不見了） — 失蹤的；不見的」的用法，與本句語境不同。",
-        "miss-mcq-08": "「因沒有及時行動而未能利用某個機會」是「miss = fail to take an opportunity/chance（機會）」的用法，與本句語境不同。",
-        "miss-mcq-07": "「沒有出席原本可以或應該參與的活動」是「miss = fail to attend（缺席）」的用法，與本句語境不同。"
+        "miss-mcq-12": "本句的「miss」指「非常明顯，不可能沒有注意到」。",
+        "miss-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "miss-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-12"
     },
@@ -1004,11 +826,8 @@ export default {
       "masked": "The entrance is right beside the station, so you can’t ____ it.",
       "options": [
         "miss-mcq-12",
-        "miss-mcq-11",
-        "miss-mcq-10",
-        "miss-mcq-09",
-        "miss-mcq-08",
-        "miss-mcq-07"
+        "miss-mcq-04",
+        "miss-mcq-06"
       ],
       "explanation": "本句的「miss」指「非常明顯，不可能沒有注意到」。",
       "sentenceIndex": 24,
@@ -1017,12 +836,9 @@ export default {
         "miss"
       ],
       "optionReasons": {
-        "miss-mcq-12": "本句指「非常明顯，不可能沒有注意到」。",
-        "miss-mcq-11": "「沒有理解真正重要的意思或核心」是「Useful expression: miss the point — 沒抓到重點」的用法，與本句語境不同。",
-        "miss-mcq-10": "「某個完整整體中應有但實際不存在的部分」是「missing = omitted / absent from a set（缺少） — 缺少的；遺漏的」的用法，與本句語境不同。",
-        "miss-mcq-09": "「原本應該存在或在某處，但現在找不到／不在那裡的」是「missing = absent / not where expected（不見了） — 失蹤的；不見的」的用法，與本句語境不同。",
-        "miss-mcq-08": "「因沒有及時行動而未能利用某個機會」是「miss = fail to take an opportunity/chance（機會）」的用法，與本句語境不同。",
-        "miss-mcq-07": "「沒有出席原本可以或應該參與的活動」是「miss = fail to attend（缺席）」的用法，與本句語境不同。"
+        "miss-mcq-12": "本句的「miss」指「非常明顯，不可能沒有注意到」。",
+        "miss-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "miss-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "miss-mcq-12"
     }
@@ -1034,5 +850,7 @@ export default {
     "sha256": "06cb62f5864032ec1bae65f634079ea6995cd2c261700d41883a28289a45f49f",
     "pages": 11
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

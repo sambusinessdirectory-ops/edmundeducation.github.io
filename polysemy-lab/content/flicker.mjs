@@ -443,11 +443,9 @@ export default {
       "masked": "The candle ____ in the wind.",
       "options": [
         "flicker-mcq-01",
-        "flicker-mcq-02",
-        "flicker-mcq-03",
-        "flicker-mcq-04",
-        "flicker-mcq-05",
-        "flicker-mcq-06"
+        "flicker-mcq-18",
+        "flicker-mcq-19",
+        "flicker-mcq-15"
       ],
       "explanation": "本句的「flickered」指「光線快速、無規律地變亮變暗；閃爍／忽明忽暗」。",
       "sentenceIndex": 2,
@@ -456,12 +454,10 @@ export default {
         "flickered"
       ],
       "optionReasons": {
-        "flicker-mcq-01": "本句指「光線快速、無規律地變亮變暗；閃爍／忽明忽暗」。",
-        "flicker-mcq-02": "「火焰小幅快速搖動並閃爍；搖曳」與本句語境不同。",
-        "flicker-mcq-03": "「以短暫／不穩定的光閃爍著亮起」與本句語境不同。",
-        "flicker-mcq-04": "「閃爍一下後熄滅／消失」與本句語境不同。",
-        "flicker-mcq-05": "「因電力不穩等原因令燈光忽亮忽暗」與本句語境不同。",
-        "flicker-mcq-06": "「螢幕／畫面亮度快速變化、出現閃爍」與本句語境不同。"
+        "flicker-mcq-01": "本句的「flickered」指「光線快速、無規律地變亮變暗；閃爍／忽明忽暗」。",
+        "flicker-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-01"
     },
@@ -473,11 +469,9 @@ export default {
       "masked": "The lights ____ during the storm.",
       "options": [
         "flicker-mcq-01",
-        "flicker-mcq-02",
-        "flicker-mcq-03",
-        "flicker-mcq-04",
-        "flicker-mcq-05",
-        "flicker-mcq-06"
+        "flicker-mcq-19",
+        "flicker-mcq-15",
+        "flicker-mcq-18"
       ],
       "explanation": "本句的「flickered」指「光線快速、無規律地變亮變暗；閃爍／忽明忽暗」。",
       "sentenceIndex": 3,
@@ -486,12 +480,10 @@ export default {
         "flickered"
       ],
       "optionReasons": {
-        "flicker-mcq-01": "本句指「光線快速、無規律地變亮變暗；閃爍／忽明忽暗」。",
-        "flicker-mcq-02": "「火焰小幅快速搖動並閃爍；搖曳」與本句語境不同。",
-        "flicker-mcq-03": "「以短暫／不穩定的光閃爍著亮起」與本句語境不同。",
-        "flicker-mcq-04": "「閃爍一下後熄滅／消失」與本句語境不同。",
-        "flicker-mcq-05": "「因電力不穩等原因令燈光忽亮忽暗」與本句語境不同。",
-        "flicker-mcq-06": "「螢幕／畫面亮度快速變化、出現閃爍」與本句語境不同。"
+        "flicker-mcq-01": "本句的「flickered」指「光線快速、無規律地變亮變暗；閃爍／忽明忽暗」。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-01"
     },
@@ -503,11 +495,9 @@ export default {
       "masked": "Flames ____ in the fireplace.",
       "options": [
         "flicker-mcq-02",
-        "flicker-mcq-01",
-        "flicker-mcq-03",
-        "flicker-mcq-04",
         "flicker-mcq-05",
-        "flicker-mcq-06"
+        "flicker-mcq-11",
+        "flicker-mcq-18"
       ],
       "explanation": "本句的「flickered」指「火焰小幅快速搖動並閃爍；搖曳」。",
       "sentenceIndex": 4,
@@ -516,12 +506,10 @@ export default {
         "flickered"
       ],
       "optionReasons": {
-        "flicker-mcq-02": "本句指「火焰小幅快速搖動並閃爍；搖曳」。",
-        "flicker-mcq-01": "「光線快速、無規律地變亮變暗；閃爍／忽明忽暗」與本句語境不同。",
-        "flicker-mcq-03": "「以短暫／不穩定的光閃爍著亮起」與本句語境不同。",
-        "flicker-mcq-04": "「閃爍一下後熄滅／消失」與本句語境不同。",
-        "flicker-mcq-05": "「因電力不穩等原因令燈光忽亮忽暗」與本句語境不同。",
-        "flicker-mcq-06": "「螢幕／畫面亮度快速變化、出現閃爍」與本句語境不同。"
+        "flicker-mcq-02": "本句的「flickered」指「火焰小幅快速搖動並閃爍；搖曳」。",
+        "flicker-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-02"
     },
@@ -533,11 +521,9 @@ export default {
       "masked": "The candle flame ____ gently.",
       "options": [
         "flicker-mcq-02",
-        "flicker-mcq-01",
-        "flicker-mcq-03",
-        "flicker-mcq-04",
+        "flicker-mcq-12",
         "flicker-mcq-05",
-        "flicker-mcq-06"
+        "flicker-mcq-19"
       ],
       "explanation": "本句的「flickered」指「火焰小幅快速搖動並閃爍；搖曳」。",
       "sentenceIndex": 5,
@@ -546,12 +532,10 @@ export default {
         "flickered"
       ],
       "optionReasons": {
-        "flicker-mcq-02": "本句指「火焰小幅快速搖動並閃爍；搖曳」。",
-        "flicker-mcq-01": "「光線快速、無規律地變亮變暗；閃爍／忽明忽暗」與本句語境不同。",
-        "flicker-mcq-03": "「以短暫／不穩定的光閃爍著亮起」與本句語境不同。",
-        "flicker-mcq-04": "「閃爍一下後熄滅／消失」與本句語境不同。",
-        "flicker-mcq-05": "「因電力不穩等原因令燈光忽亮忽暗」與本句語境不同。",
-        "flicker-mcq-06": "「螢幕／畫面亮度快速變化、出現閃爍」與本句語境不同。"
+        "flicker-mcq-02": "本句的「flickered」指「火焰小幅快速搖動並閃爍；搖曳」。",
+        "flicker-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-02"
     },
@@ -563,11 +547,9 @@ export default {
       "masked": "The screen ____.",
       "options": [
         "flicker-mcq-03",
-        "flicker-mcq-02",
-        "flicker-mcq-04",
-        "flicker-mcq-01",
-        "flicker-mcq-05",
-        "flicker-mcq-06"
+        "flicker-mcq-11",
+        "flicker-mcq-19",
+        "flicker-mcq-14"
       ],
       "explanation": "本句的「flickered on」指「以短暫／不穩定的光閃爍著亮起」。",
       "sentenceIndex": 6,
@@ -576,12 +558,10 @@ export default {
         "flickered on"
       ],
       "optionReasons": {
-        "flicker-mcq-03": "本句指「以短暫／不穩定的光閃爍著亮起」。",
-        "flicker-mcq-02": "「火焰小幅快速搖動並閃爍；搖曳」與本句語境不同。",
-        "flicker-mcq-04": "「閃爍一下後熄滅／消失」與本句語境不同。",
-        "flicker-mcq-01": "「光線快速、無規律地變亮變暗；閃爍／忽明忽暗」與本句語境不同。",
-        "flicker-mcq-05": "「因電力不穩等原因令燈光忽亮忽暗」與本句語境不同。",
-        "flicker-mcq-06": "「螢幕／畫面亮度快速變化、出現閃爍」與本句語境不同。"
+        "flicker-mcq-03": "本句的「flickered on」指「以短暫／不穩定的光閃爍著亮起」。",
+        "flicker-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-03"
     },
@@ -593,11 +573,9 @@ export default {
       "masked": "The hallway lights ____ automatically.",
       "options": [
         "flicker-mcq-03",
-        "flicker-mcq-02",
-        "flicker-mcq-04",
-        "flicker-mcq-01",
-        "flicker-mcq-05",
-        "flicker-mcq-06"
+        "flicker-mcq-11",
+        "flicker-mcq-19",
+        "flicker-mcq-14"
       ],
       "explanation": "本句的「flickered on」指「以短暫／不穩定的光閃爍著亮起」。",
       "sentenceIndex": 7,
@@ -606,12 +584,10 @@ export default {
         "flickered on"
       ],
       "optionReasons": {
-        "flicker-mcq-03": "本句指「以短暫／不穩定的光閃爍著亮起」。",
-        "flicker-mcq-02": "「火焰小幅快速搖動並閃爍；搖曳」與本句語境不同。",
-        "flicker-mcq-04": "「閃爍一下後熄滅／消失」與本句語境不同。",
-        "flicker-mcq-01": "「光線快速、無規律地變亮變暗；閃爍／忽明忽暗」與本句語境不同。",
-        "flicker-mcq-05": "「因電力不穩等原因令燈光忽亮忽暗」與本句語境不同。",
-        "flicker-mcq-06": "「螢幕／畫面亮度快速變化、出現閃爍」與本句語境不同。"
+        "flicker-mcq-03": "本句的「flickered on」指「以短暫／不穩定的光閃爍著亮起」。",
+        "flicker-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-03"
     },
@@ -623,11 +599,9 @@ export default {
       "masked": "The old television ____.",
       "options": [
         "flicker-mcq-04",
-        "flicker-mcq-03",
+        "flicker-mcq-18",
         "flicker-mcq-05",
-        "flicker-mcq-02",
-        "flicker-mcq-06",
-        "flicker-mcq-01"
+        "flicker-mcq-11"
       ],
       "explanation": "本句的「flickered off」指「閃爍一下後熄滅／消失」。",
       "sentenceIndex": 8,
@@ -636,12 +610,10 @@ export default {
         "flickered off"
       ],
       "optionReasons": {
-        "flicker-mcq-04": "本句指「閃爍一下後熄滅／消失」。",
-        "flicker-mcq-03": "「以短暫／不穩定的光閃爍著亮起」與本句語境不同。",
-        "flicker-mcq-05": "「因電力不穩等原因令燈光忽亮忽暗」與本句語境不同。",
-        "flicker-mcq-02": "「火焰小幅快速搖動並閃爍；搖曳」與本句語境不同。",
-        "flicker-mcq-06": "「螢幕／畫面亮度快速變化、出現閃爍」與本句語境不同。",
-        "flicker-mcq-01": "「光線快速、無規律地變亮變暗；閃爍／忽明忽暗」與本句語境不同。"
+        "flicker-mcq-04": "本句的「flickered off」指「閃爍一下後熄滅／消失」。",
+        "flicker-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-04"
     },
@@ -653,11 +625,9 @@ export default {
       "masked": "The lights ____ for a second.",
       "options": [
         "flicker-mcq-04",
-        "flicker-mcq-03",
-        "flicker-mcq-05",
-        "flicker-mcq-02",
-        "flicker-mcq-06",
-        "flicker-mcq-01"
+        "flicker-mcq-12",
+        "flicker-mcq-15",
+        "flicker-mcq-05"
       ],
       "explanation": "本句的「flickered off」指「閃爍一下後熄滅／消失」。",
       "sentenceIndex": 9,
@@ -666,12 +636,10 @@ export default {
         "flickered off"
       ],
       "optionReasons": {
-        "flicker-mcq-04": "本句指「閃爍一下後熄滅／消失」。",
-        "flicker-mcq-03": "「以短暫／不穩定的光閃爍著亮起」與本句語境不同。",
-        "flicker-mcq-05": "「因電力不穩等原因令燈光忽亮忽暗」與本句語境不同。",
-        "flicker-mcq-02": "「火焰小幅快速搖動並閃爍；搖曳」與本句語境不同。",
-        "flicker-mcq-06": "「螢幕／畫面亮度快速變化、出現閃爍」與本句語境不同。",
-        "flicker-mcq-01": "「光線快速、無規律地變亮變暗；閃爍／忽明忽暗」與本句語境不同。"
+        "flicker-mcq-04": "本句的「flickered off」指「閃爍一下後熄滅／消失」。",
+        "flicker-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-04"
     },
@@ -683,11 +651,9 @@ export default {
       "masked": "The lamp keeps ____.",
       "options": [
         "flicker-mcq-05",
-        "flicker-mcq-04",
-        "flicker-mcq-06",
-        "flicker-mcq-03",
-        "flicker-mcq-07",
-        "flicker-mcq-02"
+        "flicker-mcq-19",
+        "flicker-mcq-18",
+        "flicker-mcq-14"
       ],
       "explanation": "本句的「flickering」指「因電力不穩等原因令燈光忽亮忽暗」。",
       "sentenceIndex": 10,
@@ -696,12 +662,10 @@ export default {
         "flickering"
       ],
       "optionReasons": {
-        "flicker-mcq-05": "本句指「因電力不穩等原因令燈光忽亮忽暗」。",
-        "flicker-mcq-04": "「閃爍一下後熄滅／消失」與本句語境不同。",
-        "flicker-mcq-06": "「螢幕／畫面亮度快速變化、出現閃爍」與本句語境不同。",
-        "flicker-mcq-03": "「以短暫／不穩定的光閃爍著亮起」與本句語境不同。",
-        "flicker-mcq-07": "「螢幕快速不穩定的亮暗變化；螢幕閃爍」與本句語境不同。",
-        "flicker-mcq-02": "「火焰小幅快速搖動並閃爍；搖曳」與本句語境不同。"
+        "flicker-mcq-05": "本句的「flickering」指「因電力不穩等原因令燈光忽亮忽暗」。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-05"
     },
@@ -713,11 +677,9 @@ export default {
       "masked": "The lights started ____ before the power went out.",
       "options": [
         "flicker-mcq-05",
-        "flicker-mcq-04",
-        "flicker-mcq-06",
-        "flicker-mcq-03",
-        "flicker-mcq-07",
-        "flicker-mcq-02"
+        "flicker-mcq-02",
+        "flicker-mcq-14",
+        "flicker-mcq-11"
       ],
       "explanation": "本句的「flickering」指「因電力不穩等原因令燈光忽亮忽暗」。",
       "sentenceIndex": 11,
@@ -726,12 +688,10 @@ export default {
         "flickering"
       ],
       "optionReasons": {
-        "flicker-mcq-05": "本句指「因電力不穩等原因令燈光忽亮忽暗」。",
-        "flicker-mcq-04": "「閃爍一下後熄滅／消失」與本句語境不同。",
-        "flicker-mcq-06": "「螢幕／畫面亮度快速變化、出現閃爍」與本句語境不同。",
-        "flicker-mcq-03": "「以短暫／不穩定的光閃爍著亮起」與本句語境不同。",
-        "flicker-mcq-07": "「螢幕快速不穩定的亮暗變化；螢幕閃爍」與本句語境不同。",
-        "flicker-mcq-02": "「火焰小幅快速搖動並閃爍；搖曳」與本句語境不同。"
+        "flicker-mcq-05": "本句的「flickering」指「因電力不穩等原因令燈光忽亮忽暗」。",
+        "flicker-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-05"
     },
@@ -743,11 +703,9 @@ export default {
       "masked": "The computer screen began to ____.",
       "options": [
         "flicker-mcq-06",
-        "flicker-mcq-05",
-        "flicker-mcq-07",
-        "flicker-mcq-04",
-        "flicker-mcq-08",
-        "flicker-mcq-03"
+        "flicker-mcq-19",
+        "flicker-mcq-15",
+        "flicker-mcq-05"
       ],
       "explanation": "本句的「flicker」指「螢幕／畫面亮度快速變化、出現閃爍」。",
       "sentenceIndex": 12,
@@ -756,12 +714,10 @@ export default {
         "flicker"
       ],
       "optionReasons": {
-        "flicker-mcq-06": "本句指「螢幕／畫面亮度快速變化、出現閃爍」。",
-        "flicker-mcq-05": "「因電力不穩等原因令燈光忽亮忽暗」與本句語境不同。",
-        "flicker-mcq-07": "「螢幕快速不穩定的亮暗變化；螢幕閃爍」與本句語境不同。",
-        "flicker-mcq-04": "「閃爍一下後熄滅／消失」與本句語境不同。",
-        "flicker-mcq-08": "「短暫、微弱或不穩定的一閃／閃光」與本句語境不同。",
-        "flicker-mcq-03": "「以短暫／不穩定的光閃爍著亮起」與本句語境不同。"
+        "flicker-mcq-06": "本句的「flicker」指「螢幕／畫面亮度快速變化、出現閃爍」。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-06"
     },
@@ -773,11 +729,9 @@ export default {
       "masked": "The image ____ for a few seconds.",
       "options": [
         "flicker-mcq-06",
-        "flicker-mcq-05",
-        "flicker-mcq-07",
-        "flicker-mcq-04",
-        "flicker-mcq-08",
-        "flicker-mcq-03"
+        "flicker-mcq-11",
+        "flicker-mcq-19",
+        "flicker-mcq-14"
       ],
       "explanation": "本句的「flickered」指「螢幕／畫面亮度快速變化、出現閃爍」。",
       "sentenceIndex": 13,
@@ -786,12 +740,10 @@ export default {
         "flickered"
       ],
       "optionReasons": {
-        "flicker-mcq-06": "本句指「螢幕／畫面亮度快速變化、出現閃爍」。",
-        "flicker-mcq-05": "「因電力不穩等原因令燈光忽亮忽暗」與本句語境不同。",
-        "flicker-mcq-07": "「螢幕快速不穩定的亮暗變化；螢幕閃爍」與本句語境不同。",
-        "flicker-mcq-04": "「閃爍一下後熄滅／消失」與本句語境不同。",
-        "flicker-mcq-08": "「短暫、微弱或不穩定的一閃／閃光」與本句語境不同。",
-        "flicker-mcq-03": "「以短暫／不穩定的光閃爍著亮起」與本句語境不同。"
+        "flicker-mcq-06": "本句的「flickered」指「螢幕／畫面亮度快速變化、出現閃爍」。",
+        "flicker-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-06"
     },
@@ -803,11 +755,9 @@ export default {
       "masked": "The update caused noticeable ____.",
       "options": [
         "flicker-mcq-07",
-        "flicker-mcq-06",
-        "flicker-mcq-08",
-        "flicker-mcq-05",
-        "flicker-mcq-09",
-        "flicker-mcq-04"
+        "flicker-mcq-11",
+        "flicker-mcq-18",
+        "flicker-mcq-19"
       ],
       "explanation": "本句的「screen flicker」指「螢幕快速不穩定的亮暗變化；螢幕閃爍」。",
       "sentenceIndex": 14,
@@ -816,12 +766,10 @@ export default {
         "screen flicker"
       ],
       "optionReasons": {
-        "flicker-mcq-07": "本句指「螢幕快速不穩定的亮暗變化；螢幕閃爍」。",
-        "flicker-mcq-06": "「螢幕／畫面亮度快速變化、出現閃爍」與本句語境不同。",
-        "flicker-mcq-08": "「短暫、微弱或不穩定的一閃／閃光」與本句語境不同。",
-        "flicker-mcq-05": "「因電力不穩等原因令燈光忽亮忽暗」與本句語境不同。",
-        "flicker-mcq-09": "「某種情緒短暫地流露／一閃而過」與本句語境不同。",
-        "flicker-mcq-04": "「閃爍一下後熄滅／消失」與本句語境不同。"
+        "flicker-mcq-07": "本句的「screen flicker」指「螢幕快速不穩定的亮暗變化；螢幕閃爍」。",
+        "flicker-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-07"
     },
@@ -833,11 +781,9 @@ export default {
       "masked": "High refresh rates can reduce visible ____.",
       "options": [
         "flicker-mcq-07",
-        "flicker-mcq-06",
-        "flicker-mcq-08",
-        "flicker-mcq-05",
-        "flicker-mcq-09",
-        "flicker-mcq-04"
+        "flicker-mcq-12",
+        "flicker-mcq-19",
+        "flicker-mcq-15"
       ],
       "explanation": "本句的「flicker」指「螢幕快速不穩定的亮暗變化；螢幕閃爍」。",
       "sentenceIndex": 15,
@@ -846,12 +792,10 @@ export default {
         "flicker"
       ],
       "optionReasons": {
-        "flicker-mcq-07": "本句指「螢幕快速不穩定的亮暗變化；螢幕閃爍」。",
-        "flicker-mcq-06": "「螢幕／畫面亮度快速變化、出現閃爍」與本句語境不同。",
-        "flicker-mcq-08": "「短暫、微弱或不穩定的一閃／閃光」與本句語境不同。",
-        "flicker-mcq-05": "「因電力不穩等原因令燈光忽亮忽暗」與本句語境不同。",
-        "flicker-mcq-09": "「某種情緒短暫地流露／一閃而過」與本句語境不同。",
-        "flicker-mcq-04": "「閃爍一下後熄滅／消失」與本句語境不同。"
+        "flicker-mcq-07": "本句的「flicker」指「螢幕快速不穩定的亮暗變化；螢幕閃爍」。",
+        "flicker-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-07"
     },
@@ -863,11 +807,8 @@ export default {
       "masked": "We saw the ____ through the window.",
       "options": [
         "flicker-mcq-08",
-        "flicker-mcq-07",
-        "flicker-mcq-09",
-        "flicker-mcq-06",
-        "flicker-mcq-10",
-        "flicker-mcq-05"
+        "flicker-mcq-19",
+        "flicker-mcq-02"
       ],
       "explanation": "本句的「flicker of a candle」指「短暫、微弱或不穩定的一閃／閃光」。",
       "sentenceIndex": 16,
@@ -876,12 +817,9 @@ export default {
         "flicker of a candle"
       ],
       "optionReasons": {
-        "flicker-mcq-08": "本句指「短暫、微弱或不穩定的一閃／閃光」。",
-        "flicker-mcq-07": "「螢幕快速不穩定的亮暗變化；螢幕閃爍」與本句語境不同。",
-        "flicker-mcq-09": "「某種情緒短暫地流露／一閃而過」與本句語境不同。",
-        "flicker-mcq-06": "「螢幕／畫面亮度快速變化、出現閃爍」與本句語境不同。",
-        "flicker-mcq-10": "「某種表情在臉上一閃而過」與本句語境不同。",
-        "flicker-mcq-05": "「因電力不穩等原因令燈光忽亮忽暗」與本句語境不同。"
+        "flicker-mcq-08": "本句的「flicker of a candle」指「短暫、微弱或不穩定的一閃／閃光」。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-08"
     },
@@ -893,11 +831,8 @@ export default {
       "masked": "A faint ____ appeared in the distance.",
       "options": [
         "flicker-mcq-08",
-        "flicker-mcq-07",
-        "flicker-mcq-09",
-        "flicker-mcq-06",
-        "flicker-mcq-10",
-        "flicker-mcq-05"
+        "flicker-mcq-19",
+        "flicker-mcq-17"
       ],
       "explanation": "本句的「flicker」指「短暫、微弱或不穩定的一閃／閃光」。",
       "sentenceIndex": 17,
@@ -906,12 +841,9 @@ export default {
         "flicker"
       ],
       "optionReasons": {
-        "flicker-mcq-08": "本句指「短暫、微弱或不穩定的一閃／閃光」。",
-        "flicker-mcq-07": "「螢幕快速不穩定的亮暗變化；螢幕閃爍」與本句語境不同。",
-        "flicker-mcq-09": "「某種情緒短暫地流露／一閃而過」與本句語境不同。",
-        "flicker-mcq-06": "「螢幕／畫面亮度快速變化、出現閃爍」與本句語境不同。",
-        "flicker-mcq-10": "「某種表情在臉上一閃而過」與本句語境不同。",
-        "flicker-mcq-05": "「因電力不穩等原因令燈光忽亮忽暗」與本句語境不同。"
+        "flicker-mcq-08": "本句的「flicker」指「短暫、微弱或不穩定的一閃／閃光」。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-08"
     },
@@ -923,11 +855,9 @@ export default {
       "masked": "A ____ crossed his face.",
       "options": [
         "flicker-mcq-09",
-        "flicker-mcq-08",
-        "flicker-mcq-10",
-        "flicker-mcq-07",
-        "flicker-mcq-11",
-        "flicker-mcq-06"
+        "flicker-mcq-05",
+        "flicker-mcq-15",
+        "flicker-mcq-19"
       ],
       "explanation": "本句的「flicker of surprise」指「某種情緒短暫地流露／一閃而過」。",
       "sentenceIndex": 18,
@@ -936,12 +866,10 @@ export default {
         "flicker of surprise"
       ],
       "optionReasons": {
-        "flicker-mcq-09": "本句指「某種情緒短暫地流露／一閃而過」。",
-        "flicker-mcq-08": "「短暫、微弱或不穩定的一閃／閃光」與本句語境不同。",
-        "flicker-mcq-10": "「某種表情在臉上一閃而過」與本句語境不同。",
-        "flicker-mcq-07": "「螢幕快速不穩定的亮暗變化；螢幕閃爍」與本句語境不同。",
-        "flicker-mcq-11": "「很微弱但仍存在的一絲／一線希望」與本句語境不同。",
-        "flicker-mcq-06": "「螢幕／畫面亮度快速變化、出現閃爍」與本句語境不同。"
+        "flicker-mcq-09": "本句的「flicker of surprise」指「某種情緒短暫地流露／一閃而過」。",
+        "flicker-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-09"
     },
@@ -953,11 +881,9 @@ export default {
       "masked": "I noticed a ____ in her eyes.",
       "options": [
         "flicker-mcq-09",
-        "flicker-mcq-08",
-        "flicker-mcq-10",
-        "flicker-mcq-07",
-        "flicker-mcq-11",
-        "flicker-mcq-06"
+        "flicker-mcq-15",
+        "flicker-mcq-05",
+        "flicker-mcq-19"
       ],
       "explanation": "本句的「flicker of doubt」指「某種情緒短暫地流露／一閃而過」。",
       "sentenceIndex": 19,
@@ -966,12 +892,10 @@ export default {
         "flicker of doubt"
       ],
       "optionReasons": {
-        "flicker-mcq-09": "本句指「某種情緒短暫地流露／一閃而過」。",
-        "flicker-mcq-08": "「短暫、微弱或不穩定的一閃／閃光」與本句語境不同。",
-        "flicker-mcq-10": "「某種表情在臉上一閃而過」與本句語境不同。",
-        "flicker-mcq-07": "「螢幕快速不穩定的亮暗變化；螢幕閃爍」與本句語境不同。",
-        "flicker-mcq-11": "「很微弱但仍存在的一絲／一線希望」與本句語境不同。",
-        "flicker-mcq-06": "「螢幕／畫面亮度快速變化、出現閃爍」與本句語境不同。"
+        "flicker-mcq-09": "本句的「flicker of doubt」指「某種情緒短暫地流露／一閃而過」。",
+        "flicker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-09"
     },
@@ -983,11 +907,9 @@ export default {
       "masked": "A smile ____.",
       "options": [
         "flicker-mcq-10",
-        "flicker-mcq-09",
-        "flicker-mcq-11",
-        "flicker-mcq-08",
-        "flicker-mcq-12",
-        "flicker-mcq-07"
+        "flicker-mcq-18",
+        "flicker-mcq-05",
+        "flicker-mcq-11"
       ],
       "explanation": "本句的「flickered across her face」指「某種表情在臉上一閃而過」。",
       "sentenceIndex": 20,
@@ -996,12 +918,10 @@ export default {
         "flickered across her face"
       ],
       "optionReasons": {
-        "flicker-mcq-10": "本句指「某種表情在臉上一閃而過」。",
-        "flicker-mcq-09": "「某種情緒短暫地流露／一閃而過」與本句語境不同。",
-        "flicker-mcq-11": "「很微弱但仍存在的一絲／一線希望」與本句語境不同。",
-        "flicker-mcq-08": "「短暫、微弱或不穩定的一閃／閃光」與本句語境不同。",
-        "flicker-mcq-12": "「短暫出現的一絲興趣、懷疑或恐懼」與本句語境不同。",
-        "flicker-mcq-07": "「螢幕快速不穩定的亮暗變化；螢幕閃爍」與本句語境不同。"
+        "flicker-mcq-10": "本句的「flickered across her face」指「某種表情在臉上一閃而過」。",
+        "flicker-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-10"
     },
@@ -1013,11 +933,9 @@ export default {
       "masked": "Fear ____ for a moment.",
       "options": [
         "flicker-mcq-10",
-        "flicker-mcq-09",
-        "flicker-mcq-11",
-        "flicker-mcq-08",
-        "flicker-mcq-12",
-        "flicker-mcq-07"
+        "flicker-mcq-15",
+        "flicker-mcq-05",
+        "flicker-mcq-18"
       ],
       "explanation": "本句的「flickered across his face」指「某種表情在臉上一閃而過」。",
       "sentenceIndex": 21,
@@ -1026,12 +944,10 @@ export default {
         "flickered across his face"
       ],
       "optionReasons": {
-        "flicker-mcq-10": "本句指「某種表情在臉上一閃而過」。",
-        "flicker-mcq-09": "「某種情緒短暫地流露／一閃而過」與本句語境不同。",
-        "flicker-mcq-11": "「很微弱但仍存在的一絲／一線希望」與本句語境不同。",
-        "flicker-mcq-08": "「短暫、微弱或不穩定的一閃／閃光」與本句語境不同。",
-        "flicker-mcq-12": "「短暫出現的一絲興趣、懷疑或恐懼」與本句語境不同。",
-        "flicker-mcq-07": "「螢幕快速不穩定的亮暗變化；螢幕閃爍」與本句語境不同。"
+        "flicker-mcq-10": "本句的「flickered across his face」指「某種表情在臉上一閃而過」。",
+        "flicker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-10"
     },
@@ -1043,11 +959,9 @@ export default {
       "masked": "She felt a ____.",
       "options": [
         "flicker-mcq-12",
-        "flicker-mcq-11",
-        "flicker-mcq-13",
-        "flicker-mcq-10",
+        "flicker-mcq-19",
         "flicker-mcq-14",
-        "flicker-mcq-09"
+        "flicker-mcq-15"
       ],
       "explanation": "本句的「flicker of hope」指「短暫出現的一絲興趣、懷疑或恐懼」。",
       "sentenceIndex": 22,
@@ -1056,12 +970,10 @@ export default {
         "flicker of hope"
       ],
       "optionReasons": {
-        "flicker-mcq-12": "本句指「短暫出現的一絲興趣、懷疑或恐懼」。",
-        "flicker-mcq-11": "「很微弱但仍存在的一絲／一線希望」與本句語境不同。",
-        "flicker-mcq-13": "「情緒、念頭等短暫閃現」與本句語境不同。",
-        "flicker-mcq-10": "「某種表情在臉上一閃而過」與本句語境不同。",
-        "flicker-mcq-14": "「想法／記憶在腦海中一閃而過」與本句語境不同。",
-        "flicker-mcq-09": "「某種情緒短暫地流露／一閃而過」與本句語境不同。"
+        "flicker-mcq-12": "本句的「flicker of hope」指「短暫出現的一絲興趣、懷疑或恐懼」。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-12"
     },
@@ -1073,11 +985,9 @@ export default {
       "masked": "His words produced a ____.",
       "options": [
         "flicker-mcq-12",
-        "flicker-mcq-11",
-        "flicker-mcq-13",
-        "flicker-mcq-10",
-        "flicker-mcq-14",
-        "flicker-mcq-09"
+        "flicker-mcq-07",
+        "flicker-mcq-19",
+        "flicker-mcq-14"
       ],
       "explanation": "本句的「flicker of interest」指「短暫出現的一絲興趣、懷疑或恐懼」。",
       "sentenceIndex": 23,
@@ -1086,12 +996,10 @@ export default {
         "flicker of interest"
       ],
       "optionReasons": {
-        "flicker-mcq-12": "本句指「短暫出現的一絲興趣、懷疑或恐懼」。",
-        "flicker-mcq-11": "「很微弱但仍存在的一絲／一線希望」與本句語境不同。",
-        "flicker-mcq-13": "「情緒、念頭等短暫閃現」與本句語境不同。",
-        "flicker-mcq-10": "「某種表情在臉上一閃而過」與本句語境不同。",
-        "flicker-mcq-14": "「想法／記憶在腦海中一閃而過」與本句語境不同。",
-        "flicker-mcq-09": "「某種情緒短暫地流露／一閃而過」與本句語境不同。"
+        "flicker-mcq-12": "本句的「flicker of interest」指「短暫出現的一絲興趣、懷疑或恐懼」。",
+        "flicker-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-12"
     },
@@ -1103,11 +1011,9 @@ export default {
       "masked": "Doubt ____.",
       "options": [
         "flicker-mcq-13",
-        "flicker-mcq-12",
-        "flicker-mcq-14",
+        "flicker-mcq-19",
         "flicker-mcq-11",
-        "flicker-mcq-15",
-        "flicker-mcq-10"
+        "flicker-mcq-14"
       ],
       "explanation": "本句的「flickered in his mind」指「情緒、念頭等短暫閃現」。",
       "sentenceIndex": 24,
@@ -1116,12 +1022,10 @@ export default {
         "flickered in his mind"
       ],
       "optionReasons": {
-        "flicker-mcq-13": "本句指「情緒、念頭等短暫閃現」。",
-        "flicker-mcq-12": "「短暫出現的一絲興趣、懷疑或恐懼」與本句語境不同。",
-        "flicker-mcq-14": "「想法／記憶在腦海中一閃而過」與本句語境不同。",
-        "flicker-mcq-11": "「很微弱但仍存在的一絲／一線希望」與本句語境不同。",
-        "flicker-mcq-15": "「極微弱的生命、活動或功能跡象」與本句語境不同。",
-        "flicker-mcq-10": "「某種表情在臉上一閃而過」與本句語境不同。"
+        "flicker-mcq-13": "本句的「flickered in his mind」指「情緒、念頭等短暫閃現」。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-13"
     },
@@ -1133,11 +1037,9 @@ export default {
       "masked": "A smile ____ on her lips.",
       "options": [
         "flicker-mcq-13",
-        "flicker-mcq-12",
-        "flicker-mcq-14",
+        "flicker-mcq-19",
         "flicker-mcq-11",
-        "flicker-mcq-15",
-        "flicker-mcq-10"
+        "flicker-mcq-04"
       ],
       "explanation": "本句的「flickered」指「情緒、念頭等短暫閃現」。",
       "sentenceIndex": 25,
@@ -1146,12 +1048,10 @@ export default {
         "flickered"
       ],
       "optionReasons": {
-        "flicker-mcq-13": "本句指「情緒、念頭等短暫閃現」。",
-        "flicker-mcq-12": "「短暫出現的一絲興趣、懷疑或恐懼」與本句語境不同。",
-        "flicker-mcq-14": "「想法／記憶在腦海中一閃而過」與本句語境不同。",
-        "flicker-mcq-11": "「很微弱但仍存在的一絲／一線希望」與本句語境不同。",
-        "flicker-mcq-15": "「極微弱的生命、活動或功能跡象」與本句語境不同。",
-        "flicker-mcq-10": "「某種表情在臉上一閃而過」與本句語境不同。"
+        "flicker-mcq-13": "本句的「flickered」指「情緒、念頭等短暫閃現」。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-13"
     },
@@ -1163,11 +1063,9 @@ export default {
       "masked": "A strange thought ____.",
       "options": [
         "flicker-mcq-14",
-        "flicker-mcq-13",
-        "flicker-mcq-15",
-        "flicker-mcq-12",
-        "flicker-mcq-16",
-        "flicker-mcq-11"
+        "flicker-mcq-19",
+        "flicker-mcq-18",
+        "flicker-mcq-05"
       ],
       "explanation": "本句的「flickered through my mind」指「想法／記憶在腦海中一閃而過」。",
       "sentenceIndex": 26,
@@ -1176,12 +1074,10 @@ export default {
         "flickered through my mind"
       ],
       "optionReasons": {
-        "flicker-mcq-14": "本句指「想法／記憶在腦海中一閃而過」。",
-        "flicker-mcq-13": "「情緒、念頭等短暫閃現」與本句語境不同。",
-        "flicker-mcq-15": "「極微弱的生命、活動或功能跡象」與本句語境不同。",
-        "flicker-mcq-12": "「短暫出現的一絲興趣、懷疑或恐懼」與本句語境不同。",
-        "flicker-mcq-16": "「原本沒有動靜的燈、螢幕等閃爍著開始運作」與本句語境不同。",
-        "flicker-mcq-11": "「很微弱但仍存在的一絲／一線希望」與本句語境不同。"
+        "flicker-mcq-14": "本句的「flickered through my mind」指「想法／記憶在腦海中一閃而過」。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-14"
     },
@@ -1193,11 +1089,9 @@ export default {
       "masked": "The memory ____.",
       "options": [
         "flicker-mcq-14",
-        "flicker-mcq-13",
-        "flicker-mcq-15",
-        "flicker-mcq-12",
-        "flicker-mcq-16",
-        "flicker-mcq-11"
+        "flicker-mcq-19",
+        "flicker-mcq-11",
+        "flicker-mcq-05"
       ],
       "explanation": "本句的「flickered across his mind」指「想法／記憶在腦海中一閃而過」。",
       "sentenceIndex": 27,
@@ -1206,12 +1100,10 @@ export default {
         "flickered across his mind"
       ],
       "optionReasons": {
-        "flicker-mcq-14": "本句指「想法／記憶在腦海中一閃而過」。",
-        "flicker-mcq-13": "「情緒、念頭等短暫閃現」與本句語境不同。",
-        "flicker-mcq-15": "「極微弱的生命、活動或功能跡象」與本句語境不同。",
-        "flicker-mcq-12": "「短暫出現的一絲興趣、懷疑或恐懼」與本句語境不同。",
-        "flicker-mcq-16": "「原本沒有動靜的燈、螢幕等閃爍著開始運作」與本句語境不同。",
-        "flicker-mcq-11": "「很微弱但仍存在的一絲／一線希望」與本句語境不同。"
+        "flicker-mcq-14": "本句的「flickered across his mind」指「想法／記憶在腦海中一閃而過」。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-14"
     },
@@ -1223,11 +1115,9 @@ export default {
       "masked": "There was still a ____ in the old neighborhood.",
       "options": [
         "flicker-mcq-15",
-        "flicker-mcq-14",
-        "flicker-mcq-16",
-        "flicker-mcq-13",
-        "flicker-mcq-17",
-        "flicker-mcq-12"
+        "flicker-mcq-09",
+        "flicker-mcq-07",
+        "flicker-mcq-19"
       ],
       "explanation": "本句的「flicker of life」指「極微弱的生命、活動或功能跡象」。",
       "sentenceIndex": 28,
@@ -1236,12 +1126,10 @@ export default {
         "flicker of life"
       ],
       "optionReasons": {
-        "flicker-mcq-15": "本句指「極微弱的生命、活動或功能跡象」。",
-        "flicker-mcq-14": "「想法／記憶在腦海中一閃而過」與本句語境不同。",
-        "flicker-mcq-16": "「原本沒有動靜的燈、螢幕等閃爍著開始運作」與本句語境不同。",
-        "flicker-mcq-13": "「情緒、念頭等短暫閃現」與本句語境不同。",
-        "flicker-mcq-17": "「持續忽明忽暗、搖曳閃爍的」與本句語境不同。",
-        "flicker-mcq-12": "「短暫出現的一絲興趣、懷疑或恐懼」與本句語境不同。"
+        "flicker-mcq-15": "本句的「flicker of life」指「極微弱的生命、活動或功能跡象」。",
+        "flicker-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-15"
     },
@@ -1253,11 +1141,9 @@ export default {
       "masked": "The damaged screen showed a faint ____.",
       "options": [
         "flicker-mcq-15",
-        "flicker-mcq-14",
-        "flicker-mcq-16",
+        "flicker-mcq-01",
         "flicker-mcq-13",
-        "flicker-mcq-17",
-        "flicker-mcq-12"
+        "flicker-mcq-14"
       ],
       "explanation": "本句的「flicker of life」指「極微弱的生命、活動或功能跡象」。",
       "sentenceIndex": 29,
@@ -1266,12 +1152,10 @@ export default {
         "flicker of life"
       ],
       "optionReasons": {
-        "flicker-mcq-15": "本句指「極微弱的生命、活動或功能跡象」。",
-        "flicker-mcq-14": "「想法／記憶在腦海中一閃而過」與本句語境不同。",
-        "flicker-mcq-16": "「原本沒有動靜的燈、螢幕等閃爍著開始運作」與本句語境不同。",
-        "flicker-mcq-13": "「情緒、念頭等短暫閃現」與本句語境不同。",
-        "flicker-mcq-17": "「持續忽明忽暗、搖曳閃爍的」與本句語境不同。",
-        "flicker-mcq-12": "「短暫出現的一絲興趣、懷疑或恐懼」與本句語境不同。"
+        "flicker-mcq-15": "本句的「flicker of life」指「極微弱的生命、活動或功能跡象」。",
+        "flicker-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-15"
     },
@@ -1283,11 +1167,9 @@ export default {
       "masked": "The old screen ____.",
       "options": [
         "flicker-mcq-16",
-        "flicker-mcq-15",
-        "flicker-mcq-17",
+        "flicker-mcq-12",
         "flicker-mcq-14",
-        "flicker-mcq-18",
-        "flicker-mcq-13"
+        "flicker-mcq-19"
       ],
       "explanation": "本句的「flickered into life」指「原本沒有動靜的燈、螢幕等閃爍著開始運作」。",
       "sentenceIndex": 30,
@@ -1296,12 +1178,10 @@ export default {
         "flickered into life"
       ],
       "optionReasons": {
-        "flicker-mcq-16": "本句指「原本沒有動靜的燈、螢幕等閃爍著開始運作」。",
-        "flicker-mcq-15": "「極微弱的生命、活動或功能跡象」與本句語境不同。",
-        "flicker-mcq-17": "「持續忽明忽暗、搖曳閃爍的」與本句語境不同。",
-        "flicker-mcq-14": "「想法／記憶在腦海中一閃而過」與本句語境不同。",
-        "flicker-mcq-18": "「若隱若現、短暫出現的」與本句語境不同。",
-        "flicker-mcq-13": "「情緒、念頭等短暫閃現」與本句語境不同。"
+        "flicker-mcq-16": "本句的「flickered into life」指「原本沒有動靜的燈、螢幕等閃爍著開始運作」。",
+        "flicker-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-16"
     },
@@ -1313,11 +1193,9 @@ export default {
       "masked": "The lights ____ at dusk.",
       "options": [
         "flicker-mcq-16",
+        "flicker-mcq-12",
         "flicker-mcq-15",
-        "flicker-mcq-17",
-        "flicker-mcq-14",
-        "flicker-mcq-18",
-        "flicker-mcq-13"
+        "flicker-mcq-19"
       ],
       "explanation": "本句的「flickered into life」指「原本沒有動靜的燈、螢幕等閃爍著開始運作」。",
       "sentenceIndex": 31,
@@ -1326,12 +1204,10 @@ export default {
         "flickered into life"
       ],
       "optionReasons": {
-        "flicker-mcq-16": "本句指「原本沒有動靜的燈、螢幕等閃爍著開始運作」。",
-        "flicker-mcq-15": "「極微弱的生命、活動或功能跡象」與本句語境不同。",
-        "flicker-mcq-17": "「持續忽明忽暗、搖曳閃爍的」與本句語境不同。",
-        "flicker-mcq-14": "「想法／記憶在腦海中一閃而過」與本句語境不同。",
-        "flicker-mcq-18": "「若隱若現、短暫出現的」與本句語境不同。",
-        "flicker-mcq-13": "「情緒、念頭等短暫閃現」與本句語境不同。"
+        "flicker-mcq-16": "本句的「flickered into life」指「原本沒有動靜的燈、螢幕等閃爍著開始運作」。",
+        "flicker-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-16"
     },
@@ -1343,11 +1219,9 @@ export default {
       "masked": "The news gave them a ____.",
       "options": [
         "flicker-mcq-11",
-        "flicker-mcq-10",
-        "flicker-mcq-12",
-        "flicker-mcq-09",
-        "flicker-mcq-13",
-        "flicker-mcq-08"
+        "flicker-mcq-16",
+        "flicker-mcq-05",
+        "flicker-mcq-18"
       ],
       "explanation": "本句的「flicker of hope」指「很微弱但仍存在的一絲／一線希望」。",
       "sentenceIndex": 32,
@@ -1356,12 +1230,10 @@ export default {
         "flicker of hope"
       ],
       "optionReasons": {
-        "flicker-mcq-11": "本句指「很微弱但仍存在的一絲／一線希望」。",
-        "flicker-mcq-10": "「某種表情在臉上一閃而過」與本句語境不同。",
-        "flicker-mcq-12": "「短暫出現的一絲興趣、懷疑或恐懼」與本句語境不同。",
-        "flicker-mcq-09": "「某種情緒短暫地流露／一閃而過」與本句語境不同。",
-        "flicker-mcq-13": "「情緒、念頭等短暫閃現」與本句語境不同。",
-        "flicker-mcq-08": "「短暫、微弱或不穩定的一閃／閃光」與本句語境不同。"
+        "flicker-mcq-11": "本句的「flicker of hope」指「很微弱但仍存在的一絲／一線希望」。",
+        "flicker-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-11"
     },
@@ -1373,11 +1245,9 @@ export default {
       "masked": "There was still a ____ that he might recover.",
       "options": [
         "flicker-mcq-11",
-        "flicker-mcq-10",
-        "flicker-mcq-12",
+        "flicker-mcq-07",
         "flicker-mcq-09",
-        "flicker-mcq-13",
-        "flicker-mcq-08"
+        "flicker-mcq-19"
       ],
       "explanation": "本句的「flicker of hope」指「很微弱但仍存在的一絲／一線希望」。",
       "sentenceIndex": 33,
@@ -1386,12 +1256,10 @@ export default {
         "flicker of hope"
       ],
       "optionReasons": {
-        "flicker-mcq-11": "本句指「很微弱但仍存在的一絲／一線希望」。",
-        "flicker-mcq-10": "「某種表情在臉上一閃而過」與本句語境不同。",
-        "flicker-mcq-12": "「短暫出現的一絲興趣、懷疑或恐懼」與本句語境不同。",
-        "flicker-mcq-09": "「某種情緒短暫地流露／一閃而過」與本句語境不同。",
-        "flicker-mcq-13": "「情緒、念頭等短暫閃現」與本句語境不同。",
-        "flicker-mcq-08": "「短暫、微弱或不穩定的一閃／閃光」與本句語境不同。"
+        "flicker-mcq-11": "本句的「flicker of hope」指「很微弱但仍存在的一絲／一線希望」。",
+        "flicker-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-11"
     },
@@ -1403,11 +1271,9 @@ export default {
       "masked": "They sat beside a ____.",
       "options": [
         "flicker-mcq-17",
-        "flicker-mcq-16",
-        "flicker-mcq-18",
         "flicker-mcq-15",
-        "flicker-mcq-19",
-        "flicker-mcq-14"
+        "flicker-mcq-18",
+        "flicker-mcq-19"
       ],
       "explanation": "本句的「flickering fire」指「持續忽明忽暗、搖曳閃爍的」。",
       "sentenceIndex": 34,
@@ -1416,12 +1282,10 @@ export default {
         "flickering fire"
       ],
       "optionReasons": {
-        "flicker-mcq-17": "本句指「持續忽明忽暗、搖曳閃爍的」。",
-        "flicker-mcq-16": "「原本沒有動靜的燈、螢幕等閃爍著開始運作」與本句語境不同。",
-        "flicker-mcq-18": "「若隱若現、短暫出現的」與本句語境不同。",
-        "flicker-mcq-15": "「極微弱的生命、活動或功能跡象」與本句語境不同。",
-        "flicker-mcq-19": "「北美一類啄木鳥；撲動鴷」與本句語境不同。",
-        "flicker-mcq-14": "「想法／記憶在腦海中一閃而過」與本句語境不同。"
+        "flicker-mcq-17": "本句的「flickering fire」指「持續忽明忽暗、搖曳閃爍的」。",
+        "flicker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-17"
     },
@@ -1433,11 +1297,9 @@ export default {
       "masked": "The room was lit by a ____.",
       "options": [
         "flicker-mcq-17",
-        "flicker-mcq-16",
-        "flicker-mcq-18",
-        "flicker-mcq-15",
+        "flicker-mcq-12",
         "flicker-mcq-19",
-        "flicker-mcq-14"
+        "flicker-mcq-15"
       ],
       "explanation": "本句的「flickering candle」指「持續忽明忽暗、搖曳閃爍的」。",
       "sentenceIndex": 35,
@@ -1446,12 +1308,10 @@ export default {
         "flickering candle"
       ],
       "optionReasons": {
-        "flicker-mcq-17": "本句指「持續忽明忽暗、搖曳閃爍的」。",
-        "flicker-mcq-16": "「原本沒有動靜的燈、螢幕等閃爍著開始運作」與本句語境不同。",
-        "flicker-mcq-18": "「若隱若現、短暫出現的」與本句語境不同。",
-        "flicker-mcq-15": "「極微弱的生命、活動或功能跡象」與本句語境不同。",
-        "flicker-mcq-19": "「北美一類啄木鳥；撲動鴷」與本句語境不同。",
-        "flicker-mcq-14": "「想法／記憶在腦海中一閃而過」與本句語境不同。"
+        "flicker-mcq-17": "本句的「flickering candle」指「持續忽明忽暗、搖曳閃爍的」。",
+        "flicker-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-17"
     },
@@ -1463,11 +1323,9 @@ export default {
       "masked": "A ____ remained.",
       "options": [
         "flicker-mcq-18",
-        "flicker-mcq-17",
-        "flicker-mcq-19",
-        "flicker-mcq-16",
-        "flicker-mcq-15",
-        "flicker-mcq-14"
+        "flicker-mcq-05",
+        "flicker-mcq-14",
+        "flicker-mcq-15"
       ],
       "explanation": "本句的「flickering hope」指「若隱若現、短暫出現的」。",
       "sentenceIndex": 36,
@@ -1476,12 +1334,10 @@ export default {
         "flickering hope"
       ],
       "optionReasons": {
-        "flicker-mcq-18": "本句指「若隱若現、短暫出現的」。",
-        "flicker-mcq-17": "「持續忽明忽暗、搖曳閃爍的」與本句語境不同。",
-        "flicker-mcq-19": "「北美一類啄木鳥；撲動鴷」與本句語境不同。",
-        "flicker-mcq-16": "「原本沒有動靜的燈、螢幕等閃爍著開始運作」與本句語境不同。",
-        "flicker-mcq-15": "「極微弱的生命、活動或功能跡象」與本句語境不同。",
-        "flicker-mcq-14": "「想法／記憶在腦海中一閃而過」與本句語境不同。"
+        "flicker-mcq-18": "本句的「flickering hope」指「若隱若現、短暫出現的」。",
+        "flicker-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-18"
     },
@@ -1493,11 +1349,9 @@ export default {
       "masked": "He gave a ____.",
       "options": [
         "flicker-mcq-18",
-        "flicker-mcq-17",
-        "flicker-mcq-19",
-        "flicker-mcq-16",
         "flicker-mcq-15",
-        "flicker-mcq-14"
+        "flicker-mcq-07",
+        "flicker-mcq-19"
       ],
       "explanation": "本句的「flickering smile」指「若隱若現、短暫出現的」。",
       "sentenceIndex": 37,
@@ -1506,12 +1360,10 @@ export default {
         "flickering smile"
       ],
       "optionReasons": {
-        "flicker-mcq-18": "本句指「若隱若現、短暫出現的」。",
-        "flicker-mcq-17": "「持續忽明忽暗、搖曳閃爍的」與本句語境不同。",
-        "flicker-mcq-19": "「北美一類啄木鳥；撲動鴷」與本句語境不同。",
-        "flicker-mcq-16": "「原本沒有動靜的燈、螢幕等閃爍著開始運作」與本句語境不同。",
-        "flicker-mcq-15": "「極微弱的生命、活動或功能跡象」與本句語境不同。",
-        "flicker-mcq-14": "「想法／記憶在腦海中一閃而過」與本句語境不同。"
+        "flicker-mcq-18": "本句的「flickering smile」指「若隱若現、短暫出現的」。",
+        "flicker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-18"
     },
@@ -1523,11 +1375,9 @@ export default {
       "masked": "The ____ made the room feel eerie.",
       "options": [
         "flicker-mcq-17",
-        "flicker-mcq-16",
-        "flicker-mcq-18",
-        "flicker-mcq-15",
+        "flicker-mcq-12",
         "flicker-mcq-19",
-        "flicker-mcq-14"
+        "flicker-mcq-15"
       ],
       "explanation": "本句的「flickering light」指「持續忽明忽暗、搖曳閃爍的」。",
       "sentenceIndex": 38,
@@ -1536,12 +1386,10 @@ export default {
         "flickering light"
       ],
       "optionReasons": {
-        "flicker-mcq-17": "本句指「持續忽明忽暗、搖曳閃爍的」。",
-        "flicker-mcq-16": "「原本沒有動靜的燈、螢幕等閃爍著開始運作」與本句語境不同。",
-        "flicker-mcq-18": "「若隱若現、短暫出現的」與本句語境不同。",
-        "flicker-mcq-15": "「極微弱的生命、活動或功能跡象」與本句語境不同。",
-        "flicker-mcq-19": "「北美一類啄木鳥；撲動鴷」與本句語境不同。",
-        "flicker-mcq-14": "「想法／記憶在腦海中一閃而過」與本句語境不同。"
+        "flicker-mcq-17": "本句的「flickering light」指「持續忽明忽暗、搖曳閃爍的」。",
+        "flicker-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-17"
     },
@@ -1553,11 +1401,9 @@ export default {
       "masked": "Faces appeared in the ____.",
       "options": [
         "flicker-mcq-17",
-        "flicker-mcq-16",
         "flicker-mcq-18",
         "flicker-mcq-15",
-        "flicker-mcq-19",
-        "flicker-mcq-14"
+        "flicker-mcq-19"
       ],
       "explanation": "本句的「flickering firelight」指「持續忽明忽暗、搖曳閃爍的」。",
       "sentenceIndex": 39,
@@ -1566,12 +1412,10 @@ export default {
         "flickering firelight"
       ],
       "optionReasons": {
-        "flicker-mcq-17": "本句指「持續忽明忽暗、搖曳閃爍的」。",
-        "flicker-mcq-16": "「原本沒有動靜的燈、螢幕等閃爍著開始運作」與本句語境不同。",
-        "flicker-mcq-18": "「若隱若現、短暫出現的」與本句語境不同。",
-        "flicker-mcq-15": "「極微弱的生命、活動或功能跡象」與本句語境不同。",
-        "flicker-mcq-19": "「北美一類啄木鳥；撲動鴷」與本句語境不同。",
-        "flicker-mcq-14": "「想法／記憶在腦海中一閃而過」與本句語境不同。"
+        "flicker-mcq-17": "本句的「flickering firelight」指「持續忽明忽暗、搖曳閃爍的」。",
+        "flicker-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-17"
     },
@@ -1583,11 +1427,9 @@ export default {
       "masked": "A northern ____ landed on the tree.",
       "options": [
         "flicker-mcq-19",
-        "flicker-mcq-18",
-        "flicker-mcq-17",
-        "flicker-mcq-16",
-        "flicker-mcq-15",
-        "flicker-mcq-14"
+        "flicker-mcq-05",
+        "flicker-mcq-09",
+        "flicker-mcq-11"
       ],
       "explanation": "本句的「flicker」指「北美一類啄木鳥；撲動鴷」。",
       "sentenceIndex": 40,
@@ -1596,12 +1438,10 @@ export default {
         "flicker"
       ],
       "optionReasons": {
-        "flicker-mcq-19": "本句指「北美一類啄木鳥；撲動鴷」。",
-        "flicker-mcq-18": "「若隱若現、短暫出現的」與本句語境不同。",
-        "flicker-mcq-17": "「持續忽明忽暗、搖曳閃爍的」與本句語境不同。",
-        "flicker-mcq-16": "「原本沒有動靜的燈、螢幕等閃爍著開始運作」與本句語境不同。",
-        "flicker-mcq-15": "「極微弱的生命、活動或功能跡象」與本句語境不同。",
-        "flicker-mcq-14": "「想法／記憶在腦海中一閃而過」與本句語境不同。"
+        "flicker-mcq-19": "本句的「flicker」指「北美一類啄木鳥；撲動鴷」。",
+        "flicker-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-19"
     },
@@ -1613,11 +1453,9 @@ export default {
       "masked": "We spotted a ____ near the trail.",
       "options": [
         "flicker-mcq-19",
-        "flicker-mcq-18",
-        "flicker-mcq-17",
-        "flicker-mcq-16",
-        "flicker-mcq-15",
-        "flicker-mcq-14"
+        "flicker-mcq-14",
+        "flicker-mcq-01",
+        "flicker-mcq-11"
       ],
       "explanation": "本句的「flicker」指「北美一類啄木鳥；撲動鴷」。",
       "sentenceIndex": 41,
@@ -1626,12 +1464,10 @@ export default {
         "flicker"
       ],
       "optionReasons": {
-        "flicker-mcq-19": "本句指「北美一類啄木鳥；撲動鴷」。",
-        "flicker-mcq-18": "「若隱若現、短暫出現的」與本句語境不同。",
-        "flicker-mcq-17": "「持續忽明忽暗、搖曳閃爍的」與本句語境不同。",
-        "flicker-mcq-16": "「原本沒有動靜的燈、螢幕等閃爍著開始運作」與本句語境不同。",
-        "flicker-mcq-15": "「極微弱的生命、活動或功能跡象」與本句語境不同。",
-        "flicker-mcq-14": "「想法／記憶在腦海中一閃而過」與本句語境不同。"
+        "flicker-mcq-19": "本句的「flicker」指「北美一類啄木鳥；撲動鴷」。",
+        "flicker-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "flicker-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flicker-mcq-19"
     }
@@ -1643,5 +1479,7 @@ export default {
     "sha256": "ac5a1b5340e0efa4d789b6cf9e677205633bafcfe1d9207c9d61687f2bf33887",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

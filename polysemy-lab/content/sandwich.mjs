@@ -169,11 +169,6 @@ export default {
           "The sandwich shop gets busy at lunchtime.",
           "這間三文治店午飯時間很繁忙。",
           "適合製作三文治的切片麵包／方包"
-        ],
-        [
-          "The children ate chocolate sandwich biscuits.",
-          "孩子們吃了朱古力夾心餅乾。",
-          "適合製作三文治的切片麵包／方包"
         ]
       ],
       "options": [],
@@ -222,6 +217,23 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "sandwich-reviewed-0d94d2407e",
+      "title": "夾心餅乾",
+      "form": "sandwich · source section 11",
+      "en": "夾心餅乾",
+      "zh": "夾心餅乾",
+      "note": "對照原始教材第 11 節及例句核實。",
+      "examples": [
+        [
+          "The children ate chocolate sandwich biscuits.",
+          "孩子們吃了朱古力夾心餅乾。",
+          "夾心餅乾"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -233,11 +245,9 @@ export default {
       "masked": "I was carrying a ____ and revision notes.",
       "options": [
         "sandwich-mcq-01",
-        "sandwich-mcq-02",
-        "sandwich-mcq-03",
-        "sandwich-mcq-04",
-        "sandwich-mcq-05",
-        "sandwich-mcq-06"
+        "sandwich-reviewed-0d94d2407e",
+        "sandwich-mcq-09",
+        "sandwich-mcq-08"
       ],
       "explanation": "本句的「sandwich」指「把肉、芝士、蔬菜等餡料夾在兩層麵包之間製成的食物」。",
       "sentenceIndex": 0,
@@ -246,12 +256,10 @@ export default {
         "sandwich"
       ],
       "optionReasons": {
-        "sandwich-mcq-01": "本句指「把肉、芝士、蔬菜等餡料夾在兩層麵包之間製成的食物」。",
-        "sandwich-mcq-02": "「一層食材被夾在兩層相似食材之間的食品形式」與本句語境不同。",
-        "sandwich-mcq-03": "「把某人／某物置於兩個其他東西之間」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。"
+        "sandwich-mcq-01": "本句的「sandwich」指「把肉、芝士、蔬菜等餡料夾在兩層麵包之間製成的食物」。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-01"
     },
@@ -263,11 +271,9 @@ export default {
       "masked": "She made a cheese ____ for lunch.",
       "options": [
         "sandwich-mcq-01",
-        "sandwich-mcq-02",
-        "sandwich-mcq-03",
-        "sandwich-mcq-04",
-        "sandwich-mcq-05",
-        "sandwich-mcq-06"
+        "sandwich-mcq-08",
+        "sandwich-reviewed-0d94d2407e",
+        "sandwich-mcq-09"
       ],
       "explanation": "本句的「sandwich」指「把肉、芝士、蔬菜等餡料夾在兩層麵包之間製成的食物」。",
       "sentenceIndex": 1,
@@ -276,12 +282,10 @@ export default {
         "sandwich"
       ],
       "optionReasons": {
-        "sandwich-mcq-01": "本句指「把肉、芝士、蔬菜等餡料夾在兩層麵包之間製成的食物」。",
-        "sandwich-mcq-02": "「一層食材被夾在兩層相似食材之間的食品形式」與本句語境不同。",
-        "sandwich-mcq-03": "「把某人／某物置於兩個其他東西之間」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。"
+        "sandwich-mcq-01": "本句的「sandwich」指「把肉、芝士、蔬菜等餡料夾在兩層麵包之間製成的食物」。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-01"
     },
@@ -293,11 +297,9 @@ export default {
       "masked": "I bought a ____ at the station.",
       "options": [
         "sandwich-mcq-01",
-        "sandwich-mcq-02",
-        "sandwich-mcq-03",
-        "sandwich-mcq-04",
-        "sandwich-mcq-05",
-        "sandwich-mcq-06"
+        "sandwich-mcq-09",
+        "sandwich-mcq-08",
+        "sandwich-reviewed-0d94d2407e"
       ],
       "explanation": "本句的「sandwich」指「把肉、芝士、蔬菜等餡料夾在兩層麵包之間製成的食物」。",
       "sentenceIndex": 2,
@@ -306,12 +308,10 @@ export default {
         "sandwich"
       ],
       "optionReasons": {
-        "sandwich-mcq-01": "本句指「把肉、芝士、蔬菜等餡料夾在兩層麵包之間製成的食物」。",
-        "sandwich-mcq-02": "「一層食材被夾在兩層相似食材之間的食品形式」與本句語境不同。",
-        "sandwich-mcq-03": "「把某人／某物置於兩個其他東西之間」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。"
+        "sandwich-mcq-01": "本句的「sandwich」指「把肉、芝士、蔬菜等餡料夾在兩層麵包之間製成的食物」。",
+        "sandwich-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-01"
     },
@@ -323,11 +323,9 @@ export default {
       "masked": "The dessert is made like an ice-cream ____.",
       "options": [
         "sandwich-mcq-02",
-        "sandwich-mcq-01",
-        "sandwich-mcq-03",
-        "sandwich-mcq-04",
-        "sandwich-mcq-05",
-        "sandwich-mcq-06"
+        "sandwich-mcq-07",
+        "sandwich-reviewed-0d94d2407e",
+        "sandwich-mcq-08"
       ],
       "explanation": "本句的「sandwich」指「一層食材被夾在兩層相似食材之間的食品形式」。",
       "sentenceIndex": 3,
@@ -336,12 +334,10 @@ export default {
         "sandwich"
       ],
       "optionReasons": {
-        "sandwich-mcq-02": "本句指「一層食材被夾在兩層相似食材之間的食品形式」。",
-        "sandwich-mcq-01": "「把肉、芝士、蔬菜等餡料夾在兩層麵包之間製成的食物」與本句語境不同。",
-        "sandwich-mcq-03": "「把某人／某物置於兩個其他東西之間」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。"
+        "sandwich-mcq-02": "本句的「sandwich」指「一層食材被夾在兩層相似食材之間的食品形式」。",
+        "sandwich-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-02"
     },
@@ -353,11 +349,9 @@ export default {
       "masked": "Two biscuits form a ____ around the cream.",
       "options": [
         "sandwich-mcq-02",
-        "sandwich-mcq-01",
-        "sandwich-mcq-03",
-        "sandwich-mcq-04",
-        "sandwich-mcq-05",
-        "sandwich-mcq-06"
+        "sandwich-mcq-07",
+        "sandwich-mcq-08",
+        "sandwich-reviewed-0d94d2407e"
       ],
       "explanation": "本句的「sandwich」指「一層食材被夾在兩層相似食材之間的食品形式」。",
       "sentenceIndex": 4,
@@ -366,12 +360,10 @@ export default {
         "sandwich"
       ],
       "optionReasons": {
-        "sandwich-mcq-02": "本句指「一層食材被夾在兩層相似食材之間的食品形式」。",
-        "sandwich-mcq-01": "「把肉、芝士、蔬菜等餡料夾在兩層麵包之間製成的食物」與本句語境不同。",
-        "sandwich-mcq-03": "「把某人／某物置於兩個其他東西之間」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。"
+        "sandwich-mcq-02": "本句的「sandwich」指「一層食材被夾在兩層相似食材之間的食品形式」。",
+        "sandwich-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-02"
     },
@@ -383,11 +375,9 @@ export default {
       "masked": "I was ____ two people on the bus.",
       "options": [
         "sandwich-mcq-03",
-        "sandwich-mcq-02",
-        "sandwich-mcq-04",
-        "sandwich-mcq-01",
-        "sandwich-mcq-05",
-        "sandwich-mcq-06"
+        "sandwich-reviewed-0d94d2407e",
+        "sandwich-mcq-07",
+        "sandwich-mcq-08"
       ],
       "explanation": "本句的「sandwiched between」指「把某人／某物置於兩個其他東西之間」。",
       "sentenceIndex": 5,
@@ -396,12 +386,10 @@ export default {
         "sandwiched between"
       ],
       "optionReasons": {
-        "sandwich-mcq-03": "本句指「把某人／某物置於兩個其他東西之間」。",
-        "sandwich-mcq-02": "「一層食材被夾在兩層相似食材之間的食品形式」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。",
-        "sandwich-mcq-01": "「把肉、芝士、蔬菜等餡料夾在兩層麵包之間製成的食物」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。"
+        "sandwich-mcq-03": "本句的「sandwiched between」指「把某人／某物置於兩個其他東西之間」。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-03"
     },
@@ -413,11 +401,9 @@ export default {
       "masked": "The small shop is ____ between two restaurants.",
       "options": [
         "sandwich-mcq-03",
-        "sandwich-mcq-02",
-        "sandwich-mcq-04",
-        "sandwich-mcq-01",
-        "sandwich-mcq-05",
-        "sandwich-mcq-06"
+        "sandwich-reviewed-0d94d2407e",
+        "sandwich-mcq-07",
+        "sandwich-mcq-08"
       ],
       "explanation": "本句的「sandwiched」指「把某人／某物置於兩個其他東西之間」。",
       "sentenceIndex": 6,
@@ -426,12 +412,10 @@ export default {
         "sandwiched"
       ],
       "optionReasons": {
-        "sandwich-mcq-03": "本句指「把某人／某物置於兩個其他東西之間」。",
-        "sandwich-mcq-02": "「一層食材被夾在兩層相似食材之間的食品形式」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。",
-        "sandwich-mcq-01": "「把肉、芝士、蔬菜等餡料夾在兩層麵包之間製成的食物」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。"
+        "sandwich-mcq-03": "本句的「sandwiched」指「把某人／某物置於兩個其他東西之間」。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-03"
     },
@@ -443,11 +427,9 @@ export default {
       "masked": "The school is ____ a park and a shopping centre.",
       "options": [
         "sandwich-mcq-04",
-        "sandwich-mcq-03",
-        "sandwich-mcq-05",
-        "sandwich-mcq-02",
-        "sandwich-mcq-06",
-        "sandwich-mcq-01"
+        "sandwich-mcq-07",
+        "sandwich-reviewed-0d94d2407e",
+        "sandwich-mcq-09"
       ],
       "explanation": "本句的「sandwiched between」指「被夾／擠在兩個人、物件、地方或事件之間」。",
       "sentenceIndex": 7,
@@ -456,12 +438,10 @@ export default {
         "sandwiched between"
       ],
       "optionReasons": {
-        "sandwich-mcq-04": "本句指「被夾／擠在兩個人、物件、地方或事件之間」。",
-        "sandwich-mcq-03": "「把某人／某物置於兩個其他東西之間」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-02": "「一層食材被夾在兩層相似食材之間的食品形式」與本句語境不同。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。",
-        "sandwich-mcq-01": "「把肉、芝士、蔬菜等餡料夾在兩層麵包之間製成的食物」與本句語境不同。"
+        "sandwich-mcq-04": "本句的「sandwiched between」指「被夾／擠在兩個人、物件、地方或事件之間」。",
+        "sandwich-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-04"
     },
@@ -473,11 +453,9 @@ export default {
       "masked": "He was ____ between two large bags.",
       "options": [
         "sandwich-mcq-04",
-        "sandwich-mcq-03",
-        "sandwich-mcq-05",
-        "sandwich-mcq-02",
-        "sandwich-mcq-06",
-        "sandwich-mcq-01"
+        "sandwich-mcq-07",
+        "sandwich-mcq-09",
+        "sandwich-mcq-08"
       ],
       "explanation": "本句的「sandwiched」指「被夾／擠在兩個人、物件、地方或事件之間」。",
       "sentenceIndex": 8,
@@ -486,12 +464,10 @@ export default {
         "sandwiched"
       ],
       "optionReasons": {
-        "sandwich-mcq-04": "本句指「被夾／擠在兩個人、物件、地方或事件之間」。",
-        "sandwich-mcq-03": "「把某人／某物置於兩個其他東西之間」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-02": "「一層食材被夾在兩層相似食材之間的食品形式」與本句語境不同。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。",
-        "sandwich-mcq-01": "「把肉、芝士、蔬菜等餡料夾在兩層麵包之間製成的食物」與本句語境不同。"
+        "sandwich-mcq-04": "本句的「sandwiched」指「被夾／擠在兩個人、物件、地方或事件之間」。",
+        "sandwich-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-04"
     },
@@ -503,11 +479,9 @@ export default {
       "masked": "She ____ lunch between two meetings.",
       "options": [
         "sandwich-mcq-05",
-        "sandwich-mcq-04",
-        "sandwich-mcq-06",
-        "sandwich-mcq-03",
         "sandwich-mcq-07",
-        "sandwich-mcq-02"
+        "sandwich-reviewed-0d94d2407e",
+        "sandwich-mcq-08"
       ],
       "explanation": "本句的「sandwiched」指「把某件事情硬塞或安排在另外兩件事之間」。",
       "sentenceIndex": 9,
@@ -516,12 +490,10 @@ export default {
         "sandwiched"
       ],
       "optionReasons": {
-        "sandwich-mcq-05": "本句指「把某件事情硬塞或安排在另外兩件事之間」。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。",
-        "sandwich-mcq-03": "「把某人／某物置於兩個其他東西之間」與本句語境不同。",
-        "sandwich-mcq-07": "「適合製作三文治的切片麵包／方包」與本句語境不同。",
-        "sandwich-mcq-02": "「一層食材被夾在兩層相似食材之間的食品形式」與本句語境不同。"
+        "sandwich-mcq-05": "本句的「sandwiched」指「把某件事情硬塞或安排在另外兩件事之間」。",
+        "sandwich-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-05"
     },
@@ -533,11 +505,9 @@ export default {
       "masked": "I ____ a short revision session between classes.",
       "options": [
         "sandwich-mcq-05",
-        "sandwich-mcq-04",
-        "sandwich-mcq-06",
-        "sandwich-mcq-03",
+        "sandwich-reviewed-0d94d2407e",
         "sandwich-mcq-07",
-        "sandwich-mcq-02"
+        "sandwich-mcq-09"
       ],
       "explanation": "本句的「sandwiched」指「把某件事情硬塞或安排在另外兩件事之間」。",
       "sentenceIndex": 10,
@@ -546,12 +516,10 @@ export default {
         "sandwiched"
       ],
       "optionReasons": {
-        "sandwich-mcq-05": "本句指「把某件事情硬塞或安排在另外兩件事之間」。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。",
-        "sandwich-mcq-03": "「把某人／某物置於兩個其他東西之間」與本句語境不同。",
-        "sandwich-mcq-07": "「適合製作三文治的切片麵包／方包」與本句語境不同。",
-        "sandwich-mcq-02": "「一層食材被夾在兩層相似食材之間的食品形式」與本句語境不同。"
+        "sandwich-mcq-05": "本句的「sandwiched」指「把某件事情硬塞或安排在另外兩件事之間」。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-05"
     },
@@ -563,11 +531,9 @@ export default {
       "masked": "Egg and mayonnaise is a common ____.",
       "options": [
         "sandwich-mcq-06",
-        "sandwich-mcq-05",
-        "sandwich-mcq-07",
-        "sandwich-mcq-04",
-        "sandwich-mcq-08",
-        "sandwich-mcq-03"
+        "sandwich-reviewed-0d94d2407e",
+        "sandwich-mcq-09",
+        "sandwich-mcq-08"
       ],
       "explanation": "本句的「sandwich filling」指「放在三文治麵包之間的餡料」。",
       "sentenceIndex": 13,
@@ -576,12 +542,10 @@ export default {
         "sandwich filling"
       ],
       "optionReasons": {
-        "sandwich-mcq-06": "本句指「放在三文治麵包之間的餡料」。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-07": "「適合製作三文治的切片麵包／方包」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。",
-        "sandwich-mcq-08": "「同時肩負照顧上一代和下一代責任的中間世代」與本句語境不同。",
-        "sandwich-mcq-03": "「把某人／某物置於兩個其他東西之間」與本句語境不同。"
+        "sandwich-mcq-06": "本句的「sandwich filling」指「放在三文治麵包之間的餡料」。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-06"
     },
@@ -593,11 +557,9 @@ export default {
       "masked": "The shop offers several ____ fillings.",
       "options": [
         "sandwich-mcq-06",
-        "sandwich-mcq-05",
-        "sandwich-mcq-07",
-        "sandwich-mcq-04",
-        "sandwich-mcq-08",
-        "sandwich-mcq-03"
+        "sandwich-reviewed-0d94d2407e",
+        "sandwich-mcq-09",
+        "sandwich-mcq-08"
       ],
       "explanation": "本句的「sandwich」指「放在三文治麵包之間的餡料」。",
       "sentenceIndex": 14,
@@ -606,12 +568,10 @@ export default {
         "sandwich"
       ],
       "optionReasons": {
-        "sandwich-mcq-06": "本句指「放在三文治麵包之間的餡料」。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-07": "「適合製作三文治的切片麵包／方包」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。",
-        "sandwich-mcq-08": "「同時肩負照顧上一代和下一代責任的中間世代」與本句語境不同。",
-        "sandwich-mcq-03": "「把某人／某物置於兩個其他東西之間」與本句語境不同。"
+        "sandwich-mcq-06": "本句的「sandwich」指「放在三文治麵包之間的餡料」。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-06"
     },
@@ -623,11 +583,9 @@ export default {
       "masked": "Use soft ____ for this recipe.",
       "options": [
         "sandwich-mcq-07",
-        "sandwich-mcq-06",
-        "sandwich-mcq-08",
-        "sandwich-mcq-05",
         "sandwich-mcq-09",
-        "sandwich-mcq-04"
+        "sandwich-mcq-08",
+        "sandwich-reviewed-0d94d2407e"
       ],
       "explanation": "本句的「sandwich bread」指「適合製作三文治的切片麵包／方包」。",
       "sentenceIndex": 15,
@@ -636,12 +594,10 @@ export default {
         "sandwich bread"
       ],
       "optionReasons": {
-        "sandwich-mcq-07": "本句指「適合製作三文治的切片麵包／方包」。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。",
-        "sandwich-mcq-08": "「同時肩負照顧上一代和下一代責任的中間世代」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-09": "「兩面相連、通常呈 A 字形放置的廣告牌」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。"
+        "sandwich-mcq-07": "本句的「sandwich bread」指「適合製作三文治的切片麵包／方包」。",
+        "sandwich-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-07"
     },
@@ -653,11 +609,9 @@ export default {
       "masked": "The bakery sells fresh ____ bread every morning.",
       "options": [
         "sandwich-mcq-07",
-        "sandwich-mcq-06",
+        "sandwich-mcq-04",
         "sandwich-mcq-08",
-        "sandwich-mcq-05",
-        "sandwich-mcq-09",
-        "sandwich-mcq-04"
+        "sandwich-reviewed-0d94d2407e"
       ],
       "explanation": "本句的「sandwich」指「適合製作三文治的切片麵包／方包」。",
       "sentenceIndex": 16,
@@ -666,12 +620,10 @@ export default {
         "sandwich"
       ],
       "optionReasons": {
-        "sandwich-mcq-07": "本句指「適合製作三文治的切片麵包／方包」。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。",
-        "sandwich-mcq-08": "「同時肩負照顧上一代和下一代責任的中間世代」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-09": "「兩面相連、通常呈 A 字形放置的廣告牌」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。"
+        "sandwich-mcq-07": "本句的「sandwich」指「適合製作三文治的切片麵包／方包」。",
+        "sandwich-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-07"
     },
@@ -683,11 +635,9 @@ export default {
       "masked": "A new ____ opened near the school.",
       "options": [
         "sandwich-mcq-07",
-        "sandwich-mcq-06",
-        "sandwich-mcq-08",
         "sandwich-mcq-05",
-        "sandwich-mcq-09",
-        "sandwich-mcq-04"
+        "sandwich-mcq-08",
+        "sandwich-mcq-09"
       ],
       "explanation": "本句的「sandwich shop」指「適合製作三文治的切片麵包／方包」。",
       "sentenceIndex": 17,
@@ -696,12 +646,10 @@ export default {
         "sandwich shop"
       ],
       "optionReasons": {
-        "sandwich-mcq-07": "本句指「適合製作三文治的切片麵包／方包」。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。",
-        "sandwich-mcq-08": "「同時肩負照顧上一代和下一代責任的中間世代」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-09": "「兩面相連、通常呈 A 字形放置的廣告牌」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。"
+        "sandwich-mcq-07": "本句的「sandwich shop」指「適合製作三文治的切片麵包／方包」。",
+        "sandwich-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-07"
     },
@@ -713,11 +661,9 @@ export default {
       "masked": "The ____ shop gets busy at lunchtime.",
       "options": [
         "sandwich-mcq-07",
-        "sandwich-mcq-06",
+        "sandwich-mcq-03",
         "sandwich-mcq-08",
-        "sandwich-mcq-05",
-        "sandwich-mcq-09",
-        "sandwich-mcq-04"
+        "sandwich-reviewed-0d94d2407e"
       ],
       "explanation": "本句的「sandwich」指「適合製作三文治的切片麵包／方包」。",
       "sentenceIndex": 18,
@@ -726,44 +672,40 @@ export default {
         "sandwich"
       ],
       "optionReasons": {
-        "sandwich-mcq-07": "本句指「適合製作三文治的切片麵包／方包」。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。",
-        "sandwich-mcq-08": "「同時肩負照顧上一代和下一代責任的中間世代」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-09": "「兩面相連、通常呈 A 字形放置的廣告牌」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。"
+        "sandwich-mcq-07": "本句的「sandwich」指「適合製作三文治的切片麵包／方包」。",
+        "sandwich-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-07"
     },
     {
       "id": "sandwich-11-0",
-      "sense": "sandwich-mcq-07",
+      "sense": "sandwich-reviewed-0d94d2407e",
       "en": "The children ate chocolate sandwich biscuits.",
       "zh": "孩子們吃了朱古力夾心餅乾。",
       "masked": "The children ate chocolate ____.",
       "options": [
-        "sandwich-mcq-07",
-        "sandwich-mcq-06",
-        "sandwich-mcq-08",
-        "sandwich-mcq-05",
+        "sandwich-reviewed-0d94d2407e",
         "sandwich-mcq-09",
-        "sandwich-mcq-04"
+        "sandwich-mcq-06",
+        "sandwich-mcq-08"
       ],
-      "explanation": "本句的「sandwich biscuits」指「適合製作三文治的切片麵包／方包」。",
+      "explanation": "對照完整句子：「孩子們吃了朱古力夾心餅乾。」。這裡的「sandwich biscuits」表示「夾心餅乾」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "sandwich biscuits"
       ],
       "optionReasons": {
-        "sandwich-mcq-07": "本句指「適合製作三文治的切片麵包／方包」。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。",
-        "sandwich-mcq-08": "「同時肩負照顧上一代和下一代責任的中間世代」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-09": "「兩面相連、通常呈 A 字形放置的廣告牌」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。"
+        "sandwich-reviewed-0d94d2407e": "對照完整句子：「孩子們吃了朱古力夾心餅乾。」。這裡的「sandwich biscuits」表示「夾心餅乾」。",
+        "sandwich-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "sandwich-mcq-07"
+      "correctOption": "sandwich-reviewed-0d94d2407e",
+      "previousCorrectOption": "sandwich-mcq-07",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "sandwich-12-0",
@@ -773,11 +715,9 @@ export default {
       "masked": "Many people in the ____ care for both children and ageing parents.",
       "options": [
         "sandwich-mcq-08",
-        "sandwich-mcq-07",
+        "sandwich-reviewed-0d94d2407e",
         "sandwich-mcq-09",
-        "sandwich-mcq-06",
-        "sandwich-mcq-05",
-        "sandwich-mcq-04"
+        "sandwich-mcq-07"
       ],
       "explanation": "本句的「sandwich generation」指「同時肩負照顧上一代和下一代責任的中間世代」。",
       "sentenceIndex": 22,
@@ -786,12 +726,10 @@ export default {
         "sandwich generation"
       ],
       "optionReasons": {
-        "sandwich-mcq-08": "本句指「同時肩負照顧上一代和下一代責任的中間世代」。",
-        "sandwich-mcq-07": "「適合製作三文治的切片麵包／方包」與本句語境不同。",
-        "sandwich-mcq-09": "「兩面相連、通常呈 A 字形放置的廣告牌」與本句語境不同。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。"
+        "sandwich-mcq-08": "本句的「sandwich generation」指「同時肩負照顧上一代和下一代責任的中間世代」。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-08"
     },
@@ -805,9 +743,7 @@ export default {
         "sandwich-mcq-08",
         "sandwich-mcq-07",
         "sandwich-mcq-09",
-        "sandwich-mcq-06",
-        "sandwich-mcq-05",
-        "sandwich-mcq-04"
+        "sandwich-reviewed-0d94d2407e"
       ],
       "explanation": "本句的「sandwich」指「同時肩負照顧上一代和下一代責任的中間世代」。",
       "sentenceIndex": 23,
@@ -816,12 +752,10 @@ export default {
         "sandwich"
       ],
       "optionReasons": {
-        "sandwich-mcq-08": "本句指「同時肩負照顧上一代和下一代責任的中間世代」。",
-        "sandwich-mcq-07": "「適合製作三文治的切片麵包／方包」與本句語境不同。",
-        "sandwich-mcq-09": "「兩面相連、通常呈 A 字形放置的廣告牌」與本句語境不同。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。"
+        "sandwich-mcq-08": "本句的「sandwich」指「同時肩負照顧上一代和下一代責任的中間世代」。",
+        "sandwich-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-08"
     },
@@ -833,11 +767,9 @@ export default {
       "masked": "The café placed a ____ outside.",
       "options": [
         "sandwich-mcq-09",
-        "sandwich-mcq-08",
         "sandwich-mcq-07",
-        "sandwich-mcq-06",
-        "sandwich-mcq-05",
-        "sandwich-mcq-04"
+        "sandwich-mcq-08",
+        "sandwich-reviewed-0d94d2407e"
       ],
       "explanation": "本句的「sandwich board」指「兩面相連、通常呈 A 字形放置的廣告牌」。",
       "sentenceIndex": 24,
@@ -846,12 +778,10 @@ export default {
         "sandwich board"
       ],
       "optionReasons": {
-        "sandwich-mcq-09": "本句指「兩面相連、通常呈 A 字形放置的廣告牌」。",
-        "sandwich-mcq-08": "「同時肩負照顧上一代和下一代責任的中間世代」與本句語境不同。",
-        "sandwich-mcq-07": "「適合製作三文治的切片麵包／方包」與本句語境不同。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。"
+        "sandwich-mcq-09": "本句的「sandwich board」指「兩面相連、通常呈 A 字形放置的廣告牌」。",
+        "sandwich-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-09"
     },
@@ -865,9 +795,7 @@ export default {
         "sandwich-mcq-09",
         "sandwich-mcq-08",
         "sandwich-mcq-07",
-        "sandwich-mcq-06",
-        "sandwich-mcq-05",
-        "sandwich-mcq-04"
+        "sandwich-reviewed-0d94d2407e"
       ],
       "explanation": "本句的「sandwich」指「兩面相連、通常呈 A 字形放置的廣告牌」。",
       "sentenceIndex": 25,
@@ -876,12 +804,10 @@ export default {
         "sandwich"
       ],
       "optionReasons": {
-        "sandwich-mcq-09": "本句指「兩面相連、通常呈 A 字形放置的廣告牌」。",
-        "sandwich-mcq-08": "「同時肩負照顧上一代和下一代責任的中間世代」與本句語境不同。",
-        "sandwich-mcq-07": "「適合製作三文治的切片麵包／方包」與本句語境不同。",
-        "sandwich-mcq-06": "「放在三文治麵包之間的餡料」與本句語境不同。",
-        "sandwich-mcq-05": "「把某件事情硬塞或安排在另外兩件事之間」與本句語境不同。",
-        "sandwich-mcq-04": "「被夾／擠在兩個人、物件、地方或事件之間」與本句語境不同。"
+        "sandwich-mcq-09": "本句的「sandwich」指「兩面相連、通常呈 A 字形放置的廣告牌」。",
+        "sandwich-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sandwich-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sandwich-reviewed-0d94d2407e": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sandwich-mcq-09"
     }
@@ -893,5 +819,7 @@ export default {
     "sha256": "4de777a56b3e2100f2aed1468ade89657f6d01ff459d5c796297aaecbc612d8b",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

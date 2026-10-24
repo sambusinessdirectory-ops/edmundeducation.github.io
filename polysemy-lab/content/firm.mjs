@@ -545,11 +545,9 @@ export default {
       "masked": "He was ____, but fair.",
       "options": [
         "firm-mcq-22",
-        "firm-mcq-21",
-        "firm-mcq-23",
-        "firm-mcq-20",
-        "firm-mcq-19",
-        "firm-mcq-18"
+        "firm-mcq-14",
+        "firm-mcq-12",
+        "firm-mcq-17"
       ],
       "explanation": "本句的「firm」指「對規則、決定或立場保持明確，不輕易被說服改變」。",
       "sentenceIndex": 0,
@@ -558,12 +556,10 @@ export default {
         "firm"
       ],
       "optionReasons": {
-        "firm-mcq-22": "本句指「對規則、決定或立場保持明確，不輕易被說服改變」。",
-        "firm-mcq-21": "「堅定／硬度」是「firmness」的用法，與本句語境不同。",
-        "firm-mcq-23": "「結構穩定，不容易移動、倒下或鬆脫」是「15. firm（穩固的；不搖動的） — 穩固的；牢靠的」的用法，與本句語境不同。",
-        "firm-mcq-20": "「堅定地／牢牢地」是「firmly」的用法，與本句語境不同。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。"
+        "firm-mcq-22": "本句的「firm」指「對規則、決定或立場保持明確，不輕易被說服改變」。",
+        "firm-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-22"
     },
@@ -575,11 +571,9 @@ export default {
       "masked": "She is a ____ teacher who expects students to follow the rules.",
       "options": [
         "firm-mcq-22",
-        "firm-mcq-21",
-        "firm-mcq-23",
-        "firm-mcq-20",
-        "firm-mcq-19",
-        "firm-mcq-18"
+        "firm-mcq-13",
+        "firm-mcq-12",
+        "firm-mcq-17"
       ],
       "explanation": "本句的「firm」指「對規則、決定或立場保持明確，不輕易被說服改變」。",
       "sentenceIndex": 1,
@@ -588,12 +582,10 @@ export default {
         "firm"
       ],
       "optionReasons": {
-        "firm-mcq-22": "本句指「對規則、決定或立場保持明確，不輕易被說服改變」。",
-        "firm-mcq-21": "「堅定／硬度」是「firmness」的用法，與本句語境不同。",
-        "firm-mcq-23": "「結構穩定，不容易移動、倒下或鬆脫」是「15. firm（穩固的；不搖動的） — 穩固的；牢靠的」的用法，與本句語境不同。",
-        "firm-mcq-20": "「堅定地／牢牢地」是「firmly」的用法，與本句語境不同。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。"
+        "firm-mcq-22": "本句的「firm」指「對規則、決定或立場保持明確，不輕易被說服改變」。",
+        "firm-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-22"
     },
@@ -605,11 +597,9 @@ export default {
       "masked": "You need to be ____ without being rude.",
       "options": [
         "firm-mcq-22",
-        "firm-mcq-21",
-        "firm-mcq-23",
-        "firm-mcq-20",
-        "firm-mcq-19",
-        "firm-mcq-18"
+        "firm-mcq-11",
+        "firm-mcq-15",
+        "firm-mcq-10"
       ],
       "explanation": "本句的「firm」指「對規則、決定或立場保持明確，不輕易被說服改變」。",
       "sentenceIndex": 2,
@@ -618,12 +608,10 @@ export default {
         "firm"
       ],
       "optionReasons": {
-        "firm-mcq-22": "本句指「對規則、決定或立場保持明確，不輕易被說服改變」。",
-        "firm-mcq-21": "「堅定／硬度」是「firmness」的用法，與本句語境不同。",
-        "firm-mcq-23": "「結構穩定，不容易移動、倒下或鬆脫」是「15. firm（穩固的；不搖動的） — 穩固的；牢靠的」的用法，與本句語境不同。",
-        "firm-mcq-20": "「堅定地／牢牢地」是「firmly」的用法，與本句語境不同。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。"
+        "firm-mcq-22": "本句的「firm」指「對規則、決定或立場保持明確，不輕易被說服改變」。",
+        "firm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-22"
     },
@@ -635,11 +623,9 @@ export default {
       "masked": "A good teacher can be ____.",
       "options": [
         "firm-mcq-02",
-        "firm-mcq-01",
-        "firm-mcq-03",
-        "firm-mcq-04",
-        "firm-mcq-05",
-        "firm-mcq-06"
+        "firm-mcq-19",
+        "firm-mcq-16",
+        "firm-mcq-12"
       ],
       "explanation": "本句的「firm but fair」指「堅定但公平」。",
       "sentenceIndex": 3,
@@ -648,12 +634,10 @@ export default {
         "firm but fair"
       ],
       "optionReasons": {
-        "firm-mcq-02": "本句指「堅定但公平」。",
-        "firm-mcq-01": "「有原則／堅定的」是「firm teacher/person」的用法，與本句語境不同。",
-        "firm-mcq-03": "「堅定／明確決定」是「firm decision」的用法，與本句語境不同。",
-        "firm-mcq-04": "「堅定信念」是「firm belief」的用法，與本句語境不同。",
-        "firm-mcq-05": "「堅定立場」是「firm position」的用法，與本句語境不同。",
-        "firm-mcq-06": "「明確答覆」是「firm answer」的用法，與本句語境不同。"
+        "firm-mcq-02": "本句的「firm but fair」指「堅定但公平」。",
+        "firm-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-02"
     },
@@ -665,11 +649,9 @@ export default {
       "masked": "Her management style is ____.",
       "options": [
         "firm-mcq-02",
-        "firm-mcq-01",
-        "firm-mcq-03",
-        "firm-mcq-04",
-        "firm-mcq-05",
-        "firm-mcq-06"
+        "firm-mcq-16",
+        "firm-mcq-11",
+        "firm-mcq-12"
       ],
       "explanation": "本句的「firm but fair」指「堅定但公平」。",
       "sentenceIndex": 4,
@@ -678,12 +660,10 @@ export default {
         "firm but fair"
       ],
       "optionReasons": {
-        "firm-mcq-02": "本句指「堅定但公平」。",
-        "firm-mcq-01": "「有原則／堅定的」是「firm teacher/person」的用法，與本句語境不同。",
-        "firm-mcq-03": "「堅定／明確決定」是「firm decision」的用法，與本句語境不同。",
-        "firm-mcq-04": "「堅定信念」是「firm belief」的用法，與本句語境不同。",
-        "firm-mcq-05": "「堅定立場」是「firm position」的用法，與本句語境不同。",
-        "firm-mcq-06": "「明確答覆」是「firm answer」的用法，與本句語境不同。"
+        "firm-mcq-02": "本句的「firm but fair」指「堅定但公平」。",
+        "firm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-02"
     },
@@ -695,11 +675,9 @@ export default {
       "masked": "She made a ____ to leave.",
       "options": [
         "firm-mcq-03",
-        "firm-mcq-02",
-        "firm-mcq-04",
-        "firm-mcq-01",
-        "firm-mcq-05",
-        "firm-mcq-06"
+        "firm-mcq-12",
+        "firm-mcq-16",
+        "firm-mcq-19"
       ],
       "explanation": "本句的「firm decision」指「堅定／明確決定」。",
       "sentenceIndex": 5,
@@ -708,12 +686,10 @@ export default {
         "firm decision"
       ],
       "optionReasons": {
-        "firm-mcq-03": "本句指「堅定／明確決定」。",
-        "firm-mcq-02": "「堅定但公平」是「firm but fair」的用法，與本句語境不同。",
-        "firm-mcq-04": "「堅定信念」是「firm belief」的用法，與本句語境不同。",
-        "firm-mcq-01": "「有原則／堅定的」是「firm teacher/person」的用法，與本句語境不同。",
-        "firm-mcq-05": "「堅定立場」是「firm position」的用法，與本句語境不同。",
-        "firm-mcq-06": "「明確答覆」是「firm answer」的用法，與本句語境不同。"
+        "firm-mcq-03": "本句的「firm decision」指「堅定／明確決定」。",
+        "firm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-03"
     },
@@ -725,11 +701,9 @@ export default {
       "masked": "We need a ____ by Friday.",
       "options": [
         "firm-mcq-03",
-        "firm-mcq-02",
-        "firm-mcq-04",
-        "firm-mcq-01",
-        "firm-mcq-05",
-        "firm-mcq-06"
+        "firm-mcq-12",
+        "firm-mcq-15",
+        "firm-mcq-11"
       ],
       "explanation": "本句的「firm decision」指「堅定／明確決定」。",
       "sentenceIndex": 6,
@@ -738,12 +712,10 @@ export default {
         "firm decision"
       ],
       "optionReasons": {
-        "firm-mcq-03": "本句指「堅定／明確決定」。",
-        "firm-mcq-02": "「堅定但公平」是「firm but fair」的用法，與本句語境不同。",
-        "firm-mcq-04": "「堅定信念」是「firm belief」的用法，與本句語境不同。",
-        "firm-mcq-01": "「有原則／堅定的」是「firm teacher/person」的用法，與本句語境不同。",
-        "firm-mcq-05": "「堅定立場」是「firm position」的用法，與本句語境不同。",
-        "firm-mcq-06": "「明確答覆」是「firm answer」的用法，與本句語境不同。"
+        "firm-mcq-03": "本句的「firm decision」指「堅定／明確決定」。",
+        "firm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-03"
     },
@@ -755,11 +727,9 @@ export default {
       "masked": "He has a ____ in education.",
       "options": [
         "firm-mcq-04",
-        "firm-mcq-03",
-        "firm-mcq-05",
-        "firm-mcq-02",
-        "firm-mcq-06",
-        "firm-mcq-01"
+        "firm-mcq-19",
+        "firm-mcq-16",
+        "firm-mcq-17"
       ],
       "explanation": "本句的「firm belief」指「堅定信念」。",
       "sentenceIndex": 7,
@@ -768,12 +738,10 @@ export default {
         "firm belief"
       ],
       "optionReasons": {
-        "firm-mcq-04": "本句指「堅定信念」。",
-        "firm-mcq-03": "「堅定／明確決定」是「firm decision」的用法，與本句語境不同。",
-        "firm-mcq-05": "「堅定立場」是「firm position」的用法，與本句語境不同。",
-        "firm-mcq-02": "「堅定但公平」是「firm but fair」的用法，與本句語境不同。",
-        "firm-mcq-06": "「明確答覆」是「firm answer」的用法，與本句語境不同。",
-        "firm-mcq-01": "「有原則／堅定的」是「firm teacher/person」的用法，與本句語境不同。"
+        "firm-mcq-04": "本句的「firm belief」指「堅定信念」。",
+        "firm-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-04"
     },
@@ -785,11 +753,9 @@ export default {
       "masked": "She remained ____ that the plan would work.",
       "options": [
         "firm-mcq-04",
-        "firm-mcq-03",
-        "firm-mcq-05",
-        "firm-mcq-02",
-        "firm-mcq-06",
-        "firm-mcq-01"
+        "firm-mcq-16",
+        "firm-mcq-15",
+        "firm-mcq-19"
       ],
       "explanation": "本句的「firm in her belief」指「堅定信念」。",
       "sentenceIndex": 8,
@@ -798,12 +764,10 @@ export default {
         "firm in her belief"
       ],
       "optionReasons": {
-        "firm-mcq-04": "本句指「堅定信念」。",
-        "firm-mcq-03": "「堅定／明確決定」是「firm decision」的用法，與本句語境不同。",
-        "firm-mcq-05": "「堅定立場」是「firm position」的用法，與本句語境不同。",
-        "firm-mcq-02": "「堅定但公平」是「firm but fair」的用法，與本句語境不同。",
-        "firm-mcq-06": "「明確答覆」是「firm answer」的用法，與本句語境不同。",
-        "firm-mcq-01": "「有原則／堅定的」是「firm teacher/person」的用法，與本句語境不同。"
+        "firm-mcq-04": "本句的「firm in her belief」指「堅定信念」。",
+        "firm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-04"
     },
@@ -815,11 +779,9 @@ export default {
       "masked": "He has a ____ on the issue.",
       "options": [
         "firm-mcq-05",
-        "firm-mcq-04",
-        "firm-mcq-06",
-        "firm-mcq-03",
-        "firm-mcq-07",
-        "firm-mcq-02"
+        "firm-mcq-11",
+        "firm-mcq-17",
+        "firm-mcq-16"
       ],
       "explanation": "本句的「firm opinion」指「堅定立場」。",
       "sentenceIndex": 9,
@@ -828,12 +790,10 @@ export default {
         "firm opinion"
       ],
       "optionReasons": {
-        "firm-mcq-05": "本句指「堅定立場」。",
-        "firm-mcq-04": "「堅定信念」是「firm belief」的用法，與本句語境不同。",
-        "firm-mcq-06": "「明確答覆」是「firm answer」的用法，與本句語境不同。",
-        "firm-mcq-03": "「堅定／明確決定」是「firm decision」的用法，與本句語境不同。",
-        "firm-mcq-07": "「堅定承諾」是「firm commitment」的用法，與本句語境不同。",
-        "firm-mcq-02": "「堅定但公平」是「firm but fair」的用法，與本句語境不同。"
+        "firm-mcq-05": "本句的「firm opinion」指「堅定立場」。",
+        "firm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-05"
     },
@@ -845,11 +805,9 @@ export default {
       "masked": "The school took a ____ on bullying.",
       "options": [
         "firm-mcq-05",
-        "firm-mcq-04",
-        "firm-mcq-06",
-        "firm-mcq-03",
-        "firm-mcq-07",
-        "firm-mcq-02"
+        "firm-mcq-16",
+        "firm-mcq-10",
+        "firm-mcq-17"
       ],
       "explanation": "本句的「firm position」指「堅定立場」。",
       "sentenceIndex": 10,
@@ -858,12 +816,10 @@ export default {
         "firm position"
       ],
       "optionReasons": {
-        "firm-mcq-05": "本句指「堅定立場」。",
-        "firm-mcq-04": "「堅定信念」是「firm belief」的用法，與本句語境不同。",
-        "firm-mcq-06": "「明確答覆」是「firm answer」的用法，與本句語境不同。",
-        "firm-mcq-03": "「堅定／明確決定」是「firm decision」的用法，與本句語境不同。",
-        "firm-mcq-07": "「堅定承諾」是「firm commitment」的用法，與本句語境不同。",
-        "firm-mcq-02": "「堅定但公平」是「firm but fair」的用法，與本句語境不同。"
+        "firm-mcq-05": "本句的「firm position」指「堅定立場」。",
+        "firm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-05"
     },
@@ -875,11 +831,9 @@ export default {
       "masked": "She gave a ____.",
       "options": [
         "firm-mcq-06",
-        "firm-mcq-05",
-        "firm-mcq-07",
-        "firm-mcq-04",
-        "firm-mcq-08",
-        "firm-mcq-03"
+        "firm-mcq-10",
+        "firm-mcq-18",
+        "firm-mcq-11"
       ],
       "explanation": "本句的「firm no」指「明確答覆」。",
       "sentenceIndex": 11,
@@ -888,12 +842,10 @@ export default {
         "firm no"
       ],
       "optionReasons": {
-        "firm-mcq-06": "本句指「明確答覆」。",
-        "firm-mcq-05": "「堅定立場」是「firm position」的用法，與本句語境不同。",
-        "firm-mcq-07": "「堅定承諾」是「firm commitment」的用法，與本句語境不同。",
-        "firm-mcq-04": "「堅定信念」是「firm belief」的用法，與本句語境不同。",
-        "firm-mcq-08": "「堅持立場」是「stand firm」的用法，與本句語境不同。",
-        "firm-mcq-03": "「堅定／明確決定」是「firm decision」的用法，與本句語境不同。"
+        "firm-mcq-06": "本句的「firm no」指「明確答覆」。",
+        "firm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-06"
     },
@@ -905,11 +857,9 @@ export default {
       "masked": "I need a ____ today.",
       "options": [
         "firm-mcq-06",
-        "firm-mcq-05",
-        "firm-mcq-07",
-        "firm-mcq-04",
+        "firm-mcq-21",
         "firm-mcq-08",
-        "firm-mcq-03"
+        "firm-mcq-16"
       ],
       "explanation": "本句的「firm answer」指「明確答覆」。",
       "sentenceIndex": 12,
@@ -918,12 +868,10 @@ export default {
         "firm answer"
       ],
       "optionReasons": {
-        "firm-mcq-06": "本句指「明確答覆」。",
-        "firm-mcq-05": "「堅定立場」是「firm position」的用法，與本句語境不同。",
-        "firm-mcq-07": "「堅定承諾」是「firm commitment」的用法，與本句語境不同。",
-        "firm-mcq-04": "「堅定信念」是「firm belief」的用法，與本句語境不同。",
-        "firm-mcq-08": "「堅持立場」是「stand firm」的用法，與本句語境不同。",
-        "firm-mcq-03": "「堅定／明確決定」是「firm decision」的用法，與本句語境不同。"
+        "firm-mcq-06": "本句的「firm answer」指「明確答覆」。",
+        "firm-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-06"
     },
@@ -935,11 +883,9 @@ export default {
       "masked": "The company made a ____ to reduce waste.",
       "options": [
         "firm-mcq-07",
-        "firm-mcq-06",
-        "firm-mcq-08",
-        "firm-mcq-05",
-        "firm-mcq-09",
-        "firm-mcq-04"
+        "firm-mcq-19",
+        "firm-mcq-17",
+        "firm-mcq-06"
       ],
       "explanation": "本句的「firm commitment」指「堅定承諾」。",
       "sentenceIndex": 13,
@@ -948,12 +894,10 @@ export default {
         "firm commitment"
       ],
       "optionReasons": {
-        "firm-mcq-07": "本句指「堅定承諾」。",
-        "firm-mcq-06": "「明確答覆」是「firm answer」的用法，與本句語境不同。",
-        "firm-mcq-08": "「堅持立場」是「stand firm」的用法，與本句語境不同。",
-        "firm-mcq-05": "「堅定立場」是「firm position」的用法，與本句語境不同。",
-        "firm-mcq-09": "「保持不變／堅持」是「hold firm」的用法，與本句語境不同。",
-        "firm-mcq-04": "「堅定信念」是「firm belief」的用法，與本句語境不同。"
+        "firm-mcq-07": "本句的「firm commitment」指「堅定承諾」。",
+        "firm-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-07"
     },
@@ -965,11 +909,9 @@ export default {
       "masked": "We need a ____ from everyone involved.",
       "options": [
         "firm-mcq-07",
-        "firm-mcq-06",
-        "firm-mcq-08",
-        "firm-mcq-05",
-        "firm-mcq-09",
-        "firm-mcq-04"
+        "firm-mcq-16",
+        "firm-mcq-11",
+        "firm-mcq-12"
       ],
       "explanation": "本句的「firm commitment」指「堅定承諾」。",
       "sentenceIndex": 14,
@@ -978,12 +920,10 @@ export default {
         "firm commitment"
       ],
       "optionReasons": {
-        "firm-mcq-07": "本句指「堅定承諾」。",
-        "firm-mcq-06": "「明確答覆」是「firm answer」的用法，與本句語境不同。",
-        "firm-mcq-08": "「堅持立場」是「stand firm」的用法，與本句語境不同。",
-        "firm-mcq-05": "「堅定立場」是「firm position」的用法，與本句語境不同。",
-        "firm-mcq-09": "「保持不變／堅持」是「hold firm」的用法，與本句語境不同。",
-        "firm-mcq-04": "「堅定信念」是「firm belief」的用法，與本句語境不同。"
+        "firm-mcq-07": "本句的「firm commitment」指「堅定承諾」。",
+        "firm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-07"
     },
@@ -995,11 +935,9 @@ export default {
       "masked": "She ____ despite the criticism.",
       "options": [
         "firm-mcq-08",
-        "firm-mcq-07",
-        "firm-mcq-09",
-        "firm-mcq-06",
-        "firm-mcq-10",
-        "firm-mcq-05"
+        "firm-mcq-19",
+        "firm-mcq-17",
+        "firm-mcq-10"
       ],
       "explanation": "本句的「stood firm」指「堅持立場」。",
       "sentenceIndex": 15,
@@ -1008,12 +946,10 @@ export default {
         "stood firm"
       ],
       "optionReasons": {
-        "firm-mcq-08": "本句指「堅持立場」。",
-        "firm-mcq-07": "「堅定承諾」是「firm commitment」的用法，與本句語境不同。",
-        "firm-mcq-09": "「保持不變／堅持」是「hold firm」的用法，與本句語境不同。",
-        "firm-mcq-06": "「明確答覆」是「firm answer」的用法，與本句語境不同。",
-        "firm-mcq-10": "「偏硬床褥」是「firm mattress」的用法，與本句語境不同。",
-        "firm-mcq-05": "「堅定立場」是「firm position」的用法，與本句語境不同。"
+        "firm-mcq-08": "本句的「stood firm」指「堅持立場」。",
+        "firm-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-08"
     },
@@ -1025,11 +961,9 @@ export default {
       "masked": "The teacher ____ on the rule.",
       "options": [
         "firm-mcq-08",
-        "firm-mcq-07",
-        "firm-mcq-09",
-        "firm-mcq-06",
-        "firm-mcq-10",
-        "firm-mcq-05"
+        "firm-mcq-19",
+        "firm-mcq-15",
+        "firm-mcq-06"
       ],
       "explanation": "本句的「stood firm」指「堅持立場」。",
       "sentenceIndex": 16,
@@ -1038,12 +972,10 @@ export default {
         "stood firm"
       ],
       "optionReasons": {
-        "firm-mcq-08": "本句指「堅持立場」。",
-        "firm-mcq-07": "「堅定承諾」是「firm commitment」的用法，與本句語境不同。",
-        "firm-mcq-09": "「保持不變／堅持」是「hold firm」的用法，與本句語境不同。",
-        "firm-mcq-06": "「明確答覆」是「firm answer」的用法，與本句語境不同。",
-        "firm-mcq-10": "「偏硬床褥」是「firm mattress」的用法，與本句語境不同。",
-        "firm-mcq-05": "「堅定立場」是「firm position」的用法，與本句語境不同。"
+        "firm-mcq-08": "本句的「stood firm」指「堅持立場」。",
+        "firm-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-08"
     },
@@ -1055,11 +987,9 @@ export default {
       "masked": "Prices ____ despite weak demand.",
       "options": [
         "firm-mcq-09",
-        "firm-mcq-08",
-        "firm-mcq-10",
-        "firm-mcq-07",
-        "firm-mcq-11",
-        "firm-mcq-06"
+        "firm-mcq-17",
+        "firm-mcq-12",
+        "firm-mcq-10"
       ],
       "explanation": "本句的「held firm」指「保持不變／堅持」。",
       "sentenceIndex": 17,
@@ -1068,12 +998,10 @@ export default {
         "held firm"
       ],
       "optionReasons": {
-        "firm-mcq-09": "本句指「保持不變／堅持」。",
-        "firm-mcq-08": "「堅持立場」是「stand firm」的用法，與本句語境不同。",
-        "firm-mcq-10": "「偏硬床褥」是「firm mattress」的用法，與本句語境不同。",
-        "firm-mcq-07": "「堅定承諾」是「firm commitment」的用法，與本句語境不同。",
-        "firm-mcq-11": "「結實水果」是「firm fruit」的用法，與本句語境不同。",
-        "firm-mcq-06": "「明確答覆」是「firm answer」的用法，與本句語境不同。"
+        "firm-mcq-09": "本句的「held firm」指「保持不變／堅持」。",
+        "firm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-09"
     },
@@ -1085,11 +1013,9 @@ export default {
       "masked": "She ____ to her decision.",
       "options": [
         "firm-mcq-09",
-        "firm-mcq-08",
-        "firm-mcq-10",
-        "firm-mcq-07",
-        "firm-mcq-11",
-        "firm-mcq-06"
+        "firm-mcq-12",
+        "firm-mcq-23",
+        "firm-mcq-11"
       ],
       "explanation": "本句的「held firm」指「保持不變／堅持」。",
       "sentenceIndex": 18,
@@ -1098,12 +1024,10 @@ export default {
         "held firm"
       ],
       "optionReasons": {
-        "firm-mcq-09": "本句指「保持不變／堅持」。",
-        "firm-mcq-08": "「堅持立場」是「stand firm」的用法，與本句語境不同。",
-        "firm-mcq-10": "「偏硬床褥」是「firm mattress」的用法，與本句語境不同。",
-        "firm-mcq-07": "「堅定承諾」是「firm commitment」的用法，與本句語境不同。",
-        "firm-mcq-11": "「結實水果」是「firm fruit」的用法，與本句語境不同。",
-        "firm-mcq-06": "「明確答覆」是「firm answer」的用法，與本句語境不同。"
+        "firm-mcq-09": "本句的「held firm」指「保持不變／堅持」。",
+        "firm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-09"
     },
@@ -1115,11 +1039,9 @@ export default {
       "masked": "The mattress is quite ____.",
       "options": [
         "firm-mcq-22",
-        "firm-mcq-21",
-        "firm-mcq-23",
-        "firm-mcq-20",
-        "firm-mcq-19",
-        "firm-mcq-18"
+        "firm-mcq-11",
+        "firm-mcq-17",
+        "firm-mcq-14"
       ],
       "explanation": "本句的「firm」指「對規則、決定或立場保持明確，不輕易被說服改變」。",
       "sentenceIndex": 19,
@@ -1128,12 +1050,10 @@ export default {
         "firm"
       ],
       "optionReasons": {
-        "firm-mcq-22": "本句指「對規則、決定或立場保持明確，不輕易被說服改變」。",
-        "firm-mcq-21": "「堅定／硬度」是「firmness」的用法，與本句語境不同。",
-        "firm-mcq-23": "「結構穩定，不容易移動、倒下或鬆脫」是「15. firm（穩固的；不搖動的） — 穩固的；牢靠的」的用法，與本句語境不同。",
-        "firm-mcq-20": "「堅定地／牢牢地」是「firmly」的用法，與本句語境不同。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。"
+        "firm-mcq-22": "本句的「firm」指「對規則、決定或立場保持明確，不輕易被說服改變」。",
+        "firm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-22"
     },
@@ -1145,11 +1065,9 @@ export default {
       "masked": "Choose tomatoes that feel ____.",
       "options": [
         "firm-mcq-22",
-        "firm-mcq-21",
-        "firm-mcq-23",
-        "firm-mcq-20",
-        "firm-mcq-19",
-        "firm-mcq-18"
+        "firm-mcq-15",
+        "firm-mcq-11",
+        "firm-mcq-14"
       ],
       "explanation": "本句的「firm」指「對規則、決定或立場保持明確，不輕易被說服改變」。",
       "sentenceIndex": 20,
@@ -1158,12 +1076,10 @@ export default {
         "firm"
       ],
       "optionReasons": {
-        "firm-mcq-22": "本句指「對規則、決定或立場保持明確，不輕易被說服改變」。",
-        "firm-mcq-21": "「堅定／硬度」是「firmness」的用法，與本句語境不同。",
-        "firm-mcq-23": "「結構穩定，不容易移動、倒下或鬆脫」是「15. firm（穩固的；不搖動的） — 穩固的；牢靠的」的用法，與本句語境不同。",
-        "firm-mcq-20": "「堅定地／牢牢地」是「firmly」的用法，與本句語境不同。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。"
+        "firm-mcq-22": "本句的「firm」指「對規則、決定或立場保持明確，不輕易被說服改變」。",
+        "firm-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-22"
     },
@@ -1175,11 +1091,9 @@ export default {
       "masked": "I prefer a ____.",
       "options": [
         "firm-mcq-10",
-        "firm-mcq-09",
-        "firm-mcq-11",
-        "firm-mcq-08",
-        "firm-mcq-12",
-        "firm-mcq-07"
+        "firm-mcq-05",
+        "firm-mcq-14",
+        "firm-mcq-23"
       ],
       "explanation": "本句的「firm mattress」指「偏硬床褥」。",
       "sentenceIndex": 21,
@@ -1188,12 +1102,10 @@ export default {
         "firm mattress"
       ],
       "optionReasons": {
-        "firm-mcq-10": "本句指「偏硬床褥」。",
-        "firm-mcq-09": "「保持不變／堅持」是「hold firm」的用法，與本句語境不同。",
-        "firm-mcq-11": "「結實水果」是「firm fruit」的用法，與本句語境不同。",
-        "firm-mcq-08": "「堅持立場」是「stand firm」的用法，與本句語境不同。",
-        "firm-mcq-12": "「牢固握住」是「firm grip」的用法，與本句語境不同。",
-        "firm-mcq-07": "「堅定承諾」是「firm commitment」的用法，與本句語境不同。"
+        "firm-mcq-10": "本句的「firm mattress」指「偏硬床褥」。",
+        "firm-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-10"
     },
@@ -1205,11 +1117,9 @@ export default {
       "masked": "The chair has a ____.",
       "options": [
         "firm-mcq-10",
-        "firm-mcq-09",
-        "firm-mcq-11",
-        "firm-mcq-08",
-        "firm-mcq-12",
-        "firm-mcq-07"
+        "firm-mcq-19",
+        "firm-mcq-07",
+        "firm-mcq-15"
       ],
       "explanation": "本句的「firm cushion」指「偏硬床褥」。",
       "sentenceIndex": 22,
@@ -1218,12 +1128,10 @@ export default {
         "firm cushion"
       ],
       "optionReasons": {
-        "firm-mcq-10": "本句指「偏硬床褥」。",
-        "firm-mcq-09": "「保持不變／堅持」是「hold firm」的用法，與本句語境不同。",
-        "firm-mcq-11": "「結實水果」是「firm fruit」的用法，與本句語境不同。",
-        "firm-mcq-08": "「堅持立場」是「stand firm」的用法，與本句語境不同。",
-        "firm-mcq-12": "「牢固握住」是「firm grip」的用法，與本句語境不同。",
-        "firm-mcq-07": "「堅定承諾」是「firm commitment」的用法，與本句語境不同。"
+        "firm-mcq-10": "本句的「firm cushion」指「偏硬床褥」。",
+        "firm-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-10"
     },
@@ -1235,11 +1143,9 @@ export default {
       "masked": "The apple is still ____.",
       "options": [
         "firm-mcq-11",
-        "firm-mcq-10",
-        "firm-mcq-12",
-        "firm-mcq-09",
-        "firm-mcq-13",
-        "firm-mcq-08"
+        "firm-mcq-03",
+        "firm-mcq-17",
+        "firm-mcq-14"
       ],
       "explanation": "本句的「firm」指「結實水果」。",
       "sentenceIndex": 23,
@@ -1248,12 +1154,10 @@ export default {
         "firm"
       ],
       "optionReasons": {
-        "firm-mcq-11": "本句指「結實水果」。",
-        "firm-mcq-10": "「偏硬床褥」是「firm mattress」的用法，與本句語境不同。",
-        "firm-mcq-12": "「牢固握住」是「firm grip」的用法，與本句語境不同。",
-        "firm-mcq-09": "「保持不變／堅持」是「hold firm」的用法，與本句語境不同。",
-        "firm-mcq-13": "「堅實地面」是「firm ground」的用法，與本句語境不同。",
-        "firm-mcq-08": "「堅持立場」是「stand firm」的用法，與本句語境不同。"
+        "firm-mcq-11": "本句的「firm」指「結實水果」。",
+        "firm-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-11"
     },
@@ -1265,11 +1169,9 @@ export default {
       "masked": "The fish has ____.",
       "options": [
         "firm-mcq-11",
-        "firm-mcq-10",
-        "firm-mcq-12",
-        "firm-mcq-09",
-        "firm-mcq-13",
-        "firm-mcq-08"
+        "firm-mcq-08",
+        "firm-mcq-03",
+        "firm-mcq-17"
       ],
       "explanation": "本句的「firm flesh」指「結實水果」。",
       "sentenceIndex": 24,
@@ -1278,12 +1180,10 @@ export default {
         "firm flesh"
       ],
       "optionReasons": {
-        "firm-mcq-11": "本句指「結實水果」。",
-        "firm-mcq-10": "「偏硬床褥」是「firm mattress」的用法，與本句語境不同。",
-        "firm-mcq-12": "「牢固握住」是「firm grip」的用法，與本句語境不同。",
-        "firm-mcq-09": "「保持不變／堅持」是「hold firm」的用法，與本句語境不同。",
-        "firm-mcq-13": "「堅實地面」是「firm ground」的用法，與本句語境不同。",
-        "firm-mcq-08": "「堅持立場」是「stand firm」的用法，與本句語境不同。"
+        "firm-mcq-11": "本句的「firm flesh」指「結實水果」。",
+        "firm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-11"
     },
@@ -1295,11 +1195,9 @@ export default {
       "masked": "Keep a ____ on the handle.",
       "options": [
         "firm-mcq-12",
-        "firm-mcq-11",
-        "firm-mcq-13",
-        "firm-mcq-10",
-        "firm-mcq-14",
-        "firm-mcq-09"
+        "firm-mcq-23",
+        "firm-mcq-09",
+        "firm-mcq-15"
       ],
       "explanation": "本句的「firm grip」指「牢固握住」。",
       "sentenceIndex": 25,
@@ -1308,12 +1206,10 @@ export default {
         "firm grip"
       ],
       "optionReasons": {
-        "firm-mcq-12": "本句指「牢固握住」。",
-        "firm-mcq-11": "「結實水果」是「firm fruit」的用法，與本句語境不同。",
-        "firm-mcq-13": "「堅實地面」是「firm ground」的用法，與本句語境不同。",
-        "firm-mcq-10": "「偏硬床褥」是「firm mattress」的用法，與本句語境不同。",
-        "firm-mcq-14": "「堅挺價格」是「firm prices」的用法，與本句語境不同。",
-        "firm-mcq-09": "「保持不變／堅持」是「hold firm」的用法，與本句語境不同。"
+        "firm-mcq-12": "本句的「firm grip」指「牢固握住」。",
+        "firm-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-12"
     },
@@ -1325,11 +1221,9 @@ export default {
       "masked": "She held his arm with a ____.",
       "options": [
         "firm-mcq-12",
-        "firm-mcq-11",
-        "firm-mcq-13",
-        "firm-mcq-10",
-        "firm-mcq-14",
-        "firm-mcq-09"
+        "firm-mcq-09",
+        "firm-mcq-21",
+        "firm-mcq-15"
       ],
       "explanation": "本句的「firm grip」指「牢固握住」。",
       "sentenceIndex": 26,
@@ -1338,12 +1232,10 @@ export default {
         "firm grip"
       ],
       "optionReasons": {
-        "firm-mcq-12": "本句指「牢固握住」。",
-        "firm-mcq-11": "「結實水果」是「firm fruit」的用法，與本句語境不同。",
-        "firm-mcq-13": "「堅實地面」是「firm ground」的用法，與本句語境不同。",
-        "firm-mcq-10": "「偏硬床褥」是「firm mattress」的用法，與本句語境不同。",
-        "firm-mcq-14": "「堅挺價格」是「firm prices」的用法，與本句語境不同。",
-        "firm-mcq-09": "「保持不變／堅持」是「hold firm」的用法，與本句語境不同。"
+        "firm-mcq-12": "本句的「firm grip」指「牢固握住」。",
+        "firm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-12"
     },
@@ -1356,10 +1248,8 @@ export default {
       "options": [
         "firm-mcq-13",
         "firm-mcq-12",
-        "firm-mcq-14",
-        "firm-mcq-11",
-        "firm-mcq-15",
-        "firm-mcq-10"
+        "firm-mcq-06",
+        "firm-mcq-15"
       ],
       "explanation": "本句的「firm ground」指「堅實地面」。",
       "sentenceIndex": 27,
@@ -1368,12 +1258,10 @@ export default {
         "firm ground"
       ],
       "optionReasons": {
-        "firm-mcq-13": "本句指「堅實地面」。",
-        "firm-mcq-12": "「牢固握住」是「firm grip」的用法，與本句語境不同。",
-        "firm-mcq-14": "「堅挺價格」是「firm prices」的用法，與本句語境不同。",
-        "firm-mcq-11": "「結實水果」是「firm fruit」的用法，與本句語境不同。",
-        "firm-mcq-15": "「公司；商號」是「firm (noun)」的用法，與本句語境不同。",
-        "firm-mcq-10": "「偏硬床褥」是「firm mattress」的用法，與本句語境不同。"
+        "firm-mcq-13": "本句的「firm ground」指「堅實地面」。",
+        "firm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-13"
     },
@@ -1385,11 +1273,9 @@ export default {
       "masked": "The road became ____ as we moved uphill.",
       "options": [
         "firm-mcq-13",
-        "firm-mcq-12",
-        "firm-mcq-14",
-        "firm-mcq-11",
-        "firm-mcq-15",
-        "firm-mcq-10"
+        "firm-mcq-22",
+        "firm-mcq-10",
+        "firm-mcq-17"
       ],
       "explanation": "本句的「firmer」指「堅實地面」。",
       "sentenceIndex": 28,
@@ -1398,12 +1284,10 @@ export default {
         "firmer"
       ],
       "optionReasons": {
-        "firm-mcq-13": "本句指「堅實地面」。",
-        "firm-mcq-12": "「牢固握住」是「firm grip」的用法，與本句語境不同。",
-        "firm-mcq-14": "「堅挺價格」是「firm prices」的用法，與本句語境不同。",
-        "firm-mcq-11": "「結實水果」是「firm fruit」的用法，與本句語境不同。",
-        "firm-mcq-15": "「公司；商號」是「firm (noun)」的用法，與本句語境不同。",
-        "firm-mcq-10": "「偏硬床褥」是「firm mattress」的用法，與本句語境不同。"
+        "firm-mcq-13": "本句的「firmer」指「堅實地面」。",
+        "firm-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-13"
     },
@@ -1415,11 +1299,9 @@ export default {
       "masked": "The table doesn't feel ____.",
       "options": [
         "firm-mcq-23",
-        "firm-mcq-22",
-        "firm-mcq-21",
-        "firm-mcq-20",
-        "firm-mcq-19",
-        "firm-mcq-18"
+        "firm-mcq-06",
+        "firm-mcq-14",
+        "firm-mcq-10"
       ],
       "explanation": "本句的「firm」指「結構穩定，不容易移動、倒下或鬆脫」。",
       "sentenceIndex": 29,
@@ -1428,12 +1310,10 @@ export default {
         "firm"
       ],
       "optionReasons": {
-        "firm-mcq-23": "本句指「結構穩定，不容易移動、倒下或鬆脫」。",
-        "firm-mcq-22": "「對規則、決定或立場保持明確，不輕易被說服改變」是「1. firm（人／態度：堅定的） — 堅定的；有原則的」的用法，與本句語境不同。",
-        "firm-mcq-21": "「堅定／硬度」是「firmness」的用法，與本句語境不同。",
-        "firm-mcq-20": "「堅定地／牢牢地」是「firmly」的用法，與本句語境不同。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。"
+        "firm-mcq-23": "本句的「firm」指「結構穩定，不容易移動、倒下或鬆脫」。",
+        "firm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-23"
     },
@@ -1445,11 +1325,9 @@ export default {
       "masked": "Make sure the shelf is ____ before putting books on it.",
       "options": [
         "firm-mcq-23",
-        "firm-mcq-22",
-        "firm-mcq-21",
-        "firm-mcq-20",
-        "firm-mcq-19",
-        "firm-mcq-18"
+        "firm-mcq-13",
+        "firm-mcq-15",
+        "firm-mcq-06"
       ],
       "explanation": "本句的「firm」指「結構穩定，不容易移動、倒下或鬆脫」。",
       "sentenceIndex": 30,
@@ -1458,12 +1336,10 @@ export default {
         "firm"
       ],
       "optionReasons": {
-        "firm-mcq-23": "本句指「結構穩定，不容易移動、倒下或鬆脫」。",
-        "firm-mcq-22": "「對規則、決定或立場保持明確，不輕易被說服改變」是「1. firm（人／態度：堅定的） — 堅定的；有原則的」的用法，與本句語境不同。",
-        "firm-mcq-21": "「堅定／硬度」是「firmness」的用法，與本句語境不同。",
-        "firm-mcq-20": "「堅定地／牢牢地」是「firmly」的用法，與本句語境不同。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。"
+        "firm-mcq-23": "本句的「firm」指「結構穩定，不容易移動、倒下或鬆脫」。",
+        "firm-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-23"
     },
@@ -1475,11 +1351,9 @@ export default {
       "masked": "Oil prices remained ____.",
       "options": [
         "firm-mcq-14",
-        "firm-mcq-13",
-        "firm-mcq-15",
-        "firm-mcq-12",
-        "firm-mcq-16",
-        "firm-mcq-11"
+        "firm-mcq-11",
+        "firm-mcq-06",
+        "firm-mcq-12"
       ],
       "explanation": "本句的「firm」指「堅挺價格」。",
       "sentenceIndex": 31,
@@ -1488,12 +1362,10 @@ export default {
         "firm"
       ],
       "optionReasons": {
-        "firm-mcq-14": "本句指「堅挺價格」。",
-        "firm-mcq-13": "「堅實地面」是「firm ground」的用法，與本句語境不同。",
-        "firm-mcq-15": "「公司；商號」是「firm (noun)」的用法，與本句語境不同。",
-        "firm-mcq-12": "「牢固握住」是「firm grip」的用法，與本句語境不同。",
-        "firm-mcq-16": "「律師事務所」是「law firm」的用法，與本句語境不同。",
-        "firm-mcq-11": "「結實水果」是「firm fruit」的用法，與本句語境不同。"
+        "firm-mcq-14": "本句的「firm」指「堅挺價格」。",
+        "firm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-14"
     },
@@ -1505,11 +1377,9 @@ export default {
       "masked": "Demand is strong and prices are ____.",
       "options": [
         "firm-mcq-14",
-        "firm-mcq-13",
-        "firm-mcq-15",
-        "firm-mcq-12",
-        "firm-mcq-16",
-        "firm-mcq-11"
+        "firm-mcq-11",
+        "firm-mcq-22",
+        "firm-mcq-18"
       ],
       "explanation": "本句的「firm」指「堅挺價格」。",
       "sentenceIndex": 32,
@@ -1518,12 +1388,10 @@ export default {
         "firm"
       ],
       "optionReasons": {
-        "firm-mcq-14": "本句指「堅挺價格」。",
-        "firm-mcq-13": "「堅實地面」是「firm ground」的用法，與本句語境不同。",
-        "firm-mcq-15": "「公司；商號」是「firm (noun)」的用法，與本句語境不同。",
-        "firm-mcq-12": "「牢固握住」是「firm grip」的用法，與本句語境不同。",
-        "firm-mcq-16": "「律師事務所」是「law firm」的用法，與本句語境不同。",
-        "firm-mcq-11": "「結實水果」是「firm fruit」的用法，與本句語境不同。"
+        "firm-mcq-14": "本句的「firm」指「堅挺價格」。",
+        "firm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-14"
     },
@@ -1535,11 +1403,9 @@ export default {
       "masked": "She works for a law ____.",
       "options": [
         "firm-mcq-15",
-        "firm-mcq-14",
-        "firm-mcq-16",
-        "firm-mcq-13",
-        "firm-mcq-17",
-        "firm-mcq-12"
+        "firm-mcq-10",
+        "firm-mcq-08",
+        "firm-mcq-06"
       ],
       "explanation": "本句的「firm」指「公司；商號」。",
       "sentenceIndex": 33,
@@ -1548,12 +1414,10 @@ export default {
         "firm"
       ],
       "optionReasons": {
-        "firm-mcq-15": "本句指「公司；商號」。",
-        "firm-mcq-14": "「堅挺價格」是「firm prices」的用法，與本句語境不同。",
-        "firm-mcq-16": "「律師事務所」是「law firm」的用法，與本句語境不同。",
-        "firm-mcq-13": "「堅實地面」是「firm ground」的用法，與本句語境不同。",
-        "firm-mcq-17": "「顧問公司」是「consulting firm」的用法，與本句語境不同。",
-        "firm-mcq-12": "「牢固握住」是「firm grip」的用法，與本句語境不同。"
+        "firm-mcq-15": "本句的「firm」指「公司；商號」。",
+        "firm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-15"
     },
@@ -1565,11 +1429,9 @@ export default {
       "masked": "The ____ employs more than 200 people.",
       "options": [
         "firm-mcq-15",
-        "firm-mcq-14",
         "firm-mcq-16",
-        "firm-mcq-13",
-        "firm-mcq-17",
-        "firm-mcq-12"
+        "firm-mcq-07",
+        "firm-mcq-09"
       ],
       "explanation": "本句的「firm」指「公司；商號」。",
       "sentenceIndex": 34,
@@ -1578,12 +1440,10 @@ export default {
         "firm"
       ],
       "optionReasons": {
-        "firm-mcq-15": "本句指「公司；商號」。",
-        "firm-mcq-14": "「堅挺價格」是「firm prices」的用法，與本句語境不同。",
-        "firm-mcq-16": "「律師事務所」是「law firm」的用法，與本句語境不同。",
-        "firm-mcq-13": "「堅實地面」是「firm ground」的用法，與本句語境不同。",
-        "firm-mcq-17": "「顧問公司」是「consulting firm」的用法，與本句語境不同。",
-        "firm-mcq-12": "「牢固握住」是「firm grip」的用法，與本句語境不同。"
+        "firm-mcq-15": "本句的「firm」指「公司；商號」。",
+        "firm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-15"
     },
@@ -1595,11 +1455,9 @@ export default {
       "masked": "He joined a large ____.",
       "options": [
         "firm-mcq-16",
-        "firm-mcq-15",
-        "firm-mcq-17",
-        "firm-mcq-14",
-        "firm-mcq-18",
-        "firm-mcq-13"
+        "firm-mcq-08",
+        "firm-mcq-21",
+        "firm-mcq-14"
       ],
       "explanation": "本句的「law firm」指「律師事務所」。",
       "sentenceIndex": 35,
@@ -1608,12 +1466,10 @@ export default {
         "law firm"
       ],
       "optionReasons": {
-        "firm-mcq-16": "本句指「律師事務所」。",
-        "firm-mcq-15": "「公司；商號」是「firm (noun)」的用法，與本句語境不同。",
-        "firm-mcq-17": "「顧問公司」是「consulting firm」的用法，與本句語境不同。",
-        "firm-mcq-14": "「堅挺價格」是「firm prices」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。",
-        "firm-mcq-13": "「堅實地面」是「firm ground」的用法，與本句語境不同。"
+        "firm-mcq-16": "本句的「law firm」指「律師事務所」。",
+        "firm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-16"
     },
@@ -1625,11 +1481,9 @@ export default {
       "masked": "The ____ specializes in commercial cases.",
       "options": [
         "firm-mcq-16",
-        "firm-mcq-15",
-        "firm-mcq-17",
-        "firm-mcq-14",
-        "firm-mcq-18",
-        "firm-mcq-13"
+        "firm-mcq-07",
+        "firm-mcq-19",
+        "firm-mcq-14"
       ],
       "explanation": "本句的「law firm」指「律師事務所」。",
       "sentenceIndex": 36,
@@ -1638,12 +1492,10 @@ export default {
         "law firm"
       ],
       "optionReasons": {
-        "firm-mcq-16": "本句指「律師事務所」。",
-        "firm-mcq-15": "「公司；商號」是「firm (noun)」的用法，與本句語境不同。",
-        "firm-mcq-17": "「顧問公司」是「consulting firm」的用法，與本句語境不同。",
-        "firm-mcq-14": "「堅挺價格」是「firm prices」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。",
-        "firm-mcq-13": "「堅實地面」是「firm ground」的用法，與本句語境不同。"
+        "firm-mcq-16": "本句的「law firm」指「律師事務所」。",
+        "firm-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-16"
     },
@@ -1655,11 +1507,9 @@ export default {
       "masked": "She works for an ____.",
       "options": [
         "firm-mcq-17",
-        "firm-mcq-16",
-        "firm-mcq-18",
-        "firm-mcq-15",
-        "firm-mcq-19",
-        "firm-mcq-14"
+        "firm-mcq-11",
+        "firm-mcq-12",
+        "firm-mcq-05"
       ],
       "explanation": "本句的「accounting firm」指「顧問公司」。",
       "sentenceIndex": 37,
@@ -1668,12 +1518,10 @@ export default {
         "accounting firm"
       ],
       "optionReasons": {
-        "firm-mcq-17": "本句指「顧問公司」。",
-        "firm-mcq-16": "「律師事務所」是「law firm」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。",
-        "firm-mcq-15": "「公司；商號」是「firm (noun)」的用法，與本句語境不同。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-14": "「堅挺價格」是「firm prices」的用法，與本句語境不同。"
+        "firm-mcq-17": "本句的「accounting firm」指「顧問公司」。",
+        "firm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-17"
     },
@@ -1685,11 +1533,9 @@ export default {
       "masked": "The company hired a ____.",
       "options": [
         "firm-mcq-17",
-        "firm-mcq-16",
-        "firm-mcq-18",
-        "firm-mcq-15",
-        "firm-mcq-19",
-        "firm-mcq-14"
+        "firm-mcq-23",
+        "firm-mcq-08",
+        "firm-mcq-21"
       ],
       "explanation": "本句的「consulting firm」指「顧問公司」。",
       "sentenceIndex": 38,
@@ -1698,12 +1544,10 @@ export default {
         "consulting firm"
       ],
       "optionReasons": {
-        "firm-mcq-17": "本句指「顧問公司」。",
-        "firm-mcq-16": "「律師事務所」是「law firm」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。",
-        "firm-mcq-15": "「公司；商號」是「firm (noun)」的用法，與本句語境不同。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-14": "「堅挺價格」是「firm prices」的用法，與本句語境不同。"
+        "firm-mcq-17": "本句的「consulting firm」指「顧問公司」。",
+        "firm-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-17"
     },
@@ -1715,11 +1559,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "firm-mcq-18",
-        "firm-mcq-17",
         "firm-mcq-19",
-        "firm-mcq-16",
-        "firm-mcq-20",
-        "firm-mcq-15"
+        "firm-mcq-14",
+        "firm-mcq-06"
       ],
       "explanation": "本句的「firm up the plans」指「敲定計劃」。",
       "sentenceIndex": 39,
@@ -1728,12 +1570,10 @@ export default {
         "firm up the plans"
       ],
       "optionReasons": {
-        "firm-mcq-18": "本句指「敲定計劃」。",
-        "firm-mcq-17": "「顧問公司」是「consulting firm」的用法，與本句語境不同。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-16": "「律師事務所」是「law firm」的用法，與本句語境不同。",
-        "firm-mcq-20": "「堅定地／牢牢地」是「firmly」的用法，與本句語境不同。",
-        "firm-mcq-15": "「公司；商號」是「firm (noun)」的用法，與本句語境不同。"
+        "firm-mcq-18": "本句的「firm up the plans」指「敲定計劃」。",
+        "firm-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-18"
     },
@@ -1745,11 +1585,9 @@ export default {
       "masked": "Let's ____ tomorrow.",
       "options": [
         "firm-mcq-18",
-        "firm-mcq-17",
         "firm-mcq-19",
-        "firm-mcq-16",
-        "firm-mcq-20",
-        "firm-mcq-15"
+        "firm-mcq-10",
+        "firm-mcq-16"
       ],
       "explanation": "本句的「firm up the details」指「敲定計劃」。",
       "sentenceIndex": 40,
@@ -1758,12 +1596,10 @@ export default {
         "firm up the details"
       ],
       "optionReasons": {
-        "firm-mcq-18": "本句指「敲定計劃」。",
-        "firm-mcq-17": "「顧問公司」是「consulting firm」的用法，與本句語境不同。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-16": "「律師事務所」是「law firm」的用法，與本句語境不同。",
-        "firm-mcq-20": "「堅定地／牢牢地」是「firmly」的用法，與本句語境不同。",
-        "firm-mcq-15": "「公司；商號」是「firm (noun)」的用法，與本句語境不同。"
+        "firm-mcq-18": "本句的「firm up the details」指「敲定計劃」。",
+        "firm-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-18"
     },
@@ -1775,11 +1611,9 @@ export default {
       "masked": "Exercise can help ____.",
       "options": [
         "firm-mcq-19",
-        "firm-mcq-18",
-        "firm-mcq-20",
-        "firm-mcq-17",
-        "firm-mcq-21",
-        "firm-mcq-16"
+        "firm-mcq-02",
+        "firm-mcq-06",
+        "firm-mcq-10"
       ],
       "explanation": "本句的「firm up your muscles」指「變結實」。",
       "sentenceIndex": 41,
@@ -1788,12 +1622,10 @@ export default {
         "firm up your muscles"
       ],
       "optionReasons": {
-        "firm-mcq-19": "本句指「變結實」。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。",
-        "firm-mcq-20": "「堅定地／牢牢地」是「firmly」的用法，與本句語境不同。",
-        "firm-mcq-17": "「顧問公司」是「consulting firm」的用法，與本句語境不同。",
-        "firm-mcq-21": "「堅定／硬度」是「firmness」的用法，與本句語境不同。",
-        "firm-mcq-16": "「律師事務所」是「law firm」的用法，與本句語境不同。"
+        "firm-mcq-19": "本句的「firm up your muscles」指「變結實」。",
+        "firm-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-19"
     },
@@ -1805,11 +1637,9 @@ export default {
       "masked": "The mixture will ____ as it cools.",
       "options": [
         "firm-mcq-19",
-        "firm-mcq-18",
-        "firm-mcq-20",
-        "firm-mcq-17",
-        "firm-mcq-21",
-        "firm-mcq-16"
+        "firm-mcq-02",
+        "firm-mcq-08",
+        "firm-mcq-18"
       ],
       "explanation": "本句的「firm up」指「變結實」。",
       "sentenceIndex": 42,
@@ -1818,12 +1648,10 @@ export default {
         "firm up"
       ],
       "optionReasons": {
-        "firm-mcq-19": "本句指「變結實」。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。",
-        "firm-mcq-20": "「堅定地／牢牢地」是「firmly」的用法，與本句語境不同。",
-        "firm-mcq-17": "「顧問公司」是「consulting firm」的用法，與本句語境不同。",
-        "firm-mcq-21": "「堅定／硬度」是「firmness」的用法，與本句語境不同。",
-        "firm-mcq-16": "「律師事務所」是「law firm」的用法，與本句語境不同。"
+        "firm-mcq-19": "本句的「firm up」指「變結實」。",
+        "firm-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-19"
     },
@@ -1836,10 +1664,8 @@ export default {
       "options": [
         "firm-mcq-20",
         "firm-mcq-19",
-        "firm-mcq-21",
-        "firm-mcq-18",
-        "firm-mcq-22",
-        "firm-mcq-17"
+        "firm-mcq-17",
+        "firm-mcq-06"
       ],
       "explanation": "本句的「firmly refused」指「堅定地／牢牢地」。",
       "sentenceIndex": 43,
@@ -1848,12 +1674,10 @@ export default {
         "firmly refused"
       ],
       "optionReasons": {
-        "firm-mcq-20": "本句指「堅定地／牢牢地」。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-21": "「堅定／硬度」是「firmness」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。",
-        "firm-mcq-22": "「對規則、決定或立場保持明確，不輕易被說服改變」是「1. firm（人／態度：堅定的） — 堅定的；有原則的」的用法，與本句語境不同。",
-        "firm-mcq-17": "「顧問公司」是「consulting firm」的用法，與本句語境不同。"
+        "firm-mcq-20": "本句的「firmly refused」指「堅定地／牢牢地」。",
+        "firm-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-20"
     },
@@ -1865,11 +1689,9 @@ export default {
       "masked": "He ____ that education should be fair.",
       "options": [
         "firm-mcq-20",
-        "firm-mcq-19",
-        "firm-mcq-21",
-        "firm-mcq-18",
-        "firm-mcq-22",
-        "firm-mcq-17"
+        "firm-mcq-15",
+        "firm-mcq-16",
+        "firm-mcq-11"
       ],
       "explanation": "本句的「firmly believes」指「堅定地／牢牢地」。",
       "sentenceIndex": 44,
@@ -1878,12 +1700,10 @@ export default {
         "firmly believes"
       ],
       "optionReasons": {
-        "firm-mcq-20": "本句指「堅定地／牢牢地」。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-21": "「堅定／硬度」是「firmness」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。",
-        "firm-mcq-22": "「對規則、決定或立場保持明確，不輕易被說服改變」是「1. firm（人／態度：堅定的） — 堅定的；有原則的」的用法，與本句語境不同。",
-        "firm-mcq-17": "「顧問公司」是「consulting firm」的用法，與本句語境不同。"
+        "firm-mcq-20": "本句的「firmly believes」指「堅定地／牢牢地」。",
+        "firm-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-20"
     },
@@ -1895,10 +1715,8 @@ export default {
       "masked": "Hold the rail ____.",
       "options": [
         "firm-mcq-20",
-        "firm-mcq-19",
-        "firm-mcq-21",
-        "firm-mcq-18",
-        "firm-mcq-22",
+        "firm-mcq-16",
+        "firm-mcq-10",
         "firm-mcq-17"
       ],
       "explanation": "本句的「firmly」指「堅定地／牢牢地」。",
@@ -1908,12 +1726,10 @@ export default {
         "firmly"
       ],
       "optionReasons": {
-        "firm-mcq-20": "本句指「堅定地／牢牢地」。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-21": "「堅定／硬度」是「firmness」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。",
-        "firm-mcq-22": "「對規則、決定或立場保持明確，不輕易被說服改變」是「1. firm（人／態度：堅定的） — 堅定的；有原則的」的用法，與本句語境不同。",
-        "firm-mcq-17": "「顧問公司」是「consulting firm」的用法，與本句語境不同。"
+        "firm-mcq-20": "本句的「firmly」指「堅定地／牢牢地」。",
+        "firm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-20"
     },
@@ -1925,11 +1741,9 @@ export default {
       "masked": "Press the lid down ____.",
       "options": [
         "firm-mcq-20",
-        "firm-mcq-19",
-        "firm-mcq-21",
-        "firm-mcq-18",
-        "firm-mcq-22",
-        "firm-mcq-17"
+        "firm-mcq-06",
+        "firm-mcq-15",
+        "firm-mcq-11"
       ],
       "explanation": "本句的「firmly」指「堅定地／牢牢地」。",
       "sentenceIndex": 46,
@@ -1938,12 +1752,10 @@ export default {
         "firmly"
       ],
       "optionReasons": {
-        "firm-mcq-20": "本句指「堅定地／牢牢地」。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-21": "「堅定／硬度」是「firmness」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。",
-        "firm-mcq-22": "「對規則、決定或立場保持明確，不輕易被說服改變」是「1. firm（人／態度：堅定的） — 堅定的；有原則的」的用法，與本句語境不同。",
-        "firm-mcq-17": "「顧問公司」是「consulting firm」的用法，與本句語境不同。"
+        "firm-mcq-20": "本句的「firmly」指「堅定地／牢牢地」。",
+        "firm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-20"
     },
@@ -1955,11 +1767,9 @@ export default {
       "masked": "She handled the situation with calmness and ____.",
       "options": [
         "firm-mcq-21",
-        "firm-mcq-20",
-        "firm-mcq-22",
-        "firm-mcq-19",
-        "firm-mcq-23",
-        "firm-mcq-18"
+        "firm-mcq-06",
+        "firm-mcq-11",
+        "firm-mcq-16"
       ],
       "explanation": "本句的「firmness」指「堅定／硬度」。",
       "sentenceIndex": 47,
@@ -1968,12 +1778,10 @@ export default {
         "firmness"
       ],
       "optionReasons": {
-        "firm-mcq-21": "本句指「堅定／硬度」。",
-        "firm-mcq-20": "「堅定地／牢牢地」是「firmly」的用法，與本句語境不同。",
-        "firm-mcq-22": "「對規則、決定或立場保持明確，不輕易被說服改變」是「1. firm（人／態度：堅定的） — 堅定的；有原則的」的用法，與本句語境不同。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-23": "「結構穩定，不容易移動、倒下或鬆脫」是「15. firm（穩固的；不搖動的） — 穩固的；牢靠的」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。"
+        "firm-mcq-21": "本句的「firmness」指「堅定／硬度」。",
+        "firm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-21"
     },
@@ -1985,11 +1793,9 @@ export default {
       "masked": "Good teaching sometimes requires ____.",
       "options": [
         "firm-mcq-21",
-        "firm-mcq-20",
-        "firm-mcq-22",
-        "firm-mcq-19",
-        "firm-mcq-23",
-        "firm-mcq-18"
+        "firm-mcq-17",
+        "firm-mcq-16",
+        "firm-mcq-12"
       ],
       "explanation": "本句的「firmness」指「堅定／硬度」。",
       "sentenceIndex": 48,
@@ -1998,12 +1804,10 @@ export default {
         "firmness"
       ],
       "optionReasons": {
-        "firm-mcq-21": "本句指「堅定／硬度」。",
-        "firm-mcq-20": "「堅定地／牢牢地」是「firmly」的用法，與本句語境不同。",
-        "firm-mcq-22": "「對規則、決定或立場保持明確，不輕易被說服改變」是「1. firm（人／態度：堅定的） — 堅定的；有原則的」的用法，與本句語境不同。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-23": "「結構穩定，不容易移動、倒下或鬆脫」是「15. firm（穩固的；不搖動的） — 穩固的；牢靠的」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。"
+        "firm-mcq-21": "本句的「firmness」指「堅定／硬度」。",
+        "firm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-21"
     },
@@ -2015,11 +1819,9 @@ export default {
       "masked": "Check the ____ of the fruit.",
       "options": [
         "firm-mcq-21",
-        "firm-mcq-20",
-        "firm-mcq-22",
-        "firm-mcq-19",
-        "firm-mcq-23",
-        "firm-mcq-18"
+        "firm-mcq-11",
+        "firm-mcq-12",
+        "firm-mcq-16"
       ],
       "explanation": "本句的「firmness」指「堅定／硬度」。",
       "sentenceIndex": 49,
@@ -2028,12 +1830,10 @@ export default {
         "firmness"
       ],
       "optionReasons": {
-        "firm-mcq-21": "本句指「堅定／硬度」。",
-        "firm-mcq-20": "「堅定地／牢牢地」是「firmly」的用法，與本句語境不同。",
-        "firm-mcq-22": "「對規則、決定或立場保持明確，不輕易被說服改變」是「1. firm（人／態度：堅定的） — 堅定的；有原則的」的用法，與本句語境不同。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-23": "「結構穩定，不容易移動、倒下或鬆脫」是「15. firm（穩固的；不搖動的） — 穩固的；牢靠的」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。"
+        "firm-mcq-21": "本句的「firmness」指「堅定／硬度」。",
+        "firm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-21"
     },
@@ -2045,11 +1845,9 @@ export default {
       "masked": "This mattress offers adjustable ____.",
       "options": [
         "firm-mcq-21",
-        "firm-mcq-20",
-        "firm-mcq-22",
-        "firm-mcq-19",
-        "firm-mcq-23",
-        "firm-mcq-18"
+        "firm-mcq-16",
+        "firm-mcq-17",
+        "firm-mcq-19"
       ],
       "explanation": "本句的「firmness」指「堅定／硬度」。",
       "sentenceIndex": 50,
@@ -2058,12 +1856,10 @@ export default {
         "firmness"
       ],
       "optionReasons": {
-        "firm-mcq-21": "本句指「堅定／硬度」。",
-        "firm-mcq-20": "「堅定地／牢牢地」是「firmly」的用法，與本句語境不同。",
-        "firm-mcq-22": "「對規則、決定或立場保持明確，不輕易被說服改變」是「1. firm（人／態度：堅定的） — 堅定的；有原則的」的用法，與本句語境不同。",
-        "firm-mcq-19": "「變結實」是「firm up physically」的用法，與本句語境不同。",
-        "firm-mcq-23": "「結構穩定，不容易移動、倒下或鬆脫」是「15. firm（穩固的；不搖動的） — 穩固的；牢靠的」的用法，與本句語境不同。",
-        "firm-mcq-18": "「敲定計劃」是「firm up plans」的用法，與本句語境不同。"
+        "firm-mcq-21": "本句的「firmness」指「堅定／硬度」。",
+        "firm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "firm-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "firm-mcq-21"
     }
@@ -2075,5 +1871,7 @@ export default {
     "sha256": "bce2d47a53d7570260b450b7557db6492151f6bb2c8dcf4c76d1a2f55bad9b11",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

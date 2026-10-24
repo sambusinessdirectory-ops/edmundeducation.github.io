@@ -405,11 +405,8 @@ export default {
       "masked": "Young children often ____ quickly after a busy day.",
       "options": [
         "tire-mcq-01",
-        "tire-mcq-02",
-        "tire-mcq-03",
-        "tire-mcq-04",
-        "tire-mcq-05",
-        "tire-mcq-06"
+        "tire-mcq-09",
+        "tire-mcq-14"
       ],
       "explanation": "本句的「tire」指「身體或精神逐漸失去精力並開始感到疲倦」。",
       "sentenceIndex": 0,
@@ -418,12 +415,9 @@ export default {
         "tire"
       ],
       "optionReasons": {
-        "tire-mcq-01": "本句指「身體或精神逐漸失去精力並開始感到疲倦」。",
-        "tire-mcq-02": "「消耗某人的體力／精神，使其感到疲倦」是「tire someone」的用法，與本句語境不同。",
-        "tire-mcq-03": "「因需要較多體力、精神或注意力而令人感到疲倦的」是「tiring」的用法，與本句語境不同。",
-        "tire-mcq-04": "「因活動、缺乏休息或精神消耗而感到沒有精力的」是「tired — fatigued」的用法，與本句語境不同。",
-        "tire-mcq-05": "「因某活動／經歷而感到疲倦」是「tired from/after」的用法，與本句語境不同。",
-        "tire-mcq-06": "「因某事持續或重複太久而感到厭煩、受夠」是「tired of」的用法，與本句語境不同。"
+        "tire-mcq-01": "本句的「tire」指「身體或精神逐漸失去精力並開始感到疲倦」。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-01"
     },
@@ -435,11 +429,8 @@ export default {
       "masked": "I ____ more easily than I used to.",
       "options": [
         "tire-mcq-01",
-        "tire-mcq-02",
-        "tire-mcq-03",
-        "tire-mcq-04",
-        "tire-mcq-05",
-        "tire-mcq-06"
+        "tire-mcq-17",
+        "tire-mcq-09"
       ],
       "explanation": "本句的「tire」指「身體或精神逐漸失去精力並開始感到疲倦」。",
       "sentenceIndex": 1,
@@ -448,12 +439,9 @@ export default {
         "tire"
       ],
       "optionReasons": {
-        "tire-mcq-01": "本句指「身體或精神逐漸失去精力並開始感到疲倦」。",
-        "tire-mcq-02": "「消耗某人的體力／精神，使其感到疲倦」是「tire someone」的用法，與本句語境不同。",
-        "tire-mcq-03": "「因需要較多體力、精神或注意力而令人感到疲倦的」是「tiring」的用法，與本句語境不同。",
-        "tire-mcq-04": "「因活動、缺乏休息或精神消耗而感到沒有精力的」是「tired — fatigued」的用法，與本句語境不同。",
-        "tire-mcq-05": "「因某活動／經歷而感到疲倦」是「tired from/after」的用法，與本句語境不同。",
-        "tire-mcq-06": "「因某事持續或重複太久而感到厭煩、受夠」是「tired of」的用法，與本句語境不同。"
+        "tire-mcq-01": "本句的「tire」指「身體或精神逐漸失去精力並開始感到疲倦」。",
+        "tire-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-01"
     },
@@ -465,11 +453,8 @@ export default {
       "masked": "Long journeys ____ me.",
       "options": [
         "tire-mcq-02",
-        "tire-mcq-01",
-        "tire-mcq-03",
-        "tire-mcq-04",
-        "tire-mcq-05",
-        "tire-mcq-06"
+        "tire-mcq-16",
+        "tire-mcq-09"
       ],
       "explanation": "本句的「tire」指「消耗某人的體力／精神，使其感到疲倦」。",
       "sentenceIndex": 2,
@@ -478,12 +463,9 @@ export default {
         "tire"
       ],
       "optionReasons": {
-        "tire-mcq-02": "本句指「消耗某人的體力／精神，使其感到疲倦」。",
-        "tire-mcq-01": "「身體或精神逐漸失去精力並開始感到疲倦」是「tire — become tired」的用法，與本句語境不同。",
-        "tire-mcq-03": "「因需要較多體力、精神或注意力而令人感到疲倦的」是「tiring」的用法，與本句語境不同。",
-        "tire-mcq-04": "「因活動、缺乏休息或精神消耗而感到沒有精力的」是「tired — fatigued」的用法，與本句語境不同。",
-        "tire-mcq-05": "「因某活動／經歷而感到疲倦」是「tired from/after」的用法，與本句語境不同。",
-        "tire-mcq-06": "「因某事持續或重複太久而感到厭煩、受夠」是「tired of」的用法，與本句語境不同。"
+        "tire-mcq-02": "本句的「tire」指「消耗某人的體力／精神，使其感到疲倦」。",
+        "tire-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-02"
     },
@@ -495,11 +477,9 @@ export default {
       "masked": "The constant noise ____ everyone.",
       "options": [
         "tire-mcq-02",
-        "tire-mcq-01",
-        "tire-mcq-03",
-        "tire-mcq-04",
-        "tire-mcq-05",
-        "tire-mcq-06"
+        "tire-mcq-14",
+        "tire-mcq-09",
+        "tire-mcq-07"
       ],
       "explanation": "本句的「tired」指「消耗某人的體力／精神，使其感到疲倦」。",
       "sentenceIndex": 3,
@@ -508,12 +488,10 @@ export default {
         "tired"
       ],
       "optionReasons": {
-        "tire-mcq-02": "本句指「消耗某人的體力／精神，使其感到疲倦」。",
-        "tire-mcq-01": "「身體或精神逐漸失去精力並開始感到疲倦」是「tire — become tired」的用法，與本句語境不同。",
-        "tire-mcq-03": "「因需要較多體力、精神或注意力而令人感到疲倦的」是「tiring」的用法，與本句語境不同。",
-        "tire-mcq-04": "「因活動、缺乏休息或精神消耗而感到沒有精力的」是「tired — fatigued」的用法，與本句語境不同。",
-        "tire-mcq-05": "「因某活動／經歷而感到疲倦」是「tired from/after」的用法，與本句語境不同。",
-        "tire-mcq-06": "「因某事持續或重複太久而感到厭煩、受夠」是「tired of」的用法，與本句語境不同。"
+        "tire-mcq-02": "本句的「tired」指「消耗某人的體力／精神，使其感到疲倦」。",
+        "tire-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-02"
     },
@@ -525,11 +503,9 @@ export default {
       "masked": "I thought it might be ____ at first.",
       "options": [
         "tire-mcq-03",
-        "tire-mcq-02",
-        "tire-mcq-04",
-        "tire-mcq-01",
-        "tire-mcq-05",
-        "tire-mcq-06"
+        "tire-mcq-14",
+        "tire-mcq-09",
+        "tire-mcq-07"
       ],
       "explanation": "本句的「tiring」指「因需要較多體力、精神或注意力而令人感到疲倦的」。",
       "sentenceIndex": 4,
@@ -538,12 +514,10 @@ export default {
         "tiring"
       ],
       "optionReasons": {
-        "tire-mcq-03": "本句指「因需要較多體力、精神或注意力而令人感到疲倦的」。",
-        "tire-mcq-02": "「消耗某人的體力／精神，使其感到疲倦」是「tire someone」的用法，與本句語境不同。",
-        "tire-mcq-04": "「因活動、缺乏休息或精神消耗而感到沒有精力的」是「tired — fatigued」的用法，與本句語境不同。",
-        "tire-mcq-01": "「身體或精神逐漸失去精力並開始感到疲倦」是「tire — become tired」的用法，與本句語境不同。",
-        "tire-mcq-05": "「因某活動／經歷而感到疲倦」是「tired from/after」的用法，與本句語境不同。",
-        "tire-mcq-06": "「因某事持續或重複太久而感到厭煩、受夠」是「tired of」的用法，與本句語境不同。"
+        "tire-mcq-03": "本句的「tiring」指「因需要較多體力、精神或注意力而令人感到疲倦的」。",
+        "tire-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-03"
     },
@@ -555,11 +529,9 @@ export default {
       "masked": "Looking after three young children can be ____.",
       "options": [
         "tire-mcq-03",
-        "tire-mcq-02",
-        "tire-mcq-04",
-        "tire-mcq-01",
-        "tire-mcq-05",
-        "tire-mcq-06"
+        "tire-mcq-14",
+        "tire-mcq-09",
+        "tire-mcq-07"
       ],
       "explanation": "本句的「tiring」指「因需要較多體力、精神或注意力而令人感到疲倦的」。",
       "sentenceIndex": 5,
@@ -568,12 +540,10 @@ export default {
         "tiring"
       ],
       "optionReasons": {
-        "tire-mcq-03": "本句指「因需要較多體力、精神或注意力而令人感到疲倦的」。",
-        "tire-mcq-02": "「消耗某人的體力／精神，使其感到疲倦」是「tire someone」的用法，與本句語境不同。",
-        "tire-mcq-04": "「因活動、缺乏休息或精神消耗而感到沒有精力的」是「tired — fatigued」的用法，與本句語境不同。",
-        "tire-mcq-01": "「身體或精神逐漸失去精力並開始感到疲倦」是「tire — become tired」的用法，與本句語境不同。",
-        "tire-mcq-05": "「因某活動／經歷而感到疲倦」是「tired from/after」的用法，與本句語境不同。",
-        "tire-mcq-06": "「因某事持續或重複太久而感到厭煩、受夠」是「tired of」的用法，與本句語境不同。"
+        "tire-mcq-03": "本句的「tiring」指「因需要較多體力、精神或注意力而令人感到疲倦的」。",
+        "tire-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-03"
     },
@@ -585,11 +555,9 @@ export default {
       "masked": "It was a long and ____ day.",
       "options": [
         "tire-mcq-03",
-        "tire-mcq-02",
-        "tire-mcq-04",
-        "tire-mcq-01",
-        "tire-mcq-05",
-        "tire-mcq-06"
+        "tire-mcq-17",
+        "tire-mcq-07",
+        "tire-mcq-09"
       ],
       "explanation": "本句的「tiring」指「因需要較多體力、精神或注意力而令人感到疲倦的」。",
       "sentenceIndex": 6,
@@ -598,12 +566,10 @@ export default {
         "tiring"
       ],
       "optionReasons": {
-        "tire-mcq-03": "本句指「因需要較多體力、精神或注意力而令人感到疲倦的」。",
-        "tire-mcq-02": "「消耗某人的體力／精神，使其感到疲倦」是「tire someone」的用法，與本句語境不同。",
-        "tire-mcq-04": "「因活動、缺乏休息或精神消耗而感到沒有精力的」是「tired — fatigued」的用法，與本句語境不同。",
-        "tire-mcq-01": "「身體或精神逐漸失去精力並開始感到疲倦」是「tire — become tired」的用法，與本句語境不同。",
-        "tire-mcq-05": "「因某活動／經歷而感到疲倦」是「tired from/after」的用法，與本句語境不同。",
-        "tire-mcq-06": "「因某事持續或重複太久而感到厭煩、受夠」是「tired of」的用法，與本句語境不同。"
+        "tire-mcq-03": "本句的「tiring」指「因需要較多體力、精神或注意力而令人感到疲倦的」。",
+        "tire-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-03"
     },
@@ -615,11 +581,9 @@ export default {
       "masked": "I’m really ____ after work.",
       "options": [
         "tire-mcq-04",
-        "tire-mcq-03",
-        "tire-mcq-05",
-        "tire-mcq-02",
-        "tire-mcq-06",
-        "tire-mcq-01"
+        "tire-mcq-14",
+        "tire-mcq-07",
+        "tire-mcq-09"
       ],
       "explanation": "本句的「tired」指「因活動、缺乏休息或精神消耗而感到沒有精力的」。",
       "sentenceIndex": 7,
@@ -628,12 +592,10 @@ export default {
         "tired"
       ],
       "optionReasons": {
-        "tire-mcq-04": "本句指「因活動、缺乏休息或精神消耗而感到沒有精力的」。",
-        "tire-mcq-03": "「因需要較多體力、精神或注意力而令人感到疲倦的」是「tiring」的用法，與本句語境不同。",
-        "tire-mcq-05": "「因某活動／經歷而感到疲倦」是「tired from/after」的用法，與本句語境不同。",
-        "tire-mcq-02": "「消耗某人的體力／精神，使其感到疲倦」是「tire someone」的用法，與本句語境不同。",
-        "tire-mcq-06": "「因某事持續或重複太久而感到厭煩、受夠」是「tired of」的用法，與本句語境不同。",
-        "tire-mcq-01": "「身體或精神逐漸失去精力並開始感到疲倦」是「tire — become tired」的用法，與本句語境不同。"
+        "tire-mcq-04": "本句的「tired」指「因活動、缺乏休息或精神消耗而感到沒有精力的」。",
+        "tire-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-04"
     },
@@ -645,11 +607,9 @@ export default {
       "masked": "She looked ____ after looking after the children all day.",
       "options": [
         "tire-mcq-04",
-        "tire-mcq-03",
-        "tire-mcq-05",
-        "tire-mcq-02",
-        "tire-mcq-06",
-        "tire-mcq-01"
+        "tire-mcq-17",
+        "tire-mcq-07",
+        "tire-mcq-09"
       ],
       "explanation": "本句的「tired」指「因活動、缺乏休息或精神消耗而感到沒有精力的」。",
       "sentenceIndex": 8,
@@ -658,12 +618,10 @@ export default {
         "tired"
       ],
       "optionReasons": {
-        "tire-mcq-04": "本句指「因活動、缺乏休息或精神消耗而感到沒有精力的」。",
-        "tire-mcq-03": "「因需要較多體力、精神或注意力而令人感到疲倦的」是「tiring」的用法，與本句語境不同。",
-        "tire-mcq-05": "「因某活動／經歷而感到疲倦」是「tired from/after」的用法，與本句語境不同。",
-        "tire-mcq-02": "「消耗某人的體力／精神，使其感到疲倦」是「tire someone」的用法，與本句語境不同。",
-        "tire-mcq-06": "「因某事持續或重複太久而感到厭煩、受夠」是「tired of」的用法，與本句語境不同。",
-        "tire-mcq-01": "「身體或精神逐漸失去精力並開始感到疲倦」是「tire — become tired」的用法，與本句語境不同。"
+        "tire-mcq-04": "本句的「tired」指「因活動、缺乏休息或精神消耗而感到沒有精力的」。",
+        "tire-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-04"
     },
@@ -675,11 +633,9 @@ export default {
       "masked": "He was ____ travelling.",
       "options": [
         "tire-mcq-05",
-        "tire-mcq-04",
-        "tire-mcq-06",
-        "tire-mcq-03",
-        "tire-mcq-07",
-        "tire-mcq-02"
+        "tire-mcq-17",
+        "tire-mcq-09",
+        "tire-mcq-07"
       ],
       "explanation": "本句的「tired from」指「因某活動／經歷而感到疲倦」。",
       "sentenceIndex": 9,
@@ -688,12 +644,10 @@ export default {
         "tired from"
       ],
       "optionReasons": {
-        "tire-mcq-05": "本句指「因某活動／經歷而感到疲倦」。",
-        "tire-mcq-04": "「因活動、缺乏休息或精神消耗而感到沒有精力的」是「tired — fatigued」的用法，與本句語境不同。",
-        "tire-mcq-06": "「因某事持續或重複太久而感到厭煩、受夠」是「tired of」的用法，與本句語境不同。",
-        "tire-mcq-03": "「因需要較多體力、精神或注意力而令人感到疲倦的」是「tiring」的用法，與本句語境不同。",
-        "tire-mcq-07": "「對某事逐漸失去興趣、耐性或新鮮感」是「tire of」的用法，與本句語境不同。",
-        "tire-mcq-02": "「消耗某人的體力／精神，使其感到疲倦」是「tire someone」的用法，與本句語境不同。"
+        "tire-mcq-05": "本句的「tired from」指「因某活動／經歷而感到疲倦」。",
+        "tire-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-05"
     },
@@ -705,11 +659,9 @@ export default {
       "masked": "I was ____ the long walk.",
       "options": [
         "tire-mcq-05",
-        "tire-mcq-04",
-        "tire-mcq-06",
-        "tire-mcq-03",
+        "tire-mcq-17",
         "tire-mcq-07",
-        "tire-mcq-02"
+        "tire-mcq-09"
       ],
       "explanation": "本句的「tired after」指「因某活動／經歷而感到疲倦」。",
       "sentenceIndex": 10,
@@ -718,12 +670,10 @@ export default {
         "tired after"
       ],
       "optionReasons": {
-        "tire-mcq-05": "本句指「因某活動／經歷而感到疲倦」。",
-        "tire-mcq-04": "「因活動、缺乏休息或精神消耗而感到沒有精力的」是「tired — fatigued」的用法，與本句語境不同。",
-        "tire-mcq-06": "「因某事持續或重複太久而感到厭煩、受夠」是「tired of」的用法，與本句語境不同。",
-        "tire-mcq-03": "「因需要較多體力、精神或注意力而令人感到疲倦的」是「tiring」的用法，與本句語境不同。",
-        "tire-mcq-07": "「對某事逐漸失去興趣、耐性或新鮮感」是「tire of」的用法，與本句語境不同。",
-        "tire-mcq-02": "「消耗某人的體力／精神，使其感到疲倦」是「tire someone」的用法，與本句語境不同。"
+        "tire-mcq-05": "本句的「tired after」指「因某活動／經歷而感到疲倦」。",
+        "tire-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-05"
     },
@@ -735,11 +685,9 @@ export default {
       "masked": "I’m ____ hearing the same excuse.",
       "options": [
         "tire-mcq-06",
-        "tire-mcq-05",
-        "tire-mcq-07",
-        "tire-mcq-04",
-        "tire-mcq-08",
-        "tire-mcq-03"
+        "tire-mcq-14",
+        "tire-mcq-13",
+        "tire-mcq-07"
       ],
       "explanation": "本句的「tired of」指「因某事持續或重複太久而感到厭煩、受夠」。",
       "sentenceIndex": 11,
@@ -748,12 +696,10 @@ export default {
         "tired of"
       ],
       "optionReasons": {
-        "tire-mcq-06": "本句指「因某事持續或重複太久而感到厭煩、受夠」。",
-        "tire-mcq-05": "「因某活動／經歷而感到疲倦」是「tired from/after」的用法，與本句語境不同。",
-        "tire-mcq-07": "「對某事逐漸失去興趣、耐性或新鮮感」是「tire of」的用法，與本句語境不同。",
-        "tire-mcq-04": "「因活動、缺乏休息或精神消耗而感到沒有精力的」是「tired — fatigued」的用法，與本句語境不同。",
-        "tire-mcq-08": "「隨時間開始對某事感到厭倦」是「grow/get tired of」的用法，與本句語境不同。",
-        "tire-mcq-03": "「因需要較多體力、精神或注意力而令人感到疲倦的」是「tiring」的用法，與本句語境不同。"
+        "tire-mcq-06": "本句的「tired of」指「因某事持續或重複太久而感到厭煩、受夠」。",
+        "tire-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-06"
     },
@@ -765,11 +711,9 @@ export default {
       "masked": "She became ____ the routine.",
       "options": [
         "tire-mcq-06",
-        "tire-mcq-05",
-        "tire-mcq-07",
-        "tire-mcq-04",
-        "tire-mcq-08",
-        "tire-mcq-03"
+        "tire-mcq-13",
+        "tire-mcq-14",
+        "tire-mcq-07"
       ],
       "explanation": "本句的「tired of」指「因某事持續或重複太久而感到厭煩、受夠」。",
       "sentenceIndex": 12,
@@ -778,12 +722,10 @@ export default {
         "tired of"
       ],
       "optionReasons": {
-        "tire-mcq-06": "本句指「因某事持續或重複太久而感到厭煩、受夠」。",
-        "tire-mcq-05": "「因某活動／經歷而感到疲倦」是「tired from/after」的用法，與本句語境不同。",
-        "tire-mcq-07": "「對某事逐漸失去興趣、耐性或新鮮感」是「tire of」的用法，與本句語境不同。",
-        "tire-mcq-04": "「因活動、缺乏休息或精神消耗而感到沒有精力的」是「tired — fatigued」的用法，與本句語境不同。",
-        "tire-mcq-08": "「隨時間開始對某事感到厭倦」是「grow/get tired of」的用法，與本句語境不同。",
-        "tire-mcq-03": "「因需要較多體力、精神或注意力而令人感到疲倦的」是「tiring」的用法，與本句語境不同。"
+        "tire-mcq-06": "本句的「tired of」指「因某事持續或重複太久而感到厭煩、受夠」。",
+        "tire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-06"
     },
@@ -795,11 +737,9 @@ export default {
       "masked": "He soon ____ the game.",
       "options": [
         "tire-mcq-07",
-        "tire-mcq-06",
-        "tire-mcq-08",
-        "tire-mcq-05",
-        "tire-mcq-09",
-        "tire-mcq-04"
+        "tire-mcq-12",
+        "tire-mcq-17",
+        "tire-mcq-09"
       ],
       "explanation": "本句的「tired of」指「對某事逐漸失去興趣、耐性或新鮮感」。",
       "sentenceIndex": 13,
@@ -808,12 +748,10 @@ export default {
         "tired of"
       ],
       "optionReasons": {
-        "tire-mcq-07": "本句指「對某事逐漸失去興趣、耐性或新鮮感」。",
-        "tire-mcq-06": "「因某事持續或重複太久而感到厭煩、受夠」是「tired of」的用法，與本句語境不同。",
-        "tire-mcq-08": "「隨時間開始對某事感到厭倦」是「grow/get tired of」的用法，與本句語境不同。",
-        "tire-mcq-05": "「因某活動／經歷而感到疲倦」是「tired from/after」的用法，與本句語境不同。",
-        "tire-mcq-09": "「因被使用或重複太多次而顯得老套、乏味的」是「tired — stale/overused」的用法，與本句語境不同。",
-        "tire-mcq-04": "「因活動、缺乏休息或精神消耗而感到沒有精力的」是「tired — fatigued」的用法，與本句語境不同。"
+        "tire-mcq-07": "本句的「tired of」指「對某事逐漸失去興趣、耐性或新鮮感」。",
+        "tire-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-07"
     },
@@ -825,11 +763,9 @@ export default {
       "masked": "She never ____ listening to his stories.",
       "options": [
         "tire-mcq-07",
-        "tire-mcq-06",
-        "tire-mcq-08",
-        "tire-mcq-05",
-        "tire-mcq-09",
-        "tire-mcq-04"
+        "tire-mcq-18",
+        "tire-mcq-17",
+        "tire-mcq-08"
       ],
       "explanation": "本句的「tires of」指「對某事逐漸失去興趣、耐性或新鮮感」。",
       "sentenceIndex": 14,
@@ -838,12 +774,10 @@ export default {
         "tires of"
       ],
       "optionReasons": {
-        "tire-mcq-07": "本句指「對某事逐漸失去興趣、耐性或新鮮感」。",
-        "tire-mcq-06": "「因某事持續或重複太久而感到厭煩、受夠」是「tired of」的用法，與本句語境不同。",
-        "tire-mcq-08": "「隨時間開始對某事感到厭倦」是「grow/get tired of」的用法，與本句語境不同。",
-        "tire-mcq-05": "「因某活動／經歷而感到疲倦」是「tired from/after」的用法，與本句語境不同。",
-        "tire-mcq-09": "「因被使用或重複太多次而顯得老套、乏味的」是「tired — stale/overused」的用法，與本句語境不同。",
-        "tire-mcq-04": "「因活動、缺乏休息或精神消耗而感到沒有精力的」是「tired — fatigued」的用法，與本句語境不同。"
+        "tire-mcq-07": "本句的「tires of」指「對某事逐漸失去興趣、耐性或新鮮感」。",
+        "tire-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-07"
     },
@@ -855,11 +789,9 @@ export default {
       "masked": "People may ____ waiting.",
       "options": [
         "tire-mcq-08",
-        "tire-mcq-07",
         "tire-mcq-09",
-        "tire-mcq-06",
-        "tire-mcq-10",
-        "tire-mcq-05"
+        "tire-mcq-17",
+        "tire-mcq-13"
       ],
       "explanation": "本句的「grow tired of」指「隨時間開始對某事感到厭倦」。",
       "sentenceIndex": 15,
@@ -868,12 +800,10 @@ export default {
         "grow tired of"
       ],
       "optionReasons": {
-        "tire-mcq-08": "本句指「隨時間開始對某事感到厭倦」。",
-        "tire-mcq-07": "「對某事逐漸失去興趣、耐性或新鮮感」是「tire of」的用法，與本句語境不同。",
-        "tire-mcq-09": "「因被使用或重複太多次而顯得老套、乏味的」是「tired — stale/overused」的用法，與本句語境不同。",
-        "tire-mcq-06": "「因某事持續或重複太久而感到厭煩、受夠」是「tired of」的用法，與本句語境不同。",
-        "tire-mcq-10": "「身體或精神缺乏精力、感到疲累的狀態」是「tiredness」的用法，與本句語境不同。",
-        "tire-mcq-05": "「因某活動／經歷而感到疲倦」是「tired from/after」的用法，與本句語境不同。"
+        "tire-mcq-08": "本句的「grow tired of」指「隨時間開始對某事感到厭倦」。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-08"
     },
@@ -885,11 +815,9 @@ export default {
       "masked": "I’m getting ____ this argument.",
       "options": [
         "tire-mcq-08",
-        "tire-mcq-07",
+        "tire-mcq-17",
         "tire-mcq-09",
-        "tire-mcq-06",
-        "tire-mcq-10",
-        "tire-mcq-05"
+        "tire-mcq-07"
       ],
       "explanation": "本句的「tired of」指「隨時間開始對某事感到厭倦」。",
       "sentenceIndex": 16,
@@ -898,12 +826,10 @@ export default {
         "tired of"
       ],
       "optionReasons": {
-        "tire-mcq-08": "本句指「隨時間開始對某事感到厭倦」。",
-        "tire-mcq-07": "「對某事逐漸失去興趣、耐性或新鮮感」是「tire of」的用法，與本句語境不同。",
-        "tire-mcq-09": "「因被使用或重複太多次而顯得老套、乏味的」是「tired — stale/overused」的用法，與本句語境不同。",
-        "tire-mcq-06": "「因某事持續或重複太久而感到厭煩、受夠」是「tired of」的用法，與本句語境不同。",
-        "tire-mcq-10": "「身體或精神缺乏精力、感到疲累的狀態」是「tiredness」的用法，與本句語境不同。",
-        "tire-mcq-05": "「因某活動／經歷而感到疲倦」是「tired from/after」的用法，與本句語境不同。"
+        "tire-mcq-08": "本句的「tired of」指「隨時間開始對某事感到厭倦」。",
+        "tire-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-08"
     },
@@ -915,11 +841,9 @@ export default {
       "masked": "The film relies on ____ jokes.",
       "options": [
         "tire-mcq-09",
-        "tire-mcq-08",
-        "tire-mcq-10",
-        "tire-mcq-07",
-        "tire-mcq-11",
-        "tire-mcq-06"
+        "tire-mcq-14",
+        "tire-mcq-13",
+        "tire-mcq-07"
       ],
       "explanation": "本句的「tired」指「因被使用或重複太多次而顯得老套、乏味的」。",
       "sentenceIndex": 17,
@@ -928,12 +852,10 @@ export default {
         "tired"
       ],
       "optionReasons": {
-        "tire-mcq-09": "本句指「因被使用或重複太多次而顯得老套、乏味的」。",
-        "tire-mcq-08": "「隨時間開始對某事感到厭倦」是「grow/get tired of」的用法，與本句語境不同。",
-        "tire-mcq-10": "「身體或精神缺乏精力、感到疲累的狀態」是「tiredness」的用法，與本句語境不同。",
-        "tire-mcq-07": "「對某事逐漸失去興趣、耐性或新鮮感」是「tire of」的用法，與本句語境不同。",
-        "tire-mcq-11": "「長時間持續努力而似乎不會疲倦或放棄的」是「tireless」的用法，與本句語境不同。",
-        "tire-mcq-06": "「因某事持續或重複太久而感到厭煩、受夠」是「tired of」的用法，與本句語境不同。"
+        "tire-mcq-09": "本句的「tired」指「因被使用或重複太多次而顯得老套、乏味的」。",
+        "tire-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-09"
     },
@@ -945,11 +867,9 @@ export default {
       "masked": "That is a ____ argument.",
       "options": [
         "tire-mcq-09",
-        "tire-mcq-08",
-        "tire-mcq-10",
-        "tire-mcq-07",
-        "tire-mcq-11",
-        "tire-mcq-06"
+        "tire-mcq-13",
+        "tire-mcq-17",
+        "tire-mcq-08"
       ],
       "explanation": "本句的「tired」指「因被使用或重複太多次而顯得老套、乏味的」。",
       "sentenceIndex": 18,
@@ -958,12 +878,10 @@ export default {
         "tired"
       ],
       "optionReasons": {
-        "tire-mcq-09": "本句指「因被使用或重複太多次而顯得老套、乏味的」。",
-        "tire-mcq-08": "「隨時間開始對某事感到厭倦」是「grow/get tired of」的用法，與本句語境不同。",
-        "tire-mcq-10": "「身體或精神缺乏精力、感到疲累的狀態」是「tiredness」的用法，與本句語境不同。",
-        "tire-mcq-07": "「對某事逐漸失去興趣、耐性或新鮮感」是「tire of」的用法，與本句語境不同。",
-        "tire-mcq-11": "「長時間持續努力而似乎不會疲倦或放棄的」是「tireless」的用法，與本句語境不同。",
-        "tire-mcq-06": "「因某事持續或重複太久而感到厭煩、受夠」是「tired of」的用法，與本句語境不同。"
+        "tire-mcq-09": "本句的「tired」指「因被使用或重複太多次而顯得老套、乏味的」。",
+        "tire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-09"
     },
@@ -975,11 +893,8 @@ export default {
       "masked": "He looked ____ after the trip.",
       "options": [
         "tire-mcq-18",
-        "tire-mcq-17",
         "tire-mcq-16",
-        "tire-mcq-15",
-        "tire-mcq-14",
-        "tire-mcq-13"
+        "tire-mcq-06"
       ],
       "explanation": "本句的「tired-looking」指「外表顯得疲倦、欠精神；亦可形容地方／物件顯得陳舊」。",
       "sentenceIndex": 19,
@@ -988,12 +903,9 @@ export default {
         "tired-looking"
       ],
       "optionReasons": {
-        "tire-mcq-18": "本句指「外表顯得疲倦、欠精神；亦可形容地方／物件顯得陳舊」。",
-        "tire-mcq-17": "「用來替換損壞輪胎的後備輪胎」是「spare tire/tyre」的用法，與本句語境不同。",
-        "tire-mcq-16": "「因失去空氣而不能正常使用的輪胎」是「flat tire/tyre」的用法，與本句語境不同。",
-        "tire-mcq-15": "「英式英語中表示輪胎的拼法」是「tyre — BrE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-14": "「包在車輪外圍、通常由橡膠製成的輪胎」是「tire — AmE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-13": "「使某人非常疲倦；把某人累壞」是「tire someone out」的用法，與本句語境不同。"
+        "tire-mcq-18": "本句的「tired-looking」指「外表顯得疲倦、欠精神；亦可形容地方／物件顯得陳舊」。",
+        "tire-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-18"
     },
@@ -1005,11 +917,8 @@ export default {
       "masked": "The room had a slightly ____ interior.",
       "options": [
         "tire-mcq-18",
-        "tire-mcq-17",
         "tire-mcq-16",
-        "tire-mcq-15",
-        "tire-mcq-14",
-        "tire-mcq-13"
+        "tire-mcq-06"
       ],
       "explanation": "本句的「tired-looking」指「外表顯得疲倦、欠精神；亦可形容地方／物件顯得陳舊」。",
       "sentenceIndex": 20,
@@ -1018,12 +927,9 @@ export default {
         "tired-looking"
       ],
       "optionReasons": {
-        "tire-mcq-18": "本句指「外表顯得疲倦、欠精神；亦可形容地方／物件顯得陳舊」。",
-        "tire-mcq-17": "「用來替換損壞輪胎的後備輪胎」是「spare tire/tyre」的用法，與本句語境不同。",
-        "tire-mcq-16": "「因失去空氣而不能正常使用的輪胎」是「flat tire/tyre」的用法，與本句語境不同。",
-        "tire-mcq-15": "「英式英語中表示輪胎的拼法」是「tyre — BrE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-14": "「包在車輪外圍、通常由橡膠製成的輪胎」是「tire — AmE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-13": "「使某人非常疲倦；把某人累壞」是「tire someone out」的用法，與本句語境不同。"
+        "tire-mcq-18": "本句的「tired-looking」指「外表顯得疲倦、欠精神；亦可形容地方／物件顯得陳舊」。",
+        "tire-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-18"
     },
@@ -1035,10 +941,8 @@ export default {
       "masked": "She struggled with ____ after a long day.",
       "options": [
         "tire-mcq-10",
+        "tire-mcq-17",
         "tire-mcq-09",
-        "tire-mcq-11",
-        "tire-mcq-08",
-        "tire-mcq-12",
         "tire-mcq-07"
       ],
       "explanation": "本句的「tiredness」指「身體或精神缺乏精力、感到疲累的狀態」。",
@@ -1048,12 +952,10 @@ export default {
         "tiredness"
       ],
       "optionReasons": {
-        "tire-mcq-10": "本句指「身體或精神缺乏精力、感到疲累的狀態」。",
-        "tire-mcq-09": "「因被使用或重複太多次而顯得老套、乏味的」是「tired — stale/overused」的用法，與本句語境不同。",
-        "tire-mcq-11": "「長時間持續努力而似乎不會疲倦或放棄的」是「tireless」的用法，與本句語境不同。",
-        "tire-mcq-08": "「隨時間開始對某事感到厭倦」是「grow/get tired of」的用法，與本句語境不同。",
-        "tire-mcq-12": "「不因疲累或困難而停止地持續努力」是「tirelessly」的用法，與本句語境不同。",
-        "tire-mcq-07": "「對某事逐漸失去興趣、耐性或新鮮感」是「tire of」的用法，與本句語境不同。"
+        "tire-mcq-10": "本句的「tiredness」指「身體或精神缺乏精力、感到疲累的狀態」。",
+        "tire-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-10"
     },
@@ -1065,11 +967,9 @@ export default {
       "masked": "Lack of sleep can cause daytime ____.",
       "options": [
         "tire-mcq-10",
-        "tire-mcq-09",
-        "tire-mcq-11",
-        "tire-mcq-08",
-        "tire-mcq-12",
-        "tire-mcq-07"
+        "tire-mcq-17",
+        "tire-mcq-07",
+        "tire-mcq-09"
       ],
       "explanation": "本句的「tiredness」指「身體或精神缺乏精力、感到疲累的狀態」。",
       "sentenceIndex": 22,
@@ -1078,12 +978,10 @@ export default {
         "tiredness"
       ],
       "optionReasons": {
-        "tire-mcq-10": "本句指「身體或精神缺乏精力、感到疲累的狀態」。",
-        "tire-mcq-09": "「因被使用或重複太多次而顯得老套、乏味的」是「tired — stale/overused」的用法，與本句語境不同。",
-        "tire-mcq-11": "「長時間持續努力而似乎不會疲倦或放棄的」是「tireless」的用法，與本句語境不同。",
-        "tire-mcq-08": "「隨時間開始對某事感到厭倦」是「grow/get tired of」的用法，與本句語境不同。",
-        "tire-mcq-12": "「不因疲累或困難而停止地持續努力」是「tirelessly」的用法，與本句語境不同。",
-        "tire-mcq-07": "「對某事逐漸失去興趣、耐性或新鮮感」是「tire of」的用法，與本句語境不同。"
+        "tire-mcq-10": "本句的「tiredness」指「身體或精神缺乏精力、感到疲累的狀態」。",
+        "tire-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-10"
     },
@@ -1095,11 +993,8 @@ export default {
       "masked": "She is a ____ volunteer.",
       "options": [
         "tire-mcq-11",
-        "tire-mcq-10",
-        "tire-mcq-12",
-        "tire-mcq-09",
-        "tire-mcq-13",
-        "tire-mcq-08"
+        "tire-mcq-16",
+        "tire-mcq-09"
       ],
       "explanation": "本句的「tireless」指「長時間持續努力而似乎不會疲倦或放棄的」。",
       "sentenceIndex": 23,
@@ -1108,12 +1003,9 @@ export default {
         "tireless"
       ],
       "optionReasons": {
-        "tire-mcq-11": "本句指「長時間持續努力而似乎不會疲倦或放棄的」。",
-        "tire-mcq-10": "「身體或精神缺乏精力、感到疲累的狀態」是「tiredness」的用法，與本句語境不同。",
-        "tire-mcq-12": "「不因疲累或困難而停止地持續努力」是「tirelessly」的用法，與本句語境不同。",
-        "tire-mcq-09": "「因被使用或重複太多次而顯得老套、乏味的」是「tired — stale/overused」的用法，與本句語境不同。",
-        "tire-mcq-13": "「使某人非常疲倦；把某人累壞」是「tire someone out」的用法，與本句語境不同。",
-        "tire-mcq-08": "「隨時間開始對某事感到厭倦」是「grow/get tired of」的用法，與本句語境不同。"
+        "tire-mcq-11": "本句的「tireless」指「長時間持續努力而似乎不會疲倦或放棄的」。",
+        "tire-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-11"
     },
@@ -1125,11 +1017,9 @@ export default {
       "masked": "He made ____ efforts to help the community.",
       "options": [
         "tire-mcq-11",
-        "tire-mcq-10",
-        "tire-mcq-12",
+        "tire-mcq-17",
         "tire-mcq-09",
-        "tire-mcq-13",
-        "tire-mcq-08"
+        "tire-mcq-07"
       ],
       "explanation": "本句的「tireless」指「長時間持續努力而似乎不會疲倦或放棄的」。",
       "sentenceIndex": 24,
@@ -1138,12 +1028,10 @@ export default {
         "tireless"
       ],
       "optionReasons": {
-        "tire-mcq-11": "本句指「長時間持續努力而似乎不會疲倦或放棄的」。",
-        "tire-mcq-10": "「身體或精神缺乏精力、感到疲累的狀態」是「tiredness」的用法，與本句語境不同。",
-        "tire-mcq-12": "「不因疲累或困難而停止地持續努力」是「tirelessly」的用法，與本句語境不同。",
-        "tire-mcq-09": "「因被使用或重複太多次而顯得老套、乏味的」是「tired — stale/overused」的用法，與本句語境不同。",
-        "tire-mcq-13": "「使某人非常疲倦；把某人累壞」是「tire someone out」的用法，與本句語境不同。",
-        "tire-mcq-08": "「隨時間開始對某事感到厭倦」是「grow/get tired of」的用法，與本句語境不同。"
+        "tire-mcq-11": "本句的「tireless」指「長時間持續努力而似乎不會疲倦或放棄的」。",
+        "tire-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-11"
     },
@@ -1155,10 +1043,8 @@ export default {
       "masked": "She worked ____ for the charity.",
       "options": [
         "tire-mcq-12",
-        "tire-mcq-11",
-        "tire-mcq-13",
-        "tire-mcq-10",
-        "tire-mcq-14",
+        "tire-mcq-17",
+        "tire-mcq-07",
         "tire-mcq-09"
       ],
       "explanation": "本句的「tirelessly」指「不因疲累或困難而停止地持續努力」。",
@@ -1168,12 +1054,10 @@ export default {
         "tirelessly"
       ],
       "optionReasons": {
-        "tire-mcq-12": "本句指「不因疲累或困難而停止地持續努力」。",
-        "tire-mcq-11": "「長時間持續努力而似乎不會疲倦或放棄的」是「tireless」的用法，與本句語境不同。",
-        "tire-mcq-13": "「使某人非常疲倦；把某人累壞」是「tire someone out」的用法，與本句語境不同。",
-        "tire-mcq-10": "「身體或精神缺乏精力、感到疲累的狀態」是「tiredness」的用法，與本句語境不同。",
-        "tire-mcq-14": "「包在車輪外圍、通常由橡膠製成的輪胎」是「tire — AmE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-09": "「因被使用或重複太多次而顯得老套、乏味的」是「tired — stale/overused」的用法，與本句語境不同。"
+        "tire-mcq-12": "本句的「tirelessly」指「不因疲累或困難而停止地持續努力」。",
+        "tire-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-12"
     },
@@ -1185,10 +1069,8 @@ export default {
       "masked": "The team worked ____ to solve the problem.",
       "options": [
         "tire-mcq-12",
-        "tire-mcq-11",
-        "tire-mcq-13",
-        "tire-mcq-10",
         "tire-mcq-14",
+        "tire-mcq-07",
         "tire-mcq-09"
       ],
       "explanation": "本句的「tirelessly」指「不因疲累或困難而停止地持續努力」。",
@@ -1198,12 +1080,10 @@ export default {
         "tirelessly"
       ],
       "optionReasons": {
-        "tire-mcq-12": "本句指「不因疲累或困難而停止地持續努力」。",
-        "tire-mcq-11": "「長時間持續努力而似乎不會疲倦或放棄的」是「tireless」的用法，與本句語境不同。",
-        "tire-mcq-13": "「使某人非常疲倦；把某人累壞」是「tire someone out」的用法，與本句語境不同。",
-        "tire-mcq-10": "「身體或精神缺乏精力、感到疲累的狀態」是「tiredness」的用法，與本句語境不同。",
-        "tire-mcq-14": "「包在車輪外圍、通常由橡膠製成的輪胎」是「tire — AmE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-09": "「因被使用或重複太多次而顯得老套、乏味的」是「tired — stale/overused」的用法，與本句語境不同。"
+        "tire-mcq-12": "本句的「tirelessly」指「不因疲累或困難而停止地持續努力」。",
+        "tire-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-12"
     },
@@ -1215,11 +1095,9 @@ export default {
       "masked": "Looking after the children ____.",
       "options": [
         "tire-mcq-13",
-        "tire-mcq-12",
-        "tire-mcq-14",
-        "tire-mcq-11",
-        "tire-mcq-15",
-        "tire-mcq-10"
+        "tire-mcq-09",
+        "tire-mcq-07",
+        "tire-mcq-17"
       ],
       "explanation": "本句的「tired me out」指「使某人非常疲倦；把某人累壞」。",
       "sentenceIndex": 27,
@@ -1228,12 +1106,10 @@ export default {
         "tired me out"
       ],
       "optionReasons": {
-        "tire-mcq-13": "本句指「使某人非常疲倦；把某人累壞」。",
-        "tire-mcq-12": "「不因疲累或困難而停止地持續努力」是「tirelessly」的用法，與本句語境不同。",
-        "tire-mcq-14": "「包在車輪外圍、通常由橡膠製成的輪胎」是「tire — AmE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-11": "「長時間持續努力而似乎不會疲倦或放棄的」是「tireless」的用法，與本句語境不同。",
-        "tire-mcq-15": "「英式英語中表示輪胎的拼法」是「tyre — BrE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-10": "「身體或精神缺乏精力、感到疲累的狀態」是「tiredness」的用法，與本句語境不同。"
+        "tire-mcq-13": "本句的「tired me out」指「使某人非常疲倦；把某人累壞」。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-13"
     },
@@ -1245,11 +1121,9 @@ export default {
       "masked": "The long walk ____.",
       "options": [
         "tire-mcq-13",
-        "tire-mcq-12",
-        "tire-mcq-14",
-        "tire-mcq-11",
-        "tire-mcq-15",
-        "tire-mcq-10"
+        "tire-mcq-06",
+        "tire-mcq-07",
+        "tire-mcq-14"
       ],
       "explanation": "本句的「tired everyone out」指「使某人非常疲倦；把某人累壞」。",
       "sentenceIndex": 28,
@@ -1258,12 +1132,10 @@ export default {
         "tired everyone out"
       ],
       "optionReasons": {
-        "tire-mcq-13": "本句指「使某人非常疲倦；把某人累壞」。",
-        "tire-mcq-12": "「不因疲累或困難而停止地持續努力」是「tirelessly」的用法，與本句語境不同。",
-        "tire-mcq-14": "「包在車輪外圍、通常由橡膠製成的輪胎」是「tire — AmE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-11": "「長時間持續努力而似乎不會疲倦或放棄的」是「tireless」的用法，與本句語境不同。",
-        "tire-mcq-15": "「英式英語中表示輪胎的拼法」是「tyre — BrE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-10": "「身體或精神缺乏精力、感到疲累的狀態」是「tiredness」的用法，與本句語境不同。"
+        "tire-mcq-13": "本句的「tired everyone out」指「使某人非常疲倦；把某人累壞」。",
+        "tire-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-13"
     },
@@ -1275,11 +1147,9 @@ export default {
       "masked": "The car has a flat ____.",
       "options": [
         "tire-mcq-14",
-        "tire-mcq-13",
-        "tire-mcq-15",
-        "tire-mcq-12",
-        "tire-mcq-16",
-        "tire-mcq-11"
+        "tire-mcq-04",
+        "tire-mcq-09",
+        "tire-mcq-07"
       ],
       "explanation": "本句的「tire」指「包在車輪外圍、通常由橡膠製成的輪胎」。",
       "sentenceIndex": 29,
@@ -1288,12 +1158,10 @@ export default {
         "tire"
       ],
       "optionReasons": {
-        "tire-mcq-14": "本句指「包在車輪外圍、通常由橡膠製成的輪胎」。",
-        "tire-mcq-13": "「使某人非常疲倦；把某人累壞」是「tire someone out」的用法，與本句語境不同。",
-        "tire-mcq-15": "「英式英語中表示輪胎的拼法」是「tyre — BrE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-12": "「不因疲累或困難而停止地持續努力」是「tirelessly」的用法，與本句語境不同。",
-        "tire-mcq-16": "「因失去空氣而不能正常使用的輪胎」是「flat tire/tyre」的用法，與本句語境不同。",
-        "tire-mcq-11": "「長時間持續努力而似乎不會疲倦或放棄的」是「tireless」的用法，與本句語境不同。"
+        "tire-mcq-14": "本句的「tire」指「包在車輪外圍、通常由橡膠製成的輪胎」。",
+        "tire-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-14"
     },
@@ -1305,11 +1173,9 @@ export default {
       "masked": "We need to replace the front ____.",
       "options": [
         "tire-mcq-14",
-        "tire-mcq-13",
-        "tire-mcq-15",
-        "tire-mcq-12",
-        "tire-mcq-16",
-        "tire-mcq-11"
+        "tire-mcq-02",
+        "tire-mcq-09",
+        "tire-mcq-07"
       ],
       "explanation": "本句的「tires」指「包在車輪外圍、通常由橡膠製成的輪胎」。",
       "sentenceIndex": 30,
@@ -1318,12 +1184,10 @@ export default {
         "tires"
       ],
       "optionReasons": {
-        "tire-mcq-14": "本句指「包在車輪外圍、通常由橡膠製成的輪胎」。",
-        "tire-mcq-13": "「使某人非常疲倦；把某人累壞」是「tire someone out」的用法，與本句語境不同。",
-        "tire-mcq-15": "「英式英語中表示輪胎的拼法」是「tyre — BrE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-12": "「不因疲累或困難而停止地持續努力」是「tirelessly」的用法，與本句語境不同。",
-        "tire-mcq-16": "「因失去空氣而不能正常使用的輪胎」是「flat tire/tyre」的用法，與本句語境不同。",
-        "tire-mcq-11": "「長時間持續努力而似乎不會疲倦或放棄的」是「tireless」的用法，與本句語境不同。"
+        "tire-mcq-14": "本句的「tires」指「包在車輪外圍、通常由橡膠製成的輪胎」。",
+        "tire-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-14"
     },
@@ -1335,11 +1199,8 @@ export default {
       "masked": "We had a ____ on the way home.",
       "options": [
         "tire-mcq-16",
-        "tire-mcq-15",
-        "tire-mcq-17",
-        "tire-mcq-14",
-        "tire-mcq-18",
-        "tire-mcq-13"
+        "tire-mcq-02",
+        "tire-mcq-09"
       ],
       "explanation": "本句的「flat tire」指「因失去空氣而不能正常使用的輪胎」。",
       "sentenceIndex": 31,
@@ -1348,12 +1209,9 @@ export default {
         "flat tire"
       ],
       "optionReasons": {
-        "tire-mcq-16": "本句指「因失去空氣而不能正常使用的輪胎」。",
-        "tire-mcq-15": "「英式英語中表示輪胎的拼法」是「tyre — BrE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-17": "「用來替換損壞輪胎的後備輪胎」是「spare tire/tyre」的用法，與本句語境不同。",
-        "tire-mcq-14": "「包在車輪外圍、通常由橡膠製成的輪胎」是「tire — AmE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-18": "「外表顯得疲倦、欠精神；亦可形容地方／物件顯得陳舊」是「10. tired-looking（看起來疲倦的） — 疲態的；顯得疲倦的」的用法，與本句語境不同。",
-        "tire-mcq-13": "「使某人非常疲倦；把某人累壞」是「tire someone out」的用法，與本句語境不同。"
+        "tire-mcq-16": "本句的「flat tire」指「因失去空氣而不能正常使用的輪胎」。",
+        "tire-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-16"
     },
@@ -1365,11 +1223,8 @@ export default {
       "masked": "He stopped to change a ____.",
       "options": [
         "tire-mcq-16",
-        "tire-mcq-15",
-        "tire-mcq-17",
-        "tire-mcq-14",
-        "tire-mcq-18",
-        "tire-mcq-13"
+        "tire-mcq-02",
+        "tire-mcq-09"
       ],
       "explanation": "本句的「flat tyre」指「因失去空氣而不能正常使用的輪胎」。",
       "sentenceIndex": 32,
@@ -1378,12 +1233,9 @@ export default {
         "flat tyre"
       ],
       "optionReasons": {
-        "tire-mcq-16": "本句指「因失去空氣而不能正常使用的輪胎」。",
-        "tire-mcq-15": "「英式英語中表示輪胎的拼法」是「tyre — BrE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-17": "「用來替換損壞輪胎的後備輪胎」是「spare tire/tyre」的用法，與本句語境不同。",
-        "tire-mcq-14": "「包在車輪外圍、通常由橡膠製成的輪胎」是「tire — AmE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-18": "「外表顯得疲倦、欠精神；亦可形容地方／物件顯得陳舊」是「10. tired-looking（看起來疲倦的） — 疲態的；顯得疲倦的」的用法，與本句語境不同。",
-        "tire-mcq-13": "「使某人非常疲倦；把某人累壞」是「tire someone out」的用法，與本句語境不同。"
+        "tire-mcq-16": "本句的「flat tyre」指「因失去空氣而不能正常使用的輪胎」。",
+        "tire-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-16"
     },
@@ -1395,11 +1247,9 @@ export default {
       "masked": "The car has a ____ in the trunk.",
       "options": [
         "tire-mcq-17",
-        "tire-mcq-16",
-        "tire-mcq-18",
-        "tire-mcq-15",
-        "tire-mcq-14",
-        "tire-mcq-13"
+        "tire-mcq-04",
+        "tire-mcq-07",
+        "tire-mcq-09"
       ],
       "explanation": "本句的「spare tire」指「用來替換損壞輪胎的後備輪胎」。",
       "sentenceIndex": 33,
@@ -1408,12 +1258,10 @@ export default {
         "spare tire"
       ],
       "optionReasons": {
-        "tire-mcq-17": "本句指「用來替換損壞輪胎的後備輪胎」。",
-        "tire-mcq-16": "「因失去空氣而不能正常使用的輪胎」是「flat tire/tyre」的用法，與本句語境不同。",
-        "tire-mcq-18": "「外表顯得疲倦、欠精神；亦可形容地方／物件顯得陳舊」是「10. tired-looking（看起來疲倦的） — 疲態的；顯得疲倦的」的用法，與本句語境不同。",
-        "tire-mcq-15": "「英式英語中表示輪胎的拼法」是「tyre — BrE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-14": "「包在車輪外圍、通常由橡膠製成的輪胎」是「tire — AmE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-13": "「使某人非常疲倦；把某人累壞」是「tire someone out」的用法，與本句語境不同。"
+        "tire-mcq-17": "本句的「spare tire」指「用來替換損壞輪胎的後備輪胎」。",
+        "tire-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-17"
     },
@@ -1425,11 +1273,8 @@ export default {
       "masked": "They used the ____ after the puncture.",
       "options": [
         "tire-mcq-17",
-        "tire-mcq-16",
-        "tire-mcq-18",
-        "tire-mcq-15",
-        "tire-mcq-14",
-        "tire-mcq-13"
+        "tire-mcq-01",
+        "tire-mcq-09"
       ],
       "explanation": "本句的「spare tyre」指「用來替換損壞輪胎的後備輪胎」。",
       "sentenceIndex": 34,
@@ -1438,12 +1283,9 @@ export default {
         "spare tyre"
       ],
       "optionReasons": {
-        "tire-mcq-17": "本句指「用來替換損壞輪胎的後備輪胎」。",
-        "tire-mcq-16": "「因失去空氣而不能正常使用的輪胎」是「flat tire/tyre」的用法，與本句語境不同。",
-        "tire-mcq-18": "「外表顯得疲倦、欠精神；亦可形容地方／物件顯得陳舊」是「10. tired-looking（看起來疲倦的） — 疲態的；顯得疲倦的」的用法，與本句語境不同。",
-        "tire-mcq-15": "「英式英語中表示輪胎的拼法」是「tyre — BrE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-14": "「包在車輪外圍、通常由橡膠製成的輪胎」是「tire — AmE wheel noun」的用法，與本句語境不同。",
-        "tire-mcq-13": "「使某人非常疲倦；把某人累壞」是「tire someone out」的用法，與本句語境不同。"
+        "tire-mcq-17": "本句的「spare tyre」指「用來替換損壞輪胎的後備輪胎」。",
+        "tire-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tire-mcq-17"
     }
@@ -1455,5 +1297,7 @@ export default {
     "sha256": "9984aaa6fc76ec685bd6fc5b2ec68b7a92757fabbbb3729090887633facd7f1b",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

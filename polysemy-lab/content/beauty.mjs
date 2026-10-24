@@ -414,11 +414,9 @@ export default {
       "masked": "That gentle ____ is what makes it memorable.",
       "options": [
         "beauty-mcq-01",
-        "beauty-mcq-02",
-        "beauty-mcq-03",
         "beauty-mcq-04",
-        "beauty-mcq-05",
-        "beauty-mcq-06"
+        "beauty-mcq-06",
+        "beauty-mcq-13"
       ],
       "explanation": "本句的「beauty」指「令人感到賞心悅目、和諧、優雅或感動的美感」。",
       "sentenceIndex": 0,
@@ -427,12 +425,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-01": "本句指「令人感到賞心悅目、和諧、優雅或感動的美感」。",
-        "beauty-mcq-02": "「一個人在外表上的吸引力／美貌」是「beauty — physical」的用法，與本句語境不同。",
-        "beauty-mcq-03": "「景色或自然環境令人欣賞的美麗特質」是「beauty — nature/place」的用法，與本句語境不同。",
-        "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。"
+        "beauty-mcq-01": "本句的「beauty」指「令人感到賞心悅目、和諧、優雅或感動的美感」。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-01"
     },
@@ -444,11 +440,9 @@ export default {
       "masked": "I admire the ____ of the painting.",
       "options": [
         "beauty-mcq-01",
-        "beauty-mcq-02",
-        "beauty-mcq-03",
         "beauty-mcq-04",
-        "beauty-mcq-05",
-        "beauty-mcq-06"
+        "beauty-mcq-06",
+        "beauty-mcq-13"
       ],
       "explanation": "本句的「beauty」指「令人感到賞心悅目、和諧、優雅或感動的美感」。",
       "sentenceIndex": 1,
@@ -457,12 +451,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-01": "本句指「令人感到賞心悅目、和諧、優雅或感動的美感」。",
-        "beauty-mcq-02": "「一個人在外表上的吸引力／美貌」是「beauty — physical」的用法，與本句語境不同。",
-        "beauty-mcq-03": "「景色或自然環境令人欣賞的美麗特質」是「beauty — nature/place」的用法，與本句語境不同。",
-        "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。"
+        "beauty-mcq-01": "本句的「beauty」指「令人感到賞心悅目、和諧、優雅或感動的美感」。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-01"
     },
@@ -474,11 +466,9 @@ export default {
       "masked": "The room has a quiet ____.",
       "options": [
         "beauty-mcq-01",
-        "beauty-mcq-02",
-        "beauty-mcq-03",
-        "beauty-mcq-04",
-        "beauty-mcq-05",
-        "beauty-mcq-06"
+        "beauty-mcq-06",
+        "beauty-mcq-13",
+        "beauty-mcq-04"
       ],
       "explanation": "本句的「beauty」指「令人感到賞心悅目、和諧、優雅或感動的美感」。",
       "sentenceIndex": 2,
@@ -487,12 +477,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-01": "本句指「令人感到賞心悅目、和諧、優雅或感動的美感」。",
-        "beauty-mcq-02": "「一個人在外表上的吸引力／美貌」是「beauty — physical」的用法，與本句語境不同。",
-        "beauty-mcq-03": "「景色或自然環境令人欣賞的美麗特質」是「beauty — nature/place」的用法，與本句語境不同。",
-        "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。"
+        "beauty-mcq-01": "本句的「beauty」指「令人感到賞心悅目、和諧、優雅或感動的美感」。",
+        "beauty-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-01"
     },
@@ -504,11 +492,9 @@ export default {
       "masked": "She was admired for her ____.",
       "options": [
         "beauty-mcq-02",
-        "beauty-mcq-01",
-        "beauty-mcq-03",
-        "beauty-mcq-04",
-        "beauty-mcq-05",
-        "beauty-mcq-06"
+        "beauty-mcq-11",
+        "beauty-mcq-07",
+        "beauty-mcq-15"
       ],
       "explanation": "本句的「beauty」指「一個人在外表上的吸引力／美貌」。",
       "sentenceIndex": 3,
@@ -517,12 +503,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-02": "本句指「一個人在外表上的吸引力／美貌」。",
-        "beauty-mcq-01": "「令人感到賞心悅目、和諧、優雅或感動的美感」是「beauty — aesthetic quality」的用法，與本句語境不同。",
-        "beauty-mcq-03": "「景色或自然環境令人欣賞的美麗特質」是「beauty — nature/place」的用法，與本句語境不同。",
-        "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。"
+        "beauty-mcq-02": "本句的「beauty」指「一個人在外表上的吸引力／美貌」。",
+        "beauty-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-02"
     },
@@ -534,11 +518,9 @@ export default {
       "masked": "People often focus too much on physical ____.",
       "options": [
         "beauty-mcq-02",
-        "beauty-mcq-01",
-        "beauty-mcq-03",
-        "beauty-mcq-04",
-        "beauty-mcq-05",
-        "beauty-mcq-06"
+        "beauty-mcq-11",
+        "beauty-mcq-15",
+        "beauty-mcq-07"
       ],
       "explanation": "本句的「beauty」指「一個人在外表上的吸引力／美貌」。",
       "sentenceIndex": 4,
@@ -547,12 +529,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-02": "本句指「一個人在外表上的吸引力／美貌」。",
-        "beauty-mcq-01": "「令人感到賞心悅目、和諧、優雅或感動的美感」是「beauty — aesthetic quality」的用法，與本句語境不同。",
-        "beauty-mcq-03": "「景色或自然環境令人欣賞的美麗特質」是「beauty — nature/place」的用法，與本句語境不同。",
-        "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。"
+        "beauty-mcq-02": "本句的「beauty」指「一個人在外表上的吸引力／美貌」。",
+        "beauty-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-02"
     },
@@ -564,11 +544,9 @@ export default {
       "masked": "We were amazed by the natural ____ of the lake.",
       "options": [
         "beauty-mcq-03",
-        "beauty-mcq-02",
-        "beauty-mcq-04",
-        "beauty-mcq-01",
-        "beauty-mcq-05",
-        "beauty-mcq-06"
+        "beauty-mcq-13",
+        "beauty-mcq-08",
+        "beauty-mcq-04"
       ],
       "explanation": "本句的「beauty」指「景色或自然環境令人欣賞的美麗特質」。",
       "sentenceIndex": 5,
@@ -577,12 +555,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-03": "本句指「景色或自然環境令人欣賞的美麗特質」。",
-        "beauty-mcq-02": "「一個人在外表上的吸引力／美貌」是「beauty — physical」的用法，與本句語境不同。",
-        "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。",
-        "beauty-mcq-01": "「令人感到賞心悅目、和諧、優雅或感動的美感」是「beauty — aesthetic quality」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。"
+        "beauty-mcq-03": "本句的「beauty」指「景色或自然環境令人欣賞的美麗特質」。",
+        "beauty-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-03"
     },
@@ -594,11 +570,9 @@ export default {
       "masked": "The area is famous for its scenic ____.",
       "options": [
         "beauty-mcq-03",
-        "beauty-mcq-02",
-        "beauty-mcq-04",
-        "beauty-mcq-01",
-        "beauty-mcq-05",
-        "beauty-mcq-06"
+        "beauty-mcq-13",
+        "beauty-mcq-12",
+        "beauty-mcq-04"
       ],
       "explanation": "本句的「beauty」指「景色或自然環境令人欣賞的美麗特質」。",
       "sentenceIndex": 6,
@@ -607,12 +581,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-03": "本句指「景色或自然環境令人欣賞的美麗特質」。",
-        "beauty-mcq-02": "「一個人在外表上的吸引力／美貌」是「beauty — physical」的用法，與本句語境不同。",
-        "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。",
-        "beauty-mcq-01": "「令人感到賞心悅目、和諧、優雅或感動的美感」是「beauty — aesthetic quality」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。"
+        "beauty-mcq-03": "本句的「beauty」指「景色或自然環境令人欣賞的美麗特質」。",
+        "beauty-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-03"
     },
@@ -624,11 +596,9 @@ export default {
       "masked": "She was considered a great ____ in her youth.",
       "options": [
         "beauty-mcq-04",
-        "beauty-mcq-03",
-        "beauty-mcq-05",
-        "beauty-mcq-02",
         "beauty-mcq-06",
-        "beauty-mcq-01"
+        "beauty-mcq-11",
+        "beauty-mcq-08"
       ],
       "explanation": "本句的「beauty」指「外貌特別漂亮的人」。",
       "sentenceIndex": 7,
@@ -637,12 +607,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-04": "本句指「外貌特別漂亮的人」。",
-        "beauty-mcq-03": "「景色或自然環境令人欣賞的美麗特質」是「beauty — nature/place」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
-        "beauty-mcq-02": "「一個人在外表上的吸引力／美貌」是「beauty — physical」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
-        "beauty-mcq-01": "「令人感到賞心悅目、和諧、優雅或感動的美感」是「beauty — aesthetic quality」的用法，與本句語境不同。"
+        "beauty-mcq-04": "本句的「beauty」指「外貌特別漂亮的人」。",
+        "beauty-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-04"
     },
@@ -654,9 +622,7 @@ export default {
       "masked": "The portrait shows a famous ____ of the period.",
       "options": [
         "beauty-mcq-04",
-        "beauty-mcq-03",
-        "beauty-mcq-05",
-        "beauty-mcq-02",
+        "beauty-mcq-13",
         "beauty-mcq-06",
         "beauty-mcq-01"
       ],
@@ -667,12 +633,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-04": "本句指「外貌特別漂亮的人」。",
-        "beauty-mcq-03": "「景色或自然環境令人欣賞的美麗特質」是「beauty — nature/place」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
-        "beauty-mcq-02": "「一個人在外表上的吸引力／美貌」是「beauty — physical」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
-        "beauty-mcq-01": "「令人感到賞心悅目、和諧、優雅或感動的美感」是「beauty — aesthetic quality」的用法，與本句語境不同。"
+        "beauty-mcq-04": "本句的「beauty」指「外貌特別漂亮的人」。",
+        "beauty-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-04"
     },
@@ -684,11 +648,9 @@ export default {
       "masked": "That painting is a real ____.",
       "options": [
         "beauty-mcq-05",
-        "beauty-mcq-04",
-        "beauty-mcq-06",
-        "beauty-mcq-03",
-        "beauty-mcq-07",
-        "beauty-mcq-02"
+        "beauty-mcq-08",
+        "beauty-mcq-13",
+        "beauty-pdf-001"
       ],
       "explanation": "本句的「beauty」指「特別漂亮、出色或令人欣賞的事物」。",
       "sentenceIndex": 9,
@@ -697,12 +659,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-05": "本句指「特別漂亮、出色或令人欣賞的事物」。",
-        "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
-        "beauty-mcq-03": "「景色或自然環境令人欣賞的美麗特質」是「beauty — nature/place」的用法，與本句語境不同。",
-        "beauty-mcq-07": "「性格、品格或精神層面的美好特質」是「beauty — inner」的用法，與本句語境不同。",
-        "beauty-mcq-02": "「一個人在外表上的吸引力／美貌」是「beauty — physical」的用法，與本句語境不同。"
+        "beauty-mcq-05": "本句的「beauty」指「特別漂亮、出色或令人欣賞的事物」。",
+        "beauty-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "beauty-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-05"
     },
@@ -714,11 +674,9 @@ export default {
       "masked": "What a ____ of a car!",
       "options": [
         "beauty-mcq-05",
-        "beauty-mcq-04",
-        "beauty-mcq-06",
-        "beauty-mcq-03",
-        "beauty-mcq-07",
-        "beauty-mcq-02"
+        "beauty-mcq-08",
+        "beauty-mcq-12",
+        "beauty-pdf-001"
       ],
       "explanation": "本句的「beauty」指「特別漂亮、出色或令人欣賞的事物」。",
       "sentenceIndex": 10,
@@ -727,12 +685,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-05": "本句指「特別漂亮、出色或令人欣賞的事物」。",
-        "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
-        "beauty-mcq-03": "「景色或自然環境令人欣賞的美麗特質」是「beauty — nature/place」的用法，與本句語境不同。",
-        "beauty-mcq-07": "「性格、品格或精神層面的美好特質」是「beauty — inner」的用法，與本句語境不同。",
-        "beauty-mcq-02": "「一個人在外表上的吸引力／美貌」是「beauty — physical」的用法，與本句語境不同。"
+        "beauty-mcq-05": "本句的「beauty」指「特別漂亮、出色或令人欣賞的事物」。",
+        "beauty-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "beauty-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-05"
     },
@@ -744,11 +700,9 @@ export default {
       "masked": "The ____ this design is its simplicity.",
       "options": [
         "beauty-mcq-06",
-        "beauty-mcq-05",
-        "beauty-mcq-07",
-        "beauty-mcq-04",
+        "beauty-mcq-09",
         "beauty-mcq-08",
-        "beauty-mcq-03"
+        "beauty-mcq-07"
       ],
       "explanation": "本句的「beauty of」指「某事最吸引人、最巧妙或最有利的地方」。",
       "sentenceIndex": 11,
@@ -757,12 +711,10 @@ export default {
         "beauty of"
       ],
       "optionReasons": {
-        "beauty-mcq-06": "本句指「某事最吸引人、最巧妙或最有利的地方」。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
-        "beauty-mcq-07": "「性格、品格或精神層面的美好特質」是「beauty — inner」的用法，與本句語境不同。",
-        "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。",
-        "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。",
-        "beauty-mcq-03": "「景色或自然環境令人欣賞的美麗特質」是「beauty — nature/place」的用法，與本句語境不同。"
+        "beauty-mcq-06": "本句的「beauty of」指「某事最吸引人、最巧妙或最有利的地方」。",
+        "beauty-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-06"
     },
@@ -774,11 +726,9 @@ export default {
       "masked": "The ____ of online collections is that anyone can access them.",
       "options": [
         "beauty-mcq-06",
-        "beauty-mcq-05",
-        "beauty-mcq-07",
-        "beauty-mcq-04",
         "beauty-mcq-08",
-        "beauty-mcq-03"
+        "beauty-pdf-001",
+        "beauty-mcq-04"
       ],
       "explanation": "本句的「beauty」指「某事最吸引人、最巧妙或最有利的地方」。",
       "sentenceIndex": 12,
@@ -787,12 +737,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-06": "本句指「某事最吸引人、最巧妙或最有利的地方」。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
-        "beauty-mcq-07": "「性格、品格或精神層面的美好特質」是「beauty — inner」的用法，與本句語境不同。",
-        "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。",
-        "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。",
-        "beauty-mcq-03": "「景色或自然環境令人欣賞的美麗特質」是「beauty — nature/place」的用法，與本句語境不同。"
+        "beauty-mcq-06": "本句的「beauty」指「某事最吸引人、最巧妙或最有利的地方」。",
+        "beauty-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "beauty-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-06"
     },
@@ -804,10 +752,8 @@ export default {
       "masked": "The artist found ____ in ordinary scenes.",
       "options": [
         "beauty-pdf-001",
-        "beauty-mcq-06",
-        "beauty-mcq-08",
-        "beauty-mcq-05",
-        "beauty-mcq-09",
+        "beauty-pdf-002",
+        "beauty-mcq-13",
         "beauty-mcq-04"
       ],
       "explanation": "本句的「beauty」指「藝術、設計、哲學中對美感／審美價值的抽象概念」。",
@@ -817,12 +763,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-pdf-001": "本句指「藝術、設計、哲學中對美感／審美價值的抽象概念」。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
-        "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
-        "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。"
+        "beauty-pdf-001": "本句的「beauty」指「藝術、設計、哲學中對美感／審美價值的抽象概念」。",
+        "beauty-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-pdf-001"
     },
@@ -834,11 +778,9 @@ export default {
       "masked": "The work explores ideas of ____ and imperfection.",
       "options": [
         "beauty-pdf-001",
+        "beauty-mcq-04",
         "beauty-mcq-06",
-        "beauty-mcq-08",
-        "beauty-mcq-05",
-        "beauty-mcq-09",
-        "beauty-mcq-04"
+        "beauty-mcq-13"
       ],
       "explanation": "本句的「beauty」指「藝術、設計、哲學中對美感／審美價值的抽象概念」。",
       "sentenceIndex": 14,
@@ -847,12 +789,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-pdf-001": "本句指「藝術、設計、哲學中對美感／審美價值的抽象概念」。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
-        "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
-        "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。"
+        "beauty-pdf-001": "本句的「beauty」指「藝術、設計、哲學中對美感／審美價值的抽象概念」。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-pdf-001"
     },
@@ -865,10 +805,8 @@ export default {
       "options": [
         "beauty-mcq-07",
         "beauty-mcq-06",
-        "beauty-mcq-08",
-        "beauty-mcq-05",
-        "beauty-mcq-09",
-        "beauty-mcq-04"
+        "beauty-mcq-11",
+        "beauty-mcq-08"
       ],
       "explanation": "本句的「beauty」指「性格、品格或精神層面的美好特質」。",
       "sentenceIndex": 15,
@@ -877,12 +815,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-07": "本句指「性格、品格或精神層面的美好特質」。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
-        "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
-        "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。"
+        "beauty-mcq-07": "本句的「beauty」指「性格、品格或精神層面的美好特質」。",
+        "beauty-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-07"
     },
@@ -894,11 +830,9 @@ export default {
       "masked": "The story celebrates inner ____.",
       "options": [
         "beauty-mcq-07",
-        "beauty-mcq-06",
-        "beauty-mcq-08",
-        "beauty-mcq-05",
-        "beauty-mcq-09",
-        "beauty-mcq-04"
+        "beauty-pdf-002",
+        "beauty-mcq-11",
+        "beauty-mcq-08"
       ],
       "explanation": "本句的「beauty」指「性格、品格或精神層面的美好特質」。",
       "sentenceIndex": 16,
@@ -907,12 +841,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-07": "本句指「性格、品格或精神層面的美好特質」。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
-        "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
-        "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。"
+        "beauty-mcq-07": "本句的「beauty」指「性格、品格或精神層面的美好特質」。",
+        "beauty-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-07"
     },
@@ -924,10 +856,8 @@ export default {
       "masked": "There is ____ in simplicity.",
       "options": [
         "beauty-pdf-002",
-        "beauty-mcq-06",
-        "beauty-mcq-08",
-        "beauty-mcq-05",
-        "beauty-mcq-09",
+        "beauty-mcq-07",
+        "beauty-mcq-12",
         "beauty-mcq-04"
       ],
       "explanation": "本句的「beauty」指「某想法、結構、方法因簡潔、和諧或巧妙而產生的吸引力」。",
@@ -937,12 +867,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-pdf-002": "本句指「某想法、結構、方法因簡潔、和諧或巧妙而產生的吸引力」。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
-        "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
-        "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。"
+        "beauty-pdf-002": "本句的「beauty」指「某想法、結構、方法因簡潔、和諧或巧妙而產生的吸引力」。",
+        "beauty-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-pdf-002"
     },
@@ -954,11 +882,9 @@ export default {
       "masked": "The ____ of the solution lies in its elegance.",
       "options": [
         "beauty-pdf-002",
-        "beauty-mcq-06",
+        "beauty-mcq-04",
         "beauty-mcq-08",
-        "beauty-mcq-05",
-        "beauty-mcq-09",
-        "beauty-mcq-04"
+        "beauty-pdf-001"
       ],
       "explanation": "本句的「beauty」指「某想法、結構、方法因簡潔、和諧或巧妙而產生的吸引力」。",
       "sentenceIndex": 18,
@@ -967,12 +893,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-pdf-002": "本句指「某想法、結構、方法因簡潔、和諧或巧妙而產生的吸引力」。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
-        "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
-        "beauty-mcq-04": "「外貌特別漂亮的人」是「a beauty — person」的用法，與本句語境不同。"
+        "beauty-pdf-002": "本句的「beauty」指「某想法、結構、方法因簡潔、和諧或巧妙而產生的吸引力」。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "beauty-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-pdf-002"
     },
@@ -984,11 +908,9 @@ export default {
       "masked": "She works in the ____ industry.",
       "options": [
         "beauty-mcq-08",
-        "beauty-mcq-07",
-        "beauty-mcq-09",
-        "beauty-mcq-06",
-        "beauty-mcq-10",
-        "beauty-mcq-05"
+        "beauty-mcq-05",
+        "beauty-mcq-13",
+        "beauty-pdf-001"
       ],
       "explanation": "本句的「beauty」指「與美容、護膚、化妝和儀容打理相關的」。",
       "sentenceIndex": 19,
@@ -997,12 +919,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-08": "本句指「與美容、護膚、化妝和儀容打理相關的」。",
-        "beauty-mcq-07": "「性格、品格或精神層面的美好特質」是「beauty — inner」的用法，與本句語境不同。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。"
+        "beauty-mcq-08": "本句的「beauty」指「與美容、護膚、化妝和儀容打理相關的」。",
+        "beauty-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "beauty-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-08"
     },
@@ -1014,11 +934,9 @@ export default {
       "masked": "The shop sells ____ products.",
       "options": [
         "beauty-mcq-08",
-        "beauty-mcq-07",
-        "beauty-mcq-09",
-        "beauty-mcq-06",
-        "beauty-mcq-10",
-        "beauty-mcq-05"
+        "beauty-mcq-04",
+        "beauty-pdf-002",
+        "beauty-mcq-11"
       ],
       "explanation": "本句的「beauty」指「與美容、護膚、化妝和儀容打理相關的」。",
       "sentenceIndex": 20,
@@ -1027,12 +945,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-08": "本句指「與美容、護膚、化妝和儀容打理相關的」。",
-        "beauty-mcq-07": "「性格、品格或精神層面的美好特質」是「beauty — inner」的用法，與本句語境不同。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。"
+        "beauty-mcq-08": "本句的「beauty」指「與美容、護膚、化妝和儀容打理相關的」。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beauty-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-08"
     },
@@ -1044,11 +960,9 @@ export default {
       "masked": "She opened a small ____.",
       "options": [
         "beauty-mcq-08",
-        "beauty-mcq-07",
-        "beauty-mcq-09",
-        "beauty-mcq-06",
-        "beauty-mcq-10",
-        "beauty-mcq-05"
+        "beauty-mcq-13",
+        "beauty-mcq-04",
+        "beauty-mcq-10"
       ],
       "explanation": "本句的「beauty salon」指「與美容、護膚、化妝和儀容打理相關的」。",
       "sentenceIndex": 21,
@@ -1057,12 +971,10 @@ export default {
         "beauty salon"
       ],
       "optionReasons": {
-        "beauty-mcq-08": "本句指「與美容、護膚、化妝和儀容打理相關的」。",
-        "beauty-mcq-07": "「性格、品格或精神層面的美好特質」是「beauty — inner」的用法，與本句語境不同。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。"
+        "beauty-mcq-08": "本句的「beauty salon」指「與美容、護膚、化妝和儀容打理相關的」。",
+        "beauty-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-08"
     },
@@ -1074,11 +986,9 @@ export default {
       "masked": "The ____ salon offers skin treatments.",
       "options": [
         "beauty-mcq-08",
-        "beauty-mcq-07",
-        "beauty-mcq-09",
-        "beauty-mcq-06",
-        "beauty-mcq-10",
-        "beauty-mcq-05"
+        "beauty-mcq-05",
+        "beauty-mcq-13",
+        "beauty-mcq-07"
       ],
       "explanation": "本句的「beauty」指「與美容、護膚、化妝和儀容打理相關的」。",
       "sentenceIndex": 22,
@@ -1087,12 +997,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-08": "本句指「與美容、護膚、化妝和儀容打理相關的」。",
-        "beauty-mcq-07": "「性格、品格或精神層面的美好特質」是「beauty — inner」的用法，與本句語境不同。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。"
+        "beauty-mcq-08": "本句的「beauty」指「與美容、護膚、化妝和儀容打理相關的」。",
+        "beauty-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-08"
     },
@@ -1104,11 +1012,9 @@ export default {
       "masked": "The hotel offers several ____.",
       "options": [
         "beauty-mcq-08",
-        "beauty-mcq-07",
-        "beauty-mcq-09",
+        "beauty-mcq-04",
         "beauty-mcq-06",
-        "beauty-mcq-10",
-        "beauty-mcq-05"
+        "beauty-mcq-11"
       ],
       "explanation": "本句的「beauty treatments」指「與美容、護膚、化妝和儀容打理相關的」。",
       "sentenceIndex": 23,
@@ -1117,12 +1023,10 @@ export default {
         "beauty treatments"
       ],
       "optionReasons": {
-        "beauty-mcq-08": "本句指「與美容、護膚、化妝和儀容打理相關的」。",
-        "beauty-mcq-07": "「性格、品格或精神層面的美好特質」是「beauty — inner」的用法，與本句語境不同。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。"
+        "beauty-mcq-08": "本句的「beauty treatments」指「與美容、護膚、化妝和儀容打理相關的」。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-08"
     },
@@ -1134,11 +1038,9 @@ export default {
       "masked": "She booked a ____ treatment before the event.",
       "options": [
         "beauty-mcq-08",
-        "beauty-mcq-07",
-        "beauty-mcq-09",
         "beauty-mcq-06",
-        "beauty-mcq-10",
-        "beauty-mcq-05"
+        "beauty-mcq-11",
+        "beauty-mcq-04"
       ],
       "explanation": "本句的「beauty」指「與美容、護膚、化妝和儀容打理相關的」。",
       "sentenceIndex": 24,
@@ -1147,12 +1049,10 @@ export default {
         "beauty"
       ],
       "optionReasons": {
-        "beauty-mcq-08": "本句指「與美容、護膚、化妝和儀容打理相關的」。",
-        "beauty-mcq-07": "「性格、品格或精神層面的美好特質」是「beauty — inner」的用法，與本句語境不同。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。",
-        "beauty-mcq-05": "「特別漂亮、出色或令人欣賞的事物」是「a beauty — thing」的用法，與本句語境不同。"
+        "beauty-mcq-08": "本句的「beauty」指「與美容、護膚、化妝和儀容打理相關的」。",
+        "beauty-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-08"
     },
@@ -1164,11 +1064,9 @@ export default {
       "masked": "The painting is ____.",
       "options": [
         "beauty-mcq-09",
+        "beauty-pdf-002",
         "beauty-mcq-08",
-        "beauty-mcq-10",
-        "beauty-mcq-07",
-        "beauty-mcq-11",
-        "beauty-mcq-06"
+        "beauty-mcq-07"
       ],
       "explanation": "本句的「beautiful」指「外觀、景色或藝術令人感到非常美的」。",
       "sentenceIndex": 25,
@@ -1177,12 +1075,10 @@ export default {
         "beautiful"
       ],
       "optionReasons": {
-        "beauty-mcq-09": "本句指「外觀、景色或藝術令人感到非常美的」。",
-        "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。",
-        "beauty-mcq-07": "「性格、品格或精神層面的美好特質」是「beauty — inner」的用法，與本句語境不同。",
-        "beauty-mcq-11": "「做法、結果或設計完成得非常出色、優雅的」是「beautiful — evaluative」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。"
+        "beauty-mcq-09": "本句的「beautiful」指「外觀、景色或藝術令人感到非常美的」。",
+        "beauty-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-09"
     },
@@ -1194,11 +1090,9 @@ export default {
       "masked": "They live in a ____ old house.",
       "options": [
         "beauty-mcq-09",
-        "beauty-mcq-08",
-        "beauty-mcq-10",
+        "beauty-pdf-002",
         "beauty-mcq-07",
-        "beauty-mcq-11",
-        "beauty-mcq-06"
+        "beauty-mcq-08"
       ],
       "explanation": "本句的「beautiful」指「外觀、景色或藝術令人感到非常美的」。",
       "sentenceIndex": 26,
@@ -1207,12 +1101,10 @@ export default {
         "beautiful"
       ],
       "optionReasons": {
-        "beauty-mcq-09": "本句指「外觀、景色或藝術令人感到非常美的」。",
-        "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。",
-        "beauty-mcq-07": "「性格、品格或精神層面的美好特質」是「beauty — inner」的用法，與本句語境不同。",
-        "beauty-mcq-11": "「做法、結果或設計完成得非常出色、優雅的」是「beautiful — evaluative」的用法，與本句語境不同。",
-        "beauty-mcq-06": "「某事最吸引人、最巧妙或最有利的地方」是「the beauty of X」的用法，與本句語境不同。"
+        "beauty-mcq-09": "本句的「beautiful」指「外觀、景色或藝術令人感到非常美的」。",
+        "beauty-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-09"
     },
@@ -1224,11 +1116,9 @@ export default {
       "masked": "It was a ____ moment.",
       "options": [
         "beauty-mcq-10",
-        "beauty-mcq-09",
-        "beauty-mcq-11",
-        "beauty-mcq-08",
         "beauty-mcq-12",
-        "beauty-mcq-07"
+        "beauty-mcq-07",
+        "beauty-mcq-08"
       ],
       "explanation": "本句的「beautiful」指「經歷、聲音、行為等令人愉悅或感動的」。",
       "sentenceIndex": 27,
@@ -1237,12 +1127,10 @@ export default {
         "beautiful"
       ],
       "optionReasons": {
-        "beauty-mcq-10": "本句指「經歷、聲音、行為等令人愉悅或感動的」。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
-        "beauty-mcq-11": "「做法、結果或設計完成得非常出色、優雅的」是「beautiful — evaluative」的用法，與本句語境不同。",
-        "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。",
-        "beauty-mcq-12": "「以美觀、優雅的方式」是「beautifully — aesthetic」的用法，與本句語境不同。",
-        "beauty-mcq-07": "「性格、品格或精神層面的美好特質」是「beauty — inner」的用法，與本句語境不同。"
+        "beauty-mcq-10": "本句的「beautiful」指「經歷、聲音、行為等令人愉悅或感動的」。",
+        "beauty-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-10"
     },
@@ -1254,11 +1142,9 @@ export default {
       "masked": "She gave a ____ performance.",
       "options": [
         "beauty-mcq-10",
-        "beauty-mcq-09",
-        "beauty-mcq-11",
-        "beauty-mcq-08",
-        "beauty-mcq-12",
-        "beauty-mcq-07"
+        "beauty-mcq-04",
+        "beauty-mcq-07",
+        "beauty-mcq-08"
       ],
       "explanation": "本句的「beautiful」指「經歷、聲音、行為等令人愉悅或感動的」。",
       "sentenceIndex": 28,
@@ -1267,12 +1153,10 @@ export default {
         "beautiful"
       ],
       "optionReasons": {
-        "beauty-mcq-10": "本句指「經歷、聲音、行為等令人愉悅或感動的」。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
-        "beauty-mcq-11": "「做法、結果或設計完成得非常出色、優雅的」是「beautiful — evaluative」的用法，與本句語境不同。",
-        "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。",
-        "beauty-mcq-12": "「以美觀、優雅的方式」是「beautifully — aesthetic」的用法，與本句語境不同。",
-        "beauty-mcq-07": "「性格、品格或精神層面的美好特質」是「beauty — inner」的用法，與本句語境不同。"
+        "beauty-mcq-10": "本句的「beautiful」指「經歷、聲音、行為等令人愉悅或感動的」。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-10"
     },
@@ -1284,11 +1168,9 @@ export default {
       "masked": "That’s a ____ solution.",
       "options": [
         "beauty-mcq-11",
-        "beauty-mcq-10",
-        "beauty-mcq-12",
-        "beauty-mcq-09",
-        "beauty-mcq-13",
-        "beauty-mcq-08"
+        "beauty-mcq-15",
+        "beauty-mcq-04",
+        "beauty-mcq-10"
       ],
       "explanation": "本句的「beautiful」指「做法、結果或設計完成得非常出色、優雅的」。",
       "sentenceIndex": 29,
@@ -1297,12 +1179,10 @@ export default {
         "beautiful"
       ],
       "optionReasons": {
-        "beauty-mcq-11": "本句指「做法、結果或設計完成得非常出色、優雅的」。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。",
-        "beauty-mcq-12": "「以美觀、優雅的方式」是「beautifully — aesthetic」的用法，與本句語境不同。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
-        "beauty-mcq-13": "「某事執行得非常順利、有效或恰到好處」是「beautifully — figurative」的用法，與本句語境不同。",
-        "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。"
+        "beauty-mcq-11": "本句的「beautiful」指「做法、結果或設計完成得非常出色、優雅的」。",
+        "beauty-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-11"
     },
@@ -1314,11 +1194,9 @@ export default {
       "masked": "The timing was ____.",
       "options": [
         "beauty-mcq-11",
-        "beauty-mcq-10",
-        "beauty-mcq-12",
-        "beauty-mcq-09",
-        "beauty-mcq-13",
-        "beauty-mcq-08"
+        "beauty-mcq-14",
+        "beauty-mcq-07",
+        "beauty-mcq-10"
       ],
       "explanation": "本句的「beautiful」指「做法、結果或設計完成得非常出色、優雅的」。",
       "sentenceIndex": 30,
@@ -1327,12 +1205,10 @@ export default {
         "beautiful"
       ],
       "optionReasons": {
-        "beauty-mcq-11": "本句指「做法、結果或設計完成得非常出色、優雅的」。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。",
-        "beauty-mcq-12": "「以美觀、優雅的方式」是「beautifully — aesthetic」的用法，與本句語境不同。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。",
-        "beauty-mcq-13": "「某事執行得非常順利、有效或恰到好處」是「beautifully — figurative」的用法，與本句語境不同。",
-        "beauty-mcq-08": "「與美容、護膚、化妝和儀容打理相關的」是「beauty + noun」的用法，與本句語境不同。"
+        "beauty-mcq-11": "本句的「beautiful」指「做法、結果或設計完成得非常出色、優雅的」。",
+        "beauty-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-11"
     },
@@ -1344,11 +1220,9 @@ export default {
       "masked": "The room is ____ decorated.",
       "options": [
         "beauty-mcq-12",
-        "beauty-mcq-11",
+        "beauty-mcq-05",
         "beauty-mcq-13",
-        "beauty-mcq-10",
-        "beauty-mcq-14",
-        "beauty-mcq-09"
+        "beauty-mcq-08"
       ],
       "explanation": "本句的「beautifully」指「以美觀、優雅的方式」。",
       "sentenceIndex": 31,
@@ -1357,12 +1231,10 @@ export default {
         "beautifully"
       ],
       "optionReasons": {
-        "beauty-mcq-12": "本句指「以美觀、優雅的方式」。",
-        "beauty-mcq-11": "「做法、結果或設計完成得非常出色、優雅的」是「beautiful — evaluative」的用法，與本句語境不同。",
-        "beauty-mcq-13": "「某事執行得非常順利、有效或恰到好處」是「beautifully — figurative」的用法，與本句語境不同。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。",
-        "beauty-mcq-14": "「令地方／物件外觀變得更美」是「beautify」的用法，與本句語境不同。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。"
+        "beauty-mcq-12": "本句的「beautifully」指「以美觀、優雅的方式」。",
+        "beauty-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-12"
     },
@@ -1374,11 +1246,9 @@ export default {
       "masked": "The colours blend ____.",
       "options": [
         "beauty-mcq-12",
-        "beauty-mcq-11",
         "beauty-mcq-13",
-        "beauty-mcq-10",
-        "beauty-mcq-14",
-        "beauty-mcq-09"
+        "beauty-mcq-06",
+        "beauty-mcq-04"
       ],
       "explanation": "本句的「beautifully」指「以美觀、優雅的方式」。",
       "sentenceIndex": 32,
@@ -1387,12 +1257,10 @@ export default {
         "beautifully"
       ],
       "optionReasons": {
-        "beauty-mcq-12": "本句指「以美觀、優雅的方式」。",
-        "beauty-mcq-11": "「做法、結果或設計完成得非常出色、優雅的」是「beautiful — evaluative」的用法，與本句語境不同。",
-        "beauty-mcq-13": "「某事執行得非常順利、有效或恰到好處」是「beautifully — figurative」的用法，與本句語境不同。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。",
-        "beauty-mcq-14": "「令地方／物件外觀變得更美」是「beautify」的用法，與本句語境不同。",
-        "beauty-mcq-09": "「外觀、景色或藝術令人感到非常美的」是「beautiful — visual」的用法，與本句語境不同。"
+        "beauty-mcq-12": "本句的「beautifully」指「以美觀、優雅的方式」。",
+        "beauty-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-12"
     },
@@ -1404,11 +1272,9 @@ export default {
       "masked": "The plan worked ____.",
       "options": [
         "beauty-mcq-13",
-        "beauty-mcq-12",
-        "beauty-mcq-14",
-        "beauty-mcq-11",
+        "beauty-pdf-001",
         "beauty-mcq-15",
-        "beauty-mcq-10"
+        "beauty-mcq-02"
       ],
       "explanation": "本句的「beautifully」指「某事執行得非常順利、有效或恰到好處」。",
       "sentenceIndex": 33,
@@ -1417,12 +1283,10 @@ export default {
         "beautifully"
       ],
       "optionReasons": {
-        "beauty-mcq-13": "本句指「某事執行得非常順利、有效或恰到好處」。",
-        "beauty-mcq-12": "「以美觀、優雅的方式」是「beautifully — aesthetic」的用法，與本句語境不同。",
-        "beauty-mcq-14": "「令地方／物件外觀變得更美」是「beautify」的用法，與本句語境不同。",
-        "beauty-mcq-11": "「做法、結果或設計完成得非常出色、優雅的」是「beautiful — evaluative」的用法，與本句語境不同。",
-        "beauty-mcq-15": "「令環境或地方變得更美觀的過程／工程」是「beautification」的用法，與本句語境不同。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。"
+        "beauty-mcq-13": "本句的「beautifully」指「某事執行得非常順利、有效或恰到好處」。",
+        "beauty-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-13"
     },
@@ -1434,11 +1298,9 @@ export default {
       "masked": "The two ideas fit together ____.",
       "options": [
         "beauty-mcq-13",
-        "beauty-mcq-12",
-        "beauty-mcq-14",
-        "beauty-mcq-11",
-        "beauty-mcq-15",
-        "beauty-mcq-10"
+        "beauty-mcq-01",
+        "beauty-mcq-04",
+        "beauty-mcq-08"
       ],
       "explanation": "本句的「beautifully」指「某事執行得非常順利、有效或恰到好處」。",
       "sentenceIndex": 34,
@@ -1447,12 +1309,10 @@ export default {
         "beautifully"
       ],
       "optionReasons": {
-        "beauty-mcq-13": "本句指「某事執行得非常順利、有效或恰到好處」。",
-        "beauty-mcq-12": "「以美觀、優雅的方式」是「beautifully — aesthetic」的用法，與本句語境不同。",
-        "beauty-mcq-14": "「令地方／物件外觀變得更美」是「beautify」的用法，與本句語境不同。",
-        "beauty-mcq-11": "「做法、結果或設計完成得非常出色、優雅的」是「beautiful — evaluative」的用法，與本句語境不同。",
-        "beauty-mcq-15": "「令環境或地方變得更美觀的過程／工程」是「beautification」的用法，與本句語境不同。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。"
+        "beauty-mcq-13": "本句的「beautifully」指「某事執行得非常順利、有效或恰到好處」。",
+        "beauty-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-13"
     },
@@ -1465,10 +1325,8 @@ export default {
       "options": [
         "beauty-mcq-14",
         "beauty-mcq-13",
-        "beauty-mcq-15",
-        "beauty-mcq-12",
-        "beauty-mcq-11",
-        "beauty-mcq-10"
+        "beauty-pdf-002",
+        "beauty-mcq-07"
       ],
       "explanation": "本句的「beautify」指「令地方／物件外觀變得更美」。",
       "sentenceIndex": 35,
@@ -1477,12 +1335,10 @@ export default {
         "beautify"
       ],
       "optionReasons": {
-        "beauty-mcq-14": "本句指「令地方／物件外觀變得更美」。",
-        "beauty-mcq-13": "「某事執行得非常順利、有效或恰到好處」是「beautifully — figurative」的用法，與本句語境不同。",
-        "beauty-mcq-15": "「令環境或地方變得更美觀的過程／工程」是「beautification」的用法，與本句語境不同。",
-        "beauty-mcq-12": "「以美觀、優雅的方式」是「beautifully — aesthetic」的用法，與本句語境不同。",
-        "beauty-mcq-11": "「做法、結果或設計完成得非常出色、優雅的」是「beautiful — evaluative」的用法，與本句語境不同。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。"
+        "beauty-mcq-14": "本句的「beautify」指「令地方／物件外觀變得更美」。",
+        "beauty-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "beauty-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-14"
     },
@@ -1495,10 +1351,8 @@ export default {
       "options": [
         "beauty-mcq-14",
         "beauty-mcq-13",
-        "beauty-mcq-15",
-        "beauty-mcq-12",
-        "beauty-mcq-11",
-        "beauty-mcq-10"
+        "beauty-pdf-002",
+        "beauty-mcq-08"
       ],
       "explanation": "本句的「beautify」指「令地方／物件外觀變得更美」。",
       "sentenceIndex": 36,
@@ -1507,12 +1361,10 @@ export default {
         "beautify"
       ],
       "optionReasons": {
-        "beauty-mcq-14": "本句指「令地方／物件外觀變得更美」。",
-        "beauty-mcq-13": "「某事執行得非常順利、有效或恰到好處」是「beautifully — figurative」的用法，與本句語境不同。",
-        "beauty-mcq-15": "「令環境或地方變得更美觀的過程／工程」是「beautification」的用法，與本句語境不同。",
-        "beauty-mcq-12": "「以美觀、優雅的方式」是「beautifully — aesthetic」的用法，與本句語境不同。",
-        "beauty-mcq-11": "「做法、結果或設計完成得非常出色、優雅的」是「beautiful — evaluative」的用法，與本句語境不同。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。"
+        "beauty-mcq-14": "本句的「beautify」指「令地方／物件外觀變得更美」。",
+        "beauty-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "beauty-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-14"
     },
@@ -1524,11 +1376,9 @@ export default {
       "masked": "The park underwent a major ____ project.",
       "options": [
         "beauty-mcq-15",
-        "beauty-mcq-14",
         "beauty-mcq-13",
-        "beauty-mcq-12",
-        "beauty-mcq-11",
-        "beauty-mcq-10"
+        "beauty-mcq-04",
+        "beauty-pdf-002"
       ],
       "explanation": "本句的「beautification」指「令環境或地方變得更美觀的過程／工程」。",
       "sentenceIndex": 37,
@@ -1537,12 +1387,10 @@ export default {
         "beautification"
       ],
       "optionReasons": {
-        "beauty-mcq-15": "本句指「令環境或地方變得更美觀的過程／工程」。",
-        "beauty-mcq-14": "「令地方／物件外觀變得更美」是「beautify」的用法，與本句語境不同。",
-        "beauty-mcq-13": "「某事執行得非常順利、有效或恰到好處」是「beautifully — figurative」的用法，與本句語境不同。",
-        "beauty-mcq-12": "「以美觀、優雅的方式」是「beautifully — aesthetic」的用法，與本句語境不同。",
-        "beauty-mcq-11": "「做法、結果或設計完成得非常出色、優雅的」是「beautiful — evaluative」的用法，與本句語境不同。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。"
+        "beauty-mcq-15": "本句的「beautification」指「令環境或地方變得更美觀的過程／工程」。",
+        "beauty-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beauty-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-15"
     },
@@ -1554,11 +1402,9 @@ export default {
       "masked": "Street ____ improved the neighbourhood.",
       "options": [
         "beauty-mcq-15",
-        "beauty-mcq-14",
-        "beauty-mcq-13",
-        "beauty-mcq-12",
         "beauty-mcq-11",
-        "beauty-mcq-10"
+        "beauty-mcq-04",
+        "beauty-pdf-002"
       ],
       "explanation": "本句的「beautification」指「令環境或地方變得更美觀的過程／工程」。",
       "sentenceIndex": 38,
@@ -1567,12 +1413,10 @@ export default {
         "beautification"
       ],
       "optionReasons": {
-        "beauty-mcq-15": "本句指「令環境或地方變得更美觀的過程／工程」。",
-        "beauty-mcq-14": "「令地方／物件外觀變得更美」是「beautify」的用法，與本句語境不同。",
-        "beauty-mcq-13": "「某事執行得非常順利、有效或恰到好處」是「beautifully — figurative」的用法，與本句語境不同。",
-        "beauty-mcq-12": "「以美觀、優雅的方式」是「beautifully — aesthetic」的用法，與本句語境不同。",
-        "beauty-mcq-11": "「做法、結果或設計完成得非常出色、優雅的」是「beautiful — evaluative」的用法，與本句語境不同。",
-        "beauty-mcq-10": "「經歷、聲音、行為等令人愉悅或感動的」是「beautiful — emotional」的用法，與本句語境不同。"
+        "beauty-mcq-15": "本句的「beautification」指「令環境或地方變得更美觀的過程／工程」。",
+        "beauty-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "beauty-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "beauty-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "beauty-mcq-15"
     }
@@ -1584,5 +1428,7 @@ export default {
     "sha256": "db5888cf691358b1cc275e68aa9ebc830463f68f307f41f29d8549eda2f0356b",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

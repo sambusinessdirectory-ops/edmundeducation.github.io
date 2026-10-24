@@ -343,11 +343,9 @@ export default {
       "masked": "Could you ____ the chair a little?",
       "options": [
         "shift-mcq-01",
-        "shift-mcq-02",
-        "shift-mcq-03",
-        "shift-mcq-04",
-        "shift-mcq-05",
-        "shift-mcq-06"
+        "shift-mcq-11",
+        "shift-mcq-14",
+        "shift-mcq-12"
       ],
       "explanation": "本句的「shift」指「把某人／某物從一個位置移到另一位置」。",
       "sentenceIndex": 0,
@@ -356,12 +354,10 @@ export default {
         "shift"
       ],
       "optionReasons": {
-        "shift-mcq-01": "本句指「把某人／某物從一個位置移到另一位置」。",
-        "shift-mcq-02": "「從一種狀態、方向、重點、觀點或方式轉向另一種」與本句語境不同。",
-        "shift-mcq-03": "「把工作、資源、活動等從一方／地方轉到另一方」與本句語境不同。",
-        "shift-mcq-04": "「把原有成本、負擔或責任轉嫁到另一方」與本句語境不同。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。"
+        "shift-mcq-01": "本句的「shift」指「把某人／某物從一個位置移到另一位置」。",
+        "shift-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-01"
     },
@@ -373,11 +369,9 @@ export default {
       "masked": "She ____ the boxes to the other side of the room.",
       "options": [
         "shift-mcq-01",
-        "shift-mcq-02",
-        "shift-mcq-03",
-        "shift-mcq-04",
-        "shift-mcq-05",
-        "shift-mcq-06"
+        "shift-mcq-14",
+        "shift-mcq-08",
+        "shift-mcq-12"
       ],
       "explanation": "本句的「shifted」指「把某人／某物從一個位置移到另一位置」。",
       "sentenceIndex": 1,
@@ -386,12 +380,10 @@ export default {
         "shifted"
       ],
       "optionReasons": {
-        "shift-mcq-01": "本句指「把某人／某物從一個位置移到另一位置」。",
-        "shift-mcq-02": "「從一種狀態、方向、重點、觀點或方式轉向另一種」與本句語境不同。",
-        "shift-mcq-03": "「把工作、資源、活動等從一方／地方轉到另一方」與本句語境不同。",
-        "shift-mcq-04": "「把原有成本、負擔或責任轉嫁到另一方」與本句語境不同。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。"
+        "shift-mcq-01": "本句的「shifted」指「把某人／某物從一個位置移到另一位置」。",
+        "shift-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-01"
     },
@@ -403,11 +395,9 @@ export default {
       "masked": "The company ____ its focus toward online sales.",
       "options": [
         "shift-mcq-02",
-        "shift-mcq-01",
-        "shift-mcq-03",
-        "shift-mcq-04",
-        "shift-mcq-05",
-        "shift-mcq-06"
+        "shift-mcq-08",
+        "shift-mcq-12",
+        "shift-mcq-14"
       ],
       "explanation": "本句的「shifted」指「從一種狀態、方向、重點、觀點或方式轉向另一種」。",
       "sentenceIndex": 4,
@@ -416,12 +406,10 @@ export default {
         "shifted"
       ],
       "optionReasons": {
-        "shift-mcq-02": "本句指「從一種狀態、方向、重點、觀點或方式轉向另一種」。",
-        "shift-mcq-01": "「把某人／某物從一個位置移到另一位置」與本句語境不同。",
-        "shift-mcq-03": "「把工作、資源、活動等從一方／地方轉到另一方」與本句語境不同。",
-        "shift-mcq-04": "「把原有成本、負擔或責任轉嫁到另一方」與本句語境不同。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。"
+        "shift-mcq-02": "本句的「shifted」指「從一種狀態、方向、重點、觀點或方式轉向另一種」。",
+        "shift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-02"
     },
@@ -433,10 +421,8 @@ export default {
       "masked": "Public attitudes have ____ considerably.",
       "options": [
         "shift-mcq-02",
-        "shift-mcq-01",
-        "shift-mcq-03",
-        "shift-mcq-04",
-        "shift-mcq-05",
+        "shift-mcq-08",
+        "shift-mcq-14",
         "shift-mcq-06"
       ],
       "explanation": "本句的「shifted」指「從一種狀態、方向、重點、觀點或方式轉向另一種」。",
@@ -446,12 +432,10 @@ export default {
         "shifted"
       ],
       "optionReasons": {
-        "shift-mcq-02": "本句指「從一種狀態、方向、重點、觀點或方式轉向另一種」。",
-        "shift-mcq-01": "「把某人／某物從一個位置移到另一位置」與本句語境不同。",
-        "shift-mcq-03": "「把工作、資源、活動等從一方／地方轉到另一方」與本句語境不同。",
-        "shift-mcq-04": "「把原有成本、負擔或責任轉嫁到另一方」與本句語境不同。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。"
+        "shift-mcq-02": "本句的「shifted」指「從一種狀態、方向、重點、觀點或方式轉向另一種」。",
+        "shift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-02"
     },
@@ -463,11 +447,9 @@ export default {
       "masked": "We need to ____ from short-term thinking to long-term planning.",
       "options": [
         "shift-mcq-02",
-        "shift-mcq-01",
-        "shift-mcq-03",
-        "shift-mcq-04",
-        "shift-mcq-05",
-        "shift-mcq-06"
+        "shift-mcq-12",
+        "shift-mcq-11",
+        "shift-mcq-07"
       ],
       "explanation": "本句的「shift」指「從一種狀態、方向、重點、觀點或方式轉向另一種」。",
       "sentenceIndex": 6,
@@ -476,12 +458,10 @@ export default {
         "shift"
       ],
       "optionReasons": {
-        "shift-mcq-02": "本句指「從一種狀態、方向、重點、觀點或方式轉向另一種」。",
-        "shift-mcq-01": "「把某人／某物從一個位置移到另一位置」與本句語境不同。",
-        "shift-mcq-03": "「把工作、資源、活動等從一方／地方轉到另一方」與本句語境不同。",
-        "shift-mcq-04": "「把原有成本、負擔或責任轉嫁到另一方」與本句語境不同。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。"
+        "shift-mcq-02": "本句的「shift」指「從一種狀態、方向、重點、觀點或方式轉向另一種」。",
+        "shift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-02"
     },
@@ -493,11 +473,9 @@ export default {
       "masked": "The company ____ production overseas.",
       "options": [
         "shift-mcq-03",
-        "shift-mcq-02",
-        "shift-mcq-04",
-        "shift-mcq-01",
-        "shift-mcq-05",
-        "shift-mcq-06"
+        "shift-mcq-14",
+        "shift-mcq-12",
+        "shift-mcq-08"
       ],
       "explanation": "本句的「shifted」指「把工作、資源、活動等從一方／地方轉到另一方」。",
       "sentenceIndex": 7,
@@ -506,12 +484,10 @@ export default {
         "shifted"
       ],
       "optionReasons": {
-        "shift-mcq-03": "本句指「把工作、資源、活動等從一方／地方轉到另一方」。",
-        "shift-mcq-02": "「從一種狀態、方向、重點、觀點或方式轉向另一種」與本句語境不同。",
-        "shift-mcq-04": "「把原有成本、負擔或責任轉嫁到另一方」與本句語境不同。",
-        "shift-mcq-01": "「把某人／某物從一個位置移到另一位置」與本句語境不同。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。"
+        "shift-mcq-03": "本句的「shifted」指「把工作、資源、活動等從一方／地方轉到另一方」。",
+        "shift-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-03"
     },
@@ -523,11 +499,9 @@ export default {
       "masked": "Some tasks were ____ to another department.",
       "options": [
         "shift-mcq-03",
-        "shift-mcq-02",
-        "shift-mcq-04",
-        "shift-mcq-01",
-        "shift-mcq-05",
-        "shift-mcq-06"
+        "shift-mcq-12",
+        "shift-mcq-08",
+        "shift-mcq-14"
       ],
       "explanation": "本句的「shifted」指「把工作、資源、活動等從一方／地方轉到另一方」。",
       "sentenceIndex": 8,
@@ -536,12 +510,10 @@ export default {
         "shifted"
       ],
       "optionReasons": {
-        "shift-mcq-03": "本句指「把工作、資源、活動等從一方／地方轉到另一方」。",
-        "shift-mcq-02": "「從一種狀態、方向、重點、觀點或方式轉向另一種」與本句語境不同。",
-        "shift-mcq-04": "「把原有成本、負擔或責任轉嫁到另一方」與本句語境不同。",
-        "shift-mcq-01": "「把某人／某物從一個位置移到另一位置」與本句語境不同。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。"
+        "shift-mcq-03": "本句的「shifted」指「把工作、資源、活動等從一方／地方轉到另一方」。",
+        "shift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-03"
     },
@@ -553,11 +525,9 @@ export default {
       "masked": "The policy would simply ____ other people.",
       "options": [
         "shift-mcq-04",
-        "shift-mcq-03",
-        "shift-mcq-05",
-        "shift-mcq-02",
-        "shift-mcq-06",
-        "shift-mcq-01"
+        "shift-mcq-09",
+        "shift-mcq-07",
+        "shift-mcq-06"
       ],
       "explanation": "本句的「shift the cost onto」指「把原有成本、負擔或責任轉嫁到另一方」。",
       "sentenceIndex": 9,
@@ -566,12 +536,10 @@ export default {
         "shift the cost onto"
       ],
       "optionReasons": {
-        "shift-mcq-04": "本句指「把原有成本、負擔或責任轉嫁到另一方」。",
-        "shift-mcq-03": "「把工作、資源、活動等從一方／地方轉到另一方」與本句語境不同。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-02": "「從一種狀態、方向、重點、觀點或方式轉向另一種」與本句語境不同。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。",
-        "shift-mcq-01": "「把某人／某物從一個位置移到另一位置」與本句語境不同。"
+        "shift-mcq-04": "本句的「shift the cost onto」指「把原有成本、負擔或責任轉嫁到另一方」。",
+        "shift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-04"
     },
@@ -583,11 +551,9 @@ export default {
       "masked": "The company tried to ____ its suppliers.",
       "options": [
         "shift-mcq-04",
-        "shift-mcq-03",
-        "shift-mcq-05",
-        "shift-mcq-02",
+        "shift-mcq-08",
         "shift-mcq-06",
-        "shift-mcq-01"
+        "shift-mcq-12"
       ],
       "explanation": "本句的「shift responsibility onto」指「把原有成本、負擔或責任轉嫁到另一方」。",
       "sentenceIndex": 10,
@@ -596,12 +562,10 @@ export default {
         "shift responsibility onto"
       ],
       "optionReasons": {
-        "shift-mcq-04": "本句指「把原有成本、負擔或責任轉嫁到另一方」。",
-        "shift-mcq-03": "「把工作、資源、活動等從一方／地方轉到另一方」與本句語境不同。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-02": "「從一種狀態、方向、重點、觀點或方式轉向另一種」與本句語境不同。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。",
-        "shift-mcq-01": "「把某人／某物從一個位置移到另一位置」與本句語境不同。"
+        "shift-mcq-04": "本句的「shift responsibility onto」指「把原有成本、負擔或責任轉嫁到另一方」。",
+        "shift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-04"
     },
@@ -613,11 +577,9 @@ export default {
       "masked": "Higher fees may ____ customers.",
       "options": [
         "shift-mcq-04",
-        "shift-mcq-03",
-        "shift-mcq-05",
-        "shift-mcq-02",
-        "shift-mcq-06",
-        "shift-mcq-01"
+        "shift-mcq-08",
+        "shift-mcq-11",
+        "shift-mcq-06"
       ],
       "explanation": "本句的「shift the burden onto」指「把原有成本、負擔或責任轉嫁到另一方」。",
       "sentenceIndex": 11,
@@ -626,12 +588,10 @@ export default {
         "shift the burden onto"
       ],
       "optionReasons": {
-        "shift-mcq-04": "本句指「把原有成本、負擔或責任轉嫁到另一方」。",
-        "shift-mcq-03": "「把工作、資源、活動等從一方／地方轉到另一方」與本句語境不同。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-02": "「從一種狀態、方向、重點、觀點或方式轉向另一種」與本句語境不同。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。",
-        "shift-mcq-01": "「把某人／某物從一個位置移到另一位置」與本句語境不同。"
+        "shift-mcq-04": "本句的「shift the burden onto」指「把原有成本、負擔或責任轉嫁到另一方」。",
+        "shift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-04"
     },
@@ -643,11 +603,9 @@ export default {
       "masked": "He tried to ____ onto his colleague.",
       "options": [
         "shift-mcq-04",
-        "shift-mcq-03",
-        "shift-mcq-05",
-        "shift-mcq-02",
+        "shift-mcq-08",
         "shift-mcq-06",
-        "shift-mcq-01"
+        "shift-mcq-09"
       ],
       "explanation": "本句的「shift the blame」指「把原有成本、負擔或責任轉嫁到另一方」。",
       "sentenceIndex": 12,
@@ -656,12 +614,10 @@ export default {
         "shift the blame"
       ],
       "optionReasons": {
-        "shift-mcq-04": "本句指「把原有成本、負擔或責任轉嫁到另一方」。",
-        "shift-mcq-03": "「把工作、資源、活動等從一方／地方轉到另一方」與本句語境不同。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-02": "「從一種狀態、方向、重點、觀點或方式轉向另一種」與本句語境不同。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。",
-        "shift-mcq-01": "「把某人／某物從一個位置移到另一位置」與本句語境不同。"
+        "shift-mcq-04": "本句的「shift the blame」指「把原有成本、負擔或責任轉嫁到另一方」。",
+        "shift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-04"
     },
@@ -673,11 +629,9 @@ export default {
       "masked": "There is no point ____.",
       "options": [
         "shift-mcq-04",
-        "shift-mcq-03",
-        "shift-mcq-05",
-        "shift-mcq-02",
-        "shift-mcq-06",
-        "shift-mcq-01"
+        "shift-mcq-12",
+        "shift-mcq-09",
+        "shift-mcq-07"
       ],
       "explanation": "本句的「shifting blame」指「把原有成本、負擔或責任轉嫁到另一方」。",
       "sentenceIndex": 13,
@@ -686,12 +640,10 @@ export default {
         "shifting blame"
       ],
       "optionReasons": {
-        "shift-mcq-04": "本句指「把原有成本、負擔或責任轉嫁到另一方」。",
-        "shift-mcq-03": "「把工作、資源、活動等從一方／地方轉到另一方」與本句語境不同。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-02": "「從一種狀態、方向、重點、觀點或方式轉向另一種」與本句語境不同。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。",
-        "shift-mcq-01": "「把某人／某物從一個位置移到另一位置」與本句語境不同。"
+        "shift-mcq-04": "本句的「shifting blame」指「把原有成本、負擔或責任轉嫁到另一方」。",
+        "shift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-04"
     },
@@ -703,11 +655,9 @@ export default {
       "masked": "There has been a major ____ in consumer behaviour.",
       "options": [
         "shift-mcq-05",
-        "shift-mcq-04",
-        "shift-mcq-06",
-        "shift-mcq-03",
-        "shift-mcq-07",
-        "shift-mcq-02"
+        "shift-mcq-12",
+        "shift-mcq-08",
+        "shift-mcq-11"
       ],
       "explanation": "本句的「shift」指「方向、態度、模式、結構等的一次轉變」。",
       "sentenceIndex": 14,
@@ -716,12 +666,10 @@ export default {
         "shift"
       ],
       "optionReasons": {
-        "shift-mcq-05": "本句指「方向、態度、模式、結構等的一次轉變」。",
-        "shift-mcq-04": "「把原有成本、負擔或責任轉嫁到另一方」與本句語境不同。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。",
-        "shift-mcq-03": "「把工作、資源、活動等從一方／地方轉到另一方」與本句語境不同。",
-        "shift-mcq-07": "「換檔；亦可指換檔裝置」與本句語境不同。",
-        "shift-mcq-02": "「從一種狀態、方向、重點、觀點或方式轉向另一種」與本句語境不同。"
+        "shift-mcq-05": "本句的「shift」指「方向、態度、模式、結構等的一次轉變」。",
+        "shift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-05"
     },
@@ -733,11 +681,9 @@ export default {
       "masked": "The report describes a ____ toward smaller households.",
       "options": [
         "shift-mcq-05",
-        "shift-mcq-04",
-        "shift-mcq-06",
-        "shift-mcq-03",
-        "shift-mcq-07",
-        "shift-mcq-02"
+        "shift-mcq-01",
+        "shift-mcq-11",
+        "shift-mcq-12"
       ],
       "explanation": "本句的「shift」指「方向、態度、模式、結構等的一次轉變」。",
       "sentenceIndex": 15,
@@ -746,12 +692,10 @@ export default {
         "shift"
       ],
       "optionReasons": {
-        "shift-mcq-05": "本句指「方向、態度、模式、結構等的一次轉變」。",
-        "shift-mcq-04": "「把原有成本、負擔或責任轉嫁到另一方」與本句語境不同。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。",
-        "shift-mcq-03": "「把工作、資源、活動等從一方／地方轉到另一方」與本句語境不同。",
-        "shift-mcq-07": "「換檔；亦可指換檔裝置」與本句語境不同。",
-        "shift-mcq-02": "「從一種狀態、方向、重點、觀點或方式轉向另一種」與本句語境不同。"
+        "shift-mcq-05": "本句的「shift」指「方向、態度、模式、結構等的一次轉變」。",
+        "shift-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-05"
     },
@@ -763,11 +707,9 @@ export default {
       "masked": "She works the night ____.",
       "options": [
         "shift-mcq-06",
-        "shift-mcq-05",
         "shift-mcq-07",
-        "shift-mcq-04",
-        "shift-mcq-08",
-        "shift-mcq-03"
+        "shift-mcq-10",
+        "shift-mcq-11"
       ],
       "explanation": "本句的「shift」指「員工被安排工作的特定班次／輪班」。",
       "sentenceIndex": 16,
@@ -776,12 +718,10 @@ export default {
         "shift"
       ],
       "optionReasons": {
-        "shift-mcq-06": "本句指「員工被安排工作的特定班次／輪班」。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-07": "「換檔；亦可指換檔裝置」與本句語境不同。",
-        "shift-mcq-04": "「把原有成本、負擔或責任轉嫁到另一方」與本句語境不同。",
-        "shift-mcq-08": "「電腦鍵盤上的 Shift 鍵」與本句語境不同。",
-        "shift-mcq-03": "「把工作、資源、活動等從一方／地方轉到另一方」與本句語境不同。"
+        "shift-mcq-06": "本句的「shift」指「員工被安排工作的特定班次／輪班」。",
+        "shift-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-06"
     },
@@ -793,11 +733,9 @@ export default {
       "masked": "My ____ ends at six.",
       "options": [
         "shift-mcq-06",
-        "shift-mcq-05",
-        "shift-mcq-07",
-        "shift-mcq-04",
-        "shift-mcq-08",
-        "shift-mcq-03"
+        "shift-mcq-11",
+        "shift-mcq-09",
+        "shift-mcq-04"
       ],
       "explanation": "本句的「shift」指「員工被安排工作的特定班次／輪班」。",
       "sentenceIndex": 17,
@@ -806,12 +744,10 @@ export default {
         "shift"
       ],
       "optionReasons": {
-        "shift-mcq-06": "本句指「員工被安排工作的特定班次／輪班」。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-07": "「換檔；亦可指換檔裝置」與本句語境不同。",
-        "shift-mcq-04": "「把原有成本、負擔或責任轉嫁到另一方」與本句語境不同。",
-        "shift-mcq-08": "「電腦鍵盤上的 Shift 鍵」與本句語境不同。",
-        "shift-mcq-03": "「把工作、資源、活動等從一方／地方轉到另一方」與本句語境不同。"
+        "shift-mcq-06": "本句的「shift」指「員工被安排工作的特定班次／輪班」。",
+        "shift-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-06"
     },
@@ -823,11 +759,9 @@ export default {
       "masked": "Nurses often do ____.",
       "options": [
         "shift-mcq-06",
-        "shift-mcq-05",
-        "shift-mcq-07",
-        "shift-mcq-04",
-        "shift-mcq-08",
-        "shift-mcq-03"
+        "shift-mcq-11",
+        "shift-mcq-09",
+        "shift-mcq-14"
       ],
       "explanation": "本句的「shift work」指「員工被安排工作的特定班次／輪班」。",
       "sentenceIndex": 18,
@@ -836,12 +770,10 @@ export default {
         "shift work"
       ],
       "optionReasons": {
-        "shift-mcq-06": "本句指「員工被安排工作的特定班次／輪班」。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-07": "「換檔；亦可指換檔裝置」與本句語境不同。",
-        "shift-mcq-04": "「把原有成本、負擔或責任轉嫁到另一方」與本句語境不同。",
-        "shift-mcq-08": "「電腦鍵盤上的 Shift 鍵」與本句語境不同。",
-        "shift-mcq-03": "「把工作、資源、活動等從一方／地方轉到另一方」與本句語境不同。"
+        "shift-mcq-06": "本句的「shift work」指「員工被安排工作的特定班次／輪班」。",
+        "shift-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-06"
     },
@@ -853,11 +785,9 @@ export default {
       "masked": "He ____ into a lower gear.",
       "options": [
         "shift-mcq-07",
+        "shift-mcq-11",
         "shift-mcq-06",
-        "shift-mcq-08",
-        "shift-mcq-05",
-        "shift-mcq-09",
-        "shift-mcq-04"
+        "shift-mcq-10"
       ],
       "explanation": "本句的「shifted」指「換檔；亦可指換檔裝置」。",
       "sentenceIndex": 19,
@@ -866,12 +796,10 @@ export default {
         "shifted"
       ],
       "optionReasons": {
-        "shift-mcq-07": "本句指「換檔；亦可指換檔裝置」。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。",
-        "shift-mcq-08": "「電腦鍵盤上的 Shift 鍵」與本句語境不同。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-09": "「把位元／資料位置向左或右移位」與本句語境不同。",
-        "shift-mcq-04": "「把原有成本、負擔或責任轉嫁到另一方」與本句語境不同。"
+        "shift-mcq-07": "本句的「shifted」指「換檔；亦可指換檔裝置」。",
+        "shift-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-07"
     },
@@ -883,11 +811,9 @@ export default {
       "masked": "The car ____ smoothly.",
       "options": [
         "shift-mcq-07",
-        "shift-mcq-06",
-        "shift-mcq-08",
-        "shift-mcq-05",
-        "shift-mcq-09",
-        "shift-mcq-04"
+        "shift-mcq-14",
+        "shift-mcq-12",
+        "shift-mcq-10"
       ],
       "explanation": "本句的「shifts」指「換檔；亦可指換檔裝置」。",
       "sentenceIndex": 20,
@@ -896,12 +822,10 @@ export default {
         "shifts"
       ],
       "optionReasons": {
-        "shift-mcq-07": "本句指「換檔；亦可指換檔裝置」。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。",
-        "shift-mcq-08": "「電腦鍵盤上的 Shift 鍵」與本句語境不同。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-09": "「把位元／資料位置向左或右移位」與本句語境不同。",
-        "shift-mcq-04": "「把原有成本、負擔或責任轉嫁到另一方」與本句語境不同。"
+        "shift-mcq-07": "本句的「shifts」指「換檔；亦可指換檔裝置」。",
+        "shift-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-07"
     },
@@ -913,11 +837,9 @@ export default {
       "masked": "Put the gear ____ into reverse.",
       "options": [
         "shift-mcq-07",
-        "shift-mcq-06",
-        "shift-mcq-08",
-        "shift-mcq-05",
-        "shift-mcq-09",
-        "shift-mcq-04"
+        "shift-mcq-10",
+        "shift-mcq-02",
+        "shift-mcq-11"
       ],
       "explanation": "本句的「shift」指「換檔；亦可指換檔裝置」。",
       "sentenceIndex": 23,
@@ -926,12 +848,10 @@ export default {
         "shift"
       ],
       "optionReasons": {
-        "shift-mcq-07": "本句指「換檔；亦可指換檔裝置」。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。",
-        "shift-mcq-08": "「電腦鍵盤上的 Shift 鍵」與本句語境不同。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。",
-        "shift-mcq-09": "「把位元／資料位置向左或右移位」與本句語境不同。",
-        "shift-mcq-04": "「把原有成本、負擔或責任轉嫁到另一方」與本句語境不同。"
+        "shift-mcq-07": "本句的「shift」指「換檔；亦可指換檔裝置」。",
+        "shift-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-07"
     },
@@ -943,11 +863,9 @@ export default {
       "masked": "Hold down ____ and press the letter.",
       "options": [
         "shift-mcq-08",
-        "shift-mcq-07",
-        "shift-mcq-09",
-        "shift-mcq-06",
         "shift-mcq-10",
-        "shift-mcq-05"
+        "shift-mcq-06",
+        "shift-mcq-09"
       ],
       "explanation": "本句的「Shift」指「電腦鍵盤上的 Shift 鍵」。",
       "sentenceIndex": 24,
@@ -956,12 +874,10 @@ export default {
         "Shift"
       ],
       "optionReasons": {
-        "shift-mcq-08": "本句指「電腦鍵盤上的 Shift 鍵」。",
-        "shift-mcq-07": "「換檔；亦可指換檔裝置」與本句語境不同。",
-        "shift-mcq-09": "「把位元／資料位置向左或右移位」與本句語境不同。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。",
-        "shift-mcq-10": "「音變、語義變化、相位等的轉移／變化」與本句語境不同。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。"
+        "shift-mcq-08": "本句的「Shift」指「電腦鍵盤上的 Shift 鍵」。",
+        "shift-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-08"
     },
@@ -973,11 +889,9 @@ export default {
       "masked": "Press ____ to type the upper symbol.",
       "options": [
         "shift-mcq-08",
-        "shift-mcq-07",
-        "shift-mcq-09",
-        "shift-mcq-06",
-        "shift-mcq-10",
-        "shift-mcq-05"
+        "shift-mcq-03",
+        "shift-mcq-11",
+        "shift-mcq-14"
       ],
       "explanation": "本句的「Shift」指「電腦鍵盤上的 Shift 鍵」。",
       "sentenceIndex": 25,
@@ -986,12 +900,10 @@ export default {
         "Shift"
       ],
       "optionReasons": {
-        "shift-mcq-08": "本句指「電腦鍵盤上的 Shift 鍵」。",
-        "shift-mcq-07": "「換檔；亦可指換檔裝置」與本句語境不同。",
-        "shift-mcq-09": "「把位元／資料位置向左或右移位」與本句語境不同。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。",
-        "shift-mcq-10": "「音變、語義變化、相位等的轉移／變化」與本句語境不同。",
-        "shift-mcq-05": "「方向、態度、模式、結構等的一次轉變」與本句語境不同。"
+        "shift-mcq-08": "本句的「Shift」指「電腦鍵盤上的 Shift 鍵」。",
+        "shift-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-08"
     },
@@ -1003,11 +915,9 @@ export default {
       "masked": "The program ____ the bits to the left.",
       "options": [
         "shift-mcq-09",
-        "shift-mcq-08",
-        "shift-mcq-10",
-        "shift-mcq-07",
-        "shift-mcq-11",
-        "shift-mcq-06"
+        "shift-mcq-12",
+        "shift-mcq-06",
+        "shift-mcq-14"
       ],
       "explanation": "本句的「shifts」指「把位元／資料位置向左或右移位」。",
       "sentenceIndex": 26,
@@ -1016,12 +926,10 @@ export default {
         "shifts"
       ],
       "optionReasons": {
-        "shift-mcq-09": "本句指「把位元／資料位置向左或右移位」。",
-        "shift-mcq-08": "「電腦鍵盤上的 Shift 鍵」與本句語境不同。",
-        "shift-mcq-10": "「音變、語義變化、相位等的轉移／變化」與本句語境不同。",
-        "shift-mcq-07": "「換檔；亦可指換檔裝置」與本句語境不同。",
-        "shift-mcq-11": "「賣掉／清走商品；或清除污漬」與本句語境不同。",
-        "shift-mcq-06": "「員工被安排工作的特定班次／輪班」與本句語境不同。"
+        "shift-mcq-09": "本句的「shifts」指「把位元／資料位置向左或右移位」。",
+        "shift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-09"
     },
@@ -1033,11 +941,9 @@ export default {
       "masked": "The language underwent a major vowel ____.",
       "options": [
         "shift-mcq-10",
-        "shift-mcq-09",
+        "shift-mcq-06",
         "shift-mcq-11",
-        "shift-mcq-08",
-        "shift-mcq-12",
-        "shift-mcq-07"
+        "shift-mcq-12"
       ],
       "explanation": "本句的「shift」指「音變、語義變化、相位等的轉移／變化」。",
       "sentenceIndex": 27,
@@ -1046,12 +952,10 @@ export default {
         "shift"
       ],
       "optionReasons": {
-        "shift-mcq-10": "本句指「音變、語義變化、相位等的轉移／變化」。",
-        "shift-mcq-09": "「把位元／資料位置向左或右移位」與本句語境不同。",
-        "shift-mcq-11": "「賣掉／清走商品；或清除污漬」與本句語境不同。",
-        "shift-mcq-08": "「電腦鍵盤上的 Shift 鍵」與本句語境不同。",
-        "shift-mcq-12": "「簡單寬鬆的直筒連身裙」與本句語境不同。",
-        "shift-mcq-07": "「換檔；亦可指換檔裝置」與本句語境不同。"
+        "shift-mcq-10": "本句的「shift」指「音變、語義變化、相位等的轉移／變化」。",
+        "shift-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-10"
     },
@@ -1063,11 +967,9 @@ export default {
       "masked": "The word has undergone a semantic ____.",
       "options": [
         "shift-mcq-10",
-        "shift-mcq-09",
-        "shift-mcq-11",
-        "shift-mcq-08",
+        "shift-mcq-06",
         "shift-mcq-12",
-        "shift-mcq-07"
+        "shift-mcq-08"
       ],
       "explanation": "本句的「shift」指「音變、語義變化、相位等的轉移／變化」。",
       "sentenceIndex": 28,
@@ -1076,12 +978,10 @@ export default {
         "shift"
       ],
       "optionReasons": {
-        "shift-mcq-10": "本句指「音變、語義變化、相位等的轉移／變化」。",
-        "shift-mcq-09": "「把位元／資料位置向左或右移位」與本句語境不同。",
-        "shift-mcq-11": "「賣掉／清走商品；或清除污漬」與本句語境不同。",
-        "shift-mcq-08": "「電腦鍵盤上的 Shift 鍵」與本句語境不同。",
-        "shift-mcq-12": "「簡單寬鬆的直筒連身裙」與本句語境不同。",
-        "shift-mcq-07": "「換檔；亦可指換檔裝置」與本句語境不同。"
+        "shift-mcq-10": "本句的「shift」指「音變、語義變化、相位等的轉移／變化」。",
+        "shift-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-10"
     },
@@ -1093,11 +993,9 @@ export default {
       "masked": "The shop is struggling to ____ its old stock.",
       "options": [
         "shift-mcq-11",
-        "shift-mcq-10",
-        "shift-mcq-12",
         "shift-mcq-09",
-        "shift-mcq-13",
-        "shift-mcq-08"
+        "shift-mcq-05",
+        "shift-mcq-07"
       ],
       "explanation": "本句的「shift」指「賣掉／清走商品；或清除污漬」。",
       "sentenceIndex": 30,
@@ -1106,12 +1004,10 @@ export default {
         "shift"
       ],
       "optionReasons": {
-        "shift-mcq-11": "本句指「賣掉／清走商品；或清除污漬」。",
-        "shift-mcq-10": "「音變、語義變化、相位等的轉移／變化」與本句語境不同。",
-        "shift-mcq-12": "「簡單寬鬆的直筒連身裙」與本句語境不同。",
-        "shift-mcq-09": "「把位元／資料位置向左或右移位」與本句語境不同。",
-        "shift-mcq-13": "「換檔器／變速控制器」與本句語境不同。",
-        "shift-mcq-08": "「電腦鍵盤上的 Shift 鍵」與本句語境不同。"
+        "shift-mcq-11": "本句的「shift」指「賣掉／清走商品；或清除污漬」。",
+        "shift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-11"
     },
@@ -1123,10 +1019,8 @@ export default {
       "masked": "We need to ____ these boxes before Friday.” Depending on context:",
       "options": [
         "shift-mcq-11",
-        "shift-mcq-10",
-        "shift-mcq-12",
         "shift-mcq-09",
-        "shift-mcq-13",
+        "shift-mcq-02",
         "shift-mcq-08"
       ],
       "explanation": "本句的「shift」指「賣掉／清走商品；或清除污漬」。",
@@ -1136,12 +1030,10 @@ export default {
         "shift"
       ],
       "optionReasons": {
-        "shift-mcq-11": "本句指「賣掉／清走商品；或清除污漬」。",
-        "shift-mcq-10": "「音變、語義變化、相位等的轉移／變化」與本句語境不同。",
-        "shift-mcq-12": "「簡單寬鬆的直筒連身裙」與本句語境不同。",
-        "shift-mcq-09": "「把位元／資料位置向左或右移位」與本句語境不同。",
-        "shift-mcq-13": "「換檔器／變速控制器」與本句語境不同。",
-        "shift-mcq-08": "「電腦鍵盤上的 Shift 鍵」與本句語境不同。"
+        "shift-mcq-11": "本句的「shift」指「賣掉／清走商品；或清除污漬」。",
+        "shift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-11"
     },
@@ -1154,10 +1046,8 @@ export default {
       "options": [
         "shift-mcq-11",
         "shift-mcq-10",
-        "shift-mcq-12",
         "shift-mcq-09",
-        "shift-mcq-13",
-        "shift-mcq-08"
+        "shift-mcq-06"
       ],
       "explanation": "本句的「shift」指「賣掉／清走商品；或清除污漬」。",
       "sentenceIndex": 32,
@@ -1166,12 +1056,10 @@ export default {
         "shift"
       ],
       "optionReasons": {
-        "shift-mcq-11": "本句指「賣掉／清走商品；或清除污漬」。",
-        "shift-mcq-10": "「音變、語義變化、相位等的轉移／變化」與本句語境不同。",
-        "shift-mcq-12": "「簡單寬鬆的直筒連身裙」與本句語境不同。",
-        "shift-mcq-09": "「把位元／資料位置向左或右移位」與本句語境不同。",
-        "shift-mcq-13": "「換檔器／變速控制器」與本句語境不同。",
-        "shift-mcq-08": "「電腦鍵盤上的 Shift 鍵」與本句語境不同。"
+        "shift-mcq-11": "本句的「shift」指「賣掉／清走商品；或清除污漬」。",
+        "shift-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-11"
     },
@@ -1183,11 +1071,9 @@ export default {
       "masked": "She wore a simple black ____.",
       "options": [
         "shift-mcq-12",
-        "shift-mcq-11",
-        "shift-mcq-13",
-        "shift-mcq-10",
+        "shift-mcq-07",
         "shift-mcq-14",
-        "shift-mcq-09"
+        "shift-mcq-10"
       ],
       "explanation": "本句的「shift」指「簡單寬鬆的直筒連身裙」。",
       "sentenceIndex": 33,
@@ -1196,12 +1082,10 @@ export default {
         "shift"
       ],
       "optionReasons": {
-        "shift-mcq-12": "本句指「簡單寬鬆的直筒連身裙」。",
-        "shift-mcq-11": "「賣掉／清走商品；或清除污漬」與本句語境不同。",
-        "shift-mcq-13": "「換檔器／變速控制器」與本句語境不同。",
-        "shift-mcq-10": "「音變、語義變化、相位等的轉移／變化」與本句語境不同。",
-        "shift-mcq-14": "「鬼祟、不可信的；已形成較獨立詞義」與本句語境不同。",
-        "shift-mcq-09": "「把位元／資料位置向左或右移位」與本句語境不同。"
+        "shift-mcq-12": "本句的「shift」指「簡單寬鬆的直筒連身裙」。",
+        "shift-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-12"
     },
@@ -1213,11 +1097,9 @@ export default {
       "masked": "He gave me a ____ look.",
       "options": [
         "shift-mcq-14",
-        "shift-mcq-13",
-        "shift-mcq-15",
-        "shift-mcq-12",
-        "shift-mcq-11",
-        "shift-mcq-10"
+        "shift-mcq-01",
+        "shift-mcq-08",
+        "shift-mcq-05"
       ],
       "explanation": "本句的「shifty」指「鬼祟、不可信的；已形成較獨立詞義」。",
       "sentenceIndex": 34,
@@ -1226,12 +1108,10 @@ export default {
         "shifty"
       ],
       "optionReasons": {
-        "shift-mcq-14": "本句指「鬼祟、不可信的；已形成較獨立詞義」。",
-        "shift-mcq-13": "「換檔器／變速控制器」與本句語境不同。",
-        "shift-mcq-15": "「懶散、沒有進取心的；較低頻」與本句語境不同。",
-        "shift-mcq-12": "「簡單寬鬆的直筒連身裙」與本句語境不同。",
-        "shift-mcq-11": "「賣掉／清走商品；或清除污漬」與本句語境不同。",
-        "shift-mcq-10": "「音變、語義變化、相位等的轉移／變化」與本句語境不同。"
+        "shift-mcq-14": "本句的「shifty」指「鬼祟、不可信的；已形成較獨立詞義」。",
+        "shift-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shift-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shift-mcq-14"
     }
@@ -1243,5 +1123,7 @@ export default {
     "sha256": "8279312d36f4fdffd059e8091fa9f7ea34c8d02834006875e5a19e1e64e11e5f",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -267,11 +267,7 @@ export default {
       "masked": "Her initials were ____ on the pen.",
       "options": [
         "engrave-mcq-01",
-        "engrave-mcq-02",
-        "engrave-mcq-03",
-        "engrave-mcq-04",
-        "engrave-mcq-05",
-        "engrave-mcq-06"
+        "engrave-mcq-07"
       ],
       "explanation": "本句的「engraved」指「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」。",
       "sentenceIndex": 0,
@@ -280,12 +276,8 @@ export default {
         "engraved"
       ],
       "optionReasons": {
-        "engrave-mcq-01": "本句指「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」。",
-        "engrave-mcq-02": "「把文字或圖案刻在某個物件表面」與本句語境不同。",
-        "engrave-mcq-03": "「在某物上刻上指定文字或圖案」與本句語境不同。",
-        "engrave-mcq-04": "「在物件表面雕出裝飾圖案」與本句語境不同。",
-        "engrave-mcq-05": "「為印刷而在金屬、木材等表面製作雕版」與本句語境不同。",
-        "engrave-mcq-06": "「某事被非常清楚、長久地記住；深深銘刻在記憶中」與本句語境不同。"
+        "engrave-mcq-01": "本句的「engraved」指「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」。",
+        "engrave-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-01"
     },
@@ -297,11 +289,7 @@ export default {
       "masked": "The ring was ____ with a short message.",
       "options": [
         "engrave-mcq-01",
-        "engrave-mcq-02",
-        "engrave-mcq-03",
-        "engrave-mcq-04",
-        "engrave-mcq-05",
-        "engrave-mcq-06"
+        "engrave-mcq-07"
       ],
       "explanation": "本句的「engraved」指「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」。",
       "sentenceIndex": 1,
@@ -310,12 +298,8 @@ export default {
         "engraved"
       ],
       "optionReasons": {
-        "engrave-mcq-01": "本句指「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」。",
-        "engrave-mcq-02": "「把文字或圖案刻在某個物件表面」與本句語境不同。",
-        "engrave-mcq-03": "「在某物上刻上指定文字或圖案」與本句語境不同。",
-        "engrave-mcq-04": "「在物件表面雕出裝飾圖案」與本句語境不同。",
-        "engrave-mcq-05": "「為印刷而在金屬、木材等表面製作雕版」與本句語境不同。",
-        "engrave-mcq-06": "「某事被非常清楚、長久地記住；深深銘刻在記憶中」與本句語境不同。"
+        "engrave-mcq-01": "本句的「engraved」指「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」。",
+        "engrave-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-01"
     },
@@ -327,10 +311,6 @@ export default {
       "masked": "His name was ____ on the trophy.",
       "options": [
         "engrave-mcq-01",
-        "engrave-mcq-02",
-        "engrave-mcq-03",
-        "engrave-mcq-04",
-        "engrave-mcq-05",
         "engrave-mcq-06"
       ],
       "explanation": "本句的「engraved」指「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」。",
@@ -340,12 +320,8 @@ export default {
         "engraved"
       ],
       "optionReasons": {
-        "engrave-mcq-01": "本句指「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」。",
-        "engrave-mcq-02": "「把文字或圖案刻在某個物件表面」與本句語境不同。",
-        "engrave-mcq-03": "「在某物上刻上指定文字或圖案」與本句語境不同。",
-        "engrave-mcq-04": "「在物件表面雕出裝飾圖案」與本句語境不同。",
-        "engrave-mcq-05": "「為印刷而在金屬、木材等表面製作雕版」與本句語境不同。",
-        "engrave-mcq-06": "「某事被非常清楚、長久地記住；深深銘刻在記憶中」與本句語境不同。"
+        "engrave-mcq-01": "本句的「engraved」指「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」。",
+        "engrave-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-01"
     },
@@ -357,10 +333,6 @@ export default {
       "masked": "The artist ____ into the metal.",
       "options": [
         "engrave-mcq-01",
-        "engrave-mcq-02",
-        "engrave-mcq-03",
-        "engrave-mcq-04",
-        "engrave-mcq-05",
         "engrave-mcq-06"
       ],
       "explanation": "本句的「engraved a pattern」指「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」。",
@@ -370,12 +342,8 @@ export default {
         "engraved a pattern"
       ],
       "optionReasons": {
-        "engrave-mcq-01": "本句指「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」。",
-        "engrave-mcq-02": "「把文字或圖案刻在某個物件表面」與本句語境不同。",
-        "engrave-mcq-03": "「在某物上刻上指定文字或圖案」與本句語境不同。",
-        "engrave-mcq-04": "「在物件表面雕出裝飾圖案」與本句語境不同。",
-        "engrave-mcq-05": "「為印刷而在金屬、木材等表面製作雕版」與本句語境不同。",
-        "engrave-mcq-06": "「某事被非常清楚、長久地記住；深深銘刻在記憶中」與本句語境不同。"
+        "engrave-mcq-01": "本句的「engraved a pattern」指「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」。",
+        "engrave-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-01"
     },
@@ -387,11 +355,8 @@ export default {
       "masked": "They ____.",
       "options": [
         "engrave-mcq-02",
-        "engrave-mcq-01",
-        "engrave-mcq-03",
-        "engrave-mcq-04",
-        "engrave-mcq-05",
-        "engrave-mcq-06"
+        "engrave-mcq-07",
+        "engrave-mcq-11"
       ],
       "explanation": "本句的「engraved her name on the watch」指「把文字或圖案刻在某個物件表面」。",
       "sentenceIndex": 4,
@@ -400,12 +365,9 @@ export default {
         "engraved her name on the watch"
       ],
       "optionReasons": {
-        "engrave-mcq-02": "本句指「把文字或圖案刻在某個物件表面」。",
-        "engrave-mcq-01": "「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」與本句語境不同。",
-        "engrave-mcq-03": "「在某物上刻上指定文字或圖案」與本句語境不同。",
-        "engrave-mcq-04": "「在物件表面雕出裝飾圖案」與本句語境不同。",
-        "engrave-mcq-05": "「為印刷而在金屬、木材等表面製作雕版」與本句語境不同。",
-        "engrave-mcq-06": "「某事被非常清楚、長久地記住；深深銘刻在記憶中」與本句語境不同。"
+        "engrave-mcq-02": "本句的「engraved her name on the watch」指「把文字或圖案刻在某個物件表面」。",
+        "engrave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-02"
     },
@@ -417,11 +379,8 @@ export default {
       "masked": "A date was ____.",
       "options": [
         "engrave-mcq-02",
-        "engrave-mcq-01",
-        "engrave-mcq-03",
-        "engrave-mcq-04",
-        "engrave-mcq-05",
-        "engrave-mcq-06"
+        "engrave-mcq-07",
+        "engrave-mcq-11"
       ],
       "explanation": "本句的「engraved onto the plaque」指「把文字或圖案刻在某個物件表面」。",
       "sentenceIndex": 5,
@@ -430,12 +389,9 @@ export default {
         "engraved onto the plaque"
       ],
       "optionReasons": {
-        "engrave-mcq-02": "本句指「把文字或圖案刻在某個物件表面」。",
-        "engrave-mcq-01": "「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」與本句語境不同。",
-        "engrave-mcq-03": "「在某物上刻上指定文字或圖案」與本句語境不同。",
-        "engrave-mcq-04": "「在物件表面雕出裝飾圖案」與本句語境不同。",
-        "engrave-mcq-05": "「為印刷而在金屬、木材等表面製作雕版」與本句語境不同。",
-        "engrave-mcq-06": "「某事被非常清楚、長久地記住；深深銘刻在記憶中」與本句語境不同。"
+        "engrave-mcq-02": "本句的「engraved onto the plaque」指「把文字或圖案刻在某個物件表面」。",
+        "engrave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-02"
     },
@@ -447,11 +403,9 @@ export default {
       "masked": "The pen was ____.",
       "options": [
         "engrave-mcq-03",
-        "engrave-mcq-02",
-        "engrave-mcq-04",
-        "engrave-mcq-01",
+        "engrave-mcq-07",
         "engrave-mcq-05",
-        "engrave-mcq-06"
+        "engrave-mcq-11"
       ],
       "explanation": "本句的「engraved with his initials」指「在某物上刻上指定文字或圖案」。",
       "sentenceIndex": 6,
@@ -460,12 +414,10 @@ export default {
         "engraved with his initials"
       ],
       "optionReasons": {
-        "engrave-mcq-03": "本句指「在某物上刻上指定文字或圖案」。",
-        "engrave-mcq-02": "「把文字或圖案刻在某個物件表面」與本句語境不同。",
-        "engrave-mcq-04": "「在物件表面雕出裝飾圖案」與本句語境不同。",
-        "engrave-mcq-01": "「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」與本句語境不同。",
-        "engrave-mcq-05": "「為印刷而在金屬、木材等表面製作雕版」與本句語境不同。",
-        "engrave-mcq-06": "「某事被非常清楚、長久地記住；深深銘刻在記憶中」與本句語境不同。"
+        "engrave-mcq-03": "本句的「engraved with his initials」指「在某物上刻上指定文字或圖案」。",
+        "engrave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-03"
     },
@@ -477,11 +429,9 @@ export default {
       "masked": "The box was ____.",
       "options": [
         "engrave-mcq-03",
-        "engrave-mcq-02",
-        "engrave-mcq-04",
-        "engrave-mcq-01",
+        "engrave-mcq-07",
         "engrave-mcq-05",
-        "engrave-mcq-06"
+        "engrave-mcq-11"
       ],
       "explanation": "本句的「engraved with a floral design」指「在某物上刻上指定文字或圖案」。",
       "sentenceIndex": 7,
@@ -490,12 +440,10 @@ export default {
         "engraved with a floral design"
       ],
       "optionReasons": {
-        "engrave-mcq-03": "本句指「在某物上刻上指定文字或圖案」。",
-        "engrave-mcq-02": "「把文字或圖案刻在某個物件表面」與本句語境不同。",
-        "engrave-mcq-04": "「在物件表面雕出裝飾圖案」與本句語境不同。",
-        "engrave-mcq-01": "「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」與本句語境不同。",
-        "engrave-mcq-05": "「為印刷而在金屬、木材等表面製作雕版」與本句語境不同。",
-        "engrave-mcq-06": "「某事被非常清楚、長久地記住；深深銘刻在記憶中」與本句語境不同。"
+        "engrave-mcq-03": "本句的「engraved with a floral design」指「在某物上刻上指定文字或圖案」。",
+        "engrave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-03"
     },
@@ -507,11 +455,8 @@ export default {
       "masked": "The craftsman ____ by hand.",
       "options": [
         "engrave-mcq-04",
-        "engrave-mcq-03",
-        "engrave-mcq-05",
-        "engrave-mcq-02",
-        "engrave-mcq-06",
-        "engrave-mcq-01"
+        "engrave-mcq-07",
+        "engrave-mcq-11"
       ],
       "explanation": "本句的「engraved the silver plate」指「在物件表面雕出裝飾圖案」。",
       "sentenceIndex": 8,
@@ -520,12 +465,9 @@ export default {
         "engraved the silver plate"
       ],
       "optionReasons": {
-        "engrave-mcq-04": "本句指「在物件表面雕出裝飾圖案」。",
-        "engrave-mcq-03": "「在某物上刻上指定文字或圖案」與本句語境不同。",
-        "engrave-mcq-05": "「為印刷而在金屬、木材等表面製作雕版」與本句語境不同。",
-        "engrave-mcq-02": "「把文字或圖案刻在某個物件表面」與本句語境不同。",
-        "engrave-mcq-06": "「某事被非常清楚、長久地記住；深深銘刻在記憶中」與本句語境不同。",
-        "engrave-mcq-01": "「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」與本句語境不同。"
+        "engrave-mcq-04": "本句的「engraved the silver plate」指「在物件表面雕出裝飾圖案」。",
+        "engrave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-04"
     },
@@ -537,11 +479,8 @@ export default {
       "masked": "The bracelet was carefully ____ with leaves.",
       "options": [
         "engrave-mcq-04",
-        "engrave-mcq-03",
-        "engrave-mcq-05",
-        "engrave-mcq-02",
-        "engrave-mcq-06",
-        "engrave-mcq-01"
+        "engrave-mcq-07",
+        "engrave-mcq-11"
       ],
       "explanation": "本句的「engraved」指「在物件表面雕出裝飾圖案」。",
       "sentenceIndex": 9,
@@ -550,12 +489,9 @@ export default {
         "engraved"
       ],
       "optionReasons": {
-        "engrave-mcq-04": "本句指「在物件表面雕出裝飾圖案」。",
-        "engrave-mcq-03": "「在某物上刻上指定文字或圖案」與本句語境不同。",
-        "engrave-mcq-05": "「為印刷而在金屬、木材等表面製作雕版」與本句語境不同。",
-        "engrave-mcq-02": "「把文字或圖案刻在某個物件表面」與本句語境不同。",
-        "engrave-mcq-06": "「某事被非常清楚、長久地記住；深深銘刻在記憶中」與本句語境不同。",
-        "engrave-mcq-01": "「把文字、符號或圖案切刻進金屬、石頭、木材等表面；雕刻／刻上」與本句語境不同。"
+        "engrave-mcq-04": "本句的「engraved」指「在物件表面雕出裝飾圖案」。",
+        "engrave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-04"
     },
@@ -567,11 +503,9 @@ export default {
       "masked": "The image was ____.",
       "options": [
         "engrave-mcq-05",
-        "engrave-mcq-04",
-        "engrave-mcq-06",
         "engrave-mcq-03",
-        "engrave-mcq-07",
-        "engrave-mcq-02"
+        "engrave-mcq-06",
+        "engrave-mcq-11"
       ],
       "explanation": "本句的「engraved on a metal plate」指「為印刷而在金屬、木材等表面製作雕版」。",
       "sentenceIndex": 10,
@@ -580,12 +514,10 @@ export default {
         "engraved on a metal plate"
       ],
       "optionReasons": {
-        "engrave-mcq-05": "本句指「為印刷而在金屬、木材等表面製作雕版」。",
-        "engrave-mcq-04": "「在物件表面雕出裝飾圖案」與本句語境不同。",
-        "engrave-mcq-06": "「某事被非常清楚、長久地記住；深深銘刻在記憶中」與本句語境不同。",
-        "engrave-mcq-03": "「在某物上刻上指定文字或圖案」與本句語境不同。",
-        "engrave-mcq-07": "「使某個印象、教訓等深深留在腦海」與本句語境不同。",
-        "engrave-mcq-02": "「把文字或圖案刻在某個物件表面」與本句語境不同。"
+        "engrave-mcq-05": "本句的「engraved on a metal plate」指「為印刷而在金屬、木材等表面製作雕版」。",
+        "engrave-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-05"
     },
@@ -597,11 +529,9 @@ export default {
       "masked": "The artist ____ for printing.",
       "options": [
         "engrave-mcq-05",
-        "engrave-mcq-04",
         "engrave-mcq-06",
         "engrave-mcq-03",
-        "engrave-mcq-07",
-        "engrave-mcq-02"
+        "engrave-mcq-11"
       ],
       "explanation": "本句的「engraved the illustration」指「為印刷而在金屬、木材等表面製作雕版」。",
       "sentenceIndex": 11,
@@ -610,12 +540,10 @@ export default {
         "engraved the illustration"
       ],
       "optionReasons": {
-        "engrave-mcq-05": "本句指「為印刷而在金屬、木材等表面製作雕版」。",
-        "engrave-mcq-04": "「在物件表面雕出裝飾圖案」與本句語境不同。",
-        "engrave-mcq-06": "「某事被非常清楚、長久地記住；深深銘刻在記憶中」與本句語境不同。",
-        "engrave-mcq-03": "「在某物上刻上指定文字或圖案」與本句語境不同。",
-        "engrave-mcq-07": "「使某個印象、教訓等深深留在腦海」與本句語境不同。",
-        "engrave-mcq-02": "「把文字或圖案刻在某個物件表面」與本句語境不同。"
+        "engrave-mcq-05": "本句的「engraved the illustration」指「為印刷而在金屬、木材等表面製作雕版」。",
+        "engrave-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-05"
     },
@@ -627,11 +555,8 @@ export default {
       "masked": "That day is ____.",
       "options": [
         "engrave-mcq-06",
-        "engrave-mcq-05",
-        "engrave-mcq-07",
         "engrave-mcq-04",
-        "engrave-mcq-08",
-        "engrave-mcq-03"
+        "engrave-mcq-11"
       ],
       "explanation": "本句的「engraved in my memory」指「某事被非常清楚、長久地記住；深深銘刻在記憶中」。",
       "sentenceIndex": 12,
@@ -640,12 +565,9 @@ export default {
         "engraved in my memory"
       ],
       "optionReasons": {
-        "engrave-mcq-06": "本句指「某事被非常清楚、長久地記住；深深銘刻在記憶中」。",
-        "engrave-mcq-05": "「為印刷而在金屬、木材等表面製作雕版」與本句語境不同。",
-        "engrave-mcq-07": "「使某個印象、教訓等深深留在腦海」與本句語境不同。",
-        "engrave-mcq-04": "「在物件表面雕出裝飾圖案」與本句語境不同。",
-        "engrave-mcq-08": "「雕刻／鐫刻的過程」與本句語境不同。",
-        "engrave-mcq-03": "「在某物上刻上指定文字或圖案」與本句語境不同。"
+        "engrave-mcq-06": "本句的「engraved in my memory」指「某事被非常清楚、長久地記住；深深銘刻在記憶中」。",
+        "engrave-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-06"
     },
@@ -658,10 +580,8 @@ export default {
       "options": [
         "engrave-mcq-06",
         "engrave-mcq-05",
-        "engrave-mcq-07",
-        "engrave-mcq-04",
-        "engrave-mcq-08",
-        "engrave-mcq-03"
+        "engrave-mcq-03",
+        "engrave-mcq-11"
       ],
       "explanation": "本句的「engraved on his mind」指「某事被非常清楚、長久地記住；深深銘刻在記憶中」。",
       "sentenceIndex": 13,
@@ -670,12 +590,10 @@ export default {
         "engraved on his mind"
       ],
       "optionReasons": {
-        "engrave-mcq-06": "本句指「某事被非常清楚、長久地記住；深深銘刻在記憶中」。",
-        "engrave-mcq-05": "「為印刷而在金屬、木材等表面製作雕版」與本句語境不同。",
-        "engrave-mcq-07": "「使某個印象、教訓等深深留在腦海」與本句語境不同。",
-        "engrave-mcq-04": "「在物件表面雕出裝飾圖案」與本句語境不同。",
-        "engrave-mcq-08": "「雕刻／鐫刻的過程」與本句語境不同。",
-        "engrave-mcq-03": "「在某物上刻上指定文字或圖案」與本句語境不同。"
+        "engrave-mcq-06": "本句的「engraved on his mind」指「某事被非常清楚、長久地記住；深深銘刻在記憶中」。",
+        "engrave-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-06"
     },
@@ -687,11 +605,9 @@ export default {
       "masked": "The experience ____.",
       "options": [
         "engrave-mcq-07",
-        "engrave-mcq-06",
-        "engrave-mcq-08",
-        "engrave-mcq-05",
-        "engrave-mcq-09",
-        "engrave-mcq-04"
+        "engrave-mcq-03",
+        "engrave-mcq-11",
+        "engrave-mcq-05"
       ],
       "explanation": "本句的「engraved the lesson on his mind」指「使某個印象、教訓等深深留在腦海」。",
       "sentenceIndex": 14,
@@ -700,12 +616,10 @@ export default {
         "engraved the lesson on his mind"
       ],
       "optionReasons": {
-        "engrave-mcq-07": "本句指「使某個印象、教訓等深深留在腦海」。",
-        "engrave-mcq-06": "「某事被非常清楚、長久地記住；深深銘刻在記憶中」與本句語境不同。",
-        "engrave-mcq-08": "「雕刻／鐫刻的過程」與本句語境不同。",
-        "engrave-mcq-05": "「為印刷而在金屬、木材等表面製作雕版」與本句語境不同。",
-        "engrave-mcq-09": "「以雕版技法製作的圖像／版畫」與本句語境不同。",
-        "engrave-mcq-04": "「在物件表面雕出裝飾圖案」與本句語境不同。"
+        "engrave-mcq-07": "本句的「engraved the lesson on his mind」指「使某個印象、教訓等深深留在腦海」。",
+        "engrave-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-07"
     },
@@ -717,11 +631,8 @@ export default {
       "masked": "The image was ____.",
       "options": [
         "engrave-mcq-07",
-        "engrave-mcq-06",
-        "engrave-mcq-08",
-        "engrave-mcq-05",
-        "engrave-mcq-09",
-        "engrave-mcq-04"
+        "engrave-mcq-10",
+        "engrave-mcq-11"
       ],
       "explanation": "本句的「engraved on her memory」指「使某個印象、教訓等深深留在腦海」。",
       "sentenceIndex": 15,
@@ -730,12 +641,9 @@ export default {
         "engraved on her memory"
       ],
       "optionReasons": {
-        "engrave-mcq-07": "本句指「使某個印象、教訓等深深留在腦海」。",
-        "engrave-mcq-06": "「某事被非常清楚、長久地記住；深深銘刻在記憶中」與本句語境不同。",
-        "engrave-mcq-08": "「雕刻／鐫刻的過程」與本句語境不同。",
-        "engrave-mcq-05": "「為印刷而在金屬、木材等表面製作雕版」與本句語境不同。",
-        "engrave-mcq-09": "「以雕版技法製作的圖像／版畫」與本句語境不同。",
-        "engrave-mcq-04": "「在物件表面雕出裝飾圖案」與本句語境不同。"
+        "engrave-mcq-07": "本句的「engraved on her memory」指「使某個印象、教訓等深深留在腦海」。",
+        "engrave-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-07"
     },
@@ -747,11 +655,8 @@ export default {
       "masked": "She received an ____.",
       "options": [
         "engrave-mcq-10",
-        "engrave-mcq-09",
-        "engrave-mcq-11",
-        "engrave-mcq-08",
-        "engrave-mcq-12",
-        "engrave-mcq-07"
+        "engrave-mcq-07",
+        "engrave-mcq-11"
       ],
       "explanation": "本句的「engraved watch」指「表面已刻有文字或圖案的」。",
       "sentenceIndex": 16,
@@ -760,12 +665,9 @@ export default {
         "engraved watch"
       ],
       "optionReasons": {
-        "engrave-mcq-10": "本句指「表面已刻有文字或圖案的」。",
-        "engrave-mcq-09": "「以雕版技法製作的圖像／版畫」與本句語境不同。",
-        "engrave-mcq-11": "「進行雕刻的人或機器」與本句語境不同。",
-        "engrave-mcq-08": "「雕刻／鐫刻的過程」與本句語境不同。",
-        "engrave-mcq-12": "「使用雷射在物體表面刻字／刻圖的技術」與本句語境不同。",
-        "engrave-mcq-07": "「使某個印象、教訓等深深留在腦海」與本句語境不同。"
+        "engrave-mcq-10": "本句的「engraved watch」指「表面已刻有文字或圖案的」。",
+        "engrave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-10"
     },
@@ -777,11 +679,8 @@ export default {
       "masked": "The ____ made the gift personal.",
       "options": [
         "engrave-mcq-10",
-        "engrave-mcq-09",
-        "engrave-mcq-11",
-        "engrave-mcq-08",
-        "engrave-mcq-12",
-        "engrave-mcq-07"
+        "engrave-mcq-07",
+        "engrave-mcq-11"
       ],
       "explanation": "本句的「engraved initials」指「表面已刻有文字或圖案的」。",
       "sentenceIndex": 17,
@@ -790,12 +689,9 @@ export default {
         "engraved initials"
       ],
       "optionReasons": {
-        "engrave-mcq-10": "本句指「表面已刻有文字或圖案的」。",
-        "engrave-mcq-09": "「以雕版技法製作的圖像／版畫」與本句語境不同。",
-        "engrave-mcq-11": "「進行雕刻的人或機器」與本句語境不同。",
-        "engrave-mcq-08": "「雕刻／鐫刻的過程」與本句語境不同。",
-        "engrave-mcq-12": "「使用雷射在物體表面刻字／刻圖的技術」與本句語境不同。",
-        "engrave-mcq-07": "「使某個印象、教訓等深深留在腦海」與本句語境不同。"
+        "engrave-mcq-10": "本句的「engraved initials」指「表面已刻有文字或圖案的」。",
+        "engrave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-10"
     },
@@ -807,11 +703,9 @@ export default {
       "masked": "The ____ added the name by hand.",
       "options": [
         "engrave-mcq-11",
-        "engrave-mcq-10",
-        "engrave-mcq-12",
-        "engrave-mcq-09",
-        "engrave-mcq-08",
-        "engrave-mcq-07"
+        "engrave-mcq-07",
+        "engrave-mcq-05",
+        "engrave-mcq-03"
       ],
       "explanation": "本句的「engraver」指「進行雕刻的人或機器」。",
       "sentenceIndex": 18,
@@ -820,12 +714,10 @@ export default {
         "engraver"
       ],
       "optionReasons": {
-        "engrave-mcq-11": "本句指「進行雕刻的人或機器」。",
-        "engrave-mcq-10": "「表面已刻有文字或圖案的」與本句語境不同。",
-        "engrave-mcq-12": "「使用雷射在物體表面刻字／刻圖的技術」與本句語境不同。",
-        "engrave-mcq-09": "「以雕版技法製作的圖像／版畫」與本句語境不同。",
-        "engrave-mcq-08": "「雕刻／鐫刻的過程」與本句語境不同。",
-        "engrave-mcq-07": "「使某個印象、教訓等深深留在腦海」與本句語境不同。"
+        "engrave-mcq-11": "本句的「engraver」指「進行雕刻的人或機器」。",
+        "engrave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-11"
     },
@@ -837,11 +729,9 @@ export default {
       "masked": "A laser ____ was used for the design.",
       "options": [
         "engrave-mcq-11",
-        "engrave-mcq-10",
-        "engrave-mcq-12",
-        "engrave-mcq-09",
-        "engrave-mcq-08",
-        "engrave-mcq-07"
+        "engrave-mcq-07",
+        "engrave-mcq-05",
+        "engrave-mcq-03"
       ],
       "explanation": "本句的「engraver」指「進行雕刻的人或機器」。",
       "sentenceIndex": 19,
@@ -850,12 +740,10 @@ export default {
         "engraver"
       ],
       "optionReasons": {
-        "engrave-mcq-11": "本句指「進行雕刻的人或機器」。",
-        "engrave-mcq-10": "「表面已刻有文字或圖案的」與本句語境不同。",
-        "engrave-mcq-12": "「使用雷射在物體表面刻字／刻圖的技術」與本句語境不同。",
-        "engrave-mcq-09": "「以雕版技法製作的圖像／版畫」與本句語境不同。",
-        "engrave-mcq-08": "「雕刻／鐫刻的過程」與本句語境不同。",
-        "engrave-mcq-07": "「使某個印象、教訓等深深留在腦海」與本句語境不同。"
+        "engrave-mcq-11": "本句的「engraver」指「進行雕刻的人或機器」。",
+        "engrave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "engrave-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-11"
     },
@@ -867,10 +755,6 @@ export default {
       "masked": "The company offers ____ on gifts.",
       "options": [
         "engrave-mcq-12",
-        "engrave-mcq-11",
-        "engrave-mcq-10",
-        "engrave-mcq-09",
-        "engrave-mcq-08",
         "engrave-mcq-07"
       ],
       "explanation": "本句的「laser engraving」指「使用雷射在物體表面刻字／刻圖的技術」。",
@@ -880,12 +764,8 @@ export default {
         "laser engraving"
       ],
       "optionReasons": {
-        "engrave-mcq-12": "本句指「使用雷射在物體表面刻字／刻圖的技術」。",
-        "engrave-mcq-11": "「進行雕刻的人或機器」與本句語境不同。",
-        "engrave-mcq-10": "「表面已刻有文字或圖案的」與本句語境不同。",
-        "engrave-mcq-09": "「以雕版技法製作的圖像／版畫」與本句語境不同。",
-        "engrave-mcq-08": "「雕刻／鐫刻的過程」與本句語境不同。",
-        "engrave-mcq-07": "「使某個印象、教訓等深深留在腦海」與本句語境不同。"
+        "engrave-mcq-12": "本句的「laser engraving」指「使用雷射在物體表面刻字／刻圖的技術」。",
+        "engrave-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-12"
     },
@@ -897,10 +777,6 @@ export default {
       "masked": "The initials were added by ____.",
       "options": [
         "engrave-mcq-12",
-        "engrave-mcq-11",
-        "engrave-mcq-10",
-        "engrave-mcq-09",
-        "engrave-mcq-08",
         "engrave-mcq-07"
       ],
       "explanation": "本句的「laser engraving」指「使用雷射在物體表面刻字／刻圖的技術」。",
@@ -910,12 +786,8 @@ export default {
         "laser engraving"
       ],
       "optionReasons": {
-        "engrave-mcq-12": "本句指「使用雷射在物體表面刻字／刻圖的技術」。",
-        "engrave-mcq-11": "「進行雕刻的人或機器」與本句語境不同。",
-        "engrave-mcq-10": "「表面已刻有文字或圖案的」與本句語境不同。",
-        "engrave-mcq-09": "「以雕版技法製作的圖像／版畫」與本句語境不同。",
-        "engrave-mcq-08": "「雕刻／鐫刻的過程」與本句語境不同。",
-        "engrave-mcq-07": "「使某個印象、教訓等深深留在腦海」與本句語境不同。"
+        "engrave-mcq-12": "本句的「laser engraving」指「使用雷射在物體表面刻字／刻圖的技術」。",
+        "engrave-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engrave-mcq-12"
     }
@@ -927,5 +799,7 @@ export default {
     "sha256": "59a7072e722883318803e2b928d8565daa0fbc1d323767bdeb9593b999836d65",
     "pages": 9
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

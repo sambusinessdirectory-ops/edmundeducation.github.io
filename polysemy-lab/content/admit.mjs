@@ -569,11 +569,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "admit-mcq-01",
-        "admit-mcq-02",
-        "admit-mcq-04",
-        "admit-mcq-05",
-        "admit-mcq-06",
-        "admit-mcq-07"
+        "admit-mcq-11",
+        "admit-mcq-22",
+        "admit-mcq-19"
       ],
       "explanation": "本句的「admitted that he had jumped to conclusions」指「承認……」。",
       "sentenceIndex": 0,
@@ -582,12 +580,10 @@ export default {
         "admitted that he had jumped to conclusions"
       ],
       "optionReasons": {
-        "admit-mcq-01": "本句指「承認……」。",
-        "admit-mcq-02": "「承認做過 X」是「admit doing X」的用法，與本句語境不同。",
-        "admit-mcq-04": "「承認錯誤」是「admit a mistake」的用法，與本句語境不同。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。"
+        "admit-mcq-01": "本句的「admitted that he had jumped to conclusions」指「承認……」。",
+        "admit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-01"
     },
@@ -599,11 +595,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "admit-mcq-01",
-        "admit-mcq-02",
-        "admit-mcq-04",
-        "admit-mcq-05",
-        "admit-mcq-06",
-        "admit-mcq-07"
+        "admit-mcq-20",
+        "admit-mcq-19",
+        "admit-mcq-12"
       ],
       "explanation": "本句的「admitted that she had made a mistake」指「承認……」。",
       "sentenceIndex": 1,
@@ -612,12 +606,10 @@ export default {
         "admitted that she had made a mistake"
       ],
       "optionReasons": {
-        "admit-mcq-01": "本句指「承認……」。",
-        "admit-mcq-02": "「承認做過 X」是「admit doing X」的用法，與本句語境不同。",
-        "admit-mcq-04": "「承認錯誤」是「admit a mistake」的用法，與本句語境不同。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。"
+        "admit-mcq-01": "本句的「admitted that she had made a mistake」指「承認……」。",
+        "admit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-01"
     },
@@ -629,11 +621,9 @@ export default {
       "masked": "I have to ____.",
       "options": [
         "admit-mcq-01",
-        "admit-mcq-02",
-        "admit-mcq-04",
-        "admit-mcq-05",
-        "admit-mcq-06",
-        "admit-mcq-07"
+        "admit-mcq-18",
+        "admit-mcq-22",
+        "admit-mcq-11"
       ],
       "explanation": "本句的「admit that I was wrong」指「承認……」。",
       "sentenceIndex": 2,
@@ -642,12 +632,10 @@ export default {
         "admit that I was wrong"
       ],
       "optionReasons": {
-        "admit-mcq-01": "本句指「承認……」。",
-        "admit-mcq-02": "「承認做過 X」是「admit doing X」的用法，與本句語境不同。",
-        "admit-mcq-04": "「承認錯誤」是「admit a mistake」的用法，與本句語境不同。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。"
+        "admit-mcq-01": "本句的「admit that I was wrong」指「承認……」。",
+        "admit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-01"
     },
@@ -659,11 +647,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "admit-mcq-02",
-        "admit-mcq-01",
-        "admit-mcq-04",
-        "admit-mcq-05",
-        "admit-mcq-06",
-        "admit-mcq-07"
+        "admit-mcq-20",
+        "admit-mcq-21",
+        "admit-mcq-19"
       ],
       "explanation": "本句的「admitted making the mistake」指「承認做過 X」。",
       "sentenceIndex": 3,
@@ -672,12 +658,10 @@ export default {
         "admitted making the mistake"
       ],
       "optionReasons": {
-        "admit-mcq-02": "本句指「承認做過 X」。",
-        "admit-mcq-01": "「承認……」是「admit that...」的用法，與本句語境不同。",
-        "admit-mcq-04": "「承認錯誤」是「admit a mistake」的用法，與本句語境不同。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。"
+        "admit-mcq-02": "本句的「admitted making the mistake」指「承認做過 X」。",
+        "admit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-02"
     },
@@ -689,11 +673,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "admit-mcq-02",
-        "admit-mcq-01",
-        "admit-mcq-04",
-        "admit-mcq-05",
-        "admit-mcq-06",
-        "admit-mcq-07"
+        "admit-mcq-21",
+        "admit-mcq-17",
+        "admit-mcq-13"
       ],
       "explanation": "本句的「admitted taking the file」指「承認做過 X」。",
       "sentenceIndex": 4,
@@ -702,12 +684,10 @@ export default {
         "admitted taking the file"
       ],
       "optionReasons": {
-        "admit-mcq-02": "本句指「承認做過 X」。",
-        "admit-mcq-01": "「承認……」是「admit that...」的用法，與本句語境不同。",
-        "admit-mcq-04": "「承認錯誤」是「admit a mistake」的用法，與本句語境不同。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。"
+        "admit-mcq-02": "本句的「admitted taking the file」指「承認做過 X」。",
+        "admit-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-02"
     },
@@ -719,11 +699,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "admit-mcq-03",
-        "admit-mcq-04",
-        "admit-mcq-01",
-        "admit-mcq-05",
-        "admit-mcq-06",
-        "admit-mcq-07"
+        "admit-mcq-18",
+        "admit-mcq-22",
+        "admit-mcq-12"
       ],
       "explanation": "本句的「admitted to blaming me unfairly」指「承認做過 X」。",
       "sentenceIndex": 5,
@@ -732,12 +710,10 @@ export default {
         "admitted to blaming me unfairly"
       ],
       "optionReasons": {
-        "admit-mcq-03": "本句指「承認做過 X」。",
-        "admit-mcq-04": "「承認錯誤」是「admit a mistake」的用法，與本句語境不同。",
-        "admit-mcq-01": "「承認……」是「admit that...」的用法，與本句語境不同。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。"
+        "admit-mcq-03": "本句的「admitted to blaming me unfairly」指「承認做過 X」。",
+        "admit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-03"
     },
@@ -749,11 +725,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "admit-mcq-03",
-        "admit-mcq-04",
-        "admit-mcq-01",
-        "admit-mcq-05",
-        "admit-mcq-06",
-        "admit-mcq-07"
+        "admit-mcq-23",
+        "admit-mcq-13",
+        "admit-mcq-17"
       ],
       "explanation": "本句的「admitted to breaking the rule」指「承認做過 X」。",
       "sentenceIndex": 6,
@@ -762,12 +736,10 @@ export default {
         "admitted to breaking the rule"
       ],
       "optionReasons": {
-        "admit-mcq-03": "本句指「承認做過 X」。",
-        "admit-mcq-04": "「承認錯誤」是「admit a mistake」的用法，與本句語境不同。",
-        "admit-mcq-01": "「承認……」是「admit that...」的用法，與本句語境不同。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。"
+        "admit-mcq-03": "本句的「admitted to breaking the rule」指「承認做過 X」。",
+        "admit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-03"
     },
@@ -779,11 +751,9 @@ export default {
       "masked": "He was willing to ____.",
       "options": [
         "admit-mcq-04",
-        "admit-mcq-03",
-        "admit-mcq-05",
-        "admit-mcq-06",
-        "admit-mcq-01",
-        "admit-mcq-07"
+        "admit-mcq-21",
+        "admit-mcq-17",
+        "admit-mcq-12"
       ],
       "explanation": "本句的「admit his mistake」指「承認錯誤」。",
       "sentenceIndex": 7,
@@ -792,12 +762,10 @@ export default {
         "admit his mistake"
       ],
       "optionReasons": {
-        "admit-mcq-04": "本句指「承認錯誤」。",
-        "admit-mcq-03": "「承認做過 X」是「admit to doing X」的用法，與本句語境不同。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-01": "「承認……」是「admit that...」的用法，與本句語境不同。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。"
+        "admit-mcq-04": "本句的「admit his mistake」指「承認錯誤」。",
+        "admit-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-04"
     },
@@ -809,11 +777,9 @@ export default {
       "masked": "It takes courage to ____.",
       "options": [
         "admit-mcq-04",
-        "admit-mcq-03",
-        "admit-mcq-05",
-        "admit-mcq-06",
-        "admit-mcq-01",
-        "admit-mcq-07"
+        "admit-mcq-11",
+        "admit-mcq-13",
+        "admit-mcq-22"
       ],
       "explanation": "本句的「admit a mistake」指「承認錯誤」。",
       "sentenceIndex": 8,
@@ -822,12 +788,10 @@ export default {
         "admit a mistake"
       ],
       "optionReasons": {
-        "admit-mcq-04": "本句指「承認錯誤」。",
-        "admit-mcq-03": "「承認做過 X」是「admit to doing X」的用法，與本句語境不同。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-01": "「承認……」是「admit that...」的用法，與本句語境不同。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。"
+        "admit-mcq-04": "本句的「admit a mistake」指「承認錯誤」。",
+        "admit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-04"
     },
@@ -839,11 +803,9 @@ export default {
       "masked": "The manager ____ for the failure.",
       "options": [
         "admit-mcq-05",
-        "admit-mcq-04",
-        "admit-mcq-06",
-        "admit-mcq-03",
-        "admit-mcq-07",
-        "admit-mcq-08"
+        "admit-mcq-20",
+        "admit-mcq-21",
+        "admit-mcq-12"
       ],
       "explanation": "本句的「admitted responsibility」指「承認責任」。",
       "sentenceIndex": 9,
@@ -852,12 +814,10 @@ export default {
         "admitted responsibility"
       ],
       "optionReasons": {
-        "admit-mcq-05": "本句指「承認責任」。",
-        "admit-mcq-04": "「承認錯誤」是「admit a mistake」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-03": "「承認做過 X」是「admit to doing X」的用法，與本句語境不同。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
-        "admit-mcq-08": "「承認真相」是「admit the truth」的用法，與本句語境不同。"
+        "admit-mcq-05": "本句的「admitted responsibility」指「承認責任」。",
+        "admit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-05"
     },
@@ -869,11 +829,9 @@ export default {
       "masked": "He refused to ____.",
       "options": [
         "admit-mcq-05",
-        "admit-mcq-04",
-        "admit-mcq-06",
-        "admit-mcq-03",
-        "admit-mcq-07",
-        "admit-mcq-08"
+        "admit-mcq-12",
+        "admit-mcq-21",
+        "admit-mcq-13"
       ],
       "explanation": "本句的「admit responsibility」指「承認責任」。",
       "sentenceIndex": 10,
@@ -882,12 +840,10 @@ export default {
         "admit responsibility"
       ],
       "optionReasons": {
-        "admit-mcq-05": "本句指「承認責任」。",
-        "admit-mcq-04": "「承認錯誤」是「admit a mistake」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-03": "「承認做過 X」是「admit to doing X」的用法，與本句語境不同。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
-        "admit-mcq-08": "「承認真相」是「admit the truth」的用法，與本句語境不同。"
+        "admit-mcq-05": "本句的「admit responsibility」指「承認責任」。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-05"
     },
@@ -899,11 +855,9 @@ export default {
       "masked": "Neither side was willing to ____.",
       "options": [
         "admit-mcq-06",
-        "admit-mcq-05",
-        "admit-mcq-07",
-        "admit-mcq-04",
-        "admit-mcq-08",
-        "admit-mcq-03"
+        "admit-mcq-18",
+        "admit-mcq-22",
+        "admit-mcq-11"
       ],
       "explanation": "本句的「admit fault」指「承認過錯」。",
       "sentenceIndex": 11,
@@ -912,12 +866,10 @@ export default {
         "admit fault"
       ],
       "optionReasons": {
-        "admit-mcq-06": "本句指「承認過錯」。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
-        "admit-mcq-04": "「承認錯誤」是「admit a mistake」的用法，與本句語境不同。",
-        "admit-mcq-08": "「承認真相」是「admit the truth」的用法，與本句語境不同。",
-        "admit-mcq-03": "「承認做過 X」是「admit to doing X」的用法，與本句語境不同。"
+        "admit-mcq-06": "本句的「admit fault」指「承認過錯」。",
+        "admit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-06"
     },
@@ -929,11 +881,9 @@ export default {
       "masked": "He eventually ____.",
       "options": [
         "admit-mcq-06",
-        "admit-mcq-05",
-        "admit-mcq-07",
-        "admit-mcq-04",
-        "admit-mcq-08",
-        "admit-mcq-03"
+        "admit-mcq-22",
+        "admit-mcq-17",
+        "admit-mcq-13"
       ],
       "explanation": "本句的「admitted fault」指「承認過錯」。",
       "sentenceIndex": 12,
@@ -942,12 +892,10 @@ export default {
         "admitted fault"
       ],
       "optionReasons": {
-        "admit-mcq-06": "本句指「承認過錯」。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
-        "admit-mcq-04": "「承認錯誤」是「admit a mistake」的用法，與本句語境不同。",
-        "admit-mcq-08": "「承認真相」是「admit the truth」的用法，與本句語境不同。",
-        "admit-mcq-03": "「承認做過 X」是「admit to doing X」的用法，與本句語境不同。"
+        "admit-mcq-06": "本句的「admitted fault」指「承認過錯」。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-06"
     },
@@ -959,11 +907,9 @@ export default {
       "masked": "After hours of trying, I finally ____.",
       "options": [
         "admit-mcq-07",
-        "admit-mcq-06",
-        "admit-mcq-08",
-        "admit-mcq-05",
-        "admit-mcq-09",
-        "admit-mcq-04"
+        "admit-mcq-16",
+        "admit-mcq-22",
+        "admit-mcq-12"
       ],
       "explanation": "本句的「admitted defeat」指「認輸」。",
       "sentenceIndex": 13,
@@ -972,12 +918,10 @@ export default {
         "admitted defeat"
       ],
       "optionReasons": {
-        "admit-mcq-07": "本句指「認輸」。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-08": "「承認真相」是「admit the truth」的用法，與本句語境不同。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。",
-        "admit-mcq-09": "「准許某人進入」是「admit someone」的用法，與本句語境不同。",
-        "admit-mcq-04": "「承認錯誤」是「admit a mistake」的用法，與本句語境不同。"
+        "admit-mcq-07": "本句的「admitted defeat」指「認輸」。",
+        "admit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-07"
     },
@@ -989,11 +933,9 @@ export default {
       "masked": "The team refused to ____.",
       "options": [
         "admit-mcq-07",
-        "admit-mcq-06",
-        "admit-mcq-08",
-        "admit-mcq-05",
-        "admit-mcq-09",
-        "admit-mcq-04"
+        "admit-mcq-22",
+        "admit-mcq-13",
+        "admit-mcq-09"
       ],
       "explanation": "本句的「admit defeat」指「認輸」。",
       "sentenceIndex": 14,
@@ -1002,12 +944,10 @@ export default {
         "admit defeat"
       ],
       "optionReasons": {
-        "admit-mcq-07": "本句指「認輸」。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-08": "「承認真相」是「admit the truth」的用法，與本句語境不同。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。",
-        "admit-mcq-09": "「准許某人進入」是「admit someone」的用法，與本句語境不同。",
-        "admit-mcq-04": "「承認錯誤」是「admit a mistake」的用法，與本句語境不同。"
+        "admit-mcq-07": "本句的「admit defeat」指「認輸」。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-07"
     },
@@ -1019,11 +959,9 @@ export default {
       "masked": "He finally ____.",
       "options": [
         "admit-mcq-08",
-        "admit-mcq-07",
-        "admit-mcq-09",
-        "admit-mcq-06",
-        "admit-mcq-10",
-        "admit-mcq-05"
+        "admit-mcq-20",
+        "admit-mcq-23",
+        "admit-mcq-19"
       ],
       "explanation": "本句的「admitted the truth」指「承認真相」。",
       "sentenceIndex": 15,
@@ -1032,12 +970,10 @@ export default {
         "admitted the truth"
       ],
       "optionReasons": {
-        "admit-mcq-08": "本句指「承認真相」。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
-        "admit-mcq-09": "「准許某人進入」是「admit someone」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。"
+        "admit-mcq-08": "本句的「admitted the truth」指「承認真相」。",
+        "admit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-08"
     },
@@ -1049,11 +985,9 @@ export default {
       "masked": "She was afraid to ____.",
       "options": [
         "admit-mcq-08",
-        "admit-mcq-07",
-        "admit-mcq-09",
-        "admit-mcq-06",
-        "admit-mcq-10",
-        "admit-mcq-05"
+        "admit-mcq-20",
+        "admit-mcq-22",
+        "admit-mcq-12"
       ],
       "explanation": "本句的「admit the truth」指「承認真相」。",
       "sentenceIndex": 16,
@@ -1062,12 +996,10 @@ export default {
         "admit the truth"
       ],
       "optionReasons": {
-        "admit-mcq-08": "本句指「承認真相」。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
-        "admit-mcq-09": "「准許某人進入」是「admit someone」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。"
+        "admit-mcq-08": "本句的「admit the truth」指「承認真相」。",
+        "admit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-08"
     },
@@ -1079,11 +1011,9 @@ export default {
       "masked": "He ____ that I was right.",
       "options": [
         "admit-pdf-001",
-        "admit-mcq-07",
         "admit-mcq-09",
-        "admit-mcq-06",
-        "admit-mcq-10",
-        "admit-mcq-05"
+        "admit-mcq-22",
+        "admit-mcq-11"
       ],
       "explanation": "本句的「reluctantly admitted」指「雖然不願意，但仍承認某件事是真的」。",
       "sentenceIndex": 17,
@@ -1092,12 +1022,10 @@ export default {
         "reluctantly admitted"
       ],
       "optionReasons": {
-        "admit-pdf-001": "本句指「雖然不願意，但仍承認某件事是真的」。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
-        "admit-mcq-09": "「准許某人進入」是「admit someone」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。"
+        "admit-pdf-001": "本句的「reluctantly admitted」指「雖然不願意，但仍承認某件事是真的」。",
+        "admit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-pdf-001"
     },
@@ -1109,11 +1037,9 @@ export default {
       "masked": "She ____ that the plan had failed.",
       "options": [
         "admit-pdf-001",
-        "admit-mcq-07",
-        "admit-mcq-09",
-        "admit-mcq-06",
-        "admit-mcq-10",
-        "admit-mcq-05"
+        "admit-mcq-22",
+        "admit-mcq-12",
+        "admit-mcq-09"
       ],
       "explanation": "本句的「admitted reluctantly」指「雖然不願意，但仍承認某件事是真的」。",
       "sentenceIndex": 18,
@@ -1122,12 +1048,10 @@ export default {
         "admitted reluctantly"
       ],
       "optionReasons": {
-        "admit-pdf-001": "本句指「雖然不願意，但仍承認某件事是真的」。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
-        "admit-mcq-09": "「准許某人進入」是「admit someone」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。"
+        "admit-pdf-001": "本句的「admitted reluctantly」指「雖然不願意，但仍承認某件事是真的」。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-pdf-001"
     },
@@ -1139,11 +1063,9 @@ export default {
       "masked": "He ____ his mistake.",
       "options": [
         "admit-pdf-002",
-        "admit-mcq-07",
-        "admit-mcq-09",
-        "admit-mcq-06",
-        "admit-mcq-10",
-        "admit-mcq-05"
+        "admit-mcq-18",
+        "admit-mcq-11",
+        "admit-mcq-22"
       ],
       "explanation": "本句的「openly admitted」指「不隱瞞、不迴避地承認某件事」。",
       "sentenceIndex": 19,
@@ -1152,12 +1074,10 @@ export default {
         "openly admitted"
       ],
       "optionReasons": {
-        "admit-pdf-002": "本句指「不隱瞞、不迴避地承認某件事」。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
-        "admit-mcq-09": "「准許某人進入」是「admit someone」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。"
+        "admit-pdf-002": "本句的「openly admitted」指「不隱瞞、不迴避地承認某件事」。",
+        "admit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-pdf-002"
     },
@@ -1169,11 +1089,9 @@ export default {
       "masked": "She ____ that she had forgotten.",
       "options": [
         "admit-pdf-002",
-        "admit-mcq-07",
         "admit-mcq-09",
-        "admit-mcq-06",
-        "admit-mcq-10",
-        "admit-mcq-05"
+        "admit-mcq-22",
+        "admit-mcq-12"
       ],
       "explanation": "本句的「freely admitted」指「不隱瞞、不迴避地承認某件事」。",
       "sentenceIndex": 20,
@@ -1182,12 +1100,10 @@ export default {
         "freely admitted"
       ],
       "optionReasons": {
-        "admit-pdf-002": "本句指「不隱瞞、不迴避地承認某件事」。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
-        "admit-mcq-09": "「准許某人進入」是「admit someone」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。",
-        "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
-        "admit-mcq-05": "「承認責任」是「admit responsibility」的用法，與本句語境不同。"
+        "admit-pdf-002": "本句的「freely admitted」指「不隱瞞、不迴避地承認某件事」。",
+        "admit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-pdf-002"
     },
@@ -1199,11 +1115,9 @@ export default {
       "masked": "Only ticket holders will be ____.",
       "options": [
         "admit-mcq-09",
-        "admit-mcq-08",
-        "admit-mcq-10",
-        "admit-mcq-07",
-        "admit-mcq-11",
-        "admit-mcq-06"
+        "admit-mcq-14",
+        "admit-mcq-13",
+        "admit-mcq-22"
       ],
       "explanation": "本句的「admitted」指「准許某人進入」。",
       "sentenceIndex": 21,
@@ -1212,12 +1126,10 @@ export default {
         "admitted"
       ],
       "optionReasons": {
-        "admit-mcq-09": "本句指「准許某人進入」。",
-        "admit-mcq-08": "「承認真相」是「admit the truth」的用法，與本句語境不同。",
-        "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
-        "admit-mcq-11": "「入院／被收治」是「be admitted to hospital」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。"
+        "admit-mcq-09": "本句的「admitted」指「准許某人進入」。",
+        "admit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-09"
     },
@@ -1229,11 +1141,9 @@ export default {
       "masked": "The guard refused to ____.",
       "options": [
         "admit-mcq-09",
-        "admit-mcq-08",
-        "admit-mcq-10",
-        "admit-mcq-07",
-        "admit-mcq-11",
-        "admit-mcq-06"
+        "admit-mcq-04",
+        "admit-mcq-12",
+        "admit-mcq-13"
       ],
       "explanation": "本句的「admit him」指「准許某人進入」。",
       "sentenceIndex": 22,
@@ -1242,12 +1152,10 @@ export default {
         "admit him"
       ],
       "optionReasons": {
-        "admit-mcq-09": "本句指「准許某人進入」。",
-        "admit-mcq-08": "「承認真相」是「admit the truth」的用法，與本句語境不同。",
-        "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
-        "admit-mcq-11": "「入院／被收治」是「be admitted to hospital」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。"
+        "admit-mcq-09": "本句的「admit him」指「准許某人進入」。",
+        "admit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-09"
     },
@@ -1259,11 +1167,9 @@ export default {
       "masked": "Visitors are ____ from 10 a.m.",
       "options": [
         "admit-mcq-09",
-        "admit-mcq-08",
-        "admit-mcq-10",
-        "admit-mcq-07",
-        "admit-mcq-11",
-        "admit-mcq-06"
+        "admit-pdf-002",
+        "admit-mcq-12",
+        "admit-mcq-22"
       ],
       "explanation": "本句的「admitted to the museum」指「准許某人進入」。",
       "sentenceIndex": 23,
@@ -1272,12 +1178,10 @@ export default {
         "admitted to the museum"
       ],
       "optionReasons": {
-        "admit-mcq-09": "本句指「准許某人進入」。",
-        "admit-mcq-08": "「承認真相」是「admit the truth」的用法，與本句語境不同。",
-        "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
-        "admit-mcq-11": "「入院／被收治」是「be admitted to hospital」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。"
+        "admit-mcq-09": "本句的「admitted to the museum」指「准許某人進入」。",
+        "admit-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-09"
     },
@@ -1289,11 +1193,9 @@ export default {
       "masked": "Only members are ____.",
       "options": [
         "admit-mcq-09",
-        "admit-mcq-08",
-        "admit-mcq-10",
-        "admit-mcq-07",
-        "admit-mcq-11",
-        "admit-mcq-06"
+        "admit-mcq-19",
+        "admit-mcq-04",
+        "admit-mcq-12"
       ],
       "explanation": "本句的「admitted to the club」指「准許某人進入」。",
       "sentenceIndex": 24,
@@ -1302,12 +1204,10 @@ export default {
         "admitted to the club"
       ],
       "optionReasons": {
-        "admit-mcq-09": "本句指「准許某人進入」。",
-        "admit-mcq-08": "「承認真相」是「admit the truth」的用法，與本句語境不同。",
-        "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
-        "admit-mcq-07": "「認輸」是「admit defeat」的用法，與本句語境不同。",
-        "admit-mcq-11": "「入院／被收治」是「be admitted to hospital」的用法，與本句語境不同。",
-        "admit-mcq-06": "「承認過錯」是「admit fault」的用法，與本句語境不同。"
+        "admit-mcq-09": "本句的「admitted to the club」指「准許某人進入」。",
+        "admit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-09"
     },
@@ -1319,11 +1219,9 @@ export default {
       "masked": "He was ____ last night.",
       "options": [
         "admit-mcq-11",
-        "admit-mcq-10",
-        "admit-mcq-12",
-        "admit-mcq-09",
-        "admit-mcq-13",
-        "admit-mcq-08"
+        "admit-mcq-15",
+        "admit-mcq-23",
+        "admit-mcq-13"
       ],
       "explanation": "本句的「admitted to hospital」指「入院／被收治」。",
       "sentenceIndex": 25,
@@ -1332,12 +1230,10 @@ export default {
         "admitted to hospital"
       ],
       "optionReasons": {
-        "admit-mcq-11": "本句指「入院／被收治」。",
-        "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
-        "admit-mcq-12": "「收治病人」是「admit a patient」的用法，與本句語境不同。",
-        "admit-mcq-09": "「准許某人進入」是「admit someone」的用法，與本句語境不同。",
-        "admit-mcq-13": "「獲大學取錄」是「admit to university」的用法，與本句語境不同。",
-        "admit-mcq-08": "「承認真相」是「admit the truth」的用法，與本句語境不同。"
+        "admit-mcq-11": "本句的「admitted to hospital」指「入院／被收治」。",
+        "admit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-11"
     },
@@ -1349,11 +1245,9 @@ export default {
       "masked": "She was ____ for observation.",
       "options": [
         "admit-mcq-11",
-        "admit-mcq-10",
-        "admit-mcq-12",
-        "admit-mcq-09",
-        "admit-mcq-13",
-        "admit-mcq-08"
+        "admit-mcq-23",
+        "admit-mcq-19",
+        "admit-pdf-002"
       ],
       "explanation": "本句的「admitted to the hospital」指「入院／被收治」。",
       "sentenceIndex": 26,
@@ -1362,12 +1256,10 @@ export default {
         "admitted to the hospital"
       ],
       "optionReasons": {
-        "admit-mcq-11": "本句指「入院／被收治」。",
-        "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
-        "admit-mcq-12": "「收治病人」是「admit a patient」的用法，與本句語境不同。",
-        "admit-mcq-09": "「准許某人進入」是「admit someone」的用法，與本句語境不同。",
-        "admit-mcq-13": "「獲大學取錄」是「admit to university」的用法，與本句語境不同。",
-        "admit-mcq-08": "「承認真相」是「admit the truth」的用法，與本句語境不同。"
+        "admit-mcq-11": "本句的「admitted to the hospital」指「入院／被收治」。",
+        "admit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "admit-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-11"
     },
@@ -1379,11 +1271,9 @@ export default {
       "masked": "The hospital ____ after the accident.",
       "options": [
         "admit-mcq-12",
-        "admit-mcq-11",
-        "admit-mcq-13",
-        "admit-mcq-10",
-        "admit-mcq-14",
-        "admit-mcq-09"
+        "admit-mcq-22",
+        "admit-mcq-04",
+        "admit-mcq-20"
       ],
       "explanation": "本句的「admitted several patients」指「收治病人」。",
       "sentenceIndex": 27,
@@ -1392,12 +1282,10 @@ export default {
         "admitted several patients"
       ],
       "optionReasons": {
-        "admit-mcq-12": "本句指「收治病人」。",
-        "admit-mcq-11": "「入院／被收治」是「be admitted to hospital」的用法，與本句語境不同。",
-        "admit-mcq-13": "「獲大學取錄」是「admit to university」的用法，與本句語境不同。",
-        "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
-        "admit-mcq-14": "「承認」是「admission (confession)」的用法，與本句語境不同。",
-        "admit-mcq-09": "「准許某人進入」是「admit someone」的用法，與本句語境不同。"
+        "admit-mcq-12": "本句的「admitted several patients」指「收治病人」。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-12"
     },
@@ -1409,11 +1297,9 @@ export default {
       "masked": "The doctor decided to ____.",
       "options": [
         "admit-mcq-12",
-        "admit-mcq-11",
+        "admit-mcq-23",
         "admit-mcq-13",
-        "admit-mcq-10",
-        "admit-mcq-14",
-        "admit-mcq-09"
+        "admit-mcq-03"
       ],
       "explanation": "本句的「admit him overnight」指「收治病人」。",
       "sentenceIndex": 28,
@@ -1422,12 +1308,10 @@ export default {
         "admit him overnight"
       ],
       "optionReasons": {
-        "admit-mcq-12": "本句指「收治病人」。",
-        "admit-mcq-11": "「入院／被收治」是「be admitted to hospital」的用法，與本句語境不同。",
-        "admit-mcq-13": "「獲大學取錄」是「admit to university」的用法，與本句語境不同。",
-        "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。",
-        "admit-mcq-14": "「承認」是「admission (confession)」的用法，與本句語境不同。",
-        "admit-mcq-09": "「准許某人進入」是「admit someone」的用法，與本句語境不同。"
+        "admit-mcq-12": "本句的「admit him overnight」指「收治病人」。",
+        "admit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-12"
     },
@@ -1439,11 +1323,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "admit-mcq-13",
-        "admit-mcq-12",
-        "admit-mcq-14",
+        "admit-mcq-05",
         "admit-mcq-11",
-        "admit-mcq-15",
-        "admit-mcq-10"
+        "admit-mcq-09"
       ],
       "explanation": "本句的「admitted to the university」指「獲大學取錄」。",
       "sentenceIndex": 29,
@@ -1452,12 +1334,10 @@ export default {
         "admitted to the university"
       ],
       "optionReasons": {
-        "admit-mcq-13": "本句指「獲大學取錄」。",
-        "admit-mcq-12": "「收治病人」是「admit a patient」的用法，與本句語境不同。",
-        "admit-mcq-14": "「承認」是「admission (confession)」的用法，與本句語境不同。",
-        "admit-mcq-11": "「入院／被收治」是「be admitted to hospital」的用法，與本句語境不同。",
-        "admit-mcq-15": "「認罪」是「admission of guilt」的用法，與本句語境不同。",
-        "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。"
+        "admit-mcq-13": "本句的「admitted to the university」指「獲大學取錄」。",
+        "admit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-13"
     },
@@ -1470,10 +1350,8 @@ export default {
       "options": [
         "admit-mcq-13",
         "admit-mcq-12",
-        "admit-mcq-14",
-        "admit-mcq-11",
-        "admit-mcq-15",
-        "admit-mcq-10"
+        "admit-pdf-002",
+        "admit-mcq-17"
       ],
       "explanation": "本句的「admits students」指「獲大學取錄」。",
       "sentenceIndex": 30,
@@ -1482,12 +1360,10 @@ export default {
         "admits students"
       ],
       "optionReasons": {
-        "admit-mcq-13": "本句指「獲大學取錄」。",
-        "admit-mcq-12": "「收治病人」是「admit a patient」的用法，與本句語境不同。",
-        "admit-mcq-14": "「承認」是「admission (confession)」的用法，與本句語境不同。",
-        "admit-mcq-11": "「入院／被收治」是「be admitted to hospital」的用法，與本句語境不同。",
-        "admit-mcq-15": "「認罪」是「admission of guilt」的用法，與本句語境不同。",
-        "admit-mcq-10": "「准許進入 X」是「admit someone to X」的用法，與本句語境不同。"
+        "admit-mcq-13": "本句的「admits students」指「獲大學取錄」。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "admit-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-13"
     },
@@ -1499,10 +1375,8 @@ export default {
       "masked": "His ____ surprised everyone.",
       "options": [
         "admit-mcq-14",
-        "admit-mcq-13",
-        "admit-mcq-15",
-        "admit-mcq-12",
-        "admit-mcq-16",
+        "admit-mcq-09",
+        "admit-mcq-19",
         "admit-mcq-11"
       ],
       "explanation": "本句的「admission」指「承認」。",
@@ -1512,12 +1386,10 @@ export default {
         "admission"
       ],
       "optionReasons": {
-        "admit-mcq-14": "本句指「承認」。",
-        "admit-mcq-13": "「獲大學取錄」是「admit to university」的用法，與本句語境不同。",
-        "admit-mcq-15": "「認罪」是「admission of guilt」的用法，與本句語境不同。",
-        "admit-mcq-12": "「收治病人」是「admit a patient」的用法，與本句語境不同。",
-        "admit-mcq-16": "「入場；准入」是「admission (entry)」的用法，與本句語境不同。",
-        "admit-mcq-11": "「入院／被收治」是「be admitted to hospital」的用法，與本句語境不同。"
+        "admit-mcq-14": "本句的「admission」指「承認」。",
+        "admit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-14"
     },
@@ -1529,11 +1401,9 @@ export default {
       "masked": "The statement was an ____.",
       "options": [
         "admit-mcq-14",
-        "admit-mcq-13",
-        "admit-mcq-15",
-        "admit-mcq-12",
-        "admit-mcq-16",
-        "admit-mcq-11"
+        "admit-mcq-19",
+        "admit-mcq-21",
+        "admit-mcq-17"
       ],
       "explanation": "本句的「admission of responsibility」指「承認」。",
       "sentenceIndex": 32,
@@ -1542,12 +1412,10 @@ export default {
         "admission of responsibility"
       ],
       "optionReasons": {
-        "admit-mcq-14": "本句指「承認」。",
-        "admit-mcq-13": "「獲大學取錄」是「admit to university」的用法，與本句語境不同。",
-        "admit-mcq-15": "「認罪」是「admission of guilt」的用法，與本句語境不同。",
-        "admit-mcq-12": "「收治病人」是「admit a patient」的用法，與本句語境不同。",
-        "admit-mcq-16": "「入場；准入」是「admission (entry)」的用法，與本句語境不同。",
-        "admit-mcq-11": "「入院／被收治」是「be admitted to hospital」的用法，與本句語境不同。"
+        "admit-mcq-14": "本句的「admission of responsibility」指「承認」。",
+        "admit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-14"
     },
@@ -1559,11 +1427,9 @@ export default {
       "masked": "His statement was treated as an ____.",
       "options": [
         "admit-mcq-15",
-        "admit-mcq-14",
-        "admit-mcq-16",
-        "admit-mcq-13",
-        "admit-mcq-17",
-        "admit-mcq-12"
+        "admit-mcq-23",
+        "admit-mcq-12",
+        "admit-mcq-19"
       ],
       "explanation": "本句的「admission of guilt」指「認罪」。",
       "sentenceIndex": 33,
@@ -1572,12 +1438,10 @@ export default {
         "admission of guilt"
       ],
       "optionReasons": {
-        "admit-mcq-15": "本句指「認罪」。",
-        "admit-mcq-14": "「承認」是「admission (confession)」的用法，與本句語境不同。",
-        "admit-mcq-16": "「入場；准入」是「admission (entry)」的用法，與本句語境不同。",
-        "admit-mcq-13": "「獲大學取錄」是「admit to university」的用法，與本句語境不同。",
-        "admit-mcq-17": "「入場費」是「admission fee」的用法，與本句語境不同。",
-        "admit-mcq-12": "「收治病人」是「admit a patient」的用法，與本句語境不同。"
+        "admit-mcq-15": "本句的「admission of guilt」指「認罪」。",
+        "admit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-15"
     },
@@ -1589,11 +1453,9 @@ export default {
       "masked": "An apology is not always an ____.",
       "options": [
         "admit-mcq-15",
-        "admit-mcq-14",
-        "admit-mcq-16",
-        "admit-mcq-13",
-        "admit-mcq-17",
-        "admit-mcq-12"
+        "admit-mcq-21",
+        "admit-mcq-20",
+        "admit-mcq-13"
       ],
       "explanation": "本句的「admission of guilt」指「認罪」。",
       "sentenceIndex": 34,
@@ -1602,12 +1464,10 @@ export default {
         "admission of guilt"
       ],
       "optionReasons": {
-        "admit-mcq-15": "本句指「認罪」。",
-        "admit-mcq-14": "「承認」是「admission (confession)」的用法，與本句語境不同。",
-        "admit-mcq-16": "「入場；准入」是「admission (entry)」的用法，與本句語境不同。",
-        "admit-mcq-13": "「獲大學取錄」是「admit to university」的用法，與本句語境不同。",
-        "admit-mcq-17": "「入場費」是「admission fee」的用法，與本句語境不同。",
-        "admit-mcq-12": "「收治病人」是「admit a patient」的用法，與本句語境不同。"
+        "admit-mcq-15": "本句的「admission of guilt」指「認罪」。",
+        "admit-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-15"
     },
@@ -1619,11 +1479,9 @@ export default {
       "masked": "____ is free.",
       "options": [
         "admit-mcq-16",
-        "admit-mcq-15",
-        "admit-mcq-17",
-        "admit-mcq-14",
-        "admit-mcq-18",
-        "admit-mcq-13"
+        "admit-mcq-22",
+        "admit-mcq-01",
+        "admit-mcq-12"
       ],
       "explanation": "本句的「Admission」指「入場；准入」。",
       "sentenceIndex": 35,
@@ -1632,12 +1490,10 @@ export default {
         "Admission"
       ],
       "optionReasons": {
-        "admit-mcq-16": "本句指「入場；准入」。",
-        "admit-mcq-15": "「認罪」是「admission of guilt」的用法，與本句語境不同。",
-        "admit-mcq-17": "「入場費」是「admission fee」的用法，與本句語境不同。",
-        "admit-mcq-14": "「承認」是「admission (confession)」的用法，與本句語境不同。",
-        "admit-mcq-18": "「獲准進入／獲取錄」是「gain admission」的用法，與本句語境不同。",
-        "admit-mcq-13": "「獲大學取錄」是「admit to university」的用法，與本句語境不同。"
+        "admit-mcq-16": "本句的「Admission」指「入場；准入」。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-16"
     },
@@ -1649,11 +1505,9 @@ export default {
       "masked": "The ticket includes ____.",
       "options": [
         "admit-mcq-16",
-        "admit-mcq-15",
-        "admit-mcq-17",
-        "admit-mcq-14",
-        "admit-mcq-18",
-        "admit-mcq-13"
+        "admit-mcq-01",
+        "admit-mcq-13",
+        "admit-mcq-22"
       ],
       "explanation": "本句的「admission to the exhibition」指「入場；准入」。",
       "sentenceIndex": 36,
@@ -1662,12 +1516,10 @@ export default {
         "admission to the exhibition"
       ],
       "optionReasons": {
-        "admit-mcq-16": "本句指「入場；准入」。",
-        "admit-mcq-15": "「認罪」是「admission of guilt」的用法，與本句語境不同。",
-        "admit-mcq-17": "「入場費」是「admission fee」的用法，與本句語境不同。",
-        "admit-mcq-14": "「承認」是「admission (confession)」的用法，與本句語境不同。",
-        "admit-mcq-18": "「獲准進入／獲取錄」是「gain admission」的用法，與本句語境不同。",
-        "admit-mcq-13": "「獲大學取錄」是「admit to university」的用法，與本句語境不同。"
+        "admit-mcq-16": "本句的「admission to the exhibition」指「入場；准入」。",
+        "admit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-16"
     },
@@ -1679,11 +1531,9 @@ export default {
       "masked": "The ____ is ten dollars.",
       "options": [
         "admit-mcq-17",
-        "admit-mcq-16",
-        "admit-mcq-18",
-        "admit-mcq-15",
-        "admit-mcq-19",
-        "admit-mcq-14"
+        "admit-mcq-02",
+        "admit-mcq-21",
+        "admit-mcq-19"
       ],
       "explanation": "本句的「admission fee」指「入場費」。",
       "sentenceIndex": 37,
@@ -1692,12 +1542,10 @@ export default {
         "admission fee"
       ],
       "optionReasons": {
-        "admit-mcq-17": "本句指「入場費」。",
-        "admit-mcq-16": "「入場；准入」是「admission (entry)」的用法，與本句語境不同。",
-        "admit-mcq-18": "「獲准進入／獲取錄」是「gain admission」的用法，與本句語境不同。",
-        "admit-mcq-15": "「認罪」是「admission of guilt」的用法，與本句語境不同。",
-        "admit-mcq-19": "「大學取錄」是「university admission」的用法，與本句語境不同。",
-        "admit-mcq-14": "「承認」是「admission (confession)」的用法，與本句語境不同。"
+        "admit-mcq-17": "本句的「admission fee」指「入場費」。",
+        "admit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-17"
     },
@@ -1709,11 +1557,9 @@ export default {
       "masked": "Children pay a reduced ____.",
       "options": [
         "admit-mcq-17",
-        "admit-mcq-16",
-        "admit-mcq-18",
-        "admit-mcq-15",
-        "admit-mcq-19",
-        "admit-mcq-14"
+        "admit-mcq-12",
+        "admit-mcq-01",
+        "admit-mcq-21"
       ],
       "explanation": "本句的「admission fee」指「入場費」。",
       "sentenceIndex": 38,
@@ -1722,12 +1568,10 @@ export default {
         "admission fee"
       ],
       "optionReasons": {
-        "admit-mcq-17": "本句指「入場費」。",
-        "admit-mcq-16": "「入場；准入」是「admission (entry)」的用法，與本句語境不同。",
-        "admit-mcq-18": "「獲准進入／獲取錄」是「gain admission」的用法，與本句語境不同。",
-        "admit-mcq-15": "「認罪」是「admission of guilt」的用法，與本句語境不同。",
-        "admit-mcq-19": "「大學取錄」是「university admission」的用法，與本句語境不同。",
-        "admit-mcq-14": "「承認」是「admission (confession)」的用法，與本句語境不同。"
+        "admit-mcq-17": "本句的「admission fee」指「入場費」。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-17"
     },
@@ -1739,11 +1583,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "admit-mcq-18",
-        "admit-mcq-17",
-        "admit-mcq-19",
-        "admit-mcq-16",
-        "admit-mcq-20",
-        "admit-mcq-15"
+        "admit-mcq-22",
+        "admit-mcq-07",
+        "admit-mcq-12"
       ],
       "explanation": "本句的「gained admission to the university」指「獲准進入／獲取錄」。",
       "sentenceIndex": 39,
@@ -1752,12 +1594,10 @@ export default {
         "gained admission to the university"
       ],
       "optionReasons": {
-        "admit-mcq-18": "本句指「獲准進入／獲取錄」。",
-        "admit-mcq-17": "「入場費」是「admission fee」的用法，與本句語境不同。",
-        "admit-mcq-19": "「大學取錄」是「university admission」的用法，與本句語境不同。",
-        "admit-mcq-16": "「入場；准入」是「admission (entry)」的用法，與本句語境不同。",
-        "admit-mcq-20": "「入院」是「hospital admission」的用法，與本句語境不同。",
-        "admit-mcq-15": "「認罪」是「admission of guilt」的用法，與本句語境不同。"
+        "admit-mcq-18": "本句的「gained admission to the university」指「獲准進入／獲取錄」。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-18"
     },
@@ -1769,11 +1609,9 @@ export default {
       "masked": "Only invited guests ____.",
       "options": [
         "admit-mcq-18",
-        "admit-mcq-17",
-        "admit-mcq-19",
-        "admit-mcq-16",
-        "admit-mcq-20",
-        "admit-mcq-15"
+        "admit-pdf-001",
+        "admit-mcq-22",
+        "admit-mcq-12"
       ],
       "explanation": "本句的「gained admission」指「獲准進入／獲取錄」。",
       "sentenceIndex": 40,
@@ -1782,12 +1620,10 @@ export default {
         "gained admission"
       ],
       "optionReasons": {
-        "admit-mcq-18": "本句指「獲准進入／獲取錄」。",
-        "admit-mcq-17": "「入場費」是「admission fee」的用法，與本句語境不同。",
-        "admit-mcq-19": "「大學取錄」是「university admission」的用法，與本句語境不同。",
-        "admit-mcq-16": "「入場；准入」是「admission (entry)」的用法，與本句語境不同。",
-        "admit-mcq-20": "「入院」是「hospital admission」的用法，與本句語境不同。",
-        "admit-mcq-15": "「認罪」是「admission of guilt」的用法，與本句語境不同。"
+        "admit-mcq-18": "本句的「gained admission」指「獲准進入／獲取錄」。",
+        "admit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-18"
     },
@@ -1799,11 +1635,9 @@ export default {
       "masked": "University ____ is highly competitive.",
       "options": [
         "admit-mcq-19",
-        "admit-mcq-18",
         "admit-mcq-20",
-        "admit-mcq-17",
-        "admit-mcq-21",
-        "admit-mcq-16"
+        "admit-pdf-001",
+        "admit-mcq-21"
       ],
       "explanation": "本句的「admission」指「大學取錄」。",
       "sentenceIndex": 41,
@@ -1812,12 +1646,10 @@ export default {
         "admission"
       ],
       "optionReasons": {
-        "admit-mcq-19": "本句指「大學取錄」。",
-        "admit-mcq-18": "「獲准進入／獲取錄」是「gain admission」的用法，與本句語境不同。",
-        "admit-mcq-20": "「入院」是「hospital admission」的用法，與本句語境不同。",
-        "admit-mcq-17": "「入場費」是「admission fee」的用法，與本句語境不同。",
-        "admit-mcq-21": "「可接納的」是「admissible」的用法，與本句語境不同。",
-        "admit-mcq-16": "「入場；准入」是「admission (entry)」的用法，與本句語境不同。"
+        "admit-mcq-19": "本句的「admission」指「大學取錄」。",
+        "admit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "admit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-19"
     },
@@ -1829,11 +1661,9 @@ export default {
       "masked": "She received an ____.",
       "options": [
         "admit-mcq-19",
-        "admit-mcq-18",
-        "admit-mcq-20",
+        "admit-mcq-14",
         "admit-mcq-17",
-        "admit-mcq-21",
-        "admit-mcq-16"
+        "admit-mcq-12"
       ],
       "explanation": "本句的「admission offer」指「大學取錄」。",
       "sentenceIndex": 42,
@@ -1842,12 +1672,10 @@ export default {
         "admission offer"
       ],
       "optionReasons": {
-        "admit-mcq-19": "本句指「大學取錄」。",
-        "admit-mcq-18": "「獲准進入／獲取錄」是「gain admission」的用法，與本句語境不同。",
-        "admit-mcq-20": "「入院」是「hospital admission」的用法，與本句語境不同。",
-        "admit-mcq-17": "「入場費」是「admission fee」的用法，與本句語境不同。",
-        "admit-mcq-21": "「可接納的」是「admissible」的用法，與本句語境不同。",
-        "admit-mcq-16": "「入場；准入」是「admission (entry)」的用法，與本句語境不同。"
+        "admit-mcq-19": "本句的「admission offer」指「大學取錄」。",
+        "admit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-19"
     },
@@ -1860,10 +1688,8 @@ export default {
       "options": [
         "admit-mcq-20",
         "admit-mcq-19",
-        "admit-mcq-21",
-        "admit-mcq-18",
-        "admit-mcq-22",
-        "admit-mcq-17"
+        "admit-mcq-07",
+        "admit-mcq-12"
       ],
       "explanation": "本句的「admission」指「入院」。",
       "sentenceIndex": 43,
@@ -1872,12 +1698,10 @@ export default {
         "admission"
       ],
       "optionReasons": {
-        "admit-mcq-20": "本句指「入院」。",
-        "admit-mcq-19": "「大學取錄」是「university admission」的用法，與本句語境不同。",
-        "admit-mcq-21": "「可接納的」是「admissible」的用法，與本句語境不同。",
-        "admit-mcq-18": "「獲准進入／獲取錄」是「gain admission」的用法，與本句語境不同。",
-        "admit-mcq-22": "「可採納證據」是「admissible evidence」的用法，與本句語境不同。",
-        "admit-mcq-17": "「入場費」是「admission fee」的用法，與本句語境不同。"
+        "admit-mcq-20": "本句的「admission」指「入院」。",
+        "admit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-20"
     },
@@ -1889,11 +1713,9 @@ export default {
       "masked": "Emergency ____ increased that night.",
       "options": [
         "admit-mcq-20",
+        "admit-mcq-14",
         "admit-mcq-19",
-        "admit-mcq-21",
-        "admit-mcq-18",
-        "admit-mcq-22",
-        "admit-mcq-17"
+        "admit-mcq-21"
       ],
       "explanation": "本句的「admissions」指「入院」。",
       "sentenceIndex": 44,
@@ -1902,12 +1724,10 @@ export default {
         "admissions"
       ],
       "optionReasons": {
-        "admit-mcq-20": "本句指「入院」。",
-        "admit-mcq-19": "「大學取錄」是「university admission」的用法，與本句語境不同。",
-        "admit-mcq-21": "「可接納的」是「admissible」的用法，與本句語境不同。",
-        "admit-mcq-18": "「獲准進入／獲取錄」是「gain admission」的用法，與本句語境不同。",
-        "admit-mcq-22": "「可採納證據」是「admissible evidence」的用法，與本句語境不同。",
-        "admit-mcq-17": "「入場費」是「admission fee」的用法，與本句語境不同。"
+        "admit-mcq-20": "本句的「admissions」指「入院」。",
+        "admit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-20"
     },
@@ -1919,11 +1739,9 @@ export default {
       "masked": "Only relevant evidence is ____.",
       "options": [
         "admit-mcq-21",
-        "admit-mcq-20",
-        "admit-mcq-22",
-        "admit-mcq-19",
-        "admit-mcq-23",
-        "admit-mcq-18"
+        "admit-mcq-07",
+        "admit-mcq-13",
+        "admit-mcq-17"
       ],
       "explanation": "本句的「admissible」指「可接納的」。",
       "sentenceIndex": 45,
@@ -1932,12 +1750,10 @@ export default {
         "admissible"
       ],
       "optionReasons": {
-        "admit-mcq-21": "本句指「可接納的」。",
-        "admit-mcq-20": "「入院」是「hospital admission」的用法，與本句語境不同。",
-        "admit-mcq-22": "「可採納證據」是「admissible evidence」的用法，與本句語境不同。",
-        "admit-mcq-19": "「大學取錄」是「university admission」的用法，與本句語境不同。",
-        "admit-mcq-23": "「不可接納的」是「inadmissible」的用法，與本句語境不同。",
-        "admit-mcq-18": "「獲准進入／獲取錄」是「gain admission」的用法，與本句語境不同。"
+        "admit-mcq-21": "本句的「admissible」指「可接納的」。",
+        "admit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-21"
     },
@@ -1949,11 +1765,9 @@ export default {
       "masked": "The document was ruled ____.",
       "options": [
         "admit-mcq-21",
-        "admit-mcq-20",
-        "admit-mcq-22",
-        "admit-mcq-19",
-        "admit-mcq-23",
-        "admit-mcq-18"
+        "admit-mcq-12",
+        "admit-mcq-04",
+        "admit-mcq-13"
       ],
       "explanation": "本句的「admissible」指「可接納的」。",
       "sentenceIndex": 46,
@@ -1962,12 +1776,10 @@ export default {
         "admissible"
       ],
       "optionReasons": {
-        "admit-mcq-21": "本句指「可接納的」。",
-        "admit-mcq-20": "「入院」是「hospital admission」的用法，與本句語境不同。",
-        "admit-mcq-22": "「可採納證據」是「admissible evidence」的用法，與本句語境不同。",
-        "admit-mcq-19": "「大學取錄」是「university admission」的用法，與本句語境不同。",
-        "admit-mcq-23": "「不可接納的」是「inadmissible」的用法，與本句語境不同。",
-        "admit-mcq-18": "「獲准進入／獲取錄」是「gain admission」的用法，與本句語境不同。"
+        "admit-mcq-21": "本句的「admissible」指「可接納的」。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-21"
     },
@@ -1979,11 +1791,9 @@ export default {
       "masked": "The judge decided whether the evidence was ____.",
       "options": [
         "admit-mcq-22",
-        "admit-mcq-21",
-        "admit-mcq-23",
+        "admit-mcq-02",
         "admit-mcq-20",
-        "admit-mcq-19",
-        "admit-mcq-18"
+        "admit-mcq-19"
       ],
       "explanation": "本句的「admissible」指「可採納證據」。",
       "sentenceIndex": 47,
@@ -1992,12 +1802,10 @@ export default {
         "admissible"
       ],
       "optionReasons": {
-        "admit-mcq-22": "本句指「可採納證據」。",
-        "admit-mcq-21": "「可接納的」是「admissible」的用法，與本句語境不同。",
-        "admit-mcq-23": "「不可接納的」是「inadmissible」的用法，與本句語境不同。",
-        "admit-mcq-20": "「入院」是「hospital admission」的用法，與本句語境不同。",
-        "admit-mcq-19": "「大學取錄」是「university admission」的用法，與本句語境不同。",
-        "admit-mcq-18": "「獲准進入／獲取錄」是「gain admission」的用法，與本句語境不同。"
+        "admit-mcq-22": "本句的「admissible」指「可採納證據」。",
+        "admit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-22"
     },
@@ -2009,11 +1817,9 @@ export default {
       "masked": "Not all recordings are ____.",
       "options": [
         "admit-mcq-22",
-        "admit-mcq-21",
-        "admit-mcq-23",
-        "admit-mcq-20",
-        "admit-mcq-19",
-        "admit-mcq-18"
+        "admit-mcq-06",
+        "admit-mcq-09",
+        "admit-mcq-19"
       ],
       "explanation": "本句的「admissible evidence」指「可採納證據」。",
       "sentenceIndex": 48,
@@ -2022,12 +1828,10 @@ export default {
         "admissible evidence"
       ],
       "optionReasons": {
-        "admit-mcq-22": "本句指「可採納證據」。",
-        "admit-mcq-21": "「可接納的」是「admissible」的用法，與本句語境不同。",
-        "admit-mcq-23": "「不可接納的」是「inadmissible」的用法，與本句語境不同。",
-        "admit-mcq-20": "「入院」是「hospital admission」的用法，與本句語境不同。",
-        "admit-mcq-19": "「大學取錄」是「university admission」的用法，與本句語境不同。",
-        "admit-mcq-18": "「獲准進入／獲取錄」是「gain admission」的用法，與本句語境不同。"
+        "admit-mcq-22": "本句的「admissible evidence」指「可採納證據」。",
+        "admit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-22"
     },
@@ -2039,11 +1843,9 @@ export default {
       "masked": "The evidence was ruled ____.",
       "options": [
         "admit-mcq-23",
-        "admit-mcq-22",
-        "admit-mcq-21",
         "admit-mcq-20",
-        "admit-mcq-19",
-        "admit-mcq-18"
+        "admit-mcq-03",
+        "admit-mcq-12"
       ],
       "explanation": "本句的「inadmissible」指「不可接納的」。",
       "sentenceIndex": 49,
@@ -2052,12 +1854,10 @@ export default {
         "inadmissible"
       ],
       "optionReasons": {
-        "admit-mcq-23": "本句指「不可接納的」。",
-        "admit-mcq-22": "「可採納證據」是「admissible evidence」的用法，與本句語境不同。",
-        "admit-mcq-21": "「可接納的」是「admissible」的用法，與本句語境不同。",
-        "admit-mcq-20": "「入院」是「hospital admission」的用法，與本句語境不同。",
-        "admit-mcq-19": "「大學取錄」是「university admission」的用法，與本句語境不同。",
-        "admit-mcq-18": "「獲准進入／獲取錄」是「gain admission」的用法，與本句語境不同。"
+        "admit-mcq-23": "本句的「inadmissible」指「不可接納的」。",
+        "admit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-23"
     },
@@ -2069,11 +1869,9 @@ export default {
       "masked": "The court excluded the ____.",
       "options": [
         "admit-mcq-23",
-        "admit-mcq-22",
-        "admit-mcq-21",
-        "admit-mcq-20",
-        "admit-mcq-19",
-        "admit-mcq-18"
+        "admit-mcq-12",
+        "admit-mcq-07",
+        "admit-mcq-19"
       ],
       "explanation": "本句的「inadmissible evidence」指「不可接納的」。",
       "sentenceIndex": 50,
@@ -2082,12 +1880,10 @@ export default {
         "inadmissible evidence"
       ],
       "optionReasons": {
-        "admit-mcq-23": "本句指「不可接納的」。",
-        "admit-mcq-22": "「可採納證據」是「admissible evidence」的用法，與本句語境不同。",
-        "admit-mcq-21": "「可接納的」是「admissible」的用法，與本句語境不同。",
-        "admit-mcq-20": "「入院」是「hospital admission」的用法，與本句語境不同。",
-        "admit-mcq-19": "「大學取錄」是「university admission」的用法，與本句語境不同。",
-        "admit-mcq-18": "「獲准進入／獲取錄」是「gain admission」的用法，與本句語境不同。"
+        "admit-mcq-23": "本句的「inadmissible evidence」指「不可接納的」。",
+        "admit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "admit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "admit-mcq-23"
     }
@@ -2099,5 +1895,7 @@ export default {
     "sha256": "7b12971fff9e3a0b2a5ac81fea8936f9efe2d527c447444223801a53c2e54d38",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

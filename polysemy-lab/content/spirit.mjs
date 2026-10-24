@@ -489,7 +489,7 @@ export default {
     },
     {
       "id": "spirit-mcq-23",
-      "title": "表示精神；氣概",
+      "title": "精神；氣概",
       "form": "Unmapped practice spirit-06-0",
       "en": "Unmapped practice spirit-06-0",
       "zh": "表示精神；氣概",
@@ -506,7 +506,7 @@ export default {
     },
     {
       "id": "spirit-mcq-24",
-      "title": "表示精神；氣概",
+      "title": "精神；氣概",
       "form": "Unmapped practice spirit-06-1",
       "en": "Unmapped practice spirit-06-1",
       "zh": "表示精神；氣概",
@@ -531,11 +531,9 @@ export default {
       "masked": "She has an incredibly strong ____.",
       "options": [
         "spirit-mcq-01",
-        "spirit-mcq-02",
-        "spirit-mcq-03",
+        "spirit-mcq-11",
         "spirit-mcq-04",
-        "spirit-mcq-05",
-        "spirit-mcq-06"
+        "spirit-mcq-09"
       ],
       "explanation": "本句的「spirit」指「面對困難時使人仍能保持勇氣、意志和韌性的內在精神力量」。",
       "sentenceIndex": 0,
@@ -544,12 +542,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-01": "本句指「面對困難時使人仍能保持勇氣、意志和韌性的內在精神力量」。",
-        "spirit-mcq-02": "「某人在某個時刻的情緒或精神狀態」是「spirits — mood」的用法，與本句語境不同。",
-        "spirit-mcq-03": "「情緒十分愉快、活潑而精神高昂」是「in high spirits」的用法，與本句語境不同。",
-        "spirit-mcq-04": "「心情低沉、缺乏積極或愉快情緒」是「in low spirits」的用法，與本句語境不同。",
-        "spirit-mcq-05": "「令情緒低落的人重新變得較開心、有精神」是「lift someone's spirits」的用法，與本句語境不同。",
-        "spirit-mcq-06": "「某人行為和態度中表現出來的特定精神、氣質或意志」是「independent/adventurous spirit」的用法，與本句語境不同。"
+        "spirit-mcq-01": "本句的「spirit」指「面對困難時使人仍能保持勇氣、意志和韌性的內在精神力量」。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-01"
     },
@@ -561,11 +557,9 @@ export default {
       "masked": "Even after years of hardship, her ____ remained strong.",
       "options": [
         "spirit-mcq-01",
-        "spirit-mcq-02",
-        "spirit-mcq-03",
+        "spirit-mcq-11",
         "spirit-mcq-04",
-        "spirit-mcq-05",
-        "spirit-mcq-06"
+        "spirit-mcq-12"
       ],
       "explanation": "本句的「spirit」指「面對困難時使人仍能保持勇氣、意志和韌性的內在精神力量」。",
       "sentenceIndex": 1,
@@ -574,12 +568,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-01": "本句指「面對困難時使人仍能保持勇氣、意志和韌性的內在精神力量」。",
-        "spirit-mcq-02": "「某人在某個時刻的情緒或精神狀態」是「spirits — mood」的用法，與本句語境不同。",
-        "spirit-mcq-03": "「情緒十分愉快、活潑而精神高昂」是「in high spirits」的用法，與本句語境不同。",
-        "spirit-mcq-04": "「心情低沉、缺乏積極或愉快情緒」是「in low spirits」的用法，與本句語境不同。",
-        "spirit-mcq-05": "「令情緒低落的人重新變得較開心、有精神」是「lift someone's spirits」的用法，與本句語境不同。",
-        "spirit-mcq-06": "「某人行為和態度中表現出來的特定精神、氣質或意志」是「independent/adventurous spirit」的用法，與本句語境不同。"
+        "spirit-mcq-01": "本句的「spirit」指「面對困難時使人仍能保持勇氣、意志和韌性的內在精神力量」。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-01"
     },
@@ -591,11 +583,9 @@ export default {
       "masked": "His illness weakened his body but never broke his ____.",
       "options": [
         "spirit-mcq-01",
-        "spirit-mcq-02",
-        "spirit-mcq-03",
+        "spirit-mcq-11",
         "spirit-mcq-04",
-        "spirit-mcq-05",
-        "spirit-mcq-06"
+        "spirit-mcq-09"
       ],
       "explanation": "本句的「spirit」指「面對困難時使人仍能保持勇氣、意志和韌性的內在精神力量」。",
       "sentenceIndex": 2,
@@ -604,12 +594,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-01": "本句指「面對困難時使人仍能保持勇氣、意志和韌性的內在精神力量」。",
-        "spirit-mcq-02": "「某人在某個時刻的情緒或精神狀態」是「spirits — mood」的用法，與本句語境不同。",
-        "spirit-mcq-03": "「情緒十分愉快、活潑而精神高昂」是「in high spirits」的用法，與本句語境不同。",
-        "spirit-mcq-04": "「心情低沉、缺乏積極或愉快情緒」是「in low spirits」的用法，與本句語境不同。",
-        "spirit-mcq-05": "「令情緒低落的人重新變得較開心、有精神」是「lift someone's spirits」的用法，與本句語境不同。",
-        "spirit-mcq-06": "「某人行為和態度中表現出來的特定精神、氣質或意志」是「independent/adventurous spirit」的用法，與本句語境不同。"
+        "spirit-mcq-01": "本句的「spirit」指「面對困難時使人仍能保持勇氣、意志和韌性的內在精神力量」。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-01"
     },
@@ -621,11 +609,9 @@ export default {
       "masked": "She was in good ____ after seeing her family.",
       "options": [
         "spirit-mcq-02",
-        "spirit-mcq-01",
-        "spirit-mcq-03",
-        "spirit-mcq-04",
-        "spirit-mcq-05",
-        "spirit-mcq-06"
+        "spirit-mcq-12",
+        "spirit-mcq-11",
+        "spirit-mcq-07"
       ],
       "explanation": "本句的「spirits」指「某人在某個時刻的情緒或精神狀態」。",
       "sentenceIndex": 3,
@@ -634,12 +620,10 @@ export default {
         "spirits"
       ],
       "optionReasons": {
-        "spirit-mcq-02": "本句指「某人在某個時刻的情緒或精神狀態」。",
-        "spirit-mcq-01": "「面對困難時使人仍能保持勇氣、意志和韌性的內在精神力量」是「spirit — inner strength」的用法，與本句語境不同。",
-        "spirit-mcq-03": "「情緒十分愉快、活潑而精神高昂」是「in high spirits」的用法，與本句語境不同。",
-        "spirit-mcq-04": "「心情低沉、缺乏積極或愉快情緒」是「in low spirits」的用法，與本句語境不同。",
-        "spirit-mcq-05": "「令情緒低落的人重新變得較開心、有精神」是「lift someone's spirits」的用法，與本句語境不同。",
-        "spirit-mcq-06": "「某人行為和態度中表現出來的特定精神、氣質或意志」是「independent/adventurous spirit」的用法，與本句語境不同。"
+        "spirit-mcq-02": "本句的「spirits」指「某人在某個時刻的情緒或精神狀態」。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-02"
     },
@@ -651,11 +635,9 @@ export default {
       "masked": "His ____ improved when he heard the good news.",
       "options": [
         "spirit-mcq-02",
-        "spirit-mcq-01",
-        "spirit-mcq-03",
-        "spirit-mcq-04",
-        "spirit-mcq-05",
-        "spirit-mcq-06"
+        "spirit-mcq-11",
+        "spirit-mcq-14",
+        "spirit-mcq-07"
       ],
       "explanation": "本句的「spirits」指「某人在某個時刻的情緒或精神狀態」。",
       "sentenceIndex": 4,
@@ -664,12 +646,10 @@ export default {
         "spirits"
       ],
       "optionReasons": {
-        "spirit-mcq-02": "本句指「某人在某個時刻的情緒或精神狀態」。",
-        "spirit-mcq-01": "「面對困難時使人仍能保持勇氣、意志和韌性的內在精神力量」是「spirit — inner strength」的用法，與本句語境不同。",
-        "spirit-mcq-03": "「情緒十分愉快、活潑而精神高昂」是「in high spirits」的用法，與本句語境不同。",
-        "spirit-mcq-04": "「心情低沉、缺乏積極或愉快情緒」是「in low spirits」的用法，與本句語境不同。",
-        "spirit-mcq-05": "「令情緒低落的人重新變得較開心、有精神」是「lift someone's spirits」的用法，與本句語境不同。",
-        "spirit-mcq-06": "「某人行為和態度中表現出來的特定精神、氣質或意志」是「independent/adventurous spirit」的用法，與本句語境不同。"
+        "spirit-mcq-02": "本句的「spirits」指「某人在某個時刻的情緒或精神狀態」。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-02"
     },
@@ -681,11 +661,9 @@ export default {
       "masked": "The children were in high ____ during the celebration.",
       "options": [
         "spirit-mcq-03",
-        "spirit-mcq-02",
-        "spirit-mcq-04",
-        "spirit-mcq-01",
-        "spirit-mcq-05",
-        "spirit-mcq-06"
+        "spirit-mcq-14",
+        "spirit-mcq-11",
+        "spirit-mcq-07"
       ],
       "explanation": "本句的「spirits」指「情緒十分愉快、活潑而精神高昂」。",
       "sentenceIndex": 5,
@@ -694,12 +672,10 @@ export default {
         "spirits"
       ],
       "optionReasons": {
-        "spirit-mcq-03": "本句指「情緒十分愉快、活潑而精神高昂」。",
-        "spirit-mcq-02": "「某人在某個時刻的情緒或精神狀態」是「spirits — mood」的用法，與本句語境不同。",
-        "spirit-mcq-04": "「心情低沉、缺乏積極或愉快情緒」是「in low spirits」的用法，與本句語境不同。",
-        "spirit-mcq-01": "「面對困難時使人仍能保持勇氣、意志和韌性的內在精神力量」是「spirit — inner strength」的用法，與本句語境不同。",
-        "spirit-mcq-05": "「令情緒低落的人重新變得較開心、有精神」是「lift someone's spirits」的用法，與本句語境不同。",
-        "spirit-mcq-06": "「某人行為和態度中表現出來的特定精神、氣質或意志」是「independent/adventurous spirit」的用法，與本句語境不同。"
+        "spirit-mcq-03": "本句的「spirits」指「情緒十分愉快、活潑而精神高昂」。",
+        "spirit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-03"
     },
@@ -711,11 +687,9 @@ export default {
       "masked": "She arrived in high ____ and talked to everyone.",
       "options": [
         "spirit-mcq-03",
-        "spirit-mcq-02",
-        "spirit-mcq-04",
-        "spirit-mcq-01",
-        "spirit-mcq-05",
-        "spirit-mcq-06"
+        "spirit-mcq-11",
+        "spirit-mcq-07",
+        "spirit-mcq-14"
       ],
       "explanation": "本句的「spirits」指「情緒十分愉快、活潑而精神高昂」。",
       "sentenceIndex": 6,
@@ -724,12 +698,10 @@ export default {
         "spirits"
       ],
       "optionReasons": {
-        "spirit-mcq-03": "本句指「情緒十分愉快、活潑而精神高昂」。",
-        "spirit-mcq-02": "「某人在某個時刻的情緒或精神狀態」是「spirits — mood」的用法，與本句語境不同。",
-        "spirit-mcq-04": "「心情低沉、缺乏積極或愉快情緒」是「in low spirits」的用法，與本句語境不同。",
-        "spirit-mcq-01": "「面對困難時使人仍能保持勇氣、意志和韌性的內在精神力量」是「spirit — inner strength」的用法，與本句語境不同。",
-        "spirit-mcq-05": "「令情緒低落的人重新變得較開心、有精神」是「lift someone's spirits」的用法，與本句語境不同。",
-        "spirit-mcq-06": "「某人行為和態度中表現出來的特定精神、氣質或意志」是「independent/adventurous spirit」的用法，與本句語境不同。"
+        "spirit-mcq-03": "本句的「spirits」指「情緒十分愉快、活潑而精神高昂」。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-03"
     },
@@ -741,11 +713,9 @@ export default {
       "masked": "He had been in low ____ since losing his job.",
       "options": [
         "spirit-mcq-04",
-        "spirit-mcq-03",
-        "spirit-mcq-05",
-        "spirit-mcq-02",
-        "spirit-mcq-06",
-        "spirit-mcq-01"
+        "spirit-mcq-13",
+        "spirit-mcq-09",
+        "spirit-mcq-11"
       ],
       "explanation": "本句的「spirits」指「心情低沉、缺乏積極或愉快情緒」。",
       "sentenceIndex": 7,
@@ -754,12 +724,10 @@ export default {
         "spirits"
       ],
       "optionReasons": {
-        "spirit-mcq-04": "本句指「心情低沉、缺乏積極或愉快情緒」。",
-        "spirit-mcq-03": "「情緒十分愉快、活潑而精神高昂」是「in high spirits」的用法，與本句語境不同。",
-        "spirit-mcq-05": "「令情緒低落的人重新變得較開心、有精神」是「lift someone's spirits」的用法，與本句語境不同。",
-        "spirit-mcq-02": "「某人在某個時刻的情緒或精神狀態」是「spirits — mood」的用法，與本句語境不同。",
-        "spirit-mcq-06": "「某人行為和態度中表現出來的特定精神、氣質或意志」是「independent/adventurous spirit」的用法，與本句語境不同。",
-        "spirit-mcq-01": "「面對困難時使人仍能保持勇氣、意志和韌性的內在精神力量」是「spirit — inner strength」的用法，與本句語境不同。"
+        "spirit-mcq-04": "本句的「spirits」指「心情低沉、缺乏積極或愉快情緒」。",
+        "spirit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-04"
     },
@@ -771,11 +739,9 @@ export default {
       "masked": "She seemed a little in low ____ that afternoon.",
       "options": [
         "spirit-mcq-04",
-        "spirit-mcq-03",
-        "spirit-mcq-05",
-        "spirit-mcq-02",
-        "spirit-mcq-06",
-        "spirit-mcq-01"
+        "spirit-mcq-09",
+        "spirit-mcq-13",
+        "spirit-mcq-11"
       ],
       "explanation": "本句的「spirits」指「心情低沉、缺乏積極或愉快情緒」。",
       "sentenceIndex": 8,
@@ -784,12 +750,10 @@ export default {
         "spirits"
       ],
       "optionReasons": {
-        "spirit-mcq-04": "本句指「心情低沉、缺乏積極或愉快情緒」。",
-        "spirit-mcq-03": "「情緒十分愉快、活潑而精神高昂」是「in high spirits」的用法，與本句語境不同。",
-        "spirit-mcq-05": "「令情緒低落的人重新變得較開心、有精神」是「lift someone's spirits」的用法，與本句語境不同。",
-        "spirit-mcq-02": "「某人在某個時刻的情緒或精神狀態」是「spirits — mood」的用法，與本句語境不同。",
-        "spirit-mcq-06": "「某人行為和態度中表現出來的特定精神、氣質或意志」是「independent/adventurous spirit」的用法，與本句語境不同。",
-        "spirit-mcq-01": "「面對困難時使人仍能保持勇氣、意志和韌性的內在精神力量」是「spirit — inner strength」的用法，與本句語境不同。"
+        "spirit-mcq-04": "本句的「spirits」指「心情低沉、缺乏積極或愉快情緒」。",
+        "spirit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-04"
     },
@@ -801,11 +765,9 @@ export default {
       "masked": "Her grandmother's phone call lifted her ____.",
       "options": [
         "spirit-mcq-05",
-        "spirit-mcq-04",
-        "spirit-mcq-06",
-        "spirit-mcq-03",
+        "spirit-mcq-12",
         "spirit-mcq-07",
-        "spirit-mcq-02"
+        "spirit-mcq-11"
       ],
       "explanation": "本句的「spirits」指「令情緒低落的人重新變得較開心、有精神」。",
       "sentenceIndex": 9,
@@ -814,12 +776,10 @@ export default {
         "spirits"
       ],
       "optionReasons": {
-        "spirit-mcq-05": "本句指「令情緒低落的人重新變得較開心、有精神」。",
-        "spirit-mcq-04": "「心情低沉、缺乏積極或愉快情緒」是「in low spirits」的用法，與本句語境不同。",
-        "spirit-mcq-06": "「某人行為和態度中表現出來的特定精神、氣質或意志」是「independent/adventurous spirit」的用法，與本句語境不同。",
-        "spirit-mcq-03": "「情緒十分愉快、活潑而精神高昂」是「in high spirits」的用法，與本句語境不同。",
-        "spirit-mcq-07": "「面對困難或競爭仍願意努力、不肯放棄的鬥志」是「fighting spirit」的用法，與本句語境不同。",
-        "spirit-mcq-02": "「某人在某個時刻的情緒或精神狀態」是「spirits — mood」的用法，與本句語境不同。"
+        "spirit-mcq-05": "本句的「spirits」指「令情緒低落的人重新變得較開心、有精神」。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-05"
     },
@@ -831,11 +791,9 @@ export default {
       "masked": "A walk outside helped raise his ____.",
       "options": [
         "spirit-mcq-05",
-        "spirit-mcq-04",
-        "spirit-mcq-06",
-        "spirit-mcq-03",
-        "spirit-mcq-07",
-        "spirit-mcq-02"
+        "spirit-mcq-22",
+        "spirit-mcq-10",
+        "spirit-mcq-07"
       ],
       "explanation": "本句的「spirits」指「令情緒低落的人重新變得較開心、有精神」。",
       "sentenceIndex": 10,
@@ -844,12 +802,10 @@ export default {
         "spirits"
       ],
       "optionReasons": {
-        "spirit-mcq-05": "本句指「令情緒低落的人重新變得較開心、有精神」。",
-        "spirit-mcq-04": "「心情低沉、缺乏積極或愉快情緒」是「in low spirits」的用法，與本句語境不同。",
-        "spirit-mcq-06": "「某人行為和態度中表現出來的特定精神、氣質或意志」是「independent/adventurous spirit」的用法，與本句語境不同。",
-        "spirit-mcq-03": "「情緒十分愉快、活潑而精神高昂」是「in high spirits」的用法，與本句語境不同。",
-        "spirit-mcq-07": "「面對困難或競爭仍願意努力、不肯放棄的鬥志」是「fighting spirit」的用法，與本句語境不同。",
-        "spirit-mcq-02": "「某人在某個時刻的情緒或精神狀態」是「spirits — mood」的用法，與本句語境不同。"
+        "spirit-mcq-05": "本句的「spirits」指「令情緒低落的人重新變得較開心、有精神」。",
+        "spirit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-05"
     },
@@ -861,11 +817,9 @@ export default {
       "masked": "I admire her independent ____.",
       "options": [
         "spirit-mcq-23",
+        "spirit-mcq-09",
         "spirit-mcq-22",
-        "spirit-mcq-21",
-        "spirit-mcq-20",
-        "spirit-mcq-19",
-        "spirit-mcq-18"
+        "spirit-mcq-07"
       ],
       "explanation": "本句的「spirit」指「表示精神；氣概」。",
       "sentenceIndex": 11,
@@ -874,12 +828,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-23": "本句指「表示精神；氣概」。",
-        "spirit-mcq-22": "「對內在生命、人生意義、靈魂或超越物質生活的關注與實踐」是「spirituality」的用法，與本句語境不同。",
-        "spirit-mcq-21": "「與宗教信仰、神聖事物或靈性實踐有關的」是「spiritual — religious」的用法，與本句語境不同。",
-        "spirit-mcq-20": "「與心靈、靈魂、生命意義或非物質層面有關的」是「spiritual — inner/non-material」的用法，與本句語境不同。",
-        "spirit-mcq-19": "「在思想、價值、性格或興趣上與自己十分相近的人」是「kindred spirit」的用法，與本句語境不同。",
-        "spirit-mcq-18": "「思想和生活方式獨立、不喜歡受傳統規範限制的人」是「free spirit」的用法，與本句語境不同。"
+        "spirit-mcq-23": "本句的「spirit」指「表示精神；氣概」。",
+        "spirit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-23"
     },
@@ -891,11 +843,9 @@ export default {
       "masked": "The young athlete showed great competitive ____.",
       "options": [
         "spirit-mcq-24",
-        "spirit-mcq-22",
-        "spirit-mcq-21",
-        "spirit-mcq-20",
-        "spirit-mcq-19",
-        "spirit-mcq-18"
+        "spirit-mcq-04",
+        "spirit-mcq-07",
+        "spirit-mcq-11"
       ],
       "explanation": "本句的「spirit」指「表示精神；氣概」。",
       "sentenceIndex": 12,
@@ -904,12 +854,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-24": "本句指「表示精神；氣概」。",
-        "spirit-mcq-22": "「對內在生命、人生意義、靈魂或超越物質生活的關注與實踐」是「spirituality」的用法，與本句語境不同。",
-        "spirit-mcq-21": "「與宗教信仰、神聖事物或靈性實踐有關的」是「spiritual — religious」的用法，與本句語境不同。",
-        "spirit-mcq-20": "「與心靈、靈魂、生命意義或非物質層面有關的」是「spiritual — inner/non-material」的用法，與本句語境不同。",
-        "spirit-mcq-19": "「在思想、價值、性格或興趣上與自己十分相近的人」是「kindred spirit」的用法，與本句語境不同。",
-        "spirit-mcq-18": "「思想和生活方式獨立、不喜歡受傳統規範限制的人」是「free spirit」的用法，與本句語境不同。"
+        "spirit-mcq-24": "本句的「spirit」指「表示精神；氣概」。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-24"
     },
@@ -921,11 +869,9 @@ export default {
       "masked": "The team showed great fighting ____ after falling behind.",
       "options": [
         "spirit-mcq-07",
-        "spirit-mcq-06",
-        "spirit-mcq-08",
-        "spirit-mcq-05",
-        "spirit-mcq-09",
-        "spirit-mcq-04"
+        "spirit-mcq-03",
+        "spirit-mcq-12",
+        "spirit-mcq-11"
       ],
       "explanation": "本句的「spirit」指「面對困難或競爭仍願意努力、不肯放棄的鬥志」。",
       "sentenceIndex": 13,
@@ -934,12 +880,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-07": "本句指「面對困難或競爭仍願意努力、不肯放棄的鬥志」。",
-        "spirit-mcq-06": "「某人行為和態度中表現出來的特定精神、氣質或意志」是「independent/adventurous spirit」的用法，與本句語境不同。",
-        "spirit-mcq-08": "「團隊成員互相支持、合作並認同共同目標的精神」是「team spirit」的用法，與本句語境不同。",
-        "spirit-mcq-05": "「令情緒低落的人重新變得較開心、有精神」是「lift someone's spirits」的用法，與本句語境不同。",
-        "spirit-mcq-09": "「對共同群體身份所表現的熱情、忠誠和凝聚力」是「community/school spirit」的用法，與本句語境不同。",
-        "spirit-mcq-04": "「心情低沉、缺乏積極或愉快情緒」是「in low spirits」的用法，與本句語境不同。"
+        "spirit-mcq-07": "本句的「spirit」指「面對困難或競爭仍願意努力、不肯放棄的鬥志」。",
+        "spirit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-07"
     },
@@ -951,11 +895,9 @@ export default {
       "masked": "She never lost her fighting ____ during treatment.",
       "options": [
         "spirit-mcq-07",
-        "spirit-mcq-06",
-        "spirit-mcq-08",
         "spirit-mcq-05",
-        "spirit-mcq-09",
-        "spirit-mcq-04"
+        "spirit-mcq-11",
+        "spirit-mcq-14"
       ],
       "explanation": "本句的「spirit」指「面對困難或競爭仍願意努力、不肯放棄的鬥志」。",
       "sentenceIndex": 14,
@@ -964,12 +906,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-07": "本句指「面對困難或競爭仍願意努力、不肯放棄的鬥志」。",
-        "spirit-mcq-06": "「某人行為和態度中表現出來的特定精神、氣質或意志」是「independent/adventurous spirit」的用法，與本句語境不同。",
-        "spirit-mcq-08": "「團隊成員互相支持、合作並認同共同目標的精神」是「team spirit」的用法，與本句語境不同。",
-        "spirit-mcq-05": "「令情緒低落的人重新變得較開心、有精神」是「lift someone's spirits」的用法，與本句語境不同。",
-        "spirit-mcq-09": "「對共同群體身份所表現的熱情、忠誠和凝聚力」是「community/school spirit」的用法，與本句語境不同。",
-        "spirit-mcq-04": "「心情低沉、缺乏積極或愉快情緒」是「in low spirits」的用法，與本句語境不同。"
+        "spirit-mcq-07": "本句的「spirit」指「面對困難或競爭仍願意努力、不肯放棄的鬥志」。",
+        "spirit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-07"
     },
@@ -982,10 +922,8 @@ export default {
       "options": [
         "spirit-mcq-08",
         "spirit-mcq-07",
-        "spirit-mcq-09",
-        "spirit-mcq-06",
-        "spirit-mcq-10",
-        "spirit-mcq-05"
+        "spirit-mcq-14",
+        "spirit-mcq-10"
       ],
       "explanation": "本句的「spirit」指「團隊成員互相支持、合作並認同共同目標的精神」。",
       "sentenceIndex": 15,
@@ -994,12 +932,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-08": "本句指「團隊成員互相支持、合作並認同共同目標的精神」。",
-        "spirit-mcq-07": "「面對困難或競爭仍願意努力、不肯放棄的鬥志」是「fighting spirit」的用法，與本句語境不同。",
-        "spirit-mcq-09": "「對共同群體身份所表現的熱情、忠誠和凝聚力」是「community/school spirit」的用法，與本句語境不同。",
-        "spirit-mcq-06": "「某人行為和態度中表現出來的特定精神、氣質或意志」是「independent/adventurous spirit」的用法，與本句語境不同。",
-        "spirit-mcq-10": "「某件事、地方或時代最具代表性的態度、價值、氣氛或本質」是「spirit of something」的用法，與本句語境不同。",
-        "spirit-mcq-05": "「令情緒低落的人重新變得較開心、有精神」是「lift someone's spirits」的用法，與本句語境不同。"
+        "spirit-mcq-08": "本句的「spirit」指「團隊成員互相支持、合作並認同共同目標的精神」。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-08"
     },
@@ -1011,11 +947,9 @@ export default {
       "masked": "The manager organized activities to improve team ____.",
       "options": [
         "spirit-mcq-08",
-        "spirit-mcq-07",
-        "spirit-mcq-09",
-        "spirit-mcq-06",
+        "spirit-mcq-14",
         "spirit-mcq-10",
-        "spirit-mcq-05"
+        "spirit-mcq-07"
       ],
       "explanation": "本句的「spirit」指「團隊成員互相支持、合作並認同共同目標的精神」。",
       "sentenceIndex": 16,
@@ -1024,12 +958,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-08": "本句指「團隊成員互相支持、合作並認同共同目標的精神」。",
-        "spirit-mcq-07": "「面對困難或競爭仍願意努力、不肯放棄的鬥志」是「fighting spirit」的用法，與本句語境不同。",
-        "spirit-mcq-09": "「對共同群體身份所表現的熱情、忠誠和凝聚力」是「community/school spirit」的用法，與本句語境不同。",
-        "spirit-mcq-06": "「某人行為和態度中表現出來的特定精神、氣質或意志」是「independent/adventurous spirit」的用法，與本句語境不同。",
-        "spirit-mcq-10": "「某件事、地方或時代最具代表性的態度、價值、氣氛或本質」是「spirit of something」的用法，與本句語境不同。",
-        "spirit-mcq-05": "「令情緒低落的人重新變得較開心、有精神」是「lift someone's spirits」的用法，與本句語境不同。"
+        "spirit-mcq-08": "本句的「spirit」指「團隊成員互相支持、合作並認同共同目標的精神」。",
+        "spirit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-08"
     },
@@ -1041,11 +973,9 @@ export default {
       "masked": "The festival created a strong sense of community ____.",
       "options": [
         "spirit-mcq-09",
-        "spirit-mcq-08",
         "spirit-mcq-10",
-        "spirit-mcq-07",
-        "spirit-mcq-11",
-        "spirit-mcq-06"
+        "spirit-mcq-22",
+        "spirit-mcq-24"
       ],
       "explanation": "本句的「spirit」指「對共同群體身份所表現的熱情、忠誠和凝聚力」。",
       "sentenceIndex": 17,
@@ -1054,12 +984,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-09": "本句指「對共同群體身份所表現的熱情、忠誠和凝聚力」。",
-        "spirit-mcq-08": "「團隊成員互相支持、合作並認同共同目標的精神」是「team spirit」的用法，與本句語境不同。",
-        "spirit-mcq-10": "「某件事、地方或時代最具代表性的態度、價值、氣氛或本質」是「spirit of something」的用法，與本句語境不同。",
-        "spirit-mcq-07": "「面對困難或競爭仍願意努力、不肯放棄的鬥志」是「fighting spirit」的用法，與本句語境不同。",
-        "spirit-mcq-11": "「法律／規則背後真正想達成的目的、價值和原則」是「spirit of the law」的用法，與本句語境不同。",
-        "spirit-mcq-06": "「某人行為和態度中表現出來的特定精神、氣質或意志」是「independent/adventurous spirit」的用法，與本句語境不同。"
+        "spirit-mcq-09": "本句的「spirit」指「對共同群體身份所表現的熱情、忠誠和凝聚力」。",
+        "spirit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-09"
     },
@@ -1071,11 +999,9 @@ export default {
       "masked": "Students wore the school colours to show school ____.",
       "options": [
         "spirit-mcq-09",
-        "spirit-mcq-08",
         "spirit-mcq-10",
-        "spirit-mcq-07",
-        "spirit-mcq-11",
-        "spirit-mcq-06"
+        "spirit-mcq-04",
+        "spirit-mcq-23"
       ],
       "explanation": "本句的「spirit」指「對共同群體身份所表現的熱情、忠誠和凝聚力」。",
       "sentenceIndex": 18,
@@ -1084,12 +1010,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-09": "本句指「對共同群體身份所表現的熱情、忠誠和凝聚力」。",
-        "spirit-mcq-08": "「團隊成員互相支持、合作並認同共同目標的精神」是「team spirit」的用法，與本句語境不同。",
-        "spirit-mcq-10": "「某件事、地方或時代最具代表性的態度、價值、氣氛或本質」是「spirit of something」的用法，與本句語境不同。",
-        "spirit-mcq-07": "「面對困難或競爭仍願意努力、不肯放棄的鬥志」是「fighting spirit」的用法，與本句語境不同。",
-        "spirit-mcq-11": "「法律／規則背後真正想達成的目的、價值和原則」是「spirit of the law」的用法，與本句語境不同。",
-        "spirit-mcq-06": "「某人行為和態度中表現出來的特定精神、氣質或意志」是「independent/adventurous spirit」的用法，與本句語境不同。"
+        "spirit-mcq-09": "本句的「spirit」指「對共同群體身份所表現的熱情、忠誠和凝聚力」。",
+        "spirit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-09"
     },
@@ -1101,10 +1025,8 @@ export default {
       "masked": "Helping each other is part of the ____ of the event.",
       "options": [
         "spirit-mcq-10",
-        "spirit-mcq-09",
-        "spirit-mcq-11",
         "spirit-mcq-08",
-        "spirit-mcq-12",
+        "spirit-mcq-14",
         "spirit-mcq-07"
       ],
       "explanation": "本句的「spirit」指「某件事、地方或時代最具代表性的態度、價值、氣氛或本質」。",
@@ -1114,12 +1036,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-10": "本句指「某件事、地方或時代最具代表性的態度、價值、氣氛或本質」。",
-        "spirit-mcq-09": "「對共同群體身份所表現的熱情、忠誠和凝聚力」是「community/school spirit」的用法，與本句語境不同。",
-        "spirit-mcq-11": "「法律／規則背後真正想達成的目的、價值和原則」是「spirit of the law」的用法，與本句語境不同。",
-        "spirit-mcq-08": "「團隊成員互相支持、合作並認同共同目標的精神」是「team spirit」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。",
-        "spirit-mcq-07": "「面對困難或競爭仍願意努力、不肯放棄的鬥志」是「fighting spirit」的用法，與本句語境不同。"
+        "spirit-mcq-10": "本句的「spirit」指「某件事、地方或時代最具代表性的態度、價值、氣氛或本質」。",
+        "spirit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-10"
     },
@@ -1131,11 +1051,9 @@ export default {
       "masked": "The design captures the ____ of the city.",
       "options": [
         "spirit-mcq-10",
-        "spirit-mcq-09",
-        "spirit-mcq-11",
-        "spirit-mcq-08",
-        "spirit-mcq-12",
-        "spirit-mcq-07"
+        "spirit-mcq-07",
+        "spirit-mcq-05",
+        "spirit-mcq-09"
       ],
       "explanation": "本句的「spirit」指「某件事、地方或時代最具代表性的態度、價值、氣氛或本質」。",
       "sentenceIndex": 20,
@@ -1144,12 +1062,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-10": "本句指「某件事、地方或時代最具代表性的態度、價值、氣氛或本質」。",
-        "spirit-mcq-09": "「對共同群體身份所表現的熱情、忠誠和凝聚力」是「community/school spirit」的用法，與本句語境不同。",
-        "spirit-mcq-11": "「法律／規則背後真正想達成的目的、價值和原則」是「spirit of the law」的用法，與本句語境不同。",
-        "spirit-mcq-08": "「團隊成員互相支持、合作並認同共同目標的精神」是「team spirit」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。",
-        "spirit-mcq-07": "「面對困難或競爭仍願意努力、不肯放棄的鬥志」是「fighting spirit」的用法，與本句語境不同。"
+        "spirit-mcq-10": "本句的「spirit」指「某件事、地方或時代最具代表性的態度、價值、氣氛或本質」。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-10"
     },
@@ -1161,11 +1077,9 @@ export default {
       "masked": "His actions followed the ____ of the law, even if the situation was unusual.",
       "options": [
         "spirit-mcq-11",
-        "spirit-mcq-10",
-        "spirit-mcq-12",
-        "spirit-mcq-09",
-        "spirit-mcq-13",
-        "spirit-mcq-08"
+        "spirit-mcq-03",
+        "spirit-mcq-22",
+        "spirit-mcq-15"
       ],
       "explanation": "本句的「spirit」指「法律／規則背後真正想達成的目的、價值和原則」。",
       "sentenceIndex": 21,
@@ -1174,12 +1088,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-11": "本句指「法律／規則背後真正想達成的目的、價值和原則」。",
-        "spirit-mcq-10": "「某件事、地方或時代最具代表性的態度、價值、氣氛或本質」是「spirit of something」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。",
-        "spirit-mcq-09": "「對共同群體身份所表現的熱情、忠誠和凝聚力」是「community/school spirit」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-08": "「團隊成員互相支持、合作並認同共同目標的精神」是「team spirit」的用法，與本句語境不同。"
+        "spirit-mcq-11": "本句的「spirit」指「法律／規則背後真正想達成的目的、價值和原則」。",
+        "spirit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-11"
     },
@@ -1191,11 +1103,9 @@ export default {
       "masked": "We should respect both the wording and the ____ of the rule.",
       "options": [
         "spirit-mcq-11",
-        "spirit-mcq-10",
-        "spirit-mcq-12",
+        "spirit-mcq-03",
         "spirit-mcq-09",
-        "spirit-mcq-13",
-        "spirit-mcq-08"
+        "spirit-mcq-22"
       ],
       "explanation": "本句的「spirit」指「法律／規則背後真正想達成的目的、價值和原則」。",
       "sentenceIndex": 22,
@@ -1204,12 +1114,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-11": "本句指「法律／規則背後真正想達成的目的、價值和原則」。",
-        "spirit-mcq-10": "「某件事、地方或時代最具代表性的態度、價值、氣氛或本質」是「spirit of something」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。",
-        "spirit-mcq-09": "「對共同群體身份所表現的熱情、忠誠和凝聚力」是「community/school spirit」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-08": "「團隊成員互相支持、合作並認同共同目標的精神」是「team spirit」的用法，與本句語境不同。"
+        "spirit-mcq-11": "本句的「spirit」指「法律／規則背後真正想達成的目的、價值和原則」。",
+        "spirit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-11"
     },
@@ -1221,11 +1129,9 @@ export default {
       "masked": "Everyone joined in the ____ of the celebration.",
       "options": [
         "spirit-mcq-12",
-        "spirit-mcq-11",
-        "spirit-mcq-13",
-        "spirit-mcq-10",
-        "spirit-mcq-14",
-        "spirit-mcq-09"
+        "spirit-mcq-07",
+        "spirit-mcq-05",
+        "spirit-mcq-15"
       ],
       "explanation": "本句的「spirit」指「某場合或活動所形成並感染參與者的共同氣氛」。",
       "sentenceIndex": 23,
@@ -1234,12 +1140,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-12": "本句指「某場合或活動所形成並感染參與者的共同氣氛」。",
-        "spirit-mcq-11": "「法律／規則背後真正想達成的目的、價值和原則」是「spirit of the law」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-10": "「某件事、地方或時代最具代表性的態度、價值、氣氛或本質」是「spirit of something」的用法，與本句語境不同。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-09": "「對共同群體身份所表現的熱情、忠誠和凝聚力」是「community/school spirit」的用法，與本句語境不同。"
+        "spirit-mcq-12": "本句的「spirit」指「某場合或活動所形成並感染參與者的共同氣氛」。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-12"
     },
@@ -1251,11 +1155,9 @@ export default {
       "masked": "The decorations helped create a festive ____.",
       "options": [
         "spirit-mcq-12",
-        "spirit-mcq-11",
-        "spirit-mcq-13",
-        "spirit-mcq-10",
-        "spirit-mcq-14",
-        "spirit-mcq-09"
+        "spirit-mcq-05",
+        "spirit-mcq-07",
+        "spirit-mcq-15"
       ],
       "explanation": "本句的「spirit」指「某場合或活動所形成並感染參與者的共同氣氛」。",
       "sentenceIndex": 24,
@@ -1264,12 +1166,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-12": "本句指「某場合或活動所形成並感染參與者的共同氣氛」。",
-        "spirit-mcq-11": "「法律／規則背後真正想達成的目的、價值和原則」是「spirit of the law」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-10": "「某件事、地方或時代最具代表性的態度、價值、氣氛或本質」是「spirit of something」的用法，與本句語境不同。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-09": "「對共同群體身份所表現的熱情、忠誠和凝聚力」是「community/school spirit」的用法，與本句語境不同。"
+        "spirit-mcq-12": "本句的「spirit」指「某場合或活動所形成並感染參與者的共同氣氛」。",
+        "spirit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-12"
     },
@@ -1281,11 +1181,9 @@ export default {
       "masked": "Some traditions believe the ____ continues after the body dies.",
       "options": [
         "spirit-mcq-13",
-        "spirit-mcq-12",
-        "spirit-mcq-14",
-        "spirit-mcq-11",
-        "spirit-mcq-15",
-        "spirit-mcq-10"
+        "spirit-mcq-07",
+        "spirit-mcq-04",
+        "spirit-mcq-11"
       ],
       "explanation": "本句的「spirit」指「被視為存在於人體中、不同於物質身體的靈魂／精神本體」。",
       "sentenceIndex": 25,
@@ -1294,12 +1192,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-13": "本句指「被視為存在於人體中、不同於物質身體的靈魂／精神本體」。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-11": "「法律／規則背後真正想達成的目的、價值和原則」是「spirit of the law」的用法，與本句語境不同。",
-        "spirit-mcq-15": "「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」是「Spirit — sacred/religious」的用法，與本句語境不同。",
-        "spirit-mcq-10": "「某件事、地方或時代最具代表性的態度、價值、氣氛或本質」是「spirit of something」的用法，與本句語境不同。"
+        "spirit-mcq-13": "本句的「spirit」指「被視為存在於人體中、不同於物質身體的靈魂／精神本體」。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-13"
     },
@@ -1311,11 +1207,9 @@ export default {
       "masked": "The story describes the separation of body and ____.",
       "options": [
         "spirit-mcq-13",
-        "spirit-mcq-12",
-        "spirit-mcq-14",
-        "spirit-mcq-11",
-        "spirit-mcq-15",
-        "spirit-mcq-10"
+        "spirit-mcq-07",
+        "spirit-mcq-04",
+        "spirit-mcq-11"
       ],
       "explanation": "本句的「spirit」指「被視為存在於人體中、不同於物質身體的靈魂／精神本體」。",
       "sentenceIndex": 26,
@@ -1324,12 +1218,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-13": "本句指「被視為存在於人體中、不同於物質身體的靈魂／精神本體」。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-11": "「法律／規則背後真正想達成的目的、價值和原則」是「spirit of the law」的用法，與本句語境不同。",
-        "spirit-mcq-15": "「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」是「Spirit — sacred/religious」的用法，與本句語境不同。",
-        "spirit-mcq-10": "「某件事、地方或時代最具代表性的態度、價值、氣氛或本質」是「spirit of something」的用法，與本句語境不同。"
+        "spirit-mcq-13": "本句的「spirit」指「被視為存在於人體中、不同於物質身體的靈魂／精神本體」。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-13"
     },
@@ -1341,11 +1233,9 @@ export default {
       "masked": "The villagers believed a ____ lived in the old house.",
       "options": [
         "spirit-mcq-14",
-        "spirit-mcq-13",
-        "spirit-mcq-15",
-        "spirit-mcq-12",
-        "spirit-mcq-16",
-        "spirit-mcq-11"
+        "spirit-mcq-08",
+        "spirit-mcq-07",
+        "spirit-mcq-10"
       ],
       "explanation": "本句的「spirit」指「沒有普通實體身體的鬼魂、靈體或超自然存在」。",
       "sentenceIndex": 27,
@@ -1354,12 +1244,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-14": "本句指「沒有普通實體身體的鬼魂、靈體或超自然存在」。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-15": "「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」是「Spirit — sacred/religious」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-11": "「法律／規則背後真正想達成的目的、價值和原則」是「spirit of the law」的用法，與本句語境不同。"
+        "spirit-mcq-14": "本句的「spirit」指「沒有普通實體身體的鬼魂、靈體或超自然存在」。",
+        "spirit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-14"
     },
@@ -1371,11 +1259,9 @@ export default {
       "masked": "The story is about a mysterious ____ that appears at night.",
       "options": [
         "spirit-mcq-14",
-        "spirit-mcq-13",
-        "spirit-mcq-15",
-        "spirit-mcq-12",
-        "spirit-mcq-16",
-        "spirit-mcq-11"
+        "spirit-mcq-03",
+        "spirit-mcq-07",
+        "spirit-mcq-10"
       ],
       "explanation": "本句的「spirit」指「沒有普通實體身體的鬼魂、靈體或超自然存在」。",
       "sentenceIndex": 28,
@@ -1384,12 +1270,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-14": "本句指「沒有普通實體身體的鬼魂、靈體或超自然存在」。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-15": "「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」是「Spirit — sacred/religious」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-11": "「法律／規則背後真正想達成的目的、價值和原則」是「spirit of the law」的用法，與本句語境不同。"
+        "spirit-mcq-14": "本句的「spirit」指「沒有普通實體身體的鬼魂、靈體或超自然存在」。",
+        "spirit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-14"
     },
@@ -1401,11 +1285,9 @@ export default {
       "masked": "The prayer refers to the Holy ____.",
       "options": [
         "spirit-mcq-15",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
-        "spirit-mcq-12"
+        "spirit-mcq-12",
+        "spirit-mcq-11",
+        "spirit-mcq-04"
       ],
       "explanation": "本句的「Spirit」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
       "sentenceIndex": 29,
@@ -1414,12 +1296,10 @@ export default {
         "Spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-15": "本句的「Spirit」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-15"
     },
@@ -1431,10 +1311,8 @@ export default {
       "masked": "They believed they were guided by the ____.",
       "options": [
         "spirit-mcq-15",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
+        "spirit-mcq-04",
+        "spirit-mcq-11",
         "spirit-mcq-12"
       ],
       "explanation": "本句的「Spirit」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
@@ -1444,12 +1322,10 @@ export default {
         "Spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-15": "本句的「Spirit」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-15"
     },
@@ -1461,11 +1337,9 @@ export default {
       "masked": "The legend tells of a forest ____.",
       "options": [
         "spirit-mcq-15",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
-        "spirit-mcq-12"
+        "spirit-mcq-04",
+        "spirit-mcq-12",
+        "spirit-mcq-11"
       ],
       "explanation": "本句的「spirit」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
       "sentenceIndex": 31,
@@ -1474,12 +1348,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-15": "本句的「spirit」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-15"
     },
@@ -1491,11 +1363,9 @@ export default {
       "masked": "People once believed that ____ lived in the mountains.",
       "options": [
         "spirit-mcq-15",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
-        "spirit-mcq-12"
+        "spirit-mcq-12",
+        "spirit-mcq-04",
+        "spirit-mcq-11"
       ],
       "explanation": "本句的「spirits」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
       "sentenceIndex": 32,
@@ -1504,12 +1374,10 @@ export default {
         "spirits"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-15": "本句的「spirits」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-15"
     },
@@ -1521,11 +1389,9 @@ export default {
       "masked": "The shop sells wine, beer, and ____.",
       "options": [
         "spirit-mcq-15",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
-        "spirit-mcq-12"
+        "spirit-mcq-12",
+        "spirit-mcq-04",
+        "spirit-mcq-11"
       ],
       "explanation": "本句的「spirits」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
       "sentenceIndex": 33,
@@ -1534,12 +1400,10 @@ export default {
         "spirits"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-15": "本句的「spirits」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-15"
     },
@@ -1551,11 +1415,9 @@ export default {
       "masked": "Passengers cannot bring large bottles of ____ through security.",
       "options": [
         "spirit-mcq-15",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
-        "spirit-mcq-12"
+        "spirit-mcq-12",
+        "spirit-mcq-11",
+        "spirit-mcq-04"
       ],
       "explanation": "本句的「spirits」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
       "sentenceIndex": 34,
@@ -1564,12 +1426,10 @@ export default {
         "spirits"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-15": "本句的「spirits」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-15"
     },
@@ -1581,11 +1441,9 @@ export default {
       "masked": "They had a ____ discussion about the issue.",
       "options": [
         "spirit-mcq-15",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
-        "spirit-mcq-12"
+        "spirit-mcq-12",
+        "spirit-mcq-04",
+        "spirit-mcq-11"
       ],
       "explanation": "本句的「spirited」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
       "sentenceIndex": 35,
@@ -1594,12 +1452,10 @@ export default {
         "spirited"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-15": "本句的「spirited」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-15"
     },
@@ -1611,11 +1467,9 @@ export default {
       "masked": "The team made a ____ comeback in the second half.",
       "options": [
         "spirit-mcq-15",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
-        "spirit-mcq-12"
+        "spirit-mcq-11",
+        "spirit-mcq-12",
+        "spirit-mcq-04"
       ],
       "explanation": "本句的「spirited」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
       "sentenceIndex": 36,
@@ -1624,12 +1478,10 @@ export default {
         "spirited"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-15": "本句的「spirited」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-15"
     },
@@ -1641,11 +1493,9 @@ export default {
       "masked": "She has always been a free ____ who dislikes strict routines.",
       "options": [
         "spirit-mcq-15",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
-        "spirit-mcq-12"
+        "spirit-mcq-12",
+        "spirit-mcq-11",
+        "spirit-mcq-04"
       ],
       "explanation": "本句的「spirit」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
       "sentenceIndex": 37,
@@ -1654,12 +1504,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-15": "本句的「spirit」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-15"
     },
@@ -1671,10 +1519,8 @@ export default {
       "masked": "Everyone in the family sees him as a free ____.",
       "options": [
         "spirit-mcq-15",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
+        "spirit-mcq-11",
+        "spirit-mcq-04",
         "spirit-mcq-12"
       ],
       "explanation": "本句的「spirit」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
@@ -1684,12 +1530,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-15": "本句的「spirit」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-15"
     },
@@ -1701,11 +1545,9 @@ export default {
       "masked": "I immediately felt that she was a kindred ____.",
       "options": [
         "spirit-mcq-15",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
-        "spirit-mcq-12"
+        "spirit-mcq-12",
+        "spirit-mcq-11",
+        "spirit-mcq-04"
       ],
       "explanation": "本句的「spirit」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
       "sentenceIndex": 39,
@@ -1714,12 +1556,10 @@ export default {
         "spirit"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-15": "本句的「spirit」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-15"
     },
@@ -1731,11 +1571,9 @@ export default {
       "masked": "The two artists became friends because they were kindred ____.",
       "options": [
         "spirit-mcq-15",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
-        "spirit-mcq-12"
+        "spirit-mcq-11",
+        "spirit-mcq-12",
+        "spirit-mcq-04"
       ],
       "explanation": "本句的「spirits」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
       "sentenceIndex": 40,
@@ -1744,12 +1582,10 @@ export default {
         "spirits"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-15": "本句的「spirits」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-15"
     },
@@ -1761,11 +1597,9 @@ export default {
       "masked": "She finds ____ comfort in meditation.",
       "options": [
         "spirit-mcq-15",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
-        "spirit-mcq-12"
+        "spirit-mcq-11",
+        "spirit-mcq-12",
+        "spirit-mcq-04"
       ],
       "explanation": "本句的「spiritual」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
       "sentenceIndex": 41,
@@ -1774,12 +1608,10 @@ export default {
         "spiritual"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-15": "本句的「spiritual」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-15"
     },
@@ -1791,11 +1623,9 @@ export default {
       "masked": "For him, the journey was a deeply ____ experience.",
       "options": [
         "spirit-mcq-15",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
-        "spirit-mcq-12"
+        "spirit-mcq-04",
+        "spirit-mcq-12",
+        "spirit-mcq-11"
       ],
       "explanation": "本句的「spiritual」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
       "sentenceIndex": 42,
@@ -1804,12 +1634,10 @@ export default {
         "spiritual"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-15": "本句的「spiritual」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-15"
     },
@@ -1821,11 +1649,9 @@ export default {
       "masked": "He turned to a ____ leader for guidance.",
       "options": [
         "spirit-mcq-15",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
-        "spirit-mcq-12"
+        "spirit-mcq-11",
+        "spirit-mcq-12",
+        "spirit-mcq-04"
       ],
       "explanation": "本句的「spiritual」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
       "sentenceIndex": 43,
@@ -1834,12 +1660,10 @@ export default {
         "spiritual"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-15": "本句的「spiritual」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-15"
     },
@@ -1851,10 +1675,8 @@ export default {
       "masked": "The building has great ____ significance for the community.",
       "options": [
         "spirit-mcq-15",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
+        "spirit-mcq-04",
+        "spirit-mcq-11",
         "spirit-mcq-12"
       ],
       "explanation": "本句的「spiritual」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
@@ -1864,12 +1686,10 @@ export default {
         "spiritual"
       ],
       "optionReasons": {
-        "spirit-mcq-15": "本句指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」是「spirit — supernatural being」的用法，與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」是「spirits — alcohol」的用法，與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」是「spirit — soul」的用法，與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」是「spirited」的用法，與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」是「spirit — atmosphere」的用法，與本句語境不同。"
+        "spirit-mcq-15": "本句的「spiritual」指「宗教語境中的神聖靈性存在；具體意思取決於宗教傳統」。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-15"
     },
@@ -1881,11 +1701,9 @@ export default {
       "masked": "She became more interested in ____ as she grew older.",
       "options": [
         "spirit-mcq-22",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
-        "spirit-mcq-12"
+        "spirit-mcq-09",
+        "spirit-mcq-04",
+        "spirit-mcq-11"
       ],
       "explanation": "本句的「spirituality」指「對內在生命、人生意義、靈魂或超越物質生活的關注與實踐」。",
       "sentenceIndex": 45,
@@ -1894,12 +1712,10 @@ export default {
         "spirituality"
       ],
       "optionReasons": {
-        "spirit-mcq-22": "本句指「對內在生命、人生意義、靈魂或超越物質生活的關注與實踐」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」與本句語境不同。"
+        "spirit-mcq-22": "本句的「spirituality」指「對內在生命、人生意義、靈魂或超越物質生活的關注與實踐」。",
+        "spirit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-22"
     },
@@ -1911,11 +1727,9 @@ export default {
       "masked": "For some people, ____ is important even without formal religion.",
       "options": [
         "spirit-mcq-22",
-        "spirit-mcq-14",
-        "spirit-mcq-16",
-        "spirit-mcq-13",
-        "spirit-mcq-17",
-        "spirit-mcq-12"
+        "spirit-mcq-09",
+        "spirit-mcq-11",
+        "spirit-mcq-23"
       ],
       "explanation": "本句的「spirituality」指「對內在生命、人生意義、靈魂或超越物質生活的關注與實踐」。",
       "sentenceIndex": 46,
@@ -1924,12 +1738,10 @@ export default {
         "spirituality"
       ],
       "optionReasons": {
-        "spirit-mcq-22": "本句指「對內在生命、人生意義、靈魂或超越物質生活的關注與實踐」。",
-        "spirit-mcq-14": "「沒有普通實體身體的鬼魂、靈體或超自然存在」與本句語境不同。",
-        "spirit-mcq-16": "「酒精濃度較高、通常經蒸餾製成的烈酒」與本句語境不同。",
-        "spirit-mcq-13": "「被視為存在於人體中、不同於物質身體的靈魂／精神本體」與本句語境不同。",
-        "spirit-mcq-17": "「表現出活力、熱情、勇氣或決心的」與本句語境不同。",
-        "spirit-mcq-12": "「某場合或活動所形成並感染參與者的共同氣氛」與本句語境不同。"
+        "spirit-mcq-22": "本句的「spirituality」指「對內在生命、人生意義、靈魂或超越物質生活的關注與實踐」。",
+        "spirit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spirit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spirit-mcq-22"
     }
@@ -1941,5 +1753,7 @@ export default {
     "sha256": "d6bd47a7ef0a18b6e98715391201b1ca994bf3a39870e4f7e810a0266af60dc3",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

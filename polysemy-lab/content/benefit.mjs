@@ -60,16 +60,6 @@ export default {
           "The changes benefited the local community.",
           "這些改變惠及了本地社區。",
           "對某人／某事產生好處，使其受惠"
-        ],
-        [
-          "The benefit of a small bakery is personal service.",
-          "小型麵包店的好處是服務較有人情味。",
-          "對某人／某事產生好處，使其受惠"
-        ],
-        [
-          "One benefit of buying locally is freshness.",
-          "在本地購買的一個好處是新鮮。",
-          "對某人／某事產生好處，使其受惠"
         ]
       ],
       "options": [],
@@ -240,6 +230,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "benefit-reviewed-9d42f3603d",
+      "title": "X 所帶來的正面效果／優點",
+      "form": "benefit · source section 4",
+      "en": "X 所帶來的正面效果／優點",
+      "zh": "X 所帶來的正面效果／優點",
+      "note": "對照原始教材第 4 節及例句核實。",
+      "examples": [
+        [
+          "The benefit of a small bakery is personal service.",
+          "小型麵包店的好處是服務較有人情味。",
+          "X 所帶來的正面效果／優點"
+        ],
+        [
+          "One benefit of buying locally is freshness.",
+          "在本地購買的一個好處是新鮮。",
+          "X 所帶來的正面效果／優點"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -251,11 +263,8 @@ export default {
       "masked": "The bakery ____ word of mouth.",
       "options": [
         "benefit-mcq-01",
-        "benefit-mcq-02",
-        "benefit-mcq-03",
-        "benefit-mcq-04",
-        "benefit-mcq-05",
-        "benefit-mcq-06"
+        "benefit-mcq-06",
+        "benefit-mcq-09"
       ],
       "explanation": "本句的「benefits from」指「某件事帶來的正面結果、好處或益處」。",
       "sentenceIndex": 0,
@@ -264,12 +273,9 @@ export default {
         "benefits from"
       ],
       "optionReasons": {
-        "benefit-mcq-01": "本句指「某件事帶來的正面結果、好處或益處」。",
-        "benefit-mcq-02": "「因 X 而獲得正面效果、優勢或改善」與本句語境不同。",
-        "benefit-mcq-03": "「對某人／某事產生好處，使其受惠」與本句語境不同。",
-        "benefit-mcq-04": "「為了幫助某人或令其獲得方便／利益」與本句語境不同。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。"
+        "benefit-mcq-01": "本句的「benefits from」指「某件事帶來的正面結果、好處或益處」。",
+        "benefit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "benefit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-mcq-01"
     },
@@ -281,11 +287,8 @@ export default {
       "masked": "Small businesses can ____ from loyal customers.",
       "options": [
         "benefit-mcq-01",
-        "benefit-mcq-02",
-        "benefit-mcq-03",
-        "benefit-mcq-04",
-        "benefit-mcq-05",
-        "benefit-mcq-06"
+        "benefit-mcq-06",
+        "benefit-mcq-09"
       ],
       "explanation": "本句的「benefit」指「某件事帶來的正面結果、好處或益處」。",
       "sentenceIndex": 1,
@@ -294,12 +297,9 @@ export default {
         "benefit"
       ],
       "optionReasons": {
-        "benefit-mcq-01": "本句指「某件事帶來的正面結果、好處或益處」。",
-        "benefit-mcq-02": "「因 X 而獲得正面效果、優勢或改善」與本句語境不同。",
-        "benefit-mcq-03": "「對某人／某事產生好處，使其受惠」與本句語境不同。",
-        "benefit-mcq-04": "「為了幫助某人或令其獲得方便／利益」與本句語境不同。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。"
+        "benefit-mcq-01": "本句的「benefit」指「某件事帶來的正面結果、好處或益處」。",
+        "benefit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "benefit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-mcq-01"
     },
@@ -311,11 +311,8 @@ export default {
       "masked": "The area ____ from good transport links.",
       "options": [
         "benefit-mcq-01",
-        "benefit-mcq-02",
-        "benefit-mcq-03",
-        "benefit-mcq-04",
         "benefit-mcq-05",
-        "benefit-mcq-06"
+        "benefit-mcq-09"
       ],
       "explanation": "本句的「benefits」指「某件事帶來的正面結果、好處或益處」。",
       "sentenceIndex": 2,
@@ -324,12 +321,9 @@ export default {
         "benefits"
       ],
       "optionReasons": {
-        "benefit-mcq-01": "本句指「某件事帶來的正面結果、好處或益處」。",
-        "benefit-mcq-02": "「因 X 而獲得正面效果、優勢或改善」與本句語境不同。",
-        "benefit-mcq-03": "「對某人／某事產生好處，使其受惠」與本句語境不同。",
-        "benefit-mcq-04": "「為了幫助某人或令其獲得方便／利益」與本句語境不同。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。"
+        "benefit-mcq-01": "本句的「benefits」指「某件事帶來的正面結果、好處或益處」。",
+        "benefit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "benefit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-mcq-01"
     },
@@ -341,10 +335,6 @@ export default {
       "masked": "The new system will ____ customers.",
       "options": [
         "benefit-mcq-03",
-        "benefit-mcq-02",
-        "benefit-mcq-04",
-        "benefit-mcq-01",
-        "benefit-mcq-05",
         "benefit-mcq-06"
       ],
       "explanation": "本句的「benefit」指「對某人／某事產生好處，使其受惠」。",
@@ -354,12 +344,8 @@ export default {
         "benefit"
       ],
       "optionReasons": {
-        "benefit-mcq-03": "本句指「對某人／某事產生好處，使其受惠」。",
-        "benefit-mcq-02": "「因 X 而獲得正面效果、優勢或改善」與本句語境不同。",
-        "benefit-mcq-04": "「為了幫助某人或令其獲得方便／利益」與本句語境不同。",
-        "benefit-mcq-01": "「某件事帶來的正面結果、好處或益處」與本句語境不同。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。"
+        "benefit-mcq-03": "本句的「benefit」指「對某人／某事產生好處，使其受惠」。",
+        "benefit-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-mcq-03"
     },
@@ -371,11 +357,7 @@ export default {
       "masked": "The changes ____ the local community.",
       "options": [
         "benefit-mcq-03",
-        "benefit-mcq-02",
-        "benefit-mcq-04",
-        "benefit-mcq-01",
-        "benefit-mcq-05",
-        "benefit-mcq-06"
+        "benefit-mcq-07"
       ],
       "explanation": "本句的「benefited」指「對某人／某事產生好處，使其受惠」。",
       "sentenceIndex": 4,
@@ -384,12 +366,8 @@ export default {
         "benefited"
       ],
       "optionReasons": {
-        "benefit-mcq-03": "本句指「對某人／某事產生好處，使其受惠」。",
-        "benefit-mcq-02": "「因 X 而獲得正面效果、優勢或改善」與本句語境不同。",
-        "benefit-mcq-04": "「為了幫助某人或令其獲得方便／利益」與本句語境不同。",
-        "benefit-mcq-01": "「某件事帶來的正面結果、好處或益處」與本句語境不同。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。"
+        "benefit-mcq-03": "本句的「benefited」指「對某人／某事產生好處，使其受惠」。",
+        "benefit-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-mcq-03"
     },
@@ -401,11 +379,8 @@ export default {
       "masked": "One ____ of shopping locally is convenience.",
       "options": [
         "benefit-pdf-001",
-        "benefit-mcq-02",
-        "benefit-mcq-04",
-        "benefit-mcq-01",
         "benefit-mcq-05",
-        "benefit-mcq-06"
+        "benefit-mcq-09"
       ],
       "explanation": "本句的「benefit」指「某件事帶來的正面結果、優勢或好處」。",
       "sentenceIndex": 5,
@@ -414,12 +389,9 @@ export default {
         "benefit"
       ],
       "optionReasons": {
-        "benefit-pdf-001": "本句指「某件事帶來的正面結果、優勢或好處」。",
-        "benefit-mcq-02": "「因 X 而獲得正面效果、優勢或改善」與本句語境不同。",
-        "benefit-mcq-04": "「為了幫助某人或令其獲得方便／利益」與本句語境不同。",
-        "benefit-mcq-01": "「某件事帶來的正面結果、好處或益處」與本句語境不同。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。"
+        "benefit-pdf-001": "本句的「benefit」指「某件事帶來的正面結果、優勢或好處」。",
+        "benefit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "benefit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-pdf-001"
     },
@@ -431,11 +403,7 @@ export default {
       "masked": "The new service offers several ____.",
       "options": [
         "benefit-pdf-001",
-        "benefit-mcq-02",
-        "benefit-mcq-04",
-        "benefit-mcq-01",
-        "benefit-mcq-05",
-        "benefit-mcq-06"
+        "benefit-mcq-10"
       ],
       "explanation": "本句的「benefits」指「某件事帶來的正面結果、優勢或好處」。",
       "sentenceIndex": 6,
@@ -444,74 +412,60 @@ export default {
         "benefits"
       ],
       "optionReasons": {
-        "benefit-pdf-001": "本句指「某件事帶來的正面結果、優勢或好處」。",
-        "benefit-mcq-02": "「因 X 而獲得正面效果、優勢或改善」與本句語境不同。",
-        "benefit-mcq-04": "「為了幫助某人或令其獲得方便／利益」與本句語境不同。",
-        "benefit-mcq-01": "「某件事帶來的正面結果、好處或益處」與本句語境不同。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。"
+        "benefit-pdf-001": "本句的「benefits」指「某件事帶來的正面結果、優勢或好處」。",
+        "benefit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-pdf-001"
     },
     {
       "id": "benefit-04-0",
-      "sense": "benefit-mcq-03",
+      "sense": "benefit-reviewed-9d42f3603d",
       "en": "The benefit of a small bakery is personal service.",
       "zh": "小型麵包店的好處是服務較有人情味。",
       "masked": "The ____ a small bakery is personal service.",
       "options": [
-        "benefit-mcq-03",
-        "benefit-mcq-02",
-        "benefit-mcq-04",
-        "benefit-mcq-01",
-        "benefit-mcq-05",
-        "benefit-mcq-06"
+        "benefit-reviewed-9d42f3603d",
+        "benefit-mcq-10"
       ],
-      "explanation": "本句的「benefit of」指「對某人／某事產生好處，使其受惠」。",
+      "explanation": "對照完整句子：「小型麵包店的好處是服務較有人情味。」。這裡的「benefit of」表示「X 所帶來的正面效果／優點」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "benefit of"
       ],
       "optionReasons": {
-        "benefit-mcq-03": "本句指「對某人／某事產生好處，使其受惠」。",
-        "benefit-mcq-02": "「因 X 而獲得正面效果、優勢或改善」與本句語境不同。",
-        "benefit-mcq-04": "「為了幫助某人或令其獲得方便／利益」與本句語境不同。",
-        "benefit-mcq-01": "「某件事帶來的正面結果、好處或益處」與本句語境不同。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。"
+        "benefit-reviewed-9d42f3603d": "對照完整句子：「小型麵包店的好處是服務較有人情味。」。這裡的「benefit of」表示「X 所帶來的正面效果／優點」。",
+        "benefit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "benefit-mcq-03"
+      "correctOption": "benefit-reviewed-9d42f3603d",
+      "previousCorrectOption": "benefit-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "benefit-04-1",
-      "sense": "benefit-mcq-03",
+      "sense": "benefit-reviewed-9d42f3603d",
       "en": "One benefit of buying locally is freshness.",
       "zh": "在本地購買的一個好處是新鮮。",
       "masked": "One ____ of buying locally is freshness.",
       "options": [
-        "benefit-mcq-03",
-        "benefit-mcq-02",
-        "benefit-mcq-04",
-        "benefit-mcq-01",
-        "benefit-mcq-05",
-        "benefit-mcq-06"
+        "benefit-reviewed-9d42f3603d",
+        "benefit-mcq-06",
+        "benefit-mcq-09"
       ],
-      "explanation": "本句的「benefit」指「對某人／某事產生好處，使其受惠」。",
+      "explanation": "對照完整句子：「在本地購買的一個好處是新鮮。」。這裡的「benefit」表示「X 所帶來的正面效果／優點」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "benefit"
       ],
       "optionReasons": {
-        "benefit-mcq-03": "本句指「對某人／某事產生好處，使其受惠」。",
-        "benefit-mcq-02": "「因 X 而獲得正面效果、優勢或改善」與本句語境不同。",
-        "benefit-mcq-04": "「為了幫助某人或令其獲得方便／利益」與本句語境不同。",
-        "benefit-mcq-01": "「某件事帶來的正面結果、好處或益處」與本句語境不同。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。"
+        "benefit-reviewed-9d42f3603d": "對照完整句子：「在本地購買的一個好處是新鮮。」。這裡的「benefit」表示「X 所帶來的正面效果／優點」。",
+        "benefit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "benefit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "benefit-mcq-03"
+      "correctOption": "benefit-reviewed-9d42f3603d",
+      "previousCorrectOption": "benefit-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "benefit-05-0",
@@ -521,11 +475,8 @@ export default {
       "masked": "The explanation was repeated ____ new staff.",
       "options": [
         "benefit-mcq-04",
-        "benefit-mcq-03",
-        "benefit-mcq-05",
-        "benefit-mcq-02",
-        "benefit-mcq-06",
-        "benefit-mcq-01"
+        "benefit-pdf-001",
+        "benefit-mcq-07"
       ],
       "explanation": "本句的「for the benefit of」指「為了幫助某人或令其獲得方便／利益」。",
       "sentenceIndex": 9,
@@ -534,12 +485,9 @@ export default {
         "for the benefit of"
       ],
       "optionReasons": {
-        "benefit-mcq-04": "本句指「為了幫助某人或令其獲得方便／利益」。",
-        "benefit-mcq-03": "「對某人／某事產生好處，使其受惠」與本句語境不同。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。",
-        "benefit-mcq-02": "「因 X 而獲得正面效果、優勢或改善」與本句語境不同。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。",
-        "benefit-mcq-01": "「某件事帶來的正面結果、好處或益處」與本句語境不同。"
+        "benefit-mcq-04": "本句的「for the benefit of」指「為了幫助某人或令其獲得方便／利益」。",
+        "benefit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "benefit-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-mcq-04"
     },
@@ -551,11 +499,8 @@ export default {
       "masked": "These instructions are provided for your ____.",
       "options": [
         "benefit-mcq-04",
-        "benefit-mcq-03",
-        "benefit-mcq-05",
-        "benefit-mcq-02",
-        "benefit-mcq-06",
-        "benefit-mcq-01"
+        "benefit-pdf-001",
+        "benefit-mcq-07"
       ],
       "explanation": "本句的「benefit」指「為了幫助某人或令其獲得方便／利益」。",
       "sentenceIndex": 10,
@@ -564,12 +509,9 @@ export default {
         "benefit"
       ],
       "optionReasons": {
-        "benefit-mcq-04": "本句指「為了幫助某人或令其獲得方便／利益」。",
-        "benefit-mcq-03": "「對某人／某事產生好處，使其受惠」與本句語境不同。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。",
-        "benefit-mcq-02": "「因 X 而獲得正面效果、優勢或改善」與本句語境不同。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。",
-        "benefit-mcq-01": "「某件事帶來的正面結果、好處或益處」與本句語境不同。"
+        "benefit-mcq-04": "本句的「benefit」指「為了幫助某人或令其獲得方便／利益」。",
+        "benefit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "benefit-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-mcq-04"
     },
@@ -581,11 +523,8 @@ export default {
       "masked": "The job comes with good ____.",
       "options": [
         "benefit-mcq-05",
-        "benefit-mcq-04",
-        "benefit-mcq-06",
-        "benefit-mcq-03",
-        "benefit-mcq-07",
-        "benefit-mcq-02"
+        "benefit-reviewed-9d42f3603d",
+        "benefit-mcq-09"
       ],
       "explanation": "本句的「benefits」指「僱主除薪金外提供的保險、假期、退休待遇等福利」。",
       "sentenceIndex": 13,
@@ -594,12 +533,9 @@ export default {
         "benefits"
       ],
       "optionReasons": {
-        "benefit-mcq-05": "本句指「僱主除薪金外提供的保險、假期、退休待遇等福利」。",
-        "benefit-mcq-04": "「為了幫助某人或令其獲得方便／利益」與本句語境不同。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。",
-        "benefit-mcq-03": "「對某人／某事產生好處，使其受惠」與本句語境不同。",
-        "benefit-mcq-07": "「根據保險、退休或福利制度支付的給付／待遇」與本句語境不同。",
-        "benefit-mcq-02": "「因 X 而獲得正面效果、優勢或改善」與本句語境不同。"
+        "benefit-mcq-05": "本句的「benefits」指「僱主除薪金外提供的保險、假期、退休待遇等福利」。",
+        "benefit-reviewed-9d42f3603d": "請比較這個意思與句子中標示的用法。",
+        "benefit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-mcq-05"
     },
@@ -611,11 +547,8 @@ export default {
       "masked": "Health insurance is one of the company’s ____.",
       "options": [
         "benefit-mcq-05",
-        "benefit-mcq-04",
-        "benefit-mcq-06",
-        "benefit-mcq-03",
-        "benefit-mcq-07",
-        "benefit-mcq-02"
+        "benefit-pdf-001",
+        "benefit-mcq-09"
       ],
       "explanation": "本句的「benefits」指「僱主除薪金外提供的保險、假期、退休待遇等福利」。",
       "sentenceIndex": 14,
@@ -624,12 +557,9 @@ export default {
         "benefits"
       ],
       "optionReasons": {
-        "benefit-mcq-05": "本句指「僱主除薪金外提供的保險、假期、退休待遇等福利」。",
-        "benefit-mcq-04": "「為了幫助某人或令其獲得方便／利益」與本句語境不同。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。",
-        "benefit-mcq-03": "「對某人／某事產生好處，使其受惠」與本句語境不同。",
-        "benefit-mcq-07": "「根據保險、退休或福利制度支付的給付／待遇」與本句語境不同。",
-        "benefit-mcq-02": "「因 X 而獲得正面效果、優勢或改善」與本句語境不同。"
+        "benefit-mcq-05": "本句的「benefits」指「僱主除薪金外提供的保險、假期、退休待遇等福利」。",
+        "benefit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "benefit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-mcq-05"
     },
@@ -641,11 +571,8 @@ export default {
       "masked": "He applied for unemployment ____.",
       "options": [
         "benefit-mcq-06",
-        "benefit-mcq-05",
-        "benefit-mcq-07",
-        "benefit-mcq-04",
-        "benefit-mcq-08",
-        "benefit-mcq-03"
+        "benefit-mcq-01",
+        "benefit-mcq-09"
       ],
       "explanation": "本句的「benefit」指「政府／公共制度提供的金錢補助或福利金」。",
       "sentenceIndex": 15,
@@ -654,12 +581,9 @@ export default {
         "benefit"
       ],
       "optionReasons": {
-        "benefit-mcq-06": "本句指「政府／公共制度提供的金錢補助或福利金」。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。",
-        "benefit-mcq-07": "「根據保險、退休或福利制度支付的給付／待遇」與本句語境不同。",
-        "benefit-mcq-04": "「為了幫助某人或令其獲得方便／利益」與本句語境不同。",
-        "benefit-mcq-08": "「能帶來好處、改善或正面效果的」與本句語境不同。",
-        "benefit-mcq-03": "「對某人／某事產生好處，使其受惠」與本句語境不同。"
+        "benefit-mcq-06": "本句的「benefit」指「政府／公共制度提供的金錢補助或福利金」。",
+        "benefit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "benefit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-mcq-06"
     },
@@ -671,11 +595,8 @@ export default {
       "masked": "Some families receive housing ____.",
       "options": [
         "benefit-mcq-06",
-        "benefit-mcq-05",
-        "benefit-mcq-07",
-        "benefit-mcq-04",
         "benefit-mcq-08",
-        "benefit-mcq-03"
+        "benefit-mcq-09"
       ],
       "explanation": "本句的「benefits」指「政府／公共制度提供的金錢補助或福利金」。",
       "sentenceIndex": 16,
@@ -684,12 +605,9 @@ export default {
         "benefits"
       ],
       "optionReasons": {
-        "benefit-mcq-06": "本句指「政府／公共制度提供的金錢補助或福利金」。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。",
-        "benefit-mcq-07": "「根據保險、退休或福利制度支付的給付／待遇」與本句語境不同。",
-        "benefit-mcq-04": "「為了幫助某人或令其獲得方便／利益」與本句語境不同。",
-        "benefit-mcq-08": "「能帶來好處、改善或正面效果的」與本句語境不同。",
-        "benefit-mcq-03": "「對某人／某事產生好處，使其受惠」與本句語境不同。"
+        "benefit-mcq-06": "本句的「benefits」指「政府／公共制度提供的金錢補助或福利金」。",
+        "benefit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "benefit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-mcq-06"
     },
@@ -701,11 +619,8 @@ export default {
       "masked": "The policy pays ____ after an accident.",
       "options": [
         "benefit-mcq-07",
-        "benefit-mcq-06",
-        "benefit-mcq-08",
-        "benefit-mcq-05",
-        "benefit-mcq-09",
-        "benefit-mcq-04"
+        "benefit-mcq-01",
+        "benefit-mcq-09"
       ],
       "explanation": "本句的「benefits」指「根據保險、退休或福利制度支付的給付／待遇」。",
       "sentenceIndex": 17,
@@ -714,12 +629,9 @@ export default {
         "benefits"
       ],
       "optionReasons": {
-        "benefit-mcq-07": "本句指「根據保險、退休或福利制度支付的給付／待遇」。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。",
-        "benefit-mcq-08": "「能帶來好處、改善或正面效果的」與本句語境不同。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。",
-        "benefit-mcq-09": "「從某項安排、政策或活動中獲益的人／群體」與本句語境不同。",
-        "benefit-mcq-04": "「為了幫助某人或令其獲得方便／利益」與本句語境不同。"
+        "benefit-mcq-07": "本句的「benefits」指「根據保險、退休或福利制度支付的給付／待遇」。",
+        "benefit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "benefit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-mcq-07"
     },
@@ -731,11 +643,8 @@ export default {
       "masked": "Employees receive retirement ____.",
       "options": [
         "benefit-mcq-07",
-        "benefit-mcq-06",
-        "benefit-mcq-08",
-        "benefit-mcq-05",
-        "benefit-mcq-09",
-        "benefit-mcq-04"
+        "benefit-mcq-01",
+        "benefit-mcq-09"
       ],
       "explanation": "本句的「benefits」指「根據保險、退休或福利制度支付的給付／待遇」。",
       "sentenceIndex": 18,
@@ -744,12 +653,9 @@ export default {
         "benefits"
       ],
       "optionReasons": {
-        "benefit-mcq-07": "本句指「根據保險、退休或福利制度支付的給付／待遇」。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。",
-        "benefit-mcq-08": "「能帶來好處、改善或正面效果的」與本句語境不同。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。",
-        "benefit-mcq-09": "「從某項安排、政策或活動中獲益的人／群體」與本句語境不同。",
-        "benefit-mcq-04": "「為了幫助某人或令其獲得方便／利益」與本句語境不同。"
+        "benefit-mcq-07": "本句的「benefits」指「根據保險、退休或福利制度支付的給付／待遇」。",
+        "benefit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "benefit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-mcq-07"
     },
@@ -762,10 +668,7 @@ export default {
       "options": [
         "benefit-mcq-08",
         "benefit-mcq-07",
-        "benefit-mcq-09",
-        "benefit-mcq-06",
-        "benefit-mcq-10",
-        "benefit-mcq-05"
+        "benefit-mcq-04"
       ],
       "explanation": "本句的「beneficial」指「能帶來好處、改善或正面效果的」。",
       "sentenceIndex": 19,
@@ -774,12 +677,9 @@ export default {
         "beneficial"
       ],
       "optionReasons": {
-        "benefit-mcq-08": "本句指「能帶來好處、改善或正面效果的」。",
-        "benefit-mcq-07": "「根據保險、退休或福利制度支付的給付／待遇」與本句語境不同。",
-        "benefit-mcq-09": "「從某項安排、政策或活動中獲益的人／群體」與本句語境不同。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。",
-        "benefit-mcq-10": "「在保險、遺產、信託等法律安排下有權取得利益的人」與本句語境不同。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。"
+        "benefit-mcq-08": "本句的「beneficial」指「能帶來好處、改善或正面效果的」。",
+        "benefit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "benefit-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-mcq-08"
     },
@@ -791,11 +691,8 @@ export default {
       "masked": "Exercise is ____ health.",
       "options": [
         "benefit-mcq-08",
-        "benefit-mcq-07",
-        "benefit-mcq-09",
         "benefit-mcq-06",
-        "benefit-mcq-10",
-        "benefit-mcq-05"
+        "benefit-mcq-09"
       ],
       "explanation": "本句的「beneficial to」指「能帶來好處、改善或正面效果的」。",
       "sentenceIndex": 20,
@@ -804,12 +701,9 @@ export default {
         "beneficial to"
       ],
       "optionReasons": {
-        "benefit-mcq-08": "本句指「能帶來好處、改善或正面效果的」。",
-        "benefit-mcq-07": "「根據保險、退休或福利制度支付的給付／待遇」與本句語境不同。",
-        "benefit-mcq-09": "「從某項安排、政策或活動中獲益的人／群體」與本句語境不同。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。",
-        "benefit-mcq-10": "「在保險、遺產、信託等法律安排下有權取得利益的人」與本句語境不同。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。"
+        "benefit-mcq-08": "本句的「beneficial to」指「能帶來好處、改善或正面效果的」。",
+        "benefit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "benefit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-mcq-08"
     },
@@ -821,11 +715,8 @@ export default {
       "masked": "Local residents were the main ____ of the project.",
       "options": [
         "benefit-mcq-09",
-        "benefit-mcq-08",
-        "benefit-mcq-10",
-        "benefit-mcq-07",
-        "benefit-mcq-06",
-        "benefit-mcq-05"
+        "benefit-reviewed-9d42f3603d",
+        "benefit-mcq-07"
       ],
       "explanation": "本句的「beneficiaries」指「從某項安排、政策或活動中獲益的人／群體」。",
       "sentenceIndex": 21,
@@ -834,12 +725,9 @@ export default {
         "beneficiaries"
       ],
       "optionReasons": {
-        "benefit-mcq-09": "本句指「從某項安排、政策或活動中獲益的人／群體」。",
-        "benefit-mcq-08": "「能帶來好處、改善或正面效果的」與本句語境不同。",
-        "benefit-mcq-10": "「在保險、遺產、信託等法律安排下有權取得利益的人」與本句語境不同。",
-        "benefit-mcq-07": "「根據保險、退休或福利制度支付的給付／待遇」與本句語境不同。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。"
+        "benefit-mcq-09": "本句的「beneficiaries」指「從某項安排、政策或活動中獲益的人／群體」。",
+        "benefit-reviewed-9d42f3603d": "請比較這個意思與句子中標示的用法。",
+        "benefit-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-mcq-09"
     },
@@ -851,11 +739,7 @@ export default {
       "masked": "The insurance ____ receives the payment.",
       "options": [
         "benefit-mcq-10",
-        "benefit-mcq-09",
-        "benefit-mcq-08",
-        "benefit-mcq-07",
-        "benefit-mcq-06",
-        "benefit-mcq-05"
+        "benefit-reviewed-9d42f3603d"
       ],
       "explanation": "本句的「beneficiary」指「在保險、遺產、信託等法律安排下有權取得利益的人」。",
       "sentenceIndex": 22,
@@ -864,12 +748,8 @@ export default {
         "beneficiary"
       ],
       "optionReasons": {
-        "benefit-mcq-10": "本句指「在保險、遺產、信託等法律安排下有權取得利益的人」。",
-        "benefit-mcq-09": "「從某項安排、政策或活動中獲益的人／群體」與本句語境不同。",
-        "benefit-mcq-08": "「能帶來好處、改善或正面效果的」與本句語境不同。",
-        "benefit-mcq-07": "「根據保險、退休或福利制度支付的給付／待遇」與本句語境不同。",
-        "benefit-mcq-06": "「政府／公共制度提供的金錢補助或福利金」與本句語境不同。",
-        "benefit-mcq-05": "「僱主除薪金外提供的保險、假期、退休待遇等福利」與本句語境不同。"
+        "benefit-mcq-10": "本句的「beneficiary」指「在保險、遺產、信託等法律安排下有權取得利益的人」。",
+        "benefit-reviewed-9d42f3603d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "benefit-mcq-10"
     }
@@ -881,5 +761,7 @@ export default {
     "sha256": "3a5bd40b93ca3ed1ba394e370195b22b3995f64b2df106f6074f387d6e8dd9c0",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

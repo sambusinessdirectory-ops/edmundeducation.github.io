@@ -805,11 +805,9 @@ export default {
       "masked": "She ____ from across the street.",
       "options": [
         "wave-mcq-05",
-        "wave-mcq-04",
-        "wave-mcq-06",
-        "wave-mcq-03",
-        "wave-mcq-07",
-        "wave-mcq-02"
+        "wave-mcq-14",
+        "wave-mcq-20",
+        "wave-mcq-24"
       ],
       "explanation": "本句的「waved」指「揮手打招呼」。",
       "sentenceIndex": 2,
@@ -818,12 +816,10 @@ export default {
         "waved"
       ],
       "optionReasons": {
-        "wave-mcq-05": "本句指「揮手打招呼」。",
-        "wave-mcq-04": "「揮手道別」與本句語境不同。",
-        "wave-mcq-06": "「把旗幟、紙張等在空中來回揮動／揮舞」與本句語境不同。",
-        "wave-mcq-03": "「對別人的揮手作出揮手回應」與本句語境不同。",
-        "wave-mcq-07": "「把某物在空中揮來揮去」與本句語境不同。",
-        "wave-mcq-02": "「向某人揮手」與本句語境不同。"
+        "wave-mcq-05": "本句的「waved」指「揮手打招呼」。",
+        "wave-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-05"
     },
@@ -835,11 +831,9 @@ export default {
       "masked": "The children ____ as the bus left.",
       "options": [
         "wave-mcq-05",
-        "wave-mcq-04",
-        "wave-mcq-06",
-        "wave-mcq-03",
-        "wave-mcq-07",
-        "wave-mcq-02"
+        "wave-mcq-21",
+        "wave-mcq-33",
+        "wave-mcq-25"
       ],
       "explanation": "本句的「waved」指「揮手打招呼」。",
       "sentenceIndex": 3,
@@ -848,12 +842,10 @@ export default {
         "waved"
       ],
       "optionReasons": {
-        "wave-mcq-05": "本句指「揮手打招呼」。",
-        "wave-mcq-04": "「揮手道別」與本句語境不同。",
-        "wave-mcq-06": "「把旗幟、紙張等在空中來回揮動／揮舞」與本句語境不同。",
-        "wave-mcq-03": "「對別人的揮手作出揮手回應」與本句語境不同。",
-        "wave-mcq-07": "「把某物在空中揮來揮去」與本句語境不同。",
-        "wave-mcq-02": "「向某人揮手」與本句語境不同。"
+        "wave-mcq-05": "本句的「waved」指「揮手打招呼」。",
+        "wave-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-05"
     },
@@ -865,11 +857,9 @@ export default {
       "masked": "He ____ from the window.",
       "options": [
         "wave-mcq-02",
-        "wave-mcq-01",
-        "wave-mcq-03",
-        "wave-mcq-04",
-        "wave-mcq-05",
-        "wave-mcq-06"
+        "wave-mcq-26",
+        "wave-mcq-16",
+        "wave-mcq-12"
       ],
       "explanation": "本句的「waved at me」指「向某人揮手」。",
       "sentenceIndex": 4,
@@ -878,12 +868,10 @@ export default {
         "waved at me"
       ],
       "optionReasons": {
-        "wave-mcq-02": "本句指「向某人揮手」。",
-        "wave-mcq-01": "「用手左右／上下揮動以打招呼、告別或發出訊號」與本句語境不同。",
-        "wave-mcq-03": "「對別人的揮手作出揮手回應」與本句語境不同。",
-        "wave-mcq-04": "「揮手道別」與本句語境不同。",
-        "wave-mcq-05": "「揮手打招呼」與本句語境不同。",
-        "wave-mcq-06": "「把旗幟、紙張等在空中來回揮動／揮舞」與本句語境不同。"
+        "wave-mcq-02": "本句的「waved at me」指「向某人揮手」。",
+        "wave-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-02"
     },
@@ -895,11 +883,9 @@ export default {
       "masked": "The child ____.",
       "options": [
         "wave-mcq-02",
-        "wave-mcq-01",
-        "wave-mcq-03",
-        "wave-mcq-04",
-        "wave-mcq-05",
-        "wave-mcq-06"
+        "wave-mcq-16",
+        "wave-mcq-21",
+        "wave-mcq-25"
       ],
       "explanation": "本句的「waved at the driver」指「向某人揮手」。",
       "sentenceIndex": 5,
@@ -908,12 +894,10 @@ export default {
         "waved at the driver"
       ],
       "optionReasons": {
-        "wave-mcq-02": "本句指「向某人揮手」。",
-        "wave-mcq-01": "「用手左右／上下揮動以打招呼、告別或發出訊號」與本句語境不同。",
-        "wave-mcq-03": "「對別人的揮手作出揮手回應」與本句語境不同。",
-        "wave-mcq-04": "「揮手道別」與本句語境不同。",
-        "wave-mcq-05": "「揮手打招呼」與本句語境不同。",
-        "wave-mcq-06": "「把旗幟、紙張等在空中來回揮動／揮舞」與本句語境不同。"
+        "wave-mcq-02": "本句的「waved at the driver」指「向某人揮手」。",
+        "wave-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-02"
     },
@@ -925,11 +909,9 @@ export default {
       "masked": "I ____ when I saw her.",
       "options": [
         "wave-mcq-03",
-        "wave-mcq-02",
-        "wave-mcq-04",
-        "wave-mcq-01",
-        "wave-mcq-05",
-        "wave-mcq-06"
+        "wave-mcq-23",
+        "wave-mcq-34",
+        "wave-mcq-18"
       ],
       "explanation": "本句的「waved back」指「對別人的揮手作出揮手回應」。",
       "sentenceIndex": 6,
@@ -938,12 +920,10 @@ export default {
         "waved back"
       ],
       "optionReasons": {
-        "wave-mcq-03": "本句指「對別人的揮手作出揮手回應」。",
-        "wave-mcq-02": "「向某人揮手」與本句語境不同。",
-        "wave-mcq-04": "「揮手道別」與本句語境不同。",
-        "wave-mcq-01": "「用手左右／上下揮動以打招呼、告別或發出訊號」與本句語境不同。",
-        "wave-mcq-05": "「揮手打招呼」與本句語境不同。",
-        "wave-mcq-06": "「把旗幟、紙張等在空中來回揮動／揮舞」與本句語境不同。"
+        "wave-mcq-03": "本句的「waved back」指「對別人的揮手作出揮手回應」。",
+        "wave-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-03"
     },
@@ -955,11 +935,9 @@ export default {
       "masked": "He smiled and ____ at the crowd.",
       "options": [
         "wave-mcq-03",
-        "wave-mcq-02",
-        "wave-mcq-04",
-        "wave-mcq-01",
-        "wave-mcq-05",
-        "wave-mcq-06"
+        "wave-mcq-28",
+        "wave-mcq-20",
+        "wave-mcq-33"
       ],
       "explanation": "本句的「waved back」指「對別人的揮手作出揮手回應」。",
       "sentenceIndex": 7,
@@ -968,12 +946,10 @@ export default {
         "waved back"
       ],
       "optionReasons": {
-        "wave-mcq-03": "本句指「對別人的揮手作出揮手回應」。",
-        "wave-mcq-02": "「向某人揮手」與本句語境不同。",
-        "wave-mcq-04": "「揮手道別」與本句語境不同。",
-        "wave-mcq-01": "「用手左右／上下揮動以打招呼、告別或發出訊號」與本句語境不同。",
-        "wave-mcq-05": "「揮手打招呼」與本句語境不同。",
-        "wave-mcq-06": "「把旗幟、紙張等在空中來回揮動／揮舞」與本句語境不同。"
+        "wave-mcq-03": "本句的「waved back」指「對別人的揮手作出揮手回應」。",
+        "wave-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-03"
     },
@@ -985,11 +961,9 @@ export default {
       "masked": "We ____ at the station.",
       "options": [
         "wave-mcq-04",
-        "wave-mcq-03",
-        "wave-mcq-05",
-        "wave-mcq-02",
-        "wave-mcq-06",
-        "wave-mcq-01"
+        "wave-mcq-30",
+        "wave-mcq-33",
+        "wave-mcq-35"
       ],
       "explanation": "本句的「waved goodbye」指「揮手道別」。",
       "sentenceIndex": 8,
@@ -998,12 +972,10 @@ export default {
         "waved goodbye"
       ],
       "optionReasons": {
-        "wave-mcq-04": "本句指「揮手道別」。",
-        "wave-mcq-03": "「對別人的揮手作出揮手回應」與本句語境不同。",
-        "wave-mcq-05": "「揮手打招呼」與本句語境不同。",
-        "wave-mcq-02": "「向某人揮手」與本句語境不同。",
-        "wave-mcq-06": "「把旗幟、紙張等在空中來回揮動／揮舞」與本句語境不同。",
-        "wave-mcq-01": "「用手左右／上下揮動以打招呼、告別或發出訊號」與本句語境不同。"
+        "wave-mcq-04": "本句的「waved goodbye」指「揮手道別」。",
+        "wave-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-04"
     },
@@ -1015,11 +987,9 @@ export default {
       "masked": "She stood at the door and ____.",
       "options": [
         "wave-mcq-04",
-        "wave-mcq-03",
-        "wave-mcq-05",
-        "wave-mcq-02",
-        "wave-mcq-06",
-        "wave-mcq-01"
+        "wave-mcq-20",
+        "wave-mcq-12",
+        "wave-mcq-16"
       ],
       "explanation": "本句的「waved goodbye」指「揮手道別」。",
       "sentenceIndex": 9,
@@ -1028,12 +998,10 @@ export default {
         "waved goodbye"
       ],
       "optionReasons": {
-        "wave-mcq-04": "本句指「揮手道別」。",
-        "wave-mcq-03": "「對別人的揮手作出揮手回應」與本句語境不同。",
-        "wave-mcq-05": "「揮手打招呼」與本句語境不同。",
-        "wave-mcq-02": "「向某人揮手」與本句語境不同。",
-        "wave-mcq-06": "「把旗幟、紙張等在空中來回揮動／揮舞」與本句語境不同。",
-        "wave-mcq-01": "「用手左右／上下揮動以打招呼、告別或發出訊號」與本句語境不同。"
+        "wave-mcq-04": "本句的「waved goodbye」指「揮手道別」。",
+        "wave-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-04"
     },
@@ -1045,11 +1013,9 @@ export default {
       "masked": "He ____ to his neighbour.",
       "options": [
         "wave-mcq-05",
-        "wave-mcq-04",
-        "wave-mcq-06",
-        "wave-mcq-03",
-        "wave-mcq-07",
-        "wave-mcq-02"
+        "wave-mcq-25",
+        "wave-mcq-17",
+        "wave-mcq-28"
       ],
       "explanation": "本句的「waved hello」指「揮手打招呼」。",
       "sentenceIndex": 10,
@@ -1058,12 +1024,10 @@ export default {
         "waved hello"
       ],
       "optionReasons": {
-        "wave-mcq-05": "本句指「揮手打招呼」。",
-        "wave-mcq-04": "「揮手道別」與本句語境不同。",
-        "wave-mcq-06": "「把旗幟、紙張等在空中來回揮動／揮舞」與本句語境不同。",
-        "wave-mcq-03": "「對別人的揮手作出揮手回應」與本句語境不同。",
-        "wave-mcq-07": "「把某物在空中揮來揮去」與本句語境不同。",
-        "wave-mcq-02": "「向某人揮手」與本句語境不同。"
+        "wave-mcq-05": "本句的「waved hello」指「揮手打招呼」。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-05"
     },
@@ -1075,11 +1039,9 @@ export default {
       "masked": "She looked up and ____.",
       "options": [
         "wave-mcq-05",
-        "wave-mcq-04",
-        "wave-mcq-06",
-        "wave-mcq-03",
-        "wave-mcq-07",
-        "wave-mcq-02"
+        "wave-mcq-37",
+        "wave-mcq-12",
+        "wave-mcq-33"
       ],
       "explanation": "本句的「waved hello」指「揮手打招呼」。",
       "sentenceIndex": 11,
@@ -1088,12 +1050,10 @@ export default {
         "waved hello"
       ],
       "optionReasons": {
-        "wave-mcq-05": "本句指「揮手打招呼」。",
-        "wave-mcq-04": "「揮手道別」與本句語境不同。",
-        "wave-mcq-06": "「把旗幟、紙張等在空中來回揮動／揮舞」與本句語境不同。",
-        "wave-mcq-03": "「對別人的揮手作出揮手回應」與本句語境不同。",
-        "wave-mcq-07": "「把某物在空中揮來揮去」與本句語境不同。",
-        "wave-mcq-02": "「向某人揮手」與本句語境不同。"
+        "wave-mcq-05": "本句的「waved hello」指「揮手打招呼」。",
+        "wave-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-05"
     },
@@ -1105,11 +1065,9 @@ export default {
       "masked": "She ____ above her head.",
       "options": [
         "wave-mcq-06",
-        "wave-mcq-05",
-        "wave-mcq-07",
-        "wave-mcq-04",
-        "wave-mcq-08",
-        "wave-mcq-03"
+        "wave-mcq-35",
+        "wave-mcq-23",
+        "wave-mcq-18"
       ],
       "explanation": "本句的「waved a flag」指「把旗幟、紙張等在空中來回揮動／揮舞」。",
       "sentenceIndex": 12,
@@ -1118,12 +1076,10 @@ export default {
         "waved a flag"
       ],
       "optionReasons": {
-        "wave-mcq-06": "本句指「把旗幟、紙張等在空中來回揮動／揮舞」。",
-        "wave-mcq-05": "「揮手打招呼」與本句語境不同。",
-        "wave-mcq-07": "「把某物在空中揮來揮去」與本句語境不同。",
-        "wave-mcq-04": "「揮手道別」與本句語境不同。",
-        "wave-mcq-08": "「招手示意某人過來」與本句語境不同。",
-        "wave-mcq-03": "「對別人的揮手作出揮手回應」與本句語境不同。"
+        "wave-mcq-06": "本句的「waved a flag」指「把旗幟、紙張等在空中來回揮動／揮舞」。",
+        "wave-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-06"
     },
@@ -1135,11 +1091,9 @@ export default {
       "masked": "He ____ in the air.",
       "options": [
         "wave-mcq-06",
-        "wave-mcq-05",
-        "wave-mcq-07",
-        "wave-mcq-04",
-        "wave-mcq-08",
-        "wave-mcq-03"
+        "wave-mcq-33",
+        "wave-mcq-18",
+        "wave-mcq-26"
       ],
       "explanation": "本句的「waved the paper」指「把旗幟、紙張等在空中來回揮動／揮舞」。",
       "sentenceIndex": 13,
@@ -1148,12 +1102,10 @@ export default {
         "waved the paper"
       ],
       "optionReasons": {
-        "wave-mcq-06": "本句指「把旗幟、紙張等在空中來回揮動／揮舞」。",
-        "wave-mcq-05": "「揮手打招呼」與本句語境不同。",
-        "wave-mcq-07": "「把某物在空中揮來揮去」與本句語境不同。",
-        "wave-mcq-04": "「揮手道別」與本句語境不同。",
-        "wave-mcq-08": "「招手示意某人過來」與本句語境不同。",
-        "wave-mcq-03": "「對別人的揮手作出揮手回應」與本句語境不同。"
+        "wave-mcq-06": "本句的「waved the paper」指「把旗幟、紙張等在空中來回揮動／揮舞」。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-06"
     },
@@ -1165,11 +1117,9 @@ export default {
       "masked": "Stop ____.",
       "options": [
         "wave-mcq-07",
-        "wave-mcq-06",
-        "wave-mcq-08",
-        "wave-mcq-05",
-        "wave-mcq-09",
-        "wave-mcq-04"
+        "wave-mcq-26",
+        "wave-mcq-33",
+        "wave-mcq-12"
       ],
       "explanation": "本句的「waving that stick around」指「把某物在空中揮來揮去」。",
       "sentenceIndex": 14,
@@ -1178,12 +1128,10 @@ export default {
         "waving that stick around"
       ],
       "optionReasons": {
-        "wave-mcq-07": "本句指「把某物在空中揮來揮去」。",
-        "wave-mcq-06": "「把旗幟、紙張等在空中來回揮動／揮舞」與本句語境不同。",
-        "wave-mcq-08": "「招手示意某人過來」與本句語境不同。",
-        "wave-mcq-05": "「揮手打招呼」與本句語境不同。",
-        "wave-mcq-09": "「揮手示意某人繼續前進」與本句語境不同。",
-        "wave-mcq-04": "「揮手道別」與本句語境不同。"
+        "wave-mcq-07": "本句的「waving that stick around」指「把某物在空中揮來揮去」。",
+        "wave-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-07"
     },
@@ -1195,11 +1143,9 @@ export default {
       "masked": "He was ____ excitedly.",
       "options": [
         "wave-mcq-07",
-        "wave-mcq-06",
-        "wave-mcq-08",
-        "wave-mcq-05",
-        "wave-mcq-09",
-        "wave-mcq-04"
+        "wave-mcq-23",
+        "wave-mcq-14",
+        "wave-mcq-34"
       ],
       "explanation": "本句的「waving his phone around」指「把某物在空中揮來揮去」。",
       "sentenceIndex": 15,
@@ -1208,12 +1154,10 @@ export default {
         "waving his phone around"
       ],
       "optionReasons": {
-        "wave-mcq-07": "本句指「把某物在空中揮來揮去」。",
-        "wave-mcq-06": "「把旗幟、紙張等在空中來回揮動／揮舞」與本句語境不同。",
-        "wave-mcq-08": "「招手示意某人過來」與本句語境不同。",
-        "wave-mcq-05": "「揮手打招呼」與本句語境不同。",
-        "wave-mcq-09": "「揮手示意某人繼續前進」與本句語境不同。",
-        "wave-mcq-04": "「揮手道別」與本句語境不同。"
+        "wave-mcq-07": "本句的「waving his phone around」指「把某物在空中揮來揮去」。",
+        "wave-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-07"
     },
@@ -1225,11 +1169,9 @@ export default {
       "masked": "She ____ to her table.",
       "options": [
         "wave-mcq-08",
-        "wave-mcq-07",
-        "wave-mcq-09",
-        "wave-mcq-06",
-        "wave-mcq-10",
-        "wave-mcq-05"
+        "wave-mcq-14",
+        "wave-mcq-23",
+        "wave-mcq-28"
       ],
       "explanation": "本句的「waved me over」指「招手示意某人過來」。",
       "sentenceIndex": 16,
@@ -1238,12 +1180,10 @@ export default {
         "waved me over"
       ],
       "optionReasons": {
-        "wave-mcq-08": "本句指「招手示意某人過來」。",
-        "wave-mcq-07": "「把某物在空中揮來揮去」與本句語境不同。",
-        "wave-mcq-09": "「揮手示意某人繼續前進」與本句語境不同。",
-        "wave-mcq-06": "「把旗幟、紙張等在空中來回揮動／揮舞」與本句語境不同。",
-        "wave-mcq-10": "「揮手示意某人／車輛可以通過」與本句語境不同。",
-        "wave-mcq-05": "「揮手打招呼」與本句語境不同。"
+        "wave-mcq-08": "本句的「waved me over」指「招手示意某人過來」。",
+        "wave-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-08"
     },
@@ -1255,11 +1195,9 @@ export default {
       "masked": "The guard ____.",
       "options": [
         "wave-mcq-08",
-        "wave-mcq-07",
-        "wave-mcq-09",
-        "wave-mcq-06",
-        "wave-mcq-10",
-        "wave-mcq-05"
+        "wave-mcq-27",
+        "wave-mcq-20",
+        "wave-mcq-18"
       ],
       "explanation": "本句的「waved us over」指「招手示意某人過來」。",
       "sentenceIndex": 17,
@@ -1268,12 +1206,10 @@ export default {
         "waved us over"
       ],
       "optionReasons": {
-        "wave-mcq-08": "本句指「招手示意某人過來」。",
-        "wave-mcq-07": "「把某物在空中揮來揮去」與本句語境不同。",
-        "wave-mcq-09": "「揮手示意某人繼續前進」與本句語境不同。",
-        "wave-mcq-06": "「把旗幟、紙張等在空中來回揮動／揮舞」與本句語境不同。",
-        "wave-mcq-10": "「揮手示意某人／車輛可以通過」與本句語境不同。",
-        "wave-mcq-05": "「揮手打招呼」與本句語境不同。"
+        "wave-mcq-08": "本句的「waved us over」指「招手示意某人過來」。",
+        "wave-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-08"
     },
@@ -1285,11 +1221,9 @@ export default {
       "masked": "The officer ____.",
       "options": [
         "wave-mcq-09",
-        "wave-mcq-08",
-        "wave-mcq-10",
-        "wave-mcq-07",
-        "wave-mcq-11",
-        "wave-mcq-06"
+        "wave-mcq-16",
+        "wave-mcq-33",
+        "wave-mcq-25"
       ],
       "explanation": "本句的「waved us on」指「揮手示意某人繼續前進」。",
       "sentenceIndex": 18,
@@ -1298,12 +1232,10 @@ export default {
         "waved us on"
       ],
       "optionReasons": {
-        "wave-mcq-09": "本句指「揮手示意某人繼續前進」。",
-        "wave-mcq-08": "「招手示意某人過來」與本句語境不同。",
-        "wave-mcq-10": "「揮手示意某人／車輛可以通過」與本句語境不同。",
-        "wave-mcq-07": "「把某物在空中揮來揮去」與本句語境不同。",
-        "wave-mcq-11": "「揮手叫某人離開；或不予理會某事」與本句語境不同。",
-        "wave-mcq-06": "「把旗幟、紙張等在空中來回揮動／揮舞」與本句語境不同。"
+        "wave-mcq-09": "本句的「waved us on」指「揮手示意某人繼續前進」。",
+        "wave-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-09"
     },
@@ -1315,11 +1247,9 @@ export default {
       "masked": "The traffic controller ____.",
       "options": [
         "wave-mcq-09",
-        "wave-mcq-08",
-        "wave-mcq-10",
-        "wave-mcq-07",
-        "wave-mcq-11",
-        "wave-mcq-06"
+        "wave-mcq-34",
+        "wave-mcq-24",
+        "wave-mcq-14"
       ],
       "explanation": "本句的「waved the cars on」指「揮手示意某人繼續前進」。",
       "sentenceIndex": 19,
@@ -1328,12 +1258,10 @@ export default {
         "waved the cars on"
       ],
       "optionReasons": {
-        "wave-mcq-09": "本句指「揮手示意某人繼續前進」。",
-        "wave-mcq-08": "「招手示意某人過來」與本句語境不同。",
-        "wave-mcq-10": "「揮手示意某人／車輛可以通過」與本句語境不同。",
-        "wave-mcq-07": "「把某物在空中揮來揮去」與本句語境不同。",
-        "wave-mcq-11": "「揮手叫某人離開；或不予理會某事」與本句語境不同。",
-        "wave-mcq-06": "「把旗幟、紙張等在空中來回揮動／揮舞」與本句語境不同。"
+        "wave-mcq-09": "本句的「waved the cars on」指「揮手示意某人繼續前進」。",
+        "wave-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-09"
     },
@@ -1345,11 +1273,9 @@ export default {
       "masked": "The guard checked our passes and ____.",
       "options": [
         "wave-mcq-10",
-        "wave-mcq-09",
-        "wave-mcq-11",
-        "wave-mcq-08",
-        "wave-mcq-12",
-        "wave-mcq-07"
+        "wave-mcq-34",
+        "wave-mcq-30",
+        "wave-mcq-37"
       ],
       "explanation": "本句的「waved us through」指「揮手示意某人／車輛可以通過」。",
       "sentenceIndex": 20,
@@ -1358,12 +1284,10 @@ export default {
         "waved us through"
       ],
       "optionReasons": {
-        "wave-mcq-10": "本句指「揮手示意某人／車輛可以通過」。",
-        "wave-mcq-09": "「揮手示意某人繼續前進」與本句語境不同。",
-        "wave-mcq-11": "「揮手叫某人離開；或不予理會某事」與本句語境不同。",
-        "wave-mcq-08": "「招手示意某人過來」與本句語境不同。",
-        "wave-mcq-12": "「把批評、擔憂等輕描淡寫地否定／不理會」與本句語境不同。",
-        "wave-mcq-07": "「把某物在空中揮來揮去」與本句語境不同。"
+        "wave-mcq-10": "本句的「waved us through」指「揮手示意某人／車輛可以通過」。",
+        "wave-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-10"
     },
@@ -1375,11 +1299,9 @@ export default {
       "masked": "Police ____.",
       "options": [
         "wave-mcq-10",
-        "wave-mcq-09",
-        "wave-mcq-11",
-        "wave-mcq-08",
-        "wave-mcq-12",
-        "wave-mcq-07"
+        "wave-mcq-24",
+        "wave-mcq-26",
+        "wave-mcq-22"
       ],
       "explanation": "本句的「waved the vehicles through」指「揮手示意某人／車輛可以通過」。",
       "sentenceIndex": 21,
@@ -1388,12 +1310,10 @@ export default {
         "waved the vehicles through"
       ],
       "optionReasons": {
-        "wave-mcq-10": "本句指「揮手示意某人／車輛可以通過」。",
-        "wave-mcq-09": "「揮手示意某人繼續前進」與本句語境不同。",
-        "wave-mcq-11": "「揮手叫某人離開；或不予理會某事」與本句語境不同。",
-        "wave-mcq-08": "「招手示意某人過來」與本句語境不同。",
-        "wave-mcq-12": "「把批評、擔憂等輕描淡寫地否定／不理會」與本句語境不同。",
-        "wave-mcq-07": "「把某物在空中揮來揮去」與本句語境不同。"
+        "wave-mcq-10": "本句的「waved the vehicles through」指「揮手示意某人／車輛可以通過」。",
+        "wave-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-10"
     },
@@ -1405,11 +1325,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "wave-mcq-11",
-        "wave-mcq-10",
-        "wave-mcq-12",
-        "wave-mcq-09",
-        "wave-mcq-13",
-        "wave-mcq-08"
+        "wave-mcq-26",
+        "wave-mcq-18",
+        "wave-mcq-22"
       ],
       "explanation": "本句的「waved the waiter away」指「揮手叫某人離開；或不予理會某事」。",
       "sentenceIndex": 22,
@@ -1418,12 +1336,10 @@ export default {
         "waved the waiter away"
       ],
       "optionReasons": {
-        "wave-mcq-11": "本句指「揮手叫某人離開；或不予理會某事」。",
-        "wave-mcq-10": "「揮手示意某人／車輛可以通過」與本句語境不同。",
-        "wave-mcq-12": "「把批評、擔憂等輕描淡寫地否定／不理會」與本句語境不同。",
-        "wave-mcq-09": "「揮手示意某人繼續前進」與本句語境不同。",
-        "wave-mcq-13": "「海、湖等水面上移動的波浪／海浪」與本句語境不同。",
-        "wave-mcq-08": "「招手示意某人過來」與本句語境不同。"
+        "wave-mcq-11": "本句的「waved the waiter away」指「揮手叫某人離開；或不予理會某事」。",
+        "wave-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-11"
     },
@@ -1435,11 +1351,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "wave-mcq-11",
-        "wave-mcq-10",
-        "wave-mcq-12",
-        "wave-mcq-09",
-        "wave-mcq-13",
-        "wave-mcq-08"
+        "wave-mcq-18",
+        "wave-mcq-25",
+        "wave-mcq-26"
       ],
       "explanation": "本句的「waved away my concerns」指「揮手叫某人離開；或不予理會某事」。",
       "sentenceIndex": 23,
@@ -1448,12 +1362,10 @@ export default {
         "waved away my concerns"
       ],
       "optionReasons": {
-        "wave-mcq-11": "本句指「揮手叫某人離開；或不予理會某事」。",
-        "wave-mcq-10": "「揮手示意某人／車輛可以通過」與本句語境不同。",
-        "wave-mcq-12": "「把批評、擔憂等輕描淡寫地否定／不理會」與本句語境不同。",
-        "wave-mcq-09": "「揮手示意某人繼續前進」與本句語境不同。",
-        "wave-mcq-13": "「海、湖等水面上移動的波浪／海浪」與本句語境不同。",
-        "wave-mcq-08": "「招手示意某人過來」與本句語境不同。"
+        "wave-mcq-11": "本句的「waved away my concerns」指「揮手叫某人離開；或不予理會某事」。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-11"
     },
@@ -1465,11 +1377,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "wave-mcq-12",
-        "wave-mcq-11",
-        "wave-mcq-13",
-        "wave-mcq-10",
-        "wave-mcq-14",
-        "wave-mcq-09"
+        "wave-mcq-26",
+        "wave-mcq-05",
+        "wave-mcq-34"
       ],
       "explanation": "本句的「waved aside the criticism」指「把批評、擔憂等輕描淡寫地否定／不理會」。",
       "sentenceIndex": 24,
@@ -1478,12 +1388,10 @@ export default {
         "waved aside the criticism"
       ],
       "optionReasons": {
-        "wave-mcq-12": "本句指「把批評、擔憂等輕描淡寫地否定／不理會」。",
-        "wave-mcq-11": "「揮手叫某人離開；或不予理會某事」與本句語境不同。",
-        "wave-mcq-13": "「海、湖等水面上移動的波浪／海浪」與本句語境不同。",
-        "wave-mcq-10": "「揮手示意某人／車輛可以通過」與本句語境不同。",
-        "wave-mcq-14": "「大量人、事件等在短時間內一批批出現；一波／浪潮」與本句語境不同。",
-        "wave-mcq-09": "「揮手示意某人繼續前進」與本句語境不同。"
+        "wave-mcq-12": "本句的「waved aside the criticism」指「把批評、擔憂等輕描淡寫地否定／不理會」。",
+        "wave-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-12"
     },
@@ -1495,11 +1403,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "wave-mcq-12",
-        "wave-mcq-11",
-        "wave-mcq-13",
-        "wave-mcq-10",
-        "wave-mcq-14",
-        "wave-mcq-09"
+        "wave-mcq-29",
+        "wave-mcq-26",
+        "wave-mcq-35"
       ],
       "explanation": "本句的「waved my question aside」指「把批評、擔憂等輕描淡寫地否定／不理會」。",
       "sentenceIndex": 25,
@@ -1508,12 +1414,10 @@ export default {
         "waved my question aside"
       ],
       "optionReasons": {
-        "wave-mcq-12": "本句指「把批評、擔憂等輕描淡寫地否定／不理會」。",
-        "wave-mcq-11": "「揮手叫某人離開；或不予理會某事」與本句語境不同。",
-        "wave-mcq-13": "「海、湖等水面上移動的波浪／海浪」與本句語境不同。",
-        "wave-mcq-10": "「揮手示意某人／車輛可以通過」與本句語境不同。",
-        "wave-mcq-14": "「大量人、事件等在短時間內一批批出現；一波／浪潮」與本句語境不同。",
-        "wave-mcq-09": "「揮手示意某人繼續前進」與本句語境不同。"
+        "wave-mcq-12": "本句的「waved my question aside」指「把批評、擔憂等輕描淡寫地否定／不理會」。",
+        "wave-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-12"
     },
@@ -1525,11 +1429,9 @@ export default {
       "masked": "Large ____ crashed against the rocks.",
       "options": [
         "wave-mcq-13",
-        "wave-mcq-12",
-        "wave-mcq-14",
-        "wave-mcq-11",
-        "wave-mcq-15",
-        "wave-mcq-10"
+        "wave-mcq-04",
+        "wave-mcq-08",
+        "wave-mcq-33"
       ],
       "explanation": "本句的「waves」指「海、湖等水面上移動的波浪／海浪」。",
       "sentenceIndex": 26,
@@ -1538,12 +1440,10 @@ export default {
         "waves"
       ],
       "optionReasons": {
-        "wave-mcq-13": "本句指「海、湖等水面上移動的波浪／海浪」。",
-        "wave-mcq-12": "「把批評、擔憂等輕描淡寫地否定／不理會」與本句語境不同。",
-        "wave-mcq-14": "「大量人、事件等在短時間內一批批出現；一波／浪潮」與本句語境不同。",
-        "wave-mcq-11": "「揮手叫某人離開；或不予理會某事」與本句語境不同。",
-        "wave-mcq-15": "「突然湧現的一股強烈情緒」與本句語境不同。",
-        "wave-mcq-10": "「揮手示意某人／車輛可以通過」與本句語境不同。"
+        "wave-mcq-13": "本句的「waves」指「海、湖等水面上移動的波浪／海浪」。",
+        "wave-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-13"
     },
@@ -1555,11 +1455,9 @@ export default {
       "masked": "The boat rose and fell with the ____.",
       "options": [
         "wave-mcq-13",
-        "wave-mcq-12",
-        "wave-mcq-14",
-        "wave-mcq-11",
-        "wave-mcq-15",
-        "wave-mcq-10"
+        "wave-mcq-02",
+        "wave-mcq-18",
+        "wave-mcq-33"
       ],
       "explanation": "本句的「waves」指「海、湖等水面上移動的波浪／海浪」。",
       "sentenceIndex": 27,
@@ -1568,12 +1466,10 @@ export default {
         "waves"
       ],
       "optionReasons": {
-        "wave-mcq-13": "本句指「海、湖等水面上移動的波浪／海浪」。",
-        "wave-mcq-12": "「把批評、擔憂等輕描淡寫地否定／不理會」與本句語境不同。",
-        "wave-mcq-14": "「大量人、事件等在短時間內一批批出現；一波／浪潮」與本句語境不同。",
-        "wave-mcq-11": "「揮手叫某人離開；或不予理會某事」與本句語境不同。",
-        "wave-mcq-15": "「突然湧現的一股強烈情緒」與本句語境不同。",
-        "wave-mcq-10": "「揮手示意某人／車輛可以通過」與本句語境不同。"
+        "wave-mcq-13": "本句的「waves」指「海、湖等水面上移動的波浪／海浪」。",
+        "wave-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-13"
     },
@@ -1585,11 +1481,9 @@ export default {
       "masked": "The ____ near the shore.",
       "options": [
         "wave-mcq-13",
-        "wave-mcq-12",
-        "wave-mcq-14",
-        "wave-mcq-11",
-        "wave-mcq-15",
-        "wave-mcq-10"
+        "wave-mcq-04",
+        "wave-mcq-25",
+        "wave-mcq-18"
       ],
       "explanation": "本句的「waves broke」指「海、湖等水面上移動的波浪／海浪」。",
       "sentenceIndex": 28,
@@ -1598,12 +1492,10 @@ export default {
         "waves broke"
       ],
       "optionReasons": {
-        "wave-mcq-13": "本句指「海、湖等水面上移動的波浪／海浪」。",
-        "wave-mcq-12": "「把批評、擔憂等輕描淡寫地否定／不理會」與本句語境不同。",
-        "wave-mcq-14": "「大量人、事件等在短時間內一批批出現；一波／浪潮」與本句語境不同。",
-        "wave-mcq-11": "「揮手叫某人離開；或不予理會某事」與本句語境不同。",
-        "wave-mcq-15": "「突然湧現的一股強烈情緒」與本句語境不同。",
-        "wave-mcq-10": "「揮手示意某人／車輛可以通過」與本句語境不同。"
+        "wave-mcq-13": "本句的「waves broke」指「海、湖等水面上移動的波浪／海浪」。",
+        "wave-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-13"
     },
@@ -1615,11 +1507,9 @@ export default {
       "masked": "A huge ____ over the boat.",
       "options": [
         "wave-mcq-13",
-        "wave-mcq-12",
-        "wave-mcq-14",
-        "wave-mcq-11",
-        "wave-mcq-15",
-        "wave-mcq-10"
+        "wave-mcq-10",
+        "wave-mcq-25",
+        "wave-mcq-07"
       ],
       "explanation": "本句的「wave crashed」指「海、湖等水面上移動的波浪／海浪」。",
       "sentenceIndex": 29,
@@ -1628,12 +1518,10 @@ export default {
         "wave crashed"
       ],
       "optionReasons": {
-        "wave-mcq-13": "本句指「海、湖等水面上移動的波浪／海浪」。",
-        "wave-mcq-12": "「把批評、擔憂等輕描淡寫地否定／不理會」與本句語境不同。",
-        "wave-mcq-14": "「大量人、事件等在短時間內一批批出現；一波／浪潮」與本句語境不同。",
-        "wave-mcq-11": "「揮手叫某人離開；或不予理會某事」與本句語境不同。",
-        "wave-mcq-15": "「突然湧現的一股強烈情緒」與本句語境不同。",
-        "wave-mcq-10": "「揮手示意某人／車輛可以通過」與本句語境不同。"
+        "wave-mcq-13": "本句的「wave crashed」指「海、湖等水面上移動的波浪／海浪」。",
+        "wave-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-13"
     },
@@ -1645,11 +1533,9 @@ export default {
       "masked": "A new ____ arrived in summer.",
       "options": [
         "wave-mcq-14",
-        "wave-mcq-13",
-        "wave-mcq-15",
-        "wave-mcq-12",
-        "wave-mcq-16",
-        "wave-mcq-11"
+        "wave-mcq-09",
+        "wave-mcq-25",
+        "wave-mcq-33"
       ],
       "explanation": "本句的「wave of tourists」指「大量人、事件等在短時間內一批批出現；一波／浪潮」。",
       "sentenceIndex": 30,
@@ -1658,12 +1544,10 @@ export default {
         "wave of tourists"
       ],
       "optionReasons": {
-        "wave-mcq-14": "本句指「大量人、事件等在短時間內一批批出現；一波／浪潮」。",
-        "wave-mcq-13": "「海、湖等水面上移動的波浪／海浪」與本句語境不同。",
-        "wave-mcq-15": "「突然湧現的一股強烈情緒」與本句語境不同。",
-        "wave-mcq-12": "「把批評、擔憂等輕描淡寫地否定／不理會」與本句語境不同。",
-        "wave-mcq-16": "「身體突然出現的一陣痛楚、熱感、噁心等」與本句語境不同。",
-        "wave-mcq-11": "「揮手叫某人離開；或不予理會某事」與本句語境不同。"
+        "wave-mcq-14": "本句的「wave of tourists」指「大量人、事件等在短時間內一批批出現；一波／浪潮」。",
+        "wave-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-14"
     },
@@ -1675,11 +1559,9 @@ export default {
       "masked": "The company faced a ____.",
       "options": [
         "wave-mcq-14",
-        "wave-mcq-13",
-        "wave-mcq-15",
-        "wave-mcq-12",
-        "wave-mcq-16",
-        "wave-mcq-11"
+        "wave-mcq-05",
+        "wave-mcq-33",
+        "wave-mcq-07"
       ],
       "explanation": "本句的「wave of complaints」指「大量人、事件等在短時間內一批批出現；一波／浪潮」。",
       "sentenceIndex": 31,
@@ -1688,12 +1570,10 @@ export default {
         "wave of complaints"
       ],
       "optionReasons": {
-        "wave-mcq-14": "本句指「大量人、事件等在短時間內一批批出現；一波／浪潮」。",
-        "wave-mcq-13": "「海、湖等水面上移動的波浪／海浪」與本句語境不同。",
-        "wave-mcq-15": "「突然湧現的一股強烈情緒」與本句語境不同。",
-        "wave-mcq-12": "「把批評、擔憂等輕描淡寫地否定／不理會」與本句語境不同。",
-        "wave-mcq-16": "「身體突然出現的一陣痛楚、熱感、噁心等」與本句語境不同。",
-        "wave-mcq-11": "「揮手叫某人離開；或不予理會某事」與本句語境不同。"
+        "wave-mcq-14": "本句的「wave of complaints」指「大量人、事件等在短時間內一批批出現；一波／浪潮」。",
+        "wave-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-14"
     },
@@ -1705,11 +1585,9 @@ export default {
       "masked": "A ____ went through his leg.",
       "options": [
         "wave-mcq-16",
-        "wave-mcq-15",
-        "wave-mcq-17",
-        "wave-mcq-14",
-        "wave-mcq-18",
-        "wave-mcq-13"
+        "wave-mcq-36",
+        "wave-mcq-27",
+        "wave-mcq-22"
       ],
       "explanation": "本句的「wave of pain」指「身體突然出現的一陣痛楚、熱感、噁心等」。",
       "sentenceIndex": 36,
@@ -1718,12 +1596,10 @@ export default {
         "wave of pain"
       ],
       "optionReasons": {
-        "wave-mcq-16": "本句指「身體突然出現的一陣痛楚、熱感、噁心等」。",
-        "wave-mcq-15": "「突然湧現的一股強烈情緒」與本句語境不同。",
-        "wave-mcq-17": "「社會、文化、科技等出現的一股新潮流／浪潮」與本句語境不同。",
-        "wave-mcq-14": "「大量人、事件等在短時間內一批批出現；一波／浪潮」與本句語境不同。",
-        "wave-mcq-18": "「新一代、新風格或新一輪潮流」與本句語境不同。",
-        "wave-mcq-13": "「海、湖等水面上移動的波浪／海浪」與本句語境不同。"
+        "wave-mcq-16": "本句的「wave of pain」指「身體突然出現的一陣痛楚、熱感、噁心等」。",
+        "wave-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-16"
     },
@@ -1735,11 +1611,9 @@ export default {
       "masked": "She felt a ____.",
       "options": [
         "wave-mcq-16",
-        "wave-mcq-15",
-        "wave-mcq-17",
-        "wave-mcq-14",
-        "wave-mcq-18",
-        "wave-mcq-13"
+        "wave-mcq-24",
+        "wave-mcq-11",
+        "wave-mcq-22"
       ],
       "explanation": "本句的「wave of nausea」指「身體突然出現的一陣痛楚、熱感、噁心等」。",
       "sentenceIndex": 37,
@@ -1748,12 +1622,10 @@ export default {
         "wave of nausea"
       ],
       "optionReasons": {
-        "wave-mcq-16": "本句指「身體突然出現的一陣痛楚、熱感、噁心等」。",
-        "wave-mcq-15": "「突然湧現的一股強烈情緒」與本句語境不同。",
-        "wave-mcq-17": "「社會、文化、科技等出現的一股新潮流／浪潮」與本句語境不同。",
-        "wave-mcq-14": "「大量人、事件等在短時間內一批批出現；一波／浪潮」與本句語境不同。",
-        "wave-mcq-18": "「新一代、新風格或新一輪潮流」與本句語境不同。",
-        "wave-mcq-13": "「海、湖等水面上移動的波浪／海浪」與本句語境不同。"
+        "wave-mcq-16": "本句的「wave of nausea」指「身體突然出現的一陣痛楚、熱感、噁心等」。",
+        "wave-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-16"
     },
@@ -1765,11 +1637,9 @@ export default {
       "masked": "The industry went through a new ____.",
       "options": [
         "wave-mcq-17",
-        "wave-mcq-16",
-        "wave-mcq-18",
-        "wave-mcq-15",
-        "wave-mcq-19",
-        "wave-mcq-14"
+        "wave-mcq-04",
+        "wave-mcq-08",
+        "wave-mcq-33"
       ],
       "explanation": "本句的「wave of innovation」指「社會、文化、科技等出現的一股新潮流／浪潮」。",
       "sentenceIndex": 38,
@@ -1778,12 +1648,10 @@ export default {
         "wave of innovation"
       ],
       "optionReasons": {
-        "wave-mcq-17": "本句指「社會、文化、科技等出現的一股新潮流／浪潮」。",
-        "wave-mcq-16": "「身體突然出現的一陣痛楚、熱感、噁心等」與本句語境不同。",
-        "wave-mcq-18": "「新一代、新風格或新一輪潮流」與本句語境不同。",
-        "wave-mcq-15": "「突然湧現的一股強烈情緒」與本句語境不同。",
-        "wave-mcq-19": "「傳遞能量的波動／波」與本句語境不同。",
-        "wave-mcq-14": "「大量人、事件等在短時間內一批批出現；一波／浪潮」與本句語境不同。"
+        "wave-mcq-17": "本句的「wave of innovation」指「社會、文化、科技等出現的一股新潮流／浪潮」。",
+        "wave-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-17"
     },
@@ -1795,11 +1663,9 @@ export default {
       "masked": "A new ____ developed in the style.",
       "options": [
         "wave-mcq-17",
-        "wave-mcq-16",
-        "wave-mcq-18",
-        "wave-mcq-15",
-        "wave-mcq-19",
-        "wave-mcq-14"
+        "wave-mcq-07",
+        "wave-mcq-08",
+        "wave-mcq-25"
       ],
       "explanation": "本句的「wave of interest」指「社會、文化、科技等出現的一股新潮流／浪潮」。",
       "sentenceIndex": 39,
@@ -1808,12 +1674,10 @@ export default {
         "wave of interest"
       ],
       "optionReasons": {
-        "wave-mcq-17": "本句指「社會、文化、科技等出現的一股新潮流／浪潮」。",
-        "wave-mcq-16": "「身體突然出現的一陣痛楚、熱感、噁心等」與本句語境不同。",
-        "wave-mcq-18": "「新一代、新風格或新一輪潮流」與本句語境不同。",
-        "wave-mcq-15": "「突然湧現的一股強烈情緒」與本句語境不同。",
-        "wave-mcq-19": "「傳遞能量的波動／波」與本句語境不同。",
-        "wave-mcq-14": "「大量人、事件等在短時間內一批批出現；一波／浪潮」與本句語境不同。"
+        "wave-mcq-17": "本句的「wave of interest」指「社會、文化、科技等出現的一股新潮流／浪潮」。",
+        "wave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-17"
     },
@@ -1825,11 +1689,9 @@ export default {
       "masked": "A ____ entered the industry.",
       "options": [
         "wave-mcq-18",
-        "wave-mcq-17",
-        "wave-mcq-19",
-        "wave-mcq-16",
-        "wave-mcq-20",
-        "wave-mcq-15"
+        "wave-mcq-29",
+        "wave-mcq-13",
+        "wave-mcq-08"
       ],
       "explanation": "本句的「new wave of designers」指「新一代、新風格或新一輪潮流」。",
       "sentenceIndex": 40,
@@ -1838,12 +1700,10 @@ export default {
         "new wave of designers"
       ],
       "optionReasons": {
-        "wave-mcq-18": "本句指「新一代、新風格或新一輪潮流」。",
-        "wave-mcq-17": "「社會、文化、科技等出現的一股新潮流／浪潮」與本句語境不同。",
-        "wave-mcq-19": "「傳遞能量的波動／波」與本句語境不同。",
-        "wave-mcq-16": "「身體突然出現的一陣痛楚、熱感、噁心等」與本句語境不同。",
-        "wave-mcq-20": "「聲音振動形成並傳播的聲波」與本句語境不同。",
-        "wave-mcq-15": "「突然湧現的一股強烈情緒」與本句語境不同。"
+        "wave-mcq-18": "本句的「new wave of designers」指「新一代、新風格或新一輪潮流」。",
+        "wave-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-18"
     },
@@ -1855,11 +1715,9 @@ export default {
       "masked": "The film belonged to a ____ of cinema.",
       "options": [
         "wave-mcq-18",
-        "wave-mcq-17",
-        "wave-mcq-19",
-        "wave-mcq-16",
-        "wave-mcq-20",
-        "wave-mcq-15"
+        "wave-mcq-27",
+        "wave-mcq-06",
+        "wave-mcq-20"
       ],
       "explanation": "本句的「new wave」指「新一代、新風格或新一輪潮流」。",
       "sentenceIndex": 41,
@@ -1868,12 +1726,10 @@ export default {
         "new wave"
       ],
       "optionReasons": {
-        "wave-mcq-18": "本句指「新一代、新風格或新一輪潮流」。",
-        "wave-mcq-17": "「社會、文化、科技等出現的一股新潮流／浪潮」與本句語境不同。",
-        "wave-mcq-19": "「傳遞能量的波動／波」與本句語境不同。",
-        "wave-mcq-16": "「身體突然出現的一陣痛楚、熱感、噁心等」與本句語境不同。",
-        "wave-mcq-20": "「聲音振動形成並傳播的聲波」與本句語境不同。",
-        "wave-mcq-15": "「突然湧現的一股強烈情緒」與本句語境不同。"
+        "wave-mcq-18": "本句的「new wave」指「新一代、新風格或新一輪潮流」。",
+        "wave-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-18"
     },
@@ -1885,11 +1741,9 @@ export default {
       "masked": "____ travel through air.",
       "options": [
         "wave-mcq-20",
-        "wave-mcq-19",
-        "wave-mcq-21",
-        "wave-mcq-18",
-        "wave-mcq-22",
-        "wave-mcq-17"
+        "wave-mcq-03",
+        "wave-mcq-07",
+        "wave-mcq-16"
       ],
       "explanation": "本句的「Sound waves」指「聲音振動形成並傳播的聲波」。",
       "sentenceIndex": 44,
@@ -1898,12 +1752,10 @@ export default {
         "Sound waves"
       ],
       "optionReasons": {
-        "wave-mcq-20": "本句指「聲音振動形成並傳播的聲波」。",
-        "wave-mcq-19": "「傳遞能量的波動／波」與本句語境不同。",
-        "wave-mcq-21": "「光的波動；光波」與本句語境不同。",
-        "wave-mcq-18": "「新一代、新風格或新一輪潮流」與本句語境不同。",
-        "wave-mcq-22": "「電場與磁場振盪傳播形成的電磁波」與本句語境不同。",
-        "wave-mcq-17": "「社會、文化、科技等出現的一股新潮流／浪潮」與本句語境不同。"
+        "wave-mcq-20": "本句的「Sound waves」指「聲音振動形成並傳播的聲波」。",
+        "wave-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-20"
     },
@@ -1915,11 +1767,9 @@ export default {
       "masked": "The microphone converts ____ into electrical signals.",
       "options": [
         "wave-mcq-20",
-        "wave-mcq-19",
-        "wave-mcq-21",
+        "wave-mcq-09",
         "wave-mcq-18",
-        "wave-mcq-22",
-        "wave-mcq-17"
+        "wave-mcq-12"
       ],
       "explanation": "本句的「sound waves」指「聲音振動形成並傳播的聲波」。",
       "sentenceIndex": 45,
@@ -1928,12 +1778,10 @@ export default {
         "sound waves"
       ],
       "optionReasons": {
-        "wave-mcq-20": "本句指「聲音振動形成並傳播的聲波」。",
-        "wave-mcq-19": "「傳遞能量的波動／波」與本句語境不同。",
-        "wave-mcq-21": "「光的波動；光波」與本句語境不同。",
-        "wave-mcq-18": "「新一代、新風格或新一輪潮流」與本句語境不同。",
-        "wave-mcq-22": "「電場與磁場振盪傳播形成的電磁波」與本句語境不同。",
-        "wave-mcq-17": "「社會、文化、科技等出現的一股新潮流／浪潮」與本句語境不同。"
+        "wave-mcq-20": "本句的「sound waves」指「聲音振動形成並傳播的聲波」。",
+        "wave-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-20"
     },
@@ -1945,11 +1793,9 @@ export default {
       "masked": "Light behaves as a ____ in many experiments.",
       "options": [
         "wave-mcq-21",
-        "wave-mcq-20",
-        "wave-mcq-22",
-        "wave-mcq-19",
-        "wave-mcq-23",
-        "wave-mcq-18"
+        "wave-mcq-09",
+        "wave-mcq-18",
+        "wave-mcq-33"
       ],
       "explanation": "本句的「wave」指「光的波動；光波」。",
       "sentenceIndex": 46,
@@ -1958,12 +1804,10 @@ export default {
         "wave"
       ],
       "optionReasons": {
-        "wave-mcq-21": "本句指「光的波動；光波」。",
-        "wave-mcq-20": "「聲音振動形成並傳播的聲波」與本句語境不同。",
-        "wave-mcq-22": "「電場與磁場振盪傳播形成的電磁波」與本句語境不同。",
-        "wave-mcq-19": "「傳遞能量的波動／波」與本句語境不同。",
-        "wave-mcq-23": "「用於無線通訊的無線電波」與本句語境不同。",
-        "wave-mcq-18": "「新一代、新風格或新一輪潮流」與本句語境不同。"
+        "wave-mcq-21": "本句的「wave」指「光的波動；光波」。",
+        "wave-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-21"
     },
@@ -1975,11 +1819,9 @@ export default {
       "masked": "Different ____ have different wavelengths.",
       "options": [
         "wave-mcq-21",
-        "wave-mcq-20",
-        "wave-mcq-22",
-        "wave-mcq-19",
-        "wave-mcq-23",
-        "wave-mcq-18"
+        "wave-mcq-25",
+        "wave-mcq-18",
+        "wave-mcq-09"
       ],
       "explanation": "本句的「light waves」指「光的波動；光波」。",
       "sentenceIndex": 47,
@@ -1988,12 +1830,10 @@ export default {
         "light waves"
       ],
       "optionReasons": {
-        "wave-mcq-21": "本句指「光的波動；光波」。",
-        "wave-mcq-20": "「聲音振動形成並傳播的聲波」與本句語境不同。",
-        "wave-mcq-22": "「電場與磁場振盪傳播形成的電磁波」與本句語境不同。",
-        "wave-mcq-19": "「傳遞能量的波動／波」與本句語境不同。",
-        "wave-mcq-23": "「用於無線通訊的無線電波」與本句語境不同。",
-        "wave-mcq-18": "「新一代、新風格或新一輪潮流」與本句語境不同。"
+        "wave-mcq-21": "本句的「light waves」指「光的波動；光波」。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-21"
     },
@@ -2005,11 +1845,9 @@ export default {
       "masked": "Radio signals travel as ____.",
       "options": [
         "wave-mcq-22",
-        "wave-mcq-21",
-        "wave-mcq-23",
-        "wave-mcq-20",
-        "wave-mcq-24",
-        "wave-mcq-19"
+        "wave-mcq-32",
+        "wave-mcq-18",
+        "wave-mcq-30"
       ],
       "explanation": "本句的「electromagnetic waves」指「電場與磁場振盪傳播形成的電磁波」。",
       "sentenceIndex": 48,
@@ -2018,12 +1856,10 @@ export default {
         "electromagnetic waves"
       ],
       "optionReasons": {
-        "wave-mcq-22": "本句指「電場與磁場振盪傳播形成的電磁波」。",
-        "wave-mcq-21": "「光的波動；光波」與本句語境不同。",
-        "wave-mcq-23": "「用於無線通訊的無線電波」與本句語境不同。",
-        "wave-mcq-20": "「聲音振動形成並傳播的聲波」與本句語境不同。",
-        "wave-mcq-24": "「相鄰兩個對應波點之間的距離；波長」與本句語境不同。",
-        "wave-mcq-19": "「傳遞能量的波動／波」與本句語境不同。"
+        "wave-mcq-22": "本句的「electromagnetic waves」指「電場與磁場振盪傳播形成的電磁波」。",
+        "wave-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-22"
     },
@@ -2035,11 +1871,9 @@ export default {
       "masked": "Microwaves are a type of ____.",
       "options": [
         "wave-mcq-22",
-        "wave-mcq-21",
-        "wave-mcq-23",
-        "wave-mcq-20",
-        "wave-mcq-24",
-        "wave-mcq-19"
+        "wave-mcq-05",
+        "wave-mcq-18",
+        "wave-mcq-25"
       ],
       "explanation": "本句的「electromagnetic wave」指「電場與磁場振盪傳播形成的電磁波」。",
       "sentenceIndex": 49,
@@ -2048,12 +1882,10 @@ export default {
         "electromagnetic wave"
       ],
       "optionReasons": {
-        "wave-mcq-22": "本句指「電場與磁場振盪傳播形成的電磁波」。",
-        "wave-mcq-21": "「光的波動；光波」與本句語境不同。",
-        "wave-mcq-23": "「用於無線通訊的無線電波」與本句語境不同。",
-        "wave-mcq-20": "「聲音振動形成並傳播的聲波」與本句語境不同。",
-        "wave-mcq-24": "「相鄰兩個對應波點之間的距離；波長」與本句語境不同。",
-        "wave-mcq-19": "「傳遞能量的波動／波」與本句語境不同。"
+        "wave-mcq-22": "本句的「electromagnetic wave」指「電場與磁場振盪傳播形成的電磁波」。",
+        "wave-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-22"
     },
@@ -2065,11 +1897,9 @@ export default {
       "masked": "The antenna receives ____.",
       "options": [
         "wave-mcq-23",
-        "wave-mcq-22",
-        "wave-mcq-24",
-        "wave-mcq-21",
-        "wave-mcq-25",
-        "wave-mcq-20"
+        "wave-mcq-03",
+        "wave-mcq-18",
+        "wave-mcq-07"
       ],
       "explanation": "本句的「radio waves」指「用於無線通訊的無線電波」。",
       "sentenceIndex": 50,
@@ -2078,12 +1908,10 @@ export default {
         "radio waves"
       ],
       "optionReasons": {
-        "wave-mcq-23": "本句指「用於無線通訊的無線電波」。",
-        "wave-mcq-22": "「電場與磁場振盪傳播形成的電磁波」與本句語境不同。",
-        "wave-mcq-24": "「相鄰兩個對應波點之間的距離；波長」與本句語境不同。",
-        "wave-mcq-21": "「光的波動；光波」與本句語境不同。",
-        "wave-mcq-25": "「想法、溝通方式十分一致；很有默契」與本句語境不同。",
-        "wave-mcq-20": "「聲音振動形成並傳播的聲波」與本句語境不同。"
+        "wave-mcq-23": "本句的「radio waves」指「用於無線通訊的無線電波」。",
+        "wave-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-23"
     },
@@ -2095,11 +1923,9 @@ export default {
       "masked": "____ can travel over long distances.",
       "options": [
         "wave-mcq-23",
-        "wave-mcq-22",
-        "wave-mcq-24",
-        "wave-mcq-21",
-        "wave-mcq-25",
-        "wave-mcq-20"
+        "wave-mcq-30",
+        "wave-mcq-16",
+        "wave-mcq-36"
       ],
       "explanation": "本句的「Radio waves」指「用於無線通訊的無線電波」。",
       "sentenceIndex": 51,
@@ -2108,12 +1934,10 @@ export default {
         "Radio waves"
       ],
       "optionReasons": {
-        "wave-mcq-23": "本句指「用於無線通訊的無線電波」。",
-        "wave-mcq-22": "「電場與磁場振盪傳播形成的電磁波」與本句語境不同。",
-        "wave-mcq-24": "「相鄰兩個對應波點之間的距離；波長」與本句語境不同。",
-        "wave-mcq-21": "「光的波動；光波」與本句語境不同。",
-        "wave-mcq-25": "「想法、溝通方式十分一致；很有默契」與本句語境不同。",
-        "wave-mcq-20": "「聲音振動形成並傳播的聲波」與本句語境不同。"
+        "wave-mcq-23": "本句的「Radio waves」指「用於無線通訊的無線電波」。",
+        "wave-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-23"
     },
@@ -2125,11 +1949,9 @@ export default {
       "masked": "Different colors of light have different ____.",
       "options": [
         "wave-mcq-24",
-        "wave-mcq-23",
-        "wave-mcq-25",
-        "wave-mcq-22",
-        "wave-mcq-26",
-        "wave-mcq-21"
+        "wave-mcq-04",
+        "wave-mcq-12",
+        "wave-mcq-07"
       ],
       "explanation": "本句的「wavelengths」指「相鄰兩個對應波點之間的距離；波長」。",
       "sentenceIndex": 52,
@@ -2138,12 +1960,10 @@ export default {
         "wavelengths"
       ],
       "optionReasons": {
-        "wave-mcq-24": "本句指「相鄰兩個對應波點之間的距離；波長」。",
-        "wave-mcq-23": "「用於無線通訊的無線電波」與本句語境不同。",
-        "wave-mcq-25": "「想法、溝通方式十分一致；很有默契」與本句語境不同。",
-        "wave-mcq-22": "「電場與磁場振盪傳播形成的電磁波」與本句語境不同。",
-        "wave-mcq-26": "「頭髮中的柔和波浪形捲曲」與本句語境不同。",
-        "wave-mcq-21": "「光的波動；光波」與本句語境不同。"
+        "wave-mcq-24": "本句的「wavelengths」指「相鄰兩個對應波點之間的距離；波長」。",
+        "wave-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-24"
     },
@@ -2155,11 +1975,9 @@ export default {
       "masked": "The device detects a specific ____.",
       "options": [
         "wave-mcq-24",
-        "wave-mcq-23",
-        "wave-mcq-25",
-        "wave-mcq-22",
-        "wave-mcq-26",
-        "wave-mcq-21"
+        "wave-mcq-33",
+        "wave-mcq-10",
+        "wave-mcq-07"
       ],
       "explanation": "本句的「wavelength」指「相鄰兩個對應波點之間的距離；波長」。",
       "sentenceIndex": 53,
@@ -2168,12 +1986,10 @@ export default {
         "wavelength"
       ],
       "optionReasons": {
-        "wave-mcq-24": "本句指「相鄰兩個對應波點之間的距離；波長」。",
-        "wave-mcq-23": "「用於無線通訊的無線電波」與本句語境不同。",
-        "wave-mcq-25": "「想法、溝通方式十分一致；很有默契」與本句語境不同。",
-        "wave-mcq-22": "「電場與磁場振盪傳播形成的電磁波」與本句語境不同。",
-        "wave-mcq-26": "「頭髮中的柔和波浪形捲曲」與本句語境不同。",
-        "wave-mcq-21": "「光的波動；光波」與本句語境不同。"
+        "wave-mcq-24": "本句的「wavelength」指「相鄰兩個對應波點之間的距離；波長」。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-24"
     },
@@ -2186,10 +2002,8 @@ export default {
       "options": [
         "wave-mcq-25",
         "wave-mcq-24",
-        "wave-mcq-26",
-        "wave-mcq-23",
-        "wave-mcq-27",
-        "wave-mcq-22"
+        "wave-mcq-18",
+        "wave-mcq-20"
       ],
       "explanation": "本句的「on the same wavelength」指「想法、溝通方式十分一致；很有默契」。",
       "sentenceIndex": 54,
@@ -2198,12 +2012,10 @@ export default {
         "on the same wavelength"
       ],
       "optionReasons": {
-        "wave-mcq-25": "本句指「想法、溝通方式十分一致；很有默契」。",
-        "wave-mcq-24": "「相鄰兩個對應波點之間的距離；波長」與本句語境不同。",
-        "wave-mcq-26": "「頭髮中的柔和波浪形捲曲」與本句語境不同。",
-        "wave-mcq-23": "「用於無線通訊的無線電波」與本句語境不同。",
-        "wave-mcq-27": "「呈波浪形、微捲或起伏形狀的」與本句語境不同。",
-        "wave-mcq-22": "「電場與磁場振盪傳播形成的電磁波」與本句語境不同。"
+        "wave-mcq-25": "本句的「on the same wavelength」指「想法、溝通方式十分一致；很有默契」。",
+        "wave-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-25"
     },
@@ -2215,11 +2027,9 @@ export default {
       "masked": "The two designers were immediately ____.",
       "options": [
         "wave-mcq-25",
-        "wave-mcq-24",
-        "wave-mcq-26",
-        "wave-mcq-23",
-        "wave-mcq-27",
-        "wave-mcq-22"
+        "wave-mcq-06",
+        "wave-mcq-30",
+        "wave-mcq-29"
       ],
       "explanation": "本句的「on the same wavelength」指「想法、溝通方式十分一致；很有默契」。",
       "sentenceIndex": 55,
@@ -2228,12 +2038,10 @@ export default {
         "on the same wavelength"
       ],
       "optionReasons": {
-        "wave-mcq-25": "本句指「想法、溝通方式十分一致；很有默契」。",
-        "wave-mcq-24": "「相鄰兩個對應波點之間的距離；波長」與本句語境不同。",
-        "wave-mcq-26": "「頭髮中的柔和波浪形捲曲」與本句語境不同。",
-        "wave-mcq-23": "「用於無線通訊的無線電波」與本句語境不同。",
-        "wave-mcq-27": "「呈波浪形、微捲或起伏形狀的」與本句語境不同。",
-        "wave-mcq-22": "「電場與磁場振盪傳播形成的電磁波」與本句語境不同。"
+        "wave-mcq-25": "本句的「on the same wavelength」指「想法、溝通方式十分一致；很有默契」。",
+        "wave-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-25"
     },
@@ -2245,11 +2053,9 @@ export default {
       "masked": "Her hair falls in soft ____.",
       "options": [
         "wave-mcq-26",
-        "wave-mcq-25",
-        "wave-mcq-27",
-        "wave-mcq-24",
-        "wave-mcq-28",
-        "wave-mcq-23"
+        "wave-mcq-07",
+        "wave-mcq-12",
+        "wave-mcq-25"
       ],
       "explanation": "本句的「waves」指「頭髮中的柔和波浪形捲曲」。",
       "sentenceIndex": 56,
@@ -2258,12 +2064,10 @@ export default {
         "waves"
       ],
       "optionReasons": {
-        "wave-mcq-26": "本句指「頭髮中的柔和波浪形捲曲」。",
-        "wave-mcq-25": "「想法、溝通方式十分一致；很有默契」與本句語境不同。",
-        "wave-mcq-27": "「呈波浪形、微捲或起伏形狀的」與本句語境不同。",
-        "wave-mcq-24": "「相鄰兩個對應波點之間的距離；波長」與本句語境不同。",
-        "wave-mcq-28": "「把頭髮整理成波浪捲」與本句語境不同。",
-        "wave-mcq-23": "「用於無線通訊的無線電波」與本句語境不同。"
+        "wave-mcq-26": "本句的「waves」指「頭髮中的柔和波浪形捲曲」。",
+        "wave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-26"
     },
@@ -2275,11 +2079,9 @@ export default {
       "masked": "He has a natural ____ in his hair.",
       "options": [
         "wave-mcq-26",
-        "wave-mcq-25",
-        "wave-mcq-27",
-        "wave-mcq-24",
-        "wave-mcq-28",
-        "wave-mcq-23"
+        "wave-mcq-07",
+        "wave-mcq-16",
+        "wave-mcq-03"
       ],
       "explanation": "本句的「wave」指「頭髮中的柔和波浪形捲曲」。",
       "sentenceIndex": 57,
@@ -2288,12 +2090,10 @@ export default {
         "wave"
       ],
       "optionReasons": {
-        "wave-mcq-26": "本句指「頭髮中的柔和波浪形捲曲」。",
-        "wave-mcq-25": "「想法、溝通方式十分一致；很有默契」與本句語境不同。",
-        "wave-mcq-27": "「呈波浪形、微捲或起伏形狀的」與本句語境不同。",
-        "wave-mcq-24": "「相鄰兩個對應波點之間的距離；波長」與本句語境不同。",
-        "wave-mcq-28": "「把頭髮整理成波浪捲」與本句語境不同。",
-        "wave-mcq-23": "「用於無線通訊的無線電波」與本句語境不同。"
+        "wave-mcq-26": "本句的「wave」指「頭髮中的柔和波浪形捲曲」。",
+        "wave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-26"
     },
@@ -2305,11 +2105,9 @@ export default {
       "masked": "She has long ____.",
       "options": [
         "wave-mcq-27",
-        "wave-mcq-26",
-        "wave-mcq-28",
-        "wave-mcq-25",
-        "wave-mcq-29",
-        "wave-mcq-24"
+        "wave-mcq-36",
+        "wave-mcq-16",
+        "wave-mcq-33"
       ],
       "explanation": "本句的「wavy hair」指「呈波浪形、微捲或起伏形狀的」。",
       "sentenceIndex": 58,
@@ -2318,12 +2116,10 @@ export default {
         "wavy hair"
       ],
       "optionReasons": {
-        "wave-mcq-27": "本句指「呈波浪形、微捲或起伏形狀的」。",
-        "wave-mcq-26": "「頭髮中的柔和波浪形捲曲」與本句語境不同。",
-        "wave-mcq-28": "「把頭髮整理成波浪捲」與本句語境不同。",
-        "wave-mcq-25": "「想法、溝通方式十分一致；很有默契」與本句語境不同。",
-        "wave-mcq-29": "「觀眾席逐區起立揮手形成的人浪」與本句語境不同。",
-        "wave-mcq-24": "「相鄰兩個對應波點之間的距離；波長」與本句語境不同。"
+        "wave-mcq-27": "本句的「wavy hair」指「呈波浪形、微捲或起伏形狀的」。",
+        "wave-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-27"
     },
@@ -2335,11 +2131,9 @@ export default {
       "masked": "The road followed a ____ across the map.",
       "options": [
         "wave-mcq-27",
-        "wave-mcq-26",
-        "wave-mcq-28",
         "wave-mcq-25",
-        "wave-mcq-29",
-        "wave-mcq-24"
+        "wave-mcq-03",
+        "wave-mcq-07"
       ],
       "explanation": "本句的「wavy line」指「呈波浪形、微捲或起伏形狀的」。",
       "sentenceIndex": 59,
@@ -2348,12 +2142,10 @@ export default {
         "wavy line"
       ],
       "optionReasons": {
-        "wave-mcq-27": "本句指「呈波浪形、微捲或起伏形狀的」。",
-        "wave-mcq-26": "「頭髮中的柔和波浪形捲曲」與本句語境不同。",
-        "wave-mcq-28": "「把頭髮整理成波浪捲」與本句語境不同。",
-        "wave-mcq-25": "「想法、溝通方式十分一致；很有默契」與本句語境不同。",
-        "wave-mcq-29": "「觀眾席逐區起立揮手形成的人浪」與本句語境不同。",
-        "wave-mcq-24": "「相鄰兩個對應波點之間的距離；波長」與本句語境不同。"
+        "wave-mcq-27": "本句的「wavy line」指「呈波浪形、微捲或起伏形狀的」。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-27"
     },
@@ -2365,11 +2157,9 @@ export default {
       "masked": "She ____ for the event.",
       "options": [
         "wave-mcq-28",
-        "wave-mcq-27",
-        "wave-mcq-29",
-        "wave-mcq-26",
-        "wave-mcq-30",
-        "wave-mcq-25"
+        "wave-mcq-03",
+        "wave-mcq-33",
+        "wave-mcq-16"
       ],
       "explanation": "本句的「waved her hair」指「把頭髮整理成波浪捲」。",
       "sentenceIndex": 60,
@@ -2378,12 +2168,10 @@ export default {
         "waved her hair"
       ],
       "optionReasons": {
-        "wave-mcq-28": "本句指「把頭髮整理成波浪捲」。",
-        "wave-mcq-27": "「呈波浪形、微捲或起伏形狀的」與本句語境不同。",
-        "wave-mcq-29": "「觀眾席逐區起立揮手形成的人浪」與本句語境不同。",
-        "wave-mcq-26": "「頭髮中的柔和波浪形捲曲」與本句語境不同。",
-        "wave-mcq-30": "「持續一段時間的異常高溫；熱浪」與本句語境不同。",
-        "wave-mcq-25": "「想法、溝通方式十分一致；很有默契」與本句語境不同。"
+        "wave-mcq-28": "本句的「waved her hair」指「把頭髮整理成波浪捲」。",
+        "wave-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-28"
     },
@@ -2395,11 +2183,9 @@ export default {
       "masked": "The hair was softly ____.",
       "options": [
         "wave-mcq-28",
-        "wave-mcq-27",
-        "wave-mcq-29",
-        "wave-mcq-26",
-        "wave-mcq-30",
-        "wave-mcq-25"
+        "wave-mcq-06",
+        "wave-mcq-18",
+        "wave-mcq-33"
       ],
       "explanation": "本句的「waved」指「把頭髮整理成波浪捲」。",
       "sentenceIndex": 61,
@@ -2408,12 +2194,10 @@ export default {
         "waved"
       ],
       "optionReasons": {
-        "wave-mcq-28": "本句指「把頭髮整理成波浪捲」。",
-        "wave-mcq-27": "「呈波浪形、微捲或起伏形狀的」與本句語境不同。",
-        "wave-mcq-29": "「觀眾席逐區起立揮手形成的人浪」與本句語境不同。",
-        "wave-mcq-26": "「頭髮中的柔和波浪形捲曲」與本句語境不同。",
-        "wave-mcq-30": "「持續一段時間的異常高溫；熱浪」與本句語境不同。",
-        "wave-mcq-25": "「想法、溝通方式十分一致；很有默契」與本句語境不同。"
+        "wave-mcq-28": "本句的「waved」指「把頭髮整理成波浪捲」。",
+        "wave-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-28"
     },
@@ -2425,11 +2209,9 @@ export default {
       "masked": "The crowd started a ____.",
       "options": [
         "wave-mcq-29",
-        "wave-mcq-28",
-        "wave-mcq-30",
-        "wave-mcq-27",
-        "wave-mcq-31",
-        "wave-mcq-26"
+        "wave-mcq-24",
+        "wave-mcq-25",
+        "wave-mcq-23"
       ],
       "explanation": "本句的「Mexican wave」指「觀眾席逐區起立揮手形成的人浪」。",
       "sentenceIndex": 62,
@@ -2438,12 +2220,10 @@ export default {
         "Mexican wave"
       ],
       "optionReasons": {
-        "wave-mcq-29": "本句指「觀眾席逐區起立揮手形成的人浪」。",
-        "wave-mcq-28": "「把頭髮整理成波浪捲」與本句語境不同。",
-        "wave-mcq-30": "「持續一段時間的異常高溫；熱浪」與本句語境不同。",
-        "wave-mcq-27": "「呈波浪形、微捲或起伏形狀的」與本句語境不同。",
-        "wave-mcq-31": "「排山倒海般湧來的大量事物／影響」與本句語境不同。",
-        "wave-mcq-26": "「頭髮中的柔和波浪形捲曲」與本句語境不同。"
+        "wave-mcq-29": "本句的「Mexican wave」指「觀眾席逐區起立揮手形成的人浪」。",
+        "wave-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-29"
     },
@@ -2455,11 +2235,9 @@ export default {
       "masked": "A huge ____ travelled around the stadium.",
       "options": [
         "wave-mcq-29",
-        "wave-mcq-28",
-        "wave-mcq-30",
-        "wave-mcq-27",
-        "wave-mcq-31",
-        "wave-mcq-26"
+        "wave-mcq-25",
+        "wave-mcq-21",
+        "wave-mcq-18"
       ],
       "explanation": "本句的「wave」指「觀眾席逐區起立揮手形成的人浪」。",
       "sentenceIndex": 63,
@@ -2468,12 +2246,10 @@ export default {
         "wave"
       ],
       "optionReasons": {
-        "wave-mcq-29": "本句指「觀眾席逐區起立揮手形成的人浪」。",
-        "wave-mcq-28": "「把頭髮整理成波浪捲」與本句語境不同。",
-        "wave-mcq-30": "「持續一段時間的異常高溫；熱浪」與本句語境不同。",
-        "wave-mcq-27": "「呈波浪形、微捲或起伏形狀的」與本句語境不同。",
-        "wave-mcq-31": "「排山倒海般湧來的大量事物／影響」與本句語境不同。",
-        "wave-mcq-26": "「頭髮中的柔和波浪形捲曲」與本句語境不同。"
+        "wave-mcq-29": "本句的「wave」指「觀眾席逐區起立揮手形成的人浪」。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-29"
     },
@@ -2485,11 +2261,9 @@ export default {
       "masked": "The city is experiencing a ____.",
       "options": [
         "wave-mcq-30",
-        "wave-mcq-29",
-        "wave-mcq-31",
-        "wave-mcq-28",
-        "wave-mcq-32",
-        "wave-mcq-27"
+        "wave-mcq-07",
+        "wave-mcq-05",
+        "wave-mcq-21"
       ],
       "explanation": "本句的「heat wave」指「持續一段時間的異常高溫；熱浪」。",
       "sentenceIndex": 64,
@@ -2498,12 +2272,10 @@ export default {
         "heat wave"
       ],
       "optionReasons": {
-        "wave-mcq-30": "本句指「持續一段時間的異常高溫；熱浪」。",
-        "wave-mcq-29": "「觀眾席逐區起立揮手形成的人浪」與本句語境不同。",
-        "wave-mcq-31": "「排山倒海般湧來的大量事物／影響」與本句語境不同。",
-        "wave-mcq-28": "「把頭髮整理成波浪捲」與本句語境不同。",
-        "wave-mcq-32": "「揮一揮手；有時表示隨意打發／不理會」與本句語境不同。",
-        "wave-mcq-27": "「呈波浪形、微捲或起伏形狀的」與本句語境不同。"
+        "wave-mcq-30": "本句的「heat wave」指「持續一段時間的異常高溫；熱浪」。",
+        "wave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-30"
     },
@@ -2515,11 +2287,9 @@ export default {
       "masked": "Temperatures rose during the ____.",
       "options": [
         "wave-mcq-30",
-        "wave-mcq-29",
-        "wave-mcq-31",
-        "wave-mcq-28",
-        "wave-mcq-32",
-        "wave-mcq-27"
+        "wave-mcq-35",
+        "wave-mcq-25",
+        "wave-mcq-08"
       ],
       "explanation": "本句的「heat wave」指「持續一段時間的異常高溫；熱浪」。",
       "sentenceIndex": 65,
@@ -2528,12 +2298,10 @@ export default {
         "heat wave"
       ],
       "optionReasons": {
-        "wave-mcq-30": "本句指「持續一段時間的異常高溫；熱浪」。",
-        "wave-mcq-29": "「觀眾席逐區起立揮手形成的人浪」與本句語境不同。",
-        "wave-mcq-31": "「排山倒海般湧來的大量事物／影響」與本句語境不同。",
-        "wave-mcq-28": "「把頭髮整理成波浪捲」與本句語境不同。",
-        "wave-mcq-32": "「揮一揮手；有時表示隨意打發／不理會」與本句語境不同。",
-        "wave-mcq-27": "「呈波浪形、微捲或起伏形狀的」與本句語境不同。"
+        "wave-mcq-30": "本句的「heat wave」指「持續一段時間的異常高溫；熱浪」。",
+        "wave-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-30"
     },
@@ -2545,11 +2313,9 @@ export default {
       "masked": "He dismissed the question ____.",
       "options": [
         "wave-mcq-32",
-        "wave-mcq-31",
-        "wave-mcq-33",
-        "wave-mcq-30",
-        "wave-mcq-34",
-        "wave-mcq-29"
+        "wave-mcq-17",
+        "wave-mcq-27",
+        "wave-mcq-22"
       ],
       "explanation": "本句的「with a wave of the hand」指「揮一揮手；有時表示隨意打發／不理會」。",
       "sentenceIndex": 67,
@@ -2558,12 +2324,10 @@ export default {
         "with a wave of the hand"
       ],
       "optionReasons": {
-        "wave-mcq-32": "本句指「揮一揮手；有時表示隨意打發／不理會」。",
-        "wave-mcq-31": "「排山倒海般湧來的大量事物／影響」與本句語境不同。",
-        "wave-mcq-33": "「投降／認輸」與本句語境不同。",
-        "wave-mcq-30": "「持續一段時間的異常高溫；熱浪」與本句語境不同。",
-        "wave-mcq-34": "「掀起風波、造成影響或挑戰現狀」與本句語境不同。",
-        "wave-mcq-29": "「觀眾席逐區起立揮手形成的人浪」與本句語境不同。"
+        "wave-mcq-32": "本句的「with a wave of the hand」指「揮一揮手；有時表示隨意打發／不理會」。",
+        "wave-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-32"
     },
@@ -2575,11 +2339,9 @@ export default {
       "masked": "She greeted us ____.",
       "options": [
         "wave-mcq-32",
-        "wave-mcq-31",
+        "wave-mcq-18",
         "wave-mcq-33",
-        "wave-mcq-30",
-        "wave-mcq-34",
-        "wave-mcq-29"
+        "wave-mcq-24"
       ],
       "explanation": "本句的「with a wave of the hand」指「揮一揮手；有時表示隨意打發／不理會」。",
       "sentenceIndex": 68,
@@ -2588,12 +2350,10 @@ export default {
         "with a wave of the hand"
       ],
       "optionReasons": {
-        "wave-mcq-32": "本句指「揮一揮手；有時表示隨意打發／不理會」。",
-        "wave-mcq-31": "「排山倒海般湧來的大量事物／影響」與本句語境不同。",
-        "wave-mcq-33": "「投降／認輸」與本句語境不同。",
-        "wave-mcq-30": "「持續一段時間的異常高溫；熱浪」與本句語境不同。",
-        "wave-mcq-34": "「掀起風波、造成影響或挑戰現狀」與本句語境不同。",
-        "wave-mcq-29": "「觀眾席逐區起立揮手形成的人浪」與本句語境不同。"
+        "wave-mcq-32": "本句的「with a wave of the hand」指「揮一揮手；有時表示隨意打發／不理會」。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-32"
     },
@@ -2605,11 +2365,9 @@ export default {
       "masked": "They refused to ____.",
       "options": [
         "wave-mcq-33",
-        "wave-mcq-32",
-        "wave-mcq-34",
-        "wave-mcq-31",
-        "wave-mcq-35",
-        "wave-mcq-30"
+        "wave-mcq-26",
+        "wave-mcq-12",
+        "wave-mcq-24"
       ],
       "explanation": "本句的「wave the white flag」指「投降／認輸」。",
       "sentenceIndex": 69,
@@ -2618,12 +2376,10 @@ export default {
         "wave the white flag"
       ],
       "optionReasons": {
-        "wave-mcq-33": "本句指「投降／認輸」。",
-        "wave-mcq-32": "「揮一揮手；有時表示隨意打發／不理會」與本句語境不同。",
-        "wave-mcq-34": "「掀起風波、造成影響或挑戰現狀」與本句語境不同。",
-        "wave-mcq-31": "「排山倒海般湧來的大量事物／影響」與本句語境不同。",
-        "wave-mcq-35": "「一波接一波地出現」與本句語境不同。",
-        "wave-mcq-30": "「持續一段時間的異常高溫；熱浪」與本句語境不同。"
+        "wave-mcq-33": "本句的「wave the white flag」指「投降／認輸」。",
+        "wave-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-33"
     },
@@ -2635,11 +2391,9 @@ export default {
       "masked": "After hours of argument, he finally ____.",
       "options": [
         "wave-mcq-33",
-        "wave-mcq-32",
-        "wave-mcq-34",
-        "wave-mcq-31",
-        "wave-mcq-35",
-        "wave-mcq-30"
+        "wave-mcq-03",
+        "wave-mcq-37",
+        "wave-mcq-07"
       ],
       "explanation": "本句的「waved the white flag」指「投降／認輸」。",
       "sentenceIndex": 70,
@@ -2648,12 +2402,10 @@ export default {
         "waved the white flag"
       ],
       "optionReasons": {
-        "wave-mcq-33": "本句指「投降／認輸」。",
-        "wave-mcq-32": "「揮一揮手；有時表示隨意打發／不理會」與本句語境不同。",
-        "wave-mcq-34": "「掀起風波、造成影響或挑戰現狀」與本句語境不同。",
-        "wave-mcq-31": "「排山倒海般湧來的大量事物／影響」與本句語境不同。",
-        "wave-mcq-35": "「一波接一波地出現」與本句語境不同。",
-        "wave-mcq-30": "「持續一段時間的異常高溫；熱浪」與本句語境不同。"
+        "wave-mcq-33": "本句的「waved the white flag」指「投降／認輸」。",
+        "wave-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-33"
     },
@@ -2665,11 +2417,9 @@ export default {
       "masked": "She is not afraid to ____.",
       "options": [
         "wave-mcq-34",
-        "wave-mcq-33",
-        "wave-mcq-35",
-        "wave-mcq-32",
-        "wave-mcq-36",
-        "wave-mcq-31"
+        "wave-mcq-25",
+        "wave-mcq-11",
+        "wave-mcq-33"
       ],
       "explanation": "本句的「make waves」指「掀起風波、造成影響或挑戰現狀」。",
       "sentenceIndex": 71,
@@ -2678,12 +2428,10 @@ export default {
         "make waves"
       ],
       "optionReasons": {
-        "wave-mcq-34": "本句指「掀起風波、造成影響或挑戰現狀」。",
-        "wave-mcq-33": "「投降／認輸」與本句語境不同。",
-        "wave-mcq-35": "「一波接一波地出現」與本句語境不同。",
-        "wave-mcq-32": "「揮一揮手；有時表示隨意打發／不理會」與本句語境不同。",
-        "wave-mcq-36": "「揮手／揮動這一動作」與本句語境不同。",
-        "wave-mcq-31": "「排山倒海般湧來的大量事物／影響」與本句語境不同。"
+        "wave-mcq-34": "本句的「make waves」指「掀起風波、造成影響或挑戰現狀」。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-34"
     },
@@ -2695,11 +2443,9 @@ export default {
       "masked": "The new policy ____ across the industry.",
       "options": [
         "wave-mcq-34",
-        "wave-mcq-33",
-        "wave-mcq-35",
-        "wave-mcq-32",
-        "wave-mcq-36",
-        "wave-mcq-31"
+        "wave-mcq-08",
+        "wave-mcq-30",
+        "wave-mcq-33"
       ],
       "explanation": "本句的「made waves」指「掀起風波、造成影響或挑戰現狀」。",
       "sentenceIndex": 72,
@@ -2708,12 +2454,10 @@ export default {
         "made waves"
       ],
       "optionReasons": {
-        "wave-mcq-34": "本句指「掀起風波、造成影響或挑戰現狀」。",
-        "wave-mcq-33": "「投降／認輸」與本句語境不同。",
-        "wave-mcq-35": "「一波接一波地出現」與本句語境不同。",
-        "wave-mcq-32": "「揮一揮手；有時表示隨意打發／不理會」與本句語境不同。",
-        "wave-mcq-36": "「揮手／揮動這一動作」與本句語境不同。",
-        "wave-mcq-31": "「排山倒海般湧來的大量事物／影響」與本句語境不同。"
+        "wave-mcq-34": "本句的「made waves」指「掀起風波、造成影響或挑戰現狀」。",
+        "wave-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-34"
     },
@@ -2725,11 +2469,9 @@ export default {
       "masked": "____ of visitors entered the park.",
       "options": [
         "wave-mcq-35",
-        "wave-mcq-34",
-        "wave-mcq-36",
+        "wave-mcq-09",
         "wave-mcq-33",
-        "wave-mcq-37",
-        "wave-mcq-32"
+        "wave-mcq-25"
       ],
       "explanation": "本句的「Wave after wave」指「一波接一波地出現」。",
       "sentenceIndex": 73,
@@ -2738,12 +2480,10 @@ export default {
         "Wave after wave"
       ],
       "optionReasons": {
-        "wave-mcq-35": "本句指「一波接一波地出現」。",
-        "wave-mcq-34": "「掀起風波、造成影響或挑戰現狀」與本句語境不同。",
-        "wave-mcq-36": "「揮手／揮動這一動作」與本句語境不同。",
-        "wave-mcq-33": "「投降／認輸」與本句語境不同。",
-        "wave-mcq-37": "「波浪形的；具有波動特徵的」與本句語境不同。",
-        "wave-mcq-32": "「揮一揮手；有時表示隨意打發／不理會」與本句語境不同。"
+        "wave-mcq-35": "本句的「Wave after wave」指「一波接一波地出現」。",
+        "wave-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-35"
     },
@@ -2755,11 +2495,9 @@ export default {
       "masked": "She felt ____.",
       "options": [
         "wave-mcq-35",
-        "wave-mcq-34",
-        "wave-mcq-36",
-        "wave-mcq-33",
-        "wave-mcq-37",
-        "wave-mcq-32"
+        "wave-mcq-04",
+        "wave-mcq-30",
+        "wave-mcq-18"
       ],
       "explanation": "本句的「wave after wave of relief」指「一波接一波地出現」。",
       "sentenceIndex": 74,
@@ -2768,12 +2506,10 @@ export default {
         "wave after wave of relief"
       ],
       "optionReasons": {
-        "wave-mcq-35": "本句指「一波接一波地出現」。",
-        "wave-mcq-34": "「掀起風波、造成影響或挑戰現狀」與本句語境不同。",
-        "wave-mcq-36": "「揮手／揮動這一動作」與本句語境不同。",
-        "wave-mcq-33": "「投降／認輸」與本句語境不同。",
-        "wave-mcq-37": "「波浪形的；具有波動特徵的」與本句語境不同。",
-        "wave-mcq-32": "「揮一揮手；有時表示隨意打發／不理會」與本句語境不同。"
+        "wave-mcq-35": "本句的「wave after wave of relief」指「一波接一波地出現」。",
+        "wave-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-35"
     },
@@ -2785,11 +2521,9 @@ export default {
       "masked": "There was a lot of ____ from the crowd.",
       "options": [
         "wave-mcq-36",
-        "wave-mcq-35",
-        "wave-mcq-37",
-        "wave-mcq-34",
-        "wave-mcq-33",
-        "wave-mcq-32"
+        "wave-mcq-22",
+        "wave-mcq-24",
+        "wave-mcq-33"
       ],
       "explanation": "本句的「waving」指「揮手／揮動這一動作」。",
       "sentenceIndex": 75,
@@ -2798,12 +2532,10 @@ export default {
         "waving"
       ],
       "optionReasons": {
-        "wave-mcq-36": "本句指「揮手／揮動這一動作」。",
-        "wave-mcq-35": "「一波接一波地出現」與本句語境不同。",
-        "wave-mcq-37": "「波浪形的；具有波動特徵的」與本句語境不同。",
-        "wave-mcq-34": "「掀起風波、造成影響或挑戰現狀」與本句語境不同。",
-        "wave-mcq-33": "「投降／認輸」與本句語境不同。",
-        "wave-mcq-32": "「揮一揮手；有時表示隨意打發／不理會」與本句語境不同。"
+        "wave-mcq-36": "本句的「waving」指「揮手／揮動這一動作」。",
+        "wave-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-36"
     },
@@ -2815,11 +2547,9 @@ export default {
       "masked": "She caught my attention by ____.",
       "options": [
         "wave-mcq-36",
-        "wave-mcq-35",
-        "wave-mcq-37",
-        "wave-mcq-34",
-        "wave-mcq-33",
-        "wave-mcq-32"
+        "wave-mcq-30",
+        "wave-mcq-12",
+        "wave-mcq-28"
       ],
       "explanation": "本句的「waving」指「揮手／揮動這一動作」。",
       "sentenceIndex": 76,
@@ -2828,12 +2558,10 @@ export default {
         "waving"
       ],
       "optionReasons": {
-        "wave-mcq-36": "本句指「揮手／揮動這一動作」。",
-        "wave-mcq-35": "「一波接一波地出現」與本句語境不同。",
-        "wave-mcq-37": "「波浪形的；具有波動特徵的」與本句語境不同。",
-        "wave-mcq-34": "「掀起風波、造成影響或挑戰現狀」與本句語境不同。",
-        "wave-mcq-33": "「投降／認輸」與本句語境不同。",
-        "wave-mcq-32": "「揮一揮手；有時表示隨意打發／不理會」與本句語境不同。"
+        "wave-mcq-36": "本句的「waving」指「揮手／揮動這一動作」。",
+        "wave-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-36"
     },
@@ -2845,11 +2573,9 @@ export default {
       "masked": "The material formed a ____.",
       "options": [
         "wave-mcq-37",
-        "wave-mcq-36",
-        "wave-mcq-35",
-        "wave-mcq-34",
+        "wave-mcq-09",
         "wave-mcq-33",
-        "wave-mcq-32"
+        "wave-mcq-16"
       ],
       "explanation": "本句的「wave-like pattern」指「波浪形的；具有波動特徵的」。",
       "sentenceIndex": 77,
@@ -2858,12 +2584,10 @@ export default {
         "wave-like pattern"
       ],
       "optionReasons": {
-        "wave-mcq-37": "本句指「波浪形的；具有波動特徵的」。",
-        "wave-mcq-36": "「揮手／揮動這一動作」與本句語境不同。",
-        "wave-mcq-35": "「一波接一波地出現」與本句語境不同。",
-        "wave-mcq-34": "「掀起風波、造成影響或挑戰現狀」與本句語境不同。",
-        "wave-mcq-33": "「投降／認輸」與本句語境不同。",
-        "wave-mcq-32": "「揮一揮手；有時表示隨意打發／不理會」與本句語境不同。"
+        "wave-mcq-37": "本句的「wave-like pattern」指「波浪形的；具有波動特徵的」。",
+        "wave-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-37"
     },
@@ -2875,11 +2599,9 @@ export default {
       "masked": "The signal showed ____.",
       "options": [
         "wave-mcq-37",
-        "wave-mcq-36",
-        "wave-mcq-35",
-        "wave-mcq-34",
-        "wave-mcq-33",
-        "wave-mcq-32"
+        "wave-mcq-16",
+        "wave-mcq-32",
+        "wave-mcq-25"
       ],
       "explanation": "本句的「wave-like behavior」指「波浪形的；具有波動特徵的」。",
       "sentenceIndex": 78,
@@ -2888,12 +2610,10 @@ export default {
         "wave-like behavior"
       ],
       "optionReasons": {
-        "wave-mcq-37": "本句指「波浪形的；具有波動特徵的」。",
-        "wave-mcq-36": "「揮手／揮動這一動作」與本句語境不同。",
-        "wave-mcq-35": "「一波接一波地出現」與本句語境不同。",
-        "wave-mcq-34": "「掀起風波、造成影響或挑戰現狀」與本句語境不同。",
-        "wave-mcq-33": "「投降／認輸」與本句語境不同。",
-        "wave-mcq-32": "「揮一揮手；有時表示隨意打發／不理會」與本句語境不同。"
+        "wave-mcq-37": "本句的「wave-like behavior」指「波浪形的；具有波動特徵的」。",
+        "wave-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "wave-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wave-mcq-37"
     }
@@ -2905,5 +2625,7 @@ export default {
     "sha256": "63a0922bc123bc11692f3754f62f77aedfb740c6567504ce411750a7722b59aa",
     "pages": 23
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

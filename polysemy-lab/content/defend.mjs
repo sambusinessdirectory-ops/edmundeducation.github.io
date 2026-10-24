@@ -42,11 +42,6 @@ export default {
       "note": "來源詞義：自衛；保護自己",
       "examples": [
         [
-          "The shield helped defend him from flying debris.",
-          "盾牌幫助保護他免受飛散碎片傷害。",
-          "自衛；保護自己"
-        ],
-        [
           "She raised her arms to defend herself.",
           "她舉起雙臂保護自己／自衛。",
           "自衛；保護自己"
@@ -79,13 +74,7 @@ export default {
       "en": "defend — argument",
       "zh": "面對批評時提出理由支持／維護某個做法、立場或決定",
       "note": "來源詞義：面對批評時提出理由支持／維護某個做法、立場或決定",
-      "examples": [
-        [
-          "The unit was ordered to defend the position.",
-          "該部隊奉命守住陣地。",
-          "面對批評時提出理由支持／維護某個做法、立場或決定"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -97,11 +86,6 @@ export default {
       "zh": "為自己的行為辯解／辯護",
       "note": "來源詞義：為自己的行為辯解／辯護",
       "examples": [
-        [
-          "The city strengthened its defences.",
-          "這座城市加強了防禦工事／防衛能力。",
-          "為自己的行為辯解／辯護"
-        ],
         [
           "Some people defend this practice by arguing that students lack quiet places to study.",
           "有些人以學生缺乏安靜學習場所為理由，替這種做法辯護。",
@@ -307,11 +291,6 @@ export default {
       "zh": "向考官答辯並以理據支持自己的研究",
       "note": "來源詞義：向考官答辯並以理據支持自己的研究",
       "examples": [
-        [
-          "The knight defends the pawn.",
-          "騎士保護那隻兵。",
-          "向考官答辯並以理據支持自己的研究"
-        ],
         [
           "She will defend her dissertation next week.",
           "她下星期會進行博士論文答辯。",
@@ -634,6 +613,74 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "defend-reviewed-b818f3ea98",
+      "title": "防止受到",
+      "form": "defend · source section 3",
+      "en": "防止受到",
+      "zh": "防止受到",
+      "note": "對照原始教材第 3 節及例句核實。",
+      "examples": [
+        [
+          "The shield helped defend him from flying debris.",
+          "盾牌幫助保護他免受飛散碎片傷害。",
+          "防止受到"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "defend-reviewed-551cab50b1",
+      "title": "守住；防守",
+      "form": "defend · source section 7",
+      "en": "守住；防守",
+      "zh": "守住；防守",
+      "note": "對照原始教材第 7 節及例句核實。",
+      "examples": [
+        [
+          "The unit was ordered to defend the position.",
+          "該部隊奉命守住陣地。",
+          "守住；防守"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "defend-reviewed-950a882f1e",
+      "title": "防禦；保衛",
+      "form": "defend · source section 9",
+      "en": "防禦；保衛",
+      "zh": "防禦；保衛",
+      "note": "對照原始教材第 9 節及例句核實。",
+      "examples": [
+        [
+          "The city strengthened its defences.",
+          "這座城市加強了防禦工事／防衛能力。",
+          "防禦；保衛"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "defend-reviewed-5ad483e287",
+      "title": "保護棋子／格位",
+      "form": "defend · source section 53",
+      "en": "保護棋子／格位",
+      "zh": "保護棋子／格位",
+      "note": "對照原始教材第 53 節及例句核實。",
+      "examples": [
+        [
+          "The knight defends the pawn.",
+          "騎士保護那隻兵。",
+          "保護棋子／格位"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -645,11 +692,9 @@ export default {
       "masked": "The town was difficult to ____ attack.",
       "options": [
         "defend-mcq-02",
-        "defend-mcq-01",
-        "defend-mcq-03",
+        "defend-mcq-36",
         "defend-mcq-04",
-        "defend-mcq-05",
-        "defend-mcq-06"
+        "defend-mcq-07"
       ],
       "explanation": "本句的「defend against」指「抵抗／防禦某種攻擊、威脅或傷害」。",
       "sentenceIndex": 3,
@@ -658,44 +703,40 @@ export default {
         "defend against"
       ],
       "optionReasons": {
-        "defend-mcq-02": "本句指「抵抗／防禦某種攻擊、威脅或傷害」。",
-        "defend-mcq-01": "「保護某人／地方免受實際攻擊；保衛」與本句語境不同。",
-        "defend-mcq-03": "「自衛；保護自己」與本句語境不同。",
-        "defend-mcq-04": "「保衛領土、邊境、陣地等」與本句語境不同。",
-        "defend-mcq-05": "「面對批評時提出理由支持／維護某個做法、立場或決定」與本句語境不同。",
-        "defend-mcq-06": "「為自己的行為辯解／辯護」與本句語境不同。"
+        "defend-mcq-02": "本句的「defend against」指「抵抗／防禦某種攻擊、威脅或傷害」。",
+        "defend-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-02"
     },
     {
       "id": "defend-03-0",
-      "sense": "defend-mcq-03",
+      "sense": "defend-reviewed-b818f3ea98",
       "en": "The shield helped defend him from flying debris.",
       "zh": "盾牌幫助保護他免受飛散碎片傷害。",
       "masked": "The shield helped ____ him from flying debris.",
       "options": [
-        "defend-mcq-03",
-        "defend-mcq-02",
-        "defend-mcq-04",
-        "defend-mcq-01",
-        "defend-mcq-05",
-        "defend-mcq-06"
+        "defend-reviewed-b818f3ea98",
+        "defend-mcq-07",
+        "defend-mcq-32",
+        "defend-mcq-29"
       ],
-      "explanation": "本句的「defend」指「自衛；保護自己」。",
+      "explanation": "對照完整句子：「盾牌幫助保護他免受飛散碎片傷害。」。這裡的「defend」表示「防止受到」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "defend"
       ],
       "optionReasons": {
-        "defend-mcq-03": "本句指「自衛；保護自己」。",
-        "defend-mcq-02": "「抵抗／防禦某種攻擊、威脅或傷害」與本句語境不同。",
-        "defend-mcq-04": "「保衛領土、邊境、陣地等」與本句語境不同。",
-        "defend-mcq-01": "「保護某人／地方免受實際攻擊；保衛」與本句語境不同。",
-        "defend-mcq-05": "「面對批評時提出理由支持／維護某個做法、立場或決定」與本句語境不同。",
-        "defend-mcq-06": "「為自己的行為辯解／辯護」與本句語境不同。"
+        "defend-reviewed-b818f3ea98": "對照完整句子：「盾牌幫助保護他免受飛散碎片傷害。」。這裡的「defend」表示「防止受到」。",
+        "defend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "defend-mcq-03"
+      "correctOption": "defend-reviewed-b818f3ea98",
+      "previousCorrectOption": "defend-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "defend-04-0",
@@ -705,11 +746,9 @@ export default {
       "masked": "She raised her arms to ____.",
       "options": [
         "defend-mcq-03",
-        "defend-mcq-02",
-        "defend-mcq-04",
-        "defend-mcq-01",
-        "defend-mcq-05",
-        "defend-mcq-06"
+        "defend-mcq-30",
+        "defend-mcq-29",
+        "defend-mcq-19"
       ],
       "explanation": "本句的「defend herself」指「自衛；保護自己」。",
       "sentenceIndex": 5,
@@ -718,12 +757,10 @@ export default {
         "defend herself"
       ],
       "optionReasons": {
-        "defend-mcq-03": "本句指「自衛；保護自己」。",
-        "defend-mcq-02": "「抵抗／防禦某種攻擊、威脅或傷害」與本句語境不同。",
-        "defend-mcq-04": "「保衛領土、邊境、陣地等」與本句語境不同。",
-        "defend-mcq-01": "「保護某人／地方免受實際攻擊；保衛」與本句語境不同。",
-        "defend-mcq-05": "「面對批評時提出理由支持／維護某個做法、立場或決定」與本句語境不同。",
-        "defend-mcq-06": "「為自己的行為辯解／辯護」與本句語境不同。"
+        "defend-mcq-03": "本句的「defend herself」指「自衛；保護自己」。",
+        "defend-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-03"
     },
@@ -735,11 +772,9 @@ export default {
       "masked": "The forces were deployed to ____ the border.",
       "options": [
         "defend-mcq-04",
-        "defend-mcq-03",
-        "defend-mcq-05",
-        "defend-mcq-02",
-        "defend-mcq-06",
-        "defend-mcq-01"
+        "defend-mcq-31",
+        "defend-mcq-13",
+        "defend-mcq-29"
       ],
       "explanation": "本句的「defend」指「保衛領土、邊境、陣地等」。",
       "sentenceIndex": 6,
@@ -748,74 +783,68 @@ export default {
         "defend"
       ],
       "optionReasons": {
-        "defend-mcq-04": "本句指「保衛領土、邊境、陣地等」。",
-        "defend-mcq-03": "「自衛；保護自己」與本句語境不同。",
-        "defend-mcq-05": "「面對批評時提出理由支持／維護某個做法、立場或決定」與本句語境不同。",
-        "defend-mcq-02": "「抵抗／防禦某種攻擊、威脅或傷害」與本句語境不同。",
-        "defend-mcq-06": "「為自己的行為辯解／辯護」與本句語境不同。",
-        "defend-mcq-01": "「保護某人／地方免受實際攻擊；保衛」與本句語境不同。"
+        "defend-mcq-04": "本句的「defend」指「保衛領土、邊境、陣地等」。",
+        "defend-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-04"
     },
     {
       "id": "defend-07-0",
-      "sense": "defend-mcq-05",
+      "sense": "defend-reviewed-551cab50b1",
       "en": "The unit was ordered to defend the position.",
       "zh": "該部隊奉命守住陣地。",
       "masked": "The unit was ordered to ____.",
       "options": [
-        "defend-mcq-05",
-        "defend-mcq-04",
-        "defend-mcq-06",
-        "defend-mcq-03",
-        "defend-mcq-07",
-        "defend-mcq-02"
+        "defend-reviewed-551cab50b1",
+        "defend-mcq-40",
+        "defend-mcq-15",
+        "defend-mcq-35"
       ],
-      "explanation": "本句的「defend the position」指「面對批評時提出理由支持／維護某個做法、立場或決定」。",
+      "explanation": "對照完整句子：「該部隊奉命守住陣地。」。這裡的「defend the position」表示「守住；防守」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "defend the position"
       ],
       "optionReasons": {
-        "defend-mcq-05": "本句指「面對批評時提出理由支持／維護某個做法、立場或決定」。",
-        "defend-mcq-04": "「保衛領土、邊境、陣地等」與本句語境不同。",
-        "defend-mcq-06": "「為自己的行為辯解／辯護」與本句語境不同。",
-        "defend-mcq-03": "「自衛；保護自己」與本句語境不同。",
-        "defend-mcq-07": "「用理由和證據支持某項主張／理論」與本句語境不同。",
-        "defend-mcq-02": "「抵抗／防禦某種攻擊、威脅或傷害」與本句語境不同。"
+        "defend-reviewed-551cab50b1": "對照完整句子：「該部隊奉命守住陣地。」。這裡的「defend the position」表示「守住；防守」。",
+        "defend-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "defend-mcq-05"
+      "correctOption": "defend-reviewed-551cab50b1",
+      "previousCorrectOption": "defend-mcq-05",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "defend-09-0",
-      "sense": "defend-mcq-06",
+      "sense": "defend-reviewed-950a882f1e",
       "en": "The city strengthened its defences.",
       "zh": "這座城市加強了防禦工事／防衛能力。",
       "masked": "The city strengthened its ____.",
       "options": [
-        "defend-mcq-06",
-        "defend-mcq-05",
-        "defend-mcq-07",
-        "defend-mcq-04",
-        "defend-mcq-08",
-        "defend-mcq-03"
+        "defend-reviewed-950a882f1e",
+        "defend-mcq-40",
+        "defend-mcq-35",
+        "defend-mcq-29"
       ],
-      "explanation": "本句的「defences」指「為自己的行為辯解／辯護」。",
+      "explanation": "對照完整句子：「這座城市加強了防禦工事／防衛能力。」。這裡的「defences」表示「防禦；保衛」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "defences"
       ],
       "optionReasons": {
-        "defend-mcq-06": "本句指「為自己的行為辯解／辯護」。",
-        "defend-mcq-05": "「面對批評時提出理由支持／維護某個做法、立場或決定」與本句語境不同。",
-        "defend-mcq-07": "「用理由和證據支持某項主張／理論」與本句語境不同。",
-        "defend-mcq-04": "「保衛領土、邊境、陣地等」與本句語境不同。",
-        "defend-mcq-08": "「抵抗削弱／侵犯，捍衛權利或原則」與本句語境不同。",
-        "defend-mcq-03": "「自衛；保護自己」與本句語境不同。"
+        "defend-reviewed-950a882f1e": "對照完整句子：「這座城市加強了防禦工事／防衛能力。」。這裡的「defences」表示「防禦；保衛」。",
+        "defend-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "defend-mcq-06"
+      "correctOption": "defend-reviewed-950a882f1e",
+      "previousCorrectOption": "defend-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "defend-14-0",
@@ -825,11 +854,9 @@ export default {
       "masked": "Some people ____ by arguing that students lack quiet places to study.",
       "options": [
         "defend-mcq-06",
-        "defend-mcq-05",
-        "defend-mcq-07",
-        "defend-mcq-04",
-        "defend-mcq-08",
-        "defend-mcq-03"
+        "defend-mcq-29",
+        "defend-mcq-34",
+        "defend-reviewed-b818f3ea98"
       ],
       "explanation": "本句的「defend this practice」指「為自己的行為辯解／辯護」。",
       "sentenceIndex": 9,
@@ -838,12 +865,10 @@ export default {
         "defend this practice"
       ],
       "optionReasons": {
-        "defend-mcq-06": "本句指「為自己的行為辯解／辯護」。",
-        "defend-mcq-05": "「面對批評時提出理由支持／維護某個做法、立場或決定」與本句語境不同。",
-        "defend-mcq-07": "「用理由和證據支持某項主張／理論」與本句語境不同。",
-        "defend-mcq-04": "「保衛領土、邊境、陣地等」與本句語境不同。",
-        "defend-mcq-08": "「抵抗削弱／侵犯，捍衛權利或原則」與本句語境不同。",
-        "defend-mcq-03": "「自衛；保護自己」與本句語境不同。"
+        "defend-mcq-06": "本句的「defend this practice」指「為自己的行為辯解／辯護」。",
+        "defend-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "defend-reviewed-b818f3ea98": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-06"
     },
@@ -855,11 +880,9 @@ export default {
       "masked": "She ____ her decision.",
       "options": [
         "defend-mcq-06",
-        "defend-mcq-05",
-        "defend-mcq-07",
-        "defend-mcq-04",
+        "defend-reviewed-950a882f1e",
         "defend-mcq-08",
-        "defend-mcq-03"
+        "defend-mcq-29"
       ],
       "explanation": "本句的「defended」指「為自己的行為辯解／辯護」。",
       "sentenceIndex": 10,
@@ -868,12 +891,10 @@ export default {
         "defended"
       ],
       "optionReasons": {
-        "defend-mcq-06": "本句指「為自己的行為辯解／辯護」。",
-        "defend-mcq-05": "「面對批評時提出理由支持／維護某個做法、立場或決定」與本句語境不同。",
-        "defend-mcq-07": "「用理由和證據支持某項主張／理論」與本句語境不同。",
-        "defend-mcq-04": "「保衛領土、邊境、陣地等」與本句語境不同。",
-        "defend-mcq-08": "「抵抗削弱／侵犯，捍衛權利或原則」與本句語境不同。",
-        "defend-mcq-03": "「自衛；保護自己」與本句語境不同。"
+        "defend-mcq-06": "本句的「defended」指「為自己的行為辯解／辯護」。",
+        "defend-reviewed-950a882f1e": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-06"
     },
@@ -885,11 +906,9 @@ export default {
       "masked": "He strongly ____ the proposal against criticism.",
       "options": [
         "defend-mcq-06",
-        "defend-mcq-05",
-        "defend-mcq-07",
-        "defend-mcq-04",
-        "defend-mcq-08",
-        "defend-mcq-03"
+        "defend-mcq-29",
+        "defend-mcq-15",
+        "defend-mcq-30"
       ],
       "explanation": "本句的「defended」指「為自己的行為辯解／辯護」。",
       "sentenceIndex": 11,
@@ -898,12 +917,10 @@ export default {
         "defended"
       ],
       "optionReasons": {
-        "defend-mcq-06": "本句指「為自己的行為辯解／辯護」。",
-        "defend-mcq-05": "「面對批評時提出理由支持／維護某個做法、立場或決定」與本句語境不同。",
-        "defend-mcq-07": "「用理由和證據支持某項主張／理論」與本句語境不同。",
-        "defend-mcq-04": "「保衛領土、邊境、陣地等」與本句語境不同。",
-        "defend-mcq-08": "「抵抗削弱／侵犯，捍衛權利或原則」與本句語境不同。",
-        "defend-mcq-03": "「自衛；保護自己」與本句語境不同。"
+        "defend-mcq-06": "本句的「defended」指「為自己的行為辯解／辯護」。",
+        "defend-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-06"
     },
@@ -915,11 +932,9 @@ export default {
       "masked": "He found it difficult to ____.",
       "options": [
         "defend-mcq-06",
-        "defend-mcq-05",
-        "defend-mcq-07",
-        "defend-mcq-04",
         "defend-mcq-08",
-        "defend-mcq-03"
+        "defend-mcq-14",
+        "defend-mcq-04"
       ],
       "explanation": "本句的「defend his actions」指「為自己的行為辯解／辯護」。",
       "sentenceIndex": 12,
@@ -928,12 +943,10 @@ export default {
         "defend his actions"
       ],
       "optionReasons": {
-        "defend-mcq-06": "本句指「為自己的行為辯解／辯護」。",
-        "defend-mcq-05": "「面對批評時提出理由支持／維護某個做法、立場或決定」與本句語境不同。",
-        "defend-mcq-07": "「用理由和證據支持某項主張／理論」與本句語境不同。",
-        "defend-mcq-04": "「保衛領土、邊境、陣地等」與本句語境不同。",
-        "defend-mcq-08": "「抵抗削弱／侵犯，捍衛權利或原則」與本句語境不同。",
-        "defend-mcq-03": "「自衛；保護自己」與本句語境不同。"
+        "defend-mcq-06": "本句的「defend his actions」指「為自己的行為辯解／辯護」。",
+        "defend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-06"
     },
@@ -946,10 +959,8 @@ export default {
       "options": [
         "defend-mcq-07",
         "defend-mcq-06",
-        "defend-mcq-08",
-        "defend-mcq-05",
-        "defend-mcq-09",
-        "defend-mcq-04"
+        "defend-mcq-13",
+        "defend-mcq-29"
       ],
       "explanation": "本句的「defend」指「用理由和證據支持某項主張／理論」。",
       "sentenceIndex": 13,
@@ -958,12 +969,10 @@ export default {
         "defend"
       ],
       "optionReasons": {
-        "defend-mcq-07": "本句指「用理由和證據支持某項主張／理論」。",
-        "defend-mcq-06": "「為自己的行為辯解／辯護」與本句語境不同。",
-        "defend-mcq-08": "「抵抗削弱／侵犯，捍衛權利或原則」與本句語境不同。",
-        "defend-mcq-05": "「面對批評時提出理由支持／維護某個做法、立場或決定」與本句語境不同。",
-        "defend-mcq-09": "「在法律程序中為被告／當事人辯護」與本句語境不同。",
-        "defend-mcq-04": "「保衛領土、邊境、陣地等」與本句語境不同。"
+        "defend-mcq-07": "本句的「defend」指「用理由和證據支持某項主張／理論」。",
+        "defend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-07"
     },
@@ -975,11 +984,9 @@ export default {
       "masked": "She ____ herself against accusations of carelessness.",
       "options": [
         "defend-mcq-07",
-        "defend-mcq-06",
-        "defend-mcq-08",
-        "defend-mcq-05",
-        "defend-mcq-09",
-        "defend-mcq-04"
+        "defend-mcq-36",
+        "defend-mcq-14",
+        "defend-mcq-34"
       ],
       "explanation": "本句的「defended」指「用理由和證據支持某項主張／理論」。",
       "sentenceIndex": 14,
@@ -988,12 +995,10 @@ export default {
         "defended"
       ],
       "optionReasons": {
-        "defend-mcq-07": "本句指「用理由和證據支持某項主張／理論」。",
-        "defend-mcq-06": "「為自己的行為辯解／辯護」與本句語境不同。",
-        "defend-mcq-08": "「抵抗削弱／侵犯，捍衛權利或原則」與本句語境不同。",
-        "defend-mcq-05": "「面對批評時提出理由支持／維護某個做法、立場或決定」與本句語境不同。",
-        "defend-mcq-09": "「在法律程序中為被告／當事人辯護」與本句語境不同。",
-        "defend-mcq-04": "「保衛領土、邊境、陣地等」與本句語境不同。"
+        "defend-mcq-07": "本句的「defended」指「用理由和證據支持某項主張／理論」。",
+        "defend-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-07"
     },
@@ -1005,11 +1010,9 @@ export default {
       "masked": "She ____ her right to express her opinion.",
       "options": [
         "defend-mcq-08",
-        "defend-mcq-07",
-        "defend-mcq-09",
-        "defend-mcq-06",
-        "defend-mcq-10",
-        "defend-mcq-05"
+        "defend-mcq-25",
+        "defend-mcq-30",
+        "defend-mcq-18"
       ],
       "explanation": "本句的「defended」指「抵抗削弱／侵犯，捍衛權利或原則」。",
       "sentenceIndex": 15,
@@ -1018,12 +1021,10 @@ export default {
         "defended"
       ],
       "optionReasons": {
-        "defend-mcq-08": "本句指「抵抗削弱／侵犯，捍衛權利或原則」。",
-        "defend-mcq-07": "「用理由和證據支持某項主張／理論」與本句語境不同。",
-        "defend-mcq-09": "「在法律程序中為被告／當事人辯護」與本句語境不同。",
-        "defend-mcq-06": "「為自己的行為辯解／辯護」與本句語境不同。",
-        "defend-mcq-10": "「用來反駁指控／民事責任的法律抗辯」與本句語境不同。",
-        "defend-mcq-05": "「面對批評時提出理由支持／維護某個做法、立場或決定」與本句語境不同。"
+        "defend-mcq-08": "本句的「defended」指「抵抗削弱／侵犯，捍衛權利或原則」。",
+        "defend-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-08"
     },
@@ -1035,11 +1036,9 @@ export default {
       "masked": "He was accused of trying to ____.",
       "options": [
         "defend-mcq-40",
-        "defend-mcq-39",
-        "defend-mcq-38",
-        "defend-mcq-37",
-        "defend-mcq-36",
-        "defend-mcq-35"
+        "defend-mcq-34",
+        "defend-mcq-14",
+        "defend-mcq-29"
       ],
       "explanation": "本句的「defend the indefensible」指「試圖為根本無法合理辯護的事情辯護」。",
       "sentenceIndex": 16,
@@ -1048,12 +1047,10 @@ export default {
         "defend the indefensible"
       ],
       "optionReasons": {
-        "defend-mcq-40": "本句指「試圖為根本無法合理辯護的事情辯護」。",
-        "defend-mcq-39": "「最後一道防線」與本句語境不同。",
-        "defend-mcq-38": "「第一個保護／阻擋威脅的防線」與本句語境不同。",
-        "defend-mcq-37": "「在某人受到攻擊／批評時站出來替其辯護」與本句語境不同。",
-        "defend-mcq-36": "「為某人／某事辯護或維護」與本句語境不同。",
-        "defend-mcq-35": "「被法律程序起訴／控告的一方；被告」與本句語境不同。"
+        "defend-mcq-40": "本句的「defend the indefensible」指「試圖為根本無法合理辯護的事情辯護」。",
+        "defend-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-40"
     },
@@ -1065,11 +1062,9 @@ export default {
       "masked": "The lawyer agreed to ____ him.",
       "options": [
         "defend-mcq-09",
-        "defend-mcq-08",
-        "defend-mcq-10",
         "defend-mcq-07",
-        "defend-mcq-11",
-        "defend-mcq-06"
+        "defend-reviewed-950a882f1e",
+        "defend-mcq-29"
       ],
       "explanation": "本句的「defend」指「在法律程序中為被告／當事人辯護」。",
       "sentenceIndex": 17,
@@ -1078,12 +1073,10 @@ export default {
         "defend"
       ],
       "optionReasons": {
-        "defend-mcq-09": "本句指「在法律程序中為被告／當事人辯護」。",
-        "defend-mcq-08": "「抵抗削弱／侵犯，捍衛權利或原則」與本句語境不同。",
-        "defend-mcq-10": "「用來反駁指控／民事責任的法律抗辯」與本句語境不同。",
-        "defend-mcq-07": "「用理由和證據支持某項主張／理論」與本句語境不同。",
-        "defend-mcq-11": "「法庭上的辯方及／或辯護案件」與本句語境不同。",
-        "defend-mcq-06": "「為自己的行為辯解／辯護」與本句語境不同。"
+        "defend-mcq-09": "本句的「defend」指「在法律程序中為被告／當事人辯護」。",
+        "defend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "defend-reviewed-950a882f1e": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-09"
     },
@@ -1095,11 +1088,9 @@ export default {
       "masked": "The ____ denied the allegation.",
       "options": [
         "defend-mcq-35",
-        "defend-mcq-34",
-        "defend-mcq-36",
-        "defend-mcq-33",
-        "defend-mcq-37",
-        "defend-mcq-32"
+        "defend-mcq-19",
+        "defend-mcq-31",
+        "defend-reviewed-5ad483e287"
       ],
       "explanation": "本句的「defendant」指「被法律程序起訴／控告的一方；被告」。",
       "sentenceIndex": 18,
@@ -1108,12 +1099,10 @@ export default {
         "defendant"
       ],
       "optionReasons": {
-        "defend-mcq-35": "本句指「被法律程序起訴／控告的一方；被告」。",
-        "defend-mcq-34": "「保衛者、捍衛者；亦可指體育後衛」與本句語境不同。",
-        "defend-mcq-36": "「為某人／某事辯護或維護」與本句語境不同。",
-        "defend-mcq-33": "「沒有受到防守／保護的」與本句語境不同。",
-        "defend-mcq-37": "「在某人受到攻擊／批評時站出來替其辯護」與本句語境不同。",
-        "defend-mcq-32": "「無法保衛；比喻上無法合理辯護、無可辯解」與本句語境不同。"
+        "defend-mcq-35": "本句的「defendant」指「被法律程序起訴／控告的一方；被告」。",
+        "defend-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "defend-reviewed-5ad483e287": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-35"
     },
@@ -1125,11 +1114,9 @@ export default {
       "masked": "The team ____ well in the second half.",
       "options": [
         "defend-mcq-13",
-        "defend-mcq-12",
-        "defend-mcq-14",
-        "defend-mcq-11",
-        "defend-mcq-15",
-        "defend-mcq-10"
+        "defend-mcq-31",
+        "defend-mcq-34",
+        "defend-mcq-35"
       ],
       "explanation": "本句的「defended」指「防止對方得分；防守」。",
       "sentenceIndex": 19,
@@ -1138,12 +1125,10 @@ export default {
         "defended"
       ],
       "optionReasons": {
-        "defend-mcq-13": "本句指「防止對方得分；防守」。",
-        "defend-mcq-12": "「自衛；法律上亦可指正當防衛抗辯」與本句語境不同。",
-        "defend-mcq-14": "「阻止對方追平／反超；守住領先」與本句語境不同。",
-        "defend-mcq-11": "「法庭上的辯方及／或辯護案件」與本句語境不同。",
-        "defend-mcq-15": "「再次參賽以保持冠軍身分；衛冕」與本句語境不同。",
-        "defend-mcq-10": "「用來反駁指控／民事責任的法律抗辯」與本句語境不同。"
+        "defend-mcq-13": "本句的「defended」指「防止對方得分；防守」。",
+        "defend-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-13"
     },
@@ -1155,11 +1140,9 @@ export default {
       "masked": "Three players tried to ____ him.",
       "options": [
         "defend-mcq-13",
-        "defend-mcq-12",
-        "defend-mcq-14",
-        "defend-mcq-11",
-        "defend-mcq-15",
-        "defend-mcq-10"
+        "defend-mcq-19",
+        "defend-mcq-34",
+        "defend-mcq-31"
       ],
       "explanation": "本句的「defend」指「防止對方得分；防守」。",
       "sentenceIndex": 20,
@@ -1168,12 +1151,10 @@ export default {
         "defend"
       ],
       "optionReasons": {
-        "defend-mcq-13": "本句指「防止對方得分；防守」。",
-        "defend-mcq-12": "「自衛；法律上亦可指正當防衛抗辯」與本句語境不同。",
-        "defend-mcq-14": "「阻止對方追平／反超；守住領先」與本句語境不同。",
-        "defend-mcq-11": "「法庭上的辯方及／或辯護案件」與本句語境不同。",
-        "defend-mcq-15": "「再次參賽以保持冠軍身分；衛冕」與本句語境不同。",
-        "defend-mcq-10": "「用來反駁指控／民事責任的法律抗辯」與本句語境不同。"
+        "defend-mcq-13": "本句的「defend」指「防止對方得分；防守」。",
+        "defend-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-13"
     },
@@ -1185,11 +1166,9 @@ export default {
       "masked": "They spent the final ten minutes ____.",
       "options": [
         "defend-mcq-14",
-        "defend-mcq-13",
-        "defend-mcq-15",
-        "defend-mcq-12",
-        "defend-mcq-16",
-        "defend-mcq-11"
+        "defend-mcq-22",
+        "defend-mcq-06",
+        "defend-mcq-08"
       ],
       "explanation": "本句的「defending a one-goal lead」指「阻止對方追平／反超；守住領先」。",
       "sentenceIndex": 21,
@@ -1198,12 +1177,10 @@ export default {
         "defending a one-goal lead"
       ],
       "optionReasons": {
-        "defend-mcq-14": "本句指「阻止對方追平／反超；守住領先」。",
-        "defend-mcq-13": "「防止對方得分；防守」與本句語境不同。",
-        "defend-mcq-15": "「再次參賽以保持冠軍身分；衛冕」與本句語境不同。",
-        "defend-mcq-12": "「自衛；法律上亦可指正當防衛抗辯」與本句語境不同。",
-        "defend-mcq-16": "「正在衛冕的上屆冠軍」與本句語境不同。",
-        "defend-mcq-11": "「法庭上的辯方及／或辯護案件」與本句語境不同。"
+        "defend-mcq-14": "本句的「defending a one-goal lead」指「阻止對方追平／反超；守住領先」。",
+        "defend-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-14"
     },
@@ -1215,11 +1192,9 @@ export default {
       "masked": "She will ____ next month.",
       "options": [
         "defend-mcq-15",
-        "defend-mcq-14",
-        "defend-mcq-16",
-        "defend-mcq-13",
-        "defend-mcq-17",
-        "defend-mcq-12"
+        "defend-reviewed-551cab50b1",
+        "defend-mcq-19",
+        "defend-mcq-09"
       ],
       "explanation": "本句的「defend her title」指「再次參賽以保持冠軍身分；衛冕」。",
       "sentenceIndex": 22,
@@ -1228,12 +1203,10 @@ export default {
         "defend her title"
       ],
       "optionReasons": {
-        "defend-mcq-15": "本句指「再次參賽以保持冠軍身分；衛冕」。",
-        "defend-mcq-14": "「阻止對方追平／反超；守住領先」與本句語境不同。",
-        "defend-mcq-16": "「正在衛冕的上屆冠軍」與本句語境不同。",
-        "defend-mcq-13": "「防止對方得分；防守」與本句語境不同。",
-        "defend-mcq-17": "「後衛／防守球員」與本句語境不同。",
-        "defend-mcq-12": "「自衛；法律上亦可指正當防衛抗辯」與本句語境不同。"
+        "defend-mcq-15": "本句的「defend her title」指「再次參賽以保持冠軍身分；衛冕」。",
+        "defend-reviewed-551cab50b1": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-15"
     },
@@ -1245,11 +1218,9 @@ export default {
       "masked": "The ____ blocked the shot.",
       "options": [
         "defend-mcq-17",
-        "defend-mcq-16",
-        "defend-mcq-18",
-        "defend-mcq-15",
-        "defend-mcq-19",
-        "defend-mcq-14"
+        "defend-mcq-36",
+        "defend-mcq-07",
+        "defend-mcq-35"
       ],
       "explanation": "本句的「defender」指「後衛／防守球員」。",
       "sentenceIndex": 23,
@@ -1258,44 +1229,40 @@ export default {
         "defender"
       ],
       "optionReasons": {
-        "defend-mcq-17": "本句指「後衛／防守球員」。",
-        "defend-mcq-16": "「正在衛冕的上屆冠軍」與本句語境不同。",
-        "defend-mcq-18": "「向考官答辯並以理據支持自己的研究」與本句語境不同。",
-        "defend-mcq-15": "「再次參賽以保持冠軍身分；衛冕」與本句語境不同。",
-        "defend-mcq-19": "「論文答辯」與本句語境不同。",
-        "defend-mcq-14": "「阻止對方追平／反超；守住領先」與本句語境不同。"
+        "defend-mcq-17": "本句的「defender」指「後衛／防守球員」。",
+        "defend-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-17"
     },
     {
       "id": "defend-53-0",
-      "sense": "defend-mcq-18",
+      "sense": "defend-reviewed-5ad483e287",
       "en": "The knight defends the pawn.",
       "zh": "騎士保護那隻兵。",
       "masked": "The knight ____ the pawn.",
       "options": [
-        "defend-mcq-18",
-        "defend-mcq-17",
-        "defend-mcq-19",
-        "defend-mcq-16",
-        "defend-mcq-20",
-        "defend-mcq-15"
+        "defend-reviewed-5ad483e287",
+        "defend-mcq-35",
+        "defend-mcq-22",
+        "defend-mcq-18"
       ],
-      "explanation": "本句的「defends」指「向考官答辯並以理據支持自己的研究」。",
+      "explanation": "對照完整句子：「騎士保護那隻兵。」。這裡的「defends」表示「保護棋子／格位」。",
       "sentenceIndex": 24,
       "sourcePractice": 26,
       "targets": [
         "defends"
       ],
       "optionReasons": {
-        "defend-mcq-18": "本句指「向考官答辯並以理據支持自己的研究」。",
-        "defend-mcq-17": "「後衛／防守球員」與本句語境不同。",
-        "defend-mcq-19": "「論文答辯」與本句語境不同。",
-        "defend-mcq-16": "「正在衛冕的上屆冠軍」與本句語境不同。",
-        "defend-mcq-20": "「身體抵抗病原體的免疫防禦」與本句語境不同。",
-        "defend-mcq-15": "「再次參賽以保持冠軍身分；衛冕」與本句語境不同。"
+        "defend-reviewed-5ad483e287": "對照完整句子：「騎士保護那隻兵。」。這裡的「defends」表示「保護棋子／格位」。",
+        "defend-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "defend-mcq-18"
+      "correctOption": "defend-reviewed-5ad483e287",
+      "previousCorrectOption": "defend-mcq-18",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "defend-56-0",
@@ -1305,11 +1272,9 @@ export default {
       "masked": "She will ____ next week.",
       "options": [
         "defend-mcq-18",
-        "defend-mcq-17",
-        "defend-mcq-19",
-        "defend-mcq-16",
-        "defend-mcq-20",
-        "defend-mcq-15"
+        "defend-mcq-04",
+        "defend-reviewed-551cab50b1",
+        "defend-mcq-35"
       ],
       "explanation": "本句的「defend her dissertation」指「向考官答辯並以理據支持自己的研究」。",
       "sentenceIndex": 25,
@@ -1318,12 +1283,10 @@ export default {
         "defend her dissertation"
       ],
       "optionReasons": {
-        "defend-mcq-18": "本句指「向考官答辯並以理據支持自己的研究」。",
-        "defend-mcq-17": "「後衛／防守球員」與本句語境不同。",
-        "defend-mcq-19": "「論文答辯」與本句語境不同。",
-        "defend-mcq-16": "「正在衛冕的上屆冠軍」與本句語境不同。",
-        "defend-mcq-20": "「身體抵抗病原體的免疫防禦」與本句語境不同。",
-        "defend-mcq-15": "「再次參賽以保持冠軍身分；衛冕」與本句語境不同。"
+        "defend-mcq-18": "本句的「defend her dissertation」指「向考官答辯並以理據支持自己的研究」。",
+        "defend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "defend-reviewed-551cab50b1": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-18"
     },
@@ -1335,11 +1298,9 @@ export default {
       "masked": "He passed his doctoral ____.",
       "options": [
         "defend-mcq-19",
-        "defend-mcq-18",
-        "defend-mcq-20",
-        "defend-mcq-17",
-        "defend-mcq-21",
-        "defend-mcq-16"
+        "defend-mcq-08",
+        "defend-mcq-29",
+        "defend-mcq-22"
       ],
       "explanation": "本句的「defense」指「論文答辯」。",
       "sentenceIndex": 26,
@@ -1348,12 +1309,10 @@ export default {
         "defense"
       ],
       "optionReasons": {
-        "defend-mcq-19": "本句指「論文答辯」。",
-        "defend-mcq-18": "「向考官答辯並以理據支持自己的研究」與本句語境不同。",
-        "defend-mcq-20": "「身體抵抗病原體的免疫防禦」與本句語境不同。",
-        "defend-mcq-17": "「後衛／防守球員」與本句語境不同。",
-        "defend-mcq-21": "「生物防止捕食、感染等的防禦機制」與本句語境不同。",
-        "defend-mcq-16": "「正在衛冕的上屆冠軍」與本句語境不同。"
+        "defend-mcq-19": "本句的「defense」指「論文答辯」。",
+        "defend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-19"
     },
@@ -1365,10 +1324,8 @@ export default {
       "masked": "He became ____ when asked about the mistake.",
       "options": [
         "defend-mcq-22",
-        "defend-mcq-21",
-        "defend-mcq-23",
-        "defend-mcq-20",
-        "defend-mcq-24",
+        "defend-mcq-09",
+        "defend-mcq-14",
         "defend-mcq-19"
       ],
       "explanation": "本句的「defensive」指「心理防衛機制」。",
@@ -1378,12 +1335,10 @@ export default {
         "defensive"
       ],
       "optionReasons": {
-        "defend-mcq-22": "本句指「心理防衛機制」。",
-        "defend-mcq-21": "「生物防止捕食、感染等的防禦機制」與本句語境不同。",
-        "defend-mcq-23": "「對網絡／電腦攻擊的防禦」與本句語境不同。",
-        "defend-mcq-20": "「身體抵抗病原體的免疫防禦」與本句語境不同。",
-        "defend-mcq-24": "「以預防錯誤、異常狀態和錯誤使用為目的的防禦式編程」與本句語境不同。",
-        "defend-mcq-19": "「論文答辯」與本句語境不同。"
+        "defend-mcq-22": "本句的「defensive」指「心理防衛機制」。",
+        "defend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-22"
     },
@@ -1395,11 +1350,9 @@ export default {
       "masked": "The course teaches ____.",
       "options": [
         "defend-mcq-25",
-        "defend-mcq-24",
-        "defend-mcq-26",
-        "defend-mcq-23",
-        "defend-mcq-27",
-        "defend-mcq-22"
+        "defend-mcq-07",
+        "defend-mcq-29",
+        "defend-mcq-35"
       ],
       "explanation": "本句的「defensive driving」指「預判危險並保留安全餘度的防禦性駕駛」。",
       "sentenceIndex": 29,
@@ -1408,12 +1361,10 @@ export default {
         "defensive driving"
       ],
       "optionReasons": {
-        "defend-mcq-25": "本句指「預判危險並保留安全餘度的防禦性駕駛」。",
-        "defend-mcq-24": "「以預防錯誤、異常狀態和錯誤使用為目的的防禦式編程」與本句語境不同。",
-        "defend-mcq-26": "「部分因法律責任風險而採取額外／保守醫療措施的防禦性醫療」與本句語境不同。",
-        "defend-mcq-23": "「對網絡／電腦攻擊的防禦」與本句語境不同。",
-        "defend-mcq-27": "「相對較不受經濟周期波動影響的防禦性股票」與本句語境不同。",
-        "defend-mcq-22": "「心理防衛機制」與本句語境不同。"
+        "defend-mcq-25": "本句的「defensive driving」指「預判危險並保留安全餘度的防禦性駕駛」。",
+        "defend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-25"
     },
@@ -1425,11 +1376,9 @@ export default {
       "masked": "They adopted a ____ position.",
       "options": [
         "defend-mcq-27",
-        "defend-mcq-26",
-        "defend-mcq-28",
-        "defend-mcq-25",
-        "defend-mcq-29",
-        "defend-mcq-24"
+        "defend-mcq-07",
+        "defend-mcq-04",
+        "defend-mcq-08"
       ],
       "explanation": "本句的「defensive」指「相對較不受經濟周期波動影響的防禦性股票」。",
       "sentenceIndex": 30,
@@ -1438,12 +1387,10 @@ export default {
         "defensive"
       ],
       "optionReasons": {
-        "defend-mcq-27": "本句指「相對較不受經濟周期波動影響的防禦性股票」。",
-        "defend-mcq-26": "「部分因法律責任風險而採取額外／保守醫療措施的防禦性醫療」與本句語境不同。",
-        "defend-mcq-28": "「面對批評時急於自保、辯解或否認的」與本句語境不同。",
-        "defend-mcq-25": "「預判危險並保留安全餘度的防禦性駕駛」與本句語境不同。",
-        "defend-mcq-29": "「處於守勢／不斷應付批評的狀態」與本句語境不同。",
-        "defend-mcq-24": "「以預防錯誤、異常狀態和錯誤使用為目的的防禦式編程」與本句語境不同。"
+        "defend-mcq-27": "本句的「defensive」指「相對較不受經濟周期波動影響的防禦性股票」。",
+        "defend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-27"
     },
@@ -1455,11 +1402,9 @@ export default {
       "masked": "They chose a highly ____ position.",
       "options": [
         "defend-mcq-30",
-        "defend-mcq-29",
-        "defend-mcq-31",
-        "defend-mcq-28",
-        "defend-mcq-32",
-        "defend-mcq-27"
+        "defend-mcq-15",
+        "defend-mcq-36",
+        "defend-mcq-07"
       ],
       "explanation": "本句的「defensible」指「可以有效防守的；易守的」。",
       "sentenceIndex": 31,
@@ -1468,12 +1413,10 @@ export default {
         "defensible"
       ],
       "optionReasons": {
-        "defend-mcq-30": "本句指「可以有效防守的；易守的」。",
-        "defend-mcq-29": "「處於守勢／不斷應付批評的狀態」與本句語境不同。",
-        "defend-mcq-31": "「有合理理據可以支持／辯護的；站得住腳」與本句語境不同。",
-        "defend-mcq-28": "「面對批評時急於自保、辯解或否認的」與本句語境不同。",
-        "defend-mcq-32": "「無法保衛；比喻上無法合理辯護、無可辯解」與本句語境不同。",
-        "defend-mcq-27": "「相對較不受經濟周期波動影響的防禦性股票」與本句語境不同。"
+        "defend-mcq-30": "本句的「defensible」指「可以有效防守的；易守的」。",
+        "defend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-30"
     },
@@ -1485,11 +1428,9 @@ export default {
       "masked": "That is a legally ____ position.",
       "options": [
         "defend-mcq-31",
-        "defend-mcq-30",
-        "defend-mcq-32",
-        "defend-mcq-29",
-        "defend-mcq-33",
-        "defend-mcq-28"
+        "defend-mcq-27",
+        "defend-mcq-04",
+        "defend-mcq-35"
       ],
       "explanation": "本句的「defensible」指「有合理理據可以支持／辯護的；站得住腳」。",
       "sentenceIndex": 32,
@@ -1498,12 +1439,10 @@ export default {
         "defensible"
       ],
       "optionReasons": {
-        "defend-mcq-31": "本句指「有合理理據可以支持／辯護的；站得住腳」。",
-        "defend-mcq-30": "「可以有效防守的；易守的」與本句語境不同。",
-        "defend-mcq-32": "「無法保衛；比喻上無法合理辯護、無可辯解」與本句語境不同。",
-        "defend-mcq-29": "「處於守勢／不斷應付批評的狀態」與本句語境不同。",
-        "defend-mcq-33": "「沒有受到防守／保護的」與本句語境不同。",
-        "defend-mcq-28": "「面對批評時急於自保、辯解或否認的」與本句語境不同。"
+        "defend-mcq-31": "本句的「defensible」指「有合理理據可以支持／辯護的；站得住腳」。",
+        "defend-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-31"
     },
@@ -1515,11 +1454,9 @@ export default {
       "masked": "The behaviour was completely ____.",
       "options": [
         "defend-mcq-32",
-        "defend-mcq-31",
-        "defend-mcq-33",
-        "defend-mcq-30",
-        "defend-mcq-34",
-        "defend-mcq-29"
+        "defend-mcq-14",
+        "defend-mcq-29",
+        "defend-mcq-30"
       ],
       "explanation": "本句的「indefensible」指「無法保衛；比喻上無法合理辯護、無可辯解」。",
       "sentenceIndex": 33,
@@ -1528,12 +1465,10 @@ export default {
         "indefensible"
       ],
       "optionReasons": {
-        "defend-mcq-32": "本句指「無法保衛；比喻上無法合理辯護、無可辯解」。",
-        "defend-mcq-31": "「有合理理據可以支持／辯護的；站得住腳」與本句語境不同。",
-        "defend-mcq-33": "「沒有受到防守／保護的」與本句語境不同。",
-        "defend-mcq-30": "「可以有效防守的；易守的」與本句語境不同。",
-        "defend-mcq-34": "「保衛者、捍衛者；亦可指體育後衛」與本句語境不同。",
-        "defend-mcq-29": "「處於守勢／不斷應付批評的狀態」與本句語境不同。"
+        "defend-mcq-32": "本句的「indefensible」指「無法保衛；比喻上無法合理辯護、無可辯解」。",
+        "defend-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-32"
     },
@@ -1545,11 +1480,9 @@ export default {
       "masked": "He became a strong ____ of free expression.",
       "options": [
         "defend-mcq-34",
-        "defend-mcq-33",
+        "defend-mcq-30",
         "defend-mcq-35",
-        "defend-mcq-32",
-        "defend-mcq-36",
-        "defend-mcq-31"
+        "defend-mcq-36"
       ],
       "explanation": "本句的「defender」指「保衛者、捍衛者；亦可指體育後衛」。",
       "sentenceIndex": 34,
@@ -1558,12 +1491,10 @@ export default {
         "defender"
       ],
       "optionReasons": {
-        "defend-mcq-34": "本句指「保衛者、捍衛者；亦可指體育後衛」。",
-        "defend-mcq-33": "「沒有受到防守／保護的」與本句語境不同。",
-        "defend-mcq-35": "「被法律程序起訴／控告的一方；被告」與本句語境不同。",
-        "defend-mcq-32": "「無法保衛；比喻上無法合理辯護、無可辯解」與本句語境不同。",
-        "defend-mcq-36": "「為某人／某事辯護或維護」與本句語境不同。",
-        "defend-mcq-31": "「有合理理據可以支持／辯護的；站得住腳」與本句語境不同。"
+        "defend-mcq-34": "本句的「defender」指「保衛者、捍衛者；亦可指體育後衛」。",
+        "defend-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-34"
     },
@@ -1575,11 +1506,9 @@ export default {
       "masked": "She spoke ____ the proposal.",
       "options": [
         "defend-mcq-36",
-        "defend-mcq-35",
-        "defend-mcq-37",
-        "defend-mcq-34",
-        "defend-mcq-38",
-        "defend-mcq-33"
+        "defend-mcq-02",
+        "defend-mcq-17",
+        "defend-mcq-29"
       ],
       "explanation": "本句的「in defence of」指「為某人／某事辯護或維護」。",
       "sentenceIndex": 35,
@@ -1588,12 +1517,10 @@ export default {
         "in defence of"
       ],
       "optionReasons": {
-        "defend-mcq-36": "本句指「為某人／某事辯護或維護」。",
-        "defend-mcq-35": "「被法律程序起訴／控告的一方；被告」與本句語境不同。",
-        "defend-mcq-37": "「在某人受到攻擊／批評時站出來替其辯護」與本句語境不同。",
-        "defend-mcq-34": "「保衛者、捍衛者；亦可指體育後衛」與本句語境不同。",
-        "defend-mcq-38": "「第一個保護／阻擋威脅的防線」與本句語境不同。",
-        "defend-mcq-33": "「沒有受到防守／保護的」與本句語境不同。"
+        "defend-mcq-36": "本句的「in defence of」指「為某人／某事辯護或維護」。",
+        "defend-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-36"
     },
@@ -1605,11 +1532,9 @@ export default {
       "masked": "The questions put him on the ____.",
       "options": [
         "defend-mcq-29",
-        "defend-mcq-28",
-        "defend-mcq-30",
-        "defend-mcq-27",
-        "defend-mcq-31",
-        "defend-mcq-26"
+        "defend-mcq-02",
+        "defend-mcq-40",
+        "defend-mcq-15"
       ],
       "explanation": "本句的「defensive」指「處於守勢／不斷應付批評的狀態」。",
       "sentenceIndex": 36,
@@ -1618,12 +1543,10 @@ export default {
         "defensive"
       ],
       "optionReasons": {
-        "defend-mcq-29": "本句指「處於守勢／不斷應付批評的狀態」。",
-        "defend-mcq-28": "「面對批評時急於自保、辯解或否認的」與本句語境不同。",
-        "defend-mcq-30": "「可以有效防守的；易守的」與本句語境不同。",
-        "defend-mcq-27": "「相對較不受經濟周期波動影響的防禦性股票」與本句語境不同。",
-        "defend-mcq-31": "「有合理理據可以支持／辯護的；站得住腳」與本句語境不同。",
-        "defend-mcq-26": "「部分因法律責任風險而採取額外／保守醫療措施的防禦性醫療」與本句語境不同。"
+        "defend-mcq-29": "本句的「defensive」指「處於守勢／不斷應付批評的狀態」。",
+        "defend-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "defend-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "defend-mcq-29"
     }
@@ -1635,5 +1558,7 @@ export default {
     "sha256": "3523b94043119ecbedc49e027521b0c2745e5f2fd33f9d01559490f5c06103ef",
     "pages": 44
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -178,16 +178,6 @@ export default {
       "note": "來源詞義：空間、時間等只剛剛足夠；非常擠迫／勉強",
       "examples": [
         [
-          "Give the bottle a gentle squeeze.",
-          "輕輕擠一下瓶子。",
-          "空間、時間等只剛剛足夠；非常擠迫／勉強"
-        ],
-        [
-          "She gave my hand a squeeze.",
-          "她握了我的手一下。",
-          "空間、時間等只剛剛足夠；非常擠迫／勉強"
-        ],
-        [
           "Three people in the back seat would be a tight squeeze.",
           "後座坐三個人會非常擠迫。",
           "空間、時間等只剛剛足夠；非常擠迫／勉強"
@@ -258,16 +248,6 @@ export default {
       "zh": "向某人施壓以取得金錢、資訊或讓步",
       "note": "來源詞義：向某人施壓以取得金錢、資訊或讓步",
       "examples": [
-        [
-          "Competition has squeezed profit margins.",
-          "競爭已經壓縮了利潤空間。",
-          "向某人施壓以取得金錢、資訊或讓步"
-        ],
-        [
-          "The project was squeezed by a limited budget.",
-          "這個項目受到有限預算的限制／擠壓。",
-          "向某人施壓以取得金錢、資訊或讓步"
-        ],
         [
           "They tried to squeeze more money out of him.",
           "他們試圖從他身上榨取更多金錢。",
@@ -400,6 +380,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "squeeze-reviewed-277375523b",
+      "title": "一擠；一捏；一握",
+      "form": "squeeze · source section 8",
+      "en": "一擠；一捏；一握",
+      "zh": "一擠；一捏；一握",
+      "note": "對照原始教材第 8 節及例句核實。",
+      "examples": [
+        [
+          "Give the bottle a gentle squeeze.",
+          "輕輕擠一下瓶子。",
+          "一擠；一捏；一握"
+        ],
+        [
+          "She gave my hand a squeeze.",
+          "她握了我的手一下。",
+          "一擠；一捏；一握"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "squeeze-reviewed-28e960f113",
+      "title": "壓縮；縮減",
+      "form": "squeeze · source section 15",
+      "en": "壓縮；縮減",
+      "zh": "壓縮；縮減",
+      "note": "對照原始教材第 15 節及例句核實。",
+      "examples": [
+        [
+          "Competition has squeezed profit margins.",
+          "競爭已經壓縮了利潤空間。",
+          "壓縮；縮減"
+        ],
+        [
+          "The project was squeezed by a limited budget.",
+          "這個項目受到有限預算的限制／擠壓。",
+          "壓縮；縮減"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -411,11 +435,9 @@ export default {
       "masked": "She ____ the sponge.",
       "options": [
         "squeeze-mcq-01",
-        "squeeze-mcq-02",
-        "squeeze-mcq-03",
-        "squeeze-mcq-04",
-        "squeeze-mcq-05",
-        "squeeze-mcq-06"
+        "squeeze-mcq-13",
+        "squeeze-mcq-18",
+        "squeeze-mcq-03"
       ],
       "explanation": "本句的「squeezed」指「從兩邊／周圍施壓，使物件被壓縮、變形或收緊」。",
       "sentenceIndex": 0,
@@ -424,12 +446,10 @@ export default {
         "squeezed"
       ],
       "optionReasons": {
-        "squeeze-mcq-01": "本句指「從兩邊／周圍施壓，使物件被壓縮、變形或收緊」。",
-        "squeeze-mcq-02": "「透過施壓把物件中的液體榨／擠出」與本句語境不同。",
-        "squeeze-mcq-03": "「在空間不足下勉強把人／物塞進去」與本句語境不同。",
-        "squeeze-mcq-04": "「從狹窄空間或人群中擠過」與本句語境不同。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。"
+        "squeeze-mcq-01": "本句的「squeezed」指「從兩邊／周圍施壓，使物件被壓縮、變形或收緊」。",
+        "squeeze-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-01"
     },
@@ -441,11 +461,9 @@ export default {
       "masked": "Don’t ____ the box too hard.",
       "options": [
         "squeeze-mcq-01",
-        "squeeze-mcq-02",
-        "squeeze-mcq-03",
-        "squeeze-mcq-04",
-        "squeeze-mcq-05",
-        "squeeze-mcq-06"
+        "squeeze-mcq-06",
+        "squeeze-mcq-18",
+        "squeeze-mcq-14"
       ],
       "explanation": "本句的「squeeze」指「從兩邊／周圍施壓，使物件被壓縮、變形或收緊」。",
       "sentenceIndex": 1,
@@ -454,12 +472,10 @@ export default {
         "squeeze"
       ],
       "optionReasons": {
-        "squeeze-mcq-01": "本句指「從兩邊／周圍施壓，使物件被壓縮、變形或收緊」。",
-        "squeeze-mcq-02": "「透過施壓把物件中的液體榨／擠出」與本句語境不同。",
-        "squeeze-mcq-03": "「在空間不足下勉強把人／物塞進去」與本句語境不同。",
-        "squeeze-mcq-04": "「從狹窄空間或人群中擠過」與本句語境不同。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。"
+        "squeeze-mcq-01": "本句的「squeeze」指「從兩邊／周圍施壓，使物件被壓縮、變形或收緊」。",
+        "squeeze-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-01"
     },
@@ -471,11 +487,9 @@ export default {
       "masked": "He ____ the tube with both hands.",
       "options": [
         "squeeze-mcq-01",
-        "squeeze-mcq-02",
-        "squeeze-mcq-03",
-        "squeeze-mcq-04",
-        "squeeze-mcq-05",
-        "squeeze-mcq-06"
+        "squeeze-mcq-13",
+        "squeeze-reviewed-277375523b",
+        "squeeze-mcq-16"
       ],
       "explanation": "本句的「squeezed」指「從兩邊／周圍施壓，使物件被壓縮、變形或收緊」。",
       "sentenceIndex": 2,
@@ -484,12 +498,10 @@ export default {
         "squeezed"
       ],
       "optionReasons": {
-        "squeeze-mcq-01": "本句指「從兩邊／周圍施壓，使物件被壓縮、變形或收緊」。",
-        "squeeze-mcq-02": "「透過施壓把物件中的液體榨／擠出」與本句語境不同。",
-        "squeeze-mcq-03": "「在空間不足下勉強把人／物塞進去」與本句語境不同。",
-        "squeeze-mcq-04": "「從狹窄空間或人群中擠過」與本句語境不同。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。"
+        "squeeze-mcq-01": "本句的「squeezed」指「從兩邊／周圍施壓，使物件被壓縮、變形或收緊」。",
+        "squeeze-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "squeeze-reviewed-277375523b": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-01"
     },
@@ -501,11 +513,9 @@ export default {
       "masked": "She ____ the juice from a lemon.",
       "options": [
         "squeeze-mcq-02",
-        "squeeze-mcq-01",
-        "squeeze-mcq-03",
-        "squeeze-mcq-04",
-        "squeeze-mcq-05",
-        "squeeze-mcq-06"
+        "squeeze-mcq-16",
+        "squeeze-mcq-07",
+        "squeeze-mcq-14"
       ],
       "explanation": "本句的「squeezed」指「透過施壓把物件中的液體榨／擠出」。",
       "sentenceIndex": 3,
@@ -514,12 +524,10 @@ export default {
         "squeezed"
       ],
       "optionReasons": {
-        "squeeze-mcq-02": "本句指「透過施壓把物件中的液體榨／擠出」。",
-        "squeeze-mcq-01": "「從兩邊／周圍施壓，使物件被壓縮、變形或收緊」與本句語境不同。",
-        "squeeze-mcq-03": "「在空間不足下勉強把人／物塞進去」與本句語境不同。",
-        "squeeze-mcq-04": "「從狹窄空間或人群中擠過」與本句語境不同。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。"
+        "squeeze-mcq-02": "本句的「squeezed」指「透過施壓把物件中的液體榨／擠出」。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-02"
     },
@@ -531,11 +539,9 @@ export default {
       "masked": "He ____ the water out of the cloth.",
       "options": [
         "squeeze-mcq-02",
-        "squeeze-mcq-01",
-        "squeeze-mcq-03",
-        "squeeze-mcq-04",
-        "squeeze-mcq-05",
-        "squeeze-mcq-06"
+        "squeeze-mcq-14",
+        "squeeze-mcq-07",
+        "squeeze-mcq-03"
       ],
       "explanation": "本句的「squeezed」指「透過施壓把物件中的液體榨／擠出」。",
       "sentenceIndex": 4,
@@ -544,12 +550,10 @@ export default {
         "squeezed"
       ],
       "optionReasons": {
-        "squeeze-mcq-02": "本句指「透過施壓把物件中的液體榨／擠出」。",
-        "squeeze-mcq-01": "「從兩邊／周圍施壓，使物件被壓縮、變形或收緊」與本句語境不同。",
-        "squeeze-mcq-03": "「在空間不足下勉強把人／物塞進去」與本句語境不同。",
-        "squeeze-mcq-04": "「從狹窄空間或人群中擠過」與本句語境不同。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。"
+        "squeeze-mcq-02": "本句的「squeezed」指「透過施壓把物件中的液體榨／擠出」。",
+        "squeeze-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-02"
     },
@@ -561,11 +565,9 @@ export default {
       "masked": "We managed to ____ five people into the car.",
       "options": [
         "squeeze-mcq-03",
-        "squeeze-mcq-02",
-        "squeeze-mcq-04",
-        "squeeze-mcq-01",
-        "squeeze-mcq-05",
-        "squeeze-mcq-06"
+        "squeeze-mcq-11",
+        "squeeze-mcq-07",
+        "squeeze-mcq-16"
       ],
       "explanation": "本句的「squeeze」指「在空間不足下勉強把人／物塞進去」。",
       "sentenceIndex": 5,
@@ -574,12 +576,10 @@ export default {
         "squeeze"
       ],
       "optionReasons": {
-        "squeeze-mcq-03": "本句指「在空間不足下勉強把人／物塞進去」。",
-        "squeeze-mcq-02": "「透過施壓把物件中的液體榨／擠出」與本句語境不同。",
-        "squeeze-mcq-04": "「從狹窄空間或人群中擠過」與本句語境不同。",
-        "squeeze-mcq-01": "「從兩邊／周圍施壓，使物件被壓縮、變形或收緊」與本句語境不同。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。"
+        "squeeze-mcq-03": "本句的「squeeze」指「在空間不足下勉強把人／物塞進去」。",
+        "squeeze-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-03"
     },
@@ -591,11 +591,9 @@ export default {
       "masked": "She ____ the suitcase into the cupboard.",
       "options": [
         "squeeze-mcq-03",
-        "squeeze-mcq-02",
-        "squeeze-mcq-04",
-        "squeeze-mcq-01",
-        "squeeze-mcq-05",
-        "squeeze-mcq-06"
+        "squeeze-mcq-16",
+        "squeeze-mcq-07",
+        "squeeze-mcq-09"
       ],
       "explanation": "本句的「squeezed」指「在空間不足下勉強把人／物塞進去」。",
       "sentenceIndex": 6,
@@ -604,12 +602,10 @@ export default {
         "squeezed"
       ],
       "optionReasons": {
-        "squeeze-mcq-03": "本句指「在空間不足下勉強把人／物塞進去」。",
-        "squeeze-mcq-02": "「透過施壓把物件中的液體榨／擠出」與本句語境不同。",
-        "squeeze-mcq-04": "「從狹窄空間或人群中擠過」與本句語境不同。",
-        "squeeze-mcq-01": "「從兩邊／周圍施壓，使物件被壓縮、變形或收緊」與本句語境不同。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。"
+        "squeeze-mcq-03": "本句的「squeezed」指「在空間不足下勉強把人／物塞進去」。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-03"
     },
@@ -621,11 +617,9 @@ export default {
       "masked": "He ____ the narrow gap.",
       "options": [
         "squeeze-mcq-04",
-        "squeeze-mcq-03",
-        "squeeze-mcq-05",
-        "squeeze-mcq-02",
-        "squeeze-mcq-06",
-        "squeeze-mcq-01"
+        "squeeze-mcq-01",
+        "squeeze-mcq-07",
+        "squeeze-mcq-09"
       ],
       "explanation": "本句的「squeezed through」指「從狹窄空間或人群中擠過」。",
       "sentenceIndex": 7,
@@ -634,12 +628,10 @@ export default {
         "squeezed through"
       ],
       "optionReasons": {
-        "squeeze-mcq-04": "本句指「從狹窄空間或人群中擠過」。",
-        "squeeze-mcq-03": "「在空間不足下勉強把人／物塞進去」與本句語境不同。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。",
-        "squeeze-mcq-02": "「透過施壓把物件中的液體榨／擠出」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。",
-        "squeeze-mcq-01": "「從兩邊／周圍施壓，使物件被壓縮、變形或收緊」與本句語境不同。"
+        "squeeze-mcq-04": "本句的「squeezed through」指「從狹窄空間或人群中擠過」。",
+        "squeeze-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-04"
     },
@@ -651,10 +643,8 @@ export default {
       "masked": "I had to ____ several people.",
       "options": [
         "squeeze-mcq-04",
-        "squeeze-mcq-03",
-        "squeeze-mcq-05",
-        "squeeze-mcq-02",
-        "squeeze-mcq-06",
+        "squeeze-mcq-09",
+        "squeeze-mcq-07",
         "squeeze-mcq-01"
       ],
       "explanation": "本句的「squeeze past」指「從狹窄空間或人群中擠過」。",
@@ -664,12 +654,10 @@ export default {
         "squeeze past"
       ],
       "optionReasons": {
-        "squeeze-mcq-04": "本句指「從狹窄空間或人群中擠過」。",
-        "squeeze-mcq-03": "「在空間不足下勉強把人／物塞進去」與本句語境不同。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。",
-        "squeeze-mcq-02": "「透過施壓把物件中的液體榨／擠出」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。",
-        "squeeze-mcq-01": "「從兩邊／周圍施壓，使物件被壓縮、變形或收緊」與本句語境不同。"
+        "squeeze-mcq-04": "本句的「squeeze past」指「從狹窄空間或人群中擠過」。",
+        "squeeze-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-04"
     },
@@ -681,11 +669,9 @@ export default {
       "masked": "Can we ____ one more chair?",
       "options": [
         "squeeze-mcq-05",
-        "squeeze-mcq-04",
-        "squeeze-mcq-06",
-        "squeeze-mcq-03",
-        "squeeze-mcq-07",
-        "squeeze-mcq-02"
+        "squeeze-mcq-11",
+        "squeeze-reviewed-277375523b",
+        "squeeze-mcq-16"
       ],
       "explanation": "本句的「squeeze in」指「在有限空間／時間中勉強騰出位置或安排」。",
       "sentenceIndex": 9,
@@ -694,12 +680,10 @@ export default {
         "squeeze in"
       ],
       "optionReasons": {
-        "squeeze-mcq-05": "本句指「在有限空間／時間中勉強騰出位置或安排」。",
-        "squeeze-mcq-04": "「從狹窄空間或人群中擠過」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。",
-        "squeeze-mcq-03": "「在空間不足下勉強把人／物塞進去」與本句語境不同。",
-        "squeeze-mcq-07": "「緊握、輕捏或輕抱，以表示感情／安慰」與本句語境不同。",
-        "squeeze-mcq-02": "「透過施壓把物件中的液體榨／擠出」與本句語境不同。"
+        "squeeze-mcq-05": "本句的「squeeze in」指「在有限空間／時間中勉強騰出位置或安排」。",
+        "squeeze-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "squeeze-reviewed-277375523b": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-05"
     },
@@ -711,11 +695,9 @@ export default {
       "masked": "The doctor managed to ____ before lunch.",
       "options": [
         "squeeze-mcq-05",
-        "squeeze-mcq-04",
-        "squeeze-mcq-06",
-        "squeeze-mcq-03",
-        "squeeze-mcq-07",
-        "squeeze-mcq-02"
+        "squeeze-mcq-09",
+        "squeeze-mcq-01",
+        "squeeze-mcq-18"
       ],
       "explanation": "本句的「squeeze me in」指「在有限空間／時間中勉強騰出位置或安排」。",
       "sentenceIndex": 10,
@@ -724,12 +706,10 @@ export default {
         "squeeze me in"
       ],
       "optionReasons": {
-        "squeeze-mcq-05": "本句指「在有限空間／時間中勉強騰出位置或安排」。",
-        "squeeze-mcq-04": "「從狹窄空間或人群中擠過」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。",
-        "squeeze-mcq-03": "「在空間不足下勉強把人／物塞進去」與本句語境不同。",
-        "squeeze-mcq-07": "「緊握、輕捏或輕抱，以表示感情／安慰」與本句語境不同。",
-        "squeeze-mcq-02": "「透過施壓把物件中的液體榨／擠出」與本句語境不同。"
+        "squeeze-mcq-05": "本句的「squeeze me in」指「在有限空間／時間中勉強騰出位置或安排」。",
+        "squeeze-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-05"
     },
@@ -741,11 +721,9 @@ export default {
       "masked": "Older customers may be ____ when tables are occupied for hours.",
       "options": [
         "squeeze-mcq-06",
-        "squeeze-mcq-05",
+        "squeeze-mcq-01",
         "squeeze-mcq-07",
-        "squeeze-mcq-04",
-        "squeeze-mcq-08",
-        "squeeze-mcq-03"
+        "squeeze-mcq-16"
       ],
       "explanation": "本句的「squeezed out」指「因空間、成本、競爭或資源有限而把某人／群體排擠出去」。",
       "sentenceIndex": 11,
@@ -754,12 +732,10 @@ export default {
         "squeezed out"
       ],
       "optionReasons": {
-        "squeeze-mcq-06": "本句指「因空間、成本、競爭或資源有限而把某人／群體排擠出去」。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。",
-        "squeeze-mcq-07": "「緊握、輕捏或輕抱，以表示感情／安慰」與本句語境不同。",
-        "squeeze-mcq-04": "「從狹窄空間或人群中擠過」與本句語境不同。",
-        "squeeze-mcq-08": "「空間、時間等只剛剛足夠；非常擠迫／勉強」與本句語境不同。",
-        "squeeze-mcq-03": "「在空間不足下勉強把人／物塞進去」與本句語境不同。"
+        "squeeze-mcq-06": "本句的「squeezed out」指「因空間、成本、競爭或資源有限而把某人／群體排擠出去」。",
+        "squeeze-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-06"
     },
@@ -771,11 +747,9 @@ export default {
       "masked": "Small shops are being ____ by larger chains.",
       "options": [
         "squeeze-mcq-06",
-        "squeeze-mcq-05",
-        "squeeze-mcq-07",
-        "squeeze-mcq-04",
-        "squeeze-mcq-08",
-        "squeeze-mcq-03"
+        "squeeze-mcq-16",
+        "squeeze-reviewed-28e960f113",
+        "squeeze-mcq-07"
       ],
       "explanation": "本句的「squeezed out」指「因空間、成本、競爭或資源有限而把某人／群體排擠出去」。",
       "sentenceIndex": 12,
@@ -784,12 +758,10 @@ export default {
         "squeezed out"
       ],
       "optionReasons": {
-        "squeeze-mcq-06": "本句指「因空間、成本、競爭或資源有限而把某人／群體排擠出去」。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。",
-        "squeeze-mcq-07": "「緊握、輕捏或輕抱，以表示感情／安慰」與本句語境不同。",
-        "squeeze-mcq-04": "「從狹窄空間或人群中擠過」與本句語境不同。",
-        "squeeze-mcq-08": "「空間、時間等只剛剛足夠；非常擠迫／勉強」與本句語境不同。",
-        "squeeze-mcq-03": "「在空間不足下勉強把人／物塞進去」與本句語境不同。"
+        "squeeze-mcq-06": "本句的「squeezed out」指「因空間、成本、競爭或資源有限而把某人／群體排擠出去」。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "squeeze-reviewed-28e960f113": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-06"
     },
@@ -801,11 +773,9 @@ export default {
       "masked": "Rising rents have ____ many residents out of the area.",
       "options": [
         "squeeze-mcq-06",
-        "squeeze-mcq-05",
-        "squeeze-mcq-07",
-        "squeeze-mcq-04",
-        "squeeze-mcq-08",
-        "squeeze-mcq-03"
+        "squeeze-mcq-01",
+        "squeeze-mcq-16",
+        "squeeze-mcq-07"
       ],
       "explanation": "本句的「squeezed」指「因空間、成本、競爭或資源有限而把某人／群體排擠出去」。",
       "sentenceIndex": 13,
@@ -814,12 +784,10 @@ export default {
         "squeezed"
       ],
       "optionReasons": {
-        "squeeze-mcq-06": "本句指「因空間、成本、競爭或資源有限而把某人／群體排擠出去」。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。",
-        "squeeze-mcq-07": "「緊握、輕捏或輕抱，以表示感情／安慰」與本句語境不同。",
-        "squeeze-mcq-04": "「從狹窄空間或人群中擠過」與本句語境不同。",
-        "squeeze-mcq-08": "「空間、時間等只剛剛足夠；非常擠迫／勉強」與本句語境不同。",
-        "squeeze-mcq-03": "「在空間不足下勉強把人／物塞進去」與本句語境不同。"
+        "squeeze-mcq-06": "本句的「squeezed」指「因空間、成本、競爭或資源有限而把某人／群體排擠出去」。",
+        "squeeze-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-06"
     },
@@ -831,11 +799,9 @@ export default {
       "masked": "She ____ my hand reassuringly.",
       "options": [
         "squeeze-mcq-07",
-        "squeeze-mcq-06",
-        "squeeze-mcq-08",
-        "squeeze-mcq-05",
-        "squeeze-mcq-09",
-        "squeeze-mcq-04"
+        "squeeze-mcq-15",
+        "squeeze-mcq-04",
+        "squeeze-mcq-14"
       ],
       "explanation": "本句的「squeezed」指「緊握、輕捏或輕抱，以表示感情／安慰」。",
       "sentenceIndex": 14,
@@ -844,12 +810,10 @@ export default {
         "squeezed"
       ],
       "optionReasons": {
-        "squeeze-mcq-07": "本句指「緊握、輕捏或輕抱，以表示感情／安慰」。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。",
-        "squeeze-mcq-08": "「空間、時間等只剛剛足夠；非常擠迫／勉強」與本句語境不同。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。",
-        "squeeze-mcq-09": "「令個人／企業可用金錢、利潤或資源減少並承受壓力」與本句語境不同。",
-        "squeeze-mcq-04": "「從狹窄空間或人群中擠過」與本句語境不同。"
+        "squeeze-mcq-07": "本句的「squeezed」指「緊握、輕捏或輕抱，以表示感情／安慰」。",
+        "squeeze-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-07"
     },
@@ -861,11 +825,9 @@ export default {
       "masked": "He gave his daughter a quick ____.",
       "options": [
         "squeeze-mcq-07",
-        "squeeze-mcq-06",
-        "squeeze-mcq-08",
-        "squeeze-mcq-05",
-        "squeeze-mcq-09",
-        "squeeze-mcq-04"
+        "squeeze-mcq-04",
+        "squeeze-mcq-15",
+        "squeeze-mcq-16"
       ],
       "explanation": "本句的「squeeze」指「緊握、輕捏或輕抱，以表示感情／安慰」。",
       "sentenceIndex": 15,
@@ -874,74 +836,68 @@ export default {
         "squeeze"
       ],
       "optionReasons": {
-        "squeeze-mcq-07": "本句指「緊握、輕捏或輕抱，以表示感情／安慰」。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。",
-        "squeeze-mcq-08": "「空間、時間等只剛剛足夠；非常擠迫／勉強」與本句語境不同。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。",
-        "squeeze-mcq-09": "「令個人／企業可用金錢、利潤或資源減少並承受壓力」與本句語境不同。",
-        "squeeze-mcq-04": "「從狹窄空間或人群中擠過」與本句語境不同。"
+        "squeeze-mcq-07": "本句的「squeeze」指「緊握、輕捏或輕抱，以表示感情／安慰」。",
+        "squeeze-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-07"
     },
     {
       "id": "squeeze-08-0",
-      "sense": "squeeze-mcq-08",
+      "sense": "squeeze-reviewed-277375523b",
       "en": "Give the bottle a gentle squeeze.",
       "zh": "輕輕擠一下瓶子。",
       "masked": "Give the bottle a gentle ____.",
       "options": [
-        "squeeze-mcq-08",
-        "squeeze-mcq-07",
-        "squeeze-mcq-09",
-        "squeeze-mcq-06",
-        "squeeze-mcq-10",
-        "squeeze-mcq-05"
+        "squeeze-reviewed-277375523b",
+        "squeeze-mcq-15",
+        "squeeze-mcq-03",
+        "squeeze-mcq-09"
       ],
-      "explanation": "本句的「squeeze」指「空間、時間等只剛剛足夠；非常擠迫／勉強」。",
+      "explanation": "對照完整句子：「輕輕擠一下瓶子。」。這裡的「squeeze」表示「一擠；一捏；一握」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "squeeze"
       ],
       "optionReasons": {
-        "squeeze-mcq-08": "本句指「空間、時間等只剛剛足夠；非常擠迫／勉強」。",
-        "squeeze-mcq-07": "「緊握、輕捏或輕抱，以表示感情／安慰」與本句語境不同。",
-        "squeeze-mcq-09": "「令個人／企業可用金錢、利潤或資源減少並承受壓力」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。",
-        "squeeze-mcq-10": "「財務、信貸或利潤空間受到收緊／壓縮」與本句語境不同。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。"
+        "squeeze-reviewed-277375523b": "對照完整句子：「輕輕擠一下瓶子。」。這裡的「squeeze」表示「一擠；一捏；一握」。",
+        "squeeze-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "squeeze-mcq-08"
+      "correctOption": "squeeze-reviewed-277375523b",
+      "previousCorrectOption": "squeeze-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "squeeze-08-1",
-      "sense": "squeeze-mcq-08",
+      "sense": "squeeze-reviewed-277375523b",
       "en": "She gave my hand a squeeze.",
       "zh": "她握了我的手一下。",
       "masked": "She gave my hand a ____.",
       "options": [
-        "squeeze-mcq-08",
-        "squeeze-mcq-07",
-        "squeeze-mcq-09",
-        "squeeze-mcq-06",
-        "squeeze-mcq-10",
-        "squeeze-mcq-05"
+        "squeeze-reviewed-277375523b",
+        "squeeze-reviewed-28e960f113",
+        "squeeze-mcq-16",
+        "squeeze-mcq-03"
       ],
-      "explanation": "本句的「squeeze」指「空間、時間等只剛剛足夠；非常擠迫／勉強」。",
+      "explanation": "對照完整句子：「她握了我的手一下。」。這裡的「squeeze」表示「一擠；一捏；一握」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "squeeze"
       ],
       "optionReasons": {
-        "squeeze-mcq-08": "本句指「空間、時間等只剛剛足夠；非常擠迫／勉強」。",
-        "squeeze-mcq-07": "「緊握、輕捏或輕抱，以表示感情／安慰」與本句語境不同。",
-        "squeeze-mcq-09": "「令個人／企業可用金錢、利潤或資源減少並承受壓力」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。",
-        "squeeze-mcq-10": "「財務、信貸或利潤空間受到收緊／壓縮」與本句語境不同。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。"
+        "squeeze-reviewed-277375523b": "對照完整句子：「她握了我的手一下。」。這裡的「squeeze」表示「一擠；一捏；一握」。",
+        "squeeze-reviewed-28e960f113": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "squeeze-mcq-08"
+      "correctOption": "squeeze-reviewed-277375523b",
+      "previousCorrectOption": "squeeze-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "squeeze-10-0",
@@ -951,11 +907,9 @@ export default {
       "masked": "Three people in the back seat would be a ____.",
       "options": [
         "squeeze-mcq-08",
+        "squeeze-mcq-11",
         "squeeze-mcq-07",
-        "squeeze-mcq-09",
-        "squeeze-mcq-06",
-        "squeeze-mcq-10",
-        "squeeze-mcq-05"
+        "squeeze-mcq-18"
       ],
       "explanation": "本句的「tight squeeze」指「空間、時間等只剛剛足夠；非常擠迫／勉強」。",
       "sentenceIndex": 19,
@@ -964,12 +918,10 @@ export default {
         "tight squeeze"
       ],
       "optionReasons": {
-        "squeeze-mcq-08": "本句指「空間、時間等只剛剛足夠；非常擠迫／勉強」。",
-        "squeeze-mcq-07": "「緊握、輕捏或輕抱，以表示感情／安慰」與本句語境不同。",
-        "squeeze-mcq-09": "「令個人／企業可用金錢、利潤或資源減少並承受壓力」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。",
-        "squeeze-mcq-10": "「財務、信貸或利潤空間受到收緊／壓縮」與本句語境不同。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。"
+        "squeeze-mcq-08": "本句的「tight squeeze」指「空間、時間等只剛剛足夠；非常擠迫／勉強」。",
+        "squeeze-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-08"
     },
@@ -981,11 +933,9 @@ export default {
       "masked": "It was a ____, but the sofa fitted through the doorway.",
       "options": [
         "squeeze-mcq-08",
+        "squeeze-mcq-11",
         "squeeze-mcq-07",
-        "squeeze-mcq-09",
-        "squeeze-mcq-06",
-        "squeeze-mcq-10",
-        "squeeze-mcq-05"
+        "squeeze-mcq-16"
       ],
       "explanation": "本句的「tight squeeze」指「空間、時間等只剛剛足夠；非常擠迫／勉強」。",
       "sentenceIndex": 20,
@@ -994,12 +944,10 @@ export default {
         "tight squeeze"
       ],
       "optionReasons": {
-        "squeeze-mcq-08": "本句指「空間、時間等只剛剛足夠；非常擠迫／勉強」。",
-        "squeeze-mcq-07": "「緊握、輕捏或輕抱，以表示感情／安慰」與本句語境不同。",
-        "squeeze-mcq-09": "「令個人／企業可用金錢、利潤或資源減少並承受壓力」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。",
-        "squeeze-mcq-10": "「財務、信貸或利潤空間受到收緊／壓縮」與本句語境不同。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。"
+        "squeeze-mcq-08": "本句的「tight squeeze」指「空間、時間等只剛剛足夠；非常擠迫／勉強」。",
+        "squeeze-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-08"
     },
@@ -1011,11 +959,9 @@ export default {
       "masked": "We finished before the deadline, but it was a ____.",
       "options": [
         "squeeze-mcq-08",
-        "squeeze-mcq-07",
+        "squeeze-mcq-01",
         "squeeze-mcq-09",
-        "squeeze-mcq-06",
-        "squeeze-mcq-10",
-        "squeeze-mcq-05"
+        "squeeze-mcq-07"
       ],
       "explanation": "本句的「tight squeeze」指「空間、時間等只剛剛足夠；非常擠迫／勉強」。",
       "sentenceIndex": 21,
@@ -1024,12 +970,10 @@ export default {
         "tight squeeze"
       ],
       "optionReasons": {
-        "squeeze-mcq-08": "本句指「空間、時間等只剛剛足夠；非常擠迫／勉強」。",
-        "squeeze-mcq-07": "「緊握、輕捏或輕抱，以表示感情／安慰」與本句語境不同。",
-        "squeeze-mcq-09": "「令個人／企業可用金錢、利潤或資源減少並承受壓力」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。",
-        "squeeze-mcq-10": "「財務、信貸或利潤空間受到收緊／壓縮」與本句語境不同。",
-        "squeeze-mcq-05": "「在有限空間／時間中勉強騰出位置或安排」與本句語境不同。"
+        "squeeze-mcq-08": "本句的「tight squeeze」指「空間、時間等只剛剛足夠；非常擠迫／勉強」。",
+        "squeeze-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-08"
     },
@@ -1041,11 +985,9 @@ export default {
       "masked": "Higher costs are ____ small businesses.",
       "options": [
         "squeeze-mcq-09",
-        "squeeze-mcq-08",
-        "squeeze-mcq-10",
-        "squeeze-mcq-07",
-        "squeeze-mcq-11",
-        "squeeze-mcq-06"
+        "squeeze-mcq-03",
+        "squeeze-mcq-16",
+        "squeeze-mcq-07"
       ],
       "explanation": "本句的「squeezing」指「令個人／企業可用金錢、利潤或資源減少並承受壓力」。",
       "sentenceIndex": 22,
@@ -1054,12 +996,10 @@ export default {
         "squeezing"
       ],
       "optionReasons": {
-        "squeeze-mcq-09": "本句指「令個人／企業可用金錢、利潤或資源減少並承受壓力」。",
-        "squeeze-mcq-08": "「空間、時間等只剛剛足夠；非常擠迫／勉強」與本句語境不同。",
-        "squeeze-mcq-10": "「財務、信貸或利潤空間受到收緊／壓縮」與本句語境不同。",
-        "squeeze-mcq-07": "「緊握、輕捏或輕抱，以表示感情／安慰」與本句語境不同。",
-        "squeeze-mcq-11": "「向某人施壓以取得金錢、資訊或讓步」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。"
+        "squeeze-mcq-09": "本句的「squeezing」指「令個人／企業可用金錢、利潤或資源減少並承受壓力」。",
+        "squeeze-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-09"
     },
@@ -1071,11 +1011,9 @@ export default {
       "masked": "Households are being ____ by rising prices.",
       "options": [
         "squeeze-mcq-09",
-        "squeeze-mcq-08",
-        "squeeze-mcq-10",
-        "squeeze-mcq-07",
-        "squeeze-mcq-11",
-        "squeeze-mcq-06"
+        "squeeze-mcq-03",
+        "squeeze-mcq-18",
+        "squeeze-mcq-07"
       ],
       "explanation": "本句的「squeezed」指「令個人／企業可用金錢、利潤或資源減少並承受壓力」。",
       "sentenceIndex": 23,
@@ -1084,12 +1022,10 @@ export default {
         "squeezed"
       ],
       "optionReasons": {
-        "squeeze-mcq-09": "本句指「令個人／企業可用金錢、利潤或資源減少並承受壓力」。",
-        "squeeze-mcq-08": "「空間、時間等只剛剛足夠；非常擠迫／勉強」與本句語境不同。",
-        "squeeze-mcq-10": "「財務、信貸或利潤空間受到收緊／壓縮」與本句語境不同。",
-        "squeeze-mcq-07": "「緊握、輕捏或輕抱，以表示感情／安慰」與本句語境不同。",
-        "squeeze-mcq-11": "「向某人施壓以取得金錢、資訊或讓步」與本句語境不同。",
-        "squeeze-mcq-06": "「因空間、成本、競爭或資源有限而把某人／群體排擠出去」與本句語境不同。"
+        "squeeze-mcq-09": "本句的「squeezed」指「令個人／企業可用金錢、利潤或資源減少並承受壓力」。",
+        "squeeze-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-09"
     },
@@ -1101,11 +1037,9 @@ export default {
       "masked": "Families are feeling the financial ____.",
       "options": [
         "squeeze-mcq-10",
-        "squeeze-mcq-09",
-        "squeeze-mcq-11",
-        "squeeze-mcq-08",
-        "squeeze-mcq-12",
-        "squeeze-mcq-07"
+        "squeeze-reviewed-277375523b",
+        "squeeze-mcq-16",
+        "squeeze-mcq-15"
       ],
       "explanation": "本句的「squeeze」指「財務、信貸或利潤空間受到收緊／壓縮」。",
       "sentenceIndex": 24,
@@ -1114,12 +1048,10 @@ export default {
         "squeeze"
       ],
       "optionReasons": {
-        "squeeze-mcq-10": "本句指「財務、信貸或利潤空間受到收緊／壓縮」。",
-        "squeeze-mcq-09": "「令個人／企業可用金錢、利潤或資源減少並承受壓力」與本句語境不同。",
-        "squeeze-mcq-11": "「向某人施壓以取得金錢、資訊或讓步」與本句語境不同。",
-        "squeeze-mcq-08": "「空間、時間等只剛剛足夠；非常擠迫／勉強」與本句語境不同。",
-        "squeeze-mcq-12": "「向某人施加強大壓力／逼迫」與本句語境不同。",
-        "squeeze-mcq-07": "「緊握、輕捏或輕抱，以表示感情／安慰」與本句語境不同。"
+        "squeeze-mcq-10": "本句的「squeeze」指「財務、信貸或利潤空間受到收緊／壓縮」。",
+        "squeeze-reviewed-277375523b": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-10"
     },
@@ -1131,11 +1063,9 @@ export default {
       "masked": "The company is facing a profit ____.",
       "options": [
         "squeeze-mcq-10",
-        "squeeze-mcq-09",
-        "squeeze-mcq-11",
-        "squeeze-mcq-08",
-        "squeeze-mcq-12",
-        "squeeze-mcq-07"
+        "squeeze-mcq-16",
+        "squeeze-reviewed-277375523b",
+        "squeeze-mcq-12"
       ],
       "explanation": "本句的「squeeze」指「財務、信貸或利潤空間受到收緊／壓縮」。",
       "sentenceIndex": 25,
@@ -1144,74 +1074,68 @@ export default {
         "squeeze"
       ],
       "optionReasons": {
-        "squeeze-mcq-10": "本句指「財務、信貸或利潤空間受到收緊／壓縮」。",
-        "squeeze-mcq-09": "「令個人／企業可用金錢、利潤或資源減少並承受壓力」與本句語境不同。",
-        "squeeze-mcq-11": "「向某人施壓以取得金錢、資訊或讓步」與本句語境不同。",
-        "squeeze-mcq-08": "「空間、時間等只剛剛足夠；非常擠迫／勉強」與本句語境不同。",
-        "squeeze-mcq-12": "「向某人施加強大壓力／逼迫」與本句語境不同。",
-        "squeeze-mcq-07": "「緊握、輕捏或輕抱，以表示感情／安慰」與本句語境不同。"
+        "squeeze-mcq-10": "本句的「squeeze」指「財務、信貸或利潤空間受到收緊／壓縮」。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "squeeze-reviewed-277375523b": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-10"
     },
     {
       "id": "squeeze-15-0",
-      "sense": "squeeze-mcq-11",
+      "sense": "squeeze-reviewed-28e960f113",
       "en": "Competition has squeezed profit margins.",
       "zh": "競爭已經壓縮了利潤空間。",
       "masked": "Competition has ____ profit margins.",
       "options": [
-        "squeeze-mcq-11",
-        "squeeze-mcq-10",
-        "squeeze-mcq-12",
-        "squeeze-mcq-09",
-        "squeeze-mcq-13",
-        "squeeze-mcq-08"
+        "squeeze-reviewed-28e960f113",
+        "squeeze-mcq-14",
+        "squeeze-mcq-03",
+        "squeeze-mcq-16"
       ],
-      "explanation": "本句的「squeezed」指「向某人施壓以取得金錢、資訊或讓步」。",
+      "explanation": "對照完整句子：「競爭已經壓縮了利潤空間。」。這裡的「squeezed」表示「壓縮；縮減」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "squeezed"
       ],
       "optionReasons": {
-        "squeeze-mcq-11": "本句指「向某人施壓以取得金錢、資訊或讓步」。",
-        "squeeze-mcq-10": "「財務、信貸或利潤空間受到收緊／壓縮」與本句語境不同。",
-        "squeeze-mcq-12": "「向某人施加強大壓力／逼迫」與本句語境不同。",
-        "squeeze-mcq-09": "「令個人／企業可用金錢、利潤或資源減少並承受壓力」與本句語境不同。",
-        "squeeze-mcq-13": "「把某人的金錢／資源榨取殆盡」與本句語境不同。",
-        "squeeze-mcq-08": "「空間、時間等只剛剛足夠；非常擠迫／勉強」與本句語境不同。"
+        "squeeze-reviewed-28e960f113": "對照完整句子：「競爭已經壓縮了利潤空間。」。這裡的「squeezed」表示「壓縮；縮減」。",
+        "squeeze-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "squeeze-mcq-11"
+      "correctOption": "squeeze-reviewed-28e960f113",
+      "previousCorrectOption": "squeeze-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "squeeze-15-1",
-      "sense": "squeeze-mcq-11",
+      "sense": "squeeze-reviewed-28e960f113",
       "en": "The project was squeezed by a limited budget.",
       "zh": "這個項目受到有限預算的限制／擠壓。",
       "masked": "The project was ____ by a limited budget.",
       "options": [
-        "squeeze-mcq-11",
-        "squeeze-mcq-10",
-        "squeeze-mcq-12",
-        "squeeze-mcq-09",
-        "squeeze-mcq-13",
-        "squeeze-mcq-08"
+        "squeeze-reviewed-28e960f113",
+        "squeeze-mcq-18",
+        "squeeze-mcq-04",
+        "squeeze-mcq-14"
       ],
-      "explanation": "本句的「squeezed」指「向某人施壓以取得金錢、資訊或讓步」。",
+      "explanation": "對照完整句子：「這個項目受到有限預算的限制／擠壓。」。這裡的「squeezed」表示「壓縮；縮減」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "squeezed"
       ],
       "optionReasons": {
-        "squeeze-mcq-11": "本句指「向某人施壓以取得金錢、資訊或讓步」。",
-        "squeeze-mcq-10": "「財務、信貸或利潤空間受到收緊／壓縮」與本句語境不同。",
-        "squeeze-mcq-12": "「向某人施加強大壓力／逼迫」與本句語境不同。",
-        "squeeze-mcq-09": "「令個人／企業可用金錢、利潤或資源減少並承受壓力」與本句語境不同。",
-        "squeeze-mcq-13": "「把某人的金錢／資源榨取殆盡」與本句語境不同。",
-        "squeeze-mcq-08": "「空間、時間等只剛剛足夠；非常擠迫／勉強」與本句語境不同。"
+        "squeeze-reviewed-28e960f113": "對照完整句子：「這個項目受到有限預算的限制／擠壓。」。這裡的「squeezed」表示「壓縮；縮減」。",
+        "squeeze-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "squeeze-mcq-11"
+      "correctOption": "squeeze-reviewed-28e960f113",
+      "previousCorrectOption": "squeeze-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "squeeze-16-0",
@@ -1221,11 +1145,9 @@ export default {
       "masked": "They tried to ____ more money out of him.",
       "options": [
         "squeeze-mcq-11",
-        "squeeze-mcq-10",
-        "squeeze-mcq-12",
-        "squeeze-mcq-09",
-        "squeeze-mcq-13",
-        "squeeze-mcq-08"
+        "squeeze-mcq-16",
+        "squeeze-mcq-08",
+        "squeeze-mcq-07"
       ],
       "explanation": "本句的「squeeze」指「向某人施壓以取得金錢、資訊或讓步」。",
       "sentenceIndex": 28,
@@ -1234,12 +1156,10 @@ export default {
         "squeeze"
       ],
       "optionReasons": {
-        "squeeze-mcq-11": "本句指「向某人施壓以取得金錢、資訊或讓步」。",
-        "squeeze-mcq-10": "「財務、信貸或利潤空間受到收緊／壓縮」與本句語境不同。",
-        "squeeze-mcq-12": "「向某人施加強大壓力／逼迫」與本句語境不同。",
-        "squeeze-mcq-09": "「令個人／企業可用金錢、利潤或資源減少並承受壓力」與本句語境不同。",
-        "squeeze-mcq-13": "「把某人的金錢／資源榨取殆盡」與本句語境不同。",
-        "squeeze-mcq-08": "「空間、時間等只剛剛足夠；非常擠迫／勉強」與本句語境不同。"
+        "squeeze-mcq-11": "本句的「squeeze」指「向某人施壓以取得金錢、資訊或讓步」。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-11"
     },
@@ -1251,11 +1171,9 @@ export default {
       "masked": "The investigators ____ him for information.",
       "options": [
         "squeeze-mcq-11",
-        "squeeze-mcq-10",
-        "squeeze-mcq-12",
-        "squeeze-mcq-09",
-        "squeeze-mcq-13",
-        "squeeze-mcq-08"
+        "squeeze-reviewed-277375523b",
+        "squeeze-mcq-03",
+        "squeeze-mcq-16"
       ],
       "explanation": "本句的「squeezed」指「向某人施壓以取得金錢、資訊或讓步」。",
       "sentenceIndex": 29,
@@ -1264,12 +1182,10 @@ export default {
         "squeezed"
       ],
       "optionReasons": {
-        "squeeze-mcq-11": "本句指「向某人施壓以取得金錢、資訊或讓步」。",
-        "squeeze-mcq-10": "「財務、信貸或利潤空間受到收緊／壓縮」與本句語境不同。",
-        "squeeze-mcq-12": "「向某人施加強大壓力／逼迫」與本句語境不同。",
-        "squeeze-mcq-09": "「令個人／企業可用金錢、利潤或資源減少並承受壓力」與本句語境不同。",
-        "squeeze-mcq-13": "「把某人的金錢／資源榨取殆盡」與本句語境不同。",
-        "squeeze-mcq-08": "「空間、時間等只剛剛足夠；非常擠迫／勉強」與本句語境不同。"
+        "squeeze-mcq-11": "本句的「squeezed」指「向某人施壓以取得金錢、資訊或讓步」。",
+        "squeeze-reviewed-277375523b": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-11"
     },
@@ -1281,11 +1197,9 @@ export default {
       "masked": "They put the ____ the supplier to lower its prices.",
       "options": [
         "squeeze-mcq-12",
-        "squeeze-mcq-11",
-        "squeeze-mcq-13",
-        "squeeze-mcq-10",
-        "squeeze-mcq-14",
-        "squeeze-mcq-09"
+        "squeeze-mcq-18",
+        "squeeze-mcq-16",
+        "squeeze-mcq-07"
       ],
       "explanation": "本句的「squeeze on」指「向某人施加強大壓力／逼迫」。",
       "sentenceIndex": 30,
@@ -1294,12 +1208,10 @@ export default {
         "squeeze on"
       ],
       "optionReasons": {
-        "squeeze-mcq-12": "本句指「向某人施加強大壓力／逼迫」。",
-        "squeeze-mcq-11": "「向某人施壓以取得金錢、資訊或讓步」與本句語境不同。",
-        "squeeze-mcq-13": "「把某人的金錢／資源榨取殆盡」與本句語境不同。",
-        "squeeze-mcq-10": "「財務、信貸或利潤空間受到收緊／壓縮」與本句語境不同。",
-        "squeeze-mcq-14": "「空頭被迫回補、進一步推高價格的金融市場現象」與本句語境不同。",
-        "squeeze-mcq-09": "「令個人／企業可用金錢、利潤或資源減少並承受壓力」與本句語境不同。"
+        "squeeze-mcq-12": "本句的「squeeze on」指「向某人施加強大壓力／逼迫」。",
+        "squeeze-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-12"
     },
@@ -1311,11 +1223,9 @@ export default {
       "masked": "High fees are ____.",
       "options": [
         "squeeze-mcq-13",
-        "squeeze-mcq-12",
-        "squeeze-mcq-14",
-        "squeeze-mcq-11",
-        "squeeze-mcq-15",
-        "squeeze-mcq-10"
+        "squeeze-mcq-08",
+        "squeeze-mcq-01",
+        "squeeze-mcq-16"
       ],
       "explanation": "本句的「squeezing customers dry」指「把某人的金錢／資源榨取殆盡」。",
       "sentenceIndex": 31,
@@ -1324,12 +1234,10 @@ export default {
         "squeezing customers dry"
       ],
       "optionReasons": {
-        "squeeze-mcq-13": "本句指「把某人的金錢／資源榨取殆盡」。",
-        "squeeze-mcq-12": "「向某人施加強大壓力／逼迫」與本句語境不同。",
-        "squeeze-mcq-14": "「空頭被迫回補、進一步推高價格的金融市場現象」與本句語境不同。",
-        "squeeze-mcq-11": "「向某人施壓以取得金錢、資訊或讓步」與本句語境不同。",
-        "squeeze-mcq-15": "「棒球強迫取分戰術；亦可有比喻施壓義」與本句語境不同。",
-        "squeeze-mcq-10": "「財務、信貸或利潤空間受到收緊／壓縮」與本句語境不同。"
+        "squeeze-mcq-13": "本句的「squeezing customers dry」指「把某人的金錢／資源榨取殆盡」。",
+        "squeeze-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-13"
     },
@@ -1341,11 +1249,9 @@ export default {
       "masked": "The stock rose sharply during a ____.",
       "options": [
         "squeeze-mcq-14",
-        "squeeze-mcq-13",
-        "squeeze-mcq-15",
-        "squeeze-mcq-12",
         "squeeze-mcq-16",
-        "squeeze-mcq-11"
+        "squeeze-mcq-07",
+        "squeeze-mcq-02"
       ],
       "explanation": "本句的「short squeeze」指「空頭被迫回補、進一步推高價格的金融市場現象」。",
       "sentenceIndex": 32,
@@ -1354,12 +1260,10 @@ export default {
         "short squeeze"
       ],
       "optionReasons": {
-        "squeeze-mcq-14": "本句指「空頭被迫回補、進一步推高價格的金融市場現象」。",
-        "squeeze-mcq-13": "「把某人的金錢／資源榨取殆盡」與本句語境不同。",
-        "squeeze-mcq-15": "「棒球強迫取分戰術；亦可有比喻施壓義」與本句語境不同。",
-        "squeeze-mcq-12": "「向某人施加強大壓力／逼迫」與本句語境不同。",
-        "squeeze-mcq-16": "「戀人／伴侶；美式非正式、略老派」與本句語境不同。",
-        "squeeze-mcq-11": "「向某人施壓以取得金錢、資訊或讓步」與本句語境不同。"
+        "squeeze-mcq-14": "本句的「short squeeze」指「空頭被迫回補、進一步推高價格的金融市場現象」。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-14"
     },
@@ -1371,11 +1275,9 @@ export default {
       "masked": "The team attempted a ____.",
       "options": [
         "squeeze-mcq-15",
-        "squeeze-mcq-14",
-        "squeeze-mcq-16",
-        "squeeze-mcq-13",
-        "squeeze-mcq-17",
-        "squeeze-mcq-12"
+        "squeeze-mcq-04",
+        "squeeze-mcq-07",
+        "squeeze-mcq-18"
       ],
       "explanation": "本句的「squeeze play」指「棒球強迫取分戰術；亦可有比喻施壓義」。",
       "sentenceIndex": 33,
@@ -1384,12 +1286,10 @@ export default {
         "squeeze play"
       ],
       "optionReasons": {
-        "squeeze-mcq-15": "本句指「棒球強迫取分戰術；亦可有比喻施壓義」。",
-        "squeeze-mcq-14": "「空頭被迫回補、進一步推高價格的金融市場現象」與本句語境不同。",
-        "squeeze-mcq-16": "「戀人／伴侶；美式非正式、略老派」與本句語境不同。",
-        "squeeze-mcq-13": "「把某人的金錢／資源榨取殆盡」與本句語境不同。",
-        "squeeze-mcq-17": "「可以被擠壓的」與本句語境不同。",
-        "squeeze-mcq-12": "「向某人施加強大壓力／逼迫」與本句語境不同。"
+        "squeeze-mcq-15": "本句的「squeeze play」指「棒球強迫取分戰術；亦可有比喻施壓義」。",
+        "squeeze-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-15"
     },
@@ -1401,11 +1301,9 @@ export default {
       "masked": "He brought his main ____ to the party.",
       "options": [
         "squeeze-mcq-16",
-        "squeeze-mcq-15",
-        "squeeze-mcq-17",
-        "squeeze-mcq-14",
-        "squeeze-mcq-18",
-        "squeeze-mcq-13"
+        "squeeze-mcq-03",
+        "squeeze-mcq-07",
+        "squeeze-mcq-11"
       ],
       "explanation": "本句的「squeeze」指「戀人／伴侶；美式非正式、略老派」。",
       "sentenceIndex": 34,
@@ -1414,12 +1312,10 @@ export default {
         "squeeze"
       ],
       "optionReasons": {
-        "squeeze-mcq-16": "本句指「戀人／伴侶；美式非正式、略老派」。",
-        "squeeze-mcq-15": "「棒球強迫取分戰術；亦可有比喻施壓義」與本句語境不同。",
-        "squeeze-mcq-17": "「可以被擠壓的」與本句語境不同。",
-        "squeeze-mcq-14": "「空頭被迫回補、進一步推高價格的金融市場現象」與本句語境不同。",
-        "squeeze-mcq-18": "「用來榨／擠東西的工具」與本句語境不同。",
-        "squeeze-mcq-13": "「把某人的金錢／資源榨取殆盡」與本句語境不同。"
+        "squeeze-mcq-16": "本句的「squeeze」指「戀人／伴侶；美式非正式、略老派」。",
+        "squeeze-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-16"
     },
@@ -1431,11 +1327,9 @@ export default {
       "masked": "The sauce comes in a ____ bottle.",
       "options": [
         "squeeze-mcq-17",
-        "squeeze-mcq-16",
-        "squeeze-mcq-18",
-        "squeeze-mcq-15",
-        "squeeze-mcq-14",
-        "squeeze-mcq-13"
+        "squeeze-mcq-13",
+        "squeeze-mcq-05",
+        "squeeze-mcq-07"
       ],
       "explanation": "本句的「squeezable」指「可以被擠壓的」。",
       "sentenceIndex": 35,
@@ -1444,12 +1338,10 @@ export default {
         "squeezable"
       ],
       "optionReasons": {
-        "squeeze-mcq-17": "本句指「可以被擠壓的」。",
-        "squeeze-mcq-16": "「戀人／伴侶；美式非正式、略老派」與本句語境不同。",
-        "squeeze-mcq-18": "「用來榨／擠東西的工具」與本句語境不同。",
-        "squeeze-mcq-15": "「棒球強迫取分戰術；亦可有比喻施壓義」與本句語境不同。",
-        "squeeze-mcq-14": "「空頭被迫回補、進一步推高價格的金融市場現象」與本句語境不同。",
-        "squeeze-mcq-13": "「把某人的金錢／資源榨取殆盡」與本句語境不同。"
+        "squeeze-mcq-17": "本句的「squeezable」指「可以被擠壓的」。",
+        "squeeze-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-17"
     },
@@ -1461,11 +1353,9 @@ export default {
       "masked": "Use a lemon ____ to extract the juice.",
       "options": [
         "squeeze-mcq-18",
-        "squeeze-mcq-17",
         "squeeze-mcq-16",
-        "squeeze-mcq-15",
-        "squeeze-mcq-14",
-        "squeeze-mcq-13"
+        "squeeze-reviewed-28e960f113",
+        "squeeze-mcq-14"
       ],
       "explanation": "本句的「squeezer」指「用來榨／擠東西的工具」。",
       "sentenceIndex": 36,
@@ -1474,12 +1364,10 @@ export default {
         "squeezer"
       ],
       "optionReasons": {
-        "squeeze-mcq-18": "本句指「用來榨／擠東西的工具」。",
-        "squeeze-mcq-17": "「可以被擠壓的」與本句語境不同。",
-        "squeeze-mcq-16": "「戀人／伴侶；美式非正式、略老派」與本句語境不同。",
-        "squeeze-mcq-15": "「棒球強迫取分戰術；亦可有比喻施壓義」與本句語境不同。",
-        "squeeze-mcq-14": "「空頭被迫回補、進一步推高價格的金融市場現象」與本句語境不同。",
-        "squeeze-mcq-13": "「把某人的金錢／資源榨取殆盡」與本句語境不同。"
+        "squeeze-mcq-18": "本句的「squeezer」指「用來榨／擠東西的工具」。",
+        "squeeze-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "squeeze-reviewed-28e960f113": "請比較這個意思與句子中標示的用法。",
+        "squeeze-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "squeeze-mcq-18"
     }
@@ -1491,5 +1379,7 @@ export default {
     "sha256": "e94bd07bd1b9877ed7e5fd31ff98de848654260b9a163fe3d1efb23b64ad5aac",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

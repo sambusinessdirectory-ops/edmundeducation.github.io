@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "then-mcq-01",
-      "title": "表示某件事情在另一件事情之後發生；然後／接著",
+      "title": "某件事情在另一件事情之後發生；然後／接著",
       "form": "then — sequence",
       "en": "then — sequence",
       "zh": "表示某件事情在另一件事情之後發生；然後／接著",
@@ -394,11 +394,9 @@ export default {
       "masked": "____, as soon as they put the headphones on, everything seemed to fade into the background.",
       "options": [
         "then-mcq-01",
-        "then-mcq-02",
-        "then-mcq-03",
-        "then-mcq-04",
-        "then-mcq-05",
-        "then-mcq-06"
+        "then-mcq-08",
+        "then-mcq-12",
+        "then-mcq-11"
       ],
       "explanation": "本句的「Then」指「表示某件事情在另一件事情之後發生；然後／接著」。",
       "sentenceIndex": 0,
@@ -407,12 +405,10 @@ export default {
         "Then"
       ],
       "optionReasons": {
-        "then-mcq-01": "本句指「表示某件事情在另一件事情之後發生；然後／接著」。",
-        "then-mcq-02": "「指前文已提到的某個過去時間；當時／那時候」是「then — past time」的用法，與本句語境不同。",
-        "then-mcq-03": "「指前文已提到的某個未來時間；到時」是「then — future time」的用法，與本句語境不同。",
-        "then-mcq-04": "「根據前面的條件或事實，引出後面的結果／結論；那麼」是「then — consequence」的用法，與本句語境不同。",
-        "then-mcq-05": "「明確表示條件與結果的關係；如果……那麼……」是「if…then…」的用法，與本句語境不同。",
-        "then-mcq-06": "「以指定時間為截止點，在那時或以前某事已經發生」是「by then」的用法，與本句語境不同。"
+        "then-mcq-01": "本句的「Then」指「表示某件事情在另一件事情之後發生；然後／接著」。",
+        "then-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-01"
     },
@@ -424,11 +420,9 @@ export default {
       "masked": "I finished work, ____ I went home.",
       "options": [
         "then-mcq-01",
-        "then-mcq-02",
-        "then-mcq-03",
-        "then-mcq-04",
-        "then-mcq-05",
-        "then-mcq-06"
+        "then-mcq-11",
+        "then-mcq-08",
+        "then-mcq-12"
       ],
       "explanation": "本句的「then」指「表示某件事情在另一件事情之後發生；然後／接著」。",
       "sentenceIndex": 1,
@@ -437,12 +431,10 @@ export default {
         "then"
       ],
       "optionReasons": {
-        "then-mcq-01": "本句指「表示某件事情在另一件事情之後發生；然後／接著」。",
-        "then-mcq-02": "「指前文已提到的某個過去時間；當時／那時候」是「then — past time」的用法，與本句語境不同。",
-        "then-mcq-03": "「指前文已提到的某個未來時間；到時」是「then — future time」的用法，與本句語境不同。",
-        "then-mcq-04": "「根據前面的條件或事實，引出後面的結果／結論；那麼」是「then — consequence」的用法，與本句語境不同。",
-        "then-mcq-05": "「明確表示條件與結果的關係；如果……那麼……」是「if…then…」的用法，與本句語境不同。",
-        "then-mcq-06": "「以指定時間為截止點，在那時或以前某事已經發生」是「by then」的用法，與本句語境不同。"
+        "then-mcq-01": "本句的「then」指「表示某件事情在另一件事情之後發生；然後／接著」。",
+        "then-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-01"
     },
@@ -454,11 +446,9 @@ export default {
       "masked": "First press this button, ____ select the menu.",
       "options": [
         "then-mcq-01",
-        "then-mcq-02",
-        "then-mcq-03",
-        "then-mcq-04",
-        "then-mcq-05",
-        "then-mcq-06"
+        "then-mcq-14",
+        "then-mcq-12",
+        "then-mcq-05"
       ],
       "explanation": "本句的「then」指「表示某件事情在另一件事情之後發生；然後／接著」。",
       "sentenceIndex": 2,
@@ -467,12 +457,10 @@ export default {
         "then"
       ],
       "optionReasons": {
-        "then-mcq-01": "本句指「表示某件事情在另一件事情之後發生；然後／接著」。",
-        "then-mcq-02": "「指前文已提到的某個過去時間；當時／那時候」是「then — past time」的用法，與本句語境不同。",
-        "then-mcq-03": "「指前文已提到的某個未來時間；到時」是「then — future time」的用法，與本句語境不同。",
-        "then-mcq-04": "「根據前面的條件或事實，引出後面的結果／結論；那麼」是「then — consequence」的用法，與本句語境不同。",
-        "then-mcq-05": "「明確表示條件與結果的關係；如果……那麼……」是「if…then…」的用法，與本句語境不同。",
-        "then-mcq-06": "「以指定時間為截止點，在那時或以前某事已經發生」是「by then」的用法，與本句語境不同。"
+        "then-mcq-01": "本句的「then」指「表示某件事情在另一件事情之後發生；然後／接著」。",
+        "then-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-01"
     },
@@ -485,10 +473,8 @@ export default {
       "options": [
         "then-mcq-02",
         "then-mcq-01",
-        "then-mcq-03",
-        "then-mcq-04",
-        "then-mcq-05",
-        "then-mcq-06"
+        "then-mcq-12",
+        "then-mcq-05"
       ],
       "explanation": "本句的「then」指「指前文已提到的某個過去時間；當時／那時候」。",
       "sentenceIndex": 3,
@@ -497,12 +483,10 @@ export default {
         "then"
       ],
       "optionReasons": {
-        "then-mcq-02": "本句指「指前文已提到的某個過去時間；當時／那時候」。",
-        "then-mcq-01": "「表示某件事情在另一件事情之後發生；然後／接著」是「then — sequence」的用法，與本句語境不同。",
-        "then-mcq-03": "「指前文已提到的某個未來時間；到時」是「then — future time」的用法，與本句語境不同。",
-        "then-mcq-04": "「根據前面的條件或事實，引出後面的結果／結論；那麼」是「then — consequence」的用法，與本句語境不同。",
-        "then-mcq-05": "「明確表示條件與結果的關係；如果……那麼……」是「if…then…」的用法，與本句語境不同。",
-        "then-mcq-06": "「以指定時間為截止點，在那時或以前某事已經發生」是「by then」的用法，與本句語境不同。"
+        "then-mcq-02": "本句的「then」指「指前文已提到的某個過去時間；當時／那時候」。",
+        "then-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-02"
     },
@@ -514,11 +498,9 @@ export default {
       "masked": "Things were very different ____.",
       "options": [
         "then-mcq-02",
-        "then-mcq-01",
-        "then-mcq-03",
-        "then-mcq-04",
-        "then-mcq-05",
-        "then-mcq-06"
+        "then-mcq-17",
+        "then-mcq-12",
+        "then-mcq-16"
       ],
       "explanation": "本句的「then」指「指前文已提到的某個過去時間；當時／那時候」。",
       "sentenceIndex": 4,
@@ -527,12 +509,10 @@ export default {
         "then"
       ],
       "optionReasons": {
-        "then-mcq-02": "本句指「指前文已提到的某個過去時間；當時／那時候」。",
-        "then-mcq-01": "「表示某件事情在另一件事情之後發生；然後／接著」是「then — sequence」的用法，與本句語境不同。",
-        "then-mcq-03": "「指前文已提到的某個未來時間；到時」是「then — future time」的用法，與本句語境不同。",
-        "then-mcq-04": "「根據前面的條件或事實，引出後面的結果／結論；那麼」是「then — consequence」的用法，與本句語境不同。",
-        "then-mcq-05": "「明確表示條件與結果的關係；如果……那麼……」是「if…then…」的用法，與本句語境不同。",
-        "then-mcq-06": "「以指定時間為截止點，在那時或以前某事已經發生」是「by then」的用法，與本句語境不同。"
+        "then-mcq-02": "本句的「then」指「指前文已提到的某個過去時間；當時／那時候」。",
+        "then-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-02"
     },
@@ -544,11 +524,9 @@ export default {
       "masked": "I’ll finish work at six. I can meet you ____.",
       "options": [
         "then-mcq-03",
-        "then-mcq-02",
-        "then-mcq-04",
         "then-mcq-01",
-        "then-mcq-05",
-        "then-mcq-06"
+        "then-mcq-17",
+        "then-mcq-12"
       ],
       "explanation": "本句的「then」指「指前文已提到的某個未來時間；到時」。",
       "sentenceIndex": 5,
@@ -557,12 +535,10 @@ export default {
         "then"
       ],
       "optionReasons": {
-        "then-mcq-03": "本句指「指前文已提到的某個未來時間；到時」。",
-        "then-mcq-02": "「指前文已提到的某個過去時間；當時／那時候」是「then — past time」的用法，與本句語境不同。",
-        "then-mcq-04": "「根據前面的條件或事實，引出後面的結果／結論；那麼」是「then — consequence」的用法，與本句語境不同。",
-        "then-mcq-01": "「表示某件事情在另一件事情之後發生；然後／接著」是「then — sequence」的用法，與本句語境不同。",
-        "then-mcq-05": "「明確表示條件與結果的關係；如果……那麼……」是「if…then…」的用法，與本句語境不同。",
-        "then-mcq-06": "「以指定時間為截止點，在那時或以前某事已經發生」是「by then」的用法，與本句語境不同。"
+        "then-mcq-03": "本句的「then」指「指前文已提到的某個未來時間；到時」。",
+        "then-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-03"
     },
@@ -574,11 +550,9 @@ export default {
       "masked": "The new system will be ready next month, and we’ll test it ____.",
       "options": [
         "then-mcq-03",
-        "then-mcq-02",
-        "then-mcq-04",
+        "then-mcq-17",
         "then-mcq-01",
-        "then-mcq-05",
-        "then-mcq-06"
+        "then-mcq-12"
       ],
       "explanation": "本句的「then」指「指前文已提到的某個未來時間；到時」。",
       "sentenceIndex": 6,
@@ -587,12 +561,10 @@ export default {
         "then"
       ],
       "optionReasons": {
-        "then-mcq-03": "本句指「指前文已提到的某個未來時間；到時」。",
-        "then-mcq-02": "「指前文已提到的某個過去時間；當時／那時候」是「then — past time」的用法，與本句語境不同。",
-        "then-mcq-04": "「根據前面的條件或事實，引出後面的結果／結論；那麼」是「then — consequence」的用法，與本句語境不同。",
-        "then-mcq-01": "「表示某件事情在另一件事情之後發生；然後／接著」是「then — sequence」的用法，與本句語境不同。",
-        "then-mcq-05": "「明確表示條件與結果的關係；如果……那麼……」是「if…then…」的用法，與本句語境不同。",
-        "then-mcq-06": "「以指定時間為截止點，在那時或以前某事已經發生」是「by then」的用法，與本句語境不同。"
+        "then-mcq-03": "本句的「then」指「指前文已提到的某個未來時間；到時」。",
+        "then-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-03"
     },
@@ -604,11 +576,9 @@ export default {
       "masked": "If you’re tired, ____ take a break.",
       "options": [
         "then-mcq-04",
-        "then-mcq-03",
-        "then-mcq-05",
-        "then-mcq-02",
-        "then-mcq-06",
-        "then-mcq-01"
+        "then-mcq-11",
+        "then-mcq-12",
+        "then-mcq-07"
       ],
       "explanation": "本句的「then」指「根據前面的條件或事實，引出後面的結果／結論；那麼」。",
       "sentenceIndex": 7,
@@ -617,12 +587,10 @@ export default {
         "then"
       ],
       "optionReasons": {
-        "then-mcq-04": "本句指「根據前面的條件或事實，引出後面的結果／結論；那麼」。",
-        "then-mcq-03": "「指前文已提到的某個未來時間；到時」是「then — future time」的用法，與本句語境不同。",
-        "then-mcq-05": "「明確表示條件與結果的關係；如果……那麼……」是「if…then…」的用法，與本句語境不同。",
-        "then-mcq-02": "「指前文已提到的某個過去時間；當時／那時候」是「then — past time」的用法，與本句語境不同。",
-        "then-mcq-06": "「以指定時間為截止點，在那時或以前某事已經發生」是「by then」的用法，與本句語境不同。",
-        "then-mcq-01": "「表示某件事情在另一件事情之後發生；然後／接著」是「then — sequence」的用法，與本句語境不同。"
+        "then-mcq-04": "本句的「then」指「根據前面的條件或事實，引出後面的結果／結論；那麼」。",
+        "then-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-04"
     },
@@ -634,11 +602,9 @@ export default {
       "masked": "If the product really works, ____ the price may be reasonable.",
       "options": [
         "then-mcq-04",
-        "then-mcq-03",
-        "then-mcq-05",
-        "then-mcq-02",
-        "then-mcq-06",
-        "then-mcq-01"
+        "then-mcq-12",
+        "then-mcq-11",
+        "then-mcq-07"
       ],
       "explanation": "本句的「then」指「根據前面的條件或事實，引出後面的結果／結論；那麼」。",
       "sentenceIndex": 8,
@@ -647,12 +613,10 @@ export default {
         "then"
       ],
       "optionReasons": {
-        "then-mcq-04": "本句指「根據前面的條件或事實，引出後面的結果／結論；那麼」。",
-        "then-mcq-03": "「指前文已提到的某個未來時間；到時」是「then — future time」的用法，與本句語境不同。",
-        "then-mcq-05": "「明確表示條件與結果的關係；如果……那麼……」是「if…then…」的用法，與本句語境不同。",
-        "then-mcq-02": "「指前文已提到的某個過去時間；當時／那時候」是「then — past time」的用法，與本句語境不同。",
-        "then-mcq-06": "「以指定時間為截止點，在那時或以前某事已經發生」是「by then」的用法，與本句語境不同。",
-        "then-mcq-01": "「表示某件事情在另一件事情之後發生；然後／接著」是「then — sequence」的用法，與本句語境不同。"
+        "then-mcq-04": "本句的「then」指「根據前面的條件或事實，引出後面的結果／結論；那麼」。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-04"
     },
@@ -664,11 +628,9 @@ export default {
       "masked": "If the battery is empty, ____ the headphones will stop working.",
       "options": [
         "then-mcq-05",
-        "then-mcq-04",
-        "then-mcq-06",
-        "then-mcq-03",
-        "then-mcq-07",
-        "then-mcq-02"
+        "then-mcq-11",
+        "then-mcq-08",
+        "then-mcq-12"
       ],
       "explanation": "本句的「then」指「明確表示條件與結果的關係；如果……那麼……」。",
       "sentenceIndex": 9,
@@ -677,12 +639,10 @@ export default {
         "then"
       ],
       "optionReasons": {
-        "then-mcq-05": "本句指「明確表示條件與結果的關係；如果……那麼……」。",
-        "then-mcq-04": "「根據前面的條件或事實，引出後面的結果／結論；那麼」是「then — consequence」的用法，與本句語境不同。",
-        "then-mcq-06": "「以指定時間為截止點，在那時或以前某事已經發生」是「by then」的用法，與本句語境不同。",
-        "then-mcq-03": "「指前文已提到的某個未來時間；到時」是「then — future time」的用法，與本句語境不同。",
-        "then-mcq-07": "「從較早時間一直到指定時間為止」是「until then」的用法，與本句語境不同。",
-        "then-mcq-02": "「指前文已提到的某個過去時間；當時／那時候」是「then — past time」的用法，與本句語境不同。"
+        "then-mcq-05": "本句的「then」指「明確表示條件與結果的關係；如果……那麼……」。",
+        "then-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-05"
     },
@@ -694,11 +654,9 @@ export default {
       "masked": "If demand increases, ____ prices may rise.",
       "options": [
         "then-mcq-05",
-        "then-mcq-04",
-        "then-mcq-06",
-        "then-mcq-03",
         "then-mcq-07",
-        "then-mcq-02"
+        "then-mcq-13",
+        "then-mcq-11"
       ],
       "explanation": "本句的「then」指「明確表示條件與結果的關係；如果……那麼……」。",
       "sentenceIndex": 10,
@@ -707,12 +665,10 @@ export default {
         "then"
       ],
       "optionReasons": {
-        "then-mcq-05": "本句指「明確表示條件與結果的關係；如果……那麼……」。",
-        "then-mcq-04": "「根據前面的條件或事實，引出後面的結果／結論；那麼」是「then — consequence」的用法，與本句語境不同。",
-        "then-mcq-06": "「以指定時間為截止點，在那時或以前某事已經發生」是「by then」的用法，與本句語境不同。",
-        "then-mcq-03": "「指前文已提到的某個未來時間；到時」是「then — future time」的用法，與本句語境不同。",
-        "then-mcq-07": "「從較早時間一直到指定時間為止」是「until then」的用法，與本句語境不同。",
-        "then-mcq-02": "「指前文已提到的某個過去時間；當時／那時候」是「then — past time」的用法，與本句語境不同。"
+        "then-mcq-05": "本句的「then」指「明確表示條件與結果的關係；如果……那麼……」。",
+        "then-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-05"
     },
@@ -724,11 +680,9 @@ export default {
       "masked": "I arrived at eight, but she had already left ____.",
       "options": [
         "then-mcq-06",
-        "then-mcq-05",
-        "then-mcq-07",
-        "then-mcq-04",
-        "then-mcq-08",
-        "then-mcq-03"
+        "then-mcq-17",
+        "then-mcq-12",
+        "then-mcq-13"
       ],
       "explanation": "本句的「by then」指「以指定時間為截止點，在那時或以前某事已經發生」。",
       "sentenceIndex": 11,
@@ -737,12 +691,10 @@ export default {
         "by then"
       ],
       "optionReasons": {
-        "then-mcq-06": "本句指「以指定時間為截止點，在那時或以前某事已經發生」。",
-        "then-mcq-05": "「明確表示條件與結果的關係；如果……那麼……」是「if…then…」的用法，與本句語境不同。",
-        "then-mcq-07": "「從較早時間一直到指定時間為止」是「until then」的用法，與本句語境不同。",
-        "then-mcq-04": "「根據前面的條件或事實，引出後面的結果／結論；那麼」是「then — consequence」的用法，與本句語境不同。",
-        "then-mcq-08": "「在前面所指的時間點以前」是「before then」的用法，與本句語境不同。",
-        "then-mcq-03": "「指前文已提到的某個未來時間；到時」是「then — future time」的用法，與本句語境不同。"
+        "then-mcq-06": "本句的「by then」指「以指定時間為截止點，在那時或以前某事已經發生」。",
+        "then-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-06"
     },
@@ -755,10 +707,8 @@ export default {
       "options": [
         "then-mcq-06",
         "then-mcq-05",
-        "then-mcq-07",
-        "then-mcq-04",
-        "then-mcq-08",
-        "then-mcq-03"
+        "then-mcq-12",
+        "then-mcq-13"
       ],
       "explanation": "本句的「by then」指「以指定時間為截止點，在那時或以前某事已經發生」。",
       "sentenceIndex": 12,
@@ -767,12 +717,10 @@ export default {
         "by then"
       ],
       "optionReasons": {
-        "then-mcq-06": "本句指「以指定時間為截止點，在那時或以前某事已經發生」。",
-        "then-mcq-05": "「明確表示條件與結果的關係；如果……那麼……」是「if…then…」的用法，與本句語境不同。",
-        "then-mcq-07": "「從較早時間一直到指定時間為止」是「until then」的用法，與本句語境不同。",
-        "then-mcq-04": "「根據前面的條件或事實，引出後面的結果／結論；那麼」是「then — consequence」的用法，與本句語境不同。",
-        "then-mcq-08": "「在前面所指的時間點以前」是「before then」的用法，與本句語境不同。",
-        "then-mcq-03": "「指前文已提到的某個未來時間；到時」是「then — future time」的用法，與本句語境不同。"
+        "then-mcq-06": "本句的「by then」指「以指定時間為截止點，在那時或以前某事已經發生」。",
+        "then-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-06"
     },
@@ -784,11 +732,9 @@ export default {
       "masked": "The office reopens on Monday. ____, please contact us by email.",
       "options": [
         "then-mcq-07",
-        "then-mcq-06",
-        "then-mcq-08",
+        "then-mcq-01",
         "then-mcq-05",
-        "then-mcq-09",
-        "then-mcq-04"
+        "then-mcq-12"
       ],
       "explanation": "本句的「Until then」指「從較早時間一直到指定時間為止」。",
       "sentenceIndex": 13,
@@ -797,12 +743,10 @@ export default {
         "Until then"
       ],
       "optionReasons": {
-        "then-mcq-07": "本句指「從較早時間一直到指定時間為止」。",
-        "then-mcq-06": "「以指定時間為截止點，在那時或以前某事已經發生」是「by then」的用法，與本句語境不同。",
-        "then-mcq-08": "「在前面所指的時間點以前」是「before then」的用法，與本句語境不同。",
-        "then-mcq-05": "「明確表示條件與結果的關係；如果……那麼……」是「if…then…」的用法，與本句語境不同。",
-        "then-mcq-09": "「從前面所指的時間開始，一直延續到現在／參照時間」是「since then」的用法，與本句語境不同。",
-        "then-mcq-04": "「根據前面的條件或事實，引出後面的結果／結論；那麼」是「then — consequence」的用法，與本句語境不同。"
+        "then-mcq-07": "本句的「Until then」指「從較早時間一直到指定時間為止」。",
+        "then-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-07"
     },
@@ -814,11 +758,9 @@ export default {
       "masked": "I had never used noise-cancelling headphones ____.",
       "options": [
         "then-mcq-07",
-        "then-mcq-06",
-        "then-mcq-08",
-        "then-mcq-05",
-        "then-mcq-09",
-        "then-mcq-04"
+        "then-mcq-01",
+        "then-mcq-12",
+        "then-mcq-05"
       ],
       "explanation": "本句的「until then」指「從較早時間一直到指定時間為止」。",
       "sentenceIndex": 14,
@@ -827,12 +769,10 @@ export default {
         "until then"
       ],
       "optionReasons": {
-        "then-mcq-07": "本句指「從較早時間一直到指定時間為止」。",
-        "then-mcq-06": "「以指定時間為截止點，在那時或以前某事已經發生」是「by then」的用法，與本句語境不同。",
-        "then-mcq-08": "「在前面所指的時間點以前」是「before then」的用法，與本句語境不同。",
-        "then-mcq-05": "「明確表示條件與結果的關係；如果……那麼……」是「if…then…」的用法，與本句語境不同。",
-        "then-mcq-09": "「從前面所指的時間開始，一直延續到現在／參照時間」是「since then」的用法，與本句語境不同。",
-        "then-mcq-04": "「根據前面的條件或事實，引出後面的結果／結論；那麼」是「then — consequence」的用法，與本句語境不同。"
+        "then-mcq-07": "本句的「until then」指「從較早時間一直到指定時間為止」。",
+        "then-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-07"
     },
@@ -844,11 +784,9 @@ export default {
       "masked": "The meeting starts at three, but I need to finish this ____.",
       "options": [
         "then-mcq-08",
-        "then-mcq-07",
-        "then-mcq-09",
-        "then-mcq-06",
-        "then-mcq-10",
-        "then-mcq-05"
+        "then-mcq-12",
+        "then-mcq-17",
+        "then-mcq-01"
       ],
       "explanation": "本句的「before then」指「在前面所指的時間點以前」。",
       "sentenceIndex": 15,
@@ -857,12 +795,10 @@ export default {
         "before then"
       ],
       "optionReasons": {
-        "then-mcq-08": "本句指「在前面所指的時間點以前」。",
-        "then-mcq-07": "「從較早時間一直到指定時間為止」是「until then」的用法，與本句語境不同。",
-        "then-mcq-09": "「從前面所指的時間開始，一直延續到現在／參照時間」是「since then」的用法，與本句語境不同。",
-        "then-mcq-06": "「以指定時間為截止點，在那時或以前某事已經發生」是「by then」的用法，與本句語境不同。",
-        "then-mcq-10": "「以某個時間為起點，其後持續如此」是「from then on」的用法，與本句語境不同。",
-        "then-mcq-05": "「明確表示條件與結果的關係；如果……那麼……」是「if…then…」的用法，與本句語境不同。"
+        "then-mcq-08": "本句的「before then」指「在前面所指的時間點以前」。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-08"
     },
@@ -874,10 +810,8 @@ export default {
       "masked": "I had heard of the brand, but I had never bought anything from it ____.",
       "options": [
         "then-mcq-08",
-        "then-mcq-07",
-        "then-mcq-09",
-        "then-mcq-06",
-        "then-mcq-10",
+        "then-mcq-12",
+        "then-mcq-16",
         "then-mcq-05"
       ],
       "explanation": "本句的「before then」指「在前面所指的時間點以前」。",
@@ -887,12 +821,10 @@ export default {
         "before then"
       ],
       "optionReasons": {
-        "then-mcq-08": "本句指「在前面所指的時間點以前」。",
-        "then-mcq-07": "「從較早時間一直到指定時間為止」是「until then」的用法，與本句語境不同。",
-        "then-mcq-09": "「從前面所指的時間開始，一直延續到現在／參照時間」是「since then」的用法，與本句語境不同。",
-        "then-mcq-06": "「以指定時間為截止點，在那時或以前某事已經發生」是「by then」的用法，與本句語境不同。",
-        "then-mcq-10": "「以某個時間為起點，其後持續如此」是「from then on」的用法，與本句語境不同。",
-        "then-mcq-05": "「明確表示條件與結果的關係；如果……那麼……」是「if…then…」的用法，與本句語境不同。"
+        "then-mcq-08": "本句的「before then」指「在前面所指的時間點以前」。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-08"
     },
@@ -904,11 +836,9 @@ export default {
       "masked": "I bought the headphones last year and have used them regularly ____.",
       "options": [
         "then-mcq-09",
-        "then-mcq-08",
-        "then-mcq-10",
-        "then-mcq-07",
-        "then-mcq-11",
-        "then-mcq-06"
+        "then-mcq-01",
+        "then-mcq-12",
+        "then-mcq-05"
       ],
       "explanation": "本句的「since then」指「從前面所指的時間開始，一直延續到現在／參照時間」。",
       "sentenceIndex": 17,
@@ -917,12 +847,10 @@ export default {
         "since then"
       ],
       "optionReasons": {
-        "then-mcq-09": "本句指「從前面所指的時間開始，一直延續到現在／參照時間」。",
-        "then-mcq-08": "「在前面所指的時間點以前」是「before then」的用法，與本句語境不同。",
-        "then-mcq-10": "「以某個時間為起點，其後持續如此」是「from then on」的用法，與本句語境不同。",
-        "then-mcq-07": "「從較早時間一直到指定時間為止」是「until then」的用法，與本句語境不同。",
-        "then-mcq-11": "「在當時當地立即行動／作決定」是「then and there」的用法，與本句語境不同。",
-        "then-mcq-06": "「以指定時間為截止點，在那時或以前某事已經發生」是「by then」的用法，與本句語境不同。"
+        "then-mcq-09": "本句的「since then」指「從前面所指的時間開始，一直延續到現在／參照時間」。",
+        "then-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-09"
     },
@@ -934,11 +862,9 @@ export default {
       "masked": "The company changed its strategy and has grown rapidly ____.",
       "options": [
         "then-mcq-09",
-        "then-mcq-08",
-        "then-mcq-10",
-        "then-mcq-07",
-        "then-mcq-11",
-        "then-mcq-06"
+        "then-mcq-01",
+        "then-mcq-17",
+        "then-mcq-12"
       ],
       "explanation": "本句的「since then」指「從前面所指的時間開始，一直延續到現在／參照時間」。",
       "sentenceIndex": 18,
@@ -947,12 +873,10 @@ export default {
         "since then"
       ],
       "optionReasons": {
-        "then-mcq-09": "本句指「從前面所指的時間開始，一直延續到現在／參照時間」。",
-        "then-mcq-08": "「在前面所指的時間點以前」是「before then」的用法，與本句語境不同。",
-        "then-mcq-10": "「以某個時間為起點，其後持續如此」是「from then on」的用法，與本句語境不同。",
-        "then-mcq-07": "「從較早時間一直到指定時間為止」是「until then」的用法，與本句語境不同。",
-        "then-mcq-11": "「在當時當地立即行動／作決定」是「then and there」的用法，與本句語境不同。",
-        "then-mcq-06": "「以指定時間為截止點，在那時或以前某事已經發生」是「by then」的用法，與本句語境不同。"
+        "then-mcq-09": "本句的「since then」指「從前面所指的時間開始，一直延續到現在／參照時間」。",
+        "then-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-09"
     },
@@ -964,11 +888,9 @@ export default {
       "masked": "I tried the headphones once, and ____ I used them every day.",
       "options": [
         "then-mcq-10",
-        "then-mcq-09",
-        "then-mcq-11",
-        "then-mcq-08",
-        "then-mcq-12",
-        "then-mcq-07"
+        "then-mcq-17",
+        "then-mcq-13",
+        "then-mcq-16"
       ],
       "explanation": "本句的「from then on」指「以某個時間為起點，其後持續如此」。",
       "sentenceIndex": 19,
@@ -977,12 +899,10 @@ export default {
         "from then on"
       ],
       "optionReasons": {
-        "then-mcq-10": "本句指「以某個時間為起點，其後持續如此」。",
-        "then-mcq-09": "「從前面所指的時間開始，一直延續到現在／參照時間」是「since then」的用法，與本句語境不同。",
-        "then-mcq-11": "「在當時當地立即行動／作決定」是「then and there」的用法，與本句語境不同。",
-        "then-mcq-08": "「在前面所指的時間點以前」是「before then」的用法，與本句語境不同。",
-        "then-mcq-12": "「並非經常，只是偶爾」是「now and then」的用法，與本句語境不同。",
-        "then-mcq-07": "「從較早時間一直到指定時間為止」是「until then」的用法，與本句語境不同。"
+        "then-mcq-10": "本句的「from then on」指「以某個時間為起點，其後持續如此」。",
+        "then-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-10"
     },
@@ -994,11 +914,9 @@ export default {
       "masked": "From ____ on, she worked from home.",
       "options": [
         "then-mcq-10",
-        "then-mcq-09",
-        "then-mcq-11",
-        "then-mcq-08",
         "then-mcq-12",
-        "then-mcq-07"
+        "then-mcq-05",
+        "then-mcq-16"
       ],
       "explanation": "本句的「then」指「以某個時間為起點，其後持續如此」。",
       "sentenceIndex": 20,
@@ -1007,12 +925,10 @@ export default {
         "then"
       ],
       "optionReasons": {
-        "then-mcq-10": "本句指「以某個時間為起點，其後持續如此」。",
-        "then-mcq-09": "「從前面所指的時間開始，一直延續到現在／參照時間」是「since then」的用法，與本句語境不同。",
-        "then-mcq-11": "「在當時當地立即行動／作決定」是「then and there」的用法，與本句語境不同。",
-        "then-mcq-08": "「在前面所指的時間點以前」是「before then」的用法，與本句語境不同。",
-        "then-mcq-12": "「並非經常，只是偶爾」是「now and then」的用法，與本句語境不同。",
-        "then-mcq-07": "「從較早時間一直到指定時間為止」是「until then」的用法，與本句語境不同。"
+        "then-mcq-10": "本句的「then」指「以某個時間為起點，其後持續如此」。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-10"
     },
@@ -1024,11 +940,9 @@ export default {
       "masked": "I decided ____ to buy the product.",
       "options": [
         "then-mcq-11",
-        "then-mcq-10",
-        "then-mcq-12",
-        "then-mcq-09",
+        "then-mcq-17",
         "then-mcq-13",
-        "then-mcq-08"
+        "then-mcq-12"
       ],
       "explanation": "本句的「then and there」指「在當時當地立即行動／作決定」。",
       "sentenceIndex": 21,
@@ -1037,12 +951,10 @@ export default {
         "then and there"
       ],
       "optionReasons": {
-        "then-mcq-11": "本句指「在當時當地立即行動／作決定」。",
-        "then-mcq-10": "「以某個時間為起點，其後持續如此」是「from then on」的用法，與本句語境不同。",
-        "then-mcq-12": "「並非經常，只是偶爾」是「now and then」的用法，與本句語境不同。",
-        "then-mcq-09": "「從前面所指的時間開始，一直延續到現在／參照時間」是「since then」的用法，與本句語境不同。",
-        "then-mcq-13": "「加入另一個可能修正／平衡前面判斷的考慮」是「then again」的用法，與本句語境不同。",
-        "then-mcq-08": "「在前面所指的時間點以前」是「before then」的用法，與本句語境不同。"
+        "then-mcq-11": "本句的「then and there」指「在當時當地立即行動／作決定」。",
+        "then-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-11"
     },
@@ -1054,11 +966,9 @@ export default {
       "masked": "She accepted the offer ____.",
       "options": [
         "then-mcq-11",
-        "then-mcq-10",
+        "then-mcq-05",
         "then-mcq-12",
-        "then-mcq-09",
-        "then-mcq-13",
-        "then-mcq-08"
+        "then-mcq-13"
       ],
       "explanation": "本句的「then and there」指「在當時當地立即行動／作決定」。",
       "sentenceIndex": 22,
@@ -1067,12 +977,10 @@ export default {
         "then and there"
       ],
       "optionReasons": {
-        "then-mcq-11": "本句指「在當時當地立即行動／作決定」。",
-        "then-mcq-10": "「以某個時間為起點，其後持續如此」是「from then on」的用法，與本句語境不同。",
-        "then-mcq-12": "「並非經常，只是偶爾」是「now and then」的用法，與本句語境不同。",
-        "then-mcq-09": "「從前面所指的時間開始，一直延續到現在／參照時間」是「since then」的用法，與本句語境不同。",
-        "then-mcq-13": "「加入另一個可能修正／平衡前面判斷的考慮」是「then again」的用法，與本句語境不同。",
-        "then-mcq-08": "「在前面所指的時間點以前」是「before then」的用法，與本句語境不同。"
+        "then-mcq-11": "本句的「then and there」指「在當時當地立即行動／作決定」。",
+        "then-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-11"
     },
@@ -1084,11 +992,9 @@ export default {
       "masked": "I still visit that café ____.",
       "options": [
         "then-mcq-12",
-        "then-mcq-11",
-        "then-mcq-13",
-        "then-mcq-10",
-        "then-mcq-14",
-        "then-mcq-09"
+        "then-mcq-05",
+        "then-mcq-08",
+        "then-mcq-11"
       ],
       "explanation": "本句的「now and then」指「並非經常，只是偶爾」。",
       "sentenceIndex": 23,
@@ -1097,12 +1003,10 @@ export default {
         "now and then"
       ],
       "optionReasons": {
-        "then-mcq-12": "本句指「並非經常，只是偶爾」。",
-        "then-mcq-11": "「在當時當地立即行動／作決定」是「then and there」的用法，與本句語境不同。",
-        "then-mcq-13": "「加入另一個可能修正／平衡前面判斷的考慮」是「then again」的用法，與本句語境不同。",
-        "then-mcq-10": "「以某個時間為起點，其後持續如此」是「from then on」的用法，與本句語境不同。",
-        "then-mcq-14": "「在所談論的時間點擁有該身分／職位的；當時的」是「the then + noun」的用法，與本句語境不同。",
-        "then-mcq-09": "「從前面所指的時間開始，一直延續到現在／參照時間」是「since then」的用法，與本句語境不同。"
+        "then-mcq-12": "本句的「now and then」指「並非經常，只是偶爾」。",
+        "then-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-12"
     },
@@ -1114,11 +1018,9 @@ export default {
       "masked": "Everyone needs some quiet time ____.",
       "options": [
         "then-mcq-12",
-        "then-mcq-11",
-        "then-mcq-13",
-        "then-mcq-10",
-        "then-mcq-14",
-        "then-mcq-09"
+        "then-mcq-05",
+        "then-mcq-16",
+        "then-mcq-08"
       ],
       "explanation": "本句的「now and then」指「並非經常，只是偶爾」。",
       "sentenceIndex": 24,
@@ -1127,12 +1029,10 @@ export default {
         "now and then"
       ],
       "optionReasons": {
-        "then-mcq-12": "本句指「並非經常，只是偶爾」。",
-        "then-mcq-11": "「在當時當地立即行動／作決定」是「then and there」的用法，與本句語境不同。",
-        "then-mcq-13": "「加入另一個可能修正／平衡前面判斷的考慮」是「then again」的用法，與本句語境不同。",
-        "then-mcq-10": "「以某個時間為起點，其後持續如此」是「from then on」的用法，與本句語境不同。",
-        "then-mcq-14": "「在所談論的時間點擁有該身分／職位的；當時的」是「the then + noun」的用法，與本句語境不同。",
-        "then-mcq-09": "「從前面所指的時間開始，一直延續到現在／參照時間」是「since then」的用法，與本句語境不同。"
+        "then-mcq-12": "本句的「now and then」指「並非經常，只是偶爾」。",
+        "then-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-12"
     },
@@ -1144,11 +1044,9 @@ export default {
       "masked": "The headphones are expensive. ____, I use them every day.",
       "options": [
         "then-mcq-13",
-        "then-mcq-12",
-        "then-mcq-14",
-        "then-mcq-11",
-        "then-mcq-15",
-        "then-mcq-10"
+        "then-mcq-07",
+        "then-mcq-05",
+        "then-mcq-11"
       ],
       "explanation": "本句的「Then again」指「加入另一個可能修正／平衡前面判斷的考慮」。",
       "sentenceIndex": 25,
@@ -1157,12 +1055,10 @@ export default {
         "Then again"
       ],
       "optionReasons": {
-        "then-mcq-13": "本句指「加入另一個可能修正／平衡前面判斷的考慮」。",
-        "then-mcq-12": "「並非經常，只是偶爾」是「now and then」的用法，與本句語境不同。",
-        "then-mcq-14": "「在所談論的時間點擁有該身分／職位的；當時的」是「the then + noun」的用法，與本句語境不同。",
-        "then-mcq-11": "「在當時當地立即行動／作決定」是「then and there」的用法，與本句語境不同。",
-        "then-mcq-15": "「在所談論的過去時間點正處於某種狀態的」是「then-current etc.」的用法，與本句語境不同。",
-        "then-mcq-10": "「以某個時間為起點，其後持續如此」是「from then on」的用法，與本句語境不同。"
+        "then-mcq-13": "本句的「Then again」指「加入另一個可能修正／平衡前面判斷的考慮」。",
+        "then-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-13"
     },
@@ -1174,11 +1070,9 @@ export default {
       "masked": "The café is usually crowded. ____, the coffee is excellent.",
       "options": [
         "then-mcq-13",
-        "then-mcq-12",
-        "then-mcq-14",
-        "then-mcq-11",
-        "then-mcq-15",
-        "then-mcq-10"
+        "then-mcq-07",
+        "then-mcq-05",
+        "then-mcq-11"
       ],
       "explanation": "本句的「Then again」指「加入另一個可能修正／平衡前面判斷的考慮」。",
       "sentenceIndex": 26,
@@ -1187,12 +1081,10 @@ export default {
         "Then again"
       ],
       "optionReasons": {
-        "then-mcq-13": "本句指「加入另一個可能修正／平衡前面判斷的考慮」。",
-        "then-mcq-12": "「並非經常，只是偶爾」是「now and then」的用法，與本句語境不同。",
-        "then-mcq-14": "「在所談論的時間點擁有該身分／職位的；當時的」是「the then + noun」的用法，與本句語境不同。",
-        "then-mcq-11": "「在當時當地立即行動／作決定」是「then and there」的用法，與本句語境不同。",
-        "then-mcq-15": "「在所談論的過去時間點正處於某種狀態的」是「then-current etc.」的用法，與本句語境不同。",
-        "then-mcq-10": "「以某個時間為起點，其後持續如此」是「from then on」的用法，與本句語境不同。"
+        "then-mcq-13": "本句的「Then again」指「加入另一個可能修正／平衡前面判斷的考慮」。",
+        "then-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-13"
     },
@@ -1204,11 +1096,9 @@ export default {
       "masked": "The ____ approved the plan.",
       "options": [
         "then-mcq-14",
-        "then-mcq-13",
-        "then-mcq-15",
-        "then-mcq-12",
-        "then-mcq-16",
-        "then-mcq-11"
+        "then-mcq-01",
+        "then-mcq-05",
+        "then-mcq-12"
       ],
       "explanation": "本句的「then manager」指「在所談論的時間點擁有該身分／職位的；當時的」。",
       "sentenceIndex": 27,
@@ -1217,12 +1107,10 @@ export default {
         "then manager"
       ],
       "optionReasons": {
-        "then-mcq-14": "本句指「在所談論的時間點擁有該身分／職位的；當時的」。",
-        "then-mcq-13": "「加入另一個可能修正／平衡前面判斷的考慮」是「then again」的用法，與本句語境不同。",
-        "then-mcq-15": "「在所談論的過去時間點正處於某種狀態的」是「then-current etc.」的用法，與本句語境不同。",
-        "then-mcq-12": "「並非經常，只是偶爾」是「now and then」的用法，與本句語境不同。",
-        "then-mcq-16": "「詢問故事或事件接下來發生甚麼」是「and then?」的用法，與本句語境不同。",
-        "then-mcq-11": "「在當時當地立即行動／作決定」是「then and there」的用法，與本句語境不同。"
+        "then-mcq-14": "本句的「then manager」指「在所談論的時間點擁有該身分／職位的；當時的」。",
+        "then-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-14"
     },
@@ -1235,10 +1123,8 @@ export default {
       "options": [
         "then-mcq-14",
         "then-mcq-13",
-        "then-mcq-15",
         "then-mcq-12",
-        "then-mcq-16",
-        "then-mcq-11"
+        "then-mcq-16"
       ],
       "explanation": "本句的「then president」指「在所談論的時間點擁有該身分／職位的；當時的」。",
       "sentenceIndex": 28,
@@ -1247,12 +1133,10 @@ export default {
         "then president"
       ],
       "optionReasons": {
-        "then-mcq-14": "本句指「在所談論的時間點擁有該身分／職位的；當時的」。",
-        "then-mcq-13": "「加入另一個可能修正／平衡前面判斷的考慮」是「then again」的用法，與本句語境不同。",
-        "then-mcq-15": "「在所談論的過去時間點正處於某種狀態的」是「then-current etc.」的用法，與本句語境不同。",
-        "then-mcq-12": "「並非經常，只是偶爾」是「now and then」的用法，與本句語境不同。",
-        "then-mcq-16": "「詢問故事或事件接下來發生甚麼」是「and then?」的用法，與本句語境不同。",
-        "then-mcq-11": "「在當時當地立即行動／作決定」是「then and there」的用法，與本句語境不同。"
+        "then-mcq-14": "本句的「then president」指「在所談論的時間點擁有該身分／職位的；當時的」。",
+        "then-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-14"
     },
@@ -1264,9 +1148,7 @@ export default {
       "masked": "The decision reflected the ____ policy.",
       "options": [
         "then-mcq-15",
-        "then-mcq-14",
         "then-mcq-16",
-        "then-mcq-13",
         "then-mcq-17",
         "then-mcq-12"
       ],
@@ -1277,12 +1159,10 @@ export default {
         "then-current"
       ],
       "optionReasons": {
-        "then-mcq-15": "本句指「在所談論的過去時間點正處於某種狀態的」。",
-        "then-mcq-14": "「在所談論的時間點擁有該身分／職位的；當時的」是「the then + noun」的用法，與本句語境不同。",
-        "then-mcq-16": "「詢問故事或事件接下來發生甚麼」是「and then?」的用法，與本句語境不同。",
-        "then-mcq-13": "「加入另一個可能修正／平衡前面判斷的考慮」是「then again」的用法，與本句語境不同。",
-        "then-mcq-17": "「把一個步驟、條件或推理連接到下一階段」是「17. then = linking stages in instructions/reasoning — 那麼；接下來」的用法，與本句語境不同。",
-        "then-mcq-12": "「並非經常，只是偶爾」是「now and then」的用法，與本句語境不同。"
+        "then-mcq-15": "本句的「then-current」指「在所談論的過去時間點正處於某種狀態的」。",
+        "then-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-15"
     },
@@ -1294,11 +1174,9 @@ export default {
       "masked": "The research was based on the ____ evidence.",
       "options": [
         "then-mcq-15",
-        "then-mcq-14",
-        "then-mcq-16",
-        "then-mcq-13",
-        "then-mcq-17",
-        "then-mcq-12"
+        "then-mcq-12",
+        "then-mcq-05",
+        "then-mcq-01"
       ],
       "explanation": "本句的「then-known」指「在所談論的過去時間點正處於某種狀態的」。",
       "sentenceIndex": 30,
@@ -1307,12 +1185,10 @@ export default {
         "then-known"
       ],
       "optionReasons": {
-        "then-mcq-15": "本句指「在所談論的過去時間點正處於某種狀態的」。",
-        "then-mcq-14": "「在所談論的時間點擁有該身分／職位的；當時的」是「the then + noun」的用法，與本句語境不同。",
-        "then-mcq-16": "「詢問故事或事件接下來發生甚麼」是「and then?」的用法，與本句語境不同。",
-        "then-mcq-13": "「加入另一個可能修正／平衡前面判斷的考慮」是「then again」的用法，與本句語境不同。",
-        "then-mcq-17": "「把一個步驟、條件或推理連接到下一階段」是「17. then = linking stages in instructions/reasoning — 那麼；接下來」的用法，與本句語境不同。",
-        "then-mcq-12": "「並非經常，只是偶爾」是「now and then」的用法，與本句語境不同。"
+        "then-mcq-15": "本句的「then-known」指「在所談論的過去時間點正處於某種狀態的」。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-15"
     },
@@ -1324,10 +1200,8 @@ export default {
       "masked": "I put the headphones on.” > “____",
       "options": [
         "then-mcq-16",
+        "then-mcq-11",
         "then-mcq-15",
-        "then-mcq-17",
-        "then-mcq-14",
-        "then-mcq-13",
         "then-mcq-12"
       ],
       "explanation": "本句的「And then?」指「詢問故事或事件接下來發生甚麼」。",
@@ -1337,12 +1211,10 @@ export default {
         "And then?"
       ],
       "optionReasons": {
-        "then-mcq-16": "本句指「詢問故事或事件接下來發生甚麼」。",
-        "then-mcq-15": "「在所談論的過去時間點正處於某種狀態的」是「then-current etc.」的用法，與本句語境不同。",
-        "then-mcq-17": "「把一個步驟、條件或推理連接到下一階段」是「17. then = linking stages in instructions/reasoning — 那麼；接下來」的用法，與本句語境不同。",
-        "then-mcq-14": "「在所談論的時間點擁有該身分／職位的；當時的」是「the then + noun」的用法，與本句語境不同。",
-        "then-mcq-13": "「加入另一個可能修正／平衡前面判斷的考慮」是「then again」的用法，與本句語境不同。",
-        "then-mcq-12": "「並非經常，只是偶爾」是「now and then」的用法，與本句語境不同。"
+        "then-mcq-16": "本句的「And then?」指「詢問故事或事件接下來發生甚麼」。",
+        "then-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-16"
     },
@@ -1354,11 +1226,9 @@ export default {
       "masked": "She spoke to the manager.” > “And ____ what happened?",
       "options": [
         "then-mcq-16",
-        "then-mcq-15",
-        "then-mcq-17",
-        "then-mcq-14",
         "then-mcq-13",
-        "then-mcq-12"
+        "then-mcq-12",
+        "then-mcq-11"
       ],
       "explanation": "本句的「then」指「詢問故事或事件接下來發生甚麼」。",
       "sentenceIndex": 32,
@@ -1367,12 +1237,10 @@ export default {
         "then"
       ],
       "optionReasons": {
-        "then-mcq-16": "本句指「詢問故事或事件接下來發生甚麼」。",
-        "then-mcq-15": "「在所談論的過去時間點正處於某種狀態的」是「then-current etc.」的用法，與本句語境不同。",
-        "then-mcq-17": "「把一個步驟、條件或推理連接到下一階段」是「17. then = linking stages in instructions/reasoning — 那麼；接下來」的用法，與本句語境不同。",
-        "then-mcq-14": "「在所談論的時間點擁有該身分／職位的；當時的」是「the then + noun」的用法，與本句語境不同。",
-        "then-mcq-13": "「加入另一個可能修正／平衡前面判斷的考慮」是「then again」的用法，與本句語境不同。",
-        "then-mcq-12": "「並非經常，只是偶爾」是「now and then」的用法，與本句語境不同。"
+        "then-mcq-16": "本句的「then」指「詢問故事或事件接下來發生甚麼」。",
+        "then-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-16"
     },
@@ -1384,10 +1252,8 @@ export default {
       "masked": "Check the battery first. ____ restart the device.",
       "options": [
         "then-mcq-17",
-        "then-mcq-16",
-        "then-mcq-15",
-        "then-mcq-14",
-        "then-mcq-13",
+        "then-mcq-03",
+        "then-mcq-11",
         "then-mcq-12"
       ],
       "explanation": "本句的「Then」指「把一個步驟、條件或推理連接到下一階段」。",
@@ -1397,12 +1263,10 @@ export default {
         "Then"
       ],
       "optionReasons": {
-        "then-mcq-17": "本句指「把一個步驟、條件或推理連接到下一階段」。",
-        "then-mcq-16": "「詢問故事或事件接下來發生甚麼」是「and then?」的用法，與本句語境不同。",
-        "then-mcq-15": "「在所談論的過去時間點正處於某種狀態的」是「then-current etc.」的用法，與本句語境不同。",
-        "then-mcq-14": "「在所談論的時間點擁有該身分／職位的；當時的」是「the then + noun」的用法，與本句語境不同。",
-        "then-mcq-13": "「加入另一個可能修正／平衡前面判斷的考慮」是「then again」的用法，與本句語境不同。",
-        "then-mcq-12": "「並非經常，只是偶爾」是「now and then」的用法，與本句語境不同。"
+        "then-mcq-17": "本句的「Then」指「把一個步驟、條件或推理連接到下一階段」。",
+        "then-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-17"
     },
@@ -1414,11 +1278,9 @@ export default {
       "masked": "Once we know the cost, ____ we can make a decision.",
       "options": [
         "then-mcq-17",
-        "then-mcq-16",
         "then-mcq-15",
-        "then-mcq-14",
-        "then-mcq-13",
-        "then-mcq-12"
+        "then-mcq-12",
+        "then-mcq-13"
       ],
       "explanation": "本句的「then」指「把一個步驟、條件或推理連接到下一階段」。",
       "sentenceIndex": 34,
@@ -1427,12 +1289,10 @@ export default {
         "then"
       ],
       "optionReasons": {
-        "then-mcq-17": "本句指「把一個步驟、條件或推理連接到下一階段」。",
-        "then-mcq-16": "「詢問故事或事件接下來發生甚麼」是「and then?」的用法，與本句語境不同。",
-        "then-mcq-15": "「在所談論的過去時間點正處於某種狀態的」是「then-current etc.」的用法，與本句語境不同。",
-        "then-mcq-14": "「在所談論的時間點擁有該身分／職位的；當時的」是「the then + noun」的用法，與本句語境不同。",
-        "then-mcq-13": "「加入另一個可能修正／平衡前面判斷的考慮」是「then again」的用法，與本句語境不同。",
-        "then-mcq-12": "「並非經常，只是偶爾」是「now and then」的用法，與本句語境不同。"
+        "then-mcq-17": "本句的「then」指「把一個步驟、條件或推理連接到下一階段」。",
+        "then-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "then-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "then-mcq-17"
     }
@@ -1444,5 +1304,7 @@ export default {
     "sha256": "391139931153a163209a513f1b36bf40c4451696a101abc2c321f3dce2c1c8e2",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

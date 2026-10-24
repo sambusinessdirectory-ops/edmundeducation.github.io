@@ -1242,11 +1242,6 @@ export default {
           "樣本比例"
         ],
         [
-          "Minor cases should require only proportionate effort.",
-          "輕微個案只應需要相稱程度的處理工作。",
-          "樣本比例"
-        ],
-        [
           "The sample proportion of customers requesting refunds was 0.12.",
           "樣本中要求退款的顧客比例為 0.12。",
           "樣本比例"
@@ -1286,16 +1281,6 @@ export default {
         [
           "Statistical proportions range from 0 to 1.",
           "統計上的比例通常以 0 至 1 表示。",
-          "母體比例"
-        ],
-        [
-          "Returns account for a small proportion of total sales.",
-          "退貨只佔總銷售的很小比例。",
-          "母體比例"
-        ],
-        [
-          "Delivery costs represent a growing proportion of expenses.",
-          "送貨成本佔總開支的比例正在上升。",
           "母體比例"
         ],
         [
@@ -1561,6 +1546,45 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "proportion-reviewed-a03535d577",
+      "title": "相稱的投入／努力",
+      "form": "proportion · source section 75",
+      "en": "相稱的投入／努力",
+      "zh": "相稱的投入／努力",
+      "note": "對照原始教材第 75 節及例句核實。",
+      "examples": [
+        [
+          "Minor cases should require only proportionate effort.",
+          "輕微個案只應需要相稱程度的處理工作。",
+          "相稱的投入／努力"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "proportion-reviewed-dec0bd8041",
+      "title": "收入／成本／銷售的佔比",
+      "form": "proportion · source section 81",
+      "en": "收入／成本／銷售的佔比",
+      "zh": "收入／成本／銷售的佔比",
+      "note": "對照原始教材第 81 節及例句核實。",
+      "examples": [
+        [
+          "Returns account for a small proportion of total sales.",
+          "退貨只佔總銷售的很小比例。",
+          "收入／成本／銷售的佔比"
+        ],
+        [
+          "Delivery costs represent a growing proportion of expenses.",
+          "送貨成本佔總開支的比例正在上升。",
+          "收入／成本／銷售的佔比"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1572,11 +1596,9 @@ export default {
       "masked": "A large ____ shop online.",
       "options": [
         "proportion-mcq-02",
-        "proportion-mcq-01",
-        "proportion-mcq-03",
-        "proportion-mcq-04",
-        "proportion-mcq-05",
-        "proportion-mcq-06"
+        "proportion-mcq-15",
+        "proportion-mcq-48",
+        "proportion-mcq-45"
       ],
       "explanation": "本句的「proportion of customers」指「X 的一部分／比例」。",
       "sentenceIndex": 0,
@@ -1585,12 +1607,10 @@ export default {
         "proportion of customers"
       ],
       "optionReasons": {
-        "proportion-mcq-02": "本句指「X 的一部分／比例」。",
-        "proportion-mcq-01": "「比例；部分」與本句語境不同。",
-        "proportion-mcq-03": "「大比例」與本句語境不同。",
-        "proportion-mcq-04": "「小比例」與本句語境不同。",
-        "proportion-mcq-05": "「相當大比例」與本句語境不同。",
-        "proportion-mcq-06": "「日益增加的比例」與本句語境不同。"
+        "proportion-mcq-02": "本句的「proportion of customers」指「X 的一部分／比例」。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-02"
     },
@@ -1602,11 +1622,9 @@ export default {
       "masked": "Only a small ____ of returns involve defective goods.",
       "options": [
         "proportion-mcq-02",
-        "proportion-mcq-01",
-        "proportion-mcq-03",
-        "proportion-mcq-04",
-        "proportion-mcq-05",
-        "proportion-mcq-06"
+        "proportion-mcq-44",
+        "proportion-mcq-31",
+        "proportion-reviewed-a03535d577"
       ],
       "explanation": "本句的「proportion」指「X 的一部分／比例」。",
       "sentenceIndex": 1,
@@ -1615,12 +1633,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-02": "本句指「X 的一部分／比例」。",
-        "proportion-mcq-01": "「比例；部分」與本句語境不同。",
-        "proportion-mcq-03": "「大比例」與本句語境不同。",
-        "proportion-mcq-04": "「小比例」與本句語境不同。",
-        "proportion-mcq-05": "「相當大比例」與本句語境不同。",
-        "proportion-mcq-06": "「日益增加的比例」與本句語境不同。"
+        "proportion-mcq-02": "本句的「proportion」指「X 的一部分／比例」。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "proportion-reviewed-a03535d577": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-02"
     },
@@ -1632,11 +1648,9 @@ export default {
       "masked": "A significant ____ of complaints concerned sizing.",
       "options": [
         "proportion-mcq-02",
-        "proportion-mcq-01",
-        "proportion-mcq-03",
-        "proportion-mcq-04",
-        "proportion-mcq-05",
-        "proportion-mcq-06"
+        "proportion-reviewed-a03535d577",
+        "proportion-mcq-48",
+        "proportion-mcq-33"
       ],
       "explanation": "本句的「proportion」指「X 的一部分／比例」。",
       "sentenceIndex": 2,
@@ -1645,12 +1659,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-02": "本句指「X 的一部分／比例」。",
-        "proportion-mcq-01": "「比例；部分」與本句語境不同。",
-        "proportion-mcq-03": "「大比例」與本句語境不同。",
-        "proportion-mcq-04": "「小比例」與本句語境不同。",
-        "proportion-mcq-05": "「相當大比例」與本句語境不同。",
-        "proportion-mcq-06": "「日益增加的比例」與本句語境不同。"
+        "proportion-mcq-02": "本句的「proportion」指「X 的一部分／比例」。",
+        "proportion-reviewed-a03535d577": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-02"
     },
@@ -1662,11 +1674,9 @@ export default {
       "masked": "A ____ now comes from online orders.",
       "options": [
         "proportion-mcq-03",
-        "proportion-mcq-02",
-        "proportion-mcq-04",
-        "proportion-mcq-01",
-        "proportion-mcq-05",
-        "proportion-mcq-06"
+        "proportion-mcq-16",
+        "proportion-mcq-45",
+        "proportion-mcq-51"
       ],
       "explanation": "本句的「large proportion of sales」指「大比例」。",
       "sentenceIndex": 3,
@@ -1675,12 +1685,10 @@ export default {
         "large proportion of sales"
       ],
       "optionReasons": {
-        "proportion-mcq-03": "本句指「大比例」。",
-        "proportion-mcq-02": "「X 的一部分／比例」與本句語境不同。",
-        "proportion-mcq-04": "「小比例」與本句語境不同。",
-        "proportion-mcq-01": "「比例；部分」與本句語境不同。",
-        "proportion-mcq-05": "「相當大比例」與本句語境不同。",
-        "proportion-mcq-06": "「日益增加的比例」與本句語境不同。"
+        "proportion-mcq-03": "本句的「large proportion of sales」指「大比例」。",
+        "proportion-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-03"
     },
@@ -1692,11 +1700,9 @@ export default {
       "masked": "A high ____ of returned jeans had sizing issues.",
       "options": [
         "proportion-mcq-03",
-        "proportion-mcq-02",
-        "proportion-mcq-04",
-        "proportion-mcq-01",
-        "proportion-mcq-05",
-        "proportion-mcq-06"
+        "proportion-mcq-17",
+        "proportion-mcq-46",
+        "proportion-mcq-51"
       ],
       "explanation": "本句的「proportion」指「大比例」。",
       "sentenceIndex": 4,
@@ -1705,12 +1711,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-03": "本句指「大比例」。",
-        "proportion-mcq-02": "「X 的一部分／比例」與本句語境不同。",
-        "proportion-mcq-04": "「小比例」與本句語境不同。",
-        "proportion-mcq-01": "「比例；部分」與本句語境不同。",
-        "proportion-mcq-05": "「相當大比例」與本句語境不同。",
-        "proportion-mcq-06": "「日益增加的比例」與本句語境不同。"
+        "proportion-mcq-03": "本句的「proportion」指「大比例」。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-03"
     },
@@ -1722,11 +1726,9 @@ export default {
       "masked": "Only a ____ abuse the return system.",
       "options": [
         "proportion-mcq-04",
-        "proportion-mcq-03",
-        "proportion-mcq-05",
-        "proportion-mcq-02",
-        "proportion-mcq-06",
-        "proportion-mcq-01"
+        "proportion-mcq-14",
+        "proportion-mcq-47",
+        "proportion-mcq-46"
       ],
       "explanation": "本句的「small proportion of customers」指「小比例」。",
       "sentenceIndex": 5,
@@ -1735,12 +1737,10 @@ export default {
         "small proportion of customers"
       ],
       "optionReasons": {
-        "proportion-mcq-04": "本句指「小比例」。",
-        "proportion-mcq-03": "「大比例」與本句語境不同。",
-        "proportion-mcq-05": "「相當大比例」與本句語境不同。",
-        "proportion-mcq-02": "「X 的一部分／比例」與本句語境不同。",
-        "proportion-mcq-06": "「日益增加的比例」與本句語境不同。",
-        "proportion-mcq-01": "「比例；部分」與本句語境不同。"
+        "proportion-mcq-04": "本句的「small proportion of customers」指「小比例」。",
+        "proportion-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-04"
     },
@@ -1752,11 +1752,9 @@ export default {
       "masked": "Defects account for a relatively low ____ of returns.",
       "options": [
         "proportion-mcq-04",
-        "proportion-mcq-03",
-        "proportion-mcq-05",
-        "proportion-mcq-02",
-        "proportion-mcq-06",
-        "proportion-mcq-01"
+        "proportion-mcq-47",
+        "proportion-mcq-14",
+        "proportion-mcq-45"
       ],
       "explanation": "本句的「proportion」指「小比例」。",
       "sentenceIndex": 6,
@@ -1765,12 +1763,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-04": "本句指「小比例」。",
-        "proportion-mcq-03": "「大比例」與本句語境不同。",
-        "proportion-mcq-05": "「相當大比例」與本句語境不同。",
-        "proportion-mcq-02": "「X 的一部分／比例」與本句語境不同。",
-        "proportion-mcq-06": "「日益增加的比例」與本句語境不同。",
-        "proportion-mcq-01": "「比例；部分」與本句語境不同。"
+        "proportion-mcq-04": "本句的「proportion」指「小比例」。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-04"
     },
@@ -1782,11 +1778,9 @@ export default {
       "masked": "A ____ of complaints could be avoided.",
       "options": [
         "proportion-mcq-05",
-        "proportion-mcq-04",
-        "proportion-mcq-06",
-        "proportion-mcq-03",
-        "proportion-mcq-07",
-        "proportion-mcq-02"
+        "proportion-mcq-51",
+        "proportion-mcq-16",
+        "proportion-mcq-45"
       ],
       "explanation": "本句的「significant proportion」指「相當大比例」。",
       "sentenceIndex": 7,
@@ -1795,12 +1789,10 @@ export default {
         "significant proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-05": "本句指「相當大比例」。",
-        "proportion-mcq-04": "「小比例」與本句語境不同。",
-        "proportion-mcq-06": "「日益增加的比例」與本句語境不同。",
-        "proportion-mcq-03": "「大比例」與本句語境不同。",
-        "proportion-mcq-07": "「……的人所佔比例」與本句語境不同。",
-        "proportion-mcq-02": "「X 的一部分／比例」與本句語境不同。"
+        "proportion-mcq-05": "本句的「significant proportion」指「相當大比例」。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-05"
     },
@@ -1812,11 +1804,9 @@ export default {
       "masked": "Repeat customers generate a significant ____ of revenue.",
       "options": [
         "proportion-mcq-05",
-        "proportion-mcq-04",
-        "proportion-mcq-06",
-        "proportion-mcq-03",
-        "proportion-mcq-07",
-        "proportion-mcq-02"
+        "proportion-mcq-46",
+        "proportion-mcq-45",
+        "proportion-pdf-009"
       ],
       "explanation": "本句的「proportion」指「相當大比例」。",
       "sentenceIndex": 8,
@@ -1825,12 +1815,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-05": "本句指「相當大比例」。",
-        "proportion-mcq-04": "「小比例」與本句語境不同。",
-        "proportion-mcq-06": "「日益增加的比例」與本句語境不同。",
-        "proportion-mcq-03": "「大比例」與本句語境不同。",
-        "proportion-mcq-07": "「……的人所佔比例」與本句語境不同。",
-        "proportion-mcq-02": "「X 的一部分／比例」與本句語境不同。"
+        "proportion-mcq-05": "本句的「proportion」指「相當大比例」。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-05"
     },
@@ -1842,11 +1830,9 @@ export default {
       "masked": "A ____ of online shoppers rely on size charts.",
       "options": [
         "proportion-mcq-05",
-        "proportion-mcq-04",
-        "proportion-mcq-06",
-        "proportion-mcq-03",
-        "proportion-mcq-07",
-        "proportion-mcq-02"
+        "proportion-mcq-51",
+        "proportion-reviewed-a03535d577",
+        "proportion-mcq-43"
       ],
       "explanation": "本句的「substantial proportion」指「相當大比例」。",
       "sentenceIndex": 9,
@@ -1855,12 +1841,10 @@ export default {
         "substantial proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-05": "本句指「相當大比例」。",
-        "proportion-mcq-04": "「小比例」與本句語境不同。",
-        "proportion-mcq-06": "「日益增加的比例」與本句語境不同。",
-        "proportion-mcq-03": "「大比例」與本句語境不同。",
-        "proportion-mcq-07": "「……的人所佔比例」與本句語境不同。",
-        "proportion-mcq-02": "「X 的一部分／比例」與本句語境不同。"
+        "proportion-mcq-05": "本句的「substantial proportion」指「相當大比例」。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-reviewed-a03535d577": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-05"
     },
@@ -1872,11 +1856,9 @@ export default {
       "masked": "Returns represented a substantial ____ of warehouse work.",
       "options": [
         "proportion-mcq-05",
-        "proportion-mcq-04",
-        "proportion-mcq-06",
-        "proportion-mcq-03",
-        "proportion-mcq-07",
-        "proportion-mcq-02"
+        "proportion-pdf-001",
+        "proportion-mcq-46",
+        "proportion-mcq-33"
       ],
       "explanation": "本句的「proportion」指「相當大比例」。",
       "sentenceIndex": 10,
@@ -1885,12 +1867,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-05": "本句指「相當大比例」。",
-        "proportion-mcq-04": "「小比例」與本句語境不同。",
-        "proportion-mcq-06": "「日益增加的比例」與本句語境不同。",
-        "proportion-mcq-03": "「大比例」與本句語境不同。",
-        "proportion-mcq-07": "「……的人所佔比例」與本句語境不同。",
-        "proportion-mcq-02": "「X 的一部分／比例」與本句語境不同。"
+        "proportion-mcq-05": "本句的「proportion」指「相當大比例」。",
+        "proportion-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-05"
     },
@@ -1902,11 +1882,9 @@ export default {
       "masked": "A ____ are made online.",
       "options": [
         "proportion-mcq-06",
-        "proportion-mcq-05",
-        "proportion-mcq-07",
-        "proportion-mcq-04",
-        "proportion-mcq-08",
-        "proportion-mcq-03"
+        "proportion-mcq-15",
+        "proportion-mcq-43",
+        "proportion-mcq-33"
       ],
       "explanation": "本句的「growing proportion of purchases」指「日益增加的比例」。",
       "sentenceIndex": 11,
@@ -1915,12 +1893,10 @@ export default {
         "growing proportion of purchases"
       ],
       "optionReasons": {
-        "proportion-mcq-06": "本句指「日益增加的比例」。",
-        "proportion-mcq-05": "「相當大比例」與本句語境不同。",
-        "proportion-mcq-07": "「……的人所佔比例」與本句語境不同。",
-        "proportion-mcq-04": "「小比例」與本句語境不同。",
-        "proportion-mcq-08": "「比例關係」與本句語境不同。",
-        "proportion-mcq-03": "「大比例」與本句語境不同。"
+        "proportion-mcq-06": "本句的「growing proportion of purchases」指「日益增加的比例」。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-06"
     },
@@ -1932,11 +1908,9 @@ export default {
       "masked": "An increasing ____ of customers expect flexible returns.",
       "options": [
         "proportion-mcq-06",
-        "proportion-mcq-05",
-        "proportion-mcq-07",
-        "proportion-mcq-04",
-        "proportion-mcq-08",
-        "proportion-mcq-03"
+        "proportion-mcq-14",
+        "proportion-mcq-45",
+        "proportion-mcq-48"
       ],
       "explanation": "本句的「proportion」指「日益增加的比例」。",
       "sentenceIndex": 12,
@@ -1945,12 +1919,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-06": "本句指「日益增加的比例」。",
-        "proportion-mcq-05": "「相當大比例」與本句語境不同。",
-        "proportion-mcq-07": "「……的人所佔比例」與本句語境不同。",
-        "proportion-mcq-04": "「小比例」與本句語境不同。",
-        "proportion-mcq-08": "「比例關係」與本句語境不同。",
-        "proportion-mcq-03": "「大比例」與本句語境不同。"
+        "proportion-mcq-06": "本句的「proportion」指「日益增加的比例」。",
+        "proportion-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-06"
     },
@@ -1962,11 +1934,9 @@ export default {
       "masked": "The ____ fell after the size guide improved.",
       "options": [
         "proportion-mcq-07",
-        "proportion-mcq-06",
-        "proportion-mcq-08",
-        "proportion-mcq-05",
-        "proportion-mcq-09",
-        "proportion-mcq-04"
+        "proportion-pdf-006",
+        "proportion-mcq-47",
+        "proportion-mcq-17"
       ],
       "explanation": "本句的「proportion of customers who returned an item」指「……的人所佔比例」。",
       "sentenceIndex": 13,
@@ -1975,12 +1945,10 @@ export default {
         "proportion of customers who returned an item"
       ],
       "optionReasons": {
-        "proportion-mcq-07": "本句指「……的人所佔比例」。",
-        "proportion-mcq-06": "「日益增加的比例」與本句語境不同。",
-        "proportion-mcq-08": "「比例關係」與本句語境不同。",
-        "proportion-mcq-05": "「相當大比例」與本句語境不同。",
-        "proportion-mcq-09": "「正確比例」與本句語境不同。",
-        "proportion-mcq-04": "「小比例」與本句語境不同。"
+        "proportion-mcq-07": "本句的「proportion of customers who returned an item」指「……的人所佔比例」。",
+        "proportion-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-07"
     },
@@ -1992,11 +1960,9 @@ export default {
       "masked": "We should measure the ____ of complaints that result in refunds.",
       "options": [
         "proportion-mcq-07",
-        "proportion-mcq-06",
-        "proportion-mcq-08",
-        "proportion-mcq-05",
-        "proportion-mcq-09",
-        "proportion-mcq-04"
+        "proportion-pdf-005",
+        "proportion-mcq-17",
+        "proportion-mcq-31"
       ],
       "explanation": "本句的「proportion」指「……的人所佔比例」。",
       "sentenceIndex": 14,
@@ -2005,12 +1971,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-07": "本句指「……的人所佔比例」。",
-        "proportion-mcq-06": "「日益增加的比例」與本句語境不同。",
-        "proportion-mcq-08": "「比例關係」與本句語境不同。",
-        "proportion-mcq-05": "「相當大比例」與本句語境不同。",
-        "proportion-mcq-09": "「正確比例」與本句語境不同。",
-        "proportion-mcq-04": "「小比例」與本句語境不同。"
+        "proportion-mcq-07": "本句的「proportion」指「……的人所佔比例」。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-07"
     },
@@ -2022,11 +1986,9 @@ export default {
       "masked": "The ingredients must be mixed in the correct ____.",
       "options": [
         "proportion-mcq-08",
-        "proportion-mcq-07",
-        "proportion-mcq-09",
-        "proportion-mcq-06",
-        "proportion-mcq-10",
-        "proportion-mcq-05"
+        "proportion-mcq-45",
+        "proportion-reviewed-a03535d577",
+        "proportion-mcq-31"
       ],
       "explanation": "本句的「proportions」指「比例關係」。",
       "sentenceIndex": 15,
@@ -2035,12 +1997,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-08": "本句指「比例關係」。",
-        "proportion-mcq-07": "「……的人所佔比例」與本句語境不同。",
-        "proportion-mcq-09": "「正確比例」與本句語境不同。",
-        "proportion-mcq-06": "「日益增加的比例」與本句語境不同。",
-        "proportion-mcq-10": "「相對比例」與本句語境不同。",
-        "proportion-mcq-05": "「相當大比例」與本句語境不同。"
+        "proportion-mcq-08": "本句的「proportions」指「比例關係」。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "proportion-reviewed-a03535d577": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-08"
     },
@@ -2052,11 +2012,9 @@ export default {
       "masked": "The ____ of cost to revenue changed.",
       "options": [
         "proportion-mcq-08",
-        "proportion-mcq-07",
-        "proportion-mcq-09",
-        "proportion-mcq-06",
-        "proportion-mcq-10",
-        "proportion-mcq-05"
+        "proportion-reviewed-a03535d577",
+        "proportion-mcq-44",
+        "proportion-mcq-33"
       ],
       "explanation": "本句的「proportion」指「比例關係」。",
       "sentenceIndex": 16,
@@ -2065,12 +2023,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-08": "本句指「比例關係」。",
-        "proportion-mcq-07": "「……的人所佔比例」與本句語境不同。",
-        "proportion-mcq-09": "「正確比例」與本句語境不同。",
-        "proportion-mcq-06": "「日益增加的比例」與本句語境不同。",
-        "proportion-mcq-10": "「相對比例」與本句語境不同。",
-        "proportion-mcq-05": "「相當大比例」與本句語境不同。"
+        "proportion-mcq-08": "本句的「proportion」指「比例關係」。",
+        "proportion-reviewed-a03535d577": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-08"
     },
@@ -2082,11 +2038,9 @@ export default {
       "masked": "The ingredients were combined in the ____.",
       "options": [
         "proportion-mcq-09",
-        "proportion-mcq-08",
-        "proportion-mcq-10",
-        "proportion-mcq-07",
-        "proportion-mcq-11",
-        "proportion-mcq-06"
+        "proportion-mcq-17",
+        "proportion-mcq-45",
+        "proportion-mcq-33"
       ],
       "explanation": "本句的「correct proportions」指「正確比例」。",
       "sentenceIndex": 17,
@@ -2095,12 +2049,10 @@ export default {
         "correct proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-09": "本句指「正確比例」。",
-        "proportion-mcq-08": "「比例關係」與本句語境不同。",
-        "proportion-mcq-10": "「相對比例」與本句語境不同。",
-        "proportion-mcq-07": "「……的人所佔比例」與本句語境不同。",
-        "proportion-mcq-11": "「與……成比例／相稱」與本句語境不同。",
-        "proportion-mcq-06": "「日益增加的比例」與本句語境不同。"
+        "proportion-mcq-09": "本句的「correct proportions」指「正確比例」。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-09"
     },
@@ -2112,11 +2064,9 @@ export default {
       "masked": "Staff and workload need to be in the right ____.",
       "options": [
         "proportion-mcq-09",
-        "proportion-mcq-08",
-        "proportion-mcq-10",
-        "proportion-mcq-07",
-        "proportion-mcq-11",
-        "proportion-mcq-06"
+        "proportion-mcq-33",
+        "proportion-reviewed-a03535d577",
+        "proportion-mcq-48"
       ],
       "explanation": "本句的「proportion」指「正確比例」。",
       "sentenceIndex": 18,
@@ -2125,12 +2075,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-09": "本句指「正確比例」。",
-        "proportion-mcq-08": "「比例關係」與本句語境不同。",
-        "proportion-mcq-10": "「相對比例」與本句語境不同。",
-        "proportion-mcq-07": "「……的人所佔比例」與本句語境不同。",
-        "proportion-mcq-11": "「與……成比例／相稱」與本句語境不同。",
-        "proportion-mcq-06": "「日益增加的比例」與本句語境不同。"
+        "proportion-mcq-09": "本句的「proportion」指「正確比例」。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-reviewed-a03535d577": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-09"
     },
@@ -2142,11 +2090,9 @@ export default {
       "masked": "The chart shows the ____ of refunds and exchanges.",
       "options": [
         "proportion-mcq-10",
-        "proportion-mcq-09",
-        "proportion-mcq-11",
-        "proportion-mcq-08",
-        "proportion-mcq-12",
-        "proportion-mcq-07"
+        "proportion-mcq-47",
+        "proportion-pdf-001",
+        "proportion-mcq-46"
       ],
       "explanation": "本句的「relative proportions」指「相對比例」。",
       "sentenceIndex": 19,
@@ -2155,12 +2101,10 @@ export default {
         "relative proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-10": "本句指「相對比例」。",
-        "proportion-mcq-09": "「正確比例」與本句語境不同。",
-        "proportion-mcq-11": "「與……成比例／相稱」與本句語境不同。",
-        "proportion-mcq-08": "「比例關係」與本句語境不同。",
-        "proportion-mcq-12": "「與……不成比例」與本句語境不同。",
-        "proportion-mcq-07": "「……的人所佔比例」與本句語境不同。"
+        "proportion-mcq-10": "本句的「relative proportions」指「相對比例」。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-10"
     },
@@ -2172,11 +2116,9 @@ export default {
       "masked": "The relative ____ changed during the pilot.",
       "options": [
         "proportion-mcq-10",
-        "proportion-mcq-09",
-        "proportion-mcq-11",
-        "proportion-mcq-08",
-        "proportion-mcq-12",
-        "proportion-mcq-07"
+        "proportion-mcq-46",
+        "proportion-mcq-51",
+        "proportion-mcq-48"
       ],
       "explanation": "本句的「proportions」指「相對比例」。",
       "sentenceIndex": 20,
@@ -2185,12 +2127,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-10": "本句指「相對比例」。",
-        "proportion-mcq-09": "「正確比例」與本句語境不同。",
-        "proportion-mcq-11": "「與……成比例／相稱」與本句語境不同。",
-        "proportion-mcq-08": "「比例關係」與本句語境不同。",
-        "proportion-mcq-12": "「與……不成比例」與本句語境不同。",
-        "proportion-mcq-07": "「……的人所佔比例」與本句語境不同。"
+        "proportion-mcq-10": "本句的「proportions」指「相對比例」。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-10"
     },
@@ -2202,11 +2142,9 @@ export default {
       "masked": "Costs should remain ____.",
       "options": [
         "proportion-mcq-11",
-        "proportion-mcq-10",
-        "proportion-mcq-12",
-        "proportion-mcq-09",
-        "proportion-mcq-13",
-        "proportion-mcq-08"
+        "proportion-mcq-45",
+        "proportion-mcq-48",
+        "proportion-mcq-47"
       ],
       "explanation": "本句的「in proportion to sales」指「與……成比例／相稱」。",
       "sentenceIndex": 21,
@@ -2215,12 +2153,10 @@ export default {
         "in proportion to sales"
       ],
       "optionReasons": {
-        "proportion-mcq-11": "本句指「與……成比例／相稱」。",
-        "proportion-mcq-10": "「相對比例」與本句語境不同。",
-        "proportion-mcq-12": "「與……不成比例」與本句語境不同。",
-        "proportion-mcq-09": "「正確比例」與本句語境不同。",
-        "proportion-mcq-13": "「相稱的；合乎比例的」與本句語境不同。",
-        "proportion-mcq-08": "「比例關係」與本句語境不同。"
+        "proportion-mcq-11": "本句的「in proportion to sales」指「與……成比例／相稱」。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-11"
     },
@@ -2232,11 +2168,9 @@ export default {
       "masked": "The response should be in ____ to the seriousness of the abuse.",
       "options": [
         "proportion-mcq-11",
-        "proportion-mcq-10",
-        "proportion-mcq-12",
-        "proportion-mcq-09",
-        "proportion-mcq-13",
-        "proportion-mcq-08"
+        "proportion-mcq-47",
+        "proportion-mcq-45",
+        "proportion-mcq-51"
       ],
       "explanation": "本句的「proportion」指「與……成比例／相稱」。",
       "sentenceIndex": 22,
@@ -2245,12 +2179,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-11": "本句指「與……成比例／相稱」。",
-        "proportion-mcq-10": "「相對比例」與本句語境不同。",
-        "proportion-mcq-12": "「與……不成比例」與本句語境不同。",
-        "proportion-mcq-09": "「正確比例」與本句語境不同。",
-        "proportion-mcq-13": "「相稱的；合乎比例的」與本句語境不同。",
-        "proportion-mcq-08": "「比例關係」與本句語境不同。"
+        "proportion-mcq-11": "本句的「proportion」指「與……成比例／相稱」。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-11"
     },
@@ -2262,11 +2194,9 @@ export default {
       "masked": "Warehouse costs may rise ____.",
       "options": [
         "proportion-mcq-23",
-        "proportion-mcq-22",
-        "proportion-mcq-24",
-        "proportion-mcq-21",
-        "proportion-mcq-25",
-        "proportion-mcq-20"
+        "proportion-mcq-15",
+        "proportion-pdf-005",
+        "proportion-mcq-46"
       ],
       "explanation": "本句的「in proportion to return volume」指「按比例增加」。",
       "sentenceIndex": 23,
@@ -2275,12 +2205,10 @@ export default {
         "in proportion to return volume"
       ],
       "optionReasons": {
-        "proportion-mcq-23": "本句指「按比例增加」。",
-        "proportion-mcq-22": "「成反比」與本句語境不同。",
-        "proportion-mcq-24": "「比例份額」與本句語境不同。",
-        "proportion-mcq-21": "「成正比」與本句語境不同。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。",
-        "proportion-mcq-20": "「與……成比例」與本句語境不同。"
+        "proportion-mcq-23": "本句的「in proportion to return volume」指「按比例增加」。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-23"
     },
@@ -2292,11 +2220,9 @@ export default {
       "masked": "Staffing should increase roughly in ____ to workload.",
       "options": [
         "proportion-mcq-23",
-        "proportion-mcq-22",
-        "proportion-mcq-24",
-        "proportion-mcq-21",
-        "proportion-mcq-25",
-        "proportion-mcq-20"
+        "proportion-mcq-31",
+        "proportion-mcq-47",
+        "proportion-mcq-14"
       ],
       "explanation": "本句的「proportion」指「按比例增加」。",
       "sentenceIndex": 24,
@@ -2305,12 +2231,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-23": "本句指「按比例增加」。",
-        "proportion-mcq-22": "「成反比」與本句語境不同。",
-        "proportion-mcq-24": "「比例份額」與本句語境不同。",
-        "proportion-mcq-21": "「成正比」與本句語境不同。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。",
-        "proportion-mcq-20": "「與……成比例」與本句語境不同。"
+        "proportion-mcq-23": "本句的「proportion」指「按比例增加」。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-23"
     },
@@ -2322,11 +2246,9 @@ export default {
       "masked": "The penalty seems ____.",
       "options": [
         "proportion-mcq-12",
-        "proportion-mcq-11",
-        "proportion-mcq-13",
-        "proportion-mcq-10",
-        "proportion-mcq-14",
-        "proportion-mcq-09"
+        "proportion-mcq-17",
+        "proportion-mcq-48",
+        "proportion-mcq-45"
       ],
       "explanation": "本句的「out of proportion to the mistake」指「與……不成比例」。",
       "sentenceIndex": 25,
@@ -2335,12 +2257,10 @@ export default {
         "out of proportion to the mistake"
       ],
       "optionReasons": {
-        "proportion-mcq-12": "本句指「與……不成比例」。",
-        "proportion-mcq-11": "「與……成比例／相稱」與本句語境不同。",
-        "proportion-mcq-13": "「相稱的；合乎比例的」與本句語境不同。",
-        "proportion-mcq-10": "「相對比例」與本句語境不同。",
-        "proportion-mcq-14": "「與風險相稱」與本句語境不同。",
-        "proportion-mcq-09": "「正確比例」與本句語境不同。"
+        "proportion-mcq-12": "本句的「out of proportion to the mistake」指「與……不成比例」。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-12"
     },
@@ -2352,11 +2272,9 @@ export default {
       "masked": "The cost of processing the case was out of ____ to its value.",
       "options": [
         "proportion-mcq-12",
-        "proportion-mcq-11",
-        "proportion-mcq-13",
-        "proportion-mcq-10",
-        "proportion-mcq-14",
-        "proportion-mcq-09"
+        "proportion-pdf-009",
+        "proportion-mcq-33",
+        "proportion-mcq-15"
       ],
       "explanation": "本句的「proportion」指「與……不成比例」。",
       "sentenceIndex": 26,
@@ -2365,12 +2283,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-12": "本句指「與……不成比例」。",
-        "proportion-mcq-11": "「與……成比例／相稱」與本句語境不同。",
-        "proportion-mcq-13": "「相稱的；合乎比例的」與本句語境不同。",
-        "proportion-mcq-10": "「相對比例」與本句語境不同。",
-        "proportion-mcq-14": "「與風險相稱」與本句語境不同。",
-        "proportion-mcq-09": "「正確比例」與本句語境不同。"
+        "proportion-mcq-12": "本句的「proportion」指「與……不成比例」。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-12"
     },
@@ -2382,11 +2298,9 @@ export default {
       "masked": "The reaction was completely ____.",
       "options": [
         "proportion-mcq-12",
-        "proportion-mcq-11",
-        "proportion-mcq-13",
-        "proportion-mcq-10",
-        "proportion-mcq-14",
-        "proportion-mcq-09"
+        "proportion-reviewed-a03535d577",
+        "proportion-mcq-51",
+        "proportion-mcq-47"
       ],
       "explanation": "本句的「out of proportion」指「與……不成比例」。",
       "sentenceIndex": 27,
@@ -2395,12 +2309,10 @@ export default {
         "out of proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-12": "本句指「與……不成比例」。",
-        "proportion-mcq-11": "「與……成比例／相稱」與本句語境不同。",
-        "proportion-mcq-13": "「相稱的；合乎比例的」與本句語境不同。",
-        "proportion-mcq-10": "「相對比例」與本句語境不同。",
-        "proportion-mcq-14": "「與風險相稱」與本句語境不同。",
-        "proportion-mcq-09": "「正確比例」與本句語境不同。"
+        "proportion-mcq-12": "本句的「out of proportion」指「與……不成比例」。",
+        "proportion-reviewed-a03535d577": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-12"
     },
@@ -2412,11 +2324,9 @@ export default {
       "masked": "The restrictions were out of ____ to the actual risk.",
       "options": [
         "proportion-mcq-12",
-        "proportion-mcq-11",
-        "proportion-mcq-13",
-        "proportion-mcq-10",
-        "proportion-mcq-14",
-        "proportion-mcq-09"
+        "proportion-mcq-15",
+        "proportion-pdf-006",
+        "proportion-mcq-44"
       ],
       "explanation": "本句的「proportion」指「與……不成比例」。",
       "sentenceIndex": 28,
@@ -2425,12 +2335,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-12": "本句指「與……不成比例」。",
-        "proportion-mcq-11": "「與……成比例／相稱」與本句語境不同。",
-        "proportion-mcq-13": "「相稱的；合乎比例的」與本句語境不同。",
-        "proportion-mcq-10": "「相對比例」與本句語境不同。",
-        "proportion-mcq-14": "「與風險相稱」與本句語境不同。",
-        "proportion-mcq-09": "「正確比例」與本句語境不同。"
+        "proportion-mcq-12": "本句的「proportion」指「與……不成比例」。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-12"
     },
@@ -2442,11 +2350,9 @@ export default {
       "masked": "Is our present rule ____ for online fashion?",
       "options": [
         "proportion-pdf-001",
-        "proportion-mcq-12",
-        "proportion-mcq-14",
-        "proportion-mcq-11",
-        "proportion-mcq-15",
-        "proportion-mcq-10"
+        "proportion-mcq-36",
+        "proportion-pdf-005",
+        "proportion-mcq-47"
       ],
       "explanation": "本句的「proportionate」指「程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱」。",
       "sentenceIndex": 29,
@@ -2455,12 +2361,10 @@ export default {
         "proportionate"
       ],
       "optionReasons": {
-        "proportion-pdf-001": "本句指「程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱」。",
-        "proportion-mcq-12": "「與……不成比例」與本句語境不同。",
-        "proportion-mcq-14": "「與風險相稱」與本句語境不同。",
-        "proportion-mcq-11": "「與……成比例／相稱」與本句語境不同。",
-        "proportion-mcq-15": "「適度／相稱回應」與本句語境不同。",
-        "proportion-mcq-10": "「相對比例」與本句語境不同。"
+        "proportion-pdf-001": "本句的「proportionate」指「程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱」。",
+        "proportion-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-001"
     },
@@ -2472,11 +2376,9 @@ export default {
       "masked": "The response should be ____ to the seriousness of the problem.",
       "options": [
         "proportion-pdf-001",
-        "proportion-mcq-12",
-        "proportion-mcq-14",
-        "proportion-mcq-11",
-        "proportion-mcq-15",
-        "proportion-mcq-10"
+        "proportion-mcq-09",
+        "proportion-mcq-46",
+        "proportion-pdf-009"
       ],
       "explanation": "本句的「proportionate」指「程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱」。",
       "sentenceIndex": 30,
@@ -2485,12 +2387,10 @@ export default {
         "proportionate"
       ],
       "optionReasons": {
-        "proportion-pdf-001": "本句指「程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱」。",
-        "proportion-mcq-12": "「與……不成比例」與本句語境不同。",
-        "proportion-mcq-14": "「與風險相稱」與本句語境不同。",
-        "proportion-mcq-11": "「與……成比例／相稱」與本句語境不同。",
-        "proportion-mcq-15": "「適度／相稱回應」與本句語境不同。",
-        "proportion-mcq-10": "「相對比例」與本句語境不同。"
+        "proportion-pdf-001": "本句的「proportionate」指「程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱」。",
+        "proportion-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-001"
     },
@@ -2502,11 +2402,9 @@ export default {
       "masked": "Controls should be ____ to the risk of abuse.",
       "options": [
         "proportion-pdf-001",
-        "proportion-mcq-12",
-        "proportion-mcq-14",
-        "proportion-mcq-11",
-        "proportion-mcq-15",
-        "proportion-mcq-10"
+        "proportion-mcq-06",
+        "proportion-pdf-009",
+        "proportion-mcq-47"
       ],
       "explanation": "本句的「proportionate」指「程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱」。",
       "sentenceIndex": 31,
@@ -2515,12 +2413,10 @@ export default {
         "proportionate"
       ],
       "optionReasons": {
-        "proportion-pdf-001": "本句指「程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱」。",
-        "proportion-mcq-12": "「與……不成比例」與本句語境不同。",
-        "proportion-mcq-14": "「與風險相稱」與本句語境不同。",
-        "proportion-mcq-11": "「與……成比例／相稱」與本句語境不同。",
-        "proportion-mcq-15": "「適度／相稱回應」與本句語境不同。",
-        "proportion-mcq-10": "「相對比例」與本句語境不同。"
+        "proportion-pdf-001": "本句的「proportionate」指「程度、規模或嚴格程度不超過情況合理需要，而且與相關風險／問題相稱」。",
+        "proportion-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-001"
     },
@@ -2532,11 +2428,9 @@ export default {
       "masked": "Safeguards should be ____.",
       "options": [
         "proportion-mcq-14",
-        "proportion-mcq-13",
-        "proportion-mcq-15",
-        "proportion-mcq-12",
-        "proportion-mcq-16",
-        "proportion-mcq-11"
+        "proportion-mcq-56",
+        "proportion-mcq-33",
+        "proportion-mcq-45"
       ],
       "explanation": "本句的「proportionate to the risk」指「與風險相稱」。",
       "sentenceIndex": 32,
@@ -2545,12 +2439,10 @@ export default {
         "proportionate to the risk"
       ],
       "optionReasons": {
-        "proportion-mcq-14": "本句指「與風險相稱」。",
-        "proportion-mcq-13": "「相稱的；合乎比例的」與本句語境不同。",
-        "proportion-mcq-15": "「適度／相稱回應」與本句語境不同。",
-        "proportion-mcq-12": "「與……不成比例」與本句語境不同。",
-        "proportion-mcq-16": "「相稱措施」與本句語境不同。",
-        "proportion-mcq-11": "「與……成比例／相稱」與本句語境不同。"
+        "proportion-mcq-14": "本句的「proportionate to the risk」指「與風險相稱」。",
+        "proportion-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-14"
     },
@@ -2562,11 +2454,9 @@ export default {
       "masked": "Any penalty should be ____.",
       "options": [
         "proportion-mcq-14",
-        "proportion-mcq-13",
-        "proportion-mcq-15",
-        "proportion-mcq-12",
-        "proportion-mcq-16",
-        "proportion-mcq-11"
+        "proportion-mcq-28",
+        "proportion-mcq-46",
+        "proportion-mcq-48"
       ],
       "explanation": "本句的「proportionate to the seriousness of the abuse」指「與風險相稱」。",
       "sentenceIndex": 33,
@@ -2575,12 +2465,10 @@ export default {
         "proportionate to the seriousness of the abuse"
       ],
       "optionReasons": {
-        "proportion-mcq-14": "本句指「與風險相稱」。",
-        "proportion-mcq-13": "「相稱的；合乎比例的」與本句語境不同。",
-        "proportion-mcq-15": "「適度／相稱回應」與本句語境不同。",
-        "proportion-mcq-12": "「與……不成比例」與本句語境不同。",
-        "proportion-mcq-16": "「相稱措施」與本句語境不同。",
-        "proportion-mcq-11": "「與……成比例／相稱」與本句語境不同。"
+        "proportion-mcq-14": "本句的「proportionate to the seriousness of the abuse」指「與風險相稱」。",
+        "proportion-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-14"
     },
@@ -2592,11 +2480,9 @@ export default {
       "masked": "Management should choose a ____ response.",
       "options": [
         "proportion-mcq-14",
-        "proportion-mcq-13",
-        "proportion-mcq-15",
-        "proportion-mcq-12",
-        "proportion-mcq-16",
-        "proportion-mcq-11"
+        "proportion-mcq-37",
+        "proportion-mcq-46",
+        "proportion-mcq-43"
       ],
       "explanation": "本句的「proportionate」指「與風險相稱」。",
       "sentenceIndex": 34,
@@ -2605,12 +2491,10 @@ export default {
         "proportionate"
       ],
       "optionReasons": {
-        "proportion-mcq-14": "本句指「與風險相稱」。",
-        "proportion-mcq-13": "「相稱的；合乎比例的」與本句語境不同。",
-        "proportion-mcq-15": "「適度／相稱回應」與本句語境不同。",
-        "proportion-mcq-12": "「與……不成比例」與本句語境不同。",
-        "proportion-mcq-16": "「相稱措施」與本句語境不同。",
-        "proportion-mcq-11": "「與……成比例／相稱」與本句語境不同。"
+        "proportion-mcq-14": "本句的「proportionate」指「與風險相稱」。",
+        "proportion-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-14"
     },
@@ -2622,11 +2506,9 @@ export default {
       "masked": "A warning may be a ____ to a first minor breach.",
       "options": [
         "proportion-mcq-15",
-        "proportion-mcq-14",
-        "proportion-mcq-16",
-        "proportion-mcq-13",
-        "proportion-mcq-17",
-        "proportion-mcq-12"
+        "proportion-mcq-39",
+        "proportion-mcq-46",
+        "proportion-pdf-009"
       ],
       "explanation": "本句的「proportionate response」指「適度／相稱回應」。",
       "sentenceIndex": 35,
@@ -2635,12 +2517,10 @@ export default {
         "proportionate response"
       ],
       "optionReasons": {
-        "proportion-mcq-15": "本句指「適度／相稱回應」。",
-        "proportion-mcq-14": "「與風險相稱」與本句語境不同。",
-        "proportion-mcq-16": "「相稱措施」與本句語境不同。",
-        "proportion-mcq-13": "「相稱的；合乎比例的」與本句語境不同。",
-        "proportion-mcq-17": "「相稱處罰」與本句語境不同。",
-        "proportion-mcq-12": "「與……不成比例」與本句語境不同。"
+        "proportion-mcq-15": "本句的「proportionate response」指「適度／相稱回應」。",
+        "proportion-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-15"
     },
@@ -2652,11 +2532,9 @@ export default {
       "masked": "Permanent exclusion might not be ____ in every case.",
       "options": [
         "proportion-mcq-15",
-        "proportion-mcq-14",
-        "proportion-mcq-16",
-        "proportion-mcq-13",
-        "proportion-mcq-17",
-        "proportion-mcq-12"
+        "proportion-mcq-24",
+        "proportion-mcq-33",
+        "proportion-mcq-44"
       ],
       "explanation": "本句的「proportionate」指「適度／相稱回應」。",
       "sentenceIndex": 36,
@@ -2665,12 +2543,10 @@ export default {
         "proportionate"
       ],
       "optionReasons": {
-        "proportion-mcq-15": "本句指「適度／相稱回應」。",
-        "proportion-mcq-14": "「與風險相稱」與本句語境不同。",
-        "proportion-mcq-16": "「相稱措施」與本句語境不同。",
-        "proportion-mcq-13": "「相稱的；合乎比例的」與本句語境不同。",
-        "proportion-mcq-17": "「相稱處罰」與本句語境不同。",
-        "proportion-mcq-12": "「與……不成比例」與本句語境不同。"
+        "proportion-mcq-15": "本句的「proportionate」指「適度／相稱回應」。",
+        "proportion-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-15"
     },
@@ -2682,11 +2558,9 @@ export default {
       "masked": "Inspection is a ____ for higher-risk returns.",
       "options": [
         "proportion-mcq-16",
-        "proportion-mcq-15",
-        "proportion-mcq-17",
-        "proportion-mcq-14",
-        "proportion-mcq-18",
-        "proportion-mcq-13"
+        "proportion-mcq-48",
+        "proportion-mcq-07",
+        "proportion-mcq-47"
       ],
       "explanation": "本句的「proportionate measure」指「相稱措施」。",
       "sentenceIndex": 37,
@@ -2695,12 +2569,10 @@ export default {
         "proportionate measure"
       ],
       "optionReasons": {
-        "proportion-mcq-16": "本句指「相稱措施」。",
-        "proportion-mcq-15": "「適度／相稱回應」與本句語境不同。",
-        "proportion-mcq-17": "「相稱處罰」與本句語境不同。",
-        "proportion-mcq-14": "「與風險相稱」與本句語境不同。",
-        "proportion-mcq-18": "「相稱地；按比例地」與本句語境不同。",
-        "proportion-mcq-13": "「相稱的；合乎比例的」與本句語境不同。"
+        "proportion-mcq-16": "本句的「proportionate measure」指「相稱措施」。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-16"
     },
@@ -2712,11 +2584,9 @@ export default {
       "masked": "Measures should remain necessary and ____.",
       "options": [
         "proportion-mcq-16",
-        "proportion-mcq-15",
-        "proportion-mcq-17",
-        "proportion-mcq-14",
-        "proportion-mcq-18",
-        "proportion-mcq-13"
+        "proportion-mcq-40",
+        "proportion-mcq-44",
+        "proportion-pdf-004"
       ],
       "explanation": "本句的「proportionate」指「相稱措施」。",
       "sentenceIndex": 38,
@@ -2725,12 +2595,10 @@ export default {
         "proportionate"
       ],
       "optionReasons": {
-        "proportion-mcq-16": "本句指「相稱措施」。",
-        "proportion-mcq-15": "「適度／相稱回應」與本句語境不同。",
-        "proportion-mcq-17": "「相稱處罰」與本句語境不同。",
-        "proportion-mcq-14": "「與風險相稱」與本句語境不同。",
-        "proportion-mcq-18": "「相稱地；按比例地」與本句語境不同。",
-        "proportion-mcq-13": "「相稱的；合乎比例的」與本句語境不同。"
+        "proportion-mcq-16": "本句的「proportionate」指「相稱措施」。",
+        "proportion-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-16"
     },
@@ -2742,11 +2610,9 @@ export default {
       "masked": "Penalties should be ____.",
       "options": [
         "proportion-mcq-17",
-        "proportion-mcq-16",
-        "proportion-mcq-18",
-        "proportion-mcq-15",
-        "proportion-mcq-19",
-        "proportion-mcq-14"
+        "proportion-mcq-04",
+        "proportion-pdf-009",
+        "proportion-mcq-47"
       ],
       "explanation": "本句的「proportionate」指「相稱處罰」。",
       "sentenceIndex": 39,
@@ -2755,12 +2621,10 @@ export default {
         "proportionate"
       ],
       "optionReasons": {
-        "proportion-mcq-17": "本句指「相稱處罰」。",
-        "proportion-mcq-16": "「相稱措施」與本句語境不同。",
-        "proportion-mcq-18": "「相稱地；按比例地」與本句語境不同。",
-        "proportion-mcq-15": "「適度／相稱回應」與本句語境不同。",
-        "proportion-mcq-19": "「成比例的」與本句語境不同。",
-        "proportion-mcq-14": "「與風險相稱」與本句語境不同。"
+        "proportion-mcq-17": "本句的「proportionate」指「相稱處罰」。",
+        "proportion-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-17"
     },
@@ -2772,11 +2636,9 @@ export default {
       "masked": "The penalty was not ____ to the violation.",
       "options": [
         "proportion-mcq-17",
-        "proportion-mcq-16",
-        "proportion-mcq-18",
-        "proportion-mcq-15",
-        "proportion-mcq-19",
-        "proportion-mcq-14"
+        "proportion-mcq-32",
+        "proportion-mcq-43",
+        "proportion-mcq-51"
       ],
       "explanation": "本句的「proportionate」指「相稱處罰」。",
       "sentenceIndex": 40,
@@ -2785,12 +2647,10 @@ export default {
         "proportionate"
       ],
       "optionReasons": {
-        "proportion-mcq-17": "本句指「相稱處罰」。",
-        "proportion-mcq-16": "「相稱措施」與本句語境不同。",
-        "proportion-mcq-18": "「相稱地；按比例地」與本句語境不同。",
-        "proportion-mcq-15": "「適度／相稱回應」與本句語境不同。",
-        "proportion-mcq-19": "「成比例的」與本句語境不同。",
-        "proportion-mcq-14": "「與風險相稱」與本句語境不同。"
+        "proportion-mcq-17": "本句的「proportionate」指「相稱處罰」。",
+        "proportion-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-17"
     },
@@ -2802,11 +2662,9 @@ export default {
       "masked": "Processing cost may be roughly ____.",
       "options": [
         "proportion-pdf-002",
-        "proportion-mcq-19",
-        "proportion-mcq-21",
-        "proportion-mcq-18",
-        "proportion-mcq-22",
-        "proportion-mcq-17"
+        "proportion-mcq-16",
+        "proportion-mcq-48",
+        "proportion-pdf-009"
       ],
       "explanation": "本句的「proportional to the number of returns」指「X 改變時，另一數量按相應比例改變」。",
       "sentenceIndex": 41,
@@ -2815,12 +2673,10 @@ export default {
         "proportional to the number of returns"
       ],
       "optionReasons": {
-        "proportion-pdf-002": "本句指「X 改變時，另一數量按相應比例改變」。",
-        "proportion-mcq-19": "「成比例的」與本句語境不同。",
-        "proportion-mcq-21": "「成正比」與本句語境不同。",
-        "proportion-mcq-18": "「相稱地；按比例地」與本句語境不同。",
-        "proportion-mcq-22": "「成反比」與本句語境不同。",
-        "proportion-mcq-17": "「相稱處罰」與本句語境不同。"
+        "proportion-pdf-002": "本句的「proportional to the number of returns」指「X 改變時，另一數量按相應比例改變」。",
+        "proportion-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-002"
     },
@@ -2832,11 +2688,9 @@ export default {
       "masked": "The fee is ____ to the value of the order.",
       "options": [
         "proportion-pdf-002",
-        "proportion-mcq-19",
-        "proportion-mcq-21",
-        "proportion-mcq-18",
-        "proportion-mcq-22",
-        "proportion-mcq-17"
+        "proportion-reviewed-a03535d577",
+        "proportion-pdf-009",
+        "proportion-mcq-47"
       ],
       "explanation": "本句的「proportional」指「X 改變時，另一數量按相應比例改變」。",
       "sentenceIndex": 42,
@@ -2845,12 +2699,10 @@ export default {
         "proportional"
       ],
       "optionReasons": {
-        "proportion-pdf-002": "本句指「X 改變時，另一數量按相應比例改變」。",
-        "proportion-mcq-19": "「成比例的」與本句語境不同。",
-        "proportion-mcq-21": "「成正比」與本句語境不同。",
-        "proportion-mcq-18": "「相稱地；按比例地」與本句語境不同。",
-        "proportion-mcq-22": "「成反比」與本句語境不同。",
-        "proportion-mcq-17": "「相稱處罰」與本句語境不同。"
+        "proportion-pdf-002": "本句的「proportional」指「X 改變時，另一數量按相應比例改變」。",
+        "proportion-reviewed-a03535d577": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-002"
     },
@@ -2862,11 +2714,9 @@ export default {
       "masked": "If two quantities increase in the same constant ratio, they are ____.",
       "options": [
         "proportion-mcq-21",
-        "proportion-mcq-20",
-        "proportion-mcq-22",
-        "proportion-mcq-19",
-        "proportion-mcq-23",
-        "proportion-mcq-18"
+        "proportion-mcq-47",
+        "proportion-pdf-009",
+        "proportion-pdf-001"
       ],
       "explanation": "本句的「directly proportional」指「成正比」。",
       "sentenceIndex": 43,
@@ -2875,12 +2725,10 @@ export default {
         "directly proportional"
       ],
       "optionReasons": {
-        "proportion-mcq-21": "本句指「成正比」。",
-        "proportion-mcq-20": "「與……成比例」與本句語境不同。",
-        "proportion-mcq-22": "「成反比」與本句語境不同。",
-        "proportion-mcq-19": "「成比例的」與本句語境不同。",
-        "proportion-mcq-23": "「按比例增加」與本句語境不同。",
-        "proportion-mcq-18": "「相稱地；按比例地」與本句語境不同。"
+        "proportion-mcq-21": "本句的「directly proportional」指「成正比」。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-21"
     },
@@ -2892,11 +2740,9 @@ export default {
       "masked": "Cost is not necessarily directly ____ to sales volume.",
       "options": [
         "proportion-mcq-21",
-        "proportion-mcq-20",
-        "proportion-mcq-22",
-        "proportion-mcq-19",
-        "proportion-mcq-23",
-        "proportion-mcq-18"
+        "proportion-mcq-15",
+        "proportion-mcq-33",
+        "proportion-mcq-43"
       ],
       "explanation": "本句的「proportional」指「成正比」。",
       "sentenceIndex": 44,
@@ -2905,12 +2751,10 @@ export default {
         "proportional"
       ],
       "optionReasons": {
-        "proportion-mcq-21": "本句指「成正比」。",
-        "proportion-mcq-20": "「與……成比例」與本句語境不同。",
-        "proportion-mcq-22": "「成反比」與本句語境不同。",
-        "proportion-mcq-19": "「成比例的」與本句語境不同。",
-        "proportion-mcq-23": "「按比例增加」與本句語境不同。",
-        "proportion-mcq-18": "「相稱地；按比例地」與本句語境不同。"
+        "proportion-mcq-21": "本句的「proportional」指「成正比」。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-21"
     },
@@ -2922,11 +2766,9 @@ export default {
       "masked": "The variables are inversely ____.",
       "options": [
         "proportion-mcq-22",
-        "proportion-mcq-21",
-        "proportion-mcq-23",
-        "proportion-mcq-20",
-        "proportion-mcq-24",
-        "proportion-mcq-19"
+        "proportion-mcq-33",
+        "proportion-mcq-51",
+        "proportion-mcq-46"
       ],
       "explanation": "本句的「proportional」指「成反比」。",
       "sentenceIndex": 45,
@@ -2935,12 +2777,10 @@ export default {
         "proportional"
       ],
       "optionReasons": {
-        "proportion-mcq-22": "本句指「成反比」。",
-        "proportion-mcq-21": "「成正比」與本句語境不同。",
-        "proportion-mcq-23": "「按比例增加」與本句語境不同。",
-        "proportion-mcq-20": "「與……成比例」與本句語境不同。",
-        "proportion-mcq-24": "「比例份額」與本句語境不同。",
-        "proportion-mcq-19": "「成比例的」與本句語境不同。"
+        "proportion-mcq-22": "本句的「proportional」指「成反比」。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-22"
     },
@@ -2952,11 +2792,9 @@ export default {
       "masked": "Costs showed a ____.",
       "options": [
         "proportion-mcq-23",
-        "proportion-mcq-22",
-        "proportion-mcq-24",
-        "proportion-mcq-21",
-        "proportion-mcq-25",
-        "proportion-mcq-20"
+        "proportion-mcq-45",
+        "proportion-mcq-31",
+        "proportion-mcq-46"
       ],
       "explanation": "本句的「proportional increase」指「按比例增加」。",
       "sentenceIndex": 46,
@@ -2965,12 +2803,10 @@ export default {
         "proportional increase"
       ],
       "optionReasons": {
-        "proportion-mcq-23": "本句指「按比例增加」。",
-        "proportion-mcq-22": "「成反比」與本句語境不同。",
-        "proportion-mcq-24": "「比例份額」與本句語境不同。",
-        "proportion-mcq-21": "「成正比」與本句語境不同。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。",
-        "proportion-mcq-20": "「與……成比例」與本句語境不同。"
+        "proportion-mcq-23": "本句的「proportional increase」指「按比例增加」。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-23"
     },
@@ -2982,11 +2818,9 @@ export default {
       "masked": "Higher order volume did not produce a ____ increase in complaints.",
       "options": [
         "proportion-mcq-23",
-        "proportion-mcq-22",
-        "proportion-mcq-24",
-        "proportion-mcq-21",
-        "proportion-mcq-25",
-        "proportion-mcq-20"
+        "proportion-pdf-001",
+        "proportion-mcq-46",
+        "proportion-mcq-33"
       ],
       "explanation": "本句的「proportional」指「按比例增加」。",
       "sentenceIndex": 47,
@@ -2995,12 +2829,10 @@ export default {
         "proportional"
       ],
       "optionReasons": {
-        "proportion-mcq-23": "本句指「按比例增加」。",
-        "proportion-mcq-22": "「成反比」與本句語境不同。",
-        "proportion-mcq-24": "「比例份額」與本句語境不同。",
-        "proportion-mcq-21": "「成正比」與本句語境不同。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。",
-        "proportion-mcq-20": "「與……成比例」與本句語境不同。"
+        "proportion-mcq-23": "本句的「proportional」指「按比例增加」。",
+        "proportion-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-23"
     },
@@ -3012,11 +2844,9 @@ export default {
       "masked": "The discount resulted in a ____ decrease in revenue per item.",
       "options": [
         "proportion-mcq-23",
-        "proportion-mcq-22",
-        "proportion-mcq-24",
-        "proportion-mcq-21",
-        "proportion-mcq-25",
-        "proportion-mcq-20"
+        "proportion-mcq-48",
+        "proportion-pdf-001",
+        "proportion-mcq-51"
       ],
       "explanation": "本句的「proportional」指「按比例增加」。",
       "sentenceIndex": 48,
@@ -3025,12 +2855,10 @@ export default {
         "proportional"
       ],
       "optionReasons": {
-        "proportion-mcq-23": "本句指「按比例增加」。",
-        "proportion-mcq-22": "「成反比」與本句語境不同。",
-        "proportion-mcq-24": "「比例份額」與本句語境不同。",
-        "proportion-mcq-21": "「成正比」與本句語境不同。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。",
-        "proportion-mcq-20": "「與……成比例」與本句語境不同。"
+        "proportion-mcq-23": "本句的「proportional」指「按比例增加」。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-23"
     },
@@ -3042,11 +2870,9 @@ export default {
       "masked": "Return rates did not fall in ____ to the improvement in delivery accuracy.",
       "options": [
         "proportion-mcq-23",
-        "proportion-mcq-22",
-        "proportion-mcq-24",
-        "proportion-mcq-21",
-        "proportion-mcq-25",
-        "proportion-mcq-20"
+        "proportion-mcq-33",
+        "proportion-mcq-48",
+        "proportion-mcq-16"
       ],
       "explanation": "本句的「proportion」指「按比例增加」。",
       "sentenceIndex": 49,
@@ -3055,12 +2881,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-23": "本句指「按比例增加」。",
-        "proportion-mcq-22": "「成反比」與本句語境不同。",
-        "proportion-mcq-24": "「比例份額」與本句語境不同。",
-        "proportion-mcq-21": "「成正比」與本句語境不同。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。",
-        "proportion-mcq-20": "「與……成比例」與本句語境不同。"
+        "proportion-mcq-23": "本句的「proportion」指「按比例增加」。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-23"
     },
@@ -3072,11 +2896,9 @@ export default {
       "masked": "Smaller stores were affected ____.",
       "options": [
         "proportion-mcq-23",
-        "proportion-mcq-22",
-        "proportion-mcq-24",
-        "proportion-mcq-21",
-        "proportion-mcq-25",
-        "proportion-mcq-20"
+        "proportion-mcq-46",
+        "proportion-mcq-51",
+        "proportion-pdf-005"
       ],
       "explanation": "本句的「proportionally more」指「按比例增加」。",
       "sentenceIndex": 50,
@@ -3085,12 +2907,10 @@ export default {
         "proportionally more"
       ],
       "optionReasons": {
-        "proportion-mcq-23": "本句指「按比例增加」。",
-        "proportion-mcq-22": "「成反比」與本句語境不同。",
-        "proportion-mcq-24": "「比例份額」與本句語境不同。",
-        "proportion-mcq-21": "「成正比」與本句語境不同。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。",
-        "proportion-mcq-20": "「與……成比例」與本句語境不同。"
+        "proportion-mcq-23": "本句的「proportionally more」指「按比例增加」。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-23"
     },
@@ -3102,11 +2922,9 @@ export default {
       "masked": "Costs should rise ____ with workload.",
       "options": [
         "proportion-mcq-23",
-        "proportion-mcq-22",
-        "proportion-mcq-24",
-        "proportion-mcq-21",
-        "proportion-mcq-25",
-        "proportion-mcq-20"
+        "proportion-mcq-43",
+        "proportion-mcq-17",
+        "proportion-pdf-005"
       ],
       "explanation": "本句的「proportionally」指「按比例增加」。",
       "sentenceIndex": 51,
@@ -3115,12 +2933,10 @@ export default {
         "proportionally"
       ],
       "optionReasons": {
-        "proportion-mcq-23": "本句指「按比例增加」。",
-        "proportion-mcq-22": "「成反比」與本句語境不同。",
-        "proportion-mcq-24": "「比例份額」與本句語境不同。",
-        "proportion-mcq-21": "「成正比」與本句語境不同。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。",
-        "proportion-mcq-20": "「與……成比例」與本句語境不同。"
+        "proportion-mcq-23": "本句的「proportionally」指「按比例增加」。",
+        "proportion-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-23"
     },
@@ -3132,11 +2948,9 @@ export default {
       "masked": "Each department pays a ____ of the cost.",
       "options": [
         "proportion-mcq-24",
-        "proportion-mcq-23",
-        "proportion-mcq-25",
-        "proportion-mcq-22",
-        "proportion-mcq-26",
-        "proportion-mcq-21"
+        "proportion-mcq-17",
+        "proportion-mcq-45",
+        "proportion-mcq-33"
       ],
       "explanation": "本句的「proportional share」指「比例份額」。",
       "sentenceIndex": 52,
@@ -3145,12 +2959,10 @@ export default {
         "proportional share"
       ],
       "optionReasons": {
-        "proportion-mcq-24": "本句指「比例份額」。",
-        "proportion-mcq-23": "「按比例增加」與本句語境不同。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。",
-        "proportion-mcq-22": "「成反比」與本句語境不同。",
-        "proportion-mcq-26": "「比例代表制」與本句語境不同。",
-        "proportion-mcq-21": "「成正比」與本句語境不同。"
+        "proportion-mcq-24": "本句的「proportional share」指「比例份額」。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-24"
     },
@@ -3162,11 +2974,9 @@ export default {
       "masked": "Refund costs could be allocated according to each division's ____ share of sales.",
       "options": [
         "proportion-mcq-24",
-        "proportion-mcq-23",
-        "proportion-mcq-25",
-        "proportion-mcq-22",
-        "proportion-mcq-26",
-        "proportion-mcq-21"
+        "proportion-mcq-15",
+        "proportion-mcq-51",
+        "proportion-mcq-48"
       ],
       "explanation": "本句的「proportional」指「比例份額」。",
       "sentenceIndex": 53,
@@ -3175,12 +2985,10 @@ export default {
         "proportional"
       ],
       "optionReasons": {
-        "proportion-mcq-24": "本句指「比例份額」。",
-        "proportion-mcq-23": "「按比例增加」與本句語境不同。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。",
-        "proportion-mcq-22": "「成反比」與本句語境不同。",
-        "proportion-mcq-26": "「比例代表制」與本句語境不同。",
-        "proportion-mcq-21": "「成正比」與本句語境不同。"
+        "proportion-mcq-24": "本句的「proportional」指「比例份額」。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-24"
     },
@@ -3192,11 +3000,9 @@ export default {
       "masked": "The company used ____ to divide the budget.",
       "options": [
         "proportion-mcq-25",
-        "proportion-mcq-24",
-        "proportion-mcq-26",
-        "proportion-mcq-23",
-        "proportion-mcq-27",
-        "proportion-mcq-22"
+        "proportion-mcq-47",
+        "proportion-mcq-16",
+        "proportion-mcq-31"
       ],
       "explanation": "本句的「proportional allocation」指「按比例分配」。",
       "sentenceIndex": 54,
@@ -3205,12 +3011,10 @@ export default {
         "proportional allocation"
       ],
       "optionReasons": {
-        "proportion-mcq-25": "本句指「按比例分配」。",
-        "proportion-mcq-24": "「比例份額」與本句語境不同。",
-        "proportion-mcq-26": "「比例代表制」與本句語境不同。",
-        "proportion-mcq-23": "「按比例增加」與本句語境不同。",
-        "proportion-mcq-27": "「比例關係／相稱性」與本句語境不同。",
-        "proportion-mcq-22": "「成反比」與本句語境不同。"
+        "proportion-mcq-25": "本句的「proportional allocation」指「按比例分配」。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-25"
     },
@@ -3222,11 +3026,9 @@ export default {
       "masked": "Resources were allocated ____ according to demand.",
       "options": [
         "proportion-mcq-25",
-        "proportion-mcq-24",
-        "proportion-mcq-26",
-        "proportion-mcq-23",
-        "proportion-mcq-27",
-        "proportion-mcq-22"
+        "proportion-mcq-17",
+        "proportion-mcq-43",
+        "proportion-mcq-47"
       ],
       "explanation": "本句的「proportionally」指「按比例分配」。",
       "sentenceIndex": 55,
@@ -3235,12 +3037,10 @@ export default {
         "proportionally"
       ],
       "optionReasons": {
-        "proportion-mcq-25": "本句指「按比例分配」。",
-        "proportion-mcq-24": "「比例份額」與本句語境不同。",
-        "proportion-mcq-26": "「比例代表制」與本句語境不同。",
-        "proportion-mcq-23": "「按比例增加」與本句語境不同。",
-        "proportion-mcq-27": "「比例關係／相稱性」與本句語境不同。",
-        "proportion-mcq-22": "「成反比」與本句語境不同。"
+        "proportion-mcq-25": "本句的「proportionally」指「按比例分配」。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-25"
     },
@@ -3252,11 +3052,9 @@ export default {
       "masked": "____ allocates representation broadly according to vote shares under the relevant system.",
       "options": [
         "proportion-mcq-26",
-        "proportion-mcq-25",
-        "proportion-mcq-27",
-        "proportion-mcq-24",
-        "proportion-mcq-28",
-        "proportion-mcq-23"
+        "proportion-mcq-48",
+        "proportion-mcq-33",
+        "proportion-reviewed-a03535d577"
       ],
       "explanation": "本句的「Proportional representation」指「比例代表制」。",
       "sentenceIndex": 56,
@@ -3265,12 +3063,10 @@ export default {
         "Proportional representation"
       ],
       "optionReasons": {
-        "proportion-mcq-26": "本句指「比例代表制」。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。",
-        "proportion-mcq-27": "「比例關係／相稱性」與本句語境不同。",
-        "proportion-mcq-24": "「比例份額」與本句語境不同。",
-        "proportion-mcq-28": "「比例原則」與本句語境不同。",
-        "proportion-mcq-23": "「按比例增加」與本句語境不同。"
+        "proportion-mcq-26": "本句的「Proportional representation」指「比例代表制」。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-reviewed-a03535d577": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-26"
     },
@@ -3282,11 +3078,9 @@ export default {
       "masked": "There are several different forms of ____ representation.",
       "options": [
         "proportion-mcq-26",
-        "proportion-mcq-25",
-        "proportion-mcq-27",
-        "proportion-mcq-24",
-        "proportion-mcq-28",
-        "proportion-mcq-23"
+        "proportion-mcq-16",
+        "proportion-mcq-47",
+        "proportion-mcq-48"
       ],
       "explanation": "本句的「proportional」指「比例代表制」。",
       "sentenceIndex": 57,
@@ -3295,12 +3089,10 @@ export default {
         "proportional"
       ],
       "optionReasons": {
-        "proportion-mcq-26": "本句指「比例代表制」。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。",
-        "proportion-mcq-27": "「比例關係／相稱性」與本句語境不同。",
-        "proportion-mcq-24": "「比例份額」與本句語境不同。",
-        "proportion-mcq-28": "「比例原則」與本句語境不同。",
-        "proportion-mcq-23": "「按比例增加」與本句語境不同。"
+        "proportion-mcq-26": "本句的「proportional」指「比例代表制」。",
+        "proportion-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-26"
     },
@@ -3312,11 +3104,9 @@ export default {
       "masked": "The figures show rough ____ between volume and cost.",
       "options": [
         "proportion-pdf-003",
-        "proportion-mcq-26",
-        "proportion-mcq-28",
-        "proportion-mcq-25",
-        "proportion-mcq-29",
-        "proportion-mcq-24"
+        "proportion-mcq-45",
+        "proportion-pdf-005",
+        "proportion-mcq-33"
       ],
       "explanation": "本句的「proportionality」指「兩個量成比例的關係，或某項措施與其目的／風險是否適當相稱的原則」。",
       "sentenceIndex": 58,
@@ -3325,12 +3115,10 @@ export default {
         "proportionality"
       ],
       "optionReasons": {
-        "proportion-pdf-003": "本句指「兩個量成比例的關係，或某項措施與其目的／風險是否適當相稱的原則」。",
-        "proportion-mcq-26": "「比例代表制」與本句語境不同。",
-        "proportion-mcq-28": "「比例原則」與本句語境不同。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。",
-        "proportion-mcq-29": "「比例性審查」與本句語境不同。",
-        "proportion-mcq-24": "「比例份額」與本句語境不同。"
+        "proportion-pdf-003": "本句的「proportionality」指「兩個量成比例的關係，或某項措施與其目的／風險是否適當相稱的原則」。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-003"
     },
@@ -3342,11 +3130,9 @@ export default {
       "masked": "The debate concerns the ____ of the restriction.",
       "options": [
         "proportion-pdf-003",
-        "proportion-mcq-26",
-        "proportion-mcq-28",
-        "proportion-mcq-25",
-        "proportion-mcq-29",
-        "proportion-mcq-24"
+        "proportion-pdf-005",
+        "proportion-mcq-31",
+        "proportion-mcq-44"
       ],
       "explanation": "本句的「proportionality」指「兩個量成比例的關係，或某項措施與其目的／風險是否適當相稱的原則」。",
       "sentenceIndex": 59,
@@ -3355,12 +3141,10 @@ export default {
         "proportionality"
       ],
       "optionReasons": {
-        "proportion-pdf-003": "本句指「兩個量成比例的關係，或某項措施與其目的／風險是否適當相稱的原則」。",
-        "proportion-mcq-26": "「比例代表制」與本句語境不同。",
-        "proportion-mcq-28": "「比例原則」與本句語境不同。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。",
-        "proportion-mcq-29": "「比例性審查」與本句語境不同。",
-        "proportion-mcq-24": "「比例份額」與本句語境不同。"
+        "proportion-pdf-003": "本句的「proportionality」指「兩個量成比例的關係，或某項措施與其目的／風險是否適當相稱的原則」。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-003"
     },
@@ -3372,11 +3156,9 @@ export default {
       "masked": "The ____ asks whether a measure goes further than is justified relative to its purpose.",
       "options": [
         "proportion-mcq-28",
-        "proportion-mcq-27",
-        "proportion-mcq-29",
-        "proportion-mcq-26",
-        "proportion-mcq-30",
-        "proportion-mcq-25"
+        "proportion-mcq-15",
+        "proportion-mcq-44",
+        "proportion-pdf-006"
       ],
       "explanation": "本句的「principle of proportionality」指「比例原則」。",
       "sentenceIndex": 60,
@@ -3385,12 +3167,10 @@ export default {
         "principle of proportionality"
       ],
       "optionReasons": {
-        "proportion-mcq-28": "本句指「比例原則」。",
-        "proportion-mcq-27": "「比例關係／相稱性」與本句語境不同。",
-        "proportion-mcq-29": "「比例性審查」與本句語境不同。",
-        "proportion-mcq-26": "「比例代表制」與本句語境不同。",
-        "proportion-mcq-30": "「不成比例／過度的」與本句語境不同。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。"
+        "proportion-mcq-28": "本句的「principle of proportionality」指「比例原則」。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-28"
     },
@@ -3402,11 +3182,9 @@ export default {
       "masked": "Restrictions should be necessary and ____.",
       "options": [
         "proportion-mcq-28",
-        "proportion-mcq-27",
-        "proportion-mcq-29",
-        "proportion-mcq-26",
-        "proportion-mcq-30",
-        "proportion-mcq-25"
+        "proportion-mcq-17",
+        "proportion-pdf-005",
+        "proportion-pdf-006"
       ],
       "explanation": "本句的「proportionate」指「比例原則」。",
       "sentenceIndex": 61,
@@ -3415,12 +3193,10 @@ export default {
         "proportionate"
       ],
       "optionReasons": {
-        "proportion-mcq-28": "本句指「比例原則」。",
-        "proportion-mcq-27": "「比例關係／相稱性」與本句語境不同。",
-        "proportion-mcq-29": "「比例性審查」與本句語境不同。",
-        "proportion-mcq-26": "「比例代表制」與本句語境不同。",
-        "proportion-mcq-30": "「不成比例／過度的」與本句語境不同。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。"
+        "proportion-mcq-28": "本句的「proportionate」指「比例原則」。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-28"
     },
@@ -3432,11 +3208,9 @@ export default {
       "masked": "Legal systems may use forms of ____ when reviewing restrictions.",
       "options": [
         "proportion-mcq-29",
-        "proportion-mcq-28",
-        "proportion-mcq-30",
-        "proportion-mcq-27",
-        "proportion-mcq-31",
-        "proportion-mcq-26"
+        "proportion-pdf-006",
+        "proportion-mcq-44",
+        "proportion-mcq-14"
       ],
       "explanation": "本句的「proportionality analysis」指「比例性審查」。",
       "sentenceIndex": 62,
@@ -3445,12 +3219,10 @@ export default {
         "proportionality analysis"
       ],
       "optionReasons": {
-        "proportion-mcq-29": "本句指「比例性審查」。",
-        "proportion-mcq-28": "「比例原則」與本句語境不同。",
-        "proportion-mcq-30": "「不成比例／過度的」與本句語境不同。",
-        "proportion-mcq-27": "「比例關係／相稱性」與本句語境不同。",
-        "proportion-mcq-31": "「過度回應」與本句語境不同。",
-        "proportion-mcq-26": "「比例代表制」與本句語境不同。"
+        "proportion-mcq-29": "本句的「proportionality analysis」指「比例性審查」。",
+        "proportion-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-29"
     },
@@ -3462,11 +3234,9 @@ export default {
       "masked": "A complete ban may be a ____ to limited abuse.",
       "options": [
         "proportion-pdf-004",
-        "proportion-mcq-29",
-        "proportion-mcq-31",
-        "proportion-mcq-28",
-        "proportion-mcq-32",
-        "proportion-mcq-27"
+        "proportion-mcq-51",
+        "proportion-mcq-45",
+        "proportion-reviewed-a03535d577"
       ],
       "explanation": "本句的「disproportionate response」指「相對於問題、風險或其他比較基準而言過大、過小或不合理」。",
       "sentenceIndex": 63,
@@ -3475,12 +3245,10 @@ export default {
         "disproportionate response"
       ],
       "optionReasons": {
-        "proportion-pdf-004": "本句指「相對於問題、風險或其他比較基準而言過大、過小或不合理」。",
-        "proportion-mcq-29": "「比例性審查」與本句語境不同。",
-        "proportion-mcq-31": "「過度回應」與本句語境不同。",
-        "proportion-mcq-28": "「比例原則」與本句語境不同。",
-        "proportion-mcq-32": "「不成比例的影響」與本句語境不同。",
-        "proportion-mcq-27": "「比例關係／相稱性」與本句語境不同。"
+        "proportion-pdf-004": "本句的「disproportionate response」指「相對於問題、風險或其他比較基準而言過大、過小或不合理」。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "proportion-reviewed-a03535d577": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-004"
     },
@@ -3492,11 +3260,9 @@ export default {
       "masked": "Refusing every refund could be a ____ to the risk of misuse.",
       "options": [
         "proportion-mcq-31",
-        "proportion-mcq-30",
-        "proportion-mcq-32",
-        "proportion-mcq-29",
-        "proportion-mcq-33",
-        "proportion-mcq-28"
+        "proportion-mcq-40",
+        "proportion-mcq-51",
+        "proportion-mcq-44"
       ],
       "explanation": "本句的「disproportionate response」指「過度回應」。",
       "sentenceIndex": 64,
@@ -3505,12 +3271,10 @@ export default {
         "disproportionate response"
       ],
       "optionReasons": {
-        "proportion-mcq-31": "本句指「過度回應」。",
-        "proportion-mcq-30": "「不成比例／過度的」與本句語境不同。",
-        "proportion-mcq-32": "「不成比例的影響」與本句語境不同。",
-        "proportion-mcq-29": "「比例性審查」與本句語境不同。",
-        "proportion-mcq-33": "「過重負擔」與本句語境不同。",
-        "proportion-mcq-28": "「比例原則」與本句語境不同。"
+        "proportion-mcq-31": "本句的「disproportionate response」指「過度回應」。",
+        "proportion-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-31"
     },
@@ -3522,11 +3286,9 @@ export default {
       "masked": "The policy may have a ____ on first-time customers.",
       "options": [
         "proportion-mcq-32",
-        "proportion-mcq-31",
-        "proportion-mcq-33",
-        "proportion-mcq-30",
-        "proportion-mcq-34",
-        "proportion-mcq-29"
+        "proportion-mcq-45",
+        "proportion-mcq-51",
+        "proportion-mcq-46"
       ],
       "explanation": "本句的「disproportionate impact」指「不成比例的影響」。",
       "sentenceIndex": 65,
@@ -3535,12 +3297,10 @@ export default {
         "disproportionate impact"
       ],
       "optionReasons": {
-        "proportion-mcq-32": "本句指「不成比例的影響」。",
-        "proportion-mcq-31": "「過度回應」與本句語境不同。",
-        "proportion-mcq-33": "「過重負擔」與本句語境不同。",
-        "proportion-mcq-30": "「不成比例／過度的」與本句語境不同。",
-        "proportion-mcq-34": "「不成比例成本」與本句語境不同。",
-        "proportion-mcq-29": "「比例性審查」與本句語境不同。"
+        "proportion-mcq-32": "本句的「disproportionate impact」指「不成比例的影響」。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-32"
     },
@@ -3552,11 +3312,9 @@ export default {
       "masked": "The paperwork creates a ____ for minor exchanges.",
       "options": [
         "proportion-mcq-33",
-        "proportion-mcq-32",
-        "proportion-mcq-34",
-        "proportion-mcq-31",
-        "proportion-mcq-35",
-        "proportion-mcq-30"
+        "proportion-reviewed-a03535d577",
+        "proportion-mcq-28",
+        "proportion-mcq-43"
       ],
       "explanation": "本句的「disproportionate burden」指「過重負擔」。",
       "sentenceIndex": 66,
@@ -3565,12 +3323,10 @@ export default {
         "disproportionate burden"
       ],
       "optionReasons": {
-        "proportion-mcq-33": "本句指「過重負擔」。",
-        "proportion-mcq-32": "「不成比例的影響」與本句語境不同。",
-        "proportion-mcq-34": "「不成比例成本」與本句語境不同。",
-        "proportion-mcq-31": "「過度回應」與本句語境不同。",
-        "proportion-mcq-35": "「不成比例地」與本句語境不同。",
-        "proportion-mcq-30": "「不成比例／過度的」與本句語境不同。"
+        "proportion-mcq-33": "本句的「disproportionate burden」指「過重負擔」。",
+        "proportion-reviewed-a03535d577": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-33"
     },
@@ -3582,11 +3338,9 @@ export default {
       "masked": "The rule may ____.",
       "options": [
         "proportion-mcq-35",
-        "proportion-mcq-34",
-        "proportion-mcq-36",
-        "proportion-mcq-33",
-        "proportion-mcq-37",
-        "proportion-mcq-32"
+        "proportion-mcq-15",
+        "proportion-mcq-44",
+        "proportion-mcq-47"
       ],
       "explanation": "本句的「disproportionately affect online shoppers」指「不成比例地」。",
       "sentenceIndex": 67,
@@ -3595,12 +3349,10 @@ export default {
         "disproportionately affect online shoppers"
       ],
       "optionReasons": {
-        "proportion-mcq-35": "本句指「不成比例地」。",
-        "proportion-mcq-34": "「不成比例成本」與本句語境不同。",
-        "proportion-mcq-36": "「高得不成比例」與本句語境不同。",
-        "proportion-mcq-33": "「過重負擔」與本句語境不同。",
-        "proportion-mcq-37": "「各部分比例」與本句語境不同。",
-        "proportion-mcq-32": "「不成比例的影響」與本句語境不同。"
+        "proportion-mcq-35": "本句的「disproportionately affect online shoppers」指「不成比例地」。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-35"
     },
@@ -3612,11 +3364,9 @@ export default {
       "masked": "Return rates are ____ for one size.",
       "options": [
         "proportion-mcq-36",
-        "proportion-mcq-35",
-        "proportion-mcq-37",
-        "proportion-mcq-34",
-        "proportion-mcq-38",
-        "proportion-mcq-33"
+        "proportion-mcq-51",
+        "proportion-mcq-33",
+        "proportion-mcq-16"
       ],
       "explanation": "本句的「disproportionately high」指「高得不成比例」。",
       "sentenceIndex": 68,
@@ -3625,12 +3375,10 @@ export default {
         "disproportionately high"
       ],
       "optionReasons": {
-        "proportion-mcq-36": "本句指「高得不成比例」。",
-        "proportion-mcq-35": "「不成比例地」與本句語境不同。",
-        "proportion-mcq-37": "「各部分比例」與本句語境不同。",
-        "proportion-mcq-34": "「不成比例成本」與本句語境不同。",
-        "proportion-mcq-38": "「身體比例」與本句語境不同。",
-        "proportion-mcq-33": "「過重負擔」與本句語境不同。"
+        "proportion-mcq-36": "本句的「disproportionately high」指「高得不成比例」。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-36"
     },
@@ -3642,11 +3390,9 @@ export default {
       "masked": "The dress was designed for different body ____.",
       "options": [
         "proportion-mcq-37",
-        "proportion-mcq-36",
-        "proportion-mcq-38",
-        "proportion-mcq-35",
-        "proportion-mcq-39",
-        "proportion-mcq-34"
+        "proportion-pdf-001",
+        "proportion-mcq-33",
+        "proportion-mcq-48"
       ],
       "explanation": "本句的「proportions」指「各部分比例」。",
       "sentenceIndex": 69,
@@ -3655,12 +3401,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-37": "本句指「各部分比例」。",
-        "proportion-mcq-36": "「高得不成比例」與本句語境不同。",
-        "proportion-mcq-38": "「身體比例」與本句語境不同。",
-        "proportion-mcq-35": "「不成比例地」與本句語境不同。",
-        "proportion-mcq-39": "「人體比例」與本句語境不同。",
-        "proportion-mcq-34": "「不成比例成本」與本句語境不同。"
+        "proportion-mcq-37": "本句的「proportions」指「各部分比例」。",
+        "proportion-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-37"
     },
@@ -3672,11 +3416,9 @@ export default {
       "masked": "The building has elegant ____.",
       "options": [
         "proportion-mcq-37",
-        "proportion-mcq-36",
-        "proportion-mcq-38",
-        "proportion-mcq-35",
-        "proportion-mcq-39",
-        "proportion-mcq-34"
+        "proportion-pdf-006",
+        "proportion-mcq-51",
+        "proportion-mcq-17"
       ],
       "explanation": "本句的「proportions」指「各部分比例」。",
       "sentenceIndex": 70,
@@ -3685,12 +3427,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-37": "本句指「各部分比例」。",
-        "proportion-mcq-36": "「高得不成比例」與本句語境不同。",
-        "proportion-mcq-38": "「身體比例」與本句語境不同。",
-        "proportion-mcq-35": "「不成比例地」與本句語境不同。",
-        "proportion-mcq-39": "「人體比例」與本句語境不同。",
-        "proportion-mcq-34": "「不成比例成本」與本句語境不同。"
+        "proportion-mcq-37": "本句的「proportions」指「各部分比例」。",
+        "proportion-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-37"
     },
@@ -3702,11 +3442,9 @@ export default {
       "masked": "Two people with the same height may have different ____.",
       "options": [
         "proportion-mcq-38",
-        "proportion-mcq-37",
-        "proportion-mcq-39",
-        "proportion-mcq-36",
-        "proportion-mcq-40",
-        "proportion-mcq-35"
+        "proportion-pdf-009",
+        "proportion-mcq-31",
+        "proportion-mcq-33"
       ],
       "explanation": "本句的「body proportions」指「身體比例」。",
       "sentenceIndex": 71,
@@ -3715,12 +3453,10 @@ export default {
         "body proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-38": "本句指「身體比例」。",
-        "proportion-mcq-37": "「各部分比例」與本句語境不同。",
-        "proportion-mcq-39": "「人體比例」與本句語境不同。",
-        "proportion-mcq-36": "「高得不成比例」與本句語境不同。",
-        "proportion-mcq-40": "「建築比例」與本句語境不同。",
-        "proportion-mcq-35": "「不成比例地」與本句語境不同。"
+        "proportion-mcq-38": "本句的「body proportions」指「身體比例」。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-38"
     },
@@ -3732,11 +3468,9 @@ export default {
       "masked": "Standard size charts cannot perfectly reflect every body ____.",
       "options": [
         "proportion-mcq-38",
-        "proportion-mcq-37",
-        "proportion-mcq-39",
-        "proportion-mcq-36",
-        "proportion-mcq-40",
-        "proportion-mcq-35"
+        "proportion-mcq-16",
+        "proportion-mcq-46",
+        "proportion-mcq-43"
       ],
       "explanation": "本句的「proportion」指「身體比例」。",
       "sentenceIndex": 72,
@@ -3745,12 +3479,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-38": "本句指「身體比例」。",
-        "proportion-mcq-37": "「各部分比例」與本句語境不同。",
-        "proportion-mcq-39": "「人體比例」與本句語境不同。",
-        "proportion-mcq-36": "「高得不成比例」與本句語境不同。",
-        "proportion-mcq-40": "「建築比例」與本句語境不同。",
-        "proportion-mcq-35": "「不成比例地」與本句語境不同。"
+        "proportion-mcq-38": "本句的「proportion」指「身體比例」。",
+        "proportion-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-38"
     },
@@ -3762,11 +3494,9 @@ export default {
       "masked": "The artist studied ____.",
       "options": [
         "proportion-mcq-39",
-        "proportion-mcq-38",
-        "proportion-mcq-40",
-        "proportion-mcq-37",
-        "proportion-mcq-41",
-        "proportion-mcq-36"
+        "proportion-mcq-45",
+        "proportion-pdf-009",
+        "proportion-mcq-15"
       ],
       "explanation": "本句的「human proportions」指「人體比例」。",
       "sentenceIndex": 73,
@@ -3775,12 +3505,10 @@ export default {
         "human proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-39": "本句指「人體比例」。",
-        "proportion-mcq-38": "「身體比例」與本句語境不同。",
-        "proportion-mcq-40": "「建築比例」與本句語境不同。",
-        "proportion-mcq-37": "「各部分比例」與本句語境不同。",
-        "proportion-mcq-41": "「比例勻稱的」與本句語境不同。",
-        "proportion-mcq-36": "「高得不成比例」與本句語境不同。"
+        "proportion-mcq-39": "本句的「human proportions」指「人體比例」。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-39"
     },
@@ -3792,11 +3520,9 @@ export default {
       "masked": "Fashion design often takes body ____ into account.",
       "options": [
         "proportion-mcq-39",
-        "proportion-mcq-38",
-        "proportion-mcq-40",
-        "proportion-mcq-37",
-        "proportion-mcq-41",
-        "proportion-mcq-36"
+        "proportion-mcq-33",
+        "proportion-mcq-14",
+        "proportion-pdf-006"
       ],
       "explanation": "本句的「proportions」指「人體比例」。",
       "sentenceIndex": 74,
@@ -3805,12 +3531,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-39": "本句指「人體比例」。",
-        "proportion-mcq-38": "「身體比例」與本句語境不同。",
-        "proportion-mcq-40": "「建築比例」與本句語境不同。",
-        "proportion-mcq-37": "「各部分比例」與本句語境不同。",
-        "proportion-mcq-41": "「比例勻稱的」與本句語境不同。",
-        "proportion-mcq-36": "「高得不成比例」與本句語境不同。"
+        "proportion-mcq-39": "本句的「proportions」指「人體比例」。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-39"
     },
@@ -3822,11 +3546,9 @@ export default {
       "masked": "The room has pleasing ____.",
       "options": [
         "proportion-mcq-40",
-        "proportion-mcq-39",
-        "proportion-mcq-41",
-        "proportion-mcq-38",
-        "proportion-mcq-42",
-        "proportion-mcq-37"
+        "proportion-reviewed-a03535d577",
+        "proportion-pdf-005",
+        "proportion-mcq-44"
       ],
       "explanation": "本句的「proportions」指「建築比例」。",
       "sentenceIndex": 75,
@@ -3835,12 +3557,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-40": "本句指「建築比例」。",
-        "proportion-mcq-39": "「人體比例」與本句語境不同。",
-        "proportion-mcq-41": "「比例勻稱的」與本句語境不同。",
-        "proportion-mcq-38": "「身體比例」與本句語境不同。",
-        "proportion-mcq-42": "「比例失調的」與本句語境不同。",
-        "proportion-mcq-37": "「各部分比例」與本句語境不同。"
+        "proportion-mcq-40": "本句的「proportions」指「建築比例」。",
+        "proportion-reviewed-a03535d577": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-40"
     },
@@ -3852,11 +3572,9 @@ export default {
       "masked": "Large windows changed the visual ____ of the building.",
       "options": [
         "proportion-mcq-40",
-        "proportion-mcq-39",
-        "proportion-mcq-41",
-        "proportion-mcq-38",
-        "proportion-mcq-42",
-        "proportion-mcq-37"
+        "proportion-mcq-31",
+        "proportion-mcq-51",
+        "proportion-mcq-44"
       ],
       "explanation": "本句的「proportions」指「建築比例」。",
       "sentenceIndex": 76,
@@ -3865,12 +3583,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-40": "本句指「建築比例」。",
-        "proportion-mcq-39": "「人體比例」與本句語境不同。",
-        "proportion-mcq-41": "「比例勻稱的」與本句語境不同。",
-        "proportion-mcq-38": "「身體比例」與本句語境不同。",
-        "proportion-mcq-42": "「比例失調的」與本句語境不同。",
-        "proportion-mcq-37": "「各部分比例」與本句語境不同。"
+        "proportion-mcq-40": "本句的「proportions」指「建築比例」。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-40"
     },
@@ -3882,11 +3598,9 @@ export default {
       "masked": "The room is ____.",
       "options": [
         "proportion-pdf-005",
-        "proportion-mcq-40",
-        "proportion-mcq-42",
-        "proportion-mcq-39",
-        "proportion-mcq-43",
-        "proportion-mcq-38"
+        "proportion-mcq-52",
+        "proportion-mcq-51",
+        "proportion-mcq-16"
       ],
       "explanation": "本句的「well-proportioned」指「不同部分的大小互相協調，看起來均衡」。",
       "sentenceIndex": 77,
@@ -3895,12 +3609,10 @@ export default {
         "well-proportioned"
       ],
       "optionReasons": {
-        "proportion-pdf-005": "本句指「不同部分的大小互相協調，看起來均衡」。",
-        "proportion-mcq-40": "「建築比例」與本句語境不同。",
-        "proportion-mcq-42": "「比例失調的」與本句語境不同。",
-        "proportion-mcq-39": "「人體比例」與本句語境不同。",
-        "proportion-mcq-43": "「規模；程度」與本句語境不同。",
-        "proportion-mcq-38": "「身體比例」與本句語境不同。"
+        "proportion-pdf-005": "本句的「well-proportioned」指「不同部分的大小互相協調，看起來均衡」。",
+        "proportion-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-005"
     },
@@ -3912,11 +3624,9 @@ export default {
       "masked": "The design creates a well-____ silhouette.",
       "options": [
         "proportion-pdf-005",
-        "proportion-mcq-40",
-        "proportion-mcq-42",
-        "proportion-mcq-39",
-        "proportion-mcq-43",
-        "proportion-mcq-38"
+        "proportion-reviewed-dec0bd8041",
+        "proportion-mcq-38",
+        "proportion-mcq-16"
       ],
       "explanation": "本句的「proportioned」指「不同部分的大小互相協調，看起來均衡」。",
       "sentenceIndex": 78,
@@ -3925,12 +3635,10 @@ export default {
         "proportioned"
       ],
       "optionReasons": {
-        "proportion-pdf-005": "本句指「不同部分的大小互相協調，看起來均衡」。",
-        "proportion-mcq-40": "「建築比例」與本句語境不同。",
-        "proportion-mcq-42": "「比例失調的」與本句語境不同。",
-        "proportion-mcq-39": "「人體比例」與本句語境不同。",
-        "proportion-mcq-43": "「規模；程度」與本句語境不同。",
-        "proportion-mcq-38": "「身體比例」與本句語境不同。"
+        "proportion-pdf-005": "本句的「proportioned」指「不同部分的大小互相協調，看起來均衡」。",
+        "proportion-reviewed-dec0bd8041": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-005"
     },
@@ -3942,11 +3650,9 @@ export default {
       "masked": "The garment was designed to create a ____.",
       "options": [
         "proportion-mcq-41",
-        "proportion-mcq-40",
-        "proportion-mcq-42",
-        "proportion-mcq-39",
-        "proportion-mcq-43",
-        "proportion-mcq-38"
+        "proportion-mcq-51",
+        "proportion-mcq-33",
+        "proportion-pdf-006"
       ],
       "explanation": "本句的「well-proportioned silhouette」指「比例勻稱的」。",
       "sentenceIndex": 79,
@@ -3955,12 +3661,10 @@ export default {
         "well-proportioned silhouette"
       ],
       "optionReasons": {
-        "proportion-mcq-41": "本句指「比例勻稱的」。",
-        "proportion-mcq-40": "「建築比例」與本句語境不同。",
-        "proportion-mcq-42": "「比例失調的」與本句語境不同。",
-        "proportion-mcq-39": "「人體比例」與本句語境不同。",
-        "proportion-mcq-43": "「規模；程度」與本句語境不同。",
-        "proportion-mcq-38": "「身體比例」與本句語境不同。"
+        "proportion-mcq-41": "本句的「well-proportioned silhouette」指「比例勻稱的」。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-41"
     },
@@ -3972,11 +3676,9 @@ export default {
       "masked": "Well-____” describes relative dimensions rather than an absolute body size.",
       "options": [
         "proportion-mcq-41",
-        "proportion-mcq-40",
-        "proportion-mcq-42",
-        "proportion-mcq-39",
-        "proportion-mcq-43",
-        "proportion-mcq-38"
+        "proportion-mcq-51",
+        "proportion-mcq-31",
+        "proportion-mcq-33"
       ],
       "explanation": "本句的「proportioned」指「比例勻稱的」。",
       "sentenceIndex": 80,
@@ -3985,12 +3687,10 @@ export default {
         "proportioned"
       ],
       "optionReasons": {
-        "proportion-mcq-41": "本句指「比例勻稱的」。",
-        "proportion-mcq-40": "「建築比例」與本句語境不同。",
-        "proportion-mcq-42": "「比例失調的」與本句語境不同。",
-        "proportion-mcq-39": "「人體比例」與本句語境不同。",
-        "proportion-mcq-43": "「規模；程度」與本句語境不同。",
-        "proportion-mcq-38": "「身體比例」與本句語境不同。"
+        "proportion-mcq-41": "本句的「proportioned」指「比例勻稱的」。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-41"
     },
@@ -4002,11 +3702,9 @@ export default {
       "masked": "The extension made the building look ____.",
       "options": [
         "proportion-mcq-42",
-        "proportion-mcq-41",
-        "proportion-mcq-43",
-        "proportion-mcq-40",
-        "proportion-mcq-44",
-        "proportion-mcq-39"
+        "proportion-mcq-14",
+        "proportion-mcq-33",
+        "proportion-mcq-47"
       ],
       "explanation": "本句的「ill-proportioned」指「比例失調的」。",
       "sentenceIndex": 81,
@@ -4015,12 +3713,10 @@ export default {
         "ill-proportioned"
       ],
       "optionReasons": {
-        "proportion-mcq-42": "本句指「比例失調的」。",
-        "proportion-mcq-41": "「比例勻稱的」與本句語境不同。",
-        "proportion-mcq-43": "「規模；程度」與本句語境不同。",
-        "proportion-mcq-40": "「建築比例」與本句語境不同。",
-        "proportion-mcq-44": "「巨大規模」與本句語境不同。",
-        "proportion-mcq-39": "「人體比例」與本句語境不同。"
+        "proportion-mcq-42": "本句的「ill-proportioned」指「比例失調的」。",
+        "proportion-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-42"
     },
@@ -4032,11 +3728,9 @@ export default {
       "masked": "An ill-____ design may feel visually unbalanced.",
       "options": [
         "proportion-mcq-42",
-        "proportion-mcq-41",
-        "proportion-mcq-43",
-        "proportion-mcq-40",
+        "proportion-pdf-006",
         "proportion-mcq-44",
-        "proportion-mcq-39"
+        "proportion-mcq-31"
       ],
       "explanation": "本句的「proportioned」指「比例失調的」。",
       "sentenceIndex": 82,
@@ -4045,12 +3739,10 @@ export default {
         "proportioned"
       ],
       "optionReasons": {
-        "proportion-mcq-42": "本句指「比例失調的」。",
-        "proportion-mcq-41": "「比例勻稱的」與本句語境不同。",
-        "proportion-mcq-43": "「規模；程度」與本句語境不同。",
-        "proportion-mcq-40": "「建築比例」與本句語境不同。",
-        "proportion-mcq-44": "「巨大規模」與本句語境不同。",
-        "proportion-mcq-39": "「人體比例」與本句語境不同。"
+        "proportion-mcq-42": "本句的「proportioned」指「比例失調的」。",
+        "proportion-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-42"
     },
@@ -4062,11 +3754,9 @@ export default {
       "masked": "The problem reached enormous ____.",
       "options": [
         "proportion-mcq-43",
-        "proportion-mcq-42",
-        "proportion-mcq-44",
-        "proportion-mcq-41",
-        "proportion-mcq-45",
-        "proportion-mcq-40"
+        "proportion-mcq-05",
+        "proportion-mcq-17",
+        "proportion-mcq-33"
       ],
       "explanation": "本句的「proportions」指「規模；程度」。",
       "sentenceIndex": 83,
@@ -4075,12 +3765,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-43": "本句指「規模；程度」。",
-        "proportion-mcq-42": "「比例失調的」與本句語境不同。",
-        "proportion-mcq-44": "「巨大規模」與本句語境不同。",
-        "proportion-mcq-41": "「比例勻稱的」與本句語境不同。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。",
-        "proportion-mcq-40": "「建築比例」與本句語境不同。"
+        "proportion-mcq-43": "本句的「proportions」指「規模；程度」。",
+        "proportion-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-43"
     },
@@ -4092,11 +3780,9 @@ export default {
       "masked": "The complaint grew to unexpected ____.",
       "options": [
         "proportion-mcq-43",
-        "proportion-mcq-42",
-        "proportion-mcq-44",
-        "proportion-mcq-41",
-        "proportion-mcq-45",
-        "proportion-mcq-40"
+        "proportion-mcq-58",
+        "proportion-mcq-33",
+        "proportion-pdf-004"
       ],
       "explanation": "本句的「proportions」指「規模；程度」。",
       "sentenceIndex": 84,
@@ -4105,12 +3791,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-43": "本句指「規模；程度」。",
-        "proportion-mcq-42": "「比例失調的」與本句語境不同。",
-        "proportion-mcq-44": "「巨大規模」與本句語境不同。",
-        "proportion-mcq-41": "「比例勻稱的」與本句語境不同。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。",
-        "proportion-mcq-40": "「建築比例」與本句語境不同。"
+        "proportion-mcq-43": "本句的「proportions」指「規模；程度」。",
+        "proportion-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-43"
     },
@@ -4122,11 +3806,9 @@ export default {
       "masked": "The project became an undertaking of enormous ____.",
       "options": [
         "proportion-mcq-44",
-        "proportion-mcq-43",
-        "proportion-mcq-45",
-        "proportion-mcq-42",
-        "proportion-mcq-46",
-        "proportion-mcq-41"
+        "proportion-mcq-50",
+        "proportion-mcq-14",
+        "proportion-mcq-33"
       ],
       "explanation": "本句的「proportions」指「巨大規模」。",
       "sentenceIndex": 85,
@@ -4135,12 +3817,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-44": "本句指「巨大規模」。",
-        "proportion-mcq-43": "「規模；程度」與本句語境不同。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。",
-        "proportion-mcq-42": "「比例失調的」與本句語境不同。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。",
-        "proportion-mcq-41": "「比例勻稱的」與本句語境不同。"
+        "proportion-mcq-44": "本句的「proportions」指「巨大規模」。",
+        "proportion-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-44"
     },
@@ -4152,11 +3832,9 @@ export default {
       "masked": "The problem is not yet of crisis ____.",
       "options": [
         "proportion-mcq-44",
-        "proportion-mcq-43",
-        "proportion-mcq-45",
         "proportion-mcq-42",
-        "proportion-mcq-46",
-        "proportion-mcq-41"
+        "proportion-reviewed-dec0bd8041",
+        "proportion-mcq-33"
       ],
       "explanation": "本句的「proportions」指「巨大規模」。",
       "sentenceIndex": 86,
@@ -4165,12 +3843,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-44": "本句指「巨大規模」。",
-        "proportion-mcq-43": "「規模；程度」與本句語境不同。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。",
-        "proportion-mcq-42": "「比例失調的」與本句語境不同。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。",
-        "proportion-mcq-41": "「比例勻稱的」與本句語境不同。"
+        "proportion-mcq-44": "本句的「proportions」指「巨大規模」。",
+        "proportion-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "proportion-reviewed-dec0bd8041": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-44"
     },
@@ -4182,11 +3858,9 @@ export default {
       "masked": "Return abuse has ____.",
       "options": [
         "proportion-mcq-45",
-        "proportion-mcq-44",
-        "proportion-mcq-46",
-        "proportion-mcq-43",
-        "proportion-mcq-47",
-        "proportion-mcq-42"
+        "proportion-mcq-38",
+        "proportion-mcq-17",
+        "proportion-pdf-005"
       ],
       "explanation": "本句的「not reached epidemic proportions」指「極其普遍嚴重的程度」。",
       "sentenceIndex": 87,
@@ -4195,12 +3869,10 @@ export default {
         "not reached epidemic proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-45": "本句指「極其普遍嚴重的程度」。",
-        "proportion-mcq-44": "「巨大規模」與本句語境不同。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。",
-        "proportion-mcq-43": "「規模；程度」與本句語境不同。",
-        "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
-        "proportion-mcq-42": "「比例失調的」與本句語境不同。"
+        "proportion-mcq-45": "本句的「not reached epidemic proportions」指「極其普遍嚴重的程度」。",
+        "proportion-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-45"
     },
@@ -4212,11 +3884,9 @@ export default {
       "masked": "The phrase “epidemic ____” is often figurative outside health contexts.",
       "options": [
         "proportion-mcq-45",
-        "proportion-mcq-44",
-        "proportion-mcq-46",
-        "proportion-mcq-43",
-        "proportion-mcq-47",
-        "proportion-mcq-42"
+        "proportion-mcq-39",
+        "proportion-mcq-17",
+        "proportion-pdf-009"
       ],
       "explanation": "本句的「proportions」指「極其普遍嚴重的程度」。",
       "sentenceIndex": 88,
@@ -4225,12 +3895,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-45": "本句指「極其普遍嚴重的程度」。",
-        "proportion-mcq-44": "「巨大規模」與本句語境不同。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。",
-        "proportion-mcq-43": "「規模；程度」與本句語境不同。",
-        "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
-        "proportion-mcq-42": "「比例失調的」與本句語境不同。"
+        "proportion-mcq-45": "本句的「proportions」指「極其普遍嚴重的程度」。",
+        "proportion-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-45"
     },
@@ -4242,11 +3910,9 @@ export default {
       "masked": "A small dispute can ____ if poorly handled.",
       "options": [
         "proportion-mcq-44",
-        "proportion-mcq-43",
-        "proportion-mcq-45",
-        "proportion-mcq-42",
-        "proportion-mcq-46",
-        "proportion-mcq-41"
+        "proportion-mcq-24",
+        "proportion-mcq-51",
+        "proportion-reviewed-dec0bd8041"
       ],
       "explanation": "本句的「assume enormous proportions」指「巨大規模」。",
       "sentenceIndex": 89,
@@ -4255,12 +3921,10 @@ export default {
         "assume enormous proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-44": "本句指「巨大規模」。",
-        "proportion-mcq-43": "「規模；程度」與本句語境不同。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。",
-        "proportion-mcq-42": "「比例失調的」與本句語境不同。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。",
-        "proportion-mcq-41": "「比例勻稱的」與本句語境不同。"
+        "proportion-mcq-44": "本句的「assume enormous proportions」指「巨大規模」。",
+        "proportion-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-reviewed-dec0bd8041": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-44"
     },
@@ -4272,11 +3936,9 @@ export default {
       "masked": "The project gradually assumed larger ____.",
       "options": [
         "proportion-mcq-44",
-        "proportion-mcq-43",
-        "proportion-mcq-45",
-        "proportion-mcq-42",
-        "proportion-mcq-46",
-        "proportion-mcq-41"
+        "proportion-mcq-47",
+        "proportion-mcq-26",
+        "proportion-mcq-31"
       ],
       "explanation": "本句的「proportions」指「巨大規模」。",
       "sentenceIndex": 90,
@@ -4285,12 +3947,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-44": "本句指「巨大規模」。",
-        "proportion-mcq-43": "「規模；程度」與本句語境不同。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。",
-        "proportion-mcq-42": "「比例失調的」與本句語境不同。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。",
-        "proportion-mcq-41": "「比例勻稱的」與本句語境不同。"
+        "proportion-mcq-44": "本句的「proportions」指「巨大規模」。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-44"
     },
@@ -4302,11 +3962,9 @@ export default {
       "masked": "Managers need ____ when responding to isolated abuse.",
       "options": [
         "proportion-pdf-006",
-        "proportion-mcq-45",
-        "proportion-mcq-47",
-        "proportion-mcq-44",
-        "proportion-mcq-48",
-        "proportion-mcq-43"
+        "proportion-mcq-51",
+        "proportion-mcq-39",
+        "proportion-mcq-15"
       ],
       "explanation": "本句的「a sense of proportion」指「能夠正確判斷事情真正有多重要或嚴重，而不誇大或輕視」。",
       "sentenceIndex": 91,
@@ -4315,12 +3973,10 @@ export default {
         "a sense of proportion"
       ],
       "optionReasons": {
-        "proportion-pdf-006": "本句指「能夠正確判斷事情真正有多重要或嚴重，而不誇大或輕視」。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。",
-        "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
-        "proportion-mcq-44": "「巨大規模」與本句語境不同。",
-        "proportion-mcq-48": "「誇大 X」與本句語境不同。",
-        "proportion-mcq-43": "「規模；程度」與本句語境不同。"
+        "proportion-pdf-006": "本句的「a sense of proportion」指「能夠正確判斷事情真正有多重要或嚴重，而不誇大或輕視」。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-006"
     },
@@ -4332,11 +3988,9 @@ export default {
       "masked": "Try to keep a sense of ____.",
       "options": [
         "proportion-pdf-006",
-        "proportion-mcq-45",
-        "proportion-mcq-47",
-        "proportion-mcq-44",
-        "proportion-mcq-48",
-        "proportion-mcq-43"
+        "proportion-mcq-54",
+        "proportion-pdf-009",
+        "proportion-mcq-47"
       ],
       "explanation": "本句的「proportion」指「能夠正確判斷事情真正有多重要或嚴重，而不誇大或輕視」。",
       "sentenceIndex": 92,
@@ -4345,12 +3999,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-pdf-006": "本句指「能夠正確判斷事情真正有多重要或嚴重，而不誇大或輕視」。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。",
-        "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
-        "proportion-mcq-44": "「巨大規模」與本句語境不同。",
-        "proportion-mcq-48": "「誇大 X」與本句語境不同。",
-        "proportion-mcq-43": "「規模；程度」與本句語境不同。"
+        "proportion-pdf-006": "本句的「proportion」指「能夠正確判斷事情真正有多重要或嚴重，而不誇大或輕視」。",
+        "proportion-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-006"
     },
@@ -4362,11 +4014,9 @@ export default {
       "masked": "One bad return should not make us ____.",
       "options": [
         "proportion-mcq-46",
-        "proportion-mcq-45",
-        "proportion-mcq-47",
-        "proportion-mcq-44",
-        "proportion-mcq-48",
-        "proportion-mcq-43"
+        "proportion-mcq-26",
+        "proportion-mcq-15",
+        "proportion-pdf-008"
       ],
       "explanation": "本句的「lose all sense of proportion」指「分寸感；輕重判斷」。",
       "sentenceIndex": 93,
@@ -4375,12 +4025,10 @@ export default {
         "lose all sense of proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-46": "本句指「分寸感；輕重判斷」。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。",
-        "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
-        "proportion-mcq-44": "「巨大規模」與本句語境不同。",
-        "proportion-mcq-48": "「誇大 X」與本句語境不同。",
-        "proportion-mcq-43": "「規模；程度」與本句語境不同。"
+        "proportion-mcq-46": "本句的「lose all sense of proportion」指「分寸感；輕重判斷」。",
+        "proportion-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-008": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-46"
     },
@@ -4392,11 +4040,9 @@ export default {
       "masked": "The argument grew because both sides lost their sense of ____.",
       "options": [
         "proportion-mcq-46",
-        "proportion-mcq-45",
-        "proportion-mcq-47",
-        "proportion-mcq-44",
+        "proportion-mcq-32",
         "proportion-mcq-48",
-        "proportion-mcq-43"
+        "proportion-mcq-16"
       ],
       "explanation": "本句的「proportion」指「分寸感；輕重判斷」。",
       "sentenceIndex": 94,
@@ -4405,12 +4051,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-46": "本句指「分寸感；輕重判斷」。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。",
-        "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
-        "proportion-mcq-44": "「巨大規模」與本句語境不同。",
-        "proportion-mcq-48": "「誇大 X」與本句語境不同。",
-        "proportion-mcq-43": "「規模；程度」與本句語境不同。"
+        "proportion-mcq-46": "本句的「proportion」指「分寸感；輕重判斷」。",
+        "proportion-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-46"
     },
@@ -4422,11 +4066,9 @@ export default {
       "masked": "We should ____.",
       "options": [
         "proportion-mcq-47",
-        "proportion-mcq-46",
-        "proportion-mcq-48",
-        "proportion-mcq-45",
-        "proportion-mcq-49",
-        "proportion-mcq-44"
+        "proportion-mcq-55",
+        "proportion-reviewed-dec0bd8041",
+        "proportion-mcq-17"
       ],
       "explanation": "本句的「keep the risk in proportion」指「適當看待 X」。",
       "sentenceIndex": 95,
@@ -4435,12 +4077,10 @@ export default {
         "keep the risk in proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-47": "本句指「適當看待 X」。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。",
-        "proportion-mcq-48": "「誇大 X」與本句語境不同。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。",
-        "proportion-mcq-49": "「按比例安排」與本句語境不同。",
-        "proportion-mcq-44": "「巨大規模」與本句語境不同。"
+        "proportion-mcq-47": "本句的「keep the risk in proportion」指「適當看待 X」。",
+        "proportion-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "proportion-reviewed-dec0bd8041": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-47"
     },
@@ -4452,11 +4092,9 @@ export default {
       "masked": "A few abusive customers must be kept in ____ to the much larger number of genuine customers.",
       "options": [
         "proportion-mcq-47",
+        "proportion-mcq-36",
         "proportion-mcq-46",
-        "proportion-mcq-48",
-        "proportion-mcq-45",
-        "proportion-mcq-49",
-        "proportion-mcq-44"
+        "proportion-reviewed-a03535d577"
       ],
       "explanation": "本句的「proportion」指「適當看待 X」。",
       "sentenceIndex": 96,
@@ -4465,12 +4103,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-47": "本句指「適當看待 X」。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。",
-        "proportion-mcq-48": "「誇大 X」與本句語境不同。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。",
-        "proportion-mcq-49": "「按比例安排」與本句語境不同。",
-        "proportion-mcq-44": "「巨大規模」與本句語境不同。"
+        "proportion-mcq-47": "本句的「proportion」指「適當看待 X」。",
+        "proportion-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-reviewed-a03535d577": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-47"
     },
@@ -4482,11 +4118,9 @@ export default {
       "masked": "The statistics put the abuse problem ____.",
       "options": [
         "proportion-mcq-47",
-        "proportion-mcq-46",
+        "proportion-mcq-55",
         "proportion-mcq-48",
-        "proportion-mcq-45",
-        "proportion-mcq-49",
-        "proportion-mcq-44"
+        "proportion-mcq-43"
       ],
       "explanation": "本句的「into proportion」指「適當看待 X」。",
       "sentenceIndex": 97,
@@ -4495,12 +4129,10 @@ export default {
         "into proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-47": "本句指「適當看待 X」。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。",
-        "proportion-mcq-48": "「誇大 X」與本句語境不同。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。",
-        "proportion-mcq-49": "「按比例安排」與本句語境不同。",
-        "proportion-mcq-44": "「巨大規模」與本句語境不同。"
+        "proportion-mcq-47": "本句的「into proportion」指「適當看待 X」。",
+        "proportion-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-47"
     },
@@ -4512,11 +4144,9 @@ export default {
       "masked": "Comparing complaint numbers with total orders puts the issue into ____.",
       "options": [
         "proportion-mcq-47",
+        "proportion-mcq-54",
         "proportion-mcq-46",
-        "proportion-mcq-48",
-        "proportion-mcq-45",
-        "proportion-mcq-49",
-        "proportion-mcq-44"
+        "proportion-pdf-001"
       ],
       "explanation": "本句的「proportion」指「適當看待 X」。",
       "sentenceIndex": 98,
@@ -4525,12 +4155,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-47": "本句指「適當看待 X」。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。",
-        "proportion-mcq-48": "「誇大 X」與本句語境不同。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。",
-        "proportion-mcq-49": "「按比例安排」與本句語境不同。",
-        "proportion-mcq-44": "「巨大規模」與本句語境不同。"
+        "proportion-mcq-47": "本句的「proportion」指「適當看待 X」。",
+        "proportion-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-47"
     },
@@ -4542,11 +4170,9 @@ export default {
       "masked": "We should not ____.",
       "options": [
         "proportion-mcq-48",
-        "proportion-mcq-47",
-        "proportion-mcq-49",
-        "proportion-mcq-46",
-        "proportion-mcq-50",
-        "proportion-mcq-45"
+        "proportion-pdf-003",
+        "proportion-mcq-33",
+        "proportion-mcq-46"
       ],
       "explanation": "本句的「blow a few dishonest returns out of proportion」指「誇大 X」。",
       "sentenceIndex": 99,
@@ -4555,12 +4181,10 @@ export default {
         "blow a few dishonest returns out of proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-48": "本句指「誇大 X」。",
-        "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
-        "proportion-mcq-49": "「按比例安排」與本句語境不同。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。",
-        "proportion-mcq-50": "「按比例設計的」與本句語境不同。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。"
+        "proportion-mcq-48": "本句的「blow a few dishonest returns out of proportion」指「誇大 X」。",
+        "proportion-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-48"
     },
@@ -4572,11 +4196,9 @@ export default {
       "masked": "The disagreement was blown out of ____.",
       "options": [
         "proportion-mcq-48",
-        "proportion-mcq-47",
-        "proportion-mcq-49",
+        "proportion-mcq-07",
         "proportion-mcq-46",
-        "proportion-mcq-50",
-        "proportion-mcq-45"
+        "proportion-mcq-14"
       ],
       "explanation": "本句的「proportion」指「誇大 X」。",
       "sentenceIndex": 100,
@@ -4585,12 +4207,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-48": "本句指「誇大 X」。",
-        "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
-        "proportion-mcq-49": "「按比例安排」與本句語境不同。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。",
-        "proportion-mcq-50": "「按比例設計的」與本句語境不同。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。"
+        "proportion-mcq-48": "本句的「proportion」指「誇大 X」。",
+        "proportion-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-48"
     },
@@ -4602,11 +4222,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "proportion-mcq-48",
-        "proportion-mcq-47",
-        "proportion-mcq-49",
-        "proportion-mcq-46",
-        "proportion-mcq-50",
-        "proportion-mcq-45"
+        "proportion-mcq-38",
+        "proportion-pdf-009",
+        "proportion-mcq-16"
       ],
       "explanation": "本句的「get the problem out of proportion」指「誇大 X」。",
       "sentenceIndex": 101,
@@ -4615,12 +4233,10 @@ export default {
         "get the problem out of proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-48": "本句指「誇大 X」。",
-        "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
-        "proportion-mcq-49": "「按比例安排」與本句語境不同。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。",
-        "proportion-mcq-50": "「按比例設計的」與本句語境不同。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。"
+        "proportion-mcq-48": "本句的「get the problem out of proportion」指「誇大 X」。",
+        "proportion-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-48"
     },
@@ -4632,11 +4248,9 @@ export default {
       "masked": "Public reaction became completely out of ____ to the incident.",
       "options": [
         "proportion-mcq-48",
-        "proportion-mcq-47",
-        "proportion-mcq-49",
-        "proportion-mcq-46",
-        "proportion-mcq-50",
-        "proportion-mcq-45"
+        "proportion-mcq-32",
+        "proportion-pdf-009",
+        "proportion-mcq-43"
       ],
       "explanation": "本句的「proportion」指「誇大 X」。",
       "sentenceIndex": 102,
@@ -4645,12 +4259,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-48": "本句指「誇大 X」。",
-        "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
-        "proportion-mcq-49": "「按比例安排」與本句語境不同。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。",
-        "proportion-mcq-50": "「按比例設計的」與本句語境不同。",
-        "proportion-mcq-45": "「極其普遍嚴重的程度」與本句語境不同。"
+        "proportion-mcq-48": "本句的「proportion」指「誇大 X」。",
+        "proportion-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-48"
     },
@@ -4662,11 +4274,9 @@ export default {
       "masked": "Ingredients must be carefully ____.",
       "options": [
         "proportion-pdf-007",
-        "proportion-mcq-48",
-        "proportion-mcq-50",
-        "proportion-mcq-47",
-        "proportion-mcq-51",
-        "proportion-mcq-46"
+        "proportion-pdf-006",
+        "proportion-mcq-14",
+        "proportion-mcq-44"
       ],
       "explanation": "本句的「proportioned」指「使 X 的各部分具有特定或合適的比例關係」。",
       "sentenceIndex": 103,
@@ -4675,12 +4285,10 @@ export default {
         "proportioned"
       ],
       "optionReasons": {
-        "proportion-pdf-007": "本句指「使 X 的各部分具有特定或合適的比例關係」。",
-        "proportion-mcq-48": "「誇大 X」與本句語境不同。",
-        "proportion-mcq-50": "「按比例設計的」與本句語境不同。",
-        "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。"
+        "proportion-pdf-007": "本句的「proportioned」指「使 X 的各部分具有特定或合適的比例關係」。",
+        "proportion-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-007"
     },
@@ -4692,11 +4300,9 @@ export default {
       "masked": "The room was ____ to create a balanced appearance.",
       "options": [
         "proportion-pdf-007",
-        "proportion-mcq-48",
-        "proportion-mcq-50",
-        "proportion-mcq-47",
-        "proportion-mcq-51",
-        "proportion-mcq-46"
+        "proportion-mcq-44",
+        "proportion-pdf-006",
+        "proportion-mcq-31"
       ],
       "explanation": "本句的「proportioned」指「使 X 的各部分具有特定或合適的比例關係」。",
       "sentenceIndex": 104,
@@ -4705,12 +4311,10 @@ export default {
         "proportioned"
       ],
       "optionReasons": {
-        "proportion-pdf-007": "本句指「使 X 的各部分具有特定或合適的比例關係」。",
-        "proportion-mcq-48": "「誇大 X」與本句語境不同。",
-        "proportion-mcq-50": "「按比例設計的」與本句語境不同。",
-        "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。"
+        "proportion-pdf-007": "本句的「proportioned」指「使 X 的各部分具有特定或合適的比例關係」。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-007"
     },
@@ -4722,11 +4326,9 @@ export default {
       "masked": "Costs were ____ according to use.",
       "options": [
         "proportion-mcq-49",
-        "proportion-mcq-48",
-        "proportion-mcq-50",
-        "proportion-mcq-47",
-        "proportion-mcq-51",
-        "proportion-mcq-46"
+        "proportion-mcq-46",
+        "proportion-mcq-14",
+        "proportion-pdf-009"
       ],
       "explanation": "本句的「proportioned」指「按比例安排」。",
       "sentenceIndex": 105,
@@ -4735,12 +4337,10 @@ export default {
         "proportioned"
       ],
       "optionReasons": {
-        "proportion-mcq-49": "本句指「按比例安排」。",
-        "proportion-mcq-48": "「誇大 X」與本句語境不同。",
-        "proportion-mcq-50": "「按比例設計的」與本句語境不同。",
-        "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。"
+        "proportion-mcq-49": "本句的「proportioned」指「按比例安排」。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-49"
     },
@@ -4752,11 +4352,9 @@ export default {
       "masked": "Modern business English would often prefer “allocated ____.",
       "options": [
         "proportion-mcq-49",
-        "proportion-mcq-48",
-        "proportion-mcq-50",
-        "proportion-mcq-47",
-        "proportion-mcq-51",
-        "proportion-mcq-46"
+        "proportion-mcq-17",
+        "proportion-pdf-006",
+        "proportion-mcq-31"
       ],
       "explanation": "本句的「proportionally」指「按比例安排」。",
       "sentenceIndex": 106,
@@ -4765,12 +4363,10 @@ export default {
         "proportionally"
       ],
       "optionReasons": {
-        "proportion-mcq-49": "本句指「按比例安排」。",
-        "proportion-mcq-48": "「誇大 X」與本句語境不同。",
-        "proportion-mcq-50": "「按比例設計的」與本句語境不同。",
-        "proportion-mcq-47": "「適當看待 X」與本句語境不同。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。",
-        "proportion-mcq-46": "「分寸感；輕重判斷」與本句語境不同。"
+        "proportion-mcq-49": "本句的「proportionally」指「按比例安排」。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-49"
     },
@@ -4782,11 +4378,9 @@ export default {
       "masked": "The room is generously ____.",
       "options": [
         "proportion-mcq-50",
-        "proportion-mcq-49",
-        "proportion-mcq-51",
         "proportion-mcq-48",
-        "proportion-mcq-52",
-        "proportion-mcq-47"
+        "proportion-mcq-47",
+        "proportion-mcq-31"
       ],
       "explanation": "本句的「proportioned」指「按比例設計的」。",
       "sentenceIndex": 107,
@@ -4795,12 +4389,10 @@ export default {
         "proportioned"
       ],
       "optionReasons": {
-        "proportion-mcq-50": "本句指「按比例設計的」。",
-        "proportion-mcq-49": "「按比例安排」與本句語境不同。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。",
-        "proportion-mcq-48": "「誇大 X」與本句語境不同。",
-        "proportion-mcq-52": "「正比例」與本句語境不同。",
-        "proportion-mcq-47": "「適當看待 X」與本句語境不同。"
+        "proportion-mcq-50": "本句的「proportioned」指「按比例設計的」。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-50"
     },
@@ -4812,11 +4404,9 @@ export default {
       "masked": "The jacket is ____ for a shorter frame.",
       "options": [
         "proportion-mcq-50",
-        "proportion-mcq-49",
-        "proportion-mcq-51",
-        "proportion-mcq-48",
-        "proportion-mcq-52",
-        "proportion-mcq-47"
+        "proportion-mcq-47",
+        "proportion-mcq-15",
+        "proportion-mcq-33"
       ],
       "explanation": "本句的「proportioned」指「按比例設計的」。",
       "sentenceIndex": 108,
@@ -4825,12 +4415,10 @@ export default {
         "proportioned"
       ],
       "optionReasons": {
-        "proportion-mcq-50": "本句指「按比例設計的」。",
-        "proportion-mcq-49": "「按比例安排」與本句語境不同。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。",
-        "proportion-mcq-48": "「誇大 X」與本句語境不同。",
-        "proportion-mcq-52": "「正比例」與本句語境不同。",
-        "proportion-mcq-47": "「適當看待 X」與本句語境不同。"
+        "proportion-mcq-50": "本句的「proportioned」指「按比例設計的」。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-50"
     },
@@ -4842,10 +4430,8 @@ export default {
       "masked": "The apartment has ____.",
       "options": [
         "proportion-mcq-51",
-        "proportion-mcq-50",
-        "proportion-mcq-52",
-        "proportion-mcq-49",
-        "proportion-mcq-53",
+        "proportion-mcq-32",
+        "proportion-mcq-47",
         "proportion-mcq-48"
       ],
       "explanation": "本句的「generously proportioned rooms」指「尺寸寬敞的」。",
@@ -4855,12 +4441,10 @@ export default {
         "generously proportioned rooms"
       ],
       "optionReasons": {
-        "proportion-mcq-51": "本句指「尺寸寬敞的」。",
-        "proportion-mcq-50": "「按比例設計的」與本句語境不同。",
-        "proportion-mcq-52": "「正比例」與本句語境不同。",
-        "proportion-mcq-49": "「按比例安排」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。",
-        "proportion-mcq-48": "「誇大 X」與本句語境不同。"
+        "proportion-mcq-51": "本句的「generously proportioned rooms」指「尺寸寬敞的」。",
+        "proportion-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-51"
     },
@@ -4872,11 +4456,9 @@ export default {
       "masked": "If \\(y = kx\\), then y is in ____ to x.",
       "options": [
         "proportion-mcq-52",
-        "proportion-mcq-51",
-        "proportion-mcq-53",
-        "proportion-mcq-50",
-        "proportion-mcq-54",
-        "proportion-mcq-49"
+        "proportion-mcq-14",
+        "proportion-pdf-009",
+        "proportion-mcq-46"
       ],
       "explanation": "本句的「direct proportion」指「正比例」。",
       "sentenceIndex": 110,
@@ -4885,12 +4467,10 @@ export default {
         "direct proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-52": "本句指「正比例」。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。",
-        "proportion-mcq-50": "「按比例設計的」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-49": "「按比例安排」與本句語境不同。"
+        "proportion-mcq-52": "本句的「direct proportion」指「正比例」。",
+        "proportion-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-52"
     },
@@ -4902,11 +4482,9 @@ export default {
       "masked": "Distance is directly ____ to time when speed is constant.",
       "options": [
         "proportion-mcq-52",
-        "proportion-mcq-51",
-        "proportion-mcq-53",
-        "proportion-mcq-50",
-        "proportion-mcq-54",
-        "proportion-mcq-49"
+        "proportion-mcq-15",
+        "proportion-pdf-005",
+        "proportion-mcq-46"
       ],
       "explanation": "本句的「proportional」指「正比例」。",
       "sentenceIndex": 111,
@@ -4915,12 +4493,10 @@ export default {
         "proportional"
       ],
       "optionReasons": {
-        "proportion-mcq-52": "本句指「正比例」。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。",
-        "proportion-mcq-50": "「按比例設計的」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-49": "「按比例安排」與本句語境不同。"
+        "proportion-mcq-52": "本句的「proportional」指「正比例」。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-52"
     },
@@ -4932,11 +4508,9 @@ export default {
       "masked": "The quantity increases ____ demand.",
       "options": [
         "proportion-mcq-52",
-        "proportion-mcq-51",
-        "proportion-mcq-53",
-        "proportion-mcq-50",
-        "proportion-mcq-54",
-        "proportion-mcq-49"
+        "proportion-pdf-009",
+        "proportion-mcq-45",
+        "proportion-mcq-17"
       ],
       "explanation": "本句的「in direct proportion to」指「正比例」。",
       "sentenceIndex": 112,
@@ -4945,12 +4519,10 @@ export default {
         "in direct proportion to"
       ],
       "optionReasons": {
-        "proportion-mcq-52": "本句指「正比例」。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。",
-        "proportion-mcq-50": "「按比例設計的」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-49": "「按比例安排」與本句語境不同。"
+        "proportion-mcq-52": "本句的「in direct proportion to」指「正比例」。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-52"
     },
@@ -4962,11 +4534,9 @@ export default {
       "masked": "Costs do not always rise in direct ____ to sales.",
       "options": [
         "proportion-mcq-52",
+        "proportion-mcq-45",
         "proportion-mcq-51",
-        "proportion-mcq-53",
-        "proportion-mcq-50",
-        "proportion-mcq-54",
-        "proportion-mcq-49"
+        "proportion-mcq-15"
       ],
       "explanation": "本句的「proportion」指「正比例」。",
       "sentenceIndex": 113,
@@ -4975,12 +4545,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-52": "本句指「正比例」。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。",
-        "proportion-mcq-50": "「按比例設計的」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-49": "「按比例安排」與本句語境不同。"
+        "proportion-mcq-52": "本句的「proportion」指「正比例」。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-52"
     },
@@ -4992,11 +4560,9 @@ export default {
       "masked": "The variables are in ____.",
       "options": [
         "proportion-mcq-53",
-        "proportion-mcq-52",
-        "proportion-mcq-54",
-        "proportion-mcq-51",
-        "proportion-mcq-55",
-        "proportion-mcq-50"
+        "proportion-mcq-44",
+        "proportion-mcq-16",
+        "proportion-mcq-33"
       ],
       "explanation": "本句的「inverse proportion」指「反比例」。",
       "sentenceIndex": 114,
@@ -5005,12 +4571,10 @@ export default {
         "inverse proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-53": "本句指「反比例」。",
-        "proportion-mcq-52": "「正比例」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-50": "「按比例設計的」與本句語境不同。"
+        "proportion-mcq-53": "本句的「inverse proportion」指「反比例」。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-53"
     },
@@ -5022,11 +4586,9 @@ export default {
       "masked": "In a simple inverse ____, their product remains constant.",
       "options": [
         "proportion-mcq-53",
-        "proportion-mcq-52",
-        "proportion-mcq-54",
-        "proportion-mcq-51",
-        "proportion-mcq-55",
-        "proportion-mcq-50"
+        "proportion-mcq-46",
+        "proportion-mcq-33",
+        "proportion-reviewed-a03535d577"
       ],
       "explanation": "本句的「proportion」指「反比例」。",
       "sentenceIndex": 115,
@@ -5035,12 +4597,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-53": "本句指「反比例」。",
-        "proportion-mcq-52": "「正比例」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-50": "「按比例設計的」與本句語境不同。"
+        "proportion-mcq-53": "本句的「proportion」指「反比例」。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-reviewed-a03535d577": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-53"
     },
@@ -5052,10 +4612,8 @@ export default {
       "masked": "\\(2/3 = 4/6\\) forms a ____.",
       "options": [
         "proportion-pdf-008",
-        "proportion-mcq-53",
-        "proportion-mcq-55",
-        "proportion-mcq-52",
-        "proportion-mcq-56",
+        "proportion-mcq-16",
+        "proportion-mcq-33",
         "proportion-mcq-51"
       ],
       "explanation": "本句的「proportion」指「數學上兩個比率相等的關係／等式」。",
@@ -5065,12 +4623,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-pdf-008": "本句指「數學上兩個比率相等的關係／等式」。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-52": "「正比例」與本句語境不同。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。"
+        "proportion-pdf-008": "本句的「proportion」指「數學上兩個比率相等的關係／等式」。",
+        "proportion-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-008"
     },
@@ -5082,11 +4638,9 @@ export default {
       "masked": "Solve the ____ for x.",
       "options": [
         "proportion-pdf-008",
-        "proportion-mcq-53",
-        "proportion-mcq-55",
-        "proportion-mcq-52",
-        "proportion-mcq-56",
-        "proportion-mcq-51"
+        "proportion-reviewed-a03535d577",
+        "proportion-mcq-46",
+        "proportion-mcq-33"
       ],
       "explanation": "本句的「proportion」指「數學上兩個比率相等的關係／等式」。",
       "sentenceIndex": 117,
@@ -5095,12 +4649,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-pdf-008": "本句指「數學上兩個比率相等的關係／等式」。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-52": "「正比例」與本句語境不同。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。"
+        "proportion-pdf-008": "本句的「proportion」指「數學上兩個比率相等的關係／等式」。",
+        "proportion-reviewed-a03535d577": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-008"
     },
@@ -5112,11 +4664,9 @@ export default {
       "masked": "Use cross multiplication to solve the ____.",
       "options": [
         "proportion-mcq-54",
-        "proportion-mcq-53",
-        "proportion-mcq-55",
-        "proportion-mcq-52",
-        "proportion-mcq-56",
-        "proportion-mcq-51"
+        "proportion-pdf-005",
+        "proportion-mcq-51",
+        "proportion-pdf-006"
       ],
       "explanation": "本句的「proportion」指「比例式」。",
       "sentenceIndex": 118,
@@ -5125,12 +4675,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-54": "本句指「比例式」。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-52": "「正比例」與本句語境不同。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。"
+        "proportion-mcq-54": "本句的「proportion」指「比例式」。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-54"
     },
@@ -5142,11 +4690,9 @@ export default {
       "masked": "The unknown appears in one term of the ____.",
       "options": [
         "proportion-mcq-54",
-        "proportion-mcq-53",
-        "proportion-mcq-55",
-        "proportion-mcq-52",
-        "proportion-mcq-56",
-        "proportion-mcq-51"
+        "proportion-mcq-44",
+        "proportion-pdf-005",
+        "proportion-mcq-17"
       ],
       "explanation": "本句的「proportion」指「比例式」。",
       "sentenceIndex": 119,
@@ -5155,12 +4701,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-54": "本句指「比例式」。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-52": "「正比例」與本句語境不同。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。"
+        "proportion-mcq-54": "本句的「proportion」指「比例式」。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-54"
     },
@@ -5172,11 +4716,9 @@ export default {
       "masked": "Mix the ingredients in equal ____.",
       "options": [
         "proportion-mcq-54",
-        "proportion-mcq-53",
-        "proportion-mcq-55",
-        "proportion-mcq-52",
-        "proportion-mcq-56",
-        "proportion-mcq-51"
+        "proportion-mcq-46",
+        "proportion-mcq-44",
+        "proportion-pdf-009"
       ],
       "explanation": "本句的「proportions」指「比例式」。",
       "sentenceIndex": 120,
@@ -5185,12 +4727,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-54": "本句指「比例式」。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-52": "「正比例」與本句語境不同。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。"
+        "proportion-mcq-54": "本句的「proportions」指「比例式」。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-54"
     },
@@ -5202,11 +4742,9 @@ export default {
       "masked": "Changing the ____ changes the texture.",
       "options": [
         "proportion-mcq-54",
-        "proportion-mcq-53",
-        "proportion-mcq-55",
-        "proportion-mcq-52",
-        "proportion-mcq-56",
-        "proportion-mcq-51"
+        "proportion-pdf-009",
+        "proportion-mcq-45",
+        "proportion-mcq-17"
       ],
       "explanation": "本句的「proportions」指「比例式」。",
       "sentenceIndex": 121,
@@ -5215,12 +4753,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-54": "本句指「比例式」。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-52": "「正比例」與本句語境不同。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-51": "「尺寸寬敞的」與本句語境不同。"
+        "proportion-mcq-54": "本句的「proportions」指「比例式」。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-54"
     },
@@ -5232,11 +4768,9 @@ export default {
       "masked": "Mix the two liquids in ____.",
       "options": [
         "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-56",
-        "proportion-mcq-53",
-        "proportion-mcq-57",
-        "proportion-mcq-52"
+        "proportion-mcq-43",
+        "proportion-mcq-31",
+        "proportion-reviewed-a03535d577"
       ],
       "explanation": "本句的「equal proportions」指「等比例／等份」。",
       "sentenceIndex": 122,
@@ -5245,12 +4779,10 @@ export default {
         "equal proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-55": "本句指「等比例／等份」。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。",
-        "proportion-mcq-57": "「母體比例」與本句語境不同。",
-        "proportion-mcq-52": "「正比例」與本句語境不同。"
+        "proportion-mcq-55": "本句的「equal proportions」指「等比例／等份」。",
+        "proportion-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "proportion-reviewed-a03535d577": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-55"
     },
@@ -5262,11 +4794,9 @@ export default {
       "masked": "The budget was not divided in equal ____.",
       "options": [
         "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-56",
-        "proportion-mcq-53",
-        "proportion-mcq-57",
-        "proportion-mcq-52"
+        "proportion-reviewed-a03535d577",
+        "proportion-pdf-006",
+        "proportion-pdf-009"
       ],
       "explanation": "本句的「proportions」指「等比例／等份」。",
       "sentenceIndex": 123,
@@ -5275,12 +4805,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-55": "本句指「等比例／等份」。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。",
-        "proportion-mcq-57": "「母體比例」與本句語境不同。",
-        "proportion-mcq-52": "「正比例」與本句語境不同。"
+        "proportion-mcq-55": "本句的「proportions」指「等比例／等份」。",
+        "proportion-reviewed-a03535d577": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-55"
     },
@@ -5292,11 +4820,9 @@ export default {
       "masked": "____ is important in fashion design.",
       "options": [
         "proportion-pdf-009",
-        "proportion-mcq-55",
-        "proportion-mcq-57",
-        "proportion-mcq-54",
-        "proportion-mcq-58",
-        "proportion-mcq-53"
+        "proportion-mcq-38",
+        "proportion-mcq-15",
+        "proportion-mcq-43"
       ],
       "explanation": "本句的「Proportion」指「設計中不同部分的尺寸關係是否協調」。",
       "sentenceIndex": 124,
@@ -5305,12 +4831,10 @@ export default {
         "Proportion"
       ],
       "optionReasons": {
-        "proportion-pdf-009": "本句指「設計中不同部分的尺寸關係是否協調」。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-57": "「母體比例」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-pdf-009": "本句的「Proportion」指「設計中不同部分的尺寸關係是否協調」。",
+        "proportion-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-009"
     },
@@ -5322,11 +4846,9 @@ export default {
       "masked": "The designer adjusted the ____ of the sleeves and body.",
       "options": [
         "proportion-pdf-009",
-        "proportion-mcq-55",
-        "proportion-mcq-57",
-        "proportion-mcq-54",
-        "proportion-mcq-58",
-        "proportion-mcq-53"
+        "proportion-mcq-17",
+        "proportion-mcq-03",
+        "proportion-mcq-31"
       ],
       "explanation": "本句的「proportions」指「設計中不同部分的尺寸關係是否協調」。",
       "sentenceIndex": 125,
@@ -5335,12 +4857,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-pdf-009": "本句指「設計中不同部分的尺寸關係是否協調」。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-57": "「母體比例」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-pdf-009": "本句的「proportions」指「設計中不同部分的尺寸關係是否協調」。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-pdf-009"
     },
@@ -5352,11 +4872,9 @@ export default {
       "masked": "The garment has good ____.",
       "options": [
         "proportion-mcq-56",
-        "proportion-mcq-55",
-        "proportion-mcq-57",
-        "proportion-mcq-54",
-        "proportion-mcq-58",
-        "proportion-mcq-53"
+        "proportion-pdf-005",
+        "proportion-mcq-14",
+        "proportion-mcq-45"
       ],
       "explanation": "本句的「proportion」指「樣本比例」。",
       "sentenceIndex": 126,
@@ -5365,12 +4883,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-56": "本句指「樣本比例」。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-57": "「母體比例」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-56": "本句的「proportion」指「樣本比例」。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-56"
     },
@@ -5382,11 +4898,9 @@ export default {
       "masked": "Good ____ can change how an outfit looks.",
       "options": [
         "proportion-mcq-56",
-        "proportion-mcq-55",
-        "proportion-mcq-57",
-        "proportion-mcq-54",
-        "proportion-mcq-58",
-        "proportion-mcq-53"
+        "proportion-mcq-48",
+        "proportion-mcq-51",
+        "proportion-mcq-15"
       ],
       "explanation": "本句的「proportion」指「樣本比例」。",
       "sentenceIndex": 127,
@@ -5395,12 +4909,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-56": "本句指「樣本比例」。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-57": "「母體比例」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-56": "本句的「proportion」指「樣本比例」。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-56"
     },
@@ -5412,11 +4924,9 @@ export default {
       "masked": "The proposed pilot improves ____ by distinguishing genuine defects from simple changes of mind.",
       "options": [
         "proportion-mcq-27",
-        "proportion-mcq-26",
-        "proportion-mcq-28",
-        "proportion-mcq-25",
-        "proportion-mcq-29",
-        "proportion-mcq-24"
+        "proportion-pdf-006",
+        "proportion-mcq-47",
+        "proportion-mcq-44"
       ],
       "explanation": "本句的「proportionality」指「比例關係／相稱性」。",
       "sentenceIndex": 130,
@@ -5425,12 +4935,10 @@ export default {
         "proportionality"
       ],
       "optionReasons": {
-        "proportion-mcq-27": "本句指「比例關係／相稱性」。",
-        "proportion-mcq-26": "「比例代表制」與本句語境不同。",
-        "proportion-mcq-28": "「比例原則」與本句語境不同。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。",
-        "proportion-mcq-29": "「比例性審查」與本句語境不同。",
-        "proportion-mcq-24": "「比例份額」與本句語境不同。"
+        "proportion-mcq-27": "本句的「proportionality」指「比例關係／相稱性」。",
+        "proportion-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-27"
     },
@@ -5442,11 +4950,9 @@ export default {
       "masked": "A blanket ban raises questions of ____.",
       "options": [
         "proportion-mcq-27",
-        "proportion-mcq-26",
-        "proportion-mcq-28",
-        "proportion-mcq-25",
-        "proportion-mcq-29",
-        "proportion-mcq-24"
+        "proportion-pdf-005",
+        "proportion-mcq-33",
+        "proportion-mcq-44"
       ],
       "explanation": "本句的「proportionality」指「比例關係／相稱性」。",
       "sentenceIndex": 131,
@@ -5455,12 +4961,10 @@ export default {
         "proportionality"
       ],
       "optionReasons": {
-        "proportion-mcq-27": "本句指「比例關係／相稱性」。",
-        "proportion-mcq-26": "「比例代表制」與本句語境不同。",
-        "proportion-mcq-28": "「比例原則」與本句語境不同。",
-        "proportion-mcq-25": "「按比例分配」與本句語境不同。",
-        "proportion-mcq-29": "「比例性審查」與本句語境不同。",
-        "proportion-mcq-24": "「比例份額」與本句語境不同。"
+        "proportion-mcq-27": "本句的「proportionality」指「比例關係／相稱性」。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-27"
     },
@@ -5472,11 +4976,9 @@ export default {
       "masked": "Management should ____ of each safeguard.",
       "options": [
         "proportion-mcq-56",
-        "proportion-mcq-55",
-        "proportion-mcq-57",
-        "proportion-mcq-54",
-        "proportion-mcq-58",
-        "proportion-mcq-53"
+        "proportion-mcq-16",
+        "proportion-mcq-47",
+        "proportion-pdf-005"
       ],
       "explanation": "本句的「assess the proportionality」指「樣本比例」。",
       "sentenceIndex": 132,
@@ -5485,12 +4987,10 @@ export default {
         "assess the proportionality"
       ],
       "optionReasons": {
-        "proportion-mcq-56": "本句指「樣本比例」。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-57": "「母體比例」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-56": "本句的「assess the proportionality」指「樣本比例」。",
+        "proportion-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-56"
     },
@@ -5502,11 +5002,9 @@ export default {
       "masked": "The safeguard should achieve its aim at a ____.",
       "options": [
         "proportion-mcq-56",
-        "proportion-mcq-55",
-        "proportion-mcq-57",
-        "proportion-mcq-54",
-        "proportion-mcq-58",
-        "proportion-mcq-53"
+        "proportion-mcq-43",
+        "proportion-mcq-17",
+        "proportion-pdf-006"
       ],
       "explanation": "本句的「proportionate cost」指「樣本比例」。",
       "sentenceIndex": 133,
@@ -5515,12 +5013,10 @@ export default {
         "proportionate cost"
       ],
       "optionReasons": {
-        "proportion-mcq-56": "本句指「樣本比例」。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-57": "「母體比例」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-56": "本句的「proportionate cost」指「樣本比例」。",
+        "proportion-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-56"
     },
@@ -5532,11 +5028,9 @@ export default {
       "masked": "Full inspection of every low-risk item may not be ____ in cost.",
       "options": [
         "proportion-mcq-56",
-        "proportion-mcq-55",
-        "proportion-mcq-57",
-        "proportion-mcq-54",
-        "proportion-mcq-58",
-        "proportion-mcq-53"
+        "proportion-pdf-001",
+        "proportion-mcq-47",
+        "proportion-mcq-48"
       ],
       "explanation": "本句的「proportionate」指「樣本比例」。",
       "sentenceIndex": 134,
@@ -5545,44 +5039,40 @@ export default {
         "proportionate"
       ],
       "optionReasons": {
-        "proportion-mcq-56": "本句指「樣本比例」。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-57": "「母體比例」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-56": "本句的「proportionate」指「樣本比例」。",
+        "proportion-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-56"
     },
     {
       "id": "proportion-75-0",
-      "sense": "proportion-mcq-56",
+      "sense": "proportion-reviewed-a03535d577",
       "en": "Minor cases should require only proportionate effort.",
       "zh": "輕微個案只應需要相稱程度的處理工作。",
       "masked": "Minor cases should require only ____.",
       "options": [
-        "proportion-mcq-56",
-        "proportion-mcq-55",
-        "proportion-mcq-57",
-        "proportion-mcq-54",
-        "proportion-mcq-58",
-        "proportion-mcq-53"
+        "proportion-reviewed-a03535d577",
+        "proportion-mcq-31",
+        "proportion-mcq-24",
+        "proportion-pdf-008"
       ],
-      "explanation": "本句的「proportionate effort」指「樣本比例」。",
+      "explanation": "對照完整句子：「輕微個案只應需要相稱程度的處理工作。」。這裡的「proportionate effort」表示「相稱的投入／努力」。",
       "sentenceIndex": 135,
       "sourcePractice": 1,
       "targets": [
         "proportionate effort"
       ],
       "optionReasons": {
-        "proportion-mcq-56": "本句指「樣本比例」。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-57": "「母體比例」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-reviewed-a03535d577": "對照完整句子：「輕微個案只應需要相稱程度的處理工作。」。這裡的「proportionate effort」表示「相稱的投入／努力」。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-008": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "proportion-mcq-56"
+      "correctOption": "proportion-reviewed-a03535d577",
+      "previousCorrectOption": "proportion-mcq-56",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "proportion-78-0",
@@ -5592,11 +5082,9 @@ export default {
       "masked": "The ____ of customers requesting refunds was 0.12.",
       "options": [
         "proportion-mcq-56",
-        "proportion-mcq-55",
-        "proportion-mcq-57",
-        "proportion-mcq-54",
-        "proportion-mcq-58",
-        "proportion-mcq-53"
+        "proportion-mcq-44",
+        "proportion-mcq-46",
+        "proportion-mcq-31"
       ],
       "explanation": "本句的「sample proportion」指「樣本比例」。",
       "sentenceIndex": 138,
@@ -5605,12 +5093,10 @@ export default {
         "sample proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-56": "本句指「樣本比例」。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-57": "「母體比例」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-56": "本句的「sample proportion」指「樣本比例」。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-56"
     },
@@ -5622,11 +5108,9 @@ export default {
       "masked": "The sample ____ estimates a population proportion.",
       "options": [
         "proportion-mcq-56",
-        "proportion-mcq-55",
-        "proportion-mcq-57",
-        "proportion-mcq-54",
-        "proportion-mcq-58",
-        "proportion-mcq-53"
+        "proportion-mcq-46",
+        "proportion-mcq-51",
+        "proportion-pdf-001"
       ],
       "explanation": "本句的「proportion」指「樣本比例」。",
       "sentenceIndex": 139,
@@ -5635,12 +5119,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-56": "本句指「樣本比例」。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-57": "「母體比例」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-56": "本句的「proportion」指「樣本比例」。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-56"
     },
@@ -5652,11 +5134,9 @@ export default {
       "masked": "Researchers estimated the ____.",
       "options": [
         "proportion-mcq-57",
-        "proportion-mcq-56",
-        "proportion-mcq-58",
-        "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-53"
+        "proportion-mcq-51",
+        "proportion-pdf-001",
+        "proportion-pdf-005"
       ],
       "explanation": "本句的「population proportion」指「母體比例」。",
       "sentenceIndex": 140,
@@ -5665,12 +5145,10 @@ export default {
         "population proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-57": "本句指「母體比例」。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-57": "本句的「population proportion」指「母體比例」。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-57"
     },
@@ -5682,11 +5160,9 @@ export default {
       "masked": "The true population ____ is generally unknown and estimated from data.",
       "options": [
         "proportion-mcq-57",
-        "proportion-mcq-56",
-        "proportion-mcq-58",
-        "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-53"
+        "proportion-mcq-46",
+        "proportion-mcq-17",
+        "proportion-mcq-48"
       ],
       "explanation": "本句的「proportion」指「母體比例」。",
       "sentenceIndex": 141,
@@ -5695,12 +5171,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-57": "本句指「母體比例」。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-57": "本句的「proportion」指「母體比例」。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-57"
     },
@@ -5712,11 +5186,9 @@ export default {
       "masked": "The ____ of approved return requests increased.",
       "options": [
         "proportion-mcq-57",
-        "proportion-mcq-56",
-        "proportion-mcq-58",
-        "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-53"
+        "proportion-pdf-009",
+        "proportion-mcq-15",
+        "proportion-mcq-45"
       ],
       "explanation": "本句的「proportion」指「母體比例」。",
       "sentenceIndex": 142,
@@ -5725,12 +5197,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-57": "本句指「母體比例」。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-57": "本句的「proportion」指「母體比例」。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-57"
     },
@@ -5742,11 +5212,9 @@ export default {
       "masked": "Statistical ____ range from 0 to 1.",
       "options": [
         "proportion-mcq-57",
-        "proportion-mcq-56",
-        "proportion-mcq-58",
-        "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-53"
+        "proportion-mcq-33",
+        "proportion-mcq-17",
+        "proportion-mcq-46"
       ],
       "explanation": "本句的「proportions」指「母體比例」。",
       "sentenceIndex": 143,
@@ -5755,74 +5223,68 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-57": "本句指「母體比例」。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-57": "本句的「proportions」指「母體比例」。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-57"
     },
     {
       "id": "proportion-81-0",
-      "sense": "proportion-mcq-57",
+      "sense": "proportion-reviewed-dec0bd8041",
       "en": "Returns account for a small proportion of total sales.",
       "zh": "退貨只佔總銷售的很小比例。",
       "masked": "Returns account for a small ____.",
       "options": [
-        "proportion-mcq-57",
-        "proportion-mcq-56",
-        "proportion-mcq-58",
-        "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-53"
+        "proportion-reviewed-dec0bd8041",
+        "proportion-mcq-31",
+        "proportion-mcq-48",
+        "proportion-mcq-46"
       ],
-      "explanation": "本句的「proportion of total sales」指「母體比例」。",
+      "explanation": "對照完整句子：「退貨只佔總銷售的很小比例。」。這裡的「proportion of total sales」表示「收入／成本／銷售的佔比」。",
       "sentenceIndex": 144,
       "sourcePractice": 1,
       "targets": [
         "proportion of total sales"
       ],
       "optionReasons": {
-        "proportion-mcq-57": "本句指「母體比例」。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-reviewed-dec0bd8041": "對照完整句子：「退貨只佔總銷售的很小比例。」。這裡的「proportion of total sales」表示「收入／成本／銷售的佔比」。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "proportion-mcq-57"
+      "correctOption": "proportion-reviewed-dec0bd8041",
+      "previousCorrectOption": "proportion-mcq-57",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "proportion-81-1",
-      "sense": "proportion-mcq-57",
+      "sense": "proportion-reviewed-dec0bd8041",
       "en": "Delivery costs represent a growing proportion of expenses.",
       "zh": "送貨成本佔總開支的比例正在上升。",
       "masked": "Delivery costs represent a growing ____ of expenses.",
       "options": [
-        "proportion-mcq-57",
-        "proportion-mcq-56",
-        "proportion-mcq-58",
-        "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-53"
+        "proportion-reviewed-dec0bd8041",
+        "proportion-mcq-44",
+        "proportion-mcq-15",
+        "proportion-mcq-51"
       ],
-      "explanation": "本句的「proportion」指「母體比例」。",
+      "explanation": "對照完整句子：「送貨成本佔總開支的比例正在上升。」。這裡的「proportion」表示「收入／成本／銷售的佔比」。",
       "sentenceIndex": 145,
       "sourcePractice": 2,
       "targets": [
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-57": "本句指「母體比例」。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-reviewed-dec0bd8041": "對照完整句子：「送貨成本佔總開支的比例正在上升。」。這裡的「proportion」表示「收入／成本／銷售的佔比」。",
+        "proportion-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "proportion-mcq-57"
+      "correctOption": "proportion-reviewed-dec0bd8041",
+      "previousCorrectOption": "proportion-mcq-57",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "proportion-82-0",
@@ -5832,11 +5294,9 @@ export default {
       "masked": "What ____ of complaints is accounted for by sizing problems?",
       "options": [
         "proportion-mcq-57",
-        "proportion-mcq-56",
-        "proportion-mcq-58",
-        "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-53"
+        "proportion-mcq-48",
+        "proportion-mcq-43",
+        "proportion-pdf-009"
       ],
       "explanation": "本句的「proportion」指「母體比例」。",
       "sentenceIndex": 146,
@@ -5845,12 +5305,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-57": "本句指「母體比例」。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-57": "本句的「proportion」指「母體比例」。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-57"
     },
@@ -5862,11 +5320,9 @@ export default {
       "masked": "Defects account for only a small ____.",
       "options": [
         "proportion-mcq-57",
-        "proportion-mcq-56",
-        "proportion-mcq-58",
-        "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-53"
+        "proportion-mcq-17",
+        "proportion-pdf-009",
+        "proportion-mcq-47"
       ],
       "explanation": "本句的「proportion」指「母體比例」。",
       "sentenceIndex": 147,
@@ -5875,12 +5331,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-57": "本句指「母體比例」。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-57": "本句的「proportion」指「母體比例」。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-57"
     },
@@ -5892,11 +5346,9 @@ export default {
       "masked": "The sleeves look slightly too long, but the rest of the garment is ____.",
       "options": [
         "proportion-mcq-57",
-        "proportion-mcq-56",
-        "proportion-mcq-58",
-        "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-53"
+        "proportion-mcq-14",
+        "proportion-mcq-46",
+        "proportion-mcq-33"
       ],
       "explanation": "本句的「in proportion」指「母體比例」。",
       "sentenceIndex": 148,
@@ -5905,12 +5357,10 @@ export default {
         "in proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-57": "本句指「母體比例」。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-57": "本句的「in proportion」指「母體比例」。",
+        "proportion-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-57"
     },
@@ -5922,11 +5372,9 @@ export default {
       "masked": "Costs and benefits should remain broadly in ____.",
       "options": [
         "proportion-mcq-57",
-        "proportion-mcq-56",
-        "proportion-mcq-58",
-        "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-53"
+        "proportion-mcq-16",
+        "proportion-mcq-31",
+        "proportion-mcq-43"
       ],
       "explanation": "本句的「proportion」指「母體比例」。",
       "sentenceIndex": 149,
@@ -5935,12 +5383,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-57": "本句指「母體比例」。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-57": "本句的「proportion」指「母體比例」。",
+        "proportion-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-57"
     },
@@ -5952,11 +5398,9 @@ export default {
       "masked": "The sleeves look ____ to the body of the blouse.",
       "options": [
         "proportion-mcq-57",
-        "proportion-mcq-56",
-        "proportion-mcq-58",
-        "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-53"
+        "proportion-mcq-16",
+        "proportion-mcq-46",
+        "proportion-mcq-43"
       ],
       "explanation": "本句的「out of proportion」指「母體比例」。",
       "sentenceIndex": 150,
@@ -5965,12 +5409,10 @@ export default {
         "out of proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-57": "本句指「母體比例」。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-57": "本句的「out of proportion」指「母體比例」。",
+        "proportion-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-57"
     },
@@ -5982,11 +5424,9 @@ export default {
       "masked": "The reaction was out of ____.",
       "options": [
         "proportion-mcq-57",
-        "proportion-mcq-56",
-        "proportion-mcq-58",
-        "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-53"
+        "proportion-mcq-15",
+        "proportion-pdf-005",
+        "proportion-mcq-45"
       ],
       "explanation": "本句的「proportion」指「母體比例」。",
       "sentenceIndex": 151,
@@ -5995,12 +5435,10 @@ export default {
         "proportion"
       ],
       "optionReasons": {
-        "proportion-mcq-57": "本句指「母體比例」。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-58": "「服裝比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-57": "本句的「proportion」指「母體比例」。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-57"
     },
@@ -6012,11 +5450,9 @@ export default {
       "masked": "The jacket's ____ did not suit her body shape.",
       "options": [
         "proportion-mcq-58",
-        "proportion-mcq-57",
-        "proportion-mcq-56",
-        "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-53"
+        "proportion-mcq-33",
+        "proportion-pdf-006",
+        "proportion-mcq-15"
       ],
       "explanation": "本句的「proportions」指「服裝比例」。",
       "sentenceIndex": 152,
@@ -6025,12 +5461,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-58": "本句指「服裝比例」。",
-        "proportion-mcq-57": "「母體比例」與本句語境不同。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-58": "本句的「proportions」指「服裝比例」。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-58"
     },
@@ -6042,11 +5476,9 @@ export default {
       "masked": "Sleeve length can affect the visual ____ of a garment.",
       "options": [
         "proportion-mcq-58",
-        "proportion-mcq-57",
-        "proportion-mcq-56",
-        "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-53"
+        "proportion-mcq-17",
+        "proportion-mcq-47",
+        "proportion-mcq-51"
       ],
       "explanation": "本句的「proportions」指「服裝比例」。",
       "sentenceIndex": 153,
@@ -6055,12 +5487,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-58": "本句指「服裝比例」。",
-        "proportion-mcq-57": "「母體比例」與本句語境不同。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-58": "本句的「proportions」指「服裝比例」。",
+        "proportion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-58"
     },
@@ -6072,11 +5502,9 @@ export default {
       "masked": "Petite clothing is ____.",
       "options": [
         "proportion-mcq-58",
-        "proportion-mcq-57",
-        "proportion-mcq-56",
-        "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-53"
+        "proportion-mcq-33",
+        "proportion-pdf-001",
+        "proportion-mcq-51"
       ],
       "explanation": "本句的「proportioned for shorter frames」指「服裝比例」。",
       "sentenceIndex": 154,
@@ -6085,12 +5513,10 @@ export default {
         "proportioned for shorter frames"
       ],
       "optionReasons": {
-        "proportion-mcq-58": "本句指「服裝比例」。",
-        "proportion-mcq-57": "「母體比例」與本句語境不同。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-58": "本句的「proportioned for shorter frames」指「服裝比例」。",
+        "proportion-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-58"
     },
@@ -6102,11 +5528,9 @@ export default {
       "masked": "The same waist measurement does not mean the same overall ____.",
       "options": [
         "proportion-mcq-58",
-        "proportion-mcq-57",
-        "proportion-mcq-56",
-        "proportion-mcq-55",
-        "proportion-mcq-54",
-        "proportion-mcq-53"
+        "proportion-mcq-45",
+        "proportion-pdf-009",
+        "proportion-mcq-48"
       ],
       "explanation": "本句的「proportions」指「服裝比例」。",
       "sentenceIndex": 155,
@@ -6115,12 +5539,10 @@ export default {
         "proportions"
       ],
       "optionReasons": {
-        "proportion-mcq-58": "本句指「服裝比例」。",
-        "proportion-mcq-57": "「母體比例」與本句語境不同。",
-        "proportion-mcq-56": "「樣本比例」與本句語境不同。",
-        "proportion-mcq-55": "「等比例／等份」與本句語境不同。",
-        "proportion-mcq-54": "「比例式」與本句語境不同。",
-        "proportion-mcq-53": "「反比例」與本句語境不同。"
+        "proportion-mcq-58": "本句的「proportions」指「服裝比例」。",
+        "proportion-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "proportion-pdf-009": "請比較這個意思與句子中標示的用法。",
+        "proportion-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proportion-mcq-58"
     }
@@ -6132,5 +5554,7 @@ export default {
     "sha256": "0335947462370527a8708f0c982ea99817ed4d256c439028045d8602bccc69e6",
     "pages": 56
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -465,7 +465,7 @@ export default {
     },
     {
       "id": "wall-mcq-22",
-      "title": "表示牆；牆壁",
+      "title": "牆；牆壁",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示牆；牆壁",
@@ -487,7 +487,7 @@ export default {
     },
     {
       "id": "wall-mcq-23",
-      "title": "表示圍牆；牆；屏障",
+      "title": "圍牆；牆；屏障",
       "form": "4. wall — structure built to divide or protect an area",
       "en": "4. wall — structure built to divide or protect an area",
       "zh": "表示圍牆；牆；屏障",
@@ -509,7 +509,7 @@ export default {
     },
     {
       "id": "wall-mcq-24",
-      "title": "表示隔閡；障礙；屏障",
+      "title": "隔閡；障礙；屏障",
       "form": "7. wall — obstacle preventing communication, progress, or contact",
       "en": "7. wall — obstacle preventing communication, progress, or contact",
       "zh": "表示隔閡；障礙；屏障",
@@ -531,7 +531,7 @@ export default {
     },
     {
       "id": "wall-mcq-25",
-      "title": "表示人牆",
+      "title": "人牆",
       "form": "13. wall — line of players blocking a free kick",
       "en": "13. wall — line of players blocking a free kick",
       "zh": "表示人牆",
@@ -553,7 +553,7 @@ export default {
     },
     {
       "id": "wall-mcq-26",
-      "title": "表示壁；器官壁",
+      "title": "壁；器官壁",
       "form": "14. wall — outer or enclosing layer of an organ/body structure",
       "en": "14. wall — outer or enclosing layer of an organ/body structure",
       "zh": "表示壁；器官壁",
@@ -575,7 +575,7 @@ export default {
     },
     {
       "id": "wall-mcq-27",
-      "title": "表示大量資金；資金牆",
+      "title": "大量資金；資金牆",
       "form": "17. wall — wall of money / capital",
       "en": "17. wall — wall of money / capital",
       "zh": "表示大量資金；資金牆",
@@ -597,7 +597,7 @@ export default {
     },
     {
       "id": "wall-mcq-28",
-      "title": "表示壁紙；牆紙",
+      "title": "壁紙；牆紙",
       "form": "29. wallpaper",
       "en": "29. wallpaper",
       "zh": "表示壁紙；牆紙",
@@ -627,11 +627,9 @@ export default {
       "masked": "The torch created a shadow on the ____.",
       "options": [
         "wall-mcq-22",
-        "wall-mcq-21",
-        "wall-mcq-23",
-        "wall-mcq-20",
-        "wall-mcq-24",
-        "wall-mcq-19"
+        "wall-mcq-14",
+        "wall-mcq-16",
+        "wall-mcq-18"
       ],
       "explanation": "本句的「wall」指「表示牆；牆壁」。",
       "sentenceIndex": 0,
@@ -640,12 +638,10 @@ export default {
         "wall"
       ],
       "optionReasons": {
-        "wall-mcq-22": "本句指「表示牆；牆壁」。",
-        "wall-mcq-21": "「被牆包圍或圍住的」是「walled」的用法，與本句語境不同。",
-        "wall-mcq-23": "「表示圍牆；牆；屏障」是「4. wall — structure built to divide or protect an area」的用法，與本句語境不同。",
-        "wall-mcq-20": "「從一面牆延伸到另一面；比喻全面、到處都是」是「wall-to-wall」的用法，與本句語境不同。",
-        "wall-mcq-24": "「表示隔閡；障礙；屏障」是「7. wall — obstacle preventing communication, progress, or contact」的用法，與本句語境不同。",
-        "wall-mcq-19": "「能在不被注意的情況下旁觀別人活動的人／視角」是「fly on the wall」的用法，與本句語境不同。"
+        "wall-mcq-22": "本句的「wall」指「表示牆；牆壁」。",
+        "wall-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-22"
     },
@@ -657,11 +653,9 @@ export default {
       "masked": "She drew a diagram on the classroom ____.",
       "options": [
         "wall-mcq-22",
-        "wall-mcq-21",
-        "wall-mcq-23",
-        "wall-mcq-20",
-        "wall-mcq-24",
-        "wall-mcq-19"
+        "wall-mcq-13",
+        "wall-mcq-17",
+        "wall-mcq-18"
       ],
       "explanation": "本句的「wall」指「表示牆；牆壁」。",
       "sentenceIndex": 1,
@@ -670,12 +664,10 @@ export default {
         "wall"
       ],
       "optionReasons": {
-        "wall-mcq-22": "本句指「表示牆；牆壁」。",
-        "wall-mcq-21": "「被牆包圍或圍住的」是「walled」的用法，與本句語境不同。",
-        "wall-mcq-23": "「表示圍牆；牆；屏障」是「4. wall — structure built to divide or protect an area」的用法，與本句語境不同。",
-        "wall-mcq-20": "「從一面牆延伸到另一面；比喻全面、到處都是」是「wall-to-wall」的用法，與本句語境不同。",
-        "wall-mcq-24": "「表示隔閡；障礙；屏障」是「7. wall — obstacle preventing communication, progress, or contact」的用法，與本句語境不同。",
-        "wall-mcq-19": "「能在不被注意的情況下旁觀別人活動的人／視角」是「fly on the wall」的用法，與本句語境不同。"
+        "wall-mcq-22": "本句的「wall」指「表示牆；牆壁」。",
+        "wall-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-22"
     },
@@ -687,11 +679,9 @@ export default {
       "masked": "There is a clock on the ____.",
       "options": [
         "wall-mcq-01",
-        "wall-mcq-02",
-        "wall-mcq-03",
-        "wall-mcq-04",
-        "wall-mcq-05",
-        "wall-mcq-06"
+        "wall-mcq-19",
+        "wall-mcq-24",
+        "wall-mcq-16"
       ],
       "explanation": "本句的「wall」指「構成房間或建築物側面的垂直結構；牆／牆壁」。",
       "sentenceIndex": 2,
@@ -700,12 +690,10 @@ export default {
         "wall"
       ],
       "optionReasons": {
-        "wall-mcq-01": "本句指「構成房間或建築物側面的垂直結構；牆／牆壁」。",
-        "wall-mcq-02": "「用來分隔、包圍或保護地方的實體牆／圍牆」是「wall — boundary/enclosure」的用法，與本句語境不同。",
-        "wall-mcq-03": "「用於防禦並圍繞城市的城牆」是「city wall」的用法，與本句語境不同。",
-        "wall-mcq-04": "「陡直的岩石、冰等天然表面；岩壁／冰壁」是「wall — natural steep face」的用法，與本句語境不同。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-06": "「在情感上防備別人，不讓人接近；築起心牆」是「put up walls」的用法，與本句語境不同。"
+        "wall-mcq-01": "本句的「wall」指「構成房間或建築物側面的垂直結構；牆／牆壁」。",
+        "wall-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-01"
     },
@@ -717,11 +705,9 @@ export default {
       "masked": "The room has white ____.",
       "options": [
         "wall-mcq-01",
-        "wall-mcq-02",
-        "wall-mcq-03",
-        "wall-mcq-04",
-        "wall-mcq-05",
-        "wall-mcq-06"
+        "wall-mcq-15",
+        "wall-mcq-17",
+        "wall-mcq-16"
       ],
       "explanation": "本句的「walls」指「構成房間或建築物側面的垂直結構；牆／牆壁」。",
       "sentenceIndex": 3,
@@ -730,12 +716,10 @@ export default {
         "walls"
       ],
       "optionReasons": {
-        "wall-mcq-01": "本句指「構成房間或建築物側面的垂直結構；牆／牆壁」。",
-        "wall-mcq-02": "「用來分隔、包圍或保護地方的實體牆／圍牆」是「wall — boundary/enclosure」的用法，與本句語境不同。",
-        "wall-mcq-03": "「用於防禦並圍繞城市的城牆」是「city wall」的用法，與本句語境不同。",
-        "wall-mcq-04": "「陡直的岩石、冰等天然表面；岩壁／冰壁」是「wall — natural steep face」的用法，與本句語境不同。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-06": "「在情感上防備別人，不讓人接近；築起心牆」是「put up walls」的用法，與本句語境不同。"
+        "wall-mcq-01": "本句的「walls」指「構成房間或建築物側面的垂直結構；牆／牆壁」。",
+        "wall-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-01"
     },
@@ -747,11 +731,9 @@ export default {
       "masked": "The outer ____ needs repair.",
       "options": [
         "wall-mcq-01",
-        "wall-mcq-02",
-        "wall-mcq-03",
-        "wall-mcq-04",
-        "wall-mcq-05",
-        "wall-mcq-06"
+        "wall-mcq-15",
+        "wall-mcq-24",
+        "wall-mcq-17"
       ],
       "explanation": "本句的「wall」指「構成房間或建築物側面的垂直結構；牆／牆壁」。",
       "sentenceIndex": 4,
@@ -760,12 +742,10 @@ export default {
         "wall"
       ],
       "optionReasons": {
-        "wall-mcq-01": "本句指「構成房間或建築物側面的垂直結構；牆／牆壁」。",
-        "wall-mcq-02": "「用來分隔、包圍或保護地方的實體牆／圍牆」是「wall — boundary/enclosure」的用法，與本句語境不同。",
-        "wall-mcq-03": "「用於防禦並圍繞城市的城牆」是「city wall」的用法，與本句語境不同。",
-        "wall-mcq-04": "「陡直的岩石、冰等天然表面；岩壁／冰壁」是「wall — natural steep face」的用法，與本句語境不同。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-06": "「在情感上防備別人，不讓人接近；築起心牆」是「put up walls」的用法，與本句語境不同。"
+        "wall-mcq-01": "本句的「wall」指「構成房間或建築物側面的垂直結構；牆／牆壁」。",
+        "wall-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-01"
     },
@@ -777,11 +757,9 @@ export default {
       "masked": "A crack appeared in the ____.",
       "options": [
         "wall-mcq-01",
-        "wall-mcq-02",
-        "wall-mcq-03",
-        "wall-mcq-04",
-        "wall-mcq-05",
-        "wall-mcq-06"
+        "wall-mcq-19",
+        "wall-mcq-17",
+        "wall-mcq-13"
       ],
       "explanation": "本句的「wall」指「構成房間或建築物側面的垂直結構；牆／牆壁」。",
       "sentenceIndex": 5,
@@ -790,12 +768,10 @@ export default {
         "wall"
       ],
       "optionReasons": {
-        "wall-mcq-01": "本句指「構成房間或建築物側面的垂直結構；牆／牆壁」。",
-        "wall-mcq-02": "「用來分隔、包圍或保護地方的實體牆／圍牆」是「wall — boundary/enclosure」的用法，與本句語境不同。",
-        "wall-mcq-03": "「用於防禦並圍繞城市的城牆」是「city wall」的用法，與本句語境不同。",
-        "wall-mcq-04": "「陡直的岩石、冰等天然表面；岩壁／冰壁」是「wall — natural steep face」的用法，與本句語境不同。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-06": "「在情感上防備別人，不讓人接近；築起心牆」是「put up walls」的用法，與本句語境不同。"
+        "wall-mcq-01": "本句的「wall」指「構成房間或建築物側面的垂直結構；牆／牆壁」。",
+        "wall-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-01"
     },
@@ -807,11 +783,9 @@ export default {
       "masked": "A high ____ surrounds the garden.",
       "options": [
         "wall-mcq-23",
-        "wall-mcq-22",
-        "wall-mcq-24",
-        "wall-mcq-21",
-        "wall-mcq-25",
-        "wall-mcq-20"
+        "wall-mcq-18",
+        "wall-mcq-26",
+        "wall-mcq-19"
       ],
       "explanation": "本句的「wall」指「表示圍牆；牆；屏障」。",
       "sentenceIndex": 6,
@@ -820,12 +794,10 @@ export default {
         "wall"
       ],
       "optionReasons": {
-        "wall-mcq-23": "本句指「表示圍牆；牆；屏障」。",
-        "wall-mcq-22": "「表示牆；牆壁」是「Passage meaning」的用法，與本句語境不同。",
-        "wall-mcq-24": "「表示隔閡；障礙；屏障」是「7. wall — obstacle preventing communication, progress, or contact」的用法，與本句語境不同。",
-        "wall-mcq-21": "「被牆包圍或圍住的」是「walled」的用法，與本句語境不同。",
-        "wall-mcq-25": "「表示人牆」是「13. wall — line of players blocking a free kick」的用法，與本句語境不同。",
-        "wall-mcq-20": "「從一面牆延伸到另一面；比喻全面、到處都是」是「wall-to-wall」的用法，與本句語境不同。"
+        "wall-mcq-23": "本句的「wall」指「表示圍牆；牆；屏障」。",
+        "wall-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-23"
     },
@@ -837,11 +809,9 @@ export default {
       "masked": "They built a ____ around the property.",
       "options": [
         "wall-mcq-23",
-        "wall-mcq-22",
-        "wall-mcq-24",
-        "wall-mcq-21",
-        "wall-mcq-25",
-        "wall-mcq-20"
+        "wall-mcq-15",
+        "wall-mcq-04",
+        "wall-mcq-18"
       ],
       "explanation": "本句的「wall」指「表示圍牆；牆；屏障」。",
       "sentenceIndex": 7,
@@ -850,12 +820,10 @@ export default {
         "wall"
       ],
       "optionReasons": {
-        "wall-mcq-23": "本句指「表示圍牆；牆；屏障」。",
-        "wall-mcq-22": "「表示牆；牆壁」是「Passage meaning」的用法，與本句語境不同。",
-        "wall-mcq-24": "「表示隔閡；障礙；屏障」是「7. wall — obstacle preventing communication, progress, or contact」的用法，與本句語境不同。",
-        "wall-mcq-21": "「被牆包圍或圍住的」是「walled」的用法，與本句語境不同。",
-        "wall-mcq-25": "「表示人牆」是「13. wall — line of players blocking a free kick」的用法，與本句語境不同。",
-        "wall-mcq-20": "「從一面牆延伸到另一面；比喻全面、到處都是」是「wall-to-wall」的用法，與本句語境不同。"
+        "wall-mcq-23": "本句的「wall」指「表示圍牆；牆；屏障」。",
+        "wall-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-23"
     },
@@ -867,11 +835,9 @@ export default {
       "masked": "Parts of the old ____ still remain.",
       "options": [
         "wall-mcq-03",
-        "wall-mcq-02",
-        "wall-mcq-04",
-        "wall-mcq-01",
-        "wall-mcq-05",
-        "wall-mcq-06"
+        "wall-mcq-26",
+        "wall-mcq-13",
+        "wall-mcq-19"
       ],
       "explanation": "本句的「city wall」指「用於防禦並圍繞城市的城牆」。",
       "sentenceIndex": 8,
@@ -880,12 +846,10 @@ export default {
         "city wall"
       ],
       "optionReasons": {
-        "wall-mcq-03": "本句指「用於防禦並圍繞城市的城牆」。",
-        "wall-mcq-02": "「用來分隔、包圍或保護地方的實體牆／圍牆」是「wall — boundary/enclosure」的用法，與本句語境不同。",
-        "wall-mcq-04": "「陡直的岩石、冰等天然表面；岩壁／冰壁」是「wall — natural steep face」的用法，與本句語境不同。",
-        "wall-mcq-01": "「構成房間或建築物側面的垂直結構；牆／牆壁」是「wall — room/building structure」的用法，與本句語境不同。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-06": "「在情感上防備別人，不讓人接近；築起心牆」是「put up walls」的用法，與本句語境不同。"
+        "wall-mcq-03": "本句的「city wall」指「用於防禦並圍繞城市的城牆」。",
+        "wall-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-03"
     },
@@ -897,11 +861,9 @@ export default {
       "masked": "The town was once protected by a stone ____.",
       "options": [
         "wall-mcq-03",
-        "wall-mcq-02",
-        "wall-mcq-04",
-        "wall-mcq-01",
-        "wall-mcq-05",
-        "wall-mcq-06"
+        "wall-mcq-16",
+        "wall-mcq-15",
+        "wall-mcq-12"
       ],
       "explanation": "本句的「wall」指「用於防禦並圍繞城市的城牆」。",
       "sentenceIndex": 9,
@@ -910,12 +872,10 @@ export default {
         "wall"
       ],
       "optionReasons": {
-        "wall-mcq-03": "本句指「用於防禦並圍繞城市的城牆」。",
-        "wall-mcq-02": "「用來分隔、包圍或保護地方的實體牆／圍牆」是「wall — boundary/enclosure」的用法，與本句語境不同。",
-        "wall-mcq-04": "「陡直的岩石、冰等天然表面；岩壁／冰壁」是「wall — natural steep face」的用法，與本句語境不同。",
-        "wall-mcq-01": "「構成房間或建築物側面的垂直結構；牆／牆壁」是「wall — room/building structure」的用法，與本句語境不同。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-06": "「在情感上防備別人，不讓人接近；築起心牆」是「put up walls」的用法，與本句語境不同。"
+        "wall-mcq-03": "本句的「wall」指「用於防禦並圍繞城市的城牆」。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-03"
     },
@@ -927,11 +887,9 @@ export default {
       "masked": "The climbers reached a vertical rock ____.",
       "options": [
         "wall-mcq-04",
-        "wall-mcq-03",
-        "wall-mcq-05",
-        "wall-mcq-02",
-        "wall-mcq-06",
-        "wall-mcq-01"
+        "wall-mcq-27",
+        "wall-mcq-23",
+        "wall-mcq-15"
       ],
       "explanation": "本句的「wall」指「陡直的岩石、冰等天然表面；岩壁／冰壁」。",
       "sentenceIndex": 10,
@@ -940,12 +898,10 @@ export default {
         "wall"
       ],
       "optionReasons": {
-        "wall-mcq-04": "本句指「陡直的岩石、冰等天然表面；岩壁／冰壁」。",
-        "wall-mcq-03": "「用於防禦並圍繞城市的城牆」是「city wall」的用法，與本句語境不同。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-02": "「用來分隔、包圍或保護地方的實體牆／圍牆」是「wall — boundary/enclosure」的用法，與本句語境不同。",
-        "wall-mcq-06": "「在情感上防備別人，不讓人接近；築起心牆」是「put up walls」的用法，與本句語境不同。",
-        "wall-mcq-01": "「構成房間或建築物側面的垂直結構；牆／牆壁」是「wall — room/building structure」的用法，與本句語境不同。"
+        "wall-mcq-04": "本句的「wall」指「陡直的岩石、冰等天然表面；岩壁／冰壁」。",
+        "wall-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-04"
     },
@@ -957,11 +913,9 @@ export default {
       "masked": "The glacier formed a huge ____.",
       "options": [
         "wall-mcq-04",
-        "wall-mcq-03",
-        "wall-mcq-05",
-        "wall-mcq-02",
-        "wall-mcq-06",
-        "wall-mcq-01"
+        "wall-mcq-21",
+        "wall-mcq-15",
+        "wall-mcq-20"
       ],
       "explanation": "本句的「wall of ice」指「陡直的岩石、冰等天然表面；岩壁／冰壁」。",
       "sentenceIndex": 11,
@@ -970,12 +924,10 @@ export default {
         "wall of ice"
       ],
       "optionReasons": {
-        "wall-mcq-04": "本句指「陡直的岩石、冰等天然表面；岩壁／冰壁」。",
-        "wall-mcq-03": "「用於防禦並圍繞城市的城牆」是「city wall」的用法，與本句語境不同。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-02": "「用來分隔、包圍或保護地方的實體牆／圍牆」是「wall — boundary/enclosure」的用法，與本句語境不同。",
-        "wall-mcq-06": "「在情感上防備別人，不讓人接近；築起心牆」是「put up walls」的用法，與本句語境不同。",
-        "wall-mcq-01": "「構成房間或建築物側面的垂直結構；牆／牆壁」是「wall — room/building structure」的用法，與本句語境不同。"
+        "wall-mcq-04": "本句的「wall of ice」指「陡直的岩石、冰等天然表面；岩壁／冰壁」。",
+        "wall-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-04"
     },
@@ -987,11 +939,9 @@ export default {
       "masked": "Lack of trust created a ____ between them.",
       "options": [
         "wall-mcq-24",
-        "wall-mcq-23",
-        "wall-mcq-25",
         "wall-mcq-22",
-        "wall-mcq-26",
-        "wall-mcq-21"
+        "wall-mcq-19",
+        "wall-mcq-17"
       ],
       "explanation": "本句的「wall」指「表示隔閡；障礙；屏障」。",
       "sentenceIndex": 12,
@@ -1000,12 +950,10 @@ export default {
         "wall"
       ],
       "optionReasons": {
-        "wall-mcq-24": "本句指「表示隔閡；障礙；屏障」。",
-        "wall-mcq-23": "「表示圍牆；牆；屏障」是「4. wall — structure built to divide or protect an area」的用法，與本句語境不同。",
-        "wall-mcq-25": "「表示人牆」是「13. wall — line of players blocking a free kick」的用法，與本句語境不同。",
-        "wall-mcq-22": "「表示牆；牆壁」是「Passage meaning」的用法，與本句語境不同。",
-        "wall-mcq-26": "「表示壁；器官壁」是「14. wall — outer or enclosing layer of an organ/body structure」的用法，與本句語境不同。",
-        "wall-mcq-21": "「被牆包圍或圍住的」是「walled」的用法，與本句語境不同。"
+        "wall-mcq-24": "本句的「wall」指「表示隔閡；障礙；屏障」。",
+        "wall-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-24"
     },
@@ -1017,11 +965,9 @@ export default {
       "masked": "Fear can become a ____ that stops people from trying.",
       "options": [
         "wall-mcq-24",
-        "wall-mcq-23",
-        "wall-mcq-25",
-        "wall-mcq-22",
-        "wall-mcq-26",
-        "wall-mcq-21"
+        "wall-mcq-14",
+        "wall-mcq-17",
+        "wall-mcq-01"
       ],
       "explanation": "本句的「wall」指「表示隔閡；障礙；屏障」。",
       "sentenceIndex": 13,
@@ -1030,12 +976,10 @@ export default {
         "wall"
       ],
       "optionReasons": {
-        "wall-mcq-24": "本句指「表示隔閡；障礙；屏障」。",
-        "wall-mcq-23": "「表示圍牆；牆；屏障」是「4. wall — structure built to divide or protect an area」的用法，與本句語境不同。",
-        "wall-mcq-25": "「表示人牆」是「13. wall — line of players blocking a free kick」的用法，與本句語境不同。",
-        "wall-mcq-22": "「表示牆；牆壁」是「Passage meaning」的用法，與本句語境不同。",
-        "wall-mcq-26": "「表示壁；器官壁」是「14. wall — outer or enclosing layer of an organ/body structure」的用法，與本句語境不同。",
-        "wall-mcq-21": "「被牆包圍或圍住的」是「walled」的用法，與本句語境不同。"
+        "wall-mcq-24": "本句的「wall」指「表示隔閡；障礙；屏障」。",
+        "wall-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-24"
     },
@@ -1047,11 +991,9 @@ export default {
       "masked": "He ____ whenever the conversation became personal.",
       "options": [
         "wall-mcq-06",
-        "wall-mcq-05",
-        "wall-mcq-07",
-        "wall-mcq-04",
-        "wall-mcq-08",
-        "wall-mcq-03"
+        "wall-mcq-26",
+        "wall-mcq-13",
+        "wall-mcq-16"
       ],
       "explanation": "本句的「put up a wall」指「在情感上防備別人，不讓人接近；築起心牆」。",
       "sentenceIndex": 14,
@@ -1060,12 +1002,10 @@ export default {
         "put up a wall"
       ],
       "optionReasons": {
-        "wall-mcq-06": "本句指「在情感上防備別人，不讓人接近；築起心牆」。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-07": "「像牆一樣密集、巨大或迎面而來的一大片物質／力量」是「wall of smoke/heat/water」的用法，與本句語境不同。",
-        "wall-mcq-04": "「陡直的岩石、冰等天然表面；岩壁／冰壁」是「wall — natural steep face」的用法，與本句語境不同。",
-        "wall-mcq-08": "「足球自由球時防守球員排成的阻擋隊列；人牆」是「wall — football」的用法，與本句語境不同。",
-        "wall-mcq-03": "「用於防禦並圍繞城市的城牆」是「city wall」的用法，與本句語境不同。"
+        "wall-mcq-06": "本句的「put up a wall」指「在情感上防備別人，不讓人接近；築起心牆」。",
+        "wall-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-06"
     },
@@ -1077,11 +1017,9 @@ export default {
       "masked": "Years of conflict ____.",
       "options": [
         "wall-mcq-06",
-        "wall-mcq-05",
-        "wall-mcq-07",
-        "wall-mcq-04",
-        "wall-mcq-08",
-        "wall-mcq-03"
+        "wall-mcq-10",
+        "wall-mcq-17",
+        "wall-mcq-18"
       ],
       "explanation": "本句的「built a wall between them」指「在情感上防備別人，不讓人接近；築起心牆」。",
       "sentenceIndex": 15,
@@ -1090,12 +1028,10 @@ export default {
         "built a wall between them"
       ],
       "optionReasons": {
-        "wall-mcq-06": "本句指「在情感上防備別人，不讓人接近；築起心牆」。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-07": "「像牆一樣密集、巨大或迎面而來的一大片物質／力量」是「wall of smoke/heat/water」的用法，與本句語境不同。",
-        "wall-mcq-04": "「陡直的岩石、冰等天然表面；岩壁／冰壁」是「wall — natural steep face」的用法，與本句語境不同。",
-        "wall-mcq-08": "「足球自由球時防守球員排成的阻擋隊列；人牆」是「wall — football」的用法，與本句語境不同。",
-        "wall-mcq-03": "「用於防禦並圍繞城市的城牆」是「city wall」的用法，與本句語境不同。"
+        "wall-mcq-06": "本句的「built a wall between them」指「在情感上防備別人，不讓人接近；築起心牆」。",
+        "wall-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-06"
     },
@@ -1107,11 +1043,9 @@ export default {
       "masked": "After being hurt, she ____.",
       "options": [
         "wall-mcq-06",
-        "wall-mcq-05",
-        "wall-mcq-07",
-        "wall-mcq-04",
-        "wall-mcq-08",
-        "wall-mcq-03"
+        "wall-mcq-24",
+        "wall-mcq-18",
+        "wall-mcq-16"
       ],
       "explanation": "本句的「put up walls」指「在情感上防備別人，不讓人接近；築起心牆」。",
       "sentenceIndex": 16,
@@ -1120,12 +1054,10 @@ export default {
         "put up walls"
       ],
       "optionReasons": {
-        "wall-mcq-06": "本句指「在情感上防備別人，不讓人接近；築起心牆」。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-07": "「像牆一樣密集、巨大或迎面而來的一大片物質／力量」是「wall of smoke/heat/water」的用法，與本句語境不同。",
-        "wall-mcq-04": "「陡直的岩石、冰等天然表面；岩壁／冰壁」是「wall — natural steep face」的用法，與本句語境不同。",
-        "wall-mcq-08": "「足球自由球時防守球員排成的阻擋隊列；人牆」是「wall — football」的用法，與本句語境不同。",
-        "wall-mcq-03": "「用於防禦並圍繞城市的城牆」是「city wall」的用法，與本句語境不同。"
+        "wall-mcq-06": "本句的「put up walls」指「在情感上防備別人，不讓人接近；築起心牆」。",
+        "wall-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-06"
     },
@@ -1137,11 +1069,9 @@ export default {
       "masked": "It took time for him to lower the ____ he had built around himself.",
       "options": [
         "wall-mcq-06",
-        "wall-mcq-05",
-        "wall-mcq-07",
-        "wall-mcq-04",
-        "wall-mcq-08",
-        "wall-mcq-03"
+        "wall-mcq-16",
+        "wall-mcq-12",
+        "wall-mcq-04"
       ],
       "explanation": "本句的「walls」指「在情感上防備別人，不讓人接近；築起心牆」。",
       "sentenceIndex": 17,
@@ -1150,12 +1080,10 @@ export default {
         "walls"
       ],
       "optionReasons": {
-        "wall-mcq-06": "本句指「在情感上防備別人，不讓人接近；築起心牆」。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-07": "「像牆一樣密集、巨大或迎面而來的一大片物質／力量」是「wall of smoke/heat/water」的用法，與本句語境不同。",
-        "wall-mcq-04": "「陡直的岩石、冰等天然表面；岩壁／冰壁」是「wall — natural steep face」的用法，與本句語境不同。",
-        "wall-mcq-08": "「足球自由球時防守球員排成的阻擋隊列；人牆」是「wall — football」的用法，與本句語境不同。",
-        "wall-mcq-03": "「用於防禦並圍繞城市的城牆」是「city wall」的用法，與本句語境不同。"
+        "wall-mcq-06": "本句的「walls」指「在情感上防備別人，不讓人接近；築起心牆」。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-06"
     },
@@ -1167,11 +1095,9 @@ export default {
       "masked": "A ____ filled the street.",
       "options": [
         "wall-mcq-07",
-        "wall-mcq-06",
-        "wall-mcq-08",
-        "wall-mcq-05",
-        "wall-mcq-09",
-        "wall-mcq-04"
+        "wall-mcq-14",
+        "wall-mcq-16",
+        "wall-mcq-10"
       ],
       "explanation": "本句的「wall of smoke」指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
       "sentenceIndex": 18,
@@ -1180,12 +1106,10 @@ export default {
         "wall of smoke"
       ],
       "optionReasons": {
-        "wall-mcq-07": "本句指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
-        "wall-mcq-06": "「在情感上防備別人，不讓人接近；築起心牆」是「put up walls」的用法，與本句語境不同。",
-        "wall-mcq-08": "「足球自由球時防守球員排成的阻擋隊列；人牆」是「wall — football」的用法，與本句語境不同。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-09": "「器官、血管、細胞等外圍的結構層；壁」是「wall — anatomy」的用法，與本句語境不同。",
-        "wall-mcq-04": "「陡直的岩石、冰等天然表面；岩壁／冰壁」是「wall — natural steep face」的用法，與本句語境不同。"
+        "wall-mcq-07": "本句的「wall of smoke」指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
+        "wall-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-07"
     },
@@ -1197,11 +1121,9 @@ export default {
       "masked": "We were hit by a ____ when the door opened.",
       "options": [
         "wall-mcq-07",
-        "wall-mcq-06",
-        "wall-mcq-08",
-        "wall-mcq-05",
-        "wall-mcq-09",
-        "wall-mcq-04"
+        "wall-mcq-04",
+        "wall-mcq-16",
+        "wall-mcq-17"
       ],
       "explanation": "本句的「wall of heat」指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
       "sentenceIndex": 19,
@@ -1210,12 +1132,10 @@ export default {
         "wall of heat"
       ],
       "optionReasons": {
-        "wall-mcq-07": "本句指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
-        "wall-mcq-06": "「在情感上防備別人，不讓人接近；築起心牆」是「put up walls」的用法，與本句語境不同。",
-        "wall-mcq-08": "「足球自由球時防守球員排成的阻擋隊列；人牆」是「wall — football」的用法，與本句語境不同。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-09": "「器官、血管、細胞等外圍的結構層；壁」是「wall — anatomy」的用法，與本句語境不同。",
-        "wall-mcq-04": "「陡直的岩石、冰等天然表面；岩壁／冰壁」是「wall — natural steep face」的用法，與本句語境不同。"
+        "wall-mcq-07": "本句的「wall of heat」指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
+        "wall-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-07"
     },
@@ -1227,11 +1147,9 @@ export default {
       "masked": "A ____ rushed toward the shore.",
       "options": [
         "wall-mcq-07",
-        "wall-mcq-06",
-        "wall-mcq-08",
-        "wall-mcq-05",
-        "wall-mcq-09",
-        "wall-mcq-04"
+        "wall-mcq-14",
+        "wall-mcq-10",
+        "wall-mcq-24"
       ],
       "explanation": "本句的「wall of water」指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
       "sentenceIndex": 20,
@@ -1240,12 +1158,10 @@ export default {
         "wall of water"
       ],
       "optionReasons": {
-        "wall-mcq-07": "本句指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
-        "wall-mcq-06": "「在情感上防備別人，不讓人接近；築起心牆」是「put up walls」的用法，與本句語境不同。",
-        "wall-mcq-08": "「足球自由球時防守球員排成的阻擋隊列；人牆」是「wall — football」的用法，與本句語境不同。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-09": "「器官、血管、細胞等外圍的結構層；壁」是「wall — anatomy」的用法，與本句語境不同。",
-        "wall-mcq-04": "「陡直的岩石、冰等天然表面；岩壁／冰壁」是「wall — natural steep face」的用法，與本句語境不同。"
+        "wall-mcq-07": "本句的「wall of water」指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
+        "wall-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-07"
     },
@@ -1257,11 +1173,9 @@ export default {
       "masked": "The broken pipe sent a ____ across the floor.",
       "options": [
         "wall-mcq-07",
-        "wall-mcq-06",
-        "wall-mcq-08",
-        "wall-mcq-05",
-        "wall-mcq-09",
-        "wall-mcq-04"
+        "wall-mcq-10",
+        "wall-mcq-18",
+        "wall-mcq-16"
       ],
       "explanation": "本句的「wall of water」指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
       "sentenceIndex": 21,
@@ -1270,12 +1184,10 @@ export default {
         "wall of water"
       ],
       "optionReasons": {
-        "wall-mcq-07": "本句指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
-        "wall-mcq-06": "「在情感上防備別人，不讓人接近；築起心牆」是「put up walls」的用法，與本句語境不同。",
-        "wall-mcq-08": "「足球自由球時防守球員排成的阻擋隊列；人牆」是「wall — football」的用法，與本句語境不同。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-09": "「器官、血管、細胞等外圍的結構層；壁」是「wall — anatomy」的用法，與本句語境不同。",
-        "wall-mcq-04": "「陡直的岩石、冰等天然表面；岩壁／冰壁」是「wall — natural steep face」的用法，與本句語境不同。"
+        "wall-mcq-07": "本句的「wall of water」指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
+        "wall-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-07"
     },
@@ -1287,10 +1199,8 @@ export default {
       "masked": "The band created a huge ____.",
       "options": [
         "wall-mcq-07",
-        "wall-mcq-06",
-        "wall-mcq-08",
-        "wall-mcq-05",
-        "wall-mcq-09",
+        "wall-mcq-16",
+        "wall-mcq-19",
         "wall-mcq-04"
       ],
       "explanation": "本句的「wall of sound」指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
@@ -1300,12 +1210,10 @@ export default {
         "wall of sound"
       ],
       "optionReasons": {
-        "wall-mcq-07": "本句指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
-        "wall-mcq-06": "「在情感上防備別人，不讓人接近；築起心牆」是「put up walls」的用法，與本句語境不同。",
-        "wall-mcq-08": "「足球自由球時防守球員排成的阻擋隊列；人牆」是「wall — football」的用法，與本句語境不同。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-09": "「器官、血管、細胞等外圍的結構層；壁」是「wall — anatomy」的用法，與本句語境不同。",
-        "wall-mcq-04": "「陡直的岩石、冰等天然表面；岩壁／冰壁」是「wall — natural steep face」的用法，與本句語境不同。"
+        "wall-mcq-07": "本句的「wall of sound」指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-07"
     },
@@ -1317,11 +1225,9 @@ export default {
       "masked": "A ____ came from the stadium.",
       "options": [
         "wall-mcq-07",
-        "wall-mcq-06",
-        "wall-mcq-08",
-        "wall-mcq-05",
-        "wall-mcq-09",
-        "wall-mcq-04"
+        "wall-mcq-19",
+        "wall-mcq-26",
+        "wall-mcq-16"
       ],
       "explanation": "本句的「wall of noise」指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
       "sentenceIndex": 23,
@@ -1330,12 +1236,10 @@ export default {
         "wall of noise"
       ],
       "optionReasons": {
-        "wall-mcq-07": "本句指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
-        "wall-mcq-06": "「在情感上防備別人，不讓人接近；築起心牆」是「put up walls」的用法，與本句語境不同。",
-        "wall-mcq-08": "「足球自由球時防守球員排成的阻擋隊列；人牆」是「wall — football」的用法，與本句語境不同。",
-        "wall-mcq-05": "「阻礙溝通、理解、接觸或進展的隔閡／屏障」是「wall — figurative barrier」的用法，與本句語境不同。",
-        "wall-mcq-09": "「器官、血管、細胞等外圍的結構層；壁」是「wall — anatomy」的用法，與本句語境不同。",
-        "wall-mcq-04": "「陡直的岩石、冰等天然表面；岩壁／冰壁」是「wall — natural steep face」的用法，與本句語境不同。"
+        "wall-mcq-07": "本句的「wall of noise」指「像牆一樣密集、巨大或迎面而來的一大片物質／力量」。",
+        "wall-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-07"
     },
@@ -1347,11 +1251,9 @@ export default {
       "masked": "The defenders formed a ____.",
       "options": [
         "wall-mcq-25",
-        "wall-mcq-24",
-        "wall-mcq-26",
-        "wall-mcq-23",
-        "wall-mcq-27",
-        "wall-mcq-22"
+        "wall-mcq-16",
+        "wall-mcq-10",
+        "wall-mcq-24"
       ],
       "explanation": "本句的「wall」指「表示人牆」。",
       "sentenceIndex": 24,
@@ -1360,12 +1262,10 @@ export default {
         "wall"
       ],
       "optionReasons": {
-        "wall-mcq-25": "本句指「表示人牆」。",
-        "wall-mcq-24": "「表示隔閡；障礙；屏障」是「7. wall — obstacle preventing communication, progress, or contact」的用法，與本句語境不同。",
-        "wall-mcq-26": "「表示壁；器官壁」是「14. wall — outer or enclosing layer of an organ/body structure」的用法，與本句語境不同。",
-        "wall-mcq-23": "「表示圍牆；牆；屏障」是「4. wall — structure built to divide or protect an area」的用法，與本句語境不同。",
-        "wall-mcq-27": "「表示大量資金；資金牆」是「17. wall — wall of money / capital」的用法，與本句語境不同。",
-        "wall-mcq-22": "「表示牆；牆壁」是「Passage meaning」的用法，與本句語境不同。"
+        "wall-mcq-25": "本句的「wall」指「表示人牆」。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-25"
     },
@@ -1377,11 +1277,9 @@ export default {
       "masked": "The shot went over the ____.",
       "options": [
         "wall-mcq-25",
-        "wall-mcq-24",
-        "wall-mcq-26",
-        "wall-mcq-23",
-        "wall-mcq-27",
-        "wall-mcq-22"
+        "wall-mcq-14",
+        "wall-mcq-18",
+        "wall-mcq-26"
       ],
       "explanation": "本句的「wall」指「表示人牆」。",
       "sentenceIndex": 25,
@@ -1390,12 +1288,10 @@ export default {
         "wall"
       ],
       "optionReasons": {
-        "wall-mcq-25": "本句指「表示人牆」。",
-        "wall-mcq-24": "「表示隔閡；障礙；屏障」是「7. wall — obstacle preventing communication, progress, or contact」的用法，與本句語境不同。",
-        "wall-mcq-26": "「表示壁；器官壁」是「14. wall — outer or enclosing layer of an organ/body structure」的用法，與本句語境不同。",
-        "wall-mcq-23": "「表示圍牆；牆；屏障」是「4. wall — structure built to divide or protect an area」的用法，與本句語境不同。",
-        "wall-mcq-27": "「表示大量資金；資金牆」是「17. wall — wall of money / capital」的用法，與本句語境不同。",
-        "wall-mcq-22": "「表示牆；牆壁」是「Passage meaning」的用法，與本句語境不同。"
+        "wall-mcq-25": "本句的「wall」指「表示人牆」。",
+        "wall-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-25"
     },
@@ -1408,10 +1304,8 @@ export default {
       "options": [
         "wall-mcq-26",
         "wall-mcq-25",
-        "wall-mcq-27",
-        "wall-mcq-24",
-        "wall-mcq-28",
-        "wall-mcq-23"
+        "wall-mcq-14",
+        "wall-mcq-17"
       ],
       "explanation": "本句的「wall」指「表示壁；器官壁」。",
       "sentenceIndex": 26,
@@ -1420,12 +1314,10 @@ export default {
         "wall"
       ],
       "optionReasons": {
-        "wall-mcq-26": "本句指「表示壁；器官壁」。",
-        "wall-mcq-25": "「表示人牆」是「13. wall — line of players blocking a free kick」的用法，與本句語境不同。",
-        "wall-mcq-27": "「表示大量資金；資金牆」是「17. wall — wall of money / capital」的用法，與本句語境不同。",
-        "wall-mcq-24": "「表示隔閡；障礙；屏障」是「7. wall — obstacle preventing communication, progress, or contact」的用法，與本句語境不同。",
-        "wall-mcq-28": "「表示壁紙；牆紙」是「29. wallpaper」的用法，與本句語境不同。",
-        "wall-mcq-23": "「表示圍牆；牆；屏障」是「4. wall — structure built to divide or protect an area」的用法，與本句語境不同。"
+        "wall-mcq-26": "本句的「wall」指「表示壁；器官壁」。",
+        "wall-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-26"
     },
@@ -1437,11 +1329,9 @@ export default {
       "masked": "The artery ____ became thicker.",
       "options": [
         "wall-mcq-26",
-        "wall-mcq-25",
         "wall-mcq-27",
         "wall-mcq-24",
-        "wall-mcq-28",
-        "wall-mcq-23"
+        "wall-mcq-11"
       ],
       "explanation": "本句的「wall」指「表示壁；器官壁」。",
       "sentenceIndex": 27,
@@ -1450,12 +1340,10 @@ export default {
         "wall"
       ],
       "optionReasons": {
-        "wall-mcq-26": "本句指「表示壁；器官壁」。",
-        "wall-mcq-25": "「表示人牆」是「13. wall — line of players blocking a free kick」的用法，與本句語境不同。",
-        "wall-mcq-27": "「表示大量資金；資金牆」是「17. wall — wall of money / capital」的用法，與本句語境不同。",
-        "wall-mcq-24": "「表示隔閡；障礙；屏障」是「7. wall — obstacle preventing communication, progress, or contact」的用法，與本句語境不同。",
-        "wall-mcq-28": "「表示壁紙；牆紙」是「29. wallpaper」的用法，與本句語境不同。",
-        "wall-mcq-23": "「表示圍牆；牆；屏障」是「4. wall — structure built to divide or protect an area」的用法，與本句語境不同。"
+        "wall-mcq-26": "本句的「wall」指「表示壁；器官壁」。",
+        "wall-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-26"
     },
@@ -1467,11 +1355,9 @@ export default {
       "masked": "Plant cells have a ____.",
       "options": [
         "wall-mcq-10",
-        "wall-mcq-09",
-        "wall-mcq-11",
-        "wall-mcq-08",
-        "wall-mcq-12",
-        "wall-mcq-07"
+        "wall-mcq-17",
+        "wall-mcq-03",
+        "wall-mcq-15"
       ],
       "explanation": "本句的「cell wall」指「植物、真菌、細菌等細胞外部的結構性細胞壁」。",
       "sentenceIndex": 28,
@@ -1480,12 +1366,10 @@ export default {
         "cell wall"
       ],
       "optionReasons": {
-        "wall-mcq-10": "本句指「植物、真菌、細菌等細胞外部的結構性細胞壁」。",
-        "wall-mcq-09": "「器官、血管、細胞等外圍的結構層；壁」是「wall — anatomy」的用法，與本句語境不同。",
-        "wall-mcq-11": "「顯示貼文、留言等內容的個人動態牆／留言牆」是「wall — social media」的用法，與本句語境不同。",
-        "wall-mcq-08": "「足球自由球時防守球員排成的阻擋隊列；人牆」是「wall — football」的用法，與本句語境不同。",
-        "wall-mcq-12": "「遇到難以突破的障礙或瓶頸；碰壁」是「hit a wall」的用法，與本句語境不同。",
-        "wall-mcq-07": "「像牆一樣密集、巨大或迎面而來的一大片物質／力量」是「wall of smoke/heat/water」的用法，與本句語境不同。"
+        "wall-mcq-10": "本句的「cell wall」指「植物、真菌、細菌等細胞外部的結構性細胞壁」。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-10"
     },
@@ -1497,11 +1381,9 @@ export default {
       "masked": "The ____ provides structural support.",
       "options": [
         "wall-mcq-10",
-        "wall-mcq-09",
-        "wall-mcq-11",
-        "wall-mcq-08",
-        "wall-mcq-12",
-        "wall-mcq-07"
+        "wall-mcq-23",
+        "wall-mcq-17",
+        "wall-mcq-20"
       ],
       "explanation": "本句的「cell wall」指「植物、真菌、細菌等細胞外部的結構性細胞壁」。",
       "sentenceIndex": 29,
@@ -1510,12 +1392,10 @@ export default {
         "cell wall"
       ],
       "optionReasons": {
-        "wall-mcq-10": "本句指「植物、真菌、細菌等細胞外部的結構性細胞壁」。",
-        "wall-mcq-09": "「器官、血管、細胞等外圍的結構層；壁」是「wall — anatomy」的用法，與本句語境不同。",
-        "wall-mcq-11": "「顯示貼文、留言等內容的個人動態牆／留言牆」是「wall — social media」的用法，與本句語境不同。",
-        "wall-mcq-08": "「足球自由球時防守球員排成的阻擋隊列；人牆」是「wall — football」的用法，與本句語境不同。",
-        "wall-mcq-12": "「遇到難以突破的障礙或瓶頸；碰壁」是「hit a wall」的用法，與本句語境不同。",
-        "wall-mcq-07": "「像牆一樣密集、巨大或迎面而來的一大片物質／力量」是「wall of smoke/heat/water」的用法，與本句語境不同。"
+        "wall-mcq-10": "本句的「cell wall」指「植物、真菌、細菌等細胞外部的結構性細胞壁」。",
+        "wall-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-10"
     },
@@ -1527,11 +1407,9 @@ export default {
       "masked": "She posted a message on his ____.",
       "options": [
         "wall-mcq-11",
-        "wall-mcq-10",
         "wall-mcq-12",
-        "wall-mcq-09",
-        "wall-mcq-13",
-        "wall-mcq-08"
+        "wall-mcq-15",
+        "wall-mcq-17"
       ],
       "explanation": "本句的「wall」指「顯示貼文、留言等內容的個人動態牆／留言牆」。",
       "sentenceIndex": 30,
@@ -1540,12 +1418,10 @@ export default {
         "wall"
       ],
       "optionReasons": {
-        "wall-mcq-11": "本句指「顯示貼文、留言等內容的個人動態牆／留言牆」。",
-        "wall-mcq-10": "「植物、真菌、細菌等細胞外部的結構性細胞壁」是「cell wall」的用法，與本句語境不同。",
-        "wall-mcq-12": "「遇到難以突破的障礙或瓶頸；碰壁」是「hit a wall」的用法，與本句語境不同。",
-        "wall-mcq-09": "「器官、血管、細胞等外圍的結構層；壁」是「wall — anatomy」的用法，與本句語境不同。",
-        "wall-mcq-13": "「遇到強烈阻力、重大障礙」是「run into a wall」的用法，與本句語境不同。",
-        "wall-mcq-08": "「足球自由球時防守球員排成的阻擋隊列；人牆」是「wall — football」的用法，與本句語境不同。"
+        "wall-mcq-11": "本句的「wall」指「顯示貼文、留言等內容的個人動態牆／留言牆」。",
+        "wall-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-11"
     },
@@ -1557,11 +1433,9 @@ export default {
       "masked": "The photo appeared on my ____.",
       "options": [
         "wall-mcq-11",
-        "wall-mcq-10",
         "wall-mcq-12",
-        "wall-mcq-09",
-        "wall-mcq-13",
-        "wall-mcq-08"
+        "wall-mcq-16",
+        "wall-mcq-17"
       ],
       "explanation": "本句的「wall」指「顯示貼文、留言等內容的個人動態牆／留言牆」。",
       "sentenceIndex": 31,
@@ -1570,12 +1444,10 @@ export default {
         "wall"
       ],
       "optionReasons": {
-        "wall-mcq-11": "本句指「顯示貼文、留言等內容的個人動態牆／留言牆」。",
-        "wall-mcq-10": "「植物、真菌、細菌等細胞外部的結構性細胞壁」是「cell wall」的用法，與本句語境不同。",
-        "wall-mcq-12": "「遇到難以突破的障礙或瓶頸；碰壁」是「hit a wall」的用法，與本句語境不同。",
-        "wall-mcq-09": "「器官、血管、細胞等外圍的結構層；壁」是「wall — anatomy」的用法，與本句語境不同。",
-        "wall-mcq-13": "「遇到強烈阻力、重大障礙」是「run into a wall」的用法，與本句語境不同。",
-        "wall-mcq-08": "「足球自由球時防守球員排成的阻擋隊列；人牆」是「wall — football」的用法，與本句語境不同。"
+        "wall-mcq-11": "本句的「wall」指「顯示貼文、留言等內容的個人動態牆／留言牆」。",
+        "wall-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-11"
     },
@@ -1587,11 +1459,9 @@ export default {
       "masked": "A ____ entered the market.",
       "options": [
         "wall-mcq-27",
-        "wall-mcq-26",
-        "wall-mcq-28",
-        "wall-mcq-25",
         "wall-mcq-24",
-        "wall-mcq-23"
+        "wall-mcq-14",
+        "wall-mcq-26"
       ],
       "explanation": "本句的「wall of money」指「表示大量資金；資金牆」。",
       "sentenceIndex": 32,
@@ -1600,12 +1470,10 @@ export default {
         "wall of money"
       ],
       "optionReasons": {
-        "wall-mcq-27": "本句指「表示大量資金；資金牆」。",
-        "wall-mcq-26": "「表示壁；器官壁」是「14. wall — outer or enclosing layer of an organ/body structure」的用法，與本句語境不同。",
-        "wall-mcq-28": "「表示壁紙；牆紙」是「29. wallpaper」的用法，與本句語境不同。",
-        "wall-mcq-25": "「表示人牆」是「13. wall — line of players blocking a free kick」的用法，與本句語境不同。",
-        "wall-mcq-24": "「表示隔閡；障礙；屏障」是「7. wall — obstacle preventing communication, progress, or contact」的用法，與本句語境不同。",
-        "wall-mcq-23": "「表示圍牆；牆；屏障」是「4. wall — structure built to divide or protect an area」的用法，與本句語境不同。"
+        "wall-mcq-27": "本句的「wall of money」指「表示大量資金；資金牆」。",
+        "wall-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-27"
     },
@@ -1617,11 +1485,9 @@ export default {
       "masked": "Investors expected a ____ to support prices.",
       "options": [
         "wall-mcq-27",
-        "wall-mcq-26",
-        "wall-mcq-28",
-        "wall-mcq-25",
-        "wall-mcq-24",
-        "wall-mcq-23"
+        "wall-mcq-15",
+        "wall-mcq-12",
+        "wall-mcq-04"
       ],
       "explanation": "本句的「wall of capital」指「表示大量資金；資金牆」。",
       "sentenceIndex": 33,
@@ -1630,12 +1496,10 @@ export default {
         "wall of capital"
       ],
       "optionReasons": {
-        "wall-mcq-27": "本句指「表示大量資金；資金牆」。",
-        "wall-mcq-26": "「表示壁；器官壁」是「14. wall — outer or enclosing layer of an organ/body structure」的用法，與本句語境不同。",
-        "wall-mcq-28": "「表示壁紙；牆紙」是「29. wallpaper」的用法，與本句語境不同。",
-        "wall-mcq-25": "「表示人牆」是「13. wall — line of players blocking a free kick」的用法，與本句語境不同。",
-        "wall-mcq-24": "「表示隔閡；障礙；屏障」是「7. wall — obstacle preventing communication, progress, or contact」的用法，與本句語境不同。",
-        "wall-mcq-23": "「表示圍牆；牆；屏障」是「4. wall — structure built to divide or protect an area」的用法，與本句語境不同。"
+        "wall-mcq-27": "本句的「wall of capital」指「表示大量資金；資金牆」。",
+        "wall-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-27"
     },
@@ -1647,11 +1511,9 @@ export default {
       "masked": "The car ____.",
       "options": [
         "wall-mcq-12",
-        "wall-mcq-11",
-        "wall-mcq-13",
-        "wall-mcq-10",
-        "wall-mcq-14",
-        "wall-mcq-09"
+        "wall-mcq-18",
+        "wall-mcq-15",
+        "wall-mcq-17"
       ],
       "explanation": "本句的「hit a wall」指「遇到難以突破的障礙或瓶頸；碰壁」。",
       "sentenceIndex": 34,
@@ -1660,12 +1522,10 @@ export default {
         "hit a wall"
       ],
       "optionReasons": {
-        "wall-mcq-12": "本句指「遇到難以突破的障礙或瓶頸；碰壁」。",
-        "wall-mcq-11": "「顯示貼文、留言等內容的個人動態牆／留言牆」是「wall — social media」的用法，與本句語境不同。",
-        "wall-mcq-13": "「遇到強烈阻力、重大障礙」是「run into a wall」的用法，與本句語境不同。",
-        "wall-mcq-10": "「植物、真菌、細菌等細胞外部的結構性細胞壁」是「cell wall」的用法，與本句語境不同。",
-        "wall-mcq-14": "「公司、組織等失敗、倒閉」是「go to the wall」的用法，與本句語境不同。",
-        "wall-mcq-09": "「器官、血管、細胞等外圍的結構層；壁」是「wall — anatomy」的用法，與本句語境不同。"
+        "wall-mcq-12": "本句的「hit a wall」指「遇到難以突破的障礙或瓶頸；碰壁」。",
+        "wall-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-12"
     },
@@ -1677,11 +1537,9 @@ export default {
       "masked": "I was making progress, then suddenly ____.",
       "options": [
         "wall-mcq-12",
-        "wall-mcq-11",
-        "wall-mcq-13",
-        "wall-mcq-10",
-        "wall-mcq-14",
-        "wall-mcq-09"
+        "wall-mcq-07",
+        "wall-mcq-03",
+        "wall-mcq-17"
       ],
       "explanation": "本句的「hit a wall」指「遇到難以突破的障礙或瓶頸；碰壁」。",
       "sentenceIndex": 35,
@@ -1690,12 +1548,10 @@ export default {
         "hit a wall"
       ],
       "optionReasons": {
-        "wall-mcq-12": "本句指「遇到難以突破的障礙或瓶頸；碰壁」。",
-        "wall-mcq-11": "「顯示貼文、留言等內容的個人動態牆／留言牆」是「wall — social media」的用法，與本句語境不同。",
-        "wall-mcq-13": "「遇到強烈阻力、重大障礙」是「run into a wall」的用法，與本句語境不同。",
-        "wall-mcq-10": "「植物、真菌、細菌等細胞外部的結構性細胞壁」是「cell wall」的用法，與本句語境不同。",
-        "wall-mcq-14": "「公司、組織等失敗、倒閉」是「go to the wall」的用法，與本句語境不同。",
-        "wall-mcq-09": "「器官、血管、細胞等外圍的結構層；壁」是「wall — anatomy」的用法，與本句語境不同。"
+        "wall-mcq-12": "本句的「hit a wall」指「遇到難以突破的障礙或瓶頸；碰壁」。",
+        "wall-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-12"
     },
@@ -1707,11 +1563,9 @@ export default {
       "masked": "The project ____ during negotiations.",
       "options": [
         "wall-mcq-13",
-        "wall-mcq-12",
         "wall-mcq-14",
-        "wall-mcq-11",
-        "wall-mcq-15",
-        "wall-mcq-10"
+        "wall-mcq-04",
+        "wall-mcq-03"
       ],
       "explanation": "本句的「ran into a wall」指「遇到強烈阻力、重大障礙」。",
       "sentenceIndex": 36,
@@ -1720,12 +1574,10 @@ export default {
         "ran into a wall"
       ],
       "optionReasons": {
-        "wall-mcq-13": "本句指「遇到強烈阻力、重大障礙」。",
-        "wall-mcq-12": "「遇到難以突破的障礙或瓶頸；碰壁」是「hit a wall」的用法，與本句語境不同。",
-        "wall-mcq-14": "「公司、組織等失敗、倒閉」是「go to the wall」的用法，與本句語境不同。",
-        "wall-mcq-11": "「顯示貼文、留言等內容的個人動態牆／留言牆」是「wall — social media」的用法，與本句語境不同。",
-        "wall-mcq-15": "「使某人極度煩躁、抓狂」是「drive someone up the wall」的用法，與本句語境不同。",
-        "wall-mcq-10": "「植物、真菌、細菌等細胞外部的結構性細胞壁」是「cell wall」的用法，與本句語境不同。"
+        "wall-mcq-13": "本句的「ran into a wall」指「遇到強烈阻力、重大障礙」。",
+        "wall-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-13"
     },
@@ -1737,11 +1589,9 @@ export default {
       "masked": "Our attempts to solve the issue ____.",
       "options": [
         "wall-mcq-13",
-        "wall-mcq-12",
-        "wall-mcq-14",
-        "wall-mcq-11",
-        "wall-mcq-15",
-        "wall-mcq-10"
+        "wall-mcq-22",
+        "wall-mcq-16",
+        "wall-mcq-15"
       ],
       "explanation": "本句的「ran into a wall」指「遇到強烈阻力、重大障礙」。",
       "sentenceIndex": 37,
@@ -1750,12 +1600,10 @@ export default {
         "ran into a wall"
       ],
       "optionReasons": {
-        "wall-mcq-13": "本句指「遇到強烈阻力、重大障礙」。",
-        "wall-mcq-12": "「遇到難以突破的障礙或瓶頸；碰壁」是「hit a wall」的用法，與本句語境不同。",
-        "wall-mcq-14": "「公司、組織等失敗、倒閉」是「go to the wall」的用法，與本句語境不同。",
-        "wall-mcq-11": "「顯示貼文、留言等內容的個人動態牆／留言牆」是「wall — social media」的用法，與本句語境不同。",
-        "wall-mcq-15": "「使某人極度煩躁、抓狂」是「drive someone up the wall」的用法，與本句語境不同。",
-        "wall-mcq-10": "「植物、真菌、細菌等細胞外部的結構性細胞壁」是「cell wall」的用法，與本句語境不同。"
+        "wall-mcq-13": "本句的「ran into a wall」指「遇到強烈阻力、重大障礙」。",
+        "wall-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-13"
     },
@@ -1767,11 +1615,9 @@ export default {
       "masked": "Several small businesses ____.",
       "options": [
         "wall-mcq-14",
-        "wall-mcq-13",
-        "wall-mcq-15",
-        "wall-mcq-12",
-        "wall-mcq-16",
-        "wall-mcq-11"
+        "wall-mcq-20",
+        "wall-mcq-18",
+        "wall-mcq-27"
       ],
       "explanation": "本句的「went to the wall」指「公司、組織等失敗、倒閉」。",
       "sentenceIndex": 38,
@@ -1780,12 +1626,10 @@ export default {
         "went to the wall"
       ],
       "optionReasons": {
-        "wall-mcq-14": "本句指「公司、組織等失敗、倒閉」。",
-        "wall-mcq-13": "「遇到強烈阻力、重大障礙」是「run into a wall」的用法，與本句語境不同。",
-        "wall-mcq-15": "「使某人極度煩躁、抓狂」是「drive someone up the wall」的用法，與本句語境不同。",
-        "wall-mcq-12": "「遇到難以突破的障礙或瓶頸；碰壁」是「hit a wall」的用法，與本句語境不同。",
-        "wall-mcq-16": "「古怪、不尋常、出人意料的」是「off the wall」的用法，與本句語境不同。",
-        "wall-mcq-11": "「顯示貼文、留言等內容的個人動態牆／留言牆」是「wall — social media」的用法，與本句語境不同。"
+        "wall-mcq-14": "本句的「went to the wall」指「公司、組織等失敗、倒閉」。",
+        "wall-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-14"
     },
@@ -1797,11 +1641,9 @@ export default {
       "masked": "Without support, the company could ____.",
       "options": [
         "wall-mcq-14",
-        "wall-mcq-13",
-        "wall-mcq-15",
-        "wall-mcq-12",
-        "wall-mcq-16",
-        "wall-mcq-11"
+        "wall-mcq-21",
+        "wall-mcq-07",
+        "wall-mcq-20"
       ],
       "explanation": "本句的「go to the wall」指「公司、組織等失敗、倒閉」。",
       "sentenceIndex": 39,
@@ -1810,12 +1652,10 @@ export default {
         "go to the wall"
       ],
       "optionReasons": {
-        "wall-mcq-14": "本句指「公司、組織等失敗、倒閉」。",
-        "wall-mcq-13": "「遇到強烈阻力、重大障礙」是「run into a wall」的用法，與本句語境不同。",
-        "wall-mcq-15": "「使某人極度煩躁、抓狂」是「drive someone up the wall」的用法，與本句語境不同。",
-        "wall-mcq-12": "「遇到難以突破的障礙或瓶頸；碰壁」是「hit a wall」的用法，與本句語境不同。",
-        "wall-mcq-16": "「古怪、不尋常、出人意料的」是「off the wall」的用法，與本句語境不同。",
-        "wall-mcq-11": "「顯示貼文、留言等內容的個人動態牆／留言牆」是「wall — social media」的用法，與本句語境不同。"
+        "wall-mcq-14": "本句的「go to the wall」指「公司、組織等失敗、倒閉」。",
+        "wall-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-14"
     },
@@ -1827,11 +1667,9 @@ export default {
       "masked": "That constant noise ____.",
       "options": [
         "wall-mcq-15",
-        "wall-mcq-14",
-        "wall-mcq-16",
-        "wall-mcq-13",
-        "wall-mcq-17",
-        "wall-mcq-12"
+        "wall-mcq-04",
+        "wall-mcq-27",
+        "wall-mcq-23"
       ],
       "explanation": "本句的「drives me up the wall」指「使某人極度煩躁、抓狂」。",
       "sentenceIndex": 40,
@@ -1840,12 +1678,10 @@ export default {
         "drives me up the wall"
       ],
       "optionReasons": {
-        "wall-mcq-15": "本句指「使某人極度煩躁、抓狂」。",
-        "wall-mcq-14": "「公司、組織等失敗、倒閉」是「go to the wall」的用法，與本句語境不同。",
-        "wall-mcq-16": "「古怪、不尋常、出人意料的」是「off the wall」的用法，與本句語境不同。",
-        "wall-mcq-13": "「遇到強烈阻力、重大障礙」是「run into a wall」的用法，與本句語境不同。",
-        "wall-mcq-17": "「處於幾乎沒有選擇的困境；被逼到絕境」是「back against the wall」的用法，與本句語境不同。",
-        "wall-mcq-12": "「遇到難以突破的障礙或瓶頸；碰壁」是「hit a wall」的用法，與本句語境不同。"
+        "wall-mcq-15": "本句的「drives me up the wall」指「使某人極度煩躁、抓狂」。",
+        "wall-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-15"
     },
@@ -1857,11 +1693,9 @@ export default {
       "masked": "His lateness ____.",
       "options": [
         "wall-mcq-15",
-        "wall-mcq-14",
-        "wall-mcq-16",
         "wall-mcq-13",
         "wall-mcq-17",
-        "wall-mcq-12"
+        "wall-mcq-22"
       ],
       "explanation": "本句的「drives her up the wall」指「使某人極度煩躁、抓狂」。",
       "sentenceIndex": 41,
@@ -1870,12 +1704,10 @@ export default {
         "drives her up the wall"
       ],
       "optionReasons": {
-        "wall-mcq-15": "本句指「使某人極度煩躁、抓狂」。",
-        "wall-mcq-14": "「公司、組織等失敗、倒閉」是「go to the wall」的用法，與本句語境不同。",
-        "wall-mcq-16": "「古怪、不尋常、出人意料的」是「off the wall」的用法，與本句語境不同。",
-        "wall-mcq-13": "「遇到強烈阻力、重大障礙」是「run into a wall」的用法，與本句語境不同。",
-        "wall-mcq-17": "「處於幾乎沒有選擇的困境；被逼到絕境」是「back against the wall」的用法，與本句語境不同。",
-        "wall-mcq-12": "「遇到難以突破的障礙或瓶頸；碰壁」是「hit a wall」的用法，與本句語境不同。"
+        "wall-mcq-15": "本句的「drives her up the wall」指「使某人極度煩躁、抓狂」。",
+        "wall-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-15"
     },
@@ -1887,11 +1719,9 @@ export default {
       "masked": "That’s a pretty ____.",
       "options": [
         "wall-mcq-16",
-        "wall-mcq-15",
-        "wall-mcq-17",
         "wall-mcq-14",
-        "wall-mcq-18",
-        "wall-mcq-13"
+        "wall-mcq-03",
+        "wall-mcq-07"
       ],
       "explanation": "本句的「off-the-wall idea」指「古怪、不尋常、出人意料的」。",
       "sentenceIndex": 42,
@@ -1900,12 +1730,10 @@ export default {
         "off-the-wall idea"
       ],
       "optionReasons": {
-        "wall-mcq-16": "本句指「古怪、不尋常、出人意料的」。",
-        "wall-mcq-15": "「使某人極度煩躁、抓狂」是「drive someone up the wall」的用法，與本句語境不同。",
-        "wall-mcq-17": "「處於幾乎沒有選擇的困境；被逼到絕境」是「back against the wall」的用法，與本句語境不同。",
-        "wall-mcq-14": "「公司、組織等失敗、倒閉」是「go to the wall」的用法，與本句語境不同。",
-        "wall-mcq-18": "「預示壞結果即將發生的明顯徵兆」是「writing on the wall」的用法，與本句語境不同。",
-        "wall-mcq-13": "「遇到強烈阻力、重大障礙」是「run into a wall」的用法，與本句語境不同。"
+        "wall-mcq-16": "本句的「off-the-wall idea」指「古怪、不尋常、出人意料的」。",
+        "wall-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-16"
     },
@@ -1917,11 +1745,9 @@ export default {
       "masked": "His sense of humor is completely ____.",
       "options": [
         "wall-mcq-16",
-        "wall-mcq-15",
-        "wall-mcq-17",
-        "wall-mcq-14",
-        "wall-mcq-18",
-        "wall-mcq-13"
+        "wall-mcq-27",
+        "wall-mcq-06",
+        "wall-mcq-20"
       ],
       "explanation": "本句的「off the wall」指「古怪、不尋常、出人意料的」。",
       "sentenceIndex": 43,
@@ -1930,12 +1756,10 @@ export default {
         "off the wall"
       ],
       "optionReasons": {
-        "wall-mcq-16": "本句指「古怪、不尋常、出人意料的」。",
-        "wall-mcq-15": "「使某人極度煩躁、抓狂」是「drive someone up the wall」的用法，與本句語境不同。",
-        "wall-mcq-17": "「處於幾乎沒有選擇的困境；被逼到絕境」是「back against the wall」的用法，與本句語境不同。",
-        "wall-mcq-14": "「公司、組織等失敗、倒閉」是「go to the wall」的用法，與本句語境不同。",
-        "wall-mcq-18": "「預示壞結果即將發生的明顯徵兆」是「writing on the wall」的用法，與本句語境不同。",
-        "wall-mcq-13": "「遇到強烈阻力、重大障礙」是「run into a wall」的用法，與本句語境不同。"
+        "wall-mcq-16": "本句的「off the wall」指「古怪、不尋常、出人意料的」。",
+        "wall-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-16"
     },
@@ -1947,11 +1771,9 @@ export default {
       "masked": "With his ____, he took a risk.",
       "options": [
         "wall-mcq-17",
-        "wall-mcq-16",
-        "wall-mcq-18",
-        "wall-mcq-15",
-        "wall-mcq-19",
-        "wall-mcq-14"
+        "wall-mcq-21",
+        "wall-mcq-26",
+        "wall-mcq-27"
       ],
       "explanation": "本句的「back against the wall」指「處於幾乎沒有選擇的困境；被逼到絕境」。",
       "sentenceIndex": 44,
@@ -1960,12 +1782,10 @@ export default {
         "back against the wall"
       ],
       "optionReasons": {
-        "wall-mcq-17": "本句指「處於幾乎沒有選擇的困境；被逼到絕境」。",
-        "wall-mcq-16": "「古怪、不尋常、出人意料的」是「off the wall」的用法，與本句語境不同。",
-        "wall-mcq-18": "「預示壞結果即將發生的明顯徵兆」是「writing on the wall」的用法，與本句語境不同。",
-        "wall-mcq-15": "「使某人極度煩躁、抓狂」是「drive someone up the wall」的用法，與本句語境不同。",
-        "wall-mcq-19": "「能在不被注意的情況下旁觀別人活動的人／視角」是「fly on the wall」的用法，與本句語境不同。",
-        "wall-mcq-14": "「公司、組織等失敗、倒閉」是「go to the wall」的用法，與本句語境不同。"
+        "wall-mcq-17": "本句的「back against the wall」指「處於幾乎沒有選擇的困境；被逼到絕境」。",
+        "wall-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-17"
     },
@@ -1977,11 +1797,9 @@ export default {
       "masked": "The team played well with their ____.",
       "options": [
         "wall-mcq-17",
+        "wall-mcq-27",
         "wall-mcq-16",
-        "wall-mcq-18",
-        "wall-mcq-15",
-        "wall-mcq-19",
-        "wall-mcq-14"
+        "wall-mcq-23"
       ],
       "explanation": "本句的「backs against the wall」指「處於幾乎沒有選擇的困境；被逼到絕境」。",
       "sentenceIndex": 45,
@@ -1990,12 +1808,10 @@ export default {
         "backs against the wall"
       ],
       "optionReasons": {
-        "wall-mcq-17": "本句指「處於幾乎沒有選擇的困境；被逼到絕境」。",
-        "wall-mcq-16": "「古怪、不尋常、出人意料的」是「off the wall」的用法，與本句語境不同。",
-        "wall-mcq-18": "「預示壞結果即將發生的明顯徵兆」是「writing on the wall」的用法，與本句語境不同。",
-        "wall-mcq-15": "「使某人極度煩躁、抓狂」是「drive someone up the wall」的用法，與本句語境不同。",
-        "wall-mcq-19": "「能在不被注意的情況下旁觀別人活動的人／視角」是「fly on the wall」的用法，與本句語境不同。",
-        "wall-mcq-14": "「公司、組織等失敗、倒閉」是「go to the wall」的用法，與本句語境不同。"
+        "wall-mcq-17": "本句的「backs against the wall」指「處於幾乎沒有選擇的困境；被逼到絕境」。",
+        "wall-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-17"
     },
@@ -2007,11 +1823,9 @@ export default {
       "masked": "The ____ long before the company failed.",
       "options": [
         "wall-mcq-18",
-        "wall-mcq-17",
-        "wall-mcq-19",
-        "wall-mcq-16",
-        "wall-mcq-20",
-        "wall-mcq-15"
+        "wall-mcq-24",
+        "wall-mcq-28",
+        "wall-mcq-14"
       ],
       "explanation": "本句的「writing was on the wall」指「預示壞結果即將發生的明顯徵兆」。",
       "sentenceIndex": 46,
@@ -2020,12 +1834,10 @@ export default {
         "writing was on the wall"
       ],
       "optionReasons": {
-        "wall-mcq-18": "本句指「預示壞結果即將發生的明顯徵兆」。",
-        "wall-mcq-17": "「處於幾乎沒有選擇的困境；被逼到絕境」是「back against the wall」的用法，與本句語境不同。",
-        "wall-mcq-19": "「能在不被注意的情況下旁觀別人活動的人／視角」是「fly on the wall」的用法，與本句語境不同。",
-        "wall-mcq-16": "「古怪、不尋常、出人意料的」是「off the wall」的用法，與本句語境不同。",
-        "wall-mcq-20": "「從一面牆延伸到另一面；比喻全面、到處都是」是「wall-to-wall」的用法，與本句語境不同。",
-        "wall-mcq-15": "「使某人極度煩躁、抓狂」是「drive someone up the wall」的用法，與本句語境不同。"
+        "wall-mcq-18": "本句的「writing was on the wall」指「預示壞結果即將發生的明顯徵兆」。",
+        "wall-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-18"
     },
@@ -2037,11 +1849,9 @@ export default {
       "masked": "He could see the ____.",
       "options": [
         "wall-mcq-18",
+        "wall-mcq-22",
         "wall-mcq-17",
-        "wall-mcq-19",
-        "wall-mcq-16",
-        "wall-mcq-20",
-        "wall-mcq-15"
+        "wall-mcq-16"
       ],
       "explanation": "本句的「writing on the wall」指「預示壞結果即將發生的明顯徵兆」。",
       "sentenceIndex": 47,
@@ -2050,12 +1860,10 @@ export default {
         "writing on the wall"
       ],
       "optionReasons": {
-        "wall-mcq-18": "本句指「預示壞結果即將發生的明顯徵兆」。",
-        "wall-mcq-17": "「處於幾乎沒有選擇的困境；被逼到絕境」是「back against the wall」的用法，與本句語境不同。",
-        "wall-mcq-19": "「能在不被注意的情況下旁觀別人活動的人／視角」是「fly on the wall」的用法，與本句語境不同。",
-        "wall-mcq-16": "「古怪、不尋常、出人意料的」是「off the wall」的用法，與本句語境不同。",
-        "wall-mcq-20": "「從一面牆延伸到另一面；比喻全面、到處都是」是「wall-to-wall」的用法，與本句語境不同。",
-        "wall-mcq-15": "「使某人極度煩躁、抓狂」是「drive someone up the wall」的用法，與本句語境不同。"
+        "wall-mcq-18": "本句的「writing on the wall」指「預示壞結果即將發生的明顯徵兆」。",
+        "wall-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-18"
     },
@@ -2067,11 +1875,9 @@ export default {
       "masked": "I’d love to be ____ during that meeting.",
       "options": [
         "wall-mcq-19",
-        "wall-mcq-18",
         "wall-mcq-20",
-        "wall-mcq-17",
         "wall-mcq-21",
-        "wall-mcq-16"
+        "wall-mcq-26"
       ],
       "explanation": "本句的「a fly on the wall」指「能在不被注意的情況下旁觀別人活動的人／視角」。",
       "sentenceIndex": 48,
@@ -2080,12 +1886,10 @@ export default {
         "a fly on the wall"
       ],
       "optionReasons": {
-        "wall-mcq-19": "本句指「能在不被注意的情況下旁觀別人活動的人／視角」。",
-        "wall-mcq-18": "「預示壞結果即將發生的明顯徵兆」是「writing on the wall」的用法，與本句語境不同。",
-        "wall-mcq-20": "「從一面牆延伸到另一面；比喻全面、到處都是」是「wall-to-wall」的用法，與本句語境不同。",
-        "wall-mcq-17": "「處於幾乎沒有選擇的困境；被逼到絕境」是「back against the wall」的用法，與本句語境不同。",
-        "wall-mcq-21": "「被牆包圍或圍住的」是「walled」的用法，與本句語境不同。",
-        "wall-mcq-16": "「古怪、不尋常、出人意料的」是「off the wall」的用法，與本句語境不同。"
+        "wall-mcq-19": "本句的「a fly on the wall」指「能在不被注意的情況下旁觀別人活動的人／視角」。",
+        "wall-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-19"
     },
@@ -2097,11 +1901,9 @@ export default {
       "masked": "The documentary offers a ____ view of the classroom.",
       "options": [
         "wall-mcq-19",
-        "wall-mcq-18",
         "wall-mcq-20",
-        "wall-mcq-17",
-        "wall-mcq-21",
-        "wall-mcq-16"
+        "wall-mcq-01",
+        "wall-mcq-07"
       ],
       "explanation": "本句的「fly-on-the-wall」指「能在不被注意的情況下旁觀別人活動的人／視角」。",
       "sentenceIndex": 49,
@@ -2110,12 +1912,10 @@ export default {
         "fly-on-the-wall"
       ],
       "optionReasons": {
-        "wall-mcq-19": "本句指「能在不被注意的情況下旁觀別人活動的人／視角」。",
-        "wall-mcq-18": "「預示壞結果即將發生的明顯徵兆」是「writing on the wall」的用法，與本句語境不同。",
-        "wall-mcq-20": "「從一面牆延伸到另一面；比喻全面、到處都是」是「wall-to-wall」的用法，與本句語境不同。",
-        "wall-mcq-17": "「處於幾乎沒有選擇的困境；被逼到絕境」是「back against the wall」的用法，與本句語境不同。",
-        "wall-mcq-21": "「被牆包圍或圍住的」是「walled」的用法，與本句語境不同。",
-        "wall-mcq-16": "「古怪、不尋常、出人意料的」是「off the wall」的用法，與本句語境不同。"
+        "wall-mcq-19": "本句的「fly-on-the-wall」指「能在不被注意的情況下旁觀別人活動的人／視角」。",
+        "wall-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-19"
     },
@@ -2127,11 +1927,9 @@ export default {
       "masked": "The room has ____.",
       "options": [
         "wall-mcq-20",
-        "wall-mcq-19",
-        "wall-mcq-21",
         "wall-mcq-18",
-        "wall-mcq-22",
-        "wall-mcq-17"
+        "wall-mcq-13",
+        "wall-mcq-19"
       ],
       "explanation": "本句的「wall-to-wall carpeting」指「從一面牆延伸到另一面；比喻全面、到處都是」。",
       "sentenceIndex": 50,
@@ -2140,12 +1938,10 @@ export default {
         "wall-to-wall carpeting"
       ],
       "optionReasons": {
-        "wall-mcq-20": "本句指「從一面牆延伸到另一面；比喻全面、到處都是」。",
-        "wall-mcq-19": "「能在不被注意的情況下旁觀別人活動的人／視角」是「fly on the wall」的用法，與本句語境不同。",
-        "wall-mcq-21": "「被牆包圍或圍住的」是「walled」的用法，與本句語境不同。",
-        "wall-mcq-18": "「預示壞結果即將發生的明顯徵兆」是「writing on the wall」的用法，與本句語境不同。",
-        "wall-mcq-22": "「表示牆；牆壁」是「Passage meaning」的用法，與本句語境不同。",
-        "wall-mcq-17": "「處於幾乎沒有選擇的困境；被逼到絕境」是「back against the wall」的用法，與本句語境不同。"
+        "wall-mcq-20": "本句的「wall-to-wall carpeting」指「從一面牆延伸到另一面；比喻全面、到處都是」。",
+        "wall-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-20"
     },
@@ -2157,11 +1953,9 @@ export default {
       "masked": "The event received ____.",
       "options": [
         "wall-mcq-20",
-        "wall-mcq-19",
-        "wall-mcq-21",
-        "wall-mcq-18",
-        "wall-mcq-22",
-        "wall-mcq-17"
+        "wall-mcq-26",
+        "wall-mcq-14",
+        "wall-mcq-16"
       ],
       "explanation": "本句的「wall-to-wall media coverage」指「從一面牆延伸到另一面；比喻全面、到處都是」。",
       "sentenceIndex": 51,
@@ -2170,12 +1964,10 @@ export default {
         "wall-to-wall media coverage"
       ],
       "optionReasons": {
-        "wall-mcq-20": "本句指「從一面牆延伸到另一面；比喻全面、到處都是」。",
-        "wall-mcq-19": "「能在不被注意的情況下旁觀別人活動的人／視角」是「fly on the wall」的用法，與本句語境不同。",
-        "wall-mcq-21": "「被牆包圍或圍住的」是「walled」的用法，與本句語境不同。",
-        "wall-mcq-18": "「預示壞結果即將發生的明顯徵兆」是「writing on the wall」的用法，與本句語境不同。",
-        "wall-mcq-22": "「表示牆；牆壁」是「Passage meaning」的用法，與本句語境不同。",
-        "wall-mcq-17": "「處於幾乎沒有選擇的困境；被逼到絕境」是「back against the wall」的用法，與本句語境不同。"
+        "wall-mcq-20": "本句的「wall-to-wall media coverage」指「從一面牆延伸到另一面；比喻全面、到處都是」。",
+        "wall-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-20"
     },
@@ -2187,11 +1979,9 @@ export default {
       "masked": "They entered a ____.",
       "options": [
         "wall-mcq-21",
-        "wall-mcq-20",
-        "wall-mcq-22",
-        "wall-mcq-19",
-        "wall-mcq-23",
-        "wall-mcq-18"
+        "wall-mcq-15",
+        "wall-mcq-26",
+        "wall-mcq-13"
       ],
       "explanation": "本句的「walled garden」指「被牆包圍或圍住的」。",
       "sentenceIndex": 52,
@@ -2200,12 +1990,10 @@ export default {
         "walled garden"
       ],
       "optionReasons": {
-        "wall-mcq-21": "本句指「被牆包圍或圍住的」。",
-        "wall-mcq-20": "「從一面牆延伸到另一面；比喻全面、到處都是」是「wall-to-wall」的用法，與本句語境不同。",
-        "wall-mcq-22": "「表示牆；牆壁」是「Passage meaning」的用法，與本句語境不同。",
-        "wall-mcq-19": "「能在不被注意的情況下旁觀別人活動的人／視角」是「fly on the wall」的用法，與本句語境不同。",
-        "wall-mcq-23": "「表示圍牆；牆；屏障」是「4. wall — structure built to divide or protect an area」的用法，與本句語境不同。",
-        "wall-mcq-18": "「預示壞結果即將發生的明顯徵兆」是「writing on the wall」的用法，與本句語境不同。"
+        "wall-mcq-21": "本句的「walled garden」指「被牆包圍或圍住的」。",
+        "wall-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-21"
     },
@@ -2217,11 +2005,9 @@ export default {
       "masked": "The old city is completely ____.",
       "options": [
         "wall-mcq-21",
-        "wall-mcq-20",
-        "wall-mcq-22",
-        "wall-mcq-19",
-        "wall-mcq-23",
-        "wall-mcq-18"
+        "wall-mcq-12",
+        "wall-mcq-17",
+        "wall-mcq-15"
       ],
       "explanation": "本句的「walled」指「被牆包圍或圍住的」。",
       "sentenceIndex": 53,
@@ -2230,12 +2016,10 @@ export default {
         "walled"
       ],
       "optionReasons": {
-        "wall-mcq-21": "本句指「被牆包圍或圍住的」。",
-        "wall-mcq-20": "「從一面牆延伸到另一面；比喻全面、到處都是」是「wall-to-wall」的用法，與本句語境不同。",
-        "wall-mcq-22": "「表示牆；牆壁」是「Passage meaning」的用法，與本句語境不同。",
-        "wall-mcq-19": "「能在不被注意的情況下旁觀別人活動的人／視角」是「fly on the wall」的用法，與本句語境不同。",
-        "wall-mcq-23": "「表示圍牆；牆；屏障」是「4. wall — structure built to divide or protect an area」的用法，與本句語境不同。",
-        "wall-mcq-18": "「預示壞結果即將發生的明顯徵兆」是「writing on the wall」的用法，與本句語境不同。"
+        "wall-mcq-21": "本句的「walled」指「被牆包圍或圍住的」。",
+        "wall-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-21"
     },
@@ -2247,11 +2031,9 @@ export default {
       "masked": "They replaced the old ____.",
       "options": [
         "wall-mcq-28",
-        "wall-mcq-27",
-        "wall-mcq-26",
-        "wall-mcq-25",
+        "wall-mcq-14",
         "wall-mcq-24",
-        "wall-mcq-23"
+        "wall-mcq-18"
       ],
       "explanation": "本句的「wallpaper」指「表示壁紙；牆紙」。",
       "sentenceIndex": 54,
@@ -2260,12 +2042,10 @@ export default {
         "wallpaper"
       ],
       "optionReasons": {
-        "wall-mcq-28": "本句指「表示壁紙；牆紙」。",
-        "wall-mcq-27": "「表示大量資金；資金牆」是「17. wall — wall of money / capital」的用法，與本句語境不同。",
-        "wall-mcq-26": "「表示壁；器官壁」是「14. wall — outer or enclosing layer of an organ/body structure」的用法，與本句語境不同。",
-        "wall-mcq-25": "「表示人牆」是「13. wall — line of players blocking a free kick」的用法，與本句語境不同。",
-        "wall-mcq-24": "「表示隔閡；障礙；屏障」是「7. wall — obstacle preventing communication, progress, or contact」的用法，與本句語境不同。",
-        "wall-mcq-23": "「表示圍牆；牆；屏障」是「4. wall — structure built to divide or protect an area」的用法，與本句語境不同。"
+        "wall-mcq-28": "本句的「wallpaper」指「表示壁紙；牆紙」。",
+        "wall-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-28"
     },
@@ -2277,11 +2057,9 @@ export default {
       "masked": "The room has patterned ____.",
       "options": [
         "wall-mcq-28",
-        "wall-mcq-27",
-        "wall-mcq-26",
-        "wall-mcq-25",
-        "wall-mcq-24",
-        "wall-mcq-23"
+        "wall-mcq-14",
+        "wall-mcq-13",
+        "wall-mcq-18"
       ],
       "explanation": "本句的「wallpaper」指「表示壁紙；牆紙」。",
       "sentenceIndex": 55,
@@ -2290,12 +2068,10 @@ export default {
         "wallpaper"
       ],
       "optionReasons": {
-        "wall-mcq-28": "本句指「表示壁紙；牆紙」。",
-        "wall-mcq-27": "「表示大量資金；資金牆」是「17. wall — wall of money / capital」的用法，與本句語境不同。",
-        "wall-mcq-26": "「表示壁；器官壁」是「14. wall — outer or enclosing layer of an organ/body structure」的用法，與本句語境不同。",
-        "wall-mcq-25": "「表示人牆」是「13. wall — line of players blocking a free kick」的用法，與本句語境不同。",
-        "wall-mcq-24": "「表示隔閡；障礙；屏障」是「7. wall — obstacle preventing communication, progress, or contact」的用法，與本句語境不同。",
-        "wall-mcq-23": "「表示圍牆；牆；屏障」是「4. wall — structure built to divide or protect an area」的用法，與本句語境不同。"
+        "wall-mcq-28": "本句的「wallpaper」指「表示壁紙；牆紙」。",
+        "wall-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wall-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wall-mcq-28"
     }
@@ -2307,5 +2083,7 @@ export default {
     "sha256": "746e51d28948acc4258ce1c12d5b289cb3dba2af614fb7932a0bcfec3120f412",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

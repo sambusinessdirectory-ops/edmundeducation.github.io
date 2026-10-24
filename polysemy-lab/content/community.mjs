@@ -308,11 +308,8 @@ export default {
       "masked": "The bakery is popular in the local ____.",
       "options": [
         "community-mcq-01",
-        "community-mcq-02",
-        "community-mcq-03",
-        "community-mcq-04",
-        "community-mcq-05",
-        "community-mcq-06"
+        "community-mcq-12",
+        "community-pdf-002"
       ],
       "explanation": "本句的「community」指「居住在同一地區並彼此有一定社會聯繫的一群人」。",
       "sentenceIndex": 0,
@@ -321,12 +318,9 @@ export default {
         "community"
       ],
       "optionReasons": {
-        "community-mcq-01": "本句指「居住在同一地區並彼此有一定社會聯繫的一群人」。",
-        "community-mcq-02": "「人們感到彼此有連結、屬於同一群體並互相支持的歸屬感」與本句語境不同。",
-        "community-mcq-03": "「因共同興趣、職業、背景或身份而形成的社群」與本句語境不同。",
-        "community-mcq-04": "「主要透過互聯網互動、交流及分享的一群人」與本句語境不同。",
-        "community-mcq-05": "「同一專業、學術或行業中的整體人士」與本句語境不同。",
-        "community-mcq-06": "「某地區／行業中的企業、商人及相關人士整體」與本句語境不同。"
+        "community-mcq-01": "本句的「community」指「居住在同一地區並彼此有一定社會聯繫的一群人」。",
+        "community-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "community-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-01"
     },
@@ -338,11 +332,8 @@ export default {
       "masked": "The new park is used by the whole ____.",
       "options": [
         "community-mcq-01",
-        "community-mcq-02",
-        "community-mcq-03",
-        "community-mcq-04",
-        "community-mcq-05",
-        "community-mcq-06"
+        "community-pdf-002",
+        "community-mcq-07"
       ],
       "explanation": "本句的「community」指「居住在同一地區並彼此有一定社會聯繫的一群人」。",
       "sentenceIndex": 1,
@@ -351,12 +342,9 @@ export default {
         "community"
       ],
       "optionReasons": {
-        "community-mcq-01": "本句指「居住在同一地區並彼此有一定社會聯繫的一群人」。",
-        "community-mcq-02": "「人們感到彼此有連結、屬於同一群體並互相支持的歸屬感」與本句語境不同。",
-        "community-mcq-03": "「因共同興趣、職業、背景或身份而形成的社群」與本句語境不同。",
-        "community-mcq-04": "「主要透過互聯網互動、交流及分享的一群人」與本句語境不同。",
-        "community-mcq-05": "「同一專業、學術或行業中的整體人士」與本句語境不同。",
-        "community-mcq-06": "「某地區／行業中的企業、商人及相關人士整體」與本句語境不同。"
+        "community-mcq-01": "本句的「community」指「居住在同一地區並彼此有一定社會聯繫的一群人」。",
+        "community-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-01"
     },
@@ -368,11 +356,8 @@ export default {
       "masked": "The shop creates a sense of ____.",
       "options": [
         "community-mcq-02",
-        "community-mcq-01",
-        "community-mcq-03",
-        "community-mcq-04",
-        "community-mcq-05",
-        "community-mcq-06"
+        "community-pdf-001",
+        "community-mcq-03"
       ],
       "explanation": "本句的「community」指「人們感到彼此有連結、屬於同一群體並互相支持的歸屬感」。",
       "sentenceIndex": 2,
@@ -381,12 +366,9 @@ export default {
         "community"
       ],
       "optionReasons": {
-        "community-mcq-02": "本句指「人們感到彼此有連結、屬於同一群體並互相支持的歸屬感」。",
-        "community-mcq-01": "「居住在同一地區並彼此有一定社會聯繫的一群人」與本句語境不同。",
-        "community-mcq-03": "「因共同興趣、職業、背景或身份而形成的社群」與本句語境不同。",
-        "community-mcq-04": "「主要透過互聯網互動、交流及分享的一群人」與本句語境不同。",
-        "community-mcq-05": "「同一專業、學術或行業中的整體人士」與本句語境不同。",
-        "community-mcq-06": "「某地區／行業中的企業、商人及相關人士整體」與本句語境不同。"
+        "community-mcq-02": "本句的「community」指「人們感到彼此有連結、屬於同一群體並互相支持的歸屬感」。",
+        "community-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-02"
     },
@@ -398,11 +380,8 @@ export default {
       "masked": "Regular customers give the café a strong sense of ____.",
       "options": [
         "community-mcq-02",
-        "community-mcq-01",
-        "community-mcq-03",
-        "community-mcq-04",
-        "community-mcq-05",
-        "community-mcq-06"
+        "community-pdf-002",
+        "community-mcq-03"
       ],
       "explanation": "本句的「community」指「人們感到彼此有連結、屬於同一群體並互相支持的歸屬感」。",
       "sentenceIndex": 3,
@@ -411,12 +390,9 @@ export default {
         "community"
       ],
       "optionReasons": {
-        "community-mcq-02": "本句指「人們感到彼此有連結、屬於同一群體並互相支持的歸屬感」。",
-        "community-mcq-01": "「居住在同一地區並彼此有一定社會聯繫的一群人」與本句語境不同。",
-        "community-mcq-03": "「因共同興趣、職業、背景或身份而形成的社群」與本句語境不同。",
-        "community-mcq-04": "「主要透過互聯網互動、交流及分享的一群人」與本句語境不同。",
-        "community-mcq-05": "「同一專業、學術或行業中的整體人士」與本句語境不同。",
-        "community-mcq-06": "「某地區／行業中的企業、商人及相關人士整體」與本句語境不同。"
+        "community-mcq-02": "本句的「community」指「人們感到彼此有連結、屬於同一群體並互相支持的歸屬感」。",
+        "community-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-02"
     },
@@ -428,11 +404,8 @@ export default {
       "masked": "The local art ____ supported the exhibition.",
       "options": [
         "community-mcq-03",
-        "community-mcq-02",
-        "community-mcq-04",
-        "community-mcq-01",
-        "community-mcq-05",
-        "community-mcq-06"
+        "community-pdf-001",
+        "community-mcq-04"
       ],
       "explanation": "本句的「community」指「因共同興趣、職業、背景或身份而形成的社群」。",
       "sentenceIndex": 4,
@@ -441,12 +414,9 @@ export default {
         "community"
       ],
       "optionReasons": {
-        "community-mcq-03": "本句指「因共同興趣、職業、背景或身份而形成的社群」。",
-        "community-mcq-02": "「人們感到彼此有連結、屬於同一群體並互相支持的歸屬感」與本句語境不同。",
-        "community-mcq-04": "「主要透過互聯網互動、交流及分享的一群人」與本句語境不同。",
-        "community-mcq-01": "「居住在同一地區並彼此有一定社會聯繫的一群人」與本句語境不同。",
-        "community-mcq-05": "「同一專業、學術或行業中的整體人士」與本句語境不同。",
-        "community-mcq-06": "「某地區／行業中的企業、商人及相關人士整體」與本句語境不同。"
+        "community-mcq-03": "本句的「community」指「因共同興趣、職業、背景或身份而形成的社群」。",
+        "community-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-03"
     },
@@ -458,11 +428,8 @@ export default {
       "masked": "She is well known in the design ____.",
       "options": [
         "community-mcq-03",
-        "community-mcq-02",
-        "community-mcq-04",
-        "community-mcq-01",
-        "community-mcq-05",
-        "community-mcq-06"
+        "community-mcq-09",
+        "community-mcq-04"
       ],
       "explanation": "本句的「community」指「因共同興趣、職業、背景或身份而形成的社群」。",
       "sentenceIndex": 5,
@@ -471,12 +438,9 @@ export default {
         "community"
       ],
       "optionReasons": {
-        "community-mcq-03": "本句指「因共同興趣、職業、背景或身份而形成的社群」。",
-        "community-mcq-02": "「人們感到彼此有連結、屬於同一群體並互相支持的歸屬感」與本句語境不同。",
-        "community-mcq-04": "「主要透過互聯網互動、交流及分享的一群人」與本句語境不同。",
-        "community-mcq-01": "「居住在同一地區並彼此有一定社會聯繫的一群人」與本句語境不同。",
-        "community-mcq-05": "「同一專業、學術或行業中的整體人士」與本句語境不同。",
-        "community-mcq-06": "「某地區／行業中的企業、商人及相關人士整體」與本句語境不同。"
+        "community-mcq-03": "本句的「community」指「因共同興趣、職業、背景或身份而形成的社群」。",
+        "community-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-03"
     },
@@ -488,11 +452,8 @@ export default {
       "masked": "The bakery has built a loyal ____.",
       "options": [
         "community-mcq-04",
-        "community-mcq-03",
-        "community-mcq-05",
-        "community-mcq-02",
-        "community-mcq-06",
-        "community-mcq-01"
+        "community-mcq-09",
+        "community-mcq-03"
       ],
       "explanation": "本句的「online community」指「主要透過互聯網互動、交流及分享的一群人」。",
       "sentenceIndex": 6,
@@ -501,12 +462,9 @@ export default {
         "online community"
       ],
       "optionReasons": {
-        "community-mcq-04": "本句指「主要透過互聯網互動、交流及分享的一群人」。",
-        "community-mcq-03": "「因共同興趣、職業、背景或身份而形成的社群」與本句語境不同。",
-        "community-mcq-05": "「同一專業、學術或行業中的整體人士」與本句語境不同。",
-        "community-mcq-02": "「人們感到彼此有連結、屬於同一群體並互相支持的歸屬感」與本句語境不同。",
-        "community-mcq-06": "「某地區／行業中的企業、商人及相關人士整體」與本句語境不同。",
-        "community-mcq-01": "「居住在同一地區並彼此有一定社會聯繫的一群人」與本句語境不同。"
+        "community-mcq-04": "本句的「online community」指「主要透過互聯網互動、交流及分享的一群人」。",
+        "community-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-04"
     },
@@ -519,10 +477,7 @@ export default {
       "options": [
         "community-mcq-05",
         "community-mcq-04",
-        "community-mcq-06",
-        "community-mcq-03",
-        "community-mcq-07",
-        "community-mcq-02"
+        "community-pdf-002"
       ],
       "explanation": "本句的「community」指「同一專業、學術或行業中的整體人士」。",
       "sentenceIndex": 7,
@@ -531,12 +486,9 @@ export default {
         "community"
       ],
       "optionReasons": {
-        "community-mcq-05": "本句指「同一專業、學術或行業中的整體人士」。",
-        "community-mcq-04": "「主要透過互聯網互動、交流及分享的一群人」與本句語境不同。",
-        "community-mcq-06": "「某地區／行業中的企業、商人及相關人士整體」與本句語境不同。",
-        "community-mcq-03": "「因共同興趣、職業、背景或身份而形成的社群」與本句語境不同。",
-        "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。",
-        "community-mcq-02": "「人們感到彼此有連結、屬於同一群體並互相支持的歸屬感」與本句語境不同。"
+        "community-mcq-05": "本句的「community」指「同一專業、學術或行業中的整體人士」。",
+        "community-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "community-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-05"
     },
@@ -548,11 +500,8 @@ export default {
       "masked": "The medical ____ reacted cautiously.",
       "options": [
         "community-mcq-05",
-        "community-mcq-04",
-        "community-mcq-06",
-        "community-mcq-03",
-        "community-mcq-07",
-        "community-mcq-02"
+        "community-pdf-001",
+        "community-mcq-04"
       ],
       "explanation": "本句的「community」指「同一專業、學術或行業中的整體人士」。",
       "sentenceIndex": 8,
@@ -561,12 +510,9 @@ export default {
         "community"
       ],
       "optionReasons": {
-        "community-mcq-05": "本句指「同一專業、學術或行業中的整體人士」。",
-        "community-mcq-04": "「主要透過互聯網互動、交流及分享的一群人」與本句語境不同。",
-        "community-mcq-06": "「某地區／行業中的企業、商人及相關人士整體」與本句語境不同。",
-        "community-mcq-03": "「因共同興趣、職業、背景或身份而形成的社群」與本句語境不同。",
-        "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。",
-        "community-mcq-02": "「人們感到彼此有連結、屬於同一群體並互相支持的歸屬感」與本句語境不同。"
+        "community-mcq-05": "本句的「community」指「同一專業、學術或行業中的整體人士」。",
+        "community-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-05"
     },
@@ -578,11 +524,8 @@ export default {
       "masked": "The local ____ supported the bakery.",
       "options": [
         "community-mcq-06",
-        "community-mcq-05",
-        "community-mcq-07",
-        "community-mcq-04",
-        "community-mcq-08",
-        "community-mcq-03"
+        "community-mcq-11",
+        "community-pdf-002"
       ],
       "explanation": "本句的「business community」指「某地區／行業中的企業、商人及相關人士整體」。",
       "sentenceIndex": 9,
@@ -591,12 +534,9 @@ export default {
         "business community"
       ],
       "optionReasons": {
-        "community-mcq-06": "本句指「某地區／行業中的企業、商人及相關人士整體」。",
-        "community-mcq-05": "「同一專業、學術或行業中的整體人士」與本句語境不同。",
-        "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。",
-        "community-mcq-04": "「主要透過互聯網互動、交流及分享的一群人」與本句語境不同。",
-        "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
-        "community-mcq-03": "「因共同興趣、職業、背景或身份而形成的社群」與本句語境不同。"
+        "community-mcq-06": "本句的「business community」指「某地區／行業中的企業、商人及相關人士整體」。",
+        "community-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "community-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-06"
     },
@@ -608,11 +548,8 @@ export default {
       "masked": "The decision caused concern in the business ____.",
       "options": [
         "community-mcq-06",
-        "community-mcq-05",
-        "community-mcq-07",
-        "community-mcq-04",
-        "community-mcq-08",
-        "community-mcq-03"
+        "community-mcq-11",
+        "community-pdf-002"
       ],
       "explanation": "本句的「community」指「某地區／行業中的企業、商人及相關人士整體」。",
       "sentenceIndex": 10,
@@ -621,12 +558,9 @@ export default {
         "community"
       ],
       "optionReasons": {
-        "community-mcq-06": "本句指「某地區／行業中的企業、商人及相關人士整體」。",
-        "community-mcq-05": "「同一專業、學術或行業中的整體人士」與本句語境不同。",
-        "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。",
-        "community-mcq-04": "「主要透過互聯網互動、交流及分享的一群人」與本句語境不同。",
-        "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
-        "community-mcq-03": "「因共同興趣、職業、背景或身份而形成的社群」與本句語境不同。"
+        "community-mcq-06": "本句的「community」指「某地區／行業中的企業、商人及相關人士整體」。",
+        "community-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "community-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-06"
     },
@@ -638,10 +572,7 @@ export default {
       "masked": "The festival celebrates the local cultural ____.",
       "options": [
         "community-mcq-07",
-        "community-mcq-06",
-        "community-mcq-08",
-        "community-mcq-05",
-        "community-mcq-09",
+        "community-pdf-002",
         "community-mcq-04"
       ],
       "explanation": "本句的「community」指「因文化、背景、語言或共同生活經驗形成的人群」。",
@@ -651,12 +582,9 @@ export default {
         "community"
       ],
       "optionReasons": {
-        "community-mcq-07": "本句指「因文化、背景、語言或共同生活經驗形成的人群」。",
-        "community-mcq-06": "「某地區／行業中的企業、商人及相關人士整體」與本句語境不同。",
-        "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
-        "community-mcq-05": "「同一專業、學術或行業中的整體人士」與本句語境不同。",
-        "community-mcq-09": "「圍繞某地區／機構的一般居民或公眾」與本句語境不同。",
-        "community-mcq-04": "「主要透過互聯網互動、交流及分享的一群人」與本句語境不同。"
+        "community-mcq-07": "本句的「community」指「因文化、背景、語言或共同生活經驗形成的人群」。",
+        "community-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-07"
     },
@@ -668,11 +596,8 @@ export default {
       "masked": "The pond supports a rich plant and animal ____.",
       "options": [
         "community-mcq-08",
-        "community-mcq-07",
-        "community-mcq-09",
-        "community-mcq-06",
-        "community-mcq-10",
-        "community-mcq-05"
+        "community-pdf-002",
+        "community-mcq-04"
       ],
       "explanation": "本句的「community」指「在同一地區共同生活並彼此互相影響的不同物種群體」。",
       "sentenceIndex": 12,
@@ -681,12 +606,9 @@ export default {
         "community"
       ],
       "optionReasons": {
-        "community-mcq-08": "本句指「在同一地區共同生活並彼此互相影響的不同物種群體」。",
-        "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。",
-        "community-mcq-09": "「圍繞某地區／機構的一般居民或公眾」與本句語境不同。",
-        "community-mcq-06": "「某地區／行業中的企業、商人及相關人士整體」與本句語境不同。",
-        "community-mcq-10": "「社區成員之間互相支持、合作及共同歸屬的精神」與本句語境不同。",
-        "community-mcq-05": "「同一專業、學術或行業中的整體人士」與本句語境不同。"
+        "community-mcq-08": "本句的「community」指「在同一地區共同生活並彼此互相影響的不同物種群體」。",
+        "community-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-08"
     },
@@ -698,11 +620,8 @@ export default {
       "masked": "Changes in temperature can affect the entire ecological ____.",
       "options": [
         "community-mcq-08",
-        "community-mcq-07",
-        "community-mcq-09",
-        "community-mcq-06",
-        "community-mcq-10",
-        "community-mcq-05"
+        "community-pdf-002",
+        "community-mcq-04"
       ],
       "explanation": "本句的「community」指「在同一地區共同生活並彼此互相影響的不同物種群體」。",
       "sentenceIndex": 13,
@@ -711,12 +630,9 @@ export default {
         "community"
       ],
       "optionReasons": {
-        "community-mcq-08": "本句指「在同一地區共同生活並彼此互相影響的不同物種群體」。",
-        "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。",
-        "community-mcq-09": "「圍繞某地區／機構的一般居民或公眾」與本句語境不同。",
-        "community-mcq-06": "「某地區／行業中的企業、商人及相關人士整體」與本句語境不同。",
-        "community-mcq-10": "「社區成員之間互相支持、合作及共同歸屬的精神」與本句語境不同。",
-        "community-mcq-05": "「同一專業、學術或行業中的整體人士」與本句語境不同。"
+        "community-mcq-08": "本句的「community」指「在同一地區共同生活並彼此互相影響的不同物種群體」。",
+        "community-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-08"
     },
@@ -728,11 +644,8 @@ export default {
       "masked": "The school works closely with the ____.",
       "options": [
         "community-mcq-09",
-        "community-mcq-08",
-        "community-mcq-10",
-        "community-mcq-07",
-        "community-mcq-11",
-        "community-mcq-06"
+        "community-mcq-04",
+        "community-mcq-03"
       ],
       "explanation": "本句的「community」指「圍繞某地區／機構的一般居民或公眾」。",
       "sentenceIndex": 14,
@@ -741,12 +654,9 @@ export default {
         "community"
       ],
       "optionReasons": {
-        "community-mcq-09": "本句指「圍繞某地區／機構的一般居民或公眾」。",
-        "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
-        "community-mcq-10": "「社區成員之間互相支持、合作及共同歸屬的精神」與本句語境不同。",
-        "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。",
-        "community-mcq-11": "「由一群人共同使用、擁有或參與的」與本句語境不同。",
-        "community-mcq-06": "「某地區／行業中的企業、商人及相關人士整體」與本句語境不同。"
+        "community-mcq-09": "本句的「community」指「圍繞某地區／機構的一般居民或公眾」。",
+        "community-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-09"
     },
@@ -758,11 +668,7 @@ export default {
       "masked": "The museum offers programmes for the wider ____.",
       "options": [
         "community-mcq-09",
-        "community-mcq-08",
-        "community-mcq-10",
-        "community-mcq-07",
-        "community-mcq-11",
-        "community-mcq-06"
+        "community-mcq-11"
       ],
       "explanation": "本句的「community」指「圍繞某地區／機構的一般居民或公眾」。",
       "sentenceIndex": 15,
@@ -771,12 +677,8 @@ export default {
         "community"
       ],
       "optionReasons": {
-        "community-mcq-09": "本句指「圍繞某地區／機構的一般居民或公眾」。",
-        "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
-        "community-mcq-10": "「社區成員之間互相支持、合作及共同歸屬的精神」與本句語境不同。",
-        "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。",
-        "community-mcq-11": "「由一群人共同使用、擁有或參與的」與本句語境不同。",
-        "community-mcq-06": "「某地區／行業中的企業、商人及相關人士整體」與本句語境不同。"
+        "community-mcq-09": "本句的「community」指「圍繞某地區／機構的一般居民或公眾」。",
+        "community-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-09"
     },
@@ -788,11 +690,8 @@ export default {
       "masked": "The event was held at the ____.",
       "options": [
         "community-pdf-001",
-        "community-mcq-09",
-        "community-mcq-11",
-        "community-mcq-08",
-        "community-mcq-12",
-        "community-mcq-07"
+        "community-mcq-03",
+        "community-mcq-02"
       ],
       "explanation": "本句的「community centre」指「為當地居民提供活動、服務和聚會空間的場所」。",
       "sentenceIndex": 16,
@@ -801,12 +700,9 @@ export default {
         "community centre"
       ],
       "optionReasons": {
-        "community-pdf-001": "本句指「為當地居民提供活動、服務和聚會空間的場所」。",
-        "community-mcq-09": "「圍繞某地區／機構的一般居民或公眾」與本句語境不同。",
-        "community-mcq-11": "「由一群人共同使用、擁有或參與的」與本句語境不同。",
-        "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
-        "community-mcq-12": "「與群體共同生活、活動或互動有關的」與本句語境不同。",
-        "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。"
+        "community-pdf-001": "本句的「community centre」指「為當地居民提供活動、服務和聚會空間的場所」。",
+        "community-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-pdf-001"
     },
@@ -818,11 +714,8 @@ export default {
       "masked": "The ____ centre offers classes for local residents.",
       "options": [
         "community-pdf-001",
-        "community-mcq-09",
-        "community-mcq-11",
-        "community-mcq-08",
-        "community-mcq-12",
-        "community-mcq-07"
+        "community-mcq-03",
+        "community-mcq-02"
       ],
       "explanation": "本句的「community」指「為當地居民提供活動、服務和聚會空間的場所」。",
       "sentenceIndex": 17,
@@ -831,12 +724,9 @@ export default {
         "community"
       ],
       "optionReasons": {
-        "community-pdf-001": "本句指「為當地居民提供活動、服務和聚會空間的場所」。",
-        "community-mcq-09": "「圍繞某地區／機構的一般居民或公眾」與本句語境不同。",
-        "community-mcq-11": "「由一群人共同使用、擁有或參與的」與本句語境不同。",
-        "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
-        "community-mcq-12": "「與群體共同生活、活動或互動有關的」與本句語境不同。",
-        "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。"
+        "community-pdf-001": "本句的「community」指「為當地居民提供活動、服務和聚會空間的場所」。",
+        "community-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-pdf-001"
     },
@@ -848,11 +738,8 @@ export default {
       "masked": "Students completed several hours of ____.",
       "options": [
         "community-pdf-002",
-        "community-mcq-09",
         "community-mcq-11",
-        "community-mcq-08",
-        "community-mcq-12",
-        "community-mcq-07"
+        "community-mcq-05"
       ],
       "explanation": "本句的「community service」指「為社區／公眾提供的志願或公益性服務」。",
       "sentenceIndex": 18,
@@ -861,12 +748,9 @@ export default {
         "community service"
       ],
       "optionReasons": {
-        "community-pdf-002": "本句指「為社區／公眾提供的志願或公益性服務」。",
-        "community-mcq-09": "「圍繞某地區／機構的一般居民或公眾」與本句語境不同。",
-        "community-mcq-11": "「由一群人共同使用、擁有或參與的」與本句語境不同。",
-        "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
-        "community-mcq-12": "「與群體共同生活、活動或互動有關的」與本句語境不同。",
-        "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。"
+        "community-pdf-002": "本句的「community service」指「為社區／公眾提供的志願或公益性服務」。",
+        "community-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-pdf-002"
     },
@@ -878,11 +762,8 @@ export default {
       "masked": "The company encourages staff to take part in ____ service.",
       "options": [
         "community-pdf-002",
-        "community-mcq-09",
-        "community-mcq-11",
-        "community-mcq-08",
         "community-mcq-12",
-        "community-mcq-07"
+        "community-mcq-01"
       ],
       "explanation": "本句的「community」指「為社區／公眾提供的志願或公益性服務」。",
       "sentenceIndex": 19,
@@ -891,12 +772,9 @@ export default {
         "community"
       ],
       "optionReasons": {
-        "community-pdf-002": "本句指「為社區／公眾提供的志願或公益性服務」。",
-        "community-mcq-09": "「圍繞某地區／機構的一般居民或公眾」與本句語境不同。",
-        "community-mcq-11": "「由一群人共同使用、擁有或參與的」與本句語境不同。",
-        "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
-        "community-mcq-12": "「與群體共同生活、活動或互動有關的」與本句語境不同。",
-        "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。"
+        "community-pdf-002": "本句的「community」指「為社區／公眾提供的志願或公益性服務」。",
+        "community-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-pdf-002"
     },
@@ -908,11 +786,8 @@ export default {
       "masked": "The festival created a strong sense of ____.",
       "options": [
         "community-mcq-10",
-        "community-mcq-09",
-        "community-mcq-11",
-        "community-mcq-08",
-        "community-mcq-12",
-        "community-mcq-07"
+        "community-mcq-04",
+        "community-pdf-001"
       ],
       "explanation": "本句的「community spirit」指「社區成員之間互相支持、合作及共同歸屬的精神」。",
       "sentenceIndex": 20,
@@ -921,12 +796,9 @@ export default {
         "community spirit"
       ],
       "optionReasons": {
-        "community-mcq-10": "本句指「社區成員之間互相支持、合作及共同歸屬的精神」。",
-        "community-mcq-09": "「圍繞某地區／機構的一般居民或公眾」與本句語境不同。",
-        "community-mcq-11": "「由一群人共同使用、擁有或參與的」與本句語境不同。",
-        "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
-        "community-mcq-12": "「與群體共同生活、活動或互動有關的」與本句語境不同。",
-        "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。"
+        "community-mcq-10": "本句的「community spirit」指「社區成員之間互相支持、合作及共同歸屬的精神」。",
+        "community-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "community-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-10"
     },
@@ -938,11 +810,8 @@ export default {
       "masked": "Local shops help strengthen ____ spirit.",
       "options": [
         "community-mcq-10",
-        "community-mcq-09",
-        "community-mcq-11",
-        "community-mcq-08",
-        "community-mcq-12",
-        "community-mcq-07"
+        "community-pdf-001",
+        "community-mcq-04"
       ],
       "explanation": "本句的「community」指「社區成員之間互相支持、合作及共同歸屬的精神」。",
       "sentenceIndex": 21,
@@ -951,12 +820,9 @@ export default {
         "community"
       ],
       "optionReasons": {
-        "community-mcq-10": "本句指「社區成員之間互相支持、合作及共同歸屬的精神」。",
-        "community-mcq-09": "「圍繞某地區／機構的一般居民或公眾」與本句語境不同。",
-        "community-mcq-11": "「由一群人共同使用、擁有或參與的」與本句語境不同。",
-        "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
-        "community-mcq-12": "「與群體共同生活、活動或互動有關的」與本句語境不同。",
-        "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。"
+        "community-mcq-10": "本句的「community」指「社區成員之間互相支持、合作及共同歸屬的精神」。",
+        "community-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-10"
     },
@@ -968,11 +834,7 @@ export default {
       "masked": "The building has a ____.",
       "options": [
         "community-mcq-11",
-        "community-mcq-10",
-        "community-mcq-12",
-        "community-mcq-09",
-        "community-mcq-08",
-        "community-mcq-07"
+        "community-mcq-09"
       ],
       "explanation": "本句的「communal kitchen」指「由一群人共同使用、擁有或參與的」。",
       "sentenceIndex": 22,
@@ -981,12 +843,8 @@ export default {
         "communal kitchen"
       ],
       "optionReasons": {
-        "community-mcq-11": "本句指「由一群人共同使用、擁有或參與的」。",
-        "community-mcq-10": "「社區成員之間互相支持、合作及共同歸屬的精神」與本句語境不同。",
-        "community-mcq-12": "「與群體共同生活、活動或互動有關的」與本句語境不同。",
-        "community-mcq-09": "「圍繞某地區／機構的一般居民或公眾」與本句語境不同。",
-        "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
-        "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。"
+        "community-mcq-11": "本句的「communal kitchen」指「由一群人共同使用、擁有或參與的」。",
+        "community-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-11"
     },
@@ -998,11 +856,8 @@ export default {
       "masked": "The meal became a ____ event.",
       "options": [
         "community-mcq-12",
-        "community-mcq-11",
-        "community-mcq-10",
-        "community-mcq-09",
-        "community-mcq-08",
-        "community-mcq-07"
+        "community-pdf-002",
+        "community-mcq-01"
       ],
       "explanation": "本句的「communal」指「與群體共同生活、活動或互動有關的」。",
       "sentenceIndex": 23,
@@ -1011,12 +866,9 @@ export default {
         "communal"
       ],
       "optionReasons": {
-        "community-mcq-12": "本句指「與群體共同生活、活動或互動有關的」。",
-        "community-mcq-11": "「由一群人共同使用、擁有或參與的」與本句語境不同。",
-        "community-mcq-10": "「社區成員之間互相支持、合作及共同歸屬的精神」與本句語境不同。",
-        "community-mcq-09": "「圍繞某地區／機構的一般居民或公眾」與本句語境不同。",
-        "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
-        "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。"
+        "community-mcq-12": "本句的「communal」指「與群體共同生活、活動或互動有關的」。",
+        "community-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-12"
     },
@@ -1028,11 +880,8 @@ export default {
       "masked": "The space is ____ managed.",
       "options": [
         "community-mcq-12",
-        "community-mcq-11",
-        "community-mcq-10",
-        "community-mcq-09",
-        "community-mcq-08",
-        "community-mcq-07"
+        "community-pdf-002",
+        "community-mcq-01"
       ],
       "explanation": "本句的「communally」指「與群體共同生活、活動或互動有關的」。",
       "sentenceIndex": 24,
@@ -1041,12 +890,9 @@ export default {
         "communally"
       ],
       "optionReasons": {
-        "community-mcq-12": "本句指「與群體共同生活、活動或互動有關的」。",
-        "community-mcq-11": "「由一群人共同使用、擁有或參與的」與本句語境不同。",
-        "community-mcq-10": "「社區成員之間互相支持、合作及共同歸屬的精神」與本句語境不同。",
-        "community-mcq-09": "「圍繞某地區／機構的一般居民或公眾」與本句語境不同。",
-        "community-mcq-08": "「在同一地區共同生活並彼此互相影響的不同物種群體」與本句語境不同。",
-        "community-mcq-07": "「因文化、背景、語言或共同生活經驗形成的人群」與本句語境不同。"
+        "community-mcq-12": "本句的「communally」指「與群體共同生活、活動或互動有關的」。",
+        "community-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "community-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "community-mcq-12"
     }
@@ -1058,5 +904,7 @@ export default {
     "sha256": "5036688ce5f2370fffc46cc917b5093ea19310bea349459df80721562f18f3a4",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

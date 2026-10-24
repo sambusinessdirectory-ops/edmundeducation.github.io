@@ -1001,11 +1001,9 @@ export default {
       "masked": "The pillow is very ____.",
       "options": [
         "soft-mcq-01",
-        "soft-mcq-02",
-        "soft-mcq-03",
-        "soft-mcq-04",
-        "soft-mcq-05",
-        "soft-mcq-06"
+        "soft-pdf-002",
+        "soft-mcq-36",
+        "soft-mcq-21"
       ],
       "explanation": "本句的「soft」指「觸感不硬、不僵，容易被壓下／改變形狀」。",
       "sentenceIndex": 0,
@@ -1014,12 +1012,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-01": "本句指「觸感不硬、不僵，容易被壓下／改變形狀」。",
-        "soft-mcq-02": "「質地不硬，容易咀嚼／切開」是「soft food」的用法，與本句語境不同。",
-        "soft-mcq-03": "「音量較低、聽感柔和而不刺耳」是「soft voice/music」的用法，與本句語境不同。",
-        "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。"
+        "soft-mcq-01": "本句的「soft」指「觸感不硬、不僵，容易被壓下／改變形狀」。",
+        "soft-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-01"
     },
@@ -1031,11 +1027,9 @@ export default {
       "masked": "She has ____.",
       "options": [
         "soft-mcq-01",
-        "soft-mcq-02",
-        "soft-mcq-03",
-        "soft-mcq-04",
-        "soft-mcq-05",
-        "soft-mcq-06"
+        "soft-pdf-004",
+        "soft-mcq-36",
+        "soft-mcq-23"
       ],
       "explanation": "本句的「soft skin」指「觸感不硬、不僵，容易被壓下／改變形狀」。",
       "sentenceIndex": 1,
@@ -1044,12 +1038,10 @@ export default {
         "soft skin"
       ],
       "optionReasons": {
-        "soft-mcq-01": "本句指「觸感不硬、不僵，容易被壓下／改變形狀」。",
-        "soft-mcq-02": "「質地不硬，容易咀嚼／切開」是「soft food」的用法，與本句語境不同。",
-        "soft-mcq-03": "「音量較低、聽感柔和而不刺耳」是「soft voice/music」的用法，與本句語境不同。",
-        "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。"
+        "soft-mcq-01": "本句的「soft skin」指「觸感不硬、不僵，容易被壓下／改變形狀」。",
+        "soft-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-01"
     },
@@ -1061,11 +1053,9 @@ export default {
       "masked": "The blanket is made from a ____.",
       "options": [
         "soft-pdf-001",
-        "soft-mcq-02",
-        "soft-mcq-03",
-        "soft-mcq-04",
-        "soft-mcq-05",
-        "soft-mcq-06"
+        "soft-pdf-003",
+        "soft-mcq-20",
+        "soft-mcq-18"
       ],
       "explanation": "本句的「soft fabric」指「材料摸起來柔和、不粗硬」。",
       "sentenceIndex": 2,
@@ -1074,12 +1064,10 @@ export default {
         "soft fabric"
       ],
       "optionReasons": {
-        "soft-pdf-001": "本句指「材料摸起來柔和、不粗硬」。",
-        "soft-mcq-02": "「質地不硬，容易咀嚼／切開」是「soft food」的用法，與本句語境不同。",
-        "soft-mcq-03": "「音量較低、聽感柔和而不刺耳」是「soft voice/music」的用法，與本句語境不同。",
-        "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。"
+        "soft-pdf-001": "本句的「soft fabric」指「材料摸起來柔和、不粗硬」。",
+        "soft-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-pdf-001"
     },
@@ -1091,11 +1079,9 @@ export default {
       "masked": "Choose a ____ towel for the baby.",
       "options": [
         "soft-pdf-001",
-        "soft-mcq-02",
-        "soft-mcq-03",
-        "soft-mcq-04",
-        "soft-mcq-05",
-        "soft-mcq-06"
+        "soft-mcq-16",
+        "soft-mcq-14",
+        "soft-mcq-30"
       ],
       "explanation": "本句的「soft」指「材料摸起來柔和、不粗硬」。",
       "sentenceIndex": 3,
@@ -1104,12 +1090,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-pdf-001": "本句指「材料摸起來柔和、不粗硬」。",
-        "soft-mcq-02": "「質地不硬，容易咀嚼／切開」是「soft food」的用法，與本句語境不同。",
-        "soft-mcq-03": "「音量較低、聽感柔和而不刺耳」是「soft voice/music」的用法，與本句語境不同。",
-        "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。"
+        "soft-pdf-001": "本句的「soft」指「材料摸起來柔和、不粗硬」。",
+        "soft-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-pdf-001"
     },
@@ -1121,11 +1105,9 @@ export default {
       "masked": "Cook the vegetables until they are ____.",
       "options": [
         "soft-mcq-02",
-        "soft-mcq-01",
-        "soft-mcq-03",
-        "soft-mcq-04",
-        "soft-mcq-05",
-        "soft-mcq-06"
+        "soft-pdf-003",
+        "soft-mcq-36",
+        "soft-mcq-03"
       ],
       "explanation": "本句的「soft」指「質地不硬，容易咀嚼／切開」。",
       "sentenceIndex": 4,
@@ -1134,12 +1116,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-02": "本句指「質地不硬，容易咀嚼／切開」。",
-        "soft-mcq-01": "「觸感不硬、不僵，容易被壓下／改變形狀」是「soft — texture」的用法，與本句語境不同。",
-        "soft-mcq-03": "「音量較低、聽感柔和而不刺耳」是「soft voice/music」的用法，與本句語境不同。",
-        "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。"
+        "soft-mcq-02": "本句的「soft」指「質地不硬，容易咀嚼／切開」。",
+        "soft-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-02"
     },
@@ -1151,11 +1131,9 @@ export default {
       "masked": "The bread is still ____.",
       "options": [
         "soft-mcq-02",
-        "soft-mcq-01",
-        "soft-mcq-03",
-        "soft-mcq-04",
-        "soft-mcq-05",
-        "soft-mcq-06"
+        "soft-mcq-23",
+        "soft-mcq-25",
+        "soft-mcq-24"
       ],
       "explanation": "本句的「soft」指「質地不硬，容易咀嚼／切開」。",
       "sentenceIndex": 5,
@@ -1164,12 +1142,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-02": "本句指「質地不硬，容易咀嚼／切開」。",
-        "soft-mcq-01": "「觸感不硬、不僵，容易被壓下／改變形狀」是「soft — texture」的用法，與本句語境不同。",
-        "soft-mcq-03": "「音量較低、聽感柔和而不刺耳」是「soft voice/music」的用法，與本句語境不同。",
-        "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。"
+        "soft-mcq-02": "本句的「soft」指「質地不硬，容易咀嚼／切開」。",
+        "soft-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-02"
     },
@@ -1181,11 +1157,9 @@ export default {
       "masked": "The ground was ____ after the rain.",
       "options": [
         "soft-mcq-31",
-        "soft-mcq-30",
-        "soft-mcq-32",
-        "soft-mcq-29",
-        "soft-mcq-33",
-        "soft-mcq-28"
+        "soft-mcq-14",
+        "soft-mcq-04",
+        "soft-mcq-22"
       ],
       "explanation": "本句的「soft」指「地面／表面缺乏硬度或穩固性」。",
       "sentenceIndex": 6,
@@ -1194,12 +1168,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-31": "本句指「地面／表面缺乏硬度或穩固性」。",
-        "soft-mcq-30": "「正式全面推出前的小規模、低調測試性推出」是「soft launch」的用法，與本句語境不同。",
-        "soft-mcq-32": "「因能稍微下陷／承托身體而感覺舒服」是「5. soft = comfortable and yielding（柔軟舒適的） — 柔軟舒服」的用法，與本句語境不同。",
-        "soft-mcq-29": "「電腦／電子裝置上運行的程式及數碼指令系統」是「software」的用法，與本句語境不同。",
-        "soft-mcq-33": "「視覺輪廓沒有強烈、尖銳或硬朗感」是「11. soft = gentle / mild in appearance（柔和的） — 柔和；溫柔」的用法，與本句語境不同。",
-        "soft-mcq-28": "「柔軟；亦可指聲音、態度中的溫柔柔和」是「softness」的用法，與本句語境不同。"
+        "soft-mcq-31": "本句的「soft」指「地面／表面缺乏硬度或穩固性」。",
+        "soft-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-31"
     },
@@ -1211,11 +1183,9 @@ export default {
       "masked": "Be careful—the surface is ____.",
       "options": [
         "soft-mcq-31",
-        "soft-mcq-30",
-        "soft-mcq-32",
-        "soft-mcq-29",
-        "soft-mcq-33",
-        "soft-mcq-28"
+        "soft-mcq-25",
+        "soft-mcq-14",
+        "soft-pdf-002"
       ],
       "explanation": "本句的「soft」指「地面／表面缺乏硬度或穩固性」。",
       "sentenceIndex": 7,
@@ -1224,12 +1194,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-31": "本句指「地面／表面缺乏硬度或穩固性」。",
-        "soft-mcq-30": "「正式全面推出前的小規模、低調測試性推出」是「soft launch」的用法，與本句語境不同。",
-        "soft-mcq-32": "「因能稍微下陷／承托身體而感覺舒服」是「5. soft = comfortable and yielding（柔軟舒適的） — 柔軟舒服」的用法，與本句語境不同。",
-        "soft-mcq-29": "「電腦／電子裝置上運行的程式及數碼指令系統」是「software」的用法，與本句語境不同。",
-        "soft-mcq-33": "「視覺輪廓沒有強烈、尖銳或硬朗感」是「11. soft = gentle / mild in appearance（柔和的） — 柔和；溫柔」的用法，與本句語境不同。",
-        "soft-mcq-28": "「柔軟；亦可指聲音、態度中的溫柔柔和」是「softness」的用法，與本句語境不同。"
+        "soft-mcq-31": "本句的「soft」指「地面／表面缺乏硬度或穩固性」。",
+        "soft-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-31"
     },
@@ -1241,11 +1209,9 @@ export default {
       "masked": "She sat in a ____.",
       "options": [
         "soft-mcq-32",
-        "soft-mcq-31",
-        "soft-mcq-33",
-        "soft-mcq-30",
-        "soft-mcq-34",
-        "soft-mcq-29"
+        "soft-mcq-12",
+        "soft-mcq-10",
+        "soft-mcq-20"
       ],
       "explanation": "本句的「soft chair」指「因能稍微下陷／承托身體而感覺舒服」。",
       "sentenceIndex": 8,
@@ -1254,12 +1220,10 @@ export default {
         "soft chair"
       ],
       "optionReasons": {
-        "soft-mcq-32": "本句指「因能稍微下陷／承托身體而感覺舒服」。",
-        "soft-mcq-31": "「地面／表面缺乏硬度或穩固性」是「4. soft ground/surface（土地鬆軟） — 軟；不堅實」的用法，與本句語境不同。",
-        "soft-mcq-33": "「視覺輪廓沒有強烈、尖銳或硬朗感」是「11. soft = gentle / mild in appearance（柔和的） — 柔和；溫柔」的用法，與本句語境不同。",
-        "soft-mcq-30": "「正式全面推出前的小規模、低調測試性推出」是「soft launch」的用法，與本句語境不同。",
-        "soft-mcq-34": "「難度／要求較低，不需要太多努力」是「20. soft = easy / not demanding（容易的） — 輕鬆；要求低」的用法，與本句語境不同。",
-        "soft-mcq-29": "「電腦／電子裝置上運行的程式及數碼指令系統」是「software」的用法，與本句語境不同。"
+        "soft-mcq-32": "本句的「soft chair」指「因能稍微下陷／承托身體而感覺舒服」。",
+        "soft-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-32"
     },
@@ -1271,11 +1235,9 @@ export default {
       "masked": "The bed is too ____ for me.",
       "options": [
         "soft-mcq-32",
-        "soft-mcq-31",
-        "soft-mcq-33",
-        "soft-mcq-30",
-        "soft-mcq-34",
-        "soft-mcq-29"
+        "soft-mcq-10",
+        "soft-mcq-07",
+        "soft-pdf-003"
       ],
       "explanation": "本句的「soft」指「因能稍微下陷／承托身體而感覺舒服」。",
       "sentenceIndex": 9,
@@ -1284,12 +1246,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-32": "本句指「因能稍微下陷／承托身體而感覺舒服」。",
-        "soft-mcq-31": "「地面／表面缺乏硬度或穩固性」是「4. soft ground/surface（土地鬆軟） — 軟；不堅實」的用法，與本句語境不同。",
-        "soft-mcq-33": "「視覺輪廓沒有強烈、尖銳或硬朗感」是「11. soft = gentle / mild in appearance（柔和的） — 柔和；溫柔」的用法，與本句語境不同。",
-        "soft-mcq-30": "「正式全面推出前的小規模、低調測試性推出」是「soft launch」的用法，與本句語境不同。",
-        "soft-mcq-34": "「難度／要求較低，不需要太多努力」是「20. soft = easy / not demanding（容易的） — 輕鬆；要求低」的用法，與本句語境不同。",
-        "soft-mcq-29": "「電腦／電子裝置上運行的程式及數碼指令系統」是「software」的用法，與本句語境不同。"
+        "soft-mcq-32": "本句的「soft」指「因能稍微下陷／承托身體而感覺舒服」。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-32"
     },
@@ -1301,11 +1261,9 @@ export default {
       "masked": "She spoke in a ____.",
       "options": [
         "soft-mcq-03",
-        "soft-mcq-02",
-        "soft-mcq-04",
-        "soft-mcq-01",
-        "soft-mcq-05",
-        "soft-mcq-06"
+        "soft-pdf-004",
+        "soft-mcq-18",
+        "soft-mcq-31"
       ],
       "explanation": "本句的「soft voice」指「音量較低、聽感柔和而不刺耳」。",
       "sentenceIndex": 10,
@@ -1314,12 +1272,10 @@ export default {
         "soft voice"
       ],
       "optionReasons": {
-        "soft-mcq-03": "本句指「音量較低、聽感柔和而不刺耳」。",
-        "soft-mcq-02": "「質地不硬，容易咀嚼／切開」是「soft food」的用法，與本句語境不同。",
-        "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。",
-        "soft-mcq-01": "「觸感不硬、不僵，容易被壓下／改變形狀」是「soft — texture」的用法，與本句語境不同。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。"
+        "soft-mcq-03": "本句的「soft voice」指「音量較低、聽感柔和而不刺耳」。",
+        "soft-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-03"
     },
@@ -1331,11 +1287,9 @@ export default {
       "masked": "____ music was playing in the background.",
       "options": [
         "soft-mcq-03",
-        "soft-mcq-02",
-        "soft-mcq-04",
-        "soft-mcq-01",
-        "soft-mcq-05",
-        "soft-mcq-06"
+        "soft-mcq-31",
+        "soft-mcq-24",
+        "soft-mcq-10"
       ],
       "explanation": "本句的「Soft」指「音量較低、聽感柔和而不刺耳」。",
       "sentenceIndex": 11,
@@ -1344,12 +1298,10 @@ export default {
         "Soft"
       ],
       "optionReasons": {
-        "soft-mcq-03": "本句指「音量較低、聽感柔和而不刺耳」。",
-        "soft-mcq-02": "「質地不硬，容易咀嚼／切開」是「soft food」的用法，與本句語境不同。",
-        "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。",
-        "soft-mcq-01": "「觸感不硬、不僵，容易被壓下／改變形狀」是「soft — texture」的用法，與本句語境不同。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。"
+        "soft-mcq-03": "本句的「Soft」指「音量較低、聽感柔和而不刺耳」。",
+        "soft-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-03"
     },
@@ -1361,11 +1313,9 @@ export default {
       "masked": "Her ____ made everyone feel calm.",
       "options": [
         "soft-mcq-03",
-        "soft-mcq-02",
-        "soft-mcq-04",
-        "soft-mcq-01",
-        "soft-mcq-05",
-        "soft-mcq-06"
+        "soft-mcq-18",
+        "soft-mcq-20",
+        "soft-mcq-10"
       ],
       "explanation": "本句的「soft voice」指「音量較低、聽感柔和而不刺耳」。",
       "sentenceIndex": 12,
@@ -1374,12 +1324,10 @@ export default {
         "soft voice"
       ],
       "optionReasons": {
-        "soft-mcq-03": "本句指「音量較低、聽感柔和而不刺耳」。",
-        "soft-mcq-02": "「質地不硬，容易咀嚼／切開」是「soft food」的用法，與本句語境不同。",
-        "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。",
-        "soft-mcq-01": "「觸感不硬、不僵，容易被壓下／改變形狀」是「soft — texture」的用法，與本句語境不同。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。"
+        "soft-mcq-03": "本句的「soft voice」指「音量較低、聽感柔和而不刺耳」。",
+        "soft-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-03"
     },
@@ -1391,11 +1339,9 @@ export default {
       "masked": "He answered in a ____ voice.",
       "options": [
         "soft-mcq-03",
-        "soft-mcq-02",
-        "soft-mcq-04",
-        "soft-mcq-01",
-        "soft-mcq-05",
-        "soft-mcq-06"
+        "soft-mcq-22",
+        "soft-mcq-10",
+        "soft-mcq-18"
       ],
       "explanation": "本句的「soft」指「音量較低、聽感柔和而不刺耳」。",
       "sentenceIndex": 13,
@@ -1404,12 +1350,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-03": "本句指「音量較低、聽感柔和而不刺耳」。",
-        "soft-mcq-02": "「質地不硬，容易咀嚼／切開」是「soft food」的用法，與本句語境不同。",
-        "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。",
-        "soft-mcq-01": "「觸感不硬、不僵，容易被壓下／改變形狀」是「soft — texture」的用法，與本句語境不同。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。"
+        "soft-mcq-03": "本句的「soft」指「音量較低、聽感柔和而不刺耳」。",
+        "soft-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-03"
     },
@@ -1421,11 +1365,9 @@ export default {
       "masked": "She spoke ____.",
       "options": [
         "soft-mcq-04",
-        "soft-mcq-03",
-        "soft-mcq-05",
-        "soft-mcq-02",
-        "soft-mcq-06",
-        "soft-mcq-01"
+        "soft-mcq-14",
+        "soft-pdf-006",
+        "soft-mcq-18"
       ],
       "explanation": "本句的「softly」指「以輕聲、柔和、不強烈的方式」。",
       "sentenceIndex": 14,
@@ -1434,12 +1376,10 @@ export default {
         "softly"
       ],
       "optionReasons": {
-        "soft-mcq-04": "本句指「以輕聲、柔和、不強烈的方式」。",
-        "soft-mcq-03": "「音量較低、聽感柔和而不刺耳」是「soft voice/music」的用法，與本句語境不同。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
-        "soft-mcq-02": "「質地不硬，容易咀嚼／切開」是「soft food」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。",
-        "soft-mcq-01": "「觸感不硬、不僵，容易被壓下／改變形狀」是「soft — texture」的用法，與本句語境不同。"
+        "soft-mcq-04": "本句的「softly」指「以輕聲、柔和、不強烈的方式」。",
+        "soft-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-04"
     },
@@ -1451,11 +1391,9 @@ export default {
       "masked": "The music played ____ in the room.",
       "options": [
         "soft-mcq-04",
-        "soft-mcq-03",
-        "soft-mcq-05",
-        "soft-mcq-02",
-        "soft-mcq-06",
-        "soft-mcq-01"
+        "soft-mcq-15",
+        "soft-mcq-32",
+        "soft-mcq-31"
       ],
       "explanation": "本句的「softly」指「以輕聲、柔和、不強烈的方式」。",
       "sentenceIndex": 15,
@@ -1464,12 +1402,10 @@ export default {
         "softly"
       ],
       "optionReasons": {
-        "soft-mcq-04": "本句指「以輕聲、柔和、不強烈的方式」。",
-        "soft-mcq-03": "「音量較低、聽感柔和而不刺耳」是「soft voice/music」的用法，與本句語境不同。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
-        "soft-mcq-02": "「質地不硬，容易咀嚼／切開」是「soft food」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。",
-        "soft-mcq-01": "「觸感不硬、不僵，容易被壓下／改變形狀」是「soft — texture」的用法，與本句語境不同。"
+        "soft-mcq-04": "本句的「softly」指「以輕聲、柔和、不強烈的方式」。",
+        "soft-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-04"
     },
@@ -1481,11 +1417,9 @@ export default {
       "masked": "The room was filled with ____.",
       "options": [
         "soft-mcq-05",
-        "soft-mcq-04",
-        "soft-mcq-06",
-        "soft-mcq-03",
-        "soft-mcq-07",
-        "soft-mcq-02"
+        "soft-mcq-16",
+        "soft-pdf-006",
+        "soft-mcq-10"
       ],
       "explanation": "本句的「soft light」指「光線不強烈、不刺眼，視覺過渡柔和」。",
       "sentenceIndex": 16,
@@ -1494,12 +1428,10 @@ export default {
         "soft light"
       ],
       "optionReasons": {
-        "soft-mcq-05": "本句指「光線不強烈、不刺眼，視覺過渡柔和」。",
-        "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。",
-        "soft-mcq-03": "「音量較低、聽感柔和而不刺耳」是「soft voice/music」的用法，與本句語境不同。",
-        "soft-mcq-07": "「態度、性格不強硬、粗暴，而較溫和」是「soft — manner」的用法，與本句語境不同。",
-        "soft-mcq-02": "「質地不硬，容易咀嚼／切開」是「soft food」的用法，與本句語境不同。"
+        "soft-mcq-05": "本句的「soft light」指「光線不強烈、不刺眼，視覺過渡柔和」。",
+        "soft-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-05"
     },
@@ -1511,11 +1443,9 @@ export default {
       "masked": "____ lighting creates a relaxing atmosphere.",
       "options": [
         "soft-mcq-05",
-        "soft-mcq-04",
-        "soft-mcq-06",
-        "soft-mcq-03",
-        "soft-mcq-07",
-        "soft-mcq-02"
+        "soft-mcq-34",
+        "soft-mcq-18",
+        "soft-mcq-29"
       ],
       "explanation": "本句的「Soft」指「光線不強烈、不刺眼，視覺過渡柔和」。",
       "sentenceIndex": 17,
@@ -1524,12 +1454,10 @@ export default {
         "Soft"
       ],
       "optionReasons": {
-        "soft-mcq-05": "本句指「光線不強烈、不刺眼，視覺過渡柔和」。",
-        "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。",
-        "soft-mcq-03": "「音量較低、聽感柔和而不刺耳」是「soft voice/music」的用法，與本句語境不同。",
-        "soft-mcq-07": "「態度、性格不強硬、粗暴，而較溫和」是「soft — manner」的用法，與本句語境不同。",
-        "soft-mcq-02": "「質地不硬，容易咀嚼／切開」是「soft food」的用法，與本句語境不同。"
+        "soft-mcq-05": "本句的「Soft」指「光線不強烈、不刺眼，視覺過渡柔和」。",
+        "soft-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-05"
     },
@@ -1541,11 +1469,9 @@ export default {
       "masked": "She prefers ____.",
       "options": [
         "soft-mcq-06",
-        "soft-mcq-05",
-        "soft-mcq-07",
-        "soft-mcq-04",
-        "soft-mcq-08",
-        "soft-mcq-03"
+        "soft-mcq-29",
+        "soft-mcq-26",
+        "soft-mcq-36"
       ],
       "explanation": "本句的「soft colours」指「顏色不鮮烈、不刺眼，視覺感溫和」。",
       "sentenceIndex": 18,
@@ -1554,12 +1480,10 @@ export default {
         "soft colours"
       ],
       "optionReasons": {
-        "soft-mcq-06": "本句指「顏色不鮮烈、不刺眼，視覺感溫和」。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
-        "soft-mcq-07": "「態度、性格不強硬、粗暴，而較溫和」是「soft — manner」的用法，與本句語境不同。",
-        "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。",
-        "soft-mcq-08": "「說話聲音較輕、語氣溫和不強勢」是「soft-spoken」的用法，與本句語境不同。",
-        "soft-mcq-03": "「音量較低、聽感柔和而不刺耳」是「soft voice/music」的用法，與本句語境不同。"
+        "soft-mcq-06": "本句的「soft colours」指「顏色不鮮烈、不刺眼，視覺感溫和」。",
+        "soft-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-06"
     },
@@ -1571,11 +1495,9 @@ export default {
       "masked": "The room was decorated in ____ blue and grey.",
       "options": [
         "soft-mcq-06",
-        "soft-mcq-05",
-        "soft-mcq-07",
-        "soft-mcq-04",
-        "soft-mcq-08",
-        "soft-mcq-03"
+        "soft-pdf-004",
+        "soft-mcq-10",
+        "soft-mcq-21"
       ],
       "explanation": "本句的「soft」指「顏色不鮮烈、不刺眼，視覺感溫和」。",
       "sentenceIndex": 19,
@@ -1584,12 +1506,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-06": "本句指「顏色不鮮烈、不刺眼，視覺感溫和」。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
-        "soft-mcq-07": "「態度、性格不強硬、粗暴，而較溫和」是「soft — manner」的用法，與本句語境不同。",
-        "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。",
-        "soft-mcq-08": "「說話聲音較輕、語氣溫和不強勢」是「soft-spoken」的用法，與本句語境不同。",
-        "soft-mcq-03": "「音量較低、聽感柔和而不刺耳」是「soft voice/music」的用法，與本句語境不同。"
+        "soft-mcq-06": "本句的「soft」指「顏色不鮮烈、不刺眼，視覺感溫和」。",
+        "soft-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-06"
     },
@@ -1601,11 +1521,9 @@ export default {
       "masked": "The painting has ____.",
       "options": [
         "soft-mcq-33",
-        "soft-mcq-32",
-        "soft-mcq-34",
-        "soft-mcq-31",
-        "soft-mcq-35",
-        "soft-mcq-30"
+        "soft-mcq-28",
+        "soft-mcq-25",
+        "soft-mcq-10"
       ],
       "explanation": "本句的「soft lines」指「視覺輪廓沒有強烈、尖銳或硬朗感」。",
       "sentenceIndex": 20,
@@ -1614,12 +1532,10 @@ export default {
         "soft lines"
       ],
       "optionReasons": {
-        "soft-mcq-33": "本句指「視覺輪廓沒有強烈、尖銳或硬朗感」。",
-        "soft-mcq-32": "「因能稍微下陷／承托身體而感覺舒服」是「5. soft = comfortable and yielding（柔軟舒適的） — 柔軟舒服」的用法，與本句語境不同。",
-        "soft-mcq-34": "「難度／要求較低，不需要太多努力」是「20. soft = easy / not demanding（容易的） — 輕鬆；要求低」的用法，與本句語境不同。",
-        "soft-mcq-31": "「地面／表面缺乏硬度或穩固性」是「4. soft ground/surface（土地鬆軟） — 軟；不堅實」的用法，與本句語境不同。",
-        "soft-mcq-35": "「語言、立場或訊息不尖銳、不強硬」是「29. soft = less strong / less direct statement（委婉的） — 委婉；不強烈」的用法，與本句語境不同。",
-        "soft-mcq-30": "「正式全面推出前的小規模、低調測試性推出」是「soft launch」的用法，與本句語境不同。"
+        "soft-mcq-33": "本句的「soft lines」指「視覺輪廓沒有強烈、尖銳或硬朗感」。",
+        "soft-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-33"
     },
@@ -1631,11 +1547,9 @@ export default {
       "masked": "Her face had ____ features.",
       "options": [
         "soft-mcq-33",
-        "soft-mcq-32",
-        "soft-mcq-34",
-        "soft-mcq-31",
-        "soft-mcq-35",
-        "soft-mcq-30"
+        "soft-mcq-24",
+        "soft-mcq-25",
+        "soft-mcq-15"
       ],
       "explanation": "本句的「soft」指「視覺輪廓沒有強烈、尖銳或硬朗感」。",
       "sentenceIndex": 21,
@@ -1644,12 +1558,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-33": "本句指「視覺輪廓沒有強烈、尖銳或硬朗感」。",
-        "soft-mcq-32": "「因能稍微下陷／承托身體而感覺舒服」是「5. soft = comfortable and yielding（柔軟舒適的） — 柔軟舒服」的用法，與本句語境不同。",
-        "soft-mcq-34": "「難度／要求較低，不需要太多努力」是「20. soft = easy / not demanding（容易的） — 輕鬆；要求低」的用法，與本句語境不同。",
-        "soft-mcq-31": "「地面／表面缺乏硬度或穩固性」是「4. soft ground/surface（土地鬆軟） — 軟；不堅實」的用法，與本句語境不同。",
-        "soft-mcq-35": "「語言、立場或訊息不尖銳、不強硬」是「29. soft = less strong / less direct statement（委婉的） — 委婉；不強烈」的用法，與本句語境不同。",
-        "soft-mcq-30": "「正式全面推出前的小規模、低調測試性推出」是「soft launch」的用法，與本句語境不同。"
+        "soft-mcq-33": "本句的「soft」指「視覺輪廓沒有強烈、尖銳或硬朗感」。",
+        "soft-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-33"
     },
@@ -1661,11 +1573,9 @@ export default {
       "masked": "She has a ____.",
       "options": [
         "soft-mcq-07",
-        "soft-mcq-06",
-        "soft-mcq-08",
-        "soft-mcq-05",
-        "soft-mcq-09",
-        "soft-mcq-04"
+        "soft-mcq-24",
+        "soft-pdf-005",
+        "soft-mcq-22"
       ],
       "explanation": "本句的「soft manner」指「態度、性格不強硬、粗暴，而較溫和」。",
       "sentenceIndex": 22,
@@ -1674,12 +1584,10 @@ export default {
         "soft manner"
       ],
       "optionReasons": {
-        "soft-mcq-07": "本句指「態度、性格不強硬、粗暴，而較溫和」。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。",
-        "soft-mcq-08": "「說話聲音較輕、語氣溫和不強勢」是「soft-spoken」的用法，與本句語境不同。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
-        "soft-mcq-09": "「容易同情別人、心地柔軟的」是「soft-hearted」的用法，與本句語境不同。",
-        "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。"
+        "soft-mcq-07": "本句的「soft manner」指「態度、性格不強硬、粗暴，而較溫和」。",
+        "soft-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-07"
     },
@@ -1691,11 +1599,9 @@ export default {
       "masked": "He is ____ and patient.",
       "options": [
         "soft-mcq-07",
-        "soft-mcq-06",
-        "soft-mcq-08",
-        "soft-mcq-05",
-        "soft-mcq-09",
-        "soft-mcq-04"
+        "soft-mcq-16",
+        "soft-mcq-10",
+        "soft-mcq-29"
       ],
       "explanation": "本句的「soft-spoken」指「態度、性格不強硬、粗暴，而較溫和」。",
       "sentenceIndex": 23,
@@ -1704,12 +1610,10 @@ export default {
         "soft-spoken"
       ],
       "optionReasons": {
-        "soft-mcq-07": "本句指「態度、性格不強硬、粗暴，而較溫和」。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。",
-        "soft-mcq-08": "「說話聲音較輕、語氣溫和不強勢」是「soft-spoken」的用法，與本句語境不同。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。",
-        "soft-mcq-09": "「容易同情別人、心地柔軟的」是「soft-hearted」的用法，與本句語境不同。",
-        "soft-mcq-04": "「以輕聲、柔和、不強烈的方式」是「softly」的用法，與本句語境不同。"
+        "soft-mcq-07": "本句的「soft-spoken」指「態度、性格不強硬、粗暴，而較溫和」。",
+        "soft-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-07"
     },
@@ -1721,11 +1625,9 @@ export default {
       "masked": "She is a ____ teacher.",
       "options": [
         "soft-mcq-08",
-        "soft-mcq-07",
-        "soft-mcq-09",
-        "soft-mcq-06",
-        "soft-mcq-10",
-        "soft-mcq-05"
+        "soft-mcq-24",
+        "soft-mcq-17",
+        "soft-mcq-02"
       ],
       "explanation": "本句的「soft-spoken」指「說話聲音較輕、語氣溫和不強勢」。",
       "sentenceIndex": 24,
@@ -1734,12 +1636,10 @@ export default {
         "soft-spoken"
       ],
       "optionReasons": {
-        "soft-mcq-08": "本句指「說話聲音較輕、語氣溫和不強勢」。",
-        "soft-mcq-07": "「態度、性格不強硬、粗暴，而較溫和」是「soft — manner」的用法，與本句語境不同。",
-        "soft-mcq-09": "「容易同情別人、心地柔軟的」是「soft-hearted」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。",
-        "soft-mcq-10": "「對某人／某物有特別喜愛、疼愛或偏愛」是「soft spot for」的用法，與本句語境不同。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。"
+        "soft-mcq-08": "本句的「soft-spoken」指「說話聲音較輕、語氣溫和不強勢」。",
+        "soft-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-08"
     },
@@ -1751,11 +1651,9 @@ export default {
       "masked": "His ____ manner made people feel comfortable.",
       "options": [
         "soft-mcq-08",
-        "soft-mcq-07",
-        "soft-mcq-09",
-        "soft-mcq-06",
-        "soft-mcq-10",
-        "soft-mcq-05"
+        "soft-mcq-30",
+        "soft-mcq-22",
+        "soft-mcq-24"
       ],
       "explanation": "本句的「soft-spoken」指「說話聲音較輕、語氣溫和不強勢」。",
       "sentenceIndex": 25,
@@ -1764,12 +1662,10 @@ export default {
         "soft-spoken"
       ],
       "optionReasons": {
-        "soft-mcq-08": "本句指「說話聲音較輕、語氣溫和不強勢」。",
-        "soft-mcq-07": "「態度、性格不強硬、粗暴，而較溫和」是「soft — manner」的用法，與本句語境不同。",
-        "soft-mcq-09": "「容易同情別人、心地柔軟的」是「soft-hearted」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。",
-        "soft-mcq-10": "「對某人／某物有特別喜愛、疼愛或偏愛」是「soft spot for」的用法，與本句語境不同。",
-        "soft-mcq-05": "「光線不強烈、不刺眼，視覺過渡柔和」是「soft light」的用法，與本句語境不同。"
+        "soft-mcq-08": "本句的「soft-spoken」指「說話聲音較輕、語氣溫和不強勢」。",
+        "soft-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-08"
     },
@@ -1781,11 +1677,9 @@ export default {
       "masked": "She is very ____.",
       "options": [
         "soft-mcq-09",
-        "soft-mcq-08",
-        "soft-mcq-10",
-        "soft-mcq-07",
-        "soft-mcq-11",
-        "soft-mcq-06"
+        "soft-mcq-32",
+        "soft-mcq-33",
+        "soft-mcq-22"
       ],
       "explanation": "本句的「soft-hearted」指「容易同情別人、心地柔軟的」。",
       "sentenceIndex": 26,
@@ -1794,12 +1688,10 @@ export default {
         "soft-hearted"
       ],
       "optionReasons": {
-        "soft-mcq-09": "本句指「容易同情別人、心地柔軟的」。",
-        "soft-mcq-08": "「說話聲音較輕、語氣溫和不強勢」是「soft-spoken」的用法，與本句語境不同。",
-        "soft-mcq-10": "「對某人／某物有特別喜愛、疼愛或偏愛」是「soft spot for」的用法，與本句語境不同。",
-        "soft-mcq-07": "「態度、性格不強硬、粗暴，而較溫和」是「soft — manner」的用法，與本句語境不同。",
-        "soft-mcq-11": "「對某人不夠嚴格、較心軟」是「soft on someone」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。"
+        "soft-mcq-09": "本句的「soft-hearted」指「容易同情別人、心地柔軟的」。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-09"
     },
@@ -1811,11 +1703,9 @@ export default {
       "masked": "He looks strict, but he is actually ____.",
       "options": [
         "soft-mcq-09",
-        "soft-mcq-08",
-        "soft-mcq-10",
-        "soft-mcq-07",
-        "soft-mcq-11",
-        "soft-mcq-06"
+        "soft-pdf-004",
+        "soft-mcq-25",
+        "soft-mcq-32"
       ],
       "explanation": "本句的「soft-hearted」指「容易同情別人、心地柔軟的」。",
       "sentenceIndex": 27,
@@ -1824,12 +1714,10 @@ export default {
         "soft-hearted"
       ],
       "optionReasons": {
-        "soft-mcq-09": "本句指「容易同情別人、心地柔軟的」。",
-        "soft-mcq-08": "「說話聲音較輕、語氣溫和不強勢」是「soft-spoken」的用法，與本句語境不同。",
-        "soft-mcq-10": "「對某人／某物有特別喜愛、疼愛或偏愛」是「soft spot for」的用法，與本句語境不同。",
-        "soft-mcq-07": "「態度、性格不強硬、粗暴，而較溫和」是「soft — manner」的用法，與本句語境不同。",
-        "soft-mcq-11": "「對某人不夠嚴格、較心軟」是「soft on someone」的用法，與本句語境不同。",
-        "soft-mcq-06": "「顏色不鮮烈、不刺眼，視覺感溫和」是「soft colour」的用法，與本句語境不同。"
+        "soft-mcq-09": "本句的「soft-hearted」指「容易同情別人、心地柔軟的」。",
+        "soft-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-09"
     },
@@ -1841,11 +1729,9 @@ export default {
       "masked": "She has a ____ children.",
       "options": [
         "soft-mcq-10",
-        "soft-mcq-09",
-        "soft-mcq-11",
-        "soft-mcq-08",
-        "soft-mcq-12",
-        "soft-mcq-07"
+        "soft-mcq-15",
+        "soft-mcq-33",
+        "soft-mcq-29"
       ],
       "explanation": "本句的「soft spot for」指「對某人／某物有特別喜愛、疼愛或偏愛」。",
       "sentenceIndex": 28,
@@ -1854,12 +1740,10 @@ export default {
         "soft spot for"
       ],
       "optionReasons": {
-        "soft-mcq-10": "本句指「對某人／某物有特別喜愛、疼愛或偏愛」。",
-        "soft-mcq-09": "「容易同情別人、心地柔軟的」是「soft-hearted」的用法，與本句語境不同。",
-        "soft-mcq-11": "「對某人不夠嚴格、較心軟」是「soft on someone」的用法，與本句語境不同。",
-        "soft-mcq-08": "「說話聲音較輕、語氣溫和不強勢」是「soft-spoken」的用法，與本句語境不同。",
-        "soft-mcq-12": "「採取非強硬、非對抗、較溫和的處理方式」是「soft approach」的用法，與本句語境不同。",
-        "soft-mcq-07": "「態度、性格不強硬、粗暴，而較溫和」是「soft — manner」的用法，與本句語境不同。"
+        "soft-mcq-10": "本句的「soft spot for」指「對某人／某物有特別喜愛、疼愛或偏愛」。",
+        "soft-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-10"
     },
@@ -1871,11 +1755,9 @@ export default {
       "masked": "I’ve always had a ____ spot for old cafés.",
       "options": [
         "soft-mcq-10",
-        "soft-mcq-09",
-        "soft-mcq-11",
-        "soft-mcq-08",
         "soft-mcq-12",
-        "soft-mcq-07"
+        "soft-mcq-16",
+        "soft-mcq-36"
       ],
       "explanation": "本句的「soft」指「對某人／某物有特別喜愛、疼愛或偏愛」。",
       "sentenceIndex": 29,
@@ -1884,12 +1766,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-10": "本句指「對某人／某物有特別喜愛、疼愛或偏愛」。",
-        "soft-mcq-09": "「容易同情別人、心地柔軟的」是「soft-hearted」的用法，與本句語境不同。",
-        "soft-mcq-11": "「對某人不夠嚴格、較心軟」是「soft on someone」的用法，與本句語境不同。",
-        "soft-mcq-08": "「說話聲音較輕、語氣溫和不強勢」是「soft-spoken」的用法，與本句語境不同。",
-        "soft-mcq-12": "「採取非強硬、非對抗、較溫和的處理方式」是「soft approach」的用法，與本句語境不同。",
-        "soft-mcq-07": "「態度、性格不強硬、粗暴，而較溫和」是「soft — manner」的用法，與本句語境不同。"
+        "soft-mcq-10": "本句的「soft」指「對某人／某物有特別喜愛、疼愛或偏愛」。",
+        "soft-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-10"
     },
@@ -1901,11 +1781,9 @@ export default {
       "masked": "The teacher is too ____ on late students.",
       "options": [
         "soft-mcq-11",
-        "soft-mcq-10",
-        "soft-mcq-12",
-        "soft-mcq-09",
-        "soft-mcq-13",
-        "soft-mcq-08"
+        "soft-mcq-35",
+        "soft-mcq-30",
+        "soft-mcq-32"
       ],
       "explanation": "本句的「soft」指「對某人不夠嚴格、較心軟」。",
       "sentenceIndex": 30,
@@ -1914,12 +1792,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-11": "本句指「對某人不夠嚴格、較心軟」。",
-        "soft-mcq-10": "「對某人／某物有特別喜愛、疼愛或偏愛」是「soft spot for」的用法，與本句語境不同。",
-        "soft-mcq-12": "「採取非強硬、非對抗、較溫和的處理方式」是「soft approach」的用法，與本句語境不同。",
-        "soft-mcq-09": "「容易同情別人、心地柔軟的」是「soft-hearted」的用法，與本句語境不同。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。",
-        "soft-mcq-08": "「說話聲音較輕、語氣溫和不強勢」是「soft-spoken」的用法，與本句語境不同。"
+        "soft-mcq-11": "本句的「soft」指「對某人不夠嚴格、較心軟」。",
+        "soft-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-11"
     },
@@ -1931,11 +1807,9 @@ export default {
       "masked": "Some people thought the punishment was too ____.",
       "options": [
         "soft-mcq-11",
-        "soft-mcq-10",
-        "soft-mcq-12",
-        "soft-mcq-09",
-        "soft-mcq-13",
-        "soft-mcq-08"
+        "soft-mcq-32",
+        "soft-pdf-005",
+        "soft-mcq-02"
       ],
       "explanation": "本句的「soft」指「對某人不夠嚴格、較心軟」。",
       "sentenceIndex": 31,
@@ -1944,12 +1818,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-11": "本句指「對某人不夠嚴格、較心軟」。",
-        "soft-mcq-10": "「對某人／某物有特別喜愛、疼愛或偏愛」是「soft spot for」的用法，與本句語境不同。",
-        "soft-mcq-12": "「採取非強硬、非對抗、較溫和的處理方式」是「soft approach」的用法，與本句語境不同。",
-        "soft-mcq-09": "「容易同情別人、心地柔軟的」是「soft-hearted」的用法，與本句語境不同。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。",
-        "soft-mcq-08": "「說話聲音較輕、語氣溫和不強勢」是「soft-spoken」的用法，與本句語境不同。"
+        "soft-mcq-11": "本句的「soft」指「對某人不夠嚴格、較心軟」。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-11"
     },
@@ -1961,11 +1833,9 @@ export default {
       "masked": "Don’t be too ____.",
       "options": [
         "soft-mcq-11",
-        "soft-mcq-10",
-        "soft-mcq-12",
-        "soft-mcq-09",
         "soft-mcq-13",
-        "soft-mcq-08"
+        "soft-mcq-20",
+        "soft-mcq-01"
       ],
       "explanation": "本句的「soft on him」指「對某人不夠嚴格、較心軟」。",
       "sentenceIndex": 32,
@@ -1974,12 +1844,10 @@ export default {
         "soft on him"
       ],
       "optionReasons": {
-        "soft-mcq-11": "本句指「對某人不夠嚴格、較心軟」。",
-        "soft-mcq-10": "「對某人／某物有特別喜愛、疼愛或偏愛」是「soft spot for」的用法，與本句語境不同。",
-        "soft-mcq-12": "「採取非強硬、非對抗、較溫和的處理方式」是「soft approach」的用法，與本句語境不同。",
-        "soft-mcq-09": "「容易同情別人、心地柔軟的」是「soft-hearted」的用法，與本句語境不同。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。",
-        "soft-mcq-08": "「說話聲音較輕、語氣溫和不強勢」是「soft-spoken」的用法，與本句語境不同。"
+        "soft-mcq-11": "本句的「soft on him」指「對某人不夠嚴格、較心軟」。",
+        "soft-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-11"
     },
@@ -1991,11 +1859,9 @@ export default {
       "masked": "The manager is ____ on inexperienced staff.",
       "options": [
         "soft-mcq-11",
-        "soft-mcq-10",
-        "soft-mcq-12",
-        "soft-mcq-09",
-        "soft-mcq-13",
-        "soft-mcq-08"
+        "soft-pdf-004",
+        "soft-mcq-18",
+        "soft-mcq-31"
       ],
       "explanation": "本句的「soft」指「對某人不夠嚴格、較心軟」。",
       "sentenceIndex": 33,
@@ -2004,12 +1870,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-11": "本句指「對某人不夠嚴格、較心軟」。",
-        "soft-mcq-10": "「對某人／某物有特別喜愛、疼愛或偏愛」是「soft spot for」的用法，與本句語境不同。",
-        "soft-mcq-12": "「採取非強硬、非對抗、較溫和的處理方式」是「soft approach」的用法，與本句語境不同。",
-        "soft-mcq-09": "「容易同情別人、心地柔軟的」是「soft-hearted」的用法，與本句語境不同。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。",
-        "soft-mcq-08": "「說話聲音較輕、語氣溫和不強勢」是「soft-spoken」的用法，與本句語境不同。"
+        "soft-mcq-11": "本句的「soft」指「對某人不夠嚴格、較心軟」。",
+        "soft-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-11"
     },
@@ -2021,11 +1885,9 @@ export default {
       "masked": "They took a ____ to the problem.",
       "options": [
         "soft-mcq-12",
-        "soft-mcq-11",
-        "soft-mcq-13",
-        "soft-mcq-10",
-        "soft-mcq-14",
-        "soft-mcq-09"
+        "soft-mcq-29",
+        "soft-mcq-32",
+        "soft-mcq-10"
       ],
       "explanation": "本句的「soft approach」指「採取非強硬、非對抗、較溫和的處理方式」。",
       "sentenceIndex": 34,
@@ -2034,12 +1896,10 @@ export default {
         "soft approach"
       ],
       "optionReasons": {
-        "soft-mcq-12": "本句指「採取非強硬、非對抗、較溫和的處理方式」。",
-        "soft-mcq-11": "「對某人不夠嚴格、較心軟」是「soft on someone」的用法，與本句語境不同。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。",
-        "soft-mcq-10": "「對某人／某物有特別喜愛、疼愛或偏愛」是「soft spot for」的用法，與本句語境不同。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
-        "soft-mcq-09": "「容易同情別人、心地柔軟的」是「soft-hearted」的用法，與本句語境不同。"
+        "soft-mcq-12": "本句的「soft approach」指「採取非強硬、非對抗、較溫和的處理方式」。",
+        "soft-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-12"
     },
@@ -2051,11 +1911,9 @@ export default {
       "masked": "A ____ approach may work better.",
       "options": [
         "soft-mcq-12",
-        "soft-mcq-11",
-        "soft-mcq-13",
-        "soft-mcq-10",
-        "soft-mcq-14",
-        "soft-mcq-09"
+        "soft-mcq-17",
+        "soft-mcq-30",
+        "soft-mcq-24"
       ],
       "explanation": "本句的「softer」指「採取非強硬、非對抗、較溫和的處理方式」。",
       "sentenceIndex": 35,
@@ -2064,12 +1922,10 @@ export default {
         "softer"
       ],
       "optionReasons": {
-        "soft-mcq-12": "本句指「採取非強硬、非對抗、較溫和的處理方式」。",
-        "soft-mcq-11": "「對某人不夠嚴格、較心軟」是「soft on someone」的用法，與本句語境不同。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。",
-        "soft-mcq-10": "「對某人／某物有特別喜愛、疼愛或偏愛」是「soft spot for」的用法，與本句語境不同。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
-        "soft-mcq-09": "「容易同情別人、心地柔軟的」是「soft-hearted」的用法，與本句語境不同。"
+        "soft-mcq-12": "本句的「softer」指「採取非強硬、非對抗、較溫和的處理方式」。",
+        "soft-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-12"
     },
@@ -2081,11 +1937,9 @@ export default {
       "masked": "He worried that people would think he was ____.",
       "options": [
         "soft-mcq-13",
-        "soft-mcq-12",
-        "soft-mcq-14",
-        "soft-mcq-11",
-        "soft-mcq-15",
-        "soft-mcq-10"
+        "soft-mcq-09",
+        "soft-pdf-006",
+        "soft-mcq-18"
       ],
       "explanation": "本句的「soft」指「缺乏堅韌、強硬或競爭性」。",
       "sentenceIndex": 36,
@@ -2094,12 +1948,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-13": "本句指「缺乏堅韌、強硬或競爭性」。",
-        "soft-mcq-12": "「採取非強硬、非對抗、較溫和的處理方式」是「soft approach」的用法，與本句語境不同。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
-        "soft-mcq-11": "「對某人不夠嚴格、較心軟」是「soft on someone」的用法，與本句語境不同。",
-        "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
-        "soft-mcq-10": "「對某人／某物有特別喜愛、疼愛或偏愛」是「soft spot for」的用法，與本句語境不同。"
+        "soft-mcq-13": "本句的「soft」指「缺乏堅韌、強硬或競爭性」。",
+        "soft-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-13"
     },
@@ -2111,11 +1963,9 @@ export default {
       "masked": "The coach accused the team of being too ____.",
       "options": [
         "soft-mcq-13",
-        "soft-mcq-12",
-        "soft-mcq-14",
-        "soft-mcq-11",
-        "soft-mcq-15",
-        "soft-mcq-10"
+        "soft-mcq-23",
+        "soft-mcq-09",
+        "soft-mcq-16"
       ],
       "explanation": "本句的「soft」指「缺乏堅韌、強硬或競爭性」。",
       "sentenceIndex": 37,
@@ -2124,12 +1974,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-13": "本句指「缺乏堅韌、強硬或競爭性」。",
-        "soft-mcq-12": "「採取非強硬、非對抗、較溫和的處理方式」是「soft approach」的用法，與本句語境不同。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
-        "soft-mcq-11": "「對某人不夠嚴格、較心軟」是「soft on someone」的用法，與本句語境不同。",
-        "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
-        "soft-mcq-10": "「對某人／某物有特別喜愛、疼愛或偏愛」是「soft spot for」的用法，與本句語境不同。"
+        "soft-mcq-13": "本句的「soft」指「缺乏堅韌、強硬或競爭性」。",
+        "soft-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-13"
     },
@@ -2141,11 +1989,9 @@ export default {
       "masked": "They gave him a ____.",
       "options": [
         "soft-mcq-34",
-        "soft-mcq-33",
-        "soft-mcq-35",
-        "soft-mcq-32",
-        "soft-mcq-36",
-        "soft-mcq-31"
+        "soft-pdf-003",
+        "soft-mcq-18",
+        "soft-mcq-01"
       ],
       "explanation": "本句的「soft assignment」指「難度／要求較低，不需要太多努力」。",
       "sentenceIndex": 38,
@@ -2154,12 +2000,10 @@ export default {
         "soft assignment"
       ],
       "optionReasons": {
-        "soft-mcq-34": "本句指「難度／要求較低，不需要太多努力」。",
-        "soft-mcq-33": "「視覺輪廓沒有強烈、尖銳或硬朗感」是「11. soft = gentle / mild in appearance（柔和的） — 柔和；溫柔」的用法，與本句語境不同。",
-        "soft-mcq-35": "「語言、立場或訊息不尖銳、不強硬」是「29. soft = less strong / less direct statement（委婉的） — 委婉；不強烈」的用法，與本句語境不同。",
-        "soft-mcq-32": "「因能稍微下陷／承托身體而感覺舒服」是「5. soft = comfortable and yielding（柔軟舒適的） — 柔軟舒服」的用法，與本句語境不同。",
-        "soft-mcq-36": "「較難精確量化、可能包含主觀判斷的資料」是「33. soft data（軟資料／主觀資料） — 非量化資料」的用法，與本句語境不同。",
-        "soft-mcq-31": "「地面／表面缺乏硬度或穩固性」是「4. soft ground/surface（土地鬆軟） — 軟；不堅實」的用法，與本句語境不同。"
+        "soft-mcq-34": "本句的「soft assignment」指「難度／要求較低，不需要太多努力」。",
+        "soft-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-34"
     },
@@ -2171,11 +2015,9 @@ export default {
       "masked": "The course is not a ____ option.",
       "options": [
         "soft-mcq-34",
-        "soft-mcq-33",
-        "soft-mcq-35",
-        "soft-mcq-32",
-        "soft-mcq-36",
-        "soft-mcq-31"
+        "soft-mcq-06",
+        "soft-mcq-29",
+        "soft-mcq-02"
       ],
       "explanation": "本句的「soft」指「難度／要求較低，不需要太多努力」。",
       "sentenceIndex": 39,
@@ -2184,12 +2026,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-34": "本句指「難度／要求較低，不需要太多努力」。",
-        "soft-mcq-33": "「視覺輪廓沒有強烈、尖銳或硬朗感」是「11. soft = gentle / mild in appearance（柔和的） — 柔和；溫柔」的用法，與本句語境不同。",
-        "soft-mcq-35": "「語言、立場或訊息不尖銳、不強硬」是「29. soft = less strong / less direct statement（委婉的） — 委婉；不強烈」的用法，與本句語境不同。",
-        "soft-mcq-32": "「因能稍微下陷／承托身體而感覺舒服」是「5. soft = comfortable and yielding（柔軟舒適的） — 柔軟舒服」的用法，與本句語境不同。",
-        "soft-mcq-36": "「較難精確量化、可能包含主觀判斷的資料」是「33. soft data（軟資料／主觀資料） — 非量化資料」的用法，與本句語境不同。",
-        "soft-mcq-31": "「地面／表面缺乏硬度或穩固性」是「4. soft ground/surface（土地鬆軟） — 軟；不堅實」的用法，與本句語境不同。"
+        "soft-mcq-34": "本句的「soft」指「難度／要求較低，不需要太多努力」。",
+        "soft-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-34"
     },
@@ -2201,11 +2041,9 @@ export default {
       "masked": "Taking the easier route may look like the ____.",
       "options": [
         "soft-mcq-14",
-        "soft-mcq-13",
-        "soft-mcq-15",
-        "soft-mcq-12",
-        "soft-mcq-16",
-        "soft-mcq-11"
+        "soft-mcq-35",
+        "soft-mcq-10",
+        "soft-mcq-18"
       ],
       "explanation": "本句的「soft option」指「較容易、不需承受很多困難的選擇」。",
       "sentenceIndex": 40,
@@ -2214,12 +2052,10 @@ export default {
         "soft option"
       ],
       "optionReasons": {
-        "soft-mcq-14": "本句指「較容易、不需承受很多困難的選擇」。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。",
-        "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
-        "soft-mcq-12": "「採取非強硬、非對抗、較溫和的處理方式」是「soft approach」的用法，與本句語境不同。",
-        "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。",
-        "soft-mcq-11": "「對某人不夠嚴格、較心軟」是「soft on someone」的用法，與本句語境不同。"
+        "soft-mcq-14": "本句的「soft option」指「較容易、不需承受很多困難的選擇」。",
+        "soft-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-14"
     },
@@ -2231,11 +2067,9 @@ export default {
       "masked": "This is not a ____ option.",
       "options": [
         "soft-mcq-14",
-        "soft-mcq-13",
-        "soft-mcq-15",
-        "soft-mcq-12",
-        "soft-mcq-16",
-        "soft-mcq-11"
+        "soft-mcq-35",
+        "soft-mcq-17",
+        "soft-mcq-06"
       ],
       "explanation": "本句的「soft」指「較容易、不需承受很多困難的選擇」。",
       "sentenceIndex": 41,
@@ -2244,12 +2078,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-14": "本句指「較容易、不需承受很多困難的選擇」。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。",
-        "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
-        "soft-mcq-12": "「採取非強硬、非對抗、較溫和的處理方式」是「soft approach」的用法，與本句語境不同。",
-        "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。",
-        "soft-mcq-11": "「對某人不夠嚴格、較心軟」是「soft on someone」的用法，與本句語境不同。"
+        "soft-mcq-14": "本句的「soft」指「較容易、不需承受很多困難的選擇」。",
+        "soft-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-14"
     },
@@ -2261,11 +2093,9 @@ export default {
       "masked": "Small companies can become ____ for fraud.",
       "options": [
         "soft-mcq-15",
-        "soft-mcq-14",
-        "soft-mcq-16",
-        "soft-mcq-13",
-        "soft-mcq-17",
-        "soft-mcq-12"
+        "soft-mcq-19",
+        "soft-mcq-31",
+        "soft-mcq-30"
       ],
       "explanation": "本句的「soft targets」指「因防備／地位較弱而容易被攻擊、利用或批評的對象」。",
       "sentenceIndex": 42,
@@ -2274,12 +2104,10 @@ export default {
         "soft targets"
       ],
       "optionReasons": {
-        "soft-mcq-15": "本句指「因防備／地位較弱而容易被攻擊、利用或批評的對象」。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
-        "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。",
-        "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
-        "soft-mcq-12": "「採取非強硬、非對抗、較溫和的處理方式」是「soft approach」的用法，與本句語境不同。"
+        "soft-mcq-15": "本句的「soft targets」指「因防備／地位較弱而容易被攻擊、利用或批評的對象」。",
+        "soft-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-15"
     },
@@ -2291,11 +2119,9 @@ export default {
       "masked": "He became a ____ target for criticism.",
       "options": [
         "soft-mcq-15",
-        "soft-mcq-14",
-        "soft-mcq-16",
-        "soft-mcq-13",
-        "soft-mcq-17",
-        "soft-mcq-12"
+        "soft-mcq-28",
+        "soft-mcq-30",
+        "soft-mcq-19"
       ],
       "explanation": "本句的「soft」指「因防備／地位較弱而容易被攻擊、利用或批評的對象」。",
       "sentenceIndex": 43,
@@ -2304,12 +2130,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-15": "本句指「因防備／地位較弱而容易被攻擊、利用或批評的對象」。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
-        "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。",
-        "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
-        "soft-mcq-12": "「採取非強硬、非對抗、較溫和的處理方式」是「soft approach」的用法，與本句語境不同。"
+        "soft-mcq-15": "本句的「soft」指「因防備／地位較弱而容易被攻擊、利用或批評的對象」。",
+        "soft-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-15"
     },
@@ -2321,11 +2145,9 @@ export default {
       "masked": "The region has a ____.",
       "options": [
         "soft-pdf-002",
-        "soft-mcq-14",
-        "soft-mcq-16",
-        "soft-mcq-13",
-        "soft-mcq-17",
-        "soft-mcq-12"
+        "soft-mcq-22",
+        "soft-mcq-29",
+        "soft-pdf-001"
       ],
       "explanation": "本句的「soft climate」指「天氣、雨等不強烈、較溫和」。",
       "sentenceIndex": 44,
@@ -2334,12 +2156,10 @@ export default {
         "soft climate"
       ],
       "optionReasons": {
-        "soft-pdf-002": "本句指「天氣、雨等不強烈、較溫和」。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
-        "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。",
-        "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
-        "soft-mcq-12": "「採取非強硬、非對抗、較溫和的處理方式」是「soft approach」的用法，與本句語境不同。"
+        "soft-pdf-002": "本句的「soft climate」指「天氣、雨等不強烈、較溫和」。",
+        "soft-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-pdf-002"
     },
@@ -2351,11 +2171,9 @@ export default {
       "masked": "A ____ rain fell all afternoon.",
       "options": [
         "soft-pdf-002",
-        "soft-mcq-14",
-        "soft-mcq-16",
-        "soft-mcq-13",
-        "soft-mcq-17",
-        "soft-mcq-12"
+        "soft-mcq-30",
+        "soft-mcq-10",
+        "soft-mcq-32"
       ],
       "explanation": "本句的「soft」指「天氣、雨等不強烈、較溫和」。",
       "sentenceIndex": 45,
@@ -2364,12 +2182,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-pdf-002": "本句指「天氣、雨等不強烈、較溫和」。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
-        "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。",
-        "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
-        "soft-mcq-12": "「採取非強硬、非對抗、較溫和的處理方式」是「soft approach」的用法，與本句語境不同。"
+        "soft-pdf-002": "本句的「soft」指「天氣、雨等不強烈、較溫和」。",
+        "soft-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-pdf-002"
     },
@@ -2381,10 +2197,8 @@ export default {
       "masked": "A ____ began to fall.",
       "options": [
         "soft-pdf-003",
-        "soft-mcq-15",
-        "soft-mcq-17",
-        "soft-mcq-14",
-        "soft-mcq-18",
+        "soft-mcq-22",
+        "soft-mcq-36",
         "soft-mcq-13"
       ],
       "explanation": "本句的「soft rain」指「雨勢輕、不猛烈」。",
@@ -2394,12 +2208,10 @@ export default {
         "soft rain"
       ],
       "optionReasons": {
-        "soft-pdf-003": "本句指「雨勢輕、不猛烈」。",
-        "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
-        "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
-        "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。"
+        "soft-pdf-003": "本句的「soft rain」指「雨勢輕、不猛烈」。",
+        "soft-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-pdf-003"
     },
@@ -2411,11 +2223,9 @@ export default {
       "masked": "The ____ rain made the garden quiet.",
       "options": [
         "soft-pdf-003",
-        "soft-mcq-15",
         "soft-mcq-17",
-        "soft-mcq-14",
-        "soft-mcq-18",
-        "soft-mcq-13"
+        "soft-mcq-34",
+        "soft-mcq-27"
       ],
       "explanation": "本句的「soft」指「雨勢輕、不猛烈」。",
       "sentenceIndex": 47,
@@ -2424,12 +2234,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-pdf-003": "本句指「雨勢輕、不猛烈」。",
-        "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
-        "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
-        "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。"
+        "soft-pdf-003": "本句的「soft」指「雨勢輕、不猛烈」。",
+        "soft-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-pdf-003"
     },
@@ -2441,11 +2249,9 @@ export default {
       "masked": "She gave the door a ____.",
       "options": [
         "soft-pdf-004",
-        "soft-mcq-15",
-        "soft-mcq-17",
-        "soft-mcq-14",
-        "soft-mcq-18",
-        "soft-mcq-13"
+        "soft-mcq-36",
+        "soft-mcq-09",
+        "soft-mcq-23"
       ],
       "explanation": "本句的「soft push」指「力度小、衝擊不強」。",
       "sentenceIndex": 48,
@@ -2454,12 +2260,10 @@ export default {
         "soft push"
       ],
       "optionReasons": {
-        "soft-pdf-004": "本句指「力度小、衝擊不強」。",
-        "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
-        "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
-        "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。"
+        "soft-pdf-004": "本句的「soft push」指「力度小、衝擊不強」。",
+        "soft-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-pdf-004"
     },
@@ -2471,11 +2275,9 @@ export default {
       "masked": "The ball landed with a ____ bounce.",
       "options": [
         "soft-pdf-004",
-        "soft-mcq-15",
-        "soft-mcq-17",
-        "soft-mcq-14",
         "soft-mcq-18",
-        "soft-mcq-13"
+        "soft-pdf-003",
+        "soft-mcq-09"
       ],
       "explanation": "本句的「soft」指「力度小、衝擊不強」。",
       "sentenceIndex": 49,
@@ -2484,12 +2286,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-pdf-004": "本句指「力度小、衝擊不強」。",
-        "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
-        "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
-        "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。"
+        "soft-pdf-004": "本句的「soft」指「力度小、衝擊不強」。",
+        "soft-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-pdf-004"
     },
@@ -2501,11 +2301,9 @@ export default {
       "masked": "The aircraft made a ____.",
       "options": [
         "soft-mcq-16",
-        "soft-mcq-15",
-        "soft-mcq-17",
-        "soft-mcq-14",
-        "soft-mcq-18",
-        "soft-mcq-13"
+        "soft-mcq-35",
+        "soft-mcq-06",
+        "soft-pdf-001"
       ],
       "explanation": "本句的「soft landing」指「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」。",
       "sentenceIndex": 50,
@@ -2514,12 +2312,10 @@ export default {
         "soft landing"
       ],
       "optionReasons": {
-        "soft-mcq-16": "本句指「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」。",
-        "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
-        "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
-        "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。"
+        "soft-mcq-16": "本句的「soft landing」指「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」。",
+        "soft-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-16"
     },
@@ -2531,11 +2327,9 @@ export default {
       "masked": "The company hopes for a ____ landing after rapid growth.",
       "options": [
         "soft-mcq-16",
-        "soft-mcq-15",
-        "soft-mcq-17",
-        "soft-mcq-14",
-        "soft-mcq-18",
-        "soft-mcq-13"
+        "soft-mcq-32",
+        "soft-mcq-07",
+        "soft-pdf-003"
       ],
       "explanation": "本句的「soft」指「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」。",
       "sentenceIndex": 51,
@@ -2544,12 +2338,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-16": "本句指「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」。",
-        "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
-        "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。",
-        "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
-        "soft-mcq-13": "「缺乏堅韌、強硬或競爭性」是「soft — weak/toughness」的用法，與本句語境不同。"
+        "soft-mcq-16": "本句的「soft」指「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-16"
     },
@@ -2561,11 +2353,9 @@ export default {
       "masked": "The photograph has a ____.",
       "options": [
         "soft-pdf-005",
-        "soft-mcq-16",
-        "soft-mcq-18",
-        "soft-mcq-15",
-        "soft-mcq-19",
-        "soft-mcq-14"
+        "soft-mcq-24",
+        "soft-mcq-10",
+        "soft-mcq-21"
       ],
       "explanation": "本句的「soft focus」指「邊緣、細節或焦點不尖銳清楚，而呈柔化效果」。",
       "sentenceIndex": 52,
@@ -2574,12 +2364,10 @@ export default {
         "soft focus"
       ],
       "optionReasons": {
-        "soft-pdf-005": "本句指「邊緣、細節或焦點不尖銳清楚，而呈柔化效果」。",
-        "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。",
-        "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
-        "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
-        "soft-mcq-19": "「透過文化、價值、吸引力等非強制方式產生影響力」是「soft power」的用法，與本句語境不同。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。"
+        "soft-pdf-005": "本句的「soft focus」指「邊緣、細節或焦點不尖銳清楚，而呈柔化效果」。",
+        "soft-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-pdf-005"
     },
@@ -2591,11 +2379,9 @@ export default {
       "masked": "The background appears ____ and blurred.",
       "options": [
         "soft-pdf-005",
-        "soft-mcq-16",
-        "soft-mcq-18",
-        "soft-mcq-15",
-        "soft-mcq-19",
-        "soft-mcq-14"
+        "soft-mcq-13",
+        "soft-mcq-02",
+        "soft-mcq-23"
       ],
       "explanation": "本句的「soft」指「邊緣、細節或焦點不尖銳清楚，而呈柔化效果」。",
       "sentenceIndex": 53,
@@ -2604,12 +2390,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-pdf-005": "本句指「邊緣、細節或焦點不尖銳清楚，而呈柔化效果」。",
-        "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。",
-        "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
-        "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
-        "soft-mcq-19": "「透過文化、價值、吸引力等非強制方式產生影響力」是「soft power」的用法，與本句語境不同。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。"
+        "soft-pdf-005": "本句的「soft」指「邊緣、細節或焦點不尖銳清楚，而呈柔化效果」。",
+        "soft-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-pdf-005"
     },
@@ -2621,11 +2405,9 @@ export default {
       "masked": "The portrait was shot in ____.",
       "options": [
         "soft-mcq-17",
-        "soft-mcq-16",
-        "soft-mcq-18",
-        "soft-mcq-15",
-        "soft-mcq-19",
-        "soft-mcq-14"
+        "soft-mcq-02",
+        "soft-mcq-35",
+        "soft-mcq-10"
       ],
       "explanation": "本句的「soft focus」指「降低影像邊緣清晰度而形成的柔和效果」。",
       "sentenceIndex": 54,
@@ -2634,12 +2416,10 @@ export default {
         "soft focus"
       ],
       "optionReasons": {
-        "soft-mcq-17": "本句指「降低影像邊緣清晰度而形成的柔和效果」。",
-        "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。",
-        "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
-        "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
-        "soft-mcq-19": "「透過文化、價值、吸引力等非強制方式產生影響力」是「soft power」的用法，與本句語境不同。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。"
+        "soft-mcq-17": "本句的「soft focus」指「降低影像邊緣清晰度而形成的柔和效果」。",
+        "soft-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-17"
     },
@@ -2651,11 +2431,9 @@ export default {
       "masked": "____ focus gives the image a gentle look.",
       "options": [
         "soft-mcq-17",
-        "soft-mcq-16",
-        "soft-mcq-18",
-        "soft-mcq-15",
-        "soft-mcq-19",
-        "soft-mcq-14"
+        "soft-mcq-13",
+        "soft-mcq-24",
+        "soft-mcq-10"
       ],
       "explanation": "本句的「Soft」指「降低影像邊緣清晰度而形成的柔和效果」。",
       "sentenceIndex": 55,
@@ -2664,12 +2442,10 @@ export default {
         "Soft"
       ],
       "optionReasons": {
-        "soft-mcq-17": "本句指「降低影像邊緣清晰度而形成的柔和效果」。",
-        "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。",
-        "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
-        "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。",
-        "soft-mcq-19": "「透過文化、價值、吸引力等非強制方式產生影響力」是「soft power」的用法，與本句語境不同。",
-        "soft-mcq-14": "「較容易、不需承受很多困難的選擇」是「soft option」的用法，與本句語境不同。"
+        "soft-mcq-17": "本句的「Soft」指「降低影像邊緣清晰度而形成的柔和效果」。",
+        "soft-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-17"
     },
@@ -2681,11 +2457,9 @@ export default {
       "masked": "He gave a ____ rather than a direct threat.",
       "options": [
         "soft-mcq-35",
-        "soft-mcq-34",
-        "soft-mcq-36",
-        "soft-mcq-33",
-        "soft-mcq-37",
-        "soft-mcq-32"
+        "soft-mcq-30",
+        "soft-mcq-03",
+        "soft-mcq-25"
       ],
       "explanation": "本句的「soft warning」指「語言、立場或訊息不尖銳、不強硬」。",
       "sentenceIndex": 56,
@@ -2694,12 +2468,10 @@ export default {
         "soft warning"
       ],
       "optionReasons": {
-        "soft-mcq-35": "本句指「語言、立場或訊息不尖銳、不強硬」。",
-        "soft-mcq-34": "「難度／要求較低，不需要太多努力」是「20. soft = easy / not demanding（容易的） — 輕鬆；要求低」的用法，與本句語境不同。",
-        "soft-mcq-36": "「較難精確量化、可能包含主觀判斷的資料」是「33. soft data（軟資料／主觀資料） — 非量化資料」的用法，與本句語境不同。",
-        "soft-mcq-33": "「視覺輪廓沒有強烈、尖銳或硬朗感」是「11. soft = gentle / mild in appearance（柔和的） — 柔和；溫柔」的用法，與本句語境不同。",
-        "soft-mcq-37": "「價值不穩定、國際需求較低或可兌換性較弱的貨幣」是「38. soft currency（弱勢／不穩定貨幣） — 軟貨幣」的用法，與本句語境不同。",
-        "soft-mcq-32": "「因能稍微下陷／承托身體而感覺舒服」是「5. soft = comfortable and yielding（柔軟舒適的） — 柔軟舒服」的用法，與本句語境不同。"
+        "soft-mcq-35": "本句的「soft warning」指「語言、立場或訊息不尖銳、不強硬」。",
+        "soft-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-35"
     },
@@ -2711,11 +2483,9 @@ export default {
       "masked": "The criticism was ____ before publication.",
       "options": [
         "soft-mcq-35",
-        "soft-mcq-34",
-        "soft-mcq-36",
-        "soft-mcq-33",
-        "soft-mcq-37",
-        "soft-mcq-32"
+        "soft-mcq-32",
+        "soft-mcq-30",
+        "soft-mcq-03"
       ],
       "explanation": "本句的「softened」指「語言、立場或訊息不尖銳、不強硬」。",
       "sentenceIndex": 57,
@@ -2724,12 +2494,10 @@ export default {
         "softened"
       ],
       "optionReasons": {
-        "soft-mcq-35": "本句指「語言、立場或訊息不尖銳、不強硬」。",
-        "soft-mcq-34": "「難度／要求較低，不需要太多努力」是「20. soft = easy / not demanding（容易的） — 輕鬆；要求低」的用法，與本句語境不同。",
-        "soft-mcq-36": "「較難精確量化、可能包含主觀判斷的資料」是「33. soft data（軟資料／主觀資料） — 非量化資料」的用法，與本句語境不同。",
-        "soft-mcq-33": "「視覺輪廓沒有強烈、尖銳或硬朗感」是「11. soft = gentle / mild in appearance（柔和的） — 柔和；溫柔」的用法，與本句語境不同。",
-        "soft-mcq-37": "「價值不穩定、國際需求較低或可兌換性較弱的貨幣」是「38. soft currency（弱勢／不穩定貨幣） — 軟貨幣」的用法，與本句語境不同。",
-        "soft-mcq-32": "「因能稍微下陷／承托身體而感覺舒服」是「5. soft = comfortable and yielding（柔軟舒適的） — 柔軟舒服」的用法，與本句語境不同。"
+        "soft-mcq-35": "本句的「softened」指「語言、立場或訊息不尖銳、不強硬」。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-35"
     },
@@ -2741,11 +2509,9 @@ export default {
       "masked": "The advertisement uses a ____.",
       "options": [
         "soft-mcq-18",
-        "soft-mcq-17",
-        "soft-mcq-19",
-        "soft-mcq-16",
-        "soft-mcq-20",
-        "soft-mcq-15"
+        "soft-mcq-04",
+        "soft-mcq-11",
+        "soft-mcq-36"
       ],
       "explanation": "本句的「soft-sell approach」指「不直接施壓、以溫和間接方式進行推銷」。",
       "sentenceIndex": 58,
@@ -2754,12 +2520,10 @@ export default {
         "soft-sell approach"
       ],
       "optionReasons": {
-        "soft-mcq-18": "本句指「不直接施壓、以溫和間接方式進行推銷」。",
-        "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
-        "soft-mcq-19": "「透過文化、價值、吸引力等非強制方式產生影響力」是「soft power」的用法，與本句語境不同。",
-        "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。",
-        "soft-mcq-20": "「溝通、合作、適應等非技術性人際／行為能力」是「soft skills」的用法，與本句語境不同。",
-        "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。"
+        "soft-mcq-18": "本句的「soft-sell approach」指「不直接施壓、以溫和間接方式進行推銷」。",
+        "soft-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-18"
     },
@@ -2771,11 +2535,9 @@ export default {
       "masked": "The company prefers ____ sell to aggressive advertising.",
       "options": [
         "soft-mcq-18",
-        "soft-mcq-17",
-        "soft-mcq-19",
-        "soft-mcq-16",
-        "soft-mcq-20",
-        "soft-mcq-15"
+        "soft-mcq-32",
+        "soft-mcq-14",
+        "soft-mcq-17"
       ],
       "explanation": "本句的「soft」指「不直接施壓、以溫和間接方式進行推銷」。",
       "sentenceIndex": 59,
@@ -2784,12 +2546,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-18": "本句指「不直接施壓、以溫和間接方式進行推銷」。",
-        "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
-        "soft-mcq-19": "「透過文化、價值、吸引力等非強制方式產生影響力」是「soft power」的用法，與本句語境不同。",
-        "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。",
-        "soft-mcq-20": "「溝通、合作、適應等非技術性人際／行為能力」是「soft skills」的用法，與本句語境不同。",
-        "soft-mcq-15": "「因防備／地位較弱而容易被攻擊、利用或批評的對象」是「soft target」的用法，與本句語境不同。"
+        "soft-mcq-18": "本句的「soft」指「不直接施壓、以溫和間接方式進行推銷」。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-18"
     },
@@ -2801,11 +2561,9 @@ export default {
       "masked": "Culture can be a source of ____.",
       "options": [
         "soft-mcq-19",
-        "soft-mcq-18",
-        "soft-mcq-20",
-        "soft-mcq-17",
-        "soft-mcq-21",
-        "soft-mcq-16"
+        "soft-mcq-31",
+        "soft-mcq-32",
+        "soft-mcq-18"
       ],
       "explanation": "本句的「soft power」指「透過文化、價值、吸引力等非強制方式產生影響力」。",
       "sentenceIndex": 60,
@@ -2814,12 +2572,10 @@ export default {
         "soft power"
       ],
       "optionReasons": {
-        "soft-mcq-19": "本句指「透過文化、價值、吸引力等非強制方式產生影響力」。",
-        "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
-        "soft-mcq-20": "「溝通、合作、適應等非技術性人際／行為能力」是「soft skills」的用法，與本句語境不同。",
-        "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
-        "soft-mcq-21": "「並非完全固定或強制執行、具有彈性的要求」是「soft deadline/rule」的用法，與本句語境不同。",
-        "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。"
+        "soft-mcq-19": "本句的「soft power」指「透過文化、價值、吸引力等非強制方式產生影響力」。",
+        "soft-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-19"
     },
@@ -2831,11 +2587,9 @@ export default {
       "masked": "The country invested in cultural ____ power.",
       "options": [
         "soft-mcq-19",
-        "soft-mcq-18",
-        "soft-mcq-20",
-        "soft-mcq-17",
-        "soft-mcq-21",
-        "soft-mcq-16"
+        "soft-mcq-01",
+        "soft-mcq-28",
+        "soft-mcq-32"
       ],
       "explanation": "本句的「soft」指「透過文化、價值、吸引力等非強制方式產生影響力」。",
       "sentenceIndex": 61,
@@ -2844,12 +2598,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-19": "本句指「透過文化、價值、吸引力等非強制方式產生影響力」。",
-        "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
-        "soft-mcq-20": "「溝通、合作、適應等非技術性人際／行為能力」是「soft skills」的用法，與本句語境不同。",
-        "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。",
-        "soft-mcq-21": "「並非完全固定或強制執行、具有彈性的要求」是「soft deadline/rule」的用法，與本句語境不同。",
-        "soft-mcq-16": "「低衝擊平穩著陸；比喻指避免嚴重後果的平穩調整」是「soft landing」的用法，與本句語境不同。"
+        "soft-mcq-19": "本句的「soft」指「透過文化、價值、吸引力等非強制方式產生影響力」。",
+        "soft-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-19"
     },
@@ -2861,11 +2613,9 @@ export default {
       "masked": "Communication is an important ____.",
       "options": [
         "soft-mcq-20",
-        "soft-mcq-19",
-        "soft-mcq-21",
-        "soft-mcq-18",
-        "soft-mcq-22",
-        "soft-mcq-17"
+        "soft-mcq-02",
+        "soft-mcq-03",
+        "soft-mcq-10"
       ],
       "explanation": "本句的「soft skill」指「溝通、合作、適應等非技術性人際／行為能力」。",
       "sentenceIndex": 62,
@@ -2874,12 +2624,10 @@ export default {
         "soft skill"
       ],
       "optionReasons": {
-        "soft-mcq-20": "本句指「溝通、合作、適應等非技術性人際／行為能力」。",
-        "soft-mcq-19": "「透過文化、價值、吸引力等非強制方式產生影響力」是「soft power」的用法，與本句語境不同。",
-        "soft-mcq-21": "「並非完全固定或強制執行、具有彈性的要求」是「soft deadline/rule」的用法，與本句語境不同。",
-        "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
-        "soft-mcq-22": "「非酒精飲品，尤其汽水類」是「soft drink」的用法，與本句語境不同。",
-        "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。"
+        "soft-mcq-20": "本句的「soft skill」指「溝通、合作、適應等非技術性人際／行為能力」。",
+        "soft-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-20"
     },
@@ -2891,11 +2639,9 @@ export default {
       "masked": "Employers value both technical and ____ skills.",
       "options": [
         "soft-mcq-20",
-        "soft-mcq-19",
-        "soft-mcq-21",
-        "soft-mcq-18",
-        "soft-mcq-22",
-        "soft-mcq-17"
+        "soft-mcq-06",
+        "soft-mcq-25",
+        "soft-mcq-02"
       ],
       "explanation": "本句的「soft」指「溝通、合作、適應等非技術性人際／行為能力」。",
       "sentenceIndex": 63,
@@ -2904,12 +2650,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-20": "本句指「溝通、合作、適應等非技術性人際／行為能力」。",
-        "soft-mcq-19": "「透過文化、價值、吸引力等非強制方式產生影響力」是「soft power」的用法，與本句語境不同。",
-        "soft-mcq-21": "「並非完全固定或強制執行、具有彈性的要求」是「soft deadline/rule」的用法，與本句語境不同。",
-        "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。",
-        "soft-mcq-22": "「非酒精飲品，尤其汽水類」是「soft drink」的用法，與本句語境不同。",
-        "soft-mcq-17": "「降低影像邊緣清晰度而形成的柔和效果」是「soft focus」的用法，與本句語境不同。"
+        "soft-mcq-20": "本句的「soft」指「溝通、合作、適應等非技術性人際／行為能力」。",
+        "soft-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-20"
     },
@@ -2921,11 +2665,9 @@ export default {
       "masked": "Interviews provide ____ about customer attitudes.",
       "options": [
         "soft-mcq-36",
-        "soft-mcq-35",
-        "soft-mcq-37",
-        "soft-mcq-34",
-        "soft-mcq-33",
-        "soft-mcq-32"
+        "soft-mcq-31",
+        "soft-pdf-004",
+        "soft-mcq-10"
       ],
       "explanation": "本句的「soft data」指「較難精確量化、可能包含主觀判斷的資料」。",
       "sentenceIndex": 64,
@@ -2934,12 +2676,10 @@ export default {
         "soft data"
       ],
       "optionReasons": {
-        "soft-mcq-36": "本句指「較難精確量化、可能包含主觀判斷的資料」。",
-        "soft-mcq-35": "「語言、立場或訊息不尖銳、不強硬」是「29. soft = less strong / less direct statement（委婉的） — 委婉；不強烈」的用法，與本句語境不同。",
-        "soft-mcq-37": "「價值不穩定、國際需求較低或可兌換性較弱的貨幣」是「38. soft currency（弱勢／不穩定貨幣） — 軟貨幣」的用法，與本句語境不同。",
-        "soft-mcq-34": "「難度／要求較低，不需要太多努力」是「20. soft = easy / not demanding（容易的） — 輕鬆；要求低」的用法，與本句語境不同。",
-        "soft-mcq-33": "「視覺輪廓沒有強烈、尖銳或硬朗感」是「11. soft = gentle / mild in appearance（柔和的） — 柔和；溫柔」的用法，與本句語境不同。",
-        "soft-mcq-32": "「因能稍微下陷／承托身體而感覺舒服」是「5. soft = comfortable and yielding（柔軟舒適的） — 柔軟舒服」的用法，與本句語境不同。"
+        "soft-mcq-36": "本句的「soft data」指「較難精確量化、可能包含主觀判斷的資料」。",
+        "soft-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-36"
     },
@@ -2951,11 +2691,9 @@ export default {
       "masked": "____ data can complement numerical evidence.",
       "options": [
         "soft-mcq-36",
-        "soft-mcq-35",
-        "soft-mcq-37",
-        "soft-mcq-34",
         "soft-mcq-33",
-        "soft-mcq-32"
+        "soft-mcq-09",
+        "soft-pdf-003"
       ],
       "explanation": "本句的「Soft」指「較難精確量化、可能包含主觀判斷的資料」。",
       "sentenceIndex": 65,
@@ -2964,12 +2702,10 @@ export default {
         "Soft"
       ],
       "optionReasons": {
-        "soft-mcq-36": "本句指「較難精確量化、可能包含主觀判斷的資料」。",
-        "soft-mcq-35": "「語言、立場或訊息不尖銳、不強硬」是「29. soft = less strong / less direct statement（委婉的） — 委婉；不強烈」的用法，與本句語境不同。",
-        "soft-mcq-37": "「價值不穩定、國際需求較低或可兌換性較弱的貨幣」是「38. soft currency（弱勢／不穩定貨幣） — 軟貨幣」的用法，與本句語境不同。",
-        "soft-mcq-34": "「難度／要求較低，不需要太多努力」是「20. soft = easy / not demanding（容易的） — 輕鬆；要求低」的用法，與本句語境不同。",
-        "soft-mcq-33": "「視覺輪廓沒有強烈、尖銳或硬朗感」是「11. soft = gentle / mild in appearance（柔和的） — 柔和；溫柔」的用法，與本句語境不同。",
-        "soft-mcq-32": "「因能稍微下陷／承托身體而感覺舒服」是「5. soft = comfortable and yielding（柔軟舒適的） — 柔軟舒服」的用法，與本句語境不同。"
+        "soft-mcq-36": "本句的「Soft」指「較難精確量化、可能包含主觀判斷的資料」。",
+        "soft-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-36"
     },
@@ -2981,11 +2717,9 @@ export default {
       "masked": "The deadline is relatively ____.",
       "options": [
         "soft-mcq-21",
-        "soft-mcq-20",
-        "soft-mcq-22",
-        "soft-mcq-19",
-        "soft-mcq-23",
-        "soft-mcq-18"
+        "soft-mcq-02",
+        "soft-mcq-24",
+        "soft-mcq-03"
       ],
       "explanation": "本句的「soft」指「並非完全固定或強制執行、具有彈性的要求」。",
       "sentenceIndex": 66,
@@ -2994,12 +2728,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-21": "本句指「並非完全固定或強制執行、具有彈性的要求」。",
-        "soft-mcq-20": "「溝通、合作、適應等非技術性人際／行為能力」是「soft skills」的用法，與本句語境不同。",
-        "soft-mcq-22": "「非酒精飲品，尤其汽水類」是「soft drink」的用法，與本句語境不同。",
-        "soft-mcq-19": "「透過文化、價值、吸引力等非強制方式產生影響力」是「soft power」的用法，與本句語境不同。",
-        "soft-mcq-23": "「鈣、鎂等礦物離子含量較低的水」是「soft water」的用法，與本句語境不同。",
-        "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。"
+        "soft-mcq-21": "本句的「soft」指「並非完全固定或強制執行、具有彈性的要求」。",
+        "soft-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-21"
     },
@@ -3011,11 +2743,9 @@ export default {
       "masked": "These are ____ guidelines rather than strict rules.",
       "options": [
         "soft-mcq-21",
-        "soft-mcq-20",
-        "soft-mcq-22",
-        "soft-mcq-19",
-        "soft-mcq-23",
-        "soft-mcq-18"
+        "soft-mcq-14",
+        "soft-pdf-003",
+        "soft-mcq-36"
       ],
       "explanation": "本句的「soft」指「並非完全固定或強制執行、具有彈性的要求」。",
       "sentenceIndex": 67,
@@ -3024,12 +2754,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-21": "本句指「並非完全固定或強制執行、具有彈性的要求」。",
-        "soft-mcq-20": "「溝通、合作、適應等非技術性人際／行為能力」是「soft skills」的用法，與本句語境不同。",
-        "soft-mcq-22": "「非酒精飲品，尤其汽水類」是「soft drink」的用法，與本句語境不同。",
-        "soft-mcq-19": "「透過文化、價值、吸引力等非強制方式產生影響力」是「soft power」的用法，與本句語境不同。",
-        "soft-mcq-23": "「鈣、鎂等礦物離子含量較低的水」是「soft water」的用法，與本句語境不同。",
-        "soft-mcq-18": "「不直接施壓、以溫和間接方式進行推銷」是「soft sell」的用法，與本句語境不同。"
+        "soft-mcq-21": "本句的「soft」指「並非完全固定或強制執行、具有彈性的要求」。",
+        "soft-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-21"
     },
@@ -3041,11 +2769,9 @@ export default {
       "masked": "Would you like a ____?",
       "options": [
         "soft-mcq-22",
-        "soft-mcq-21",
-        "soft-mcq-23",
-        "soft-mcq-20",
-        "soft-mcq-24",
-        "soft-mcq-19"
+        "soft-mcq-27",
+        "soft-mcq-10",
+        "soft-mcq-34"
       ],
       "explanation": "本句的「soft drink」指「非酒精飲品，尤其汽水類」。",
       "sentenceIndex": 68,
@@ -3054,12 +2780,10 @@ export default {
         "soft drink"
       ],
       "optionReasons": {
-        "soft-mcq-22": "本句指「非酒精飲品，尤其汽水類」。",
-        "soft-mcq-21": "「並非完全固定或強制執行、具有彈性的要求」是「soft deadline/rule」的用法，與本句語境不同。",
-        "soft-mcq-23": "「鈣、鎂等礦物離子含量較低的水」是「soft water」的用法，與本句語境不同。",
-        "soft-mcq-20": "「溝通、合作、適應等非技術性人際／行為能力」是「soft skills」的用法，與本句語境不同。",
-        "soft-mcq-24": "「文件的電子／數碼版本」是「soft copy」的用法，與本句語境不同。",
-        "soft-mcq-19": "「透過文化、價值、吸引力等非強制方式產生影響力」是「soft power」的用法，與本句語境不同。"
+        "soft-mcq-22": "本句的「soft drink」指「非酒精飲品，尤其汽水類」。",
+        "soft-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-22"
     },
@@ -3071,11 +2795,9 @@ export default {
       "masked": "The restaurant serves beer and ____ drinks.",
       "options": [
         "soft-mcq-22",
-        "soft-mcq-21",
-        "soft-mcq-23",
-        "soft-mcq-20",
-        "soft-mcq-24",
-        "soft-mcq-19"
+        "soft-mcq-06",
+        "soft-mcq-29",
+        "soft-mcq-28"
       ],
       "explanation": "本句的「soft」指「非酒精飲品，尤其汽水類」。",
       "sentenceIndex": 69,
@@ -3084,12 +2806,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-22": "本句指「非酒精飲品，尤其汽水類」。",
-        "soft-mcq-21": "「並非完全固定或強制執行、具有彈性的要求」是「soft deadline/rule」的用法，與本句語境不同。",
-        "soft-mcq-23": "「鈣、鎂等礦物離子含量較低的水」是「soft water」的用法，與本句語境不同。",
-        "soft-mcq-20": "「溝通、合作、適應等非技術性人際／行為能力」是「soft skills」的用法，與本句語境不同。",
-        "soft-mcq-24": "「文件的電子／數碼版本」是「soft copy」的用法，與本句語境不同。",
-        "soft-mcq-19": "「透過文化、價值、吸引力等非強制方式產生影響力」是「soft power」的用法，與本句語境不同。"
+        "soft-mcq-22": "本句的「soft」指「非酒精飲品，尤其汽水類」。",
+        "soft-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-22"
     },
@@ -3101,11 +2821,9 @@ export default {
       "masked": "This area has ____.",
       "options": [
         "soft-mcq-23",
-        "soft-mcq-22",
-        "soft-mcq-24",
-        "soft-mcq-21",
-        "soft-mcq-25",
-        "soft-mcq-20"
+        "soft-mcq-32",
+        "soft-mcq-35",
+        "soft-mcq-31"
       ],
       "explanation": "本句的「soft water」指「鈣、鎂等礦物離子含量較低的水」。",
       "sentenceIndex": 70,
@@ -3114,12 +2832,10 @@ export default {
         "soft water"
       ],
       "optionReasons": {
-        "soft-mcq-23": "本句指「鈣、鎂等礦物離子含量較低的水」。",
-        "soft-mcq-22": "「非酒精飲品，尤其汽水類」是「soft drink」的用法，與本句語境不同。",
-        "soft-mcq-24": "「文件的電子／數碼版本」是「soft copy」的用法，與本句語境不同。",
-        "soft-mcq-21": "「並非完全固定或強制執行、具有彈性的要求」是「soft deadline/rule」的用法，與本句語境不同。",
-        "soft-mcq-25": "「需求、價格或商業活動較疲弱」是「soft market/demand」的用法，與本句語境不同。",
-        "soft-mcq-20": "「溝通、合作、適應等非技術性人際／行為能力」是「soft skills」的用法，與本句語境不同。"
+        "soft-mcq-23": "本句的「soft water」指「鈣、鎂等礦物離子含量較低的水」。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-23"
     },
@@ -3131,11 +2847,9 @@ export default {
       "masked": "Soap lathers easily in ____ water.",
       "options": [
         "soft-mcq-23",
-        "soft-mcq-22",
-        "soft-mcq-24",
-        "soft-mcq-21",
-        "soft-mcq-25",
-        "soft-mcq-20"
+        "soft-mcq-35",
+        "soft-mcq-01",
+        "soft-mcq-18"
       ],
       "explanation": "本句的「soft」指「鈣、鎂等礦物離子含量較低的水」。",
       "sentenceIndex": 71,
@@ -3144,12 +2858,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-23": "本句指「鈣、鎂等礦物離子含量較低的水」。",
-        "soft-mcq-22": "「非酒精飲品，尤其汽水類」是「soft drink」的用法，與本句語境不同。",
-        "soft-mcq-24": "「文件的電子／數碼版本」是「soft copy」的用法，與本句語境不同。",
-        "soft-mcq-21": "「並非完全固定或強制執行、具有彈性的要求」是「soft deadline/rule」的用法，與本句語境不同。",
-        "soft-mcq-25": "「需求、價格或商業活動較疲弱」是「soft market/demand」的用法，與本句語境不同。",
-        "soft-mcq-20": "「溝通、合作、適應等非技術性人際／行為能力」是「soft skills」的用法，與本句語境不同。"
+        "soft-mcq-23": "本句的「soft」指「鈣、鎂等礦物離子含量較低的水」。",
+        "soft-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-23"
     },
@@ -3161,11 +2873,9 @@ export default {
       "masked": "Please send me a ____ of the document.",
       "options": [
         "soft-mcq-24",
-        "soft-mcq-23",
-        "soft-mcq-25",
+        "soft-mcq-04",
         "soft-mcq-22",
-        "soft-mcq-26",
-        "soft-mcq-21"
+        "soft-mcq-16"
       ],
       "explanation": "本句的「soft copy」指「文件的電子／數碼版本」。",
       "sentenceIndex": 72,
@@ -3174,12 +2884,10 @@ export default {
         "soft copy"
       ],
       "optionReasons": {
-        "soft-mcq-24": "本句指「文件的電子／數碼版本」。",
-        "soft-mcq-23": "「鈣、鎂等礦物離子含量較低的水」是「soft water」的用法，與本句語境不同。",
-        "soft-mcq-25": "「需求、價格或商業活動較疲弱」是「soft market/demand」的用法，與本句語境不同。",
-        "soft-mcq-22": "「非酒精飲品，尤其汽水類」是「soft drink」的用法，與本句語境不同。",
-        "soft-mcq-26": "「令硬度降低，或本身變得較軟」是「soften — physical」的用法，與本句語境不同。",
-        "soft-mcq-21": "「並非完全固定或強制執行、具有彈性的要求」是「soft deadline/rule」的用法，與本句語境不同。"
+        "soft-mcq-24": "本句的「soft copy」指「文件的電子／數碼版本」。",
+        "soft-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-24"
     },
@@ -3191,11 +2899,9 @@ export default {
       "masked": "I have the ____ copy but not the printed version.",
       "options": [
         "soft-mcq-24",
-        "soft-mcq-23",
-        "soft-mcq-25",
-        "soft-mcq-22",
-        "soft-mcq-26",
-        "soft-mcq-21"
+        "soft-mcq-09",
+        "soft-mcq-32",
+        "soft-pdf-002"
       ],
       "explanation": "本句的「soft」指「文件的電子／數碼版本」。",
       "sentenceIndex": 73,
@@ -3204,12 +2910,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-24": "本句指「文件的電子／數碼版本」。",
-        "soft-mcq-23": "「鈣、鎂等礦物離子含量較低的水」是「soft water」的用法，與本句語境不同。",
-        "soft-mcq-25": "「需求、價格或商業活動較疲弱」是「soft market/demand」的用法，與本句語境不同。",
-        "soft-mcq-22": "「非酒精飲品，尤其汽水類」是「soft drink」的用法，與本句語境不同。",
-        "soft-mcq-26": "「令硬度降低，或本身變得較軟」是「soften — physical」的用法，與本句語境不同。",
-        "soft-mcq-21": "「並非完全固定或強制執行、具有彈性的要求」是「soft deadline/rule」的用法，與本句語境不同。"
+        "soft-mcq-24": "本句的「soft」指「文件的電子／數碼版本」。",
+        "soft-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-24"
     },
@@ -3221,10 +2925,8 @@ export default {
       "masked": "The country’s currency was considered a ____.",
       "options": [
         "soft-mcq-37",
-        "soft-mcq-36",
-        "soft-mcq-35",
-        "soft-mcq-34",
         "soft-mcq-33",
+        "soft-mcq-22",
         "soft-mcq-32"
       ],
       "explanation": "本句的「soft currency」指「價值不穩定、國際需求較低或可兌換性較弱的貨幣」。",
@@ -3234,12 +2936,10 @@ export default {
         "soft currency"
       ],
       "optionReasons": {
-        "soft-mcq-37": "本句指「價值不穩定、國際需求較低或可兌換性較弱的貨幣」。",
-        "soft-mcq-36": "「較難精確量化、可能包含主觀判斷的資料」是「33. soft data（軟資料／主觀資料） — 非量化資料」的用法，與本句語境不同。",
-        "soft-mcq-35": "「語言、立場或訊息不尖銳、不強硬」是「29. soft = less strong / less direct statement（委婉的） — 委婉；不強烈」的用法，與本句語境不同。",
-        "soft-mcq-34": "「難度／要求較低，不需要太多努力」是「20. soft = easy / not demanding（容易的） — 輕鬆；要求低」的用法，與本句語境不同。",
-        "soft-mcq-33": "「視覺輪廓沒有強烈、尖銳或硬朗感」是「11. soft = gentle / mild in appearance（柔和的） — 柔和；溫柔」的用法，與本句語境不同。",
-        "soft-mcq-32": "「因能稍微下陷／承托身體而感覺舒服」是「5. soft = comfortable and yielding（柔軟舒適的） — 柔軟舒服」的用法，與本句語境不同。"
+        "soft-mcq-37": "本句的「soft currency」指「價值不穩定、國際需求較低或可兌換性較弱的貨幣」。",
+        "soft-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-37"
     },
@@ -3251,11 +2951,9 @@ export default {
       "masked": "____ currencies may be difficult to exchange internationally.",
       "options": [
         "soft-mcq-37",
-        "soft-mcq-36",
-        "soft-mcq-35",
-        "soft-mcq-34",
         "soft-mcq-33",
-        "soft-mcq-32"
+        "soft-pdf-003",
+        "soft-mcq-28"
       ],
       "explanation": "本句的「Soft」指「價值不穩定、國際需求較低或可兌換性較弱的貨幣」。",
       "sentenceIndex": 75,
@@ -3264,12 +2962,10 @@ export default {
         "Soft"
       ],
       "optionReasons": {
-        "soft-mcq-37": "本句指「價值不穩定、國際需求較低或可兌換性較弱的貨幣」。",
-        "soft-mcq-36": "「較難精確量化、可能包含主觀判斷的資料」是「33. soft data（軟資料／主觀資料） — 非量化資料」的用法，與本句語境不同。",
-        "soft-mcq-35": "「語言、立場或訊息不尖銳、不強硬」是「29. soft = less strong / less direct statement（委婉的） — 委婉；不強烈」的用法，與本句語境不同。",
-        "soft-mcq-34": "「難度／要求較低，不需要太多努力」是「20. soft = easy / not demanding（容易的） — 輕鬆；要求低」的用法，與本句語境不同。",
-        "soft-mcq-33": "「視覺輪廓沒有強烈、尖銳或硬朗感」是「11. soft = gentle / mild in appearance（柔和的） — 柔和；溫柔」的用法，與本句語境不同。",
-        "soft-mcq-32": "「因能稍微下陷／承托身體而感覺舒服」是「5. soft = comfortable and yielding（柔軟舒適的） — 柔軟舒服」的用法，與本句語境不同。"
+        "soft-mcq-37": "本句的「Soft」指「價值不穩定、國際需求較低或可兌換性較弱的貨幣」。",
+        "soft-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-37"
     },
@@ -3281,11 +2977,9 @@ export default {
       "masked": "Property prices fell in a ____.",
       "options": [
         "soft-mcq-25",
-        "soft-mcq-24",
-        "soft-mcq-26",
-        "soft-mcq-23",
-        "soft-mcq-27",
-        "soft-mcq-22"
+        "soft-pdf-001",
+        "soft-mcq-16",
+        "soft-mcq-24"
       ],
       "explanation": "本句的「soft market」指「需求、價格或商業活動較疲弱」。",
       "sentenceIndex": 76,
@@ -3294,12 +2988,10 @@ export default {
         "soft market"
       ],
       "optionReasons": {
-        "soft-mcq-25": "本句指「需求、價格或商業活動較疲弱」。",
-        "soft-mcq-24": "「文件的電子／數碼版本」是「soft copy」的用法，與本句語境不同。",
-        "soft-mcq-26": "「令硬度降低，或本身變得較軟」是「soften — physical」的用法，與本句語境不同。",
-        "soft-mcq-23": "「鈣、鎂等礦物離子含量較低的水」是「soft water」的用法，與本句語境不同。",
-        "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。",
-        "soft-mcq-22": "「非酒精飲品，尤其汽水類」是「soft drink」的用法，與本句語境不同。"
+        "soft-mcq-25": "本句的「soft market」指「需求、價格或商業活動較疲弱」。",
+        "soft-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-25"
     },
@@ -3311,11 +3003,9 @@ export default {
       "masked": "Demand remains ____.",
       "options": [
         "soft-mcq-25",
-        "soft-mcq-24",
-        "soft-mcq-26",
-        "soft-mcq-23",
-        "soft-mcq-27",
-        "soft-mcq-22"
+        "soft-mcq-02",
+        "soft-mcq-13",
+        "soft-mcq-20"
       ],
       "explanation": "本句的「soft」指「需求、價格或商業活動較疲弱」。",
       "sentenceIndex": 77,
@@ -3324,12 +3014,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-25": "本句指「需求、價格或商業活動較疲弱」。",
-        "soft-mcq-24": "「文件的電子／數碼版本」是「soft copy」的用法，與本句語境不同。",
-        "soft-mcq-26": "「令硬度降低，或本身變得較軟」是「soften — physical」的用法，與本句語境不同。",
-        "soft-mcq-23": "「鈣、鎂等礦物離子含量較低的水」是「soft water」的用法，與本句語境不同。",
-        "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。",
-        "soft-mcq-22": "「非酒精飲品，尤其汽水類」是「soft drink」的用法，與本句語境不同。"
+        "soft-mcq-25": "本句的「soft」指「需求、價格或商業活動較疲弱」。",
+        "soft-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-25"
     },
@@ -3341,11 +3029,9 @@ export default {
       "masked": "Sales were ____ in the second quarter.",
       "options": [
         "soft-mcq-25",
-        "soft-mcq-24",
-        "soft-mcq-26",
-        "soft-mcq-23",
-        "soft-mcq-27",
-        "soft-mcq-22"
+        "soft-mcq-22",
+        "soft-pdf-003",
+        "soft-mcq-31"
       ],
       "explanation": "本句的「soft」指「需求、價格或商業活動較疲弱」。",
       "sentenceIndex": 78,
@@ -3354,12 +3040,10 @@ export default {
         "soft"
       ],
       "optionReasons": {
-        "soft-mcq-25": "本句指「需求、價格或商業活動較疲弱」。",
-        "soft-mcq-24": "「文件的電子／數碼版本」是「soft copy」的用法，與本句語境不同。",
-        "soft-mcq-26": "「令硬度降低，或本身變得較軟」是「soften — physical」的用法，與本句語境不同。",
-        "soft-mcq-23": "「鈣、鎂等礦物離子含量較低的水」是「soft water」的用法，與本句語境不同。",
-        "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。",
-        "soft-mcq-22": "「非酒精飲品，尤其汽水類」是「soft drink」的用法，與本句語境不同。"
+        "soft-mcq-25": "本句的「soft」指「需求、價格或商業活動較疲弱」。",
+        "soft-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-25"
     },
@@ -3371,11 +3055,9 @@ export default {
       "masked": "Demand has ____.",
       "options": [
         "soft-mcq-25",
-        "soft-mcq-24",
-        "soft-mcq-26",
-        "soft-mcq-23",
-        "soft-mcq-27",
-        "soft-mcq-22"
+        "soft-mcq-01",
+        "soft-mcq-35",
+        "soft-mcq-31"
       ],
       "explanation": "本句的「softened」指「需求、價格或商業活動較疲弱」。",
       "sentenceIndex": 79,
@@ -3384,12 +3066,10 @@ export default {
         "softened"
       ],
       "optionReasons": {
-        "soft-mcq-25": "本句指「需求、價格或商業活動較疲弱」。",
-        "soft-mcq-24": "「文件的電子／數碼版本」是「soft copy」的用法，與本句語境不同。",
-        "soft-mcq-26": "「令硬度降低，或本身變得較軟」是「soften — physical」的用法，與本句語境不同。",
-        "soft-mcq-23": "「鈣、鎂等礦物離子含量較低的水」是「soft water」的用法，與本句語境不同。",
-        "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。",
-        "soft-mcq-22": "「非酒精飲品，尤其汽水類」是「soft drink」的用法，與本句語境不同。"
+        "soft-mcq-25": "本句的「softened」指「需求、價格或商業活動較疲弱」。",
+        "soft-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-25"
     },
@@ -3401,11 +3081,9 @@ export default {
       "masked": "Heat will ____.",
       "options": [
         "soft-mcq-26",
-        "soft-mcq-25",
-        "soft-mcq-27",
-        "soft-mcq-24",
-        "soft-mcq-28",
-        "soft-mcq-23"
+        "soft-mcq-22",
+        "soft-mcq-21",
+        "soft-pdf-005"
       ],
       "explanation": "本句的「soften the butter」指「令硬度降低，或本身變得較軟」。",
       "sentenceIndex": 80,
@@ -3414,12 +3092,10 @@ export default {
         "soften the butter"
       ],
       "optionReasons": {
-        "soft-mcq-26": "本句指「令硬度降低，或本身變得較軟」。",
-        "soft-mcq-25": "「需求、價格或商業活動較疲弱」是「soft market/demand」的用法，與本句語境不同。",
-        "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。",
-        "soft-mcq-24": "「文件的電子／數碼版本」是「soft copy」的用法，與本句語境不同。",
-        "soft-mcq-28": "「柔軟；亦可指聲音、態度中的溫柔柔和」是「softness」的用法，與本句語境不同。",
-        "soft-mcq-23": "「鈣、鎂等礦物離子含量較低的水」是「soft water」的用法，與本句語境不同。"
+        "soft-mcq-26": "本句的「soften the butter」指「令硬度降低，或本身變得較軟」。",
+        "soft-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-26"
     },
@@ -3431,11 +3107,9 @@ export default {
       "masked": "Let the fruit ____ before eating it.",
       "options": [
         "soft-mcq-26",
-        "soft-mcq-25",
-        "soft-mcq-27",
-        "soft-mcq-24",
-        "soft-mcq-28",
-        "soft-mcq-23"
+        "soft-mcq-05",
+        "soft-mcq-18",
+        "soft-mcq-21"
       ],
       "explanation": "本句的「soften」指「令硬度降低，或本身變得較軟」。",
       "sentenceIndex": 81,
@@ -3444,12 +3118,10 @@ export default {
         "soften"
       ],
       "optionReasons": {
-        "soft-mcq-26": "本句指「令硬度降低，或本身變得較軟」。",
-        "soft-mcq-25": "「需求、價格或商業活動較疲弱」是「soft market/demand」的用法，與本句語境不同。",
-        "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。",
-        "soft-mcq-24": "「文件的電子／數碼版本」是「soft copy」的用法，與本句語境不同。",
-        "soft-mcq-28": "「柔軟；亦可指聲音、態度中的溫柔柔和」是「softness」的用法，與本句語境不同。",
-        "soft-mcq-23": "「鈣、鎂等礦物離子含量較低的水」是「soft water」的用法，與本句語境不同。"
+        "soft-mcq-26": "本句的「soften」指「令硬度降低，或本身變得較軟」。",
+        "soft-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-26"
     },
@@ -3461,11 +3133,9 @@ export default {
       "masked": "Her expression ____.",
       "options": [
         "soft-pdf-006",
-        "soft-mcq-25",
-        "soft-mcq-27",
-        "soft-mcq-24",
-        "soft-mcq-28",
-        "soft-mcq-23"
+        "soft-pdf-003",
+        "soft-mcq-13",
+        "soft-mcq-32"
       ],
       "explanation": "本句的「softened」指「令態度、語氣、表情、規則等變得較不嚴厲／尖銳」。",
       "sentenceIndex": 82,
@@ -3474,12 +3144,10 @@ export default {
         "softened"
       ],
       "optionReasons": {
-        "soft-pdf-006": "本句指「令態度、語氣、表情、規則等變得較不嚴厲／尖銳」。",
-        "soft-mcq-25": "「需求、價格或商業活動較疲弱」是「soft market/demand」的用法，與本句語境不同。",
-        "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。",
-        "soft-mcq-24": "「文件的電子／數碼版本」是「soft copy」的用法，與本句語境不同。",
-        "soft-mcq-28": "「柔軟；亦可指聲音、態度中的溫柔柔和」是「softness」的用法，與本句語境不同。",
-        "soft-mcq-23": "「鈣、鎂等礦物離子含量較低的水」是「soft water」的用法，與本句語境不同。"
+        "soft-pdf-006": "本句的「softened」指「令態度、語氣、表情、規則等變得較不嚴厲／尖銳」。",
+        "soft-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-pdf-006"
     },
@@ -3491,11 +3159,9 @@ export default {
       "masked": "He ____ his criticism.",
       "options": [
         "soft-pdf-006",
-        "soft-mcq-25",
-        "soft-mcq-27",
-        "soft-mcq-24",
-        "soft-mcq-28",
-        "soft-mcq-23"
+        "soft-mcq-21",
+        "soft-mcq-13",
+        "soft-mcq-06"
       ],
       "explanation": "本句的「softened」指「令態度、語氣、表情、規則等變得較不嚴厲／尖銳」。",
       "sentenceIndex": 83,
@@ -3504,12 +3170,10 @@ export default {
         "softened"
       ],
       "optionReasons": {
-        "soft-pdf-006": "本句指「令態度、語氣、表情、規則等變得較不嚴厲／尖銳」。",
-        "soft-mcq-25": "「需求、價格或商業活動較疲弱」是「soft market/demand」的用法，與本句語境不同。",
-        "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。",
-        "soft-mcq-24": "「文件的電子／數碼版本」是「soft copy」的用法，與本句語境不同。",
-        "soft-mcq-28": "「柔軟；亦可指聲音、態度中的溫柔柔和」是「softness」的用法，與本句語境不同。",
-        "soft-mcq-23": "「鈣、鎂等礦物離子含量較低的水」是「soft water」的用法，與本句語境不同。"
+        "soft-pdf-006": "本句的「softened」指「令態度、語氣、表情、規則等變得較不嚴厲／尖銳」。",
+        "soft-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-pdf-006"
     },
@@ -3521,10 +3185,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "soft-mcq-27",
-        "soft-mcq-26",
-        "soft-mcq-28",
-        "soft-mcq-25",
-        "soft-mcq-29",
+        "soft-mcq-10",
+        "soft-mcq-13",
         "soft-mcq-24"
       ],
       "explanation": "本句的「softened her tone」指「令態度、語氣、規則或立場變得較溫和」。",
@@ -3534,12 +3196,10 @@ export default {
         "softened her tone"
       ],
       "optionReasons": {
-        "soft-mcq-27": "本句指「令態度、語氣、規則或立場變得較溫和」。",
-        "soft-mcq-26": "「令硬度降低，或本身變得較軟」是「soften — physical」的用法，與本句語境不同。",
-        "soft-mcq-28": "「柔軟；亦可指聲音、態度中的溫柔柔和」是「softness」的用法，與本句語境不同。",
-        "soft-mcq-25": "「需求、價格或商業活動較疲弱」是「soft market/demand」的用法，與本句語境不同。",
-        "soft-mcq-29": "「電腦／電子裝置上運行的程式及數碼指令系統」是「software」的用法，與本句語境不同。",
-        "soft-mcq-24": "「文件的電子／數碼版本」是「soft copy」的用法，與本句語境不同。"
+        "soft-mcq-27": "本句的「softened her tone」指「令態度、語氣、規則或立場變得較溫和」。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-27"
     },
@@ -3551,11 +3211,9 @@ export default {
       "masked": "The company later ____ its position.",
       "options": [
         "soft-mcq-27",
-        "soft-mcq-26",
-        "soft-mcq-28",
-        "soft-mcq-25",
-        "soft-mcq-29",
-        "soft-mcq-24"
+        "soft-mcq-24",
+        "soft-mcq-21",
+        "soft-mcq-33"
       ],
       "explanation": "本句的「softened」指「令態度、語氣、規則或立場變得較溫和」。",
       "sentenceIndex": 85,
@@ -3564,12 +3222,10 @@ export default {
         "softened"
       ],
       "optionReasons": {
-        "soft-mcq-27": "本句指「令態度、語氣、規則或立場變得較溫和」。",
-        "soft-mcq-26": "「令硬度降低，或本身變得較軟」是「soften — physical」的用法，與本句語境不同。",
-        "soft-mcq-28": "「柔軟；亦可指聲音、態度中的溫柔柔和」是「softness」的用法，與本句語境不同。",
-        "soft-mcq-25": "「需求、價格或商業活動較疲弱」是「soft market/demand」的用法，與本句語境不同。",
-        "soft-mcq-29": "「電腦／電子裝置上運行的程式及數碼指令系統」是「software」的用法，與本句語境不同。",
-        "soft-mcq-24": "「文件的電子／數碼版本」是「soft copy」的用法，與本句語境不同。"
+        "soft-mcq-27": "本句的「softened」指「令態度、語氣、規則或立場變得較溫和」。",
+        "soft-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-27"
     },
@@ -3581,11 +3237,9 @@ export default {
       "masked": "I like the ____ of this blanket.",
       "options": [
         "soft-mcq-28",
-        "soft-mcq-27",
-        "soft-mcq-29",
-        "soft-mcq-26",
-        "soft-mcq-30",
-        "soft-mcq-25"
+        "soft-mcq-02",
+        "soft-mcq-20",
+        "soft-mcq-21"
       ],
       "explanation": "本句的「softness」指「柔軟；亦可指聲音、態度中的溫柔柔和」。",
       "sentenceIndex": 86,
@@ -3594,12 +3248,10 @@ export default {
         "softness"
       ],
       "optionReasons": {
-        "soft-mcq-28": "本句指「柔軟；亦可指聲音、態度中的溫柔柔和」。",
-        "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。",
-        "soft-mcq-29": "「電腦／電子裝置上運行的程式及數碼指令系統」是「software」的用法，與本句語境不同。",
-        "soft-mcq-26": "「令硬度降低，或本身變得較軟」是「soften — physical」的用法，與本句語境不同。",
-        "soft-mcq-30": "「正式全面推出前的小規模、低調測試性推出」是「soft launch」的用法，與本句語境不同。",
-        "soft-mcq-25": "「需求、價格或商業活動較疲弱」是「soft market/demand」的用法，與本句語境不同。"
+        "soft-mcq-28": "本句的「softness」指「柔軟；亦可指聲音、態度中的溫柔柔和」。",
+        "soft-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-28"
     },
@@ -3611,11 +3263,9 @@ export default {
       "masked": "The fabric is known for its ____.",
       "options": [
         "soft-mcq-28",
-        "soft-mcq-27",
-        "soft-mcq-29",
-        "soft-mcq-26",
-        "soft-mcq-30",
-        "soft-mcq-25"
+        "soft-mcq-10",
+        "soft-pdf-003",
+        "soft-mcq-13"
       ],
       "explanation": "本句的「softness」指「柔軟；亦可指聲音、態度中的溫柔柔和」。",
       "sentenceIndex": 87,
@@ -3624,12 +3274,10 @@ export default {
         "softness"
       ],
       "optionReasons": {
-        "soft-mcq-28": "本句指「柔軟；亦可指聲音、態度中的溫柔柔和」。",
-        "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。",
-        "soft-mcq-29": "「電腦／電子裝置上運行的程式及數碼指令系統」是「software」的用法，與本句語境不同。",
-        "soft-mcq-26": "「令硬度降低，或本身變得較軟」是「soften — physical」的用法，與本句語境不同。",
-        "soft-mcq-30": "「正式全面推出前的小規模、低調測試性推出」是「soft launch」的用法，與本句語境不同。",
-        "soft-mcq-25": "「需求、價格或商業活動較疲弱」是「soft market/demand」的用法，與本句語境不同。"
+        "soft-mcq-28": "本句的「softness」指「柔軟；亦可指聲音、態度中的溫柔柔和」。",
+        "soft-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-28"
     },
@@ -3641,11 +3289,9 @@ export default {
       "masked": "There was a ____.",
       "options": [
         "soft-mcq-28",
-        "soft-mcq-27",
-        "soft-mcq-29",
-        "soft-mcq-26",
-        "soft-mcq-30",
-        "soft-mcq-25"
+        "soft-mcq-25",
+        "soft-mcq-14",
+        "soft-mcq-21"
       ],
       "explanation": "本句的「softness in her voice」指「柔軟；亦可指聲音、態度中的溫柔柔和」。",
       "sentenceIndex": 88,
@@ -3654,12 +3300,10 @@ export default {
         "softness in her voice"
       ],
       "optionReasons": {
-        "soft-mcq-28": "本句指「柔軟；亦可指聲音、態度中的溫柔柔和」。",
-        "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。",
-        "soft-mcq-29": "「電腦／電子裝置上運行的程式及數碼指令系統」是「software」的用法，與本句語境不同。",
-        "soft-mcq-26": "「令硬度降低，或本身變得較軟」是「soften — physical」的用法，與本句語境不同。",
-        "soft-mcq-30": "「正式全面推出前的小規模、低調測試性推出」是「soft launch」的用法，與本句語境不同。",
-        "soft-mcq-25": "「需求、價格或商業活動較疲弱」是「soft market/demand」的用法，與本句語境不同。"
+        "soft-mcq-28": "本句的「softness in her voice」指「柔軟；亦可指聲音、態度中的溫柔柔和」。",
+        "soft-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-28"
     },
@@ -3671,11 +3315,9 @@ export default {
       "masked": "The ____ of her manner put people at ease.",
       "options": [
         "soft-mcq-28",
-        "soft-mcq-27",
-        "soft-mcq-29",
-        "soft-mcq-26",
-        "soft-mcq-30",
-        "soft-mcq-25"
+        "soft-mcq-22",
+        "soft-pdf-003",
+        "soft-mcq-30"
       ],
       "explanation": "本句的「softness」指「柔軟；亦可指聲音、態度中的溫柔柔和」。",
       "sentenceIndex": 89,
@@ -3684,12 +3326,10 @@ export default {
         "softness"
       ],
       "optionReasons": {
-        "soft-mcq-28": "本句指「柔軟；亦可指聲音、態度中的溫柔柔和」。",
-        "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。",
-        "soft-mcq-29": "「電腦／電子裝置上運行的程式及數碼指令系統」是「software」的用法，與本句語境不同。",
-        "soft-mcq-26": "「令硬度降低，或本身變得較軟」是「soften — physical」的用法，與本句語境不同。",
-        "soft-mcq-30": "「正式全面推出前的小規模、低調測試性推出」是「soft launch」的用法，與本句語境不同。",
-        "soft-mcq-25": "「需求、價格或商業活動較疲弱」是「soft market/demand」的用法，與本句語境不同。"
+        "soft-mcq-28": "本句的「softness」指「柔軟；亦可指聲音、態度中的溫柔柔和」。",
+        "soft-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-28"
     },
@@ -3701,11 +3341,9 @@ export default {
       "masked": "The company develops ____.",
       "options": [
         "soft-mcq-29",
-        "soft-mcq-28",
         "soft-mcq-30",
-        "soft-mcq-27",
-        "soft-mcq-31",
-        "soft-mcq-26"
+        "soft-pdf-005",
+        "soft-mcq-34"
       ],
       "explanation": "本句的「software」指「電腦／電子裝置上運行的程式及數碼指令系統」。",
       "sentenceIndex": 90,
@@ -3714,12 +3352,10 @@ export default {
         "software"
       ],
       "optionReasons": {
-        "soft-mcq-29": "本句指「電腦／電子裝置上運行的程式及數碼指令系統」。",
-        "soft-mcq-28": "「柔軟；亦可指聲音、態度中的溫柔柔和」是「softness」的用法，與本句語境不同。",
-        "soft-mcq-30": "「正式全面推出前的小規模、低調測試性推出」是「soft launch」的用法，與本句語境不同。",
-        "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。",
-        "soft-mcq-31": "「地面／表面缺乏硬度或穩固性」是「4. soft ground/surface（土地鬆軟） — 軟；不堅實」的用法，與本句語境不同。",
-        "soft-mcq-26": "「令硬度降低，或本身變得較軟」是「soften — physical」的用法，與本句語境不同。"
+        "soft-mcq-29": "本句的「software」指「電腦／電子裝置上運行的程式及數碼指令系統」。",
+        "soft-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "soft-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-29"
     },
@@ -3731,11 +3367,9 @@ export default {
       "masked": "You need to update the ____.",
       "options": [
         "soft-mcq-29",
-        "soft-mcq-28",
-        "soft-mcq-30",
-        "soft-mcq-27",
+        "soft-mcq-32",
         "soft-mcq-31",
-        "soft-mcq-26"
+        "soft-mcq-11"
       ],
       "explanation": "本句的「software」指「電腦／電子裝置上運行的程式及數碼指令系統」。",
       "sentenceIndex": 91,
@@ -3744,12 +3378,10 @@ export default {
         "software"
       ],
       "optionReasons": {
-        "soft-mcq-29": "本句指「電腦／電子裝置上運行的程式及數碼指令系統」。",
-        "soft-mcq-28": "「柔軟；亦可指聲音、態度中的溫柔柔和」是「softness」的用法，與本句語境不同。",
-        "soft-mcq-30": "「正式全面推出前的小規模、低調測試性推出」是「soft launch」的用法，與本句語境不同。",
-        "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。",
-        "soft-mcq-31": "「地面／表面缺乏硬度或穩固性」是「4. soft ground/surface（土地鬆軟） — 軟；不堅實」的用法，與本句語境不同。",
-        "soft-mcq-26": "「令硬度降低，或本身變得較軟」是「soften — physical」的用法，與本句語境不同。"
+        "soft-mcq-29": "本句的「software」指「電腦／電子裝置上運行的程式及數碼指令系統」。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-29"
     },
@@ -3761,11 +3393,9 @@ export default {
       "masked": "The app had a ____ before the full release.",
       "options": [
         "soft-mcq-30",
+        "soft-mcq-05",
         "soft-mcq-29",
-        "soft-mcq-31",
-        "soft-mcq-28",
-        "soft-mcq-32",
-        "soft-mcq-27"
+        "soft-mcq-14"
       ],
       "explanation": "本句的「soft launch」指「正式全面推出前的小規模、低調測試性推出」。",
       "sentenceIndex": 92,
@@ -3774,12 +3404,10 @@ export default {
         "soft launch"
       ],
       "optionReasons": {
-        "soft-mcq-30": "本句指「正式全面推出前的小規模、低調測試性推出」。",
-        "soft-mcq-29": "「電腦／電子裝置上運行的程式及數碼指令系統」是「software」的用法，與本句語境不同。",
-        "soft-mcq-31": "「地面／表面缺乏硬度或穩固性」是「4. soft ground/surface（土地鬆軟） — 軟；不堅實」的用法，與本句語境不同。",
-        "soft-mcq-28": "「柔軟；亦可指聲音、態度中的溫柔柔和」是「softness」的用法，與本句語境不同。",
-        "soft-mcq-32": "「因能稍微下陷／承托身體而感覺舒服」是「5. soft = comfortable and yielding（柔軟舒適的） — 柔軟舒服」的用法，與本句語境不同。",
-        "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。"
+        "soft-mcq-30": "本句的「soft launch」指「正式全面推出前的小規模、低調測試性推出」。",
+        "soft-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-30"
     },
@@ -3791,11 +3419,9 @@ export default {
       "masked": "They ____ the service in one city.",
       "options": [
         "soft-mcq-30",
-        "soft-mcq-29",
-        "soft-mcq-31",
-        "soft-mcq-28",
-        "soft-mcq-32",
-        "soft-mcq-27"
+        "soft-pdf-005",
+        "soft-mcq-06",
+        "soft-mcq-32"
       ],
       "explanation": "本句的「soft-launched」指「正式全面推出前的小規模、低調測試性推出」。",
       "sentenceIndex": 93,
@@ -3804,12 +3430,10 @@ export default {
         "soft-launched"
       ],
       "optionReasons": {
-        "soft-mcq-30": "本句指「正式全面推出前的小規模、低調測試性推出」。",
-        "soft-mcq-29": "「電腦／電子裝置上運行的程式及數碼指令系統」是「software」的用法，與本句語境不同。",
-        "soft-mcq-31": "「地面／表面缺乏硬度或穩固性」是「4. soft ground/surface（土地鬆軟） — 軟；不堅實」的用法，與本句語境不同。",
-        "soft-mcq-28": "「柔軟；亦可指聲音、態度中的溫柔柔和」是「softness」的用法，與本句語境不同。",
-        "soft-mcq-32": "「因能稍微下陷／承托身體而感覺舒服」是「5. soft = comfortable and yielding（柔軟舒適的） — 柔軟舒服」的用法，與本句語境不同。",
-        "soft-mcq-27": "「令態度、語氣、規則或立場變得較溫和」是「soften — figurative」的用法，與本句語境不同。"
+        "soft-mcq-30": "本句的「soft-launched」指「正式全面推出前的小規模、低調測試性推出」。",
+        "soft-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "soft-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soft-mcq-30"
     }
@@ -3821,5 +3445,7 @@ export default {
     "sha256": "b71a7a5375cd827b52d91a5ec83d8e1738bf13c60d65644f07d3b0c31ab7365b",
     "pages": 34
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

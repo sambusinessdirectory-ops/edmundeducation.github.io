@@ -174,11 +174,7 @@ export default {
       "masked": "We joined a snorkeling tour near the ____.",
       "options": [
         "coast-mcq-01",
-        "coast-mcq-02",
-        "coast-mcq-03",
-        "coast-mcq-04",
-        "coast-mcq-05",
-        "coast-mcq-06"
+        "coast-mcq-04"
       ],
       "explanation": "本句的「coast」指「陸地與海洋相接的一帶；海岸／沿海地區」。",
       "sentenceIndex": 0,
@@ -187,12 +183,8 @@ export default {
         "coast"
       ],
       "optionReasons": {
-        "coast-mcq-01": "本句指「陸地與海洋相接的一帶；海岸／沿海地區」。",
-        "coast-mcq-02": "「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」與本句語境不同。",
-        "coast-mcq-03": "「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」與本句語境不同。",
-        "coast-mcq-04": "「幾乎不需太多努力便順利完成、通過或前進」與本句語境不同。",
-        "coast-mcq-05": "「因事情容易或已有優勢而不再太努力、只是順勢前進」與本句語境不同。",
-        "coast-mcq-06": "「位於海岸附近或與海岸有關的」與本句語境不同。"
+        "coast-mcq-01": "本句的「coast」指「陸地與海洋相接的一帶；海岸／沿海地區」。",
+        "coast-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coast-mcq-01"
     },
@@ -204,11 +196,7 @@ export default {
       "masked": "They drove along the ____.",
       "options": [
         "coast-mcq-01",
-        "coast-mcq-02",
-        "coast-mcq-03",
-        "coast-mcq-04",
-        "coast-mcq-05",
-        "coast-mcq-06"
+        "coast-mcq-05"
       ],
       "explanation": "本句的「coast」指「陸地與海洋相接的一帶；海岸／沿海地區」。",
       "sentenceIndex": 1,
@@ -217,12 +205,8 @@ export default {
         "coast"
       ],
       "optionReasons": {
-        "coast-mcq-01": "本句指「陸地與海洋相接的一帶；海岸／沿海地區」。",
-        "coast-mcq-02": "「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」與本句語境不同。",
-        "coast-mcq-03": "「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」與本句語境不同。",
-        "coast-mcq-04": "「幾乎不需太多努力便順利完成、通過或前進」與本句語境不同。",
-        "coast-mcq-05": "「因事情容易或已有優勢而不再太努力、只是順勢前進」與本句語境不同。",
-        "coast-mcq-06": "「位於海岸附近或與海岸有關的」與本句語境不同。"
+        "coast-mcq-01": "本句的「coast」指「陸地與海洋相接的一帶；海岸／沿海地區」。",
+        "coast-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coast-mcq-01"
     },
@@ -234,11 +218,7 @@ export default {
       "masked": "Many small towns lie on the west ____.",
       "options": [
         "coast-mcq-01",
-        "coast-mcq-02",
-        "coast-mcq-03",
-        "coast-mcq-04",
-        "coast-mcq-05",
-        "coast-mcq-06"
+        "coast-mcq-04"
       ],
       "explanation": "本句的「coast」指「陸地與海洋相接的一帶；海岸／沿海地區」。",
       "sentenceIndex": 2,
@@ -247,12 +227,8 @@ export default {
         "coast"
       ],
       "optionReasons": {
-        "coast-mcq-01": "本句指「陸地與海洋相接的一帶；海岸／沿海地區」。",
-        "coast-mcq-02": "「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」與本句語境不同。",
-        "coast-mcq-03": "「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」與本句語境不同。",
-        "coast-mcq-04": "「幾乎不需太多努力便順利完成、通過或前進」與本句語境不同。",
-        "coast-mcq-05": "「因事情容易或已有優勢而不再太努力、只是順勢前進」與本句語境不同。",
-        "coast-mcq-06": "「位於海岸附近或與海岸有關的」與本句語境不同。"
+        "coast-mcq-01": "本句的「coast」指「陸地與海洋相接的一帶；海岸／沿海地區」。",
+        "coast-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coast-mcq-01"
     },
@@ -264,10 +240,7 @@ export default {
       "masked": "The storm damaged villages along the ____.",
       "options": [
         "coast-mcq-02",
-        "coast-mcq-01",
         "coast-mcq-03",
-        "coast-mcq-04",
-        "coast-mcq-05",
         "coast-mcq-06"
       ],
       "explanation": "本句的「coast」指「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」。",
@@ -277,12 +250,9 @@ export default {
         "coast"
       ],
       "optionReasons": {
-        "coast-mcq-02": "本句指「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」。",
-        "coast-mcq-01": "「陸地與海洋相接的一帶；海岸／沿海地區」與本句語境不同。",
-        "coast-mcq-03": "「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」與本句語境不同。",
-        "coast-mcq-04": "「幾乎不需太多努力便順利完成、通過或前進」與本句語境不同。",
-        "coast-mcq-05": "「因事情容易或已有優勢而不再太努力、只是順勢前進」與本句語境不同。",
-        "coast-mcq-06": "「位於海岸附近或與海岸有關的」與本句語境不同。"
+        "coast-mcq-02": "本句的「coast」指「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」。",
+        "coast-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "coast-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coast-mcq-02"
     },
@@ -294,9 +264,6 @@ export default {
       "masked": "The ____ is rocky in this area.",
       "options": [
         "coast-mcq-02",
-        "coast-mcq-01",
-        "coast-mcq-03",
-        "coast-mcq-04",
         "coast-mcq-05",
         "coast-mcq-06"
       ],
@@ -307,12 +274,9 @@ export default {
         "coast"
       ],
       "optionReasons": {
-        "coast-mcq-02": "本句指「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」。",
-        "coast-mcq-01": "「陸地與海洋相接的一帶；海岸／沿海地區」與本句語境不同。",
-        "coast-mcq-03": "「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」與本句語境不同。",
-        "coast-mcq-04": "「幾乎不需太多努力便順利完成、通過或前進」與本句語境不同。",
-        "coast-mcq-05": "「因事情容易或已有優勢而不再太努力、只是順勢前進」與本句語境不同。",
-        "coast-mcq-06": "「位於海岸附近或與海岸有關的」與本句語境不同。"
+        "coast-mcq-02": "本句的「coast」指「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」。",
+        "coast-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "coast-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coast-mcq-02"
     },
@@ -324,11 +288,7 @@ export default {
       "masked": "The bicycle ____ downhill.",
       "options": [
         "coast-mcq-03",
-        "coast-mcq-02",
-        "coast-mcq-04",
-        "coast-mcq-01",
-        "coast-mcq-05",
-        "coast-mcq-06"
+        "coast-mcq-01"
       ],
       "explanation": "本句的「coasted」指「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」。",
       "sentenceIndex": 5,
@@ -337,12 +297,8 @@ export default {
         "coasted"
       ],
       "optionReasons": {
-        "coast-mcq-03": "本句指「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」。",
-        "coast-mcq-02": "「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」與本句語境不同。",
-        "coast-mcq-04": "「幾乎不需太多努力便順利完成、通過或前進」與本句語境不同。",
-        "coast-mcq-01": "「陸地與海洋相接的一帶；海岸／沿海地區」與本句語境不同。",
-        "coast-mcq-05": "「因事情容易或已有優勢而不再太努力、只是順勢前進」與本句語境不同。",
-        "coast-mcq-06": "「位於海岸附近或與海岸有關的」與本句語境不同。"
+        "coast-mcq-03": "本句的「coasted」指「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」。",
+        "coast-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coast-mcq-03"
     },
@@ -355,9 +311,6 @@ export default {
       "options": [
         "coast-mcq-03",
         "coast-mcq-02",
-        "coast-mcq-04",
-        "coast-mcq-01",
-        "coast-mcq-05",
         "coast-mcq-06"
       ],
       "explanation": "本句的「coasted」指「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」。",
@@ -367,12 +320,9 @@ export default {
         "coasted"
       ],
       "optionReasons": {
-        "coast-mcq-03": "本句指「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」。",
-        "coast-mcq-02": "「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」與本句語境不同。",
-        "coast-mcq-04": "「幾乎不需太多努力便順利完成、通過或前進」與本句語境不同。",
-        "coast-mcq-01": "「陸地與海洋相接的一帶；海岸／沿海地區」與本句語境不同。",
-        "coast-mcq-05": "「因事情容易或已有優勢而不再太努力、只是順勢前進」與本句語境不同。",
-        "coast-mcq-06": "「位於海岸附近或與海岸有關的」與本句語境不同。"
+        "coast-mcq-03": "本句的「coasted」指「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」。",
+        "coast-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "coast-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coast-mcq-03"
     },
@@ -384,11 +334,8 @@ export default {
       "masked": "She ____ through the exam.",
       "options": [
         "coast-mcq-04",
-        "coast-mcq-03",
-        "coast-mcq-05",
         "coast-mcq-02",
-        "coast-mcq-06",
-        "coast-mcq-01"
+        "coast-mcq-06"
       ],
       "explanation": "本句的「coasted」指「幾乎不需太多努力便順利完成、通過或前進」。",
       "sentenceIndex": 7,
@@ -397,12 +344,9 @@ export default {
         "coasted"
       ],
       "optionReasons": {
-        "coast-mcq-04": "本句指「幾乎不需太多努力便順利完成、通過或前進」。",
-        "coast-mcq-03": "「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」與本句語境不同。",
-        "coast-mcq-05": "「因事情容易或已有優勢而不再太努力、只是順勢前進」與本句語境不同。",
-        "coast-mcq-02": "「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」與本句語境不同。",
-        "coast-mcq-06": "「位於海岸附近或與海岸有關的」與本句語境不同。",
-        "coast-mcq-01": "「陸地與海洋相接的一帶；海岸／沿海地區」與本句語境不同。"
+        "coast-mcq-04": "本句的「coasted」指「幾乎不需太多努力便順利完成、通過或前進」。",
+        "coast-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "coast-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coast-mcq-04"
     },
@@ -414,11 +358,8 @@ export default {
       "masked": "The team ____ to an easy victory.",
       "options": [
         "coast-mcq-04",
-        "coast-mcq-03",
-        "coast-mcq-05",
         "coast-mcq-02",
-        "coast-mcq-06",
-        "coast-mcq-01"
+        "coast-mcq-06"
       ],
       "explanation": "本句的「coasted」指「幾乎不需太多努力便順利完成、通過或前進」。",
       "sentenceIndex": 8,
@@ -427,12 +368,9 @@ export default {
         "coasted"
       ],
       "optionReasons": {
-        "coast-mcq-04": "本句指「幾乎不需太多努力便順利完成、通過或前進」。",
-        "coast-mcq-03": "「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」與本句語境不同。",
-        "coast-mcq-05": "「因事情容易或已有優勢而不再太努力、只是順勢前進」與本句語境不同。",
-        "coast-mcq-02": "「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」與本句語境不同。",
-        "coast-mcq-06": "「位於海岸附近或與海岸有關的」與本句語境不同。",
-        "coast-mcq-01": "「陸地與海洋相接的一帶；海岸／沿海地區」與本句語境不同。"
+        "coast-mcq-04": "本句的「coasted」指「幾乎不需太多努力便順利完成、通過或前進」。",
+        "coast-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "coast-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coast-mcq-04"
     },
@@ -444,11 +382,7 @@ export default {
       "masked": "He started to ____ after getting good early results.",
       "options": [
         "coast-mcq-05",
-        "coast-mcq-04",
-        "coast-mcq-06",
-        "coast-mcq-03",
-        "coast-mcq-07",
-        "coast-mcq-02"
+        "coast-mcq-01"
       ],
       "explanation": "本句的「coast」指「因事情容易或已有優勢而不再太努力、只是順勢前進」。",
       "sentenceIndex": 9,
@@ -457,12 +391,8 @@ export default {
         "coast"
       ],
       "optionReasons": {
-        "coast-mcq-05": "本句指「因事情容易或已有優勢而不再太努力、只是順勢前進」。",
-        "coast-mcq-04": "「幾乎不需太多努力便順利完成、通過或前進」與本句語境不同。",
-        "coast-mcq-06": "「位於海岸附近或與海岸有關的」與本句語境不同。",
-        "coast-mcq-03": "「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」與本句語境不同。",
-        "coast-mcq-07": "「陸地與海洋相接形成的線形邊界；海岸線」與本句語境不同。",
-        "coast-mcq-02": "「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」與本句語境不同。"
+        "coast-mcq-05": "本句的「coast」指「因事情容易或已有優勢而不再太努力、只是順勢前進」。",
+        "coast-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coast-mcq-05"
     },
@@ -474,11 +404,8 @@ export default {
       "masked": "You can’t just ____ through the rest of the course.",
       "options": [
         "coast-mcq-05",
-        "coast-mcq-04",
-        "coast-mcq-06",
-        "coast-mcq-03",
-        "coast-mcq-07",
-        "coast-mcq-02"
+        "coast-mcq-02",
+        "coast-mcq-06"
       ],
       "explanation": "本句的「coast」指「因事情容易或已有優勢而不再太努力、只是順勢前進」。",
       "sentenceIndex": 10,
@@ -487,12 +414,9 @@ export default {
         "coast"
       ],
       "optionReasons": {
-        "coast-mcq-05": "本句指「因事情容易或已有優勢而不再太努力、只是順勢前進」。",
-        "coast-mcq-04": "「幾乎不需太多努力便順利完成、通過或前進」與本句語境不同。",
-        "coast-mcq-06": "「位於海岸附近或與海岸有關的」與本句語境不同。",
-        "coast-mcq-03": "「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」與本句語境不同。",
-        "coast-mcq-07": "「陸地與海洋相接形成的線形邊界；海岸線」與本句語境不同。",
-        "coast-mcq-02": "「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」與本句語境不同。"
+        "coast-mcq-05": "本句的「coast」指「因事情容易或已有優勢而不再太努力、只是順勢前進」。",
+        "coast-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "coast-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coast-mcq-05"
     },
@@ -504,10 +428,7 @@ export default {
       "masked": "They visited several ____ villages.",
       "options": [
         "coast-mcq-06",
-        "coast-mcq-05",
-        "coast-mcq-07",
         "coast-mcq-04",
-        "coast-mcq-03",
         "coast-mcq-02"
       ],
       "explanation": "本句的「coastal」指「位於海岸附近或與海岸有關的」。",
@@ -517,12 +438,9 @@ export default {
         "coastal"
       ],
       "optionReasons": {
-        "coast-mcq-06": "本句指「位於海岸附近或與海岸有關的」。",
-        "coast-mcq-05": "「因事情容易或已有優勢而不再太努力、只是順勢前進」與本句語境不同。",
-        "coast-mcq-07": "「陸地與海洋相接形成的線形邊界；海岸線」與本句語境不同。",
-        "coast-mcq-04": "「幾乎不需太多努力便順利完成、通過或前進」與本句語境不同。",
-        "coast-mcq-03": "「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」與本句語境不同。",
-        "coast-mcq-02": "「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」與本句語境不同。"
+        "coast-mcq-06": "本句的「coastal」指「位於海岸附近或與海岸有關的」。",
+        "coast-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "coast-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coast-mcq-06"
     },
@@ -534,9 +452,6 @@ export default {
       "masked": "The area has a mild ____ climate.",
       "options": [
         "coast-mcq-06",
-        "coast-mcq-05",
-        "coast-mcq-07",
-        "coast-mcq-04",
         "coast-mcq-03",
         "coast-mcq-02"
       ],
@@ -547,12 +462,9 @@ export default {
         "coastal"
       ],
       "optionReasons": {
-        "coast-mcq-06": "本句指「位於海岸附近或與海岸有關的」。",
-        "coast-mcq-05": "「因事情容易或已有優勢而不再太努力、只是順勢前進」與本句語境不同。",
-        "coast-mcq-07": "「陸地與海洋相接形成的線形邊界；海岸線」與本句語境不同。",
-        "coast-mcq-04": "「幾乎不需太多努力便順利完成、通過或前進」與本句語境不同。",
-        "coast-mcq-03": "「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」與本句語境不同。",
-        "coast-mcq-02": "「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」與本句語境不同。"
+        "coast-mcq-06": "本句的「coastal」指「位於海岸附近或與海岸有關的」。",
+        "coast-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "coast-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coast-mcq-06"
     },
@@ -564,11 +476,7 @@ export default {
       "masked": "The island has a long rocky ____.",
       "options": [
         "coast-mcq-07",
-        "coast-mcq-06",
-        "coast-mcq-05",
-        "coast-mcq-04",
-        "coast-mcq-03",
-        "coast-mcq-02"
+        "coast-mcq-05"
       ],
       "explanation": "本句的「coastline」指「陸地與海洋相接形成的線形邊界；海岸線」。",
       "sentenceIndex": 13,
@@ -577,12 +485,8 @@ export default {
         "coastline"
       ],
       "optionReasons": {
-        "coast-mcq-07": "本句指「陸地與海洋相接形成的線形邊界；海岸線」。",
-        "coast-mcq-06": "「位於海岸附近或與海岸有關的」與本句語境不同。",
-        "coast-mcq-05": "「因事情容易或已有優勢而不再太努力、只是順勢前進」與本句語境不同。",
-        "coast-mcq-04": "「幾乎不需太多努力便順利完成、通過或前進」與本句語境不同。",
-        "coast-mcq-03": "「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」與本句語境不同。",
-        "coast-mcq-02": "「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」與本句語境不同。"
+        "coast-mcq-07": "本句的「coastline」指「陸地與海洋相接形成的線形邊界；海岸線」。",
+        "coast-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coast-mcq-07"
     },
@@ -594,11 +498,7 @@ export default {
       "masked": "The ____ has changed over time.",
       "options": [
         "coast-mcq-07",
-        "coast-mcq-06",
-        "coast-mcq-05",
-        "coast-mcq-04",
-        "coast-mcq-03",
-        "coast-mcq-02"
+        "coast-mcq-05"
       ],
       "explanation": "本句的「coastline」指「陸地與海洋相接形成的線形邊界；海岸線」。",
       "sentenceIndex": 14,
@@ -607,12 +507,8 @@ export default {
         "coastline"
       ],
       "optionReasons": {
-        "coast-mcq-07": "本句指「陸地與海洋相接形成的線形邊界；海岸線」。",
-        "coast-mcq-06": "「位於海岸附近或與海岸有關的」與本句語境不同。",
-        "coast-mcq-05": "「因事情容易或已有優勢而不再太努力、只是順勢前進」與本句語境不同。",
-        "coast-mcq-04": "「幾乎不需太多努力便順利完成、通過或前進」與本句語境不同。",
-        "coast-mcq-03": "「利用慣性、重力或已有速度，在幾乎不主動用力的情況下前進」與本句語境不同。",
-        "coast-mcq-02": "「海陸相接的邊界或沿線地帶；與 geographic-coast 義相同」與本句語境不同。"
+        "coast-mcq-07": "本句的「coastline」指「陸地與海洋相接形成的線形邊界；海岸線」。",
+        "coast-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coast-mcq-07"
     }
@@ -624,5 +520,7 @@ export default {
     "sha256": "310c947461ef140a395609cfdcadf19205eae73853a9a446b36842dc5f8d1d82",
     "pages": 8
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

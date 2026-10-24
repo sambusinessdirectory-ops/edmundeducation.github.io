@@ -233,11 +233,9 @@ export default {
       "masked": "The bicycle is still in good ____.",
       "options": [
         "condition-mcq-01",
+        "condition-mcq-07",
         "condition-mcq-02",
-        "condition-mcq-03",
-        "condition-mcq-04",
-        "condition-mcq-05",
-        "condition-mcq-06"
+        "condition-mcq-09"
       ],
       "explanation": "本句的「condition」指「某人或某物目前所處的實際狀態，尤其是品質、健康或功能狀況」。",
       "sentenceIndex": 0,
@@ -246,12 +244,10 @@ export default {
         "condition"
       ],
       "optionReasons": {
-        "condition-mcq-01": "本句指「某人或某物目前所處的實際狀態，尤其是品質、健康或功能狀況」。",
-        "condition-mcq-02": "「影響某件事發生、運作或生存的外在環境與情況」是「conditions — environment/circumstances」的用法，與本句語境不同。",
-        "condition-mcq-03": "「某件事成立、被允許或繼續之前必須符合的要求」是「condition — requirement」的用法，與本句語境不同。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。"
+        "condition-mcq-01": "本句的「condition」指「某人或某物目前所處的實際狀態，尤其是品質、健康或功能狀況」。",
+        "condition-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-01"
     },
@@ -263,11 +259,9 @@ export default {
       "masked": "The building is in poor ____.",
       "options": [
         "condition-mcq-01",
+        "condition-mcq-09",
         "condition-mcq-02",
-        "condition-mcq-03",
-        "condition-mcq-04",
-        "condition-mcq-05",
-        "condition-mcq-06"
+        "condition-mcq-08"
       ],
       "explanation": "本句的「condition」指「某人或某物目前所處的實際狀態，尤其是品質、健康或功能狀況」。",
       "sentenceIndex": 1,
@@ -276,12 +270,10 @@ export default {
         "condition"
       ],
       "optionReasons": {
-        "condition-mcq-01": "本句指「某人或某物目前所處的實際狀態，尤其是品質、健康或功能狀況」。",
-        "condition-mcq-02": "「影響某件事發生、運作或生存的外在環境與情況」是「conditions — environment/circumstances」的用法，與本句語境不同。",
-        "condition-mcq-03": "「某件事成立、被允許或繼續之前必須符合的要求」是「condition — requirement」的用法，與本句語境不同。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。"
+        "condition-mcq-01": "本句的「condition」指「某人或某物目前所處的實際狀態，尤其是品質、健康或功能狀況」。",
+        "condition-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-01"
     },
@@ -293,11 +285,9 @@ export default {
       "masked": "Sea turtles survive harsh natural ____.",
       "options": [
         "condition-mcq-02",
+        "condition-mcq-07",
         "condition-mcq-01",
-        "condition-mcq-03",
-        "condition-mcq-04",
-        "condition-mcq-05",
-        "condition-mcq-06"
+        "condition-mcq-09"
       ],
       "explanation": "本句的「conditions」指「影響某件事發生、運作或生存的外在環境與情況」。",
       "sentenceIndex": 2,
@@ -306,12 +296,10 @@ export default {
         "conditions"
       ],
       "optionReasons": {
-        "condition-mcq-02": "本句指「影響某件事發生、運作或生存的外在環境與情況」。",
-        "condition-mcq-01": "「某人或某物目前所處的實際狀態，尤其是品質、健康或功能狀況」是「condition — state/quality」的用法，與本句語境不同。",
-        "condition-mcq-03": "「某件事成立、被允許或繼續之前必須符合的要求」是「condition — requirement」的用法，與本句語境不同。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。"
+        "condition-mcq-02": "本句的「conditions」指「影響某件事發生、運作或生存的外在環境與情況」。",
+        "condition-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-02"
     },
@@ -323,11 +311,9 @@ export default {
       "masked": "Plants grow well under these ____.",
       "options": [
         "condition-mcq-02",
-        "condition-mcq-01",
-        "condition-mcq-03",
-        "condition-mcq-04",
-        "condition-mcq-05",
-        "condition-mcq-06"
+        "condition-mcq-07",
+        "condition-mcq-09",
+        "condition-mcq-01"
       ],
       "explanation": "本句的「conditions」指「影響某件事發生、運作或生存的外在環境與情況」。",
       "sentenceIndex": 3,
@@ -336,12 +322,10 @@ export default {
         "conditions"
       ],
       "optionReasons": {
-        "condition-mcq-02": "本句指「影響某件事發生、運作或生存的外在環境與情況」。",
-        "condition-mcq-01": "「某人或某物目前所處的實際狀態，尤其是品質、健康或功能狀況」是「condition — state/quality」的用法，與本句語境不同。",
-        "condition-mcq-03": "「某件事成立、被允許或繼續之前必須符合的要求」是「condition — requirement」的用法，與本句語境不同。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。"
+        "condition-mcq-02": "本句的「conditions」指「影響某件事發生、運作或生存的外在環境與情況」。",
+        "condition-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-02"
     },
@@ -353,11 +337,9 @@ export default {
       "masked": "Working ____ have improved.",
       "options": [
         "condition-mcq-02",
+        "condition-mcq-07",
         "condition-mcq-01",
-        "condition-mcq-03",
-        "condition-mcq-04",
-        "condition-mcq-05",
-        "condition-mcq-06"
+        "condition-mcq-09"
       ],
       "explanation": "本句的「conditions」指「影響某件事發生、運作或生存的外在環境與情況」。",
       "sentenceIndex": 4,
@@ -366,12 +348,10 @@ export default {
         "conditions"
       ],
       "optionReasons": {
-        "condition-mcq-02": "本句指「影響某件事發生、運作或生存的外在環境與情況」。",
-        "condition-mcq-01": "「某人或某物目前所處的實際狀態，尤其是品質、健康或功能狀況」是「condition — state/quality」的用法，與本句語境不同。",
-        "condition-mcq-03": "「某件事成立、被允許或繼續之前必須符合的要求」是「condition — requirement」的用法，與本句語境不同。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。"
+        "condition-mcq-02": "本句的「conditions」指「影響某件事發生、運作或生存的外在環境與情況」。",
+        "condition-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-02"
     },
@@ -383,11 +363,7 @@ export default {
       "masked": "One ____ of the agreement is that payment must be made in advance.",
       "options": [
         "condition-mcq-03",
-        "condition-mcq-02",
-        "condition-mcq-04",
-        "condition-mcq-01",
-        "condition-mcq-05",
-        "condition-mcq-06"
+        "condition-mcq-04"
       ],
       "explanation": "本句的「condition」指「某件事成立、被允許或繼續之前必須符合的要求」。",
       "sentenceIndex": 5,
@@ -396,12 +372,8 @@ export default {
         "condition"
       ],
       "optionReasons": {
-        "condition-mcq-03": "本句指「某件事成立、被允許或繼續之前必須符合的要求」。",
-        "condition-mcq-02": "「影響某件事發生、運作或生存的外在環境與情況」是「conditions — environment/circumstances」的用法，與本句語境不同。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。",
-        "condition-mcq-01": "「某人或某物目前所處的實際狀態，尤其是品質、健康或功能狀況」是「condition — state/quality」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。"
+        "condition-mcq-03": "本句的「condition」指「某件事成立、被允許或繼續之前必須符合的要求」。",
+        "condition-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-03"
     },
@@ -413,11 +385,7 @@ export default {
       "masked": "You may enter on one ____.",
       "options": [
         "condition-mcq-03",
-        "condition-mcq-02",
-        "condition-mcq-04",
-        "condition-mcq-01",
-        "condition-mcq-05",
-        "condition-mcq-06"
+        "condition-mcq-04"
       ],
       "explanation": "本句的「condition」指「某件事成立、被允許或繼續之前必須符合的要求」。",
       "sentenceIndex": 6,
@@ -426,12 +394,8 @@ export default {
         "condition"
       ],
       "optionReasons": {
-        "condition-mcq-03": "本句指「某件事成立、被允許或繼續之前必須符合的要求」。",
-        "condition-mcq-02": "「影響某件事發生、運作或生存的外在環境與情況」是「conditions — environment/circumstances」的用法，與本句語境不同。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。",
-        "condition-mcq-01": "「某人或某物目前所處的實際狀態，尤其是品質、健康或功能狀況」是「condition — state/quality」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。"
+        "condition-mcq-03": "本句的「condition」指「某件事成立、被允許或繼續之前必須符合的要求」。",
+        "condition-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-03"
     },
@@ -443,11 +407,9 @@ export default {
       "masked": "He has a heart ____.",
       "options": [
         "condition-mcq-04",
-        "condition-mcq-03",
-        "condition-mcq-05",
-        "condition-mcq-02",
-        "condition-mcq-06",
-        "condition-mcq-01"
+        "condition-mcq-09",
+        "condition-mcq-08",
+        "condition-mcq-06"
       ],
       "explanation": "本句的「condition」指「影響健康的疾病、病症或身體狀況」。",
       "sentenceIndex": 7,
@@ -456,12 +418,10 @@ export default {
         "condition"
       ],
       "optionReasons": {
-        "condition-mcq-04": "本句指「影響健康的疾病、病症或身體狀況」。",
-        "condition-mcq-03": "「某件事成立、被允許或繼續之前必須符合的要求」是「condition — requirement」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-02": "「影響某件事發生、運作或生存的外在環境與情況」是「conditions — environment/circumstances」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。",
-        "condition-mcq-01": "「某人或某物目前所處的實際狀態，尤其是品質、健康或功能狀況」是「condition — state/quality」的用法，與本句語境不同。"
+        "condition-mcq-04": "本句的「condition」指「影響健康的疾病、病症或身體狀況」。",
+        "condition-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-04"
     },
@@ -473,11 +433,9 @@ export default {
       "masked": "The doctor is monitoring her ____.",
       "options": [
         "condition-mcq-04",
-        "condition-mcq-03",
-        "condition-mcq-05",
-        "condition-mcq-02",
-        "condition-mcq-06",
-        "condition-mcq-01"
+        "condition-mcq-09",
+        "condition-mcq-08",
+        "condition-mcq-06"
       ],
       "explanation": "本句的「condition」指「影響健康的疾病、病症或身體狀況」。",
       "sentenceIndex": 8,
@@ -486,12 +444,10 @@ export default {
         "condition"
       ],
       "optionReasons": {
-        "condition-mcq-04": "本句指「影響健康的疾病、病症或身體狀況」。",
-        "condition-mcq-03": "「某件事成立、被允許或繼續之前必須符合的要求」是「condition — requirement」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-02": "「影響某件事發生、運作或生存的外在環境與情況」是「conditions — environment/circumstances」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。",
-        "condition-mcq-01": "「某人或某物目前所處的實際狀態，尤其是品質、健康或功能狀況」是「condition — state/quality」的用法，與本句語境不同。"
+        "condition-mcq-04": "本句的「condition」指「影響健康的疾病、病症或身體狀況」。",
+        "condition-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-04"
     },
@@ -503,11 +459,9 @@ export default {
       "masked": "The athlete is in excellent ____.",
       "options": [
         "condition-mcq-04",
-        "condition-mcq-03",
-        "condition-mcq-05",
-        "condition-mcq-02",
-        "condition-mcq-06",
-        "condition-mcq-01"
+        "condition-mcq-09",
+        "condition-mcq-08",
+        "condition-mcq-06"
       ],
       "explanation": "本句的「condition」指「影響健康的疾病、病症或身體狀況」。",
       "sentenceIndex": 9,
@@ -516,12 +470,10 @@ export default {
         "condition"
       ],
       "optionReasons": {
-        "condition-mcq-04": "本句指「影響健康的疾病、病症或身體狀況」。",
-        "condition-mcq-03": "「某件事成立、被允許或繼續之前必須符合的要求」是「condition — requirement」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-02": "「影響某件事發生、運作或生存的外在環境與情況」是「conditions — environment/circumstances」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。",
-        "condition-mcq-01": "「某人或某物目前所處的實際狀態，尤其是品質、健康或功能狀況」是「condition — state/quality」的用法，與本句語境不同。"
+        "condition-mcq-04": "本句的「condition」指「影響健康的疾病、病症或身體狀況」。",
+        "condition-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-04"
     },
@@ -533,11 +485,9 @@ export default {
       "masked": "He is not in good enough ____ to compete.",
       "options": [
         "condition-mcq-04",
-        "condition-mcq-03",
-        "condition-mcq-05",
-        "condition-mcq-02",
-        "condition-mcq-06",
-        "condition-mcq-01"
+        "condition-mcq-09",
+        "condition-mcq-08",
+        "condition-mcq-06"
       ],
       "explanation": "本句的「condition」指「影響健康的疾病、病症或身體狀況」。",
       "sentenceIndex": 10,
@@ -546,12 +496,10 @@ export default {
         "condition"
       ],
       "optionReasons": {
-        "condition-mcq-04": "本句指「影響健康的疾病、病症或身體狀況」。",
-        "condition-mcq-03": "「某件事成立、被允許或繼續之前必須符合的要求」是「condition — requirement」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-02": "「影響某件事發生、運作或生存的外在環境與情況」是「conditions — environment/circumstances」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。",
-        "condition-mcq-01": "「某人或某物目前所處的實際狀態，尤其是品質、健康或功能狀況」是「condition — state/quality」的用法，與本句語境不同。"
+        "condition-mcq-04": "本句的「condition」指「影響健康的疾病、病症或身體狀況」。",
+        "condition-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-04"
     },
@@ -563,11 +511,8 @@ export default {
       "masked": "Athletes ____ their bodies through regular training.",
       "options": [
         "condition-mcq-05",
-        "condition-mcq-04",
-        "condition-mcq-06",
-        "condition-mcq-03",
-        "condition-mcq-07",
-        "condition-mcq-02"
+        "condition-mcq-01",
+        "condition-mcq-08"
       ],
       "explanation": "本句的「condition」指「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」。",
       "sentenceIndex": 11,
@@ -576,12 +521,9 @@ export default {
         "condition"
       ],
       "optionReasons": {
-        "condition-mcq-05": "本句指「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。",
-        "condition-mcq-03": "「某件事成立、被允許或繼續之前必須符合的要求」是「condition — requirement」的用法，與本句語境不同。",
-        "condition-mcq-07": "「體能訓練、心理制約或適應過程」是「conditioning」的用法，與本句語境不同。",
-        "condition-mcq-02": "「影響某件事發生、運作或生存的外在環境與情況」是「conditions — environment/circumstances」的用法，與本句語境不同。"
+        "condition-mcq-05": "本句的「condition」指「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」。",
+        "condition-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-05"
     },
@@ -595,9 +537,7 @@ export default {
         "condition-mcq-05",
         "condition-mcq-04",
         "condition-mcq-06",
-        "condition-mcq-03",
-        "condition-mcq-07",
-        "condition-mcq-02"
+        "condition-mcq-08"
       ],
       "explanation": "本句的「conditioned」指「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」。",
       "sentenceIndex": 12,
@@ -606,12 +546,10 @@ export default {
         "conditioned"
       ],
       "optionReasons": {
-        "condition-mcq-05": "本句指「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。",
-        "condition-mcq-03": "「某件事成立、被允許或繼續之前必須符合的要求」是「condition — requirement」的用法，與本句語境不同。",
-        "condition-mcq-07": "「體能訓練、心理制約或適應過程」是「conditioning」的用法，與本句語境不同。",
-        "condition-mcq-02": "「影響某件事發生、運作或生存的外在環境與情況」是「conditions — environment/circumstances」的用法，與本句語境不同。"
+        "condition-mcq-05": "本句的「conditioned」指「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」。",
+        "condition-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-05"
     },
@@ -623,11 +561,9 @@ export default {
       "masked": "The experiment ____ the animals to expect food after the sound.",
       "options": [
         "condition-mcq-09",
-        "condition-mcq-08",
-        "condition-mcq-07",
         "condition-mcq-06",
-        "condition-mcq-05",
-        "condition-mcq-04"
+        "condition-mcq-04",
+        "condition-mcq-08"
       ],
       "explanation": "本句的「conditioned」指「透過反覆刺激、聯結或經驗，使某種反應逐漸被建立」。",
       "sentenceIndex": 13,
@@ -636,12 +572,10 @@ export default {
         "conditioned"
       ],
       "optionReasons": {
-        "condition-mcq-09": "本句指「透過反覆刺激、聯結或經驗，使某種反應逐漸被建立」。",
-        "condition-mcq-08": "「只有某個條件成立時才有效／成立的」是「conditional」的用法，與本句語境不同。",
-        "condition-mcq-07": "「體能訓練、心理制約或適應過程」是「conditioning」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。"
+        "condition-mcq-09": "本句的「conditioned」指「透過反覆刺激、聯結或經驗，使某種反應逐漸被建立」。",
+        "condition-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-09"
     },
@@ -653,11 +587,9 @@ export default {
       "masked": "People can become ____ by repeated messages.",
       "options": [
         "condition-mcq-09",
-        "condition-mcq-08",
-        "condition-mcq-07",
+        "condition-mcq-04",
         "condition-mcq-06",
-        "condition-mcq-05",
-        "condition-mcq-04"
+        "condition-mcq-08"
       ],
       "explanation": "本句的「conditioned」指「透過反覆刺激、聯結或經驗，使某種反應逐漸被建立」。",
       "sentenceIndex": 14,
@@ -666,12 +598,10 @@ export default {
         "conditioned"
       ],
       "optionReasons": {
-        "condition-mcq-09": "本句指「透過反覆刺激、聯結或經驗，使某種反應逐漸被建立」。",
-        "condition-mcq-08": "「只有某個條件成立時才有效／成立的」是「conditional」的用法，與本句語境不同。",
-        "condition-mcq-07": "「體能訓練、心理制約或適應過程」是「conditioning」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。"
+        "condition-mcq-09": "本句的「conditioned」指「透過反覆刺激、聯結或經驗，使某種反應逐漸被建立」。",
+        "condition-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-09"
     },
@@ -684,10 +614,8 @@ export default {
       "options": [
         "condition-mcq-06",
         "condition-mcq-05",
-        "condition-mcq-07",
-        "condition-mcq-04",
         "condition-mcq-08",
-        "condition-mcq-03"
+        "condition-mcq-04"
       ],
       "explanation": "本句的「conditions」指「對頭髮、皮革等進行護理，使其保持良好狀態」。",
       "sentenceIndex": 15,
@@ -696,12 +624,10 @@ export default {
         "conditions"
       ],
       "optionReasons": {
-        "condition-mcq-06": "本句指「對頭髮、皮革等進行護理，使其保持良好狀態」。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-07": "「體能訓練、心理制約或適應過程」是「conditioning」的用法，與本句語境不同。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。",
-        "condition-mcq-08": "「只有某個條件成立時才有效／成立的」是「conditional」的用法，與本句語境不同。",
-        "condition-mcq-03": "「某件事成立、被允許或繼續之前必須符合的要求」是「condition — requirement」的用法，與本句語境不同。"
+        "condition-mcq-06": "本句的「conditions」指「對頭髮、皮革等進行護理，使其保持良好狀態」。",
+        "condition-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-06"
     },
@@ -713,11 +639,9 @@ export default {
       "masked": "The cream helps ____ the leather.",
       "options": [
         "condition-mcq-06",
-        "condition-mcq-05",
-        "condition-mcq-07",
-        "condition-mcq-04",
+        "condition-mcq-09",
         "condition-mcq-08",
-        "condition-mcq-03"
+        "condition-mcq-07"
       ],
       "explanation": "本句的「condition」指「對頭髮、皮革等進行護理，使其保持良好狀態」。",
       "sentenceIndex": 16,
@@ -726,12 +650,10 @@ export default {
         "condition"
       ],
       "optionReasons": {
-        "condition-mcq-06": "本句指「對頭髮、皮革等進行護理，使其保持良好狀態」。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-07": "「體能訓練、心理制約或適應過程」是「conditioning」的用法，與本句語境不同。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。",
-        "condition-mcq-08": "「只有某個條件成立時才有效／成立的」是「conditional」的用法，與本句語境不同。",
-        "condition-mcq-03": "「某件事成立、被允許或繼續之前必須符合的要求」是「condition — requirement」的用法，與本句語境不同。"
+        "condition-mcq-06": "本句的「condition」指「對頭髮、皮革等進行護理，使其保持良好狀態」。",
+        "condition-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-06"
     },
@@ -743,11 +665,9 @@ export default {
       "masked": "The team does strength and ____ every morning.",
       "options": [
         "condition-mcq-07",
-        "condition-mcq-06",
+        "condition-mcq-02",
         "condition-mcq-08",
-        "condition-mcq-05",
-        "condition-mcq-09",
-        "condition-mcq-04"
+        "condition-mcq-01"
       ],
       "explanation": "本句的「conditioning」指「體能訓練、心理制約或適應過程」。",
       "sentenceIndex": 17,
@@ -756,12 +676,10 @@ export default {
         "conditioning"
       ],
       "optionReasons": {
-        "condition-mcq-07": "本句指「體能訓練、心理制約或適應過程」。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。",
-        "condition-mcq-08": "「只有某個條件成立時才有效／成立的」是「conditional」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-09": "「透過反覆刺激、聯結或經驗，使某種反應逐漸被建立」是「7. condition = influence behaviour/thinking through repeated experience（心理） — 制約；使」的用法，與本句語境不同。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。"
+        "condition-mcq-07": "本句的「conditioning」指「體能訓練、心理制約或適應過程」。",
+        "condition-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-07"
     },
@@ -773,11 +691,9 @@ export default {
       "masked": "The lesson introduced classical ____.",
       "options": [
         "condition-mcq-07",
-        "condition-mcq-06",
+        "condition-mcq-01",
         "condition-mcq-08",
-        "condition-mcq-05",
-        "condition-mcq-09",
-        "condition-mcq-04"
+        "condition-mcq-02"
       ],
       "explanation": "本句的「conditioning」指「體能訓練、心理制約或適應過程」。",
       "sentenceIndex": 18,
@@ -786,12 +702,10 @@ export default {
         "conditioning"
       ],
       "optionReasons": {
-        "condition-mcq-07": "本句指「體能訓練、心理制約或適應過程」。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。",
-        "condition-mcq-08": "「只有某個條件成立時才有效／成立的」是「conditional」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-09": "「透過反覆刺激、聯結或經驗，使某種反應逐漸被建立」是「7. condition = influence behaviour/thinking through repeated experience（心理） — 制約；使」的用法，與本句語境不同。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。"
+        "condition-mcq-07": "本句的「conditioning」指「體能訓練、心理制約或適應過程」。",
+        "condition-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-07"
     },
@@ -803,11 +717,9 @@ export default {
       "masked": "The offer is ____ on approval.",
       "options": [
         "condition-mcq-08",
-        "condition-mcq-07",
-        "condition-mcq-09",
+        "condition-mcq-04",
         "condition-mcq-06",
-        "condition-mcq-05",
-        "condition-mcq-04"
+        "condition-mcq-05"
       ],
       "explanation": "本句的「conditional」指「只有某個條件成立時才有效／成立的」。",
       "sentenceIndex": 19,
@@ -816,12 +728,10 @@ export default {
         "conditional"
       ],
       "optionReasons": {
-        "condition-mcq-08": "本句指「只有某個條件成立時才有效／成立的」。",
-        "condition-mcq-07": "「體能訓練、心理制約或適應過程」是「conditioning」的用法，與本句語境不同。",
-        "condition-mcq-09": "「透過反覆刺激、聯結或經驗，使某種反應逐漸被建立」是「7. condition = influence behaviour/thinking through repeated experience（心理） — 制約；使」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。"
+        "condition-mcq-08": "本句的「conditional」指「只有某個條件成立時才有效／成立的」。",
+        "condition-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-08"
     },
@@ -833,11 +743,9 @@ export default {
       "masked": "They received ____ permission.",
       "options": [
         "condition-mcq-08",
-        "condition-mcq-07",
-        "condition-mcq-09",
+        "condition-mcq-04",
         "condition-mcq-06",
-        "condition-mcq-05",
-        "condition-mcq-04"
+        "condition-mcq-05"
       ],
       "explanation": "本句的「conditional」指「只有某個條件成立時才有效／成立的」。",
       "sentenceIndex": 20,
@@ -846,12 +754,10 @@ export default {
         "conditional"
       ],
       "optionReasons": {
-        "condition-mcq-08": "本句指「只有某個條件成立時才有效／成立的」。",
-        "condition-mcq-07": "「體能訓練、心理制約或適應過程」是「conditioning」的用法，與本句語境不同。",
-        "condition-mcq-09": "「透過反覆刺激、聯結或經驗，使某種反應逐漸被建立」是「7. condition = influence behaviour/thinking through repeated experience（心理） — 制約；使」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。"
+        "condition-mcq-08": "本句的「conditional」指「只有某個條件成立時才有效／成立的」。",
+        "condition-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-08"
     },
@@ -863,11 +769,9 @@ export default {
       "masked": "The application was ____ approved.",
       "options": [
         "condition-mcq-08",
-        "condition-mcq-07",
-        "condition-mcq-09",
         "condition-mcq-06",
-        "condition-mcq-05",
-        "condition-mcq-04"
+        "condition-mcq-04",
+        "condition-mcq-05"
       ],
       "explanation": "本句的「conditionally」指「只有某個條件成立時才有效／成立的」。",
       "sentenceIndex": 21,
@@ -876,12 +780,10 @@ export default {
         "conditionally"
       ],
       "optionReasons": {
-        "condition-mcq-08": "本句指「只有某個條件成立時才有效／成立的」。",
-        "condition-mcq-07": "「體能訓練、心理制約或適應過程」是「conditioning」的用法，與本句語境不同。",
-        "condition-mcq-09": "「透過反覆刺激、聯結或經驗，使某種反應逐漸被建立」是「7. condition = influence behaviour/thinking through repeated experience（心理） — 制約；使」的用法，與本句語境不同。",
-        "condition-mcq-06": "「對頭髮、皮革等進行護理，使其保持良好狀態」是「condition — verb, care/treat」的用法，與本句語境不同。",
-        "condition-mcq-05": "「透過訓練、反覆刺激或經驗，使人／動物形成特定適應或反應」是「condition — verb, train/adapt」的用法，與本句語境不同。",
-        "condition-mcq-04": "「影響健康的疾病、病症或身體狀況」是「condition — medical」的用法，與本句語境不同。"
+        "condition-mcq-08": "本句的「conditionally」指「只有某個條件成立時才有效／成立的」。",
+        "condition-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "condition-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "condition-mcq-08"
     }
@@ -893,5 +795,7 @@ export default {
     "sha256": "d97689bf09aa9659fe4f85247ee5490ce2afeb31d160bea25ada3f59433b19de",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -511,16 +511,6 @@ export default {
           "Above the critical point, the distinction between liquid and gas disappears.",
           "超過臨界點後，液體和氣體之間的區別消失。",
           "物質液相和氣相性質界線消失的臨界狀態"
-        ],
-        [
-          "Find the critical points of the function.",
-          "找出這個函數的臨界點。",
-          "物質液相和氣相性質界線消失的臨界狀態"
-        ],
-        [
-          "A critical point occurs where the derivative is zero or undefined.",
-          "當導數為零或不存在時，可能出現臨界點。",
-          "物質液相和氣相性質界線消失的臨界狀態"
         ]
       ],
       "options": [],
@@ -838,6 +828,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "critical-reviewed-c703dcee30",
+      "title": "導數為零或不存在、可能出現極值等重要行為的點",
+      "form": "critical · source section 44",
+      "en": "導數為零或不存在、可能出現極值等重要行為的點",
+      "zh": "導數為零或不存在、可能出現極值等重要行為的點",
+      "note": "對照原始教材第 44 節及例句核實。",
+      "examples": [
+        [
+          "Find the critical points of the function.",
+          "找出這個函數的臨界點。",
+          "導數為零或不存在、可能出現極值等重要行為的點"
+        ],
+        [
+          "A critical point occurs where the derivative is zero or undefined.",
+          "當導數為零或不存在時，可能出現臨界點。",
+          "導數為零或不存在、可能出現極值等重要行為的點"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -849,11 +861,9 @@ export default {
       "masked": "Students need ____ thinking skills.",
       "options": [
         "critical-mcq-01",
-        "critical-mcq-02",
-        "critical-mcq-03",
-        "critical-mcq-04",
-        "critical-mcq-05",
-        "critical-mcq-06"
+        "critical-mcq-35",
+        "critical-mcq-40",
+        "critical-mcq-29"
       ],
       "explanation": "本句的「critical」指「透過分析證據、假設、邏輯及不同觀點作獨立判斷的」。",
       "sentenceIndex": 0,
@@ -862,12 +872,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-01": "本句指「透過分析證據、假設、邏輯及不同觀點作獨立判斷的」。",
-        "critical-mcq-02": "「以分析、質疑和評估方式形成獨立判斷地」與本句語境不同。",
-        "critical-mcq-03": "「系統分析資訊、判斷證據並形成合理結論的思考方式」與本句語境不同。",
-        "critical-mcq-04": "「明確指出某人／某事缺點或問題、帶負面評價的」與本句語境不同。",
-        "critical-mcq-05": "「認為 X 有問題並表達不滿／批評」與本句語境不同。",
-        "critical-mcq-06": "「對結果具有決定性影響、至關重要的」與本句語境不同。"
+        "critical-mcq-01": "本句的「critical」指「透過分析證據、假設、邏輯及不同觀點作獨立判斷的」。",
+        "critical-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-01"
     },
@@ -879,11 +887,9 @@ export default {
       "masked": "She took a ____ approach to the information online.",
       "options": [
         "critical-mcq-01",
-        "critical-mcq-02",
-        "critical-mcq-03",
-        "critical-mcq-04",
-        "critical-mcq-05",
-        "critical-mcq-06"
+        "critical-mcq-31",
+        "critical-mcq-08",
+        "critical-mcq-33"
       ],
       "explanation": "本句的「critical」指「透過分析證據、假設、邏輯及不同觀點作獨立判斷的」。",
       "sentenceIndex": 1,
@@ -892,12 +898,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-01": "本句指「透過分析證據、假設、邏輯及不同觀點作獨立判斷的」。",
-        "critical-mcq-02": "「以分析、質疑和評估方式形成獨立判斷地」與本句語境不同。",
-        "critical-mcq-03": "「系統分析資訊、判斷證據並形成合理結論的思考方式」與本句語境不同。",
-        "critical-mcq-04": "「明確指出某人／某事缺點或問題、帶負面評價的」與本句語境不同。",
-        "critical-mcq-05": "「認為 X 有問題並表達不滿／批評」與本句語境不同。",
-        "critical-mcq-06": "「對結果具有決定性影響、至關重要的」與本句語境不同。"
+        "critical-mcq-01": "本句的「critical」指「透過分析證據、假設、邏輯及不同觀點作獨立判斷的」。",
+        "critical-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-01"
     },
@@ -909,11 +913,9 @@ export default {
       "masked": "The course develops ____.",
       "options": [
         "critical-mcq-03",
-        "critical-mcq-02",
-        "critical-mcq-04",
-        "critical-mcq-01",
-        "critical-mcq-05",
-        "critical-mcq-06"
+        "critical-pdf-001",
+        "critical-mcq-21",
+        "critical-mcq-29"
       ],
       "explanation": "本句的「critical thinking」指「系統分析資訊、判斷證據並形成合理結論的思考方式」。",
       "sentenceIndex": 4,
@@ -922,12 +924,10 @@ export default {
         "critical thinking"
       ],
       "optionReasons": {
-        "critical-mcq-03": "本句指「系統分析資訊、判斷證據並形成合理結論的思考方式」。",
-        "critical-mcq-02": "「以分析、質疑和評估方式形成獨立判斷地」與本句語境不同。",
-        "critical-mcq-04": "「明確指出某人／某事缺點或問題、帶負面評價的」與本句語境不同。",
-        "critical-mcq-01": "「透過分析證據、假設、邏輯及不同觀點作獨立判斷的」與本句語境不同。",
-        "critical-mcq-05": "「認為 X 有問題並表達不滿／批評」與本句語境不同。",
-        "critical-mcq-06": "「對結果具有決定性影響、至關重要的」與本句語境不同。"
+        "critical-mcq-03": "本句的「critical thinking」指「系統分析資訊、判斷證據並形成合理結論的思考方式」。",
+        "critical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-03"
     },
@@ -939,11 +939,9 @@ export default {
       "masked": "____ thinking involves evaluating evidence.",
       "options": [
         "critical-mcq-03",
-        "critical-mcq-02",
-        "critical-mcq-04",
-        "critical-mcq-01",
-        "critical-mcq-05",
-        "critical-mcq-06"
+        "critical-mcq-27",
+        "critical-mcq-18",
+        "critical-mcq-23"
       ],
       "explanation": "本句的「Critical」指「系統分析資訊、判斷證據並形成合理結論的思考方式」。",
       "sentenceIndex": 5,
@@ -952,12 +950,10 @@ export default {
         "Critical"
       ],
       "optionReasons": {
-        "critical-mcq-03": "本句指「系統分析資訊、判斷證據並形成合理結論的思考方式」。",
-        "critical-mcq-02": "「以分析、質疑和評估方式形成獨立判斷地」與本句語境不同。",
-        "critical-mcq-04": "「明確指出某人／某事缺點或問題、帶負面評價的」與本句語境不同。",
-        "critical-mcq-01": "「透過分析證據、假設、邏輯及不同觀點作獨立判斷的」與本句語境不同。",
-        "critical-mcq-05": "「認為 X 有問題並表達不滿／批評」與本句語境不同。",
-        "critical-mcq-06": "「對結果具有決定性影響、至關重要的」與本句語境不同。"
+        "critical-mcq-03": "本句的「Critical」指「系統分析資訊、判斷證據並形成合理結論的思考方式」。",
+        "critical-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-03"
     },
@@ -969,11 +965,9 @@ export default {
       "masked": "Timing is ____.",
       "options": [
         "critical-mcq-39",
-        "critical-mcq-38",
-        "critical-mcq-40",
-        "critical-mcq-37",
-        "critical-mcq-36",
-        "critical-mcq-35"
+        "critical-mcq-29",
+        "critical-mcq-01",
+        "critical-mcq-10"
       ],
       "explanation": "本句的「critical」指「重要程度極高、至關重要」。",
       "sentenceIndex": 18,
@@ -982,12 +976,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-39": "本句指「重要程度極高、至關重要」。",
-        "critical-mcq-38": "「已嚴重到造成重大風險／問題的短缺」與本句語境不同。",
-        "critical-mcq-40": "「低到已造成危險／嚴重問題的程度」與本句語境不同。",
-        "critical-mcq-37": "「以分析或挑剔方式審視事物的眼光」與本句語境不同。",
-        "critical-mcq-36": "「研究並批判社會、文化及權力結構的理論傳統」與本句語境不同。",
-        "critical-mcq-35": "「某結果／發展對時間特別敏感的關鍵時段」與本句語境不同。"
+        "critical-mcq-39": "本句的「critical」指「重要程度極高、至關重要」。",
+        "critical-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-39"
     },
@@ -999,11 +991,9 @@ export default {
       "masked": "Trust is ____ to a successful relationship.",
       "options": [
         "critical-mcq-39",
-        "critical-mcq-38",
-        "critical-mcq-40",
-        "critical-mcq-37",
-        "critical-mcq-36",
-        "critical-mcq-35"
+        "critical-mcq-29",
+        "critical-mcq-01",
+        "critical-mcq-10"
       ],
       "explanation": "本句的「critical」指「重要程度極高、至關重要」。",
       "sentenceIndex": 19,
@@ -1012,12 +1002,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-39": "本句指「重要程度極高、至關重要」。",
-        "critical-mcq-38": "「已嚴重到造成重大風險／問題的短缺」與本句語境不同。",
-        "critical-mcq-40": "「低到已造成危險／嚴重問題的程度」與本句語境不同。",
-        "critical-mcq-37": "「以分析或挑剔方式審視事物的眼光」與本句語境不同。",
-        "critical-mcq-36": "「研究並批判社會、文化及權力結構的理論傳統」與本句語境不同。",
-        "critical-mcq-35": "「某結果／發展對時間特別敏感的關鍵時段」與本句語境不同。"
+        "critical-mcq-39": "本句的「critical」指「重要程度極高、至關重要」。",
+        "critical-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-39"
     },
@@ -1029,11 +1017,9 @@ export default {
       "masked": "Customer trust is a ____.",
       "options": [
         "critical-mcq-07",
-        "critical-mcq-06",
-        "critical-mcq-08",
-        "critical-mcq-05",
-        "critical-mcq-09",
-        "critical-mcq-04"
+        "critical-mcq-18",
+        "critical-mcq-29",
+        "critical-mcq-14"
       ],
       "explanation": "本句的「critical factor」指「對結果起決定作用的重要因素」。",
       "sentenceIndex": 22,
@@ -1042,12 +1028,10 @@ export default {
         "critical factor"
       ],
       "optionReasons": {
-        "critical-mcq-07": "本句指「對結果起決定作用的重要因素」。",
-        "critical-mcq-06": "「對結果具有決定性影響、至關重要的」與本句語境不同。",
-        "critical-mcq-08": "「結果可能因此發生重大變化的關鍵階段／時刻」與本句語境不同。",
-        "critical-mcq-05": "「認為 X 有問題並表達不滿／批評」與本句語境不同。",
-        "critical-mcq-09": "「情況極嚴重並可能危及生命的」與本句語境不同。",
-        "critical-mcq-04": "「明確指出某人／某事缺點或問題、帶負面評價的」與本句語境不同。"
+        "critical-mcq-07": "本句的「critical factor」指「對結果起決定作用的重要因素」。",
+        "critical-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-07"
     },
@@ -1059,11 +1043,9 @@ export default {
       "masked": "Cost is a ____ factor in the decision.",
       "options": [
         "critical-mcq-07",
-        "critical-mcq-06",
-        "critical-mcq-08",
-        "critical-mcq-05",
-        "critical-mcq-09",
-        "critical-mcq-04"
+        "critical-pdf-001",
+        "critical-mcq-10",
+        "critical-mcq-37"
       ],
       "explanation": "本句的「critical」指「對結果起決定作用的重要因素」。",
       "sentenceIndex": 23,
@@ -1072,12 +1054,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-07": "本句指「對結果起決定作用的重要因素」。",
-        "critical-mcq-06": "「對結果具有決定性影響、至關重要的」與本句語境不同。",
-        "critical-mcq-08": "「結果可能因此發生重大變化的關鍵階段／時刻」與本句語境不同。",
-        "critical-mcq-05": "「認為 X 有問題並表達不滿／批評」與本句語境不同。",
-        "critical-mcq-09": "「情況極嚴重並可能危及生命的」與本句語境不同。",
-        "critical-mcq-04": "「明確指出某人／某事缺點或問題、帶負面評價的」與本句語境不同。"
+        "critical-mcq-07": "本句的「critical」指「對結果起決定作用的重要因素」。",
+        "critical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-07"
     },
@@ -1089,11 +1069,9 @@ export default {
       "masked": "The project has entered a ____.",
       "options": [
         "critical-mcq-08",
-        "critical-mcq-07",
-        "critical-mcq-09",
-        "critical-mcq-06",
-        "critical-mcq-10",
-        "critical-mcq-05"
+        "critical-mcq-15",
+        "critical-mcq-27",
+        "critical-mcq-01"
       ],
       "explanation": "本句的「critical stage」指「結果可能因此發生重大變化的關鍵階段／時刻」。",
       "sentenceIndex": 26,
@@ -1102,12 +1080,10 @@ export default {
         "critical stage"
       ],
       "optionReasons": {
-        "critical-mcq-08": "本句指「結果可能因此發生重大變化的關鍵階段／時刻」。",
-        "critical-mcq-07": "「對結果起決定作用的重要因素」與本句語境不同。",
-        "critical-mcq-09": "「情況極嚴重並可能危及生命的」與本句語境不同。",
-        "critical-mcq-06": "「對結果具有決定性影響、至關重要的」與本句語境不同。",
-        "critical-mcq-10": "「病情／傷勢處於危急、生命可能有危險的狀態」與本句語境不同。",
-        "critical-mcq-05": "「認為 X 有問題並表達不滿／批評」與本句語境不同。"
+        "critical-mcq-08": "本句的「critical stage」指「結果可能因此發生重大變化的關鍵階段／時刻」。",
+        "critical-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-08"
     },
@@ -1119,11 +1095,9 @@ export default {
       "masked": "Early childhood is a ____ stage of development.",
       "options": [
         "critical-mcq-08",
-        "critical-mcq-07",
-        "critical-mcq-09",
-        "critical-mcq-06",
-        "critical-mcq-10",
-        "critical-mcq-05"
+        "critical-mcq-31",
+        "critical-mcq-14",
+        "critical-mcq-20"
       ],
       "explanation": "本句的「critical」指「結果可能因此發生重大變化的關鍵階段／時刻」。",
       "sentenceIndex": 27,
@@ -1132,12 +1106,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-08": "本句指「結果可能因此發生重大變化的關鍵階段／時刻」。",
-        "critical-mcq-07": "「對結果起決定作用的重要因素」與本句語境不同。",
-        "critical-mcq-09": "「情況極嚴重並可能危及生命的」與本句語境不同。",
-        "critical-mcq-06": "「對結果具有決定性影響、至關重要的」與本句語境不同。",
-        "critical-mcq-10": "「病情／傷勢處於危急、生命可能有危險的狀態」與本句語境不同。",
-        "critical-mcq-05": "「認為 X 有問題並表達不滿／批評」與本句語境不同。"
+        "critical-mcq-08": "本句的「critical」指「結果可能因此發生重大變化的關鍵階段／時刻」。",
+        "critical-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-08"
     },
@@ -1149,11 +1121,9 @@ export default {
       "masked": "He was taken to hospital in ____.",
       "options": [
         "critical-mcq-10",
-        "critical-mcq-09",
-        "critical-mcq-11",
-        "critical-mcq-08",
-        "critical-mcq-12",
-        "critical-mcq-07"
+        "critical-mcq-01",
+        "critical-mcq-07",
+        "critical-pdf-001"
       ],
       "explanation": "本句的「critical condition」指「病情／傷勢處於危急、生命可能有危險的狀態」。",
       "sentenceIndex": 32,
@@ -1162,12 +1132,10 @@ export default {
         "critical condition"
       ],
       "optionReasons": {
-        "critical-mcq-10": "本句指「病情／傷勢處於危急、生命可能有危險的狀態」。",
-        "critical-mcq-09": "「情況極嚴重並可能危及生命的」與本句語境不同。",
-        "critical-mcq-11": "「病情／傷勢危重」與本句語境不同。",
-        "critical-mcq-08": "「結果可能因此發生重大變化的關鍵階段／時刻」與本句語境不同。",
-        "critical-mcq-12": "「為危重患者提供的密集醫療照護」與本句語境不同。",
-        "critical-mcq-07": "「對結果起決定作用的重要因素」與本句語境不同。"
+        "critical-mcq-10": "本句的「critical condition」指「病情／傷勢處於危急、生命可能有危險的狀態」。",
+        "critical-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "critical-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-10"
     },
@@ -1179,11 +1147,9 @@ export default {
       "masked": "Her condition remains ____.",
       "options": [
         "critical-mcq-10",
-        "critical-mcq-09",
-        "critical-mcq-11",
-        "critical-mcq-08",
-        "critical-mcq-12",
-        "critical-mcq-07"
+        "critical-mcq-18",
+        "critical-mcq-39",
+        "critical-mcq-37"
       ],
       "explanation": "本句的「critical」指「病情／傷勢處於危急、生命可能有危險的狀態」。",
       "sentenceIndex": 33,
@@ -1192,12 +1158,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-10": "本句指「病情／傷勢處於危急、生命可能有危險的狀態」。",
-        "critical-mcq-09": "「情況極嚴重並可能危及生命的」與本句語境不同。",
-        "critical-mcq-11": "「病情／傷勢危重」與本句語境不同。",
-        "critical-mcq-08": "「結果可能因此發生重大變化的關鍵階段／時刻」與本句語境不同。",
-        "critical-mcq-12": "「為危重患者提供的密集醫療照護」與本句語境不同。",
-        "critical-mcq-07": "「對結果起決定作用的重要因素」與本句語境不同。"
+        "critical-mcq-10": "本句的「critical」指「病情／傷勢處於危急、生命可能有危險的狀態」。",
+        "critical-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-10"
     },
@@ -1209,11 +1173,9 @@ export default {
       "masked": "The patient is ____.",
       "options": [
         "critical-mcq-11",
-        "critical-mcq-10",
-        "critical-mcq-12",
-        "critical-mcq-09",
-        "critical-mcq-13",
-        "critical-mcq-08"
+        "critical-mcq-37",
+        "critical-mcq-32",
+        "critical-mcq-30"
       ],
       "explanation": "本句的「critically ill」指「病情／傷勢危重」。",
       "sentenceIndex": 34,
@@ -1222,12 +1184,10 @@ export default {
         "critically ill"
       ],
       "optionReasons": {
-        "critical-mcq-11": "本句指「病情／傷勢危重」。",
-        "critical-mcq-10": "「病情／傷勢處於危急、生命可能有危險的狀態」與本句語境不同。",
-        "critical-mcq-12": "「為危重患者提供的密集醫療照護」與本句語境不同。",
-        "critical-mcq-09": "「情況極嚴重並可能危及生命的」與本句語境不同。",
-        "critical-mcq-13": "「與專業評論家及其評價有關的」與本句語境不同。",
-        "critical-mcq-08": "「結果可能因此發生重大變化的關鍵階段／時刻」與本句語境不同。"
+        "critical-mcq-11": "本句的「critically ill」指「病情／傷勢危重」。",
+        "critical-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-11"
     },
@@ -1239,11 +1199,9 @@ export default {
       "masked": "____ ill patients require intensive monitoring.",
       "options": [
         "critical-mcq-11",
-        "critical-mcq-10",
-        "critical-mcq-12",
-        "critical-mcq-09",
-        "critical-mcq-13",
-        "critical-mcq-08"
+        "critical-mcq-30",
+        "critical-mcq-16",
+        "critical-mcq-18"
       ],
       "explanation": "本句的「Critically」指「病情／傷勢危重」。",
       "sentenceIndex": 35,
@@ -1252,12 +1210,10 @@ export default {
         "Critically"
       ],
       "optionReasons": {
-        "critical-mcq-11": "本句指「病情／傷勢危重」。",
-        "critical-mcq-10": "「病情／傷勢處於危急、生命可能有危險的狀態」與本句語境不同。",
-        "critical-mcq-12": "「為危重患者提供的密集醫療照護」與本句語境不同。",
-        "critical-mcq-09": "「情況極嚴重並可能危及生命的」與本句語境不同。",
-        "critical-mcq-13": "「與專業評論家及其評價有關的」與本句語境不同。",
-        "critical-mcq-08": "「結果可能因此發生重大變化的關鍵階段／時刻」與本句語境不同。"
+        "critical-mcq-11": "本句的「Critically」指「病情／傷勢危重」。",
+        "critical-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-11"
     },
@@ -1269,11 +1225,9 @@ export default {
       "masked": "Three passengers were ____.",
       "options": [
         "critical-mcq-11",
-        "critical-mcq-10",
-        "critical-mcq-12",
-        "critical-mcq-09",
-        "critical-mcq-13",
-        "critical-mcq-08"
+        "critical-mcq-14",
+        "critical-mcq-31",
+        "critical-mcq-18"
       ],
       "explanation": "本句的「critically injured」指「病情／傷勢危重」。",
       "sentenceIndex": 36,
@@ -1282,12 +1236,10 @@ export default {
         "critically injured"
       ],
       "optionReasons": {
-        "critical-mcq-11": "本句指「病情／傷勢危重」。",
-        "critical-mcq-10": "「病情／傷勢處於危急、生命可能有危險的狀態」與本句語境不同。",
-        "critical-mcq-12": "「為危重患者提供的密集醫療照護」與本句語境不同。",
-        "critical-mcq-09": "「情況極嚴重並可能危及生命的」與本句語境不同。",
-        "critical-mcq-13": "「與專業評論家及其評價有關的」與本句語境不同。",
-        "critical-mcq-08": "「結果可能因此發生重大變化的關鍵階段／時刻」與本句語境不同。"
+        "critical-mcq-11": "本句的「critically injured」指「病情／傷勢危重」。",
+        "critical-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-11"
     },
@@ -1299,11 +1251,9 @@ export default {
       "masked": "He was ____ injured in the accident.",
       "options": [
         "critical-mcq-11",
-        "critical-mcq-10",
-        "critical-mcq-12",
-        "critical-mcq-09",
-        "critical-mcq-13",
-        "critical-mcq-08"
+        "critical-mcq-24",
+        "critical-mcq-27",
+        "critical-mcq-15"
       ],
       "explanation": "本句的「critically」指「病情／傷勢危重」。",
       "sentenceIndex": 37,
@@ -1312,12 +1262,10 @@ export default {
         "critically"
       ],
       "optionReasons": {
-        "critical-mcq-11": "本句指「病情／傷勢危重」。",
-        "critical-mcq-10": "「病情／傷勢處於危急、生命可能有危險的狀態」與本句語境不同。",
-        "critical-mcq-12": "「為危重患者提供的密集醫療照護」與本句語境不同。",
-        "critical-mcq-09": "「情況極嚴重並可能危及生命的」與本句語境不同。",
-        "critical-mcq-13": "「與專業評論家及其評價有關的」與本句語境不同。",
-        "critical-mcq-08": "「結果可能因此發生重大變化的關鍵階段／時刻」與本句語境不同。"
+        "critical-mcq-11": "本句的「critically」指「病情／傷勢危重」。",
+        "critical-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-11"
     },
@@ -1329,11 +1277,9 @@ export default {
       "masked": "She works in ____.",
       "options": [
         "critical-mcq-12",
-        "critical-mcq-11",
-        "critical-mcq-13",
-        "critical-mcq-10",
-        "critical-mcq-14",
-        "critical-mcq-09"
+        "critical-mcq-35",
+        "critical-mcq-31",
+        "critical-mcq-37"
       ],
       "explanation": "本句的「critical care」指「為危重患者提供的密集醫療照護」。",
       "sentenceIndex": 38,
@@ -1342,12 +1288,10 @@ export default {
         "critical care"
       ],
       "optionReasons": {
-        "critical-mcq-12": "本句指「為危重患者提供的密集醫療照護」。",
-        "critical-mcq-11": "「病情／傷勢危重」與本句語境不同。",
-        "critical-mcq-13": "「與專業評論家及其評價有關的」與本句語境不同。",
-        "critical-mcq-10": "「病情／傷勢處於危急、生命可能有危險的狀態」與本句語境不同。",
-        "critical-mcq-14": "「專業評論界給予的高度讚譽」與本句語境不同。",
-        "critical-mcq-09": "「情況極嚴重並可能危及生命的」與本句語境不同。"
+        "critical-mcq-12": "本句的「critical care」指「為危重患者提供的密集醫療照護」。",
+        "critical-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-12"
     },
@@ -1359,11 +1303,9 @@ export default {
       "masked": "____ care patients require constant observation.",
       "options": [
         "critical-mcq-12",
-        "critical-mcq-11",
-        "critical-mcq-13",
-        "critical-mcq-10",
-        "critical-mcq-14",
-        "critical-mcq-09"
+        "critical-mcq-28",
+        "critical-mcq-31",
+        "critical-mcq-18"
       ],
       "explanation": "本句的「Critical」指「為危重患者提供的密集醫療照護」。",
       "sentenceIndex": 39,
@@ -1372,12 +1314,10 @@ export default {
         "Critical"
       ],
       "optionReasons": {
-        "critical-mcq-12": "本句指「為危重患者提供的密集醫療照護」。",
-        "critical-mcq-11": "「病情／傷勢危重」與本句語境不同。",
-        "critical-mcq-13": "「與專業評論家及其評價有關的」與本句語境不同。",
-        "critical-mcq-10": "「病情／傷勢處於危急、生命可能有危險的狀態」與本句語境不同。",
-        "critical-mcq-14": "「專業評論界給予的高度讚譽」與本句語境不同。",
-        "critical-mcq-09": "「情況極嚴重並可能危及生命的」與本句語境不同。"
+        "critical-mcq-12": "本句的「Critical」指「為危重患者提供的密集醫療照護」。",
+        "critical-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-12"
     },
@@ -1389,11 +1329,9 @@ export default {
       "masked": "He was moved to the ____.",
       "options": [
         "critical-mcq-12",
-        "critical-mcq-11",
-        "critical-mcq-13",
-        "critical-mcq-10",
-        "critical-mcq-14",
-        "critical-mcq-09"
+        "critical-pdf-001",
+        "critical-mcq-19",
+        "critical-mcq-31"
       ],
       "explanation": "本句的「critical care unit」指「為危重患者提供的密集醫療照護」。",
       "sentenceIndex": 40,
@@ -1402,12 +1340,10 @@ export default {
         "critical care unit"
       ],
       "optionReasons": {
-        "critical-mcq-12": "本句指「為危重患者提供的密集醫療照護」。",
-        "critical-mcq-11": "「病情／傷勢危重」與本句語境不同。",
-        "critical-mcq-13": "「與專業評論家及其評價有關的」與本句語境不同。",
-        "critical-mcq-10": "「病情／傷勢處於危急、生命可能有危險的狀態」與本句語境不同。",
-        "critical-mcq-14": "「專業評論界給予的高度讚譽」與本句語境不同。",
-        "critical-mcq-09": "「情況極嚴重並可能危及生命的」與本句語境不同。"
+        "critical-mcq-12": "本句的「critical care unit」指「為危重患者提供的密集醫療照護」。",
+        "critical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-12"
     },
@@ -1419,11 +1355,9 @@ export default {
       "masked": "The hospital expanded its ____ care unit.",
       "options": [
         "critical-mcq-12",
-        "critical-mcq-11",
-        "critical-mcq-13",
-        "critical-mcq-10",
-        "critical-mcq-14",
-        "critical-mcq-09"
+        "critical-pdf-001",
+        "critical-mcq-24",
+        "critical-mcq-30"
       ],
       "explanation": "本句的「critical」指「為危重患者提供的密集醫療照護」。",
       "sentenceIndex": 41,
@@ -1432,12 +1366,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-12": "本句指「為危重患者提供的密集醫療照護」。",
-        "critical-mcq-11": "「病情／傷勢危重」與本句語境不同。",
-        "critical-mcq-13": "「與專業評論家及其評價有關的」與本句語境不同。",
-        "critical-mcq-10": "「病情／傷勢處於危急、生命可能有危險的狀態」與本句語境不同。",
-        "critical-mcq-14": "「專業評論界給予的高度讚譽」與本句語境不同。",
-        "critical-mcq-09": "「情況極嚴重並可能危及生命的」與本句語境不同。"
+        "critical-mcq-12": "本句的「critical」指「為危重患者提供的密集醫療照護」。",
+        "critical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-12"
     },
@@ -1449,11 +1381,9 @@ export default {
       "masked": "The album received widespread ____.",
       "options": [
         "critical-mcq-14",
-        "critical-mcq-13",
-        "critical-mcq-15",
-        "critical-mcq-12",
-        "critical-mcq-16",
-        "critical-mcq-11"
+        "critical-mcq-34",
+        "critical-mcq-01",
+        "critical-mcq-31"
       ],
       "explanation": "本句的「critical acclaim」指「專業評論界給予的高度讚譽」。",
       "sentenceIndex": 44,
@@ -1462,12 +1392,10 @@ export default {
         "critical acclaim"
       ],
       "optionReasons": {
-        "critical-mcq-14": "本句指「專業評論界給予的高度讚譽」。",
-        "critical-mcq-13": "「與專業評論家及其評價有關的」與本句語境不同。",
-        "critical-mcq-15": "「在評論界獲得高度肯定的成功」與本句語境不同。",
-        "critical-mcq-12": "「為危重患者提供的密集醫療照護」與本句語境不同。",
-        "critical-mcq-16": "「專門分析、評論藝術／媒體作品的人」與本句語境不同。",
-        "critical-mcq-11": "「病情／傷勢危重」與本句語境不同。"
+        "critical-mcq-14": "本句的「critical acclaim」指「專業評論界給予的高度讚譽」。",
+        "critical-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-14"
     },
@@ -1479,11 +1407,9 @@ export default {
       "masked": "The performance won ____ acclaim.",
       "options": [
         "critical-mcq-14",
-        "critical-mcq-13",
-        "critical-mcq-15",
-        "critical-mcq-12",
-        "critical-mcq-16",
-        "critical-mcq-11"
+        "critical-mcq-31",
+        "critical-mcq-11",
+        "critical-pdf-001"
       ],
       "explanation": "本句的「critical」指「專業評論界給予的高度讚譽」。",
       "sentenceIndex": 45,
@@ -1492,12 +1418,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-14": "本句指「專業評論界給予的高度讚譽」。",
-        "critical-mcq-13": "「與專業評論家及其評價有關的」與本句語境不同。",
-        "critical-mcq-15": "「在評論界獲得高度肯定的成功」與本句語境不同。",
-        "critical-mcq-12": "「為危重患者提供的密集醫療照護」與本句語境不同。",
-        "critical-mcq-16": "「專門分析、評論藝術／媒體作品的人」與本句語境不同。",
-        "critical-mcq-11": "「病情／傷勢危重」與本句語境不同。"
+        "critical-mcq-14": "本句的「critical」指「專業評論界給予的高度讚譽」。",
+        "critical-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "critical-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-14"
     },
@@ -1509,11 +1433,9 @@ export default {
       "masked": "The film was a ____ but not a commercial one.",
       "options": [
         "critical-mcq-15",
-        "critical-mcq-14",
-        "critical-mcq-16",
-        "critical-mcq-13",
-        "critical-mcq-17",
-        "critical-mcq-12"
+        "critical-mcq-31",
+        "critical-mcq-37",
+        "critical-mcq-08"
       ],
       "explanation": "本句的「critical success」指「在評論界獲得高度肯定的成功」。",
       "sentenceIndex": 46,
@@ -1522,12 +1444,10 @@ export default {
         "critical success"
       ],
       "optionReasons": {
-        "critical-mcq-15": "本句指「在評論界獲得高度肯定的成功」。",
-        "critical-mcq-14": "「專業評論界給予的高度讚譽」與本句語境不同。",
-        "critical-mcq-16": "「專門分析、評論藝術／媒體作品的人」與本句語境不同。",
-        "critical-mcq-13": "「與專業評論家及其評價有關的」與本句語境不同。",
-        "critical-mcq-17": "「公開指出某人／制度問題的批評者」與本句語境不同。",
-        "critical-mcq-12": "「為危重患者提供的密集醫療照護」與本句語境不同。"
+        "critical-mcq-15": "本句的「critical success」指「在評論界獲得高度肯定的成功」。",
+        "critical-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-15"
     },
@@ -1539,11 +1459,9 @@ export default {
       "masked": "The novel became a ____ success.",
       "options": [
         "critical-mcq-15",
-        "critical-mcq-14",
-        "critical-mcq-16",
-        "critical-mcq-13",
-        "critical-mcq-17",
-        "critical-mcq-12"
+        "critical-mcq-21",
+        "critical-mcq-01",
+        "critical-mcq-29"
       ],
       "explanation": "本句的「critical」指「在評論界獲得高度肯定的成功」。",
       "sentenceIndex": 47,
@@ -1552,12 +1470,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-15": "本句指「在評論界獲得高度肯定的成功」。",
-        "critical-mcq-14": "「專業評論界給予的高度讚譽」與本句語境不同。",
-        "critical-mcq-16": "「專門分析、評論藝術／媒體作品的人」與本句語境不同。",
-        "critical-mcq-13": "「與專業評論家及其評價有關的」與本句語境不同。",
-        "critical-mcq-17": "「公開指出某人／制度問題的批評者」與本句語境不同。",
-        "critical-mcq-12": "「為危重患者提供的密集醫療照護」與本句語境不同。"
+        "critical-mcq-15": "本句的「critical」指「在評論界獲得高度肯定的成功」。",
+        "critical-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-15"
     },
@@ -1569,11 +1485,9 @@ export default {
       "masked": "Film ____ praised the performance.",
       "options": [
         "critical-mcq-16",
-        "critical-mcq-15",
-        "critical-mcq-17",
-        "critical-mcq-14",
-        "critical-mcq-18",
-        "critical-mcq-13"
+        "critical-mcq-29",
+        "critical-mcq-08",
+        "critical-mcq-33"
       ],
       "explanation": "本句的「critics」指「專門分析、評論藝術／媒體作品的人」。",
       "sentenceIndex": 50,
@@ -1582,12 +1496,10 @@ export default {
         "critics"
       ],
       "optionReasons": {
-        "critical-mcq-16": "本句指「專門分析、評論藝術／媒體作品的人」。",
-        "critical-mcq-15": "「在評論界獲得高度肯定的成功」與本句語境不同。",
-        "critical-mcq-17": "「公開指出某人／制度問題的批評者」與本句語境不同。",
-        "critical-mcq-14": "「專業評論界給予的高度讚譽」與本句語境不同。",
-        "critical-mcq-18": "「對錯誤、問題或缺點作出的負面評價」與本句語境不同。",
-        "critical-mcq-13": "「與專業評論家及其評價有關的」與本句語境不同。"
+        "critical-mcq-16": "本句的「critics」指「專門分析、評論藝術／媒體作品的人」。",
+        "critical-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-16"
     },
@@ -1599,11 +1511,9 @@ export default {
       "masked": "He is a strong ____ of the policy.",
       "options": [
         "critical-pdf-001",
-        "critical-mcq-15",
-        "critical-mcq-17",
-        "critical-mcq-14",
-        "critical-mcq-18",
-        "critical-mcq-13"
+        "critical-mcq-11",
+        "critical-mcq-01",
+        "critical-mcq-31"
       ],
       "explanation": "本句的「critic」指「經常或公開指出某人／事物問題的人」。",
       "sentenceIndex": 51,
@@ -1612,12 +1522,10 @@ export default {
         "critic"
       ],
       "optionReasons": {
-        "critical-pdf-001": "本句指「經常或公開指出某人／事物問題的人」。",
-        "critical-mcq-15": "「在評論界獲得高度肯定的成功」與本句語境不同。",
-        "critical-mcq-17": "「公開指出某人／制度問題的批評者」與本句語境不同。",
-        "critical-mcq-14": "「專業評論界給予的高度讚譽」與本句語境不同。",
-        "critical-mcq-18": "「對錯誤、問題或缺點作出的負面評價」與本句語境不同。",
-        "critical-mcq-13": "「與專業評論家及其評價有關的」與本句語境不同。"
+        "critical-pdf-001": "本句的「critic」指「經常或公開指出某人／事物問題的人」。",
+        "critical-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-pdf-001"
     },
@@ -1629,11 +1537,9 @@ export default {
       "masked": "The video attracted some harsh ____.",
       "options": [
         "critical-mcq-18",
-        "critical-mcq-17",
-        "critical-mcq-19",
-        "critical-mcq-16",
-        "critical-mcq-20",
-        "critical-mcq-15"
+        "critical-mcq-32",
+        "critical-mcq-07",
+        "critical-mcq-29"
       ],
       "explanation": "本句的「criticism」指「對錯誤、問題或缺點作出的負面評價」。",
       "sentenceIndex": 52,
@@ -1642,12 +1548,10 @@ export default {
         "criticism"
       ],
       "optionReasons": {
-        "critical-mcq-18": "本句指「對錯誤、問題或缺點作出的負面評價」。",
-        "critical-mcq-17": "「公開指出某人／制度問題的批評者」與本句語境不同。",
-        "critical-mcq-19": "「對文學、藝術等進行系統分析和評論的研究」與本句語境不同。",
-        "critical-mcq-16": "「專門分析、評論藝術／媒體作品的人」與本句語境不同。",
-        "critical-mcq-20": "「有系統地分析和評價優點、缺點、假設和論據」與本句語境不同。",
-        "critical-mcq-15": "「在評論界獲得高度肯定的成功」與本句語境不同。"
+        "critical-mcq-18": "本句的「criticism」指「對錯誤、問題或缺點作出的負面評價」。",
+        "critical-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-18"
     },
@@ -1659,11 +1563,9 @@ export default {
       "masked": "Literary ____ examines how texts work.",
       "options": [
         "critical-mcq-19",
-        "critical-mcq-18",
-        "critical-mcq-20",
-        "critical-mcq-17",
-        "critical-mcq-21",
-        "critical-mcq-16"
+        "critical-mcq-10",
+        "critical-mcq-12",
+        "critical-mcq-23"
       ],
       "explanation": "本句的「criticism」指「對文學、藝術等進行系統分析和評論的研究」。",
       "sentenceIndex": 53,
@@ -1672,12 +1574,10 @@ export default {
         "criticism"
       ],
       "optionReasons": {
-        "critical-mcq-19": "本句指「對文學、藝術等進行系統分析和評論的研究」。",
-        "critical-mcq-18": "「對錯誤、問題或缺點作出的負面評價」與本句語境不同。",
-        "critical-mcq-20": "「有系統地分析和評價優點、缺點、假設和論據」與本句語境不同。",
-        "critical-mcq-17": "「公開指出某人／制度問題的批評者」與本句語境不同。",
-        "critical-mcq-21": "「對核心任務不可或缺、失效會嚴重影響運作的」與本句語境不同。",
-        "critical-mcq-16": "「專門分析、評論藝術／媒體作品的人」與本句語境不同。"
+        "critical-mcq-19": "本句的「criticism」指「對文學、藝術等進行系統分析和評論的研究」。",
+        "critical-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-19"
     },
@@ -1689,11 +1589,9 @@ export default {
       "masked": "The essay offers a ____ of social media culture.",
       "options": [
         "critical-mcq-20",
-        "critical-mcq-19",
-        "critical-mcq-21",
-        "critical-mcq-18",
-        "critical-mcq-22",
-        "critical-mcq-17"
+        "critical-mcq-07",
+        "critical-mcq-27",
+        "critical-mcq-12"
       ],
       "explanation": "本句的「critique」指「有系統地分析和評價優點、缺點、假設和論據」。",
       "sentenceIndex": 56,
@@ -1702,12 +1600,10 @@ export default {
         "critique"
       ],
       "optionReasons": {
-        "critical-mcq-20": "本句指「有系統地分析和評價優點、缺點、假設和論據」。",
-        "critical-mcq-19": "「對文學、藝術等進行系統分析和評論的研究」與本句語境不同。",
-        "critical-mcq-21": "「對核心任務不可或缺、失效會嚴重影響運作的」與本句語境不同。",
-        "critical-mcq-18": "「對錯誤、問題或缺點作出的負面評價」與本句語境不同。",
-        "critical-mcq-22": "「失效可能造成重大安全後果的」與本句語境不同。",
-        "critical-mcq-17": "「公開指出某人／制度問題的批評者」與本句語境不同。"
+        "critical-mcq-20": "本句的「critique」指「有系統地分析和評價優點、缺點、假設和論據」。",
+        "critical-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-20"
     },
@@ -1719,11 +1615,9 @@ export default {
       "masked": "Students were asked to ____ the article.",
       "options": [
         "critical-mcq-20",
-        "critical-mcq-19",
-        "critical-mcq-21",
-        "critical-mcq-18",
-        "critical-mcq-22",
-        "critical-mcq-17"
+        "critical-mcq-40",
+        "critical-mcq-31",
+        "critical-mcq-35"
       ],
       "explanation": "本句的「critique」指「有系統地分析和評價優點、缺點、假設和論據」。",
       "sentenceIndex": 57,
@@ -1732,12 +1626,10 @@ export default {
         "critique"
       ],
       "optionReasons": {
-        "critical-mcq-20": "本句指「有系統地分析和評價優點、缺點、假設和論據」。",
-        "critical-mcq-19": "「對文學、藝術等進行系統分析和評論的研究」與本句語境不同。",
-        "critical-mcq-21": "「對核心任務不可或缺、失效會嚴重影響運作的」與本句語境不同。",
-        "critical-mcq-18": "「對錯誤、問題或缺點作出的負面評價」與本句語境不同。",
-        "critical-mcq-22": "「失效可能造成重大安全後果的」與本句語境不同。",
-        "critical-mcq-17": "「公開指出某人／制度問題的批評者」與本句語境不同。"
+        "critical-mcq-20": "本句的「critique」指「有系統地分析和評價優點、缺點、假設和論據」。",
+        "critical-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-20"
     },
@@ -1749,11 +1641,9 @@ export default {
       "masked": "The hospital relies on ____.",
       "options": [
         "critical-mcq-21",
-        "critical-mcq-20",
-        "critical-mcq-22",
-        "critical-mcq-19",
-        "critical-mcq-23",
-        "critical-mcq-18"
+        "critical-mcq-10",
+        "critical-mcq-15",
+        "critical-mcq-32"
       ],
       "explanation": "本句的「mission-critical systems」指「對核心任務不可或缺、失效會嚴重影響運作的」。",
       "sentenceIndex": 58,
@@ -1762,12 +1652,10 @@ export default {
         "mission-critical systems"
       ],
       "optionReasons": {
-        "critical-mcq-21": "本句指「對核心任務不可或缺、失效會嚴重影響運作的」。",
-        "critical-mcq-20": "「有系統地分析和評價優點、缺點、假設和論據」與本句語境不同。",
-        "critical-mcq-22": "「失效可能造成重大安全後果的」與本句語境不同。",
-        "critical-mcq-19": "「對文學、藝術等進行系統分析和評論的研究」與本句語境不同。",
-        "critical-mcq-23": "「社會／經濟正常運作所必需的重要基礎設施」與本句語境不同。",
-        "critical-mcq-18": "「對錯誤、問題或缺點作出的負面評價」與本句語境不同。"
+        "critical-mcq-21": "本句的「mission-critical systems」指「對核心任務不可或缺、失效會嚴重影響運作的」。",
+        "critical-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-21"
     },
@@ -1779,11 +1667,9 @@ export default {
       "masked": "The server supports mission-____ operations.",
       "options": [
         "critical-mcq-21",
-        "critical-mcq-20",
-        "critical-mcq-22",
-        "critical-mcq-19",
-        "critical-mcq-23",
-        "critical-mcq-18"
+        "critical-mcq-37",
+        "critical-mcq-10",
+        "critical-mcq-15"
       ],
       "explanation": "本句的「critical」指「對核心任務不可或缺、失效會嚴重影響運作的」。",
       "sentenceIndex": 59,
@@ -1792,12 +1678,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-21": "本句指「對核心任務不可或缺、失效會嚴重影響運作的」。",
-        "critical-mcq-20": "「有系統地分析和評價優點、缺點、假設和論據」與本句語境不同。",
-        "critical-mcq-22": "「失效可能造成重大安全後果的」與本句語境不同。",
-        "critical-mcq-19": "「對文學、藝術等進行系統分析和評論的研究」與本句語境不同。",
-        "critical-mcq-23": "「社會／經濟正常運作所必需的重要基礎設施」與本句語境不同。",
-        "critical-mcq-18": "「對錯誤、問題或缺點作出的負面評價」與本句語境不同。"
+        "critical-mcq-21": "本句的「critical」指「對核心任務不可或缺、失效會嚴重影響運作的」。",
+        "critical-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-21"
     },
@@ -1809,11 +1693,9 @@ export default {
       "masked": "The software controls a ____.",
       "options": [
         "critical-mcq-22",
-        "critical-mcq-21",
-        "critical-mcq-23",
-        "critical-mcq-20",
-        "critical-mcq-24",
-        "critical-mcq-19"
+        "critical-mcq-18",
+        "critical-mcq-19",
+        "critical-mcq-30"
       ],
       "explanation": "本句的「safety-critical system」指「失效可能造成重大安全後果的」。",
       "sentenceIndex": 62,
@@ -1822,12 +1704,10 @@ export default {
         "safety-critical system"
       ],
       "optionReasons": {
-        "critical-mcq-22": "本句指「失效可能造成重大安全後果的」。",
-        "critical-mcq-21": "「對核心任務不可或缺、失效會嚴重影響運作的」與本句語境不同。",
-        "critical-mcq-23": "「社會／經濟正常運作所必需的重要基礎設施」與本句語境不同。",
-        "critical-mcq-20": "「有系統地分析和評價優點、缺點、假設和論據」與本句語境不同。",
-        "critical-mcq-24": "「決定項目最早完成時間的關鍵任務序列」與本句語境不同。",
-        "critical-mcq-19": "「對文學、藝術等進行系統分析和評論的研究」與本句語境不同。"
+        "critical-mcq-22": "本句的「safety-critical system」指「失效可能造成重大安全後果的」。",
+        "critical-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-22"
     },
@@ -1839,11 +1719,9 @@ export default {
       "masked": "Safety-____ equipment requires rigorous testing.",
       "options": [
         "critical-mcq-22",
-        "critical-mcq-21",
-        "critical-mcq-23",
-        "critical-mcq-20",
-        "critical-mcq-24",
-        "critical-mcq-19"
+        "critical-mcq-19",
+        "critical-mcq-18",
+        "critical-mcq-30"
       ],
       "explanation": "本句的「critical」指「失效可能造成重大安全後果的」。",
       "sentenceIndex": 63,
@@ -1852,12 +1730,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-22": "本句指「失效可能造成重大安全後果的」。",
-        "critical-mcq-21": "「對核心任務不可或缺、失效會嚴重影響運作的」與本句語境不同。",
-        "critical-mcq-23": "「社會／經濟正常運作所必需的重要基礎設施」與本句語境不同。",
-        "critical-mcq-20": "「有系統地分析和評價優點、缺點、假設和論據」與本句語境不同。",
-        "critical-mcq-24": "「決定項目最早完成時間的關鍵任務序列」與本句語境不同。",
-        "critical-mcq-19": "「對文學、藝術等進行系統分析和評論的研究」與本句語境不同。"
+        "critical-mcq-22": "本句的「critical」指「失效可能造成重大安全後果的」。",
+        "critical-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-22"
     },
@@ -1869,11 +1745,9 @@ export default {
       "masked": "Power grids are part of ____.",
       "options": [
         "critical-mcq-23",
-        "critical-mcq-22",
-        "critical-mcq-24",
-        "critical-mcq-21",
-        "critical-mcq-25",
-        "critical-mcq-20"
+        "critical-mcq-27",
+        "critical-mcq-30",
+        "critical-mcq-19"
       ],
       "explanation": "本句的「critical infrastructure」指「社會／經濟正常運作所必需的重要基礎設施」。",
       "sentenceIndex": 64,
@@ -1882,12 +1756,10 @@ export default {
         "critical infrastructure"
       ],
       "optionReasons": {
-        "critical-mcq-23": "本句指「社會／經濟正常運作所必需的重要基礎設施」。",
-        "critical-mcq-22": "「失效可能造成重大安全後果的」與本句語境不同。",
-        "critical-mcq-24": "「決定項目最早完成時間的關鍵任務序列」與本句語境不同。",
-        "critical-mcq-21": "「對核心任務不可或缺、失效會嚴重影響運作的」與本句語境不同。",
-        "critical-mcq-25": "「發展至可能產生重大結果／轉變的關鍵點」與本句語境不同。",
-        "critical-mcq-20": "「有系統地分析和評價優點、缺點、假設和論據」與本句語境不同。"
+        "critical-mcq-23": "本句的「critical infrastructure」指「社會／經濟正常運作所必需的重要基礎設施」。",
+        "critical-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-23"
     },
@@ -1899,11 +1771,9 @@ export default {
       "masked": "The plan protects ____ infrastructure from cyberattack.",
       "options": [
         "critical-mcq-23",
-        "critical-mcq-22",
-        "critical-mcq-24",
-        "critical-mcq-21",
-        "critical-mcq-25",
-        "critical-mcq-20"
+        "critical-mcq-19",
+        "critical-mcq-31",
+        "critical-mcq-18"
       ],
       "explanation": "本句的「critical」指「社會／經濟正常運作所必需的重要基礎設施」。",
       "sentenceIndex": 65,
@@ -1912,12 +1782,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-23": "本句指「社會／經濟正常運作所必需的重要基礎設施」。",
-        "critical-mcq-22": "「失效可能造成重大安全後果的」與本句語境不同。",
-        "critical-mcq-24": "「決定項目最早完成時間的關鍵任務序列」與本句語境不同。",
-        "critical-mcq-21": "「對核心任務不可或缺、失效會嚴重影響運作的」與本句語境不同。",
-        "critical-mcq-25": "「發展至可能產生重大結果／轉變的關鍵點」與本句語境不同。",
-        "critical-mcq-20": "「有系統地分析和評價優點、缺點、假設和論據」與本句語境不同。"
+        "critical-mcq-23": "本句的「critical」指「社會／經濟正常運作所必需的重要基礎設施」。",
+        "critical-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-23"
     },
@@ -1929,11 +1797,9 @@ export default {
       "masked": "The delay affected the project’s ____.",
       "options": [
         "critical-mcq-24",
-        "critical-mcq-23",
-        "critical-mcq-25",
-        "critical-mcq-22",
-        "critical-mcq-26",
-        "critical-mcq-21"
+        "critical-mcq-37",
+        "critical-mcq-31",
+        "critical-mcq-18"
       ],
       "explanation": "本句的「critical path」指「決定項目最早完成時間的關鍵任務序列」。",
       "sentenceIndex": 66,
@@ -1942,12 +1808,10 @@ export default {
         "critical path"
       ],
       "optionReasons": {
-        "critical-mcq-24": "本句指「決定項目最早完成時間的關鍵任務序列」。",
-        "critical-mcq-23": "「社會／經濟正常運作所必需的重要基礎設施」與本句語境不同。",
-        "critical-mcq-25": "「發展至可能產生重大結果／轉變的關鍵點」與本句語境不同。",
-        "critical-mcq-22": "「失效可能造成重大安全後果的」與本句語境不同。",
-        "critical-mcq-26": "「函數導數為零或不存在等具有重要性質的點」與本句語境不同。",
-        "critical-mcq-21": "「對核心任務不可或缺、失效會嚴重影響運作的」與本句語境不同。"
+        "critical-mcq-24": "本句的「critical path」指「決定項目最早完成時間的關鍵任務序列」。",
+        "critical-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-24"
     },
@@ -1959,11 +1823,9 @@ export default {
       "masked": "Tasks on the ____ path cannot be delayed without affecting completion.",
       "options": [
         "critical-mcq-24",
-        "critical-mcq-23",
-        "critical-mcq-25",
-        "critical-mcq-22",
-        "critical-mcq-26",
-        "critical-mcq-21"
+        "critical-mcq-18",
+        "critical-mcq-16",
+        "critical-mcq-11"
       ],
       "explanation": "本句的「critical」指「決定項目最早完成時間的關鍵任務序列」。",
       "sentenceIndex": 67,
@@ -1972,12 +1834,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-24": "本句指「決定項目最早完成時間的關鍵任務序列」。",
-        "critical-mcq-23": "「社會／經濟正常運作所必需的重要基礎設施」與本句語境不同。",
-        "critical-mcq-25": "「發展至可能產生重大結果／轉變的關鍵點」與本句語境不同。",
-        "critical-mcq-22": "「失效可能造成重大安全後果的」與本句語境不同。",
-        "critical-mcq-26": "「函數導數為零或不存在等具有重要性質的點」與本句語境不同。",
-        "critical-mcq-21": "「對核心任務不可或缺、失效會嚴重影響運作的」與本句語境不同。"
+        "critical-mcq-24": "本句的「critical」指「決定項目最早完成時間的關鍵任務序列」。",
+        "critical-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-24"
     },
@@ -1989,11 +1849,9 @@ export default {
       "masked": "The substance reaches its ____.",
       "options": [
         "critical-mcq-27",
-        "critical-mcq-26",
-        "critical-mcq-28",
-        "critical-mcq-25",
-        "critical-mcq-29",
-        "critical-mcq-24"
+        "critical-mcq-30",
+        "critical-mcq-03",
+        "critical-mcq-07"
       ],
       "explanation": "本句的「critical point」指「物質液相和氣相性質界線消失的臨界狀態」。",
       "sentenceIndex": 70,
@@ -2002,12 +1860,10 @@ export default {
         "critical point"
       ],
       "optionReasons": {
-        "critical-mcq-27": "本句指「物質液相和氣相性質界線消失的臨界狀態」。",
-        "critical-mcq-26": "「函數導數為零或不存在等具有重要性質的點」與本句語境不同。",
-        "critical-mcq-28": "「決定分類／檢驗結果的臨界數值」與本句語境不同。",
-        "critical-mcq-25": "「發展至可能產生重大結果／轉變的關鍵點」與本句語境不同。",
-        "critical-mcq-29": "「維持自持核連鎖反應所需的最低裂變物質量」與本句語境不同。",
-        "critical-mcq-24": "「決定項目最早完成時間的關鍵任務序列」與本句語境不同。"
+        "critical-mcq-27": "本句的「critical point」指「物質液相和氣相性質界線消失的臨界狀態」。",
+        "critical-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-27"
     },
@@ -2019,11 +1875,9 @@ export default {
       "masked": "Above the ____ point, the distinction between liquid and gas disappears.",
       "options": [
         "critical-mcq-27",
-        "critical-mcq-26",
-        "critical-mcq-28",
-        "critical-mcq-25",
-        "critical-mcq-29",
-        "critical-mcq-24"
+        "critical-mcq-39",
+        "critical-mcq-01",
+        "critical-mcq-36"
       ],
       "explanation": "本句的「critical」指「物質液相和氣相性質界線消失的臨界狀態」。",
       "sentenceIndex": 71,
@@ -2032,74 +1886,68 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-27": "本句指「物質液相和氣相性質界線消失的臨界狀態」。",
-        "critical-mcq-26": "「函數導數為零或不存在等具有重要性質的點」與本句語境不同。",
-        "critical-mcq-28": "「決定分類／檢驗結果的臨界數值」與本句語境不同。",
-        "critical-mcq-25": "「發展至可能產生重大結果／轉變的關鍵點」與本句語境不同。",
-        "critical-mcq-29": "「維持自持核連鎖反應所需的最低裂變物質量」與本句語境不同。",
-        "critical-mcq-24": "「決定項目最早完成時間的關鍵任務序列」與本句語境不同。"
+        "critical-mcq-27": "本句的「critical」指「物質液相和氣相性質界線消失的臨界狀態」。",
+        "critical-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-27"
     },
     {
       "id": "critical-44-0",
-      "sense": "critical-mcq-27",
+      "sense": "critical-reviewed-c703dcee30",
       "en": "Find the critical points of the function.",
       "zh": "找出這個函數的臨界點。",
       "masked": "Find the ____ of the function.",
       "options": [
-        "critical-mcq-27",
-        "critical-mcq-26",
-        "critical-mcq-28",
-        "critical-mcq-25",
-        "critical-mcq-29",
-        "critical-mcq-24"
+        "critical-reviewed-c703dcee30",
+        "critical-mcq-32",
+        "critical-mcq-14",
+        "critical-mcq-36"
       ],
-      "explanation": "本句的「critical points」指「物質液相和氣相性質界線消失的臨界狀態」。",
+      "explanation": "對照完整句子：「找出這個函數的臨界點。」。這裡的「critical points」表示「導數為零或不存在、可能出現極值等重要行為的點」。",
       "sentenceIndex": 76,
       "sourcePractice": 44,
       "targets": [
         "critical points"
       ],
       "optionReasons": {
-        "critical-mcq-27": "本句指「物質液相和氣相性質界線消失的臨界狀態」。",
-        "critical-mcq-26": "「函數導數為零或不存在等具有重要性質的點」與本句語境不同。",
-        "critical-mcq-28": "「決定分類／檢驗結果的臨界數值」與本句語境不同。",
-        "critical-mcq-25": "「發展至可能產生重大結果／轉變的關鍵點」與本句語境不同。",
-        "critical-mcq-29": "「維持自持核連鎖反應所需的最低裂變物質量」與本句語境不同。",
-        "critical-mcq-24": "「決定項目最早完成時間的關鍵任務序列」與本句語境不同。"
+        "critical-reviewed-c703dcee30": "對照完整句子：「找出這個函數的臨界點。」。這裡的「critical points」表示「導數為零或不存在、可能出現極值等重要行為的點」。",
+        "critical-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "critical-mcq-27"
+      "correctOption": "critical-reviewed-c703dcee30",
+      "previousCorrectOption": "critical-mcq-27",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "critical-44-1",
-      "sense": "critical-mcq-27",
+      "sense": "critical-reviewed-c703dcee30",
       "en": "A critical point occurs where the derivative is zero or undefined.",
       "zh": "當導數為零或不存在時，可能出現臨界點。",
       "masked": "A ____ point occurs where the derivative is zero or undefined.",
       "options": [
-        "critical-mcq-27",
-        "critical-mcq-26",
-        "critical-mcq-28",
-        "critical-mcq-25",
-        "critical-mcq-29",
-        "critical-mcq-24"
+        "critical-reviewed-c703dcee30",
+        "critical-mcq-37",
+        "critical-mcq-32",
+        "critical-mcq-14"
       ],
-      "explanation": "本句的「critical」指「物質液相和氣相性質界線消失的臨界狀態」。",
+      "explanation": "對照完整句子：「當導數為零或不存在時，可能出現臨界點。」。這裡的「critical」表示「導數為零或不存在、可能出現極值等重要行為的點」。",
       "sentenceIndex": 77,
       "sourcePractice": 44,
       "targets": [
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-27": "本句指「物質液相和氣相性質界線消失的臨界狀態」。",
-        "critical-mcq-26": "「函數導數為零或不存在等具有重要性質的點」與本句語境不同。",
-        "critical-mcq-28": "「決定分類／檢驗結果的臨界數值」與本句語境不同。",
-        "critical-mcq-25": "「發展至可能產生重大結果／轉變的關鍵點」與本句語境不同。",
-        "critical-mcq-29": "「維持自持核連鎖反應所需的最低裂變物質量」與本句語境不同。",
-        "critical-mcq-24": "「決定項目最早完成時間的關鍵任務序列」與本句語境不同。"
+        "critical-reviewed-c703dcee30": "對照完整句子：「當導數為零或不存在時，可能出現臨界點。」。這裡的「critical」表示「導數為零或不存在、可能出現極值等重要行為的點」。",
+        "critical-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "critical-mcq-27"
+      "correctOption": "critical-reviewed-c703dcee30",
+      "previousCorrectOption": "critical-mcq-27",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "critical-45-0",
@@ -2109,11 +1957,9 @@ export default {
       "masked": "Compare the test statistic with the ____.",
       "options": [
         "critical-mcq-28",
-        "critical-mcq-27",
-        "critical-mcq-29",
-        "critical-mcq-26",
-        "critical-mcq-30",
-        "critical-mcq-25"
+        "critical-mcq-10",
+        "critical-mcq-12",
+        "critical-mcq-21"
       ],
       "explanation": "本句的「critical value」指「決定分類／檢驗結果的臨界數值」。",
       "sentenceIndex": 78,
@@ -2122,12 +1968,10 @@ export default {
         "critical value"
       ],
       "optionReasons": {
-        "critical-mcq-28": "本句指「決定分類／檢驗結果的臨界數值」。",
-        "critical-mcq-27": "「物質液相和氣相性質界線消失的臨界狀態」與本句語境不同。",
-        "critical-mcq-29": "「維持自持核連鎖反應所需的最低裂變物質量」與本句語境不同。",
-        "critical-mcq-26": "「函數導數為零或不存在等具有重要性質的點」與本句語境不同。",
-        "critical-mcq-30": "「人數／資源達到足以令活動自行持續發展的規模」與本句語境不同。",
-        "critical-mcq-25": "「發展至可能產生重大結果／轉變的關鍵點」與本句語境不同。"
+        "critical-mcq-28": "本句的「critical value」指「決定分類／檢驗結果的臨界數值」。",
+        "critical-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-28"
     },
@@ -2139,11 +1983,9 @@ export default {
       "masked": "The ____ value depends on the significance level.",
       "options": [
         "critical-mcq-28",
-        "critical-mcq-27",
-        "critical-mcq-29",
-        "critical-mcq-26",
-        "critical-mcq-30",
-        "critical-mcq-25"
+        "critical-mcq-10",
+        "critical-mcq-33",
+        "critical-pdf-001"
       ],
       "explanation": "本句的「critical」指「決定分類／檢驗結果的臨界數值」。",
       "sentenceIndex": 79,
@@ -2152,12 +1994,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-28": "本句指「決定分類／檢驗結果的臨界數值」。",
-        "critical-mcq-27": "「物質液相和氣相性質界線消失的臨界狀態」與本句語境不同。",
-        "critical-mcq-29": "「維持自持核連鎖反應所需的最低裂變物質量」與本句語境不同。",
-        "critical-mcq-26": "「函數導數為零或不存在等具有重要性質的點」與本句語境不同。",
-        "critical-mcq-30": "「人數／資源達到足以令活動自行持續發展的規模」與本句語境不同。",
-        "critical-mcq-25": "「發展至可能產生重大結果／轉變的關鍵點」與本句語境不同。"
+        "critical-mcq-28": "本句的「critical」指「決定分類／檢驗結果的臨界數值」。",
+        "critical-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "critical-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-28"
     },
@@ -2169,11 +2009,9 @@ export default {
       "masked": "The material must reach ____.",
       "options": [
         "critical-mcq-29",
-        "critical-mcq-28",
-        "critical-mcq-30",
-        "critical-mcq-27",
-        "critical-mcq-31",
-        "critical-mcq-26"
+        "critical-mcq-35",
+        "critical-mcq-10",
+        "critical-mcq-16"
       ],
       "explanation": "本句的「critical mass」指「維持自持核連鎖反應所需的最低裂變物質量」。",
       "sentenceIndex": 84,
@@ -2182,12 +2020,10 @@ export default {
         "critical mass"
       ],
       "optionReasons": {
-        "critical-mcq-29": "本句指「維持自持核連鎖反應所需的最低裂變物質量」。",
-        "critical-mcq-28": "「決定分類／檢驗結果的臨界數值」與本句語境不同。",
-        "critical-mcq-30": "「人數／資源達到足以令活動自行持續發展的規模」與本句語境不同。",
-        "critical-mcq-27": "「物質液相和氣相性質界線消失的臨界狀態」與本句語境不同。",
-        "critical-mcq-31": "「核連鎖反應剛好能自我維持的狀態」與本句語境不同。",
-        "critical-mcq-26": "「函數導數為零或不存在等具有重要性質的點」與本句語境不同。"
+        "critical-mcq-29": "本句的「critical mass」指「維持自持核連鎖反應所需的最低裂變物質量」。",
+        "critical-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-29"
     },
@@ -2199,11 +2035,9 @@ export default {
       "masked": "Below ____ mass, the chain reaction cannot sustain itself.",
       "options": [
         "critical-mcq-29",
-        "critical-mcq-28",
-        "critical-mcq-30",
-        "critical-mcq-27",
-        "critical-mcq-31",
-        "critical-mcq-26"
+        "critical-mcq-33",
+        "critical-mcq-16",
+        "critical-mcq-36"
       ],
       "explanation": "本句的「critical」指「維持自持核連鎖反應所需的最低裂變物質量」。",
       "sentenceIndex": 85,
@@ -2212,12 +2046,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-29": "本句指「維持自持核連鎖反應所需的最低裂變物質量」。",
-        "critical-mcq-28": "「決定分類／檢驗結果的臨界數值」與本句語境不同。",
-        "critical-mcq-30": "「人數／資源達到足以令活動自行持續發展的規模」與本句語境不同。",
-        "critical-mcq-27": "「物質液相和氣相性質界線消失的臨界狀態」與本句語境不同。",
-        "critical-mcq-31": "「核連鎖反應剛好能自我維持的狀態」與本句語境不同。",
-        "critical-mcq-26": "「函數導數為零或不存在等具有重要性質的點」與本句語境不同。"
+        "critical-mcq-29": "本句的「critical」指「維持自持核連鎖反應所需的最低裂變物質量」。",
+        "critical-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-29"
     },
@@ -2229,11 +2061,9 @@ export default {
       "masked": "The platform needs a ____ of users.",
       "options": [
         "critical-mcq-30",
-        "critical-mcq-29",
-        "critical-mcq-31",
-        "critical-mcq-28",
-        "critical-mcq-32",
-        "critical-mcq-27"
+        "critical-mcq-01",
+        "critical-mcq-12",
+        "critical-mcq-24"
       ],
       "explanation": "本句的「critical mass」指「人數／資源達到足以令活動自行持續發展的規模」。",
       "sentenceIndex": 86,
@@ -2242,12 +2072,10 @@ export default {
         "critical mass"
       ],
       "optionReasons": {
-        "critical-mcq-30": "本句指「人數／資源達到足以令活動自行持續發展的規模」。",
-        "critical-mcq-29": "「維持自持核連鎖反應所需的最低裂變物質量」與本句語境不同。",
-        "critical-mcq-31": "「核連鎖反應剛好能自我維持的狀態」與本句語境不同。",
-        "critical-mcq-28": "「決定分類／檢驗結果的臨界數值」與本句語境不同。",
-        "critical-mcq-32": "「光學中產生全內反射相關的臨界角度」與本句語境不同。",
-        "critical-mcq-27": "「物質液相和氣相性質界線消失的臨界狀態」與本句語境不同。"
+        "critical-mcq-30": "本句的「critical mass」指「人數／資源達到足以令活動自行持續發展的規模」。",
+        "critical-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-30"
     },
@@ -2259,11 +2087,9 @@ export default {
       "masked": "Once the movement reached ____ mass, growth accelerated.",
       "options": [
         "critical-mcq-30",
-        "critical-mcq-29",
-        "critical-mcq-31",
-        "critical-mcq-28",
         "critical-mcq-32",
-        "critical-mcq-27"
+        "critical-mcq-07",
+        "critical-mcq-20"
       ],
       "explanation": "本句的「critical」指「人數／資源達到足以令活動自行持續發展的規模」。",
       "sentenceIndex": 87,
@@ -2272,12 +2098,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-30": "本句指「人數／資源達到足以令活動自行持續發展的規模」。",
-        "critical-mcq-29": "「維持自持核連鎖反應所需的最低裂變物質量」與本句語境不同。",
-        "critical-mcq-31": "「核連鎖反應剛好能自我維持的狀態」與本句語境不同。",
-        "critical-mcq-28": "「決定分類／檢驗結果的臨界數值」與本句語境不同。",
-        "critical-mcq-32": "「光學中產生全內反射相關的臨界角度」與本句語境不同。",
-        "critical-mcq-27": "「物質液相和氣相性質界線消失的臨界狀態」與本句語境不同。"
+        "critical-mcq-30": "本句的「critical」指「人數／資源達到足以令活動自行持續發展的規模」。",
+        "critical-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-30"
     },
@@ -2289,11 +2113,9 @@ export default {
       "masked": "The reactor became ____.",
       "options": [
         "critical-mcq-31",
-        "critical-mcq-30",
-        "critical-mcq-32",
-        "critical-mcq-29",
-        "critical-mcq-33",
-        "critical-mcq-28"
+        "critical-mcq-14",
+        "critical-mcq-25",
+        "critical-pdf-001"
       ],
       "explanation": "本句的「critical」指「核連鎖反應剛好能自我維持的狀態」。",
       "sentenceIndex": 88,
@@ -2302,12 +2124,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-31": "本句指「核連鎖反應剛好能自我維持的狀態」。",
-        "critical-mcq-30": "「人數／資源達到足以令活動自行持續發展的規模」與本句語境不同。",
-        "critical-mcq-32": "「光學中產生全內反射相關的臨界角度」與本句語境不同。",
-        "critical-mcq-29": "「維持自持核連鎖反應所需的最低裂變物質量」與本句語境不同。",
-        "critical-mcq-33": "「嚴重到足以中止／嚴重破壞系統運作的錯誤」與本句語境不同。",
-        "critical-mcq-28": "「決定分類／檢驗結果的臨界數值」與本句語境不同。"
+        "critical-mcq-31": "本句的「critical」指「核連鎖反應剛好能自我維持的狀態」。",
+        "critical-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "critical-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-31"
     },
@@ -2319,11 +2139,9 @@ export default {
       "masked": "A ____ reactor sustains a steady chain reaction.",
       "options": [
         "critical-mcq-31",
-        "critical-mcq-30",
-        "critical-mcq-32",
-        "critical-mcq-29",
-        "critical-mcq-33",
-        "critical-mcq-28"
+        "critical-mcq-38",
+        "critical-mcq-15",
+        "critical-mcq-37"
       ],
       "explanation": "本句的「critical」指「核連鎖反應剛好能自我維持的狀態」。",
       "sentenceIndex": 89,
@@ -2332,12 +2150,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-31": "本句指「核連鎖反應剛好能自我維持的狀態」。",
-        "critical-mcq-30": "「人數／資源達到足以令活動自行持續發展的規模」與本句語境不同。",
-        "critical-mcq-32": "「光學中產生全內反射相關的臨界角度」與本句語境不同。",
-        "critical-mcq-29": "「維持自持核連鎖反應所需的最低裂變物質量」與本句語境不同。",
-        "critical-mcq-33": "「嚴重到足以中止／嚴重破壞系統運作的錯誤」與本句語境不同。",
-        "critical-mcq-28": "「決定分類／檢驗結果的臨界數值」與本句語境不同。"
+        "critical-mcq-31": "本句的「critical」指「核連鎖反應剛好能自我維持的狀態」。",
+        "critical-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-31"
     },
@@ -2349,11 +2165,9 @@ export default {
       "masked": "Total internal reflection occurs above the ____.",
       "options": [
         "critical-mcq-32",
-        "critical-mcq-31",
-        "critical-mcq-33",
-        "critical-mcq-30",
-        "critical-mcq-34",
-        "critical-mcq-29"
+        "critical-mcq-18",
+        "critical-reviewed-c703dcee30",
+        "critical-mcq-11"
       ],
       "explanation": "本句的「critical angle」指「光學中產生全內反射相關的臨界角度」。",
       "sentenceIndex": 92,
@@ -2362,12 +2176,10 @@ export default {
         "critical angle"
       ],
       "optionReasons": {
-        "critical-mcq-32": "本句指「光學中產生全內反射相關的臨界角度」。",
-        "critical-mcq-31": "「核連鎖反應剛好能自我維持的狀態」與本句語境不同。",
-        "critical-mcq-33": "「嚴重到足以中止／嚴重破壞系統運作的錯誤」與本句語境不同。",
-        "critical-mcq-30": "「人數／資源達到足以令活動自行持續發展的規模」與本句語境不同。",
-        "critical-mcq-34": "「可能造成極嚴重安全影響的漏洞」與本句語境不同。",
-        "critical-mcq-29": "「維持自持核連鎖反應所需的最低裂變物質量」與本句語境不同。"
+        "critical-mcq-32": "本句的「critical angle」指「光學中產生全內反射相關的臨界角度」。",
+        "critical-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "critical-reviewed-c703dcee30": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-32"
     },
@@ -2379,11 +2191,9 @@ export default {
       "masked": "The ____ angle depends on the two materials.",
       "options": [
         "critical-mcq-32",
-        "critical-mcq-31",
-        "critical-mcq-33",
-        "critical-mcq-30",
-        "critical-mcq-34",
-        "critical-mcq-29"
+        "critical-mcq-21",
+        "critical-mcq-01",
+        "critical-mcq-12"
       ],
       "explanation": "本句的「critical」指「光學中產生全內反射相關的臨界角度」。",
       "sentenceIndex": 93,
@@ -2392,12 +2202,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-32": "本句指「光學中產生全內反射相關的臨界角度」。",
-        "critical-mcq-31": "「核連鎖反應剛好能自我維持的狀態」與本句語境不同。",
-        "critical-mcq-33": "「嚴重到足以中止／嚴重破壞系統運作的錯誤」與本句語境不同。",
-        "critical-mcq-30": "「人數／資源達到足以令活動自行持續發展的規模」與本句語境不同。",
-        "critical-mcq-34": "「可能造成極嚴重安全影響的漏洞」與本句語境不同。",
-        "critical-mcq-29": "「維持自持核連鎖反應所需的最低裂變物質量」與本句語境不同。"
+        "critical-mcq-32": "本句的「critical」指「光學中產生全內反射相關的臨界角度」。",
+        "critical-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-32"
     },
@@ -2409,11 +2217,9 @@ export default {
       "masked": "The program stopped because of a ____.",
       "options": [
         "critical-mcq-33",
-        "critical-mcq-32",
-        "critical-mcq-34",
-        "critical-mcq-31",
-        "critical-mcq-35",
-        "critical-mcq-30"
+        "critical-mcq-10",
+        "critical-mcq-16",
+        "critical-mcq-24"
       ],
       "explanation": "本句的「critical error」指「嚴重到足以中止／嚴重破壞系統運作的錯誤」。",
       "sentenceIndex": 98,
@@ -2422,12 +2228,10 @@ export default {
         "critical error"
       ],
       "optionReasons": {
-        "critical-mcq-33": "本句指「嚴重到足以中止／嚴重破壞系統運作的錯誤」。",
-        "critical-mcq-32": "「光學中產生全內反射相關的臨界角度」與本句語境不同。",
-        "critical-mcq-34": "「可能造成極嚴重安全影響的漏洞」與本句語境不同。",
-        "critical-mcq-31": "「核連鎖反應剛好能自我維持的狀態」與本句語境不同。",
-        "critical-mcq-35": "「某結果／發展對時間特別敏感的關鍵時段」與本句語境不同。",
-        "critical-mcq-30": "「人數／資源達到足以令活動自行持續發展的規模」與本句語境不同。"
+        "critical-mcq-33": "本句的「critical error」指「嚴重到足以中止／嚴重破壞系統運作的錯誤」。",
+        "critical-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-33"
     },
@@ -2439,11 +2243,9 @@ export default {
       "masked": "A ____ error can make the system unusable.",
       "options": [
         "critical-mcq-33",
-        "critical-mcq-32",
-        "critical-mcq-34",
-        "critical-mcq-31",
-        "critical-mcq-35",
-        "critical-mcq-30"
+        "critical-mcq-29",
+        "critical-mcq-16",
+        "critical-mcq-28"
       ],
       "explanation": "本句的「critical」指「嚴重到足以中止／嚴重破壞系統運作的錯誤」。",
       "sentenceIndex": 99,
@@ -2452,12 +2254,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-33": "本句指「嚴重到足以中止／嚴重破壞系統運作的錯誤」。",
-        "critical-mcq-32": "「光學中產生全內反射相關的臨界角度」與本句語境不同。",
-        "critical-mcq-34": "「可能造成極嚴重安全影響的漏洞」與本句語境不同。",
-        "critical-mcq-31": "「核連鎖反應剛好能自我維持的狀態」與本句語境不同。",
-        "critical-mcq-35": "「某結果／發展對時間特別敏感的關鍵時段」與本句語境不同。",
-        "critical-mcq-30": "「人數／資源達到足以令活動自行持續發展的規模」與本句語境不同。"
+        "critical-mcq-33": "本句的「critical」指「嚴重到足以中止／嚴重破壞系統運作的錯誤」。",
+        "critical-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-33"
     },
@@ -2469,11 +2269,9 @@ export default {
       "masked": "The update fixes a ____.",
       "options": [
         "critical-mcq-34",
-        "critical-mcq-33",
-        "critical-mcq-35",
-        "critical-mcq-32",
-        "critical-mcq-36",
-        "critical-mcq-31"
+        "critical-mcq-37",
+        "critical-mcq-18",
+        "critical-mcq-27"
       ],
       "explanation": "本句的「critical vulnerability」指「可能造成極嚴重安全影響的漏洞」。",
       "sentenceIndex": 102,
@@ -2482,12 +2280,10 @@ export default {
         "critical vulnerability"
       ],
       "optionReasons": {
-        "critical-mcq-34": "本句指「可能造成極嚴重安全影響的漏洞」。",
-        "critical-mcq-33": "「嚴重到足以中止／嚴重破壞系統運作的錯誤」與本句語境不同。",
-        "critical-mcq-35": "「某結果／發展對時間特別敏感的關鍵時段」與本句語境不同。",
-        "critical-mcq-32": "「光學中產生全內反射相關的臨界角度」與本句語境不同。",
-        "critical-mcq-36": "「研究並批判社會、文化及權力結構的理論傳統」與本句語境不同。",
-        "critical-mcq-31": "「核連鎖反應剛好能自我維持的狀態」與本句語境不同。"
+        "critical-mcq-34": "本句的「critical vulnerability」指「可能造成極嚴重安全影響的漏洞」。",
+        "critical-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-34"
     },
@@ -2499,11 +2295,9 @@ export default {
       "masked": "____ vulnerabilities should be patched immediately.",
       "options": [
         "critical-mcq-34",
-        "critical-mcq-33",
-        "critical-mcq-35",
-        "critical-mcq-32",
-        "critical-mcq-36",
-        "critical-mcq-31"
+        "critical-mcq-18",
+        "critical-mcq-16",
+        "critical-mcq-28"
       ],
       "explanation": "本句的「Critical」指「可能造成極嚴重安全影響的漏洞」。",
       "sentenceIndex": 103,
@@ -2512,12 +2306,10 @@ export default {
         "Critical"
       ],
       "optionReasons": {
-        "critical-mcq-34": "本句指「可能造成極嚴重安全影響的漏洞」。",
-        "critical-mcq-33": "「嚴重到足以中止／嚴重破壞系統運作的錯誤」與本句語境不同。",
-        "critical-mcq-35": "「某結果／發展對時間特別敏感的關鍵時段」與本句語境不同。",
-        "critical-mcq-32": "「光學中產生全內反射相關的臨界角度」與本句語境不同。",
-        "critical-mcq-36": "「研究並批判社會、文化及權力結構的理論傳統」與本句語境不同。",
-        "critical-mcq-31": "「核連鎖反應剛好能自我維持的狀態」與本句語境不同。"
+        "critical-mcq-34": "本句的「Critical」指「可能造成極嚴重安全影響的漏洞」。",
+        "critical-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-34"
     },
@@ -2529,11 +2321,9 @@ export default {
       "masked": "Negotiations have reached a ____.",
       "options": [
         "critical-mcq-25",
-        "critical-mcq-24",
-        "critical-mcq-26",
-        "critical-mcq-23",
-        "critical-mcq-27",
-        "critical-mcq-22"
+        "critical-mcq-31",
+        "critical-pdf-001",
+        "critical-mcq-15"
       ],
       "explanation": "本句的「critical point」指「發展至可能產生重大結果／轉變的關鍵點」。",
       "sentenceIndex": 110,
@@ -2542,12 +2332,10 @@ export default {
         "critical point"
       ],
       "optionReasons": {
-        "critical-mcq-25": "本句指「發展至可能產生重大結果／轉變的關鍵點」。",
-        "critical-mcq-24": "「決定項目最早完成時間的關鍵任務序列」與本句語境不同。",
-        "critical-mcq-26": "「函數導數為零或不存在等具有重要性質的點」與本句語境不同。",
-        "critical-mcq-23": "「社會／經濟正常運作所必需的重要基礎設施」與本句語境不同。",
-        "critical-mcq-27": "「物質液相和氣相性質界線消失的臨界狀態」與本句語境不同。",
-        "critical-mcq-22": "「失效可能造成重大安全後果的」與本句語境不同。"
+        "critical-mcq-25": "本句的「critical point」指「發展至可能產生重大結果／轉變的關鍵點」。",
+        "critical-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "critical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-25"
     },
@@ -2559,11 +2347,9 @@ export default {
       "masked": "The situation is approaching a ____ point.",
       "options": [
         "critical-mcq-25",
-        "critical-mcq-24",
-        "critical-mcq-26",
-        "critical-mcq-23",
+        "critical-mcq-15",
         "critical-mcq-27",
-        "critical-mcq-22"
+        "critical-mcq-37"
       ],
       "explanation": "本句的「critical」指「發展至可能產生重大結果／轉變的關鍵點」。",
       "sentenceIndex": 111,
@@ -2572,12 +2358,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-25": "本句指「發展至可能產生重大結果／轉變的關鍵點」。",
-        "critical-mcq-24": "「決定項目最早完成時間的關鍵任務序列」與本句語境不同。",
-        "critical-mcq-26": "「函數導數為零或不存在等具有重要性質的點」與本句語境不同。",
-        "critical-mcq-23": "「社會／經濟正常運作所必需的重要基礎設施」與本句語境不同。",
-        "critical-mcq-27": "「物質液相和氣相性質界線消失的臨界狀態」與本句語境不同。",
-        "critical-mcq-22": "「失效可能造成重大安全後果的」與本句語境不同。"
+        "critical-mcq-25": "本句的「critical」指「發展至可能產生重大結果／轉變的關鍵點」。",
+        "critical-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-25"
     },
@@ -2589,10 +2373,8 @@ export default {
       "masked": "Early childhood is a ____ for language development.",
       "options": [
         "critical-mcq-35",
-        "critical-mcq-34",
-        "critical-mcq-36",
         "critical-mcq-33",
-        "critical-mcq-37",
+        "critical-mcq-10",
         "critical-mcq-32"
       ],
       "explanation": "本句的「critical period」指「某結果／發展對時間特別敏感的關鍵時段」。",
@@ -2602,12 +2384,10 @@ export default {
         "critical period"
       ],
       "optionReasons": {
-        "critical-mcq-35": "本句指「某結果／發展對時間特別敏感的關鍵時段」。",
-        "critical-mcq-34": "「可能造成極嚴重安全影響的漏洞」與本句語境不同。",
-        "critical-mcq-36": "「研究並批判社會、文化及權力結構的理論傳統」與本句語境不同。",
-        "critical-mcq-33": "「嚴重到足以中止／嚴重破壞系統運作的錯誤」與本句語境不同。",
-        "critical-mcq-37": "「以分析或挑剔方式審視事物的眼光」與本句語境不同。",
-        "critical-mcq-32": "「光學中產生全內反射相關的臨界角度」與本句語境不同。"
+        "critical-mcq-35": "本句的「critical period」指「某結果／發展對時間特別敏感的關鍵時段」。",
+        "critical-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-35"
     },
@@ -2619,11 +2399,9 @@ export default {
       "masked": "The first few hours are a ____ period for treatment.",
       "options": [
         "critical-mcq-35",
-        "critical-mcq-34",
-        "critical-mcq-36",
-        "critical-mcq-33",
-        "critical-mcq-37",
-        "critical-mcq-32"
+        "critical-mcq-10",
+        "critical-mcq-15",
+        "critical-mcq-01"
       ],
       "explanation": "本句的「critical」指「某結果／發展對時間特別敏感的關鍵時段」。",
       "sentenceIndex": 115,
@@ -2632,12 +2410,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-35": "本句指「某結果／發展對時間特別敏感的關鍵時段」。",
-        "critical-mcq-34": "「可能造成極嚴重安全影響的漏洞」與本句語境不同。",
-        "critical-mcq-36": "「研究並批判社會、文化及權力結構的理論傳統」與本句語境不同。",
-        "critical-mcq-33": "「嚴重到足以中止／嚴重破壞系統運作的錯誤」與本句語境不同。",
-        "critical-mcq-37": "「以分析或挑剔方式審視事物的眼光」與本句語境不同。",
-        "critical-mcq-32": "「光學中產生全內反射相關的臨界角度」與本句語境不同。"
+        "critical-mcq-35": "本句的「critical」指「某結果／發展對時間特別敏感的關鍵時段」。",
+        "critical-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-35"
     },
@@ -2649,11 +2425,9 @@ export default {
       "masked": "The course introduces ____.",
       "options": [
         "critical-mcq-36",
-        "critical-mcq-35",
-        "critical-mcq-37",
-        "critical-mcq-34",
-        "critical-mcq-38",
-        "critical-mcq-33"
+        "critical-mcq-40",
+        "critical-mcq-12",
+        "critical-mcq-29"
       ],
       "explanation": "本句的「critical theory」指「研究並批判社會、文化及權力結構的理論傳統」。",
       "sentenceIndex": 120,
@@ -2662,12 +2436,10 @@ export default {
         "critical theory"
       ],
       "optionReasons": {
-        "critical-mcq-36": "本句指「研究並批判社會、文化及權力結構的理論傳統」。",
-        "critical-mcq-35": "「某結果／發展對時間特別敏感的關鍵時段」與本句語境不同。",
-        "critical-mcq-37": "「以分析或挑剔方式審視事物的眼光」與本句語境不同。",
-        "critical-mcq-34": "「可能造成極嚴重安全影響的漏洞」與本句語境不同。",
-        "critical-mcq-38": "「已嚴重到造成重大風險／問題的短缺」與本句語境不同。",
-        "critical-mcq-33": "「嚴重到足以中止／嚴重破壞系統運作的錯誤」與本句語境不同。"
+        "critical-mcq-36": "本句的「critical theory」指「研究並批判社會、文化及權力結構的理論傳統」。",
+        "critical-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-36"
     },
@@ -2679,11 +2451,9 @@ export default {
       "masked": "____ theory examines structures of society and power.",
       "options": [
         "critical-mcq-36",
-        "critical-mcq-35",
-        "critical-mcq-37",
-        "critical-mcq-34",
-        "critical-mcq-38",
-        "critical-mcq-33"
+        "critical-reviewed-c703dcee30",
+        "critical-pdf-001",
+        "critical-mcq-32"
       ],
       "explanation": "本句的「Critical」指「研究並批判社會、文化及權力結構的理論傳統」。",
       "sentenceIndex": 121,
@@ -2692,12 +2462,10 @@ export default {
         "Critical"
       ],
       "optionReasons": {
-        "critical-mcq-36": "本句指「研究並批判社會、文化及權力結構的理論傳統」。",
-        "critical-mcq-35": "「某結果／發展對時間特別敏感的關鍵時段」與本句語境不同。",
-        "critical-mcq-37": "「以分析或挑剔方式審視事物的眼光」與本句語境不同。",
-        "critical-mcq-34": "「可能造成極嚴重安全影響的漏洞」與本句語境不同。",
-        "critical-mcq-38": "「已嚴重到造成重大風險／問題的短缺」與本句語境不同。",
-        "critical-mcq-33": "「嚴重到足以中止／嚴重破壞系統運作的錯誤」與本句語境不同。"
+        "critical-mcq-36": "本句的「Critical」指「研究並批判社會、文化及權力結構的理論傳統」。",
+        "critical-reviewed-c703dcee30": "請比較這個意思與句子中標示的用法。",
+        "critical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-36"
     },
@@ -2709,11 +2477,9 @@ export default {
       "masked": "Read your own work with a ____.",
       "options": [
         "critical-mcq-37",
-        "critical-mcq-36",
-        "critical-mcq-38",
-        "critical-mcq-35",
-        "critical-mcq-39",
-        "critical-mcq-34"
+        "critical-mcq-27",
+        "critical-mcq-18",
+        "critical-mcq-39"
       ],
       "explanation": "本句的「critical eye」指「以分析或挑剔方式審視事物的眼光」。",
       "sentenceIndex": 129,
@@ -2722,12 +2488,10 @@ export default {
         "critical eye"
       ],
       "optionReasons": {
-        "critical-mcq-37": "本句指「以分析或挑剔方式審視事物的眼光」。",
-        "critical-mcq-36": "「研究並批判社會、文化及權力結構的理論傳統」與本句語境不同。",
-        "critical-mcq-38": "「已嚴重到造成重大風險／問題的短缺」與本句語境不同。",
-        "critical-mcq-35": "「某結果／發展對時間特別敏感的關鍵時段」與本句語境不同。",
-        "critical-mcq-39": "「重要程度極高、至關重要」與本句語境不同。",
-        "critical-mcq-34": "「可能造成極嚴重安全影響的漏洞」與本句語境不同。"
+        "critical-mcq-37": "本句的「critical eye」指「以分析或挑剔方式審視事物的眼光」。",
+        "critical-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-37"
     },
@@ -2739,11 +2503,9 @@ export default {
       "masked": "She examined the design with a ____ eye.",
       "options": [
         "critical-mcq-37",
-        "critical-mcq-36",
-        "critical-mcq-38",
-        "critical-mcq-35",
-        "critical-mcq-39",
-        "critical-mcq-34"
+        "critical-mcq-30",
+        "critical-mcq-34",
+        "critical-mcq-11"
       ],
       "explanation": "本句的「critical」指「以分析或挑剔方式審視事物的眼光」。",
       "sentenceIndex": 130,
@@ -2752,12 +2514,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-37": "本句指「以分析或挑剔方式審視事物的眼光」。",
-        "critical-mcq-36": "「研究並批判社會、文化及權力結構的理論傳統」與本句語境不同。",
-        "critical-mcq-38": "「已嚴重到造成重大風險／問題的短缺」與本句語境不同。",
-        "critical-mcq-35": "「某結果／發展對時間特別敏感的關鍵時段」與本句語境不同。",
-        "critical-mcq-39": "「重要程度極高、至關重要」與本句語境不同。",
-        "critical-mcq-34": "「可能造成極嚴重安全影響的漏洞」與本句語境不同。"
+        "critical-mcq-37": "本句的「critical」指「以分析或挑剔方式審視事物的眼光」。",
+        "critical-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-37"
     },
@@ -2769,11 +2529,9 @@ export default {
       "masked": "The hospital faces a ____ of staff.",
       "options": [
         "critical-mcq-38",
-        "critical-mcq-37",
-        "critical-mcq-39",
-        "critical-mcq-36",
-        "critical-mcq-40",
-        "critical-mcq-35"
+        "critical-mcq-16",
+        "critical-mcq-27",
+        "critical-mcq-30"
       ],
       "explanation": "本句的「critical shortage」指「已嚴重到造成重大風險／問題的短缺」。",
       "sentenceIndex": 131,
@@ -2782,12 +2540,10 @@ export default {
         "critical shortage"
       ],
       "optionReasons": {
-        "critical-mcq-38": "本句指「已嚴重到造成重大風險／問題的短缺」。",
-        "critical-mcq-37": "「以分析或挑剔方式審視事物的眼光」與本句語境不同。",
-        "critical-mcq-39": "「重要程度極高、至關重要」與本句語境不同。",
-        "critical-mcq-36": "「研究並批判社會、文化及權力結構的理論傳統」與本句語境不同。",
-        "critical-mcq-40": "「低到已造成危險／嚴重問題的程度」與本句語境不同。",
-        "critical-mcq-35": "「某結果／發展對時間特別敏感的關鍵時段」與本句語境不同。"
+        "critical-mcq-38": "本句的「critical shortage」指「已嚴重到造成重大風險／問題的短缺」。",
+        "critical-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-38"
     },
@@ -2799,11 +2555,9 @@ export default {
       "masked": "There is a ____ shortage of clean water.",
       "options": [
         "critical-mcq-38",
+        "critical-mcq-30",
         "critical-mcq-37",
-        "critical-mcq-39",
-        "critical-mcq-36",
-        "critical-mcq-40",
-        "critical-mcq-35"
+        "critical-mcq-36"
       ],
       "explanation": "本句的「critical」指「已嚴重到造成重大風險／問題的短缺」。",
       "sentenceIndex": 132,
@@ -2812,12 +2566,10 @@ export default {
         "critical"
       ],
       "optionReasons": {
-        "critical-mcq-38": "本句指「已嚴重到造成重大風險／問題的短缺」。",
-        "critical-mcq-37": "「以分析或挑剔方式審視事物的眼光」與本句語境不同。",
-        "critical-mcq-39": "「重要程度極高、至關重要」與本句語境不同。",
-        "critical-mcq-36": "「研究並批判社會、文化及權力結構的理論傳統」與本句語境不同。",
-        "critical-mcq-40": "「低到已造成危險／嚴重問題的程度」與本句語境不同。",
-        "critical-mcq-35": "「某結果／發展對時間特別敏感的關鍵時段」與本句語境不同。"
+        "critical-mcq-38": "本句的「critical」指「已嚴重到造成重大風險／問題的短缺」。",
+        "critical-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-38"
     },
@@ -2829,11 +2581,9 @@ export default {
       "masked": "Water levels are ____.",
       "options": [
         "critical-mcq-40",
-        "critical-mcq-39",
-        "critical-mcq-38",
-        "critical-mcq-37",
-        "critical-mcq-36",
-        "critical-mcq-35"
+        "critical-mcq-01",
+        "critical-mcq-35",
+        "critical-mcq-31"
       ],
       "explanation": "本句的「critically low」指「低到已造成危險／嚴重問題的程度」。",
       "sentenceIndex": 133,
@@ -2842,12 +2592,10 @@ export default {
         "critically low"
       ],
       "optionReasons": {
-        "critical-mcq-40": "本句指「低到已造成危險／嚴重問題的程度」。",
-        "critical-mcq-39": "「重要程度極高、至關重要」與本句語境不同。",
-        "critical-mcq-38": "「已嚴重到造成重大風險／問題的短缺」與本句語境不同。",
-        "critical-mcq-37": "「以分析或挑剔方式審視事物的眼光」與本句語境不同。",
-        "critical-mcq-36": "「研究並批判社會、文化及權力結構的理論傳統」與本句語境不同。",
-        "critical-mcq-35": "「某結果／發展對時間特別敏感的關鍵時段」與本句語境不同。"
+        "critical-mcq-40": "本句的「critically low」指「低到已造成危險／嚴重問題的程度」。",
+        "critical-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-40"
     },
@@ -2859,11 +2607,9 @@ export default {
       "masked": "Her blood pressure became ____ low.",
       "options": [
         "critical-mcq-40",
-        "critical-mcq-39",
-        "critical-mcq-38",
-        "critical-mcq-37",
-        "critical-mcq-36",
-        "critical-mcq-35"
+        "critical-mcq-35",
+        "critical-mcq-01",
+        "critical-mcq-31"
       ],
       "explanation": "本句的「critically」指「低到已造成危險／嚴重問題的程度」。",
       "sentenceIndex": 134,
@@ -2872,12 +2618,10 @@ export default {
         "critically"
       ],
       "optionReasons": {
-        "critical-mcq-40": "本句指「低到已造成危險／嚴重問題的程度」。",
-        "critical-mcq-39": "「重要程度極高、至關重要」與本句語境不同。",
-        "critical-mcq-38": "「已嚴重到造成重大風險／問題的短缺」與本句語境不同。",
-        "critical-mcq-37": "「以分析或挑剔方式審視事物的眼光」與本句語境不同。",
-        "critical-mcq-36": "「研究並批判社會、文化及權力結構的理論傳統」與本句語境不同。",
-        "critical-mcq-35": "「某結果／發展對時間特別敏感的關鍵時段」與本句語境不同。"
+        "critical-mcq-40": "本句的「critically」指「低到已造成危險／嚴重問題的程度」。",
+        "critical-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-40"
     },
@@ -2889,11 +2633,9 @@ export default {
       "masked": "Accurate information is ____.",
       "options": [
         "critical-mcq-39",
-        "critical-mcq-38",
-        "critical-mcq-40",
-        "critical-mcq-37",
-        "critical-mcq-36",
-        "critical-mcq-35"
+        "critical-mcq-29",
+        "critical-mcq-18",
+        "critical-mcq-36"
       ],
       "explanation": "本句的「critically important」指「重要程度極高、至關重要」。",
       "sentenceIndex": 135,
@@ -2902,12 +2644,10 @@ export default {
         "critically important"
       ],
       "optionReasons": {
-        "critical-mcq-39": "本句指「重要程度極高、至關重要」。",
-        "critical-mcq-38": "「已嚴重到造成重大風險／問題的短缺」與本句語境不同。",
-        "critical-mcq-40": "「低到已造成危險／嚴重問題的程度」與本句語境不同。",
-        "critical-mcq-37": "「以分析或挑剔方式審視事物的眼光」與本句語境不同。",
-        "critical-mcq-36": "「研究並批判社會、文化及權力結構的理論傳統」與本句語境不同。",
-        "critical-mcq-35": "「某結果／發展對時間特別敏感的關鍵時段」與本句語境不同。"
+        "critical-mcq-39": "本句的「critically important」指「重要程度極高、至關重要」。",
+        "critical-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-39"
     },
@@ -2919,11 +2659,9 @@ export default {
       "masked": "Sleep is ____ important for learning.",
       "options": [
         "critical-mcq-39",
-        "critical-mcq-38",
-        "critical-mcq-40",
-        "critical-mcq-37",
-        "critical-mcq-36",
-        "critical-mcq-35"
+        "critical-pdf-001",
+        "critical-mcq-19",
+        "critical-mcq-29"
       ],
       "explanation": "本句的「critically」指「重要程度極高、至關重要」。",
       "sentenceIndex": 136,
@@ -2932,12 +2670,10 @@ export default {
         "critically"
       ],
       "optionReasons": {
-        "critical-mcq-39": "本句指「重要程度極高、至關重要」。",
-        "critical-mcq-38": "「已嚴重到造成重大風險／問題的短缺」與本句語境不同。",
-        "critical-mcq-40": "「低到已造成危險／嚴重問題的程度」與本句語境不同。",
-        "critical-mcq-37": "「以分析或挑剔方式審視事物的眼光」與本句語境不同。",
-        "critical-mcq-36": "「研究並批判社會、文化及權力結構的理論傳統」與本句語境不同。",
-        "critical-mcq-35": "「某結果／發展對時間特別敏感的關鍵時段」與本句語境不同。"
+        "critical-mcq-39": "本句的「critically」指「重要程度極高、至關重要」。",
+        "critical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "critical-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "critical-mcq-39"
     }
@@ -2949,5 +2685,7 @@ export default {
     "sha256": "cf25f449d35ceb97d03c0abf12e16971c70d08c95fec98b45b0550fb01f91ead",
     "pages": 48
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

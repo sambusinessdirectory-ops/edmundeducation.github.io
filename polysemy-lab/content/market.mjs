@@ -1769,11 +1769,9 @@ export default {
       "masked": "We bought fresh vegetables at the local ____.",
       "options": [
         "market-mcq-01",
-        "market-mcq-02",
-        "market-mcq-03",
-        "market-mcq-04",
-        "market-mcq-05",
-        "market-mcq-06"
+        "market-mcq-67",
+        "market-mcq-63",
+        "market-mcq-59"
       ],
       "explanation": "本句的「market」指「市場；街市 place of trade」。",
       "sentenceIndex": 0,
@@ -1782,12 +1780,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-01": "本句指「市場；街市 place of trade」。",
-        "market-mcq-02": "「街頭市集 outdoor retail」與本句語境不同。",
-        "market-mcq-03": "「農夫市集 producer-to-customer」與本句語境不同。",
-        "market-mcq-04": "「跳蚤市場 second-hand goods」與本句語境不同。",
-        "market-mcq-05": "「市場攤檔 retail stall」與本句語境不同。",
-        "market-mcq-06": "「市場；客群 potential customers」與本句語境不同。"
+        "market-mcq-01": "本句的「market」指「市場；街市 place of trade」。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-01"
     },
@@ -1799,11 +1795,9 @@ export default {
       "masked": "The ____ is busiest early in the morning.",
       "options": [
         "market-mcq-01",
-        "market-mcq-02",
-        "market-mcq-03",
-        "market-mcq-04",
-        "market-mcq-05",
-        "market-mcq-06"
+        "market-mcq-77",
+        "market-mcq-62",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「市場；街市 place of trade」。",
       "sentenceIndex": 1,
@@ -1812,12 +1806,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-01": "本句指「市場；街市 place of trade」。",
-        "market-mcq-02": "「街頭市集 outdoor retail」與本句語境不同。",
-        "market-mcq-03": "「農夫市集 producer-to-customer」與本句語境不同。",
-        "market-mcq-04": "「跳蚤市場 second-hand goods」與本句語境不同。",
-        "market-mcq-05": "「市場攤檔 retail stall」與本句語境不同。",
-        "market-mcq-06": "「市場；客群 potential customers」與本句語境不同。"
+        "market-mcq-01": "本句的「market」指「市場；街市 place of trade」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-01"
     },
@@ -1829,11 +1821,9 @@ export default {
       "masked": "We spent the morning exploring the street ____.",
       "options": [
         "market-mcq-02",
-        "market-mcq-01",
-        "market-mcq-03",
-        "market-mcq-04",
-        "market-mcq-05",
-        "market-mcq-06"
+        "market-mcq-63",
+        "market-mcq-79",
+        "market-mcq-59"
       ],
       "explanation": "本句的「market」指「街頭市集 outdoor retail」。",
       "sentenceIndex": 4,
@@ -1842,12 +1832,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-02": "本句指「街頭市集 outdoor retail」。",
-        "market-mcq-01": "「市場；街市 place of trade」與本句語境不同。",
-        "market-mcq-03": "「農夫市集 producer-to-customer」與本句語境不同。",
-        "market-mcq-04": "「跳蚤市場 second-hand goods」與本句語境不同。",
-        "market-mcq-05": "「市場攤檔 retail stall」與本句語境不同。",
-        "market-mcq-06": "「市場；客群 potential customers」與本句語境不同。"
+        "market-mcq-02": "本句的「market」指「街頭市集 outdoor retail」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-02"
     },
@@ -1859,11 +1847,9 @@ export default {
       "masked": "The street ____ sells clothes, food and household goods.",
       "options": [
         "market-mcq-02",
-        "market-mcq-01",
-        "market-mcq-03",
-        "market-mcq-04",
-        "market-mcq-05",
-        "market-mcq-06"
+        "market-mcq-79",
+        "market-mcq-67",
+        "market-mcq-64"
       ],
       "explanation": "本句的「market」指「街頭市集 outdoor retail」。",
       "sentenceIndex": 5,
@@ -1872,12 +1858,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-02": "本句指「街頭市集 outdoor retail」。",
-        "market-mcq-01": "「市場；街市 place of trade」與本句語境不同。",
-        "market-mcq-03": "「農夫市集 producer-to-customer」與本句語境不同。",
-        "market-mcq-04": "「跳蚤市場 second-hand goods」與本句語境不同。",
-        "market-mcq-05": "「市場攤檔 retail stall」與本句語境不同。",
-        "market-mcq-06": "「市場；客群 potential customers」與本句語境不同。"
+        "market-mcq-02": "本句的「market」指「街頭市集 outdoor retail」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-02"
     },
@@ -1889,11 +1873,9 @@ export default {
       "masked": "We buy fruit from a farmers' ____.",
       "options": [
         "market-mcq-03",
-        "market-mcq-02",
-        "market-mcq-04",
-        "market-mcq-01",
-        "market-mcq-05",
-        "market-mcq-06"
+        "market-mcq-64",
+        "market-mcq-67",
+        "market-mcq-59"
       ],
       "explanation": "本句的「market」指「農夫市集 producer-to-customer」。",
       "sentenceIndex": 6,
@@ -1902,12 +1884,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-03": "本句指「農夫市集 producer-to-customer」。",
-        "market-mcq-02": "「街頭市集 outdoor retail」與本句語境不同。",
-        "market-mcq-04": "「跳蚤市場 second-hand goods」與本句語境不同。",
-        "market-mcq-01": "「市場；街市 place of trade」與本句語境不同。",
-        "market-mcq-05": "「市場攤檔 retail stall」與本句語境不同。",
-        "market-mcq-06": "「市場；客群 potential customers」與本句語境不同。"
+        "market-mcq-03": "本句的「market」指「農夫市集 producer-to-customer」。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-03"
     },
@@ -1919,11 +1899,9 @@ export default {
       "masked": "Local producers sell directly to customers at the farmers' ____.",
       "options": [
         "market-mcq-03",
-        "market-mcq-02",
-        "market-mcq-04",
-        "market-mcq-01",
-        "market-mcq-05",
-        "market-mcq-06"
+        "market-mcq-64",
+        "market-mcq-67",
+        "market-mcq-63"
       ],
       "explanation": "本句的「market」指「農夫市集 producer-to-customer」。",
       "sentenceIndex": 7,
@@ -1932,12 +1910,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-03": "本句指「農夫市集 producer-to-customer」。",
-        "market-mcq-02": "「街頭市集 outdoor retail」與本句語境不同。",
-        "market-mcq-04": "「跳蚤市場 second-hand goods」與本句語境不同。",
-        "market-mcq-01": "「市場；街市 place of trade」與本句語境不同。",
-        "market-mcq-05": "「市場攤檔 retail stall」與本句語境不同。",
-        "market-mcq-06": "「市場；客群 potential customers」與本句語境不同。"
+        "market-mcq-03": "本句的「market」指「農夫市集 producer-to-customer」。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-03"
     },
@@ -1949,11 +1925,9 @@ export default {
       "masked": "She found the old lamp at a flea ____.",
       "options": [
         "market-mcq-04",
-        "market-mcq-03",
-        "market-mcq-05",
-        "market-mcq-02",
-        "market-mcq-06",
-        "market-mcq-01"
+        "market-mcq-67",
+        "market-mcq-59",
+        "market-mcq-63"
       ],
       "explanation": "本句的「market」指「跳蚤市場 second-hand goods」。",
       "sentenceIndex": 8,
@@ -1962,12 +1936,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-04": "本句指「跳蚤市場 second-hand goods」。",
-        "market-mcq-03": "「農夫市集 producer-to-customer」與本句語境不同。",
-        "market-mcq-05": "「市場攤檔 retail stall」與本句語境不同。",
-        "market-mcq-02": "「街頭市集 outdoor retail」與本句語境不同。",
-        "market-mcq-06": "「市場；客群 potential customers」與本句語境不同。",
-        "market-mcq-01": "「市場；街市 place of trade」與本句語境不同。"
+        "market-mcq-04": "本句的「market」指「跳蚤市場 second-hand goods」。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-04"
     },
@@ -1979,11 +1951,9 @@ export default {
       "masked": "Flea ____ often sell second-hand goods.",
       "options": [
         "market-mcq-04",
-        "market-mcq-03",
-        "market-mcq-05",
-        "market-mcq-02",
-        "market-mcq-06",
-        "market-mcq-01"
+        "market-mcq-79",
+        "market-mcq-64",
+        "market-mcq-59"
       ],
       "explanation": "本句的「markets」指「跳蚤市場 second-hand goods」。",
       "sentenceIndex": 9,
@@ -1992,12 +1962,10 @@ export default {
         "markets"
       ],
       "optionReasons": {
-        "market-mcq-04": "本句指「跳蚤市場 second-hand goods」。",
-        "market-mcq-03": "「農夫市集 producer-to-customer」與本句語境不同。",
-        "market-mcq-05": "「市場攤檔 retail stall」與本句語境不同。",
-        "market-mcq-02": "「街頭市集 outdoor retail」與本句語境不同。",
-        "market-mcq-06": "「市場；客群 potential customers」與本句語境不同。",
-        "market-mcq-01": "「市場；街市 place of trade」與本句語境不同。"
+        "market-mcq-04": "本句的「markets」指「跳蚤市場 second-hand goods」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-04"
     },
@@ -2009,11 +1977,9 @@ export default {
       "masked": "He runs a fruit ____ stall.",
       "options": [
         "market-mcq-05",
-        "market-mcq-04",
-        "market-mcq-06",
-        "market-mcq-03",
-        "market-mcq-07",
-        "market-mcq-02"
+        "market-mcq-59",
+        "market-mcq-79",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「市場攤檔 retail stall」。",
       "sentenceIndex": 10,
@@ -2022,12 +1988,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-05": "本句指「市場攤檔 retail stall」。",
-        "market-mcq-04": "「跳蚤市場 second-hand goods」與本句語境不同。",
-        "market-mcq-06": "「市場；客群 potential customers」與本句語境不同。",
-        "market-mcq-03": "「農夫市集 producer-to-customer」與本句語境不同。",
-        "market-mcq-07": "「的市場／需求 buyer demand」與本句語境不同。",
-        "market-mcq-02": "「街頭市集 outdoor retail」與本句語境不同。"
+        "market-mcq-05": "本句的「market」指「市場攤檔 retail stall」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-05"
     },
@@ -2039,11 +2003,9 @@ export default {
       "masked": "Several ____ stalls were selling handmade goods.",
       "options": [
         "market-mcq-05",
-        "market-mcq-04",
-        "market-mcq-06",
-        "market-mcq-03",
-        "market-mcq-07",
-        "market-mcq-02"
+        "market-mcq-62",
+        "market-mcq-67",
+        "market-mcq-63"
       ],
       "explanation": "本句的「market」指「市場攤檔 retail stall」。",
       "sentenceIndex": 11,
@@ -2052,12 +2014,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-05": "本句指「市場攤檔 retail stall」。",
-        "market-mcq-04": "「跳蚤市場 second-hand goods」與本句語境不同。",
-        "market-mcq-06": "「市場；客群 potential customers」與本句語境不同。",
-        "market-mcq-03": "「農夫市集 producer-to-customer」與本句語境不同。",
-        "market-mcq-07": "「的市場／需求 buyer demand」與本句語境不同。",
-        "market-mcq-02": "「街頭市集 outdoor retail」與本句語境不同。"
+        "market-mcq-05": "本句的「market」指「市場攤檔 retail stall」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-05"
     },
@@ -2069,11 +2029,9 @@ export default {
       "masked": "There is a large ____ for affordable electric cars.",
       "options": [
         "market-mcq-06",
-        "market-mcq-05",
-        "market-mcq-07",
-        "market-mcq-04",
-        "market-mcq-08",
-        "market-mcq-03"
+        "market-mcq-59",
+        "market-mcq-62",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「市場；客群 potential customers」。",
       "sentenceIndex": 14,
@@ -2082,12 +2040,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-06": "本句指「市場；客群 potential customers」。",
-        "market-mcq-05": "「市場攤檔 retail stall」與本句語境不同。",
-        "market-mcq-07": "「的市場／需求 buyer demand」與本句語境不同。",
-        "market-mcq-04": "「跳蚤市場 second-hand goods」與本句語境不同。",
-        "market-mcq-08": "「目標市場 chosen customers」與本句語境不同。",
-        "market-mcq-03": "「農夫市集 producer-to-customer」與本句語境不同。"
+        "market-mcq-06": "本句的「market」指「市場；客群 potential customers」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-06"
     },
@@ -2099,11 +2055,9 @@ export default {
       "masked": "The company hopes to reach a younger ____.",
       "options": [
         "market-mcq-06",
-        "market-mcq-05",
-        "market-mcq-07",
-        "market-mcq-04",
-        "market-mcq-08",
-        "market-mcq-03"
+        "market-mcq-63",
+        "market-mcq-77",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「市場；客群 potential customers」。",
       "sentenceIndex": 15,
@@ -2112,12 +2066,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-06": "本句指「市場；客群 potential customers」。",
-        "market-mcq-05": "「市場攤檔 retail stall」與本句語境不同。",
-        "market-mcq-07": "「的市場／需求 buyer demand」與本句語境不同。",
-        "market-mcq-04": "「跳蚤市場 second-hand goods」與本句語境不同。",
-        "market-mcq-08": "「目標市場 chosen customers」與本句語境不同。",
-        "market-mcq-03": "「農夫市集 producer-to-customer」與本句語境不同。"
+        "market-mcq-06": "本句的「market」指「市場；客群 potential customers」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-06"
     },
@@ -2129,11 +2081,9 @@ export default {
       "masked": "Young professionals are the product's target ____.",
       "options": [
         "market-mcq-08",
-        "market-mcq-07",
-        "market-mcq-09",
-        "market-mcq-06",
-        "market-mcq-10",
-        "market-mcq-05"
+        "market-mcq-59",
+        "market-mcq-77",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「目標市場 chosen customers」。",
       "sentenceIndex": 20,
@@ -2142,12 +2092,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-08": "本句指「目標市場 chosen customers」。",
-        "market-mcq-07": "「的市場／需求 buyer demand」與本句語境不同。",
-        "market-mcq-09": "「細分市場 customer subgroup」與本句語境不同。",
-        "market-mcq-06": "「市場；客群 potential customers」與本句語境不同。",
-        "market-mcq-10": "「大眾市場 broad customers」與本句語境不同。",
-        "market-mcq-05": "「市場攤檔 retail stall」與本句語境不同。"
+        "market-mcq-08": "本句的「market」指「目標市場 chosen customers」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-08"
     },
@@ -2159,11 +2107,9 @@ export default {
       "masked": "The advertisement was designed for a specific target ____.",
       "options": [
         "market-mcq-08",
-        "market-mcq-07",
-        "market-mcq-09",
-        "market-mcq-06",
-        "market-mcq-10",
-        "market-mcq-05"
+        "market-mcq-63",
+        "market-mcq-67",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「目標市場 chosen customers」。",
       "sentenceIndex": 21,
@@ -2172,12 +2118,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-08": "本句指「目標市場 chosen customers」。",
-        "market-mcq-07": "「的市場／需求 buyer demand」與本句語境不同。",
-        "market-mcq-09": "「細分市場 customer subgroup」與本句語境不同。",
-        "market-mcq-06": "「市場；客群 potential customers」與本句語境不同。",
-        "market-mcq-10": "「大眾市場 broad customers」與本句語境不同。",
-        "market-mcq-05": "「市場攤檔 retail stall」與本句語境不同。"
+        "market-mcq-08": "本句的「market」指「目標市場 chosen customers」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-08"
     },
@@ -2189,11 +2133,9 @@ export default {
       "masked": "Luxury travellers form a distinct ____ segment.",
       "options": [
         "market-mcq-09",
-        "market-mcq-08",
-        "market-mcq-10",
-        "market-mcq-07",
-        "market-mcq-11",
-        "market-mcq-06"
+        "market-mcq-62",
+        "market-mcq-63",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「細分市場 customer subgroup」。",
       "sentenceIndex": 22,
@@ -2202,12 +2144,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-09": "本句指「細分市場 customer subgroup」。",
-        "market-mcq-08": "「目標市場 chosen customers」與本句語境不同。",
-        "market-mcq-10": "「大眾市場 broad customers」與本句語境不同。",
-        "market-mcq-07": "「的市場／需求 buyer demand」與本句語境不同。",
-        "market-mcq-11": "「利基／小眾市場 specialized customers」與本句語境不同。",
-        "market-mcq-06": "「市場；客群 potential customers」與本句語境不同。"
+        "market-mcq-09": "本句的「market」指「細分市場 customer subgroup」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-09"
     },
@@ -2219,11 +2159,9 @@ export default {
       "masked": "The company serves several different ____ segments.",
       "options": [
         "market-mcq-09",
-        "market-mcq-08",
-        "market-mcq-10",
-        "market-mcq-07",
-        "market-mcq-11",
-        "market-mcq-06"
+        "market-mcq-62",
+        "market-mcq-67",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「細分市場 customer subgroup」。",
       "sentenceIndex": 23,
@@ -2232,12 +2170,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-09": "本句指「細分市場 customer subgroup」。",
-        "market-mcq-08": "「目標市場 chosen customers」與本句語境不同。",
-        "market-mcq-10": "「大眾市場 broad customers」與本句語境不同。",
-        "market-mcq-07": "「的市場／需求 buyer demand」與本句語境不同。",
-        "market-mcq-11": "「利基／小眾市場 specialized customers」與本句語境不同。",
-        "market-mcq-06": "「市場；客群 potential customers」與本句語境不同。"
+        "market-mcq-09": "本句的「market」指「細分市場 customer subgroup」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-09"
     },
@@ -2249,11 +2185,9 @@ export default {
       "masked": "The product is designed for the mass ____.",
       "options": [
         "market-mcq-10",
-        "market-mcq-09",
-        "market-mcq-11",
-        "market-mcq-08",
-        "market-mcq-12",
-        "market-mcq-07"
+        "market-mcq-62",
+        "market-mcq-67",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「大眾市場 broad customers」。",
       "sentenceIndex": 26,
@@ -2262,12 +2196,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-10": "本句指「大眾市場 broad customers」。",
-        "market-mcq-09": "「細分市場 customer subgroup」與本句語境不同。",
-        "market-mcq-11": "「利基／小眾市場 specialized customers」與本句語境不同。",
-        "market-mcq-08": "「目標市場 chosen customers」與本句語境不同。",
-        "market-mcq-12": "「國內市場 home country」與本句語境不同。",
-        "market-mcq-07": "「的市場／需求 buyer demand」與本句語境不同。"
+        "market-mcq-10": "本句的「market」指「大眾市場 broad customers」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-10"
     },
@@ -2279,11 +2211,9 @@ export default {
       "masked": "The brand moved from a niche audience into the mass ____.",
       "options": [
         "market-mcq-10",
-        "market-mcq-09",
-        "market-mcq-11",
-        "market-mcq-08",
-        "market-mcq-12",
-        "market-mcq-07"
+        "market-mcq-63",
+        "market-mcq-67",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「大眾市場 broad customers」。",
       "sentenceIndex": 27,
@@ -2292,12 +2222,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-10": "本句指「大眾市場 broad customers」。",
-        "market-mcq-09": "「細分市場 customer subgroup」與本句語境不同。",
-        "market-mcq-11": "「利基／小眾市場 specialized customers」與本句語境不同。",
-        "market-mcq-08": "「目標市場 chosen customers」與本句語境不同。",
-        "market-mcq-12": "「國內市場 home country」與本句語境不同。",
-        "market-mcq-07": "「的市場／需求 buyer demand」與本句語境不同。"
+        "market-mcq-10": "本句的「market」指「大眾市場 broad customers」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-10"
     },
@@ -2309,11 +2237,9 @@ export default {
       "masked": "The company serves a small niche ____.",
       "options": [
         "market-mcq-11",
-        "market-mcq-10",
-        "market-mcq-12",
-        "market-mcq-09",
-        "market-mcq-13",
-        "market-mcq-08"
+        "market-mcq-79",
+        "market-mcq-62",
+        "market-mcq-67"
       ],
       "explanation": "本句的「market」指「利基／小眾市場 specialized customers」。",
       "sentenceIndex": 28,
@@ -2322,12 +2248,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-11": "本句指「利基／小眾市場 specialized customers」。",
-        "market-mcq-10": "「大眾市場 broad customers」與本句語境不同。",
-        "market-mcq-12": "「國內市場 home country」與本句語境不同。",
-        "market-mcq-09": "「細分市場 customer subgroup」與本句語境不同。",
-        "market-mcq-13": "「國際市場 foreign customers」與本句語境不同。",
-        "market-mcq-08": "「目標市場 chosen customers」與本句語境不同。"
+        "market-mcq-11": "本句的「market」指「利基／小眾市場 specialized customers」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-11"
     },
@@ -2339,11 +2263,9 @@ export default {
       "masked": "Specialist equipment often targets a niche ____.",
       "options": [
         "market-mcq-11",
-        "market-mcq-10",
-        "market-mcq-12",
-        "market-mcq-09",
-        "market-mcq-13",
-        "market-mcq-08"
+        "market-mcq-59",
+        "market-mcq-63",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「利基／小眾市場 specialized customers」。",
       "sentenceIndex": 29,
@@ -2352,12 +2274,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-11": "本句指「利基／小眾市場 specialized customers」。",
-        "market-mcq-10": "「大眾市場 broad customers」與本句語境不同。",
-        "market-mcq-12": "「國內市場 home country」與本句語境不同。",
-        "market-mcq-09": "「細分市場 customer subgroup」與本句語境不同。",
-        "market-mcq-13": "「國際市場 foreign customers」與本句語境不同。",
-        "market-mcq-08": "「目標市場 chosen customers」與本句語境不同。"
+        "market-mcq-11": "本句的「market」指「利基／小眾市場 specialized customers」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-11"
     },
@@ -2369,11 +2289,9 @@ export default {
       "masked": "Sales remain strong in the domestic ____.",
       "options": [
         "market-mcq-12",
-        "market-mcq-11",
-        "market-mcq-13",
-        "market-mcq-10",
-        "market-mcq-14",
-        "market-mcq-09"
+        "market-mcq-64",
+        "market-mcq-59",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「國內市場 home country」。",
       "sentenceIndex": 34,
@@ -2382,12 +2300,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-12": "本句指「國內市場 home country」。",
-        "market-mcq-11": "「利基／小眾市場 specialized customers」與本句語境不同。",
-        "market-mcq-13": "「國際市場 foreign customers」與本句語境不同。",
-        "market-mcq-10": "「大眾市場 broad customers」與本句語境不同。",
-        "market-mcq-14": "「進入市場 start selling」與本句語境不同。",
-        "market-mcq-09": "「細分市場 customer subgroup」與本句語境不同。"
+        "market-mcq-12": "本句的「market」指「國內市場 home country」。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-12"
     },
@@ -2399,11 +2315,9 @@ export default {
       "masked": "The company first focused on its domestic ____.",
       "options": [
         "market-mcq-12",
-        "market-mcq-11",
-        "market-mcq-13",
-        "market-mcq-10",
-        "market-mcq-14",
-        "market-mcq-09"
+        "market-mcq-67",
+        "market-mcq-79",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「國內市場 home country」。",
       "sentenceIndex": 35,
@@ -2412,12 +2326,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-12": "本句指「國內市場 home country」。",
-        "market-mcq-11": "「利基／小眾市場 specialized customers」與本句語境不同。",
-        "market-mcq-13": "「國際市場 foreign customers」與本句語境不同。",
-        "market-mcq-10": "「大眾市場 broad customers」與本句語境不同。",
-        "market-mcq-14": "「進入市場 start selling」與本句語境不同。",
-        "market-mcq-09": "「細分市場 customer subgroup」與本句語境不同。"
+        "market-mcq-12": "本句的「market」指「國內市場 home country」。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-12"
     },
@@ -2429,11 +2341,9 @@ export default {
       "masked": "The company is expanding into international ____.",
       "options": [
         "market-mcq-13",
-        "market-mcq-12",
-        "market-mcq-14",
-        "market-mcq-11",
-        "market-mcq-15",
-        "market-mcq-10"
+        "market-mcq-67",
+        "market-mcq-62",
+        "market-mcq-59"
       ],
       "explanation": "本句的「markets」指「國際市場 foreign customers」。",
       "sentenceIndex": 36,
@@ -2442,12 +2352,10 @@ export default {
         "markets"
       ],
       "optionReasons": {
-        "market-mcq-13": "本句指「國際市場 foreign customers」。",
-        "market-mcq-12": "「國內市場 home country」與本句語境不同。",
-        "market-mcq-14": "「進入市場 start selling」與本句語境不同。",
-        "market-mcq-11": "「利基／小眾市場 specialized customers」與本句語境不同。",
-        "market-mcq-15": "「市場進入 expansion」與本句語境不同。",
-        "market-mcq-10": "「大眾市場 broad customers」與本句語境不同。"
+        "market-mcq-13": "本句的「markets」指「國際市場 foreign customers」。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-13"
     },
@@ -2459,11 +2367,9 @@ export default {
       "masked": "The brand performs particularly well in overseas ____.",
       "options": [
         "market-mcq-13",
-        "market-mcq-12",
-        "market-mcq-14",
-        "market-mcq-11",
-        "market-mcq-15",
-        "market-mcq-10"
+        "market-mcq-63",
+        "market-mcq-79",
+        "market-mcq-64"
       ],
       "explanation": "本句的「markets」指「國際市場 foreign customers」。",
       "sentenceIndex": 37,
@@ -2472,12 +2378,10 @@ export default {
         "markets"
       ],
       "optionReasons": {
-        "market-mcq-13": "本句指「國際市場 foreign customers」。",
-        "market-mcq-12": "「國內市場 home country」與本句語境不同。",
-        "market-mcq-14": "「進入市場 start selling」與本句語境不同。",
-        "market-mcq-11": "「利基／小眾市場 specialized customers」與本句語境不同。",
-        "market-mcq-15": "「市場進入 expansion」與本句語境不同。",
-        "market-mcq-10": "「大眾市場 broad customers」與本句語境不同。"
+        "market-mcq-13": "本句的「markets」指「國際市場 foreign customers」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-13"
     },
@@ -2489,11 +2393,9 @@ export default {
       "masked": "The company plans to enter the Asian ____.",
       "options": [
         "market-mcq-14",
-        "market-mcq-13",
-        "market-mcq-15",
-        "market-mcq-12",
-        "market-mcq-16",
-        "market-mcq-11"
+        "market-mcq-77",
+        "market-mcq-64",
+        "market-mcq-63"
       ],
       "explanation": "本句的「market」指「進入市場 start selling」。",
       "sentenceIndex": 40,
@@ -2502,12 +2404,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-14": "本句指「進入市場 start selling」。",
-        "market-mcq-13": "「國際市場 foreign customers」與本句語境不同。",
-        "market-mcq-15": "「市場進入 expansion」與本句語境不同。",
-        "market-mcq-12": "「國內市場 home country」與本句語境不同。",
-        "market-mcq-16": "「市場准入 ability to sell」與本句語境不同。",
-        "market-mcq-11": "「利基／小眾市場 specialized customers」與本句語境不同。"
+        "market-mcq-14": "本句的「market」指「進入市場 start selling」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-14"
     },
@@ -2519,11 +2419,9 @@ export default {
       "masked": "Several new competitors entered the ____ last year.",
       "options": [
         "market-mcq-14",
-        "market-mcq-13",
-        "market-mcq-15",
-        "market-mcq-12",
-        "market-mcq-16",
-        "market-mcq-11"
+        "market-mcq-67",
+        "market-mcq-64",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「進入市場 start selling」。",
       "sentenceIndex": 41,
@@ -2532,12 +2430,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-14": "本句指「進入市場 start selling」。",
-        "market-mcq-13": "「國際市場 foreign customers」與本句語境不同。",
-        "market-mcq-15": "「市場進入 expansion」與本句語境不同。",
-        "market-mcq-12": "「國內市場 home country」與本句語境不同。",
-        "market-mcq-16": "「市場准入 ability to sell」與本句語境不同。",
-        "market-mcq-11": "「利基／小眾市場 specialized customers」與本句語境不同。"
+        "market-mcq-14": "本句的「market」指「進入市場 start selling」。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-14"
     },
@@ -2549,11 +2445,9 @@ export default {
       "masked": "The company is developing a ____ strategy.",
       "options": [
         "market-mcq-15",
-        "market-mcq-14",
-        "market-mcq-16",
-        "market-mcq-13",
-        "market-mcq-17",
-        "market-mcq-12"
+        "market-mcq-77",
+        "market-mcq-64",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market-entry」指「市場進入 expansion」。",
       "sentenceIndex": 42,
@@ -2562,12 +2456,10 @@ export default {
         "market-entry"
       ],
       "optionReasons": {
-        "market-mcq-15": "本句指「市場進入 expansion」。",
-        "market-mcq-14": "「進入市場 start selling」與本句語境不同。",
-        "market-mcq-16": "「市場准入 ability to sell」與本句語境不同。",
-        "market-mcq-13": "「國際市場 foreign customers」與本句語境不同。",
-        "market-mcq-17": "「房屋市場 housing trade」與本句語境不同。",
-        "market-mcq-12": "「國內市場 home country」與本句語境不同。"
+        "market-mcq-15": "本句的「market-entry」指「市場進入 expansion」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-15"
     },
@@ -2579,11 +2471,9 @@ export default {
       "masked": "High costs create barriers to ____ entry.",
       "options": [
         "market-mcq-15",
-        "market-mcq-14",
-        "market-mcq-16",
-        "market-mcq-13",
-        "market-mcq-17",
-        "market-mcq-12"
+        "market-mcq-63",
+        "market-mcq-62",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「市場進入 expansion」。",
       "sentenceIndex": 43,
@@ -2592,12 +2482,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-15": "本句指「市場進入 expansion」。",
-        "market-mcq-14": "「進入市場 start selling」與本句語境不同。",
-        "market-mcq-16": "「市場准入 ability to sell」與本句語境不同。",
-        "market-mcq-13": "「國際市場 foreign customers」與本句語境不同。",
-        "market-mcq-17": "「房屋市場 housing trade」與本句語境不同。",
-        "market-mcq-12": "「國內市場 home country」與本句語境不同。"
+        "market-mcq-15": "本句的「market」指「市場進入 expansion」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-15"
     },
@@ -2609,11 +2497,9 @@ export default {
       "masked": "Regulations may restrict ____ access.",
       "options": [
         "market-mcq-16",
-        "market-mcq-15",
-        "market-mcq-17",
-        "market-mcq-14",
-        "market-mcq-18",
-        "market-mcq-13"
+        "market-mcq-67",
+        "market-mcq-59",
+        "market-mcq-63"
       ],
       "explanation": "本句的「market」指「市場准入 ability to sell」。",
       "sentenceIndex": 44,
@@ -2622,12 +2508,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-16": "本句指「市場准入 ability to sell」。",
-        "market-mcq-15": "「市場進入 expansion」與本句語境不同。",
-        "market-mcq-17": "「房屋市場 housing trade」與本句語境不同。",
-        "market-mcq-14": "「進入市場 start selling」與本句語境不同。",
-        "market-mcq-18": "「勞動／就業市場 employment economics」與本句語境不同。",
-        "market-mcq-13": "「國際市場 foreign customers」與本句語境不同。"
+        "market-mcq-16": "本句的「market」指「市場准入 ability to sell」。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-16"
     },
@@ -2639,11 +2523,9 @@ export default {
       "masked": "The agreement improved ____ access for exporters.",
       "options": [
         "market-mcq-16",
-        "market-mcq-15",
-        "market-mcq-17",
-        "market-mcq-14",
-        "market-mcq-18",
-        "market-mcq-13"
+        "market-mcq-59",
+        "market-mcq-64",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「市場准入 ability to sell」。",
       "sentenceIndex": 45,
@@ -2652,12 +2534,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-16": "本句指「市場准入 ability to sell」。",
-        "market-mcq-15": "「市場進入 expansion」與本句語境不同。",
-        "market-mcq-17": "「房屋市場 housing trade」與本句語境不同。",
-        "market-mcq-14": "「進入市場 start selling」與本句語境不同。",
-        "market-mcq-18": "「勞動／就業市場 employment economics」與本句語境不同。",
-        "market-mcq-13": "「國際市場 foreign customers」與本句語境不同。"
+        "market-mcq-16": "本句的「market」指「市場准入 ability to sell」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-16"
     },
@@ -2669,11 +2549,9 @@ export default {
       "masked": "The housing ____ has slowed.",
       "options": [
         "market-mcq-17",
-        "market-mcq-16",
-        "market-mcq-18",
-        "market-mcq-15",
-        "market-mcq-19",
-        "market-mcq-14"
+        "market-mcq-77",
+        "market-mcq-67",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「房屋市場 housing trade」。",
       "sentenceIndex": 46,
@@ -2682,12 +2560,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-17": "本句指「房屋市場 housing trade」。",
-        "market-mcq-16": "「市場准入 ability to sell」與本句語境不同。",
-        "market-mcq-18": "「勞動／就業市場 employment economics」與本句語境不同。",
-        "market-mcq-15": "「市場進入 expansion」與本句語境不同。",
-        "market-mcq-19": "「就業市場 available jobs」與本句語境不同。",
-        "market-mcq-14": "「進入市場 start selling」與本句語境不同。"
+        "market-mcq-17": "本句的「market」指「房屋市場 housing trade」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-17"
     },
@@ -2699,11 +2575,9 @@ export default {
       "masked": "Rising interest rates affected the housing ____.",
       "options": [
         "market-mcq-17",
-        "market-mcq-16",
-        "market-mcq-18",
-        "market-mcq-15",
-        "market-mcq-19",
-        "market-mcq-14"
+        "market-mcq-62",
+        "market-mcq-59",
+        "market-mcq-63"
       ],
       "explanation": "本句的「market」指「房屋市場 housing trade」。",
       "sentenceIndex": 47,
@@ -2712,12 +2586,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-17": "本句指「房屋市場 housing trade」。",
-        "market-mcq-16": "「市場准入 ability to sell」與本句語境不同。",
-        "market-mcq-18": "「勞動／就業市場 employment economics」與本句語境不同。",
-        "market-mcq-15": "「市場進入 expansion」與本句語境不同。",
-        "market-mcq-19": "「就業市場 available jobs」與本句語境不同。",
-        "market-mcq-14": "「進入市場 start selling」與本句語境不同。"
+        "market-mcq-17": "本句的「market」指「房屋市場 housing trade」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-17"
     },
@@ -2729,11 +2601,9 @@ export default {
       "masked": "Graduates are entering a difficult labour ____.",
       "options": [
         "market-mcq-18",
-        "market-mcq-17",
-        "market-mcq-19",
-        "market-mcq-16",
-        "market-mcq-20",
-        "market-mcq-15"
+        "market-mcq-64",
+        "market-mcq-59",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「勞動／就業市場 employment economics」。",
       "sentenceIndex": 50,
@@ -2742,12 +2612,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-18": "本句指「勞動／就業市場 employment economics」。",
-        "market-mcq-17": "「房屋市場 housing trade」與本句語境不同。",
-        "market-mcq-19": "「就業市場 available jobs」與本句語境不同。",
-        "market-mcq-16": "「市場准入 ability to sell」與本句語境不同。",
-        "market-mcq-20": "「市況 commercial environment」與本句語境不同。",
-        "market-mcq-15": "「市場進入 expansion」與本句語境不同。"
+        "market-mcq-18": "本句的「market」指「勞動／就業市場 employment economics」。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-18"
     },
@@ -2759,11 +2627,9 @@ export default {
       "masked": "Skills shortages can tighten the labour ____.",
       "options": [
         "market-mcq-18",
-        "market-mcq-17",
-        "market-mcq-19",
-        "market-mcq-16",
-        "market-mcq-20",
-        "market-mcq-15"
+        "market-mcq-67",
+        "market-mcq-79",
+        "market-mcq-64"
       ],
       "explanation": "本句的「market」指「勞動／就業市場 employment economics」。",
       "sentenceIndex": 51,
@@ -2772,12 +2638,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-18": "本句指「勞動／就業市場 employment economics」。",
-        "market-mcq-17": "「房屋市場 housing trade」與本句語境不同。",
-        "market-mcq-19": "「就業市場 available jobs」與本句語境不同。",
-        "market-mcq-16": "「市場准入 ability to sell」與本句語境不同。",
-        "market-mcq-20": "「市況 commercial environment」與本句語境不同。",
-        "market-mcq-15": "「市場進入 expansion」與本句語境不同。"
+        "market-mcq-18": "本句的「market」指「勞動／就業市場 employment economics」。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-18"
     },
@@ -2789,11 +2653,9 @@ export default {
       "masked": "The job ____ is competitive.",
       "options": [
         "market-mcq-19",
-        "market-mcq-18",
-        "market-mcq-20",
-        "market-mcq-17",
-        "market-mcq-21",
-        "market-mcq-16"
+        "market-mcq-77",
+        "market-mcq-79",
+        "market-mcq-59"
       ],
       "explanation": "本句的「market」指「就業市場 available jobs」。",
       "sentenceIndex": 52,
@@ -2802,12 +2664,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-19": "本句指「就業市場 available jobs」。",
-        "market-mcq-18": "「勞動／就業市場 employment economics」與本句語境不同。",
-        "market-mcq-20": "「市況 commercial environment」與本句語境不同。",
-        "market-mcq-17": "「房屋市場 housing trade」與本句語境不同。",
-        "market-mcq-21": "「市場需求 total demand」與本句語境不同。",
-        "market-mcq-16": "「市場准入 ability to sell」與本句語境不同。"
+        "market-mcq-19": "本句的「market」指「就業市場 available jobs」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-19"
     },
@@ -2819,11 +2679,9 @@ export default {
       "masked": "Digital skills are valuable in today's job ____.",
       "options": [
         "market-mcq-19",
-        "market-mcq-18",
-        "market-mcq-20",
-        "market-mcq-17",
-        "market-mcq-21",
-        "market-mcq-16"
+        "market-mcq-79",
+        "market-mcq-64",
+        "market-mcq-63"
       ],
       "explanation": "本句的「market」指「就業市場 available jobs」。",
       "sentenceIndex": 53,
@@ -2832,12 +2690,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-19": "本句指「就業市場 available jobs」。",
-        "market-mcq-18": "「勞動／就業市場 employment economics」與本句語境不同。",
-        "market-mcq-20": "「市況 commercial environment」與本句語境不同。",
-        "market-mcq-17": "「房屋市場 housing trade」與本句語境不同。",
-        "market-mcq-21": "「市場需求 total demand」與本句語境不同。",
-        "market-mcq-16": "「市場准入 ability to sell」與本句語境不同。"
+        "market-mcq-19": "本句的「market」指「就業市場 available jobs」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-19"
     },
@@ -2849,11 +2705,9 @@ export default {
       "masked": "Difficult ____ conditions reduced sales.",
       "options": [
         "market-mcq-20",
-        "market-mcq-19",
-        "market-mcq-21",
-        "market-mcq-18",
-        "market-mcq-22",
-        "market-mcq-17"
+        "market-mcq-77",
+        "market-mcq-62",
+        "market-mcq-63"
       ],
       "explanation": "本句的「market」指「市況 commercial environment」。",
       "sentenceIndex": 62,
@@ -2862,12 +2716,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-20": "本句指「市況 commercial environment」。",
-        "market-mcq-19": "「就業市場 available jobs」與本句語境不同。",
-        "market-mcq-21": "「市場需求 total demand」與本句語境不同。",
-        "market-mcq-18": "「勞動／就業市場 employment economics」與本句語境不同。",
-        "market-mcq-22": "「市場機會 business potential」與本句語境不同。",
-        "market-mcq-17": "「房屋市場 housing trade」與本句語境不同。"
+        "market-mcq-20": "本句的「market」指「市況 commercial environment」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-20"
     },
@@ -2879,11 +2731,9 @@ export default {
       "masked": "The company adjusted its strategy to changing ____ conditions.",
       "options": [
         "market-mcq-20",
-        "market-mcq-19",
-        "market-mcq-21",
-        "market-mcq-18",
-        "market-mcq-22",
-        "market-mcq-17"
+        "market-mcq-79",
+        "market-mcq-63",
+        "market-mcq-67"
       ],
       "explanation": "本句的「market」指「市況 commercial environment」。",
       "sentenceIndex": 63,
@@ -2892,12 +2742,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-20": "本句指「市況 commercial environment」。",
-        "market-mcq-19": "「就業市場 available jobs」與本句語境不同。",
-        "market-mcq-21": "「市場需求 total demand」與本句語境不同。",
-        "market-mcq-18": "「勞動／就業市場 employment economics」與本句語境不同。",
-        "market-mcq-22": "「市場機會 business potential」與本句語境不同。",
-        "market-mcq-17": "「房屋市場 housing trade」與本句語境不同。"
+        "market-mcq-20": "本句的「market」指「市況 commercial environment」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-20"
     },
@@ -2909,11 +2757,9 @@ export default {
       "masked": "Production increased in response to ____ demand.",
       "options": [
         "market-mcq-21",
-        "market-mcq-20",
-        "market-mcq-22",
-        "market-mcq-19",
-        "market-mcq-23",
-        "market-mcq-18"
+        "market-mcq-79",
+        "market-mcq-67",
+        "market-mcq-64"
       ],
       "explanation": "本句的「market」指「市場需求 total demand」。",
       "sentenceIndex": 64,
@@ -2922,12 +2768,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-21": "本句指「市場需求 total demand」。",
-        "market-mcq-20": "「市況 commercial environment」與本句語境不同。",
-        "market-mcq-22": "「市場機會 business potential」與本句語境不同。",
-        "market-mcq-19": "「就業市場 available jobs」與本句語境不同。",
-        "market-mcq-23": "「買方市場 buyers stronger」與本句語境不同。",
-        "market-mcq-18": "「勞動／就業市場 employment economics」與本句語境不同。"
+        "market-mcq-21": "本句的「market」指「市場需求 total demand」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-21"
     },
@@ -2939,11 +2783,9 @@ export default {
       "masked": "There is little ____ demand for the older model.",
       "options": [
         "market-mcq-21",
-        "market-mcq-20",
-        "market-mcq-22",
-        "market-mcq-19",
-        "market-mcq-23",
-        "market-mcq-18"
+        "market-mcq-79",
+        "market-mcq-59",
+        "market-mcq-67"
       ],
       "explanation": "本句的「market」指「市場需求 total demand」。",
       "sentenceIndex": 65,
@@ -2952,12 +2794,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-21": "本句指「市場需求 total demand」。",
-        "market-mcq-20": "「市況 commercial environment」與本句語境不同。",
-        "market-mcq-22": "「市場機會 business potential」與本句語境不同。",
-        "market-mcq-19": "「就業市場 available jobs」與本句語境不同。",
-        "market-mcq-23": "「買方市場 buyers stronger」與本句語境不同。",
-        "market-mcq-18": "「勞動／就業市場 employment economics」與本句語境不同。"
+        "market-mcq-21": "本句的「market」指「市場需求 total demand」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-21"
     },
@@ -2969,11 +2809,9 @@ export default {
       "masked": "The company identified a new ____ opportunity.",
       "options": [
         "market-mcq-22",
-        "market-mcq-21",
-        "market-mcq-23",
-        "market-mcq-20",
-        "market-mcq-24",
-        "market-mcq-19"
+        "market-mcq-63",
+        "market-mcq-67",
+        "market-mcq-59"
       ],
       "explanation": "本句的「market」指「市場機會 business potential」。",
       "sentenceIndex": 66,
@@ -2982,12 +2820,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-22": "本句指「市場機會 business potential」。",
-        "market-mcq-21": "「市場需求 total demand」與本句語境不同。",
-        "market-mcq-23": "「買方市場 buyers stronger」與本句語境不同。",
-        "market-mcq-20": "「市況 commercial environment」與本句語境不同。",
-        "market-mcq-24": "「賣方市場 sellers stronger」與本句語境不同。",
-        "market-mcq-19": "「就業市場 available jobs」與本句語境不同。"
+        "market-mcq-22": "本句的「market」指「市場機會 business potential」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-22"
     },
@@ -2999,11 +2835,9 @@ export default {
       "masked": "Changing customer habits created a major ____ opportunity.",
       "options": [
         "market-mcq-22",
-        "market-mcq-21",
-        "market-mcq-23",
-        "market-mcq-20",
-        "market-mcq-24",
-        "market-mcq-19"
+        "market-mcq-67",
+        "market-mcq-59",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「市場機會 business potential」。",
       "sentenceIndex": 67,
@@ -3012,12 +2846,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-22": "本句指「市場機會 business potential」。",
-        "market-mcq-21": "「市場需求 total demand」與本句語境不同。",
-        "market-mcq-23": "「買方市場 buyers stronger」與本句語境不同。",
-        "market-mcq-20": "「市況 commercial environment」與本句語境不同。",
-        "market-mcq-24": "「賣方市場 sellers stronger」與本句語境不同。",
-        "market-mcq-19": "「就業市場 available jobs」與本句語境不同。"
+        "market-mcq-22": "本句的「market」指「市場機會 business potential」。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-22"
     },
@@ -3029,11 +2861,9 @@ export default {
       "masked": "Falling demand has created a buyer's ____.",
       "options": [
         "market-mcq-23",
-        "market-mcq-22",
-        "market-mcq-24",
-        "market-mcq-21",
-        "market-mcq-25",
-        "market-mcq-20"
+        "market-mcq-59",
+        "market-mcq-64",
+        "market-mcq-67"
       ],
       "explanation": "本句的「market」指「買方市場 buyers stronger」。",
       "sentenceIndex": 68,
@@ -3042,12 +2872,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-23": "本句指「買方市場 buyers stronger」。",
-        "market-mcq-22": "「市場機會 business potential」與本句語境不同。",
-        "market-mcq-24": "「賣方市場 sellers stronger」與本句語境不同。",
-        "market-mcq-21": "「市場需求 total demand」與本句語境不同。",
-        "market-mcq-25": "「市場經濟 economic system」與本句語境不同。",
-        "market-mcq-20": "「市況 commercial environment」與本句語境不同。"
+        "market-mcq-23": "本句的「market」指「買方市場 buyers stronger」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-23"
     },
@@ -3059,11 +2887,9 @@ export default {
       "masked": "In a buyer's ____, purchasers usually have more bargaining power.",
       "options": [
         "market-mcq-23",
-        "market-mcq-22",
-        "market-mcq-24",
-        "market-mcq-21",
-        "market-mcq-25",
-        "market-mcq-20"
+        "market-mcq-59",
+        "market-mcq-77",
+        "market-mcq-62"
       ],
       "explanation": "本句的「market」指「買方市場 buyers stronger」。",
       "sentenceIndex": 69,
@@ -3072,12 +2898,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-23": "本句指「買方市場 buyers stronger」。",
-        "market-mcq-22": "「市場機會 business potential」與本句語境不同。",
-        "market-mcq-24": "「賣方市場 sellers stronger」與本句語境不同。",
-        "market-mcq-21": "「市場需求 total demand」與本句語境不同。",
-        "market-mcq-25": "「市場經濟 economic system」與本句語境不同。",
-        "market-mcq-20": "「市況 commercial environment」與本句語境不同。"
+        "market-mcq-23": "本句的「market」指「買方市場 buyers stronger」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-23"
     },
@@ -3089,11 +2913,9 @@ export default {
       "masked": "Limited supply has produced a seller's ____.",
       "options": [
         "market-mcq-24",
-        "market-mcq-23",
-        "market-mcq-25",
-        "market-mcq-22",
-        "market-mcq-26",
-        "market-mcq-21"
+        "market-mcq-77",
+        "market-mcq-64",
+        "market-mcq-63"
       ],
       "explanation": "本句的「market」指「賣方市場 sellers stronger」。",
       "sentenceIndex": 70,
@@ -3102,12 +2924,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-24": "本句指「賣方市場 sellers stronger」。",
-        "market-mcq-23": "「買方市場 buyers stronger」與本句語境不同。",
-        "market-mcq-25": "「市場經濟 economic system」與本句語境不同。",
-        "market-mcq-22": "「市場機會 business potential」與本句語境不同。",
-        "market-mcq-26": "「自由市場 low intervention」與本句語境不同。",
-        "market-mcq-21": "「市場需求 total demand」與本句語境不同。"
+        "market-mcq-24": "本句的「market」指「賣方市場 sellers stronger」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-24"
     },
@@ -3119,11 +2939,9 @@ export default {
       "masked": "Sellers can demand higher prices in a seller's ____.",
       "options": [
         "market-mcq-24",
-        "market-mcq-23",
-        "market-mcq-25",
-        "market-mcq-22",
-        "market-mcq-26",
-        "market-mcq-21"
+        "market-mcq-77",
+        "market-mcq-63",
+        "market-mcq-67"
       ],
       "explanation": "本句的「market」指「賣方市場 sellers stronger」。",
       "sentenceIndex": 71,
@@ -3132,12 +2950,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-24": "本句指「賣方市場 sellers stronger」。",
-        "market-mcq-23": "「買方市場 buyers stronger」與本句語境不同。",
-        "market-mcq-25": "「市場經濟 economic system」與本句語境不同。",
-        "market-mcq-22": "「市場機會 business potential」與本句語境不同。",
-        "market-mcq-26": "「自由市場 low intervention」與本句語境不同。",
-        "market-mcq-21": "「市場需求 total demand」與本句語境不同。"
+        "market-mcq-24": "本句的「market」指「賣方市場 sellers stronger」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-24"
     },
@@ -3149,11 +2965,9 @@ export default {
       "masked": "Prices in a ____ economy are largely shaped by supply and demand.",
       "options": [
         "market-mcq-25",
-        "market-mcq-24",
-        "market-mcq-26",
-        "market-mcq-23",
-        "market-mcq-27",
-        "market-mcq-22"
+        "market-mcq-62",
+        "market-mcq-67",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「市場經濟 economic system」。",
       "sentenceIndex": 72,
@@ -3162,12 +2976,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-25": "本句指「市場經濟 economic system」。",
-        "market-mcq-24": "「賣方市場 sellers stronger」與本句語境不同。",
-        "market-mcq-26": "「自由市場 low intervention」與本句語境不同。",
-        "market-mcq-23": "「買方市場 buyers stronger」與本句語境不同。",
-        "market-mcq-27": "「市場力量 supply/demand forces」與本句語境不同。",
-        "market-mcq-22": "「市場機會 business potential」與本句語境不同。"
+        "market-mcq-25": "本句的「market」指「市場經濟 economic system」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-25"
     },
@@ -3179,11 +2991,9 @@ export default {
       "masked": "Private firms play a major role in a ____ economy.",
       "options": [
         "market-mcq-25",
-        "market-mcq-24",
-        "market-mcq-26",
-        "market-mcq-23",
-        "market-mcq-27",
-        "market-mcq-22"
+        "market-mcq-63",
+        "market-mcq-64",
+        "market-mcq-67"
       ],
       "explanation": "本句的「market」指「市場經濟 economic system」。",
       "sentenceIndex": 73,
@@ -3192,12 +3002,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-25": "本句指「市場經濟 economic system」。",
-        "market-mcq-24": "「賣方市場 sellers stronger」與本句語境不同。",
-        "market-mcq-26": "「自由市場 low intervention」與本句語境不同。",
-        "market-mcq-23": "「買方市場 buyers stronger」與本句語境不同。",
-        "market-mcq-27": "「市場力量 supply/demand forces」與本句語境不同。",
-        "market-mcq-22": "「市場機會 business potential」與本句語境不同。"
+        "market-mcq-25": "本句的「market」指「市場經濟 economic system」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-25"
     },
@@ -3209,11 +3017,9 @@ export default {
       "masked": "Supporters argue for greater free-____ competition.",
       "options": [
         "market-mcq-26",
-        "market-mcq-25",
-        "market-mcq-27",
-        "market-mcq-24",
-        "market-mcq-28",
-        "market-mcq-23"
+        "market-mcq-64",
+        "market-mcq-79",
+        "market-mcq-67"
       ],
       "explanation": "本句的「market」指「自由市場 low intervention」。",
       "sentenceIndex": 74,
@@ -3222,12 +3028,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-26": "本句指「自由市場 low intervention」。",
-        "market-mcq-25": "「市場經濟 economic system」與本句語境不同。",
-        "market-mcq-27": "「市場力量 supply/demand forces」與本句語境不同。",
-        "market-mcq-24": "「賣方市場 sellers stronger」與本句語境不同。",
-        "market-mcq-28": "「市場失靈 inefficient market outcome」與本句語境不同。",
-        "market-mcq-23": "「買方市場 buyers stronger」與本句語境不同。"
+        "market-mcq-26": "本句的「market」指「自由市場 low intervention」。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-26"
     },
@@ -3239,11 +3043,9 @@ export default {
       "masked": "A completely free ____ is largely a theoretical ideal.",
       "options": [
         "market-mcq-26",
-        "market-mcq-25",
-        "market-mcq-27",
-        "market-mcq-24",
-        "market-mcq-28",
-        "market-mcq-23"
+        "market-mcq-63",
+        "market-mcq-77",
+        "market-mcq-62"
       ],
       "explanation": "本句的「market」指「自由市場 low intervention」。",
       "sentenceIndex": 75,
@@ -3252,12 +3054,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-26": "本句指「自由市場 low intervention」。",
-        "market-mcq-25": "「市場經濟 economic system」與本句語境不同。",
-        "market-mcq-27": "「市場力量 supply/demand forces」與本句語境不同。",
-        "market-mcq-24": "「賣方市場 sellers stronger」與本句語境不同。",
-        "market-mcq-28": "「市場失靈 inefficient market outcome」與本句語境不同。",
-        "market-mcq-23": "「買方市場 buyers stronger」與本句語境不同。"
+        "market-mcq-26": "本句的「market」指「自由市場 low intervention」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-26"
     },
@@ -3269,11 +3069,9 @@ export default {
       "masked": "Prices were allowed to respond to ____ forces.",
       "options": [
         "market-mcq-27",
-        "market-mcq-26",
-        "market-mcq-28",
-        "market-mcq-25",
-        "market-mcq-29",
-        "market-mcq-24"
+        "market-mcq-77",
+        "market-mcq-79",
+        "market-mcq-62"
       ],
       "explanation": "本句的「market」指「市場力量 supply/demand forces」。",
       "sentenceIndex": 76,
@@ -3282,12 +3080,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-27": "本句指「市場力量 supply/demand forces」。",
-        "market-mcq-26": "「自由市場 low intervention」與本句語境不同。",
-        "market-mcq-28": "「市場失靈 inefficient market outcome」與本句語境不同。",
-        "market-mcq-25": "「市場經濟 economic system」與本句語境不同。",
-        "market-mcq-29": "「市場支配力 influence over market」與本句語境不同。",
-        "market-mcq-24": "「賣方市場 sellers stronger」與本句語境不同。"
+        "market-mcq-27": "本句的「market」指「市場力量 supply/demand forces」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-27"
     },
@@ -3299,11 +3095,9 @@ export default {
       "masked": "____ forces include changes in supply and demand.",
       "options": [
         "market-mcq-27",
-        "market-mcq-26",
-        "market-mcq-28",
-        "market-mcq-25",
-        "market-mcq-29",
-        "market-mcq-24"
+        "market-mcq-63",
+        "market-mcq-59",
+        "market-mcq-67"
       ],
       "explanation": "本句的「Market」指「市場力量 supply/demand forces」。",
       "sentenceIndex": 77,
@@ -3312,12 +3106,10 @@ export default {
         "Market"
       ],
       "optionReasons": {
-        "market-mcq-27": "本句指「市場力量 supply/demand forces」。",
-        "market-mcq-26": "「自由市場 low intervention」與本句語境不同。",
-        "market-mcq-28": "「市場失靈 inefficient market outcome」與本句語境不同。",
-        "market-mcq-25": "「市場經濟 economic system」與本句語境不同。",
-        "market-mcq-29": "「市場支配力 influence over market」與本句語境不同。",
-        "market-mcq-24": "「賣方市場 sellers stronger」與本句語境不同。"
+        "market-mcq-27": "本句的「Market」指「市場力量 supply/demand forces」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-27"
     },
@@ -3329,11 +3121,9 @@ export default {
       "masked": "Pollution is often discussed as an example of ____ failure.",
       "options": [
         "market-mcq-28",
-        "market-mcq-27",
-        "market-mcq-29",
-        "market-mcq-26",
-        "market-mcq-30",
-        "market-mcq-25"
+        "market-mcq-77",
+        "market-mcq-67",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「市場失靈 inefficient market outcome」。",
       "sentenceIndex": 80,
@@ -3342,12 +3132,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-28": "本句指「市場失靈 inefficient market outcome」。",
-        "market-mcq-27": "「市場力量 supply/demand forces」與本句語境不同。",
-        "market-mcq-29": "「市場支配力 influence over market」與本句語境不同。",
-        "market-mcq-26": "「自由市場 low intervention」與本句語境不同。",
-        "market-mcq-30": "「金融市場 financial assets」與本句語境不同。",
-        "market-mcq-25": "「市場經濟 economic system」與本句語境不同。"
+        "market-mcq-28": "本句的「market」指「市場失靈 inefficient market outcome」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-28"
     },
@@ -3359,11 +3147,9 @@ export default {
       "masked": "Regulation may be introduced to address ____ failure.",
       "options": [
         "market-mcq-28",
-        "market-mcq-27",
-        "market-mcq-29",
-        "market-mcq-26",
-        "market-mcq-30",
-        "market-mcq-25"
+        "market-mcq-79",
+        "market-mcq-59",
+        "market-mcq-63"
       ],
       "explanation": "本句的「market」指「市場失靈 inefficient market outcome」。",
       "sentenceIndex": 81,
@@ -3372,12 +3158,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-28": "本句指「市場失靈 inefficient market outcome」。",
-        "market-mcq-27": "「市場力量 supply/demand forces」與本句語境不同。",
-        "market-mcq-29": "「市場支配力 influence over market」與本句語境不同。",
-        "market-mcq-26": "「自由市場 low intervention」與本句語境不同。",
-        "market-mcq-30": "「金融市場 financial assets」與本句語境不同。",
-        "market-mcq-25": "「市場經濟 economic system」與本句語境不同。"
+        "market-mcq-28": "本句的「market」指「市場失靈 inefficient market outcome」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-28"
     },
@@ -3389,11 +3173,9 @@ export default {
       "masked": "Large firms may have considerable ____ power.",
       "options": [
         "market-mcq-29",
-        "market-mcq-28",
-        "market-mcq-30",
-        "market-mcq-27",
-        "market-mcq-31",
-        "market-mcq-26"
+        "market-mcq-62",
+        "market-mcq-63",
+        "market-mcq-59"
       ],
       "explanation": "本句的「market」指「市場支配力 influence over market」。",
       "sentenceIndex": 82,
@@ -3402,12 +3184,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-29": "本句指「市場支配力 influence over market」。",
-        "market-mcq-28": "「市場失靈 inefficient market outcome」與本句語境不同。",
-        "market-mcq-30": "「金融市場 financial assets」與本句語境不同。",
-        "market-mcq-27": "「市場力量 supply/demand forces」與本句語境不同。",
-        "market-mcq-31": "「股票市場 shares」與本句語境不同。",
-        "market-mcq-26": "「自由市場 low intervention」與本句語境不同。"
+        "market-mcq-29": "本句的「market」指「市場支配力 influence over market」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-29"
     },
@@ -3419,11 +3199,9 @@ export default {
       "masked": "Competition policy aims to limit excessive ____ power.",
       "options": [
         "market-mcq-29",
-        "market-mcq-28",
-        "market-mcq-30",
-        "market-mcq-27",
-        "market-mcq-31",
-        "market-mcq-26"
+        "market-mcq-59",
+        "market-mcq-62",
+        "market-mcq-63"
       ],
       "explanation": "本句的「market」指「市場支配力 influence over market」。",
       "sentenceIndex": 83,
@@ -3432,12 +3210,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-29": "本句指「市場支配力 influence over market」。",
-        "market-mcq-28": "「市場失靈 inefficient market outcome」與本句語境不同。",
-        "market-mcq-30": "「金融市場 financial assets」與本句語境不同。",
-        "market-mcq-27": "「市場力量 supply/demand forces」與本句語境不同。",
-        "market-mcq-31": "「股票市場 shares」與本句語境不同。",
-        "market-mcq-26": "「自由市場 low intervention」與本句語境不同。"
+        "market-mcq-29": "本句的「market」指「市場支配力 influence over market」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-29"
     },
@@ -3449,11 +3225,9 @@ export default {
       "masked": "Investors reacted quickly in financial ____.",
       "options": [
         "market-mcq-30",
-        "market-mcq-29",
-        "market-mcq-31",
-        "market-mcq-28",
-        "market-mcq-32",
-        "market-mcq-27"
+        "market-mcq-67",
+        "market-mcq-77",
+        "market-mcq-64"
       ],
       "explanation": "本句的「markets」指「金融市場 financial assets」。",
       "sentenceIndex": 84,
@@ -3462,12 +3236,10 @@ export default {
         "markets"
       ],
       "optionReasons": {
-        "market-mcq-30": "本句指「金融市場 financial assets」。",
-        "market-mcq-29": "「市場支配力 influence over market」與本句語境不同。",
-        "market-mcq-31": "「股票市場 shares」與本句語境不同。",
-        "market-mcq-28": "「市場失靈 inefficient market outcome」與本句語境不同。",
-        "market-mcq-32": "「債券市場 bonds」與本句語境不同。",
-        "market-mcq-27": "「市場力量 supply/demand forces」與本句語境不同。"
+        "market-mcq-30": "本句的「markets」指「金融市場 financial assets」。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-30"
     },
@@ -3479,11 +3251,9 @@ export default {
       "masked": "Financial ____ connect borrowers and investors.",
       "options": [
         "market-mcq-30",
-        "market-mcq-29",
-        "market-mcq-31",
-        "market-mcq-28",
-        "market-mcq-32",
-        "market-mcq-27"
+        "market-mcq-62",
+        "market-mcq-59",
+        "market-mcq-77"
       ],
       "explanation": "本句的「markets」指「金融市場 financial assets」。",
       "sentenceIndex": 85,
@@ -3492,12 +3262,10 @@ export default {
         "markets"
       ],
       "optionReasons": {
-        "market-mcq-30": "本句指「金融市場 financial assets」。",
-        "market-mcq-29": "「市場支配力 influence over market」與本句語境不同。",
-        "market-mcq-31": "「股票市場 shares」與本句語境不同。",
-        "market-mcq-28": "「市場失靈 inefficient market outcome」與本句語境不同。",
-        "market-mcq-32": "「債券市場 bonds」與本句語境不同。",
-        "market-mcq-27": "「市場力量 supply/demand forces」與本句語境不同。"
+        "market-mcq-30": "本句的「markets」指「金融市場 financial assets」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-30"
     },
@@ -3509,11 +3277,9 @@ export default {
       "masked": "The stock ____ rose sharply.",
       "options": [
         "market-mcq-31",
-        "market-mcq-30",
-        "market-mcq-32",
-        "market-mcq-29",
-        "market-mcq-33",
-        "market-mcq-28"
+        "market-mcq-77",
+        "market-mcq-59",
+        "market-mcq-62"
       ],
       "explanation": "本句的「market」指「股票市場 shares」。",
       "sentenceIndex": 86,
@@ -3522,12 +3288,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-31": "本句指「股票市場 shares」。",
-        "market-mcq-30": "「金融市場 financial assets」與本句語境不同。",
-        "market-mcq-32": "「債券市場 bonds」與本句語境不同。",
-        "market-mcq-29": "「市場支配力 influence over market」與本句語境不同。",
-        "market-mcq-33": "「外匯市場 currencies」與本句語境不同。",
-        "market-mcq-28": "「市場失靈 inefficient market outcome」與本句語境不同。"
+        "market-mcq-31": "本句的「market」指「股票市場 shares」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-31"
     },
@@ -3539,11 +3303,9 @@ export default {
       "masked": "She invests regularly in the stock ____.",
       "options": [
         "market-mcq-31",
-        "market-mcq-30",
-        "market-mcq-32",
-        "market-mcq-29",
-        "market-mcq-33",
-        "market-mcq-28"
+        "market-mcq-63",
+        "market-mcq-77",
+        "market-mcq-67"
       ],
       "explanation": "本句的「market」指「股票市場 shares」。",
       "sentenceIndex": 87,
@@ -3552,12 +3314,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-31": "本句指「股票市場 shares」。",
-        "market-mcq-30": "「金融市場 financial assets」與本句語境不同。",
-        "market-mcq-32": "「債券市場 bonds」與本句語境不同。",
-        "market-mcq-29": "「市場支配力 influence over market」與本句語境不同。",
-        "market-mcq-33": "「外匯市場 currencies」與本句語境不同。",
-        "market-mcq-28": "「市場失靈 inefficient market outcome」與本句語境不同。"
+        "market-mcq-31": "本句的「market」指「股票市場 shares」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-31"
     },
@@ -3569,11 +3329,9 @@ export default {
       "masked": "Interest rates affect the bond ____.",
       "options": [
         "market-mcq-32",
-        "market-mcq-31",
-        "market-mcq-33",
-        "market-mcq-30",
-        "market-mcq-34",
-        "market-mcq-29"
+        "market-mcq-63",
+        "market-mcq-67",
+        "market-mcq-62"
       ],
       "explanation": "本句的「market」指「債券市場 bonds」。",
       "sentenceIndex": 88,
@@ -3582,12 +3340,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-32": "本句指「債券市場 bonds」。",
-        "market-mcq-31": "「股票市場 shares」與本句語境不同。",
-        "market-mcq-33": "「外匯市場 currencies」與本句語境不同。",
-        "market-mcq-30": "「金融市場 financial assets」與本句語境不同。",
-        "market-mcq-34": "「商品市場 commodities」與本句語境不同。",
-        "market-mcq-29": "「市場支配力 influence over market」與本句語境不同。"
+        "market-mcq-32": "本句的「market」指「債券市場 bonds」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-32"
     },
@@ -3599,11 +3355,9 @@ export default {
       "masked": "Governments raise money through the bond ____.",
       "options": [
         "market-mcq-32",
-        "market-mcq-31",
-        "market-mcq-33",
-        "market-mcq-30",
-        "market-mcq-34",
-        "market-mcq-29"
+        "market-mcq-64",
+        "market-mcq-79",
+        "market-mcq-59"
       ],
       "explanation": "本句的「market」指「債券市場 bonds」。",
       "sentenceIndex": 89,
@@ -3612,12 +3366,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-32": "本句指「債券市場 bonds」。",
-        "market-mcq-31": "「股票市場 shares」與本句語境不同。",
-        "market-mcq-33": "「外匯市場 currencies」與本句語境不同。",
-        "market-mcq-30": "「金融市場 financial assets」與本句語境不同。",
-        "market-mcq-34": "「商品市場 commodities」與本句語境不同。",
-        "market-mcq-29": "「市場支配力 influence over market」與本句語境不同。"
+        "market-mcq-32": "本句的「market」指「債券市場 bonds」。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-32"
     },
@@ -3629,11 +3381,9 @@ export default {
       "masked": "Oil prices rose in the commodity ____.",
       "options": [
         "market-mcq-34",
-        "market-mcq-33",
-        "market-mcq-35",
-        "market-mcq-32",
-        "market-mcq-36",
-        "market-mcq-31"
+        "market-mcq-79",
+        "market-mcq-59",
+        "market-mcq-67"
       ],
       "explanation": "本句的「market」指「商品市場 commodities」。",
       "sentenceIndex": 92,
@@ -3642,12 +3392,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-34": "本句指「商品市場 commodities」。",
-        "market-mcq-33": "「外匯市場 currencies」與本句語境不同。",
-        "market-mcq-35": "「貨幣市場 short-term finance」與本句語境不同。",
-        "market-mcq-32": "「債券市場 bonds」與本句語境不同。",
-        "market-mcq-36": "「資本市場 long-term finance」與本句語境不同。",
-        "market-mcq-31": "「股票市場 shares」與本句語境不同。"
+        "market-mcq-34": "本句的「market」指「商品市場 commodities」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-34"
     },
@@ -3659,11 +3407,9 @@ export default {
       "masked": "Commodity ____ include trading in energy, metals and agricultural products.",
       "options": [
         "market-mcq-34",
-        "market-mcq-33",
-        "market-mcq-35",
-        "market-mcq-32",
-        "market-mcq-36",
-        "market-mcq-31"
+        "market-mcq-59",
+        "market-mcq-79",
+        "market-mcq-63"
       ],
       "explanation": "本句的「markets」指「商品市場 commodities」。",
       "sentenceIndex": 93,
@@ -3672,12 +3418,10 @@ export default {
         "markets"
       ],
       "optionReasons": {
-        "market-mcq-34": "本句指「商品市場 commodities」。",
-        "market-mcq-33": "「外匯市場 currencies」與本句語境不同。",
-        "market-mcq-35": "「貨幣市場 short-term finance」與本句語境不同。",
-        "market-mcq-32": "「債券市場 bonds」與本句語境不同。",
-        "market-mcq-36": "「資本市場 long-term finance」與本句語境不同。",
-        "market-mcq-31": "「股票市場 shares」與本句語境不同。"
+        "market-mcq-34": "本句的「markets」指「商品市場 commodities」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-34"
     },
@@ -3689,11 +3433,9 @@ export default {
       "masked": "Banks borrow short-term funds in the money ____.",
       "options": [
         "market-mcq-35",
-        "market-mcq-34",
-        "market-mcq-36",
-        "market-mcq-33",
-        "market-mcq-37",
-        "market-mcq-32"
+        "market-mcq-62",
+        "market-mcq-63",
+        "market-mcq-67"
       ],
       "explanation": "本句的「market」指「貨幣市場 short-term finance」。",
       "sentenceIndex": 94,
@@ -3702,12 +3444,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-35": "本句指「貨幣市場 short-term finance」。",
-        "market-mcq-34": "「商品市場 commodities」與本句語境不同。",
-        "market-mcq-36": "「資本市場 long-term finance」與本句語境不同。",
-        "market-mcq-33": "「外匯市場 currencies」與本句語境不同。",
-        "market-mcq-37": "「一級市場 new securities」與本句語境不同。",
-        "market-mcq-32": "「債券市場 bonds」與本句語境不同。"
+        "market-mcq-35": "本句的「market」指「貨幣市場 short-term finance」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-35"
     },
@@ -3719,11 +3459,9 @@ export default {
       "masked": "Money-____ instruments normally have short maturities.",
       "options": [
         "market-mcq-35",
-        "market-mcq-34",
-        "market-mcq-36",
-        "market-mcq-33",
-        "market-mcq-37",
-        "market-mcq-32"
+        "market-mcq-62",
+        "market-mcq-77",
+        "market-mcq-67"
       ],
       "explanation": "本句的「market」指「貨幣市場 short-term finance」。",
       "sentenceIndex": 95,
@@ -3732,12 +3470,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-35": "本句指「貨幣市場 short-term finance」。",
-        "market-mcq-34": "「商品市場 commodities」與本句語境不同。",
-        "market-mcq-36": "「資本市場 long-term finance」與本句語境不同。",
-        "market-mcq-33": "「外匯市場 currencies」與本句語境不同。",
-        "market-mcq-37": "「一級市場 new securities」與本句語境不同。",
-        "market-mcq-32": "「債券市場 bonds」與本句語境不同。"
+        "market-mcq-35": "本句的「market」指「貨幣市場 short-term finance」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-35"
     },
@@ -3749,11 +3485,9 @@ export default {
       "masked": "Companies can raise long-term funding through capital ____.",
       "options": [
         "market-mcq-36",
-        "market-mcq-35",
-        "market-mcq-37",
-        "market-mcq-34",
-        "market-mcq-38",
-        "market-mcq-33"
+        "market-mcq-79",
+        "market-mcq-77",
+        "market-mcq-64"
       ],
       "explanation": "本句的「markets」指「資本市場 long-term finance」。",
       "sentenceIndex": 96,
@@ -3762,12 +3496,10 @@ export default {
         "markets"
       ],
       "optionReasons": {
-        "market-mcq-36": "本句指「資本市場 long-term finance」。",
-        "market-mcq-35": "「貨幣市場 short-term finance」與本句語境不同。",
-        "market-mcq-37": "「一級市場 new securities」與本句語境不同。",
-        "market-mcq-34": "「商品市場 commodities」與本句語境不同。",
-        "market-mcq-38": "「二級市場 existing securities」與本句語境不同。",
-        "market-mcq-33": "「外匯市場 currencies」與本句語境不同。"
+        "market-mcq-36": "本句的「markets」指「資本市場 long-term finance」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-36"
     },
@@ -3779,11 +3511,9 @@ export default {
       "masked": "Capital ____ include equity and longer-term debt markets.",
       "options": [
         "market-mcq-36",
-        "market-mcq-35",
-        "market-mcq-37",
-        "market-mcq-34",
-        "market-mcq-38",
-        "market-mcq-33"
+        "market-mcq-67",
+        "market-mcq-64",
+        "market-mcq-59"
       ],
       "explanation": "本句的「markets」指「資本市場 long-term finance」。",
       "sentenceIndex": 97,
@@ -3792,12 +3522,10 @@ export default {
         "markets"
       ],
       "optionReasons": {
-        "market-mcq-36": "本句指「資本市場 long-term finance」。",
-        "market-mcq-35": "「貨幣市場 short-term finance」與本句語境不同。",
-        "market-mcq-37": "「一級市場 new securities」與本句語境不同。",
-        "market-mcq-34": "「商品市場 commodities」與本句語境不同。",
-        "market-mcq-38": "「二級市場 existing securities」與本句語境不同。",
-        "market-mcq-33": "「外匯市場 currencies」與本句語境不同。"
+        "market-mcq-36": "本句的「markets」指「資本市場 long-term finance」。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-36"
     },
@@ -3809,11 +3537,9 @@ export default {
       "masked": "New securities are first sold in the primary ____.",
       "options": [
         "market-mcq-37",
-        "market-mcq-36",
-        "market-mcq-38",
-        "market-mcq-35",
-        "market-mcq-39",
-        "market-mcq-34"
+        "market-mcq-63",
+        "market-mcq-64",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「一級市場 new securities」。",
       "sentenceIndex": 98,
@@ -3822,12 +3548,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-37": "本句指「一級市場 new securities」。",
-        "market-mcq-36": "「資本市場 long-term finance」與本句語境不同。",
-        "market-mcq-38": "「二級市場 existing securities」與本句語境不同。",
-        "market-mcq-35": "「貨幣市場 short-term finance」與本句語境不同。",
-        "market-mcq-39": "「牛市 sustained rise」與本句語境不同。",
-        "market-mcq-34": "「商品市場 commodities」與本句語境不同。"
+        "market-mcq-37": "本句的「market」指「一級市場 new securities」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-37"
     },
@@ -3839,11 +3563,9 @@ export default {
       "masked": "Companies raise fresh capital through primary-____ issuance.",
       "options": [
         "market-mcq-37",
-        "market-mcq-36",
-        "market-mcq-38",
-        "market-mcq-35",
-        "market-mcq-39",
-        "market-mcq-34"
+        "market-mcq-79",
+        "market-mcq-67",
+        "market-mcq-62"
       ],
       "explanation": "本句的「market」指「一級市場 new securities」。",
       "sentenceIndex": 99,
@@ -3852,12 +3574,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-37": "本句指「一級市場 new securities」。",
-        "market-mcq-36": "「資本市場 long-term finance」與本句語境不同。",
-        "market-mcq-38": "「二級市場 existing securities」與本句語境不同。",
-        "market-mcq-35": "「貨幣市場 short-term finance」與本句語境不同。",
-        "market-mcq-39": "「牛市 sustained rise」與本句語境不同。",
-        "market-mcq-34": "「商品市場 commodities」與本句語境不同。"
+        "market-mcq-37": "本句的「market」指「一級市場 new securities」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-37"
     },
@@ -3869,11 +3589,9 @@ export default {
       "masked": "Existing shares are traded in the secondary ____.",
       "options": [
         "market-mcq-38",
-        "market-mcq-37",
-        "market-mcq-39",
-        "market-mcq-36",
-        "market-mcq-40",
-        "market-mcq-35"
+        "market-mcq-62",
+        "market-mcq-59",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「二級市場 existing securities」。",
       "sentenceIndex": 100,
@@ -3882,12 +3600,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-38": "本句指「二級市場 existing securities」。",
-        "market-mcq-37": "「一級市場 new securities」與本句語境不同。",
-        "market-mcq-39": "「牛市 sustained rise」與本句語境不同。",
-        "market-mcq-36": "「資本市場 long-term finance」與本句語境不同。",
-        "market-mcq-40": "「熊市 sustained decline」與本句語境不同。",
-        "market-mcq-35": "「貨幣市場 short-term finance」與本句語境不同。"
+        "market-mcq-38": "本句的「market」指「二級市場 existing securities」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-38"
     },
@@ -3899,11 +3615,9 @@ export default {
       "masked": "Secondary ____ allow investors to buy from and sell to one another.",
       "options": [
         "market-mcq-38",
-        "market-mcq-37",
-        "market-mcq-39",
-        "market-mcq-36",
-        "market-mcq-40",
-        "market-mcq-35"
+        "market-mcq-64",
+        "market-mcq-63",
+        "market-mcq-67"
       ],
       "explanation": "本句的「markets」指「二級市場 existing securities」。",
       "sentenceIndex": 101,
@@ -3912,12 +3626,10 @@ export default {
         "markets"
       ],
       "optionReasons": {
-        "market-mcq-38": "本句指「二級市場 existing securities」。",
-        "market-mcq-37": "「一級市場 new securities」與本句語境不同。",
-        "market-mcq-39": "「牛市 sustained rise」與本句語境不同。",
-        "market-mcq-36": "「資本市場 long-term finance」與本句語境不同。",
-        "market-mcq-40": "「熊市 sustained decline」與本句語境不同。",
-        "market-mcq-35": "「貨幣市場 short-term finance」與本句語境不同。"
+        "market-mcq-38": "本句的「markets」指「二級市場 existing securities」。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-38"
     },
@@ -3929,11 +3641,9 @@ export default {
       "masked": "Investors became confident during the bull ____.",
       "options": [
         "market-mcq-39",
-        "market-mcq-38",
-        "market-mcq-40",
-        "market-mcq-37",
-        "market-mcq-41",
-        "market-mcq-36"
+        "market-mcq-59",
+        "market-mcq-67",
+        "market-mcq-64"
       ],
       "explanation": "本句的「market」指「牛市 sustained rise」。",
       "sentenceIndex": 102,
@@ -3942,12 +3652,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-39": "本句指「牛市 sustained rise」。",
-        "market-mcq-38": "「二級市場 existing securities」與本句語境不同。",
-        "market-mcq-40": "「熊市 sustained decline」與本句語境不同。",
-        "market-mcq-37": "「一級市場 new securities」與本句語境不同。",
-        "market-mcq-41": "「市場莊家 provides liquidity」與本句語境不同。",
-        "market-mcq-36": "「資本市場 long-term finance」與本句語境不同。"
+        "market-mcq-39": "本句的「market」指「牛市 sustained rise」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-39"
     },
@@ -3959,11 +3667,9 @@ export default {
       "masked": "A bull ____ involves a sustained general rise in asset prices.",
       "options": [
         "market-mcq-39",
-        "market-mcq-38",
-        "market-mcq-40",
-        "market-mcq-37",
-        "market-mcq-41",
-        "market-mcq-36"
+        "market-mcq-62",
+        "market-mcq-67",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「牛市 sustained rise」。",
       "sentenceIndex": 103,
@@ -3972,12 +3678,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-39": "本句指「牛市 sustained rise」。",
-        "market-mcq-38": "「二級市場 existing securities」與本句語境不同。",
-        "market-mcq-40": "「熊市 sustained decline」與本句語境不同。",
-        "market-mcq-37": "「一級市場 new securities」與本句語境不同。",
-        "market-mcq-41": "「市場莊家 provides liquidity」與本句語境不同。",
-        "market-mcq-36": "「資本市場 long-term finance」與本句語境不同。"
+        "market-mcq-39": "本句的「market」指「牛市 sustained rise」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-39"
     },
@@ -3989,11 +3693,9 @@ export default {
       "masked": "Many investors became cautious during the bear ____.",
       "options": [
         "market-mcq-40",
-        "market-mcq-39",
-        "market-mcq-41",
-        "market-mcq-38",
-        "market-mcq-42",
-        "market-mcq-37"
+        "market-mcq-64",
+        "market-mcq-79",
+        "market-mcq-63"
       ],
       "explanation": "本句的「market」指「熊市 sustained decline」。",
       "sentenceIndex": 104,
@@ -4002,12 +3704,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-40": "本句指「熊市 sustained decline」。",
-        "market-mcq-39": "「牛市 sustained rise」與本句語境不同。",
-        "market-mcq-41": "「市場莊家 provides liquidity」與本句語境不同。",
-        "market-mcq-38": "「二級市場 existing securities」與本句語境不同。",
-        "market-mcq-42": "「市價盤 execute at market」與本句語境不同。",
-        "market-mcq-37": "「一級市場 new securities」與本句語境不同。"
+        "market-mcq-40": "本句的「market」指「熊市 sustained decline」。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-40"
     },
@@ -4019,11 +3719,9 @@ export default {
       "masked": "Bear ____ involve sustained broad declines.",
       "options": [
         "market-mcq-40",
-        "market-mcq-39",
-        "market-mcq-41",
-        "market-mcq-38",
-        "market-mcq-42",
-        "market-mcq-37"
+        "market-mcq-63",
+        "market-mcq-67",
+        "market-mcq-59"
       ],
       "explanation": "本句的「markets」指「熊市 sustained decline」。",
       "sentenceIndex": 105,
@@ -4032,12 +3730,10 @@ export default {
         "markets"
       ],
       "optionReasons": {
-        "market-mcq-40": "本句指「熊市 sustained decline」。",
-        "market-mcq-39": "「牛市 sustained rise」與本句語境不同。",
-        "market-mcq-41": "「市場莊家 provides liquidity」與本句語境不同。",
-        "market-mcq-38": "「二級市場 existing securities」與本句語境不同。",
-        "market-mcq-42": "「市價盤 execute at market」與本句語境不同。",
-        "market-mcq-37": "「一級市場 new securities」與本句語境不同。"
+        "market-mcq-40": "本句的「markets」指「熊市 sustained decline」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-40"
     },
@@ -4049,11 +3745,9 @@ export default {
       "masked": "A ____ maker continuously quotes buying and selling prices.",
       "options": [
         "market-mcq-41",
-        "market-mcq-40",
-        "market-mcq-42",
-        "market-mcq-39",
-        "market-mcq-43",
-        "market-mcq-38"
+        "market-mcq-63",
+        "market-mcq-67",
+        "market-mcq-62"
       ],
       "explanation": "本句的「market」指「市場莊家 provides liquidity」。",
       "sentenceIndex": 108,
@@ -4062,12 +3756,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-41": "本句指「市場莊家 provides liquidity」。",
-        "market-mcq-40": "「熊市 sustained decline」與本句語境不同。",
-        "market-mcq-42": "「市價盤 execute at market」與本句語境不同。",
-        "market-mcq-39": "「牛市 sustained rise」與本句語境不同。",
-        "market-mcq-43": "「市價 current price」與本句語境不同。",
-        "market-mcq-38": "「二級市場 existing securities」與本句語境不同。"
+        "market-mcq-41": "本句的「market」指「市場莊家 provides liquidity」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-41"
     },
@@ -4079,11 +3771,9 @@ export default {
       "masked": "____ makers can help provide liquidity.",
       "options": [
         "market-mcq-41",
-        "market-mcq-40",
-        "market-mcq-42",
-        "market-mcq-39",
-        "market-mcq-43",
-        "market-mcq-38"
+        "market-mcq-63",
+        "market-mcq-77",
+        "market-mcq-62"
       ],
       "explanation": "本句的「Market」指「市場莊家 provides liquidity」。",
       "sentenceIndex": 109,
@@ -4092,12 +3782,10 @@ export default {
         "Market"
       ],
       "optionReasons": {
-        "market-mcq-41": "本句指「市場莊家 provides liquidity」。",
-        "market-mcq-40": "「熊市 sustained decline」與本句語境不同。",
-        "market-mcq-42": "「市價盤 execute at market」與本句語境不同。",
-        "market-mcq-39": "「牛市 sustained rise」與本句語境不同。",
-        "market-mcq-43": "「市價 current price」與本句語境不同。",
-        "market-mcq-38": "「二級市場 existing securities」與本句語境不同。"
+        "market-mcq-41": "本句的「Market」指「市場莊家 provides liquidity」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-41"
     },
@@ -4109,11 +3797,9 @@ export default {
       "masked": "He placed a ____ order to buy the shares immediately.",
       "options": [
         "market-mcq-42",
-        "market-mcq-41",
-        "market-mcq-43",
-        "market-mcq-40",
-        "market-mcq-44",
-        "market-mcq-39"
+        "market-mcq-63",
+        "market-mcq-79",
+        "market-mcq-64"
       ],
       "explanation": "本句的「market」指「市價盤 execute at market」。",
       "sentenceIndex": 110,
@@ -4122,12 +3808,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-42": "本句指「市價盤 execute at market」。",
-        "market-mcq-41": "「市場莊家 provides liquidity」與本句語境不同。",
-        "market-mcq-43": "「市價 current price」與本句語境不同。",
-        "market-mcq-40": "「熊市 sustained decline」與本句語境不同。",
-        "market-mcq-44": "「市場價值 sale value」與本句語境不同。",
-        "market-mcq-39": "「牛市 sustained rise」與本句語境不同。"
+        "market-mcq-42": "本句的「market」指「市價盤 execute at market」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-42"
     },
@@ -4139,11 +3823,9 @@ export default {
       "masked": "A ____ order prioritizes execution rather than a specific price.",
       "options": [
         "market-mcq-42",
-        "market-mcq-41",
-        "market-mcq-43",
-        "market-mcq-40",
-        "market-mcq-44",
-        "market-mcq-39"
+        "market-mcq-63",
+        "market-mcq-64",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「市價盤 execute at market」。",
       "sentenceIndex": 111,
@@ -4152,12 +3834,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-42": "本句指「市價盤 execute at market」。",
-        "market-mcq-41": "「市場莊家 provides liquidity」與本句語境不同。",
-        "market-mcq-43": "「市價 current price」與本句語境不同。",
-        "market-mcq-40": "「熊市 sustained decline」與本句語境不同。",
-        "market-mcq-44": "「市場價值 sale value」與本句語境不同。",
-        "market-mcq-39": "「牛市 sustained rise」與本句語境不同。"
+        "market-mcq-42": "本句的「market」指「市價盤 execute at market」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-42"
     },
@@ -4169,11 +3849,9 @@ export default {
       "masked": "The ____ price of the product has fallen.",
       "options": [
         "market-mcq-43",
-        "market-mcq-42",
-        "market-mcq-44",
-        "market-mcq-41",
-        "market-mcq-45",
-        "market-mcq-40"
+        "market-mcq-63",
+        "market-mcq-64",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「市價 current price」。",
       "sentenceIndex": 112,
@@ -4182,12 +3860,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-43": "本句指「市價 current price」。",
-        "market-mcq-42": "「市價盤 execute at market」與本句語境不同。",
-        "market-mcq-44": "「市場價值 sale value」與本句語境不同。",
-        "market-mcq-41": "「市場莊家 provides liquidity」與本句語境不同。",
-        "market-mcq-45": "「市場水平 prevailing rate」與本句語境不同。",
-        "market-mcq-40": "「熊市 sustained decline」與本句語境不同。"
+        "market-mcq-43": "本句的「market」指「市價 current price」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-43"
     },
@@ -4199,11 +3875,9 @@ export default {
       "masked": "Farmers sold their crops at ____ prices.",
       "options": [
         "market-mcq-43",
-        "market-mcq-42",
-        "market-mcq-44",
-        "market-mcq-41",
-        "market-mcq-45",
-        "market-mcq-40"
+        "market-mcq-64",
+        "market-mcq-67",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「市價 current price」。",
       "sentenceIndex": 113,
@@ -4212,12 +3886,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-43": "本句指「市價 current price」。",
-        "market-mcq-42": "「市價盤 execute at market」與本句語境不同。",
-        "market-mcq-44": "「市場價值 sale value」與本句語境不同。",
-        "market-mcq-41": "「市場莊家 provides liquidity」與本句語境不同。",
-        "market-mcq-45": "「市場水平 prevailing rate」與本句語境不同。",
-        "market-mcq-40": "「熊市 sustained decline」與本句語境不同。"
+        "market-mcq-43": "本句的「market」指「市價 current price」。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-43"
     },
@@ -4229,11 +3901,9 @@ export default {
       "masked": "The house has a ____ value of approximately $500,000.",
       "options": [
         "market-mcq-44",
-        "market-mcq-43",
-        "market-mcq-45",
-        "market-mcq-42",
-        "market-mcq-46",
-        "market-mcq-41"
+        "market-mcq-77",
+        "market-mcq-59",
+        "market-mcq-62"
       ],
       "explanation": "本句的「market」指「市場價值 sale value」。",
       "sentenceIndex": 114,
@@ -4242,12 +3912,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-44": "本句指「市場價值 sale value」。",
-        "market-mcq-43": "「市價 current price」與本句語境不同。",
-        "market-mcq-45": "「市場水平 prevailing rate」與本句語境不同。",
-        "market-mcq-42": "「市價盤 execute at market」與本句語境不同。",
-        "market-mcq-46": "「公司市值 equity value」與本句語境不同。",
-        "market-mcq-41": "「市場莊家 provides liquidity」與本句語境不同。"
+        "market-mcq-44": "本句的「market」指「市場價值 sale value」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-44"
     },
@@ -4259,11 +3927,9 @@ export default {
       "masked": "____ value may differ from the original purchase price.",
       "options": [
         "market-mcq-44",
-        "market-mcq-43",
-        "market-mcq-45",
-        "market-mcq-42",
-        "market-mcq-46",
-        "market-mcq-41"
+        "market-mcq-62",
+        "market-mcq-67",
+        "market-mcq-59"
       ],
       "explanation": "本句的「Market」指「市場價值 sale value」。",
       "sentenceIndex": 115,
@@ -4272,12 +3938,10 @@ export default {
         "Market"
       ],
       "optionReasons": {
-        "market-mcq-44": "本句指「市場價值 sale value」。",
-        "market-mcq-43": "「市價 current price」與本句語境不同。",
-        "market-mcq-45": "「市場水平 prevailing rate」與本句語境不同。",
-        "market-mcq-42": "「市價盤 execute at market」與本句語境不同。",
-        "market-mcq-46": "「公司市值 equity value」與本句語境不同。",
-        "market-mcq-41": "「市場莊家 provides liquidity」與本句語境不同。"
+        "market-mcq-44": "本句的「Market」指「市場價值 sale value」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-44"
     },
@@ -4289,11 +3953,9 @@ export default {
       "masked": "The company pays the ____ rate for experienced engineers.",
       "options": [
         "market-mcq-45",
-        "market-mcq-44",
-        "market-mcq-46",
-        "market-mcq-43",
-        "market-mcq-47",
-        "market-mcq-42"
+        "market-mcq-62",
+        "market-mcq-67",
+        "market-mcq-59"
       ],
       "explanation": "本句的「market」指「市場水平 prevailing rate」。",
       "sentenceIndex": 116,
@@ -4302,12 +3964,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-45": "本句指「市場水平 prevailing rate」。",
-        "market-mcq-44": "「市場價值 sale value」與本句語境不同。",
-        "market-mcq-46": "「公司市值 equity value」與本句語境不同。",
-        "market-mcq-43": "「市價 current price」與本句語境不同。",
-        "market-mcq-47": "「市場佔有率 percentage of market」與本句語境不同。",
-        "market-mcq-42": "「市價盤 execute at market」與本句語境不同。"
+        "market-mcq-45": "本句的「market」指「市場水平 prevailing rate」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-45"
     },
@@ -4319,11 +3979,9 @@ export default {
       "masked": "The loan was offered at the prevailing ____ rate.",
       "options": [
         "market-mcq-45",
-        "market-mcq-44",
-        "market-mcq-46",
-        "market-mcq-43",
-        "market-mcq-47",
-        "market-mcq-42"
+        "market-mcq-59",
+        "market-mcq-67",
+        "market-mcq-62"
       ],
       "explanation": "本句的「market」指「市場水平 prevailing rate」。",
       "sentenceIndex": 117,
@@ -4332,12 +3990,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-45": "本句指「市場水平 prevailing rate」。",
-        "market-mcq-44": "「市場價值 sale value」與本句語境不同。",
-        "market-mcq-46": "「公司市值 equity value」與本句語境不同。",
-        "market-mcq-43": "「市價 current price」與本句語境不同。",
-        "market-mcq-47": "「市場佔有率 percentage of market」與本句語境不同。",
-        "market-mcq-42": "「市價盤 execute at market」與本句語境不同。"
+        "market-mcq-45": "本句的「market」指「市場水平 prevailing rate」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-45"
     },
@@ -4349,11 +4005,9 @@ export default {
       "masked": "The company's ____ capitalization increased sharply.",
       "options": [
         "market-mcq-46",
-        "market-mcq-45",
-        "market-mcq-47",
-        "market-mcq-44",
-        "market-mcq-48",
-        "market-mcq-43"
+        "market-mcq-62",
+        "market-mcq-79",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「公司市值 equity value」。",
       "sentenceIndex": 118,
@@ -4362,12 +4016,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-46": "本句指「公司市值 equity value」。",
-        "market-mcq-45": "「市場水平 prevailing rate」與本句語境不同。",
-        "market-mcq-47": "「市場佔有率 percentage of market」與本句語境不同。",
-        "market-mcq-44": "「市場價值 sale value」與本句語境不同。",
-        "market-mcq-48": "「市場龍頭 leading firm」與本句語境不同。",
-        "market-mcq-43": "「市價 current price」與本句語境不同。"
+        "market-mcq-46": "本句的「market」指「公司市值 equity value」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-46"
     },
@@ -4379,11 +4031,9 @@ export default {
       "masked": "It is one of the largest companies by ____ cap.",
       "options": [
         "market-mcq-46",
-        "market-mcq-45",
-        "market-mcq-47",
-        "market-mcq-44",
-        "market-mcq-48",
-        "market-mcq-43"
+        "market-mcq-77",
+        "market-mcq-79",
+        "market-mcq-64"
       ],
       "explanation": "本句的「market」指「公司市值 equity value」。",
       "sentenceIndex": 119,
@@ -4392,12 +4042,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-46": "本句指「公司市值 equity value」。",
-        "market-mcq-45": "「市場水平 prevailing rate」與本句語境不同。",
-        "market-mcq-47": "「市場佔有率 percentage of market」與本句語境不同。",
-        "market-mcq-44": "「市場價值 sale value」與本句語境不同。",
-        "market-mcq-48": "「市場龍頭 leading firm」與本句語境不同。",
-        "market-mcq-43": "「市價 current price」與本句語境不同。"
+        "market-mcq-46": "本句的「market」指「公司市值 equity value」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-46"
     },
@@ -4409,11 +4057,9 @@ export default {
       "masked": "The company gained ____ share.",
       "options": [
         "market-mcq-47",
-        "market-mcq-46",
-        "market-mcq-48",
-        "market-mcq-45",
-        "market-mcq-49",
-        "market-mcq-44"
+        "market-mcq-63",
+        "market-mcq-64",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「市場佔有率 percentage of market」。",
       "sentenceIndex": 120,
@@ -4422,12 +4068,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-47": "本句指「市場佔有率 percentage of market」。",
-        "market-mcq-46": "「公司市值 equity value」與本句語境不同。",
-        "market-mcq-48": "「市場龍頭 leading firm」與本句語境不同。",
-        "market-mcq-45": "「市場水平 prevailing rate」與本句語境不同。",
-        "market-mcq-49": "「市場領先的 leading position」與本句語境不同。",
-        "market-mcq-44": "「市場價值 sale value」與本句語境不同。"
+        "market-mcq-47": "本句的「market」指「市場佔有率 percentage of market」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-47"
     },
@@ -4439,11 +4083,9 @@ export default {
       "masked": "Its ____ share fell after new competitors entered.",
       "options": [
         "market-mcq-47",
-        "market-mcq-46",
-        "market-mcq-48",
-        "market-mcq-45",
-        "market-mcq-49",
-        "market-mcq-44"
+        "market-mcq-77",
+        "market-mcq-79",
+        "market-mcq-59"
       ],
       "explanation": "本句的「market」指「市場佔有率 percentage of market」。",
       "sentenceIndex": 121,
@@ -4452,12 +4094,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-47": "本句指「市場佔有率 percentage of market」。",
-        "market-mcq-46": "「公司市值 equity value」與本句語境不同。",
-        "market-mcq-48": "「市場龍頭 leading firm」與本句語境不同。",
-        "market-mcq-45": "「市場水平 prevailing rate」與本句語境不同。",
-        "market-mcq-49": "「市場領先的 leading position」與本句語境不同。",
-        "market-mcq-44": "「市場價值 sale value」與本句語境不同。"
+        "market-mcq-47": "本句的「market」指「市場佔有率 percentage of market」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-47"
     },
@@ -4469,11 +4109,9 @@ export default {
       "masked": "The company is the ____ leader in electric bicycles.",
       "options": [
         "market-mcq-48",
-        "market-mcq-47",
-        "market-mcq-49",
-        "market-mcq-46",
-        "market-mcq-50",
-        "market-mcq-45"
+        "market-mcq-63",
+        "market-mcq-79",
+        "market-mcq-62"
       ],
       "explanation": "本句的「market」指「市場龍頭 leading firm」。",
       "sentenceIndex": 122,
@@ -4482,12 +4120,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-48": "本句指「市場龍頭 leading firm」。",
-        "market-mcq-47": "「市場佔有率 percentage of market」與本句語境不同。",
-        "market-mcq-49": "「市場領先的 leading position」與本句語境不同。",
-        "market-mcq-46": "「公司市值 equity value」與本句語境不同。",
-        "market-mcq-50": "「市場地位 competitive standing」與本句語境不同。",
-        "market-mcq-45": "「市場水平 prevailing rate」與本句語境不同。"
+        "market-mcq-48": "本句的「market」指「市場龍頭 leading firm」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-48"
     },
@@ -4499,11 +4135,9 @@ export default {
       "masked": "The ____ leader controls a large share of sales.",
       "options": [
         "market-mcq-48",
-        "market-mcq-47",
-        "market-mcq-49",
-        "market-mcq-46",
-        "market-mcq-50",
-        "market-mcq-45"
+        "market-mcq-64",
+        "market-mcq-77",
+        "market-mcq-67"
       ],
       "explanation": "本句的「market」指「市場龍頭 leading firm」。",
       "sentenceIndex": 123,
@@ -4512,12 +4146,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-48": "本句指「市場龍頭 leading firm」。",
-        "market-mcq-47": "「市場佔有率 percentage of market」與本句語境不同。",
-        "market-mcq-49": "「市場領先的 leading position」與本句語境不同。",
-        "market-mcq-46": "「公司市值 equity value」與本句語境不同。",
-        "market-mcq-50": "「市場地位 competitive standing」與本句語境不同。",
-        "market-mcq-45": "「市場水平 prevailing rate」與本句語境不同。"
+        "market-mcq-48": "本句的「market」指「市場龍頭 leading firm」。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-48"
     },
@@ -4529,11 +4161,9 @@ export default {
       "masked": "The company offers ____ technology.",
       "options": [
         "market-mcq-49",
-        "market-mcq-48",
-        "market-mcq-50",
-        "market-mcq-47",
-        "market-mcq-51",
-        "market-mcq-46"
+        "market-mcq-79",
+        "market-mcq-64",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market-leading」指「市場領先的 leading position」。",
       "sentenceIndex": 124,
@@ -4542,12 +4172,10 @@ export default {
         "market-leading"
       ],
       "optionReasons": {
-        "market-mcq-49": "本句指「市場領先的 leading position」。",
-        "market-mcq-48": "「市場龍頭 leading firm」與本句語境不同。",
-        "market-mcq-50": "「市場地位 competitive standing」與本句語境不同。",
-        "market-mcq-47": "「市場佔有率 percentage of market」與本句語境不同。",
-        "market-mcq-51": "「市場滲透 adoption level」與本句語境不同。",
-        "market-mcq-46": "「公司市值 equity value」與本句語境不同。"
+        "market-mcq-49": "本句的「market-leading」指「市場領先的 leading position」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-49"
     },
@@ -4559,11 +4187,9 @@ export default {
       "masked": "It has a ____ position in the sector.",
       "options": [
         "market-mcq-49",
-        "market-mcq-48",
-        "market-mcq-50",
-        "market-mcq-47",
-        "market-mcq-51",
-        "market-mcq-46"
+        "market-mcq-77",
+        "market-mcq-59",
+        "market-mcq-64"
       ],
       "explanation": "本句的「market-leading」指「市場領先的 leading position」。",
       "sentenceIndex": 125,
@@ -4572,12 +4198,10 @@ export default {
         "market-leading"
       ],
       "optionReasons": {
-        "market-mcq-49": "本句指「市場領先的 leading position」。",
-        "market-mcq-48": "「市場龍頭 leading firm」與本句語境不同。",
-        "market-mcq-50": "「市場地位 competitive standing」與本句語境不同。",
-        "market-mcq-47": "「市場佔有率 percentage of market」與本句語境不同。",
-        "market-mcq-51": "「市場滲透 adoption level」與本句語境不同。",
-        "market-mcq-46": "「公司市值 equity value」與本句語境不同。"
+        "market-mcq-49": "本句的「market-leading」指「市場領先的 leading position」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-49"
     },
@@ -4589,11 +4213,9 @@ export default {
       "masked": "The acquisition strengthened the company's ____ position.",
       "options": [
         "market-mcq-50",
-        "market-mcq-49",
-        "market-mcq-51",
-        "market-mcq-48",
-        "market-mcq-52",
-        "market-mcq-47"
+        "market-mcq-79",
+        "market-mcq-59",
+        "market-mcq-67"
       ],
       "explanation": "本句的「market」指「市場地位 competitive standing」。",
       "sentenceIndex": 126,
@@ -4602,12 +4224,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-50": "本句指「市場地位 competitive standing」。",
-        "market-mcq-49": "「市場領先的 leading position」與本句語境不同。",
-        "market-mcq-51": "「市場滲透 adoption level」與本句語境不同。",
-        "market-mcq-48": "「市場龍頭 leading firm」與本句語境不同。",
-        "market-mcq-52": "「市場研究 customer research」與本句語境不同。",
-        "market-mcq-47": "「市場佔有率 percentage of market」與本句語境不同。"
+        "market-mcq-50": "本句的「market」指「市場地位 competitive standing」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-50"
     },
@@ -4619,11 +4239,9 @@ export default {
       "masked": "The brand has a strong ____ position among younger consumers.",
       "options": [
         "market-mcq-50",
-        "market-mcq-49",
-        "market-mcq-51",
-        "market-mcq-48",
-        "market-mcq-52",
-        "market-mcq-47"
+        "market-mcq-79",
+        "market-mcq-64",
+        "market-mcq-63"
       ],
       "explanation": "本句的「market」指「市場地位 competitive standing」。",
       "sentenceIndex": 127,
@@ -4632,12 +4250,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-50": "本句指「市場地位 competitive standing」。",
-        "market-mcq-49": "「市場領先的 leading position」與本句語境不同。",
-        "market-mcq-51": "「市場滲透 adoption level」與本句語境不同。",
-        "market-mcq-48": "「市場龍頭 leading firm」與本句語境不同。",
-        "market-mcq-52": "「市場研究 customer research」與本句語境不同。",
-        "market-mcq-47": "「市場佔有率 percentage of market」與本句語境不同。"
+        "market-mcq-50": "本句的「market」指「市場地位 competitive standing」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-50"
     },
@@ -4649,11 +4265,9 @@ export default {
       "masked": "The product achieved high ____ penetration.",
       "options": [
         "market-mcq-51",
-        "market-mcq-50",
-        "market-mcq-52",
-        "market-mcq-49",
-        "market-mcq-53",
-        "market-mcq-48"
+        "market-mcq-63",
+        "market-mcq-77",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「市場滲透 adoption level」。",
       "sentenceIndex": 128,
@@ -4662,12 +4276,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-51": "本句指「市場滲透 adoption level」。",
-        "market-mcq-50": "「市場地位 competitive standing」與本句語境不同。",
-        "market-mcq-52": "「市場研究 customer research」與本句語境不同。",
-        "market-mcq-49": "「市場領先的 leading position」與本句語境不同。",
-        "market-mcq-53": "「市場分析 analysis」與本句語境不同。",
-        "market-mcq-48": "「市場龍頭 leading firm」與本句語境不同。"
+        "market-mcq-51": "本句的「market」指「市場滲透 adoption level」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-51"
     },
@@ -4679,11 +4291,9 @@ export default {
       "masked": "Lower prices may increase ____ penetration.",
       "options": [
         "market-mcq-51",
-        "market-mcq-50",
-        "market-mcq-52",
-        "market-mcq-49",
-        "market-mcq-53",
-        "market-mcq-48"
+        "market-mcq-64",
+        "market-mcq-67",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「市場滲透 adoption level」。",
       "sentenceIndex": 129,
@@ -4692,12 +4302,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-51": "本句指「市場滲透 adoption level」。",
-        "market-mcq-50": "「市場地位 competitive standing」與本句語境不同。",
-        "market-mcq-52": "「市場研究 customer research」與本句語境不同。",
-        "market-mcq-49": "「市場領先的 leading position」與本句語境不同。",
-        "market-mcq-53": "「市場分析 analysis」與本句語境不同。",
-        "market-mcq-48": "「市場龍頭 leading firm」與本句語境不同。"
+        "market-mcq-51": "本句的「market」指「市場滲透 adoption level」。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-51"
     },
@@ -4709,11 +4317,9 @@ export default {
       "masked": "The company conducted ____ research before launching the product.",
       "options": [
         "market-mcq-52",
-        "market-mcq-51",
-        "market-mcq-53",
-        "market-mcq-50",
-        "market-mcq-54",
-        "market-mcq-49"
+        "market-mcq-59",
+        "market-mcq-79",
+        "market-mcq-63"
       ],
       "explanation": "本句的「market」指「市場研究 customer research」。",
       "sentenceIndex": 132,
@@ -4722,12 +4328,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-52": "本句指「市場研究 customer research」。",
-        "market-mcq-51": "「市場滲透 adoption level」與本句語境不同。",
-        "market-mcq-53": "「市場分析 analysis」與本句語境不同。",
-        "market-mcq-50": "「市場地位 competitive standing」與本句語境不同。",
-        "market-mcq-54": "「市場情報 competitive information」與本句語境不同。",
-        "market-mcq-49": "「市場領先的 leading position」與本句語境不同。"
+        "market-mcq-52": "本句的「market」指「市場研究 customer research」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-52"
     },
@@ -4739,11 +4343,9 @@ export default {
       "masked": "____ research helps identify customer needs.",
       "options": [
         "market-mcq-52",
-        "market-mcq-51",
-        "market-mcq-53",
-        "market-mcq-50",
-        "market-mcq-54",
-        "market-mcq-49"
+        "market-mcq-64",
+        "market-mcq-67",
+        "market-mcq-77"
       ],
       "explanation": "本句的「Market」指「市場研究 customer research」。",
       "sentenceIndex": 133,
@@ -4752,12 +4354,10 @@ export default {
         "Market"
       ],
       "optionReasons": {
-        "market-mcq-52": "本句指「市場研究 customer research」。",
-        "market-mcq-51": "「市場滲透 adoption level」與本句語境不同。",
-        "market-mcq-53": "「市場分析 analysis」與本句語境不同。",
-        "market-mcq-50": "「市場地位 competitive standing」與本句語境不同。",
-        "market-mcq-54": "「市場情報 competitive information」與本句語境不同。",
-        "market-mcq-49": "「市場領先的 leading position」與本句語境不同。"
+        "market-mcq-52": "本句的「Market」指「市場研究 customer research」。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-52"
     },
@@ -4769,11 +4369,9 @@ export default {
       "masked": "The report contains a detailed ____ analysis.",
       "options": [
         "market-mcq-53",
-        "market-mcq-52",
-        "market-mcq-54",
-        "market-mcq-51",
-        "market-mcq-55",
-        "market-mcq-50"
+        "market-mcq-77",
+        "market-mcq-62",
+        "market-mcq-59"
       ],
       "explanation": "本句的「market」指「市場分析 analysis」。",
       "sentenceIndex": 134,
@@ -4782,12 +4380,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-53": "本句指「市場分析 analysis」。",
-        "market-mcq-52": "「市場研究 customer research」與本句語境不同。",
-        "market-mcq-54": "「市場情報 competitive information」與本句語境不同。",
-        "market-mcq-51": "「市場滲透 adoption level」與本句語境不同。",
-        "market-mcq-55": "「市場趨勢 direction of change」與本句語境不同。",
-        "market-mcq-50": "「市場地位 competitive standing」與本句語境不同。"
+        "market-mcq-53": "本句的「market」指「市場分析 analysis」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-53"
     },
@@ -4799,11 +4395,9 @@ export default {
       "masked": "____ analysis showed growing demand.",
       "options": [
         "market-mcq-53",
-        "market-mcq-52",
-        "market-mcq-54",
-        "market-mcq-51",
-        "market-mcq-55",
-        "market-mcq-50"
+        "market-mcq-59",
+        "market-mcq-64",
+        "market-mcq-67"
       ],
       "explanation": "本句的「Market」指「市場分析 analysis」。",
       "sentenceIndex": 135,
@@ -4812,12 +4406,10 @@ export default {
         "Market"
       ],
       "optionReasons": {
-        "market-mcq-53": "本句指「市場分析 analysis」。",
-        "market-mcq-52": "「市場研究 customer research」與本句語境不同。",
-        "market-mcq-54": "「市場情報 competitive information」與本句語境不同。",
-        "market-mcq-51": "「市場滲透 adoption level」與本句語境不同。",
-        "market-mcq-55": "「市場趨勢 direction of change」與本句語境不同。",
-        "market-mcq-50": "「市場地位 competitive standing」與本句語境不同。"
+        "market-mcq-53": "本句的「Market」指「市場分析 analysis」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-53"
     },
@@ -4829,11 +4421,9 @@ export default {
       "masked": "Good ____ intelligence helps managers understand competitors.",
       "options": [
         "market-mcq-54",
-        "market-mcq-53",
-        "market-mcq-55",
-        "market-mcq-52",
-        "market-mcq-56",
-        "market-mcq-51"
+        "market-mcq-62",
+        "market-mcq-63",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「市場情報 competitive information」。",
       "sentenceIndex": 136,
@@ -4842,12 +4432,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-54": "本句指「市場情報 competitive information」。",
-        "market-mcq-53": "「市場分析 analysis」與本句語境不同。",
-        "market-mcq-55": "「市場趨勢 direction of change」與本句語境不同。",
-        "market-mcq-52": "「市場研究 customer research」與本句語境不同。",
-        "market-mcq-56": "「營銷；推銷 promote/sell」與本句語境不同。",
-        "market-mcq-51": "「市場滲透 adoption level」與本句語境不同。"
+        "market-mcq-54": "本句的「market」指「市場情報 competitive information」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-54"
     },
@@ -4859,11 +4447,9 @@ export default {
       "masked": "The team collects ____ intelligence from several sources.",
       "options": [
         "market-mcq-54",
-        "market-mcq-53",
-        "market-mcq-55",
-        "market-mcq-52",
-        "market-mcq-56",
-        "market-mcq-51"
+        "market-mcq-59",
+        "market-mcq-77",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「市場情報 competitive information」。",
       "sentenceIndex": 137,
@@ -4872,12 +4458,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-54": "本句指「市場情報 competitive information」。",
-        "market-mcq-53": "「市場分析 analysis」與本句語境不同。",
-        "market-mcq-55": "「市場趨勢 direction of change」與本句語境不同。",
-        "market-mcq-52": "「市場研究 customer research」與本句語境不同。",
-        "market-mcq-56": "「營銷；推銷 promote/sell」與本句語境不同。",
-        "market-mcq-51": "「市場滲透 adoption level」與本句語境不同。"
+        "market-mcq-54": "本句的「market」指「市場情報 competitive information」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-54"
     },
@@ -4889,11 +4473,9 @@ export default {
       "masked": "Consumer preferences are changing with new ____ trends.",
       "options": [
         "market-mcq-55",
-        "market-mcq-54",
-        "market-mcq-56",
-        "market-mcq-53",
-        "market-mcq-57",
-        "market-mcq-52"
+        "market-mcq-63",
+        "market-mcq-67",
+        "market-mcq-62"
       ],
       "explanation": "本句的「market」指「市場趨勢 direction of change」。",
       "sentenceIndex": 138,
@@ -4902,12 +4484,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-55": "本句指「市場趨勢 direction of change」。",
-        "market-mcq-54": "「市場情報 competitive information」與本句語境不同。",
-        "market-mcq-56": "「營銷；推銷 promote/sell」與本句語境不同。",
-        "market-mcq-53": "「市場分析 analysis」與本句語境不同。",
-        "market-mcq-57": "「向 Y 推銷 X targeting」與本句語境不同。",
-        "market-mcq-52": "「市場研究 customer research」與本句語境不同。"
+        "market-mcq-55": "本句的「market」指「市場趨勢 direction of change」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-55"
     },
@@ -4919,11 +4499,9 @@ export default {
       "masked": "Managers need to understand long-term ____ trends.",
       "options": [
         "market-mcq-55",
-        "market-mcq-54",
-        "market-mcq-56",
-        "market-mcq-53",
-        "market-mcq-57",
-        "market-mcq-52"
+        "market-mcq-79",
+        "market-mcq-59",
+        "market-mcq-67"
       ],
       "explanation": "本句的「market」指「市場趨勢 direction of change」。",
       "sentenceIndex": 139,
@@ -4932,12 +4510,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-55": "本句指「市場趨勢 direction of change」。",
-        "market-mcq-54": "「市場情報 competitive information」與本句語境不同。",
-        "market-mcq-56": "「營銷；推銷 promote/sell」與本句語境不同。",
-        "market-mcq-53": "「市場分析 analysis」與本句語境不同。",
-        "market-mcq-57": "「向 Y 推銷 X targeting」與本句語境不同。",
-        "market-mcq-52": "「市場研究 customer research」與本句語境不同。"
+        "market-mcq-55": "本句的「market」指「市場趨勢 direction of change」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-55"
     },
@@ -4949,11 +4525,9 @@ export default {
       "masked": "Job seekers need to know how to ____ themselves.",
       "options": [
         "market-mcq-59",
-        "market-mcq-58",
-        "market-mcq-60",
-        "market-mcq-57",
-        "market-mcq-61",
-        "market-mcq-56"
+        "market-mcq-21",
+        "market-mcq-46",
+        "market-mcq-03"
       ],
       "explanation": "本句的「market」指「推銷自己 personal positioning」。",
       "sentenceIndex": 146,
@@ -4962,12 +4536,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-59": "本句指「推銷自己 personal positioning」。",
-        "market-mcq-58": "「把 X 定位為 Y positioning」與本句語境不同。",
-        "market-mcq-60": "「市場營銷 business function」與本句語境不同。",
-        "market-mcq-57": "「向 Y 推銷 X targeting」與本句語境不同。",
-        "market-mcq-61": "「市場推廣部 organization」與本句語境不同。",
-        "market-mcq-56": "「營銷；推銷 promote/sell」與本句語境不同。"
+        "market-mcq-59": "本句的「market」指「推銷自己 personal positioning」。",
+        "market-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-59"
     },
@@ -4979,11 +4551,9 @@ export default {
       "masked": "She ____ herself as a specialist in digital strategy.",
       "options": [
         "market-mcq-59",
-        "market-mcq-58",
-        "market-mcq-60",
-        "market-mcq-57",
-        "market-mcq-61",
-        "market-mcq-56"
+        "market-mcq-34",
+        "market-mcq-02",
+        "market-mcq-46"
       ],
       "explanation": "本句的「markets」指「推銷自己 personal positioning」。",
       "sentenceIndex": 147,
@@ -4992,12 +4562,10 @@ export default {
         "markets"
       ],
       "optionReasons": {
-        "market-mcq-59": "本句指「推銷自己 personal positioning」。",
-        "market-mcq-58": "「把 X 定位為 Y positioning」與本句語境不同。",
-        "market-mcq-60": "「市場營銷 business function」與本句語境不同。",
-        "market-mcq-57": "「向 Y 推銷 X targeting」與本句語境不同。",
-        "market-mcq-61": "「市場推廣部 organization」與本句語境不同。",
-        "market-mcq-56": "「營銷；推銷 promote/sell」與本句語境不同。"
+        "market-mcq-59": "本句的「markets」指「推銷自己 personal positioning」。",
+        "market-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-59"
     },
@@ -5009,11 +4577,9 @@ export default {
       "masked": "The ____ department created the campaign.",
       "options": [
         "market-mcq-61",
-        "market-mcq-60",
-        "market-mcq-62",
-        "market-mcq-59",
-        "market-mcq-63",
-        "market-mcq-58"
+        "market-mcq-79",
+        "market-mcq-64",
+        "market-mcq-77"
       ],
       "explanation": "本句的「marketing」指「市場推廣部 organization」。",
       "sentenceIndex": 153,
@@ -5022,12 +4588,10 @@ export default {
         "marketing"
       ],
       "optionReasons": {
-        "market-mcq-61": "本句指「市場推廣部 organization」。",
-        "market-mcq-60": "「市場營銷 business function」與本句語境不同。",
-        "market-mcq-62": "「營銷策略 strategy」與本句語境不同。",
-        "market-mcq-59": "「推銷自己 personal positioning」與本句語境不同。",
-        "market-mcq-63": "「推廣活動 promotion」與本句語境不同。",
-        "market-mcq-58": "「把 X 定位為 Y positioning」與本句語境不同。"
+        "market-mcq-61": "本句的「marketing」指「市場推廣部 organization」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-61"
     },
@@ -5039,11 +4603,9 @@ export default {
       "masked": "____ and finance disagreed about the budget.",
       "options": [
         "market-mcq-61",
-        "market-mcq-60",
         "market-mcq-62",
-        "market-mcq-59",
-        "market-mcq-63",
-        "market-mcq-58"
+        "market-mcq-67",
+        "market-mcq-77"
       ],
       "explanation": "本句的「Marketing」指「市場推廣部 organization」。",
       "sentenceIndex": 154,
@@ -5052,12 +4614,10 @@ export default {
         "Marketing"
       ],
       "optionReasons": {
-        "market-mcq-61": "本句指「市場推廣部 organization」。",
-        "market-mcq-60": "「市場營銷 business function」與本句語境不同。",
-        "market-mcq-62": "「營銷策略 strategy」與本句語境不同。",
-        "market-mcq-59": "「推銷自己 personal positioning」與本句語境不同。",
-        "market-mcq-63": "「推廣活動 promotion」與本句語境不同。",
-        "market-mcq-58": "「把 X 定位為 Y positioning」與本句語境不同。"
+        "market-mcq-61": "本句的「Marketing」指「市場推廣部 organization」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-61"
     },
@@ -5069,11 +4629,9 @@ export default {
       "masked": "The company changed its ____ strategy.",
       "options": [
         "market-mcq-62",
-        "market-mcq-61",
-        "market-mcq-63",
-        "market-mcq-60",
-        "market-mcq-64",
-        "market-mcq-59"
+        "market-mcq-72",
+        "market-mcq-77",
+        "market-mcq-63"
       ],
       "explanation": "本句的「marketing」指「營銷策略 strategy」。",
       "sentenceIndex": 155,
@@ -5082,12 +4640,10 @@ export default {
         "marketing"
       ],
       "optionReasons": {
-        "market-mcq-62": "本句指「營銷策略 strategy」。",
-        "market-mcq-61": "「市場推廣部 organization」與本句語境不同。",
-        "market-mcq-63": "「推廣活動 promotion」與本句語境不同。",
-        "market-mcq-60": "「市場營銷 business function」與本句語境不同。",
-        "market-mcq-64": "「營銷組合 product/price/place/promotion」與本句語境不同。",
-        "market-mcq-59": "「推銷自己 personal positioning」與本句語境不同。"
+        "market-mcq-62": "本句的「marketing」指「營銷策略 strategy」。",
+        "market-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-62"
     },
@@ -5099,11 +4655,9 @@ export default {
       "masked": "Pricing forms part of the ____ strategy.",
       "options": [
         "market-mcq-62",
-        "market-mcq-61",
+        "market-mcq-44",
         "market-mcq-63",
-        "market-mcq-60",
-        "market-mcq-64",
-        "market-mcq-59"
+        "market-mcq-71"
       ],
       "explanation": "本句的「marketing」指「營銷策略 strategy」。",
       "sentenceIndex": 156,
@@ -5112,12 +4666,10 @@ export default {
         "marketing"
       ],
       "optionReasons": {
-        "market-mcq-62": "本句指「營銷策略 strategy」。",
-        "market-mcq-61": "「市場推廣部 organization」與本句語境不同。",
-        "market-mcq-63": "「推廣活動 promotion」與本句語境不同。",
-        "market-mcq-60": "「市場營銷 business function」與本句語境不同。",
-        "market-mcq-64": "「營銷組合 product/price/place/promotion」與本句語境不同。",
-        "market-mcq-59": "「推銷自己 personal positioning」與本句語境不同。"
+        "market-mcq-62": "本句的「marketing」指「營銷策略 strategy」。",
+        "market-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-62"
     },
@@ -5129,11 +4681,9 @@ export default {
       "masked": "The new ____ campaign attracted younger customers.",
       "options": [
         "market-mcq-63",
-        "market-mcq-62",
-        "market-mcq-64",
-        "market-mcq-61",
-        "market-mcq-65",
-        "market-mcq-60"
+        "market-mcq-09",
+        "market-mcq-79",
+        "market-mcq-77"
       ],
       "explanation": "本句的「marketing」指「推廣活動 promotion」。",
       "sentenceIndex": 157,
@@ -5142,12 +4692,10 @@ export default {
         "marketing"
       ],
       "optionReasons": {
-        "market-mcq-63": "本句指「推廣活動 promotion」。",
-        "market-mcq-62": "「營銷策略 strategy」與本句語境不同。",
-        "market-mcq-64": "「營銷組合 product/price/place/promotion」與本句語境不同。",
-        "market-mcq-61": "「市場推廣部 organization」與本句語境不同。",
-        "market-mcq-65": "「營銷人員 practitioner」與本句語境不同。",
-        "market-mcq-60": "「市場營銷 business function」與本句語境不同。"
+        "market-mcq-63": "本句的「marketing」指「推廣活動 promotion」。",
+        "market-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-63"
     },
@@ -5159,11 +4707,9 @@ export default {
       "masked": "Pricing is one part of the ____ mix.",
       "options": [
         "market-mcq-64",
-        "market-mcq-63",
-        "market-mcq-65",
-        "market-mcq-62",
-        "market-mcq-66",
-        "market-mcq-61"
+        "market-mcq-11",
+        "market-mcq-77",
+        "market-mcq-63"
       ],
       "explanation": "本句的「marketing」指「營銷組合 product/price/place/promotion」。",
       "sentenceIndex": 158,
@@ -5172,12 +4718,10 @@ export default {
         "marketing"
       ],
       "optionReasons": {
-        "market-mcq-64": "本句指「營銷組合 product/price/place/promotion」。",
-        "market-mcq-63": "「推廣活動 promotion」與本句語境不同。",
-        "market-mcq-65": "「營銷人員 practitioner」與本句語境不同。",
-        "market-mcq-62": "「營銷策略 strategy」與本句語境不同。",
-        "market-mcq-66": "「在市場出售 available for sale」與本句語境不同。",
-        "market-mcq-61": "「市場推廣部 organization」與本句語境不同。"
+        "market-mcq-64": "本句的「marketing」指「營銷組合 product/price/place/promotion」。",
+        "market-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-64"
     },
@@ -5189,11 +4733,9 @@ export default {
       "masked": "The company adjusted its ____ mix for the new market.",
       "options": [
         "market-mcq-64",
+        "market-mcq-12",
         "market-mcq-63",
-        "market-mcq-65",
-        "market-mcq-62",
-        "market-mcq-66",
-        "market-mcq-61"
+        "market-mcq-46"
       ],
       "explanation": "本句的「marketing」指「營銷組合 product/price/place/promotion」。",
       "sentenceIndex": 159,
@@ -5202,12 +4744,10 @@ export default {
         "marketing"
       ],
       "optionReasons": {
-        "market-mcq-64": "本句指「營銷組合 product/price/place/promotion」。",
-        "market-mcq-63": "「推廣活動 promotion」與本句語境不同。",
-        "market-mcq-65": "「營銷人員 practitioner」與本句語境不同。",
-        "market-mcq-62": "「營銷策略 strategy」與本句語境不同。",
-        "market-mcq-66": "「在市場出售 available for sale」與本句語境不同。",
-        "market-mcq-61": "「市場推廣部 organization」與本句語境不同。"
+        "market-mcq-64": "本句的「marketing」指「營銷組合 product/price/place/promotion」。",
+        "market-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-64"
     },
@@ -5219,11 +4759,9 @@ export default {
       "masked": "The house is now off the ____.",
       "options": [
         "market-mcq-67",
-        "market-mcq-66",
-        "market-mcq-68",
-        "market-mcq-65",
-        "market-mcq-69",
-        "market-mcq-64"
+        "market-mcq-08",
+        "market-mcq-02",
+        "market-mcq-59"
       ],
       "explanation": "本句的「market」指「不再出售 unavailable」。",
       "sentenceIndex": 176,
@@ -5232,12 +4770,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-67": "本句指「不再出售 unavailable」。",
-        "market-mcq-66": "「在市場出售 available for sale」與本句語境不同。",
-        "market-mcq-68": "「正打算買 X buyer intent」與本句語境不同。",
-        "market-mcq-65": "「營銷人員 practitioner」與本句語境不同。",
-        "market-mcq-69": "「把 X 推出市場 commercial launch」與本句語境不同。",
-        "market-mcq-64": "「營銷組合 product/price/place/promotion」與本句語境不同。"
+        "market-mcq-67": "本句的「market」指「不再出售 unavailable」。",
+        "market-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-67"
     },
@@ -5249,11 +4785,9 @@ export default {
       "masked": "The company took the product off the ____.",
       "options": [
         "market-mcq-67",
-        "market-mcq-66",
-        "market-mcq-68",
-        "market-mcq-65",
-        "market-mcq-69",
-        "market-mcq-64"
+        "market-mcq-27",
+        "market-mcq-46",
+        "market-mcq-02"
       ],
       "explanation": "本句的「market」指「不再出售 unavailable」。",
       "sentenceIndex": 177,
@@ -5262,12 +4796,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-67": "本句指「不再出售 unavailable」。",
-        "market-mcq-66": "「在市場出售 available for sale」與本句語境不同。",
-        "market-mcq-68": "「正打算買 X buyer intent」與本句語境不同。",
-        "market-mcq-65": "「營銷人員 practitioner」與本句語境不同。",
-        "market-mcq-69": "「把 X 推出市場 commercial launch」與本句語境不同。",
-        "market-mcq-64": "「營銷組合 product/price/place/promotion」與本句語境不同。"
+        "market-mcq-67": "本句的「market」指「不再出售 unavailable」。",
+        "market-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-67"
     },
@@ -5279,11 +4811,9 @@ export default {
       "masked": "The company plans to go to ____ in October.",
       "options": [
         "market-mcq-70",
-        "market-mcq-69",
-        "market-mcq-71",
-        "market-mcq-68",
-        "market-mcq-72",
-        "market-mcq-67"
+        "market-mcq-59",
+        "market-mcq-63",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「上市／市場進入策略 launch plan」。",
       "sentenceIndex": 186,
@@ -5292,12 +4822,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-70": "本句指「上市／市場進入策略 launch plan」。",
-        "market-mcq-69": "「把 X 推出市場 commercial launch」與本句語境不同。",
-        "market-mcq-71": "「上市所需時間 development speed」與本句語境不同。",
-        "market-mcq-68": "「正打算買 X buyer intent」與本句語境不同。",
-        "market-mcq-72": "「壟斷／控制市場 dominate supply」與本句語境不同。",
-        "market-mcq-67": "「不再出售 unavailable」與本句語境不同。"
+        "market-mcq-70": "本句的「market」指「上市／市場進入策略 launch plan」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-70"
     },
@@ -5309,11 +4837,9 @@ export default {
       "masked": "Before going to ____, the team tested the product.",
       "options": [
         "market-mcq-70",
-        "market-mcq-69",
-        "market-mcq-71",
-        "market-mcq-68",
-        "market-mcq-72",
-        "market-mcq-67"
+        "market-mcq-67",
+        "market-mcq-59",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「上市／市場進入策略 launch plan」。",
       "sentenceIndex": 187,
@@ -5322,12 +4848,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-70": "本句指「上市／市場進入策略 launch plan」。",
-        "market-mcq-69": "「把 X 推出市場 commercial launch」與本句語境不同。",
-        "market-mcq-71": "「上市所需時間 development speed」與本句語境不同。",
-        "market-mcq-68": "「正打算買 X buyer intent」與本句語境不同。",
-        "market-mcq-72": "「壟斷／控制市場 dominate supply」與本句語境不同。",
-        "market-mcq-67": "「不再出售 unavailable」與本句語境不同。"
+        "market-mcq-70": "本句的「market」指「上市／市場進入策略 launch plan」。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-70"
     },
@@ -5339,10 +4863,8 @@ export default {
       "masked": "The firm developed a new go-to-____ strategy.",
       "options": [
         "market-mcq-70",
-        "market-mcq-69",
-        "market-mcq-71",
-        "market-mcq-68",
-        "market-mcq-72",
+        "market-mcq-79",
+        "market-mcq-63",
         "market-mcq-67"
       ],
       "explanation": "本句的「market」指「上市／市場進入策略 launch plan」。",
@@ -5352,12 +4874,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-70": "本句指「上市／市場進入策略 launch plan」。",
-        "market-mcq-69": "「把 X 推出市場 commercial launch」與本句語境不同。",
-        "market-mcq-71": "「上市所需時間 development speed」與本句語境不同。",
-        "market-mcq-68": "「正打算買 X buyer intent」與本句語境不同。",
-        "market-mcq-72": "「壟斷／控制市場 dominate supply」與本句語境不同。",
-        "market-mcq-67": "「不再出售 unavailable」與本句語境不同。"
+        "market-mcq-70": "本句的「market」指「上市／市場進入策略 launch plan」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-70"
     },
@@ -5369,11 +4889,9 @@ export default {
       "masked": "A go-to-____ strategy explains how a product will reach customers.",
       "options": [
         "market-mcq-70",
-        "market-mcq-69",
-        "market-mcq-71",
-        "market-mcq-68",
-        "market-mcq-72",
-        "market-mcq-67"
+        "market-mcq-77",
+        "market-mcq-64",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「上市／市場進入策略 launch plan」。",
       "sentenceIndex": 189,
@@ -5382,12 +4900,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-70": "本句指「上市／市場進入策略 launch plan」。",
-        "market-mcq-69": "「把 X 推出市場 commercial launch」與本句語境不同。",
-        "market-mcq-71": "「上市所需時間 development speed」與本句語境不同。",
-        "market-mcq-68": "「正打算買 X buyer intent」與本句語境不同。",
-        "market-mcq-72": "「壟斷／控制市場 dominate supply」與本句語境不同。",
-        "market-mcq-67": "「不再出售 unavailable」與本句語境不同。"
+        "market-mcq-70": "本句的「market」指「上市／市場進入策略 launch plan」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-70"
     },
@@ -5399,11 +4915,9 @@ export default {
       "masked": "Better coordination reduced time to ____.",
       "options": [
         "market-mcq-71",
-        "market-mcq-70",
-        "market-mcq-72",
-        "market-mcq-69",
-        "market-mcq-73",
-        "market-mcq-68"
+        "market-mcq-64",
+        "market-mcq-63",
+        "market-mcq-67"
       ],
       "explanation": "本句的「market」指「上市所需時間 development speed」。",
       "sentenceIndex": 190,
@@ -5412,12 +4926,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-71": "本句指「上市所需時間 development speed」。",
-        "market-mcq-70": "「上市／市場進入策略 launch plan」與本句語境不同。",
-        "market-mcq-72": "「壟斷／控制市場 dominate supply」與本句語境不同。",
-        "market-mcq-69": "「把 X 推出市場 commercial launch」與本句語境不同。",
-        "market-mcq-73": "「試探市場反應 market test」與本句語境不同。",
-        "market-mcq-68": "「正打算買 X buyer intent」與本句語境不同。"
+        "market-mcq-71": "本句的「market」指「上市所需時間 development speed」。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-71"
     },
@@ -5429,11 +4941,9 @@ export default {
       "masked": "Speed to ____ can be important in technology industries.",
       "options": [
         "market-mcq-71",
-        "market-mcq-70",
-        "market-mcq-72",
-        "market-mcq-69",
-        "market-mcq-73",
-        "market-mcq-68"
+        "market-mcq-59",
+        "market-mcq-63",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「上市所需時間 development speed」。",
       "sentenceIndex": 191,
@@ -5442,12 +4952,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-71": "本句指「上市所需時間 development speed」。",
-        "market-mcq-70": "「上市／市場進入策略 launch plan」與本句語境不同。",
-        "market-mcq-72": "「壟斷／控制市場 dominate supply」與本句語境不同。",
-        "market-mcq-69": "「把 X 推出市場 commercial launch」與本句語境不同。",
-        "market-mcq-73": "「試探市場反應 market test」與本句語境不同。",
-        "market-mcq-68": "「正打算買 X buyer intent」與本句語境不同。"
+        "market-mcq-71": "本句的「market」指「上市所需時間 development speed」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-71"
     },
@@ -5459,11 +4967,9 @@ export default {
       "masked": "The company tried to corner the ____ in specialist software.",
       "options": [
         "market-mcq-72",
-        "market-mcq-71",
-        "market-mcq-73",
-        "market-mcq-70",
-        "market-mcq-74",
-        "market-mcq-69"
+        "market-mcq-59",
+        "market-mcq-67",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market」指「壟斷／控制市場 dominate supply」。",
       "sentenceIndex": 192,
@@ -5472,12 +4978,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-72": "本句指「壟斷／控制市場 dominate supply」。",
-        "market-mcq-71": "「上市所需時間 development speed」與本句語境不同。",
-        "market-mcq-73": "「試探市場反應 market test」與本句語境不同。",
-        "market-mcq-70": "「上市／市場進入策略 launch plan」與本句語境不同。",
-        "market-mcq-74": "「有市場的 sellable」與本句語境不同。",
-        "market-mcq-69": "「把 X 推出市場 commercial launch」與本句語境不同。"
+        "market-mcq-72": "本句的「market」指「壟斷／控制市場 dominate supply」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-72"
     },
@@ -5489,11 +4993,9 @@ export default {
       "masked": "No single company has cornered the ____.",
       "options": [
         "market-mcq-72",
-        "market-mcq-71",
-        "market-mcq-73",
-        "market-mcq-70",
-        "market-mcq-74",
-        "market-mcq-69"
+        "market-mcq-77",
+        "market-mcq-64",
+        "market-mcq-59"
       ],
       "explanation": "本句的「market」指「壟斷／控制市場 dominate supply」。",
       "sentenceIndex": 193,
@@ -5502,12 +5004,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-72": "本句指「壟斷／控制市場 dominate supply」。",
-        "market-mcq-71": "「上市所需時間 development speed」與本句語境不同。",
-        "market-mcq-73": "「試探市場反應 market test」與本句語境不同。",
-        "market-mcq-70": "「上市／市場進入策略 launch plan」與本句語境不同。",
-        "market-mcq-74": "「有市場的 sellable」與本句語境不同。",
-        "market-mcq-69": "「把 X 推出市場 commercial launch」與本句語境不同。"
+        "market-mcq-72": "本句的「market」指「壟斷／控制市場 dominate supply」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-72"
     },
@@ -5519,11 +5019,9 @@ export default {
       "masked": "The company released a small number of units to test the ____.",
       "options": [
         "market-mcq-73",
-        "market-mcq-72",
-        "market-mcq-74",
-        "market-mcq-71",
-        "market-mcq-75",
-        "market-mcq-70"
+        "market-mcq-79",
+        "market-mcq-62",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「試探市場反應 market test」。",
       "sentenceIndex": 194,
@@ -5532,12 +5030,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-73": "本句指「試探市場反應 market test」。",
-        "market-mcq-72": "「壟斷／控制市場 dominate supply」與本句語境不同。",
-        "market-mcq-74": "「有市場的 sellable」與本句語境不同。",
-        "market-mcq-71": "「上市所需時間 development speed」與本句語境不同。",
-        "market-mcq-75": "「就業市場有價值的技能 employability」與本句語境不同。",
-        "market-mcq-70": "「上市／市場進入策略 launch plan」與本句語境不同。"
+        "market-mcq-73": "本句的「market」指「試探市場反應 market test」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-73"
     },
@@ -5549,11 +5045,9 @@ export default {
       "masked": "They are testing the ____ before expanding production.",
       "options": [
         "market-mcq-73",
-        "market-mcq-72",
-        "market-mcq-74",
-        "market-mcq-71",
-        "market-mcq-75",
-        "market-mcq-70"
+        "market-mcq-79",
+        "market-mcq-64",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「試探市場反應 market test」。",
       "sentenceIndex": 195,
@@ -5562,12 +5056,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-73": "本句指「試探市場反應 market test」。",
-        "market-mcq-72": "「壟斷／控制市場 dominate supply」與本句語境不同。",
-        "market-mcq-74": "「有市場的 sellable」與本句語境不同。",
-        "market-mcq-71": "「上市所需時間 development speed」與本句語境不同。",
-        "market-mcq-75": "「就業市場有價值的技能 employability」與本句語境不同。",
-        "market-mcq-70": "「上市／市場進入策略 launch plan」與本句語境不同。"
+        "market-mcq-73": "本句的「market」指「試探市場反應 market test」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-73"
     },
@@ -5579,11 +5071,9 @@ export default {
       "masked": "Digital skills make graduates more ____.",
       "options": [
         "market-mcq-75",
-        "market-mcq-74",
-        "market-mcq-76",
-        "market-mcq-73",
-        "market-mcq-77",
-        "market-mcq-72"
+        "market-mcq-59",
+        "market-mcq-62",
+        "market-mcq-63"
       ],
       "explanation": "本句的「marketable」指「就業市場有價值的技能 employability」。",
       "sentenceIndex": 204,
@@ -5592,12 +5082,10 @@ export default {
         "marketable"
       ],
       "optionReasons": {
-        "market-mcq-75": "本句指「就業市場有價值的技能 employability」。",
-        "market-mcq-74": "「有市場的 sellable」與本句語境不同。",
-        "market-mcq-76": "「可銷售性 appeal」與本句語境不同。",
-        "market-mcq-73": "「試探市場反應 market test」與本句語境不同。",
-        "market-mcq-77": "「可流通證券 liquid securities」與本句語境不同。",
-        "market-mcq-72": "「壟斷／控制市場 dominate supply」與本句語境不同。"
+        "market-mcq-75": "本句的「marketable」指「就業市場有價值的技能 employability」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-75"
     },
@@ -5609,11 +5097,9 @@ export default {
       "masked": "The programme helps students develop ____ skills.",
       "options": [
         "market-mcq-75",
-        "market-mcq-74",
-        "market-mcq-76",
-        "market-mcq-73",
         "market-mcq-77",
-        "market-mcq-72"
+        "market-mcq-63",
+        "market-mcq-64"
       ],
       "explanation": "本句的「marketable」指「就業市場有價值的技能 employability」。",
       "sentenceIndex": 205,
@@ -5622,12 +5108,10 @@ export default {
         "marketable"
       ],
       "optionReasons": {
-        "market-mcq-75": "本句指「就業市場有價值的技能 employability」。",
-        "market-mcq-74": "「有市場的 sellable」與本句語境不同。",
-        "market-mcq-76": "「可銷售性 appeal」與本句語境不同。",
-        "market-mcq-73": "「試探市場反應 market test」與本句語境不同。",
-        "market-mcq-77": "「可流通證券 liquid securities」與本句語境不同。",
-        "market-mcq-72": "「壟斷／控制市場 dominate supply」與本句語境不同。"
+        "market-mcq-75": "本句的「marketable」指「就業市場有價值的技能 employability」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-75"
     },
@@ -5639,11 +5123,9 @@ export default {
       "masked": "The company holds cash and ____ securities.",
       "options": [
         "market-mcq-77",
-        "market-mcq-76",
-        "market-mcq-78",
-        "market-mcq-75",
-        "market-mcq-79",
-        "market-mcq-74"
+        "market-mcq-59",
+        "market-mcq-09",
+        "market-mcq-02"
       ],
       "explanation": "本句的「marketable」指「可流通證券 liquid securities」。",
       "sentenceIndex": 208,
@@ -5652,12 +5134,10 @@ export default {
         "marketable"
       ],
       "optionReasons": {
-        "market-mcq-77": "本句指「可流通證券 liquid securities」。",
-        "market-mcq-76": "「可銷售性 appeal」與本句語境不同。",
-        "market-mcq-78": "「市集／市場環境 place/environment」與本句語境不同。",
-        "market-mcq-75": "「就業市場有價值的技能 employability」與本句語境不同。",
-        "market-mcq-79": "「網上交易平台 platform」與本句語境不同。",
-        "market-mcq-74": "「有市場的 sellable」與本句語境不同。"
+        "market-mcq-77": "本句的「marketable」指「可流通證券 liquid securities」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-77"
     },
@@ -5669,11 +5149,9 @@ export default {
       "masked": "____ securities can generally be bought or sold relatively easily.",
       "options": [
         "market-mcq-77",
-        "market-mcq-76",
-        "market-mcq-78",
-        "market-mcq-75",
-        "market-mcq-79",
-        "market-mcq-74"
+        "market-mcq-59",
+        "market-mcq-36",
+        "market-mcq-63"
       ],
       "explanation": "本句的「Marketable」指「可流通證券 liquid securities」。",
       "sentenceIndex": 209,
@@ -5682,12 +5160,10 @@ export default {
         "Marketable"
       ],
       "optionReasons": {
-        "market-mcq-77": "本句指「可流通證券 liquid securities」。",
-        "market-mcq-76": "「可銷售性 appeal」與本句語境不同。",
-        "market-mcq-78": "「市集／市場環境 place/environment」與本句語境不同。",
-        "market-mcq-75": "「就業市場有價值的技能 employability」與本句語境不同。",
-        "market-mcq-79": "「網上交易平台 platform」與本句語境不同。",
-        "market-mcq-74": "「有市場的 sellable」與本句語境不同。"
+        "market-mcq-77": "本句的「Marketable」指「可流通證券 liquid securities」。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-77"
     },
@@ -5699,11 +5175,9 @@ export default {
       "masked": "Small sellers use online ____ to reach customers.",
       "options": [
         "market-mcq-79",
-        "market-mcq-78",
-        "market-mcq-80",
-        "market-mcq-77",
-        "market-mcq-81",
-        "market-mcq-76"
+        "market-mcq-55",
+        "market-mcq-03",
+        "market-mcq-63"
       ],
       "explanation": "本句的「marketplaces」指「網上交易平台 platform」。",
       "sentenceIndex": 214,
@@ -5712,12 +5186,10 @@ export default {
         "marketplaces"
       ],
       "optionReasons": {
-        "market-mcq-79": "本句指「網上交易平台 platform」。",
-        "market-mcq-78": "「市集／市場環境 place/environment」與本句語境不同。",
-        "market-mcq-80": "「思想市場 competing ideas」與本句語境不同。",
-        "market-mcq-77": "「可流通證券 liquid securities」與本句語境不同。",
-        "market-mcq-81": "「黑市 illegal trade」與本句語境不同。",
-        "market-mcq-76": "「可銷售性 appeal」與本句語境不同。"
+        "market-mcq-79": "本句的「marketplaces」指「網上交易平台 platform」。",
+        "market-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-79"
     },
@@ -5729,11 +5201,9 @@ export default {
       "masked": "The company operates a digital ____ connecting buyers and sellers.",
       "options": [
         "market-mcq-79",
-        "market-mcq-78",
-        "market-mcq-80",
-        "market-mcq-77",
-        "market-mcq-81",
-        "market-mcq-76"
+        "market-mcq-63",
+        "market-mcq-51",
+        "market-mcq-59"
       ],
       "explanation": "本句的「marketplace」指「網上交易平台 platform」。",
       "sentenceIndex": 215,
@@ -5742,12 +5212,10 @@ export default {
         "marketplace"
       ],
       "optionReasons": {
-        "market-mcq-79": "本句指「網上交易平台 platform」。",
-        "market-mcq-78": "「市集／市場環境 place/environment」與本句語境不同。",
-        "market-mcq-80": "「思想市場 competing ideas」與本句語境不同。",
-        "market-mcq-77": "「可流通證券 liquid securities」與本句語境不同。",
-        "market-mcq-81": "「黑市 illegal trade」與本句語境不同。",
-        "market-mcq-76": "「可銷售性 appeal」與本句語境不同。"
+        "market-mcq-79": "本句的「marketplace」指「網上交易平台 platform」。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-79"
     },
@@ -5759,11 +5227,9 @@ export default {
       "masked": "Universities are sometimes described as a ____ of ideas.",
       "options": [
         "market-mcq-80",
-        "market-mcq-79",
-        "market-mcq-81",
-        "market-mcq-78",
-        "market-mcq-82",
-        "market-mcq-77"
+        "market-mcq-64",
+        "market-mcq-59",
+        "market-mcq-79"
       ],
       "explanation": "本句的「marketplace」指「思想市場 competing ideas」。",
       "sentenceIndex": 216,
@@ -5772,12 +5238,10 @@ export default {
         "marketplace"
       ],
       "optionReasons": {
-        "market-mcq-80": "本句指「思想市場 competing ideas」。",
-        "market-mcq-79": "「網上交易平台 platform」與本句語境不同。",
-        "market-mcq-81": "「黑市 illegal trade」與本句語境不同。",
-        "market-mcq-78": "「市集／市場環境 place/environment」與本句語境不同。",
-        "market-mcq-82": "「灰色市場 unofficial channel」與本句語境不同。",
-        "market-mcq-77": "「可流通證券 liquid securities」與本句語境不同。"
+        "market-mcq-80": "本句的「marketplace」指「思想市場 competing ideas」。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-80"
     },
@@ -5789,10 +5253,8 @@ export default {
       "masked": "Different viewpoints compete in the ____ of ideas.",
       "options": [
         "market-mcq-80",
+        "market-mcq-62",
         "market-mcq-79",
-        "market-mcq-81",
-        "market-mcq-78",
-        "market-mcq-82",
         "market-mcq-77"
       ],
       "explanation": "本句的「marketplace」指「思想市場 competing ideas」。",
@@ -5802,12 +5264,10 @@ export default {
         "marketplace"
       ],
       "optionReasons": {
-        "market-mcq-80": "本句指「思想市場 competing ideas」。",
-        "market-mcq-79": "「網上交易平台 platform」與本句語境不同。",
-        "market-mcq-81": "「黑市 illegal trade」與本句語境不同。",
-        "market-mcq-78": "「市集／市場環境 place/environment」與本句語境不同。",
-        "market-mcq-82": "「灰色市場 unofficial channel」與本句語境不同。",
-        "market-mcq-77": "「可流通證券 liquid securities」與本句語境不同。"
+        "market-mcq-80": "本句的「marketplace」指「思想市場 competing ideas」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-80"
     },
@@ -5819,11 +5279,9 @@ export default {
       "masked": "The goods were sold on the black ____.",
       "options": [
         "market-mcq-81",
-        "market-mcq-80",
-        "market-mcq-82",
-        "market-mcq-79",
-        "market-mcq-83",
-        "market-mcq-78"
+        "market-mcq-67",
+        "market-mcq-59",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「黑市 illegal trade」。",
       "sentenceIndex": 218,
@@ -5832,12 +5290,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-81": "本句指「黑市 illegal trade」。",
-        "market-mcq-80": "「思想市場 competing ideas」與本句語境不同。",
-        "market-mcq-82": "「灰色市場 unofficial channel」與本句語境不同。",
-        "market-mcq-79": "「網上交易平台 platform」與本句語境不同。",
-        "market-mcq-83": "「售後市場 post-sale goods」與本句語境不同。",
-        "market-mcq-78": "「市集／市場環境 place/environment」與本句語境不同。"
+        "market-mcq-81": "本句的「market」指「黑市 illegal trade」。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-81"
     },
@@ -5849,11 +5305,9 @@ export default {
       "masked": "Shortages can encourage black-____ trading.",
       "options": [
         "market-mcq-81",
-        "market-mcq-80",
-        "market-mcq-82",
         "market-mcq-79",
-        "market-mcq-83",
-        "market-mcq-78"
+        "market-mcq-77",
+        "market-mcq-63"
       ],
       "explanation": "本句的「market」指「黑市 illegal trade」。",
       "sentenceIndex": 219,
@@ -5862,12 +5316,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-81": "本句指「黑市 illegal trade」。",
-        "market-mcq-80": "「思想市場 competing ideas」與本句語境不同。",
-        "market-mcq-82": "「灰色市場 unofficial channel」與本句語境不同。",
-        "market-mcq-79": "「網上交易平台 platform」與本句語境不同。",
-        "market-mcq-83": "「售後市場 post-sale goods」與本句語境不同。",
-        "market-mcq-78": "「市集／市場環境 place/environment」與本句語境不同。"
+        "market-mcq-81": "本句的「market」指「黑市 illegal trade」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-81"
     },
@@ -5879,11 +5331,9 @@ export default {
       "masked": "The phones were genuine but imported through the grey ____.",
       "options": [
         "market-mcq-82",
-        "market-mcq-81",
-        "market-mcq-83",
-        "market-mcq-80",
-        "market-mcq-84",
-        "market-mcq-79"
+        "market-mcq-62",
+        "market-mcq-59",
+        "market-mcq-77"
       ],
       "explanation": "本句的「market」指「灰色市場 unofficial channel」。",
       "sentenceIndex": 220,
@@ -5892,12 +5342,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-82": "本句指「灰色市場 unofficial channel」。",
-        "market-mcq-81": "「黑市 illegal trade」與本句語境不同。",
-        "market-mcq-83": "「售後市場 post-sale goods」與本句語境不同。",
-        "market-mcq-80": "「思想市場 competing ideas」與本句語境不同。",
-        "market-mcq-84": "「市場導向的 customer/market focus」與本句語境不同。",
-        "market-mcq-79": "「網上交易平台 platform」與本句語境不同。"
+        "market-mcq-82": "本句的「market」指「灰色市場 unofficial channel」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-82"
     },
@@ -5909,11 +5357,9 @@ export default {
       "masked": "Grey-____ goods may be sold outside an authorised distribution network.",
       "options": [
         "market-mcq-82",
-        "market-mcq-81",
-        "market-mcq-83",
-        "market-mcq-80",
-        "market-mcq-84",
-        "market-mcq-79"
+        "market-mcq-67",
+        "market-mcq-63",
+        "market-mcq-59"
       ],
       "explanation": "本句的「market」指「灰色市場 unofficial channel」。",
       "sentenceIndex": 221,
@@ -5922,12 +5368,10 @@ export default {
         "market"
       ],
       "optionReasons": {
-        "market-mcq-82": "本句指「灰色市場 unofficial channel」。",
-        "market-mcq-81": "「黑市 illegal trade」與本句語境不同。",
-        "market-mcq-83": "「售後市場 post-sale goods」與本句語境不同。",
-        "market-mcq-80": "「思想市場 competing ideas」與本句語境不同。",
-        "market-mcq-84": "「市場導向的 customer/market focus」與本句語境不同。",
-        "market-mcq-79": "「網上交易平台 platform」與本句語境不同。"
+        "market-mcq-82": "本句的「market」指「灰色市場 unofficial channel」。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-82"
     },
@@ -5939,11 +5383,9 @@ export default {
       "masked": "The company became more ____.",
       "options": [
         "market-mcq-84",
-        "market-mcq-83",
-        "market-mcq-85",
-        "market-mcq-82",
-        "market-mcq-86",
-        "market-mcq-81"
+        "market-mcq-62",
+        "market-mcq-79",
+        "market-mcq-63"
       ],
       "explanation": "本句的「market-oriented」指「市場導向的 customer/market focus」。",
       "sentenceIndex": 222,
@@ -5952,12 +5394,10 @@ export default {
         "market-oriented"
       ],
       "optionReasons": {
-        "market-mcq-84": "本句指「市場導向的 customer/market focus」。",
-        "market-mcq-83": "「售後市場 post-sale goods」與本句語境不同。",
-        "market-mcq-85": "「市場驅動的 driven by demand」與本句語境不同。",
-        "market-mcq-82": "「灰色市場 unofficial channel」與本句語境不同。",
-        "market-mcq-86": "「市場機制為本的 market mechanism」與本句語境不同。",
-        "market-mcq-81": "「黑市 illegal trade」與本句語境不同。"
+        "market-mcq-84": "本句的「market-oriented」指「市場導向的 customer/market focus」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-84"
     },
@@ -5969,11 +5409,9 @@ export default {
       "masked": "A ____ firm responds closely to customer needs.",
       "options": [
         "market-mcq-84",
-        "market-mcq-83",
-        "market-mcq-85",
-        "market-mcq-82",
-        "market-mcq-86",
-        "market-mcq-81"
+        "market-mcq-67",
+        "market-mcq-77",
+        "market-mcq-63"
       ],
       "explanation": "本句的「market-oriented」指「市場導向的 customer/market focus」。",
       "sentenceIndex": 223,
@@ -5982,12 +5420,10 @@ export default {
         "market-oriented"
       ],
       "optionReasons": {
-        "market-mcq-84": "本句指「市場導向的 customer/market focus」。",
-        "market-mcq-83": "「售後市場 post-sale goods」與本句語境不同。",
-        "market-mcq-85": "「市場驅動的 driven by demand」與本句語境不同。",
-        "market-mcq-82": "「灰色市場 unofficial channel」與本句語境不同。",
-        "market-mcq-86": "「市場機制為本的 market mechanism」與本句語境不同。",
-        "market-mcq-81": "「黑市 illegal trade」與本句語境不同。"
+        "market-mcq-84": "本句的「market-oriented」指「市場導向的 customer/market focus」。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-84"
     },
@@ -5999,11 +5435,9 @@ export default {
       "masked": "Product development should be partly ____.",
       "options": [
         "market-mcq-85",
-        "market-mcq-84",
-        "market-mcq-86",
-        "market-mcq-83",
-        "market-mcq-87",
-        "market-mcq-82"
+        "market-mcq-79",
+        "market-mcq-59",
+        "market-mcq-62"
       ],
       "explanation": "本句的「market-driven」指「市場驅動的 driven by demand」。",
       "sentenceIndex": 224,
@@ -6012,12 +5446,10 @@ export default {
         "market-driven"
       ],
       "optionReasons": {
-        "market-mcq-85": "本句指「市場驅動的 driven by demand」。",
-        "market-mcq-84": "「市場導向的 customer/market focus」與本句語境不同。",
-        "market-mcq-86": "「市場機制為本的 market mechanism」與本句語境不同。",
-        "market-mcq-83": "「售後市場 post-sale goods」與本句語境不同。",
-        "market-mcq-87": "「市場化 shift toward market」與本句語境不同。",
-        "market-mcq-82": "「灰色市場 unofficial channel」與本句語境不同。"
+        "market-mcq-85": "本句的「market-driven」指「市場驅動的 driven by demand」。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-85"
     },
@@ -6029,11 +5461,9 @@ export default {
       "masked": "The change was ____ rather than internally planned.",
       "options": [
         "market-mcq-85",
-        "market-mcq-84",
-        "market-mcq-86",
-        "market-mcq-83",
-        "market-mcq-87",
-        "market-mcq-82"
+        "market-mcq-77",
+        "market-mcq-64",
+        "market-mcq-79"
       ],
       "explanation": "本句的「market-driven」指「市場驅動的 driven by demand」。",
       "sentenceIndex": 225,
@@ -6042,12 +5472,10 @@ export default {
         "market-driven"
       ],
       "optionReasons": {
-        "market-mcq-85": "本句指「市場驅動的 driven by demand」。",
-        "market-mcq-84": "「市場導向的 customer/market focus」與本句語境不同。",
-        "market-mcq-86": "「市場機制為本的 market mechanism」與本句語境不同。",
-        "market-mcq-83": "「售後市場 post-sale goods」與本句語境不同。",
-        "market-mcq-87": "「市場化 shift toward market」與本句語境不同。",
-        "market-mcq-82": "「灰色市場 unofficial channel」與本句語境不同。"
+        "market-mcq-85": "本句的「market-driven」指「市場驅動的 driven by demand」。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-85"
     },
@@ -6059,11 +5487,9 @@ export default {
       "masked": "The government introduced ____ incentives.",
       "options": [
         "market-mcq-86",
-        "market-mcq-85",
-        "market-mcq-87",
-        "market-mcq-84",
-        "market-mcq-83",
-        "market-mcq-82"
+        "market-mcq-64",
+        "market-mcq-79",
+        "market-mcq-67"
       ],
       "explanation": "本句的「market-based」指「市場機制為本的 market mechanism」。",
       "sentenceIndex": 228,
@@ -6072,12 +5498,10 @@ export default {
         "market-based"
       ],
       "optionReasons": {
-        "market-mcq-86": "本句指「市場機制為本的 market mechanism」。",
-        "market-mcq-85": "「市場驅動的 driven by demand」與本句語境不同。",
-        "market-mcq-87": "「市場化 shift toward market」與本句語境不同。",
-        "market-mcq-84": "「市場導向的 customer/market focus」與本句語境不同。",
-        "market-mcq-83": "「售後市場 post-sale goods」與本句語境不同。",
-        "market-mcq-82": "「灰色市場 unofficial channel」與本句語境不同。"
+        "market-mcq-86": "本句的「market-based」指「市場機制為本的 market mechanism」。",
+        "market-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-86"
     },
@@ -6089,11 +5513,9 @@ export default {
       "masked": "____ solutions use prices or competition to influence behaviour.",
       "options": [
         "market-mcq-86",
-        "market-mcq-85",
-        "market-mcq-87",
-        "market-mcq-84",
-        "market-mcq-83",
-        "market-mcq-82"
+        "market-mcq-62",
+        "market-mcq-63",
+        "market-mcq-77"
       ],
       "explanation": "本句的「Market-based」指「市場機制為本的 market mechanism」。",
       "sentenceIndex": 229,
@@ -6102,12 +5524,10 @@ export default {
         "Market-based"
       ],
       "optionReasons": {
-        "market-mcq-86": "本句指「市場機制為本的 market mechanism」。",
-        "market-mcq-85": "「市場驅動的 driven by demand」與本句語境不同。",
-        "market-mcq-87": "「市場化 shift toward market」與本句語境不同。",
-        "market-mcq-84": "「市場導向的 customer/market focus」與本句語境不同。",
-        "market-mcq-83": "「售後市場 post-sale goods」與本句語境不同。",
-        "market-mcq-82": "「灰色市場 unofficial channel」與本句語境不同。"
+        "market-mcq-86": "本句的「Market-based」指「市場機制為本的 market mechanism」。",
+        "market-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "market-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "market-mcq-86"
     }
@@ -6119,5 +5539,7 @@ export default {
     "sha256": "eab450409b6fea840797217784a6b9580d6b42cb2a96c342e2f1c19d2f313c9f",
     "pages": 81
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

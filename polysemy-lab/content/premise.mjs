@@ -574,11 +574,8 @@ export default {
       "masked": "The argument is based on a false ____.",
       "options": [
         "premise-mcq-01",
-        "premise-mcq-02",
-        "premise-mcq-03",
-        "premise-mcq-04",
-        "premise-mcq-05",
-        "premise-mcq-06"
+        "premise-mcq-19",
+        "premise-mcq-30"
       ],
       "explanation": "本句的「premise」指「用來支持結論、作為推理出發點的前提命題」。",
       "sentenceIndex": 0,
@@ -587,12 +584,9 @@ export default {
         "premise"
       ],
       "optionReasons": {
-        "premise-mcq-01": "本句指「用來支持結論、作為推理出發點的前提命題」。",
-        "premise-mcq-02": "「整個計劃／理論／論證所依賴的基本前提」與本句語境不同。",
-        "premise-mcq-03": "「最核心的基礎命題」與本句語境不同。",
-        "premise-mcq-04": "「表面論述背後未必明說的深層前提」與本句語境不同。",
-        "premise-mcq-05": "「為了繼續分析而暫時採用的工作假設」與本句語境不同。",
-        "premise-mcq-06": "「內容為假的前提」與本句語境不同。"
+        "premise-mcq-01": "本句的「premise」指「用來支持結論、作為推理出發點的前提命題」。",
+        "premise-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "premise-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-01"
     },
@@ -604,11 +598,8 @@ export default {
       "masked": "If we accept the first ____, the conclusion becomes more plausible.",
       "options": [
         "premise-mcq-01",
-        "premise-mcq-02",
-        "premise-mcq-03",
-        "premise-mcq-04",
-        "premise-mcq-05",
-        "premise-mcq-06"
+        "premise-mcq-22",
+        "premise-mcq-30"
       ],
       "explanation": "本句的「premise」指「用來支持結論、作為推理出發點的前提命題」。",
       "sentenceIndex": 1,
@@ -617,12 +608,9 @@ export default {
         "premise"
       ],
       "optionReasons": {
-        "premise-mcq-01": "本句指「用來支持結論、作為推理出發點的前提命題」。",
-        "premise-mcq-02": "「整個計劃／理論／論證所依賴的基本前提」與本句語境不同。",
-        "premise-mcq-03": "「最核心的基礎命題」與本句語境不同。",
-        "premise-mcq-04": "「表面論述背後未必明說的深層前提」與本句語境不同。",
-        "premise-mcq-05": "「為了繼續分析而暫時採用的工作假設」與本句語境不同。",
-        "premise-mcq-06": "「內容為假的前提」與本句語境不同。"
+        "premise-mcq-01": "本句的「premise」指「用來支持結論、作為推理出發點的前提命題」。",
+        "premise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "premise-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-01"
     },
@@ -634,11 +622,8 @@ export default {
       "masked": "The conclusion does not follow from the ____.",
       "options": [
         "premise-mcq-01",
-        "premise-mcq-02",
-        "premise-mcq-03",
-        "premise-mcq-04",
-        "premise-mcq-05",
-        "premise-mcq-06"
+        "premise-mcq-22",
+        "premise-mcq-30"
       ],
       "explanation": "本句的「premises」指「用來支持結論、作為推理出發點的前提命題」。",
       "sentenceIndex": 2,
@@ -647,12 +632,9 @@ export default {
         "premises"
       ],
       "optionReasons": {
-        "premise-mcq-01": "本句指「用來支持結論、作為推理出發點的前提命題」。",
-        "premise-mcq-02": "「整個計劃／理論／論證所依賴的基本前提」與本句語境不同。",
-        "premise-mcq-03": "「最核心的基礎命題」與本句語境不同。",
-        "premise-mcq-04": "「表面論述背後未必明說的深層前提」與本句語境不同。",
-        "premise-mcq-05": "「為了繼續分析而暫時採用的工作假設」與本句語境不同。",
-        "premise-mcq-06": "「內容為假的前提」與本句語境不同。"
+        "premise-mcq-01": "本句的「premises」指「用來支持結論、作為推理出發點的前提命題」。",
+        "premise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "premise-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-01"
     },
@@ -664,11 +646,8 @@ export default {
       "masked": "The basic ____ of the plan is that demand will continue to grow.",
       "options": [
         "premise-mcq-02",
-        "premise-mcq-01",
-        "premise-mcq-03",
-        "premise-mcq-04",
-        "premise-mcq-05",
-        "premise-mcq-06"
+        "premise-mcq-19",
+        "premise-mcq-30"
       ],
       "explanation": "本句的「premise」指「整個計劃／理論／論證所依賴的基本前提」。",
       "sentenceIndex": 3,
@@ -677,12 +656,9 @@ export default {
         "premise"
       ],
       "optionReasons": {
-        "premise-mcq-02": "本句指「整個計劃／理論／論證所依賴的基本前提」。",
-        "premise-mcq-01": "「用來支持結論、作為推理出發點的前提命題」與本句語境不同。",
-        "premise-mcq-03": "「最核心的基礎命題」與本句語境不同。",
-        "premise-mcq-04": "「表面論述背後未必明說的深層前提」與本句語境不同。",
-        "premise-mcq-05": "「為了繼續分析而暫時採用的工作假設」與本句語境不同。",
-        "premise-mcq-06": "「內容為假的前提」與本句語境不同。"
+        "premise-mcq-02": "本句的「premise」指「整個計劃／理論／論證所依賴的基本前提」。",
+        "premise-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "premise-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-02"
     },
@@ -694,11 +670,8 @@ export default {
       "masked": "We should question the underlying ____.",
       "options": [
         "premise-mcq-04",
-        "premise-mcq-03",
-        "premise-mcq-05",
-        "premise-mcq-02",
-        "premise-mcq-06",
-        "premise-mcq-01"
+        "premise-mcq-22",
+        "premise-pdf-001"
       ],
       "explanation": "本句的「premise」指「表面論述背後未必明說的深層前提」。",
       "sentenceIndex": 4,
@@ -707,12 +680,9 @@ export default {
         "premise"
       ],
       "optionReasons": {
-        "premise-mcq-04": "本句指「表面論述背後未必明說的深層前提」。",
-        "premise-mcq-03": "「最核心的基礎命題」與本句語境不同。",
-        "premise-mcq-05": "「為了繼續分析而暫時採用的工作假設」與本句語境不同。",
-        "premise-mcq-02": "「整個計劃／理論／論證所依賴的基本前提」與本句語境不同。",
-        "premise-mcq-06": "「內容為假的前提」與本句語境不同。",
-        "premise-mcq-01": "「用來支持結論、作為推理出發點的前提命題」與本句語境不同。"
+        "premise-mcq-04": "本句的「premise」指「表面論述背後未必明說的深層前提」。",
+        "premise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "premise-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-04"
     },
@@ -724,11 +694,8 @@ export default {
       "masked": "The budget rests on the ____ that costs will remain stable.",
       "options": [
         "premise-mcq-06",
-        "premise-mcq-05",
-        "premise-mcq-07",
-        "premise-mcq-04",
-        "premise-mcq-08",
-        "premise-mcq-03"
+        "premise-pdf-001",
+        "premise-mcq-23"
       ],
       "explanation": "本句的「premise」指「內容為假的前提」。",
       "sentenceIndex": 5,
@@ -737,12 +704,9 @@ export default {
         "premise"
       ],
       "optionReasons": {
-        "premise-mcq-06": "本句指「內容為假的前提」。",
-        "premise-mcq-05": "「為了繼續分析而暫時採用的工作假設」與本句語境不同。",
-        "premise-mcq-07": "「有缺陷／不可靠的基礎前提」與本句語境不同。",
-        "premise-mcq-04": "「表面論述背後未必明說的深層前提」與本句語境不同。",
-        "premise-mcq-08": "「沒有明確說出但推理所依賴的隱含前提」與本句語境不同。",
-        "premise-mcq-03": "「最核心的基礎命題」與本句語境不同。"
+        "premise-mcq-06": "本句的「premise」指「內容為假的前提」。",
+        "premise-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "premise-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-06"
     },
@@ -754,11 +718,8 @@ export default {
       "masked": "Their strategy started from the ____ that customers value convenience.",
       "options": [
         "premise-mcq-06",
-        "premise-mcq-05",
-        "premise-mcq-07",
-        "premise-mcq-04",
-        "premise-mcq-08",
-        "premise-mcq-03"
+        "premise-mcq-19",
+        "premise-pdf-001"
       ],
       "explanation": "本句的「premise」指「內容為假的前提」。",
       "sentenceIndex": 6,
@@ -767,12 +728,9 @@ export default {
         "premise"
       ],
       "optionReasons": {
-        "premise-mcq-06": "本句指「內容為假的前提」。",
-        "premise-mcq-05": "「為了繼續分析而暫時採用的工作假設」與本句語境不同。",
-        "premise-mcq-07": "「有缺陷／不可靠的基礎前提」與本句語境不同。",
-        "premise-mcq-04": "「表面論述背後未必明說的深層前提」與本句語境不同。",
-        "premise-mcq-08": "「沒有明確說出但推理所依賴的隱含前提」與本句語境不同。",
-        "premise-mcq-03": "「最核心的基礎命題」與本句語境不同。"
+        "premise-mcq-06": "本句的「premise」指「內容為假的前提」。",
+        "premise-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "premise-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-06"
     },
@@ -784,11 +742,8 @@ export default {
       "masked": "The ____ behind the policy is that early intervention saves resources.",
       "options": [
         "premise-mcq-06",
-        "premise-mcq-05",
-        "premise-mcq-07",
-        "premise-mcq-04",
-        "premise-mcq-08",
-        "premise-mcq-03"
+        "premise-mcq-19",
+        "premise-mcq-30"
       ],
       "explanation": "本句的「premise」指「內容為假的前提」。",
       "sentenceIndex": 7,
@@ -797,12 +752,9 @@ export default {
         "premise"
       ],
       "optionReasons": {
-        "premise-mcq-06": "本句指「內容為假的前提」。",
-        "premise-mcq-05": "「為了繼續分析而暫時採用的工作假設」與本句語境不同。",
-        "premise-mcq-07": "「有缺陷／不可靠的基礎前提」與本句語境不同。",
-        "premise-mcq-04": "「表面論述背後未必明說的深層前提」與本句語境不同。",
-        "premise-mcq-08": "「沒有明確說出但推理所依賴的隱含前提」與本句語境不同。",
-        "premise-mcq-03": "「最核心的基礎命題」與本句語境不同。"
+        "premise-mcq-06": "本句的「premise」指「內容為假的前提」。",
+        "premise-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "premise-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-06"
     },
@@ -814,11 +766,8 @@ export default {
       "masked": "A logically valid argument can still begin with a false ____.",
       "options": [
         "premise-mcq-06",
-        "premise-mcq-05",
-        "premise-mcq-07",
-        "premise-mcq-04",
-        "premise-mcq-08",
-        "premise-mcq-03"
+        "premise-mcq-30",
+        "premise-mcq-19"
       ],
       "explanation": "本句的「premise」指「內容為假的前提」。",
       "sentenceIndex": 8,
@@ -827,12 +776,9 @@ export default {
         "premise"
       ],
       "optionReasons": {
-        "premise-mcq-06": "本句指「內容為假的前提」。",
-        "premise-mcq-05": "「為了繼續分析而暫時採用的工作假設」與本句語境不同。",
-        "premise-mcq-07": "「有缺陷／不可靠的基礎前提」與本句語境不同。",
-        "premise-mcq-04": "「表面論述背後未必明說的深層前提」與本句語境不同。",
-        "premise-mcq-08": "「沒有明確說出但推理所依賴的隱含前提」與本句語境不同。",
-        "premise-mcq-03": "「最核心的基礎命題」與本句語境不同。"
+        "premise-mcq-06": "本句的「premise」指「內容為假的前提」。",
+        "premise-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "premise-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-06"
     },
@@ -844,11 +790,8 @@ export default {
       "masked": "The argument depends on an unstated ____.",
       "options": [
         "premise-mcq-08",
-        "premise-mcq-07",
-        "premise-mcq-09",
-        "premise-mcq-06",
-        "premise-mcq-10",
-        "premise-mcq-05"
+        "premise-mcq-23",
+        "premise-pdf-001"
       ],
       "explanation": "本句的「premise」指「沒有明確說出但推理所依賴的隱含前提」。",
       "sentenceIndex": 9,
@@ -857,12 +800,9 @@ export default {
         "premise"
       ],
       "optionReasons": {
-        "premise-mcq-08": "本句指「沒有明確說出但推理所依賴的隱含前提」。",
-        "premise-mcq-07": "「有缺陷／不可靠的基礎前提」與本句語境不同。",
-        "premise-mcq-09": "「傳統三段論中的大前提」與本句語境不同。",
-        "premise-mcq-06": "「內容為假的前提」與本句語境不同。",
-        "premise-mcq-10": "「傳統三段論中的小前提」與本句語境不同。",
-        "premise-mcq-05": "「為了繼續分析而暫時採用的工作假設」與本句語境不同。"
+        "premise-mcq-08": "本句的「premise」指「沒有明確說出但推理所依賴的隱含前提」。",
+        "premise-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "premise-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-08"
     },
@@ -874,11 +814,8 @@ export default {
       "masked": "She rejected the ____ that restaurants should provide free study space.",
       "options": [
         "premise-mcq-12",
-        "premise-mcq-11",
-        "premise-mcq-13",
-        "premise-mcq-10",
-        "premise-mcq-14",
-        "premise-mcq-09"
+        "premise-mcq-19",
+        "premise-pdf-001"
       ],
       "explanation": "本句的「premise」指「拒絕接受某前提」。",
       "sentenceIndex": 10,
@@ -887,12 +824,9 @@ export default {
         "premise"
       ],
       "optionReasons": {
-        "premise-mcq-12": "本句指「拒絕接受某前提」。",
-        "premise-mcq-11": "「接受某命題作為推理前提」與本句語境不同。",
-        "premise-mcq-13": "「質疑某個基本前提是否成立」與本句語境不同。",
-        "premise-mcq-10": "「傳統三段論中的小前提」與本句語境不同。",
-        "premise-mcq-14": "「以……為前提」與本句語境不同。",
-        "premise-mcq-09": "「傳統三段論中的大前提」與本句語境不同。"
+        "premise-mcq-12": "本句的「premise」指「拒絕接受某前提」。",
+        "premise-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "premise-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-12"
     },
@@ -904,11 +838,8 @@ export default {
       "masked": "The scheme operates ____ users will cooperate.",
       "options": [
         "premise-mcq-14",
-        "premise-mcq-13",
-        "premise-mcq-15",
-        "premise-mcq-12",
-        "premise-mcq-16",
-        "premise-mcq-11"
+        "premise-mcq-23",
+        "premise-mcq-30"
       ],
       "explanation": "本句的「on the premise that」指「以……為前提」。",
       "sentenceIndex": 11,
@@ -917,12 +848,9 @@ export default {
         "on the premise that"
       ],
       "optionReasons": {
-        "premise-mcq-14": "本句指「以……為前提」。",
-        "premise-mcq-13": "「質疑某個基本前提是否成立」與本句語境不同。",
-        "premise-mcq-15": "「建基於……這個前提」與本句語境不同。",
-        "premise-mcq-12": "「拒絕接受某前提」與本句語境不同。",
-        "premise-mcq-16": "「整體推理從某個基本假設出發」與本句語境不同。",
-        "premise-mcq-11": "「接受某命題作為推理前提」與本句語境不同。"
+        "premise-mcq-14": "本句的「on the premise that」指「以……為前提」。",
+        "premise-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "premise-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-14"
     },
@@ -934,11 +862,8 @@ export default {
       "masked": "The model is based on the ____ that prices respond to demand.",
       "options": [
         "premise-mcq-15",
-        "premise-mcq-14",
-        "premise-mcq-16",
-        "premise-mcq-13",
-        "premise-mcq-17",
-        "premise-mcq-12"
+        "premise-mcq-19",
+        "premise-mcq-30"
       ],
       "explanation": "本句的「premise」指「建基於……這個前提」。",
       "sentenceIndex": 12,
@@ -947,12 +872,9 @@ export default {
         "premise"
       ],
       "optionReasons": {
-        "premise-mcq-15": "本句指「建基於……這個前提」。",
-        "premise-mcq-14": "「以……為前提」與本句語境不同。",
-        "premise-mcq-16": "「整體推理從某個基本假設出發」與本句語境不同。",
-        "premise-mcq-13": "「質疑某個基本前提是否成立」與本句語境不同。",
-        "premise-mcq-17": "「故事／電影得以展開的基本設定或核心構思」與本句語境不同。",
-        "premise-mcq-12": "「拒絕接受某前提」與本句語境不同。"
+        "premise-mcq-15": "本句的「premise」指「建基於……這個前提」。",
+        "premise-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "premise-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-15"
     },
@@ -964,11 +886,8 @@ export default {
       "masked": "The film has an interesting ____.",
       "options": [
         "premise-pdf-001",
-        "premise-mcq-16",
-        "premise-mcq-18",
-        "premise-mcq-15",
-        "premise-mcq-19",
-        "premise-mcq-14"
+        "premise-mcq-14",
+        "premise-mcq-19"
       ],
       "explanation": "本句的「premise」指「故事開始時用來建立人物、情境和主要衝突的核心構想」。",
       "sentenceIndex": 13,
@@ -977,12 +896,9 @@ export default {
         "premise"
       ],
       "optionReasons": {
-        "premise-pdf-001": "本句指「故事開始時用來建立人物、情境和主要衝突的核心構想」。",
-        "premise-mcq-16": "「整體推理從某個基本假設出發」與本句語境不同。",
-        "premise-mcq-18": "「商戶／機構所使用的建築物、場所及相關地方」與本句語境不同。",
-        "premise-mcq-15": "「建基於……這個前提」與本句語境不同。",
-        "premise-mcq-19": "「營業／商業處所」與本句語境不同。",
-        "premise-mcq-14": "「以……為前提」與本句語境不同。"
+        "premise-pdf-001": "本句的「premise」指「故事開始時用來建立人物、情境和主要衝突的核心構想」。",
+        "premise-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "premise-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-pdf-001"
     },
@@ -994,11 +910,8 @@ export default {
       "masked": "The show's ____ is simple: strangers live together for a month.",
       "options": [
         "premise-pdf-001",
-        "premise-mcq-16",
-        "premise-mcq-18",
-        "premise-mcq-15",
-        "premise-mcq-19",
-        "premise-mcq-14"
+        "premise-mcq-14",
+        "premise-mcq-22"
       ],
       "explanation": "本句的「premise」指「故事開始時用來建立人物、情境和主要衝突的核心構想」。",
       "sentenceIndex": 14,
@@ -1007,12 +920,9 @@ export default {
         "premise"
       ],
       "optionReasons": {
-        "premise-pdf-001": "本句指「故事開始時用來建立人物、情境和主要衝突的核心構想」。",
-        "premise-mcq-16": "「整體推理從某個基本假設出發」與本句語境不同。",
-        "premise-mcq-18": "「商戶／機構所使用的建築物、場所及相關地方」與本句語境不同。",
-        "premise-mcq-15": "「建基於……這個前提」與本句語境不同。",
-        "premise-mcq-19": "「營業／商業處所」與本句語境不同。",
-        "premise-mcq-14": "「以……為前提」與本句語境不同。"
+        "premise-pdf-001": "本句的「premise」指「故事開始時用來建立人物、情境和主要衝突的核心構想」。",
+        "premise-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "premise-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-pdf-001"
     },
@@ -1024,11 +934,7 @@ export default {
       "masked": "Tutorial centres should rent appropriate ____.",
       "options": [
         "premise-mcq-18",
-        "premise-mcq-17",
-        "premise-mcq-19",
-        "premise-mcq-16",
-        "premise-mcq-20",
-        "premise-mcq-15"
+        "premise-mcq-36"
       ],
       "explanation": "本句的「premises」指「商戶／機構所使用的建築物、場所及相關地方」。",
       "sentenceIndex": 15,
@@ -1037,12 +943,8 @@ export default {
         "premises"
       ],
       "optionReasons": {
-        "premise-mcq-18": "本句指「商戶／機構所使用的建築物、場所及相關地方」。",
-        "premise-mcq-17": "「故事／電影得以展開的基本設定或核心構思」與本句語境不同。",
-        "premise-mcq-19": "「營業／商業處所」與本句語境不同。",
-        "premise-mcq-16": "「整體推理從某個基本假設出發」與本句語境不同。",
-        "premise-mcq-20": "「住宅處所」與本句語境不同。",
-        "premise-mcq-15": "「建基於……這個前提」與本句語境不同。"
+        "premise-mcq-18": "本句的「premises」指「商戶／機構所使用的建築物、場所及相關地方」。",
+        "premise-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-18"
     },
@@ -1054,11 +956,7 @@ export default {
       "masked": "The company moved to larger ____.",
       "options": [
         "premise-mcq-18",
-        "premise-mcq-17",
-        "premise-mcq-19",
-        "premise-mcq-16",
-        "premise-mcq-20",
-        "premise-mcq-15"
+        "premise-mcq-14"
       ],
       "explanation": "本句的「premises」指「商戶／機構所使用的建築物、場所及相關地方」。",
       "sentenceIndex": 16,
@@ -1067,12 +965,8 @@ export default {
         "premises"
       ],
       "optionReasons": {
-        "premise-mcq-18": "本句指「商戶／機構所使用的建築物、場所及相關地方」。",
-        "premise-mcq-17": "「故事／電影得以展開的基本設定或核心構思」與本句語境不同。",
-        "premise-mcq-19": "「營業／商業處所」與本句語境不同。",
-        "premise-mcq-16": "「整體推理從某個基本假設出發」與本句語境不同。",
-        "premise-mcq-20": "「住宅處所」與本句語境不同。",
-        "premise-mcq-15": "「建基於……這個前提」與本句語境不同。"
+        "premise-mcq-18": "本句的「premises」指「商戶／機構所使用的建築物、場所及相關地方」。",
+        "premise-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-18"
     },
@@ -1084,11 +978,7 @@ export default {
       "masked": "Smoking is prohibited on the ____.",
       "options": [
         "premise-mcq-18",
-        "premise-mcq-17",
-        "premise-mcq-19",
-        "premise-mcq-16",
-        "premise-mcq-20",
-        "premise-mcq-15"
+        "premise-mcq-12"
       ],
       "explanation": "本句的「premises」指「商戶／機構所使用的建築物、場所及相關地方」。",
       "sentenceIndex": 17,
@@ -1097,12 +987,8 @@ export default {
         "premises"
       ],
       "optionReasons": {
-        "premise-mcq-18": "本句指「商戶／機構所使用的建築物、場所及相關地方」。",
-        "premise-mcq-17": "「故事／電影得以展開的基本設定或核心構思」與本句語境不同。",
-        "premise-mcq-19": "「營業／商業處所」與本句語境不同。",
-        "premise-mcq-16": "「整體推理從某個基本假設出發」與本句語境不同。",
-        "premise-mcq-20": "「住宅處所」與本句語境不同。",
-        "premise-mcq-15": "「建基於……這個前提」與本句語境不同。"
+        "premise-mcq-18": "本句的「premises」指「商戶／機構所使用的建築物、場所及相關地方」。",
+        "premise-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-18"
     },
@@ -1114,11 +1000,8 @@ export default {
       "masked": "The licence allows food to be sold from the business ____.",
       "options": [
         "premise-mcq-19",
-        "premise-mcq-18",
-        "premise-mcq-20",
-        "premise-mcq-17",
-        "premise-mcq-21",
-        "premise-mcq-16"
+        "premise-mcq-01",
+        "premise-mcq-30"
       ],
       "explanation": "本句的「premises」指「營業／商業處所」。",
       "sentenceIndex": 18,
@@ -1127,12 +1010,9 @@ export default {
         "premises"
       ],
       "optionReasons": {
-        "premise-mcq-19": "本句指「營業／商業處所」。",
-        "premise-mcq-18": "「商戶／機構所使用的建築物、場所及相關地方」與本句語境不同。",
-        "premise-mcq-20": "「住宅處所」與本句語境不同。",
-        "premise-mcq-17": "「故事／電影得以展開的基本設定或核心構思」與本句語境不同。",
-        "premise-mcq-21": "「教育用途處所／校舍」與本句語境不同。",
-        "premise-mcq-16": "「整體推理從某個基本假設出發」與本句語境不同。"
+        "premise-mcq-19": "本句的「premises」指「營業／商業處所」。",
+        "premise-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "premise-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-19"
     },
@@ -1144,11 +1024,8 @@ export default {
       "masked": "Food must be consumed on the ____.",
       "options": [
         "premise-mcq-22",
-        "premise-mcq-21",
-        "premise-mcq-23",
-        "premise-mcq-20",
-        "premise-mcq-24",
-        "premise-mcq-19"
+        "premise-mcq-01",
+        "premise-mcq-30"
       ],
       "explanation": "本句的「premises」指「在該處所／場地範圍內」。",
       "sentenceIndex": 19,
@@ -1157,12 +1034,9 @@ export default {
         "premises"
       ],
       "optionReasons": {
-        "premise-mcq-22": "本句指「在該處所／場地範圍內」。",
-        "premise-mcq-21": "「教育用途處所／校舍」與本句語境不同。",
-        "premise-mcq-23": "「離開／騰空處所」與本句語境不同。",
-        "premise-mcq-20": "「住宅處所」與本句語境不同。",
-        "premise-mcq-24": "「租賃處所」與本句語境不同。",
-        "premise-mcq-19": "「營業／商業處所」與本句語境不同。"
+        "premise-mcq-22": "本句的「premises」指「在該處所／場地範圍內」。",
+        "premise-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "premise-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-22"
     },
@@ -1174,11 +1048,8 @@ export default {
       "masked": "Visitors were asked to leave the ____.",
       "options": [
         "premise-mcq-23",
-        "premise-mcq-22",
-        "premise-mcq-24",
-        "premise-mcq-21",
-        "premise-mcq-25",
-        "premise-mcq-20"
+        "premise-mcq-06",
+        "premise-mcq-30"
       ],
       "explanation": "本句的「premises」指「離開／騰空處所」。",
       "sentenceIndex": 20,
@@ -1187,12 +1058,9 @@ export default {
         "premises"
       ],
       "optionReasons": {
-        "premise-mcq-23": "本句指「離開／騰空處所」。",
-        "premise-mcq-22": "「在該處所／場地範圍內」與本句語境不同。",
-        "premise-mcq-24": "「租賃處所」與本句語境不同。",
-        "premise-mcq-21": "「教育用途處所／校舍」與本句語境不同。",
-        "premise-mcq-25": "「租約所涵蓋／出租給租戶的特定處所；法律專門」與本句語境不同。",
-        "premise-mcq-20": "「住宅處所」與本句語境不同。"
+        "premise-mcq-23": "本句的「premises」指「離開／騰空處所」。",
+        "premise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "premise-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-23"
     },
@@ -1204,11 +1072,8 @@ export default {
       "masked": "The company still uses ____ servers.",
       "options": [
         "premise-mcq-30",
-        "premise-mcq-29",
-        "premise-mcq-31",
-        "premise-mcq-28",
-        "premise-mcq-32",
-        "premise-mcq-27"
+        "premise-mcq-04",
+        "premise-mcq-19"
       ],
       "explanation": "本句的「on-premises」指「在機構自行控制的本地實體基礎設施上部署／運行」。",
       "sentenceIndex": 21,
@@ -1217,12 +1082,9 @@ export default {
         "on-premises"
       ],
       "optionReasons": {
-        "premise-mcq-30": "本句指「在機構自行控制的本地實體基礎設施上部署／運行」。",
-        "premise-mcq-29": "「處所的保安／進出控制」與本句語境不同。",
-        "premise-mcq-31": "「on-premises 的業界非正式簡稱」與本句語境不同。",
-        "premise-mcq-28": "「因物業／處所狀況而產生的法律責任；具體制度依司法地區」與本句語境不同。",
-        "premise-mcq-32": "「在相關處所之外進行／存放的」與本句語境不同。",
-        "premise-mcq-27": "「與特定場所相連的處所牌照」與本句語境不同。"
+        "premise-mcq-30": "本句的「on-premises」指「在機構自行控制的本地實體基礎設施上部署／運行」。",
+        "premise-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "premise-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-30"
     },
@@ -1234,11 +1096,8 @@ export default {
       "masked": "The theory is ____ the assumption that people act rationally.",
       "options": [
         "premise-mcq-34",
-        "premise-mcq-33",
-        "premise-mcq-35",
-        "premise-mcq-32",
-        "premise-mcq-36",
-        "premise-mcq-31"
+        "premise-mcq-23",
+        "premise-mcq-30"
       ],
       "explanation": "本句的「premised on」指「建基於／以……為前提」。",
       "sentenceIndex": 22,
@@ -1247,12 +1106,9 @@ export default {
         "premised on"
       ],
       "optionReasons": {
-        "premise-mcq-34": "本句指「建基於／以……為前提」。",
-        "premise-mcq-33": "「把論證、政策、分析等建立在某前提之上」與本句語境不同。",
-        "premise-mcq-35": "「邏輯中 premise 的另一拼法」與本句語境不同。",
-        "premise-mcq-32": "「在相關處所之外進行／存放的」與本句語境不同。",
-        "premise-mcq-36": "「自然語言推理中供系統判斷另一命題是否被蘊涵的前提句」與本句語境不同。",
-        "premise-mcq-31": "「on-premises 的業界非正式簡稱」與本句語境不同。"
+        "premise-mcq-34": "本句的「premised on」指「建基於／以……為前提」。",
+        "premise-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "premise-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-34"
     },
@@ -1264,11 +1120,8 @@ export default {
       "masked": "The policy is ____ on voluntary cooperation.",
       "options": [
         "premise-mcq-34",
-        "premise-mcq-33",
-        "premise-mcq-35",
-        "premise-mcq-32",
-        "premise-mcq-36",
-        "premise-mcq-31"
+        "premise-mcq-22",
+        "premise-pdf-001"
       ],
       "explanation": "本句的「premised」指「建基於／以……為前提」。",
       "sentenceIndex": 23,
@@ -1277,12 +1130,9 @@ export default {
         "premised"
       ],
       "optionReasons": {
-        "premise-mcq-34": "本句指「建基於／以……為前提」。",
-        "premise-mcq-33": "「把論證、政策、分析等建立在某前提之上」與本句語境不同。",
-        "premise-mcq-35": "「邏輯中 premise 的另一拼法」與本句語境不同。",
-        "premise-mcq-32": "「在相關處所之外進行／存放的」與本句語境不同。",
-        "premise-mcq-36": "「自然語言推理中供系統判斷另一命題是否被蘊涵的前提句」與本句語境不同。",
-        "premise-mcq-31": "「on-premises 的業界非正式簡稱」與本句語境不同。"
+        "premise-mcq-34": "本句的「premised」指「建基於／以……為前提」。",
+        "premise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "premise-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-34"
     },
@@ -1294,11 +1144,8 @@ export default {
       "masked": "If the ____ does not hold, the argument collapses.",
       "options": [
         "premise-mcq-36",
-        "premise-mcq-35",
-        "premise-mcq-37",
-        "premise-mcq-34",
-        "premise-mcq-33",
-        "premise-mcq-32"
+        "premise-mcq-23",
+        "premise-pdf-001"
       ],
       "explanation": "本句的「premise」指「自然語言推理中供系統判斷另一命題是否被蘊涵的前提句」。",
       "sentenceIndex": 24,
@@ -1307,12 +1154,9 @@ export default {
         "premise"
       ],
       "optionReasons": {
-        "premise-mcq-36": "本句指「自然語言推理中供系統判斷另一命題是否被蘊涵的前提句」。",
-        "premise-mcq-35": "「邏輯中 premise 的另一拼法」與本句語境不同。",
-        "premise-mcq-37": "「預先陳述／先行提出；古舊、低頻」與本句語境不同。",
-        "premise-mcq-34": "「建基於／以……為前提」與本句語境不同。",
-        "premise-mcq-33": "「把論證、政策、分析等建立在某前提之上」與本句語境不同。",
-        "premise-mcq-32": "「在相關處所之外進行／存放的」與本句語境不同。"
+        "premise-mcq-36": "本句的「premise」指「自然語言推理中供系統判斷另一命題是否被蘊涵的前提句」。",
+        "premise-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "premise-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "premise-mcq-36"
     }
@@ -1324,5 +1168,7 @@ export default {
     "sha256": "c5b88bb35c884a40402987d2555773817dbec328c9052e957ef5149f12bd80a3",
     "pages": 42
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -540,11 +540,9 @@ export default {
       "masked": "A bee ____ on the hand.",
       "options": [
         "sting-mcq-01",
-        "sting-mcq-02",
-        "sting-mcq-03",
-        "sting-mcq-04",
-        "sting-mcq-05",
-        "sting-mcq-06"
+        "sting-mcq-12",
+        "sting-mcq-16",
+        "sting-mcq-15"
       ],
       "explanation": "本句的「stung me」指「叮；螫」。",
       "sentenceIndex": 0,
@@ -553,12 +551,10 @@ export default {
         "stung me"
       ],
       "optionReasons": {
-        "sting-mcq-01": "本句指「叮；螫」。",
-        "sting-mcq-02": "「被蜜蜂螫」是「be stung by a bee」的用法，與本句語境不同。",
-        "sting-mcq-03": "「令皮膚刺痛」是「sting the skin」的用法，與本句語境不同。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。",
-        "sting-mcq-05": "「眼睛刺痛」是「eyes sting」的用法，與本句語境不同。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。"
+        "sting-mcq-01": "本句的「stung me」指「叮；螫」。",
+        "sting-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-01"
     },
@@ -570,11 +566,9 @@ export default {
       "masked": "Be careful—the insect can ____.",
       "options": [
         "sting-mcq-01",
-        "sting-mcq-02",
-        "sting-mcq-03",
-        "sting-mcq-04",
-        "sting-mcq-05",
-        "sting-mcq-06"
+        "sting-mcq-16",
+        "sting-mcq-23",
+        "sting-mcq-19"
       ],
       "explanation": "本句的「sting」指「叮；螫」。",
       "sentenceIndex": 1,
@@ -583,12 +577,10 @@ export default {
         "sting"
       ],
       "optionReasons": {
-        "sting-mcq-01": "本句指「叮；螫」。",
-        "sting-mcq-02": "「被蜜蜂螫」是「be stung by a bee」的用法，與本句語境不同。",
-        "sting-mcq-03": "「令皮膚刺痛」是「sting the skin」的用法，與本句語境不同。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。",
-        "sting-mcq-05": "「眼睛刺痛」是「eyes sting」的用法，與本句語境不同。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。"
+        "sting-mcq-01": "本句的「sting」指「叮；螫」。",
+        "sting-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-01"
     },
@@ -600,11 +592,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "sting-mcq-01",
-        "sting-mcq-02",
         "sting-mcq-03",
-        "sting-mcq-04",
-        "sting-mcq-05",
-        "sting-mcq-06"
+        "sting-mcq-25",
+        "sting-mcq-15"
       ],
       "explanation": "本句的「stung by a wasp」指「叮；螫」。",
       "sentenceIndex": 2,
@@ -613,12 +603,10 @@ export default {
         "stung by a wasp"
       ],
       "optionReasons": {
-        "sting-mcq-01": "本句指「叮；螫」。",
-        "sting-mcq-02": "「被蜜蜂螫」是「be stung by a bee」的用法，與本句語境不同。",
-        "sting-mcq-03": "「令皮膚刺痛」是「sting the skin」的用法，與本句語境不同。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。",
-        "sting-mcq-05": "「眼睛刺痛」是「eyes sting」的用法，與本句語境不同。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。"
+        "sting-mcq-01": "本句的「stung by a wasp」指「叮；螫」。",
+        "sting-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-01"
     },
@@ -630,11 +618,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "sting-mcq-02",
-        "sting-mcq-01",
-        "sting-mcq-03",
-        "sting-mcq-04",
-        "sting-mcq-05",
-        "sting-mcq-06"
+        "sting-mcq-15",
+        "sting-mcq-07",
+        "sting-mcq-19"
       ],
       "explanation": "本句的「stung by a bee」指「被蜜蜂螫」。",
       "sentenceIndex": 3,
@@ -643,12 +629,10 @@ export default {
         "stung by a bee"
       ],
       "optionReasons": {
-        "sting-mcq-02": "本句指「被蜜蜂螫」。",
-        "sting-mcq-01": "「叮；螫」是「sting (animal)」的用法，與本句語境不同。",
-        "sting-mcq-03": "「令皮膚刺痛」是「sting the skin」的用法，與本句語境不同。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。",
-        "sting-mcq-05": "「眼睛刺痛」是「eyes sting」的用法，與本句語境不同。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。"
+        "sting-mcq-02": "本句的「stung by a bee」指「被蜜蜂螫」。",
+        "sting-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-02"
     },
@@ -660,11 +644,9 @@ export default {
       "masked": "Several swimmers were ____.",
       "options": [
         "sting-mcq-02",
-        "sting-mcq-01",
+        "sting-mcq-24",
         "sting-mcq-03",
-        "sting-mcq-04",
-        "sting-mcq-05",
-        "sting-mcq-06"
+        "sting-mcq-18"
       ],
       "explanation": "本句的「stung by jellyfish」指「被蜜蜂螫」。",
       "sentenceIndex": 4,
@@ -673,12 +655,10 @@ export default {
         "stung by jellyfish"
       ],
       "optionReasons": {
-        "sting-mcq-02": "本句指「被蜜蜂螫」。",
-        "sting-mcq-01": "「叮；螫」是「sting (animal)」的用法，與本句語境不同。",
-        "sting-mcq-03": "「令皮膚刺痛」是「sting the skin」的用法，與本句語境不同。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。",
-        "sting-mcq-05": "「眼睛刺痛」是「eyes sting」的用法，與本句語境不同。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。"
+        "sting-mcq-02": "本句的「stung by jellyfish」指「被蜜蜂螫」。",
+        "sting-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-02"
     },
@@ -690,11 +670,9 @@ export default {
       "masked": "The nettles ____.",
       "options": [
         "sting-mcq-03",
-        "sting-mcq-02",
-        "sting-mcq-04",
-        "sting-mcq-01",
-        "sting-mcq-05",
-        "sting-mcq-06"
+        "sting-mcq-25",
+        "sting-mcq-19",
+        "sting-mcq-17"
       ],
       "explanation": "本句的「stung my legs」指「令皮膚刺痛」。",
       "sentenceIndex": 5,
@@ -703,12 +681,10 @@ export default {
         "stung my legs"
       ],
       "optionReasons": {
-        "sting-mcq-03": "本句指「令皮膚刺痛」。",
-        "sting-mcq-02": "「被蜜蜂螫」是「be stung by a bee」的用法，與本句語境不同。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。",
-        "sting-mcq-01": "「叮；螫」是「sting (animal)」的用法，與本句語境不同。",
-        "sting-mcq-05": "「眼睛刺痛」是「eyes sting」的用法，與本句語境不同。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。"
+        "sting-mcq-03": "本句的「stung my legs」指「令皮膚刺痛」。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-03"
     },
@@ -720,11 +696,9 @@ export default {
       "masked": "Some plants can ____.",
       "options": [
         "sting-mcq-03",
-        "sting-mcq-02",
-        "sting-mcq-04",
-        "sting-mcq-01",
-        "sting-mcq-05",
-        "sting-mcq-06"
+        "sting-mcq-19",
+        "sting-mcq-15",
+        "sting-mcq-01"
       ],
       "explanation": "本句的「sting your skin」指「令皮膚刺痛」。",
       "sentenceIndex": 6,
@@ -733,12 +707,10 @@ export default {
         "sting your skin"
       ],
       "optionReasons": {
-        "sting-mcq-03": "本句指「令皮膚刺痛」。",
-        "sting-mcq-02": "「被蜜蜂螫」是「be stung by a bee」的用法，與本句語境不同。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。",
-        "sting-mcq-01": "「叮；螫」是「sting (animal)」的用法，與本句語境不同。",
-        "sting-mcq-05": "「眼睛刺痛」是「eyes sting」的用法，與本句語境不同。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。"
+        "sting-mcq-03": "本句的「sting your skin」指「令皮膚刺痛」。",
+        "sting-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-03"
     },
@@ -750,11 +722,9 @@ export default {
       "masked": "The cut ____ when I wash it.",
       "options": [
         "sting-mcq-05",
-        "sting-mcq-04",
-        "sting-mcq-06",
-        "sting-mcq-03",
-        "sting-mcq-07",
-        "sting-mcq-02"
+        "sting-mcq-17",
+        "sting-mcq-16",
+        "sting-mcq-19"
       ],
       "explanation": "本句的「stings」指「眼睛刺痛」。",
       "sentenceIndex": 7,
@@ -763,12 +733,10 @@ export default {
         "stings"
       ],
       "optionReasons": {
-        "sting-mcq-05": "本句指「眼睛刺痛」。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。",
-        "sting-mcq-03": "「令皮膚刺痛」是「sting the skin」的用法，與本句語境不同。",
-        "sting-mcq-07": "「說話刺痛人心」是「words sting」的用法，與本句語境不同。",
-        "sting-mcq-02": "「被蜜蜂螫」是「be stung by a bee」的用法，與本句語境不同。"
+        "sting-mcq-05": "本句的「stings」指「眼睛刺痛」。",
+        "sting-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-05"
     },
@@ -780,11 +748,9 @@ export default {
       "masked": "My skin ____ after I applied the cream.",
       "options": [
         "sting-mcq-05",
-        "sting-mcq-04",
-        "sting-mcq-06",
-        "sting-mcq-03",
-        "sting-mcq-07",
-        "sting-mcq-02"
+        "sting-mcq-19",
+        "sting-mcq-02",
+        "sting-mcq-08"
       ],
       "explanation": "本句的「stung」指「眼睛刺痛」。",
       "sentenceIndex": 8,
@@ -793,12 +759,10 @@ export default {
         "stung"
       ],
       "optionReasons": {
-        "sting-mcq-05": "本句指「眼睛刺痛」。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。",
-        "sting-mcq-03": "「令皮膚刺痛」是「sting the skin」的用法，與本句語境不同。",
-        "sting-mcq-07": "「說話刺痛人心」是「words sting」的用法，與本句語境不同。",
-        "sting-mcq-02": "「被蜜蜂螫」是「be stung by a bee」的用法，與本句語境不同。"
+        "sting-mcq-05": "本句的「stung」指「眼睛刺痛」。",
+        "sting-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-05"
     },
@@ -810,11 +774,9 @@ export default {
       "masked": "The smoke made my eyes ____.",
       "options": [
         "sting-mcq-05",
-        "sting-mcq-04",
-        "sting-mcq-06",
-        "sting-mcq-03",
-        "sting-mcq-07",
-        "sting-mcq-02"
+        "sting-mcq-16",
+        "sting-mcq-17",
+        "sting-mcq-15"
       ],
       "explanation": "本句的「sting」指「眼睛刺痛」。",
       "sentenceIndex": 9,
@@ -823,12 +785,10 @@ export default {
         "sting"
       ],
       "optionReasons": {
-        "sting-mcq-05": "本句指「眼睛刺痛」。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。",
-        "sting-mcq-03": "「令皮膚刺痛」是「sting the skin」的用法，與本句語境不同。",
-        "sting-mcq-07": "「說話刺痛人心」是「words sting」的用法，與本句語境不同。",
-        "sting-mcq-02": "「被蜜蜂螫」是「be stung by a bee」的用法，與本句語境不同。"
+        "sting-mcq-05": "本句的「sting」指「眼睛刺痛」。",
+        "sting-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-05"
     },
@@ -840,11 +800,9 @@ export default {
       "masked": "My eyes were ____ from the chlorine.",
       "options": [
         "sting-mcq-05",
-        "sting-mcq-04",
-        "sting-mcq-06",
-        "sting-mcq-03",
-        "sting-mcq-07",
-        "sting-mcq-02"
+        "sting-mcq-02",
+        "sting-mcq-19",
+        "sting-mcq-25"
       ],
       "explanation": "本句的「stinging」指「眼睛刺痛」。",
       "sentenceIndex": 10,
@@ -853,12 +811,10 @@ export default {
         "stinging"
       ],
       "optionReasons": {
-        "sting-mcq-05": "本句指「眼睛刺痛」。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。",
-        "sting-mcq-03": "「令皮膚刺痛」是「sting the skin」的用法，與本句語境不同。",
-        "sting-mcq-07": "「說話刺痛人心」是「words sting」的用法，與本句語境不同。",
-        "sting-mcq-02": "「被蜜蜂螫」是「be stung by a bee」的用法，與本句語境不同。"
+        "sting-mcq-05": "本句的「stinging」指「眼睛刺痛」。",
+        "sting-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-05"
     },
@@ -870,11 +826,9 @@ export default {
       "masked": "His hand ____.",
       "options": [
         "sting-mcq-06",
-        "sting-mcq-05",
-        "sting-mcq-07",
-        "sting-mcq-04",
         "sting-mcq-08",
-        "sting-mcq-03"
+        "sting-mcq-19",
+        "sting-mcq-16"
       ],
       "explanation": "本句的「stung with pain」指「一陣刺痛」。",
       "sentenceIndex": 11,
@@ -883,12 +837,10 @@ export default {
         "stung with pain"
       ],
       "optionReasons": {
-        "sting-mcq-06": "本句指「一陣刺痛」。",
-        "sting-mcq-05": "「眼睛刺痛」是「eyes sting」的用法，與本句語境不同。",
-        "sting-mcq-07": "「說話刺痛人心」是「words sting」的用法，與本句語境不同。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。",
-        "sting-mcq-08": "「批評令人難受」是「criticism stings」的用法，與本句語境不同。",
-        "sting-mcq-03": "「令皮膚刺痛」是「sting the skin」的用法，與本句語境不同。"
+        "sting-mcq-06": "本句的「stung with pain」指「一陣刺痛」。",
+        "sting-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-06"
     },
@@ -900,11 +852,9 @@ export default {
       "masked": "The wound ____.",
       "options": [
         "sting-mcq-06",
-        "sting-mcq-05",
-        "sting-mcq-07",
-        "sting-mcq-04",
-        "sting-mcq-08",
-        "sting-mcq-03"
+        "sting-mcq-25",
+        "sting-mcq-18",
+        "sting-mcq-15"
       ],
       "explanation": "本句的「stung sharply」指「一陣刺痛」。",
       "sentenceIndex": 12,
@@ -913,12 +863,10 @@ export default {
         "stung sharply"
       ],
       "optionReasons": {
-        "sting-mcq-06": "本句指「一陣刺痛」。",
-        "sting-mcq-05": "「眼睛刺痛」是「eyes sting」的用法，與本句語境不同。",
-        "sting-mcq-07": "「說話刺痛人心」是「words sting」的用法，與本句語境不同。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。",
-        "sting-mcq-08": "「批評令人難受」是「criticism stings」的用法，與本句語境不同。",
-        "sting-mcq-03": "「令皮膚刺痛」是「sting the skin」的用法，與本句語境不同。"
+        "sting-mcq-06": "本句的「stung sharply」指「一陣刺痛」。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-06"
     },
@@ -930,11 +878,9 @@ export default {
       "masked": "His words ____ more than I expected.",
       "options": [
         "sting-mcq-07",
-        "sting-mcq-06",
-        "sting-mcq-08",
-        "sting-mcq-05",
-        "sting-mcq-09",
-        "sting-mcq-04"
+        "sting-mcq-19",
+        "sting-mcq-25",
+        "sting-mcq-17"
       ],
       "explanation": "本句的「stung」指「說話刺痛人心」。",
       "sentenceIndex": 13,
@@ -943,12 +889,10 @@ export default {
         "stung"
       ],
       "optionReasons": {
-        "sting-mcq-07": "本句指「說話刺痛人心」。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。",
-        "sting-mcq-08": "「批評令人難受」是「criticism stings」的用法，與本句語境不同。",
-        "sting-mcq-05": "「眼睛刺痛」是「eyes sting」的用法，與本句語境不同。",
-        "sting-mcq-09": "「螫傷」是「sting (noun: injury)」的用法，與本句語境不同。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。"
+        "sting-mcq-07": "本句的「stung」指「說話刺痛人心」。",
+        "sting-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-07"
     },
@@ -960,11 +904,9 @@ export default {
       "masked": "Her comment really ____.",
       "options": [
         "sting-mcq-07",
-        "sting-mcq-06",
-        "sting-mcq-08",
-        "sting-mcq-05",
-        "sting-mcq-09",
-        "sting-mcq-04"
+        "sting-mcq-01",
+        "sting-mcq-18",
+        "sting-mcq-08"
       ],
       "explanation": "本句的「stung」指「說話刺痛人心」。",
       "sentenceIndex": 14,
@@ -973,12 +915,10 @@ export default {
         "stung"
       ],
       "optionReasons": {
-        "sting-mcq-07": "本句指「說話刺痛人心」。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。",
-        "sting-mcq-08": "「批評令人難受」是「criticism stings」的用法，與本句語境不同。",
-        "sting-mcq-05": "「眼睛刺痛」是「eyes sting」的用法，與本句語境不同。",
-        "sting-mcq-09": "「螫傷」是「sting (noun: injury)」的用法，與本句語境不同。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。"
+        "sting-mcq-07": "本句的「stung」指「說話刺痛人心」。",
+        "sting-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-07"
     },
@@ -990,11 +930,9 @@ export default {
       "masked": "The accusation ____ because it was completely unfair.",
       "options": [
         "sting-mcq-07",
-        "sting-mcq-06",
-        "sting-mcq-08",
-        "sting-mcq-05",
-        "sting-mcq-09",
-        "sting-mcq-04"
+        "sting-mcq-19",
+        "sting-mcq-17",
+        "sting-mcq-08"
       ],
       "explanation": "本句的「stung」指「說話刺痛人心」。",
       "sentenceIndex": 15,
@@ -1003,12 +941,10 @@ export default {
         "stung"
       ],
       "optionReasons": {
-        "sting-mcq-07": "本句指「說話刺痛人心」。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。",
-        "sting-mcq-08": "「批評令人難受」是「criticism stings」的用法，與本句語境不同。",
-        "sting-mcq-05": "「眼睛刺痛」是「eyes sting」的用法，與本句語境不同。",
-        "sting-mcq-09": "「螫傷」是「sting (noun: injury)」的用法，與本句語境不同。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。"
+        "sting-mcq-07": "本句的「stung」指「說話刺痛人心」。",
+        "sting-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-07"
     },
@@ -1020,11 +956,9 @@ export default {
       "masked": "His harsh words ____.",
       "options": [
         "sting-mcq-07",
-        "sting-mcq-06",
-        "sting-mcq-08",
-        "sting-mcq-05",
-        "sting-mcq-09",
-        "sting-mcq-04"
+        "sting-mcq-19",
+        "sting-mcq-02",
+        "sting-mcq-25"
       ],
       "explanation": "本句的「stung」指「說話刺痛人心」。",
       "sentenceIndex": 16,
@@ -1033,12 +967,10 @@ export default {
         "stung"
       ],
       "optionReasons": {
-        "sting-mcq-07": "本句指「說話刺痛人心」。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。",
-        "sting-mcq-08": "「批評令人難受」是「criticism stings」的用法，與本句語境不同。",
-        "sting-mcq-05": "「眼睛刺痛」是「eyes sting」的用法，與本句語境不同。",
-        "sting-mcq-09": "「螫傷」是「sting (noun: injury)」的用法，與本句語境不同。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。"
+        "sting-mcq-07": "本句的「stung」指「說話刺痛人心」。",
+        "sting-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-07"
     },
@@ -1050,11 +982,9 @@ export default {
       "masked": "The remark ____, even though she tried not to show it.",
       "options": [
         "sting-mcq-07",
-        "sting-mcq-06",
-        "sting-mcq-08",
-        "sting-mcq-05",
-        "sting-mcq-09",
-        "sting-mcq-04"
+        "sting-mcq-19",
+        "sting-mcq-25",
+        "sting-mcq-01"
       ],
       "explanation": "本句的「stung」指「說話刺痛人心」。",
       "sentenceIndex": 17,
@@ -1063,12 +993,10 @@ export default {
         "stung"
       ],
       "optionReasons": {
-        "sting-mcq-07": "本句指「說話刺痛人心」。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。",
-        "sting-mcq-08": "「批評令人難受」是「criticism stings」的用法，與本句語境不同。",
-        "sting-mcq-05": "「眼睛刺痛」是「eyes sting」的用法，與本句語境不同。",
-        "sting-mcq-09": "「螫傷」是「sting (noun: injury)」的用法，與本句語境不同。",
-        "sting-mcq-04": "「傷口刺痛」是「wound stings」的用法，與本句語境不同。"
+        "sting-mcq-07": "本句的「stung」指「說話刺痛人心」。",
+        "sting-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-07"
     },
@@ -1080,10 +1008,8 @@ export default {
       "masked": "The criticism ____, but some of it was fair.",
       "options": [
         "sting-mcq-08",
-        "sting-mcq-07",
-        "sting-mcq-09",
-        "sting-mcq-06",
-        "sting-mcq-10",
+        "sting-mcq-12",
+        "sting-mcq-18",
         "sting-mcq-05"
       ],
       "explanation": "本句的「stung」指「批評令人難受」。",
@@ -1093,12 +1019,10 @@ export default {
         "stung"
       ],
       "optionReasons": {
-        "sting-mcq-08": "本句指「批評令人難受」。",
-        "sting-mcq-07": "「說話刺痛人心」是「words sting」的用法，與本句語境不同。",
-        "sting-mcq-09": "「螫傷」是「sting (noun: injury)」的用法，與本句語境不同。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。",
-        "sting-mcq-10": "「刺痛感」是「sting (noun: sensation)」的用法，與本句語境不同。",
-        "sting-mcq-05": "「眼睛刺痛」是「eyes sting」的用法，與本句語境不同。"
+        "sting-mcq-08": "本句的「stung」指「批評令人難受」。",
+        "sting-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-08"
     },
@@ -1110,11 +1034,9 @@ export default {
       "masked": "Public criticism can ____.",
       "options": [
         "sting-mcq-08",
-        "sting-mcq-07",
-        "sting-mcq-09",
-        "sting-mcq-06",
-        "sting-mcq-10",
-        "sting-mcq-05"
+        "sting-mcq-01",
+        "sting-mcq-16",
+        "sting-mcq-12"
       ],
       "explanation": "本句的「sting more deeply」指「批評令人難受」。",
       "sentenceIndex": 19,
@@ -1123,12 +1045,10 @@ export default {
         "sting more deeply"
       ],
       "optionReasons": {
-        "sting-mcq-08": "本句指「批評令人難受」。",
-        "sting-mcq-07": "「說話刺痛人心」是「words sting」的用法，與本句語境不同。",
-        "sting-mcq-09": "「螫傷」是「sting (noun: injury)」的用法，與本句語境不同。",
-        "sting-mcq-06": "「一陣刺痛」是「sting with pain」的用法，與本句語境不同。",
-        "sting-mcq-10": "「刺痛感」是「sting (noun: sensation)」的用法，與本句語境不同。",
-        "sting-mcq-05": "「眼睛刺痛」是「eyes sting」的用法，與本句語境不同。"
+        "sting-mcq-08": "本句的「sting more deeply」指「批評令人難受」。",
+        "sting-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-08"
     },
@@ -1140,11 +1060,9 @@ export default {
       "masked": "I got a bee ____ on my arm.",
       "options": [
         "sting-mcq-21",
-        "sting-mcq-20",
-        "sting-mcq-22",
-        "sting-mcq-19",
         "sting-mcq-23",
-        "sting-mcq-18"
+        "sting-mcq-13",
+        "sting-mcq-25"
       ],
       "explanation": "本句的「sting」指「昆蟲或其他生物螫刺造成的傷口或事件」。",
       "sentenceIndex": 20,
@@ -1153,12 +1071,10 @@ export default {
         "sting"
       ],
       "optionReasons": {
-        "sting-mcq-21": "本句指「昆蟲或其他生物螫刺造成的傷口或事件」。",
-        "sting-mcq-20": "「騙局／圈套」是「sting (informal scheme)」的用法，與本句語境不同。",
-        "sting-mcq-22": "「被某種昆蟲或動物螫刺造成的傷害」是「11. bee sting / insect sting — 蜜蜂螫傷／昆蟲叮螫」的用法，與本句語境不同。",
-        "sting-mcq-19": "「秘密誘捕行動」是「sting operation」的用法，與本句語境不同。",
-        "sting-mcq-23": "「一陣短促而尖銳的疼痛或灼熱感」是「12. sting（noun：刺痛感） — 刺痛；灼痛」的用法，與本句語境不同。",
-        "sting-mcq-18": "「誘捕行動」是「sting (police)」的用法，與本句語境不同。"
+        "sting-mcq-21": "本句的「sting」指「昆蟲或其他生物螫刺造成的傷口或事件」。",
+        "sting-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-21"
     },
@@ -1170,11 +1086,9 @@ export default {
       "masked": "The ____ became swollen.",
       "options": [
         "sting-mcq-21",
-        "sting-mcq-20",
-        "sting-mcq-22",
-        "sting-mcq-19",
-        "sting-mcq-23",
-        "sting-mcq-18"
+        "sting-mcq-25",
+        "sting-mcq-12",
+        "sting-mcq-19"
       ],
       "explanation": "本句的「sting」指「昆蟲或其他生物螫刺造成的傷口或事件」。",
       "sentenceIndex": 21,
@@ -1183,12 +1097,10 @@ export default {
         "sting"
       ],
       "optionReasons": {
-        "sting-mcq-21": "本句指「昆蟲或其他生物螫刺造成的傷口或事件」。",
-        "sting-mcq-20": "「騙局／圈套」是「sting (informal scheme)」的用法，與本句語境不同。",
-        "sting-mcq-22": "「被某種昆蟲或動物螫刺造成的傷害」是「11. bee sting / insect sting — 蜜蜂螫傷／昆蟲叮螫」的用法，與本句語境不同。",
-        "sting-mcq-19": "「秘密誘捕行動」是「sting operation」的用法，與本句語境不同。",
-        "sting-mcq-23": "「一陣短促而尖銳的疼痛或灼熱感」是「12. sting（noun：刺痛感） — 刺痛；灼痛」的用法，與本句語境不同。",
-        "sting-mcq-18": "「誘捕行動」是「sting (police)」的用法，與本句語境不同。"
+        "sting-mcq-21": "本句的「sting」指「昆蟲或其他生物螫刺造成的傷口或事件」。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-21"
     },
@@ -1200,11 +1112,9 @@ export default {
       "masked": "A ____ can be painful.",
       "options": [
         "sting-mcq-22",
-        "sting-mcq-21",
-        "sting-mcq-23",
-        "sting-mcq-20",
-        "sting-mcq-24",
-        "sting-mcq-19"
+        "sting-mcq-15",
+        "sting-mcq-13",
+        "sting-mcq-25"
       ],
       "explanation": "本句的「bee sting」指「被某種昆蟲或動物螫刺造成的傷害」。",
       "sentenceIndex": 22,
@@ -1213,12 +1123,10 @@ export default {
         "bee sting"
       ],
       "optionReasons": {
-        "sting-mcq-22": "本句指「被某種昆蟲或動物螫刺造成的傷害」。",
-        "sting-mcq-21": "「昆蟲或其他生物螫刺造成的傷口或事件」是「10. sting（noun：昆蟲螫傷） — 螫傷；叮傷」的用法，與本句語境不同。",
-        "sting-mcq-23": "「一陣短促而尖銳的疼痛或灼熱感」是「12. sting（noun：刺痛感） — 刺痛；灼痛」的用法，與本句語境不同。",
-        "sting-mcq-20": "「騙局／圈套」是「sting (informal scheme)」的用法，與本句語境不同。",
-        "sting-mcq-24": "「X 所造成的強烈、尖銳情緒痛楚」是「13. the sting of something — ……帶來的刺痛／難受」的用法，與本句語境不同。",
-        "sting-mcq-19": "「秘密誘捕行動」是「sting operation」的用法，與本句語境不同。"
+        "sting-mcq-22": "本句的「bee sting」指「被某種昆蟲或動物螫刺造成的傷害」。",
+        "sting-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-22"
     },
@@ -1230,11 +1138,9 @@ export default {
       "masked": "He developed swelling around the ____.",
       "options": [
         "sting-mcq-22",
-        "sting-mcq-21",
-        "sting-mcq-23",
-        "sting-mcq-20",
-        "sting-mcq-24",
-        "sting-mcq-19"
+        "sting-mcq-25",
+        "sting-mcq-12",
+        "sting-mcq-08"
       ],
       "explanation": "本句的「insect sting」指「被某種昆蟲或動物螫刺造成的傷害」。",
       "sentenceIndex": 23,
@@ -1243,12 +1149,10 @@ export default {
         "insect sting"
       ],
       "optionReasons": {
-        "sting-mcq-22": "本句指「被某種昆蟲或動物螫刺造成的傷害」。",
-        "sting-mcq-21": "「昆蟲或其他生物螫刺造成的傷口或事件」是「10. sting（noun：昆蟲螫傷） — 螫傷；叮傷」的用法，與本句語境不同。",
-        "sting-mcq-23": "「一陣短促而尖銳的疼痛或灼熱感」是「12. sting（noun：刺痛感） — 刺痛；灼痛」的用法，與本句語境不同。",
-        "sting-mcq-20": "「騙局／圈套」是「sting (informal scheme)」的用法，與本句語境不同。",
-        "sting-mcq-24": "「X 所造成的強烈、尖銳情緒痛楚」是「13. the sting of something — ……帶來的刺痛／難受」的用法，與本句語境不同。",
-        "sting-mcq-19": "「秘密誘捕行動」是「sting operation」的用法，與本句語境不同。"
+        "sting-mcq-22": "本句的「insect sting」指「被某種昆蟲或動物螫刺造成的傷害」。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-22"
     },
@@ -1260,11 +1164,9 @@ export default {
       "masked": "I felt a sharp ____ in my finger.",
       "options": [
         "sting-mcq-23",
-        "sting-mcq-22",
-        "sting-mcq-24",
-        "sting-mcq-21",
-        "sting-mcq-25",
-        "sting-mcq-20"
+        "sting-mcq-17",
+        "sting-mcq-19",
+        "sting-mcq-08"
       ],
       "explanation": "本句的「sting」指「一陣短促而尖銳的疼痛或灼熱感」。",
       "sentenceIndex": 24,
@@ -1273,12 +1175,10 @@ export default {
         "sting"
       ],
       "optionReasons": {
-        "sting-mcq-23": "本句指「一陣短促而尖銳的疼痛或灼熱感」。",
-        "sting-mcq-22": "「被某種昆蟲或動物螫刺造成的傷害」是「11. bee sting / insect sting — 蜜蜂螫傷／昆蟲叮螫」的用法，與本句語境不同。",
-        "sting-mcq-24": "「X 所造成的強烈、尖銳情緒痛楚」是「13. the sting of something — ……帶來的刺痛／難受」的用法，與本句語境不同。",
-        "sting-mcq-21": "「昆蟲或其他生物螫刺造成的傷口或事件」是「10. sting（noun：昆蟲螫傷） — 螫傷；叮傷」的用法，與本句語境不同。",
-        "sting-mcq-25": "「informal: 一個設局欺騙或誘使某人上當的安排」是「22. sting（欺騙／騙局，informal） — 騙局；詐騙」的用法，與本句語境不同。",
-        "sting-mcq-20": "「騙局／圈套」是「sting (informal scheme)」的用法，與本句語境不同。"
+        "sting-mcq-23": "本句的「sting」指「一陣短促而尖銳的疼痛或灼熱感」。",
+        "sting-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-23"
     },
@@ -1290,11 +1190,9 @@ export default {
       "masked": "The medicine caused a slight ____.",
       "options": [
         "sting-mcq-23",
-        "sting-mcq-22",
-        "sting-mcq-24",
-        "sting-mcq-21",
-        "sting-mcq-25",
-        "sting-mcq-20"
+        "sting-mcq-18",
+        "sting-mcq-08",
+        "sting-mcq-01"
       ],
       "explanation": "本句的「sting」指「一陣短促而尖銳的疼痛或灼熱感」。",
       "sentenceIndex": 25,
@@ -1303,12 +1201,10 @@ export default {
         "sting"
       ],
       "optionReasons": {
-        "sting-mcq-23": "本句指「一陣短促而尖銳的疼痛或灼熱感」。",
-        "sting-mcq-22": "「被某種昆蟲或動物螫刺造成的傷害」是「11. bee sting / insect sting — 蜜蜂螫傷／昆蟲叮螫」的用法，與本句語境不同。",
-        "sting-mcq-24": "「X 所造成的強烈、尖銳情緒痛楚」是「13. the sting of something — ……帶來的刺痛／難受」的用法，與本句語境不同。",
-        "sting-mcq-21": "「昆蟲或其他生物螫刺造成的傷口或事件」是「10. sting（noun：昆蟲螫傷） — 螫傷；叮傷」的用法，與本句語境不同。",
-        "sting-mcq-25": "「informal: 一個設局欺騙或誘使某人上當的安排」是「22. sting（欺騙／騙局，informal） — 騙局；詐騙」的用法，與本句語境不同。",
-        "sting-mcq-20": "「騙局／圈套」是「sting (informal scheme)」的用法，與本句語境不同。"
+        "sting-mcq-23": "本句的「sting」指「一陣短促而尖銳的疼痛或灼熱感」。",
+        "sting-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-23"
     },
@@ -1320,11 +1216,9 @@ export default {
       "masked": "He still felt the ____.",
       "options": [
         "sting-mcq-24",
-        "sting-mcq-23",
-        "sting-mcq-25",
-        "sting-mcq-22",
-        "sting-mcq-21",
-        "sting-mcq-20"
+        "sting-mcq-02",
+        "sting-mcq-08",
+        "sting-mcq-25"
       ],
       "explanation": "本句的「sting of rejection」指「X 所造成的強烈、尖銳情緒痛楚」。",
       "sentenceIndex": 26,
@@ -1333,12 +1227,10 @@ export default {
         "sting of rejection"
       ],
       "optionReasons": {
-        "sting-mcq-24": "本句指「X 所造成的強烈、尖銳情緒痛楚」。",
-        "sting-mcq-23": "「一陣短促而尖銳的疼痛或灼熱感」是「12. sting（noun：刺痛感） — 刺痛；灼痛」的用法，與本句語境不同。",
-        "sting-mcq-25": "「informal: 一個設局欺騙或誘使某人上當的安排」是「22. sting（欺騙／騙局，informal） — 騙局；詐騙」的用法，與本句語境不同。",
-        "sting-mcq-22": "「被某種昆蟲或動物螫刺造成的傷害」是「11. bee sting / insect sting — 蜜蜂螫傷／昆蟲叮螫」的用法，與本句語境不同。",
-        "sting-mcq-21": "「昆蟲或其他生物螫刺造成的傷口或事件」是「10. sting（noun：昆蟲螫傷） — 螫傷；叮傷」的用法，與本句語境不同。",
-        "sting-mcq-20": "「騙局／圈套」是「sting (informal scheme)」的用法，與本句語境不同。"
+        "sting-mcq-24": "本句的「sting of rejection」指「X 所造成的強烈、尖銳情緒痛楚」。",
+        "sting-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-24"
     },
@@ -1350,11 +1242,9 @@ export default {
       "masked": "Time softened the ____.",
       "options": [
         "sting-mcq-24",
-        "sting-mcq-23",
-        "sting-mcq-25",
-        "sting-mcq-22",
-        "sting-mcq-21",
-        "sting-mcq-20"
+        "sting-mcq-02",
+        "sting-mcq-08",
+        "sting-mcq-18"
       ],
       "explanation": "本句的「sting of the criticism」指「X 所造成的強烈、尖銳情緒痛楚」。",
       "sentenceIndex": 27,
@@ -1363,12 +1253,10 @@ export default {
         "sting of the criticism"
       ],
       "optionReasons": {
-        "sting-mcq-24": "本句指「X 所造成的強烈、尖銳情緒痛楚」。",
-        "sting-mcq-23": "「一陣短促而尖銳的疼痛或灼熱感」是「12. sting（noun：刺痛感） — 刺痛；灼痛」的用法，與本句語境不同。",
-        "sting-mcq-25": "「informal: 一個設局欺騙或誘使某人上當的安排」是「22. sting（欺騙／騙局，informal） — 騙局；詐騙」的用法，與本句語境不同。",
-        "sting-mcq-22": "「被某種昆蟲或動物螫刺造成的傷害」是「11. bee sting / insect sting — 蜜蜂螫傷／昆蟲叮螫」的用法，與本句語境不同。",
-        "sting-mcq-21": "「昆蟲或其他生物螫刺造成的傷口或事件」是「10. sting（noun：昆蟲螫傷） — 螫傷；叮傷」的用法，與本句語境不同。",
-        "sting-mcq-20": "「騙局／圈套」是「sting (informal scheme)」的用法，與本句語境不同。"
+        "sting-mcq-24": "本句的「sting of the criticism」指「X 所造成的強烈、尖銳情緒痛楚」。",
+        "sting-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-24"
     },
@@ -1380,11 +1268,9 @@ export default {
       "masked": "She remembered the ____.",
       "options": [
         "sting-mcq-12",
-        "sting-mcq-11",
-        "sting-mcq-13",
-        "sting-mcq-10",
-        "sting-mcq-14",
-        "sting-mcq-09"
+        "sting-mcq-19",
+        "sting-mcq-16",
+        "sting-mcq-17"
       ],
       "explanation": "本句的「sting of defeat」指「失敗的痛楚」。",
       "sentenceIndex": 28,
@@ -1393,12 +1279,10 @@ export default {
         "sting of defeat"
       ],
       "optionReasons": {
-        "sting-mcq-12": "本句指「失敗的痛楚」。",
-        "sting-mcq-11": "「被拒絕的刺痛」是「sting of rejection」的用法，與本句語境不同。",
-        "sting-mcq-13": "「減輕痛楚／打擊」是「take the sting out of」的用法，與本句語境不同。",
-        "sting-mcq-10": "「刺痛感」是「sting (noun: sensation)」的用法，與本句語境不同。",
-        "sting-mcq-14": "「刺痛」是「stinging pain」的用法，與本句語境不同。",
-        "sting-mcq-09": "「螫傷」是「sting (noun: injury)」的用法，與本句語境不同。"
+        "sting-mcq-12": "本句的「sting of defeat」指「失敗的痛楚」。",
+        "sting-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-12"
     },
@@ -1410,11 +1294,9 @@ export default {
       "masked": "The apology reduced the ____.",
       "options": [
         "sting-mcq-12",
-        "sting-mcq-11",
-        "sting-mcq-13",
-        "sting-mcq-10",
-        "sting-mcq-14",
-        "sting-mcq-09"
+        "sting-mcq-02",
+        "sting-mcq-18",
+        "sting-mcq-08"
       ],
       "explanation": "本句的「sting of his words」指「失敗的痛楚」。",
       "sentenceIndex": 29,
@@ -1423,12 +1305,10 @@ export default {
         "sting of his words"
       ],
       "optionReasons": {
-        "sting-mcq-12": "本句指「失敗的痛楚」。",
-        "sting-mcq-11": "「被拒絕的刺痛」是「sting of rejection」的用法，與本句語境不同。",
-        "sting-mcq-13": "「減輕痛楚／打擊」是「take the sting out of」的用法，與本句語境不同。",
-        "sting-mcq-10": "「刺痛感」是「sting (noun: sensation)」的用法，與本句語境不同。",
-        "sting-mcq-14": "「刺痛」是「stinging pain」的用法，與本句語境不同。",
-        "sting-mcq-09": "「螫傷」是「sting (noun: injury)」的用法，與本句語境不同。"
+        "sting-mcq-12": "本句的「sting of his words」指「失敗的痛楚」。",
+        "sting-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-12"
     },
@@ -1440,11 +1320,9 @@ export default {
       "masked": "His apology ____ the criticism.",
       "options": [
         "sting-mcq-13",
-        "sting-mcq-12",
-        "sting-mcq-14",
-        "sting-mcq-11",
-        "sting-mcq-15",
-        "sting-mcq-10"
+        "sting-mcq-08",
+        "sting-mcq-02",
+        "sting-mcq-25"
       ],
       "explanation": "本句的「took some of the sting out of」指「減輕痛楚／打擊」。",
       "sentenceIndex": 30,
@@ -1453,12 +1331,10 @@ export default {
         "took some of the sting out of"
       ],
       "optionReasons": {
-        "sting-mcq-13": "本句指「減輕痛楚／打擊」。",
-        "sting-mcq-12": "「失敗的痛楚」是「sting of defeat」的用法，與本句語境不同。",
-        "sting-mcq-14": "「刺痛」是「stinging pain」的用法，與本句語境不同。",
-        "sting-mcq-11": "「被拒絕的刺痛」是「sting of rejection」的用法，與本句語境不同。",
-        "sting-mcq-15": "「尖銳猛烈的批評」是「stinging criticism」的用法，與本句語境不同。",
-        "sting-mcq-10": "「刺痛感」是「sting (noun: sensation)」的用法，與本句語境不同。"
+        "sting-mcq-13": "本句的「took some of the sting out of」指「減輕痛楚／打擊」。",
+        "sting-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-13"
     },
@@ -1470,11 +1346,9 @@ export default {
       "masked": "The refund ____ the bad experience.",
       "options": [
         "sting-mcq-13",
-        "sting-mcq-12",
-        "sting-mcq-14",
-        "sting-mcq-11",
-        "sting-mcq-15",
-        "sting-mcq-10"
+        "sting-mcq-25",
+        "sting-mcq-02",
+        "sting-mcq-19"
       ],
       "explanation": "本句的「took the sting out of」指「減輕痛楚／打擊」。",
       "sentenceIndex": 31,
@@ -1483,12 +1357,10 @@ export default {
         "took the sting out of"
       ],
       "optionReasons": {
-        "sting-mcq-13": "本句指「減輕痛楚／打擊」。",
-        "sting-mcq-12": "「失敗的痛楚」是「sting of defeat」的用法，與本句語境不同。",
-        "sting-mcq-14": "「刺痛」是「stinging pain」的用法，與本句語境不同。",
-        "sting-mcq-11": "「被拒絕的刺痛」是「sting of rejection」的用法，與本句語境不同。",
-        "sting-mcq-15": "「尖銳猛烈的批評」是「stinging criticism」的用法，與本句語境不同。",
-        "sting-mcq-10": "「刺痛感」是「sting (noun: sensation)」的用法，與本句語境不同。"
+        "sting-mcq-13": "本句的「took the sting out of」指「減輕痛楚／打擊」。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-13"
     },
@@ -1500,11 +1372,9 @@ export default {
       "masked": "I felt a ____ in my eye.",
       "options": [
         "sting-mcq-14",
-        "sting-mcq-13",
-        "sting-mcq-15",
-        "sting-mcq-12",
-        "sting-mcq-16",
-        "sting-mcq-11"
+        "sting-mcq-18",
+        "sting-mcq-25",
+        "sting-mcq-15"
       ],
       "explanation": "本句的「stinging pain」指「刺痛」。",
       "sentenceIndex": 32,
@@ -1513,12 +1383,10 @@ export default {
         "stinging pain"
       ],
       "optionReasons": {
-        "sting-mcq-14": "本句指「刺痛」。",
-        "sting-mcq-13": "「減輕痛楚／打擊」是「take the sting out of」的用法，與本句語境不同。",
-        "sting-mcq-15": "「尖銳猛烈的批評」是「stinging criticism」的用法，與本句語境不同。",
-        "sting-mcq-12": "「失敗的痛楚」是「sting of defeat」的用法，與本句語境不同。",
-        "sting-mcq-16": "「尖酸傷人的話」是「stinging remark」的用法，與本句語境不同。",
-        "sting-mcq-11": "「被拒絕的刺痛」是「sting of rejection」的用法，與本句語境不同。"
+        "sting-mcq-14": "本句的「stinging pain」指「刺痛」。",
+        "sting-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-14"
     },
@@ -1530,11 +1398,9 @@ export default {
       "masked": "The cut caused a ____.",
       "options": [
         "sting-mcq-14",
-        "sting-mcq-13",
-        "sting-mcq-15",
-        "sting-mcq-12",
-        "sting-mcq-16",
-        "sting-mcq-11"
+        "sting-mcq-02",
+        "sting-mcq-08",
+        "sting-mcq-16"
       ],
       "explanation": "本句的「stinging sensation」指「刺痛」。",
       "sentenceIndex": 33,
@@ -1543,12 +1409,10 @@ export default {
         "stinging sensation"
       ],
       "optionReasons": {
-        "sting-mcq-14": "本句指「刺痛」。",
-        "sting-mcq-13": "「減輕痛楚／打擊」是「take the sting out of」的用法，與本句語境不同。",
-        "sting-mcq-15": "「尖銳猛烈的批評」是「stinging criticism」的用法，與本句語境不同。",
-        "sting-mcq-12": "「失敗的痛楚」是「sting of defeat」的用法，與本句語境不同。",
-        "sting-mcq-16": "「尖酸傷人的話」是「stinging remark」的用法，與本句語境不同。",
-        "sting-mcq-11": "「被拒絕的刺痛」是「sting of rejection」的用法，與本句語境不同。"
+        "sting-mcq-14": "本句的「stinging sensation」指「刺痛」。",
+        "sting-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-14"
     },
@@ -1560,10 +1424,8 @@ export default {
       "masked": "The report contained ____ of the decision.",
       "options": [
         "sting-mcq-15",
-        "sting-mcq-14",
-        "sting-mcq-16",
-        "sting-mcq-13",
-        "sting-mcq-17",
+        "sting-mcq-05",
+        "sting-mcq-18",
         "sting-mcq-12"
       ],
       "explanation": "本句的「stinging criticism」指「尖銳猛烈的批評」。",
@@ -1573,12 +1435,10 @@ export default {
         "stinging criticism"
       ],
       "optionReasons": {
-        "sting-mcq-15": "本句指「尖銳猛烈的批評」。",
-        "sting-mcq-14": "「刺痛」是「stinging pain」的用法，與本句語境不同。",
-        "sting-mcq-16": "「尖酸傷人的話」是「stinging remark」的用法，與本句語境不同。",
-        "sting-mcq-13": "「減輕痛楚／打擊」是「take the sting out of」的用法，與本句語境不同。",
-        "sting-mcq-17": "「螫針」是「stinger」的用法，與本句語境不同。",
-        "sting-mcq-12": "「失敗的痛楚」是「sting of defeat」的用法，與本句語境不同。"
+        "sting-mcq-15": "本句的「stinging criticism」指「尖銳猛烈的批評」。",
+        "sting-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-15"
     },
@@ -1590,11 +1450,9 @@ export default {
       "masked": "She delivered a ____ of his behaviour.",
       "options": [
         "sting-mcq-15",
-        "sting-mcq-14",
-        "sting-mcq-16",
-        "sting-mcq-13",
-        "sting-mcq-17",
-        "sting-mcq-12"
+        "sting-mcq-25",
+        "sting-mcq-21",
+        "sting-mcq-05"
       ],
       "explanation": "本句的「stinging criticism」指「尖銳猛烈的批評」。",
       "sentenceIndex": 35,
@@ -1603,12 +1461,10 @@ export default {
         "stinging criticism"
       ],
       "optionReasons": {
-        "sting-mcq-15": "本句指「尖銳猛烈的批評」。",
-        "sting-mcq-14": "「刺痛」是「stinging pain」的用法，與本句語境不同。",
-        "sting-mcq-16": "「尖酸傷人的話」是「stinging remark」的用法，與本句語境不同。",
-        "sting-mcq-13": "「減輕痛楚／打擊」是「take the sting out of」的用法，與本句語境不同。",
-        "sting-mcq-17": "「螫針」是「stinger」的用法，與本句語境不同。",
-        "sting-mcq-12": "「失敗的痛楚」是「sting of defeat」的用法，與本句語境不同。"
+        "sting-mcq-15": "本句的「stinging criticism」指「尖銳猛烈的批評」。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-15"
     },
@@ -1620,11 +1476,9 @@ export default {
       "masked": "He made a ____ about my work.",
       "options": [
         "sting-mcq-16",
-        "sting-mcq-15",
-        "sting-mcq-17",
         "sting-mcq-14",
-        "sting-mcq-18",
-        "sting-mcq-13"
+        "sting-mcq-08",
+        "sting-mcq-25"
       ],
       "explanation": "本句的「stinging remark」指「尖酸傷人的話」。",
       "sentenceIndex": 36,
@@ -1633,12 +1487,10 @@ export default {
         "stinging remark"
       ],
       "optionReasons": {
-        "sting-mcq-16": "本句指「尖酸傷人的話」。",
-        "sting-mcq-15": "「尖銳猛烈的批評」是「stinging criticism」的用法，與本句語境不同。",
-        "sting-mcq-17": "「螫針」是「stinger」的用法，與本句語境不同。",
-        "sting-mcq-14": "「刺痛」是「stinging pain」的用法，與本句語境不同。",
-        "sting-mcq-18": "「誘捕行動」是「sting (police)」的用法，與本句語境不同。",
-        "sting-mcq-13": "「減輕痛楚／打擊」是「take the sting out of」的用法，與本句語境不同。"
+        "sting-mcq-16": "本句的「stinging remark」指「尖酸傷人的話」。",
+        "sting-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-16"
     },
@@ -1650,11 +1502,9 @@ export default {
       "masked": "Her ____ silenced the room.",
       "options": [
         "sting-mcq-16",
-        "sting-mcq-15",
-        "sting-mcq-17",
-        "sting-mcq-14",
-        "sting-mcq-18",
-        "sting-mcq-13"
+        "sting-mcq-01",
+        "sting-mcq-06",
+        "sting-mcq-25"
       ],
       "explanation": "本句的「stinging comment」指「尖酸傷人的話」。",
       "sentenceIndex": 37,
@@ -1663,12 +1513,10 @@ export default {
         "stinging comment"
       ],
       "optionReasons": {
-        "sting-mcq-16": "本句指「尖酸傷人的話」。",
-        "sting-mcq-15": "「尖銳猛烈的批評」是「stinging criticism」的用法，與本句語境不同。",
-        "sting-mcq-17": "「螫針」是「stinger」的用法，與本句語境不同。",
-        "sting-mcq-14": "「刺痛」是「stinging pain」的用法，與本句語境不同。",
-        "sting-mcq-18": "「誘捕行動」是「sting (police)」的用法，與本句語境不同。",
-        "sting-mcq-13": "「減輕痛楚／打擊」是「take the sting out of」的用法，與本句語境不同。"
+        "sting-mcq-16": "本句的「stinging comment」指「尖酸傷人的話」。",
+        "sting-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-16"
     },
@@ -1681,10 +1529,8 @@ export default {
       "options": [
         "sting-mcq-17",
         "sting-mcq-16",
-        "sting-mcq-18",
-        "sting-mcq-15",
-        "sting-mcq-19",
-        "sting-mcq-14"
+        "sting-mcq-25",
+        "sting-mcq-23"
       ],
       "explanation": "本句的「stinger」指「螫針」。",
       "sentenceIndex": 38,
@@ -1693,12 +1539,10 @@ export default {
         "stinger"
       ],
       "optionReasons": {
-        "sting-mcq-17": "本句指「螫針」。",
-        "sting-mcq-16": "「尖酸傷人的話」是「stinging remark」的用法，與本句語境不同。",
-        "sting-mcq-18": "「誘捕行動」是「sting (police)」的用法，與本句語境不同。",
-        "sting-mcq-15": "「尖銳猛烈的批評」是「stinging criticism」的用法，與本句語境不同。",
-        "sting-mcq-19": "「秘密誘捕行動」是「sting operation」的用法，與本句語境不同。",
-        "sting-mcq-14": "「刺痛」是「stinging pain」的用法，與本句語境不同。"
+        "sting-mcq-17": "本句的「stinger」指「螫針」。",
+        "sting-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-17"
     },
@@ -1710,11 +1554,9 @@ export default {
       "masked": "The insect raised its ____.",
       "options": [
         "sting-mcq-17",
-        "sting-mcq-16",
-        "sting-mcq-18",
-        "sting-mcq-15",
-        "sting-mcq-19",
-        "sting-mcq-14"
+        "sting-mcq-24",
+        "sting-mcq-07",
+        "sting-mcq-08"
       ],
       "explanation": "本句的「stinger」指「螫針」。",
       "sentenceIndex": 39,
@@ -1723,12 +1565,10 @@ export default {
         "stinger"
       ],
       "optionReasons": {
-        "sting-mcq-17": "本句指「螫針」。",
-        "sting-mcq-16": "「尖酸傷人的話」是「stinging remark」的用法，與本句語境不同。",
-        "sting-mcq-18": "「誘捕行動」是「sting (police)」的用法，與本句語境不同。",
-        "sting-mcq-15": "「尖銳猛烈的批評」是「stinging criticism」的用法，與本句語境不同。",
-        "sting-mcq-19": "「秘密誘捕行動」是「sting operation」的用法，與本句語境不同。",
-        "sting-mcq-14": "「刺痛」是「stinging pain」的用法，與本句語境不同。"
+        "sting-mcq-17": "本句的「stinger」指「螫針」。",
+        "sting-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-17"
     },
@@ -1740,11 +1580,9 @@ export default {
       "masked": "Police arrested several suspects in an undercover ____.",
       "options": [
         "sting-mcq-18",
-        "sting-mcq-17",
-        "sting-mcq-19",
-        "sting-mcq-16",
-        "sting-mcq-20",
-        "sting-mcq-15"
+        "sting-mcq-14",
+        "sting-mcq-01",
+        "sting-mcq-16"
       ],
       "explanation": "本句的「sting」指「誘捕行動」。",
       "sentenceIndex": 40,
@@ -1753,12 +1591,10 @@ export default {
         "sting"
       ],
       "optionReasons": {
-        "sting-mcq-18": "本句指「誘捕行動」。",
-        "sting-mcq-17": "「螫針」是「stinger」的用法，與本句語境不同。",
-        "sting-mcq-19": "「秘密誘捕行動」是「sting operation」的用法，與本句語境不同。",
-        "sting-mcq-16": "「尖酸傷人的話」是「stinging remark」的用法，與本句語境不同。",
-        "sting-mcq-20": "「騙局／圈套」是「sting (informal scheme)」的用法，與本句語境不同。",
-        "sting-mcq-15": "「尖銳猛烈的批評」是「stinging criticism」的用法，與本句語境不同。"
+        "sting-mcq-18": "本句的「sting」指「誘捕行動」。",
+        "sting-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-18"
     },
@@ -1770,11 +1606,9 @@ export default {
       "masked": "The officers set up a ____.",
       "options": [
         "sting-mcq-18",
-        "sting-mcq-17",
-        "sting-mcq-19",
-        "sting-mcq-16",
-        "sting-mcq-20",
-        "sting-mcq-15"
+        "sting-mcq-03",
+        "sting-mcq-15",
+        "sting-mcq-17"
       ],
       "explanation": "本句的「sting operation」指「誘捕行動」。",
       "sentenceIndex": 41,
@@ -1783,12 +1617,10 @@ export default {
         "sting operation"
       ],
       "optionReasons": {
-        "sting-mcq-18": "本句指「誘捕行動」。",
-        "sting-mcq-17": "「螫針」是「stinger」的用法，與本句語境不同。",
-        "sting-mcq-19": "「秘密誘捕行動」是「sting operation」的用法，與本句語境不同。",
-        "sting-mcq-16": "「尖酸傷人的話」是「stinging remark」的用法，與本句語境不同。",
-        "sting-mcq-20": "「騙局／圈套」是「sting (informal scheme)」的用法，與本句語境不同。",
-        "sting-mcq-15": "「尖銳猛烈的批評」是「stinging criticism」的用法，與本句語境不同。"
+        "sting-mcq-18": "本句的「sting operation」指「誘捕行動」。",
+        "sting-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-18"
     },
@@ -1800,11 +1632,9 @@ export default {
       "masked": "The arrests followed a six-month ____.",
       "options": [
         "sting-mcq-19",
-        "sting-mcq-18",
-        "sting-mcq-20",
-        "sting-mcq-17",
-        "sting-mcq-21",
-        "sting-mcq-16"
+        "sting-mcq-06",
+        "sting-mcq-15",
+        "sting-mcq-02"
       ],
       "explanation": "本句的「sting operation」指「秘密誘捕行動」。",
       "sentenceIndex": 42,
@@ -1813,12 +1643,10 @@ export default {
         "sting operation"
       ],
       "optionReasons": {
-        "sting-mcq-19": "本句指「秘密誘捕行動」。",
-        "sting-mcq-18": "「誘捕行動」是「sting (police)」的用法，與本句語境不同。",
-        "sting-mcq-20": "「騙局／圈套」是「sting (informal scheme)」的用法，與本句語境不同。",
-        "sting-mcq-17": "「螫針」是「stinger」的用法，與本句語境不同。",
-        "sting-mcq-21": "「昆蟲或其他生物螫刺造成的傷口或事件」是「10. sting（noun：昆蟲螫傷） — 螫傷；叮傷」的用法，與本句語境不同。",
-        "sting-mcq-16": "「尖酸傷人的話」是「stinging remark」的用法，與本句語境不同。"
+        "sting-mcq-19": "本句的「sting operation」指「秘密誘捕行動」。",
+        "sting-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-19"
     },
@@ -1830,11 +1658,9 @@ export default {
       "masked": "An undercover officer took part in the ____.",
       "options": [
         "sting-mcq-19",
-        "sting-mcq-18",
-        "sting-mcq-20",
-        "sting-mcq-17",
-        "sting-mcq-21",
-        "sting-mcq-16"
+        "sting-mcq-02",
+        "sting-mcq-03",
+        "sting-mcq-08"
       ],
       "explanation": "本句的「sting operation」指「秘密誘捕行動」。",
       "sentenceIndex": 43,
@@ -1843,12 +1669,10 @@ export default {
         "sting operation"
       ],
       "optionReasons": {
-        "sting-mcq-19": "本句指「秘密誘捕行動」。",
-        "sting-mcq-18": "「誘捕行動」是「sting (police)」的用法，與本句語境不同。",
-        "sting-mcq-20": "「騙局／圈套」是「sting (informal scheme)」的用法，與本句語境不同。",
-        "sting-mcq-17": "「螫針」是「stinger」的用法，與本句語境不同。",
-        "sting-mcq-21": "「昆蟲或其他生物螫刺造成的傷口或事件」是「10. sting（noun：昆蟲螫傷） — 螫傷；叮傷」的用法，與本句語境不同。",
-        "sting-mcq-16": "「尖酸傷人的話」是「stinging remark」的用法，與本句語境不同。"
+        "sting-mcq-19": "本句的「sting operation」指「秘密誘捕行動」。",
+        "sting-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-19"
     },
@@ -1860,11 +1684,9 @@ export default {
       "masked": "The whole deal turned out to be a ____.",
       "options": [
         "sting-mcq-25",
-        "sting-mcq-24",
-        "sting-mcq-23",
-        "sting-mcq-22",
+        "sting-mcq-16",
         "sting-mcq-21",
-        "sting-mcq-20"
+        "sting-mcq-07"
       ],
       "explanation": "本句的「sting」指「informal: 一個設局欺騙或誘使某人上當的安排」。",
       "sentenceIndex": 44,
@@ -1873,12 +1695,10 @@ export default {
         "sting"
       ],
       "optionReasons": {
-        "sting-mcq-25": "本句指「informal: 一個設局欺騙或誘使某人上當的安排」。",
-        "sting-mcq-24": "「X 所造成的強烈、尖銳情緒痛楚」是「13. the sting of something — ……帶來的刺痛／難受」的用法，與本句語境不同。",
-        "sting-mcq-23": "「一陣短促而尖銳的疼痛或灼熱感」是「12. sting（noun：刺痛感） — 刺痛；灼痛」的用法，與本句語境不同。",
-        "sting-mcq-22": "「被某種昆蟲或動物螫刺造成的傷害」是「11. bee sting / insect sting — 蜜蜂螫傷／昆蟲叮螫」的用法，與本句語境不同。",
-        "sting-mcq-21": "「昆蟲或其他生物螫刺造成的傷口或事件」是「10. sting（noun：昆蟲螫傷） — 螫傷；叮傷」的用法，與本句語境不同。",
-        "sting-mcq-20": "「騙局／圈套」是「sting (informal scheme)」的用法，與本句語境不同。"
+        "sting-mcq-25": "本句的「sting」指「informal: 一個設局欺騙或誘使某人上當的安排」。",
+        "sting-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-25"
     },
@@ -1890,11 +1710,9 @@ export default {
       "masked": "He suspected they were setting up some kind of ____.",
       "options": [
         "sting-mcq-25",
-        "sting-mcq-24",
-        "sting-mcq-23",
-        "sting-mcq-22",
-        "sting-mcq-21",
-        "sting-mcq-20"
+        "sting-mcq-01",
+        "sting-mcq-07",
+        "sting-mcq-24"
       ],
       "explanation": "本句的「sting」指「informal: 一個設局欺騙或誘使某人上當的安排」。",
       "sentenceIndex": 45,
@@ -1903,12 +1721,10 @@ export default {
         "sting"
       ],
       "optionReasons": {
-        "sting-mcq-25": "本句指「informal: 一個設局欺騙或誘使某人上當的安排」。",
-        "sting-mcq-24": "「X 所造成的強烈、尖銳情緒痛楚」是「13. the sting of something — ……帶來的刺痛／難受」的用法，與本句語境不同。",
-        "sting-mcq-23": "「一陣短促而尖銳的疼痛或灼熱感」是「12. sting（noun：刺痛感） — 刺痛；灼痛」的用法，與本句語境不同。",
-        "sting-mcq-22": "「被某種昆蟲或動物螫刺造成的傷害」是「11. bee sting / insect sting — 蜜蜂螫傷／昆蟲叮螫」的用法，與本句語境不同。",
-        "sting-mcq-21": "「昆蟲或其他生物螫刺造成的傷口或事件」是「10. sting（noun：昆蟲螫傷） — 螫傷；叮傷」的用法，與本句語境不同。",
-        "sting-mcq-20": "「騙局／圈套」是「sting (informal scheme)」的用法，與本句語境不同。"
+        "sting-mcq-25": "本句的「sting」指「informal: 一個設局欺騙或誘使某人上當的安排」。",
+        "sting-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sting-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sting-mcq-25"
     }
@@ -1920,5 +1736,7 @@ export default {
     "sha256": "45186d11baee5a1611fd0cb3408d02ed7afaab06c64474f103b7972e2d447763",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

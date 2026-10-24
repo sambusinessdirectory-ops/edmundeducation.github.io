@@ -512,7 +512,7 @@ export default {
     },
     {
       "id": "humane-mcq-25",
-      "title": "表示人道／體恤人的解決方法",
+      "title": "人道／體恤人的解決方法",
       "form": "24. humane solution",
       "en": "24. humane solution",
       "zh": "表示人道／體恤人的解決方法",
@@ -542,11 +542,9 @@ export default {
       "masked": "The novel takes a deeply ____ view of people’s mistakes.",
       "options": [
         "humane-mcq-01",
-        "humane-mcq-02",
-        "humane-mcq-03",
-        "humane-mcq-04",
-        "humane-mcq-05",
-        "humane-mcq-06"
+        "humane-mcq-20",
+        "humane-mcq-13",
+        "humane-mcq-22"
       ],
       "explanation": "本句的「humane」指「對人或動物的痛苦有同理心並以仁慈方式對待；人道／仁慈的」。",
       "sentenceIndex": 0,
@@ -555,12 +553,10 @@ export default {
         "humane"
       ],
       "optionReasons": {
-        "humane-mcq-01": "本句指「對人或動物的痛苦有同理心並以仁慈方式對待；人道／仁慈的」。",
-        "humane-mcq-02": "「避免不必要痛苦並尊重尊嚴的人道待遇」是「humane treatment」的用法，與本句語境不同。",
-        "humane-mcq-03": "「以盡量減少疼痛、恐懼或傷害為原則的」是「humane — minimizing suffering」的用法，與本句語境不同。",
-        "humane-mcq-04": "「盡可能不造成痛苦或殘酷傷害的方法」是「humane method」的用法，與本句語境不同。",
-        "humane-mcq-05": "「對人的弱點、情感與困境富同理心的；有人情味的」是「humane — warm/understanding」的用法，與本句語境不同。",
-        "humane-mcq-06": "「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」是「humane approach/perspective」的用法，與本句語境不同。"
+        "humane-mcq-01": "本句的「humane」指「對人或動物的痛苦有同理心並以仁慈方式對待；人道／仁慈的」。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-01"
     },
@@ -572,11 +568,9 @@ export default {
       "masked": "The director gives the characters a warm and ____ treatment.",
       "options": [
         "humane-mcq-01",
-        "humane-mcq-02",
-        "humane-mcq-03",
-        "humane-mcq-04",
-        "humane-mcq-05",
-        "humane-mcq-06"
+        "humane-mcq-11",
+        "humane-mcq-20",
+        "humane-mcq-03"
       ],
       "explanation": "本句的「humane」指「對人或動物的痛苦有同理心並以仁慈方式對待；人道／仁慈的」。",
       "sentenceIndex": 1,
@@ -585,12 +579,10 @@ export default {
         "humane"
       ],
       "optionReasons": {
-        "humane-mcq-01": "本句指「對人或動物的痛苦有同理心並以仁慈方式對待；人道／仁慈的」。",
-        "humane-mcq-02": "「避免不必要痛苦並尊重尊嚴的人道待遇」是「humane treatment」的用法，與本句語境不同。",
-        "humane-mcq-03": "「以盡量減少疼痛、恐懼或傷害為原則的」是「humane — minimizing suffering」的用法，與本句語境不同。",
-        "humane-mcq-04": "「盡可能不造成痛苦或殘酷傷害的方法」是「humane method」的用法，與本句語境不同。",
-        "humane-mcq-05": "「對人的弱點、情感與困境富同理心的；有人情味的」是「humane — warm/understanding」的用法，與本句語境不同。",
-        "humane-mcq-06": "「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」是「humane approach/perspective」的用法，與本句語境不同。"
+        "humane-mcq-01": "本句的「humane」指「對人或動物的痛苦有同理心並以仁慈方式對待；人道／仁慈的」。",
+        "humane-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-01"
     },
@@ -602,11 +594,9 @@ export default {
       "masked": "Prisoners should receive ____.",
       "options": [
         "humane-mcq-01",
-        "humane-mcq-02",
-        "humane-mcq-03",
-        "humane-mcq-04",
-        "humane-mcq-05",
-        "humane-mcq-06"
+        "humane-mcq-16",
+        "humane-mcq-17",
+        "humane-mcq-20"
       ],
       "explanation": "本句的「humane treatment」指「對人或動物的痛苦有同理心並以仁慈方式對待；人道／仁慈的」。",
       "sentenceIndex": 2,
@@ -615,12 +605,10 @@ export default {
         "humane treatment"
       ],
       "optionReasons": {
-        "humane-mcq-01": "本句指「對人或動物的痛苦有同理心並以仁慈方式對待；人道／仁慈的」。",
-        "humane-mcq-02": "「避免不必要痛苦並尊重尊嚴的人道待遇」是「humane treatment」的用法，與本句語境不同。",
-        "humane-mcq-03": "「以盡量減少疼痛、恐懼或傷害為原則的」是「humane — minimizing suffering」的用法，與本句語境不同。",
-        "humane-mcq-04": "「盡可能不造成痛苦或殘酷傷害的方法」是「humane method」的用法，與本句語境不同。",
-        "humane-mcq-05": "「對人的弱點、情感與困境富同理心的；有人情味的」是「humane — warm/understanding」的用法，與本句語境不同。",
-        "humane-mcq-06": "「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」是「humane approach/perspective」的用法，與本句語境不同。"
+        "humane-mcq-01": "本句的「humane treatment」指「對人或動物的痛苦有同理心並以仁慈方式對待；人道／仁慈的」。",
+        "humane-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-01"
     },
@@ -632,11 +620,9 @@ export default {
       "masked": "The organization campaigns for the ____.",
       "options": [
         "humane-mcq-01",
-        "humane-mcq-02",
-        "humane-mcq-03",
-        "humane-mcq-04",
-        "humane-mcq-05",
-        "humane-mcq-06"
+        "humane-mcq-16",
+        "humane-mcq-20",
+        "humane-mcq-17"
       ],
       "explanation": "本句的「humane treatment of animals」指「對人或動物的痛苦有同理心並以仁慈方式對待；人道／仁慈的」。",
       "sentenceIndex": 3,
@@ -645,12 +631,10 @@ export default {
         "humane treatment of animals"
       ],
       "optionReasons": {
-        "humane-mcq-01": "本句指「對人或動物的痛苦有同理心並以仁慈方式對待；人道／仁慈的」。",
-        "humane-mcq-02": "「避免不必要痛苦並尊重尊嚴的人道待遇」是「humane treatment」的用法，與本句語境不同。",
-        "humane-mcq-03": "「以盡量減少疼痛、恐懼或傷害為原則的」是「humane — minimizing suffering」的用法，與本句語境不同。",
-        "humane-mcq-04": "「盡可能不造成痛苦或殘酷傷害的方法」是「humane method」的用法，與本句語境不同。",
-        "humane-mcq-05": "「對人的弱點、情感與困境富同理心的；有人情味的」是「humane — warm/understanding」的用法，與本句語境不同。",
-        "humane-mcq-06": "「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」是「humane approach/perspective」的用法，與本句語境不同。"
+        "humane-mcq-01": "本句的「humane treatment of animals」指「對人或動物的痛苦有同理心並以仁慈方式對待；人道／仁慈的」。",
+        "humane-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-01"
     },
@@ -662,11 +646,9 @@ export default {
       "masked": "All patients deserve ____.",
       "options": [
         "humane-mcq-02",
-        "humane-mcq-01",
+        "humane-mcq-11",
         "humane-mcq-03",
-        "humane-mcq-04",
-        "humane-mcq-05",
-        "humane-mcq-06"
+        "humane-mcq-23"
       ],
       "explanation": "本句的「humane treatment」指「避免不必要痛苦並尊重尊嚴的人道待遇」。",
       "sentenceIndex": 4,
@@ -675,12 +657,10 @@ export default {
         "humane treatment"
       ],
       "optionReasons": {
-        "humane-mcq-02": "本句指「避免不必要痛苦並尊重尊嚴的人道待遇」。",
-        "humane-mcq-01": "「對人或動物的痛苦有同理心並以仁慈方式對待；人道／仁慈的」是「humane — compassionate」的用法，與本句語境不同。",
-        "humane-mcq-03": "「以盡量減少疼痛、恐懼或傷害為原則的」是「humane — minimizing suffering」的用法，與本句語境不同。",
-        "humane-mcq-04": "「盡可能不造成痛苦或殘酷傷害的方法」是「humane method」的用法，與本句語境不同。",
-        "humane-mcq-05": "「對人的弱點、情感與困境富同理心的；有人情味的」是「humane — warm/understanding」的用法，與本句語境不同。",
-        "humane-mcq-06": "「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」是「humane approach/perspective」的用法，與本句語境不同。"
+        "humane-mcq-02": "本句的「humane treatment」指「避免不必要痛苦並尊重尊嚴的人道待遇」。",
+        "humane-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-02"
     },
@@ -692,11 +672,8 @@ export default {
       "masked": "The rules require animals to receive ____.",
       "options": [
         "humane-mcq-02",
-        "humane-mcq-01",
-        "humane-mcq-03",
-        "humane-mcq-04",
-        "humane-mcq-05",
-        "humane-mcq-06"
+        "humane-mcq-22",
+        "humane-mcq-13"
       ],
       "explanation": "本句的「humane treatment」指「避免不必要痛苦並尊重尊嚴的人道待遇」。",
       "sentenceIndex": 5,
@@ -705,12 +682,9 @@ export default {
         "humane treatment"
       ],
       "optionReasons": {
-        "humane-mcq-02": "本句指「避免不必要痛苦並尊重尊嚴的人道待遇」。",
-        "humane-mcq-01": "「對人或動物的痛苦有同理心並以仁慈方式對待；人道／仁慈的」是「humane — compassionate」的用法，與本句語境不同。",
-        "humane-mcq-03": "「以盡量減少疼痛、恐懼或傷害為原則的」是「humane — minimizing suffering」的用法，與本句語境不同。",
-        "humane-mcq-04": "「盡可能不造成痛苦或殘酷傷害的方法」是「humane method」的用法，與本句語境不同。",
-        "humane-mcq-05": "「對人的弱點、情感與困境富同理心的；有人情味的」是「humane — warm/understanding」的用法，與本句語境不同。",
-        "humane-mcq-06": "「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」是「humane approach/perspective」的用法，與本句語境不同。"
+        "humane-mcq-02": "本句的「humane treatment」指「避免不必要痛苦並尊重尊嚴的人道待遇」。",
+        "humane-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-02"
     },
@@ -722,11 +696,9 @@ export default {
       "masked": "They searched for a more ____.",
       "options": [
         "humane-mcq-03",
-        "humane-mcq-02",
-        "humane-mcq-04",
-        "humane-mcq-01",
-        "humane-mcq-05",
-        "humane-mcq-06"
+        "humane-mcq-20",
+        "humane-mcq-10",
+        "humane-mcq-23"
       ],
       "explanation": "本句的「humane method」指「以盡量減少疼痛、恐懼或傷害為原則的」。",
       "sentenceIndex": 6,
@@ -735,12 +707,10 @@ export default {
         "humane method"
       ],
       "optionReasons": {
-        "humane-mcq-03": "本句指「以盡量減少疼痛、恐懼或傷害為原則的」。",
-        "humane-mcq-02": "「避免不必要痛苦並尊重尊嚴的人道待遇」是「humane treatment」的用法，與本句語境不同。",
-        "humane-mcq-04": "「盡可能不造成痛苦或殘酷傷害的方法」是「humane method」的用法，與本句語境不同。",
-        "humane-mcq-01": "「對人或動物的痛苦有同理心並以仁慈方式對待；人道／仁慈的」是「humane — compassionate」的用法，與本句語境不同。",
-        "humane-mcq-05": "「對人的弱點、情感與困境富同理心的；有人情味的」是「humane — warm/understanding」的用法，與本句語境不同。",
-        "humane-mcq-06": "「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」是「humane approach/perspective」的用法，與本句語境不同。"
+        "humane-mcq-03": "本句的「humane method」指「以盡量減少疼痛、恐懼或傷害為原則的」。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-03"
     },
@@ -752,11 +722,9 @@ export default {
       "masked": "The animal was captured using a ____.",
       "options": [
         "humane-mcq-03",
-        "humane-mcq-02",
-        "humane-mcq-04",
-        "humane-mcq-01",
+        "humane-mcq-20",
         "humane-mcq-05",
-        "humane-mcq-06"
+        "humane-mcq-25"
       ],
       "explanation": "本句的「humane trap」指「以盡量減少疼痛、恐懼或傷害為原則的」。",
       "sentenceIndex": 7,
@@ -765,12 +733,10 @@ export default {
         "humane trap"
       ],
       "optionReasons": {
-        "humane-mcq-03": "本句指「以盡量減少疼痛、恐懼或傷害為原則的」。",
-        "humane-mcq-02": "「避免不必要痛苦並尊重尊嚴的人道待遇」是「humane treatment」的用法，與本句語境不同。",
-        "humane-mcq-04": "「盡可能不造成痛苦或殘酷傷害的方法」是「humane method」的用法，與本句語境不同。",
-        "humane-mcq-01": "「對人或動物的痛苦有同理心並以仁慈方式對待；人道／仁慈的」是「humane — compassionate」的用法，與本句語境不同。",
-        "humane-mcq-05": "「對人的弱點、情感與困境富同理心的；有人情味的」是「humane — warm/understanding」的用法，與本句語境不同。",
-        "humane-mcq-06": "「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」是「humane approach/perspective」的用法，與本句語境不同。"
+        "humane-mcq-03": "本句的「humane trap」指「以盡量減少疼痛、恐懼或傷害為原則的」。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-03"
     },
@@ -782,11 +748,9 @@ export default {
       "masked": "The guidelines specify methods of ____.",
       "options": [
         "humane-mcq-24",
-        "humane-mcq-23",
-        "humane-mcq-25",
-        "humane-mcq-22",
-        "humane-mcq-21",
-        "humane-mcq-20"
+        "humane-mcq-11",
+        "humane-mcq-20",
+        "humane-mcq-23"
       ],
       "explanation": "本句的「humane killing」指「人道處死；盡量減少痛苦的安樂處理」。",
       "sentenceIndex": 8,
@@ -795,12 +759,10 @@ export default {
         "humane killing"
       ],
       "optionReasons": {
-        "humane-mcq-24": "本句指「人道處死；盡量減少痛苦的安樂處理」。",
-        "humane-mcq-23": "「以防止虐待、促進動物福利為主的動物保護組織」是「humane society」的用法，與本句語境不同。",
-        "humane-mcq-25": "「表示人道／體恤人的解決方法」是「24. humane solution」的用法，與本句語境不同。",
-        "humane-mcq-22": "「使制度、人物或做法變得更具人性／更有人情味的過程」是「humanization / humanisation」的用法，與本句語境不同。",
-        "humane-mcq-21": "「使人／事物呈現更多人性、同理心或可親近感」是「humanize / humanise」的用法，與本句語境不同。",
-        "humane-mcq-20": "「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」是「humanistic」的用法，與本句語境不同。"
+        "humane-mcq-24": "本句的「humane killing」指「人道處死；盡量減少痛苦的安樂處理」。",
+        "humane-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-24"
     },
@@ -813,9 +775,7 @@ export default {
       "options": [
         "humane-mcq-24",
         "humane-mcq-23",
-        "humane-mcq-25",
-        "humane-mcq-22",
-        "humane-mcq-21",
+        "humane-mcq-17",
         "humane-mcq-20"
       ],
       "explanation": "本句的「humane」指「人道處死；盡量減少痛苦的安樂處理」。",
@@ -825,12 +785,10 @@ export default {
         "humane"
       ],
       "optionReasons": {
-        "humane-mcq-24": "本句指「人道處死；盡量減少痛苦的安樂處理」。",
-        "humane-mcq-23": "「以防止虐待、促進動物福利為主的動物保護組織」是「humane society」的用法，與本句語境不同。",
-        "humane-mcq-25": "「表示人道／體恤人的解決方法」是「24. humane solution」的用法，與本句語境不同。",
-        "humane-mcq-22": "「使制度、人物或做法變得更具人性／更有人情味的過程」是「humanization / humanisation」的用法，與本句語境不同。",
-        "humane-mcq-21": "「使人／事物呈現更多人性、同理心或可親近感」是「humanize / humanise」的用法，與本句語境不同。",
-        "humane-mcq-20": "「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」是「humanistic」的用法，與本句語境不同。"
+        "humane-mcq-24": "本句的「humane」指「人道處死；盡量減少痛苦的安樂處理」。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-24"
     },
@@ -842,11 +800,9 @@ export default {
       "masked": "The book offers a ____ of an imperfect family.",
       "options": [
         "humane-mcq-05",
-        "humane-mcq-04",
-        "humane-mcq-06",
-        "humane-mcq-03",
-        "humane-mcq-07",
-        "humane-mcq-02"
+        "humane-mcq-19",
+        "humane-mcq-23",
+        "humane-mcq-20"
       ],
       "explanation": "本句的「humane portrait」指「對人的弱點、情感與困境富同理心的；有人情味的」。",
       "sentenceIndex": 10,
@@ -855,12 +811,10 @@ export default {
         "humane portrait"
       ],
       "optionReasons": {
-        "humane-mcq-05": "本句指「對人的弱點、情感與困境富同理心的；有人情味的」。",
-        "humane-mcq-04": "「盡可能不造成痛苦或殘酷傷害的方法」是「humane method」的用法，與本句語境不同。",
-        "humane-mcq-06": "「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」是「humane approach/perspective」的用法，與本句語境不同。",
-        "humane-mcq-03": "「以盡量減少疼痛、恐懼或傷害為原則的」是「humane — minimizing suffering」的用法，與本句語境不同。",
-        "humane-mcq-07": "「以仁慈、人道、避免不必要痛苦的方式」是「humanely」的用法，與本句語境不同。",
-        "humane-mcq-02": "「避免不必要痛苦並尊重尊嚴的人道待遇」是「humane treatment」的用法，與本句語境不同。"
+        "humane-mcq-05": "本句的「humane portrait」指「對人的弱點、情感與困境富同理心的；有人情味的」。",
+        "humane-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-05"
     },
@@ -872,11 +826,9 @@ export default {
       "masked": "Her response was practical but also deeply ____.",
       "options": [
         "humane-mcq-05",
-        "humane-mcq-04",
-        "humane-mcq-06",
-        "humane-mcq-03",
-        "humane-mcq-07",
-        "humane-mcq-02"
+        "humane-mcq-02",
+        "humane-mcq-16",
+        "humane-mcq-03"
       ],
       "explanation": "本句的「humane」指「對人的弱點、情感與困境富同理心的；有人情味的」。",
       "sentenceIndex": 11,
@@ -885,12 +837,10 @@ export default {
         "humane"
       ],
       "optionReasons": {
-        "humane-mcq-05": "本句指「對人的弱點、情感與困境富同理心的；有人情味的」。",
-        "humane-mcq-04": "「盡可能不造成痛苦或殘酷傷害的方法」是「humane method」的用法，與本句語境不同。",
-        "humane-mcq-06": "「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」是「humane approach/perspective」的用法，與本句語境不同。",
-        "humane-mcq-03": "「以盡量減少疼痛、恐懼或傷害為原則的」是「humane — minimizing suffering」的用法，與本句語境不同。",
-        "humane-mcq-07": "「以仁慈、人道、避免不必要痛苦的方式」是「humanely」的用法，與本句語境不同。",
-        "humane-mcq-02": "「避免不必要痛苦並尊重尊嚴的人道待遇」是「humane treatment」的用法，與本句語境不同。"
+        "humane-mcq-05": "本句的「humane」指「對人的弱點、情感與困境富同理心的；有人情味的」。",
+        "humane-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-05"
     },
@@ -902,10 +852,8 @@ export default {
       "masked": "The issue needs a more ____.",
       "options": [
         "humane-mcq-06",
-        "humane-mcq-05",
-        "humane-mcq-07",
-        "humane-mcq-04",
-        "humane-mcq-08",
+        "humane-mcq-09",
+        "humane-mcq-23",
         "humane-mcq-03"
       ],
       "explanation": "本句的「humane approach」指「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」。",
@@ -915,12 +863,10 @@ export default {
         "humane approach"
       ],
       "optionReasons": {
-        "humane-mcq-06": "本句指「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」。",
-        "humane-mcq-05": "「對人的弱點、情感與困境富同理心的；有人情味的」是「humane — warm/understanding」的用法，與本句語境不同。",
-        "humane-mcq-07": "「以仁慈、人道、避免不必要痛苦的方式」是「humanely」的用法，與本句語境不同。",
-        "humane-mcq-04": "「盡可能不造成痛苦或殘酷傷害的方法」是「humane method」的用法，與本句語境不同。",
-        "humane-mcq-08": "「仁慈、人道或人性關懷這種特質」是「humaneness」的用法，與本句語境不同。",
-        "humane-mcq-03": "「以盡量減少疼痛、恐懼或傷害為原則的」是「humane — minimizing suffering」的用法，與本句語境不同。"
+        "humane-mcq-06": "本句的「humane approach」指「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」。",
+        "humane-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-06"
     },
@@ -932,10 +878,8 @@ export default {
       "masked": "The novel presents a ____ on failure.",
       "options": [
         "humane-mcq-06",
-        "humane-mcq-05",
-        "humane-mcq-07",
-        "humane-mcq-04",
-        "humane-mcq-08",
+        "humane-mcq-23",
+        "humane-mcq-09",
         "humane-mcq-03"
       ],
       "explanation": "本句的「humane perspective」指「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」。",
@@ -945,12 +889,10 @@ export default {
         "humane perspective"
       ],
       "optionReasons": {
-        "humane-mcq-06": "本句指「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」。",
-        "humane-mcq-05": "「對人的弱點、情感與困境富同理心的；有人情味的」是「humane — warm/understanding」的用法，與本句語境不同。",
-        "humane-mcq-07": "「以仁慈、人道、避免不必要痛苦的方式」是「humanely」的用法，與本句語境不同。",
-        "humane-mcq-04": "「盡可能不造成痛苦或殘酷傷害的方法」是「humane method」的用法，與本句語境不同。",
-        "humane-mcq-08": "「仁慈、人道或人性關懷這種特質」是「humaneness」的用法，與本句語境不同。",
-        "humane-mcq-03": "「以盡量減少疼痛、恐懼或傷害為原則的」是「humane — minimizing suffering」的用法，與本句語境不同。"
+        "humane-mcq-06": "本句的「humane perspective」指「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-06"
     },
@@ -962,11 +904,9 @@ export default {
       "masked": "The animals must be treated ____.",
       "options": [
         "humane-mcq-07",
-        "humane-mcq-06",
-        "humane-mcq-08",
-        "humane-mcq-05",
-        "humane-mcq-09",
-        "humane-mcq-04"
+        "humane-mcq-22",
+        "humane-mcq-20",
+        "humane-mcq-13"
       ],
       "explanation": "本句的「humanely」指「以仁慈、人道、避免不必要痛苦的方式」。",
       "sentenceIndex": 14,
@@ -975,12 +915,10 @@ export default {
         "humanely"
       ],
       "optionReasons": {
-        "humane-mcq-07": "本句指「以仁慈、人道、避免不必要痛苦的方式」。",
-        "humane-mcq-06": "「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」是「humane approach/perspective」的用法，與本句語境不同。",
-        "humane-mcq-08": "「仁慈、人道或人性關懷這種特質」是「humaneness」的用法，與本句語境不同。",
-        "humane-mcq-05": "「對人的弱點、情感與困境富同理心的；有人情味的」是「humane — warm/understanding」的用法，與本句語境不同。",
-        "humane-mcq-09": "「全體人類」是「humanity — humankind」的用法，與本句語境不同。",
-        "humane-mcq-04": "「盡可能不造成痛苦或殘酷傷害的方法」是「humane method」的用法，與本句語境不同。"
+        "humane-mcq-07": "本句的「humanely」指「以仁慈、人道、避免不必要痛苦的方式」。",
+        "humane-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-07"
     },
@@ -992,11 +930,9 @@ export default {
       "masked": "The problem should be handled ____.",
       "options": [
         "humane-mcq-07",
-        "humane-mcq-06",
-        "humane-mcq-08",
-        "humane-mcq-05",
-        "humane-mcq-09",
-        "humane-mcq-04"
+        "humane-mcq-13",
+        "humane-mcq-20",
+        "humane-mcq-23"
       ],
       "explanation": "本句的「humanely」指「以仁慈、人道、避免不必要痛苦的方式」。",
       "sentenceIndex": 15,
@@ -1005,12 +941,10 @@ export default {
         "humanely"
       ],
       "optionReasons": {
-        "humane-mcq-07": "本句指「以仁慈、人道、避免不必要痛苦的方式」。",
-        "humane-mcq-06": "「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」是「humane approach/perspective」的用法，與本句語境不同。",
-        "humane-mcq-08": "「仁慈、人道或人性關懷這種特質」是「humaneness」的用法，與本句語境不同。",
-        "humane-mcq-05": "「對人的弱點、情感與困境富同理心的；有人情味的」是「humane — warm/understanding」的用法，與本句語境不同。",
-        "humane-mcq-09": "「全體人類」是「humanity — humankind」的用法，與本句語境不同。",
-        "humane-mcq-04": "「盡可能不造成痛苦或殘酷傷害的方法」是「humane method」的用法，與本句語境不同。"
+        "humane-mcq-07": "本句的「humanely」指「以仁慈、人道、避免不必要痛苦的方式」。",
+        "humane-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-07"
     },
@@ -1022,11 +956,9 @@ export default {
       "masked": "The policy was praised for its ____.",
       "options": [
         "humane-mcq-08",
-        "humane-mcq-07",
-        "humane-mcq-09",
-        "humane-mcq-06",
-        "humane-mcq-10",
-        "humane-mcq-05"
+        "humane-mcq-20",
+        "humane-mcq-03",
+        "humane-mcq-16"
       ],
       "explanation": "本句的「humaneness」指「仁慈、人道或人性關懷這種特質」。",
       "sentenceIndex": 16,
@@ -1035,12 +967,10 @@ export default {
         "humaneness"
       ],
       "optionReasons": {
-        "humane-mcq-08": "本句指「仁慈、人道或人性關懷這種特質」。",
-        "humane-mcq-07": "「以仁慈、人道、避免不必要痛苦的方式」是「humanely」的用法，與本句語境不同。",
-        "humane-mcq-09": "「全體人類」是「humanity — humankind」的用法，與本句語境不同。",
-        "humane-mcq-06": "「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」是「humane approach/perspective」的用法，與本句語境不同。",
-        "humane-mcq-10": "「對人的仁慈、同理心或人道精神」是「humanity — compassion」的用法，與本句語境不同。",
-        "humane-mcq-05": "「對人的弱點、情感與困境富同理心的；有人情味的」是「humane — warm/understanding」的用法，與本句語境不同。"
+        "humane-mcq-08": "本句的「humaneness」指「仁慈、人道或人性關懷這種特質」。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-08"
     },
@@ -1052,11 +982,9 @@ export default {
       "masked": "The story’s ____ is one of its strengths.",
       "options": [
         "humane-mcq-08",
-        "humane-mcq-07",
-        "humane-mcq-09",
-        "humane-mcq-06",
-        "humane-mcq-10",
-        "humane-mcq-05"
+        "humane-mcq-23",
+        "humane-mcq-05",
+        "humane-mcq-03"
       ],
       "explanation": "本句的「humaneness」指「仁慈、人道或人性關懷這種特質」。",
       "sentenceIndex": 17,
@@ -1065,12 +993,10 @@ export default {
         "humaneness"
       ],
       "optionReasons": {
-        "humane-mcq-08": "本句指「仁慈、人道或人性關懷這種特質」。",
-        "humane-mcq-07": "「以仁慈、人道、避免不必要痛苦的方式」是「humanely」的用法，與本句語境不同。",
-        "humane-mcq-09": "「全體人類」是「humanity — humankind」的用法，與本句語境不同。",
-        "humane-mcq-06": "「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」是「humane approach/perspective」的用法，與本句語境不同。",
-        "humane-mcq-10": "「對人的仁慈、同理心或人道精神」是「humanity — compassion」的用法，與本句語境不同。",
-        "humane-mcq-05": "「對人的弱點、情感與困境富同理心的；有人情味的」是「humane — warm/understanding」的用法，與本句語境不同。"
+        "humane-mcq-08": "本句的「humaneness」指「仁慈、人道或人性關懷這種特質」。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-08"
     },
@@ -1082,11 +1008,9 @@ export default {
       "masked": "The discovery could benefit all of ____.",
       "options": [
         "humane-mcq-09",
-        "humane-mcq-08",
-        "humane-mcq-10",
-        "humane-mcq-07",
-        "humane-mcq-11",
-        "humane-mcq-06"
+        "humane-mcq-02",
+        "humane-mcq-21",
+        "humane-mcq-23"
       ],
       "explanation": "本句的「humanity」指「全體人類」。",
       "sentenceIndex": 18,
@@ -1095,12 +1019,10 @@ export default {
         "humanity"
       ],
       "optionReasons": {
-        "humane-mcq-09": "本句指「全體人類」。",
-        "humane-mcq-08": "「仁慈、人道或人性關懷這種特質」是「humaneness」的用法，與本句語境不同。",
-        "humane-mcq-10": "「對人的仁慈、同理心或人道精神」是「humanity — compassion」的用法，與本句語境不同。",
-        "humane-mcq-07": "「以仁慈、人道、避免不必要痛苦的方式」是「humanely」的用法，與本句語境不同。",
-        "humane-mcq-11": "「人類共有的情感、弱點與人性特質」是「humanity — human nature」的用法，與本句語境不同。",
-        "humane-mcq-06": "「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」是「humane approach/perspective」的用法，與本句語境不同。"
+        "humane-mcq-09": "本句的「humanity」指「全體人類」。",
+        "humane-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-09"
     },
@@ -1112,11 +1034,9 @@ export default {
       "masked": "The problem affects ____ as a whole.",
       "options": [
         "humane-mcq-09",
-        "humane-mcq-08",
-        "humane-mcq-10",
-        "humane-mcq-07",
-        "humane-mcq-11",
-        "humane-mcq-06"
+        "humane-mcq-23",
+        "humane-mcq-20",
+        "humane-mcq-21"
       ],
       "explanation": "本句的「humanity」指「全體人類」。",
       "sentenceIndex": 19,
@@ -1125,12 +1045,10 @@ export default {
         "humanity"
       ],
       "optionReasons": {
-        "humane-mcq-09": "本句指「全體人類」。",
-        "humane-mcq-08": "「仁慈、人道或人性關懷這種特質」是「humaneness」的用法，與本句語境不同。",
-        "humane-mcq-10": "「對人的仁慈、同理心或人道精神」是「humanity — compassion」的用法，與本句語境不同。",
-        "humane-mcq-07": "「以仁慈、人道、避免不必要痛苦的方式」是「humanely」的用法，與本句語境不同。",
-        "humane-mcq-11": "「人類共有的情感、弱點與人性特質」是「humanity — human nature」的用法，與本句語境不同。",
-        "humane-mcq-06": "「重視人的尊嚴、處境與痛苦的人性化／富同理心角度」是「humane approach/perspective」的用法，與本句語境不同。"
+        "humane-mcq-09": "本句的「humanity」指「全體人類」。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-09"
     },
@@ -1142,11 +1060,9 @@ export default {
       "masked": "She treated them with dignity and ____.",
       "options": [
         "humane-mcq-10",
-        "humane-mcq-09",
-        "humane-mcq-11",
-        "humane-mcq-08",
-        "humane-mcq-12",
-        "humane-mcq-07"
+        "humane-mcq-13",
+        "humane-mcq-20",
+        "humane-mcq-23"
       ],
       "explanation": "本句的「humanity」指「對人的仁慈、同理心或人道精神」。",
       "sentenceIndex": 20,
@@ -1155,12 +1071,10 @@ export default {
         "humanity"
       ],
       "optionReasons": {
-        "humane-mcq-10": "本句指「對人的仁慈、同理心或人道精神」。",
-        "humane-mcq-09": "「全體人類」是「humanity — humankind」的用法，與本句語境不同。",
-        "humane-mcq-11": "「人類共有的情感、弱點與人性特質」是「humanity — human nature」的用法，與本句語境不同。",
-        "humane-mcq-08": "「仁慈、人道或人性關懷這種特質」是「humaneness」的用法，與本句語境不同。",
-        "humane-mcq-12": "「殘忍、造成不必要痛苦的；不人道的」是「inhumane」的用法，與本句語境不同。",
-        "humane-mcq-07": "「以仁慈、人道、避免不必要痛苦的方式」是「humanely」的用法，與本句語境不同。"
+        "humane-mcq-10": "本句的「humanity」指「對人的仁慈、同理心或人道精神」。",
+        "humane-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-10"
     },
@@ -1173,10 +1087,8 @@ export default {
       "options": [
         "humane-mcq-10",
         "humane-mcq-09",
-        "humane-mcq-11",
-        "humane-mcq-08",
-        "humane-mcq-12",
-        "humane-mcq-07"
+        "humane-mcq-03",
+        "humane-mcq-17"
       ],
       "explanation": "本句的「humanity」指「對人的仁慈、同理心或人道精神」。",
       "sentenceIndex": 21,
@@ -1185,12 +1097,10 @@ export default {
         "humanity"
       ],
       "optionReasons": {
-        "humane-mcq-10": "本句指「對人的仁慈、同理心或人道精神」。",
-        "humane-mcq-09": "「全體人類」是「humanity — humankind」的用法，與本句語境不同。",
-        "humane-mcq-11": "「人類共有的情感、弱點與人性特質」是「humanity — human nature」的用法，與本句語境不同。",
-        "humane-mcq-08": "「仁慈、人道或人性關懷這種特質」是「humaneness」的用法，與本句語境不同。",
-        "humane-mcq-12": "「殘忍、造成不必要痛苦的；不人道的」是「inhumane」的用法，與本句語境不同。",
-        "humane-mcq-07": "「以仁慈、人道、避免不必要痛苦的方式」是「humanely」的用法，與本句語境不同。"
+        "humane-mcq-10": "本句的「humanity」指「對人的仁慈、同理心或人道精神」。",
+        "humane-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-10"
     },
@@ -1202,11 +1112,9 @@ export default {
       "masked": "The character’s mistakes reveal his ____.",
       "options": [
         "humane-mcq-11",
+        "humane-mcq-23",
         "humane-mcq-10",
-        "humane-mcq-12",
-        "humane-mcq-09",
-        "humane-mcq-13",
-        "humane-mcq-08"
+        "humane-mcq-20"
       ],
       "explanation": "本句的「humanity」指「人類共有的情感、弱點與人性特質」。",
       "sentenceIndex": 22,
@@ -1215,12 +1123,10 @@ export default {
         "humanity"
       ],
       "optionReasons": {
-        "humane-mcq-11": "本句指「人類共有的情感、弱點與人性特質」。",
-        "humane-mcq-10": "「對人的仁慈、同理心或人道精神」是「humanity — compassion」的用法，與本句語境不同。",
-        "humane-mcq-12": "「殘忍、造成不必要痛苦的；不人道的」是「inhumane」的用法，與本句語境不同。",
-        "humane-mcq-09": "「全體人類」是「humanity — humankind」的用法，與本句語境不同。",
-        "humane-mcq-13": "「不像人類、超出正常人類性質的；非人的」是「inhuman — non-human」的用法，與本句語境不同。",
-        "humane-mcq-08": "「仁慈、人道或人性關懷這種特質」是「humaneness」的用法，與本句語境不同。"
+        "humane-mcq-11": "本句的「humanity」指「人類共有的情感、弱點與人性特質」。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-11"
     },
@@ -1232,11 +1138,9 @@ export default {
       "masked": "The story explores the complexity of ____.",
       "options": [
         "humane-mcq-11",
-        "humane-mcq-10",
-        "humane-mcq-12",
-        "humane-mcq-09",
-        "humane-mcq-13",
-        "humane-mcq-08"
+        "humane-mcq-01",
+        "humane-mcq-20",
+        "humane-mcq-03"
       ],
       "explanation": "本句的「humanity」指「人類共有的情感、弱點與人性特質」。",
       "sentenceIndex": 23,
@@ -1245,12 +1149,10 @@ export default {
         "humanity"
       ],
       "optionReasons": {
-        "humane-mcq-11": "本句指「人類共有的情感、弱點與人性特質」。",
-        "humane-mcq-10": "「對人的仁慈、同理心或人道精神」是「humanity — compassion」的用法，與本句語境不同。",
-        "humane-mcq-12": "「殘忍、造成不必要痛苦的；不人道的」是「inhumane」的用法，與本句語境不同。",
-        "humane-mcq-09": "「全體人類」是「humanity — humankind」的用法，與本句語境不同。",
-        "humane-mcq-13": "「不像人類、超出正常人類性質的；非人的」是「inhuman — non-human」的用法，與本句語境不同。",
-        "humane-mcq-08": "「仁慈、人道或人性關懷這種特質」是「humaneness」的用法，與本句語境不同。"
+        "humane-mcq-11": "本句的「humanity」指「人類共有的情感、弱點與人性特質」。",
+        "humane-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-11"
     },
@@ -1262,11 +1164,9 @@ export default {
       "masked": "The conditions were described as ____.",
       "options": [
         "humane-mcq-12",
-        "humane-mcq-11",
-        "humane-mcq-13",
-        "humane-mcq-10",
-        "humane-mcq-14",
-        "humane-mcq-09"
+        "humane-mcq-17",
+        "humane-mcq-20",
+        "humane-mcq-23"
       ],
       "explanation": "本句的「inhumane」指「殘忍、造成不必要痛苦的；不人道的」。",
       "sentenceIndex": 24,
@@ -1275,12 +1175,10 @@ export default {
         "inhumane"
       ],
       "optionReasons": {
-        "humane-mcq-12": "本句指「殘忍、造成不必要痛苦的；不人道的」。",
-        "humane-mcq-11": "「人類共有的情感、弱點與人性特質」是「humanity — human nature」的用法，與本句語境不同。",
-        "humane-mcq-13": "「不像人類、超出正常人類性質的；非人的」是「inhuman — non-human」的用法，與本句語境不同。",
-        "humane-mcq-10": "「對人的仁慈、同理心或人道精神」是「humanity — compassion」的用法，與本句語境不同。",
-        "humane-mcq-14": "「極度殘酷、毫無人性的」是「inhuman — cruel」的用法，與本句語境不同。",
-        "humane-mcq-09": "「全體人類」是「humanity — humankind」的用法，與本句語境不同。"
+        "humane-mcq-12": "本句的「inhumane」指「殘忍、造成不必要痛苦的；不人道的」。",
+        "humane-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-12"
     },
@@ -1292,11 +1190,9 @@ export default {
       "masked": "They condemned the ____ of prisoners.",
       "options": [
         "humane-mcq-12",
-        "humane-mcq-11",
-        "humane-mcq-13",
-        "humane-mcq-10",
-        "humane-mcq-14",
-        "humane-mcq-09"
+        "humane-mcq-16",
+        "humane-mcq-20",
+        "humane-mcq-17"
       ],
       "explanation": "本句的「inhumane treatment」指「殘忍、造成不必要痛苦的；不人道的」。",
       "sentenceIndex": 25,
@@ -1305,12 +1201,10 @@ export default {
         "inhumane treatment"
       ],
       "optionReasons": {
-        "humane-mcq-12": "本句指「殘忍、造成不必要痛苦的；不人道的」。",
-        "humane-mcq-11": "「人類共有的情感、弱點與人性特質」是「humanity — human nature」的用法，與本句語境不同。",
-        "humane-mcq-13": "「不像人類、超出正常人類性質的；非人的」是「inhuman — non-human」的用法，與本句語境不同。",
-        "humane-mcq-10": "「對人的仁慈、同理心或人道精神」是「humanity — compassion」的用法，與本句語境不同。",
-        "humane-mcq-14": "「極度殘酷、毫無人性的」是「inhuman — cruel」的用法，與本句語境不同。",
-        "humane-mcq-09": "「全體人類」是「humanity — humankind」的用法，與本句語境不同。"
+        "humane-mcq-12": "本句的「inhumane treatment」指「殘忍、造成不必要痛苦的；不人道的」。",
+        "humane-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-12"
     },
@@ -1323,10 +1217,8 @@ export default {
       "options": [
         "humane-mcq-13",
         "humane-mcq-12",
-        "humane-mcq-14",
-        "humane-mcq-11",
-        "humane-mcq-15",
-        "humane-mcq-10"
+        "humane-mcq-23",
+        "humane-mcq-03"
       ],
       "explanation": "本句的「human body」指「不像人類、超出正常人類性質的；非人的」。",
       "sentenceIndex": 26,
@@ -1335,12 +1227,10 @@ export default {
         "human body"
       ],
       "optionReasons": {
-        "humane-mcq-13": "本句指「不像人類、超出正常人類性質的；非人的」。",
-        "humane-mcq-12": "「殘忍、造成不必要痛苦的；不人道的」是「inhumane」的用法，與本句語境不同。",
-        "humane-mcq-14": "「極度殘酷、毫無人性的」是「inhuman — cruel」的用法，與本句語境不同。",
-        "humane-mcq-11": "「人類共有的情感、弱點與人性特質」是「humanity — human nature」的用法，與本句語境不同。",
-        "humane-mcq-15": "「與人類／人有關的」是「human — adjective」的用法，與本句語境不同。",
-        "humane-mcq-10": "「對人的仁慈、同理心或人道精神」是「humanity — compassion」的用法，與本句語境不同。"
+        "humane-mcq-13": "本句的「human body」指「不像人類、超出正常人類性質的；非人的」。",
+        "humane-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-13"
     },
@@ -1352,11 +1242,9 @@ export default {
       "masked": "Computers cannot replace every form of ____.",
       "options": [
         "humane-mcq-13",
-        "humane-mcq-12",
-        "humane-mcq-14",
-        "humane-mcq-11",
-        "humane-mcq-15",
-        "humane-mcq-10"
+        "humane-mcq-07",
+        "humane-mcq-05",
+        "humane-mcq-20"
       ],
       "explanation": "本句的「human interaction」指「不像人類、超出正常人類性質的；非人的」。",
       "sentenceIndex": 27,
@@ -1365,12 +1253,10 @@ export default {
         "human interaction"
       ],
       "optionReasons": {
-        "humane-mcq-13": "本句指「不像人類、超出正常人類性質的；非人的」。",
-        "humane-mcq-12": "「殘忍、造成不必要痛苦的；不人道的」是「inhumane」的用法，與本句語境不同。",
-        "humane-mcq-14": "「極度殘酷、毫無人性的」是「inhuman — cruel」的用法，與本句語境不同。",
-        "humane-mcq-11": "「人類共有的情感、弱點與人性特質」是「humanity — human nature」的用法，與本句語境不同。",
-        "humane-mcq-15": "「與人類／人有關的」是「human — adjective」的用法，與本句語境不同。",
-        "humane-mcq-10": "「對人的仁慈、同理心或人道精神」是「humanity — compassion」的用法，與本句語境不同。"
+        "humane-mcq-13": "本句的「human interaction」指「不像人類、超出正常人類性質的；非人的」。",
+        "humane-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-13"
     },
@@ -1382,11 +1268,9 @@ export default {
       "masked": "____ are social animals.",
       "options": [
         "humane-mcq-16",
-        "humane-mcq-15",
-        "humane-mcq-17",
-        "humane-mcq-14",
-        "humane-mcq-18",
-        "humane-mcq-13"
+        "humane-mcq-07",
+        "humane-mcq-20",
+        "humane-mcq-03"
       ],
       "explanation": "本句的「Humans」指「一個人／人類個體」。",
       "sentenceIndex": 28,
@@ -1395,12 +1279,10 @@ export default {
         "Humans"
       ],
       "optionReasons": {
-        "humane-mcq-16": "本句指「一個人／人類個體」。",
-        "humane-mcq-15": "「與人類／人有關的」是「human — adjective」的用法，與本句語境不同。",
-        "humane-mcq-17": "「屬於正常人性、具有人的弱點或情感的」是「human — ordinary human quality」的用法，與本句語境不同。",
-        "humane-mcq-14": "「極度殘酷、毫無人性的」是「inhuman — cruel」的用法，與本句語境不同。",
-        "humane-mcq-18": "「旨在減輕人類苦難、提供救援的人道主義／人道救援的」是「humanitarian — adjective」的用法，與本句語境不同。",
-        "humane-mcq-13": "「不像人類、超出正常人類性質的；非人的」是「inhuman — non-human」的用法，與本句語境不同。"
+        "humane-mcq-16": "本句的「Humans」指「一個人／人類個體」。",
+        "humane-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-16"
     },
@@ -1412,11 +1294,9 @@ export default {
       "masked": "No ____ could survive there without protection.",
       "options": [
         "humane-mcq-16",
-        "humane-mcq-15",
-        "humane-mcq-17",
-        "humane-mcq-14",
-        "humane-mcq-18",
-        "humane-mcq-13"
+        "humane-mcq-03",
+        "humane-mcq-01",
+        "humane-mcq-20"
       ],
       "explanation": "本句的「human」指「一個人／人類個體」。",
       "sentenceIndex": 29,
@@ -1425,12 +1305,10 @@ export default {
         "human"
       ],
       "optionReasons": {
-        "humane-mcq-16": "本句指「一個人／人類個體」。",
-        "humane-mcq-15": "「與人類／人有關的」是「human — adjective」的用法，與本句語境不同。",
-        "humane-mcq-17": "「屬於正常人性、具有人的弱點或情感的」是「human — ordinary human quality」的用法，與本句語境不同。",
-        "humane-mcq-14": "「極度殘酷、毫無人性的」是「inhuman — cruel」的用法，與本句語境不同。",
-        "humane-mcq-18": "「旨在減輕人類苦難、提供救援的人道主義／人道救援的」是「humanitarian — adjective」的用法，與本句語境不同。",
-        "humane-mcq-13": "「不像人類、超出正常人類性質的；非人的」是「inhuman — non-human」的用法，與本句語境不同。"
+        "humane-mcq-16": "本句的「human」指「一個人／人類個體」。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-16"
     },
@@ -1442,11 +1320,9 @@ export default {
       "masked": "Making mistakes is ____.",
       "options": [
         "humane-mcq-17",
+        "humane-mcq-07",
         "humane-mcq-16",
-        "humane-mcq-18",
-        "humane-mcq-15",
-        "humane-mcq-19",
-        "humane-mcq-14"
+        "humane-mcq-03"
       ],
       "explanation": "本句的「human」指「屬於正常人性、具有人的弱點或情感的」。",
       "sentenceIndex": 30,
@@ -1455,12 +1331,10 @@ export default {
         "human"
       ],
       "optionReasons": {
-        "humane-mcq-17": "本句指「屬於正常人性、具有人的弱點或情感的」。",
-        "humane-mcq-16": "「一個人／人類個體」是「human — noun」的用法，與本句語境不同。",
-        "humane-mcq-18": "「旨在減輕人類苦難、提供救援的人道主義／人道救援的」是「humanitarian — adjective」的用法，與本句語境不同。",
-        "humane-mcq-15": "「與人類／人有關的」是「human — adjective」的用法，與本句語境不同。",
-        "humane-mcq-19": "「致力減輕人類苦難的人道工作者」是「humanitarian — person」的用法，與本句語境不同。",
-        "humane-mcq-14": "「極度殘酷、毫無人性的」是「inhuman — cruel」的用法，與本句語境不同。"
+        "humane-mcq-17": "本句的「human」指「屬於正常人性、具有人的弱點或情感的」。",
+        "humane-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-17"
     },
@@ -1472,11 +1346,9 @@ export default {
       "masked": "His reaction was completely ____.",
       "options": [
         "humane-mcq-17",
-        "humane-mcq-16",
-        "humane-mcq-18",
-        "humane-mcq-15",
-        "humane-mcq-19",
-        "humane-mcq-14"
+        "humane-mcq-09",
+        "humane-mcq-23",
+        "humane-mcq-20"
       ],
       "explanation": "本句的「human」指「屬於正常人性、具有人的弱點或情感的」。",
       "sentenceIndex": 31,
@@ -1485,12 +1357,10 @@ export default {
         "human"
       ],
       "optionReasons": {
-        "humane-mcq-17": "本句指「屬於正常人性、具有人的弱點或情感的」。",
-        "humane-mcq-16": "「一個人／人類個體」是「human — noun」的用法，與本句語境不同。",
-        "humane-mcq-18": "「旨在減輕人類苦難、提供救援的人道主義／人道救援的」是「humanitarian — adjective」的用法，與本句語境不同。",
-        "humane-mcq-15": "「與人類／人有關的」是「human — adjective」的用法，與本句語境不同。",
-        "humane-mcq-19": "「致力減輕人類苦難的人道工作者」是「humanitarian — person」的用法，與本句語境不同。",
-        "humane-mcq-14": "「極度殘酷、毫無人性的」是「inhuman — cruel」的用法，與本句語境不同。"
+        "humane-mcq-17": "本句的「human」指「屬於正常人性、具有人的弱點或情感的」。",
+        "humane-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-17"
     },
@@ -1502,11 +1372,8 @@ export default {
       "masked": "The country received ____.",
       "options": [
         "humane-mcq-18",
-        "humane-mcq-17",
-        "humane-mcq-19",
-        "humane-mcq-16",
-        "humane-mcq-20",
-        "humane-mcq-15"
+        "humane-mcq-05",
+        "humane-mcq-23"
       ],
       "explanation": "本句的「humanitarian aid」指「旨在減輕人類苦難、提供救援的人道主義／人道救援的」。",
       "sentenceIndex": 32,
@@ -1515,12 +1382,9 @@ export default {
         "humanitarian aid"
       ],
       "optionReasons": {
-        "humane-mcq-18": "本句指「旨在減輕人類苦難、提供救援的人道主義／人道救援的」。",
-        "humane-mcq-17": "「屬於正常人性、具有人的弱點或情感的」是「human — ordinary human quality」的用法，與本句語境不同。",
-        "humane-mcq-19": "「致力減輕人類苦難的人道工作者」是「humanitarian — person」的用法，與本句語境不同。",
-        "humane-mcq-16": "「一個人／人類個體」是「human — noun」的用法，與本句語境不同。",
-        "humane-mcq-20": "「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」是「humanistic」的用法，與本句語境不同。",
-        "humane-mcq-15": "「與人類／人有關的」是「human — adjective」的用法，與本句語境不同。"
+        "humane-mcq-18": "本句的「humanitarian aid」指「旨在減輕人類苦難、提供救援的人道主義／人道救援的」。",
+        "humane-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-18"
     },
@@ -1532,11 +1396,8 @@ export default {
       "masked": "Several ____ responded to the crisis.",
       "options": [
         "humane-mcq-18",
-        "humane-mcq-17",
-        "humane-mcq-19",
-        "humane-mcq-16",
-        "humane-mcq-20",
-        "humane-mcq-15"
+        "humane-mcq-05",
+        "humane-mcq-23"
       ],
       "explanation": "本句的「humanitarian organizations」指「旨在減輕人類苦難、提供救援的人道主義／人道救援的」。",
       "sentenceIndex": 33,
@@ -1545,12 +1406,9 @@ export default {
         "humanitarian organizations"
       ],
       "optionReasons": {
-        "humane-mcq-18": "本句指「旨在減輕人類苦難、提供救援的人道主義／人道救援的」。",
-        "humane-mcq-17": "「屬於正常人性、具有人的弱點或情感的」是「human — ordinary human quality」的用法，與本句語境不同。",
-        "humane-mcq-19": "「致力減輕人類苦難的人道工作者」是「humanitarian — person」的用法，與本句語境不同。",
-        "humane-mcq-16": "「一個人／人類個體」是「human — noun」的用法，與本句語境不同。",
-        "humane-mcq-20": "「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」是「humanistic」的用法，與本句語境不同。",
-        "humane-mcq-15": "「與人類／人有關的」是「human — adjective」的用法，與本句語境不同。"
+        "humane-mcq-18": "本句的「humanitarian organizations」指「旨在減輕人類苦難、提供救援的人道主義／人道救援的」。",
+        "humane-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-18"
     },
@@ -1562,11 +1420,8 @@ export default {
       "masked": "She was respected as a ____.",
       "options": [
         "humane-mcq-19",
-        "humane-mcq-18",
-        "humane-mcq-20",
-        "humane-mcq-17",
-        "humane-mcq-21",
-        "humane-mcq-16"
+        "humane-mcq-22",
+        "humane-mcq-20"
       ],
       "explanation": "本句的「humanitarian」指「致力減輕人類苦難的人道工作者」。",
       "sentenceIndex": 34,
@@ -1575,12 +1430,9 @@ export default {
         "humanitarian"
       ],
       "optionReasons": {
-        "humane-mcq-19": "本句指「致力減輕人類苦難的人道工作者」。",
-        "humane-mcq-18": "「旨在減輕人類苦難、提供救援的人道主義／人道救援的」是「humanitarian — adjective」的用法，與本句語境不同。",
-        "humane-mcq-20": "「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」是「humanistic」的用法，與本句語境不同。",
-        "humane-mcq-17": "「屬於正常人性、具有人的弱點或情感的」是「human — ordinary human quality」的用法，與本句語境不同。",
-        "humane-mcq-21": "「使人／事物呈現更多人性、同理心或可親近感」是「humanize / humanise」的用法，與本句語境不同。",
-        "humane-mcq-16": "「一個人／人類個體」是「human — noun」的用法，與本句語境不同。"
+        "humane-mcq-19": "本句的「humanitarian」指「致力減輕人類苦難的人道工作者」。",
+        "humane-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-19"
     },
@@ -1592,11 +1444,9 @@ export default {
       "masked": "The award recognizes outstanding ____.",
       "options": [
         "humane-mcq-19",
-        "humane-mcq-18",
-        "humane-mcq-20",
-        "humane-mcq-17",
-        "humane-mcq-21",
-        "humane-mcq-16"
+        "humane-mcq-05",
+        "humane-mcq-23",
+        "humane-mcq-20"
       ],
       "explanation": "本句的「humanitarians」指「致力減輕人類苦難的人道工作者」。",
       "sentenceIndex": 35,
@@ -1605,12 +1455,10 @@ export default {
         "humanitarians"
       ],
       "optionReasons": {
-        "humane-mcq-19": "本句指「致力減輕人類苦難的人道工作者」。",
-        "humane-mcq-18": "「旨在減輕人類苦難、提供救援的人道主義／人道救援的」是「humanitarian — adjective」的用法，與本句語境不同。",
-        "humane-mcq-20": "「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」是「humanistic」的用法，與本句語境不同。",
-        "humane-mcq-17": "「屬於正常人性、具有人的弱點或情感的」是「human — ordinary human quality」的用法，與本句語境不同。",
-        "humane-mcq-21": "「使人／事物呈現更多人性、同理心或可親近感」是「humanize / humanise」的用法，與本句語境不同。",
-        "humane-mcq-16": "「一個人／人類個體」是「human — noun」的用法，與本句語境不同。"
+        "humane-mcq-19": "本句的「humanitarians」指「致力減輕人類苦難的人道工作者」。",
+        "humane-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-19"
     },
@@ -1622,10 +1470,8 @@ export default {
       "masked": "The therapist takes a ____.",
       "options": [
         "humane-mcq-20",
-        "humane-mcq-19",
-        "humane-mcq-21",
-        "humane-mcq-18",
-        "humane-mcq-22",
+        "humane-mcq-03",
+        "humane-mcq-10",
         "humane-mcq-17"
       ],
       "explanation": "本句的「humanistic approach」指「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」。",
@@ -1635,12 +1481,10 @@ export default {
         "humanistic approach"
       ],
       "optionReasons": {
-        "humane-mcq-20": "本句指「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」。",
-        "humane-mcq-19": "「致力減輕人類苦難的人道工作者」是「humanitarian — person」的用法，與本句語境不同。",
-        "humane-mcq-21": "「使人／事物呈現更多人性、同理心或可親近感」是「humanize / humanise」的用法，與本句語境不同。",
-        "humane-mcq-18": "「旨在減輕人類苦難、提供救援的人道主義／人道救援的」是「humanitarian — adjective」的用法，與本句語境不同。",
-        "humane-mcq-22": "「使制度、人物或做法變得更具人性／更有人情味的過程」是「humanization / humanisation」的用法，與本句語境不同。",
-        "humane-mcq-17": "「屬於正常人性、具有人的弱點或情感的」是「human — ordinary human quality」的用法，與本句語境不同。"
+        "humane-mcq-20": "本句的「humanistic approach」指「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-20"
     },
@@ -1652,11 +1496,9 @@ export default {
       "masked": "The novel has a strongly ____ message.",
       "options": [
         "humane-mcq-20",
-        "humane-mcq-19",
-        "humane-mcq-21",
-        "humane-mcq-18",
         "humane-mcq-22",
-        "humane-mcq-17"
+        "humane-mcq-12",
+        "humane-mcq-09"
       ],
       "explanation": "本句的「humanistic」指「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」。",
       "sentenceIndex": 37,
@@ -1665,12 +1507,10 @@ export default {
         "humanistic"
       ],
       "optionReasons": {
-        "humane-mcq-20": "本句指「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」。",
-        "humane-mcq-19": "「致力減輕人類苦難的人道工作者」是「humanitarian — person」的用法，與本句語境不同。",
-        "humane-mcq-21": "「使人／事物呈現更多人性、同理心或可親近感」是「humanize / humanise」的用法，與本句語境不同。",
-        "humane-mcq-18": "「旨在減輕人類苦難、提供救援的人道主義／人道救援的」是「humanitarian — adjective」的用法，與本句語境不同。",
-        "humane-mcq-22": "「使制度、人物或做法變得更具人性／更有人情味的過程」是「humanization / humanisation」的用法，與本句語境不同。",
-        "humane-mcq-17": "「屬於正常人性、具有人的弱點或情感的」是「human — ordinary human quality」的用法，與本句語境不同。"
+        "humane-mcq-20": "本句的「humanistic」指「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」。",
+        "humane-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-20"
     },
@@ -1682,11 +1522,9 @@ export default {
       "masked": "The documentary ____ people who are often reduced to statistics.",
       "options": [
         "humane-mcq-21",
-        "humane-mcq-20",
-        "humane-mcq-22",
-        "humane-mcq-19",
-        "humane-mcq-23",
-        "humane-mcq-18"
+        "humane-mcq-07",
+        "humane-mcq-16",
+        "humane-mcq-20"
       ],
       "explanation": "本句的「humanizes」指「使人／事物呈現更多人性、同理心或可親近感」。",
       "sentenceIndex": 38,
@@ -1695,12 +1533,10 @@ export default {
         "humanizes"
       ],
       "optionReasons": {
-        "humane-mcq-21": "本句指「使人／事物呈現更多人性、同理心或可親近感」。",
-        "humane-mcq-20": "「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」是「humanistic」的用法，與本句語境不同。",
-        "humane-mcq-22": "「使制度、人物或做法變得更具人性／更有人情味的過程」是「humanization / humanisation」的用法，與本句語境不同。",
-        "humane-mcq-19": "「致力減輕人類苦難的人道工作者」是「humanitarian — person」的用法，與本句語境不同。",
-        "humane-mcq-23": "「以防止虐待、促進動物福利為主的動物保護組織」是「humane society」的用法，與本句語境不同。",
-        "humane-mcq-18": "「旨在減輕人類苦難、提供救援的人道主義／人道救援的」是「humanitarian — adjective」的用法，與本句語境不同。"
+        "humane-mcq-21": "本句的「humanizes」指「使人／事物呈現更多人性、同理心或可親近感」。",
+        "humane-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-21"
     },
@@ -1712,11 +1548,9 @@ export default {
       "masked": "Small personal details ____ the character.",
       "options": [
         "humane-mcq-21",
-        "humane-mcq-20",
-        "humane-mcq-22",
-        "humane-mcq-19",
-        "humane-mcq-23",
-        "humane-mcq-18"
+        "humane-mcq-12",
+        "humane-mcq-16",
+        "humane-mcq-20"
       ],
       "explanation": "本句的「humanised」指「使人／事物呈現更多人性、同理心或可親近感」。",
       "sentenceIndex": 39,
@@ -1725,12 +1559,10 @@ export default {
         "humanised"
       ],
       "optionReasons": {
-        "humane-mcq-21": "本句指「使人／事物呈現更多人性、同理心或可親近感」。",
-        "humane-mcq-20": "「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」是「humanistic」的用法，與本句語境不同。",
-        "humane-mcq-22": "「使制度、人物或做法變得更具人性／更有人情味的過程」是「humanization / humanisation」的用法，與本句語境不同。",
-        "humane-mcq-19": "「致力減輕人類苦難的人道工作者」是「humanitarian — person」的用法，與本句語境不同。",
-        "humane-mcq-23": "「以防止虐待、促進動物福利為主的動物保護組織」是「humane society」的用法，與本句語境不同。",
-        "humane-mcq-18": "「旨在減輕人類苦難、提供救援的人道主義／人道救援的」是「humanitarian — adjective」的用法，與本句語境不同。"
+        "humane-mcq-21": "本句的「humanised」指「使人／事物呈現更多人性、同理心或可親近感」。",
+        "humane-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-21"
     },
@@ -1742,11 +1574,7 @@ export default {
       "masked": "The reform aimed at the ____ of the system.",
       "options": [
         "humane-mcq-22",
-        "humane-mcq-21",
-        "humane-mcq-23",
-        "humane-mcq-20",
-        "humane-mcq-24",
-        "humane-mcq-19"
+        "humane-mcq-18"
       ],
       "explanation": "本句的「humanisation」指「使制度、人物或做法變得更具人性／更有人情味的過程」。",
       "sentenceIndex": 40,
@@ -1755,12 +1583,8 @@ export default {
         "humanisation"
       ],
       "optionReasons": {
-        "humane-mcq-22": "本句指「使制度、人物或做法變得更具人性／更有人情味的過程」。",
-        "humane-mcq-21": "「使人／事物呈現更多人性、同理心或可親近感」是「humanize / humanise」的用法，與本句語境不同。",
-        "humane-mcq-23": "「以防止虐待、促進動物福利為主的動物保護組織」是「humane society」的用法，與本句語境不同。",
-        "humane-mcq-20": "「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」是「humanistic」的用法，與本句語境不同。",
-        "humane-mcq-24": "「人道處死；盡量減少痛苦的安樂處理」是「5. humane killing / euthanasia」的用法，與本句語境不同。",
-        "humane-mcq-19": "「致力減輕人類苦難的人道工作者」是「humanitarian — person」的用法，與本句語境不同。"
+        "humane-mcq-22": "本句的「humanisation」指「使制度、人物或做法變得更具人性／更有人情味的過程」。",
+        "humane-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-22"
     },
@@ -1772,11 +1596,9 @@ export default {
       "masked": "The story contributes to the ____ of its characters.",
       "options": [
         "humane-mcq-22",
-        "humane-mcq-21",
-        "humane-mcq-23",
-        "humane-mcq-20",
-        "humane-mcq-24",
-        "humane-mcq-19"
+        "humane-mcq-10",
+        "humane-mcq-09",
+        "humane-mcq-20"
       ],
       "explanation": "本句的「humanization」指「使制度、人物或做法變得更具人性／更有人情味的過程」。",
       "sentenceIndex": 41,
@@ -1785,12 +1607,10 @@ export default {
         "humanization"
       ],
       "optionReasons": {
-        "humane-mcq-22": "本句指「使制度、人物或做法變得更具人性／更有人情味的過程」。",
-        "humane-mcq-21": "「使人／事物呈現更多人性、同理心或可親近感」是「humanize / humanise」的用法，與本句語境不同。",
-        "humane-mcq-23": "「以防止虐待、促進動物福利為主的動物保護組織」是「humane society」的用法，與本句語境不同。",
-        "humane-mcq-20": "「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」是「humanistic」的用法，與本句語境不同。",
-        "humane-mcq-24": "「人道處死；盡量減少痛苦的安樂處理」是「5. humane killing / euthanasia」的用法，與本句語境不同。",
-        "humane-mcq-19": "「致力減輕人類苦難的人道工作者」是「humanitarian — person」的用法，與本句語境不同。"
+        "humane-mcq-22": "本句的「humanization」指「使制度、人物或做法變得更具人性／更有人情味的過程」。",
+        "humane-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-22"
     },
@@ -1802,11 +1622,9 @@ export default {
       "masked": "The dog was adopted through a local ____.",
       "options": [
         "humane-mcq-23",
-        "humane-mcq-22",
-        "humane-mcq-24",
-        "humane-mcq-21",
-        "humane-mcq-25",
-        "humane-mcq-20"
+        "humane-mcq-06",
+        "humane-mcq-09",
+        "humane-mcq-03"
       ],
       "explanation": "本句的「humane society」指「以防止虐待、促進動物福利為主的動物保護組織」。",
       "sentenceIndex": 42,
@@ -1815,12 +1633,10 @@ export default {
         "humane society"
       ],
       "optionReasons": {
-        "humane-mcq-23": "本句指「以防止虐待、促進動物福利為主的動物保護組織」。",
-        "humane-mcq-22": "「使制度、人物或做法變得更具人性／更有人情味的過程」是「humanization / humanisation」的用法，與本句語境不同。",
-        "humane-mcq-24": "「人道處死；盡量減少痛苦的安樂處理」是「5. humane killing / euthanasia」的用法，與本句語境不同。",
-        "humane-mcq-21": "「使人／事物呈現更多人性、同理心或可親近感」是「humanize / humanise」的用法，與本句語境不同。",
-        "humane-mcq-25": "「表示人道／體恤人的解決方法」是「24. humane solution」的用法，與本句語境不同。",
-        "humane-mcq-20": "「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」是「humanistic」的用法，與本句語境不同。"
+        "humane-mcq-23": "本句的「humane society」指「以防止虐待、促進動物福利為主的動物保護組織」。",
+        "humane-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-23"
     },
@@ -1832,11 +1648,9 @@ export default {
       "masked": "The ____ cares for abandoned animals.",
       "options": [
         "humane-mcq-23",
-        "humane-mcq-22",
-        "humane-mcq-24",
-        "humane-mcq-21",
+        "humane-mcq-05",
         "humane-mcq-25",
-        "humane-mcq-20"
+        "humane-mcq-03"
       ],
       "explanation": "本句的「humane society」指「以防止虐待、促進動物福利為主的動物保護組織」。",
       "sentenceIndex": 43,
@@ -1845,12 +1659,10 @@ export default {
         "humane society"
       ],
       "optionReasons": {
-        "humane-mcq-23": "本句指「以防止虐待、促進動物福利為主的動物保護組織」。",
-        "humane-mcq-22": "「使制度、人物或做法變得更具人性／更有人情味的過程」是「humanization / humanisation」的用法，與本句語境不同。",
-        "humane-mcq-24": "「人道處死；盡量減少痛苦的安樂處理」是「5. humane killing / euthanasia」的用法，與本句語境不同。",
-        "humane-mcq-21": "「使人／事物呈現更多人性、同理心或可親近感」是「humanize / humanise」的用法，與本句語境不同。",
-        "humane-mcq-25": "「表示人道／體恤人的解決方法」是「24. humane solution」的用法，與本句語境不同。",
-        "humane-mcq-20": "「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」是「humanistic」的用法，與本句語境不同。"
+        "humane-mcq-23": "本句的「humane society」指「以防止虐待、促進動物福利為主的動物保護組織」。",
+        "humane-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-23"
     },
@@ -1862,11 +1674,9 @@ export default {
       "masked": "They searched for a ____ to the problem.",
       "options": [
         "humane-mcq-25",
-        "humane-mcq-24",
-        "humane-mcq-23",
-        "humane-mcq-22",
-        "humane-mcq-21",
-        "humane-mcq-20"
+        "humane-mcq-11",
+        "humane-mcq-03",
+        "humane-mcq-23"
       ],
       "explanation": "本句的「humane solution」指「表示人道／體恤人的解決方法」。",
       "sentenceIndex": 44,
@@ -1875,12 +1685,10 @@ export default {
         "humane solution"
       ],
       "optionReasons": {
-        "humane-mcq-25": "本句指「表示人道／體恤人的解決方法」。",
-        "humane-mcq-24": "「人道處死；盡量減少痛苦的安樂處理」是「5. humane killing / euthanasia」的用法，與本句語境不同。",
-        "humane-mcq-23": "「以防止虐待、促進動物福利為主的動物保護組織」是「humane society」的用法，與本句語境不同。",
-        "humane-mcq-22": "「使制度、人物或做法變得更具人性／更有人情味的過程」是「humanization / humanisation」的用法，與本句語境不同。",
-        "humane-mcq-21": "「使人／事物呈現更多人性、同理心或可親近感」是「humanize / humanise」的用法，與本句語境不同。",
-        "humane-mcq-20": "「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」是「humanistic」的用法，與本句語境不同。"
+        "humane-mcq-25": "本句的「humane solution」指「表示人道／體恤人的解決方法」。",
+        "humane-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-25"
     },
@@ -1892,11 +1700,9 @@ export default {
       "masked": "A ____ should protect both safety and dignity.",
       "options": [
         "humane-mcq-25",
-        "humane-mcq-24",
         "humane-mcq-23",
-        "humane-mcq-22",
-        "humane-mcq-21",
-        "humane-mcq-20"
+        "humane-mcq-06",
+        "humane-mcq-03"
       ],
       "explanation": "本句的「humane solution」指「表示人道／體恤人的解決方法」。",
       "sentenceIndex": 45,
@@ -1905,12 +1711,10 @@ export default {
         "humane solution"
       ],
       "optionReasons": {
-        "humane-mcq-25": "本句指「表示人道／體恤人的解決方法」。",
-        "humane-mcq-24": "「人道處死；盡量減少痛苦的安樂處理」是「5. humane killing / euthanasia」的用法，與本句語境不同。",
-        "humane-mcq-23": "「以防止虐待、促進動物福利為主的動物保護組織」是「humane society」的用法，與本句語境不同。",
-        "humane-mcq-22": "「使制度、人物或做法變得更具人性／更有人情味的過程」是「humanization / humanisation」的用法，與本句語境不同。",
-        "humane-mcq-21": "「使人／事物呈現更多人性、同理心或可親近感」是「humanize / humanise」的用法，與本句語境不同。",
-        "humane-mcq-20": "「強調人的價值、尊嚴、經驗或潛能的；人本／人文主義的」是「humanistic」的用法，與本句語境不同。"
+        "humane-mcq-25": "本句的「humane solution」指「表示人道／體恤人的解決方法」。",
+        "humane-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "humane-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humane-mcq-25"
     }
@@ -1922,5 +1726,7 @@ export default {
     "sha256": "102d22615e0e224632e9ef9bfd6c762ddbe084de4707e50b29ae5864f34f3c07",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

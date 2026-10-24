@@ -200,11 +200,7 @@ export default {
       "masked": "She ____ to call me after the meeting.",
       "options": [
         "promise-mcq-01",
-        "promise-mcq-02",
-        "promise-mcq-03",
-        "promise-mcq-04",
-        "promise-mcq-05",
-        "promise-mcq-06"
+        "promise-mcq-07"
       ],
       "explanation": "本句的「promised」指「向別人保證自己之後會做某個行動」。",
       "sentenceIndex": 0,
@@ -213,12 +209,8 @@ export default {
         "promised"
       ],
       "optionReasons": {
-        "promise-mcq-01": "本句指「向別人保證自己之後會做某個行動」。",
-        "promise-mcq-02": "「對某項事實或未來結果作出明確保證」是「promise that…」的用法，與本句語境不同。",
-        "promise-mcq-03": "「承諾某人將會得到某物或某種結果」是「promise someone something」的用法，與本句語境不同。",
-        "promise-mcq-04": "「對未來行動或結果作出的明確承諾／諾言」是「a promise」的用法，與本句語境不同。",
-        "promise-mcq-05": "「顯示未來可能成功或發展良好的潛力」是「promise — potential」的用法，與本句語境不同。",
-        "promise-mcq-06": "「已顯示出未來可能成功或有良好發展的」是「promising」的用法，與本句語境不同。"
+        "promise-mcq-01": "本句的「promised」指「向別人保證自己之後會做某個行動」。",
+        "promise-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-01"
     },
@@ -230,11 +222,7 @@ export default {
       "masked": "The company ____ to fix the problem within two days.",
       "options": [
         "promise-mcq-01",
-        "promise-mcq-02",
-        "promise-mcq-03",
-        "promise-mcq-04",
-        "promise-mcq-05",
-        "promise-mcq-06"
+        "promise-mcq-08"
       ],
       "explanation": "本句的「promised」指「向別人保證自己之後會做某個行動」。",
       "sentenceIndex": 1,
@@ -243,12 +231,8 @@ export default {
         "promised"
       ],
       "optionReasons": {
-        "promise-mcq-01": "本句指「向別人保證自己之後會做某個行動」。",
-        "promise-mcq-02": "「對某項事實或未來結果作出明確保證」是「promise that…」的用法，與本句語境不同。",
-        "promise-mcq-03": "「承諾某人將會得到某物或某種結果」是「promise someone something」的用法，與本句語境不同。",
-        "promise-mcq-04": "「對未來行動或結果作出的明確承諾／諾言」是「a promise」的用法，與本句語境不同。",
-        "promise-mcq-05": "「顯示未來可能成功或發展良好的潛力」是「promise — potential」的用法，與本句語境不同。",
-        "promise-mcq-06": "「已顯示出未來可能成功或有良好發展的」是「promising」的用法，與本句語境不同。"
+        "promise-mcq-01": "本句的「promised」指「向別人保證自己之後會做某個行動」。",
+        "promise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-01"
     },
@@ -260,10 +244,6 @@ export default {
       "masked": "He ____ to return the money by Friday.",
       "options": [
         "promise-mcq-01",
-        "promise-mcq-02",
-        "promise-mcq-03",
-        "promise-mcq-04",
-        "promise-mcq-05",
         "promise-mcq-06"
       ],
       "explanation": "本句的「promised」指「向別人保證自己之後會做某個行動」。",
@@ -273,12 +253,8 @@ export default {
         "promised"
       ],
       "optionReasons": {
-        "promise-mcq-01": "本句指「向別人保證自己之後會做某個行動」。",
-        "promise-mcq-02": "「對某項事實或未來結果作出明確保證」是「promise that…」的用法，與本句語境不同。",
-        "promise-mcq-03": "「承諾某人將會得到某物或某種結果」是「promise someone something」的用法，與本句語境不同。",
-        "promise-mcq-04": "「對未來行動或結果作出的明確承諾／諾言」是「a promise」的用法，與本句語境不同。",
-        "promise-mcq-05": "「顯示未來可能成功或發展良好的潛力」是「promise — potential」的用法，與本句語境不同。",
-        "promise-mcq-06": "「已顯示出未來可能成功或有良好發展的」是「promising」的用法，與本句語境不同。"
+        "promise-mcq-01": "本句的「promised」指「向別人保證自己之後會做某個行動」。",
+        "promise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-01"
     },
@@ -290,11 +266,7 @@ export default {
       "masked": "I ____ that I’ll be there on time.",
       "options": [
         "promise-mcq-02",
-        "promise-mcq-01",
-        "promise-mcq-03",
-        "promise-mcq-04",
-        "promise-mcq-05",
-        "promise-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「promise」指「對某項事實或未來結果作出明確保證」。",
       "sentenceIndex": 3,
@@ -303,12 +275,8 @@ export default {
         "promise"
       ],
       "optionReasons": {
-        "promise-mcq-02": "本句指「對某項事實或未來結果作出明確保證」。",
-        "promise-mcq-01": "「向別人保證自己之後會做某個行動」是「promise to + verb」的用法，與本句語境不同。",
-        "promise-mcq-03": "「承諾某人將會得到某物或某種結果」是「promise someone something」的用法，與本句語境不同。",
-        "promise-mcq-04": "「對未來行動或結果作出的明確承諾／諾言」是「a promise」的用法，與本句語境不同。",
-        "promise-mcq-05": "「顯示未來可能成功或發展良好的潛力」是「promise — potential」的用法，與本句語境不同。",
-        "promise-mcq-06": "「已顯示出未來可能成功或有良好發展的」是「promising」的用法，與本句語境不同。"
+        "promise-mcq-02": "本句的「promise」指「對某項事實或未來結果作出明確保證」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-02"
     },
@@ -320,11 +288,7 @@ export default {
       "masked": "They ____ that the service would improve.",
       "options": [
         "promise-mcq-02",
-        "promise-mcq-01",
-        "promise-mcq-03",
-        "promise-mcq-04",
-        "promise-mcq-05",
-        "promise-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「promised」指「對某項事實或未來結果作出明確保證」。",
       "sentenceIndex": 4,
@@ -333,12 +297,8 @@ export default {
         "promised"
       ],
       "optionReasons": {
-        "promise-mcq-02": "本句指「對某項事實或未來結果作出明確保證」。",
-        "promise-mcq-01": "「向別人保證自己之後會做某個行動」是「promise to + verb」的用法，與本句語境不同。",
-        "promise-mcq-03": "「承諾某人將會得到某物或某種結果」是「promise someone something」的用法，與本句語境不同。",
-        "promise-mcq-04": "「對未來行動或結果作出的明確承諾／諾言」是「a promise」的用法，與本句語境不同。",
-        "promise-mcq-05": "「顯示未來可能成功或發展良好的潛力」是「promise — potential」的用法，與本句語境不同。",
-        "promise-mcq-06": "「已顯示出未來可能成功或有良好發展的」是「promising」的用法，與本句語境不同。"
+        "promise-mcq-02": "本句的「promised」指「對某項事實或未來結果作出明確保證」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-02"
     },
@@ -350,11 +310,7 @@ export default {
       "masked": "My manager ____ me a day off.",
       "options": [
         "promise-mcq-03",
-        "promise-mcq-02",
-        "promise-mcq-04",
-        "promise-mcq-01",
-        "promise-mcq-05",
-        "promise-mcq-06"
+        "promise-mcq-05"
       ],
       "explanation": "本句的「promised」指「承諾某人將會得到某物或某種結果」。",
       "sentenceIndex": 5,
@@ -363,12 +319,8 @@ export default {
         "promised"
       ],
       "optionReasons": {
-        "promise-mcq-03": "本句指「承諾某人將會得到某物或某種結果」。",
-        "promise-mcq-02": "「對某項事實或未來結果作出明確保證」是「promise that…」的用法，與本句語境不同。",
-        "promise-mcq-04": "「對未來行動或結果作出的明確承諾／諾言」是「a promise」的用法，與本句語境不同。",
-        "promise-mcq-01": "「向別人保證自己之後會做某個行動」是「promise to + verb」的用法，與本句語境不同。",
-        "promise-mcq-05": "「顯示未來可能成功或發展良好的潛力」是「promise — potential」的用法，與本句語境不同。",
-        "promise-mcq-06": "「已顯示出未來可能成功或有良好發展的」是「promising」的用法，與本句語境不同。"
+        "promise-mcq-03": "本句的「promised」指「承諾某人將會得到某物或某種結果」。",
+        "promise-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-03"
     },
@@ -380,11 +332,7 @@ export default {
       "masked": "They ____ the customer a full refund.",
       "options": [
         "promise-mcq-03",
-        "promise-mcq-02",
-        "promise-mcq-04",
-        "promise-mcq-01",
-        "promise-mcq-05",
-        "promise-mcq-06"
+        "promise-mcq-05"
       ],
       "explanation": "本句的「promised」指「承諾某人將會得到某物或某種結果」。",
       "sentenceIndex": 6,
@@ -393,12 +341,8 @@ export default {
         "promised"
       ],
       "optionReasons": {
-        "promise-mcq-03": "本句指「承諾某人將會得到某物或某種結果」。",
-        "promise-mcq-02": "「對某項事實或未來結果作出明確保證」是「promise that…」的用法，與本句語境不同。",
-        "promise-mcq-04": "「對未來行動或結果作出的明確承諾／諾言」是「a promise」的用法，與本句語境不同。",
-        "promise-mcq-01": "「向別人保證自己之後會做某個行動」是「promise to + verb」的用法，與本句語境不同。",
-        "promise-mcq-05": "「顯示未來可能成功或發展良好的潛力」是「promise — potential」的用法，與本句語境不同。",
-        "promise-mcq-06": "「已顯示出未來可能成功或有良好發展的」是「promising」的用法，與本句語境不同。"
+        "promise-mcq-03": "本句的「promised」指「承諾某人將會得到某物或某種結果」。",
+        "promise-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-03"
     },
@@ -410,11 +354,7 @@ export default {
       "masked": "It was not flashy, aggressive, or full of empty ____.",
       "options": [
         "promise-mcq-04",
-        "promise-mcq-03",
-        "promise-mcq-05",
-        "promise-mcq-02",
-        "promise-mcq-06",
-        "promise-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「promises」指「對未來行動或結果作出的明確承諾／諾言」。",
       "sentenceIndex": 7,
@@ -423,12 +363,8 @@ export default {
         "promises"
       ],
       "optionReasons": {
-        "promise-mcq-04": "本句指「對未來行動或結果作出的明確承諾／諾言」。",
-        "promise-mcq-03": "「承諾某人將會得到某物或某種結果」是「promise someone something」的用法，與本句語境不同。",
-        "promise-mcq-05": "「顯示未來可能成功或發展良好的潛力」是「promise — potential」的用法，與本句語境不同。",
-        "promise-mcq-02": "「對某項事實或未來結果作出明確保證」是「promise that…」的用法，與本句語境不同。",
-        "promise-mcq-06": "「已顯示出未來可能成功或有良好發展的」是「promising」的用法，與本句語境不同。",
-        "promise-mcq-01": "「向別人保證自己之後會做某個行動」是「promise to + verb」的用法，與本句語境不同。"
+        "promise-mcq-04": "本句的「promises」指「對未來行動或結果作出的明確承諾／諾言」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-04"
     },
@@ -440,11 +376,7 @@ export default {
       "masked": "She made a ____ to help him.",
       "options": [
         "promise-mcq-04",
-        "promise-mcq-03",
-        "promise-mcq-05",
-        "promise-mcq-02",
-        "promise-mcq-06",
-        "promise-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「promise」指「對未來行動或結果作出的明確承諾／諾言」。",
       "sentenceIndex": 8,
@@ -453,12 +385,8 @@ export default {
         "promise"
       ],
       "optionReasons": {
-        "promise-mcq-04": "本句指「對未來行動或結果作出的明確承諾／諾言」。",
-        "promise-mcq-03": "「承諾某人將會得到某物或某種結果」是「promise someone something」的用法，與本句語境不同。",
-        "promise-mcq-05": "「顯示未來可能成功或發展良好的潛力」是「promise — potential」的用法，與本句語境不同。",
-        "promise-mcq-02": "「對某項事實或未來結果作出明確保證」是「promise that…」的用法，與本句語境不同。",
-        "promise-mcq-06": "「已顯示出未來可能成功或有良好發展的」是「promising」的用法，與本句語境不同。",
-        "promise-mcq-01": "「向別人保證自己之後會做某個行動」是「promise to + verb」的用法，與本句語境不同。"
+        "promise-mcq-04": "本句的「promise」指「對未來行動或結果作出的明確承諾／諾言」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-04"
     },
@@ -470,11 +398,7 @@ export default {
       "masked": "He kept his ____ and arrived on time.",
       "options": [
         "promise-mcq-04",
-        "promise-mcq-03",
-        "promise-mcq-05",
-        "promise-mcq-02",
-        "promise-mcq-06",
-        "promise-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「promise」指「對未來行動或結果作出的明確承諾／諾言」。",
       "sentenceIndex": 9,
@@ -483,12 +407,8 @@ export default {
         "promise"
       ],
       "optionReasons": {
-        "promise-mcq-04": "本句指「對未來行動或結果作出的明確承諾／諾言」。",
-        "promise-mcq-03": "「承諾某人將會得到某物或某種結果」是「promise someone something」的用法，與本句語境不同。",
-        "promise-mcq-05": "「顯示未來可能成功或發展良好的潛力」是「promise — potential」的用法，與本句語境不同。",
-        "promise-mcq-02": "「對某項事實或未來結果作出明確保證」是「promise that…」的用法，與本句語境不同。",
-        "promise-mcq-06": "「已顯示出未來可能成功或有良好發展的」是「promising」的用法，與本句語境不同。",
-        "promise-mcq-01": "「向別人保證自己之後會做某個行動」是「promise to + verb」的用法，與本句語境不同。"
+        "promise-mcq-04": "本句的「promise」指「對未來行動或結果作出的明確承諾／諾言」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-04"
     },
@@ -500,11 +420,7 @@ export default {
       "masked": "The young designer shows great ____.",
       "options": [
         "promise-mcq-05",
-        "promise-mcq-04",
-        "promise-mcq-06",
-        "promise-mcq-03",
-        "promise-mcq-07",
-        "promise-mcq-02"
+        "promise-mcq-03"
       ],
       "explanation": "本句的「promise」指「顯示未來可能成功或發展良好的潛力」。",
       "sentenceIndex": 10,
@@ -513,12 +429,8 @@ export default {
         "promise"
       ],
       "optionReasons": {
-        "promise-mcq-05": "本句指「顯示未來可能成功或發展良好的潛力」。",
-        "promise-mcq-04": "「對未來行動或結果作出的明確承諾／諾言」是「a promise」的用法，與本句語境不同。",
-        "promise-mcq-06": "「已顯示出未來可能成功或有良好發展的」是「promising」的用法，與本句語境不同。",
-        "promise-mcq-03": "「承諾某人將會得到某物或某種結果」是「promise someone something」的用法，與本句語境不同。",
-        "promise-mcq-07": "「從目前跡象看來，很可能發展成某種結果」是「promise to be…」的用法，與本句語境不同。",
-        "promise-mcq-02": "「對某項事實或未來結果作出明確保證」是「promise that…」的用法，與本句語境不同。"
+        "promise-mcq-05": "本句的「promise」指「顯示未來可能成功或發展良好的潛力」。",
+        "promise-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-05"
     },
@@ -530,11 +442,7 @@ export default {
       "masked": "The new technology has considerable ____.",
       "options": [
         "promise-mcq-05",
-        "promise-mcq-04",
-        "promise-mcq-06",
-        "promise-mcq-03",
-        "promise-mcq-07",
-        "promise-mcq-02"
+        "promise-mcq-01"
       ],
       "explanation": "本句的「promise」指「顯示未來可能成功或發展良好的潛力」。",
       "sentenceIndex": 11,
@@ -543,12 +451,8 @@ export default {
         "promise"
       ],
       "optionReasons": {
-        "promise-mcq-05": "本句指「顯示未來可能成功或發展良好的潛力」。",
-        "promise-mcq-04": "「對未來行動或結果作出的明確承諾／諾言」是「a promise」的用法，與本句語境不同。",
-        "promise-mcq-06": "「已顯示出未來可能成功或有良好發展的」是「promising」的用法，與本句語境不同。",
-        "promise-mcq-03": "「承諾某人將會得到某物或某種結果」是「promise someone something」的用法，與本句語境不同。",
-        "promise-mcq-07": "「從目前跡象看來，很可能發展成某種結果」是「promise to be…」的用法，與本句語境不同。",
-        "promise-mcq-02": "「對某項事實或未來結果作出明確保證」是「promise that…」的用法，與本句語境不同。"
+        "promise-mcq-05": "本句的「promise」指「顯示未來可能成功或發展良好的潛力」。",
+        "promise-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-05"
     },
@@ -560,10 +464,6 @@ export default {
       "masked": "She is a ____ young engineer.",
       "options": [
         "promise-mcq-06",
-        "promise-mcq-05",
-        "promise-mcq-07",
-        "promise-mcq-04",
-        "promise-mcq-08",
         "promise-mcq-03"
       ],
       "explanation": "本句的「promising」指「已顯示出未來可能成功或有良好發展的」。",
@@ -573,12 +473,8 @@ export default {
         "promising"
       ],
       "optionReasons": {
-        "promise-mcq-06": "本句指「已顯示出未來可能成功或有良好發展的」。",
-        "promise-mcq-05": "「顯示未來可能成功或發展良好的潛力」是「promise — potential」的用法，與本句語境不同。",
-        "promise-mcq-07": "「從目前跡象看來，很可能發展成某種結果」是「promise to be…」的用法，與本句語境不同。",
-        "promise-mcq-04": "「對未來行動或結果作出的明確承諾／諾言」是「a promise」的用法，與本句語境不同。",
-        "promise-mcq-08": "「預示某種理想結果未來可能實現的前景」是「the promise of…」的用法，與本句語境不同。",
-        "promise-mcq-03": "「承諾某人將會得到某物或某種結果」是「promise someone something」的用法，與本句語境不同。"
+        "promise-mcq-06": "本句的「promising」指「已顯示出未來可能成功或有良好發展的」。",
+        "promise-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-06"
     },
@@ -590,10 +486,6 @@ export default {
       "masked": "The early results are very ____.",
       "options": [
         "promise-mcq-06",
-        "promise-mcq-05",
-        "promise-mcq-07",
-        "promise-mcq-04",
-        "promise-mcq-08",
         "promise-mcq-03"
       ],
       "explanation": "本句的「promising」指「已顯示出未來可能成功或有良好發展的」。",
@@ -603,12 +495,8 @@ export default {
         "promising"
       ],
       "optionReasons": {
-        "promise-mcq-06": "本句指「已顯示出未來可能成功或有良好發展的」。",
-        "promise-mcq-05": "「顯示未來可能成功或發展良好的潛力」是「promise — potential」的用法，與本句語境不同。",
-        "promise-mcq-07": "「從目前跡象看來，很可能發展成某種結果」是「promise to be…」的用法，與本句語境不同。",
-        "promise-mcq-04": "「對未來行動或結果作出的明確承諾／諾言」是「a promise」的用法，與本句語境不同。",
-        "promise-mcq-08": "「預示某種理想結果未來可能實現的前景」是「the promise of…」的用法，與本句語境不同。",
-        "promise-mcq-03": "「承諾某人將會得到某物或某種結果」是「promise someone something」的用法，與本句語境不同。"
+        "promise-mcq-06": "本句的「promising」指「已顯示出未來可能成功或有良好發展的」。",
+        "promise-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-06"
     },
@@ -620,11 +508,7 @@ export default {
       "masked": "The conference ____ to be very interesting.",
       "options": [
         "promise-mcq-07",
-        "promise-mcq-06",
-        "promise-mcq-08",
-        "promise-mcq-05",
-        "promise-mcq-04",
-        "promise-mcq-03"
+        "promise-mcq-01"
       ],
       "explanation": "本句的「promises」指「從目前跡象看來，很可能發展成某種結果」。",
       "sentenceIndex": 14,
@@ -633,12 +517,8 @@ export default {
         "promises"
       ],
       "optionReasons": {
-        "promise-mcq-07": "本句指「從目前跡象看來，很可能發展成某種結果」。",
-        "promise-mcq-06": "「已顯示出未來可能成功或有良好發展的」是「promising」的用法，與本句語境不同。",
-        "promise-mcq-08": "「預示某種理想結果未來可能實現的前景」是「the promise of…」的用法，與本句語境不同。",
-        "promise-mcq-05": "「顯示未來可能成功或發展良好的潛力」是「promise — potential」的用法，與本句語境不同。",
-        "promise-mcq-04": "「對未來行動或結果作出的明確承諾／諾言」是「a promise」的用法，與本句語境不同。",
-        "promise-mcq-03": "「承諾某人將會得到某物或某種結果」是「promise someone something」的用法，與本句語境不同。"
+        "promise-mcq-07": "本句的「promises」指「從目前跡象看來，很可能發展成某種結果」。",
+        "promise-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-07"
     },
@@ -650,11 +530,7 @@ export default {
       "masked": "The new project ____ to be a major success.",
       "options": [
         "promise-mcq-07",
-        "promise-mcq-06",
-        "promise-mcq-08",
-        "promise-mcq-05",
-        "promise-mcq-04",
-        "promise-mcq-03"
+        "promise-mcq-01"
       ],
       "explanation": "本句的「promises」指「從目前跡象看來，很可能發展成某種結果」。",
       "sentenceIndex": 15,
@@ -663,12 +539,8 @@ export default {
         "promises"
       ],
       "optionReasons": {
-        "promise-mcq-07": "本句指「從目前跡象看來，很可能發展成某種結果」。",
-        "promise-mcq-06": "「已顯示出未來可能成功或有良好發展的」是「promising」的用法，與本句語境不同。",
-        "promise-mcq-08": "「預示某種理想結果未來可能實現的前景」是「the promise of…」的用法，與本句語境不同。",
-        "promise-mcq-05": "「顯示未來可能成功或發展良好的潛力」是「promise — potential」的用法，與本句語境不同。",
-        "promise-mcq-04": "「對未來行動或結果作出的明確承諾／諾言」是「a promise」的用法，與本句語境不同。",
-        "promise-mcq-03": "「承諾某人將會得到某物或某種結果」是「promise someone something」的用法，與本句語境不同。"
+        "promise-mcq-07": "本句的「promises」指「從目前跡象看來，很可能發展成某種結果」。",
+        "promise-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-07"
     },
@@ -680,11 +552,7 @@ export default {
       "masked": "The clear skies held the ____ of a beautiful day.",
       "options": [
         "promise-mcq-08",
-        "promise-mcq-07",
-        "promise-mcq-06",
-        "promise-mcq-05",
-        "promise-mcq-04",
-        "promise-mcq-03"
+        "promise-mcq-01"
       ],
       "explanation": "本句的「promise」指「預示某種理想結果未來可能實現的前景」。",
       "sentenceIndex": 16,
@@ -693,12 +561,8 @@ export default {
         "promise"
       ],
       "optionReasons": {
-        "promise-mcq-08": "本句指「預示某種理想結果未來可能實現的前景」。",
-        "promise-mcq-07": "「從目前跡象看來，很可能發展成某種結果」是「promise to be…」的用法，與本句語境不同。",
-        "promise-mcq-06": "「已顯示出未來可能成功或有良好發展的」是「promising」的用法，與本句語境不同。",
-        "promise-mcq-05": "「顯示未來可能成功或發展良好的潛力」是「promise — potential」的用法，與本句語境不同。",
-        "promise-mcq-04": "「對未來行動或結果作出的明確承諾／諾言」是「a promise」的用法，與本句語境不同。",
-        "promise-mcq-03": "「承諾某人將會得到某物或某種結果」是「promise someone something」的用法，與本句語境不同。"
+        "promise-mcq-08": "本句的「promise」指「預示某種理想結果未來可能實現的前景」。",
+        "promise-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-08"
     },
@@ -710,11 +574,7 @@ export default {
       "masked": "The discovery offers the ____ of better treatment.",
       "options": [
         "promise-mcq-08",
-        "promise-mcq-07",
-        "promise-mcq-06",
-        "promise-mcq-05",
-        "promise-mcq-04",
-        "promise-mcq-03"
+        "promise-mcq-01"
       ],
       "explanation": "本句的「promise」指「預示某種理想結果未來可能實現的前景」。",
       "sentenceIndex": 17,
@@ -723,12 +583,8 @@ export default {
         "promise"
       ],
       "optionReasons": {
-        "promise-mcq-08": "本句指「預示某種理想結果未來可能實現的前景」。",
-        "promise-mcq-07": "「從目前跡象看來，很可能發展成某種結果」是「promise to be…」的用法，與本句語境不同。",
-        "promise-mcq-06": "「已顯示出未來可能成功或有良好發展的」是「promising」的用法，與本句語境不同。",
-        "promise-mcq-05": "「顯示未來可能成功或發展良好的潛力」是「promise — potential」的用法，與本句語境不同。",
-        "promise-mcq-04": "「對未來行動或結果作出的明確承諾／諾言」是「a promise」的用法，與本句語境不同。",
-        "promise-mcq-03": "「承諾某人將會得到某物或某種結果」是「promise someone something」的用法，與本句語境不同。"
+        "promise-mcq-08": "本句的「promise」指「預示某種理想結果未來可能實現的前景」。",
+        "promise-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promise-mcq-08"
     }
@@ -740,5 +596,12 @@ export default {
     "sha256": "d374a068543c367f4339fda753d6966abf6f1474c3870050e298a5047886f4a5",
     "pages": 8
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

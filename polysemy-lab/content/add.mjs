@@ -269,16 +269,6 @@ export default {
           "The service gives customers added value.",
           "這項服務為顧客提供額外價值。",
           "某項功能／加工／服務為原有事物增加的額外價值"
-        ],
-        [
-          "The garden is beautiful, and the fresh herbs are an added bonus.",
-          "花園本身已經很漂亮，而新鮮香草更是額外的好處／意外之喜。",
-          "某項功能／加工／服務為原有事物增加的額外價值"
-        ],
-        [
-          "Free delivery is an added bonus.",
-          "免費送貨是一項額外好處。",
-          "某項功能／加工／服務為原有事物增加的額外價值"
         ]
       ],
       "options": [],
@@ -547,6 +537,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "add-reviewed-dec647c674",
+      "title": "原有好處之外額外得到的好處",
+      "form": "add · source section 14",
+      "en": "原有好處之外額外得到的好處",
+      "zh": "原有好處之外額外得到的好處",
+      "note": "對照原始教材第 14 節及例句核實。",
+      "examples": [
+        [
+          "The garden is beautiful, and the fresh herbs are an added bonus.",
+          "花園本身已經很漂亮，而新鮮香草更是額外的好處／意外之喜。",
+          "原有好處之外額外得到的好處"
+        ],
+        [
+          "Free delivery is an added bonus.",
+          "免費送貨是一項額外好處。",
+          "原有好處之外額外得到的好處"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -558,11 +570,9 @@ export default {
       "masked": "____ five and seven.",
       "options": [
         "add-mcq-01",
-        "add-mcq-02",
-        "add-mcq-03",
-        "add-mcq-04",
-        "add-mcq-05",
-        "add-mcq-06"
+        "add-pdf-002",
+        "add-mcq-13",
+        "add-mcq-04"
       ],
       "explanation": "本句的「Add」指「把兩個或以上數量合併並計算總數」。",
       "sentenceIndex": 0,
@@ -571,12 +581,10 @@ export default {
         "Add"
       ],
       "optionReasons": {
-        "add-mcq-01": "本句指「把兩個或以上數量合併並計算總數」。",
-        "add-mcq-02": "「把某種材料、物件或成分放進原本已有的東西中」是「add — ingredient/item」的用法，與本句語境不同。",
-        "add-mcq-03": "「把新的人／項目納入原有集合、名單或系統」是「add — group/list/system」的用法，與本句語境不同。",
-        "add-mcq-04": "「為某事增加新的特質、效果、價值或感受」是「add — quality/benefit」的用法，與本句語境不同。",
-        "add-mcq-05": "「在已說內容之後再補充另一點資訊」是「add — speech」的用法，與本句語境不同。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。"
+        "add-mcq-01": "本句的「Add」指「把兩個或以上數量合併並計算總數」。",
+        "add-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-01"
     },
@@ -588,11 +596,9 @@ export default {
       "masked": "If you ____ ten to twenty, you get thirty.",
       "options": [
         "add-mcq-01",
+        "add-mcq-20",
         "add-mcq-02",
-        "add-mcq-03",
-        "add-mcq-04",
-        "add-mcq-05",
-        "add-mcq-06"
+        "add-mcq-11"
       ],
       "explanation": "本句的「add」指「把兩個或以上數量合併並計算總數」。",
       "sentenceIndex": 1,
@@ -601,12 +607,10 @@ export default {
         "add"
       ],
       "optionReasons": {
-        "add-mcq-01": "本句指「把兩個或以上數量合併並計算總數」。",
-        "add-mcq-02": "「把某種材料、物件或成分放進原本已有的東西中」是「add — ingredient/item」的用法，與本句語境不同。",
-        "add-mcq-03": "「把新的人／項目納入原有集合、名單或系統」是「add — group/list/system」的用法，與本句語境不同。",
-        "add-mcq-04": "「為某事增加新的特質、效果、價值或感受」是「add — quality/benefit」的用法，與本句語境不同。",
-        "add-mcq-05": "「在已說內容之後再補充另一點資訊」是「add — speech」的用法，與本句語境不同。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。"
+        "add-mcq-01": "本句的「add」指「把兩個或以上數量合併並計算總數」。",
+        "add-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-01"
     },
@@ -618,11 +622,9 @@ export default {
       "masked": "____ some water to the soil.",
       "options": [
         "add-mcq-02",
-        "add-mcq-01",
-        "add-mcq-03",
-        "add-mcq-04",
-        "add-mcq-05",
-        "add-mcq-06"
+        "add-mcq-08",
+        "add-mcq-18",
+        "add-mcq-09"
       ],
       "explanation": "本句的「Add」指「把某種材料、物件或成分放進原本已有的東西中」。",
       "sentenceIndex": 2,
@@ -631,12 +633,10 @@ export default {
         "Add"
       ],
       "optionReasons": {
-        "add-mcq-02": "本句指「把某種材料、物件或成分放進原本已有的東西中」。",
-        "add-mcq-01": "「把兩個或以上數量合併並計算總數」是「add — mathematics」的用法，與本句語境不同。",
-        "add-mcq-03": "「把新的人／項目納入原有集合、名單或系統」是「add — group/list/system」的用法，與本句語境不同。",
-        "add-mcq-04": "「為某事增加新的特質、效果、價值或感受」是「add — quality/benefit」的用法，與本句語境不同。",
-        "add-mcq-05": "「在已說內容之後再補充另一點資訊」是「add — speech」的用法，與本句語境不同。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。"
+        "add-mcq-02": "本句的「Add」指「把某種材料、物件或成分放進原本已有的東西中」。",
+        "add-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-02"
     },
@@ -648,11 +648,9 @@ export default {
       "masked": "She ____ lemon juice to the drink.",
       "options": [
         "add-mcq-02",
-        "add-mcq-01",
-        "add-mcq-03",
-        "add-mcq-04",
-        "add-mcq-05",
-        "add-mcq-06"
+        "add-pdf-002",
+        "add-mcq-15",
+        "add-mcq-20"
       ],
       "explanation": "本句的「added」指「把某種材料、物件或成分放進原本已有的東西中」。",
       "sentenceIndex": 3,
@@ -661,12 +659,10 @@ export default {
         "added"
       ],
       "optionReasons": {
-        "add-mcq-02": "本句指「把某種材料、物件或成分放進原本已有的東西中」。",
-        "add-mcq-01": "「把兩個或以上數量合併並計算總數」是「add — mathematics」的用法，與本句語境不同。",
-        "add-mcq-03": "「把新的人／項目納入原有集合、名單或系統」是「add — group/list/system」的用法，與本句語境不同。",
-        "add-mcq-04": "「為某事增加新的特質、效果、價值或感受」是「add — quality/benefit」的用法，與本句語境不同。",
-        "add-mcq-05": "「在已說內容之後再補充另一點資訊」是「add — speech」的用法，與本句語境不同。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。"
+        "add-mcq-02": "本句的「added」指「把某種材料、物件或成分放進原本已有的東西中」。",
+        "add-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-02"
     },
@@ -678,11 +674,9 @@ export default {
       "masked": "Please ____ my name to the list.",
       "options": [
         "add-mcq-03",
-        "add-mcq-02",
-        "add-mcq-04",
-        "add-mcq-01",
-        "add-mcq-05",
-        "add-mcq-06"
+        "add-mcq-15",
+        "add-pdf-002",
+        "add-mcq-22"
       ],
       "explanation": "本句的「add」指「把新的人／項目納入原有集合、名單或系統」。",
       "sentenceIndex": 4,
@@ -691,12 +685,10 @@ export default {
         "add"
       ],
       "optionReasons": {
-        "add-mcq-03": "本句指「把新的人／項目納入原有集合、名單或系統」。",
-        "add-mcq-02": "「把某種材料、物件或成分放進原本已有的東西中」是「add — ingredient/item」的用法，與本句語境不同。",
-        "add-mcq-04": "「為某事增加新的特質、效果、價值或感受」是「add — quality/benefit」的用法，與本句語境不同。",
-        "add-mcq-01": "「把兩個或以上數量合併並計算總數」是「add — mathematics」的用法，與本句語境不同。",
-        "add-mcq-05": "「在已說內容之後再補充另一點資訊」是「add — speech」的用法，與本句語境不同。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。"
+        "add-mcq-03": "本句的「add」指「把新的人／項目納入原有集合、名單或系統」。",
+        "add-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "add-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-03"
     },
@@ -708,11 +700,9 @@ export default {
       "masked": "The company ____ two new members to the team.",
       "options": [
         "add-mcq-03",
-        "add-mcq-02",
-        "add-mcq-04",
-        "add-mcq-01",
+        "add-mcq-08",
         "add-mcq-05",
-        "add-mcq-06"
+        "add-mcq-22"
       ],
       "explanation": "本句的「added」指「把新的人／項目納入原有集合、名單或系統」。",
       "sentenceIndex": 5,
@@ -721,12 +711,10 @@ export default {
         "added"
       ],
       "optionReasons": {
-        "add-mcq-03": "本句指「把新的人／項目納入原有集合、名單或系統」。",
-        "add-mcq-02": "「把某種材料、物件或成分放進原本已有的東西中」是「add — ingredient/item」的用法，與本句語境不同。",
-        "add-mcq-04": "「為某事增加新的特質、效果、價值或感受」是「add — quality/benefit」的用法，與本句語境不同。",
-        "add-mcq-01": "「把兩個或以上數量合併並計算總數」是「add — mathematics」的用法，與本句語境不同。",
-        "add-mcq-05": "「在已說內容之後再補充另一點資訊」是「add — speech」的用法，與本句語境不同。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。"
+        "add-mcq-03": "本句的「added」指「把新的人／項目納入原有集合、名單或系統」。",
+        "add-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-03"
     },
@@ -738,10 +726,8 @@ export default {
       "masked": "Gardening ____ to her everyday life.",
       "options": [
         "add-mcq-04",
-        "add-mcq-03",
-        "add-mcq-05",
-        "add-mcq-02",
-        "add-mcq-06",
+        "add-mcq-09",
+        "add-reviewed-dec647c674",
         "add-mcq-01"
       ],
       "explanation": "本句的「adds colour, calm, and meaning」指「為某事增加新的特質、效果、價值或感受」。",
@@ -751,12 +737,10 @@ export default {
         "adds colour, calm, and meaning"
       ],
       "optionReasons": {
-        "add-mcq-04": "本句指「為某事增加新的特質、效果、價值或感受」。",
-        "add-mcq-03": "「把新的人／項目納入原有集合、名單或系統」是「add — group/list/system」的用法，與本句語境不同。",
-        "add-mcq-05": "「在已說內容之後再補充另一點資訊」是「add — speech」的用法，與本句語境不同。",
-        "add-mcq-02": "「把某種材料、物件或成分放進原本已有的東西中」是「add — ingredient/item」的用法，與本句語境不同。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。",
-        "add-mcq-01": "「把兩個或以上數量合併並計算總數」是「add — mathematics」的用法，與本句語境不同。"
+        "add-mcq-04": "本句的「adds colour, calm, and meaning」指「為某事增加新的特質、效果、價值或感受」。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-reviewed-dec647c674": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-04"
     },
@@ -768,11 +752,9 @@ export default {
       "masked": "Fresh flowers ____ warmth to the room.",
       "options": [
         "add-mcq-04",
-        "add-mcq-03",
-        "add-mcq-05",
         "add-mcq-02",
-        "add-mcq-06",
-        "add-mcq-01"
+        "add-mcq-18",
+        "add-mcq-09"
       ],
       "explanation": "本句的「add」指「為某事增加新的特質、效果、價值或感受」。",
       "sentenceIndex": 7,
@@ -781,12 +763,10 @@ export default {
         "add"
       ],
       "optionReasons": {
-        "add-mcq-04": "本句指「為某事增加新的特質、效果、價值或感受」。",
-        "add-mcq-03": "「把新的人／項目納入原有集合、名單或系統」是「add — group/list/system」的用法，與本句語境不同。",
-        "add-mcq-05": "「在已說內容之後再補充另一點資訊」是「add — speech」的用法，與本句語境不同。",
-        "add-mcq-02": "「把某種材料、物件或成分放進原本已有的東西中」是「add — ingredient/item」的用法，與本句語境不同。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。",
-        "add-mcq-01": "「把兩個或以上數量合併並計算總數」是「add — mathematics」的用法，與本句語境不同。"
+        "add-mcq-04": "本句的「add」指「為某事增加新的特質、效果、價值或感受」。",
+        "add-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-04"
     },
@@ -798,11 +778,9 @@ export default {
       "masked": "The music ____ excitement to the scene.",
       "options": [
         "add-mcq-04",
-        "add-mcq-03",
-        "add-mcq-05",
-        "add-mcq-02",
-        "add-mcq-06",
-        "add-mcq-01"
+        "add-reviewed-dec647c674",
+        "add-mcq-09",
+        "add-mcq-05"
       ],
       "explanation": "本句的「adds」指「為某事增加新的特質、效果、價值或感受」。",
       "sentenceIndex": 8,
@@ -811,12 +789,10 @@ export default {
         "adds"
       ],
       "optionReasons": {
-        "add-mcq-04": "本句指「為某事增加新的特質、效果、價值或感受」。",
-        "add-mcq-03": "「把新的人／項目納入原有集合、名單或系統」是「add — group/list/system」的用法，與本句語境不同。",
-        "add-mcq-05": "「在已說內容之後再補充另一點資訊」是「add — speech」的用法，與本句語境不同。",
-        "add-mcq-02": "「把某種材料、物件或成分放進原本已有的東西中」是「add — ingredient/item」的用法，與本句語境不同。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。",
-        "add-mcq-01": "「把兩個或以上數量合併並計算總數」是「add — mathematics」的用法，與本句語境不同。"
+        "add-mcq-04": "本句的「adds」指「為某事增加新的特質、效果、價值或感受」。",
+        "add-reviewed-dec647c674": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-04"
     },
@@ -828,11 +804,9 @@ export default {
       "masked": "She ____ that gardening helped her relax.",
       "options": [
         "add-mcq-05",
-        "add-mcq-04",
-        "add-mcq-06",
-        "add-mcq-03",
-        "add-mcq-07",
-        "add-mcq-02"
+        "add-mcq-10",
+        "add-reviewed-dec647c674",
+        "add-mcq-20"
       ],
       "explanation": "本句的「added」指「在已說內容之後再補充另一點資訊」。",
       "sentenceIndex": 9,
@@ -841,12 +815,10 @@ export default {
         "added"
       ],
       "optionReasons": {
-        "add-mcq-05": "本句指「在已說內容之後再補充另一點資訊」。",
-        "add-mcq-04": "「為某事增加新的特質、效果、價值或感受」是「add — quality/benefit」的用法，與本句語境不同。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。",
-        "add-mcq-03": "「把新的人／項目納入原有集合、名單或系統」是「add — group/list/system」的用法，與本句語境不同。",
-        "add-mcq-07": "「令原有程度、問題、效果或價值進一步增加」是「add to」的用法，與本句語境不同。",
-        "add-mcq-02": "「把某種材料、物件或成分放進原本已有的東西中」是「add — ingredient/item」的用法，與本句語境不同。"
+        "add-mcq-05": "本句的「added」指「在已說內容之後再補充另一點資訊」。",
+        "add-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "add-reviewed-dec647c674": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-05"
     },
@@ -858,11 +830,9 @@ export default {
       "masked": "‘Don’t forget to water the plants,’ he ____.",
       "options": [
         "add-mcq-05",
-        "add-mcq-04",
         "add-mcq-06",
-        "add-mcq-03",
-        "add-mcq-07",
-        "add-mcq-02"
+        "add-mcq-21",
+        "add-mcq-20"
       ],
       "explanation": "本句的「added」指「在已說內容之後再補充另一點資訊」。",
       "sentenceIndex": 10,
@@ -871,12 +841,10 @@ export default {
         "added"
       ],
       "optionReasons": {
-        "add-mcq-05": "本句指「在已說內容之後再補充另一點資訊」。",
-        "add-mcq-04": "「為某事增加新的特質、效果、價值或感受」是「add — quality/benefit」的用法，與本句語境不同。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。",
-        "add-mcq-03": "「把新的人／項目納入原有集合、名單或系統」是「add — group/list/system」的用法，與本句語境不同。",
-        "add-mcq-07": "「令原有程度、問題、效果或價值進一步增加」是「add to」的用法，與本句語境不同。",
-        "add-mcq-02": "「把某種材料、物件或成分放進原本已有的東西中」是「add — ingredient/item」的用法，與本句語境不同。"
+        "add-mcq-05": "本句的「added」指「在已說內容之後再補充另一點資訊」。",
+        "add-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-05"
     },
@@ -888,11 +856,9 @@ export default {
       "masked": "I’d like to ____ one more point.",
       "options": [
         "add-pdf-001",
-        "add-mcq-04",
-        "add-mcq-06",
-        "add-mcq-03",
-        "add-mcq-07",
-        "add-mcq-02"
+        "add-mcq-01",
+        "add-mcq-09",
+        "add-pdf-002"
       ],
       "explanation": "本句的「add」指「在原有資訊／文字後補上新的內容」。",
       "sentenceIndex": 11,
@@ -901,12 +867,10 @@ export default {
         "add"
       ],
       "optionReasons": {
-        "add-pdf-001": "本句指「在原有資訊／文字後補上新的內容」。",
-        "add-mcq-04": "「為某事增加新的特質、效果、價值或感受」是「add — quality/benefit」的用法，與本句語境不同。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。",
-        "add-mcq-03": "「把新的人／項目納入原有集合、名單或系統」是「add — group/list/system」的用法，與本句語境不同。",
-        "add-mcq-07": "「令原有程度、問題、效果或價值進一步增加」是「add to」的用法，與本句語境不同。",
-        "add-mcq-02": "「把某種材料、物件或成分放進原本已有的東西中」是「add — ingredient/item」的用法，與本句語境不同。"
+        "add-pdf-001": "本句的「add」指「在原有資訊／文字後補上新的內容」。",
+        "add-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-pdf-001"
     },
@@ -918,11 +882,9 @@ export default {
       "masked": "She ____ a short note at the end of the email.",
       "options": [
         "add-pdf-001",
-        "add-mcq-04",
-        "add-mcq-06",
-        "add-mcq-03",
-        "add-mcq-07",
-        "add-mcq-02"
+        "add-mcq-20",
+        "add-mcq-21",
+        "add-mcq-09"
       ],
       "explanation": "本句的「added」指「在原有資訊／文字後補上新的內容」。",
       "sentenceIndex": 12,
@@ -931,12 +893,10 @@ export default {
         "added"
       ],
       "optionReasons": {
-        "add-pdf-001": "本句指「在原有資訊／文字後補上新的內容」。",
-        "add-mcq-04": "「為某事增加新的特質、效果、價值或感受」是「add — quality/benefit」的用法，與本句語境不同。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。",
-        "add-mcq-03": "「把新的人／項目納入原有集合、名單或系統」是「add — group/list/system」的用法，與本句語境不同。",
-        "add-mcq-07": "「令原有程度、問題、效果或價值進一步增加」是「add to」的用法，與本句語境不同。",
-        "add-mcq-02": "「把某種材料、物件或成分放進原本已有的東西中」是「add — ingredient/item」的用法，與本句語境不同。"
+        "add-pdf-001": "本句的「added」指「在原有資訊／文字後補上新的內容」。",
+        "add-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-pdf-001"
     },
@@ -948,10 +908,8 @@ export default {
       "masked": "The new fee ____ another ten dollars to the total cost.",
       "options": [
         "add-mcq-06",
-        "add-mcq-05",
-        "add-mcq-07",
-        "add-mcq-04",
-        "add-mcq-08",
+        "add-mcq-17",
+        "add-mcq-09",
         "add-mcq-03"
       ],
       "explanation": "本句的「adds」指「令原本的數量、成本、時間、重量等增加」。",
@@ -961,12 +919,10 @@ export default {
         "adds"
       ],
       "optionReasons": {
-        "add-mcq-06": "本句指「令原本的數量、成本、時間、重量等增加」。",
-        "add-mcq-05": "「在已說內容之後再補充另一點資訊」是「add — speech」的用法，與本句語境不同。",
-        "add-mcq-07": "「令原有程度、問題、效果或價值進一步增加」是「add to」的用法，與本句語境不同。",
-        "add-mcq-04": "「為某事增加新的特質、效果、價值或感受」是「add — quality/benefit」的用法，與本句語境不同。",
-        "add-mcq-08": "「把多個數值相加以得出總數」是「add up — calculate」的用法，與本句語境不同。",
-        "add-mcq-03": "「把新的人／項目納入原有集合、名單或系統」是「add — group/list/system」的用法，與本句語境不同。"
+        "add-mcq-06": "本句的「adds」指「令原本的數量、成本、時間、重量等增加」。",
+        "add-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-06"
     },
@@ -978,11 +934,9 @@ export default {
       "masked": "Extra features can ____ considerable cost.",
       "options": [
         "add-mcq-06",
-        "add-mcq-05",
-        "add-mcq-07",
-        "add-mcq-04",
-        "add-mcq-08",
-        "add-mcq-03"
+        "add-mcq-18",
+        "add-mcq-09",
+        "add-pdf-001"
       ],
       "explanation": "本句的「add」指「令原本的數量、成本、時間、重量等增加」。",
       "sentenceIndex": 14,
@@ -991,12 +945,10 @@ export default {
         "add"
       ],
       "optionReasons": {
-        "add-mcq-06": "本句指「令原本的數量、成本、時間、重量等增加」。",
-        "add-mcq-05": "「在已說內容之後再補充另一點資訊」是「add — speech」的用法，與本句語境不同。",
-        "add-mcq-07": "「令原有程度、問題、效果或價值進一步增加」是「add to」的用法，與本句語境不同。",
-        "add-mcq-04": "「為某事增加新的特質、效果、價值或感受」是「add — quality/benefit」的用法，與本句語境不同。",
-        "add-mcq-08": "「把多個數值相加以得出總數」是「add up — calculate」的用法，與本句語境不同。",
-        "add-mcq-03": "「把新的人／項目納入原有集合、名單或系統」是「add — group/list/system」的用法，與本句語境不同。"
+        "add-mcq-06": "本句的「add」指「令原本的數量、成本、時間、重量等增加」。",
+        "add-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-06"
     },
@@ -1008,11 +960,9 @@ export default {
       "masked": "Heavy rain ____ the traffic problems.",
       "options": [
         "add-mcq-07",
-        "add-mcq-06",
-        "add-mcq-08",
-        "add-mcq-05",
+        "add-mcq-18",
         "add-mcq-09",
-        "add-mcq-04"
+        "add-mcq-20"
       ],
       "explanation": "本句的「added to」指「令原有程度、問題、效果或價值進一步增加」。",
       "sentenceIndex": 15,
@@ -1021,12 +971,10 @@ export default {
         "added to"
       ],
       "optionReasons": {
-        "add-mcq-07": "本句指「令原有程度、問題、效果或價值進一步增加」。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。",
-        "add-mcq-08": "「把多個數值相加以得出總數」是「add up — calculate」的用法，與本句語境不同。",
-        "add-mcq-05": "「在已說內容之後再補充另一點資訊」是「add — speech」的用法，與本句語境不同。",
-        "add-mcq-09": "「各項事實／說法彼此一致並且合乎邏輯」是「add up — figurative」的用法，與本句語境不同。",
-        "add-mcq-04": "「為某事增加新的特質、效果、價值或感受」是「add — quality/benefit」的用法，與本句語境不同。"
+        "add-mcq-07": "本句的「added to」指「令原有程度、問題、效果或價值進一步增加」。",
+        "add-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-07"
     },
@@ -1038,11 +986,9 @@ export default {
       "masked": "The bright flowers ____ to the beauty of the garden.",
       "options": [
         "add-mcq-07",
-        "add-mcq-06",
-        "add-mcq-08",
-        "add-mcq-05",
         "add-mcq-09",
-        "add-mcq-04"
+        "add-mcq-17",
+        "add-mcq-20"
       ],
       "explanation": "本句的「add」指「令原有程度、問題、效果或價值進一步增加」。",
       "sentenceIndex": 16,
@@ -1051,12 +997,10 @@ export default {
         "add"
       ],
       "optionReasons": {
-        "add-mcq-07": "本句指「令原有程度、問題、效果或價值進一步增加」。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。",
-        "add-mcq-08": "「把多個數值相加以得出總數」是「add up — calculate」的用法，與本句語境不同。",
-        "add-mcq-05": "「在已說內容之後再補充另一點資訊」是「add — speech」的用法，與本句語境不同。",
-        "add-mcq-09": "「各項事實／說法彼此一致並且合乎邏輯」是「add up — figurative」的用法，與本句語境不同。",
-        "add-mcq-04": "「為某事增加新的特質、效果、價值或感受」是「add — quality/benefit」的用法，與本句語境不同。"
+        "add-mcq-07": "本句的「add」指「令原有程度、問題、效果或價值進一步增加」。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-07"
     },
@@ -1068,11 +1012,9 @@ export default {
       "masked": "____ up the prices before you pay.",
       "options": [
         "add-mcq-08",
-        "add-mcq-07",
+        "add-pdf-001",
         "add-mcq-09",
-        "add-mcq-06",
-        "add-mcq-10",
-        "add-mcq-05"
+        "add-mcq-18"
       ],
       "explanation": "本句的「Add」指「把多個數值相加以得出總數」。",
       "sentenceIndex": 17,
@@ -1081,12 +1023,10 @@ export default {
         "Add"
       ],
       "optionReasons": {
-        "add-mcq-08": "本句指「把多個數值相加以得出總數」。",
-        "add-mcq-07": "「令原有程度、問題、效果或價值進一步增加」是「add to」的用法，與本句語境不同。",
-        "add-mcq-09": "「各項事實／說法彼此一致並且合乎邏輯」是「add up — figurative」的用法，與本句語境不同。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。",
-        "add-mcq-10": "「多個部分合起來形成某個總數、結果或效果」是「add up to」的用法，與本句語境不同。",
-        "add-mcq-05": "「在已說內容之後再補充另一點資訊」是「add — speech」的用法，與本句語境不同。"
+        "add-mcq-08": "本句的「Add」指「把多個數值相加以得出總數」。",
+        "add-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-08"
     },
@@ -1098,11 +1038,9 @@ export default {
       "masked": "The numbers ____ up to fifty.",
       "options": [
         "add-mcq-08",
-        "add-mcq-07",
-        "add-mcq-09",
-        "add-mcq-06",
-        "add-mcq-10",
-        "add-mcq-05"
+        "add-mcq-03",
+        "add-mcq-17",
+        "add-mcq-02"
       ],
       "explanation": "本句的「add」指「把多個數值相加以得出總數」。",
       "sentenceIndex": 18,
@@ -1111,12 +1049,10 @@ export default {
         "add"
       ],
       "optionReasons": {
-        "add-mcq-08": "本句指「把多個數值相加以得出總數」。",
-        "add-mcq-07": "「令原有程度、問題、效果或價值進一步增加」是「add to」的用法，與本句語境不同。",
-        "add-mcq-09": "「各項事實／說法彼此一致並且合乎邏輯」是「add up — figurative」的用法，與本句語境不同。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。",
-        "add-mcq-10": "「多個部分合起來形成某個總數、結果或效果」是「add up to」的用法，與本句語境不同。",
-        "add-mcq-05": "「在已說內容之後再補充另一點資訊」是「add — speech」的用法，與本句語境不同。"
+        "add-mcq-08": "本句的「add」指「把多個數值相加以得出總數」。",
+        "add-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-08"
     },
@@ -1128,11 +1064,9 @@ export default {
       "masked": "His explanation doesn’t ____.",
       "options": [
         "add-mcq-09",
-        "add-mcq-08",
-        "add-mcq-10",
-        "add-mcq-07",
-        "add-mcq-11",
-        "add-mcq-06"
+        "add-mcq-19",
+        "add-mcq-20",
+        "add-mcq-21"
       ],
       "explanation": "本句的「add up」指「各項事實／說法彼此一致並且合乎邏輯」。",
       "sentenceIndex": 19,
@@ -1141,12 +1075,10 @@ export default {
         "add up"
       ],
       "optionReasons": {
-        "add-mcq-09": "本句指「各項事實／說法彼此一致並且合乎邏輯」。",
-        "add-mcq-08": "「把多個數值相加以得出總數」是「add up — calculate」的用法，與本句語境不同。",
-        "add-mcq-10": "「多個部分合起來形成某個總數、結果或效果」是「add up to」的用法，與本句語境不同。",
-        "add-mcq-07": "「令原有程度、問題、效果或價值進一步增加」是「add to」的用法，與本句語境不同。",
-        "add-mcq-11": "「在原有基礎上再增加的；額外的」是「added」的用法，與本句語境不同。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。"
+        "add-mcq-09": "本句的「add up」指「各項事實／說法彼此一致並且合乎邏輯」。",
+        "add-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-09"
     },
@@ -1158,11 +1090,9 @@ export default {
       "masked": "The facts simply don’t ____ up.",
       "options": [
         "add-mcq-09",
-        "add-mcq-08",
-        "add-mcq-10",
-        "add-mcq-07",
-        "add-mcq-11",
-        "add-mcq-06"
+        "add-reviewed-dec647c674",
+        "add-mcq-22",
+        "add-mcq-14"
       ],
       "explanation": "本句的「add」指「各項事實／說法彼此一致並且合乎邏輯」。",
       "sentenceIndex": 20,
@@ -1171,12 +1101,10 @@ export default {
         "add"
       ],
       "optionReasons": {
-        "add-mcq-09": "本句指「各項事實／說法彼此一致並且合乎邏輯」。",
-        "add-mcq-08": "「把多個數值相加以得出總數」是「add up — calculate」的用法，與本句語境不同。",
-        "add-mcq-10": "「多個部分合起來形成某個總數、結果或效果」是「add up to」的用法，與本句語境不同。",
-        "add-mcq-07": "「令原有程度、問題、效果或價值進一步增加」是「add to」的用法，與本句語境不同。",
-        "add-mcq-11": "「在原有基礎上再增加的；額外的」是「added」的用法，與本句語境不同。",
-        "add-mcq-06": "「令原本的數量、成本、時間、重量等增加」是「add — increase total」的用法，與本句語境不同。"
+        "add-mcq-09": "本句的「add」指「各項事實／說法彼此一致並且合乎邏輯」。",
+        "add-reviewed-dec647c674": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-09"
     },
@@ -1188,11 +1116,9 @@ export default {
       "masked": "Small expenses can ____ a large amount.",
       "options": [
         "add-mcq-10",
-        "add-mcq-09",
+        "add-mcq-18",
         "add-mcq-11",
-        "add-mcq-08",
-        "add-mcq-12",
-        "add-mcq-07"
+        "add-mcq-20"
       ],
       "explanation": "本句的「add up to」指「多個部分合起來形成某個總數、結果或效果」。",
       "sentenceIndex": 21,
@@ -1201,12 +1127,10 @@ export default {
         "add up to"
       ],
       "optionReasons": {
-        "add-mcq-10": "本句指「多個部分合起來形成某個總數、結果或效果」。",
-        "add-mcq-09": "「各項事實／說法彼此一致並且合乎邏輯」是「add up — figurative」的用法，與本句語境不同。",
-        "add-mcq-11": "「在原有基礎上再增加的；額外的」是「added」的用法，與本句語境不同。",
-        "add-mcq-08": "「把多個數值相加以得出總數」是「add up — calculate」的用法，與本句語境不同。",
-        "add-mcq-12": "「某項功能／加工／服務為原有事物增加的額外價值」是「added value」的用法，與本句語境不同。",
-        "add-mcq-07": "「令原有程度、問題、效果或價值進一步增加」是「add to」的用法，與本句語境不同。"
+        "add-mcq-10": "本句的「add up to」指「多個部分合起來形成某個總數、結果或效果」。",
+        "add-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-10"
     },
@@ -1218,11 +1142,9 @@ export default {
       "masked": "All these little changes ____ up to a big improvement.",
       "options": [
         "add-mcq-10",
-        "add-mcq-09",
-        "add-mcq-11",
-        "add-mcq-08",
-        "add-mcq-12",
-        "add-mcq-07"
+        "add-reviewed-dec647c674",
+        "add-mcq-20",
+        "add-mcq-05"
       ],
       "explanation": "本句的「add」指「多個部分合起來形成某個總數、結果或效果」。",
       "sentenceIndex": 22,
@@ -1231,12 +1153,10 @@ export default {
         "add"
       ],
       "optionReasons": {
-        "add-mcq-10": "本句指「多個部分合起來形成某個總數、結果或效果」。",
-        "add-mcq-09": "「各項事實／說法彼此一致並且合乎邏輯」是「add up — figurative」的用法，與本句語境不同。",
-        "add-mcq-11": "「在原有基礎上再增加的；額外的」是「added」的用法，與本句語境不同。",
-        "add-mcq-08": "「把多個數值相加以得出總數」是「add up — calculate」的用法，與本句語境不同。",
-        "add-mcq-12": "「某項功能／加工／服務為原有事物增加的額外價值」是「added value」的用法，與本句語境不同。",
-        "add-mcq-07": "「令原有程度、問題、效果或價值進一步增加」是「add to」的用法，與本句語境不同。"
+        "add-mcq-10": "本句的「add」指「多個部分合起來形成某個總數、結果或效果」。",
+        "add-reviewed-dec647c674": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-10"
     },
@@ -1249,10 +1169,8 @@ export default {
       "options": [
         "add-mcq-11",
         "add-mcq-10",
-        "add-mcq-12",
         "add-mcq-09",
-        "add-mcq-13",
-        "add-mcq-08"
+        "add-mcq-05"
       ],
       "explanation": "本句的「added cost」指「在原有基礎上再增加的；額外的」。",
       "sentenceIndex": 23,
@@ -1261,12 +1179,10 @@ export default {
         "added cost"
       ],
       "optionReasons": {
-        "add-mcq-11": "本句指「在原有基礎上再增加的；額外的」。",
-        "add-mcq-10": "「多個部分合起來形成某個總數、結果或效果」是「add up to」的用法，與本句語境不同。",
-        "add-mcq-12": "「某項功能／加工／服務為原有事物增加的額外價值」是「added value」的用法，與本句語境不同。",
-        "add-mcq-09": "「各項事實／說法彼此一致並且合乎邏輯」是「add up — figurative」的用法，與本句語境不同。",
-        "add-mcq-13": "「把新事物加入原有事物的行為／過程」是「addition — act」的用法，與本句語境不同。",
-        "add-mcq-08": "「把多個數值相加以得出總數」是「add up — calculate」的用法，與本句語境不同。"
+        "add-mcq-11": "本句的「added cost」指「在原有基礎上再增加的；額外的」。",
+        "add-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-11"
     },
@@ -1278,11 +1194,9 @@ export default {
       "masked": "The balcony gives the apartment ____ value.",
       "options": [
         "add-mcq-11",
-        "add-mcq-10",
-        "add-mcq-12",
+        "add-mcq-01",
         "add-mcq-09",
-        "add-mcq-13",
-        "add-mcq-08"
+        "add-mcq-05"
       ],
       "explanation": "本句的「added」指「在原有基礎上再增加的；額外的」。",
       "sentenceIndex": 24,
@@ -1291,12 +1205,10 @@ export default {
         "added"
       ],
       "optionReasons": {
-        "add-mcq-11": "本句指「在原有基礎上再增加的；額外的」。",
-        "add-mcq-10": "「多個部分合起來形成某個總數、結果或效果」是「add up to」的用法，與本句語境不同。",
-        "add-mcq-12": "「某項功能／加工／服務為原有事物增加的額外價值」是「added value」的用法，與本句語境不同。",
-        "add-mcq-09": "「各項事實／說法彼此一致並且合乎邏輯」是「add up — figurative」的用法，與本句語境不同。",
-        "add-mcq-13": "「把新事物加入原有事物的行為／過程」是「addition — act」的用法，與本句語境不同。",
-        "add-mcq-08": "「把多個數值相加以得出總數」是「add up — calculate」的用法，與本句語境不同。"
+        "add-mcq-11": "本句的「added」指「在原有基礎上再增加的；額外的」。",
+        "add-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-11"
     },
@@ -1308,11 +1220,9 @@ export default {
       "masked": "Good design can create ____.",
       "options": [
         "add-mcq-12",
-        "add-mcq-11",
-        "add-mcq-13",
-        "add-mcq-10",
-        "add-mcq-14",
-        "add-mcq-09"
+        "add-mcq-05",
+        "add-mcq-01",
+        "add-mcq-21"
       ],
       "explanation": "本句的「added value」指「某項功能／加工／服務為原有事物增加的額外價值」。",
       "sentenceIndex": 25,
@@ -1321,12 +1231,10 @@ export default {
         "added value"
       ],
       "optionReasons": {
-        "add-mcq-12": "本句指「某項功能／加工／服務為原有事物增加的額外價值」。",
-        "add-mcq-11": "「在原有基礎上再增加的；額外的」是「added」的用法，與本句語境不同。",
-        "add-mcq-13": "「把新事物加入原有事物的行為／過程」是「addition — act」的用法，與本句語境不同。",
-        "add-mcq-10": "「多個部分合起來形成某個總數、結果或效果」是「add up to」的用法，與本句語境不同。",
-        "add-mcq-14": "「後來加入某群體、地方或整體的新部分／新成員」是「addition — new item」的用法，與本句語境不同。",
-        "add-mcq-09": "「各項事實／說法彼此一致並且合乎邏輯」是「add up — figurative」的用法，與本句語境不同。"
+        "add-mcq-12": "本句的「added value」指「某項功能／加工／服務為原有事物增加的額外價值」。",
+        "add-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-12"
     },
@@ -1338,10 +1246,8 @@ export default {
       "masked": "The service gives customers ____ value.",
       "options": [
         "add-mcq-12",
-        "add-mcq-11",
-        "add-mcq-13",
+        "add-mcq-05",
         "add-mcq-10",
-        "add-mcq-14",
         "add-mcq-09"
       ],
       "explanation": "本句的「added」指「某項功能／加工／服務為原有事物增加的額外價值」。",
@@ -1351,74 +1257,68 @@ export default {
         "added"
       ],
       "optionReasons": {
-        "add-mcq-12": "本句指「某項功能／加工／服務為原有事物增加的額外價值」。",
-        "add-mcq-11": "「在原有基礎上再增加的；額外的」是「added」的用法，與本句語境不同。",
-        "add-mcq-13": "「把新事物加入原有事物的行為／過程」是「addition — act」的用法，與本句語境不同。",
-        "add-mcq-10": "「多個部分合起來形成某個總數、結果或效果」是「add up to」的用法，與本句語境不同。",
-        "add-mcq-14": "「後來加入某群體、地方或整體的新部分／新成員」是「addition — new item」的用法，與本句語境不同。",
-        "add-mcq-09": "「各項事實／說法彼此一致並且合乎邏輯」是「add up — figurative」的用法，與本句語境不同。"
+        "add-mcq-12": "本句的「added」指「某項功能／加工／服務為原有事物增加的額外價值」。",
+        "add-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-12"
     },
     {
       "id": "add-14-0",
-      "sense": "add-mcq-12",
+      "sense": "add-reviewed-dec647c674",
       "en": "The garden is beautiful, and the fresh herbs are an added bonus.",
       "zh": "花園本身已經很漂亮，而新鮮香草更是額外的好處／意外之喜。",
       "masked": "The garden is beautiful, and the fresh herbs are an ____.",
       "options": [
-        "add-mcq-12",
-        "add-mcq-11",
-        "add-mcq-13",
-        "add-mcq-10",
-        "add-mcq-14",
-        "add-mcq-09"
+        "add-reviewed-dec647c674",
+        "add-mcq-20",
+        "add-mcq-04",
+        "add-mcq-15"
       ],
-      "explanation": "本句的「added bonus」指「某項功能／加工／服務為原有事物增加的額外價值」。",
+      "explanation": "對照完整句子：「花園本身已經很漂亮，而新鮮香草更是額外的好處／意外之喜。」。這裡的「added bonus」表示「原有好處之外額外得到的好處」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "added bonus"
       ],
       "optionReasons": {
-        "add-mcq-12": "本句指「某項功能／加工／服務為原有事物增加的額外價值」。",
-        "add-mcq-11": "「在原有基礎上再增加的；額外的」是「added」的用法，與本句語境不同。",
-        "add-mcq-13": "「把新事物加入原有事物的行為／過程」是「addition — act」的用法，與本句語境不同。",
-        "add-mcq-10": "「多個部分合起來形成某個總數、結果或效果」是「add up to」的用法，與本句語境不同。",
-        "add-mcq-14": "「後來加入某群體、地方或整體的新部分／新成員」是「addition — new item」的用法，與本句語境不同。",
-        "add-mcq-09": "「各項事實／說法彼此一致並且合乎邏輯」是「add up — figurative」的用法，與本句語境不同。"
+        "add-reviewed-dec647c674": "對照完整句子：「花園本身已經很漂亮，而新鮮香草更是額外的好處／意外之喜。」。這裡的「added bonus」表示「原有好處之外額外得到的好處」。",
+        "add-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "add-mcq-12"
+      "correctOption": "add-reviewed-dec647c674",
+      "previousCorrectOption": "add-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "add-14-1",
-      "sense": "add-mcq-12",
+      "sense": "add-reviewed-dec647c674",
       "en": "Free delivery is an added bonus.",
       "zh": "免費送貨是一項額外好處。",
       "masked": "Free delivery is an ____ bonus.",
       "options": [
-        "add-mcq-12",
-        "add-mcq-11",
-        "add-mcq-13",
-        "add-mcq-10",
-        "add-mcq-14",
-        "add-mcq-09"
+        "add-reviewed-dec647c674",
+        "add-mcq-09",
+        "add-mcq-04",
+        "add-mcq-20"
       ],
-      "explanation": "本句的「added」指「某項功能／加工／服務為原有事物增加的額外價值」。",
+      "explanation": "對照完整句子：「免費送貨是一項額外好處。」。這裡的「added」表示「原有好處之外額外得到的好處」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "added"
       ],
       "optionReasons": {
-        "add-mcq-12": "本句指「某項功能／加工／服務為原有事物增加的額外價值」。",
-        "add-mcq-11": "「在原有基礎上再增加的；額外的」是「added」的用法，與本句語境不同。",
-        "add-mcq-13": "「把新事物加入原有事物的行為／過程」是「addition — act」的用法，與本句語境不同。",
-        "add-mcq-10": "「多個部分合起來形成某個總數、結果或效果」是「add up to」的用法，與本句語境不同。",
-        "add-mcq-14": "「後來加入某群體、地方或整體的新部分／新成員」是「addition — new item」的用法，與本句語境不同。",
-        "add-mcq-09": "「各項事實／說法彼此一致並且合乎邏輯」是「add up — figurative」的用法，與本句語境不同。"
+        "add-reviewed-dec647c674": "對照完整句子：「免費送貨是一項額外好處。」。這裡的「added」表示「原有好處之外額外得到的好處」。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "add-mcq-12"
+      "correctOption": "add-reviewed-dec647c674",
+      "previousCorrectOption": "add-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "add-15-0",
@@ -1428,10 +1328,8 @@ export default {
       "masked": "The ____ of herbs improved the flavour.",
       "options": [
         "add-mcq-13",
-        "add-mcq-12",
-        "add-mcq-14",
-        "add-mcq-11",
-        "add-mcq-15",
+        "add-mcq-09",
+        "add-mcq-05",
         "add-mcq-10"
       ],
       "explanation": "本句的「addition」指「把新事物加入原有事物的行為／過程」。",
@@ -1441,12 +1339,10 @@ export default {
         "addition"
       ],
       "optionReasons": {
-        "add-mcq-13": "本句指「把新事物加入原有事物的行為／過程」。",
-        "add-mcq-12": "「某項功能／加工／服務為原有事物增加的額外價值」是「added value」的用法，與本句語境不同。",
-        "add-mcq-14": "「後來加入某群體、地方或整體的新部分／新成員」是「addition — new item」的用法，與本句語境不同。",
-        "add-mcq-11": "「在原有基礎上再增加的；額外的」是「added」的用法，與本句語境不同。",
-        "add-mcq-15": "「把數字相加的數學運算」是「addition — mathematics」的用法，與本句語境不同。",
-        "add-mcq-10": "「多個部分合起來形成某個總數、結果或效果」是「add up to」的用法，與本句語境不同。"
+        "add-mcq-13": "本句的「addition」指「把新事物加入原有事物的行為／過程」。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-13"
     },
@@ -1458,10 +1354,8 @@ export default {
       "masked": "The ____ of a balcony created more usable space.",
       "options": [
         "add-mcq-13",
-        "add-mcq-12",
-        "add-mcq-14",
-        "add-mcq-11",
-        "add-mcq-15",
+        "add-mcq-18",
+        "add-mcq-09",
         "add-mcq-10"
       ],
       "explanation": "本句的「addition」指「把新事物加入原有事物的行為／過程」。",
@@ -1471,12 +1365,10 @@ export default {
         "addition"
       ],
       "optionReasons": {
-        "add-mcq-13": "本句指「把新事物加入原有事物的行為／過程」。",
-        "add-mcq-12": "「某項功能／加工／服務為原有事物增加的額外價值」是「added value」的用法，與本句語境不同。",
-        "add-mcq-14": "「後來加入某群體、地方或整體的新部分／新成員」是「addition — new item」的用法，與本句語境不同。",
-        "add-mcq-11": "「在原有基礎上再增加的；額外的」是「added」的用法，與本句語境不同。",
-        "add-mcq-15": "「把數字相加的數學運算」是「addition — mathematics」的用法，與本句語境不同。",
-        "add-mcq-10": "「多個部分合起來形成某個總數、結果或效果」是「add up to」的用法，與本句語境不同。"
+        "add-mcq-13": "本句的「addition」指「把新事物加入原有事物的行為／過程」。",
+        "add-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-13"
     },
@@ -1488,11 +1380,9 @@ export default {
       "masked": "The lemon tree is a recent ____ to her garden.",
       "options": [
         "add-mcq-14",
-        "add-mcq-13",
-        "add-mcq-15",
-        "add-mcq-12",
-        "add-mcq-16",
-        "add-mcq-11"
+        "add-mcq-01",
+        "add-mcq-09",
+        "add-reviewed-dec647c674"
       ],
       "explanation": "本句的「addition」指「後來加入某群體、地方或整體的新部分／新成員」。",
       "sentenceIndex": 31,
@@ -1501,12 +1391,10 @@ export default {
         "addition"
       ],
       "optionReasons": {
-        "add-mcq-14": "本句指「後來加入某群體、地方或整體的新部分／新成員」。",
-        "add-mcq-13": "「把新事物加入原有事物的行為／過程」是「addition — act」的用法，與本句語境不同。",
-        "add-mcq-15": "「把數字相加的數學運算」是「addition — mathematics」的用法，與本句語境不同。",
-        "add-mcq-12": "「某項功能／加工／服務為原有事物增加的額外價值」是「added value」的用法，與本句語境不同。",
-        "add-mcq-16": "「後來在原有建築上加建的新部分」是「addition — building」的用法，與本句語境不同。",
-        "add-mcq-11": "「在原有基礎上再增加的；額外的」是「added」的用法，與本句語境不同。"
+        "add-mcq-14": "本句的「addition」指「後來加入某群體、地方或整體的新部分／新成員」。",
+        "add-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-reviewed-dec647c674": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-14"
     },
@@ -1518,11 +1406,9 @@ export default {
       "masked": "The new employee is a welcome ____ to the team.",
       "options": [
         "add-mcq-14",
-        "add-mcq-13",
-        "add-mcq-15",
-        "add-mcq-12",
-        "add-mcq-16",
-        "add-mcq-11"
+        "add-mcq-09",
+        "add-mcq-01",
+        "add-mcq-17"
       ],
       "explanation": "本句的「addition」指「後來加入某群體、地方或整體的新部分／新成員」。",
       "sentenceIndex": 32,
@@ -1531,12 +1417,10 @@ export default {
         "addition"
       ],
       "optionReasons": {
-        "add-mcq-14": "本句指「後來加入某群體、地方或整體的新部分／新成員」。",
-        "add-mcq-13": "「把新事物加入原有事物的行為／過程」是「addition — act」的用法，與本句語境不同。",
-        "add-mcq-15": "「把數字相加的數學運算」是「addition — mathematics」的用法，與本句語境不同。",
-        "add-mcq-12": "「某項功能／加工／服務為原有事物增加的額外價值」是「added value」的用法，與本句語境不同。",
-        "add-mcq-16": "「後來在原有建築上加建的新部分」是「addition — building」的用法，與本句語境不同。",
-        "add-mcq-11": "「在原有基礎上再增加的；額外的」是「added」的用法，與本句語境不同。"
+        "add-mcq-14": "本句的「addition」指「後來加入某群體、地方或整體的新部分／新成員」。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-14"
     },
@@ -1548,11 +1432,9 @@ export default {
       "masked": "Children learn ____ before multiplication.",
       "options": [
         "add-mcq-15",
-        "add-mcq-14",
-        "add-mcq-16",
-        "add-mcq-13",
-        "add-mcq-17",
-        "add-mcq-12"
+        "add-mcq-05",
+        "add-mcq-09",
+        "add-mcq-02"
       ],
       "explanation": "本句的「addition」指「把數字相加的數學運算」。",
       "sentenceIndex": 33,
@@ -1561,12 +1443,10 @@ export default {
         "addition"
       ],
       "optionReasons": {
-        "add-mcq-15": "本句指「把數字相加的數學運算」。",
-        "add-mcq-14": "「後來加入某群體、地方或整體的新部分／新成員」是「addition — new item」的用法，與本句語境不同。",
-        "add-mcq-16": "「後來在原有建築上加建的新部分」是「addition — building」的用法，與本句語境不同。",
-        "add-mcq-13": "「把新事物加入原有事物的行為／過程」是「addition — act」的用法，與本句語境不同。",
-        "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。",
-        "add-mcq-12": "「某項功能／加工／服務為原有事物增加的額外價值」是「added value」的用法，與本句語境不同。"
+        "add-mcq-15": "本句的「addition」指「把數字相加的數學運算」。",
+        "add-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-15"
     },
@@ -1578,11 +1458,9 @@ export default {
       "masked": "This exercise practises basic ____.",
       "options": [
         "add-mcq-15",
-        "add-mcq-14",
-        "add-mcq-16",
-        "add-mcq-13",
-        "add-mcq-17",
-        "add-mcq-12"
+        "add-mcq-09",
+        "add-mcq-02",
+        "add-mcq-17"
       ],
       "explanation": "本句的「addition」指「把數字相加的數學運算」。",
       "sentenceIndex": 34,
@@ -1591,12 +1469,10 @@ export default {
         "addition"
       ],
       "optionReasons": {
-        "add-mcq-15": "本句指「把數字相加的數學運算」。",
-        "add-mcq-14": "「後來加入某群體、地方或整體的新部分／新成員」是「addition — new item」的用法，與本句語境不同。",
-        "add-mcq-16": "「後來在原有建築上加建的新部分」是「addition — building」的用法，與本句語境不同。",
-        "add-mcq-13": "「把新事物加入原有事物的行為／過程」是「addition — act」的用法，與本句語境不同。",
-        "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。",
-        "add-mcq-12": "「某項功能／加工／服務為原有事物增加的額外價值」是「added value」的用法，與本句語境不同。"
+        "add-mcq-15": "本句的「addition」指「把數字相加的數學運算」。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-15"
     },
@@ -1608,11 +1484,9 @@ export default {
       "masked": "They built an ____ onto the house.",
       "options": [
         "add-mcq-16",
-        "add-mcq-15",
-        "add-mcq-17",
-        "add-mcq-14",
         "add-mcq-18",
-        "add-mcq-13"
+        "add-mcq-09",
+        "add-mcq-21"
       ],
       "explanation": "本句的「addition」指「後來在原有建築上加建的新部分」。",
       "sentenceIndex": 35,
@@ -1621,12 +1495,10 @@ export default {
         "addition"
       ],
       "optionReasons": {
-        "add-mcq-16": "本句指「後來在原有建築上加建的新部分」。",
-        "add-mcq-15": "「把數字相加的數學運算」是「addition — mathematics」的用法，與本句語境不同。",
-        "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。",
-        "add-mcq-14": "「後來加入某群體、地方或整體的新部分／新成員」是「addition — new item」的用法，與本句語境不同。",
-        "add-mcq-18": "「除某人／某物之外還包括另一項」是「in addition to」的用法，與本句語境不同。",
-        "add-mcq-13": "「把新事物加入原有事物的行為／過程」是「addition — act」的用法，與本句語境不同。"
+        "add-mcq-16": "本句的「addition」指「後來在原有建築上加建的新部分」。",
+        "add-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-16"
     },
@@ -1638,11 +1510,9 @@ export default {
       "masked": "The new ____ contains two bedrooms.",
       "options": [
         "add-mcq-16",
-        "add-mcq-15",
-        "add-mcq-17",
-        "add-mcq-14",
+        "add-mcq-09",
         "add-mcq-18",
-        "add-mcq-13"
+        "add-mcq-08"
       ],
       "explanation": "本句的「addition」指「後來在原有建築上加建的新部分」。",
       "sentenceIndex": 36,
@@ -1651,12 +1521,10 @@ export default {
         "addition"
       ],
       "optionReasons": {
-        "add-mcq-16": "本句指「後來在原有建築上加建的新部分」。",
-        "add-mcq-15": "「把數字相加的數學運算」是「addition — mathematics」的用法，與本句語境不同。",
-        "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。",
-        "add-mcq-14": "「後來加入某群體、地方或整體的新部分／新成員」是「addition — new item」的用法，與本句語境不同。",
-        "add-mcq-18": "「除某人／某物之外還包括另一項」是「in addition to」的用法，與本句語境不同。",
-        "add-mcq-13": "「把新事物加入原有事物的行為／過程」是「addition — act」的用法，與本句語境不同。"
+        "add-mcq-16": "本句的「addition」指「後來在原有建築上加建的新部分」。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-16"
     },
@@ -1668,11 +1536,9 @@ export default {
       "masked": "She grows vegetables. ____, she keeps several fruit plants.",
       "options": [
         "add-mcq-17",
-        "add-mcq-16",
-        "add-mcq-18",
-        "add-mcq-15",
-        "add-mcq-19",
-        "add-mcq-14"
+        "add-mcq-02",
+        "add-mcq-10",
+        "add-mcq-13"
       ],
       "explanation": "本句的「In addition」指「在前述內容之外再補充另一點；此外」。",
       "sentenceIndex": 37,
@@ -1681,12 +1547,10 @@ export default {
         "In addition"
       ],
       "optionReasons": {
-        "add-mcq-17": "本句指「在前述內容之外再補充另一點；此外」。",
-        "add-mcq-16": "「後來在原有建築上加建的新部分」是「addition — building」的用法，與本句語境不同。",
-        "add-mcq-18": "「除某人／某物之外還包括另一項」是「in addition to」的用法，與本句語境不同。",
-        "add-mcq-15": "「把數字相加的數學運算」是「addition — mathematics」的用法，與本句語境不同。",
-        "add-mcq-19": "「在原有數量、內容或要求之外再增加的」是「additional」的用法，與本句語境不同。",
-        "add-mcq-14": "「後來加入某群體、地方或整體的新部分／新成員」是「addition — new item」的用法，與本句語境不同。"
+        "add-mcq-17": "本句的「In addition」指「在前述內容之外再補充另一點；此外」。",
+        "add-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-17"
     },
@@ -1698,11 +1562,9 @@ export default {
       "masked": "The job is demanding; in ____, the hours are long.",
       "options": [
         "add-mcq-17",
-        "add-mcq-16",
-        "add-mcq-18",
-        "add-mcq-15",
-        "add-mcq-19",
-        "add-mcq-14"
+        "add-mcq-13",
+        "add-mcq-10",
+        "add-mcq-02"
       ],
       "explanation": "本句的「addition」指「在前述內容之外再補充另一點；此外」。",
       "sentenceIndex": 38,
@@ -1711,12 +1573,10 @@ export default {
         "addition"
       ],
       "optionReasons": {
-        "add-mcq-17": "本句指「在前述內容之外再補充另一點；此外」。",
-        "add-mcq-16": "「後來在原有建築上加建的新部分」是「addition — building」的用法，與本句語境不同。",
-        "add-mcq-18": "「除某人／某物之外還包括另一項」是「in addition to」的用法，與本句語境不同。",
-        "add-mcq-15": "「把數字相加的數學運算」是「addition — mathematics」的用法，與本句語境不同。",
-        "add-mcq-19": "「在原有數量、內容或要求之外再增加的」是「additional」的用法，與本句語境不同。",
-        "add-mcq-14": "「後來加入某群體、地方或整體的新部分／新成員」是「addition — new item」的用法，與本句語境不同。"
+        "add-mcq-17": "本句的「addition」指「在前述內容之外再補充另一點；此外」。",
+        "add-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-17"
     },
@@ -1728,11 +1588,9 @@ export default {
       "masked": "____ vegetables, she grows flowers.",
       "options": [
         "add-mcq-18",
-        "add-mcq-17",
-        "add-mcq-19",
-        "add-mcq-16",
+        "add-mcq-07",
         "add-mcq-20",
-        "add-mcq-15"
+        "add-mcq-02"
       ],
       "explanation": "本句的「In addition to」指「除某人／某物之外還包括另一項」。",
       "sentenceIndex": 39,
@@ -1741,12 +1599,10 @@ export default {
         "In addition to"
       ],
       "optionReasons": {
-        "add-mcq-18": "本句指「除某人／某物之外還包括另一項」。",
-        "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。",
-        "add-mcq-19": "「在原有數量、內容或要求之外再增加的」是「additional」的用法，與本句語境不同。",
-        "add-mcq-16": "「後來在原有建築上加建的新部分」是「addition — building」的用法，與本句語境不同。",
-        "add-mcq-20": "「為保存、改善味道、性能等而加入產品中的物質」是「additive — noun」的用法，與本句語境不同。",
-        "add-mcq-15": "「把數字相加的數學運算」是「addition — mathematics」的用法，與本句語境不同。"
+        "add-mcq-18": "本句的「In addition to」指「除某人／某物之外還包括另一項」。",
+        "add-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-18"
     },
@@ -1758,11 +1614,9 @@ export default {
       "masked": "In ____ to English, he speaks French.",
       "options": [
         "add-mcq-18",
-        "add-mcq-17",
-        "add-mcq-19",
-        "add-mcq-16",
+        "add-mcq-02",
         "add-mcq-20",
-        "add-mcq-15"
+        "add-mcq-16"
       ],
       "explanation": "本句的「addition」指「除某人／某物之外還包括另一項」。",
       "sentenceIndex": 40,
@@ -1771,12 +1625,10 @@ export default {
         "addition"
       ],
       "optionReasons": {
-        "add-mcq-18": "本句指「除某人／某物之外還包括另一項」。",
-        "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。",
-        "add-mcq-19": "「在原有數量、內容或要求之外再增加的」是「additional」的用法，與本句語境不同。",
-        "add-mcq-16": "「後來在原有建築上加建的新部分」是「addition — building」的用法，與本句語境不同。",
-        "add-mcq-20": "「為保存、改善味道、性能等而加入產品中的物質」是「additive — noun」的用法，與本句語境不同。",
-        "add-mcq-15": "「把數字相加的數學運算」是「addition — mathematics」的用法，與本句語境不同。"
+        "add-mcq-18": "本句的「addition」指「除某人／某物之外還包括另一項」。",
+        "add-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-18"
     },
@@ -1788,11 +1640,9 @@ export default {
       "masked": "We need ____.",
       "options": [
         "add-mcq-19",
-        "add-mcq-18",
-        "add-mcq-20",
-        "add-mcq-17",
-        "add-mcq-21",
-        "add-mcq-16"
+        "add-mcq-09",
+        "add-mcq-14",
+        "add-mcq-02"
       ],
       "explanation": "本句的「additional information」指「在原有數量、內容或要求之外再增加的」。",
       "sentenceIndex": 41,
@@ -1801,12 +1651,10 @@ export default {
         "additional information"
       ],
       "optionReasons": {
-        "add-mcq-19": "本句指「在原有數量、內容或要求之外再增加的」。",
-        "add-mcq-18": "「除某人／某物之外還包括另一項」是「in addition to」的用法，與本句語境不同。",
-        "add-mcq-20": "「為保存、改善味道、性能等而加入產品中的物質」是「additive — noun」的用法，與本句語境不同。",
-        "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。",
-        "add-mcq-21": "「多個效果以相加方式累積形成總效果的」是「additive — adjective」的用法，與本句語境不同。",
-        "add-mcq-16": "「後來在原有建築上加建的新部分」是「addition — building」的用法，與本句語境不同。"
+        "add-mcq-19": "本句的「additional information」指「在原有數量、內容或要求之外再增加的」。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-19"
     },
@@ -1818,11 +1666,9 @@ export default {
       "masked": "There will be an ____ charge.",
       "options": [
         "add-mcq-19",
-        "add-mcq-18",
-        "add-mcq-20",
-        "add-mcq-17",
-        "add-mcq-21",
-        "add-mcq-16"
+        "add-mcq-09",
+        "add-mcq-14",
+        "add-mcq-21"
       ],
       "explanation": "本句的「additional」指「在原有數量、內容或要求之外再增加的」。",
       "sentenceIndex": 42,
@@ -1831,12 +1677,10 @@ export default {
         "additional"
       ],
       "optionReasons": {
-        "add-mcq-19": "本句指「在原有數量、內容或要求之外再增加的」。",
-        "add-mcq-18": "「除某人／某物之外還包括另一項」是「in addition to」的用法，與本句語境不同。",
-        "add-mcq-20": "「為保存、改善味道、性能等而加入產品中的物質」是「additive — noun」的用法，與本句語境不同。",
-        "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。",
-        "add-mcq-21": "「多個效果以相加方式累積形成總效果的」是「additive — adjective」的用法，與本句語境不同。",
-        "add-mcq-16": "「後來在原有建築上加建的新部分」是「addition — building」的用法，與本句語境不同。"
+        "add-mcq-19": "本句的「additional」指「在原有數量、內容或要求之外再增加的」。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-19"
     },
@@ -1848,11 +1692,9 @@ export default {
       "masked": "The plants need sunlight. ____, they need regular watering.",
       "options": [
         "add-pdf-002",
-        "add-mcq-18",
-        "add-mcq-20",
-        "add-mcq-17",
-        "add-mcq-21",
-        "add-mcq-16"
+        "add-mcq-09",
+        "add-mcq-01",
+        "add-mcq-02"
       ],
       "explanation": "本句的「Additionally」指「作為額外一點／另外再加上一點」。",
       "sentenceIndex": 43,
@@ -1861,12 +1703,10 @@ export default {
         "Additionally"
       ],
       "optionReasons": {
-        "add-pdf-002": "本句指「作為額外一點／另外再加上一點」。",
-        "add-mcq-18": "「除某人／某物之外還包括另一項」是「in addition to」的用法，與本句語境不同。",
-        "add-mcq-20": "「為保存、改善味道、性能等而加入產品中的物質」是「additive — noun」的用法，與本句語境不同。",
-        "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。",
-        "add-mcq-21": "「多個效果以相加方式累積形成總效果的」是「additive — adjective」的用法，與本句語境不同。",
-        "add-mcq-16": "「後來在原有建築上加建的新部分」是「addition — building」的用法，與本句語境不同。"
+        "add-pdf-002": "本句的「Additionally」指「作為額外一點／另外再加上一點」。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-pdf-002"
     },
@@ -1878,11 +1718,9 @@ export default {
       "masked": "The course is practical and, ____, quite affordable.",
       "options": [
         "add-pdf-002",
-        "add-mcq-18",
-        "add-mcq-20",
-        "add-mcq-17",
-        "add-mcq-21",
-        "add-mcq-16"
+        "add-mcq-02",
+        "add-mcq-09",
+        "add-mcq-01"
       ],
       "explanation": "本句的「additionally」指「作為額外一點／另外再加上一點」。",
       "sentenceIndex": 44,
@@ -1891,12 +1729,10 @@ export default {
         "additionally"
       ],
       "optionReasons": {
-        "add-pdf-002": "本句指「作為額外一點／另外再加上一點」。",
-        "add-mcq-18": "「除某人／某物之外還包括另一項」是「in addition to」的用法，與本句語境不同。",
-        "add-mcq-20": "「為保存、改善味道、性能等而加入產品中的物質」是「additive — noun」的用法，與本句語境不同。",
-        "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。",
-        "add-mcq-21": "「多個效果以相加方式累積形成總效果的」是「additive — adjective」的用法，與本句語境不同。",
-        "add-mcq-16": "「後來在原有建築上加建的新部分」是「addition — building」的用法，與本句語境不同。"
+        "add-pdf-002": "本句的「additionally」指「作為額外一點／另外再加上一點」。",
+        "add-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-pdf-002"
     },
@@ -1908,11 +1744,9 @@ export default {
       "masked": "The food contains no artificial ____.",
       "options": [
         "add-mcq-20",
-        "add-mcq-19",
-        "add-mcq-21",
-        "add-mcq-18",
-        "add-mcq-22",
-        "add-mcq-17"
+        "add-mcq-09",
+        "add-mcq-02",
+        "add-mcq-18"
       ],
       "explanation": "本句的「additives」指「為保存、改善味道、性能等而加入產品中的物質」。",
       "sentenceIndex": 45,
@@ -1921,12 +1755,10 @@ export default {
         "additives"
       ],
       "optionReasons": {
-        "add-mcq-20": "本句指「為保存、改善味道、性能等而加入產品中的物質」。",
-        "add-mcq-19": "「在原有數量、內容或要求之外再增加的」是「additional」的用法，與本句語境不同。",
-        "add-mcq-21": "「多個效果以相加方式累積形成總效果的」是「additive — adjective」的用法，與本句語境不同。",
-        "add-mcq-18": "「除某人／某物之外還包括另一項」是「in addition to」的用法，與本句語境不同。",
-        "add-mcq-22": "「逐層增加材料以製造物件的生產方式」是「25. additive manufacturing（製造／科技） — 增材製造；3D 列印類製造」的用法，與本句語境不同。",
-        "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。"
+        "add-mcq-20": "本句的「additives」指「為保存、改善味道、性能等而加入產品中的物質」。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-20"
     },
@@ -1938,11 +1770,9 @@ export default {
       "masked": "Some fuel ____ improve performance.",
       "options": [
         "add-mcq-20",
-        "add-mcq-19",
-        "add-mcq-21",
         "add-mcq-18",
-        "add-mcq-22",
-        "add-mcq-17"
+        "add-mcq-09",
+        "add-mcq-10"
       ],
       "explanation": "本句的「additives」指「為保存、改善味道、性能等而加入產品中的物質」。",
       "sentenceIndex": 46,
@@ -1951,12 +1781,10 @@ export default {
         "additives"
       ],
       "optionReasons": {
-        "add-mcq-20": "本句指「為保存、改善味道、性能等而加入產品中的物質」。",
-        "add-mcq-19": "「在原有數量、內容或要求之外再增加的」是「additional」的用法，與本句語境不同。",
-        "add-mcq-21": "「多個效果以相加方式累積形成總效果的」是「additive — adjective」的用法，與本句語境不同。",
-        "add-mcq-18": "「除某人／某物之外還包括另一項」是「in addition to」的用法，與本句語境不同。",
-        "add-mcq-22": "「逐層增加材料以製造物件的生產方式」是「25. additive manufacturing（製造／科技） — 增材製造；3D 列印類製造」的用法，與本句語境不同。",
-        "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。"
+        "add-mcq-20": "本句的「additives」指「為保存、改善味道、性能等而加入產品中的物質」。",
+        "add-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-20"
     },
@@ -1968,11 +1796,9 @@ export default {
       "masked": "The effects may be ____.",
       "options": [
         "add-mcq-21",
-        "add-mcq-20",
-        "add-mcq-22",
-        "add-mcq-19",
-        "add-mcq-18",
-        "add-mcq-17"
+        "add-mcq-17",
+        "add-mcq-09",
+        "add-mcq-03"
       ],
       "explanation": "本句的「additive」指「多個效果以相加方式累積形成總效果的」。",
       "sentenceIndex": 47,
@@ -1981,12 +1807,10 @@ export default {
         "additive"
       ],
       "optionReasons": {
-        "add-mcq-21": "本句指「多個效果以相加方式累積形成總效果的」。",
-        "add-mcq-20": "「為保存、改善味道、性能等而加入產品中的物質」是「additive — noun」的用法，與本句語境不同。",
-        "add-mcq-22": "「逐層增加材料以製造物件的生產方式」是「25. additive manufacturing（製造／科技） — 增材製造；3D 列印類製造」的用法，與本句語境不同。",
-        "add-mcq-19": "「在原有數量、內容或要求之外再增加的」是「additional」的用法，與本句語境不同。",
-        "add-mcq-18": "「除某人／某物之外還包括另一項」是「in addition to」的用法，與本句語境不同。",
-        "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。"
+        "add-mcq-21": "本句的「additive」指「多個效果以相加方式累積形成總效果的」。",
+        "add-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-21"
     },
@@ -1998,11 +1822,9 @@ export default {
       "masked": "The model assumes ____ effects.",
       "options": [
         "add-mcq-21",
-        "add-mcq-20",
-        "add-mcq-22",
-        "add-mcq-19",
-        "add-mcq-18",
-        "add-mcq-17"
+        "add-mcq-03",
+        "add-mcq-09",
+        "add-mcq-05"
       ],
       "explanation": "本句的「additive」指「多個效果以相加方式累積形成總效果的」。",
       "sentenceIndex": 48,
@@ -2011,12 +1833,10 @@ export default {
         "additive"
       ],
       "optionReasons": {
-        "add-mcq-21": "本句指「多個效果以相加方式累積形成總效果的」。",
-        "add-mcq-20": "「為保存、改善味道、性能等而加入產品中的物質」是「additive — noun」的用法，與本句語境不同。",
-        "add-mcq-22": "「逐層增加材料以製造物件的生產方式」是「25. additive manufacturing（製造／科技） — 增材製造；3D 列印類製造」的用法，與本句語境不同。",
-        "add-mcq-19": "「在原有數量、內容或要求之外再增加的」是「additional」的用法，與本句語境不同。",
-        "add-mcq-18": "「除某人／某物之外還包括另一項」是「in addition to」的用法，與本句語境不同。",
-        "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。"
+        "add-mcq-21": "本句的「additive」指「多個效果以相加方式累積形成總效果的」。",
+        "add-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-21"
     },
@@ -2028,11 +1848,9 @@ export default {
       "masked": "The company uses ____ to make prototypes.",
       "options": [
         "add-mcq-22",
-        "add-mcq-21",
-        "add-mcq-20",
-        "add-mcq-19",
-        "add-mcq-18",
-        "add-mcq-17"
+        "add-mcq-17",
+        "add-mcq-01",
+        "add-mcq-09"
       ],
       "explanation": "本句的「additive manufacturing」指「逐層增加材料以製造物件的生產方式」。",
       "sentenceIndex": 49,
@@ -2041,12 +1859,10 @@ export default {
         "additive manufacturing"
       ],
       "optionReasons": {
-        "add-mcq-22": "本句指「逐層增加材料以製造物件的生產方式」。",
-        "add-mcq-21": "「多個效果以相加方式累積形成總效果的」是「additive — adjective」的用法，與本句語境不同。",
-        "add-mcq-20": "「為保存、改善味道、性能等而加入產品中的物質」是「additive — noun」的用法，與本句語境不同。",
-        "add-mcq-19": "「在原有數量、內容或要求之外再增加的」是「additional」的用法，與本句語境不同。",
-        "add-mcq-18": "「除某人／某物之外還包括另一項」是「in addition to」的用法，與本句語境不同。",
-        "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。"
+        "add-mcq-22": "本句的「additive manufacturing」指「逐層增加材料以製造物件的生產方式」。",
+        "add-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-22"
     },
@@ -2058,11 +1874,9 @@ export default {
       "masked": "3D printing is a form of ____ manufacturing.",
       "options": [
         "add-mcq-22",
-        "add-mcq-21",
-        "add-mcq-20",
-        "add-mcq-19",
         "add-mcq-18",
-        "add-mcq-17"
+        "add-mcq-09",
+        "add-pdf-001"
       ],
       "explanation": "本句的「additive」指「逐層增加材料以製造物件的生產方式」。",
       "sentenceIndex": 50,
@@ -2071,12 +1885,10 @@ export default {
         "additive"
       ],
       "optionReasons": {
-        "add-mcq-22": "本句指「逐層增加材料以製造物件的生產方式」。",
-        "add-mcq-21": "「多個效果以相加方式累積形成總效果的」是「additive — adjective」的用法，與本句語境不同。",
-        "add-mcq-20": "「為保存、改善味道、性能等而加入產品中的物質」是「additive — noun」的用法，與本句語境不同。",
-        "add-mcq-19": "「在原有數量、內容或要求之外再增加的」是「additional」的用法，與本句語境不同。",
-        "add-mcq-18": "「除某人／某物之外還包括另一項」是「in addition to」的用法，與本句語境不同。",
-        "add-mcq-17": "「在前述內容之外再補充另一點；此外」是「in addition」的用法，與本句語境不同。"
+        "add-mcq-22": "本句的「additive」指「逐層增加材料以製造物件的生產方式」。",
+        "add-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "add-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "add-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "add-mcq-22"
     }
@@ -2088,5 +1900,7 @@ export default {
     "sha256": "f9938305316e50d4de3486b79b1dd296ef9771e21797ac65903bcb88628395f4",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

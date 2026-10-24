@@ -368,11 +368,9 @@ export default {
       "masked": "The shop specializes in ____.",
       "options": [
         "cookie-mcq-02",
-        "cookie-mcq-01",
-        "cookie-mcq-03",
-        "cookie-mcq-04",
-        "cookie-mcq-05",
-        "cookie-mcq-06"
+        "cookie-mcq-06",
+        "cookie-mcq-11",
+        "cookie-mcq-15"
       ],
       "explanation": "本句的「handmade cookies」指「手工／自家製作的曲奇」。",
       "sentenceIndex": 4,
@@ -381,12 +379,10 @@ export default {
         "handmade cookies"
       ],
       "optionReasons": {
-        "cookie-mcq-02": "本句指「手工／自家製作的曲奇」。",
-        "cookie-mcq-01": "「以麵粉、糖、牛油等烘焙而成的小型甜餅；曲奇／甜餅乾」與本句語境不同。",
-        "cookie-mcq-03": "「網站透過瀏覽器儲存的小型資料，用來記錄工作階段、偏好等」與本句語境不同。",
-        "cookie-mcq-04": "「由瀏覽器儲存及管理的網站 Cookie」與本句語境不同。",
-        "cookie-mcq-05": "「通常只在一次瀏覽工作階段中存在的 Cookie」與本句語境不同。",
-        "cookie-mcq-06": "「關閉瀏覽器後仍可保留至到期／被刪除的 Cookie」與本句語境不同。"
+        "cookie-mcq-02": "本句的「handmade cookies」指「手工／自家製作的曲奇」。",
+        "cookie-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-02"
     },
@@ -398,11 +394,9 @@ export default {
       "masked": "I prefer ____ to packaged ones.",
       "options": [
         "cookie-mcq-02",
-        "cookie-mcq-01",
-        "cookie-mcq-03",
-        "cookie-mcq-04",
-        "cookie-mcq-05",
-        "cookie-mcq-06"
+        "cookie-mcq-19",
+        "cookie-mcq-11",
+        "cookie-mcq-04"
       ],
       "explanation": "本句的「homemade cookies」指「手工／自家製作的曲奇」。",
       "sentenceIndex": 5,
@@ -411,12 +405,10 @@ export default {
         "homemade cookies"
       ],
       "optionReasons": {
-        "cookie-mcq-02": "本句指「手工／自家製作的曲奇」。",
-        "cookie-mcq-01": "「以麵粉、糖、牛油等烘焙而成的小型甜餅；曲奇／甜餅乾」與本句語境不同。",
-        "cookie-mcq-03": "「網站透過瀏覽器儲存的小型資料，用來記錄工作階段、偏好等」與本句語境不同。",
-        "cookie-mcq-04": "「由瀏覽器儲存及管理的網站 Cookie」與本句語境不同。",
-        "cookie-mcq-05": "「通常只在一次瀏覽工作階段中存在的 Cookie」與本句語境不同。",
-        "cookie-mcq-06": "「關閉瀏覽器後仍可保留至到期／被刪除的 Cookie」與本句語境不同。"
+        "cookie-mcq-02": "本句的「homemade cookies」指「手工／自家製作的曲奇」。",
+        "cookie-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-02"
     },
@@ -428,11 +420,9 @@ export default {
       "masked": "The browser stored a ____ after I logged in.",
       "options": [
         "cookie-mcq-04",
-        "cookie-mcq-03",
-        "cookie-mcq-05",
-        "cookie-mcq-02",
-        "cookie-mcq-06",
-        "cookie-mcq-01"
+        "cookie-mcq-13",
+        "cookie-mcq-14",
+        "cookie-mcq-10"
       ],
       "explanation": "本句的「cookie」指「由瀏覽器儲存及管理的網站 Cookie」。",
       "sentenceIndex": 8,
@@ -441,12 +431,10 @@ export default {
         "cookie"
       ],
       "optionReasons": {
-        "cookie-mcq-04": "本句指「由瀏覽器儲存及管理的網站 Cookie」。",
-        "cookie-mcq-03": "「網站透過瀏覽器儲存的小型資料，用來記錄工作階段、偏好等」與本句語境不同。",
-        "cookie-mcq-05": "「通常只在一次瀏覽工作階段中存在的 Cookie」與本句語境不同。",
-        "cookie-mcq-02": "「手工／自家製作的曲奇」與本句語境不同。",
-        "cookie-mcq-06": "「關閉瀏覽器後仍可保留至到期／被刪除的 Cookie」與本句語境不同。",
-        "cookie-mcq-01": "「以麵粉、糖、牛油等烘焙而成的小型甜餅；曲奇／甜餅乾」與本句語境不同。"
+        "cookie-mcq-04": "本句的「cookie」指「由瀏覽器儲存及管理的網站 Cookie」。",
+        "cookie-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-04"
     },
@@ -458,11 +446,9 @@ export default {
       "masked": "Clearing your ____ may sign you out of websites.",
       "options": [
         "cookie-mcq-04",
-        "cookie-mcq-03",
-        "cookie-mcq-05",
-        "cookie-mcq-02",
-        "cookie-mcq-06",
-        "cookie-mcq-01"
+        "cookie-mcq-19",
+        "cookie-mcq-11",
+        "cookie-mcq-13"
       ],
       "explanation": "本句的「browser cookies」指「由瀏覽器儲存及管理的網站 Cookie」。",
       "sentenceIndex": 9,
@@ -471,12 +457,10 @@ export default {
         "browser cookies"
       ],
       "optionReasons": {
-        "cookie-mcq-04": "本句指「由瀏覽器儲存及管理的網站 Cookie」。",
-        "cookie-mcq-03": "「網站透過瀏覽器儲存的小型資料，用來記錄工作階段、偏好等」與本句語境不同。",
-        "cookie-mcq-05": "「通常只在一次瀏覽工作階段中存在的 Cookie」與本句語境不同。",
-        "cookie-mcq-02": "「手工／自家製作的曲奇」與本句語境不同。",
-        "cookie-mcq-06": "「關閉瀏覽器後仍可保留至到期／被刪除的 Cookie」與本句語境不同。",
-        "cookie-mcq-01": "「以麵粉、糖、牛油等烘焙而成的小型甜餅；曲奇／甜餅乾」與本句語境不同。"
+        "cookie-mcq-04": "本句的「browser cookies」指「由瀏覽器儲存及管理的網站 Cookie」。",
+        "cookie-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-04"
     },
@@ -488,11 +472,9 @@ export default {
       "masked": "A ____ may disappear when the browser closes.",
       "options": [
         "cookie-mcq-05",
-        "cookie-mcq-04",
-        "cookie-mcq-06",
-        "cookie-mcq-03",
-        "cookie-mcq-07",
-        "cookie-mcq-02"
+        "cookie-mcq-20",
+        "cookie-mcq-10",
+        "cookie-mcq-15"
       ],
       "explanation": "本句的「session cookie」指「通常只在一次瀏覽工作階段中存在的 Cookie」。",
       "sentenceIndex": 10,
@@ -501,12 +483,10 @@ export default {
         "session cookie"
       ],
       "optionReasons": {
-        "cookie-mcq-05": "本句指「通常只在一次瀏覽工作階段中存在的 Cookie」。",
-        "cookie-mcq-04": "「由瀏覽器儲存及管理的網站 Cookie」與本句語境不同。",
-        "cookie-mcq-06": "「關閉瀏覽器後仍可保留至到期／被刪除的 Cookie」與本句語境不同。",
-        "cookie-mcq-03": "「網站透過瀏覽器儲存的小型資料，用來記錄工作階段、偏好等」與本句語境不同。",
-        "cookie-mcq-07": "「與使用者正在瀏覽的網站本身相關的 Cookie」與本句語境不同。",
-        "cookie-mcq-02": "「手工／自家製作的曲奇」與本句語境不同。"
+        "cookie-mcq-05": "本句的「session cookie」指「通常只在一次瀏覽工作階段中存在的 Cookie」。",
+        "cookie-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-05"
     },
@@ -518,11 +498,9 @@ export default {
       "masked": "The website uses a ____ to maintain your login session.",
       "options": [
         "cookie-mcq-05",
-        "cookie-mcq-04",
-        "cookie-mcq-06",
-        "cookie-mcq-03",
-        "cookie-mcq-07",
-        "cookie-mcq-02"
+        "cookie-mcq-13",
+        "cookie-mcq-14",
+        "cookie-mcq-10"
       ],
       "explanation": "本句的「session cookie」指「通常只在一次瀏覽工作階段中存在的 Cookie」。",
       "sentenceIndex": 11,
@@ -531,12 +509,10 @@ export default {
         "session cookie"
       ],
       "optionReasons": {
-        "cookie-mcq-05": "本句指「通常只在一次瀏覽工作階段中存在的 Cookie」。",
-        "cookie-mcq-04": "「由瀏覽器儲存及管理的網站 Cookie」與本句語境不同。",
-        "cookie-mcq-06": "「關閉瀏覽器後仍可保留至到期／被刪除的 Cookie」與本句語境不同。",
-        "cookie-mcq-03": "「網站透過瀏覽器儲存的小型資料，用來記錄工作階段、偏好等」與本句語境不同。",
-        "cookie-mcq-07": "「與使用者正在瀏覽的網站本身相關的 Cookie」與本句語境不同。",
-        "cookie-mcq-02": "「手工／自家製作的曲奇」與本句語境不同。"
+        "cookie-mcq-05": "本句的「session cookie」指「通常只在一次瀏覽工作階段中存在的 Cookie」。",
+        "cookie-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-05"
     },
@@ -548,11 +524,9 @@ export default {
       "masked": "A ____ can remember your preferences between visits.",
       "options": [
         "cookie-mcq-06",
-        "cookie-mcq-05",
-        "cookie-mcq-07",
-        "cookie-mcq-04",
-        "cookie-mcq-08",
-        "cookie-mcq-03"
+        "cookie-mcq-16",
+        "cookie-mcq-14",
+        "cookie-mcq-15"
       ],
       "explanation": "本句的「persistent cookie」指「關閉瀏覽器後仍可保留至到期／被刪除的 Cookie」。",
       "sentenceIndex": 12,
@@ -561,12 +535,10 @@ export default {
         "persistent cookie"
       ],
       "optionReasons": {
-        "cookie-mcq-06": "本句指「關閉瀏覽器後仍可保留至到期／被刪除的 Cookie」。",
-        "cookie-mcq-05": "「通常只在一次瀏覽工作階段中存在的 Cookie」與本句語境不同。",
-        "cookie-mcq-07": "「與使用者正在瀏覽的網站本身相關的 Cookie」與本句語境不同。",
-        "cookie-mcq-04": "「由瀏覽器儲存及管理的網站 Cookie」與本句語境不同。",
-        "cookie-mcq-08": "「與頁面內另一網域／服務相關的第三方 Cookie」與本句語境不同。",
-        "cookie-mcq-03": "「網站透過瀏覽器儲存的小型資料，用來記錄工作階段、偏好等」與本句語境不同。"
+        "cookie-mcq-06": "本句的「persistent cookie」指「關閉瀏覽器後仍可保留至到期／被刪除的 Cookie」。",
+        "cookie-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-06"
     },
@@ -578,11 +550,9 @@ export default {
       "masked": "The browser stored several ____.",
       "options": [
         "cookie-mcq-06",
-        "cookie-mcq-05",
-        "cookie-mcq-07",
-        "cookie-mcq-04",
-        "cookie-mcq-08",
-        "cookie-mcq-03"
+        "cookie-mcq-19",
+        "cookie-mcq-14",
+        "cookie-mcq-20"
       ],
       "explanation": "本句的「persistent cookies」指「關閉瀏覽器後仍可保留至到期／被刪除的 Cookie」。",
       "sentenceIndex": 13,
@@ -591,12 +561,10 @@ export default {
         "persistent cookies"
       ],
       "optionReasons": {
-        "cookie-mcq-06": "本句指「關閉瀏覽器後仍可保留至到期／被刪除的 Cookie」。",
-        "cookie-mcq-05": "「通常只在一次瀏覽工作階段中存在的 Cookie」與本句語境不同。",
-        "cookie-mcq-07": "「與使用者正在瀏覽的網站本身相關的 Cookie」與本句語境不同。",
-        "cookie-mcq-04": "「由瀏覽器儲存及管理的網站 Cookie」與本句語境不同。",
-        "cookie-mcq-08": "「與頁面內另一網域／服務相關的第三方 Cookie」與本句語境不同。",
-        "cookie-mcq-03": "「網站透過瀏覽器儲存的小型資料，用來記錄工作階段、偏好等」與本句語境不同。"
+        "cookie-mcq-06": "本句的「persistent cookies」指「關閉瀏覽器後仍可保留至到期／被刪除的 Cookie」。",
+        "cookie-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-06"
     },
@@ -608,11 +576,9 @@ export default {
       "masked": "She’s a ____.",
       "options": [
         "cookie-mcq-10",
-        "cookie-mcq-09",
-        "cookie-mcq-11",
-        "cookie-mcq-08",
-        "cookie-mcq-12",
-        "cookie-mcq-07"
+        "cookie-mcq-18",
+        "cookie-mcq-02",
+        "cookie-mcq-04"
       ],
       "explanation": "本句的「smart cookie」指「聰明、精明或能力很強的人」。",
       "sentenceIndex": 16,
@@ -621,12 +587,10 @@ export default {
         "smart cookie"
       ],
       "optionReasons": {
-        "cookie-mcq-10": "本句指「聰明、精明或能力很強的人」。",
-        "cookie-mcq-09": "「在固定搭配中指某種類型／性格的人」與本句語境不同。",
-        "cookie-mcq-11": "「堅強、有韌性或不好對付的人」與本句語境不同。",
-        "cookie-mcq-08": "「與頁面內另一網域／服務相關的第三方 Cookie」與本句語境不同。",
-        "cookie-mcq-12": "「非正式：冷靜、自信或很有型的人」與本句語境不同。",
-        "cookie-mcq-07": "「與使用者正在瀏覽的網站本身相關的 Cookie」與本句語境不同。"
+        "cookie-mcq-10": "本句的「smart cookie」指「聰明、精明或能力很強的人」。",
+        "cookie-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-10"
     },
@@ -638,11 +602,9 @@ export default {
       "masked": "You figured that out quickly—you’re a ____.",
       "options": [
         "cookie-mcq-10",
-        "cookie-mcq-09",
-        "cookie-mcq-11",
-        "cookie-mcq-08",
-        "cookie-mcq-12",
-        "cookie-mcq-07"
+        "cookie-mcq-02",
+        "cookie-mcq-04",
+        "cookie-mcq-18"
       ],
       "explanation": "本句的「smart cookie」指「聰明、精明或能力很強的人」。",
       "sentenceIndex": 17,
@@ -651,12 +613,10 @@ export default {
         "smart cookie"
       ],
       "optionReasons": {
-        "cookie-mcq-10": "本句指「聰明、精明或能力很強的人」。",
-        "cookie-mcq-09": "「在固定搭配中指某種類型／性格的人」與本句語境不同。",
-        "cookie-mcq-11": "「堅強、有韌性或不好對付的人」與本句語境不同。",
-        "cookie-mcq-08": "「與頁面內另一網域／服務相關的第三方 Cookie」與本句語境不同。",
-        "cookie-mcq-12": "「非正式：冷靜、自信或很有型的人」與本句語境不同。",
-        "cookie-mcq-07": "「與使用者正在瀏覽的網站本身相關的 Cookie」與本句語境不同。"
+        "cookie-mcq-10": "本句的「smart cookie」指「聰明、精明或能力很強的人」。",
+        "cookie-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-10"
     },
@@ -668,11 +628,9 @@ export default {
       "masked": "She has been through a lot, but she’s a ____.",
       "options": [
         "cookie-mcq-11",
-        "cookie-mcq-10",
-        "cookie-mcq-12",
-        "cookie-mcq-09",
         "cookie-mcq-13",
-        "cookie-mcq-08"
+        "cookie-mcq-04",
+        "cookie-mcq-19"
       ],
       "explanation": "本句的「tough cookie」指「堅強、有韌性或不好對付的人」。",
       "sentenceIndex": 18,
@@ -681,12 +639,10 @@ export default {
         "tough cookie"
       ],
       "optionReasons": {
-        "cookie-mcq-11": "本句指「堅強、有韌性或不好對付的人」。",
-        "cookie-mcq-10": "「聰明、精明或能力很強的人」與本句語境不同。",
-        "cookie-mcq-12": "「非正式：冷靜、自信或很有型的人」與本句語境不同。",
-        "cookie-mcq-09": "「在固定搭配中指某種類型／性格的人」與本句語境不同。",
-        "cookie-mcq-13": "「把曲奇麵糰切成特定形狀的曲奇模」與本句語境不同。",
-        "cookie-mcq-08": "「與頁面內另一網域／服務相關的第三方 Cookie」與本句語境不同。"
+        "cookie-mcq-11": "本句的「tough cookie」指「堅強、有韌性或不好對付的人」。",
+        "cookie-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-11"
     },
@@ -698,11 +654,9 @@ export default {
       "masked": "Don’t underestimate him—he’s a ____.",
       "options": [
         "cookie-mcq-11",
-        "cookie-mcq-10",
-        "cookie-mcq-12",
-        "cookie-mcq-09",
-        "cookie-mcq-13",
-        "cookie-mcq-08"
+        "cookie-mcq-02",
+        "cookie-mcq-06",
+        "cookie-mcq-15"
       ],
       "explanation": "本句的「tough cookie」指「堅強、有韌性或不好對付的人」。",
       "sentenceIndex": 19,
@@ -711,12 +665,10 @@ export default {
         "tough cookie"
       ],
       "optionReasons": {
-        "cookie-mcq-11": "本句指「堅強、有韌性或不好對付的人」。",
-        "cookie-mcq-10": "「聰明、精明或能力很強的人」與本句語境不同。",
-        "cookie-mcq-12": "「非正式：冷靜、自信或很有型的人」與本句語境不同。",
-        "cookie-mcq-09": "「在固定搭配中指某種類型／性格的人」與本句語境不同。",
-        "cookie-mcq-13": "「把曲奇麵糰切成特定形狀的曲奇模」與本句語境不同。",
-        "cookie-mcq-08": "「與頁面內另一網域／服務相關的第三方 Cookie」與本句語境不同。"
+        "cookie-mcq-11": "本句的「tough cookie」指「堅強、有韌性或不好對付的人」。",
+        "cookie-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-11"
     },
@@ -728,11 +680,9 @@ export default {
       "masked": "Use a star-shaped ____.",
       "options": [
         "cookie-mcq-13",
-        "cookie-mcq-12",
-        "cookie-mcq-14",
-        "cookie-mcq-11",
         "cookie-mcq-15",
-        "cookie-mcq-10"
+        "cookie-mcq-04",
+        "cookie-mcq-19"
       ],
       "explanation": "本句的「cookie cutter」指「把曲奇麵糰切成特定形狀的曲奇模」。",
       "sentenceIndex": 22,
@@ -741,12 +691,10 @@ export default {
         "cookie cutter"
       ],
       "optionReasons": {
-        "cookie-mcq-13": "本句指「把曲奇麵糰切成特定形狀的曲奇模」。",
-        "cookie-mcq-12": "「非正式：冷靜、自信或很有型的人」與本句語境不同。",
-        "cookie-mcq-14": "「像同一模具大量製造般千篇一律、制式化的」與本句語境不同。",
-        "cookie-mcq-11": "「堅強、有韌性或不好對付的人」與本句語境不同。",
-        "cookie-mcq-15": "「內藏籤語紙條的幸運餅」與本句語境不同。",
-        "cookie-mcq-10": "「聰明、精明或能力很強的人」與本句語境不同。"
+        "cookie-mcq-13": "本句的「cookie cutter」指「把曲奇麵糰切成特定形狀的曲奇模」。",
+        "cookie-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-13"
     },
@@ -758,11 +706,9 @@ export default {
       "masked": "She cut the dough with a ____.",
       "options": [
         "cookie-mcq-13",
-        "cookie-mcq-12",
-        "cookie-mcq-14",
-        "cookie-mcq-11",
-        "cookie-mcq-15",
-        "cookie-mcq-10"
+        "cookie-mcq-19",
+        "cookie-mcq-18",
+        "cookie-mcq-04"
       ],
       "explanation": "本句的「cookie cutter」指「把曲奇麵糰切成特定形狀的曲奇模」。",
       "sentenceIndex": 23,
@@ -771,12 +717,10 @@ export default {
         "cookie cutter"
       ],
       "optionReasons": {
-        "cookie-mcq-13": "本句指「把曲奇麵糰切成特定形狀的曲奇模」。",
-        "cookie-mcq-12": "「非正式：冷靜、自信或很有型的人」與本句語境不同。",
-        "cookie-mcq-14": "「像同一模具大量製造般千篇一律、制式化的」與本句語境不同。",
-        "cookie-mcq-11": "「堅強、有韌性或不好對付的人」與本句語境不同。",
-        "cookie-mcq-15": "「內藏籤語紙條的幸運餅」與本句語境不同。",
-        "cookie-mcq-10": "「聰明、精明或能力很強的人」與本句語境不同。"
+        "cookie-mcq-13": "本句的「cookie cutter」指「把曲奇麵糰切成特定形狀的曲奇模」。",
+        "cookie-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-13"
     },
@@ -788,10 +732,8 @@ export default {
       "masked": "The neighborhood is full of ____.",
       "options": [
         "cookie-mcq-14",
-        "cookie-mcq-13",
-        "cookie-mcq-15",
-        "cookie-mcq-12",
-        "cookie-mcq-16",
+        "cookie-mcq-10",
+        "cookie-mcq-06",
         "cookie-mcq-11"
       ],
       "explanation": "本句的「cookie-cutter houses」指「像同一模具大量製造般千篇一律、制式化的」。",
@@ -801,12 +743,10 @@ export default {
         "cookie-cutter houses"
       ],
       "optionReasons": {
-        "cookie-mcq-14": "本句指「像同一模具大量製造般千篇一律、制式化的」。",
-        "cookie-mcq-13": "「把曲奇麵糰切成特定形狀的曲奇模」與本句語境不同。",
-        "cookie-mcq-15": "「內藏籤語紙條的幸運餅」與本句語境不同。",
-        "cookie-mcq-12": "「非正式：冷靜、自信或很有型的人」與本句語境不同。",
-        "cookie-mcq-16": "「尚未烘焙的曲奇麵糰」與本句語境不同。",
-        "cookie-mcq-11": "「堅強、有韌性或不好對付的人」與本句語境不同。"
+        "cookie-mcq-14": "本句的「cookie-cutter houses」指「像同一模具大量製造般千篇一律、制式化的」。",
+        "cookie-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-14"
     },
@@ -818,11 +758,9 @@ export default {
       "masked": "We don’t want a ____.",
       "options": [
         "cookie-mcq-14",
-        "cookie-mcq-13",
+        "cookie-mcq-10",
         "cookie-mcq-15",
-        "cookie-mcq-12",
-        "cookie-mcq-16",
-        "cookie-mcq-11"
+        "cookie-mcq-05"
       ],
       "explanation": "本句的「cookie-cutter solution」指「像同一模具大量製造般千篇一律、制式化的」。",
       "sentenceIndex": 25,
@@ -831,12 +769,10 @@ export default {
         "cookie-cutter solution"
       ],
       "optionReasons": {
-        "cookie-mcq-14": "本句指「像同一模具大量製造般千篇一律、制式化的」。",
-        "cookie-mcq-13": "「把曲奇麵糰切成特定形狀的曲奇模」與本句語境不同。",
-        "cookie-mcq-15": "「內藏籤語紙條的幸運餅」與本句語境不同。",
-        "cookie-mcq-12": "「非正式：冷靜、自信或很有型的人」與本句語境不同。",
-        "cookie-mcq-16": "「尚未烘焙的曲奇麵糰」與本句語境不同。",
-        "cookie-mcq-11": "「堅強、有韌性或不好對付的人」與本句語境不同。"
+        "cookie-mcq-14": "本句的「cookie-cutter solution」指「像同一模具大量製造般千篇一律、制式化的」。",
+        "cookie-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-14"
     },
@@ -848,11 +784,9 @@ export default {
       "masked": "She opened the ____ and read the message.",
       "options": [
         "cookie-mcq-15",
-        "cookie-mcq-14",
-        "cookie-mcq-16",
-        "cookie-mcq-13",
-        "cookie-mcq-17",
-        "cookie-mcq-12"
+        "cookie-mcq-11",
+        "cookie-mcq-05",
+        "cookie-mcq-10"
       ],
       "explanation": "本句的「fortune cookie」指「內藏籤語紙條的幸運餅」。",
       "sentenceIndex": 26,
@@ -861,12 +795,10 @@ export default {
         "fortune cookie"
       ],
       "optionReasons": {
-        "cookie-mcq-15": "本句指「內藏籤語紙條的幸運餅」。",
-        "cookie-mcq-14": "「像同一模具大量製造般千篇一律、制式化的」與本句語境不同。",
-        "cookie-mcq-16": "「尚未烘焙的曲奇麵糰」與本句語境不同。",
-        "cookie-mcq-13": "「把曲奇麵糰切成特定形狀的曲奇模」與本句語境不同。",
-        "cookie-mcq-17": "「儲存曲奇／餅乾的罐子」與本句語境不同。",
-        "cookie-mcq-12": "「非正式：冷靜、自信或很有型的人」與本句語境不同。"
+        "cookie-mcq-15": "本句的「fortune cookie」指「內藏籤語紙條的幸運餅」。",
+        "cookie-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-15"
     },
@@ -878,11 +810,9 @@ export default {
       "masked": "Each ____ contained a short saying.",
       "options": [
         "cookie-mcq-15",
-        "cookie-mcq-14",
-        "cookie-mcq-16",
-        "cookie-mcq-13",
-        "cookie-mcq-17",
-        "cookie-mcq-12"
+        "cookie-mcq-18",
+        "cookie-mcq-11",
+        "cookie-mcq-02"
       ],
       "explanation": "本句的「fortune cookie」指「內藏籤語紙條的幸運餅」。",
       "sentenceIndex": 27,
@@ -891,12 +821,10 @@ export default {
         "fortune cookie"
       ],
       "optionReasons": {
-        "cookie-mcq-15": "本句指「內藏籤語紙條的幸運餅」。",
-        "cookie-mcq-14": "「像同一模具大量製造般千篇一律、制式化的」與本句語境不同。",
-        "cookie-mcq-16": "「尚未烘焙的曲奇麵糰」與本句語境不同。",
-        "cookie-mcq-13": "「把曲奇麵糰切成特定形狀的曲奇模」與本句語境不同。",
-        "cookie-mcq-17": "「儲存曲奇／餅乾的罐子」與本句語境不同。",
-        "cookie-mcq-12": "「非正式：冷靜、自信或很有型的人」與本句語境不同。"
+        "cookie-mcq-15": "本句的「fortune cookie」指「內藏籤語紙條的幸運餅」。",
+        "cookie-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-15"
     },
@@ -908,11 +836,9 @@ export default {
       "masked": "Chill the ____ before baking.",
       "options": [
         "cookie-mcq-16",
+        "cookie-mcq-11",
         "cookie-mcq-15",
-        "cookie-mcq-17",
-        "cookie-mcq-14",
-        "cookie-mcq-18",
-        "cookie-mcq-13"
+        "cookie-mcq-05"
       ],
       "explanation": "本句的「cookie dough」指「尚未烘焙的曲奇麵糰」。",
       "sentenceIndex": 28,
@@ -921,12 +847,10 @@ export default {
         "cookie dough"
       ],
       "optionReasons": {
-        "cookie-mcq-16": "本句指「尚未烘焙的曲奇麵糰」。",
-        "cookie-mcq-15": "「內藏籤語紙條的幸運餅」與本句語境不同。",
-        "cookie-mcq-17": "「儲存曲奇／餅乾的罐子」與本句語境不同。",
-        "cookie-mcq-14": "「像同一模具大量製造般千篇一律、制式化的」與本句語境不同。",
-        "cookie-mcq-18": "「事情就是這樣；遇到不理想結果也只能接受」與本句語境不同。",
-        "cookie-mcq-13": "「把曲奇麵糰切成特定形狀的曲奇模」與本句語境不同。"
+        "cookie-mcq-16": "本句的「cookie dough」指「尚未烘焙的曲奇麵糰」。",
+        "cookie-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-16"
     },
@@ -939,10 +863,8 @@ export default {
       "options": [
         "cookie-mcq-16",
         "cookie-mcq-15",
-        "cookie-mcq-17",
-        "cookie-mcq-14",
-        "cookie-mcq-18",
-        "cookie-mcq-13"
+        "cookie-mcq-19",
+        "cookie-mcq-06"
       ],
       "explanation": "本句的「cookie dough」指「尚未烘焙的曲奇麵糰」。",
       "sentenceIndex": 29,
@@ -951,12 +873,10 @@ export default {
         "cookie dough"
       ],
       "optionReasons": {
-        "cookie-mcq-16": "本句指「尚未烘焙的曲奇麵糰」。",
-        "cookie-mcq-15": "「內藏籤語紙條的幸運餅」與本句語境不同。",
-        "cookie-mcq-17": "「儲存曲奇／餅乾的罐子」與本句語境不同。",
-        "cookie-mcq-14": "「像同一模具大量製造般千篇一律、制式化的」與本句語境不同。",
-        "cookie-mcq-18": "「事情就是這樣；遇到不理想結果也只能接受」與本句語境不同。",
-        "cookie-mcq-13": "「把曲奇麵糰切成特定形狀的曲奇模」與本句語境不同。"
+        "cookie-mcq-16": "本句的「cookie dough」指「尚未烘焙的曲奇麵糰」。",
+        "cookie-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-16"
     },
@@ -968,11 +888,9 @@ export default {
       "masked": "I didn’t get the job, but ____.",
       "options": [
         "cookie-mcq-18",
-        "cookie-mcq-17",
-        "cookie-mcq-19",
-        "cookie-mcq-16",
-        "cookie-mcq-20",
-        "cookie-mcq-15"
+        "cookie-mcq-02",
+        "cookie-mcq-15",
+        "cookie-mcq-10"
       ],
       "explanation": "本句的「that’s the way the cookie crumbles」指「事情就是這樣；遇到不理想結果也只能接受」。",
       "sentenceIndex": 30,
@@ -981,12 +899,10 @@ export default {
         "that’s the way the cookie crumbles"
       ],
       "optionReasons": {
-        "cookie-mcq-18": "本句指「事情就是這樣；遇到不理想結果也只能接受」。",
-        "cookie-mcq-17": "「儲存曲奇／餅乾的罐子」與本句語境不同。",
-        "cookie-mcq-19": "「正在做不誠實／不該做的事時被當場抓到」與本句語境不同。",
-        "cookie-mcq-16": "「尚未烘焙的曲奇麵糰」與本句語境不同。",
-        "cookie-mcq-20": "「加入曲奇碎的忌廉／奶油類甜品口味」與本句語境不同。",
-        "cookie-mcq-15": "「內藏籤語紙條的幸運餅」與本句語境不同。"
+        "cookie-mcq-18": "本句的「that’s the way the cookie crumbles」指「事情就是這樣；遇到不理想結果也只能接受」。",
+        "cookie-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-18"
     },
@@ -998,11 +914,9 @@ export default {
       "masked": "Sometimes plans fail—that’s just ____.",
       "options": [
         "cookie-mcq-18",
-        "cookie-mcq-17",
-        "cookie-mcq-19",
-        "cookie-mcq-16",
-        "cookie-mcq-20",
-        "cookie-mcq-15"
+        "cookie-mcq-02",
+        "cookie-mcq-11",
+        "cookie-mcq-06"
       ],
       "explanation": "本句的「the way the cookie crumbles」指「事情就是這樣；遇到不理想結果也只能接受」。",
       "sentenceIndex": 31,
@@ -1011,12 +925,10 @@ export default {
         "the way the cookie crumbles"
       ],
       "optionReasons": {
-        "cookie-mcq-18": "本句指「事情就是這樣；遇到不理想結果也只能接受」。",
-        "cookie-mcq-17": "「儲存曲奇／餅乾的罐子」與本句語境不同。",
-        "cookie-mcq-19": "「正在做不誠實／不該做的事時被當場抓到」與本句語境不同。",
-        "cookie-mcq-16": "「尚未烘焙的曲奇麵糰」與本句語境不同。",
-        "cookie-mcq-20": "「加入曲奇碎的忌廉／奶油類甜品口味」與本句語境不同。",
-        "cookie-mcq-15": "「內藏籤語紙條的幸運餅」與本句語境不同。"
+        "cookie-mcq-18": "本句的「the way the cookie crumbles」指「事情就是這樣；遇到不理想結果也只能接受」。",
+        "cookie-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-18"
     },
@@ -1028,11 +940,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "cookie-mcq-19",
-        "cookie-mcq-18",
+        "cookie-mcq-05",
         "cookie-mcq-20",
-        "cookie-mcq-17",
-        "cookie-mcq-16",
-        "cookie-mcq-15"
+        "cookie-mcq-18"
       ],
       "explanation": "本句的「caught with his hand in the cookie jar」指「正在做不誠實／不該做的事時被當場抓到」。",
       "sentenceIndex": 32,
@@ -1041,12 +951,10 @@ export default {
         "caught with his hand in the cookie jar"
       ],
       "optionReasons": {
-        "cookie-mcq-19": "本句指「正在做不誠實／不該做的事時被當場抓到」。",
-        "cookie-mcq-18": "「事情就是這樣；遇到不理想結果也只能接受」與本句語境不同。",
-        "cookie-mcq-20": "「加入曲奇碎的忌廉／奶油類甜品口味」與本句語境不同。",
-        "cookie-mcq-17": "「儲存曲奇／餅乾的罐子」與本句語境不同。",
-        "cookie-mcq-16": "「尚未烘焙的曲奇麵糰」與本句語境不同。",
-        "cookie-mcq-15": "「內藏籤語紙條的幸運餅」與本句語境不同。"
+        "cookie-mcq-19": "本句的「caught with his hand in the cookie jar」指「正在做不誠實／不該做的事時被當場抓到」。",
+        "cookie-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-19"
     },
@@ -1058,11 +966,9 @@ export default {
       "masked": "She ordered ____ ice cream.",
       "options": [
         "cookie-mcq-20",
+        "cookie-mcq-11",
         "cookie-mcq-19",
-        "cookie-mcq-18",
-        "cookie-mcq-17",
-        "cookie-mcq-16",
-        "cookie-mcq-15"
+        "cookie-mcq-10"
       ],
       "explanation": "本句的「cookies and cream」指「加入曲奇碎的忌廉／奶油類甜品口味」。",
       "sentenceIndex": 33,
@@ -1071,12 +977,10 @@ export default {
         "cookies and cream"
       ],
       "optionReasons": {
-        "cookie-mcq-20": "本句指「加入曲奇碎的忌廉／奶油類甜品口味」。",
-        "cookie-mcq-19": "「正在做不誠實／不該做的事時被當場抓到」與本句語境不同。",
-        "cookie-mcq-18": "「事情就是這樣；遇到不理想結果也只能接受」與本句語境不同。",
-        "cookie-mcq-17": "「儲存曲奇／餅乾的罐子」與本句語境不同。",
-        "cookie-mcq-16": "「尚未烘焙的曲奇麵糰」與本句語境不同。",
-        "cookie-mcq-15": "「內藏籤語紙條的幸運餅」與本句語境不同。"
+        "cookie-mcq-20": "本句的「cookies and cream」指「加入曲奇碎的忌廉／奶油類甜品口味」。",
+        "cookie-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "cookie-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cookie-mcq-20"
     }
@@ -1088,5 +992,7 @@ export default {
     "sha256": "9448bc525945902a57571ad292e592322e8b229d263a6f7c678d717496bba9a4",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

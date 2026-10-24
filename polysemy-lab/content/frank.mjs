@@ -320,11 +320,7 @@ export default {
       "masked": "She was very ____ about her mistakes.",
       "options": [
         "frank-mcq-01",
-        "frank-mcq-02",
-        "frank-mcq-03",
-        "frank-mcq-04",
-        "frank-mcq-05",
-        "frank-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「frank」指「坦率的；直率的」。",
       "sentenceIndex": 0,
@@ -333,12 +329,8 @@ export default {
         "frank"
       ],
       "optionReasons": {
-        "frank-mcq-01": "本句指「坦率的；直率的」。",
-        "frank-mcq-02": "「對某人坦白」與本句語境不同。",
-        "frank-mcq-03": "「坦率談 X」與本句語境不同。",
-        "frank-mcq-04": "「坦率討論」與本句語境不同。",
-        "frank-mcq-05": "「坦白承認」與本句語境不同。",
-        "frank-mcq-06": "「坦率評估」與本句語境不同。"
+        "frank-mcq-01": "本句的「frank」指「坦率的；直率的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-01"
     },
@@ -350,11 +342,7 @@ export default {
       "masked": "I appreciate your ____ answer.",
       "options": [
         "frank-mcq-01",
-        "frank-mcq-02",
-        "frank-mcq-03",
-        "frank-mcq-04",
-        "frank-mcq-05",
-        "frank-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「frank」指「坦率的；直率的」。",
       "sentenceIndex": 1,
@@ -363,12 +351,8 @@ export default {
         "frank"
       ],
       "optionReasons": {
-        "frank-mcq-01": "本句指「坦率的；直率的」。",
-        "frank-mcq-02": "「對某人坦白」與本句語境不同。",
-        "frank-mcq-03": "「坦率談 X」與本句語境不同。",
-        "frank-mcq-04": "「坦率討論」與本句語境不同。",
-        "frank-mcq-05": "「坦白承認」與本句語境不同。",
-        "frank-mcq-06": "「坦率評估」與本句語境不同。"
+        "frank-mcq-01": "本句的「frank」指「坦率的；直率的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-01"
     },
@@ -380,11 +364,7 @@ export default {
       "masked": "We had a ____ about the problem.",
       "options": [
         "frank-mcq-01",
-        "frank-mcq-02",
-        "frank-mcq-03",
-        "frank-mcq-04",
-        "frank-mcq-05",
-        "frank-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「frank conversation」指「坦率的；直率的」。",
       "sentenceIndex": 2,
@@ -393,12 +373,8 @@ export default {
         "frank conversation"
       ],
       "optionReasons": {
-        "frank-mcq-01": "本句指「坦率的；直率的」。",
-        "frank-mcq-02": "「對某人坦白」與本句語境不同。",
-        "frank-mcq-03": "「坦率談 X」與本句語境不同。",
-        "frank-mcq-04": "「坦率討論」與本句語境不同。",
-        "frank-mcq-05": "「坦白承認」與本句語境不同。",
-        "frank-mcq-06": "「坦率評估」與本句語境不同。"
+        "frank-mcq-01": "本句的「frank conversation」指「坦率的；直率的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-01"
     },
@@ -410,11 +386,7 @@ export default {
       "masked": "I'll ____.",
       "options": [
         "frank-mcq-02",
-        "frank-mcq-01",
-        "frank-mcq-03",
-        "frank-mcq-04",
-        "frank-mcq-05",
-        "frank-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「be frank with you」指「對某人坦白」。",
       "sentenceIndex": 3,
@@ -423,12 +395,8 @@ export default {
         "be frank with you"
       ],
       "optionReasons": {
-        "frank-mcq-02": "本句指「對某人坦白」。",
-        "frank-mcq-01": "「坦率的；直率的」與本句語境不同。",
-        "frank-mcq-03": "「坦率談 X」與本句語境不同。",
-        "frank-mcq-04": "「坦率討論」與本句語境不同。",
-        "frank-mcq-05": "「坦白承認」與本句語境不同。",
-        "frank-mcq-06": "「坦率評估」與本句語境不同。"
+        "frank-mcq-02": "本句的「be frank with you」指「對某人坦白」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-02"
     },
@@ -440,11 +408,7 @@ export default {
       "masked": "She was ____ about the difficulties.",
       "options": [
         "frank-mcq-02",
-        "frank-mcq-01",
-        "frank-mcq-03",
-        "frank-mcq-04",
-        "frank-mcq-05",
-        "frank-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「frank with her manager」指「對某人坦白」。",
       "sentenceIndex": 4,
@@ -453,12 +417,8 @@ export default {
         "frank with her manager"
       ],
       "optionReasons": {
-        "frank-mcq-02": "本句指「對某人坦白」。",
-        "frank-mcq-01": "「坦率的；直率的」與本句語境不同。",
-        "frank-mcq-03": "「坦率談 X」與本句語境不同。",
-        "frank-mcq-04": "「坦率討論」與本句語境不同。",
-        "frank-mcq-05": "「坦白承認」與本句語境不同。",
-        "frank-mcq-06": "「坦率評估」與本句語境不同。"
+        "frank-mcq-02": "本句的「frank with her manager」指「對某人坦白」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-02"
     },
@@ -470,11 +430,7 @@ export default {
       "masked": "He was ____.",
       "options": [
         "frank-mcq-03",
-        "frank-mcq-02",
-        "frank-mcq-04",
-        "frank-mcq-01",
-        "frank-mcq-05",
-        "frank-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「frank about his lack of experience」指「坦率談 X」。",
       "sentenceIndex": 5,
@@ -483,12 +439,8 @@ export default {
         "frank about his lack of experience"
       ],
       "optionReasons": {
-        "frank-mcq-03": "本句指「坦率談 X」。",
-        "frank-mcq-02": "「對某人坦白」與本句語境不同。",
-        "frank-mcq-04": "「坦率討論」與本句語境不同。",
-        "frank-mcq-01": "「坦率的；直率的」與本句語境不同。",
-        "frank-mcq-05": "「坦白承認」與本句語境不同。",
-        "frank-mcq-06": "「坦率評估」與本句語境不同。"
+        "frank-mcq-03": "本句的「frank about his lack of experience」指「坦率談 X」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-03"
     },
@@ -500,11 +452,7 @@ export default {
       "masked": "We need to be ____.",
       "options": [
         "frank-mcq-03",
-        "frank-mcq-02",
-        "frank-mcq-04",
-        "frank-mcq-01",
-        "frank-mcq-05",
-        "frank-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「frank about the risks」指「坦率談 X」。",
       "sentenceIndex": 6,
@@ -513,12 +461,8 @@ export default {
         "frank about the risks"
       ],
       "optionReasons": {
-        "frank-mcq-03": "本句指「坦率談 X」。",
-        "frank-mcq-02": "「對某人坦白」與本句語境不同。",
-        "frank-mcq-04": "「坦率討論」與本句語境不同。",
-        "frank-mcq-01": "「坦率的；直率的」與本句語境不同。",
-        "frank-mcq-05": "「坦白承認」與本句語境不同。",
-        "frank-mcq-06": "「坦率評估」與本句語境不同。"
+        "frank-mcq-03": "本句的「frank about the risks」指「坦率談 X」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-03"
     },
@@ -530,11 +474,8 @@ export default {
       "masked": "They had a ____ about what went wrong.",
       "options": [
         "frank-mcq-04",
-        "frank-mcq-03",
         "frank-mcq-05",
-        "frank-mcq-02",
-        "frank-mcq-06",
-        "frank-mcq-01"
+        "frank-mcq-07"
       ],
       "explanation": "本句的「frank discussion」指「坦率討論」。",
       "sentenceIndex": 7,
@@ -543,12 +484,9 @@ export default {
         "frank discussion"
       ],
       "optionReasons": {
-        "frank-mcq-04": "本句指「坦率討論」。",
-        "frank-mcq-03": "「坦率談 X」與本句語境不同。",
-        "frank-mcq-05": "「坦白承認」與本句語境不同。",
-        "frank-mcq-02": "「對某人坦白」與本句語境不同。",
-        "frank-mcq-06": "「坦率評估」與本句語境不同。",
-        "frank-mcq-01": "「坦率的；直率的」與本句語境不同。"
+        "frank-mcq-04": "本句的「frank discussion」指「坦率討論」。",
+        "frank-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "frank-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-04"
     },
@@ -560,11 +498,8 @@ export default {
       "masked": "A ____ helped clear the air.",
       "options": [
         "frank-mcq-04",
-        "frank-mcq-03",
         "frank-mcq-05",
-        "frank-mcq-02",
-        "frank-mcq-06",
-        "frank-mcq-01"
+        "frank-mcq-07"
       ],
       "explanation": "本句的「frank conversation」指「坦率討論」。",
       "sentenceIndex": 8,
@@ -573,12 +508,9 @@ export default {
         "frank conversation"
       ],
       "optionReasons": {
-        "frank-mcq-04": "本句指「坦率討論」。",
-        "frank-mcq-03": "「坦率談 X」與本句語境不同。",
-        "frank-mcq-05": "「坦白承認」與本句語境不同。",
-        "frank-mcq-02": "「對某人坦白」與本句語境不同。",
-        "frank-mcq-06": "「坦率評估」與本句語境不同。",
-        "frank-mcq-01": "「坦率的；直率的」與本句語境不同。"
+        "frank-mcq-04": "本句的「frank conversation」指「坦率討論」。",
+        "frank-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "frank-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-04"
     },
@@ -590,11 +522,8 @@ export default {
       "masked": "His ____ surprised everyone.",
       "options": [
         "frank-mcq-05",
-        "frank-mcq-04",
-        "frank-mcq-06",
-        "frank-mcq-03",
         "frank-mcq-07",
-        "frank-mcq-02"
+        "frank-mcq-04"
       ],
       "explanation": "本句的「frank admission」指「坦白承認」。",
       "sentenceIndex": 9,
@@ -603,12 +532,9 @@ export default {
         "frank admission"
       ],
       "optionReasons": {
-        "frank-mcq-05": "本句指「坦白承認」。",
-        "frank-mcq-04": "「坦率討論」與本句語境不同。",
-        "frank-mcq-06": "「坦率評估」與本句語境不同。",
-        "frank-mcq-03": "「坦率談 X」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。",
-        "frank-mcq-02": "「對某人坦白」與本句語境不同。"
+        "frank-mcq-05": "本句的「frank admission」指「坦白承認」。",
+        "frank-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "frank-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-05"
     },
@@ -620,11 +546,8 @@ export default {
       "masked": "The interview included a ____.",
       "options": [
         "frank-mcq-05",
-        "frank-mcq-04",
-        "frank-mcq-06",
-        "frank-mcq-03",
         "frank-mcq-07",
-        "frank-mcq-02"
+        "frank-mcq-06"
       ],
       "explanation": "本句的「frank admission of failure」指「坦白承認」。",
       "sentenceIndex": 10,
@@ -633,12 +556,9 @@ export default {
         "frank admission of failure"
       ],
       "optionReasons": {
-        "frank-mcq-05": "本句指「坦白承認」。",
-        "frank-mcq-04": "「坦率討論」與本句語境不同。",
-        "frank-mcq-06": "「坦率評估」與本句語境不同。",
-        "frank-mcq-03": "「坦率談 X」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。",
-        "frank-mcq-02": "「對某人坦白」與本句語境不同。"
+        "frank-mcq-05": "本句的「frank admission of failure」指「坦白承認」。",
+        "frank-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "frank-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-05"
     },
@@ -650,11 +570,8 @@ export default {
       "masked": "The report gives a ____ of the situation.",
       "options": [
         "frank-mcq-06",
-        "frank-mcq-05",
         "frank-mcq-07",
-        "frank-mcq-04",
-        "frank-mcq-08",
-        "frank-mcq-03"
+        "frank-mcq-05"
       ],
       "explanation": "本句的「frank assessment」指「坦率評估」。",
       "sentenceIndex": 11,
@@ -663,12 +580,9 @@ export default {
         "frank assessment"
       ],
       "optionReasons": {
-        "frank-mcq-06": "本句指「坦率評估」。",
-        "frank-mcq-05": "「坦白承認」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。",
-        "frank-mcq-04": "「坦率討論」與本句語境不同。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-03": "「坦率談 X」與本句語境不同。"
+        "frank-mcq-06": "本句的「frank assessment」指「坦率評估」。",
+        "frank-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "frank-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-06"
     },
@@ -681,10 +595,7 @@ export default {
       "options": [
         "frank-mcq-06",
         "frank-mcq-05",
-        "frank-mcq-07",
-        "frank-mcq-04",
-        "frank-mcq-08",
-        "frank-mcq-03"
+        "frank-mcq-07"
       ],
       "explanation": "本句的「frank assessment」指「坦率評估」。",
       "sentenceIndex": 12,
@@ -693,12 +604,9 @@ export default {
         "frank assessment"
       ],
       "optionReasons": {
-        "frank-mcq-06": "本句指「坦率評估」。",
-        "frank-mcq-05": "「坦白承認」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。",
-        "frank-mcq-04": "「坦率討論」與本句語境不同。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-03": "「坦率談 X」與本句語境不同。"
+        "frank-mcq-06": "本句的「frank assessment」指「坦率評估」。",
+        "frank-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "frank-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-06"
     },
@@ -711,10 +619,7 @@ export default {
       "options": [
         "frank-mcq-07",
         "frank-mcq-06",
-        "frank-mcq-08",
-        "frank-mcq-05",
-        "frank-mcq-09",
-        "frank-mcq-04"
+        "frank-mcq-05"
       ],
       "explanation": "本句的「frank exchange of views」指「坦誠交流」。",
       "sentenceIndex": 13,
@@ -723,12 +628,9 @@ export default {
         "frank exchange of views"
       ],
       "optionReasons": {
-        "frank-mcq-07": "本句指「坦誠交流」。",
-        "frank-mcq-06": "「坦率評估」與本句語境不同。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-05": "「坦白承認」與本句語境不同。",
-        "frank-mcq-09": "「坦率地」與本句語境不同。",
-        "frank-mcq-04": "「坦率討論」與本句語境不同。"
+        "frank-mcq-07": "本句的「frank exchange of views」指「坦誠交流」。",
+        "frank-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "frank-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-07"
     },
@@ -741,10 +643,7 @@ export default {
       "options": [
         "frank-mcq-07",
         "frank-mcq-06",
-        "frank-mcq-08",
-        "frank-mcq-05",
-        "frank-mcq-09",
-        "frank-mcq-04"
+        "frank-mcq-05"
       ],
       "explanation": "本句的「frank exchange」指「坦誠交流」。",
       "sentenceIndex": 14,
@@ -753,12 +652,9 @@ export default {
         "frank exchange"
       ],
       "optionReasons": {
-        "frank-mcq-07": "本句指「坦誠交流」。",
-        "frank-mcq-06": "「坦率評估」與本句語境不同。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-05": "「坦白承認」與本句語境不同。",
-        "frank-mcq-09": "「坦率地」與本句語境不同。",
-        "frank-mcq-04": "「坦率討論」與本句語境不同。"
+        "frank-mcq-07": "本句的「frank exchange」指「坦誠交流」。",
+        "frank-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "frank-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-07"
     },
@@ -770,11 +666,7 @@ export default {
       "masked": "It made me more disciplined and, ____, much happier.",
       "options": [
         "frank-mcq-09",
-        "frank-mcq-08",
-        "frank-mcq-10",
-        "frank-mcq-07",
-        "frank-mcq-11",
-        "frank-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「frankly」指「坦率地」。",
       "sentenceIndex": 15,
@@ -783,12 +675,8 @@ export default {
         "frankly"
       ],
       "optionReasons": {
-        "frank-mcq-09": "本句指「坦率地」。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-10": "「坦白說」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。",
-        "frank-mcq-11": "「坦白講」與本句語境不同。",
-        "frank-mcq-06": "「坦率評估」與本句語境不同。"
+        "frank-mcq-09": "本句的「frankly」指「坦率地」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-09"
     },
@@ -800,11 +688,7 @@ export default {
       "masked": "____, I think we need a better system.",
       "options": [
         "frank-mcq-09",
-        "frank-mcq-08",
-        "frank-mcq-10",
-        "frank-mcq-07",
-        "frank-mcq-11",
-        "frank-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Frankly」指「坦率地」。",
       "sentenceIndex": 16,
@@ -813,12 +697,8 @@ export default {
         "Frankly"
       ],
       "optionReasons": {
-        "frank-mcq-09": "本句指「坦率地」。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-10": "「坦白說」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。",
-        "frank-mcq-11": "「坦白講」與本句語境不同。",
-        "frank-mcq-06": "「坦率評估」與本句語境不同。"
+        "frank-mcq-09": "本句的「Frankly」指「坦率地」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-09"
     },
@@ -830,11 +710,7 @@ export default {
       "masked": "____, I was disappointed.",
       "options": [
         "frank-mcq-09",
-        "frank-mcq-08",
-        "frank-mcq-10",
-        "frank-mcq-07",
-        "frank-mcq-11",
-        "frank-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Frankly」指「坦率地」。",
       "sentenceIndex": 17,
@@ -843,12 +719,8 @@ export default {
         "Frankly"
       ],
       "optionReasons": {
-        "frank-mcq-09": "本句指「坦率地」。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-10": "「坦白說」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。",
-        "frank-mcq-11": "「坦白講」與本句語境不同。",
-        "frank-mcq-06": "「坦率評估」與本句語境不同。"
+        "frank-mcq-09": "本句的「Frankly」指「坦率地」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-09"
     },
@@ -860,11 +732,7 @@ export default {
       "masked": "____, I expected a better result.",
       "options": [
         "frank-mcq-10",
-        "frank-mcq-09",
-        "frank-mcq-11",
-        "frank-mcq-08",
-        "frank-mcq-07",
-        "frank-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「To be frank」指「坦白說」。",
       "sentenceIndex": 18,
@@ -873,12 +741,8 @@ export default {
         "To be frank"
       ],
       "optionReasons": {
-        "frank-mcq-10": "本句指「坦白說」。",
-        "frank-mcq-09": "「坦率地」與本句語境不同。",
-        "frank-mcq-11": "「坦白講」與本句語境不同。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。",
-        "frank-mcq-13": "「坦率；直率」與本句語境不同。"
+        "frank-mcq-10": "本句的「To be frank」指「坦白說」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-10"
     },
@@ -890,11 +754,7 @@ export default {
       "masked": "____, the plan is too complicated.",
       "options": [
         "frank-mcq-10",
-        "frank-mcq-09",
-        "frank-mcq-11",
-        "frank-mcq-08",
-        "frank-mcq-07",
-        "frank-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「To be frank」指「坦白說」。",
       "sentenceIndex": 19,
@@ -903,12 +763,8 @@ export default {
         "To be frank"
       ],
       "optionReasons": {
-        "frank-mcq-10": "本句指「坦白說」。",
-        "frank-mcq-09": "「坦率地」與本句語境不同。",
-        "frank-mcq-11": "「坦白講」與本句語境不同。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。",
-        "frank-mcq-13": "「坦率；直率」與本句語境不同。"
+        "frank-mcq-10": "本句的「To be frank」指「坦白說」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-10"
     },
@@ -920,11 +776,7 @@ export default {
       "masked": "____, I don't agree.",
       "options": [
         "frank-mcq-11",
-        "frank-mcq-10",
-        "frank-mcq-09",
-        "frank-mcq-13",
-        "frank-mcq-08",
-        "frank-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Quite frankly」指「坦白講」。",
       "sentenceIndex": 20,
@@ -933,12 +785,8 @@ export default {
         "Quite frankly"
       ],
       "optionReasons": {
-        "frank-mcq-11": "本句指「坦白講」。",
-        "frank-mcq-10": "「坦白說」與本句語境不同。",
-        "frank-mcq-09": "「坦率地」與本句語境不同。",
-        "frank-mcq-13": "「坦率；直率」與本句語境不同。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。"
+        "frank-mcq-11": "本句的「Quite frankly」指「坦白講」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-11"
     },
@@ -950,11 +798,7 @@ export default {
       "masked": "The delay was, ____, unacceptable.",
       "options": [
         "frank-mcq-11",
-        "frank-mcq-10",
-        "frank-mcq-09",
-        "frank-mcq-13",
-        "frank-mcq-08",
-        "frank-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「quite frankly」指「坦白講」。",
       "sentenceIndex": 21,
@@ -963,12 +807,8 @@ export default {
         "quite frankly"
       ],
       "optionReasons": {
-        "frank-mcq-11": "本句指「坦白講」。",
-        "frank-mcq-10": "「坦白說」與本句語境不同。",
-        "frank-mcq-09": "「坦率地」與本句語境不同。",
-        "frank-mcq-13": "「坦率；直率」與本句語境不同。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。"
+        "frank-mcq-11": "本句的「quite frankly」指「坦白講」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-11"
     },
@@ -980,11 +820,7 @@ export default {
       "masked": "____, I found the task confusing.",
       "options": [
         "frank-mcq-12",
-        "frank-mcq-11",
-        "frank-mcq-13",
-        "frank-mcq-09",
-        "frank-mcq-08",
-        "frank-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Frankly speaking」指「坦白說」。",
       "sentenceIndex": 22,
@@ -993,12 +829,8 @@ export default {
         "Frankly speaking"
       ],
       "optionReasons": {
-        "frank-mcq-12": "本句指「坦白說」。",
-        "frank-mcq-11": "「坦白講」與本句語境不同。",
-        "frank-mcq-13": "「坦率；直率」與本句語境不同。",
-        "frank-mcq-09": "「坦率地」與本句語境不同。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。"
+        "frank-mcq-12": "本句的「Frankly speaking」指「坦白說」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-12"
     },
@@ -1010,11 +842,7 @@ export default {
       "masked": "____, we were not ready.",
       "options": [
         "frank-mcq-12",
-        "frank-mcq-11",
-        "frank-mcq-13",
-        "frank-mcq-09",
-        "frank-mcq-08",
-        "frank-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Frankly speaking」指「坦白說」。",
       "sentenceIndex": 23,
@@ -1023,12 +851,8 @@ export default {
         "Frankly speaking"
       ],
       "optionReasons": {
-        "frank-mcq-12": "本句指「坦白說」。",
-        "frank-mcq-11": "「坦白講」與本句語境不同。",
-        "frank-mcq-13": "「坦率；直率」與本句語境不同。",
-        "frank-mcq-09": "「坦率地」與本句語境不同。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。"
+        "frank-mcq-12": "本句的「Frankly speaking」指「坦白說」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-12"
     },
@@ -1040,11 +864,7 @@ export default {
       "masked": "She spoke ____ about her concerns.",
       "options": [
         "frank-mcq-12",
-        "frank-mcq-11",
-        "frank-mcq-13",
-        "frank-mcq-09",
-        "frank-mcq-08",
-        "frank-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「frankly」指「坦白說」。",
       "sentenceIndex": 24,
@@ -1053,12 +873,8 @@ export default {
         "frankly"
       ],
       "optionReasons": {
-        "frank-mcq-12": "本句指「坦白說」。",
-        "frank-mcq-11": "「坦白講」與本句語境不同。",
-        "frank-mcq-13": "「坦率；直率」與本句語境不同。",
-        "frank-mcq-09": "「坦率地」與本句語境不同。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。"
+        "frank-mcq-12": "本句的「frankly」指「坦白說」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-12"
     },
@@ -1070,11 +886,7 @@ export default {
       "masked": "He answered ____.",
       "options": [
         "frank-mcq-12",
-        "frank-mcq-11",
-        "frank-mcq-13",
-        "frank-mcq-09",
-        "frank-mcq-08",
-        "frank-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「frankly」指「坦白說」。",
       "sentenceIndex": 25,
@@ -1083,12 +895,8 @@ export default {
         "frankly"
       ],
       "optionReasons": {
-        "frank-mcq-12": "本句指「坦白說」。",
-        "frank-mcq-11": "「坦白講」與本句語境不同。",
-        "frank-mcq-13": "「坦率；直率」與本句語境不同。",
-        "frank-mcq-09": "「坦率地」與本句語境不同。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。"
+        "frank-mcq-12": "本句的「frankly」指「坦白說」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-12"
     },
@@ -1100,11 +908,7 @@ export default {
       "masked": "I appreciated her ____.",
       "options": [
         "frank-mcq-13",
-        "frank-mcq-12",
-        "frank-mcq-11",
-        "frank-mcq-09",
-        "frank-mcq-08",
-        "frank-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「frankness」指「坦率；直率」。",
       "sentenceIndex": 26,
@@ -1113,12 +917,8 @@ export default {
         "frankness"
       ],
       "optionReasons": {
-        "frank-mcq-13": "本句指「坦率；直率」。",
-        "frank-mcq-12": "「坦白說」與本句語境不同。",
-        "frank-mcq-11": "「坦白講」與本句語境不同。",
-        "frank-mcq-09": "「坦率地」與本句語境不同。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。"
+        "frank-mcq-13": "本句的「frankness」指「坦率；直率」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-13"
     },
@@ -1130,11 +930,7 @@ export default {
       "masked": "His ____ made the conversation easier.",
       "options": [
         "frank-mcq-13",
-        "frank-mcq-12",
-        "frank-mcq-11",
-        "frank-mcq-09",
-        "frank-mcq-08",
-        "frank-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「frankness」指「坦率；直率」。",
       "sentenceIndex": 27,
@@ -1143,12 +939,8 @@ export default {
         "frankness"
       ],
       "optionReasons": {
-        "frank-mcq-13": "本句指「坦率；直率」。",
-        "frank-mcq-12": "「坦白說」與本句語境不同。",
-        "frank-mcq-11": "「坦白講」與本句語境不同。",
-        "frank-mcq-09": "「坦率地」與本句語境不同。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。"
+        "frank-mcq-13": "本句的「frankness」指「坦率；直率」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-13"
     },
@@ -1160,11 +952,7 @@ export default {
       "masked": "She spoke with ____.",
       "options": [
         "frank-mcq-13",
-        "frank-mcq-12",
-        "frank-mcq-11",
-        "frank-mcq-09",
-        "frank-mcq-08",
-        "frank-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「refreshing frankness」指「坦率；直率」。",
       "sentenceIndex": 28,
@@ -1173,12 +961,8 @@ export default {
         "refreshing frankness"
       ],
       "optionReasons": {
-        "frank-mcq-13": "本句指「坦率；直率」。",
-        "frank-mcq-12": "「坦白說」與本句語境不同。",
-        "frank-mcq-11": "「坦白講」與本句語境不同。",
-        "frank-mcq-09": "「坦率地」與本句語境不同。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。"
+        "frank-mcq-13": "本句的「refreshing frankness」指「坦率；直率」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-13"
     },
@@ -1190,11 +974,7 @@ export default {
       "masked": "His ____ was refreshing.",
       "options": [
         "frank-mcq-13",
-        "frank-mcq-12",
-        "frank-mcq-11",
-        "frank-mcq-09",
-        "frank-mcq-08",
-        "frank-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「frankness」指「坦率；直率」。",
       "sentenceIndex": 29,
@@ -1203,12 +983,8 @@ export default {
         "frankness"
       ],
       "optionReasons": {
-        "frank-mcq-13": "本句指「坦率；直率」。",
-        "frank-mcq-12": "「坦白說」與本句語境不同。",
-        "frank-mcq-11": "「坦白講」與本句語境不同。",
-        "frank-mcq-09": "「坦率地」與本句語境不同。",
-        "frank-mcq-08": "「老實說；坦白說」與本句語境不同。",
-        "frank-mcq-07": "「坦誠交流」與本句語境不同。"
+        "frank-mcq-13": "本句的「frankness」指「坦率；直率」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frank-mcq-13"
     }
@@ -1220,5 +996,12 @@ export default {
     "sha256": "2e9d7a20fc01ea171471342a0f3c46d9c4342001ce98a3fc80e1acd3a363ac04",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

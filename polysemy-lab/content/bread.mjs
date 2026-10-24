@@ -284,11 +284,9 @@ export default {
       "masked": "The aroma of freshly baked ____ was drifting out onto the street.",
       "options": [
         "bread-mcq-01",
-        "bread-mcq-02",
-        "bread-mcq-03",
+        "bread-mcq-08",
         "bread-mcq-04",
-        "bread-mcq-05",
-        "bread-mcq-06"
+        "bread-mcq-09"
       ],
       "explanation": "本句的「bread」指「主要以麵粉和液體製成麵糰，再經烘焙等方式製成的麵包類食物」。",
       "sentenceIndex": 0,
@@ -297,12 +295,10 @@ export default {
         "bread"
       ],
       "optionReasons": {
-        "bread-mcq-01": "本句指「主要以麵粉和液體製成麵糰，再經烘焙等方式製成的麵包類食物」。",
-        "bread-mcq-02": "「不同種類／做法的麵包」是「breads」的用法，與本句語境不同。",
-        "bread-mcq-03": "「維持基本生活所需的食物／收入，常引申為生計」是「bread — livelihood」的用法，與本句語境不同。",
-        "bread-mcq-04": "「非正式俚語中的「錢」」是「bread — slang」的用法，與本句語境不同。",
-        "bread-mcq-05": "「在食物表面裹上一層麵包糠」是「bread — verb」的用法，與本句語境不同。",
-        "bread-mcq-06": "「食物表面已裹上麵包糠的」是「breaded」的用法，與本句語境不同。"
+        "bread-mcq-01": "本句的「bread」指「主要以麵粉和液體製成麵糰，再經烘焙等方式製成的麵包類食物」。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-01"
     },
@@ -314,11 +310,9 @@ export default {
       "masked": "They bake fresh ____ every morning.",
       "options": [
         "bread-mcq-01",
-        "bread-mcq-02",
-        "bread-mcq-03",
-        "bread-mcq-04",
-        "bread-mcq-05",
-        "bread-mcq-06"
+        "bread-mcq-08",
+        "bread-mcq-09",
+        "bread-mcq-04"
       ],
       "explanation": "本句的「bread」指「主要以麵粉和液體製成麵糰，再經烘焙等方式製成的麵包類食物」。",
       "sentenceIndex": 1,
@@ -327,12 +321,10 @@ export default {
         "bread"
       ],
       "optionReasons": {
-        "bread-mcq-01": "本句指「主要以麵粉和液體製成麵糰，再經烘焙等方式製成的麵包類食物」。",
-        "bread-mcq-02": "「不同種類／做法的麵包」是「breads」的用法，與本句語境不同。",
-        "bread-mcq-03": "「維持基本生活所需的食物／收入，常引申為生計」是「bread — livelihood」的用法，與本句語境不同。",
-        "bread-mcq-04": "「非正式俚語中的「錢」」是「bread — slang」的用法，與本句語境不同。",
-        "bread-mcq-05": "「在食物表面裹上一層麵包糠」是「bread — verb」的用法，與本句語境不同。",
-        "bread-mcq-06": "「食物表面已裹上麵包糠的」是「breaded」的用法，與本句語境不同。"
+        "bread-mcq-01": "本句的「bread」指「主要以麵粉和液體製成麵糰，再經烘焙等方式製成的麵包類食物」。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-01"
     },
@@ -344,11 +336,9 @@ export default {
       "masked": "Would you like some ____ with your soup?",
       "options": [
         "bread-mcq-01",
-        "bread-mcq-02",
-        "bread-mcq-03",
-        "bread-mcq-04",
-        "bread-mcq-05",
-        "bread-mcq-06"
+        "bread-mcq-09",
+        "bread-mcq-08",
+        "bread-mcq-04"
       ],
       "explanation": "本句的「bread」指「主要以麵粉和液體製成麵糰，再經烘焙等方式製成的麵包類食物」。",
       "sentenceIndex": 2,
@@ -357,12 +347,10 @@ export default {
         "bread"
       ],
       "optionReasons": {
-        "bread-mcq-01": "本句指「主要以麵粉和液體製成麵糰，再經烘焙等方式製成的麵包類食物」。",
-        "bread-mcq-02": "「不同種類／做法的麵包」是「breads」的用法，與本句語境不同。",
-        "bread-mcq-03": "「維持基本生活所需的食物／收入，常引申為生計」是「bread — livelihood」的用法，與本句語境不同。",
-        "bread-mcq-04": "「非正式俚語中的「錢」」是「bread — slang」的用法，與本句語境不同。",
-        "bread-mcq-05": "「在食物表面裹上一層麵包糠」是「bread — verb」的用法，與本句語境不同。",
-        "bread-mcq-06": "「食物表面已裹上麵包糠的」是「breaded」的用法，與本句語境不同。"
+        "bread-mcq-01": "本句的「bread」指「主要以麵粉和液體製成麵糰，再經烘焙等方式製成的麵包類食物」。",
+        "bread-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-01"
     },
@@ -374,11 +362,9 @@ export default {
       "masked": "The bakery sells several traditional ____.",
       "options": [
         "bread-mcq-02",
-        "bread-mcq-01",
-        "bread-mcq-03",
-        "bread-mcq-04",
-        "bread-mcq-05",
-        "bread-mcq-06"
+        "bread-mcq-11",
+        "bread-mcq-08",
+        "bread-mcq-04"
       ],
       "explanation": "本句的「breads」指「不同種類／做法的麵包」。",
       "sentenceIndex": 3,
@@ -387,12 +373,10 @@ export default {
         "breads"
       ],
       "optionReasons": {
-        "bread-mcq-02": "本句指「不同種類／做法的麵包」。",
-        "bread-mcq-01": "「主要以麵粉和液體製成麵糰，再經烘焙等方式製成的麵包類食物」是「bread — food」的用法，與本句語境不同。",
-        "bread-mcq-03": "「維持基本生活所需的食物／收入，常引申為生計」是「bread — livelihood」的用法，與本句語境不同。",
-        "bread-mcq-04": "「非正式俚語中的「錢」」是「bread — slang」的用法，與本句語境不同。",
-        "bread-mcq-05": "「在食物表面裹上一層麵包糠」是「bread — verb」的用法，與本句語境不同。",
-        "bread-mcq-06": "「食物表面已裹上麵包糠的」是「breaded」的用法，與本句語境不同。"
+        "bread-mcq-02": "本句的「breads」指「不同種類／做法的麵包」。",
+        "bread-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-02"
     },
@@ -404,11 +388,9 @@ export default {
       "masked": "Wholegrain and sourdough are two popular ____.",
       "options": [
         "bread-mcq-02",
-        "bread-mcq-01",
-        "bread-mcq-03",
+        "bread-mcq-11",
         "bread-mcq-04",
-        "bread-mcq-05",
-        "bread-mcq-06"
+        "bread-mcq-08"
       ],
       "explanation": "本句的「breads」指「不同種類／做法的麵包」。",
       "sentenceIndex": 4,
@@ -417,12 +399,10 @@ export default {
         "breads"
       ],
       "optionReasons": {
-        "bread-mcq-02": "本句指「不同種類／做法的麵包」。",
-        "bread-mcq-01": "「主要以麵粉和液體製成麵糰，再經烘焙等方式製成的麵包類食物」是「bread — food」的用法，與本句語境不同。",
-        "bread-mcq-03": "「維持基本生活所需的食物／收入，常引申為生計」是「bread — livelihood」的用法，與本句語境不同。",
-        "bread-mcq-04": "「非正式俚語中的「錢」」是「bread — slang」的用法，與本句語境不同。",
-        "bread-mcq-05": "「在食物表面裹上一層麵包糠」是「bread — verb」的用法，與本句語境不同。",
-        "bread-mcq-06": "「食物表面已裹上麵包糠的」是「breaded」的用法，與本句語境不同。"
+        "bread-mcq-02": "本句的「breads」指「不同種類／做法的麵包」。",
+        "bread-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-02"
     },
@@ -434,11 +414,9 @@ export default {
       "masked": "For many families, this work puts ____ on the table.",
       "options": [
         "bread-mcq-03",
-        "bread-mcq-02",
         "bread-mcq-04",
-        "bread-mcq-01",
-        "bread-mcq-05",
-        "bread-mcq-06"
+        "bread-mcq-08",
+        "bread-mcq-02"
       ],
       "explanation": "本句的「bread」指「維持基本生活所需的食物／收入，常引申為生計」。",
       "sentenceIndex": 5,
@@ -447,12 +425,10 @@ export default {
         "bread"
       ],
       "optionReasons": {
-        "bread-mcq-03": "本句指「維持基本生活所需的食物／收入，常引申為生計」。",
-        "bread-mcq-02": "「不同種類／做法的麵包」是「breads」的用法，與本句語境不同。",
-        "bread-mcq-04": "「非正式俚語中的「錢」」是「bread — slang」的用法，與本句語境不同。",
-        "bread-mcq-01": "「主要以麵粉和液體製成麵糰，再經烘焙等方式製成的麵包類食物」是「bread — food」的用法，與本句語境不同。",
-        "bread-mcq-05": "「在食物表面裹上一層麵包糠」是「bread — verb」的用法，與本句語境不同。",
-        "bread-mcq-06": "「食物表面已裹上麵包糠的」是「breaded」的用法，與本句語境不同。"
+        "bread-mcq-03": "本句的「bread」指「維持基本生活所需的食物／收入，常引申為生計」。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-03"
     },
@@ -466,9 +442,7 @@ export default {
         "bread-mcq-03",
         "bread-mcq-02",
         "bread-mcq-04",
-        "bread-mcq-01",
-        "bread-mcq-05",
-        "bread-mcq-06"
+        "bread-mcq-08"
       ],
       "explanation": "本句的「bread」指「維持基本生活所需的食物／收入，常引申為生計」。",
       "sentenceIndex": 6,
@@ -477,12 +451,10 @@ export default {
         "bread"
       ],
       "optionReasons": {
-        "bread-mcq-03": "本句指「維持基本生活所需的食物／收入，常引申為生計」。",
-        "bread-mcq-02": "「不同種類／做法的麵包」是「breads」的用法，與本句語境不同。",
-        "bread-mcq-04": "「非正式俚語中的「錢」」是「bread — slang」的用法，與本句語境不同。",
-        "bread-mcq-01": "「主要以麵粉和液體製成麵糰，再經烘焙等方式製成的麵包類食物」是「bread — food」的用法，與本句語境不同。",
-        "bread-mcq-05": "「在食物表面裹上一層麵包糠」是「bread — verb」的用法，與本句語境不同。",
-        "bread-mcq-06": "「食物表面已裹上麵包糠的」是「breaded」的用法，與本句語境不同。"
+        "bread-mcq-03": "本句的「bread」指「維持基本生活所需的食物／收入，常引申為生計」。",
+        "bread-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-03"
     },
@@ -494,11 +466,9 @@ export default {
       "masked": "He’s trying to earn more ____.",
       "options": [
         "bread-mcq-04",
-        "bread-mcq-03",
-        "bread-mcq-05",
-        "bread-mcq-02",
+        "bread-mcq-10",
         "bread-mcq-06",
-        "bread-mcq-01"
+        "bread-mcq-09"
       ],
       "explanation": "本句的「bread」指「非正式俚語中的「錢」」。",
       "sentenceIndex": 7,
@@ -507,12 +477,10 @@ export default {
         "bread"
       ],
       "optionReasons": {
-        "bread-mcq-04": "本句指「非正式俚語中的「錢」」。",
-        "bread-mcq-03": "「維持基本生活所需的食物／收入，常引申為生計」是「bread — livelihood」的用法，與本句語境不同。",
-        "bread-mcq-05": "「在食物表面裹上一層麵包糠」是「bread — verb」的用法，與本句語境不同。",
-        "bread-mcq-02": "「不同種類／做法的麵包」是「breads」的用法，與本句語境不同。",
-        "bread-mcq-06": "「食物表面已裹上麵包糠的」是「breaded」的用法，與本句語境不同。",
-        "bread-mcq-01": "「主要以麵粉和液體製成麵糰，再經烘焙等方式製成的麵包類食物」是「bread — food」的用法，與本句語境不同。"
+        "bread-mcq-04": "本句的「bread」指「非正式俚語中的「錢」」。",
+        "bread-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-04"
     },
@@ -524,11 +492,9 @@ export default {
       "masked": "That job brings in good ____.",
       "options": [
         "bread-mcq-04",
-        "bread-mcq-03",
-        "bread-mcq-05",
-        "bread-mcq-02",
-        "bread-mcq-06",
-        "bread-mcq-01"
+        "bread-mcq-08",
+        "bread-mcq-01",
+        "bread-mcq-09"
       ],
       "explanation": "本句的「bread」指「非正式俚語中的「錢」」。",
       "sentenceIndex": 8,
@@ -537,12 +503,10 @@ export default {
         "bread"
       ],
       "optionReasons": {
-        "bread-mcq-04": "本句指「非正式俚語中的「錢」」。",
-        "bread-mcq-03": "「維持基本生活所需的食物／收入，常引申為生計」是「bread — livelihood」的用法，與本句語境不同。",
-        "bread-mcq-05": "「在食物表面裹上一層麵包糠」是「bread — verb」的用法，與本句語境不同。",
-        "bread-mcq-02": "「不同種類／做法的麵包」是「breads」的用法，與本句語境不同。",
-        "bread-mcq-06": "「食物表面已裹上麵包糠的」是「breaded」的用法，與本句語境不同。",
-        "bread-mcq-01": "「主要以麵粉和液體製成麵糰，再經烘焙等方式製成的麵包類食物」是「bread — food」的用法，與本句語境不同。"
+        "bread-mcq-04": "本句的「bread」指「非正式俚語中的「錢」」。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-04"
     },
@@ -554,11 +518,9 @@ export default {
       "masked": "____ the chicken before frying it.",
       "options": [
         "bread-mcq-05",
+        "bread-mcq-11",
         "bread-mcq-04",
-        "bread-mcq-06",
-        "bread-mcq-03",
-        "bread-mcq-07",
-        "bread-mcq-02"
+        "bread-mcq-08"
       ],
       "explanation": "本句的「Bread」指「在食物表面裹上一層麵包糠」。",
       "sentenceIndex": 9,
@@ -567,12 +529,10 @@ export default {
         "Bread"
       ],
       "optionReasons": {
-        "bread-mcq-05": "本句指「在食物表面裹上一層麵包糠」。",
-        "bread-mcq-04": "「非正式俚語中的「錢」」是「bread — slang」的用法，與本句語境不同。",
-        "bread-mcq-06": "「食物表面已裹上麵包糠的」是「breaded」的用法，與本句語境不同。",
-        "bread-mcq-03": "「維持基本生活所需的食物／收入，常引申為生計」是「bread — livelihood」的用法，與本句語境不同。",
-        "bread-mcq-07": "「細小麵包碎屑或烹飪使用的麵包糠」是「breadcrumbs — food」的用法，與本句語境不同。",
-        "bread-mcq-02": "「不同種類／做法的麵包」是「breads」的用法，與本句語境不同。"
+        "bread-mcq-05": "本句的「Bread」指「在食物表面裹上一層麵包糠」。",
+        "bread-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-05"
     },
@@ -584,11 +544,9 @@ export default {
       "masked": "The fish was ____ and baked.",
       "options": [
         "bread-mcq-05",
+        "bread-mcq-09",
         "bread-mcq-04",
-        "bread-mcq-06",
-        "bread-mcq-03",
-        "bread-mcq-07",
-        "bread-mcq-02"
+        "bread-mcq-12"
       ],
       "explanation": "本句的「breaded」指「在食物表面裹上一層麵包糠」。",
       "sentenceIndex": 10,
@@ -597,12 +555,10 @@ export default {
         "breaded"
       ],
       "optionReasons": {
-        "bread-mcq-05": "本句指「在食物表面裹上一層麵包糠」。",
-        "bread-mcq-04": "「非正式俚語中的「錢」」是「bread — slang」的用法，與本句語境不同。",
-        "bread-mcq-06": "「食物表面已裹上麵包糠的」是「breaded」的用法，與本句語境不同。",
-        "bread-mcq-03": "「維持基本生活所需的食物／收入，常引申為生計」是「bread — livelihood」的用法，與本句語境不同。",
-        "bread-mcq-07": "「細小麵包碎屑或烹飪使用的麵包糠」是「breadcrumbs — food」的用法，與本句語境不同。",
-        "bread-mcq-02": "「不同種類／做法的麵包」是「breads」的用法，與本句語境不同。"
+        "bread-mcq-05": "本句的「breaded」指「在食物表面裹上一層麵包糠」。",
+        "bread-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-05"
     },
@@ -614,11 +570,9 @@ export default {
       "masked": "They serve ____ chicken strips.",
       "options": [
         "bread-mcq-06",
-        "bread-mcq-05",
-        "bread-mcq-07",
-        "bread-mcq-04",
         "bread-mcq-08",
-        "bread-mcq-03"
+        "bread-mcq-11",
+        "bread-mcq-04"
       ],
       "explanation": "本句的「breaded」指「食物表面已裹上麵包糠的」。",
       "sentenceIndex": 11,
@@ -627,12 +581,10 @@ export default {
         "breaded"
       ],
       "optionReasons": {
-        "bread-mcq-06": "本句指「食物表面已裹上麵包糠的」。",
-        "bread-mcq-05": "「在食物表面裹上一層麵包糠」是「bread — verb」的用法，與本句語境不同。",
-        "bread-mcq-07": "「細小麵包碎屑或烹飪使用的麵包糠」是「breadcrumbs — food」的用法，與本句語境不同。",
-        "bread-mcq-04": "「非正式俚語中的「錢」」是「bread — slang」的用法，與本句語境不同。",
-        "bread-mcq-08": "「顯示使用者目前網站／系統層級位置的導覽連結」是「breadcrumb — computing」的用法，與本句語境不同。",
-        "bread-mcq-03": "「維持基本生活所需的食物／收入，常引申為生計」是「bread — livelihood」的用法，與本句語境不同。"
+        "bread-mcq-06": "本句的「breaded」指「食物表面已裹上麵包糠的」。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-06"
     },
@@ -644,11 +596,9 @@ export default {
       "masked": "The ____ fish is baked rather than fried.",
       "options": [
         "bread-mcq-06",
-        "bread-mcq-05",
-        "bread-mcq-07",
+        "bread-mcq-11",
         "bread-mcq-04",
-        "bread-mcq-08",
-        "bread-mcq-03"
+        "bread-mcq-08"
       ],
       "explanation": "本句的「breaded」指「食物表面已裹上麵包糠的」。",
       "sentenceIndex": 12,
@@ -657,12 +607,10 @@ export default {
         "breaded"
       ],
       "optionReasons": {
-        "bread-mcq-06": "本句指「食物表面已裹上麵包糠的」。",
-        "bread-mcq-05": "「在食物表面裹上一層麵包糠」是「bread — verb」的用法，與本句語境不同。",
-        "bread-mcq-07": "「細小麵包碎屑或烹飪使用的麵包糠」是「breadcrumbs — food」的用法，與本句語境不同。",
-        "bread-mcq-04": "「非正式俚語中的「錢」」是「bread — slang」的用法，與本句語境不同。",
-        "bread-mcq-08": "「顯示使用者目前網站／系統層級位置的導覽連結」是「breadcrumb — computing」的用法，與本句語境不同。",
-        "bread-mcq-03": "「維持基本生活所需的食物／收入，常引申為生計」是「bread — livelihood」的用法，與本句語境不同。"
+        "bread-mcq-06": "本句的「breaded」指「食物表面已裹上麵包糠的」。",
+        "bread-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-06"
     },
@@ -674,11 +622,9 @@ export default {
       "masked": "Sprinkle ____ over the pasta.",
       "options": [
         "bread-mcq-07",
-        "bread-mcq-06",
-        "bread-mcq-08",
-        "bread-mcq-05",
-        "bread-mcq-09",
-        "bread-mcq-04"
+        "bread-mcq-11",
+        "bread-mcq-04",
+        "bread-mcq-08"
       ],
       "explanation": "本句的「breadcrumbs」指「細小麵包碎屑或烹飪使用的麵包糠」。",
       "sentenceIndex": 13,
@@ -687,12 +633,10 @@ export default {
         "breadcrumbs"
       ],
       "optionReasons": {
-        "bread-mcq-07": "本句指「細小麵包碎屑或烹飪使用的麵包糠」。",
-        "bread-mcq-06": "「食物表面已裹上麵包糠的」是「breaded」的用法，與本句語境不同。",
-        "bread-mcq-08": "「顯示使用者目前網站／系統層級位置的導覽連結」是「breadcrumb — computing」的用法，與本句語境不同。",
-        "bread-mcq-05": "「在食物表面裹上一層麵包糠」是「bread — verb」的用法，與本句語境不同。",
-        "bread-mcq-09": "「能逐步引導人找到答案或來源的小線索」是「breadcrumb — figurative」的用法，與本句語境不同。",
-        "bread-mcq-04": "「非正式俚語中的「錢」」是「bread — slang」的用法，與本句語境不同。"
+        "bread-mcq-07": "本句的「breadcrumbs」指「細小麵包碎屑或烹飪使用的麵包糠」。",
+        "bread-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-07"
     },
@@ -704,11 +648,9 @@ export default {
       "masked": "There were ____ all over the table.",
       "options": [
         "bread-mcq-07",
-        "bread-mcq-06",
+        "bread-mcq-04",
         "bread-mcq-08",
-        "bread-mcq-05",
-        "bread-mcq-09",
-        "bread-mcq-04"
+        "bread-mcq-10"
       ],
       "explanation": "本句的「breadcrumbs」指「細小麵包碎屑或烹飪使用的麵包糠」。",
       "sentenceIndex": 14,
@@ -717,12 +659,10 @@ export default {
         "breadcrumbs"
       ],
       "optionReasons": {
-        "bread-mcq-07": "本句指「細小麵包碎屑或烹飪使用的麵包糠」。",
-        "bread-mcq-06": "「食物表面已裹上麵包糠的」是「breaded」的用法，與本句語境不同。",
-        "bread-mcq-08": "「顯示使用者目前網站／系統層級位置的導覽連結」是「breadcrumb — computing」的用法，與本句語境不同。",
-        "bread-mcq-05": "「在食物表面裹上一層麵包糠」是「bread — verb」的用法，與本句語境不同。",
-        "bread-mcq-09": "「能逐步引導人找到答案或來源的小線索」是「breadcrumb — figurative」的用法，與本句語境不同。",
-        "bread-mcq-04": "「非正式俚語中的「錢」」是「bread — slang」的用法，與本句語境不同。"
+        "bread-mcq-07": "本句的「breadcrumbs」指「細小麵包碎屑或烹飪使用的麵包糠」。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-07"
     },
@@ -735,10 +675,8 @@ export default {
       "options": [
         "bread-mcq-08",
         "bread-mcq-07",
-        "bread-mcq-09",
-        "bread-mcq-06",
         "bread-mcq-10",
-        "bread-mcq-05"
+        "bread-mcq-04"
       ],
       "explanation": "本句的「breadcrumb」指「顯示使用者目前網站／系統層級位置的導覽連結」。",
       "sentenceIndex": 15,
@@ -747,12 +685,10 @@ export default {
         "breadcrumb"
       ],
       "optionReasons": {
-        "bread-mcq-08": "本句指「顯示使用者目前網站／系統層級位置的導覽連結」。",
-        "bread-mcq-07": "「細小麵包碎屑或烹飪使用的麵包糠」是「breadcrumbs — food」的用法，與本句語境不同。",
-        "bread-mcq-09": "「能逐步引導人找到答案或來源的小線索」是「breadcrumb — figurative」的用法，與本句語境不同。",
-        "bread-mcq-06": "「食物表面已裹上麵包糠的」是「breaded」的用法，與本句語境不同。",
-        "bread-mcq-10": "「為家庭賺取主要生活收入的人」是「breadwinner」的用法，與本句語境不同。",
-        "bread-mcq-05": "「在食物表面裹上一層麵包糠」是「bread — verb」的用法，與本句語境不同。"
+        "bread-mcq-08": "本句的「breadcrumb」指「顯示使用者目前網站／系統層級位置的導覽連結」。",
+        "bread-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-08"
     },
@@ -765,10 +701,8 @@ export default {
       "options": [
         "bread-mcq-08",
         "bread-mcq-07",
-        "bread-mcq-09",
-        "bread-mcq-06",
         "bread-mcq-10",
-        "bread-mcq-05"
+        "bread-mcq-04"
       ],
       "explanation": "本句的「breadcrumbs」指「顯示使用者目前網站／系統層級位置的導覽連結」。",
       "sentenceIndex": 16,
@@ -777,12 +711,10 @@ export default {
         "breadcrumbs"
       ],
       "optionReasons": {
-        "bread-mcq-08": "本句指「顯示使用者目前網站／系統層級位置的導覽連結」。",
-        "bread-mcq-07": "「細小麵包碎屑或烹飪使用的麵包糠」是「breadcrumbs — food」的用法，與本句語境不同。",
-        "bread-mcq-09": "「能逐步引導人找到答案或來源的小線索」是「breadcrumb — figurative」的用法，與本句語境不同。",
-        "bread-mcq-06": "「食物表面已裹上麵包糠的」是「breaded」的用法，與本句語境不同。",
-        "bread-mcq-10": "「為家庭賺取主要生活收入的人」是「breadwinner」的用法，與本句語境不同。",
-        "bread-mcq-05": "「在食物表面裹上一層麵包糠」是「bread — verb」的用法，與本句語境不同。"
+        "bread-mcq-08": "本句的「breadcrumbs」指「顯示使用者目前網站／系統層級位置的導覽連結」。",
+        "bread-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-08"
     },
@@ -794,11 +726,9 @@ export default {
       "masked": "The logs left digital ____ that helped investigators.",
       "options": [
         "bread-mcq-09",
-        "bread-mcq-08",
         "bread-mcq-10",
-        "bread-mcq-07",
-        "bread-mcq-11",
-        "bread-mcq-06"
+        "bread-mcq-06",
+        "bread-mcq-04"
       ],
       "explanation": "本句的「breadcrumbs」指「能逐步引導人找到答案或來源的小線索」。",
       "sentenceIndex": 17,
@@ -807,12 +737,10 @@ export default {
         "breadcrumbs"
       ],
       "optionReasons": {
-        "bread-mcq-09": "本句指「能逐步引導人找到答案或來源的小線索」。",
-        "bread-mcq-08": "「顯示使用者目前網站／系統層級位置的導覽連結」是「breadcrumb — computing」的用法，與本句語境不同。",
-        "bread-mcq-10": "「為家庭賺取主要生活收入的人」是「breadwinner」的用法，與本句語境不同。",
-        "bread-mcq-07": "「細小麵包碎屑或烹飪使用的麵包糠」是「breadcrumbs — food」的用法，與本句語境不同。",
-        "bread-mcq-11": "「維持一個人／企業最基本且穩定的收入來源」是「bread-and-butter — income」的用法，與本句語境不同。",
-        "bread-mcq-06": "「食物表面已裹上麵包糠的」是「breaded」的用法，與本句語境不同。"
+        "bread-mcq-09": "本句的「breadcrumbs」指「能逐步引導人找到答案或來源的小線索」。",
+        "bread-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-09"
     },
@@ -824,11 +752,9 @@ export default {
       "masked": "Each message provided another ____.",
       "options": [
         "bread-mcq-09",
-        "bread-mcq-08",
-        "bread-mcq-10",
-        "bread-mcq-07",
-        "bread-mcq-11",
-        "bread-mcq-06"
+        "bread-mcq-04",
+        "bread-mcq-02",
+        "bread-mcq-10"
       ],
       "explanation": "本句的「breadcrumb」指「能逐步引導人找到答案或來源的小線索」。",
       "sentenceIndex": 18,
@@ -837,12 +763,10 @@ export default {
         "breadcrumb"
       ],
       "optionReasons": {
-        "bread-mcq-09": "本句指「能逐步引導人找到答案或來源的小線索」。",
-        "bread-mcq-08": "「顯示使用者目前網站／系統層級位置的導覽連結」是「breadcrumb — computing」的用法，與本句語境不同。",
-        "bread-mcq-10": "「為家庭賺取主要生活收入的人」是「breadwinner」的用法，與本句語境不同。",
-        "bread-mcq-07": "「細小麵包碎屑或烹飪使用的麵包糠」是「breadcrumbs — food」的用法，與本句語境不同。",
-        "bread-mcq-11": "「維持一個人／企業最基本且穩定的收入來源」是「bread-and-butter — income」的用法，與本句語境不同。",
-        "bread-mcq-06": "「食物表面已裹上麵包糠的」是「breaded」的用法，與本句語境不同。"
+        "bread-mcq-09": "本句的「breadcrumb」指「能逐步引導人找到答案或來源的小線索」。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-09"
     },
@@ -854,11 +778,9 @@ export default {
       "masked": "She became the family’s main ____.",
       "options": [
         "bread-mcq-10",
-        "bread-mcq-09",
-        "bread-mcq-11",
+        "bread-mcq-04",
         "bread-mcq-08",
-        "bread-mcq-12",
-        "bread-mcq-07"
+        "bread-mcq-06"
       ],
       "explanation": "本句的「breadwinner」指「為家庭賺取主要生活收入的人」。",
       "sentenceIndex": 19,
@@ -867,12 +789,10 @@ export default {
         "breadwinner"
       ],
       "optionReasons": {
-        "bread-mcq-10": "本句指「為家庭賺取主要生活收入的人」。",
-        "bread-mcq-09": "「能逐步引導人找到答案或來源的小線索」是「breadcrumb — figurative」的用法，與本句語境不同。",
-        "bread-mcq-11": "「維持一個人／企業最基本且穩定的收入來源」是「bread-and-butter — income」的用法，與本句語境不同。",
-        "bread-mcq-08": "「顯示使用者目前網站／系統層級位置的導覽連結」是「breadcrumb — computing」的用法，與本句語境不同。",
-        "bread-mcq-12": "「最基本、最常規、最可靠的」是「bread-and-butter — basic」的用法，與本句語境不同。",
-        "bread-mcq-07": "「細小麵包碎屑或烹飪使用的麵包糠」是「breadcrumbs — food」的用法，與本句語境不同。"
+        "bread-mcq-10": "本句的「breadwinner」指「為家庭賺取主要生活收入的人」。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-10"
     },
@@ -884,11 +804,9 @@ export default {
       "masked": "After he lost his job, his partner became the sole ____.",
       "options": [
         "bread-mcq-10",
-        "bread-mcq-09",
-        "bread-mcq-11",
+        "bread-mcq-07",
         "bread-mcq-08",
-        "bread-mcq-12",
-        "bread-mcq-07"
+        "bread-mcq-04"
       ],
       "explanation": "本句的「breadwinner」指「為家庭賺取主要生活收入的人」。",
       "sentenceIndex": 20,
@@ -897,12 +815,10 @@ export default {
         "breadwinner"
       ],
       "optionReasons": {
-        "bread-mcq-10": "本句指「為家庭賺取主要生活收入的人」。",
-        "bread-mcq-09": "「能逐步引導人找到答案或來源的小線索」是「breadcrumb — figurative」的用法，與本句語境不同。",
-        "bread-mcq-11": "「維持一個人／企業最基本且穩定的收入來源」是「bread-and-butter — income」的用法，與本句語境不同。",
-        "bread-mcq-08": "「顯示使用者目前網站／系統層級位置的導覽連結」是「breadcrumb — computing」的用法，與本句語境不同。",
-        "bread-mcq-12": "「最基本、最常規、最可靠的」是「bread-and-butter — basic」的用法，與本句語境不同。",
-        "bread-mcq-07": "「細小麵包碎屑或烹飪使用的麵包糠」是「breadcrumbs — food」的用法，與本句語境不同。"
+        "bread-mcq-10": "本句的「breadwinner」指「為家庭賺取主要生活收入的人」。",
+        "bread-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-10"
     },
@@ -914,11 +830,9 @@ export default {
       "masked": "Birthday cakes are useful, but bread is the bakery’s ____.",
       "options": [
         "bread-mcq-11",
-        "bread-mcq-10",
-        "bread-mcq-12",
-        "bread-mcq-09",
+        "bread-mcq-04",
         "bread-mcq-08",
-        "bread-mcq-07"
+        "bread-mcq-05"
       ],
       "explanation": "本句的「bread-and-butter business」指「維持一個人／企業最基本且穩定的收入來源」。",
       "sentenceIndex": 21,
@@ -927,12 +841,10 @@ export default {
         "bread-and-butter business"
       ],
       "optionReasons": {
-        "bread-mcq-11": "本句指「維持一個人／企業最基本且穩定的收入來源」。",
-        "bread-mcq-10": "「為家庭賺取主要生活收入的人」是「breadwinner」的用法，與本句語境不同。",
-        "bread-mcq-12": "「最基本、最常規、最可靠的」是「bread-and-butter — basic」的用法，與本句語境不同。",
-        "bread-mcq-09": "「能逐步引導人找到答案或來源的小線索」是「breadcrumb — figurative」的用法，與本句語境不同。",
-        "bread-mcq-08": "「顯示使用者目前網站／系統層級位置的導覽連結」是「breadcrumb — computing」的用法，與本句語境不同。",
-        "bread-mcq-07": "「細小麵包碎屑或烹飪使用的麵包糠」是「breadcrumbs — food」的用法，與本句語境不同。"
+        "bread-mcq-11": "本句的「bread-and-butter business」指「維持一個人／企業最基本且穩定的收入來源」。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-11"
     },
@@ -944,11 +856,9 @@ export default {
       "masked": "Routine repairs are the company’s ____ and butter.",
       "options": [
         "bread-mcq-11",
-        "bread-mcq-10",
-        "bread-mcq-12",
-        "bread-mcq-09",
+        "bread-mcq-06",
         "bread-mcq-08",
-        "bread-mcq-07"
+        "bread-mcq-04"
       ],
       "explanation": "本句的「bread」指「維持一個人／企業最基本且穩定的收入來源」。",
       "sentenceIndex": 22,
@@ -957,12 +867,10 @@ export default {
         "bread"
       ],
       "optionReasons": {
-        "bread-mcq-11": "本句指「維持一個人／企業最基本且穩定的收入來源」。",
-        "bread-mcq-10": "「為家庭賺取主要生活收入的人」是「breadwinner」的用法，與本句語境不同。",
-        "bread-mcq-12": "「最基本、最常規、最可靠的」是「bread-and-butter — basic」的用法，與本句語境不同。",
-        "bread-mcq-09": "「能逐步引導人找到答案或來源的小線索」是「breadcrumb — figurative」的用法，與本句語境不同。",
-        "bread-mcq-08": "「顯示使用者目前網站／系統層級位置的導覽連結」是「breadcrumb — computing」的用法，與本句語境不同。",
-        "bread-mcq-07": "「細小麵包碎屑或烹飪使用的麵包糠」是「breadcrumbs — food」的用法，與本句語境不同。"
+        "bread-mcq-11": "本句的「bread」指「維持一個人／企業最基本且穩定的收入來源」。",
+        "bread-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-11"
     },
@@ -974,11 +882,9 @@ export default {
       "masked": "These are standard ____ services.",
       "options": [
         "bread-mcq-12",
-        "bread-mcq-11",
-        "bread-mcq-10",
-        "bread-mcq-09",
         "bread-mcq-08",
-        "bread-mcq-07"
+        "bread-mcq-05",
+        "bread-mcq-09"
       ],
       "explanation": "本句的「bread-and-butter」指「最基本、最常規、最可靠的」。",
       "sentenceIndex": 23,
@@ -987,12 +893,10 @@ export default {
         "bread-and-butter"
       ],
       "optionReasons": {
-        "bread-mcq-12": "本句指「最基本、最常規、最可靠的」。",
-        "bread-mcq-11": "「維持一個人／企業最基本且穩定的收入來源」是「bread-and-butter — income」的用法，與本句語境不同。",
-        "bread-mcq-10": "「為家庭賺取主要生活收入的人」是「breadwinner」的用法，與本句語境不同。",
-        "bread-mcq-09": "「能逐步引導人找到答案或來源的小線索」是「breadcrumb — figurative」的用法，與本句語境不同。",
-        "bread-mcq-08": "「顯示使用者目前網站／系統層級位置的導覽連結」是「breadcrumb — computing」的用法，與本句語境不同。",
-        "bread-mcq-07": "「細小麵包碎屑或烹飪使用的麵包糠」是「breadcrumbs — food」的用法，與本句語境不同。"
+        "bread-mcq-12": "本句的「bread-and-butter」指「最基本、最常規、最可靠的」。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-12"
     },
@@ -1004,11 +908,9 @@ export default {
       "masked": "The shop focuses on ____ products with steady demand.",
       "options": [
         "bread-mcq-12",
-        "bread-mcq-11",
-        "bread-mcq-10",
-        "bread-mcq-09",
+        "bread-mcq-07",
         "bread-mcq-08",
-        "bread-mcq-07"
+        "bread-mcq-04"
       ],
       "explanation": "本句的「bread-and-butter」指「最基本、最常規、最可靠的」。",
       "sentenceIndex": 24,
@@ -1017,12 +919,10 @@ export default {
         "bread-and-butter"
       ],
       "optionReasons": {
-        "bread-mcq-12": "本句指「最基本、最常規、最可靠的」。",
-        "bread-mcq-11": "「維持一個人／企業最基本且穩定的收入來源」是「bread-and-butter — income」的用法，與本句語境不同。",
-        "bread-mcq-10": "「為家庭賺取主要生活收入的人」是「breadwinner」的用法，與本句語境不同。",
-        "bread-mcq-09": "「能逐步引導人找到答案或來源的小線索」是「breadcrumb — figurative」的用法，與本句語境不同。",
-        "bread-mcq-08": "「顯示使用者目前網站／系統層級位置的導覽連結」是「breadcrumb — computing」的用法，與本句語境不同。",
-        "bread-mcq-07": "「細小麵包碎屑或烹飪使用的麵包糠」是「breadcrumbs — food」的用法，與本句語境不同。"
+        "bread-mcq-12": "本句的「bread-and-butter」指「最基本、最常規、最可靠的」。",
+        "bread-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bread-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bread-mcq-12"
     }
@@ -1034,5 +934,7 @@ export default {
     "sha256": "479ad09fa3eb06144a851dc4778fd71bbfde4e52bde28267435a2e518cca6d2c",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

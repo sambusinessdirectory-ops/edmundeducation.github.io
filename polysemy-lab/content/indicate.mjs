@@ -416,11 +416,9 @@ export default {
       "masked": "Research ____ electric vehicles are greener than petrol cars.",
       "options": [
         "indicate-mcq-01",
-        "indicate-mcq-02",
-        "indicate-mcq-03",
+        "indicate-mcq-13",
         "indicate-mcq-04",
-        "indicate-mcq-05",
-        "indicate-mcq-06"
+        "indicate-mcq-07"
       ],
       "explanation": "本句的「indicates that」指「證據、結果或跡象顯示某結論可能／很可能成立」。",
       "sentenceIndex": 0,
@@ -429,12 +427,10 @@ export default {
         "indicates that"
       ],
       "optionReasons": {
-        "indicate-mcq-01": "本句指「證據、結果或跡象顯示某結論可能／很可能成立」。",
-        "indicate-mcq-02": "「表明／顯示後面的陳述得到某種證據支持」與本句語境不同。",
-        "indicate-mcq-03": "「某現象本身構成另一情況存在的跡象」與本句語境不同。",
-        "indicate-mcq-04": "「以手勢、箭頭、符號等指出位置或方向」與本句語境不同。",
-        "indicate-mcq-05": "「使用車輛方向燈示意轉彎／轉線」與本句語境不同。",
-        "indicate-mcq-06": "「儀表、裝置或畫面顯示某數值／狀態」與本句語境不同。"
+        "indicate-mcq-01": "本句的「indicates that」指「證據、結果或跡象顯示某結論可能／很可能成立」。",
+        "indicate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-01"
     },
@@ -446,11 +442,9 @@ export default {
       "masked": "The results ____ demand is rising.",
       "options": [
         "indicate-mcq-01",
-        "indicate-mcq-02",
-        "indicate-mcq-03",
-        "indicate-mcq-04",
-        "indicate-mcq-05",
-        "indicate-mcq-06"
+        "indicate-mcq-13",
+        "indicate-mcq-07",
+        "indicate-mcq-04"
       ],
       "explanation": "本句的「indicate that」指「證據、結果或跡象顯示某結論可能／很可能成立」。",
       "sentenceIndex": 1,
@@ -459,12 +453,10 @@ export default {
         "indicate that"
       ],
       "optionReasons": {
-        "indicate-mcq-01": "本句指「證據、結果或跡象顯示某結論可能／很可能成立」。",
-        "indicate-mcq-02": "「表明／顯示後面的陳述得到某種證據支持」與本句語境不同。",
-        "indicate-mcq-03": "「某現象本身構成另一情況存在的跡象」與本句語境不同。",
-        "indicate-mcq-04": "「以手勢、箭頭、符號等指出位置或方向」與本句語境不同。",
-        "indicate-mcq-05": "「使用車輛方向燈示意轉彎／轉線」與本句語境不同。",
-        "indicate-mcq-06": "「儀表、裝置或畫面顯示某數值／狀態」與本句語境不同。"
+        "indicate-mcq-01": "本句的「indicate that」指「證據、結果或跡象顯示某結論可能／很可能成立」。",
+        "indicate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-01"
     },
@@ -476,11 +468,9 @@ export default {
       "masked": "She ____ with her hand.",
       "options": [
         "indicate-mcq-04",
-        "indicate-mcq-03",
-        "indicate-mcq-05",
         "indicate-mcq-02",
-        "indicate-mcq-06",
-        "indicate-mcq-01"
+        "indicate-mcq-18",
+        "indicate-mcq-07"
       ],
       "explanation": "本句的「indicated the exit」指「以手勢、箭頭、符號等指出位置或方向」。",
       "sentenceIndex": 14,
@@ -489,12 +479,10 @@ export default {
         "indicated the exit"
       ],
       "optionReasons": {
-        "indicate-mcq-04": "本句指「以手勢、箭頭、符號等指出位置或方向」。",
-        "indicate-mcq-03": "「某現象本身構成另一情況存在的跡象」與本句語境不同。",
-        "indicate-mcq-05": "「使用車輛方向燈示意轉彎／轉線」與本句語境不同。",
-        "indicate-mcq-02": "「表明／顯示後面的陳述得到某種證據支持」與本句語境不同。",
-        "indicate-mcq-06": "「儀表、裝置或畫面顯示某數值／狀態」與本句語境不同。",
-        "indicate-mcq-01": "「證據、結果或跡象顯示某結論可能／很可能成立」與本句語境不同。"
+        "indicate-mcq-04": "本句的「indicated the exit」指「以手勢、箭頭、符號等指出位置或方向」。",
+        "indicate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-04"
     },
@@ -506,11 +494,9 @@ export default {
       "masked": "The arrow ____ the correct route.",
       "options": [
         "indicate-mcq-04",
-        "indicate-mcq-03",
-        "indicate-mcq-05",
-        "indicate-mcq-02",
-        "indicate-mcq-06",
-        "indicate-mcq-01"
+        "indicate-mcq-01",
+        "indicate-mcq-17",
+        "indicate-mcq-13"
       ],
       "explanation": "本句的「indicates」指「以手勢、箭頭、符號等指出位置或方向」。",
       "sentenceIndex": 15,
@@ -519,12 +505,10 @@ export default {
         "indicates"
       ],
       "optionReasons": {
-        "indicate-mcq-04": "本句指「以手勢、箭頭、符號等指出位置或方向」。",
-        "indicate-mcq-03": "「某現象本身構成另一情況存在的跡象」與本句語境不同。",
-        "indicate-mcq-05": "「使用車輛方向燈示意轉彎／轉線」與本句語境不同。",
-        "indicate-mcq-02": "「表明／顯示後面的陳述得到某種證據支持」與本句語境不同。",
-        "indicate-mcq-06": "「儀表、裝置或畫面顯示某數值／狀態」與本句語境不同。",
-        "indicate-mcq-01": "「證據、結果或跡象顯示某結論可能／很可能成立」與本句語境不同。"
+        "indicate-mcq-04": "本句的「indicates」指「以手勢、箭頭、符號等指出位置或方向」。",
+        "indicate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-04"
     },
@@ -536,11 +520,9 @@ export default {
       "masked": "He switched on the left ____.",
       "options": [
         "indicate-mcq-10",
-        "indicate-mcq-09",
-        "indicate-mcq-11",
-        "indicate-mcq-08",
-        "indicate-mcq-12",
-        "indicate-mcq-07"
+        "indicate-mcq-06",
+        "indicate-mcq-15",
+        "indicate-mcq-17"
       ],
       "explanation": "本句的「indicator」指「車輛用來示意轉向的方向燈」。",
       "sentenceIndex": 22,
@@ -549,12 +531,10 @@ export default {
         "indicator"
       ],
       "optionReasons": {
-        "indicate-mcq-10": "本句指「車輛用來示意轉向的方向燈」。",
-        "indicate-mcq-09": "「用來反映某狀況、趨勢或表現的指標／跡象」與本句語境不同。",
-        "indicate-mcq-11": "「顯示設備狀態／數值的指示器」與本句語境不同。",
-        "indicate-mcq-08": "「在表格／問卷中註明、填寫或選出指定資訊」與本句語境不同。",
-        "indicate-mcq-12": "「在較早階段反映未來可能走勢的指標」與本句語境不同。",
-        "indicate-mcq-07": "「以直接或間接方式表示自己的意向、態度或意願」與本句語境不同。"
+        "indicate-mcq-10": "本句的「indicator」指「車輛用來示意轉向的方向燈」。",
+        "indicate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-10"
     },
@@ -566,11 +546,9 @@ export default {
       "masked": "The ____ was flashing.",
       "options": [
         "indicate-mcq-10",
-        "indicate-mcq-09",
+        "indicate-mcq-15",
         "indicate-mcq-11",
-        "indicate-mcq-08",
-        "indicate-mcq-12",
-        "indicate-mcq-07"
+        "indicate-mcq-17"
       ],
       "explanation": "本句的「indicator」指「車輛用來示意轉向的方向燈」。",
       "sentenceIndex": 23,
@@ -579,12 +557,10 @@ export default {
         "indicator"
       ],
       "optionReasons": {
-        "indicate-mcq-10": "本句指「車輛用來示意轉向的方向燈」。",
-        "indicate-mcq-09": "「用來反映某狀況、趨勢或表現的指標／跡象」與本句語境不同。",
-        "indicate-mcq-11": "「顯示設備狀態／數值的指示器」與本句語境不同。",
-        "indicate-mcq-08": "「在表格／問卷中註明、填寫或選出指定資訊」與本句語境不同。",
-        "indicate-mcq-12": "「在較早階段反映未來可能走勢的指標」與本句語境不同。",
-        "indicate-mcq-07": "「以直接或間接方式表示自己的意向、態度或意願」與本句語境不同。"
+        "indicate-mcq-10": "本句的「indicator」指「車輛用來示意轉向的方向燈」。",
+        "indicate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-10"
     },
@@ -596,11 +572,9 @@ export default {
       "masked": "The gauge ____.",
       "options": [
         "indicate-mcq-06",
-        "indicate-mcq-05",
-        "indicate-mcq-07",
-        "indicate-mcq-04",
-        "indicate-mcq-08",
-        "indicate-mcq-03"
+        "indicate-mcq-15",
+        "indicate-mcq-17",
+        "indicate-mcq-10"
       ],
       "explanation": "本句的「indicates the battery level」指「儀表、裝置或畫面顯示某數值／狀態」。",
       "sentenceIndex": 24,
@@ -609,12 +583,10 @@ export default {
         "indicates the battery level"
       ],
       "optionReasons": {
-        "indicate-mcq-06": "本句指「儀表、裝置或畫面顯示某數值／狀態」。",
-        "indicate-mcq-05": "「使用車輛方向燈示意轉彎／轉線」與本句語境不同。",
-        "indicate-mcq-07": "「以直接或間接方式表示自己的意向、態度或意願」與本句語境不同。",
-        "indicate-mcq-04": "「以手勢、箭頭、符號等指出位置或方向」與本句語境不同。",
-        "indicate-mcq-08": "「在表格／問卷中註明、填寫或選出指定資訊」與本句語境不同。",
-        "indicate-mcq-03": "「某現象本身構成另一情況存在的跡象」與本句語境不同。"
+        "indicate-mcq-06": "本句的「indicates the battery level」指「儀表、裝置或畫面顯示某數值／狀態」。",
+        "indicate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-06"
     },
@@ -626,11 +598,9 @@ export default {
       "masked": "The display ____ the current temperature.",
       "options": [
         "indicate-mcq-06",
-        "indicate-mcq-05",
-        "indicate-mcq-07",
-        "indicate-mcq-04",
-        "indicate-mcq-08",
-        "indicate-mcq-03"
+        "indicate-mcq-10",
+        "indicate-mcq-13",
+        "indicate-mcq-18"
       ],
       "explanation": "本句的「indicates」指「儀表、裝置或畫面顯示某數值／狀態」。",
       "sentenceIndex": 25,
@@ -639,12 +609,10 @@ export default {
         "indicates"
       ],
       "optionReasons": {
-        "indicate-mcq-06": "本句指「儀表、裝置或畫面顯示某數值／狀態」。",
-        "indicate-mcq-05": "「使用車輛方向燈示意轉彎／轉線」與本句語境不同。",
-        "indicate-mcq-07": "「以直接或間接方式表示自己的意向、態度或意願」與本句語境不同。",
-        "indicate-mcq-04": "「以手勢、箭頭、符號等指出位置或方向」與本句語境不同。",
-        "indicate-mcq-08": "「在表格／問卷中註明、填寫或選出指定資訊」與本句語境不同。",
-        "indicate-mcq-03": "「某現象本身構成另一情況存在的跡象」與本句語境不同。"
+        "indicate-mcq-06": "本句的「indicates」指「儀表、裝置或畫面顯示某數值／狀態」。",
+        "indicate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-06"
     },
@@ -656,10 +624,8 @@ export default {
       "masked": "Several companies ____ in the project.",
       "options": [
         "indicate-mcq-07",
-        "indicate-mcq-06",
-        "indicate-mcq-08",
-        "indicate-mcq-05",
-        "indicate-mcq-09",
+        "indicate-mcq-14",
+        "indicate-mcq-13",
         "indicate-mcq-04"
       ],
       "explanation": "本句的「indicated an interest」指「以直接或間接方式表示自己的意向、態度或意願」。",
@@ -669,12 +635,10 @@ export default {
         "indicated an interest"
       ],
       "optionReasons": {
-        "indicate-mcq-07": "本句指「以直接或間接方式表示自己的意向、態度或意願」。",
-        "indicate-mcq-06": "「儀表、裝置或畫面顯示某數值／狀態」與本句語境不同。",
-        "indicate-mcq-08": "「在表格／問卷中註明、填寫或選出指定資訊」與本句語境不同。",
-        "indicate-mcq-05": "「使用車輛方向燈示意轉彎／轉線」與本句語境不同。",
-        "indicate-mcq-09": "「用來反映某狀況、趨勢或表現的指標／跡象」與本句語境不同。",
-        "indicate-mcq-04": "「以手勢、箭頭、符號等指出位置或方向」與本句語境不同。"
+        "indicate-mcq-07": "本句的「indicated an interest」指「以直接或間接方式表示自己的意向、態度或意願」。",
+        "indicate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-07"
     },
@@ -686,10 +650,8 @@ export default {
       "masked": "She ____ her willingness to help.",
       "options": [
         "indicate-mcq-07",
-        "indicate-mcq-06",
-        "indicate-mcq-08",
-        "indicate-mcq-05",
-        "indicate-mcq-09",
+        "indicate-mcq-16",
+        "indicate-mcq-12",
         "indicate-mcq-04"
       ],
       "explanation": "本句的「indicated」指「以直接或間接方式表示自己的意向、態度或意願」。",
@@ -699,12 +661,10 @@ export default {
         "indicated"
       ],
       "optionReasons": {
-        "indicate-mcq-07": "本句指「以直接或間接方式表示自己的意向、態度或意願」。",
-        "indicate-mcq-06": "「儀表、裝置或畫面顯示某數值／狀態」與本句語境不同。",
-        "indicate-mcq-08": "「在表格／問卷中註明、填寫或選出指定資訊」與本句語境不同。",
-        "indicate-mcq-05": "「使用車輛方向燈示意轉彎／轉線」與本句語境不同。",
-        "indicate-mcq-09": "「用來反映某狀況、趨勢或表現的指標／跡象」與本句語境不同。",
-        "indicate-mcq-04": "「以手勢、箭頭、符號等指出位置或方向」與本句語境不同。"
+        "indicate-mcq-07": "本句的「indicated」指「以直接或間接方式表示自己的意向、態度或意願」。",
+        "indicate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-07"
     },
@@ -716,11 +676,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "indicate-mcq-02",
-        "indicate-mcq-01",
-        "indicate-mcq-03",
         "indicate-mcq-04",
-        "indicate-mcq-05",
-        "indicate-mcq-06"
+        "indicate-mcq-07",
+        "indicate-mcq-12"
       ],
       "explanation": "本句的「indicated that he wanted to leave」指「表明／顯示後面的陳述得到某種證據支持」。",
       "sentenceIndex": 32,
@@ -729,12 +687,10 @@ export default {
         "indicated that he wanted to leave"
       ],
       "optionReasons": {
-        "indicate-mcq-02": "本句指「表明／顯示後面的陳述得到某種證據支持」。",
-        "indicate-mcq-01": "「證據、結果或跡象顯示某結論可能／很可能成立」與本句語境不同。",
-        "indicate-mcq-03": "「某現象本身構成另一情況存在的跡象」與本句語境不同。",
-        "indicate-mcq-04": "「以手勢、箭頭、符號等指出位置或方向」與本句語境不同。",
-        "indicate-mcq-05": "「使用車輛方向燈示意轉彎／轉線」與本句語境不同。",
-        "indicate-mcq-06": "「儀表、裝置或畫面顯示某數值／狀態」與本句語境不同。"
+        "indicate-mcq-02": "本句的「indicated that he wanted to leave」指「表明／顯示後面的陳述得到某種證據支持」。",
+        "indicate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-02"
     },
@@ -746,11 +702,9 @@ export default {
       "masked": "The company ____ that it would review the plan.",
       "options": [
         "indicate-mcq-02",
-        "indicate-mcq-01",
-        "indicate-mcq-03",
-        "indicate-mcq-04",
-        "indicate-mcq-05",
-        "indicate-mcq-06"
+        "indicate-mcq-18",
+        "indicate-mcq-10",
+        "indicate-mcq-07"
       ],
       "explanation": "本句的「indicated」指「表明／顯示後面的陳述得到某種證據支持」。",
       "sentenceIndex": 33,
@@ -759,12 +713,10 @@ export default {
         "indicated"
       ],
       "optionReasons": {
-        "indicate-mcq-02": "本句指「表明／顯示後面的陳述得到某種證據支持」。",
-        "indicate-mcq-01": "「證據、結果或跡象顯示某結論可能／很可能成立」與本句語境不同。",
-        "indicate-mcq-03": "「某現象本身構成另一情況存在的跡象」與本句語境不同。",
-        "indicate-mcq-04": "「以手勢、箭頭、符號等指出位置或方向」與本句語境不同。",
-        "indicate-mcq-05": "「使用車輛方向燈示意轉彎／轉線」與本句語境不同。",
-        "indicate-mcq-06": "「儀表、裝置或畫面顯示某數值／狀態」與本句語境不同。"
+        "indicate-mcq-02": "本句的「indicated」指「表明／顯示後面的陳述得到某種證據支持」。",
+        "indicate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-02"
     },
@@ -776,11 +728,9 @@ export default {
       "masked": "Price is not the only ____.",
       "options": [
         "indicate-mcq-09",
-        "indicate-mcq-08",
-        "indicate-mcq-10",
-        "indicate-mcq-07",
-        "indicate-mcq-11",
-        "indicate-mcq-06"
+        "indicate-mcq-02",
+        "indicate-mcq-17",
+        "indicate-mcq-04"
       ],
       "explanation": "本句的「indicator of quality」指「用來反映某狀況、趨勢或表現的指標／跡象」。",
       "sentenceIndex": 46,
@@ -789,12 +739,10 @@ export default {
         "indicator of quality"
       ],
       "optionReasons": {
-        "indicate-mcq-09": "本句指「用來反映某狀況、趨勢或表現的指標／跡象」。",
-        "indicate-mcq-08": "「在表格／問卷中註明、填寫或選出指定資訊」與本句語境不同。",
-        "indicate-mcq-10": "「車輛用來示意轉向的方向燈」與本句語境不同。",
-        "indicate-mcq-07": "「以直接或間接方式表示自己的意向、態度或意願」與本句語境不同。",
-        "indicate-mcq-11": "「顯示設備狀態／數值的指示器」與本句語境不同。",
-        "indicate-mcq-06": "「儀表、裝置或畫面顯示某數值／狀態」與本句語境不同。"
+        "indicate-mcq-09": "本句的「indicator of quality」指「用來反映某狀況、趨勢或表現的指標／跡象」。",
+        "indicate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-09"
     },
@@ -806,11 +754,9 @@ export default {
       "masked": "Customer complaints can be an ____ of a wider problem.",
       "options": [
         "indicate-mcq-09",
-        "indicate-mcq-08",
-        "indicate-mcq-10",
-        "indicate-mcq-07",
-        "indicate-mcq-11",
-        "indicate-mcq-06"
+        "indicate-mcq-02",
+        "indicate-mcq-18",
+        "indicate-mcq-07"
       ],
       "explanation": "本句的「indicator」指「用來反映某狀況、趨勢或表現的指標／跡象」。",
       "sentenceIndex": 47,
@@ -819,12 +765,10 @@ export default {
         "indicator"
       ],
       "optionReasons": {
-        "indicate-mcq-09": "本句指「用來反映某狀況、趨勢或表現的指標／跡象」。",
-        "indicate-mcq-08": "「在表格／問卷中註明、填寫或選出指定資訊」與本句語境不同。",
-        "indicate-mcq-10": "「車輛用來示意轉向的方向燈」與本句語境不同。",
-        "indicate-mcq-07": "「以直接或間接方式表示自己的意向、態度或意願」與本句語境不同。",
-        "indicate-mcq-11": "「顯示設備狀態／數值的指示器」與本句語境不同。",
-        "indicate-mcq-06": "「儀表、裝置或畫面顯示某數值／狀態」與本句語境不同。"
+        "indicate-mcq-09": "本句的「indicator」指「用來反映某狀況、趨勢或表現的指標／跡象」。",
+        "indicate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-09"
     },
@@ -836,11 +780,9 @@ export default {
       "masked": "New orders can be a ____ of future demand.",
       "options": [
         "indicate-mcq-12",
-        "indicate-mcq-11",
-        "indicate-mcq-13",
-        "indicate-mcq-10",
-        "indicate-mcq-14",
-        "indicate-mcq-09"
+        "indicate-mcq-17",
+        "indicate-mcq-02",
+        "indicate-mcq-10"
       ],
       "explanation": "本句的「leading indicator」指「在較早階段反映未來可能走勢的指標」。",
       "sentenceIndex": 57,
@@ -849,12 +791,10 @@ export default {
         "leading indicator"
       ],
       "optionReasons": {
-        "indicate-mcq-12": "本句指「在較早階段反映未來可能走勢的指標」。",
-        "indicate-mcq-11": "「顯示設備狀態／數值的指示器」與本句語境不同。",
-        "indicate-mcq-13": "「在變化發生後才反映／確認趨勢的指標」與本句語境不同。",
-        "indicate-mcq-10": "「車輛用來示意轉向的方向燈」與本句語境不同。",
-        "indicate-mcq-14": "「顯示某情況存在或可能存在的跡象」與本句語境不同。",
-        "indicate-mcq-09": "「用來反映某狀況、趨勢或表現的指標／跡象」與本句語境不同。"
+        "indicate-mcq-12": "本句的「leading indicator」指「在較早階段反映未來可能走勢的指標」。",
+        "indicate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-12"
     },
@@ -866,11 +806,9 @@ export default {
       "masked": "Leading ____ may signal change before it appears in headline data.",
       "options": [
         "indicate-mcq-12",
-        "indicate-mcq-11",
-        "indicate-mcq-13",
-        "indicate-mcq-10",
-        "indicate-mcq-14",
-        "indicate-mcq-09"
+        "indicate-mcq-02",
+        "indicate-mcq-07",
+        "indicate-mcq-10"
       ],
       "explanation": "本句的「indicators」指「在較早階段反映未來可能走勢的指標」。",
       "sentenceIndex": 58,
@@ -879,12 +817,10 @@ export default {
         "indicators"
       ],
       "optionReasons": {
-        "indicate-mcq-12": "本句指「在較早階段反映未來可能走勢的指標」。",
-        "indicate-mcq-11": "「顯示設備狀態／數值的指示器」與本句語境不同。",
-        "indicate-mcq-13": "「在變化發生後才反映／確認趨勢的指標」與本句語境不同。",
-        "indicate-mcq-10": "「車輛用來示意轉向的方向燈」與本句語境不同。",
-        "indicate-mcq-14": "「顯示某情況存在或可能存在的跡象」與本句語境不同。",
-        "indicate-mcq-09": "「用來反映某狀況、趨勢或表現的指標／跡象」與本句語境不同。"
+        "indicate-mcq-12": "本句的「indicators」指「在較早階段反映未來可能走勢的指標」。",
+        "indicate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-12"
     },
@@ -896,11 +832,9 @@ export default {
       "masked": "Unemployment is often treated as a ____.",
       "options": [
         "indicate-mcq-13",
-        "indicate-mcq-12",
         "indicate-mcq-14",
-        "indicate-mcq-11",
-        "indicate-mcq-15",
-        "indicate-mcq-10"
+        "indicate-mcq-10",
+        "indicate-mcq-07"
       ],
       "explanation": "本句的「lagging indicator」指「在變化發生後才反映／確認趨勢的指標」。",
       "sentenceIndex": 59,
@@ -909,12 +843,10 @@ export default {
         "lagging indicator"
       ],
       "optionReasons": {
-        "indicate-mcq-13": "本句指「在變化發生後才反映／確認趨勢的指標」。",
-        "indicate-mcq-12": "「在較早階段反映未來可能走勢的指標」與本句語境不同。",
-        "indicate-mcq-14": "「顯示某情況存在或可能存在的跡象」與本句語境不同。",
-        "indicate-mcq-11": "「顯示設備狀態／數值的指示器」與本句語境不同。",
-        "indicate-mcq-15": "「只能提供大概情況、而非精確結果的資訊」與本句語境不同。",
-        "indicate-mcq-10": "「車輛用來示意轉向的方向燈」與本句語境不同。"
+        "indicate-mcq-13": "本句的「lagging indicator」指「在變化發生後才反映／確認趨勢的指標」。",
+        "indicate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-13"
     },
@@ -926,11 +858,9 @@ export default {
       "masked": "Lagging ____ confirm changes after they occur.",
       "options": [
         "indicate-mcq-13",
-        "indicate-mcq-12",
-        "indicate-mcq-14",
-        "indicate-mcq-11",
-        "indicate-mcq-15",
-        "indicate-mcq-10"
+        "indicate-mcq-18",
+        "indicate-mcq-06",
+        "indicate-mcq-07"
       ],
       "explanation": "本句的「indicators」指「在變化發生後才反映／確認趨勢的指標」。",
       "sentenceIndex": 60,
@@ -939,12 +869,10 @@ export default {
         "indicators"
       ],
       "optionReasons": {
-        "indicate-mcq-13": "本句指「在變化發生後才反映／確認趨勢的指標」。",
-        "indicate-mcq-12": "「在較早階段反映未來可能走勢的指標」與本句語境不同。",
-        "indicate-mcq-14": "「顯示某情況存在或可能存在的跡象」與本句語境不同。",
-        "indicate-mcq-11": "「顯示設備狀態／數值的指示器」與本句語境不同。",
-        "indicate-mcq-15": "「只能提供大概情況、而非精確結果的資訊」與本句語境不同。",
-        "indicate-mcq-10": "「車輛用來示意轉向的方向燈」與本句語境不同。"
+        "indicate-mcq-13": "本句的「indicators」指「在變化發生後才反映／確認趨勢的指標」。",
+        "indicate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-13"
     },
@@ -956,11 +884,9 @@ export default {
       "masked": "There is no ____.",
       "options": [
         "indicate-mcq-14",
-        "indicate-mcq-13",
-        "indicate-mcq-15",
-        "indicate-mcq-12",
-        "indicate-mcq-16",
-        "indicate-mcq-11"
+        "indicate-mcq-17",
+        "indicate-mcq-04",
+        "indicate-mcq-13"
       ],
       "explanation": "本句的「indication of a problem」指「顯示某情況存在或可能存在的跡象」。",
       "sentenceIndex": 61,
@@ -969,12 +895,10 @@ export default {
         "indication of a problem"
       ],
       "optionReasons": {
-        "indicate-mcq-14": "本句指「顯示某情況存在或可能存在的跡象」。",
-        "indicate-mcq-13": "「在變化發生後才反映／確認趨勢的指標」與本句語境不同。",
-        "indicate-mcq-15": "「只能提供大概情況、而非精確結果的資訊」與本句語境不同。",
-        "indicate-mcq-12": "「在較早階段反映未來可能走勢的指標」與本句語境不同。",
-        "indicate-mcq-16": "「使用某藥物、檢查或治療的醫療理由／適應症」與本句語境不同。",
-        "indicate-mcq-11": "「顯示設備狀態／數值的指示器」與本句語境不同。"
+        "indicate-mcq-14": "本句的「indication of a problem」指「顯示某情況存在或可能存在的跡象」。",
+        "indicate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-14"
     },
@@ -986,11 +910,9 @@ export default {
       "masked": "The rise in sales is an ____ of stronger demand.",
       "options": [
         "indicate-mcq-14",
+        "indicate-mcq-17",
         "indicate-mcq-13",
-        "indicate-mcq-15",
-        "indicate-mcq-12",
-        "indicate-mcq-16",
-        "indicate-mcq-11"
+        "indicate-mcq-10"
       ],
       "explanation": "本句的「indication」指「顯示某情況存在或可能存在的跡象」。",
       "sentenceIndex": 62,
@@ -999,12 +921,10 @@ export default {
         "indication"
       ],
       "optionReasons": {
-        "indicate-mcq-14": "本句指「顯示某情況存在或可能存在的跡象」。",
-        "indicate-mcq-13": "「在變化發生後才反映／確認趨勢的指標」與本句語境不同。",
-        "indicate-mcq-15": "「只能提供大概情況、而非精確結果的資訊」與本句語境不同。",
-        "indicate-mcq-12": "「在較早階段反映未來可能走勢的指標」與本句語境不同。",
-        "indicate-mcq-16": "「使用某藥物、檢查或治療的醫療理由／適應症」與本句語境不同。",
-        "indicate-mcq-11": "「顯示設備狀態／數值的指示器」與本句語境不同。"
+        "indicate-mcq-14": "本句的「indication」指「顯示某情況存在或可能存在的跡象」。",
+        "indicate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-14"
     },
@@ -1016,11 +936,9 @@ export default {
       "masked": "The figures provide only a ____ of cost.",
       "options": [
         "indicate-mcq-15",
-        "indicate-mcq-14",
-        "indicate-mcq-16",
-        "indicate-mcq-13",
-        "indicate-mcq-17",
-        "indicate-mcq-12"
+        "indicate-mcq-09",
+        "indicate-mcq-04",
+        "indicate-mcq-17"
       ],
       "explanation": "本句的「rough indication」指「只能提供大概情況、而非精確結果的資訊」。",
       "sentenceIndex": 71,
@@ -1029,12 +947,10 @@ export default {
         "rough indication"
       ],
       "optionReasons": {
-        "indicate-mcq-15": "本句指「只能提供大概情況、而非精確結果的資訊」。",
-        "indicate-mcq-14": "「顯示某情況存在或可能存在的跡象」與本句語境不同。",
-        "indicate-mcq-16": "「使用某藥物、檢查或治療的醫療理由／適應症」與本句語境不同。",
-        "indicate-mcq-13": "「在變化發生後才反映／確認趨勢的指標」與本句語境不同。",
-        "indicate-mcq-17": "「根據病情判斷，某檢查／治療屬適宜或有需要」與本句語境不同。",
-        "indicate-mcq-12": "「在較早階段反映未來可能走勢的指標」與本句語境不同。"
+        "indicate-mcq-15": "本句的「rough indication」指「只能提供大概情況、而非精確結果的資訊」。",
+        "indicate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-15"
     },
@@ -1046,11 +962,9 @@ export default {
       "masked": "The test gives a rough ____ of battery health.",
       "options": [
         "indicate-mcq-15",
-        "indicate-mcq-14",
         "indicate-mcq-16",
-        "indicate-mcq-13",
-        "indicate-mcq-17",
-        "indicate-mcq-12"
+        "indicate-mcq-07",
+        "indicate-mcq-10"
       ],
       "explanation": "本句的「indication」指「只能提供大概情況、而非精確結果的資訊」。",
       "sentenceIndex": 72,
@@ -1059,12 +973,10 @@ export default {
         "indication"
       ],
       "optionReasons": {
-        "indicate-mcq-15": "本句指「只能提供大概情況、而非精確結果的資訊」。",
-        "indicate-mcq-14": "「顯示某情況存在或可能存在的跡象」與本句語境不同。",
-        "indicate-mcq-16": "「使用某藥物、檢查或治療的醫療理由／適應症」與本句語境不同。",
-        "indicate-mcq-13": "「在變化發生後才反映／確認趨勢的指標」與本句語境不同。",
-        "indicate-mcq-17": "「根據病情判斷，某檢查／治療屬適宜或有需要」與本句語境不同。",
-        "indicate-mcq-12": "「在較早階段反映未來可能走勢的指標」與本句語境不同。"
+        "indicate-mcq-15": "本句的「indication」指「只能提供大概情況、而非精確結果的資訊」。",
+        "indicate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-15"
     },
@@ -1076,11 +988,9 @@ export default {
       "masked": "The announcement was the first ____.",
       "options": [
         "indicate-mcq-14",
+        "indicate-mcq-04",
         "indicate-mcq-13",
-        "indicate-mcq-15",
-        "indicate-mcq-12",
-        "indicate-mcq-16",
-        "indicate-mcq-11"
+        "indicate-mcq-17"
       ],
       "explanation": "本句的「indication of a change in policy」指「顯示某情況存在或可能存在的跡象」。",
       "sentenceIndex": 73,
@@ -1089,12 +999,10 @@ export default {
         "indication of a change in policy"
       ],
       "optionReasons": {
-        "indicate-mcq-14": "本句指「顯示某情況存在或可能存在的跡象」。",
-        "indicate-mcq-13": "「在變化發生後才反映／確認趨勢的指標」與本句語境不同。",
-        "indicate-mcq-15": "「只能提供大概情況、而非精確結果的資訊」與本句語境不同。",
-        "indicate-mcq-12": "「在較早階段反映未來可能走勢的指標」與本句語境不同。",
-        "indicate-mcq-16": "「使用某藥物、檢查或治療的醫療理由／適應症」與本句語境不同。",
-        "indicate-mcq-11": "「顯示設備狀態／數值的指示器」與本句語境不同。"
+        "indicate-mcq-14": "本句的「indication of a change in policy」指「顯示某情況存在或可能存在的跡象」。",
+        "indicate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-14"
     },
@@ -1106,11 +1014,9 @@ export default {
       "masked": "He gave no ____ that he intended to resign.",
       "options": [
         "indicate-mcq-14",
+        "indicate-mcq-07",
         "indicate-mcq-13",
-        "indicate-mcq-15",
-        "indicate-mcq-12",
-        "indicate-mcq-16",
-        "indicate-mcq-11"
+        "indicate-mcq-10"
       ],
       "explanation": "本句的「indication」指「顯示某情況存在或可能存在的跡象」。",
       "sentenceIndex": 74,
@@ -1119,12 +1025,10 @@ export default {
         "indication"
       ],
       "optionReasons": {
-        "indicate-mcq-14": "本句指「顯示某情況存在或可能存在的跡象」。",
-        "indicate-mcq-13": "「在變化發生後才反映／確認趨勢的指標」與本句語境不同。",
-        "indicate-mcq-15": "「只能提供大概情況、而非精確結果的資訊」與本句語境不同。",
-        "indicate-mcq-12": "「在較早階段反映未來可能走勢的指標」與本句語境不同。",
-        "indicate-mcq-16": "「使用某藥物、檢查或治療的醫療理由／適應症」與本句語境不同。",
-        "indicate-mcq-11": "「顯示設備狀態／數值的指示器」與本句語境不同。"
+        "indicate-mcq-14": "本句的「indication」指「顯示某情況存在或可能存在的跡象」。",
+        "indicate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-14"
     },
@@ -1136,11 +1040,9 @@ export default {
       "masked": "The drug has several approved ____.",
       "options": [
         "indicate-mcq-16",
+        "indicate-mcq-09",
         "indicate-mcq-15",
-        "indicate-mcq-17",
-        "indicate-mcq-14",
-        "indicate-mcq-18",
-        "indicate-mcq-13"
+        "indicate-mcq-04"
       ],
       "explanation": "本句的「indications」指「使用某藥物、檢查或治療的醫療理由／適應症」。",
       "sentenceIndex": 75,
@@ -1149,12 +1051,10 @@ export default {
         "indications"
       ],
       "optionReasons": {
-        "indicate-mcq-16": "本句指「使用某藥物、檢查或治療的醫療理由／適應症」。",
-        "indicate-mcq-15": "「只能提供大概情況、而非精確結果的資訊」與本句語境不同。",
-        "indicate-mcq-17": "「根據病情判斷，某檢查／治療屬適宜或有需要」與本句語境不同。",
-        "indicate-mcq-14": "「顯示某情況存在或可能存在的跡象」與本句語境不同。",
-        "indicate-mcq-18": "「因安全／病情原因不適宜使用的」與本句語境不同。",
-        "indicate-mcq-13": "「在變化發生後才反映／確認趨勢的指標」與本句語境不同。"
+        "indicate-mcq-16": "本句的「indications」指「使用某藥物、檢查或治療的醫療理由／適應症」。",
+        "indicate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-16"
     },
@@ -1166,10 +1066,8 @@ export default {
       "masked": "Pain relief is one ____ for this treatment.",
       "options": [
         "indicate-mcq-16",
+        "indicate-mcq-10",
         "indicate-mcq-15",
-        "indicate-mcq-17",
-        "indicate-mcq-14",
-        "indicate-mcq-18",
         "indicate-mcq-13"
       ],
       "explanation": "本句的「indication」指「使用某藥物、檢查或治療的醫療理由／適應症」。",
@@ -1179,12 +1077,10 @@ export default {
         "indication"
       ],
       "optionReasons": {
-        "indicate-mcq-16": "本句指「使用某藥物、檢查或治療的醫療理由／適應症」。",
-        "indicate-mcq-15": "「只能提供大概情況、而非精確結果的資訊」與本句語境不同。",
-        "indicate-mcq-17": "「根據病情判斷，某檢查／治療屬適宜或有需要」與本句語境不同。",
-        "indicate-mcq-14": "「顯示某情況存在或可能存在的跡象」與本句語境不同。",
-        "indicate-mcq-18": "「因安全／病情原因不適宜使用的」與本句語境不同。",
-        "indicate-mcq-13": "「在變化發生後才反映／確認趨勢的指標」與本句語境不同。"
+        "indicate-mcq-16": "本句的「indication」指「使用某藥物、檢查或治療的醫療理由／適應症」。",
+        "indicate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-16"
     },
@@ -1196,11 +1092,9 @@ export default {
       "masked": "Surgery is ____ in this case.",
       "options": [
         "indicate-mcq-17",
-        "indicate-mcq-16",
-        "indicate-mcq-18",
-        "indicate-mcq-15",
-        "indicate-mcq-19",
-        "indicate-mcq-14"
+        "indicate-mcq-04",
+        "indicate-mcq-11",
+        "indicate-mcq-15"
       ],
       "explanation": "本句的「not indicated」指「根據病情判斷，某檢查／治療屬適宜或有需要」。",
       "sentenceIndex": 77,
@@ -1209,12 +1103,10 @@ export default {
         "not indicated"
       ],
       "optionReasons": {
-        "indicate-mcq-17": "本句指「根據病情判斷，某檢查／治療屬適宜或有需要」。",
-        "indicate-mcq-16": "「使用某藥物、檢查或治療的醫療理由／適應症」與本句語境不同。",
-        "indicate-mcq-18": "「因安全／病情原因不適宜使用的」與本句語境不同。",
-        "indicate-mcq-15": "「只能提供大概情況、而非精確結果的資訊」與本句語境不同。",
-        "indicate-mcq-19": "「可被視為某情況的跡象／證據」與本句語境不同。",
-        "indicate-mcq-14": "「顯示某情況存在或可能存在的跡象」與本句語境不同。"
+        "indicate-mcq-17": "本句的「not indicated」指「根據病情判斷，某檢查／治療屬適宜或有需要」。",
+        "indicate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-17"
     },
@@ -1226,11 +1118,9 @@ export default {
       "masked": "Further testing may be ____.",
       "options": [
         "indicate-mcq-17",
-        "indicate-mcq-16",
-        "indicate-mcq-18",
-        "indicate-mcq-15",
-        "indicate-mcq-19",
-        "indicate-mcq-14"
+        "indicate-mcq-06",
+        "indicate-mcq-12",
+        "indicate-mcq-10"
       ],
       "explanation": "本句的「indicated」指「根據病情判斷，某檢查／治療屬適宜或有需要」。",
       "sentenceIndex": 78,
@@ -1239,12 +1129,10 @@ export default {
         "indicated"
       ],
       "optionReasons": {
-        "indicate-mcq-17": "本句指「根據病情判斷，某檢查／治療屬適宜或有需要」。",
-        "indicate-mcq-16": "「使用某藥物、檢查或治療的醫療理由／適應症」與本句語境不同。",
-        "indicate-mcq-18": "「因安全／病情原因不適宜使用的」與本句語境不同。",
-        "indicate-mcq-15": "「只能提供大概情況、而非精確結果的資訊」與本句語境不同。",
-        "indicate-mcq-19": "「可被視為某情況的跡象／證據」與本句語境不同。",
-        "indicate-mcq-14": "「顯示某情況存在或可能存在的跡象」與本句語境不同。"
+        "indicate-mcq-17": "本句的「indicated」指「根據病情判斷，某檢查／治療屬適宜或有需要」。",
+        "indicate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-17"
     },
@@ -1256,11 +1144,9 @@ export default {
       "masked": "The medication is ____ during pregnancy.",
       "options": [
         "indicate-mcq-18",
-        "indicate-mcq-17",
+        "indicate-mcq-07",
         "indicate-mcq-19",
-        "indicate-mcq-16",
-        "indicate-mcq-20",
-        "indicate-mcq-15"
+        "indicate-mcq-13"
       ],
       "explanation": "本句的「contraindicated」指「因安全／病情原因不適宜使用的」。",
       "sentenceIndex": 79,
@@ -1269,12 +1155,10 @@ export default {
         "contraindicated"
       ],
       "optionReasons": {
-        "indicate-mcq-18": "本句指「因安全／病情原因不適宜使用的」。",
-        "indicate-mcq-17": "「根據病情判斷，某檢查／治療屬適宜或有需要」與本句語境不同。",
-        "indicate-mcq-19": "「可被視為某情況的跡象／證據」與本句語境不同。",
-        "indicate-mcq-16": "「使用某藥物、檢查或治療的醫療理由／適應症」與本句語境不同。",
-        "indicate-mcq-20": "「用來陳述事實、資訊或被視為真實情況的直陳語氣」與本句語境不同。",
-        "indicate-mcq-15": "「只能提供大概情況、而非精確結果的資訊」與本句語境不同。"
+        "indicate-mcq-18": "本句的「contraindicated」指「因安全／病情原因不適宜使用的」。",
+        "indicate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-18"
     },
@@ -1286,11 +1170,9 @@ export default {
       "masked": "The results are ____.",
       "options": [
         "indicate-mcq-19",
-        "indicate-mcq-18",
-        "indicate-mcq-20",
-        "indicate-mcq-17",
-        "indicate-mcq-16",
-        "indicate-mcq-15"
+        "indicate-mcq-15",
+        "indicate-mcq-07",
+        "indicate-mcq-04"
       ],
       "explanation": "本句的「indicative of stronger demand」指「可被視為某情況的跡象／證據」。",
       "sentenceIndex": 80,
@@ -1299,12 +1181,10 @@ export default {
         "indicative of stronger demand"
       ],
       "optionReasons": {
-        "indicate-mcq-19": "本句指「可被視為某情況的跡象／證據」。",
-        "indicate-mcq-18": "「因安全／病情原因不適宜使用的」與本句語境不同。",
-        "indicate-mcq-20": "「用來陳述事實、資訊或被視為真實情況的直陳語氣」與本句語境不同。",
-        "indicate-mcq-17": "「根據病情判斷，某檢查／治療屬適宜或有需要」與本句語境不同。",
-        "indicate-mcq-16": "「使用某藥物、檢查或治療的醫療理由／適應症」與本句語境不同。",
-        "indicate-mcq-15": "「只能提供大概情況、而非精確結果的資訊」與本句語境不同。"
+        "indicate-mcq-19": "本句的「indicative of stronger demand」指「可被視為某情況的跡象／證據」。",
+        "indicate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-19"
     },
@@ -1316,11 +1196,9 @@ export default {
       "masked": "His silence was ____ of discomfort.",
       "options": [
         "indicate-mcq-19",
-        "indicate-mcq-18",
-        "indicate-mcq-20",
-        "indicate-mcq-17",
-        "indicate-mcq-16",
-        "indicate-mcq-15"
+        "indicate-mcq-15",
+        "indicate-mcq-07",
+        "indicate-mcq-10"
       ],
       "explanation": "本句的「indicative」指「可被視為某情況的跡象／證據」。",
       "sentenceIndex": 81,
@@ -1329,12 +1207,10 @@ export default {
         "indicative"
       ],
       "optionReasons": {
-        "indicate-mcq-19": "本句指「可被視為某情況的跡象／證據」。",
-        "indicate-mcq-18": "「因安全／病情原因不適宜使用的」與本句語境不同。",
-        "indicate-mcq-20": "「用來陳述事實、資訊或被視為真實情況的直陳語氣」與本句語境不同。",
-        "indicate-mcq-17": "「根據病情判斷，某檢查／治療屬適宜或有需要」與本句語境不同。",
-        "indicate-mcq-16": "「使用某藥物、檢查或治療的醫療理由／適應症」與本句語境不同。",
-        "indicate-mcq-15": "「只能提供大概情況、而非精確結果的資訊」與本句語境不同。"
+        "indicate-mcq-19": "本句的「indicative」指「可被視為某情況的跡象／證據」。",
+        "indicate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-19"
     },
@@ -1346,11 +1222,9 @@ export default {
       "masked": "The battery ____ turned red.",
       "options": [
         "indicate-mcq-11",
-        "indicate-mcq-10",
-        "indicate-mcq-12",
-        "indicate-mcq-09",
-        "indicate-mcq-13",
-        "indicate-mcq-08"
+        "indicate-mcq-17",
+        "indicate-mcq-15",
+        "indicate-mcq-10"
       ],
       "explanation": "本句的「indicator」指「顯示設備狀態／數值的指示器」。",
       "sentenceIndex": 86,
@@ -1359,12 +1233,10 @@ export default {
         "indicator"
       ],
       "optionReasons": {
-        "indicate-mcq-11": "本句指「顯示設備狀態／數值的指示器」。",
-        "indicate-mcq-10": "「車輛用來示意轉向的方向燈」與本句語境不同。",
-        "indicate-mcq-12": "「在較早階段反映未來可能走勢的指標」與本句語境不同。",
-        "indicate-mcq-09": "「用來反映某狀況、趨勢或表現的指標／跡象」與本句語境不同。",
-        "indicate-mcq-13": "「在變化發生後才反映／確認趨勢的指標」與本句語境不同。",
-        "indicate-mcq-08": "「在表格／問卷中註明、填寫或選出指定資訊」與本句語境不同。"
+        "indicate-mcq-11": "本句的「indicator」指「顯示設備狀態／數值的指示器」。",
+        "indicate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-11"
     },
@@ -1376,11 +1248,9 @@ export default {
       "masked": "The ____ shows whether the charger is working.",
       "options": [
         "indicate-mcq-11",
+        "indicate-mcq-17",
         "indicate-mcq-10",
-        "indicate-mcq-12",
-        "indicate-mcq-09",
-        "indicate-mcq-13",
-        "indicate-mcq-08"
+        "indicate-mcq-15"
       ],
       "explanation": "本句的「indicator」指「顯示設備狀態／數值的指示器」。",
       "sentenceIndex": 87,
@@ -1389,12 +1259,10 @@ export default {
         "indicator"
       ],
       "optionReasons": {
-        "indicate-mcq-11": "本句指「顯示設備狀態／數值的指示器」。",
-        "indicate-mcq-10": "「車輛用來示意轉向的方向燈」與本句語境不同。",
-        "indicate-mcq-12": "「在較早階段反映未來可能走勢的指標」與本句語境不同。",
-        "indicate-mcq-09": "「用來反映某狀況、趨勢或表現的指標／跡象」與本句語境不同。",
-        "indicate-mcq-13": "「在變化發生後才反映／確認趨勢的指標」與本句語境不同。",
-        "indicate-mcq-08": "「在表格／問卷中註明、填寫或選出指定資訊」與本句語境不同。"
+        "indicate-mcq-11": "本句的「indicator」指「顯示設備狀態／數值的指示器」。",
+        "indicate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "indicate-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "indicate-mcq-11"
     }
@@ -1406,5 +1274,7 @@ export default {
     "sha256": "41c7b8e8ed33c0f0f6e78ddb3b9261bad62815630e50cd25852f898e44a922b0",
     "pages": 41
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

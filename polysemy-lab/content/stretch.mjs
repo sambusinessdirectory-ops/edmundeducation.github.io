@@ -377,11 +377,9 @@ export default {
       "masked": "Do not ____ the cable too tightly.",
       "options": [
         "stretch-pdf-001",
-        "stretch-mcq-02",
-        "stretch-mcq-03",
-        "stretch-mcq-04",
-        "stretch-mcq-05",
-        "stretch-mcq-06"
+        "stretch-mcq-14",
+        "stretch-mcq-08",
+        "stretch-mcq-07"
       ],
       "explanation": "本句的「stretch」指「對某物施力，使其在長度、寬度或形狀上延伸」。",
       "sentenceIndex": 0,
@@ -390,12 +388,10 @@ export default {
         "stretch"
       ],
       "optionReasons": {
-        "stretch-pdf-001": "本句指「對某物施力，使其在長度、寬度或形狀上延伸」。",
-        "stretch-mcq-02": "「把手腳／肌肉伸展開來」與本句語境不同。",
-        "stretch-mcq-03": "「為增加活動幅度／放鬆肌肉而進行的伸展運動」與本句語境不同。",
-        "stretch-mcq-04": "「在空間上連續延伸至很遠的地方」與本句語境不同。",
-        "stretch-mcq-05": "「一段連續延伸的道路／土地／水域」與本句語境不同。",
-        "stretch-mcq-06": "「一段沒有明顯中斷的連續時間」與本句語境不同。"
+        "stretch-pdf-001": "本句的「stretch」指「對某物施力，使其在長度、寬度或形狀上延伸」。",
+        "stretch-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-pdf-001"
     },
@@ -407,11 +403,9 @@ export default {
       "masked": "She ____ the fabric across the frame.",
       "options": [
         "stretch-pdf-001",
-        "stretch-mcq-02",
-        "stretch-mcq-03",
-        "stretch-mcq-04",
-        "stretch-mcq-05",
-        "stretch-mcq-06"
+        "stretch-mcq-14",
+        "stretch-mcq-13",
+        "stretch-mcq-08"
       ],
       "explanation": "本句的「stretched」指「對某物施力，使其在長度、寬度或形狀上延伸」。",
       "sentenceIndex": 1,
@@ -420,12 +414,10 @@ export default {
         "stretched"
       ],
       "optionReasons": {
-        "stretch-pdf-001": "本句指「對某物施力，使其在長度、寬度或形狀上延伸」。",
-        "stretch-mcq-02": "「把手腳／肌肉伸展開來」與本句語境不同。",
-        "stretch-mcq-03": "「為增加活動幅度／放鬆肌肉而進行的伸展運動」與本句語境不同。",
-        "stretch-mcq-04": "「在空間上連續延伸至很遠的地方」與本句語境不同。",
-        "stretch-mcq-05": "「一段連續延伸的道路／土地／水域」與本句語境不同。",
-        "stretch-mcq-06": "「一段沒有明顯中斷的連續時間」與本句語境不同。"
+        "stretch-pdf-001": "本句的「stretched」指「對某物施力，使其在長度、寬度或形狀上延伸」。",
+        "stretch-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-pdf-001"
     },
@@ -437,11 +429,9 @@ export default {
       "masked": "He can work for six hours ____.",
       "options": [
         "stretch-mcq-07",
-        "stretch-mcq-06",
-        "stretch-mcq-08",
-        "stretch-mcq-05",
-        "stretch-mcq-09",
-        "stretch-mcq-04"
+        "stretch-mcq-13",
+        "stretch-mcq-15",
+        "stretch-mcq-08"
       ],
       "explanation": "本句的「at a stretch」指「不停頓地連續一段時間」。",
       "sentenceIndex": 28,
@@ -450,12 +440,10 @@ export default {
         "at a stretch"
       ],
       "optionReasons": {
-        "stretch-mcq-07": "本句指「不停頓地連續一段時間」。",
-        "stretch-mcq-06": "「一段沒有明顯中斷的連續時間」與本句語境不同。",
-        "stretch-mcq-08": "「令有限預算需要勉強負擔更多開支，逼近可承受上限」與本句語境不同。",
-        "stretch-mcq-05": "「一段連續延伸的道路／土地／水域」與本句語境不同。",
-        "stretch-mcq-09": "「令有限金錢／資源維持更久或供更多用途」與本句語境不同。",
-        "stretch-mcq-04": "「在空間上連續延伸至很遠的地方」與本句語境不同。"
+        "stretch-mcq-07": "本句的「at a stretch」指「不停頓地連續一段時間」。",
+        "stretch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-07"
     },
@@ -467,11 +455,9 @@ export default {
       "masked": "The car can travel hundreds of kilometres at a ____.",
       "options": [
         "stretch-mcq-07",
-        "stretch-mcq-06",
-        "stretch-mcq-08",
-        "stretch-mcq-05",
-        "stretch-mcq-09",
-        "stretch-mcq-04"
+        "stretch-mcq-15",
+        "stretch-mcq-14",
+        "stretch-mcq-13"
       ],
       "explanation": "本句的「stretch」指「不停頓地連續一段時間」。",
       "sentenceIndex": 29,
@@ -480,12 +466,10 @@ export default {
         "stretch"
       ],
       "optionReasons": {
-        "stretch-mcq-07": "本句指「不停頓地連續一段時間」。",
-        "stretch-mcq-06": "「一段沒有明顯中斷的連續時間」與本句語境不同。",
-        "stretch-mcq-08": "「令有限預算需要勉強負擔更多開支，逼近可承受上限」與本句語境不同。",
-        "stretch-mcq-05": "「一段連續延伸的道路／土地／水域」與本句語境不同。",
-        "stretch-mcq-09": "「令有限金錢／資源維持更久或供更多用途」與本句語境不同。",
-        "stretch-mcq-04": "「在空間上連續延伸至很遠的地方」與本句語境不同。"
+        "stretch-mcq-07": "本句的「stretch」指「不停頓地連續一段時間」。",
+        "stretch-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-07"
     },
@@ -497,11 +481,9 @@ export default {
       "masked": "The electric model would ____.",
       "options": [
         "stretch-mcq-08",
+        "stretch-pdf-001",
         "stretch-mcq-07",
-        "stretch-mcq-09",
-        "stretch-mcq-06",
-        "stretch-mcq-10",
-        "stretch-mcq-05"
+        "stretch-mcq-14"
       ],
       "explanation": "本句的「stretch their mortgage budget」指「令有限預算需要勉強負擔更多開支，逼近可承受上限」。",
       "sentenceIndex": 30,
@@ -510,12 +492,10 @@ export default {
         "stretch their mortgage budget"
       ],
       "optionReasons": {
-        "stretch-mcq-08": "本句指「令有限預算需要勉強負擔更多開支，逼近可承受上限」。",
-        "stretch-mcq-07": "「不停頓地連續一段時間」與本句語境不同。",
-        "stretch-mcq-09": "「令有限金錢／資源維持更久或供更多用途」與本句語境不同。",
-        "stretch-mcq-06": "「一段沒有明顯中斷的連續時間」與本句語境不同。",
-        "stretch-mcq-10": "「因需求太大而資源緊絀、不勝負荷的」與本句語境不同。",
-        "stretch-mcq-05": "「一段連續延伸的道路／土地／水域」與本句語境不同。"
+        "stretch-mcq-08": "本句的「stretch their mortgage budget」指「令有限預算需要勉強負擔更多開支，逼近可承受上限」。",
+        "stretch-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-08"
     },
@@ -528,10 +508,8 @@ export default {
       "options": [
         "stretch-mcq-08",
         "stretch-mcq-07",
-        "stretch-mcq-09",
-        "stretch-mcq-06",
-        "stretch-mcq-10",
-        "stretch-mcq-05"
+        "stretch-mcq-17",
+        "stretch-mcq-14"
       ],
       "explanation": "本句的「stretch」指「令有限預算需要勉強負擔更多開支，逼近可承受上限」。",
       "sentenceIndex": 31,
@@ -540,12 +518,10 @@ export default {
         "stretch"
       ],
       "optionReasons": {
-        "stretch-mcq-08": "本句指「令有限預算需要勉強負擔更多開支，逼近可承受上限」。",
-        "stretch-mcq-07": "「不停頓地連續一段時間」與本句語境不同。",
-        "stretch-mcq-09": "「令有限金錢／資源維持更久或供更多用途」與本句語境不同。",
-        "stretch-mcq-06": "「一段沒有明顯中斷的連續時間」與本句語境不同。",
-        "stretch-mcq-10": "「因需求太大而資源緊絀、不勝負荷的」與本句語境不同。",
-        "stretch-mcq-05": "「一段連續延伸的道路／土地／水域」與本句語境不同。"
+        "stretch-mcq-08": "本句的「stretch」指「令有限預算需要勉強負擔更多開支，逼近可承受上限」。",
+        "stretch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-08"
     },
@@ -557,10 +533,8 @@ export default {
       "masked": "Emergency services are already ____.",
       "options": [
         "stretch-mcq-10",
-        "stretch-mcq-09",
-        "stretch-mcq-11",
-        "stretch-mcq-08",
-        "stretch-mcq-12",
+        "stretch-mcq-13",
+        "stretch-pdf-001",
         "stretch-mcq-07"
       ],
       "explanation": "本句的「stretched」指「因需求太大而資源緊絀、不勝負荷的」。",
@@ -570,12 +544,10 @@ export default {
         "stretched"
       ],
       "optionReasons": {
-        "stretch-mcq-10": "本句指「因需求太大而資源緊絀、不勝負荷的」。",
-        "stretch-mcq-09": "「令有限金錢／資源維持更久或供更多用途」與本句語境不同。",
-        "stretch-mcq-11": "「因同時承擔太多事情而人手／精力／資源不足」與本句語境不同。",
-        "stretch-mcq-08": "「令有限預算需要勉強負擔更多開支，逼近可承受上限」與本句語境不同。",
-        "stretch-mcq-12": "「挑戰某人的能力，使其超越平常舒適範圍」與本句語境不同。",
-        "stretch-mcq-07": "「不停頓地連續一段時間」與本句語境不同。"
+        "stretch-mcq-10": "本句的「stretched」指「因需求太大而資源緊絀、不勝負荷的」。",
+        "stretch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stretch-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-10"
     },
@@ -587,11 +559,9 @@ export default {
       "masked": "The team is ____ because several employees are absent.",
       "options": [
         "stretch-mcq-10",
-        "stretch-mcq-09",
-        "stretch-mcq-11",
-        "stretch-mcq-08",
-        "stretch-mcq-12",
-        "stretch-mcq-07"
+        "stretch-mcq-07",
+        "stretch-mcq-17",
+        "stretch-pdf-001"
       ],
       "explanation": "本句的「stretched」指「因需求太大而資源緊絀、不勝負荷的」。",
       "sentenceIndex": 37,
@@ -600,12 +570,10 @@ export default {
         "stretched"
       ],
       "optionReasons": {
-        "stretch-mcq-10": "本句指「因需求太大而資源緊絀、不勝負荷的」。",
-        "stretch-mcq-09": "「令有限金錢／資源維持更久或供更多用途」與本句語境不同。",
-        "stretch-mcq-11": "「因同時承擔太多事情而人手／精力／資源不足」與本句語境不同。",
-        "stretch-mcq-08": "「令有限預算需要勉強負擔更多開支，逼近可承受上限」與本句語境不同。",
-        "stretch-mcq-12": "「挑戰某人的能力，使其超越平常舒適範圍」與本句語境不同。",
-        "stretch-mcq-07": "「不停頓地連續一段時間」與本句語境不同。"
+        "stretch-mcq-10": "本句的「stretched」指「因需求太大而資源緊絀、不勝負荷的」。",
+        "stretch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stretch-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-10"
     },
@@ -617,11 +585,9 @@ export default {
       "masked": "The department is ____.",
       "options": [
         "stretch-mcq-11",
-        "stretch-mcq-10",
-        "stretch-mcq-12",
-        "stretch-mcq-09",
-        "stretch-mcq-13",
-        "stretch-mcq-08"
+        "stretch-mcq-15",
+        "stretch-mcq-14",
+        "stretch-mcq-13"
       ],
       "explanation": "本句的「stretched thin」指「因同時承擔太多事情而人手／精力／資源不足」。",
       "sentenceIndex": 38,
@@ -630,12 +596,10 @@ export default {
         "stretched thin"
       ],
       "optionReasons": {
-        "stretch-mcq-11": "本句指「因同時承擔太多事情而人手／精力／資源不足」。",
-        "stretch-mcq-10": "「因需求太大而資源緊絀、不勝負荷的」與本句語境不同。",
-        "stretch-mcq-12": "「挑戰某人的能力，使其超越平常舒適範圍」與本句語境不同。",
-        "stretch-mcq-09": "「令有限金錢／資源維持更久或供更多用途」與本句語境不同。",
-        "stretch-mcq-13": "「刻意設定得高於一般預期、用來推動更高表現的目標」與本句語境不同。",
-        "stretch-mcq-08": "「令有限預算需要勉強負擔更多開支，逼近可承受上限」與本句語境不同。"
+        "stretch-mcq-11": "本句的「stretched thin」指「因同時承擔太多事情而人手／精力／資源不足」。",
+        "stretch-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-11"
     },
@@ -647,11 +611,9 @@ export default {
       "masked": "Working on five projects at once left her ____ thin.",
       "options": [
         "stretch-mcq-11",
-        "stretch-mcq-10",
-        "stretch-mcq-12",
-        "stretch-mcq-09",
-        "stretch-mcq-13",
-        "stretch-mcq-08"
+        "stretch-mcq-20",
+        "stretch-mcq-14",
+        "stretch-mcq-15"
       ],
       "explanation": "本句的「stretched」指「因同時承擔太多事情而人手／精力／資源不足」。",
       "sentenceIndex": 39,
@@ -660,12 +622,10 @@ export default {
         "stretched"
       ],
       "optionReasons": {
-        "stretch-mcq-11": "本句指「因同時承擔太多事情而人手／精力／資源不足」。",
-        "stretch-mcq-10": "「因需求太大而資源緊絀、不勝負荷的」與本句語境不同。",
-        "stretch-mcq-12": "「挑戰某人的能力，使其超越平常舒適範圍」與本句語境不同。",
-        "stretch-mcq-09": "「令有限金錢／資源維持更久或供更多用途」與本句語境不同。",
-        "stretch-mcq-13": "「刻意設定得高於一般預期、用來推動更高表現的目標」與本句語境不同。",
-        "stretch-mcq-08": "「令有限預算需要勉強負擔更多開支，逼近可承受上限」與本句語境不同。"
+        "stretch-mcq-11": "本句的「stretched」指「因同時承擔太多事情而人手／精力／資源不足」。",
+        "stretch-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-11"
     },
@@ -677,11 +637,9 @@ export default {
       "masked": "The team set a ____ for sales.",
       "options": [
         "stretch-mcq-13",
-        "stretch-mcq-12",
-        "stretch-mcq-14",
-        "stretch-mcq-11",
-        "stretch-mcq-15",
-        "stretch-mcq-10"
+        "stretch-pdf-001",
+        "stretch-mcq-17",
+        "stretch-mcq-14"
       ],
       "explanation": "本句的「stretch goal」指「刻意設定得高於一般預期、用來推動更高表現的目標」。",
       "sentenceIndex": 56,
@@ -690,12 +648,10 @@ export default {
         "stretch goal"
       ],
       "optionReasons": {
-        "stretch-mcq-13": "本句指「刻意設定得高於一般預期、用來推動更高表現的目標」。",
-        "stretch-mcq-12": "「挑戰某人的能力，使其超越平常舒適範圍」與本句語境不同。",
-        "stretch-mcq-14": "「把事實誇大或扭曲，但未必完全捏造」與本句語境不同。",
-        "stretch-mcq-11": "「因同時承擔太多事情而人手／精力／資源不足」與本句語境不同。",
-        "stretch-mcq-15": "「要求人相信一個過於牽強、難以置信的說法」與本句語境不同。",
-        "stretch-mcq-10": "「因需求太大而資源緊絀、不勝負荷的」與本句語境不同。"
+        "stretch-mcq-13": "本句的「stretch goal」指「刻意設定得高於一般預期、用來推動更高表現的目標」。",
+        "stretch-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-13"
     },
@@ -707,11 +663,9 @@ export default {
       "masked": "____ goals should be ambitious but not impossible.",
       "options": [
         "stretch-mcq-13",
-        "stretch-mcq-12",
         "stretch-mcq-14",
-        "stretch-mcq-11",
-        "stretch-mcq-15",
-        "stretch-mcq-10"
+        "stretch-pdf-001",
+        "stretch-mcq-11"
       ],
       "explanation": "本句的「Stretch」指「刻意設定得高於一般預期、用來推動更高表現的目標」。",
       "sentenceIndex": 57,
@@ -720,12 +674,10 @@ export default {
         "Stretch"
       ],
       "optionReasons": {
-        "stretch-mcq-13": "本句指「刻意設定得高於一般預期、用來推動更高表現的目標」。",
-        "stretch-mcq-12": "「挑戰某人的能力，使其超越平常舒適範圍」與本句語境不同。",
-        "stretch-mcq-14": "「把事實誇大或扭曲，但未必完全捏造」與本句語境不同。",
-        "stretch-mcq-11": "「因同時承擔太多事情而人手／精力／資源不足」與本句語境不同。",
-        "stretch-mcq-15": "「要求人相信一個過於牽強、難以置信的說法」與本句語境不同。",
-        "stretch-mcq-10": "「因需求太大而資源緊絀、不勝負荷的」與本句語境不同。"
+        "stretch-mcq-13": "本句的「Stretch」指「刻意設定得高於一般預期、用來推動更高表現的目標」。",
+        "stretch-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stretch-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-13"
     },
@@ -737,11 +689,9 @@ export default {
       "masked": "He was ____ about the car’s condition.",
       "options": [
         "stretch-mcq-14",
-        "stretch-mcq-13",
-        "stretch-mcq-15",
-        "stretch-mcq-12",
-        "stretch-mcq-16",
-        "stretch-mcq-11"
+        "stretch-mcq-08",
+        "stretch-mcq-20",
+        "stretch-mcq-17"
       ],
       "explanation": "本句的「stretching the truth」指「把事實誇大或扭曲，但未必完全捏造」。",
       "sentenceIndex": 60,
@@ -750,12 +700,10 @@ export default {
         "stretching the truth"
       ],
       "optionReasons": {
-        "stretch-mcq-14": "本句指「把事實誇大或扭曲，但未必完全捏造」。",
-        "stretch-mcq-13": "「刻意設定得高於一般預期、用來推動更高表現的目標」與本句語境不同。",
-        "stretch-mcq-15": "「要求人相信一個過於牽強、難以置信的說法」與本句語境不同。",
-        "stretch-mcq-12": "「挑戰某人的能力，使其超越平常舒適範圍」與本句語境不同。",
-        "stretch-mcq-16": "「與證據／合理解讀距離太遠的牽強說法」與本句語境不同。",
-        "stretch-mcq-11": "「因同時承擔太多事情而人手／精力／資源不足」與本句語境不同。"
+        "stretch-mcq-14": "本句的「stretching the truth」指「把事實誇大或扭曲，但未必完全捏造」。",
+        "stretch-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-14"
     },
@@ -767,11 +715,9 @@ export default {
       "masked": "Advertising can sometimes ____ the truth.",
       "options": [
         "stretch-mcq-14",
-        "stretch-mcq-13",
-        "stretch-mcq-15",
-        "stretch-mcq-12",
-        "stretch-mcq-16",
-        "stretch-mcq-11"
+        "stretch-mcq-07",
+        "stretch-mcq-08",
+        "stretch-mcq-13"
       ],
       "explanation": "本句的「stretch」指「把事實誇大或扭曲，但未必完全捏造」。",
       "sentenceIndex": 61,
@@ -780,12 +726,10 @@ export default {
         "stretch"
       ],
       "optionReasons": {
-        "stretch-mcq-14": "本句指「把事實誇大或扭曲，但未必完全捏造」。",
-        "stretch-mcq-13": "「刻意設定得高於一般預期、用來推動更高表現的目標」與本句語境不同。",
-        "stretch-mcq-15": "「要求人相信一個過於牽強、難以置信的說法」與本句語境不同。",
-        "stretch-mcq-12": "「挑戰某人的能力，使其超越平常舒適範圍」與本句語境不同。",
-        "stretch-mcq-16": "「與證據／合理解讀距離太遠的牽強說法」與本句語境不同。",
-        "stretch-mcq-11": "「因同時承擔太多事情而人手／精力／資源不足」與本句語境不同。"
+        "stretch-mcq-14": "本句的「stretch」指「把事實誇大或扭曲，但未必完全捏造」。",
+        "stretch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-14"
     },
@@ -797,11 +741,9 @@ export default {
       "masked": "The explanation ____.",
       "options": [
         "stretch-mcq-15",
-        "stretch-mcq-14",
-        "stretch-mcq-16",
-        "stretch-mcq-13",
-        "stretch-mcq-17",
-        "stretch-mcq-12"
+        "stretch-mcq-11",
+        "stretch-mcq-20",
+        "stretch-pdf-001"
       ],
       "explanation": "本句的「stretches credibility」指「要求人相信一個過於牽強、難以置信的說法」。",
       "sentenceIndex": 62,
@@ -810,12 +752,10 @@ export default {
         "stretches credibility"
       ],
       "optionReasons": {
-        "stretch-mcq-15": "本句指「要求人相信一個過於牽強、難以置信的說法」。",
-        "stretch-mcq-14": "「把事實誇大或扭曲，但未必完全捏造」與本句語境不同。",
-        "stretch-mcq-16": "「與證據／合理解讀距離太遠的牽強說法」與本句語境不同。",
-        "stretch-mcq-13": "「刻意設定得高於一般預期、用來推動更高表現的目標」與本句語境不同。",
-        "stretch-mcq-17": "「無論如何想像都無法合理稱為某事」與本句語境不同。",
-        "stretch-mcq-12": "「挑戰某人的能力，使其超越平常舒適範圍」與本句語境不同。"
+        "stretch-mcq-15": "本句的「stretches credibility」指「要求人相信一個過於牽強、難以置信的說法」。",
+        "stretch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stretch-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-15"
     },
@@ -827,11 +767,9 @@ export default {
       "masked": "Claiming the battery will last forever ____ credibility.",
       "options": [
         "stretch-mcq-15",
+        "stretch-mcq-20",
         "stretch-mcq-14",
-        "stretch-mcq-16",
-        "stretch-mcq-13",
-        "stretch-mcq-17",
-        "stretch-mcq-12"
+        "stretch-mcq-11"
       ],
       "explanation": "本句的「stretches」指「要求人相信一個過於牽強、難以置信的說法」。",
       "sentenceIndex": 63,
@@ -840,12 +778,10 @@ export default {
         "stretches"
       ],
       "optionReasons": {
-        "stretch-mcq-15": "本句指「要求人相信一個過於牽強、難以置信的說法」。",
-        "stretch-mcq-14": "「把事實誇大或扭曲，但未必完全捏造」與本句語境不同。",
-        "stretch-mcq-16": "「與證據／合理解讀距離太遠的牽強說法」與本句語境不同。",
-        "stretch-mcq-13": "「刻意設定得高於一般預期、用來推動更高表現的目標」與本句語境不同。",
-        "stretch-mcq-17": "「無論如何想像都無法合理稱為某事」與本句語境不同。",
-        "stretch-mcq-12": "「挑戰某人的能力，使其超越平常舒適範圍」與本句語境不同。"
+        "stretch-mcq-15": "本句的「stretches」指「要求人相信一個過於牽強、難以置信的說法」。",
+        "stretch-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-15"
     },
@@ -857,10 +793,8 @@ export default {
       "masked": "The car is not cheap ____.",
       "options": [
         "stretch-mcq-17",
-        "stretch-mcq-16",
-        "stretch-mcq-18",
-        "stretch-mcq-15",
-        "stretch-mcq-19",
+        "stretch-mcq-07",
+        "stretch-mcq-08",
         "stretch-mcq-14"
       ],
       "explanation": "本句的「by any stretch of the imagination」指「無論如何想像都無法合理稱為某事」。",
@@ -870,12 +804,10 @@ export default {
         "by any stretch of the imagination"
       ],
       "optionReasons": {
-        "stretch-mcq-17": "本句指「無論如何想像都無法合理稱為某事」。",
-        "stretch-mcq-16": "「與證據／合理解讀距離太遠的牽強說法」與本句語境不同。",
-        "stretch-mcq-18": "「預算／資源不足以負擔 X」與本句語境不同。",
-        "stretch-mcq-15": "「要求人相信一個過於牽強、難以置信的說法」與本句語境不同。",
-        "stretch-mcq-19": "「非正式指一段監禁刑期」與本句語境不同。",
-        "stretch-mcq-14": "「把事實誇大或扭曲，但未必完全捏造」與本句語境不同。"
+        "stretch-mcq-17": "本句的「by any stretch of the imagination」指「無論如何想像都無法合理稱為某事」。",
+        "stretch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-17"
     },
@@ -887,11 +819,9 @@ export default {
       "masked": "This is not a minor problem by any ____ of the imagination.",
       "options": [
         "stretch-mcq-17",
-        "stretch-mcq-16",
-        "stretch-mcq-18",
-        "stretch-mcq-15",
-        "stretch-mcq-19",
-        "stretch-mcq-14"
+        "stretch-pdf-001",
+        "stretch-mcq-08",
+        "stretch-mcq-10"
       ],
       "explanation": "本句的「stretch」指「無論如何想像都無法合理稱為某事」。",
       "sentenceIndex": 71,
@@ -900,12 +830,10 @@ export default {
         "stretch"
       ],
       "optionReasons": {
-        "stretch-mcq-17": "本句指「無論如何想像都無法合理稱為某事」。",
-        "stretch-mcq-16": "「與證據／合理解讀距離太遠的牽強說法」與本句語境不同。",
-        "stretch-mcq-18": "「預算／資源不足以負擔 X」與本句語境不同。",
-        "stretch-mcq-15": "「要求人相信一個過於牽強、難以置信的說法」與本句語境不同。",
-        "stretch-mcq-19": "「非正式指一段監禁刑期」與本句語境不同。",
-        "stretch-mcq-14": "「把事實誇大或扭曲，但未必完全捏造」與本句語境不同。"
+        "stretch-mcq-17": "本句的「stretch」指「無論如何想像都無法合理稱為某事」。",
+        "stretch-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-17"
     },
@@ -917,11 +845,9 @@ export default {
       "masked": "The runners entered the final ____.",
       "options": [
         "stretch-mcq-20",
-        "stretch-mcq-19",
-        "stretch-mcq-21",
-        "stretch-mcq-18",
-        "stretch-mcq-17",
-        "stretch-mcq-16"
+        "stretch-pdf-001",
+        "stretch-mcq-15",
+        "stretch-mcq-11"
       ],
       "explanation": "本句的「stretch」指「接近終點的最後一段；比喻工作／項目的最後階段」。",
       "sentenceIndex": 92,
@@ -930,12 +856,10 @@ export default {
         "stretch"
       ],
       "optionReasons": {
-        "stretch-mcq-20": "本句指「接近終點的最後一段；比喻工作／項目的最後階段」。",
-        "stretch-mcq-19": "「非正式指一段監禁刑期」與本句語境不同。",
-        "stretch-mcq-21": "「能被拉伸、通常又具有彈性的」與本句語境不同。",
-        "stretch-mcq-18": "「預算／資源不足以負擔 X」與本句語境不同。",
-        "stretch-mcq-17": "「無論如何想像都無法合理稱為某事」與本句語境不同。",
-        "stretch-mcq-16": "「與證據／合理解讀距離太遠的牽強說法」與本句語境不同。"
+        "stretch-mcq-20": "本句的「stretch」指「接近終點的最後一段；比喻工作／項目的最後階段」。",
+        "stretch-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-20"
     },
@@ -947,11 +871,9 @@ export default {
       "masked": "The negotiations are in the final ____.",
       "options": [
         "stretch-mcq-20",
-        "stretch-mcq-19",
-        "stretch-mcq-21",
-        "stretch-mcq-18",
-        "stretch-mcq-17",
-        "stretch-mcq-16"
+        "stretch-pdf-001",
+        "stretch-mcq-15",
+        "stretch-mcq-17"
       ],
       "explanation": "本句的「stretch」指「接近終點的最後一段；比喻工作／項目的最後階段」。",
       "sentenceIndex": 93,
@@ -960,12 +882,10 @@ export default {
         "stretch"
       ],
       "optionReasons": {
-        "stretch-mcq-20": "本句指「接近終點的最後一段；比喻工作／項目的最後階段」。",
-        "stretch-mcq-19": "「非正式指一段監禁刑期」與本句語境不同。",
-        "stretch-mcq-21": "「能被拉伸、通常又具有彈性的」與本句語境不同。",
-        "stretch-mcq-18": "「預算／資源不足以負擔 X」與本句語境不同。",
-        "stretch-mcq-17": "「無論如何想像都無法合理稱為某事」與本句語境不同。",
-        "stretch-mcq-16": "「與證據／合理解讀距離太遠的牽強說法」與本句語境不同。"
+        "stretch-mcq-20": "本句的「stretch」指「接近終點的最後一段；比喻工作／項目的最後階段」。",
+        "stretch-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-20"
     },
@@ -977,11 +897,9 @@ export default {
       "masked": "The hospital is severely ____.",
       "options": [
         "stretch-mcq-10",
-        "stretch-mcq-09",
-        "stretch-mcq-11",
-        "stretch-mcq-08",
-        "stretch-mcq-12",
-        "stretch-mcq-07"
+        "stretch-mcq-17",
+        "stretch-mcq-07",
+        "stretch-mcq-13"
       ],
       "explanation": "本句的「stretched」指「因需求太大而資源緊絀、不勝負荷的」。",
       "sentenceIndex": 107,
@@ -990,12 +908,10 @@ export default {
         "stretched"
       ],
       "optionReasons": {
-        "stretch-mcq-10": "本句指「因需求太大而資源緊絀、不勝負荷的」。",
-        "stretch-mcq-09": "「令有限金錢／資源維持更久或供更多用途」與本句語境不同。",
-        "stretch-mcq-11": "「因同時承擔太多事情而人手／精力／資源不足」與本句語境不同。",
-        "stretch-mcq-08": "「令有限預算需要勉強負擔更多開支，逼近可承受上限」與本句語境不同。",
-        "stretch-mcq-12": "「挑戰某人的能力，使其超越平常舒適範圍」與本句語境不同。",
-        "stretch-mcq-07": "「不停頓地連續一段時間」與本句語境不同。"
+        "stretch-mcq-10": "本句的「stretched」指「因需求太大而資源緊絀、不勝負荷的」。",
+        "stretch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-10"
     },
@@ -1007,11 +923,9 @@ export default {
       "masked": "Staff are ____ during peak periods.",
       "options": [
         "stretch-mcq-10",
-        "stretch-mcq-09",
-        "stretch-mcq-11",
-        "stretch-mcq-08",
-        "stretch-mcq-12",
-        "stretch-mcq-07"
+        "stretch-mcq-07",
+        "stretch-mcq-17",
+        "stretch-pdf-001"
       ],
       "explanation": "本句的「stretched」指「因需求太大而資源緊絀、不勝負荷的」。",
       "sentenceIndex": 108,
@@ -1020,12 +934,10 @@ export default {
         "stretched"
       ],
       "optionReasons": {
-        "stretch-mcq-10": "本句指「因需求太大而資源緊絀、不勝負荷的」。",
-        "stretch-mcq-09": "「令有限金錢／資源維持更久或供更多用途」與本句語境不同。",
-        "stretch-mcq-11": "「因同時承擔太多事情而人手／精力／資源不足」與本句語境不同。",
-        "stretch-mcq-08": "「令有限預算需要勉強負擔更多開支，逼近可承受上限」與本句語境不同。",
-        "stretch-mcq-12": "「挑戰某人的能力，使其超越平常舒適範圍」與本句語境不同。",
-        "stretch-mcq-07": "「不停頓地連續一段時間」與本句語境不同。"
+        "stretch-mcq-10": "本句的「stretched」指「因需求太大而資源緊絀、不勝負荷的」。",
+        "stretch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stretch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stretch-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stretch-mcq-10"
     }
@@ -1037,5 +949,7 @@ export default {
     "sha256": "41e476d4b5910c0e2b5391a1ffa388d2e02fc561f05d27871366ec1ea6d157d1",
     "pages": 41
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

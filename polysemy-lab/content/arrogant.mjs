@@ -299,11 +299,7 @@ export default {
       "masked": "She was highly intelligent but never ____.",
       "options": [
         "arrogant-mcq-01",
-        "arrogant-mcq-02",
-        "arrogant-mcq-03",
-        "arrogant-mcq-04",
-        "arrogant-mcq-05",
-        "arrogant-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「arrogant」指「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」。",
       "sentenceIndex": 0,
@@ -312,12 +308,8 @@ export default {
         "arrogant"
       ],
       "optionReasons": {
-        "arrogant-mcq-01": "本句指「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」。",
-        "arrogant-mcq-02": "「表現出高人一等、看不起別人的態度／舉止」與本句語境不同。",
-        "arrogant-mcq-03": "「說話時帶有優越感、輕視或盛氣凌人的語氣」與本句語境不同。",
-        "arrogant-mcq-04": "「因過度相信自己的優越性或判斷而作出的自以為是假設」與本句語境不同。",
-        "arrogant-mcq-05": "「對某人表現得高高在上、不把對方當一回事」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。"
+        "arrogant-mcq-01": "本句的「arrogant」指「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-01"
     },
@@ -329,11 +321,7 @@ export default {
       "masked": "Confidence is attractive, but it can become unpleasant when it turns ____.",
       "options": [
         "arrogant-mcq-01",
-        "arrogant-mcq-02",
-        "arrogant-mcq-03",
-        "arrogant-mcq-04",
-        "arrogant-mcq-05",
-        "arrogant-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「arrogant」指「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」。",
       "sentenceIndex": 1,
@@ -342,12 +330,8 @@ export default {
         "arrogant"
       ],
       "optionReasons": {
-        "arrogant-mcq-01": "本句指「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」。",
-        "arrogant-mcq-02": "「表現出高人一等、看不起別人的態度／舉止」與本句語境不同。",
-        "arrogant-mcq-03": "「說話時帶有優越感、輕視或盛氣凌人的語氣」與本句語境不同。",
-        "arrogant-mcq-04": "「因過度相信自己的優越性或判斷而作出的自以為是假設」與本句語境不同。",
-        "arrogant-mcq-05": "「對某人表現得高高在上、不把對方當一回事」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。"
+        "arrogant-mcq-01": "本句的「arrogant」指「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-01"
     },
@@ -359,11 +343,7 @@ export default {
       "masked": "Nobody likes working with an ____.",
       "options": [
         "arrogant-mcq-01",
-        "arrogant-mcq-02",
-        "arrogant-mcq-03",
-        "arrogant-mcq-04",
-        "arrogant-mcq-05",
-        "arrogant-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「arrogant person」指「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」。",
       "sentenceIndex": 4,
@@ -372,12 +352,8 @@ export default {
         "arrogant person"
       ],
       "optionReasons": {
-        "arrogant-mcq-01": "本句指「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」。",
-        "arrogant-mcq-02": "「表現出高人一等、看不起別人的態度／舉止」與本句語境不同。",
-        "arrogant-mcq-03": "「說話時帶有優越感、輕視或盛氣凌人的語氣」與本句語境不同。",
-        "arrogant-mcq-04": "「因過度相信自己的優越性或判斷而作出的自以為是假設」與本句語境不同。",
-        "arrogant-mcq-05": "「對某人表現得高高在上、不把對方當一回事」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。"
+        "arrogant-mcq-01": "本句的「arrogant person」指「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-01"
     },
@@ -389,11 +365,7 @@ export default {
       "masked": "He came across as ____ even though he was very capable.",
       "options": [
         "arrogant-mcq-01",
-        "arrogant-mcq-02",
-        "arrogant-mcq-03",
-        "arrogant-mcq-04",
-        "arrogant-mcq-05",
-        "arrogant-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「arrogant」指「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」。",
       "sentenceIndex": 5,
@@ -402,12 +374,8 @@ export default {
         "arrogant"
       ],
       "optionReasons": {
-        "arrogant-mcq-01": "本句指「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」。",
-        "arrogant-mcq-02": "「表現出高人一等、看不起別人的態度／舉止」與本句語境不同。",
-        "arrogant-mcq-03": "「說話時帶有優越感、輕視或盛氣凌人的語氣」與本句語境不同。",
-        "arrogant-mcq-04": "「因過度相信自己的優越性或判斷而作出的自以為是假設」與本句語境不同。",
-        "arrogant-mcq-05": "「對某人表現得高高在上、不把對方當一回事」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。"
+        "arrogant-mcq-01": "本句的「arrogant」指「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-01"
     },
@@ -419,10 +387,8 @@ export default {
       "masked": "His ____ annoyed the team.",
       "options": [
         "arrogant-mcq-02",
-        "arrogant-mcq-01",
         "arrogant-mcq-03",
-        "arrogant-mcq-04",
-        "arrogant-mcq-05",
+        "arrogant-mcq-12",
         "arrogant-mcq-06"
       ],
       "explanation": "本句的「arrogant attitude」指「表現出高人一等、看不起別人的態度／舉止」。",
@@ -432,12 +398,10 @@ export default {
         "arrogant attitude"
       ],
       "optionReasons": {
-        "arrogant-mcq-02": "本句指「表現出高人一等、看不起別人的態度／舉止」。",
-        "arrogant-mcq-01": "「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」與本句語境不同。",
-        "arrogant-mcq-03": "「說話時帶有優越感、輕視或盛氣凌人的語氣」與本句語境不同。",
-        "arrogant-mcq-04": "「因過度相信自己的優越性或判斷而作出的自以為是假設」與本句語境不同。",
-        "arrogant-mcq-05": "「對某人表現得高高在上、不把對方當一回事」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。"
+        "arrogant-mcq-02": "本句的「arrogant attitude」指「表現出高人一等、看不起別人的態度／舉止」。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-02"
     },
@@ -449,11 +413,9 @@ export default {
       "masked": "She disliked his ____.",
       "options": [
         "arrogant-mcq-02",
-        "arrogant-mcq-01",
         "arrogant-mcq-03",
-        "arrogant-mcq-04",
-        "arrogant-mcq-05",
-        "arrogant-mcq-06"
+        "arrogant-mcq-06",
+        "arrogant-mcq-12"
       ],
       "explanation": "本句的「arrogant manner」指「表現出高人一等、看不起別人的態度／舉止」。",
       "sentenceIndex": 7,
@@ -462,12 +424,10 @@ export default {
         "arrogant manner"
       ],
       "optionReasons": {
-        "arrogant-mcq-02": "本句指「表現出高人一等、看不起別人的態度／舉止」。",
-        "arrogant-mcq-01": "「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」與本句語境不同。",
-        "arrogant-mcq-03": "「說話時帶有優越感、輕視或盛氣凌人的語氣」與本句語境不同。",
-        "arrogant-mcq-04": "「因過度相信自己的優越性或判斷而作出的自以為是假設」與本句語境不同。",
-        "arrogant-mcq-05": "「對某人表現得高高在上、不把對方當一回事」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。"
+        "arrogant-mcq-02": "本句的「arrogant manner」指「表現出高人一等、看不起別人的態度／舉止」。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-02"
     },
@@ -479,9 +439,7 @@ export default {
       "masked": "He answered in an ____.",
       "options": [
         "arrogant-mcq-03",
-        "arrogant-mcq-02",
-        "arrogant-mcq-04",
-        "arrogant-mcq-01",
+        "arrogant-mcq-12",
         "arrogant-mcq-05",
         "arrogant-mcq-06"
       ],
@@ -492,12 +450,10 @@ export default {
         "arrogant tone"
       ],
       "optionReasons": {
-        "arrogant-mcq-03": "本句指「說話時帶有優越感、輕視或盛氣凌人的語氣」。",
-        "arrogant-mcq-02": "「表現出高人一等、看不起別人的態度／舉止」與本句語境不同。",
-        "arrogant-mcq-04": "「因過度相信自己的優越性或判斷而作出的自以為是假設」與本句語境不同。",
-        "arrogant-mcq-01": "「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」與本句語境不同。",
-        "arrogant-mcq-05": "「對某人表現得高高在上、不把對方當一回事」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。"
+        "arrogant-mcq-03": "本句的「arrogant tone」指「說話時帶有優越感、輕視或盛氣凌人的語氣」。",
+        "arrogant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-03"
     },
@@ -509,11 +465,8 @@ export default {
       "masked": "Her comment sounded unnecessarily ____.",
       "options": [
         "arrogant-mcq-03",
-        "arrogant-mcq-02",
-        "arrogant-mcq-04",
-        "arrogant-mcq-01",
-        "arrogant-mcq-05",
-        "arrogant-mcq-06"
+        "arrogant-mcq-09",
+        "arrogant-mcq-07"
       ],
       "explanation": "本句的「arrogant」指「說話時帶有優越感、輕視或盛氣凌人的語氣」。",
       "sentenceIndex": 9,
@@ -522,12 +475,9 @@ export default {
         "arrogant"
       ],
       "optionReasons": {
-        "arrogant-mcq-03": "本句指「說話時帶有優越感、輕視或盛氣凌人的語氣」。",
-        "arrogant-mcq-02": "「表現出高人一等、看不起別人的態度／舉止」與本句語境不同。",
-        "arrogant-mcq-04": "「因過度相信自己的優越性或判斷而作出的自以為是假設」與本句語境不同。",
-        "arrogant-mcq-01": "「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」與本句語境不同。",
-        "arrogant-mcq-05": "「對某人表現得高高在上、不把對方當一回事」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。"
+        "arrogant-mcq-03": "本句的「arrogant」指「說話時帶有優越感、輕視或盛氣凌人的語氣」。",
+        "arrogant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-03"
     },
@@ -539,11 +489,8 @@ export default {
       "masked": "It was ____ to assume nobody else understood the problem.",
       "options": [
         "arrogant-mcq-04",
-        "arrogant-mcq-03",
         "arrogant-mcq-05",
-        "arrogant-mcq-02",
-        "arrogant-mcq-06",
-        "arrogant-mcq-01"
+        "arrogant-mcq-06"
       ],
       "explanation": "本句的「arrogant」指「因過度相信自己的優越性或判斷而作出的自以為是假設」。",
       "sentenceIndex": 10,
@@ -552,12 +499,9 @@ export default {
         "arrogant"
       ],
       "optionReasons": {
-        "arrogant-mcq-04": "本句指「因過度相信自己的優越性或判斷而作出的自以為是假設」。",
-        "arrogant-mcq-03": "「說話時帶有優越感、輕視或盛氣凌人的語氣」與本句語境不同。",
-        "arrogant-mcq-05": "「對某人表現得高高在上、不把對方當一回事」與本句語境不同。",
-        "arrogant-mcq-02": "「表現出高人一等、看不起別人的態度／舉止」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-01": "「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」與本句語境不同。"
+        "arrogant-mcq-04": "本句的「arrogant」指「因過度相信自己的優越性或判斷而作出的自以為是假設」。",
+        "arrogant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-04"
     },
@@ -569,11 +513,8 @@ export default {
       "masked": "The claim rested on an ____ that his approach was automatically best.",
       "options": [
         "arrogant-mcq-04",
-        "arrogant-mcq-03",
         "arrogant-mcq-05",
-        "arrogant-mcq-02",
-        "arrogant-mcq-06",
-        "arrogant-mcq-01"
+        "arrogant-mcq-06"
       ],
       "explanation": "本句的「arrogant assumption」指「因過度相信自己的優越性或判斷而作出的自以為是假設」。",
       "sentenceIndex": 11,
@@ -582,12 +523,9 @@ export default {
         "arrogant assumption"
       ],
       "optionReasons": {
-        "arrogant-mcq-04": "本句指「因過度相信自己的優越性或判斷而作出的自以為是假設」。",
-        "arrogant-mcq-03": "「說話時帶有優越感、輕視或盛氣凌人的語氣」與本句語境不同。",
-        "arrogant-mcq-05": "「對某人表現得高高在上、不把對方當一回事」與本句語境不同。",
-        "arrogant-mcq-02": "「表現出高人一等、看不起別人的態度／舉止」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-01": "「認為自己比別人更重要、更聰明或更優秀，並表現出優越感；傲慢的／自大的」與本句語境不同。"
+        "arrogant-mcq-04": "本句的「arrogant assumption」指「因過度相信自己的優越性或判斷而作出的自以為是假設」。",
+        "arrogant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-04"
     },
@@ -599,11 +537,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "arrogant-mcq-05",
-        "arrogant-mcq-04",
-        "arrogant-mcq-06",
         "arrogant-mcq-03",
-        "arrogant-mcq-07",
-        "arrogant-mcq-02"
+        "arrogant-mcq-12",
+        "arrogant-mcq-06"
       ],
       "explanation": "本句的「arrogant enough to dismiss everyone else’s advice」指「對某人表現得高高在上、不把對方當一回事」。",
       "sentenceIndex": 12,
@@ -612,12 +548,10 @@ export default {
         "arrogant enough to dismiss everyone else’s advice"
       ],
       "optionReasons": {
-        "arrogant-mcq-05": "本句指「對某人表現得高高在上、不把對方當一回事」。",
-        "arrogant-mcq-04": "「因過度相信自己的優越性或判斷而作出的自以為是假設」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-03": "「說話時帶有優越感、輕視或盛氣凌人的語氣」與本句語境不同。",
-        "arrogant-mcq-07": "「無論本意如何，給別人留下傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-02": "「表現出高人一等、看不起別人的態度／舉止」與本句語境不同。"
+        "arrogant-mcq-05": "本句的「arrogant enough to dismiss everyone else’s advice」指「對某人表現得高高在上、不把對方當一回事」。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-05"
     },
@@ -629,11 +563,9 @@ export default {
       "masked": "She was not ____.",
       "options": [
         "arrogant-mcq-05",
-        "arrogant-mcq-04",
         "arrogant-mcq-06",
         "arrogant-mcq-03",
-        "arrogant-mcq-07",
-        "arrogant-mcq-02"
+        "arrogant-mcq-12"
       ],
       "explanation": "本句的「arrogant enough to think she knew everything」指「對某人表現得高高在上、不把對方當一回事」。",
       "sentenceIndex": 13,
@@ -642,12 +574,10 @@ export default {
         "arrogant enough to think she knew everything"
       ],
       "optionReasons": {
-        "arrogant-mcq-05": "本句指「對某人表現得高高在上、不把對方當一回事」。",
-        "arrogant-mcq-04": "「因過度相信自己的優越性或判斷而作出的自以為是假設」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-03": "「說話時帶有優越感、輕視或盛氣凌人的語氣」與本句語境不同。",
-        "arrogant-mcq-07": "「無論本意如何，給別人留下傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-02": "「表現出高人一等、看不起別人的態度／舉止」與本句語境不同。"
+        "arrogant-mcq-05": "本句的「arrogant enough to think she knew everything」指「對某人表現得高高在上、不把對方當一回事」。",
+        "arrogant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-05"
     },
@@ -659,11 +589,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "arrogant-mcq-05",
-        "arrogant-mcq-04",
-        "arrogant-mcq-06",
         "arrogant-mcq-03",
-        "arrogant-mcq-07",
-        "arrogant-mcq-02"
+        "arrogant-mcq-06",
+        "arrogant-mcq-12"
       ],
       "explanation": "本句的「arrogant toward junior staff」指「對某人表現得高高在上、不把對方當一回事」。",
       "sentenceIndex": 14,
@@ -672,12 +600,10 @@ export default {
         "arrogant toward junior staff"
       ],
       "optionReasons": {
-        "arrogant-mcq-05": "本句指「對某人表現得高高在上、不把對方當一回事」。",
-        "arrogant-mcq-04": "「因過度相信自己的優越性或判斷而作出的自以為是假設」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-03": "「說話時帶有優越感、輕視或盛氣凌人的語氣」與本句語境不同。",
-        "arrogant-mcq-07": "「無論本意如何，給別人留下傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-02": "「表現出高人一等、看不起別人的態度／舉止」與本句語境不同。"
+        "arrogant-mcq-05": "本句的「arrogant toward junior staff」指「對某人表現得高高在上、不把對方當一回事」。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-05"
     },
@@ -689,11 +615,9 @@ export default {
       "masked": "She never behaved ____.",
       "options": [
         "arrogant-mcq-05",
-        "arrogant-mcq-04",
         "arrogant-mcq-06",
         "arrogant-mcq-03",
-        "arrogant-mcq-07",
-        "arrogant-mcq-02"
+        "arrogant-mcq-12"
       ],
       "explanation": "本句的「arrogantly toward students」指「對某人表現得高高在上、不把對方當一回事」。",
       "sentenceIndex": 15,
@@ -702,12 +626,10 @@ export default {
         "arrogantly toward students"
       ],
       "optionReasons": {
-        "arrogant-mcq-05": "本句指「對某人表現得高高在上、不把對方當一回事」。",
-        "arrogant-mcq-04": "「因過度相信自己的優越性或判斷而作出的自以為是假設」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-03": "「說話時帶有優越感、輕視或盛氣凌人的語氣」與本句語境不同。",
-        "arrogant-mcq-07": "「無論本意如何，給別人留下傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-02": "「表現出高人一等、看不起別人的態度／舉止」與本句語境不同。"
+        "arrogant-mcq-05": "本句的「arrogantly toward students」指「對某人表現得高高在上、不把對方當一回事」。",
+        "arrogant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-05"
     },
@@ -719,10 +641,7 @@ export default {
       "masked": "His ____ made cooperation difficult.",
       "options": [
         "arrogant-mcq-08",
-        "arrogant-mcq-07",
-        "arrogant-mcq-09",
-        "arrogant-mcq-06",
-        "arrogant-mcq-10",
+        "arrogant-mcq-03",
         "arrogant-mcq-05"
       ],
       "explanation": "本句的「arrogance」指「認為自己高人一等並因此自大的態度；傲慢／自負」。",
@@ -732,12 +651,9 @@ export default {
         "arrogance"
       ],
       "optionReasons": {
-        "arrogant-mcq-08": "本句指「認為自己高人一等並因此自大的態度；傲慢／自負」。",
-        "arrogant-mcq-07": "「無論本意如何，給別人留下傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-09": "「以高高在上、自大的方式」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-10": "「對自己的能力、外貌或重要性有過高評價；自負的」與本句語境不同。",
-        "arrogant-mcq-05": "「對某人表現得高高在上、不把對方當一回事」與本句語境不同。"
+        "arrogant-mcq-08": "本句的「arrogance」指「認為自己高人一等並因此自大的態度；傲慢／自負」。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-08"
     },
@@ -749,10 +665,7 @@ export default {
       "masked": "Intelligence without humility can turn into ____.",
       "options": [
         "arrogant-mcq-08",
-        "arrogant-mcq-07",
-        "arrogant-mcq-09",
-        "arrogant-mcq-06",
-        "arrogant-mcq-10",
+        "arrogant-mcq-03",
         "arrogant-mcq-05"
       ],
       "explanation": "本句的「arrogance」指「認為自己高人一等並因此自大的態度；傲慢／自負」。",
@@ -762,12 +675,9 @@ export default {
         "arrogance"
       ],
       "optionReasons": {
-        "arrogant-mcq-08": "本句指「認為自己高人一等並因此自大的態度；傲慢／自負」。",
-        "arrogant-mcq-07": "「無論本意如何，給別人留下傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-09": "「以高高在上、自大的方式」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-10": "「對自己的能力、外貌或重要性有過高評價；自負的」與本句語境不同。",
-        "arrogant-mcq-05": "「對某人表現得高高在上、不把對方當一回事」與本句語境不同。"
+        "arrogant-mcq-08": "本句的「arrogance」指「認為自己高人一等並因此自大的態度；傲慢／自負」。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-08"
     },
@@ -779,11 +689,8 @@ export default {
       "masked": "He ____ the criticism.",
       "options": [
         "arrogant-mcq-09",
-        "arrogant-mcq-08",
-        "arrogant-mcq-10",
-        "arrogant-mcq-07",
-        "arrogant-mcq-11",
-        "arrogant-mcq-06"
+        "arrogant-mcq-03",
+        "arrogant-mcq-07"
       ],
       "explanation": "本句的「arrogantly dismissed」指「以高高在上、自大的方式」。",
       "sentenceIndex": 18,
@@ -792,12 +699,9 @@ export default {
         "arrogantly dismissed"
       ],
       "optionReasons": {
-        "arrogant-mcq-09": "本句指「以高高在上、自大的方式」。",
-        "arrogant-mcq-08": "「認為自己高人一等並因此自大的態度；傲慢／自負」與本句語境不同。",
-        "arrogant-mcq-10": "「對自己的能力、外貌或重要性有過高評價；自負的」與本句語境不同。",
-        "arrogant-mcq-07": "「無論本意如何，給別人留下傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-11": "「表現得彷彿自己比實際上重要得多；自以為是的」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。"
+        "arrogant-mcq-09": "本句的「arrogantly dismissed」指「以高高在上、自大的方式」。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-09"
     },
@@ -809,11 +713,8 @@ export default {
       "masked": "She never spoke ____ to students.",
       "options": [
         "arrogant-mcq-09",
-        "arrogant-mcq-08",
-        "arrogant-mcq-10",
-        "arrogant-mcq-07",
-        "arrogant-mcq-11",
-        "arrogant-mcq-06"
+        "arrogant-mcq-03",
+        "arrogant-mcq-07"
       ],
       "explanation": "本句的「arrogantly」指「以高高在上、自大的方式」。",
       "sentenceIndex": 19,
@@ -822,12 +723,9 @@ export default {
         "arrogantly"
       ],
       "optionReasons": {
-        "arrogant-mcq-09": "本句指「以高高在上、自大的方式」。",
-        "arrogant-mcq-08": "「認為自己高人一等並因此自大的態度；傲慢／自負」與本句語境不同。",
-        "arrogant-mcq-10": "「對自己的能力、外貌或重要性有過高評價；自負的」與本句語境不同。",
-        "arrogant-mcq-07": "「無論本意如何，給別人留下傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-11": "「表現得彷彿自己比實際上重要得多；自以為是的」與本句語境不同。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。"
+        "arrogant-mcq-09": "本句的「arrogantly」指「以高高在上、自大的方式」。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-09"
     },
@@ -839,11 +737,8 @@ export default {
       "masked": "He is clever but rather ____.",
       "options": [
         "arrogant-mcq-10",
-        "arrogant-mcq-09",
-        "arrogant-mcq-11",
-        "arrogant-mcq-08",
-        "arrogant-mcq-12",
-        "arrogant-mcq-07"
+        "arrogant-mcq-07",
+        "arrogant-mcq-03"
       ],
       "explanation": "本句的「conceited」指「對自己的能力、外貌或重要性有過高評價；自負的」。",
       "sentenceIndex": 20,
@@ -852,12 +747,9 @@ export default {
         "conceited"
       ],
       "optionReasons": {
-        "arrogant-mcq-10": "本句指「對自己的能力、外貌或重要性有過高評價；自負的」。",
-        "arrogant-mcq-09": "「以高高在上、自大的方式」與本句語境不同。",
-        "arrogant-mcq-11": "「表現得彷彿自己比實際上重要得多；自以為是的」與本句語境不同。",
-        "arrogant-mcq-08": "「認為自己高人一等並因此自大的態度；傲慢／自負」與本句語境不同。",
-        "arrogant-mcq-12": "「對自己的能力或成功把握超過實際依據；過度自信的」與本句語境不同。",
-        "arrogant-mcq-07": "「無論本意如何，給別人留下傲慢的印象」與本句語境不同。"
+        "arrogant-mcq-10": "本句的「conceited」指「對自己的能力、外貌或重要性有過高評價；自負的」。",
+        "arrogant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-10"
     },
@@ -869,11 +761,8 @@ export default {
       "masked": "She became ____ after receiving constant praise.",
       "options": [
         "arrogant-mcq-10",
-        "arrogant-mcq-09",
-        "arrogant-mcq-11",
-        "arrogant-mcq-08",
-        "arrogant-mcq-12",
-        "arrogant-mcq-07"
+        "arrogant-mcq-07",
+        "arrogant-mcq-03"
       ],
       "explanation": "本句的「conceited」指「對自己的能力、外貌或重要性有過高評價；自負的」。",
       "sentenceIndex": 21,
@@ -882,12 +771,9 @@ export default {
         "conceited"
       ],
       "optionReasons": {
-        "arrogant-mcq-10": "本句指「對自己的能力、外貌或重要性有過高評價；自負的」。",
-        "arrogant-mcq-09": "「以高高在上、自大的方式」與本句語境不同。",
-        "arrogant-mcq-11": "「表現得彷彿自己比實際上重要得多；自以為是的」與本句語境不同。",
-        "arrogant-mcq-08": "「認為自己高人一等並因此自大的態度；傲慢／自負」與本句語境不同。",
-        "arrogant-mcq-12": "「對自己的能力或成功把握超過實際依據；過度自信的」與本句語境不同。",
-        "arrogant-mcq-07": "「無論本意如何，給別人留下傲慢的印象」與本句語境不同。"
+        "arrogant-mcq-10": "本句的「conceited」指「對自己的能力、外貌或重要性有過高評價；自負的」。",
+        "arrogant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-10"
     },
@@ -899,10 +785,7 @@ export default {
       "masked": "He sounded rather ____.",
       "options": [
         "arrogant-mcq-11",
-        "arrogant-mcq-10",
-        "arrogant-mcq-12",
-        "arrogant-mcq-09",
-        "arrogant-mcq-08",
+        "arrogant-mcq-03",
         "arrogant-mcq-07"
       ],
       "explanation": "本句的「self-important」指「表現得彷彿自己比實際上重要得多；自以為是的」。",
@@ -912,12 +795,9 @@ export default {
         "self-important"
       ],
       "optionReasons": {
-        "arrogant-mcq-11": "本句指「表現得彷彿自己比實際上重要得多；自以為是的」。",
-        "arrogant-mcq-10": "「對自己的能力、外貌或重要性有過高評價；自負的」與本句語境不同。",
-        "arrogant-mcq-12": "「對自己的能力或成功把握超過實際依據；過度自信的」與本句語境不同。",
-        "arrogant-mcq-09": "「以高高在上、自大的方式」與本句語境不同。",
-        "arrogant-mcq-08": "「認為自己高人一等並因此自大的態度；傲慢／自負」與本句語境不同。",
-        "arrogant-mcq-07": "「無論本意如何，給別人留下傲慢的印象」與本句語境不同。"
+        "arrogant-mcq-11": "本句的「self-important」指「表現得彷彿自己比實際上重要得多；自以為是的」。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-11"
     },
@@ -929,10 +809,7 @@ export default {
       "masked": "She disliked people who acted ____.",
       "options": [
         "arrogant-mcq-11",
-        "arrogant-mcq-10",
-        "arrogant-mcq-12",
-        "arrogant-mcq-09",
-        "arrogant-mcq-08",
+        "arrogant-mcq-03",
         "arrogant-mcq-07"
       ],
       "explanation": "本句的「self-important」指「表現得彷彿自己比實際上重要得多；自以為是的」。",
@@ -942,12 +819,9 @@ export default {
         "self-important"
       ],
       "optionReasons": {
-        "arrogant-mcq-11": "本句指「表現得彷彿自己比實際上重要得多；自以為是的」。",
-        "arrogant-mcq-10": "「對自己的能力、外貌或重要性有過高評價；自負的」與本句語境不同。",
-        "arrogant-mcq-12": "「對自己的能力或成功把握超過實際依據；過度自信的」與本句語境不同。",
-        "arrogant-mcq-09": "「以高高在上、自大的方式」與本句語境不同。",
-        "arrogant-mcq-08": "「認為自己高人一等並因此自大的態度；傲慢／自負」與本句語境不同。",
-        "arrogant-mcq-07": "「無論本意如何，給別人留下傲慢的印象」與本句語境不同。"
+        "arrogant-mcq-11": "本句的「self-important」指「表現得彷彿自己比實際上重要得多；自以為是的」。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-11"
     },
@@ -959,11 +833,8 @@ export default {
       "masked": "He became ____ after a few easy victories.",
       "options": [
         "arrogant-mcq-12",
-        "arrogant-mcq-11",
-        "arrogant-mcq-10",
-        "arrogant-mcq-09",
-        "arrogant-mcq-08",
-        "arrogant-mcq-07"
+        "arrogant-mcq-07",
+        "arrogant-mcq-03"
       ],
       "explanation": "本句的「overconfident」指「對自己的能力或成功把握超過實際依據；過度自信的」。",
       "sentenceIndex": 24,
@@ -972,12 +843,9 @@ export default {
         "overconfident"
       ],
       "optionReasons": {
-        "arrogant-mcq-12": "本句指「對自己的能力或成功把握超過實際依據；過度自信的」。",
-        "arrogant-mcq-11": "「表現得彷彿自己比實際上重要得多；自以為是的」與本句語境不同。",
-        "arrogant-mcq-10": "「對自己的能力、外貌或重要性有過高評價；自負的」與本句語境不同。",
-        "arrogant-mcq-09": "「以高高在上、自大的方式」與本句語境不同。",
-        "arrogant-mcq-08": "「認為自己高人一等並因此自大的態度；傲慢／自負」與本句語境不同。",
-        "arrogant-mcq-07": "「無論本意如何，給別人留下傲慢的印象」與本句語境不同。"
+        "arrogant-mcq-12": "本句的「overconfident」指「對自己的能力或成功把握超過實際依據；過度自信的」。",
+        "arrogant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-12"
     },
@@ -989,10 +857,7 @@ export default {
       "masked": "Being ____ can lead to poor decisions.",
       "options": [
         "arrogant-mcq-12",
-        "arrogant-mcq-11",
-        "arrogant-mcq-10",
-        "arrogant-mcq-09",
-        "arrogant-mcq-08",
+        "arrogant-mcq-03",
         "arrogant-mcq-07"
       ],
       "explanation": "本句的「overconfident」指「對自己的能力或成功把握超過實際依據；過度自信的」。",
@@ -1002,12 +867,9 @@ export default {
         "overconfident"
       ],
       "optionReasons": {
-        "arrogant-mcq-12": "本句指「對自己的能力或成功把握超過實際依據；過度自信的」。",
-        "arrogant-mcq-11": "「表現得彷彿自己比實際上重要得多；自以為是的」與本句語境不同。",
-        "arrogant-mcq-10": "「對自己的能力、外貌或重要性有過高評價；自負的」與本句語境不同。",
-        "arrogant-mcq-09": "「以高高在上、自大的方式」與本句語境不同。",
-        "arrogant-mcq-08": "「認為自己高人一等並因此自大的態度；傲慢／自負」與本句語境不同。",
-        "arrogant-mcq-07": "「無論本意如何，給別人留下傲慢的印象」與本句語境不同。"
+        "arrogant-mcq-12": "本句的「overconfident」指「對自己的能力或成功把握超過實際依據；過度自信的」。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-12"
     },
@@ -1020,10 +882,8 @@ export default {
       "options": [
         "arrogant-mcq-06",
         "arrogant-mcq-05",
-        "arrogant-mcq-07",
-        "arrogant-mcq-04",
-        "arrogant-mcq-08",
-        "arrogant-mcq-03"
+        "arrogant-mcq-03",
+        "arrogant-mcq-10"
       ],
       "explanation": "本句的「sound arrogant」指「給人／聽起來有自大、傲慢的印象」。",
       "sentenceIndex": 26,
@@ -1032,12 +892,10 @@ export default {
         "sound arrogant"
       ],
       "optionReasons": {
-        "arrogant-mcq-06": "本句指「給人／聽起來有自大、傲慢的印象」。",
-        "arrogant-mcq-05": "「對某人表現得高高在上、不把對方當一回事」與本句語境不同。",
-        "arrogant-mcq-07": "「無論本意如何，給別人留下傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-04": "「因過度相信自己的優越性或判斷而作出的自以為是假設」與本句語境不同。",
-        "arrogant-mcq-08": "「認為自己高人一等並因此自大的態度；傲慢／自負」與本句語境不同。",
-        "arrogant-mcq-03": "「說話時帶有優越感、輕視或盛氣凌人的語氣」與本句語境不同。"
+        "arrogant-mcq-06": "本句的「sound arrogant」指「給人／聽起來有自大、傲慢的印象」。",
+        "arrogant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-06"
     },
@@ -1049,11 +907,9 @@ export default {
       "masked": "His answer ____.",
       "options": [
         "arrogant-mcq-06",
+        "arrogant-mcq-03",
         "arrogant-mcq-05",
-        "arrogant-mcq-07",
-        "arrogant-mcq-04",
-        "arrogant-mcq-08",
-        "arrogant-mcq-03"
+        "arrogant-mcq-12"
       ],
       "explanation": "本句的「seemed arrogant」指「給人／聽起來有自大、傲慢的印象」。",
       "sentenceIndex": 27,
@@ -1062,12 +918,10 @@ export default {
         "seemed arrogant"
       ],
       "optionReasons": {
-        "arrogant-mcq-06": "本句指「給人／聽起來有自大、傲慢的印象」。",
-        "arrogant-mcq-05": "「對某人表現得高高在上、不把對方當一回事」與本句語境不同。",
-        "arrogant-mcq-07": "「無論本意如何，給別人留下傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-04": "「因過度相信自己的優越性或判斷而作出的自以為是假設」與本句語境不同。",
-        "arrogant-mcq-08": "「認為自己高人一等並因此自大的態度；傲慢／自負」與本句語境不同。",
-        "arrogant-mcq-03": "「說話時帶有優越感、輕視或盛氣凌人的語氣」與本句語境不同。"
+        "arrogant-mcq-06": "本句的「seemed arrogant」指「給人／聽起來有自大、傲慢的印象」。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-06"
     },
@@ -1079,11 +933,8 @@ export default {
       "masked": "He sometimes ____ because he speaks very directly.",
       "options": [
         "arrogant-mcq-07",
-        "arrogant-mcq-06",
-        "arrogant-mcq-08",
-        "arrogant-mcq-05",
-        "arrogant-mcq-09",
-        "arrogant-mcq-04"
+        "arrogant-mcq-03",
+        "arrogant-mcq-09"
       ],
       "explanation": "本句的「comes across as arrogant」指「無論本意如何，給別人留下傲慢的印象」。",
       "sentenceIndex": 28,
@@ -1092,12 +943,9 @@ export default {
         "comes across as arrogant"
       ],
       "optionReasons": {
-        "arrogant-mcq-07": "本句指「無論本意如何，給別人留下傲慢的印象」。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-08": "「認為自己高人一等並因此自大的態度；傲慢／自負」與本句語境不同。",
-        "arrogant-mcq-05": "「對某人表現得高高在上、不把對方當一回事」與本句語境不同。",
-        "arrogant-mcq-09": "「以高高在上、自大的方式」與本句語境不同。",
-        "arrogant-mcq-04": "「因過度相信自己的優越性或判斷而作出的自以為是假設」與本句語境不同。"
+        "arrogant-mcq-07": "本句的「comes across as arrogant」指「無論本意如何，給別人留下傲慢的印象」。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-07"
     },
@@ -1109,11 +957,8 @@ export default {
       "masked": "Confidence can ____ if the tone is wrong.",
       "options": [
         "arrogant-mcq-07",
-        "arrogant-mcq-06",
-        "arrogant-mcq-08",
-        "arrogant-mcq-05",
         "arrogant-mcq-09",
-        "arrogant-mcq-04"
+        "arrogant-mcq-03"
       ],
       "explanation": "本句的「come across as arrogance」指「無論本意如何，給別人留下傲慢的印象」。",
       "sentenceIndex": 29,
@@ -1122,12 +967,9 @@ export default {
         "come across as arrogance"
       ],
       "optionReasons": {
-        "arrogant-mcq-07": "本句指「無論本意如何，給別人留下傲慢的印象」。",
-        "arrogant-mcq-06": "「給人／聽起來有自大、傲慢的印象」與本句語境不同。",
-        "arrogant-mcq-08": "「認為自己高人一等並因此自大的態度；傲慢／自負」與本句語境不同。",
-        "arrogant-mcq-05": "「對某人表現得高高在上、不把對方當一回事」與本句語境不同。",
-        "arrogant-mcq-09": "「以高高在上、自大的方式」與本句語境不同。",
-        "arrogant-mcq-04": "「因過度相信自己的優越性或判斷而作出的自以為是假設」與本句語境不同。"
+        "arrogant-mcq-07": "本句的「come across as arrogance」指「無論本意如何，給別人留下傲慢的印象」。",
+        "arrogant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "arrogant-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "arrogant-mcq-07"
     }
@@ -1139,5 +981,12 @@ export default {
     "sha256": "4dd3a5a50260eaa9039858813c90bb5692939ae27eae7f0b0dc650913a1e0e9f",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

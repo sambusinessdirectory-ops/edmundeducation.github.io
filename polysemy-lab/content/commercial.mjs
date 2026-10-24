@@ -392,11 +392,7 @@ export default {
       "masked": "I saw a TV ____ for noise-cancelling headphones.",
       "options": [
         "commercial-mcq-01",
-        "commercial-mcq-02",
-        "commercial-mcq-03",
-        "commercial-mcq-04",
-        "commercial-mcq-05",
-        "commercial-mcq-06"
+        "commercial-mcq-07"
       ],
       "explanation": "本句的「commercial」指「為推廣產品、服務或品牌而在電視、電台或影音媒體播放的商業廣告」。",
       "sentenceIndex": 0,
@@ -405,12 +401,8 @@ export default {
         "commercial"
       ],
       "optionReasons": {
-        "commercial-mcq-01": "本句指「為推廣產品、服務或品牌而在電視、電台或影音媒體播放的商業廣告」。",
-        "commercial-mcq-02": "「與企業經營、買賣、貿易或市場活動有關的」是「commercial — business/trade」的用法，與本句語境不同。",
-        "commercial-mcq-03": "「以取得收入或盈利為主要目的的」是「commercial — profit-oriented」的用法，與本句語境不同。",
-        "commercial-mcq-04": "「為企業或高使用量商業環境而設計的」是「commercial — business equipment」的用法，與本句語境不同。",
-        "commercial-mcq-05": "「產品或作品在銷售、票房、收入或盈利方面取得成功」是「commercial success」的用法，與本句語境不同。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。"
+        "commercial-mcq-01": "本句的「commercial」指「為推廣產品、服務或品牌而在電視、電台或影音媒體播放的商業廣告」。",
+        "commercial-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-01"
     },
@@ -422,11 +414,7 @@ export default {
       "masked": "The company launched a new ____ during the sports broadcast.",
       "options": [
         "commercial-mcq-01",
-        "commercial-mcq-02",
-        "commercial-mcq-03",
-        "commercial-mcq-04",
-        "commercial-mcq-05",
-        "commercial-mcq-06"
+        "commercial-mcq-07"
       ],
       "explanation": "本句的「commercial」指「為推廣產品、服務或品牌而在電視、電台或影音媒體播放的商業廣告」。",
       "sentenceIndex": 1,
@@ -435,12 +423,8 @@ export default {
         "commercial"
       ],
       "optionReasons": {
-        "commercial-mcq-01": "本句指「為推廣產品、服務或品牌而在電視、電台或影音媒體播放的商業廣告」。",
-        "commercial-mcq-02": "「與企業經營、買賣、貿易或市場活動有關的」是「commercial — business/trade」的用法，與本句語境不同。",
-        "commercial-mcq-03": "「以取得收入或盈利為主要目的的」是「commercial — profit-oriented」的用法，與本句語境不同。",
-        "commercial-mcq-04": "「為企業或高使用量商業環境而設計的」是「commercial — business equipment」的用法，與本句語境不同。",
-        "commercial-mcq-05": "「產品或作品在銷售、票房、收入或盈利方面取得成功」是「commercial success」的用法，與本句語境不同。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。"
+        "commercial-mcq-01": "本句的「commercial」指「為推廣產品、服務或品牌而在電視、電台或影音媒體播放的商業廣告」。",
+        "commercial-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-01"
     },
@@ -452,11 +436,7 @@ export default {
       "masked": "That ____ made the product look very appealing.",
       "options": [
         "commercial-mcq-01",
-        "commercial-mcq-02",
-        "commercial-mcq-03",
-        "commercial-mcq-04",
-        "commercial-mcq-05",
-        "commercial-mcq-06"
+        "commercial-mcq-07"
       ],
       "explanation": "本句的「commercial」指「為推廣產品、服務或品牌而在電視、電台或影音媒體播放的商業廣告」。",
       "sentenceIndex": 2,
@@ -465,12 +445,8 @@ export default {
         "commercial"
       ],
       "optionReasons": {
-        "commercial-mcq-01": "本句指「為推廣產品、服務或品牌而在電視、電台或影音媒體播放的商業廣告」。",
-        "commercial-mcq-02": "「與企業經營、買賣、貿易或市場活動有關的」是「commercial — business/trade」的用法，與本句語境不同。",
-        "commercial-mcq-03": "「以取得收入或盈利為主要目的的」是「commercial — profit-oriented」的用法，與本句語境不同。",
-        "commercial-mcq-04": "「為企業或高使用量商業環境而設計的」是「commercial — business equipment」的用法，與本句語境不同。",
-        "commercial-mcq-05": "「產品或作品在銷售、票房、收入或盈利方面取得成功」是「commercial success」的用法，與本句語境不同。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。"
+        "commercial-mcq-01": "本句的「commercial」指「為推廣產品、服務或品牌而在電視、電台或影音媒體播放的商業廣告」。",
+        "commercial-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-01"
     },
@@ -482,11 +458,8 @@ export default {
       "masked": "The building is used for ____ purposes.",
       "options": [
         "commercial-mcq-02",
-        "commercial-mcq-01",
-        "commercial-mcq-03",
-        "commercial-mcq-04",
-        "commercial-mcq-05",
-        "commercial-mcq-06"
+        "commercial-mcq-14",
+        "commercial-mcq-08"
       ],
       "explanation": "本句的「commercial」指「與企業經營、買賣、貿易或市場活動有關的」。",
       "sentenceIndex": 3,
@@ -495,12 +468,9 @@ export default {
         "commercial"
       ],
       "optionReasons": {
-        "commercial-mcq-02": "本句指「與企業經營、買賣、貿易或市場活動有關的」。",
-        "commercial-mcq-01": "「為推廣產品、服務或品牌而在電視、電台或影音媒體播放的商業廣告」是「commercial — noun」的用法，與本句語境不同。",
-        "commercial-mcq-03": "「以取得收入或盈利為主要目的的」是「commercial — profit-oriented」的用法，與本句語境不同。",
-        "commercial-mcq-04": "「為企業或高使用量商業環境而設計的」是「commercial — business equipment」的用法，與本句語境不同。",
-        "commercial-mcq-05": "「產品或作品在銷售、票房、收入或盈利方面取得成功」是「commercial success」的用法，與本句語境不同。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。"
+        "commercial-mcq-02": "本句的「commercial」指「與企業經營、買賣、貿易或市場活動有關的」。",
+        "commercial-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-02"
     },
@@ -512,11 +482,8 @@ export default {
       "masked": "The area contains both residential and ____ buildings.",
       "options": [
         "commercial-mcq-02",
-        "commercial-mcq-01",
-        "commercial-mcq-03",
-        "commercial-mcq-04",
-        "commercial-mcq-05",
-        "commercial-mcq-06"
+        "commercial-mcq-14",
+        "commercial-mcq-08"
       ],
       "explanation": "本句的「commercial」指「與企業經營、買賣、貿易或市場活動有關的」。",
       "sentenceIndex": 4,
@@ -525,12 +492,9 @@ export default {
         "commercial"
       ],
       "optionReasons": {
-        "commercial-mcq-02": "本句指「與企業經營、買賣、貿易或市場活動有關的」。",
-        "commercial-mcq-01": "「為推廣產品、服務或品牌而在電視、電台或影音媒體播放的商業廣告」是「commercial — noun」的用法，與本句語境不同。",
-        "commercial-mcq-03": "「以取得收入或盈利為主要目的的」是「commercial — profit-oriented」的用法，與本句語境不同。",
-        "commercial-mcq-04": "「為企業或高使用量商業環境而設計的」是「commercial — business equipment」的用法，與本句語境不同。",
-        "commercial-mcq-05": "「產品或作品在銷售、票房、收入或盈利方面取得成功」是「commercial success」的用法，與本句語境不同。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。"
+        "commercial-mcq-02": "本句的「commercial」指「與企業經營、買賣、貿易或市場活動有關的」。",
+        "commercial-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-02"
     },
@@ -542,11 +506,7 @@ export default {
       "masked": "The project has both artistic and ____ goals.",
       "options": [
         "commercial-mcq-03",
-        "commercial-mcq-02",
-        "commercial-mcq-04",
-        "commercial-mcq-01",
-        "commercial-mcq-05",
-        "commercial-mcq-06"
+        "commercial-mcq-01"
       ],
       "explanation": "本句的「commercial」指「以取得收入或盈利為主要目的的」。",
       "sentenceIndex": 5,
@@ -555,12 +515,8 @@ export default {
         "commercial"
       ],
       "optionReasons": {
-        "commercial-mcq-03": "本句指「以取得收入或盈利為主要目的的」。",
-        "commercial-mcq-02": "「與企業經營、買賣、貿易或市場活動有關的」是「commercial — business/trade」的用法，與本句語境不同。",
-        "commercial-mcq-04": "「為企業或高使用量商業環境而設計的」是「commercial — business equipment」的用法，與本句語境不同。",
-        "commercial-mcq-01": "「為推廣產品、服務或品牌而在電視、電台或影音媒體播放的商業廣告」是「commercial — noun」的用法，與本句語境不同。",
-        "commercial-mcq-05": "「產品或作品在銷售、票房、收入或盈利方面取得成功」是「commercial success」的用法，與本句語境不同。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。"
+        "commercial-mcq-03": "本句的「commercial」指「以取得收入或盈利為主要目的的」。",
+        "commercial-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-03"
     },
@@ -572,11 +528,8 @@ export default {
       "masked": "The software is free for personal use but not for ____ use.",
       "options": [
         "commercial-mcq-03",
-        "commercial-mcq-02",
-        "commercial-mcq-04",
-        "commercial-mcq-01",
-        "commercial-mcq-05",
-        "commercial-mcq-06"
+        "commercial-mcq-15",
+        "commercial-mcq-16"
       ],
       "explanation": "本句的「commercial」指「以取得收入或盈利為主要目的的」。",
       "sentenceIndex": 6,
@@ -585,12 +538,9 @@ export default {
         "commercial"
       ],
       "optionReasons": {
-        "commercial-mcq-03": "本句指「以取得收入或盈利為主要目的的」。",
-        "commercial-mcq-02": "「與企業經營、買賣、貿易或市場活動有關的」是「commercial — business/trade」的用法，與本句語境不同。",
-        "commercial-mcq-04": "「為企業或高使用量商業環境而設計的」是「commercial — business equipment」的用法，與本句語境不同。",
-        "commercial-mcq-01": "「為推廣產品、服務或品牌而在電視、電台或影音媒體播放的商業廣告」是「commercial — noun」的用法，與本句語境不同。",
-        "commercial-mcq-05": "「產品或作品在銷售、票房、收入或盈利方面取得成功」是「commercial success」的用法，與本句語境不同。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。"
+        "commercial-mcq-03": "本句的「commercial」指「以取得收入或盈利為主要目的的」。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-03"
     },
@@ -602,11 +552,8 @@ export default {
       "masked": "The film was a major ____.",
       "options": [
         "commercial-mcq-05",
-        "commercial-mcq-04",
-        "commercial-mcq-06",
-        "commercial-mcq-03",
-        "commercial-mcq-07",
-        "commercial-mcq-02"
+        "commercial-mcq-15",
+        "commercial-pdf-001"
       ],
       "explanation": "本句的「commercial success」指「產品或作品在銷售、票房、收入或盈利方面取得成功」。",
       "sentenceIndex": 7,
@@ -615,12 +562,9 @@ export default {
         "commercial success"
       ],
       "optionReasons": {
-        "commercial-mcq-05": "本句指「產品或作品在銷售、票房、收入或盈利方面取得成功」。",
-        "commercial-mcq-04": "「為企業或高使用量商業環境而設計的」是「commercial — business equipment」的用法，與本句語境不同。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。",
-        "commercial-mcq-03": "「以取得收入或盈利為主要目的的」是「commercial — profit-oriented」的用法，與本句語境不同。",
-        "commercial-mcq-07": "「以大眾接受度和市場銷售為重要考慮、較迎合市場的」是「commercial — creative work」的用法，與本句語境不同。",
-        "commercial-mcq-02": "「與企業經營、買賣、貿易或市場活動有關的」是「commercial — business/trade」的用法，與本句語境不同。"
+        "commercial-mcq-05": "本句的「commercial success」指「產品或作品在銷售、票房、收入或盈利方面取得成功」。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "commercial-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-05"
     },
@@ -632,11 +576,8 @@ export default {
       "masked": "The product received mixed reviews but became a ____.",
       "options": [
         "commercial-mcq-05",
-        "commercial-mcq-04",
-        "commercial-mcq-06",
-        "commercial-mcq-03",
-        "commercial-mcq-07",
-        "commercial-mcq-02"
+        "commercial-pdf-001",
+        "commercial-mcq-15"
       ],
       "explanation": "本句的「commercial success」指「產品或作品在銷售、票房、收入或盈利方面取得成功」。",
       "sentenceIndex": 8,
@@ -645,12 +586,9 @@ export default {
         "commercial success"
       ],
       "optionReasons": {
-        "commercial-mcq-05": "本句指「產品或作品在銷售、票房、收入或盈利方面取得成功」。",
-        "commercial-mcq-04": "「為企業或高使用量商業環境而設計的」是「commercial — business equipment」的用法，與本句語境不同。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。",
-        "commercial-mcq-03": "「以取得收入或盈利為主要目的的」是「commercial — profit-oriented」的用法，與本句語境不同。",
-        "commercial-mcq-07": "「以大眾接受度和市場銷售為重要考慮、較迎合市場的」是「commercial — creative work」的用法，與本句語境不同。",
-        "commercial-mcq-02": "「與企業經營、買賣、貿易或市場活動有關的」是「commercial — business/trade」的用法，與本句語境不同。"
+        "commercial-mcq-05": "本句的「commercial success」指「產品或作品在銷售、票房、收入或盈利方面取得成功」。",
+        "commercial-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-05"
     },
@@ -662,11 +600,8 @@ export default {
       "masked": "The device was innovative but a ____.",
       "options": [
         "commercial-mcq-06",
-        "commercial-mcq-05",
-        "commercial-mcq-07",
-        "commercial-mcq-04",
-        "commercial-mcq-08",
-        "commercial-mcq-03"
+        "commercial-mcq-16",
+        "commercial-mcq-15"
       ],
       "explanation": "本句的「commercial failure」指「產品或作品在市場收入／盈利方面未能成功」。",
       "sentenceIndex": 9,
@@ -675,12 +610,9 @@ export default {
         "commercial failure"
       ],
       "optionReasons": {
-        "commercial-mcq-06": "本句指「產品或作品在市場收入／盈利方面未能成功」。",
-        "commercial-mcq-05": "「產品或作品在銷售、票房、收入或盈利方面取得成功」是「commercial success」的用法，與本句語境不同。",
-        "commercial-mcq-07": "「以大眾接受度和市場銷售為重要考慮、較迎合市場的」是「commercial — creative work」的用法，與本句語境不同。",
-        "commercial-mcq-04": "「為企業或高使用量商業環境而設計的」是「commercial — business equipment」的用法，與本句語境不同。",
-        "commercial-mcq-08": "「節目中斷並播放商業廣告的一段時間」是「commercial break」的用法，與本句語境不同。",
-        "commercial-mcq-03": "「以取得收入或盈利為主要目的的」是「commercial — profit-oriented」的用法，與本句語境不同。"
+        "commercial-mcq-06": "本句的「commercial failure」指「產品或作品在市場收入／盈利方面未能成功」。",
+        "commercial-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-06"
     },
@@ -692,11 +624,8 @@ export default {
       "masked": "The film became a ____ despite strong reviews.",
       "options": [
         "commercial-mcq-06",
-        "commercial-mcq-05",
-        "commercial-mcq-07",
-        "commercial-mcq-04",
-        "commercial-mcq-08",
-        "commercial-mcq-03"
+        "commercial-pdf-001",
+        "commercial-mcq-15"
       ],
       "explanation": "本句的「commercial failure」指「產品或作品在市場收入／盈利方面未能成功」。",
       "sentenceIndex": 10,
@@ -705,12 +634,9 @@ export default {
         "commercial failure"
       ],
       "optionReasons": {
-        "commercial-mcq-06": "本句指「產品或作品在市場收入／盈利方面未能成功」。",
-        "commercial-mcq-05": "「產品或作品在銷售、票房、收入或盈利方面取得成功」是「commercial success」的用法，與本句語境不同。",
-        "commercial-mcq-07": "「以大眾接受度和市場銷售為重要考慮、較迎合市場的」是「commercial — creative work」的用法，與本句語境不同。",
-        "commercial-mcq-04": "「為企業或高使用量商業環境而設計的」是「commercial — business equipment」的用法，與本句語境不同。",
-        "commercial-mcq-08": "「節目中斷並播放商業廣告的一段時間」是「commercial break」的用法，與本句語境不同。",
-        "commercial-mcq-03": "「以取得收入或盈利為主要目的的」是「commercial — profit-oriented」的用法，與本句語境不同。"
+        "commercial-mcq-06": "本句的「commercial failure」指「產品或作品在市場收入／盈利方面未能成功」。",
+        "commercial-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-06"
     },
@@ -722,11 +648,8 @@ export default {
       "masked": "The kitchen uses ____ ovens.",
       "options": [
         "commercial-mcq-15",
-        "commercial-mcq-14",
-        "commercial-mcq-16",
-        "commercial-mcq-13",
-        "commercial-mcq-12",
-        "commercial-mcq-11"
+        "commercial-mcq-03",
+        "commercial-mcq-08"
       ],
       "explanation": "本句的「commercial」指「為企業、店舖或高使用量環境而設計的商用設備」。",
       "sentenceIndex": 11,
@@ -735,12 +658,9 @@ export default {
         "commercial"
       ],
       "optionReasons": {
-        "commercial-mcq-15": "本句指「為企業、店舖或高使用量環境而設計的商用設備」。",
-        "commercial-mcq-14": "「主要目的不是出售產品、做生意或取得盈利的」是「non-commercial」的用法，與本句語境不同。",
-        "commercial-mcq-16": "「用於辦公、零售、工業等商業活動的物業」是「8. commercial property/real estate（物業） — 商業物業；商用房地產」的用法，與本句語境不同。",
-        "commercial-mcq-13": "「過度重視銷售、盈利和商業利益的傾向」是「commercialism」的用法，與本句語境不同。",
-        "commercial-mcq-12": "「某事物逐步轉變為市場和盈利導向的過程」是「commercialization」的用法，與本句語境不同。",
-        "commercial-mcq-11": "「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」是「commercialize」的用法，與本句語境不同。"
+        "commercial-mcq-15": "本句的「commercial」指「為企業、店舖或高使用量環境而設計的商用設備」。",
+        "commercial-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-15"
     },
@@ -752,11 +672,8 @@ export default {
       "masked": "They bought a ____ coffee machine for the café.",
       "options": [
         "commercial-mcq-15",
-        "commercial-mcq-14",
-        "commercial-mcq-16",
-        "commercial-mcq-13",
-        "commercial-mcq-12",
-        "commercial-mcq-11"
+        "commercial-mcq-10",
+        "commercial-mcq-16"
       ],
       "explanation": "本句的「commercial」指「為企業、店舖或高使用量環境而設計的商用設備」。",
       "sentenceIndex": 12,
@@ -765,12 +682,9 @@ export default {
         "commercial"
       ],
       "optionReasons": {
-        "commercial-mcq-15": "本句指「為企業、店舖或高使用量環境而設計的商用設備」。",
-        "commercial-mcq-14": "「主要目的不是出售產品、做生意或取得盈利的」是「non-commercial」的用法，與本句語境不同。",
-        "commercial-mcq-16": "「用於辦公、零售、工業等商業活動的物業」是「8. commercial property/real estate（物業） — 商業物業；商用房地產」的用法，與本句語境不同。",
-        "commercial-mcq-13": "「過度重視銷售、盈利和商業利益的傾向」是「commercialism」的用法，與本句語境不同。",
-        "commercial-mcq-12": "「某事物逐步轉變為市場和盈利導向的過程」是「commercialization」的用法，與本句語境不同。",
-        "commercial-mcq-11": "「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」是「commercialize」的用法，與本句語境不同。"
+        "commercial-mcq-15": "本句的「commercial」指「為企業、店舖或高使用量環境而設計的商用設備」。",
+        "commercial-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-15"
     },
@@ -782,11 +696,8 @@ export default {
       "masked": "The company operates a fleet of ____.",
       "options": [
         "commercial-pdf-001",
-        "commercial-mcq-07",
-        "commercial-mcq-09",
-        "commercial-mcq-06",
-        "commercial-mcq-10",
-        "commercial-mcq-05"
+        "commercial-mcq-05",
+        "commercial-mcq-15"
       ],
       "explanation": "本句的「commercial vehicles」指「主要用於運送貨物、乘客或商業工作，而非私人日常用途的車輛」。",
       "sentenceIndex": 13,
@@ -795,12 +706,9 @@ export default {
         "commercial vehicles"
       ],
       "optionReasons": {
-        "commercial-pdf-001": "本句指「主要用於運送貨物、乘客或商業工作，而非私人日常用途的車輛」。",
-        "commercial-mcq-07": "「以大眾接受度和市場銷售為重要考慮、較迎合市場的」是「commercial — creative work」的用法，與本句語境不同。",
-        "commercial-mcq-09": "「從市場、銷售、收入或盈利角度而言」是「commercially」的用法，與本句語境不同。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。",
-        "commercial-mcq-10": "「市場需求和成本條件足以支持實際盈利運作的」是「commercially viable」的用法，與本句語境不同。",
-        "commercial-mcq-05": "「產品或作品在銷售、票房、收入或盈利方面取得成功」是「commercial success」的用法，與本句語境不同。"
+        "commercial-pdf-001": "本句的「commercial vehicles」指「主要用於運送貨物、乘客或商業工作，而非私人日常用途的車輛」。",
+        "commercial-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-pdf-001"
     },
@@ -812,11 +720,8 @@ export default {
       "masked": "Different rules may apply to ____.",
       "options": [
         "commercial-pdf-001",
-        "commercial-mcq-07",
-        "commercial-mcq-09",
-        "commercial-mcq-06",
-        "commercial-mcq-10",
-        "commercial-mcq-05"
+        "commercial-mcq-05",
+        "commercial-mcq-15"
       ],
       "explanation": "本句的「commercial vehicles」指「主要用於運送貨物、乘客或商業工作，而非私人日常用途的車輛」。",
       "sentenceIndex": 14,
@@ -825,12 +730,9 @@ export default {
         "commercial vehicles"
       ],
       "optionReasons": {
-        "commercial-pdf-001": "本句指「主要用於運送貨物、乘客或商業工作，而非私人日常用途的車輛」。",
-        "commercial-mcq-07": "「以大眾接受度和市場銷售為重要考慮、較迎合市場的」是「commercial — creative work」的用法，與本句語境不同。",
-        "commercial-mcq-09": "「從市場、銷售、收入或盈利角度而言」是「commercially」的用法，與本句語境不同。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。",
-        "commercial-mcq-10": "「市場需求和成本條件足以支持實際盈利運作的」是「commercially viable」的用法，與本句語境不同。",
-        "commercial-mcq-05": "「產品或作品在銷售、票房、收入或盈利方面取得成功」是「commercial success」的用法，與本句語境不同。"
+        "commercial-pdf-001": "本句的「commercial vehicles」指「主要用於運送貨物、乘客或商業工作，而非私人日常用途的車輛」。",
+        "commercial-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-pdf-001"
     },
@@ -842,11 +744,8 @@ export default {
       "masked": "The firm invests in ____.",
       "options": [
         "commercial-mcq-16",
-        "commercial-mcq-15",
-        "commercial-mcq-14",
-        "commercial-mcq-13",
-        "commercial-mcq-12",
-        "commercial-mcq-11"
+        "commercial-mcq-03",
+        "commercial-mcq-15"
       ],
       "explanation": "本句的「commercial property」指「用於辦公、零售、工業等商業活動的物業」。",
       "sentenceIndex": 15,
@@ -855,12 +754,9 @@ export default {
         "commercial property"
       ],
       "optionReasons": {
-        "commercial-mcq-16": "本句指「用於辦公、零售、工業等商業活動的物業」。",
-        "commercial-mcq-15": "「為企業、店舖或高使用量環境而設計的商用設備」是「6. commercial = suitable for / used by businesses（企業使用） — 商用的；商業級的」的用法，與本句語境不同。",
-        "commercial-mcq-14": "「主要目的不是出售產品、做生意或取得盈利的」是「non-commercial」的用法，與本句語境不同。",
-        "commercial-mcq-13": "「過度重視銷售、盈利和商業利益的傾向」是「commercialism」的用法，與本句語境不同。",
-        "commercial-mcq-12": "「某事物逐步轉變為市場和盈利導向的過程」是「commercialization」的用法，與本句語境不同。",
-        "commercial-mcq-11": "「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」是「commercialize」的用法，與本句語境不同。"
+        "commercial-mcq-16": "本句的「commercial property」指「用於辦公、零售、工業等商業活動的物業」。",
+        "commercial-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-16"
     },
@@ -872,11 +768,8 @@ export default {
       "masked": "Office buildings are a form of ____.",
       "options": [
         "commercial-mcq-16",
-        "commercial-mcq-15",
-        "commercial-mcq-14",
-        "commercial-mcq-13",
-        "commercial-mcq-12",
-        "commercial-mcq-11"
+        "commercial-mcq-03",
+        "commercial-mcq-15"
       ],
       "explanation": "本句的「commercial real estate」指「用於辦公、零售、工業等商業活動的物業」。",
       "sentenceIndex": 16,
@@ -885,12 +778,9 @@ export default {
         "commercial real estate"
       ],
       "optionReasons": {
-        "commercial-mcq-16": "本句指「用於辦公、零售、工業等商業活動的物業」。",
-        "commercial-mcq-15": "「為企業、店舖或高使用量環境而設計的商用設備」是「6. commercial = suitable for / used by businesses（企業使用） — 商用的；商業級的」的用法，與本句語境不同。",
-        "commercial-mcq-14": "「主要目的不是出售產品、做生意或取得盈利的」是「non-commercial」的用法，與本句語境不同。",
-        "commercial-mcq-13": "「過度重視銷售、盈利和商業利益的傾向」是「commercialism」的用法，與本句語境不同。",
-        "commercial-mcq-12": "「某事物逐步轉變為市場和盈利導向的過程」是「commercialization」的用法，與本句語境不同。",
-        "commercial-mcq-11": "「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」是「commercialize」的用法，與本句語境不同。"
+        "commercial-mcq-16": "本句的「commercial real estate」指「用於辦公、零售、工業等商業活動的物業」。",
+        "commercial-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-16"
     },
@@ -902,11 +792,8 @@ export default {
       "masked": "The album has a more ____ sound than their earlier work.",
       "options": [
         "commercial-mcq-07",
-        "commercial-mcq-06",
         "commercial-mcq-08",
-        "commercial-mcq-05",
-        "commercial-mcq-09",
-        "commercial-mcq-04"
+        "commercial-mcq-15"
       ],
       "explanation": "本句的「commercial」指「以大眾接受度和市場銷售為重要考慮、較迎合市場的」。",
       "sentenceIndex": 17,
@@ -915,12 +802,9 @@ export default {
         "commercial"
       ],
       "optionReasons": {
-        "commercial-mcq-07": "本句指「以大眾接受度和市場銷售為重要考慮、較迎合市場的」。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。",
-        "commercial-mcq-08": "「節目中斷並播放商業廣告的一段時間」是「commercial break」的用法，與本句語境不同。",
-        "commercial-mcq-05": "「產品或作品在銷售、票房、收入或盈利方面取得成功」是「commercial success」的用法，與本句語境不同。",
-        "commercial-mcq-09": "「從市場、銷售、收入或盈利角度而言」是「commercially」的用法，與本句語境不同。",
-        "commercial-mcq-04": "「為企業或高使用量商業環境而設計的」是「commercial — business equipment」的用法，與本句語境不同。"
+        "commercial-mcq-07": "本句的「commercial」指「以大眾接受度和市場銷售為重要考慮、較迎合市場的」。",
+        "commercial-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-07"
     },
@@ -932,11 +816,7 @@ export default {
       "masked": "The director wanted the film to be artistic without becoming too ____.",
       "options": [
         "commercial-mcq-07",
-        "commercial-mcq-06",
-        "commercial-mcq-08",
-        "commercial-mcq-05",
-        "commercial-mcq-09",
-        "commercial-mcq-04"
+        "commercial-mcq-01"
       ],
       "explanation": "本句的「commercial」指「以大眾接受度和市場銷售為重要考慮、較迎合市場的」。",
       "sentenceIndex": 18,
@@ -945,12 +825,8 @@ export default {
         "commercial"
       ],
       "optionReasons": {
-        "commercial-mcq-07": "本句指「以大眾接受度和市場銷售為重要考慮、較迎合市場的」。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。",
-        "commercial-mcq-08": "「節目中斷並播放商業廣告的一段時間」是「commercial break」的用法，與本句語境不同。",
-        "commercial-mcq-05": "「產品或作品在銷售、票房、收入或盈利方面取得成功」是「commercial success」的用法，與本句語境不同。",
-        "commercial-mcq-09": "「從市場、銷售、收入或盈利角度而言」是「commercially」的用法，與本句語境不同。",
-        "commercial-mcq-04": "「為企業或高使用量商業環境而設計的」是「commercial — business equipment」的用法，與本句語境不同。"
+        "commercial-mcq-07": "本句的「commercial」指「以大眾接受度和市場銷售為重要考慮、較迎合市場的」。",
+        "commercial-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-07"
     },
@@ -962,11 +838,8 @@ export default {
       "masked": "I made some tea during the ____.",
       "options": [
         "commercial-mcq-08",
-        "commercial-mcq-07",
-        "commercial-mcq-09",
-        "commercial-mcq-06",
         "commercial-mcq-10",
-        "commercial-mcq-05"
+        "commercial-mcq-15"
       ],
       "explanation": "本句的「commercial break」指「節目中斷並播放商業廣告的一段時間」。",
       "sentenceIndex": 19,
@@ -975,12 +848,9 @@ export default {
         "commercial break"
       ],
       "optionReasons": {
-        "commercial-mcq-08": "本句指「節目中斷並播放商業廣告的一段時間」。",
-        "commercial-mcq-07": "「以大眾接受度和市場銷售為重要考慮、較迎合市場的」是「commercial — creative work」的用法，與本句語境不同。",
-        "commercial-mcq-09": "「從市場、銷售、收入或盈利角度而言」是「commercially」的用法，與本句語境不同。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。",
-        "commercial-mcq-10": "「市場需求和成本條件足以支持實際盈利運作的」是「commercially viable」的用法，與本句語境不同。",
-        "commercial-mcq-05": "「產品或作品在銷售、票房、收入或盈利方面取得成功」是「commercial success」的用法，與本句語境不同。"
+        "commercial-mcq-08": "本句的「commercial break」指「節目中斷並播放商業廣告的一段時間」。",
+        "commercial-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-08"
     },
@@ -992,11 +862,8 @@ export default {
       "masked": "The programme returned after a short ____.",
       "options": [
         "commercial-mcq-08",
-        "commercial-mcq-07",
-        "commercial-mcq-09",
-        "commercial-mcq-06",
-        "commercial-mcq-10",
-        "commercial-mcq-05"
+        "commercial-mcq-12",
+        "commercial-mcq-15"
       ],
       "explanation": "本句的「commercial break」指「節目中斷並播放商業廣告的一段時間」。",
       "sentenceIndex": 20,
@@ -1005,12 +872,9 @@ export default {
         "commercial break"
       ],
       "optionReasons": {
-        "commercial-mcq-08": "本句指「節目中斷並播放商業廣告的一段時間」。",
-        "commercial-mcq-07": "「以大眾接受度和市場銷售為重要考慮、較迎合市場的」是「commercial — creative work」的用法，與本句語境不同。",
-        "commercial-mcq-09": "「從市場、銷售、收入或盈利角度而言」是「commercially」的用法，與本句語境不同。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。",
-        "commercial-mcq-10": "「市場需求和成本條件足以支持實際盈利運作的」是「commercially viable」的用法，與本句語境不同。",
-        "commercial-mcq-05": "「產品或作品在銷售、票房、收入或盈利方面取得成功」是「commercial success」的用法，與本句語境不同。"
+        "commercial-mcq-08": "本句的「commercial break」指「節目中斷並播放商業廣告的一段時間」。",
+        "commercial-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-08"
     },
@@ -1023,10 +887,7 @@ export default {
       "options": [
         "commercial-mcq-09",
         "commercial-mcq-08",
-        "commercial-mcq-10",
-        "commercial-mcq-07",
-        "commercial-mcq-11",
-        "commercial-mcq-06"
+        "commercial-mcq-15"
       ],
       "explanation": "本句的「commercially」指「從市場、銷售、收入或盈利角度而言」。",
       "sentenceIndex": 21,
@@ -1035,12 +896,9 @@ export default {
         "commercially"
       ],
       "optionReasons": {
-        "commercial-mcq-09": "本句指「從市場、銷售、收入或盈利角度而言」。",
-        "commercial-mcq-08": "「節目中斷並播放商業廣告的一段時間」是「commercial break」的用法，與本句語境不同。",
-        "commercial-mcq-10": "「市場需求和成本條件足以支持實際盈利運作的」是「commercially viable」的用法，與本句語境不同。",
-        "commercial-mcq-07": "「以大眾接受度和市場銷售為重要考慮、較迎合市場的」是「commercial — creative work」的用法，與本句語境不同。",
-        "commercial-mcq-11": "「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」是「commercialize」的用法，與本句語境不同。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。"
+        "commercial-mcq-09": "本句的「commercially」指「從市場、銷售、收入或盈利角度而言」。",
+        "commercial-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-09"
     },
@@ -1052,11 +910,8 @@ export default {
       "masked": "The idea is creative but may not work ____.",
       "options": [
         "commercial-mcq-09",
-        "commercial-mcq-08",
-        "commercial-mcq-10",
-        "commercial-mcq-07",
-        "commercial-mcq-11",
-        "commercial-mcq-06"
+        "commercial-pdf-001",
+        "commercial-mcq-15"
       ],
       "explanation": "本句的「commercially」指「從市場、銷售、收入或盈利角度而言」。",
       "sentenceIndex": 22,
@@ -1065,12 +920,9 @@ export default {
         "commercially"
       ],
       "optionReasons": {
-        "commercial-mcq-09": "本句指「從市場、銷售、收入或盈利角度而言」。",
-        "commercial-mcq-08": "「節目中斷並播放商業廣告的一段時間」是「commercial break」的用法，與本句語境不同。",
-        "commercial-mcq-10": "「市場需求和成本條件足以支持實際盈利運作的」是「commercially viable」的用法，與本句語境不同。",
-        "commercial-mcq-07": "「以大眾接受度和市場銷售為重要考慮、較迎合市場的」是「commercial — creative work」的用法，與本句語境不同。",
-        "commercial-mcq-11": "「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」是「commercialize」的用法，與本句語境不同。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。"
+        "commercial-mcq-09": "本句的「commercially」指「從市場、銷售、收入或盈利角度而言」。",
+        "commercial-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-09"
     },
@@ -1082,11 +934,7 @@ export default {
       "masked": "The game was both critically praised and ____.",
       "options": [
         "commercial-mcq-09",
-        "commercial-mcq-08",
-        "commercial-mcq-10",
-        "commercial-mcq-07",
-        "commercial-mcq-11",
-        "commercial-mcq-06"
+        "commercial-mcq-01"
       ],
       "explanation": "本句的「commercially successful」指「從市場、銷售、收入或盈利角度而言」。",
       "sentenceIndex": 23,
@@ -1095,12 +943,8 @@ export default {
         "commercially successful"
       ],
       "optionReasons": {
-        "commercial-mcq-09": "本句指「從市場、銷售、收入或盈利角度而言」。",
-        "commercial-mcq-08": "「節目中斷並播放商業廣告的一段時間」是「commercial break」的用法，與本句語境不同。",
-        "commercial-mcq-10": "「市場需求和成本條件足以支持實際盈利運作的」是「commercially viable」的用法，與本句語境不同。",
-        "commercial-mcq-07": "「以大眾接受度和市場銷售為重要考慮、較迎合市場的」是「commercial — creative work」的用法，與本句語境不同。",
-        "commercial-mcq-11": "「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」是「commercialize」的用法，與本句語境不同。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。"
+        "commercial-mcq-09": "本句的「commercially successful」指「從市場、銷售、收入或盈利角度而言」。",
+        "commercial-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-09"
     },
@@ -1112,11 +956,8 @@ export default {
       "masked": "Not every innovative product becomes ____.",
       "options": [
         "commercial-mcq-09",
-        "commercial-mcq-08",
-        "commercial-mcq-10",
-        "commercial-mcq-07",
-        "commercial-mcq-11",
-        "commercial-mcq-06"
+        "commercial-pdf-001",
+        "commercial-mcq-15"
       ],
       "explanation": "本句的「commercially successful」指「從市場、銷售、收入或盈利角度而言」。",
       "sentenceIndex": 24,
@@ -1125,12 +966,9 @@ export default {
         "commercially successful"
       ],
       "optionReasons": {
-        "commercial-mcq-09": "本句指「從市場、銷售、收入或盈利角度而言」。",
-        "commercial-mcq-08": "「節目中斷並播放商業廣告的一段時間」是「commercial break」的用法，與本句語境不同。",
-        "commercial-mcq-10": "「市場需求和成本條件足以支持實際盈利運作的」是「commercially viable」的用法，與本句語境不同。",
-        "commercial-mcq-07": "「以大眾接受度和市場銷售為重要考慮、較迎合市場的」是「commercial — creative work」的用法，與本句語境不同。",
-        "commercial-mcq-11": "「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」是「commercialize」的用法，與本句語境不同。",
-        "commercial-mcq-06": "「產品或作品在市場收入／盈利方面未能成功」是「commercial failure」的用法，與本句語境不同。"
+        "commercial-mcq-09": "本句的「commercially successful」指「從市場、銷售、收入或盈利角度而言」。",
+        "commercial-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-09"
     },
@@ -1142,11 +980,7 @@ export default {
       "masked": "The technology works, but it is not yet ____.",
       "options": [
         "commercial-mcq-10",
-        "commercial-mcq-09",
-        "commercial-mcq-11",
-        "commercial-mcq-08",
-        "commercial-mcq-12",
-        "commercial-mcq-07"
+        "commercial-mcq-01"
       ],
       "explanation": "本句的「commercially viable」指「市場需求和成本條件足以支持實際盈利運作的」。",
       "sentenceIndex": 25,
@@ -1155,12 +989,8 @@ export default {
         "commercially viable"
       ],
       "optionReasons": {
-        "commercial-mcq-10": "本句指「市場需求和成本條件足以支持實際盈利運作的」。",
-        "commercial-mcq-09": "「從市場、銷售、收入或盈利角度而言」是「commercially」的用法，與本句語境不同。",
-        "commercial-mcq-11": "「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」是「commercialize」的用法，與本句語境不同。",
-        "commercial-mcq-08": "「節目中斷並播放商業廣告的一段時間」是「commercial break」的用法，與本句語境不同。",
-        "commercial-mcq-12": "「某事物逐步轉變為市場和盈利導向的過程」是「commercialization」的用法，與本句語境不同。",
-        "commercial-mcq-07": "「以大眾接受度和市場銷售為重要考慮、較迎合市場的」是「commercial — creative work」的用法，與本句語境不同。"
+        "commercial-mcq-10": "本句的「commercially viable」指「市場需求和成本條件足以支持實際盈利運作的」。",
+        "commercial-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-10"
     },
@@ -1172,11 +1002,8 @@ export default {
       "masked": "The company is looking for a ____ solution.",
       "options": [
         "commercial-mcq-10",
-        "commercial-mcq-09",
-        "commercial-mcq-11",
         "commercial-mcq-08",
-        "commercial-mcq-12",
-        "commercial-mcq-07"
+        "commercial-mcq-15"
       ],
       "explanation": "本句的「commercially viable」指「市場需求和成本條件足以支持實際盈利運作的」。",
       "sentenceIndex": 26,
@@ -1185,12 +1012,9 @@ export default {
         "commercially viable"
       ],
       "optionReasons": {
-        "commercial-mcq-10": "本句指「市場需求和成本條件足以支持實際盈利運作的」。",
-        "commercial-mcq-09": "「從市場、銷售、收入或盈利角度而言」是「commercially」的用法，與本句語境不同。",
-        "commercial-mcq-11": "「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」是「commercialize」的用法，與本句語境不同。",
-        "commercial-mcq-08": "「節目中斷並播放商業廣告的一段時間」是「commercial break」的用法，與本句語境不同。",
-        "commercial-mcq-12": "「某事物逐步轉變為市場和盈利導向的過程」是「commercialization」的用法，與本句語境不同。",
-        "commercial-mcq-07": "「以大眾接受度和市場銷售為重要考慮、較迎合市場的」是「commercial — creative work」的用法，與本句語境不同。"
+        "commercial-mcq-10": "本句的「commercially viable」指「市場需求和成本條件足以支持實際盈利運作的」。",
+        "commercial-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-10"
     },
@@ -1202,11 +1026,7 @@ export default {
       "masked": "The company hopes to ____ the technology.",
       "options": [
         "commercial-mcq-11",
-        "commercial-mcq-10",
-        "commercial-mcq-12",
-        "commercial-mcq-09",
-        "commercial-mcq-13",
-        "commercial-mcq-08"
+        "commercial-pdf-001"
       ],
       "explanation": "本句的「commercialize」指「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」。",
       "sentenceIndex": 27,
@@ -1215,12 +1035,8 @@ export default {
         "commercialize"
       ],
       "optionReasons": {
-        "commercial-mcq-11": "本句指「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」。",
-        "commercial-mcq-10": "「市場需求和成本條件足以支持實際盈利運作的」是「commercially viable」的用法，與本句語境不同。",
-        "commercial-mcq-12": "「某事物逐步轉變為市場和盈利導向的過程」是「commercialization」的用法，與本句語境不同。",
-        "commercial-mcq-09": "「從市場、銷售、收入或盈利角度而言」是「commercially」的用法，與本句語境不同。",
-        "commercial-mcq-13": "「過度重視銷售、盈利和商業利益的傾向」是「commercialism」的用法，與本句語境不同。",
-        "commercial-mcq-08": "「節目中斷並播放商業廣告的一段時間」是「commercial break」的用法，與本句語境不同。"
+        "commercial-mcq-11": "本句的「commercialize」指「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」。",
+        "commercial-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-11"
     },
@@ -1232,11 +1048,7 @@ export default {
       "masked": "Researchers developed the invention, and a private firm later ____ it.",
       "options": [
         "commercial-mcq-11",
-        "commercial-mcq-10",
-        "commercial-mcq-12",
-        "commercial-mcq-09",
-        "commercial-mcq-13",
-        "commercial-mcq-08"
+        "commercial-pdf-001"
       ],
       "explanation": "本句的「commercialised」指「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」。",
       "sentenceIndex": 28,
@@ -1245,12 +1057,8 @@ export default {
         "commercialised"
       ],
       "optionReasons": {
-        "commercial-mcq-11": "本句指「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」。",
-        "commercial-mcq-10": "「市場需求和成本條件足以支持實際盈利運作的」是「commercially viable」的用法，與本句語境不同。",
-        "commercial-mcq-12": "「某事物逐步轉變為市場和盈利導向的過程」是「commercialization」的用法，與本句語境不同。",
-        "commercial-mcq-09": "「從市場、銷售、收入或盈利角度而言」是「commercially」的用法，與本句語境不同。",
-        "commercial-mcq-13": "「過度重視銷售、盈利和商業利益的傾向」是「commercialism」的用法，與本句語境不同。",
-        "commercial-mcq-08": "「節目中斷並播放商業廣告的一段時間」是「commercial break」的用法，與本句語境不同。"
+        "commercial-mcq-11": "本句的「commercialised」指「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」。",
+        "commercial-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-11"
     },
@@ -1262,11 +1070,8 @@ export default {
       "masked": "The ____ of the technology took several years.",
       "options": [
         "commercial-mcq-12",
-        "commercial-mcq-11",
-        "commercial-mcq-13",
-        "commercial-mcq-10",
-        "commercial-mcq-14",
-        "commercial-mcq-09"
+        "commercial-mcq-15",
+        "commercial-pdf-001"
       ],
       "explanation": "本句的「commercialization」指「某事物逐步轉變為市場和盈利導向的過程」。",
       "sentenceIndex": 29,
@@ -1275,12 +1080,9 @@ export default {
         "commercialization"
       ],
       "optionReasons": {
-        "commercial-mcq-12": "本句指「某事物逐步轉變為市場和盈利導向的過程」。",
-        "commercial-mcq-11": "「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」是「commercialize」的用法，與本句語境不同。",
-        "commercial-mcq-13": "「過度重視銷售、盈利和商業利益的傾向」是「commercialism」的用法，與本句語境不同。",
-        "commercial-mcq-10": "「市場需求和成本條件足以支持實際盈利運作的」是「commercially viable」的用法，與本句語境不同。",
-        "commercial-mcq-14": "「主要目的不是出售產品、做生意或取得盈利的」是「non-commercial」的用法，與本句語境不同。",
-        "commercial-mcq-09": "「從市場、銷售、收入或盈利角度而言」是「commercially」的用法，與本句語境不同。"
+        "commercial-mcq-12": "本句的「commercialization」指「某事物逐步轉變為市場和盈利導向的過程」。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "commercial-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-12"
     },
@@ -1292,11 +1094,7 @@ export default {
       "masked": "Some people criticized the ____ of the festival.",
       "options": [
         "commercial-mcq-12",
-        "commercial-mcq-11",
-        "commercial-mcq-13",
-        "commercial-mcq-10",
-        "commercial-mcq-14",
-        "commercial-mcq-09"
+        "commercial-mcq-01"
       ],
       "explanation": "本句的「commercialisation」指「某事物逐步轉變為市場和盈利導向的過程」。",
       "sentenceIndex": 30,
@@ -1305,12 +1103,8 @@ export default {
         "commercialisation"
       ],
       "optionReasons": {
-        "commercial-mcq-12": "本句指「某事物逐步轉變為市場和盈利導向的過程」。",
-        "commercial-mcq-11": "「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」是「commercialize」的用法，與本句語境不同。",
-        "commercial-mcq-13": "「過度重視銷售、盈利和商業利益的傾向」是「commercialism」的用法，與本句語境不同。",
-        "commercial-mcq-10": "「市場需求和成本條件足以支持實際盈利運作的」是「commercially viable」的用法，與本句語境不同。",
-        "commercial-mcq-14": "「主要目的不是出售產品、做生意或取得盈利的」是「non-commercial」的用法，與本句語境不同。",
-        "commercial-mcq-09": "「從市場、銷售、收入或盈利角度而言」是「commercially」的用法，與本句語境不同。"
+        "commercial-mcq-12": "本句的「commercialisation」指「某事物逐步轉變為市場和盈利導向的過程」。",
+        "commercial-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-12"
     },
@@ -1322,11 +1116,7 @@ export default {
       "masked": "Critics complained about the growing ____ of the event.",
       "options": [
         "commercial-mcq-13",
-        "commercial-mcq-12",
-        "commercial-mcq-14",
-        "commercial-mcq-11",
-        "commercial-mcq-15",
-        "commercial-mcq-10"
+        "commercial-mcq-02"
       ],
       "explanation": "本句的「commercialism」指「過度重視銷售、盈利和商業利益的傾向」。",
       "sentenceIndex": 31,
@@ -1335,12 +1125,8 @@ export default {
         "commercialism"
       ],
       "optionReasons": {
-        "commercial-mcq-13": "本句指「過度重視銷售、盈利和商業利益的傾向」。",
-        "commercial-mcq-12": "「某事物逐步轉變為市場和盈利導向的過程」是「commercialization」的用法，與本句語境不同。",
-        "commercial-mcq-14": "「主要目的不是出售產品、做生意或取得盈利的」是「non-commercial」的用法，與本句語境不同。",
-        "commercial-mcq-11": "「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」是「commercialize」的用法，與本句語境不同。",
-        "commercial-mcq-15": "「為企業、店舖或高使用量環境而設計的商用設備」是「6. commercial = suitable for / used by businesses（企業使用） — 商用的；商業級的」的用法，與本句語境不同。",
-        "commercial-mcq-10": "「市場需求和成本條件足以支持實際盈利運作的」是「commercially viable」的用法，與本句語境不同。"
+        "commercial-mcq-13": "本句的「commercialism」指「過度重視銷售、盈利和商業利益的傾向」。",
+        "commercial-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-13"
     },
@@ -1352,11 +1138,7 @@ export default {
       "masked": "The festival tries to avoid excessive ____.",
       "options": [
         "commercial-mcq-13",
-        "commercial-mcq-12",
-        "commercial-mcq-14",
-        "commercial-mcq-11",
-        "commercial-mcq-15",
-        "commercial-mcq-10"
+        "commercial-mcq-02"
       ],
       "explanation": "本句的「commercialism」指「過度重視銷售、盈利和商業利益的傾向」。",
       "sentenceIndex": 32,
@@ -1365,12 +1147,8 @@ export default {
         "commercialism"
       ],
       "optionReasons": {
-        "commercial-mcq-13": "本句指「過度重視銷售、盈利和商業利益的傾向」。",
-        "commercial-mcq-12": "「某事物逐步轉變為市場和盈利導向的過程」是「commercialization」的用法，與本句語境不同。",
-        "commercial-mcq-14": "「主要目的不是出售產品、做生意或取得盈利的」是「non-commercial」的用法，與本句語境不同。",
-        "commercial-mcq-11": "「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」是「commercialize」的用法，與本句語境不同。",
-        "commercial-mcq-15": "「為企業、店舖或高使用量環境而設計的商用設備」是「6. commercial = suitable for / used by businesses（企業使用） — 商用的；商業級的」的用法，與本句語境不同。",
-        "commercial-mcq-10": "「市場需求和成本條件足以支持實際盈利運作的」是「commercially viable」的用法，與本句語境不同。"
+        "commercial-mcq-13": "本句的「commercialism」指「過度重視銷售、盈利和商業利益的傾向」。",
+        "commercial-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-13"
     },
@@ -1382,11 +1160,8 @@ export default {
       "masked": "The images may be used for ____ purposes.",
       "options": [
         "commercial-mcq-14",
-        "commercial-mcq-13",
         "commercial-mcq-15",
-        "commercial-mcq-12",
-        "commercial-mcq-16",
-        "commercial-mcq-11"
+        "commercial-mcq-16"
       ],
       "explanation": "本句的「non-commercial」指「主要目的不是出售產品、做生意或取得盈利的」。",
       "sentenceIndex": 33,
@@ -1395,12 +1170,9 @@ export default {
         "non-commercial"
       ],
       "optionReasons": {
-        "commercial-mcq-14": "本句指「主要目的不是出售產品、做生意或取得盈利的」。",
-        "commercial-mcq-13": "「過度重視銷售、盈利和商業利益的傾向」是「commercialism」的用法，與本句語境不同。",
-        "commercial-mcq-15": "「為企業、店舖或高使用量環境而設計的商用設備」是「6. commercial = suitable for / used by businesses（企業使用） — 商用的；商業級的」的用法，與本句語境不同。",
-        "commercial-mcq-12": "「某事物逐步轉變為市場和盈利導向的過程」是「commercialization」的用法，與本句語境不同。",
-        "commercial-mcq-16": "「用於辦公、零售、工業等商業活動的物業」是「8. commercial property/real estate（物業） — 商業物業；商用房地產」的用法，與本句語境不同。",
-        "commercial-mcq-11": "「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」是「commercialize」的用法，與本句語境不同。"
+        "commercial-mcq-14": "本句的「non-commercial」指「主要目的不是出售產品、做生意或取得盈利的」。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-14"
     },
@@ -1412,11 +1184,8 @@ export default {
       "masked": "The station is funded as a ____ broadcaster.",
       "options": [
         "commercial-mcq-14",
-        "commercial-mcq-13",
         "commercial-mcq-15",
-        "commercial-mcq-12",
-        "commercial-mcq-16",
-        "commercial-mcq-11"
+        "commercial-mcq-08"
       ],
       "explanation": "本句的「non-commercial」指「主要目的不是出售產品、做生意或取得盈利的」。",
       "sentenceIndex": 34,
@@ -1425,12 +1194,9 @@ export default {
         "non-commercial"
       ],
       "optionReasons": {
-        "commercial-mcq-14": "本句指「主要目的不是出售產品、做生意或取得盈利的」。",
-        "commercial-mcq-13": "「過度重視銷售、盈利和商業利益的傾向」是「commercialism」的用法，與本句語境不同。",
-        "commercial-mcq-15": "「為企業、店舖或高使用量環境而設計的商用設備」是「6. commercial = suitable for / used by businesses（企業使用） — 商用的；商業級的」的用法，與本句語境不同。",
-        "commercial-mcq-12": "「某事物逐步轉變為市場和盈利導向的過程」是「commercialization」的用法，與本句語境不同。",
-        "commercial-mcq-16": "「用於辦公、零售、工業等商業活動的物業」是「8. commercial property/real estate（物業） — 商業物業；商用房地產」的用法，與本句語境不同。",
-        "commercial-mcq-11": "「把技術、構思或活動轉化成可在市場出售並盈利的產品／服務」是「commercialize」的用法，與本句語境不同。"
+        "commercial-mcq-14": "本句的「non-commercial」指「主要目的不是出售產品、做生意或取得盈利的」。",
+        "commercial-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "commercial-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commercial-mcq-14"
     }
@@ -1442,5 +1208,7 @@ export default {
     "sha256": "c621df74159f98f20884cf63394a42605cd80454c4ca4ac605f936c4d0e2cb89",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

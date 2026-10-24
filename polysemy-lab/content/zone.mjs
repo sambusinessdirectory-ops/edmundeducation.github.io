@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "zone-mcq-01",
-      "title": "表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」",
+      "title": "區域；範圍",
       "form": "Passage anchor > “Because of her, I became more willing to step outside my comfort zone...",
       "en": "Passage anchor > “Because of her, I became more willing to step outside my comfort zone...",
       "zh": "表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」",
@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "zone-mcq-02",
-      "title": "表示區域；地帶；例句：「這裡是行人專用區。」",
+      "title": "區域；地帶",
       "form": "zone — an area with particular features or boundaries = an area that is distinguished from surrounding areas because it has a particular purpose, condition, or characteristic 區域；地帶",
       "en": "zone — an area with particular features or boundaries = an area that is distinguished from surrounding areas because it has a particular purpose, condition, or characteristic 區域；地帶",
       "zh": "表示區域；地帶；例句：「這裡是行人專用區。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "zone-mcq-03",
-      "title": "表示專用區；管制區；例句：「這個區域禁止停車。」",
+      "title": "專用區；管制區",
       "form": "zone — area defined by rules or use = a place officially designated for a certain purpose or governed by certain rules 專用區；管制區",
       "en": "zone — area defined by rules or use = a place officially designated for a certain purpose or governed by certain rules 專用區；管制區",
       "zh": "表示專用區；管制區；例句：「這個區域禁止停車。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "zone-mcq-04",
-      "title": "表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」",
+      "title": "氣候帶；氣候區",
       "form": "climate zone = a large geographical area with a particular type of climate 氣候帶；氣候區",
       "en": "climate zone = a large geographical area with a particular type of climate 氣候帶；氣候區",
       "zh": "表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "zone-mcq-05",
-      "title": "表示時區；例句：「西雅圖和東京位於不同的時區。」",
+      "title": "時區",
       "form": "time zone = one of the world’s regions that shares the same standard time 時區",
       "en": "time zone = one of the world’s regions that shares the same standard time 時區",
       "zh": "表示時區；例句：「西雅圖和東京位於不同的時區。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "zone-mcq-06",
-      "title": "表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」",
+      "title": "地理區；生態區帶",
       "form": "geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶",
       "en": "geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶",
       "zh": "表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "zone-mcq-07",
-      "title": "表示危險區；危險地帶；例句：「人們被要求離開危險區域。」",
+      "title": "危險區；危險地帶",
       "form": "danger zone = an area or situation involving significant danger 危險區；危險地帶",
       "en": "danger zone = an area or situation involving significant danger 危險區；危險地帶",
       "zh": "表示危險區；危險地帶；例句：「人們被要求離開危險區域。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "zone-mcq-08",
-      "title": "表示安全區；安全地帶；例句：「居民被轉移到安全區。」",
+      "title": "安全區；安全地帶",
       "form": "safety zone / safe zone = an area intended to protect people from danger 安全區；安全地帶",
       "en": "safety zone / safe zone = an area intended to protect people from danger 安全區；安全地帶",
       "zh": "表示安全區；安全地帶；例句：「居民被轉移到安全區。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "zone-mcq-09",
-      "title": "表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」",
+      "title": "限制區；禁區；管制區",
       "form": "restricted zone = an area where access is limited or prohibited 限制區；禁區；管制區",
       "en": "restricted zone = an area where access is limited or prohibited 限制區；禁區；管制區",
       "zh": "表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "zone-mcq-10",
-      "title": "表示範圍；區間；例句：「把心率維持在目標區間內。」",
+      "title": "範圍；區間",
       "form": "zone — a range within which something operates or exists = a band or range of values, conditions, or performance 範圍；區間",
       "en": "zone — a range within which something operates or exists = a band or range of values, conditions, or performance 範圍；區間",
       "zh": "表示範圍；區間；例句：「把心率維持在目標區間內。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "zone-mcq-11",
-      "title": "表示目標區間；例句：「你的心率應保持在目標區間內。」",
+      "title": "目標區間",
       "form": "target zone = desired range of values or performance 目標區間",
       "en": "target zone = desired range of values or performance 目標區間",
       "zh": "表示目標區間；例句：「你的心率應保持在目標區間內。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "zone-mcq-12",
-      "title": "表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」",
+      "title": "舒適圈",
       "form": "comfort zone = a situation or psychological range in which someone feels familiar, safe, and confident 舒適圈 This is the exact passage use.",
       "en": "comfort zone = a situation or psychological range in which someone feels familiar, safe, and confident 舒適圈 This is the exact passage use.",
       "zh": "表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "zone-mcq-13",
-      "title": "表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」",
+      "title": "超出舒適圈；超出熟悉範圍",
       "form": "outside your comfort zone = beyond what feels familiar or easy 超出舒適圈；超出熟悉範圍",
       "en": "outside your comfort zone = beyond what feels familiar or easy 超出舒適圈；超出熟悉範圍",
       "zh": "表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "zone-mcq-14",
-      "title": "表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」",
+      "title": "進入最佳狀態；完全投入",
       "form": "in the zone = in a state of intense concentration and highly effective performance 進入最佳狀態；完全投入",
       "en": "in the zone = in a state of intense concentration and highly effective performance 進入最佳狀態；完全投入",
       "zh": "表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "zone-mcq-15",
-      "title": "表示走神；發呆；放空；例句：「我上課上到一半就走神了。」",
+      "title": "走神；發呆；放空",
       "form": "zone out = stop paying attention and become mentally disconnected from what is happening 走神；發呆；放空",
       "en": "zone out = stop paying attention and become mentally disconnected from what is happening 走神；發呆；放空",
       "zh": "表示走神；發呆；放空；例句：「我上課上到一半就走神了。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "zone-mcq-16",
-      "title": "表示區域；防守區；例句：「那名球員進入了得分區域。」",
+      "title": "區域；防守區",
       "form": "zone — designated area in a sport = a particular area of a playing field, court, or game space 區域；防守區",
       "en": "zone — designated area in a sport = a particular area of a playing field, court, or game space 區域；防守區",
       "zh": "表示區域；防守區；例句：「那名球員進入了得分區域。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "zone-mcq-17",
-      "title": "表示區域防守；例句：「球隊改採區域防守。」",
+      "title": "區域防守",
       "form": "zone defense = a defensive strategy in which players guard areas rather than specific opponents 區域防守",
       "en": "zone defense = a defensive strategy in which players guard areas rather than specific opponents 區域防守",
       "zh": "表示區域防守；例句：「球隊改採區域防守。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "zone-mcq-19",
-      "title": "表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」",
+      "title": "劃分為……區；劃定用途",
       "form": "zone — verb: designate an area for a particular use = officially assign land to a category of use 劃分為……區；劃定用途",
       "en": "zone — verb: designate an area for a particular use = officially assign land to a category of use 劃分為……區；劃定用途",
       "zh": "表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "zone-mcq-20",
-      "title": "表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」",
+      "title": "劃定用途的；分區的",
       "form": "zoned = officially designated for a particular use 劃定用途的；分區的",
       "en": "zoned = officially designated for a particular use 劃定用途的；分區的",
       "zh": "表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "zone-mcq-21",
-      "title": "表示票價區；交通分區；例句：「機場位於另一個票價區。」",
+      "title": "票價區；交通分區",
       "form": "fare zone / travel zone = an area used to determine transport fares or travel rules 票價區；交通分區",
       "en": "fare zone / travel zone = an area used to determine transport fares or travel rules 票價區；交通分區",
       "zh": "表示票價區；交通分區；例句：「機場位於另一個票價區。」",
@@ -469,7 +469,7 @@ export default {
     },
     {
       "id": "zone-mcq-22",
-      "title": "表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」",
+      "title": "區域；區段；邏輯區",
       "form": "zone — defined logical or administrative area In technical contexts, zone can mean a defined part of a system or network. 區域；區段；邏輯區",
       "en": "zone — defined logical or administrative area In technical contexts, zone can mean a defined part of a system or network. 區域；區段；邏輯區",
       "zh": "表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」",
@@ -491,7 +491,7 @@ export default {
     },
     {
       "id": "zone-mcq-23",
-      "title": "表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」",
+      "title": "帶；區；層",
       "form": "zone — a band or region distinguished from surrounding tissue or material = a particular layer, band, or region with identifiable characteristics 帶；區；層",
       "en": "zone — a band or region distinguished from surrounding tissue or material = a particular layer, band, or region with identifiable characteristics 帶；區；層",
       "zh": "表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」",
@@ -535,7 +535,7 @@ export default {
     },
     {
       "id": "zone-mcq-25",
-      "title": "表示緩衝區；例句：「兩個區域之間有一個緩衝區。」",
+      "title": "緩衝區",
       "form": "buffer zone = an area separating two other areas to reduce conflict, danger, or interference 緩衝區",
       "en": "buffer zone = an area separating two other areas to reduce conflict, danger, or interference 緩衝區",
       "zh": "表示緩衝區；例句：「兩個區域之間有一個緩衝區。」",
@@ -557,7 +557,7 @@ export default {
     },
     {
       "id": "zone-mcq-26",
-      "title": "表示禁入區；封鎖區；例句：「警方在建築物周圍設立了封鎖區。」",
+      "title": "禁入區；封鎖區",
       "form": "exclusion zone = an area from which people are officially excluded 禁入區；封鎖區",
       "en": "exclusion zone = an area from which people are officially excluded 禁入區；封鎖區",
       "zh": "表示禁入區；封鎖區；例句：「警方在建築物周圍設立了封鎖區。」",
@@ -579,7 +579,7 @@ export default {
     },
     {
       "id": "zone-mcq-27",
-      "title": "表示戰區；例句：「記者進入了戰區。」",
+      "title": "戰區",
       "form": "war zone = an area where armed conflict is taking place 戰區",
       "en": "war zone = an area where armed conflict is taking place 戰區",
       "zh": "表示戰區；例句：「記者進入了戰區。」",
@@ -601,7 +601,7 @@ export default {
     },
     {
       "id": "zone-mcq-28",
-      "title": "表示區域的；分區的；例句：「這套系統使用分區供暖。」",
+      "title": "區域的；分區的",
       "form": "zonal = relating to a zone or zones 區域的；分區的",
       "en": "zonal = relating to a zone or zones 區域的；分區的",
       "zh": "表示區域的；分區的；例句：「這套系統使用分區供暖。」",
@@ -631,11 +631,9 @@ export default {
       "masked": "Giving presentations helped me move beyond my ____.",
       "options": [
         "zone-mcq-01",
-        "zone-mcq-02",
-        "zone-mcq-03",
-        "zone-mcq-04",
-        "zone-mcq-05",
-        "zone-mcq-06"
+        "zone-mcq-12",
+        "zone-mcq-15",
+        "zone-mcq-14"
       ],
       "explanation": "本句的「comfort zone」指「表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」」。",
       "sentenceIndex": 0,
@@ -644,12 +642,10 @@ export default {
         "comfort zone"
       ],
       "optionReasons": {
-        "zone-mcq-01": "本句指「表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」」。",
-        "zone-mcq-02": "「表示區域；地帶；例句：「這裡是行人專用區。」」是「zone — an area with particular features or boundaries = an area that is distinguished from surrounding areas because it has a particular purpose, condition, or characteristic 區域；地帶」的用法，與本句語境不同。",
-        "zone-mcq-03": "「表示專用區；管制區；例句：「這個區域禁止停車。」」是「zone — area defined by rules or use = a place officially designated for a certain purpose or governed by certain rules 專用區；管制區」的用法，與本句語境不同。",
-        "zone-mcq-04": "「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」是「climate zone = a large geographical area with a particular type of climate 氣候帶；氣候區」的用法，與本句語境不同。",
-        "zone-mcq-05": "「表示時區；例句：「西雅圖和東京位於不同的時區。」」是「time zone = one of the world’s regions that shares the same standard time 時區」的用法，與本句語境不同。",
-        "zone-mcq-06": "「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」是「geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶」的用法，與本句語境不同。"
+        "zone-mcq-01": "本句的「comfort zone」指「表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-01"
     },
@@ -661,11 +657,9 @@ export default {
       "masked": "Growth often begins when we leave our ____.",
       "options": [
         "zone-mcq-01",
-        "zone-mcq-02",
-        "zone-mcq-03",
-        "zone-mcq-04",
-        "zone-mcq-05",
-        "zone-mcq-06"
+        "zone-mcq-12",
+        "zone-mcq-14",
+        "zone-mcq-15"
       ],
       "explanation": "本句的「comfort zone」指「表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」」。",
       "sentenceIndex": 1,
@@ -674,12 +668,10 @@ export default {
         "comfort zone"
       ],
       "optionReasons": {
-        "zone-mcq-01": "本句指「表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」」。",
-        "zone-mcq-02": "「表示區域；地帶；例句：「這裡是行人專用區。」」是「zone — an area with particular features or boundaries = an area that is distinguished from surrounding areas because it has a particular purpose, condition, or characteristic 區域；地帶」的用法，與本句語境不同。",
-        "zone-mcq-03": "「表示專用區；管制區；例句：「這個區域禁止停車。」」是「zone — area defined by rules or use = a place officially designated for a certain purpose or governed by certain rules 專用區；管制區」的用法，與本句語境不同。",
-        "zone-mcq-04": "「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」是「climate zone = a large geographical area with a particular type of climate 氣候帶；氣候區」的用法，與本句語境不同。",
-        "zone-mcq-05": "「表示時區；例句：「西雅圖和東京位於不同的時區。」」是「time zone = one of the world’s regions that shares the same standard time 時區」的用法，與本句語境不同。",
-        "zone-mcq-06": "「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」是「geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶」的用法，與本句語境不同。"
+        "zone-mcq-01": "本句的「comfort zone」指「表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-01"
     },
@@ -691,11 +683,9 @@ export default {
       "masked": "This is a pedestrian ____.",
       "options": [
         "zone-mcq-02",
-        "zone-mcq-01",
-        "zone-mcq-03",
-        "zone-mcq-04",
-        "zone-mcq-05",
-        "zone-mcq-06"
+        "zone-mcq-14",
+        "zone-mcq-15",
+        "zone-mcq-12"
       ],
       "explanation": "本句的「zone」指「表示區域；地帶；例句：「這裡是行人專用區。」」。",
       "sentenceIndex": 2,
@@ -704,12 +694,10 @@ export default {
         "zone"
       ],
       "optionReasons": {
-        "zone-mcq-02": "本句指「表示區域；地帶；例句：「這裡是行人專用區。」」。",
-        "zone-mcq-01": "「表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」」是「Passage anchor > “Because of her, I became more willing to step outside my comfort zone...」的用法，與本句語境不同。",
-        "zone-mcq-03": "「表示專用區；管制區；例句：「這個區域禁止停車。」」是「zone — area defined by rules or use = a place officially designated for a certain purpose or governed by certain rules 專用區；管制區」的用法，與本句語境不同。",
-        "zone-mcq-04": "「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」是「climate zone = a large geographical area with a particular type of climate 氣候帶；氣候區」的用法，與本句語境不同。",
-        "zone-mcq-05": "「表示時區；例句：「西雅圖和東京位於不同的時區。」」是「time zone = one of the world’s regions that shares the same standard time 時區」的用法，與本句語境不同。",
-        "zone-mcq-06": "「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」是「geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶」的用法，與本句語境不同。"
+        "zone-mcq-02": "本句的「zone」指「表示區域；地帶；例句：「這裡是行人專用區。」」。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-02"
     },
@@ -721,11 +709,9 @@ export default {
       "masked": "The city has several industrial ____.",
       "options": [
         "zone-mcq-02",
-        "zone-mcq-01",
-        "zone-mcq-03",
-        "zone-mcq-04",
-        "zone-mcq-05",
-        "zone-mcq-06"
+        "zone-mcq-12",
+        "zone-mcq-15",
+        "zone-mcq-14"
       ],
       "explanation": "本句的「zones」指「表示區域；地帶；例句：「這裡是行人專用區。」」。",
       "sentenceIndex": 3,
@@ -734,12 +720,10 @@ export default {
         "zones"
       ],
       "optionReasons": {
-        "zone-mcq-02": "本句指「表示區域；地帶；例句：「這裡是行人專用區。」」。",
-        "zone-mcq-01": "「表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」」是「Passage anchor > “Because of her, I became more willing to step outside my comfort zone...」的用法，與本句語境不同。",
-        "zone-mcq-03": "「表示專用區；管制區；例句：「這個區域禁止停車。」」是「zone — area defined by rules or use = a place officially designated for a certain purpose or governed by certain rules 專用區；管制區」的用法，與本句語境不同。",
-        "zone-mcq-04": "「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」是「climate zone = a large geographical area with a particular type of climate 氣候帶；氣候區」的用法，與本句語境不同。",
-        "zone-mcq-05": "「表示時區；例句：「西雅圖和東京位於不同的時區。」」是「time zone = one of the world’s regions that shares the same standard time 時區」的用法，與本句語境不同。",
-        "zone-mcq-06": "「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」是「geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶」的用法，與本句語境不同。"
+        "zone-mcq-02": "本句的「zones」指「表示區域；地帶；例句：「這裡是行人專用區。」」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-02"
     },
@@ -751,11 +735,9 @@ export default {
       "masked": "Parking is not allowed in this ____.",
       "options": [
         "zone-mcq-03",
-        "zone-mcq-02",
-        "zone-mcq-04",
-        "zone-mcq-01",
-        "zone-mcq-05",
-        "zone-mcq-06"
+        "zone-mcq-12",
+        "zone-mcq-14",
+        "zone-mcq-15"
       ],
       "explanation": "本句的「zone」指「表示專用區；管制區；例句：「這個區域禁止停車。」」。",
       "sentenceIndex": 4,
@@ -764,12 +746,10 @@ export default {
         "zone"
       ],
       "optionReasons": {
-        "zone-mcq-03": "本句指「表示專用區；管制區；例句：「這個區域禁止停車。」」。",
-        "zone-mcq-02": "「表示區域；地帶；例句：「這裡是行人專用區。」」是「zone — an area with particular features or boundaries = an area that is distinguished from surrounding areas because it has a particular purpose, condition, or characteristic 區域；地帶」的用法，與本句語境不同。",
-        "zone-mcq-04": "「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」是「climate zone = a large geographical area with a particular type of climate 氣候帶；氣候區」的用法，與本句語境不同。",
-        "zone-mcq-01": "「表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」」是「Passage anchor > “Because of her, I became more willing to step outside my comfort zone...」的用法，與本句語境不同。",
-        "zone-mcq-05": "「表示時區；例句：「西雅圖和東京位於不同的時區。」」是「time zone = one of the world’s regions that shares the same standard time 時區」的用法，與本句語境不同。",
-        "zone-mcq-06": "「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」是「geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶」的用法，與本句語境不同。"
+        "zone-mcq-03": "本句的「zone」指「表示專用區；管制區；例句：「這個區域禁止停車。」」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-03"
     },
@@ -781,11 +761,9 @@ export default {
       "masked": "The airport has a secure ____ for staff only.",
       "options": [
         "zone-mcq-03",
-        "zone-mcq-02",
-        "zone-mcq-04",
-        "zone-mcq-01",
-        "zone-mcq-05",
-        "zone-mcq-06"
+        "zone-mcq-12",
+        "zone-mcq-15",
+        "zone-mcq-14"
       ],
       "explanation": "本句的「zone」指「表示專用區；管制區；例句：「這個區域禁止停車。」」。",
       "sentenceIndex": 5,
@@ -794,12 +772,10 @@ export default {
         "zone"
       ],
       "optionReasons": {
-        "zone-mcq-03": "本句指「表示專用區；管制區；例句：「這個區域禁止停車。」」。",
-        "zone-mcq-02": "「表示區域；地帶；例句：「這裡是行人專用區。」」是「zone — an area with particular features or boundaries = an area that is distinguished from surrounding areas because it has a particular purpose, condition, or characteristic 區域；地帶」的用法，與本句語境不同。",
-        "zone-mcq-04": "「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」是「climate zone = a large geographical area with a particular type of climate 氣候帶；氣候區」的用法，與本句語境不同。",
-        "zone-mcq-01": "「表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」」是「Passage anchor > “Because of her, I became more willing to step outside my comfort zone...」的用法，與本句語境不同。",
-        "zone-mcq-05": "「表示時區；例句：「西雅圖和東京位於不同的時區。」」是「time zone = one of the world’s regions that shares the same standard time 時區」的用法，與本句語境不同。",
-        "zone-mcq-06": "「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」是「geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶」的用法，與本句語境不同。"
+        "zone-mcq-03": "本句的「zone」指「表示專用區；管制區；例句：「這個區域禁止停車。」」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-03"
     },
@@ -811,11 +787,9 @@ export default {
       "masked": "The country lies in a tropical climate ____.",
       "options": [
         "zone-mcq-04",
-        "zone-mcq-03",
-        "zone-mcq-05",
-        "zone-mcq-02",
-        "zone-mcq-06",
-        "zone-mcq-01"
+        "zone-mcq-13",
+        "zone-mcq-14",
+        "zone-mcq-15"
       ],
       "explanation": "本句的「zone」指「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」。",
       "sentenceIndex": 6,
@@ -824,12 +798,10 @@ export default {
         "zone"
       ],
       "optionReasons": {
-        "zone-mcq-04": "本句指「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」。",
-        "zone-mcq-03": "「表示專用區；管制區；例句：「這個區域禁止停車。」」是「zone — area defined by rules or use = a place officially designated for a certain purpose or governed by certain rules 專用區；管制區」的用法，與本句語境不同。",
-        "zone-mcq-05": "「表示時區；例句：「西雅圖和東京位於不同的時區。」」是「time zone = one of the world’s regions that shares the same standard time 時區」的用法，與本句語境不同。",
-        "zone-mcq-02": "「表示區域；地帶；例句：「這裡是行人專用區。」」是「zone — an area with particular features or boundaries = an area that is distinguished from surrounding areas because it has a particular purpose, condition, or characteristic 區域；地帶」的用法，與本句語境不同。",
-        "zone-mcq-06": "「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」是「geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶」的用法，與本句語境不同。",
-        "zone-mcq-01": "「表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」」是「Passage anchor > “Because of her, I became more willing to step outside my comfort zone...」的用法，與本句語境不同。"
+        "zone-mcq-04": "本句的「zone」指「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-04"
     },
@@ -841,11 +813,9 @@ export default {
       "masked": "Different plants thrive in different climate ____.",
       "options": [
         "zone-mcq-04",
-        "zone-mcq-03",
-        "zone-mcq-05",
-        "zone-mcq-02",
-        "zone-mcq-06",
-        "zone-mcq-01"
+        "zone-mcq-12",
+        "zone-mcq-15",
+        "zone-mcq-14"
       ],
       "explanation": "本句的「zones」指「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」。",
       "sentenceIndex": 7,
@@ -854,12 +824,10 @@ export default {
         "zones"
       ],
       "optionReasons": {
-        "zone-mcq-04": "本句指「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」。",
-        "zone-mcq-03": "「表示專用區；管制區；例句：「這個區域禁止停車。」」是「zone — area defined by rules or use = a place officially designated for a certain purpose or governed by certain rules 專用區；管制區」的用法，與本句語境不同。",
-        "zone-mcq-05": "「表示時區；例句：「西雅圖和東京位於不同的時區。」」是「time zone = one of the world’s regions that shares the same standard time 時區」的用法，與本句語境不同。",
-        "zone-mcq-02": "「表示區域；地帶；例句：「這裡是行人專用區。」」是「zone — an area with particular features or boundaries = an area that is distinguished from surrounding areas because it has a particular purpose, condition, or characteristic 區域；地帶」的用法，與本句語境不同。",
-        "zone-mcq-06": "「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」是「geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶」的用法，與本句語境不同。",
-        "zone-mcq-01": "「表示區域；範圍；例句：「做簡報幫助我走出自己的舒適圈。」」是「Passage anchor > “Because of her, I became more willing to step outside my comfort zone...」的用法，與本句語境不同。"
+        "zone-mcq-04": "本句的「zones」指「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-04"
     },
@@ -871,11 +839,9 @@ export default {
       "masked": "Seattle and Tokyo are in different ____.",
       "options": [
         "zone-mcq-05",
-        "zone-mcq-04",
-        "zone-mcq-06",
-        "zone-mcq-03",
-        "zone-mcq-07",
-        "zone-mcq-02"
+        "zone-mcq-14",
+        "zone-mcq-15",
+        "zone-mcq-13"
       ],
       "explanation": "本句的「time zones」指「表示時區；例句：「西雅圖和東京位於不同的時區。」」。",
       "sentenceIndex": 8,
@@ -884,12 +850,10 @@ export default {
         "time zones"
       ],
       "optionReasons": {
-        "zone-mcq-05": "本句指「表示時區；例句：「西雅圖和東京位於不同的時區。」」。",
-        "zone-mcq-04": "「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」是「climate zone = a large geographical area with a particular type of climate 氣候帶；氣候區」的用法，與本句語境不同。",
-        "zone-mcq-06": "「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」是「geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶」的用法，與本句語境不同。",
-        "zone-mcq-03": "「表示專用區；管制區；例句：「這個區域禁止停車。」」是「zone — area defined by rules or use = a place officially designated for a certain purpose or governed by certain rules 專用區；管制區」的用法，與本句語境不同。",
-        "zone-mcq-07": "「表示危險區；危險地帶；例句：「人們被要求離開危險區域。」」是「danger zone = an area or situation involving significant danger 危險區；危險地帶」的用法，與本句語境不同。",
-        "zone-mcq-02": "「表示區域；地帶；例句：「這裡是行人專用區。」」是「zone — an area with particular features or boundaries = an area that is distinguished from surrounding areas because it has a particular purpose, condition, or characteristic 區域；地帶」的用法，與本句語境不同。"
+        "zone-mcq-05": "本句的「time zones」指「表示時區；例句：「西雅圖和東京位於不同的時區。」」。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-05"
     },
@@ -901,11 +865,9 @@ export default {
       "masked": "Travelling across several ____ can be tiring.",
       "options": [
         "zone-mcq-05",
-        "zone-mcq-04",
-        "zone-mcq-06",
-        "zone-mcq-03",
-        "zone-mcq-07",
-        "zone-mcq-02"
+        "zone-mcq-13",
+        "zone-mcq-14",
+        "zone-mcq-15"
       ],
       "explanation": "本句的「time zones」指「表示時區；例句：「西雅圖和東京位於不同的時區。」」。",
       "sentenceIndex": 9,
@@ -914,12 +876,10 @@ export default {
         "time zones"
       ],
       "optionReasons": {
-        "zone-mcq-05": "本句指「表示時區；例句：「西雅圖和東京位於不同的時區。」」。",
-        "zone-mcq-04": "「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」是「climate zone = a large geographical area with a particular type of climate 氣候帶；氣候區」的用法，與本句語境不同。",
-        "zone-mcq-06": "「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」是「geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶」的用法，與本句語境不同。",
-        "zone-mcq-03": "「表示專用區；管制區；例句：「這個區域禁止停車。」」是「zone — area defined by rules or use = a place officially designated for a certain purpose or governed by certain rules 專用區；管制區」的用法，與本句語境不同。",
-        "zone-mcq-07": "「表示危險區；危險地帶；例句：「人們被要求離開危險區域。」」是「danger zone = an area or situation involving significant danger 危險區；危險地帶」的用法，與本句語境不同。",
-        "zone-mcq-02": "「表示區域；地帶；例句：「這裡是行人專用區。」」是「zone — an area with particular features or boundaries = an area that is distinguished from surrounding areas because it has a particular purpose, condition, or characteristic 區域；地帶」的用法，與本句語境不同。"
+        "zone-mcq-05": "本句的「time zones」指「表示時區；例句：「西雅圖和東京位於不同的時區。」」。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-05"
     },
@@ -931,11 +891,9 @@ export default {
       "masked": "The mountain contains several ecological ____.",
       "options": [
         "zone-mcq-06",
-        "zone-mcq-05",
-        "zone-mcq-07",
-        "zone-mcq-04",
-        "zone-mcq-08",
-        "zone-mcq-03"
+        "zone-mcq-15",
+        "zone-mcq-13",
+        "zone-mcq-16"
       ],
       "explanation": "本句的「zones」指「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」。",
       "sentenceIndex": 10,
@@ -944,12 +902,10 @@ export default {
         "zones"
       ],
       "optionReasons": {
-        "zone-mcq-06": "本句指「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」。",
-        "zone-mcq-05": "「表示時區；例句：「西雅圖和東京位於不同的時區。」」是「time zone = one of the world’s regions that shares the same standard time 時區」的用法，與本句語境不同。",
-        "zone-mcq-07": "「表示危險區；危險地帶；例句：「人們被要求離開危險區域。」」是「danger zone = an area or situation involving significant danger 危險區；危險地帶」的用法，與本句語境不同。",
-        "zone-mcq-04": "「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」是「climate zone = a large geographical area with a particular type of climate 氣候帶；氣候區」的用法，與本句語境不同。",
-        "zone-mcq-08": "「表示安全區；安全地帶；例句：「居民被轉移到安全區。」」是「safety zone / safe zone = an area intended to protect people from danger 安全區；安全地帶」的用法，與本句語境不同。",
-        "zone-mcq-03": "「表示專用區；管制區；例句：「這個區域禁止停車。」」是「zone — area defined by rules or use = a place officially designated for a certain purpose or governed by certain rules 專用區；管制區」的用法，與本句語境不同。"
+        "zone-mcq-06": "本句的「zones」指「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-06"
     },
@@ -961,11 +917,9 @@ export default {
       "masked": "Different species live in different vegetation ____.",
       "options": [
         "zone-mcq-06",
-        "zone-mcq-05",
-        "zone-mcq-07",
-        "zone-mcq-04",
-        "zone-mcq-08",
-        "zone-mcq-03"
+        "zone-mcq-13",
+        "zone-mcq-15",
+        "zone-mcq-24"
       ],
       "explanation": "本句的「zones」指「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」。",
       "sentenceIndex": 11,
@@ -974,12 +928,10 @@ export default {
         "zones"
       ],
       "optionReasons": {
-        "zone-mcq-06": "本句指「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」。",
-        "zone-mcq-05": "「表示時區；例句：「西雅圖和東京位於不同的時區。」」是「time zone = one of the world’s regions that shares the same standard time 時區」的用法，與本句語境不同。",
-        "zone-mcq-07": "「表示危險區；危險地帶；例句：「人們被要求離開危險區域。」」是「danger zone = an area or situation involving significant danger 危險區；危險地帶」的用法，與本句語境不同。",
-        "zone-mcq-04": "「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」是「climate zone = a large geographical area with a particular type of climate 氣候帶；氣候區」的用法，與本句語境不同。",
-        "zone-mcq-08": "「表示安全區；安全地帶；例句：「居民被轉移到安全區。」」是「safety zone / safe zone = an area intended to protect people from danger 安全區；安全地帶」的用法，與本句語境不同。",
-        "zone-mcq-03": "「表示專用區；管制區；例句：「這個區域禁止停車。」」是「zone — area defined by rules or use = a place officially designated for a certain purpose or governed by certain rules 專用區；管制區」的用法，與本句語境不同。"
+        "zone-mcq-06": "本句的「zones」指「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-06"
     },
@@ -991,11 +943,9 @@ export default {
       "masked": "People were told to leave the ____.",
       "options": [
         "zone-mcq-07",
-        "zone-mcq-06",
-        "zone-mcq-08",
-        "zone-mcq-05",
-        "zone-mcq-09",
-        "zone-mcq-04"
+        "zone-mcq-12",
+        "zone-mcq-14",
+        "zone-mcq-15"
       ],
       "explanation": "本句的「danger zone」指「表示危險區；危險地帶；例句：「人們被要求離開危險區域。」」。",
       "sentenceIndex": 12,
@@ -1004,12 +954,10 @@ export default {
         "danger zone"
       ],
       "optionReasons": {
-        "zone-mcq-07": "本句指「表示危險區；危險地帶；例句：「人們被要求離開危險區域。」」。",
-        "zone-mcq-06": "「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」是「geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶」的用法，與本句語境不同。",
-        "zone-mcq-08": "「表示安全區；安全地帶；例句：「居民被轉移到安全區。」」是「safety zone / safe zone = an area intended to protect people from danger 安全區；安全地帶」的用法，與本句語境不同。",
-        "zone-mcq-05": "「表示時區；例句：「西雅圖和東京位於不同的時區。」」是「time zone = one of the world’s regions that shares the same standard time 時區」的用法，與本句語境不同。",
-        "zone-mcq-09": "「表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」」是「restricted zone = an area where access is limited or prohibited 限制區；禁區；管制區」的用法，與本句語境不同。",
-        "zone-mcq-04": "「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」是「climate zone = a large geographical area with a particular type of climate 氣候帶；氣候區」的用法，與本句語境不同。"
+        "zone-mcq-07": "本句的「danger zone」指「表示危險區；危險地帶；例句：「人們被要求離開危險區域。」」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-07"
     },
@@ -1021,11 +969,9 @@ export default {
       "masked": "The climbers had entered a high-risk ____.",
       "options": [
         "zone-mcq-07",
-        "zone-mcq-06",
-        "zone-mcq-08",
-        "zone-mcq-05",
-        "zone-mcq-09",
-        "zone-mcq-04"
+        "zone-mcq-13",
+        "zone-mcq-14",
+        "zone-mcq-15"
       ],
       "explanation": "本句的「danger zone」指「表示危險區；危險地帶；例句：「人們被要求離開危險區域。」」。",
       "sentenceIndex": 13,
@@ -1034,12 +980,10 @@ export default {
         "danger zone"
       ],
       "optionReasons": {
-        "zone-mcq-07": "本句指「表示危險區；危險地帶；例句：「人們被要求離開危險區域。」」。",
-        "zone-mcq-06": "「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」是「geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶」的用法，與本句語境不同。",
-        "zone-mcq-08": "「表示安全區；安全地帶；例句：「居民被轉移到安全區。」」是「safety zone / safe zone = an area intended to protect people from danger 安全區；安全地帶」的用法，與本句語境不同。",
-        "zone-mcq-05": "「表示時區；例句：「西雅圖和東京位於不同的時區。」」是「time zone = one of the world’s regions that shares the same standard time 時區」的用法，與本句語境不同。",
-        "zone-mcq-09": "「表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」」是「restricted zone = an area where access is limited or prohibited 限制區；禁區；管制區」的用法，與本句語境不同。",
-        "zone-mcq-04": "「表示氣候帶；氣候區；例句：「這個國家位於熱帶氣候帶。」」是「climate zone = a large geographical area with a particular type of climate 氣候帶；氣候區」的用法，與本句語境不同。"
+        "zone-mcq-07": "本句的「danger zone」指「表示危險區；危險地帶；例句：「人們被要求離開危險區域。」」。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-07"
     },
@@ -1051,11 +995,9 @@ export default {
       "masked": "Residents were moved to a ____.",
       "options": [
         "zone-mcq-08",
-        "zone-mcq-07",
-        "zone-mcq-09",
-        "zone-mcq-06",
-        "zone-mcq-10",
-        "zone-mcq-05"
+        "zone-mcq-12",
+        "zone-mcq-15",
+        "zone-mcq-16"
       ],
       "explanation": "本句的「safe zone」指「表示安全區；安全地帶；例句：「居民被轉移到安全區。」」。",
       "sentenceIndex": 14,
@@ -1064,12 +1006,10 @@ export default {
         "safe zone"
       ],
       "optionReasons": {
-        "zone-mcq-08": "本句指「表示安全區；安全地帶；例句：「居民被轉移到安全區。」」。",
-        "zone-mcq-07": "「表示危險區；危險地帶；例句：「人們被要求離開危險區域。」」是「danger zone = an area or situation involving significant danger 危險區；危險地帶」的用法，與本句語境不同。",
-        "zone-mcq-09": "「表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」」是「restricted zone = an area where access is limited or prohibited 限制區；禁區；管制區」的用法，與本句語境不同。",
-        "zone-mcq-06": "「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」是「geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶」的用法，與本句語境不同。",
-        "zone-mcq-10": "「表示範圍；區間；例句：「把心率維持在目標區間內。」」是「zone — a range within which something operates or exists = a band or range of values, conditions, or performance 範圍；區間」的用法，與本句語境不同。",
-        "zone-mcq-05": "「表示時區；例句：「西雅圖和東京位於不同的時區。」」是「time zone = one of the world’s regions that shares the same standard time 時區」的用法，與本句語境不同。"
+        "zone-mcq-08": "本句的「safe zone」指「表示安全區；安全地帶；例句：「居民被轉移到安全區。」」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-08"
     },
@@ -1081,11 +1021,9 @@ export default {
       "masked": "Wait inside the marked ____.",
       "options": [
         "zone-mcq-08",
-        "zone-mcq-07",
-        "zone-mcq-09",
-        "zone-mcq-06",
-        "zone-mcq-10",
-        "zone-mcq-05"
+        "zone-mcq-12",
+        "zone-mcq-15",
+        "zone-mcq-22"
       ],
       "explanation": "本句的「safety zone」指「表示安全區；安全地帶；例句：「居民被轉移到安全區。」」。",
       "sentenceIndex": 15,
@@ -1094,12 +1032,10 @@ export default {
         "safety zone"
       ],
       "optionReasons": {
-        "zone-mcq-08": "本句指「表示安全區；安全地帶；例句：「居民被轉移到安全區。」」。",
-        "zone-mcq-07": "「表示危險區；危險地帶；例句：「人們被要求離開危險區域。」」是「danger zone = an area or situation involving significant danger 危險區；危險地帶」的用法，與本句語境不同。",
-        "zone-mcq-09": "「表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」」是「restricted zone = an area where access is limited or prohibited 限制區；禁區；管制區」的用法，與本句語境不同。",
-        "zone-mcq-06": "「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」是「geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶」的用法，與本句語境不同。",
-        "zone-mcq-10": "「表示範圍；區間；例句：「把心率維持在目標區間內。」」是「zone — a range within which something operates or exists = a band or range of values, conditions, or performance 範圍；區間」的用法，與本句語境不同。",
-        "zone-mcq-05": "「表示時區；例句：「西雅圖和東京位於不同的時區。」」是「time zone = one of the world’s regions that shares the same standard time 時區」的用法，與本句語境不同。"
+        "zone-mcq-08": "本句的「safety zone」指「表示安全區；安全地帶；例句：「居民被轉移到安全區。」」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-08"
     },
@@ -1111,11 +1047,9 @@ export default {
       "masked": "Visitors are not allowed inside the ____.",
       "options": [
         "zone-mcq-09",
-        "zone-mcq-08",
-        "zone-mcq-10",
-        "zone-mcq-07",
-        "zone-mcq-11",
-        "zone-mcq-06"
+        "zone-mcq-15",
+        "zone-mcq-14",
+        "zone-mcq-13"
       ],
       "explanation": "本句的「restricted zone」指「表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」」。",
       "sentenceIndex": 16,
@@ -1124,12 +1058,10 @@ export default {
         "restricted zone"
       ],
       "optionReasons": {
-        "zone-mcq-09": "本句指「表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」」。",
-        "zone-mcq-08": "「表示安全區；安全地帶；例句：「居民被轉移到安全區。」」是「safety zone / safe zone = an area intended to protect people from danger 安全區；安全地帶」的用法，與本句語境不同。",
-        "zone-mcq-10": "「表示範圍；區間；例句：「把心率維持在目標區間內。」」是「zone — a range within which something operates or exists = a band or range of values, conditions, or performance 範圍；區間」的用法，與本句語境不同。",
-        "zone-mcq-07": "「表示危險區；危險地帶；例句：「人們被要求離開危險區域。」」是「danger zone = an area or situation involving significant danger 危險區；危險地帶」的用法，與本句語境不同。",
-        "zone-mcq-11": "「表示目標區間；例句：「你的心率應保持在目標區間內。」」是「target zone = desired range of values or performance 目標區間」的用法，與本句語境不同。",
-        "zone-mcq-06": "「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」是「geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶」的用法，與本句語境不同。"
+        "zone-mcq-09": "本句的「restricted zone」指「表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」」。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-09"
     },
@@ -1141,11 +1073,9 @@ export default {
       "masked": "The building contains several ____.",
       "options": [
         "zone-mcq-09",
-        "zone-mcq-08",
-        "zone-mcq-10",
-        "zone-mcq-07",
-        "zone-mcq-11",
-        "zone-mcq-06"
+        "zone-mcq-14",
+        "zone-mcq-13",
+        "zone-mcq-15"
       ],
       "explanation": "本句的「restricted zones」指「表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」」。",
       "sentenceIndex": 17,
@@ -1154,12 +1084,10 @@ export default {
         "restricted zones"
       ],
       "optionReasons": {
-        "zone-mcq-09": "本句指「表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」」。",
-        "zone-mcq-08": "「表示安全區；安全地帶；例句：「居民被轉移到安全區。」」是「safety zone / safe zone = an area intended to protect people from danger 安全區；安全地帶」的用法，與本句語境不同。",
-        "zone-mcq-10": "「表示範圍；區間；例句：「把心率維持在目標區間內。」」是「zone — a range within which something operates or exists = a band or range of values, conditions, or performance 範圍；區間」的用法，與本句語境不同。",
-        "zone-mcq-07": "「表示危險區；危險地帶；例句：「人們被要求離開危險區域。」」是「danger zone = an area or situation involving significant danger 危險區；危險地帶」的用法，與本句語境不同。",
-        "zone-mcq-11": "「表示目標區間；例句：「你的心率應保持在目標區間內。」」是「target zone = desired range of values or performance 目標區間」的用法，與本句語境不同。",
-        "zone-mcq-06": "「表示地理區；生態區帶；例句：「這座山包含數個生態區帶。」」是「geographical / ecological zone = an area characterized by particular physical or ecological conditions 地理區；生態區帶」的用法，與本句語境不同。"
+        "zone-mcq-09": "本句的「restricted zones」指「表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」」。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-09"
     },
@@ -1171,11 +1099,9 @@ export default {
       "masked": "Keep your heart rate within the target ____.",
       "options": [
         "zone-mcq-10",
-        "zone-mcq-09",
-        "zone-mcq-11",
-        "zone-mcq-08",
-        "zone-mcq-12",
-        "zone-mcq-07"
+        "zone-mcq-14",
+        "zone-mcq-15",
+        "zone-mcq-12"
       ],
       "explanation": "本句的「zone」指「表示範圍；區間；例句：「把心率維持在目標區間內。」」。",
       "sentenceIndex": 18,
@@ -1184,12 +1110,10 @@ export default {
         "zone"
       ],
       "optionReasons": {
-        "zone-mcq-10": "本句指「表示範圍；區間；例句：「把心率維持在目標區間內。」」。",
-        "zone-mcq-09": "「表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」」是「restricted zone = an area where access is limited or prohibited 限制區；禁區；管制區」的用法，與本句語境不同。",
-        "zone-mcq-11": "「表示目標區間；例句：「你的心率應保持在目標區間內。」」是「target zone = desired range of values or performance 目標區間」的用法，與本句語境不同。",
-        "zone-mcq-08": "「表示安全區；安全地帶；例句：「居民被轉移到安全區。」」是「safety zone / safe zone = an area intended to protect people from danger 安全區；安全地帶」的用法，與本句語境不同。",
-        "zone-mcq-12": "「表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」」是「comfort zone = a situation or psychological range in which someone feels familiar, safe, and confident 舒適圈 This is the exact passage use.」的用法，與本句語境不同。",
-        "zone-mcq-07": "「表示危險區；危險地帶；例句：「人們被要求離開危險區域。」」是「danger zone = an area or situation involving significant danger 危險區；危險地帶」的用法，與本句語境不同。"
+        "zone-mcq-10": "本句的「zone」指「表示範圍；區間；例句：「把心率維持在目標區間內。」」。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-10"
     },
@@ -1201,11 +1125,9 @@ export default {
       "masked": "The temperature is now in the optimal ____.",
       "options": [
         "zone-mcq-10",
-        "zone-mcq-09",
-        "zone-mcq-11",
-        "zone-mcq-08",
         "zone-mcq-12",
-        "zone-mcq-07"
+        "zone-mcq-15",
+        "zone-mcq-14"
       ],
       "explanation": "本句的「zone」指「表示範圍；區間；例句：「把心率維持在目標區間內。」」。",
       "sentenceIndex": 19,
@@ -1214,12 +1136,10 @@ export default {
         "zone"
       ],
       "optionReasons": {
-        "zone-mcq-10": "本句指「表示範圍；區間；例句：「把心率維持在目標區間內。」」。",
-        "zone-mcq-09": "「表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」」是「restricted zone = an area where access is limited or prohibited 限制區；禁區；管制區」的用法，與本句語境不同。",
-        "zone-mcq-11": "「表示目標區間；例句：「你的心率應保持在目標區間內。」」是「target zone = desired range of values or performance 目標區間」的用法，與本句語境不同。",
-        "zone-mcq-08": "「表示安全區；安全地帶；例句：「居民被轉移到安全區。」」是「safety zone / safe zone = an area intended to protect people from danger 安全區；安全地帶」的用法，與本句語境不同。",
-        "zone-mcq-12": "「表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」」是「comfort zone = a situation or psychological range in which someone feels familiar, safe, and confident 舒適圈 This is the exact passage use.」的用法，與本句語境不同。",
-        "zone-mcq-07": "「表示危險區；危險地帶；例句：「人們被要求離開危險區域。」」是「danger zone = an area or situation involving significant danger 危險區；危險地帶」的用法，與本句語境不同。"
+        "zone-mcq-10": "本句的「zone」指「表示範圍；區間；例句：「把心率維持在目標區間內。」」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-10"
     },
@@ -1231,11 +1151,9 @@ export default {
       "masked": "Your heart rate should remain in the target ____.",
       "options": [
         "zone-mcq-11",
-        "zone-mcq-10",
-        "zone-mcq-12",
-        "zone-mcq-09",
         "zone-mcq-13",
-        "zone-mcq-08"
+        "zone-mcq-15",
+        "zone-mcq-14"
       ],
       "explanation": "本句的「zone」指「表示目標區間；例句：「你的心率應保持在目標區間內。」」。",
       "sentenceIndex": 20,
@@ -1244,12 +1162,10 @@ export default {
         "zone"
       ],
       "optionReasons": {
-        "zone-mcq-11": "本句指「表示目標區間；例句：「你的心率應保持在目標區間內。」」。",
-        "zone-mcq-10": "「表示範圍；區間；例句：「把心率維持在目標區間內。」」是「zone — a range within which something operates or exists = a band or range of values, conditions, or performance 範圍；區間」的用法，與本句語境不同。",
-        "zone-mcq-12": "「表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」」是「comfort zone = a situation or psychological range in which someone feels familiar, safe, and confident 舒適圈 This is the exact passage use.」的用法，與本句語境不同。",
-        "zone-mcq-09": "「表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」」是「restricted zone = an area where access is limited or prohibited 限制區；禁區；管制區」的用法，與本句語境不同。",
-        "zone-mcq-13": "「表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」」是「outside your comfort zone = beyond what feels familiar or easy 超出舒適圈；超出熟悉範圍」的用法，與本句語境不同。",
-        "zone-mcq-08": "「表示安全區；安全地帶；例句：「居民被轉移到安全區。」」是「safety zone / safe zone = an area intended to protect people from danger 安全區；安全地帶」的用法，與本句語境不同。"
+        "zone-mcq-11": "本句的「zone」指「表示目標區間；例句：「你的心率應保持在目標區間內。」」。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-11"
     },
@@ -1261,11 +1177,9 @@ export default {
       "masked": "The system is operating within its target ____.",
       "options": [
         "zone-mcq-11",
-        "zone-mcq-10",
-        "zone-mcq-12",
-        "zone-mcq-09",
-        "zone-mcq-13",
-        "zone-mcq-08"
+        "zone-mcq-15",
+        "zone-mcq-14",
+        "zone-mcq-13"
       ],
       "explanation": "本句的「zone」指「表示目標區間；例句：「你的心率應保持在目標區間內。」」。",
       "sentenceIndex": 21,
@@ -1274,12 +1188,10 @@ export default {
         "zone"
       ],
       "optionReasons": {
-        "zone-mcq-11": "本句指「表示目標區間；例句：「你的心率應保持在目標區間內。」」。",
-        "zone-mcq-10": "「表示範圍；區間；例句：「把心率維持在目標區間內。」」是「zone — a range within which something operates or exists = a band or range of values, conditions, or performance 範圍；區間」的用法，與本句語境不同。",
-        "zone-mcq-12": "「表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」」是「comfort zone = a situation or psychological range in which someone feels familiar, safe, and confident 舒適圈 This is the exact passage use.」的用法，與本句語境不同。",
-        "zone-mcq-09": "「表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」」是「restricted zone = an area where access is limited or prohibited 限制區；禁區；管制區」的用法，與本句語境不同。",
-        "zone-mcq-13": "「表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」」是「outside your comfort zone = beyond what feels familiar or easy 超出舒適圈；超出熟悉範圍」的用法，與本句語境不同。",
-        "zone-mcq-08": "「表示安全區；安全地帶；例句：「居民被轉移到安全區。」」是「safety zone / safe zone = an area intended to protect people from danger 安全區；安全地帶」的用法，與本句語境不同。"
+        "zone-mcq-11": "本句的「zone」指「表示目標區間；例句：「你的心率應保持在目標區間內。」」。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-11"
     },
@@ -1291,11 +1203,9 @@ export default {
       "masked": "Public speaking was far outside my ____.",
       "options": [
         "zone-mcq-12",
-        "zone-mcq-11",
-        "zone-mcq-13",
-        "zone-mcq-10",
-        "zone-mcq-14",
-        "zone-mcq-09"
+        "zone-mcq-04",
+        "zone-mcq-09",
+        "zone-mcq-15"
       ],
       "explanation": "本句的「comfort zone」指「表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」」。",
       "sentenceIndex": 22,
@@ -1304,12 +1214,10 @@ export default {
         "comfort zone"
       ],
       "optionReasons": {
-        "zone-mcq-12": "本句指「表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」」。",
-        "zone-mcq-11": "「表示目標區間；例句：「你的心率應保持在目標區間內。」」是「target zone = desired range of values or performance 目標區間」的用法，與本句語境不同。",
-        "zone-mcq-13": "「表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」」是「outside your comfort zone = beyond what feels familiar or easy 超出舒適圈；超出熟悉範圍」的用法，與本句語境不同。",
-        "zone-mcq-10": "「表示範圍；區間；例句：「把心率維持在目標區間內。」」是「zone — a range within which something operates or exists = a band or range of values, conditions, or performance 範圍；區間」的用法，與本句語境不同。",
-        "zone-mcq-14": "「表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」」是「in the zone = in a state of intense concentration and highly effective performance 進入最佳狀態；完全投入」的用法，與本句語境不同。",
-        "zone-mcq-09": "「表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」」是「restricted zone = an area where access is limited or prohibited 限制區；禁區；管制區」的用法，與本句語境不同。"
+        "zone-mcq-12": "本句的「comfort zone」指「表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」」。",
+        "zone-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-12"
     },
@@ -1321,11 +1229,9 @@ export default {
       "masked": "Trying something new can push you beyond your ____.",
       "options": [
         "zone-mcq-12",
-        "zone-mcq-11",
-        "zone-mcq-13",
-        "zone-mcq-10",
-        "zone-mcq-14",
-        "zone-mcq-09"
+        "zone-mcq-03",
+        "zone-mcq-20",
+        "zone-mcq-26"
       ],
       "explanation": "本句的「comfort zone」指「表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」」。",
       "sentenceIndex": 23,
@@ -1334,12 +1240,10 @@ export default {
         "comfort zone"
       ],
       "optionReasons": {
-        "zone-mcq-12": "本句指「表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」」。",
-        "zone-mcq-11": "「表示目標區間；例句：「你的心率應保持在目標區間內。」」是「target zone = desired range of values or performance 目標區間」的用法，與本句語境不同。",
-        "zone-mcq-13": "「表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」」是「outside your comfort zone = beyond what feels familiar or easy 超出舒適圈；超出熟悉範圍」的用法，與本句語境不同。",
-        "zone-mcq-10": "「表示範圍；區間；例句：「把心率維持在目標區間內。」」是「zone — a range within which something operates or exists = a band or range of values, conditions, or performance 範圍；區間」的用法，與本句語境不同。",
-        "zone-mcq-14": "「表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」」是「in the zone = in a state of intense concentration and highly effective performance 進入最佳狀態；完全投入」的用法，與本句語境不同。",
-        "zone-mcq-09": "「表示限制區；禁區；管制區；例句：「訪客不得進入管制區。」」是「restricted zone = an area where access is limited or prohibited 限制區；禁區；管制區」的用法，與本句語境不同。"
+        "zone-mcq-12": "本句的「comfort zone」指「表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」」。",
+        "zone-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-12"
     },
@@ -1351,11 +1255,9 @@ export default {
       "masked": "The new role took me outside my ____.",
       "options": [
         "zone-mcq-13",
-        "zone-mcq-12",
-        "zone-mcq-14",
-        "zone-mcq-11",
+        "zone-mcq-23",
         "zone-mcq-15",
-        "zone-mcq-10"
+        "zone-mcq-14"
       ],
       "explanation": "本句的「comfort zone」指「表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」」。",
       "sentenceIndex": 24,
@@ -1364,12 +1266,10 @@ export default {
         "comfort zone"
       ],
       "optionReasons": {
-        "zone-mcq-13": "本句指「表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」」。",
-        "zone-mcq-12": "「表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」」是「comfort zone = a situation or psychological range in which someone feels familiar, safe, and confident 舒適圈 This is the exact passage use.」的用法，與本句語境不同。",
-        "zone-mcq-14": "「表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」」是「in the zone = in a state of intense concentration and highly effective performance 進入最佳狀態；完全投入」的用法，與本句語境不同。",
-        "zone-mcq-11": "「表示目標區間；例句：「你的心率應保持在目標區間內。」」是「target zone = desired range of values or performance 目標區間」的用法，與本句語境不同。",
-        "zone-mcq-15": "「表示走神；發呆；放空；例句：「我上課上到一半就走神了。」」是「zone out = stop paying attention and become mentally disconnected from what is happening 走神；發呆；放空」的用法，與本句語境不同。",
-        "zone-mcq-10": "「表示範圍；區間；例句：「把心率維持在目標區間內。」」是「zone — a range within which something operates or exists = a band or range of values, conditions, or performance 範圍；區間」的用法，與本句語境不同。"
+        "zone-mcq-13": "本句的「comfort zone」指「表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」」。",
+        "zone-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-13"
     },
@@ -1381,11 +1281,9 @@ export default {
       "masked": "Learning to lead a team was initially outside her ____.",
       "options": [
         "zone-mcq-13",
-        "zone-mcq-12",
-        "zone-mcq-14",
-        "zone-mcq-11",
-        "zone-mcq-15",
-        "zone-mcq-10"
+        "zone-mcq-22",
+        "zone-mcq-18",
+        "zone-mcq-08"
       ],
       "explanation": "本句的「comfort zone」指「表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」」。",
       "sentenceIndex": 25,
@@ -1394,12 +1292,10 @@ export default {
         "comfort zone"
       ],
       "optionReasons": {
-        "zone-mcq-13": "本句指「表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」」。",
-        "zone-mcq-12": "「表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」」是「comfort zone = a situation or psychological range in which someone feels familiar, safe, and confident 舒適圈 This is the exact passage use.」的用法，與本句語境不同。",
-        "zone-mcq-14": "「表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」」是「in the zone = in a state of intense concentration and highly effective performance 進入最佳狀態；完全投入」的用法，與本句語境不同。",
-        "zone-mcq-11": "「表示目標區間；例句：「你的心率應保持在目標區間內。」」是「target zone = desired range of values or performance 目標區間」的用法，與本句語境不同。",
-        "zone-mcq-15": "「表示走神；發呆；放空；例句：「我上課上到一半就走神了。」」是「zone out = stop paying attention and become mentally disconnected from what is happening 走神；發呆；放空」的用法，與本句語境不同。",
-        "zone-mcq-10": "「表示範圍；區間；例句：「把心率維持在目標區間內。」」是「zone — a range within which something operates or exists = a band or range of values, conditions, or performance 範圍；區間」的用法，與本句語境不同。"
+        "zone-mcq-13": "本句的「comfort zone」指「表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」」。",
+        "zone-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-13"
     },
@@ -1411,11 +1307,9 @@ export default {
       "masked": "Once she starts writing, she gets ____.",
       "options": [
         "zone-mcq-14",
-        "zone-mcq-13",
-        "zone-mcq-15",
+        "zone-mcq-01",
         "zone-mcq-12",
-        "zone-mcq-16",
-        "zone-mcq-11"
+        "zone-mcq-21"
       ],
       "explanation": "本句的「in the zone」指「表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」」。",
       "sentenceIndex": 26,
@@ -1424,12 +1318,10 @@ export default {
         "in the zone"
       ],
       "optionReasons": {
-        "zone-mcq-14": "本句指「表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」」。",
-        "zone-mcq-13": "「表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」」是「outside your comfort zone = beyond what feels familiar or easy 超出舒適圈；超出熟悉範圍」的用法，與本句語境不同。",
-        "zone-mcq-15": "「表示走神；發呆；放空；例句：「我上課上到一半就走神了。」」是「zone out = stop paying attention and become mentally disconnected from what is happening 走神；發呆；放空」的用法，與本句語境不同。",
-        "zone-mcq-12": "「表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」」是「comfort zone = a situation or psychological range in which someone feels familiar, safe, and confident 舒適圈 This is the exact passage use.」的用法，與本句語境不同。",
-        "zone-mcq-16": "「表示區域；防守區；例句：「那名球員進入了得分區域。」」是「zone — designated area in a sport = a particular area of a playing field, court, or game space 區域；防守區」的用法，與本句語境不同。",
-        "zone-mcq-11": "「表示目標區間；例句：「你的心率應保持在目標區間內。」」是「target zone = desired range of values or performance 目標區間」的用法，與本句語境不同。"
+        "zone-mcq-14": "本句的「in the zone」指「表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」」。",
+        "zone-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-14"
     },
@@ -1441,11 +1333,9 @@ export default {
       "masked": "The athlete said he felt completely ____.",
       "options": [
         "zone-mcq-14",
-        "zone-mcq-13",
-        "zone-mcq-15",
+        "zone-mcq-25",
         "zone-mcq-12",
-        "zone-mcq-16",
-        "zone-mcq-11"
+        "zone-mcq-15"
       ],
       "explanation": "本句的「in the zone」指「表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」」。",
       "sentenceIndex": 27,
@@ -1454,12 +1344,10 @@ export default {
         "in the zone"
       ],
       "optionReasons": {
-        "zone-mcq-14": "本句指「表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」」。",
-        "zone-mcq-13": "「表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」」是「outside your comfort zone = beyond what feels familiar or easy 超出舒適圈；超出熟悉範圍」的用法，與本句語境不同。",
-        "zone-mcq-15": "「表示走神；發呆；放空；例句：「我上課上到一半就走神了。」」是「zone out = stop paying attention and become mentally disconnected from what is happening 走神；發呆；放空」的用法，與本句語境不同。",
-        "zone-mcq-12": "「表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」」是「comfort zone = a situation or psychological range in which someone feels familiar, safe, and confident 舒適圈 This is the exact passage use.」的用法，與本句語境不同。",
-        "zone-mcq-16": "「表示區域；防守區；例句：「那名球員進入了得分區域。」」是「zone — designated area in a sport = a particular area of a playing field, court, or game space 區域；防守區」的用法，與本句語境不同。",
-        "zone-mcq-11": "「表示目標區間；例句：「你的心率應保持在目標區間內。」」是「target zone = desired range of values or performance 目標區間」的用法，與本句語境不同。"
+        "zone-mcq-14": "本句的「in the zone」指「表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」」。",
+        "zone-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-14"
     },
@@ -1471,11 +1359,9 @@ export default {
       "masked": "I ____ halfway through the lecture.",
       "options": [
         "zone-mcq-15",
-        "zone-mcq-14",
         "zone-mcq-16",
-        "zone-mcq-13",
-        "zone-mcq-17",
-        "zone-mcq-12"
+        "zone-mcq-18",
+        "zone-mcq-04"
       ],
       "explanation": "本句的「zoned out」指「表示走神；發呆；放空；例句：「我上課上到一半就走神了。」」。",
       "sentenceIndex": 28,
@@ -1484,12 +1370,10 @@ export default {
         "zoned out"
       ],
       "optionReasons": {
-        "zone-mcq-15": "本句指「表示走神；發呆；放空；例句：「我上課上到一半就走神了。」」。",
-        "zone-mcq-14": "「表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」」是「in the zone = in a state of intense concentration and highly effective performance 進入最佳狀態；完全投入」的用法，與本句語境不同。",
-        "zone-mcq-16": "「表示區域；防守區；例句：「那名球員進入了得分區域。」」是「zone — designated area in a sport = a particular area of a playing field, court, or game space 區域；防守區」的用法，與本句語境不同。",
-        "zone-mcq-13": "「表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」」是「outside your comfort zone = beyond what feels familiar or easy 超出舒適圈；超出熟悉範圍」的用法，與本句語境不同。",
-        "zone-mcq-17": "「表示區域防守；例句：「球隊改採區域防守。」」是「zone defense = a defensive strategy in which players guard areas rather than specific opponents 區域防守」的用法，與本句語境不同。",
-        "zone-mcq-12": "「表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」」是「comfort zone = a situation or psychological range in which someone feels familiar, safe, and confident 舒適圈 This is the exact passage use.」的用法，與本句語境不同。"
+        "zone-mcq-15": "本句的「zoned out」指「表示走神；發呆；放空；例句：「我上課上到一半就走神了。」」。",
+        "zone-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-15"
     },
@@ -1501,11 +1385,9 @@ export default {
       "masked": "She tends to ____ when she is tired.",
       "options": [
         "zone-mcq-15",
-        "zone-mcq-14",
-        "zone-mcq-16",
         "zone-mcq-13",
-        "zone-mcq-17",
-        "zone-mcq-12"
+        "zone-mcq-25",
+        "zone-mcq-14"
       ],
       "explanation": "本句的「zone out」指「表示走神；發呆；放空；例句：「我上課上到一半就走神了。」」。",
       "sentenceIndex": 29,
@@ -1514,12 +1396,10 @@ export default {
         "zone out"
       ],
       "optionReasons": {
-        "zone-mcq-15": "本句指「表示走神；發呆；放空；例句：「我上課上到一半就走神了。」」。",
-        "zone-mcq-14": "「表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」」是「in the zone = in a state of intense concentration and highly effective performance 進入最佳狀態；完全投入」的用法，與本句語境不同。",
-        "zone-mcq-16": "「表示區域；防守區；例句：「那名球員進入了得分區域。」」是「zone — designated area in a sport = a particular area of a playing field, court, or game space 區域；防守區」的用法，與本句語境不同。",
-        "zone-mcq-13": "「表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」」是「outside your comfort zone = beyond what feels familiar or easy 超出舒適圈；超出熟悉範圍」的用法，與本句語境不同。",
-        "zone-mcq-17": "「表示區域防守；例句：「球隊改採區域防守。」」是「zone defense = a defensive strategy in which players guard areas rather than specific opponents 區域防守」的用法，與本句語境不同。",
-        "zone-mcq-12": "「表示舒適圈；例句：「公開演講遠遠超出了我的舒適圈。」」是「comfort zone = a situation or psychological range in which someone feels familiar, safe, and confident 舒適圈 This is the exact passage use.」的用法，與本句語境不同。"
+        "zone-mcq-15": "本句的「zone out」指「表示走神；發呆；放空；例句：「我上課上到一半就走神了。」」。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-15"
     },
@@ -1531,11 +1411,9 @@ export default {
       "masked": "The player moved into the scoring ____.",
       "options": [
         "zone-mcq-16",
-        "zone-mcq-15",
-        "zone-mcq-17",
         "zone-mcq-14",
-        "zone-mcq-18",
-        "zone-mcq-13"
+        "zone-mcq-13",
+        "zone-mcq-15"
       ],
       "explanation": "本句的「zone」指「表示區域；防守區；例句：「那名球員進入了得分區域。」」。",
       "sentenceIndex": 30,
@@ -1544,12 +1422,10 @@ export default {
         "zone"
       ],
       "optionReasons": {
-        "zone-mcq-16": "本句指「表示區域；防守區；例句：「那名球員進入了得分區域。」」。",
-        "zone-mcq-15": "「表示走神；發呆；放空；例句：「我上課上到一半就走神了。」」是「zone out = stop paying attention and become mentally disconnected from what is happening 走神；發呆；放空」的用法，與本句語境不同。",
-        "zone-mcq-17": "「表示區域防守；例句：「球隊改採區域防守。」」是「zone defense = a defensive strategy in which players guard areas rather than specific opponents 區域防守」的用法，與本句語境不同。",
-        "zone-mcq-14": "「表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」」是「in the zone = in a state of intense concentration and highly effective performance 進入最佳狀態；完全投入」的用法，與本句語境不同。",
-        "zone-mcq-18": "「土地使用分區；都市分區管制」是「zoning = regulation of how land may be used in different areas 土地使用分區；都市分區管制」的用法，與本句語境不同。",
-        "zone-mcq-13": "「表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」」是「outside your comfort zone = beyond what feels familiar or easy 超出舒適圈；超出熟悉範圍」的用法，與本句語境不同。"
+        "zone-mcq-16": "本句的「zone」指「表示區域；防守區；例句：「那名球員進入了得分區域。」」。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-16"
     },
@@ -1561,11 +1437,9 @@ export default {
       "masked": "Defenders were assigned different ____.",
       "options": [
         "zone-mcq-16",
+        "zone-mcq-12",
         "zone-mcq-15",
-        "zone-mcq-17",
-        "zone-mcq-14",
-        "zone-mcq-18",
-        "zone-mcq-13"
+        "zone-mcq-14"
       ],
       "explanation": "本句的「zones」指「表示區域；防守區；例句：「那名球員進入了得分區域。」」。",
       "sentenceIndex": 31,
@@ -1574,12 +1448,10 @@ export default {
         "zones"
       ],
       "optionReasons": {
-        "zone-mcq-16": "本句指「表示區域；防守區；例句：「那名球員進入了得分區域。」」。",
-        "zone-mcq-15": "「表示走神；發呆；放空；例句：「我上課上到一半就走神了。」」是「zone out = stop paying attention and become mentally disconnected from what is happening 走神；發呆；放空」的用法，與本句語境不同。",
-        "zone-mcq-17": "「表示區域防守；例句：「球隊改採區域防守。」」是「zone defense = a defensive strategy in which players guard areas rather than specific opponents 區域防守」的用法，與本句語境不同。",
-        "zone-mcq-14": "「表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」」是「in the zone = in a state of intense concentration and highly effective performance 進入最佳狀態；完全投入」的用法，與本句語境不同。",
-        "zone-mcq-18": "「土地使用分區；都市分區管制」是「zoning = regulation of how land may be used in different areas 土地使用分區；都市分區管制」的用法，與本句語境不同。",
-        "zone-mcq-13": "「表示超出舒適圈；超出熟悉範圍；例句：「這個新職位讓我走出了自己的舒適圈。」」是「outside your comfort zone = beyond what feels familiar or easy 超出舒適圈；超出熟悉範圍」的用法，與本句語境不同。"
+        "zone-mcq-16": "本句的「zones」指「表示區域；防守區；例句：「那名球員進入了得分區域。」」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-16"
     },
@@ -1591,10 +1463,8 @@ export default {
       "masked": "The team switched to a ____.",
       "options": [
         "zone-mcq-17",
-        "zone-mcq-16",
-        "zone-mcq-18",
+        "zone-mcq-12",
         "zone-mcq-15",
-        "zone-mcq-19",
         "zone-mcq-14"
       ],
       "explanation": "本句的「zone defense」指「表示區域防守；例句：「球隊改採區域防守。」」。",
@@ -1604,12 +1474,10 @@ export default {
         "zone defense"
       ],
       "optionReasons": {
-        "zone-mcq-17": "本句指「表示區域防守；例句：「球隊改採區域防守。」」。",
-        "zone-mcq-16": "「表示區域；防守區；例句：「那名球員進入了得分區域。」」是「zone — designated area in a sport = a particular area of a playing field, court, or game space 區域；防守區」的用法，與本句語境不同。",
-        "zone-mcq-18": "「土地使用分區；都市分區管制」是「zoning = regulation of how land may be used in different areas 土地使用分區；都市分區管制」的用法，與本句語境不同。",
-        "zone-mcq-15": "「表示走神；發呆；放空；例句：「我上課上到一半就走神了。」」是「zone out = stop paying attention and become mentally disconnected from what is happening 走神；發呆；放空」的用法，與本句語境不同。",
-        "zone-mcq-19": "「表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」」是「zone — verb: designate an area for a particular use = officially assign land to a category of use 劃分為……區；劃定用途」的用法，與本句語境不同。",
-        "zone-mcq-14": "「表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」」是「in the zone = in a state of intense concentration and highly effective performance 進入最佳狀態；完全投入」的用法，與本句語境不同。"
+        "zone-mcq-17": "本句的「zone defense」指「表示區域防守；例句：「球隊改採區域防守。」」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-17"
     },
@@ -1621,11 +1489,9 @@ export default {
       "masked": "They struggled against the opponent’s ____.",
       "options": [
         "zone-mcq-17",
-        "zone-mcq-16",
-        "zone-mcq-18",
         "zone-mcq-15",
-        "zone-mcq-19",
-        "zone-mcq-14"
+        "zone-mcq-14",
+        "zone-mcq-12"
       ],
       "explanation": "本句的「zone defense」指「表示區域防守；例句：「球隊改採區域防守。」」。",
       "sentenceIndex": 33,
@@ -1634,12 +1500,10 @@ export default {
         "zone defense"
       ],
       "optionReasons": {
-        "zone-mcq-17": "本句指「表示區域防守；例句：「球隊改採區域防守。」」。",
-        "zone-mcq-16": "「表示區域；防守區；例句：「那名球員進入了得分區域。」」是「zone — designated area in a sport = a particular area of a playing field, court, or game space 區域；防守區」的用法，與本句語境不同。",
-        "zone-mcq-18": "「土地使用分區；都市分區管制」是「zoning = regulation of how land may be used in different areas 土地使用分區；都市分區管制」的用法，與本句語境不同。",
-        "zone-mcq-15": "「表示走神；發呆；放空；例句：「我上課上到一半就走神了。」」是「zone out = stop paying attention and become mentally disconnected from what is happening 走神；發呆；放空」的用法，與本句語境不同。",
-        "zone-mcq-19": "「表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」」是「zone — verb: designate an area for a particular use = officially assign land to a category of use 劃分為……區；劃定用途」的用法，與本句語境不同。",
-        "zone-mcq-14": "「表示進入最佳狀態；完全投入；例句：「她一開始寫作，就會進入高度專注的狀態。」」是「in the zone = in a state of intense concentration and highly effective performance 進入最佳狀態；完全投入」的用法，與本句語境不同。"
+        "zone-mcq-17": "本句的「zone defense」指「表示區域防守；例句：「球隊改採區域防守。」」。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-17"
     },
@@ -1651,11 +1515,9 @@ export default {
       "masked": "Local ____ rules limit building height.",
       "options": [
         "zone-mcq-18",
-        "zone-mcq-17",
-        "zone-mcq-19",
-        "zone-mcq-16",
-        "zone-mcq-20",
-        "zone-mcq-15"
+        "zone-mcq-12",
+        "zone-mcq-15",
+        "zone-mcq-14"
       ],
       "explanation": "本句的「zoning」指「土地使用分區；都市分區管制」。",
       "sentenceIndex": 34,
@@ -1664,12 +1526,10 @@ export default {
         "zoning"
       ],
       "optionReasons": {
-        "zone-mcq-18": "本句指「土地使用分區；都市分區管制」。",
-        "zone-mcq-17": "「表示區域防守；例句：「球隊改採區域防守。」」是「zone defense = a defensive strategy in which players guard areas rather than specific opponents 區域防守」的用法，與本句語境不同。",
-        "zone-mcq-19": "「表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」」是「zone — verb: designate an area for a particular use = officially assign land to a category of use 劃分為……區；劃定用途」的用法，與本句語境不同。",
-        "zone-mcq-16": "「表示區域；防守區；例句：「那名球員進入了得分區域。」」是「zone — designated area in a sport = a particular area of a playing field, court, or game space 區域；防守區」的用法，與本句語境不同。",
-        "zone-mcq-20": "「表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」」是「zoned = officially designated for a particular use 劃定用途的；分區的」的用法，與本句語境不同。",
-        "zone-mcq-15": "「表示走神；發呆；放空；例句：「我上課上到一半就走神了。」」是「zone out = stop paying attention and become mentally disconnected from what is happening 走神；發呆；放空」的用法，與本句語境不同。"
+        "zone-mcq-18": "本句的「zoning」指「土地使用分區；都市分區管制」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-18"
     },
@@ -1681,10 +1541,8 @@ export default {
       "masked": "The project requires a change in ____.",
       "options": [
         "zone-mcq-18",
-        "zone-mcq-17",
-        "zone-mcq-19",
-        "zone-mcq-16",
-        "zone-mcq-20",
+        "zone-mcq-14",
+        "zone-mcq-12",
         "zone-mcq-15"
       ],
       "explanation": "本句的「zoning」指「土地使用分區；都市分區管制」。",
@@ -1694,12 +1552,10 @@ export default {
         "zoning"
       ],
       "optionReasons": {
-        "zone-mcq-18": "本句指「土地使用分區；都市分區管制」。",
-        "zone-mcq-17": "「表示區域防守；例句：「球隊改採區域防守。」」是「zone defense = a defensive strategy in which players guard areas rather than specific opponents 區域防守」的用法，與本句語境不同。",
-        "zone-mcq-19": "「表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」」是「zone — verb: designate an area for a particular use = officially assign land to a category of use 劃分為……區；劃定用途」的用法，與本句語境不同。",
-        "zone-mcq-16": "「表示區域；防守區；例句：「那名球員進入了得分區域。」」是「zone — designated area in a sport = a particular area of a playing field, court, or game space 區域；防守區」的用法，與本句語境不同。",
-        "zone-mcq-20": "「表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」」是「zoned = officially designated for a particular use 劃定用途的；分區的」的用法，與本句語境不同。",
-        "zone-mcq-15": "「表示走神；發呆；放空；例句：「我上課上到一半就走神了。」」是「zone out = stop paying attention and become mentally disconnected from what is happening 走神；發呆；放空」的用法，與本句語境不同。"
+        "zone-mcq-18": "本句的「zoning」指「土地使用分區；都市分區管制」。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-18"
     },
@@ -1711,11 +1567,9 @@ export default {
       "masked": "The land is ____.",
       "options": [
         "zone-mcq-19",
-        "zone-mcq-18",
-        "zone-mcq-20",
-        "zone-mcq-17",
-        "zone-mcq-21",
-        "zone-mcq-16"
+        "zone-mcq-12",
+        "zone-mcq-15",
+        "zone-mcq-14"
       ],
       "explanation": "本句的「zoned for residential use」指「表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」」。",
       "sentenceIndex": 36,
@@ -1724,12 +1578,10 @@ export default {
         "zoned for residential use"
       ],
       "optionReasons": {
-        "zone-mcq-19": "本句指「表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」」。",
-        "zone-mcq-18": "「土地使用分區；都市分區管制」是「zoning = regulation of how land may be used in different areas 土地使用分區；都市分區管制」的用法，與本句語境不同。",
-        "zone-mcq-20": "「表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」」是「zoned = officially designated for a particular use 劃定用途的；分區的」的用法，與本句語境不同。",
-        "zone-mcq-17": "「表示區域防守；例句：「球隊改採區域防守。」」是「zone defense = a defensive strategy in which players guard areas rather than specific opponents 區域防守」的用法，與本句語境不同。",
-        "zone-mcq-21": "「表示票價區；交通分區；例句：「機場位於另一個票價區。」」是「fare zone / travel zone = an area used to determine transport fares or travel rules 票價區；交通分區」的用法，與本句語境不同。",
-        "zone-mcq-16": "「表示區域；防守區；例句：「那名球員進入了得分區域。」」是「zone — designated area in a sport = a particular area of a playing field, court, or game space 區域；防守區」的用法，與本句語境不同。"
+        "zone-mcq-19": "本句的「zoned for residential use」指「表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-19"
     },
@@ -1741,11 +1593,9 @@ export default {
       "masked": "The area was ____.",
       "options": [
         "zone-mcq-19",
-        "zone-mcq-18",
-        "zone-mcq-20",
-        "zone-mcq-17",
-        "zone-mcq-21",
-        "zone-mcq-16"
+        "zone-mcq-14",
+        "zone-mcq-12",
+        "zone-mcq-15"
       ],
       "explanation": "本句的「zoned as commercial property」指「表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」」。",
       "sentenceIndex": 37,
@@ -1754,12 +1604,10 @@ export default {
         "zoned as commercial property"
       ],
       "optionReasons": {
-        "zone-mcq-19": "本句指「表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」」。",
-        "zone-mcq-18": "「土地使用分區；都市分區管制」是「zoning = regulation of how land may be used in different areas 土地使用分區；都市分區管制」的用法，與本句語境不同。",
-        "zone-mcq-20": "「表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」」是「zoned = officially designated for a particular use 劃定用途的；分區的」的用法，與本句語境不同。",
-        "zone-mcq-17": "「表示區域防守；例句：「球隊改採區域防守。」」是「zone defense = a defensive strategy in which players guard areas rather than specific opponents 區域防守」的用法，與本句語境不同。",
-        "zone-mcq-21": "「表示票價區；交通分區；例句：「機場位於另一個票價區。」」是「fare zone / travel zone = an area used to determine transport fares or travel rules 票價區；交通分區」的用法，與本句語境不同。",
-        "zone-mcq-16": "「表示區域；防守區；例句：「那名球員進入了得分區域。」」是「zone — designated area in a sport = a particular area of a playing field, court, or game space 區域；防守區」的用法，與本句語境不同。"
+        "zone-mcq-19": "本句的「zoned as commercial property」指「表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」」。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-19"
     },
@@ -1771,11 +1619,9 @@ export default {
       "masked": "The property is ____.",
       "options": [
         "zone-mcq-20",
-        "zone-mcq-19",
-        "zone-mcq-21",
-        "zone-mcq-18",
-        "zone-mcq-22",
-        "zone-mcq-17"
+        "zone-mcq-12",
+        "zone-mcq-15",
+        "zone-mcq-14"
       ],
       "explanation": "本句的「zoned residential」指「表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」」。",
       "sentenceIndex": 38,
@@ -1784,12 +1630,10 @@ export default {
         "zoned residential"
       ],
       "optionReasons": {
-        "zone-mcq-20": "本句指「表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」」。",
-        "zone-mcq-19": "「表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」」是「zone — verb: designate an area for a particular use = officially assign land to a category of use 劃分為……區；劃定用途」的用法，與本句語境不同。",
-        "zone-mcq-21": "「表示票價區；交通分區；例句：「機場位於另一個票價區。」」是「fare zone / travel zone = an area used to determine transport fares or travel rules 票價區；交通分區」的用法，與本句語境不同。",
-        "zone-mcq-18": "「土地使用分區；都市分區管制」是「zoning = regulation of how land may be used in different areas 土地使用分區；都市分區管制」的用法，與本句語境不同。",
-        "zone-mcq-22": "「表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」」是「zone — defined logical or administrative area In technical contexts, zone can mean a defined part of a system or network. 區域；區段；邏輯區」的用法，與本句語境不同。",
-        "zone-mcq-17": "「表示區域防守；例句：「球隊改採區域防守。」」是「zone defense = a defensive strategy in which players guard areas rather than specific opponents 區域防守」的用法，與本句語境不同。"
+        "zone-mcq-20": "本句的「zoned residential」指「表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-20"
     },
@@ -1801,11 +1645,9 @@ export default {
       "masked": "This district is ____.",
       "options": [
         "zone-mcq-20",
-        "zone-mcq-19",
-        "zone-mcq-21",
-        "zone-mcq-18",
-        "zone-mcq-22",
-        "zone-mcq-17"
+        "zone-mcq-15",
+        "zone-mcq-12",
+        "zone-mcq-14"
       ],
       "explanation": "本句的「zoned for mixed use」指「表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」」。",
       "sentenceIndex": 39,
@@ -1814,12 +1656,10 @@ export default {
         "zoned for mixed use"
       ],
       "optionReasons": {
-        "zone-mcq-20": "本句指「表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」」。",
-        "zone-mcq-19": "「表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」」是「zone — verb: designate an area for a particular use = officially assign land to a category of use 劃分為……區；劃定用途」的用法，與本句語境不同。",
-        "zone-mcq-21": "「表示票價區；交通分區；例句：「機場位於另一個票價區。」」是「fare zone / travel zone = an area used to determine transport fares or travel rules 票價區；交通分區」的用法，與本句語境不同。",
-        "zone-mcq-18": "「土地使用分區；都市分區管制」是「zoning = regulation of how land may be used in different areas 土地使用分區；都市分區管制」的用法，與本句語境不同。",
-        "zone-mcq-22": "「表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」」是「zone — defined logical or administrative area In technical contexts, zone can mean a defined part of a system or network. 區域；區段；邏輯區」的用法，與本句語境不同。",
-        "zone-mcq-17": "「表示區域防守；例句：「球隊改採區域防守。」」是「zone defense = a defensive strategy in which players guard areas rather than specific opponents 區域防守」的用法，與本句語境不同。"
+        "zone-mcq-20": "本句的「zoned for mixed use」指「表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」」。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-20"
     },
@@ -1831,11 +1671,9 @@ export default {
       "masked": "The airport is in a different fare ____.",
       "options": [
         "zone-mcq-21",
-        "zone-mcq-20",
-        "zone-mcq-22",
-        "zone-mcq-19",
-        "zone-mcq-23",
-        "zone-mcq-18"
+        "zone-mcq-14",
+        "zone-mcq-12",
+        "zone-mcq-15"
       ],
       "explanation": "本句的「zone」指「表示票價區；交通分區；例句：「機場位於另一個票價區。」」。",
       "sentenceIndex": 40,
@@ -1844,12 +1682,10 @@ export default {
         "zone"
       ],
       "optionReasons": {
-        "zone-mcq-21": "本句指「表示票價區；交通分區；例句：「機場位於另一個票價區。」」。",
-        "zone-mcq-20": "「表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」」是「zoned = officially designated for a particular use 劃定用途的；分區的」的用法，與本句語境不同。",
-        "zone-mcq-22": "「表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」」是「zone — defined logical or administrative area In technical contexts, zone can mean a defined part of a system or network. 區域；區段；邏輯區」的用法，與本句語境不同。",
-        "zone-mcq-19": "「表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」」是「zone — verb: designate an area for a particular use = officially assign land to a category of use 劃分為……區；劃定用途」的用法，與本句語境不同。",
-        "zone-mcq-23": "「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」是「zone — a band or region distinguished from surrounding tissue or material = a particular layer, band, or region with identifiable characteristics 帶；區；層」的用法，與本句語境不同。",
-        "zone-mcq-18": "「土地使用分區；都市分區管制」是「zoning = regulation of how land may be used in different areas 土地使用分區；都市分區管制」的用法，與本句語境不同。"
+        "zone-mcq-21": "本句的「zone」指「表示票價區；交通分區；例句：「機場位於另一個票價區。」」。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-21"
     },
@@ -1861,11 +1697,9 @@ export default {
       "masked": "Your ticket is valid in three travel ____.",
       "options": [
         "zone-mcq-21",
-        "zone-mcq-20",
-        "zone-mcq-22",
-        "zone-mcq-19",
-        "zone-mcq-23",
-        "zone-mcq-18"
+        "zone-mcq-14",
+        "zone-mcq-12",
+        "zone-mcq-15"
       ],
       "explanation": "本句的「zones」指「表示票價區；交通分區；例句：「機場位於另一個票價區。」」。",
       "sentenceIndex": 41,
@@ -1874,12 +1708,10 @@ export default {
         "zones"
       ],
       "optionReasons": {
-        "zone-mcq-21": "本句指「表示票價區；交通分區；例句：「機場位於另一個票價區。」」。",
-        "zone-mcq-20": "「表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」」是「zoned = officially designated for a particular use 劃定用途的；分區的」的用法，與本句語境不同。",
-        "zone-mcq-22": "「表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」」是「zone — defined logical or administrative area In technical contexts, zone can mean a defined part of a system or network. 區域；區段；邏輯區」的用法，與本句語境不同。",
-        "zone-mcq-19": "「表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」」是「zone — verb: designate an area for a particular use = officially assign land to a category of use 劃分為……區；劃定用途」的用法，與本句語境不同。",
-        "zone-mcq-23": "「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」是「zone — a band or region distinguished from surrounding tissue or material = a particular layer, band, or region with identifiable characteristics 帶；區；層」的用法，與本句語境不同。",
-        "zone-mcq-18": "「土地使用分區；都市分區管制」是「zoning = regulation of how land may be used in different areas 土地使用分區；都市分區管制」的用法，與本句語境不同。"
+        "zone-mcq-21": "本句的「zones」指「表示票價區；交通分區；例句：「機場位於另一個票價區。」」。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-21"
     },
@@ -1891,11 +1723,9 @@ export default {
       "masked": "The network is divided into security ____.",
       "options": [
         "zone-mcq-22",
-        "zone-mcq-21",
-        "zone-mcq-23",
-        "zone-mcq-20",
-        "zone-mcq-24",
-        "zone-mcq-19"
+        "zone-mcq-13",
+        "zone-mcq-15",
+        "zone-mcq-14"
       ],
       "explanation": "本句的「zones」指「表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」」。",
       "sentenceIndex": 42,
@@ -1904,12 +1734,10 @@ export default {
         "zones"
       ],
       "optionReasons": {
-        "zone-mcq-22": "本句指「表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」」。",
-        "zone-mcq-21": "「表示票價區；交通分區；例句：「機場位於另一個票價區。」」是「fare zone / travel zone = an area used to determine transport fares or travel rules 票價區；交通分區」的用法，與本句語境不同。",
-        "zone-mcq-23": "「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」是「zone — a band or region distinguished from surrounding tissue or material = a particular layer, band, or region with identifiable characteristics 帶；區；層」的用法，與本句語境不同。",
-        "zone-mcq-20": "「表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」」是「zoned = officially designated for a particular use 劃定用途的；分區的」的用法，與本句語境不同。",
-        "zone-mcq-24": "「禁區；不可進入的區域；不宜觸碰的話題」是「no-go zone = an area that people should not or cannot enter; figuratively, a topic or area to avoid 禁區；不可進入的區域；不宜觸碰的話題」的用法，與本句語境不同。",
-        "zone-mcq-19": "「表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」」是「zone — verb: designate an area for a particular use = officially assign land to a category of use 劃分為……區；劃定用途」的用法，與本句語境不同。"
+        "zone-mcq-22": "本句的「zones」指「表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」」。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-22"
     },
@@ -1921,11 +1749,9 @@ export default {
       "masked": "Each ____ has different access rules.",
       "options": [
         "zone-mcq-22",
-        "zone-mcq-21",
-        "zone-mcq-23",
-        "zone-mcq-20",
-        "zone-mcq-24",
-        "zone-mcq-19"
+        "zone-mcq-13",
+        "zone-mcq-15",
+        "zone-mcq-14"
       ],
       "explanation": "本句的「zone」指「表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」」。",
       "sentenceIndex": 43,
@@ -1934,12 +1760,10 @@ export default {
         "zone"
       ],
       "optionReasons": {
-        "zone-mcq-22": "本句指「表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」」。",
-        "zone-mcq-21": "「表示票價區；交通分區；例句：「機場位於另一個票價區。」」是「fare zone / travel zone = an area used to determine transport fares or travel rules 票價區；交通分區」的用法，與本句語境不同。",
-        "zone-mcq-23": "「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」是「zone — a band or region distinguished from surrounding tissue or material = a particular layer, band, or region with identifiable characteristics 帶；區；層」的用法，與本句語境不同。",
-        "zone-mcq-20": "「表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」」是「zoned = officially designated for a particular use 劃定用途的；分區的」的用法，與本句語境不同。",
-        "zone-mcq-24": "「禁區；不可進入的區域；不宜觸碰的話題」是「no-go zone = an area that people should not or cannot enter; figuratively, a topic or area to avoid 禁區；不可進入的區域；不宜觸碰的話題」的用法，與本句語境不同。",
-        "zone-mcq-19": "「表示劃分為……區；劃定用途；例句：「這塊土地被劃為住宅用地。」」是「zone — verb: designate an area for a particular use = officially assign land to a category of use 劃分為……區；劃定用途」的用法，與本句語境不同。"
+        "zone-mcq-22": "本句的「zone」指「表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」」。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-22"
     },
@@ -1951,11 +1775,9 @@ export default {
       "masked": "The image shows a damaged ____ around the tissue.",
       "options": [
         "zone-mcq-23",
-        "zone-mcq-22",
-        "zone-mcq-24",
-        "zone-mcq-21",
-        "zone-mcq-25",
-        "zone-mcq-20"
+        "zone-mcq-13",
+        "zone-mcq-15",
+        "zone-mcq-14"
       ],
       "explanation": "本句的「zone」指「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」。",
       "sentenceIndex": 44,
@@ -1964,12 +1786,10 @@ export default {
         "zone"
       ],
       "optionReasons": {
-        "zone-mcq-23": "本句指「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」。",
-        "zone-mcq-22": "「表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」」是「zone — defined logical or administrative area In technical contexts, zone can mean a defined part of a system or network. 區域；區段；邏輯區」的用法，與本句語境不同。",
-        "zone-mcq-24": "「禁區；不可進入的區域；不宜觸碰的話題」是「no-go zone = an area that people should not or cannot enter; figuratively, a topic or area to avoid 禁區；不可進入的區域；不宜觸碰的話題」的用法，與本句語境不同。",
-        "zone-mcq-21": "「表示票價區；交通分區；例句：「機場位於另一個票價區。」」是「fare zone / travel zone = an area used to determine transport fares or travel rules 票價區；交通分區」的用法，與本句語境不同。",
-        "zone-mcq-25": "「表示緩衝區；例句：「兩個區域之間有一個緩衝區。」」是「buffer zone = an area separating two other areas to reduce conflict, danger, or interference 緩衝區」的用法，與本句語境不同。",
-        "zone-mcq-20": "「表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」」是「zoned = officially designated for a particular use 劃定用途的；分區的」的用法，與本句語境不同。"
+        "zone-mcq-23": "本句的「zone」指「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-23"
     },
@@ -1981,11 +1801,9 @@ export default {
       "masked": "Scientists examined the transition ____.",
       "options": [
         "zone-mcq-23",
-        "zone-mcq-22",
-        "zone-mcq-24",
-        "zone-mcq-21",
-        "zone-mcq-25",
-        "zone-mcq-20"
+        "zone-mcq-13",
+        "zone-mcq-15",
+        "zone-mcq-14"
       ],
       "explanation": "本句的「zone」指「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」。",
       "sentenceIndex": 45,
@@ -1994,12 +1812,10 @@ export default {
         "zone"
       ],
       "optionReasons": {
-        "zone-mcq-23": "本句指「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」。",
-        "zone-mcq-22": "「表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」」是「zone — defined logical or administrative area In technical contexts, zone can mean a defined part of a system or network. 區域；區段；邏輯區」的用法，與本句語境不同。",
-        "zone-mcq-24": "「禁區；不可進入的區域；不宜觸碰的話題」是「no-go zone = an area that people should not or cannot enter; figuratively, a topic or area to avoid 禁區；不可進入的區域；不宜觸碰的話題」的用法，與本句語境不同。",
-        "zone-mcq-21": "「表示票價區；交通分區；例句：「機場位於另一個票價區。」」是「fare zone / travel zone = an area used to determine transport fares or travel rules 票價區；交通分區」的用法，與本句語境不同。",
-        "zone-mcq-25": "「表示緩衝區；例句：「兩個區域之間有一個緩衝區。」」是「buffer zone = an area separating two other areas to reduce conflict, danger, or interference 緩衝區」的用法，與本句語境不同。",
-        "zone-mcq-20": "「表示劃定用途的；分區的；例句：「該土地被劃為住宅用途。」」是「zoned = officially designated for a particular use 劃定用途的；分區的」的用法，與本句語境不同。"
+        "zone-mcq-23": "本句的「zone」指「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-23"
     },
@@ -2011,10 +1827,8 @@ export default {
       "masked": "The damaged building was declared a ____.",
       "options": [
         "zone-mcq-24",
-        "zone-mcq-23",
-        "zone-mcq-25",
-        "zone-mcq-22",
-        "zone-mcq-26",
+        "zone-mcq-12",
+        "zone-mcq-15",
         "zone-mcq-21"
       ],
       "explanation": "本句的「no-go zone」指「禁區；不可進入的區域；不宜觸碰的話題」。",
@@ -2024,12 +1838,10 @@ export default {
         "no-go zone"
       ],
       "optionReasons": {
-        "zone-mcq-24": "本句指「禁區；不可進入的區域；不宜觸碰的話題」。",
-        "zone-mcq-23": "「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」是「zone — a band or region distinguished from surrounding tissue or material = a particular layer, band, or region with identifiable characteristics 帶；區；層」的用法，與本句語境不同。",
-        "zone-mcq-25": "「表示緩衝區；例句：「兩個區域之間有一個緩衝區。」」是「buffer zone = an area separating two other areas to reduce conflict, danger, or interference 緩衝區」的用法，與本句語境不同。",
-        "zone-mcq-22": "「表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」」是「zone — defined logical or administrative area In technical contexts, zone can mean a defined part of a system or network. 區域；區段；邏輯區」的用法，與本句語境不同。",
-        "zone-mcq-26": "「表示禁入區；封鎖區；例句：「警方在建築物周圍設立了封鎖區。」」是「exclusion zone = an area from which people are officially excluded 禁入區；封鎖區」的用法，與本句語境不同。",
-        "zone-mcq-21": "「表示票價區；交通分區；例句：「機場位於另一個票價區。」」是「fare zone / travel zone = an area used to determine transport fares or travel rules 票價區；交通分區」的用法，與本句語境不同。"
+        "zone-mcq-24": "本句的「no-go zone」指「禁區；不可進入的區域；不宜觸碰的話題」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-24"
     },
@@ -2041,10 +1853,8 @@ export default {
       "masked": "Money was a ____ in their conversations.",
       "options": [
         "zone-mcq-24",
-        "zone-mcq-23",
-        "zone-mcq-25",
-        "zone-mcq-22",
-        "zone-mcq-26",
+        "zone-mcq-15",
+        "zone-mcq-13",
         "zone-mcq-21"
       ],
       "explanation": "本句的「no-go zone」指「禁區；不可進入的區域；不宜觸碰的話題」。",
@@ -2054,12 +1864,10 @@ export default {
         "no-go zone"
       ],
       "optionReasons": {
-        "zone-mcq-24": "本句指「禁區；不可進入的區域；不宜觸碰的話題」。",
-        "zone-mcq-23": "「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」是「zone — a band or region distinguished from surrounding tissue or material = a particular layer, band, or region with identifiable characteristics 帶；區；層」的用法，與本句語境不同。",
-        "zone-mcq-25": "「表示緩衝區；例句：「兩個區域之間有一個緩衝區。」」是「buffer zone = an area separating two other areas to reduce conflict, danger, or interference 緩衝區」的用法，與本句語境不同。",
-        "zone-mcq-22": "「表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」」是「zone — defined logical or administrative area In technical contexts, zone can mean a defined part of a system or network. 區域；區段；邏輯區」的用法，與本句語境不同。",
-        "zone-mcq-26": "「表示禁入區；封鎖區；例句：「警方在建築物周圍設立了封鎖區。」」是「exclusion zone = an area from which people are officially excluded 禁入區；封鎖區」的用法，與本句語境不同。",
-        "zone-mcq-21": "「表示票價區；交通分區；例句：「機場位於另一個票價區。」」是「fare zone / travel zone = an area used to determine transport fares or travel rules 票價區；交通分區」的用法，與本句語境不同。"
+        "zone-mcq-24": "本句的「no-go zone」指「禁區；不可進入的區域；不宜觸碰的話題」。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-24"
     },
@@ -2071,11 +1879,9 @@ export default {
       "masked": "A ____ separates the two areas.",
       "options": [
         "zone-mcq-25",
-        "zone-mcq-24",
-        "zone-mcq-26",
-        "zone-mcq-23",
-        "zone-mcq-27",
-        "zone-mcq-22"
+        "zone-mcq-14",
+        "zone-mcq-15",
+        "zone-mcq-13"
       ],
       "explanation": "本句的「buffer zone」指「表示緩衝區；例句：「兩個區域之間有一個緩衝區。」」。",
       "sentenceIndex": 48,
@@ -2084,12 +1890,10 @@ export default {
         "buffer zone"
       ],
       "optionReasons": {
-        "zone-mcq-25": "本句指「表示緩衝區；例句：「兩個區域之間有一個緩衝區。」」。",
-        "zone-mcq-24": "「禁區；不可進入的區域；不宜觸碰的話題」是「no-go zone = an area that people should not or cannot enter; figuratively, a topic or area to avoid 禁區；不可進入的區域；不宜觸碰的話題」的用法，與本句語境不同。",
-        "zone-mcq-26": "「表示禁入區；封鎖區；例句：「警方在建築物周圍設立了封鎖區。」」是「exclusion zone = an area from which people are officially excluded 禁入區；封鎖區」的用法，與本句語境不同。",
-        "zone-mcq-23": "「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」是「zone — a band or region distinguished from surrounding tissue or material = a particular layer, band, or region with identifiable characteristics 帶；區；層」的用法，與本句語境不同。",
-        "zone-mcq-27": "「表示戰區；例句：「記者進入了戰區。」」是「war zone = an area where armed conflict is taking place 戰區」的用法，與本句語境不同。",
-        "zone-mcq-22": "「表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」」是「zone — defined logical or administrative area In technical contexts, zone can mean a defined part of a system or network. 區域；區段；邏輯區」的用法，與本句語境不同。"
+        "zone-mcq-25": "本句的「buffer zone」指「表示緩衝區；例句：「兩個區域之間有一個緩衝區。」」。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-25"
     },
@@ -2101,11 +1905,9 @@ export default {
       "masked": "Trees were planted as a ____ between the road and the houses.",
       "options": [
         "zone-mcq-25",
-        "zone-mcq-24",
-        "zone-mcq-26",
-        "zone-mcq-23",
-        "zone-mcq-27",
-        "zone-mcq-22"
+        "zone-mcq-12",
+        "zone-mcq-15",
+        "zone-mcq-14"
       ],
       "explanation": "本句的「buffer zone」指「表示緩衝區；例句：「兩個區域之間有一個緩衝區。」」。",
       "sentenceIndex": 49,
@@ -2114,12 +1916,10 @@ export default {
         "buffer zone"
       ],
       "optionReasons": {
-        "zone-mcq-25": "本句指「表示緩衝區；例句：「兩個區域之間有一個緩衝區。」」。",
-        "zone-mcq-24": "「禁區；不可進入的區域；不宜觸碰的話題」是「no-go zone = an area that people should not or cannot enter; figuratively, a topic or area to avoid 禁區；不可進入的區域；不宜觸碰的話題」的用法，與本句語境不同。",
-        "zone-mcq-26": "「表示禁入區；封鎖區；例句：「警方在建築物周圍設立了封鎖區。」」是「exclusion zone = an area from which people are officially excluded 禁入區；封鎖區」的用法，與本句語境不同。",
-        "zone-mcq-23": "「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」是「zone — a band or region distinguished from surrounding tissue or material = a particular layer, band, or region with identifiable characteristics 帶；區；層」的用法，與本句語境不同。",
-        "zone-mcq-27": "「表示戰區；例句：「記者進入了戰區。」」是「war zone = an area where armed conflict is taking place 戰區」的用法，與本句語境不同。",
-        "zone-mcq-22": "「表示區域；區段；邏輯區；例句：「網路被分成不同安全區域。」」是「zone — defined logical or administrative area In technical contexts, zone can mean a defined part of a system or network. 區域；區段；邏輯區」的用法，與本句語境不同。"
+        "zone-mcq-25": "本句的「buffer zone」指「表示緩衝區；例句：「兩個區域之間有一個緩衝區。」」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-25"
     },
@@ -2131,11 +1931,9 @@ export default {
       "masked": "Police created an ____ around the building.",
       "options": [
         "zone-mcq-26",
-        "zone-mcq-25",
-        "zone-mcq-27",
-        "zone-mcq-24",
-        "zone-mcq-28",
-        "zone-mcq-23"
+        "zone-mcq-12",
+        "zone-mcq-15",
+        "zone-mcq-20"
       ],
       "explanation": "本句的「exclusion zone」指「表示禁入區；封鎖區；例句：「警方在建築物周圍設立了封鎖區。」」。",
       "sentenceIndex": 50,
@@ -2144,12 +1942,10 @@ export default {
         "exclusion zone"
       ],
       "optionReasons": {
-        "zone-mcq-26": "本句指「表示禁入區；封鎖區；例句：「警方在建築物周圍設立了封鎖區。」」。",
-        "zone-mcq-25": "「表示緩衝區；例句：「兩個區域之間有一個緩衝區。」」是「buffer zone = an area separating two other areas to reduce conflict, danger, or interference 緩衝區」的用法，與本句語境不同。",
-        "zone-mcq-27": "「表示戰區；例句：「記者進入了戰區。」」是「war zone = an area where armed conflict is taking place 戰區」的用法，與本句語境不同。",
-        "zone-mcq-24": "「禁區；不可進入的區域；不宜觸碰的話題」是「no-go zone = an area that people should not or cannot enter; figuratively, a topic or area to avoid 禁區；不可進入的區域；不宜觸碰的話題」的用法，與本句語境不同。",
-        "zone-mcq-28": "「表示區域的；分區的；例句：「這套系統使用分區供暖。」」是「zonal = relating to a zone or zones 區域的；分區的」的用法，與本句語境不同。",
-        "zone-mcq-23": "「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」是「zone — a band or region distinguished from surrounding tissue or material = a particular layer, band, or region with identifiable characteristics 帶；區；層」的用法，與本句語境不同。"
+        "zone-mcq-26": "本句的「exclusion zone」指「表示禁入區；封鎖區；例句：「警方在建築物周圍設立了封鎖區。」」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-26"
     },
@@ -2161,11 +1957,9 @@ export default {
       "masked": "Residents were kept outside the ____.",
       "options": [
         "zone-mcq-26",
-        "zone-mcq-25",
-        "zone-mcq-27",
-        "zone-mcq-24",
-        "zone-mcq-28",
-        "zone-mcq-23"
+        "zone-mcq-13",
+        "zone-mcq-15",
+        "zone-mcq-21"
       ],
       "explanation": "本句的「exclusion zone」指「表示禁入區；封鎖區；例句：「警方在建築物周圍設立了封鎖區。」」。",
       "sentenceIndex": 51,
@@ -2174,12 +1968,10 @@ export default {
         "exclusion zone"
       ],
       "optionReasons": {
-        "zone-mcq-26": "本句指「表示禁入區；封鎖區；例句：「警方在建築物周圍設立了封鎖區。」」。",
-        "zone-mcq-25": "「表示緩衝區；例句：「兩個區域之間有一個緩衝區。」」是「buffer zone = an area separating two other areas to reduce conflict, danger, or interference 緩衝區」的用法，與本句語境不同。",
-        "zone-mcq-27": "「表示戰區；例句：「記者進入了戰區。」」是「war zone = an area where armed conflict is taking place 戰區」的用法，與本句語境不同。",
-        "zone-mcq-24": "「禁區；不可進入的區域；不宜觸碰的話題」是「no-go zone = an area that people should not or cannot enter; figuratively, a topic or area to avoid 禁區；不可進入的區域；不宜觸碰的話題」的用法，與本句語境不同。",
-        "zone-mcq-28": "「表示區域的；分區的；例句：「這套系統使用分區供暖。」」是「zonal = relating to a zone or zones 區域的；分區的」的用法，與本句語境不同。",
-        "zone-mcq-23": "「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」是「zone — a band or region distinguished from surrounding tissue or material = a particular layer, band, or region with identifiable characteristics 帶；區；層」的用法，與本句語境不同。"
+        "zone-mcq-26": "本句的「exclusion zone」指「表示禁入區；封鎖區；例句：「警方在建築物周圍設立了封鎖區。」」。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-26"
     },
@@ -2191,11 +1983,9 @@ export default {
       "masked": "Journalists entered the ____.",
       "options": [
         "zone-mcq-27",
-        "zone-mcq-26",
-        "zone-mcq-28",
-        "zone-mcq-25",
-        "zone-mcq-24",
-        "zone-mcq-23"
+        "zone-mcq-12",
+        "zone-mcq-15",
+        "zone-mcq-14"
       ],
       "explanation": "本句的「war zone」指「表示戰區；例句：「記者進入了戰區。」」。",
       "sentenceIndex": 52,
@@ -2204,12 +1994,10 @@ export default {
         "war zone"
       ],
       "optionReasons": {
-        "zone-mcq-27": "本句指「表示戰區；例句：「記者進入了戰區。」」。",
-        "zone-mcq-26": "「表示禁入區；封鎖區；例句：「警方在建築物周圍設立了封鎖區。」」是「exclusion zone = an area from which people are officially excluded 禁入區；封鎖區」的用法，與本句語境不同。",
-        "zone-mcq-28": "「表示區域的；分區的；例句：「這套系統使用分區供暖。」」是「zonal = relating to a zone or zones 區域的；分區的」的用法，與本句語境不同。",
-        "zone-mcq-25": "「表示緩衝區；例句：「兩個區域之間有一個緩衝區。」」是「buffer zone = an area separating two other areas to reduce conflict, danger, or interference 緩衝區」的用法，與本句語境不同。",
-        "zone-mcq-24": "「禁區；不可進入的區域；不宜觸碰的話題」是「no-go zone = an area that people should not or cannot enter; figuratively, a topic or area to avoid 禁區；不可進入的區域；不宜觸碰的話題」的用法，與本句語境不同。",
-        "zone-mcq-23": "「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」是「zone — a band or region distinguished from surrounding tissue or material = a particular layer, band, or region with identifiable characteristics 帶；區；層」的用法，與本句語境不同。"
+        "zone-mcq-27": "本句的「war zone」指「表示戰區；例句：「記者進入了戰區。」」。",
+        "zone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-27"
     },
@@ -2221,11 +2009,9 @@ export default {
       "masked": "Thousands of people fled the ____.",
       "options": [
         "zone-mcq-27",
-        "zone-mcq-26",
-        "zone-mcq-28",
-        "zone-mcq-25",
-        "zone-mcq-24",
-        "zone-mcq-23"
+        "zone-mcq-13",
+        "zone-mcq-14",
+        "zone-mcq-15"
       ],
       "explanation": "本句的「war zone」指「表示戰區；例句：「記者進入了戰區。」」。",
       "sentenceIndex": 53,
@@ -2234,12 +2020,10 @@ export default {
         "war zone"
       ],
       "optionReasons": {
-        "zone-mcq-27": "本句指「表示戰區；例句：「記者進入了戰區。」」。",
-        "zone-mcq-26": "「表示禁入區；封鎖區；例句：「警方在建築物周圍設立了封鎖區。」」是「exclusion zone = an area from which people are officially excluded 禁入區；封鎖區」的用法，與本句語境不同。",
-        "zone-mcq-28": "「表示區域的；分區的；例句：「這套系統使用分區供暖。」」是「zonal = relating to a zone or zones 區域的；分區的」的用法，與本句語境不同。",
-        "zone-mcq-25": "「表示緩衝區；例句：「兩個區域之間有一個緩衝區。」」是「buffer zone = an area separating two other areas to reduce conflict, danger, or interference 緩衝區」的用法，與本句語境不同。",
-        "zone-mcq-24": "「禁區；不可進入的區域；不宜觸碰的話題」是「no-go zone = an area that people should not or cannot enter; figuratively, a topic or area to avoid 禁區；不可進入的區域；不宜觸碰的話題」的用法，與本句語境不同。",
-        "zone-mcq-23": "「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」是「zone — a band or region distinguished from surrounding tissue or material = a particular layer, band, or region with identifiable characteristics 帶；區；層」的用法，與本句語境不同。"
+        "zone-mcq-27": "本句的「war zone」指「表示戰區；例句：「記者進入了戰區。」」。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-27"
     },
@@ -2251,11 +2035,9 @@ export default {
       "masked": "The system uses ____.",
       "options": [
         "zone-mcq-28",
-        "zone-mcq-27",
-        "zone-mcq-26",
-        "zone-mcq-25",
-        "zone-mcq-24",
-        "zone-mcq-23"
+        "zone-mcq-14",
+        "zone-mcq-13",
+        "zone-mcq-15"
       ],
       "explanation": "本句的「zonal heating」指「表示區域的；分區的；例句：「這套系統使用分區供暖。」」。",
       "sentenceIndex": 54,
@@ -2264,12 +2046,10 @@ export default {
         "zonal heating"
       ],
       "optionReasons": {
-        "zone-mcq-28": "本句指「表示區域的；分區的；例句：「這套系統使用分區供暖。」」。",
-        "zone-mcq-27": "「表示戰區；例句：「記者進入了戰區。」」是「war zone = an area where armed conflict is taking place 戰區」的用法，與本句語境不同。",
-        "zone-mcq-26": "「表示禁入區；封鎖區；例句：「警方在建築物周圍設立了封鎖區。」」是「exclusion zone = an area from which people are officially excluded 禁入區；封鎖區」的用法，與本句語境不同。",
-        "zone-mcq-25": "「表示緩衝區；例句：「兩個區域之間有一個緩衝區。」」是「buffer zone = an area separating two other areas to reduce conflict, danger, or interference 緩衝區」的用法，與本句語境不同。",
-        "zone-mcq-24": "「禁區；不可進入的區域；不宜觸碰的話題」是「no-go zone = an area that people should not or cannot enter; figuratively, a topic or area to avoid 禁區；不可進入的區域；不宜觸碰的話題」的用法，與本句語境不同。",
-        "zone-mcq-23": "「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」是「zone — a band or region distinguished from surrounding tissue or material = a particular layer, band, or region with identifiable characteristics 帶；區；層」的用法，與本句語境不同。"
+        "zone-mcq-28": "本句的「zonal heating」指「表示區域的；分區的；例句：「這套系統使用分區供暖。」」。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-28"
     },
@@ -2281,11 +2061,9 @@ export default {
       "masked": "Researchers compared ____ in climate.",
       "options": [
         "zone-mcq-28",
-        "zone-mcq-27",
-        "zone-mcq-26",
-        "zone-mcq-25",
-        "zone-mcq-24",
-        "zone-mcq-23"
+        "zone-mcq-14",
+        "zone-mcq-13",
+        "zone-mcq-15"
       ],
       "explanation": "本句的「zonal differences」指「表示區域的；分區的；例句：「這套系統使用分區供暖。」」。",
       "sentenceIndex": 55,
@@ -2294,12 +2072,10 @@ export default {
         "zonal differences"
       ],
       "optionReasons": {
-        "zone-mcq-28": "本句指「表示區域的；分區的；例句：「這套系統使用分區供暖。」」。",
-        "zone-mcq-27": "「表示戰區；例句：「記者進入了戰區。」」是「war zone = an area where armed conflict is taking place 戰區」的用法，與本句語境不同。",
-        "zone-mcq-26": "「表示禁入區；封鎖區；例句：「警方在建築物周圍設立了封鎖區。」」是「exclusion zone = an area from which people are officially excluded 禁入區；封鎖區」的用法，與本句語境不同。",
-        "zone-mcq-25": "「表示緩衝區；例句：「兩個區域之間有一個緩衝區。」」是「buffer zone = an area separating two other areas to reduce conflict, danger, or interference 緩衝區」的用法，與本句語境不同。",
-        "zone-mcq-24": "「禁區；不可進入的區域；不宜觸碰的話題」是「no-go zone = an area that people should not or cannot enter; figuratively, a topic or area to avoid 禁區；不可進入的區域；不宜觸碰的話題」的用法，與本句語境不同。",
-        "zone-mcq-23": "「表示帶；區；層；例句：「影像顯示組織周圍有一個受損區域。」」是「zone — a band or region distinguished from surrounding tissue or material = a particular layer, band, or region with identifiable characteristics 帶；區；層」的用法，與本句語境不同。"
+        "zone-mcq-28": "本句的「zonal differences」指「表示區域的；分區的；例句：「這套系統使用分區供暖。」」。",
+        "zone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "zone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "zone-mcq-28"
     }
@@ -2311,5 +2087,7 @@ export default {
     "sha256": "915746ad17aab39ceee628c628c0eb60bc66bd916c127a4aed929ea554c8f300",
     "pages": 15
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

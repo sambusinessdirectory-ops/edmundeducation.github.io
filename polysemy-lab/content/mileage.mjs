@@ -423,11 +423,9 @@ export default {
       "masked": "The car has very low ____.",
       "options": [
         "mileage-mcq-01",
-        "mileage-mcq-02",
-        "mileage-mcq-03",
-        "mileage-mcq-04",
-        "mileage-mcq-05",
-        "mileage-mcq-06"
+        "mileage-mcq-16",
+        "mileage-mcq-11",
+        "mileage-mcq-15"
       ],
       "explanation": "本句的「mileage」指「車輛從使用開始或某段期間內累積行駛的總距離」。",
       "sentenceIndex": 0,
@@ -436,12 +434,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-01": "本句指「車輛從使用開始或某段期間內累積行駛的總距離」。",
-        "mileage-mcq-02": "「某一年／月份內累積完成的行車距離」與本句語境不同。",
-        "mileage-mcq-03": "「車輛累積行駛距離較高／較低」與本句語境不同。",
-        "mileage-mcq-04": "「跑手在指定訓練期間內累積完成的總跑步距離」與本句語境不同。",
-        "mileage-mcq-05": "「跑手一星期內累積完成的總跑步距離／每週跑量」與本句語境不同。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。"
+        "mileage-mcq-01": "本句的「mileage」指「車輛從使用開始或某段期間內累積行駛的總距離」。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-01"
     },
@@ -453,11 +449,9 @@ export default {
       "masked": "Check the vehicle’s ____ before buying it.",
       "options": [
         "mileage-mcq-01",
-        "mileage-mcq-02",
-        "mileage-mcq-03",
-        "mileage-mcq-04",
-        "mileage-mcq-05",
-        "mileage-mcq-06"
+        "mileage-mcq-15",
+        "mileage-mcq-11",
+        "mileage-mcq-16"
       ],
       "explanation": "本句的「mileage」指「車輛從使用開始或某段期間內累積行駛的總距離」。",
       "sentenceIndex": 1,
@@ -466,12 +460,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-01": "本句指「車輛從使用開始或某段期間內累積行駛的總距離」。",
-        "mileage-mcq-02": "「某一年／月份內累積完成的行車距離」與本句語境不同。",
-        "mileage-mcq-03": "「車輛累積行駛距離較高／較低」與本句語境不同。",
-        "mileage-mcq-04": "「跑手在指定訓練期間內累積完成的總跑步距離」與本句語境不同。",
-        "mileage-mcq-05": "「跑手一星期內累積完成的總跑步距離／每週跑量」與本句語境不同。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。"
+        "mileage-mcq-01": "本句的「mileage」指「車輛從使用開始或某段期間內累積行駛的總距離」。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-01"
     },
@@ -483,11 +475,9 @@ export default {
       "masked": "My annual ____ is about 15,000 kilometres.",
       "options": [
         "mileage-mcq-01",
-        "mileage-mcq-02",
-        "mileage-mcq-03",
-        "mileage-mcq-04",
-        "mileage-mcq-05",
-        "mileage-mcq-06"
+        "mileage-mcq-11",
+        "mileage-mcq-15",
+        "mileage-mcq-16"
       ],
       "explanation": "本句的「mileage」指「車輛從使用開始或某段期間內累積行駛的總距離」。",
       "sentenceIndex": 2,
@@ -496,12 +486,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-01": "本句指「車輛從使用開始或某段期間內累積行駛的總距離」。",
-        "mileage-mcq-02": "「某一年／月份內累積完成的行車距離」與本句語境不同。",
-        "mileage-mcq-03": "「車輛累積行駛距離較高／較低」與本句語境不同。",
-        "mileage-mcq-04": "「跑手在指定訓練期間內累積完成的總跑步距離」與本句語境不同。",
-        "mileage-mcq-05": "「跑手一星期內累積完成的總跑步距離／每週跑量」與本句語境不同。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。"
+        "mileage-mcq-01": "本句的「mileage」指「車輛從使用開始或某段期間內累積行駛的總距離」。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-01"
     },
@@ -513,11 +501,9 @@ export default {
       "masked": "Business travel accounts for most of her monthly ____.",
       "options": [
         "mileage-mcq-01",
-        "mileage-mcq-02",
-        "mileage-mcq-03",
-        "mileage-mcq-04",
-        "mileage-mcq-05",
-        "mileage-mcq-06"
+        "mileage-mcq-15",
+        "mileage-mcq-11",
+        "mileage-mcq-16"
       ],
       "explanation": "本句的「mileage」指「車輛從使用開始或某段期間內累積行駛的總距離」。",
       "sentenceIndex": 3,
@@ -526,12 +512,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-01": "本句指「車輛從使用開始或某段期間內累積行駛的總距離」。",
-        "mileage-mcq-02": "「某一年／月份內累積完成的行車距離」與本句語境不同。",
-        "mileage-mcq-03": "「車輛累積行駛距離較高／較低」與本句語境不同。",
-        "mileage-mcq-04": "「跑手在指定訓練期間內累積完成的總跑步距離」與本句語境不同。",
-        "mileage-mcq-05": "「跑手一星期內累積完成的總跑步距離／每週跑量」與本句語境不同。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。"
+        "mileage-mcq-01": "本句的「mileage」指「車輛從使用開始或某段期間內累積行駛的總距離」。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-01"
     },
@@ -543,11 +527,9 @@ export default {
       "masked": "The car is inexpensive because it has ____.",
       "options": [
         "mileage-mcq-03",
-        "mileage-mcq-02",
-        "mileage-mcq-04",
-        "mileage-mcq-01",
-        "mileage-mcq-05",
-        "mileage-mcq-06"
+        "mileage-mcq-14",
+        "mileage-mcq-15",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「high mileage」指「車輛累積行駛距離較高／較低」。",
       "sentenceIndex": 4,
@@ -556,12 +538,10 @@ export default {
         "high mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-03": "本句指「車輛累積行駛距離較高／較低」。",
-        "mileage-mcq-02": "「某一年／月份內累積完成的行車距離」與本句語境不同。",
-        "mileage-mcq-04": "「跑手在指定訓練期間內累積完成的總跑步距離」與本句語境不同。",
-        "mileage-mcq-01": "「車輛從使用開始或某段期間內累積行駛的總距離」與本句語境不同。",
-        "mileage-mcq-05": "「跑手一星期內累積完成的總跑步距離／每週跑量」與本句語境不同。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。"
+        "mileage-mcq-03": "本句的「high mileage」指「車輛累積行駛距離較高／較低」。",
+        "mileage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-03"
     },
@@ -573,11 +553,9 @@ export default {
       "masked": "Buyers often prefer ____ vehicles.",
       "options": [
         "mileage-mcq-03",
-        "mileage-mcq-02",
-        "mileage-mcq-04",
-        "mileage-mcq-01",
-        "mileage-mcq-05",
-        "mileage-mcq-06"
+        "mileage-mcq-15",
+        "mileage-mcq-16",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「low-mileage」指「車輛累積行駛距離較高／較低」。",
       "sentenceIndex": 5,
@@ -586,12 +564,10 @@ export default {
         "low-mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-03": "本句指「車輛累積行駛距離較高／較低」。",
-        "mileage-mcq-02": "「某一年／月份內累積完成的行車距離」與本句語境不同。",
-        "mileage-mcq-04": "「跑手在指定訓練期間內累積完成的總跑步距離」與本句語境不同。",
-        "mileage-mcq-01": "「車輛從使用開始或某段期間內累積行駛的總距離」與本句語境不同。",
-        "mileage-mcq-05": "「跑手一星期內累積完成的總跑步距離／每週跑量」與本句語境不同。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。"
+        "mileage-mcq-03": "本句的「low-mileage」指「車輛累積行駛距離較高／較低」。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-03"
     },
@@ -603,11 +579,9 @@ export default {
       "masked": "A distance runner requires carefully managed ____ and recovery.",
       "options": [
         "mileage-mcq-04",
-        "mileage-mcq-03",
-        "mileage-mcq-05",
-        "mileage-mcq-02",
-        "mileage-mcq-06",
-        "mileage-mcq-01"
+        "mileage-mcq-16",
+        "mileage-mcq-15",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「mileage」指「跑手在指定訓練期間內累積完成的總跑步距離」。",
       "sentenceIndex": 6,
@@ -616,12 +590,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-04": "本句指「跑手在指定訓練期間內累積完成的總跑步距離」。",
-        "mileage-mcq-03": "「車輛累積行駛距離較高／較低」與本句語境不同。",
-        "mileage-mcq-05": "「跑手一星期內累積完成的總跑步距離／每週跑量」與本句語境不同。",
-        "mileage-mcq-02": "「某一年／月份內累積完成的行車距離」與本句語境不同。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。",
-        "mileage-mcq-01": "「車輛從使用開始或某段期間內累積行駛的總距離」與本句語境不同。"
+        "mileage-mcq-04": "本句的「mileage」指「跑手在指定訓練期間內累積完成的總跑步距離」。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-04"
     },
@@ -633,11 +605,9 @@ export default {
       "masked": "She gradually increased her weekly ____ before the season.",
       "options": [
         "mileage-mcq-04",
-        "mileage-mcq-03",
-        "mileage-mcq-05",
-        "mileage-mcq-02",
-        "mileage-mcq-06",
-        "mileage-mcq-01"
+        "mileage-mcq-15",
+        "mileage-mcq-16",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「mileage」指「跑手在指定訓練期間內累積完成的總跑步距離」。",
       "sentenceIndex": 7,
@@ -646,12 +616,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-04": "本句指「跑手在指定訓練期間內累積完成的總跑步距離」。",
-        "mileage-mcq-03": "「車輛累積行駛距離較高／較低」與本句語境不同。",
-        "mileage-mcq-05": "「跑手一星期內累積完成的總跑步距離／每週跑量」與本句語境不同。",
-        "mileage-mcq-02": "「某一年／月份內累積完成的行車距離」與本句語境不同。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。",
-        "mileage-mcq-01": "「車輛從使用開始或某段期間內累積行駛的總距離」與本句語境不同。"
+        "mileage-mcq-04": "本句的「mileage」指「跑手在指定訓練期間內累積完成的總跑步距離」。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-04"
     },
@@ -663,11 +631,9 @@ export default {
       "masked": "Too much ____ too quickly can increase injury risk.",
       "options": [
         "mileage-mcq-04",
-        "mileage-mcq-03",
-        "mileage-mcq-05",
-        "mileage-mcq-02",
-        "mileage-mcq-06",
-        "mileage-mcq-01"
+        "mileage-mcq-15",
+        "mileage-mcq-16",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「mileage」指「跑手在指定訓練期間內累積完成的總跑步距離」。",
       "sentenceIndex": 8,
@@ -676,12 +642,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-04": "本句指「跑手在指定訓練期間內累積完成的總跑步距離」。",
-        "mileage-mcq-03": "「車輛累積行駛距離較高／較低」與本句語境不同。",
-        "mileage-mcq-05": "「跑手一星期內累積完成的總跑步距離／每週跑量」與本句語境不同。",
-        "mileage-mcq-02": "「某一年／月份內累積完成的行車距離」與本句語境不同。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。",
-        "mileage-mcq-01": "「車輛從使用開始或某段期間內累積行駛的總距離」與本句語境不同。"
+        "mileage-mcq-04": "本句的「mileage」指「跑手在指定訓練期間內累積完成的總跑步距離」。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-04"
     },
@@ -693,11 +657,9 @@ export default {
       "masked": "Her ____ reached eighty kilometres.",
       "options": [
         "mileage-mcq-05",
-        "mileage-mcq-04",
-        "mileage-mcq-06",
-        "mileage-mcq-03",
-        "mileage-mcq-07",
-        "mileage-mcq-02"
+        "mileage-mcq-15",
+        "mileage-mcq-16",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「weekly mileage」指「跑手一星期內累積完成的總跑步距離／每週跑量」。",
       "sentenceIndex": 9,
@@ -706,12 +668,10 @@ export default {
         "weekly mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-05": "本句指「跑手一星期內累積完成的總跑步距離／每週跑量」。",
-        "mileage-mcq-04": "「跑手在指定訓練期間內累積完成的總跑步距離」與本句語境不同。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。",
-        "mileage-mcq-03": "「車輛累積行駛距離較高／較低」與本句語境不同。",
-        "mileage-mcq-07": "「車輛每消耗一定數量燃料能行駛的距離；燃油效率」與本句語境不同。",
-        "mileage-mcq-02": "「某一年／月份內累積完成的行車距離」與本句語境不同。"
+        "mileage-mcq-05": "本句的「weekly mileage」指「跑手一星期內累積完成的總跑步距離／每週跑量」。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-05"
     },
@@ -723,11 +683,9 @@ export default {
       "masked": "The coach reduced his weekly ____ before the championship.",
       "options": [
         "mileage-mcq-05",
-        "mileage-mcq-04",
-        "mileage-mcq-06",
-        "mileage-mcq-03",
-        "mileage-mcq-07",
-        "mileage-mcq-02"
+        "mileage-mcq-15",
+        "mileage-mcq-16",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「mileage」指「跑手一星期內累積完成的總跑步距離／每週跑量」。",
       "sentenceIndex": 10,
@@ -736,12 +694,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-05": "本句指「跑手一星期內累積完成的總跑步距離／每週跑量」。",
-        "mileage-mcq-04": "「跑手在指定訓練期間內累積完成的總跑步距離」與本句語境不同。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。",
-        "mileage-mcq-03": "「車輛累積行駛距離較高／較低」與本句語境不同。",
-        "mileage-mcq-07": "「車輛每消耗一定數量燃料能行駛的距離；燃油效率」與本句語境不同。",
-        "mileage-mcq-02": "「某一年／月份內累積完成的行車距離」與本句語境不同。"
+        "mileage-mcq-05": "本句的「mileage」指「跑手一星期內累積完成的總跑步距離／每週跑量」。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-05"
     },
@@ -753,11 +709,9 @@ export default {
       "masked": "Training ____ should match the athlete’s experience.",
       "options": [
         "mileage-mcq-06",
-        "mileage-mcq-05",
-        "mileage-mcq-07",
-        "mileage-mcq-04",
-        "mileage-mcq-08",
-        "mileage-mcq-03"
+        "mileage-mcq-11",
+        "mileage-mcq-15",
+        "mileage-mcq-16"
       ],
       "explanation": "本句的「mileage」指「訓練期間所累積的跑步總距離」。",
       "sentenceIndex": 11,
@@ -766,12 +720,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-06": "本句指「訓練期間所累積的跑步總距離」。",
-        "mileage-mcq-05": "「跑手一星期內累積完成的總跑步距離／每週跑量」與本句語境不同。",
-        "mileage-mcq-07": "「車輛每消耗一定數量燃料能行駛的距離；燃油效率」與本句語境不同。",
-        "mileage-mcq-04": "「跑手在指定訓練期間內累積完成的總跑步距離」與本句語境不同。",
-        "mileage-mcq-08": "「因工作需要駕車／出行而累積的距離」與本句語境不同。",
-        "mileage-mcq-03": "「車輛累積行駛距離較高／較低」與本句語境不同。"
+        "mileage-mcq-06": "本句的「mileage」指「訓練期間所累積的跑步總距離」。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-06"
     },
@@ -783,11 +735,9 @@ export default {
       "masked": "She recorded her training ____ in a diary.",
       "options": [
         "mileage-mcq-06",
-        "mileage-mcq-05",
-        "mileage-mcq-07",
-        "mileage-mcq-04",
-        "mileage-mcq-08",
-        "mileage-mcq-03"
+        "mileage-mcq-15",
+        "mileage-mcq-16",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「mileage」指「訓練期間所累積的跑步總距離」。",
       "sentenceIndex": 12,
@@ -796,12 +746,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-06": "本句指「訓練期間所累積的跑步總距離」。",
-        "mileage-mcq-05": "「跑手一星期內累積完成的總跑步距離／每週跑量」與本句語境不同。",
-        "mileage-mcq-07": "「車輛每消耗一定數量燃料能行駛的距離；燃油效率」與本句語境不同。",
-        "mileage-mcq-04": "「跑手在指定訓練期間內累積完成的總跑步距離」與本句語境不同。",
-        "mileage-mcq-08": "「因工作需要駕車／出行而累積的距離」與本句語境不同。",
-        "mileage-mcq-03": "「車輛累積行駛距離較高／較低」與本句語境不同。"
+        "mileage-mcq-06": "本句的「mileage」指「訓練期間所累積的跑步總距離」。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-06"
     },
@@ -813,11 +761,8 @@ export default {
       "masked": "This model gets excellent ____.",
       "options": [
         "mileage-mcq-07",
-        "mileage-mcq-06",
-        "mileage-mcq-08",
-        "mileage-mcq-05",
-        "mileage-mcq-09",
-        "mileage-mcq-04"
+        "mileage-mcq-15",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「gas mileage」指「車輛每消耗一定數量燃料能行駛的距離；燃油效率」。",
       "sentenceIndex": 13,
@@ -826,12 +771,9 @@ export default {
         "gas mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-07": "本句指「車輛每消耗一定數量燃料能行駛的距離；燃油效率」。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。",
-        "mileage-mcq-08": "「因工作需要駕車／出行而累積的距離」與本句語境不同。",
-        "mileage-mcq-05": "「跑手一星期內累積完成的總跑步距離／每週跑量」與本句語境不同。",
-        "mileage-mcq-09": "「機構按公務行駛距離向員工支付的交通補貼」與本句語境不同。",
-        "mileage-mcq-04": "「跑手在指定訓練期間內累積完成的總跑步距離」與本句語境不同。"
+        "mileage-mcq-07": "本句的「gas mileage」指「車輛每消耗一定數量燃料能行駛的距離；燃油效率」。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-07"
     },
@@ -843,11 +785,8 @@ export default {
       "masked": "Driving more slowly can improve fuel ____.",
       "options": [
         "mileage-mcq-07",
-        "mileage-mcq-06",
-        "mileage-mcq-08",
-        "mileage-mcq-05",
-        "mileage-mcq-09",
-        "mileage-mcq-04"
+        "mileage-mcq-15",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「mileage」指「車輛每消耗一定數量燃料能行駛的距離；燃油效率」。",
       "sentenceIndex": 14,
@@ -856,12 +795,9 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-07": "本句指「車輛每消耗一定數量燃料能行駛的距離；燃油效率」。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。",
-        "mileage-mcq-08": "「因工作需要駕車／出行而累積的距離」與本句語境不同。",
-        "mileage-mcq-05": "「跑手一星期內累積完成的總跑步距離／每週跑量」與本句語境不同。",
-        "mileage-mcq-09": "「機構按公務行駛距離向員工支付的交通補貼」與本句語境不同。",
-        "mileage-mcq-04": "「跑手在指定訓練期間內累積完成的總跑步距離」與本句語境不同。"
+        "mileage-mcq-07": "本句的「mileage」指「車輛每消耗一定數量燃料能行駛的距離；燃油效率」。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-07"
     },
@@ -873,11 +809,8 @@ export default {
       "masked": "The smaller engine gives better ____.",
       "options": [
         "mileage-mcq-07",
-        "mileage-mcq-06",
-        "mileage-mcq-08",
-        "mileage-mcq-05",
-        "mileage-mcq-09",
-        "mileage-mcq-04"
+        "mileage-mcq-15",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「gas mileage」指「車輛每消耗一定數量燃料能行駛的距離；燃油效率」。",
       "sentenceIndex": 15,
@@ -886,12 +819,9 @@ export default {
         "gas mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-07": "本句指「車輛每消耗一定數量燃料能行駛的距離；燃油效率」。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。",
-        "mileage-mcq-08": "「因工作需要駕車／出行而累積的距離」與本句語境不同。",
-        "mileage-mcq-05": "「跑手一星期內累積完成的總跑步距離／每週跑量」與本句語境不同。",
-        "mileage-mcq-09": "「機構按公務行駛距離向員工支付的交通補貼」與本句語境不同。",
-        "mileage-mcq-04": "「跑手在指定訓練期間內累積完成的總跑步距離」與本句語境不同。"
+        "mileage-mcq-07": "本句的「gas mileage」指「車輛每消耗一定數量燃料能行駛的距離；燃油效率」。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-07"
     },
@@ -903,11 +833,8 @@ export default {
       "masked": "Consumers often compare gas ____ before buying a car.",
       "options": [
         "mileage-mcq-07",
-        "mileage-mcq-06",
-        "mileage-mcq-08",
-        "mileage-mcq-05",
-        "mileage-mcq-09",
-        "mileage-mcq-04"
+        "mileage-mcq-15",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「mileage」指「車輛每消耗一定數量燃料能行駛的距離；燃油效率」。",
       "sentenceIndex": 16,
@@ -916,12 +843,9 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-07": "本句指「車輛每消耗一定數量燃料能行駛的距離；燃油效率」。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。",
-        "mileage-mcq-08": "「因工作需要駕車／出行而累積的距離」與本句語境不同。",
-        "mileage-mcq-05": "「跑手一星期內累積完成的總跑步距離／每週跑量」與本句語境不同。",
-        "mileage-mcq-09": "「機構按公務行駛距離向員工支付的交通補貼」與本句語境不同。",
-        "mileage-mcq-04": "「跑手在指定訓練期間內累積完成的總跑步距離」與本句語境不同。"
+        "mileage-mcq-07": "本句的「mileage」指「車輛每消耗一定數量燃料能行駛的距離；燃油效率」。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-07"
     },
@@ -933,11 +857,9 @@ export default {
       "masked": "Employees must record their business ____.",
       "options": [
         "mileage-mcq-08",
-        "mileage-mcq-07",
-        "mileage-mcq-09",
-        "mileage-mcq-06",
-        "mileage-mcq-10",
-        "mileage-mcq-05"
+        "mileage-mcq-14",
+        "mileage-mcq-15",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「mileage」指「因工作需要駕車／出行而累積的距離」。",
       "sentenceIndex": 17,
@@ -946,12 +868,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-08": "本句指「因工作需要駕車／出行而累積的距離」。",
-        "mileage-mcq-07": "「車輛每消耗一定數量燃料能行駛的距離；燃油效率」與本句語境不同。",
-        "mileage-mcq-09": "「機構按公務行駛距離向員工支付的交通補貼」與本句語境不同。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。",
-        "mileage-mcq-10": "「按公務行駛距離補償員工相關車輛／交通成本」與本句語境不同。",
-        "mileage-mcq-05": "「跑手一星期內累積完成的總跑步距離／每週跑量」與本句語境不同。"
+        "mileage-mcq-08": "本句的「mileage」指「因工作需要駕車／出行而累積的距離」。",
+        "mileage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-08"
     },
@@ -963,11 +883,9 @@ export default {
       "masked": "She submitted her ____ at the end of the month.",
       "options": [
         "mileage-mcq-08",
-        "mileage-mcq-07",
-        "mileage-mcq-09",
-        "mileage-mcq-06",
-        "mileage-mcq-10",
-        "mileage-mcq-05"
+        "mileage-mcq-11",
+        "mileage-mcq-15",
+        "mileage-mcq-16"
       ],
       "explanation": "本句的「mileage」指「因工作需要駕車／出行而累積的距離」。",
       "sentenceIndex": 18,
@@ -976,12 +894,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-08": "本句指「因工作需要駕車／出行而累積的距離」。",
-        "mileage-mcq-07": "「車輛每消耗一定數量燃料能行駛的距離；燃油效率」與本句語境不同。",
-        "mileage-mcq-09": "「機構按公務行駛距離向員工支付的交通補貼」與本句語境不同。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。",
-        "mileage-mcq-10": "「按公務行駛距離補償員工相關車輛／交通成本」與本句語境不同。",
-        "mileage-mcq-05": "「跑手一星期內累積完成的總跑步距離／每週跑量」與本句語境不同。"
+        "mileage-mcq-08": "本句的「mileage」指「因工作需要駕車／出行而累積的距離」。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-08"
     },
@@ -993,11 +909,8 @@ export default {
       "masked": "Staff receive a ____ for business travel.",
       "options": [
         "mileage-mcq-09",
-        "mileage-mcq-08",
-        "mileage-mcq-10",
-        "mileage-mcq-07",
-        "mileage-mcq-11",
-        "mileage-mcq-06"
+        "mileage-mcq-16",
+        "mileage-mcq-15"
       ],
       "explanation": "本句的「mileage allowance」指「機構按公務行駛距離向員工支付的交通補貼」。",
       "sentenceIndex": 19,
@@ -1006,12 +919,9 @@ export default {
         "mileage allowance"
       ],
       "optionReasons": {
-        "mileage-mcq-09": "本句指「機構按公務行駛距離向員工支付的交通補貼」。",
-        "mileage-mcq-08": "「因工作需要駕車／出行而累積的距離」與本句語境不同。",
-        "mileage-mcq-10": "「按公務行駛距離補償員工相關車輛／交通成本」與本句語境不同。",
-        "mileage-mcq-07": "「車輛每消耗一定數量燃料能行駛的距離；燃油效率」與本句語境不同。",
-        "mileage-mcq-11": "「每一里／公里可申領的固定補貼或報銷標準」與本句語境不同。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。"
+        "mileage-mcq-09": "本句的「mileage allowance」指「機構按公務行駛距離向員工支付的交通補貼」。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-09"
     },
@@ -1023,11 +933,8 @@ export default {
       "masked": "The ____ allowance is calculated per kilometre.",
       "options": [
         "mileage-mcq-09",
-        "mileage-mcq-08",
-        "mileage-mcq-10",
-        "mileage-mcq-07",
-        "mileage-mcq-11",
-        "mileage-mcq-06"
+        "mileage-mcq-16",
+        "mileage-mcq-15"
       ],
       "explanation": "本句的「mileage」指「機構按公務行駛距離向員工支付的交通補貼」。",
       "sentenceIndex": 20,
@@ -1036,12 +943,9 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-09": "本句指「機構按公務行駛距離向員工支付的交通補貼」。",
-        "mileage-mcq-08": "「因工作需要駕車／出行而累積的距離」與本句語境不同。",
-        "mileage-mcq-10": "「按公務行駛距離補償員工相關車輛／交通成本」與本句語境不同。",
-        "mileage-mcq-07": "「車輛每消耗一定數量燃料能行駛的距離；燃油效率」與本句語境不同。",
-        "mileage-mcq-11": "「每一里／公里可申領的固定補貼或報銷標準」與本句語境不同。",
-        "mileage-mcq-06": "「訓練期間所累積的跑步總距離」與本句語境不同。"
+        "mileage-mcq-09": "本句的「mileage」指「機構按公務行駛距離向員工支付的交通補貼」。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-09"
     },
@@ -1053,11 +957,8 @@ export default {
       "masked": "Submit your receipts and mileage for ____.",
       "options": [
         "mileage-mcq-10",
-        "mileage-mcq-09",
-        "mileage-mcq-11",
-        "mileage-mcq-08",
-        "mileage-mcq-12",
-        "mileage-mcq-07"
+        "mileage-mcq-13",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「reimbursement」指「按公務行駛距離補償員工相關車輛／交通成本」。",
       "sentenceIndex": 21,
@@ -1066,12 +967,9 @@ export default {
         "reimbursement"
       ],
       "optionReasons": {
-        "mileage-mcq-10": "本句指「按公務行駛距離補償員工相關車輛／交通成本」。",
-        "mileage-mcq-09": "「機構按公務行駛距離向員工支付的交通補貼」與本句語境不同。",
-        "mileage-mcq-11": "「每一里／公里可申領的固定補貼或報銷標準」與本句語境不同。",
-        "mileage-mcq-08": "「因工作需要駕車／出行而累積的距離」與本句語境不同。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。",
-        "mileage-mcq-07": "「車輛每消耗一定數量燃料能行駛的距離；燃油效率」與本句語境不同。"
+        "mileage-mcq-10": "本句的「reimbursement」指「按公務行駛距離補償員工相關車輛／交通成本」。",
+        "mileage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-10"
     },
@@ -1083,11 +981,9 @@ export default {
       "masked": "The company changed its ____ reimbursement policy.",
       "options": [
         "mileage-mcq-10",
-        "mileage-mcq-09",
-        "mileage-mcq-11",
-        "mileage-mcq-08",
-        "mileage-mcq-12",
-        "mileage-mcq-07"
+        "mileage-mcq-16",
+        "mileage-mcq-15",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「mileage」指「按公務行駛距離補償員工相關車輛／交通成本」。",
       "sentenceIndex": 22,
@@ -1096,12 +992,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-10": "本句指「按公務行駛距離補償員工相關車輛／交通成本」。",
-        "mileage-mcq-09": "「機構按公務行駛距離向員工支付的交通補貼」與本句語境不同。",
-        "mileage-mcq-11": "「每一里／公里可申領的固定補貼或報銷標準」與本句語境不同。",
-        "mileage-mcq-08": "「因工作需要駕車／出行而累積的距離」與本句語境不同。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。",
-        "mileage-mcq-07": "「車輛每消耗一定數量燃料能行駛的距離；燃油效率」與本句語境不同。"
+        "mileage-mcq-10": "本句的「mileage」指「按公務行駛距離補償員工相關車輛／交通成本」。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-10"
     },
@@ -1113,11 +1007,9 @@ export default {
       "masked": "The organisation pays a fixed ____.",
       "options": [
         "mileage-mcq-11",
-        "mileage-mcq-10",
-        "mileage-mcq-12",
-        "mileage-mcq-09",
-        "mileage-mcq-13",
-        "mileage-mcq-08"
+        "mileage-mcq-08",
+        "mileage-mcq-15",
+        "mileage-mcq-14"
       ],
       "explanation": "本句的「mileage rate」指「每一里／公里可申領的固定補貼或報銷標準」。",
       "sentenceIndex": 23,
@@ -1126,12 +1018,10 @@ export default {
         "mileage rate"
       ],
       "optionReasons": {
-        "mileage-mcq-11": "本句指「每一里／公里可申領的固定補貼或報銷標準」。",
-        "mileage-mcq-10": "「按公務行駛距離補償員工相關車輛／交通成本」與本句語境不同。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。",
-        "mileage-mcq-09": "「機構按公務行駛距離向員工支付的交通補貼」與本句語境不同。",
-        "mileage-mcq-13": "「某物、構思或內容可以持續提供用途、效益或影響的程度」與本句語境不同。",
-        "mileage-mcq-08": "「因工作需要駕車／出行而累積的距離」與本句語境不同。"
+        "mileage-mcq-11": "本句的「mileage rate」指「每一里／公里可申領的固定補貼或報銷標準」。",
+        "mileage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-11"
     },
@@ -1143,11 +1033,9 @@ export default {
       "masked": "The ____ rate was increased this year.",
       "options": [
         "mileage-mcq-11",
-        "mileage-mcq-10",
-        "mileage-mcq-12",
-        "mileage-mcq-09",
-        "mileage-mcq-13",
-        "mileage-mcq-08"
+        "mileage-mcq-01",
+        "mileage-mcq-14",
+        "mileage-mcq-15"
       ],
       "explanation": "本句的「mileage」指「每一里／公里可申領的固定補貼或報銷標準」。",
       "sentenceIndex": 24,
@@ -1156,12 +1044,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-11": "本句指「每一里／公里可申領的固定補貼或報銷標準」。",
-        "mileage-mcq-10": "「按公務行駛距離補償員工相關車輛／交通成本」與本句語境不同。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。",
-        "mileage-mcq-09": "「機構按公務行駛距離向員工支付的交通補貼」與本句語境不同。",
-        "mileage-mcq-13": "「某物、構思或內容可以持續提供用途、效益或影響的程度」與本句語境不同。",
-        "mileage-mcq-08": "「因工作需要駕車／出行而累積的距離」與本句語境不同。"
+        "mileage-mcq-11": "本句的「mileage」指「每一里／公里可申領的固定補貼或報銷標準」。",
+        "mileage-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-11"
     },
@@ -1173,11 +1059,9 @@ export default {
       "masked": "He submitted a ____ after the trip.",
       "options": [
         "mileage-mcq-11",
-        "mileage-mcq-10",
-        "mileage-mcq-12",
-        "mileage-mcq-09",
-        "mileage-mcq-13",
-        "mileage-mcq-08"
+        "mileage-mcq-16",
+        "mileage-mcq-01",
+        "mileage-mcq-15"
       ],
       "explanation": "本句的「mileage claim」指「每一里／公里可申領的固定補貼或報銷標準」。",
       "sentenceIndex": 25,
@@ -1186,12 +1070,10 @@ export default {
         "mileage claim"
       ],
       "optionReasons": {
-        "mileage-mcq-11": "本句指「每一里／公里可申領的固定補貼或報銷標準」。",
-        "mileage-mcq-10": "「按公務行駛距離補償員工相關車輛／交通成本」與本句語境不同。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。",
-        "mileage-mcq-09": "「機構按公務行駛距離向員工支付的交通補貼」與本句語境不同。",
-        "mileage-mcq-13": "「某物、構思或內容可以持續提供用途、效益或影響的程度」與本句語境不同。",
-        "mileage-mcq-08": "「因工作需要駕車／出行而累積的距離」與本句語境不同。"
+        "mileage-mcq-11": "本句的「mileage claim」指「每一里／公里可申領的固定補貼或報銷標準」。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-11"
     },
@@ -1203,11 +1085,9 @@ export default {
       "masked": "____ claims must include the date and destination.",
       "options": [
         "mileage-mcq-11",
-        "mileage-mcq-10",
-        "mileage-mcq-12",
-        "mileage-mcq-09",
-        "mileage-mcq-13",
-        "mileage-mcq-08"
+        "mileage-mcq-01",
+        "mileage-mcq-14",
+        "mileage-mcq-15"
       ],
       "explanation": "本句的「Mileage」指「每一里／公里可申領的固定補貼或報銷標準」。",
       "sentenceIndex": 26,
@@ -1216,12 +1096,10 @@ export default {
         "Mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-11": "本句指「每一里／公里可申領的固定補貼或報銷標準」。",
-        "mileage-mcq-10": "「按公務行駛距離補償員工相關車輛／交通成本」與本句語境不同。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。",
-        "mileage-mcq-09": "「機構按公務行駛距離向員工支付的交通補貼」與本句語境不同。",
-        "mileage-mcq-13": "「某物、構思或內容可以持續提供用途、效益或影響的程度」與本句語境不同。",
-        "mileage-mcq-08": "「因工作需要駕車／出行而累積的距離」與本句語境不同。"
+        "mileage-mcq-11": "本句的「Mileage」指「每一里／公里可申領的固定補貼或報銷標準」。",
+        "mileage-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-11"
     },
@@ -1233,11 +1111,9 @@ export default {
       "masked": "Drivers should keep an accurate ____.",
       "options": [
         "mileage-mcq-12",
-        "mileage-mcq-11",
-        "mileage-mcq-13",
-        "mileage-mcq-10",
-        "mileage-mcq-14",
-        "mileage-mcq-09"
+        "mileage-mcq-16",
+        "mileage-mcq-15",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「mileage log」指「記錄行車日期、路程和距離的里程紀錄」。",
       "sentenceIndex": 27,
@@ -1246,12 +1122,10 @@ export default {
         "mileage log"
       ],
       "optionReasons": {
-        "mileage-mcq-12": "本句指「記錄行車日期、路程和距離的里程紀錄」。",
-        "mileage-mcq-11": "「每一里／公里可申領的固定補貼或報銷標準」與本句語境不同。",
-        "mileage-mcq-13": "「某物、構思或內容可以持續提供用途、效益或影響的程度」與本句語境不同。",
-        "mileage-mcq-10": "「按公務行駛距離補償員工相關車輛／交通成本」與本句語境不同。",
-        "mileage-mcq-14": "「從某件事反覆或長期取得用途、利益或效果」與本句語境不同。",
-        "mileage-mcq-09": "「機構按公務行駛距離向員工支付的交通補貼」與本句語境不同。"
+        "mileage-mcq-12": "本句的「mileage log」指「記錄行車日期、路程和距離的里程紀錄」。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-12"
     },
@@ -1263,11 +1137,9 @@ export default {
       "masked": "The app automatically creates a ____ log.",
       "options": [
         "mileage-mcq-12",
-        "mileage-mcq-11",
-        "mileage-mcq-13",
-        "mileage-mcq-10",
-        "mileage-mcq-14",
-        "mileage-mcq-09"
+        "mileage-mcq-16",
+        "mileage-mcq-15",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「mileage」指「記錄行車日期、路程和距離的里程紀錄」。",
       "sentenceIndex": 28,
@@ -1276,12 +1148,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-12": "本句指「記錄行車日期、路程和距離的里程紀錄」。",
-        "mileage-mcq-11": "「每一里／公里可申領的固定補貼或報銷標準」與本句語境不同。",
-        "mileage-mcq-13": "「某物、構思或內容可以持續提供用途、效益或影響的程度」與本句語境不同。",
-        "mileage-mcq-10": "「按公務行駛距離補償員工相關車輛／交通成本」與本句語境不同。",
-        "mileage-mcq-14": "「從某件事反覆或長期取得用途、利益或效果」與本句語境不同。",
-        "mileage-mcq-09": "「機構按公務行駛距離向員工支付的交通補貼」與本句語境不同。"
+        "mileage-mcq-12": "本句的「mileage」指「記錄行車日期、路程和距離的里程紀錄」。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-12"
     },
@@ -1293,11 +1163,8 @@ export default {
       "masked": "I’ve had a lot of ____ out of this old laptop.",
       "options": [
         "mileage-mcq-13",
-        "mileage-mcq-12",
-        "mileage-mcq-14",
         "mileage-mcq-11",
-        "mileage-mcq-15",
-        "mileage-mcq-10"
+        "mileage-mcq-06"
       ],
       "explanation": "本句的「mileage」指「某物、構思或內容可以持續提供用途、效益或影響的程度」。",
       "sentenceIndex": 29,
@@ -1306,12 +1173,9 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-13": "本句指「某物、構思或內容可以持續提供用途、效益或影響的程度」。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。",
-        "mileage-mcq-14": "「從某件事反覆或長期取得用途、利益或效果」與本句語境不同。",
-        "mileage-mcq-11": "「每一里／公里可申領的固定補貼或報銷標準」與本句語境不同。",
-        "mileage-mcq-15": "「某事件或構思所能產生的持續宣傳／商業效益」與本句語境不同。",
-        "mileage-mcq-10": "「按公務行駛距離補償員工相關車輛／交通成本」與本句語境不同。"
+        "mileage-mcq-13": "本句的「mileage」指「某物、構思或內容可以持續提供用途、效益或影響的程度」。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-13"
     },
@@ -1323,11 +1187,8 @@ export default {
       "masked": "They got plenty of ____ from the original campaign idea.",
       "options": [
         "mileage-mcq-13",
-        "mileage-mcq-12",
-        "mileage-mcq-14",
-        "mileage-mcq-11",
-        "mileage-mcq-15",
-        "mileage-mcq-10"
+        "mileage-mcq-10",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「mileage」指「某物、構思或內容可以持續提供用途、效益或影響的程度」。",
       "sentenceIndex": 30,
@@ -1336,12 +1197,9 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-13": "本句指「某物、構思或內容可以持續提供用途、效益或影響的程度」。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。",
-        "mileage-mcq-14": "「從某件事反覆或長期取得用途、利益或效果」與本句語境不同。",
-        "mileage-mcq-11": "「每一里／公里可申領的固定補貼或報銷標準」與本句語境不同。",
-        "mileage-mcq-15": "「某事件或構思所能產生的持續宣傳／商業效益」與本句語境不同。",
-        "mileage-mcq-10": "「按公務行駛距離補償員工相關車輛／交通成本」與本句語境不同。"
+        "mileage-mcq-13": "本句的「mileage」指「某物、構思或內容可以持續提供用途、效益或影響的程度」。",
+        "mileage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-13"
     },
@@ -1353,11 +1211,9 @@ export default {
       "masked": "She gets a lot of ____ that one example.",
       "options": [
         "mileage-mcq-14",
-        "mileage-mcq-13",
-        "mileage-mcq-15",
-        "mileage-mcq-12",
-        "mileage-mcq-16",
-        "mileage-mcq-11"
+        "mileage-mcq-03",
+        "mileage-mcq-11",
+        "mileage-mcq-15"
       ],
       "explanation": "本句的「mileage out of」指「從某件事反覆或長期取得用途、利益或效果」。",
       "sentenceIndex": 31,
@@ -1366,12 +1222,10 @@ export default {
         "mileage out of"
       ],
       "optionReasons": {
-        "mileage-mcq-14": "本句指「從某件事反覆或長期取得用途、利益或效果」。",
-        "mileage-mcq-13": "「某物、構思或內容可以持續提供用途、效益或影響的程度」與本句語境不同。",
-        "mileage-mcq-15": "「某事件或構思所能產生的持續宣傳／商業效益」與本句語境不同。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。",
-        "mileage-mcq-16": "「不同人的實際情況、效果或體驗可能不同」與本句語境不同。",
-        "mileage-mcq-11": "「每一里／公里可申領的固定補貼或報銷標準」與本句語境不同。"
+        "mileage-mcq-14": "本句的「mileage out of」指「從某件事反覆或長期取得用途、利益或效果」。",
+        "mileage-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-14"
     },
@@ -1383,11 +1237,9 @@ export default {
       "masked": "The company got a lot of ____ out of the slogan.",
       "options": [
         "mileage-mcq-14",
-        "mileage-mcq-13",
-        "mileage-mcq-15",
-        "mileage-mcq-12",
-        "mileage-mcq-16",
-        "mileage-mcq-11"
+        "mileage-mcq-17",
+        "mileage-mcq-11",
+        "mileage-mcq-15"
       ],
       "explanation": "本句的「mileage」指「從某件事反覆或長期取得用途、利益或效果」。",
       "sentenceIndex": 32,
@@ -1396,12 +1248,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-14": "本句指「從某件事反覆或長期取得用途、利益或效果」。",
-        "mileage-mcq-13": "「某物、構思或內容可以持續提供用途、效益或影響的程度」與本句語境不同。",
-        "mileage-mcq-15": "「某事件或構思所能產生的持續宣傳／商業效益」與本句語境不同。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。",
-        "mileage-mcq-16": "「不同人的實際情況、效果或體驗可能不同」與本句語境不同。",
-        "mileage-mcq-11": "「每一里／公里可申領的固定補貼或報銷標準」與本句語境不同。"
+        "mileage-mcq-14": "本句的「mileage」指「從某件事反覆或長期取得用途、利益或效果」。",
+        "mileage-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-14"
     },
@@ -1413,11 +1263,9 @@ export default {
       "masked": "The company got considerable ____ from the event.",
       "options": [
         "mileage-mcq-15",
-        "mileage-mcq-14",
-        "mileage-mcq-16",
-        "mileage-mcq-13",
-        "mileage-mcq-17",
-        "mileage-mcq-12"
+        "mileage-mcq-10",
+        "mileage-mcq-11",
+        "mileage-mcq-16"
       ],
       "explanation": "本句的「publicity mileage」指「某事件或構思所能產生的持續宣傳／商業效益」。",
       "sentenceIndex": 33,
@@ -1426,12 +1274,10 @@ export default {
         "publicity mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-15": "本句指「某事件或構思所能產生的持續宣傳／商業效益」。",
-        "mileage-mcq-14": "「從某件事反覆或長期取得用途、利益或效果」與本句語境不同。",
-        "mileage-mcq-16": "「不同人的實際情況、效果或體驗可能不同」與本句語境不同。",
-        "mileage-mcq-13": "「某物、構思或內容可以持續提供用途、效益或影響的程度」與本句語境不同。",
-        "mileage-mcq-17": "「車輛里程表所顯示的累積行駛距離數字」與本句語境不同。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。"
+        "mileage-mcq-15": "本句的「publicity mileage」指「某事件或構思所能產生的持續宣傳／商業效益」。",
+        "mileage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-15"
     },
@@ -1443,11 +1289,9 @@ export default {
       "masked": "The brand continued to get commercial ____ from the campaign.",
       "options": [
         "mileage-mcq-15",
-        "mileage-mcq-14",
-        "mileage-mcq-16",
-        "mileage-mcq-13",
-        "mileage-mcq-17",
-        "mileage-mcq-12"
+        "mileage-mcq-08",
+        "mileage-mcq-11",
+        "mileage-mcq-16"
       ],
       "explanation": "本句的「mileage」指「某事件或構思所能產生的持續宣傳／商業效益」。",
       "sentenceIndex": 34,
@@ -1456,12 +1300,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-15": "本句指「某事件或構思所能產生的持續宣傳／商業效益」。",
-        "mileage-mcq-14": "「從某件事反覆或長期取得用途、利益或效果」與本句語境不同。",
-        "mileage-mcq-16": "「不同人的實際情況、效果或體驗可能不同」與本句語境不同。",
-        "mileage-mcq-13": "「某物、構思或內容可以持續提供用途、效益或影響的程度」與本句語境不同。",
-        "mileage-mcq-17": "「車輛里程表所顯示的累積行駛距離數字」與本句語境不同。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。"
+        "mileage-mcq-15": "本句的「mileage」指「某事件或構思所能產生的持續宣傳／商業效益」。",
+        "mileage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-15"
     },
@@ -1473,11 +1315,9 @@ export default {
       "masked": "This method worked for me, but ____.",
       "options": [
         "mileage-mcq-16",
-        "mileage-mcq-15",
         "mileage-mcq-17",
-        "mileage-mcq-14",
-        "mileage-mcq-13",
-        "mileage-mcq-12"
+        "mileage-mcq-11",
+        "mileage-mcq-15"
       ],
       "explanation": "本句的「your mileage may vary」指「不同人的實際情況、效果或體驗可能不同」。",
       "sentenceIndex": 37,
@@ -1486,12 +1326,10 @@ export default {
         "your mileage may vary"
       ],
       "optionReasons": {
-        "mileage-mcq-16": "本句指「不同人的實際情況、效果或體驗可能不同」。",
-        "mileage-mcq-15": "「某事件或構思所能產生的持續宣傳／商業效益」與本句語境不同。",
-        "mileage-mcq-17": "「車輛里程表所顯示的累積行駛距離數字」與本句語境不同。",
-        "mileage-mcq-14": "「從某件事反覆或長期取得用途、利益或效果」與本句語境不同。",
-        "mileage-mcq-13": "「某物、構思或內容可以持續提供用途、效益或影響的程度」與本句語境不同。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。"
+        "mileage-mcq-16": "本句的「your mileage may vary」指「不同人的實際情況、效果或體驗可能不同」。",
+        "mileage-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-16"
     },
@@ -1503,11 +1341,9 @@ export default {
       "masked": "The headphones were comfortable for me—your ____ may vary.",
       "options": [
         "mileage-mcq-16",
-        "mileage-mcq-15",
-        "mileage-mcq-17",
-        "mileage-mcq-14",
-        "mileage-mcq-13",
-        "mileage-mcq-12"
+        "mileage-mcq-12",
+        "mileage-mcq-11",
+        "mileage-mcq-15"
       ],
       "explanation": "本句的「mileage」指「不同人的實際情況、效果或體驗可能不同」。",
       "sentenceIndex": 38,
@@ -1516,12 +1352,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-16": "本句指「不同人的實際情況、效果或體驗可能不同」。",
-        "mileage-mcq-15": "「某事件或構思所能產生的持續宣傳／商業效益」與本句語境不同。",
-        "mileage-mcq-17": "「車輛里程表所顯示的累積行駛距離數字」與本句語境不同。",
-        "mileage-mcq-14": "「從某件事反覆或長期取得用途、利益或效果」與本句語境不同。",
-        "mileage-mcq-13": "「某物、構思或內容可以持續提供用途、效益或影響的程度」與本句語境不同。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。"
+        "mileage-mcq-16": "本句的「mileage」指「不同人的實際情況、效果或體驗可能不同」。",
+        "mileage-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-16"
     },
@@ -1535,9 +1369,7 @@ export default {
         "mileage-mcq-17",
         "mileage-mcq-16",
         "mileage-mcq-15",
-        "mileage-mcq-14",
-        "mileage-mcq-13",
-        "mileage-mcq-12"
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「mileage」指「車輛里程表所顯示的累積行駛距離數字」。",
       "sentenceIndex": 39,
@@ -1546,12 +1378,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-17": "本句指「車輛里程表所顯示的累積行駛距離數字」。",
-        "mileage-mcq-16": "「不同人的實際情況、效果或體驗可能不同」與本句語境不同。",
-        "mileage-mcq-15": "「某事件或構思所能產生的持續宣傳／商業效益」與本句語境不同。",
-        "mileage-mcq-14": "「從某件事反覆或長期取得用途、利益或效果」與本句語境不同。",
-        "mileage-mcq-13": "「某物、構思或內容可以持續提供用途、效益或影響的程度」與本句語境不同。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。"
+        "mileage-mcq-17": "本句的「mileage」指「車輛里程表所顯示的累積行駛距離數字」。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-17"
     },
@@ -1563,11 +1393,9 @@ export default {
       "masked": "High ____ can affect resale value.",
       "options": [
         "mileage-mcq-17",
-        "mileage-mcq-16",
         "mileage-mcq-15",
-        "mileage-mcq-14",
-        "mileage-mcq-13",
-        "mileage-mcq-12"
+        "mileage-mcq-16",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「mileage」指「車輛里程表所顯示的累積行駛距離數字」。",
       "sentenceIndex": 40,
@@ -1576,12 +1404,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-17": "本句指「車輛里程表所顯示的累積行駛距離數字」。",
-        "mileage-mcq-16": "「不同人的實際情況、效果或體驗可能不同」與本句語境不同。",
-        "mileage-mcq-15": "「某事件或構思所能產生的持續宣傳／商業效益」與本句語境不同。",
-        "mileage-mcq-14": "「從某件事反覆或長期取得用途、利益或效果」與本句語境不同。",
-        "mileage-mcq-13": "「某物、構思或內容可以持續提供用途、效益或影響的程度」與本句語境不同。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。"
+        "mileage-mcq-17": "本句的「mileage」指「車輛里程表所顯示的累積行駛距離數字」。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-17"
     },
@@ -1593,11 +1419,9 @@ export default {
       "masked": "The ____ shown on the dashboard was 80,000.",
       "options": [
         "mileage-mcq-17",
-        "mileage-mcq-16",
         "mileage-mcq-15",
         "mileage-mcq-14",
-        "mileage-mcq-13",
-        "mileage-mcq-12"
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「mileage」指「車輛里程表所顯示的累積行駛距離數字」。",
       "sentenceIndex": 41,
@@ -1606,12 +1430,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-17": "本句指「車輛里程表所顯示的累積行駛距離數字」。",
-        "mileage-mcq-16": "「不同人的實際情況、效果或體驗可能不同」與本句語境不同。",
-        "mileage-mcq-15": "「某事件或構思所能產生的持續宣傳／商業效益」與本句語境不同。",
-        "mileage-mcq-14": "「從某件事反覆或長期取得用途、利益或效果」與本句語境不同。",
-        "mileage-mcq-13": "「某物、構思或內容可以持續提供用途、效益或影響的程度」與本句語境不同。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。"
+        "mileage-mcq-17": "本句的「mileage」指「車輛里程表所顯示的累積行駛距離數字」。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-17"
     },
@@ -1623,11 +1445,9 @@ export default {
       "masked": "The buyer questioned whether the recorded ____ was accurate.",
       "options": [
         "mileage-mcq-17",
-        "mileage-mcq-16",
-        "mileage-mcq-15",
         "mileage-mcq-14",
-        "mileage-mcq-13",
-        "mileage-mcq-12"
+        "mileage-mcq-15",
+        "mileage-mcq-11"
       ],
       "explanation": "本句的「mileage」指「車輛里程表所顯示的累積行駛距離數字」。",
       "sentenceIndex": 42,
@@ -1636,12 +1456,10 @@ export default {
         "mileage"
       ],
       "optionReasons": {
-        "mileage-mcq-17": "本句指「車輛里程表所顯示的累積行駛距離數字」。",
-        "mileage-mcq-16": "「不同人的實際情況、效果或體驗可能不同」與本句語境不同。",
-        "mileage-mcq-15": "「某事件或構思所能產生的持續宣傳／商業效益」與本句語境不同。",
-        "mileage-mcq-14": "「從某件事反覆或長期取得用途、利益或效果」與本句語境不同。",
-        "mileage-mcq-13": "「某物、構思或內容可以持續提供用途、效益或影響的程度」與本句語境不同。",
-        "mileage-mcq-12": "「記錄行車日期、路程和距離的里程紀錄」與本句語境不同。"
+        "mileage-mcq-17": "本句的「mileage」指「車輛里程表所顯示的累積行駛距離數字」。",
+        "mileage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mileage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mileage-mcq-17"
     }
@@ -1653,5 +1471,7 @@ export default {
     "sha256": "91341b682e2310104b0574872109deb9c59b820a0bb39f764c40a406a466915e",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

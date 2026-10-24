@@ -460,11 +460,9 @@ export default {
       "masked": "He was full of ____.",
       "options": [
         "energy-mcq-01",
-        "energy-mcq-02",
-        "energy-mcq-03",
-        "energy-mcq-04",
-        "energy-mcq-05",
-        "energy-mcq-06"
+        "energy-mcq-17",
+        "energy-mcq-08",
+        "energy-mcq-19"
       ],
       "explanation": "本句的「energy」指「身體或精神上可用來活動、工作、思考或持續做事情的精力」。",
       "sentenceIndex": 0,
@@ -473,12 +471,10 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-01": "本句指「身體或精神上可用來活動、工作、思考或持續做事情的精力」。",
-        "energy-mcq-02": "「有足夠體力或精神去完成某事」是「have the energy to」的用法，與本句語境不同。",
-        "energy-mcq-03": "「精神、體力非常充沛，活力十足」是「full of energy」的用法，與本句語境不同。",
-        "energy-mcq-04": "「某人／活動所散發的活力、熱情和感染力」是「energy — enthusiasm/liveliness」的用法，與本句語境不同。",
-        "energy-mcq-05": "「某人、地方或情境給人的整體動態感和氣氛」是「energy — atmosphere」的用法，與本句語境不同。",
-        "energy-mcq-06": "「可投入某件事的精神、心力和努力」是「energy — effort」的用法，與本句語境不同。"
+        "energy-mcq-01": "本句的「energy」指「身體或精神上可用來活動、工作、思考或持續做事情的精力」。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-01"
     },
@@ -490,11 +486,9 @@ export default {
       "masked": "Children often have a lot of ____.",
       "options": [
         "energy-mcq-01",
-        "energy-mcq-02",
-        "energy-mcq-03",
-        "energy-mcq-04",
-        "energy-mcq-05",
-        "energy-mcq-06"
+        "energy-mcq-17",
+        "energy-mcq-08",
+        "energy-mcq-19"
       ],
       "explanation": "本句的「energy」指「身體或精神上可用來活動、工作、思考或持續做事情的精力」。",
       "sentenceIndex": 1,
@@ -503,12 +497,10 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-01": "本句指「身體或精神上可用來活動、工作、思考或持續做事情的精力」。",
-        "energy-mcq-02": "「有足夠體力或精神去完成某事」是「have the energy to」的用法，與本句語境不同。",
-        "energy-mcq-03": "「精神、體力非常充沛，活力十足」是「full of energy」的用法，與本句語境不同。",
-        "energy-mcq-04": "「某人／活動所散發的活力、熱情和感染力」是「energy — enthusiasm/liveliness」的用法，與本句語境不同。",
-        "energy-mcq-05": "「某人、地方或情境給人的整體動態感和氣氛」是「energy — atmosphere」的用法，與本句語境不同。",
-        "energy-mcq-06": "「可投入某件事的精神、心力和努力」是「energy — effort」的用法，與本句語境不同。"
+        "energy-mcq-01": "本句的「energy」指「身體或精神上可用來活動、工作、思考或持續做事情的精力」。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-01"
     },
@@ -520,11 +512,9 @@ export default {
       "masked": "I don’t have enough ____ to go out tonight.",
       "options": [
         "energy-mcq-01",
-        "energy-mcq-02",
-        "energy-mcq-03",
-        "energy-mcq-04",
-        "energy-mcq-05",
-        "energy-mcq-06"
+        "energy-mcq-17",
+        "energy-mcq-08",
+        "energy-mcq-19"
       ],
       "explanation": "本句的「energy」指「身體或精神上可用來活動、工作、思考或持續做事情的精力」。",
       "sentenceIndex": 2,
@@ -533,12 +523,10 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-01": "本句指「身體或精神上可用來活動、工作、思考或持續做事情的精力」。",
-        "energy-mcq-02": "「有足夠體力或精神去完成某事」是「have the energy to」的用法，與本句語境不同。",
-        "energy-mcq-03": "「精神、體力非常充沛，活力十足」是「full of energy」的用法，與本句語境不同。",
-        "energy-mcq-04": "「某人／活動所散發的活力、熱情和感染力」是「energy — enthusiasm/liveliness」的用法，與本句語境不同。",
-        "energy-mcq-05": "「某人、地方或情境給人的整體動態感和氣氛」是「energy — atmosphere」的用法，與本句語境不同。",
-        "energy-mcq-06": "「可投入某件事的精神、心力和努力」是「energy — effort」的用法，與本句語境不同。"
+        "energy-mcq-01": "本句的「energy」指「身體或精神上可用來活動、工作、思考或持續做事情的精力」。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-01"
     },
@@ -550,11 +538,8 @@ export default {
       "masked": "After work, I rarely have the ____.",
       "options": [
         "energy-mcq-02",
-        "energy-mcq-01",
-        "energy-mcq-03",
-        "energy-mcq-04",
-        "energy-mcq-05",
-        "energy-mcq-06"
+        "energy-mcq-15",
+        "energy-mcq-17"
       ],
       "explanation": "本句的「energy to cook」指「有足夠體力或精神去完成某事」。",
       "sentenceIndex": 3,
@@ -563,12 +548,9 @@ export default {
         "energy to cook"
       ],
       "optionReasons": {
-        "energy-mcq-02": "本句指「有足夠體力或精神去完成某事」。",
-        "energy-mcq-01": "「身體或精神上可用來活動、工作、思考或持續做事情的精力」是「energy — personal vitality」的用法，與本句語境不同。",
-        "energy-mcq-03": "「精神、體力非常充沛，活力十足」是「full of energy」的用法，與本句語境不同。",
-        "energy-mcq-04": "「某人／活動所散發的活力、熱情和感染力」是「energy — enthusiasm/liveliness」的用法，與本句語境不同。",
-        "energy-mcq-05": "「某人、地方或情境給人的整體動態感和氣氛」是「energy — atmosphere」的用法，與本句語境不同。",
-        "energy-mcq-06": "「可投入某件事的精神、心力和努力」是「energy — effort」的用法，與本句語境不同。"
+        "energy-mcq-02": "本句的「energy to cook」指「有足夠體力或精神去完成某事」。",
+        "energy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-02"
     },
@@ -580,11 +562,8 @@ export default {
       "masked": "She still had enough ____ with the children.",
       "options": [
         "energy-mcq-02",
-        "energy-mcq-01",
-        "energy-mcq-03",
-        "energy-mcq-04",
-        "energy-mcq-05",
-        "energy-mcq-06"
+        "energy-mcq-17",
+        "energy-mcq-15"
       ],
       "explanation": "本句的「energy to play」指「有足夠體力或精神去完成某事」。",
       "sentenceIndex": 4,
@@ -593,12 +572,9 @@ export default {
         "energy to play"
       ],
       "optionReasons": {
-        "energy-mcq-02": "本句指「有足夠體力或精神去完成某事」。",
-        "energy-mcq-01": "「身體或精神上可用來活動、工作、思考或持續做事情的精力」是「energy — personal vitality」的用法，與本句語境不同。",
-        "energy-mcq-03": "「精神、體力非常充沛，活力十足」是「full of energy」的用法，與本句語境不同。",
-        "energy-mcq-04": "「某人／活動所散發的活力、熱情和感染力」是「energy — enthusiasm/liveliness」的用法，與本句語境不同。",
-        "energy-mcq-05": "「某人、地方或情境給人的整體動態感和氣氛」是「energy — atmosphere」的用法，與本句語境不同。",
-        "energy-mcq-06": "「可投入某件事的精神、心力和努力」是「energy — effort」的用法，與本句語境不同。"
+        "energy-mcq-02": "本句的「energy to play」指「有足夠體力或精神去完成某事」。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-02"
     },
@@ -610,11 +586,8 @@ export default {
       "masked": "Leo is always ____.",
       "options": [
         "energy-mcq-03",
-        "energy-mcq-02",
-        "energy-mcq-04",
-        "energy-mcq-01",
-        "energy-mcq-05",
-        "energy-mcq-06"
+        "energy-mcq-17",
+        "energy-mcq-08"
       ],
       "explanation": "本句的「full of energy」指「精神、體力非常充沛，活力十足」。",
       "sentenceIndex": 5,
@@ -623,12 +596,9 @@ export default {
         "full of energy"
       ],
       "optionReasons": {
-        "energy-mcq-03": "本句指「精神、體力非常充沛，活力十足」。",
-        "energy-mcq-02": "「有足夠體力或精神去完成某事」是「have the energy to」的用法，與本句語境不同。",
-        "energy-mcq-04": "「某人／活動所散發的活力、熱情和感染力」是「energy — enthusiasm/liveliness」的用法，與本句語境不同。",
-        "energy-mcq-01": "「身體或精神上可用來活動、工作、思考或持續做事情的精力」是「energy — personal vitality」的用法，與本句語境不同。",
-        "energy-mcq-05": "「某人、地方或情境給人的整體動態感和氣氛」是「energy — atmosphere」的用法，與本句語境不同。",
-        "energy-mcq-06": "「可投入某件事的精神、心力和努力」是「energy — effort」的用法，與本句語境不同。"
+        "energy-mcq-03": "本句的「full of energy」指「精神、體力非常充沛，活力十足」。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-03"
     },
@@ -640,11 +610,8 @@ export default {
       "masked": "She woke up feeling ____.",
       "options": [
         "energy-mcq-03",
-        "energy-mcq-02",
-        "energy-mcq-04",
-        "energy-mcq-01",
-        "energy-mcq-05",
-        "energy-mcq-06"
+        "energy-mcq-17",
+        "energy-mcq-15"
       ],
       "explanation": "本句的「full of energy」指「精神、體力非常充沛，活力十足」。",
       "sentenceIndex": 6,
@@ -653,12 +620,9 @@ export default {
         "full of energy"
       ],
       "optionReasons": {
-        "energy-mcq-03": "本句指「精神、體力非常充沛，活力十足」。",
-        "energy-mcq-02": "「有足夠體力或精神去完成某事」是「have the energy to」的用法，與本句語境不同。",
-        "energy-mcq-04": "「某人／活動所散發的活力、熱情和感染力」是「energy — enthusiasm/liveliness」的用法，與本句語境不同。",
-        "energy-mcq-01": "「身體或精神上可用來活動、工作、思考或持續做事情的精力」是「energy — personal vitality」的用法，與本句語境不同。",
-        "energy-mcq-05": "「某人、地方或情境給人的整體動態感和氣氛」是「energy — atmosphere」的用法，與本句語境不同。",
-        "energy-mcq-06": "「可投入某件事的精神、心力和努力」是「energy — effort」的用法，與本句語境不同。"
+        "energy-mcq-03": "本句的「full of energy」指「精神、體力非常充沛，活力十足」。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-03"
     },
@@ -670,11 +634,8 @@ export default {
       "masked": "She brings a lot of ____ to the team.",
       "options": [
         "energy-mcq-04",
-        "energy-mcq-03",
-        "energy-mcq-05",
-        "energy-mcq-02",
-        "energy-mcq-06",
-        "energy-mcq-01"
+        "energy-mcq-11",
+        "energy-mcq-08"
       ],
       "explanation": "本句的「energy」指「某人／活動所散發的活力、熱情和感染力」。",
       "sentenceIndex": 7,
@@ -683,12 +644,9 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-04": "本句指「某人／活動所散發的活力、熱情和感染力」。",
-        "energy-mcq-03": "「精神、體力非常充沛，活力十足」是「full of energy」的用法，與本句語境不同。",
-        "energy-mcq-05": "「某人、地方或情境給人的整體動態感和氣氛」是「energy — atmosphere」的用法，與本句語境不同。",
-        "energy-mcq-02": "「有足夠體力或精神去完成某事」是「have the energy to」的用法，與本句語境不同。",
-        "energy-mcq-06": "「可投入某件事的精神、心力和努力」是「energy — effort」的用法，與本句語境不同。",
-        "energy-mcq-01": "「身體或精神上可用來活動、工作、思考或持續做事情的精力」是「energy — personal vitality」的用法，與本句語境不同。"
+        "energy-mcq-04": "本句的「energy」指「某人／活動所散發的活力、熱情和感染力」。",
+        "energy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-04"
     },
@@ -700,11 +658,8 @@ export default {
       "masked": "The performance had amazing ____.",
       "options": [
         "energy-mcq-04",
-        "energy-mcq-03",
-        "energy-mcq-05",
-        "energy-mcq-02",
-        "energy-mcq-06",
-        "energy-mcq-01"
+        "energy-mcq-13",
+        "energy-mcq-08"
       ],
       "explanation": "本句的「energy」指「某人／活動所散發的活力、熱情和感染力」。",
       "sentenceIndex": 8,
@@ -713,12 +668,9 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-04": "本句指「某人／活動所散發的活力、熱情和感染力」。",
-        "energy-mcq-03": "「精神、體力非常充沛，活力十足」是「full of energy」的用法，與本句語境不同。",
-        "energy-mcq-05": "「某人、地方或情境給人的整體動態感和氣氛」是「energy — atmosphere」的用法，與本句語境不同。",
-        "energy-mcq-02": "「有足夠體力或精神去完成某事」是「have the energy to」的用法，與本句語境不同。",
-        "energy-mcq-06": "「可投入某件事的精神、心力和努力」是「energy — effort」的用法，與本句語境不同。",
-        "energy-mcq-01": "「身體或精神上可用來活動、工作、思考或持續做事情的精力」是「energy — personal vitality」的用法，與本句語境不同。"
+        "energy-mcq-04": "本句的「energy」指「某人／活動所散發的活力、熱情和感染力」。",
+        "energy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-04"
     },
@@ -730,11 +682,8 @@ export default {
       "masked": "The room had a positive ____.",
       "options": [
         "energy-mcq-05",
-        "energy-mcq-04",
-        "energy-mcq-06",
-        "energy-mcq-03",
-        "energy-mcq-07",
-        "energy-mcq-02"
+        "energy-mcq-10",
+        "energy-mcq-16"
       ],
       "explanation": "本句的「energy」指「某人、地方或情境給人的整體動態感和氣氛」。",
       "sentenceIndex": 9,
@@ -743,12 +692,9 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-05": "本句指「某人、地方或情境給人的整體動態感和氣氛」。",
-        "energy-mcq-04": "「某人／活動所散發的活力、熱情和感染力」是「energy — enthusiasm/liveliness」的用法，與本句語境不同。",
-        "energy-mcq-06": "「可投入某件事的精神、心力和努力」是「energy — effort」的用法，與本句語境不同。",
-        "energy-mcq-03": "「精神、體力非常充沛，活力十足」是「full of energy」的用法，與本句語境不同。",
-        "energy-mcq-07": "「把大量努力、心力或精神投入某事」是「put energy into」的用法，與本句語境不同。",
-        "energy-mcq-02": "「有足夠體力或精神去完成某事」是「have the energy to」的用法，與本句語境不同。"
+        "energy-mcq-05": "本句的「energy」指「某人、地方或情境給人的整體動態感和氣氛」。",
+        "energy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-05"
     },
@@ -760,11 +706,8 @@ export default {
       "masked": "The city has a very different ____ at night.",
       "options": [
         "energy-mcq-05",
-        "energy-mcq-04",
-        "energy-mcq-06",
-        "energy-mcq-03",
-        "energy-mcq-07",
-        "energy-mcq-02"
+        "energy-mcq-13",
+        "energy-mcq-16"
       ],
       "explanation": "本句的「energy」指「某人、地方或情境給人的整體動態感和氣氛」。",
       "sentenceIndex": 10,
@@ -773,12 +716,9 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-05": "本句指「某人、地方或情境給人的整體動態感和氣氛」。",
-        "energy-mcq-04": "「某人／活動所散發的活力、熱情和感染力」是「energy — enthusiasm/liveliness」的用法，與本句語境不同。",
-        "energy-mcq-06": "「可投入某件事的精神、心力和努力」是「energy — effort」的用法，與本句語境不同。",
-        "energy-mcq-03": "「精神、體力非常充沛，活力十足」是「full of energy」的用法，與本句語境不同。",
-        "energy-mcq-07": "「把大量努力、心力或精神投入某事」是「put energy into」的用法，與本句語境不同。",
-        "energy-mcq-02": "「有足夠體力或精神去完成某事」是「have the energy to」的用法，與本句語境不同。"
+        "energy-mcq-05": "本句的「energy」指「某人、地方或情境給人的整體動態感和氣氛」。",
+        "energy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-05"
     },
@@ -791,10 +731,7 @@ export default {
       "options": [
         "energy-mcq-06",
         "energy-mcq-05",
-        "energy-mcq-07",
-        "energy-mcq-04",
-        "energy-mcq-08",
-        "energy-mcq-03"
+        "energy-mcq-15"
       ],
       "explanation": "本句的「energy」指「可投入某件事的精神、心力和努力」。",
       "sentenceIndex": 11,
@@ -803,12 +740,9 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-06": "本句指「可投入某件事的精神、心力和努力」。",
-        "energy-mcq-05": "「某人、地方或情境給人的整體動態感和氣氛」是「energy — atmosphere」的用法，與本句語境不同。",
-        "energy-mcq-07": "「把大量努力、心力或精神投入某事」是「put energy into」的用法，與本句語境不同。",
-        "energy-mcq-04": "「某人／活動所散發的活力、熱情和感染力」是「energy — enthusiasm/liveliness」的用法，與本句語境不同。",
-        "energy-mcq-08": "「在物理學中做功或引起變化的能力」是「energy — physics」的用法，與本句語境不同。",
-        "energy-mcq-03": "「精神、體力非常充沛，活力十足」是「full of energy」的用法，與本句語境不同。"
+        "energy-mcq-06": "本句的「energy」指「可投入某件事的精神、心力和努力」。",
+        "energy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-06"
     },
@@ -821,10 +755,7 @@ export default {
       "options": [
         "energy-mcq-06",
         "energy-mcq-05",
-        "energy-mcq-07",
-        "energy-mcq-04",
-        "energy-mcq-08",
-        "energy-mcq-03"
+        "energy-mcq-15"
       ],
       "explanation": "本句的「energy」指「可投入某件事的精神、心力和努力」。",
       "sentenceIndex": 12,
@@ -833,12 +764,9 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-06": "本句指「可投入某件事的精神、心力和努力」。",
-        "energy-mcq-05": "「某人、地方或情境給人的整體動態感和氣氛」是「energy — atmosphere」的用法，與本句語境不同。",
-        "energy-mcq-07": "「把大量努力、心力或精神投入某事」是「put energy into」的用法，與本句語境不同。",
-        "energy-mcq-04": "「某人／活動所散發的活力、熱情和感染力」是「energy — enthusiasm/liveliness」的用法，與本句語境不同。",
-        "energy-mcq-08": "「在物理學中做功或引起變化的能力」是「energy — physics」的用法，與本句語境不同。",
-        "energy-mcq-03": "「精神、體力非常充沛，活力十足」是「full of energy」的用法，與本句語境不同。"
+        "energy-mcq-06": "本句的「energy」指「可投入某件事的精神、心力和努力」。",
+        "energy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-06"
     },
@@ -850,11 +778,8 @@ export default {
       "masked": "He puts a lot of ____ his creative projects.",
       "options": [
         "energy-mcq-07",
-        "energy-mcq-06",
-        "energy-mcq-08",
         "energy-mcq-05",
-        "energy-mcq-09",
-        "energy-mcq-04"
+        "energy-mcq-15"
       ],
       "explanation": "本句的「energy into」指「把大量努力、心力或精神投入某事」。",
       "sentenceIndex": 13,
@@ -863,12 +788,9 @@ export default {
         "energy into"
       ],
       "optionReasons": {
-        "energy-mcq-07": "本句指「把大量努力、心力或精神投入某事」。",
-        "energy-mcq-06": "「可投入某件事的精神、心力和努力」是「energy — effort」的用法，與本句語境不同。",
-        "energy-mcq-08": "「在物理學中做功或引起變化的能力」是「energy — physics」的用法，與本句語境不同。",
-        "energy-mcq-05": "「某人、地方或情境給人的整體動態感和氣氛」是「energy — atmosphere」的用法，與本句語境不同。",
-        "energy-mcq-09": "「可用來產生電力、熱力或驅動設備的能源」是「energy — resource」的用法，與本句語境不同。",
-        "energy-mcq-04": "「某人／活動所散發的活力、熱情和感染力」是「energy — enthusiasm/liveliness」的用法，與本句語境不同。"
+        "energy-mcq-07": "本句的「energy into」指「把大量努力、心力或精神投入某事」。",
+        "energy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-07"
     },
@@ -880,11 +802,9 @@ export default {
       "masked": "She poured all her ____ helping her family.",
       "options": [
         "energy-mcq-07",
-        "energy-mcq-06",
-        "energy-mcq-08",
-        "energy-mcq-05",
-        "energy-mcq-09",
-        "energy-mcq-04"
+        "energy-mcq-15",
+        "energy-mcq-17",
+        "energy-mcq-19"
       ],
       "explanation": "本句的「energy into」指「把大量努力、心力或精神投入某事」。",
       "sentenceIndex": 14,
@@ -893,12 +813,10 @@ export default {
         "energy into"
       ],
       "optionReasons": {
-        "energy-mcq-07": "本句指「把大量努力、心力或精神投入某事」。",
-        "energy-mcq-06": "「可投入某件事的精神、心力和努力」是「energy — effort」的用法，與本句語境不同。",
-        "energy-mcq-08": "「在物理學中做功或引起變化的能力」是「energy — physics」的用法，與本句語境不同。",
-        "energy-mcq-05": "「某人、地方或情境給人的整體動態感和氣氛」是「energy — atmosphere」的用法，與本句語境不同。",
-        "energy-mcq-09": "「可用來產生電力、熱力或驅動設備的能源」是「energy — resource」的用法，與本句語境不同。",
-        "energy-mcq-04": "「某人／活動所散發的活力、熱情和感染力」是「energy — enthusiasm/liveliness」的用法，與本句語境不同。"
+        "energy-mcq-07": "本句的「energy into」指「把大量努力、心力或精神投入某事」。",
+        "energy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-07"
     },
@@ -910,11 +828,9 @@ export default {
       "masked": "Moving objects have kinetic ____.",
       "options": [
         "energy-mcq-08",
-        "energy-mcq-07",
-        "energy-mcq-09",
-        "energy-mcq-06",
-        "energy-mcq-10",
-        "energy-mcq-05"
+        "energy-mcq-11",
+        "energy-mcq-17",
+        "energy-mcq-19"
       ],
       "explanation": "本句的「energy」指「在物理學中做功或引起變化的能力」。",
       "sentenceIndex": 15,
@@ -923,12 +839,10 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-08": "本句指「在物理學中做功或引起變化的能力」。",
-        "energy-mcq-07": "「把大量努力、心力或精神投入某事」是「put energy into」的用法，與本句語境不同。",
-        "energy-mcq-09": "「可用來產生電力、熱力或驅動設備的能源」是「energy — resource」的用法，與本句語境不同。",
-        "energy-mcq-06": "「可投入某件事的精神、心力和努力」是「energy — effort」的用法，與本句語境不同。",
-        "energy-mcq-10": "「能自然補充並可持續使用的能源」是「renewable energy」的用法，與本句語境不同。",
-        "energy-mcq-05": "「某人、地方或情境給人的整體動態感和氣氛」是「energy — atmosphere」的用法，與本句語境不同。"
+        "energy-mcq-08": "本句的「energy」指「在物理學中做功或引起變化的能力」。",
+        "energy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-08"
     },
@@ -940,11 +854,8 @@ export default {
       "masked": "Plants obtain ____ from sunlight.",
       "options": [
         "energy-mcq-08",
-        "energy-mcq-07",
-        "energy-mcq-09",
-        "energy-mcq-06",
-        "energy-mcq-10",
-        "energy-mcq-05"
+        "energy-mcq-05",
+        "energy-mcq-10"
       ],
       "explanation": "本句的「energy」指「在物理學中做功或引起變化的能力」。",
       "sentenceIndex": 16,
@@ -953,12 +864,9 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-08": "本句指「在物理學中做功或引起變化的能力」。",
-        "energy-mcq-07": "「把大量努力、心力或精神投入某事」是「put energy into」的用法，與本句語境不同。",
-        "energy-mcq-09": "「可用來產生電力、熱力或驅動設備的能源」是「energy — resource」的用法，與本句語境不同。",
-        "energy-mcq-06": "「可投入某件事的精神、心力和努力」是「energy — effort」的用法，與本句語境不同。",
-        "energy-mcq-10": "「能自然補充並可持續使用的能源」是「renewable energy」的用法，與本句語境不同。",
-        "energy-mcq-05": "「某人、地方或情境給人的整體動態感和氣氛」是「energy — atmosphere」的用法，與本句語境不同。"
+        "energy-mcq-08": "本句的「energy」指「在物理學中做功或引起變化的能力」。",
+        "energy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-08"
     },
@@ -970,11 +878,8 @@ export default {
       "masked": "The country is investing in clean ____.",
       "options": [
         "energy-mcq-09",
-        "energy-mcq-08",
-        "energy-mcq-10",
-        "energy-mcq-07",
-        "energy-mcq-11",
-        "energy-mcq-06"
+        "energy-mcq-17",
+        "energy-mcq-19"
       ],
       "explanation": "本句的「energy」指「可用來產生電力、熱力或驅動設備的能源」。",
       "sentenceIndex": 17,
@@ -983,12 +888,9 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-09": "本句指「可用來產生電力、熱力或驅動設備的能源」。",
-        "energy-mcq-08": "「在物理學中做功或引起變化的能力」是「energy — physics」的用法，與本句語境不同。",
-        "energy-mcq-10": "「能自然補充並可持續使用的能源」是「renewable energy」的用法，與本句語境不同。",
-        "energy-mcq-07": "「把大量努力、心力或精神投入某事」是「put energy into」的用法，與本句語境不同。",
-        "energy-mcq-11": "「能提供可用能量或燃料的來源」是「energy source」的用法，與本句語境不同。",
-        "energy-mcq-06": "「可投入某件事的精神、心力和努力」是「energy — effort」的用法，與本句語境不同。"
+        "energy-mcq-09": "本句的「energy」指「可用來產生電力、熱力或驅動設備的能源」。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-09"
     },
@@ -1000,11 +902,8 @@ export default {
       "masked": "Homes use ____ for heating and lighting.",
       "options": [
         "energy-mcq-09",
-        "energy-mcq-08",
-        "energy-mcq-10",
-        "energy-mcq-07",
-        "energy-mcq-11",
-        "energy-mcq-06"
+        "energy-mcq-17",
+        "energy-mcq-19"
       ],
       "explanation": "本句的「energy」指「可用來產生電力、熱力或驅動設備的能源」。",
       "sentenceIndex": 18,
@@ -1013,12 +912,9 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-09": "本句指「可用來產生電力、熱力或驅動設備的能源」。",
-        "energy-mcq-08": "「在物理學中做功或引起變化的能力」是「energy — physics」的用法，與本句語境不同。",
-        "energy-mcq-10": "「能自然補充並可持續使用的能源」是「renewable energy」的用法，與本句語境不同。",
-        "energy-mcq-07": "「把大量努力、心力或精神投入某事」是「put energy into」的用法，與本句語境不同。",
-        "energy-mcq-11": "「能提供可用能量或燃料的來源」是「energy source」的用法，與本句語境不同。",
-        "energy-mcq-06": "「可投入某件事的精神、心力和努力」是「energy — effort」的用法，與本句語境不同。"
+        "energy-mcq-09": "本句的「energy」指「可用來產生電力、熱力或驅動設備的能源」。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-09"
     },
@@ -1030,11 +926,8 @@ export default {
       "masked": "Solar and wind power are forms of ____.",
       "options": [
         "energy-mcq-10",
-        "energy-mcq-09",
-        "energy-mcq-11",
         "energy-mcq-08",
-        "energy-mcq-12",
-        "energy-mcq-07"
+        "energy-mcq-05"
       ],
       "explanation": "本句的「renewable energy」指「能自然補充並可持續使用的能源」。",
       "sentenceIndex": 19,
@@ -1043,12 +936,9 @@ export default {
         "renewable energy"
       ],
       "optionReasons": {
-        "energy-mcq-10": "本句指「能自然補充並可持續使用的能源」。",
-        "energy-mcq-09": "「可用來產生電力、熱力或驅動設備的能源」是「energy — resource」的用法，與本句語境不同。",
-        "energy-mcq-11": "「能提供可用能量或燃料的來源」是「energy source」的用法，與本句語境不同。",
-        "energy-mcq-08": "「在物理學中做功或引起變化的能力」是「energy — physics」的用法，與本句語境不同。",
-        "energy-mcq-12": "「某人／設備／系統所使用的能源量」是「energy consumption」的用法，與本句語境不同。",
-        "energy-mcq-07": "「把大量努力、心力或精神投入某事」是「put energy into」的用法，與本句語境不同。"
+        "energy-mcq-10": "本句的「renewable energy」指「能自然補充並可持續使用的能源」。",
+        "energy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-10"
     },
@@ -1060,11 +950,8 @@ export default {
       "masked": "The city wants to increase its use of ____.",
       "options": [
         "energy-mcq-10",
-        "energy-mcq-09",
-        "energy-mcq-11",
         "energy-mcq-08",
-        "energy-mcq-12",
-        "energy-mcq-07"
+        "energy-mcq-05"
       ],
       "explanation": "本句的「renewable energy」指「能自然補充並可持續使用的能源」。",
       "sentenceIndex": 20,
@@ -1073,12 +960,9 @@ export default {
         "renewable energy"
       ],
       "optionReasons": {
-        "energy-mcq-10": "本句指「能自然補充並可持續使用的能源」。",
-        "energy-mcq-09": "「可用來產生電力、熱力或驅動設備的能源」是「energy — resource」的用法，與本句語境不同。",
-        "energy-mcq-11": "「能提供可用能量或燃料的來源」是「energy source」的用法，與本句語境不同。",
-        "energy-mcq-08": "「在物理學中做功或引起變化的能力」是「energy — physics」的用法，與本句語境不同。",
-        "energy-mcq-12": "「某人／設備／系統所使用的能源量」是「energy consumption」的用法，與本句語境不同。",
-        "energy-mcq-07": "「把大量努力、心力或精神投入某事」是「put energy into」的用法，與本句語境不同。"
+        "energy-mcq-10": "本句的「renewable energy」指「能自然補充並可持續使用的能源」。",
+        "energy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-10"
     },
@@ -1090,11 +974,8 @@ export default {
       "masked": "Coal is still an important ____ in some countries.",
       "options": [
         "energy-mcq-11",
-        "energy-mcq-10",
-        "energy-mcq-12",
-        "energy-mcq-09",
-        "energy-mcq-13",
-        "energy-mcq-08"
+        "energy-mcq-05",
+        "energy-mcq-16"
       ],
       "explanation": "本句的「energy source」指「能提供可用能量或燃料的來源」。",
       "sentenceIndex": 21,
@@ -1103,12 +984,9 @@ export default {
         "energy source"
       ],
       "optionReasons": {
-        "energy-mcq-11": "本句指「能提供可用能量或燃料的來源」。",
-        "energy-mcq-10": "「能自然補充並可持續使用的能源」是「renewable energy」的用法，與本句語境不同。",
-        "energy-mcq-12": "「某人／設備／系統所使用的能源量」是「energy consumption」的用法，與本句語境不同。",
-        "energy-mcq-09": "「可用來產生電力、熱力或驅動設備的能源」是「energy — resource」的用法，與本句語境不同。",
-        "energy-mcq-13": "「減少不必要的能源消耗」是「save/conserve energy」的用法，與本句語境不同。",
-        "energy-mcq-08": "「在物理學中做功或引起變化的能力」是「energy — physics」的用法，與本句語境不同。"
+        "energy-mcq-11": "本句的「energy source」指「能提供可用能量或燃料的來源」。",
+        "energy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-11"
     },
@@ -1120,11 +998,8 @@ export default {
       "masked": "They are looking for cleaner ____.",
       "options": [
         "energy-mcq-11",
-        "energy-mcq-10",
-        "energy-mcq-12",
-        "energy-mcq-09",
-        "energy-mcq-13",
-        "energy-mcq-08"
+        "energy-mcq-17",
+        "energy-mcq-16"
       ],
       "explanation": "本句的「energy sources」指「能提供可用能量或燃料的來源」。",
       "sentenceIndex": 22,
@@ -1133,12 +1008,9 @@ export default {
         "energy sources"
       ],
       "optionReasons": {
-        "energy-mcq-11": "本句指「能提供可用能量或燃料的來源」。",
-        "energy-mcq-10": "「能自然補充並可持續使用的能源」是「renewable energy」的用法，與本句語境不同。",
-        "energy-mcq-12": "「某人／設備／系統所使用的能源量」是「energy consumption」的用法，與本句語境不同。",
-        "energy-mcq-09": "「可用來產生電力、熱力或驅動設備的能源」是「energy — resource」的用法，與本句語境不同。",
-        "energy-mcq-13": "「減少不必要的能源消耗」是「save/conserve energy」的用法，與本句語境不同。",
-        "energy-mcq-08": "「在物理學中做功或引起變化的能力」是「energy — physics」的用法，與本句語境不同。"
+        "energy-mcq-11": "本句的「energy sources」指「能提供可用能量或燃料的來源」。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-11"
     },
@@ -1150,11 +1022,8 @@ export default {
       "masked": "The building has low ____.",
       "options": [
         "energy-mcq-12",
-        "energy-mcq-11",
-        "energy-mcq-13",
-        "energy-mcq-10",
-        "energy-mcq-14",
-        "energy-mcq-09"
+        "energy-mcq-19",
+        "energy-mcq-08"
       ],
       "explanation": "本句的「energy consumption」指「某人／設備／系統所使用的能源量」。",
       "sentenceIndex": 23,
@@ -1163,12 +1032,9 @@ export default {
         "energy consumption"
       ],
       "optionReasons": {
-        "energy-mcq-12": "本句指「某人／設備／系統所使用的能源量」。",
-        "energy-mcq-11": "「能提供可用能量或燃料的來源」是「energy source」的用法，與本句語境不同。",
-        "energy-mcq-13": "「減少不必要的能源消耗」是「save/conserve energy」的用法，與本句語境不同。",
-        "energy-mcq-10": "「能自然補充並可持續使用的能源」是「renewable energy」的用法，與本句語境不同。",
-        "energy-mcq-14": "「食物提供給身體活動和維持功能的能量」是「energy — nutrition」的用法，與本句語境不同。",
-        "energy-mcq-09": "「可用來產生電力、熱力或驅動設備的能源」是「energy — resource」的用法，與本句語境不同。"
+        "energy-mcq-12": "本句的「energy consumption」指「某人／設備／系統所使用的能源量」。",
+        "energy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-12"
     },
@@ -1180,11 +1046,8 @@ export default {
       "masked": "We need to reduce ____.",
       "options": [
         "energy-mcq-12",
-        "energy-mcq-11",
-        "energy-mcq-13",
-        "energy-mcq-10",
-        "energy-mcq-14",
-        "energy-mcq-09"
+        "energy-mcq-08",
+        "energy-mcq-19"
       ],
       "explanation": "本句的「energy use」指「某人／設備／系統所使用的能源量」。",
       "sentenceIndex": 24,
@@ -1193,12 +1056,9 @@ export default {
         "energy use"
       ],
       "optionReasons": {
-        "energy-mcq-12": "本句指「某人／設備／系統所使用的能源量」。",
-        "energy-mcq-11": "「能提供可用能量或燃料的來源」是「energy source」的用法，與本句語境不同。",
-        "energy-mcq-13": "「減少不必要的能源消耗」是「save/conserve energy」的用法，與本句語境不同。",
-        "energy-mcq-10": "「能自然補充並可持續使用的能源」是「renewable energy」的用法，與本句語境不同。",
-        "energy-mcq-14": "「食物提供給身體活動和維持功能的能量」是「energy — nutrition」的用法，與本句語境不同。",
-        "energy-mcq-09": "「可用來產生電力、熱力或驅動設備的能源」是「energy — resource」的用法，與本句語境不同。"
+        "energy-mcq-12": "本句的「energy use」指「某人／設備／系統所使用的能源量」。",
+        "energy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-12"
     },
@@ -1210,11 +1070,9 @@ export default {
       "masked": "Turn off the lights to ____.",
       "options": [
         "energy-mcq-13",
-        "energy-mcq-12",
-        "energy-mcq-14",
-        "energy-mcq-11",
+        "energy-mcq-19",
         "energy-mcq-15",
-        "energy-mcq-10"
+        "energy-mcq-17"
       ],
       "explanation": "本句的「save energy」指「減少不必要的能源消耗」。",
       "sentenceIndex": 25,
@@ -1223,12 +1081,10 @@ export default {
         "save energy"
       ],
       "optionReasons": {
-        "energy-mcq-13": "本句指「減少不必要的能源消耗」。",
-        "energy-mcq-12": "「某人／設備／系統所使用的能源量」是「energy consumption」的用法，與本句語境不同。",
-        "energy-mcq-14": "「食物提供給身體活動和維持功能的能量」是「energy — nutrition」的用法，與本句語境不同。",
-        "energy-mcq-11": "「能提供可用能量或燃料的來源」是「energy source」的用法，與本句語境不同。",
-        "energy-mcq-15": "「因緊張、焦慮或興奮而產生的躁動和過度活動感」是「nervous energy」的用法，與本句語境不同。",
-        "energy-mcq-10": "「能自然補充並可持續使用的能源」是「renewable energy」的用法，與本句語境不同。"
+        "energy-mcq-13": "本句的「save energy」指「減少不必要的能源消耗」。",
+        "energy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-13"
     },
@@ -1240,11 +1096,8 @@ export default {
       "masked": "Modern buildings are designed to ____.",
       "options": [
         "energy-mcq-13",
-        "energy-mcq-12",
-        "energy-mcq-14",
-        "energy-mcq-11",
-        "energy-mcq-15",
-        "energy-mcq-10"
+        "energy-mcq-16",
+        "energy-mcq-17"
       ],
       "explanation": "本句的「conserve energy」指「減少不必要的能源消耗」。",
       "sentenceIndex": 26,
@@ -1253,12 +1106,9 @@ export default {
         "conserve energy"
       ],
       "optionReasons": {
-        "energy-mcq-13": "本句指「減少不必要的能源消耗」。",
-        "energy-mcq-12": "「某人／設備／系統所使用的能源量」是「energy consumption」的用法，與本句語境不同。",
-        "energy-mcq-14": "「食物提供給身體活動和維持功能的能量」是「energy — nutrition」的用法，與本句語境不同。",
-        "energy-mcq-11": "「能提供可用能量或燃料的來源」是「energy source」的用法，與本句語境不同。",
-        "energy-mcq-15": "「因緊張、焦慮或興奮而產生的躁動和過度活動感」是「nervous energy」的用法，與本句語境不同。",
-        "energy-mcq-10": "「能自然補充並可持續使用的能源」是「renewable energy」的用法，與本句語境不同。"
+        "energy-mcq-13": "本句的「conserve energy」指「減少不必要的能源消耗」。",
+        "energy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-13"
     },
@@ -1270,11 +1120,8 @@ export default {
       "masked": "Food provides the body with ____.",
       "options": [
         "energy-mcq-14",
-        "energy-mcq-13",
-        "energy-mcq-15",
-        "energy-mcq-12",
-        "energy-mcq-16",
-        "energy-mcq-11"
+        "energy-mcq-17",
+        "energy-mcq-16"
       ],
       "explanation": "本句的「energy」指「食物提供給身體活動和維持功能的能量」。",
       "sentenceIndex": 27,
@@ -1283,12 +1130,9 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-14": "本句指「食物提供給身體活動和維持功能的能量」。",
-        "energy-mcq-13": "「減少不必要的能源消耗」是「save/conserve energy」的用法，與本句語境不同。",
-        "energy-mcq-15": "「因緊張、焦慮或興奮而產生的躁動和過度活動感」是「nervous energy」的用法，與本句語境不同。",
-        "energy-mcq-12": "「某人／設備／系統所使用的能源量」是「energy consumption」的用法，與本句語境不同。",
-        "energy-mcq-16": "「用於想像、創作和產生新想法的精神活力」是「creative energy」的用法，與本句語境不同。",
-        "energy-mcq-11": "「能提供可用能量或燃料的來源」是「energy source」的用法，與本句語境不同。"
+        "energy-mcq-14": "本句的「energy」指「食物提供給身體活動和維持功能的能量」。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-14"
     },
@@ -1300,11 +1144,8 @@ export default {
       "masked": "Carbohydrates are an important source of ____.",
       "options": [
         "energy-mcq-14",
-        "energy-mcq-13",
-        "energy-mcq-15",
-        "energy-mcq-12",
-        "energy-mcq-16",
-        "energy-mcq-11"
+        "energy-mcq-17",
+        "energy-mcq-16"
       ],
       "explanation": "本句的「energy」指「食物提供給身體活動和維持功能的能量」。",
       "sentenceIndex": 28,
@@ -1313,12 +1154,9 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-14": "本句指「食物提供給身體活動和維持功能的能量」。",
-        "energy-mcq-13": "「減少不必要的能源消耗」是「save/conserve energy」的用法，與本句語境不同。",
-        "energy-mcq-15": "「因緊張、焦慮或興奮而產生的躁動和過度活動感」是「nervous energy」的用法，與本句語境不同。",
-        "energy-mcq-12": "「某人／設備／系統所使用的能源量」是「energy consumption」的用法，與本句語境不同。",
-        "energy-mcq-16": "「用於想像、創作和產生新想法的精神活力」是「creative energy」的用法，與本句語境不同。",
-        "energy-mcq-11": "「能提供可用能量或燃料的來源」是「energy source」的用法，與本句語境不同。"
+        "energy-mcq-14": "本句的「energy」指「食物提供給身體活動和維持功能的能量」。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-14"
     },
@@ -1330,11 +1168,8 @@ export default {
       "masked": "He paced around the room with nervous ____.",
       "options": [
         "energy-mcq-15",
-        "energy-mcq-14",
-        "energy-mcq-16",
-        "energy-mcq-13",
-        "energy-mcq-17",
-        "energy-mcq-12"
+        "energy-mcq-10",
+        "energy-mcq-05"
       ],
       "explanation": "本句的「energy」指「因緊張、焦慮或興奮而產生的躁動和過度活動感」。",
       "sentenceIndex": 29,
@@ -1343,12 +1178,9 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-15": "本句指「因緊張、焦慮或興奮而產生的躁動和過度活動感」。",
-        "energy-mcq-14": "「食物提供給身體活動和維持功能的能量」是「energy — nutrition」的用法，與本句語境不同。",
-        "energy-mcq-16": "「用於想像、創作和產生新想法的精神活力」是「creative energy」的用法，與本句語境不同。",
-        "energy-mcq-13": "「減少不必要的能源消耗」是「save/conserve energy」的用法，與本句語境不同。",
-        "energy-mcq-17": "「某人／環境令人感受到的正面或負面情緒氣氛」是「positive/negative energy」的用法，與本句語境不同。",
-        "energy-mcq-12": "「某人／設備／系統所使用的能源量」是「energy consumption」的用法，與本句語境不同。"
+        "energy-mcq-15": "本句的「energy」指「因緊張、焦慮或興奮而產生的躁動和過度活動感」。",
+        "energy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-15"
     },
@@ -1360,11 +1192,8 @@ export default {
       "masked": "She laughed constantly because of nervous ____.",
       "options": [
         "energy-mcq-15",
-        "energy-mcq-14",
-        "energy-mcq-16",
-        "energy-mcq-13",
-        "energy-mcq-17",
-        "energy-mcq-12"
+        "energy-mcq-12",
+        "energy-mcq-19"
       ],
       "explanation": "本句的「energy」指「因緊張、焦慮或興奮而產生的躁動和過度活動感」。",
       "sentenceIndex": 30,
@@ -1373,12 +1202,9 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-15": "本句指「因緊張、焦慮或興奮而產生的躁動和過度活動感」。",
-        "energy-mcq-14": "「食物提供給身體活動和維持功能的能量」是「energy — nutrition」的用法，與本句語境不同。",
-        "energy-mcq-16": "「用於想像、創作和產生新想法的精神活力」是「creative energy」的用法，與本句語境不同。",
-        "energy-mcq-13": "「減少不必要的能源消耗」是「save/conserve energy」的用法，與本句語境不同。",
-        "energy-mcq-17": "「某人／環境令人感受到的正面或負面情緒氣氛」是「positive/negative energy」的用法，與本句語境不同。",
-        "energy-mcq-12": "「某人／設備／系統所使用的能源量」是「energy consumption」的用法，與本句語境不同。"
+        "energy-mcq-15": "本句的「energy」指「因緊張、焦慮或興奮而產生的躁動和過度活動感」。",
+        "energy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-15"
     },
@@ -1390,11 +1216,8 @@ export default {
       "masked": "He has enormous creative ____.",
       "options": [
         "energy-mcq-16",
-        "energy-mcq-15",
-        "energy-mcq-17",
-        "energy-mcq-14",
-        "energy-mcq-18",
-        "energy-mcq-13"
+        "energy-mcq-10",
+        "energy-mcq-05"
       ],
       "explanation": "本句的「energy」指「用於想像、創作和產生新想法的精神活力」。",
       "sentenceIndex": 31,
@@ -1403,12 +1226,9 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-16": "本句指「用於想像、創作和產生新想法的精神活力」。",
-        "energy-mcq-15": "「因緊張、焦慮或興奮而產生的躁動和過度活動感」是「nervous energy」的用法，與本句語境不同。",
-        "energy-mcq-17": "「某人／環境令人感受到的正面或負面情緒氣氛」是「positive/negative energy」的用法，與本句語境不同。",
-        "energy-mcq-14": "「食物提供給身體活動和維持功能的能量」是「energy — nutrition」的用法，與本句語境不同。",
-        "energy-mcq-18": "「精力充沛、喜歡積極活動的」是「energetic — person」的用法，與本句語境不同。",
-        "energy-mcq-13": "「減少不必要的能源消耗」是「save/conserve energy」的用法，與本句語境不同。"
+        "energy-mcq-16": "本句的「energy」指「用於想像、創作和產生新想法的精神活力」。",
+        "energy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-16"
     },
@@ -1420,11 +1240,8 @@ export default {
       "masked": "The project gave her creative ____.",
       "options": [
         "energy-mcq-16",
-        "energy-mcq-15",
-        "energy-mcq-17",
-        "energy-mcq-14",
-        "energy-mcq-18",
-        "energy-mcq-13"
+        "energy-mcq-05",
+        "energy-mcq-10"
       ],
       "explanation": "本句的「energy」指「用於想像、創作和產生新想法的精神活力」。",
       "sentenceIndex": 32,
@@ -1433,12 +1250,9 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-16": "本句指「用於想像、創作和產生新想法的精神活力」。",
-        "energy-mcq-15": "「因緊張、焦慮或興奮而產生的躁動和過度活動感」是「nervous energy」的用法，與本句語境不同。",
-        "energy-mcq-17": "「某人／環境令人感受到的正面或負面情緒氣氛」是「positive/negative energy」的用法，與本句語境不同。",
-        "energy-mcq-14": "「食物提供給身體活動和維持功能的能量」是「energy — nutrition」的用法，與本句語境不同。",
-        "energy-mcq-18": "「精力充沛、喜歡積極活動的」是「energetic — person」的用法，與本句語境不同。",
-        "energy-mcq-13": "「減少不必要的能源消耗」是「save/conserve energy」的用法，與本句語境不同。"
+        "energy-mcq-16": "本句的「energy」指「用於想像、創作和產生新想法的精神活力」。",
+        "energy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-16"
     },
@@ -1450,11 +1264,9 @@ export default {
       "masked": "She brings positive ____ into the room.",
       "options": [
         "energy-mcq-17",
-        "energy-mcq-16",
-        "energy-mcq-18",
-        "energy-mcq-15",
+        "energy-mcq-07",
         "energy-mcq-19",
-        "energy-mcq-14"
+        "energy-mcq-08"
       ],
       "explanation": "本句的「energy」指「某人／環境令人感受到的正面或負面情緒氣氛」。",
       "sentenceIndex": 33,
@@ -1463,12 +1275,10 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-17": "本句指「某人／環境令人感受到的正面或負面情緒氣氛」。",
-        "energy-mcq-16": "「用於想像、創作和產生新想法的精神活力」是「creative energy」的用法，與本句語境不同。",
-        "energy-mcq-18": "「精力充沛、喜歡積極活動的」是「energetic — person」的用法，與本句語境不同。",
-        "energy-mcq-15": "「因緊張、焦慮或興奮而產生的躁動和過度活動感」是「nervous energy」的用法，與本句語境不同。",
-        "energy-mcq-19": "「行動積極、充滿幹勁和活力的」是「energetic — action/style」的用法，與本句語境不同。",
-        "energy-mcq-14": "「食物提供給身體活動和維持功能的能量」是「energy — nutrition」的用法，與本句語境不同。"
+        "energy-mcq-17": "本句的「energy」指「某人／環境令人感受到的正面或負面情緒氣氛」。",
+        "energy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-17"
     },
@@ -1480,11 +1290,8 @@ export default {
       "masked": "I don’t want that negative ____ around me.",
       "options": [
         "energy-mcq-17",
-        "energy-mcq-16",
-        "energy-mcq-18",
-        "energy-mcq-15",
-        "energy-mcq-19",
-        "energy-mcq-14"
+        "energy-mcq-03",
+        "energy-mcq-08"
       ],
       "explanation": "本句的「energy」指「某人／環境令人感受到的正面或負面情緒氣氛」。",
       "sentenceIndex": 34,
@@ -1493,12 +1300,9 @@ export default {
         "energy"
       ],
       "optionReasons": {
-        "energy-mcq-17": "本句指「某人／環境令人感受到的正面或負面情緒氣氛」。",
-        "energy-mcq-16": "「用於想像、創作和產生新想法的精神活力」是「creative energy」的用法，與本句語境不同。",
-        "energy-mcq-18": "「精力充沛、喜歡積極活動的」是「energetic — person」的用法，與本句語境不同。",
-        "energy-mcq-15": "「因緊張、焦慮或興奮而產生的躁動和過度活動感」是「nervous energy」的用法，與本句語境不同。",
-        "energy-mcq-19": "「行動積極、充滿幹勁和活力的」是「energetic — action/style」的用法，與本句語境不同。",
-        "energy-mcq-14": "「食物提供給身體活動和維持功能的能量」是「energy — nutrition」的用法，與本句語境不同。"
+        "energy-mcq-17": "本句的「energy」指「某人／環境令人感受到的正面或負面情緒氣氛」。",
+        "energy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-17"
     },
@@ -1511,10 +1315,7 @@ export default {
       "options": [
         "energy-mcq-18",
         "energy-mcq-17",
-        "energy-mcq-19",
-        "energy-mcq-16",
-        "energy-mcq-20",
-        "energy-mcq-15"
+        "energy-mcq-08"
       ],
       "explanation": "本句的「energetic」指「精力充沛、喜歡積極活動的」。",
       "sentenceIndex": 35,
@@ -1523,12 +1324,9 @@ export default {
         "energetic"
       ],
       "optionReasons": {
-        "energy-mcq-18": "本句指「精力充沛、喜歡積極活動的」。",
-        "energy-mcq-17": "「某人／環境令人感受到的正面或負面情緒氣氛」是「positive/negative energy」的用法，與本句語境不同。",
-        "energy-mcq-19": "「行動積極、充滿幹勁和活力的」是「energetic — action/style」的用法，與本句語境不同。",
-        "energy-mcq-16": "「用於想像、創作和產生新想法的精神活力」是「creative energy」的用法，與本句語境不同。",
-        "energy-mcq-20": "「以充滿活力、幹勁或力量的方式」是「energetically」的用法，與本句語境不同。",
-        "energy-mcq-15": "「因緊張、焦慮或興奮而產生的躁動和過度活動感」是「nervous energy」的用法，與本句語境不同。"
+        "energy-mcq-18": "本句的「energetic」指「精力充沛、喜歡積極活動的」。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-18"
     },
@@ -1541,10 +1339,7 @@ export default {
       "options": [
         "energy-mcq-18",
         "energy-mcq-17",
-        "energy-mcq-19",
-        "energy-mcq-16",
-        "energy-mcq-20",
-        "energy-mcq-15"
+        "energy-mcq-08"
       ],
       "explanation": "本句的「energetic」指「精力充沛、喜歡積極活動的」。",
       "sentenceIndex": 36,
@@ -1553,12 +1348,9 @@ export default {
         "energetic"
       ],
       "optionReasons": {
-        "energy-mcq-18": "本句指「精力充沛、喜歡積極活動的」。",
-        "energy-mcq-17": "「某人／環境令人感受到的正面或負面情緒氣氛」是「positive/negative energy」的用法，與本句語境不同。",
-        "energy-mcq-19": "「行動積極、充滿幹勁和活力的」是「energetic — action/style」的用法，與本句語境不同。",
-        "energy-mcq-16": "「用於想像、創作和產生新想法的精神活力」是「creative energy」的用法，與本句語境不同。",
-        "energy-mcq-20": "「以充滿活力、幹勁或力量的方式」是「energetically」的用法，與本句語境不同。",
-        "energy-mcq-15": "「因緊張、焦慮或興奮而產生的躁動和過度活動感」是「nervous energy」的用法，與本句語境不同。"
+        "energy-mcq-18": "本句的「energetic」指「精力充沛、喜歡積極活動的」。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-18"
     },
@@ -1570,11 +1362,9 @@ export default {
       "masked": "They launched an ____ campaign.",
       "options": [
         "energy-mcq-19",
-        "energy-mcq-18",
-        "energy-mcq-20",
+        "energy-mcq-11",
         "energy-mcq-17",
-        "energy-mcq-16",
-        "energy-mcq-15"
+        "energy-mcq-08"
       ],
       "explanation": "本句的「energetic」指「行動積極、充滿幹勁和活力的」。",
       "sentenceIndex": 37,
@@ -1583,12 +1373,10 @@ export default {
         "energetic"
       ],
       "optionReasons": {
-        "energy-mcq-19": "本句指「行動積極、充滿幹勁和活力的」。",
-        "energy-mcq-18": "「精力充沛、喜歡積極活動的」是「energetic — person」的用法，與本句語境不同。",
-        "energy-mcq-20": "「以充滿活力、幹勁或力量的方式」是「energetically」的用法，與本句語境不同。",
-        "energy-mcq-17": "「某人／環境令人感受到的正面或負面情緒氣氛」是「positive/negative energy」的用法，與本句語境不同。",
-        "energy-mcq-16": "「用於想像、創作和產生新想法的精神活力」是「creative energy」的用法，與本句語境不同。",
-        "energy-mcq-15": "「因緊張、焦慮或興奮而產生的躁動和過度活動感」是「nervous energy」的用法，與本句語境不同。"
+        "energy-mcq-19": "本句的「energetic」指「行動積極、充滿幹勁和活力的」。",
+        "energy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-19"
     },
@@ -1600,11 +1388,9 @@ export default {
       "masked": "The team made an ____ effort to improve.",
       "options": [
         "energy-mcq-19",
-        "energy-mcq-18",
-        "energy-mcq-20",
+        "energy-mcq-13",
         "energy-mcq-17",
-        "energy-mcq-16",
-        "energy-mcq-15"
+        "energy-mcq-08"
       ],
       "explanation": "本句的「energetic」指「行動積極、充滿幹勁和活力的」。",
       "sentenceIndex": 38,
@@ -1613,12 +1399,10 @@ export default {
         "energetic"
       ],
       "optionReasons": {
-        "energy-mcq-19": "本句指「行動積極、充滿幹勁和活力的」。",
-        "energy-mcq-18": "「精力充沛、喜歡積極活動的」是「energetic — person」的用法，與本句語境不同。",
-        "energy-mcq-20": "「以充滿活力、幹勁或力量的方式」是「energetically」的用法，與本句語境不同。",
-        "energy-mcq-17": "「某人／環境令人感受到的正面或負面情緒氣氛」是「positive/negative energy」的用法，與本句語境不同。",
-        "energy-mcq-16": "「用於想像、創作和產生新想法的精神活力」是「creative energy」的用法，與本句語境不同。",
-        "energy-mcq-15": "「因緊張、焦慮或興奮而產生的躁動和過度活動感」是「nervous energy」的用法，與本句語境不同。"
+        "energy-mcq-19": "本句的「energetic」指「行動積極、充滿幹勁和活力的」。",
+        "energy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-19"
     },
@@ -1630,10 +1414,7 @@ export default {
       "masked": "The children played ____.",
       "options": [
         "energy-mcq-20",
-        "energy-mcq-19",
-        "energy-mcq-18",
         "energy-mcq-17",
-        "energy-mcq-16",
         "energy-mcq-15"
       ],
       "explanation": "本句的「energetically」指「以充滿活力、幹勁或力量的方式」。",
@@ -1643,12 +1424,9 @@ export default {
         "energetically"
       ],
       "optionReasons": {
-        "energy-mcq-20": "本句指「以充滿活力、幹勁或力量的方式」。",
-        "energy-mcq-19": "「行動積極、充滿幹勁和活力的」是「energetic — action/style」的用法，與本句語境不同。",
-        "energy-mcq-18": "「精力充沛、喜歡積極活動的」是「energetic — person」的用法，與本句語境不同。",
-        "energy-mcq-17": "「某人／環境令人感受到的正面或負面情緒氣氛」是「positive/negative energy」的用法，與本句語境不同。",
-        "energy-mcq-16": "「用於想像、創作和產生新想法的精神活力」是「creative energy」的用法，與本句語境不同。",
-        "energy-mcq-15": "「因緊張、焦慮或興奮而產生的躁動和過度活動感」是「nervous energy」的用法，與本句語境不同。"
+        "energy-mcq-20": "本句的「energetically」指「以充滿活力、幹勁或力量的方式」。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-20"
     },
@@ -1660,10 +1438,7 @@ export default {
       "masked": "She argued ____ for the proposal.",
       "options": [
         "energy-mcq-20",
-        "energy-mcq-19",
-        "energy-mcq-18",
         "energy-mcq-17",
-        "energy-mcq-16",
         "energy-mcq-15"
       ],
       "explanation": "本句的「energetically」指「以充滿活力、幹勁或力量的方式」。",
@@ -1673,12 +1448,9 @@ export default {
         "energetically"
       ],
       "optionReasons": {
-        "energy-mcq-20": "本句指「以充滿活力、幹勁或力量的方式」。",
-        "energy-mcq-19": "「行動積極、充滿幹勁和活力的」是「energetic — action/style」的用法，與本句語境不同。",
-        "energy-mcq-18": "「精力充沛、喜歡積極活動的」是「energetic — person」的用法，與本句語境不同。",
-        "energy-mcq-17": "「某人／環境令人感受到的正面或負面情緒氣氛」是「positive/negative energy」的用法，與本句語境不同。",
-        "energy-mcq-16": "「用於想像、創作和產生新想法的精神活力」是「creative energy」的用法，與本句語境不同。",
-        "energy-mcq-15": "「因緊張、焦慮或興奮而產生的躁動和過度活動感」是「nervous energy」的用法，與本句語境不同。"
+        "energy-mcq-20": "本句的「energetically」指「以充滿活力、幹勁或力量的方式」。",
+        "energy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "energy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "energy-mcq-20"
     }
@@ -1690,5 +1462,7 @@ export default {
     "sha256": "66bca1f168edf45a607384f056730edea55deafc6cd0789dc76c5d1f66144d15",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

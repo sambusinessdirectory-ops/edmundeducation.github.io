@@ -458,11 +458,9 @@ export default {
       "masked": "I spent twelve years as a professional middle-distance ____.",
       "options": [
         "runner-mcq-01",
-        "runner-mcq-02",
-        "runner-mcq-03",
-        "runner-mcq-04",
-        "runner-mcq-05",
-        "runner-mcq-06"
+        "runner-mcq-06",
+        "runner-mcq-11",
+        "runner-mcq-10"
       ],
       "explanation": "本句的「runner」指「以跑步作為運動、鍛鍊或比賽活動的人」。",
       "sentenceIndex": 0,
@@ -471,12 +469,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-01": "本句指「以跑步作為運動、鍛鍊或比賽活動的人」。",
-        "runner-mcq-02": "「正式參與田徑、公路跑等賽跑項目的運動員」與本句語境不同。",
-        "runner-mcq-03": "「專門參加需要結合速度和耐力的中距離賽跑項目的運動員」與本句語境不同。",
-        "runner-mcq-04": "「專門參加以持續耐力為主要要求的長距離賽跑運動員」與本句語境不同。",
-        "runner-mcq-05": "「正在參加某項跑步比賽的參賽者」與本句語境不同。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。"
+        "runner-mcq-01": "本句的「runner」指「以跑步作為運動、鍛鍊或比賽活動的人」。",
+        "runner-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-01"
     },
@@ -488,11 +484,9 @@ export default {
       "masked": "Hundreds of ____ took part in the charity race.",
       "options": [
         "runner-mcq-01",
-        "runner-mcq-02",
-        "runner-mcq-03",
-        "runner-mcq-04",
-        "runner-mcq-05",
-        "runner-mcq-06"
+        "runner-mcq-19",
+        "runner-mcq-10",
+        "runner-mcq-11"
       ],
       "explanation": "本句的「runners」指「以跑步作為運動、鍛鍊或比賽活動的人」。",
       "sentenceIndex": 1,
@@ -501,12 +495,10 @@ export default {
         "runners"
       ],
       "optionReasons": {
-        "runner-mcq-01": "本句指「以跑步作為運動、鍛鍊或比賽活動的人」。",
-        "runner-mcq-02": "「正式參與田徑、公路跑等賽跑項目的運動員」與本句語境不同。",
-        "runner-mcq-03": "「專門參加需要結合速度和耐力的中距離賽跑項目的運動員」與本句語境不同。",
-        "runner-mcq-04": "「專門參加以持續耐力為主要要求的長距離賽跑運動員」與本句語境不同。",
-        "runner-mcq-05": "「正在參加某項跑步比賽的參賽者」與本句語境不同。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。"
+        "runner-mcq-01": "本句的「runners」指「以跑步作為運動、鍛鍊或比賽活動的人」。",
+        "runner-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-01"
     },
@@ -518,11 +510,9 @@ export default {
       "masked": "She is a strong ____ with excellent endurance.",
       "options": [
         "runner-mcq-01",
-        "runner-mcq-02",
-        "runner-mcq-03",
-        "runner-mcq-04",
-        "runner-mcq-05",
-        "runner-mcq-06"
+        "runner-mcq-10",
+        "runner-mcq-07",
+        "runner-mcq-11"
       ],
       "explanation": "本句的「runner」指「以跑步作為運動、鍛鍊或比賽活動的人」。",
       "sentenceIndex": 2,
@@ -531,12 +521,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-01": "本句指「以跑步作為運動、鍛鍊或比賽活動的人」。",
-        "runner-mcq-02": "「正式參與田徑、公路跑等賽跑項目的運動員」與本句語境不同。",
-        "runner-mcq-03": "「專門參加需要結合速度和耐力的中距離賽跑項目的運動員」與本句語境不同。",
-        "runner-mcq-04": "「專門參加以持續耐力為主要要求的長距離賽跑運動員」與本句語境不同。",
-        "runner-mcq-05": "「正在參加某項跑步比賽的參賽者」與本句語境不同。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。"
+        "runner-mcq-01": "本句的「runner」指「以跑步作為運動、鍛鍊或比賽活動的人」。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-01"
     },
@@ -548,11 +536,9 @@ export default {
       "masked": "The ____ qualified for the national championships.",
       "options": [
         "runner-mcq-02",
-        "runner-mcq-01",
-        "runner-mcq-03",
-        "runner-mcq-04",
-        "runner-mcq-05",
-        "runner-mcq-06"
+        "runner-mcq-12",
+        "runner-mcq-19",
+        "runner-mcq-14"
       ],
       "explanation": "本句的「runner」指「正式參與田徑、公路跑等賽跑項目的運動員」。",
       "sentenceIndex": 3,
@@ -561,12 +547,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-02": "本句指「正式參與田徑、公路跑等賽跑項目的運動員」。",
-        "runner-mcq-01": "「以跑步作為運動、鍛鍊或比賽活動的人」與本句語境不同。",
-        "runner-mcq-03": "「專門參加需要結合速度和耐力的中距離賽跑項目的運動員」與本句語境不同。",
-        "runner-mcq-04": "「專門參加以持續耐力為主要要求的長距離賽跑運動員」與本句語境不同。",
-        "runner-mcq-05": "「正在參加某項跑步比賽的參賽者」與本句語境不同。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。"
+        "runner-mcq-02": "本句的「runner」指「正式參與田徑、公路跑等賽跑項目的運動員」。",
+        "runner-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-02"
     },
@@ -578,11 +562,9 @@ export default {
       "masked": "Elite ____ monitor their training and recovery carefully.",
       "options": [
         "runner-mcq-02",
-        "runner-mcq-01",
-        "runner-mcq-03",
-        "runner-mcq-04",
-        "runner-mcq-05",
-        "runner-mcq-06"
+        "runner-mcq-11",
+        "runner-mcq-14",
+        "runner-mcq-19"
       ],
       "explanation": "本句的「runners」指「正式參與田徑、公路跑等賽跑項目的運動員」。",
       "sentenceIndex": 4,
@@ -591,12 +573,10 @@ export default {
         "runners"
       ],
       "optionReasons": {
-        "runner-mcq-02": "本句指「正式參與田徑、公路跑等賽跑項目的運動員」。",
-        "runner-mcq-01": "「以跑步作為運動、鍛鍊或比賽活動的人」與本句語境不同。",
-        "runner-mcq-03": "「專門參加需要結合速度和耐力的中距離賽跑項目的運動員」與本句語境不同。",
-        "runner-mcq-04": "「專門參加以持續耐力為主要要求的長距離賽跑運動員」與本句語境不同。",
-        "runner-mcq-05": "「正在參加某項跑步比賽的參賽者」與本句語境不同。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。"
+        "runner-mcq-02": "本句的「runners」指「正式參與田徑、公路跑等賽跑項目的運動員」。",
+        "runner-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-02"
     },
@@ -608,11 +588,9 @@ export default {
       "masked": "She trained as a ____ throughout university.",
       "options": [
         "runner-mcq-03",
-        "runner-mcq-02",
-        "runner-mcq-04",
-        "runner-mcq-01",
-        "runner-mcq-05",
-        "runner-mcq-06"
+        "runner-mcq-12",
+        "runner-mcq-10",
+        "runner-mcq-11"
       ],
       "explanation": "本句的「middle-distance runner」指「專門參加需要結合速度和耐力的中距離賽跑項目的運動員」。",
       "sentenceIndex": 5,
@@ -621,12 +599,10 @@ export default {
         "middle-distance runner"
       ],
       "optionReasons": {
-        "runner-mcq-03": "本句指「專門參加需要結合速度和耐力的中距離賽跑項目的運動員」。",
-        "runner-mcq-02": "「正式參與田徑、公路跑等賽跑項目的運動員」與本句語境不同。",
-        "runner-mcq-04": "「專門參加以持續耐力為主要要求的長距離賽跑運動員」與本句語境不同。",
-        "runner-mcq-01": "「以跑步作為運動、鍛鍊或比賽活動的人」與本句語境不同。",
-        "runner-mcq-05": "「正在參加某項跑步比賽的參賽者」與本句語境不同。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。"
+        "runner-mcq-03": "本句的「middle-distance runner」指「專門參加需要結合速度和耐力的中距離賽跑項目的運動員」。",
+        "runner-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-03"
     },
@@ -638,11 +614,9 @@ export default {
       "masked": "A middle-distance ____ needs both speed and endurance.",
       "options": [
         "runner-mcq-03",
-        "runner-mcq-02",
-        "runner-mcq-04",
-        "runner-mcq-01",
-        "runner-mcq-05",
-        "runner-mcq-06"
+        "runner-mcq-11",
+        "runner-mcq-10",
+        "runner-mcq-12"
       ],
       "explanation": "本句的「runner」指「專門參加需要結合速度和耐力的中距離賽跑項目的運動員」。",
       "sentenceIndex": 6,
@@ -651,12 +625,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-03": "本句指「專門參加需要結合速度和耐力的中距離賽跑項目的運動員」。",
-        "runner-mcq-02": "「正式參與田徑、公路跑等賽跑項目的運動員」與本句語境不同。",
-        "runner-mcq-04": "「專門參加以持續耐力為主要要求的長距離賽跑運動員」與本句語境不同。",
-        "runner-mcq-01": "「以跑步作為運動、鍛鍊或比賽活動的人」與本句語境不同。",
-        "runner-mcq-05": "「正在參加某項跑步比賽的參賽者」與本句語境不同。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。"
+        "runner-mcq-03": "本句的「runner」指「專門參加需要結合速度和耐力的中距離賽跑項目的運動員」。",
+        "runner-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-03"
     },
@@ -668,11 +640,9 @@ export default {
       "masked": "She became a successful long-distance ____.",
       "options": [
         "runner-mcq-04",
-        "runner-mcq-03",
-        "runner-mcq-05",
-        "runner-mcq-02",
-        "runner-mcq-06",
-        "runner-mcq-01"
+        "runner-mcq-12",
+        "runner-mcq-15",
+        "runner-mcq-13"
       ],
       "explanation": "本句的「runner」指「專門參加以持續耐力為主要要求的長距離賽跑運動員」。",
       "sentenceIndex": 7,
@@ -681,12 +651,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-04": "本句指「專門參加以持續耐力為主要要求的長距離賽跑運動員」。",
-        "runner-mcq-03": "「專門參加需要結合速度和耐力的中距離賽跑項目的運動員」與本句語境不同。",
-        "runner-mcq-05": "「正在參加某項跑步比賽的參賽者」與本句語境不同。",
-        "runner-mcq-02": "「正式參與田徑、公路跑等賽跑項目的運動員」與本句語境不同。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。",
-        "runner-mcq-01": "「以跑步作為運動、鍛鍊或比賽活動的人」與本句語境不同。"
+        "runner-mcq-04": "本句的「runner」指「專門參加以持續耐力為主要要求的長距離賽跑運動員」。",
+        "runner-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-04"
     },
@@ -698,11 +666,9 @@ export default {
       "masked": "Long-distance ____ must manage fatigue carefully.",
       "options": [
         "runner-mcq-04",
-        "runner-mcq-03",
-        "runner-mcq-05",
-        "runner-mcq-02",
-        "runner-mcq-06",
-        "runner-mcq-01"
+        "runner-mcq-12",
+        "runner-mcq-07",
+        "runner-mcq-15"
       ],
       "explanation": "本句的「runners」指「專門參加以持續耐力為主要要求的長距離賽跑運動員」。",
       "sentenceIndex": 8,
@@ -711,12 +677,10 @@ export default {
         "runners"
       ],
       "optionReasons": {
-        "runner-mcq-04": "本句指「專門參加以持續耐力為主要要求的長距離賽跑運動員」。",
-        "runner-mcq-03": "「專門參加需要結合速度和耐力的中距離賽跑項目的運動員」與本句語境不同。",
-        "runner-mcq-05": "「正在參加某項跑步比賽的參賽者」與本句語境不同。",
-        "runner-mcq-02": "「正式參與田徑、公路跑等賽跑項目的運動員」與本句語境不同。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。",
-        "runner-mcq-01": "「以跑步作為運動、鍛鍊或比賽活動的人」與本句語境不同。"
+        "runner-mcq-04": "本句的「runners」指「專門參加以持續耐力為主要要求的長距離賽跑運動員」。",
+        "runner-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-04"
     },
@@ -728,11 +692,9 @@ export default {
       "masked": "The first ____ crossed the finish line in under ten minutes.",
       "options": [
         "runner-mcq-05",
-        "runner-mcq-04",
-        "runner-mcq-06",
-        "runner-mcq-03",
-        "runner-mcq-07",
-        "runner-mcq-02"
+        "runner-mcq-19",
+        "runner-mcq-14",
+        "runner-mcq-12"
       ],
       "explanation": "本句的「runner」指「正在參加某項跑步比賽的參賽者」。",
       "sentenceIndex": 9,
@@ -741,12 +703,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-05": "本句指「正在參加某項跑步比賽的參賽者」。",
-        "runner-mcq-04": "「專門參加以持續耐力為主要要求的長距離賽跑運動員」與本句語境不同。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。",
-        "runner-mcq-03": "「專門參加需要結合速度和耐力的中距離賽跑項目的運動員」與本句語境不同。",
-        "runner-mcq-07": "「負責把廚房完成的食物送到客人餐桌的員工」與本句語境不同。",
-        "runner-mcq-02": "「正式參與田徑、公路跑等賽跑項目的運動員」與本句語境不同。"
+        "runner-mcq-05": "本句的「runner」指「正在參加某項跑步比賽的參賽者」。",
+        "runner-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-05"
     },
@@ -758,11 +718,9 @@ export default {
       "masked": "Officials gave water to the ____ along the route.",
       "options": [
         "runner-mcq-05",
-        "runner-mcq-04",
-        "runner-mcq-06",
-        "runner-mcq-03",
-        "runner-mcq-07",
-        "runner-mcq-02"
+        "runner-mcq-13",
+        "runner-mcq-16",
+        "runner-mcq-19"
       ],
       "explanation": "本句的「runners」指「正在參加某項跑步比賽的參賽者」。",
       "sentenceIndex": 10,
@@ -771,12 +729,10 @@ export default {
         "runners"
       ],
       "optionReasons": {
-        "runner-mcq-05": "本句指「正在參加某項跑步比賽的參賽者」。",
-        "runner-mcq-04": "「專門參加以持續耐力為主要要求的長距離賽跑運動員」與本句語境不同。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。",
-        "runner-mcq-03": "「專門參加需要結合速度和耐力的中距離賽跑項目的運動員」與本句語境不同。",
-        "runner-mcq-07": "「負責把廚房完成的食物送到客人餐桌的員工」與本句語境不同。",
-        "runner-mcq-02": "「正式參與田徑、公路跑等賽跑項目的運動員」與本句語境不同。"
+        "runner-mcq-05": "本句的「runners」指「正在參加某項跑步比賽的參賽者」。",
+        "runner-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-05"
     },
@@ -788,11 +744,9 @@ export default {
       "masked": "The production team sent a ____ to collect the equipment.",
       "options": [
         "runner-mcq-06",
+        "runner-mcq-10",
         "runner-mcq-05",
-        "runner-mcq-07",
-        "runner-mcq-04",
-        "runner-mcq-08",
-        "runner-mcq-03"
+        "runner-mcq-12"
       ],
       "explanation": "本句的「runner」指「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」。",
       "sentenceIndex": 11,
@@ -801,12 +755,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-06": "本句指「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」。",
-        "runner-mcq-05": "「正在參加某項跑步比賽的參賽者」與本句語境不同。",
-        "runner-mcq-07": "「負責把廚房完成的食物送到客人餐桌的員工」與本句語境不同。",
-        "runner-mcq-04": "「專門參加以持續耐力為主要要求的長距離賽跑運動員」與本句語境不同。",
-        "runner-mcq-08": "「替他人或組織運送違禁品、金錢等物品的人」與本句語境不同。",
-        "runner-mcq-03": "「專門參加需要結合速度和耐力的中距離賽跑項目的運動員」與本句語境不同。"
+        "runner-mcq-06": "本句的「runner」指「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-06"
     },
@@ -818,11 +770,9 @@ export default {
       "masked": "He started in the film industry as a ____.",
       "options": [
         "runner-mcq-06",
-        "runner-mcq-05",
-        "runner-mcq-07",
-        "runner-mcq-04",
-        "runner-mcq-08",
-        "runner-mcq-03"
+        "runner-mcq-18",
+        "runner-mcq-10",
+        "runner-mcq-16"
       ],
       "explanation": "本句的「runner」指「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」。",
       "sentenceIndex": 12,
@@ -831,12 +781,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-06": "本句指「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」。",
-        "runner-mcq-05": "「正在參加某項跑步比賽的參賽者」與本句語境不同。",
-        "runner-mcq-07": "「負責把廚房完成的食物送到客人餐桌的員工」與本句語境不同。",
-        "runner-mcq-04": "「專門參加以持續耐力為主要要求的長距離賽跑運動員」與本句語境不同。",
-        "runner-mcq-08": "「替他人或組織運送違禁品、金錢等物品的人」與本句語境不同。",
-        "runner-mcq-03": "「專門參加需要結合速度和耐力的中距離賽跑項目的運動員」與本句語境不同。"
+        "runner-mcq-06": "本句的「runner」指「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」。",
+        "runner-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-06"
     },
@@ -848,11 +796,9 @@ export default {
       "masked": "The ____ brought the dishes to our table.",
       "options": [
         "runner-mcq-07",
-        "runner-mcq-06",
-        "runner-mcq-08",
-        "runner-mcq-05",
-        "runner-mcq-09",
-        "runner-mcq-04"
+        "runner-mcq-12",
+        "runner-mcq-10",
+        "runner-mcq-05"
       ],
       "explanation": "本句的「food runner」指「負責把廚房完成的食物送到客人餐桌的員工」。",
       "sentenceIndex": 13,
@@ -861,12 +807,10 @@ export default {
         "food runner"
       ],
       "optionReasons": {
-        "runner-mcq-07": "本句指「負責把廚房完成的食物送到客人餐桌的員工」。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。",
-        "runner-mcq-08": "「替他人或組織運送違禁品、金錢等物品的人」與本句語境不同。",
-        "runner-mcq-05": "「正在參加某項跑步比賽的參賽者」與本句語境不同。",
-        "runner-mcq-09": "「棒球中正在各壘之間推進並試圖得分的進攻球員」與本句語境不同。",
-        "runner-mcq-04": "「專門參加以持續耐力為主要要求的長距離賽跑運動員」與本句語境不同。"
+        "runner-mcq-07": "本句的「food runner」指「負責把廚房完成的食物送到客人餐桌的員工」。",
+        "runner-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-07"
     },
@@ -878,11 +822,9 @@ export default {
       "masked": "Food ____ work closely with servers and kitchen staff.",
       "options": [
         "runner-mcq-07",
-        "runner-mcq-06",
-        "runner-mcq-08",
-        "runner-mcq-05",
-        "runner-mcq-09",
-        "runner-mcq-04"
+        "runner-mcq-12",
+        "runner-mcq-18",
+        "runner-mcq-14"
       ],
       "explanation": "本句的「runners」指「負責把廚房完成的食物送到客人餐桌的員工」。",
       "sentenceIndex": 14,
@@ -891,12 +833,10 @@ export default {
         "runners"
       ],
       "optionReasons": {
-        "runner-mcq-07": "本句指「負責把廚房完成的食物送到客人餐桌的員工」。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。",
-        "runner-mcq-08": "「替他人或組織運送違禁品、金錢等物品的人」與本句語境不同。",
-        "runner-mcq-05": "「正在參加某項跑步比賽的參賽者」與本句語境不同。",
-        "runner-mcq-09": "「棒球中正在各壘之間推進並試圖得分的進攻球員」與本句語境不同。",
-        "runner-mcq-04": "「專門參加以持續耐力為主要要求的長距離賽跑運動員」與本句語境不同。"
+        "runner-mcq-07": "本句的「runners」指「負責把廚房完成的食物送到客人餐桌的員工」。",
+        "runner-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-07"
     },
@@ -908,11 +848,9 @@ export default {
       "masked": "He worked as an ____ for the office.",
       "options": [
         "runner-mcq-07",
-        "runner-mcq-06",
-        "runner-mcq-08",
-        "runner-mcq-05",
-        "runner-mcq-09",
-        "runner-mcq-04"
+        "runner-mcq-18",
+        "runner-mcq-10",
+        "runner-mcq-12"
       ],
       "explanation": "本句的「errand runner」指「負責把廚房完成的食物送到客人餐桌的員工」。",
       "sentenceIndex": 15,
@@ -921,12 +859,10 @@ export default {
         "errand runner"
       ],
       "optionReasons": {
-        "runner-mcq-07": "本句指「負責把廚房完成的食物送到客人餐桌的員工」。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。",
-        "runner-mcq-08": "「替他人或組織運送違禁品、金錢等物品的人」與本句語境不同。",
-        "runner-mcq-05": "「正在參加某項跑步比賽的參賽者」與本句語境不同。",
-        "runner-mcq-09": "「棒球中正在各壘之間推進並試圖得分的進攻球員」與本句語境不同。",
-        "runner-mcq-04": "「專門參加以持續耐力為主要要求的長距離賽跑運動員」與本句語境不同。"
+        "runner-mcq-07": "本句的「errand runner」指「負責把廚房完成的食物送到客人餐桌的員工」。",
+        "runner-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-07"
     },
@@ -938,11 +874,9 @@ export default {
       "masked": "The assistant became an unofficial errand ____ for the whole team.",
       "options": [
         "runner-mcq-07",
-        "runner-mcq-06",
-        "runner-mcq-08",
-        "runner-mcq-05",
-        "runner-mcq-09",
-        "runner-mcq-04"
+        "runner-mcq-01",
+        "runner-mcq-14",
+        "runner-mcq-12"
       ],
       "explanation": "本句的「runner」指「負責把廚房完成的食物送到客人餐桌的員工」。",
       "sentenceIndex": 16,
@@ -951,12 +885,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-07": "本句指「負責把廚房完成的食物送到客人餐桌的員工」。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。",
-        "runner-mcq-08": "「替他人或組織運送違禁品、金錢等物品的人」與本句語境不同。",
-        "runner-mcq-05": "「正在參加某項跑步比賽的參賽者」與本句語境不同。",
-        "runner-mcq-09": "「棒球中正在各壘之間推進並試圖得分的進攻球員」與本句語境不同。",
-        "runner-mcq-04": "「專門參加以持續耐力為主要要求的長距離賽跑運動員」與本句語境不同。"
+        "runner-mcq-07": "本句的「runner」指「負責把廚房完成的食物送到客人餐桌的員工」。",
+        "runner-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-07"
     },
@@ -968,11 +900,9 @@ export default {
       "masked": "Police arrested a suspected drug ____.",
       "options": [
         "runner-mcq-08",
-        "runner-mcq-07",
-        "runner-mcq-09",
-        "runner-mcq-06",
-        "runner-mcq-10",
-        "runner-mcq-05"
+        "runner-mcq-17",
+        "runner-mcq-12",
+        "runner-mcq-11"
       ],
       "explanation": "本句的「runner」指「替他人或組織運送違禁品、金錢等物品的人」。",
       "sentenceIndex": 17,
@@ -981,12 +911,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-08": "本句指「替他人或組織運送違禁品、金錢等物品的人」。",
-        "runner-mcq-07": "「負責把廚房完成的食物送到客人餐桌的員工」與本句語境不同。",
-        "runner-mcq-09": "「棒球中正在各壘之間推進並試圖得分的進攻球員」與本句語境不同。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。",
-        "runner-mcq-10": "「鋪於走廊或樓梯等狹長空間的長而窄地毯」與本句語境不同。",
-        "runner-mcq-05": "「正在參加某項跑步比賽的參賽者」與本句語境不同。"
+        "runner-mcq-08": "本句的「runner」指「替他人或組織運送違禁品、金錢等物品的人」。",
+        "runner-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-08"
     },
@@ -998,11 +926,9 @@ export default {
       "masked": "The organization used ____ to move money across the border.",
       "options": [
         "runner-mcq-08",
-        "runner-mcq-07",
-        "runner-mcq-09",
-        "runner-mcq-06",
-        "runner-mcq-10",
-        "runner-mcq-05"
+        "runner-mcq-16",
+        "runner-mcq-11",
+        "runner-mcq-14"
       ],
       "explanation": "本句的「runners」指「替他人或組織運送違禁品、金錢等物品的人」。",
       "sentenceIndex": 18,
@@ -1011,12 +937,10 @@ export default {
         "runners"
       ],
       "optionReasons": {
-        "runner-mcq-08": "本句指「替他人或組織運送違禁品、金錢等物品的人」。",
-        "runner-mcq-07": "「負責把廚房完成的食物送到客人餐桌的員工」與本句語境不同。",
-        "runner-mcq-09": "「棒球中正在各壘之間推進並試圖得分的進攻球員」與本句語境不同。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。",
-        "runner-mcq-10": "「鋪於走廊或樓梯等狹長空間的長而窄地毯」與本句語境不同。",
-        "runner-mcq-05": "「正在參加某項跑步比賽的參賽者」與本句語境不同。"
+        "runner-mcq-08": "本句的「runners」指「替他人或組織運送違禁品、金錢等物品的人」。",
+        "runner-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-08"
     },
@@ -1028,11 +952,9 @@ export default {
       "masked": "The ____ reached second base safely.",
       "options": [
         "runner-mcq-09",
+        "runner-mcq-13",
         "runner-mcq-08",
-        "runner-mcq-10",
-        "runner-mcq-07",
-        "runner-mcq-11",
-        "runner-mcq-06"
+        "runner-mcq-03"
       ],
       "explanation": "本句的「runner」指「棒球中正在各壘之間推進並試圖得分的進攻球員」。",
       "sentenceIndex": 19,
@@ -1041,12 +963,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-09": "本句指「棒球中正在各壘之間推進並試圖得分的進攻球員」。",
-        "runner-mcq-08": "「替他人或組織運送違禁品、金錢等物品的人」與本句語境不同。",
-        "runner-mcq-10": "「鋪於走廊或樓梯等狹長空間的長而窄地毯」與本句語境不同。",
-        "runner-mcq-07": "「負責把廚房完成的食物送到客人餐桌的員工」與本句語境不同。",
-        "runner-mcq-11": "「沿桌面長方向鋪放的窄長裝飾布」與本句語境不同。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。"
+        "runner-mcq-09": "本句的「runner」指「棒球中正在各壘之間推進並試圖得分的進攻球員」。",
+        "runner-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-09"
     },
@@ -1058,11 +978,9 @@ export default {
       "masked": "There were ____ on first and third.",
       "options": [
         "runner-mcq-09",
-        "runner-mcq-08",
-        "runner-mcq-10",
-        "runner-mcq-07",
-        "runner-mcq-11",
-        "runner-mcq-06"
+        "runner-mcq-13",
+        "runner-mcq-19",
+        "runner-mcq-10"
       ],
       "explanation": "本句的「runners」指「棒球中正在各壘之間推進並試圖得分的進攻球員」。",
       "sentenceIndex": 20,
@@ -1071,12 +989,10 @@ export default {
         "runners"
       ],
       "optionReasons": {
-        "runner-mcq-09": "本句指「棒球中正在各壘之間推進並試圖得分的進攻球員」。",
-        "runner-mcq-08": "「替他人或組織運送違禁品、金錢等物品的人」與本句語境不同。",
-        "runner-mcq-10": "「鋪於走廊或樓梯等狹長空間的長而窄地毯」與本句語境不同。",
-        "runner-mcq-07": "「負責把廚房完成的食物送到客人餐桌的員工」與本句語境不同。",
-        "runner-mcq-11": "「沿桌面長方向鋪放的窄長裝飾布」與本句語境不同。",
-        "runner-mcq-06": "「負責傳遞物品、訊息或迅速完成各種臨時差事的人員」與本句語境不同。"
+        "runner-mcq-09": "本句的「runners」指「棒球中正在各壘之間推進並試圖得分的進攻球員」。",
+        "runner-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-09"
     },
@@ -1088,11 +1004,9 @@ export default {
       "masked": "A red ____ covered the hallway floor.",
       "options": [
         "runner-mcq-10",
-        "runner-mcq-09",
-        "runner-mcq-11",
-        "runner-mcq-08",
-        "runner-mcq-12",
-        "runner-mcq-07"
+        "runner-mcq-05",
+        "runner-mcq-06",
+        "runner-mcq-16"
       ],
       "explanation": "本句的「runner」指「鋪於走廊或樓梯等狹長空間的長而窄地毯」。",
       "sentenceIndex": 21,
@@ -1101,12 +1015,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-10": "本句指「鋪於走廊或樓梯等狹長空間的長而窄地毯」。",
-        "runner-mcq-09": "「棒球中正在各壘之間推進並試圖得分的進攻球員」與本句語境不同。",
-        "runner-mcq-11": "「沿桌面長方向鋪放的窄長裝飾布」與本句語境不同。",
-        "runner-mcq-08": "「替他人或組織運送違禁品、金錢等物品的人」與本句語境不同。",
-        "runner-mcq-12": "「從母株橫向延伸並能產生新植株的匍匐莖／走莖」與本句語境不同。",
-        "runner-mcq-07": "「負責把廚房完成的食物送到客人餐桌的員工」與本句語境不同。"
+        "runner-mcq-10": "本句的「runner」指「鋪於走廊或樓梯等狹長空間的長而窄地毯」。",
+        "runner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-10"
     },
@@ -1118,11 +1030,9 @@ export default {
       "masked": "They placed a carpet ____ on the stairs.",
       "options": [
         "runner-mcq-10",
-        "runner-mcq-09",
-        "runner-mcq-11",
-        "runner-mcq-08",
-        "runner-mcq-12",
-        "runner-mcq-07"
+        "runner-mcq-05",
+        "runner-mcq-07",
+        "runner-mcq-15"
       ],
       "explanation": "本句的「runner」指「鋪於走廊或樓梯等狹長空間的長而窄地毯」。",
       "sentenceIndex": 22,
@@ -1131,12 +1041,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-10": "本句指「鋪於走廊或樓梯等狹長空間的長而窄地毯」。",
-        "runner-mcq-09": "「棒球中正在各壘之間推進並試圖得分的進攻球員」與本句語境不同。",
-        "runner-mcq-11": "「沿桌面長方向鋪放的窄長裝飾布」與本句語境不同。",
-        "runner-mcq-08": "「替他人或組織運送違禁品、金錢等物品的人」與本句語境不同。",
-        "runner-mcq-12": "「從母株橫向延伸並能產生新植株的匍匐莖／走莖」與本句語境不同。",
-        "runner-mcq-07": "「負責把廚房完成的食物送到客人餐桌的員工」與本句語境不同。"
+        "runner-mcq-10": "本句的「runner」指「鋪於走廊或樓梯等狹長空間的長而窄地毯」。",
+        "runner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-10"
     },
@@ -1148,11 +1056,9 @@ export default {
       "masked": "She placed a linen ____ along the centre of the table.",
       "options": [
         "runner-mcq-11",
-        "runner-mcq-10",
-        "runner-mcq-12",
-        "runner-mcq-09",
-        "runner-mcq-13",
-        "runner-mcq-08"
+        "runner-mcq-18",
+        "runner-mcq-08",
+        "runner-mcq-02"
       ],
       "explanation": "本句的「table runner」指「沿桌面長方向鋪放的窄長裝飾布」。",
       "sentenceIndex": 23,
@@ -1161,12 +1067,10 @@ export default {
         "table runner"
       ],
       "optionReasons": {
-        "runner-mcq-11": "本句指「沿桌面長方向鋪放的窄長裝飾布」。",
-        "runner-mcq-10": "「鋪於走廊或樓梯等狹長空間的長而窄地毯」與本句語境不同。",
-        "runner-mcq-12": "「從母株橫向延伸並能產生新植株的匍匐莖／走莖」與本句語境不同。",
-        "runner-mcq-09": "「棒球中正在各壘之間推進並試圖得分的進攻球員」與本句語境不同。",
-        "runner-mcq-13": "「供抽屜、窗簾等沿固定方向滑動的導引／支撐部件」與本句語境不同。",
-        "runner-mcq-08": "「替他人或組織運送違禁品、金錢等物品的人」與本句語境不同。"
+        "runner-mcq-11": "本句的「table runner」指「沿桌面長方向鋪放的窄長裝飾布」。",
+        "runner-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-11"
     },
@@ -1178,11 +1082,9 @@ export default {
       "masked": "The table ____ matched the napkins.",
       "options": [
         "runner-mcq-11",
-        "runner-mcq-10",
-        "runner-mcq-12",
-        "runner-mcq-09",
-        "runner-mcq-13",
-        "runner-mcq-08"
+        "runner-mcq-18",
+        "runner-mcq-02",
+        "runner-mcq-06"
       ],
       "explanation": "本句的「runner」指「沿桌面長方向鋪放的窄長裝飾布」。",
       "sentenceIndex": 24,
@@ -1191,12 +1093,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-11": "本句指「沿桌面長方向鋪放的窄長裝飾布」。",
-        "runner-mcq-10": "「鋪於走廊或樓梯等狹長空間的長而窄地毯」與本句語境不同。",
-        "runner-mcq-12": "「從母株橫向延伸並能產生新植株的匍匐莖／走莖」與本句語境不同。",
-        "runner-mcq-09": "「棒球中正在各壘之間推進並試圖得分的進攻球員」與本句語境不同。",
-        "runner-mcq-13": "「供抽屜、窗簾等沿固定方向滑動的導引／支撐部件」與本句語境不同。",
-        "runner-mcq-08": "「替他人或組織運送違禁品、金錢等物品的人」與本句語境不同。"
+        "runner-mcq-11": "本句的「runner」指「沿桌面長方向鋪放的窄長裝飾布」。",
+        "runner-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-11"
     },
@@ -1208,11 +1108,9 @@ export default {
       "masked": "The strawberry plant produced several ____.",
       "options": [
         "runner-mcq-12",
-        "runner-mcq-11",
-        "runner-mcq-13",
-        "runner-mcq-10",
-        "runner-mcq-14",
-        "runner-mcq-09"
+        "runner-mcq-02",
+        "runner-mcq-06",
+        "runner-mcq-18"
       ],
       "explanation": "本句的「runners」指「從母株橫向延伸並能產生新植株的匍匐莖／走莖」。",
       "sentenceIndex": 25,
@@ -1221,12 +1119,10 @@ export default {
         "runners"
       ],
       "optionReasons": {
-        "runner-mcq-12": "本句指「從母株橫向延伸並能產生新植株的匍匐莖／走莖」。",
-        "runner-mcq-11": "「沿桌面長方向鋪放的窄長裝飾布」與本句語境不同。",
-        "runner-mcq-13": "「供抽屜、窗簾等沿固定方向滑動的導引／支撐部件」與本句語境不同。",
-        "runner-mcq-10": "「鋪於走廊或樓梯等狹長空間的長而窄地毯」與本句語境不同。",
-        "runner-mcq-14": "「雪橇底部接觸雪面並使其滑行的狹長部件」與本句語境不同。",
-        "runner-mcq-09": "「棒球中正在各壘之間推進並試圖得分的進攻球員」與本句語境不同。"
+        "runner-mcq-12": "本句的「runners」指「從母株橫向延伸並能產生新植株的匍匐莖／走莖」。",
+        "runner-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-12"
     },
@@ -1238,11 +1134,9 @@ export default {
       "masked": "New plants developed from the ____.",
       "options": [
         "runner-mcq-12",
-        "runner-mcq-11",
-        "runner-mcq-13",
-        "runner-mcq-10",
-        "runner-mcq-14",
-        "runner-mcq-09"
+        "runner-mcq-17",
+        "runner-mcq-02",
+        "runner-mcq-08"
       ],
       "explanation": "本句的「runners」指「從母株橫向延伸並能產生新植株的匍匐莖／走莖」。",
       "sentenceIndex": 26,
@@ -1251,12 +1145,10 @@ export default {
         "runners"
       ],
       "optionReasons": {
-        "runner-mcq-12": "本句指「從母株橫向延伸並能產生新植株的匍匐莖／走莖」。",
-        "runner-mcq-11": "「沿桌面長方向鋪放的窄長裝飾布」與本句語境不同。",
-        "runner-mcq-13": "「供抽屜、窗簾等沿固定方向滑動的導引／支撐部件」與本句語境不同。",
-        "runner-mcq-10": "「鋪於走廊或樓梯等狹長空間的長而窄地毯」與本句語境不同。",
-        "runner-mcq-14": "「雪橇底部接觸雪面並使其滑行的狹長部件」與本句語境不同。",
-        "runner-mcq-09": "「棒球中正在各壘之間推進並試圖得分的進攻球員」與本句語境不同。"
+        "runner-mcq-12": "本句的「runners」指「從母株橫向延伸並能產生新植株的匍匐莖／走莖」。",
+        "runner-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-12"
     },
@@ -1268,10 +1160,8 @@ export default {
       "masked": "The drawer ____ needs to be replaced.",
       "options": [
         "runner-mcq-13",
-        "runner-mcq-12",
-        "runner-mcq-14",
-        "runner-mcq-11",
-        "runner-mcq-15",
+        "runner-mcq-05",
+        "runner-mcq-06",
         "runner-mcq-10"
       ],
       "explanation": "本句的「runner」指「供抽屜、窗簾等沿固定方向滑動的導引／支撐部件」。",
@@ -1281,12 +1171,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-13": "本句指「供抽屜、窗簾等沿固定方向滑動的導引／支撐部件」。",
-        "runner-mcq-12": "「從母株橫向延伸並能產生新植株的匍匐莖／走莖」與本句語境不同。",
-        "runner-mcq-14": "「雪橇底部接觸雪面並使其滑行的狹長部件」與本句語境不同。",
-        "runner-mcq-11": "「沿桌面長方向鋪放的窄長裝飾布」與本句語境不同。",
-        "runner-mcq-15": "「自動接收並執行程式、工作、測試或流程的軟件／系統元件」與本句語境不同。",
-        "runner-mcq-10": "「鋪於走廊或樓梯等狹長空間的長而窄地毯」與本句語境不同。"
+        "runner-mcq-13": "本句的「runner」指「供抽屜、窗簾等沿固定方向滑動的導引／支撐部件」。",
+        "runner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-13"
     },
@@ -1298,10 +1186,8 @@ export default {
       "masked": "One of the curtain ____ is broken.",
       "options": [
         "runner-mcq-13",
-        "runner-mcq-12",
-        "runner-mcq-14",
-        "runner-mcq-11",
-        "runner-mcq-15",
+        "runner-mcq-18",
+        "runner-mcq-07",
         "runner-mcq-10"
       ],
       "explanation": "本句的「runners」指「供抽屜、窗簾等沿固定方向滑動的導引／支撐部件」。",
@@ -1311,12 +1197,10 @@ export default {
         "runners"
       ],
       "optionReasons": {
-        "runner-mcq-13": "本句指「供抽屜、窗簾等沿固定方向滑動的導引／支撐部件」。",
-        "runner-mcq-12": "「從母株橫向延伸並能產生新植株的匍匐莖／走莖」與本句語境不同。",
-        "runner-mcq-14": "「雪橇底部接觸雪面並使其滑行的狹長部件」與本句語境不同。",
-        "runner-mcq-11": "「沿桌面長方向鋪放的窄長裝飾布」與本句語境不同。",
-        "runner-mcq-15": "「自動接收並執行程式、工作、測試或流程的軟件／系統元件」與本句語境不同。",
-        "runner-mcq-10": "「鋪於走廊或樓梯等狹長空間的長而窄地毯」與本句語境不同。"
+        "runner-mcq-13": "本句的「runners」指「供抽屜、窗簾等沿固定方向滑動的導引／支撐部件」。",
+        "runner-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-13"
     },
@@ -1328,10 +1212,8 @@ export default {
       "masked": "One of the sled’s ____ was damaged.",
       "options": [
         "runner-mcq-14",
-        "runner-mcq-13",
-        "runner-mcq-15",
-        "runner-mcq-12",
-        "runner-mcq-16",
+        "runner-mcq-19",
+        "runner-mcq-05",
         "runner-mcq-11"
       ],
       "explanation": "本句的「runners」指「雪橇底部接觸雪面並使其滑行的狹長部件」。",
@@ -1341,12 +1223,10 @@ export default {
         "runners"
       ],
       "optionReasons": {
-        "runner-mcq-14": "本句指「雪橇底部接觸雪面並使其滑行的狹長部件」。",
-        "runner-mcq-13": "「供抽屜、窗簾等沿固定方向滑動的導引／支撐部件」與本句語境不同。",
-        "runner-mcq-15": "「自動接收並執行程式、工作、測試或流程的軟件／系統元件」與本句語境不同。",
-        "runner-mcq-12": "「從母株橫向延伸並能產生新植株的匍匐莖／走莖」與本句語境不同。",
-        "runner-mcq-16": "「專門發現並執行自動化測試的程式或工具」與本句語境不同。",
-        "runner-mcq-11": "「沿桌面長方向鋪放的窄長裝飾布」與本句語境不同。"
+        "runner-mcq-14": "本句的「runners」指「雪橇底部接觸雪面並使其滑行的狹長部件」。",
+        "runner-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-14"
     },
@@ -1358,11 +1238,9 @@ export default {
       "masked": "The metal ____ allowed the sled to move smoothly over the snow.",
       "options": [
         "runner-mcq-14",
-        "runner-mcq-13",
-        "runner-mcq-15",
-        "runner-mcq-12",
-        "runner-mcq-16",
-        "runner-mcq-11"
+        "runner-mcq-19",
+        "runner-mcq-18",
+        "runner-mcq-02"
       ],
       "explanation": "本句的「runners」指「雪橇底部接觸雪面並使其滑行的狹長部件」。",
       "sentenceIndex": 30,
@@ -1371,12 +1249,10 @@ export default {
         "runners"
       ],
       "optionReasons": {
-        "runner-mcq-14": "本句指「雪橇底部接觸雪面並使其滑行的狹長部件」。",
-        "runner-mcq-13": "「供抽屜、窗簾等沿固定方向滑動的導引／支撐部件」與本句語境不同。",
-        "runner-mcq-15": "「自動接收並執行程式、工作、測試或流程的軟件／系統元件」與本句語境不同。",
-        "runner-mcq-12": "「從母株橫向延伸並能產生新植株的匍匐莖／走莖」與本句語境不同。",
-        "runner-mcq-16": "「專門發現並執行自動化測試的程式或工具」與本句語境不同。",
-        "runner-mcq-11": "「沿桌面長方向鋪放的窄長裝飾布」與本句語境不同。"
+        "runner-mcq-14": "本句的「runners」指「雪橇底部接觸雪面並使其滑行的狹長部件」。",
+        "runner-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-14"
     },
@@ -1388,11 +1264,9 @@ export default {
       "masked": "The test ____ executes all the automated tests.",
       "options": [
         "runner-mcq-15",
-        "runner-mcq-14",
-        "runner-mcq-16",
-        "runner-mcq-13",
-        "runner-mcq-17",
-        "runner-mcq-12"
+        "runner-mcq-08",
+        "runner-mcq-18",
+        "runner-mcq-11"
       ],
       "explanation": "本句的「runner」指「自動接收並執行程式、工作、測試或流程的軟件／系統元件」。",
       "sentenceIndex": 31,
@@ -1401,12 +1275,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-15": "本句指「自動接收並執行程式、工作、測試或流程的軟件／系統元件」。",
-        "runner-mcq-14": "「雪橇底部接觸雪面並使其滑行的狹長部件」與本句語境不同。",
-        "runner-mcq-16": "「專門發現並執行自動化測試的程式或工具」與本句語境不同。",
-        "runner-mcq-13": "「供抽屜、窗簾等沿固定方向滑動的導引／支撐部件」與本句語境不同。",
-        "runner-mcq-17": "「比賽、評選或競爭中排名緊接勝出者之後的人／隊伍；亞軍」與本句語境不同。",
-        "runner-mcq-12": "「從母株橫向延伸並能產生新植株的匍匐莖／走莖」與本句語境不同。"
+        "runner-mcq-15": "本句的「runner」指「自動接收並執行程式、工作、測試或流程的軟件／系統元件」。",
+        "runner-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-15"
     },
@@ -1418,11 +1290,9 @@ export default {
       "masked": "The build failed because the CI ____ was offline.",
       "options": [
         "runner-mcq-15",
-        "runner-mcq-14",
-        "runner-mcq-16",
-        "runner-mcq-13",
-        "runner-mcq-17",
-        "runner-mcq-12"
+        "runner-mcq-05",
+        "runner-mcq-11",
+        "runner-mcq-08"
       ],
       "explanation": "本句的「runner」指「自動接收並執行程式、工作、測試或流程的軟件／系統元件」。",
       "sentenceIndex": 32,
@@ -1431,12 +1301,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-15": "本句指「自動接收並執行程式、工作、測試或流程的軟件／系統元件」。",
-        "runner-mcq-14": "「雪橇底部接觸雪面並使其滑行的狹長部件」與本句語境不同。",
-        "runner-mcq-16": "「專門發現並執行自動化測試的程式或工具」與本句語境不同。",
-        "runner-mcq-13": "「供抽屜、窗簾等沿固定方向滑動的導引／支撐部件」與本句語境不同。",
-        "runner-mcq-17": "「比賽、評選或競爭中排名緊接勝出者之後的人／隊伍；亞軍」與本句語境不同。",
-        "runner-mcq-12": "「從母株橫向延伸並能產生新植株的匍匐莖／走莖」與本句語境不同。"
+        "runner-mcq-15": "本句的「runner」指「自動接收並執行程式、工作、測試或流程的軟件／系統元件」。",
+        "runner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-15"
     },
@@ -1448,11 +1316,9 @@ export default {
       "masked": "The ____ displayed the failed tests.",
       "options": [
         "runner-mcq-16",
-        "runner-mcq-15",
-        "runner-mcq-17",
-        "runner-mcq-14",
-        "runner-mcq-18",
-        "runner-mcq-13"
+        "runner-mcq-11",
+        "runner-mcq-10",
+        "runner-mcq-05"
       ],
       "explanation": "本句的「test runner」指「專門發現並執行自動化測試的程式或工具」。",
       "sentenceIndex": 33,
@@ -1461,12 +1327,10 @@ export default {
         "test runner"
       ],
       "optionReasons": {
-        "runner-mcq-16": "本句指「專門發現並執行自動化測試的程式或工具」。",
-        "runner-mcq-15": "「自動接收並執行程式、工作、測試或流程的軟件／系統元件」與本句語境不同。",
-        "runner-mcq-17": "「比賽、評選或競爭中排名緊接勝出者之後的人／隊伍；亞軍」與本句語境不同。",
-        "runner-mcq-14": "「雪橇底部接觸雪面並使其滑行的狹長部件」與本句語境不同。",
-        "runner-mcq-18": "「在競賽或競爭中目前領先或被視為主要熱門的人／事物」與本句語境不同。",
-        "runner-mcq-13": "「供抽屜、窗簾等沿固定方向滑動的導引／支撐部件」與本句語境不同。"
+        "runner-mcq-16": "本句的「test runner」指「專門發現並執行自動化測試的程式或工具」。",
+        "runner-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-16"
     },
@@ -1478,11 +1342,9 @@ export default {
       "masked": "You can configure the test ____ from this file.",
       "options": [
         "runner-mcq-16",
-        "runner-mcq-15",
-        "runner-mcq-17",
-        "runner-mcq-14",
-        "runner-mcq-18",
-        "runner-mcq-13"
+        "runner-mcq-10",
+        "runner-mcq-19",
+        "runner-mcq-17"
       ],
       "explanation": "本句的「runner」指「專門發現並執行自動化測試的程式或工具」。",
       "sentenceIndex": 34,
@@ -1491,12 +1353,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-16": "本句指「專門發現並執行自動化測試的程式或工具」。",
-        "runner-mcq-15": "「自動接收並執行程式、工作、測試或流程的軟件／系統元件」與本句語境不同。",
-        "runner-mcq-17": "「比賽、評選或競爭中排名緊接勝出者之後的人／隊伍；亞軍」與本句語境不同。",
-        "runner-mcq-14": "「雪橇底部接觸雪面並使其滑行的狹長部件」與本句語境不同。",
-        "runner-mcq-18": "「在競賽或競爭中目前領先或被視為主要熱門的人／事物」與本句語境不同。",
-        "runner-mcq-13": "「供抽屜、窗簾等沿固定方向滑動的導引／支撐部件」與本句語境不同。"
+        "runner-mcq-16": "本句的「runner」指「專門發現並執行自動化測試的程式或工具」。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-16"
     },
@@ -1508,11 +1368,9 @@ export default {
       "masked": "She finished as ____ in the championship.",
       "options": [
         "runner-mcq-17",
-        "runner-mcq-16",
-        "runner-mcq-18",
-        "runner-mcq-15",
         "runner-mcq-19",
-        "runner-mcq-14"
+        "runner-mcq-16",
+        "runner-mcq-13"
       ],
       "explanation": "本句的「runner-up」指「比賽、評選或競爭中排名緊接勝出者之後的人／隊伍；亞軍」。",
       "sentenceIndex": 35,
@@ -1521,12 +1379,10 @@ export default {
         "runner-up"
       ],
       "optionReasons": {
-        "runner-mcq-17": "本句指「比賽、評選或競爭中排名緊接勝出者之後的人／隊伍；亞軍」。",
-        "runner-mcq-16": "「專門發現並執行自動化測試的程式或工具」與本句語境不同。",
-        "runner-mcq-18": "「在競賽或競爭中目前領先或被視為主要熱門的人／事物」與本句語境不同。",
-        "runner-mcq-15": "「自動接收並執行程式、工作、測試或流程的軟件／系統元件」與本句語境不同。",
-        "runner-mcq-19": "「突然逃走或偷偷離開，以逃避付款、責任或麻煩」與本句語境不同。",
-        "runner-mcq-14": "「雪橇底部接觸雪面並使其滑行的狹長部件」與本句語境不同。"
+        "runner-mcq-17": "本句的「runner-up」指「比賽、評選或競爭中排名緊接勝出者之後的人／隊伍；亞軍」。",
+        "runner-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-17"
     },
@@ -1538,11 +1394,9 @@ export default {
       "masked": "The ____ received silver medals.",
       "options": [
         "runner-mcq-17",
-        "runner-mcq-16",
-        "runner-mcq-18",
-        "runner-mcq-15",
-        "runner-mcq-19",
-        "runner-mcq-14"
+        "runner-mcq-06",
+        "runner-mcq-11",
+        "runner-mcq-10"
       ],
       "explanation": "本句的「runners-up」指「比賽、評選或競爭中排名緊接勝出者之後的人／隊伍；亞軍」。",
       "sentenceIndex": 36,
@@ -1551,12 +1405,10 @@ export default {
         "runners-up"
       ],
       "optionReasons": {
-        "runner-mcq-17": "本句指「比賽、評選或競爭中排名緊接勝出者之後的人／隊伍；亞軍」。",
-        "runner-mcq-16": "「專門發現並執行自動化測試的程式或工具」與本句語境不同。",
-        "runner-mcq-18": "「在競賽或競爭中目前領先或被視為主要熱門的人／事物」與本句語境不同。",
-        "runner-mcq-15": "「自動接收並執行程式、工作、測試或流程的軟件／系統元件」與本句語境不同。",
-        "runner-mcq-19": "「突然逃走或偷偷離開，以逃避付款、責任或麻煩」與本句語境不同。",
-        "runner-mcq-14": "「雪橇底部接觸雪面並使其滑行的狹長部件」與本句語境不同。"
+        "runner-mcq-17": "本句的「runners-up」指「比賽、評選或競爭中排名緊接勝出者之後的人／隊伍；亞軍」。",
+        "runner-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-17"
     },
@@ -1568,11 +1420,9 @@ export default {
       "masked": "She quickly became the ____ for the award.",
       "options": [
         "runner-mcq-18",
-        "runner-mcq-17",
         "runner-mcq-19",
-        "runner-mcq-16",
-        "runner-mcq-15",
-        "runner-mcq-14"
+        "runner-mcq-10",
+        "runner-mcq-15"
       ],
       "explanation": "本句的「front-runner」指「在競賽或競爭中目前領先或被視為主要熱門的人／事物」。",
       "sentenceIndex": 37,
@@ -1581,12 +1431,10 @@ export default {
         "front-runner"
       ],
       "optionReasons": {
-        "runner-mcq-18": "本句指「在競賽或競爭中目前領先或被視為主要熱門的人／事物」。",
-        "runner-mcq-17": "「比賽、評選或競爭中排名緊接勝出者之後的人／隊伍；亞軍」與本句語境不同。",
-        "runner-mcq-19": "「突然逃走或偷偷離開，以逃避付款、責任或麻煩」與本句語境不同。",
-        "runner-mcq-16": "「專門發現並執行自動化測試的程式或工具」與本句語境不同。",
-        "runner-mcq-15": "「自動接收並執行程式、工作、測試或流程的軟件／系統元件」與本句語境不同。",
-        "runner-mcq-14": "「雪橇底部接觸雪面並使其滑行的狹長部件」與本句語境不同。"
+        "runner-mcq-18": "本句的「front-runner」指「在競賽或競爭中目前領先或被視為主要熱門的人／事物」。",
+        "runner-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-18"
     },
@@ -1598,11 +1446,9 @@ export default {
       "masked": "The company is a front-____ in battery technology.",
       "options": [
         "runner-mcq-18",
-        "runner-mcq-17",
+        "runner-mcq-10",
         "runner-mcq-19",
-        "runner-mcq-16",
-        "runner-mcq-15",
-        "runner-mcq-14"
+        "runner-mcq-13"
       ],
       "explanation": "本句的「runner」指「在競賽或競爭中目前領先或被視為主要熱門的人／事物」。",
       "sentenceIndex": 38,
@@ -1611,12 +1457,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-18": "本句指「在競賽或競爭中目前領先或被視為主要熱門的人／事物」。",
-        "runner-mcq-17": "「比賽、評選或競爭中排名緊接勝出者之後的人／隊伍；亞軍」與本句語境不同。",
-        "runner-mcq-19": "「突然逃走或偷偷離開，以逃避付款、責任或麻煩」與本句語境不同。",
-        "runner-mcq-16": "「專門發現並執行自動化測試的程式或工具」與本句語境不同。",
-        "runner-mcq-15": "「自動接收並執行程式、工作、測試或流程的軟件／系統元件」與本句語境不同。",
-        "runner-mcq-14": "「雪橇底部接觸雪面並使其滑行的狹長部件」與本句語境不同。"
+        "runner-mcq-18": "本句的「runner」指「在競賽或競爭中目前領先或被視為主要熱門的人／事物」。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-18"
     },
@@ -1628,11 +1472,9 @@ export default {
       "masked": "The front-____ increased her lead on the final lap.",
       "options": [
         "runner-mcq-18",
-        "runner-mcq-17",
-        "runner-mcq-19",
-        "runner-mcq-16",
+        "runner-mcq-06",
         "runner-mcq-15",
-        "runner-mcq-14"
+        "runner-mcq-12"
       ],
       "explanation": "本句的「runner」指「在競賽或競爭中目前領先或被視為主要熱門的人／事物」。",
       "sentenceIndex": 39,
@@ -1641,12 +1483,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-18": "本句指「在競賽或競爭中目前領先或被視為主要熱門的人／事物」。",
-        "runner-mcq-17": "「比賽、評選或競爭中排名緊接勝出者之後的人／隊伍；亞軍」與本句語境不同。",
-        "runner-mcq-19": "「突然逃走或偷偷離開，以逃避付款、責任或麻煩」與本句語境不同。",
-        "runner-mcq-16": "「專門發現並執行自動化測試的程式或工具」與本句語境不同。",
-        "runner-mcq-15": "「自動接收並執行程式、工作、測試或流程的軟件／系統元件」與本句語境不同。",
-        "runner-mcq-14": "「雪橇底部接觸雪面並使其滑行的狹長部件」與本句語境不同。"
+        "runner-mcq-18": "本句的「runner」指「在競賽或競爭中目前領先或被視為主要熱門的人／事物」。",
+        "runner-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-18"
     },
@@ -1658,11 +1498,9 @@ export default {
       "masked": "The early front-____ eventually finished third.",
       "options": [
         "runner-mcq-18",
-        "runner-mcq-17",
-        "runner-mcq-19",
-        "runner-mcq-16",
-        "runner-mcq-15",
-        "runner-mcq-14"
+        "runner-mcq-11",
+        "runner-mcq-10",
+        "runner-mcq-12"
       ],
       "explanation": "本句的「runner」指「在競賽或競爭中目前領先或被視為主要熱門的人／事物」。",
       "sentenceIndex": 40,
@@ -1671,12 +1509,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-18": "本句指「在競賽或競爭中目前領先或被視為主要熱門的人／事物」。",
-        "runner-mcq-17": "「比賽、評選或競爭中排名緊接勝出者之後的人／隊伍；亞軍」與本句語境不同。",
-        "runner-mcq-19": "「突然逃走或偷偷離開，以逃避付款、責任或麻煩」與本句語境不同。",
-        "runner-mcq-16": "「專門發現並執行自動化測試的程式或工具」與本句語境不同。",
-        "runner-mcq-15": "「自動接收並執行程式、工作、測試或流程的軟件／系統元件」與本句語境不同。",
-        "runner-mcq-14": "「雪橇底部接觸雪面並使其滑行的狹長部件」與本句語境不同。"
+        "runner-mcq-18": "本句的「runner」指「在競賽或競爭中目前領先或被視為主要熱門的人／事物」。",
+        "runner-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-18"
     },
@@ -1688,11 +1524,9 @@ export default {
       "masked": "The customer ate the meal and then ____ without paying.",
       "options": [
         "runner-mcq-19",
-        "runner-mcq-18",
-        "runner-mcq-17",
-        "runner-mcq-16",
-        "runner-mcq-15",
-        "runner-mcq-14"
+        "runner-mcq-05",
+        "runner-mcq-13",
+        "runner-mcq-15"
       ],
       "explanation": "本句的「did a runner」指「突然逃走或偷偷離開，以逃避付款、責任或麻煩」。",
       "sentenceIndex": 41,
@@ -1701,12 +1535,10 @@ export default {
         "did a runner"
       ],
       "optionReasons": {
-        "runner-mcq-19": "本句指「突然逃走或偷偷離開，以逃避付款、責任或麻煩」。",
-        "runner-mcq-18": "「在競賽或競爭中目前領先或被視為主要熱門的人／事物」與本句語境不同。",
-        "runner-mcq-17": "「比賽、評選或競爭中排名緊接勝出者之後的人／隊伍；亞軍」與本句語境不同。",
-        "runner-mcq-16": "「專門發現並執行自動化測試的程式或工具」與本句語境不同。",
-        "runner-mcq-15": "「自動接收並執行程式、工作、測試或流程的軟件／系統元件」與本句語境不同。",
-        "runner-mcq-14": "「雪橇底部接觸雪面並使其滑行的狹長部件」與本句語境不同。"
+        "runner-mcq-19": "本句的「did a runner」指「突然逃走或偷偷離開，以逃避付款、責任或麻煩」。",
+        "runner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-19"
     },
@@ -1718,11 +1550,9 @@ export default {
       "masked": "He realized the police were coming and did a ____.",
       "options": [
         "runner-mcq-19",
-        "runner-mcq-18",
-        "runner-mcq-17",
-        "runner-mcq-16",
+        "runner-mcq-13",
         "runner-mcq-15",
-        "runner-mcq-14"
+        "runner-mcq-09"
       ],
       "explanation": "本句的「runner」指「突然逃走或偷偷離開，以逃避付款、責任或麻煩」。",
       "sentenceIndex": 42,
@@ -1731,12 +1561,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "runner-mcq-19": "本句指「突然逃走或偷偷離開，以逃避付款、責任或麻煩」。",
-        "runner-mcq-18": "「在競賽或競爭中目前領先或被視為主要熱門的人／事物」與本句語境不同。",
-        "runner-mcq-17": "「比賽、評選或競爭中排名緊接勝出者之後的人／隊伍；亞軍」與本句語境不同。",
-        "runner-mcq-16": "「專門發現並執行自動化測試的程式或工具」與本句語境不同。",
-        "runner-mcq-15": "「自動接收並執行程式、工作、測試或流程的軟件／系統元件」與本句語境不同。",
-        "runner-mcq-14": "「雪橇底部接觸雪面並使其滑行的狹長部件」與本句語境不同。"
+        "runner-mcq-19": "本句的「runner」指「突然逃走或偷偷離開，以逃避付款、責任或麻煩」。",
+        "runner-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "runner-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "runner-mcq-19"
     }
@@ -1748,5 +1576,7 @@ export default {
     "sha256": "2d5bf5dfbfca7c11b2717659c64b2319739ec28833705f393cbbdba9528a637a",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

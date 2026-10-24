@@ -559,7 +559,7 @@ export default {
     },
     {
       "id": "kind-mcq-25",
-      "title": "表示志趣相投的人／知音",
+      "title": "志趣相投的人／知音",
       "form": "27. kindred（同類／有共同特質；較遠的相關詞） — 同類的；志趣相投的",
       "en": "27. kindred（同類／有共同特質；較遠的相關詞） — 同類的；志趣相投的",
       "zh": "表示志趣相投的人／知音",
@@ -584,11 +584,9 @@ export default {
       "masked": "This was ____ I could not keep avoiding.",
       "options": [
         "kind-mcq-01",
-        "kind-mcq-02",
-        "kind-mcq-03",
-        "kind-mcq-04",
-        "kind-mcq-05",
-        "kind-mcq-06"
+        "kind-mcq-14",
+        "kind-mcq-25",
+        "kind-mcq-19"
       ],
       "explanation": "本句的「the kind of opportunity」指「按共同特徵、用途或性質歸在一起的一種類別／類型」。",
       "sentenceIndex": 0,
@@ -597,12 +595,10 @@ export default {
         "the kind of opportunity"
       ],
       "optionReasons": {
-        "kind-mcq-01": "本句指「按共同特徵、用途或性質歸在一起的一種類別／類型」。",
-        "kind-mcq-02": "「某一種類別／形式的事物；一種……」是「a kind of + noun」的用法，與本句語境不同。",
-        "kind-mcq-03": "「指某個已知或特定類型的事物；這種／那種」是「this/that kind of」的用法，與本句語境不同。",
-        "kind-mcq-04": "「詢問某人／某物屬於甚麼類型或具有甚麼性質」是「what kind of」的用法，與本句語境不同。",
-        "kind-mcq-05": "「很多不同種類／形式的；各式各樣」是「all kinds of」的用法，與本句語境不同。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。"
+        "kind-mcq-01": "本句的「the kind of opportunity」指「按共同特徵、用途或性質歸在一起的一種類別／類型」。",
+        "kind-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-01"
     },
@@ -614,11 +610,9 @@ export default {
       "masked": "What ____ are you giving?",
       "options": [
         "kind-mcq-01",
-        "kind-mcq-02",
-        "kind-mcq-03",
-        "kind-mcq-04",
-        "kind-mcq-05",
-        "kind-mcq-06"
+        "kind-mcq-13",
+        "kind-mcq-19",
+        "kind-mcq-25"
       ],
       "explanation": "本句的「kind of presentation」指「按共同特徵、用途或性質歸在一起的一種類別／類型」。",
       "sentenceIndex": 1,
@@ -627,12 +621,10 @@ export default {
         "kind of presentation"
       ],
       "optionReasons": {
-        "kind-mcq-01": "本句指「按共同特徵、用途或性質歸在一起的一種類別／類型」。",
-        "kind-mcq-02": "「某一種類別／形式的事物；一種……」是「a kind of + noun」的用法，與本句語境不同。",
-        "kind-mcq-03": "「指某個已知或特定類型的事物；這種／那種」是「this/that kind of」的用法，與本句語境不同。",
-        "kind-mcq-04": "「詢問某人／某物屬於甚麼類型或具有甚麼性質」是「what kind of」的用法，與本句語境不同。",
-        "kind-mcq-05": "「很多不同種類／形式的；各式各樣」是「all kinds of」的用法，與本句語境不同。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。"
+        "kind-mcq-01": "本句的「kind of presentation」指「按共同特徵、用途或性質歸在一起的一種類別／類型」。",
+        "kind-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-01"
     },
@@ -644,11 +636,9 @@ export default {
       "masked": "This ____ can build confidence.",
       "options": [
         "kind-mcq-01",
-        "kind-mcq-02",
-        "kind-mcq-03",
-        "kind-mcq-04",
-        "kind-mcq-05",
-        "kind-mcq-06"
+        "kind-mcq-25",
+        "kind-mcq-08",
+        "kind-mcq-18"
       ],
       "explanation": "本句的「kind of experience」指「按共同特徵、用途或性質歸在一起的一種類別／類型」。",
       "sentenceIndex": 2,
@@ -657,12 +647,10 @@ export default {
         "kind of experience"
       ],
       "optionReasons": {
-        "kind-mcq-01": "本句指「按共同特徵、用途或性質歸在一起的一種類別／類型」。",
-        "kind-mcq-02": "「某一種類別／形式的事物；一種……」是「a kind of + noun」的用法，與本句語境不同。",
-        "kind-mcq-03": "「指某個已知或特定類型的事物；這種／那種」是「this/that kind of」的用法，與本句語境不同。",
-        "kind-mcq-04": "「詢問某人／某物屬於甚麼類型或具有甚麼性質」是「what kind of」的用法，與本句語境不同。",
-        "kind-mcq-05": "「很多不同種類／形式的；各式各樣」是「all kinds of」的用法，與本句語境不同。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。"
+        "kind-mcq-01": "本句的「kind of experience」指「按共同特徵、用途或性質歸在一起的一種類別／類型」。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-01"
     },
@@ -674,11 +662,9 @@ export default {
       "masked": "It was ____ for me.",
       "options": [
         "kind-mcq-02",
-        "kind-mcq-01",
-        "kind-mcq-03",
-        "kind-mcq-04",
-        "kind-mcq-05",
-        "kind-mcq-06"
+        "kind-mcq-08",
+        "kind-mcq-07",
+        "kind-mcq-17"
       ],
       "explanation": "本句的「a kind of test」指「某一種類別／形式的事物；一種……」。",
       "sentenceIndex": 3,
@@ -687,12 +673,10 @@ export default {
         "a kind of test"
       ],
       "optionReasons": {
-        "kind-mcq-02": "本句指「某一種類別／形式的事物；一種……」。",
-        "kind-mcq-01": "「按共同特徵、用途或性質歸在一起的一種類別／類型」是「kind — type/category」的用法，與本句語境不同。",
-        "kind-mcq-03": "「指某個已知或特定類型的事物；這種／那種」是「this/that kind of」的用法，與本句語境不同。",
-        "kind-mcq-04": "「詢問某人／某物屬於甚麼類型或具有甚麼性質」是「what kind of」的用法，與本句語境不同。",
-        "kind-mcq-05": "「很多不同種類／形式的；各式各樣」是「all kinds of」的用法，與本句語境不同。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。"
+        "kind-mcq-02": "本句的「a kind of test」指「某一種類別／形式的事物；一種……」。",
+        "kind-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-02"
     },
@@ -704,11 +688,9 @@ export default {
       "masked": "This is ____.",
       "options": [
         "kind-mcq-02",
-        "kind-mcq-01",
-        "kind-mcq-03",
-        "kind-mcq-04",
-        "kind-mcq-05",
-        "kind-mcq-06"
+        "kind-mcq-17",
+        "kind-mcq-08",
+        "kind-mcq-25"
       ],
       "explanation": "本句的「a kind of training」指「某一種類別／形式的事物；一種……」。",
       "sentenceIndex": 4,
@@ -717,12 +699,10 @@ export default {
         "a kind of training"
       ],
       "optionReasons": {
-        "kind-mcq-02": "本句指「某一種類別／形式的事物；一種……」。",
-        "kind-mcq-01": "「按共同特徵、用途或性質歸在一起的一種類別／類型」是「kind — type/category」的用法，與本句語境不同。",
-        "kind-mcq-03": "「指某個已知或特定類型的事物；這種／那種」是「this/that kind of」的用法，與本句語境不同。",
-        "kind-mcq-04": "「詢問某人／某物屬於甚麼類型或具有甚麼性質」是「what kind of」的用法，與本句語境不同。",
-        "kind-mcq-05": "「很多不同種類／形式的；各式各樣」是「all kinds of」的用法，與本句語境不同。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。"
+        "kind-mcq-02": "本句的「a kind of training」指「某一種類別／形式的事物；一種……」。",
+        "kind-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-02"
     },
@@ -734,11 +714,9 @@ export default {
       "masked": "I had never faced ____ before.",
       "options": [
         "kind-mcq-03",
-        "kind-mcq-02",
-        "kind-mcq-04",
-        "kind-mcq-01",
-        "kind-mcq-05",
-        "kind-mcq-06"
+        "kind-mcq-12",
+        "kind-mcq-09",
+        "kind-mcq-19"
       ],
       "explanation": "本句的「that kind of pressure」指「指某個已知或特定類型的事物；這種／那種」。",
       "sentenceIndex": 5,
@@ -747,12 +725,10 @@ export default {
         "that kind of pressure"
       ],
       "optionReasons": {
-        "kind-mcq-03": "本句指「指某個已知或特定類型的事物；這種／那種」。",
-        "kind-mcq-02": "「某一種類別／形式的事物；一種……」是「a kind of + noun」的用法，與本句語境不同。",
-        "kind-mcq-04": "「詢問某人／某物屬於甚麼類型或具有甚麼性質」是「what kind of」的用法，與本句語境不同。",
-        "kind-mcq-01": "「按共同特徵、用途或性質歸在一起的一種類別／類型」是「kind — type/category」的用法，與本句語境不同。",
-        "kind-mcq-05": "「很多不同種類／形式的；各式各樣」是「all kinds of」的用法，與本句語境不同。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。"
+        "kind-mcq-03": "本句的「that kind of pressure」指「指某個已知或特定類型的事物；這種／那種」。",
+        "kind-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-03"
     },
@@ -764,11 +740,9 @@ export default {
       "masked": "I enjoy ____.",
       "options": [
         "kind-mcq-03",
-        "kind-mcq-02",
-        "kind-mcq-04",
-        "kind-mcq-01",
-        "kind-mcq-05",
-        "kind-mcq-06"
+        "kind-mcq-22",
+        "kind-mcq-19",
+        "kind-mcq-09"
       ],
       "explanation": "本句的「this kind of work」指「指某個已知或特定類型的事物；這種／那種」。",
       "sentenceIndex": 6,
@@ -777,12 +751,10 @@ export default {
         "this kind of work"
       ],
       "optionReasons": {
-        "kind-mcq-03": "本句指「指某個已知或特定類型的事物；這種／那種」。",
-        "kind-mcq-02": "「某一種類別／形式的事物；一種……」是「a kind of + noun」的用法，與本句語境不同。",
-        "kind-mcq-04": "「詢問某人／某物屬於甚麼類型或具有甚麼性質」是「what kind of」的用法，與本句語境不同。",
-        "kind-mcq-01": "「按共同特徵、用途或性質歸在一起的一種類別／類型」是「kind — type/category」的用法，與本句語境不同。",
-        "kind-mcq-05": "「很多不同種類／形式的；各式各樣」是「all kinds of」的用法，與本句語境不同。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。"
+        "kind-mcq-03": "本句的「this kind of work」指「指某個已知或特定類型的事物；這種／那種」。",
+        "kind-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-03"
     },
@@ -794,11 +766,9 @@ export default {
       "masked": "What ____ were you speaking to?",
       "options": [
         "kind-mcq-04",
-        "kind-mcq-03",
-        "kind-mcq-05",
-        "kind-mcq-02",
-        "kind-mcq-06",
-        "kind-mcq-01"
+        "kind-mcq-08",
+        "kind-mcq-25",
+        "kind-mcq-18"
       ],
       "explanation": "本句的「kind of audience」指「詢問某人／某物屬於甚麼類型或具有甚麼性質」。",
       "sentenceIndex": 7,
@@ -807,12 +777,10 @@ export default {
         "kind of audience"
       ],
       "optionReasons": {
-        "kind-mcq-04": "本句指「詢問某人／某物屬於甚麼類型或具有甚麼性質」。",
-        "kind-mcq-03": "「指某個已知或特定類型的事物；這種／那種」是「this/that kind of」的用法，與本句語境不同。",
-        "kind-mcq-05": "「很多不同種類／形式的；各式各樣」是「all kinds of」的用法，與本句語境不同。",
-        "kind-mcq-02": "「某一種類別／形式的事物；一種……」是「a kind of + noun」的用法，與本句語境不同。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。",
-        "kind-mcq-01": "「按共同特徵、用途或性質歸在一起的一種類別／類型」是「kind — type/category」的用法，與本句語境不同。"
+        "kind-mcq-04": "本句的「kind of audience」指「詢問某人／某物屬於甚麼類型或具有甚麼性質」。",
+        "kind-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-04"
     },
@@ -824,11 +792,9 @@ export default {
       "masked": "What ____ are you looking for?",
       "options": [
         "kind-mcq-04",
-        "kind-mcq-03",
-        "kind-mcq-05",
-        "kind-mcq-02",
-        "kind-mcq-06",
-        "kind-mcq-01"
+        "kind-mcq-14",
+        "kind-mcq-19",
+        "kind-mcq-25"
       ],
       "explanation": "本句的「kind of job」指「詢問某人／某物屬於甚麼類型或具有甚麼性質」。",
       "sentenceIndex": 8,
@@ -837,12 +803,10 @@ export default {
         "kind of job"
       ],
       "optionReasons": {
-        "kind-mcq-04": "本句指「詢問某人／某物屬於甚麼類型或具有甚麼性質」。",
-        "kind-mcq-03": "「指某個已知或特定類型的事物；這種／那種」是「this/that kind of」的用法，與本句語境不同。",
-        "kind-mcq-05": "「很多不同種類／形式的；各式各樣」是「all kinds of」的用法，與本句語境不同。",
-        "kind-mcq-02": "「某一種類別／形式的事物；一種……」是「a kind of + noun」的用法，與本句語境不同。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。",
-        "kind-mcq-01": "「按共同特徵、用途或性質歸在一起的一種類別／類型」是「kind — type/category」的用法，與本句語境不同。"
+        "kind-mcq-04": "本句的「kind of job」指「詢問某人／某物屬於甚麼類型或具有甚麼性質」。",
+        "kind-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-04"
     },
@@ -854,11 +818,9 @@ export default {
       "masked": "I imagined ____ before the presentation.",
       "options": [
         "kind-mcq-05",
-        "kind-mcq-04",
-        "kind-mcq-06",
-        "kind-mcq-03",
+        "kind-mcq-12",
         "kind-mcq-07",
-        "kind-mcq-02"
+        "kind-mcq-19"
       ],
       "explanation": "本句的「all kinds of problems」指「很多不同種類／形式的；各式各樣」。",
       "sentenceIndex": 9,
@@ -867,12 +829,10 @@ export default {
         "all kinds of problems"
       ],
       "optionReasons": {
-        "kind-mcq-05": "本句指「很多不同種類／形式的；各式各樣」。",
-        "kind-mcq-04": "「詢問某人／某物屬於甚麼類型或具有甚麼性質」是「what kind of」的用法，與本句語境不同。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。",
-        "kind-mcq-03": "「指某個已知或特定類型的事物；這種／那種」是「this/that kind of」的用法，與本句語境不同。",
-        "kind-mcq-07": "「具有某種典型性格、身份或行為特徵的人」是「kind of person」的用法，與本句語境不同。",
-        "kind-mcq-02": "「某一種類別／形式的事物；一種……」是「a kind of + noun」的用法，與本句語境不同。"
+        "kind-mcq-05": "本句的「all kinds of problems」指「很多不同種類／形式的；各式各樣」。",
+        "kind-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-05"
     },
@@ -884,11 +844,9 @@ export default {
       "masked": "The event attracted ____.",
       "options": [
         "kind-mcq-05",
-        "kind-mcq-04",
-        "kind-mcq-06",
-        "kind-mcq-03",
-        "kind-mcq-07",
-        "kind-mcq-02"
+        "kind-mcq-14",
+        "kind-mcq-25",
+        "kind-mcq-07"
       ],
       "explanation": "本句的「all kinds of people」指「很多不同種類／形式的；各式各樣」。",
       "sentenceIndex": 10,
@@ -897,12 +855,10 @@ export default {
         "all kinds of people"
       ],
       "optionReasons": {
-        "kind-mcq-05": "本句指「很多不同種類／形式的；各式各樣」。",
-        "kind-mcq-04": "「詢問某人／某物屬於甚麼類型或具有甚麼性質」是「what kind of」的用法，與本句語境不同。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。",
-        "kind-mcq-03": "「指某個已知或特定類型的事物；這種／那種」是「this/that kind of」的用法，與本句語境不同。",
-        "kind-mcq-07": "「具有某種典型性格、身份或行為特徵的人」是「kind of person」的用法，與本句語境不同。",
-        "kind-mcq-02": "「某一種類別／形式的事物；一種……」是「a kind of + noun」的用法，與本句語境不同。"
+        "kind-mcq-05": "本句的「all kinds of people」指「很多不同種類／形式的；各式各樣」。",
+        "kind-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-05"
     },
@@ -914,11 +870,9 @@ export default {
       "masked": "There are many ____.",
       "options": [
         "kind-mcq-06",
-        "kind-mcq-05",
-        "kind-mcq-07",
-        "kind-mcq-04",
-        "kind-mcq-08",
-        "kind-mcq-03"
+        "kind-mcq-25",
+        "kind-mcq-14",
+        "kind-mcq-07"
       ],
       "explanation": "本句的「different kinds of presentations」指「屬於多個不同類別／形式的」。",
       "sentenceIndex": 11,
@@ -927,12 +881,10 @@ export default {
         "different kinds of presentations"
       ],
       "optionReasons": {
-        "kind-mcq-06": "本句指「屬於多個不同類別／形式的」。",
-        "kind-mcq-05": "「很多不同種類／形式的；各式各樣」是「all kinds of」的用法，與本句語境不同。",
-        "kind-mcq-07": "「具有某種典型性格、身份或行為特徵的人」是「kind of person」的用法，與本句語境不同。",
-        "kind-mcq-04": "「詢問某人／某物屬於甚麼類型或具有甚麼性質」是「what kind of」的用法，與本句語境不同。",
-        "kind-mcq-08": "「非正式表示程度不完全或較模糊；有點／某程度上」是「kind of + adjective/verb」的用法，與本句語境不同。",
-        "kind-mcq-03": "「指某個已知或特定類型的事物；這種／那種」是「this/that kind of」的用法，與本句語境不同。"
+        "kind-mcq-06": "本句的「different kinds of presentations」指「屬於多個不同類別／形式的」。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-06"
     },
@@ -944,11 +896,9 @@ export default {
       "masked": "People react to pressure in ____.",
       "options": [
         "kind-mcq-06",
-        "kind-mcq-05",
-        "kind-mcq-07",
-        "kind-mcq-04",
-        "kind-mcq-08",
-        "kind-mcq-03"
+        "kind-mcq-18",
+        "kind-mcq-25",
+        "kind-mcq-19"
       ],
       "explanation": "本句的「different kinds of ways」指「屬於多個不同類別／形式的」。",
       "sentenceIndex": 12,
@@ -957,12 +907,10 @@ export default {
         "different kinds of ways"
       ],
       "optionReasons": {
-        "kind-mcq-06": "本句指「屬於多個不同類別／形式的」。",
-        "kind-mcq-05": "「很多不同種類／形式的；各式各樣」是「all kinds of」的用法，與本句語境不同。",
-        "kind-mcq-07": "「具有某種典型性格、身份或行為特徵的人」是「kind of person」的用法，與本句語境不同。",
-        "kind-mcq-04": "「詢問某人／某物屬於甚麼類型或具有甚麼性質」是「what kind of」的用法，與本句語境不同。",
-        "kind-mcq-08": "「非正式表示程度不完全或較模糊；有點／某程度上」是「kind of + adjective/verb」的用法，與本句語境不同。",
-        "kind-mcq-03": "「指某個已知或特定類型的事物；這種／那種」是「this/that kind of」的用法，與本句語境不同。"
+        "kind-mcq-06": "本句的「different kinds of ways」指「屬於多個不同類別／形式的」。",
+        "kind-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-06"
     },
@@ -975,10 +923,8 @@ export default {
       "options": [
         "kind-mcq-23",
         "kind-mcq-22",
-        "kind-mcq-24",
-        "kind-mcq-21",
-        "kind-mcq-25",
-        "kind-mcq-20"
+        "kind-mcq-08",
+        "kind-mcq-07"
       ],
       "explanation": "本句的「kind of challenge」指「用來區分同一大類之下不同的種類」。",
       "sentenceIndex": 13,
@@ -987,12 +933,10 @@ export default {
         "kind of challenge"
       ],
       "optionReasons": {
-        "kind-mcq-23": "本句指「用來區分同一大類之下不同的種類」。",
-        "kind-mcq-22": "「對某人／動物表現出的關心、體諒和善意」是「kindness to someone」的用法，與本句語境不同。",
-        "kind-mcq-24": "「以不刻薄、不殘酷、不過分嚴厲的方式對待別人」是「18. kind = gentle / not harsh（溫和的；不傷害的） — 溫和的；不苛刻的」的用法，與本句語境不同。",
-        "kind-mcq-21": "「本性善良、富同情心並願意幫助別人的」是「kind-hearted」的用法，與本句語境不同。",
-        "kind-mcq-25": "「表示志趣相投的人／知音」是「27. kindred（同類／有共同特質；較遠的相關詞） — 同類的；志趣相投的」的用法，與本句語境不同。",
-        "kind-mcq-20": "「缺乏友善、體諒或善意，並可能令別人受傷的」是「unkind」的用法，與本句語境不同。"
+        "kind-mcq-23": "本句的「kind of challenge」指「用來區分同一大類之下不同的種類」。",
+        "kind-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-23"
     },
@@ -1004,11 +948,9 @@ export default {
       "masked": "This is one ____, but there are others.",
       "options": [
         "kind-mcq-23",
-        "kind-mcq-22",
-        "kind-mcq-24",
-        "kind-mcq-21",
-        "kind-mcq-25",
-        "kind-mcq-20"
+        "kind-mcq-08",
+        "kind-mcq-13",
+        "kind-mcq-25"
       ],
       "explanation": "本句的「kind of solution」指「用來區分同一大類之下不同的種類」。",
       "sentenceIndex": 14,
@@ -1017,12 +959,10 @@ export default {
         "kind of solution"
       ],
       "optionReasons": {
-        "kind-mcq-23": "本句指「用來區分同一大類之下不同的種類」。",
-        "kind-mcq-22": "「對某人／動物表現出的關心、體諒和善意」是「kindness to someone」的用法，與本句語境不同。",
-        "kind-mcq-24": "「以不刻薄、不殘酷、不過分嚴厲的方式對待別人」是「18. kind = gentle / not harsh（溫和的；不傷害的） — 溫和的；不苛刻的」的用法，與本句語境不同。",
-        "kind-mcq-21": "「本性善良、富同情心並願意幫助別人的」是「kind-hearted」的用法，與本句語境不同。",
-        "kind-mcq-25": "「表示志趣相投的人／知音」是「27. kindred（同類／有共同特質；較遠的相關詞） — 同類的；志趣相投的」的用法，與本句語境不同。",
-        "kind-mcq-20": "「缺乏友善、體諒或善意，並可能令別人受傷的」是「unkind」的用法，與本句語境不同。"
+        "kind-mcq-23": "本句的「kind of solution」指「用來區分同一大類之下不同的種類」。",
+        "kind-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-23"
     },
@@ -1034,11 +974,9 @@ export default {
       "masked": "She is the ____ who prepares carefully.",
       "options": [
         "kind-mcq-07",
-        "kind-mcq-06",
-        "kind-mcq-08",
-        "kind-mcq-05",
-        "kind-mcq-09",
-        "kind-mcq-04"
+        "kind-mcq-12",
+        "kind-mcq-19",
+        "kind-mcq-23"
       ],
       "explanation": "本句的「kind of person」指「具有某種典型性格、身份或行為特徵的人」。",
       "sentenceIndex": 15,
@@ -1047,12 +985,10 @@ export default {
         "kind of person"
       ],
       "optionReasons": {
-        "kind-mcq-07": "本句指「具有某種典型性格、身份或行為特徵的人」。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。",
-        "kind-mcq-08": "「非正式表示程度不完全或較模糊；有點／某程度上」是「kind of + adjective/verb」的用法，與本句語境不同。",
-        "kind-mcq-05": "「很多不同種類／形式的；各式各樣」是「all kinds of」的用法，與本句語境不同。",
-        "kind-mcq-09": "「沒有另一個完全相同的；獨一無二的」是「one of a kind」的用法，與本句語境不同。",
-        "kind-mcq-04": "「詢問某人／某物屬於甚麼類型或具有甚麼性質」是「what kind of」的用法，與本句語境不同。"
+        "kind-mcq-07": "本句的「kind of person」指「具有某種典型性格、身份或行為特徵的人」。",
+        "kind-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-07"
     },
@@ -1064,11 +1000,9 @@ export default {
       "masked": "He’s not the ____ who gives up easily.",
       "options": [
         "kind-mcq-07",
-        "kind-mcq-06",
-        "kind-mcq-08",
-        "kind-mcq-05",
-        "kind-mcq-09",
-        "kind-mcq-04"
+        "kind-mcq-10",
+        "kind-mcq-25",
+        "kind-mcq-22"
       ],
       "explanation": "本句的「kind of manager」指「具有某種典型性格、身份或行為特徵的人」。",
       "sentenceIndex": 16,
@@ -1077,12 +1011,10 @@ export default {
         "kind of manager"
       ],
       "optionReasons": {
-        "kind-mcq-07": "本句指「具有某種典型性格、身份或行為特徵的人」。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。",
-        "kind-mcq-08": "「非正式表示程度不完全或較模糊；有點／某程度上」是「kind of + adjective/verb」的用法，與本句語境不同。",
-        "kind-mcq-05": "「很多不同種類／形式的；各式各樣」是「all kinds of」的用法，與本句語境不同。",
-        "kind-mcq-09": "「沒有另一個完全相同的；獨一無二的」是「one of a kind」的用法，與本句語境不同。",
-        "kind-mcq-04": "「詢問某人／某物屬於甚麼類型或具有甚麼性質」是「what kind of」的用法，與本句語境不同。"
+        "kind-mcq-07": "本句的「kind of manager」指「具有某種典型性格、身份或行為特徵的人」。",
+        "kind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-07"
     },
@@ -1094,11 +1026,9 @@ export default {
       "masked": "I was ____ before the presentation.",
       "options": [
         "kind-mcq-08",
-        "kind-mcq-07",
-        "kind-mcq-09",
-        "kind-mcq-06",
-        "kind-mcq-10",
-        "kind-mcq-05"
+        "kind-mcq-03",
+        "kind-mcq-05",
+        "kind-mcq-15"
       ],
       "explanation": "本句的「kind of nervous」指「非正式表示程度不完全或較模糊；有點／某程度上」。",
       "sentenceIndex": 17,
@@ -1107,12 +1037,10 @@ export default {
         "kind of nervous"
       ],
       "optionReasons": {
-        "kind-mcq-08": "本句指「非正式表示程度不完全或較模糊；有點／某程度上」。",
-        "kind-mcq-07": "「具有某種典型性格、身份或行為特徵的人」是「kind of person」的用法，與本句語境不同。",
-        "kind-mcq-09": "「沒有另一個完全相同的；獨一無二的」是「one of a kind」的用法，與本句語境不同。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。",
-        "kind-mcq-10": "「勉強可歸入某類，但未必完全符合一般標準」是「of a kind」的用法，與本句語境不同。",
-        "kind-mcq-05": "「很多不同種類／形式的；各式各樣」是「all kinds of」的用法，與本句語境不同。"
+        "kind-mcq-08": "本句的「kind of nervous」指「非正式表示程度不完全或較模糊；有點／某程度上」。",
+        "kind-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-08"
     },
@@ -1124,11 +1052,9 @@ export default {
       "masked": "I ____ what he meant.",
       "options": [
         "kind-mcq-08",
-        "kind-mcq-07",
-        "kind-mcq-09",
-        "kind-mcq-06",
-        "kind-mcq-10",
-        "kind-mcq-05"
+        "kind-mcq-05",
+        "kind-mcq-20",
+        "kind-mcq-03"
       ],
       "explanation": "本句的「kind of understood」指「非正式表示程度不完全或較模糊；有點／某程度上」。",
       "sentenceIndex": 18,
@@ -1137,12 +1063,10 @@ export default {
         "kind of understood"
       ],
       "optionReasons": {
-        "kind-mcq-08": "本句指「非正式表示程度不完全或較模糊；有點／某程度上」。",
-        "kind-mcq-07": "「具有某種典型性格、身份或行為特徵的人」是「kind of person」的用法，與本句語境不同。",
-        "kind-mcq-09": "「沒有另一個完全相同的；獨一無二的」是「one of a kind」的用法，與本句語境不同。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。",
-        "kind-mcq-10": "「勉強可歸入某類，但未必完全符合一般標準」是「of a kind」的用法，與本句語境不同。",
-        "kind-mcq-05": "「很多不同種類／形式的；各式各樣」是「all kinds of」的用法，與本句語境不同。"
+        "kind-mcq-08": "本句的「kind of understood」指「非正式表示程度不完全或較模糊；有點／某程度上」。",
+        "kind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-08"
     },
@@ -1154,10 +1078,8 @@ export default {
       "masked": "It was ____ for me.",
       "options": [
         "kind-mcq-08",
-        "kind-mcq-07",
-        "kind-mcq-09",
-        "kind-mcq-06",
-        "kind-mcq-10",
+        "kind-mcq-22",
+        "kind-mcq-25",
         "kind-mcq-05"
       ],
       "explanation": "本句的「kind of a turning point」指「非正式表示程度不完全或較模糊；有點／某程度上」。",
@@ -1167,12 +1089,10 @@ export default {
         "kind of a turning point"
       ],
       "optionReasons": {
-        "kind-mcq-08": "本句指「非正式表示程度不完全或較模糊；有點／某程度上」。",
-        "kind-mcq-07": "「具有某種典型性格、身份或行為特徵的人」是「kind of person」的用法，與本句語境不同。",
-        "kind-mcq-09": "「沒有另一個完全相同的；獨一無二的」是「one of a kind」的用法，與本句語境不同。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。",
-        "kind-mcq-10": "「勉強可歸入某類，但未必完全符合一般標準」是「of a kind」的用法，與本句語境不同。",
-        "kind-mcq-05": "「很多不同種類／形式的；各式各樣」是「all kinds of」的用法，與本句語境不同。"
+        "kind-mcq-08": "本句的「kind of a turning point」指「非正式表示程度不完全或較模糊；有點／某程度上」。",
+        "kind-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-08"
     },
@@ -1184,11 +1104,9 @@ export default {
       "masked": "The design is ____.",
       "options": [
         "kind-mcq-08",
-        "kind-mcq-07",
-        "kind-mcq-09",
-        "kind-mcq-06",
-        "kind-mcq-10",
-        "kind-mcq-05"
+        "kind-mcq-12",
+        "kind-mcq-05",
+        "kind-mcq-03"
       ],
       "explanation": "本句的「kind of unusual」指「非正式表示程度不完全或較模糊；有點／某程度上」。",
       "sentenceIndex": 20,
@@ -1197,12 +1115,10 @@ export default {
         "kind of unusual"
       ],
       "optionReasons": {
-        "kind-mcq-08": "本句指「非正式表示程度不完全或較模糊；有點／某程度上」。",
-        "kind-mcq-07": "「具有某種典型性格、身份或行為特徵的人」是「kind of person」的用法，與本句語境不同。",
-        "kind-mcq-09": "「沒有另一個完全相同的；獨一無二的」是「one of a kind」的用法，與本句語境不同。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。",
-        "kind-mcq-10": "「勉強可歸入某類，但未必完全符合一般標準」是「of a kind」的用法，與本句語境不同。",
-        "kind-mcq-05": "「很多不同種類／形式的；各式各樣」是「all kinds of」的用法，與本句語境不同。"
+        "kind-mcq-08": "本句的「kind of unusual」指「非正式表示程度不完全或較模糊；有點／某程度上」。",
+        "kind-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-08"
     },
@@ -1214,11 +1130,9 @@ export default {
       "masked": "Her presentation style is ____.",
       "options": [
         "kind-mcq-09",
-        "kind-mcq-08",
-        "kind-mcq-10",
+        "kind-mcq-22",
         "kind-mcq-07",
-        "kind-mcq-11",
-        "kind-mcq-06"
+        "kind-mcq-25"
       ],
       "explanation": "本句的「one of a kind」指「沒有另一個完全相同的；獨一無二的」。",
       "sentenceIndex": 21,
@@ -1227,12 +1141,10 @@ export default {
         "one of a kind"
       ],
       "optionReasons": {
-        "kind-mcq-09": "本句指「沒有另一個完全相同的；獨一無二的」。",
-        "kind-mcq-08": "「非正式表示程度不完全或較模糊；有點／某程度上」是「kind of + adjective/verb」的用法，與本句語境不同。",
-        "kind-mcq-10": "「勉強可歸入某類，但未必完全符合一般標準」是「of a kind」的用法，與本句語境不同。",
-        "kind-mcq-07": "「具有某種典型性格、身份或行為特徵的人」是「kind of person」的用法，與本句語境不同。",
-        "kind-mcq-11": "「願意關心、幫助和體諒別人，態度友善而不刻薄的」是「kind — caring」的用法，與本句語境不同。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。"
+        "kind-mcq-09": "本句的「one of a kind」指「沒有另一個完全相同的；獨一無二的」。",
+        "kind-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-09"
     },
@@ -1244,11 +1156,9 @@ export default {
       "masked": "This handmade piece is ____.",
       "options": [
         "kind-mcq-09",
-        "kind-mcq-08",
-        "kind-mcq-10",
-        "kind-mcq-07",
-        "kind-mcq-11",
-        "kind-mcq-06"
+        "kind-mcq-12",
+        "kind-mcq-19",
+        "kind-mcq-02"
       ],
       "explanation": "本句的「one of a kind」指「沒有另一個完全相同的；獨一無二的」。",
       "sentenceIndex": 22,
@@ -1257,12 +1167,10 @@ export default {
         "one of a kind"
       ],
       "optionReasons": {
-        "kind-mcq-09": "本句指「沒有另一個完全相同的；獨一無二的」。",
-        "kind-mcq-08": "「非正式表示程度不完全或較模糊；有點／某程度上」是「kind of + adjective/verb」的用法，與本句語境不同。",
-        "kind-mcq-10": "「勉強可歸入某類，但未必完全符合一般標準」是「of a kind」的用法，與本句語境不同。",
-        "kind-mcq-07": "「具有某種典型性格、身份或行為特徵的人」是「kind of person」的用法，與本句語境不同。",
-        "kind-mcq-11": "「願意關心、幫助和體諒別人，態度友善而不刻薄的」是「kind — caring」的用法，與本句語境不同。",
-        "kind-mcq-06": "「屬於多個不同類別／形式的」是「different kinds of」的用法，與本句語境不同。"
+        "kind-mcq-09": "本句的「one of a kind」指「沒有另一個完全相同的；獨一無二的」。",
+        "kind-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-09"
     },
@@ -1274,11 +1182,9 @@ export default {
       "masked": "They reached an agreement ____.",
       "options": [
         "kind-mcq-10",
-        "kind-mcq-09",
-        "kind-mcq-11",
-        "kind-mcq-08",
-        "kind-mcq-12",
-        "kind-mcq-07"
+        "kind-mcq-19",
+        "kind-mcq-17",
+        "kind-mcq-25"
       ],
       "explanation": "本句的「of a kind」指「勉強可歸入某類，但未必完全符合一般標準」。",
       "sentenceIndex": 23,
@@ -1287,12 +1193,10 @@ export default {
         "of a kind"
       ],
       "optionReasons": {
-        "kind-mcq-10": "本句指「勉強可歸入某類，但未必完全符合一般標準」。",
-        "kind-mcq-09": "「沒有另一個完全相同的；獨一無二的」是「one of a kind」的用法，與本句語境不同。",
-        "kind-mcq-11": "「願意關心、幫助和體諒別人，態度友善而不刻薄的」是「kind — caring」的用法，與本句語境不同。",
-        "kind-mcq-08": "「非正式表示程度不完全或較模糊；有點／某程度上」是「kind of + adjective/verb」的用法，與本句語境不同。",
-        "kind-mcq-12": "「對某人表現關心、友善、體諒或幫助」是「kind to someone」的用法，與本句語境不同。",
-        "kind-mcq-07": "「具有某種典型性格、身份或行為特徵的人」是「kind of person」的用法，與本句語境不同。"
+        "kind-mcq-10": "本句的「of a kind」指「勉強可歸入某類，但未必完全符合一般標準」。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-10"
     },
@@ -1304,11 +1208,9 @@ export default {
       "masked": "It was a success ____.",
       "options": [
         "kind-mcq-10",
-        "kind-mcq-09",
-        "kind-mcq-11",
-        "kind-mcq-08",
-        "kind-mcq-12",
-        "kind-mcq-07"
+        "kind-mcq-07",
+        "kind-mcq-17",
+        "kind-mcq-19"
       ],
       "explanation": "本句的「of a kind」指「勉強可歸入某類，但未必完全符合一般標準」。",
       "sentenceIndex": 24,
@@ -1317,12 +1219,10 @@ export default {
         "of a kind"
       ],
       "optionReasons": {
-        "kind-mcq-10": "本句指「勉強可歸入某類，但未必完全符合一般標準」。",
-        "kind-mcq-09": "「沒有另一個完全相同的；獨一無二的」是「one of a kind」的用法，與本句語境不同。",
-        "kind-mcq-11": "「願意關心、幫助和體諒別人，態度友善而不刻薄的」是「kind — caring」的用法，與本句語境不同。",
-        "kind-mcq-08": "「非正式表示程度不完全或較模糊；有點／某程度上」是「kind of + adjective/verb」的用法，與本句語境不同。",
-        "kind-mcq-12": "「對某人表現關心、友善、體諒或幫助」是「kind to someone」的用法，與本句語境不同。",
-        "kind-mcq-07": "「具有某種典型性格、身份或行為特徵的人」是「kind of person」的用法，與本句語境不同。"
+        "kind-mcq-10": "本句的「of a kind」指「勉強可歸入某類，但未必完全符合一般標準」。",
+        "kind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-10"
     },
@@ -1334,11 +1234,9 @@ export default {
       "masked": "She was very ____ when I made a mistake.",
       "options": [
         "kind-mcq-11",
-        "kind-mcq-10",
-        "kind-mcq-12",
-        "kind-mcq-09",
-        "kind-mcq-13",
-        "kind-mcq-08"
+        "kind-mcq-25",
+        "kind-mcq-19",
+        "kind-mcq-05"
       ],
       "explanation": "本句的「kind」指「願意關心、幫助和體諒別人，態度友善而不刻薄的」。",
       "sentenceIndex": 25,
@@ -1347,12 +1245,10 @@ export default {
         "kind"
       ],
       "optionReasons": {
-        "kind-mcq-11": "本句指「願意關心、幫助和體諒別人，態度友善而不刻薄的」。",
-        "kind-mcq-10": "「勉強可歸入某類，但未必完全符合一般標準」是「of a kind」的用法，與本句語境不同。",
-        "kind-mcq-12": "「對某人表現關心、友善、體諒或幫助」是「kind to someone」的用法，與本句語境不同。",
-        "kind-mcq-09": "「沒有另一個完全相同的；獨一無二的」是「one of a kind」的用法，與本句語境不同。",
-        "kind-mcq-13": "「某人的行為顯示出善意、體貼或樂於幫助」是「kind of someone to do something」的用法，與本句語境不同。",
-        "kind-mcq-08": "「非正式表示程度不完全或較模糊；有點／某程度上」是「kind of + adjective/verb」的用法，與本句語境不同。"
+        "kind-mcq-11": "本句的「kind」指「願意關心、幫助和體諒別人，態度友善而不刻薄的」。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-11"
     },
@@ -1364,11 +1260,9 @@ export default {
       "masked": "He is a ____ and patient manager.",
       "options": [
         "kind-mcq-11",
-        "kind-mcq-10",
-        "kind-mcq-12",
-        "kind-mcq-09",
-        "kind-mcq-13",
-        "kind-mcq-08"
+        "kind-mcq-05",
+        "kind-mcq-07",
+        "kind-mcq-25"
       ],
       "explanation": "本句的「kind」指「願意關心、幫助和體諒別人，態度友善而不刻薄的」。",
       "sentenceIndex": 26,
@@ -1377,12 +1271,10 @@ export default {
         "kind"
       ],
       "optionReasons": {
-        "kind-mcq-11": "本句指「願意關心、幫助和體諒別人，態度友善而不刻薄的」。",
-        "kind-mcq-10": "「勉強可歸入某類，但未必完全符合一般標準」是「of a kind」的用法，與本句語境不同。",
-        "kind-mcq-12": "「對某人表現關心、友善、體諒或幫助」是「kind to someone」的用法，與本句語境不同。",
-        "kind-mcq-09": "「沒有另一個完全相同的；獨一無二的」是「one of a kind」的用法，與本句語境不同。",
-        "kind-mcq-13": "「某人的行為顯示出善意、體貼或樂於幫助」是「kind of someone to do something」的用法，與本句語境不同。",
-        "kind-mcq-08": "「非正式表示程度不完全或較模糊；有點／某程度上」是「kind of + adjective/verb」的用法，與本句語境不同。"
+        "kind-mcq-11": "本句的「kind」指「願意關心、幫助和體諒別人，態度友善而不刻薄的」。",
+        "kind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-11"
     },
@@ -1394,11 +1286,9 @@ export default {
       "masked": "My colleagues were ____ before the presentation.",
       "options": [
         "kind-mcq-12",
-        "kind-mcq-11",
-        "kind-mcq-13",
-        "kind-mcq-10",
-        "kind-mcq-14",
-        "kind-mcq-09"
+        "kind-mcq-25",
+        "kind-mcq-09",
+        "kind-mcq-03"
       ],
       "explanation": "本句的「kind to me」指「對某人表現關心、友善、體諒或幫助」。",
       "sentenceIndex": 27,
@@ -1407,12 +1297,10 @@ export default {
         "kind to me"
       ],
       "optionReasons": {
-        "kind-mcq-12": "本句指「對某人表現關心、友善、體諒或幫助」。",
-        "kind-mcq-11": "「願意關心、幫助和體諒別人，態度友善而不刻薄的」是「kind — caring」的用法，與本句語境不同。",
-        "kind-mcq-13": "「某人的行為顯示出善意、體貼或樂於幫助」是「kind of someone to do something」的用法，與本句語境不同。",
-        "kind-mcq-10": "「勉強可歸入某類，但未必完全符合一般標準」是「of a kind」的用法，與本句語境不同。",
-        "kind-mcq-14": "「充滿善意、支持、鼓勵或體諒的說話」是「kind words」的用法，與本句語境不同。",
-        "kind-mcq-09": "「沒有另一個完全相同的；獨一無二的」是「one of a kind」的用法，與本句語境不同。"
+        "kind-mcq-12": "本句的「kind to me」指「對某人表現關心、友善、體諒或幫助」。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-12"
     },
@@ -1424,11 +1312,9 @@ export default {
       "masked": "Be ____ yourself when you make mistakes.",
       "options": [
         "kind-mcq-12",
-        "kind-mcq-11",
-        "kind-mcq-13",
-        "kind-mcq-10",
-        "kind-mcq-14",
-        "kind-mcq-09"
+        "kind-mcq-08",
+        "kind-mcq-01",
+        "kind-mcq-25"
       ],
       "explanation": "本句的「kind to」指「對某人表現關心、友善、體諒或幫助」。",
       "sentenceIndex": 28,
@@ -1437,12 +1323,10 @@ export default {
         "kind to"
       ],
       "optionReasons": {
-        "kind-mcq-12": "本句指「對某人表現關心、友善、體諒或幫助」。",
-        "kind-mcq-11": "「願意關心、幫助和體諒別人，態度友善而不刻薄的」是「kind — caring」的用法，與本句語境不同。",
-        "kind-mcq-13": "「某人的行為顯示出善意、體貼或樂於幫助」是「kind of someone to do something」的用法，與本句語境不同。",
-        "kind-mcq-10": "「勉強可歸入某類，但未必完全符合一般標準」是「of a kind」的用法，與本句語境不同。",
-        "kind-mcq-14": "「充滿善意、支持、鼓勵或體諒的說話」是「kind words」的用法，與本句語境不同。",
-        "kind-mcq-09": "「沒有另一個完全相同的；獨一無二的」是「one of a kind」的用法，與本句語境不同。"
+        "kind-mcq-12": "本句的「kind to」指「對某人表現關心、友善、體諒或幫助」。",
+        "kind-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-12"
     },
@@ -1454,11 +1338,9 @@ export default {
       "masked": "It was ____ me practise.",
       "options": [
         "kind-mcq-13",
-        "kind-mcq-12",
-        "kind-mcq-14",
-        "kind-mcq-11",
-        "kind-mcq-15",
-        "kind-mcq-10"
+        "kind-mcq-01",
+        "kind-mcq-10",
+        "kind-mcq-25"
       ],
       "explanation": "本句的「kind of her to help」指「某人的行為顯示出善意、體貼或樂於幫助」。",
       "sentenceIndex": 29,
@@ -1467,12 +1349,10 @@ export default {
         "kind of her to help"
       ],
       "optionReasons": {
-        "kind-mcq-13": "本句指「某人的行為顯示出善意、體貼或樂於幫助」。",
-        "kind-mcq-12": "「對某人表現關心、友善、體諒或幫助」是「kind to someone」的用法，與本句語境不同。",
-        "kind-mcq-14": "「充滿善意、支持、鼓勵或體諒的說話」是「kind words」的用法，與本句語境不同。",
-        "kind-mcq-11": "「願意關心、幫助和體諒別人，態度友善而不刻薄的」是「kind — caring」的用法，與本句語境不同。",
-        "kind-mcq-15": "「顯示關心、幫助或體諒別人的具體行動」是「kind gesture/act」的用法，與本句語境不同。",
-        "kind-mcq-10": "「勉強可歸入某類，但未必完全符合一般標準」是「of a kind」的用法，與本句語境不同。"
+        "kind-mcq-13": "本句的「kind of her to help」指「某人的行為顯示出善意、體貼或樂於幫助」。",
+        "kind-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-13"
     },
@@ -1484,11 +1364,9 @@ export default {
       "masked": "It was ____.",
       "options": [
         "kind-mcq-13",
-        "kind-mcq-12",
-        "kind-mcq-14",
-        "kind-mcq-11",
-        "kind-mcq-15",
-        "kind-mcq-10"
+        "kind-mcq-23",
+        "kind-mcq-25",
+        "kind-mcq-03"
       ],
       "explanation": "本句的「kind of you to say that」指「某人的行為顯示出善意、體貼或樂於幫助」。",
       "sentenceIndex": 30,
@@ -1497,12 +1375,10 @@ export default {
         "kind of you to say that"
       ],
       "optionReasons": {
-        "kind-mcq-13": "本句指「某人的行為顯示出善意、體貼或樂於幫助」。",
-        "kind-mcq-12": "「對某人表現關心、友善、體諒或幫助」是「kind to someone」的用法，與本句語境不同。",
-        "kind-mcq-14": "「充滿善意、支持、鼓勵或體諒的說話」是「kind words」的用法，與本句語境不同。",
-        "kind-mcq-11": "「願意關心、幫助和體諒別人，態度友善而不刻薄的」是「kind — caring」的用法，與本句語境不同。",
-        "kind-mcq-15": "「顯示關心、幫助或體諒別人的具體行動」是「kind gesture/act」的用法，與本句語境不同。",
-        "kind-mcq-10": "「勉強可歸入某類，但未必完全符合一般標準」是「of a kind」的用法，與本句語境不同。"
+        "kind-mcq-13": "本句的「kind of you to say that」指「某人的行為顯示出善意、體貼或樂於幫助」。",
+        "kind-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-13"
     },
@@ -1514,11 +1390,9 @@ export default {
       "masked": "Her ____ helped me calm down.",
       "options": [
         "kind-mcq-14",
-        "kind-mcq-13",
-        "kind-mcq-15",
-        "kind-mcq-12",
-        "kind-mcq-16",
-        "kind-mcq-11"
+        "kind-mcq-23",
+        "kind-mcq-07",
+        "kind-mcq-19"
       ],
       "explanation": "本句的「kind words」指「充滿善意、支持、鼓勵或體諒的說話」。",
       "sentenceIndex": 31,
@@ -1527,12 +1401,10 @@ export default {
         "kind words"
       ],
       "optionReasons": {
-        "kind-mcq-14": "本句指「充滿善意、支持、鼓勵或體諒的說話」。",
-        "kind-mcq-13": "「某人的行為顯示出善意、體貼或樂於幫助」是「kind of someone to do something」的用法，與本句語境不同。",
-        "kind-mcq-15": "「顯示關心、幫助或體諒別人的具體行動」是「kind gesture/act」的用法，與本句語境不同。",
-        "kind-mcq-12": "「對某人表現關心、友善、體諒或幫助」是「kind to someone」的用法，與本句語境不同。",
-        "kind-mcq-16": "「關心、體諒、幫助和善待別人的品質／行為」是「kindness」的用法，與本句語境不同。",
-        "kind-mcq-11": "「願意關心、幫助和體諒別人，態度友善而不刻薄的」是「kind — caring」的用法，與本句語境不同。"
+        "kind-mcq-14": "本句的「kind words」指「充滿善意、支持、鼓勵或體諒的說話」。",
+        "kind-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-14"
     },
@@ -1544,11 +1416,9 @@ export default {
       "masked": "Thank you for your ____.",
       "options": [
         "kind-mcq-14",
-        "kind-mcq-13",
-        "kind-mcq-15",
-        "kind-mcq-12",
-        "kind-mcq-16",
-        "kind-mcq-11"
+        "kind-mcq-01",
+        "kind-mcq-25",
+        "kind-mcq-19"
       ],
       "explanation": "本句的「kind words」指「充滿善意、支持、鼓勵或體諒的說話」。",
       "sentenceIndex": 32,
@@ -1557,12 +1427,10 @@ export default {
         "kind words"
       ],
       "optionReasons": {
-        "kind-mcq-14": "本句指「充滿善意、支持、鼓勵或體諒的說話」。",
-        "kind-mcq-13": "「某人的行為顯示出善意、體貼或樂於幫助」是「kind of someone to do something」的用法，與本句語境不同。",
-        "kind-mcq-15": "「顯示關心、幫助或體諒別人的具體行動」是「kind gesture/act」的用法，與本句語境不同。",
-        "kind-mcq-12": "「對某人表現關心、友善、體諒或幫助」是「kind to someone」的用法，與本句語境不同。",
-        "kind-mcq-16": "「關心、體諒、幫助和善待別人的品質／行為」是「kindness」的用法，與本句語境不同。",
-        "kind-mcq-11": "「願意關心、幫助和體諒別人，態度友善而不刻薄的」是「kind — caring」的用法，與本句語境不同。"
+        "kind-mcq-14": "本句的「kind words」指「充滿善意、支持、鼓勵或體諒的說話」。",
+        "kind-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-14"
     },
@@ -1574,11 +1442,9 @@ export default {
       "masked": "Helping me check the slides was a ____.",
       "options": [
         "kind-mcq-15",
-        "kind-mcq-14",
-        "kind-mcq-16",
-        "kind-mcq-13",
-        "kind-mcq-17",
-        "kind-mcq-12"
+        "kind-mcq-08",
+        "kind-mcq-05",
+        "kind-mcq-25"
       ],
       "explanation": "本句的「kind gesture」指「顯示關心、幫助或體諒別人的具體行動」。",
       "sentenceIndex": 33,
@@ -1587,12 +1453,10 @@ export default {
         "kind gesture"
       ],
       "optionReasons": {
-        "kind-mcq-15": "本句指「顯示關心、幫助或體諒別人的具體行動」。",
-        "kind-mcq-14": "「充滿善意、支持、鼓勵或體諒的說話」是「kind words」的用法，與本句語境不同。",
-        "kind-mcq-16": "「關心、體諒、幫助和善待別人的品質／行為」是「kindness」的用法，與本句語境不同。",
-        "kind-mcq-13": "「某人的行為顯示出善意、體貼或樂於幫助」是「kind of someone to do something」的用法，與本句語境不同。",
-        "kind-mcq-17": "「具體表現關心、幫助或善意的一個行動」是「an act of kindness」的用法，與本句語境不同。",
-        "kind-mcq-12": "「對某人表現關心、友善、體諒或幫助」是「kind to someone」的用法，與本句語境不同。"
+        "kind-mcq-15": "本句的「kind gesture」指「顯示關心、幫助或體諒別人的具體行動」。",
+        "kind-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-15"
     },
@@ -1604,11 +1468,9 @@ export default {
       "masked": "It was a simple but ____.",
       "options": [
         "kind-mcq-15",
-        "kind-mcq-14",
-        "kind-mcq-16",
-        "kind-mcq-13",
-        "kind-mcq-17",
-        "kind-mcq-12"
+        "kind-mcq-19",
+        "kind-mcq-23",
+        "kind-mcq-25"
       ],
       "explanation": "本句的「kind act」指「顯示關心、幫助或體諒別人的具體行動」。",
       "sentenceIndex": 34,
@@ -1617,12 +1479,10 @@ export default {
         "kind act"
       ],
       "optionReasons": {
-        "kind-mcq-15": "本句指「顯示關心、幫助或體諒別人的具體行動」。",
-        "kind-mcq-14": "「充滿善意、支持、鼓勵或體諒的說話」是「kind words」的用法，與本句語境不同。",
-        "kind-mcq-16": "「關心、體諒、幫助和善待別人的品質／行為」是「kindness」的用法，與本句語境不同。",
-        "kind-mcq-13": "「某人的行為顯示出善意、體貼或樂於幫助」是「kind of someone to do something」的用法，與本句語境不同。",
-        "kind-mcq-17": "「具體表現關心、幫助或善意的一個行動」是「an act of kindness」的用法，與本句語境不同。",
-        "kind-mcq-12": "「對某人表現關心、友善、體諒或幫助」是「kind to someone」的用法，與本句語境不同。"
+        "kind-mcq-15": "本句的「kind act」指「顯示關心、幫助或體諒別人的具體行動」。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-15"
     },
@@ -1634,11 +1494,9 @@ export default {
       "masked": "The feedback was honest but ____.",
       "options": [
         "kind-mcq-24",
-        "kind-mcq-23",
-        "kind-mcq-25",
-        "kind-mcq-22",
-        "kind-mcq-21",
-        "kind-mcq-20"
+        "kind-mcq-03",
+        "kind-mcq-05",
+        "kind-mcq-10"
       ],
       "explanation": "本句的「kind」指「以不刻薄、不殘酷、不過分嚴厲的方式對待別人」。",
       "sentenceIndex": 35,
@@ -1647,12 +1505,10 @@ export default {
         "kind"
       ],
       "optionReasons": {
-        "kind-mcq-24": "本句指「以不刻薄、不殘酷、不過分嚴厲的方式對待別人」。",
-        "kind-mcq-23": "「用來區分同一大類之下不同的種類」是「7. one kind of … another kind of …（一類……另一類……） — 一種；另一種」的用法，與本句語境不同。",
-        "kind-mcq-25": "「表示志趣相投的人／知音」是「27. kindred（同類／有共同特質；較遠的相關詞） — 同類的；志趣相投的」的用法，與本句語境不同。",
-        "kind-mcq-22": "「對某人／動物表現出的關心、體諒和善意」是「kindness to someone」的用法，與本句語境不同。",
-        "kind-mcq-21": "「本性善良、富同情心並願意幫助別人的」是「kind-hearted」的用法，與本句語境不同。",
-        "kind-mcq-20": "「缺乏友善、體諒或善意，並可能令別人受傷的」是「unkind」的用法，與本句語境不同。"
+        "kind-mcq-24": "本句的「kind」指「以不刻薄、不殘酷、不過分嚴厲的方式對待別人」。",
+        "kind-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-24"
     },
@@ -1664,11 +1520,9 @@ export default {
       "masked": "Try to be ____ when correcting someone.",
       "options": [
         "kind-mcq-24",
-        "kind-mcq-23",
-        "kind-mcq-25",
-        "kind-mcq-22",
-        "kind-mcq-21",
-        "kind-mcq-20"
+        "kind-mcq-19",
+        "kind-mcq-09",
+        "kind-mcq-07"
       ],
       "explanation": "本句的「kind」指「以不刻薄、不殘酷、不過分嚴厲的方式對待別人」。",
       "sentenceIndex": 36,
@@ -1677,12 +1531,10 @@ export default {
         "kind"
       ],
       "optionReasons": {
-        "kind-mcq-24": "本句指「以不刻薄、不殘酷、不過分嚴厲的方式對待別人」。",
-        "kind-mcq-23": "「用來區分同一大類之下不同的種類」是「7. one kind of … another kind of …（一類……另一類……） — 一種；另一種」的用法，與本句語境不同。",
-        "kind-mcq-25": "「表示志趣相投的人／知音」是「27. kindred（同類／有共同特質；較遠的相關詞） — 同類的；志趣相投的」的用法，與本句語境不同。",
-        "kind-mcq-22": "「對某人／動物表現出的關心、體諒和善意」是「kindness to someone」的用法，與本句語境不同。",
-        "kind-mcq-21": "「本性善良、富同情心並願意幫助別人的」是「kind-hearted」的用法，與本句語境不同。",
-        "kind-mcq-20": "「缺乏友善、體諒或善意，並可能令別人受傷的」是「unkind」的用法，與本句語境不同。"
+        "kind-mcq-24": "本句的「kind」指「以不刻薄、不殘酷、不過分嚴厲的方式對待別人」。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-24"
     },
@@ -1694,11 +1546,9 @@ export default {
       "masked": "I appreciated my colleagues’ ____.",
       "options": [
         "kind-mcq-16",
-        "kind-mcq-15",
-        "kind-mcq-17",
-        "kind-mcq-14",
-        "kind-mcq-18",
-        "kind-mcq-13"
+        "kind-mcq-03",
+        "kind-mcq-10",
+        "kind-mcq-25"
       ],
       "explanation": "本句的「kindness」指「關心、體諒、幫助和善待別人的品質／行為」。",
       "sentenceIndex": 37,
@@ -1707,12 +1557,10 @@ export default {
         "kindness"
       ],
       "optionReasons": {
-        "kind-mcq-16": "本句指「關心、體諒、幫助和善待別人的品質／行為」。",
-        "kind-mcq-15": "「顯示關心、幫助或體諒別人的具體行動」是「kind gesture/act」的用法，與本句語境不同。",
-        "kind-mcq-17": "「具體表現關心、幫助或善意的一個行動」是「an act of kindness」的用法，與本句語境不同。",
-        "kind-mcq-14": "「充滿善意、支持、鼓勵或體諒的說話」是「kind words」的用法，與本句語境不同。",
-        "kind-mcq-18": "「以友善、關心或體貼的方式」是「kindly — in a kind way」的用法，與本句語境不同。",
-        "kind-mcq-13": "「某人的行為顯示出善意、體貼或樂於幫助」是「kind of someone to do something」的用法，與本句語境不同。"
+        "kind-mcq-16": "本句的「kindness」指「關心、體諒、幫助和善待別人的品質／行為」。",
+        "kind-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-16"
     },
@@ -1724,11 +1572,9 @@ export default {
       "masked": "A little ____ can make someone feel more confident.",
       "options": [
         "kind-mcq-16",
-        "kind-mcq-15",
-        "kind-mcq-17",
-        "kind-mcq-14",
-        "kind-mcq-18",
-        "kind-mcq-13"
+        "kind-mcq-05",
+        "kind-mcq-08",
+        "kind-mcq-03"
       ],
       "explanation": "本句的「kindness」指「關心、體諒、幫助和善待別人的品質／行為」。",
       "sentenceIndex": 38,
@@ -1737,12 +1583,10 @@ export default {
         "kindness"
       ],
       "optionReasons": {
-        "kind-mcq-16": "本句指「關心、體諒、幫助和善待別人的品質／行為」。",
-        "kind-mcq-15": "「顯示關心、幫助或體諒別人的具體行動」是「kind gesture/act」的用法，與本句語境不同。",
-        "kind-mcq-17": "「具體表現關心、幫助或善意的一個行動」是「an act of kindness」的用法，與本句語境不同。",
-        "kind-mcq-14": "「充滿善意、支持、鼓勵或體諒的說話」是「kind words」的用法，與本句語境不同。",
-        "kind-mcq-18": "「以友善、關心或體貼的方式」是「kindly — in a kind way」的用法，與本句語境不同。",
-        "kind-mcq-13": "「某人的行為顯示出善意、體貼或樂於幫助」是「kind of someone to do something」的用法，與本句語境不同。"
+        "kind-mcq-16": "本句的「kindness」指「關心、體諒、幫助和善待別人的品質／行為」。",
+        "kind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-16"
     },
@@ -1754,11 +1598,9 @@ export default {
       "masked": "Helping a nervous colleague can be a small ____.",
       "options": [
         "kind-mcq-17",
-        "kind-mcq-16",
-        "kind-mcq-18",
-        "kind-mcq-15",
-        "kind-mcq-19",
-        "kind-mcq-14"
+        "kind-mcq-09",
+        "kind-mcq-03",
+        "kind-mcq-25"
       ],
       "explanation": "本句的「act of kindness」指「具體表現關心、幫助或善意的一個行動」。",
       "sentenceIndex": 39,
@@ -1767,12 +1609,10 @@ export default {
         "act of kindness"
       ],
       "optionReasons": {
-        "kind-mcq-17": "本句指「具體表現關心、幫助或善意的一個行動」。",
-        "kind-mcq-16": "「關心、體諒、幫助和善待別人的品質／行為」是「kindness」的用法，與本句語境不同。",
-        "kind-mcq-18": "「以友善、關心或體貼的方式」是「kindly — in a kind way」的用法，與本句語境不同。",
-        "kind-mcq-15": "「顯示關心、幫助或體諒別人的具體行動」是「kind gesture/act」的用法，與本句語境不同。",
-        "kind-mcq-19": "「較正式地提出要求；請／煩請」是「kindly — please」的用法，與本句語境不同。",
-        "kind-mcq-14": "「充滿善意、支持、鼓勵或體諒的說話」是「kind words」的用法，與本句語境不同。"
+        "kind-mcq-17": "本句的「act of kindness」指「具體表現關心、幫助或善意的一個行動」。",
+        "kind-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-17"
     },
@@ -1784,11 +1624,9 @@ export default {
       "masked": "The stranger’s ____ surprised her.",
       "options": [
         "kind-mcq-17",
-        "kind-mcq-16",
-        "kind-mcq-18",
-        "kind-mcq-15",
         "kind-mcq-19",
-        "kind-mcq-14"
+        "kind-mcq-24",
+        "kind-mcq-09"
       ],
       "explanation": "本句的「act of kindness」指「具體表現關心、幫助或善意的一個行動」。",
       "sentenceIndex": 40,
@@ -1797,12 +1635,10 @@ export default {
         "act of kindness"
       ],
       "optionReasons": {
-        "kind-mcq-17": "本句指「具體表現關心、幫助或善意的一個行動」。",
-        "kind-mcq-16": "「關心、體諒、幫助和善待別人的品質／行為」是「kindness」的用法，與本句語境不同。",
-        "kind-mcq-18": "「以友善、關心或體貼的方式」是「kindly — in a kind way」的用法，與本句語境不同。",
-        "kind-mcq-15": "「顯示關心、幫助或體諒別人的具體行動」是「kind gesture/act」的用法，與本句語境不同。",
-        "kind-mcq-19": "「較正式地提出要求；請／煩請」是「kindly — please」的用法，與本句語境不同。",
-        "kind-mcq-14": "「充滿善意、支持、鼓勵或體諒的說話」是「kind words」的用法，與本句語境不同。"
+        "kind-mcq-17": "本句的「act of kindness」指「具體表現關心、幫助或善意的一個行動」。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-17"
     },
@@ -1814,11 +1650,9 @@ export default {
       "masked": "She ____ offered to check my script.",
       "options": [
         "kind-mcq-18",
-        "kind-mcq-17",
-        "kind-mcq-19",
-        "kind-mcq-16",
-        "kind-mcq-20",
-        "kind-mcq-15"
+        "kind-mcq-24",
+        "kind-mcq-08",
+        "kind-mcq-07"
       ],
       "explanation": "本句的「kindly」指「以友善、關心或體貼的方式」。",
       "sentenceIndex": 41,
@@ -1827,12 +1661,10 @@ export default {
         "kindly"
       ],
       "optionReasons": {
-        "kind-mcq-18": "本句指「以友善、關心或體貼的方式」。",
-        "kind-mcq-17": "「具體表現關心、幫助或善意的一個行動」是「an act of kindness」的用法，與本句語境不同。",
-        "kind-mcq-19": "「較正式地提出要求；請／煩請」是「kindly — please」的用法，與本句語境不同。",
-        "kind-mcq-16": "「關心、體諒、幫助和善待別人的品質／行為」是「kindness」的用法，與本句語境不同。",
-        "kind-mcq-20": "「缺乏友善、體諒或善意，並可能令別人受傷的」是「unkind」的用法，與本句語境不同。",
-        "kind-mcq-15": "「顯示關心、幫助或體諒別人的具體行動」是「kind gesture/act」的用法，與本句語境不同。"
+        "kind-mcq-18": "本句的「kindly」指「以友善、關心或體貼的方式」。",
+        "kind-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-18"
     },
@@ -1844,11 +1676,9 @@ export default {
       "masked": "He spoke ____ to the nervous employee.",
       "options": [
         "kind-mcq-18",
-        "kind-mcq-17",
-        "kind-mcq-19",
-        "kind-mcq-16",
-        "kind-mcq-20",
-        "kind-mcq-15"
+        "kind-mcq-02",
+        "kind-mcq-09",
+        "kind-mcq-25"
       ],
       "explanation": "本句的「kindly」指「以友善、關心或體貼的方式」。",
       "sentenceIndex": 42,
@@ -1857,12 +1687,10 @@ export default {
         "kindly"
       ],
       "optionReasons": {
-        "kind-mcq-18": "本句指「以友善、關心或體貼的方式」。",
-        "kind-mcq-17": "「具體表現關心、幫助或善意的一個行動」是「an act of kindness」的用法，與本句語境不同。",
-        "kind-mcq-19": "「較正式地提出要求；請／煩請」是「kindly — please」的用法，與本句語境不同。",
-        "kind-mcq-16": "「關心、體諒、幫助和善待別人的品質／行為」是「kindness」的用法，與本句語境不同。",
-        "kind-mcq-20": "「缺乏友善、體諒或善意，並可能令別人受傷的」是「unkind」的用法，與本句語境不同。",
-        "kind-mcq-15": "「顯示關心、幫助或體諒別人的具體行動」是「kind gesture/act」的用法，與本句語境不同。"
+        "kind-mcq-18": "本句的「kindly」指「以友善、關心或體貼的方式」。",
+        "kind-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-18"
     },
@@ -1874,11 +1702,9 @@ export default {
       "masked": "____ send the completed form by Friday.",
       "options": [
         "kind-mcq-19",
-        "kind-mcq-18",
-        "kind-mcq-20",
         "kind-mcq-17",
-        "kind-mcq-21",
-        "kind-mcq-16"
+        "kind-mcq-07",
+        "kind-mcq-02"
       ],
       "explanation": "本句的「Kindly」指「較正式地提出要求；請／煩請」。",
       "sentenceIndex": 43,
@@ -1887,12 +1713,10 @@ export default {
         "Kindly"
       ],
       "optionReasons": {
-        "kind-mcq-19": "本句指「較正式地提出要求；請／煩請」。",
-        "kind-mcq-18": "「以友善、關心或體貼的方式」是「kindly — in a kind way」的用法，與本句語境不同。",
-        "kind-mcq-20": "「缺乏友善、體諒或善意，並可能令別人受傷的」是「unkind」的用法，與本句語境不同。",
-        "kind-mcq-17": "「具體表現關心、幫助或善意的一個行動」是「an act of kindness」的用法，與本句語境不同。",
-        "kind-mcq-21": "「本性善良、富同情心並願意幫助別人的」是「kind-hearted」的用法，與本句語境不同。",
-        "kind-mcq-16": "「關心、體諒、幫助和善待別人的品質／行為」是「kindness」的用法，與本句語境不同。"
+        "kind-mcq-19": "本句的「Kindly」指「較正式地提出要求；請／煩請」。",
+        "kind-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-19"
     },
@@ -1904,11 +1728,9 @@ export default {
       "masked": "____ take your seats.",
       "options": [
         "kind-mcq-19",
-        "kind-mcq-18",
-        "kind-mcq-20",
-        "kind-mcq-17",
-        "kind-mcq-21",
-        "kind-mcq-16"
+        "kind-mcq-16",
+        "kind-mcq-06",
+        "kind-mcq-03"
       ],
       "explanation": "本句的「Kindly」指「較正式地提出要求；請／煩請」。",
       "sentenceIndex": 44,
@@ -1917,12 +1739,10 @@ export default {
         "Kindly"
       ],
       "optionReasons": {
-        "kind-mcq-19": "本句指「較正式地提出要求；請／煩請」。",
-        "kind-mcq-18": "「以友善、關心或體貼的方式」是「kindly — in a kind way」的用法，與本句語境不同。",
-        "kind-mcq-20": "「缺乏友善、體諒或善意，並可能令別人受傷的」是「unkind」的用法，與本句語境不同。",
-        "kind-mcq-17": "「具體表現關心、幫助或善意的一個行動」是「an act of kindness」的用法，與本句語境不同。",
-        "kind-mcq-21": "「本性善良、富同情心並願意幫助別人的」是「kind-hearted」的用法，與本句語境不同。",
-        "kind-mcq-16": "「關心、體諒、幫助和善待別人的品質／行為」是「kindness」的用法，與本句語境不同。"
+        "kind-mcq-19": "本句的「Kindly」指「較正式地提出要求；請／煩請」。",
+        "kind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-19"
     },
@@ -1935,10 +1755,8 @@ export default {
       "options": [
         "kind-mcq-20",
         "kind-mcq-19",
-        "kind-mcq-21",
-        "kind-mcq-18",
-        "kind-mcq-22",
-        "kind-mcq-17"
+        "kind-mcq-07",
+        "kind-mcq-25"
       ],
       "explanation": "本句的「unkind」指「缺乏友善、體諒或善意，並可能令別人受傷的」。",
       "sentenceIndex": 45,
@@ -1947,12 +1765,10 @@ export default {
         "unkind"
       ],
       "optionReasons": {
-        "kind-mcq-20": "本句指「缺乏友善、體諒或善意，並可能令別人受傷的」。",
-        "kind-mcq-19": "「較正式地提出要求；請／煩請」是「kindly — please」的用法，與本句語境不同。",
-        "kind-mcq-21": "「本性善良、富同情心並願意幫助別人的」是「kind-hearted」的用法，與本句語境不同。",
-        "kind-mcq-18": "「以友善、關心或體貼的方式」是「kindly — in a kind way」的用法，與本句語境不同。",
-        "kind-mcq-22": "「對某人／動物表現出的關心、體諒和善意」是「kindness to someone」的用法，與本句語境不同。",
-        "kind-mcq-17": "「具體表現關心、幫助或善意的一個行動」是「an act of kindness」的用法，與本句語境不同。"
+        "kind-mcq-20": "本句的「unkind」指「缺乏友善、體諒或善意，並可能令別人受傷的」。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-20"
     },
@@ -1964,11 +1780,9 @@ export default {
       "masked": "His comment was unnecessarily ____.",
       "options": [
         "kind-mcq-20",
-        "kind-mcq-19",
-        "kind-mcq-21",
-        "kind-mcq-18",
-        "kind-mcq-22",
-        "kind-mcq-17"
+        "kind-mcq-10",
+        "kind-mcq-03",
+        "kind-mcq-19"
       ],
       "explanation": "本句的「unkind」指「缺乏友善、體諒或善意，並可能令別人受傷的」。",
       "sentenceIndex": 46,
@@ -1977,12 +1791,10 @@ export default {
         "unkind"
       ],
       "optionReasons": {
-        "kind-mcq-20": "本句指「缺乏友善、體諒或善意，並可能令別人受傷的」。",
-        "kind-mcq-19": "「較正式地提出要求；請／煩請」是「kindly — please」的用法，與本句語境不同。",
-        "kind-mcq-21": "「本性善良、富同情心並願意幫助別人的」是「kind-hearted」的用法，與本句語境不同。",
-        "kind-mcq-18": "「以友善、關心或體貼的方式」是「kindly — in a kind way」的用法，與本句語境不同。",
-        "kind-mcq-22": "「對某人／動物表現出的關心、體諒和善意」是「kindness to someone」的用法，與本句語境不同。",
-        "kind-mcq-17": "「具體表現關心、幫助或善意的一個行動」是「an act of kindness」的用法，與本句語境不同。"
+        "kind-mcq-20": "本句的「unkind」指「缺乏友善、體諒或善意，並可能令別人受傷的」。",
+        "kind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-20"
     },
@@ -1994,11 +1806,9 @@ export default {
       "masked": "Don’t be ____ yourself after one mistake.",
       "options": [
         "kind-mcq-20",
-        "kind-mcq-19",
-        "kind-mcq-21",
-        "kind-mcq-18",
-        "kind-mcq-22",
-        "kind-mcq-17"
+        "kind-mcq-08",
+        "kind-mcq-03",
+        "kind-mcq-07"
       ],
       "explanation": "本句的「unkind to」指「缺乏友善、體諒或善意，並可能令別人受傷的」。",
       "sentenceIndex": 47,
@@ -2007,12 +1817,10 @@ export default {
         "unkind to"
       ],
       "optionReasons": {
-        "kind-mcq-20": "本句指「缺乏友善、體諒或善意，並可能令別人受傷的」。",
-        "kind-mcq-19": "「較正式地提出要求；請／煩請」是「kindly — please」的用法，與本句語境不同。",
-        "kind-mcq-21": "「本性善良、富同情心並願意幫助別人的」是「kind-hearted」的用法，與本句語境不同。",
-        "kind-mcq-18": "「以友善、關心或體貼的方式」是「kindly — in a kind way」的用法，與本句語境不同。",
-        "kind-mcq-22": "「對某人／動物表現出的關心、體諒和善意」是「kindness to someone」的用法，與本句語境不同。",
-        "kind-mcq-17": "「具體表現關心、幫助或善意的一個行動」是「an act of kindness」的用法，與本句語境不同。"
+        "kind-mcq-20": "本句的「unkind to」指「缺乏友善、體諒或善意，並可能令別人受傷的」。",
+        "kind-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-20"
     },
@@ -2024,11 +1832,9 @@ export default {
       "masked": "She was never ____ her colleagues.",
       "options": [
         "kind-mcq-20",
-        "kind-mcq-19",
-        "kind-mcq-21",
-        "kind-mcq-18",
-        "kind-mcq-22",
-        "kind-mcq-17"
+        "kind-mcq-23",
+        "kind-mcq-03",
+        "kind-mcq-08"
       ],
       "explanation": "本句的「unkind to」指「缺乏友善、體諒或善意，並可能令別人受傷的」。",
       "sentenceIndex": 48,
@@ -2037,12 +1843,10 @@ export default {
         "unkind to"
       ],
       "optionReasons": {
-        "kind-mcq-20": "本句指「缺乏友善、體諒或善意，並可能令別人受傷的」。",
-        "kind-mcq-19": "「較正式地提出要求；請／煩請」是「kindly — please」的用法，與本句語境不同。",
-        "kind-mcq-21": "「本性善良、富同情心並願意幫助別人的」是「kind-hearted」的用法，與本句語境不同。",
-        "kind-mcq-18": "「以友善、關心或體貼的方式」是「kindly — in a kind way」的用法，與本句語境不同。",
-        "kind-mcq-22": "「對某人／動物表現出的關心、體諒和善意」是「kindness to someone」的用法，與本句語境不同。",
-        "kind-mcq-17": "「具體表現關心、幫助或善意的一個行動」是「an act of kindness」的用法，與本句語境不同。"
+        "kind-mcq-20": "本句的「unkind to」指「缺乏友善、體諒或善意，並可能令別人受傷的」。",
+        "kind-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-20"
     },
@@ -2054,11 +1858,9 @@ export default {
       "masked": "She is a ____ manager.",
       "options": [
         "kind-mcq-21",
-        "kind-mcq-20",
-        "kind-mcq-22",
+        "kind-mcq-10",
         "kind-mcq-19",
-        "kind-mcq-23",
-        "kind-mcq-18"
+        "kind-mcq-25"
       ],
       "explanation": "本句的「kind-hearted」指「本性善良、富同情心並願意幫助別人的」。",
       "sentenceIndex": 49,
@@ -2067,12 +1869,10 @@ export default {
         "kind-hearted"
       ],
       "optionReasons": {
-        "kind-mcq-21": "本句指「本性善良、富同情心並願意幫助別人的」。",
-        "kind-mcq-20": "「缺乏友善、體諒或善意，並可能令別人受傷的」是「unkind」的用法，與本句語境不同。",
-        "kind-mcq-22": "「對某人／動物表現出的關心、體諒和善意」是「kindness to someone」的用法，與本句語境不同。",
-        "kind-mcq-19": "「較正式地提出要求；請／煩請」是「kindly — please」的用法，與本句語境不同。",
-        "kind-mcq-23": "「用來區分同一大類之下不同的種類」是「7. one kind of … another kind of …（一類……另一類……） — 一種；另一種」的用法，與本句語境不同。",
-        "kind-mcq-18": "「以友善、關心或體貼的方式」是「kindly — in a kind way」的用法，與本句語境不同。"
+        "kind-mcq-21": "本句的「kind-hearted」指「本性善良、富同情心並願意幫助別人的」。",
+        "kind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-21"
     },
@@ -2084,11 +1884,9 @@ export default {
       "masked": "A ____ colleague stayed to help me.",
       "options": [
         "kind-mcq-21",
-        "kind-mcq-20",
-        "kind-mcq-22",
         "kind-mcq-19",
-        "kind-mcq-23",
-        "kind-mcq-18"
+        "kind-mcq-25",
+        "kind-mcq-03"
       ],
       "explanation": "本句的「kind-hearted」指「本性善良、富同情心並願意幫助別人的」。",
       "sentenceIndex": 50,
@@ -2097,12 +1895,10 @@ export default {
         "kind-hearted"
       ],
       "optionReasons": {
-        "kind-mcq-21": "本句指「本性善良、富同情心並願意幫助別人的」。",
-        "kind-mcq-20": "「缺乏友善、體諒或善意，並可能令別人受傷的」是「unkind」的用法，與本句語境不同。",
-        "kind-mcq-22": "「對某人／動物表現出的關心、體諒和善意」是「kindness to someone」的用法，與本句語境不同。",
-        "kind-mcq-19": "「較正式地提出要求；請／煩請」是「kindly — please」的用法，與本句語境不同。",
-        "kind-mcq-23": "「用來區分同一大類之下不同的種類」是「7. one kind of … another kind of …（一類……另一類……） — 一種；另一種」的用法，與本句語境不同。",
-        "kind-mcq-18": "「以友善、關心或體貼的方式」是「kindly — in a kind way」的用法，與本句語境不同。"
+        "kind-mcq-21": "本句的「kind-hearted」指「本性善良、富同情心並願意幫助別人的」。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-21"
     },
@@ -2114,11 +1910,9 @@ export default {
       "masked": "Her ____ new employees was well known.",
       "options": [
         "kind-mcq-22",
-        "kind-mcq-21",
         "kind-mcq-23",
-        "kind-mcq-20",
-        "kind-mcq-24",
-        "kind-mcq-19"
+        "kind-mcq-08",
+        "kind-mcq-07"
       ],
       "explanation": "本句的「kindness to」指「對某人／動物表現出的關心、體諒和善意」。",
       "sentenceIndex": 51,
@@ -2127,12 +1921,10 @@ export default {
         "kindness to"
       ],
       "optionReasons": {
-        "kind-mcq-22": "本句指「對某人／動物表現出的關心、體諒和善意」。",
-        "kind-mcq-21": "「本性善良、富同情心並願意幫助別人的」是「kind-hearted」的用法，與本句語境不同。",
-        "kind-mcq-23": "「用來區分同一大類之下不同的種類」是「7. one kind of … another kind of …（一類……另一類……） — 一種；另一種」的用法，與本句語境不同。",
-        "kind-mcq-20": "「缺乏友善、體諒或善意，並可能令別人受傷的」是「unkind」的用法，與本句語境不同。",
-        "kind-mcq-24": "「以不刻薄、不殘酷、不過分嚴厲的方式對待別人」是「18. kind = gentle / not harsh（溫和的；不傷害的） — 溫和的；不苛刻的」的用法，與本句語境不同。",
-        "kind-mcq-19": "「較正式地提出要求；請／煩請」是「kindly — please」的用法，與本句語境不同。"
+        "kind-mcq-22": "本句的「kindness to」指「對某人／動物表現出的關心、體諒和善意」。",
+        "kind-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-22"
     },
@@ -2144,11 +1936,9 @@ export default {
       "masked": "The organization promotes ____.",
       "options": [
         "kind-mcq-22",
-        "kind-mcq-21",
-        "kind-mcq-23",
-        "kind-mcq-20",
-        "kind-mcq-24",
-        "kind-mcq-19"
+        "kind-mcq-08",
+        "kind-mcq-02",
+        "kind-mcq-25"
       ],
       "explanation": "本句的「kindness to animals」指「對某人／動物表現出的關心、體諒和善意」。",
       "sentenceIndex": 52,
@@ -2157,12 +1947,10 @@ export default {
         "kindness to animals"
       ],
       "optionReasons": {
-        "kind-mcq-22": "本句指「對某人／動物表現出的關心、體諒和善意」。",
-        "kind-mcq-21": "「本性善良、富同情心並願意幫助別人的」是「kind-hearted」的用法，與本句語境不同。",
-        "kind-mcq-23": "「用來區分同一大類之下不同的種類」是「7. one kind of … another kind of …（一類……另一類……） — 一種；另一種」的用法，與本句語境不同。",
-        "kind-mcq-20": "「缺乏友善、體諒或善意，並可能令別人受傷的」是「unkind」的用法，與本句語境不同。",
-        "kind-mcq-24": "「以不刻薄、不殘酷、不過分嚴厲的方式對待別人」是「18. kind = gentle / not harsh（溫和的；不傷害的） — 溫和的；不苛刻的」的用法，與本句語境不同。",
-        "kind-mcq-19": "「較正式地提出要求；請／煩請」是「kindly — please」的用法，與本句語境不同。"
+        "kind-mcq-22": "本句的「kindness to animals」指「對某人／動物表現出的關心、體諒和善意」。",
+        "kind-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-22"
     },
@@ -2174,11 +1962,9 @@ export default {
       "masked": "She felt that she had found a ____.",
       "options": [
         "kind-mcq-25",
-        "kind-mcq-24",
-        "kind-mcq-23",
-        "kind-mcq-22",
-        "kind-mcq-21",
-        "kind-mcq-20"
+        "kind-mcq-09",
+        "kind-mcq-19",
+        "kind-mcq-12"
       ],
       "explanation": "本句的「kindred spirit」指「表示志趣相投的人／知音」。",
       "sentenceIndex": 53,
@@ -2187,12 +1973,10 @@ export default {
         "kindred spirit"
       ],
       "optionReasons": {
-        "kind-mcq-25": "本句指「表示志趣相投的人／知音」。",
-        "kind-mcq-24": "「以不刻薄、不殘酷、不過分嚴厲的方式對待別人」是「18. kind = gentle / not harsh（溫和的；不傷害的） — 溫和的；不苛刻的」的用法，與本句語境不同。",
-        "kind-mcq-23": "「用來區分同一大類之下不同的種類」是「7. one kind of … another kind of …（一類……另一類……） — 一種；另一種」的用法，與本句語境不同。",
-        "kind-mcq-22": "「對某人／動物表現出的關心、體諒和善意」是「kindness to someone」的用法，與本句語境不同。",
-        "kind-mcq-21": "「本性善良、富同情心並願意幫助別人的」是「kind-hearted」的用法，與本句語境不同。",
-        "kind-mcq-20": "「缺乏友善、體諒或善意，並可能令別人受傷的」是「unkind」的用法，與本句語境不同。"
+        "kind-mcq-25": "本句的「kindred spirit」指「表示志趣相投的人／知音」。",
+        "kind-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "kind-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "kind-mcq-25"
     }
@@ -2204,5 +1988,7 @@ export default {
     "sha256": "dabe480f11243734ebcd20eb9ccd99ce4338aea60e5ab6754964ef1fa045946e",
     "pages": 26
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

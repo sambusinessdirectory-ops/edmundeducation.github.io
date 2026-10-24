@@ -502,11 +502,9 @@ export default {
       "masked": "My school had very ____.",
       "options": [
         "strict-mcq-02",
-        "strict-mcq-01",
-        "strict-mcq-03",
         "strict-mcq-04",
-        "strict-mcq-05",
-        "strict-mcq-06"
+        "strict-mcq-08",
+        "strict-mcq-05"
       ],
       "explanation": "本句的「strict rules」指「對某人的行為、學習或表現要求嚴格」。",
       "sentenceIndex": 2,
@@ -515,12 +513,10 @@ export default {
         "strict rules"
       ],
       "optionReasons": {
-        "strict-mcq-02": "本句指「對某人的行為、學習或表現要求嚴格」。",
-        "strict-mcq-01": "「對規則、紀律或表現要求很高，不容許太多偏差；嚴格的」與本句語境不同。",
-        "strict-mcq-03": "「對某個規則、習慣或標準特別堅持」與本句語境不同。",
-        "strict-mcq-04": "「必須仔細遵守、不容許隨意偏離的規定」與本句語境不同。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。"
+        "strict-mcq-02": "本句的「strict rules」指「對某人的行為、學習或表現要求嚴格」。",
+        "strict-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-02"
     },
@@ -532,11 +528,9 @@ export default {
       "masked": "Her parents were quite ____.",
       "options": [
         "strict-mcq-02",
-        "strict-mcq-01",
-        "strict-mcq-03",
-        "strict-mcq-04",
-        "strict-mcq-05",
-        "strict-mcq-06"
+        "strict-mcq-10",
+        "strict-mcq-08",
+        "strict-mcq-13"
       ],
       "explanation": "本句的「strict」指「對某人的行為、學習或表現要求嚴格」。",
       "sentenceIndex": 3,
@@ -545,12 +539,10 @@ export default {
         "strict"
       ],
       "optionReasons": {
-        "strict-mcq-02": "本句指「對某人的行為、學習或表現要求嚴格」。",
-        "strict-mcq-01": "「對規則、紀律或表現要求很高，不容許太多偏差；嚴格的」與本句語境不同。",
-        "strict-mcq-03": "「對某個規則、習慣或標準特別堅持」與本句語境不同。",
-        "strict-mcq-04": "「必須仔細遵守、不容許隨意偏離的規定」與本句語境不同。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。"
+        "strict-mcq-02": "本句的「strict」指「對某人的行為、學習或表現要求嚴格」。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-02"
     },
@@ -562,11 +554,9 @@ export default {
       "masked": "The teacher is ____.",
       "options": [
         "strict-mcq-02",
-        "strict-mcq-01",
-        "strict-mcq-03",
+        "strict-mcq-08",
         "strict-mcq-04",
-        "strict-mcq-05",
-        "strict-mcq-06"
+        "strict-mcq-05"
       ],
       "explanation": "本句的「strict with her students」指「對某人的行為、學習或表現要求嚴格」。",
       "sentenceIndex": 4,
@@ -575,12 +565,10 @@ export default {
         "strict with her students"
       ],
       "optionReasons": {
-        "strict-mcq-02": "本句指「對某人的行為、學習或表現要求嚴格」。",
-        "strict-mcq-01": "「對規則、紀律或表現要求很高，不容許太多偏差；嚴格的」與本句語境不同。",
-        "strict-mcq-03": "「對某個規則、習慣或標準特別堅持」與本句語境不同。",
-        "strict-mcq-04": "「必須仔細遵守、不容許隨意偏離的規定」與本句語境不同。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。"
+        "strict-mcq-02": "本句的「strict with her students」指「對某人的行為、學習或表現要求嚴格」。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-02"
     },
@@ -592,11 +580,9 @@ export default {
       "masked": "His coach was ____ during training.",
       "options": [
         "strict-mcq-02",
-        "strict-mcq-01",
-        "strict-mcq-03",
+        "strict-mcq-08",
         "strict-mcq-04",
-        "strict-mcq-05",
-        "strict-mcq-06"
+        "strict-mcq-05"
       ],
       "explanation": "本句的「strict with him」指「對某人的行為、學習或表現要求嚴格」。",
       "sentenceIndex": 5,
@@ -605,12 +591,10 @@ export default {
         "strict with him"
       ],
       "optionReasons": {
-        "strict-mcq-02": "本句指「對某人的行為、學習或表現要求嚴格」。",
-        "strict-mcq-01": "「對規則、紀律或表現要求很高，不容許太多偏差；嚴格的」與本句語境不同。",
-        "strict-mcq-03": "「對某個規則、習慣或標準特別堅持」與本句語境不同。",
-        "strict-mcq-04": "「必須仔細遵守、不容許隨意偏離的規定」與本句語境不同。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。"
+        "strict-mcq-02": "本句的「strict with him」指「對某人的行為、學習或表現要求嚴格」。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-02"
     },
@@ -622,11 +606,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "strict-mcq-03",
-        "strict-mcq-02",
-        "strict-mcq-04",
-        "strict-mcq-01",
+        "strict-mcq-18",
         "strict-mcq-05",
-        "strict-mcq-06"
+        "strict-mcq-12"
       ],
       "explanation": "本句的「strict about deadlines」指「對某個規則、習慣或標準特別堅持」。",
       "sentenceIndex": 6,
@@ -635,12 +617,10 @@ export default {
         "strict about deadlines"
       ],
       "optionReasons": {
-        "strict-mcq-03": "本句指「對某個規則、習慣或標準特別堅持」。",
-        "strict-mcq-02": "「對某人的行為、學習或表現要求嚴格」與本句語境不同。",
-        "strict-mcq-04": "「必須仔細遵守、不容許隨意偏離的規定」與本句語境不同。",
-        "strict-mcq-01": "「對規則、紀律或表現要求很高，不容許太多偏差；嚴格的」與本句語境不同。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。"
+        "strict-mcq-03": "本句的「strict about deadlines」指「對某個規則、習慣或標準特別堅持」。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-03"
     },
@@ -652,11 +632,9 @@ export default {
       "masked": "The company is ____.",
       "options": [
         "strict-mcq-03",
-        "strict-mcq-02",
-        "strict-mcq-04",
-        "strict-mcq-01",
-        "strict-mcq-05",
-        "strict-mcq-06"
+        "strict-mcq-11",
+        "strict-mcq-08",
+        "strict-mcq-18"
       ],
       "explanation": "本句的「strict about safety procedures」指「對某個規則、習慣或標準特別堅持」。",
       "sentenceIndex": 7,
@@ -665,12 +643,10 @@ export default {
         "strict about safety procedures"
       ],
       "optionReasons": {
-        "strict-mcq-03": "本句指「對某個規則、習慣或標準特別堅持」。",
-        "strict-mcq-02": "「對某人的行為、學習或表現要求嚴格」與本句語境不同。",
-        "strict-mcq-04": "「必須仔細遵守、不容許隨意偏離的規定」與本句語境不同。",
-        "strict-mcq-01": "「對規則、紀律或表現要求很高，不容許太多偏差；嚴格的」與本句語境不同。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。"
+        "strict-mcq-03": "本句的「strict about safety procedures」指「對某個規則、習慣或標準特別堅持」。",
+        "strict-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-03"
     },
@@ -682,11 +658,9 @@ export default {
       "masked": "The laboratory has ____.",
       "options": [
         "strict-mcq-04",
-        "strict-mcq-03",
-        "strict-mcq-05",
-        "strict-mcq-02",
-        "strict-mcq-06",
-        "strict-mcq-01"
+        "strict-mcq-18",
+        "strict-mcq-14",
+        "strict-mcq-16"
       ],
       "explanation": "本句的「strict safety rules」指「必須仔細遵守、不容許隨意偏離的規定」。",
       "sentenceIndex": 8,
@@ -695,12 +669,10 @@ export default {
         "strict safety rules"
       ],
       "optionReasons": {
-        "strict-mcq-04": "本句指「必須仔細遵守、不容許隨意偏離的規定」。",
-        "strict-mcq-03": "「對某個規則、習慣或標準特別堅持」與本句語境不同。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。",
-        "strict-mcq-02": "「對某人的行為、學習或表現要求嚴格」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。",
-        "strict-mcq-01": "「對規則、紀律或表現要求很高，不容許太多偏差；嚴格的」與本句語境不同。"
+        "strict-mcq-04": "本句的「strict safety rules」指「必須仔細遵守、不容許隨意偏離的規定」。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-04"
     },
@@ -712,11 +684,9 @@ export default {
       "masked": "There are ____ on access.",
       "options": [
         "strict-mcq-04",
-        "strict-mcq-03",
+        "strict-mcq-19",
         "strict-mcq-05",
-        "strict-mcq-02",
-        "strict-mcq-06",
-        "strict-mcq-01"
+        "strict-mcq-18"
       ],
       "explanation": "本句的「strict regulations」指「必須仔細遵守、不容許隨意偏離的規定」。",
       "sentenceIndex": 9,
@@ -725,12 +695,10 @@ export default {
         "strict regulations"
       ],
       "optionReasons": {
-        "strict-mcq-04": "本句指「必須仔細遵守、不容許隨意偏離的規定」。",
-        "strict-mcq-03": "「對某個規則、習慣或標準特別堅持」與本句語境不同。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。",
-        "strict-mcq-02": "「對某人的行為、學習或表現要求嚴格」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。",
-        "strict-mcq-01": "「對規則、紀律或表現要求很高，不容許太多偏差；嚴格的」與本句語境不同。"
+        "strict-mcq-04": "本句的「strict regulations」指「必須仔細遵守、不容許隨意偏離的規定」。",
+        "strict-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-04"
     },
@@ -742,11 +710,9 @@ export default {
       "masked": "The material is kept under ____.",
       "options": [
         "strict-mcq-05",
-        "strict-mcq-04",
-        "strict-mcq-06",
         "strict-mcq-03",
-        "strict-mcq-07",
-        "strict-mcq-02"
+        "strict-mcq-16",
+        "strict-mcq-18"
       ],
       "explanation": "本句的「strict control」指「對人、物、資訊或活動進行嚴密管理」。",
       "sentenceIndex": 10,
@@ -755,12 +721,10 @@ export default {
         "strict control"
       ],
       "optionReasons": {
-        "strict-mcq-05": "本句指「對人、物、資訊或活動進行嚴密管理」。",
-        "strict-mcq-04": "「必須仔細遵守、不容許隨意偏離的規定」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。",
-        "strict-mcq-03": "「對某個規則、習慣或標準特別堅持」與本句語境不同。",
-        "strict-mcq-07": "「門檻高、要求精確且不輕易放寬的標準」與本句語境不同。",
-        "strict-mcq-02": "「對某人的行為、學習或表現要求嚴格」與本句語境不同。"
+        "strict-mcq-05": "本句的「strict control」指「對人、物、資訊或活動進行嚴密管理」。",
+        "strict-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-05"
     },
@@ -773,10 +737,8 @@ export default {
       "options": [
         "strict-mcq-05",
         "strict-mcq-04",
-        "strict-mcq-06",
-        "strict-mcq-03",
-        "strict-mcq-07",
-        "strict-mcq-02"
+        "strict-mcq-18",
+        "strict-mcq-16"
       ],
       "explanation": "本句的「strict control」指「對人、物、資訊或活動進行嚴密管理」。",
       "sentenceIndex": 11,
@@ -785,12 +747,10 @@ export default {
         "strict control"
       ],
       "optionReasons": {
-        "strict-mcq-05": "本句指「對人、物、資訊或活動進行嚴密管理」。",
-        "strict-mcq-04": "「必須仔細遵守、不容許隨意偏離的規定」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。",
-        "strict-mcq-03": "「對某個規則、習慣或標準特別堅持」與本句語境不同。",
-        "strict-mcq-07": "「門檻高、要求精確且不輕易放寬的標準」與本句語境不同。",
-        "strict-mcq-02": "「對某人的行為、學習或表現要求嚴格」與本句語境不同。"
+        "strict-mcq-05": "本句的「strict control」指「對人、物、資訊或活動進行嚴密管理」。",
+        "strict-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-05"
     },
@@ -802,11 +762,9 @@ export default {
       "masked": "The academy is known for ____.",
       "options": [
         "strict-mcq-06",
-        "strict-mcq-05",
-        "strict-mcq-07",
-        "strict-mcq-04",
+        "strict-mcq-18",
         "strict-mcq-08",
-        "strict-mcq-03"
+        "strict-mcq-10"
       ],
       "explanation": "本句的「strict discipline」指「對行為與規則實施嚴格紀律要求」。",
       "sentenceIndex": 12,
@@ -815,12 +773,10 @@ export default {
         "strict discipline"
       ],
       "optionReasons": {
-        "strict-mcq-06": "本句指「對行為與規則實施嚴格紀律要求」。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。",
-        "strict-mcq-07": "「門檻高、要求精確且不輕易放寬的標準」與本句語境不同。",
-        "strict-mcq-04": "「必須仔細遵守、不容許隨意偏離的規定」與本句語境不同。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。",
-        "strict-mcq-03": "「對某個規則、習慣或標準特別堅持」與本句語境不同。"
+        "strict-mcq-06": "本句的「strict discipline」指「對行為與規則實施嚴格紀律要求」。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-06"
     },
@@ -832,11 +788,9 @@ export default {
       "masked": "The coach maintained ____ during training.",
       "options": [
         "strict-mcq-06",
-        "strict-mcq-05",
-        "strict-mcq-07",
-        "strict-mcq-04",
+        "strict-mcq-18",
         "strict-mcq-08",
-        "strict-mcq-03"
+        "strict-mcq-10"
       ],
       "explanation": "本句的「strict discipline」指「對行為與規則實施嚴格紀律要求」。",
       "sentenceIndex": 13,
@@ -845,12 +799,10 @@ export default {
         "strict discipline"
       ],
       "optionReasons": {
-        "strict-mcq-06": "本句指「對行為與規則實施嚴格紀律要求」。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。",
-        "strict-mcq-07": "「門檻高、要求精確且不輕易放寬的標準」與本句語境不同。",
-        "strict-mcq-04": "「必須仔細遵守、不容許隨意偏離的規定」與本句語境不同。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。",
-        "strict-mcq-03": "「對某個規則、習慣或標準特別堅持」與本句語境不同。"
+        "strict-mcq-06": "本句的「strict discipline」指「對行為與規則實施嚴格紀律要求」。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-06"
     },
@@ -862,11 +814,9 @@ export default {
       "masked": "The product must meet ____.",
       "options": [
         "strict-mcq-07",
-        "strict-mcq-06",
-        "strict-mcq-08",
         "strict-mcq-05",
-        "strict-mcq-09",
-        "strict-mcq-04"
+        "strict-mcq-19",
+        "strict-mcq-10"
       ],
       "explanation": "本句的「strict quality standards」指「門檻高、要求精確且不輕易放寬的標準」。",
       "sentenceIndex": 14,
@@ -875,12 +825,10 @@ export default {
         "strict quality standards"
       ],
       "optionReasons": {
-        "strict-mcq-07": "本句指「門檻高、要求精確且不輕易放寬的標準」。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。",
-        "strict-mcq-04": "「必須仔細遵守、不容許隨意偏離的規定」與本句語境不同。"
+        "strict-mcq-07": "本句的「strict quality standards」指「門檻高、要求精確且不輕易放寬的標準」。",
+        "strict-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-07"
     },
@@ -892,11 +840,9 @@ export default {
       "masked": "Applicants are assessed according to ____.",
       "options": [
         "strict-mcq-07",
-        "strict-mcq-06",
-        "strict-mcq-08",
-        "strict-mcq-05",
-        "strict-mcq-09",
-        "strict-mcq-04"
+        "strict-mcq-18",
+        "strict-mcq-10",
+        "strict-mcq-05"
       ],
       "explanation": "本句的「strict criteria」指「門檻高、要求精確且不輕易放寬的標準」。",
       "sentenceIndex": 15,
@@ -905,12 +851,10 @@ export default {
         "strict criteria"
       ],
       "optionReasons": {
-        "strict-mcq-07": "本句指「門檻高、要求精確且不輕易放寬的標準」。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。",
-        "strict-mcq-04": "「必須仔細遵守、不容許隨意偏離的規定」與本句語境不同。"
+        "strict-mcq-07": "本句的「strict criteria」指「門檻高、要求精確且不輕易放寬的標準」。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-07"
     },
@@ -922,11 +866,9 @@ export default {
       "masked": "Only applicants who meet the ____ are accepted.",
       "options": [
         "strict-mcq-07",
-        "strict-mcq-06",
-        "strict-mcq-08",
+        "strict-mcq-12",
         "strict-mcq-05",
-        "strict-mcq-09",
-        "strict-mcq-04"
+        "strict-mcq-18"
       ],
       "explanation": "本句的「strict requirements」指「門檻高、要求精確且不輕易放寬的標準」。",
       "sentenceIndex": 16,
@@ -935,12 +877,10 @@ export default {
         "strict requirements"
       ],
       "optionReasons": {
-        "strict-mcq-07": "本句指「門檻高、要求精確且不輕易放寬的標準」。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。",
-        "strict-mcq-04": "「必須仔細遵守、不容許隨意偏離的規定」與本句語境不同。"
+        "strict-mcq-07": "本句的「strict requirements」指「門檻高、要求精確且不輕易放寬的標準」。",
+        "strict-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-07"
     },
@@ -952,11 +892,9 @@ export default {
       "masked": "The study used ____ for selecting participants.",
       "options": [
         "strict-mcq-07",
-        "strict-mcq-06",
-        "strict-mcq-08",
-        "strict-mcq-05",
-        "strict-mcq-09",
-        "strict-mcq-04"
+        "strict-mcq-11",
+        "strict-mcq-18",
+        "strict-mcq-10"
       ],
       "explanation": "本句的「strict criteria」指「門檻高、要求精確且不輕易放寬的標準」。",
       "sentenceIndex": 17,
@@ -965,12 +903,10 @@ export default {
         "strict criteria"
       ],
       "optionReasons": {
-        "strict-mcq-07": "本句指「門檻高、要求精確且不輕易放寬的標準」。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。",
-        "strict-mcq-04": "「必須仔細遵守、不容許隨意偏離的規定」與本句語境不同。"
+        "strict-mcq-07": "本句的「strict criteria」指「門檻高、要求精確且不輕易放寬的標準」。",
+        "strict-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-07"
     },
@@ -982,11 +918,9 @@ export default {
       "masked": "In the ____, this is not a language.",
       "options": [
         "strict-mcq-08",
-        "strict-mcq-07",
-        "strict-mcq-09",
-        "strict-mcq-06",
-        "strict-mcq-10",
-        "strict-mcq-05"
+        "strict-mcq-14",
+        "strict-mcq-13",
+        "strict-mcq-18"
       ],
       "explanation": "本句的「strict sense」指「按最狹義、最精確的定義來理解」。",
       "sentenceIndex": 18,
@@ -995,12 +929,10 @@ export default {
         "strict sense"
       ],
       "optionReasons": {
-        "strict-mcq-08": "本句指「按最狹義、最精確的定義來理解」。",
-        "strict-mcq-07": "「門檻高、要求精確且不輕易放寬的標準」與本句語境不同。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。",
-        "strict-mcq-10": "「幾乎不偏離規範的飲食／作息方式」與本句語境不同。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。"
+        "strict-mcq-08": "本句的「strict sense」指「按最狹義、最精確的定義來理解」。",
+        "strict-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-08"
     },
@@ -1012,11 +944,9 @@ export default {
       "masked": "The term does not apply in the ____.",
       "options": [
         "strict-mcq-08",
-        "strict-mcq-07",
-        "strict-mcq-09",
-        "strict-mcq-06",
-        "strict-mcq-10",
-        "strict-mcq-05"
+        "strict-mcq-14",
+        "strict-mcq-03",
+        "strict-mcq-10"
       ],
       "explanation": "本句的「strictest sense」指「按最狹義、最精確的定義來理解」。",
       "sentenceIndex": 19,
@@ -1025,12 +955,10 @@ export default {
         "strictest sense"
       ],
       "optionReasons": {
-        "strict-mcq-08": "本句指「按最狹義、最精確的定義來理解」。",
-        "strict-mcq-07": "「門檻高、要求精確且不輕易放寬的標準」與本句語境不同。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。",
-        "strict-mcq-10": "「幾乎不偏離規範的飲食／作息方式」與本句語境不同。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。"
+        "strict-mcq-08": "本句的「strictest sense」指「按最狹義、最精確的定義來理解」。",
+        "strict-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-08"
     },
@@ -1042,11 +970,9 @@ export default {
       "masked": "Under a ____, the two cases are different.",
       "options": [
         "strict-mcq-08",
-        "strict-mcq-07",
-        "strict-mcq-09",
-        "strict-mcq-06",
         "strict-mcq-10",
-        "strict-mcq-05"
+        "strict-mcq-18",
+        "strict-mcq-19"
       ],
       "explanation": "本句的「strict definition」指「按最狹義、最精確的定義來理解」。",
       "sentenceIndex": 20,
@@ -1055,12 +981,10 @@ export default {
         "strict definition"
       ],
       "optionReasons": {
-        "strict-mcq-08": "本句指「按最狹義、最精確的定義來理解」。",
-        "strict-mcq-07": "「門檻高、要求精確且不輕易放寬的標準」與本句語境不同。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。",
-        "strict-mcq-10": "「幾乎不偏離規範的飲食／作息方式」與本句語境不同。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。"
+        "strict-mcq-08": "本句的「strict definition」指「按最狹義、最精確的定義來理解」。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-08"
     },
@@ -1072,11 +996,9 @@ export default {
       "masked": "The term has no single ____.",
       "options": [
         "strict-mcq-08",
-        "strict-mcq-07",
-        "strict-mcq-09",
-        "strict-mcq-06",
+        "strict-mcq-02",
         "strict-mcq-10",
-        "strict-mcq-05"
+        "strict-mcq-03"
       ],
       "explanation": "本句的「strict definition」指「按最狹義、最精確的定義來理解」。",
       "sentenceIndex": 21,
@@ -1085,12 +1007,10 @@ export default {
         "strict definition"
       ],
       "optionReasons": {
-        "strict-mcq-08": "本句指「按最狹義、最精確的定義來理解」。",
-        "strict-mcq-07": "「門檻高、要求精確且不輕易放寬的標準」與本句語境不同。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。",
-        "strict-mcq-10": "「幾乎不偏離規範的飲食／作息方式」與本句語境不同。",
-        "strict-mcq-05": "「對人、物、資訊或活動進行嚴密管理」與本句語境不同。"
+        "strict-mcq-08": "本句的「strict definition」指「按最狹義、最精確的定義來理解」。",
+        "strict-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-08"
     },
@@ -1102,11 +1022,9 @@ export default {
       "masked": "The process requires ____.",
       "options": [
         "strict-mcq-09",
+        "strict-mcq-18",
         "strict-mcq-08",
-        "strict-mcq-10",
-        "strict-mcq-07",
-        "strict-mcq-11",
-        "strict-mcq-06"
+        "strict-mcq-10"
       ],
       "explanation": "本句的「strict adherence to safety rules」指「完全按照規則、程序或原則執行；嚴格遵守」。",
       "sentenceIndex": 22,
@@ -1115,12 +1033,10 @@ export default {
         "strict adherence to safety rules"
       ],
       "optionReasons": {
-        "strict-mcq-09": "本句指「完全按照規則、程序或原則執行；嚴格遵守」。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。",
-        "strict-mcq-10": "「幾乎不偏離規範的飲食／作息方式」與本句語境不同。",
-        "strict-mcq-07": "「門檻高、要求精確且不輕易放寬的標準」與本句語境不同。",
-        "strict-mcq-11": "「對資訊實行嚴格保密，不得外傳」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。"
+        "strict-mcq-09": "本句的「strict adherence to safety rules」指「完全按照規則、程序或原則執行；嚴格遵守」。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-09"
     },
@@ -1132,11 +1048,9 @@ export default {
       "masked": "Success depends on ____.",
       "options": [
         "strict-mcq-09",
+        "strict-mcq-18",
         "strict-mcq-08",
-        "strict-mcq-10",
-        "strict-mcq-07",
-        "strict-mcq-11",
-        "strict-mcq-06"
+        "strict-mcq-10"
       ],
       "explanation": "本句的「strict adherence to the protocol」指「完全按照規則、程序或原則執行；嚴格遵守」。",
       "sentenceIndex": 23,
@@ -1145,12 +1059,10 @@ export default {
         "strict adherence to the protocol"
       ],
       "optionReasons": {
-        "strict-mcq-09": "本句指「完全按照規則、程序或原則執行；嚴格遵守」。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。",
-        "strict-mcq-10": "「幾乎不偏離規範的飲食／作息方式」與本句語境不同。",
-        "strict-mcq-07": "「門檻高、要求精確且不輕易放寬的標準」與本句語境不同。",
-        "strict-mcq-11": "「對資訊實行嚴格保密，不得外傳」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。"
+        "strict-mcq-09": "本句的「strict adherence to the protocol」指「完全按照規則、程序或原則執行；嚴格遵守」。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-09"
     },
@@ -1162,11 +1074,9 @@ export default {
       "masked": "The work was carried out ____.",
       "options": [
         "strict-mcq-09",
-        "strict-mcq-08",
+        "strict-mcq-18",
         "strict-mcq-10",
-        "strict-mcq-07",
-        "strict-mcq-11",
-        "strict-mcq-06"
+        "strict-mcq-08"
       ],
       "explanation": "本句的「in strict accordance with the guidelines」指「完全按照規則、程序或原則執行；嚴格遵守」。",
       "sentenceIndex": 24,
@@ -1175,12 +1085,10 @@ export default {
         "in strict accordance with the guidelines"
       ],
       "optionReasons": {
-        "strict-mcq-09": "本句指「完全按照規則、程序或原則執行；嚴格遵守」。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。",
-        "strict-mcq-10": "「幾乎不偏離規範的飲食／作息方式」與本句語境不同。",
-        "strict-mcq-07": "「門檻高、要求精確且不輕易放寬的標準」與本句語境不同。",
-        "strict-mcq-11": "「對資訊實行嚴格保密，不得外傳」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。"
+        "strict-mcq-09": "本句的「in strict accordance with the guidelines」指「完全按照規則、程序或原則執行；嚴格遵守」。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-09"
     },
@@ -1192,11 +1100,9 @@ export default {
       "masked": "The procedure must be followed ____.",
       "options": [
         "strict-mcq-09",
+        "strict-mcq-18",
         "strict-mcq-08",
-        "strict-mcq-10",
-        "strict-mcq-07",
-        "strict-mcq-11",
-        "strict-mcq-06"
+        "strict-mcq-10"
       ],
       "explanation": "本句的「in strict accordance with the law」指「完全按照規則、程序或原則執行；嚴格遵守」。",
       "sentenceIndex": 25,
@@ -1205,12 +1111,10 @@ export default {
         "in strict accordance with the law"
       ],
       "optionReasons": {
-        "strict-mcq-09": "本句指「完全按照規則、程序或原則執行；嚴格遵守」。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。",
-        "strict-mcq-10": "「幾乎不偏離規範的飲食／作息方式」與本句語境不同。",
-        "strict-mcq-07": "「門檻高、要求精確且不輕易放寬的標準」與本句語境不同。",
-        "strict-mcq-11": "「對資訊實行嚴格保密，不得外傳」與本句語境不同。",
-        "strict-mcq-06": "「對行為與規則實施嚴格紀律要求」與本句語境不同。"
+        "strict-mcq-09": "本句的「in strict accordance with the law」指「完全按照規則、程序或原則執行；嚴格遵守」。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-09"
     },
@@ -1222,11 +1126,9 @@ export default {
       "masked": "He follows a ____.",
       "options": [
         "strict-mcq-10",
-        "strict-mcq-09",
-        "strict-mcq-11",
         "strict-mcq-08",
-        "strict-mcq-12",
-        "strict-mcq-07"
+        "strict-mcq-18",
+        "strict-mcq-05"
       ],
       "explanation": "本句的「strict diet」指「幾乎不偏離規範的飲食／作息方式」。",
       "sentenceIndex": 28,
@@ -1235,12 +1137,10 @@ export default {
         "strict diet"
       ],
       "optionReasons": {
-        "strict-mcq-10": "本句指「幾乎不偏離規範的飲食／作息方式」。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。",
-        "strict-mcq-11": "「對資訊實行嚴格保密，不得外傳」與本句語境不同。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。",
-        "strict-mcq-12": "「以嚴格、不可隨意偏離的方式執行」與本句語境不同。",
-        "strict-mcq-07": "「門檻高、要求精確且不輕易放寬的標準」與本句語境不同。"
+        "strict-mcq-10": "本句的「strict diet」指「幾乎不偏離規範的飲食／作息方式」。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-10"
     },
@@ -1252,11 +1152,9 @@ export default {
       "masked": "The doctor advised a ____.",
       "options": [
         "strict-mcq-10",
-        "strict-mcq-09",
-        "strict-mcq-11",
-        "strict-mcq-08",
-        "strict-mcq-12",
-        "strict-mcq-07"
+        "strict-mcq-07",
+        "strict-mcq-18",
+        "strict-mcq-05"
       ],
       "explanation": "本句的「strict low-salt diet」指「幾乎不偏離規範的飲食／作息方式」。",
       "sentenceIndex": 29,
@@ -1265,12 +1163,10 @@ export default {
         "strict low-salt diet"
       ],
       "optionReasons": {
-        "strict-mcq-10": "本句指「幾乎不偏離規範的飲食／作息方式」。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。",
-        "strict-mcq-11": "「對資訊實行嚴格保密，不得外傳」與本句語境不同。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。",
-        "strict-mcq-12": "「以嚴格、不可隨意偏離的方式執行」與本句語境不同。",
-        "strict-mcq-07": "「門檻高、要求精確且不輕易放寬的標準」與本句語境不同。"
+        "strict-mcq-10": "本句的「strict low-salt diet」指「幾乎不偏離規範的飲食／作息方式」。",
+        "strict-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-10"
     },
@@ -1282,11 +1178,9 @@ export default {
       "masked": "She keeps a ____ during exam season.",
       "options": [
         "strict-mcq-10",
-        "strict-mcq-09",
-        "strict-mcq-11",
+        "strict-mcq-02",
         "strict-mcq-08",
-        "strict-mcq-12",
-        "strict-mcq-07"
+        "strict-mcq-05"
       ],
       "explanation": "本句的「strict routine」指「幾乎不偏離規範的飲食／作息方式」。",
       "sentenceIndex": 30,
@@ -1295,12 +1189,10 @@ export default {
         "strict routine"
       ],
       "optionReasons": {
-        "strict-mcq-10": "本句指「幾乎不偏離規範的飲食／作息方式」。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。",
-        "strict-mcq-11": "「對資訊實行嚴格保密，不得外傳」與本句語境不同。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。",
-        "strict-mcq-12": "「以嚴格、不可隨意偏離的方式執行」與本句語境不同。",
-        "strict-mcq-07": "「門檻高、要求精確且不輕易放寬的標準」與本句語境不同。"
+        "strict-mcq-10": "本句的「strict routine」指「幾乎不偏離規範的飲食／作息方式」。",
+        "strict-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-10"
     },
@@ -1312,11 +1204,9 @@ export default {
       "masked": "The team follows a ____.",
       "options": [
         "strict-mcq-10",
-        "strict-mcq-09",
-        "strict-mcq-11",
-        "strict-mcq-08",
-        "strict-mcq-12",
-        "strict-mcq-07"
+        "strict-mcq-19",
+        "strict-mcq-07",
+        "strict-mcq-05"
       ],
       "explanation": "本句的「strict training schedule」指「幾乎不偏離規範的飲食／作息方式」。",
       "sentenceIndex": 31,
@@ -1325,12 +1215,10 @@ export default {
         "strict training schedule"
       ],
       "optionReasons": {
-        "strict-mcq-10": "本句指「幾乎不偏離規範的飲食／作息方式」。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。",
-        "strict-mcq-11": "「對資訊實行嚴格保密，不得外傳」與本句語境不同。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。",
-        "strict-mcq-12": "「以嚴格、不可隨意偏離的方式執行」與本句語境不同。",
-        "strict-mcq-07": "「門檻高、要求精確且不輕易放寬的標準」與本句語境不同。"
+        "strict-mcq-10": "本句的「strict training schedule」指「幾乎不偏離規範的飲食／作息方式」。",
+        "strict-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-10"
     },
@@ -1342,11 +1230,9 @@ export default {
       "masked": "All information is kept in ____.",
       "options": [
         "strict-mcq-11",
-        "strict-mcq-10",
-        "strict-mcq-12",
-        "strict-mcq-09",
-        "strict-mcq-13",
-        "strict-mcq-08"
+        "strict-mcq-03",
+        "strict-mcq-16",
+        "strict-mcq-18"
       ],
       "explanation": "本句的「strict confidence」指「對資訊實行嚴格保密，不得外傳」。",
       "sentenceIndex": 32,
@@ -1355,12 +1241,10 @@ export default {
         "strict confidence"
       ],
       "optionReasons": {
-        "strict-mcq-11": "本句指「對資訊實行嚴格保密，不得外傳」。",
-        "strict-mcq-10": "「幾乎不偏離規範的飲食／作息方式」與本句語境不同。",
-        "strict-mcq-12": "「以嚴格、不可隨意偏離的方式執行」與本句語境不同。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。",
-        "strict-mcq-13": "「規則上完全不允許；嚴禁」與本句語境不同。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。"
+        "strict-mcq-11": "本句的「strict confidence」指「對資訊實行嚴格保密，不得外傳」。",
+        "strict-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-11"
     },
@@ -1372,11 +1256,9 @@ export default {
       "masked": "The records are subject to ____.",
       "options": [
         "strict-mcq-11",
+        "strict-mcq-07",
         "strict-mcq-10",
-        "strict-mcq-12",
-        "strict-mcq-09",
-        "strict-mcq-13",
-        "strict-mcq-08"
+        "strict-mcq-18"
       ],
       "explanation": "本句的「strict confidentiality」指「對資訊實行嚴格保密，不得外傳」。",
       "sentenceIndex": 33,
@@ -1385,12 +1267,10 @@ export default {
         "strict confidentiality"
       ],
       "optionReasons": {
-        "strict-mcq-11": "本句指「對資訊實行嚴格保密，不得外傳」。",
-        "strict-mcq-10": "「幾乎不偏離規範的飲食／作息方式」與本句語境不同。",
-        "strict-mcq-12": "「以嚴格、不可隨意偏離的方式執行」與本句語境不同。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。",
-        "strict-mcq-13": "「規則上完全不允許；嚴禁」與本句語境不同。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。"
+        "strict-mcq-11": "本句的「strict confidentiality」指「對資訊實行嚴格保密，不得外傳」。",
+        "strict-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-11"
     },
@@ -1402,11 +1282,9 @@ export default {
       "masked": "I’m telling you this ____.",
       "options": [
         "strict-mcq-11",
-        "strict-mcq-10",
-        "strict-mcq-12",
-        "strict-mcq-09",
-        "strict-mcq-13",
-        "strict-mcq-08"
+        "strict-mcq-16",
+        "strict-mcq-03",
+        "strict-mcq-18"
       ],
       "explanation": "本句的「in strict confidence」指「對資訊實行嚴格保密，不得外傳」。",
       "sentenceIndex": 34,
@@ -1415,12 +1293,10 @@ export default {
         "in strict confidence"
       ],
       "optionReasons": {
-        "strict-mcq-11": "本句指「對資訊實行嚴格保密，不得外傳」。",
-        "strict-mcq-10": "「幾乎不偏離規範的飲食／作息方式」與本句語境不同。",
-        "strict-mcq-12": "「以嚴格、不可隨意偏離的方式執行」與本句語境不同。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。",
-        "strict-mcq-13": "「規則上完全不允許；嚴禁」與本句語境不同。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。"
+        "strict-mcq-11": "本句的「in strict confidence」指「對資訊實行嚴格保密，不得外傳」。",
+        "strict-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-11"
     },
@@ -1432,11 +1308,9 @@ export default {
       "masked": "The details were shared ____.",
       "options": [
         "strict-mcq-11",
-        "strict-mcq-10",
-        "strict-mcq-12",
-        "strict-mcq-09",
-        "strict-mcq-13",
-        "strict-mcq-08"
+        "strict-mcq-03",
+        "strict-mcq-08",
+        "strict-mcq-18"
       ],
       "explanation": "本句的「in strict confidence」指「對資訊實行嚴格保密，不得外傳」。",
       "sentenceIndex": 35,
@@ -1445,12 +1319,10 @@ export default {
         "in strict confidence"
       ],
       "optionReasons": {
-        "strict-mcq-11": "本句指「對資訊實行嚴格保密，不得外傳」。",
-        "strict-mcq-10": "「幾乎不偏離規範的飲食／作息方式」與本句語境不同。",
-        "strict-mcq-12": "「以嚴格、不可隨意偏離的方式執行」與本句語境不同。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。",
-        "strict-mcq-13": "「規則上完全不允許；嚴禁」與本句語境不同。",
-        "strict-mcq-08": "「按最狹義、最精確的定義來理解」與本句語境不同。"
+        "strict-mcq-11": "本句的「in strict confidence」指「對資訊實行嚴格保密，不得外傳」。",
+        "strict-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-11"
     },
@@ -1462,11 +1334,9 @@ export default {
       "masked": "The rules are ____.",
       "options": [
         "strict-mcq-12",
-        "strict-mcq-11",
-        "strict-mcq-13",
-        "strict-mcq-10",
-        "strict-mcq-14",
-        "strict-mcq-09"
+        "strict-mcq-07",
+        "strict-mcq-18",
+        "strict-mcq-05"
       ],
       "explanation": "本句的「strictly enforced」指「以嚴格、不可隨意偏離的方式執行」。",
       "sentenceIndex": 36,
@@ -1475,12 +1345,10 @@ export default {
         "strictly enforced"
       ],
       "optionReasons": {
-        "strict-mcq-12": "本句指「以嚴格、不可隨意偏離的方式執行」。",
-        "strict-mcq-11": "「對資訊實行嚴格保密，不得外傳」與本句語境不同。",
-        "strict-mcq-13": "「規則上完全不允許；嚴禁」與本句語境不同。",
-        "strict-mcq-10": "「幾乎不偏離規範的飲食／作息方式」與本句語境不同。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。"
+        "strict-mcq-12": "本句的「strictly enforced」指「以嚴格、不可隨意偏離的方式執行」。",
+        "strict-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-12"
     },
@@ -1492,11 +1360,9 @@ export default {
       "masked": "Access is ____.",
       "options": [
         "strict-mcq-12",
-        "strict-mcq-11",
-        "strict-mcq-13",
-        "strict-mcq-10",
-        "strict-mcq-14",
-        "strict-mcq-09"
+        "strict-mcq-07",
+        "strict-mcq-18",
+        "strict-mcq-05"
       ],
       "explanation": "本句的「strictly controlled」指「以嚴格、不可隨意偏離的方式執行」。",
       "sentenceIndex": 37,
@@ -1505,12 +1371,10 @@ export default {
         "strictly controlled"
       ],
       "optionReasons": {
-        "strict-mcq-12": "本句指「以嚴格、不可隨意偏離的方式執行」。",
-        "strict-mcq-11": "「對資訊實行嚴格保密，不得外傳」與本句語境不同。",
-        "strict-mcq-13": "「規則上完全不允許；嚴禁」與本句語境不同。",
-        "strict-mcq-10": "「幾乎不偏離規範的飲食／作息方式」與本句語境不同。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。",
-        "strict-mcq-09": "「完全按照規則、程序或原則執行；嚴格遵守」與本句語境不同。"
+        "strict-mcq-12": "本句的「strictly controlled」指「以嚴格、不可隨意偏離的方式執行」。",
+        "strict-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-12"
     },
@@ -1522,11 +1386,9 @@ export default {
       "masked": "Smoking is ____.",
       "options": [
         "strict-mcq-13",
-        "strict-mcq-12",
-        "strict-mcq-14",
-        "strict-mcq-11",
-        "strict-mcq-15",
-        "strict-mcq-10"
+        "strict-mcq-08",
+        "strict-mcq-18",
+        "strict-mcq-19"
       ],
       "explanation": "本句的「strictly prohibited」指「規則上完全不允許；嚴禁」。",
       "sentenceIndex": 38,
@@ -1535,12 +1397,10 @@ export default {
         "strictly prohibited"
       ],
       "optionReasons": {
-        "strict-mcq-13": "本句指「規則上完全不允許；嚴禁」。",
-        "strict-mcq-12": "「以嚴格、不可隨意偏離的方式執行」與本句語境不同。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。",
-        "strict-mcq-11": "「對資訊實行嚴格保密，不得外傳」與本句語境不同。",
-        "strict-mcq-15": "「如果按照最精確、最嚴格的定義來說；嚴格來說」與本句語境不同。",
-        "strict-mcq-10": "「幾乎不偏離規範的飲食／作息方式」與本句語境不同。"
+        "strict-mcq-13": "本句的「strictly prohibited」指「規則上完全不允許；嚴禁」。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-13"
     },
@@ -1552,11 +1412,9 @@ export default {
       "masked": "Photography is ____ in this area.",
       "options": [
         "strict-mcq-13",
-        "strict-mcq-12",
-        "strict-mcq-14",
-        "strict-mcq-11",
-        "strict-mcq-15",
-        "strict-mcq-10"
+        "strict-mcq-18",
+        "strict-mcq-08",
+        "strict-mcq-14"
       ],
       "explanation": "本句的「strictly forbidden」指「規則上完全不允許；嚴禁」。",
       "sentenceIndex": 39,
@@ -1565,12 +1423,10 @@ export default {
         "strictly forbidden"
       ],
       "optionReasons": {
-        "strict-mcq-13": "本句指「規則上完全不允許；嚴禁」。",
-        "strict-mcq-12": "「以嚴格、不可隨意偏離的方式執行」與本句語境不同。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。",
-        "strict-mcq-11": "「對資訊實行嚴格保密，不得外傳」與本句語境不同。",
-        "strict-mcq-15": "「如果按照最精確、最嚴格的定義來說；嚴格來說」與本句語境不同。",
-        "strict-mcq-10": "「幾乎不偏離規範的飲食／作息方式」與本句語境不同。"
+        "strict-mcq-13": "本句的「strictly forbidden」指「規則上完全不允許；嚴禁」。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-13"
     },
@@ -1582,11 +1438,9 @@ export default {
       "masked": "Access is ____ to staff.",
       "options": [
         "strict-mcq-14",
-        "strict-mcq-13",
-        "strict-mcq-15",
-        "strict-mcq-12",
-        "strict-mcq-16",
-        "strict-mcq-11"
+        "strict-mcq-07",
+        "strict-mcq-10",
+        "strict-mcq-18"
       ],
       "explanation": "本句的「strictly limited」指「數量、資格、範圍等受到嚴格限制」。",
       "sentenceIndex": 40,
@@ -1595,12 +1449,10 @@ export default {
         "strictly limited"
       ],
       "optionReasons": {
-        "strict-mcq-14": "本句指「數量、資格、範圍等受到嚴格限制」。",
-        "strict-mcq-13": "「規則上完全不允許；嚴禁」與本句語境不同。",
-        "strict-mcq-15": "「如果按照最精確、最嚴格的定義來說；嚴格來說」與本句語境不同。",
-        "strict-mcq-12": "「以嚴格、不可隨意偏離的方式執行」與本句語境不同。",
-        "strict-mcq-16": "「如果非常精確地判斷，並不完全是真的／必要的」與本句語境不同。",
-        "strict-mcq-11": "「對資訊實行嚴格保密，不得外傳」與本句語境不同。"
+        "strict-mcq-14": "本句的「strictly limited」指「數量、資格、範圍等受到嚴格限制」。",
+        "strict-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-14"
     },
@@ -1612,11 +1464,9 @@ export default {
       "masked": "Attendance is ____ to fifty people.",
       "options": [
         "strict-mcq-14",
-        "strict-mcq-13",
-        "strict-mcq-15",
-        "strict-mcq-12",
         "strict-mcq-16",
-        "strict-mcq-11"
+        "strict-mcq-03",
+        "strict-mcq-10"
       ],
       "explanation": "本句的「strictly limited」指「數量、資格、範圍等受到嚴格限制」。",
       "sentenceIndex": 41,
@@ -1625,12 +1475,10 @@ export default {
         "strictly limited"
       ],
       "optionReasons": {
-        "strict-mcq-14": "本句指「數量、資格、範圍等受到嚴格限制」。",
-        "strict-mcq-13": "「規則上完全不允許；嚴禁」與本句語境不同。",
-        "strict-mcq-15": "「如果按照最精確、最嚴格的定義來說；嚴格來說」與本句語境不同。",
-        "strict-mcq-12": "「以嚴格、不可隨意偏離的方式執行」與本句語境不同。",
-        "strict-mcq-16": "「如果非常精確地判斷，並不完全是真的／必要的」與本句語境不同。",
-        "strict-mcq-11": "「對資訊實行嚴格保密，不得外傳」與本句語境不同。"
+        "strict-mcq-14": "本句的「strictly limited」指「數量、資格、範圍等受到嚴格限制」。",
+        "strict-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-14"
     },
@@ -1642,11 +1490,9 @@ export default {
       "masked": "____, a tomato is a fruit.",
       "options": [
         "strict-mcq-15",
-        "strict-mcq-14",
-        "strict-mcq-16",
-        "strict-mcq-13",
-        "strict-mcq-17",
-        "strict-mcq-12"
+        "strict-mcq-03",
+        "strict-mcq-18",
+        "strict-mcq-10"
       ],
       "explanation": "本句的「Strictly speaking」指「如果按照最精確、最嚴格的定義來說；嚴格來說」。",
       "sentenceIndex": 42,
@@ -1655,12 +1501,10 @@ export default {
         "Strictly speaking"
       ],
       "optionReasons": {
-        "strict-mcq-15": "本句指「如果按照最精確、最嚴格的定義來說；嚴格來說」。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。",
-        "strict-mcq-16": "「如果非常精確地判斷，並不完全是真的／必要的」與本句語境不同。",
-        "strict-mcq-13": "「規則上完全不允許；嚴禁」與本句語境不同。",
-        "strict-mcq-17": "「若嚴格按分類來看；純粹屬於某一類」與本句語境不同。",
-        "strict-mcq-12": "「以嚴格、不可隨意偏離的方式執行」與本句語境不同。"
+        "strict-mcq-15": "本句的「Strictly speaking」指「如果按照最精確、最嚴格的定義來說；嚴格來說」。",
+        "strict-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-15"
     },
@@ -1672,11 +1516,9 @@ export default {
       "masked": "____, the meeting did not begin on Monday because it started after midnight.",
       "options": [
         "strict-mcq-15",
-        "strict-mcq-14",
-        "strict-mcq-16",
-        "strict-mcq-13",
-        "strict-mcq-17",
-        "strict-mcq-12"
+        "strict-mcq-10",
+        "strict-mcq-03",
+        "strict-mcq-18"
       ],
       "explanation": "本句的「Strictly speaking」指「如果按照最精確、最嚴格的定義來說；嚴格來說」。",
       "sentenceIndex": 43,
@@ -1685,12 +1527,10 @@ export default {
         "Strictly speaking"
       ],
       "optionReasons": {
-        "strict-mcq-15": "本句指「如果按照最精確、最嚴格的定義來說；嚴格來說」。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。",
-        "strict-mcq-16": "「如果非常精確地判斷，並不完全是真的／必要的」與本句語境不同。",
-        "strict-mcq-13": "「規則上完全不允許；嚴禁」與本句語境不同。",
-        "strict-mcq-17": "「若嚴格按分類來看；純粹屬於某一類」與本句語境不同。",
-        "strict-mcq-12": "「以嚴格、不可隨意偏離的方式執行」與本句語境不同。"
+        "strict-mcq-15": "本句的「Strictly speaking」指「如果按照最精確、最嚴格的定義來說；嚴格來說」。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-15"
     },
@@ -1702,11 +1542,9 @@ export default {
       "masked": "That statement is ____.",
       "options": [
         "strict-mcq-16",
-        "strict-mcq-15",
-        "strict-mcq-17",
-        "strict-mcq-14",
-        "strict-mcq-18",
-        "strict-mcq-13"
+        "strict-mcq-11",
+        "strict-mcq-10",
+        "strict-mcq-18"
       ],
       "explanation": "本句的「not strictly true」指「如果非常精確地判斷，並不完全是真的／必要的」。",
       "sentenceIndex": 44,
@@ -1715,12 +1553,10 @@ export default {
         "not strictly true"
       ],
       "optionReasons": {
-        "strict-mcq-16": "本句指「如果非常精確地判斷，並不完全是真的／必要的」。",
-        "strict-mcq-15": "「如果按照最精確、最嚴格的定義來說；嚴格來說」與本句語境不同。",
-        "strict-mcq-17": "「若嚴格按分類來看；純粹屬於某一類」與本句語境不同。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。",
-        "strict-mcq-18": "「僅限某人、某群體或某用途」與本句語境不同。",
-        "strict-mcq-13": "「規則上完全不允許；嚴禁」與本句語境不同。"
+        "strict-mcq-16": "本句的「not strictly true」指「如果非常精確地判斷，並不完全是真的／必要的」。",
+        "strict-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-16"
     },
@@ -1732,11 +1568,9 @@ export default {
       "masked": "A car is ____ here.",
       "options": [
         "strict-mcq-16",
-        "strict-mcq-15",
-        "strict-mcq-17",
-        "strict-mcq-14",
-        "strict-mcq-18",
-        "strict-mcq-13"
+        "strict-mcq-19",
+        "strict-mcq-10",
+        "strict-mcq-03"
       ],
       "explanation": "本句的「not strictly necessary」指「如果非常精確地判斷，並不完全是真的／必要的」。",
       "sentenceIndex": 45,
@@ -1745,12 +1579,10 @@ export default {
         "not strictly necessary"
       ],
       "optionReasons": {
-        "strict-mcq-16": "本句指「如果非常精確地判斷，並不完全是真的／必要的」。",
-        "strict-mcq-15": "「如果按照最精確、最嚴格的定義來說；嚴格來說」與本句語境不同。",
-        "strict-mcq-17": "「若嚴格按分類來看；純粹屬於某一類」與本句語境不同。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。",
-        "strict-mcq-18": "「僅限某人、某群體或某用途」與本句語境不同。",
-        "strict-mcq-13": "「規則上完全不允許；嚴禁」與本句語境不同。"
+        "strict-mcq-16": "本句的「not strictly necessary」指「如果非常精確地判斷，並不完全是真的／必要的」。",
+        "strict-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-16"
     },
@@ -1762,11 +1594,9 @@ export default {
       "masked": "This is not ____.",
       "options": [
         "strict-mcq-17",
-        "strict-mcq-16",
-        "strict-mcq-18",
-        "strict-mcq-15",
-        "strict-mcq-19",
-        "strict-mcq-14"
+        "strict-mcq-10",
+        "strict-mcq-07",
+        "strict-mcq-18"
       ],
       "explanation": "本句的「strictly a business issue」指「若嚴格按分類來看；純粹屬於某一類」。",
       "sentenceIndex": 46,
@@ -1775,12 +1605,10 @@ export default {
         "strictly a business issue"
       ],
       "optionReasons": {
-        "strict-mcq-17": "本句指「若嚴格按分類來看；純粹屬於某一類」。",
-        "strict-mcq-16": "「如果非常精確地判斷，並不完全是真的／必要的」與本句語境不同。",
-        "strict-mcq-18": "「僅限某人、某群體或某用途」與本句語境不同。",
-        "strict-mcq-15": "「如果按照最精確、最嚴格的定義來說；嚴格來說」與本句語境不同。",
-        "strict-mcq-19": "「嚴格的程度或特質」與本句語境不同。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。"
+        "strict-mcq-17": "本句的「strictly a business issue」指「若嚴格按分類來看；純粹屬於某一類」。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-17"
     },
@@ -1794,9 +1622,7 @@ export default {
         "strict-mcq-17",
         "strict-mcq-16",
         "strict-mcq-18",
-        "strict-mcq-15",
-        "strict-mcq-19",
-        "strict-mcq-14"
+        "strict-mcq-04"
       ],
       "explanation": "本句的「strictly academic」指「若嚴格按分類來看；純粹屬於某一類」。",
       "sentenceIndex": 47,
@@ -1805,12 +1631,10 @@ export default {
         "strictly academic"
       ],
       "optionReasons": {
-        "strict-mcq-17": "本句指「若嚴格按分類來看；純粹屬於某一類」。",
-        "strict-mcq-16": "「如果非常精確地判斷，並不完全是真的／必要的」與本句語境不同。",
-        "strict-mcq-18": "「僅限某人、某群體或某用途」與本句語境不同。",
-        "strict-mcq-15": "「如果按照最精確、最嚴格的定義來說；嚴格來說」與本句語境不同。",
-        "strict-mcq-19": "「嚴格的程度或特質」與本句語境不同。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。"
+        "strict-mcq-17": "本句的「strictly academic」指「若嚴格按分類來看；純粹屬於某一類」。",
+        "strict-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-17"
     },
@@ -1822,11 +1646,9 @@ export default {
       "masked": "This area is ____.",
       "options": [
         "strict-mcq-18",
-        "strict-mcq-17",
-        "strict-mcq-19",
-        "strict-mcq-16",
-        "strict-mcq-15",
-        "strict-mcq-14"
+        "strict-mcq-11",
+        "strict-mcq-03",
+        "strict-mcq-16"
       ],
       "explanation": "本句的「strictly for staff」指「僅限某人、某群體或某用途」。",
       "sentenceIndex": 48,
@@ -1835,12 +1657,10 @@ export default {
         "strictly for staff"
       ],
       "optionReasons": {
-        "strict-mcq-18": "本句指「僅限某人、某群體或某用途」。",
-        "strict-mcq-17": "「若嚴格按分類來看；純粹屬於某一類」與本句語境不同。",
-        "strict-mcq-19": "「嚴格的程度或特質」與本句語境不同。",
-        "strict-mcq-16": "「如果非常精確地判斷，並不完全是真的／必要的」與本句語境不同。",
-        "strict-mcq-15": "「如果按照最精確、最嚴格的定義來說；嚴格來說」與本句語境不同。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。"
+        "strict-mcq-18": "本句的「strictly for staff」指「僅限某人、某群體或某用途」。",
+        "strict-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-18"
     },
@@ -1853,10 +1673,8 @@ export default {
       "options": [
         "strict-mcq-18",
         "strict-mcq-17",
-        "strict-mcq-19",
-        "strict-mcq-16",
-        "strict-mcq-15",
-        "strict-mcq-14"
+        "strict-mcq-10",
+        "strict-mcq-05"
       ],
       "explanation": "本句的「strictly limited to new customers」指「僅限某人、某群體或某用途」。",
       "sentenceIndex": 49,
@@ -1865,12 +1683,10 @@ export default {
         "strictly limited to new customers"
       ],
       "optionReasons": {
-        "strict-mcq-18": "本句指「僅限某人、某群體或某用途」。",
-        "strict-mcq-17": "「若嚴格按分類來看；純粹屬於某一類」與本句語境不同。",
-        "strict-mcq-19": "「嚴格的程度或特質」與本句語境不同。",
-        "strict-mcq-16": "「如果非常精確地判斷，並不完全是真的／必要的」與本句語境不同。",
-        "strict-mcq-15": "「如果按照最精確、最嚴格的定義來說；嚴格來說」與本句語境不同。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。"
+        "strict-mcq-18": "本句的「strictly limited to new customers」指「僅限某人、某群體或某用途」。",
+        "strict-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-18"
     },
@@ -1882,11 +1698,9 @@ export default {
       "masked": "The ____ of the rules surprised him.",
       "options": [
         "strict-mcq-19",
-        "strict-mcq-18",
-        "strict-mcq-17",
-        "strict-mcq-16",
-        "strict-mcq-15",
-        "strict-mcq-14"
+        "strict-mcq-04",
+        "strict-mcq-08",
+        "strict-mcq-18"
       ],
       "explanation": "本句的「strictness」指「嚴格的程度或特質」。",
       "sentenceIndex": 50,
@@ -1895,12 +1709,10 @@ export default {
         "strictness"
       ],
       "optionReasons": {
-        "strict-mcq-19": "本句指「嚴格的程度或特質」。",
-        "strict-mcq-18": "「僅限某人、某群體或某用途」與本句語境不同。",
-        "strict-mcq-17": "「若嚴格按分類來看；純粹屬於某一類」與本句語境不同。",
-        "strict-mcq-16": "「如果非常精確地判斷，並不完全是真的／必要的」與本句語境不同。",
-        "strict-mcq-15": "「如果按照最精確、最嚴格的定義來說；嚴格來說」與本句語境不同。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。"
+        "strict-mcq-19": "本句的「strictness」指「嚴格的程度或特質」。",
+        "strict-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-19"
     },
@@ -1912,11 +1724,9 @@ export default {
       "masked": "Some students appreciated the teacher’s ____.",
       "options": [
         "strict-mcq-19",
-        "strict-mcq-18",
-        "strict-mcq-17",
-        "strict-mcq-16",
-        "strict-mcq-15",
-        "strict-mcq-14"
+        "strict-mcq-08",
+        "strict-mcq-04",
+        "strict-mcq-18"
       ],
       "explanation": "本句的「strictness」指「嚴格的程度或特質」。",
       "sentenceIndex": 51,
@@ -1925,12 +1735,10 @@ export default {
         "strictness"
       ],
       "optionReasons": {
-        "strict-mcq-19": "本句指「嚴格的程度或特質」。",
-        "strict-mcq-18": "「僅限某人、某群體或某用途」與本句語境不同。",
-        "strict-mcq-17": "「若嚴格按分類來看；純粹屬於某一類」與本句語境不同。",
-        "strict-mcq-16": "「如果非常精確地判斷，並不完全是真的／必要的」與本句語境不同。",
-        "strict-mcq-15": "「如果按照最精確、最嚴格的定義來說；嚴格來說」與本句語境不同。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。"
+        "strict-mcq-19": "本句的「strictness」指「嚴格的程度或特質」。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-19"
     },
@@ -1942,11 +1750,9 @@ export default {
       "masked": "The school has ____ about attendance.",
       "options": [
         "strict-mcq-19",
+        "strict-mcq-10",
         "strict-mcq-18",
-        "strict-mcq-17",
-        "strict-mcq-16",
-        "strict-mcq-15",
-        "strict-mcq-14"
+        "strict-mcq-08"
       ],
       "explanation": "本句的「strict rules」指「嚴格的程度或特質」。",
       "sentenceIndex": 54,
@@ -1955,12 +1761,10 @@ export default {
         "strict rules"
       ],
       "optionReasons": {
-        "strict-mcq-19": "本句指「嚴格的程度或特質」。",
-        "strict-mcq-18": "「僅限某人、某群體或某用途」與本句語境不同。",
-        "strict-mcq-17": "「若嚴格按分類來看；純粹屬於某一類」與本句語境不同。",
-        "strict-mcq-16": "「如果非常精確地判斷，並不完全是真的／必要的」與本句語境不同。",
-        "strict-mcq-15": "「如果按照最精確、最嚴格的定義來說；嚴格來說」與本句語境不同。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。"
+        "strict-mcq-19": "本句的「strict rules」指「嚴格的程度或特質」。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-19"
     },
@@ -1972,11 +1776,9 @@ export default {
       "masked": "Visitors must follow ____.",
       "options": [
         "strict-mcq-19",
-        "strict-mcq-18",
-        "strict-mcq-17",
+        "strict-mcq-10",
         "strict-mcq-16",
-        "strict-mcq-15",
-        "strict-mcq-14"
+        "strict-mcq-18"
       ],
       "explanation": "本句的「strict rules」指「嚴格的程度或特質」。",
       "sentenceIndex": 55,
@@ -1985,12 +1787,10 @@ export default {
         "strict rules"
       ],
       "optionReasons": {
-        "strict-mcq-19": "本句指「嚴格的程度或特質」。",
-        "strict-mcq-18": "「僅限某人、某群體或某用途」與本句語境不同。",
-        "strict-mcq-17": "「若嚴格按分類來看；純粹屬於某一類」與本句語境不同。",
-        "strict-mcq-16": "「如果非常精確地判斷，並不完全是真的／必要的」與本句語境不同。",
-        "strict-mcq-15": "「如果按照最精確、最嚴格的定義來說；嚴格來說」與本句語境不同。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。"
+        "strict-mcq-19": "本句的「strict rules」指「嚴格的程度或特質」。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-19"
     },
@@ -2002,11 +1802,9 @@ export default {
       "masked": "The factory follows ____.",
       "options": [
         "strict-mcq-19",
-        "strict-mcq-18",
-        "strict-mcq-17",
-        "strict-mcq-16",
-        "strict-mcq-15",
-        "strict-mcq-14"
+        "strict-mcq-08",
+        "strict-mcq-04",
+        "strict-mcq-18"
       ],
       "explanation": "本句的「strict quality standards」指「嚴格的程度或特質」。",
       "sentenceIndex": 56,
@@ -2015,12 +1813,10 @@ export default {
         "strict quality standards"
       ],
       "optionReasons": {
-        "strict-mcq-19": "本句指「嚴格的程度或特質」。",
-        "strict-mcq-18": "「僅限某人、某群體或某用途」與本句語境不同。",
-        "strict-mcq-17": "「若嚴格按分類來看；純粹屬於某一類」與本句語境不同。",
-        "strict-mcq-16": "「如果非常精確地判斷，並不完全是真的／必要的」與本句語境不同。",
-        "strict-mcq-15": "「如果按照最精確、最嚴格的定義來說；嚴格來說」與本句語境不同。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。"
+        "strict-mcq-19": "本句的「strict quality standards」指「嚴格的程度或特質」。",
+        "strict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-19"
     },
@@ -2032,11 +1828,9 @@ export default {
       "masked": "The competition has ____.",
       "options": [
         "strict-mcq-19",
-        "strict-mcq-18",
-        "strict-mcq-17",
         "strict-mcq-16",
-        "strict-mcq-15",
-        "strict-mcq-14"
+        "strict-mcq-10",
+        "strict-mcq-18"
       ],
       "explanation": "本句的「strict judging standards」指「嚴格的程度或特質」。",
       "sentenceIndex": 57,
@@ -2045,12 +1839,10 @@ export default {
         "strict judging standards"
       ],
       "optionReasons": {
-        "strict-mcq-19": "本句指「嚴格的程度或特質」。",
-        "strict-mcq-18": "「僅限某人、某群體或某用途」與本句語境不同。",
-        "strict-mcq-17": "「若嚴格按分類來看；純粹屬於某一類」與本句語境不同。",
-        "strict-mcq-16": "「如果非常精確地判斷，並不完全是真的／必要的」與本句語境不同。",
-        "strict-mcq-15": "「如果按照最精確、最嚴格的定義來說；嚴格來說」與本句語境不同。",
-        "strict-mcq-14": "「數量、資格、範圍等受到嚴格限制」與本句語境不同。"
+        "strict-mcq-19": "本句的「strict judging standards」指「嚴格的程度或特質」。",
+        "strict-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strict-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strict-mcq-19"
     }
@@ -2062,5 +1854,7 @@ export default {
     "sha256": "5a2bcaeafa62b720f2986b404c67aae3ca43a20bffa75f416f5025dae5484ee8",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

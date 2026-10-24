@@ -305,11 +305,9 @@ export default {
       "masked": "My ____ from school was Mr Chan.",
       "options": [
         "favourite-mcq-01",
-        "favourite-mcq-02",
-        "favourite-mcq-03",
-        "favourite-mcq-04",
-        "favourite-mcq-05",
-        "favourite-mcq-06"
+        "favourite-mcq-11",
+        "favourite-mcq-13",
+        "favourite-pdf-001"
       ],
       "explanation": "本句的「favourite teacher」指「最喜歡的老師」。",
       "sentenceIndex": 0,
@@ -318,12 +316,10 @@ export default {
         "favourite teacher"
       ],
       "optionReasons": {
-        "favourite-mcq-01": "本句指「最喜歡的老師」。",
-        "favourite-mcq-02": "「我最喜歡的人／事物」與本句語境不同。",
-        "favourite-mcq-03": "「我最喜歡的其中之一」與本句語境不同。",
-        "favourite-mcq-04": "「個人特別喜愛」與本句語境不同。",
-        "favourite-mcq-05": "「多年來一直喜愛」與本句語境不同。",
-        "favourite-mcq-06": "「一直深受喜愛」與本句語境不同。"
+        "favourite-mcq-01": "本句的「favourite teacher」指「最喜歡的老師」。",
+        "favourite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-01"
     },
@@ -335,11 +331,9 @@ export default {
       "masked": "History was my ____ at school.",
       "options": [
         "favourite-mcq-01",
-        "favourite-mcq-02",
-        "favourite-mcq-03",
-        "favourite-mcq-04",
-        "favourite-mcq-05",
-        "favourite-mcq-06"
+        "favourite-mcq-11",
+        "favourite-mcq-13",
+        "favourite-pdf-001"
       ],
       "explanation": "本句的「favourite subject」指「最喜歡的老師」。",
       "sentenceIndex": 1,
@@ -348,12 +342,10 @@ export default {
         "favourite subject"
       ],
       "optionReasons": {
-        "favourite-mcq-01": "本句指「最喜歡的老師」。",
-        "favourite-mcq-02": "「我最喜歡的人／事物」與本句語境不同。",
-        "favourite-mcq-03": "「我最喜歡的其中之一」與本句語境不同。",
-        "favourite-mcq-04": "「個人特別喜愛」與本句語境不同。",
-        "favourite-mcq-05": "「多年來一直喜愛」與本句語境不同。",
-        "favourite-mcq-06": "「一直深受喜愛」與本句語境不同。"
+        "favourite-mcq-01": "本句的「favourite subject」指「最喜歡的老師」。",
+        "favourite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-01"
     },
@@ -365,11 +357,9 @@ export default {
       "masked": "What's your ____?",
       "options": [
         "favourite-mcq-01",
-        "favourite-mcq-02",
-        "favourite-mcq-03",
-        "favourite-mcq-04",
-        "favourite-mcq-05",
-        "favourite-mcq-06"
+        "favourite-mcq-11",
+        "favourite-mcq-13",
+        "favourite-pdf-001"
       ],
       "explanation": "本句的「favourite film」指「最喜歡的老師」。",
       "sentenceIndex": 2,
@@ -378,12 +368,10 @@ export default {
         "favourite film"
       ],
       "optionReasons": {
-        "favourite-mcq-01": "本句指「最喜歡的老師」。",
-        "favourite-mcq-02": "「我最喜歡的人／事物」與本句語境不同。",
-        "favourite-mcq-03": "「我最喜歡的其中之一」與本句語境不同。",
-        "favourite-mcq-04": "「個人特別喜愛」與本句語境不同。",
-        "favourite-mcq-05": "「多年來一直喜愛」與本句語境不同。",
-        "favourite-mcq-06": "「一直深受喜愛」與本句語境不同。"
+        "favourite-mcq-01": "本句的「favourite film」指「最喜歡的老師」。",
+        "favourite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-01"
     },
@@ -397,9 +385,7 @@ export default {
         "favourite-mcq-12",
         "favourite-mcq-11",
         "favourite-mcq-13",
-        "favourite-mcq-10",
-        "favourite-mcq-14",
-        "favourite-mcq-09"
+        "favourite-pdf-001"
       ],
       "explanation": "本句的「favourites」指「某人最受寵／最喜愛的人」。",
       "sentenceIndex": 3,
@@ -408,12 +394,10 @@ export default {
         "favourites"
       ],
       "optionReasons": {
-        "favourite-mcq-12": "本句指「某人最受寵／最喜愛的人」。",
-        "favourite-mcq-11": "「壓倒性大熱門」與本句語境不同。",
-        "favourite-mcq-13": "「偏袒；厚此薄彼」與本句語境不同。",
-        "favourite-mcq-10": "「最被看好勝出」與本句語境不同。",
-        "favourite-mcq-14": "「favourite 的美式拼法」與本句語境不同。",
-        "favourite-mcq-09": "「大熱門」與本句語境不同。"
+        "favourite-mcq-12": "本句的「favourites」指「某人最受寵／最喜愛的人」。",
+        "favourite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-12"
     },
@@ -425,11 +409,9 @@ export default {
       "masked": "Of all the teachers I had, Mr Chan was my ____.",
       "options": [
         "favourite-mcq-12",
-        "favourite-mcq-11",
+        "favourite-mcq-09",
         "favourite-mcq-13",
-        "favourite-mcq-10",
-        "favourite-mcq-14",
-        "favourite-mcq-09"
+        "favourite-pdf-001"
       ],
       "explanation": "本句的「favourite」指「某人最受寵／最喜愛的人」。",
       "sentenceIndex": 4,
@@ -438,12 +420,10 @@ export default {
         "favourite"
       ],
       "optionReasons": {
-        "favourite-mcq-12": "本句指「某人最受寵／最喜愛的人」。",
-        "favourite-mcq-11": "「壓倒性大熱門」與本句語境不同。",
-        "favourite-mcq-13": "「偏袒；厚此薄彼」與本句語境不同。",
-        "favourite-mcq-10": "「最被看好勝出」與本句語境不同。",
-        "favourite-mcq-14": "「favourite 的美式拼法」與本句語境不同。",
-        "favourite-mcq-09": "「大熱門」與本句語境不同。"
+        "favourite-mcq-12": "本句的「favourite」指「某人最受寵／最喜愛的人」。",
+        "favourite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-12"
     },
@@ -455,11 +435,9 @@ export default {
       "masked": "This restaurant is ____.",
       "options": [
         "favourite-mcq-03",
-        "favourite-mcq-02",
-        "favourite-mcq-04",
-        "favourite-mcq-01",
-        "favourite-mcq-05",
-        "favourite-mcq-06"
+        "favourite-mcq-11",
+        "favourite-mcq-13",
+        "favourite-pdf-001"
       ],
       "explanation": "本句的「one of my favourites」指「我最喜歡的其中之一」。",
       "sentenceIndex": 5,
@@ -468,12 +446,10 @@ export default {
         "one of my favourites"
       ],
       "optionReasons": {
-        "favourite-mcq-03": "本句指「我最喜歡的其中之一」。",
-        "favourite-mcq-02": "「我最喜歡的人／事物」與本句語境不同。",
-        "favourite-mcq-04": "「個人特別喜愛」與本句語境不同。",
-        "favourite-mcq-01": "「最喜歡的老師」與本句語境不同。",
-        "favourite-mcq-05": "「多年來一直喜愛」與本句語境不同。",
-        "favourite-mcq-06": "「一直深受喜愛」與本句語境不同。"
+        "favourite-mcq-03": "本句的「one of my favourites」指「我最喜歡的其中之一」。",
+        "favourite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-03"
     },
@@ -485,11 +461,9 @@ export default {
       "masked": "That song has always been ____.",
       "options": [
         "favourite-mcq-03",
-        "favourite-mcq-02",
-        "favourite-mcq-04",
-        "favourite-mcq-01",
-        "favourite-mcq-05",
-        "favourite-mcq-06"
+        "favourite-mcq-09",
+        "favourite-mcq-13",
+        "favourite-pdf-001"
       ],
       "explanation": "本句的「one of her favourites」指「我最喜歡的其中之一」。",
       "sentenceIndex": 6,
@@ -498,12 +472,10 @@ export default {
         "one of her favourites"
       ],
       "optionReasons": {
-        "favourite-mcq-03": "本句指「我最喜歡的其中之一」。",
-        "favourite-mcq-02": "「我最喜歡的人／事物」與本句語境不同。",
-        "favourite-mcq-04": "「個人特別喜愛」與本句語境不同。",
-        "favourite-mcq-01": "「最喜歡的老師」與本句語境不同。",
-        "favourite-mcq-05": "「多年來一直喜愛」與本句語境不同。",
-        "favourite-mcq-06": "「一直深受喜愛」與本句語境不同。"
+        "favourite-mcq-03": "本句的「one of her favourites」指「我最喜歡的其中之一」。",
+        "favourite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-03"
     },
@@ -515,11 +487,9 @@ export default {
       "masked": "This painting is a ____ of mine.",
       "options": [
         "favourite-mcq-04",
-        "favourite-mcq-03",
-        "favourite-mcq-05",
-        "favourite-mcq-02",
-        "favourite-mcq-06",
-        "favourite-mcq-01"
+        "favourite-mcq-11",
+        "favourite-mcq-13",
+        "favourite-pdf-001"
       ],
       "explanation": "本句的「personal favourite」指「個人特別喜愛」。",
       "sentenceIndex": 7,
@@ -528,12 +498,10 @@ export default {
         "personal favourite"
       ],
       "optionReasons": {
-        "favourite-mcq-04": "本句指「個人特別喜愛」。",
-        "favourite-mcq-03": "「我最喜歡的其中之一」與本句語境不同。",
-        "favourite-mcq-05": "「多年來一直喜愛」與本句語境不同。",
-        "favourite-mcq-02": "「我最喜歡的人／事物」與本句語境不同。",
-        "favourite-mcq-06": "「一直深受喜愛」與本句語境不同。",
-        "favourite-mcq-01": "「最喜歡的老師」與本句語境不同。"
+        "favourite-mcq-04": "本句的「personal favourite」指「個人特別喜愛」。",
+        "favourite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-04"
     },
@@ -545,11 +513,9 @@ export default {
       "masked": "Among his films, this one is a ____.",
       "options": [
         "favourite-mcq-04",
-        "favourite-mcq-03",
-        "favourite-mcq-05",
-        "favourite-mcq-02",
-        "favourite-mcq-06",
-        "favourite-mcq-01"
+        "favourite-mcq-11",
+        "favourite-pdf-001",
+        "favourite-mcq-13"
       ],
       "explanation": "本句的「personal favourite」指「個人特別喜愛」。",
       "sentenceIndex": 8,
@@ -558,12 +524,10 @@ export default {
         "personal favourite"
       ],
       "optionReasons": {
-        "favourite-mcq-04": "本句指「個人特別喜愛」。",
-        "favourite-mcq-03": "「我最喜歡的其中之一」與本句語境不同。",
-        "favourite-mcq-05": "「多年來一直喜愛」與本句語境不同。",
-        "favourite-mcq-02": "「我最喜歡的人／事物」與本句語境不同。",
-        "favourite-mcq-06": "「一直深受喜愛」與本句語境不同。",
-        "favourite-mcq-01": "「最喜歡的老師」與本句語境不同。"
+        "favourite-mcq-04": "本句的「personal favourite」指「個人特別喜愛」。",
+        "favourite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-04"
     },
@@ -575,11 +539,9 @@ export default {
       "masked": "This song is an ____ of mine.",
       "options": [
         "favourite-mcq-05",
-        "favourite-mcq-04",
-        "favourite-mcq-06",
-        "favourite-mcq-03",
-        "favourite-mcq-07",
-        "favourite-mcq-02"
+        "favourite-mcq-13",
+        "favourite-pdf-001",
+        "favourite-mcq-09"
       ],
       "explanation": "本句的「old favourite」指「多年來一直喜愛」。",
       "sentenceIndex": 9,
@@ -588,12 +550,10 @@ export default {
         "old favourite"
       ],
       "optionReasons": {
-        "favourite-mcq-05": "本句指「多年來一直喜愛」。",
-        "favourite-mcq-04": "「個人特別喜愛」與本句語境不同。",
-        "favourite-mcq-06": "「一直深受喜愛」與本句語境不同。",
-        "favourite-mcq-03": "「我最喜歡的其中之一」與本句語境不同。",
-        "favourite-mcq-07": "「深受 X 喜愛」與本句語境不同。",
-        "favourite-mcq-02": "「我最喜歡的人／事物」與本句語境不同。"
+        "favourite-mcq-05": "本句的「old favourite」指「多年來一直喜愛」。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-05"
     },
@@ -605,11 +565,9 @@ export default {
       "masked": "We returned to an ____ for dinner.",
       "options": [
         "favourite-mcq-05",
-        "favourite-mcq-04",
-        "favourite-mcq-06",
-        "favourite-mcq-03",
-        "favourite-mcq-07",
-        "favourite-mcq-02"
+        "favourite-pdf-001",
+        "favourite-mcq-11",
+        "favourite-mcq-13"
       ],
       "explanation": "本句的「old favourite」指「多年來一直喜愛」。",
       "sentenceIndex": 10,
@@ -618,12 +576,10 @@ export default {
         "old favourite"
       ],
       "optionReasons": {
-        "favourite-mcq-05": "本句指「多年來一直喜愛」。",
-        "favourite-mcq-04": "「個人特別喜愛」與本句語境不同。",
-        "favourite-mcq-06": "「一直深受喜愛」與本句語境不同。",
-        "favourite-mcq-03": "「我最喜歡的其中之一」與本句語境不同。",
-        "favourite-mcq-07": "「深受 X 喜愛」與本句語境不同。",
-        "favourite-mcq-02": "「我最喜歡的人／事物」與本句語境不同。"
+        "favourite-mcq-05": "本句的「old favourite」指「多年來一直喜愛」。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-05"
     },
@@ -635,11 +591,9 @@ export default {
       "masked": "The dish has become a ____ with customers.",
       "options": [
         "favourite-mcq-06",
-        "favourite-mcq-05",
-        "favourite-mcq-07",
-        "favourite-mcq-04",
-        "favourite-mcq-08",
-        "favourite-mcq-03"
+        "favourite-pdf-001",
+        "favourite-mcq-13",
+        "favourite-mcq-11"
       ],
       "explanation": "本句的「firm favourite」指「一直深受喜愛」。",
       "sentenceIndex": 11,
@@ -648,12 +602,10 @@ export default {
         "firm favourite"
       ],
       "optionReasons": {
-        "favourite-mcq-06": "本句指「一直深受喜愛」。",
-        "favourite-mcq-05": "「多年來一直喜愛」與本句語境不同。",
-        "favourite-mcq-07": "「深受 X 喜愛」與本句語境不同。",
-        "favourite-mcq-04": "「個人特別喜愛」與本句語境不同。",
-        "favourite-mcq-08": "「最偏好的選擇」與本句語境不同。",
-        "favourite-mcq-03": "「我最喜歡的其中之一」與本句語境不同。"
+        "favourite-mcq-06": "本句的「firm favourite」指「一直深受喜愛」。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-06"
     },
@@ -665,11 +617,9 @@ export default {
       "masked": "She is a ____ with younger viewers.",
       "options": [
         "favourite-mcq-06",
-        "favourite-mcq-05",
-        "favourite-mcq-07",
-        "favourite-mcq-04",
-        "favourite-mcq-08",
-        "favourite-mcq-03"
+        "favourite-mcq-11",
+        "favourite-pdf-001",
+        "favourite-mcq-13"
       ],
       "explanation": "本句的「firm favourite」指「一直深受喜愛」。",
       "sentenceIndex": 12,
@@ -678,12 +628,10 @@ export default {
         "firm favourite"
       ],
       "optionReasons": {
-        "favourite-mcq-06": "本句指「一直深受喜愛」。",
-        "favourite-mcq-05": "「多年來一直喜愛」與本句語境不同。",
-        "favourite-mcq-07": "「深受 X 喜愛」與本句語境不同。",
-        "favourite-mcq-04": "「個人特別喜愛」與本句語境不同。",
-        "favourite-mcq-08": "「最偏好的選擇」與本句語境不同。",
-        "favourite-mcq-03": "「我最喜歡的其中之一」與本句語境不同。"
+        "favourite-mcq-06": "本句的「firm favourite」指「一直深受喜愛」。",
+        "favourite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-06"
     },
@@ -695,11 +643,9 @@ export default {
       "masked": "She is the ____ the race.",
       "options": [
         "favourite-mcq-09",
-        "favourite-mcq-08",
-        "favourite-mcq-10",
-        "favourite-mcq-07",
-        "favourite-mcq-11",
-        "favourite-mcq-06"
+        "favourite-mcq-03",
+        "favourite-mcq-13",
+        "favourite-pdf-001"
       ],
       "explanation": "本句的「favourite to win」指「大熱門」。",
       "sentenceIndex": 13,
@@ -708,12 +654,10 @@ export default {
         "favourite to win"
       ],
       "optionReasons": {
-        "favourite-mcq-09": "本句指「大熱門」。",
-        "favourite-mcq-08": "「最偏好的選擇」與本句語境不同。",
-        "favourite-mcq-10": "「最被看好勝出」與本句語境不同。",
-        "favourite-mcq-07": "「深受 X 喜愛」與本句語境不同。",
-        "favourite-mcq-11": "「壓倒性大熱門」與本句語境不同。",
-        "favourite-mcq-06": "「一直深受喜愛」與本句語境不同。"
+        "favourite-mcq-09": "本句的「favourite to win」指「大熱門」。",
+        "favourite-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-09"
     },
@@ -725,11 +669,9 @@ export default {
       "masked": "The home team started as the ____.",
       "options": [
         "favourite-mcq-09",
-        "favourite-mcq-08",
-        "favourite-mcq-10",
-        "favourite-mcq-07",
-        "favourite-mcq-11",
-        "favourite-mcq-06"
+        "favourite-mcq-05",
+        "favourite-mcq-13",
+        "favourite-pdf-001"
       ],
       "explanation": "本句的「favourite」指「大熱門」。",
       "sentenceIndex": 14,
@@ -738,12 +680,10 @@ export default {
         "favourite"
       ],
       "optionReasons": {
-        "favourite-mcq-09": "本句指「大熱門」。",
-        "favourite-mcq-08": "「最偏好的選擇」與本句語境不同。",
-        "favourite-mcq-10": "「最被看好勝出」與本句語境不同。",
-        "favourite-mcq-07": "「深受 X 喜愛」與本句語境不同。",
-        "favourite-mcq-11": "「壓倒性大熱門」與本句語境不同。",
-        "favourite-mcq-06": "「一直深受喜愛」與本句語境不同。"
+        "favourite-mcq-09": "本句的「favourite」指「大熱門」。",
+        "favourite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-09"
     },
@@ -756,10 +696,8 @@ export default {
       "options": [
         "favourite-pdf-001",
         "favourite-mcq-09",
-        "favourite-mcq-11",
-        "favourite-mcq-08",
-        "favourite-mcq-12",
-        "favourite-mcq-07"
+        "favourite-mcq-13",
+        "favourite-mcq-06"
       ],
       "explanation": "本句的「favourite to become captain」指「被普遍認為最有可能取得某個競爭性結果的人或隊伍」。",
       "sentenceIndex": 15,
@@ -768,12 +706,10 @@ export default {
         "favourite to become captain"
       ],
       "optionReasons": {
-        "favourite-pdf-001": "本句指「被普遍認為最有可能取得某個競爭性結果的人或隊伍」。",
-        "favourite-mcq-09": "「大熱門」與本句語境不同。",
-        "favourite-mcq-11": "「壓倒性大熱門」與本句語境不同。",
-        "favourite-mcq-08": "「最偏好的選擇」與本句語境不同。",
-        "favourite-mcq-12": "「某人最受寵／最喜愛的人」與本句語境不同。",
-        "favourite-mcq-07": "「深受 X 喜愛」與本句語境不同。"
+        "favourite-pdf-001": "本句的「favourite to become captain」指「被普遍認為最有可能取得某個競爭性結果的人或隊伍」。",
+        "favourite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-pdf-001"
     },
@@ -785,11 +721,9 @@ export default {
       "masked": "The team is the ____.",
       "options": [
         "favourite-pdf-001",
+        "favourite-mcq-06",
         "favourite-mcq-09",
-        "favourite-mcq-11",
-        "favourite-mcq-08",
-        "favourite-mcq-12",
-        "favourite-mcq-07"
+        "favourite-mcq-13"
       ],
       "explanation": "本句的「favourite to win the tournament」指「被普遍認為最有可能取得某個競爭性結果的人或隊伍」。",
       "sentenceIndex": 16,
@@ -798,12 +732,10 @@ export default {
         "favourite to win the tournament"
       ],
       "optionReasons": {
-        "favourite-pdf-001": "本句指「被普遍認為最有可能取得某個競爭性結果的人或隊伍」。",
-        "favourite-mcq-09": "「大熱門」與本句語境不同。",
-        "favourite-mcq-11": "「壓倒性大熱門」與本句語境不同。",
-        "favourite-mcq-08": "「最偏好的選擇」與本句語境不同。",
-        "favourite-mcq-12": "「某人最受寵／最喜愛的人」與本句語境不同。",
-        "favourite-mcq-07": "「深受 X 喜愛」與本句語境不同。"
+        "favourite-pdf-001": "本句的「favourite to win the tournament」指「被普遍認為最有可能取得某個競爭性結果的人或隊伍」。",
+        "favourite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-pdf-001"
     },
@@ -815,11 +747,9 @@ export default {
       "masked": "She entered the final as the ____.",
       "options": [
         "favourite-mcq-11",
-        "favourite-mcq-10",
-        "favourite-mcq-12",
-        "favourite-mcq-09",
+        "favourite-mcq-04",
         "favourite-mcq-13",
-        "favourite-mcq-08"
+        "favourite-pdf-001"
       ],
       "explanation": "本句的「odds-on favourite」指「壓倒性大熱門」。",
       "sentenceIndex": 17,
@@ -828,12 +758,10 @@ export default {
         "odds-on favourite"
       ],
       "optionReasons": {
-        "favourite-mcq-11": "本句指「壓倒性大熱門」。",
-        "favourite-mcq-10": "「最被看好勝出」與本句語境不同。",
-        "favourite-mcq-12": "「某人最受寵／最喜愛的人」與本句語境不同。",
-        "favourite-mcq-09": "「大熱門」與本句語境不同。",
-        "favourite-mcq-13": "「偏袒；厚此薄彼」與本句語境不同。",
-        "favourite-mcq-08": "「最偏好的選擇」與本句語境不同。"
+        "favourite-mcq-11": "本句的「odds-on favourite」指「壓倒性大熱門」。",
+        "favourite-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-11"
     },
@@ -845,11 +773,9 @@ export default {
       "masked": "The horse was the ____ to win.",
       "options": [
         "favourite-mcq-11",
-        "favourite-mcq-10",
         "favourite-mcq-12",
-        "favourite-mcq-09",
         "favourite-mcq-13",
-        "favourite-mcq-08"
+        "favourite-pdf-001"
       ],
       "explanation": "本句的「odds-on favourite」指「壓倒性大熱門」。",
       "sentenceIndex": 18,
@@ -858,12 +784,10 @@ export default {
         "odds-on favourite"
       ],
       "optionReasons": {
-        "favourite-mcq-11": "本句指「壓倒性大熱門」。",
-        "favourite-mcq-10": "「最被看好勝出」與本句語境不同。",
-        "favourite-mcq-12": "「某人最受寵／最喜愛的人」與本句語境不同。",
-        "favourite-mcq-09": "「大熱門」與本句語境不同。",
-        "favourite-mcq-13": "「偏袒；厚此薄彼」與本句語境不同。",
-        "favourite-mcq-08": "「最偏好的選擇」與本句語境不同。"
+        "favourite-mcq-11": "本句的「odds-on favourite」指「壓倒性大熱門」。",
+        "favourite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-11"
     },
@@ -875,11 +799,9 @@ export default {
       "masked": "He was the teacher's ____.",
       "options": [
         "favourite-mcq-12",
-        "favourite-mcq-11",
         "favourite-mcq-13",
-        "favourite-mcq-10",
-        "favourite-mcq-14",
-        "favourite-mcq-09"
+        "favourite-mcq-09",
+        "favourite-pdf-001"
       ],
       "explanation": "本句的「favourite」指「某人最受寵／最喜愛的人」。",
       "sentenceIndex": 19,
@@ -888,12 +810,10 @@ export default {
         "favourite"
       ],
       "optionReasons": {
-        "favourite-mcq-12": "本句指「某人最受寵／最喜愛的人」。",
-        "favourite-mcq-11": "「壓倒性大熱門」與本句語境不同。",
-        "favourite-mcq-13": "「偏袒；厚此薄彼」與本句語境不同。",
-        "favourite-mcq-10": "「最被看好勝出」與本句語境不同。",
-        "favourite-mcq-14": "「favourite 的美式拼法」與本句語境不同。",
-        "favourite-mcq-09": "「大熱門」與本句語境不同。"
+        "favourite-mcq-12": "本句的「favourite」指「某人最受寵／最喜愛的人」。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-12"
     },
@@ -905,11 +825,9 @@ export default {
       "masked": "She was clearly her grandfather's ____.",
       "options": [
         "favourite-mcq-12",
-        "favourite-mcq-11",
         "favourite-mcq-13",
-        "favourite-mcq-10",
-        "favourite-mcq-14",
-        "favourite-mcq-09"
+        "favourite-mcq-11",
+        "favourite-pdf-001"
       ],
       "explanation": "本句的「favourite」指「某人最受寵／最喜愛的人」。",
       "sentenceIndex": 20,
@@ -918,12 +836,10 @@ export default {
         "favourite"
       ],
       "optionReasons": {
-        "favourite-mcq-12": "本句指「某人最受寵／最喜愛的人」。",
-        "favourite-mcq-11": "「壓倒性大熱門」與本句語境不同。",
-        "favourite-mcq-13": "「偏袒；厚此薄彼」與本句語境不同。",
-        "favourite-mcq-10": "「最被看好勝出」與本句語境不同。",
-        "favourite-mcq-14": "「favourite 的美式拼法」與本句語境不同。",
-        "favourite-mcq-09": "「大熱門」與本句語境不同。"
+        "favourite-mcq-12": "本句的「favourite」指「某人最受寵／最喜愛的人」。",
+        "favourite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-12"
     },
@@ -935,11 +851,9 @@ export default {
       "masked": "Good teachers should not ____.",
       "options": [
         "favourite-mcq-13",
-        "favourite-mcq-12",
-        "favourite-mcq-14",
+        "favourite-mcq-03",
         "favourite-mcq-11",
-        "favourite-mcq-10",
-        "favourite-mcq-09"
+        "favourite-pdf-001"
       ],
       "explanation": "本句的「play favourites」指「偏袒；厚此薄彼」。",
       "sentenceIndex": 21,
@@ -948,12 +862,10 @@ export default {
         "play favourites"
       ],
       "optionReasons": {
-        "favourite-mcq-13": "本句指「偏袒；厚此薄彼」。",
-        "favourite-mcq-12": "「某人最受寵／最喜愛的人」與本句語境不同。",
-        "favourite-mcq-14": "「favourite 的美式拼法」與本句語境不同。",
-        "favourite-mcq-11": "「壓倒性大熱門」與本句語境不同。",
-        "favourite-mcq-10": "「最被看好勝出」與本句語境不同。",
-        "favourite-mcq-09": "「大熱門」與本句語境不同。"
+        "favourite-mcq-13": "本句的「play favourites」指「偏袒；厚此薄彼」。",
+        "favourite-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-13"
     },
@@ -965,11 +877,9 @@ export default {
       "masked": "The manager was accused of ____.",
       "options": [
         "favourite-mcq-13",
-        "favourite-mcq-12",
-        "favourite-mcq-14",
+        "favourite-pdf-001",
         "favourite-mcq-11",
-        "favourite-mcq-10",
-        "favourite-mcq-09"
+        "favourite-mcq-03"
       ],
       "explanation": "本句的「playing favourites」指「偏袒；厚此薄彼」。",
       "sentenceIndex": 22,
@@ -978,12 +888,10 @@ export default {
         "playing favourites"
       ],
       "optionReasons": {
-        "favourite-mcq-13": "本句指「偏袒；厚此薄彼」。",
-        "favourite-mcq-12": "「某人最受寵／最喜愛的人」與本句語境不同。",
-        "favourite-mcq-14": "「favourite 的美式拼法」與本句語境不同。",
-        "favourite-mcq-11": "「壓倒性大熱門」與本句語境不同。",
-        "favourite-mcq-10": "「最被看好勝出」與本句語境不同。",
-        "favourite-mcq-09": "「大熱門」與本句語境不同。"
+        "favourite-mcq-13": "本句的「playing favourites」指「偏袒；厚此薄彼」。",
+        "favourite-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "favourite-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "favourite-mcq-13"
     }
@@ -995,5 +903,7 @@ export default {
     "sha256": "ebdf0e65e543ef08c9cc453fd93d4f1046c0e711b67f0dbbfe2150935ca0d5bd",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

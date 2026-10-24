@@ -83,7 +83,7 @@ export default {
     },
     {
       "id": "journey-mcq-04",
-      "title": "某事物由一個階段逐步發展到另一階段的過程；屬於",
+      "title": "某事物由一個階段逐步發展到另一階段的過程",
       "form": "journey — organization/project",
       "en": "journey — organization/project",
       "zh": "某事物由一個階段逐步發展到另一階段的過程；屬於",
@@ -184,11 +184,7 @@ export default {
       "masked": "The jacket carries the mood of that ____ with it.",
       "options": [
         "journey-mcq-01",
-        "journey-mcq-02",
-        "journey-mcq-03",
-        "journey-mcq-04",
-        "journey-mcq-05",
-        "journey-mcq-06"
+        "journey-mcq-02"
       ],
       "explanation": "本句的「journey」指「從一個地方前往另一個地方的一段旅行／行程」。",
       "sentenceIndex": 0,
@@ -197,12 +193,8 @@ export default {
         "journey"
       ],
       "optionReasons": {
-        "journey-mcq-01": "本句指「從一個地方前往另一個地方的一段旅行／行程」。",
-        "journey-mcq-02": "「旅途中所經歷的整個過程；屬於 literal journey 義」與本句語境不同。",
-        "journey-mcq-03": "「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」與本句語境不同。",
-        "journey-mcq-04": "「某事物由一個階段逐步發展到另一階段的過程；屬於」與本句語境不同。",
-        "journey-mcq-05": "「進行一段旅行、跋涉或前往某地」與本句語境不同。",
-        "journey-mcq-06": "「經歷不同人生／成長階段；走過某段歷程」與本句語境不同。"
+        "journey-mcq-01": "本句的「journey」指「從一個地方前往另一個地方的一段旅行／行程」。",
+        "journey-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journey-mcq-01"
     },
@@ -214,10 +206,6 @@ export default {
       "masked": "The train ____ took three hours.",
       "options": [
         "journey-mcq-01",
-        "journey-mcq-02",
-        "journey-mcq-03",
-        "journey-mcq-04",
-        "journey-mcq-05",
         "journey-mcq-06"
       ],
       "explanation": "本句的「journey」指「從一個地方前往另一個地方的一段旅行／行程」。",
@@ -227,12 +215,8 @@ export default {
         "journey"
       ],
       "optionReasons": {
-        "journey-mcq-01": "本句指「從一個地方前往另一個地方的一段旅行／行程」。",
-        "journey-mcq-02": "「旅途中所經歷的整個過程；屬於 literal journey 義」與本句語境不同。",
-        "journey-mcq-03": "「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」與本句語境不同。",
-        "journey-mcq-04": "「某事物由一個階段逐步發展到另一階段的過程；屬於」與本句語境不同。",
-        "journey-mcq-05": "「進行一段旅行、跋涉或前往某地」與本句語境不同。",
-        "journey-mcq-06": "「經歷不同人生／成長階段；走過某段歷程」與本句語境不同。"
+        "journey-mcq-01": "本句的「journey」指「從一個地方前往另一個地方的一段旅行／行程」。",
+        "journey-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journey-mcq-01"
     },
@@ -244,11 +228,7 @@ export default {
       "masked": "We began our ____ early in the morning.",
       "options": [
         "journey-mcq-01",
-        "journey-mcq-02",
-        "journey-mcq-03",
-        "journey-mcq-04",
-        "journey-mcq-05",
-        "journey-mcq-06"
+        "journey-mcq-02"
       ],
       "explanation": "本句的「journey」指「從一個地方前往另一個地方的一段旅行／行程」。",
       "sentenceIndex": 2,
@@ -257,12 +237,8 @@ export default {
         "journey"
       ],
       "optionReasons": {
-        "journey-mcq-01": "本句指「從一個地方前往另一個地方的一段旅行／行程」。",
-        "journey-mcq-02": "「旅途中所經歷的整個過程；屬於 literal journey 義」與本句語境不同。",
-        "journey-mcq-03": "「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」與本句語境不同。",
-        "journey-mcq-04": "「某事物由一個階段逐步發展到另一階段的過程；屬於」與本句語境不同。",
-        "journey-mcq-05": "「進行一段旅行、跋涉或前往某地」與本句語境不同。",
-        "journey-mcq-06": "「經歷不同人生／成長階段；走過某段歷程」與本句語境不同。"
+        "journey-mcq-01": "本句的「journey」指「從一個地方前往另一個地方的一段旅行／行程」。",
+        "journey-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journey-mcq-01"
     },
@@ -274,11 +250,7 @@ export default {
       "masked": "The ____ through the mountains was unforgettable.",
       "options": [
         "journey-mcq-02",
-        "journey-mcq-01",
-        "journey-mcq-03",
-        "journey-mcq-04",
-        "journey-mcq-05",
-        "journey-mcq-06"
+        "journey-mcq-05"
       ],
       "explanation": "本句的「journey」指「旅途中所經歷的整個過程；屬於 literal journey 義」。",
       "sentenceIndex": 3,
@@ -287,12 +259,8 @@ export default {
         "journey"
       ],
       "optionReasons": {
-        "journey-mcq-02": "本句指「旅途中所經歷的整個過程；屬於 literal journey 義」。",
-        "journey-mcq-01": "「從一個地方前往另一個地方的一段旅行／行程」與本句語境不同。",
-        "journey-mcq-03": "「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」與本句語境不同。",
-        "journey-mcq-04": "「某事物由一個階段逐步發展到另一階段的過程；屬於」與本句語境不同。",
-        "journey-mcq-05": "「進行一段旅行、跋涉或前往某地」與本句語境不同。",
-        "journey-mcq-06": "「經歷不同人生／成長階段；走過某段歷程」與本句語境不同。"
+        "journey-mcq-02": "本句的「journey」指「旅途中所經歷的整個過程；屬於 literal journey 義」。",
+        "journey-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journey-mcq-02"
     },
@@ -304,11 +272,7 @@ export default {
       "masked": "We met many interesting people during the ____.",
       "options": [
         "journey-mcq-02",
-        "journey-mcq-01",
-        "journey-mcq-03",
-        "journey-mcq-04",
-        "journey-mcq-05",
-        "journey-mcq-06"
+        "journey-mcq-07"
       ],
       "explanation": "本句的「journey」指「旅途中所經歷的整個過程；屬於 literal journey 義」。",
       "sentenceIndex": 4,
@@ -317,12 +281,8 @@ export default {
         "journey"
       ],
       "optionReasons": {
-        "journey-mcq-02": "本句指「旅途中所經歷的整個過程；屬於 literal journey 義」。",
-        "journey-mcq-01": "「從一個地方前往另一個地方的一段旅行／行程」與本句語境不同。",
-        "journey-mcq-03": "「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」與本句語境不同。",
-        "journey-mcq-04": "「某事物由一個階段逐步發展到另一階段的過程；屬於」與本句語境不同。",
-        "journey-mcq-05": "「進行一段旅行、跋涉或前往某地」與本句語境不同。",
-        "journey-mcq-06": "「經歷不同人生／成長階段；走過某段歷程」與本句語境不同。"
+        "journey-mcq-02": "本句的「journey」指「旅途中所經歷的整個過程；屬於 literal journey 義」。",
+        "journey-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journey-mcq-02"
     },
@@ -334,11 +294,7 @@ export default {
       "masked": "Learning to accept herself was a long ____.",
       "options": [
         "journey-mcq-03",
-        "journey-mcq-02",
-        "journey-mcq-04",
-        "journey-mcq-01",
-        "journey-mcq-05",
-        "journey-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「journey」指「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」。",
       "sentenceIndex": 5,
@@ -347,12 +303,8 @@ export default {
         "journey"
       ],
       "optionReasons": {
-        "journey-mcq-03": "本句指「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」。",
-        "journey-mcq-02": "「旅途中所經歷的整個過程；屬於 literal journey 義」與本句語境不同。",
-        "journey-mcq-04": "「某事物由一個階段逐步發展到另一階段的過程；屬於」與本句語境不同。",
-        "journey-mcq-01": "「從一個地方前往另一個地方的一段旅行／行程」與本句語境不同。",
-        "journey-mcq-05": "「進行一段旅行、跋涉或前往某地」與本句語境不同。",
-        "journey-mcq-06": "「經歷不同人生／成長階段；走過某段歷程」與本句語境不同。"
+        "journey-mcq-03": "本句的「journey」指「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journey-mcq-03"
     },
@@ -364,11 +316,7 @@ export default {
       "masked": "His recovery ____ lasted several years.",
       "options": [
         "journey-mcq-03",
-        "journey-mcq-02",
-        "journey-mcq-04",
-        "journey-mcq-01",
-        "journey-mcq-05",
-        "journey-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「journey」指「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」。",
       "sentenceIndex": 6,
@@ -377,12 +325,8 @@ export default {
         "journey"
       ],
       "optionReasons": {
-        "journey-mcq-03": "本句指「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」。",
-        "journey-mcq-02": "「旅途中所經歷的整個過程；屬於 literal journey 義」與本句語境不同。",
-        "journey-mcq-04": "「某事物由一個階段逐步發展到另一階段的過程；屬於」與本句語境不同。",
-        "journey-mcq-01": "「從一個地方前往另一個地方的一段旅行／行程」與本句語境不同。",
-        "journey-mcq-05": "「進行一段旅行、跋涉或前往某地」與本句語境不同。",
-        "journey-mcq-06": "「經歷不同人生／成長階段；走過某段歷程」與本句語境不同。"
+        "journey-mcq-03": "本句的「journey」指「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journey-mcq-03"
     },
@@ -394,11 +338,7 @@ export default {
       "masked": "Education is a lifelong ____.",
       "options": [
         "journey-mcq-03",
-        "journey-mcq-02",
-        "journey-mcq-04",
-        "journey-mcq-01",
-        "journey-mcq-05",
-        "journey-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「journey」指「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」。",
       "sentenceIndex": 7,
@@ -407,12 +347,8 @@ export default {
         "journey"
       ],
       "optionReasons": {
-        "journey-mcq-03": "本句指「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」。",
-        "journey-mcq-02": "「旅途中所經歷的整個過程；屬於 literal journey 義」與本句語境不同。",
-        "journey-mcq-04": "「某事物由一個階段逐步發展到另一階段的過程；屬於」與本句語境不同。",
-        "journey-mcq-01": "「從一個地方前往另一個地方的一段旅行／行程」與本句語境不同。",
-        "journey-mcq-05": "「進行一段旅行、跋涉或前往某地」與本句語境不同。",
-        "journey-mcq-06": "「經歷不同人生／成長階段；走過某段歷程」與本句語境不同。"
+        "journey-mcq-03": "本句的「journey」指「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journey-mcq-03"
     },
@@ -424,11 +360,7 @@ export default {
       "masked": "The company’s ____ from a small startup to a global brand took twenty years.",
       "options": [
         "journey-mcq-04",
-        "journey-mcq-03",
-        "journey-mcq-05",
-        "journey-mcq-02",
-        "journey-mcq-06",
-        "journey-mcq-01"
+        "journey-mcq-05"
       ],
       "explanation": "本句的「journey」指「某事物由一個階段逐步發展到另一階段的過程；屬於」。",
       "sentenceIndex": 8,
@@ -437,12 +369,8 @@ export default {
         "journey"
       ],
       "optionReasons": {
-        "journey-mcq-04": "本句指「某事物由一個階段逐步發展到另一階段的過程；屬於」。",
-        "journey-mcq-03": "「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」與本句語境不同。",
-        "journey-mcq-05": "「進行一段旅行、跋涉或前往某地」與本句語境不同。",
-        "journey-mcq-02": "「旅途中所經歷的整個過程；屬於 literal journey 義」與本句語境不同。",
-        "journey-mcq-06": "「經歷不同人生／成長階段；走過某段歷程」與本句語境不同。",
-        "journey-mcq-01": "「從一個地方前往另一個地方的一段旅行／行程」與本句語境不同。"
+        "journey-mcq-04": "本句的「journey」指「某事物由一個階段逐步發展到另一階段的過程；屬於」。",
+        "journey-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journey-mcq-04"
     },
@@ -454,11 +382,7 @@ export default {
       "masked": "The report describes the project’s ____ from idea to completion.",
       "options": [
         "journey-mcq-04",
-        "journey-mcq-03",
-        "journey-mcq-05",
-        "journey-mcq-02",
-        "journey-mcq-06",
-        "journey-mcq-01"
+        "journey-mcq-05"
       ],
       "explanation": "本句的「journey」指「某事物由一個階段逐步發展到另一階段的過程；屬於」。",
       "sentenceIndex": 9,
@@ -467,12 +391,8 @@ export default {
         "journey"
       ],
       "optionReasons": {
-        "journey-mcq-04": "本句指「某事物由一個階段逐步發展到另一階段的過程；屬於」。",
-        "journey-mcq-03": "「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」與本句語境不同。",
-        "journey-mcq-05": "「進行一段旅行、跋涉或前往某地」與本句語境不同。",
-        "journey-mcq-02": "「旅途中所經歷的整個過程；屬於 literal journey 義」與本句語境不同。",
-        "journey-mcq-06": "「經歷不同人生／成長階段；走過某段歷程」與本句語境不同。",
-        "journey-mcq-01": "「從一個地方前往另一個地方的一段旅行／行程」與本句語境不同。"
+        "journey-mcq-04": "本句的「journey」指「某事物由一個階段逐步發展到另一階段的過程；屬於」。",
+        "journey-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journey-mcq-04"
     },
@@ -484,11 +404,7 @@ export default {
       "masked": "The book describes her spiritual ____.",
       "options": [
         "journey-mcq-04",
-        "journey-mcq-03",
-        "journey-mcq-05",
-        "journey-mcq-02",
-        "journey-mcq-06",
-        "journey-mcq-01"
+        "journey-mcq-05"
       ],
       "explanation": "本句的「journey」指「某事物由一個階段逐步發展到另一階段的過程；屬於」。",
       "sentenceIndex": 10,
@@ -497,12 +413,8 @@ export default {
         "journey"
       ],
       "optionReasons": {
-        "journey-mcq-04": "本句指「某事物由一個階段逐步發展到另一階段的過程；屬於」。",
-        "journey-mcq-03": "「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」與本句語境不同。",
-        "journey-mcq-05": "「進行一段旅行、跋涉或前往某地」與本句語境不同。",
-        "journey-mcq-02": "「旅途中所經歷的整個過程；屬於 literal journey 義」與本句語境不同。",
-        "journey-mcq-06": "「經歷不同人生／成長階段；走過某段歷程」與本句語境不同。",
-        "journey-mcq-01": "「從一個地方前往另一個地方的一段旅行／行程」與本句語境不同。"
+        "journey-mcq-04": "本句的「journey」指「某事物由一個階段逐步發展到另一階段的過程；屬於」。",
+        "journey-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journey-mcq-04"
     },
@@ -514,11 +426,7 @@ export default {
       "masked": "Grief can be a difficult emotional ____.",
       "options": [
         "journey-mcq-04",
-        "journey-mcq-03",
-        "journey-mcq-05",
-        "journey-mcq-02",
-        "journey-mcq-06",
-        "journey-mcq-01"
+        "journey-mcq-05"
       ],
       "explanation": "本句的「journey」指「某事物由一個階段逐步發展到另一階段的過程；屬於」。",
       "sentenceIndex": 11,
@@ -527,12 +435,8 @@ export default {
         "journey"
       ],
       "optionReasons": {
-        "journey-mcq-04": "本句指「某事物由一個階段逐步發展到另一階段的過程；屬於」。",
-        "journey-mcq-03": "「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」與本句語境不同。",
-        "journey-mcq-05": "「進行一段旅行、跋涉或前往某地」與本句語境不同。",
-        "journey-mcq-02": "「旅途中所經歷的整個過程；屬於 literal journey 義」與本句語境不同。",
-        "journey-mcq-06": "「經歷不同人生／成長階段；走過某段歷程」與本句語境不同。",
-        "journey-mcq-01": "「從一個地方前往另一個地方的一段旅行／行程」與本句語境不同。"
+        "journey-mcq-04": "本句的「journey」指「某事物由一個階段逐步發展到另一階段的過程；屬於」。",
+        "journey-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journey-mcq-04"
     },
@@ -544,11 +448,7 @@ export default {
       "masked": "They ____ across the desert.",
       "options": [
         "journey-mcq-05",
-        "journey-mcq-04",
-        "journey-mcq-06",
-        "journey-mcq-03",
-        "journey-mcq-07",
-        "journey-mcq-02"
+        "journey-mcq-06"
       ],
       "explanation": "本句的「journeyed」指「進行一段旅行、跋涉或前往某地」。",
       "sentenceIndex": 12,
@@ -557,12 +457,8 @@ export default {
         "journeyed"
       ],
       "optionReasons": {
-        "journey-mcq-05": "本句指「進行一段旅行、跋涉或前往某地」。",
-        "journey-mcq-04": "「某事物由一個階段逐步發展到另一階段的過程；屬於」與本句語境不同。",
-        "journey-mcq-06": "「經歷不同人生／成長階段；走過某段歷程」與本句語境不同。",
-        "journey-mcq-03": "「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」與本句語境不同。",
-        "journey-mcq-07": "「一段行程所需的時間」與本句語境不同。",
-        "journey-mcq-02": "「旅途中所經歷的整個過程；屬於 literal journey 義」與本句語境不同。"
+        "journey-mcq-05": "本句的「journeyed」指「進行一段旅行、跋涉或前往某地」。",
+        "journey-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journey-mcq-05"
     },
@@ -574,11 +470,7 @@ export default {
       "masked": "She ____ north in search of work.",
       "options": [
         "journey-mcq-05",
-        "journey-mcq-04",
-        "journey-mcq-06",
-        "journey-mcq-03",
-        "journey-mcq-07",
-        "journey-mcq-02"
+        "journey-mcq-04"
       ],
       "explanation": "本句的「journeyed」指「進行一段旅行、跋涉或前往某地」。",
       "sentenceIndex": 13,
@@ -587,12 +479,8 @@ export default {
         "journeyed"
       ],
       "optionReasons": {
-        "journey-mcq-05": "本句指「進行一段旅行、跋涉或前往某地」。",
-        "journey-mcq-04": "「某事物由一個階段逐步發展到另一階段的過程；屬於」與本句語境不同。",
-        "journey-mcq-06": "「經歷不同人生／成長階段；走過某段歷程」與本句語境不同。",
-        "journey-mcq-03": "「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」與本句語境不同。",
-        "journey-mcq-07": "「一段行程所需的時間」與本句語境不同。",
-        "journey-mcq-02": "「旅途中所經歷的整個過程；屬於 literal journey 義」與本句語境不同。"
+        "journey-mcq-05": "本句的「journeyed」指「進行一段旅行、跋涉或前往某地」。",
+        "journey-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journey-mcq-05"
     },
@@ -604,11 +492,7 @@ export default {
       "masked": "The story follows a young man as he ____ toward self-understanding.",
       "options": [
         "journey-mcq-06",
-        "journey-mcq-05",
-        "journey-mcq-07",
-        "journey-mcq-04",
-        "journey-mcq-03",
-        "journey-mcq-02"
+        "journey-mcq-05"
       ],
       "explanation": "本句的「journeys」指「經歷不同人生／成長階段；走過某段歷程」。",
       "sentenceIndex": 14,
@@ -617,12 +501,8 @@ export default {
         "journeys"
       ],
       "optionReasons": {
-        "journey-mcq-06": "本句指「經歷不同人生／成長階段；走過某段歷程」。",
-        "journey-mcq-05": "「進行一段旅行、跋涉或前往某地」與本句語境不同。",
-        "journey-mcq-07": "「一段行程所需的時間」與本句語境不同。",
-        "journey-mcq-04": "「某事物由一個階段逐步發展到另一階段的過程；屬於」與本句語境不同。",
-        "journey-mcq-03": "「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」與本句語境不同。",
-        "journey-mcq-02": "「旅途中所經歷的整個過程；屬於 literal journey 義」與本句語境不同。"
+        "journey-mcq-06": "本句的「journeys」指「經歷不同人生／成長階段；走過某段歷程」。",
+        "journey-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journey-mcq-06"
     },
@@ -634,11 +514,7 @@ export default {
       "masked": "We ____ through different stages of life.",
       "options": [
         "journey-mcq-06",
-        "journey-mcq-05",
-        "journey-mcq-07",
-        "journey-mcq-04",
-        "journey-mcq-03",
-        "journey-mcq-02"
+        "journey-mcq-05"
       ],
       "explanation": "本句的「journey」指「經歷不同人生／成長階段；走過某段歷程」。",
       "sentenceIndex": 15,
@@ -647,12 +523,8 @@ export default {
         "journey"
       ],
       "optionReasons": {
-        "journey-mcq-06": "本句指「經歷不同人生／成長階段；走過某段歷程」。",
-        "journey-mcq-05": "「進行一段旅行、跋涉或前往某地」與本句語境不同。",
-        "journey-mcq-07": "「一段行程所需的時間」與本句語境不同。",
-        "journey-mcq-04": "「某事物由一個階段逐步發展到另一階段的過程；屬於」與本句語境不同。",
-        "journey-mcq-03": "「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」與本句語境不同。",
-        "journey-mcq-02": "「旅途中所經歷的整個過程；屬於 literal journey 義」與本句語境不同。"
+        "journey-mcq-06": "本句的「journey」指「經歷不同人生／成長階段；走過某段歷程」。",
+        "journey-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journey-mcq-06"
     },
@@ -664,10 +536,6 @@ export default {
       "masked": "The new route reduces ____ by twenty minutes.",
       "options": [
         "journey-mcq-07",
-        "journey-mcq-06",
-        "journey-mcq-05",
-        "journey-mcq-04",
-        "journey-mcq-03",
         "journey-mcq-02"
       ],
       "explanation": "本句的「journey time」指「一段行程所需的時間」。",
@@ -677,12 +545,8 @@ export default {
         "journey time"
       ],
       "optionReasons": {
-        "journey-mcq-07": "本句指「一段行程所需的時間」。",
-        "journey-mcq-06": "「經歷不同人生／成長階段；走過某段歷程」與本句語境不同。",
-        "journey-mcq-05": "「進行一段旅行、跋涉或前往某地」與本句語境不同。",
-        "journey-mcq-04": "「某事物由一個階段逐步發展到另一階段的過程；屬於」與本句語境不同。",
-        "journey-mcq-03": "「人在成長、學習、康復、人生等方面逐步經歷變化的一段歷程」與本句語境不同。",
-        "journey-mcq-02": "「旅途中所經歷的整個過程；屬於 literal journey 義」與本句語境不同。"
+        "journey-mcq-07": "本句的「journey time」指「一段行程所需的時間」。",
+        "journey-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journey-mcq-07"
     }
@@ -694,5 +558,12 @@ export default {
     "sha256": "b87537fd898d7cd5f9943888926763053af620968f0274eb9c690d465aa1ae76",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

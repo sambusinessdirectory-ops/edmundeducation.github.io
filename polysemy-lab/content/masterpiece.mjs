@@ -291,11 +291,8 @@ export default {
       "masked": "The painting is widely regarded as a ____.",
       "options": [
         "masterpiece-pdf-001",
-        "masterpiece-mcq-02",
-        "masterpiece-mcq-03",
-        "masterpiece-mcq-04",
-        "masterpiece-mcq-05",
-        "masterpiece-mcq-06"
+        "masterpiece-mcq-14",
+        "masterpiece-mcq-15"
       ],
       "explanation": "本句的「masterpiece」指「在藝術品質、技巧、影響力或完成度上極為出色的作品」。",
       "sentenceIndex": 0,
@@ -304,12 +301,9 @@ export default {
         "masterpiece"
       ],
       "optionReasons": {
-        "masterpiece-pdf-001": "本句指「在藝術品質、技巧、影響力或完成度上極為出色的作品」。",
-        "masterpiece-mcq-02": "「文學價值和完成度極高的作品」與本句語境不同。",
-        "masterpiece-mcq-03": "「作曲／音樂創作水準極高的作品」與本句語境不同。",
-        "masterpiece-mcq-04": "「電影藝術／製作水準被認為極高的作品」與本句語境不同。",
-        "masterpiece-mcq-05": "「建築設計與完成度極出色的作品」與本句語境不同。",
-        "masterpiece-mcq-06": "「在製作技藝／工藝上達到極高水準的成果」與本句語境不同。"
+        "masterpiece-pdf-001": "本句的「masterpiece」指「在藝術品質、技巧、影響力或完成度上極為出色的作品」。",
+        "masterpiece-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "masterpiece-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "masterpiece-pdf-001"
     },
@@ -321,11 +315,8 @@ export default {
       "masked": "The museum displays several ____.",
       "options": [
         "masterpiece-pdf-001",
-        "masterpiece-mcq-02",
-        "masterpiece-mcq-03",
-        "masterpiece-mcq-04",
-        "masterpiece-mcq-05",
-        "masterpiece-mcq-06"
+        "masterpiece-mcq-15",
+        "masterpiece-mcq-14"
       ],
       "explanation": "本句的「masterpieces」指「在藝術品質、技巧、影響力或完成度上極為出色的作品」。",
       "sentenceIndex": 1,
@@ -334,12 +325,9 @@ export default {
         "masterpieces"
       ],
       "optionReasons": {
-        "masterpiece-pdf-001": "本句指「在藝術品質、技巧、影響力或完成度上極為出色的作品」。",
-        "masterpiece-mcq-02": "「文學價值和完成度極高的作品」與本句語境不同。",
-        "masterpiece-mcq-03": "「作曲／音樂創作水準極高的作品」與本句語境不同。",
-        "masterpiece-mcq-04": "「電影藝術／製作水準被認為極高的作品」與本句語境不同。",
-        "masterpiece-mcq-05": "「建築設計與完成度極出色的作品」與本句語境不同。",
-        "masterpiece-mcq-06": "「在製作技藝／工藝上達到極高水準的成果」與本句語境不同。"
+        "masterpiece-pdf-001": "本句的「masterpieces」指「在藝術品質、技巧、影響力或完成度上極為出色的作品」。",
+        "masterpiece-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "masterpiece-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "masterpiece-pdf-001"
     },
@@ -351,11 +339,7 @@ export default {
       "masked": "The symphony is a musical ____.",
       "options": [
         "masterpiece-mcq-03",
-        "masterpiece-mcq-02",
-        "masterpiece-mcq-04",
-        "masterpiece-mcq-01",
-        "masterpiece-mcq-05",
-        "masterpiece-mcq-06"
+        "masterpiece-mcq-14"
       ],
       "explanation": "本句的「masterpiece」指「作曲／音樂創作水準極高的作品」。",
       "sentenceIndex": 4,
@@ -364,12 +348,8 @@ export default {
         "masterpiece"
       ],
       "optionReasons": {
-        "masterpiece-mcq-03": "本句指「作曲／音樂創作水準極高的作品」。",
-        "masterpiece-mcq-02": "「文學價值和完成度極高的作品」與本句語境不同。",
-        "masterpiece-mcq-04": "「電影藝術／製作水準被認為極高的作品」與本句語境不同。",
-        "masterpiece-mcq-01": "「在藝術、創作、設計或技藝上達到極高水準的傑出作品」與本句語境不同。",
-        "masterpiece-mcq-05": "「建築設計與完成度極出色的作品」與本句語境不同。",
-        "masterpiece-mcq-06": "「在製作技藝／工藝上達到極高水準的成果」與本句語境不同。"
+        "masterpiece-mcq-03": "本句的「masterpiece」指「作曲／音樂創作水準極高的作品」。",
+        "masterpiece-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "masterpiece-mcq-03"
     },
@@ -381,11 +361,7 @@ export default {
       "masked": "The album is often called a modern ____.",
       "options": [
         "masterpiece-mcq-03",
-        "masterpiece-mcq-02",
-        "masterpiece-mcq-04",
-        "masterpiece-mcq-01",
-        "masterpiece-mcq-05",
-        "masterpiece-mcq-06"
+        "masterpiece-mcq-14"
       ],
       "explanation": "本句的「masterpiece」指「作曲／音樂創作水準極高的作品」。",
       "sentenceIndex": 5,
@@ -394,12 +370,8 @@ export default {
         "masterpiece"
       ],
       "optionReasons": {
-        "masterpiece-mcq-03": "本句指「作曲／音樂創作水準極高的作品」。",
-        "masterpiece-mcq-02": "「文學價值和完成度極高的作品」與本句語境不同。",
-        "masterpiece-mcq-04": "「電影藝術／製作水準被認為極高的作品」與本句語境不同。",
-        "masterpiece-mcq-01": "「在藝術、創作、設計或技藝上達到極高水準的傑出作品」與本句語境不同。",
-        "masterpiece-mcq-05": "「建築設計與完成度極出色的作品」與本句語境不同。",
-        "masterpiece-mcq-06": "「在製作技藝／工藝上達到極高水準的成果」與本句語境不同。"
+        "masterpiece-mcq-03": "本句的「masterpiece」指「作曲／音樂創作水準極高的作品」。",
+        "masterpiece-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "masterpiece-mcq-03"
     },
@@ -411,11 +383,8 @@ export default {
       "masked": "The cathedral is an architectural ____.",
       "options": [
         "masterpiece-mcq-05",
-        "masterpiece-mcq-04",
-        "masterpiece-mcq-06",
-        "masterpiece-mcq-03",
-        "masterpiece-mcq-07",
-        "masterpiece-mcq-02"
+        "masterpiece-mcq-14",
+        "masterpiece-mcq-15"
       ],
       "explanation": "本句的「masterpiece」指「建築設計與完成度極出色的作品」。",
       "sentenceIndex": 8,
@@ -424,12 +393,9 @@ export default {
         "masterpiece"
       ],
       "optionReasons": {
-        "masterpiece-mcq-05": "本句指「建築設計與完成度極出色的作品」。",
-        "masterpiece-mcq-04": "「電影藝術／製作水準被認為極高的作品」與本句語境不同。",
-        "masterpiece-mcq-06": "「在製作技藝／工藝上達到極高水準的成果」與本句語境不同。",
-        "masterpiece-mcq-03": "「作曲／音樂創作水準極高的作品」與本句語境不同。",
-        "masterpiece-mcq-07": "「某位創作者最重要、最傑出作品之一」與本句語境不同。",
-        "masterpiece-mcq-02": "「文學價值和完成度極高的作品」與本句語境不同。"
+        "masterpiece-mcq-05": "本句的「masterpiece」指「建築設計與完成度極出色的作品」。",
+        "masterpiece-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "masterpiece-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "masterpiece-mcq-05"
     },
@@ -441,11 +407,8 @@ export default {
       "masked": "The building is considered a ____ of modern architecture.",
       "options": [
         "masterpiece-mcq-05",
-        "masterpiece-mcq-04",
-        "masterpiece-mcq-06",
-        "masterpiece-mcq-03",
-        "masterpiece-mcq-07",
-        "masterpiece-mcq-02"
+        "masterpiece-mcq-14",
+        "masterpiece-mcq-15"
       ],
       "explanation": "本句的「masterpiece」指「建築設計與完成度極出色的作品」。",
       "sentenceIndex": 9,
@@ -454,12 +417,9 @@ export default {
         "masterpiece"
       ],
       "optionReasons": {
-        "masterpiece-mcq-05": "本句指「建築設計與完成度極出色的作品」。",
-        "masterpiece-mcq-04": "「電影藝術／製作水準被認為極高的作品」與本句語境不同。",
-        "masterpiece-mcq-06": "「在製作技藝／工藝上達到極高水準的成果」與本句語境不同。",
-        "masterpiece-mcq-03": "「作曲／音樂創作水準極高的作品」與本句語境不同。",
-        "masterpiece-mcq-07": "「某位創作者最重要、最傑出作品之一」與本句語境不同。",
-        "masterpiece-mcq-02": "「文學價值和完成度極高的作品」與本句語境不同。"
+        "masterpiece-mcq-05": "本句的「masterpiece」指「建築設計與完成度極出色的作品」。",
+        "masterpiece-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "masterpiece-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "masterpiece-mcq-05"
     },
@@ -471,11 +431,7 @@ export default {
       "masked": "Many consider this novel to be her ____.",
       "options": [
         "masterpiece-mcq-07",
-        "masterpiece-mcq-06",
-        "masterpiece-mcq-08",
-        "masterpiece-mcq-05",
-        "masterpiece-mcq-09",
-        "masterpiece-mcq-04"
+        "masterpiece-mcq-14"
       ],
       "explanation": "本句的「masterpiece」指「某位創作者最重要、最傑出作品之一」。",
       "sentenceIndex": 14,
@@ -484,12 +440,8 @@ export default {
         "masterpiece"
       ],
       "optionReasons": {
-        "masterpiece-mcq-07": "本句指「某位創作者最重要、最傑出作品之一」。",
-        "masterpiece-mcq-06": "「在製作技藝／工藝上達到極高水準的成果」與本句語境不同。",
-        "masterpiece-mcq-08": "「計劃、策略、工程、設計等做得極其高明的成果」與本句語境不同。",
-        "masterpiece-mcq-05": "「建築設計與完成度極出色的作品」與本句語境不同。",
-        "masterpiece-mcq-09": "「明確表示某作品遠未達到傑作級水準」與本句語境不同。",
-        "masterpiece-mcq-04": "「電影藝術／製作水準被認為極高的作品」與本句語境不同。"
+        "masterpiece-mcq-07": "本句的「masterpiece」指「某位創作者最重要、最傑出作品之一」。",
+        "masterpiece-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "masterpiece-mcq-07"
     },
@@ -501,11 +453,7 @@ export default {
       "masked": "The painting became the artist’s ____.",
       "options": [
         "masterpiece-mcq-07",
-        "masterpiece-mcq-06",
-        "masterpiece-mcq-08",
-        "masterpiece-mcq-05",
-        "masterpiece-mcq-09",
-        "masterpiece-mcq-04"
+        "masterpiece-mcq-14"
       ],
       "explanation": "本句的「masterpiece」指「某位創作者最重要、最傑出作品之一」。",
       "sentenceIndex": 15,
@@ -514,12 +462,8 @@ export default {
         "masterpiece"
       ],
       "optionReasons": {
-        "masterpiece-mcq-07": "本句指「某位創作者最重要、最傑出作品之一」。",
-        "masterpiece-mcq-06": "「在製作技藝／工藝上達到極高水準的成果」與本句語境不同。",
-        "masterpiece-mcq-08": "「計劃、策略、工程、設計等做得極其高明的成果」與本句語境不同。",
-        "masterpiece-mcq-05": "「建築設計與完成度極出色的作品」與本句語境不同。",
-        "masterpiece-mcq-09": "「明確表示某作品遠未達到傑作級水準」與本句語境不同。",
-        "masterpiece-mcq-04": "「電影藝術／製作水準被認為極高的作品」與本句語境不同。"
+        "masterpiece-mcq-07": "本句的「masterpiece」指「某位創作者最重要、最傑出作品之一」。",
+        "masterpiece-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "masterpiece-mcq-07"
     },
@@ -531,11 +475,7 @@ export default {
       "masked": "The video was ____.",
       "options": [
         "masterpiece-mcq-09",
-        "masterpiece-mcq-08",
-        "masterpiece-mcq-10",
-        "masterpiece-mcq-07",
-        "masterpiece-mcq-11",
-        "masterpiece-mcq-06"
+        "masterpiece-mcq-15"
       ],
       "explanation": "本句的「hardly a masterpiece」指「明確表示某作品遠未達到傑作級水準」。",
       "sentenceIndex": 30,
@@ -544,12 +484,8 @@ export default {
         "hardly a masterpiece"
       ],
       "optionReasons": {
-        "masterpiece-mcq-09": "本句指「明確表示某作品遠未達到傑作級水準」。",
-        "masterpiece-mcq-08": "「計劃、策略、工程、設計等做得極其高明的成果」與本句語境不同。",
-        "masterpiece-mcq-10": "「雖可接受，但不應被視為特別傑出的作品」與本句語境不同。",
-        "masterpiece-mcq-07": "「某位創作者最重要、最傑出作品之一」與本句語境不同。",
-        "masterpiece-mcq-11": "「規模／地位較小但品質極高的作品」與本句語境不同。",
-        "masterpiece-mcq-06": "「在製作技藝／工藝上達到極高水準的成果」與本句語境不同。"
+        "masterpiece-mcq-09": "本句的「hardly a masterpiece」指「明確表示某作品遠未達到傑作級水準」。",
+        "masterpiece-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "masterpiece-mcq-09"
     },
@@ -561,11 +497,7 @@ export default {
       "masked": "The essay is readable, but hardly a ____.",
       "options": [
         "masterpiece-mcq-09",
-        "masterpiece-mcq-08",
-        "masterpiece-mcq-10",
-        "masterpiece-mcq-07",
-        "masterpiece-mcq-11",
-        "masterpiece-mcq-06"
+        "masterpiece-mcq-15"
       ],
       "explanation": "本句的「masterpiece」指「明確表示某作品遠未達到傑作級水準」。",
       "sentenceIndex": 31,
@@ -574,12 +506,8 @@ export default {
         "masterpiece"
       ],
       "optionReasons": {
-        "masterpiece-mcq-09": "本句指「明確表示某作品遠未達到傑作級水準」。",
-        "masterpiece-mcq-08": "「計劃、策略、工程、設計等做得極其高明的成果」與本句語境不同。",
-        "masterpiece-mcq-10": "「雖可接受，但不應被視為特別傑出的作品」與本句語境不同。",
-        "masterpiece-mcq-07": "「某位創作者最重要、最傑出作品之一」與本句語境不同。",
-        "masterpiece-mcq-11": "「規模／地位較小但品質極高的作品」與本句語境不同。",
-        "masterpiece-mcq-06": "「在製作技藝／工藝上達到極高水準的成果」與本句語境不同。"
+        "masterpiece-mcq-09": "本句的「masterpiece」指「明確表示某作品遠未達到傑作級水準」。",
+        "masterpiece-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "masterpiece-mcq-09"
     },
@@ -591,11 +519,8 @@ export default {
       "masked": "The film is ____, but it is entertaining.",
       "options": [
         "masterpiece-mcq-10",
-        "masterpiece-mcq-09",
-        "masterpiece-mcq-11",
-        "masterpiece-mcq-08",
-        "masterpiece-mcq-12",
-        "masterpiece-mcq-07"
+        "masterpiece-mcq-15",
+        "masterpiece-mcq-14"
       ],
       "explanation": "本句的「no masterpiece」指「雖可接受，但不應被視為特別傑出的作品」。",
       "sentenceIndex": 32,
@@ -604,12 +529,9 @@ export default {
         "no masterpiece"
       ],
       "optionReasons": {
-        "masterpiece-mcq-10": "本句指「雖可接受，但不應被視為特別傑出的作品」。",
-        "masterpiece-mcq-09": "「明確表示某作品遠未達到傑作級水準」與本句語境不同。",
-        "masterpiece-mcq-11": "「規模／地位較小但品質極高的作品」與本句語境不同。",
-        "masterpiece-mcq-08": "「計劃、策略、工程、設計等做得極其高明的成果」與本句語境不同。",
-        "masterpiece-mcq-12": "「反諷地把糟糕成果稱為「傑作」」與本句語境不同。",
-        "masterpiece-mcq-07": "「某位創作者最重要、最傑出作品之一」與本句語境不同。"
+        "masterpiece-mcq-10": "本句的「no masterpiece」指「雖可接受，但不應被視為特別傑出的作品」。",
+        "masterpiece-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "masterpiece-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "masterpiece-mcq-10"
     },
@@ -621,11 +543,8 @@ export default {
       "masked": "The design is no ____, yet it is practical.",
       "options": [
         "masterpiece-mcq-10",
-        "masterpiece-mcq-09",
-        "masterpiece-mcq-11",
-        "masterpiece-mcq-08",
-        "masterpiece-mcq-12",
-        "masterpiece-mcq-07"
+        "masterpiece-mcq-15",
+        "masterpiece-mcq-14"
       ],
       "explanation": "本句的「masterpiece」指「雖可接受，但不應被視為特別傑出的作品」。",
       "sentenceIndex": 33,
@@ -634,12 +553,9 @@ export default {
         "masterpiece"
       ],
       "optionReasons": {
-        "masterpiece-mcq-10": "本句指「雖可接受，但不應被視為特別傑出的作品」。",
-        "masterpiece-mcq-09": "「明確表示某作品遠未達到傑作級水準」與本句語境不同。",
-        "masterpiece-mcq-11": "「規模／地位較小但品質極高的作品」與本句語境不同。",
-        "masterpiece-mcq-08": "「計劃、策略、工程、設計等做得極其高明的成果」與本句語境不同。",
-        "masterpiece-mcq-12": "「反諷地把糟糕成果稱為「傑作」」與本句語境不同。",
-        "masterpiece-mcq-07": "「某位創作者最重要、最傑出作品之一」與本句語境不同。"
+        "masterpiece-mcq-10": "本句的「masterpiece」指「雖可接受，但不應被視為特別傑出的作品」。",
+        "masterpiece-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "masterpiece-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "masterpiece-mcq-10"
     },
@@ -651,11 +567,8 @@ export default {
       "masked": "The short story is a ____.",
       "options": [
         "masterpiece-mcq-11",
-        "masterpiece-mcq-10",
-        "masterpiece-mcq-12",
-        "masterpiece-mcq-09",
-        "masterpiece-mcq-13",
-        "masterpiece-mcq-08"
+        "masterpiece-mcq-15",
+        "masterpiece-mcq-14"
       ],
       "explanation": "本句的「minor masterpiece」指「規模／地位較小但品質極高的作品」。",
       "sentenceIndex": 36,
@@ -664,12 +577,9 @@ export default {
         "minor masterpiece"
       ],
       "optionReasons": {
-        "masterpiece-mcq-11": "本句指「規模／地位較小但品質極高的作品」。",
-        "masterpiece-mcq-10": "「雖可接受，但不應被視為特別傑出的作品」與本句語境不同。",
-        "masterpiece-mcq-12": "「反諷地把糟糕成果稱為「傑作」」與本句語境不同。",
-        "masterpiece-mcq-09": "「明確表示某作品遠未達到傑作級水準」與本句語境不同。",
-        "masterpiece-mcq-13": "「工匠用來證明自己已達師傅／大師級資格的作品」與本句語境不同。",
-        "masterpiece-mcq-08": "「計劃、策略、工程、設計等做得極其高明的成果」與本句語境不同。"
+        "masterpiece-mcq-11": "本句的「minor masterpiece」指「規模／地位較小但品質極高的作品」。",
+        "masterpiece-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "masterpiece-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "masterpiece-mcq-11"
     },
@@ -681,11 +591,8 @@ export default {
       "masked": "Critics described the film as a minor ____.",
       "options": [
         "masterpiece-mcq-11",
-        "masterpiece-mcq-10",
-        "masterpiece-mcq-12",
-        "masterpiece-mcq-09",
-        "masterpiece-mcq-13",
-        "masterpiece-mcq-08"
+        "masterpiece-mcq-15",
+        "masterpiece-mcq-14"
       ],
       "explanation": "本句的「masterpiece」指「規模／地位較小但品質極高的作品」。",
       "sentenceIndex": 37,
@@ -694,12 +601,9 @@ export default {
         "masterpiece"
       ],
       "optionReasons": {
-        "masterpiece-mcq-11": "本句指「規模／地位較小但品質極高的作品」。",
-        "masterpiece-mcq-10": "「雖可接受，但不應被視為特別傑出的作品」與本句語境不同。",
-        "masterpiece-mcq-12": "「反諷地把糟糕成果稱為「傑作」」與本句語境不同。",
-        "masterpiece-mcq-09": "「明確表示某作品遠未達到傑作級水準」與本句語境不同。",
-        "masterpiece-mcq-13": "「工匠用來證明自己已達師傅／大師級資格的作品」與本句語境不同。",
-        "masterpiece-mcq-08": "「計劃、策略、工程、設計等做得極其高明的成果」與本句語境不同。"
+        "masterpiece-mcq-11": "本句的「masterpiece」指「規模／地位較小但品質極高的作品」。",
+        "masterpiece-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "masterpiece-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "masterpiece-mcq-11"
     },
@@ -711,11 +615,7 @@ export default {
       "masked": "The painting is one of his greatest ____.",
       "options": [
         "masterpiece-mcq-14",
-        "masterpiece-mcq-13",
-        "masterpiece-mcq-15",
-        "masterpiece-mcq-12",
-        "masterpiece-mcq-16",
-        "masterpiece-mcq-11"
+        "masterpiece-mcq-03"
       ],
       "explanation": "本句的「masterworks」指「較正式的「傑作／大師之作」」。",
       "sentenceIndex": 46,
@@ -724,12 +624,8 @@ export default {
         "masterworks"
       ],
       "optionReasons": {
-        "masterpiece-mcq-14": "本句指「較正式的「傑作／大師之作」」。",
-        "masterpiece-mcq-13": "「工匠用來證明自己已達師傅／大師級資格的作品」與本句語境不同。",
-        "masterpiece-mcq-15": "「某創作者最重要、最具代表性的畢生大作」與本句語境不同。",
-        "masterpiece-mcq-12": "「反諷地把糟糕成果稱為「傑作」」與本句語境不同。",
-        "masterpiece-mcq-16": "「規模很小但完成度極高的作品」與本句語境不同。",
-        "masterpiece-mcq-11": "「規模／地位較小但品質極高的作品」與本句語境不同。"
+        "masterpiece-mcq-14": "本句的「masterworks」指「較正式的「傑作／大師之作」」。",
+        "masterpiece-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "masterpiece-mcq-14"
     },
@@ -741,11 +637,8 @@ export default {
       "masked": "This novel is a ____.",
       "options": [
         "masterpiece-mcq-15",
-        "masterpiece-mcq-14",
-        "masterpiece-mcq-16",
-        "masterpiece-mcq-13",
-        "masterpiece-mcq-12",
-        "masterpiece-mcq-11"
+        "masterpiece-mcq-05",
+        "masterpiece-mcq-14"
       ],
       "explanation": "本句的「masterpiece」指「某創作者最重要、最具代表性的畢生大作」。",
       "sentenceIndex": 47,
@@ -754,12 +647,9 @@ export default {
         "masterpiece"
       ],
       "optionReasons": {
-        "masterpiece-mcq-15": "本句指「某創作者最重要、最具代表性的畢生大作」。",
-        "masterpiece-mcq-14": "「較正式的「傑作／大師之作」」與本句語境不同。",
-        "masterpiece-mcq-16": "「規模很小但完成度極高的作品」與本句語境不同。",
-        "masterpiece-mcq-13": "「工匠用來證明自己已達師傅／大師級資格的作品」與本句語境不同。",
-        "masterpiece-mcq-12": "「反諷地把糟糕成果稱為「傑作」」與本句語境不同。",
-        "masterpiece-mcq-11": "「規模／地位較小但品質極高的作品」與本句語境不同。"
+        "masterpiece-mcq-15": "本句的「masterpiece」指「某創作者最重要、最具代表性的畢生大作」。",
+        "masterpiece-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "masterpiece-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "masterpiece-mcq-15"
     }
@@ -771,5 +661,7 @@ export default {
     "sha256": "1db97a96d61ea290861f30fb738b835b3cf44d38b23eb27b4ba61ca2d29113a2",
     "pages": 32
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

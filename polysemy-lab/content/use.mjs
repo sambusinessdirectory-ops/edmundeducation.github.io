@@ -249,16 +249,6 @@ export default {
       "note": "來源詞義：過去有某個習慣或狀態，而現在通常已經不同",
       "examples": [
         [
-          "I hope this guide will be of use to you.",
-          "我希望這份指南對你有幫助。",
-          "過去有某個習慣或狀態，而現在通常已經不同"
-        ],
-        [
-          "The information may be of use to researchers.",
-          "這些資料可能對研究人員有用。",
-          "過去有某個習慣或狀態，而現在通常已經不同"
-        ],
-        [
           "I used to travel by train every day.",
           "我以前每天都乘火車。",
           "過去有某個習慣或狀態，而現在通常已經不同"
@@ -633,6 +623,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "use-reviewed-95a727b871",
+      "title": "能提供實際幫助或價值",
+      "form": "use · source section 13",
+      "en": "能提供實際幫助或價值",
+      "zh": "能提供實際幫助或價值",
+      "note": "對照原始教材第 13 節及例句核實。",
+      "examples": [
+        [
+          "I hope this guide will be of use to you.",
+          "我希望這份指南對你有幫助。",
+          "能提供實際幫助或價值"
+        ],
+        [
+          "The information may be of use to researchers.",
+          "這些資料可能對研究人員有用。",
+          "能提供實際幫助或價值"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -644,11 +656,9 @@ export default {
       "masked": "I still ____ them now.",
       "options": [
         "use-mcq-01",
-        "use-mcq-02",
-        "use-mcq-03",
-        "use-mcq-04",
-        "use-mcq-05",
-        "use-mcq-06"
+        "use-pdf-001",
+        "use-mcq-25",
+        "use-mcq-11"
       ],
       "explanation": "本句的「use」指「把某件物品、工具或設備實際拿來發揮功能，以完成某件事」。",
       "sentenceIndex": 0,
@@ -657,12 +667,10 @@ export default {
         "use"
       ],
       "optionReasons": {
-        "use-mcq-01": "本句指「把某件物品、工具或設備實際拿來發揮功能，以完成某件事」。",
-        "use-mcq-02": "「把某種方法、技能、知識或制度運用來達成目的」是「use — method/skill」的用法，與本句語境不同。",
-        "use-mcq-03": "「在進行某件事時消耗材料、能源、金錢或其他資源」是「use — resource/material」的用法，與本句語境不同。",
-        "use-mcq-04": "「在說話或寫作中採用某個字詞或表達方式」是「use — word/expression」的用法，與本句語境不同。",
-        "use-mcq-05": "「把資料或證據作為達成某項目的的工具」是「use — information/evidence」的用法，與本句語境不同。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。"
+        "use-mcq-01": "本句的「use」指「把某件物品、工具或設備實際拿來發揮功能，以完成某件事」。",
+        "use-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-01"
     },
@@ -674,11 +682,9 @@ export default {
       "masked": "I ____ these headphones every day.",
       "options": [
         "use-mcq-01",
-        "use-mcq-02",
-        "use-mcq-03",
         "use-mcq-04",
-        "use-mcq-05",
-        "use-mcq-06"
+        "use-mcq-12",
+        "use-mcq-20"
       ],
       "explanation": "本句的「use」指「把某件物品、工具或設備實際拿來發揮功能，以完成某件事」。",
       "sentenceIndex": 1,
@@ -687,12 +693,10 @@ export default {
         "use"
       ],
       "optionReasons": {
-        "use-mcq-01": "本句指「把某件物品、工具或設備實際拿來發揮功能，以完成某件事」。",
-        "use-mcq-02": "「把某種方法、技能、知識或制度運用來達成目的」是「use — method/skill」的用法，與本句語境不同。",
-        "use-mcq-03": "「在進行某件事時消耗材料、能源、金錢或其他資源」是「use — resource/material」的用法，與本句語境不同。",
-        "use-mcq-04": "「在說話或寫作中採用某個字詞或表達方式」是「use — word/expression」的用法，與本句語境不同。",
-        "use-mcq-05": "「把資料或證據作為達成某項目的的工具」是「use — information/evidence」的用法，與本句語境不同。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。"
+        "use-mcq-01": "本句的「use」指「把某件物品、工具或設備實際拿來發揮功能，以完成某件事」。",
+        "use-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-01"
     },
@@ -704,11 +708,9 @@ export default {
       "masked": "She ____ a laptop for work.",
       "options": [
         "use-mcq-01",
-        "use-mcq-02",
-        "use-mcq-03",
         "use-mcq-04",
-        "use-mcq-05",
-        "use-mcq-06"
+        "use-pdf-001",
+        "use-mcq-20"
       ],
       "explanation": "本句的「uses」指「把某件物品、工具或設備實際拿來發揮功能，以完成某件事」。",
       "sentenceIndex": 2,
@@ -717,12 +719,10 @@ export default {
         "uses"
       ],
       "optionReasons": {
-        "use-mcq-01": "本句指「把某件物品、工具或設備實際拿來發揮功能，以完成某件事」。",
-        "use-mcq-02": "「把某種方法、技能、知識或制度運用來達成目的」是「use — method/skill」的用法，與本句語境不同。",
-        "use-mcq-03": "「在進行某件事時消耗材料、能源、金錢或其他資源」是「use — resource/material」的用法，與本句語境不同。",
-        "use-mcq-04": "「在說話或寫作中採用某個字詞或表達方式」是「use — word/expression」的用法，與本句語境不同。",
-        "use-mcq-05": "「把資料或證據作為達成某項目的的工具」是「use — information/evidence」的用法，與本句語境不同。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。"
+        "use-mcq-01": "本句的「uses」指「把某件物品、工具或設備實際拿來發揮功能，以完成某件事」。",
+        "use-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "use-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-01"
     },
@@ -734,11 +734,9 @@ export default {
       "masked": "The company ____ a different system for payments.",
       "options": [
         "use-mcq-02",
-        "use-mcq-01",
-        "use-mcq-03",
-        "use-mcq-04",
-        "use-mcq-05",
-        "use-mcq-06"
+        "use-mcq-23",
+        "use-mcq-11",
+        "use-mcq-03"
       ],
       "explanation": "本句的「uses」指「把某種方法、技能、知識或制度運用來達成目的」。",
       "sentenceIndex": 3,
@@ -747,12 +745,10 @@ export default {
         "uses"
       ],
       "optionReasons": {
-        "use-mcq-02": "本句指「把某種方法、技能、知識或制度運用來達成目的」。",
-        "use-mcq-01": "「把某件物品、工具或設備實際拿來發揮功能，以完成某件事」是「use — object/tool」的用法，與本句語境不同。",
-        "use-mcq-03": "「在進行某件事時消耗材料、能源、金錢或其他資源」是「use — resource/material」的用法，與本句語境不同。",
-        "use-mcq-04": "「在說話或寫作中採用某個字詞或表達方式」是「use — word/expression」的用法，與本句語境不同。",
-        "use-mcq-05": "「把資料或證據作為達成某項目的的工具」是「use — information/evidence」的用法，與本句語境不同。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。"
+        "use-mcq-02": "本句的「uses」指「把某種方法、技能、知識或制度運用來達成目的」。",
+        "use-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-02"
     },
@@ -764,11 +760,9 @@ export default {
       "masked": "She ____ her experience to solve the problem.",
       "options": [
         "use-mcq-02",
-        "use-mcq-01",
-        "use-mcq-03",
-        "use-mcq-04",
-        "use-mcq-05",
-        "use-mcq-06"
+        "use-mcq-09",
+        "use-mcq-11",
+        "use-mcq-25"
       ],
       "explanation": "本句的「used」指「把某種方法、技能、知識或制度運用來達成目的」。",
       "sentenceIndex": 4,
@@ -777,12 +771,10 @@ export default {
         "used"
       ],
       "optionReasons": {
-        "use-mcq-02": "本句指「把某種方法、技能、知識或制度運用來達成目的」。",
-        "use-mcq-01": "「把某件物品、工具或設備實際拿來發揮功能，以完成某件事」是「use — object/tool」的用法，與本句語境不同。",
-        "use-mcq-03": "「在進行某件事時消耗材料、能源、金錢或其他資源」是「use — resource/material」的用法，與本句語境不同。",
-        "use-mcq-04": "「在說話或寫作中採用某個字詞或表達方式」是「use — word/expression」的用法，與本句語境不同。",
-        "use-mcq-05": "「把資料或證據作為達成某項目的的工具」是「use — information/evidence」的用法，與本句語境不同。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。"
+        "use-mcq-02": "本句的「used」指「把某種方法、技能、知識或制度運用來達成目的」。",
+        "use-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-02"
     },
@@ -794,11 +786,9 @@ export default {
       "masked": "This device ____ very little electricity.",
       "options": [
         "use-mcq-03",
-        "use-mcq-02",
-        "use-mcq-04",
-        "use-mcq-01",
-        "use-mcq-05",
-        "use-mcq-06"
+        "use-mcq-13",
+        "use-mcq-19",
+        "use-mcq-25"
       ],
       "explanation": "本句的「uses」指「在進行某件事時消耗材料、能源、金錢或其他資源」。",
       "sentenceIndex": 5,
@@ -807,12 +797,10 @@ export default {
         "uses"
       ],
       "optionReasons": {
-        "use-mcq-03": "本句指「在進行某件事時消耗材料、能源、金錢或其他資源」。",
-        "use-mcq-02": "「把某種方法、技能、知識或制度運用來達成目的」是「use — method/skill」的用法，與本句語境不同。",
-        "use-mcq-04": "「在說話或寫作中採用某個字詞或表達方式」是「use — word/expression」的用法，與本句語境不同。",
-        "use-mcq-01": "「把某件物品、工具或設備實際拿來發揮功能，以完成某件事」是「use — object/tool」的用法，與本句語境不同。",
-        "use-mcq-05": "「把資料或證據作為達成某項目的的工具」是「use — information/evidence」的用法，與本句語境不同。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。"
+        "use-mcq-03": "本句的「uses」指「在進行某件事時消耗材料、能源、金錢或其他資源」。",
+        "use-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-03"
     },
@@ -824,11 +812,9 @@ export default {
       "masked": "The recipe ____ three eggs.",
       "options": [
         "use-mcq-03",
+        "use-mcq-26",
         "use-mcq-02",
-        "use-mcq-04",
-        "use-mcq-01",
-        "use-mcq-05",
-        "use-mcq-06"
+        "use-mcq-12"
       ],
       "explanation": "本句的「uses」指「在進行某件事時消耗材料、能源、金錢或其他資源」。",
       "sentenceIndex": 6,
@@ -837,12 +823,10 @@ export default {
         "uses"
       ],
       "optionReasons": {
-        "use-mcq-03": "本句指「在進行某件事時消耗材料、能源、金錢或其他資源」。",
-        "use-mcq-02": "「把某種方法、技能、知識或制度運用來達成目的」是「use — method/skill」的用法，與本句語境不同。",
-        "use-mcq-04": "「在說話或寫作中採用某個字詞或表達方式」是「use — word/expression」的用法，與本句語境不同。",
-        "use-mcq-01": "「把某件物品、工具或設備實際拿來發揮功能，以完成某件事」是「use — object/tool」的用法，與本句語境不同。",
-        "use-mcq-05": "「把資料或證據作為達成某項目的的工具」是「use — information/evidence」的用法，與本句語境不同。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。"
+        "use-mcq-03": "本句的「uses」指「在進行某件事時消耗材料、能源、金錢或其他資源」。",
+        "use-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-03"
     },
@@ -854,11 +838,9 @@ export default {
       "masked": "We need to ____ our time wisely.",
       "options": [
         "use-mcq-03",
-        "use-mcq-02",
-        "use-mcq-04",
-        "use-mcq-01",
-        "use-mcq-05",
-        "use-mcq-06"
+        "use-pdf-001",
+        "use-mcq-11",
+        "use-mcq-26"
       ],
       "explanation": "本句的「use」指「在進行某件事時消耗材料、能源、金錢或其他資源」。",
       "sentenceIndex": 7,
@@ -867,12 +849,10 @@ export default {
         "use"
       ],
       "optionReasons": {
-        "use-mcq-03": "本句指「在進行某件事時消耗材料、能源、金錢或其他資源」。",
-        "use-mcq-02": "「把某種方法、技能、知識或制度運用來達成目的」是「use — method/skill」的用法，與本句語境不同。",
-        "use-mcq-04": "「在說話或寫作中採用某個字詞或表達方式」是「use — word/expression」的用法，與本句語境不同。",
-        "use-mcq-01": "「把某件物品、工具或設備實際拿來發揮功能，以完成某件事」是「use — object/tool」的用法，與本句語境不同。",
-        "use-mcq-05": "「把資料或證據作為達成某項目的的工具」是「use — information/evidence」的用法，與本句語境不同。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。"
+        "use-mcq-03": "本句的「use」指「在進行某件事時消耗材料、能源、金錢或其他資源」。",
+        "use-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-03"
     },
@@ -884,11 +864,9 @@ export default {
       "masked": "The design ____ the available space efficiently.",
       "options": [
         "use-mcq-03",
-        "use-mcq-02",
-        "use-mcq-04",
-        "use-mcq-01",
-        "use-mcq-05",
-        "use-mcq-06"
+        "use-mcq-20",
+        "use-mcq-11",
+        "use-mcq-25"
       ],
       "explanation": "本句的「uses」指「在進行某件事時消耗材料、能源、金錢或其他資源」。",
       "sentenceIndex": 8,
@@ -897,12 +875,10 @@ export default {
         "uses"
       ],
       "optionReasons": {
-        "use-mcq-03": "本句指「在進行某件事時消耗材料、能源、金錢或其他資源」。",
-        "use-mcq-02": "「把某種方法、技能、知識或制度運用來達成目的」是「use — method/skill」的用法，與本句語境不同。",
-        "use-mcq-04": "「在說話或寫作中採用某個字詞或表達方式」是「use — word/expression」的用法，與本句語境不同。",
-        "use-mcq-01": "「把某件物品、工具或設備實際拿來發揮功能，以完成某件事」是「use — object/tool」的用法，與本句語境不同。",
-        "use-mcq-05": "「把資料或證據作為達成某項目的的工具」是「use — information/evidence」的用法，與本句語境不同。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。"
+        "use-mcq-03": "本句的「uses」指「在進行某件事時消耗材料、能源、金錢或其他資源」。",
+        "use-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-03"
     },
@@ -914,11 +890,9 @@ export default {
       "masked": "We usually ____ this word in formal writing.",
       "options": [
         "use-mcq-04",
-        "use-mcq-03",
-        "use-mcq-05",
-        "use-mcq-02",
-        "use-mcq-06",
-        "use-mcq-01"
+        "use-mcq-07",
+        "use-mcq-25",
+        "use-pdf-001"
       ],
       "explanation": "本句的「use」指「在說話或寫作中採用某個字詞或表達方式」。",
       "sentenceIndex": 9,
@@ -927,12 +901,10 @@ export default {
         "use"
       ],
       "optionReasons": {
-        "use-mcq-04": "本句指「在說話或寫作中採用某個字詞或表達方式」。",
-        "use-mcq-03": "「在進行某件事時消耗材料、能源、金錢或其他資源」是「use — resource/material」的用法，與本句語境不同。",
-        "use-mcq-05": "「把資料或證據作為達成某項目的的工具」是「use — information/evidence」的用法，與本句語境不同。",
-        "use-mcq-02": "「把某種方法、技能、知識或制度運用來達成目的」是「use — method/skill」的用法，與本句語境不同。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。",
-        "use-mcq-01": "「把某件物品、工具或設備實際拿來發揮功能，以完成某件事」是「use — object/tool」的用法，與本句語境不同。"
+        "use-mcq-04": "本句的「use」指「在說話或寫作中採用某個字詞或表達方式」。",
+        "use-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "use-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-04"
     },
@@ -944,11 +916,9 @@ export default {
       "masked": "She ____ the wrong expression.",
       "options": [
         "use-mcq-04",
+        "use-mcq-11",
         "use-mcq-03",
-        "use-mcq-05",
-        "use-mcq-02",
-        "use-mcq-06",
-        "use-mcq-01"
+        "use-mcq-23"
       ],
       "explanation": "本句的「used」指「在說話或寫作中採用某個字詞或表達方式」。",
       "sentenceIndex": 10,
@@ -957,12 +927,10 @@ export default {
         "used"
       ],
       "optionReasons": {
-        "use-mcq-04": "本句指「在說話或寫作中採用某個字詞或表達方式」。",
-        "use-mcq-03": "「在進行某件事時消耗材料、能源、金錢或其他資源」是「use — resource/material」的用法，與本句語境不同。",
-        "use-mcq-05": "「把資料或證據作為達成某項目的的工具」是「use — information/evidence」的用法，與本句語境不同。",
-        "use-mcq-02": "「把某種方法、技能、知識或制度運用來達成目的」是「use — method/skill」的用法，與本句語境不同。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。",
-        "use-mcq-01": "「把某件物品、工具或設備實際拿來發揮功能，以完成某件事」是「use — object/tool」的用法，與本句語境不同。"
+        "use-mcq-04": "本句的「used」指「在說話或寫作中採用某個字詞或表達方式」。",
+        "use-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-04"
     },
@@ -974,11 +942,9 @@ export default {
       "masked": "The researchers ____ the data to test their theory.",
       "options": [
         "use-mcq-05",
-        "use-mcq-04",
-        "use-mcq-06",
-        "use-mcq-03",
-        "use-mcq-07",
-        "use-mcq-02"
+        "use-mcq-11",
+        "use-mcq-25",
+        "use-mcq-24"
       ],
       "explanation": "本句的「used」指「把資料或證據作為達成某項目的的工具」。",
       "sentenceIndex": 11,
@@ -987,12 +953,10 @@ export default {
         "used"
       ],
       "optionReasons": {
-        "use-mcq-05": "本句指「把資料或證據作為達成某項目的的工具」。",
-        "use-mcq-04": "「在說話或寫作中採用某個字詞或表達方式」是「use — word/expression」的用法，與本句語境不同。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。",
-        "use-mcq-03": "「在進行某件事時消耗材料、能源、金錢或其他資源」是「use — resource/material」的用法，與本句語境不同。",
-        "use-mcq-07": "「某件事物可以被用來做甚麼的用途或功能」是「use — noun: purpose」的用法，與本句語境不同。",
-        "use-mcq-02": "「把某種方法、技能、知識或制度運用來達成目的」是「use — method/skill」的用法，與本句語境不同。"
+        "use-mcq-05": "本句的「used」指「把資料或證據作為達成某項目的的工具」。",
+        "use-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-05"
     },
@@ -1004,11 +968,9 @@ export default {
       "masked": "The lawyer ____ the evidence to support the argument.",
       "options": [
         "use-mcq-05",
-        "use-mcq-04",
-        "use-mcq-06",
-        "use-mcq-03",
-        "use-mcq-07",
-        "use-mcq-02"
+        "use-mcq-24",
+        "use-mcq-08",
+        "use-mcq-07"
       ],
       "explanation": "本句的「used」指「把資料或證據作為達成某項目的的工具」。",
       "sentenceIndex": 12,
@@ -1017,12 +979,10 @@ export default {
         "used"
       ],
       "optionReasons": {
-        "use-mcq-05": "本句指「把資料或證據作為達成某項目的的工具」。",
-        "use-mcq-04": "「在說話或寫作中採用某個字詞或表達方式」是「use — word/expression」的用法，與本句語境不同。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。",
-        "use-mcq-03": "「在進行某件事時消耗材料、能源、金錢或其他資源」是「use — resource/material」的用法，與本句語境不同。",
-        "use-mcq-07": "「某件事物可以被用來做甚麼的用途或功能」是「use — noun: purpose」的用法，與本句語境不同。",
-        "use-mcq-02": "「把某種方法、技能、知識或制度運用來達成目的」是「use — method/skill」的用法，與本句語境不同。"
+        "use-mcq-05": "本句的「used」指「把資料或證據作為達成某項目的的工具」。",
+        "use-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-05"
     },
@@ -1034,11 +994,9 @@ export default {
       "masked": "He felt that his friend was ____ him.",
       "options": [
         "use-mcq-06",
-        "use-mcq-05",
+        "use-mcq-16",
         "use-mcq-07",
-        "use-mcq-04",
-        "use-mcq-08",
-        "use-mcq-03"
+        "use-mcq-08"
       ],
       "explanation": "本句的「using」指「為自己的利益把某人當成達成目的的工具」。",
       "sentenceIndex": 13,
@@ -1047,12 +1005,10 @@ export default {
         "using"
       ],
       "optionReasons": {
-        "use-mcq-06": "本句指「為自己的利益把某人當成達成目的的工具」。",
-        "use-mcq-05": "「把資料或證據作為達成某項目的的工具」是「use — information/evidence」的用法，與本句語境不同。",
-        "use-mcq-07": "「某件事物可以被用來做甚麼的用途或功能」是「use — noun: purpose」的用法，與本句語境不同。",
-        "use-mcq-04": "「在說話或寫作中採用某個字詞或表達方式」是「use — word/expression」的用法，與本句語境不同。",
-        "use-mcq-08": "「使用某物、技術或服務這個行為或狀態」是「use — noun: activity」的用法，與本句語境不同。",
-        "use-mcq-03": "「在進行某件事時消耗材料、能源、金錢或其他資源」是「use — resource/material」的用法，與本句語境不同。"
+        "use-mcq-06": "本句的「using」指「為自己的利益把某人當成達成目的的工具」。",
+        "use-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-06"
     },
@@ -1064,11 +1020,9 @@ export default {
       "masked": "Don’t ____ people just to get what you want.",
       "options": [
         "use-mcq-06",
-        "use-mcq-05",
-        "use-mcq-07",
-        "use-mcq-04",
-        "use-mcq-08",
-        "use-mcq-03"
+        "use-mcq-25",
+        "use-mcq-24",
+        "use-mcq-22"
       ],
       "explanation": "本句的「use」指「為自己的利益把某人當成達成目的的工具」。",
       "sentenceIndex": 14,
@@ -1077,12 +1031,10 @@ export default {
         "use"
       ],
       "optionReasons": {
-        "use-mcq-06": "本句指「為自己的利益把某人當成達成目的的工具」。",
-        "use-mcq-05": "「把資料或證據作為達成某項目的的工具」是「use — information/evidence」的用法，與本句語境不同。",
-        "use-mcq-07": "「某件事物可以被用來做甚麼的用途或功能」是「use — noun: purpose」的用法，與本句語境不同。",
-        "use-mcq-04": "「在說話或寫作中採用某個字詞或表達方式」是「use — word/expression」的用法，與本句語境不同。",
-        "use-mcq-08": "「使用某物、技術或服務這個行為或狀態」是「use — noun: activity」的用法，與本句語境不同。",
-        "use-mcq-03": "「在進行某件事時消耗材料、能源、金錢或其他資源」是「use — resource/material」的用法，與本句語境不同。"
+        "use-mcq-06": "本句的「use」指「為自己的利益把某人當成達成目的的工具」。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-06"
     },
@@ -1095,10 +1047,8 @@ export default {
       "options": [
         "use-mcq-25",
         "use-mcq-24",
-        "use-mcq-26",
-        "use-mcq-23",
-        "use-mcq-22",
-        "use-mcq-21"
+        "use-mcq-12",
+        "use-mcq-03"
       ],
       "explanation": "本句的「used」指「服用、吸食或攝取某種藥物／物質」。",
       "sentenceIndex": 15,
@@ -1107,12 +1057,10 @@ export default {
         "used"
       ],
       "optionReasons": {
-        "use-mcq-25": "本句指「服用、吸食或攝取某種藥物／物質」。",
-        "use-mcq-24": "「使用次數、時間或程度過多，以致產生問題或失去效果」是「overuse」的用法，與本句語境不同。",
-        "use-mcq-26": "「以能提供實際幫助或便利的方式」是「20. usefully = in a helpful/practical way — 有用地；有效地」的用法，與本句語境不同。",
-        "use-mcq-23": "「以錯誤、不適當或未獲允許的方式使用」是「misuse」的用法，與本句語境不同。",
-        "use-mcq-22": "「某件東西使用後再次使用」是「reuse」的用法，與本句語境不同。",
-        "use-mcq-21": "「字詞、語法或表達方式在實際語言中的慣常用法」是「usage — language」的用法，與本句語境不同。"
+        "use-mcq-25": "本句的「used」指「服用、吸食或攝取某種藥物／物質」。",
+        "use-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-25"
     },
@@ -1125,10 +1073,8 @@ export default {
       "options": [
         "use-mcq-25",
         "use-mcq-24",
-        "use-mcq-26",
-        "use-mcq-23",
-        "use-mcq-22",
-        "use-mcq-21"
+        "use-mcq-04",
+        "use-mcq-06"
       ],
       "explanation": "本句的「using」指「服用、吸食或攝取某種藥物／物質」。",
       "sentenceIndex": 16,
@@ -1137,12 +1083,10 @@ export default {
         "using"
       ],
       "optionReasons": {
-        "use-mcq-25": "本句指「服用、吸食或攝取某種藥物／物質」。",
-        "use-mcq-24": "「使用次數、時間或程度過多，以致產生問題或失去效果」是「overuse」的用法，與本句語境不同。",
-        "use-mcq-26": "「以能提供實際幫助或便利的方式」是「20. usefully = in a helpful/practical way — 有用地；有效地」的用法，與本句語境不同。",
-        "use-mcq-23": "「以錯誤、不適當或未獲允許的方式使用」是「misuse」的用法，與本句語境不同。",
-        "use-mcq-22": "「某件東西使用後再次使用」是「reuse」的用法，與本句語境不同。",
-        "use-mcq-21": "「字詞、語法或表達方式在實際語言中的慣常用法」是「usage — language」的用法，與本句語境不同。"
+        "use-mcq-25": "本句的「using」指「服用、吸食或攝取某種藥物／物質」。",
+        "use-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-25"
     },
@@ -1154,11 +1098,9 @@ export default {
       "masked": "What is the ____ of this button?",
       "options": [
         "use-mcq-07",
-        "use-mcq-06",
-        "use-mcq-08",
-        "use-mcq-05",
-        "use-mcq-09",
-        "use-mcq-04"
+        "use-mcq-25",
+        "use-mcq-26",
+        "use-mcq-08"
       ],
       "explanation": "本句的「use」指「某件事物可以被用來做甚麼的用途或功能」。",
       "sentenceIndex": 17,
@@ -1167,12 +1109,10 @@ export default {
         "use"
       ],
       "optionReasons": {
-        "use-mcq-07": "本句指「某件事物可以被用來做甚麼的用途或功能」。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。",
-        "use-mcq-08": "「使用某物、技術或服務這個行為或狀態」是「use — noun: activity」的用法，與本句語境不同。",
-        "use-mcq-05": "「把資料或證據作為達成某項目的的工具」是「use — information/evidence」的用法，與本句語境不同。",
-        "use-mcq-09": "「某件事能提供的實際幫助、效益或價值」是「use — noun: benefit」的用法，與本句語境不同。",
-        "use-mcq-04": "「在說話或寫作中採用某個字詞或表達方式」是「use — word/expression」的用法，與本句語境不同。"
+        "use-mcq-07": "本句的「use」指「某件事物可以被用來做甚麼的用途或功能」。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-07"
     },
@@ -1184,11 +1124,9 @@ export default {
       "masked": "This tool has several different ____.",
       "options": [
         "use-mcq-07",
-        "use-mcq-06",
-        "use-mcq-08",
-        "use-mcq-05",
-        "use-mcq-09",
-        "use-mcq-04"
+        "use-mcq-25",
+        "use-mcq-21",
+        "use-pdf-001"
       ],
       "explanation": "本句的「uses」指「某件事物可以被用來做甚麼的用途或功能」。",
       "sentenceIndex": 18,
@@ -1197,12 +1135,10 @@ export default {
         "uses"
       ],
       "optionReasons": {
-        "use-mcq-07": "本句指「某件事物可以被用來做甚麼的用途或功能」。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。",
-        "use-mcq-08": "「使用某物、技術或服務這個行為或狀態」是「use — noun: activity」的用法，與本句語境不同。",
-        "use-mcq-05": "「把資料或證據作為達成某項目的的工具」是「use — information/evidence」的用法，與本句語境不同。",
-        "use-mcq-09": "「某件事能提供的實際幫助、效益或價值」是「use — noun: benefit」的用法，與本句語境不同。",
-        "use-mcq-04": "「在說話或寫作中採用某個字詞或表達方式」是「use — word/expression」的用法，與本句語境不同。"
+        "use-mcq-07": "本句的「uses」指「某件事物可以被用來做甚麼的用途或功能」。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "use-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-07"
     },
@@ -1214,11 +1150,9 @@ export default {
       "masked": "The machine is currently in ____.",
       "options": [
         "use-mcq-08",
-        "use-mcq-07",
-        "use-mcq-09",
         "use-mcq-06",
-        "use-mcq-10",
-        "use-mcq-05"
+        "use-mcq-22",
+        "use-mcq-24"
       ],
       "explanation": "本句的「use」指「使用某物、技術或服務這個行為或狀態」。",
       "sentenceIndex": 19,
@@ -1227,12 +1161,10 @@ export default {
         "use"
       ],
       "optionReasons": {
-        "use-mcq-08": "本句指「使用某物、技術或服務這個行為或狀態」。",
-        "use-mcq-07": "「某件事物可以被用來做甚麼的用途或功能」是「use — noun: purpose」的用法，與本句語境不同。",
-        "use-mcq-09": "「某件事能提供的實際幫助、效益或價值」是「use — noun: benefit」的用法，與本句語境不同。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。",
-        "use-mcq-10": "「主動利用某件物品、資源或機會使其發揮作用」是「make use of」的用法，與本句語境不同。",
-        "use-mcq-05": "「把資料或證據作為達成某項目的的工具」是「use — information/evidence」的用法，與本句語境不同。"
+        "use-mcq-08": "本句的「use」指「使用某物、技術或服務這個行為或狀態」。",
+        "use-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-08"
     },
@@ -1244,11 +1176,9 @@ export default {
       "masked": "Mobile phone ____ has increased.",
       "options": [
         "use-mcq-08",
-        "use-mcq-07",
-        "use-mcq-09",
-        "use-mcq-06",
         "use-mcq-10",
-        "use-mcq-05"
+        "use-mcq-24",
+        "use-mcq-04"
       ],
       "explanation": "本句的「use」指「使用某物、技術或服務這個行為或狀態」。",
       "sentenceIndex": 20,
@@ -1257,12 +1187,10 @@ export default {
         "use"
       ],
       "optionReasons": {
-        "use-mcq-08": "本句指「使用某物、技術或服務這個行為或狀態」。",
-        "use-mcq-07": "「某件事物可以被用來做甚麼的用途或功能」是「use — noun: purpose」的用法，與本句語境不同。",
-        "use-mcq-09": "「某件事能提供的實際幫助、效益或價值」是「use — noun: benefit」的用法，與本句語境不同。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。",
-        "use-mcq-10": "「主動利用某件物品、資源或機會使其發揮作用」是「make use of」的用法，與本句語境不同。",
-        "use-mcq-05": "「把資料或證據作為達成某項目的的工具」是「use — information/evidence」的用法，與本句語境不同。"
+        "use-mcq-08": "本句的「use」指「使用某物、技術或服務這個行為或狀態」。",
+        "use-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-08"
     },
@@ -1274,11 +1202,9 @@ export default {
       "masked": "This information may be of ____ to you.",
       "options": [
         "use-mcq-09",
-        "use-mcq-08",
-        "use-mcq-10",
-        "use-mcq-07",
-        "use-mcq-11",
-        "use-mcq-06"
+        "use-mcq-20",
+        "use-pdf-001",
+        "use-mcq-13"
       ],
       "explanation": "本句的「use」指「某件事能提供的實際幫助、效益或價值」。",
       "sentenceIndex": 21,
@@ -1287,12 +1213,10 @@ export default {
         "use"
       ],
       "optionReasons": {
-        "use-mcq-09": "本句指「某件事能提供的實際幫助、效益或價值」。",
-        "use-mcq-08": "「使用某物、技術或服務這個行為或狀態」是「use — noun: activity」的用法，與本句語境不同。",
-        "use-mcq-10": "「主動利用某件物品、資源或機會使其發揮作用」是「make use of」的用法，與本句語境不同。",
-        "use-mcq-07": "「某件事物可以被用來做甚麼的用途或功能」是「use — noun: purpose」的用法，與本句語境不同。",
-        "use-mcq-11": "「過去有某個習慣或狀態，而現在通常已經不同」是「used to + verb」的用法，與本句語境不同。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。"
+        "use-mcq-09": "本句的「use」指「某件事能提供的實際幫助、效益或價值」。",
+        "use-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "use-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-09"
     },
@@ -1304,11 +1228,9 @@ export default {
       "masked": "There is no ____ in worrying about it now.",
       "options": [
         "use-mcq-09",
-        "use-mcq-08",
-        "use-mcq-10",
-        "use-mcq-07",
-        "use-mcq-11",
-        "use-mcq-06"
+        "use-mcq-13",
+        "use-mcq-12",
+        "use-mcq-05"
       ],
       "explanation": "本句的「use」指「某件事能提供的實際幫助、效益或價值」。",
       "sentenceIndex": 22,
@@ -1317,12 +1239,10 @@ export default {
         "use"
       ],
       "optionReasons": {
-        "use-mcq-09": "本句指「某件事能提供的實際幫助、效益或價值」。",
-        "use-mcq-08": "「使用某物、技術或服務這個行為或狀態」是「use — noun: activity」的用法，與本句語境不同。",
-        "use-mcq-10": "「主動利用某件物品、資源或機會使其發揮作用」是「make use of」的用法，與本句語境不同。",
-        "use-mcq-07": "「某件事物可以被用來做甚麼的用途或功能」是「use — noun: purpose」的用法，與本句語境不同。",
-        "use-mcq-11": "「過去有某個習慣或狀態，而現在通常已經不同」是「used to + verb」的用法，與本句語境不同。",
-        "use-mcq-06": "「為自己的利益把某人當成達成目的的工具」是「use someone」的用法，與本句語境不同。"
+        "use-mcq-09": "本句的「use」指「某件事能提供的實際幫助、效益或價值」。",
+        "use-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-09"
     },
@@ -1334,11 +1254,9 @@ export default {
       "masked": "We should ____ the available technology.",
       "options": [
         "use-mcq-10",
-        "use-mcq-09",
-        "use-mcq-11",
-        "use-mcq-08",
-        "use-mcq-12",
-        "use-mcq-07"
+        "use-mcq-13",
+        "use-mcq-04",
+        "use-mcq-14"
       ],
       "explanation": "本句的「make use of」指「主動利用某件物品、資源或機會使其發揮作用」。",
       "sentenceIndex": 23,
@@ -1347,12 +1265,10 @@ export default {
         "make use of"
       ],
       "optionReasons": {
-        "use-mcq-10": "本句指「主動利用某件物品、資源或機會使其發揮作用」。",
-        "use-mcq-09": "「某件事能提供的實際幫助、效益或價值」是「use — noun: benefit」的用法，與本句語境不同。",
-        "use-mcq-11": "「過去有某個習慣或狀態，而現在通常已經不同」是「used to + verb」的用法，與本句語境不同。",
-        "use-mcq-08": "「使用某物、技術或服務這個行為或狀態」是「use — noun: activity」的用法，與本句語境不同。",
-        "use-mcq-12": "「已對某種情況習以為常，不再覺得陌生」是「be used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-07": "「某件事物可以被用來做甚麼的用途或功能」是「use — noun: purpose」的用法，與本句語境不同。"
+        "use-mcq-10": "本句的「make use of」指「主動利用某件物品、資源或機會使其發揮作用」。",
+        "use-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-10"
     },
@@ -1364,11 +1280,9 @@ export default {
       "masked": "She ____ her time on the train.",
       "options": [
         "use-mcq-10",
-        "use-mcq-09",
-        "use-mcq-11",
-        "use-mcq-08",
-        "use-mcq-12",
-        "use-mcq-07"
+        "use-mcq-20",
+        "use-mcq-13",
+        "use-mcq-17"
       ],
       "explanation": "本句的「made good use of」指「主動利用某件物品、資源或機會使其發揮作用」。",
       "sentenceIndex": 24,
@@ -1377,74 +1291,68 @@ export default {
         "made good use of"
       ],
       "optionReasons": {
-        "use-mcq-10": "本句指「主動利用某件物品、資源或機會使其發揮作用」。",
-        "use-mcq-09": "「某件事能提供的實際幫助、效益或價值」是「use — noun: benefit」的用法，與本句語境不同。",
-        "use-mcq-11": "「過去有某個習慣或狀態，而現在通常已經不同」是「used to + verb」的用法，與本句語境不同。",
-        "use-mcq-08": "「使用某物、技術或服務這個行為或狀態」是「use — noun: activity」的用法，與本句語境不同。",
-        "use-mcq-12": "「已對某種情況習以為常，不再覺得陌生」是「be used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-07": "「某件事物可以被用來做甚麼的用途或功能」是「use — noun: purpose」的用法，與本句語境不同。"
+        "use-mcq-10": "本句的「made good use of」指「主動利用某件物品、資源或機會使其發揮作用」。",
+        "use-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-10"
     },
     {
       "id": "use-13-0",
-      "sense": "use-mcq-11",
+      "sense": "use-reviewed-95a727b871",
       "en": "I hope this guide will be of use to you.",
       "zh": "我希望這份指南對你有幫助。",
       "masked": "I hope this guide will ____ you.",
       "options": [
-        "use-mcq-11",
-        "use-mcq-10",
-        "use-mcq-12",
-        "use-mcq-09",
-        "use-mcq-13",
-        "use-mcq-08"
+        "use-reviewed-95a727b871",
+        "use-mcq-06",
+        "use-mcq-04",
+        "use-mcq-10"
       ],
-      "explanation": "本句的「be of use to」指「過去有某個習慣或狀態，而現在通常已經不同」。",
+      "explanation": "對照完整句子：「我希望這份指南對你有幫助。」。這裡的「be of use to」表示「能提供實際幫助或價值」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "targets": [
         "be of use to"
       ],
       "optionReasons": {
-        "use-mcq-11": "本句指「過去有某個習慣或狀態，而現在通常已經不同」。",
-        "use-mcq-10": "「主動利用某件物品、資源或機會使其發揮作用」是「make use of」的用法，與本句語境不同。",
-        "use-mcq-12": "「已對某種情況習以為常，不再覺得陌生」是「be used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-09": "「某件事能提供的實際幫助、效益或價值」是「use — noun: benefit」的用法，與本句語境不同。",
-        "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-08": "「使用某物、技術或服務這個行為或狀態」是「use — noun: activity」的用法，與本句語境不同。"
+        "use-reviewed-95a727b871": "對照完整句子：「我希望這份指南對你有幫助。」。這裡的「be of use to」表示「能提供實際幫助或價值」。",
+        "use-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "use-mcq-11"
+      "correctOption": "use-reviewed-95a727b871",
+      "previousCorrectOption": "use-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "use-13-1",
-      "sense": "use-mcq-11",
+      "sense": "use-reviewed-95a727b871",
       "en": "The information may be of use to researchers.",
       "zh": "這些資料可能對研究人員有用。",
       "masked": "The information may ____ researchers.",
       "options": [
-        "use-mcq-11",
-        "use-mcq-10",
-        "use-mcq-12",
-        "use-mcq-09",
-        "use-mcq-13",
-        "use-mcq-08"
+        "use-reviewed-95a727b871",
+        "use-pdf-001",
+        "use-mcq-07",
+        "use-mcq-04"
       ],
-      "explanation": "本句的「be of use to」指「過去有某個習慣或狀態，而現在通常已經不同」。",
+      "explanation": "對照完整句子：「這些資料可能對研究人員有用。」。這裡的「be of use to」表示「能提供實際幫助或價值」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "targets": [
         "be of use to"
       ],
       "optionReasons": {
-        "use-mcq-11": "本句指「過去有某個習慣或狀態，而現在通常已經不同」。",
-        "use-mcq-10": "「主動利用某件物品、資源或機會使其發揮作用」是「make use of」的用法，與本句語境不同。",
-        "use-mcq-12": "「已對某種情況習以為常，不再覺得陌生」是「be used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-09": "「某件事能提供的實際幫助、效益或價值」是「use — noun: benefit」的用法，與本句語境不同。",
-        "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-08": "「使用某物、技術或服務這個行為或狀態」是「use — noun: activity」的用法，與本句語境不同。"
+        "use-reviewed-95a727b871": "對照完整句子：「這些資料可能對研究人員有用。」。這裡的「be of use to」表示「能提供實際幫助或價值」。",
+        "use-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "use-mcq-11"
+      "correctOption": "use-reviewed-95a727b871",
+      "previousCorrectOption": "use-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "use-15-0",
@@ -1455,10 +1363,8 @@ export default {
       "options": [
         "use-mcq-11",
         "use-mcq-10",
-        "use-mcq-12",
-        "use-mcq-09",
-        "use-mcq-13",
-        "use-mcq-08"
+        "use-mcq-25",
+        "use-mcq-06"
       ],
       "explanation": "本句的「used to travel」指「過去有某個習慣或狀態，而現在通常已經不同」。",
       "sentenceIndex": 27,
@@ -1467,12 +1373,10 @@ export default {
         "used to travel"
       ],
       "optionReasons": {
-        "use-mcq-11": "本句指「過去有某個習慣或狀態，而現在通常已經不同」。",
-        "use-mcq-10": "「主動利用某件物品、資源或機會使其發揮作用」是「make use of」的用法，與本句語境不同。",
-        "use-mcq-12": "「已對某種情況習以為常，不再覺得陌生」是「be used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-09": "「某件事能提供的實際幫助、效益或價值」是「use — noun: benefit」的用法，與本句語境不同。",
-        "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-08": "「使用某物、技術或服務這個行為或狀態」是「use — noun: activity」的用法，與本句語境不同。"
+        "use-mcq-11": "本句的「used to travel」指「過去有某個習慣或狀態，而現在通常已經不同」。",
+        "use-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-11"
     },
@@ -1484,11 +1388,9 @@ export default {
       "masked": "These headphones ____ much more expensive.",
       "options": [
         "use-mcq-11",
-        "use-mcq-10",
-        "use-mcq-12",
-        "use-mcq-09",
-        "use-mcq-13",
-        "use-mcq-08"
+        "use-mcq-02",
+        "use-mcq-03",
+        "use-mcq-26"
       ],
       "explanation": "本句的「used to be」指「過去有某個習慣或狀態，而現在通常已經不同」。",
       "sentenceIndex": 28,
@@ -1497,12 +1399,10 @@ export default {
         "used to be"
       ],
       "optionReasons": {
-        "use-mcq-11": "本句指「過去有某個習慣或狀態，而現在通常已經不同」。",
-        "use-mcq-10": "「主動利用某件物品、資源或機會使其發揮作用」是「make use of」的用法，與本句語境不同。",
-        "use-mcq-12": "「已對某種情況習以為常，不再覺得陌生」是「be used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-09": "「某件事能提供的實際幫助、效益或價值」是「use — noun: benefit」的用法，與本句語境不同。",
-        "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-08": "「使用某物、技術或服務這個行為或狀態」是「use — noun: activity」的用法，與本句語境不同。"
+        "use-mcq-11": "本句的「used to be」指「過去有某個習慣或狀態，而現在通常已經不同」。",
+        "use-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-11"
     },
@@ -1514,11 +1414,9 @@ export default {
       "masked": "I am ____ alone.",
       "options": [
         "use-mcq-12",
-        "use-mcq-11",
-        "use-mcq-13",
-        "use-mcq-10",
-        "use-mcq-14",
-        "use-mcq-09"
+        "use-mcq-17",
+        "use-mcq-06",
+        "use-mcq-25"
       ],
       "explanation": "本句的「used to travelling」指「已對某種情況習以為常，不再覺得陌生」。",
       "sentenceIndex": 29,
@@ -1527,12 +1425,10 @@ export default {
         "used to travelling"
       ],
       "optionReasons": {
-        "use-mcq-12": "本句指「已對某種情況習以為常，不再覺得陌生」。",
-        "use-mcq-11": "「過去有某個習慣或狀態，而現在通常已經不同」是「used to + verb」的用法，與本句語境不同。",
-        "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-10": "「主動利用某件物品、資源或機會使其發揮作用」是「make use of」的用法，與本句語境不同。",
-        "use-mcq-14": "「能實際幫助達成目的、解決問題或帶來好處的」是「useful」的用法，與本句語境不同。",
-        "use-mcq-09": "「某件事能提供的實際幫助、效益或價值」是「use — noun: benefit」的用法，與本句語境不同。"
+        "use-mcq-12": "本句的「used to travelling」指「已對某種情況習以為常，不再覺得陌生」。",
+        "use-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-12"
     },
@@ -1544,11 +1440,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "use-mcq-12",
-        "use-mcq-11",
-        "use-mcq-13",
-        "use-mcq-10",
-        "use-mcq-14",
-        "use-mcq-09"
+        "use-mcq-25",
+        "use-mcq-08",
+        "use-mcq-07"
       ],
       "explanation": "本句的「used to the noise」指「已對某種情況習以為常，不再覺得陌生」。",
       "sentenceIndex": 30,
@@ -1557,12 +1451,10 @@ export default {
         "used to the noise"
       ],
       "optionReasons": {
-        "use-mcq-12": "本句指「已對某種情況習以為常，不再覺得陌生」。",
-        "use-mcq-11": "「過去有某個習慣或狀態，而現在通常已經不同」是「used to + verb」的用法，與本句語境不同。",
-        "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-10": "「主動利用某件物品、資源或機會使其發揮作用」是「make use of」的用法，與本句語境不同。",
-        "use-mcq-14": "「能實際幫助達成目的、解決問題或帶來好處的」是「useful」的用法，與本句語境不同。",
-        "use-mcq-09": "「某件事能提供的實際幫助、效益或價值」是「use — noun: benefit」的用法，與本句語境不同。"
+        "use-mcq-12": "本句的「used to the noise」指「已對某種情況習以為常，不再覺得陌生」。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-12"
     },
@@ -1574,11 +1466,9 @@ export default {
       "masked": "It took me a while to ____ headphones for hours.",
       "options": [
         "use-mcq-13",
-        "use-mcq-12",
-        "use-mcq-14",
-        "use-mcq-11",
-        "use-mcq-15",
-        "use-mcq-10"
+        "use-mcq-18",
+        "use-mcq-07",
+        "use-mcq-20"
       ],
       "explanation": "本句的「get used to wearing」指「從不習慣逐漸變成習慣」。",
       "sentenceIndex": 31,
@@ -1587,12 +1477,10 @@ export default {
         "get used to wearing"
       ],
       "optionReasons": {
-        "use-mcq-13": "本句指「從不習慣逐漸變成習慣」。",
-        "use-mcq-12": "「已對某種情況習以為常，不再覺得陌生」是「be used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-14": "「能實際幫助達成目的、解決問題或帶來好處的」是「useful」的用法，與本句語境不同。",
-        "use-mcq-11": "「過去有某個習慣或狀態，而現在通常已經不同」是「used to + verb」的用法，與本句語境不同。",
-        "use-mcq-15": "「某件事物能提供實際幫助或發揮功能的程度」是「usefulness」的用法，與本句語境不同。",
-        "use-mcq-10": "「主動利用某件物品、資源或機會使其發揮作用」是「make use of」的用法，與本句語境不同。"
+        "use-mcq-13": "本句的「get used to wearing」指「從不習慣逐漸變成習慣」。",
+        "use-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-13"
     },
@@ -1604,11 +1492,9 @@ export default {
       "masked": "You’ll ____ the new system.",
       "options": [
         "use-mcq-13",
-        "use-mcq-12",
-        "use-mcq-14",
-        "use-mcq-11",
-        "use-mcq-15",
-        "use-mcq-10"
+        "use-mcq-17",
+        "use-pdf-001",
+        "use-mcq-07"
       ],
       "explanation": "本句的「get used to」指「從不習慣逐漸變成習慣」。",
       "sentenceIndex": 32,
@@ -1617,12 +1503,10 @@ export default {
         "get used to"
       ],
       "optionReasons": {
-        "use-mcq-13": "本句指「從不習慣逐漸變成習慣」。",
-        "use-mcq-12": "「已對某種情況習以為常，不再覺得陌生」是「be used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-14": "「能實際幫助達成目的、解決問題或帶來好處的」是「useful」的用法，與本句語境不同。",
-        "use-mcq-11": "「過去有某個習慣或狀態，而現在通常已經不同」是「used to + verb」的用法，與本句語境不同。",
-        "use-mcq-15": "「某件事物能提供實際幫助或發揮功能的程度」是「usefulness」的用法，與本句語境不同。",
-        "use-mcq-10": "「主動利用某件物品、資源或機會使其發揮作用」是「make use of」的用法，與本句語境不同。"
+        "use-mcq-13": "本句的「get used to」指「從不習慣逐漸變成習慣」。",
+        "use-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "use-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-13"
     },
@@ -1634,11 +1518,9 @@ export default {
       "masked": "Noise cancellation is especially ____ when travelling.",
       "options": [
         "use-mcq-14",
-        "use-mcq-13",
-        "use-mcq-15",
-        "use-mcq-12",
-        "use-mcq-16",
-        "use-mcq-11"
+        "use-pdf-001",
+        "use-mcq-03",
+        "use-mcq-20"
       ],
       "explanation": "本句的「useful」指「能實際幫助達成目的、解決問題或帶來好處的」。",
       "sentenceIndex": 33,
@@ -1647,12 +1529,10 @@ export default {
         "useful"
       ],
       "optionReasons": {
-        "use-mcq-14": "本句指「能實際幫助達成目的、解決問題或帶來好處的」。",
-        "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-15": "「某件事物能提供實際幫助或發揮功能的程度」是「usefulness」的用法，與本句語境不同。",
-        "use-mcq-12": "「已對某種情況習以為常，不再覺得陌生」是「be used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-16": "「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」是「useless」的用法，與本句語境不同。",
-        "use-mcq-11": "「過去有某個習慣或狀態，而現在通常已經不同」是「used to + verb」的用法，與本句語境不同。"
+        "use-mcq-14": "本句的「useful」指「能實際幫助達成目的、解決問題或帶來好處的」。",
+        "use-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-14"
     },
@@ -1664,11 +1544,9 @@ export default {
       "masked": "She gave me some ____ advice.",
       "options": [
         "use-mcq-14",
-        "use-mcq-13",
-        "use-mcq-15",
-        "use-mcq-12",
-        "use-mcq-16",
-        "use-mcq-11"
+        "use-mcq-10",
+        "use-mcq-11",
+        "use-mcq-20"
       ],
       "explanation": "本句的「useful」指「能實際幫助達成目的、解決問題或帶來好處的」。",
       "sentenceIndex": 34,
@@ -1677,12 +1555,10 @@ export default {
         "useful"
       ],
       "optionReasons": {
-        "use-mcq-14": "本句指「能實際幫助達成目的、解決問題或帶來好處的」。",
-        "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-15": "「某件事物能提供實際幫助或發揮功能的程度」是「usefulness」的用法，與本句語境不同。",
-        "use-mcq-12": "「已對某種情況習以為常，不再覺得陌生」是「be used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-16": "「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」是「useless」的用法，與本句語境不同。",
-        "use-mcq-11": "「過去有某個習慣或狀態，而現在通常已經不同」是「used to + verb」的用法，與本句語境不同。"
+        "use-mcq-14": "本句的「useful」指「能實際幫助達成目的、解決問題或帶來好處的」。",
+        "use-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-14"
     },
@@ -1694,11 +1570,9 @@ export default {
       "masked": "He is very ____ in an emergency.",
       "options": [
         "use-mcq-14",
-        "use-mcq-13",
-        "use-mcq-15",
-        "use-mcq-12",
-        "use-mcq-16",
-        "use-mcq-11"
+        "use-mcq-08",
+        "use-mcq-03",
+        "use-mcq-20"
       ],
       "explanation": "本句的「useful」指「能實際幫助達成目的、解決問題或帶來好處的」。",
       "sentenceIndex": 35,
@@ -1707,12 +1581,10 @@ export default {
         "useful"
       ],
       "optionReasons": {
-        "use-mcq-14": "本句指「能實際幫助達成目的、解決問題或帶來好處的」。",
-        "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-15": "「某件事物能提供實際幫助或發揮功能的程度」是「usefulness」的用法，與本句語境不同。",
-        "use-mcq-12": "「已對某種情況習以為常，不再覺得陌生」是「be used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-16": "「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」是「useless」的用法，與本句語境不同。",
-        "use-mcq-11": "「過去有某個習慣或狀態，而現在通常已經不同」是「used to + verb」的用法，與本句語境不同。"
+        "use-mcq-14": "本句的「useful」指「能實際幫助達成目的、解決問題或帶來好處的」。",
+        "use-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-14"
     },
@@ -1724,11 +1596,9 @@ export default {
       "masked": "Her technical knowledge proved ____.",
       "options": [
         "use-mcq-14",
-        "use-mcq-13",
-        "use-mcq-15",
-        "use-mcq-12",
-        "use-mcq-16",
-        "use-mcq-11"
+        "use-mcq-25",
+        "use-mcq-08",
+        "use-mcq-22"
       ],
       "explanation": "本句的「useful」指「能實際幫助達成目的、解決問題或帶來好處的」。",
       "sentenceIndex": 36,
@@ -1737,12 +1607,10 @@ export default {
         "useful"
       ],
       "optionReasons": {
-        "use-mcq-14": "本句指「能實際幫助達成目的、解決問題或帶來好處的」。",
-        "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-15": "「某件事物能提供實際幫助或發揮功能的程度」是「usefulness」的用法，與本句語境不同。",
-        "use-mcq-12": "「已對某種情況習以為常，不再覺得陌生」是「be used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-16": "「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」是「useless」的用法，與本句語境不同。",
-        "use-mcq-11": "「過去有某個習慣或狀態，而現在通常已經不同」是「used to + verb」的用法，與本句語境不同。"
+        "use-mcq-14": "本句的「useful」指「能實際幫助達成目的、解決問題或帶來好處的」。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-14"
     },
@@ -1754,11 +1622,9 @@ export default {
       "masked": "The report ____ summarizes the main findings.",
       "options": [
         "use-mcq-26",
-        "use-mcq-25",
-        "use-mcq-24",
-        "use-mcq-23",
-        "use-mcq-22",
-        "use-mcq-21"
+        "use-mcq-12",
+        "use-mcq-02",
+        "use-mcq-04"
       ],
       "explanation": "本句的「usefully」指「以能提供實際幫助或便利的方式」。",
       "sentenceIndex": 37,
@@ -1767,12 +1633,10 @@ export default {
         "usefully"
       ],
       "optionReasons": {
-        "use-mcq-26": "本句指「以能提供實際幫助或便利的方式」。",
-        "use-mcq-25": "「服用、吸食或攝取某種藥物／物質」是「8. use drugs/substances（藥物／毒品） — 使用；服用」的用法，與本句語境不同。",
-        "use-mcq-24": "「使用次數、時間或程度過多，以致產生問題或失去效果」是「overuse」的用法，與本句語境不同。",
-        "use-mcq-23": "「以錯誤、不適當或未獲允許的方式使用」是「misuse」的用法，與本句語境不同。",
-        "use-mcq-22": "「某件東西使用後再次使用」是「reuse」的用法，與本句語境不同。",
-        "use-mcq-21": "「字詞、語法或表達方式在實際語言中的慣常用法」是「usage — language」的用法，與本句語境不同。"
+        "use-mcq-26": "本句的「usefully」指「以能提供實際幫助或便利的方式」。",
+        "use-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-26"
     },
@@ -1784,11 +1648,9 @@ export default {
       "masked": "The guide is ____ divided into short sections.",
       "options": [
         "use-mcq-26",
-        "use-mcq-25",
-        "use-mcq-24",
-        "use-mcq-23",
-        "use-mcq-22",
-        "use-mcq-21"
+        "use-pdf-001",
+        "use-mcq-12",
+        "use-mcq-20"
       ],
       "explanation": "本句的「usefully」指「以能提供實際幫助或便利的方式」。",
       "sentenceIndex": 38,
@@ -1797,12 +1659,10 @@ export default {
         "usefully"
       ],
       "optionReasons": {
-        "use-mcq-26": "本句指「以能提供實際幫助或便利的方式」。",
-        "use-mcq-25": "「服用、吸食或攝取某種藥物／物質」是「8. use drugs/substances（藥物／毒品） — 使用；服用」的用法，與本句語境不同。",
-        "use-mcq-24": "「使用次數、時間或程度過多，以致產生問題或失去效果」是「overuse」的用法，與本句語境不同。",
-        "use-mcq-23": "「以錯誤、不適當或未獲允許的方式使用」是「misuse」的用法，與本句語境不同。",
-        "use-mcq-22": "「某件東西使用後再次使用」是「reuse」的用法，與本句語境不同。",
-        "use-mcq-21": "「字詞、語法或表達方式在實際語言中的慣常用法」是「usage — language」的用法，與本句語境不同。"
+        "use-mcq-26": "本句的「usefully」指「以能提供實際幫助或便利的方式」。",
+        "use-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-26"
     },
@@ -1814,11 +1674,9 @@ export default {
       "masked": "The study examined the ____ of the new method.",
       "options": [
         "use-mcq-15",
-        "use-mcq-14",
-        "use-mcq-16",
         "use-mcq-13",
-        "use-mcq-17",
-        "use-mcq-12"
+        "use-mcq-05",
+        "use-mcq-08"
       ],
       "explanation": "本句的「usefulness」指「某件事物能提供實際幫助或發揮功能的程度」。",
       "sentenceIndex": 39,
@@ -1827,12 +1685,10 @@ export default {
         "usefulness"
       ],
       "optionReasons": {
-        "use-mcq-15": "本句指「某件事物能提供實際幫助或發揮功能的程度」。",
-        "use-mcq-14": "「能實際幫助達成目的、解決問題或帶來好處的」是「useful」的用法，與本句語境不同。",
-        "use-mcq-16": "「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」是「useless」的用法，與本句語境不同。",
-        "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-17": "「狀況或設計容許某物被實際使用的」是「usable」的用法，與本句語境不同。",
-        "use-mcq-12": "「已對某種情況習以為常，不再覺得陌生」是「be used to + noun/-ing」的用法，與本句語境不同。"
+        "use-mcq-15": "本句的「usefulness」指「某件事物能提供實際幫助或發揮功能的程度」。",
+        "use-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-15"
     },
@@ -1844,10 +1700,8 @@ export default {
       "masked": "Its main advantage is its ____ in noisy places.",
       "options": [
         "use-mcq-15",
-        "use-mcq-14",
-        "use-mcq-16",
-        "use-mcq-13",
-        "use-mcq-17",
+        "use-mcq-25",
+        "use-mcq-04",
         "use-mcq-12"
       ],
       "explanation": "本句的「usefulness」指「某件事物能提供實際幫助或發揮功能的程度」。",
@@ -1857,12 +1711,10 @@ export default {
         "usefulness"
       ],
       "optionReasons": {
-        "use-mcq-15": "本句指「某件事物能提供實際幫助或發揮功能的程度」。",
-        "use-mcq-14": "「能實際幫助達成目的、解決問題或帶來好處的」是「useful」的用法，與本句語境不同。",
-        "use-mcq-16": "「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」是「useless」的用法，與本句語境不同。",
-        "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。",
-        "use-mcq-17": "「狀況或設計容許某物被實際使用的」是「usable」的用法，與本句語境不同。",
-        "use-mcq-12": "「已對某種情況習以為常，不再覺得陌生」是「be used to + noun/-ing」的用法，與本句語境不同。"
+        "use-mcq-15": "本句的「usefulness」指「某件事物能提供實際幫助或發揮功能的程度」。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-15"
     },
@@ -1874,11 +1726,9 @@ export default {
       "masked": "The charger is ____ without the correct adapter.",
       "options": [
         "use-mcq-16",
-        "use-mcq-15",
-        "use-mcq-17",
-        "use-mcq-14",
-        "use-mcq-18",
-        "use-mcq-13"
+        "use-mcq-25",
+        "use-mcq-05",
+        "use-mcq-08"
       ],
       "explanation": "本句的「useless」指「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」。",
       "sentenceIndex": 41,
@@ -1887,12 +1737,10 @@ export default {
         "useless"
       ],
       "optionReasons": {
-        "use-mcq-16": "本句指「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」。",
-        "use-mcq-15": "「某件事物能提供實際幫助或發揮功能的程度」是「usefulness」的用法，與本句語境不同。",
-        "use-mcq-17": "「狀況或設計容許某物被實際使用的」是「usable」的用法，與本句語境不同。",
-        "use-mcq-14": "「能實際幫助達成目的、解決問題或帶來好處的」是「useful」的用法，與本句語境不同。",
-        "use-mcq-18": "「因損壞、不安全或其他問題而無法實際使用的」是「unusable」的用法，與本句語境不同。",
-        "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。"
+        "use-mcq-16": "本句的「useless」指「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-16"
     },
@@ -1904,11 +1752,9 @@ export default {
       "masked": "This information is ____ if it is out of date.",
       "options": [
         "use-mcq-16",
-        "use-mcq-15",
-        "use-mcq-17",
-        "use-mcq-14",
-        "use-mcq-18",
-        "use-mcq-13"
+        "use-mcq-05",
+        "use-mcq-24",
+        "use-mcq-07"
       ],
       "explanation": "本句的「useless」指「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」。",
       "sentenceIndex": 42,
@@ -1917,12 +1763,10 @@ export default {
         "useless"
       ],
       "optionReasons": {
-        "use-mcq-16": "本句指「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」。",
-        "use-mcq-15": "「某件事物能提供實際幫助或發揮功能的程度」是「usefulness」的用法，與本句語境不同。",
-        "use-mcq-17": "「狀況或設計容許某物被實際使用的」是「usable」的用法，與本句語境不同。",
-        "use-mcq-14": "「能實際幫助達成目的、解決問題或帶來好處的」是「useful」的用法，與本句語境不同。",
-        "use-mcq-18": "「因損壞、不安全或其他問題而無法實際使用的」是「unusable」的用法，與本句語境不同。",
-        "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。"
+        "use-mcq-16": "本句的「useless」指「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」。",
+        "use-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-16"
     },
@@ -1934,11 +1778,9 @@ export default {
       "masked": "I’m ____ at drawing.",
       "options": [
         "use-pdf-001",
-        "use-mcq-15",
-        "use-mcq-17",
-        "use-mcq-14",
+        "use-mcq-07",
         "use-mcq-18",
-        "use-mcq-13"
+        "use-mcq-25"
       ],
       "explanation": "本句的「useless」指「在某項技能或事情上非常不擅長」。",
       "sentenceIndex": 43,
@@ -1947,12 +1789,10 @@ export default {
         "useless"
       ],
       "optionReasons": {
-        "use-pdf-001": "本句指「在某項技能或事情上非常不擅長」。",
-        "use-mcq-15": "「某件事物能提供實際幫助或發揮功能的程度」是「usefulness」的用法，與本句語境不同。",
-        "use-mcq-17": "「狀況或設計容許某物被實際使用的」是「usable」的用法，與本句語境不同。",
-        "use-mcq-14": "「能實際幫助達成目的、解決問題或帶來好處的」是「useful」的用法，與本句語境不同。",
-        "use-mcq-18": "「因損壞、不安全或其他問題而無法實際使用的」是「unusable」的用法，與本句語境不同。",
-        "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。"
+        "use-pdf-001": "本句的「useless」指「在某項技能或事情上非常不擅長」。",
+        "use-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-pdf-001"
     },
@@ -1964,10 +1804,8 @@ export default {
       "masked": "He’s ____ with computers.",
       "options": [
         "use-pdf-001",
+        "use-mcq-04",
         "use-mcq-15",
-        "use-mcq-17",
-        "use-mcq-14",
-        "use-mcq-18",
         "use-mcq-13"
       ],
       "explanation": "本句的「useless」指「在某項技能或事情上非常不擅長」。",
@@ -1977,12 +1815,10 @@ export default {
         "useless"
       ],
       "optionReasons": {
-        "use-pdf-001": "本句指「在某項技能或事情上非常不擅長」。",
-        "use-mcq-15": "「某件事物能提供實際幫助或發揮功能的程度」是「usefulness」的用法，與本句語境不同。",
-        "use-mcq-17": "「狀況或設計容許某物被實際使用的」是「usable」的用法，與本句語境不同。",
-        "use-mcq-14": "「能實際幫助達成目的、解決問題或帶來好處的」是「useful」的用法，與本句語境不同。",
-        "use-mcq-18": "「因損壞、不安全或其他問題而無法實際使用的」是「unusable」的用法，與本句語境不同。",
-        "use-mcq-13": "「從不習慣逐漸變成習慣」是「get used to + noun/-ing」的用法，與本句語境不同。"
+        "use-pdf-001": "本句的「useless」指「在某項技能或事情上非常不擅長」。",
+        "use-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-pdf-001"
     },
@@ -1994,11 +1830,9 @@ export default {
       "masked": "The damaged phone is still ____.",
       "options": [
         "use-mcq-17",
-        "use-mcq-16",
-        "use-mcq-18",
-        "use-mcq-15",
-        "use-mcq-19",
-        "use-mcq-14"
+        "use-pdf-001",
+        "use-mcq-12",
+        "use-mcq-07"
       ],
       "explanation": "本句的「usable」指「狀況或設計容許某物被實際使用的」。",
       "sentenceIndex": 45,
@@ -2007,12 +1841,10 @@ export default {
         "usable"
       ],
       "optionReasons": {
-        "use-mcq-17": "本句指「狀況或設計容許某物被實際使用的」。",
-        "use-mcq-16": "「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」是「useless」的用法，與本句語境不同。",
-        "use-mcq-18": "「因損壞、不安全或其他問題而無法實際使用的」是「unusable」的用法，與本句語境不同。",
-        "use-mcq-15": "「某件事物能提供實際幫助或發揮功能的程度」是「usefulness」的用法，與本句語境不同。",
-        "use-mcq-19": "「實際操作或使用產品、系統、技術或服務的人」是「user」的用法，與本句語境不同。",
-        "use-mcq-14": "「能實際幫助達成目的、解決問題或帶來好處的」是「useful」的用法，與本句語境不同。"
+        "use-mcq-17": "本句的「usable」指「狀況或設計容許某物被實際使用的」。",
+        "use-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-17"
     },
@@ -2024,11 +1856,9 @@ export default {
       "masked": "Only half of the available space is ____.",
       "options": [
         "use-mcq-17",
-        "use-mcq-16",
-        "use-mcq-18",
-        "use-mcq-15",
-        "use-mcq-19",
-        "use-mcq-14"
+        "use-mcq-05",
+        "use-mcq-12",
+        "use-mcq-22"
       ],
       "explanation": "本句的「usable」指「狀況或設計容許某物被實際使用的」。",
       "sentenceIndex": 46,
@@ -2037,12 +1867,10 @@ export default {
         "usable"
       ],
       "optionReasons": {
-        "use-mcq-17": "本句指「狀況或設計容許某物被實際使用的」。",
-        "use-mcq-16": "「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」是「useless」的用法，與本句語境不同。",
-        "use-mcq-18": "「因損壞、不安全或其他問題而無法實際使用的」是「unusable」的用法，與本句語境不同。",
-        "use-mcq-15": "「某件事物能提供實際幫助或發揮功能的程度」是「usefulness」的用法，與本句語境不同。",
-        "use-mcq-19": "「實際操作或使用產品、系統、技術或服務的人」是「user」的用法，與本句語境不同。",
-        "use-mcq-14": "「能實際幫助達成目的、解決問題或帶來好處的」是「useful」的用法，與本句語境不同。"
+        "use-mcq-17": "本句的「usable」指「狀況或設計容許某物被實際使用的」。",
+        "use-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-17"
     },
@@ -2054,11 +1882,9 @@ export default {
       "masked": "The file became ____ after it was corrupted.",
       "options": [
         "use-mcq-18",
-        "use-mcq-17",
-        "use-mcq-19",
-        "use-mcq-16",
-        "use-mcq-20",
-        "use-mcq-15"
+        "use-mcq-08",
+        "use-pdf-001",
+        "use-mcq-12"
       ],
       "explanation": "本句的「unusable」指「因損壞、不安全或其他問題而無法實際使用的」。",
       "sentenceIndex": 47,
@@ -2067,12 +1893,10 @@ export default {
         "unusable"
       ],
       "optionReasons": {
-        "use-mcq-18": "本句指「因損壞、不安全或其他問題而無法實際使用的」。",
-        "use-mcq-17": "「狀況或設計容許某物被實際使用的」是「usable」的用法，與本句語境不同。",
-        "use-mcq-19": "「實際操作或使用產品、系統、技術或服務的人」是「user」的用法，與本句語境不同。",
-        "use-mcq-16": "「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」是「useless」的用法，與本句語境不同。",
-        "use-mcq-20": "「某物被使用的方式、頻率、程度或數量」是「usage — general」的用法，與本句語境不同。",
-        "use-mcq-15": "「某件事物能提供實際幫助或發揮功能的程度」是「usefulness」的用法，與本句語境不同。"
+        "use-mcq-18": "本句的「unusable」指「因損壞、不安全或其他問題而無法實際使用的」。",
+        "use-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "use-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-18"
     },
@@ -2084,11 +1908,9 @@ export default {
       "masked": "The water is ____ because of contamination.",
       "options": [
         "use-mcq-18",
-        "use-mcq-17",
-        "use-mcq-19",
-        "use-mcq-16",
+        "use-mcq-08",
         "use-mcq-20",
-        "use-mcq-15"
+        "use-mcq-07"
       ],
       "explanation": "本句的「unusable」指「因損壞、不安全或其他問題而無法實際使用的」。",
       "sentenceIndex": 48,
@@ -2097,12 +1919,10 @@ export default {
         "unusable"
       ],
       "optionReasons": {
-        "use-mcq-18": "本句指「因損壞、不安全或其他問題而無法實際使用的」。",
-        "use-mcq-17": "「狀況或設計容許某物被實際使用的」是「usable」的用法，與本句語境不同。",
-        "use-mcq-19": "「實際操作或使用產品、系統、技術或服務的人」是「user」的用法，與本句語境不同。",
-        "use-mcq-16": "「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」是「useless」的用法，與本句語境不同。",
-        "use-mcq-20": "「某物被使用的方式、頻率、程度或數量」是「usage — general」的用法，與本句語境不同。",
-        "use-mcq-15": "「某件事物能提供實際幫助或發揮功能的程度」是「usefulness」的用法，與本句語境不同。"
+        "use-mcq-18": "本句的「unusable」指「因損壞、不安全或其他問題而無法實際使用的」。",
+        "use-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-18"
     },
@@ -2114,11 +1934,9 @@ export default {
       "masked": "The app has millions of active ____.",
       "options": [
         "use-mcq-19",
-        "use-mcq-18",
-        "use-mcq-20",
-        "use-mcq-17",
-        "use-mcq-21",
-        "use-mcq-16"
+        "use-mcq-13",
+        "use-mcq-06",
+        "use-mcq-22"
       ],
       "explanation": "本句的「users」指「實際操作或使用產品、系統、技術或服務的人」。",
       "sentenceIndex": 49,
@@ -2127,12 +1945,10 @@ export default {
         "users"
       ],
       "optionReasons": {
-        "use-mcq-19": "本句指「實際操作或使用產品、系統、技術或服務的人」。",
-        "use-mcq-18": "「因損壞、不安全或其他問題而無法實際使用的」是「unusable」的用法，與本句語境不同。",
-        "use-mcq-20": "「某物被使用的方式、頻率、程度或數量」是「usage — general」的用法，與本句語境不同。",
-        "use-mcq-17": "「狀況或設計容許某物被實際使用的」是「usable」的用法，與本句語境不同。",
-        "use-mcq-21": "「字詞、語法或表達方式在實際語言中的慣常用法」是「usage — language」的用法，與本句語境不同。",
-        "use-mcq-16": "「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」是「useless」的用法，與本句語境不同。"
+        "use-mcq-19": "本句的「users」指「實際操作或使用產品、系統、技術或服務的人」。",
+        "use-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-19"
     },
@@ -2144,11 +1960,9 @@ export default {
       "masked": "The interface is designed for new ____.",
       "options": [
         "use-mcq-19",
-        "use-mcq-18",
-        "use-mcq-20",
-        "use-mcq-17",
-        "use-mcq-21",
-        "use-mcq-16"
+        "use-mcq-07",
+        "use-mcq-13",
+        "use-mcq-04"
       ],
       "explanation": "本句的「users」指「實際操作或使用產品、系統、技術或服務的人」。",
       "sentenceIndex": 50,
@@ -2157,12 +1971,10 @@ export default {
         "users"
       ],
       "optionReasons": {
-        "use-mcq-19": "本句指「實際操作或使用產品、系統、技術或服務的人」。",
-        "use-mcq-18": "「因損壞、不安全或其他問題而無法實際使用的」是「unusable」的用法，與本句語境不同。",
-        "use-mcq-20": "「某物被使用的方式、頻率、程度或數量」是「usage — general」的用法，與本句語境不同。",
-        "use-mcq-17": "「狀況或設計容許某物被實際使用的」是「usable」的用法，與本句語境不同。",
-        "use-mcq-21": "「字詞、語法或表達方式在實際語言中的慣常用法」是「usage — language」的用法，與本句語境不同。",
-        "use-mcq-16": "「無法提供所需幫助或實際價值的；亦可指非常不擅長某事」是「useless」的用法，與本句語境不同。"
+        "use-mcq-19": "本句的「users」指「實際操作或使用產品、系統、技術或服務的人」。",
+        "use-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-19"
     },
@@ -2174,11 +1986,9 @@ export default {
       "masked": "Battery ____ increased after the update.",
       "options": [
         "use-mcq-20",
-        "use-mcq-19",
         "use-mcq-21",
-        "use-mcq-18",
-        "use-mcq-22",
-        "use-mcq-17"
+        "use-mcq-08",
+        "use-mcq-22"
       ],
       "explanation": "本句的「usage」指「某物被使用的方式、頻率、程度或數量」。",
       "sentenceIndex": 51,
@@ -2187,12 +1997,10 @@ export default {
         "usage"
       ],
       "optionReasons": {
-        "use-mcq-20": "本句指「某物被使用的方式、頻率、程度或數量」。",
-        "use-mcq-19": "「實際操作或使用產品、系統、技術或服務的人」是「user」的用法，與本句語境不同。",
-        "use-mcq-21": "「字詞、語法或表達方式在實際語言中的慣常用法」是「usage — language」的用法，與本句語境不同。",
-        "use-mcq-18": "「因損壞、不安全或其他問題而無法實際使用的」是「unusable」的用法，與本句語境不同。",
-        "use-mcq-22": "「某件東西使用後再次使用」是「reuse」的用法，與本句語境不同。",
-        "use-mcq-17": "「狀況或設計容許某物被實際使用的」是「usable」的用法，與本句語境不同。"
+        "use-mcq-20": "本句的「usage」指「某物被使用的方式、頻率、程度或數量」。",
+        "use-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-20"
     },
@@ -2204,11 +2012,9 @@ export default {
       "masked": "The report tracks internet ____.",
       "options": [
         "use-mcq-20",
-        "use-mcq-19",
-        "use-mcq-21",
-        "use-mcq-18",
-        "use-mcq-22",
-        "use-mcq-17"
+        "use-mcq-14",
+        "use-pdf-001",
+        "use-mcq-22"
       ],
       "explanation": "本句的「usage」指「某物被使用的方式、頻率、程度或數量」。",
       "sentenceIndex": 52,
@@ -2217,12 +2023,10 @@ export default {
         "usage"
       ],
       "optionReasons": {
-        "use-mcq-20": "本句指「某物被使用的方式、頻率、程度或數量」。",
-        "use-mcq-19": "「實際操作或使用產品、系統、技術或服務的人」是「user」的用法，與本句語境不同。",
-        "use-mcq-21": "「字詞、語法或表達方式在實際語言中的慣常用法」是「usage — language」的用法，與本句語境不同。",
-        "use-mcq-18": "「因損壞、不安全或其他問題而無法實際使用的」是「unusable」的用法，與本句語境不同。",
-        "use-mcq-22": "「某件東西使用後再次使用」是「reuse」的用法，與本句語境不同。",
-        "use-mcq-17": "「狀況或設計容許某物被實際使用的」是「usable」的用法，與本句語境不同。"
+        "use-mcq-20": "本句的「usage」指「某物被使用的方式、頻率、程度或數量」。",
+        "use-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "use-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-20"
     },
@@ -2235,10 +2039,8 @@ export default {
       "options": [
         "use-mcq-21",
         "use-mcq-20",
-        "use-mcq-22",
-        "use-mcq-19",
-        "use-mcq-23",
-        "use-mcq-18"
+        "use-mcq-07",
+        "use-mcq-25"
       ],
       "explanation": "本句的「usage」指「字詞、語法或表達方式在實際語言中的慣常用法」。",
       "sentenceIndex": 53,
@@ -2247,12 +2049,10 @@ export default {
         "usage"
       ],
       "optionReasons": {
-        "use-mcq-21": "本句指「字詞、語法或表達方式在實際語言中的慣常用法」。",
-        "use-mcq-20": "「某物被使用的方式、頻率、程度或數量」是「usage — general」的用法，與本句語境不同。",
-        "use-mcq-22": "「某件東西使用後再次使用」是「reuse」的用法，與本句語境不同。",
-        "use-mcq-19": "「實際操作或使用產品、系統、技術或服務的人」是「user」的用法，與本句語境不同。",
-        "use-mcq-23": "「以錯誤、不適當或未獲允許的方式使用」是「misuse」的用法，與本句語境不同。",
-        "use-mcq-18": "「因損壞、不安全或其他問題而無法實際使用的」是「unusable」的用法，與本句語境不同。"
+        "use-mcq-21": "本句的「usage」指「字詞、語法或表達方式在實際語言中的慣常用法」。",
+        "use-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-21"
     },
@@ -2264,11 +2064,9 @@ export default {
       "masked": "British and American ____ sometimes differs.",
       "options": [
         "use-mcq-21",
-        "use-mcq-20",
         "use-mcq-22",
-        "use-mcq-19",
-        "use-mcq-23",
-        "use-mcq-18"
+        "use-mcq-08",
+        "use-mcq-24"
       ],
       "explanation": "本句的「usage」指「字詞、語法或表達方式在實際語言中的慣常用法」。",
       "sentenceIndex": 54,
@@ -2277,12 +2075,10 @@ export default {
         "usage"
       ],
       "optionReasons": {
-        "use-mcq-21": "本句指「字詞、語法或表達方式在實際語言中的慣常用法」。",
-        "use-mcq-20": "「某物被使用的方式、頻率、程度或數量」是「usage — general」的用法，與本句語境不同。",
-        "use-mcq-22": "「某件東西使用後再次使用」是「reuse」的用法，與本句語境不同。",
-        "use-mcq-19": "「實際操作或使用產品、系統、技術或服務的人」是「user」的用法，與本句語境不同。",
-        "use-mcq-23": "「以錯誤、不適當或未獲允許的方式使用」是「misuse」的用法，與本句語境不同。",
-        "use-mcq-18": "「因損壞、不安全或其他問題而無法實際使用的」是「unusable」的用法，與本句語境不同。"
+        "use-mcq-21": "本句的「usage」指「字詞、語法或表達方式在實際語言中的慣常用法」。",
+        "use-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-21"
     },
@@ -2294,11 +2090,9 @@ export default {
       "masked": "You can ____ the container.",
       "options": [
         "use-mcq-22",
-        "use-mcq-21",
-        "use-mcq-23",
-        "use-mcq-20",
-        "use-mcq-24",
-        "use-mcq-19"
+        "use-mcq-19",
+        "use-mcq-05",
+        "use-mcq-11"
       ],
       "explanation": "本句的「reuse」指「某件東西使用後再次使用」。",
       "sentenceIndex": 55,
@@ -2307,12 +2101,10 @@ export default {
         "reuse"
       ],
       "optionReasons": {
-        "use-mcq-22": "本句指「某件東西使用後再次使用」。",
-        "use-mcq-21": "「字詞、語法或表達方式在實際語言中的慣常用法」是「usage — language」的用法，與本句語境不同。",
-        "use-mcq-23": "「以錯誤、不適當或未獲允許的方式使用」是「misuse」的用法，與本句語境不同。",
-        "use-mcq-20": "「某物被使用的方式、頻率、程度或數量」是「usage — general」的用法，與本句語境不同。",
-        "use-mcq-24": "「使用次數、時間或程度過多，以致產生問題或失去效果」是「overuse」的用法，與本句語境不同。",
-        "use-mcq-19": "「實際操作或使用產品、系統、技術或服務的人」是「user」的用法，與本句語境不同。"
+        "use-mcq-22": "本句的「reuse」指「某件東西使用後再次使用」。",
+        "use-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-22"
     },
@@ -2324,11 +2116,9 @@ export default {
       "masked": "The company ____ packaging materials.",
       "options": [
         "use-mcq-22",
-        "use-mcq-21",
-        "use-mcq-23",
-        "use-mcq-20",
-        "use-mcq-24",
-        "use-mcq-19"
+        "use-mcq-17",
+        "use-mcq-25",
+        "use-mcq-08"
       ],
       "explanation": "本句的「reuses」指「某件東西使用後再次使用」。",
       "sentenceIndex": 56,
@@ -2337,12 +2127,10 @@ export default {
         "reuses"
       ],
       "optionReasons": {
-        "use-mcq-22": "本句指「某件東西使用後再次使用」。",
-        "use-mcq-21": "「字詞、語法或表達方式在實際語言中的慣常用法」是「usage — language」的用法，與本句語境不同。",
-        "use-mcq-23": "「以錯誤、不適當或未獲允許的方式使用」是「misuse」的用法，與本句語境不同。",
-        "use-mcq-20": "「某物被使用的方式、頻率、程度或數量」是「usage — general」的用法，與本句語境不同。",
-        "use-mcq-24": "「使用次數、時間或程度過多，以致產生問題或失去效果」是「overuse」的用法，與本句語境不同。",
-        "use-mcq-19": "「實際操作或使用產品、系統、技術或服務的人」是「user」的用法，與本句語境不同。"
+        "use-mcq-22": "本句的「reuses」指「某件東西使用後再次使用」。",
+        "use-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-22"
     },
@@ -2354,11 +2142,9 @@ export default {
       "masked": "The equipment can be dangerous if ____.",
       "options": [
         "use-mcq-23",
-        "use-mcq-22",
-        "use-mcq-24",
-        "use-mcq-21",
-        "use-mcq-25",
-        "use-mcq-20"
+        "use-mcq-05",
+        "use-mcq-12",
+        "use-mcq-22"
       ],
       "explanation": "本句的「misused」指「以錯誤、不適當或未獲允許的方式使用」。",
       "sentenceIndex": 57,
@@ -2367,12 +2153,10 @@ export default {
         "misused"
       ],
       "optionReasons": {
-        "use-mcq-23": "本句指「以錯誤、不適當或未獲允許的方式使用」。",
-        "use-mcq-22": "「某件東西使用後再次使用」是「reuse」的用法，與本句語境不同。",
-        "use-mcq-24": "「使用次數、時間或程度過多，以致產生問題或失去效果」是「overuse」的用法，與本句語境不同。",
-        "use-mcq-21": "「字詞、語法或表達方式在實際語言中的慣常用法」是「usage — language」的用法，與本句語境不同。",
-        "use-mcq-25": "「服用、吸食或攝取某種藥物／物質」是「8. use drugs/substances（藥物／毒品） — 使用；服用」的用法，與本句語境不同。",
-        "use-mcq-20": "「某物被使用的方式、頻率、程度或數量」是「usage — general」的用法，與本句語境不同。"
+        "use-mcq-23": "本句的「misused」指「以錯誤、不適當或未獲允許的方式使用」。",
+        "use-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-23"
     },
@@ -2385,9 +2169,7 @@ export default {
       "options": [
         "use-mcq-23",
         "use-mcq-22",
-        "use-mcq-24",
-        "use-mcq-21",
-        "use-mcq-25",
+        "use-mcq-13",
         "use-mcq-20"
       ],
       "explanation": "本句的「misusing」指「以錯誤、不適當或未獲允許的方式使用」。",
@@ -2397,12 +2179,10 @@ export default {
         "misusing"
       ],
       "optionReasons": {
-        "use-mcq-23": "本句指「以錯誤、不適當或未獲允許的方式使用」。",
-        "use-mcq-22": "「某件東西使用後再次使用」是「reuse」的用法，與本句語境不同。",
-        "use-mcq-24": "「使用次數、時間或程度過多，以致產生問題或失去效果」是「overuse」的用法，與本句語境不同。",
-        "use-mcq-21": "「字詞、語法或表達方式在實際語言中的慣常用法」是「usage — language」的用法，與本句語境不同。",
-        "use-mcq-25": "「服用、吸食或攝取某種藥物／物質」是「8. use drugs/substances（藥物／毒品） — 使用；服用」的用法，與本句語境不同。",
-        "use-mcq-20": "「某物被使用的方式、頻率、程度或數量」是「usage — general」的用法，與本句語境不同。"
+        "use-mcq-23": "本句的「misusing」指「以錯誤、不適當或未獲允許的方式使用」。",
+        "use-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-23"
     },
@@ -2414,11 +2194,9 @@ export default {
       "masked": "____ of headphones at high volume can be harmful.",
       "options": [
         "use-mcq-24",
-        "use-mcq-23",
+        "use-mcq-01",
         "use-mcq-25",
-        "use-mcq-22",
-        "use-mcq-26",
-        "use-mcq-21"
+        "use-mcq-04"
       ],
       "explanation": "本句的「Overuse」指「使用次數、時間或程度過多，以致產生問題或失去效果」。",
       "sentenceIndex": 59,
@@ -2427,12 +2205,10 @@ export default {
         "Overuse"
       ],
       "optionReasons": {
-        "use-mcq-24": "本句指「使用次數、時間或程度過多，以致產生問題或失去效果」。",
-        "use-mcq-23": "「以錯誤、不適當或未獲允許的方式使用」是「misuse」的用法，與本句語境不同。",
-        "use-mcq-25": "「服用、吸食或攝取某種藥物／物質」是「8. use drugs/substances（藥物／毒品） — 使用；服用」的用法，與本句語境不同。",
-        "use-mcq-22": "「某件東西使用後再次使用」是「reuse」的用法，與本句語境不同。",
-        "use-mcq-26": "「以能提供實際幫助或便利的方式」是「20. usefully = in a helpful/practical way — 有用地；有效地」的用法，與本句語境不同。",
-        "use-mcq-21": "「字詞、語法或表達方式在實際語言中的慣常用法」是「usage — language」的用法，與本句語境不同。"
+        "use-mcq-24": "本句的「Overuse」指「使用次數、時間或程度過多，以致產生問題或失去效果」。",
+        "use-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-24"
     },
@@ -2444,11 +2220,9 @@ export default {
       "masked": "The word has been ____ in advertising.",
       "options": [
         "use-mcq-24",
-        "use-mcq-23",
-        "use-mcq-25",
-        "use-mcq-22",
-        "use-mcq-26",
-        "use-mcq-21"
+        "use-mcq-04",
+        "use-mcq-08",
+        "use-mcq-13"
       ],
       "explanation": "本句的「overused」指「使用次數、時間或程度過多，以致產生問題或失去效果」。",
       "sentenceIndex": 60,
@@ -2457,12 +2231,10 @@ export default {
         "overused"
       ],
       "optionReasons": {
-        "use-mcq-24": "本句指「使用次數、時間或程度過多，以致產生問題或失去效果」。",
-        "use-mcq-23": "「以錯誤、不適當或未獲允許的方式使用」是「misuse」的用法，與本句語境不同。",
-        "use-mcq-25": "「服用、吸食或攝取某種藥物／物質」是「8. use drugs/substances（藥物／毒品） — 使用；服用」的用法，與本句語境不同。",
-        "use-mcq-22": "「某件東西使用後再次使用」是「reuse」的用法，與本句語境不同。",
-        "use-mcq-26": "「以能提供實際幫助或便利的方式」是「20. usefully = in a helpful/practical way — 有用地；有效地」的用法，與本句語境不同。",
-        "use-mcq-21": "「字詞、語法或表達方式在實際語言中的慣常用法」是「usage — language」的用法，與本句語境不同。"
+        "use-mcq-24": "本句的「overused」指「使用次數、時間或程度過多，以致產生問題或失去效果」。",
+        "use-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "use-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "use-mcq-24"
     }
@@ -2474,5 +2246,7 @@ export default {
     "sha256": "916ff168366caa139cd77dc870dcc0ea04678ce1b5209611071c71c6871569ce",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

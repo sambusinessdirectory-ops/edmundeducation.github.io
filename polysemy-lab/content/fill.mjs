@@ -668,11 +668,9 @@ export default {
       "masked": "She ____ with water.",
       "options": [
         "fill-mcq-01",
-        "fill-mcq-02",
-        "fill-mcq-03",
-        "fill-mcq-04",
-        "fill-mcq-05",
-        "fill-mcq-06"
+        "fill-pdf-001",
+        "fill-mcq-12",
+        "fill-mcq-15"
       ],
       "explanation": "本句的「filled the bottle」指「裝滿容器」。",
       "sentenceIndex": 0,
@@ -681,12 +679,10 @@ export default {
         "filled the bottle"
       ],
       "optionReasons": {
-        "fill-mcq-01": "本句指「裝滿容器」。",
-        "fill-mcq-02": "「用 Y 填滿 X」是「fill X with Y」的用法，與本句語境不同。",
-        "fill-mcq-03": "「裝滿／充滿 X」是「be filled with X」的用法，與本句語境不同。",
-        "fill-mcq-04": "「佔滿房間」是「fill a room」的用法，與本句語境不同。",
-        "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。",
-        "fill-mcq-06": "「令某人充滿喜悅」是「fill someone with joy」的用法，與本句語境不同。"
+        "fill-mcq-01": "本句的「filled the bottle」指「裝滿容器」。",
+        "fill-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-01"
     },
@@ -698,11 +694,9 @@ export default {
       "masked": "Please ____ with fruit.",
       "options": [
         "fill-mcq-01",
-        "fill-mcq-02",
-        "fill-mcq-03",
-        "fill-mcq-04",
-        "fill-mcq-05",
-        "fill-mcq-06"
+        "fill-mcq-11",
+        "fill-mcq-24",
+        "fill-mcq-15"
       ],
       "explanation": "本句的「fill the bowl」指「裝滿容器」。",
       "sentenceIndex": 1,
@@ -711,12 +705,10 @@ export default {
         "fill the bowl"
       ],
       "optionReasons": {
-        "fill-mcq-01": "本句指「裝滿容器」。",
-        "fill-mcq-02": "「用 Y 填滿 X」是「fill X with Y」的用法，與本句語境不同。",
-        "fill-mcq-03": "「裝滿／充滿 X」是「be filled with X」的用法，與本句語境不同。",
-        "fill-mcq-04": "「佔滿房間」是「fill a room」的用法，與本句語境不同。",
-        "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。",
-        "fill-mcq-06": "「令某人充滿喜悅」是「fill someone with joy」的用法，與本句語境不同。"
+        "fill-mcq-01": "本句的「fill the bowl」指「裝滿容器」。",
+        "fill-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-01"
     },
@@ -728,11 +720,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "fill-mcq-28",
-        "fill-mcq-27",
-        "fill-mcq-26",
-        "fill-mcq-25",
-        "fill-mcq-24",
-        "fill-mcq-23"
+        "fill-mcq-05",
+        "fill-mcq-18",
+        "fill-pdf-001"
       ],
       "explanation": "本句的「filled the box with old photographs」指「把 Y 放進 X，直到 X 裏有很多 Y 或變滿」。",
       "sentenceIndex": 2,
@@ -741,12 +731,10 @@ export default {
         "filled the box with old photographs"
       ],
       "optionReasons": {
-        "fill-mcq-28": "本句指「把 Y 放進 X，直到 X 裏有很多 Y 或變滿」。",
-        "fill-mcq-27": "「填充物；補白」是「filler」的用法，與本句語境不同。",
-        "fill-mcq-26": "「飽肚的」是「filling (adj.)」的用法，與本句語境不同。",
-        "fill-mcq-25": "「餡料；填充物」是「filling (noun)」的用法，與本句語境不同。",
-        "fill-mcq-24": "「續杯／補充份」是「a refill」的用法，與本句語境不同。",
-        "fill-mcq-23": "「再裝滿」是「refill」的用法，與本句語境不同。"
+        "fill-mcq-28": "本句的「filled the box with old photographs」指「把 Y 放進 X，直到 X 裏有很多 Y 或變滿」。",
+        "fill-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fill-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-28"
     },
@@ -758,11 +746,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "fill-mcq-28",
-        "fill-mcq-27",
-        "fill-mcq-26",
-        "fill-mcq-25",
-        "fill-mcq-24",
-        "fill-mcq-23"
+        "fill-mcq-08",
+        "fill-mcq-19",
+        "fill-mcq-14"
       ],
       "explanation": "本句的「filled the bag with books」指「把 Y 放進 X，直到 X 裏有很多 Y 或變滿」。",
       "sentenceIndex": 3,
@@ -771,12 +757,10 @@ export default {
         "filled the bag with books"
       ],
       "optionReasons": {
-        "fill-mcq-28": "本句指「把 Y 放進 X，直到 X 裏有很多 Y 或變滿」。",
-        "fill-mcq-27": "「填充物；補白」是「filler」的用法，與本句語境不同。",
-        "fill-mcq-26": "「飽肚的」是「filling (adj.)」的用法，與本句語境不同。",
-        "fill-mcq-25": "「餡料；填充物」是「filling (noun)」的用法，與本句語境不同。",
-        "fill-mcq-24": "「續杯／補充份」是「a refill」的用法，與本句語境不同。",
-        "fill-mcq-23": "「再裝滿」是「refill」的用法，與本句語境不同。"
+        "fill-mcq-28": "本句的「filled the bag with books」指「把 Y 放進 X，直到 X 裏有很多 Y 或變滿」。",
+        "fill-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-28"
     },
@@ -788,11 +772,9 @@ export default {
       "masked": "It was a scrapbook ____ printed photos and notes.",
       "options": [
         "fill-mcq-03",
-        "fill-mcq-02",
-        "fill-mcq-04",
-        "fill-mcq-01",
-        "fill-mcq-05",
-        "fill-mcq-06"
+        "fill-mcq-10",
+        "fill-mcq-14",
+        "fill-mcq-15"
       ],
       "explanation": "本句的「filled with」指「裝滿／充滿 X」。",
       "sentenceIndex": 4,
@@ -801,12 +783,10 @@ export default {
         "filled with"
       ],
       "optionReasons": {
-        "fill-mcq-03": "本句指「裝滿／充滿 X」。",
-        "fill-mcq-02": "「用 Y 填滿 X」是「fill X with Y」的用法，與本句語境不同。",
-        "fill-mcq-04": "「佔滿房間」是「fill a room」的用法，與本句語境不同。",
-        "fill-mcq-01": "「裝滿容器」是「fill a container」的用法，與本句語境不同。",
-        "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。",
-        "fill-mcq-06": "「令某人充滿喜悅」是「fill someone with joy」的用法，與本句語境不同。"
+        "fill-mcq-03": "本句的「filled with」指「裝滿／充滿 X」。",
+        "fill-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-03"
     },
@@ -818,11 +798,9 @@ export default {
       "masked": "The shelves were ____.",
       "options": [
         "fill-mcq-03",
-        "fill-mcq-02",
-        "fill-mcq-04",
-        "fill-mcq-01",
-        "fill-mcq-05",
-        "fill-mcq-06"
+        "fill-mcq-19",
+        "fill-mcq-12",
+        "fill-mcq-15"
       ],
       "explanation": "本句的「filled with books」指「裝滿／充滿 X」。",
       "sentenceIndex": 5,
@@ -831,12 +809,10 @@ export default {
         "filled with books"
       ],
       "optionReasons": {
-        "fill-mcq-03": "本句指「裝滿／充滿 X」。",
-        "fill-mcq-02": "「用 Y 填滿 X」是「fill X with Y」的用法，與本句語境不同。",
-        "fill-mcq-04": "「佔滿房間」是「fill a room」的用法，與本句語境不同。",
-        "fill-mcq-01": "「裝滿容器」是「fill a container」的用法，與本句語境不同。",
-        "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。",
-        "fill-mcq-06": "「令某人充滿喜悅」是「fill someone with joy」的用法，與本句語境不同。"
+        "fill-mcq-03": "本句的「filled with books」指「裝滿／充滿 X」。",
+        "fill-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-03"
     },
@@ -848,11 +824,9 @@ export default {
       "masked": "The room was ____.",
       "options": [
         "fill-mcq-03",
-        "fill-mcq-02",
-        "fill-mcq-04",
-        "fill-mcq-01",
-        "fill-mcq-05",
-        "fill-mcq-06"
+        "fill-mcq-08",
+        "fill-pdf-001",
+        "fill-mcq-05"
       ],
       "explanation": "本句的「filled with people」指「裝滿／充滿 X」。",
       "sentenceIndex": 6,
@@ -861,12 +835,10 @@ export default {
         "filled with people"
       ],
       "optionReasons": {
-        "fill-mcq-03": "本句指「裝滿／充滿 X」。",
-        "fill-mcq-02": "「用 Y 填滿 X」是「fill X with Y」的用法，與本句語境不同。",
-        "fill-mcq-04": "「佔滿房間」是「fill a room」的用法，與本句語境不同。",
-        "fill-mcq-01": "「裝滿容器」是「fill a container」的用法，與本句語境不同。",
-        "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。",
-        "fill-mcq-06": "「令某人充滿喜悅」是「fill someone with joy」的用法，與本句語境不同。"
+        "fill-mcq-03": "本句的「filled with people」指「裝滿／充滿 X」。",
+        "fill-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fill-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-03"
     },
@@ -878,11 +850,9 @@ export default {
       "masked": "The furniture ____.",
       "options": [
         "fill-mcq-04",
-        "fill-mcq-03",
-        "fill-mcq-05",
-        "fill-mcq-02",
-        "fill-mcq-06",
-        "fill-mcq-01"
+        "fill-mcq-08",
+        "fill-mcq-24",
+        "fill-mcq-26"
       ],
       "explanation": "本句的「filled the room」指「佔滿房間」。",
       "sentenceIndex": 7,
@@ -891,12 +861,10 @@ export default {
         "filled the room"
       ],
       "optionReasons": {
-        "fill-mcq-04": "本句指「佔滿房間」。",
-        "fill-mcq-03": "「裝滿／充滿 X」是「be filled with X」的用法，與本句語境不同。",
-        "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。",
-        "fill-mcq-02": "「用 Y 填滿 X」是「fill X with Y」的用法，與本句語境不同。",
-        "fill-mcq-06": "「令某人充滿喜悅」是「fill someone with joy」的用法，與本句語境不同。",
-        "fill-mcq-01": "「裝滿容器」是「fill a container」的用法，與本句語境不同。"
+        "fill-mcq-04": "本句的「filled the room」指「佔滿房間」。",
+        "fill-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-04"
     },
@@ -908,11 +876,9 @@ export default {
       "masked": "Smoke quickly ____.",
       "options": [
         "fill-mcq-04",
-        "fill-mcq-03",
-        "fill-mcq-05",
-        "fill-mcq-02",
-        "fill-mcq-06",
-        "fill-mcq-01"
+        "fill-mcq-25",
+        "fill-mcq-20",
+        "fill-mcq-14"
       ],
       "explanation": "本句的「filled the space」指「佔滿房間」。",
       "sentenceIndex": 8,
@@ -921,12 +887,10 @@ export default {
         "filled the space"
       ],
       "optionReasons": {
-        "fill-mcq-04": "本句指「佔滿房間」。",
-        "fill-mcq-03": "「裝滿／充滿 X」是「be filled with X」的用法，與本句語境不同。",
-        "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。",
-        "fill-mcq-02": "「用 Y 填滿 X」是「fill X with Y」的用法，與本句語境不同。",
-        "fill-mcq-06": "「令某人充滿喜悅」是「fill someone with joy」的用法，與本句語境不同。",
-        "fill-mcq-01": "「裝滿容器」是「fill a container」的用法，與本句語境不同。"
+        "fill-mcq-04": "本句的「filled the space」指「佔滿房間」。",
+        "fill-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-04"
     },
@@ -939,10 +903,8 @@ export default {
       "options": [
         "fill-mcq-05",
         "fill-mcq-04",
-        "fill-mcq-06",
-        "fill-mcq-03",
-        "fill-mcq-07",
-        "fill-mcq-02"
+        "fill-mcq-25",
+        "fill-mcq-28"
       ],
       "explanation": "本句的「filled the air」指「瀰漫」。",
       "sentenceIndex": 9,
@@ -951,12 +913,10 @@ export default {
         "filled the air"
       ],
       "optionReasons": {
-        "fill-mcq-05": "本句指「瀰漫」。",
-        "fill-mcq-04": "「佔滿房間」是「fill a room」的用法，與本句語境不同。",
-        "fill-mcq-06": "「令某人充滿喜悅」是「fill someone with joy」的用法，與本句語境不同。",
-        "fill-mcq-03": "「裝滿／充滿 X」是「be filled with X」的用法，與本句語境不同。",
-        "fill-mcq-07": "「佔滿一頁」是「fill a page」的用法，與本句語境不同。",
-        "fill-mcq-02": "「用 Y 填滿 X」是「fill X with Y」的用法，與本句語境不同。"
+        "fill-mcq-05": "本句的「filled the air」指「瀰漫」。",
+        "fill-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-05"
     },
@@ -968,11 +928,9 @@ export default {
       "masked": "Music ____.",
       "options": [
         "fill-mcq-05",
-        "fill-mcq-04",
-        "fill-mcq-06",
-        "fill-mcq-03",
-        "fill-mcq-07",
-        "fill-mcq-02"
+        "fill-mcq-26",
+        "fill-mcq-17",
+        "fill-pdf-001"
       ],
       "explanation": "本句的「filled the hall」指「瀰漫」。",
       "sentenceIndex": 10,
@@ -981,12 +939,10 @@ export default {
         "filled the hall"
       ],
       "optionReasons": {
-        "fill-mcq-05": "本句指「瀰漫」。",
-        "fill-mcq-04": "「佔滿房間」是「fill a room」的用法，與本句語境不同。",
-        "fill-mcq-06": "「令某人充滿喜悅」是「fill someone with joy」的用法，與本句語境不同。",
-        "fill-mcq-03": "「裝滿／充滿 X」是「be filled with X」的用法，與本句語境不同。",
-        "fill-mcq-07": "「佔滿一頁」是「fill a page」的用法，與本句語境不同。",
-        "fill-mcq-02": "「用 Y 填滿 X」是「fill X with Y」的用法，與本句語境不同。"
+        "fill-mcq-05": "本句的「filled the hall」指「瀰漫」。",
+        "fill-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fill-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-05"
     },
@@ -998,11 +954,9 @@ export default {
       "masked": "The memory ____.",
       "options": [
         "fill-pdf-001",
-        "fill-mcq-05",
-        "fill-mcq-07",
-        "fill-mcq-04",
-        "fill-mcq-08",
-        "fill-mcq-03"
+        "fill-mcq-15",
+        "fill-mcq-09",
+        "fill-mcq-24"
       ],
       "explanation": "本句的「filled her with joy」指「令某人強烈感受到某種情緒或感覺」。",
       "sentenceIndex": 11,
@@ -1011,12 +965,10 @@ export default {
         "filled her with joy"
       ],
       "optionReasons": {
-        "fill-pdf-001": "本句指「令某人強烈感受到某種情緒或感覺」。",
-        "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。",
-        "fill-mcq-07": "「佔滿一頁」是「fill a page」的用法，與本句語境不同。",
-        "fill-mcq-04": "「佔滿房間」是「fill a room」的用法，與本句語境不同。",
-        "fill-mcq-08": "「填補裂縫」是「fill a crack」的用法，與本句語境不同。",
-        "fill-mcq-03": "「裝滿／充滿 X」是「be filled with X」的用法，與本句語境不同。"
+        "fill-pdf-001": "本句的「filled her with joy」指「令某人強烈感受到某種情緒或感覺」。",
+        "fill-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-pdf-001"
     },
@@ -1028,11 +980,9 @@ export default {
       "masked": "The news ____.",
       "options": [
         "fill-pdf-001",
-        "fill-mcq-05",
-        "fill-mcq-07",
-        "fill-mcq-04",
+        "fill-mcq-15",
         "fill-mcq-08",
-        "fill-mcq-03"
+        "fill-mcq-24"
       ],
       "explanation": "本句的「filled him with fear」指「令某人強烈感受到某種情緒或感覺」。",
       "sentenceIndex": 12,
@@ -1041,12 +991,10 @@ export default {
         "filled him with fear"
       ],
       "optionReasons": {
-        "fill-pdf-001": "本句指「令某人強烈感受到某種情緒或感覺」。",
-        "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。",
-        "fill-mcq-07": "「佔滿一頁」是「fill a page」的用法，與本句語境不同。",
-        "fill-mcq-04": "「佔滿房間」是「fill a room」的用法，與本句語境不同。",
-        "fill-mcq-08": "「填補裂縫」是「fill a crack」的用法，與本句語境不同。",
-        "fill-mcq-03": "「裝滿／充滿 X」是「be filled with X」的用法，與本句語境不同。"
+        "fill-pdf-001": "本句的「filled him with fear」指「令某人強烈感受到某種情緒或感覺」。",
+        "fill-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-pdf-001"
     },
@@ -1058,11 +1006,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "fill-pdf-002",
-        "fill-mcq-05",
-        "fill-mcq-07",
-        "fill-mcq-04",
-        "fill-mcq-08",
-        "fill-mcq-03"
+        "fill-mcq-19",
+        "fill-mcq-09",
+        "fill-mcq-15"
       ],
       "explanation": "本句的「filled with gratitude」指「心裏充滿某種強烈情緒」。",
       "sentenceIndex": 13,
@@ -1071,12 +1017,10 @@ export default {
         "filled with gratitude"
       ],
       "optionReasons": {
-        "fill-pdf-002": "本句指「心裏充滿某種強烈情緒」。",
-        "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。",
-        "fill-mcq-07": "「佔滿一頁」是「fill a page」的用法，與本句語境不同。",
-        "fill-mcq-04": "「佔滿房間」是「fill a room」的用法，與本句語境不同。",
-        "fill-mcq-08": "「填補裂縫」是「fill a crack」的用法，與本句語境不同。",
-        "fill-mcq-03": "「裝滿／充滿 X」是「be filled with X」的用法，與本句語境不同。"
+        "fill-pdf-002": "本句的「filled with gratitude」指「心裏充滿某種強烈情緒」。",
+        "fill-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-pdf-002"
     },
@@ -1088,11 +1032,9 @@ export default {
       "masked": "He was ____ after the speech.",
       "options": [
         "fill-pdf-002",
+        "fill-mcq-20",
         "fill-mcq-05",
-        "fill-mcq-07",
-        "fill-mcq-04",
-        "fill-mcq-08",
-        "fill-mcq-03"
+        "fill-mcq-15"
       ],
       "explanation": "本句的「filled with confidence」指「心裏充滿某種強烈情緒」。",
       "sentenceIndex": 14,
@@ -1101,12 +1043,10 @@ export default {
         "filled with confidence"
       ],
       "optionReasons": {
-        "fill-pdf-002": "本句指「心裏充滿某種強烈情緒」。",
-        "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。",
-        "fill-mcq-07": "「佔滿一頁」是「fill a page」的用法，與本句語境不同。",
-        "fill-mcq-04": "「佔滿房間」是「fill a room」的用法，與本句語境不同。",
-        "fill-mcq-08": "「填補裂縫」是「fill a crack」的用法，與本句語境不同。",
-        "fill-mcq-03": "「裝滿／充滿 X」是「be filled with X」的用法，與本句語境不同。"
+        "fill-pdf-002": "本句的「filled with confidence」指「心裏充滿某種強烈情緒」。",
+        "fill-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-pdf-002"
     },
@@ -1118,11 +1058,9 @@ export default {
       "masked": "The photo ____.",
       "options": [
         "fill-mcq-07",
-        "fill-mcq-06",
-        "fill-mcq-08",
-        "fill-mcq-05",
-        "fill-mcq-09",
-        "fill-mcq-04"
+        "fill-mcq-26",
+        "fill-mcq-19",
+        "fill-mcq-27"
       ],
       "explanation": "本句的「filled the whole page」指「佔滿一頁」。",
       "sentenceIndex": 15,
@@ -1131,12 +1069,10 @@ export default {
         "filled the whole page"
       ],
       "optionReasons": {
-        "fill-mcq-07": "本句指「佔滿一頁」。",
-        "fill-mcq-06": "「令某人充滿喜悅」是「fill someone with joy」的用法，與本句語境不同。",
-        "fill-mcq-08": "「填補裂縫」是「fill a crack」的用法，與本句語境不同。",
-        "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。",
-        "fill-mcq-09": "「填補缺口」是「fill a gap」的用法，與本句語境不同。",
-        "fill-mcq-04": "「佔滿房間」是「fill a room」的用法，與本句語境不同。"
+        "fill-mcq-07": "本句的「filled the whole page」指「佔滿一頁」。",
+        "fill-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-07"
     },
@@ -1148,11 +1084,9 @@ export default {
       "masked": "A warning message ____.",
       "options": [
         "fill-mcq-07",
-        "fill-mcq-06",
         "fill-mcq-08",
-        "fill-mcq-05",
-        "fill-mcq-09",
-        "fill-mcq-04"
+        "fill-mcq-20",
+        "fill-mcq-26"
       ],
       "explanation": "本句的「filled the screen」指「佔滿一頁」。",
       "sentenceIndex": 16,
@@ -1161,12 +1095,10 @@ export default {
         "filled the screen"
       ],
       "optionReasons": {
-        "fill-mcq-07": "本句指「佔滿一頁」。",
-        "fill-mcq-06": "「令某人充滿喜悅」是「fill someone with joy」的用法，與本句語境不同。",
-        "fill-mcq-08": "「填補裂縫」是「fill a crack」的用法，與本句語境不同。",
-        "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。",
-        "fill-mcq-09": "「填補缺口」是「fill a gap」的用法，與本句語境不同。",
-        "fill-mcq-04": "「佔滿房間」是「fill a room」的用法，與本句語境不同。"
+        "fill-mcq-07": "本句的「filled the screen」指「佔滿一頁」。",
+        "fill-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-07"
     },
@@ -1178,11 +1110,9 @@ export default {
       "masked": "Use cement to ____.",
       "options": [
         "fill-mcq-08",
-        "fill-mcq-07",
-        "fill-mcq-09",
-        "fill-mcq-06",
-        "fill-mcq-10",
-        "fill-mcq-05"
+        "fill-mcq-04",
+        "fill-mcq-05",
+        "fill-mcq-12"
       ],
       "explanation": "本句的「fill the crack」指「填補裂縫」。",
       "sentenceIndex": 17,
@@ -1191,12 +1121,10 @@ export default {
         "fill the crack"
       ],
       "optionReasons": {
-        "fill-mcq-08": "本句指「填補裂縫」。",
-        "fill-mcq-07": "「佔滿一頁」是「fill a page」的用法，與本句語境不同。",
-        "fill-mcq-09": "「填補缺口」是「fill a gap」的用法，與本句語境不同。",
-        "fill-mcq-06": "「令某人充滿喜悅」是「fill someone with joy」的用法，與本句語境不同。",
-        "fill-mcq-10": "「擔任／填補角色」是「fill a role」的用法，與本句語境不同。",
-        "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。"
+        "fill-mcq-08": "本句的「fill the crack」指「填補裂縫」。",
+        "fill-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-08"
     },
@@ -1208,11 +1136,9 @@ export default {
       "masked": "The dentist ____ in the tooth.",
       "options": [
         "fill-mcq-08",
-        "fill-mcq-07",
-        "fill-mcq-09",
-        "fill-mcq-06",
-        "fill-mcq-10",
-        "fill-mcq-05"
+        "fill-mcq-28",
+        "fill-mcq-13",
+        "fill-mcq-12"
       ],
       "explanation": "本句的「filled the hole」指「填補裂縫」。",
       "sentenceIndex": 18,
@@ -1221,12 +1147,10 @@ export default {
         "filled the hole"
       ],
       "optionReasons": {
-        "fill-mcq-08": "本句指「填補裂縫」。",
-        "fill-mcq-07": "「佔滿一頁」是「fill a page」的用法，與本句語境不同。",
-        "fill-mcq-09": "「填補缺口」是「fill a gap」的用法，與本句語境不同。",
-        "fill-mcq-06": "「令某人充滿喜悅」是「fill someone with joy」的用法，與本句語境不同。",
-        "fill-mcq-10": "「擔任／填補角色」是「fill a role」的用法，與本句語境不同。",
-        "fill-mcq-05": "「瀰漫」是「fill the air」的用法，與本句語境不同。"
+        "fill-mcq-08": "本句的「filled the hole」指「填補裂縫」。",
+        "fill-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-08"
     },
@@ -1238,11 +1162,9 @@ export default {
       "masked": "The new course ____ in the programme.",
       "options": [
         "fill-mcq-09",
-        "fill-mcq-08",
-        "fill-mcq-10",
-        "fill-mcq-07",
-        "fill-mcq-11",
-        "fill-mcq-06"
+        "fill-pdf-001",
+        "fill-mcq-22",
+        "fill-mcq-15"
       ],
       "explanation": "本句的「fills a gap」指「填補缺口」。",
       "sentenceIndex": 19,
@@ -1251,12 +1173,10 @@ export default {
         "fills a gap"
       ],
       "optionReasons": {
-        "fill-mcq-09": "本句指「填補缺口」。",
-        "fill-mcq-08": "「填補裂縫」是「fill a crack」的用法，與本句語境不同。",
-        "fill-mcq-10": "「擔任／填補角色」是「fill a role」的用法，與本句語境不同。",
-        "fill-mcq-07": "「佔滿一頁」是「fill a page」的用法，與本句語境不同。",
-        "fill-mcq-11": "「填補職缺」是「fill a vacancy」的用法，與本句語境不同。",
-        "fill-mcq-06": "「令某人充滿喜悅」是「fill someone with joy」的用法，與本句語境不同。"
+        "fill-mcq-09": "本句的「fills a gap」指「填補缺口」。",
+        "fill-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-09"
     },
@@ -1268,11 +1188,9 @@ export default {
       "masked": "This service ____ in the community.",
       "options": [
         "fill-mcq-09",
-        "fill-mcq-08",
-        "fill-mcq-10",
-        "fill-mcq-07",
-        "fill-mcq-11",
-        "fill-mcq-06"
+        "fill-mcq-14",
+        "fill-mcq-04",
+        "fill-mcq-13"
       ],
       "explanation": "本句的「fills an important gap」指「填補缺口」。",
       "sentenceIndex": 20,
@@ -1281,12 +1199,10 @@ export default {
         "fills an important gap"
       ],
       "optionReasons": {
-        "fill-mcq-09": "本句指「填補缺口」。",
-        "fill-mcq-08": "「填補裂縫」是「fill a crack」的用法，與本句語境不同。",
-        "fill-mcq-10": "「擔任／填補角色」是「fill a role」的用法，與本句語境不同。",
-        "fill-mcq-07": "「佔滿一頁」是「fill a page」的用法，與本句語境不同。",
-        "fill-mcq-11": "「填補職缺」是「fill a vacancy」的用法，與本句語境不同。",
-        "fill-mcq-06": "「令某人充滿喜悅」是「fill someone with joy」的用法，與本句語境不同。"
+        "fill-mcq-09": "本句的「fills an important gap」指「填補缺口」。",
+        "fill-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-09"
     },
@@ -1298,11 +1214,9 @@ export default {
       "masked": "They need someone to ____.",
       "options": [
         "fill-mcq-10",
-        "fill-mcq-09",
-        "fill-mcq-11",
-        "fill-mcq-08",
-        "fill-mcq-12",
-        "fill-mcq-07"
+        "fill-mcq-05",
+        "fill-mcq-23",
+        "fill-mcq-12"
       ],
       "explanation": "本句的「fill the role」指「擔任／填補角色」。",
       "sentenceIndex": 21,
@@ -1311,12 +1225,10 @@ export default {
         "fill the role"
       ],
       "optionReasons": {
-        "fill-mcq-10": "本句指「擔任／填補角色」。",
-        "fill-mcq-09": "「填補缺口」是「fill a gap」的用法，與本句語境不同。",
-        "fill-mcq-11": "「填補職缺」是「fill a vacancy」的用法，與本句語境不同。",
-        "fill-mcq-08": "「填補裂縫」是「fill a crack」的用法，與本句語境不同。",
-        "fill-mcq-12": "「打發時間」是「fill time」的用法，與本句語境不同。",
-        "fill-mcq-07": "「佔滿一頁」是「fill a page」的用法，與本句語境不同。"
+        "fill-mcq-10": "本句的「fill the role」指「擔任／填補角色」。",
+        "fill-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-10"
     },
@@ -1328,11 +1240,9 @@ export default {
       "masked": "The company quickly ____.",
       "options": [
         "fill-mcq-10",
-        "fill-mcq-09",
-        "fill-mcq-11",
-        "fill-mcq-08",
-        "fill-mcq-12",
-        "fill-mcq-07"
+        "fill-mcq-07",
+        "fill-mcq-14",
+        "fill-mcq-15"
       ],
       "explanation": "本句的「filled the position」指「擔任／填補角色」。",
       "sentenceIndex": 22,
@@ -1341,12 +1251,10 @@ export default {
         "filled the position"
       ],
       "optionReasons": {
-        "fill-mcq-10": "本句指「擔任／填補角色」。",
-        "fill-mcq-09": "「填補缺口」是「fill a gap」的用法，與本句語境不同。",
-        "fill-mcq-11": "「填補職缺」是「fill a vacancy」的用法，與本句語境不同。",
-        "fill-mcq-08": "「填補裂縫」是「fill a crack」的用法，與本句語境不同。",
-        "fill-mcq-12": "「打發時間」是「fill time」的用法，與本句語境不同。",
-        "fill-mcq-07": "「佔滿一頁」是「fill a page」的用法，與本句語境不同。"
+        "fill-mcq-10": "本句的「filled the position」指「擔任／填補角色」。",
+        "fill-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-10"
     },
@@ -1358,11 +1266,9 @@ export default {
       "masked": "The school is trying to ____.",
       "options": [
         "fill-mcq-11",
-        "fill-mcq-10",
-        "fill-mcq-12",
-        "fill-mcq-09",
-        "fill-mcq-13",
-        "fill-mcq-08"
+        "fill-mcq-05",
+        "fill-mcq-01",
+        "fill-mcq-26"
       ],
       "explanation": "本句的「fill a vacancy」指「填補職缺」。",
       "sentenceIndex": 23,
@@ -1371,12 +1277,10 @@ export default {
         "fill a vacancy"
       ],
       "optionReasons": {
-        "fill-mcq-11": "本句指「填補職缺」。",
-        "fill-mcq-10": "「擔任／填補角色」是「fill a role」的用法，與本句語境不同。",
-        "fill-mcq-12": "「打發時間」是「fill time」的用法，與本句語境不同。",
-        "fill-mcq-09": "「填補缺口」是「fill a gap」的用法，與本句語境不同。",
-        "fill-mcq-13": "「滿足需要」是「fill a need」的用法，與本句語境不同。",
-        "fill-mcq-08": "「填補裂縫」是「fill a crack」的用法，與本句語境不同。"
+        "fill-mcq-11": "本句的「fill a vacancy」指「填補職缺」。",
+        "fill-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-11"
     },
@@ -1388,11 +1292,9 @@ export default {
       "masked": "It took months to ____.",
       "options": [
         "fill-mcq-11",
-        "fill-mcq-10",
-        "fill-mcq-12",
-        "fill-mcq-09",
-        "fill-mcq-13",
-        "fill-mcq-08"
+        "fill-mcq-04",
+        "fill-mcq-01",
+        "fill-mcq-14"
       ],
       "explanation": "本句的「fill the vacancy」指「填補職缺」。",
       "sentenceIndex": 24,
@@ -1401,12 +1303,10 @@ export default {
         "fill the vacancy"
       ],
       "optionReasons": {
-        "fill-mcq-11": "本句指「填補職缺」。",
-        "fill-mcq-10": "「擔任／填補角色」是「fill a role」的用法，與本句語境不同。",
-        "fill-mcq-12": "「打發時間」是「fill time」的用法，與本句語境不同。",
-        "fill-mcq-09": "「填補缺口」是「fill a gap」的用法，與本句語境不同。",
-        "fill-mcq-13": "「滿足需要」是「fill a need」的用法，與本句語境不同。",
-        "fill-mcq-08": "「填補裂縫」是「fill a crack」的用法，與本句語境不同。"
+        "fill-mcq-11": "本句的「fill the vacancy」指「填補職缺」。",
+        "fill-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-11"
     },
@@ -1418,11 +1318,9 @@ export default {
       "masked": "We played cards to ____.",
       "options": [
         "fill-mcq-12",
-        "fill-mcq-11",
+        "fill-mcq-17",
         "fill-mcq-13",
-        "fill-mcq-10",
-        "fill-mcq-14",
-        "fill-mcq-09"
+        "fill-mcq-14"
       ],
       "explanation": "本句的「fill the time」指「打發時間」。",
       "sentenceIndex": 25,
@@ -1431,12 +1329,10 @@ export default {
         "fill the time"
       ],
       "optionReasons": {
-        "fill-mcq-12": "本句指「打發時間」。",
-        "fill-mcq-11": "「填補職缺」是「fill a vacancy」的用法，與本句語境不同。",
-        "fill-mcq-13": "「滿足需要」是「fill a need」的用法，與本句語境不同。",
-        "fill-mcq-10": "「擔任／填補角色」是「fill a role」的用法，與本句語境不同。",
-        "fill-mcq-14": "「完成訂單」是「fill an order」的用法，與本句語境不同。",
-        "fill-mcq-09": "「填補缺口」是「fill a gap」的用法，與本句語境不同。"
+        "fill-mcq-12": "本句的「fill the time」指「打發時間」。",
+        "fill-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-12"
     },
@@ -1448,10 +1344,8 @@ export default {
       "masked": "The host told stories to ____ before dinner.",
       "options": [
         "fill-mcq-12",
-        "fill-mcq-11",
-        "fill-mcq-13",
-        "fill-mcq-10",
-        "fill-mcq-14",
+        "fill-mcq-05",
+        "fill-mcq-24",
         "fill-mcq-09"
       ],
       "explanation": "本句的「fill the time」指「打發時間」。",
@@ -1461,12 +1355,10 @@ export default {
         "fill the time"
       ],
       "optionReasons": {
-        "fill-mcq-12": "本句指「打發時間」。",
-        "fill-mcq-11": "「填補職缺」是「fill a vacancy」的用法，與本句語境不同。",
-        "fill-mcq-13": "「滿足需要」是「fill a need」的用法，與本句語境不同。",
-        "fill-mcq-10": "「擔任／填補角色」是「fill a role」的用法，與本句語境不同。",
-        "fill-mcq-14": "「完成訂單」是「fill an order」的用法，與本句語境不同。",
-        "fill-mcq-09": "「填補缺口」是「fill a gap」的用法，與本句語境不同。"
+        "fill-mcq-12": "本句的「fill the time」指「打發時間」。",
+        "fill-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-12"
     },
@@ -1478,11 +1370,9 @@ export default {
       "masked": "The new service ____.",
       "options": [
         "fill-mcq-13",
-        "fill-mcq-12",
-        "fill-mcq-14",
-        "fill-mcq-11",
-        "fill-mcq-15",
-        "fill-mcq-10"
+        "fill-mcq-24",
+        "fill-mcq-09",
+        "fill-pdf-001"
       ],
       "explanation": "本句的「fills a real need」指「滿足需要」。",
       "sentenceIndex": 27,
@@ -1491,12 +1381,10 @@ export default {
         "fills a real need"
       ],
       "optionReasons": {
-        "fill-mcq-13": "本句指「滿足需要」。",
-        "fill-mcq-12": "「打發時間」是「fill time」的用法，與本句語境不同。",
-        "fill-mcq-14": "「完成訂單」是「fill an order」的用法，與本句語境不同。",
-        "fill-mcq-11": "「填補職缺」是「fill a vacancy」的用法，與本句語境不同。",
-        "fill-mcq-15": "「配藥」是「fill a prescription」的用法，與本句語境不同。",
-        "fill-mcq-10": "「擔任／填補角色」是「fill a role」的用法，與本句語境不同。"
+        "fill-mcq-13": "本句的「fills a real need」指「滿足需要」。",
+        "fill-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fill-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-13"
     },
@@ -1508,11 +1396,9 @@ export default {
       "masked": "The product was created to ____.",
       "options": [
         "fill-mcq-13",
-        "fill-mcq-12",
-        "fill-mcq-14",
-        "fill-mcq-11",
-        "fill-mcq-15",
-        "fill-mcq-10"
+        "fill-mcq-18",
+        "fill-mcq-20",
+        "fill-mcq-12"
       ],
       "explanation": "本句的「fill a need in the market」指「滿足需要」。",
       "sentenceIndex": 28,
@@ -1521,12 +1407,10 @@ export default {
         "fill a need in the market"
       ],
       "optionReasons": {
-        "fill-mcq-13": "本句指「滿足需要」。",
-        "fill-mcq-12": "「打發時間」是「fill time」的用法，與本句語境不同。",
-        "fill-mcq-14": "「完成訂單」是「fill an order」的用法，與本句語境不同。",
-        "fill-mcq-11": "「填補職缺」是「fill a vacancy」的用法，與本句語境不同。",
-        "fill-mcq-15": "「配藥」是「fill a prescription」的用法，與本句語境不同。",
-        "fill-mcq-10": "「擔任／填補角色」是「fill a role」的用法，與本句語境不同。"
+        "fill-mcq-13": "本句的「fill a need in the market」指「滿足需要」。",
+        "fill-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-13"
     },
@@ -1538,11 +1422,9 @@ export default {
       "masked": "The company ____ within two days.",
       "options": [
         "fill-mcq-14",
-        "fill-mcq-13",
-        "fill-mcq-15",
-        "fill-mcq-12",
-        "fill-mcq-16",
-        "fill-mcq-11"
+        "fill-mcq-27",
+        "fill-mcq-05",
+        "fill-mcq-13"
       ],
       "explanation": "本句的「filled the order」指「完成訂單」。",
       "sentenceIndex": 29,
@@ -1551,12 +1433,10 @@ export default {
         "filled the order"
       ],
       "optionReasons": {
-        "fill-mcq-14": "本句指「完成訂單」。",
-        "fill-mcq-13": "「滿足需要」是「fill a need」的用法，與本句語境不同。",
-        "fill-mcq-15": "「配藥」是「fill a prescription」的用法，與本句語境不同。",
-        "fill-mcq-12": "「打發時間」是「fill time」的用法，與本句語境不同。",
-        "fill-mcq-16": "「填表」是「fill in a form」的用法，與本句語境不同。",
-        "fill-mcq-11": "「填補職缺」是「fill a vacancy」的用法，與本句語境不同。"
+        "fill-mcq-14": "本句的「filled the order」指「完成訂單」。",
+        "fill-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-14"
     },
@@ -1568,11 +1448,9 @@ export default {
       "masked": "We don't have enough stock to ____.",
       "options": [
         "fill-mcq-14",
-        "fill-mcq-13",
-        "fill-mcq-15",
-        "fill-mcq-12",
+        "fill-pdf-001",
         "fill-mcq-16",
-        "fill-mcq-11"
+        "fill-mcq-15"
       ],
       "explanation": "本句的「fill all the orders」指「完成訂單」。",
       "sentenceIndex": 30,
@@ -1581,12 +1459,10 @@ export default {
         "fill all the orders"
       ],
       "optionReasons": {
-        "fill-mcq-14": "本句指「完成訂單」。",
-        "fill-mcq-13": "「滿足需要」是「fill a need」的用法，與本句語境不同。",
-        "fill-mcq-15": "「配藥」是「fill a prescription」的用法，與本句語境不同。",
-        "fill-mcq-12": "「打發時間」是「fill time」的用法，與本句語境不同。",
-        "fill-mcq-16": "「填表」是「fill in a form」的用法，與本句語境不同。",
-        "fill-mcq-11": "「填補職缺」是「fill a vacancy」的用法，與本句語境不同。"
+        "fill-mcq-14": "本句的「fill all the orders」指「完成訂單」。",
+        "fill-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-14"
     },
@@ -1598,11 +1474,9 @@ export default {
       "masked": "The pharmacy ____.",
       "options": [
         "fill-mcq-15",
-        "fill-mcq-14",
-        "fill-mcq-16",
-        "fill-mcq-13",
+        "fill-mcq-08",
         "fill-mcq-12",
-        "fill-mcq-18"
+        "fill-mcq-21"
       ],
       "explanation": "本句的「filled my prescription」指「配藥」。",
       "sentenceIndex": 31,
@@ -1611,12 +1485,10 @@ export default {
         "filled my prescription"
       ],
       "optionReasons": {
-        "fill-mcq-15": "本句指「配藥」。",
-        "fill-mcq-14": "「完成訂單」是「fill an order」的用法，與本句語境不同。",
-        "fill-mcq-16": "「填表」是「fill in a form」的用法，與本句語境不同。",
-        "fill-mcq-13": "「滿足需要」是「fill a need」的用法，與本句語境不同。",
-        "fill-mcq-12": "「打發時間」是「fill time」的用法，與本句語境不同。",
-        "fill-mcq-18": "「填空」是「fill in a blank」的用法，與本句語境不同。"
+        "fill-mcq-15": "本句的「filled my prescription」指「配藥」。",
+        "fill-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-15"
     },
@@ -1628,11 +1500,9 @@ export default {
       "masked": "I need to get this prescription ____.",
       "options": [
         "fill-mcq-15",
-        "fill-mcq-14",
         "fill-mcq-16",
         "fill-mcq-13",
-        "fill-mcq-12",
-        "fill-mcq-18"
+        "fill-mcq-19"
       ],
       "explanation": "本句的「filled」指「配藥」。",
       "sentenceIndex": 32,
@@ -1641,12 +1511,10 @@ export default {
         "filled"
       ],
       "optionReasons": {
-        "fill-mcq-15": "本句指「配藥」。",
-        "fill-mcq-14": "「完成訂單」是「fill an order」的用法，與本句語境不同。",
-        "fill-mcq-16": "「填表」是「fill in a form」的用法，與本句語境不同。",
-        "fill-mcq-13": "「滿足需要」是「fill a need」的用法，與本句語境不同。",
-        "fill-mcq-12": "「打發時間」是「fill time」的用法，與本句語境不同。",
-        "fill-mcq-18": "「填空」是「fill in a blank」的用法，與本句語境不同。"
+        "fill-mcq-15": "本句的「filled」指「配藥」。",
+        "fill-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-15"
     },
@@ -1658,11 +1526,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "fill-mcq-16",
-        "fill-mcq-15",
+        "fill-mcq-23",
         "fill-mcq-14",
-        "fill-mcq-18",
-        "fill-mcq-13",
-        "fill-mcq-19"
+        "fill-mcq-24"
       ],
       "explanation": "本句的「fill in this form」指「填表」。",
       "sentenceIndex": 33,
@@ -1671,12 +1537,10 @@ export default {
         "fill in this form"
       ],
       "optionReasons": {
-        "fill-mcq-16": "本句指「填表」。",
-        "fill-mcq-15": "「配藥」是「fill a prescription」的用法，與本句語境不同。",
-        "fill-mcq-14": "「完成訂單」是「fill an order」的用法，與本句語境不同。",
-        "fill-mcq-18": "「填空」是「fill in a blank」的用法，與本句語境不同。",
-        "fill-mcq-13": "「滿足需要」是「fill a need」的用法，與本句語境不同。",
-        "fill-mcq-19": "「告訴某人詳情」是「fill someone in」的用法，與本句語境不同。"
+        "fill-mcq-16": "本句的「fill in this form」指「填表」。",
+        "fill-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-16"
     },
@@ -1688,11 +1552,9 @@ export default {
       "masked": "I ____ my name and address.",
       "options": [
         "fill-mcq-16",
-        "fill-mcq-15",
-        "fill-mcq-14",
-        "fill-mcq-18",
-        "fill-mcq-13",
-        "fill-mcq-19"
+        "fill-mcq-23",
+        "fill-pdf-001",
+        "fill-mcq-15"
       ],
       "explanation": "本句的「filled in」指「填表」。",
       "sentenceIndex": 34,
@@ -1701,12 +1563,10 @@ export default {
         "filled in"
       ],
       "optionReasons": {
-        "fill-mcq-16": "本句指「填表」。",
-        "fill-mcq-15": "「配藥」是「fill a prescription」的用法，與本句語境不同。",
-        "fill-mcq-14": "「完成訂單」是「fill an order」的用法，與本句語境不同。",
-        "fill-mcq-18": "「填空」是「fill in a blank」的用法，與本句語境不同。",
-        "fill-mcq-13": "「滿足需要」是「fill a need」的用法，與本句語境不同。",
-        "fill-mcq-19": "「告訴某人詳情」是「fill someone in」的用法，與本句語境不同。"
+        "fill-mcq-16": "本句的「filled in」指「填表」。",
+        "fill-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fill-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-16"
     },
@@ -1718,11 +1578,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "fill-mcq-17",
-        "fill-mcq-18",
-        "fill-mcq-15",
-        "fill-mcq-19",
-        "fill-mcq-14",
-        "fill-mcq-20"
+        "fill-mcq-03",
+        "fill-pdf-001",
+        "fill-mcq-05"
       ],
       "explanation": "本句的「fill out the application form」指「填表」。",
       "sentenceIndex": 35,
@@ -1731,12 +1589,10 @@ export default {
         "fill out the application form"
       ],
       "optionReasons": {
-        "fill-mcq-17": "本句指「填表」。",
-        "fill-mcq-18": "「填空」是「fill in a blank」的用法，與本句語境不同。",
-        "fill-mcq-15": "「配藥」是「fill a prescription」的用法，與本句語境不同。",
-        "fill-mcq-19": "「告訴某人詳情」是「fill someone in」的用法，與本句語境不同。",
-        "fill-mcq-14": "「完成訂單」是「fill an order」的用法，與本句語境不同。",
-        "fill-mcq-20": "「暫代某人」是「fill in for someone」的用法，與本句語境不同。"
+        "fill-mcq-17": "本句的「fill out the application form」指「填表」。",
+        "fill-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fill-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-17"
     },
@@ -1748,11 +1604,9 @@ export default {
       "masked": "She ____ the form online.",
       "options": [
         "fill-mcq-17",
-        "fill-mcq-18",
-        "fill-mcq-15",
         "fill-mcq-19",
-        "fill-mcq-14",
-        "fill-mcq-20"
+        "fill-pdf-002",
+        "fill-mcq-13"
       ],
       "explanation": "本句的「filled out」指「填表」。",
       "sentenceIndex": 36,
@@ -1761,12 +1615,10 @@ export default {
         "filled out"
       ],
       "optionReasons": {
-        "fill-mcq-17": "本句指「填表」。",
-        "fill-mcq-18": "「填空」是「fill in a blank」的用法，與本句語境不同。",
-        "fill-mcq-15": "「配藥」是「fill a prescription」的用法，與本句語境不同。",
-        "fill-mcq-19": "「告訴某人詳情」是「fill someone in」的用法，與本句語境不同。",
-        "fill-mcq-14": "「完成訂單」是「fill an order」的用法，與本句語境不同。",
-        "fill-mcq-20": "「暫代某人」是「fill in for someone」的用法，與本句語境不同。"
+        "fill-mcq-17": "本句的「filled out」指「填表」。",
+        "fill-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fill-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-17"
     },
@@ -1778,11 +1630,9 @@ export default {
       "masked": "____ with the correct words.",
       "options": [
         "fill-mcq-18",
-        "fill-mcq-17",
-        "fill-mcq-19",
-        "fill-mcq-20",
-        "fill-mcq-15",
-        "fill-mcq-21"
+        "fill-mcq-03",
+        "fill-mcq-05",
+        "fill-mcq-26"
       ],
       "explanation": "本句的「Fill in the blanks」指「填空」。",
       "sentenceIndex": 37,
@@ -1791,12 +1641,10 @@ export default {
         "Fill in the blanks"
       ],
       "optionReasons": {
-        "fill-mcq-18": "本句指「填空」。",
-        "fill-mcq-17": "「填表」是「fill out a form」的用法，與本句語境不同。",
-        "fill-mcq-19": "「告訴某人詳情」是「fill someone in」的用法，與本句語境不同。",
-        "fill-mcq-20": "「暫代某人」是「fill in for someone」的用法，與本句語境不同。",
-        "fill-mcq-15": "「配藥」是「fill a prescription」的用法，與本句語境不同。",
-        "fill-mcq-21": "「裝滿；變滿」是「fill up」的用法，與本句語境不同。"
+        "fill-mcq-18": "本句的「Fill in the blanks」指「填空」。",
+        "fill-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-18"
     },
@@ -1808,11 +1656,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "fill-mcq-18",
-        "fill-mcq-17",
-        "fill-mcq-19",
-        "fill-mcq-20",
-        "fill-mcq-15",
-        "fill-mcq-21"
+        "fill-mcq-28",
+        "fill-mcq-26",
+        "fill-pdf-001"
       ],
       "explanation": "本句的「fill in the missing details」指「填空」。",
       "sentenceIndex": 38,
@@ -1821,12 +1667,10 @@ export default {
         "fill in the missing details"
       ],
       "optionReasons": {
-        "fill-mcq-18": "本句指「填空」。",
-        "fill-mcq-17": "「填表」是「fill out a form」的用法，與本句語境不同。",
-        "fill-mcq-19": "「告訴某人詳情」是「fill someone in」的用法，與本句語境不同。",
-        "fill-mcq-20": "「暫代某人」是「fill in for someone」的用法，與本句語境不同。",
-        "fill-mcq-15": "「配藥」是「fill a prescription」的用法，與本句語境不同。",
-        "fill-mcq-21": "「裝滿；變滿」是「fill up」的用法，與本句語境不同。"
+        "fill-mcq-18": "本句的「fill in the missing details」指「填空」。",
+        "fill-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fill-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-18"
     },
@@ -1838,11 +1682,9 @@ export default {
       "masked": "Can you ____ on what happened?",
       "options": [
         "fill-mcq-19",
-        "fill-mcq-18",
-        "fill-mcq-20",
-        "fill-mcq-17",
-        "fill-mcq-21",
-        "fill-mcq-22"
+        "fill-mcq-14",
+        "fill-pdf-002",
+        "fill-mcq-24"
       ],
       "explanation": "本句的「fill me in」指「告訴某人詳情」。",
       "sentenceIndex": 39,
@@ -1851,12 +1693,10 @@ export default {
         "fill me in"
       ],
       "optionReasons": {
-        "fill-mcq-19": "本句指「告訴某人詳情」。",
-        "fill-mcq-18": "「填空」是「fill in a blank」的用法，與本句語境不同。",
-        "fill-mcq-20": "「暫代某人」是「fill in for someone」的用法，與本句語境不同。",
-        "fill-mcq-17": "「填表」是「fill out a form」的用法，與本句語境不同。",
-        "fill-mcq-21": "「裝滿；變滿」是「fill up」的用法，與本句語境不同。",
-        "fill-mcq-22": "「加滿油」是「fill up the car」的用法，與本句語境不同。"
+        "fill-mcq-19": "本句的「fill me in」指「告訴某人詳情」。",
+        "fill-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fill-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-19"
     },
@@ -1868,11 +1708,9 @@ export default {
       "masked": "She ____ on the latest changes.",
       "options": [
         "fill-mcq-19",
-        "fill-mcq-18",
-        "fill-mcq-20",
-        "fill-mcq-17",
-        "fill-mcq-21",
-        "fill-mcq-22"
+        "fill-mcq-08",
+        "fill-mcq-14",
+        "fill-mcq-15"
       ],
       "explanation": "本句的「filled him in」指「告訴某人詳情」。",
       "sentenceIndex": 40,
@@ -1881,12 +1719,10 @@ export default {
         "filled him in"
       ],
       "optionReasons": {
-        "fill-mcq-19": "本句指「告訴某人詳情」。",
-        "fill-mcq-18": "「填空」是「fill in a blank」的用法，與本句語境不同。",
-        "fill-mcq-20": "「暫代某人」是「fill in for someone」的用法，與本句語境不同。",
-        "fill-mcq-17": "「填表」是「fill out a form」的用法，與本句語境不同。",
-        "fill-mcq-21": "「裝滿；變滿」是「fill up」的用法，與本句語境不同。",
-        "fill-mcq-22": "「加滿油」是「fill up the car」的用法，與本句語境不同。"
+        "fill-mcq-19": "本句的「filled him in」指「告訴某人詳情」。",
+        "fill-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-19"
     },
@@ -1898,11 +1734,9 @@ export default {
       "masked": "Can you ____ tomorrow?",
       "options": [
         "fill-mcq-20",
-        "fill-mcq-19",
+        "fill-mcq-10",
         "fill-mcq-21",
-        "fill-mcq-18",
-        "fill-mcq-22",
-        "fill-mcq-17"
+        "fill-mcq-14"
       ],
       "explanation": "本句的「fill in for me」指「暫代某人」。",
       "sentenceIndex": 41,
@@ -1911,12 +1745,10 @@ export default {
         "fill in for me"
       ],
       "optionReasons": {
-        "fill-mcq-20": "本句指「暫代某人」。",
-        "fill-mcq-19": "「告訴某人詳情」是「fill someone in」的用法，與本句語境不同。",
-        "fill-mcq-21": "「裝滿；變滿」是「fill up」的用法，與本句語境不同。",
-        "fill-mcq-18": "「填空」是「fill in a blank」的用法，與本句語境不同。",
-        "fill-mcq-22": "「加滿油」是「fill up the car」的用法，與本句語境不同。",
-        "fill-mcq-17": "「填表」是「fill out a form」的用法，與本句語境不同。"
+        "fill-mcq-20": "本句的「fill in for me」指「暫代某人」。",
+        "fill-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-20"
     },
@@ -1928,11 +1760,9 @@ export default {
       "masked": "She ____ while he was ill.",
       "options": [
         "fill-mcq-20",
-        "fill-mcq-19",
-        "fill-mcq-21",
-        "fill-mcq-18",
         "fill-mcq-22",
-        "fill-mcq-17"
+        "fill-mcq-12",
+        "fill-mcq-10"
       ],
       "explanation": "本句的「filled in for the teacher」指「暫代某人」。",
       "sentenceIndex": 42,
@@ -1941,12 +1771,10 @@ export default {
         "filled in for the teacher"
       ],
       "optionReasons": {
-        "fill-mcq-20": "本句指「暫代某人」。",
-        "fill-mcq-19": "「告訴某人詳情」是「fill someone in」的用法，與本句語境不同。",
-        "fill-mcq-21": "「裝滿；變滿」是「fill up」的用法，與本句語境不同。",
-        "fill-mcq-18": "「填空」是「fill in a blank」的用法，與本句語境不同。",
-        "fill-mcq-22": "「加滿油」是「fill up the car」的用法，與本句語境不同。",
-        "fill-mcq-17": "「填表」是「fill out a form」的用法，與本句語境不同。"
+        "fill-mcq-20": "本句的「filled in for the teacher」指「暫代某人」。",
+        "fill-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-20"
     },
@@ -1958,11 +1786,9 @@ export default {
       "masked": "The room ____ quickly.",
       "options": [
         "fill-mcq-21",
+        "fill-mcq-27",
         "fill-mcq-20",
-        "fill-mcq-22",
-        "fill-mcq-19",
-        "fill-mcq-23",
-        "fill-mcq-18"
+        "fill-mcq-12"
       ],
       "explanation": "本句的「filled up」指「裝滿；變滿」。",
       "sentenceIndex": 43,
@@ -1971,12 +1797,10 @@ export default {
         "filled up"
       ],
       "optionReasons": {
-        "fill-mcq-21": "本句指「裝滿；變滿」。",
-        "fill-mcq-20": "「暫代某人」是「fill in for someone」的用法，與本句語境不同。",
-        "fill-mcq-22": "「加滿油」是「fill up the car」的用法，與本句語境不同。",
-        "fill-mcq-19": "「告訴某人詳情」是「fill someone in」的用法，與本句語境不同。",
-        "fill-mcq-23": "「再裝滿」是「refill」的用法，與本句語境不同。",
-        "fill-mcq-18": "「填空」是「fill in a blank」的用法，與本句語境不同。"
+        "fill-mcq-21": "本句的「filled up」指「裝滿；變滿」。",
+        "fill-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-21"
     },
@@ -1988,11 +1812,9 @@ export default {
       "masked": "____ with water.",
       "options": [
         "fill-mcq-21",
+        "fill-mcq-08",
         "fill-mcq-20",
-        "fill-mcq-22",
-        "fill-mcq-19",
-        "fill-mcq-23",
-        "fill-mcq-18"
+        "fill-mcq-24"
       ],
       "explanation": "本句的「Fill up the bottle」指「裝滿；變滿」。",
       "sentenceIndex": 44,
@@ -2001,12 +1823,10 @@ export default {
         "Fill up the bottle"
       ],
       "optionReasons": {
-        "fill-mcq-21": "本句指「裝滿；變滿」。",
-        "fill-mcq-20": "「暫代某人」是「fill in for someone」的用法，與本句語境不同。",
-        "fill-mcq-22": "「加滿油」是「fill up the car」的用法，與本句語境不同。",
-        "fill-mcq-19": "「告訴某人詳情」是「fill someone in」的用法，與本句語境不同。",
-        "fill-mcq-23": "「再裝滿」是「refill」的用法，與本句語境不同。",
-        "fill-mcq-18": "「填空」是「fill in a blank」的用法，與本句語境不同。"
+        "fill-mcq-21": "本句的「Fill up the bottle」指「裝滿；變滿」。",
+        "fill-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-21"
     },
@@ -2018,11 +1838,9 @@ export default {
       "masked": "We stopped to ____.",
       "options": [
         "fill-mcq-22",
-        "fill-mcq-21",
-        "fill-mcq-23",
-        "fill-mcq-20",
-        "fill-mcq-24",
-        "fill-mcq-19"
+        "fill-mcq-11",
+        "fill-mcq-05",
+        "fill-mcq-26"
       ],
       "explanation": "本句的「fill up」指「加滿油」。",
       "sentenceIndex": 45,
@@ -2031,12 +1849,10 @@ export default {
         "fill up"
       ],
       "optionReasons": {
-        "fill-mcq-22": "本句指「加滿油」。",
-        "fill-mcq-21": "「裝滿；變滿」是「fill up」的用法，與本句語境不同。",
-        "fill-mcq-23": "「再裝滿」是「refill」的用法，與本句語境不同。",
-        "fill-mcq-20": "「暫代某人」是「fill in for someone」的用法，與本句語境不同。",
-        "fill-mcq-24": "「續杯／補充份」是「a refill」的用法，與本句語境不同。",
-        "fill-mcq-19": "「告訴某人詳情」是「fill someone in」的用法，與本句語境不同。"
+        "fill-mcq-22": "本句的「fill up」指「加滿油」。",
+        "fill-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-22"
     },
@@ -2048,10 +1864,8 @@ export default {
       "masked": "I need to ____ before the trip.",
       "options": [
         "fill-mcq-22",
-        "fill-mcq-21",
-        "fill-mcq-23",
-        "fill-mcq-20",
-        "fill-mcq-24",
+        "fill-mcq-15",
+        "fill-mcq-27",
         "fill-mcq-19"
       ],
       "explanation": "本句的「fill up the car」指「加滿油」。",
@@ -2061,12 +1875,10 @@ export default {
         "fill up the car"
       ],
       "optionReasons": {
-        "fill-mcq-22": "本句指「加滿油」。",
-        "fill-mcq-21": "「裝滿；變滿」是「fill up」的用法，與本句語境不同。",
-        "fill-mcq-23": "「再裝滿」是「refill」的用法，與本句語境不同。",
-        "fill-mcq-20": "「暫代某人」是「fill in for someone」的用法，與本句語境不同。",
-        "fill-mcq-24": "「續杯／補充份」是「a refill」的用法，與本句語境不同。",
-        "fill-mcq-19": "「告訴某人詳情」是「fill someone in」的用法，與本句語境不同。"
+        "fill-mcq-22": "本句的「fill up the car」指「加滿油」。",
+        "fill-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-22"
     },
@@ -2078,11 +1890,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "fill-mcq-23",
-        "fill-mcq-22",
-        "fill-mcq-24",
-        "fill-mcq-21",
-        "fill-mcq-25",
-        "fill-mcq-20"
+        "fill-mcq-26",
+        "fill-mcq-09",
+        "fill-pdf-001"
       ],
       "explanation": "本句的「refill my glass」指「再裝滿」。",
       "sentenceIndex": 47,
@@ -2091,12 +1901,10 @@ export default {
         "refill my glass"
       ],
       "optionReasons": {
-        "fill-mcq-23": "本句指「再裝滿」。",
-        "fill-mcq-22": "「加滿油」是「fill up the car」的用法，與本句語境不同。",
-        "fill-mcq-24": "「續杯／補充份」是「a refill」的用法，與本句語境不同。",
-        "fill-mcq-21": "「裝滿；變滿」是「fill up」的用法，與本句語境不同。",
-        "fill-mcq-25": "「餡料；填充物」是「filling (noun)」的用法，與本句語境不同。",
-        "fill-mcq-20": "「暫代某人」是「fill in for someone」的用法，與本句語境不同。"
+        "fill-mcq-23": "本句的「refill my glass」指「再裝滿」。",
+        "fill-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fill-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-23"
     },
@@ -2108,11 +1916,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "fill-mcq-23",
-        "fill-mcq-22",
         "fill-mcq-24",
-        "fill-mcq-21",
-        "fill-mcq-25",
-        "fill-mcq-20"
+        "fill-pdf-001",
+        "fill-mcq-25"
       ],
       "explanation": "本句的「refill the bottle」指「再裝滿」。",
       "sentenceIndex": 48,
@@ -2121,12 +1927,10 @@ export default {
         "refill the bottle"
       ],
       "optionReasons": {
-        "fill-mcq-23": "本句指「再裝滿」。",
-        "fill-mcq-22": "「加滿油」是「fill up the car」的用法，與本句語境不同。",
-        "fill-mcq-24": "「續杯／補充份」是「a refill」的用法，與本句語境不同。",
-        "fill-mcq-21": "「裝滿；變滿」是「fill up」的用法，與本句語境不同。",
-        "fill-mcq-25": "「餡料；填充物」是「filling (noun)」的用法，與本句語境不同。",
-        "fill-mcq-20": "「暫代某人」是「fill in for someone」的用法，與本句語境不同。"
+        "fill-mcq-23": "本句的「refill the bottle」指「再裝滿」。",
+        "fill-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fill-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-23"
     },
@@ -2138,11 +1942,9 @@ export default {
       "masked": "Can I have a ____?",
       "options": [
         "fill-mcq-24",
-        "fill-mcq-23",
-        "fill-mcq-25",
-        "fill-mcq-22",
         "fill-mcq-26",
-        "fill-mcq-21"
+        "fill-mcq-16",
+        "fill-mcq-28"
       ],
       "explanation": "本句的「refill」指「續杯／補充份」。",
       "sentenceIndex": 49,
@@ -2151,12 +1953,10 @@ export default {
         "refill"
       ],
       "optionReasons": {
-        "fill-mcq-24": "本句指「續杯／補充份」。",
-        "fill-mcq-23": "「再裝滿」是「refill」的用法，與本句語境不同。",
-        "fill-mcq-25": "「餡料；填充物」是「filling (noun)」的用法，與本句語境不同。",
-        "fill-mcq-22": "「加滿油」是「fill up the car」的用法，與本句語境不同。",
-        "fill-mcq-26": "「飽肚的」是「filling (adj.)」的用法，與本句語境不同。",
-        "fill-mcq-21": "「裝滿；變滿」是「fill up」的用法，與本句語境不同。"
+        "fill-mcq-24": "本句的「refill」指「續杯／補充份」。",
+        "fill-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-24"
     },
@@ -2168,11 +1968,9 @@ export default {
       "masked": "The restaurant offers free coffee ____.",
       "options": [
         "fill-mcq-24",
-        "fill-mcq-23",
-        "fill-mcq-25",
+        "fill-mcq-14",
         "fill-mcq-22",
-        "fill-mcq-26",
-        "fill-mcq-21"
+        "fill-mcq-26"
       ],
       "explanation": "本句的「refills」指「續杯／補充份」。",
       "sentenceIndex": 50,
@@ -2181,12 +1979,10 @@ export default {
         "refills"
       ],
       "optionReasons": {
-        "fill-mcq-24": "本句指「續杯／補充份」。",
-        "fill-mcq-23": "「再裝滿」是「refill」的用法，與本句語境不同。",
-        "fill-mcq-25": "「餡料；填充物」是「filling (noun)」的用法，與本句語境不同。",
-        "fill-mcq-22": "「加滿油」是「fill up the car」的用法，與本句語境不同。",
-        "fill-mcq-26": "「飽肚的」是「filling (adj.)」的用法，與本句語境不同。",
-        "fill-mcq-21": "「裝滿；變滿」是「fill up」的用法，與本句語境不同。"
+        "fill-mcq-24": "本句的「refills」指「續杯／補充份」。",
+        "fill-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-24"
     },
@@ -2198,11 +1994,9 @@ export default {
       "masked": "The sandwich has a chicken ____.",
       "options": [
         "fill-mcq-25",
-        "fill-mcq-24",
-        "fill-mcq-26",
-        "fill-mcq-23",
-        "fill-mcq-27",
-        "fill-mcq-22"
+        "fill-mcq-04",
+        "fill-mcq-13",
+        "fill-mcq-15"
       ],
       "explanation": "本句的「filling」指「餡料；填充物」。",
       "sentenceIndex": 51,
@@ -2211,12 +2005,10 @@ export default {
         "filling"
       ],
       "optionReasons": {
-        "fill-mcq-25": "本句指「餡料；填充物」。",
-        "fill-mcq-24": "「續杯／補充份」是「a refill」的用法，與本句語境不同。",
-        "fill-mcq-26": "「飽肚的」是「filling (adj.)」的用法，與本句語境不同。",
-        "fill-mcq-23": "「再裝滿」是「refill」的用法，與本句語境不同。",
-        "fill-mcq-27": "「填充物；補白」是「filler」的用法，與本句語境不同。",
-        "fill-mcq-22": "「加滿油」是「fill up the car」的用法，與本句語境不同。"
+        "fill-mcq-25": "本句的「filling」指「餡料；填充物」。",
+        "fill-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-25"
     },
@@ -2228,10 +2020,8 @@ export default {
       "masked": "The cushion has a soft ____.",
       "options": [
         "fill-mcq-25",
-        "fill-mcq-24",
-        "fill-mcq-26",
-        "fill-mcq-23",
-        "fill-mcq-27",
+        "fill-mcq-15",
+        "fill-pdf-001",
         "fill-mcq-22"
       ],
       "explanation": "本句的「filling」指「餡料；填充物」。",
@@ -2241,12 +2031,10 @@ export default {
         "filling"
       ],
       "optionReasons": {
-        "fill-mcq-25": "本句指「餡料；填充物」。",
-        "fill-mcq-24": "「續杯／補充份」是「a refill」的用法，與本句語境不同。",
-        "fill-mcq-26": "「飽肚的」是「filling (adj.)」的用法，與本句語境不同。",
-        "fill-mcq-23": "「再裝滿」是「refill」的用法，與本句語境不同。",
-        "fill-mcq-27": "「填充物；補白」是「filler」的用法，與本句語境不同。",
-        "fill-mcq-22": "「加滿油」是「fill up the car」的用法，與本句語境不同。"
+        "fill-mcq-25": "本句的「filling」指「餡料；填充物」。",
+        "fill-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fill-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-25"
     },
@@ -2258,11 +2046,9 @@ export default {
       "masked": "This soup is surprisingly ____.",
       "options": [
         "fill-mcq-26",
+        "fill-mcq-23",
         "fill-mcq-25",
-        "fill-mcq-27",
-        "fill-mcq-24",
-        "fill-mcq-28",
-        "fill-mcq-23"
+        "fill-mcq-14"
       ],
       "explanation": "本句的「filling」指「飽肚的」。",
       "sentenceIndex": 53,
@@ -2271,12 +2057,10 @@ export default {
         "filling"
       ],
       "optionReasons": {
-        "fill-mcq-26": "本句指「飽肚的」。",
-        "fill-mcq-25": "「餡料；填充物」是「filling (noun)」的用法，與本句語境不同。",
-        "fill-mcq-27": "「填充物；補白」是「filler」的用法，與本句語境不同。",
-        "fill-mcq-24": "「續杯／補充份」是「a refill」的用法，與本句語境不同。",
-        "fill-mcq-28": "「把 Y 放進 X，直到 X 裏有很多 Y 或變滿」是「2. fill something with something — 用……填滿某物」的用法，與本句語境不同。",
-        "fill-mcq-23": "「再裝滿」是「refill」的用法，與本句語境不同。"
+        "fill-mcq-26": "本句的「filling」指「飽肚的」。",
+        "fill-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-26"
     },
@@ -2288,11 +2072,9 @@ export default {
       "masked": "Rice is cheap and ____.",
       "options": [
         "fill-mcq-26",
-        "fill-mcq-25",
-        "fill-mcq-27",
-        "fill-mcq-24",
-        "fill-mcq-28",
-        "fill-mcq-23"
+        "fill-mcq-08",
+        "fill-mcq-03",
+        "fill-mcq-15"
       ],
       "explanation": "本句的「filling」指「飽肚的」。",
       "sentenceIndex": 54,
@@ -2301,12 +2083,10 @@ export default {
         "filling"
       ],
       "optionReasons": {
-        "fill-mcq-26": "本句指「飽肚的」。",
-        "fill-mcq-25": "「餡料；填充物」是「filling (noun)」的用法，與本句語境不同。",
-        "fill-mcq-27": "「填充物；補白」是「filler」的用法，與本句語境不同。",
-        "fill-mcq-24": "「續杯／補充份」是「a refill」的用法，與本句語境不同。",
-        "fill-mcq-28": "「把 Y 放進 X，直到 X 裏有很多 Y 或變滿」是「2. fill something with something — 用……填滿某物」的用法，與本句語境不同。",
-        "fill-mcq-23": "「再裝滿」是「refill」的用法，與本句語境不同。"
+        "fill-mcq-26": "本句的「filling」指「飽肚的」。",
+        "fill-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-26"
     },
@@ -2318,11 +2098,9 @@ export default {
       "masked": "The product contains no artificial ____.",
       "options": [
         "fill-mcq-27",
-        "fill-mcq-26",
-        "fill-mcq-28",
-        "fill-mcq-25",
-        "fill-mcq-24",
-        "fill-mcq-23"
+        "fill-mcq-20",
+        "fill-mcq-07",
+        "fill-mcq-14"
       ],
       "explanation": "本句的「fillers」指「填充物；補白」。",
       "sentenceIndex": 55,
@@ -2331,12 +2109,10 @@ export default {
         "fillers"
       ],
       "optionReasons": {
-        "fill-mcq-27": "本句指「填充物；補白」。",
-        "fill-mcq-26": "「飽肚的」是「filling (adj.)」的用法，與本句語境不同。",
-        "fill-mcq-28": "「把 Y 放進 X，直到 X 裏有很多 Y 或變滿」是「2. fill something with something — 用……填滿某物」的用法，與本句語境不同。",
-        "fill-mcq-25": "「餡料；填充物」是「filling (noun)」的用法，與本句語境不同。",
-        "fill-mcq-24": "「續杯／補充份」是「a refill」的用法，與本句語境不同。",
-        "fill-mcq-23": "「再裝滿」是「refill」的用法，與本句語境不同。"
+        "fill-mcq-27": "本句的「fillers」指「填充物；補白」。",
+        "fill-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-27"
     },
@@ -2348,11 +2124,9 @@ export default {
       "masked": "Foam is used as a ____ inside the cushion.",
       "options": [
         "fill-mcq-27",
-        "fill-mcq-26",
-        "fill-mcq-28",
-        "fill-mcq-25",
-        "fill-mcq-24",
-        "fill-mcq-23"
+        "fill-mcq-01",
+        "fill-mcq-04",
+        "fill-mcq-20"
       ],
       "explanation": "本句的「filler」指「填充物；補白」。",
       "sentenceIndex": 56,
@@ -2361,12 +2135,10 @@ export default {
         "filler"
       ],
       "optionReasons": {
-        "fill-mcq-27": "本句指「填充物；補白」。",
-        "fill-mcq-26": "「飽肚的」是「filling (adj.)」的用法，與本句語境不同。",
-        "fill-mcq-28": "「把 Y 放進 X，直到 X 裏有很多 Y 或變滿」是「2. fill something with something — 用……填滿某物」的用法，與本句語境不同。",
-        "fill-mcq-25": "「餡料；填充物」是「filling (noun)」的用法，與本句語境不同。",
-        "fill-mcq-24": "「續杯／補充份」是「a refill」的用法，與本句語境不同。",
-        "fill-mcq-23": "「再裝滿」是「refill」的用法，與本句語境不同。"
+        "fill-mcq-27": "本句的「filler」指「填充物；補白」。",
+        "fill-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-27"
     },
@@ -2378,11 +2150,9 @@ export default {
       "masked": "Some of the scenes felt like ____.",
       "options": [
         "fill-mcq-27",
-        "fill-mcq-26",
-        "fill-mcq-28",
-        "fill-mcq-25",
-        "fill-mcq-24",
-        "fill-mcq-23"
+        "fill-mcq-04",
+        "fill-mcq-14",
+        "fill-mcq-12"
       ],
       "explanation": "本句的「filler」指「填充物；補白」。",
       "sentenceIndex": 57,
@@ -2391,12 +2161,10 @@ export default {
         "filler"
       ],
       "optionReasons": {
-        "fill-mcq-27": "本句指「填充物；補白」。",
-        "fill-mcq-26": "「飽肚的」是「filling (adj.)」的用法，與本句語境不同。",
-        "fill-mcq-28": "「把 Y 放進 X，直到 X 裏有很多 Y 或變滿」是「2. fill something with something — 用……填滿某物」的用法，與本句語境不同。",
-        "fill-mcq-25": "「餡料；填充物」是「filling (noun)」的用法，與本句語境不同。",
-        "fill-mcq-24": "「續杯／補充份」是「a refill」的用法，與本句語境不同。",
-        "fill-mcq-23": "「再裝滿」是「refill」的用法，與本句語境不同。"
+        "fill-mcq-27": "本句的「filler」指「填充物；補白」。",
+        "fill-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-27"
     },
@@ -2408,11 +2176,9 @@ export default {
       "masked": "The article contains too much ____.",
       "options": [
         "fill-mcq-27",
-        "fill-mcq-26",
-        "fill-mcq-28",
-        "fill-mcq-25",
-        "fill-mcq-24",
-        "fill-mcq-23"
+        "fill-mcq-04",
+        "fill-pdf-001",
+        "fill-mcq-05"
       ],
       "explanation": "本句的「filler」指「填充物；補白」。",
       "sentenceIndex": 58,
@@ -2421,12 +2187,10 @@ export default {
         "filler"
       ],
       "optionReasons": {
-        "fill-mcq-27": "本句指「填充物；補白」。",
-        "fill-mcq-26": "「飽肚的」是「filling (adj.)」的用法，與本句語境不同。",
-        "fill-mcq-28": "「把 Y 放進 X，直到 X 裏有很多 Y 或變滿」是「2. fill something with something — 用……填滿某物」的用法，與本句語境不同。",
-        "fill-mcq-25": "「餡料；填充物」是「filling (noun)」的用法，與本句語境不同。",
-        "fill-mcq-24": "「續杯／補充份」是「a refill」的用法，與本句語境不同。",
-        "fill-mcq-23": "「再裝滿」是「refill」的用法，與本句語境不同。"
+        "fill-mcq-27": "本句的「filler」指「填充物；補白」。",
+        "fill-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fill-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fill-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fill-mcq-27"
     }
@@ -2438,5 +2202,7 @@ export default {
     "sha256": "7f9f187656fa29626f35e0fcb3008e44d44ea20f5b84b0d624beafba75b690c9",
     "pages": 22
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

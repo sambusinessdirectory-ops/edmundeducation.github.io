@@ -206,11 +206,7 @@ export default {
       "masked": "He can spend hours … folding paper rockets out of old ____.",
       "options": [
         "notebook-mcq-01",
-        "notebook-mcq-02",
-        "notebook-mcq-03",
-        "notebook-mcq-04",
-        "notebook-mcq-05",
-        "notebook-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「notebooks」指「由多頁紙裝訂而成，用來寫字、做筆記、畫圖或記錄資料的小冊子」。",
       "sentenceIndex": 0,
@@ -219,12 +215,8 @@ export default {
         "notebooks"
       ],
       "optionReasons": {
-        "notebook-mcq-01": "本句指「由多頁紙裝訂而成，用來寫字、做筆記、畫圖或記錄資料的小冊子」。",
-        "notebook-mcq-02": "「學生用來抄寫、做練習或記錄學習內容的筆記簿」是「school notebook」的用法，與本句語境不同。",
-        "notebook-mcq-03": "「用來記錄想法、觀察、提醒或資料的記事本」是「personal notebook」的用法，與本句語境不同。",
-        "notebook-mcq-04": "「用來畫圖、速寫或記錄視覺構想的簿冊」是「drawing notebook」的用法，與本句語境不同。",
-        "notebook-mcq-05": "「輕便、可攜式的個人電腦；筆記型／手提電腦」是「notebook — computer」的用法，與本句語境不同。",
-        "notebook-mcq-06": "「用於筆記簿、通常有橫線或格線的書寫紙」是「notebook paper」的用法，與本句語境不同。"
+        "notebook-mcq-01": "本句的「notebooks」指「由多頁紙裝訂而成，用來寫字、做筆記、畫圖或記錄資料的小冊子」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-01"
     },
@@ -236,11 +228,7 @@ export default {
       "masked": "She wrote the idea in her ____.",
       "options": [
         "notebook-mcq-01",
-        "notebook-mcq-02",
-        "notebook-mcq-03",
-        "notebook-mcq-04",
-        "notebook-mcq-05",
-        "notebook-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「notebook」指「由多頁紙裝訂而成，用來寫字、做筆記、畫圖或記錄資料的小冊子」。",
       "sentenceIndex": 1,
@@ -249,12 +237,8 @@ export default {
         "notebook"
       ],
       "optionReasons": {
-        "notebook-mcq-01": "本句指「由多頁紙裝訂而成，用來寫字、做筆記、畫圖或記錄資料的小冊子」。",
-        "notebook-mcq-02": "「學生用來抄寫、做練習或記錄學習內容的筆記簿」是「school notebook」的用法，與本句語境不同。",
-        "notebook-mcq-03": "「用來記錄想法、觀察、提醒或資料的記事本」是「personal notebook」的用法，與本句語境不同。",
-        "notebook-mcq-04": "「用來畫圖、速寫或記錄視覺構想的簿冊」是「drawing notebook」的用法，與本句語境不同。",
-        "notebook-mcq-05": "「輕便、可攜式的個人電腦；筆記型／手提電腦」是「notebook — computer」的用法，與本句語境不同。",
-        "notebook-mcq-06": "「用於筆記簿、通常有橫線或格線的書寫紙」是「notebook paper」的用法，與本句語境不同。"
+        "notebook-mcq-01": "本句的「notebook」指「由多頁紙裝訂而成，用來寫字、做筆記、畫圖或記錄資料的小冊子」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-01"
     },
@@ -266,11 +250,7 @@ export default {
       "masked": "I always carry a small ____ with me.",
       "options": [
         "notebook-mcq-01",
-        "notebook-mcq-02",
-        "notebook-mcq-03",
-        "notebook-mcq-04",
-        "notebook-mcq-05",
-        "notebook-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「notebook」指「由多頁紙裝訂而成，用來寫字、做筆記、畫圖或記錄資料的小冊子」。",
       "sentenceIndex": 2,
@@ -279,12 +259,8 @@ export default {
         "notebook"
       ],
       "optionReasons": {
-        "notebook-mcq-01": "本句指「由多頁紙裝訂而成，用來寫字、做筆記、畫圖或記錄資料的小冊子」。",
-        "notebook-mcq-02": "「學生用來抄寫、做練習或記錄學習內容的筆記簿」是「school notebook」的用法，與本句語境不同。",
-        "notebook-mcq-03": "「用來記錄想法、觀察、提醒或資料的記事本」是「personal notebook」的用法，與本句語境不同。",
-        "notebook-mcq-04": "「用來畫圖、速寫或記錄視覺構想的簿冊」是「drawing notebook」的用法，與本句語境不同。",
-        "notebook-mcq-05": "「輕便、可攜式的個人電腦；筆記型／手提電腦」是「notebook — computer」的用法，與本句語境不同。",
-        "notebook-mcq-06": "「用於筆記簿、通常有橫線或格線的書寫紙」是「notebook paper」的用法，與本句語境不同。"
+        "notebook-mcq-01": "本句的「notebook」指「由多頁紙裝訂而成，用來寫字、做筆記、畫圖或記錄資料的小冊子」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-01"
     },
@@ -296,11 +272,7 @@ export default {
       "masked": "The students opened their ____.",
       "options": [
         "notebook-mcq-02",
-        "notebook-mcq-01",
-        "notebook-mcq-03",
-        "notebook-mcq-04",
-        "notebook-mcq-05",
-        "notebook-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「notebooks」指「學生用來抄寫、做練習或記錄學習內容的筆記簿」。",
       "sentenceIndex": 3,
@@ -309,12 +281,8 @@ export default {
         "notebooks"
       ],
       "optionReasons": {
-        "notebook-mcq-02": "本句指「學生用來抄寫、做練習或記錄學習內容的筆記簿」。",
-        "notebook-mcq-01": "「由多頁紙裝訂而成，用來寫字、做筆記、畫圖或記錄資料的小冊子」是「notebook — paper book」的用法，與本句語境不同。",
-        "notebook-mcq-03": "「用來記錄想法、觀察、提醒或資料的記事本」是「personal notebook」的用法，與本句語境不同。",
-        "notebook-mcq-04": "「用來畫圖、速寫或記錄視覺構想的簿冊」是「drawing notebook」的用法，與本句語境不同。",
-        "notebook-mcq-05": "「輕便、可攜式的個人電腦；筆記型／手提電腦」是「notebook — computer」的用法，與本句語境不同。",
-        "notebook-mcq-06": "「用於筆記簿、通常有橫線或格線的書寫紙」是「notebook paper」的用法，與本句語境不同。"
+        "notebook-mcq-02": "本句的「notebooks」指「學生用來抄寫、做練習或記錄學習內容的筆記簿」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-02"
     },
@@ -326,11 +294,7 @@ export default {
       "masked": "He copied the new vocabulary into his ____.",
       "options": [
         "notebook-mcq-02",
-        "notebook-mcq-01",
-        "notebook-mcq-03",
-        "notebook-mcq-04",
-        "notebook-mcq-05",
-        "notebook-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「notebook」指「學生用來抄寫、做練習或記錄學習內容的筆記簿」。",
       "sentenceIndex": 4,
@@ -339,12 +303,8 @@ export default {
         "notebook"
       ],
       "optionReasons": {
-        "notebook-mcq-02": "本句指「學生用來抄寫、做練習或記錄學習內容的筆記簿」。",
-        "notebook-mcq-01": "「由多頁紙裝訂而成，用來寫字、做筆記、畫圖或記錄資料的小冊子」是「notebook — paper book」的用法，與本句語境不同。",
-        "notebook-mcq-03": "「用來記錄想法、觀察、提醒或資料的記事本」是「personal notebook」的用法，與本句語境不同。",
-        "notebook-mcq-04": "「用來畫圖、速寫或記錄視覺構想的簿冊」是「drawing notebook」的用法，與本句語境不同。",
-        "notebook-mcq-05": "「輕便、可攜式的個人電腦；筆記型／手提電腦」是「notebook — computer」的用法，與本句語境不同。",
-        "notebook-mcq-06": "「用於筆記簿、通常有橫線或格線的書寫紙」是「notebook paper」的用法，與本句語境不同。"
+        "notebook-mcq-02": "本句的「notebook」指「學生用來抄寫、做練習或記錄學習內容的筆記簿」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-02"
     },
@@ -356,11 +316,7 @@ export default {
       "masked": "The reporter took out a ____.",
       "options": [
         "notebook-mcq-03",
-        "notebook-mcq-02",
-        "notebook-mcq-04",
-        "notebook-mcq-01",
-        "notebook-mcq-05",
-        "notebook-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「notebook」指「用來記錄想法、觀察、提醒或資料的記事本」。",
       "sentenceIndex": 5,
@@ -369,12 +325,8 @@ export default {
         "notebook"
       ],
       "optionReasons": {
-        "notebook-mcq-03": "本句指「用來記錄想法、觀察、提醒或資料的記事本」。",
-        "notebook-mcq-02": "「學生用來抄寫、做練習或記錄學習內容的筆記簿」是「school notebook」的用法，與本句語境不同。",
-        "notebook-mcq-04": "「用來畫圖、速寫或記錄視覺構想的簿冊」是「drawing notebook」的用法，與本句語境不同。",
-        "notebook-mcq-01": "「由多頁紙裝訂而成，用來寫字、做筆記、畫圖或記錄資料的小冊子」是「notebook — paper book」的用法，與本句語境不同。",
-        "notebook-mcq-05": "「輕便、可攜式的個人電腦；筆記型／手提電腦」是「notebook — computer」的用法，與本句語境不同。",
-        "notebook-mcq-06": "「用於筆記簿、通常有橫線或格線的書寫紙」是「notebook paper」的用法，與本句語境不同。"
+        "notebook-mcq-03": "本句的「notebook」指「用來記錄想法、觀察、提醒或資料的記事本」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-03"
     },
@@ -386,11 +338,7 @@ export default {
       "masked": "She keeps a ____ of ideas beside her bed.",
       "options": [
         "notebook-mcq-03",
-        "notebook-mcq-02",
-        "notebook-mcq-04",
-        "notebook-mcq-01",
-        "notebook-mcq-05",
-        "notebook-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「notebook」指「用來記錄想法、觀察、提醒或資料的記事本」。",
       "sentenceIndex": 6,
@@ -399,12 +347,8 @@ export default {
         "notebook"
       ],
       "optionReasons": {
-        "notebook-mcq-03": "本句指「用來記錄想法、觀察、提醒或資料的記事本」。",
-        "notebook-mcq-02": "「學生用來抄寫、做練習或記錄學習內容的筆記簿」是「school notebook」的用法，與本句語境不同。",
-        "notebook-mcq-04": "「用來畫圖、速寫或記錄視覺構想的簿冊」是「drawing notebook」的用法，與本句語境不同。",
-        "notebook-mcq-01": "「由多頁紙裝訂而成，用來寫字、做筆記、畫圖或記錄資料的小冊子」是「notebook — paper book」的用法，與本句語境不同。",
-        "notebook-mcq-05": "「輕便、可攜式的個人電腦；筆記型／手提電腦」是「notebook — computer」的用法，與本句語境不同。",
-        "notebook-mcq-06": "「用於筆記簿、通常有橫線或格線的書寫紙」是「notebook paper」的用法，與本句語境不同。"
+        "notebook-mcq-03": "本句的「notebook」指「用來記錄想法、觀察、提醒或資料的記事本」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-03"
     },
@@ -416,11 +360,7 @@ export default {
       "masked": "Leo filled his ____ with drawings.",
       "options": [
         "notebook-mcq-04",
-        "notebook-mcq-03",
-        "notebook-mcq-05",
-        "notebook-mcq-02",
-        "notebook-mcq-06",
-        "notebook-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「notebook」指「用來畫圖、速寫或記錄視覺構想的簿冊」。",
       "sentenceIndex": 7,
@@ -429,12 +369,8 @@ export default {
         "notebook"
       ],
       "optionReasons": {
-        "notebook-mcq-04": "本句指「用來畫圖、速寫或記錄視覺構想的簿冊」。",
-        "notebook-mcq-03": "「用來記錄想法、觀察、提醒或資料的記事本」是「personal notebook」的用法，與本句語境不同。",
-        "notebook-mcq-05": "「輕便、可攜式的個人電腦；筆記型／手提電腦」是「notebook — computer」的用法，與本句語境不同。",
-        "notebook-mcq-02": "「學生用來抄寫、做練習或記錄學習內容的筆記簿」是「school notebook」的用法，與本句語境不同。",
-        "notebook-mcq-06": "「用於筆記簿、通常有橫線或格線的書寫紙」是「notebook paper」的用法，與本句語境不同。",
-        "notebook-mcq-01": "「由多頁紙裝訂而成，用來寫字、做筆記、畫圖或記錄資料的小冊子」是「notebook — paper book」的用法，與本句語境不同。"
+        "notebook-mcq-04": "本句的「notebook」指「用來畫圖、速寫或記錄視覺構想的簿冊」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-04"
     },
@@ -446,11 +382,7 @@ export default {
       "masked": "She carries a ____ for quick sketches.",
       "options": [
         "notebook-mcq-04",
-        "notebook-mcq-03",
-        "notebook-mcq-05",
-        "notebook-mcq-02",
-        "notebook-mcq-06",
-        "notebook-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「notebook」指「用來畫圖、速寫或記錄視覺構想的簿冊」。",
       "sentenceIndex": 8,
@@ -459,12 +391,8 @@ export default {
         "notebook"
       ],
       "optionReasons": {
-        "notebook-mcq-04": "本句指「用來畫圖、速寫或記錄視覺構想的簿冊」。",
-        "notebook-mcq-03": "「用來記錄想法、觀察、提醒或資料的記事本」是「personal notebook」的用法，與本句語境不同。",
-        "notebook-mcq-05": "「輕便、可攜式的個人電腦；筆記型／手提電腦」是「notebook — computer」的用法，與本句語境不同。",
-        "notebook-mcq-02": "「學生用來抄寫、做練習或記錄學習內容的筆記簿」是「school notebook」的用法，與本句語境不同。",
-        "notebook-mcq-06": "「用於筆記簿、通常有橫線或格線的書寫紙」是「notebook paper」的用法，與本句語境不同。",
-        "notebook-mcq-01": "「由多頁紙裝訂而成，用來寫字、做筆記、畫圖或記錄資料的小冊子」是「notebook — paper book」的用法，與本句語境不同。"
+        "notebook-mcq-04": "本句的「notebook」指「用來畫圖、速寫或記錄視覺構想的簿冊」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-04"
     },
@@ -476,11 +404,7 @@ export default {
       "masked": "She bought a new ____.",
       "options": [
         "notebook-mcq-05",
-        "notebook-mcq-04",
-        "notebook-mcq-06",
-        "notebook-mcq-03",
-        "notebook-mcq-07",
-        "notebook-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「notebook computer」指「輕便、可攜式的個人電腦；筆記型／手提電腦」。",
       "sentenceIndex": 9,
@@ -489,12 +413,8 @@ export default {
         "notebook computer"
       ],
       "optionReasons": {
-        "notebook-mcq-05": "本句指「輕便、可攜式的個人電腦；筆記型／手提電腦」。",
-        "notebook-mcq-04": "「用來畫圖、速寫或記錄視覺構想的簿冊」是「drawing notebook」的用法，與本句語境不同。",
-        "notebook-mcq-06": "「用於筆記簿、通常有橫線或格線的書寫紙」是「notebook paper」的用法，與本句語境不同。",
-        "notebook-mcq-03": "「用來記錄想法、觀察、提醒或資料的記事本」是「personal notebook」的用法，與本句語境不同。",
-        "notebook-mcq-07": "「以螺旋圈裝訂紙頁的筆記簿」是「spiral notebook」的用法，與本句語境不同。",
-        "notebook-mcq-02": "「學生用來抄寫、做練習或記錄學習內容的筆記簿」是「school notebook」的用法，與本句語境不同。"
+        "notebook-mcq-05": "本句的「notebook computer」指「輕便、可攜式的個人電腦；筆記型／手提電腦」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-05"
     },
@@ -506,11 +426,7 @@ export default {
       "masked": "The company issued lightweight ____ to staff.",
       "options": [
         "notebook-mcq-05",
-        "notebook-mcq-04",
-        "notebook-mcq-06",
-        "notebook-mcq-03",
-        "notebook-mcq-07",
-        "notebook-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「notebooks」指「輕便、可攜式的個人電腦；筆記型／手提電腦」。",
       "sentenceIndex": 10,
@@ -519,12 +435,8 @@ export default {
         "notebooks"
       ],
       "optionReasons": {
-        "notebook-mcq-05": "本句指「輕便、可攜式的個人電腦；筆記型／手提電腦」。",
-        "notebook-mcq-04": "「用來畫圖、速寫或記錄視覺構想的簿冊」是「drawing notebook」的用法，與本句語境不同。",
-        "notebook-mcq-06": "「用於筆記簿、通常有橫線或格線的書寫紙」是「notebook paper」的用法，與本句語境不同。",
-        "notebook-mcq-03": "「用來記錄想法、觀察、提醒或資料的記事本」是「personal notebook」的用法，與本句語境不同。",
-        "notebook-mcq-07": "「以螺旋圈裝訂紙頁的筆記簿」是「spiral notebook」的用法，與本句語境不同。",
-        "notebook-mcq-02": "「學生用來抄寫、做練習或記錄學習內容的筆記簿」是「school notebook」的用法，與本句語境不同。"
+        "notebook-mcq-05": "本句的「notebooks」指「輕便、可攜式的個人電腦；筆記型／手提電腦」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-05"
     },
@@ -536,11 +448,7 @@ export default {
       "masked": "This ____ weighs less than two kilograms.",
       "options": [
         "notebook-mcq-05",
-        "notebook-mcq-04",
-        "notebook-mcq-06",
-        "notebook-mcq-03",
-        "notebook-mcq-07",
-        "notebook-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「notebook」指「輕便、可攜式的個人電腦；筆記型／手提電腦」。",
       "sentenceIndex": 11,
@@ -549,12 +457,8 @@ export default {
         "notebook"
       ],
       "optionReasons": {
-        "notebook-mcq-05": "本句指「輕便、可攜式的個人電腦；筆記型／手提電腦」。",
-        "notebook-mcq-04": "「用來畫圖、速寫或記錄視覺構想的簿冊」是「drawing notebook」的用法，與本句語境不同。",
-        "notebook-mcq-06": "「用於筆記簿、通常有橫線或格線的書寫紙」是「notebook paper」的用法，與本句語境不同。",
-        "notebook-mcq-03": "「用來記錄想法、觀察、提醒或資料的記事本」是「personal notebook」的用法，與本句語境不同。",
-        "notebook-mcq-07": "「以螺旋圈裝訂紙頁的筆記簿」是「spiral notebook」的用法，與本句語境不同。",
-        "notebook-mcq-02": "「學生用來抄寫、做練習或記錄學習內容的筆記簿」是「school notebook」的用法，與本句語境不同。"
+        "notebook-mcq-05": "本句的「notebook」指「輕便、可攜式的個人電腦；筆記型／手提電腦」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-05"
     },
@@ -566,11 +470,7 @@ export default {
       "masked": "The new ____ has a longer battery life.",
       "options": [
         "notebook-mcq-05",
-        "notebook-mcq-04",
-        "notebook-mcq-06",
-        "notebook-mcq-03",
-        "notebook-mcq-07",
-        "notebook-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「notebook」指「輕便、可攜式的個人電腦；筆記型／手提電腦」。",
       "sentenceIndex": 12,
@@ -579,12 +479,8 @@ export default {
         "notebook"
       ],
       "optionReasons": {
-        "notebook-mcq-05": "本句指「輕便、可攜式的個人電腦；筆記型／手提電腦」。",
-        "notebook-mcq-04": "「用來畫圖、速寫或記錄視覺構想的簿冊」是「drawing notebook」的用法，與本句語境不同。",
-        "notebook-mcq-06": "「用於筆記簿、通常有橫線或格線的書寫紙」是「notebook paper」的用法，與本句語境不同。",
-        "notebook-mcq-03": "「用來記錄想法、觀察、提醒或資料的記事本」是「personal notebook」的用法，與本句語境不同。",
-        "notebook-mcq-07": "「以螺旋圈裝訂紙頁的筆記簿」是「spiral notebook」的用法，與本句語境不同。",
-        "notebook-mcq-02": "「學生用來抄寫、做練習或記錄學習內容的筆記簿」是「school notebook」的用法，與本句語境不同。"
+        "notebook-mcq-05": "本句的「notebook」指「輕便、可攜式的個人電腦；筆記型／手提電腦」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-05"
     },
@@ -596,11 +492,7 @@ export default {
       "masked": "Write your answer on ____.",
       "options": [
         "notebook-mcq-06",
-        "notebook-mcq-05",
-        "notebook-mcq-07",
-        "notebook-mcq-04",
-        "notebook-mcq-08",
-        "notebook-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「notebook paper」指「用於筆記簿、通常有橫線或格線的書寫紙」。",
       "sentenceIndex": 13,
@@ -609,12 +501,8 @@ export default {
         "notebook paper"
       ],
       "optionReasons": {
-        "notebook-mcq-06": "本句指「用於筆記簿、通常有橫線或格線的書寫紙」。",
-        "notebook-mcq-05": "「輕便、可攜式的個人電腦；筆記型／手提電腦」是「notebook — computer」的用法，與本句語境不同。",
-        "notebook-mcq-07": "「以螺旋圈裝訂紙頁的筆記簿」是「spiral notebook」的用法，與本句語境不同。",
-        "notebook-mcq-04": "「用來畫圖、速寫或記錄視覺構想的簿冊」是「drawing notebook」的用法，與本句語境不同。",
-        "notebook-mcq-08": "「以電子方式整理和保存筆記內容的數碼工具／系統」是「digital notebook」的用法，與本句語境不同。",
-        "notebook-mcq-03": "「用來記錄想法、觀察、提醒或資料的記事本」是「personal notebook」的用法，與本句語境不同。"
+        "notebook-mcq-06": "本句的「notebook paper」指「用於筆記簿、通常有橫線或格線的書寫紙」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-06"
     },
@@ -626,11 +514,7 @@ export default {
       "masked": "He used old ____ to make the rocket.",
       "options": [
         "notebook-mcq-06",
-        "notebook-mcq-05",
-        "notebook-mcq-07",
-        "notebook-mcq-04",
-        "notebook-mcq-08",
-        "notebook-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「notebook paper」指「用於筆記簿、通常有橫線或格線的書寫紙」。",
       "sentenceIndex": 14,
@@ -639,12 +523,8 @@ export default {
         "notebook paper"
       ],
       "optionReasons": {
-        "notebook-mcq-06": "本句指「用於筆記簿、通常有橫線或格線的書寫紙」。",
-        "notebook-mcq-05": "「輕便、可攜式的個人電腦；筆記型／手提電腦」是「notebook — computer」的用法，與本句語境不同。",
-        "notebook-mcq-07": "「以螺旋圈裝訂紙頁的筆記簿」是「spiral notebook」的用法，與本句語境不同。",
-        "notebook-mcq-04": "「用來畫圖、速寫或記錄視覺構想的簿冊」是「drawing notebook」的用法，與本句語境不同。",
-        "notebook-mcq-08": "「以電子方式整理和保存筆記內容的數碼工具／系統」是「digital notebook」的用法，與本句語境不同。",
-        "notebook-mcq-03": "「用來記錄想法、觀察、提醒或資料的記事本」是「personal notebook」的用法，與本句語境不同。"
+        "notebook-mcq-06": "本句的「notebook paper」指「用於筆記簿、通常有橫線或格線的書寫紙」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-06"
     },
@@ -656,11 +536,7 @@ export default {
       "masked": "She bought a large ____.",
       "options": [
         "notebook-mcq-07",
-        "notebook-mcq-06",
-        "notebook-mcq-08",
-        "notebook-mcq-05",
-        "notebook-mcq-04",
-        "notebook-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「spiral notebook」指「以螺旋圈裝訂紙頁的筆記簿」。",
       "sentenceIndex": 15,
@@ -669,12 +545,8 @@ export default {
         "spiral notebook"
       ],
       "optionReasons": {
-        "notebook-mcq-07": "本句指「以螺旋圈裝訂紙頁的筆記簿」。",
-        "notebook-mcq-06": "「用於筆記簿、通常有橫線或格線的書寫紙」是「notebook paper」的用法，與本句語境不同。",
-        "notebook-mcq-08": "「以電子方式整理和保存筆記內容的數碼工具／系統」是「digital notebook」的用法，與本句語境不同。",
-        "notebook-mcq-05": "「輕便、可攜式的個人電腦；筆記型／手提電腦」是「notebook — computer」的用法，與本句語境不同。",
-        "notebook-mcq-04": "「用來畫圖、速寫或記錄視覺構想的簿冊」是「drawing notebook」的用法，與本句語境不同。",
-        "notebook-mcq-03": "「用來記錄想法、觀察、提醒或資料的記事本」是「personal notebook」的用法，與本句語境不同。"
+        "notebook-mcq-07": "本句的「spiral notebook」指「以螺旋圈裝訂紙頁的筆記簿」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-07"
     },
@@ -686,11 +558,7 @@ export default {
       "masked": "The pages in the ____ tear out easily.",
       "options": [
         "notebook-mcq-07",
-        "notebook-mcq-06",
-        "notebook-mcq-08",
-        "notebook-mcq-05",
-        "notebook-mcq-04",
-        "notebook-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「spiral notebook」指「以螺旋圈裝訂紙頁的筆記簿」。",
       "sentenceIndex": 16,
@@ -699,12 +567,8 @@ export default {
         "spiral notebook"
       ],
       "optionReasons": {
-        "notebook-mcq-07": "本句指「以螺旋圈裝訂紙頁的筆記簿」。",
-        "notebook-mcq-06": "「用於筆記簿、通常有橫線或格線的書寫紙」是「notebook paper」的用法，與本句語境不同。",
-        "notebook-mcq-08": "「以電子方式整理和保存筆記內容的數碼工具／系統」是「digital notebook」的用法，與本句語境不同。",
-        "notebook-mcq-05": "「輕便、可攜式的個人電腦；筆記型／手提電腦」是「notebook — computer」的用法，與本句語境不同。",
-        "notebook-mcq-04": "「用來畫圖、速寫或記錄視覺構想的簿冊」是「drawing notebook」的用法，與本句語境不同。",
-        "notebook-mcq-03": "「用來記錄想法、觀察、提醒或資料的記事本」是「personal notebook」的用法，與本句語境不同。"
+        "notebook-mcq-07": "本句的「spiral notebook」指「以螺旋圈裝訂紙頁的筆記簿」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-07"
     },
@@ -716,11 +580,7 @@ export default {
       "masked": "She keeps all her class notes in a ____.",
       "options": [
         "notebook-mcq-08",
-        "notebook-mcq-07",
-        "notebook-mcq-06",
-        "notebook-mcq-05",
-        "notebook-mcq-04",
-        "notebook-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「digital notebook」指「以電子方式整理和保存筆記內容的數碼工具／系統」。",
       "sentenceIndex": 17,
@@ -729,12 +589,8 @@ export default {
         "digital notebook"
       ],
       "optionReasons": {
-        "notebook-mcq-08": "本句指「以電子方式整理和保存筆記內容的數碼工具／系統」。",
-        "notebook-mcq-07": "「以螺旋圈裝訂紙頁的筆記簿」是「spiral notebook」的用法，與本句語境不同。",
-        "notebook-mcq-06": "「用於筆記簿、通常有橫線或格線的書寫紙」是「notebook paper」的用法，與本句語境不同。",
-        "notebook-mcq-05": "「輕便、可攜式的個人電腦；筆記型／手提電腦」是「notebook — computer」的用法，與本句語境不同。",
-        "notebook-mcq-04": "「用來畫圖、速寫或記錄視覺構想的簿冊」是「drawing notebook」的用法，與本句語境不同。",
-        "notebook-mcq-03": "「用來記錄想法、觀察、提醒或資料的記事本」是「personal notebook」的用法，與本句語境不同。"
+        "notebook-mcq-08": "本句的「digital notebook」指「以電子方式整理和保存筆記內容的數碼工具／系統」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-08"
     },
@@ -746,11 +602,7 @@ export default {
       "masked": "The app works like a ____.",
       "options": [
         "notebook-mcq-08",
-        "notebook-mcq-07",
-        "notebook-mcq-06",
-        "notebook-mcq-05",
-        "notebook-mcq-04",
-        "notebook-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「digital notebook」指「以電子方式整理和保存筆記內容的數碼工具／系統」。",
       "sentenceIndex": 18,
@@ -759,12 +611,8 @@ export default {
         "digital notebook"
       ],
       "optionReasons": {
-        "notebook-mcq-08": "本句指「以電子方式整理和保存筆記內容的數碼工具／系統」。",
-        "notebook-mcq-07": "「以螺旋圈裝訂紙頁的筆記簿」是「spiral notebook」的用法，與本句語境不同。",
-        "notebook-mcq-06": "「用於筆記簿、通常有橫線或格線的書寫紙」是「notebook paper」的用法，與本句語境不同。",
-        "notebook-mcq-05": "「輕便、可攜式的個人電腦；筆記型／手提電腦」是「notebook — computer」的用法，與本句語境不同。",
-        "notebook-mcq-04": "「用來畫圖、速寫或記錄視覺構想的簿冊」是「drawing notebook」的用法，與本句語境不同。",
-        "notebook-mcq-03": "「用來記錄想法、觀察、提醒或資料的記事本」是「personal notebook」的用法，與本句語境不同。"
+        "notebook-mcq-08": "本句的「digital notebook」指「以電子方式整理和保存筆記內容的數碼工具／系統」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notebook-mcq-08"
     }
@@ -776,5 +624,12 @@ export default {
     "sha256": "5339ab480a34dd7b356dcf7706103a27fb054810cb561810fc08c339f4c146df",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

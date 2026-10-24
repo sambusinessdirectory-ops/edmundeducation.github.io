@@ -499,7 +499,7 @@ export default {
     },
     {
       "id": "drain-mcq-25",
-      "title": "表示耗盡精力；使疲憊不堪",
+      "title": "耗盡精力；使疲憊不堪",
       "form": "7. drain — use up someone’s energy",
       "en": "7. drain — use up someone’s energy",
       "zh": "表示耗盡精力；使疲憊不堪",
@@ -521,7 +521,7 @@ export default {
     },
     {
       "id": "drain-mcq-26",
-      "title": "表示排水",
+      "title": "排水",
       "form": "19. drain — carry water away from land",
       "en": "19. drain — carry water away from land",
       "zh": "表示排水",
@@ -551,11 +551,9 @@ export default {
       "masked": "I felt completely ____ after a long week at work.",
       "options": [
         "drain-mcq-24",
-        "drain-mcq-23",
-        "drain-mcq-25",
-        "drain-mcq-22",
-        "drain-mcq-26",
-        "drain-mcq-21"
+        "drain-mcq-03",
+        "drain-mcq-05",
+        "drain-mcq-15"
       ],
       "explanation": "本句的「drained」指「筋疲力盡的；心力交瘁的；精疲力竭的」。",
       "sentenceIndex": 0,
@@ -564,12 +562,10 @@ export default {
         "drained"
       ],
       "optionReasons": {
-        "drain-mcq-24": "本句指「筋疲力盡的；心力交瘁的；精疲力竭的」。",
-        "drain-mcq-23": "「精力被耗盡的；筋疲力竭的」是「drained — exhaustion」的用法，與本句語境不同。",
-        "drain-mcq-25": "「表示耗盡精力；使疲憊不堪」是「7. drain — use up someone’s energy」的用法，與本句語境不同。",
-        "drain-mcq-22": "「液體已被排乾的」是「drained — liquid」的用法，與本句語境不同。",
-        "drain-mcq-26": "「表示排水」是「19. drain — carry water away from land」的用法，與本句語境不同。",
-        "drain-mcq-21": "「大量消耗精神、體力或情緒能量的」是「draining — exhausting」的用法，與本句語境不同。"
+        "drain-mcq-24": "本句的「drained」指「筋疲力盡的；心力交瘁的；精疲力竭的」。",
+        "drain-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-24"
     },
@@ -581,11 +577,9 @@ export default {
       "masked": "The constant pressure left her emotionally ____.",
       "options": [
         "drain-mcq-24",
-        "drain-mcq-23",
-        "drain-mcq-25",
-        "drain-mcq-22",
-        "drain-mcq-26",
-        "drain-mcq-21"
+        "drain-mcq-11",
+        "drain-mcq-02",
+        "drain-mcq-14"
       ],
       "explanation": "本句的「drained」指「筋疲力盡的；心力交瘁的；精疲力竭的」。",
       "sentenceIndex": 1,
@@ -594,12 +588,10 @@ export default {
         "drained"
       ],
       "optionReasons": {
-        "drain-mcq-24": "本句指「筋疲力盡的；心力交瘁的；精疲力竭的」。",
-        "drain-mcq-23": "「精力被耗盡的；筋疲力竭的」是「drained — exhaustion」的用法，與本句語境不同。",
-        "drain-mcq-25": "「表示耗盡精力；使疲憊不堪」是「7. drain — use up someone’s energy」的用法，與本句語境不同。",
-        "drain-mcq-22": "「液體已被排乾的」是「drained — liquid」的用法，與本句語境不同。",
-        "drain-mcq-26": "「表示排水」是「19. drain — carry water away from land」的用法，與本句語境不同。",
-        "drain-mcq-21": "「大量消耗精神、體力或情緒能量的」是「draining — exhausting」的用法，與本句語境不同。"
+        "drain-mcq-24": "本句的「drained」指「筋疲力盡的；心力交瘁的；精疲力竭的」。",
+        "drain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-24"
     },
@@ -611,11 +603,9 @@ export default {
       "masked": "____ from the sink.",
       "options": [
         "drain-mcq-01",
-        "drain-mcq-02",
-        "drain-mcq-03",
-        "drain-mcq-04",
-        "drain-mcq-05",
-        "drain-mcq-06"
+        "drain-mcq-24",
+        "drain-mcq-15",
+        "drain-mcq-10"
       ],
       "explanation": "本句的「Drain the water」指「讓水或其他液體流出；排出／瀝乾」。",
       "sentenceIndex": 2,
@@ -624,12 +614,10 @@ export default {
         "Drain the water"
       ],
       "optionReasons": {
-        "drain-mcq-01": "本句指「讓水或其他液體流出；排出／瀝乾」。",
-        "drain-mcq-02": "「把泳池、水槽、土地等的水排走」是「drain a pool/sink/field」的用法，與本句語境不同。",
-        "drain-mcq-03": "「液體逐漸流走／被瀝掉」是「drain away/off」的用法，與本句語境不同。",
-        "drain-mcq-04": "「讓廢水等流走的排水口／排水管」是「drain — noun plumbing」的用法，與本句語境不同。",
-        "drain-mcq-05": "「收集並排走雨水的雨水渠／排水口」是「storm drain」的用法，與本句語境不同。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。"
+        "drain-mcq-01": "本句的「Drain the water」指「讓水或其他液體流出；排出／瀝乾」。",
+        "drain-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-01"
     },
@@ -641,11 +629,9 @@ export default {
       "masked": "____ before adding the sauce.",
       "options": [
         "drain-mcq-01",
-        "drain-mcq-02",
-        "drain-mcq-03",
-        "drain-mcq-04",
-        "drain-mcq-05",
-        "drain-mcq-06"
+        "drain-mcq-07",
+        "drain-mcq-15",
+        "drain-mcq-10"
       ],
       "explanation": "本句的「Drain the pasta」指「讓水或其他液體流出；排出／瀝乾」。",
       "sentenceIndex": 3,
@@ -654,12 +640,10 @@ export default {
         "Drain the pasta"
       ],
       "optionReasons": {
-        "drain-mcq-01": "本句指「讓水或其他液體流出；排出／瀝乾」。",
-        "drain-mcq-02": "「把泳池、水槽、土地等的水排走」是「drain a pool/sink/field」的用法，與本句語境不同。",
-        "drain-mcq-03": "「液體逐漸流走／被瀝掉」是「drain away/off」的用法，與本句語境不同。",
-        "drain-mcq-04": "「讓廢水等流走的排水口／排水管」是「drain — noun plumbing」的用法，與本句語境不同。",
-        "drain-mcq-05": "「收集並排走雨水的雨水渠／排水口」是「storm drain」的用法，與本句語境不同。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。"
+        "drain-mcq-01": "本句的「Drain the pasta」指「讓水或其他液體流出；排出／瀝乾」。",
+        "drain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-01"
     },
@@ -671,11 +655,9 @@ export default {
       "masked": "They ____ for repairs.",
       "options": [
         "drain-mcq-02",
-        "drain-mcq-01",
-        "drain-mcq-03",
-        "drain-mcq-04",
-        "drain-mcq-05",
-        "drain-mcq-06"
+        "drain-mcq-24",
+        "drain-mcq-13",
+        "drain-mcq-15"
       ],
       "explanation": "本句的「drained the pool」指「把泳池、水槽、土地等的水排走」。",
       "sentenceIndex": 4,
@@ -684,12 +666,10 @@ export default {
         "drained the pool"
       ],
       "optionReasons": {
-        "drain-mcq-02": "本句指「把泳池、水槽、土地等的水排走」。",
-        "drain-mcq-01": "「讓水或其他液體流出；排出／瀝乾」是「drain — remove liquid」的用法，與本句語境不同。",
-        "drain-mcq-03": "「液體逐漸流走／被瀝掉」是「drain away/off」的用法，與本句語境不同。",
-        "drain-mcq-04": "「讓廢水等流走的排水口／排水管」是「drain — noun plumbing」的用法，與本句語境不同。",
-        "drain-mcq-05": "「收集並排走雨水的雨水渠／排水口」是「storm drain」的用法，與本句語境不同。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。"
+        "drain-mcq-02": "本句的「drained the pool」指「把泳池、水槽、土地等的水排走」。",
+        "drain-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-02"
     },
@@ -701,11 +681,9 @@ export default {
       "masked": "The farmer ____ after the heavy rain.",
       "options": [
         "drain-mcq-02",
-        "drain-mcq-01",
-        "drain-mcq-03",
-        "drain-mcq-04",
-        "drain-mcq-05",
-        "drain-mcq-06"
+        "drain-mcq-25",
+        "drain-mcq-13",
+        "drain-mcq-10"
       ],
       "explanation": "本句的「drained the field」指「把泳池、水槽、土地等的水排走」。",
       "sentenceIndex": 5,
@@ -714,12 +692,10 @@ export default {
         "drained the field"
       ],
       "optionReasons": {
-        "drain-mcq-02": "本句指「把泳池、水槽、土地等的水排走」。",
-        "drain-mcq-01": "「讓水或其他液體流出；排出／瀝乾」是「drain — remove liquid」的用法，與本句語境不同。",
-        "drain-mcq-03": "「液體逐漸流走／被瀝掉」是「drain away/off」的用法，與本句語境不同。",
-        "drain-mcq-04": "「讓廢水等流走的排水口／排水管」是「drain — noun plumbing」的用法，與本句語境不同。",
-        "drain-mcq-05": "「收集並排走雨水的雨水渠／排水口」是「storm drain」的用法，與本句語境不同。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。"
+        "drain-mcq-02": "本句的「drained the field」指「把泳池、水槽、土地等的水排走」。",
+        "drain-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-02"
     },
@@ -731,11 +707,9 @@ export default {
       "masked": "The rainwater slowly ____.",
       "options": [
         "drain-mcq-03",
-        "drain-mcq-02",
-        "drain-mcq-04",
-        "drain-mcq-01",
-        "drain-mcq-05",
-        "drain-mcq-06"
+        "drain-mcq-24",
+        "drain-mcq-15",
+        "drain-mcq-26"
       ],
       "explanation": "本句的「drained away」指「液體逐漸流走／被瀝掉」。",
       "sentenceIndex": 6,
@@ -744,12 +718,10 @@ export default {
         "drained away"
       ],
       "optionReasons": {
-        "drain-mcq-03": "本句指「液體逐漸流走／被瀝掉」。",
-        "drain-mcq-02": "「把泳池、水槽、土地等的水排走」是「drain a pool/sink/field」的用法，與本句語境不同。",
-        "drain-mcq-04": "「讓廢水等流走的排水口／排水管」是「drain — noun plumbing」的用法，與本句語境不同。",
-        "drain-mcq-01": "「讓水或其他液體流出；排出／瀝乾」是「drain — remove liquid」的用法，與本句語境不同。",
-        "drain-mcq-05": "「收集並排走雨水的雨水渠／排水口」是「storm drain」的用法，與本句語境不同。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。"
+        "drain-mcq-03": "本句的「drained away」指「液體逐漸流走／被瀝掉」。",
+        "drain-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-03"
     },
@@ -761,11 +733,9 @@ export default {
       "masked": "____ the excess oil.",
       "options": [
         "drain-mcq-03",
-        "drain-mcq-02",
-        "drain-mcq-04",
-        "drain-mcq-01",
-        "drain-mcq-05",
-        "drain-mcq-06"
+        "drain-mcq-12",
+        "drain-mcq-26",
+        "drain-mcq-15"
       ],
       "explanation": "本句的「Drain off」指「液體逐漸流走／被瀝掉」。",
       "sentenceIndex": 7,
@@ -774,12 +744,10 @@ export default {
         "Drain off"
       ],
       "optionReasons": {
-        "drain-mcq-03": "本句指「液體逐漸流走／被瀝掉」。",
-        "drain-mcq-02": "「把泳池、水槽、土地等的水排走」是「drain a pool/sink/field」的用法，與本句語境不同。",
-        "drain-mcq-04": "「讓廢水等流走的排水口／排水管」是「drain — noun plumbing」的用法，與本句語境不同。",
-        "drain-mcq-01": "「讓水或其他液體流出；排出／瀝乾」是「drain — remove liquid」的用法，與本句語境不同。",
-        "drain-mcq-05": "「收集並排走雨水的雨水渠／排水口」是「storm drain」的用法，與本句語境不同。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。"
+        "drain-mcq-03": "本句的「Drain off」指「液體逐漸流走／被瀝掉」。",
+        "drain-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-03"
     },
@@ -791,11 +759,9 @@ export default {
       "masked": "The kitchen ____ is blocked.",
       "options": [
         "drain-mcq-05",
-        "drain-mcq-04",
-        "drain-mcq-06",
-        "drain-mcq-03",
-        "drain-mcq-07",
-        "drain-mcq-02"
+        "drain-mcq-21",
+        "drain-mcq-10",
+        "drain-mcq-15"
       ],
       "explanation": "本句的「drain」指「收集並排走雨水的雨水渠／排水口」。",
       "sentenceIndex": 8,
@@ -804,12 +770,10 @@ export default {
         "drain"
       ],
       "optionReasons": {
-        "drain-mcq-05": "本句指「收集並排走雨水的雨水渠／排水口」。",
-        "drain-mcq-04": "「讓廢水等流走的排水口／排水管」是「drain — noun plumbing」的用法，與本句語境不同。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。",
-        "drain-mcq-03": "「液體逐漸流走／被瀝掉」是「drain away/off」的用法，與本句語境不同。",
-        "drain-mcq-07": "「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」是「feel/be drained」的用法，與本句語境不同。",
-        "drain-mcq-02": "「把泳池、水槽、土地等的水排走」是「drain a pool/sink/field」的用法，與本句語境不同。"
+        "drain-mcq-05": "本句的「drain」指「收集並排走雨水的雨水渠／排水口」。",
+        "drain-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-05"
     },
@@ -821,11 +785,9 @@ export default {
       "masked": "Water disappeared down the ____.",
       "options": [
         "drain-mcq-05",
-        "drain-mcq-04",
-        "drain-mcq-06",
-        "drain-mcq-03",
+        "drain-mcq-11",
         "drain-mcq-07",
-        "drain-mcq-02"
+        "drain-mcq-15"
       ],
       "explanation": "本句的「drain」指「收集並排走雨水的雨水渠／排水口」。",
       "sentenceIndex": 9,
@@ -834,12 +796,10 @@ export default {
         "drain"
       ],
       "optionReasons": {
-        "drain-mcq-05": "本句指「收集並排走雨水的雨水渠／排水口」。",
-        "drain-mcq-04": "「讓廢水等流走的排水口／排水管」是「drain — noun plumbing」的用法，與本句語境不同。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。",
-        "drain-mcq-03": "「液體逐漸流走／被瀝掉」是「drain away/off」的用法，與本句語境不同。",
-        "drain-mcq-07": "「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」是「feel/be drained」的用法，與本句語境不同。",
-        "drain-mcq-02": "「把泳池、水槽、土地等的水排走」是「drain a pool/sink/field」的用法，與本句語境不同。"
+        "drain-mcq-05": "本句的「drain」指「收集並排走雨水的雨水渠／排水口」。",
+        "drain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-05"
     },
@@ -851,11 +811,9 @@ export default {
       "masked": "Leaves blocked the ____.",
       "options": [
         "drain-mcq-05",
-        "drain-mcq-04",
-        "drain-mcq-06",
-        "drain-mcq-03",
-        "drain-mcq-07",
-        "drain-mcq-02"
+        "drain-mcq-25",
+        "drain-mcq-11",
+        "drain-mcq-15"
       ],
       "explanation": "本句的「storm drain」指「收集並排走雨水的雨水渠／排水口」。",
       "sentenceIndex": 10,
@@ -864,12 +822,10 @@ export default {
         "storm drain"
       ],
       "optionReasons": {
-        "drain-mcq-05": "本句指「收集並排走雨水的雨水渠／排水口」。",
-        "drain-mcq-04": "「讓廢水等流走的排水口／排水管」是「drain — noun plumbing」的用法，與本句語境不同。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。",
-        "drain-mcq-03": "「液體逐漸流走／被瀝掉」是「drain away/off」的用法，與本句語境不同。",
-        "drain-mcq-07": "「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」是「feel/be drained」的用法，與本句語境不同。",
-        "drain-mcq-02": "「把泳池、水槽、土地等的水排走」是「drain a pool/sink/field」的用法，與本句語境不同。"
+        "drain-mcq-05": "本句的「storm drain」指「收集並排走雨水的雨水渠／排水口」。",
+        "drain-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-05"
     },
@@ -881,11 +837,9 @@ export default {
       "masked": "Water rushed into the ____.",
       "options": [
         "drain-mcq-05",
-        "drain-mcq-04",
-        "drain-mcq-06",
-        "drain-mcq-03",
-        "drain-mcq-07",
-        "drain-mcq-02"
+        "drain-mcq-24",
+        "drain-mcq-14",
+        "drain-mcq-15"
       ],
       "explanation": "本句的「storm drain」指「收集並排走雨水的雨水渠／排水口」。",
       "sentenceIndex": 11,
@@ -894,12 +848,10 @@ export default {
         "storm drain"
       ],
       "optionReasons": {
-        "drain-mcq-05": "本句指「收集並排走雨水的雨水渠／排水口」。",
-        "drain-mcq-04": "「讓廢水等流走的排水口／排水管」是「drain — noun plumbing」的用法，與本句語境不同。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。",
-        "drain-mcq-03": "「液體逐漸流走／被瀝掉」是「drain away/off」的用法，與本句語境不同。",
-        "drain-mcq-07": "「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」是「feel/be drained」的用法，與本句語境不同。",
-        "drain-mcq-02": "「把泳池、水槽、土地等的水排走」是「drain a pool/sink/field」的用法，與本句語境不同。"
+        "drain-mcq-05": "本句的「storm drain」指「收集並排走雨水的雨水渠／排水口」。",
+        "drain-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-05"
     },
@@ -911,11 +863,9 @@ export default {
       "masked": "Long meetings ____.",
       "options": [
         "drain-mcq-25",
-        "drain-mcq-24",
-        "drain-mcq-26",
-        "drain-mcq-23",
-        "drain-mcq-22",
-        "drain-mcq-21"
+        "drain-mcq-15",
+        "drain-mcq-05",
+        "drain-mcq-14"
       ],
       "explanation": "本句的「drain me」指「表示耗盡精力；使疲憊不堪」。",
       "sentenceIndex": 12,
@@ -924,12 +874,10 @@ export default {
         "drain me"
       ],
       "optionReasons": {
-        "drain-mcq-25": "本句指「表示耗盡精力；使疲憊不堪」。",
-        "drain-mcq-24": "「筋疲力盡的；心力交瘁的；精疲力竭的」是「Passage meaning」的用法，與本句語境不同。",
-        "drain-mcq-26": "「表示排水」是「19. drain — carry water away from land」的用法，與本句語境不同。",
-        "drain-mcq-23": "「精力被耗盡的；筋疲力竭的」是「drained — exhaustion」的用法，與本句語境不同。",
-        "drain-mcq-22": "「液體已被排乾的」是「drained — liquid」的用法，與本句語境不同。",
-        "drain-mcq-21": "「大量消耗精神、體力或情緒能量的」是「draining — exhausting」的用法，與本句語境不同。"
+        "drain-mcq-25": "本句的「drain me」指「表示耗盡精力；使疲憊不堪」。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-25"
     },
@@ -941,11 +889,9 @@ export default {
       "masked": "Constant conflict can ____.",
       "options": [
         "drain-mcq-25",
-        "drain-mcq-24",
         "drain-mcq-26",
-        "drain-mcq-23",
-        "drain-mcq-22",
-        "drain-mcq-21"
+        "drain-mcq-15",
+        "drain-mcq-14"
       ],
       "explanation": "本句的「drain you emotionally」指「表示耗盡精力；使疲憊不堪」。",
       "sentenceIndex": 13,
@@ -954,12 +900,10 @@ export default {
         "drain you emotionally"
       ],
       "optionReasons": {
-        "drain-mcq-25": "本句指「表示耗盡精力；使疲憊不堪」。",
-        "drain-mcq-24": "「筋疲力盡的；心力交瘁的；精疲力竭的」是「Passage meaning」的用法，與本句語境不同。",
-        "drain-mcq-26": "「表示排水」是「19. drain — carry water away from land」的用法，與本句語境不同。",
-        "drain-mcq-23": "「精力被耗盡的；筋疲力竭的」是「drained — exhaustion」的用法，與本句語境不同。",
-        "drain-mcq-22": "「液體已被排乾的」是「drained — liquid」的用法，與本句語境不同。",
-        "drain-mcq-21": "「大量消耗精神、體力或情緒能量的」是「draining — exhausting」的用法，與本句語境不同。"
+        "drain-mcq-25": "本句的「drain you emotionally」指「表示耗盡精力；使疲憊不堪」。",
+        "drain-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-25"
     },
@@ -971,11 +915,9 @@ export default {
       "masked": "I felt ____ after the interview.",
       "options": [
         "drain-mcq-07",
-        "drain-mcq-06",
-        "drain-mcq-08",
-        "drain-mcq-05",
-        "drain-mcq-09",
-        "drain-mcq-04"
+        "drain-mcq-03",
+        "drain-mcq-20",
+        "drain-mcq-15"
       ],
       "explanation": "本句的「drained」指「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」。",
       "sentenceIndex": 14,
@@ -984,12 +926,10 @@ export default {
         "drained"
       ],
       "optionReasons": {
-        "drain-mcq-07": "本句指「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。",
-        "drain-mcq-08": "「因長期壓力、衝突等而情緒能量耗盡」是「emotionally drained」的用法，與本句語境不同。",
-        "drain-mcq-05": "「收集並排走雨水的雨水渠／排水口」是「storm drain」的用法，與本句語境不同。",
-        "drain-mcq-09": "「持續大量消耗金錢、時間、資源等」是「drain money/resources」的用法，與本句語境不同。",
-        "drain-mcq-04": "「讓廢水等流走的排水口／排水管」是「drain — noun plumbing」的用法，與本句語境不同。"
+        "drain-mcq-07": "本句的「drained」指「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」。",
+        "drain-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-07"
     },
@@ -1001,11 +941,9 @@ export default {
       "masked": "She looked emotionally ____.",
       "options": [
         "drain-mcq-07",
-        "drain-mcq-06",
-        "drain-mcq-08",
-        "drain-mcq-05",
-        "drain-mcq-09",
-        "drain-mcq-04"
+        "drain-mcq-17",
+        "drain-mcq-13",
+        "drain-mcq-15"
       ],
       "explanation": "本句的「drained」指「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」。",
       "sentenceIndex": 15,
@@ -1014,12 +952,10 @@ export default {
         "drained"
       ],
       "optionReasons": {
-        "drain-mcq-07": "本句指「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。",
-        "drain-mcq-08": "「因長期壓力、衝突等而情緒能量耗盡」是「emotionally drained」的用法，與本句語境不同。",
-        "drain-mcq-05": "「收集並排走雨水的雨水渠／排水口」是「storm drain」的用法，與本句語境不同。",
-        "drain-mcq-09": "「持續大量消耗金錢、時間、資源等」是「drain money/resources」的用法，與本句語境不同。",
-        "drain-mcq-04": "「讓廢水等流走的排水口／排水管」是「drain — noun plumbing」的用法，與本句語境不同。"
+        "drain-mcq-07": "本句的「drained」指「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」。",
+        "drain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-07"
     },
@@ -1031,11 +967,9 @@ export default {
       "masked": "Caring for everyone else left her ____.",
       "options": [
         "drain-mcq-08",
-        "drain-mcq-07",
-        "drain-mcq-09",
-        "drain-mcq-06",
-        "drain-mcq-10",
-        "drain-mcq-05"
+        "drain-mcq-26",
+        "drain-mcq-13",
+        "drain-mcq-15"
       ],
       "explanation": "本句的「emotionally drained」指「因長期壓力、衝突等而情緒能量耗盡」。",
       "sentenceIndex": 16,
@@ -1044,12 +978,10 @@ export default {
         "emotionally drained"
       ],
       "optionReasons": {
-        "drain-mcq-08": "本句指「因長期壓力、衝突等而情緒能量耗盡」。",
-        "drain-mcq-07": "「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」是「feel/be drained」的用法，與本句語境不同。",
-        "drain-mcq-09": "「持續大量消耗金錢、時間、資源等」是「drain money/resources」的用法，與本句語境不同。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。",
-        "drain-mcq-10": "「把電池的儲存電量耗掉」是「drain a battery」的用法，與本句語境不同。",
-        "drain-mcq-05": "「收集並排走雨水的雨水渠／排水口」是「storm drain」的用法，與本句語境不同。"
+        "drain-mcq-08": "本句的「emotionally drained」指「因長期壓力、衝突等而情緒能量耗盡」。",
+        "drain-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-08"
     },
@@ -1061,11 +993,9 @@ export default {
       "masked": "After weeks of uncertainty, they were ____.",
       "options": [
         "drain-mcq-08",
-        "drain-mcq-07",
-        "drain-mcq-09",
-        "drain-mcq-06",
-        "drain-mcq-10",
-        "drain-mcq-05"
+        "drain-mcq-01",
+        "drain-mcq-20",
+        "drain-mcq-13"
       ],
       "explanation": "本句的「emotionally drained」指「因長期壓力、衝突等而情緒能量耗盡」。",
       "sentenceIndex": 17,
@@ -1074,12 +1004,10 @@ export default {
         "emotionally drained"
       ],
       "optionReasons": {
-        "drain-mcq-08": "本句指「因長期壓力、衝突等而情緒能量耗盡」。",
-        "drain-mcq-07": "「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」是「feel/be drained」的用法，與本句語境不同。",
-        "drain-mcq-09": "「持續大量消耗金錢、時間、資源等」是「drain money/resources」的用法，與本句語境不同。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。",
-        "drain-mcq-10": "「把電池的儲存電量耗掉」是「drain a battery」的用法，與本句語境不同。",
-        "drain-mcq-05": "「收集並排走雨水的雨水渠／排水口」是「storm drain」的用法，與本句語境不同。"
+        "drain-mcq-08": "本句的「emotionally drained」指「因長期壓力、衝突等而情緒能量耗盡」。",
+        "drain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-08"
     },
@@ -1091,11 +1019,9 @@ export default {
       "masked": "The repairs ____.",
       "options": [
         "drain-mcq-09",
-        "drain-mcq-08",
-        "drain-mcq-10",
-        "drain-mcq-07",
-        "drain-mcq-11",
-        "drain-mcq-06"
+        "drain-mcq-17",
+        "drain-mcq-01",
+        "drain-mcq-13"
       ],
       "explanation": "本句的「drained our savings」指「持續大量消耗金錢、時間、資源等」。",
       "sentenceIndex": 18,
@@ -1104,12 +1030,10 @@ export default {
         "drained our savings"
       ],
       "optionReasons": {
-        "drain-mcq-09": "本句指「持續大量消耗金錢、時間、資源等」。",
-        "drain-mcq-08": "「因長期壓力、衝突等而情緒能量耗盡」是「emotionally drained」的用法，與本句語境不同。",
-        "drain-mcq-10": "「把電池的儲存電量耗掉」是「drain a battery」的用法，與本句語境不同。",
-        "drain-mcq-07": "「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」是「feel/be drained」的用法，與本句語境不同。",
-        "drain-mcq-11": "「電池電量快速／持續流失；耗電」是「battery drain」的用法，與本句語境不同。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。"
+        "drain-mcq-09": "本句的「drained our savings」指「持續大量消耗金錢、時間、資源等」。",
+        "drain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-09"
     },
@@ -1121,11 +1045,9 @@ export default {
       "masked": "The project ____.",
       "options": [
         "drain-mcq-09",
-        "drain-mcq-08",
-        "drain-mcq-10",
-        "drain-mcq-07",
-        "drain-mcq-11",
-        "drain-mcq-06"
+        "drain-mcq-20",
+        "drain-mcq-01",
+        "drain-mcq-13"
       ],
       "explanation": "本句的「drained a huge amount of time and money」指「持續大量消耗金錢、時間、資源等」。",
       "sentenceIndex": 19,
@@ -1134,12 +1056,10 @@ export default {
         "drained a huge amount of time and money"
       ],
       "optionReasons": {
-        "drain-mcq-09": "本句指「持續大量消耗金錢、時間、資源等」。",
-        "drain-mcq-08": "「因長期壓力、衝突等而情緒能量耗盡」是「emotionally drained」的用法，與本句語境不同。",
-        "drain-mcq-10": "「把電池的儲存電量耗掉」是「drain a battery」的用法，與本句語境不同。",
-        "drain-mcq-07": "「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」是「feel/be drained」的用法，與本句語境不同。",
-        "drain-mcq-11": "「電池電量快速／持續流失；耗電」是「battery drain」的用法，與本句語境不同。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。"
+        "drain-mcq-09": "本句的「drained a huge amount of time and money」指「持續大量消耗金錢、時間、資源等」。",
+        "drain-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-09"
     },
@@ -1151,11 +1071,9 @@ export default {
       "masked": "The crisis ____.",
       "options": [
         "drain-mcq-09",
-        "drain-mcq-08",
-        "drain-mcq-10",
-        "drain-mcq-07",
-        "drain-mcq-11",
-        "drain-mcq-06"
+        "drain-mcq-01",
+        "drain-mcq-20",
+        "drain-mcq-13"
       ],
       "explanation": "本句的「drained public resources」指「持續大量消耗金錢、時間、資源等」。",
       "sentenceIndex": 20,
@@ -1164,12 +1082,10 @@ export default {
         "drained public resources"
       ],
       "optionReasons": {
-        "drain-mcq-09": "本句指「持續大量消耗金錢、時間、資源等」。",
-        "drain-mcq-08": "「因長期壓力、衝突等而情緒能量耗盡」是「emotionally drained」的用法，與本句語境不同。",
-        "drain-mcq-10": "「把電池的儲存電量耗掉」是「drain a battery」的用法，與本句語境不同。",
-        "drain-mcq-07": "「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」是「feel/be drained」的用法，與本句語境不同。",
-        "drain-mcq-11": "「電池電量快速／持續流失；耗電」是「battery drain」的用法，與本句語境不同。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。"
+        "drain-mcq-09": "本句的「drained public resources」指「持續大量消耗金錢、時間、資源等」。",
+        "drain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-09"
     },
@@ -1181,11 +1097,9 @@ export default {
       "masked": "Maintaining the old system ____.",
       "options": [
         "drain-mcq-09",
-        "drain-mcq-08",
-        "drain-mcq-10",
-        "drain-mcq-07",
-        "drain-mcq-11",
-        "drain-mcq-06"
+        "drain-mcq-17",
+        "drain-mcq-01",
+        "drain-mcq-13"
       ],
       "explanation": "本句的「drains staff time」指「持續大量消耗金錢、時間、資源等」。",
       "sentenceIndex": 21,
@@ -1194,12 +1108,10 @@ export default {
         "drains staff time"
       ],
       "optionReasons": {
-        "drain-mcq-09": "本句指「持續大量消耗金錢、時間、資源等」。",
-        "drain-mcq-08": "「因長期壓力、衝突等而情緒能量耗盡」是「emotionally drained」的用法，與本句語境不同。",
-        "drain-mcq-10": "「把電池的儲存電量耗掉」是「drain a battery」的用法，與本句語境不同。",
-        "drain-mcq-07": "「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」是「feel/be drained」的用法，與本句語境不同。",
-        "drain-mcq-11": "「電池電量快速／持續流失；耗電」是「battery drain」的用法，與本句語境不同。",
-        "drain-mcq-06": "「大量消耗某人的身體、精神或情緒能量」是「drain — energy」的用法，與本句語境不同。"
+        "drain-mcq-09": "本句的「drains staff time」指「持續大量消耗金錢、時間、資源等」。",
+        "drain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-09"
     },
@@ -1211,11 +1123,9 @@ export default {
       "masked": "Video calls can ____ quickly.",
       "options": [
         "drain-mcq-10",
-        "drain-mcq-09",
-        "drain-mcq-11",
-        "drain-mcq-08",
-        "drain-mcq-12",
-        "drain-mcq-07"
+        "drain-mcq-18",
+        "drain-mcq-15",
+        "drain-mcq-24"
       ],
       "explanation": "本句的「drain your battery」指「把電池的儲存電量耗掉」。",
       "sentenceIndex": 22,
@@ -1224,12 +1134,10 @@ export default {
         "drain your battery"
       ],
       "optionReasons": {
-        "drain-mcq-10": "本句指「把電池的儲存電量耗掉」。",
-        "drain-mcq-09": "「持續大量消耗金錢、時間、資源等」是「drain money/resources」的用法，與本句語境不同。",
-        "drain-mcq-11": "「電池電量快速／持續流失；耗電」是「battery drain」的用法，與本句語境不同。",
-        "drain-mcq-08": "「因長期壓力、衝突等而情緒能量耗盡」是「emotionally drained」的用法，與本句語境不同。",
-        "drain-mcq-12": "「對金錢、時間、精力等造成持續消耗的負擔」是「a drain on something」的用法，與本句語境不同。",
-        "drain-mcq-07": "「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」是「feel/be drained」的用法，與本句語境不同。"
+        "drain-mcq-10": "本句的「drain your battery」指「把電池的儲存電量耗掉」。",
+        "drain-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-10"
     },
@@ -1241,11 +1149,9 @@ export default {
       "masked": "The app was ____.",
       "options": [
         "drain-mcq-10",
-        "drain-mcq-09",
-        "drain-mcq-11",
-        "drain-mcq-08",
-        "drain-mcq-12",
-        "drain-mcq-07"
+        "drain-mcq-17",
+        "drain-mcq-24",
+        "drain-mcq-15"
       ],
       "explanation": "本句的「draining the phone’s battery」指「把電池的儲存電量耗掉」。",
       "sentenceIndex": 23,
@@ -1254,12 +1160,10 @@ export default {
         "draining the phone’s battery"
       ],
       "optionReasons": {
-        "drain-mcq-10": "本句指「把電池的儲存電量耗掉」。",
-        "drain-mcq-09": "「持續大量消耗金錢、時間、資源等」是「drain money/resources」的用法，與本句語境不同。",
-        "drain-mcq-11": "「電池電量快速／持續流失；耗電」是「battery drain」的用法，與本句語境不同。",
-        "drain-mcq-08": "「因長期壓力、衝突等而情緒能量耗盡」是「emotionally drained」的用法，與本句語境不同。",
-        "drain-mcq-12": "「對金錢、時間、精力等造成持續消耗的負擔」是「a drain on something」的用法，與本句語境不同。",
-        "drain-mcq-07": "「感覺所有精力幾乎被耗盡；精疲力竭／心力交瘁」是「feel/be drained」的用法，與本句語境不同。"
+        "drain-mcq-10": "本句的「draining the phone’s battery」指「把電池的儲存電量耗掉」。",
+        "drain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-10"
     },
@@ -1271,11 +1175,9 @@ export default {
       "masked": "Users reported severe ____.",
       "options": [
         "drain-mcq-11",
-        "drain-mcq-10",
-        "drain-mcq-12",
-        "drain-mcq-09",
-        "drain-mcq-13",
-        "drain-mcq-08"
+        "drain-mcq-20",
+        "drain-mcq-24",
+        "drain-mcq-15"
       ],
       "explanation": "本句的「battery drain」指「電池電量快速／持續流失；耗電」。",
       "sentenceIndex": 24,
@@ -1284,12 +1186,10 @@ export default {
         "battery drain"
       ],
       "optionReasons": {
-        "drain-mcq-11": "本句指「電池電量快速／持續流失；耗電」。",
-        "drain-mcq-10": "「把電池的儲存電量耗掉」是「drain a battery」的用法，與本句語境不同。",
-        "drain-mcq-12": "「對金錢、時間、精力等造成持續消耗的負擔」是「a drain on something」的用法，與本句語境不同。",
-        "drain-mcq-09": "「持續大量消耗金錢、時間、資源等」是「drain money/resources」的用法，與本句語境不同。",
-        "drain-mcq-13": "「使人才或人口逐漸從某地／組織流失」是「drain talent/people from somewhere」的用法，與本句語境不同。",
-        "drain-mcq-08": "「因長期壓力、衝突等而情緒能量耗盡」是「emotionally drained」的用法，與本句語境不同。"
+        "drain-mcq-11": "本句的「battery drain」指「電池電量快速／持續流失；耗電」。",
+        "drain-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-11"
     },
@@ -1301,11 +1201,9 @@ export default {
       "masked": "Background activity can cause ____.",
       "options": [
         "drain-mcq-11",
-        "drain-mcq-10",
-        "drain-mcq-12",
-        "drain-mcq-09",
-        "drain-mcq-13",
-        "drain-mcq-08"
+        "drain-mcq-17",
+        "drain-mcq-24",
+        "drain-mcq-15"
       ],
       "explanation": "本句的「battery drain」指「電池電量快速／持續流失；耗電」。",
       "sentenceIndex": 25,
@@ -1314,12 +1212,10 @@ export default {
         "battery drain"
       ],
       "optionReasons": {
-        "drain-mcq-11": "本句指「電池電量快速／持續流失；耗電」。",
-        "drain-mcq-10": "「把電池的儲存電量耗掉」是「drain a battery」的用法，與本句語境不同。",
-        "drain-mcq-12": "「對金錢、時間、精力等造成持續消耗的負擔」是「a drain on something」的用法，與本句語境不同。",
-        "drain-mcq-09": "「持續大量消耗金錢、時間、資源等」是「drain money/resources」的用法，與本句語境不同。",
-        "drain-mcq-13": "「使人才或人口逐漸從某地／組織流失」是「drain talent/people from somewhere」的用法，與本句語境不同。",
-        "drain-mcq-08": "「因長期壓力、衝突等而情緒能量耗盡」是「emotionally drained」的用法，與本句語境不同。"
+        "drain-mcq-11": "本句的「battery drain」指「電池電量快速／持續流失；耗電」。",
+        "drain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-11"
     },
@@ -1331,11 +1227,9 @@ export default {
       "masked": "The empty building became a ____.",
       "options": [
         "drain-mcq-12",
-        "drain-mcq-11",
-        "drain-mcq-13",
-        "drain-mcq-10",
-        "drain-mcq-14",
-        "drain-mcq-09"
+        "drain-mcq-20",
+        "drain-mcq-03",
+        "drain-mcq-14"
       ],
       "explanation": "本句的「drain on the company’s finances」指「對金錢、時間、精力等造成持續消耗的負擔」。",
       "sentenceIndex": 26,
@@ -1344,12 +1238,10 @@ export default {
         "drain on the company’s finances"
       ],
       "optionReasons": {
-        "drain-mcq-12": "本句指「對金錢、時間、精力等造成持續消耗的負擔」。",
-        "drain-mcq-11": "「電池電量快速／持續流失；耗電」是「battery drain」的用法，與本句語境不同。",
-        "drain-mcq-13": "「使人才或人口逐漸從某地／組織流失」是「drain talent/people from somewhere」的用法，與本句語境不同。",
-        "drain-mcq-10": "「把電池的儲存電量耗掉」是「drain a battery」的用法，與本句語境不同。",
-        "drain-mcq-14": "「熟練／高學歷人才大量離開某地；人才外流」是「brain drain」的用法，與本句語境不同。",
-        "drain-mcq-09": "「持續大量消耗金錢、時間、資源等」是「drain money/resources」的用法，與本句語境不同。"
+        "drain-mcq-12": "本句的「drain on the company’s finances」指「對金錢、時間、精力等造成持續消耗的負擔」。",
+        "drain-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-12"
     },
@@ -1361,11 +1253,9 @@ export default {
       "masked": "The outdated system is a ____.",
       "options": [
         "drain-mcq-12",
-        "drain-mcq-11",
-        "drain-mcq-13",
-        "drain-mcq-10",
-        "drain-mcq-14",
-        "drain-mcq-09"
+        "drain-mcq-18",
+        "drain-mcq-03",
+        "drain-mcq-14"
       ],
       "explanation": "本句的「drain on resources」指「對金錢、時間、精力等造成持續消耗的負擔」。",
       "sentenceIndex": 27,
@@ -1374,12 +1264,10 @@ export default {
         "drain on resources"
       ],
       "optionReasons": {
-        "drain-mcq-12": "本句指「對金錢、時間、精力等造成持續消耗的負擔」。",
-        "drain-mcq-11": "「電池電量快速／持續流失；耗電」是「battery drain」的用法，與本句語境不同。",
-        "drain-mcq-13": "「使人才或人口逐漸從某地／組織流失」是「drain talent/people from somewhere」的用法，與本句語境不同。",
-        "drain-mcq-10": "「把電池的儲存電量耗掉」是「drain a battery」的用法，與本句語境不同。",
-        "drain-mcq-14": "「熟練／高學歷人才大量離開某地；人才外流」是「brain drain」的用法，與本句語境不同。",
-        "drain-mcq-09": "「持續大量消耗金錢、時間、資源等」是「drain money/resources」的用法，與本句語境不同。"
+        "drain-mcq-12": "本句的「drain on resources」指「對金錢、時間、精力等造成持續消耗的負擔」。",
+        "drain-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-12"
     },
@@ -1391,11 +1279,9 @@ export default {
       "masked": "The commute was a ____.",
       "options": [
         "drain-mcq-12",
-        "drain-mcq-11",
-        "drain-mcq-13",
-        "drain-mcq-10",
-        "drain-mcq-14",
-        "drain-mcq-09"
+        "drain-mcq-01",
+        "drain-mcq-17",
+        "drain-mcq-14"
       ],
       "explanation": "本句的「drain on his energy」指「對金錢、時間、精力等造成持續消耗的負擔」。",
       "sentenceIndex": 28,
@@ -1404,12 +1290,10 @@ export default {
         "drain on his energy"
       ],
       "optionReasons": {
-        "drain-mcq-12": "本句指「對金錢、時間、精力等造成持續消耗的負擔」。",
-        "drain-mcq-11": "「電池電量快速／持續流失；耗電」是「battery drain」的用法，與本句語境不同。",
-        "drain-mcq-13": "「使人才或人口逐漸從某地／組織流失」是「drain talent/people from somewhere」的用法，與本句語境不同。",
-        "drain-mcq-10": "「把電池的儲存電量耗掉」是「drain a battery」的用法，與本句語境不同。",
-        "drain-mcq-14": "「熟練／高學歷人才大量離開某地；人才外流」是「brain drain」的用法，與本句語境不同。",
-        "drain-mcq-09": "「持續大量消耗金錢、時間、資源等」是「drain money/resources」的用法，與本句語境不同。"
+        "drain-mcq-12": "本句的「drain on his energy」指「對金錢、時間、精力等造成持續消耗的負擔」。",
+        "drain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-12"
     },
@@ -1421,11 +1305,9 @@ export default {
       "masked": "The process became a ____.",
       "options": [
         "drain-mcq-12",
-        "drain-mcq-11",
         "drain-mcq-13",
-        "drain-mcq-10",
-        "drain-mcq-14",
-        "drain-mcq-09"
+        "drain-mcq-01",
+        "drain-mcq-17"
       ],
       "explanation": "本句的「drain on staff time」指「對金錢、時間、精力等造成持續消耗的負擔」。",
       "sentenceIndex": 29,
@@ -1434,12 +1316,10 @@ export default {
         "drain on staff time"
       ],
       "optionReasons": {
-        "drain-mcq-12": "本句指「對金錢、時間、精力等造成持續消耗的負擔」。",
-        "drain-mcq-11": "「電池電量快速／持續流失；耗電」是「battery drain」的用法，與本句語境不同。",
-        "drain-mcq-13": "「使人才或人口逐漸從某地／組織流失」是「drain talent/people from somewhere」的用法，與本句語境不同。",
-        "drain-mcq-10": "「把電池的儲存電量耗掉」是「drain a battery」的用法，與本句語境不同。",
-        "drain-mcq-14": "「熟練／高學歷人才大量離開某地；人才外流」是「brain drain」的用法，與本句語境不同。",
-        "drain-mcq-09": "「持續大量消耗金錢、時間、資源等」是「drain money/resources」的用法，與本句語境不同。"
+        "drain-mcq-12": "本句的「drain on staff time」指「對金錢、時間、精力等造成持續消耗的負擔」。",
+        "drain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-12"
     },
@@ -1451,11 +1331,9 @@ export default {
       "masked": "Low wages ____.",
       "options": [
         "drain-mcq-13",
-        "drain-mcq-12",
-        "drain-mcq-14",
-        "drain-mcq-11",
-        "drain-mcq-15",
-        "drain-mcq-10"
+        "drain-mcq-09",
+        "drain-mcq-10",
+        "drain-mcq-20"
       ],
       "explanation": "本句的「drained talent from the industry」指「使人才或人口逐漸從某地／組織流失」。",
       "sentenceIndex": 30,
@@ -1464,12 +1342,10 @@ export default {
         "drained talent from the industry"
       ],
       "optionReasons": {
-        "drain-mcq-13": "本句指「使人才或人口逐漸從某地／組織流失」。",
-        "drain-mcq-12": "「對金錢、時間、精力等造成持續消耗的負擔」是「a drain on something」的用法，與本句語境不同。",
-        "drain-mcq-14": "「熟練／高學歷人才大量離開某地；人才外流」是「brain drain」的用法，與本句語境不同。",
-        "drain-mcq-11": "「電池電量快速／持續流失；耗電」是「battery drain」的用法，與本句語境不同。",
-        "drain-mcq-15": "「因震驚、害怕等突然臉色變白」是「color drains from someone’s face」的用法，與本句語境不同。",
-        "drain-mcq-10": "「把電池的儲存電量耗掉」是「drain a battery」的用法，與本句語境不同。"
+        "drain-mcq-13": "本句的「drained talent from the industry」指「使人才或人口逐漸從某地／組織流失」。",
+        "drain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-13"
     },
@@ -1481,10 +1357,8 @@ export default {
       "masked": "Years of migration ____.",
       "options": [
         "drain-mcq-13",
-        "drain-mcq-12",
-        "drain-mcq-14",
-        "drain-mcq-11",
-        "drain-mcq-15",
+        "drain-mcq-02",
+        "drain-mcq-09",
         "drain-mcq-10"
       ],
       "explanation": "本句的「drained the town of young workers」指「使人才或人口逐漸從某地／組織流失」。",
@@ -1494,12 +1368,10 @@ export default {
         "drained the town of young workers"
       ],
       "optionReasons": {
-        "drain-mcq-13": "本句指「使人才或人口逐漸從某地／組織流失」。",
-        "drain-mcq-12": "「對金錢、時間、精力等造成持續消耗的負擔」是「a drain on something」的用法，與本句語境不同。",
-        "drain-mcq-14": "「熟練／高學歷人才大量離開某地；人才外流」是「brain drain」的用法，與本句語境不同。",
-        "drain-mcq-11": "「電池電量快速／持續流失；耗電」是「battery drain」的用法，與本句語境不同。",
-        "drain-mcq-15": "「因震驚、害怕等突然臉色變白」是「color drains from someone’s face」的用法，與本句語境不同。",
-        "drain-mcq-10": "「把電池的儲存電量耗掉」是「drain a battery」的用法，與本句語境不同。"
+        "drain-mcq-13": "本句的「drained the town of young workers」指「使人才或人口逐漸從某地／組織流失」。",
+        "drain-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-13"
     },
@@ -1511,11 +1383,9 @@ export default {
       "masked": "The country faced a serious ____.",
       "options": [
         "drain-mcq-14",
-        "drain-mcq-13",
+        "drain-mcq-07",
         "drain-mcq-15",
-        "drain-mcq-12",
-        "drain-mcq-16",
-        "drain-mcq-11"
+        "drain-mcq-17"
       ],
       "explanation": "本句的「brain drain」指「熟練／高學歷人才大量離開某地；人才外流」。",
       "sentenceIndex": 32,
@@ -1524,12 +1394,10 @@ export default {
         "brain drain"
       ],
       "optionReasons": {
-        "drain-mcq-14": "本句指「熟練／高學歷人才大量離開某地；人才外流」。",
-        "drain-mcq-13": "「使人才或人口逐漸從某地／組織流失」是「drain talent/people from somewhere」的用法，與本句語境不同。",
-        "drain-mcq-15": "「因震驚、害怕等突然臉色變白」是「color drains from someone’s face」的用法，與本句語境不同。",
-        "drain-mcq-12": "「對金錢、時間、精力等造成持續消耗的負擔」是「a drain on something」的用法，與本句語境不同。",
-        "drain-mcq-16": "「土壤／土地能讓多餘水分流走」是「soil/land drains」的用法，與本句語境不同。",
-        "drain-mcq-11": "「電池電量快速／持續流失；耗電」是「battery drain」的用法，與本句語境不同。"
+        "drain-mcq-14": "本句的「brain drain」指「熟練／高學歷人才大量離開某地；人才外流」。",
+        "drain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-14"
     },
@@ -1541,11 +1409,9 @@ export default {
       "masked": "Better opportunities abroad contributed to the ____.",
       "options": [
         "drain-mcq-14",
-        "drain-mcq-13",
         "drain-mcq-15",
-        "drain-mcq-12",
-        "drain-mcq-16",
-        "drain-mcq-11"
+        "drain-mcq-24",
+        "drain-mcq-02"
       ],
       "explanation": "本句的「brain drain」指「熟練／高學歷人才大量離開某地；人才外流」。",
       "sentenceIndex": 33,
@@ -1554,12 +1420,10 @@ export default {
         "brain drain"
       ],
       "optionReasons": {
-        "drain-mcq-14": "本句指「熟練／高學歷人才大量離開某地；人才外流」。",
-        "drain-mcq-13": "「使人才或人口逐漸從某地／組織流失」是「drain talent/people from somewhere」的用法，與本句語境不同。",
-        "drain-mcq-15": "「因震驚、害怕等突然臉色變白」是「color drains from someone’s face」的用法，與本句語境不同。",
-        "drain-mcq-12": "「對金錢、時間、精力等造成持續消耗的負擔」是「a drain on something」的用法，與本句語境不同。",
-        "drain-mcq-16": "「土壤／土地能讓多餘水分流走」是「soil/land drains」的用法，與本句語境不同。",
-        "drain-mcq-11": "「電池電量快速／持續流失；耗電」是「battery drain」的用法，與本句語境不同。"
+        "drain-mcq-14": "本句的「brain drain」指「熟練／高學歷人才大量離開某地；人才外流」。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-14"
     },
@@ -1571,11 +1435,9 @@ export default {
       "masked": "The color ____ when she heard the news.",
       "options": [
         "drain-mcq-15",
-        "drain-mcq-14",
-        "drain-mcq-16",
         "drain-mcq-13",
-        "drain-mcq-17",
-        "drain-mcq-12"
+        "drain-mcq-01",
+        "drain-mcq-25"
       ],
       "explanation": "本句的「drained from her face」指「因震驚、害怕等突然臉色變白」。",
       "sentenceIndex": 34,
@@ -1584,12 +1446,10 @@ export default {
         "drained from her face"
       ],
       "optionReasons": {
-        "drain-mcq-15": "本句指「因震驚、害怕等突然臉色變白」。",
-        "drain-mcq-14": "「熟練／高學歷人才大量離開某地；人才外流」是「brain drain」的用法，與本句語境不同。",
-        "drain-mcq-16": "「土壤／土地能讓多餘水分流走」是「soil/land drains」的用法，與本句語境不同。",
-        "drain-mcq-13": "「使人才或人口逐漸從某地／組織流失」是「drain talent/people from somewhere」的用法，與本句語境不同。",
-        "drain-mcq-17": "「水分能順利排走的；排水良好的」是「well-drained」的用法，與本句語境不同。",
-        "drain-mcq-12": "「對金錢、時間、精力等造成持續消耗的負擔」是「a drain on something」的用法，與本句語境不同。"
+        "drain-mcq-15": "本句的「drained from her face」指「因震驚、害怕等突然臉色變白」。",
+        "drain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-15"
     },
@@ -1601,11 +1461,9 @@ export default {
       "masked": "He felt the blood ____.",
       "options": [
         "drain-mcq-15",
-        "drain-mcq-14",
-        "drain-mcq-16",
-        "drain-mcq-13",
         "drain-mcq-17",
-        "drain-mcq-12"
+        "drain-mcq-07",
+        "drain-mcq-14"
       ],
       "explanation": "本句的「drain from his face」指「因震驚、害怕等突然臉色變白」。",
       "sentenceIndex": 35,
@@ -1614,12 +1472,10 @@ export default {
         "drain from his face"
       ],
       "optionReasons": {
-        "drain-mcq-15": "本句指「因震驚、害怕等突然臉色變白」。",
-        "drain-mcq-14": "「熟練／高學歷人才大量離開某地；人才外流」是「brain drain」的用法，與本句語境不同。",
-        "drain-mcq-16": "「土壤／土地能讓多餘水分流走」是「soil/land drains」的用法，與本句語境不同。",
-        "drain-mcq-13": "「使人才或人口逐漸從某地／組織流失」是「drain talent/people from somewhere」的用法，與本句語境不同。",
-        "drain-mcq-17": "「水分能順利排走的；排水良好的」是「well-drained」的用法，與本句語境不同。",
-        "drain-mcq-12": "「對金錢、時間、精力等造成持續消耗的負擔」是「a drain on something」的用法，與本句語境不同。"
+        "drain-mcq-15": "本句的「drain from his face」指「因震驚、害怕等突然臉色變白」。",
+        "drain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-15"
     },
@@ -1631,11 +1487,9 @@ export default {
       "masked": "The soil ____.",
       "options": [
         "drain-mcq-26",
+        "drain-mcq-15",
         "drain-mcq-25",
-        "drain-mcq-24",
-        "drain-mcq-23",
-        "drain-mcq-22",
-        "drain-mcq-21"
+        "drain-mcq-03"
       ],
       "explanation": "本句的「drains well」指「表示排水」。",
       "sentenceIndex": 36,
@@ -1644,12 +1498,10 @@ export default {
         "drains well"
       ],
       "optionReasons": {
-        "drain-mcq-26": "本句指「表示排水」。",
-        "drain-mcq-25": "「表示耗盡精力；使疲憊不堪」是「7. drain — use up someone’s energy」的用法，與本句語境不同。",
-        "drain-mcq-24": "「筋疲力盡的；心力交瘁的；精疲力竭的」是「Passage meaning」的用法，與本句語境不同。",
-        "drain-mcq-23": "「精力被耗盡的；筋疲力竭的」是「drained — exhaustion」的用法，與本句語境不同。",
-        "drain-mcq-22": "「液體已被排乾的」是「drained — liquid」的用法，與本句語境不同。",
-        "drain-mcq-21": "「大量消耗精神、體力或情緒能量的」是「draining — exhausting」的用法，與本句語境不同。"
+        "drain-mcq-26": "本句的「drains well」指「表示排水」。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-26"
     },
@@ -1661,11 +1513,9 @@ export default {
       "masked": "This field does not ____ properly.",
       "options": [
         "drain-mcq-26",
-        "drain-mcq-25",
-        "drain-mcq-24",
-        "drain-mcq-23",
-        "drain-mcq-22",
-        "drain-mcq-21"
+        "drain-mcq-11",
+        "drain-mcq-15",
+        "drain-mcq-07"
       ],
       "explanation": "本句的「drain」指「表示排水」。",
       "sentenceIndex": 37,
@@ -1674,12 +1524,10 @@ export default {
         "drain"
       ],
       "optionReasons": {
-        "drain-mcq-26": "本句指「表示排水」。",
-        "drain-mcq-25": "「表示耗盡精力；使疲憊不堪」是「7. drain — use up someone’s energy」的用法，與本句語境不同。",
-        "drain-mcq-24": "「筋疲力盡的；心力交瘁的；精疲力竭的」是「Passage meaning」的用法，與本句語境不同。",
-        "drain-mcq-23": "「精力被耗盡的；筋疲力竭的」是「drained — exhaustion」的用法，與本句語境不同。",
-        "drain-mcq-22": "「液體已被排乾的」是「drained — liquid」的用法，與本句語境不同。",
-        "drain-mcq-21": "「大量消耗精神、體力或情緒能量的」是「draining — exhausting」的用法，與本句語境不同。"
+        "drain-mcq-26": "本句的「drain」指「表示排水」。",
+        "drain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-26"
     },
@@ -1691,10 +1539,8 @@ export default {
       "masked": "The plant prefers ____.",
       "options": [
         "drain-mcq-17",
-        "drain-mcq-16",
-        "drain-mcq-18",
-        "drain-mcq-15",
-        "drain-mcq-19",
+        "drain-mcq-11",
+        "drain-mcq-08",
         "drain-mcq-14"
       ],
       "explanation": "本句的「well-drained soil」指「水分能順利排走的；排水良好的」。",
@@ -1704,12 +1550,10 @@ export default {
         "well-drained soil"
       ],
       "optionReasons": {
-        "drain-mcq-17": "本句指「水分能順利排走的；排水良好的」。",
-        "drain-mcq-16": "「土壤／土地能讓多餘水分流走」是「soil/land drains」的用法，與本句語境不同。",
-        "drain-mcq-18": "「流進排水口」是「down the drain — literal」的用法，與本句語境不同。",
-        "drain-mcq-15": "「因震驚、害怕等突然臉色變白」是「color drains from someone’s face」的用法，與本句語境不同。",
-        "drain-mcq-19": "「努力、金錢等完全浪費；付諸東流」是「down the drain — figurative」的用法，與本句語境不同。",
-        "drain-mcq-14": "「熟練／高學歷人才大量離開某地；人才外流」是「brain drain」的用法，與本句語境不同。"
+        "drain-mcq-17": "本句的「well-drained soil」指「水分能順利排走的；排水良好的」。",
+        "drain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-17"
     },
@@ -1721,11 +1565,9 @@ export default {
       "masked": "Use a ____ growing medium.",
       "options": [
         "drain-mcq-17",
-        "drain-mcq-16",
-        "drain-mcq-18",
-        "drain-mcq-15",
-        "drain-mcq-19",
-        "drain-mcq-14"
+        "drain-mcq-25",
+        "drain-mcq-13",
+        "drain-mcq-10"
       ],
       "explanation": "本句的「well-drained」指「水分能順利排走的；排水良好的」。",
       "sentenceIndex": 39,
@@ -1734,12 +1576,10 @@ export default {
         "well-drained"
       ],
       "optionReasons": {
-        "drain-mcq-17": "本句指「水分能順利排走的；排水良好的」。",
-        "drain-mcq-16": "「土壤／土地能讓多餘水分流走」是「soil/land drains」的用法，與本句語境不同。",
-        "drain-mcq-18": "「流進排水口」是「down the drain — literal」的用法，與本句語境不同。",
-        "drain-mcq-15": "「因震驚、害怕等突然臉色變白」是「color drains from someone’s face」的用法，與本句語境不同。",
-        "drain-mcq-19": "「努力、金錢等完全浪費；付諸東流」是「down the drain — figurative」的用法，與本句語境不同。",
-        "drain-mcq-14": "「熟練／高學歷人才大量離開某地；人才外流」是「brain drain」的用法，與本句語境不同。"
+        "drain-mcq-17": "本句的「well-drained」指「水分能順利排走的；排水良好的」。",
+        "drain-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-17"
     },
@@ -1751,11 +1591,9 @@ export default {
       "masked": "The water went ____.",
       "options": [
         "drain-mcq-18",
-        "drain-mcq-17",
-        "drain-mcq-19",
-        "drain-mcq-16",
-        "drain-mcq-20",
-        "drain-mcq-15"
+        "drain-mcq-07",
+        "drain-mcq-15",
+        "drain-mcq-10"
       ],
       "explanation": "本句的「down the drain」指「流進排水口」。",
       "sentenceIndex": 40,
@@ -1764,12 +1602,10 @@ export default {
         "down the drain"
       ],
       "optionReasons": {
-        "drain-mcq-18": "本句指「流進排水口」。",
-        "drain-mcq-17": "「水分能順利排走的；排水良好的」是「well-drained」的用法，與本句語境不同。",
-        "drain-mcq-19": "「努力、金錢等完全浪費；付諸東流」是「down the drain — figurative」的用法，與本句語境不同。",
-        "drain-mcq-16": "「土壤／土地能讓多餘水分流走」是「soil/land drains」的用法，與本句語境不同。",
-        "drain-mcq-20": "「排走水分的過程或排水系統」是「drainage」的用法，與本句語境不同。",
-        "drain-mcq-15": "「因震驚、害怕等突然臉色變白」是「color drains from someone’s face」的用法，與本句語境不同。"
+        "drain-mcq-18": "本句的「down the drain」指「流進排水口」。",
+        "drain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-18"
     },
@@ -1781,11 +1617,9 @@ export default {
       "masked": "Months of work went ____.",
       "options": [
         "drain-mcq-18",
-        "drain-mcq-17",
-        "drain-mcq-19",
-        "drain-mcq-16",
-        "drain-mcq-20",
-        "drain-mcq-15"
+        "drain-mcq-15",
+        "drain-mcq-21",
+        "drain-mcq-10"
       ],
       "explanation": "本句的「down the drain」指「流進排水口」。",
       "sentenceIndex": 41,
@@ -1794,12 +1628,10 @@ export default {
         "down the drain"
       ],
       "optionReasons": {
-        "drain-mcq-18": "本句指「流進排水口」。",
-        "drain-mcq-17": "「水分能順利排走的；排水良好的」是「well-drained」的用法，與本句語境不同。",
-        "drain-mcq-19": "「努力、金錢等完全浪費；付諸東流」是「down the drain — figurative」的用法，與本句語境不同。",
-        "drain-mcq-16": "「土壤／土地能讓多餘水分流走」是「soil/land drains」的用法，與本句語境不同。",
-        "drain-mcq-20": "「排走水分的過程或排水系統」是「drainage」的用法，與本句語境不同。",
-        "drain-mcq-15": "「因震驚、害怕等突然臉色變白」是「color drains from someone’s face」的用法，與本句語境不同。"
+        "drain-mcq-18": "本句的「down the drain」指「流進排水口」。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-18"
     },
@@ -1811,11 +1643,9 @@ export default {
       "masked": "The area has poor ____.",
       "options": [
         "drain-mcq-20",
-        "drain-mcq-19",
-        "drain-mcq-21",
-        "drain-mcq-18",
-        "drain-mcq-22",
-        "drain-mcq-17"
+        "drain-mcq-25",
+        "drain-mcq-10",
+        "drain-mcq-14"
       ],
       "explanation": "本句的「drainage」指「排走水分的過程或排水系統」。",
       "sentenceIndex": 42,
@@ -1824,12 +1654,10 @@ export default {
         "drainage"
       ],
       "optionReasons": {
-        "drain-mcq-20": "本句指「排走水分的過程或排水系統」。",
-        "drain-mcq-19": "「努力、金錢等完全浪費；付諸東流」是「down the drain — figurative」的用法，與本句語境不同。",
-        "drain-mcq-21": "「大量消耗精神、體力或情緒能量的」是「draining — exhausting」的用法，與本句語境不同。",
-        "drain-mcq-18": "「流進排水口」是「down the drain — literal」的用法，與本句語境不同。",
-        "drain-mcq-22": "「液體已被排乾的」是「drained — liquid」的用法，與本句語境不同。",
-        "drain-mcq-17": "「水分能順利排走的；排水良好的」是「well-drained」的用法，與本句語境不同。"
+        "drain-mcq-20": "本句的「drainage」指「排走水分的過程或排水系統」。",
+        "drain-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-20"
     },
@@ -1841,11 +1669,9 @@ export default {
       "masked": "Good ____ is important for these plants.",
       "options": [
         "drain-mcq-20",
-        "drain-mcq-19",
-        "drain-mcq-21",
-        "drain-mcq-18",
-        "drain-mcq-22",
-        "drain-mcq-17"
+        "drain-mcq-15",
+        "drain-mcq-12",
+        "drain-mcq-14"
       ],
       "explanation": "本句的「drainage」指「排走水分的過程或排水系統」。",
       "sentenceIndex": 43,
@@ -1854,12 +1680,10 @@ export default {
         "drainage"
       ],
       "optionReasons": {
-        "drain-mcq-20": "本句指「排走水分的過程或排水系統」。",
-        "drain-mcq-19": "「努力、金錢等完全浪費；付諸東流」是「down the drain — figurative」的用法，與本句語境不同。",
-        "drain-mcq-21": "「大量消耗精神、體力或情緒能量的」是「draining — exhausting」的用法，與本句語境不同。",
-        "drain-mcq-18": "「流進排水口」是「down the drain — literal」的用法，與本句語境不同。",
-        "drain-mcq-22": "「液體已被排乾的」是「drained — liquid」的用法，與本句語境不同。",
-        "drain-mcq-17": "「水分能順利排走的；排水良好的」是「well-drained」的用法，與本句語境不同。"
+        "drain-mcq-20": "本句的「drainage」指「排走水分的過程或排水系統」。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-20"
     },
@@ -1871,11 +1695,9 @@ export default {
       "masked": "It was an emotionally ____ conversation.",
       "options": [
         "drain-mcq-21",
-        "drain-mcq-20",
-        "drain-mcq-22",
-        "drain-mcq-19",
-        "drain-mcq-23",
-        "drain-mcq-18"
+        "drain-mcq-05",
+        "drain-mcq-13",
+        "drain-mcq-15"
       ],
       "explanation": "本句的「draining」指「大量消耗精神、體力或情緒能量的」。",
       "sentenceIndex": 44,
@@ -1884,12 +1706,10 @@ export default {
         "draining"
       ],
       "optionReasons": {
-        "drain-mcq-21": "本句指「大量消耗精神、體力或情緒能量的」。",
-        "drain-mcq-20": "「排走水分的過程或排水系統」是「drainage」的用法，與本句語境不同。",
-        "drain-mcq-22": "「液體已被排乾的」是「drained — liquid」的用法，與本句語境不同。",
-        "drain-mcq-19": "「努力、金錢等完全浪費；付諸東流」是「down the drain — figurative」的用法，與本句語境不同。",
-        "drain-mcq-23": "「精力被耗盡的；筋疲力竭的」是「drained — exhaustion」的用法，與本句語境不同。",
-        "drain-mcq-18": "「流進排水口」是「down the drain — literal」的用法，與本句語境不同。"
+        "drain-mcq-21": "本句的「draining」指「大量消耗精神、體力或情緒能量的」。",
+        "drain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-21"
     },
@@ -1902,10 +1722,8 @@ export default {
       "options": [
         "drain-mcq-21",
         "drain-mcq-20",
-        "drain-mcq-22",
-        "drain-mcq-19",
-        "drain-mcq-23",
-        "drain-mcq-18"
+        "drain-mcq-15",
+        "drain-mcq-13"
       ],
       "explanation": "本句的「draining」指「大量消耗精神、體力或情緒能量的」。",
       "sentenceIndex": 45,
@@ -1914,12 +1732,10 @@ export default {
         "draining"
       ],
       "optionReasons": {
-        "drain-mcq-21": "本句指「大量消耗精神、體力或情緒能量的」。",
-        "drain-mcq-20": "「排走水分的過程或排水系統」是「drainage」的用法，與本句語境不同。",
-        "drain-mcq-22": "「液體已被排乾的」是「drained — liquid」的用法，與本句語境不同。",
-        "drain-mcq-19": "「努力、金錢等完全浪費；付諸東流」是「down the drain — figurative」的用法，與本句語境不同。",
-        "drain-mcq-23": "「精力被耗盡的；筋疲力竭的」是「drained — exhaustion」的用法，與本句語境不同。",
-        "drain-mcq-18": "「流進排水口」是「down the drain — literal」的用法，與本句語境不同。"
+        "drain-mcq-21": "本句的「draining」指「大量消耗精神、體力或情緒能量的」。",
+        "drain-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "drain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drain-mcq-21"
     }
@@ -1931,5 +1747,7 @@ export default {
     "sha256": "d51bceb80e9c25b0b025e39ab2816a39682e683fd58a2150f06b463a94660efc",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

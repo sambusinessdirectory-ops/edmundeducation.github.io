@@ -401,7 +401,7 @@ export default {
     },
     {
       "id": "word-mcq-18",
-      "title": "表示開始或行動的命令／指示",
+      "title": "開始或行動的命令／指示",
       "form": "word — command/signal",
       "en": "word — command/signal",
       "zh": "表示開始或行動的命令／指示",
@@ -903,11 +903,9 @@ export default {
       "masked": "I don’t know the meaning of this ____.",
       "options": [
         "word-mcq-01",
-        "word-mcq-02",
-        "word-mcq-03",
-        "word-mcq-04",
-        "word-mcq-05",
-        "word-mcq-06"
+        "word-mcq-11",
+        "word-mcq-12",
+        "word-mcq-17"
       ],
       "explanation": "本句的「word」指「能獨立表達意義的語言單位；單字／詞」。",
       "sentenceIndex": 2,
@@ -916,12 +914,10 @@ export default {
         "word"
       ],
       "optionReasons": {
-        "word-mcq-01": "本句指「能獨立表達意義的語言單位；單字／詞」。",
-        "word-mcq-02": "「某語言中的一個詞彙單位」與本句語境不同。",
-        "word-mcq-03": "「某人說出的話／言語」與本句語境不同。",
-        "word-mcq-04": "「表達想法時所選擇的具體用語／措辭」與本句語境不同。",
-        "word-mcq-05": "「為準確、得體地表達而謹慎斟酌措辭」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。"
+        "word-mcq-01": "本句的「word」指「能獨立表達意義的語言單位；單字／詞」。",
+        "word-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-01"
     },
@@ -933,11 +929,9 @@ export default {
       "masked": "Write the correct ____ in the blank.",
       "options": [
         "word-mcq-01",
-        "word-mcq-02",
-        "word-mcq-03",
-        "word-mcq-04",
-        "word-mcq-05",
-        "word-mcq-06"
+        "word-mcq-07",
+        "word-mcq-12",
+        "word-mcq-16"
       ],
       "explanation": "本句的「word」指「能獨立表達意義的語言單位；單字／詞」。",
       "sentenceIndex": 3,
@@ -946,12 +940,10 @@ export default {
         "word"
       ],
       "optionReasons": {
-        "word-mcq-01": "本句指「能獨立表達意義的語言單位；單字／詞」。",
-        "word-mcq-02": "「某語言中的一個詞彙單位」與本句語境不同。",
-        "word-mcq-03": "「某人說出的話／言語」與本句語境不同。",
-        "word-mcq-04": "「表達想法時所選擇的具體用語／措辭」與本句語境不同。",
-        "word-mcq-05": "「為準確、得體地表達而謹慎斟酌措辭」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。"
+        "word-mcq-01": "本句的「word」指「能獨立表達意義的語言單位；單字／詞」。",
+        "word-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-01"
     },
@@ -963,11 +955,9 @@ export default {
       "masked": "She learns five new ____ every day.",
       "options": [
         "word-mcq-02",
-        "word-mcq-01",
-        "word-mcq-03",
-        "word-mcq-04",
-        "word-mcq-05",
-        "word-mcq-06"
+        "word-mcq-11",
+        "word-mcq-18",
+        "word-mcq-16"
       ],
       "explanation": "本句的「words」指「某語言中的一個詞彙單位」。",
       "sentenceIndex": 4,
@@ -976,12 +966,10 @@ export default {
         "words"
       ],
       "optionReasons": {
-        "word-mcq-02": "本句指「某語言中的一個詞彙單位」。",
-        "word-mcq-01": "「能獨立表達意義的語言單位；單字／詞」與本句語境不同。",
-        "word-mcq-03": "「某人說出的話／言語」與本句語境不同。",
-        "word-mcq-04": "「表達想法時所選擇的具體用語／措辭」與本句語境不同。",
-        "word-mcq-05": "「為準確、得體地表達而謹慎斟酌措辭」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。"
+        "word-mcq-02": "本句的「words」指「某語言中的一個詞彙單位」。",
+        "word-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-02"
     },
@@ -993,11 +981,9 @@ export default {
       "masked": "This is a useful English ____.",
       "options": [
         "word-mcq-02",
-        "word-mcq-01",
-        "word-mcq-03",
-        "word-mcq-04",
-        "word-mcq-05",
-        "word-mcq-06"
+        "word-mcq-32",
+        "word-mcq-16",
+        "word-mcq-07"
       ],
       "explanation": "本句的「word」指「某語言中的一個詞彙單位」。",
       "sentenceIndex": 5,
@@ -1006,12 +992,10 @@ export default {
         "word"
       ],
       "optionReasons": {
-        "word-mcq-02": "本句指「某語言中的一個詞彙單位」。",
-        "word-mcq-01": "「能獨立表達意義的語言單位；單字／詞」與本句語境不同。",
-        "word-mcq-03": "「某人說出的話／言語」與本句語境不同。",
-        "word-mcq-04": "「表達想法時所選擇的具體用語／措辭」與本句語境不同。",
-        "word-mcq-05": "「為準確、得體地表達而謹慎斟酌措辭」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。"
+        "word-mcq-02": "本句的「word」指「某語言中的一個詞彙單位」。",
+        "word-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-02"
     },
@@ -1023,11 +1007,9 @@ export default {
       "masked": "His ____ encouraged me.",
       "options": [
         "word-mcq-03",
-        "word-mcq-02",
-        "word-mcq-04",
-        "word-mcq-01",
-        "word-mcq-05",
-        "word-mcq-06"
+        "word-mcq-27",
+        "word-mcq-25",
+        "word-mcq-26"
       ],
       "explanation": "本句的「words」指「某人說出的話／言語」。",
       "sentenceIndex": 6,
@@ -1036,12 +1018,10 @@ export default {
         "words"
       ],
       "optionReasons": {
-        "word-mcq-03": "本句指「某人說出的話／言語」。",
-        "word-mcq-02": "「某語言中的一個詞彙單位」與本句語境不同。",
-        "word-mcq-04": "「表達想法時所選擇的具體用語／措辭」與本句語境不同。",
-        "word-mcq-01": "「能獨立表達意義的語言單位；單字／詞」與本句語境不同。",
-        "word-mcq-05": "「為準確、得體地表達而謹慎斟酌措辭」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。"
+        "word-mcq-03": "本句的「words」指「某人說出的話／言語」。",
+        "word-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-03"
     },
@@ -1053,11 +1033,9 @@ export default {
       "masked": "I still remember her ____.",
       "options": [
         "word-mcq-03",
-        "word-mcq-02",
-        "word-mcq-04",
-        "word-mcq-01",
-        "word-mcq-05",
-        "word-mcq-06"
+        "word-mcq-18",
+        "word-mcq-14",
+        "word-mcq-12"
       ],
       "explanation": "本句的「words」指「某人說出的話／言語」。",
       "sentenceIndex": 7,
@@ -1066,12 +1044,10 @@ export default {
         "words"
       ],
       "optionReasons": {
-        "word-mcq-03": "本句指「某人說出的話／言語」。",
-        "word-mcq-02": "「某語言中的一個詞彙單位」與本句語境不同。",
-        "word-mcq-04": "「表達想法時所選擇的具體用語／措辭」與本句語境不同。",
-        "word-mcq-01": "「能獨立表達意義的語言單位；單字／詞」與本句語境不同。",
-        "word-mcq-05": "「為準確、得體地表達而謹慎斟酌措辭」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。"
+        "word-mcq-03": "本句的「words」指「某人說出的話／言語」。",
+        "word-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-03"
     },
@@ -1083,11 +1059,9 @@ export default {
       "masked": "Her ____ stayed with me.",
       "options": [
         "word-mcq-03",
-        "word-mcq-02",
-        "word-mcq-04",
-        "word-mcq-01",
-        "word-mcq-05",
-        "word-mcq-06"
+        "word-mcq-25",
+        "word-mcq-26",
+        "word-mcq-27"
       ],
       "explanation": "本句的「words」指「某人說出的話／言語」。",
       "sentenceIndex": 8,
@@ -1096,12 +1070,10 @@ export default {
         "words"
       ],
       "optionReasons": {
-        "word-mcq-03": "本句指「某人說出的話／言語」。",
-        "word-mcq-02": "「某語言中的一個詞彙單位」與本句語境不同。",
-        "word-mcq-04": "「表達想法時所選擇的具體用語／措辭」與本句語境不同。",
-        "word-mcq-01": "「能獨立表達意義的語言單位；單字／詞」與本句語境不同。",
-        "word-mcq-05": "「為準確、得體地表達而謹慎斟酌措辭」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。"
+        "word-mcq-03": "本句的「words」指「某人說出的話／言語」。",
+        "word-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-03"
     },
@@ -1113,11 +1085,9 @@ export default {
       "masked": "Think carefully about your ____.",
       "options": [
         "word-mcq-03",
-        "word-mcq-02",
-        "word-mcq-04",
-        "word-mcq-01",
-        "word-mcq-05",
-        "word-mcq-06"
+        "word-mcq-15",
+        "word-mcq-12",
+        "word-mcq-18"
       ],
       "explanation": "本句的「words」指「某人說出的話／言語」。",
       "sentenceIndex": 9,
@@ -1126,12 +1096,10 @@ export default {
         "words"
       ],
       "optionReasons": {
-        "word-mcq-03": "本句指「某人說出的話／言語」。",
-        "word-mcq-02": "「某語言中的一個詞彙單位」與本句語境不同。",
-        "word-mcq-04": "「表達想法時所選擇的具體用語／措辭」與本句語境不同。",
-        "word-mcq-01": "「能獨立表達意義的語言單位；單字／詞」與本句語境不同。",
-        "word-mcq-05": "「為準確、得體地表達而謹慎斟酌措辭」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。"
+        "word-mcq-03": "本句的「words」指「某人說出的話／言語」。",
+        "word-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-03"
     },
@@ -1143,11 +1111,9 @@ export default {
       "masked": "He struggled to find the right ____.",
       "options": [
         "word-mcq-04",
-        "word-mcq-03",
-        "word-mcq-05",
-        "word-mcq-02",
-        "word-mcq-06",
-        "word-mcq-01"
+        "word-mcq-15",
+        "word-mcq-18",
+        "word-mcq-12"
       ],
       "explanation": "本句的「words」指「表達想法時所選擇的具體用語／措辭」。",
       "sentenceIndex": 10,
@@ -1156,12 +1122,10 @@ export default {
         "words"
       ],
       "optionReasons": {
-        "word-mcq-04": "本句指「表達想法時所選擇的具體用語／措辭」。",
-        "word-mcq-03": "「某人說出的話／言語」與本句語境不同。",
-        "word-mcq-05": "「為準確、得體地表達而謹慎斟酌措辭」與本句語境不同。",
-        "word-mcq-02": "「某語言中的一個詞彙單位」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。",
-        "word-mcq-01": "「能獨立表達意義的語言單位；單字／詞」與本句語境不同。"
+        "word-mcq-04": "本句的「words」指「表達想法時所選擇的具體用語／措辭」。",
+        "word-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-04"
     },
@@ -1173,11 +1137,9 @@ export default {
       "masked": "Her ____ was very careful.",
       "options": [
         "word-mcq-04",
-        "word-mcq-03",
-        "word-mcq-05",
-        "word-mcq-02",
-        "word-mcq-06",
-        "word-mcq-01"
+        "word-mcq-25",
+        "word-mcq-38",
+        "word-mcq-17"
       ],
       "explanation": "本句的「choice of words」指「表達想法時所選擇的具體用語／措辭」。",
       "sentenceIndex": 11,
@@ -1186,12 +1148,10 @@ export default {
         "choice of words"
       ],
       "optionReasons": {
-        "word-mcq-04": "本句指「表達想法時所選擇的具體用語／措辭」。",
-        "word-mcq-03": "「某人說出的話／言語」與本句語境不同。",
-        "word-mcq-05": "「為準確、得體地表達而謹慎斟酌措辭」與本句語境不同。",
-        "word-mcq-02": "「某語言中的一個詞彙單位」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。",
-        "word-mcq-01": "「能獨立表達意義的語言單位；單字／詞」與本句語境不同。"
+        "word-mcq-04": "本句的「choice of words」指「表達想法時所選擇的具體用語／措辭」。",
+        "word-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-04"
     },
@@ -1203,11 +1163,9 @@ export default {
       "masked": "You should ____ in that meeting.",
       "options": [
         "word-mcq-05",
-        "word-mcq-04",
-        "word-mcq-06",
-        "word-mcq-03",
-        "word-mcq-07",
-        "word-mcq-02"
+        "word-mcq-32",
+        "word-mcq-17",
+        "word-mcq-13"
       ],
       "explanation": "本句的「choose your words carefully」指「為準確、得體地表達而謹慎斟酌措辭」。",
       "sentenceIndex": 12,
@@ -1216,12 +1174,10 @@ export default {
         "choose your words carefully"
       ],
       "optionReasons": {
-        "word-mcq-05": "本句指「為準確、得體地表達而謹慎斟酌措辭」。",
-        "word-mcq-04": "「表達想法時所選擇的具體用語／措辭」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。",
-        "word-mcq-03": "「某人說出的話／言語」與本句語境不同。",
-        "word-mcq-07": "「某人實際使用的原話／確切措辭」與本句語境不同。",
-        "word-mcq-02": "「某語言中的一個詞彙單位」與本句語境不同。"
+        "word-mcq-05": "本句的「choose your words carefully」指「為準確、得體地表達而謹慎斟酌措辭」。",
+        "word-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-05"
     },
@@ -1233,11 +1189,9 @@ export default {
       "masked": "She ____ when giving feedback.",
       "options": [
         "word-mcq-05",
-        "word-mcq-04",
-        "word-mcq-06",
-        "word-mcq-03",
-        "word-mcq-07",
-        "word-mcq-02"
+        "word-mcq-29",
+        "word-mcq-38",
+        "word-mcq-11"
       ],
       "explanation": "本句的「chose her words carefully」指「為準確、得體地表達而謹慎斟酌措辭」。",
       "sentenceIndex": 13,
@@ -1246,12 +1200,10 @@ export default {
         "chose her words carefully"
       ],
       "optionReasons": {
-        "word-mcq-05": "本句指「為準確、得體地表達而謹慎斟酌措辭」。",
-        "word-mcq-04": "「表達想法時所選擇的具體用語／措辭」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。",
-        "word-mcq-03": "「某人說出的話／言語」與本句語境不同。",
-        "word-mcq-07": "「某人實際使用的原話／確切措辭」與本句語境不同。",
-        "word-mcq-02": "「某語言中的一個詞彙單位」與本句語境不同。"
+        "word-mcq-05": "本句的「chose her words carefully」指「為準確、得體地表達而謹慎斟酌措辭」。",
+        "word-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-05"
     },
@@ -1263,11 +1215,9 @@ export default {
       "masked": "He needs more time. ____, the project will be delayed.",
       "options": [
         "word-mcq-06",
-        "word-mcq-05",
-        "word-mcq-07",
-        "word-mcq-04",
-        "word-mcq-08",
-        "word-mcq-03"
+        "word-mcq-16",
+        "word-mcq-23",
+        "word-mcq-13"
       ],
       "explanation": "本句的「In other words」指「換一種方式表達同一意思；換句話說」。",
       "sentenceIndex": 14,
@@ -1276,12 +1226,10 @@ export default {
         "In other words"
       ],
       "optionReasons": {
-        "word-mcq-06": "本句指「換一種方式表達同一意思；換句話說」。",
-        "word-mcq-05": "「為準確、得體地表達而謹慎斟酌措辭」與本句語境不同。",
-        "word-mcq-07": "「某人實際使用的原話／確切措辭」與本句語境不同。",
-        "word-mcq-04": "「表達想法時所選擇的具體用語／措辭」與本句語境不同。",
-        "word-mcq-08": "「完全使用相同文字；逐字、一字不差」與本句語境不同。",
-        "word-mcq-03": "「某人說出的話／言語」與本句語境不同。"
+        "word-mcq-06": "本句的「In other words」指「換一種方式表達同一意思；換句話說」。",
+        "word-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-06"
     },
@@ -1293,11 +1241,9 @@ export default {
       "masked": "The material is waterproof—____, water cannot easily pass through it.",
       "options": [
         "word-mcq-06",
-        "word-mcq-05",
-        "word-mcq-07",
-        "word-mcq-04",
-        "word-mcq-08",
-        "word-mcq-03"
+        "word-mcq-10",
+        "word-mcq-14",
+        "word-mcq-23"
       ],
       "explanation": "本句的「in other words」指「換一種方式表達同一意思；換句話說」。",
       "sentenceIndex": 15,
@@ -1306,12 +1252,10 @@ export default {
         "in other words"
       ],
       "optionReasons": {
-        "word-mcq-06": "本句指「換一種方式表達同一意思；換句話說」。",
-        "word-mcq-05": "「為準確、得體地表達而謹慎斟酌措辭」與本句語境不同。",
-        "word-mcq-07": "「某人實際使用的原話／確切措辭」與本句語境不同。",
-        "word-mcq-04": "「表達想法時所選擇的具體用語／措辭」與本句語境不同。",
-        "word-mcq-08": "「完全使用相同文字；逐字、一字不差」與本句語境不同。",
-        "word-mcq-03": "「某人說出的話／言語」與本句語境不同。"
+        "word-mcq-06": "本句的「in other words」指「換一種方式表達同一意思；換句話說」。",
+        "word-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-06"
     },
@@ -1323,11 +1267,9 @@ export default {
       "masked": "I can’t remember her ____.",
       "options": [
         "word-mcq-07",
-        "word-mcq-06",
-        "word-mcq-08",
-        "word-mcq-05",
-        "word-mcq-09",
-        "word-mcq-04"
+        "word-mcq-38",
+        "word-mcq-30",
+        "word-mcq-18"
       ],
       "explanation": "本句的「exact words」指「某人實際使用的原話／確切措辭」。",
       "sentenceIndex": 16,
@@ -1336,12 +1278,10 @@ export default {
         "exact words"
       ],
       "optionReasons": {
-        "word-mcq-07": "本句指「某人實際使用的原話／確切措辭」。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。",
-        "word-mcq-08": "「完全使用相同文字；逐字、一字不差」與本句語境不同。",
-        "word-mcq-05": "「為準確、得體地表達而謹慎斟酌措辭」與本句語境不同。",
-        "word-mcq-09": "「和某人簡短談話」與本句語境不同。",
-        "word-mcq-04": "「表達想法時所選擇的具體用語／措辭」與本句語境不同。"
+        "word-mcq-07": "本句的「exact words」指「某人實際使用的原話／確切措辭」。",
+        "word-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-07"
     },
@@ -1353,11 +1293,9 @@ export default {
       "masked": "Those were his ____.",
       "options": [
         "word-mcq-07",
-        "word-mcq-06",
-        "word-mcq-08",
-        "word-mcq-05",
-        "word-mcq-09",
-        "word-mcq-04"
+        "word-mcq-26",
+        "word-mcq-25",
+        "word-mcq-23"
       ],
       "explanation": "本句的「exact words」指「某人實際使用的原話／確切措辭」。",
       "sentenceIndex": 17,
@@ -1366,12 +1304,10 @@ export default {
         "exact words"
       ],
       "optionReasons": {
-        "word-mcq-07": "本句指「某人實際使用的原話／確切措辭」。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。",
-        "word-mcq-08": "「完全使用相同文字；逐字、一字不差」與本句語境不同。",
-        "word-mcq-05": "「為準確、得體地表達而謹慎斟酌措辭」與本句語境不同。",
-        "word-mcq-09": "「和某人簡短談話」與本句語境不同。",
-        "word-mcq-04": "「表達想法時所選擇的具體用語／措辭」與本句語境不同。"
+        "word-mcq-07": "本句的「exact words」指「某人實際使用的原話／確切措辭」。",
+        "word-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-07"
     },
@@ -1383,11 +1319,9 @@ export default {
       "masked": "She repeated the message ____.",
       "options": [
         "word-mcq-08",
-        "word-mcq-07",
-        "word-mcq-09",
-        "word-mcq-06",
-        "word-mcq-10",
-        "word-mcq-05"
+        "word-mcq-19",
+        "word-mcq-13",
+        "word-mcq-11"
       ],
       "explanation": "本句的「word for word」指「完全使用相同文字；逐字、一字不差」。",
       "sentenceIndex": 18,
@@ -1396,12 +1330,10 @@ export default {
         "word for word"
       ],
       "optionReasons": {
-        "word-mcq-08": "本句指「完全使用相同文字；逐字、一字不差」。",
-        "word-mcq-07": "「某人實際使用的原話／確切措辭」與本句語境不同。",
-        "word-mcq-09": "「和某人簡短談話」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。",
-        "word-mcq-10": "「對某事作出的承諾／保證」與本句語境不同。",
-        "word-mcq-05": "「為準確、得體地表達而謹慎斟酌措辭」與本句語境不同。"
+        "word-mcq-08": "本句的「word for word」指「完全使用相同文字；逐字、一字不差」。",
+        "word-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-08"
     },
@@ -1413,11 +1345,9 @@ export default {
       "masked": "You don’t need to memorize the passage ____.",
       "options": [
         "word-mcq-08",
-        "word-mcq-07",
-        "word-mcq-09",
-        "word-mcq-06",
-        "word-mcq-10",
-        "word-mcq-05"
+        "word-mcq-36",
+        "word-mcq-38",
+        "word-mcq-04"
       ],
       "explanation": "本句的「word for word」指「完全使用相同文字；逐字、一字不差」。",
       "sentenceIndex": 19,
@@ -1426,12 +1356,10 @@ export default {
         "word for word"
       ],
       "optionReasons": {
-        "word-mcq-08": "本句指「完全使用相同文字；逐字、一字不差」。",
-        "word-mcq-07": "「某人實際使用的原話／確切措辭」與本句語境不同。",
-        "word-mcq-09": "「和某人簡短談話」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。",
-        "word-mcq-10": "「對某事作出的承諾／保證」與本句語境不同。",
-        "word-mcq-05": "「為準確、得體地表達而謹慎斟酌措辭」與本句語境不同。"
+        "word-mcq-08": "本句的「word for word」指「完全使用相同文字；逐字、一字不差」。",
+        "word-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-08"
     },
@@ -1443,11 +1371,9 @@ export default {
       "masked": "Can I ____?",
       "options": [
         "word-mcq-09",
-        "word-mcq-08",
-        "word-mcq-10",
-        "word-mcq-07",
-        "word-mcq-11",
-        "word-mcq-06"
+        "word-mcq-26",
+        "word-mcq-25",
+        "word-mcq-31"
       ],
       "explanation": "本句的「have a word with you」指「和某人簡短談話」。",
       "sentenceIndex": 20,
@@ -1456,12 +1382,10 @@ export default {
         "have a word with you"
       ],
       "optionReasons": {
-        "word-mcq-09": "本句指「和某人簡短談話」。",
-        "word-mcq-08": "「完全使用相同文字；逐字、一字不差」與本句語境不同。",
-        "word-mcq-10": "「對某事作出的承諾／保證」與本句語境不同。",
-        "word-mcq-07": "「某人實際使用的原話／確切措辭」與本句語境不同。",
-        "word-mcq-11": "「鄭重向某人作出保證」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。"
+        "word-mcq-09": "本句的「have a word with you」指「和某人簡短談話」。",
+        "word-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-09"
     },
@@ -1473,11 +1397,9 @@ export default {
       "masked": "The manager wants to ____.",
       "options": [
         "word-mcq-09",
-        "word-mcq-08",
-        "word-mcq-10",
-        "word-mcq-07",
-        "word-mcq-11",
-        "word-mcq-06"
+        "word-mcq-38",
+        "word-mcq-31",
+        "word-mcq-10"
       ],
       "explanation": "本句的「have a word with him」指「和某人簡短談話」。",
       "sentenceIndex": 21,
@@ -1486,12 +1408,10 @@ export default {
         "have a word with him"
       ],
       "optionReasons": {
-        "word-mcq-09": "本句指「和某人簡短談話」。",
-        "word-mcq-08": "「完全使用相同文字；逐字、一字不差」與本句語境不同。",
-        "word-mcq-10": "「對某事作出的承諾／保證」與本句語境不同。",
-        "word-mcq-07": "「某人實際使用的原話／確切措辭」與本句語境不同。",
-        "word-mcq-11": "「鄭重向某人作出保證」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。"
+        "word-mcq-09": "本句的「have a word with him」指「和某人簡短談話」。",
+        "word-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-09"
     },
@@ -1503,11 +1423,9 @@ export default {
       "masked": "I need to ____ with the teacher.",
       "options": [
         "word-mcq-09",
-        "word-mcq-08",
-        "word-mcq-10",
-        "word-mcq-07",
-        "word-mcq-11",
-        "word-mcq-06"
+        "word-mcq-14",
+        "word-mcq-19",
+        "word-mcq-12"
       ],
       "explanation": "本句的「have a word」指「和某人簡短談話」。",
       "sentenceIndex": 22,
@@ -1516,12 +1434,10 @@ export default {
         "have a word"
       ],
       "optionReasons": {
-        "word-mcq-09": "本句指「和某人簡短談話」。",
-        "word-mcq-08": "「完全使用相同文字；逐字、一字不差」與本句語境不同。",
-        "word-mcq-10": "「對某事作出的承諾／保證」與本句語境不同。",
-        "word-mcq-07": "「某人實際使用的原話／確切措辭」與本句語境不同。",
-        "word-mcq-11": "「鄭重向某人作出保證」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。"
+        "word-mcq-09": "本句的「have a word」指「和某人簡短談話」。",
+        "word-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-09"
     },
@@ -1533,11 +1449,9 @@ export default {
       "masked": "Could I ____?",
       "options": [
         "word-mcq-09",
-        "word-mcq-08",
-        "word-mcq-10",
-        "word-mcq-07",
-        "word-mcq-11",
-        "word-mcq-06"
+        "word-mcq-19",
+        "word-mcq-26",
+        "word-mcq-33"
       ],
       "explanation": "本句的「have a quick word」指「和某人簡短談話」。",
       "sentenceIndex": 23,
@@ -1546,12 +1460,10 @@ export default {
         "have a quick word"
       ],
       "optionReasons": {
-        "word-mcq-09": "本句指「和某人簡短談話」。",
-        "word-mcq-08": "「完全使用相同文字；逐字、一字不差」與本句語境不同。",
-        "word-mcq-10": "「對某事作出的承諾／保證」與本句語境不同。",
-        "word-mcq-07": "「某人實際使用的原話／確切措辭」與本句語境不同。",
-        "word-mcq-11": "「鄭重向某人作出保證」與本句語境不同。",
-        "word-mcq-06": "「換一種方式表達同一意思；換句話說」與本句語境不同。"
+        "word-mcq-09": "本句的「have a quick word」指「和某人簡短談話」。",
+        "word-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-09"
     },
@@ -1563,11 +1475,9 @@ export default {
       "masked": "You have my ____.",
       "options": [
         "word-mcq-10",
-        "word-mcq-09",
-        "word-mcq-11",
-        "word-mcq-08",
-        "word-mcq-12",
-        "word-mcq-07"
+        "word-mcq-06",
+        "word-mcq-26",
+        "word-mcq-02"
       ],
       "explanation": "本句的「word」指「對某事作出的承諾／保證」。",
       "sentenceIndex": 24,
@@ -1576,12 +1486,10 @@ export default {
         "word"
       ],
       "optionReasons": {
-        "word-mcq-10": "本句指「對某事作出的承諾／保證」。",
-        "word-mcq-09": "「和某人簡短談話」與本句語境不同。",
-        "word-mcq-11": "「鄭重向某人作出保證」與本句語境不同。",
-        "word-mcq-08": "「完全使用相同文字；逐字、一字不差」與本句語境不同。",
-        "word-mcq-12": "「做到所承諾的事；信守承諾」與本句語境不同。",
-        "word-mcq-07": "「某人實際使用的原話／確切措辭」與本句語境不同。"
+        "word-mcq-10": "本句的「word」指「對某事作出的承諾／保證」。",
+        "word-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-10"
     },
@@ -1593,11 +1501,9 @@ export default {
       "masked": "He gave me his ____ that he would help.",
       "options": [
         "word-mcq-10",
-        "word-mcq-09",
-        "word-mcq-11",
-        "word-mcq-08",
-        "word-mcq-12",
-        "word-mcq-07"
+        "word-mcq-02",
+        "word-mcq-30",
+        "word-mcq-16"
       ],
       "explanation": "本句的「word」指「對某事作出的承諾／保證」。",
       "sentenceIndex": 25,
@@ -1606,12 +1512,10 @@ export default {
         "word"
       ],
       "optionReasons": {
-        "word-mcq-10": "本句指「對某事作出的承諾／保證」。",
-        "word-mcq-09": "「和某人簡短談話」與本句語境不同。",
-        "word-mcq-11": "「鄭重向某人作出保證」與本句語境不同。",
-        "word-mcq-08": "「完全使用相同文字；逐字、一字不差」與本句語境不同。",
-        "word-mcq-12": "「做到所承諾的事；信守承諾」與本句語境不同。",
-        "word-mcq-07": "「某人實際使用的原話／確切措辭」與本句語境不同。"
+        "word-mcq-10": "本句的「word」指「對某事作出的承諾／保證」。",
+        "word-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-10"
     },
@@ -1623,11 +1527,9 @@ export default {
       "masked": "I ____ that I’ll be there.",
       "options": [
         "word-mcq-11",
-        "word-mcq-10",
-        "word-mcq-12",
-        "word-mcq-09",
-        "word-mcq-13",
-        "word-mcq-08"
+        "word-mcq-33",
+        "word-mcq-18",
+        "word-mcq-16"
       ],
       "explanation": "本句的「give you my word」指「鄭重向某人作出保證」。",
       "sentenceIndex": 26,
@@ -1636,12 +1538,10 @@ export default {
         "give you my word"
       ],
       "optionReasons": {
-        "word-mcq-11": "本句指「鄭重向某人作出保證」。",
-        "word-mcq-10": "「對某事作出的承諾／保證」與本句語境不同。",
-        "word-mcq-12": "「做到所承諾的事；信守承諾」與本句語境不同。",
-        "word-mcq-09": "「和某人簡短談話」與本句語境不同。",
-        "word-mcq-13": "「沒做到承諾；食言」與本句語境不同。",
-        "word-mcq-08": "「完全使用相同文字；逐字、一字不差」與本句語境不同。"
+        "word-mcq-11": "本句的「give you my word」指「鄭重向某人作出保證」。",
+        "word-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-11"
     },
@@ -1653,11 +1553,9 @@ export default {
       "masked": "She ____ that the information would remain private.",
       "options": [
         "word-mcq-11",
-        "word-mcq-10",
-        "word-mcq-12",
-        "word-mcq-09",
-        "word-mcq-13",
-        "word-mcq-08"
+        "word-mcq-28",
+        "word-mcq-14",
+        "word-mcq-12"
       ],
       "explanation": "本句的「gave me her word」指「鄭重向某人作出保證」。",
       "sentenceIndex": 27,
@@ -1666,12 +1564,10 @@ export default {
         "gave me her word"
       ],
       "optionReasons": {
-        "word-mcq-11": "本句指「鄭重向某人作出保證」。",
-        "word-mcq-10": "「對某事作出的承諾／保證」與本句語境不同。",
-        "word-mcq-12": "「做到所承諾的事；信守承諾」與本句語境不同。",
-        "word-mcq-09": "「和某人簡短談話」與本句語境不同。",
-        "word-mcq-13": "「沒做到承諾；食言」與本句語境不同。",
-        "word-mcq-08": "「完全使用相同文字；逐字、一字不差」與本句語境不同。"
+        "word-mcq-11": "本句的「gave me her word」指「鄭重向某人作出保證」。",
+        "word-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-11"
     },
@@ -1684,10 +1580,8 @@ export default {
       "options": [
         "word-mcq-12",
         "word-mcq-11",
-        "word-mcq-13",
-        "word-mcq-10",
-        "word-mcq-14",
-        "word-mcq-09"
+        "word-mcq-01",
+        "word-mcq-37"
       ],
       "explanation": "本句的「keeps his word」指「做到所承諾的事；信守承諾」。",
       "sentenceIndex": 28,
@@ -1696,12 +1590,10 @@ export default {
         "keeps his word"
       ],
       "optionReasons": {
-        "word-mcq-12": "本句指「做到所承諾的事；信守承諾」。",
-        "word-mcq-11": "「鄭重向某人作出保證」與本句語境不同。",
-        "word-mcq-13": "「沒做到承諾；食言」與本句語境不同。",
-        "word-mcq-10": "「對某事作出的承諾／保證」與本句語境不同。",
-        "word-mcq-14": "「傳來的消息／音訊」與本句語境不同。",
-        "word-mcq-09": "「和某人簡短談話」與本句語境不同。"
+        "word-mcq-12": "本句的「keeps his word」指「做到所承諾的事；信守承諾」。",
+        "word-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-12"
     },
@@ -1713,11 +1605,9 @@ export default {
       "masked": "You promised to help, so please ____.",
       "options": [
         "word-mcq-12",
-        "word-mcq-11",
-        "word-mcq-13",
-        "word-mcq-10",
-        "word-mcq-14",
-        "word-mcq-09"
+        "word-mcq-32",
+        "word-mcq-26",
+        "word-mcq-02"
       ],
       "explanation": "本句的「keep your word」指「做到所承諾的事；信守承諾」。",
       "sentenceIndex": 29,
@@ -1726,12 +1616,10 @@ export default {
         "keep your word"
       ],
       "optionReasons": {
-        "word-mcq-12": "本句指「做到所承諾的事；信守承諾」。",
-        "word-mcq-11": "「鄭重向某人作出保證」與本句語境不同。",
-        "word-mcq-13": "「沒做到承諾；食言」與本句語境不同。",
-        "word-mcq-10": "「對某事作出的承諾／保證」與本句語境不同。",
-        "word-mcq-14": "「傳來的消息／音訊」與本句語境不同。",
-        "word-mcq-09": "「和某人簡短談話」與本句語境不同。"
+        "word-mcq-12": "本句的「keep your word」指「做到所承諾的事；信守承諾」。",
+        "word-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-12"
     },
@@ -1743,11 +1631,9 @@ export default {
       "masked": "She never ____.",
       "options": [
         "word-mcq-13",
-        "word-mcq-12",
-        "word-mcq-14",
-        "word-mcq-11",
-        "word-mcq-15",
-        "word-mcq-10"
+        "word-mcq-27",
+        "word-mcq-08",
+        "word-mcq-09"
       ],
       "explanation": "本句的「breaks her word」指「沒做到承諾；食言」。",
       "sentenceIndex": 30,
@@ -1756,12 +1642,10 @@ export default {
         "breaks her word"
       ],
       "optionReasons": {
-        "word-mcq-13": "本句指「沒做到承諾；食言」。",
-        "word-mcq-12": "「做到所承諾的事；信守承諾」與本句語境不同。",
-        "word-mcq-14": "「傳來的消息／音訊」與本句語境不同。",
-        "word-mcq-11": "「鄭重向某人作出保證」與本句語境不同。",
-        "word-mcq-15": "「收到某件事情的消息」與本句語境不同。",
-        "word-mcq-10": "「對某事作出的承諾／保證」與本句語境不同。"
+        "word-mcq-13": "本句的「breaks her word」指「沒做到承諾；食言」。",
+        "word-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-13"
     },
@@ -1773,11 +1657,9 @@ export default {
       "masked": "He was accused of ____.",
       "options": [
         "word-mcq-13",
-        "word-mcq-12",
-        "word-mcq-14",
-        "word-mcq-11",
+        "word-mcq-30",
         "word-mcq-15",
-        "word-mcq-10"
+        "word-mcq-28"
       ],
       "explanation": "本句的「breaking his word」指「沒做到承諾；食言」。",
       "sentenceIndex": 31,
@@ -1786,12 +1668,10 @@ export default {
         "breaking his word"
       ],
       "optionReasons": {
-        "word-mcq-13": "本句指「沒做到承諾；食言」。",
-        "word-mcq-12": "「做到所承諾的事；信守承諾」與本句語境不同。",
-        "word-mcq-14": "「傳來的消息／音訊」與本句語境不同。",
-        "word-mcq-11": "「鄭重向某人作出保證」與本句語境不同。",
-        "word-mcq-15": "「收到某件事情的消息」與本句語境不同。",
-        "word-mcq-10": "「對某事作出的承諾／保證」與本句語境不同。"
+        "word-mcq-13": "本句的「breaking his word」指「沒做到承諾；食言」。",
+        "word-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-13"
     },
@@ -1803,11 +1683,9 @@ export default {
       "masked": "We received ____ that everyone was safe.",
       "options": [
         "word-mcq-14",
+        "word-mcq-09",
         "word-mcq-13",
-        "word-mcq-15",
-        "word-mcq-12",
-        "word-mcq-16",
-        "word-mcq-11"
+        "word-mcq-32"
       ],
       "explanation": "本句的「word」指「傳來的消息／音訊」。",
       "sentenceIndex": 32,
@@ -1816,12 +1694,10 @@ export default {
         "word"
       ],
       "optionReasons": {
-        "word-mcq-14": "本句指「傳來的消息／音訊」。",
-        "word-mcq-13": "「沒做到承諾；食言」與本句語境不同。",
-        "word-mcq-15": "「收到某件事情的消息」與本句語境不同。",
-        "word-mcq-12": "「做到所承諾的事；信守承諾」與本句語境不同。",
-        "word-mcq-16": "「把消息傳給更多人／廣為宣傳」與本句語境不同。",
-        "word-mcq-11": "「鄭重向某人作出保證」與本句語境不同。"
+        "word-mcq-14": "本句的「word」指「傳來的消息／音訊」。",
+        "word-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-14"
     },
@@ -1833,11 +1709,9 @@ export default {
       "masked": "There is still no ____ from the company.",
       "options": [
         "word-mcq-14",
-        "word-mcq-13",
-        "word-mcq-15",
-        "word-mcq-12",
-        "word-mcq-16",
-        "word-mcq-11"
+        "word-mcq-27",
+        "word-mcq-22",
+        "word-mcq-12"
       ],
       "explanation": "本句的「word」指「傳來的消息／音訊」。",
       "sentenceIndex": 33,
@@ -1846,12 +1720,10 @@ export default {
         "word"
       ],
       "optionReasons": {
-        "word-mcq-14": "本句指「傳來的消息／音訊」。",
-        "word-mcq-13": "「沒做到承諾；食言」與本句語境不同。",
-        "word-mcq-15": "「收到某件事情的消息」與本句語境不同。",
-        "word-mcq-12": "「做到所承諾的事；信守承諾」與本句語境不同。",
-        "word-mcq-16": "「把消息傳給更多人／廣為宣傳」與本句語境不同。",
-        "word-mcq-11": "「鄭重向某人作出保證」與本句語境不同。"
+        "word-mcq-14": "本句的「word」指「傳來的消息／音訊」。",
+        "word-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-14"
     },
@@ -1863,11 +1735,9 @@ export default {
       "masked": "We ____ of the delay.",
       "options": [
         "word-mcq-15",
-        "word-mcq-14",
-        "word-mcq-16",
-        "word-mcq-13",
-        "word-mcq-17",
-        "word-mcq-12"
+        "word-mcq-06",
+        "word-mcq-10",
+        "word-mcq-32"
       ],
       "explanation": "本句的「received word」指「收到某件事情的消息」。",
       "sentenceIndex": 34,
@@ -1876,12 +1746,10 @@ export default {
         "received word"
       ],
       "optionReasons": {
-        "word-mcq-15": "本句指「收到某件事情的消息」。",
-        "word-mcq-14": "「傳來的消息／音訊」與本句語境不同。",
-        "word-mcq-16": "「把消息傳給更多人／廣為宣傳」與本句語境不同。",
-        "word-mcq-13": "「沒做到承諾；食言」與本句語境不同。",
-        "word-mcq-17": "「消息逐漸廣泛傳開」與本句語境不同。",
-        "word-mcq-12": "「做到所承諾的事；信守承諾」與本句語境不同。"
+        "word-mcq-15": "本句的「received word」指「收到某件事情的消息」。",
+        "word-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-15"
     },
@@ -1893,11 +1761,9 @@ export default {
       "masked": "Call me when you ____ from them.",
       "options": [
         "word-mcq-15",
-        "word-mcq-14",
-        "word-mcq-16",
-        "word-mcq-13",
-        "word-mcq-17",
-        "word-mcq-12"
+        "word-mcq-30",
+        "word-mcq-22",
+        "word-mcq-37"
       ],
       "explanation": "本句的「get word」指「收到某件事情的消息」。",
       "sentenceIndex": 35,
@@ -1906,12 +1772,10 @@ export default {
         "get word"
       ],
       "optionReasons": {
-        "word-mcq-15": "本句指「收到某件事情的消息」。",
-        "word-mcq-14": "「傳來的消息／音訊」與本句語境不同。",
-        "word-mcq-16": "「把消息傳給更多人／廣為宣傳」與本句語境不同。",
-        "word-mcq-13": "「沒做到承諾；食言」與本句語境不同。",
-        "word-mcq-17": "「消息逐漸廣泛傳開」與本句語境不同。",
-        "word-mcq-12": "「做到所承諾的事；信守承諾」與本句語境不同。"
+        "word-mcq-15": "本句的「get word」指「收到某件事情的消息」。",
+        "word-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-15"
     },
@@ -1923,11 +1787,9 @@ export default {
       "masked": "Please ____ about the event.",
       "options": [
         "word-mcq-16",
-        "word-mcq-15",
-        "word-mcq-17",
-        "word-mcq-14",
-        "word-mcq-18",
-        "word-mcq-13"
+        "word-mcq-01",
+        "word-mcq-11",
+        "word-mcq-38"
       ],
       "explanation": "本句的「spread the word」指「把消息傳給更多人／廣為宣傳」。",
       "sentenceIndex": 36,
@@ -1936,12 +1798,10 @@ export default {
         "spread the word"
       ],
       "optionReasons": {
-        "word-mcq-16": "本句指「把消息傳給更多人／廣為宣傳」。",
-        "word-mcq-15": "「收到某件事情的消息」與本句語境不同。",
-        "word-mcq-17": "「消息逐漸廣泛傳開」與本句語境不同。",
-        "word-mcq-14": "「傳來的消息／音訊」與本句語境不同。",
-        "word-mcq-18": "「表示開始或行動的命令／指示」與本句語境不同。",
-        "word-mcq-13": "「沒做到承諾；食言」與本句語境不同。"
+        "word-mcq-16": "本句的「spread the word」指「把消息傳給更多人／廣為宣傳」。",
+        "word-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-16"
     },
@@ -1953,11 +1813,9 @@ export default {
       "masked": "Social media helped ____ quickly.",
       "options": [
         "word-mcq-16",
-        "word-mcq-15",
-        "word-mcq-17",
-        "word-mcq-14",
-        "word-mcq-18",
-        "word-mcq-13"
+        "word-mcq-35",
+        "word-mcq-25",
+        "word-mcq-27"
       ],
       "explanation": "本句的「spread the word」指「把消息傳給更多人／廣為宣傳」。",
       "sentenceIndex": 37,
@@ -1966,12 +1824,10 @@ export default {
         "spread the word"
       ],
       "optionReasons": {
-        "word-mcq-16": "本句指「把消息傳給更多人／廣為宣傳」。",
-        "word-mcq-15": "「收到某件事情的消息」與本句語境不同。",
-        "word-mcq-17": "「消息逐漸廣泛傳開」與本句語境不同。",
-        "word-mcq-14": "「傳來的消息／音訊」與本句語境不同。",
-        "word-mcq-18": "「表示開始或行動的命令／指示」與本句語境不同。",
-        "word-mcq-13": "「沒做到承諾；食言」與本句語境不同。"
+        "word-mcq-16": "本句的「spread the word」指「把消息傳給更多人／廣為宣傳」。",
+        "word-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-16"
     },
@@ -1983,11 +1839,9 @@ export default {
       "masked": "____ that the shop was closing.",
       "options": [
         "word-mcq-17",
-        "word-mcq-16",
-        "word-mcq-18",
-        "word-mcq-15",
-        "word-mcq-19",
-        "word-mcq-14"
+        "word-mcq-10",
+        "word-mcq-06",
+        "word-mcq-09"
       ],
       "explanation": "本句的「Word soon got around」指「消息逐漸廣泛傳開」。",
       "sentenceIndex": 38,
@@ -1996,12 +1850,10 @@ export default {
         "Word soon got around"
       ],
       "optionReasons": {
-        "word-mcq-17": "本句指「消息逐漸廣泛傳開」。",
-        "word-mcq-16": "「把消息傳給更多人／廣為宣傳」與本句語境不同。",
-        "word-mcq-18": "「表示開始或行動的命令／指示」與本句語境不同。",
-        "word-mcq-15": "「收到某件事情的消息」與本句語境不同。",
-        "word-mcq-19": "「發出開始行動的命令／許可」與本句語境不同。",
-        "word-mcq-14": "「傳來的消息／音訊」與本句語境不同。"
+        "word-mcq-17": "本句的「Word soon got around」指「消息逐漸廣泛傳開」。",
+        "word-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-17"
     },
@@ -2013,11 +1865,9 @@ export default {
       "masked": "____ about his new job.",
       "options": [
         "word-mcq-17",
-        "word-mcq-16",
-        "word-mcq-18",
-        "word-mcq-15",
-        "word-mcq-19",
-        "word-mcq-14"
+        "word-mcq-11",
+        "word-mcq-27",
+        "word-mcq-39"
       ],
       "explanation": "本句的「Word got around」指「消息逐漸廣泛傳開」。",
       "sentenceIndex": 39,
@@ -2026,12 +1876,10 @@ export default {
         "Word got around"
       ],
       "optionReasons": {
-        "word-mcq-17": "本句指「消息逐漸廣泛傳開」。",
-        "word-mcq-16": "「把消息傳給更多人／廣為宣傳」與本句語境不同。",
-        "word-mcq-18": "「表示開始或行動的命令／指示」與本句語境不同。",
-        "word-mcq-15": "「收到某件事情的消息」與本句語境不同。",
-        "word-mcq-19": "「發出開始行動的命令／許可」與本句語境不同。",
-        "word-mcq-14": "「傳來的消息／音訊」與本句語境不同。"
+        "word-mcq-17": "本句的「Word got around」指「消息逐漸廣泛傳開」。",
+        "word-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-17"
     },
@@ -2043,11 +1891,9 @@ export default {
       "masked": "Give the ____ and we’ll begin.",
       "options": [
         "word-mcq-18",
-        "word-mcq-17",
-        "word-mcq-19",
-        "word-mcq-16",
-        "word-mcq-20",
-        "word-mcq-15"
+        "word-mcq-26",
+        "word-mcq-03",
+        "word-mcq-38"
       ],
       "explanation": "本句的「word」指「表示開始或行動的命令／指示」。",
       "sentenceIndex": 40,
@@ -2056,12 +1902,10 @@ export default {
         "word"
       ],
       "optionReasons": {
-        "word-mcq-18": "本句指「表示開始或行動的命令／指示」。",
-        "word-mcq-17": "「消息逐漸廣泛傳開」與本句語境不同。",
-        "word-mcq-19": "「發出開始行動的命令／許可」與本句語境不同。",
-        "word-mcq-16": "「把消息傳給更多人／廣為宣傳」與本句語境不同。",
-        "word-mcq-20": "「最終決定或最有權威的意見」與本句語境不同。",
-        "word-mcq-15": "「收到某件事情的消息」與本句語境不同。"
+        "word-mcq-18": "本句的「word」指「表示開始或行動的命令／指示」。",
+        "word-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-18"
     },
@@ -2073,11 +1917,9 @@ export default {
       "masked": "We’re waiting for the final ____.",
       "options": [
         "word-mcq-18",
-        "word-mcq-17",
-        "word-mcq-19",
-        "word-mcq-16",
-        "word-mcq-20",
-        "word-mcq-15"
+        "word-mcq-22",
+        "word-mcq-34",
+        "word-mcq-01"
       ],
       "explanation": "本句的「word」指「表示開始或行動的命令／指示」。",
       "sentenceIndex": 41,
@@ -2086,12 +1928,10 @@ export default {
         "word"
       ],
       "optionReasons": {
-        "word-mcq-18": "本句指「表示開始或行動的命令／指示」。",
-        "word-mcq-17": "「消息逐漸廣泛傳開」與本句語境不同。",
-        "word-mcq-19": "「發出開始行動的命令／許可」與本句語境不同。",
-        "word-mcq-16": "「把消息傳給更多人／廣為宣傳」與本句語境不同。",
-        "word-mcq-20": "「最終決定或最有權威的意見」與本句語境不同。",
-        "word-mcq-15": "「收到某件事情的消息」與本句語境不同。"
+        "word-mcq-18": "本句的「word」指「表示開始或行動的命令／指示」。",
+        "word-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-18"
     },
@@ -2103,11 +1943,9 @@ export default {
       "masked": "When she ____, we’ll leave.",
       "options": [
         "word-mcq-19",
-        "word-mcq-18",
-        "word-mcq-20",
-        "word-mcq-17",
-        "word-mcq-21",
-        "word-mcq-16"
+        "word-mcq-29",
+        "word-mcq-04",
+        "word-mcq-37"
       ],
       "explanation": "本句的「gives the word」指「發出開始行動的命令／許可」。",
       "sentenceIndex": 42,
@@ -2116,12 +1954,10 @@ export default {
         "gives the word"
       ],
       "optionReasons": {
-        "word-mcq-19": "本句指「發出開始行動的命令／許可」。",
-        "word-mcq-18": "「表示開始或行動的命令／指示」與本句語境不同。",
-        "word-mcq-20": "「最終決定或最有權威的意見」與本句語境不同。",
-        "word-mcq-17": "「消息逐漸廣泛傳開」與本句語境不同。",
-        "word-mcq-21": "「在爭論中說最後一句／取得最終發言權」與本句語境不同。",
-        "word-mcq-16": "「把消息傳給更多人／廣為宣傳」與本句語境不同。"
+        "word-mcq-19": "本句的「gives the word」指「發出開始行動的命令／許可」。",
+        "word-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-19"
     },
@@ -2133,11 +1969,9 @@ export default {
       "masked": "The director ____ to start filming.",
       "options": [
         "word-mcq-19",
-        "word-mcq-18",
-        "word-mcq-20",
-        "word-mcq-17",
-        "word-mcq-21",
-        "word-mcq-16"
+        "word-mcq-14",
+        "word-mcq-27",
+        "word-mcq-02"
       ],
       "explanation": "本句的「gave the word」指「發出開始行動的命令／許可」。",
       "sentenceIndex": 43,
@@ -2146,12 +1980,10 @@ export default {
         "gave the word"
       ],
       "optionReasons": {
-        "word-mcq-19": "本句指「發出開始行動的命令／許可」。",
-        "word-mcq-18": "「表示開始或行動的命令／指示」與本句語境不同。",
-        "word-mcq-20": "「最終決定或最有權威的意見」與本句語境不同。",
-        "word-mcq-17": "「消息逐漸廣泛傳開」與本句語境不同。",
-        "word-mcq-21": "「在爭論中說最後一句／取得最終發言權」與本句語境不同。",
-        "word-mcq-16": "「把消息傳給更多人／廣為宣傳」與本句語境不同。"
+        "word-mcq-19": "本句的「gave the word」指「發出開始行動的命令／許可」。",
+        "word-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-19"
     },
@@ -2163,11 +1995,9 @@ export default {
       "masked": "I ____ my colleague yesterday.",
       "options": [
         "word-mcq-22",
-        "word-mcq-21",
-        "word-mcq-23",
-        "word-mcq-20",
-        "word-mcq-24",
-        "word-mcq-19"
+        "word-mcq-18",
+        "word-mcq-14",
+        "word-mcq-30"
       ],
       "explanation": "本句的「had words with」指「與某人發生口角／爭吵」。",
       "sentenceIndex": 44,
@@ -2176,12 +2006,10 @@ export default {
         "had words with"
       ],
       "optionReasons": {
-        "word-mcq-22": "本句指「與某人發生口角／爭吵」。",
-        "word-mcq-21": "「在爭論中說最後一句／取得最終發言權」與本句語境不同。",
-        "word-mcq-23": "「與人發生言語爭執」與本句語境不同。",
-        "word-mcq-20": "「最終決定或最有權威的意見」與本句語境不同。",
-        "word-mcq-24": "「一篇文字中包含的總詞數／字數」與本句語境不同。",
-        "word-mcq-19": "「發出開始行動的命令／許可」與本句語境不同。"
+        "word-mcq-22": "本句的「had words with」指「與某人發生口角／爭吵」。",
+        "word-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-22"
     },
@@ -2193,11 +2021,9 @@ export default {
       "masked": "They ____ after the meeting.",
       "options": [
         "word-mcq-22",
-        "word-mcq-21",
-        "word-mcq-23",
-        "word-mcq-20",
-        "word-mcq-24",
-        "word-mcq-19"
+        "word-mcq-05",
+        "word-mcq-12",
+        "word-mcq-39"
       ],
       "explanation": "本句的「had words」指「與某人發生口角／爭吵」。",
       "sentenceIndex": 45,
@@ -2206,12 +2032,10 @@ export default {
         "had words"
       ],
       "optionReasons": {
-        "word-mcq-22": "本句指「與某人發生口角／爭吵」。",
-        "word-mcq-21": "「在爭論中說最後一句／取得最終發言權」與本句語境不同。",
-        "word-mcq-23": "「與人發生言語爭執」與本句語境不同。",
-        "word-mcq-20": "「最終決定或最有權威的意見」與本句語境不同。",
-        "word-mcq-24": "「一篇文字中包含的總詞數／字數」與本句語境不同。",
-        "word-mcq-19": "「發出開始行動的命令／許可」與本句語境不同。"
+        "word-mcq-22": "本句的「had words」指「與某人發生口角／爭吵」。",
+        "word-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-22"
     },
@@ -2223,11 +2047,9 @@ export default {
       "masked": "The two drivers ____.",
       "options": [
         "word-mcq-23",
-        "word-mcq-22",
-        "word-mcq-24",
-        "word-mcq-21",
-        "word-mcq-25",
-        "word-mcq-20"
+        "word-mcq-40",
+        "word-mcq-18",
+        "word-mcq-06"
       ],
       "explanation": "本句的「exchanged words」指「與人發生言語爭執」。",
       "sentenceIndex": 46,
@@ -2236,12 +2058,10 @@ export default {
         "exchanged words"
       ],
       "optionReasons": {
-        "word-mcq-23": "本句指「與人發生言語爭執」。",
-        "word-mcq-22": "「與某人發生口角／爭吵」與本句語境不同。",
-        "word-mcq-24": "「一篇文字中包含的總詞數／字數」與本句語境不同。",
-        "word-mcq-21": "「在爭論中說最後一句／取得最終發言權」與本句語境不同。",
-        "word-mcq-25": "「可以使用的最高詞數／字數限制」與本句語境不同。",
-        "word-mcq-20": "「最終決定或最有權威的意見」與本句語境不同。"
+        "word-mcq-23": "本句的「exchanged words」指「與人發生言語爭執」。",
+        "word-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-23"
     },
@@ -2253,11 +2073,9 @@ export default {
       "masked": "They ____ outside the room.",
       "options": [
         "word-mcq-23",
-        "word-mcq-22",
-        "word-mcq-24",
-        "word-mcq-21",
-        "word-mcq-25",
-        "word-mcq-20"
+        "word-mcq-11",
+        "word-mcq-32",
+        "word-mcq-17"
       ],
       "explanation": "本句的「exchanged angry words」指「與人發生言語爭執」。",
       "sentenceIndex": 47,
@@ -2266,12 +2084,10 @@ export default {
         "exchanged angry words"
       ],
       "optionReasons": {
-        "word-mcq-23": "本句指「與人發生言語爭執」。",
-        "word-mcq-22": "「與某人發生口角／爭吵」與本句語境不同。",
-        "word-mcq-24": "「一篇文字中包含的總詞數／字數」與本句語境不同。",
-        "word-mcq-21": "「在爭論中說最後一句／取得最終發言權」與本句語境不同。",
-        "word-mcq-25": "「可以使用的最高詞數／字數限制」與本句語境不同。",
-        "word-mcq-20": "「最終決定或最有權威的意見」與本句語境不同。"
+        "word-mcq-23": "本句的「exchanged angry words」指「與人發生言語爭執」。",
+        "word-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-23"
     },
@@ -2283,11 +2099,9 @@ export default {
       "masked": "The essay has a 1,500-word ____.",
       "options": [
         "word-mcq-24",
-        "word-mcq-23",
-        "word-mcq-25",
-        "word-mcq-22",
-        "word-mcq-26",
-        "word-mcq-21"
+        "word-mcq-37",
+        "word-mcq-11",
+        "word-mcq-12"
       ],
       "explanation": "本句的「word count」指「一篇文字中包含的總詞數／字數」。",
       "sentenceIndex": 48,
@@ -2296,12 +2110,10 @@ export default {
         "word count"
       ],
       "optionReasons": {
-        "word-mcq-24": "本句指「一篇文字中包含的總詞數／字數」。",
-        "word-mcq-23": "「與人發生言語爭執」與本句語境不同。",
-        "word-mcq-25": "「可以使用的最高詞數／字數限制」與本句語境不同。",
-        "word-mcq-22": "「與某人發生口角／爭吵」與本句語境不同。",
-        "word-mcq-26": "「歌曲中的文字部分；歌詞」與本句語境不同。",
-        "word-mcq-21": "「在爭論中說最後一句／取得最終發言權」與本句語境不同。"
+        "word-mcq-24": "本句的「word count」指「一篇文字中包含的總詞數／字數」。",
+        "word-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-24"
     },
@@ -2313,11 +2125,9 @@ export default {
       "masked": "Check the ____ before submitting.",
       "options": [
         "word-mcq-24",
-        "word-mcq-23",
-        "word-mcq-25",
-        "word-mcq-22",
-        "word-mcq-26",
-        "word-mcq-21"
+        "word-mcq-04",
+        "word-mcq-09",
+        "word-mcq-12"
       ],
       "explanation": "本句的「word count」指「一篇文字中包含的總詞數／字數」。",
       "sentenceIndex": 49,
@@ -2326,12 +2136,10 @@ export default {
         "word count"
       ],
       "optionReasons": {
-        "word-mcq-24": "本句指「一篇文字中包含的總詞數／字數」。",
-        "word-mcq-23": "「與人發生言語爭執」與本句語境不同。",
-        "word-mcq-25": "「可以使用的最高詞數／字數限制」與本句語境不同。",
-        "word-mcq-22": "「與某人發生口角／爭吵」與本句語境不同。",
-        "word-mcq-26": "「歌曲中的文字部分；歌詞」與本句語境不同。",
-        "word-mcq-21": "「在爭論中說最後一句／取得最終發言權」與本句語境不同。"
+        "word-mcq-24": "本句的「word count」指「一篇文字中包含的總詞數／字數」。",
+        "word-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-24"
     },
@@ -2343,11 +2151,9 @@ export default {
       "masked": "The ____ is 500.",
       "options": [
         "word-mcq-25",
-        "word-mcq-24",
-        "word-mcq-26",
-        "word-mcq-23",
-        "word-mcq-27",
-        "word-mcq-22"
+        "word-mcq-11",
+        "word-mcq-37",
+        "word-mcq-19"
       ],
       "explanation": "本句的「word limit」指「可以使用的最高詞數／字數限制」。",
       "sentenceIndex": 50,
@@ -2356,12 +2162,10 @@ export default {
         "word limit"
       ],
       "optionReasons": {
-        "word-mcq-25": "本句指「可以使用的最高詞數／字數限制」。",
-        "word-mcq-24": "「一篇文字中包含的總詞數／字數」與本句語境不同。",
-        "word-mcq-26": "「歌曲中的文字部分；歌詞」與本句語境不同。",
-        "word-mcq-23": "「與人發生言語爭執」與本句語境不同。",
-        "word-mcq-27": "「用某種具體措辭表達某事」與本句語境不同。",
-        "word-mcq-22": "「與某人發生口角／爭吵」與本句語境不同。"
+        "word-mcq-25": "本句的「word limit」指「可以使用的最高詞數／字數限制」。",
+        "word-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-25"
     },
@@ -2373,11 +2177,9 @@ export default {
       "masked": "Try to stay within the ____.",
       "options": [
         "word-mcq-25",
-        "word-mcq-24",
-        "word-mcq-26",
-        "word-mcq-23",
-        "word-mcq-27",
-        "word-mcq-22"
+        "word-mcq-32",
+        "word-mcq-34",
+        "word-mcq-12"
       ],
       "explanation": "本句的「word limit」指「可以使用的最高詞數／字數限制」。",
       "sentenceIndex": 51,
@@ -2386,12 +2188,10 @@ export default {
         "word limit"
       ],
       "optionReasons": {
-        "word-mcq-25": "本句指「可以使用的最高詞數／字數限制」。",
-        "word-mcq-24": "「一篇文字中包含的總詞數／字數」與本句語境不同。",
-        "word-mcq-26": "「歌曲中的文字部分；歌詞」與本句語境不同。",
-        "word-mcq-23": "「與人發生言語爭執」與本句語境不同。",
-        "word-mcq-27": "「用某種具體措辭表達某事」與本句語境不同。",
-        "word-mcq-22": "「與某人發生口角／爭吵」與本句語境不同。"
+        "word-mcq-25": "本句的「word limit」指「可以使用的最高詞數／字數限制」。",
+        "word-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-25"
     },
@@ -2403,11 +2203,9 @@ export default {
       "masked": "I know the tune but not the ____.",
       "options": [
         "word-mcq-26",
-        "word-mcq-25",
-        "word-mcq-27",
-        "word-mcq-24",
-        "word-mcq-28",
-        "word-mcq-23"
+        "word-mcq-38",
+        "word-mcq-32",
+        "word-mcq-10"
       ],
       "explanation": "本句的「words」指「歌曲中的文字部分；歌詞」。",
       "sentenceIndex": 52,
@@ -2416,12 +2214,10 @@ export default {
         "words"
       ],
       "optionReasons": {
-        "word-mcq-26": "本句指「歌曲中的文字部分；歌詞」。",
-        "word-mcq-25": "「可以使用的最高詞數／字數限制」與本句語境不同。",
-        "word-mcq-27": "「用某種具體措辭表達某事」與本句語境不同。",
-        "word-mcq-24": "「一篇文字中包含的總詞數／字數」與本句語境不同。",
-        "word-mcq-28": "「某句話實際使用和安排詞語的方式；措辭」與本句語境不同。",
-        "word-mcq-23": "「與人發生言語爭執」與本句語境不同。"
+        "word-mcq-26": "本句的「words」指「歌曲中的文字部分；歌詞」。",
+        "word-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-26"
     },
@@ -2433,11 +2229,9 @@ export default {
       "masked": "Who wrote the ____ to the song?",
       "options": [
         "word-mcq-26",
-        "word-mcq-25",
+        "word-mcq-38",
         "word-mcq-27",
-        "word-mcq-24",
-        "word-mcq-28",
-        "word-mcq-23"
+        "word-mcq-39"
       ],
       "explanation": "本句的「words」指「歌曲中的文字部分；歌詞」。",
       "sentenceIndex": 53,
@@ -2446,12 +2240,10 @@ export default {
         "words"
       ],
       "optionReasons": {
-        "word-mcq-26": "本句指「歌曲中的文字部分；歌詞」。",
-        "word-mcq-25": "「可以使用的最高詞數／字數限制」與本句語境不同。",
-        "word-mcq-27": "「用某種具體措辭表達某事」與本句語境不同。",
-        "word-mcq-24": "「一篇文字中包含的總詞數／字數」與本句語境不同。",
-        "word-mcq-28": "「某句話實際使用和安排詞語的方式；措辭」與本句語境不同。",
-        "word-mcq-23": "「與人發生言語爭執」與本句語境不同。"
+        "word-mcq-26": "本句的「words」指「歌曲中的文字部分；歌詞」。",
+        "word-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-26"
     },
@@ -2463,11 +2255,9 @@ export default {
       "masked": "How should I ____?",
       "options": [
         "word-mcq-27",
-        "word-mcq-26",
-        "word-mcq-28",
-        "word-mcq-25",
-        "word-mcq-29",
-        "word-mcq-24"
+        "word-mcq-37",
+        "word-mcq-23",
+        "word-mcq-26"
       ],
       "explanation": "本句的「word this message」指「用某種具體措辭表達某事」。",
       "sentenceIndex": 57,
@@ -2476,12 +2266,10 @@ export default {
         "word this message"
       ],
       "optionReasons": {
-        "word-mcq-27": "本句指「用某種具體措辭表達某事」。",
-        "word-mcq-26": "「歌曲中的文字部分；歌詞」與本句語境不同。",
-        "word-mcq-28": "「某句話實際使用和安排詞語的方式；措辭」與本句語境不同。",
-        "word-mcq-25": "「可以使用的最高詞數／字數限制」與本句語境不同。",
-        "word-mcq-29": "「沒有說話或沒有文字的；無言的」與本句語境不同。",
-        "word-mcq-24": "「一篇文字中包含的總詞數／字數」與本句語境不同。"
+        "word-mcq-27": "本句的「word this message」指「用某種具體措辭表達某事」。",
+        "word-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-27"
     },
@@ -2493,11 +2281,9 @@ export default {
       "masked": "The question was carefully ____.",
       "options": [
         "word-mcq-27",
-        "word-mcq-26",
-        "word-mcq-28",
-        "word-mcq-25",
-        "word-mcq-29",
-        "word-mcq-24"
+        "word-mcq-23",
+        "word-mcq-08",
+        "word-mcq-09"
       ],
       "explanation": "本句的「worded」指「用某種具體措辭表達某事」。",
       "sentenceIndex": 58,
@@ -2506,12 +2292,10 @@ export default {
         "worded"
       ],
       "optionReasons": {
-        "word-mcq-27": "本句指「用某種具體措辭表達某事」。",
-        "word-mcq-26": "「歌曲中的文字部分；歌詞」與本句語境不同。",
-        "word-mcq-28": "「某句話實際使用和安排詞語的方式；措辭」與本句語境不同。",
-        "word-mcq-25": "「可以使用的最高詞數／字數限制」與本句語境不同。",
-        "word-mcq-29": "「沒有說話或沒有文字的；無言的」與本句語境不同。",
-        "word-mcq-24": "「一篇文字中包含的總詞數／字數」與本句語境不同。"
+        "word-mcq-27": "本句的「worded」指「用某種具體措辭表達某事」。",
+        "word-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-27"
     },
@@ -2523,11 +2307,9 @@ export default {
       "masked": "The ____ is unclear.",
       "options": [
         "word-mcq-28",
-        "word-mcq-27",
-        "word-mcq-29",
-        "word-mcq-26",
-        "word-mcq-30",
-        "word-mcq-25"
+        "word-mcq-19",
+        "word-mcq-08",
+        "word-mcq-12"
       ],
       "explanation": "本句的「wording」指「某句話實際使用和安排詞語的方式；措辭」。",
       "sentenceIndex": 61,
@@ -2536,12 +2318,10 @@ export default {
         "wording"
       ],
       "optionReasons": {
-        "word-mcq-28": "本句指「某句話實際使用和安排詞語的方式；措辭」。",
-        "word-mcq-27": "「用某種具體措辭表達某事」與本句語境不同。",
-        "word-mcq-29": "「沒有說話或沒有文字的；無言的」與本句語境不同。",
-        "word-mcq-26": "「歌曲中的文字部分；歌詞」與本句語境不同。",
-        "word-mcq-30": "「使用過多字詞、表達冗長的」與本句語境不同。",
-        "word-mcq-25": "「可以使用的最高詞數／字數限制」與本句語境不同。"
+        "word-mcq-28": "本句的「wording」指「某句話實際使用和安排詞語的方式；措辭」。",
+        "word-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-28"
     },
@@ -2553,11 +2333,9 @@ export default {
       "masked": "We changed the ____ of the question.",
       "options": [
         "word-mcq-28",
-        "word-mcq-27",
-        "word-mcq-29",
-        "word-mcq-26",
-        "word-mcq-30",
-        "word-mcq-25"
+        "word-mcq-13",
+        "word-mcq-22",
+        "word-mcq-15"
       ],
       "explanation": "本句的「wording」指「某句話實際使用和安排詞語的方式；措辭」。",
       "sentenceIndex": 62,
@@ -2566,12 +2344,10 @@ export default {
         "wording"
       ],
       "optionReasons": {
-        "word-mcq-28": "本句指「某句話實際使用和安排詞語的方式；措辭」。",
-        "word-mcq-27": "「用某種具體措辭表達某事」與本句語境不同。",
-        "word-mcq-29": "「沒有說話或沒有文字的；無言的」與本句語境不同。",
-        "word-mcq-26": "「歌曲中的文字部分；歌詞」與本句語境不同。",
-        "word-mcq-30": "「使用過多字詞、表達冗長的」與本句語境不同。",
-        "word-mcq-25": "「可以使用的最高詞數／字數限制」與本句語境不同。"
+        "word-mcq-28": "本句的「wording」指「某句話實際使用和安排詞語的方式；措辭」。",
+        "word-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-28"
     },
@@ -2583,11 +2359,9 @@ export default {
       "masked": "They exchanged a ____ glance.",
       "options": [
         "word-mcq-29",
-        "word-mcq-28",
-        "word-mcq-30",
-        "word-mcq-27",
-        "word-mcq-31",
-        "word-mcq-26"
+        "word-mcq-18",
+        "word-mcq-12",
+        "word-mcq-05"
       ],
       "explanation": "本句的「wordless」指「沒有說話或沒有文字的；無言的」。",
       "sentenceIndex": 65,
@@ -2596,12 +2370,10 @@ export default {
         "wordless"
       ],
       "optionReasons": {
-        "word-mcq-29": "本句指「沒有說話或沒有文字的；無言的」。",
-        "word-mcq-28": "「某句話實際使用和安排詞語的方式；措辭」與本句語境不同。",
-        "word-mcq-30": "「使用過多字詞、表達冗長的」與本句語境不同。",
-        "word-mcq-27": "「用某種具體措辭表達某事」與本句語境不同。",
-        "word-mcq-31": "「把想法或感受用言語表達出來」與本句語境不同。",
-        "word-mcq-26": "「歌曲中的文字部分；歌詞」與本句語境不同。"
+        "word-mcq-29": "本句的「wordless」指「沒有說話或沒有文字的；無言的」。",
+        "word-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-29"
     },
@@ -2613,11 +2385,9 @@ export default {
       "masked": "His reaction was completely ____.",
       "options": [
         "word-mcq-29",
-        "word-mcq-28",
-        "word-mcq-30",
-        "word-mcq-27",
-        "word-mcq-31",
-        "word-mcq-26"
+        "word-mcq-05",
+        "word-mcq-18",
+        "word-mcq-22"
       ],
       "explanation": "本句的「wordless」指「沒有說話或沒有文字的；無言的」。",
       "sentenceIndex": 66,
@@ -2626,12 +2396,10 @@ export default {
         "wordless"
       ],
       "optionReasons": {
-        "word-mcq-29": "本句指「沒有說話或沒有文字的；無言的」。",
-        "word-mcq-28": "「某句話實際使用和安排詞語的方式；措辭」與本句語境不同。",
-        "word-mcq-30": "「使用過多字詞、表達冗長的」與本句語境不同。",
-        "word-mcq-27": "「用某種具體措辭表達某事」與本句語境不同。",
-        "word-mcq-31": "「把想法或感受用言語表達出來」與本句語境不同。",
-        "word-mcq-26": "「歌曲中的文字部分；歌詞」與本句語境不同。"
+        "word-mcq-29": "本句的「wordless」指「沒有說話或沒有文字的；無言的」。",
+        "word-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-29"
     },
@@ -2643,11 +2411,9 @@ export default {
       "masked": "The report is too ____.",
       "options": [
         "word-mcq-30",
-        "word-mcq-29",
-        "word-mcq-31",
-        "word-mcq-28",
-        "word-mcq-32",
-        "word-mcq-27"
+        "word-mcq-12",
+        "word-mcq-18",
+        "word-mcq-09"
       ],
       "explanation": "本句的「wordy」指「使用過多字詞、表達冗長的」。",
       "sentenceIndex": 67,
@@ -2656,12 +2422,10 @@ export default {
         "wordy"
       ],
       "optionReasons": {
-        "word-mcq-30": "本句指「使用過多字詞、表達冗長的」。",
-        "word-mcq-29": "「沒有說話或沒有文字的；無言的」與本句語境不同。",
-        "word-mcq-31": "「把想法或感受用言語表達出來」與本句語境不同。",
-        "word-mcq-28": "「某句話實際使用和安排詞語的方式；措辭」與本句語境不同。",
-        "word-mcq-32": "「因驚訝、感動等一時想不到說甚麼」與本句語境不同。",
-        "word-mcq-27": "「用某種具體措辭表達某事」與本句語境不同。"
+        "word-mcq-30": "本句的「wordy」指「使用過多字詞、表達冗長的」。",
+        "word-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-30"
     },
@@ -2673,11 +2437,9 @@ export default {
       "masked": "Try to make the sentence less ____.",
       "options": [
         "word-mcq-30",
-        "word-mcq-29",
-        "word-mcq-31",
-        "word-mcq-28",
-        "word-mcq-32",
-        "word-mcq-27"
+        "word-mcq-13",
+        "word-mcq-11",
+        "word-mcq-14"
       ],
       "explanation": "本句的「wordy」指「使用過多字詞、表達冗長的」。",
       "sentenceIndex": 68,
@@ -2686,12 +2448,10 @@ export default {
         "wordy"
       ],
       "optionReasons": {
-        "word-mcq-30": "本句指「使用過多字詞、表達冗長的」。",
-        "word-mcq-29": "「沒有說話或沒有文字的；無言的」與本句語境不同。",
-        "word-mcq-31": "「把想法或感受用言語表達出來」與本句語境不同。",
-        "word-mcq-28": "「某句話實際使用和安排詞語的方式；措辭」與本句語境不同。",
-        "word-mcq-32": "「因驚訝、感動等一時想不到說甚麼」與本句語境不同。",
-        "word-mcq-27": "「用某種具體措辭表達某事」與本句語境不同。"
+        "word-mcq-30": "本句的「wordy」指「使用過多字詞、表達冗長的」。",
+        "word-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-30"
     },
@@ -2703,11 +2463,9 @@ export default {
       "masked": "The editor reduced the ____ of the paragraph.",
       "options": [
         "word-mcq-31",
-        "word-mcq-30",
-        "word-mcq-32",
-        "word-mcq-29",
-        "word-mcq-33",
-        "word-mcq-28"
+        "word-mcq-15",
+        "word-mcq-38",
+        "word-mcq-09"
       ],
       "explanation": "本句的「wordiness」指「把想法或感受用言語表達出來」。",
       "sentenceIndex": 69,
@@ -2716,12 +2474,10 @@ export default {
         "wordiness"
       ],
       "optionReasons": {
-        "word-mcq-31": "本句指「把想法或感受用言語表達出來」。",
-        "word-mcq-30": "「使用過多字詞、表達冗長的」與本句語境不同。",
-        "word-mcq-32": "「因驚訝、感動等一時想不到說甚麼」與本句語境不同。",
-        "word-mcq-29": "「沒有說話或沒有文字的；無言的」與本句語境不同。",
-        "word-mcq-33": "「情緒太強而不知道怎樣用言語表達；無言以對」與本句語境不同。",
-        "word-mcq-28": "「某句話實際使用和安排詞語的方式；措辭」與本句語境不同。"
+        "word-mcq-31": "本句的「wordiness」指「把想法或感受用言語表達出來」。",
+        "word-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-31"
     },
@@ -2733,11 +2489,9 @@ export default {
       "masked": "Avoid unnecessary ____.",
       "options": [
         "word-mcq-31",
-        "word-mcq-30",
-        "word-mcq-32",
-        "word-mcq-29",
-        "word-mcq-33",
-        "word-mcq-28"
+        "word-mcq-08",
+        "word-mcq-22",
+        "word-mcq-25"
       ],
       "explanation": "本句的「wordiness」指「把想法或感受用言語表達出來」。",
       "sentenceIndex": 70,
@@ -2746,12 +2500,10 @@ export default {
         "wordiness"
       ],
       "optionReasons": {
-        "word-mcq-31": "本句指「把想法或感受用言語表達出來」。",
-        "word-mcq-30": "「使用過多字詞、表達冗長的」與本句語境不同。",
-        "word-mcq-32": "「因驚訝、感動等一時想不到說甚麼」與本句語境不同。",
-        "word-mcq-29": "「沒有說話或沒有文字的；無言的」與本句語境不同。",
-        "word-mcq-33": "「情緒太強而不知道怎樣用言語表達；無言以對」與本句語境不同。",
-        "word-mcq-28": "「某句話實際使用和安排詞語的方式；措辭」與本句語境不同。"
+        "word-mcq-31": "本句的「wordiness」指「把想法或感受用言語表達出來」。",
+        "word-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-31"
     },
@@ -2763,11 +2515,9 @@ export default {
       "masked": "It is hard to ____.",
       "options": [
         "word-mcq-31",
-        "word-mcq-30",
-        "word-mcq-32",
-        "word-mcq-29",
-        "word-mcq-33",
-        "word-mcq-28"
+        "word-mcq-09",
+        "word-mcq-17",
+        "word-mcq-25"
       ],
       "explanation": "本句的「put the feeling into words」指「把想法或感受用言語表達出來」。",
       "sentenceIndex": 71,
@@ -2776,12 +2526,10 @@ export default {
         "put the feeling into words"
       ],
       "optionReasons": {
-        "word-mcq-31": "本句指「把想法或感受用言語表達出來」。",
-        "word-mcq-30": "「使用過多字詞、表達冗長的」與本句語境不同。",
-        "word-mcq-32": "「因驚訝、感動等一時想不到說甚麼」與本句語境不同。",
-        "word-mcq-29": "「沒有說話或沒有文字的；無言的」與本句語境不同。",
-        "word-mcq-33": "「情緒太強而不知道怎樣用言語表達；無言以對」與本句語境不同。",
-        "word-mcq-28": "「某句話實際使用和安排詞語的方式；措辭」與本句語境不同。"
+        "word-mcq-31": "本句的「put the feeling into words」指「把想法或感受用言語表達出來」。",
+        "word-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-31"
     },
@@ -2793,11 +2541,9 @@ export default {
       "masked": "She couldn’t ____ how grateful she felt.",
       "options": [
         "word-mcq-31",
-        "word-mcq-30",
-        "word-mcq-32",
-        "word-mcq-29",
-        "word-mcq-33",
-        "word-mcq-28"
+        "word-mcq-24",
+        "word-mcq-09",
+        "word-mcq-38"
       ],
       "explanation": "本句的「put into words」指「把想法或感受用言語表達出來」。",
       "sentenceIndex": 72,
@@ -2806,12 +2552,10 @@ export default {
         "put into words"
       ],
       "optionReasons": {
-        "word-mcq-31": "本句指「把想法或感受用言語表達出來」。",
-        "word-mcq-30": "「使用過多字詞、表達冗長的」與本句語境不同。",
-        "word-mcq-32": "「因驚訝、感動等一時想不到說甚麼」與本句語境不同。",
-        "word-mcq-29": "「沒有說話或沒有文字的；無言的」與本句語境不同。",
-        "word-mcq-33": "「情緒太強而不知道怎樣用言語表達；無言以對」與本句語境不同。",
-        "word-mcq-28": "「某句話實際使用和安排詞語的方式；措辭」與本句語境不同。"
+        "word-mcq-31": "本句的「put into words」指「把想法或感受用言語表達出來」。",
+        "word-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-31"
     },
@@ -2823,11 +2567,9 @@ export default {
       "masked": "I was ____.",
       "options": [
         "word-mcq-32",
-        "word-mcq-31",
-        "word-mcq-33",
-        "word-mcq-30",
-        "word-mcq-34",
-        "word-mcq-29"
+        "word-mcq-24",
+        "word-mcq-13",
+        "word-mcq-07"
       ],
       "explanation": "本句的「lost for words」指「因驚訝、感動等一時想不到說甚麼」。",
       "sentenceIndex": 73,
@@ -2836,12 +2578,10 @@ export default {
         "lost for words"
       ],
       "optionReasons": {
-        "word-mcq-32": "本句指「因驚訝、感動等一時想不到說甚麼」。",
-        "word-mcq-31": "「把想法或感受用言語表達出來」與本句語境不同。",
-        "word-mcq-33": "「情緒太強而不知道怎樣用言語表達；無言以對」與本句語境不同。",
-        "word-mcq-30": "「使用過多字詞、表達冗長的」與本句語境不同。",
-        "word-mcq-34": "「承認自己先前所說的話錯了；收回前言」與本句語境不同。",
-        "word-mcq-29": "「沒有說話或沒有文字的；無言的」與本句語境不同。"
+        "word-mcq-32": "本句的「lost for words」指「因驚訝、感動等一時想不到說甚麼」。",
+        "word-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-32"
     },
@@ -2853,11 +2593,9 @@ export default {
       "masked": "The gift left her ____.",
       "options": [
         "word-mcq-32",
-        "word-mcq-31",
-        "word-mcq-33",
-        "word-mcq-30",
-        "word-mcq-34",
-        "word-mcq-29"
+        "word-mcq-22",
+        "word-mcq-10",
+        "word-mcq-17"
       ],
       "explanation": "本句的「lost for words」指「因驚訝、感動等一時想不到說甚麼」。",
       "sentenceIndex": 74,
@@ -2866,12 +2604,10 @@ export default {
         "lost for words"
       ],
       "optionReasons": {
-        "word-mcq-32": "本句指「因驚訝、感動等一時想不到說甚麼」。",
-        "word-mcq-31": "「把想法或感受用言語表達出來」與本句語境不同。",
-        "word-mcq-33": "「情緒太強而不知道怎樣用言語表達；無言以對」與本句語境不同。",
-        "word-mcq-30": "「使用過多字詞、表達冗長的」與本句語境不同。",
-        "word-mcq-34": "「承認自己先前所說的話錯了；收回前言」與本句語境不同。",
-        "word-mcq-29": "「沒有說話或沒有文字的；無言的」與本句語境不同。"
+        "word-mcq-32": "本句的「lost for words」指「因驚訝、感動等一時想不到說甚麼」。",
+        "word-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-32"
     },
@@ -2883,11 +2619,9 @@ export default {
       "masked": "____ when I try to describe the view.",
       "options": [
         "word-mcq-33",
-        "word-mcq-32",
-        "word-mcq-34",
-        "word-mcq-31",
-        "word-mcq-35",
-        "word-mcq-30"
+        "word-mcq-26",
+        "word-mcq-25",
+        "word-mcq-22"
       ],
       "explanation": "本句的「Words fail me」指「情緒太強而不知道怎樣用言語表達；無言以對」。",
       "sentenceIndex": 75,
@@ -2896,12 +2630,10 @@ export default {
         "Words fail me"
       ],
       "optionReasons": {
-        "word-mcq-33": "本句指「情緒太強而不知道怎樣用言語表達；無言以對」。",
-        "word-mcq-32": "「因驚訝、感動等一時想不到說甚麼」與本句語境不同。",
-        "word-mcq-34": "「承認自己先前所說的話錯了；收回前言」與本句語境不同。",
-        "word-mcq-31": "「把想法或感受用言語表達出來」與本句語境不同。",
-        "word-mcq-35": "「相信某人所說／所承諾的話」與本句語境不同。",
-        "word-mcq-30": "「使用過多字詞、表達冗長的」與本句語境不同。"
+        "word-mcq-33": "本句的「Words fail me」指「情緒太強而不知道怎樣用言語表達；無言以對」。",
+        "word-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-33"
     },
@@ -2913,11 +2645,9 @@ export default {
       "masked": "After hearing the excuse, ____.",
       "options": [
         "word-mcq-33",
-        "word-mcq-32",
-        "word-mcq-34",
-        "word-mcq-31",
-        "word-mcq-35",
-        "word-mcq-30"
+        "word-mcq-09",
+        "word-mcq-26",
+        "word-mcq-19"
       ],
       "explanation": "本句的「words failed me」指「情緒太強而不知道怎樣用言語表達；無言以對」。",
       "sentenceIndex": 76,
@@ -2926,12 +2656,10 @@ export default {
         "words failed me"
       ],
       "optionReasons": {
-        "word-mcq-33": "本句指「情緒太強而不知道怎樣用言語表達；無言以對」。",
-        "word-mcq-32": "「因驚訝、感動等一時想不到說甚麼」與本句語境不同。",
-        "word-mcq-34": "「承認自己先前所說的話錯了；收回前言」與本句語境不同。",
-        "word-mcq-31": "「把想法或感受用言語表達出來」與本句語境不同。",
-        "word-mcq-35": "「相信某人所說／所承諾的話」與本句語境不同。",
-        "word-mcq-30": "「使用過多字詞、表達冗長的」與本句語境不同。"
+        "word-mcq-33": "本句的「words failed me」指「情緒太強而不知道怎樣用言語表達；無言以對」。",
+        "word-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-33"
     },
@@ -2943,11 +2671,9 @@ export default {
       "masked": "He said we would fail, but later had to ____.",
       "options": [
         "word-mcq-34",
-        "word-mcq-33",
-        "word-mcq-35",
-        "word-mcq-32",
-        "word-mcq-36",
-        "word-mcq-31"
+        "word-mcq-11",
+        "word-mcq-16",
+        "word-mcq-18"
       ],
       "explanation": "本句的「eat his words」指「承認自己先前所說的話錯了；收回前言」。",
       "sentenceIndex": 77,
@@ -2956,12 +2682,10 @@ export default {
         "eat his words"
       ],
       "optionReasons": {
-        "word-mcq-34": "本句指「承認自己先前所說的話錯了；收回前言」。",
-        "word-mcq-33": "「情緒太強而不知道怎樣用言語表達；無言以對」與本句語境不同。",
-        "word-mcq-35": "「相信某人所說／所承諾的話」與本句語境不同。",
-        "word-mcq-32": "「因驚訝、感動等一時想不到說甚麼」與本句語境不同。",
-        "word-mcq-36": "「說出另一個人正想說的話」與本句語境不同。",
-        "word-mcq-31": "「把想法或感受用言語表達出來」與本句語境不同。"
+        "word-mcq-34": "本句的「eat his words」指「承認自己先前所說的話錯了；收回前言」。",
+        "word-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-34"
     },
@@ -2973,11 +2697,9 @@ export default {
       "masked": "You may have to ____.",
       "options": [
         "word-mcq-34",
-        "word-mcq-33",
-        "word-mcq-35",
-        "word-mcq-32",
-        "word-mcq-36",
-        "word-mcq-31"
+        "word-mcq-11",
+        "word-mcq-30",
+        "word-mcq-14"
       ],
       "explanation": "本句的「eat your words」指「承認自己先前所說的話錯了；收回前言」。",
       "sentenceIndex": 78,
@@ -2986,12 +2708,10 @@ export default {
         "eat your words"
       ],
       "optionReasons": {
-        "word-mcq-34": "本句指「承認自己先前所說的話錯了；收回前言」。",
-        "word-mcq-33": "「情緒太強而不知道怎樣用言語表達；無言以對」與本句語境不同。",
-        "word-mcq-35": "「相信某人所說／所承諾的話」與本句語境不同。",
-        "word-mcq-32": "「因驚訝、感動等一時想不到說甚麼」與本句語境不同。",
-        "word-mcq-36": "「說出另一個人正想說的話」與本句語境不同。",
-        "word-mcq-31": "「把想法或感受用言語表達出來」與本句語境不同。"
+        "word-mcq-34": "本句的「eat your words」指「承認自己先前所說的話錯了；收回前言」。",
+        "word-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-34"
     },
@@ -3003,11 +2723,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "word-mcq-35",
-        "word-mcq-34",
-        "word-mcq-36",
-        "word-mcq-33",
-        "word-mcq-37",
-        "word-mcq-32"
+        "word-mcq-26",
+        "word-mcq-25",
+        "word-mcq-27"
       ],
       "explanation": "本句的「took her at her word」指「相信某人所說／所承諾的話」。",
       "sentenceIndex": 79,
@@ -3016,12 +2734,10 @@ export default {
         "took her at her word"
       ],
       "optionReasons": {
-        "word-mcq-35": "本句指「相信某人所說／所承諾的話」。",
-        "word-mcq-34": "「承認自己先前所說的話錯了；收回前言」與本句語境不同。",
-        "word-mcq-36": "「說出另一個人正想說的話」與本句語境不同。",
-        "word-mcq-33": "「情緒太強而不知道怎樣用言語表達；無言以對」與本句語境不同。",
-        "word-mcq-37": "「要對方記住自己的預言／警告；記住我的話」與本句語境不同。",
-        "word-mcq-32": "「因驚訝、感動等一時想不到說甚麼」與本句語境不同。"
+        "word-mcq-35": "本句的「took her at her word」指「相信某人所說／所承諾的話」。",
+        "word-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-35"
     },
@@ -3033,11 +2749,9 @@ export default {
       "masked": "If he says he’ll help, I’ll ____.",
       "options": [
         "word-mcq-35",
-        "word-mcq-34",
-        "word-mcq-36",
         "word-mcq-33",
-        "word-mcq-37",
-        "word-mcq-32"
+        "word-mcq-24",
+        "word-mcq-18"
       ],
       "explanation": "本句的「take him at his word」指「相信某人所說／所承諾的話」。",
       "sentenceIndex": 80,
@@ -3046,12 +2760,10 @@ export default {
         "take him at his word"
       ],
       "optionReasons": {
-        "word-mcq-35": "本句指「相信某人所說／所承諾的話」。",
-        "word-mcq-34": "「承認自己先前所說的話錯了；收回前言」與本句語境不同。",
-        "word-mcq-36": "「說出另一個人正想說的話」與本句語境不同。",
-        "word-mcq-33": "「情緒太強而不知道怎樣用言語表達；無言以對」與本句語境不同。",
-        "word-mcq-37": "「要對方記住自己的預言／警告；記住我的話」與本句語境不同。",
-        "word-mcq-32": "「因驚訝、感動等一時想不到說甚麼」與本句語境不同。"
+        "word-mcq-35": "本句的「take him at his word」指「相信某人所說／所承諾的話」。",
+        "word-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-35"
     },
@@ -3063,11 +2775,9 @@ export default {
       "masked": "You ____.",
       "options": [
         "word-mcq-36",
-        "word-mcq-35",
-        "word-mcq-37",
-        "word-mcq-34",
-        "word-mcq-38",
-        "word-mcq-33"
+        "word-mcq-26",
+        "word-mcq-12",
+        "word-mcq-05"
       ],
       "explanation": "本句的「took the words right out of my mouth」指「說出另一個人正想說的話」。",
       "sentenceIndex": 81,
@@ -3076,12 +2786,10 @@ export default {
         "took the words right out of my mouth"
       ],
       "optionReasons": {
-        "word-mcq-36": "本句指「說出另一個人正想說的話」。",
-        "word-mcq-35": "「相信某人所說／所承諾的話」與本句語境不同。",
-        "word-mcq-37": "「要對方記住自己的預言／警告；記住我的話」與本句語境不同。",
-        "word-mcq-34": "「承認自己先前所說的話錯了；收回前言」與本句語境不同。",
-        "word-mcq-38": "「可靠守信、說到做到的人」與本句語境不同。",
-        "word-mcq-33": "「情緒太強而不知道怎樣用言語表達；無言以對」與本句語境不同。"
+        "word-mcq-36": "本句的「took the words right out of my mouth」指「說出另一個人正想說的話」。",
+        "word-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-36"
     },
@@ -3093,11 +2801,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "word-mcq-36",
-        "word-mcq-35",
-        "word-mcq-37",
-        "word-mcq-34",
-        "word-mcq-38",
-        "word-mcq-33"
+        "word-mcq-18",
+        "word-mcq-13",
+        "word-mcq-26"
       ],
       "explanation": "本句的「took the words out of his mouth」指「說出另一個人正想說的話」。",
       "sentenceIndex": 82,
@@ -3106,12 +2812,10 @@ export default {
         "took the words out of his mouth"
       ],
       "optionReasons": {
-        "word-mcq-36": "本句指「說出另一個人正想說的話」。",
-        "word-mcq-35": "「相信某人所說／所承諾的話」與本句語境不同。",
-        "word-mcq-37": "「要對方記住自己的預言／警告；記住我的話」與本句語境不同。",
-        "word-mcq-34": "「承認自己先前所說的話錯了；收回前言」與本句語境不同。",
-        "word-mcq-38": "「可靠守信、說到做到的人」與本句語境不同。",
-        "word-mcq-33": "「情緒太強而不知道怎樣用言語表達；無言以對」與本句語境不同。"
+        "word-mcq-36": "本句的「took the words out of his mouth」指「說出另一個人正想說的話」。",
+        "word-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-36"
     },
@@ -3123,11 +2827,9 @@ export default {
       "masked": "____, this will become important later.",
       "options": [
         "word-mcq-37",
-        "word-mcq-36",
-        "word-mcq-38",
-        "word-mcq-35",
-        "word-mcq-39",
-        "word-mcq-34"
+        "word-mcq-05",
+        "word-mcq-18",
+        "word-mcq-24"
       ],
       "explanation": "本句的「Mark my words」指「要對方記住自己的預言／警告；記住我的話」。",
       "sentenceIndex": 83,
@@ -3136,12 +2838,10 @@ export default {
         "Mark my words"
       ],
       "optionReasons": {
-        "word-mcq-37": "本句指「要對方記住自己的預言／警告；記住我的話」。",
-        "word-mcq-36": "「說出另一個人正想說的話」與本句語境不同。",
-        "word-mcq-38": "「可靠守信、說到做到的人」與本句語境不同。",
-        "word-mcq-35": "「相信某人所說／所承諾的話」與本句語境不同。",
-        "word-mcq-39": "「簡而言之；一句話概括」與本句語境不同。",
-        "word-mcq-34": "「承認自己先前所說的話錯了；收回前言」與本句語境不同。"
+        "word-mcq-37": "本句的「Mark my words」指「要對方記住自己的預言／警告；記住我的話」。",
+        "word-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-37"
     },
@@ -3153,11 +2853,9 @@ export default {
       "masked": "____, he’ll regret that decision.",
       "options": [
         "word-mcq-37",
-        "word-mcq-36",
+        "word-mcq-14",
         "word-mcq-38",
-        "word-mcq-35",
-        "word-mcq-39",
-        "word-mcq-34"
+        "word-mcq-18"
       ],
       "explanation": "本句的「Mark my words」指「要對方記住自己的預言／警告；記住我的話」。",
       "sentenceIndex": 84,
@@ -3166,12 +2864,10 @@ export default {
         "Mark my words"
       ],
       "optionReasons": {
-        "word-mcq-37": "本句指「要對方記住自己的預言／警告；記住我的話」。",
-        "word-mcq-36": "「說出另一個人正想說的話」與本句語境不同。",
-        "word-mcq-38": "「可靠守信、說到做到的人」與本句語境不同。",
-        "word-mcq-35": "「相信某人所說／所承諾的話」與本句語境不同。",
-        "word-mcq-39": "「簡而言之；一句話概括」與本句語境不同。",
-        "word-mcq-34": "「承認自己先前所說的話錯了；收回前言」與本句語境不同。"
+        "word-mcq-37": "本句的「Mark my words」指「要對方記住自己的預言／警告；記住我的話」。",
+        "word-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-37"
     },
@@ -3183,11 +2879,9 @@ export default {
       "masked": "He is a ____.",
       "options": [
         "word-mcq-38",
-        "word-mcq-37",
-        "word-mcq-39",
-        "word-mcq-36",
-        "word-mcq-40",
-        "word-mcq-35"
+        "word-mcq-16",
+        "word-mcq-11",
+        "word-mcq-27"
       ],
       "explanation": "本句的「man of his word」指「可靠守信、說到做到的人」。",
       "sentenceIndex": 85,
@@ -3196,12 +2890,10 @@ export default {
         "man of his word"
       ],
       "optionReasons": {
-        "word-mcq-38": "本句指「可靠守信、說到做到的人」。",
-        "word-mcq-37": "「要對方記住自己的預言／警告；記住我的話」與本句語境不同。",
-        "word-mcq-39": "「簡而言之；一句話概括」與本句語境不同。",
-        "word-mcq-36": "「說出另一個人正想說的話」與本句語境不同。",
-        "word-mcq-40": "「據說……；有消息說……」與本句語境不同。",
-        "word-mcq-35": "「相信某人所說／所承諾的話」與本句語境不同。"
+        "word-mcq-38": "本句的「man of his word」指「可靠守信、說到做到的人」。",
+        "word-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-38"
     },
@@ -3213,11 +2905,9 @@ export default {
       "masked": "Everyone knows she is a ____.",
       "options": [
         "word-mcq-38",
-        "word-mcq-37",
-        "word-mcq-39",
-        "word-mcq-36",
-        "word-mcq-40",
-        "word-mcq-35"
+        "word-mcq-15",
+        "word-mcq-09",
+        "word-mcq-31"
       ],
       "explanation": "本句的「woman of her word」指「可靠守信、說到做到的人」。",
       "sentenceIndex": 86,
@@ -3226,12 +2916,10 @@ export default {
         "woman of her word"
       ],
       "optionReasons": {
-        "word-mcq-38": "本句指「可靠守信、說到做到的人」。",
-        "word-mcq-37": "「要對方記住自己的預言／警告；記住我的話」與本句語境不同。",
-        "word-mcq-39": "「簡而言之；一句話概括」與本句語境不同。",
-        "word-mcq-36": "「說出另一個人正想說的話」與本句語境不同。",
-        "word-mcq-40": "「據說……；有消息說……」與本句語境不同。",
-        "word-mcq-35": "「相信某人所說／所承諾的話」與本句語境不同。"
+        "word-mcq-38": "本句的「woman of her word」指「可靠守信、說到做到的人」。",
+        "word-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-38"
     },
@@ -3243,11 +2931,9 @@ export default {
       "masked": "____, the trip was unforgettable.",
       "options": [
         "word-mcq-39",
-        "word-mcq-38",
-        "word-mcq-40",
-        "word-mcq-37",
-        "word-mcq-36",
-        "word-mcq-35"
+        "word-mcq-08",
+        "word-mcq-05",
+        "word-mcq-10"
       ],
       "explanation": "本句的「In a word」指「簡而言之；一句話概括」。",
       "sentenceIndex": 87,
@@ -3256,12 +2942,10 @@ export default {
         "In a word"
       ],
       "optionReasons": {
-        "word-mcq-39": "本句指「簡而言之；一句話概括」。",
-        "word-mcq-38": "「可靠守信、說到做到的人」與本句語境不同。",
-        "word-mcq-40": "「據說……；有消息說……」與本句語境不同。",
-        "word-mcq-37": "「要對方記住自己的預言／警告；記住我的話」與本句語境不同。",
-        "word-mcq-36": "「說出另一個人正想說的話」與本句語境不同。",
-        "word-mcq-35": "「相信某人所說／所承諾的話」與本句語境不同。"
+        "word-mcq-39": "本句的「In a word」指「簡而言之；一句話概括」。",
+        "word-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-39"
     },
@@ -3273,11 +2957,9 @@ export default {
       "masked": "____, no.",
       "options": [
         "word-mcq-39",
+        "word-mcq-30",
         "word-mcq-38",
-        "word-mcq-40",
-        "word-mcq-37",
-        "word-mcq-36",
-        "word-mcq-35"
+        "word-mcq-11"
       ],
       "explanation": "本句的「In a word」指「簡而言之；一句話概括」。",
       "sentenceIndex": 88,
@@ -3286,12 +2968,10 @@ export default {
         "In a word"
       ],
       "optionReasons": {
-        "word-mcq-39": "本句指「簡而言之；一句話概括」。",
-        "word-mcq-38": "「可靠守信、說到做到的人」與本句語境不同。",
-        "word-mcq-40": "「據說……；有消息說……」與本句語境不同。",
-        "word-mcq-37": "「要對方記住自己的預言／警告；記住我的話」與本句語境不同。",
-        "word-mcq-36": "「說出另一個人正想說的話」與本句語境不同。",
-        "word-mcq-35": "「相信某人所說／所承諾的話」與本句語境不同。"
+        "word-mcq-39": "本句的「In a word」指「簡而言之；一句話概括」。",
+        "word-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-39"
     },
@@ -3303,11 +2983,9 @@ export default {
       "masked": "____ the shop will close soon.",
       "options": [
         "word-mcq-40",
-        "word-mcq-39",
-        "word-mcq-38",
-        "word-mcq-37",
-        "word-mcq-36",
-        "word-mcq-35"
+        "word-mcq-27",
+        "word-mcq-11",
+        "word-mcq-37"
       ],
       "explanation": "本句的「Word has it that」指「據說……；有消息說……」。",
       "sentenceIndex": 89,
@@ -3316,12 +2994,10 @@ export default {
         "Word has it that"
       ],
       "optionReasons": {
-        "word-mcq-40": "本句指「據說……；有消息說……」。",
-        "word-mcq-39": "「簡而言之；一句話概括」與本句語境不同。",
-        "word-mcq-38": "「可靠守信、說到做到的人」與本句語境不同。",
-        "word-mcq-37": "「要對方記住自己的預言／警告；記住我的話」與本句語境不同。",
-        "word-mcq-36": "「說出另一個人正想說的話」與本句語境不同。",
-        "word-mcq-35": "「相信某人所說／所承諾的話」與本句語境不同。"
+        "word-mcq-40": "本句的「Word has it that」指「據說……；有消息說……」。",
+        "word-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-40"
     },
@@ -3333,11 +3009,9 @@ export default {
       "masked": "____ she may return next year.",
       "options": [
         "word-mcq-40",
-        "word-mcq-39",
-        "word-mcq-38",
-        "word-mcq-37",
-        "word-mcq-36",
-        "word-mcq-35"
+        "word-mcq-18",
+        "word-mcq-10",
+        "word-mcq-27"
       ],
       "explanation": "本句的「Word has it that」指「據說……；有消息說……」。",
       "sentenceIndex": 90,
@@ -3346,12 +3020,10 @@ export default {
         "Word has it that"
       ],
       "optionReasons": {
-        "word-mcq-40": "本句指「據說……；有消息說……」。",
-        "word-mcq-39": "「簡而言之；一句話概括」與本句語境不同。",
-        "word-mcq-38": "「可靠守信、說到做到的人」與本句語境不同。",
-        "word-mcq-37": "「要對方記住自己的預言／警告；記住我的話」與本句語境不同。",
-        "word-mcq-36": "「說出另一個人正想說的話」與本句語境不同。",
-        "word-mcq-35": "「相信某人所說／所承諾的話」與本句語境不同。"
+        "word-mcq-40": "本句的「Word has it that」指「據說……；有消息說……」。",
+        "word-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "word-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "word-mcq-40"
     }
@@ -3363,5 +3035,7 @@ export default {
     "sha256": "0b0b3bc80a98aede59d36febc11a13a161c45161da9c1eb8e2109dc14206b083",
     "pages": 23
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

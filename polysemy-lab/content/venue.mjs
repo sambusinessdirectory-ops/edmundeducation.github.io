@@ -206,11 +206,7 @@ export default {
       "masked": "Restaurants should not become long-stay tutorial ____.",
       "options": [
         "venue-mcq-01",
-        "venue-mcq-02",
-        "venue-mcq-03",
-        "venue-mcq-04",
-        "venue-mcq-05",
-        "venue-mcq-06"
+        "venue-mcq-07"
       ],
       "explanation": "本句的「venues」指「舉行活動、會議、表演、課程、比賽等的場地／場所」。",
       "sentenceIndex": 0,
@@ -219,12 +215,8 @@ export default {
         "venues"
       ],
       "optionReasons": {
-        "venue-mcq-01": "本句指「舉行活動、會議、表演、課程、比賽等的場地／場所」。",
-        "venue-mcq-02": "「實際承辦某項活動的建築物或場館；屬於 event-place 義」與本句語境不同。",
-        "venue-mcq-03": "「讓討論、交流、表達或其他活動得以進行的平台／場合」與本句語境不同。",
-        "venue-mcq-04": "「線上／虛擬活動舉行的平台」與本句語境不同。",
-        "venue-mcq-05": "「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」與本句語境不同。",
-        "venue-mcq-06": "「改變活動場地；法律中指更改審判地點」與本句語境不同。"
+        "venue-mcq-01": "本句的「venues」指「舉行活動、會議、表演、課程、比賽等的場地／場所」。",
+        "venue-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-01"
     },
@@ -236,11 +228,7 @@ export default {
       "masked": "They are looking for a wedding ____.",
       "options": [
         "venue-mcq-01",
-        "venue-mcq-02",
-        "venue-mcq-03",
-        "venue-mcq-04",
-        "venue-mcq-05",
-        "venue-mcq-06"
+        "venue-mcq-07"
       ],
       "explanation": "本句的「venue」指「舉行活動、會議、表演、課程、比賽等的場地／場所」。",
       "sentenceIndex": 1,
@@ -249,12 +237,8 @@ export default {
         "venue"
       ],
       "optionReasons": {
-        "venue-mcq-01": "本句指「舉行活動、會議、表演、課程、比賽等的場地／場所」。",
-        "venue-mcq-02": "「實際承辦某項活動的建築物或場館；屬於 event-place 義」與本句語境不同。",
-        "venue-mcq-03": "「讓討論、交流、表達或其他活動得以進行的平台／場合」與本句語境不同。",
-        "venue-mcq-04": "「線上／虛擬活動舉行的平台」與本句語境不同。",
-        "venue-mcq-05": "「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」與本句語境不同。",
-        "venue-mcq-06": "「改變活動場地；法律中指更改審判地點」與本句語境不同。"
+        "venue-mcq-01": "本句的「venue」指「舉行活動、會議、表演、課程、比賽等的場地／場所」。",
+        "venue-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-01"
     },
@@ -266,11 +250,7 @@ export default {
       "masked": "The concert ____ can hold several thousand people.",
       "options": [
         "venue-mcq-01",
-        "venue-mcq-02",
-        "venue-mcq-03",
-        "venue-mcq-04",
-        "venue-mcq-05",
-        "venue-mcq-06"
+        "venue-mcq-07"
       ],
       "explanation": "本句的「venue」指「舉行活動、會議、表演、課程、比賽等的場地／場所」。",
       "sentenceIndex": 2,
@@ -279,12 +259,8 @@ export default {
         "venue"
       ],
       "optionReasons": {
-        "venue-mcq-01": "本句指「舉行活動、會議、表演、課程、比賽等的場地／場所」。",
-        "venue-mcq-02": "「實際承辦某項活動的建築物或場館；屬於 event-place 義」與本句語境不同。",
-        "venue-mcq-03": "「讓討論、交流、表達或其他活動得以進行的平台／場合」與本句語境不同。",
-        "venue-mcq-04": "「線上／虛擬活動舉行的平台」與本句語境不同。",
-        "venue-mcq-05": "「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」與本句語境不同。",
-        "venue-mcq-06": "「改變活動場地；法律中指更改審判地點」與本句語境不同。"
+        "venue-mcq-01": "本句的「venue」指「舉行活動、會議、表演、課程、比賽等的場地／場所」。",
+        "venue-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-01"
     },
@@ -296,11 +272,8 @@ export default {
       "masked": "The stadium is one of the city’s largest sporting ____.",
       "options": [
         "venue-mcq-02",
-        "venue-mcq-01",
-        "venue-mcq-03",
-        "venue-mcq-04",
         "venue-mcq-05",
-        "venue-mcq-06"
+        "venue-mcq-07"
       ],
       "explanation": "本句的「venues」指「實際承辦某項活動的建築物或場館；屬於 event-place 義」。",
       "sentenceIndex": 3,
@@ -309,12 +282,9 @@ export default {
         "venues"
       ],
       "optionReasons": {
-        "venue-mcq-02": "本句指「實際承辦某項活動的建築物或場館；屬於 event-place 義」。",
-        "venue-mcq-01": "「舉行活動、會議、表演、課程、比賽等的場地／場所」與本句語境不同。",
-        "venue-mcq-03": "「讓討論、交流、表達或其他活動得以進行的平台／場合」與本句語境不同。",
-        "venue-mcq-04": "「線上／虛擬活動舉行的平台」與本句語境不同。",
-        "venue-mcq-05": "「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」與本句語境不同。",
-        "venue-mcq-06": "「改變活動場地；法律中指更改審判地點」與本句語境不同。"
+        "venue-mcq-02": "本句的「venues」指「實際承辦某項活動的建築物或場館；屬於 event-place 義」。",
+        "venue-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "venue-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-02"
     },
@@ -326,11 +296,8 @@ export default {
       "masked": "The ____ has three function rooms and a large hall.",
       "options": [
         "venue-mcq-02",
-        "venue-mcq-01",
-        "venue-mcq-03",
-        "venue-mcq-04",
         "venue-mcq-05",
-        "venue-mcq-06"
+        "venue-mcq-07"
       ],
       "explanation": "本句的「venue」指「實際承辦某項活動的建築物或場館；屬於 event-place 義」。",
       "sentenceIndex": 4,
@@ -339,12 +306,9 @@ export default {
         "venue"
       ],
       "optionReasons": {
-        "venue-mcq-02": "本句指「實際承辦某項活動的建築物或場館；屬於 event-place 義」。",
-        "venue-mcq-01": "「舉行活動、會議、表演、課程、比賽等的場地／場所」與本句語境不同。",
-        "venue-mcq-03": "「讓討論、交流、表達或其他活動得以進行的平台／場合」與本句語境不同。",
-        "venue-mcq-04": "「線上／虛擬活動舉行的平台」與本句語境不同。",
-        "venue-mcq-05": "「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」與本句語境不同。",
-        "venue-mcq-06": "「改變活動場地；法律中指更改審判地點」與本句語境不同。"
+        "venue-mcq-02": "本句的「venue」指「實際承辦某項活動的建築物或場館；屬於 event-place 義」。",
+        "venue-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "venue-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-02"
     },
@@ -356,11 +320,7 @@ export default {
       "masked": "The journal provides a useful ____ for academic debate.",
       "options": [
         "venue-mcq-03",
-        "venue-mcq-02",
-        "venue-mcq-04",
-        "venue-mcq-01",
-        "venue-mcq-05",
-        "venue-mcq-06"
+        "venue-mcq-05"
       ],
       "explanation": "本句的「venue」指「讓討論、交流、表達或其他活動得以進行的平台／場合」。",
       "sentenceIndex": 5,
@@ -369,12 +329,8 @@ export default {
         "venue"
       ],
       "optionReasons": {
-        "venue-mcq-03": "本句指「讓討論、交流、表達或其他活動得以進行的平台／場合」。",
-        "venue-mcq-02": "「實際承辦某項活動的建築物或場館；屬於 event-place 義」與本句語境不同。",
-        "venue-mcq-04": "「線上／虛擬活動舉行的平台」與本句語境不同。",
-        "venue-mcq-01": "「舉行活動、會議、表演、課程、比賽等的場地／場所」與本句語境不同。",
-        "venue-mcq-05": "「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」與本句語境不同。",
-        "venue-mcq-06": "「改變活動場地；法律中指更改審判地點」與本句語境不同。"
+        "venue-mcq-03": "本句的「venue」指「讓討論、交流、表達或其他活動得以進行的平台／場合」。",
+        "venue-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-03"
     },
@@ -386,11 +342,7 @@ export default {
       "masked": "Social media has become an important ____ for public discussion.",
       "options": [
         "venue-mcq-03",
-        "venue-mcq-02",
-        "venue-mcq-04",
-        "venue-mcq-01",
-        "venue-mcq-05",
-        "venue-mcq-06"
+        "venue-mcq-05"
       ],
       "explanation": "本句的「venue」指「讓討論、交流、表達或其他活動得以進行的平台／場合」。",
       "sentenceIndex": 6,
@@ -399,12 +351,8 @@ export default {
         "venue"
       ],
       "optionReasons": {
-        "venue-mcq-03": "本句指「讓討論、交流、表達或其他活動得以進行的平台／場合」。",
-        "venue-mcq-02": "「實際承辦某項活動的建築物或場館；屬於 event-place 義」與本句語境不同。",
-        "venue-mcq-04": "「線上／虛擬活動舉行的平台」與本句語境不同。",
-        "venue-mcq-01": "「舉行活動、會議、表演、課程、比賽等的場地／場所」與本句語境不同。",
-        "venue-mcq-05": "「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」與本句語境不同。",
-        "venue-mcq-06": "「改變活動場地；法律中指更改審判地點」與本句語境不同。"
+        "venue-mcq-03": "本句的「venue」指「讓討論、交流、表達或其他活動得以進行的平台／場合」。",
+        "venue-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-03"
     },
@@ -416,11 +364,7 @@ export default {
       "masked": "The conference will use an online ____ for remote participants.",
       "options": [
         "venue-mcq-04",
-        "venue-mcq-03",
-        "venue-mcq-05",
-        "venue-mcq-02",
-        "venue-mcq-06",
-        "venue-mcq-01"
+        "venue-mcq-05"
       ],
       "explanation": "本句的「venue」指「線上／虛擬活動舉行的平台」。",
       "sentenceIndex": 7,
@@ -429,12 +373,8 @@ export default {
         "venue"
       ],
       "optionReasons": {
-        "venue-mcq-04": "本句指「線上／虛擬活動舉行的平台」。",
-        "venue-mcq-03": "「讓討論、交流、表達或其他活動得以進行的平台／場合」與本句語境不同。",
-        "venue-mcq-05": "「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」與本句語境不同。",
-        "venue-mcq-02": "「實際承辦某項活動的建築物或場館；屬於 event-place 義」與本句語境不同。",
-        "venue-mcq-06": "「改變活動場地；法律中指更改審判地點」與本句語境不同。",
-        "venue-mcq-01": "「舉行活動、會議、表演、課程、比賽等的場地／場所」與本句語境不同。"
+        "venue-mcq-04": "本句的「venue」指「線上／虛擬活動舉行的平台」。",
+        "venue-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-04"
     },
@@ -446,11 +386,7 @@ export default {
       "masked": "The virtual ____ allows people to attend from different countries.",
       "options": [
         "venue-mcq-04",
-        "venue-mcq-03",
-        "venue-mcq-05",
-        "venue-mcq-02",
-        "venue-mcq-06",
-        "venue-mcq-01"
+        "venue-mcq-08"
       ],
       "explanation": "本句的「venue」指「線上／虛擬活動舉行的平台」。",
       "sentenceIndex": 8,
@@ -459,12 +395,8 @@ export default {
         "venue"
       ],
       "optionReasons": {
-        "venue-mcq-04": "本句指「線上／虛擬活動舉行的平台」。",
-        "venue-mcq-03": "「讓討論、交流、表達或其他活動得以進行的平台／場合」與本句語境不同。",
-        "venue-mcq-05": "「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」與本句語境不同。",
-        "venue-mcq-02": "「實際承辦某項活動的建築物或場館；屬於 event-place 義」與本句語境不同。",
-        "venue-mcq-06": "「改變活動場地；法律中指更改審判地點」與本句語境不同。",
-        "venue-mcq-01": "「舉行活動、會議、表演、課程、比賽等的場地／場所」與本句語境不同。"
+        "venue-mcq-04": "本句的「venue」指「線上／虛擬活動舉行的平台」。",
+        "venue-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-04"
     },
@@ -476,11 +408,7 @@ export default {
       "masked": "The defendant requested a change of ____.",
       "options": [
         "venue-mcq-05",
-        "venue-mcq-04",
-        "venue-mcq-06",
-        "venue-mcq-03",
-        "venue-mcq-07",
-        "venue-mcq-02"
+        "venue-mcq-03"
       ],
       "explanation": "本句的「venue」指「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」。",
       "sentenceIndex": 9,
@@ -489,12 +417,8 @@ export default {
         "venue"
       ],
       "optionReasons": {
-        "venue-mcq-05": "本句指「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」。",
-        "venue-mcq-04": "「線上／虛擬活動舉行的平台」與本句語境不同。",
-        "venue-mcq-06": "「改變活動場地；法律中指更改審判地點」與本句語境不同。",
-        "venue-mcq-03": "「讓討論、交流、表達或其他活動得以進行的平台／場合」與本句語境不同。",
-        "venue-mcq-07": "「進行金融產品交易／執行買賣的市場或平台」與本句語境不同。",
-        "venue-mcq-02": "「實際承辦某項活動的建築物或場館；屬於 event-place 義」與本句語境不同。"
+        "venue-mcq-05": "本句的「venue」指「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」。",
+        "venue-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-05"
     },
@@ -506,11 +430,7 @@ export default {
       "masked": "The court considered whether the ____ was proper.",
       "options": [
         "venue-mcq-05",
-        "venue-mcq-04",
-        "venue-mcq-06",
-        "venue-mcq-03",
-        "venue-mcq-07",
-        "venue-mcq-02"
+        "venue-mcq-04"
       ],
       "explanation": "本句的「venue」指「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」。",
       "sentenceIndex": 10,
@@ -519,12 +439,8 @@ export default {
         "venue"
       ],
       "optionReasons": {
-        "venue-mcq-05": "本句指「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」。",
-        "venue-mcq-04": "「線上／虛擬活動舉行的平台」與本句語境不同。",
-        "venue-mcq-06": "「改變活動場地；法律中指更改審判地點」與本句語境不同。",
-        "venue-mcq-03": "「讓討論、交流、表達或其他活動得以進行的平台／場合」與本句語境不同。",
-        "venue-mcq-07": "「進行金融產品交易／執行買賣的市場或平台」與本句語境不同。",
-        "venue-mcq-02": "「實際承辦某項活動的建築物或場館；屬於 event-place 義」與本句語境不同。"
+        "venue-mcq-05": "本句的「venue」指「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」。",
+        "venue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-05"
     },
@@ -536,11 +452,7 @@ export default {
       "masked": "The lawyers applied for a ____.",
       "options": [
         "venue-mcq-06",
-        "venue-mcq-05",
-        "venue-mcq-07",
-        "venue-mcq-04",
-        "venue-mcq-08",
-        "venue-mcq-03"
+        "venue-mcq-07"
       ],
       "explanation": "本句的「change of venue」指「改變活動場地；法律中指更改審判地點」。",
       "sentenceIndex": 11,
@@ -549,12 +461,8 @@ export default {
         "change of venue"
       ],
       "optionReasons": {
-        "venue-mcq-06": "本句指「改變活動場地；法律中指更改審判地點」。",
-        "venue-mcq-05": "「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」與本句語境不同。",
-        "venue-mcq-07": "「進行金融產品交易／執行買賣的市場或平台」與本句語境不同。",
-        "venue-mcq-04": "「線上／虛擬活動舉行的平台」與本句語境不同。",
-        "venue-mcq-08": "「比賽／演出場地；屬於 everyday event-place 義」與本句語境不同。",
-        "venue-mcq-03": "「讓討論、交流、表達或其他活動得以進行的平台／場合」與本句語境不同。"
+        "venue-mcq-06": "本句的「change of venue」指「改變活動場地；法律中指更改審判地點」。",
+        "venue-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-06"
     },
@@ -566,11 +474,7 @@ export default {
       "masked": "There has been a last-minute ____ for the meeting.",
       "options": [
         "venue-mcq-06",
-        "venue-mcq-05",
-        "venue-mcq-07",
-        "venue-mcq-04",
-        "venue-mcq-08",
-        "venue-mcq-03"
+        "venue-mcq-07"
       ],
       "explanation": "本句的「change of venue」指「改變活動場地；法律中指更改審判地點」。",
       "sentenceIndex": 12,
@@ -579,12 +483,8 @@ export default {
         "change of venue"
       ],
       "optionReasons": {
-        "venue-mcq-06": "本句指「改變活動場地；法律中指更改審判地點」。",
-        "venue-mcq-05": "「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」與本句語境不同。",
-        "venue-mcq-07": "「進行金融產品交易／執行買賣的市場或平台」與本句語境不同。",
-        "venue-mcq-04": "「線上／虛擬活動舉行的平台」與本句語境不同。",
-        "venue-mcq-08": "「比賽／演出場地；屬於 everyday event-place 義」與本句語境不同。",
-        "venue-mcq-03": "「讓討論、交流、表達或其他活動得以進行的平台／場合」與本句語境不同。"
+        "venue-mcq-06": "本句的「change of venue」指「改變活動場地；法律中指更改審判地點」。",
+        "venue-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-06"
     },
@@ -596,11 +496,8 @@ export default {
       "masked": "The shares are traded across several trading ____.",
       "options": [
         "venue-mcq-07",
-        "venue-mcq-06",
-        "venue-mcq-08",
         "venue-mcq-05",
-        "venue-mcq-04",
-        "venue-mcq-03"
+        "venue-mcq-02"
       ],
       "explanation": "本句的「venues」指「進行金融產品交易／執行買賣的市場或平台」。",
       "sentenceIndex": 13,
@@ -609,12 +506,9 @@ export default {
         "venues"
       ],
       "optionReasons": {
-        "venue-mcq-07": "本句指「進行金融產品交易／執行買賣的市場或平台」。",
-        "venue-mcq-06": "「改變活動場地；法律中指更改審判地點」與本句語境不同。",
-        "venue-mcq-08": "「比賽／演出場地；屬於 everyday event-place 義」與本句語境不同。",
-        "venue-mcq-05": "「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」與本句語境不同。",
-        "venue-mcq-04": "「線上／虛擬活動舉行的平台」與本句語境不同。",
-        "venue-mcq-03": "「讓討論、交流、表達或其他活動得以進行的平台／場合」與本句語境不同。"
+        "venue-mcq-07": "本句的「venues」指「進行金融產品交易／執行買賣的市場或平台」。",
+        "venue-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "venue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-07"
     },
@@ -626,11 +520,8 @@ export default {
       "masked": "The firm compared prices across different execution ____.",
       "options": [
         "venue-mcq-07",
-        "venue-mcq-06",
-        "venue-mcq-08",
         "venue-mcq-05",
-        "venue-mcq-04",
-        "venue-mcq-03"
+        "venue-mcq-02"
       ],
       "explanation": "本句的「venues」指「進行金融產品交易／執行買賣的市場或平台」。",
       "sentenceIndex": 14,
@@ -639,12 +530,9 @@ export default {
         "venues"
       ],
       "optionReasons": {
-        "venue-mcq-07": "本句指「進行金融產品交易／執行買賣的市場或平台」。",
-        "venue-mcq-06": "「改變活動場地；法律中指更改審判地點」與本句語境不同。",
-        "venue-mcq-08": "「比賽／演出場地；屬於 everyday event-place 義」與本句語境不同。",
-        "venue-mcq-05": "「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」與本句語境不同。",
-        "venue-mcq-04": "「線上／虛擬活動舉行的平台」與本句語境不同。",
-        "venue-mcq-03": "「讓討論、交流、表達或其他活動得以進行的平台／場合」與本句語境不同。"
+        "venue-mcq-07": "本句的「venues」指「進行金融產品交易／執行買賣的市場或平台」。",
+        "venue-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "venue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-07"
     },
@@ -656,11 +544,7 @@ export default {
       "masked": "The band played at several small ____.",
       "options": [
         "venue-mcq-08",
-        "venue-mcq-07",
-        "venue-mcq-06",
-        "venue-mcq-05",
-        "venue-mcq-04",
-        "venue-mcq-03"
+        "venue-mcq-04"
       ],
       "explanation": "本句的「venues」指「比賽／演出場地；屬於 everyday event-place 義」。",
       "sentenceIndex": 15,
@@ -669,12 +553,8 @@ export default {
         "venues"
       ],
       "optionReasons": {
-        "venue-mcq-08": "本句指「比賽／演出場地；屬於 everyday event-place 義」。",
-        "venue-mcq-07": "「進行金融產品交易／執行買賣的市場或平台」與本句語境不同。",
-        "venue-mcq-06": "「改變活動場地；法律中指更改審判地點」與本句語境不同。",
-        "venue-mcq-05": "「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」與本句語境不同。",
-        "venue-mcq-04": "「線上／虛擬活動舉行的平台」與本句語境不同。",
-        "venue-mcq-03": "「讓討論、交流、表達或其他活動得以進行的平台／場合」與本句語境不同。"
+        "venue-mcq-08": "本句的「venues」指「比賽／演出場地；屬於 everyday event-place 義」。",
+        "venue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-08"
     },
@@ -686,11 +566,7 @@ export default {
       "masked": "The club is one of the city’s best live-music ____.",
       "options": [
         "venue-mcq-08",
-        "venue-mcq-07",
-        "venue-mcq-06",
-        "venue-mcq-05",
-        "venue-mcq-04",
-        "venue-mcq-03"
+        "venue-mcq-04"
       ],
       "explanation": "本句的「venues」指「比賽／演出場地；屬於 everyday event-place 義」。",
       "sentenceIndex": 16,
@@ -699,12 +575,8 @@ export default {
         "venues"
       ],
       "optionReasons": {
-        "venue-mcq-08": "本句指「比賽／演出場地；屬於 everyday event-place 義」。",
-        "venue-mcq-07": "「進行金融產品交易／執行買賣的市場或平台」與本句語境不同。",
-        "venue-mcq-06": "「改變活動場地；法律中指更改審判地點」與本句語境不同。",
-        "venue-mcq-05": "「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」與本句語境不同。",
-        "venue-mcq-04": "「線上／虛擬活動舉行的平台」與本句語境不同。",
-        "venue-mcq-03": "「讓討論、交流、表達或其他活動得以進行的平台／場合」與本句語境不同。"
+        "venue-mcq-08": "本句的「venues」指「比賽／演出場地；屬於 everyday event-place 義」。",
+        "venue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-08"
     },
@@ -716,11 +588,7 @@ export default {
       "masked": "The final will be held at a neutral ____.",
       "options": [
         "venue-mcq-08",
-        "venue-mcq-07",
-        "venue-mcq-06",
-        "venue-mcq-05",
-        "venue-mcq-04",
-        "venue-mcq-03"
+        "venue-mcq-04"
       ],
       "explanation": "本句的「venue」指「比賽／演出場地；屬於 everyday event-place 義」。",
       "sentenceIndex": 17,
@@ -729,12 +597,8 @@ export default {
         "venue"
       ],
       "optionReasons": {
-        "venue-mcq-08": "本句指「比賽／演出場地；屬於 everyday event-place 義」。",
-        "venue-mcq-07": "「進行金融產品交易／執行買賣的市場或平台」與本句語境不同。",
-        "venue-mcq-06": "「改變活動場地；法律中指更改審判地點」與本句語境不同。",
-        "venue-mcq-05": "「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」與本句語境不同。",
-        "venue-mcq-04": "「線上／虛擬活動舉行的平台」與本句語境不同。",
-        "venue-mcq-03": "「讓討論、交流、表達或其他活動得以進行的平台／場合」與本句語境不同。"
+        "venue-mcq-08": "本句的「venue」指「比賽／演出場地；屬於 everyday event-place 義」。",
+        "venue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-08"
     },
@@ -746,11 +610,7 @@ export default {
       "masked": "The organizers announced the Olympic ____.",
       "options": [
         "venue-mcq-08",
-        "venue-mcq-07",
-        "venue-mcq-06",
-        "venue-mcq-05",
-        "venue-mcq-04",
-        "venue-mcq-03"
+        "venue-mcq-04"
       ],
       "explanation": "本句的「venues」指「比賽／演出場地；屬於 everyday event-place 義」。",
       "sentenceIndex": 18,
@@ -759,12 +619,8 @@ export default {
         "venues"
       ],
       "optionReasons": {
-        "venue-mcq-08": "本句指「比賽／演出場地；屬於 everyday event-place 義」。",
-        "venue-mcq-07": "「進行金融產品交易／執行買賣的市場或平台」與本句語境不同。",
-        "venue-mcq-06": "「改變活動場地；法律中指更改審判地點」與本句語境不同。",
-        "venue-mcq-05": "「某宗法律案件應在哪個地理區域或法院地區審理；審判地／訴訟地」與本句語境不同。",
-        "venue-mcq-04": "「線上／虛擬活動舉行的平台」與本句語境不同。",
-        "venue-mcq-03": "「讓討論、交流、表達或其他活動得以進行的平台／場合」與本句語境不同。"
+        "venue-mcq-08": "本句的「venues」指「比賽／演出場地；屬於 everyday event-place 義」。",
+        "venue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "venue-mcq-08"
     }
@@ -776,5 +632,7 @@ export default {
     "sha256": "545cad5f9df521835685197234d27b5c34c12606434e96f0e05e52d67280a4e8",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

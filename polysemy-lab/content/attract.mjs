@@ -469,11 +469,9 @@ export default {
       "masked": "The advertisement immediately ____ my attention.",
       "options": [
         "attract-mcq-01",
-        "attract-mcq-02",
         "attract-mcq-03",
-        "attract-mcq-04",
-        "attract-mcq-05",
-        "attract-mcq-06"
+        "attract-pdf-001",
+        "attract-mcq-07"
       ],
       "explanation": "本句的「attracted」指「令別人的注意力或興趣轉向某人／某事」。",
       "sentenceIndex": 0,
@@ -482,12 +480,10 @@ export default {
         "attracted"
       ],
       "optionReasons": {
-        "attract-mcq-01": "本句指「令別人的注意力或興趣轉向某人／某事」。",
-        "attract-mcq-02": "「令某些人因興趣、需要或好處而前來、參與或使用」是「attract customers/visitors」的用法，與本句語境不同。",
-        "attract-mcq-03": "「透過優勢或誘因令資金、人才或業務選擇進入」是「attract investment/talent」的用法，與本句語境不同。",
-        "attract-mcq-04": "「令某種批評、關注或懷疑集中到某人／某事上」是「attract criticism/suspicion」的用法，與本句語境不同。",
-        "attract-mcq-05": "「對某人產生個人、情感或浪漫上的好感／吸引感」是「be attracted to someone」的用法，與本句語境不同。",
-        "attract-mcq-06": "「因某事物特點而產生興趣、好感或選擇意欲」是「be attracted to an idea/place」的用法，與本句語境不同。"
+        "attract-mcq-01": "本句的「attracted」指「令別人的注意力或興趣轉向某人／某事」。",
+        "attract-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "attract-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-01"
     },
@@ -499,11 +495,8 @@ export default {
       "masked": "The unusual design ____ a lot of interest.",
       "options": [
         "attract-mcq-01",
-        "attract-mcq-02",
-        "attract-mcq-03",
-        "attract-mcq-04",
-        "attract-mcq-05",
-        "attract-mcq-06"
+        "attract-mcq-07",
+        "attract-mcq-19"
       ],
       "explanation": "本句的「attracted」指「令別人的注意力或興趣轉向某人／某事」。",
       "sentenceIndex": 1,
@@ -512,12 +505,9 @@ export default {
         "attracted"
       ],
       "optionReasons": {
-        "attract-mcq-01": "本句指「令別人的注意力或興趣轉向某人／某事」。",
-        "attract-mcq-02": "「令某些人因興趣、需要或好處而前來、參與或使用」是「attract customers/visitors」的用法，與本句語境不同。",
-        "attract-mcq-03": "「透過優勢或誘因令資金、人才或業務選擇進入」是「attract investment/talent」的用法，與本句語境不同。",
-        "attract-mcq-04": "「令某種批評、關注或懷疑集中到某人／某事上」是「attract criticism/suspicion」的用法，與本句語境不同。",
-        "attract-mcq-05": "「對某人產生個人、情感或浪漫上的好感／吸引感」是「be attracted to someone」的用法，與本句語境不同。",
-        "attract-mcq-06": "「因某事物特點而產生興趣、好感或選擇意欲」是「be attracted to an idea/place」的用法，與本句語境不同。"
+        "attract-mcq-01": "本句的「attracted」指「令別人的注意力或興趣轉向某人／某事」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-01"
     },
@@ -529,11 +519,9 @@ export default {
       "masked": "The café uses discounts to ____ new customers.",
       "options": [
         "attract-mcq-02",
-        "attract-mcq-01",
-        "attract-mcq-03",
-        "attract-mcq-04",
-        "attract-mcq-05",
-        "attract-mcq-06"
+        "attract-mcq-07",
+        "attract-pdf-001",
+        "attract-mcq-03"
       ],
       "explanation": "本句的「attract」指「令某些人因興趣、需要或好處而前來、參與或使用」。",
       "sentenceIndex": 0,
@@ -542,12 +530,10 @@ export default {
         "attract"
       ],
       "optionReasons": {
-        "attract-mcq-02": "本句指「令某些人因興趣、需要或好處而前來、參與或使用」。",
-        "attract-mcq-01": "「令別人的注意力或興趣轉向某人／某事」是「attract attention/interest」的用法，與本句語境不同。",
-        "attract-mcq-03": "「透過優勢或誘因令資金、人才或業務選擇進入」是「attract investment/talent」的用法，與本句語境不同。",
-        "attract-mcq-04": "「令某種批評、關注或懷疑集中到某人／某事上」是「attract criticism/suspicion」的用法，與本句語境不同。",
-        "attract-mcq-05": "「對某人產生個人、情感或浪漫上的好感／吸引感」是「be attracted to someone」的用法，與本句語境不同。",
-        "attract-mcq-06": "「因某事物特點而產生興趣、好感或選擇意欲」是「be attracted to an idea/place」的用法，與本句語境不同。"
+        "attract-mcq-02": "本句的「attract」指「令某些人因興趣、需要或好處而前來、參與或使用」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-02"
     },
@@ -559,11 +545,9 @@ export default {
       "masked": "The exhibition ____ thousands of visitors.",
       "options": [
         "attract-mcq-02",
-        "attract-mcq-01",
-        "attract-mcq-03",
-        "attract-mcq-04",
-        "attract-mcq-05",
-        "attract-mcq-06"
+        "attract-mcq-07",
+        "attract-mcq-12",
+        "attract-mcq-03"
       ],
       "explanation": "本句的「attracted」指「令某些人因興趣、需要或好處而前來、參與或使用」。",
       "sentenceIndex": 1,
@@ -572,12 +556,10 @@ export default {
         "attracted"
       ],
       "optionReasons": {
-        "attract-mcq-02": "本句指「令某些人因興趣、需要或好處而前來、參與或使用」。",
-        "attract-mcq-01": "「令別人的注意力或興趣轉向某人／某事」是「attract attention/interest」的用法，與本句語境不同。",
-        "attract-mcq-03": "「透過優勢或誘因令資金、人才或業務選擇進入」是「attract investment/talent」的用法，與本句語境不同。",
-        "attract-mcq-04": "「令某種批評、關注或懷疑集中到某人／某事上」是「attract criticism/suspicion」的用法，與本句語境不同。",
-        "attract-mcq-05": "「對某人產生個人、情感或浪漫上的好感／吸引感」是「be attracted to someone」的用法，與本句語境不同。",
-        "attract-mcq-06": "「因某事物特點而產生興趣、好感或選擇意欲」是「be attracted to an idea/place」的用法，與本句語境不同。"
+        "attract-mcq-02": "本句的「attracted」指「令某些人因興趣、需要或好處而前來、參與或使用」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-02"
     },
@@ -589,11 +571,9 @@ export default {
       "masked": "The city is trying to ____ more foreign investment.",
       "options": [
         "attract-mcq-03",
-        "attract-mcq-02",
-        "attract-mcq-04",
-        "attract-mcq-01",
-        "attract-mcq-05",
-        "attract-mcq-06"
+        "attract-mcq-09",
+        "attract-mcq-07",
+        "attract-mcq-12"
       ],
       "explanation": "本句的「attract」指「透過優勢或誘因令資金、人才或業務選擇進入」。",
       "sentenceIndex": 0,
@@ -602,12 +582,10 @@ export default {
         "attract"
       ],
       "optionReasons": {
-        "attract-mcq-03": "本句指「透過優勢或誘因令資金、人才或業務選擇進入」。",
-        "attract-mcq-02": "「令某些人因興趣、需要或好處而前來、參與或使用」是「attract customers/visitors」的用法，與本句語境不同。",
-        "attract-mcq-04": "「令某種批評、關注或懷疑集中到某人／某事上」是「attract criticism/suspicion」的用法，與本句語境不同。",
-        "attract-mcq-01": "「令別人的注意力或興趣轉向某人／某事」是「attract attention/interest」的用法，與本句語境不同。",
-        "attract-mcq-05": "「對某人產生個人、情感或浪漫上的好感／吸引感」是「be attracted to someone」的用法，與本句語境不同。",
-        "attract-mcq-06": "「因某事物特點而產生興趣、好感或選擇意欲」是「be attracted to an idea/place」的用法，與本句語境不同。"
+        "attract-mcq-03": "本句的「attract」指「透過優勢或誘因令資金、人才或業務選擇進入」。",
+        "attract-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-03"
     },
@@ -619,11 +597,9 @@ export default {
       "masked": "The company offers flexible working to ____ talented employees.",
       "options": [
         "attract-mcq-03",
-        "attract-mcq-02",
-        "attract-mcq-04",
-        "attract-mcq-01",
-        "attract-mcq-05",
-        "attract-mcq-06"
+        "attract-mcq-09",
+        "attract-mcq-07",
+        "attract-pdf-001"
       ],
       "explanation": "本句的「attract」指「透過優勢或誘因令資金、人才或業務選擇進入」。",
       "sentenceIndex": 1,
@@ -632,12 +608,10 @@ export default {
         "attract"
       ],
       "optionReasons": {
-        "attract-mcq-03": "本句指「透過優勢或誘因令資金、人才或業務選擇進入」。",
-        "attract-mcq-02": "「令某些人因興趣、需要或好處而前來、參與或使用」是「attract customers/visitors」的用法，與本句語境不同。",
-        "attract-mcq-04": "「令某種批評、關注或懷疑集中到某人／某事上」是「attract criticism/suspicion」的用法，與本句語境不同。",
-        "attract-mcq-01": "「令別人的注意力或興趣轉向某人／某事」是「attract attention/interest」的用法，與本句語境不同。",
-        "attract-mcq-05": "「對某人產生個人、情感或浪漫上的好感／吸引感」是「be attracted to someone」的用法，與本句語境不同。",
-        "attract-mcq-06": "「因某事物特點而產生興趣、好感或選擇意欲」是「be attracted to an idea/place」的用法，與本句語境不同。"
+        "attract-mcq-03": "本句的「attract」指「透過優勢或誘因令資金、人才或業務選擇進入」。",
+        "attract-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-03"
     },
@@ -649,11 +623,9 @@ export default {
       "masked": "The decision ____ heavy criticism.",
       "options": [
         "attract-mcq-04",
-        "attract-mcq-03",
-        "attract-mcq-05",
-        "attract-mcq-02",
+        "attract-mcq-07",
         "attract-mcq-06",
-        "attract-mcq-01"
+        "attract-mcq-12"
       ],
       "explanation": "本句的「attracted」指「令某種批評、關注或懷疑集中到某人／某事上」。",
       "sentenceIndex": 0,
@@ -662,12 +634,10 @@ export default {
         "attracted"
       ],
       "optionReasons": {
-        "attract-mcq-04": "本句指「令某種批評、關注或懷疑集中到某人／某事上」。",
-        "attract-mcq-03": "「透過優勢或誘因令資金、人才或業務選擇進入」是「attract investment/talent」的用法，與本句語境不同。",
-        "attract-mcq-05": "「對某人產生個人、情感或浪漫上的好感／吸引感」是「be attracted to someone」的用法，與本句語境不同。",
-        "attract-mcq-02": "「令某些人因興趣、需要或好處而前來、參與或使用」是「attract customers/visitors」的用法，與本句語境不同。",
-        "attract-mcq-06": "「因某事物特點而產生興趣、好感或選擇意欲」是「be attracted to an idea/place」的用法，與本句語境不同。",
-        "attract-mcq-01": "「令別人的注意力或興趣轉向某人／某事」是「attract attention/interest」的用法，與本句語境不同。"
+        "attract-mcq-04": "本句的「attracted」指「令某種批評、關注或懷疑集中到某人／某事上」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-04"
     },
@@ -679,11 +649,9 @@ export default {
       "masked": "His unusual behaviour ____ suspicion.",
       "options": [
         "attract-mcq-04",
-        "attract-mcq-03",
-        "attract-mcq-05",
-        "attract-mcq-02",
-        "attract-mcq-06",
-        "attract-mcq-01"
+        "attract-mcq-10",
+        "attract-mcq-07",
+        "attract-pdf-001"
       ],
       "explanation": "本句的「attracted」指「令某種批評、關注或懷疑集中到某人／某事上」。",
       "sentenceIndex": 1,
@@ -692,12 +660,10 @@ export default {
         "attracted"
       ],
       "optionReasons": {
-        "attract-mcq-04": "本句指「令某種批評、關注或懷疑集中到某人／某事上」。",
-        "attract-mcq-03": "「透過優勢或誘因令資金、人才或業務選擇進入」是「attract investment/talent」的用法，與本句語境不同。",
-        "attract-mcq-05": "「對某人產生個人、情感或浪漫上的好感／吸引感」是「be attracted to someone」的用法，與本句語境不同。",
-        "attract-mcq-02": "「令某些人因興趣、需要或好處而前來、參與或使用」是「attract customers/visitors」的用法，與本句語境不同。",
-        "attract-mcq-06": "「因某事物特點而產生興趣、好感或選擇意欲」是「be attracted to an idea/place」的用法，與本句語境不同。",
-        "attract-mcq-01": "「令別人的注意力或興趣轉向某人／某事」是「attract attention/interest」的用法，與本句語境不同。"
+        "attract-mcq-04": "本句的「attracted」指「令某種批評、關注或懷疑集中到某人／某事上」。",
+        "attract-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-04"
     },
@@ -709,11 +675,9 @@ export default {
       "masked": "Her confidence ____ him.",
       "options": [
         "attract-mcq-05",
-        "attract-mcq-04",
-        "attract-mcq-06",
-        "attract-mcq-03",
         "attract-mcq-07",
-        "attract-mcq-02"
+        "attract-mcq-12",
+        "attract-mcq-03"
       ],
       "explanation": "本句的「attracted」指「對某人產生個人、情感或浪漫上的好感／吸引感」。",
       "sentenceIndex": 0,
@@ -722,12 +686,10 @@ export default {
         "attracted"
       ],
       "optionReasons": {
-        "attract-mcq-05": "本句指「對某人產生個人、情感或浪漫上的好感／吸引感」。",
-        "attract-mcq-04": "「令某種批評、關注或懷疑集中到某人／某事上」是「attract criticism/suspicion」的用法，與本句語境不同。",
-        "attract-mcq-06": "「因某事物特點而產生興趣、好感或選擇意欲」是「be attracted to an idea/place」的用法，與本句語境不同。",
-        "attract-mcq-03": "「透過優勢或誘因令資金、人才或業務選擇進入」是「attract investment/talent」的用法，與本句語境不同。",
-        "attract-mcq-07": "「由磁力、重力等作用使物體彼此靠近」是「attract — physics」的用法，與本句語境不同。",
-        "attract-mcq-02": "「令某些人因興趣、需要或好處而前來、參與或使用」是「attract customers/visitors」的用法，與本句語境不同。"
+        "attract-mcq-05": "本句的「attracted」指「對某人產生個人、情感或浪漫上的好感／吸引感」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-05"
     },
@@ -739,11 +701,8 @@ export default {
       "masked": "People are often ____ others who share their interests.",
       "options": [
         "attract-mcq-05",
-        "attract-mcq-04",
-        "attract-mcq-06",
-        "attract-mcq-03",
-        "attract-mcq-07",
-        "attract-mcq-02"
+        "attract-mcq-19",
+        "attract-mcq-07"
       ],
       "explanation": "本句的「attracted to」指「對某人產生個人、情感或浪漫上的好感／吸引感」。",
       "sentenceIndex": 1,
@@ -752,12 +711,9 @@ export default {
         "attracted to"
       ],
       "optionReasons": {
-        "attract-mcq-05": "本句指「對某人產生個人、情感或浪漫上的好感／吸引感」。",
-        "attract-mcq-04": "「令某種批評、關注或懷疑集中到某人／某事上」是「attract criticism/suspicion」的用法，與本句語境不同。",
-        "attract-mcq-06": "「因某事物特點而產生興趣、好感或選擇意欲」是「be attracted to an idea/place」的用法，與本句語境不同。",
-        "attract-mcq-03": "「透過優勢或誘因令資金、人才或業務選擇進入」是「attract investment/talent」的用法，與本句語境不同。",
-        "attract-mcq-07": "「由磁力、重力等作用使物體彼此靠近」是「attract — physics」的用法，與本句語境不同。",
-        "attract-mcq-02": "「令某些人因興趣、需要或好處而前來、參與或使用」是「attract customers/visitors」的用法，與本句語境不同。"
+        "attract-mcq-05": "本句的「attracted to」指「對某人產生個人、情感或浪漫上的好感／吸引感」。",
+        "attract-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-05"
     },
@@ -769,11 +725,9 @@ export default {
       "masked": "I was ____ the idea of working from home.",
       "options": [
         "attract-mcq-06",
-        "attract-mcq-05",
         "attract-mcq-07",
-        "attract-mcq-04",
-        "attract-mcq-08",
-        "attract-mcq-03"
+        "attract-mcq-12",
+        "attract-mcq-04"
       ],
       "explanation": "本句的「attracted to」指「因某事物特點而產生興趣、好感或選擇意欲」。",
       "sentenceIndex": 0,
@@ -782,12 +736,10 @@ export default {
         "attracted to"
       ],
       "optionReasons": {
-        "attract-mcq-06": "本句指「因某事物特點而產生興趣、好感或選擇意欲」。",
-        "attract-mcq-05": "「對某人產生個人、情感或浪漫上的好感／吸引感」是「be attracted to someone」的用法，與本句語境不同。",
-        "attract-mcq-07": "「由磁力、重力等作用使物體彼此靠近」是「attract — physics」的用法，與本句語境不同。",
-        "attract-mcq-04": "「令某種批評、關注或懷疑集中到某人／某事上」是「attract criticism/suspicion」的用法，與本句語境不同。",
-        "attract-mcq-08": "「令某人／某物令人感興趣、想接近或想選擇的特質」是「attraction — appealing quality」的用法，與本句語境不同。",
-        "attract-mcq-03": "「透過優勢或誘因令資金、人才或業務選擇進入」是「attract investment/talent」的用法，與本句語境不同。"
+        "attract-mcq-06": "本句的「attracted to」指「因某事物特點而產生興趣、好感或選擇意欲」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-06"
     },
@@ -799,11 +751,9 @@ export default {
       "masked": "Many travellers are ____ the area because of its scenery.",
       "options": [
         "attract-mcq-06",
-        "attract-mcq-05",
         "attract-mcq-07",
-        "attract-mcq-04",
-        "attract-mcq-08",
-        "attract-mcq-03"
+        "attract-pdf-001",
+        "attract-mcq-04"
       ],
       "explanation": "本句的「attracted to」指「因某事物特點而產生興趣、好感或選擇意欲」。",
       "sentenceIndex": 1,
@@ -812,12 +762,10 @@ export default {
         "attracted to"
       ],
       "optionReasons": {
-        "attract-mcq-06": "本句指「因某事物特點而產生興趣、好感或選擇意欲」。",
-        "attract-mcq-05": "「對某人產生個人、情感或浪漫上的好感／吸引感」是「be attracted to someone」的用法，與本句語境不同。",
-        "attract-mcq-07": "「由磁力、重力等作用使物體彼此靠近」是「attract — physics」的用法，與本句語境不同。",
-        "attract-mcq-04": "「令某種批評、關注或懷疑集中到某人／某事上」是「attract criticism/suspicion」的用法，與本句語境不同。",
-        "attract-mcq-08": "「令某人／某物令人感興趣、想接近或想選擇的特質」是「attraction — appealing quality」的用法，與本句語境不同。",
-        "attract-mcq-03": "「透過優勢或誘因令資金、人才或業務選擇進入」是「attract investment/talent」的用法，與本句語境不同。"
+        "attract-mcq-06": "本句的「attracted to」指「因某事物特點而產生興趣、好感或選擇意欲」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-06"
     },
@@ -829,10 +777,8 @@ export default {
       "masked": "Magnets ____ certain metals.",
       "options": [
         "attract-mcq-07",
-        "attract-mcq-06",
-        "attract-mcq-08",
-        "attract-mcq-05",
-        "attract-mcq-09",
+        "attract-mcq-03",
+        "attract-mcq-15",
         "attract-mcq-04"
       ],
       "explanation": "本句的「attract」指「由磁力、重力等作用使物體彼此靠近」。",
@@ -842,12 +788,10 @@ export default {
         "attract"
       ],
       "optionReasons": {
-        "attract-mcq-07": "本句指「由磁力、重力等作用使物體彼此靠近」。",
-        "attract-mcq-06": "「因某事物特點而產生興趣、好感或選擇意欲」是「be attracted to an idea/place」的用法，與本句語境不同。",
-        "attract-mcq-08": "「令某人／某物令人感興趣、想接近或想選擇的特質」是「attraction — appealing quality」的用法，與本句語境不同。",
-        "attract-mcq-05": "「對某人產生個人、情感或浪漫上的好感／吸引感」是「be attracted to someone」的用法，與本句語境不同。",
-        "attract-mcq-09": "「內心被某人／某事吸引而產生的興趣或好感」是「attraction — feeling」的用法，與本句語境不同。",
-        "attract-mcq-04": "「令某種批評、關注或懷疑集中到某人／某事上」是「attract criticism/suspicion」的用法，與本句語境不同。"
+        "attract-mcq-07": "本句的「attract」指「由磁力、重力等作用使物體彼此靠近」。",
+        "attract-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-07"
     },
@@ -859,11 +803,9 @@ export default {
       "masked": "Gravity ____ objects toward the Earth.",
       "options": [
         "attract-mcq-07",
-        "attract-mcq-06",
-        "attract-mcq-08",
+        "attract-mcq-03",
         "attract-mcq-05",
-        "attract-mcq-09",
-        "attract-mcq-04"
+        "attract-pdf-001"
       ],
       "explanation": "本句的「attracts」指「由磁力、重力等作用使物體彼此靠近」。",
       "sentenceIndex": 1,
@@ -872,12 +814,10 @@ export default {
         "attracts"
       ],
       "optionReasons": {
-        "attract-mcq-07": "本句指「由磁力、重力等作用使物體彼此靠近」。",
-        "attract-mcq-06": "「因某事物特點而產生興趣、好感或選擇意欲」是「be attracted to an idea/place」的用法，與本句語境不同。",
-        "attract-mcq-08": "「令某人／某物令人感興趣、想接近或想選擇的特質」是「attraction — appealing quality」的用法，與本句語境不同。",
-        "attract-mcq-05": "「對某人產生個人、情感或浪漫上的好感／吸引感」是「be attracted to someone」的用法，與本句語境不同。",
-        "attract-mcq-09": "「內心被某人／某事吸引而產生的興趣或好感」是「attraction — feeling」的用法，與本句語境不同。",
-        "attract-mcq-04": "「令某種批評、關注或懷疑集中到某人／某事上」是「attract criticism/suspicion」的用法，與本句語境不同。"
+        "attract-mcq-07": "本句的「attracts」指「由磁力、重力等作用使物體彼此靠近」。",
+        "attract-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attract-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-07"
     },
@@ -889,11 +829,7 @@ export default {
       "masked": "Convenience is one of the main ____ of the product.",
       "options": [
         "attract-mcq-08",
-        "attract-mcq-07",
-        "attract-mcq-09",
-        "attract-mcq-06",
-        "attract-mcq-10",
-        "attract-mcq-05"
+        "attract-mcq-07"
       ],
       "explanation": "本句的「attractions」指「令某人／某物令人感興趣、想接近或想選擇的特質」。",
       "sentenceIndex": 0,
@@ -902,12 +838,8 @@ export default {
         "attractions"
       ],
       "optionReasons": {
-        "attract-mcq-08": "本句指「令某人／某物令人感興趣、想接近或想選擇的特質」。",
-        "attract-mcq-07": "「由磁力、重力等作用使物體彼此靠近」是「attract — physics」的用法，與本句語境不同。",
-        "attract-mcq-09": "「內心被某人／某事吸引而產生的興趣或好感」是「attraction — feeling」的用法，與本句語境不同。",
-        "attract-mcq-06": "「因某事物特點而產生興趣、好感或選擇意欲」是「be attracted to an idea/place」的用法，與本句語境不同。",
-        "attract-mcq-10": "「因觀賞、娛樂或其他價值而吸引人前往的景點／活動」是「attraction — tourist place/activity」的用法，與本句語境不同。",
-        "attract-mcq-05": "「對某人產生個人、情感或浪漫上的好感／吸引感」是「be attracted to someone」的用法，與本句語境不同。"
+        "attract-mcq-08": "本句的「attractions」指「令某人／某物令人感興趣、想接近或想選擇的特質」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-08"
     },
@@ -919,11 +851,7 @@ export default {
       "masked": "The low price adds to the ____ of the offer.",
       "options": [
         "attract-mcq-08",
-        "attract-mcq-07",
-        "attract-mcq-09",
-        "attract-mcq-06",
-        "attract-mcq-10",
-        "attract-mcq-05"
+        "attract-mcq-07"
       ],
       "explanation": "本句的「attraction」指「令某人／某物令人感興趣、想接近或想選擇的特質」。",
       "sentenceIndex": 1,
@@ -932,12 +860,8 @@ export default {
         "attraction"
       ],
       "optionReasons": {
-        "attract-mcq-08": "本句指「令某人／某物令人感興趣、想接近或想選擇的特質」。",
-        "attract-mcq-07": "「由磁力、重力等作用使物體彼此靠近」是「attract — physics」的用法，與本句語境不同。",
-        "attract-mcq-09": "「內心被某人／某事吸引而產生的興趣或好感」是「attraction — feeling」的用法，與本句語境不同。",
-        "attract-mcq-06": "「因某事物特點而產生興趣、好感或選擇意欲」是「be attracted to an idea/place」的用法，與本句語境不同。",
-        "attract-mcq-10": "「因觀賞、娛樂或其他價值而吸引人前往的景點／活動」是「attraction — tourist place/activity」的用法，與本句語境不同。",
-        "attract-mcq-05": "「對某人產生個人、情感或浪漫上的好感／吸引感」是「be attracted to someone」的用法，與本句語境不同。"
+        "attract-mcq-08": "本句的「attraction」指「令某人／某物令人感興趣、想接近或想選擇的特質」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-08"
     },
@@ -949,11 +873,9 @@ export default {
       "masked": "She felt an immediate ____ to the idea.",
       "options": [
         "attract-mcq-09",
-        "attract-mcq-08",
-        "attract-mcq-10",
         "attract-mcq-07",
-        "attract-mcq-11",
-        "attract-mcq-06"
+        "attract-pdf-001",
+        "attract-mcq-03"
       ],
       "explanation": "本句的「attraction」指「內心被某人／某事吸引而產生的興趣或好感」。",
       "sentenceIndex": 0,
@@ -962,12 +884,10 @@ export default {
         "attraction"
       ],
       "optionReasons": {
-        "attract-mcq-09": "本句指「內心被某人／某事吸引而產生的興趣或好感」。",
-        "attract-mcq-08": "「令某人／某物令人感興趣、想接近或想選擇的特質」是「attraction — appealing quality」的用法，與本句語境不同。",
-        "attract-mcq-10": "「因觀賞、娛樂或其他價值而吸引人前往的景點／活動」是「attraction — tourist place/activity」的用法，與本句語境不同。",
-        "attract-mcq-07": "「由磁力、重力等作用使物體彼此靠近」是「attract — physics」的用法，與本句語境不同。",
-        "attract-mcq-11": "「令物體彼此靠近的物理吸引作用」是「attraction — physics」的用法，與本句語境不同。",
-        "attract-mcq-06": "「因某事物特點而產生興趣、好感或選擇意欲」是「be attracted to an idea/place」的用法，與本句語境不同。"
+        "attract-mcq-09": "本句的「attraction」指「內心被某人／某事吸引而產生的興趣或好感」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-09"
     },
@@ -979,11 +899,9 @@ export default {
       "masked": "There was a strong mutual ____ between them.",
       "options": [
         "attract-mcq-09",
-        "attract-mcq-08",
-        "attract-mcq-10",
-        "attract-mcq-07",
-        "attract-mcq-11",
-        "attract-mcq-06"
+        "attract-mcq-03",
+        "attract-mcq-12",
+        "attract-mcq-07"
       ],
       "explanation": "本句的「attraction」指「內心被某人／某事吸引而產生的興趣或好感」。",
       "sentenceIndex": 1,
@@ -992,12 +910,10 @@ export default {
         "attraction"
       ],
       "optionReasons": {
-        "attract-mcq-09": "本句指「內心被某人／某事吸引而產生的興趣或好感」。",
-        "attract-mcq-08": "「令某人／某物令人感興趣、想接近或想選擇的特質」是「attraction — appealing quality」的用法，與本句語境不同。",
-        "attract-mcq-10": "「因觀賞、娛樂或其他價值而吸引人前往的景點／活動」是「attraction — tourist place/activity」的用法，與本句語境不同。",
-        "attract-mcq-07": "「由磁力、重力等作用使物體彼此靠近」是「attract — physics」的用法，與本句語境不同。",
-        "attract-mcq-11": "「令物體彼此靠近的物理吸引作用」是「attraction — physics」的用法，與本句語境不同。",
-        "attract-mcq-06": "「因某事物特點而產生興趣、好感或選擇意欲」是「be attracted to an idea/place」的用法，與本句語境不同。"
+        "attract-mcq-09": "本句的「attraction」指「內心被某人／某事吸引而產生的興趣或好感」。",
+        "attract-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-09"
     },
@@ -1009,11 +925,9 @@ export default {
       "masked": "The museum is one of the city’s most popular tourist ____.",
       "options": [
         "attract-mcq-10",
-        "attract-mcq-09",
-        "attract-mcq-11",
-        "attract-mcq-08",
-        "attract-mcq-12",
-        "attract-mcq-07"
+        "attract-mcq-04",
+        "attract-mcq-07",
+        "attract-mcq-12"
       ],
       "explanation": "本句的「attractions」指「因觀賞、娛樂或其他價值而吸引人前往的景點／活動」。",
       "sentenceIndex": 0,
@@ -1022,12 +936,10 @@ export default {
         "attractions"
       ],
       "optionReasons": {
-        "attract-mcq-10": "本句指「因觀賞、娛樂或其他價值而吸引人前往的景點／活動」。",
-        "attract-mcq-09": "「內心被某人／某事吸引而產生的興趣或好感」是「attraction — feeling」的用法，與本句語境不同。",
-        "attract-mcq-11": "「令物體彼此靠近的物理吸引作用」是「attraction — physics」的用法，與本句語境不同。",
-        "attract-mcq-08": "「令某人／某物令人感興趣、想接近或想選擇的特質」是「attraction — appealing quality」的用法，與本句語境不同。",
-        "attract-mcq-12": "「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」是「attractive — appearance」的用法，與本句語境不同。",
-        "attract-mcq-07": "「由磁力、重力等作用使物體彼此靠近」是「attract — physics」的用法，與本句語境不同。"
+        "attract-mcq-10": "本句的「attractions」指「因觀賞、娛樂或其他價值而吸引人前往的景點／活動」。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-10"
     },
@@ -1039,11 +951,9 @@ export default {
       "masked": "The park has several family ____.",
       "options": [
         "attract-mcq-10",
-        "attract-mcq-09",
-        "attract-mcq-11",
-        "attract-mcq-08",
-        "attract-mcq-12",
-        "attract-mcq-07"
+        "attract-mcq-07",
+        "attract-mcq-04",
+        "attract-mcq-12"
       ],
       "explanation": "本句的「attractions」指「因觀賞、娛樂或其他價值而吸引人前往的景點／活動」。",
       "sentenceIndex": 1,
@@ -1052,12 +962,10 @@ export default {
         "attractions"
       ],
       "optionReasons": {
-        "attract-mcq-10": "本句指「因觀賞、娛樂或其他價值而吸引人前往的景點／活動」。",
-        "attract-mcq-09": "「內心被某人／某事吸引而產生的興趣或好感」是「attraction — feeling」的用法，與本句語境不同。",
-        "attract-mcq-11": "「令物體彼此靠近的物理吸引作用」是「attraction — physics」的用法，與本句語境不同。",
-        "attract-mcq-08": "「令某人／某物令人感興趣、想接近或想選擇的特質」是「attraction — appealing quality」的用法，與本句語境不同。",
-        "attract-mcq-12": "「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」是「attractive — appearance」的用法，與本句語境不同。",
-        "attract-mcq-07": "「由磁力、重力等作用使物體彼此靠近」是「attract — physics」的用法，與本句語境不同。"
+        "attract-mcq-10": "本句的「attractions」指「因觀賞、娛樂或其他價值而吸引人前往的景點／活動」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-10"
     },
@@ -1069,11 +977,9 @@ export default {
       "masked": "The ____ between the two magnets is quite strong.",
       "options": [
         "attract-mcq-11",
-        "attract-mcq-10",
-        "attract-mcq-12",
-        "attract-mcq-09",
-        "attract-mcq-13",
-        "attract-mcq-08"
+        "attract-pdf-001",
+        "attract-mcq-03",
+        "attract-mcq-04"
       ],
       "explanation": "本句的「attraction」指「令物體彼此靠近的物理吸引作用」。",
       "sentenceIndex": 0,
@@ -1082,12 +988,10 @@ export default {
         "attraction"
       ],
       "optionReasons": {
-        "attract-mcq-11": "本句指「令物體彼此靠近的物理吸引作用」。",
-        "attract-mcq-10": "「因觀賞、娛樂或其他價值而吸引人前往的景點／活動」是「attraction — tourist place/activity」的用法，與本句語境不同。",
-        "attract-mcq-12": "「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」是「attractive — appearance」的用法，與本句語境不同。",
-        "attract-mcq-09": "「內心被某人／某事吸引而產生的興趣或好感」是「attraction — feeling」的用法，與本句語境不同。",
-        "attract-mcq-13": "「具有令人感興趣並願意購買、接受或選擇的優點」是「attractive — product/idea/option」的用法，與本句語境不同。",
-        "attract-mcq-08": "「令某人／某物令人感興趣、想接近或想選擇的特質」是「attraction — appealing quality」的用法，與本句語境不同。"
+        "attract-mcq-11": "本句的「attraction」指「令物體彼此靠近的物理吸引作用」。",
+        "attract-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-11"
     },
@@ -1099,11 +1003,8 @@ export default {
       "masked": "Gravitational ____ keeps the Moon in orbit around the Earth.",
       "options": [
         "attract-mcq-11",
-        "attract-mcq-10",
-        "attract-mcq-12",
-        "attract-mcq-09",
-        "attract-mcq-13",
-        "attract-mcq-08"
+        "attract-mcq-14",
+        "attract-mcq-04"
       ],
       "explanation": "本句的「attraction」指「令物體彼此靠近的物理吸引作用」。",
       "sentenceIndex": 1,
@@ -1112,12 +1013,9 @@ export default {
         "attraction"
       ],
       "optionReasons": {
-        "attract-mcq-11": "本句指「令物體彼此靠近的物理吸引作用」。",
-        "attract-mcq-10": "「因觀賞、娛樂或其他價值而吸引人前往的景點／活動」是「attraction — tourist place/activity」的用法，與本句語境不同。",
-        "attract-mcq-12": "「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」是「attractive — appearance」的用法，與本句語境不同。",
-        "attract-mcq-09": "「內心被某人／某事吸引而產生的興趣或好感」是「attraction — feeling」的用法，與本句語境不同。",
-        "attract-mcq-13": "「具有令人感興趣並願意購買、接受或選擇的優點」是「attractive — product/idea/option」的用法，與本句語境不同。",
-        "attract-mcq-08": "「令某人／某物令人感興趣、想接近或想選擇的特質」是「attraction — appealing quality」的用法，與本句語境不同。"
+        "attract-mcq-11": "本句的「attraction」指「令物體彼此靠近的物理吸引作用」。",
+        "attract-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-11"
     },
@@ -1129,11 +1027,9 @@ export default {
       "masked": "She is a very ____ woman.",
       "options": [
         "attract-mcq-12",
-        "attract-mcq-11",
-        "attract-mcq-13",
-        "attract-mcq-10",
-        "attract-mcq-14",
-        "attract-mcq-09"
+        "attract-mcq-05",
+        "attract-mcq-03",
+        "attract-mcq-07"
       ],
       "explanation": "本句的「attractive」指「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」。",
       "sentenceIndex": 0,
@@ -1142,12 +1038,10 @@ export default {
         "attractive"
       ],
       "optionReasons": {
-        "attract-mcq-12": "本句指「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」。",
-        "attract-mcq-11": "「令物體彼此靠近的物理吸引作用」是「attraction — physics」的用法，與本句語境不同。",
-        "attract-mcq-13": "「具有令人感興趣並願意購買、接受或選擇的優點」是「attractive — product/idea/option」的用法，與本句語境不同。",
-        "attract-mcq-10": "「因觀賞、娛樂或其他價值而吸引人前往的景點／活動」是「attraction — tourist place/activity」的用法，與本句語境不同。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。",
-        "attract-mcq-09": "「內心被某人／某事吸引而產生的興趣或好感」是「attraction — feeling」的用法，與本句語境不同。"
+        "attract-mcq-12": "本句的「attractive」指「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」。",
+        "attract-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-12"
     },
@@ -1159,11 +1053,9 @@ export default {
       "masked": "He has an ____ smile.",
       "options": [
         "attract-mcq-12",
-        "attract-mcq-11",
-        "attract-mcq-13",
-        "attract-mcq-10",
-        "attract-mcq-14",
-        "attract-mcq-09"
+        "attract-mcq-16",
+        "attract-mcq-04",
+        "attract-mcq-07"
       ],
       "explanation": "本句的「attractive」指「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」。",
       "sentenceIndex": 1,
@@ -1172,12 +1064,10 @@ export default {
         "attractive"
       ],
       "optionReasons": {
-        "attract-mcq-12": "本句指「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」。",
-        "attract-mcq-11": "「令物體彼此靠近的物理吸引作用」是「attraction — physics」的用法，與本句語境不同。",
-        "attract-mcq-13": "「具有令人感興趣並願意購買、接受或選擇的優點」是「attractive — product/idea/option」的用法，與本句語境不同。",
-        "attract-mcq-10": "「因觀賞、娛樂或其他價值而吸引人前往的景點／活動」是「attraction — tourist place/activity」的用法，與本句語境不同。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。",
-        "attract-mcq-09": "「內心被某人／某事吸引而產生的興趣或好感」是「attraction — feeling」的用法，與本句語境不同。"
+        "attract-mcq-12": "本句的「attractive」指「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」。",
+        "attract-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-12"
     },
@@ -1189,11 +1079,8 @@ export default {
       "masked": "The advertisement made the product more ____.",
       "options": [
         "attract-mcq-13",
-        "attract-mcq-12",
-        "attract-mcq-14",
-        "attract-mcq-11",
-        "attract-mcq-15",
-        "attract-mcq-10"
+        "attract-mcq-07",
+        "attract-mcq-04"
       ],
       "explanation": "本句的「attractive」指「具有令人感興趣並願意購買、接受或選擇的優點」。",
       "sentenceIndex": 0,
@@ -1202,12 +1089,9 @@ export default {
         "attractive"
       ],
       "optionReasons": {
-        "attract-mcq-13": "本句指「具有令人感興趣並願意購買、接受或選擇的優點」。",
-        "attract-mcq-12": "「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」是「attractive — appearance」的用法，與本句語境不同。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。",
-        "attract-mcq-11": "「令物體彼此靠近的物理吸引作用」是「attraction — physics」的用法，與本句語境不同。",
-        "attract-mcq-15": "「以能令人產生好感、興趣或視覺愉悅的方式」是「attractively」的用法，與本句語境不同。",
-        "attract-mcq-10": "「因觀賞、娛樂或其他價值而吸引人前往的景點／活動」是「attraction — tourist place/activity」的用法，與本句語境不同。"
+        "attract-mcq-13": "本句的「attractive」指「具有令人感興趣並願意購買、接受或選擇的優點」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-13"
     },
@@ -1219,11 +1103,8 @@ export default {
       "masked": "Flexible hours make the job more ____.",
       "options": [
         "attract-mcq-13",
-        "attract-mcq-12",
-        "attract-mcq-14",
-        "attract-mcq-11",
-        "attract-mcq-15",
-        "attract-mcq-10"
+        "attract-mcq-07",
+        "attract-mcq-04"
       ],
       "explanation": "本句的「attractive」指「具有令人感興趣並願意購買、接受或選擇的優點」。",
       "sentenceIndex": 1,
@@ -1232,12 +1113,9 @@ export default {
         "attractive"
       ],
       "optionReasons": {
-        "attract-mcq-13": "本句指「具有令人感興趣並願意購買、接受或選擇的優點」。",
-        "attract-mcq-12": "「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」是「attractive — appearance」的用法，與本句語境不同。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。",
-        "attract-mcq-11": "「令物體彼此靠近的物理吸引作用」是「attraction — physics」的用法，與本句語境不同。",
-        "attract-mcq-15": "「以能令人產生好感、興趣或視覺愉悅的方式」是「attractively」的用法，與本句語境不同。",
-        "attract-mcq-10": "「因觀賞、娛樂或其他價值而吸引人前往的景點／活動」是「attraction — tourist place/activity」的用法，與本句語境不同。"
+        "attract-mcq-13": "本句的「attractive」指「具有令人感興趣並願意購買、接受或選擇的優點」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-13"
     },
@@ -1249,11 +1127,8 @@ export default {
       "masked": "The plan is an ____ option for small businesses.",
       "options": [
         "attract-mcq-13",
-        "attract-mcq-12",
-        "attract-mcq-14",
-        "attract-mcq-11",
-        "attract-mcq-15",
-        "attract-mcq-10"
+        "attract-mcq-07",
+        "attract-mcq-04"
       ],
       "explanation": "本句的「attractive」指「具有令人感興趣並願意購買、接受或選擇的優點」。",
       "sentenceIndex": 2,
@@ -1262,12 +1137,9 @@ export default {
         "attractive"
       ],
       "optionReasons": {
-        "attract-mcq-13": "本句指「具有令人感興趣並願意購買、接受或選擇的優點」。",
-        "attract-mcq-12": "「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」是「attractive — appearance」的用法，與本句語境不同。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。",
-        "attract-mcq-11": "「令物體彼此靠近的物理吸引作用」是「attraction — physics」的用法，與本句語境不同。",
-        "attract-mcq-15": "「以能令人產生好感、興趣或視覺愉悅的方式」是「attractively」的用法，與本句語境不同。",
-        "attract-mcq-10": "「因觀賞、娛樂或其他價值而吸引人前往的景點／活動」是「attraction — tourist place/activity」的用法，與本句語境不同。"
+        "attract-mcq-13": "本句的「attractive」指「具有令人感興趣並願意購買、接受或選擇的優點」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-13"
     },
@@ -1279,11 +1151,9 @@ export default {
       "masked": "The bank is offering an ____ interest rate.",
       "options": [
         "attract-mcq-14",
-        "attract-mcq-13",
-        "attract-mcq-15",
-        "attract-mcq-12",
-        "attract-mcq-16",
-        "attract-mcq-11"
+        "attract-mcq-18",
+        "attract-mcq-07",
+        "attract-mcq-04"
       ],
       "explanation": "本句的「attractive」指「因價格、回報或條件有利而令人願意接受的」。",
       "sentenceIndex": 0,
@@ -1292,12 +1162,10 @@ export default {
         "attractive"
       ],
       "optionReasons": {
-        "attract-mcq-14": "本句指「因價格、回報或條件有利而令人願意接受的」。",
-        "attract-mcq-13": "「具有令人感興趣並願意購買、接受或選擇的優點」是「attractive — product/idea/option」的用法，與本句語境不同。",
-        "attract-mcq-15": "「以能令人產生好感、興趣或視覺愉悅的方式」是「attractively」的用法，與本句語境不同。",
-        "attract-mcq-12": "「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」是「attractive — appearance」的用法，與本句語境不同。",
-        "attract-mcq-16": "「價格設定得有利、容易吸引顧客購買的」是「attractively priced」的用法，與本句語境不同。",
-        "attract-mcq-11": "「令物體彼此靠近的物理吸引作用」是「attraction — physics」的用法，與本句語境不同。"
+        "attract-mcq-14": "本句的「attractive」指「因價格、回報或條件有利而令人願意接受的」。",
+        "attract-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-14"
     },
@@ -1309,11 +1177,8 @@ export default {
       "masked": "The company offered her an ____ salary package.",
       "options": [
         "attract-mcq-14",
-        "attract-mcq-13",
-        "attract-mcq-15",
-        "attract-mcq-12",
-        "attract-mcq-16",
-        "attract-mcq-11"
+        "attract-mcq-07",
+        "attract-mcq-05"
       ],
       "explanation": "本句的「attractive」指「因價格、回報或條件有利而令人願意接受的」。",
       "sentenceIndex": 1,
@@ -1322,12 +1187,9 @@ export default {
         "attractive"
       ],
       "optionReasons": {
-        "attract-mcq-14": "本句指「因價格、回報或條件有利而令人願意接受的」。",
-        "attract-mcq-13": "「具有令人感興趣並願意購買、接受或選擇的優點」是「attractive — product/idea/option」的用法，與本句語境不同。",
-        "attract-mcq-15": "「以能令人產生好感、興趣或視覺愉悅的方式」是「attractively」的用法，與本句語境不同。",
-        "attract-mcq-12": "「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」是「attractive — appearance」的用法，與本句語境不同。",
-        "attract-mcq-16": "「價格設定得有利、容易吸引顧客購買的」是「attractively priced」的用法，與本句語境不同。",
-        "attract-mcq-11": "「令物體彼此靠近的物理吸引作用」是「attraction — physics」的用法，與本句語境不同。"
+        "attract-mcq-14": "本句的「attractive」指「因價格、回報或條件有利而令人願意接受的」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-14"
     },
@@ -1339,11 +1201,9 @@ export default {
       "masked": "The café has a simple but ____ interior.",
       "options": [
         "attract-pdf-001",
-        "attract-mcq-14",
-        "attract-mcq-16",
-        "attract-mcq-13",
-        "attract-mcq-17",
-        "attract-mcq-12"
+        "attract-mcq-05",
+        "attract-mcq-07",
+        "attract-mcq-03"
       ],
       "explanation": "本句的「attractive」指「視覺效果令人覺得舒服、美觀或想多看幾眼的」。",
       "sentenceIndex": 0,
@@ -1352,12 +1212,10 @@ export default {
         "attractive"
       ],
       "optionReasons": {
-        "attract-pdf-001": "本句指「視覺效果令人覺得舒服、美觀或想多看幾眼的」。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。",
-        "attract-mcq-16": "「價格設定得有利、容易吸引顧客購買的」是「attractively priced」的用法，與本句語境不同。",
-        "attract-mcq-13": "「具有令人感興趣並願意購買、接受或選擇的優點」是「attractive — product/idea/option」的用法，與本句語境不同。",
-        "attract-mcq-17": "「某人／某事物能引起興趣、好感或選擇意欲的程度」是「attractiveness」的用法，與本句語境不同。",
-        "attract-mcq-12": "「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」是「attractive — appearance」的用法，與本句語境不同。"
+        "attract-pdf-001": "本句的「attractive」指「視覺效果令人覺得舒服、美觀或想多看幾眼的」。",
+        "attract-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-pdf-001"
     },
@@ -1369,11 +1227,9 @@ export default {
       "masked": "The website has an ____ layout.",
       "options": [
         "attract-pdf-001",
-        "attract-mcq-14",
-        "attract-mcq-16",
-        "attract-mcq-13",
-        "attract-mcq-17",
-        "attract-mcq-12"
+        "attract-mcq-05",
+        "attract-mcq-07",
+        "attract-mcq-03"
       ],
       "explanation": "本句的「attractive」指「視覺效果令人覺得舒服、美觀或想多看幾眼的」。",
       "sentenceIndex": 1,
@@ -1382,12 +1238,10 @@ export default {
         "attractive"
       ],
       "optionReasons": {
-        "attract-pdf-001": "本句指「視覺效果令人覺得舒服、美觀或想多看幾眼的」。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。",
-        "attract-mcq-16": "「價格設定得有利、容易吸引顧客購買的」是「attractively priced」的用法，與本句語境不同。",
-        "attract-mcq-13": "「具有令人感興趣並願意購買、接受或選擇的優點」是「attractive — product/idea/option」的用法，與本句語境不同。",
-        "attract-mcq-17": "「某人／某事物能引起興趣、好感或選擇意欲的程度」是「attractiveness」的用法，與本句語境不同。",
-        "attract-mcq-12": "「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」是「attractive — appearance」的用法，與本句語境不同。"
+        "attract-pdf-001": "本句的「attractive」指「視覺效果令人覺得舒服、美觀或想多看幾眼的」。",
+        "attract-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-pdf-001"
     },
@@ -1399,11 +1253,9 @@ export default {
       "masked": "The products were ____ displayed.",
       "options": [
         "attract-mcq-15",
-        "attract-mcq-14",
-        "attract-mcq-16",
-        "attract-mcq-13",
-        "attract-mcq-17",
-        "attract-mcq-12"
+        "attract-mcq-07",
+        "attract-mcq-04",
+        "attract-mcq-03"
       ],
       "explanation": "本句的「attractively」指「以能令人產生好感、興趣或視覺愉悅的方式」。",
       "sentenceIndex": 0,
@@ -1412,12 +1264,10 @@ export default {
         "attractively"
       ],
       "optionReasons": {
-        "attract-mcq-15": "本句指「以能令人產生好感、興趣或視覺愉悅的方式」。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。",
-        "attract-mcq-16": "「價格設定得有利、容易吸引顧客購買的」是「attractively priced」的用法，與本句語境不同。",
-        "attract-mcq-13": "「具有令人感興趣並願意購買、接受或選擇的優點」是「attractive — product/idea/option」的用法，與本句語境不同。",
-        "attract-mcq-17": "「某人／某事物能引起興趣、好感或選擇意欲的程度」是「attractiveness」的用法，與本句語境不同。",
-        "attract-mcq-12": "「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」是「attractive — appearance」的用法，與本句語境不同。"
+        "attract-mcq-15": "本句的「attractively」指「以能令人產生好感、興趣或視覺愉悅的方式」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-15"
     },
@@ -1429,11 +1279,9 @@ export default {
       "masked": "The apartment is ____ decorated.",
       "options": [
         "attract-mcq-15",
-        "attract-mcq-14",
-        "attract-mcq-16",
-        "attract-mcq-13",
-        "attract-mcq-17",
-        "attract-mcq-12"
+        "attract-mcq-07",
+        "attract-mcq-03",
+        "attract-mcq-04"
       ],
       "explanation": "本句的「attractively」指「以能令人產生好感、興趣或視覺愉悅的方式」。",
       "sentenceIndex": 1,
@@ -1442,12 +1290,10 @@ export default {
         "attractively"
       ],
       "optionReasons": {
-        "attract-mcq-15": "本句指「以能令人產生好感、興趣或視覺愉悅的方式」。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。",
-        "attract-mcq-16": "「價格設定得有利、容易吸引顧客購買的」是「attractively priced」的用法，與本句語境不同。",
-        "attract-mcq-13": "「具有令人感興趣並願意購買、接受或選擇的優點」是「attractive — product/idea/option」的用法，與本句語境不同。",
-        "attract-mcq-17": "「某人／某事物能引起興趣、好感或選擇意欲的程度」是「attractiveness」的用法，與本句語境不同。",
-        "attract-mcq-12": "「外貌或視覺效果令人覺得漂亮、悅目或有魅力的」是「attractive — appearance」的用法，與本句語境不同。"
+        "attract-mcq-15": "本句的「attractively」指「以能令人產生好感、興趣或視覺愉悅的方式」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-15"
     },
@@ -1459,11 +1305,9 @@ export default {
       "masked": "The headphones are ____.",
       "options": [
         "attract-mcq-16",
-        "attract-mcq-15",
-        "attract-mcq-17",
-        "attract-mcq-14",
-        "attract-mcq-18",
-        "attract-mcq-13"
+        "attract-mcq-07",
+        "attract-pdf-001",
+        "attract-mcq-04"
       ],
       "explanation": "本句的「attractively priced」指「價格設定得有利、容易吸引顧客購買的」。",
       "sentenceIndex": 0,
@@ -1472,12 +1316,10 @@ export default {
         "attractively priced"
       ],
       "optionReasons": {
-        "attract-mcq-16": "本句指「價格設定得有利、容易吸引顧客購買的」。",
-        "attract-mcq-15": "「以能令人產生好感、興趣或視覺愉悅的方式」是「attractively」的用法，與本句語境不同。",
-        "attract-mcq-17": "「某人／某事物能引起興趣、好感或選擇意欲的程度」是「attractiveness」的用法，與本句語境不同。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。",
-        "attract-mcq-18": "「外觀缺乏美感或視覺吸引力的」是「unattractive — appearance」的用法，與本句語境不同。",
-        "attract-mcq-13": "「具有令人感興趣並願意購買、接受或選擇的優點」是「attractive — product/idea/option」的用法，與本句語境不同。"
+        "attract-mcq-16": "本句的「attractively priced」指「價格設定得有利、容易吸引顧客購買的」。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attract-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-16"
     },
@@ -1489,11 +1331,9 @@ export default {
       "masked": "The apartments are ____ for first-time buyers.",
       "options": [
         "attract-mcq-16",
-        "attract-mcq-15",
-        "attract-mcq-17",
-        "attract-mcq-14",
-        "attract-mcq-18",
-        "attract-mcq-13"
+        "attract-pdf-001",
+        "attract-mcq-04",
+        "attract-mcq-07"
       ],
       "explanation": "本句的「attractively priced」指「價格設定得有利、容易吸引顧客購買的」。",
       "sentenceIndex": 1,
@@ -1502,12 +1342,10 @@ export default {
         "attractively priced"
       ],
       "optionReasons": {
-        "attract-mcq-16": "本句指「價格設定得有利、容易吸引顧客購買的」。",
-        "attract-mcq-15": "「以能令人產生好感、興趣或視覺愉悅的方式」是「attractively」的用法，與本句語境不同。",
-        "attract-mcq-17": "「某人／某事物能引起興趣、好感或選擇意欲的程度」是「attractiveness」的用法，與本句語境不同。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。",
-        "attract-mcq-18": "「外觀缺乏美感或視覺吸引力的」是「unattractive — appearance」的用法，與本句語境不同。",
-        "attract-mcq-13": "「具有令人感興趣並願意購買、接受或選擇的優點」是「attractive — product/idea/option」的用法，與本句語境不同。"
+        "attract-mcq-16": "本句的「attractively priced」指「價格設定得有利、容易吸引顧客購買的」。",
+        "attract-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-16"
     },
@@ -1519,11 +1357,8 @@ export default {
       "masked": "Price affects the ____ of the product.",
       "options": [
         "attract-mcq-17",
-        "attract-mcq-16",
-        "attract-mcq-18",
-        "attract-mcq-15",
-        "attract-mcq-19",
-        "attract-mcq-14"
+        "attract-pdf-001",
+        "attract-mcq-07"
       ],
       "explanation": "本句的「attractiveness」指「某人／某事物能引起興趣、好感或選擇意欲的程度」。",
       "sentenceIndex": 0,
@@ -1532,12 +1367,9 @@ export default {
         "attractiveness"
       ],
       "optionReasons": {
-        "attract-mcq-17": "本句指「某人／某事物能引起興趣、好感或選擇意欲的程度」。",
-        "attract-mcq-16": "「價格設定得有利、容易吸引顧客購買的」是「attractively priced」的用法，與本句語境不同。",
-        "attract-mcq-18": "「外觀缺乏美感或視覺吸引力的」是「unattractive — appearance」的用法，與本句語境不同。",
-        "attract-mcq-15": "「以能令人產生好感、興趣或視覺愉悅的方式」是「attractively」的用法，與本句語境不同。",
-        "attract-mcq-19": "「因條件不利或缺乏優點而令人不想選擇的」是「unattractive — option/offer」的用法，與本句語境不同。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。"
+        "attract-mcq-17": "本句的「attractiveness」指「某人／某事物能引起興趣、好感或選擇意欲的程度」。",
+        "attract-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-17"
     },
@@ -1549,11 +1381,8 @@ export default {
       "masked": "The location adds to the ____ of the apartment.",
       "options": [
         "attract-mcq-17",
-        "attract-mcq-16",
-        "attract-mcq-18",
-        "attract-mcq-15",
-        "attract-mcq-19",
-        "attract-mcq-14"
+        "attract-mcq-12",
+        "attract-mcq-07"
       ],
       "explanation": "本句的「attractiveness」指「某人／某事物能引起興趣、好感或選擇意欲的程度」。",
       "sentenceIndex": 1,
@@ -1562,12 +1391,9 @@ export default {
         "attractiveness"
       ],
       "optionReasons": {
-        "attract-mcq-17": "本句指「某人／某事物能引起興趣、好感或選擇意欲的程度」。",
-        "attract-mcq-16": "「價格設定得有利、容易吸引顧客購買的」是「attractively priced」的用法，與本句語境不同。",
-        "attract-mcq-18": "「外觀缺乏美感或視覺吸引力的」是「unattractive — appearance」的用法，與本句語境不同。",
-        "attract-mcq-15": "「以能令人產生好感、興趣或視覺愉悅的方式」是「attractively」的用法，與本句語境不同。",
-        "attract-mcq-19": "「因條件不利或缺乏優點而令人不想選擇的」是「unattractive — option/offer」的用法，與本句語境不同。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。"
+        "attract-mcq-17": "本句的「attractiveness」指「某人／某事物能引起興趣、好感或選擇意欲的程度」。",
+        "attract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-17"
     },
@@ -1579,11 +1405,8 @@ export default {
       "masked": "The study examined perceptions of physical ____.",
       "options": [
         "attract-mcq-17",
-        "attract-mcq-16",
-        "attract-mcq-18",
-        "attract-mcq-15",
-        "attract-mcq-19",
-        "attract-mcq-14"
+        "attract-mcq-12",
+        "attract-mcq-07"
       ],
       "explanation": "本句的「attractiveness」指「某人／某事物能引起興趣、好感或選擇意欲的程度」。",
       "sentenceIndex": 0,
@@ -1592,12 +1415,9 @@ export default {
         "attractiveness"
       ],
       "optionReasons": {
-        "attract-mcq-17": "本句指「某人／某事物能引起興趣、好感或選擇意欲的程度」。",
-        "attract-mcq-16": "「價格設定得有利、容易吸引顧客購買的」是「attractively priced」的用法，與本句語境不同。",
-        "attract-mcq-18": "「外觀缺乏美感或視覺吸引力的」是「unattractive — appearance」的用法，與本句語境不同。",
-        "attract-mcq-15": "「以能令人產生好感、興趣或視覺愉悅的方式」是「attractively」的用法，與本句語境不同。",
-        "attract-mcq-19": "「因條件不利或缺乏優點而令人不想選擇的」是「unattractive — option/offer」的用法，與本句語境不同。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。"
+        "attract-mcq-17": "本句的「attractiveness」指「某人／某事物能引起興趣、好感或選擇意欲的程度」。",
+        "attract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-17"
     },
@@ -1609,11 +1429,8 @@ export default {
       "masked": "Physical ____ is only one part of how people perceive others.",
       "options": [
         "attract-mcq-17",
-        "attract-mcq-16",
-        "attract-mcq-18",
-        "attract-mcq-15",
-        "attract-mcq-19",
-        "attract-mcq-14"
+        "attract-mcq-12",
+        "attract-mcq-07"
       ],
       "explanation": "本句的「attractiveness」指「某人／某事物能引起興趣、好感或選擇意欲的程度」。",
       "sentenceIndex": 1,
@@ -1622,12 +1439,9 @@ export default {
         "attractiveness"
       ],
       "optionReasons": {
-        "attract-mcq-17": "本句指「某人／某事物能引起興趣、好感或選擇意欲的程度」。",
-        "attract-mcq-16": "「價格設定得有利、容易吸引顧客購買的」是「attractively priced」的用法，與本句語境不同。",
-        "attract-mcq-18": "「外觀缺乏美感或視覺吸引力的」是「unattractive — appearance」的用法，與本句語境不同。",
-        "attract-mcq-15": "「以能令人產生好感、興趣或視覺愉悅的方式」是「attractively」的用法，與本句語境不同。",
-        "attract-mcq-19": "「因條件不利或缺乏優點而令人不想選擇的」是「unattractive — option/offer」的用法，與本句語境不同。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。"
+        "attract-mcq-17": "本句的「attractiveness」指「某人／某事物能引起興趣、好感或選擇意欲的程度」。",
+        "attract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-17"
     },
@@ -1639,11 +1453,9 @@ export default {
       "masked": "The building is functional but rather ____.",
       "options": [
         "attract-mcq-18",
-        "attract-mcq-17",
-        "attract-mcq-19",
-        "attract-mcq-16",
-        "attract-mcq-15",
-        "attract-mcq-14"
+        "attract-mcq-14",
+        "attract-mcq-04",
+        "attract-mcq-07"
       ],
       "explanation": "本句的「unattractive」指「外觀缺乏美感或視覺吸引力的」。",
       "sentenceIndex": 0,
@@ -1652,12 +1464,10 @@ export default {
         "unattractive"
       ],
       "optionReasons": {
-        "attract-mcq-18": "本句指「外觀缺乏美感或視覺吸引力的」。",
-        "attract-mcq-17": "「某人／某事物能引起興趣、好感或選擇意欲的程度」是「attractiveness」的用法，與本句語境不同。",
-        "attract-mcq-19": "「因條件不利或缺乏優點而令人不想選擇的」是「unattractive — option/offer」的用法，與本句語境不同。",
-        "attract-mcq-16": "「價格設定得有利、容易吸引顧客購買的」是「attractively priced」的用法，與本句語境不同。",
-        "attract-mcq-15": "「以能令人產生好感、興趣或視覺愉悅的方式」是「attractively」的用法，與本句語境不同。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。"
+        "attract-mcq-18": "本句的「unattractive」指「外觀缺乏美感或視覺吸引力的」。",
+        "attract-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-18"
     },
@@ -1669,11 +1479,9 @@ export default {
       "masked": "The packaging looked cheap and ____.",
       "options": [
         "attract-mcq-18",
-        "attract-mcq-17",
-        "attract-mcq-19",
-        "attract-mcq-16",
-        "attract-mcq-15",
-        "attract-mcq-14"
+        "attract-mcq-14",
+        "attract-mcq-04",
+        "attract-mcq-07"
       ],
       "explanation": "本句的「unattractive」指「外觀缺乏美感或視覺吸引力的」。",
       "sentenceIndex": 1,
@@ -1682,12 +1490,10 @@ export default {
         "unattractive"
       ],
       "optionReasons": {
-        "attract-mcq-18": "本句指「外觀缺乏美感或視覺吸引力的」。",
-        "attract-mcq-17": "「某人／某事物能引起興趣、好感或選擇意欲的程度」是「attractiveness」的用法，與本句語境不同。",
-        "attract-mcq-19": "「因條件不利或缺乏優點而令人不想選擇的」是「unattractive — option/offer」的用法，與本句語境不同。",
-        "attract-mcq-16": "「價格設定得有利、容易吸引顧客購買的」是「attractively priced」的用法，與本句語境不同。",
-        "attract-mcq-15": "「以能令人產生好感、興趣或視覺愉悅的方式」是「attractively」的用法，與本句語境不同。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。"
+        "attract-mcq-18": "本句的「unattractive」指「外觀缺乏美感或視覺吸引力的」。",
+        "attract-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-18"
     },
@@ -1699,11 +1505,8 @@ export default {
       "masked": "The high fees make the plan ____.",
       "options": [
         "attract-mcq-19",
-        "attract-mcq-18",
-        "attract-mcq-17",
-        "attract-mcq-16",
-        "attract-mcq-15",
-        "attract-mcq-14"
+        "attract-mcq-05",
+        "attract-mcq-07"
       ],
       "explanation": "本句的「unattractive」指「因條件不利或缺乏優點而令人不想選擇的」。",
       "sentenceIndex": 0,
@@ -1712,12 +1515,9 @@ export default {
         "unattractive"
       ],
       "optionReasons": {
-        "attract-mcq-19": "本句指「因條件不利或缺乏優點而令人不想選擇的」。",
-        "attract-mcq-18": "「外觀缺乏美感或視覺吸引力的」是「unattractive — appearance」的用法，與本句語境不同。",
-        "attract-mcq-17": "「某人／某事物能引起興趣、好感或選擇意欲的程度」是「attractiveness」的用法，與本句語境不同。",
-        "attract-mcq-16": "「價格設定得有利、容易吸引顧客購買的」是「attractively priced」的用法，與本句語境不同。",
-        "attract-mcq-15": "「以能令人產生好感、興趣或視覺愉悅的方式」是「attractively」的用法，與本句語境不同。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。"
+        "attract-mcq-19": "本句的「unattractive」指「因條件不利或缺乏優點而令人不想選擇的」。",
+        "attract-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-19"
     },
@@ -1729,11 +1529,8 @@ export default {
       "masked": "The long commute made the job less ____.",
       "options": [
         "attract-mcq-19",
-        "attract-mcq-18",
-        "attract-mcq-17",
-        "attract-mcq-16",
-        "attract-mcq-15",
-        "attract-mcq-14"
+        "attract-mcq-09",
+        "attract-mcq-07"
       ],
       "explanation": "本句的「attractive」指「因條件不利或缺乏優點而令人不想選擇的」。",
       "sentenceIndex": 1,
@@ -1742,12 +1539,9 @@ export default {
         "attractive"
       ],
       "optionReasons": {
-        "attract-mcq-19": "本句指「因條件不利或缺乏優點而令人不想選擇的」。",
-        "attract-mcq-18": "「外觀缺乏美感或視覺吸引力的」是「unattractive — appearance」的用法，與本句語境不同。",
-        "attract-mcq-17": "「某人／某事物能引起興趣、好感或選擇意欲的程度」是「attractiveness」的用法，與本句語境不同。",
-        "attract-mcq-16": "「價格設定得有利、容易吸引顧客購買的」是「attractively priced」的用法，與本句語境不同。",
-        "attract-mcq-15": "「以能令人產生好感、興趣或視覺愉悅的方式」是「attractively」的用法，與本句語境不同。",
-        "attract-mcq-14": "「因價格、回報或條件有利而令人願意接受的」是「attractive — price/rate/terms」的用法，與本句語境不同。"
+        "attract-mcq-19": "本句的「attractive」指「因條件不利或缺乏優點而令人不想選擇的」。",
+        "attract-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attract-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attract-mcq-19"
     }
@@ -1760,5 +1554,7 @@ export default {
     "pages": 17,
     "sha256": "837f502281d0a6414893de8da928fc72e40f6502d63fb91d432e3632576da000"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

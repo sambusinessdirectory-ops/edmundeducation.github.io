@@ -547,11 +547,9 @@ export default {
       "masked": "People often describe her as ____.",
       "options": [
         "patient-mcq-01",
-        "patient-mcq-02",
-        "patient-mcq-03",
-        "patient-mcq-04",
-        "patient-mcq-05",
-        "patient-mcq-06"
+        "patient-mcq-08",
+        "patient-mcq-14",
+        "patient-mcq-21"
       ],
       "explanation": "本句的「patient」指「即使需要等待，也能保持冷靜而不因延誤變得煩躁」。",
       "sentenceIndex": 0,
@@ -560,12 +558,10 @@ export default {
         "patient"
       ],
       "optionReasons": {
-        "patient-mcq-01": "本句指「即使需要等待，也能保持冷靜而不因延誤變得煩躁」。",
-        "patient-mcq-02": "「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」是「patient with someone」的用法，與本句語境不同。",
-        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
-        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
-        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
-        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+        "patient-mcq-01": "本句的「patient」指「即使需要等待，也能保持冷靜而不因延誤變得煩躁」。",
+        "patient-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-01"
     },
@@ -577,11 +573,9 @@ export default {
       "masked": "You need to be ____ while you wait for the results.",
       "options": [
         "patient-mcq-01",
-        "patient-mcq-02",
-        "patient-mcq-03",
+        "patient-mcq-07",
         "patient-mcq-04",
-        "patient-mcq-05",
-        "patient-mcq-06"
+        "patient-mcq-14"
       ],
       "explanation": "本句的「patient」指「即使需要等待，也能保持冷靜而不因延誤變得煩躁」。",
       "sentenceIndex": 1,
@@ -590,12 +584,10 @@ export default {
         "patient"
       ],
       "optionReasons": {
-        "patient-mcq-01": "本句指「即使需要等待，也能保持冷靜而不因延誤變得煩躁」。",
-        "patient-mcq-02": "「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」是「patient with someone」的用法，與本句語境不同。",
-        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
-        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
-        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
-        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+        "patient-mcq-01": "本句的「patient」指「即使需要等待，也能保持冷靜而不因延誤變得煩躁」。",
+        "patient-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-01"
     },
@@ -607,11 +599,9 @@ export default {
       "masked": "She waited ____ for her turn.",
       "options": [
         "patient-mcq-01",
-        "patient-mcq-02",
-        "patient-mcq-03",
-        "patient-mcq-04",
         "patient-mcq-05",
-        "patient-mcq-06"
+        "patient-mcq-14",
+        "patient-mcq-04"
       ],
       "explanation": "本句的「patiently」指「即使需要等待，也能保持冷靜而不因延誤變得煩躁」。",
       "sentenceIndex": 2,
@@ -620,12 +610,10 @@ export default {
         "patiently"
       ],
       "optionReasons": {
-        "patient-mcq-01": "本句指「即使需要等待，也能保持冷靜而不因延誤變得煩躁」。",
-        "patient-mcq-02": "「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」是「patient with someone」的用法，與本句語境不同。",
-        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
-        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
-        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
-        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+        "patient-mcq-01": "本句的「patiently」指「即使需要等待，也能保持冷靜而不因延誤變得煩躁」。",
+        "patient-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-01"
     },
@@ -637,11 +625,9 @@ export default {
       "masked": "She is very ____ her grandchildren.",
       "options": [
         "patient-mcq-02",
-        "patient-mcq-01",
-        "patient-mcq-03",
-        "patient-mcq-04",
-        "patient-mcq-05",
-        "patient-mcq-06"
+        "patient-mcq-23",
+        "patient-mcq-14",
+        "patient-mcq-04"
       ],
       "explanation": "本句的「patient with」指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
       "sentenceIndex": 3,
@@ -650,12 +636,10 @@ export default {
         "patient with"
       ],
       "optionReasons": {
-        "patient-mcq-02": "本句指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
-        "patient-mcq-01": "「即使需要等待，也能保持冷靜而不因延誤變得煩躁」是「patient — waiting calmly」的用法，與本句語境不同。",
-        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
-        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
-        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
-        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+        "patient-mcq-02": "本句的「patient with」指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
+        "patient-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-02"
     },
@@ -667,11 +651,9 @@ export default {
       "masked": "Please be ____ him while he learns.",
       "options": [
         "patient-mcq-02",
-        "patient-mcq-01",
-        "patient-mcq-03",
-        "patient-mcq-04",
-        "patient-mcq-05",
-        "patient-mcq-06"
+        "patient-mcq-19",
+        "patient-mcq-14",
+        "patient-mcq-04"
       ],
       "explanation": "本句的「patient with」指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
       "sentenceIndex": 4,
@@ -680,12 +662,10 @@ export default {
         "patient with"
       ],
       "optionReasons": {
-        "patient-mcq-02": "本句指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
-        "patient-mcq-01": "「即使需要等待，也能保持冷靜而不因延誤變得煩躁」是「patient — waiting calmly」的用法，與本句語境不同。",
-        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
-        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
-        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
-        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+        "patient-mcq-02": "本句的「patient with」指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
+        "patient-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-02"
     },
@@ -697,11 +677,9 @@ export default {
       "masked": "Good teachers are ____ mistakes.",
       "options": [
         "patient-mcq-02",
-        "patient-mcq-01",
-        "patient-mcq-03",
-        "patient-mcq-04",
-        "patient-mcq-05",
-        "patient-mcq-06"
+        "patient-mcq-23",
+        "patient-mcq-14",
+        "patient-mcq-07"
       ],
       "explanation": "本句的「patient with」指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
       "sentenceIndex": 5,
@@ -710,12 +688,10 @@ export default {
         "patient with"
       ],
       "optionReasons": {
-        "patient-mcq-02": "本句指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
-        "patient-mcq-01": "「即使需要等待，也能保持冷靜而不因延誤變得煩躁」是「patient — waiting calmly」的用法，與本句語境不同。",
-        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
-        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
-        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
-        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+        "patient-mcq-02": "本句的「patient with」指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
+        "patient-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-02"
     },
@@ -727,11 +703,9 @@ export default {
       "masked": "She remained ____ despite all the difficulties.",
       "options": [
         "patient-mcq-02",
-        "patient-mcq-01",
-        "patient-mcq-03",
-        "patient-mcq-04",
-        "patient-mcq-05",
-        "patient-mcq-06"
+        "patient-mcq-14",
+        "patient-mcq-21",
+        "patient-pdf-001"
       ],
       "explanation": "本句的「patient」指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
       "sentenceIndex": 6,
@@ -740,12 +714,10 @@ export default {
         "patient"
       ],
       "optionReasons": {
-        "patient-mcq-02": "本句指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
-        "patient-mcq-01": "「即使需要等待，也能保持冷靜而不因延誤變得煩躁」是「patient — waiting calmly」的用法，與本句語境不同。",
-        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
-        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
-        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
-        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+        "patient-mcq-02": "本句的「patient」指「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "patient-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-02"
     },
@@ -757,11 +729,9 @@ export default {
       "masked": "Just ____. It will take a little time.",
       "options": [
         "patient-mcq-22",
-        "patient-mcq-21",
-        "patient-mcq-23",
-        "patient-mcq-20",
         "patient-mcq-19",
-        "patient-mcq-18"
+        "patient-mcq-14",
+        "patient-pdf-001"
       ],
       "explanation": "本句的「be patient」指「不要急躁，給事情、別人或自己足夠時間」。",
       "sentenceIndex": 7,
@@ -770,12 +740,10 @@ export default {
         "be patient"
       ],
       "optionReasons": {
-        "patient-mcq-22": "本句指「不要急躁，給事情、別人或自己足夠時間」。",
-        "patient-mcq-21": "「強烈希望某件事立即發生、不願再等的急切感」是「impatience — eagerness」的用法，與本句語境不同。",
-        "patient-mcq-23": "「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」是「24. impatiently = in an annoyed/eager way（不耐煩／急切地） — 不耐煩地；急切地」的用法，與本句語境不同。",
-        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
-        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
-        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。"
+        "patient-mcq-22": "本句的「be patient」指「不要急躁，給事情、別人或自己足夠時間」。",
+        "patient-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "patient-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-22"
     },
@@ -787,11 +755,9 @@ export default {
       "masked": "Be ____ with yourself.",
       "options": [
         "patient-mcq-22",
-        "patient-mcq-21",
-        "patient-mcq-23",
-        "patient-mcq-20",
+        "patient-mcq-12",
         "patient-mcq-19",
-        "patient-mcq-18"
+        "patient-mcq-07"
       ],
       "explanation": "本句的「patient」指「不要急躁，給事情、別人或自己足夠時間」。",
       "sentenceIndex": 8,
@@ -800,12 +766,10 @@ export default {
         "patient"
       ],
       "optionReasons": {
-        "patient-mcq-22": "本句指「不要急躁，給事情、別人或自己足夠時間」。",
-        "patient-mcq-21": "「強烈希望某件事立即發生、不願再等的急切感」是「impatience — eagerness」的用法，與本句語境不同。",
-        "patient-mcq-23": "「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」是「24. impatiently = in an annoyed/eager way（不耐煩／急切地） — 不耐煩地；急切地」的用法，與本句語境不同。",
-        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
-        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
-        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。"
+        "patient-mcq-22": "本句的「patient」指「不要急躁，給事情、別人或自己足夠時間」。",
+        "patient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-22"
     },
@@ -817,10 +781,8 @@ export default {
       "masked": "The work requires a ____ approach.",
       "options": [
         "patient-mcq-04",
-        "patient-mcq-03",
         "patient-mcq-05",
-        "patient-mcq-02",
-        "patient-mcq-06",
+        "patient-mcq-19",
         "patient-mcq-01"
       ],
       "explanation": "本句的「patient」指「願意花時間細心處理／聆聽，而不急於求成」。",
@@ -830,12 +792,10 @@ export default {
         "patient"
       ],
       "optionReasons": {
-        "patient-mcq-04": "本句指「願意花時間細心處理／聆聽，而不急於求成」。",
-        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
-        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
-        "patient-mcq-02": "「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」是「patient with someone」的用法，與本句語境不同。",
-        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。",
-        "patient-mcq-01": "「即使需要等待，也能保持冷靜而不因延誤變得煩躁」是「patient — waiting calmly」的用法，與本句語境不同。"
+        "patient-mcq-04": "本句的「patient」指「願意花時間細心處理／聆聽，而不急於求成」。",
+        "patient-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-04"
     },
@@ -847,11 +807,9 @@ export default {
       "masked": "She is a ____ listener.",
       "options": [
         "patient-mcq-04",
-        "patient-mcq-03",
-        "patient-mcq-05",
-        "patient-mcq-02",
-        "patient-mcq-06",
-        "patient-mcq-01"
+        "patient-mcq-18",
+        "patient-mcq-19",
+        "patient-mcq-12"
       ],
       "explanation": "本句的「patient」指「願意花時間細心處理／聆聽，而不急於求成」。",
       "sentenceIndex": 10,
@@ -860,12 +818,10 @@ export default {
         "patient"
       ],
       "optionReasons": {
-        "patient-mcq-04": "本句指「願意花時間細心處理／聆聽，而不急於求成」。",
-        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
-        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
-        "patient-mcq-02": "「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」是「patient with someone」的用法，與本句語境不同。",
-        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。",
-        "patient-mcq-01": "「即使需要等待，也能保持冷靜而不因延誤變得煩躁」是「patient — waiting calmly」的用法，與本句語境不同。"
+        "patient-mcq-04": "本句的「patient」指「願意花時間細心處理／聆聽，而不急於求成」。",
+        "patient-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-04"
     },
@@ -878,10 +834,8 @@ export default {
       "options": [
         "patient-mcq-05",
         "patient-mcq-04",
-        "patient-mcq-06",
-        "patient-mcq-03",
-        "patient-mcq-07",
-        "patient-mcq-02"
+        "patient-mcq-19",
+        "patient-mcq-13"
       ],
       "explanation": "本句的「patient」指「正在接受醫療專業人員診斷、照顧或治療的人」。",
       "sentenceIndex": 11,
@@ -890,12 +844,10 @@ export default {
         "patient"
       ],
       "optionReasons": {
-        "patient-mcq-05": "本句指「正在接受醫療專業人員診斷、照顧或治療的人」。",
-        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
-        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。",
-        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
-        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。",
-        "patient-mcq-02": "「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」是「patient with someone」的用法，與本句語境不同。"
+        "patient-mcq-05": "本句的「patient」指「正在接受醫療專業人員診斷、照顧或治療的人」。",
+        "patient-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-05"
     },
@@ -907,11 +859,9 @@ export default {
       "masked": "The hospital treats hundreds of ____ every day.",
       "options": [
         "patient-mcq-05",
+        "patient-mcq-12",
         "patient-mcq-04",
-        "patient-mcq-06",
-        "patient-mcq-03",
-        "patient-mcq-07",
-        "patient-mcq-02"
+        "patient-mcq-23"
       ],
       "explanation": "本句的「patients」指「正在接受醫療專業人員診斷、照顧或治療的人」。",
       "sentenceIndex": 12,
@@ -920,12 +870,10 @@ export default {
         "patients"
       ],
       "optionReasons": {
-        "patient-mcq-05": "本句指「正在接受醫療專業人員診斷、照顧或治療的人」。",
-        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
-        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。",
-        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。",
-        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。",
-        "patient-mcq-02": "「面對某人的錯誤、緩慢或需要時，仍能保持冷靜和包容」是「patient with someone」的用法，與本句語境不同。"
+        "patient-mcq-05": "本句的「patients」指「正在接受醫療專業人員診斷、照顧或治療的人」。",
+        "patient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-05"
     },
@@ -937,11 +885,9 @@ export default {
       "masked": "Good communication is essential to ____.",
       "options": [
         "patient-mcq-06",
-        "patient-mcq-05",
-        "patient-mcq-07",
-        "patient-mcq-04",
-        "patient-mcq-08",
-        "patient-mcq-03"
+        "patient-pdf-001",
+        "patient-mcq-14",
+        "patient-mcq-23"
       ],
       "explanation": "本句的「patient care」指「醫療人員為病人提供的治療、護理和支援」。",
       "sentenceIndex": 13,
@@ -950,12 +896,10 @@ export default {
         "patient care"
       ],
       "optionReasons": {
-        "patient-mcq-06": "本句指「醫療人員為病人提供的治療、護理和支援」。",
-        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
-        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。",
-        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
-        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。",
-        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。"
+        "patient-mcq-06": "本句的「patient care」指「醫療人員為病人提供的治療、護理和支援」。",
+        "patient-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-06"
     },
@@ -967,11 +911,9 @@ export default {
       "masked": "The hospital is improving the quality of ____.",
       "options": [
         "patient-mcq-06",
-        "patient-mcq-05",
-        "patient-mcq-07",
-        "patient-mcq-04",
-        "patient-mcq-08",
-        "patient-mcq-03"
+        "patient-mcq-13",
+        "patient-mcq-19",
+        "patient-mcq-14"
       ],
       "explanation": "本句的「patient care」指「醫療人員為病人提供的治療、護理和支援」。",
       "sentenceIndex": 14,
@@ -980,12 +922,10 @@ export default {
         "patient care"
       ],
       "optionReasons": {
-        "patient-mcq-06": "本句指「醫療人員為病人提供的治療、護理和支援」。",
-        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
-        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。",
-        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。",
-        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。",
-        "patient-mcq-03": "「面對困難、反覆問題或進展緩慢時仍能耐心處理」是「patient — difficulty/repetition」的用法，與本句語境不同。"
+        "patient-mcq-06": "本句的「patient care」指「醫療人員為病人提供的治療、護理和支援」。",
+        "patient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-06"
     },
@@ -997,11 +937,9 @@ export default {
       "masked": "The new system was introduced to improve ____.",
       "options": [
         "patient-mcq-07",
-        "patient-mcq-06",
-        "patient-mcq-08",
-        "patient-mcq-05",
-        "patient-mcq-09",
-        "patient-mcq-04"
+        "patient-mcq-01",
+        "patient-mcq-19",
+        "patient-mcq-14"
       ],
       "explanation": "本句的「patient safety」指「避免患者在接受醫療服務時受到可預防傷害的措施／原則」。",
       "sentenceIndex": 15,
@@ -1010,12 +948,10 @@ export default {
         "patient safety"
       ],
       "optionReasons": {
-        "patient-mcq-07": "本句指「避免患者在接受醫療服務時受到可預防傷害的措施／原則」。",
-        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。",
-        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。",
-        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
-        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。",
-        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。"
+        "patient-mcq-07": "本句的「patient safety」指「避免患者在接受醫療服務時受到可預防傷害的措施／原則」。",
+        "patient-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-07"
     },
@@ -1027,11 +963,9 @@ export default {
       "masked": "Medication errors can affect ____.",
       "options": [
         "patient-mcq-07",
-        "patient-mcq-06",
-        "patient-mcq-08",
-        "patient-mcq-05",
-        "patient-mcq-09",
-        "patient-mcq-04"
+        "patient-mcq-23",
+        "patient-mcq-16",
+        "patient-mcq-14"
       ],
       "explanation": "本句的「patient safety」指「避免患者在接受醫療服務時受到可預防傷害的措施／原則」。",
       "sentenceIndex": 16,
@@ -1040,12 +974,10 @@ export default {
         "patient safety"
       ],
       "optionReasons": {
-        "patient-mcq-07": "本句指「避免患者在接受醫療服務時受到可預防傷害的措施／原則」。",
-        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。",
-        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。",
-        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。",
-        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。",
-        "patient-mcq-04": "「願意花時間細心處理／聆聽，而不急於求成」是「patient listener/approach」的用法，與本句語境不同。"
+        "patient-mcq-07": "本句的「patient safety」指「避免患者在接受醫療服務時受到可預防傷害的措施／原則」。",
+        "patient-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-07"
     },
@@ -1057,11 +989,8 @@ export default {
       "masked": "He was admitted as an ____.",
       "options": [
         "patient-mcq-08",
-        "patient-mcq-07",
-        "patient-mcq-09",
-        "patient-mcq-06",
-        "patient-mcq-10",
-        "patient-mcq-05"
+        "patient-mcq-12",
+        "patient-mcq-23"
       ],
       "explanation": "本句的「inpatient」指「入住醫院一段時間接受治療的病人」。",
       "sentenceIndex": 17,
@@ -1070,12 +999,9 @@ export default {
         "inpatient"
       ],
       "optionReasons": {
-        "patient-mcq-08": "本句指「入住醫院一段時間接受治療的病人」。",
-        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。",
-        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。",
-        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。",
-        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。",
-        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。"
+        "patient-mcq-08": "本句的「inpatient」指「入住醫院一段時間接受治療的病人」。",
+        "patient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-08"
     },
@@ -1087,11 +1013,9 @@ export default {
       "masked": "The hospital provides both ____ and outpatient services.",
       "options": [
         "patient-mcq-08",
-        "patient-mcq-07",
-        "patient-mcq-09",
-        "patient-mcq-06",
-        "patient-mcq-10",
-        "patient-mcq-05"
+        "patient-mcq-20",
+        "patient-mcq-21",
+        "patient-mcq-18"
       ],
       "explanation": "本句的「inpatient」指「入住醫院一段時間接受治療的病人」。",
       "sentenceIndex": 18,
@@ -1100,12 +1024,10 @@ export default {
         "inpatient"
       ],
       "optionReasons": {
-        "patient-mcq-08": "本句指「入住醫院一段時間接受治療的病人」。",
-        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。",
-        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。",
-        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。",
-        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。",
-        "patient-mcq-05": "「正在接受醫療專業人員診斷、照顧或治療的人」是「patient — medical noun」的用法，與本句語境不同。"
+        "patient-mcq-08": "本句的「inpatient」指「入住醫院一段時間接受治療的病人」。",
+        "patient-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-08"
     },
@@ -1117,11 +1039,9 @@ export default {
       "masked": "She received treatment as an ____.",
       "options": [
         "patient-mcq-09",
-        "patient-mcq-08",
-        "patient-mcq-10",
-        "patient-mcq-07",
-        "patient-mcq-11",
-        "patient-mcq-06"
+        "patient-pdf-001",
+        "patient-mcq-21",
+        "patient-mcq-11"
       ],
       "explanation": "本句的「outpatient」指「接受醫療服務但不需要入住醫院過夜的病人」。",
       "sentenceIndex": 19,
@@ -1130,12 +1050,10 @@ export default {
         "outpatient"
       ],
       "optionReasons": {
-        "patient-mcq-09": "本句指「接受醫療服務但不需要入住醫院過夜的病人」。",
-        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。",
-        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。",
-        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。",
-        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。",
-        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+        "patient-mcq-09": "本句的「outpatient」指「接受醫療服務但不需要入住醫院過夜的病人」。",
+        "patient-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-09"
     },
@@ -1147,11 +1065,9 @@ export default {
       "masked": "Most minor procedures are now performed on ____.",
       "options": [
         "patient-mcq-09",
-        "patient-mcq-08",
-        "patient-mcq-10",
-        "patient-mcq-07",
-        "patient-mcq-11",
-        "patient-mcq-06"
+        "patient-mcq-18",
+        "patient-mcq-19",
+        "patient-mcq-16"
       ],
       "explanation": "本句的「outpatients」指「接受醫療服務但不需要入住醫院過夜的病人」。",
       "sentenceIndex": 20,
@@ -1160,12 +1076,10 @@ export default {
         "outpatients"
       ],
       "optionReasons": {
-        "patient-mcq-09": "本句指「接受醫療服務但不需要入住醫院過夜的病人」。",
-        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。",
-        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。",
-        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。",
-        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。",
-        "patient-mcq-06": "「醫療人員為病人提供的治療、護理和支援」是「patient care」的用法，與本句語境不同。"
+        "patient-mcq-09": "本句的「outpatients」指「接受醫療服務但不需要入住醫院過夜的病人」。",
+        "patient-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-09"
     },
@@ -1178,10 +1092,8 @@ export default {
       "options": [
         "patient-mcq-10",
         "patient-mcq-09",
-        "patient-mcq-11",
-        "patient-mcq-08",
-        "patient-mcq-12",
-        "patient-mcq-07"
+        "patient-mcq-14",
+        "patient-mcq-23"
       ],
       "explanation": "本句的「patience」指「面對等待、困難或進展緩慢時仍能保持冷靜的能力」。",
       "sentenceIndex": 21,
@@ -1190,12 +1102,10 @@ export default {
         "patience"
       ],
       "optionReasons": {
-        "patient-mcq-10": "本句指「面對等待、困難或進展緩慢時仍能保持冷靜的能力」。",
-        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。",
-        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。",
-        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。",
-        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。",
-        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。"
+        "patient-mcq-10": "本句的「patience」指「面對等待、困難或進展緩慢時仍能保持冷靜的能力」。",
+        "patient-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-10"
     },
@@ -1207,11 +1117,9 @@ export default {
       "masked": "Learning a language requires ____.",
       "options": [
         "patient-mcq-10",
-        "patient-mcq-09",
-        "patient-mcq-11",
-        "patient-mcq-08",
-        "patient-mcq-12",
-        "patient-mcq-07"
+        "patient-mcq-14",
+        "patient-mcq-06",
+        "patient-mcq-23"
       ],
       "explanation": "本句的「patience」指「面對等待、困難或進展緩慢時仍能保持冷靜的能力」。",
       "sentenceIndex": 22,
@@ -1220,12 +1128,10 @@ export default {
         "patience"
       ],
       "optionReasons": {
-        "patient-mcq-10": "本句指「面對等待、困難或進展緩慢時仍能保持冷靜的能力」。",
-        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。",
-        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。",
-        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。",
-        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。",
-        "patient-mcq-07": "「避免患者在接受醫療服務時受到可預防傷害的措施／原則」是「patient safety」的用法，與本句語境不同。"
+        "patient-mcq-10": "本句的「patience」指「面對等待、困難或進展緩慢時仍能保持冷靜的能力」。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-10"
     },
@@ -1237,11 +1143,9 @@ export default {
       "masked": "She has endless ____ children.",
       "options": [
         "patient-mcq-11",
-        "patient-mcq-10",
-        "patient-mcq-12",
         "patient-mcq-09",
-        "patient-mcq-13",
-        "patient-mcq-08"
+        "patient-mcq-16",
+        "patient-mcq-19"
       ],
       "explanation": "本句的「patience with」指「面對某人／某情況時所保持的耐性和包容」。",
       "sentenceIndex": 23,
@@ -1250,12 +1154,10 @@ export default {
         "patience with"
       ],
       "optionReasons": {
-        "patient-mcq-11": "本句指「面對某人／某情況時所保持的耐性和包容」。",
-        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。",
-        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。",
-        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。",
-        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。",
-        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。"
+        "patient-mcq-11": "本句的「patience with」指「面對某人／某情況時所保持的耐性和包容」。",
+        "patient-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-11"
     },
@@ -1267,11 +1169,9 @@ export default {
       "masked": "Thank you for your ____ us.",
       "options": [
         "patient-mcq-11",
-        "patient-mcq-10",
-        "patient-mcq-12",
+        "patient-mcq-21",
         "patient-mcq-09",
-        "patient-mcq-13",
-        "patient-mcq-08"
+        "patient-mcq-14"
       ],
       "explanation": "本句的「patience with」指「面對某人／某情況時所保持的耐性和包容」。",
       "sentenceIndex": 24,
@@ -1280,12 +1180,10 @@ export default {
         "patience with"
       ],
       "optionReasons": {
-        "patient-mcq-11": "本句指「面對某人／某情況時所保持的耐性和包容」。",
-        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。",
-        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。",
-        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。",
-        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。",
-        "patient-mcq-08": "「入住醫院一段時間接受治療的病人」是「inpatient」的用法，與本句語境不同。"
+        "patient-mcq-11": "本句的「patience with」指「面對某人／某情況時所保持的耐性和包容」。",
+        "patient-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-11"
     },
@@ -1297,11 +1195,9 @@ export default {
       "masked": "You need to ____.",
       "options": [
         "patient-mcq-12",
-        "patient-mcq-11",
-        "patient-mcq-13",
-        "patient-mcq-10",
-        "patient-mcq-14",
-        "patient-mcq-09"
+        "patient-mcq-07",
+        "patient-mcq-22",
+        "patient-mcq-19"
       ],
       "explanation": "本句的「have patience」指「具備等待和冷靜忍耐的能力」。",
       "sentenceIndex": 25,
@@ -1310,12 +1206,10 @@ export default {
         "have patience"
       ],
       "optionReasons": {
-        "patient-mcq-12": "本句指「具備等待和冷靜忍耐的能力」。",
-        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。",
-        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。",
-        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。",
-        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
-        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。"
+        "patient-mcq-12": "本句的「have patience」指「具備等待和冷靜忍耐的能力」。",
+        "patient-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-12"
     },
@@ -1327,11 +1221,9 @@ export default {
       "masked": "Have a little ____ and let her finish.",
       "options": [
         "patient-mcq-12",
-        "patient-mcq-11",
-        "patient-mcq-13",
-        "patient-mcq-10",
-        "patient-mcq-14",
-        "patient-mcq-09"
+        "patient-mcq-06",
+        "patient-mcq-04",
+        "patient-mcq-19"
       ],
       "explanation": "本句的「patience」指「具備等待和冷靜忍耐的能力」。",
       "sentenceIndex": 26,
@@ -1340,12 +1232,10 @@ export default {
         "patience"
       ],
       "optionReasons": {
-        "patient-mcq-12": "本句指「具備等待和冷靜忍耐的能力」。",
-        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。",
-        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。",
-        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。",
-        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
-        "patient-mcq-09": "「接受醫療服務但不需要入住醫院過夜的病人」是「outpatient」的用法，與本句語境不同。"
+        "patient-mcq-12": "本句的「patience」指「具備等待和冷靜忍耐的能力」。",
+        "patient-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-12"
     },
@@ -1357,11 +1247,9 @@ export default {
       "masked": "He began to ____.",
       "options": [
         "patient-mcq-13",
-        "patient-mcq-12",
+        "patient-mcq-08",
         "patient-mcq-14",
-        "patient-mcq-11",
-        "patient-mcq-15",
-        "patient-mcq-10"
+        "patient-mcq-23"
       ],
       "explanation": "本句的「lose patience」指「因等待、反覆問題或挫折而不再能保持冷靜」。",
       "sentenceIndex": 27,
@@ -1370,12 +1258,10 @@ export default {
         "lose patience"
       ],
       "optionReasons": {
-        "patient-mcq-13": "本句指「因等待、反覆問題或挫折而不再能保持冷靜」。",
-        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。",
-        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
-        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。",
-        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
-        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。"
+        "patient-mcq-13": "本句的「lose patience」指「因等待、反覆問題或挫折而不再能保持冷靜」。",
+        "patient-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-13"
     },
@@ -1387,11 +1273,9 @@ export default {
       "masked": "She rarely ____ with her grandchildren.",
       "options": [
         "patient-mcq-13",
-        "patient-mcq-12",
-        "patient-mcq-14",
-        "patient-mcq-11",
-        "patient-mcq-15",
-        "patient-mcq-10"
+        "patient-mcq-07",
+        "patient-mcq-23",
+        "patient-mcq-14"
       ],
       "explanation": "本句的「loses patience」指「因等待、反覆問題或挫折而不再能保持冷靜」。",
       "sentenceIndex": 28,
@@ -1400,12 +1284,10 @@ export default {
         "loses patience"
       ],
       "optionReasons": {
-        "patient-mcq-13": "本句指「因等待、反覆問題或挫折而不再能保持冷靜」。",
-        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。",
-        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
-        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。",
-        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
-        "patient-mcq-10": "「面對等待、困難或進展緩慢時仍能保持冷靜的能力」是「patience」的用法，與本句語境不同。"
+        "patient-mcq-13": "本句的「loses patience」指「因等待、反覆問題或挫折而不再能保持冷靜」。",
+        "patient-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-13"
     },
@@ -1417,11 +1299,9 @@ export default {
       "masked": "I’m beginning to ____.",
       "options": [
         "patient-mcq-14",
-        "patient-mcq-13",
-        "patient-mcq-15",
-        "patient-mcq-12",
-        "patient-mcq-16",
-        "patient-mcq-11"
+        "patient-mcq-22",
+        "patient-pdf-001",
+        "patient-mcq-21"
       ],
       "explanation": "本句的「run out of patience」指「忍耐已接近或達到極限」。",
       "sentenceIndex": 29,
@@ -1430,12 +1310,10 @@ export default {
         "run out of patience"
       ],
       "optionReasons": {
-        "patient-mcq-14": "本句指「忍耐已接近或達到極限」。",
-        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。",
-        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
-        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。",
-        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。",
-        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。"
+        "patient-mcq-14": "本句的「run out of patience」指「忍耐已接近或達到極限」。",
+        "patient-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "patient-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-14"
     },
@@ -1447,11 +1325,9 @@ export default {
       "masked": "After waiting for two hours, everyone ____.",
       "options": [
         "patient-mcq-14",
-        "patient-mcq-13",
-        "patient-mcq-15",
-        "patient-mcq-12",
-        "patient-mcq-16",
-        "patient-mcq-11"
+        "patient-mcq-04",
+        "patient-mcq-10",
+        "patient-mcq-06"
       ],
       "explanation": "本句的「ran out of patience」指「忍耐已接近或達到極限」。",
       "sentenceIndex": 30,
@@ -1460,12 +1336,10 @@ export default {
         "ran out of patience"
       ],
       "optionReasons": {
-        "patient-mcq-14": "本句指「忍耐已接近或達到極限」。",
-        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。",
-        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
-        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。",
-        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。",
-        "patient-mcq-11": "「面對某人／某情況時所保持的耐性和包容」是「patience with」的用法，與本句語境不同。"
+        "patient-mcq-14": "本句的「ran out of patience」指「忍耐已接近或達到極限」。",
+        "patient-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-14"
     },
@@ -1477,11 +1351,9 @@ export default {
       "masked": "The repeated delays ____.",
       "options": [
         "patient-mcq-15",
-        "patient-mcq-14",
-        "patient-mcq-16",
-        "patient-mcq-13",
-        "patient-mcq-17",
-        "patient-mcq-12"
+        "patient-mcq-04",
+        "patient-mcq-07",
+        "patient-mcq-19"
       ],
       "explanation": "本句的「tested everyone's patience」指「令某人愈來愈難保持耐性」。",
       "sentenceIndex": 31,
@@ -1490,12 +1362,10 @@ export default {
         "tested everyone's patience"
       ],
       "optionReasons": {
-        "patient-mcq-15": "本句指「令某人愈來愈難保持耐性」。",
-        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
-        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。",
-        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。",
-        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
-        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。"
+        "patient-mcq-15": "本句的「tested everyone's patience」指「令某人愈來愈難保持耐性」。",
+        "patient-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-15"
     },
@@ -1507,11 +1377,9 @@ export default {
       "masked": "His constant interruptions were beginning to ____.",
       "options": [
         "patient-mcq-15",
-        "patient-mcq-14",
-        "patient-mcq-16",
-        "patient-mcq-13",
-        "patient-mcq-17",
-        "patient-mcq-12"
+        "patient-mcq-08",
+        "patient-mcq-19",
+        "patient-mcq-16"
       ],
       "explanation": "本句的「test her patience」指「令某人愈來愈難保持耐性」。",
       "sentenceIndex": 32,
@@ -1520,12 +1388,10 @@ export default {
         "test her patience"
       ],
       "optionReasons": {
-        "patient-mcq-15": "本句指「令某人愈來愈難保持耐性」。",
-        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
-        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。",
-        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。",
-        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
-        "patient-mcq-12": "「具備等待和冷靜忍耐的能力」是「have patience」的用法，與本句語境不同。"
+        "patient-mcq-15": "本句的「test her patience」指「令某人愈來愈難保持耐性」。",
+        "patient-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-15"
     },
@@ -1537,11 +1403,9 @@ export default {
       "masked": "Sometimes ____.",
       "options": [
         "patient-pdf-001",
-        "patient-mcq-15",
-        "patient-mcq-17",
+        "patient-mcq-08",
         "patient-mcq-14",
-        "patient-mcq-18",
-        "patient-mcq-13"
+        "patient-mcq-23"
       ],
       "explanation": "本句的「patience pays off」指「願意等待和堅持最終帶來好的結果」。",
       "sentenceIndex": 33,
@@ -1550,12 +1414,10 @@ export default {
         "patience pays off"
       ],
       "optionReasons": {
-        "patient-pdf-001": "本句指「願意等待和堅持最終帶來好的結果」。",
-        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
-        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
-        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
-        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
-        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。"
+        "patient-pdf-001": "本句的「patience pays off」指「願意等待和堅持最終帶來好的結果」。",
+        "patient-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-pdf-001"
     },
@@ -1567,11 +1429,9 @@ export default {
       "masked": "Her ____ paid off when the project finally succeeded.",
       "options": [
         "patient-pdf-001",
-        "patient-mcq-15",
-        "patient-mcq-17",
-        "patient-mcq-14",
-        "patient-mcq-18",
-        "patient-mcq-13"
+        "patient-mcq-07",
+        "patient-mcq-23",
+        "patient-mcq-14"
       ],
       "explanation": "本句的「patience」指「願意等待和堅持最終帶來好的結果」。",
       "sentenceIndex": 34,
@@ -1580,12 +1440,10 @@ export default {
         "patience"
       ],
       "optionReasons": {
-        "patient-pdf-001": "本句指「願意等待和堅持最終帶來好的結果」。",
-        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
-        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
-        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
-        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
-        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。"
+        "patient-pdf-001": "本句的「patience」指「願意等待和堅持最終帶來好的結果」。",
+        "patient-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-pdf-001"
     },
@@ -1597,11 +1455,9 @@ export default {
       "masked": "She listened ____.",
       "options": [
         "patient-mcq-16",
-        "patient-mcq-15",
-        "patient-mcq-17",
-        "patient-mcq-14",
-        "patient-mcq-18",
-        "patient-mcq-13"
+        "patient-mcq-11",
+        "patient-mcq-08",
+        "patient-mcq-14"
       ],
       "explanation": "本句的「patiently」指「以冷靜、不急躁並願意等待的方式」。",
       "sentenceIndex": 35,
@@ -1610,12 +1466,10 @@ export default {
         "patiently"
       ],
       "optionReasons": {
-        "patient-mcq-16": "本句指「以冷靜、不急躁並願意等待的方式」。",
-        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
-        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
-        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
-        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
-        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。"
+        "patient-mcq-16": "本句的「patiently」指「以冷靜、不急躁並願意等待的方式」。",
+        "patient-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-16"
     },
@@ -1627,11 +1481,9 @@ export default {
       "masked": "He ____ explained the process again.",
       "options": [
         "patient-mcq-16",
-        "patient-mcq-15",
-        "patient-mcq-17",
-        "patient-mcq-14",
+        "patient-mcq-07",
         "patient-mcq-18",
-        "patient-mcq-13"
+        "patient-mcq-14"
       ],
       "explanation": "本句的「patiently」指「以冷靜、不急躁並願意等待的方式」。",
       "sentenceIndex": 36,
@@ -1640,12 +1492,10 @@ export default {
         "patiently"
       ],
       "optionReasons": {
-        "patient-mcq-16": "本句指「以冷靜、不急躁並願意等待的方式」。",
-        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
-        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
-        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。",
-        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
-        "patient-mcq-13": "「因等待、反覆問題或挫折而不再能保持冷靜」是「lose patience」的用法，與本句語境不同。"
+        "patient-mcq-16": "本句的「patiently」指「以冷靜、不急躁並願意等待的方式」。",
+        "patient-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-16"
     },
@@ -1657,11 +1507,9 @@ export default {
       "masked": "The children became ____ while waiting.",
       "options": [
         "patient-mcq-17",
-        "patient-mcq-16",
-        "patient-mcq-18",
-        "patient-mcq-15",
-        "patient-mcq-19",
-        "patient-mcq-14"
+        "patient-mcq-06",
+        "patient-mcq-04",
+        "patient-mcq-21"
       ],
       "explanation": "本句的「impatient」指「難以忍受等待／緩慢，因此容易感到煩躁」。",
       "sentenceIndex": 37,
@@ -1670,12 +1518,10 @@ export default {
         "impatient"
       ],
       "optionReasons": {
-        "patient-mcq-17": "本句指「難以忍受等待／緩慢，因此容易感到煩躁」。",
-        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。",
-        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
-        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
-        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
-        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。"
+        "patient-mcq-17": "本句的「impatient」指「難以忍受等待／緩慢，因此容易感到煩躁」。",
+        "patient-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-17"
     },
@@ -1687,11 +1533,9 @@ export default {
       "masked": "Don't be so ____.",
       "options": [
         "patient-mcq-17",
-        "patient-mcq-16",
-        "patient-mcq-18",
-        "patient-mcq-15",
-        "patient-mcq-19",
-        "patient-mcq-14"
+        "patient-mcq-04",
+        "patient-mcq-06",
+        "patient-mcq-21"
       ],
       "explanation": "本句的「impatient」指「難以忍受等待／緩慢，因此容易感到煩躁」。",
       "sentenceIndex": 38,
@@ -1700,12 +1544,10 @@ export default {
         "impatient"
       ],
       "optionReasons": {
-        "patient-mcq-17": "本句指「難以忍受等待／緩慢，因此容易感到煩躁」。",
-        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。",
-        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
-        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。",
-        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
-        "patient-mcq-14": "「忍耐已接近或達到極限」是「run out of patience」的用法，與本句語境不同。"
+        "patient-mcq-17": "本句的「impatient」指「難以忍受等待／緩慢，因此容易感到煩躁」。",
+        "patient-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-17"
     },
@@ -1717,11 +1559,9 @@ export default {
       "masked": "He became ____ the slow service.",
       "options": [
         "patient-mcq-18",
-        "patient-mcq-17",
         "patient-mcq-19",
         "patient-mcq-16",
-        "patient-mcq-20",
-        "patient-mcq-15"
+        "patient-mcq-08"
       ],
       "explanation": "本句的「impatient with」指「對某人或某情況難以保持耐性」。",
       "sentenceIndex": 39,
@@ -1730,12 +1570,10 @@ export default {
         "impatient with"
       ],
       "optionReasons": {
-        "patient-mcq-18": "本句指「對某人或某情況難以保持耐性」。",
-        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
-        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
-        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。",
-        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
-        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。"
+        "patient-mcq-18": "本句的「impatient with」指「對某人或某情況難以保持耐性」。",
+        "patient-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-18"
     },
@@ -1747,11 +1585,9 @@ export default {
       "masked": "Try not to be ____ beginners.",
       "options": [
         "patient-mcq-18",
-        "patient-mcq-17",
-        "patient-mcq-19",
-        "patient-mcq-16",
-        "patient-mcq-20",
-        "patient-mcq-15"
+        "patient-mcq-21",
+        "patient-mcq-07",
+        "patient-mcq-04"
       ],
       "explanation": "本句的「impatient with」指「對某人或某情況難以保持耐性」。",
       "sentenceIndex": 40,
@@ -1760,12 +1596,10 @@ export default {
         "impatient with"
       ],
       "optionReasons": {
-        "patient-mcq-18": "本句指「對某人或某情況難以保持耐性」。",
-        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
-        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
-        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。",
-        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
-        "patient-mcq-15": "「令某人愈來愈難保持耐性」是「test someone's patience」的用法，與本句語境不同。"
+        "patient-mcq-18": "本句的「impatient with」指「對某人或某情況難以保持耐性」。",
+        "patient-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-18"
     },
@@ -1777,11 +1611,9 @@ export default {
       "masked": "She was ____ the news.",
       "options": [
         "patient-mcq-19",
-        "patient-mcq-18",
-        "patient-mcq-20",
-        "patient-mcq-17",
-        "patient-mcq-21",
-        "patient-mcq-16"
+        "patient-mcq-04",
+        "patient-mcq-06",
+        "patient-mcq-14"
       ],
       "explanation": "本句的「impatient to hear」指「非常渴望某事盡快發生，因此迫不及待」。",
       "sentenceIndex": 41,
@@ -1790,12 +1622,10 @@ export default {
         "impatient to hear"
       ],
       "optionReasons": {
-        "patient-mcq-19": "本句指「非常渴望某事盡快發生，因此迫不及待」。",
-        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
-        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
-        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
-        "patient-mcq-21": "「強烈希望某件事立即發生、不願再等的急切感」是「impatience — eagerness」的用法，與本句語境不同。",
-        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。"
+        "patient-mcq-19": "本句的「impatient to hear」指「非常渴望某事盡快發生，因此迫不及待」。",
+        "patient-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-19"
     },
@@ -1807,11 +1637,9 @@ export default {
       "masked": "The children were ____ the holiday to begin.",
       "options": [
         "patient-mcq-19",
-        "patient-mcq-18",
-        "patient-mcq-20",
-        "patient-mcq-17",
-        "patient-mcq-21",
-        "patient-mcq-16"
+        "patient-mcq-22",
+        "patient-mcq-07",
+        "patient-mcq-14"
       ],
       "explanation": "本句的「impatient for」指「非常渴望某事盡快發生，因此迫不及待」。",
       "sentenceIndex": 42,
@@ -1820,12 +1648,10 @@ export default {
         "impatient for"
       ],
       "optionReasons": {
-        "patient-mcq-19": "本句指「非常渴望某事盡快發生，因此迫不及待」。",
-        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
-        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
-        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。",
-        "patient-mcq-21": "「強烈希望某件事立即發生、不願再等的急切感」是「impatience — eagerness」的用法，與本句語境不同。",
-        "patient-mcq-16": "「以冷靜、不急躁並願意等待的方式」是「patiently」的用法，與本句語境不同。"
+        "patient-mcq-19": "本句的「impatient for」指「非常渴望某事盡快發生，因此迫不及待」。",
+        "patient-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-19"
     },
@@ -1837,11 +1663,9 @@ export default {
       "masked": "His ____ was obvious.",
       "options": [
         "patient-mcq-20",
-        "patient-mcq-19",
-        "patient-mcq-21",
-        "patient-mcq-18",
-        "patient-mcq-22",
-        "patient-mcq-17"
+        "patient-mcq-06",
+        "patient-mcq-14",
+        "patient-mcq-04"
       ],
       "explanation": "本句的「impatience」指「因等待或進展緩慢而產生的不耐煩和急躁」。",
       "sentenceIndex": 43,
@@ -1850,12 +1674,10 @@ export default {
         "impatience"
       ],
       "optionReasons": {
-        "patient-mcq-20": "本句指「因等待或進展緩慢而產生的不耐煩和急躁」。",
-        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
-        "patient-mcq-21": "「強烈希望某件事立即發生、不願再等的急切感」是「impatience — eagerness」的用法，與本句語境不同。",
-        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
-        "patient-mcq-22": "「不要急躁，給事情、別人或自己足夠時間」是「4. be patient = 等一等；要有耐性」的用法，與本句語境不同。",
-        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。"
+        "patient-mcq-20": "本句的「impatience」指「因等待或進展緩慢而產生的不耐煩和急躁」。",
+        "patient-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-20"
     },
@@ -1867,11 +1689,9 @@ export default {
       "masked": "She showed no ____ despite the delay.",
       "options": [
         "patient-mcq-20",
-        "patient-mcq-19",
-        "patient-mcq-21",
-        "patient-mcq-18",
-        "patient-mcq-22",
-        "patient-mcq-17"
+        "patient-mcq-07",
+        "patient-mcq-14",
+        "patient-mcq-18"
       ],
       "explanation": "本句的「impatience」指「因等待或進展緩慢而產生的不耐煩和急躁」。",
       "sentenceIndex": 44,
@@ -1880,12 +1700,10 @@ export default {
         "impatience"
       ],
       "optionReasons": {
-        "patient-mcq-20": "本句指「因等待或進展緩慢而產生的不耐煩和急躁」。",
-        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
-        "patient-mcq-21": "「強烈希望某件事立即發生、不願再等的急切感」是「impatience — eagerness」的用法，與本句語境不同。",
-        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。",
-        "patient-mcq-22": "「不要急躁，給事情、別人或自己足夠時間」是「4. be patient = 等一等；要有耐性」的用法，與本句語境不同。",
-        "patient-mcq-17": "「難以忍受等待／緩慢，因此容易感到煩躁」是「impatient — annoyed」的用法，與本句語境不同。"
+        "patient-mcq-20": "本句的「impatience」指「因等待或進展緩慢而產生的不耐煩和急躁」。",
+        "patient-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-20"
     },
@@ -1897,11 +1715,9 @@ export default {
       "masked": "She waited with ____ for the results.",
       "options": [
         "patient-mcq-21",
-        "patient-mcq-20",
-        "patient-mcq-22",
-        "patient-mcq-19",
-        "patient-mcq-23",
-        "patient-mcq-18"
+        "patient-mcq-08",
+        "patient-mcq-02",
+        "patient-mcq-14"
       ],
       "explanation": "本句的「impatience」指「強烈希望某件事立即發生、不願再等的急切感」。",
       "sentenceIndex": 45,
@@ -1910,12 +1726,10 @@ export default {
         "impatience"
       ],
       "optionReasons": {
-        "patient-mcq-21": "本句指「強烈希望某件事立即發生、不願再等的急切感」。",
-        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
-        "patient-mcq-22": "「不要急躁，給事情、別人或自己足夠時間」是「4. be patient = 等一等；要有耐性」的用法，與本句語境不同。",
-        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
-        "patient-mcq-23": "「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」是「24. impatiently = in an annoyed/eager way（不耐煩／急切地） — 不耐煩地；急切地」的用法，與本句語境不同。",
-        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。"
+        "patient-mcq-21": "本句的「impatience」指「強烈希望某件事立即發生、不願再等的急切感」。",
+        "patient-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-21"
     },
@@ -1927,11 +1741,9 @@ export default {
       "masked": "His ____ to begin was obvious.",
       "options": [
         "patient-mcq-21",
-        "patient-mcq-20",
-        "patient-mcq-22",
-        "patient-mcq-19",
-        "patient-mcq-23",
-        "patient-mcq-18"
+        "patient-mcq-18",
+        "patient-mcq-08",
+        "patient-mcq-14"
       ],
       "explanation": "本句的「impatience」指「強烈希望某件事立即發生、不願再等的急切感」。",
       "sentenceIndex": 46,
@@ -1940,12 +1752,10 @@ export default {
         "impatience"
       ],
       "optionReasons": {
-        "patient-mcq-21": "本句指「強烈希望某件事立即發生、不願再等的急切感」。",
-        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
-        "patient-mcq-22": "「不要急躁，給事情、別人或自己足夠時間」是「4. be patient = 等一等；要有耐性」的用法，與本句語境不同。",
-        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
-        "patient-mcq-23": "「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」是「24. impatiently = in an annoyed/eager way（不耐煩／急切地） — 不耐煩地；急切地」的用法，與本句語境不同。",
-        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。"
+        "patient-mcq-21": "本句的「impatience」指「強烈希望某件事立即發生、不願再等的急切感」。",
+        "patient-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-21"
     },
@@ -1957,11 +1767,9 @@ export default {
       "masked": "He tapped his fingers ____.",
       "options": [
         "patient-mcq-23",
-        "patient-mcq-22",
-        "patient-mcq-21",
-        "patient-mcq-20",
-        "patient-mcq-19",
-        "patient-mcq-18"
+        "patient-mcq-06",
+        "patient-pdf-001",
+        "patient-mcq-14"
       ],
       "explanation": "本句的「impatiently」指「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」。",
       "sentenceIndex": 47,
@@ -1970,12 +1778,10 @@ export default {
         "impatiently"
       ],
       "optionReasons": {
-        "patient-mcq-23": "本句指「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」。",
-        "patient-mcq-22": "「不要急躁，給事情、別人或自己足夠時間」是「4. be patient = 等一等；要有耐性」的用法，與本句語境不同。",
-        "patient-mcq-21": "「強烈希望某件事立即發生、不願再等的急切感」是「impatience — eagerness」的用法，與本句語境不同。",
-        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
-        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
-        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。"
+        "patient-mcq-23": "本句的「impatiently」指「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」。",
+        "patient-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "patient-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-23"
     },
@@ -1987,11 +1793,9 @@ export default {
       "masked": "She waited ____ for the announcement.",
       "options": [
         "patient-mcq-23",
-        "patient-mcq-22",
-        "patient-mcq-21",
-        "patient-mcq-20",
-        "patient-mcq-19",
-        "patient-mcq-18"
+        "patient-mcq-13",
+        "patient-mcq-05",
+        "patient-mcq-14"
       ],
       "explanation": "本句的「impatiently」指「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」。",
       "sentenceIndex": 48,
@@ -2000,12 +1804,10 @@ export default {
         "impatiently"
       ],
       "optionReasons": {
-        "patient-mcq-23": "本句指「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」。",
-        "patient-mcq-22": "「不要急躁，給事情、別人或自己足夠時間」是「4. be patient = 等一等；要有耐性」的用法，與本句語境不同。",
-        "patient-mcq-21": "「強烈希望某件事立即發生、不願再等的急切感」是「impatience — eagerness」的用法，與本句語境不同。",
-        "patient-mcq-20": "「因等待或進展緩慢而產生的不耐煩和急躁」是「impatience — irritation」的用法，與本句語境不同。",
-        "patient-mcq-19": "「非常渴望某事盡快發生，因此迫不及待」是「impatient to/for」的用法，與本句語境不同。",
-        "patient-mcq-18": "「對某人或某情況難以保持耐性」是「impatient with」的用法，與本句語境不同。"
+        "patient-mcq-23": "本句的「impatiently」指「以缺乏耐性、煩躁，或急切希望事情快點發生的方式」。",
+        "patient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "patient-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "patient-mcq-23"
     }
@@ -2017,5 +1819,7 @@ export default {
     "sha256": "89ed5f22e2c4d89e4815b9273ac0fd6f294b00f53c8f1290d700e7dffbda80c6",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

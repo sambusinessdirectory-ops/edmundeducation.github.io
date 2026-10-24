@@ -653,11 +653,9 @@ export default {
       "masked": "The children ____.",
       "options": [
         "laugh-mcq-01",
-        "laugh-mcq-02",
-        "laugh-mcq-03",
         "laugh-mcq-04",
-        "laugh-mcq-05",
-        "laugh-mcq-06"
+        "laugh-mcq-27",
+        "laugh-mcq-26"
       ],
       "explanation": "本句的「laughed with delight」指「因好笑、開心等而發出笑聲；笑」。",
       "sentenceIndex": 4,
@@ -666,12 +664,10 @@ export default {
         "laughed with delight"
       ],
       "optionReasons": {
-        "laugh-mcq-01": "本句指「因好笑、開心等而發出笑聲；笑」。",
-        "laugh-mcq-02": "「因某件事有趣／好笑而笑」與本句語境不同。",
-        "laugh-mcq-03": "「因某人而發笑並使其難堪；嘲笑／取笑」與本句語境不同。",
-        "laugh-mcq-04": "「與某人共同歡笑，而不是嘲笑對方」與本句語境不同。",
-        "laugh-mcq-05": "「別人在笑時也跟著一起笑／附和地笑」與本句語境不同。",
-        "laugh-mcq-06": "「一聲／一陣笑；笑聲」與本句語境不同。"
+        "laugh-mcq-01": "本句的「laughed with delight」指「因好笑、開心等而發出笑聲；笑」。",
+        "laugh-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-01"
     },
@@ -683,11 +679,9 @@ export default {
       "masked": "We spent the evening talking and ____.",
       "options": [
         "laugh-mcq-01",
-        "laugh-mcq-02",
-        "laugh-mcq-03",
-        "laugh-mcq-04",
-        "laugh-mcq-05",
-        "laugh-mcq-06"
+        "laugh-mcq-17",
+        "laugh-mcq-23",
+        "laugh-mcq-27"
       ],
       "explanation": "本句的「laughing」指「因好笑、開心等而發出笑聲；笑」。",
       "sentenceIndex": 5,
@@ -696,12 +690,10 @@ export default {
         "laughing"
       ],
       "optionReasons": {
-        "laugh-mcq-01": "本句指「因好笑、開心等而發出笑聲；笑」。",
-        "laugh-mcq-02": "「因某件事有趣／好笑而笑」與本句語境不同。",
-        "laugh-mcq-03": "「因某人而發笑並使其難堪；嘲笑／取笑」與本句語境不同。",
-        "laugh-mcq-04": "「與某人共同歡笑，而不是嘲笑對方」與本句語境不同。",
-        "laugh-mcq-05": "「別人在笑時也跟著一起笑／附和地笑」與本句語境不同。",
-        "laugh-mcq-06": "「一聲／一陣笑；笑聲」與本句語境不同。"
+        "laugh-mcq-01": "本句的「laughing」指「因好笑、開心等而發出笑聲；笑」。",
+        "laugh-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-01"
     },
@@ -713,11 +705,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "laugh-mcq-02",
-        "laugh-mcq-01",
-        "laugh-mcq-03",
-        "laugh-mcq-04",
-        "laugh-mcq-05",
-        "laugh-mcq-06"
+        "laugh-mcq-27",
+        "laugh-mcq-18",
+        "laugh-mcq-04"
       ],
       "explanation": "本句的「laughed at the comedy」指「因某件事有趣／好笑而笑」。",
       "sentenceIndex": 6,
@@ -726,12 +716,10 @@ export default {
         "laughed at the comedy"
       ],
       "optionReasons": {
-        "laugh-mcq-02": "本句指「因某件事有趣／好笑而笑」。",
-        "laugh-mcq-01": "「因好笑、開心等而發出笑聲；笑」與本句語境不同。",
-        "laugh-mcq-03": "「因某人而發笑並使其難堪；嘲笑／取笑」與本句語境不同。",
-        "laugh-mcq-04": "「與某人共同歡笑，而不是嘲笑對方」與本句語境不同。",
-        "laugh-mcq-05": "「別人在笑時也跟著一起笑／附和地笑」與本句語境不同。",
-        "laugh-mcq-06": "「一聲／一陣笑；笑聲」與本句語境不同。"
+        "laugh-mcq-02": "本句的「laughed at the comedy」指「因某件事有趣／好笑而笑」。",
+        "laugh-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-02"
     },
@@ -743,11 +731,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "laugh-mcq-02",
-        "laugh-mcq-01",
-        "laugh-mcq-03",
-        "laugh-mcq-04",
-        "laugh-mcq-05",
-        "laugh-mcq-06"
+        "laugh-mcq-22",
+        "laugh-mcq-10",
+        "laugh-mcq-25"
       ],
       "explanation": "本句的「laughed at his joke」指「因某件事有趣／好笑而笑」。",
       "sentenceIndex": 7,
@@ -756,12 +742,10 @@ export default {
         "laughed at his joke"
       ],
       "optionReasons": {
-        "laugh-mcq-02": "本句指「因某件事有趣／好笑而笑」。",
-        "laugh-mcq-01": "「因好笑、開心等而發出笑聲；笑」與本句語境不同。",
-        "laugh-mcq-03": "「因某人而發笑並使其難堪；嘲笑／取笑」與本句語境不同。",
-        "laugh-mcq-04": "「與某人共同歡笑，而不是嘲笑對方」與本句語境不同。",
-        "laugh-mcq-05": "「別人在笑時也跟著一起笑／附和地笑」與本句語境不同。",
-        "laugh-mcq-06": "「一聲／一陣笑；笑聲」與本句語境不同。"
+        "laugh-mcq-02": "本句的「laughed at his joke」指「因某件事有趣／好笑而笑」。",
+        "laugh-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-02"
     },
@@ -773,11 +757,9 @@ export default {
       "masked": "The other students ____.",
       "options": [
         "laugh-mcq-03",
-        "laugh-mcq-02",
-        "laugh-mcq-04",
-        "laugh-mcq-01",
-        "laugh-mcq-05",
-        "laugh-mcq-06"
+        "laugh-mcq-08",
+        "laugh-mcq-10",
+        "laugh-mcq-24"
       ],
       "explanation": "本句的「laughed at him」指「因某人而發笑並使其難堪；嘲笑／取笑」。",
       "sentenceIndex": 8,
@@ -786,12 +768,10 @@ export default {
         "laughed at him"
       ],
       "optionReasons": {
-        "laugh-mcq-03": "本句指「因某人而發笑並使其難堪；嘲笑／取笑」。",
-        "laugh-mcq-02": "「因某件事有趣／好笑而笑」與本句語境不同。",
-        "laugh-mcq-04": "「與某人共同歡笑，而不是嘲笑對方」與本句語境不同。",
-        "laugh-mcq-01": "「因好笑、開心等而發出笑聲；笑」與本句語境不同。",
-        "laugh-mcq-05": "「別人在笑時也跟著一起笑／附和地笑」與本句語境不同。",
-        "laugh-mcq-06": "「一聲／一陣笑；笑聲」與本句語境不同。"
+        "laugh-mcq-03": "本句的「laughed at him」指「因某人而發笑並使其難堪；嘲笑／取笑」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-03"
     },
@@ -803,11 +783,9 @@ export default {
       "masked": "Never ____ for making a mistake.",
       "options": [
         "laugh-mcq-03",
-        "laugh-mcq-02",
-        "laugh-mcq-04",
-        "laugh-mcq-01",
-        "laugh-mcq-05",
-        "laugh-mcq-06"
+        "laugh-mcq-08",
+        "laugh-mcq-10",
+        "laugh-mcq-11"
       ],
       "explanation": "本句的「laugh at someone」指「因某人而發笑並使其難堪；嘲笑／取笑」。",
       "sentenceIndex": 9,
@@ -816,12 +794,10 @@ export default {
         "laugh at someone"
       ],
       "optionReasons": {
-        "laugh-mcq-03": "本句指「因某人而發笑並使其難堪；嘲笑／取笑」。",
-        "laugh-mcq-02": "「因某件事有趣／好笑而笑」與本句語境不同。",
-        "laugh-mcq-04": "「與某人共同歡笑，而不是嘲笑對方」與本句語境不同。",
-        "laugh-mcq-01": "「因好笑、開心等而發出笑聲；笑」與本句語境不同。",
-        "laugh-mcq-05": "「別人在笑時也跟著一起笑／附和地笑」與本句語境不同。",
-        "laugh-mcq-06": "「一聲／一陣笑；笑聲」與本句語境不同。"
+        "laugh-mcq-03": "本句的「laugh at someone」指「因某人而發笑並使其難堪；嘲笑／取笑」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-03"
     },
@@ -833,11 +809,9 @@ export default {
       "masked": "We were ____, not at each other.",
       "options": [
         "laugh-mcq-04",
-        "laugh-mcq-03",
-        "laugh-mcq-05",
-        "laugh-mcq-02",
-        "laugh-mcq-06",
-        "laugh-mcq-01"
+        "laugh-mcq-10",
+        "laugh-mcq-08",
+        "laugh-mcq-29"
       ],
       "explanation": "本句的「laughing with each other」指「與某人共同歡笑，而不是嘲笑對方」。",
       "sentenceIndex": 10,
@@ -846,12 +820,10 @@ export default {
         "laughing with each other"
       ],
       "optionReasons": {
-        "laugh-mcq-04": "本句指「與某人共同歡笑，而不是嘲笑對方」。",
-        "laugh-mcq-03": "「因某人而發笑並使其難堪；嘲笑／取笑」與本句語境不同。",
-        "laugh-mcq-05": "「別人在笑時也跟著一起笑／附和地笑」與本句語境不同。",
-        "laugh-mcq-02": "「因某件事有趣／好笑而笑」與本句語境不同。",
-        "laugh-mcq-06": "「一聲／一陣笑；笑聲」與本句語境不同。",
-        "laugh-mcq-01": "「因好笑、開心等而發出笑聲；笑」與本句語境不同。"
+        "laugh-mcq-04": "本句的「laughing with each other」指「與某人共同歡笑，而不是嘲笑對方」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-04"
     },
@@ -863,11 +835,9 @@ export default {
       "masked": "She likes people she can ____.",
       "options": [
         "laugh-mcq-04",
-        "laugh-mcq-03",
-        "laugh-mcq-05",
-        "laugh-mcq-02",
-        "laugh-mcq-06",
-        "laugh-mcq-01"
+        "laugh-mcq-10",
+        "laugh-mcq-08",
+        "laugh-mcq-23"
       ],
       "explanation": "本句的「laugh with」指「與某人共同歡笑，而不是嘲笑對方」。",
       "sentenceIndex": 11,
@@ -876,12 +846,10 @@ export default {
         "laugh with"
       ],
       "optionReasons": {
-        "laugh-mcq-04": "本句指「與某人共同歡笑，而不是嘲笑對方」。",
-        "laugh-mcq-03": "「因某人而發笑並使其難堪；嘲笑／取笑」與本句語境不同。",
-        "laugh-mcq-05": "「別人在笑時也跟著一起笑／附和地笑」與本句語境不同。",
-        "laugh-mcq-02": "「因某件事有趣／好笑而笑」與本句語境不同。",
-        "laugh-mcq-06": "「一聲／一陣笑；笑聲」與本句語境不同。",
-        "laugh-mcq-01": "「因好笑、開心等而發出笑聲；笑」與本句語境不同。"
+        "laugh-mcq-04": "本句的「laugh with」指「與某人共同歡笑，而不是嘲笑對方」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-04"
     },
@@ -893,11 +861,9 @@ export default {
       "masked": "He did not understand the joke but ____ anyway.",
       "options": [
         "laugh-mcq-05",
-        "laugh-mcq-04",
-        "laugh-mcq-06",
-        "laugh-mcq-03",
-        "laugh-mcq-07",
-        "laugh-mcq-02"
+        "laugh-mcq-10",
+        "laugh-mcq-08",
+        "laugh-mcq-26"
       ],
       "explanation": "本句的「laughed along」指「別人在笑時也跟著一起笑／附和地笑」。",
       "sentenceIndex": 12,
@@ -906,12 +872,10 @@ export default {
         "laughed along"
       ],
       "optionReasons": {
-        "laugh-mcq-05": "本句指「別人在笑時也跟著一起笑／附和地笑」。",
-        "laugh-mcq-04": "「與某人共同歡笑，而不是嘲笑對方」與本句語境不同。",
-        "laugh-mcq-06": "「一聲／一陣笑；笑聲」與本句語境不同。",
-        "laugh-mcq-03": "「因某人而發笑並使其難堪；嘲笑／取笑」與本句語境不同。",
-        "laugh-mcq-07": "「開心說笑、一起享受輕鬆時光」與本句語境不同。",
-        "laugh-mcq-02": "「因某件事有趣／好笑而笑」與本句語境不同。"
+        "laugh-mcq-05": "本句的「laughed along」指「別人在笑時也跟著一起笑／附和地笑」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-05"
     },
@@ -923,11 +887,9 @@ export default {
       "masked": "Everyone else was mocking her, and several students ____.",
       "options": [
         "laugh-mcq-05",
-        "laugh-mcq-04",
-        "laugh-mcq-06",
-        "laugh-mcq-03",
-        "laugh-mcq-07",
-        "laugh-mcq-02"
+        "laugh-mcq-10",
+        "laugh-mcq-08",
+        "laugh-mcq-27"
       ],
       "explanation": "本句的「laughed along」指「別人在笑時也跟著一起笑／附和地笑」。",
       "sentenceIndex": 13,
@@ -936,12 +898,10 @@ export default {
         "laughed along"
       ],
       "optionReasons": {
-        "laugh-mcq-05": "本句指「別人在笑時也跟著一起笑／附和地笑」。",
-        "laugh-mcq-04": "「與某人共同歡笑，而不是嘲笑對方」與本句語境不同。",
-        "laugh-mcq-06": "「一聲／一陣笑；笑聲」與本句語境不同。",
-        "laugh-mcq-03": "「因某人而發笑並使其難堪；嘲笑／取笑」與本句語境不同。",
-        "laugh-mcq-07": "「開心說笑、一起享受輕鬆時光」與本句語境不同。",
-        "laugh-mcq-02": "「因某件事有趣／好笑而笑」與本句語境不同。"
+        "laugh-mcq-05": "本句的「laughed along」指「別人在笑時也跟著一起笑／附和地笑」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-05"
     },
@@ -953,11 +913,8 @@ export default {
       "masked": "I heard a loud ____ behind me.",
       "options": [
         "laugh-mcq-06",
-        "laugh-mcq-05",
-        "laugh-mcq-07",
-        "laugh-mcq-04",
         "laugh-mcq-08",
-        "laugh-mcq-03"
+        "laugh-mcq-10"
       ],
       "explanation": "本句的「laugh」指「一聲／一陣笑；笑聲」。",
       "sentenceIndex": 14,
@@ -966,12 +923,9 @@ export default {
         "laugh"
       ],
       "optionReasons": {
-        "laugh-mcq-06": "本句指「一聲／一陣笑；笑聲」。",
-        "laugh-mcq-05": "「別人在笑時也跟著一起笑／附和地笑」與本句語境不同。",
-        "laugh-mcq-07": "「開心說笑、一起享受輕鬆時光」與本句語境不同。",
-        "laugh-mcq-04": "「與某人共同歡笑，而不是嘲笑對方」與本句語境不同。",
-        "laugh-mcq-08": "「非正式：有趣、令人開心的人」與本句語境不同。",
-        "laugh-mcq-03": "「因某人而發笑並使其難堪；嘲笑／取笑」與本句語境不同。"
+        "laugh-mcq-06": "本句的「laugh」指「一聲／一陣笑；笑聲」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-06"
     },
@@ -983,11 +937,8 @@ export default {
       "masked": "Her ____ is very distinctive.",
       "options": [
         "laugh-mcq-06",
-        "laugh-mcq-05",
-        "laugh-mcq-07",
-        "laugh-mcq-04",
-        "laugh-mcq-08",
-        "laugh-mcq-03"
+        "laugh-mcq-10",
+        "laugh-mcq-08"
       ],
       "explanation": "本句的「laugh」指「一聲／一陣笑；笑聲」。",
       "sentenceIndex": 15,
@@ -996,12 +947,9 @@ export default {
         "laugh"
       ],
       "optionReasons": {
-        "laugh-mcq-06": "本句指「一聲／一陣笑；笑聲」。",
-        "laugh-mcq-05": "「別人在笑時也跟著一起笑／附和地笑」與本句語境不同。",
-        "laugh-mcq-07": "「開心說笑、一起享受輕鬆時光」與本句語境不同。",
-        "laugh-mcq-04": "「與某人共同歡笑，而不是嘲笑對方」與本句語境不同。",
-        "laugh-mcq-08": "「非正式：有趣、令人開心的人」與本句語境不同。",
-        "laugh-mcq-03": "「因某人而發笑並使其難堪；嘲笑／取笑」與本句語境不同。"
+        "laugh-mcq-06": "本句的「laugh」指「一聲／一陣笑；笑聲」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-06"
     },
@@ -1013,11 +961,9 @@ export default {
       "masked": "We always ____ together.",
       "options": [
         "laugh-mcq-07",
-        "laugh-mcq-06",
-        "laugh-mcq-08",
-        "laugh-mcq-05",
-        "laugh-mcq-09",
-        "laugh-mcq-04"
+        "laugh-mcq-10",
+        "laugh-mcq-29",
+        "laugh-mcq-16"
       ],
       "explanation": "本句的「have a laugh」指「開心說笑、一起享受輕鬆時光」。",
       "sentenceIndex": 16,
@@ -1026,12 +972,10 @@ export default {
         "have a laugh"
       ],
       "optionReasons": {
-        "laugh-mcq-07": "本句指「開心說笑、一起享受輕鬆時光」。",
-        "laugh-mcq-06": "「一聲／一陣笑；笑聲」與本句語境不同。",
-        "laugh-mcq-08": "「非正式：有趣、令人開心的人」與本句語境不同。",
-        "laugh-mcq-05": "「別人在笑時也跟著一起笑／附和地笑」與本句語境不同。",
-        "laugh-mcq-09": "「好玩／令人開心的經歷；亦可指開懷大笑」與本句語境不同。",
-        "laugh-mcq-04": "「與某人共同歡笑，而不是嘲笑對方」與本句語境不同。"
+        "laugh-mcq-07": "本句的「have a laugh」指「開心說笑、一起享受輕鬆時光」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-07"
     },
@@ -1043,11 +987,9 @@ export default {
       "masked": "The trip gave everyone a chance to ____.",
       "options": [
         "laugh-mcq-07",
-        "laugh-mcq-06",
-        "laugh-mcq-08",
-        "laugh-mcq-05",
-        "laugh-mcq-09",
-        "laugh-mcq-04"
+        "laugh-mcq-10",
+        "laugh-mcq-03",
+        "laugh-mcq-12"
       ],
       "explanation": "本句的「have a laugh」指「開心說笑、一起享受輕鬆時光」。",
       "sentenceIndex": 17,
@@ -1056,12 +998,10 @@ export default {
         "have a laugh"
       ],
       "optionReasons": {
-        "laugh-mcq-07": "本句指「開心說笑、一起享受輕鬆時光」。",
-        "laugh-mcq-06": "「一聲／一陣笑；笑聲」與本句語境不同。",
-        "laugh-mcq-08": "「非正式：有趣、令人開心的人」與本句語境不同。",
-        "laugh-mcq-05": "「別人在笑時也跟著一起笑／附和地笑」與本句語境不同。",
-        "laugh-mcq-09": "「好玩／令人開心的經歷；亦可指開懷大笑」與本句語境不同。",
-        "laugh-mcq-04": "「與某人共同歡笑，而不是嘲笑對方」與本句語境不同。"
+        "laugh-mcq-07": "本句的「have a laugh」指「開心說笑、一起享受輕鬆時光」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-07"
     },
@@ -1073,11 +1013,9 @@ export default {
       "masked": "He’s ____.",
       "options": [
         "laugh-mcq-08",
-        "laugh-mcq-07",
-        "laugh-mcq-09",
-        "laugh-mcq-06",
-        "laugh-mcq-10",
-        "laugh-mcq-05"
+        "laugh-mcq-13",
+        "laugh-mcq-14",
+        "laugh-mcq-22"
       ],
       "explanation": "本句的「a good laugh」指「非正式：有趣、令人開心的人」。",
       "sentenceIndex": 18,
@@ -1086,12 +1024,10 @@ export default {
         "a good laugh"
       ],
       "optionReasons": {
-        "laugh-mcq-08": "本句指「非正式：有趣、令人開心的人」。",
-        "laugh-mcq-07": "「開心說笑、一起享受輕鬆時光」與本句語境不同。",
-        "laugh-mcq-09": "「好玩／令人開心的經歷；亦可指開懷大笑」與本句語境不同。",
-        "laugh-mcq-06": "「一聲／一陣笑；笑聲」與本句語境不同。",
-        "laugh-mcq-10": "「只是為了好玩、娛樂，不是認真地」與本句語境不同。",
-        "laugh-mcq-05": "「別人在笑時也跟著一起笑／附和地笑」與本句語境不同。"
+        "laugh-mcq-08": "本句的「a good laugh」指「非正式：有趣、令人開心的人」。",
+        "laugh-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-08"
     },
@@ -1103,11 +1039,8 @@ export default {
       "masked": "The party was ____.",
       "options": [
         "laugh-mcq-08",
-        "laugh-mcq-07",
-        "laugh-mcq-09",
-        "laugh-mcq-06",
-        "laugh-mcq-10",
-        "laugh-mcq-05"
+        "laugh-mcq-19",
+        "laugh-mcq-10"
       ],
       "explanation": "本句的「a laugh」指「非正式：有趣、令人開心的人」。",
       "sentenceIndex": 19,
@@ -1116,12 +1049,9 @@ export default {
         "a laugh"
       ],
       "optionReasons": {
-        "laugh-mcq-08": "本句指「非正式：有趣、令人開心的人」。",
-        "laugh-mcq-07": "「開心說笑、一起享受輕鬆時光」與本句語境不同。",
-        "laugh-mcq-09": "「好玩／令人開心的經歷；亦可指開懷大笑」與本句語境不同。",
-        "laugh-mcq-06": "「一聲／一陣笑；笑聲」與本句語境不同。",
-        "laugh-mcq-10": "「只是為了好玩、娛樂，不是認真地」與本句語境不同。",
-        "laugh-mcq-05": "「別人在笑時也跟著一起笑／附和地笑」與本句語境不同。"
+        "laugh-mcq-08": "本句的「a laugh」指「非正式：有趣、令人開心的人」。",
+        "laugh-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-08"
     },
@@ -1133,11 +1063,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "laugh-mcq-09",
-        "laugh-mcq-08",
-        "laugh-mcq-10",
-        "laugh-mcq-07",
-        "laugh-mcq-11",
-        "laugh-mcq-06"
+        "laugh-mcq-20",
+        "laugh-mcq-18",
+        "laugh-mcq-28"
       ],
       "explanation": "本句的「a good laugh」指「好玩／令人開心的經歷；亦可指開懷大笑」。",
       "sentenceIndex": 20,
@@ -1146,12 +1074,10 @@ export default {
         "a good laugh"
       ],
       "optionReasons": {
-        "laugh-mcq-09": "本句指「好玩／令人開心的經歷；亦可指開懷大笑」。",
-        "laugh-mcq-08": "「非正式：有趣、令人開心的人」與本句語境不同。",
-        "laugh-mcq-10": "「只是為了好玩、娛樂，不是認真地」與本句語境不同。",
-        "laugh-mcq-07": "「開心說笑、一起享受輕鬆時光」與本句語境不同。",
-        "laugh-mcq-11": "「突然開始大笑」與本句語境不同。",
-        "laugh-mcq-06": "「一聲／一陣笑；笑聲」與本句語境不同。"
+        "laugh-mcq-09": "本句的「a good laugh」指「好玩／令人開心的經歷；亦可指開懷大笑」。",
+        "laugh-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-09"
     },
@@ -1163,11 +1089,9 @@ export default {
       "masked": "We had ____ about the mistake later.",
       "options": [
         "laugh-mcq-09",
-        "laugh-mcq-08",
-        "laugh-mcq-10",
-        "laugh-mcq-07",
-        "laugh-mcq-11",
-        "laugh-mcq-06"
+        "laugh-mcq-24",
+        "laugh-mcq-13",
+        "laugh-mcq-22"
       ],
       "explanation": "本句的「a good laugh」指「好玩／令人開心的經歷；亦可指開懷大笑」。",
       "sentenceIndex": 21,
@@ -1176,12 +1100,10 @@ export default {
         "a good laugh"
       ],
       "optionReasons": {
-        "laugh-mcq-09": "本句指「好玩／令人開心的經歷；亦可指開懷大笑」。",
-        "laugh-mcq-08": "「非正式：有趣、令人開心的人」與本句語境不同。",
-        "laugh-mcq-10": "「只是為了好玩、娛樂，不是認真地」與本句語境不同。",
-        "laugh-mcq-07": "「開心說笑、一起享受輕鬆時光」與本句語境不同。",
-        "laugh-mcq-11": "「突然開始大笑」與本句語境不同。",
-        "laugh-mcq-06": "「一聲／一陣笑；笑聲」與本句語境不同。"
+        "laugh-mcq-09": "本句的「a good laugh」指「好玩／令人開心的經歷；亦可指開懷大笑」。",
+        "laugh-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-09"
     },
@@ -1193,11 +1115,9 @@ export default {
       "masked": "He entered the competition ____.",
       "options": [
         "laugh-mcq-10",
-        "laugh-mcq-09",
-        "laugh-mcq-11",
-        "laugh-mcq-08",
-        "laugh-mcq-12",
-        "laugh-mcq-07"
+        "laugh-mcq-18",
+        "laugh-mcq-29",
+        "laugh-mcq-28"
       ],
       "explanation": "本句的「for a laugh」指「只是為了好玩、娛樂，不是認真地」。",
       "sentenceIndex": 22,
@@ -1206,12 +1126,10 @@ export default {
         "for a laugh"
       ],
       "optionReasons": {
-        "laugh-mcq-10": "本句指「只是為了好玩、娛樂，不是認真地」。",
-        "laugh-mcq-09": "「好玩／令人開心的經歷；亦可指開懷大笑」與本句語境不同。",
-        "laugh-mcq-11": "「突然開始大笑」與本句語境不同。",
-        "laugh-mcq-08": "「非正式：有趣、令人開心的人」與本句語境不同。",
-        "laugh-mcq-12": "「非正式：笑得非常厲害／笑個不停」與本句語境不同。",
-        "laugh-mcq-07": "「開心說笑、一起享受輕鬆時光」與本句語境不同。"
+        "laugh-mcq-10": "本句的「for a laugh」指「只是為了好玩、娛樂，不是認真地」。",
+        "laugh-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-10"
     },
@@ -1223,11 +1141,9 @@ export default {
       "masked": "They made the video ____.",
       "options": [
         "laugh-mcq-10",
-        "laugh-mcq-09",
+        "laugh-mcq-03",
         "laugh-mcq-11",
-        "laugh-mcq-08",
-        "laugh-mcq-12",
-        "laugh-mcq-07"
+        "laugh-mcq-21"
       ],
       "explanation": "本句的「for a laugh」指「只是為了好玩、娛樂，不是認真地」。",
       "sentenceIndex": 23,
@@ -1236,12 +1152,10 @@ export default {
         "for a laugh"
       ],
       "optionReasons": {
-        "laugh-mcq-10": "本句指「只是為了好玩、娛樂，不是認真地」。",
-        "laugh-mcq-09": "「好玩／令人開心的經歷；亦可指開懷大笑」與本句語境不同。",
-        "laugh-mcq-11": "「突然開始大笑」與本句語境不同。",
-        "laugh-mcq-08": "「非正式：有趣、令人開心的人」與本句語境不同。",
-        "laugh-mcq-12": "「非正式：笑得非常厲害／笑個不停」與本句語境不同。",
-        "laugh-mcq-07": "「開心說笑、一起享受輕鬆時光」與本句語境不同。"
+        "laugh-mcq-10": "本句的「for a laugh」指「只是為了好玩、娛樂，不是認真地」。",
+        "laugh-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-10"
     },
@@ -1254,10 +1168,8 @@ export default {
       "options": [
         "laugh-mcq-11",
         "laugh-mcq-10",
-        "laugh-mcq-12",
-        "laugh-mcq-09",
-        "laugh-mcq-13",
-        "laugh-mcq-08"
+        "laugh-mcq-27",
+        "laugh-mcq-17"
       ],
       "explanation": "本句的「burst out laughing」指「突然開始大笑」。",
       "sentenceIndex": 24,
@@ -1266,12 +1178,10 @@ export default {
         "burst out laughing"
       ],
       "optionReasons": {
-        "laugh-mcq-11": "本句指「突然開始大笑」。",
-        "laugh-mcq-10": "「只是為了好玩、娛樂，不是認真地」與本句語境不同。",
-        "laugh-mcq-12": "「非正式：笑得非常厲害／笑個不停」與本句語境不同。",
-        "laugh-mcq-09": "「好玩／令人開心的經歷；亦可指開懷大笑」與本句語境不同。",
-        "laugh-mcq-13": "「笑到流眼淚」與本句語境不同。",
-        "laugh-mcq-08": "「非正式：有趣、令人開心的人」與本句語境不同。"
+        "laugh-mcq-11": "本句的「burst out laughing」指「突然開始大笑」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-11"
     },
@@ -1284,10 +1194,8 @@ export default {
       "options": [
         "laugh-mcq-11",
         "laugh-mcq-10",
-        "laugh-mcq-12",
-        "laugh-mcq-09",
-        "laugh-mcq-13",
-        "laugh-mcq-08"
+        "laugh-mcq-05",
+        "laugh-mcq-15"
       ],
       "explanation": "本句的「burst out laughing」指「突然開始大笑」。",
       "sentenceIndex": 25,
@@ -1296,12 +1204,10 @@ export default {
         "burst out laughing"
       ],
       "optionReasons": {
-        "laugh-mcq-11": "本句指「突然開始大笑」。",
-        "laugh-mcq-10": "「只是為了好玩、娛樂，不是認真地」與本句語境不同。",
-        "laugh-mcq-12": "「非正式：笑得非常厲害／笑個不停」與本句語境不同。",
-        "laugh-mcq-09": "「好玩／令人開心的經歷；亦可指開懷大笑」與本句語境不同。",
-        "laugh-mcq-13": "「笑到流眼淚」與本句語境不同。",
-        "laugh-mcq-08": "「非正式：有趣、令人開心的人」與本句語境不同。"
+        "laugh-mcq-11": "本句的「burst out laughing」指「突然開始大笑」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-11"
     },
@@ -1313,11 +1219,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "laugh-mcq-12",
-        "laugh-mcq-11",
-        "laugh-mcq-13",
         "laugh-mcq-10",
-        "laugh-mcq-14",
-        "laugh-mcq-09"
+        "laugh-mcq-28",
+        "laugh-mcq-14"
       ],
       "explanation": "本句的「laughed our heads off」指「非正式：笑得非常厲害／笑個不停」。",
       "sentenceIndex": 26,
@@ -1326,12 +1230,10 @@ export default {
         "laughed our heads off"
       ],
       "optionReasons": {
-        "laugh-mcq-12": "本句指「非正式：笑得非常厲害／笑個不停」。",
-        "laugh-mcq-11": "「突然開始大笑」與本句語境不同。",
-        "laugh-mcq-13": "「笑到流眼淚」與本句語境不同。",
-        "laugh-mcq-10": "「只是為了好玩、娛樂，不是認真地」與本句語境不同。",
-        "laugh-mcq-14": "「用笑或玩笑把尷尬、批評、問題等一笑置之」與本句語境不同。",
-        "laugh-mcq-09": "「好玩／令人開心的經歷；亦可指開懷大笑」與本句語境不同。"
+        "laugh-mcq-12": "本句的「laughed our heads off」指「非正式：笑得非常厲害／笑個不停」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-12"
     },
@@ -1343,11 +1245,9 @@ export default {
       "masked": "She was ____ at the video.",
       "options": [
         "laugh-mcq-12",
-        "laugh-mcq-11",
-        "laugh-mcq-13",
         "laugh-mcq-10",
-        "laugh-mcq-14",
-        "laugh-mcq-09"
+        "laugh-mcq-02",
+        "laugh-mcq-25"
       ],
       "explanation": "本句的「laughing her head off」指「非正式：笑得非常厲害／笑個不停」。",
       "sentenceIndex": 27,
@@ -1356,12 +1256,10 @@ export default {
         "laughing her head off"
       ],
       "optionReasons": {
-        "laugh-mcq-12": "本句指「非正式：笑得非常厲害／笑個不停」。",
-        "laugh-mcq-11": "「突然開始大笑」與本句語境不同。",
-        "laugh-mcq-13": "「笑到流眼淚」與本句語境不同。",
-        "laugh-mcq-10": "「只是為了好玩、娛樂，不是認真地」與本句語境不同。",
-        "laugh-mcq-14": "「用笑或玩笑把尷尬、批評、問題等一笑置之」與本句語境不同。",
-        "laugh-mcq-09": "「好玩／令人開心的經歷；亦可指開懷大笑」與本句語境不同。"
+        "laugh-mcq-12": "本句的「laughing her head off」指「非正式：笑得非常厲害／笑個不停」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-12"
     },
@@ -1373,11 +1271,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "laugh-mcq-13",
-        "laugh-mcq-12",
-        "laugh-mcq-14",
-        "laugh-mcq-11",
-        "laugh-mcq-15",
-        "laugh-mcq-10"
+        "laugh-mcq-08",
+        "laugh-mcq-10",
+        "laugh-mcq-17"
       ],
       "explanation": "本句的「laughed until we cried」指「笑到流眼淚」。",
       "sentenceIndex": 28,
@@ -1386,12 +1282,10 @@ export default {
         "laughed until we cried"
       ],
       "optionReasons": {
-        "laugh-mcq-13": "本句指「笑到流眼淚」。",
-        "laugh-mcq-12": "「非正式：笑得非常厲害／笑個不停」與本句語境不同。",
-        "laugh-mcq-14": "「用笑或玩笑把尷尬、批評、問題等一笑置之」與本句語境不同。",
-        "laugh-mcq-11": "「突然開始大笑」與本句語境不同。",
-        "laugh-mcq-15": "「用笑聲減輕／化解尷尬、緊張等」與本句語境不同。",
-        "laugh-mcq-10": "「只是為了好玩、娛樂，不是認真地」與本句語境不同。"
+        "laugh-mcq-13": "本句的「laughed until we cried」指「笑到流眼淚」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-13"
     },
@@ -1403,11 +1297,9 @@ export default {
       "masked": "The story had me ____.",
       "options": [
         "laugh-mcq-13",
-        "laugh-mcq-12",
-        "laugh-mcq-14",
-        "laugh-mcq-11",
-        "laugh-mcq-15",
-        "laugh-mcq-10"
+        "laugh-mcq-10",
+        "laugh-mcq-08",
+        "laugh-mcq-18"
       ],
       "explanation": "本句的「laughing until I cried」指「笑到流眼淚」。",
       "sentenceIndex": 29,
@@ -1416,12 +1308,10 @@ export default {
         "laughing until I cried"
       ],
       "optionReasons": {
-        "laugh-mcq-13": "本句指「笑到流眼淚」。",
-        "laugh-mcq-12": "「非正式：笑得非常厲害／笑個不停」與本句語境不同。",
-        "laugh-mcq-14": "「用笑或玩笑把尷尬、批評、問題等一笑置之」與本句語境不同。",
-        "laugh-mcq-11": "「突然開始大笑」與本句語境不同。",
-        "laugh-mcq-15": "「用笑聲減輕／化解尷尬、緊張等」與本句語境不同。",
-        "laugh-mcq-10": "「只是為了好玩、娛樂，不是認真地」與本句語境不同。"
+        "laugh-mcq-13": "本句的「laughing until I cried」指「笑到流眼淚」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-13"
     },
@@ -1433,11 +1323,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "laugh-mcq-14",
-        "laugh-mcq-13",
-        "laugh-mcq-15",
-        "laugh-mcq-12",
-        "laugh-mcq-16",
-        "laugh-mcq-11"
+        "laugh-mcq-08",
+        "laugh-mcq-29",
+        "laugh-mcq-26"
       ],
       "explanation": "本句的「laughed off the criticism」指「用笑或玩笑把尷尬、批評、問題等一笑置之」。",
       "sentenceIndex": 30,
@@ -1446,12 +1334,10 @@ export default {
         "laughed off the criticism"
       ],
       "optionReasons": {
-        "laugh-mcq-14": "本句指「用笑或玩笑把尷尬、批評、問題等一笑置之」。",
-        "laugh-mcq-13": "「笑到流眼淚」與本句語境不同。",
-        "laugh-mcq-15": "「用笑聲減輕／化解尷尬、緊張等」與本句語境不同。",
-        "laugh-mcq-12": "「非正式：笑得非常厲害／笑個不停」與本句語境不同。",
-        "laugh-mcq-16": "「公然、無禮地當面嘲笑某人」與本句語境不同。",
-        "laugh-mcq-11": "「突然開始大笑」與本句語境不同。"
+        "laugh-mcq-14": "本句的「laughed off the criticism」指「用笑或玩笑把尷尬、批評、問題等一笑置之」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-14"
     },
@@ -1463,11 +1349,9 @@ export default {
       "masked": "She tried to ____.",
       "options": [
         "laugh-mcq-14",
-        "laugh-mcq-13",
-        "laugh-mcq-15",
-        "laugh-mcq-12",
+        "laugh-mcq-08",
         "laugh-mcq-16",
-        "laugh-mcq-11"
+        "laugh-mcq-13"
       ],
       "explanation": "本句的「laugh off the embarrassing mistake」指「用笑或玩笑把尷尬、批評、問題等一笑置之」。",
       "sentenceIndex": 31,
@@ -1476,12 +1360,10 @@ export default {
         "laugh off the embarrassing mistake"
       ],
       "optionReasons": {
-        "laugh-mcq-14": "本句指「用笑或玩笑把尷尬、批評、問題等一笑置之」。",
-        "laugh-mcq-13": "「笑到流眼淚」與本句語境不同。",
-        "laugh-mcq-15": "「用笑聲減輕／化解尷尬、緊張等」與本句語境不同。",
-        "laugh-mcq-12": "「非正式：笑得非常厲害／笑個不停」與本句語境不同。",
-        "laugh-mcq-16": "「公然、無禮地當面嘲笑某人」與本句語境不同。",
-        "laugh-mcq-11": "「突然開始大笑」與本句語境不同。"
+        "laugh-mcq-14": "本句的「laugh off the embarrassing mistake」指「用笑或玩笑把尷尬、批評、問題等一笑置之」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-14"
     },
@@ -1493,11 +1375,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "laugh-mcq-15",
-        "laugh-mcq-14",
-        "laugh-mcq-16",
-        "laugh-mcq-13",
-        "laugh-mcq-17",
-        "laugh-mcq-12"
+        "laugh-mcq-08",
+        "laugh-mcq-10",
+        "laugh-mcq-11"
       ],
       "explanation": "本句的「laughed away the tension」指「用笑聲減輕／化解尷尬、緊張等」。",
       "sentenceIndex": 32,
@@ -1506,12 +1386,10 @@ export default {
         "laughed away the tension"
       ],
       "optionReasons": {
-        "laugh-mcq-15": "本句指「用笑聲減輕／化解尷尬、緊張等」。",
-        "laugh-mcq-14": "「用笑或玩笑把尷尬、批評、問題等一笑置之」與本句語境不同。",
-        "laugh-mcq-16": "「公然、無禮地當面嘲笑某人」與本句語境不同。",
-        "laugh-mcq-13": "「笑到流眼淚」與本句語境不同。",
-        "laugh-mcq-17": "「曾被取笑／質疑後最終成功或證明自己是對的」與本句語境不同。",
-        "laugh-mcq-12": "「非正式：笑得非常厲害／笑個不停」與本句語境不同。"
+        "laugh-mcq-15": "本句的「laughed away the tension」指「用笑聲減輕／化解尷尬、緊張等」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-15"
     },
@@ -1523,11 +1401,9 @@ export default {
       "masked": "She tried to ____.",
       "options": [
         "laugh-mcq-15",
-        "laugh-mcq-14",
-        "laugh-mcq-16",
-        "laugh-mcq-13",
-        "laugh-mcq-17",
-        "laugh-mcq-12"
+        "laugh-mcq-10",
+        "laugh-mcq-08",
+        "laugh-mcq-03"
       ],
       "explanation": "本句的「laugh away her embarrassment」指「用笑聲減輕／化解尷尬、緊張等」。",
       "sentenceIndex": 33,
@@ -1536,12 +1412,10 @@ export default {
         "laugh away her embarrassment"
       ],
       "optionReasons": {
-        "laugh-mcq-15": "本句指「用笑聲減輕／化解尷尬、緊張等」。",
-        "laugh-mcq-14": "「用笑或玩笑把尷尬、批評、問題等一笑置之」與本句語境不同。",
-        "laugh-mcq-16": "「公然、無禮地當面嘲笑某人」與本句語境不同。",
-        "laugh-mcq-13": "「笑到流眼淚」與本句語境不同。",
-        "laugh-mcq-17": "「曾被取笑／質疑後最終成功或證明自己是對的」與本句語境不同。",
-        "laugh-mcq-12": "「非正式：笑得非常厲害／笑個不停」與本句語境不同。"
+        "laugh-mcq-15": "本句的「laugh away her embarrassment」指「用笑聲減輕／化解尷尬、緊張等」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-15"
     },
@@ -1553,11 +1427,9 @@ export default {
       "masked": "They ____ when he suggested the idea.",
       "options": [
         "laugh-mcq-16",
-        "laugh-mcq-15",
-        "laugh-mcq-17",
-        "laugh-mcq-14",
-        "laugh-mcq-18",
-        "laugh-mcq-13"
+        "laugh-mcq-08",
+        "laugh-mcq-10",
+        "laugh-mcq-14"
       ],
       "explanation": "本句的「laughed in his face」指「公然、無禮地當面嘲笑某人」。",
       "sentenceIndex": 34,
@@ -1566,12 +1438,10 @@ export default {
         "laughed in his face"
       ],
       "optionReasons": {
-        "laugh-mcq-16": "本句指「公然、無禮地當面嘲笑某人」。",
-        "laugh-mcq-15": "「用笑聲減輕／化解尷尬、緊張等」與本句語境不同。",
-        "laugh-mcq-17": "「曾被取笑／質疑後最終成功或證明自己是對的」與本句語境不同。",
-        "laugh-mcq-14": "「用笑或玩笑把尷尬、批評、問題等一笑置之」與本句語境不同。",
-        "laugh-mcq-18": "「非常嚴重，不能當笑話看的事情」與本句語境不同。",
-        "laugh-mcq-13": "「笑到流眼淚」與本句語境不同。"
+        "laugh-mcq-16": "本句的「laughed in his face」指「公然、無禮地當面嘲笑某人」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-16"
     },
@@ -1583,11 +1453,9 @@ export default {
       "masked": "She refused to let them ____.",
       "options": [
         "laugh-mcq-16",
-        "laugh-mcq-15",
-        "laugh-mcq-17",
-        "laugh-mcq-14",
-        "laugh-mcq-18",
-        "laugh-mcq-13"
+        "laugh-mcq-10",
+        "laugh-mcq-08",
+        "laugh-mcq-20"
       ],
       "explanation": "本句的「laugh in her face」指「公然、無禮地當面嘲笑某人」。",
       "sentenceIndex": 35,
@@ -1596,12 +1464,10 @@ export default {
         "laugh in her face"
       ],
       "optionReasons": {
-        "laugh-mcq-16": "本句指「公然、無禮地當面嘲笑某人」。",
-        "laugh-mcq-15": "「用笑聲減輕／化解尷尬、緊張等」與本句語境不同。",
-        "laugh-mcq-17": "「曾被取笑／質疑後最終成功或證明自己是對的」與本句語境不同。",
-        "laugh-mcq-14": "「用笑或玩笑把尷尬、批評、問題等一笑置之」與本句語境不同。",
-        "laugh-mcq-18": "「非常嚴重，不能當笑話看的事情」與本句語境不同。",
-        "laugh-mcq-13": "「笑到流眼淚」與本句語境不同。"
+        "laugh-mcq-16": "本句的「laugh in her face」指「公然、無禮地當面嘲笑某人」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-16"
     },
@@ -1613,11 +1479,9 @@ export default {
       "masked": "People doubted her, but she ____.",
       "options": [
         "laugh-mcq-17",
-        "laugh-mcq-16",
-        "laugh-mcq-18",
-        "laugh-mcq-15",
-        "laugh-mcq-19",
-        "laugh-mcq-14"
+        "laugh-mcq-10",
+        "laugh-mcq-08",
+        "laugh-mcq-23"
       ],
       "explanation": "本句的「had the last laugh」指「曾被取笑／質疑後最終成功或證明自己是對的」。",
       "sentenceIndex": 36,
@@ -1626,12 +1490,10 @@ export default {
         "had the last laugh"
       ],
       "optionReasons": {
-        "laugh-mcq-17": "本句指「曾被取笑／質疑後最終成功或證明自己是對的」。",
-        "laugh-mcq-16": "「公然、無禮地當面嘲笑某人」與本句語境不同。",
-        "laugh-mcq-18": "「非常嚴重，不能當笑話看的事情」與本句語境不同。",
-        "laugh-mcq-15": "「用笑聲減輕／化解尷尬、緊張等」與本句語境不同。",
-        "laugh-mcq-19": "「被很多人嘲笑的人／事；笑柄」與本句語境不同。",
-        "laugh-mcq-14": "「用笑或玩笑把尷尬、批評、問題等一笑置之」與本句語境不同。"
+        "laugh-mcq-17": "本句的「had the last laugh」指「曾被取笑／質疑後最終成功或證明自己是對的」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-17"
     },
@@ -1643,11 +1505,9 @@ export default {
       "masked": "The small company eventually ____.",
       "options": [
         "laugh-mcq-17",
-        "laugh-mcq-16",
-        "laugh-mcq-18",
-        "laugh-mcq-15",
-        "laugh-mcq-19",
-        "laugh-mcq-14"
+        "laugh-mcq-10",
+        "laugh-mcq-08",
+        "laugh-mcq-21"
       ],
       "explanation": "本句的「had the last laugh」指「曾被取笑／質疑後最終成功或證明自己是對的」。",
       "sentenceIndex": 37,
@@ -1656,12 +1516,10 @@ export default {
         "had the last laugh"
       ],
       "optionReasons": {
-        "laugh-mcq-17": "本句指「曾被取笑／質疑後最終成功或證明自己是對的」。",
-        "laugh-mcq-16": "「公然、無禮地當面嘲笑某人」與本句語境不同。",
-        "laugh-mcq-18": "「非常嚴重，不能當笑話看的事情」與本句語境不同。",
-        "laugh-mcq-15": "「用笑聲減輕／化解尷尬、緊張等」與本句語境不同。",
-        "laugh-mcq-19": "「被很多人嘲笑的人／事；笑柄」與本句語境不同。",
-        "laugh-mcq-14": "「用笑或玩笑把尷尬、批評、問題等一笑置之」與本句語境不同。"
+        "laugh-mcq-17": "本句的「had the last laugh」指「曾被取笑／質疑後最終成功或證明自己是對的」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-17"
     },
@@ -1673,11 +1531,9 @@ export default {
       "masked": "Bullying is ____.",
       "options": [
         "laugh-mcq-18",
-        "laugh-mcq-17",
-        "laugh-mcq-19",
-        "laugh-mcq-16",
-        "laugh-mcq-20",
-        "laugh-mcq-15"
+        "laugh-mcq-10",
+        "laugh-mcq-02",
+        "laugh-mcq-21"
       ],
       "explanation": "本句的「no laughing matter」指「非常嚴重，不能當笑話看的事情」。",
       "sentenceIndex": 38,
@@ -1686,12 +1542,10 @@ export default {
         "no laughing matter"
       ],
       "optionReasons": {
-        "laugh-mcq-18": "本句指「非常嚴重，不能當笑話看的事情」。",
-        "laugh-mcq-17": "「曾被取笑／質疑後最終成功或證明自己是對的」與本句語境不同。",
-        "laugh-mcq-19": "「被很多人嘲笑的人／事；笑柄」與本句語境不同。",
-        "laugh-mcq-16": "「公然、無禮地當面嘲笑某人」與本句語境不同。",
-        "laugh-mcq-20": "「儘管被批評或取笑仍從中賺到很多錢」與本句語境不同。",
-        "laugh-mcq-15": "「用笑聲減輕／化解尷尬、緊張等」與本句語境不同。"
+        "laugh-mcq-18": "本句的「no laughing matter」指「非常嚴重，不能當笑話看的事情」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-18"
     },
@@ -1703,11 +1557,9 @@ export default {
       "masked": "Losing people’s private data is ____.",
       "options": [
         "laugh-mcq-18",
-        "laugh-mcq-17",
-        "laugh-mcq-19",
-        "laugh-mcq-16",
-        "laugh-mcq-20",
-        "laugh-mcq-15"
+        "laugh-mcq-10",
+        "laugh-mcq-26",
+        "laugh-mcq-17"
       ],
       "explanation": "本句的「no laughing matter」指「非常嚴重，不能當笑話看的事情」。",
       "sentenceIndex": 39,
@@ -1716,12 +1568,10 @@ export default {
         "no laughing matter"
       ],
       "optionReasons": {
-        "laugh-mcq-18": "本句指「非常嚴重，不能當笑話看的事情」。",
-        "laugh-mcq-17": "「曾被取笑／質疑後最終成功或證明自己是對的」與本句語境不同。",
-        "laugh-mcq-19": "「被很多人嘲笑的人／事；笑柄」與本句語境不同。",
-        "laugh-mcq-16": "「公然、無禮地當面嘲笑某人」與本句語境不同。",
-        "laugh-mcq-20": "「儘管被批評或取笑仍從中賺到很多錢」與本句語境不同。",
-        "laugh-mcq-15": "「用笑聲減輕／化解尷尬、緊張等」與本句語境不同。"
+        "laugh-mcq-18": "本句的「no laughing matter」指「非常嚴重，不能當笑話看的事情」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-18"
     },
@@ -1733,11 +1583,8 @@ export default {
       "masked": "He feared becoming the ____ of the class.",
       "options": [
         "laugh-mcq-19",
-        "laugh-mcq-18",
-        "laugh-mcq-20",
-        "laugh-mcq-17",
-        "laugh-mcq-21",
-        "laugh-mcq-16"
+        "laugh-mcq-10",
+        "laugh-mcq-08"
       ],
       "explanation": "本句的「laughing stock」指「被很多人嘲笑的人／事；笑柄」。",
       "sentenceIndex": 40,
@@ -1746,12 +1593,9 @@ export default {
         "laughing stock"
       ],
       "optionReasons": {
-        "laugh-mcq-19": "本句指「被很多人嘲笑的人／事；笑柄」。",
-        "laugh-mcq-18": "「非常嚴重，不能當笑話看的事情」與本句語境不同。",
-        "laugh-mcq-20": "「儘管被批評或取笑仍從中賺到很多錢」與本句語境不同。",
-        "laugh-mcq-17": "「曾被取笑／質疑後最終成功或證明自己是對的」與本句語境不同。",
-        "laugh-mcq-21": "「人們笑時產生的笑聲／歡笑」與本句語境不同。",
-        "laugh-mcq-16": "「公然、無禮地當面嘲笑某人」與本句語境不同。"
+        "laugh-mcq-19": "本句的「laughing stock」指「被很多人嘲笑的人／事；笑柄」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-19"
     },
@@ -1763,11 +1607,8 @@ export default {
       "masked": "The failed campaign made the company a ____.",
       "options": [
         "laugh-mcq-19",
-        "laugh-mcq-18",
-        "laugh-mcq-20",
-        "laugh-mcq-17",
-        "laugh-mcq-21",
-        "laugh-mcq-16"
+        "laugh-mcq-08",
+        "laugh-mcq-10"
       ],
       "explanation": "本句的「laughingstock」指「被很多人嘲笑的人／事；笑柄」。",
       "sentenceIndex": 41,
@@ -1776,12 +1617,9 @@ export default {
         "laughingstock"
       ],
       "optionReasons": {
-        "laugh-mcq-19": "本句指「被很多人嘲笑的人／事；笑柄」。",
-        "laugh-mcq-18": "「非常嚴重，不能當笑話看的事情」與本句語境不同。",
-        "laugh-mcq-20": "「儘管被批評或取笑仍從中賺到很多錢」與本句語境不同。",
-        "laugh-mcq-17": "「曾被取笑／質疑後最終成功或證明自己是對的」與本句語境不同。",
-        "laugh-mcq-21": "「人們笑時產生的笑聲／歡笑」與本句語境不同。",
-        "laugh-mcq-16": "「公然、無禮地當面嘲笑某人」與本句語境不同。"
+        "laugh-mcq-19": "本句的「laughingstock」指「被很多人嘲笑的人／事；笑柄」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-19"
     },
@@ -1793,11 +1631,9 @@ export default {
       "masked": "Critics hated the film, but the producers ____.",
       "options": [
         "laugh-mcq-20",
-        "laugh-mcq-19",
-        "laugh-mcq-21",
-        "laugh-mcq-18",
-        "laugh-mcq-22",
-        "laugh-mcq-17"
+        "laugh-mcq-10",
+        "laugh-mcq-08",
+        "laugh-mcq-18"
       ],
       "explanation": "本句的「laughed all the way to the bank」指「儘管被批評或取笑仍從中賺到很多錢」。",
       "sentenceIndex": 42,
@@ -1806,12 +1642,10 @@ export default {
         "laughed all the way to the bank"
       ],
       "optionReasons": {
-        "laugh-mcq-20": "本句指「儘管被批評或取笑仍從中賺到很多錢」。",
-        "laugh-mcq-19": "「被很多人嘲笑的人／事；笑柄」與本句語境不同。",
-        "laugh-mcq-21": "「人們笑時產生的笑聲／歡笑」與本句語境不同。",
-        "laugh-mcq-18": "「非常嚴重，不能當笑話看的事情」與本句語境不同。",
-        "laugh-mcq-22": "「突然出現的一陣笑聲」與本句語境不同。",
-        "laugh-mcq-17": "「曾被取笑／質疑後最終成功或證明自己是對的」與本句語境不同。"
+        "laugh-mcq-20": "本句的「laughed all the way to the bank」指「儘管被批評或取笑仍從中賺到很多錢」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-20"
     },
@@ -1823,11 +1657,9 @@ export default {
       "masked": "People mocked the idea at first, but she ended up ____.",
       "options": [
         "laugh-mcq-20",
-        "laugh-mcq-19",
-        "laugh-mcq-21",
-        "laugh-mcq-18",
-        "laugh-mcq-22",
-        "laugh-mcq-17"
+        "laugh-mcq-08",
+        "laugh-mcq-10",
+        "laugh-mcq-21"
       ],
       "explanation": "本句的「laughing all the way to the bank」指「儘管被批評或取笑仍從中賺到很多錢」。",
       "sentenceIndex": 43,
@@ -1836,12 +1668,10 @@ export default {
         "laughing all the way to the bank"
       ],
       "optionReasons": {
-        "laugh-mcq-20": "本句指「儘管被批評或取笑仍從中賺到很多錢」。",
-        "laugh-mcq-19": "「被很多人嘲笑的人／事；笑柄」與本句語境不同。",
-        "laugh-mcq-21": "「人們笑時產生的笑聲／歡笑」與本句語境不同。",
-        "laugh-mcq-18": "「非常嚴重，不能當笑話看的事情」與本句語境不同。",
-        "laugh-mcq-22": "「突然出現的一陣笑聲」與本句語境不同。",
-        "laugh-mcq-17": "「曾被取笑／質疑後最終成功或證明自己是對的」與本句語境不同。"
+        "laugh-mcq-20": "本句的「laughing all the way to the bank」指「儘管被批評或取笑仍從中賺到很多錢」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-20"
     },
@@ -1853,11 +1683,9 @@ export default {
       "masked": "The room filled with ____.",
       "options": [
         "laugh-mcq-21",
-        "laugh-mcq-20",
-        "laugh-mcq-22",
-        "laugh-mcq-19",
-        "laugh-mcq-23",
-        "laugh-mcq-18"
+        "laugh-mcq-10",
+        "laugh-mcq-08",
+        "laugh-mcq-23"
       ],
       "explanation": "本句的「laughter」指「人們笑時產生的笑聲／歡笑」。",
       "sentenceIndex": 45,
@@ -1866,12 +1694,10 @@ export default {
         "laughter"
       ],
       "optionReasons": {
-        "laugh-mcq-21": "本句指「人們笑時產生的笑聲／歡笑」。",
-        "laugh-mcq-20": "「儘管被批評或取笑仍從中賺到很多錢」與本句語境不同。",
-        "laugh-mcq-22": "「突然出現的一陣笑聲」與本句語境不同。",
-        "laugh-mcq-19": "「被很多人嘲笑的人／事；笑柄」與本句語境不同。",
-        "laugh-mcq-23": "「非常響亮的一陣大笑／哄堂大笑」與本句語境不同。",
-        "laugh-mcq-18": "「非常嚴重，不能當笑話看的事情」與本句語境不同。"
+        "laugh-mcq-21": "本句的「laughter」指「人們笑時產生的笑聲／歡笑」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-21"
     },
@@ -1883,11 +1709,9 @@ export default {
       "masked": "We could hear children’s ____ outside.",
       "options": [
         "laugh-mcq-21",
-        "laugh-mcq-20",
-        "laugh-mcq-22",
-        "laugh-mcq-19",
-        "laugh-mcq-23",
-        "laugh-mcq-18"
+        "laugh-mcq-08",
+        "laugh-mcq-10",
+        "laugh-mcq-17"
       ],
       "explanation": "本句的「laughter」指「人們笑時產生的笑聲／歡笑」。",
       "sentenceIndex": 46,
@@ -1896,12 +1720,10 @@ export default {
         "laughter"
       ],
       "optionReasons": {
-        "laugh-mcq-21": "本句指「人們笑時產生的笑聲／歡笑」。",
-        "laugh-mcq-20": "「儘管被批評或取笑仍從中賺到很多錢」與本句語境不同。",
-        "laugh-mcq-22": "「突然出現的一陣笑聲」與本句語境不同。",
-        "laugh-mcq-19": "「被很多人嘲笑的人／事；笑柄」與本句語境不同。",
-        "laugh-mcq-23": "「非常響亮的一陣大笑／哄堂大笑」與本句語境不同。",
-        "laugh-mcq-18": "「非常嚴重，不能當笑話看的事情」與本句語境不同。"
+        "laugh-mcq-21": "本句的「laughter」指「人們笑時產生的笑聲／歡笑」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-21"
     },
@@ -1913,11 +1735,9 @@ export default {
       "masked": "A ____ came from the classroom.",
       "options": [
         "laugh-mcq-22",
-        "laugh-mcq-21",
-        "laugh-mcq-23",
-        "laugh-mcq-20",
-        "laugh-mcq-24",
-        "laugh-mcq-19"
+        "laugh-mcq-10",
+        "laugh-mcq-08",
+        "laugh-mcq-14"
       ],
       "explanation": "本句的「burst of laughter」指「突然出現的一陣笑聲」。",
       "sentenceIndex": 47,
@@ -1926,12 +1746,10 @@ export default {
         "burst of laughter"
       ],
       "optionReasons": {
-        "laugh-mcq-22": "本句指「突然出現的一陣笑聲」。",
-        "laugh-mcq-21": "「人們笑時產生的笑聲／歡笑」與本句語境不同。",
-        "laugh-mcq-23": "「非常響亮的一陣大笑／哄堂大笑」與本句語境不同。",
-        "laugh-mcq-20": "「儘管被批評或取笑仍從中賺到很多錢」與本句語境不同。",
-        "laugh-mcq-24": "「正在笑的；帶笑意的」與本句語境不同。",
-        "laugh-mcq-19": "「被很多人嘲笑的人／事；笑柄」與本句語境不同。"
+        "laugh-mcq-22": "本句的「burst of laughter」指「突然出現的一陣笑聲」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-22"
     },
@@ -1943,11 +1761,9 @@ export default {
       "masked": "His comment caused a ____.",
       "options": [
         "laugh-mcq-22",
-        "laugh-mcq-21",
-        "laugh-mcq-23",
-        "laugh-mcq-20",
-        "laugh-mcq-24",
-        "laugh-mcq-19"
+        "laugh-mcq-08",
+        "laugh-mcq-10",
+        "laugh-mcq-14"
       ],
       "explanation": "本句的「burst of laughter」指「突然出現的一陣笑聲」。",
       "sentenceIndex": 48,
@@ -1956,12 +1772,10 @@ export default {
         "burst of laughter"
       ],
       "optionReasons": {
-        "laugh-mcq-22": "本句指「突然出現的一陣笑聲」。",
-        "laugh-mcq-21": "「人們笑時產生的笑聲／歡笑」與本句語境不同。",
-        "laugh-mcq-23": "「非常響亮的一陣大笑／哄堂大笑」與本句語境不同。",
-        "laugh-mcq-20": "「儘管被批評或取笑仍從中賺到很多錢」與本句語境不同。",
-        "laugh-mcq-24": "「正在笑的；帶笑意的」與本句語境不同。",
-        "laugh-mcq-19": "「被很多人嘲笑的人／事；笑柄」與本句語境不同。"
+        "laugh-mcq-22": "本句的「burst of laughter」指「突然出現的一陣笑聲」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-22"
     },
@@ -1973,11 +1787,9 @@ export default {
       "masked": "The joke produced a ____.",
       "options": [
         "laugh-mcq-23",
-        "laugh-mcq-22",
-        "laugh-mcq-24",
-        "laugh-mcq-21",
-        "laugh-mcq-25",
-        "laugh-mcq-20"
+        "laugh-mcq-10",
+        "laugh-mcq-08",
+        "laugh-mcq-16"
       ],
       "explanation": "本句的「roar of laughter」指「非常響亮的一陣大笑／哄堂大笑」。",
       "sentenceIndex": 49,
@@ -1986,12 +1798,10 @@ export default {
         "roar of laughter"
       ],
       "optionReasons": {
-        "laugh-mcq-23": "本句指「非常響亮的一陣大笑／哄堂大笑」。",
-        "laugh-mcq-22": "「突然出現的一陣笑聲」與本句語境不同。",
-        "laugh-mcq-24": "「正在笑的；帶笑意的」與本句語境不同。",
-        "laugh-mcq-21": "「人們笑時產生的笑聲／歡笑」與本句語境不同。",
-        "laugh-mcq-25": "「荒謬、糟糕或不合理到令人發笑的；可笑的」與本句語境不同。",
-        "laugh-mcq-20": "「儘管被批評或取笑仍從中賺到很多錢」與本句語境不同。"
+        "laugh-mcq-23": "本句的「roar of laughter」指「非常響亮的一陣大笑／哄堂大笑」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-23"
     },
@@ -2003,11 +1813,9 @@ export default {
       "masked": "A ____ filled the hall.",
       "options": [
         "laugh-mcq-23",
-        "laugh-mcq-22",
-        "laugh-mcq-24",
-        "laugh-mcq-21",
-        "laugh-mcq-25",
-        "laugh-mcq-20"
+        "laugh-mcq-10",
+        "laugh-mcq-20",
+        "laugh-mcq-16"
       ],
       "explanation": "本句的「roar of laughter」指「非常響亮的一陣大笑／哄堂大笑」。",
       "sentenceIndex": 50,
@@ -2016,12 +1824,10 @@ export default {
         "roar of laughter"
       ],
       "optionReasons": {
-        "laugh-mcq-23": "本句指「非常響亮的一陣大笑／哄堂大笑」。",
-        "laugh-mcq-22": "「突然出現的一陣笑聲」與本句語境不同。",
-        "laugh-mcq-24": "「正在笑的；帶笑意的」與本句語境不同。",
-        "laugh-mcq-21": "「人們笑時產生的笑聲／歡笑」與本句語境不同。",
-        "laugh-mcq-25": "「荒謬、糟糕或不合理到令人發笑的；可笑的」與本句語境不同。",
-        "laugh-mcq-20": "「儘管被批評或取笑仍從中賺到很多錢」與本句語境不同。"
+        "laugh-mcq-23": "本句的「roar of laughter」指「非常響亮的一陣大笑／哄堂大笑」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-23"
     },
@@ -2033,11 +1839,9 @@ export default {
       "masked": "A group of ____ ran past.",
       "options": [
         "laugh-mcq-24",
-        "laugh-mcq-23",
-        "laugh-mcq-25",
-        "laugh-mcq-22",
-        "laugh-mcq-26",
-        "laugh-mcq-21"
+        "laugh-mcq-10",
+        "laugh-mcq-04",
+        "laugh-mcq-11"
       ],
       "explanation": "本句的「laughing children」指「正在笑的；帶笑意的」。",
       "sentenceIndex": 51,
@@ -2046,12 +1850,10 @@ export default {
         "laughing children"
       ],
       "optionReasons": {
-        "laugh-mcq-24": "本句指「正在笑的；帶笑意的」。",
-        "laugh-mcq-23": "「非常響亮的一陣大笑／哄堂大笑」與本句語境不同。",
-        "laugh-mcq-25": "「荒謬、糟糕或不合理到令人發笑的；可笑的」與本句語境不同。",
-        "laugh-mcq-22": "「突然出現的一陣笑聲」與本句語境不同。",
-        "laugh-mcq-26": "「荒謬／糟糕得可笑地」與本句語境不同。",
-        "laugh-mcq-21": "「人們笑時產生的笑聲／歡笑」與本句語境不同。"
+        "laugh-mcq-24": "本句的「laughing children」指「正在笑的；帶笑意的」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-24"
     },
@@ -2063,11 +1865,9 @@ export default {
       "masked": "She looked at him with ____.",
       "options": [
         "laugh-mcq-24",
-        "laugh-mcq-23",
-        "laugh-mcq-25",
-        "laugh-mcq-22",
-        "laugh-mcq-26",
-        "laugh-mcq-21"
+        "laugh-mcq-10",
+        "laugh-mcq-21",
+        "laugh-mcq-13"
       ],
       "explanation": "本句的「laughing eyes」指「正在笑的；帶笑意的」。",
       "sentenceIndex": 52,
@@ -2076,12 +1876,10 @@ export default {
         "laughing eyes"
       ],
       "optionReasons": {
-        "laugh-mcq-24": "本句指「正在笑的；帶笑意的」。",
-        "laugh-mcq-23": "「非常響亮的一陣大笑／哄堂大笑」與本句語境不同。",
-        "laugh-mcq-25": "「荒謬、糟糕或不合理到令人發笑的；可笑的」與本句語境不同。",
-        "laugh-mcq-22": "「突然出現的一陣笑聲」與本句語境不同。",
-        "laugh-mcq-26": "「荒謬／糟糕得可笑地」與本句語境不同。",
-        "laugh-mcq-21": "「人們笑時產生的笑聲／歡笑」與本句語境不同。"
+        "laugh-mcq-24": "本句的「laughing eyes」指「正在笑的；帶笑意的」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-24"
     },
@@ -2093,11 +1891,9 @@ export default {
       "masked": "The excuse was ____.",
       "options": [
         "laugh-mcq-25",
-        "laugh-mcq-24",
-        "laugh-mcq-26",
-        "laugh-mcq-23",
-        "laugh-mcq-27",
-        "laugh-mcq-22"
+        "laugh-mcq-10",
+        "laugh-mcq-22",
+        "laugh-mcq-14"
       ],
       "explanation": "本句的「laughable」指「荒謬、糟糕或不合理到令人發笑的；可笑的」。",
       "sentenceIndex": 53,
@@ -2106,12 +1902,10 @@ export default {
         "laughable"
       ],
       "optionReasons": {
-        "laugh-mcq-25": "本句指「荒謬、糟糕或不合理到令人發笑的；可笑的」。",
-        "laugh-mcq-24": "「正在笑的；帶笑意的」與本句語境不同。",
-        "laugh-mcq-26": "「荒謬／糟糕得可笑地」與本句語境不同。",
-        "laugh-mcq-23": "「非常響亮的一陣大笑／哄堂大笑」與本句語境不同。",
-        "laugh-mcq-27": "「一氧化二氮；笑氣」與本句語境不同。",
-        "laugh-mcq-22": "「突然出現的一陣笑聲」與本句語境不同。"
+        "laugh-mcq-25": "本句的「laughable」指「荒謬、糟糕或不合理到令人發笑的；可笑的」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-25"
     },
@@ -2123,11 +1917,9 @@ export default {
       "masked": "The amount they offered was ____.",
       "options": [
         "laugh-mcq-25",
-        "laugh-mcq-24",
-        "laugh-mcq-26",
-        "laugh-mcq-23",
-        "laugh-mcq-27",
-        "laugh-mcq-22"
+        "laugh-mcq-10",
+        "laugh-mcq-13",
+        "laugh-mcq-18"
       ],
       "explanation": "本句的「laughable」指「荒謬、糟糕或不合理到令人發笑的；可笑的」。",
       "sentenceIndex": 54,
@@ -2136,12 +1928,10 @@ export default {
         "laughable"
       ],
       "optionReasons": {
-        "laugh-mcq-25": "本句指「荒謬、糟糕或不合理到令人發笑的；可笑的」。",
-        "laugh-mcq-24": "「正在笑的；帶笑意的」與本句語境不同。",
-        "laugh-mcq-26": "「荒謬／糟糕得可笑地」與本句語境不同。",
-        "laugh-mcq-23": "「非常響亮的一陣大笑／哄堂大笑」與本句語境不同。",
-        "laugh-mcq-27": "「一氧化二氮；笑氣」與本句語境不同。",
-        "laugh-mcq-22": "「突然出現的一陣笑聲」與本句語境不同。"
+        "laugh-mcq-25": "本句的「laughable」指「荒謬、糟糕或不合理到令人發笑的；可笑的」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-25"
     },
@@ -2153,11 +1943,9 @@ export default {
       "masked": "The estimate was ____.",
       "options": [
         "laugh-mcq-26",
-        "laugh-mcq-25",
-        "laugh-mcq-27",
-        "laugh-mcq-24",
-        "laugh-mcq-28",
-        "laugh-mcq-23"
+        "laugh-mcq-08",
+        "laugh-mcq-10",
+        "laugh-mcq-27"
       ],
       "explanation": "本句的「laughably low」指「荒謬／糟糕得可笑地」。",
       "sentenceIndex": 55,
@@ -2166,12 +1954,10 @@ export default {
         "laughably low"
       ],
       "optionReasons": {
-        "laugh-mcq-26": "本句指「荒謬／糟糕得可笑地」。",
-        "laugh-mcq-25": "「荒謬、糟糕或不合理到令人發笑的；可笑的」與本句語境不同。",
-        "laugh-mcq-27": "「一氧化二氮；笑氣」與本句語境不同。",
-        "laugh-mcq-24": "「正在笑的；帶笑意的」與本句語境不同。",
-        "laugh-mcq-28": "「電視喜劇等加入的預錄／罐頭笑聲」與本句語境不同。",
-        "laugh-mcq-23": "「非常響亮的一陣大笑／哄堂大笑」與本句語境不同。"
+        "laugh-mcq-26": "本句的「laughably low」指「荒謬／糟糕得可笑地」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-26"
     },
@@ -2183,11 +1969,9 @@ export default {
       "masked": "The security was ____.",
       "options": [
         "laugh-mcq-26",
-        "laugh-mcq-25",
-        "laugh-mcq-27",
-        "laugh-mcq-24",
-        "laugh-mcq-28",
-        "laugh-mcq-23"
+        "laugh-mcq-08",
+        "laugh-mcq-10",
+        "laugh-mcq-15"
       ],
       "explanation": "本句的「laughably weak」指「荒謬／糟糕得可笑地」。",
       "sentenceIndex": 56,
@@ -2196,12 +1980,10 @@ export default {
         "laughably weak"
       ],
       "optionReasons": {
-        "laugh-mcq-26": "本句指「荒謬／糟糕得可笑地」。",
-        "laugh-mcq-25": "「荒謬、糟糕或不合理到令人發笑的；可笑的」與本句語境不同。",
-        "laugh-mcq-27": "「一氧化二氮；笑氣」與本句語境不同。",
-        "laugh-mcq-24": "「正在笑的；帶笑意的」與本句語境不同。",
-        "laugh-mcq-28": "「電視喜劇等加入的預錄／罐頭笑聲」與本句語境不同。",
-        "laugh-mcq-23": "「非常響亮的一陣大笑／哄堂大笑」與本句語境不同。"
+        "laugh-mcq-26": "本句的「laughably weak」指「荒謬／糟糕得可笑地」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-26"
     },
@@ -2213,11 +1995,9 @@ export default {
       "masked": "The dentist used ____ to help the patient relax.",
       "options": [
         "laugh-mcq-27",
-        "laugh-mcq-26",
-        "laugh-mcq-28",
-        "laugh-mcq-25",
-        "laugh-mcq-29",
-        "laugh-mcq-24"
+        "laugh-mcq-08",
+        "laugh-mcq-10",
+        "laugh-mcq-26"
       ],
       "explanation": "本句的「laughing gas」指「一氧化二氮；笑氣」。",
       "sentenceIndex": 57,
@@ -2226,12 +2006,10 @@ export default {
         "laughing gas"
       ],
       "optionReasons": {
-        "laugh-mcq-27": "本句指「一氧化二氮；笑氣」。",
-        "laugh-mcq-26": "「荒謬／糟糕得可笑地」與本句語境不同。",
-        "laugh-mcq-28": "「電視喜劇等加入的預錄／罐頭笑聲」與本句語境不同。",
-        "laugh-mcq-25": "「荒謬、糟糕或不合理到令人發笑的；可笑的」與本句語境不同。",
-        "laugh-mcq-29": "「因經常笑而在眼角、嘴邊形成的笑紋」與本句語境不同。",
-        "laugh-mcq-24": "「正在笑的；帶笑意的」與本句語境不同。"
+        "laugh-mcq-27": "本句的「laughing gas」指「一氧化二氮；笑氣」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-27"
     },
@@ -2243,11 +2021,9 @@ export default {
       "masked": "____ is the informal name for nitrous oxide.",
       "options": [
         "laugh-mcq-27",
-        "laugh-mcq-26",
-        "laugh-mcq-28",
-        "laugh-mcq-25",
-        "laugh-mcq-29",
-        "laugh-mcq-24"
+        "laugh-mcq-10",
+        "laugh-mcq-08",
+        "laugh-mcq-14"
       ],
       "explanation": "本句的「Laughing gas」指「一氧化二氮；笑氣」。",
       "sentenceIndex": 58,
@@ -2256,12 +2032,10 @@ export default {
         "Laughing gas"
       ],
       "optionReasons": {
-        "laugh-mcq-27": "本句指「一氧化二氮；笑氣」。",
-        "laugh-mcq-26": "「荒謬／糟糕得可笑地」與本句語境不同。",
-        "laugh-mcq-28": "「電視喜劇等加入的預錄／罐頭笑聲」與本句語境不同。",
-        "laugh-mcq-25": "「荒謬、糟糕或不合理到令人發笑的；可笑的」與本句語境不同。",
-        "laugh-mcq-29": "「因經常笑而在眼角、嘴邊形成的笑紋」與本句語境不同。",
-        "laugh-mcq-24": "「正在笑的；帶笑意的」與本句語境不同。"
+        "laugh-mcq-27": "本句的「Laughing gas」指「一氧化二氮；笑氣」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-27"
     },
@@ -2273,11 +2047,9 @@ export default {
       "masked": "The show uses a ____.",
       "options": [
         "laugh-mcq-28",
-        "laugh-mcq-27",
-        "laugh-mcq-29",
-        "laugh-mcq-26",
-        "laugh-mcq-25",
-        "laugh-mcq-24"
+        "laugh-mcq-08",
+        "laugh-mcq-10",
+        "laugh-mcq-23"
       ],
       "explanation": "本句的「laugh track」指「電視喜劇等加入的預錄／罐頭笑聲」。",
       "sentenceIndex": 59,
@@ -2286,12 +2058,10 @@ export default {
         "laugh track"
       ],
       "optionReasons": {
-        "laugh-mcq-28": "本句指「電視喜劇等加入的預錄／罐頭笑聲」。",
-        "laugh-mcq-27": "「一氧化二氮；笑氣」與本句語境不同。",
-        "laugh-mcq-29": "「因經常笑而在眼角、嘴邊形成的笑紋」與本句語境不同。",
-        "laugh-mcq-26": "「荒謬／糟糕得可笑地」與本句語境不同。",
-        "laugh-mcq-25": "「荒謬、糟糕或不合理到令人發笑的；可笑的」與本句語境不同。",
-        "laugh-mcq-24": "「正在笑的；帶笑意的」與本句語境不同。"
+        "laugh-mcq-28": "本句的「laugh track」指「電視喜劇等加入的預錄／罐頭笑聲」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-28"
     },
@@ -2303,11 +2073,9 @@ export default {
       "masked": "Some viewers dislike sitcoms with a ____.",
       "options": [
         "laugh-mcq-28",
-        "laugh-mcq-27",
-        "laugh-mcq-29",
-        "laugh-mcq-26",
-        "laugh-mcq-25",
-        "laugh-mcq-24"
+        "laugh-mcq-08",
+        "laugh-mcq-10",
+        "laugh-mcq-03"
       ],
       "explanation": "本句的「laugh track」指「電視喜劇等加入的預錄／罐頭笑聲」。",
       "sentenceIndex": 60,
@@ -2316,12 +2084,10 @@ export default {
         "laugh track"
       ],
       "optionReasons": {
-        "laugh-mcq-28": "本句指「電視喜劇等加入的預錄／罐頭笑聲」。",
-        "laugh-mcq-27": "「一氧化二氮；笑氣」與本句語境不同。",
-        "laugh-mcq-29": "「因經常笑而在眼角、嘴邊形成的笑紋」與本句語境不同。",
-        "laugh-mcq-26": "「荒謬／糟糕得可笑地」與本句語境不同。",
-        "laugh-mcq-25": "「荒謬、糟糕或不合理到令人發笑的；可笑的」與本句語境不同。",
-        "laugh-mcq-24": "「正在笑的；帶笑意的」與本句語境不同。"
+        "laugh-mcq-28": "本句的「laugh track」指「電視喜劇等加入的預錄／罐頭笑聲」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-28"
     },
@@ -2333,11 +2099,9 @@ export default {
       "masked": "She had warm ____ around her eyes.",
       "options": [
         "laugh-mcq-29",
-        "laugh-mcq-28",
-        "laugh-mcq-27",
-        "laugh-mcq-26",
-        "laugh-mcq-25",
-        "laugh-mcq-24"
+        "laugh-mcq-10",
+        "laugh-mcq-08",
+        "laugh-mcq-26"
       ],
       "explanation": "本句的「laugh lines」指「因經常笑而在眼角、嘴邊形成的笑紋」。",
       "sentenceIndex": 61,
@@ -2346,12 +2110,10 @@ export default {
         "laugh lines"
       ],
       "optionReasons": {
-        "laugh-mcq-29": "本句指「因經常笑而在眼角、嘴邊形成的笑紋」。",
-        "laugh-mcq-28": "「電視喜劇等加入的預錄／罐頭笑聲」與本句語境不同。",
-        "laugh-mcq-27": "「一氧化二氮；笑氣」與本句語境不同。",
-        "laugh-mcq-26": "「荒謬／糟糕得可笑地」與本句語境不同。",
-        "laugh-mcq-25": "「荒謬、糟糕或不合理到令人發笑的；可笑的」與本句語境不同。",
-        "laugh-mcq-24": "「正在笑的；帶笑意的」與本句語境不同。"
+        "laugh-mcq-29": "本句的「laugh lines」指「因經常笑而在眼角、嘴邊形成的笑紋」。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-29"
     },
@@ -2363,11 +2125,9 @@ export default {
       "masked": "His ____ became more noticeable with age.",
       "options": [
         "laugh-mcq-29",
-        "laugh-mcq-28",
-        "laugh-mcq-27",
-        "laugh-mcq-26",
-        "laugh-mcq-25",
-        "laugh-mcq-24"
+        "laugh-mcq-08",
+        "laugh-mcq-10",
+        "laugh-mcq-28"
       ],
       "explanation": "本句的「laugh lines」指「因經常笑而在眼角、嘴邊形成的笑紋」。",
       "sentenceIndex": 62,
@@ -2376,12 +2136,10 @@ export default {
         "laugh lines"
       ],
       "optionReasons": {
-        "laugh-mcq-29": "本句指「因經常笑而在眼角、嘴邊形成的笑紋」。",
-        "laugh-mcq-28": "「電視喜劇等加入的預錄／罐頭笑聲」與本句語境不同。",
-        "laugh-mcq-27": "「一氧化二氮；笑氣」與本句語境不同。",
-        "laugh-mcq-26": "「荒謬／糟糕得可笑地」與本句語境不同。",
-        "laugh-mcq-25": "「荒謬、糟糕或不合理到令人發笑的；可笑的」與本句語境不同。",
-        "laugh-mcq-24": "「正在笑的；帶笑意的」與本句語境不同。"
+        "laugh-mcq-29": "本句的「laugh lines」指「因經常笑而在眼角、嘴邊形成的笑紋」。",
+        "laugh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "laugh-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "laugh-mcq-29"
     }
@@ -2393,5 +2151,7 @@ export default {
     "sha256": "3bccf822e461e4e6f73bacf026c28b1467ac10f27d15927446d4e8368d33a5ce",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -196,11 +196,7 @@ export default {
       "masked": "The song has a strong ____.",
       "options": [
         "rhythm-mcq-01",
-        "rhythm-mcq-02",
-        "rhythm-mcq-03",
-        "rhythm-mcq-04",
-        "rhythm-mcq-05",
-        "rhythm-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「rhythm」指「聲音、拍子、重音等按規律排列所形成的節奏」。",
       "sentenceIndex": 0,
@@ -209,12 +205,8 @@ export default {
         "rhythm"
       ],
       "optionReasons": {
-        "rhythm-mcq-01": "本句指「聲音、拍子、重音等按規律排列所形成的節奏」。",
-        "rhythm-mcq-02": "「動作、呼吸或身體活動有規律地重複所形成的律動」與本句語境不同。",
-        "rhythm-mcq-03": "「自然現象或身體功能按固定規律反覆出現的節律」與本句語境不同。",
-        "rhythm-mcq-04": "「生活、工作或活動持續進行時形成的規律步調」與本句語境不同。",
-        "rhythm-mcq-05": "「語言、詩歌中重音、停頓和時間安排形成的韻律」與本句語境不同。",
-        "rhythm-mcq-06": "「視覺元素有規律地重複而形成的流動感／視覺節奏」與本句語境不同。"
+        "rhythm-mcq-01": "本句的「rhythm」指「聲音、拍子、重音等按規律排列所形成的節奏」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rhythm-mcq-01"
     },
@@ -226,11 +218,7 @@ export default {
       "masked": "She tapped her foot to the ____ of the music.",
       "options": [
         "rhythm-mcq-01",
-        "rhythm-mcq-02",
-        "rhythm-mcq-03",
-        "rhythm-mcq-04",
-        "rhythm-mcq-05",
-        "rhythm-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「rhythm」指「聲音、拍子、重音等按規律排列所形成的節奏」。",
       "sentenceIndex": 1,
@@ -239,12 +227,8 @@ export default {
         "rhythm"
       ],
       "optionReasons": {
-        "rhythm-mcq-01": "本句指「聲音、拍子、重音等按規律排列所形成的節奏」。",
-        "rhythm-mcq-02": "「動作、呼吸或身體活動有規律地重複所形成的律動」與本句語境不同。",
-        "rhythm-mcq-03": "「自然現象或身體功能按固定規律反覆出現的節律」與本句語境不同。",
-        "rhythm-mcq-04": "「生活、工作或活動持續進行時形成的規律步調」與本句語境不同。",
-        "rhythm-mcq-05": "「語言、詩歌中重音、停頓和時間安排形成的韻律」與本句語境不同。",
-        "rhythm-mcq-06": "「視覺元素有規律地重複而形成的流動感／視覺節奏」與本句語境不同。"
+        "rhythm-mcq-01": "本句的「rhythm」指「聲音、拍子、重音等按規律排列所形成的節奏」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rhythm-mcq-01"
     },
@@ -256,11 +240,7 @@ export default {
       "masked": "I remember the quiet ____ of its body.",
       "options": [
         "rhythm-mcq-02",
-        "rhythm-mcq-01",
-        "rhythm-mcq-03",
-        "rhythm-mcq-04",
-        "rhythm-mcq-05",
-        "rhythm-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「rhythm」指「動作、呼吸或身體活動有規律地重複所形成的律動」。",
       "sentenceIndex": 2,
@@ -269,12 +249,8 @@ export default {
         "rhythm"
       ],
       "optionReasons": {
-        "rhythm-mcq-02": "本句指「動作、呼吸或身體活動有規律地重複所形成的律動」。",
-        "rhythm-mcq-01": "「聲音、拍子、重音等按規律排列所形成的節奏」與本句語境不同。",
-        "rhythm-mcq-03": "「自然現象或身體功能按固定規律反覆出現的節律」與本句語境不同。",
-        "rhythm-mcq-04": "「生活、工作或活動持續進行時形成的規律步調」與本句語境不同。",
-        "rhythm-mcq-05": "「語言、詩歌中重音、停頓和時間安排形成的韻律」與本句語境不同。",
-        "rhythm-mcq-06": "「視覺元素有規律地重複而形成的流動感／視覺節奏」與本句語境不同。"
+        "rhythm-mcq-02": "本句的「rhythm」指「動作、呼吸或身體活動有規律地重複所形成的律動」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rhythm-mcq-02"
     },
@@ -286,11 +262,7 @@ export default {
       "masked": "The dancers moved in a smooth ____.",
       "options": [
         "rhythm-mcq-02",
-        "rhythm-mcq-01",
-        "rhythm-mcq-03",
-        "rhythm-mcq-04",
-        "rhythm-mcq-05",
-        "rhythm-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「rhythm」指「動作、呼吸或身體活動有規律地重複所形成的律動」。",
       "sentenceIndex": 3,
@@ -299,12 +271,8 @@ export default {
         "rhythm"
       ],
       "optionReasons": {
-        "rhythm-mcq-02": "本句指「動作、呼吸或身體活動有規律地重複所形成的律動」。",
-        "rhythm-mcq-01": "「聲音、拍子、重音等按規律排列所形成的節奏」與本句語境不同。",
-        "rhythm-mcq-03": "「自然現象或身體功能按固定規律反覆出現的節律」與本句語境不同。",
-        "rhythm-mcq-04": "「生活、工作或活動持續進行時形成的規律步調」與本句語境不同。",
-        "rhythm-mcq-05": "「語言、詩歌中重音、停頓和時間安排形成的韻律」與本句語境不同。",
-        "rhythm-mcq-06": "「視覺元素有規律地重複而形成的流動感／視覺節奏」與本句語境不同。"
+        "rhythm-mcq-02": "本句的「rhythm」指「動作、呼吸或身體活動有規律地重複所形成的律動」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rhythm-mcq-02"
     },
@@ -316,11 +284,7 @@ export default {
       "masked": "Her breathing settled into a slow ____.",
       "options": [
         "rhythm-mcq-02",
-        "rhythm-mcq-01",
-        "rhythm-mcq-03",
-        "rhythm-mcq-04",
-        "rhythm-mcq-05",
-        "rhythm-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「rhythm」指「動作、呼吸或身體活動有規律地重複所形成的律動」。",
       "sentenceIndex": 4,
@@ -329,12 +293,8 @@ export default {
         "rhythm"
       ],
       "optionReasons": {
-        "rhythm-mcq-02": "本句指「動作、呼吸或身體活動有規律地重複所形成的律動」。",
-        "rhythm-mcq-01": "「聲音、拍子、重音等按規律排列所形成的節奏」與本句語境不同。",
-        "rhythm-mcq-03": "「自然現象或身體功能按固定規律反覆出現的節律」與本句語境不同。",
-        "rhythm-mcq-04": "「生活、工作或活動持續進行時形成的規律步調」與本句語境不同。",
-        "rhythm-mcq-05": "「語言、詩歌中重音、停頓和時間安排形成的韻律」與本句語境不同。",
-        "rhythm-mcq-06": "「視覺元素有規律地重複而形成的流動感／視覺節奏」與本句語境不同。"
+        "rhythm-mcq-02": "本句的「rhythm」指「動作、呼吸或身體活動有規律地重複所形成的律動」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rhythm-mcq-02"
     },
@@ -346,11 +306,7 @@ export default {
       "masked": "The body follows a natural sleep ____.",
       "options": [
         "rhythm-mcq-03",
-        "rhythm-mcq-02",
-        "rhythm-mcq-04",
-        "rhythm-mcq-01",
-        "rhythm-mcq-05",
-        "rhythm-mcq-06"
+        "rhythm-mcq-05"
       ],
       "explanation": "本句的「rhythm」指「自然現象或身體功能按固定規律反覆出現的節律」。",
       "sentenceIndex": 5,
@@ -359,12 +315,8 @@ export default {
         "rhythm"
       ],
       "optionReasons": {
-        "rhythm-mcq-03": "本句指「自然現象或身體功能按固定規律反覆出現的節律」。",
-        "rhythm-mcq-02": "「動作、呼吸或身體活動有規律地重複所形成的律動」與本句語境不同。",
-        "rhythm-mcq-04": "「生活、工作或活動持續進行時形成的規律步調」與本句語境不同。",
-        "rhythm-mcq-01": "「聲音、拍子、重音等按規律排列所形成的節奏」與本句語境不同。",
-        "rhythm-mcq-05": "「語言、詩歌中重音、停頓和時間安排形成的韻律」與本句語境不同。",
-        "rhythm-mcq-06": "「視覺元素有規律地重複而形成的流動感／視覺節奏」與本句語境不同。"
+        "rhythm-mcq-03": "本句的「rhythm」指「自然現象或身體功能按固定規律反覆出現的節律」。",
+        "rhythm-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rhythm-mcq-03"
     },
@@ -376,11 +328,7 @@ export default {
       "masked": "The seasons create a yearly ____.",
       "options": [
         "rhythm-mcq-03",
-        "rhythm-mcq-02",
-        "rhythm-mcq-04",
-        "rhythm-mcq-01",
-        "rhythm-mcq-05",
-        "rhythm-mcq-06"
+        "rhythm-mcq-05"
       ],
       "explanation": "本句的「rhythm」指「自然現象或身體功能按固定規律反覆出現的節律」。",
       "sentenceIndex": 6,
@@ -389,12 +337,8 @@ export default {
         "rhythm"
       ],
       "optionReasons": {
-        "rhythm-mcq-03": "本句指「自然現象或身體功能按固定規律反覆出現的節律」。",
-        "rhythm-mcq-02": "「動作、呼吸或身體活動有規律地重複所形成的律動」與本句語境不同。",
-        "rhythm-mcq-04": "「生活、工作或活動持續進行時形成的規律步調」與本句語境不同。",
-        "rhythm-mcq-01": "「聲音、拍子、重音等按規律排列所形成的節奏」與本句語境不同。",
-        "rhythm-mcq-05": "「語言、詩歌中重音、停頓和時間安排形成的韻律」與本句語境不同。",
-        "rhythm-mcq-06": "「視覺元素有規律地重複而形成的流動感／視覺節奏」與本句語境不同。"
+        "rhythm-mcq-03": "本句的「rhythm」指「自然現象或身體功能按固定規律反覆出現的節律」。",
+        "rhythm-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rhythm-mcq-03"
     },
@@ -406,11 +350,7 @@ export default {
       "masked": "It took me a while to get back into the ____ of work.",
       "options": [
         "rhythm-mcq-04",
-        "rhythm-mcq-03",
-        "rhythm-mcq-05",
-        "rhythm-mcq-02",
-        "rhythm-mcq-06",
-        "rhythm-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「rhythm」指「生活、工作或活動持續進行時形成的規律步調」。",
       "sentenceIndex": 7,
@@ -419,12 +359,8 @@ export default {
         "rhythm"
       ],
       "optionReasons": {
-        "rhythm-mcq-04": "本句指「生活、工作或活動持續進行時形成的規律步調」。",
-        "rhythm-mcq-03": "「自然現象或身體功能按固定規律反覆出現的節律」與本句語境不同。",
-        "rhythm-mcq-05": "「語言、詩歌中重音、停頓和時間安排形成的韻律」與本句語境不同。",
-        "rhythm-mcq-02": "「動作、呼吸或身體活動有規律地重複所形成的律動」與本句語境不同。",
-        "rhythm-mcq-06": "「視覺元素有規律地重複而形成的流動感／視覺節奏」與本句語境不同。",
-        "rhythm-mcq-01": "「聲音、拍子、重音等按規律排列所形成的節奏」與本句語境不同。"
+        "rhythm-mcq-04": "本句的「rhythm」指「生活、工作或活動持續進行時形成的規律步調」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rhythm-mcq-04"
     },
@@ -436,11 +372,7 @@ export default {
       "masked": "The city has its own ____.",
       "options": [
         "rhythm-mcq-04",
-        "rhythm-mcq-03",
-        "rhythm-mcq-05",
-        "rhythm-mcq-02",
-        "rhythm-mcq-06",
-        "rhythm-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「rhythm」指「生活、工作或活動持續進行時形成的規律步調」。",
       "sentenceIndex": 8,
@@ -449,12 +381,8 @@ export default {
         "rhythm"
       ],
       "optionReasons": {
-        "rhythm-mcq-04": "本句指「生活、工作或活動持續進行時形成的規律步調」。",
-        "rhythm-mcq-03": "「自然現象或身體功能按固定規律反覆出現的節律」與本句語境不同。",
-        "rhythm-mcq-05": "「語言、詩歌中重音、停頓和時間安排形成的韻律」與本句語境不同。",
-        "rhythm-mcq-02": "「動作、呼吸或身體活動有規律地重複所形成的律動」與本句語境不同。",
-        "rhythm-mcq-06": "「視覺元素有規律地重複而形成的流動感／視覺節奏」與本句語境不同。",
-        "rhythm-mcq-01": "「聲音、拍子、重音等按規律排列所形成的節奏」與本句語境不同。"
+        "rhythm-mcq-04": "本句的「rhythm」指「生活、工作或活動持續進行時形成的規律步調」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rhythm-mcq-04"
     },
@@ -466,11 +394,7 @@ export default {
       "masked": "English has a different ____ from Cantonese.",
       "options": [
         "rhythm-mcq-05",
-        "rhythm-mcq-04",
-        "rhythm-mcq-06",
-        "rhythm-mcq-03",
-        "rhythm-mcq-07",
-        "rhythm-mcq-02"
+        "rhythm-mcq-08"
       ],
       "explanation": "本句的「rhythm」指「語言、詩歌中重音、停頓和時間安排形成的韻律」。",
       "sentenceIndex": 9,
@@ -479,12 +403,8 @@ export default {
         "rhythm"
       ],
       "optionReasons": {
-        "rhythm-mcq-05": "本句指「語言、詩歌中重音、停頓和時間安排形成的韻律」。",
-        "rhythm-mcq-04": "「生活、工作或活動持續進行時形成的規律步調」與本句語境不同。",
-        "rhythm-mcq-06": "「視覺元素有規律地重複而形成的流動感／視覺節奏」與本句語境不同。",
-        "rhythm-mcq-03": "「自然現象或身體功能按固定規律反覆出現的節律」與本句語境不同。",
-        "rhythm-mcq-07": "「具有規律節奏或律動的」與本句語境不同。",
-        "rhythm-mcq-02": "「動作、呼吸或身體活動有規律地重複所形成的律動」與本句語境不同。"
+        "rhythm-mcq-05": "本句的「rhythm」指「語言、詩歌中重音、停頓和時間安排形成的韻律」。",
+        "rhythm-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rhythm-mcq-05"
     },
@@ -496,11 +416,7 @@ export default {
       "masked": "The poem has a gentle ____.",
       "options": [
         "rhythm-mcq-05",
-        "rhythm-mcq-04",
-        "rhythm-mcq-06",
-        "rhythm-mcq-03",
-        "rhythm-mcq-07",
-        "rhythm-mcq-02"
+        "rhythm-mcq-03"
       ],
       "explanation": "本句的「rhythm」指「語言、詩歌中重音、停頓和時間安排形成的韻律」。",
       "sentenceIndex": 10,
@@ -509,12 +425,8 @@ export default {
         "rhythm"
       ],
       "optionReasons": {
-        "rhythm-mcq-05": "本句指「語言、詩歌中重音、停頓和時間安排形成的韻律」。",
-        "rhythm-mcq-04": "「生活、工作或活動持續進行時形成的規律步調」與本句語境不同。",
-        "rhythm-mcq-06": "「視覺元素有規律地重複而形成的流動感／視覺節奏」與本句語境不同。",
-        "rhythm-mcq-03": "「自然現象或身體功能按固定規律反覆出現的節律」與本句語境不同。",
-        "rhythm-mcq-07": "「具有規律節奏或律動的」與本句語境不同。",
-        "rhythm-mcq-02": "「動作、呼吸或身體活動有規律地重複所形成的律動」與本句語境不同。"
+        "rhythm-mcq-05": "本句的「rhythm」指「語言、詩歌中重音、停頓和時間安排形成的韻律」。",
+        "rhythm-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rhythm-mcq-05"
     },
@@ -526,11 +438,7 @@ export default {
       "masked": "The repeated arches create a strong visual ____.",
       "options": [
         "rhythm-mcq-06",
-        "rhythm-mcq-05",
-        "rhythm-mcq-07",
-        "rhythm-mcq-04",
-        "rhythm-mcq-08",
-        "rhythm-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「rhythm」指「視覺元素有規律地重複而形成的流動感／視覺節奏」。",
       "sentenceIndex": 11,
@@ -539,12 +447,8 @@ export default {
         "rhythm"
       ],
       "optionReasons": {
-        "rhythm-mcq-06": "本句指「視覺元素有規律地重複而形成的流動感／視覺節奏」。",
-        "rhythm-mcq-05": "「語言、詩歌中重音、停頓和時間安排形成的韻律」與本句語境不同。",
-        "rhythm-mcq-07": "「具有規律節奏或律動的」與本句語境不同。",
-        "rhythm-mcq-04": "「生活、工作或活動持續進行時形成的規律步調」與本句語境不同。",
-        "rhythm-mcq-08": "「以有規律、有節奏的方式」與本句語境不同。",
-        "rhythm-mcq-03": "「自然現象或身體功能按固定規律反覆出現的節律」與本句語境不同。"
+        "rhythm-mcq-06": "本句的「rhythm」指「視覺元素有規律地重複而形成的流動感／視覺節奏」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rhythm-mcq-06"
     },
@@ -556,11 +460,7 @@ export default {
       "masked": "The pattern gives the design a natural ____.",
       "options": [
         "rhythm-mcq-06",
-        "rhythm-mcq-05",
-        "rhythm-mcq-07",
-        "rhythm-mcq-04",
-        "rhythm-mcq-08",
-        "rhythm-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「rhythm」指「視覺元素有規律地重複而形成的流動感／視覺節奏」。",
       "sentenceIndex": 12,
@@ -569,12 +469,8 @@ export default {
         "rhythm"
       ],
       "optionReasons": {
-        "rhythm-mcq-06": "本句指「視覺元素有規律地重複而形成的流動感／視覺節奏」。",
-        "rhythm-mcq-05": "「語言、詩歌中重音、停頓和時間安排形成的韻律」與本句語境不同。",
-        "rhythm-mcq-07": "「具有規律節奏或律動的」與本句語境不同。",
-        "rhythm-mcq-04": "「生活、工作或活動持續進行時形成的規律步調」與本句語境不同。",
-        "rhythm-mcq-08": "「以有規律、有節奏的方式」與本句語境不同。",
-        "rhythm-mcq-03": "「自然現象或身體功能按固定規律反覆出現的節律」與本句語境不同。"
+        "rhythm-mcq-06": "本句的「rhythm」指「視覺元素有規律地重複而形成的流動感／視覺節奏」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rhythm-mcq-06"
     },
@@ -586,11 +482,7 @@ export default {
       "masked": "The turtle moved with a slow, ____ motion.",
       "options": [
         "rhythm-mcq-07",
-        "rhythm-mcq-06",
-        "rhythm-mcq-08",
-        "rhythm-mcq-05",
-        "rhythm-mcq-04",
-        "rhythm-mcq-03"
+        "rhythm-mcq-05"
       ],
       "explanation": "本句的「rhythmic」指「具有規律節奏或律動的」。",
       "sentenceIndex": 13,
@@ -599,12 +491,8 @@ export default {
         "rhythmic"
       ],
       "optionReasons": {
-        "rhythm-mcq-07": "本句指「具有規律節奏或律動的」。",
-        "rhythm-mcq-06": "「視覺元素有規律地重複而形成的流動感／視覺節奏」與本句語境不同。",
-        "rhythm-mcq-08": "「以有規律、有節奏的方式」與本句語境不同。",
-        "rhythm-mcq-05": "「語言、詩歌中重音、停頓和時間安排形成的韻律」與本句語境不同。",
-        "rhythm-mcq-04": "「生活、工作或活動持續進行時形成的規律步調」與本句語境不同。",
-        "rhythm-mcq-03": "「自然現象或身體功能按固定規律反覆出現的節律」與本句語境不同。"
+        "rhythm-mcq-07": "本句的「rhythmic」指「具有規律節奏或律動的」。",
+        "rhythm-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rhythm-mcq-07"
     },
@@ -616,11 +504,7 @@ export default {
       "masked": "We could hear the ____ sound of the waves.",
       "options": [
         "rhythm-mcq-07",
-        "rhythm-mcq-06",
-        "rhythm-mcq-08",
-        "rhythm-mcq-05",
-        "rhythm-mcq-04",
-        "rhythm-mcq-03"
+        "rhythm-mcq-05"
       ],
       "explanation": "本句的「rhythmic」指「具有規律節奏或律動的」。",
       "sentenceIndex": 14,
@@ -629,12 +513,8 @@ export default {
         "rhythmic"
       ],
       "optionReasons": {
-        "rhythm-mcq-07": "本句指「具有規律節奏或律動的」。",
-        "rhythm-mcq-06": "「視覺元素有規律地重複而形成的流動感／視覺節奏」與本句語境不同。",
-        "rhythm-mcq-08": "「以有規律、有節奏的方式」與本句語境不同。",
-        "rhythm-mcq-05": "「語言、詩歌中重音、停頓和時間安排形成的韻律」與本句語境不同。",
-        "rhythm-mcq-04": "「生活、工作或活動持續進行時形成的規律步調」與本句語境不同。",
-        "rhythm-mcq-03": "「自然現象或身體功能按固定規律反覆出現的節律」與本句語境不同。"
+        "rhythm-mcq-07": "本句的「rhythmic」指「具有規律節奏或律動的」。",
+        "rhythm-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rhythm-mcq-07"
     },
@@ -646,11 +526,7 @@ export default {
       "masked": "The lights flashed ____.",
       "options": [
         "rhythm-mcq-08",
-        "rhythm-mcq-07",
-        "rhythm-mcq-06",
-        "rhythm-mcq-05",
-        "rhythm-mcq-04",
-        "rhythm-mcq-03"
+        "rhythm-mcq-05"
       ],
       "explanation": "本句的「rhythmically」指「以有規律、有節奏的方式」。",
       "sentenceIndex": 15,
@@ -659,12 +535,8 @@ export default {
         "rhythmically"
       ],
       "optionReasons": {
-        "rhythm-mcq-08": "本句指「以有規律、有節奏的方式」。",
-        "rhythm-mcq-07": "「具有規律節奏或律動的」與本句語境不同。",
-        "rhythm-mcq-06": "「視覺元素有規律地重複而形成的流動感／視覺節奏」與本句語境不同。",
-        "rhythm-mcq-05": "「語言、詩歌中重音、停頓和時間安排形成的韻律」與本句語境不同。",
-        "rhythm-mcq-04": "「生活、工作或活動持續進行時形成的規律步調」與本句語境不同。",
-        "rhythm-mcq-03": "「自然現象或身體功能按固定規律反覆出現的節律」與本句語境不同。"
+        "rhythm-mcq-08": "本句的「rhythmically」指「以有規律、有節奏的方式」。",
+        "rhythm-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rhythm-mcq-08"
     },
@@ -676,11 +548,7 @@ export default {
       "masked": "She moved ____ with the music.",
       "options": [
         "rhythm-mcq-08",
-        "rhythm-mcq-07",
-        "rhythm-mcq-06",
-        "rhythm-mcq-05",
-        "rhythm-mcq-04",
-        "rhythm-mcq-03"
+        "rhythm-mcq-05"
       ],
       "explanation": "本句的「rhythmically」指「以有規律、有節奏的方式」。",
       "sentenceIndex": 16,
@@ -689,12 +557,8 @@ export default {
         "rhythmically"
       ],
       "optionReasons": {
-        "rhythm-mcq-08": "本句指「以有規律、有節奏的方式」。",
-        "rhythm-mcq-07": "「具有規律節奏或律動的」與本句語境不同。",
-        "rhythm-mcq-06": "「視覺元素有規律地重複而形成的流動感／視覺節奏」與本句語境不同。",
-        "rhythm-mcq-05": "「語言、詩歌中重音、停頓和時間安排形成的韻律」與本句語境不同。",
-        "rhythm-mcq-04": "「生活、工作或活動持續進行時形成的規律步調」與本句語境不同。",
-        "rhythm-mcq-03": "「自然現象或身體功能按固定規律反覆出現的節律」與本句語境不同。"
+        "rhythm-mcq-08": "本句的「rhythmically」指「以有規律、有節奏的方式」。",
+        "rhythm-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rhythm-mcq-08"
     }
@@ -706,5 +570,12 @@ export default {
     "sha256": "82ecafb0315ef50441b64b83bd6e6a15dd54ac6061e943e97aeca2fbcbd1b3b2",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

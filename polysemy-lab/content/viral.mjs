@@ -306,11 +306,7 @@ export default {
       "masked": "Many young people dream of going ____.",
       "options": [
         "viral-mcq-01",
-        "viral-mcq-02",
-        "viral-mcq-03",
-        "viral-mcq-04",
-        "viral-mcq-05",
-        "viral-mcq-06"
+        "viral-mcq-07"
       ],
       "explanation": "本句的「viral」指「網上內容在短時間內被大量觀看、分享、轉發或討論而迅速爆紅的」。",
       "sentenceIndex": 0,
@@ -319,12 +315,8 @@ export default {
         "viral"
       ],
       "optionReasons": {
-        "viral-mcq-01": "本句指「網上內容在短時間內被大量觀看、分享、轉發或討論而迅速爆紅的」。",
-        "viral-mcq-02": "「原本普通的網上內容突然被大量傳播並獲得廣泛關注」與本句語境不同。",
-        "viral-mcq-03": "「由病毒引起，或與病毒感染有關的」與本句語境不同。",
-        "viral-mcq-04": "「與病毒的結構、基因、作用或傳播有關的」與本句語境不同。",
-        "viral-mcq-05": "「體內某種病毒的數量／濃度」與本句語境不同。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。"
+        "viral-mcq-01": "本句的「viral」指「網上內容在短時間內被大量觀看、分享、轉發或討論而迅速爆紅的」。",
+        "viral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-01"
     },
@@ -336,11 +328,7 @@ export default {
       "masked": "The video went ____ overnight.",
       "options": [
         "viral-mcq-01",
-        "viral-mcq-02",
-        "viral-mcq-03",
-        "viral-mcq-04",
-        "viral-mcq-05",
-        "viral-mcq-06"
+        "viral-mcq-03"
       ],
       "explanation": "本句的「viral」指「網上內容在短時間內被大量觀看、分享、轉發或討論而迅速爆紅的」。",
       "sentenceIndex": 1,
@@ -349,12 +337,8 @@ export default {
         "viral"
       ],
       "optionReasons": {
-        "viral-mcq-01": "本句指「網上內容在短時間內被大量觀看、分享、轉發或討論而迅速爆紅的」。",
-        "viral-mcq-02": "「原本普通的網上內容突然被大量傳播並獲得廣泛關注」與本句語境不同。",
-        "viral-mcq-03": "「由病毒引起，或與病毒感染有關的」與本句語境不同。",
-        "viral-mcq-04": "「與病毒的結構、基因、作用或傳播有關的」與本句語境不同。",
-        "viral-mcq-05": "「體內某種病毒的數量／濃度」與本句語境不同。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。"
+        "viral-mcq-01": "本句的「viral」指「網上內容在短時間內被大量觀看、分享、轉發或討論而迅速爆紅的」。",
+        "viral-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-01"
     },
@@ -366,11 +350,7 @@ export default {
       "masked": "Her post became ____ within a few hours.",
       "options": [
         "viral-mcq-01",
-        "viral-mcq-02",
-        "viral-mcq-03",
-        "viral-mcq-04",
-        "viral-mcq-05",
-        "viral-mcq-06"
+        "viral-mcq-03"
       ],
       "explanation": "本句的「viral」指「網上內容在短時間內被大量觀看、分享、轉發或討論而迅速爆紅的」。",
       "sentenceIndex": 2,
@@ -379,12 +359,8 @@ export default {
         "viral"
       ],
       "optionReasons": {
-        "viral-mcq-01": "本句指「網上內容在短時間內被大量觀看、分享、轉發或討論而迅速爆紅的」。",
-        "viral-mcq-02": "「原本普通的網上內容突然被大量傳播並獲得廣泛關注」與本句語境不同。",
-        "viral-mcq-03": "「由病毒引起，或與病毒感染有關的」與本句語境不同。",
-        "viral-mcq-04": "「與病毒的結構、基因、作用或傳播有關的」與本句語境不同。",
-        "viral-mcq-05": "「體內某種病毒的數量／濃度」與本句語境不同。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。"
+        "viral-mcq-01": "本句的「viral」指「網上內容在短時間內被大量觀看、分享、轉發或討論而迅速爆紅的」。",
+        "viral-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-01"
     },
@@ -396,11 +372,7 @@ export default {
       "masked": "The clip ____ after a celebrity shared it.",
       "options": [
         "viral-mcq-02",
-        "viral-mcq-01",
-        "viral-mcq-03",
-        "viral-mcq-04",
-        "viral-mcq-05",
-        "viral-mcq-06"
+        "viral-mcq-03"
       ],
       "explanation": "本句的「went viral」指「原本普通的網上內容突然被大量傳播並獲得廣泛關注」。",
       "sentenceIndex": 3,
@@ -409,12 +381,8 @@ export default {
         "went viral"
       ],
       "optionReasons": {
-        "viral-mcq-02": "本句指「原本普通的網上內容突然被大量傳播並獲得廣泛關注」。",
-        "viral-mcq-01": "「網上內容在短時間內被大量觀看、分享、轉發或討論而迅速爆紅的」與本句語境不同。",
-        "viral-mcq-03": "「由病毒引起，或與病毒感染有關的」與本句語境不同。",
-        "viral-mcq-04": "「與病毒的結構、基因、作用或傳播有關的」與本句語境不同。",
-        "viral-mcq-05": "「體內某種病毒的數量／濃度」與本句語境不同。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。"
+        "viral-mcq-02": "本句的「went viral」指「原本普通的網上內容突然被大量傳播並獲得廣泛關注」。",
+        "viral-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-02"
     },
@@ -426,11 +394,7 @@ export default {
       "masked": "No one expected the joke to go ____.",
       "options": [
         "viral-mcq-02",
-        "viral-mcq-01",
-        "viral-mcq-03",
-        "viral-mcq-04",
-        "viral-mcq-05",
-        "viral-mcq-06"
+        "viral-mcq-03"
       ],
       "explanation": "本句的「viral」指「原本普通的網上內容突然被大量傳播並獲得廣泛關注」。",
       "sentenceIndex": 4,
@@ -439,12 +403,8 @@ export default {
         "viral"
       ],
       "optionReasons": {
-        "viral-mcq-02": "本句指「原本普通的網上內容突然被大量傳播並獲得廣泛關注」。",
-        "viral-mcq-01": "「網上內容在短時間內被大量觀看、分享、轉發或討論而迅速爆紅的」與本句語境不同。",
-        "viral-mcq-03": "「由病毒引起，或與病毒感染有關的」與本句語境不同。",
-        "viral-mcq-04": "「與病毒的結構、基因、作用或傳播有關的」與本句語境不同。",
-        "viral-mcq-05": "「體內某種病毒的數量／濃度」與本句語境不同。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。"
+        "viral-mcq-02": "本句的「viral」指「原本普通的網上內容突然被大量傳播並獲得廣泛關注」。",
+        "viral-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-02"
     },
@@ -456,11 +416,7 @@ export default {
       "masked": "The doctor said it was a ____.",
       "options": [
         "viral-mcq-03",
-        "viral-mcq-02",
-        "viral-mcq-04",
-        "viral-mcq-01",
-        "viral-mcq-05",
-        "viral-mcq-06"
+        "viral-mcq-01"
       ],
       "explanation": "本句的「viral infection」指「由病毒引起，或與病毒感染有關的」。",
       "sentenceIndex": 5,
@@ -469,12 +425,8 @@ export default {
         "viral infection"
       ],
       "optionReasons": {
-        "viral-mcq-03": "本句指「由病毒引起，或與病毒感染有關的」。",
-        "viral-mcq-02": "「原本普通的網上內容突然被大量傳播並獲得廣泛關注」與本句語境不同。",
-        "viral-mcq-04": "「與病毒的結構、基因、作用或傳播有關的」與本句語境不同。",
-        "viral-mcq-01": "「網上內容在短時間內被大量觀看、分享、轉發或討論而迅速爆紅的」與本句語境不同。",
-        "viral-mcq-05": "「體內某種病毒的數量／濃度」與本句語境不同。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。"
+        "viral-mcq-03": "本句的「viral infection」指「由病毒引起，或與病毒感染有關的」。",
+        "viral-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-03"
     },
@@ -486,11 +438,7 @@ export default {
       "masked": "Some ____ illnesses clear up without antibiotics.",
       "options": [
         "viral-mcq-03",
-        "viral-mcq-02",
-        "viral-mcq-04",
-        "viral-mcq-01",
-        "viral-mcq-05",
-        "viral-mcq-06"
+        "viral-mcq-10"
       ],
       "explanation": "本句的「viral」指「由病毒引起，或與病毒感染有關的」。",
       "sentenceIndex": 6,
@@ -499,12 +447,8 @@ export default {
         "viral"
       ],
       "optionReasons": {
-        "viral-mcq-03": "本句指「由病毒引起，或與病毒感染有關的」。",
-        "viral-mcq-02": "「原本普通的網上內容突然被大量傳播並獲得廣泛關注」與本句語境不同。",
-        "viral-mcq-04": "「與病毒的結構、基因、作用或傳播有關的」與本句語境不同。",
-        "viral-mcq-01": "「網上內容在短時間內被大量觀看、分享、轉發或討論而迅速爆紅的」與本句語境不同。",
-        "viral-mcq-05": "「體內某種病毒的數量／濃度」與本句語境不同。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。"
+        "viral-mcq-03": "本句的「viral」指「由病毒引起，或與病毒感染有關的」。",
+        "viral-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-03"
     },
@@ -516,11 +460,8 @@ export default {
       "masked": "Scientists are studying ____.",
       "options": [
         "viral-mcq-04",
-        "viral-mcq-03",
-        "viral-mcq-05",
-        "viral-mcq-02",
-        "viral-mcq-06",
-        "viral-mcq-01"
+        "viral-mcq-10",
+        "viral-mcq-11"
       ],
       "explanation": "本句的「viral transmission」指「與病毒的結構、基因、作用或傳播有關的」。",
       "sentenceIndex": 7,
@@ -529,12 +470,9 @@ export default {
         "viral transmission"
       ],
       "optionReasons": {
-        "viral-mcq-04": "本句指「與病毒的結構、基因、作用或傳播有關的」。",
-        "viral-mcq-03": "「由病毒引起，或與病毒感染有關的」與本句語境不同。",
-        "viral-mcq-05": "「體內某種病毒的數量／濃度」與本句語境不同。",
-        "viral-mcq-02": "「原本普通的網上內容突然被大量傳播並獲得廣泛關注」與本句語境不同。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。",
-        "viral-mcq-01": "「網上內容在短時間內被大量觀看、分享、轉發或討論而迅速爆紅的」與本句語境不同。"
+        "viral-mcq-04": "本句的「viral transmission」指「與病毒的結構、基因、作用或傳播有關的」。",
+        "viral-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "viral-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-04"
     },
@@ -546,11 +484,8 @@ export default {
       "masked": "The lab focuses on ____ genetics.",
       "options": [
         "viral-mcq-04",
-        "viral-mcq-03",
-        "viral-mcq-05",
-        "viral-mcq-02",
-        "viral-mcq-06",
-        "viral-mcq-01"
+        "viral-mcq-01",
+        "viral-mcq-11"
       ],
       "explanation": "本句的「viral」指「與病毒的結構、基因、作用或傳播有關的」。",
       "sentenceIndex": 8,
@@ -559,12 +494,9 @@ export default {
         "viral"
       ],
       "optionReasons": {
-        "viral-mcq-04": "本句指「與病毒的結構、基因、作用或傳播有關的」。",
-        "viral-mcq-03": "「由病毒引起，或與病毒感染有關的」與本句語境不同。",
-        "viral-mcq-05": "「體內某種病毒的數量／濃度」與本句語境不同。",
-        "viral-mcq-02": "「原本普通的網上內容突然被大量傳播並獲得廣泛關注」與本句語境不同。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。",
-        "viral-mcq-01": "「網上內容在短時間內被大量觀看、分享、轉發或討論而迅速爆紅的」與本句語境不同。"
+        "viral-mcq-04": "本句的「viral」指「與病毒的結構、基因、作用或傳播有關的」。",
+        "viral-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "viral-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-04"
     },
@@ -576,11 +508,8 @@ export default {
       "masked": "The treatment reduced the patient’s ____.",
       "options": [
         "viral-mcq-05",
-        "viral-mcq-04",
-        "viral-mcq-06",
-        "viral-mcq-03",
-        "viral-mcq-07",
-        "viral-mcq-02"
+        "viral-pdf-001",
+        "viral-mcq-08"
       ],
       "explanation": "本句的「viral load」指「體內某種病毒的數量／濃度」。",
       "sentenceIndex": 9,
@@ -589,12 +518,9 @@ export default {
         "viral load"
       ],
       "optionReasons": {
-        "viral-mcq-05": "本句指「體內某種病毒的數量／濃度」。",
-        "viral-mcq-04": "「與病毒的結構、基因、作用或傳播有關的」與本句語境不同。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。",
-        "viral-mcq-03": "「由病毒引起，或與病毒感染有關的」與本句語境不同。",
-        "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。",
-        "viral-mcq-02": "「原本普通的網上內容突然被大量傳播並獲得廣泛關注」與本句語境不同。"
+        "viral-mcq-05": "本句的「viral load」指「體內某種病毒的數量／濃度」。",
+        "viral-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "viral-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-05"
     },
@@ -606,11 +532,8 @@ export default {
       "masked": "Doctors monitored changes in ____ load.",
       "options": [
         "viral-mcq-05",
-        "viral-mcq-04",
-        "viral-mcq-06",
-        "viral-mcq-03",
-        "viral-mcq-07",
-        "viral-mcq-02"
+        "viral-mcq-12",
+        "viral-mcq-08"
       ],
       "explanation": "本句的「viral」指「體內某種病毒的數量／濃度」。",
       "sentenceIndex": 10,
@@ -619,12 +542,9 @@ export default {
         "viral"
       ],
       "optionReasons": {
-        "viral-mcq-05": "本句指「體內某種病毒的數量／濃度」。",
-        "viral-mcq-04": "「與病毒的結構、基因、作用或傳播有關的」與本句語境不同。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。",
-        "viral-mcq-03": "「由病毒引起，或與病毒感染有關的」與本句語境不同。",
-        "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。",
-        "viral-mcq-02": "「原本普通的網上內容突然被大量傳播並獲得廣泛關注」與本句語境不同。"
+        "viral-mcq-05": "本句的「viral」指「體內某種病毒的數量／濃度」。",
+        "viral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "viral-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-05"
     },
@@ -636,11 +556,8 @@ export default {
       "masked": "Most colds are caused by ____.",
       "options": [
         "viral-mcq-05",
-        "viral-mcq-04",
-        "viral-mcq-06",
-        "viral-mcq-03",
-        "viral-mcq-07",
-        "viral-mcq-02"
+        "viral-mcq-11",
+        "viral-pdf-001"
       ],
       "explanation": "本句的「viral infections」指「體內某種病毒的數量／濃度」。",
       "sentenceIndex": 11,
@@ -649,12 +566,9 @@ export default {
         "viral infections"
       ],
       "optionReasons": {
-        "viral-mcq-05": "本句指「體內某種病毒的數量／濃度」。",
-        "viral-mcq-04": "「與病毒的結構、基因、作用或傳播有關的」與本句語境不同。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。",
-        "viral-mcq-03": "「由病毒引起，或與病毒感染有關的」與本句語境不同。",
-        "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。",
-        "viral-mcq-02": "「原本普通的網上內容突然被大量傳播並獲得廣泛關注」與本句語境不同。"
+        "viral-mcq-05": "本句的「viral infections」指「體內某種病毒的數量／濃度」。",
+        "viral-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "viral-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-05"
     },
@@ -666,11 +580,8 @@ export default {
       "masked": "The symptoms suggested a ____ infection rather than a bacterial one.",
       "options": [
         "viral-mcq-05",
-        "viral-mcq-04",
-        "viral-mcq-06",
-        "viral-mcq-03",
-        "viral-mcq-07",
-        "viral-mcq-02"
+        "viral-pdf-001",
+        "viral-mcq-08"
       ],
       "explanation": "本句的「viral」指「體內某種病毒的數量／濃度」。",
       "sentenceIndex": 12,
@@ -679,12 +590,9 @@ export default {
         "viral"
       ],
       "optionReasons": {
-        "viral-mcq-05": "本句指「體內某種病毒的數量／濃度」。",
-        "viral-mcq-04": "「與病毒的結構、基因、作用或傳播有關的」與本句語境不同。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。",
-        "viral-mcq-03": "「由病毒引起，或與病毒感染有關的」與本句語境不同。",
-        "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。",
-        "viral-mcq-02": "「原本普通的網上內容突然被大量傳播並獲得廣泛關注」與本句語境不同。"
+        "viral-mcq-05": "本句的「viral」指「體內某種病毒的數量／濃度」。",
+        "viral-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "viral-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-05"
     },
@@ -696,11 +604,8 @@ export default {
       "masked": "Masks can reduce some forms of ____.",
       "options": [
         "viral-mcq-06",
-        "viral-mcq-05",
-        "viral-mcq-07",
-        "viral-mcq-04",
-        "viral-mcq-08",
-        "viral-mcq-03"
+        "viral-mcq-01",
+        "viral-mcq-12"
       ],
       "explanation": "本句的「viral transmission」指「病毒由一個宿主／個體傳到另一個的過程」。",
       "sentenceIndex": 13,
@@ -709,12 +614,9 @@ export default {
         "viral transmission"
       ],
       "optionReasons": {
-        "viral-mcq-06": "本句指「病毒由一個宿主／個體傳到另一個的過程」。",
-        "viral-mcq-05": "「體內某種病毒的數量／濃度」與本句語境不同。",
-        "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。",
-        "viral-mcq-04": "「與病毒的結構、基因、作用或傳播有關的」與本句語境不同。",
-        "viral-mcq-08": "「利用人與人快速分享資訊來擴散宣傳的行銷方式」與本句語境不同。",
-        "viral-mcq-03": "「由病毒引起，或與病毒感染有關的」與本句語境不同。"
+        "viral-mcq-06": "本句的「viral transmission」指「病毒由一個宿主／個體傳到另一個的過程」。",
+        "viral-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "viral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-06"
     },
@@ -726,11 +628,8 @@ export default {
       "masked": "Researchers examined how ____ transmission occurred.",
       "options": [
         "viral-mcq-06",
-        "viral-mcq-05",
-        "viral-mcq-07",
-        "viral-mcq-04",
-        "viral-mcq-08",
-        "viral-mcq-03"
+        "viral-mcq-01",
+        "viral-mcq-12"
       ],
       "explanation": "本句的「viral」指「病毒由一個宿主／個體傳到另一個的過程」。",
       "sentenceIndex": 14,
@@ -739,12 +638,9 @@ export default {
         "viral"
       ],
       "optionReasons": {
-        "viral-mcq-06": "本句指「病毒由一個宿主／個體傳到另一個的過程」。",
-        "viral-mcq-05": "「體內某種病毒的數量／濃度」與本句語境不同。",
-        "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。",
-        "viral-mcq-04": "「與病毒的結構、基因、作用或傳播有關的」與本句語境不同。",
-        "viral-mcq-08": "「利用人與人快速分享資訊來擴散宣傳的行銷方式」與本句語境不同。",
-        "viral-mcq-03": "「由病毒引起，或與病毒感染有關的」與本句語境不同。"
+        "viral-mcq-06": "本句的「viral」指「病毒由一個宿主／個體傳到另一個的過程」。",
+        "viral-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "viral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-06"
     },
@@ -756,11 +652,7 @@ export default {
       "masked": "The treatment uses a ____ to deliver genetic material.",
       "options": [
         "viral-mcq-07",
-        "viral-mcq-06",
-        "viral-mcq-08",
-        "viral-mcq-05",
-        "viral-mcq-09",
-        "viral-mcq-04"
+        "viral-mcq-01"
       ],
       "explanation": "本句的「viral vector」指「用來把遺傳物質送入細胞的病毒載體系統」。",
       "sentenceIndex": 15,
@@ -769,12 +661,8 @@ export default {
         "viral vector"
       ],
       "optionReasons": {
-        "viral-mcq-07": "本句指「用來把遺傳物質送入細胞的病毒載體系統」。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。",
-        "viral-mcq-08": "「利用人與人快速分享資訊來擴散宣傳的行銷方式」與本句語境不同。",
-        "viral-mcq-05": "「體內某種病毒的數量／濃度」與本句語境不同。",
-        "viral-mcq-09": "「特別容易被大量分享、轉發和討論的網上內容」與本句語境不同。",
-        "viral-mcq-04": "「與病毒的結構、基因、作用或傳播有關的」與本句語境不同。"
+        "viral-mcq-07": "本句的「viral vector」指「用來把遺傳物質送入細胞的病毒載體系統」。",
+        "viral-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-07"
     },
@@ -786,11 +674,7 @@ export default {
       "masked": "Scientists modified the ____ vector to make it safer.",
       "options": [
         "viral-mcq-07",
-        "viral-mcq-06",
-        "viral-mcq-08",
-        "viral-mcq-05",
-        "viral-mcq-09",
-        "viral-mcq-04"
+        "viral-mcq-01"
       ],
       "explanation": "本句的「viral」指「用來把遺傳物質送入細胞的病毒載體系統」。",
       "sentenceIndex": 16,
@@ -799,12 +683,8 @@ export default {
         "viral"
       ],
       "optionReasons": {
-        "viral-mcq-07": "本句指「用來把遺傳物質送入細胞的病毒載體系統」。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。",
-        "viral-mcq-08": "「利用人與人快速分享資訊來擴散宣傳的行銷方式」與本句語境不同。",
-        "viral-mcq-05": "「體內某種病毒的數量／濃度」與本句語境不同。",
-        "viral-mcq-09": "「特別容易被大量分享、轉發和討論的網上內容」與本句語境不同。",
-        "viral-mcq-04": "「與病毒的結構、基因、作用或傳播有關的」與本句語境不同。"
+        "viral-mcq-07": "本句的「viral」指「用來把遺傳物質送入細胞的病毒載體系統」。",
+        "viral-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-07"
     },
@@ -816,11 +696,8 @@ export default {
       "masked": "The company used ____ to promote the product.",
       "options": [
         "viral-mcq-08",
-        "viral-mcq-07",
-        "viral-mcq-09",
-        "viral-mcq-06",
-        "viral-mcq-10",
-        "viral-mcq-05"
+        "viral-mcq-05",
+        "viral-pdf-001"
       ],
       "explanation": "本句的「viral marketing」指「利用人與人快速分享資訊來擴散宣傳的行銷方式」。",
       "sentenceIndex": 17,
@@ -829,12 +706,9 @@ export default {
         "viral marketing"
       ],
       "optionReasons": {
-        "viral-mcq-08": "本句指「利用人與人快速分享資訊來擴散宣傳的行銷方式」。",
-        "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。",
-        "viral-mcq-09": "「特別容易被大量分享、轉發和討論的網上內容」與本句語境不同。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。",
-        "viral-mcq-10": "「在網絡平台迅速擴散並被大量參與／模仿的潮流」與本句語境不同。",
-        "viral-mcq-05": "「體內某種病毒的數量／濃度」與本句語境不同。"
+        "viral-mcq-08": "本句的「viral marketing」指「利用人與人快速分享資訊來擴散宣傳的行銷方式」。",
+        "viral-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "viral-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-08"
     },
@@ -846,11 +720,8 @@ export default {
       "masked": "The campaign relied on ____ marketing rather than traditional advertising.",
       "options": [
         "viral-mcq-08",
-        "viral-mcq-07",
-        "viral-mcq-09",
-        "viral-mcq-06",
-        "viral-mcq-10",
-        "viral-mcq-05"
+        "viral-mcq-03",
+        "viral-pdf-001"
       ],
       "explanation": "本句的「viral」指「利用人與人快速分享資訊來擴散宣傳的行銷方式」。",
       "sentenceIndex": 18,
@@ -859,12 +730,9 @@ export default {
         "viral"
       ],
       "optionReasons": {
-        "viral-mcq-08": "本句指「利用人與人快速分享資訊來擴散宣傳的行銷方式」。",
-        "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。",
-        "viral-mcq-09": "「特別容易被大量分享、轉發和討論的網上內容」與本句語境不同。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。",
-        "viral-mcq-10": "「在網絡平台迅速擴散並被大量參與／模仿的潮流」與本句語境不同。",
-        "viral-mcq-05": "「體內某種病毒的數量／濃度」與本句語境不同。"
+        "viral-mcq-08": "本句的「viral」指「利用人與人快速分享資訊來擴散宣傳的行銷方式」。",
+        "viral-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "viral-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-08"
     },
@@ -876,11 +744,7 @@ export default {
       "masked": "Brands often try to create ____.",
       "options": [
         "viral-mcq-09",
-        "viral-mcq-08",
-        "viral-mcq-10",
-        "viral-mcq-07",
-        "viral-mcq-11",
-        "viral-mcq-06"
+        "viral-mcq-03"
       ],
       "explanation": "本句的「viral content」指「特別容易被大量分享、轉發和討論的網上內容」。",
       "sentenceIndex": 19,
@@ -889,12 +753,8 @@ export default {
         "viral content"
       ],
       "optionReasons": {
-        "viral-mcq-09": "本句指「特別容易被大量分享、轉發和討論的網上內容」。",
-        "viral-mcq-08": "「利用人與人快速分享資訊來擴散宣傳的行銷方式」與本句語境不同。",
-        "viral-mcq-10": "「在網絡平台迅速擴散並被大量參與／模仿的潮流」與本句語境不同。",
-        "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。",
-        "viral-mcq-11": "「能感染生物細胞並利用宿主細胞複製的感染因子」與本句語境不同。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。"
+        "viral-mcq-09": "本句的「viral content」指「特別容易被大量分享、轉發和討論的網上內容」。",
+        "viral-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-09"
     },
@@ -906,11 +766,7 @@ export default {
       "masked": "There is no guaranteed formula for ____ content.",
       "options": [
         "viral-mcq-09",
-        "viral-mcq-08",
-        "viral-mcq-10",
-        "viral-mcq-07",
-        "viral-mcq-11",
-        "viral-mcq-06"
+        "viral-mcq-07"
       ],
       "explanation": "本句的「viral」指「特別容易被大量分享、轉發和討論的網上內容」。",
       "sentenceIndex": 20,
@@ -919,12 +775,8 @@ export default {
         "viral"
       ],
       "optionReasons": {
-        "viral-mcq-09": "本句指「特別容易被大量分享、轉發和討論的網上內容」。",
-        "viral-mcq-08": "「利用人與人快速分享資訊來擴散宣傳的行銷方式」與本句語境不同。",
-        "viral-mcq-10": "「在網絡平台迅速擴散並被大量參與／模仿的潮流」與本句語境不同。",
-        "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。",
-        "viral-mcq-11": "「能感染生物細胞並利用宿主細胞複製的感染因子」與本句語境不同。",
-        "viral-mcq-06": "「病毒由一個宿主／個體傳到另一個的過程」與本句語境不同。"
+        "viral-mcq-09": "本句的「viral」指「特別容易被大量分享、轉發和討論的網上內容」。",
+        "viral-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-09"
     },
@@ -936,11 +788,7 @@ export default {
       "masked": "The dance became a ____.",
       "options": [
         "viral-mcq-10",
-        "viral-mcq-09",
-        "viral-mcq-11",
-        "viral-mcq-08",
-        "viral-mcq-12",
-        "viral-mcq-07"
+        "viral-mcq-06"
       ],
       "explanation": "本句的「viral trend」指「在網絡平台迅速擴散並被大量參與／模仿的潮流」。",
       "sentenceIndex": 21,
@@ -949,12 +797,8 @@ export default {
         "viral trend"
       ],
       "optionReasons": {
-        "viral-mcq-10": "本句指「在網絡平台迅速擴散並被大量參與／模仿的潮流」。",
-        "viral-mcq-09": "「特別容易被大量分享、轉發和討論的網上內容」與本句語境不同。",
-        "viral-mcq-11": "「能感染生物細胞並利用宿主細胞複製的感染因子」與本句語境不同。",
-        "viral-mcq-08": "「利用人與人快速分享資訊來擴散宣傳的行銷方式」與本句語境不同。",
-        "viral-mcq-12": "「能感染檔案／系統並自行傳播的惡意程式」與本句語境不同。",
-        "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。"
+        "viral-mcq-10": "本句的「viral trend」指「在網絡平台迅速擴散並被大量參與／模仿的潮流」。",
+        "viral-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-10"
     },
@@ -966,11 +810,8 @@ export default {
       "masked": "____ trends can disappear very quickly.",
       "options": [
         "viral-mcq-10",
-        "viral-mcq-09",
-        "viral-mcq-11",
-        "viral-mcq-08",
-        "viral-mcq-12",
-        "viral-mcq-07"
+        "viral-mcq-04",
+        "viral-mcq-11"
       ],
       "explanation": "本句的「Viral」指「在網絡平台迅速擴散並被大量參與／模仿的潮流」。",
       "sentenceIndex": 22,
@@ -979,12 +820,9 @@ export default {
         "Viral"
       ],
       "optionReasons": {
-        "viral-mcq-10": "本句指「在網絡平台迅速擴散並被大量參與／模仿的潮流」。",
-        "viral-mcq-09": "「特別容易被大量分享、轉發和討論的網上內容」與本句語境不同。",
-        "viral-mcq-11": "「能感染生物細胞並利用宿主細胞複製的感染因子」與本句語境不同。",
-        "viral-mcq-08": "「利用人與人快速分享資訊來擴散宣傳的行銷方式」與本句語境不同。",
-        "viral-mcq-12": "「能感染檔案／系統並自行傳播的惡意程式」與本句語境不同。",
-        "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。"
+        "viral-mcq-10": "本句的「Viral」指「在網絡平台迅速擴散並被大量參與／模仿的潮流」。",
+        "viral-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "viral-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-10"
     },
@@ -996,11 +834,8 @@ export default {
       "masked": "The interview created a ____.",
       "options": [
         "viral-pdf-001",
-        "viral-mcq-09",
-        "viral-mcq-11",
-        "viral-mcq-08",
-        "viral-mcq-12",
-        "viral-mcq-07"
+        "viral-mcq-05",
+        "viral-mcq-11"
       ],
       "explanation": "本句的「viral moment」指「某個瞬間／片段突然在網上被廣泛傳播和討論」。",
       "sentenceIndex": 23,
@@ -1009,12 +844,9 @@ export default {
         "viral moment"
       ],
       "optionReasons": {
-        "viral-pdf-001": "本句指「某個瞬間／片段突然在網上被廣泛傳播和討論」。",
-        "viral-mcq-09": "「特別容易被大量分享、轉發和討論的網上內容」與本句語境不同。",
-        "viral-mcq-11": "「能感染生物細胞並利用宿主細胞複製的感染因子」與本句語境不同。",
-        "viral-mcq-08": "「利用人與人快速分享資訊來擴散宣傳的行銷方式」與本句語境不同。",
-        "viral-mcq-12": "「能感染檔案／系統並自行傳播的惡意程式」與本句語境不同。",
-        "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。"
+        "viral-pdf-001": "本句的「viral moment」指「某個瞬間／片段突然在網上被廣泛傳播和討論」。",
+        "viral-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "viral-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-pdf-001"
     },
@@ -1026,11 +858,8 @@ export default {
       "masked": "One funny mistake turned into a ____ moment.",
       "options": [
         "viral-pdf-001",
-        "viral-mcq-09",
-        "viral-mcq-11",
-        "viral-mcq-08",
-        "viral-mcq-12",
-        "viral-mcq-07"
+        "viral-mcq-05",
+        "viral-mcq-11"
       ],
       "explanation": "本句的「viral」指「某個瞬間／片段突然在網上被廣泛傳播和討論」。",
       "sentenceIndex": 24,
@@ -1039,12 +868,9 @@ export default {
         "viral"
       ],
       "optionReasons": {
-        "viral-pdf-001": "本句指「某個瞬間／片段突然在網上被廣泛傳播和討論」。",
-        "viral-mcq-09": "「特別容易被大量分享、轉發和討論的網上內容」與本句語境不同。",
-        "viral-mcq-11": "「能感染生物細胞並利用宿主細胞複製的感染因子」與本句語境不同。",
-        "viral-mcq-08": "「利用人與人快速分享資訊來擴散宣傳的行銷方式」與本句語境不同。",
-        "viral-mcq-12": "「能感染檔案／系統並自行傳播的惡意程式」與本句語境不同。",
-        "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。"
+        "viral-pdf-001": "本句的「viral」指「某個瞬間／片段突然在網上被廣泛傳播和討論」。",
+        "viral-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "viral-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-pdf-001"
     },
@@ -1056,11 +882,8 @@ export default {
       "masked": "The illness is caused by a ____.",
       "options": [
         "viral-mcq-11",
-        "viral-mcq-10",
-        "viral-mcq-12",
         "viral-mcq-09",
-        "viral-mcq-08",
-        "viral-mcq-07"
+        "viral-mcq-05"
       ],
       "explanation": "本句的「virus」指「能感染生物細胞並利用宿主細胞複製的感染因子」。",
       "sentenceIndex": 25,
@@ -1069,12 +892,9 @@ export default {
         "virus"
       ],
       "optionReasons": {
-        "viral-mcq-11": "本句指「能感染生物細胞並利用宿主細胞複製的感染因子」。",
-        "viral-mcq-10": "「在網絡平台迅速擴散並被大量參與／模仿的潮流」與本句語境不同。",
-        "viral-mcq-12": "「能感染檔案／系統並自行傳播的惡意程式」與本句語境不同。",
-        "viral-mcq-09": "「特別容易被大量分享、轉發和討論的網上內容」與本句語境不同。",
-        "viral-mcq-08": "「利用人與人快速分享資訊來擴散宣傳的行銷方式」與本句語境不同。",
-        "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。"
+        "viral-mcq-11": "本句的「virus」指「能感染生物細胞並利用宿主細胞複製的感染因子」。",
+        "viral-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "viral-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-11"
     },
@@ -1086,11 +906,8 @@ export default {
       "masked": "The computer was infected with a ____.",
       "options": [
         "viral-mcq-12",
-        "viral-mcq-11",
-        "viral-mcq-10",
-        "viral-mcq-09",
-        "viral-mcq-08",
-        "viral-mcq-07"
+        "viral-mcq-05",
+        "viral-mcq-09"
       ],
       "explanation": "本句的「virus」指「能感染檔案／系統並自行傳播的惡意程式」。",
       "sentenceIndex": 26,
@@ -1099,12 +916,9 @@ export default {
         "virus"
       ],
       "optionReasons": {
-        "viral-mcq-12": "本句指「能感染檔案／系統並自行傳播的惡意程式」。",
-        "viral-mcq-11": "「能感染生物細胞並利用宿主細胞複製的感染因子」與本句語境不同。",
-        "viral-mcq-10": "「在網絡平台迅速擴散並被大量參與／模仿的潮流」與本句語境不同。",
-        "viral-mcq-09": "「特別容易被大量分享、轉發和討論的網上內容」與本句語境不同。",
-        "viral-mcq-08": "「利用人與人快速分享資訊來擴散宣傳的行銷方式」與本句語境不同。",
-        "viral-mcq-07": "「用來把遺傳物質送入細胞的病毒載體系統」與本句語境不同。"
+        "viral-mcq-12": "本句的「virus」指「能感染檔案／系統並自行傳播的惡意程式」。",
+        "viral-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "viral-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "viral-mcq-12"
     }
@@ -1116,5 +930,7 @@ export default {
     "sha256": "899dbbe1e7e25f26f8876c8b8133ab769f635f7f46288aaf8fa13b8880d9d05d",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

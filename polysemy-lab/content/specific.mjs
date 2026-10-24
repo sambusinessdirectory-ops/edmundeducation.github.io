@@ -621,11 +621,9 @@ export default {
       "masked": "A good apology should be honest, timely, and ____.",
       "options": [
         "specific-mcq-01",
-        "specific-mcq-02",
-        "specific-mcq-03",
-        "specific-mcq-04",
-        "specific-mcq-05",
-        "specific-mcq-06"
+        "specific-mcq-10",
+        "specific-mcq-11",
+        "specific-mcq-24"
       ],
       "explanation": "本句的「specific」指「具體的；明確的」。",
       "sentenceIndex": 0,
@@ -634,12 +632,10 @@ export default {
         "specific"
       ],
       "optionReasons": {
-        "specific-mcq-01": "本句指「具體的；明確的」。",
-        "specific-mcq-02": "「說具體一點」與本句語境不同。",
-        "specific-mcq-03": "「具體細節」與本句語境不同。",
-        "specific-mcq-04": "「具體原因」與本句語境不同。",
-        "specific-mcq-05": "「具體例子」與本句語境不同。",
-        "specific-mcq-06": "「特定的」與本句語境不同。"
+        "specific-mcq-01": "本句的「specific」指「具體的；明確的」。",
+        "specific-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-01"
     },
@@ -651,11 +647,9 @@ export default {
       "masked": "Please give me a ____.",
       "options": [
         "specific-mcq-01",
-        "specific-mcq-02",
-        "specific-mcq-03",
-        "specific-mcq-04",
-        "specific-mcq-05",
-        "specific-mcq-06"
+        "specific-mcq-11",
+        "specific-mcq-14",
+        "specific-mcq-26"
       ],
       "explanation": "本句的「specific reason」指「具體的；明確的」。",
       "sentenceIndex": 1,
@@ -664,12 +658,10 @@ export default {
         "specific reason"
       ],
       "optionReasons": {
-        "specific-mcq-01": "本句指「具體的；明確的」。",
-        "specific-mcq-02": "「說具體一點」與本句語境不同。",
-        "specific-mcq-03": "「具體細節」與本句語境不同。",
-        "specific-mcq-04": "「具體原因」與本句語境不同。",
-        "specific-mcq-05": "「具體例子」與本句語境不同。",
-        "specific-mcq-06": "「特定的」與本句語境不同。"
+        "specific-mcq-01": "本句的「specific reason」指「具體的；明確的」。",
+        "specific-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-01"
     },
@@ -681,11 +673,9 @@ export default {
       "masked": "Her feedback was very ____.",
       "options": [
         "specific-mcq-01",
-        "specific-mcq-02",
-        "specific-mcq-03",
-        "specific-mcq-04",
-        "specific-mcq-05",
-        "specific-mcq-06"
+        "specific-mcq-10",
+        "specific-mcq-25",
+        "specific-mcq-19"
       ],
       "explanation": "本句的「specific」指「具體的；明確的」。",
       "sentenceIndex": 2,
@@ -694,12 +684,10 @@ export default {
         "specific"
       ],
       "optionReasons": {
-        "specific-mcq-01": "本句指「具體的；明確的」。",
-        "specific-mcq-02": "「說具體一點」與本句語境不同。",
-        "specific-mcq-03": "「具體細節」與本句語境不同。",
-        "specific-mcq-04": "「具體原因」與本句語境不同。",
-        "specific-mcq-05": "「具體例子」與本句語境不同。",
-        "specific-mcq-06": "「特定的」與本句語境不同。"
+        "specific-mcq-01": "本句的「specific」指「具體的；明確的」。",
+        "specific-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-01"
     },
@@ -711,11 +699,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "specific-mcq-02",
-        "specific-mcq-01",
-        "specific-mcq-03",
-        "specific-mcq-04",
-        "specific-mcq-05",
-        "specific-mcq-06"
+        "specific-mcq-20",
+        "specific-mcq-25",
+        "specific-mcq-07"
       ],
       "explanation": "本句的「be more specific」指「說具體一點」。",
       "sentenceIndex": 3,
@@ -724,12 +710,10 @@ export default {
         "be more specific"
       ],
       "optionReasons": {
-        "specific-mcq-02": "本句指「說具體一點」。",
-        "specific-mcq-01": "「具體的；明確的」與本句語境不同。",
-        "specific-mcq-03": "「具體細節」與本句語境不同。",
-        "specific-mcq-04": "「具體原因」與本句語境不同。",
-        "specific-mcq-05": "「具體例子」與本句語境不同。",
-        "specific-mcq-06": "「特定的」與本句語境不同。"
+        "specific-mcq-02": "本句的「be more specific」指「說具體一點」。",
+        "specific-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-02"
     },
@@ -741,11 +725,9 @@ export default {
       "masked": "Try to ____ when you explain the problem.",
       "options": [
         "specific-mcq-02",
-        "specific-mcq-01",
-        "specific-mcq-03",
-        "specific-mcq-04",
-        "specific-mcq-05",
-        "specific-mcq-06"
+        "specific-mcq-24",
+        "specific-mcq-15",
+        "specific-mcq-09"
       ],
       "explanation": "本句的「be specific」指「說具體一點」。",
       "sentenceIndex": 4,
@@ -754,12 +736,10 @@ export default {
         "be specific"
       ],
       "optionReasons": {
-        "specific-mcq-02": "本句指「說具體一點」。",
-        "specific-mcq-01": "「具體的；明確的」與本句語境不同。",
-        "specific-mcq-03": "「具體細節」與本句語境不同。",
-        "specific-mcq-04": "「具體原因」與本句語境不同。",
-        "specific-mcq-05": "「具體例子」與本句語境不同。",
-        "specific-mcq-06": "「特定的」與本句語境不同。"
+        "specific-mcq-02": "本句的「be specific」指「說具體一點」。",
+        "specific-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-02"
     },
@@ -771,11 +751,9 @@ export default {
       "masked": "The witness gave several ____.",
       "options": [
         "specific-mcq-03",
-        "specific-mcq-02",
-        "specific-mcq-04",
-        "specific-mcq-01",
-        "specific-mcq-05",
-        "specific-mcq-06"
+        "specific-mcq-19",
+        "specific-mcq-15",
+        "specific-mcq-24"
       ],
       "explanation": "本句的「specific details」指「具體細節」。",
       "sentenceIndex": 5,
@@ -784,12 +762,10 @@ export default {
         "specific details"
       ],
       "optionReasons": {
-        "specific-mcq-03": "本句指「具體細節」。",
-        "specific-mcq-02": "「說具體一點」與本句語境不同。",
-        "specific-mcq-04": "「具體原因」與本句語境不同。",
-        "specific-mcq-01": "「具體的；明確的」與本句語境不同。",
-        "specific-mcq-05": "「具體例子」與本句語境不同。",
-        "specific-mcq-06": "「特定的」與本句語境不同。"
+        "specific-mcq-03": "本句的「specific details」指「具體細節」。",
+        "specific-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-03"
     },
@@ -801,11 +777,9 @@ export default {
       "masked": "Add ____ to make your answer stronger.",
       "options": [
         "specific-mcq-03",
-        "specific-mcq-02",
-        "specific-mcq-04",
-        "specific-mcq-01",
-        "specific-mcq-05",
-        "specific-mcq-06"
+        "specific-mcq-24",
+        "specific-mcq-20",
+        "specific-mcq-09"
       ],
       "explanation": "本句的「specific details」指「具體細節」。",
       "sentenceIndex": 6,
@@ -814,12 +788,10 @@ export default {
         "specific details"
       ],
       "optionReasons": {
-        "specific-mcq-03": "本句指「具體細節」。",
-        "specific-mcq-02": "「說具體一點」與本句語境不同。",
-        "specific-mcq-04": "「具體原因」與本句語境不同。",
-        "specific-mcq-01": "「具體的；明確的」與本句語境不同。",
-        "specific-mcq-05": "「具體例子」與本句語境不同。",
-        "specific-mcq-06": "「特定的」與本句語境不同。"
+        "specific-mcq-03": "本句的「specific details」指「具體細節」。",
+        "specific-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-03"
     },
@@ -831,11 +803,9 @@ export default {
       "masked": "Is there a ____ for the delay?",
       "options": [
         "specific-mcq-04",
-        "specific-mcq-03",
-        "specific-mcq-05",
-        "specific-mcq-02",
-        "specific-mcq-06",
-        "specific-mcq-01"
+        "specific-mcq-25",
+        "specific-pdf-001",
+        "specific-mcq-10"
       ],
       "explanation": "本句的「specific reason」指「具體原因」。",
       "sentenceIndex": 7,
@@ -844,12 +814,10 @@ export default {
         "specific reason"
       ],
       "optionReasons": {
-        "specific-mcq-04": "本句指「具體原因」。",
-        "specific-mcq-03": "「具體細節」與本句語境不同。",
-        "specific-mcq-05": "「具體例子」與本句語境不同。",
-        "specific-mcq-02": "「說具體一點」與本句語境不同。",
-        "specific-mcq-06": "「特定的」與本句語境不同。",
-        "specific-mcq-01": "「具體的；明確的」與本句語境不同。"
+        "specific-mcq-04": "本句的「specific reason」指「具體原因」。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "specific-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-04"
     },
@@ -861,11 +829,9 @@ export default {
       "masked": "He couldn't give a ____ for his decision.",
       "options": [
         "specific-mcq-04",
-        "specific-mcq-03",
-        "specific-mcq-05",
-        "specific-mcq-02",
-        "specific-mcq-06",
-        "specific-mcq-01"
+        "specific-mcq-20",
+        "specific-mcq-11",
+        "specific-mcq-23"
       ],
       "explanation": "本句的「specific reason」指「具體原因」。",
       "sentenceIndex": 8,
@@ -874,12 +840,10 @@ export default {
         "specific reason"
       ],
       "optionReasons": {
-        "specific-mcq-04": "本句指「具體原因」。",
-        "specific-mcq-03": "「具體細節」與本句語境不同。",
-        "specific-mcq-05": "「具體例子」與本句語境不同。",
-        "specific-mcq-02": "「說具體一點」與本句語境不同。",
-        "specific-mcq-06": "「特定的」與本句語境不同。",
-        "specific-mcq-01": "「具體的；明確的」與本句語境不同。"
+        "specific-mcq-04": "本句的「specific reason」指「具體原因」。",
+        "specific-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-04"
     },
@@ -891,11 +855,9 @@ export default {
       "masked": "Can you give me a ____?",
       "options": [
         "specific-mcq-05",
-        "specific-mcq-04",
-        "specific-mcq-06",
-        "specific-mcq-03",
-        "specific-mcq-07",
-        "specific-mcq-02"
+        "specific-mcq-25",
+        "specific-mcq-15",
+        "specific-mcq-19"
       ],
       "explanation": "本句的「specific example」指「具體例子」。",
       "sentenceIndex": 9,
@@ -904,12 +866,10 @@ export default {
         "specific example"
       ],
       "optionReasons": {
-        "specific-mcq-05": "本句指「具體例子」。",
-        "specific-mcq-04": "「具體原因」與本句語境不同。",
-        "specific-mcq-06": "「特定的」與本句語境不同。",
-        "specific-mcq-03": "「具體細節」與本句語境不同。",
-        "specific-mcq-07": "「特定人物」與本句語境不同。",
-        "specific-mcq-02": "「說具體一點」與本句語境不同。"
+        "specific-mcq-05": "本句的「specific example」指「具體例子」。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-05"
     },
@@ -921,11 +881,9 @@ export default {
       "masked": "Use a ____ to support your point.",
       "options": [
         "specific-mcq-05",
-        "specific-mcq-04",
-        "specific-mcq-06",
-        "specific-mcq-03",
-        "specific-mcq-07",
-        "specific-mcq-02"
+        "specific-mcq-24",
+        "specific-mcq-11",
+        "specific-mcq-26"
       ],
       "explanation": "本句的「specific example」指「具體例子」。",
       "sentenceIndex": 10,
@@ -934,12 +892,10 @@ export default {
         "specific example"
       ],
       "optionReasons": {
-        "specific-mcq-05": "本句指「具體例子」。",
-        "specific-mcq-04": "「具體原因」與本句語境不同。",
-        "specific-mcq-06": "「特定的」與本句語境不同。",
-        "specific-mcq-03": "「具體細節」與本句語境不同。",
-        "specific-mcq-07": "「特定人物」與本句語境不同。",
-        "specific-mcq-02": "「說具體一點」與本句語境不同。"
+        "specific-mcq-05": "本句的「specific example」指「具體例子」。",
+        "specific-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-05"
     },
@@ -952,10 +908,8 @@ export default {
       "options": [
         "specific-mcq-06",
         "specific-mcq-05",
-        "specific-mcq-07",
-        "specific-mcq-04",
-        "specific-mcq-08",
-        "specific-mcq-03"
+        "specific-mcq-20",
+        "specific-mcq-15"
       ],
       "explanation": "本句的「specific file」指「特定的」。",
       "sentenceIndex": 11,
@@ -964,12 +918,10 @@ export default {
         "specific file"
       ],
       "optionReasons": {
-        "specific-mcq-06": "本句指「特定的」。",
-        "specific-mcq-05": "「具體例子」與本句語境不同。",
-        "specific-mcq-07": "「特定人物」與本句語境不同。",
-        "specific-mcq-04": "「具體原因」與本句語境不同。",
-        "specific-mcq-08": "「特定情況」與本句語境不同。",
-        "specific-mcq-03": "「具體細節」與本句語境不同。"
+        "specific-mcq-06": "本句的「specific file」指「特定的」。",
+        "specific-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-06"
     },
@@ -981,11 +933,9 @@ export default {
       "masked": "She asked to speak to a ____.",
       "options": [
         "specific-mcq-06",
-        "specific-mcq-05",
-        "specific-mcq-07",
-        "specific-mcq-04",
-        "specific-mcq-08",
-        "specific-mcq-03"
+        "specific-mcq-26",
+        "specific-mcq-20",
+        "specific-mcq-12"
       ],
       "explanation": "本句的「specific person」指「特定的」。",
       "sentenceIndex": 12,
@@ -994,12 +944,10 @@ export default {
         "specific person"
       ],
       "optionReasons": {
-        "specific-mcq-06": "本句指「特定的」。",
-        "specific-mcq-05": "「具體例子」與本句語境不同。",
-        "specific-mcq-07": "「特定人物」與本句語境不同。",
-        "specific-mcq-04": "「具體原因」與本句語境不同。",
-        "specific-mcq-08": "「特定情況」與本句語境不同。",
-        "specific-mcq-03": "「具體細節」與本句語境不同。"
+        "specific-mcq-06": "本句的「specific person」指「特定的」。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-06"
     },
@@ -1011,11 +959,9 @@ export default {
       "masked": "Do you have a ____ in mind?",
       "options": [
         "specific-mcq-07",
-        "specific-mcq-06",
-        "specific-mcq-08",
         "specific-mcq-05",
-        "specific-mcq-09",
-        "specific-mcq-04"
+        "specific-mcq-25",
+        "specific-mcq-20"
       ],
       "explanation": "本句的「specific date」指「特定人物」。",
       "sentenceIndex": 13,
@@ -1024,12 +970,10 @@ export default {
         "specific date"
       ],
       "optionReasons": {
-        "specific-mcq-07": "本句指「特定人物」。",
-        "specific-mcq-06": "「特定的」與本句語境不同。",
-        "specific-mcq-08": "「特定情況」與本句語境不同。",
-        "specific-mcq-05": "「具體例子」與本句語境不同。",
-        "specific-mcq-09": "「X 特有的／只適用於 X」與本句語境不同。",
-        "specific-mcq-04": "「具體原因」與本句語境不同。"
+        "specific-mcq-07": "本句的「specific date」指「特定人物」。",
+        "specific-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-07"
     },
@@ -1041,11 +985,9 @@ export default {
       "masked": "The rule applies only to ____.",
       "options": [
         "specific-mcq-07",
-        "specific-mcq-06",
-        "specific-mcq-08",
-        "specific-mcq-05",
-        "specific-mcq-09",
-        "specific-mcq-04"
+        "specific-mcq-10",
+        "specific-mcq-25",
+        "specific-mcq-05"
       ],
       "explanation": "本句的「specific situations」指「特定人物」。",
       "sentenceIndex": 14,
@@ -1054,12 +996,10 @@ export default {
         "specific situations"
       ],
       "optionReasons": {
-        "specific-mcq-07": "本句指「特定人物」。",
-        "specific-mcq-06": "「特定的」與本句語境不同。",
-        "specific-mcq-08": "「特定情況」與本句語境不同。",
-        "specific-mcq-05": "「具體例子」與本句語境不同。",
-        "specific-mcq-09": "「X 特有的／只適用於 X」與本句語境不同。",
-        "specific-mcq-04": "「具體原因」與本句語境不同。"
+        "specific-mcq-07": "本句的「specific situations」指「特定人物」。",
+        "specific-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-07"
     },
@@ -1071,11 +1011,9 @@ export default {
       "masked": "This tool is designed for a ____.",
       "options": [
         "specific-pdf-001",
-        "specific-mcq-07",
         "specific-mcq-09",
-        "specific-mcq-06",
-        "specific-mcq-10",
-        "specific-mcq-05"
+        "specific-mcq-17",
+        "specific-mcq-25"
       ],
       "explanation": "本句的「specific type of task」指「某一個明確而限定的類別」。",
       "sentenceIndex": 15,
@@ -1084,12 +1022,10 @@ export default {
         "specific type of task"
       ],
       "optionReasons": {
-        "specific-pdf-001": "本句指「某一個明確而限定的類別」。",
-        "specific-mcq-07": "「特定人物」與本句語境不同。",
-        "specific-mcq-09": "「X 特有的／只適用於 X」與本句語境不同。",
-        "specific-mcq-06": "「特定的」與本句語境不同。",
-        "specific-mcq-10": "「任務專用的」與本句語境不同。",
-        "specific-mcq-05": "「具體例子」與本句語境不同。"
+        "specific-pdf-001": "本句的「specific type of task」指「某一個明確而限定的類別」。",
+        "specific-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-pdf-001"
     },
@@ -1101,11 +1037,9 @@ export default {
       "masked": "The disease affects a ____.",
       "options": [
         "specific-pdf-001",
-        "specific-mcq-07",
-        "specific-mcq-09",
-        "specific-mcq-06",
-        "specific-mcq-10",
-        "specific-mcq-05"
+        "specific-mcq-05",
+        "specific-mcq-26",
+        "specific-mcq-19"
       ],
       "explanation": "本句的「specific type of cell」指「某一個明確而限定的類別」。",
       "sentenceIndex": 16,
@@ -1114,12 +1048,10 @@ export default {
         "specific type of cell"
       ],
       "optionReasons": {
-        "specific-pdf-001": "本句指「某一個明確而限定的類別」。",
-        "specific-mcq-07": "「特定人物」與本句語境不同。",
-        "specific-mcq-09": "「X 特有的／只適用於 X」與本句語境不同。",
-        "specific-mcq-06": "「特定的」與本句語境不同。",
-        "specific-mcq-10": "「任務專用的」與本句語境不同。",
-        "specific-mcq-05": "「具體例子」與本句語境不同。"
+        "specific-pdf-001": "本句的「specific type of cell」指「某一個明確而限定的類別」。",
+        "specific-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-pdf-001"
     },
@@ -1131,11 +1063,9 @@ export default {
       "masked": "This problem is ____.",
       "options": [
         "specific-mcq-09",
-        "specific-mcq-08",
-        "specific-mcq-10",
-        "specific-mcq-07",
-        "specific-mcq-11",
-        "specific-mcq-06"
+        "specific-mcq-25",
+        "specific-mcq-02",
+        "specific-pdf-001"
       ],
       "explanation": "本句的「specific to this system」指「X 特有的／只適用於 X」。",
       "sentenceIndex": 17,
@@ -1144,12 +1074,10 @@ export default {
         "specific to this system"
       ],
       "optionReasons": {
-        "specific-mcq-09": "本句指「X 特有的／只適用於 X」。",
-        "specific-mcq-08": "「特定情況」與本句語境不同。",
-        "specific-mcq-10": "「任務專用的」與本句語境不同。",
-        "specific-mcq-07": "「特定人物」與本句語境不同。",
-        "specific-mcq-11": "「物種特有的」與本句語境不同。",
-        "specific-mcq-06": "「特定的」與本句語境不同。"
+        "specific-mcq-09": "本句的「specific to this system」指「X 特有的／只適用於 X」。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "specific-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-09"
     },
@@ -1161,11 +1089,9 @@ export default {
       "masked": "The rule is ____.",
       "options": [
         "specific-mcq-09",
-        "specific-mcq-08",
-        "specific-mcq-10",
-        "specific-mcq-07",
-        "specific-mcq-11",
-        "specific-mcq-06"
+        "specific-mcq-24",
+        "specific-mcq-02",
+        "specific-mcq-26"
       ],
       "explanation": "本句的「specific to this course」指「X 特有的／只適用於 X」。",
       "sentenceIndex": 18,
@@ -1174,12 +1100,10 @@ export default {
         "specific to this course"
       ],
       "optionReasons": {
-        "specific-mcq-09": "本句指「X 特有的／只適用於 X」。",
-        "specific-mcq-08": "「特定情況」與本句語境不同。",
-        "specific-mcq-10": "「任務專用的」與本句語境不同。",
-        "specific-mcq-07": "「特定人物」與本句語境不同。",
-        "specific-mcq-11": "「物種特有的」與本句語境不同。",
-        "specific-mcq-06": "「特定的」與本句語境不同。"
+        "specific-mcq-09": "本句的「specific to this course」指「X 特有的／只適用於 X」。",
+        "specific-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-09"
     },
@@ -1191,11 +1115,9 @@ export default {
       "masked": "Employees receive ____.",
       "options": [
         "specific-mcq-10",
-        "specific-mcq-09",
         "specific-mcq-11",
-        "specific-mcq-08",
-        "specific-mcq-12",
-        "specific-mcq-07"
+        "specific-mcq-16",
+        "specific-mcq-26"
       ],
       "explanation": "本句的「job-specific training」指「任務專用的」。",
       "sentenceIndex": 19,
@@ -1204,12 +1126,10 @@ export default {
         "job-specific training"
       ],
       "optionReasons": {
-        "specific-mcq-10": "本句指「任務專用的」。",
-        "specific-mcq-09": "「X 特有的／只適用於 X」與本句語境不同。",
-        "specific-mcq-11": "「物種特有的」與本句語境不同。",
-        "specific-mcq-08": "「特定情況」與本句語境不同。",
-        "specific-mcq-12": "「具體地；明確地」與本句語境不同。",
-        "specific-mcq-07": "「特定人物」與本句語境不同。"
+        "specific-mcq-10": "本句的「job-specific training」指「任務專用的」。",
+        "specific-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-10"
     },
@@ -1221,11 +1141,9 @@ export default {
       "masked": "The software includes several ____.",
       "options": [
         "specific-mcq-10",
-        "specific-mcq-09",
-        "specific-mcq-11",
-        "specific-mcq-08",
-        "specific-mcq-12",
-        "specific-mcq-07"
+        "specific-mcq-15",
+        "specific-mcq-04",
+        "specific-mcq-22"
       ],
       "explanation": "本句的「task-specific tools」指「任務專用的」。",
       "sentenceIndex": 20,
@@ -1234,12 +1152,10 @@ export default {
         "task-specific tools"
       ],
       "optionReasons": {
-        "specific-mcq-10": "本句指「任務專用的」。",
-        "specific-mcq-09": "「X 特有的／只適用於 X」與本句語境不同。",
-        "specific-mcq-11": "「物種特有的」與本句語境不同。",
-        "specific-mcq-08": "「特定情況」與本句語境不同。",
-        "specific-mcq-12": "「具體地；明確地」與本句語境不同。",
-        "specific-mcq-07": "「特定人物」與本句語境不同。"
+        "specific-mcq-10": "本句的「task-specific tools」指「任務專用的」。",
+        "specific-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-10"
     },
@@ -1251,11 +1167,9 @@ export default {
       "masked": "Some behaviours are ____.",
       "options": [
         "specific-mcq-11",
-        "specific-mcq-10",
-        "specific-mcq-12",
-        "specific-mcq-09",
-        "specific-mcq-13",
-        "specific-mcq-08"
+        "specific-mcq-14",
+        "specific-pdf-001",
+        "specific-mcq-17"
       ],
       "explanation": "本句的「species-specific」指「物種特有的」。",
       "sentenceIndex": 21,
@@ -1264,12 +1178,10 @@ export default {
         "species-specific"
       ],
       "optionReasons": {
-        "specific-mcq-11": "本句指「物種特有的」。",
-        "specific-mcq-10": "「任務專用的」與本句語境不同。",
-        "specific-mcq-12": "「具體地；明確地」與本句語境不同。",
-        "specific-mcq-09": "「X 特有的／只適用於 X」與本句語境不同。",
-        "specific-mcq-13": "「特別地；專門地」與本句語境不同。",
-        "specific-mcq-08": "「特定情況」與本句語境不同。"
+        "specific-mcq-11": "本句的「species-specific」指「物種特有的」。",
+        "specific-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "specific-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-11"
     },
@@ -1281,11 +1193,9 @@ export default {
       "masked": "The response may be ____.",
       "options": [
         "specific-mcq-11",
-        "specific-mcq-10",
-        "specific-mcq-12",
-        "specific-mcq-09",
-        "specific-mcq-13",
-        "specific-mcq-08"
+        "specific-mcq-14",
+        "specific-mcq-25",
+        "specific-mcq-12"
       ],
       "explanation": "本句的「species-specific」指「物種特有的」。",
       "sentenceIndex": 22,
@@ -1294,12 +1204,10 @@ export default {
         "species-specific"
       ],
       "optionReasons": {
-        "specific-mcq-11": "本句指「物種特有的」。",
-        "specific-mcq-10": "「任務專用的」與本句語境不同。",
-        "specific-mcq-12": "「具體地；明確地」與本句語境不同。",
-        "specific-mcq-09": "「X 特有的／只適用於 X」與本句語境不同。",
-        "specific-mcq-13": "「特別地；專門地」與本句語境不同。",
-        "specific-mcq-08": "「特定情況」與本句語境不同。"
+        "specific-mcq-11": "本句的「species-specific」指「物種特有的」。",
+        "specific-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-11"
     },
@@ -1311,11 +1219,9 @@ export default {
       "masked": "He ____ for embarrassing me in front of the group.",
       "options": [
         "specific-mcq-12",
-        "specific-mcq-11",
-        "specific-mcq-13",
-        "specific-mcq-10",
-        "specific-mcq-14",
-        "specific-mcq-09"
+        "specific-mcq-20",
+        "specific-mcq-25",
+        "specific-mcq-07"
       ],
       "explanation": "本句的「specifically apologised」指「具體地；明確地」。",
       "sentenceIndex": 23,
@@ -1324,12 +1230,10 @@ export default {
         "specifically apologised"
       ],
       "optionReasons": {
-        "specific-mcq-12": "本句指「具體地；明確地」。",
-        "specific-mcq-11": "「物種特有的」與本句語境不同。",
-        "specific-mcq-13": "「特別地；專門地」與本句語境不同。",
-        "specific-mcq-10": "「任務專用的」與本句語境不同。",
-        "specific-mcq-14": "「專門為……設計」與本句語境不同。",
-        "specific-mcq-09": "「X 特有的／只適用於 X」與本句語境不同。"
+        "specific-mcq-12": "本句的「specifically apologised」指「具體地；明確地」。",
+        "specific-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-12"
     },
@@ -1342,10 +1246,8 @@ export default {
       "options": [
         "specific-mcq-12",
         "specific-mcq-11",
-        "specific-mcq-13",
-        "specific-mcq-10",
-        "specific-mcq-14",
-        "specific-mcq-09"
+        "specific-mcq-20",
+        "specific-mcq-26"
       ],
       "explanation": "本句的「specifically」指「具體地；明確地」。",
       "sentenceIndex": 24,
@@ -1354,12 +1256,10 @@ export default {
         "specifically"
       ],
       "optionReasons": {
-        "specific-mcq-12": "本句指「具體地；明確地」。",
-        "specific-mcq-11": "「物種特有的」與本句語境不同。",
-        "specific-mcq-13": "「特別地；專門地」與本句語境不同。",
-        "specific-mcq-10": "「任務專用的」與本句語境不同。",
-        "specific-mcq-14": "「專門為……設計」與本句語境不同。",
-        "specific-mcq-09": "「X 特有的／只適用於 X」與本句語境不同。"
+        "specific-mcq-12": "本句的「specifically」指「具體地；明確地」。",
+        "specific-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-12"
     },
@@ -1371,11 +1271,9 @@ export default {
       "masked": "I was ____ the final section.",
       "options": [
         "specific-mcq-12",
-        "specific-mcq-11",
-        "specific-mcq-13",
+        "specific-mcq-07",
         "specific-mcq-10",
-        "specific-mcq-14",
-        "specific-mcq-09"
+        "specific-mcq-26"
       ],
       "explanation": "本句的「specifically interested in」指「具體地；明確地」。",
       "sentenceIndex": 25,
@@ -1384,12 +1282,10 @@ export default {
         "specifically interested in"
       ],
       "optionReasons": {
-        "specific-mcq-12": "本句指「具體地；明確地」。",
-        "specific-mcq-11": "「物種特有的」與本句語境不同。",
-        "specific-mcq-13": "「特別地；專門地」與本句語境不同。",
-        "specific-mcq-10": "「任務專用的」與本句語境不同。",
-        "specific-mcq-14": "「專門為……設計」與本句語境不同。",
-        "specific-mcq-09": "「X 特有的／只適用於 X」與本句語境不同。"
+        "specific-mcq-12": "本句的「specifically interested in」指「具體地；明確地」。",
+        "specific-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-12"
     },
@@ -1401,11 +1297,9 @@ export default {
       "masked": "The course is aimed ____.",
       "options": [
         "specific-mcq-12",
-        "specific-mcq-11",
-        "specific-mcq-13",
-        "specific-mcq-10",
-        "specific-mcq-14",
-        "specific-mcq-09"
+        "specific-mcq-20",
+        "specific-mcq-09",
+        "specific-mcq-25"
       ],
       "explanation": "本句的「specifically at beginners」指「具體地；明確地」。",
       "sentenceIndex": 26,
@@ -1414,12 +1308,10 @@ export default {
         "specifically at beginners"
       ],
       "optionReasons": {
-        "specific-mcq-12": "本句指「具體地；明確地」。",
-        "specific-mcq-11": "「物種特有的」與本句語境不同。",
-        "specific-mcq-13": "「特別地；專門地」與本句語境不同。",
-        "specific-mcq-10": "「任務專用的」與本句語境不同。",
-        "specific-mcq-14": "「專門為……設計」與本句語境不同。",
-        "specific-mcq-09": "「X 特有的／只適用於 X」與本句語境不同。"
+        "specific-mcq-12": "本句的「specifically at beginners」指「具體地；明確地」。",
+        "specific-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-12"
     },
@@ -1431,11 +1323,9 @@ export default {
       "masked": "The programme was ____.",
       "options": [
         "specific-mcq-14",
-        "specific-mcq-13",
-        "specific-mcq-15",
-        "specific-mcq-12",
-        "specific-mcq-16",
-        "specific-mcq-11"
+        "specific-mcq-04",
+        "specific-mcq-09",
+        "specific-mcq-26"
       ],
       "explanation": "本句的「specifically designed for new students」指「專門為……設計」。",
       "sentenceIndex": 27,
@@ -1444,12 +1334,10 @@ export default {
         "specifically designed for new students"
       ],
       "optionReasons": {
-        "specific-mcq-14": "本句指「專門為……設計」。",
-        "specific-mcq-13": "「特別地；專門地」與本句語境不同。",
-        "specific-mcq-15": "「明確提到」與本句語境不同。",
-        "specific-mcq-12": "「具體地；明確地」與本句語境不同。",
-        "specific-mcq-16": "「更具體地說」與本句語境不同。",
-        "specific-mcq-11": "「物種特有的」與本句語境不同。"
+        "specific-mcq-14": "本句的「specifically designed for new students」指「專門為……設計」。",
+        "specific-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-14"
     },
@@ -1461,11 +1349,9 @@ export default {
       "masked": "These exercises are ____.",
       "options": [
         "specific-mcq-14",
-        "specific-mcq-13",
-        "specific-mcq-15",
-        "specific-mcq-12",
-        "specific-mcq-16",
-        "specific-mcq-11"
+        "specific-mcq-03",
+        "specific-pdf-001",
+        "specific-mcq-25"
       ],
       "explanation": "本句的「specifically designed to improve fluency」指「專門為……設計」。",
       "sentenceIndex": 28,
@@ -1474,12 +1360,10 @@ export default {
         "specifically designed to improve fluency"
       ],
       "optionReasons": {
-        "specific-mcq-14": "本句指「專門為……設計」。",
-        "specific-mcq-13": "「特別地；專門地」與本句語境不同。",
-        "specific-mcq-15": "「明確提到」與本句語境不同。",
-        "specific-mcq-12": "「具體地；明確地」與本句語境不同。",
-        "specific-mcq-16": "「更具體地說」與本句語境不同。",
-        "specific-mcq-11": "「物種特有的」與本句語境不同。"
+        "specific-mcq-14": "本句的「specifically designed to improve fluency」指「專門為……設計」。",
+        "specific-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "specific-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-14"
     },
@@ -1491,11 +1375,9 @@ export default {
       "masked": "He ____ the public criticism.",
       "options": [
         "specific-mcq-15",
-        "specific-mcq-14",
-        "specific-mcq-16",
-        "specific-mcq-13",
-        "specific-mcq-17",
-        "specific-mcq-12"
+        "specific-mcq-26",
+        "specific-mcq-07",
+        "specific-mcq-04"
       ],
       "explanation": "本句的「specifically mentioned」指「明確提到」。",
       "sentenceIndex": 29,
@@ -1504,12 +1386,10 @@ export default {
         "specifically mentioned"
       ],
       "optionReasons": {
-        "specific-mcq-15": "本句指「明確提到」。",
-        "specific-mcq-14": "「專門為……設計」與本句語境不同。",
-        "specific-mcq-16": "「更具體地說」與本句語境不同。",
-        "specific-mcq-13": "「特別地；專門地」與本句語境不同。",
-        "specific-mcq-17": "「具體細節」與本句語境不同。",
-        "specific-mcq-12": "「具體地；明確地」與本句語境不同。"
+        "specific-mcq-15": "本句的「specifically mentioned」指「明確提到」。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-15"
     },
@@ -1521,11 +1401,9 @@ export default {
       "masked": "The instructions ____ the deadline.",
       "options": [
         "specific-mcq-15",
-        "specific-mcq-14",
-        "specific-mcq-16",
-        "specific-mcq-13",
-        "specific-mcq-17",
-        "specific-mcq-12"
+        "specific-mcq-07",
+        "specific-mcq-05",
+        "specific-mcq-25"
       ],
       "explanation": "本句的「specifically mention」指「明確提到」。",
       "sentenceIndex": 30,
@@ -1534,12 +1412,10 @@ export default {
         "specifically mention"
       ],
       "optionReasons": {
-        "specific-mcq-15": "本句指「明確提到」。",
-        "specific-mcq-14": "「專門為……設計」與本句語境不同。",
-        "specific-mcq-16": "「更具體地說」與本句語境不同。",
-        "specific-mcq-13": "「特別地；專門地」與本句語境不同。",
-        "specific-mcq-17": "「具體細節」與本句語境不同。",
-        "specific-mcq-12": "「具體地；明確地」與本句語境不同。"
+        "specific-mcq-15": "本句的「specifically mention」指「明確提到」。",
+        "specific-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-15"
     },
@@ -1551,11 +1427,9 @@ export default {
       "masked": "The problem was communication—or, ____, a misunderstanding about the file.",
       "options": [
         "specific-mcq-16",
-        "specific-mcq-15",
-        "specific-mcq-17",
-        "specific-mcq-14",
-        "specific-mcq-18",
-        "specific-mcq-13"
+        "specific-mcq-10",
+        "specific-mcq-07",
+        "specific-mcq-26"
       ],
       "explanation": "本句的「more specifically」指「更具體地說」。",
       "sentenceIndex": 31,
@@ -1564,12 +1438,10 @@ export default {
         "more specifically"
       ],
       "optionReasons": {
-        "specific-mcq-16": "本句指「更具體地說」。",
-        "specific-mcq-15": "「明確提到」與本句語境不同。",
-        "specific-mcq-17": "「具體細節」與本句語境不同。",
-        "specific-mcq-14": "「專門為……設計」與本句語境不同。",
-        "specific-mcq-18": "「具體性；明確性」與本句語境不同。",
-        "specific-mcq-13": "「特別地；專門地」與本句語境不同。"
+        "specific-mcq-16": "本句的「more specifically」指「更具體地說」。",
+        "specific-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-16"
     },
@@ -1581,11 +1453,9 @@ export default {
       "masked": "We need better planning, ____, clearer deadlines.",
       "options": [
         "specific-mcq-16",
-        "specific-mcq-15",
-        "specific-mcq-17",
-        "specific-mcq-14",
-        "specific-mcq-18",
-        "specific-mcq-13"
+        "specific-mcq-25",
+        "specific-mcq-24",
+        "specific-mcq-14"
       ],
       "explanation": "本句的「more specifically」指「更具體地說」。",
       "sentenceIndex": 32,
@@ -1594,12 +1464,10 @@ export default {
         "more specifically"
       ],
       "optionReasons": {
-        "specific-mcq-16": "本句指「更具體地說」。",
-        "specific-mcq-15": "「明確提到」與本句語境不同。",
-        "specific-mcq-17": "「具體細節」與本句語境不同。",
-        "specific-mcq-14": "「專門為……設計」與本句語境不同。",
-        "specific-mcq-18": "「具體性；明確性」與本句語境不同。",
-        "specific-mcq-13": "「特別地；專門地」與本句語境不同。"
+        "specific-mcq-16": "本句的「more specifically」指「更具體地說」。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-16"
     },
@@ -1611,11 +1479,9 @@ export default {
       "masked": "We haven't discussed the ____ yet.",
       "options": [
         "specific-mcq-17",
-        "specific-mcq-16",
-        "specific-mcq-18",
-        "specific-mcq-15",
+        "specific-mcq-26",
         "specific-mcq-19",
-        "specific-mcq-14"
+        "specific-mcq-10"
       ],
       "explanation": "本句的「specifics」指「具體細節」。",
       "sentenceIndex": 33,
@@ -1624,12 +1490,10 @@ export default {
         "specifics"
       ],
       "optionReasons": {
-        "specific-mcq-17": "本句指「具體細節」。",
-        "specific-mcq-16": "「更具體地說」與本句語境不同。",
-        "specific-mcq-18": "「具體性；明確性」與本句語境不同。",
-        "specific-mcq-15": "「明確提到」與本句語境不同。",
-        "specific-mcq-19": "「特異性」與本句語境不同。",
-        "specific-mcq-14": "「專門為……設計」與本句語境不同。"
+        "specific-mcq-17": "本句的「specifics」指「具體細節」。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-17"
     },
@@ -1641,11 +1505,9 @@ export default {
       "masked": "Let's talk about the ____ of the plan.",
       "options": [
         "specific-mcq-17",
-        "specific-mcq-16",
-        "specific-mcq-18",
+        "specific-mcq-26",
         "specific-mcq-15",
-        "specific-mcq-19",
-        "specific-mcq-14"
+        "specific-mcq-20"
       ],
       "explanation": "本句的「specifics」指「具體細節」。",
       "sentenceIndex": 34,
@@ -1654,12 +1516,10 @@ export default {
         "specifics"
       ],
       "optionReasons": {
-        "specific-mcq-17": "本句指「具體細節」。",
-        "specific-mcq-16": "「更具體地說」與本句語境不同。",
-        "specific-mcq-18": "「具體性；明確性」與本句語境不同。",
-        "specific-mcq-15": "「明確提到」與本句語境不同。",
-        "specific-mcq-19": "「特異性」與本句語境不同。",
-        "specific-mcq-14": "「專門為……設計」與本句語境不同。"
+        "specific-mcq-17": "本句的「specifics」指「具體細節」。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-17"
     },
@@ -1671,11 +1531,9 @@ export default {
       "masked": "We can ____ later.",
       "options": [
         "specific-mcq-17",
-        "specific-mcq-16",
-        "specific-mcq-18",
-        "specific-mcq-15",
-        "specific-mcq-19",
-        "specific-mcq-14"
+        "specific-mcq-06",
+        "specific-mcq-10",
+        "specific-mcq-26"
       ],
       "explanation": "本句的「get into the specifics」指「具體細節」。",
       "sentenceIndex": 35,
@@ -1684,12 +1542,10 @@ export default {
         "get into the specifics"
       ],
       "optionReasons": {
-        "specific-mcq-17": "本句指「具體細節」。",
-        "specific-mcq-16": "「更具體地說」與本句語境不同。",
-        "specific-mcq-18": "「具體性；明確性」與本句語境不同。",
-        "specific-mcq-15": "「明確提到」與本句語境不同。",
-        "specific-mcq-19": "「特異性」與本句語境不同。",
-        "specific-mcq-14": "「專門為……設計」與本句語境不同。"
+        "specific-mcq-17": "本句的「get into the specifics」指「具體細節」。",
+        "specific-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-17"
     },
@@ -1701,11 +1557,9 @@ export default {
       "masked": "Before deciding, let's ____.",
       "options": [
         "specific-mcq-17",
-        "specific-mcq-16",
-        "specific-mcq-18",
-        "specific-mcq-15",
         "specific-mcq-19",
-        "specific-mcq-14"
+        "specific-mcq-10",
+        "specific-mcq-15"
       ],
       "explanation": "本句的「get into the specifics」指「具體細節」。",
       "sentenceIndex": 36,
@@ -1714,12 +1568,10 @@ export default {
         "get into the specifics"
       ],
       "optionReasons": {
-        "specific-mcq-17": "本句指「具體細節」。",
-        "specific-mcq-16": "「更具體地說」與本句語境不同。",
-        "specific-mcq-18": "「具體性；明確性」與本句語境不同。",
-        "specific-mcq-15": "「明確提到」與本句語境不同。",
-        "specific-mcq-19": "「特異性」與本句語境不同。",
-        "specific-mcq-14": "「專門為……設計」與本句語境不同。"
+        "specific-mcq-17": "本句的「get into the specifics」指「具體細節」。",
+        "specific-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-17"
     },
@@ -1731,11 +1583,9 @@ export default {
       "masked": "The apology lacked ____.",
       "options": [
         "specific-mcq-18",
-        "specific-mcq-17",
-        "specific-mcq-19",
-        "specific-mcq-16",
-        "specific-mcq-20",
-        "specific-mcq-15"
+        "specific-mcq-26",
+        "specific-mcq-14",
+        "specific-mcq-06"
       ],
       "explanation": "本句的「specificity」指「具體性；明確性」。",
       "sentenceIndex": 37,
@@ -1744,12 +1594,10 @@ export default {
         "specificity"
       ],
       "optionReasons": {
-        "specific-mcq-18": "本句指「具體性；明確性」。",
-        "specific-mcq-17": "「具體細節」與本句語境不同。",
-        "specific-mcq-19": "「特異性」與本句語境不同。",
-        "specific-mcq-16": "「更具體地說」與本句語境不同。",
-        "specific-mcq-20": "「專一性」與本句語境不同。",
-        "specific-mcq-15": "「明確提到」與本句語境不同。"
+        "specific-mcq-18": "本句的「specificity」指「具體性；明確性」。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-18"
     },
@@ -1761,11 +1609,9 @@ export default {
       "masked": "Greater ____ makes the instructions easier to follow.",
       "options": [
         "specific-mcq-18",
-        "specific-mcq-17",
-        "specific-mcq-19",
-        "specific-mcq-16",
-        "specific-mcq-20",
-        "specific-mcq-15"
+        "specific-mcq-10",
+        "specific-mcq-07",
+        "specific-mcq-25"
       ],
       "explanation": "本句的「specificity」指「具體性；明確性」。",
       "sentenceIndex": 38,
@@ -1774,12 +1620,10 @@ export default {
         "specificity"
       ],
       "optionReasons": {
-        "specific-mcq-18": "本句指「具體性；明確性」。",
-        "specific-mcq-17": "「具體細節」與本句語境不同。",
-        "specific-mcq-19": "「特異性」與本句語境不同。",
-        "specific-mcq-16": "「更具體地說」與本句語境不同。",
-        "specific-mcq-20": "「專一性」與本句語境不同。",
-        "specific-mcq-15": "「明確提到」與本句語境不同。"
+        "specific-mcq-18": "本句的「specificity」指「具體性；明確性」。",
+        "specific-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-18"
     },
@@ -1791,11 +1635,9 @@ export default {
       "masked": "The test has high ____.",
       "options": [
         "specific-mcq-19",
-        "specific-mcq-18",
-        "specific-mcq-20",
-        "specific-mcq-17",
-        "specific-mcq-21",
-        "specific-mcq-16"
+        "specific-mcq-15",
+        "specific-mcq-24",
+        "specific-mcq-04"
       ],
       "explanation": "本句的「specificity」指「特異性」。",
       "sentenceIndex": 39,
@@ -1804,12 +1646,10 @@ export default {
         "specificity"
       ],
       "optionReasons": {
-        "specific-mcq-19": "本句指「特異性」。",
-        "specific-mcq-18": "「具體性；明確性」與本句語境不同。",
-        "specific-mcq-20": "「專一性」與本句語境不同。",
-        "specific-mcq-17": "「具體細節」與本句語境不同。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。",
-        "specific-mcq-16": "「更具體地說」與本句語境不同。"
+        "specific-mcq-19": "本句的「specificity」指「特異性」。",
+        "specific-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-19"
     },
@@ -1821,11 +1661,9 @@ export default {
       "masked": "Doctors consider both sensitivity and ____.",
       "options": [
         "specific-mcq-19",
-        "specific-mcq-18",
-        "specific-mcq-20",
-        "specific-mcq-17",
-        "specific-mcq-21",
-        "specific-mcq-16"
+        "specific-mcq-24",
+        "specific-mcq-12",
+        "specific-mcq-10"
       ],
       "explanation": "本句的「specificity」指「特異性」。",
       "sentenceIndex": 40,
@@ -1834,12 +1672,10 @@ export default {
         "specificity"
       ],
       "optionReasons": {
-        "specific-mcq-19": "本句指「特異性」。",
-        "specific-mcq-18": "「具體性；明確性」與本句語境不同。",
-        "specific-mcq-20": "「專一性」與本句語境不同。",
-        "specific-mcq-17": "「具體細節」與本句語境不同。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。",
-        "specific-mcq-16": "「更具體地說」與本句語境不同。"
+        "specific-mcq-19": "本句的「specificity」指「特異性」。",
+        "specific-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-19"
     },
@@ -1851,11 +1687,9 @@ export default {
       "masked": "The enzyme shows high ____ for this molecule.",
       "options": [
         "specific-mcq-20",
-        "specific-mcq-19",
-        "specific-mcq-21",
-        "specific-mcq-18",
-        "specific-mcq-22",
-        "specific-mcq-17"
+        "specific-mcq-25",
+        "specific-mcq-24",
+        "specific-mcq-04"
       ],
       "explanation": "本句的「specificity」指「專一性」。",
       "sentenceIndex": 41,
@@ -1864,12 +1698,10 @@ export default {
         "specificity"
       ],
       "optionReasons": {
-        "specific-mcq-20": "本句指「專一性」。",
-        "specific-mcq-19": "「特異性」與本句語境不同。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。",
-        "specific-mcq-18": "「具體性；明確性」與本句語境不同。",
-        "specific-mcq-22": "「非特異性症狀」與本句語境不同。",
-        "specific-mcq-17": "「具體細節」與本句語境不同。"
+        "specific-mcq-20": "本句的「specificity」指「專一性」。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-20"
     },
@@ -1881,11 +1713,9 @@ export default {
       "masked": "Receptor ____ affects which molecules can bind.",
       "options": [
         "specific-mcq-20",
-        "specific-mcq-19",
-        "specific-mcq-21",
-        "specific-mcq-18",
-        "specific-mcq-22",
-        "specific-mcq-17"
+        "specific-mcq-23",
+        "specific-mcq-25",
+        "specific-mcq-02"
       ],
       "explanation": "本句的「specificity」指「專一性」。",
       "sentenceIndex": 42,
@@ -1894,12 +1724,10 @@ export default {
         "specificity"
       ],
       "optionReasons": {
-        "specific-mcq-20": "本句指「專一性」。",
-        "specific-mcq-19": "「特異性」與本句語境不同。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。",
-        "specific-mcq-18": "「具體性；明確性」與本句語境不同。",
-        "specific-mcq-22": "「非特異性症狀」與本句語境不同。",
-        "specific-mcq-17": "「具體細節」與本句語境不同。"
+        "specific-mcq-20": "本句的「specificity」指「專一性」。",
+        "specific-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-20"
     },
@@ -1911,11 +1739,9 @@ export default {
       "masked": "Tiredness can be a ____.",
       "options": [
         "specific-mcq-22",
-        "specific-mcq-21",
-        "specific-mcq-23",
-        "specific-mcq-20",
-        "specific-mcq-24",
-        "specific-mcq-19"
+        "specific-mcq-12",
+        "specific-mcq-25",
+        "specific-mcq-14"
       ],
       "explanation": "本句的「nonspecific symptom」指「非特異性症狀」。",
       "sentenceIndex": 45,
@@ -1924,12 +1750,10 @@ export default {
         "nonspecific symptom"
       ],
       "optionReasons": {
-        "specific-mcq-22": "本句指「非特異性症狀」。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。",
-        "specific-mcq-23": "「指明；明確說明」與本句語境不同。",
-        "specific-mcq-20": "「專一性」與本句語境不同。",
-        "specific-mcq-24": "「指定的」與本句語境不同。",
-        "specific-mcq-19": "「特異性」與本句語境不同。"
+        "specific-mcq-22": "本句的「nonspecific symptom」指「非特異性症狀」。",
+        "specific-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-22"
     },
@@ -1941,11 +1765,9 @@ export default {
       "masked": "The early signs were ____.",
       "options": [
         "specific-mcq-22",
-        "specific-mcq-21",
-        "specific-mcq-23",
-        "specific-mcq-20",
-        "specific-mcq-24",
-        "specific-mcq-19"
+        "specific-mcq-15",
+        "specific-mcq-25",
+        "specific-mcq-04"
       ],
       "explanation": "本句的「nonspecific」指「非特異性症狀」。",
       "sentenceIndex": 46,
@@ -1954,12 +1776,10 @@ export default {
         "nonspecific"
       ],
       "optionReasons": {
-        "specific-mcq-22": "本句指「非特異性症狀」。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。",
-        "specific-mcq-23": "「指明；明確說明」與本句語境不同。",
-        "specific-mcq-20": "「專一性」與本句語境不同。",
-        "specific-mcq-24": "「指定的」與本句語境不同。",
-        "specific-mcq-19": "「特異性」與本句語境不同。"
+        "specific-mcq-22": "本句的「nonspecific」指「非特異性症狀」。",
+        "specific-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-22"
     },
@@ -1971,11 +1791,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "specific-mcq-23",
+        "specific-mcq-03",
         "specific-mcq-22",
-        "specific-mcq-24",
-        "specific-mcq-21",
-        "specific-mcq-25",
-        "specific-mcq-20"
+        "specific-mcq-10"
       ],
       "explanation": "本句的「specify the exact date」指「指明；明確說明」。",
       "sentenceIndex": 47,
@@ -1984,12 +1802,10 @@ export default {
         "specify the exact date"
       ],
       "optionReasons": {
-        "specific-mcq-23": "本句指「指明；明確說明」。",
-        "specific-mcq-22": "「非特異性症狀」與本句語境不同。",
-        "specific-mcq-24": "「指定的」與本句語境不同。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。",
-        "specific-mcq-25": "「規格；詳細要求」與本句語境不同。",
-        "specific-mcq-20": "「專一性」與本句語境不同。"
+        "specific-mcq-23": "本句的「specify the exact date」指「指明；明確說明」。",
+        "specific-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-23"
     },
@@ -2001,11 +1817,9 @@ export default {
       "masked": "The form asks you to ____.",
       "options": [
         "specific-mcq-23",
-        "specific-mcq-22",
-        "specific-mcq-24",
-        "specific-mcq-21",
-        "specific-mcq-25",
-        "specific-mcq-20"
+        "specific-mcq-26",
+        "specific-mcq-20",
+        "specific-mcq-06"
       ],
       "explanation": "本句的「specify your preferred time」指「指明；明確說明」。",
       "sentenceIndex": 48,
@@ -2014,12 +1828,10 @@ export default {
         "specify your preferred time"
       ],
       "optionReasons": {
-        "specific-mcq-23": "本句指「指明；明確說明」。",
-        "specific-mcq-22": "「非特異性症狀」與本句語境不同。",
-        "specific-mcq-24": "「指定的」與本句語境不同。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。",
-        "specific-mcq-25": "「規格；詳細要求」與本句語境不同。",
-        "specific-mcq-20": "「專一性」與本句語境不同。"
+        "specific-mcq-23": "本句的「specify your preferred time」指「指明；明確說明」。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-23"
     },
@@ -2032,10 +1844,8 @@ export default {
       "options": [
         "specific-mcq-23",
         "specific-mcq-22",
-        "specific-mcq-24",
-        "specific-mcq-21",
-        "specific-mcq-25",
-        "specific-mcq-20"
+        "specific-mcq-17",
+        "specific-mcq-14"
       ],
       "explanation": "本句的「specify that all files must be uploaded by Friday」指「指明；明確說明」。",
       "sentenceIndex": 49,
@@ -2044,12 +1854,10 @@ export default {
         "specify that all files must be uploaded by Friday"
       ],
       "optionReasons": {
-        "specific-mcq-23": "本句指「指明；明確說明」。",
-        "specific-mcq-22": "「非特異性症狀」與本句語境不同。",
-        "specific-mcq-24": "「指定的」與本句語境不同。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。",
-        "specific-mcq-25": "「規格；詳細要求」與本句語境不同。",
-        "specific-mcq-20": "「專一性」與本句語境不同。"
+        "specific-mcq-23": "本句的「specify that all files must be uploaded by Friday」指「指明；明確說明」。",
+        "specific-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-23"
     },
@@ -2061,11 +1869,9 @@ export default {
       "masked": "The contract ____.",
       "options": [
         "specific-mcq-23",
-        "specific-mcq-22",
-        "specific-mcq-24",
-        "specific-mcq-21",
-        "specific-mcq-25",
-        "specific-mcq-20"
+        "specific-mcq-03",
+        "specific-mcq-14",
+        "specific-mcq-26"
       ],
       "explanation": "本句的「specifies that payment is due within thirty days」指「指明；明確說明」。",
       "sentenceIndex": 50,
@@ -2074,12 +1880,10 @@ export default {
         "specifies that payment is due within thirty days"
       ],
       "optionReasons": {
-        "specific-mcq-23": "本句指「指明；明確說明」。",
-        "specific-mcq-22": "「非特異性症狀」與本句語境不同。",
-        "specific-mcq-24": "「指定的」與本句語境不同。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。",
-        "specific-mcq-25": "「規格；詳細要求」與本句語境不同。",
-        "specific-mcq-20": "「專一性」與本句語境不同。"
+        "specific-mcq-23": "本句的「specifies that payment is due within thirty days」指「指明；明確說明」。",
+        "specific-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-23"
     },
@@ -2091,11 +1895,9 @@ export default {
       "masked": "Submit the file by the ____.",
       "options": [
         "specific-mcq-24",
-        "specific-mcq-23",
-        "specific-mcq-25",
-        "specific-mcq-22",
-        "specific-mcq-26",
-        "specific-mcq-21"
+        "specific-mcq-17",
+        "specific-mcq-09",
+        "specific-mcq-20"
       ],
       "explanation": "本句的「specified deadline」指「指定的」。",
       "sentenceIndex": 51,
@@ -2104,12 +1906,10 @@ export default {
         "specified deadline"
       ],
       "optionReasons": {
-        "specific-mcq-24": "本句指「指定的」。",
-        "specific-mcq-23": "「指明；明確說明」與本句語境不同。",
-        "specific-mcq-25": "「規格；詳細要求」與本句語境不同。",
-        "specific-mcq-22": "「非特異性症狀」與本句語境不同。",
-        "specific-mcq-26": "「技術規格」與本句語境不同。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。"
+        "specific-mcq-24": "本句的「specified deadline」指「指定的」。",
+        "specific-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-24"
     },
@@ -2121,11 +1921,9 @@ export default {
       "masked": "The device must operate within the ____.",
       "options": [
         "specific-mcq-24",
-        "specific-mcq-23",
-        "specific-mcq-25",
-        "specific-mcq-22",
-        "specific-mcq-26",
-        "specific-mcq-21"
+        "specific-mcq-12",
+        "specific-mcq-19",
+        "specific-mcq-26"
       ],
       "explanation": "本句的「specified range」指「指定的」。",
       "sentenceIndex": 52,
@@ -2134,12 +1932,10 @@ export default {
         "specified range"
       ],
       "optionReasons": {
-        "specific-mcq-24": "本句指「指定的」。",
-        "specific-mcq-23": "「指明；明確說明」與本句語境不同。",
-        "specific-mcq-25": "「規格；詳細要求」與本句語境不同。",
-        "specific-mcq-22": "「非特異性症狀」與本句語境不同。",
-        "specific-mcq-26": "「技術規格」與本句語境不同。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。"
+        "specific-mcq-24": "本句的「specified range」指「指定的」。",
+        "specific-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-24"
     },
@@ -2151,11 +1947,9 @@ export default {
       "masked": "The product meets the required ____.",
       "options": [
         "specific-mcq-25",
-        "specific-mcq-24",
-        "specific-mcq-26",
-        "specific-mcq-23",
         "specific-mcq-22",
-        "specific-mcq-21"
+        "specific-mcq-01",
+        "specific-mcq-24"
       ],
       "explanation": "本句的「specifications」指「規格；詳細要求」。",
       "sentenceIndex": 53,
@@ -2164,12 +1958,10 @@ export default {
         "specifications"
       ],
       "optionReasons": {
-        "specific-mcq-25": "本句指「規格；詳細要求」。",
-        "specific-mcq-24": "「指定的」與本句語境不同。",
-        "specific-mcq-26": "「技術規格」與本句語境不同。",
-        "specific-mcq-23": "「指明；明確說明」與本句語境不同。",
-        "specific-mcq-22": "「非特異性症狀」與本句語境不同。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。"
+        "specific-mcq-25": "本句的「specifications」指「規格；詳細要求」。",
+        "specific-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-25"
     },
@@ -2181,11 +1973,9 @@ export default {
       "masked": "Read the technical ____ before buying the device.",
       "options": [
         "specific-mcq-25",
-        "specific-mcq-24",
-        "specific-mcq-26",
-        "specific-mcq-23",
-        "specific-mcq-22",
-        "specific-mcq-21"
+        "specific-mcq-14",
+        "specific-mcq-05",
+        "specific-mcq-07"
       ],
       "explanation": "本句的「specifications」指「規格；詳細要求」。",
       "sentenceIndex": 54,
@@ -2194,12 +1984,10 @@ export default {
         "specifications"
       ],
       "optionReasons": {
-        "specific-mcq-25": "本句指「規格；詳細要求」。",
-        "specific-mcq-24": "「指定的」與本句語境不同。",
-        "specific-mcq-26": "「技術規格」與本句語境不同。",
-        "specific-mcq-23": "「指明；明確說明」與本句語境不同。",
-        "specific-mcq-22": "「非特異性症狀」與本句語境不同。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。"
+        "specific-mcq-25": "本句的「specifications」指「規格；詳細要求」。",
+        "specific-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-25"
     },
@@ -2211,11 +1999,9 @@ export default {
       "masked": "The website lists the laptop's ____.",
       "options": [
         "specific-mcq-26",
-        "specific-mcq-25",
-        "specific-mcq-24",
         "specific-mcq-23",
-        "specific-mcq-22",
-        "specific-mcq-21"
+        "specific-mcq-09",
+        "specific-mcq-04"
       ],
       "explanation": "本句的「technical specifications」指「技術規格」。",
       "sentenceIndex": 55,
@@ -2224,12 +2010,10 @@ export default {
         "technical specifications"
       ],
       "optionReasons": {
-        "specific-mcq-26": "本句指「技術規格」。",
-        "specific-mcq-25": "「規格；詳細要求」與本句語境不同。",
-        "specific-mcq-24": "「指定的」與本句語境不同。",
-        "specific-mcq-23": "「指明；明確說明」與本句語境不同。",
-        "specific-mcq-22": "「非特異性症狀」與本句語境不同。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。"
+        "specific-mcq-26": "本句的「technical specifications」指「技術規格」。",
+        "specific-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-26"
     },
@@ -2241,11 +2025,9 @@ export default {
       "masked": "Check whether the machine meets the ____.",
       "options": [
         "specific-mcq-26",
-        "specific-mcq-25",
-        "specific-mcq-24",
-        "specific-mcq-23",
-        "specific-mcq-22",
-        "specific-mcq-21"
+        "specific-mcq-03",
+        "specific-mcq-09",
+        "specific-mcq-14"
       ],
       "explanation": "本句的「technical specifications」指「技術規格」。",
       "sentenceIndex": 56,
@@ -2254,12 +2036,10 @@ export default {
         "technical specifications"
       ],
       "optionReasons": {
-        "specific-mcq-26": "本句指「技術規格」。",
-        "specific-mcq-25": "「規格；詳細要求」與本句語境不同。",
-        "specific-mcq-24": "「指定的」與本句語境不同。",
-        "specific-mcq-23": "「指明；明確說明」與本句語境不同。",
-        "specific-mcq-22": "「非特異性症狀」與本句語境不同。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。"
+        "specific-mcq-26": "本句的「technical specifications」指「技術規格」。",
+        "specific-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-26"
     },
@@ -2271,11 +2051,9 @@ export default {
       "masked": "The material does not ____.",
       "options": [
         "specific-mcq-26",
-        "specific-mcq-25",
-        "specific-mcq-24",
-        "specific-mcq-23",
-        "specific-mcq-22",
-        "specific-mcq-21"
+        "specific-mcq-20",
+        "specific-pdf-001",
+        "specific-mcq-04"
       ],
       "explanation": "本句的「meet the specifications」指「技術規格」。",
       "sentenceIndex": 57,
@@ -2284,12 +2062,10 @@ export default {
         "meet the specifications"
       ],
       "optionReasons": {
-        "specific-mcq-26": "本句指「技術規格」。",
-        "specific-mcq-25": "「規格；詳細要求」與本句語境不同。",
-        "specific-mcq-24": "「指定的」與本句語境不同。",
-        "specific-mcq-23": "「指明；明確說明」與本句語境不同。",
-        "specific-mcq-22": "「非特異性症狀」與本句語境不同。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。"
+        "specific-mcq-26": "本句的「meet the specifications」指「技術規格」。",
+        "specific-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "specific-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-26"
     },
@@ -2301,11 +2077,9 @@ export default {
       "masked": "Every unit is tested to ensure it ____.",
       "options": [
         "specific-mcq-26",
-        "specific-mcq-25",
-        "specific-mcq-24",
-        "specific-mcq-23",
-        "specific-mcq-22",
-        "specific-mcq-21"
+        "specific-mcq-16",
+        "specific-mcq-07",
+        "specific-mcq-14"
       ],
       "explanation": "本句的「meets specification」指「技術規格」。",
       "sentenceIndex": 58,
@@ -2314,12 +2088,10 @@ export default {
         "meets specification"
       ],
       "optionReasons": {
-        "specific-mcq-26": "本句指「技術規格」。",
-        "specific-mcq-25": "「規格；詳細要求」與本句語境不同。",
-        "specific-mcq-24": "「指定的」與本句語境不同。",
-        "specific-mcq-23": "「指明；明確說明」與本句語境不同。",
-        "specific-mcq-22": "「非特異性症狀」與本句語境不同。",
-        "specific-mcq-21": "「非特定的；籠統的」與本句語境不同。"
+        "specific-mcq-26": "本句的「meets specification」指「技術規格」。",
+        "specific-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "specific-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "specific-mcq-26"
     }
@@ -2331,5 +2103,7 @@ export default {
     "sha256": "30a339d0a4fa011945fe3b3a4168fffc8fe05215f301bd13bd25abb8c78fee66",
     "pages": 23
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

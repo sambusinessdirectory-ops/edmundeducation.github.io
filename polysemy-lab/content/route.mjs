@@ -177,7 +177,7 @@ export default {
     },
     {
       "id": "route-mcq-09",
-      "title": "表示大敗；擊潰",
+      "title": "大敗；擊潰",
       "form": "7. route = defeat completely（徹底擊敗） — 大敗；擊潰",
       "en": "7. route = defeat completely（徹底擊敗） — 大敗；擊潰",
       "zh": "表示大敗；擊潰",
@@ -229,11 +229,8 @@ export default {
       "masked": "Old tram ____ can tell you more about a city than a history textbook.",
       "options": [
         "route-mcq-01",
-        "route-mcq-02",
-        "route-mcq-03",
-        "route-mcq-04",
-        "route-mcq-05",
-        "route-mcq-06"
+        "route-mcq-07",
+        "route-mcq-09"
       ],
       "explanation": "本句的「routes」指「從一個地方前往另一個地方時所採用的特定道路、路徑或行進路線」。",
       "sentenceIndex": 0,
@@ -242,12 +239,9 @@ export default {
         "routes"
       ],
       "optionReasons": {
-        "route-mcq-01": "本句指「從一個地方前往另一個地方時所採用的特定道路、路徑或行進路線」。",
-        "route-mcq-02": "「公共交通或運輸服務按照固定安排所行經的一系列道路、地點或站點；屬於「路線」的同一核心義」是「transport route」的用法，與本句語境不同。",
-        "route-mcq-03": "「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」是「route to a goal/result」的用法，與本句語境不同。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。",
-        "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
-        "route-mcq-06": "「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」是「routing」的用法，與本句語境不同。"
+        "route-mcq-01": "本句的「routes」指「從一個地方前往另一個地方時所採用的特定道路、路徑或行進路線」。",
+        "route-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "route-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-mcq-01"
     },
@@ -259,11 +253,8 @@ export default {
       "masked": "We took a different ____ home to avoid the traffic.",
       "options": [
         "route-mcq-01",
-        "route-mcq-02",
-        "route-mcq-03",
-        "route-mcq-04",
-        "route-mcq-05",
-        "route-mcq-06"
+        "route-mcq-07",
+        "route-mcq-09"
       ],
       "explanation": "本句的「route」指「從一個地方前往另一個地方時所採用的特定道路、路徑或行進路線」。",
       "sentenceIndex": 1,
@@ -272,12 +263,9 @@ export default {
         "route"
       ],
       "optionReasons": {
-        "route-mcq-01": "本句指「從一個地方前往另一個地方時所採用的特定道路、路徑或行進路線」。",
-        "route-mcq-02": "「公共交通或運輸服務按照固定安排所行經的一系列道路、地點或站點；屬於「路線」的同一核心義」是「transport route」的用法，與本句語境不同。",
-        "route-mcq-03": "「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」是「route to a goal/result」的用法，與本句語境不同。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。",
-        "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
-        "route-mcq-06": "「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」是「routing」的用法，與本句語境不同。"
+        "route-mcq-01": "本句的「route」指「從一個地方前往另一個地方時所採用的特定道路、路徑或行進路線」。",
+        "route-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "route-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-mcq-01"
     },
@@ -289,11 +277,8 @@ export default {
       "masked": "This is the fastest ____ to the airport.",
       "options": [
         "route-mcq-01",
-        "route-mcq-02",
-        "route-mcq-03",
-        "route-mcq-04",
-        "route-mcq-05",
-        "route-mcq-06"
+        "route-mcq-07",
+        "route-mcq-09"
       ],
       "explanation": "本句的「route」指「從一個地方前往另一個地方時所採用的特定道路、路徑或行進路線」。",
       "sentenceIndex": 2,
@@ -302,12 +287,9 @@ export default {
         "route"
       ],
       "optionReasons": {
-        "route-mcq-01": "本句指「從一個地方前往另一個地方時所採用的特定道路、路徑或行進路線」。",
-        "route-mcq-02": "「公共交通或運輸服務按照固定安排所行經的一系列道路、地點或站點；屬於「路線」的同一核心義」是「transport route」的用法，與本句語境不同。",
-        "route-mcq-03": "「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」是「route to a goal/result」的用法，與本句語境不同。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。",
-        "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
-        "route-mcq-06": "「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」是「routing」的用法，與本句語境不同。"
+        "route-mcq-01": "本句的「route」指「從一個地方前往另一個地方時所採用的特定道路、路徑或行進路線」。",
+        "route-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "route-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-mcq-01"
     },
@@ -319,11 +301,8 @@ export default {
       "masked": "The company introduced a new bus ____ across the city.",
       "options": [
         "route-mcq-02",
-        "route-mcq-01",
-        "route-mcq-03",
-        "route-mcq-04",
-        "route-mcq-05",
-        "route-mcq-06"
+        "route-mcq-09",
+        "route-mcq-08"
       ],
       "explanation": "本句的「route」指「公共交通或運輸服務按照固定安排所行經的一系列道路、地點或站點；屬於「路線」的同一核心義」。",
       "sentenceIndex": 3,
@@ -332,12 +311,9 @@ export default {
         "route"
       ],
       "optionReasons": {
-        "route-mcq-02": "本句指「公共交通或運輸服務按照固定安排所行經的一系列道路、地點或站點；屬於「路線」的同一核心義」。",
-        "route-mcq-01": "「從一個地方前往另一個地方時所採用的特定道路、路徑或行進路線」是「route — physical/travel path」的用法，與本句語境不同。",
-        "route-mcq-03": "「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」是「route to a goal/result」的用法，與本句語境不同。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。",
-        "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
-        "route-mcq-06": "「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」是「routing」的用法，與本句語境不同。"
+        "route-mcq-02": "本句的「route」指「公共交通或運輸服務按照固定安排所行經的一系列道路、地點或站點；屬於「路線」的同一核心義」。",
+        "route-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "route-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-mcq-02"
     },
@@ -349,11 +325,8 @@ export default {
       "masked": "Several tram ____ were changed after the roadworks.",
       "options": [
         "route-mcq-02",
-        "route-mcq-01",
-        "route-mcq-03",
-        "route-mcq-04",
-        "route-mcq-05",
-        "route-mcq-06"
+        "route-mcq-09",
+        "route-mcq-08"
       ],
       "explanation": "本句的「routes」指「公共交通或運輸服務按照固定安排所行經的一系列道路、地點或站點；屬於「路線」的同一核心義」。",
       "sentenceIndex": 4,
@@ -362,12 +335,9 @@ export default {
         "routes"
       ],
       "optionReasons": {
-        "route-mcq-02": "本句指「公共交通或運輸服務按照固定安排所行經的一系列道路、地點或站點；屬於「路線」的同一核心義」。",
-        "route-mcq-01": "「從一個地方前往另一個地方時所採用的特定道路、路徑或行進路線」是「route — physical/travel path」的用法，與本句語境不同。",
-        "route-mcq-03": "「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」是「route to a goal/result」的用法，與本句語境不同。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。",
-        "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
-        "route-mcq-06": "「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」是「routing」的用法，與本句語境不同。"
+        "route-mcq-02": "本句的「routes」指「公共交通或運輸服務按照固定安排所行經的一系列道路、地點或站點；屬於「路線」的同一核心義」。",
+        "route-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "route-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-mcq-02"
     },
@@ -379,11 +349,7 @@ export default {
       "masked": "University is not the only ____ to a successful career.",
       "options": [
         "route-mcq-03",
-        "route-mcq-02",
-        "route-mcq-04",
-        "route-mcq-01",
-        "route-mcq-05",
-        "route-mcq-06"
+        "route-mcq-09"
       ],
       "explanation": "本句的「route」指「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」。",
       "sentenceIndex": 5,
@@ -392,12 +358,8 @@ export default {
         "route"
       ],
       "optionReasons": {
-        "route-mcq-03": "本句指「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」。",
-        "route-mcq-02": "「公共交通或運輸服務按照固定安排所行經的一系列道路、地點或站點；屬於「路線」的同一核心義」是「transport route」的用法，與本句語境不同。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。",
-        "route-mcq-01": "「從一個地方前往另一個地方時所採用的特定道路、路徑或行進路線」是「route — physical/travel path」的用法，與本句語境不同。",
-        "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
-        "route-mcq-06": "「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」是「routing」的用法，與本句語境不同。"
+        "route-mcq-03": "本句的「route」指「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」。",
+        "route-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-mcq-03"
     },
@@ -409,11 +371,7 @@ export default {
       "masked": "There are several possible ____ into the profession.",
       "options": [
         "route-mcq-03",
-        "route-mcq-02",
-        "route-mcq-04",
-        "route-mcq-01",
-        "route-mcq-05",
-        "route-mcq-06"
+        "route-mcq-09"
       ],
       "explanation": "本句的「routes」指「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」。",
       "sentenceIndex": 6,
@@ -422,12 +380,8 @@ export default {
         "routes"
       ],
       "optionReasons": {
-        "route-mcq-03": "本句指「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」。",
-        "route-mcq-02": "「公共交通或運輸服務按照固定安排所行經的一系列道路、地點或站點；屬於「路線」的同一核心義」是「transport route」的用法，與本句語境不同。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。",
-        "route-mcq-01": "「從一個地方前往另一個地方時所採用的特定道路、路徑或行進路線」是「route — physical/travel path」的用法，與本句語境不同。",
-        "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
-        "route-mcq-06": "「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」是「routing」的用法，與本句語境不同。"
+        "route-mcq-03": "本句的「routes」指「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」。",
+        "route-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-mcq-03"
     },
@@ -439,11 +393,8 @@ export default {
       "masked": "You should follow the official ____ for making a complaint.",
       "options": [
         "route-mcq-08",
-        "route-mcq-07",
         "route-mcq-09",
-        "route-mcq-06",
-        "route-mcq-05",
-        "route-mcq-04"
+        "route-mcq-05"
       ],
       "explanation": "本句的「route」指「某件事情在機構或制度內需要依照的正式處理途徑或程序」。",
       "sentenceIndex": 7,
@@ -452,12 +403,9 @@ export default {
         "route"
       ],
       "optionReasons": {
-        "route-mcq-08": "本句指「某件事情在機構或制度內需要依照的正式處理途徑或程序」。",
-        "route-mcq-07": "「在網絡中把資料導向正確目的地的設備」是「router」的用法，與本句語境不同。",
-        "route-mcq-09": "「表示大敗；擊潰」是「7. route = defeat completely（徹底擊敗） — 大敗；擊潰」的用法，與本句語境不同。",
-        "route-mcq-06": "「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」是「routing」的用法，與本句語境不同。",
-        "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。"
+        "route-mcq-08": "本句的「route」指「某件事情在機構或制度內需要依照的正式處理途徑或程序」。",
+        "route-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "route-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-mcq-08"
     },
@@ -469,11 +417,8 @@ export default {
       "masked": "The application must go through the normal administrative ____.",
       "options": [
         "route-mcq-08",
-        "route-mcq-07",
         "route-mcq-09",
-        "route-mcq-06",
-        "route-mcq-05",
-        "route-mcq-04"
+        "route-mcq-02"
       ],
       "explanation": "本句的「route」指「某件事情在機構或制度內需要依照的正式處理途徑或程序」。",
       "sentenceIndex": 8,
@@ -482,12 +427,9 @@ export default {
         "route"
       ],
       "optionReasons": {
-        "route-mcq-08": "本句指「某件事情在機構或制度內需要依照的正式處理途徑或程序」。",
-        "route-mcq-07": "「在網絡中把資料導向正確目的地的設備」是「router」的用法，與本句語境不同。",
-        "route-mcq-09": "「表示大敗；擊潰」是「7. route = defeat completely（徹底擊敗） — 大敗；擊潰」的用法，與本句語境不同。",
-        "route-mcq-06": "「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」是「routing」的用法，與本句語境不同。",
-        "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。"
+        "route-mcq-08": "本句的「route」指「某件事情在機構或制度內需要依照的正式處理途徑或程序」。",
+        "route-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "route-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-mcq-08"
     },
@@ -499,11 +441,8 @@ export default {
       "masked": "The system ____ incoming calls to the correct department.",
       "options": [
         "route-mcq-05",
-        "route-mcq-04",
-        "route-mcq-06",
-        "route-mcq-03",
-        "route-mcq-07",
-        "route-mcq-02"
+        "route-mcq-09",
+        "route-mcq-08"
       ],
       "explanation": "本句的「routes」指「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」。",
       "sentenceIndex": 9,
@@ -512,12 +451,9 @@ export default {
         "routes"
       ],
       "optionReasons": {
-        "route-mcq-05": "本句指「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。",
-        "route-mcq-06": "「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」是「routing」的用法，與本句語境不同。",
-        "route-mcq-03": "「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」是「route to a goal/result」的用法，與本句語境不同。",
-        "route-mcq-07": "「在網絡中把資料導向正確目的地的設備」是「router」的用法，與本句語境不同。",
-        "route-mcq-02": "「公共交通或運輸服務按照固定安排所行經的一系列道路、地點或站點；屬於「路線」的同一核心義」是「transport route」的用法，與本句語境不同。"
+        "route-mcq-05": "本句的「routes」指「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」。",
+        "route-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "route-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-mcq-05"
     },
@@ -529,11 +465,8 @@ export default {
       "masked": "Internet traffic is ____ through several servers.",
       "options": [
         "route-mcq-05",
-        "route-mcq-04",
-        "route-mcq-06",
-        "route-mcq-03",
-        "route-mcq-07",
-        "route-mcq-02"
+        "route-mcq-09",
+        "route-mcq-08"
       ],
       "explanation": "本句的「routed」指「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」。",
       "sentenceIndex": 10,
@@ -542,12 +475,9 @@ export default {
         "routed"
       ],
       "optionReasons": {
-        "route-mcq-05": "本句指「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。",
-        "route-mcq-06": "「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」是「routing」的用法，與本句語境不同。",
-        "route-mcq-03": "「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」是「route to a goal/result」的用法，與本句語境不同。",
-        "route-mcq-07": "「在網絡中把資料導向正確目的地的設備」是「router」的用法，與本句語境不同。",
-        "route-mcq-02": "「公共交通或運輸服務按照固定安排所行經的一系列道路、地點或站點；屬於「路線」的同一核心義」是「transport route」的用法，與本句語境不同。"
+        "route-mcq-05": "本句的「routed」指「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」。",
+        "route-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "route-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-mcq-05"
     },
@@ -559,11 +489,7 @@ export default {
       "masked": "The buses were ____ around the closed road.",
       "options": [
         "route-pdf-001",
-        "route-mcq-05",
-        "route-mcq-07",
-        "route-mcq-04",
-        "route-mcq-08",
-        "route-mcq-03"
+        "route-mcq-09"
       ],
       "explanation": "本句的「routed」指「安排某人、車輛或貨物沿指定路線前往目的地」。",
       "sentenceIndex": 11,
@@ -572,12 +498,8 @@ export default {
         "routed"
       ],
       "optionReasons": {
-        "route-pdf-001": "本句指「安排某人、車輛或貨物沿指定路線前往目的地」。",
-        "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
-        "route-mcq-07": "「在網絡中把資料導向正確目的地的設備」是「router」的用法，與本句語境不同。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。",
-        "route-mcq-08": "「某件事情在機構或制度內需要依照的正式處理途徑或程序」是「4. route = prescribed process/channel（正式程序／渠道） — 程序；正式渠道」的用法，與本句語境不同。",
-        "route-mcq-03": "「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」是「route to a goal/result」的用法，與本句語境不同。"
+        "route-pdf-001": "本句的「routed」指「安排某人、車輛或貨物沿指定路線前往目的地」。",
+        "route-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-pdf-001"
     },
@@ -589,11 +511,7 @@ export default {
       "masked": "The goods were ____ through Singapore.",
       "options": [
         "route-pdf-001",
-        "route-mcq-05",
-        "route-mcq-07",
-        "route-mcq-04",
-        "route-mcq-08",
-        "route-mcq-03"
+        "route-mcq-09"
       ],
       "explanation": "本句的「routed」指「安排某人、車輛或貨物沿指定路線前往目的地」。",
       "sentenceIndex": 12,
@@ -602,12 +520,8 @@ export default {
         "routed"
       ],
       "optionReasons": {
-        "route-pdf-001": "本句指「安排某人、車輛或貨物沿指定路線前往目的地」。",
-        "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
-        "route-mcq-07": "「在網絡中把資料導向正確目的地的設備」是「router」的用法，與本句語境不同。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。",
-        "route-mcq-08": "「某件事情在機構或制度內需要依照的正式處理途徑或程序」是「4. route = prescribed process/channel（正式程序／渠道） — 程序；正式渠道」的用法，與本句語境不同。",
-        "route-mcq-03": "「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」是「route to a goal/result」的用法，與本句語境不同。"
+        "route-pdf-001": "本句的「routed」指「安排某人、車輛或貨物沿指定路線前往目的地」。",
+        "route-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-pdf-001"
     },
@@ -619,11 +533,8 @@ export default {
       "masked": "The home team ____ their opponents 6–0.",
       "options": [
         "route-mcq-09",
-        "route-mcq-08",
-        "route-mcq-07",
         "route-mcq-06",
-        "route-mcq-05",
-        "route-mcq-04"
+        "route-mcq-08"
       ],
       "explanation": "本句的「routed」指「表示大敗；擊潰」。",
       "sentenceIndex": 13,
@@ -632,12 +543,9 @@ export default {
         "routed"
       ],
       "optionReasons": {
-        "route-mcq-09": "本句指「表示大敗；擊潰」。",
-        "route-mcq-08": "「某件事情在機構或制度內需要依照的正式處理途徑或程序」是「4. route = prescribed process/channel（正式程序／渠道） — 程序；正式渠道」的用法，與本句語境不同。",
-        "route-mcq-07": "「在網絡中把資料導向正確目的地的設備」是「router」的用法，與本句語境不同。",
-        "route-mcq-06": "「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」是「routing」的用法，與本句語境不同。",
-        "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。"
+        "route-mcq-09": "本句的「routed」指「表示大敗；擊潰」。",
+        "route-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "route-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-mcq-09"
     },
@@ -649,11 +557,8 @@ export default {
       "masked": "The army was completely ____.",
       "options": [
         "route-mcq-09",
-        "route-mcq-08",
-        "route-mcq-07",
-        "route-mcq-06",
         "route-mcq-05",
-        "route-mcq-04"
+        "route-mcq-08"
       ],
       "explanation": "本句的「routed」指「表示大敗；擊潰」。",
       "sentenceIndex": 14,
@@ -662,12 +567,9 @@ export default {
         "routed"
       ],
       "optionReasons": {
-        "route-mcq-09": "本句指「表示大敗；擊潰」。",
-        "route-mcq-08": "「某件事情在機構或制度內需要依照的正式處理途徑或程序」是「4. route = prescribed process/channel（正式程序／渠道） — 程序；正式渠道」的用法，與本句語境不同。",
-        "route-mcq-07": "「在網絡中把資料導向正確目的地的設備」是「router」的用法，與本句語境不同。",
-        "route-mcq-06": "「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」是「routing」的用法，與本句語境不同。",
-        "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。"
+        "route-mcq-09": "本句的「routed」指「表示大敗；擊潰」。",
+        "route-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "route-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-mcq-09"
     },
@@ -679,11 +581,8 @@ export default {
       "masked": "The software handles message ____ automatically.",
       "options": [
         "route-mcq-06",
-        "route-mcq-05",
-        "route-mcq-07",
-        "route-mcq-04",
-        "route-mcq-08",
-        "route-mcq-03"
+        "route-mcq-09",
+        "route-mcq-08"
       ],
       "explanation": "本句的「routing」指「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」。",
       "sentenceIndex": 15,
@@ -692,12 +591,9 @@ export default {
         "routing"
       ],
       "optionReasons": {
-        "route-mcq-06": "本句指「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」。",
-        "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
-        "route-mcq-07": "「在網絡中把資料導向正確目的地的設備」是「router」的用法，與本句語境不同。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。",
-        "route-mcq-08": "「某件事情在機構或制度內需要依照的正式處理途徑或程序」是「4. route = prescribed process/channel（正式程序／渠道） — 程序；正式渠道」的用法，與本句語境不同。",
-        "route-mcq-03": "「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」是「route to a goal/result」的用法，與本句語境不同。"
+        "route-mcq-06": "本句的「routing」指「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」。",
+        "route-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "route-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-mcq-06"
     },
@@ -709,11 +605,8 @@ export default {
       "masked": "Efficient delivery ____ can reduce fuel costs.",
       "options": [
         "route-mcq-06",
-        "route-mcq-05",
-        "route-mcq-07",
-        "route-mcq-04",
-        "route-mcq-08",
-        "route-mcq-03"
+        "route-mcq-09",
+        "route-mcq-08"
       ],
       "explanation": "本句的「routing」指「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」。",
       "sentenceIndex": 16,
@@ -722,12 +615,9 @@ export default {
         "routing"
       ],
       "optionReasons": {
-        "route-mcq-06": "本句指「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」。",
-        "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
-        "route-mcq-07": "「在網絡中把資料導向正確目的地的設備」是「router」的用法，與本句語境不同。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。",
-        "route-mcq-08": "「某件事情在機構或制度內需要依照的正式處理途徑或程序」是「4. route = prescribed process/channel（正式程序／渠道） — 程序；正式渠道」的用法，與本句語境不同。",
-        "route-mcq-03": "「為了達到某個目標、結果、職業或身分而採取的方法、途徑或渠道」是「route to a goal/result」的用法，與本句語境不同。"
+        "route-mcq-06": "本句的「routing」指「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」。",
+        "route-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "route-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-mcq-06"
     },
@@ -739,11 +629,8 @@ export default {
       "masked": "Restart the ____ if the internet connection stops working.",
       "options": [
         "route-mcq-07",
-        "route-mcq-06",
-        "route-mcq-08",
-        "route-mcq-05",
-        "route-mcq-09",
-        "route-mcq-04"
+        "route-mcq-01",
+        "route-mcq-09"
       ],
       "explanation": "本句的「router」指「在網絡中把資料導向正確目的地的設備」。",
       "sentenceIndex": 17,
@@ -752,12 +639,9 @@ export default {
         "router"
       ],
       "optionReasons": {
-        "route-mcq-07": "本句指「在網絡中把資料導向正確目的地的設備」。",
-        "route-mcq-06": "「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」是「routing」的用法，與本句語境不同。",
-        "route-mcq-08": "「某件事情在機構或制度內需要依照的正式處理途徑或程序」是「4. route = prescribed process/channel（正式程序／渠道） — 程序；正式渠道」的用法，與本句語境不同。",
-        "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
-        "route-mcq-09": "「表示大敗；擊潰」是「7. route = defeat completely（徹底擊敗） — 大敗；擊潰」的用法，與本句語境不同。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。"
+        "route-mcq-07": "本句的「router」指「在網絡中把資料導向正確目的地的設備」。",
+        "route-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "route-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-mcq-07"
     },
@@ -769,11 +653,8 @@ export default {
       "masked": "The ____ sends data to the correct device.",
       "options": [
         "route-mcq-07",
-        "route-mcq-06",
-        "route-mcq-08",
-        "route-mcq-05",
-        "route-mcq-09",
-        "route-mcq-04"
+        "route-mcq-01",
+        "route-mcq-09"
       ],
       "explanation": "本句的「router」指「在網絡中把資料導向正確目的地的設備」。",
       "sentenceIndex": 18,
@@ -782,12 +663,9 @@ export default {
         "router"
       ],
       "optionReasons": {
-        "route-mcq-07": "本句指「在網絡中把資料導向正確目的地的設備」。",
-        "route-mcq-06": "「為資料、訊息、貨物或交通決定及安排傳送路徑的過程」是「routing」的用法，與本句語境不同。",
-        "route-mcq-08": "「某件事情在機構或制度內需要依照的正式處理途徑或程序」是「4. route = prescribed process/channel（正式程序／渠道） — 程序；正式渠道」的用法，與本句語境不同。",
-        "route-mcq-05": "「按指定路徑把資料、電話、訊號、貨物、交通等導向某個目的地」是「route something — direct along a path」的用法，與本句語境不同。",
-        "route-mcq-09": "「表示大敗；擊潰」是「7. route = defeat completely（徹底擊敗） — 大敗；擊潰」的用法，與本句語境不同。",
-        "route-mcq-04": "「某件事情在制度或機構內按照規定所經過的正式處理途徑；屬於「方法／途徑」的延伸」是「official/administrative route」的用法，與本句語境不同。"
+        "route-mcq-07": "本句的「router」指「在網絡中把資料導向正確目的地的設備」。",
+        "route-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "route-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "route-mcq-07"
     }
@@ -799,5 +677,7 @@ export default {
     "sha256": "892fe4a9ae8bdcfd7b37e5a7f372be948dd76037e63c3a376df7f19b501e5f3c",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -511,11 +511,9 @@ export default {
       "masked": "The singer’s ____ grew rapidly.",
       "options": [
         "popularity-mcq-01",
-        "popularity-mcq-02",
-        "popularity-mcq-03",
-        "popularity-mcq-04",
-        "popularity-mcq-05",
-        "popularity-mcq-06"
+        "popularity-mcq-15",
+        "popularity-mcq-24",
+        "popularity-mcq-19"
       ],
       "explanation": "本句的「popularity」指「某人／某物受到多少人喜歡、接受或支持的程度」。",
       "sentenceIndex": 0,
@@ -524,12 +522,10 @@ export default {
         "popularity"
       ],
       "optionReasons": {
-        "popularity-mcq-01": "本句指「某人／某物受到多少人喜歡、接受或支持的程度」。",
-        "popularity-mcq-02": "「被很多人喜歡、接受或支持的」與本句語境不同。",
-        "popularity-mcq-03": "「被很多人選擇、使用或參與的；熱門的」與本句語境不同。",
-        "popularity-mcq-04": "「被 X 群體喜歡／接受」與本句語境不同。",
-        "popularity-mcq-05": "「在 X 群體中廣泛流行／受歡迎」與本句語境不同。",
-        "popularity-mcq-06": "「在網絡上因 likes、follow、互動等形成的受歡迎程度」與本句語境不同。"
+        "popularity-mcq-01": "本句的「popularity」指「某人／某物受到多少人喜歡、接受或支持的程度」。",
+        "popularity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-01"
     },
@@ -541,11 +537,9 @@ export default {
       "masked": "Her ____ among students is easy to understand.",
       "options": [
         "popularity-mcq-01",
-        "popularity-mcq-02",
-        "popularity-mcq-03",
-        "popularity-mcq-04",
-        "popularity-mcq-05",
-        "popularity-mcq-06"
+        "popularity-mcq-18",
+        "popularity-mcq-19",
+        "popularity-mcq-15"
       ],
       "explanation": "本句的「popularity」指「某人／某物受到多少人喜歡、接受或支持的程度」。",
       "sentenceIndex": 1,
@@ -554,12 +548,10 @@ export default {
         "popularity"
       ],
       "optionReasons": {
-        "popularity-mcq-01": "本句指「某人／某物受到多少人喜歡、接受或支持的程度」。",
-        "popularity-mcq-02": "「被很多人喜歡、接受或支持的」與本句語境不同。",
-        "popularity-mcq-03": "「被很多人選擇、使用或參與的；熱門的」與本句語境不同。",
-        "popularity-mcq-04": "「被 X 群體喜歡／接受」與本句語境不同。",
-        "popularity-mcq-05": "「在 X 群體中廣泛流行／受歡迎」與本句語境不同。",
-        "popularity-mcq-06": "「在網絡上因 likes、follow、互動等形成的受歡迎程度」與本句語境不同。"
+        "popularity-mcq-01": "本句的「popularity」指「某人／某物受到多少人喜歡、接受或支持的程度」。",
+        "popularity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-01"
     },
@@ -571,11 +563,9 @@ export default {
       "masked": "She is very ____ at school.",
       "options": [
         "popularity-mcq-02",
-        "popularity-mcq-01",
-        "popularity-mcq-03",
-        "popularity-mcq-04",
-        "popularity-mcq-05",
-        "popularity-mcq-06"
+        "popularity-mcq-15",
+        "popularity-mcq-12",
+        "popularity-mcq-18"
       ],
       "explanation": "本句的「popular」指「被很多人喜歡、接受或支持的」。",
       "sentenceIndex": 2,
@@ -584,12 +574,10 @@ export default {
         "popular"
       ],
       "optionReasons": {
-        "popularity-mcq-02": "本句指「被很多人喜歡、接受或支持的」。",
-        "popularity-mcq-01": "「某人／某物受到多少人喜歡、接受或支持的程度」與本句語境不同。",
-        "popularity-mcq-03": "「被很多人選擇、使用或參與的；熱門的」與本句語境不同。",
-        "popularity-mcq-04": "「被 X 群體喜歡／接受」與本句語境不同。",
-        "popularity-mcq-05": "「在 X 群體中廣泛流行／受歡迎」與本句語境不同。",
-        "popularity-mcq-06": "「在網絡上因 likes、follow、互動等形成的受歡迎程度」與本句語境不同。"
+        "popularity-mcq-02": "本句的「popular」指「被很多人喜歡、接受或支持的」。",
+        "popularity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-02"
     },
@@ -601,11 +589,9 @@ export default {
       "masked": "The trend is ____.",
       "options": [
         "popularity-mcq-05",
-        "popularity-mcq-04",
-        "popularity-mcq-06",
-        "popularity-mcq-03",
-        "popularity-mcq-07",
-        "popularity-mcq-02"
+        "popularity-mcq-15",
+        "popularity-mcq-12",
+        "popularity-mcq-18"
       ],
       "explanation": "本句的「popular among young people」指「在 X 群體中廣泛流行／受歡迎」。",
       "sentenceIndex": 4,
@@ -614,12 +600,10 @@ export default {
         "popular among young people"
       ],
       "optionReasons": {
-        "popularity-mcq-05": "本句指「在 X 群體中廣泛流行／受歡迎」。",
-        "popularity-mcq-04": "「被 X 群體喜歡／接受」與本句語境不同。",
-        "popularity-mcq-06": "「在網絡上因 likes、follow、互動等形成的受歡迎程度」與本句語境不同。",
-        "popularity-mcq-03": "「被很多人選擇、使用或參與的；熱門的」與本句語境不同。",
-        "popularity-mcq-07": "「開始被更多人喜歡、採用或支持」與本句語境不同。",
-        "popularity-mcq-02": "「被很多人喜歡、接受或支持的」與本句語境不同。"
+        "popularity-mcq-05": "本句的「popular among young people」指「在 X 群體中廣泛流行／受歡迎」。",
+        "popularity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-05"
     },
@@ -631,11 +615,9 @@ export default {
       "masked": "This is one of our most ____.",
       "options": [
         "popularity-pdf-001",
-        "popularity-mcq-04",
-        "popularity-mcq-06",
-        "popularity-mcq-03",
-        "popularity-mcq-07",
-        "popularity-mcq-02"
+        "popularity-mcq-12",
+        "popularity-mcq-18",
+        "popularity-mcq-21"
       ],
       "explanation": "本句的「popular products」指「很多人選擇、購買或喜歡的」。",
       "sentenceIndex": 5,
@@ -644,12 +626,10 @@ export default {
         "popular products"
       ],
       "optionReasons": {
-        "popularity-pdf-001": "本句指「很多人選擇、購買或喜歡的」。",
-        "popularity-mcq-04": "「被 X 群體喜歡／接受」與本句語境不同。",
-        "popularity-mcq-06": "「在網絡上因 likes、follow、互動等形成的受歡迎程度」與本句語境不同。",
-        "popularity-mcq-03": "「被很多人選擇、使用或參與的；熱門的」與本句語境不同。",
-        "popularity-mcq-07": "「開始被更多人喜歡、採用或支持」與本句語境不同。",
-        "popularity-mcq-02": "「被很多人喜歡、接受或支持的」與本句語境不同。"
+        "popularity-pdf-001": "本句的「popular products」指「很多人選擇、購買或喜歡的」。",
+        "popularity-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-pdf-001"
     },
@@ -661,11 +641,9 @@ export default {
       "masked": "Online ____ brings visibility.",
       "options": [
         "popularity-mcq-06",
-        "popularity-mcq-05",
-        "popularity-mcq-07",
-        "popularity-mcq-04",
-        "popularity-mcq-08",
-        "popularity-mcq-03"
+        "popularity-mcq-12",
+        "popularity-mcq-18",
+        "popularity-mcq-09"
       ],
       "explanation": "本句的「popularity」指「在網絡上因 likes、follow、互動等形成的受歡迎程度」。",
       "sentenceIndex": 9,
@@ -674,12 +652,10 @@ export default {
         "popularity"
       ],
       "optionReasons": {
-        "popularity-mcq-06": "本句指「在網絡上因 likes、follow、互動等形成的受歡迎程度」。",
-        "popularity-mcq-05": "「在 X 群體中廣泛流行／受歡迎」與本句語境不同。",
-        "popularity-mcq-07": "「開始被更多人喜歡、採用或支持」與本句語境不同。",
-        "popularity-mcq-04": "「被 X 群體喜歡／接受」與本句語境不同。",
-        "popularity-mcq-08": "「受歡迎程度在短時間內急劇增加」與本句語境不同。",
-        "popularity-mcq-03": "「被很多人選擇、使用或參與的；熱門的」與本句語境不同。"
+        "popularity-mcq-06": "本句的「popularity」指「在網絡上因 likes、follow、互動等形成的受歡迎程度」。",
+        "popularity-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-06"
     },
@@ -691,11 +667,9 @@ export default {
       "masked": "Her online ____ increased after the video went viral.",
       "options": [
         "popularity-mcq-06",
-        "popularity-mcq-05",
-        "popularity-mcq-07",
-        "popularity-mcq-04",
-        "popularity-mcq-08",
-        "popularity-mcq-03"
+        "popularity-mcq-12",
+        "popularity-mcq-17",
+        "popularity-mcq-24"
       ],
       "explanation": "本句的「popularity」指「在網絡上因 likes、follow、互動等形成的受歡迎程度」。",
       "sentenceIndex": 10,
@@ -704,12 +678,10 @@ export default {
         "popularity"
       ],
       "optionReasons": {
-        "popularity-mcq-06": "本句指「在網絡上因 likes、follow、互動等形成的受歡迎程度」。",
-        "popularity-mcq-05": "「在 X 群體中廣泛流行／受歡迎」與本句語境不同。",
-        "popularity-mcq-07": "「開始被更多人喜歡、採用或支持」與本句語境不同。",
-        "popularity-mcq-04": "「被 X 群體喜歡／接受」與本句語境不同。",
-        "popularity-mcq-08": "「受歡迎程度在短時間內急劇增加」與本句語境不同。",
-        "popularity-mcq-03": "「被很多人選擇、使用或參與的；熱門的」與本句語境不同。"
+        "popularity-mcq-06": "本句的「popularity」指「在網絡上因 likes、follow、互動等形成的受歡迎程度」。",
+        "popularity-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-06"
     },
@@ -721,11 +693,9 @@ export default {
       "masked": "The app quickly ____.",
       "options": [
         "popularity-mcq-07",
-        "popularity-mcq-06",
-        "popularity-mcq-08",
-        "popularity-mcq-05",
-        "popularity-mcq-09",
-        "popularity-mcq-04"
+        "popularity-mcq-17",
+        "popularity-mcq-11",
+        "popularity-mcq-18"
       ],
       "explanation": "本句的「gained popularity」指「開始被更多人喜歡、採用或支持」。",
       "sentenceIndex": 15,
@@ -734,12 +704,10 @@ export default {
         "gained popularity"
       ],
       "optionReasons": {
-        "popularity-mcq-07": "本句指「開始被更多人喜歡、採用或支持」。",
-        "popularity-mcq-06": "「在網絡上因 likes、follow、互動等形成的受歡迎程度」與本句語境不同。",
-        "popularity-mcq-08": "「受歡迎程度在短時間內急劇增加」與本句語境不同。",
-        "popularity-mcq-05": "「在 X 群體中廣泛流行／受歡迎」與本句語境不同。",
-        "popularity-mcq-09": "「持續保持大量人的喜愛／支持」與本句語境不同。",
-        "popularity-mcq-04": "「被 X 群體喜歡／接受」與本句語境不同。"
+        "popularity-mcq-07": "本句的「gained popularity」指「開始被更多人喜歡、採用或支持」。",
+        "popularity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-07"
     },
@@ -751,11 +719,9 @@ export default {
       "masked": "The idea gained ____ among students.",
       "options": [
         "popularity-mcq-07",
-        "popularity-mcq-06",
-        "popularity-mcq-08",
-        "popularity-mcq-05",
-        "popularity-mcq-09",
-        "popularity-mcq-04"
+        "popularity-mcq-15",
+        "popularity-mcq-17",
+        "popularity-mcq-24"
       ],
       "explanation": "本句的「popularity」指「開始被更多人喜歡、採用或支持」。",
       "sentenceIndex": 16,
@@ -764,12 +730,10 @@ export default {
         "popularity"
       ],
       "optionReasons": {
-        "popularity-mcq-07": "本句指「開始被更多人喜歡、採用或支持」。",
-        "popularity-mcq-06": "「在網絡上因 likes、follow、互動等形成的受歡迎程度」與本句語境不同。",
-        "popularity-mcq-08": "「受歡迎程度在短時間內急劇增加」與本句語境不同。",
-        "popularity-mcq-05": "「在 X 群體中廣泛流行／受歡迎」與本句語境不同。",
-        "popularity-mcq-09": "「持續保持大量人的喜愛／支持」與本句語境不同。",
-        "popularity-mcq-04": "「被 X 群體喜歡／接受」與本句語境不同。"
+        "popularity-mcq-07": "本句的「popularity」指「開始被更多人喜歡、採用或支持」。",
+        "popularity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-07"
     },
@@ -781,11 +745,9 @@ export default {
       "masked": "The video caused a ____.",
       "options": [
         "popularity-mcq-08",
-        "popularity-mcq-07",
-        "popularity-mcq-09",
-        "popularity-mcq-06",
-        "popularity-mcq-10",
-        "popularity-mcq-05"
+        "popularity-mcq-18",
+        "popularity-mcq-24",
+        "popularity-mcq-19"
       ],
       "explanation": "本句的「surge in popularity」指「受歡迎程度在短時間內急劇增加」。",
       "sentenceIndex": 21,
@@ -794,12 +756,10 @@ export default {
         "surge in popularity"
       ],
       "optionReasons": {
-        "popularity-mcq-08": "本句指「受歡迎程度在短時間內急劇增加」。",
-        "popularity-mcq-07": "「開始被更多人喜歡、採用或支持」與本句語境不同。",
-        "popularity-mcq-09": "「持續保持大量人的喜愛／支持」與本句語境不同。",
-        "popularity-mcq-06": "「在網絡上因 likes、follow、互動等形成的受歡迎程度」與本句語境不同。",
-        "popularity-mcq-10": "「主要比誰更討人喜歡，而非能力／品質的競爭」與本句語境不同。",
-        "popularity-mcq-05": "「在 X 群體中廣泛流行／受歡迎」與本句語境不同。"
+        "popularity-mcq-08": "本句的「surge in popularity」指「受歡迎程度在短時間內急劇增加」。",
+        "popularity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-08"
     },
@@ -811,11 +771,9 @@ export default {
       "masked": "The sport experienced a sudden surge in ____.",
       "options": [
         "popularity-mcq-08",
-        "popularity-mcq-07",
+        "popularity-mcq-13",
         "popularity-mcq-09",
-        "popularity-mcq-06",
-        "popularity-mcq-10",
-        "popularity-mcq-05"
+        "popularity-mcq-19"
       ],
       "explanation": "本句的「popularity」指「受歡迎程度在短時間內急劇增加」。",
       "sentenceIndex": 22,
@@ -824,12 +782,10 @@ export default {
         "popularity"
       ],
       "optionReasons": {
-        "popularity-mcq-08": "本句指「受歡迎程度在短時間內急劇增加」。",
-        "popularity-mcq-07": "「開始被更多人喜歡、採用或支持」與本句語境不同。",
-        "popularity-mcq-09": "「持續保持大量人的喜愛／支持」與本句語境不同。",
-        "popularity-mcq-06": "「在網絡上因 likes、follow、互動等形成的受歡迎程度」與本句語境不同。",
-        "popularity-mcq-10": "「主要比誰更討人喜歡，而非能力／品質的競爭」與本句語境不同。",
-        "popularity-mcq-05": "「在 X 群體中廣泛流行／受歡迎」與本句語境不同。"
+        "popularity-mcq-08": "本句的「popularity」指「受歡迎程度在短時間內急劇增加」。",
+        "popularity-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-08"
     },
@@ -841,11 +797,9 @@ export default {
       "masked": "Creators often feel pressure to ____.",
       "options": [
         "popularity-mcq-09",
-        "popularity-mcq-08",
-        "popularity-mcq-10",
-        "popularity-mcq-07",
-        "popularity-mcq-11",
-        "popularity-mcq-06"
+        "popularity-mcq-06",
+        "popularity-mcq-15",
+        "popularity-mcq-17"
       ],
       "explanation": "本句的「maintain popularity」指「持續保持大量人的喜愛／支持」。",
       "sentenceIndex": 27,
@@ -854,12 +808,10 @@ export default {
         "maintain popularity"
       ],
       "optionReasons": {
-        "popularity-mcq-09": "本句指「持續保持大量人的喜愛／支持」。",
-        "popularity-mcq-08": "「受歡迎程度在短時間內急劇增加」與本句語境不同。",
-        "popularity-mcq-10": "「主要比誰更討人喜歡，而非能力／品質的競爭」與本句語境不同。",
-        "popularity-mcq-07": "「開始被更多人喜歡、採用或支持」與本句語境不同。",
-        "popularity-mcq-11": "「由廣大公眾消費、參與及認識的大眾文化」與本句語境不同。",
-        "popularity-mcq-06": "「在網絡上因 likes、follow、互動等形成的受歡迎程度」與本句語境不同。"
+        "popularity-mcq-09": "本句的「maintain popularity」指「持續保持大量人的喜愛／支持」。",
+        "popularity-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-09"
     },
@@ -871,11 +823,9 @@ export default {
       "masked": "The brand has maintained its ____ for years.",
       "options": [
         "popularity-mcq-09",
-        "popularity-mcq-08",
-        "popularity-mcq-10",
-        "popularity-mcq-07",
-        "popularity-mcq-11",
-        "popularity-mcq-06"
+        "popularity-mcq-24",
+        "popularity-mcq-05",
+        "popularity-mcq-18"
       ],
       "explanation": "本句的「popularity」指「持續保持大量人的喜愛／支持」。",
       "sentenceIndex": 28,
@@ -884,12 +834,10 @@ export default {
         "popularity"
       ],
       "optionReasons": {
-        "popularity-mcq-09": "本句指「持續保持大量人的喜愛／支持」。",
-        "popularity-mcq-08": "「受歡迎程度在短時間內急劇增加」與本句語境不同。",
-        "popularity-mcq-10": "「主要比誰更討人喜歡，而非能力／品質的競爭」與本句語境不同。",
-        "popularity-mcq-07": "「開始被更多人喜歡、採用或支持」與本句語境不同。",
-        "popularity-mcq-11": "「由廣大公眾消費、參與及認識的大眾文化」與本句語境不同。",
-        "popularity-mcq-06": "「在網絡上因 likes、follow、互動等形成的受歡迎程度」與本句語境不同。"
+        "popularity-mcq-09": "本句的「popularity」指「持續保持大量人的喜愛／支持」。",
+        "popularity-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-09"
     },
@@ -901,11 +849,9 @@ export default {
       "masked": "The award turned into a ____.",
       "options": [
         "popularity-mcq-10",
-        "popularity-mcq-09",
-        "popularity-mcq-11",
-        "popularity-mcq-08",
-        "popularity-mcq-12",
-        "popularity-mcq-07"
+        "popularity-mcq-24",
+        "popularity-mcq-17",
+        "popularity-mcq-21"
       ],
       "explanation": "本句的「popularity contest」指「主要比誰更討人喜歡，而非能力／品質的競爭」。",
       "sentenceIndex": 41,
@@ -914,12 +860,10 @@ export default {
         "popularity contest"
       ],
       "optionReasons": {
-        "popularity-mcq-10": "本句指「主要比誰更討人喜歡，而非能力／品質的競爭」。",
-        "popularity-mcq-09": "「持續保持大量人的喜愛／支持」與本句語境不同。",
-        "popularity-mcq-11": "「由廣大公眾消費、參與及認識的大眾文化」與本句語境不同。",
-        "popularity-mcq-08": "「受歡迎程度在短時間內急劇增加」與本句語境不同。",
-        "popularity-mcq-12": "「面向一般公眾、用較易懂方式介紹科學的內容」與本句語境不同。",
-        "popularity-mcq-07": "「開始被更多人喜歡、採用或支持」與本句語境不同。"
+        "popularity-mcq-10": "本句的「popularity contest」指「主要比誰更討人喜歡，而非能力／品質的競爭」。",
+        "popularity-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-10"
     },
@@ -931,11 +875,9 @@ export default {
       "masked": "Leadership should not be a ____ contest.",
       "options": [
         "popularity-mcq-10",
-        "popularity-mcq-09",
-        "popularity-mcq-11",
-        "popularity-mcq-08",
+        "popularity-mcq-13",
         "popularity-mcq-12",
-        "popularity-mcq-07"
+        "popularity-mcq-21"
       ],
       "explanation": "本句的「popularity」指「主要比誰更討人喜歡，而非能力／品質的競爭」。",
       "sentenceIndex": 42,
@@ -944,12 +886,10 @@ export default {
         "popularity"
       ],
       "optionReasons": {
-        "popularity-mcq-10": "本句指「主要比誰更討人喜歡，而非能力／品質的競爭」。",
-        "popularity-mcq-09": "「持續保持大量人的喜愛／支持」與本句語境不同。",
-        "popularity-mcq-11": "「由廣大公眾消費、參與及認識的大眾文化」與本句語境不同。",
-        "popularity-mcq-08": "「受歡迎程度在短時間內急劇增加」與本句語境不同。",
-        "popularity-mcq-12": "「面向一般公眾、用較易懂方式介紹科學的內容」與本句語境不同。",
-        "popularity-mcq-07": "「開始被更多人喜歡、採用或支持」與本句語境不同。"
+        "popularity-mcq-10": "本句的「popularity」指「主要比誰更討人喜歡，而非能力／品質的競爭」。",
+        "popularity-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-10"
     },
@@ -961,11 +901,9 @@ export default {
       "masked": "Social media has become part of ____.",
       "options": [
         "popularity-mcq-11",
-        "popularity-mcq-10",
-        "popularity-mcq-12",
-        "popularity-mcq-09",
+        "popularity-mcq-23",
         "popularity-mcq-13",
-        "popularity-mcq-08"
+        "popularity-mcq-17"
       ],
       "explanation": "本句的「popular culture」指「由廣大公眾消費、參與及認識的大眾文化」。",
       "sentenceIndex": 52,
@@ -974,12 +912,10 @@ export default {
         "popular culture"
       ],
       "optionReasons": {
-        "popularity-mcq-11": "本句指「由廣大公眾消費、參與及認識的大眾文化」。",
-        "popularity-mcq-10": "「主要比誰更討人喜歡，而非能力／品質的競爭」與本句語境不同。",
-        "popularity-mcq-12": "「面向一般公眾、用較易懂方式介紹科學的內容」與本句語境不同。",
-        "popularity-mcq-09": "「持續保持大量人的喜愛／支持」與本句語境不同。",
-        "popularity-mcq-13": "「很多人普遍持有的看法，未必等於事實」與本句語境不同。",
-        "popularity-mcq-08": "「受歡迎程度在短時間內急劇增加」與本句語境不同。"
+        "popularity-mcq-11": "本句的「popular culture」指「由廣大公眾消費、參與及認識的大眾文化」。",
+        "popularity-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-11"
     },
@@ -991,11 +927,9 @@ export default {
       "masked": "She writes ____ books.",
       "options": [
         "popularity-mcq-12",
-        "popularity-mcq-11",
         "popularity-mcq-13",
-        "popularity-mcq-10",
-        "popularity-mcq-14",
-        "popularity-mcq-09"
+        "popularity-mcq-18",
+        "popularity-mcq-05"
       ],
       "explanation": "本句的「popular science」指「面向一般公眾、用較易懂方式介紹科學的內容」。",
       "sentenceIndex": 57,
@@ -1004,12 +938,10 @@ export default {
         "popular science"
       ],
       "optionReasons": {
-        "popularity-mcq-12": "本句指「面向一般公眾、用較易懂方式介紹科學的內容」。",
-        "popularity-mcq-11": "「由廣大公眾消費、參與及認識的大眾文化」與本句語境不同。",
-        "popularity-mcq-13": "「很多人普遍持有的看法，未必等於事實」與本句語境不同。",
-        "popularity-mcq-10": "「主要比誰更討人喜歡，而非能力／品質的競爭」與本句語境不同。",
-        "popularity-mcq-14": "「一般大眾普遍持有的意見／看法」與本句語境不同。",
-        "popularity-mcq-09": "「持續保持大量人的喜愛／支持」與本句語境不同。"
+        "popularity-mcq-12": "本句的「popular science」指「面向一般公眾、用較易懂方式介紹科學的內容」。",
+        "popularity-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-12"
     },
@@ -1021,11 +953,9 @@ export default {
       "masked": "The article gives a ____ of the theory.",
       "options": [
         "popularity-mcq-14",
-        "popularity-mcq-13",
-        "popularity-mcq-15",
-        "popularity-mcq-12",
-        "popularity-mcq-16",
-        "popularity-mcq-11"
+        "popularity-mcq-08",
+        "popularity-pdf-001",
+        "popularity-mcq-18"
       ],
       "explanation": "本句的「popular account」指「一般大眾普遍持有的意見／看法」。",
       "sentenceIndex": 59,
@@ -1034,12 +964,10 @@ export default {
         "popular account"
       ],
       "optionReasons": {
-        "popularity-mcq-14": "本句指「一般大眾普遍持有的意見／看法」。",
-        "popularity-mcq-13": "「很多人普遍持有的看法，未必等於事實」與本句語境不同。",
-        "popularity-mcq-15": "「因很多人明確要求而重新推出／加場等」與本句語境不同。",
-        "popularity-mcq-12": "「面向一般公眾、用較易懂方式介紹科學的內容」與本句語境不同。",
-        "popularity-mcq-16": "「一般民眾對某人／措施的支持」與本句語境不同。",
-        "popularity-mcq-11": "「由廣大公眾消費、參與及認識的大眾文化」與本句語境不同。"
+        "popularity-mcq-14": "本句的「popular account」指「一般大眾普遍持有的意見／看法」。",
+        "popularity-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "popularity-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-14"
     },
@@ -1051,11 +979,9 @@ export default {
       "masked": "Contrary to ____, the two terms are not identical.",
       "options": [
         "popularity-mcq-13",
-        "popularity-mcq-12",
-        "popularity-mcq-14",
-        "popularity-mcq-11",
-        "popularity-mcq-15",
-        "popularity-mcq-10"
+        "popularity-mcq-17",
+        "popularity-pdf-001",
+        "popularity-mcq-08"
       ],
       "explanation": "本句的「popular belief」指「很多人普遍持有的看法，未必等於事實」。",
       "sentenceIndex": 60,
@@ -1064,12 +990,10 @@ export default {
         "popular belief"
       ],
       "optionReasons": {
-        "popularity-mcq-13": "本句指「很多人普遍持有的看法，未必等於事實」。",
-        "popularity-mcq-12": "「面向一般公眾、用較易懂方式介紹科學的內容」與本句語境不同。",
-        "popularity-mcq-14": "「一般大眾普遍持有的意見／看法」與本句語境不同。",
-        "popularity-mcq-11": "「由廣大公眾消費、參與及認識的大眾文化」與本句語境不同。",
-        "popularity-mcq-15": "「因很多人明確要求而重新推出／加場等」與本句語境不同。",
-        "popularity-mcq-10": "「主要比誰更討人喜歡，而非能力／品質的競爭」與本句語境不同。"
+        "popularity-mcq-13": "本句的「popular belief」指「很多人普遍持有的看法，未必等於事實」。",
+        "popularity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "popularity-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-13"
     },
@@ -1081,11 +1005,9 @@ export default {
       "masked": "The decision went against ____.",
       "options": [
         "popularity-mcq-14",
-        "popularity-mcq-13",
-        "popularity-mcq-15",
-        "popularity-mcq-12",
-        "popularity-mcq-16",
-        "popularity-mcq-11"
+        "popularity-mcq-22",
+        "popularity-pdf-001",
+        "popularity-mcq-15"
       ],
       "explanation": "本句的「popular opinion」指「一般大眾普遍持有的意見／看法」。",
       "sentenceIndex": 61,
@@ -1094,12 +1016,10 @@ export default {
         "popular opinion"
       ],
       "optionReasons": {
-        "popularity-mcq-14": "本句指「一般大眾普遍持有的意見／看法」。",
-        "popularity-mcq-13": "「很多人普遍持有的看法，未必等於事實」與本句語境不同。",
-        "popularity-mcq-15": "「因很多人明確要求而重新推出／加場等」與本句語境不同。",
-        "popularity-mcq-12": "「面向一般公眾、用較易懂方式介紹科學的內容」與本句語境不同。",
-        "popularity-mcq-16": "「一般民眾對某人／措施的支持」與本句語境不同。",
-        "popularity-mcq-11": "「由廣大公眾消費、參與及認識的大眾文化」與本句語境不同。"
+        "popularity-mcq-14": "本句的「popular opinion」指「一般大眾普遍持有的意見／看法」。",
+        "popularity-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "popularity-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-14"
     },
@@ -1111,11 +1031,9 @@ export default {
       "masked": "The show returned ____.",
       "options": [
         "popularity-mcq-15",
-        "popularity-mcq-14",
-        "popularity-mcq-16",
-        "popularity-mcq-13",
-        "popularity-mcq-17",
-        "popularity-mcq-12"
+        "popularity-mcq-22",
+        "popularity-mcq-09",
+        "popularity-mcq-21"
       ],
       "explanation": "本句的「by popular demand」指「因很多人明確要求而重新推出／加場等」。",
       "sentenceIndex": 62,
@@ -1124,12 +1042,10 @@ export default {
         "by popular demand"
       ],
       "optionReasons": {
-        "popularity-mcq-15": "本句指「因很多人明確要求而重新推出／加場等」。",
-        "popularity-mcq-14": "「一般大眾普遍持有的意見／看法」與本句語境不同。",
-        "popularity-mcq-16": "「一般民眾對某人／措施的支持」與本句語境不同。",
-        "popularity-mcq-13": "「很多人普遍持有的看法，未必等於事實」與本句語境不同。",
-        "popularity-mcq-17": "「選民直接投出的總票數／直接民意票」與本句語境不同。",
-        "popularity-mcq-12": "「面向一般公眾、用較易懂方式介紹科學的內容」與本句語境不同。"
+        "popularity-mcq-15": "本句的「by popular demand」指「因很多人明確要求而重新推出／加場等」。",
+        "popularity-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-15"
     },
@@ -1141,10 +1057,8 @@ export default {
       "masked": "The concert was extended ____.",
       "options": [
         "popularity-mcq-15",
-        "popularity-mcq-14",
-        "popularity-mcq-16",
-        "popularity-mcq-13",
-        "popularity-mcq-17",
+        "popularity-mcq-01",
+        "popularity-mcq-18",
         "popularity-mcq-12"
       ],
       "explanation": "本句的「by popular demand」指「因很多人明確要求而重新推出／加場等」。",
@@ -1154,12 +1068,10 @@ export default {
         "by popular demand"
       ],
       "optionReasons": {
-        "popularity-mcq-15": "本句指「因很多人明確要求而重新推出／加場等」。",
-        "popularity-mcq-14": "「一般大眾普遍持有的意見／看法」與本句語境不同。",
-        "popularity-mcq-16": "「一般民眾對某人／措施的支持」與本句語境不同。",
-        "popularity-mcq-13": "「很多人普遍持有的看法，未必等於事實」與本句語境不同。",
-        "popularity-mcq-17": "「選民直接投出的總票數／直接民意票」與本句語境不同。",
-        "popularity-mcq-12": "「面向一般公眾、用較易懂方式介紹科學的內容」與本句語境不同。"
+        "popularity-mcq-15": "本句的「by popular demand」指「因很多人明確要求而重新推出／加場等」。",
+        "popularity-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-15"
     },
@@ -1171,11 +1083,9 @@ export default {
       "masked": "The proposal had broad ____.",
       "options": [
         "popularity-mcq-16",
-        "popularity-mcq-15",
-        "popularity-mcq-17",
-        "popularity-mcq-14",
-        "popularity-mcq-18",
-        "popularity-mcq-13"
+        "popularity-mcq-22",
+        "popularity-mcq-24",
+        "popularity-mcq-10"
       ],
       "explanation": "本句的「popular support」指「一般民眾對某人／措施的支持」。",
       "sentenceIndex": 64,
@@ -1184,12 +1094,10 @@ export default {
         "popular support"
       ],
       "optionReasons": {
-        "popularity-mcq-16": "本句指「一般民眾對某人／措施的支持」。",
-        "popularity-mcq-15": "「因很多人明確要求而重新推出／加場等」與本句語境不同。",
-        "popularity-mcq-17": "「選民直接投出的總票數／直接民意票」與本句語境不同。",
-        "popularity-mcq-14": "「一般大眾普遍持有的意見／看法」與本句語境不同。",
-        "popularity-mcq-18": "「政治權力最終來源於人民的原則」與本句語境不同。",
-        "popularity-mcq-13": "「很多人普遍持有的看法，未必等於事實」與本句語境不同。"
+        "popularity-mcq-16": "本句的「popular support」指「一般民眾對某人／措施的支持」。",
+        "popularity-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-16"
     },
@@ -1201,11 +1109,9 @@ export default {
       "masked": "The term ____ refers to votes cast directly by voters.",
       "options": [
         "popularity-mcq-17",
-        "popularity-mcq-16",
-        "popularity-mcq-18",
-        "popularity-mcq-15",
-        "popularity-mcq-19",
-        "popularity-mcq-14"
+        "popularity-mcq-08",
+        "popularity-mcq-12",
+        "popularity-mcq-09"
       ],
       "explanation": "本句的「popular vote」指「選民直接投出的總票數／直接民意票」。",
       "sentenceIndex": 65,
@@ -1214,12 +1120,10 @@ export default {
         "popular vote"
       ],
       "optionReasons": {
-        "popularity-mcq-17": "本句指「選民直接投出的總票數／直接民意票」。",
-        "popularity-mcq-16": "「一般民眾對某人／措施的支持」與本句語境不同。",
-        "popularity-mcq-18": "「政治權力最終來源於人民的原則」與本句語境不同。",
-        "popularity-mcq-15": "「因很多人明確要求而重新推出／加場等」與本句語境不同。",
-        "popularity-mcq-19": "「一般大眾通常以某名稱稱呼；俗稱」與本句語境不同。",
-        "popularity-mcq-14": "「一般大眾普遍持有的意見／看法」與本句語境不同。"
+        "popularity-mcq-17": "本句的「popular vote」指「選民直接投出的總票數／直接民意票」。",
+        "popularity-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-17"
     },
@@ -1231,10 +1135,8 @@ export default {
       "masked": "The constitution refers to ____.",
       "options": [
         "popularity-mcq-18",
-        "popularity-mcq-17",
+        "popularity-mcq-26",
         "popularity-mcq-19",
-        "popularity-mcq-16",
-        "popularity-mcq-20",
         "popularity-mcq-15"
       ],
       "explanation": "本句的「popular sovereignty」指「政治權力最終來源於人民的原則」。",
@@ -1244,12 +1146,10 @@ export default {
         "popular sovereignty"
       ],
       "optionReasons": {
-        "popularity-mcq-18": "本句指「政治權力最終來源於人民的原則」。",
-        "popularity-mcq-17": "「選民直接投出的總票數／直接民意票」與本句語境不同。",
-        "popularity-mcq-19": "「一般大眾通常以某名稱稱呼；俗稱」與本句語境不同。",
-        "popularity-mcq-16": "「一般民眾對某人／措施的支持」與本句語境不同。",
-        "popularity-mcq-20": "「令 X 被更多人認識、使用、接受或理解」與本句語境不同。",
-        "popularity-mcq-15": "「因很多人明確要求而重新推出／加場等」與本句語境不同。"
+        "popularity-mcq-18": "本句的「popular sovereignty」指「政治權力最終來源於人民的原則」。",
+        "popularity-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-18"
     },
@@ -1261,11 +1161,9 @@ export default {
       "masked": "The building is ____ the Glass Tower.",
       "options": [
         "popularity-mcq-19",
-        "popularity-mcq-18",
-        "popularity-mcq-20",
-        "popularity-mcq-17",
-        "popularity-mcq-21",
-        "popularity-mcq-16"
+        "popularity-mcq-24",
+        "popularity-mcq-05",
+        "popularity-mcq-18"
       ],
       "explanation": "本句的「popularly known as」指「一般大眾通常以某名稱稱呼；俗稱」。",
       "sentenceIndex": 70,
@@ -1274,12 +1172,10 @@ export default {
         "popularly known as"
       ],
       "optionReasons": {
-        "popularity-mcq-19": "本句指「一般大眾通常以某名稱稱呼；俗稱」。",
-        "popularity-mcq-18": "「政治權力最終來源於人民的原則」與本句語境不同。",
-        "popularity-mcq-20": "「令 X 被更多人認識、使用、接受或理解」與本句語境不同。",
-        "popularity-mcq-17": "「選民直接投出的總票數／直接民意票」與本句語境不同。",
-        "popularity-mcq-21": "「某概念／活動逐漸普及、進入大眾的過程」與本句語境不同。",
-        "popularity-mcq-16": "「一般民眾對某人／措施的支持」與本句語境不同。"
+        "popularity-mcq-19": "本句的「popularly known as」指「一般大眾通常以某名稱稱呼；俗稱」。",
+        "popularity-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-19"
     },
@@ -1291,11 +1187,9 @@ export default {
       "masked": "The internet accelerated the ____ of online learning.",
       "options": [
         "popularity-mcq-21",
-        "popularity-mcq-20",
-        "popularity-mcq-22",
-        "popularity-mcq-19",
-        "popularity-mcq-23",
-        "popularity-mcq-18"
+        "popularity-mcq-15",
+        "popularity-pdf-001",
+        "popularity-mcq-05"
       ],
       "explanation": "本句的「popularisation」指「某概念／活動逐漸普及、進入大眾的過程」。",
       "sentenceIndex": 74,
@@ -1304,12 +1198,10 @@ export default {
         "popularisation"
       ],
       "optionReasons": {
-        "popularity-mcq-21": "本句指「某概念／活動逐漸普及、進入大眾的過程」。",
-        "popularity-mcq-20": "「令 X 被更多人認識、使用、接受或理解」與本句語境不同。",
-        "popularity-mcq-22": "「按受歡迎程度排列的名次」與本句語境不同。",
-        "popularity-mcq-19": "「一般大眾通常以某名稱稱呼；俗稱」與本句語境不同。",
-        "popularity-mcq-23": "「用來估計受歡迎程度的觀看、like、分享等指標」與本句語境不同。",
-        "popularity-mcq-18": "「政治權力最終來源於人民的原則」與本句語境不同。"
+        "popularity-mcq-21": "本句的「popularisation」指「某概念／活動逐漸普及、進入大眾的過程」。",
+        "popularity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "popularity-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-21"
     },
@@ -1321,11 +1213,9 @@ export default {
       "masked": "The app shows a ____.",
       "options": [
         "popularity-mcq-22",
-        "popularity-mcq-21",
-        "popularity-mcq-23",
-        "popularity-mcq-20",
-        "popularity-mcq-24",
-        "popularity-mcq-19"
+        "popularity-mcq-09",
+        "popularity-mcq-17",
+        "popularity-mcq-18"
       ],
       "explanation": "本句的「popularity ranking」指「按受歡迎程度排列的名次」。",
       "sentenceIndex": 76,
@@ -1334,12 +1224,10 @@ export default {
         "popularity ranking"
       ],
       "optionReasons": {
-        "popularity-mcq-22": "本句指「按受歡迎程度排列的名次」。",
-        "popularity-mcq-21": "「某概念／活動逐漸普及、進入大眾的過程」與本句語境不同。",
-        "popularity-mcq-23": "「用來估計受歡迎程度的觀看、like、分享等指標」與本句語境不同。",
-        "popularity-mcq-20": "「令 X 被更多人認識、使用、接受或理解」與本句語境不同。",
-        "popularity-mcq-24": "「傾向優先選擇／推薦本來已經熱門項目的偏誤」與本句語境不同。",
-        "popularity-mcq-19": "「一般大眾通常以某名稱稱呼；俗稱」與本句語境不同。"
+        "popularity-mcq-22": "本句的「popularity ranking」指「按受歡迎程度排列的名次」。",
+        "popularity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-22"
     },
@@ -1351,11 +1239,9 @@ export default {
       "masked": "____ rankings can change daily.",
       "options": [
         "popularity-mcq-22",
-        "popularity-mcq-21",
-        "popularity-mcq-23",
-        "popularity-mcq-20",
-        "popularity-mcq-24",
-        "popularity-mcq-19"
+        "popularity-mcq-17",
+        "popularity-mcq-16",
+        "popularity-mcq-13"
       ],
       "explanation": "本句的「Popularity」指「按受歡迎程度排列的名次」。",
       "sentenceIndex": 77,
@@ -1364,12 +1250,10 @@ export default {
         "Popularity"
       ],
       "optionReasons": {
-        "popularity-mcq-22": "本句指「按受歡迎程度排列的名次」。",
-        "popularity-mcq-21": "「某概念／活動逐漸普及、進入大眾的過程」與本句語境不同。",
-        "popularity-mcq-23": "「用來估計受歡迎程度的觀看、like、分享等指標」與本句語境不同。",
-        "popularity-mcq-20": "「令 X 被更多人認識、使用、接受或理解」與本句語境不同。",
-        "popularity-mcq-24": "「傾向優先選擇／推薦本來已經熱門項目的偏誤」與本句語境不同。",
-        "popularity-mcq-19": "「一般大眾通常以某名稱稱呼；俗稱」與本句語境不同。"
+        "popularity-mcq-22": "本句的「Popularity」指「按受歡迎程度排列的名次」。",
+        "popularity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-22"
     },
@@ -1381,11 +1265,9 @@ export default {
       "masked": "Likes and views are often treated as ____.",
       "options": [
         "popularity-mcq-23",
-        "popularity-mcq-22",
-        "popularity-mcq-24",
-        "popularity-mcq-21",
-        "popularity-mcq-25",
-        "popularity-mcq-20"
+        "popularity-mcq-19",
+        "popularity-mcq-09",
+        "popularity-mcq-17"
       ],
       "explanation": "本句的「popularity metrics」指「用來估計受歡迎程度的觀看、like、分享等指標」。",
       "sentenceIndex": 79,
@@ -1394,12 +1276,10 @@ export default {
         "popularity metrics"
       ],
       "optionReasons": {
-        "popularity-mcq-23": "本句指「用來估計受歡迎程度的觀看、like、分享等指標」。",
-        "popularity-mcq-22": "「按受歡迎程度排列的名次」與本句語境不同。",
-        "popularity-mcq-24": "「傾向優先選擇／推薦本來已經熱門項目的偏誤」與本句語境不同。",
-        "popularity-mcq-21": "「某概念／活動逐漸普及、進入大眾的過程」與本句語境不同。",
-        "popularity-mcq-25": "「很多人不喜歡、不支持或不接受的」與本句語境不同。",
-        "popularity-mcq-20": "「令 X 被更多人認識、使用、接受或理解」與本句語境不同。"
+        "popularity-mcq-23": "本句的「popularity metrics」指「用來估計受歡迎程度的觀看、like、分享等指標」。",
+        "popularity-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-23"
     },
@@ -1411,11 +1291,9 @@ export default {
       "masked": "____ metrics do not necessarily measure quality.",
       "options": [
         "popularity-mcq-23",
-        "popularity-mcq-22",
-        "popularity-mcq-24",
-        "popularity-mcq-21",
-        "popularity-mcq-25",
-        "popularity-mcq-20"
+        "popularity-mcq-09",
+        "popularity-mcq-11",
+        "popularity-mcq-17"
       ],
       "explanation": "本句的「Popularity」指「用來估計受歡迎程度的觀看、like、分享等指標」。",
       "sentenceIndex": 80,
@@ -1424,12 +1302,10 @@ export default {
         "Popularity"
       ],
       "optionReasons": {
-        "popularity-mcq-23": "本句指「用來估計受歡迎程度的觀看、like、分享等指標」。",
-        "popularity-mcq-22": "「按受歡迎程度排列的名次」與本句語境不同。",
-        "popularity-mcq-24": "「傾向優先選擇／推薦本來已經熱門項目的偏誤」與本句語境不同。",
-        "popularity-mcq-21": "「某概念／活動逐漸普及、進入大眾的過程」與本句語境不同。",
-        "popularity-mcq-25": "「很多人不喜歡、不支持或不接受的」與本句語境不同。",
-        "popularity-mcq-20": "「令 X 被更多人認識、使用、接受或理解」與本句語境不同。"
+        "popularity-mcq-23": "本句的「Popularity」指「用來估計受歡迎程度的觀看、like、分享等指標」。",
+        "popularity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-23"
     },
@@ -1441,11 +1317,9 @@ export default {
       "masked": "Recommendation systems can show ____.",
       "options": [
         "popularity-mcq-24",
-        "popularity-mcq-23",
-        "popularity-mcq-25",
-        "popularity-mcq-22",
         "popularity-mcq-26",
-        "popularity-mcq-21"
+        "popularity-mcq-19",
+        "popularity-mcq-05"
       ],
       "explanation": "本句的「popularity bias」指「傾向優先選擇／推薦本來已經熱門項目的偏誤」。",
       "sentenceIndex": 83,
@@ -1454,12 +1328,10 @@ export default {
         "popularity bias"
       ],
       "optionReasons": {
-        "popularity-mcq-24": "本句指「傾向優先選擇／推薦本來已經熱門項目的偏誤」。",
-        "popularity-mcq-23": "「用來估計受歡迎程度的觀看、like、分享等指標」與本句語境不同。",
-        "popularity-mcq-25": "「很多人不喜歡、不支持或不接受的」與本句語境不同。",
-        "popularity-mcq-22": "「按受歡迎程度排列的名次」與本句語境不同。",
-        "popularity-mcq-26": "「被大多數人不喜歡／不支持的程度」與本句語境不同。",
-        "popularity-mcq-21": "「某概念／活動逐漸普及、進入大眾的過程」與本句語境不同。"
+        "popularity-mcq-24": "本句的「popularity bias」指「傾向優先選擇／推薦本來已經熱門項目的偏誤」。",
+        "popularity-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-24"
     },
@@ -1471,11 +1343,9 @@ export default {
       "masked": "____ bias can make already popular items even more visible.",
       "options": [
         "popularity-mcq-24",
-        "popularity-mcq-23",
-        "popularity-mcq-25",
-        "popularity-mcq-22",
-        "popularity-mcq-26",
-        "popularity-mcq-21"
+        "popularity-mcq-06",
+        "popularity-mcq-19",
+        "popularity-mcq-10"
       ],
       "explanation": "本句的「Popularity」指「傾向優先選擇／推薦本來已經熱門項目的偏誤」。",
       "sentenceIndex": 84,
@@ -1484,12 +1354,10 @@ export default {
         "Popularity"
       ],
       "optionReasons": {
-        "popularity-mcq-24": "本句指「傾向優先選擇／推薦本來已經熱門項目的偏誤」。",
-        "popularity-mcq-23": "「用來估計受歡迎程度的觀看、like、分享等指標」與本句語境不同。",
-        "popularity-mcq-25": "「很多人不喜歡、不支持或不接受的」與本句語境不同。",
-        "popularity-mcq-22": "「按受歡迎程度排列的名次」與本句語境不同。",
-        "popularity-mcq-26": "「被大多數人不喜歡／不支持的程度」與本句語境不同。",
-        "popularity-mcq-21": "「某概念／活動逐漸普及、進入大眾的過程」與本句語境不同。"
+        "popularity-mcq-24": "本句的「Popularity」指「傾向優先選擇／推薦本來已經熱門項目的偏誤」。",
+        "popularity-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-24"
     },
@@ -1501,11 +1369,9 @@ export default {
       "masked": "The change was ____ with users.",
       "options": [
         "popularity-mcq-25",
+        "popularity-mcq-12",
         "popularity-mcq-24",
-        "popularity-mcq-26",
-        "popularity-mcq-23",
-        "popularity-mcq-22",
-        "popularity-mcq-21"
+        "popularity-mcq-15"
       ],
       "explanation": "本句的「unpopular」指「很多人不喜歡、不支持或不接受的」。",
       "sentenceIndex": 91,
@@ -1514,12 +1380,10 @@ export default {
         "unpopular"
       ],
       "optionReasons": {
-        "popularity-mcq-25": "本句指「很多人不喜歡、不支持或不接受的」。",
-        "popularity-mcq-24": "「傾向優先選擇／推薦本來已經熱門項目的偏誤」與本句語境不同。",
-        "popularity-mcq-26": "「被大多數人不喜歡／不支持的程度」與本句語境不同。",
-        "popularity-mcq-23": "「用來估計受歡迎程度的觀看、like、分享等指標」與本句語境不同。",
-        "popularity-mcq-22": "「按受歡迎程度排列的名次」與本句語境不同。",
-        "popularity-mcq-21": "「某概念／活動逐漸普及、進入大眾的過程」與本句語境不同。"
+        "popularity-mcq-25": "本句的「unpopular」指「很多人不喜歡、不支持或不接受的」。",
+        "popularity-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-25"
     },
@@ -1531,11 +1395,9 @@ export default {
       "masked": "The policy’s ____ became obvious.",
       "options": [
         "popularity-mcq-26",
-        "popularity-mcq-25",
+        "popularity-mcq-15",
         "popularity-mcq-24",
-        "popularity-mcq-23",
-        "popularity-mcq-22",
-        "popularity-mcq-21"
+        "popularity-mcq-18"
       ],
       "explanation": "本句的「unpopularity」指「被大多數人不喜歡／不支持的程度」。",
       "sentenceIndex": 93,
@@ -1544,12 +1406,10 @@ export default {
         "unpopularity"
       ],
       "optionReasons": {
-        "popularity-mcq-26": "本句指「被大多數人不喜歡／不支持的程度」。",
-        "popularity-mcq-25": "「很多人不喜歡、不支持或不接受的」與本句語境不同。",
-        "popularity-mcq-24": "「傾向優先選擇／推薦本來已經熱門項目的偏誤」與本句語境不同。",
-        "popularity-mcq-23": "「用來估計受歡迎程度的觀看、like、分享等指標」與本句語境不同。",
-        "popularity-mcq-22": "「按受歡迎程度排列的名次」與本句語境不同。",
-        "popularity-mcq-21": "「某概念／活動逐漸普及、進入大眾的過程」與本句語境不同。"
+        "popularity-mcq-26": "本句的「unpopularity」指「被大多數人不喜歡／不支持的程度」。",
+        "popularity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "popularity-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "popularity-mcq-26"
     }
@@ -1561,5 +1421,7 @@ export default {
     "sha256": "b80ac907c69d4ae49b431d7330d8c09a78cc0790a1d5ef99c9a968d53b508c57",
     "pages": 52
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -430,11 +430,9 @@ export default {
       "masked": "The shell has a beautiful ____.",
       "options": [
         "spiral-mcq-01",
-        "spiral-mcq-02",
-        "spiral-mcq-03",
-        "spiral-mcq-04",
-        "spiral-mcq-05",
-        "spiral-mcq-06"
+        "spiral-mcq-13",
+        "spiral-mcq-18",
+        "spiral-mcq-17"
       ],
       "explanation": "本句的「spiral」指「螺旋；螺旋形」。",
       "sentenceIndex": 0,
@@ -443,12 +441,10 @@ export default {
         "spiral"
       ],
       "optionReasons": {
-        "spiral-mcq-01": "本句指「螺旋；螺旋形」。",
-        "spiral-mcq-02": "「螺旋形的」與本句語境不同。",
-        "spiral-mcq-03": "「螺旋樓梯」與本句語境不同。",
-        "spiral-mcq-04": "「螺旋裝訂的」與本句語境不同。",
-        "spiral-mcq-05": "「盤旋；螺旋移動」與本句語境不同。",
-        "spiral-mcq-06": "「盤旋上升」與本句語境不同。"
+        "spiral-mcq-01": "本句的「spiral」指「螺旋；螺旋形」。",
+        "spiral-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-01"
     },
@@ -460,11 +456,9 @@ export default {
       "masked": "Draw a ____ from the centre of the page.",
       "options": [
         "spiral-mcq-01",
-        "spiral-mcq-02",
-        "spiral-mcq-03",
-        "spiral-mcq-04",
-        "spiral-mcq-05",
-        "spiral-mcq-06"
+        "spiral-mcq-18",
+        "spiral-mcq-12",
+        "spiral-mcq-17"
       ],
       "explanation": "本句的「spiral」指「螺旋；螺旋形」。",
       "sentenceIndex": 1,
@@ -473,12 +467,10 @@ export default {
         "spiral"
       ],
       "optionReasons": {
-        "spiral-mcq-01": "本句指「螺旋；螺旋形」。",
-        "spiral-mcq-02": "「螺旋形的」與本句語境不同。",
-        "spiral-mcq-03": "「螺旋樓梯」與本句語境不同。",
-        "spiral-mcq-04": "「螺旋裝訂的」與本句語境不同。",
-        "spiral-mcq-05": "「盤旋；螺旋移動」與本句語境不同。",
-        "spiral-mcq-06": "「盤旋上升」與本句語境不同。"
+        "spiral-mcq-01": "本句的「spiral」指「螺旋；螺旋形」。",
+        "spiral-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-01"
     },
@@ -490,11 +482,9 @@ export default {
       "masked": "The pattern forms a ____.",
       "options": [
         "spiral-mcq-01",
-        "spiral-mcq-02",
-        "spiral-mcq-03",
-        "spiral-mcq-04",
-        "spiral-mcq-05",
-        "spiral-mcq-06"
+        "spiral-mcq-10",
+        "spiral-mcq-11",
+        "spiral-mcq-09"
       ],
       "explanation": "本句的「spiral」指「螺旋；螺旋形」。",
       "sentenceIndex": 2,
@@ -503,12 +493,10 @@ export default {
         "spiral"
       ],
       "optionReasons": {
-        "spiral-mcq-01": "本句指「螺旋；螺旋形」。",
-        "spiral-mcq-02": "「螺旋形的」與本句語境不同。",
-        "spiral-mcq-03": "「螺旋樓梯」與本句語境不同。",
-        "spiral-mcq-04": "「螺旋裝訂的」與本句語境不同。",
-        "spiral-mcq-05": "「盤旋；螺旋移動」與本句語境不同。",
-        "spiral-mcq-06": "「盤旋上升」與本句語境不同。"
+        "spiral-mcq-01": "本句的「spiral」指「螺旋；螺旋形」。",
+        "spiral-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-01"
     },
@@ -520,11 +508,9 @@ export default {
       "masked": "The staircase is ____.",
       "options": [
         "spiral-mcq-02",
-        "spiral-mcq-01",
-        "spiral-mcq-03",
-        "spiral-mcq-04",
-        "spiral-mcq-05",
-        "spiral-mcq-06"
+        "spiral-mcq-11",
+        "spiral-mcq-13",
+        "spiral-mcq-08"
       ],
       "explanation": "本句的「spiral-shaped」指「螺旋形的」。",
       "sentenceIndex": 3,
@@ -533,12 +519,10 @@ export default {
         "spiral-shaped"
       ],
       "optionReasons": {
-        "spiral-mcq-02": "本句指「螺旋形的」。",
-        "spiral-mcq-01": "「螺旋；螺旋形」與本句語境不同。",
-        "spiral-mcq-03": "「螺旋樓梯」與本句語境不同。",
-        "spiral-mcq-04": "「螺旋裝訂的」與本句語境不同。",
-        "spiral-mcq-05": "「盤旋；螺旋移動」與本句語境不同。",
-        "spiral-mcq-06": "「盤旋上升」與本句語境不同。"
+        "spiral-mcq-02": "本句的「spiral-shaped」指「螺旋形的」。",
+        "spiral-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-02"
     },
@@ -550,11 +534,9 @@ export default {
       "masked": "The plant has ____.",
       "options": [
         "spiral-mcq-02",
-        "spiral-mcq-01",
-        "spiral-mcq-03",
-        "spiral-mcq-04",
-        "spiral-mcq-05",
-        "spiral-mcq-06"
+        "spiral-mcq-16",
+        "spiral-mcq-14",
+        "spiral-mcq-08"
       ],
       "explanation": "本句的「spiral-shaped leaves」指「螺旋形的」。",
       "sentenceIndex": 4,
@@ -563,12 +545,10 @@ export default {
         "spiral-shaped leaves"
       ],
       "optionReasons": {
-        "spiral-mcq-02": "本句指「螺旋形的」。",
-        "spiral-mcq-01": "「螺旋；螺旋形」與本句語境不同。",
-        "spiral-mcq-03": "「螺旋樓梯」與本句語境不同。",
-        "spiral-mcq-04": "「螺旋裝訂的」與本句語境不同。",
-        "spiral-mcq-05": "「盤旋；螺旋移動」與本句語境不同。",
-        "spiral-mcq-06": "「盤旋上升」與本句語境不同。"
+        "spiral-mcq-02": "本句的「spiral-shaped leaves」指「螺旋形的」。",
+        "spiral-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-02"
     },
@@ -580,11 +560,9 @@ export default {
       "masked": "We climbed the narrow ____.",
       "options": [
         "spiral-mcq-03",
-        "spiral-mcq-02",
-        "spiral-mcq-04",
-        "spiral-mcq-01",
-        "spiral-mcq-05",
-        "spiral-mcq-06"
+        "spiral-mcq-10",
+        "spiral-mcq-18",
+        "spiral-mcq-12"
       ],
       "explanation": "本句的「spiral staircase」指「螺旋樓梯」。",
       "sentenceIndex": 5,
@@ -593,12 +571,10 @@ export default {
         "spiral staircase"
       ],
       "optionReasons": {
-        "spiral-mcq-03": "本句指「螺旋樓梯」。",
-        "spiral-mcq-02": "「螺旋形的」與本句語境不同。",
-        "spiral-mcq-04": "「螺旋裝訂的」與本句語境不同。",
-        "spiral-mcq-01": "「螺旋；螺旋形」與本句語境不同。",
-        "spiral-mcq-05": "「盤旋；螺旋移動」與本句語境不同。",
-        "spiral-mcq-06": "「盤旋上升」與本句語境不同。"
+        "spiral-mcq-03": "本句的「spiral staircase」指「螺旋樓梯」。",
+        "spiral-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-03"
     },
@@ -610,11 +586,9 @@ export default {
       "masked": "A ____ connects the two floors.",
       "options": [
         "spiral-mcq-03",
-        "spiral-mcq-02",
-        "spiral-mcq-04",
-        "spiral-mcq-01",
-        "spiral-mcq-05",
-        "spiral-mcq-06"
+        "spiral-mcq-13",
+        "spiral-mcq-10",
+        "spiral-mcq-11"
       ],
       "explanation": "本句的「spiral staircase」指「螺旋樓梯」。",
       "sentenceIndex": 6,
@@ -623,12 +597,10 @@ export default {
         "spiral staircase"
       ],
       "optionReasons": {
-        "spiral-mcq-03": "本句指「螺旋樓梯」。",
-        "spiral-mcq-02": "「螺旋形的」與本句語境不同。",
-        "spiral-mcq-04": "「螺旋裝訂的」與本句語境不同。",
-        "spiral-mcq-01": "「螺旋；螺旋形」與本句語境不同。",
-        "spiral-mcq-05": "「盤旋；螺旋移動」與本句語境不同。",
-        "spiral-mcq-06": "「盤旋上升」與本句語境不同。"
+        "spiral-mcq-03": "本句的「spiral staircase」指「螺旋樓梯」。",
+        "spiral-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-03"
     },
@@ -640,11 +612,9 @@ export default {
       "masked": "I bought a ____ for my notes.",
       "options": [
         "spiral-mcq-04",
-        "spiral-mcq-03",
-        "spiral-mcq-05",
-        "spiral-mcq-02",
-        "spiral-mcq-06",
-        "spiral-mcq-01"
+        "spiral-mcq-12",
+        "spiral-mcq-14",
+        "spiral-mcq-15"
       ],
       "explanation": "本句的「spiral notebook」指「螺旋裝訂的」。",
       "sentenceIndex": 7,
@@ -653,12 +623,10 @@ export default {
         "spiral notebook"
       ],
       "optionReasons": {
-        "spiral-mcq-04": "本句指「螺旋裝訂的」。",
-        "spiral-mcq-03": "「螺旋樓梯」與本句語境不同。",
-        "spiral-mcq-05": "「盤旋；螺旋移動」與本句語境不同。",
-        "spiral-mcq-02": "「螺旋形的」與本句語境不同。",
-        "spiral-mcq-06": "「盤旋上升」與本句語境不同。",
-        "spiral-mcq-01": "「螺旋；螺旋形」與本句語境不同。"
+        "spiral-mcq-04": "本句的「spiral notebook」指「螺旋裝訂的」。",
+        "spiral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-04"
     },
@@ -670,11 +638,9 @@ export default {
       "masked": "The pages are held together by a ____.",
       "options": [
         "spiral-mcq-04",
-        "spiral-mcq-03",
-        "spiral-mcq-05",
-        "spiral-mcq-02",
-        "spiral-mcq-06",
-        "spiral-mcq-01"
+        "spiral-mcq-11",
+        "spiral-mcq-08",
+        "spiral-mcq-15"
       ],
       "explanation": "本句的「spiral binding」指「螺旋裝訂的」。",
       "sentenceIndex": 8,
@@ -683,12 +649,10 @@ export default {
         "spiral binding"
       ],
       "optionReasons": {
-        "spiral-mcq-04": "本句指「螺旋裝訂的」。",
-        "spiral-mcq-03": "「螺旋樓梯」與本句語境不同。",
-        "spiral-mcq-05": "「盤旋；螺旋移動」與本句語境不同。",
-        "spiral-mcq-02": "「螺旋形的」與本句語境不同。",
-        "spiral-mcq-06": "「盤旋上升」與本句語境不同。",
-        "spiral-mcq-01": "「螺旋；螺旋形」與本句語境不同。"
+        "spiral-mcq-04": "本句的「spiral binding」指「螺旋裝訂的」。",
+        "spiral-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-04"
     },
@@ -700,11 +664,9 @@ export default {
       "masked": "Smoke ____ into the sky.",
       "options": [
         "spiral-mcq-05",
-        "spiral-mcq-04",
-        "spiral-mcq-06",
-        "spiral-mcq-03",
-        "spiral-mcq-07",
-        "spiral-mcq-02"
+        "spiral-mcq-09",
+        "spiral-mcq-14",
+        "spiral-mcq-13"
       ],
       "explanation": "本句的「spiralled upward」指「盤旋；螺旋移動」。",
       "sentenceIndex": 9,
@@ -713,12 +675,10 @@ export default {
         "spiralled upward"
       ],
       "optionReasons": {
-        "spiral-mcq-05": "本句指「盤旋；螺旋移動」。",
-        "spiral-mcq-04": "「螺旋裝訂的」與本句語境不同。",
-        "spiral-mcq-06": "「盤旋上升」與本句語境不同。",
-        "spiral-mcq-03": "「螺旋樓梯」與本句語境不同。",
-        "spiral-mcq-07": "「盤旋下降」與本句語境不同。",
-        "spiral-mcq-02": "「螺旋形的」與本句語境不同。"
+        "spiral-mcq-05": "本句的「spiralled upward」指「盤旋；螺旋移動」。",
+        "spiral-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-05"
     },
@@ -730,11 +690,9 @@ export default {
       "masked": "The bird ____ towards the ground.",
       "options": [
         "spiral-mcq-05",
-        "spiral-mcq-04",
-        "spiral-mcq-06",
-        "spiral-mcq-03",
-        "spiral-mcq-07",
-        "spiral-mcq-02"
+        "spiral-mcq-17",
+        "spiral-mcq-09",
+        "spiral-mcq-08"
       ],
       "explanation": "本句的「spiralled down」指「盤旋；螺旋移動」。",
       "sentenceIndex": 10,
@@ -743,12 +701,10 @@ export default {
         "spiralled down"
       ],
       "optionReasons": {
-        "spiral-mcq-05": "本句指「盤旋；螺旋移動」。",
-        "spiral-mcq-04": "「螺旋裝訂的」與本句語境不同。",
-        "spiral-mcq-06": "「盤旋上升」與本句語境不同。",
-        "spiral-mcq-03": "「螺旋樓梯」與本句語境不同。",
-        "spiral-mcq-07": "「盤旋下降」與本句語境不同。",
-        "spiral-mcq-02": "「螺旋形的」與本句語境不同。"
+        "spiral-mcq-05": "本句的「spiralled down」指「盤旋；螺旋移動」。",
+        "spiral-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-05"
     },
@@ -760,11 +716,9 @@ export default {
       "masked": "Leaves ____ from the tree.",
       "options": [
         "spiral-mcq-06",
-        "spiral-mcq-05",
-        "spiral-mcq-07",
-        "spiral-mcq-04",
-        "spiral-mcq-08",
-        "spiral-mcq-03"
+        "spiral-mcq-17",
+        "spiral-mcq-14",
+        "spiral-mcq-13"
       ],
       "explanation": "本句的「spiralled downwards」指「盤旋上升」。",
       "sentenceIndex": 11,
@@ -773,12 +727,10 @@ export default {
         "spiralled downwards"
       ],
       "optionReasons": {
-        "spiral-mcq-06": "本句指「盤旋上升」。",
-        "spiral-mcq-05": "「盤旋；螺旋移動」與本句語境不同。",
-        "spiral-mcq-07": "「盤旋下降」與本句語境不同。",
-        "spiral-mcq-04": "「螺旋裝訂的」與本句語境不同。",
-        "spiral-mcq-08": "「價格急升」與本句語境不同。",
-        "spiral-mcq-03": "「螺旋樓梯」與本句語境不同。"
+        "spiral-mcq-06": "本句的「spiralled downwards」指「盤旋上升」。",
+        "spiral-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-06"
     },
@@ -790,11 +742,9 @@ export default {
       "masked": "The aircraft ____.",
       "options": [
         "spiral-mcq-06",
-        "spiral-mcq-05",
-        "spiral-mcq-07",
-        "spiral-mcq-04",
-        "spiral-mcq-08",
-        "spiral-mcq-03"
+        "spiral-mcq-17",
+        "spiral-mcq-18",
+        "spiral-mcq-13"
       ],
       "explanation": "本句的「spiralled upwards」指「盤旋上升」。",
       "sentenceIndex": 12,
@@ -803,12 +753,10 @@ export default {
         "spiralled upwards"
       ],
       "optionReasons": {
-        "spiral-mcq-06": "本句指「盤旋上升」。",
-        "spiral-mcq-05": "「盤旋；螺旋移動」與本句語境不同。",
-        "spiral-mcq-07": "「盤旋下降」與本句語境不同。",
-        "spiral-mcq-04": "「螺旋裝訂的」與本句語境不同。",
-        "spiral-mcq-08": "「價格急升」與本句語境不同。",
-        "spiral-mcq-03": "「螺旋樓梯」與本句語境不同。"
+        "spiral-mcq-06": "本句的「spiralled upwards」指「盤旋上升」。",
+        "spiral-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-06"
     },
@@ -820,11 +768,9 @@ export default {
       "masked": "Costs began to ____.",
       "options": [
         "spiral-mcq-08",
-        "spiral-mcq-07",
-        "spiral-mcq-09",
-        "spiral-mcq-06",
-        "spiral-mcq-10",
-        "spiral-mcq-05"
+        "spiral-mcq-15",
+        "spiral-mcq-05",
+        "spiral-mcq-14"
       ],
       "explanation": "本句的「spiral」指「價格急升」。",
       "sentenceIndex": 13,
@@ -833,12 +779,10 @@ export default {
         "spiral"
       ],
       "optionReasons": {
-        "spiral-mcq-08": "本句指「價格急升」。",
-        "spiral-mcq-07": "「盤旋下降」與本句語境不同。",
-        "spiral-mcq-09": "「不斷飆升的成本」與本句語境不同。",
-        "spiral-mcq-06": "「盤旋上升」與本句語境不同。",
-        "spiral-mcq-10": "「急劇下降」與本句語境不同。",
-        "spiral-mcq-05": "「盤旋；螺旋移動」與本句語境不同。"
+        "spiral-mcq-08": "本句的「spiral」指「價格急升」。",
+        "spiral-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-08"
     },
@@ -850,11 +794,9 @@ export default {
       "masked": "House prices ____.",
       "options": [
         "spiral-mcq-08",
-        "spiral-mcq-07",
-        "spiral-mcq-09",
-        "spiral-mcq-06",
-        "spiral-mcq-10",
-        "spiral-mcq-05"
+        "spiral-mcq-04",
+        "spiral-mcq-13",
+        "spiral-mcq-11"
       ],
       "explanation": "本句的「spiralled upwards」指「價格急升」。",
       "sentenceIndex": 14,
@@ -863,12 +805,10 @@ export default {
         "spiralled upwards"
       ],
       "optionReasons": {
-        "spiral-mcq-08": "本句指「價格急升」。",
-        "spiral-mcq-07": "「盤旋下降」與本句語境不同。",
-        "spiral-mcq-09": "「不斷飆升的成本」與本句語境不同。",
-        "spiral-mcq-06": "「盤旋上升」與本句語境不同。",
-        "spiral-mcq-10": "「急劇下降」與本句語境不同。",
-        "spiral-mcq-05": "「盤旋；螺旋移動」與本句語境不同。"
+        "spiral-mcq-08": "本句的「spiralled upwards」指「價格急升」。",
+        "spiral-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-08"
     },
@@ -880,11 +820,9 @@ export default {
       "masked": "The company struggled with ____.",
       "options": [
         "spiral-mcq-09",
-        "spiral-mcq-08",
-        "spiral-mcq-10",
-        "spiral-mcq-07",
-        "spiral-mcq-11",
-        "spiral-mcq-06"
+        "spiral-mcq-12",
+        "spiral-mcq-02",
+        "spiral-mcq-10"
       ],
       "explanation": "本句的「spiralling costs」指「不斷飆升的成本」。",
       "sentenceIndex": 15,
@@ -893,12 +831,10 @@ export default {
         "spiralling costs"
       ],
       "optionReasons": {
-        "spiral-mcq-09": "本句指「不斷飆升的成本」。",
-        "spiral-mcq-08": "「價格急升」與本句語境不同。",
-        "spiral-mcq-10": "「急劇下降」與本句語境不同。",
-        "spiral-mcq-07": "「盤旋下降」與本句語境不同。",
-        "spiral-mcq-11": "「惡化至失控」與本句語境不同。",
-        "spiral-mcq-06": "「盤旋上升」與本句語境不同。"
+        "spiral-mcq-09": "本句的「spiralling costs」指「不斷飆升的成本」。",
+        "spiral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-09"
     },
@@ -910,11 +846,9 @@ export default {
       "masked": "Families are worried about ____.",
       "options": [
         "spiral-mcq-09",
-        "spiral-mcq-08",
-        "spiral-mcq-10",
-        "spiral-mcq-07",
+        "spiral-mcq-15",
         "spiral-mcq-11",
-        "spiral-mcq-06"
+        "spiral-mcq-03"
       ],
       "explanation": "本句的「spiralling prices」指「不斷飆升的成本」。",
       "sentenceIndex": 16,
@@ -923,12 +857,10 @@ export default {
         "spiralling prices"
       ],
       "optionReasons": {
-        "spiral-mcq-09": "本句指「不斷飆升的成本」。",
-        "spiral-mcq-08": "「價格急升」與本句語境不同。",
-        "spiral-mcq-10": "「急劇下降」與本句語境不同。",
-        "spiral-mcq-07": "「盤旋下降」與本句語境不同。",
-        "spiral-mcq-11": "「惡化至失控」與本句語境不同。",
-        "spiral-mcq-06": "「盤旋上升」與本句語境不同。"
+        "spiral-mcq-09": "本句的「spiralling prices」指「不斷飆升的成本」。",
+        "spiral-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-09"
     },
@@ -940,11 +872,9 @@ export default {
       "masked": "Sales began to ____.",
       "options": [
         "spiral-mcq-10",
-        "spiral-mcq-09",
-        "spiral-mcq-11",
-        "spiral-mcq-08",
-        "spiral-mcq-12",
-        "spiral-mcq-07"
+        "spiral-mcq-14",
+        "spiral-mcq-03",
+        "spiral-mcq-18"
       ],
       "explanation": "本句的「spiral downward」指「急劇下降」。",
       "sentenceIndex": 17,
@@ -953,12 +883,10 @@ export default {
         "spiral downward"
       ],
       "optionReasons": {
-        "spiral-mcq-10": "本句指「急劇下降」。",
-        "spiral-mcq-09": "「不斷飆升的成本」與本句語境不同。",
-        "spiral-mcq-11": "「惡化至失控」與本句語境不同。",
-        "spiral-mcq-08": "「價格急升」與本句語境不同。",
-        "spiral-mcq-12": "「逐步陷入混亂」與本句語境不同。",
-        "spiral-mcq-07": "「盤旋下降」與本句語境不同。"
+        "spiral-mcq-10": "本句的「spiral downward」指「急劇下降」。",
+        "spiral-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-10"
     },
@@ -970,11 +898,9 @@ export default {
       "masked": "His confidence ____ after repeated failures.",
       "options": [
         "spiral-mcq-10",
-        "spiral-mcq-09",
-        "spiral-mcq-11",
-        "spiral-mcq-08",
         "spiral-mcq-12",
-        "spiral-mcq-07"
+        "spiral-mcq-05",
+        "spiral-mcq-18"
       ],
       "explanation": "本句的「spiralled downward」指「急劇下降」。",
       "sentenceIndex": 18,
@@ -983,12 +909,10 @@ export default {
         "spiralled downward"
       ],
       "optionReasons": {
-        "spiral-mcq-10": "本句指「急劇下降」。",
-        "spiral-mcq-09": "「不斷飆升的成本」與本句語境不同。",
-        "spiral-mcq-11": "「惡化至失控」與本句語境不同。",
-        "spiral-mcq-08": "「價格急升」與本句語境不同。",
-        "spiral-mcq-12": "「逐步陷入混亂」與本句語境不同。",
-        "spiral-mcq-07": "「盤旋下降」與本句語境不同。"
+        "spiral-mcq-10": "本句的「spiralled downward」指「急劇下降」。",
+        "spiral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-10"
     },
@@ -1000,11 +924,9 @@ export default {
       "masked": "I know how to get back on track before everything ____.",
       "options": [
         "spiral-mcq-11",
-        "spiral-mcq-10",
-        "spiral-mcq-12",
         "spiral-mcq-09",
-        "spiral-mcq-13",
-        "spiral-mcq-08"
+        "spiral-mcq-12",
+        "spiral-mcq-01"
       ],
       "explanation": "本句的「spirals out of control」指「惡化至失控」。",
       "sentenceIndex": 19,
@@ -1013,12 +935,10 @@ export default {
         "spirals out of control"
       ],
       "optionReasons": {
-        "spiral-mcq-11": "本句指「惡化至失控」。",
-        "spiral-mcq-10": "「急劇下降」與本句語境不同。",
-        "spiral-mcq-12": "「逐步陷入混亂」與本句語境不同。",
-        "spiral-mcq-09": "「不斷飆升的成本」與本句語境不同。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。",
-        "spiral-mcq-08": "「價格急升」與本句語境不同。"
+        "spiral-mcq-11": "本句的「spirals out of control」指「惡化至失控」。",
+        "spiral-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-11"
     },
@@ -1030,11 +950,9 @@ export default {
       "masked": "A small disagreement can ____ if nobody deals with it.",
       "options": [
         "spiral-mcq-11",
-        "spiral-mcq-10",
+        "spiral-mcq-03",
         "spiral-mcq-12",
-        "spiral-mcq-09",
-        "spiral-mcq-13",
-        "spiral-mcq-08"
+        "spiral-mcq-14"
       ],
       "explanation": "本句的「spiral out of control」指「惡化至失控」。",
       "sentenceIndex": 20,
@@ -1043,12 +961,10 @@ export default {
         "spiral out of control"
       ],
       "optionReasons": {
-        "spiral-mcq-11": "本句指「惡化至失控」。",
-        "spiral-mcq-10": "「急劇下降」與本句語境不同。",
-        "spiral-mcq-12": "「逐步陷入混亂」與本句語境不同。",
-        "spiral-mcq-09": "「不斷飆升的成本」與本句語境不同。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。",
-        "spiral-mcq-08": "「價格急升」與本句語境不同。"
+        "spiral-mcq-11": "本句的「spiral out of control」指「惡化至失控」。",
+        "spiral-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-11"
     },
@@ -1060,11 +976,9 @@ export default {
       "masked": "My workload ____ during exam week.",
       "options": [
         "spiral-mcq-11",
-        "spiral-mcq-10",
-        "spiral-mcq-12",
-        "spiral-mcq-09",
         "spiral-mcq-13",
-        "spiral-mcq-08"
+        "spiral-mcq-05",
+        "spiral-mcq-14"
       ],
       "explanation": "本句的「spiralled out of control」指「惡化至失控」。",
       "sentenceIndex": 21,
@@ -1073,12 +987,10 @@ export default {
         "spiralled out of control"
       ],
       "optionReasons": {
-        "spiral-mcq-11": "本句指「惡化至失控」。",
-        "spiral-mcq-10": "「急劇下降」與本句語境不同。",
-        "spiral-mcq-12": "「逐步陷入混亂」與本句語境不同。",
-        "spiral-mcq-09": "「不斷飆升的成本」與本句語境不同。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。",
-        "spiral-mcq-08": "「價格急升」與本句語境不同。"
+        "spiral-mcq-11": "本句的「spiralled out of control」指「惡化至失控」。",
+        "spiral-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-11"
     },
@@ -1090,10 +1002,8 @@ export default {
       "masked": "The argument ____.",
       "options": [
         "spiral-mcq-12",
-        "spiral-mcq-11",
-        "spiral-mcq-13",
-        "spiral-mcq-10",
-        "spiral-mcq-14",
+        "spiral-mcq-01",
+        "spiral-mcq-16",
         "spiral-mcq-09"
       ],
       "explanation": "本句的「spiralled into chaos」指「逐步陷入混亂」。",
@@ -1103,12 +1013,10 @@ export default {
         "spiralled into chaos"
       ],
       "optionReasons": {
-        "spiral-mcq-12": "本句指「逐步陷入混亂」。",
-        "spiral-mcq-11": "「惡化至失控」與本句語境不同。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。",
-        "spiral-mcq-10": "「急劇下降」與本句語境不同。",
-        "spiral-mcq-14": "「演變成危機」與本句語境不同。",
-        "spiral-mcq-09": "「不斷飆升的成本」與本句語境不同。"
+        "spiral-mcq-12": "本句的「spiralled into chaos」指「逐步陷入混亂」。",
+        "spiral-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-12"
     },
@@ -1120,10 +1028,8 @@ export default {
       "masked": "The company ____.",
       "options": [
         "spiral-mcq-12",
-        "spiral-mcq-11",
-        "spiral-mcq-13",
-        "spiral-mcq-10",
-        "spiral-mcq-14",
+        "spiral-mcq-16",
+        "spiral-mcq-08",
         "spiral-mcq-09"
       ],
       "explanation": "本句的「spiralled into debt」指「逐步陷入混亂」。",
@@ -1133,12 +1039,10 @@ export default {
         "spiralled into debt"
       ],
       "optionReasons": {
-        "spiral-mcq-12": "本句指「逐步陷入混亂」。",
-        "spiral-mcq-11": "「惡化至失控」與本句語境不同。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。",
-        "spiral-mcq-10": "「急劇下降」與本句語境不同。",
-        "spiral-mcq-14": "「演變成危機」與本句語境不同。",
-        "spiral-mcq-09": "「不斷飆升的成本」與本句語境不同。"
+        "spiral-mcq-12": "本句的「spiralled into debt」指「逐步陷入混亂」。",
+        "spiral-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-12"
     },
@@ -1150,11 +1054,9 @@ export default {
       "masked": "Without clear leadership, the meeting ____.",
       "options": [
         "spiral-mcq-12",
-        "spiral-mcq-11",
-        "spiral-mcq-13",
-        "spiral-mcq-10",
         "spiral-mcq-14",
-        "spiral-mcq-09"
+        "spiral-mcq-08",
+        "spiral-mcq-02"
       ],
       "explanation": "本句的「spiralled into chaos」指「逐步陷入混亂」。",
       "sentenceIndex": 24,
@@ -1163,12 +1065,10 @@ export default {
         "spiralled into chaos"
       ],
       "optionReasons": {
-        "spiral-mcq-12": "本句指「逐步陷入混亂」。",
-        "spiral-mcq-11": "「惡化至失控」與本句語境不同。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。",
-        "spiral-mcq-10": "「急劇下降」與本句語境不同。",
-        "spiral-mcq-14": "「演變成危機」與本句語境不同。",
-        "spiral-mcq-09": "「不斷飆升的成本」與本句語境不同。"
+        "spiral-mcq-12": "本句的「spiralled into chaos」指「逐步陷入混亂」。",
+        "spiral-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-12"
     },
@@ -1180,11 +1080,9 @@ export default {
       "masked": "The schedule ____ after several delays.",
       "options": [
         "spiral-mcq-12",
-        "spiral-mcq-11",
-        "spiral-mcq-13",
-        "spiral-mcq-10",
-        "spiral-mcq-14",
-        "spiral-mcq-09"
+        "spiral-mcq-16",
+        "spiral-mcq-09",
+        "spiral-mcq-11"
       ],
       "explanation": "本句的「spiralled into chaos」指「逐步陷入混亂」。",
       "sentenceIndex": 25,
@@ -1193,12 +1091,10 @@ export default {
         "spiralled into chaos"
       ],
       "optionReasons": {
-        "spiral-mcq-12": "本句指「逐步陷入混亂」。",
-        "spiral-mcq-11": "「惡化至失控」與本句語境不同。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。",
-        "spiral-mcq-10": "「急劇下降」與本句語境不同。",
-        "spiral-mcq-14": "「演變成危機」與本句語境不同。",
-        "spiral-mcq-09": "「不斷飆升的成本」與本句語境不同。"
+        "spiral-mcq-12": "本句的「spiralled into chaos」指「逐步陷入混亂」。",
+        "spiral-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-12"
     },
@@ -1210,11 +1106,9 @@ export default {
       "masked": "Unexpected expenses caused him to ____.",
       "options": [
         "spiral-mcq-13",
-        "spiral-mcq-12",
-        "spiral-mcq-14",
-        "spiral-mcq-11",
-        "spiral-mcq-15",
-        "spiral-mcq-10"
+        "spiral-mcq-16",
+        "spiral-mcq-05",
+        "spiral-mcq-08"
       ],
       "explanation": "本句的「spiral into debt」指「陷入債務」。",
       "sentenceIndex": 26,
@@ -1223,12 +1117,10 @@ export default {
         "spiral into debt"
       ],
       "optionReasons": {
-        "spiral-mcq-13": "本句指「陷入債務」。",
-        "spiral-mcq-12": "「逐步陷入混亂」與本句語境不同。",
-        "spiral-mcq-14": "「演變成危機」與本句語境不同。",
-        "spiral-mcq-11": "「惡化至失控」與本句語境不同。",
-        "spiral-mcq-15": "「惡性循環」與本句語境不同。",
-        "spiral-mcq-10": "「急劇下降」與本句語境不同。"
+        "spiral-mcq-13": "本句的「spiral into debt」指「陷入債務」。",
+        "spiral-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-13"
     },
@@ -1240,11 +1132,9 @@ export default {
       "masked": "Poor financial decisions can make debt ____.",
       "options": [
         "spiral-mcq-13",
-        "spiral-mcq-12",
-        "spiral-mcq-14",
-        "spiral-mcq-11",
-        "spiral-mcq-15",
-        "spiral-mcq-10"
+        "spiral-mcq-10",
+        "spiral-mcq-04",
+        "spiral-mcq-17"
       ],
       "explanation": "本句的「spiral」指「陷入債務」。",
       "sentenceIndex": 27,
@@ -1253,12 +1143,10 @@ export default {
         "spiral"
       ],
       "optionReasons": {
-        "spiral-mcq-13": "本句指「陷入債務」。",
-        "spiral-mcq-12": "「逐步陷入混亂」與本句語境不同。",
-        "spiral-mcq-14": "「演變成危機」與本句語境不同。",
-        "spiral-mcq-11": "「惡化至失控」與本句語境不同。",
-        "spiral-mcq-15": "「惡性循環」與本句語境不同。",
-        "spiral-mcq-10": "「急劇下降」與本句語境不同。"
+        "spiral-mcq-13": "本句的「spiral」指「陷入債務」。",
+        "spiral-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-13"
     },
@@ -1270,11 +1158,9 @@ export default {
       "masked": "The situation quickly ____.",
       "options": [
         "spiral-mcq-14",
-        "spiral-mcq-13",
-        "spiral-mcq-15",
-        "spiral-mcq-12",
-        "spiral-mcq-16",
-        "spiral-mcq-11"
+        "spiral-mcq-11",
+        "spiral-mcq-10",
+        "spiral-mcq-01"
       ],
       "explanation": "本句的「spiralled into crisis」指「演變成危機」。",
       "sentenceIndex": 28,
@@ -1283,12 +1169,10 @@ export default {
         "spiralled into crisis"
       ],
       "optionReasons": {
-        "spiral-mcq-14": "本句指「演變成危機」。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。",
-        "spiral-mcq-15": "「惡性循環」與本句語境不同。",
-        "spiral-mcq-12": "「逐步陷入混亂」與本句語境不同。",
-        "spiral-mcq-16": "「良性上升循環」與本句語境不同。",
-        "spiral-mcq-11": "「惡化至失控」與本句語境不同。"
+        "spiral-mcq-14": "本句的「spiralled into crisis」指「演變成危機」。",
+        "spiral-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-14"
     },
@@ -1300,11 +1184,9 @@ export default {
       "masked": "Poor planning allowed a minor issue to ____.",
       "options": [
         "spiral-mcq-14",
+        "spiral-mcq-11",
         "spiral-mcq-13",
-        "spiral-mcq-15",
-        "spiral-mcq-12",
-        "spiral-mcq-16",
-        "spiral-mcq-11"
+        "spiral-mcq-01"
       ],
       "explanation": "本句的「spiral into a crisis」指「演變成危機」。",
       "sentenceIndex": 29,
@@ -1313,12 +1195,10 @@ export default {
         "spiral into a crisis"
       ],
       "optionReasons": {
-        "spiral-mcq-14": "本句指「演變成危機」。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。",
-        "spiral-mcq-15": "「惡性循環」與本句語境不同。",
-        "spiral-mcq-12": "「逐步陷入混亂」與本句語境不同。",
-        "spiral-mcq-16": "「良性上升循環」與本句語境不同。",
-        "spiral-mcq-11": "「惡化至失控」與本句語境不同。"
+        "spiral-mcq-14": "本句的「spiral into a crisis」指「演變成危機」。",
+        "spiral-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-14"
     },
@@ -1330,11 +1210,9 @@ export default {
       "masked": "Stress and procrastination can create a ____.",
       "options": [
         "spiral-mcq-15",
-        "spiral-mcq-14",
-        "spiral-mcq-16",
+        "spiral-mcq-03",
         "spiral-mcq-13",
-        "spiral-mcq-17",
-        "spiral-mcq-12"
+        "spiral-mcq-17"
       ],
       "explanation": "本句的「downward spiral」指「惡性循環」。",
       "sentenceIndex": 30,
@@ -1343,12 +1221,10 @@ export default {
         "downward spiral"
       ],
       "optionReasons": {
-        "spiral-mcq-15": "本句指「惡性循環」。",
-        "spiral-mcq-14": "「演變成危機」與本句語境不同。",
-        "spiral-mcq-16": "「良性上升循環」與本句語境不同。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。",
-        "spiral-mcq-17": "「情緒逐漸失控」與本句語境不同。",
-        "spiral-mcq-12": "「逐步陷入混亂」與本句語境不同。"
+        "spiral-mcq-15": "本句的「downward spiral」指「惡性循環」。",
+        "spiral-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-15"
     },
@@ -1360,11 +1236,9 @@ export default {
       "masked": "The company entered a ____ of falling sales and rising debt.",
       "options": [
         "spiral-mcq-15",
-        "spiral-mcq-14",
-        "spiral-mcq-16",
-        "spiral-mcq-13",
-        "spiral-mcq-17",
-        "spiral-mcq-12"
+        "spiral-mcq-03",
+        "spiral-mcq-10",
+        "spiral-mcq-14"
       ],
       "explanation": "本句的「downward spiral」指「惡性循環」。",
       "sentenceIndex": 31,
@@ -1373,12 +1247,10 @@ export default {
         "downward spiral"
       ],
       "optionReasons": {
-        "spiral-mcq-15": "本句指「惡性循環」。",
-        "spiral-mcq-14": "「演變成危機」與本句語境不同。",
-        "spiral-mcq-16": "「良性上升循環」與本句語境不同。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。",
-        "spiral-mcq-17": "「情緒逐漸失控」與本句語境不同。",
-        "spiral-mcq-12": "「逐步陷入混亂」與本句語境不同。"
+        "spiral-mcq-15": "本句的「downward spiral」指「惡性循環」。",
+        "spiral-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-15"
     },
@@ -1390,11 +1262,9 @@ export default {
       "masked": "He became ____ of stress and poor sleep.",
       "options": [
         "spiral-mcq-15",
-        "spiral-mcq-14",
-        "spiral-mcq-16",
+        "spiral-mcq-08",
         "spiral-mcq-13",
-        "spiral-mcq-17",
-        "spiral-mcq-12"
+        "spiral-mcq-04"
       ],
       "explanation": "本句的「caught in a downward spiral」指「惡性循環」。",
       "sentenceIndex": 32,
@@ -1403,12 +1273,10 @@ export default {
         "caught in a downward spiral"
       ],
       "optionReasons": {
-        "spiral-mcq-15": "本句指「惡性循環」。",
-        "spiral-mcq-14": "「演變成危機」與本句語境不同。",
-        "spiral-mcq-16": "「良性上升循環」與本句語境不同。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。",
-        "spiral-mcq-17": "「情緒逐漸失控」與本句語境不同。",
-        "spiral-mcq-12": "「逐步陷入混亂」與本句語境不同。"
+        "spiral-mcq-15": "本句的「caught in a downward spiral」指「惡性循環」。",
+        "spiral-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-15"
     },
@@ -1420,10 +1288,8 @@ export default {
       "masked": "The business was ____.",
       "options": [
         "spiral-mcq-15",
-        "spiral-mcq-14",
-        "spiral-mcq-16",
-        "spiral-mcq-13",
-        "spiral-mcq-17",
+        "spiral-mcq-05",
+        "spiral-mcq-10",
         "spiral-mcq-12"
       ],
       "explanation": "本句的「caught in a downward spiral」指「惡性循環」。",
@@ -1433,12 +1299,10 @@ export default {
         "caught in a downward spiral"
       ],
       "optionReasons": {
-        "spiral-mcq-15": "本句指「惡性循環」。",
-        "spiral-mcq-14": "「演變成危機」與本句語境不同。",
-        "spiral-mcq-16": "「良性上升循環」與本句語境不同。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。",
-        "spiral-mcq-17": "「情緒逐漸失控」與本句語境不同。",
-        "spiral-mcq-12": "「逐步陷入混亂」與本句語境不同。"
+        "spiral-mcq-15": "本句的「caught in a downward spiral」指「惡性循環」。",
+        "spiral-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-15"
     },
@@ -1450,11 +1314,9 @@ export default {
       "masked": "Better habits created an ____ of confidence and productivity.",
       "options": [
         "spiral-mcq-16",
-        "spiral-mcq-15",
         "spiral-mcq-17",
         "spiral-mcq-14",
-        "spiral-mcq-18",
-        "spiral-mcq-13"
+        "spiral-mcq-02"
       ],
       "explanation": "本句的「upward spiral」指「良性上升循環」。",
       "sentenceIndex": 34,
@@ -1463,12 +1325,10 @@ export default {
         "upward spiral"
       ],
       "optionReasons": {
-        "spiral-mcq-16": "本句指「良性上升循環」。",
-        "spiral-mcq-15": "「惡性循環」與本句語境不同。",
-        "spiral-mcq-17": "「情緒逐漸失控」與本句語境不同。",
-        "spiral-mcq-14": "「演變成危機」與本句語境不同。",
-        "spiral-mcq-18": "「不斷惡化的負面思緒」與本句語境不同。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。"
+        "spiral-mcq-16": "本句的「upward spiral」指「良性上升循環」。",
+        "spiral-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-16"
     },
@@ -1480,11 +1340,9 @@ export default {
       "masked": "Success can sometimes create an ____ of motivation.",
       "options": [
         "spiral-mcq-16",
-        "spiral-mcq-15",
-        "spiral-mcq-17",
-        "spiral-mcq-14",
+        "spiral-mcq-12",
         "spiral-mcq-18",
-        "spiral-mcq-13"
+        "spiral-mcq-03"
       ],
       "explanation": "本句的「upward spiral」指「良性上升循環」。",
       "sentenceIndex": 35,
@@ -1493,12 +1351,10 @@ export default {
         "upward spiral"
       ],
       "optionReasons": {
-        "spiral-mcq-16": "本句指「良性上升循環」。",
-        "spiral-mcq-15": "「惡性循環」與本句語境不同。",
-        "spiral-mcq-17": "「情緒逐漸失控」與本句語境不同。",
-        "spiral-mcq-14": "「演變成危機」與本句語境不同。",
-        "spiral-mcq-18": "「不斷惡化的負面思緒」與本句語境不同。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。"
+        "spiral-mcq-16": "本句的「upward spiral」指「良性上升循環」。",
+        "spiral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-16"
     },
@@ -1510,11 +1366,9 @@ export default {
       "masked": "After reading the message, she started to ____.",
       "options": [
         "spiral-mcq-17",
-        "spiral-mcq-16",
-        "spiral-mcq-18",
-        "spiral-mcq-15",
+        "spiral-mcq-10",
         "spiral-mcq-14",
-        "spiral-mcq-13"
+        "spiral-mcq-02"
       ],
       "explanation": "本句的「spiral」指「情緒逐漸失控」。",
       "sentenceIndex": 38,
@@ -1523,12 +1377,10 @@ export default {
         "spiral"
       ],
       "optionReasons": {
-        "spiral-mcq-17": "本句指「情緒逐漸失控」。",
-        "spiral-mcq-16": "「良性上升循環」與本句語境不同。",
-        "spiral-mcq-18": "「不斷惡化的負面思緒」與本句語境不同。",
-        "spiral-mcq-15": "「惡性循環」與本句語境不同。",
-        "spiral-mcq-14": "「演變成危機」與本句語境不同。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。"
+        "spiral-mcq-17": "本句的「spiral」指「情緒逐漸失控」。",
+        "spiral-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-17"
     },
@@ -1540,11 +1392,9 @@ export default {
       "masked": "I was tired and stressed, and I could feel myself ____.",
       "options": [
         "spiral-mcq-17",
-        "spiral-mcq-16",
-        "spiral-mcq-18",
-        "spiral-mcq-15",
+        "spiral-mcq-08",
         "spiral-mcq-14",
-        "spiral-mcq-13"
+        "spiral-mcq-03"
       ],
       "explanation": "本句的「spiralling」指「情緒逐漸失控」。",
       "sentenceIndex": 39,
@@ -1553,12 +1403,10 @@ export default {
         "spiralling"
       ],
       "optionReasons": {
-        "spiral-mcq-17": "本句指「情緒逐漸失控」。",
-        "spiral-mcq-16": "「良性上升循環」與本句語境不同。",
-        "spiral-mcq-18": "「不斷惡化的負面思緒」與本句語境不同。",
-        "spiral-mcq-15": "「惡性循環」與本句語境不同。",
-        "spiral-mcq-14": "「演變成危機」與本句語境不同。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。"
+        "spiral-mcq-17": "本句的「spiralling」指「情緒逐漸失控」。",
+        "spiral-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-17"
     },
@@ -1570,11 +1418,9 @@ export default {
       "masked": "She couldn't stop her ____.",
       "options": [
         "spiral-mcq-18",
-        "spiral-mcq-17",
-        "spiral-mcq-16",
-        "spiral-mcq-15",
-        "spiral-mcq-14",
-        "spiral-mcq-13"
+        "spiral-mcq-02",
+        "spiral-mcq-10",
+        "spiral-mcq-14"
       ],
       "explanation": "本句的「spiralling thoughts」指「不斷惡化的負面思緒」。",
       "sentenceIndex": 40,
@@ -1583,12 +1429,10 @@ export default {
         "spiralling thoughts"
       ],
       "optionReasons": {
-        "spiral-mcq-18": "本句指「不斷惡化的負面思緒」。",
-        "spiral-mcq-17": "「情緒逐漸失控」與本句語境不同。",
-        "spiral-mcq-16": "「良性上升循環」與本句語境不同。",
-        "spiral-mcq-15": "「惡性循環」與本句語境不同。",
-        "spiral-mcq-14": "「演變成危機」與本句語境不同。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。"
+        "spiral-mcq-18": "本句的「spiralling thoughts」指「不斷惡化的負面思緒」。",
+        "spiral-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-18"
     },
@@ -1600,11 +1444,9 @@ export default {
       "masked": "Lack of sleep made his anxiety ____.",
       "options": [
         "spiral-mcq-18",
-        "spiral-mcq-17",
-        "spiral-mcq-16",
-        "spiral-mcq-15",
-        "spiral-mcq-14",
-        "spiral-mcq-13"
+        "spiral-mcq-12",
+        "spiral-mcq-10",
+        "spiral-mcq-04"
       ],
       "explanation": "本句的「spiral」指「不斷惡化的負面思緒」。",
       "sentenceIndex": 41,
@@ -1613,12 +1455,10 @@ export default {
         "spiral"
       ],
       "optionReasons": {
-        "spiral-mcq-18": "本句指「不斷惡化的負面思緒」。",
-        "spiral-mcq-17": "「情緒逐漸失控」與本句語境不同。",
-        "spiral-mcq-16": "「良性上升循環」與本句語境不同。",
-        "spiral-mcq-15": "「惡性循環」與本句語境不同。",
-        "spiral-mcq-14": "「演變成危機」與本句語境不同。",
-        "spiral-mcq-13": "「陷入債務」與本句語境不同。"
+        "spiral-mcq-18": "本句的「spiral」指「不斷惡化的負面思緒」。",
+        "spiral-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spiral-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spiral-mcq-18"
     }
@@ -1630,5 +1470,7 @@ export default {
     "sha256": "5039d56bd28b44c24f6f7e25780b1b6bf31ede750e44adf56b8f89bccb57f412",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -325,7 +325,7 @@ export default {
     },
     {
       "id": "chapter-mcq-15",
-      "title": "表示新篇章；新階段",
+      "title": "新篇章；新階段",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示新篇章；新階段",
@@ -347,7 +347,7 @@ export default {
     },
     {
       "id": "chapter-mcq-16",
-      "title": "表示翻開新一頁；開展新篇章",
+      "title": "翻開新一頁；開展新篇章",
       "form": "16. turn the page / start a new chapter",
       "en": "16. turn the page / start a new chapter",
       "zh": "表示翻開新一頁；開展新篇章",
@@ -377,11 +377,9 @@ export default {
       "masked": "Starting university felt like a new ____ in her life.",
       "options": [
         "chapter-mcq-15",
-        "chapter-mcq-14",
-        "chapter-mcq-16",
-        "chapter-mcq-13",
-        "chapter-mcq-12",
-        "chapter-mcq-11"
+        "chapter-mcq-08",
+        "chapter-mcq-07",
+        "chapter-mcq-12"
       ],
       "explanation": "本句的「chapter」指「表示新篇章；新階段」。",
       "sentenceIndex": 0,
@@ -390,12 +388,10 @@ export default {
         "chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-15": "本句指「表示新篇章；新階段」。",
-        "chapter-mcq-14": "「接下來的人生／職業／發展階段」是「the next chapter」的用法，與本句語境不同。",
-        "chapter-mcq-16": "「表示翻開新一頁；開展新篇章」是「16. turn the page / start a new chapter」的用法，與本句語境不同。",
-        "chapter-mcq-13": "「一章結束、下一章開始的分隔點」是「chapter break」的用法，與本句語境不同。",
-        "chapter-mcq-12": "「章節開頭的標題」是「chapter heading」的用法，與本句語境不同。",
-        "chapter-mcq-11": "「美國破產法中的特定章節及相應破產程序」是「Chapter 7/11 etc.」的用法，與本句語境不同。"
+        "chapter-mcq-15": "本句的「chapter」指「表示新篇章；新階段」。",
+        "chapter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-15"
     },
@@ -407,10 +403,8 @@ export default {
       "masked": "Leaving that job marked the end of one ____ and the beginning of another.",
       "options": [
         "chapter-mcq-15",
-        "chapter-mcq-14",
-        "chapter-mcq-16",
-        "chapter-mcq-13",
-        "chapter-mcq-12",
+        "chapter-mcq-08",
+        "chapter-mcq-04",
         "chapter-mcq-11"
       ],
       "explanation": "本句的「chapter」指「表示新篇章；新階段」。",
@@ -420,12 +414,10 @@ export default {
         "chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-15": "本句指「表示新篇章；新階段」。",
-        "chapter-mcq-14": "「接下來的人生／職業／發展階段」是「the next chapter」的用法，與本句語境不同。",
-        "chapter-mcq-16": "「表示翻開新一頁；開展新篇章」是「16. turn the page / start a new chapter」的用法，與本句語境不同。",
-        "chapter-mcq-13": "「一章結束、下一章開始的分隔點」是「chapter break」的用法，與本句語境不同。",
-        "chapter-mcq-12": "「章節開頭的標題」是「chapter heading」的用法，與本句語境不同。",
-        "chapter-mcq-11": "「美國破產法中的特定章節及相應破產程序」是「Chapter 7/11 etc.」的用法，與本句語境不同。"
+        "chapter-mcq-15": "本句的「chapter」指「表示新篇章；新階段」。",
+        "chapter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-15"
     },
@@ -437,11 +429,9 @@ export default {
       "masked": "I read three ____ last night.",
       "options": [
         "chapter-mcq-01",
-        "chapter-mcq-02",
-        "chapter-mcq-03",
-        "chapter-mcq-04",
-        "chapter-mcq-05",
-        "chapter-mcq-06"
+        "chapter-mcq-14",
+        "chapter-mcq-07",
+        "chapter-mcq-16"
       ],
       "explanation": "本句的「chapters」指「一本書中的主要分段；章／章節」。",
       "sentenceIndex": 2,
@@ -450,12 +440,10 @@ export default {
         "chapters"
       ],
       "optionReasons": {
-        "chapter-mcq-01": "本句指「一本書中的主要分段；章／章節」。",
-        "chapter-mcq-02": "「人生、職業、關係等中的一段重要時期；篇章／階段」是「chapter — life stage」的用法，與本句語境不同。",
-        "chapter-mcq-03": "「新的生活、工作或發展階段；新篇章」是「a new chapter」的用法，與本句語境不同。",
-        "chapter-mcq-04": "「讓某一段經歷或時期告一段落」是「close/end a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-05": "「開始一個新的階段；開啟新篇章」是「begin/open a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。"
+        "chapter-mcq-01": "本句的「chapters」指「一本書中的主要分段；章／章節」。",
+        "chapter-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-01"
     },
@@ -467,11 +455,9 @@ export default {
       "masked": "The answer is explained in the final ____.",
       "options": [
         "chapter-mcq-01",
-        "chapter-mcq-02",
-        "chapter-mcq-03",
         "chapter-mcq-04",
-        "chapter-mcq-05",
-        "chapter-mcq-06"
+        "chapter-mcq-16",
+        "chapter-mcq-14"
       ],
       "explanation": "本句的「chapter」指「一本書中的主要分段；章／章節」。",
       "sentenceIndex": 3,
@@ -480,12 +466,10 @@ export default {
         "chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-01": "本句指「一本書中的主要分段；章／章節」。",
-        "chapter-mcq-02": "「人生、職業、關係等中的一段重要時期；篇章／階段」是「chapter — life stage」的用法，與本句語境不同。",
-        "chapter-mcq-03": "「新的生活、工作或發展階段；新篇章」是「a new chapter」的用法，與本句語境不同。",
-        "chapter-mcq-04": "「讓某一段經歷或時期告一段落」是「close/end a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-05": "「開始一個新的階段；開啟新篇章」是「begin/open a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。"
+        "chapter-mcq-01": "本句的「chapter」指「一本書中的主要分段；章／章節」。",
+        "chapter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-01"
     },
@@ -497,11 +481,9 @@ export default {
       "masked": "Each ____ reflects the main theme.",
       "options": [
         "chapter-mcq-01",
-        "chapter-mcq-02",
-        "chapter-mcq-03",
-        "chapter-mcq-04",
-        "chapter-mcq-05",
-        "chapter-mcq-06"
+        "chapter-mcq-14",
+        "chapter-mcq-16",
+        "chapter-mcq-04"
       ],
       "explanation": "本句的「chapter title」指「一本書中的主要分段；章／章節」。",
       "sentenceIndex": 4,
@@ -510,12 +492,10 @@ export default {
         "chapter title"
       ],
       "optionReasons": {
-        "chapter-mcq-01": "本句指「一本書中的主要分段；章／章節」。",
-        "chapter-mcq-02": "「人生、職業、關係等中的一段重要時期；篇章／階段」是「chapter — life stage」的用法，與本句語境不同。",
-        "chapter-mcq-03": "「新的生活、工作或發展階段；新篇章」是「a new chapter」的用法，與本句語境不同。",
-        "chapter-mcq-04": "「讓某一段經歷或時期告一段落」是「close/end a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-05": "「開始一個新的階段；開啟新篇章」是「begin/open a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。"
+        "chapter-mcq-01": "本句的「chapter title」指「一本書中的主要分段；章／章節」。",
+        "chapter-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-01"
     },
@@ -527,11 +507,9 @@ export default {
       "masked": "I forgot the name of the ____.",
       "options": [
         "chapter-mcq-01",
-        "chapter-mcq-02",
-        "chapter-mcq-03",
-        "chapter-mcq-04",
-        "chapter-mcq-05",
-        "chapter-mcq-06"
+        "chapter-mcq-16",
+        "chapter-mcq-14",
+        "chapter-mcq-07"
       ],
       "explanation": "本句的「chapter」指「一本書中的主要分段；章／章節」。",
       "sentenceIndex": 5,
@@ -540,12 +518,10 @@ export default {
         "chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-01": "本句指「一本書中的主要分段；章／章節」。",
-        "chapter-mcq-02": "「人生、職業、關係等中的一段重要時期；篇章／階段」是「chapter — life stage」的用法，與本句語境不同。",
-        "chapter-mcq-03": "「新的生活、工作或發展階段；新篇章」是「a new chapter」的用法，與本句語境不同。",
-        "chapter-mcq-04": "「讓某一段經歷或時期告一段落」是「close/end a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-05": "「開始一個新的階段；開啟新篇章」是「begin/open a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。"
+        "chapter-mcq-01": "本句的「chapter」指「一本書中的主要分段；章／章節」。",
+        "chapter-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-01"
     },
@@ -557,11 +533,9 @@ export default {
       "masked": "Parenthood opened a new ____ in their lives.",
       "options": [
         "chapter-mcq-02",
-        "chapter-mcq-01",
-        "chapter-mcq-03",
-        "chapter-mcq-04",
-        "chapter-mcq-05",
-        "chapter-mcq-06"
+        "chapter-mcq-08",
+        "chapter-mcq-12",
+        "chapter-mcq-10"
       ],
       "explanation": "本句的「chapter」指「人生、職業、關係等中的一段重要時期；篇章／階段」。",
       "sentenceIndex": 6,
@@ -570,12 +544,10 @@ export default {
         "chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-02": "本句指「人生、職業、關係等中的一段重要時期；篇章／階段」。",
-        "chapter-mcq-01": "「一本書中的主要分段；章／章節」是「chapter — book」的用法，與本句語境不同。",
-        "chapter-mcq-03": "「新的生活、工作或發展階段；新篇章」是「a new chapter」的用法，與本句語境不同。",
-        "chapter-mcq-04": "「讓某一段經歷或時期告一段落」是「close/end a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-05": "「開始一個新的階段；開啟新篇章」是「begin/open a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。"
+        "chapter-mcq-02": "本句的「chapter」指「人生、職業、關係等中的一段重要時期；篇章／階段」。",
+        "chapter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-02"
     },
@@ -587,11 +559,9 @@ export default {
       "masked": "That difficult period was an important ____ in her life.",
       "options": [
         "chapter-mcq-02",
-        "chapter-mcq-01",
-        "chapter-mcq-03",
-        "chapter-mcq-04",
-        "chapter-mcq-05",
-        "chapter-mcq-06"
+        "chapter-mcq-08",
+        "chapter-mcq-11",
+        "chapter-mcq-10"
       ],
       "explanation": "本句的「chapter」指「人生、職業、關係等中的一段重要時期；篇章／階段」。",
       "sentenceIndex": 7,
@@ -600,12 +570,10 @@ export default {
         "chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-02": "本句指「人生、職業、關係等中的一段重要時期；篇章／階段」。",
-        "chapter-mcq-01": "「一本書中的主要分段；章／章節」是「chapter — book」的用法，與本句語境不同。",
-        "chapter-mcq-03": "「新的生活、工作或發展階段；新篇章」是「a new chapter」的用法，與本句語境不同。",
-        "chapter-mcq-04": "「讓某一段經歷或時期告一段落」是「close/end a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-05": "「開始一個新的階段；開啟新篇章」是「begin/open a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。"
+        "chapter-mcq-02": "本句的「chapter」指「人生、職業、關係等中的一段重要時期；篇章／階段」。",
+        "chapter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-02"
     },
@@ -617,11 +585,9 @@ export default {
       "masked": "Moving abroad began a ____ for him.",
       "options": [
         "chapter-mcq-03",
-        "chapter-mcq-02",
+        "chapter-mcq-08",
         "chapter-mcq-04",
-        "chapter-mcq-01",
-        "chapter-mcq-05",
-        "chapter-mcq-06"
+        "chapter-mcq-12"
       ],
       "explanation": "本句的「new chapter」指「新的生活、工作或發展階段；新篇章」。",
       "sentenceIndex": 8,
@@ -630,12 +596,10 @@ export default {
         "new chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-03": "本句指「新的生活、工作或發展階段；新篇章」。",
-        "chapter-mcq-02": "「人生、職業、關係等中的一段重要時期；篇章／階段」是「chapter — life stage」的用法，與本句語境不同。",
-        "chapter-mcq-04": "「讓某一段經歷或時期告一段落」是「close/end a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-01": "「一本書中的主要分段；章／章節」是「chapter — book」的用法，與本句語境不同。",
-        "chapter-mcq-05": "「開始一個新的階段；開啟新篇章」是「begin/open a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。"
+        "chapter-mcq-03": "本句的「new chapter」指「新的生活、工作或發展階段；新篇章」。",
+        "chapter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-03"
     },
@@ -647,11 +611,9 @@ export default {
       "masked": "The graduation ceremony marked the start of a ____.",
       "options": [
         "chapter-mcq-03",
-        "chapter-mcq-02",
+        "chapter-mcq-09",
         "chapter-mcq-04",
-        "chapter-mcq-01",
-        "chapter-mcq-05",
-        "chapter-mcq-06"
+        "chapter-mcq-12"
       ],
       "explanation": "本句的「new chapter」指「新的生活、工作或發展階段；新篇章」。",
       "sentenceIndex": 9,
@@ -660,12 +622,10 @@ export default {
         "new chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-03": "本句指「新的生活、工作或發展階段；新篇章」。",
-        "chapter-mcq-02": "「人生、職業、關係等中的一段重要時期；篇章／階段」是「chapter — life stage」的用法，與本句語境不同。",
-        "chapter-mcq-04": "「讓某一段經歷或時期告一段落」是「close/end a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-01": "「一本書中的主要分段；章／章節」是「chapter — book」的用法，與本句語境不同。",
-        "chapter-mcq-05": "「開始一個新的階段；開啟新篇章」是「begin/open a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。"
+        "chapter-mcq-03": "本句的「new chapter」指「新的生活、工作或發展階段；新篇章」。",
+        "chapter-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-03"
     },
@@ -677,11 +637,9 @@ export default {
       "masked": "She was ready to ____ of her life.",
       "options": [
         "chapter-mcq-04",
-        "chapter-mcq-03",
-        "chapter-mcq-05",
-        "chapter-mcq-02",
-        "chapter-mcq-06",
-        "chapter-mcq-01"
+        "chapter-mcq-08",
+        "chapter-mcq-12",
+        "chapter-mcq-15"
       ],
       "explanation": "本句的「close that chapter」指「讓某一段經歷或時期告一段落」。",
       "sentenceIndex": 10,
@@ -690,12 +648,10 @@ export default {
         "close that chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-04": "本句指「讓某一段經歷或時期告一段落」。",
-        "chapter-mcq-03": "「新的生活、工作或發展階段；新篇章」是「a new chapter」的用法，與本句語境不同。",
-        "chapter-mcq-05": "「開始一個新的階段；開啟新篇章」是「begin/open a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-02": "「人生、職業、關係等中的一段重要時期；篇章／階段」是「chapter — life stage」的用法，與本句語境不同。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。",
-        "chapter-mcq-01": "「一本書中的主要分段；章／章節」是「chapter — book」的用法，與本句語境不同。"
+        "chapter-mcq-04": "本句的「close that chapter」指「讓某一段經歷或時期告一段落」。",
+        "chapter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-04"
     },
@@ -707,11 +663,9 @@ export default {
       "masked": "The agreement helped both sides ____.",
       "options": [
         "chapter-mcq-04",
-        "chapter-mcq-03",
-        "chapter-mcq-05",
-        "chapter-mcq-02",
-        "chapter-mcq-06",
-        "chapter-mcq-01"
+        "chapter-mcq-11",
+        "chapter-mcq-16",
+        "chapter-mcq-09"
       ],
       "explanation": "本句的「end a difficult chapter」指「讓某一段經歷或時期告一段落」。",
       "sentenceIndex": 11,
@@ -720,12 +674,10 @@ export default {
         "end a difficult chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-04": "本句指「讓某一段經歷或時期告一段落」。",
-        "chapter-mcq-03": "「新的生活、工作或發展階段；新篇章」是「a new chapter」的用法，與本句語境不同。",
-        "chapter-mcq-05": "「開始一個新的階段；開啟新篇章」是「begin/open a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-02": "「人生、職業、關係等中的一段重要時期；篇章／階段」是「chapter — life stage」的用法，與本句語境不同。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。",
-        "chapter-mcq-01": "「一本書中的主要分段；章／章節」是「chapter — book」的用法，與本句語境不同。"
+        "chapter-mcq-04": "本句的「end a difficult chapter」指「讓某一段經歷或時期告一段落」。",
+        "chapter-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-04"
     },
@@ -737,11 +689,9 @@ export default {
       "masked": "The move ____ in their relationship.",
       "options": [
         "chapter-mcq-05",
-        "chapter-mcq-04",
-        "chapter-mcq-06",
-        "chapter-mcq-03",
+        "chapter-mcq-08",
         "chapter-mcq-07",
-        "chapter-mcq-02"
+        "chapter-mcq-10"
       ],
       "explanation": "本句的「opened a new chapter」指「開始一個新的階段；開啟新篇章」。",
       "sentenceIndex": 12,
@@ -750,12 +700,10 @@ export default {
         "opened a new chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-05": "本句指「開始一個新的階段；開啟新篇章」。",
-        "chapter-mcq-04": "「讓某一段經歷或時期告一段落」是「close/end a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。",
-        "chapter-mcq-03": "「新的生活、工作或發展階段；新篇章」是「a new chapter」的用法，與本句語境不同。",
-        "chapter-mcq-07": "「一段痛苦、負面或令人羞愧的時期」是「a dark chapter」的用法，與本句語境不同。",
-        "chapter-mcq-02": "「人生、職業、關係等中的一段重要時期；篇章／階段」是「chapter — life stage」的用法，與本句語境不同。"
+        "chapter-mcq-05": "本句的「opened a new chapter」指「開始一個新的階段；開啟新篇章」。",
+        "chapter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-05"
     },
@@ -767,11 +715,9 @@ export default {
       "masked": "She was excited to ____.",
       "options": [
         "chapter-mcq-05",
-        "chapter-mcq-04",
-        "chapter-mcq-06",
-        "chapter-mcq-03",
+        "chapter-mcq-09",
         "chapter-mcq-07",
-        "chapter-mcq-02"
+        "chapter-mcq-11"
       ],
       "explanation": "本句的「begin a new chapter」指「開始一個新的階段；開啟新篇章」。",
       "sentenceIndex": 13,
@@ -780,12 +726,10 @@ export default {
         "begin a new chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-05": "本句指「開始一個新的階段；開啟新篇章」。",
-        "chapter-mcq-04": "「讓某一段經歷或時期告一段落」是「close/end a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。",
-        "chapter-mcq-03": "「新的生活、工作或發展階段；新篇章」是「a new chapter」的用法，與本句語境不同。",
-        "chapter-mcq-07": "「一段痛苦、負面或令人羞愧的時期」是「a dark chapter」的用法，與本句語境不同。",
-        "chapter-mcq-02": "「人生、職業、關係等中的一段重要時期；篇章／階段」是「chapter — life stage」的用法，與本句語境不同。"
+        "chapter-mcq-05": "本句的「begin a new chapter」指「開始一個新的階段；開啟新篇章」。",
+        "chapter-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-05"
     },
@@ -797,11 +741,9 @@ export default {
       "masked": "The invention opened a new ____.",
       "options": [
         "chapter-mcq-06",
-        "chapter-mcq-05",
-        "chapter-mcq-07",
-        "chapter-mcq-04",
-        "chapter-mcq-08",
-        "chapter-mcq-03"
+        "chapter-mcq-09",
+        "chapter-mcq-12",
+        "chapter-mcq-14"
       ],
       "explanation": "本句的「chapter in medical history」指「歷史或某領域中的一段時期／篇章」。",
       "sentenceIndex": 14,
@@ -810,12 +752,10 @@ export default {
         "chapter in medical history"
       ],
       "optionReasons": {
-        "chapter-mcq-06": "本句指「歷史或某領域中的一段時期／篇章」。",
-        "chapter-mcq-05": "「開始一個新的階段；開啟新篇章」是「begin/open a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-07": "「一段痛苦、負面或令人羞愧的時期」是「a dark chapter」的用法，與本句語境不同。",
-        "chapter-mcq-04": "「讓某一段經歷或時期告一段落」是「close/end a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-08": "「大型組織在某地區的分會／支部」是「chapter — organization」的用法，與本句語境不同。",
-        "chapter-mcq-03": "「新的生活、工作或發展階段；新篇章」是「a new chapter」的用法，與本句語境不同。"
+        "chapter-mcq-06": "本句的「chapter in medical history」指「歷史或某領域中的一段時期／篇章」。",
+        "chapter-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-06"
     },
@@ -827,11 +767,9 @@ export default {
       "masked": "It was a dark ____ in the country’s history.",
       "options": [
         "chapter-mcq-06",
-        "chapter-mcq-05",
-        "chapter-mcq-07",
-        "chapter-mcq-04",
-        "chapter-mcq-08",
-        "chapter-mcq-03"
+        "chapter-mcq-09",
+        "chapter-mcq-11",
+        "chapter-mcq-10"
       ],
       "explanation": "本句的「chapter」指「歷史或某領域中的一段時期／篇章」。",
       "sentenceIndex": 15,
@@ -840,12 +778,10 @@ export default {
         "chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-06": "本句指「歷史或某領域中的一段時期／篇章」。",
-        "chapter-mcq-05": "「開始一個新的階段；開啟新篇章」是「begin/open a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-07": "「一段痛苦、負面或令人羞愧的時期」是「a dark chapter」的用法，與本句語境不同。",
-        "chapter-mcq-04": "「讓某一段經歷或時期告一段落」是「close/end a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-08": "「大型組織在某地區的分會／支部」是「chapter — organization」的用法，與本句語境不同。",
-        "chapter-mcq-03": "「新的生活、工作或發展階段；新篇章」是「a new chapter」的用法，與本句語境不同。"
+        "chapter-mcq-06": "本句的「chapter」指「歷史或某領域中的一段時期／篇章」。",
+        "chapter-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-06"
     },
@@ -857,11 +793,9 @@ export default {
       "masked": "The war remains a ____ in the nation’s history.",
       "options": [
         "chapter-mcq-07",
-        "chapter-mcq-06",
+        "chapter-mcq-16",
         "chapter-mcq-08",
-        "chapter-mcq-05",
-        "chapter-mcq-09",
-        "chapter-mcq-04"
+        "chapter-mcq-10"
       ],
       "explanation": "本句的「dark chapter」指「一段痛苦、負面或令人羞愧的時期」。",
       "sentenceIndex": 16,
@@ -870,12 +804,10 @@ export default {
         "dark chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-07": "本句指「一段痛苦、負面或令人羞愧的時期」。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。",
-        "chapter-mcq-08": "「大型組織在某地區的分會／支部」是「chapter — organization」的用法，與本句語境不同。",
-        "chapter-mcq-05": "「開始一個新的階段；開啟新篇章」是「begin/open a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-09": "「某組織的地方分會」是「local chapter」的用法，與本句語境不同。",
-        "chapter-mcq-04": "「讓某一段經歷或時期告一段落」是「close/end a chapter」的用法，與本句語境不同。"
+        "chapter-mcq-07": "本句的「dark chapter」指「一段痛苦、負面或令人羞愧的時期」。",
+        "chapter-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-07"
     },
@@ -887,11 +819,9 @@ export default {
       "masked": "She rarely spoke about that ____ of her life.",
       "options": [
         "chapter-mcq-07",
-        "chapter-mcq-06",
         "chapter-mcq-08",
-        "chapter-mcq-05",
-        "chapter-mcq-09",
-        "chapter-mcq-04"
+        "chapter-mcq-16",
+        "chapter-mcq-11"
       ],
       "explanation": "本句的「dark chapter」指「一段痛苦、負面或令人羞愧的時期」。",
       "sentenceIndex": 17,
@@ -900,12 +830,10 @@ export default {
         "dark chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-07": "本句指「一段痛苦、負面或令人羞愧的時期」。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。",
-        "chapter-mcq-08": "「大型組織在某地區的分會／支部」是「chapter — organization」的用法，與本句語境不同。",
-        "chapter-mcq-05": "「開始一個新的階段；開啟新篇章」是「begin/open a chapter」的用法，與本句語境不同。",
-        "chapter-mcq-09": "「某組織的地方分會」是「local chapter」的用法，與本句語境不同。",
-        "chapter-mcq-04": "「讓某一段經歷或時期告一段落」是「close/end a chapter」的用法，與本句語境不同。"
+        "chapter-mcq-07": "本句的「dark chapter」指「一段痛苦、負面或令人羞愧的時期」。",
+        "chapter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-07"
     },
@@ -917,11 +845,9 @@ export default {
       "masked": "She joined the local ____ of the association.",
       "options": [
         "chapter-mcq-08",
-        "chapter-mcq-07",
-        "chapter-mcq-09",
-        "chapter-mcq-06",
-        "chapter-mcq-10",
-        "chapter-mcq-05"
+        "chapter-mcq-02",
+        "chapter-mcq-11",
+        "chapter-mcq-10"
       ],
       "explanation": "本句的「chapter」指「大型組織在某地區的分會／支部」。",
       "sentenceIndex": 18,
@@ -930,12 +856,10 @@ export default {
         "chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-08": "本句指「大型組織在某地區的分會／支部」。",
-        "chapter-mcq-07": "「一段痛苦、負面或令人羞愧的時期」是「a dark chapter」的用法，與本句語境不同。",
-        "chapter-mcq-09": "「某組織的地方分會」是「local chapter」的用法，與本句語境不同。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。",
-        "chapter-mcq-10": "「宗教經典或其他文本中的一章」是「chapter — scripture/text」的用法，與本句語境不同。",
-        "chapter-mcq-05": "「開始一個新的階段；開啟新篇章」是「begin/open a chapter」的用法，與本句語境不同。"
+        "chapter-mcq-08": "本句的「chapter」指「大型組織在某地區的分會／支部」。",
+        "chapter-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-08"
     },
@@ -947,11 +871,9 @@ export default {
       "masked": "The university has its own student ____.",
       "options": [
         "chapter-mcq-08",
-        "chapter-mcq-07",
-        "chapter-mcq-09",
         "chapter-mcq-06",
         "chapter-mcq-10",
-        "chapter-mcq-05"
+        "chapter-mcq-12"
       ],
       "explanation": "本句的「chapter」指「大型組織在某地區的分會／支部」。",
       "sentenceIndex": 19,
@@ -960,12 +882,10 @@ export default {
         "chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-08": "本句指「大型組織在某地區的分會／支部」。",
-        "chapter-mcq-07": "「一段痛苦、負面或令人羞愧的時期」是「a dark chapter」的用法，與本句語境不同。",
-        "chapter-mcq-09": "「某組織的地方分會」是「local chapter」的用法，與本句語境不同。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。",
-        "chapter-mcq-10": "「宗教經典或其他文本中的一章」是「chapter — scripture/text」的用法，與本句語境不同。",
-        "chapter-mcq-05": "「開始一個新的階段；開啟新篇章」是「begin/open a chapter」的用法，與本句語境不同。"
+        "chapter-mcq-08": "本句的「chapter」指「大型組織在某地區的分會／支部」。",
+        "chapter-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-08"
     },
@@ -977,11 +897,9 @@ export default {
       "masked": "The ____ organized the event.",
       "options": [
         "chapter-mcq-09",
-        "chapter-mcq-08",
-        "chapter-mcq-10",
-        "chapter-mcq-07",
-        "chapter-mcq-11",
-        "chapter-mcq-06"
+        "chapter-mcq-14",
+        "chapter-mcq-04",
+        "chapter-mcq-12"
       ],
       "explanation": "本句的「local chapter」指「某組織的地方分會」。",
       "sentenceIndex": 20,
@@ -990,12 +908,10 @@ export default {
         "local chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-09": "本句指「某組織的地方分會」。",
-        "chapter-mcq-08": "「大型組織在某地區的分會／支部」是「chapter — organization」的用法，與本句語境不同。",
-        "chapter-mcq-10": "「宗教經典或其他文本中的一章」是「chapter — scripture/text」的用法，與本句語境不同。",
-        "chapter-mcq-07": "「一段痛苦、負面或令人羞愧的時期」是「a dark chapter」的用法，與本句語境不同。",
-        "chapter-mcq-11": "「美國破產法中的特定章節及相應破產程序」是「Chapter 7/11 etc.」的用法，與本句語境不同。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。"
+        "chapter-mcq-09": "本句的「local chapter」指「某組織的地方分會」。",
+        "chapter-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-09"
     },
@@ -1007,11 +923,9 @@ export default {
       "masked": "He became president of the regional ____.",
       "options": [
         "chapter-mcq-09",
-        "chapter-mcq-08",
-        "chapter-mcq-10",
-        "chapter-mcq-07",
-        "chapter-mcq-11",
-        "chapter-mcq-06"
+        "chapter-mcq-12",
+        "chapter-mcq-04",
+        "chapter-mcq-03"
       ],
       "explanation": "本句的「chapter」指「某組織的地方分會」。",
       "sentenceIndex": 21,
@@ -1020,12 +934,10 @@ export default {
         "chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-09": "本句指「某組織的地方分會」。",
-        "chapter-mcq-08": "「大型組織在某地區的分會／支部」是「chapter — organization」的用法，與本句語境不同。",
-        "chapter-mcq-10": "「宗教經典或其他文本中的一章」是「chapter — scripture/text」的用法，與本句語境不同。",
-        "chapter-mcq-07": "「一段痛苦、負面或令人羞愧的時期」是「a dark chapter」的用法，與本句語境不同。",
-        "chapter-mcq-11": "「美國破產法中的特定章節及相應破產程序」是「Chapter 7/11 etc.」的用法，與本句語境不同。",
-        "chapter-mcq-06": "「歷史或某領域中的一段時期／篇章」是「chapter — history」的用法，與本句語境不同。"
+        "chapter-mcq-09": "本句的「chapter」指「某組織的地方分會」。",
+        "chapter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-09"
     },
@@ -1038,9 +950,7 @@ export default {
       "options": [
         "chapter-mcq-10",
         "chapter-mcq-09",
-        "chapter-mcq-11",
-        "chapter-mcq-08",
-        "chapter-mcq-12",
+        "chapter-mcq-14",
         "chapter-mcq-07"
       ],
       "explanation": "本句的「chapter five」指「宗教經典或其他文本中的一章」。",
@@ -1050,12 +960,10 @@ export default {
         "chapter five"
       ],
       "optionReasons": {
-        "chapter-mcq-10": "本句指「宗教經典或其他文本中的一章」。",
-        "chapter-mcq-09": "「某組織的地方分會」是「local chapter」的用法，與本句語境不同。",
-        "chapter-mcq-11": "「美國破產法中的特定章節及相應破產程序」是「Chapter 7/11 etc.」的用法，與本句語境不同。",
-        "chapter-mcq-08": "「大型組織在某地區的分會／支部」是「chapter — organization」的用法，與本句語境不同。",
-        "chapter-mcq-12": "「章節開頭的標題」是「chapter heading」的用法，與本句語境不同。",
-        "chapter-mcq-07": "「一段痛苦、負面或令人羞愧的時期」是「a dark chapter」的用法，與本句語境不同。"
+        "chapter-mcq-10": "本句的「chapter five」指「宗教經典或其他文本中的一章」。",
+        "chapter-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-10"
     },
@@ -1067,10 +975,8 @@ export default {
       "masked": "The passage comes from the first ____.",
       "options": [
         "chapter-mcq-10",
-        "chapter-mcq-09",
-        "chapter-mcq-11",
+        "chapter-mcq-14",
         "chapter-mcq-08",
-        "chapter-mcq-12",
         "chapter-mcq-07"
       ],
       "explanation": "本句的「chapter」指「宗教經典或其他文本中的一章」。",
@@ -1080,12 +986,10 @@ export default {
         "chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-10": "本句指「宗教經典或其他文本中的一章」。",
-        "chapter-mcq-09": "「某組織的地方分會」是「local chapter」的用法，與本句語境不同。",
-        "chapter-mcq-11": "「美國破產法中的特定章節及相應破產程序」是「Chapter 7/11 etc.」的用法，與本句語境不同。",
-        "chapter-mcq-08": "「大型組織在某地區的分會／支部」是「chapter — organization」的用法，與本句語境不同。",
-        "chapter-mcq-12": "「章節開頭的標題」是「chapter heading」的用法，與本句語境不同。",
-        "chapter-mcq-07": "「一段痛苦、負面或令人羞愧的時期」是「a dark chapter」的用法，與本句語境不同。"
+        "chapter-mcq-10": "本句的「chapter」指「宗教經典或其他文本中的一章」。",
+        "chapter-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-10"
     },
@@ -1097,11 +1001,9 @@ export default {
       "masked": "The company filed for ____ bankruptcy.",
       "options": [
         "chapter-mcq-11",
-        "chapter-mcq-10",
-        "chapter-mcq-12",
         "chapter-mcq-09",
-        "chapter-mcq-13",
-        "chapter-mcq-08"
+        "chapter-mcq-07",
+        "chapter-mcq-14"
       ],
       "explanation": "本句的「Chapter 11」指「美國破產法中的特定章節及相應破產程序」。",
       "sentenceIndex": 24,
@@ -1110,12 +1012,10 @@ export default {
         "Chapter 11"
       ],
       "optionReasons": {
-        "chapter-mcq-11": "本句指「美國破產法中的特定章節及相應破產程序」。",
-        "chapter-mcq-10": "「宗教經典或其他文本中的一章」是「chapter — scripture/text」的用法，與本句語境不同。",
-        "chapter-mcq-12": "「章節開頭的標題」是「chapter heading」的用法，與本句語境不同。",
-        "chapter-mcq-09": "「某組織的地方分會」是「local chapter」的用法，與本句語境不同。",
-        "chapter-mcq-13": "「一章結束、下一章開始的分隔點」是「chapter break」的用法，與本句語境不同。",
-        "chapter-mcq-08": "「大型組織在某地區的分會／支部」是「chapter — organization」的用法，與本句語境不同。"
+        "chapter-mcq-11": "本句的「Chapter 11」指「美國破產法中的特定章節及相應破產程序」。",
+        "chapter-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-11"
     },
@@ -1127,11 +1027,9 @@ export default {
       "masked": "The business entered ____ proceedings.",
       "options": [
         "chapter-mcq-11",
-        "chapter-mcq-10",
-        "chapter-mcq-12",
-        "chapter-mcq-09",
-        "chapter-mcq-13",
-        "chapter-mcq-08"
+        "chapter-mcq-08",
+        "chapter-mcq-07",
+        "chapter-mcq-14"
       ],
       "explanation": "本句的「Chapter 7」指「美國破產法中的特定章節及相應破產程序」。",
       "sentenceIndex": 25,
@@ -1140,12 +1038,10 @@ export default {
         "Chapter 7"
       ],
       "optionReasons": {
-        "chapter-mcq-11": "本句指「美國破產法中的特定章節及相應破產程序」。",
-        "chapter-mcq-10": "「宗教經典或其他文本中的一章」是「chapter — scripture/text」的用法，與本句語境不同。",
-        "chapter-mcq-12": "「章節開頭的標題」是「chapter heading」的用法，與本句語境不同。",
-        "chapter-mcq-09": "「某組織的地方分會」是「local chapter」的用法，與本句語境不同。",
-        "chapter-mcq-13": "「一章結束、下一章開始的分隔點」是「chapter break」的用法，與本句語境不同。",
-        "chapter-mcq-08": "「大型組織在某地區的分會／支部」是「chapter — organization」的用法，與本句語境不同。"
+        "chapter-mcq-11": "本句的「Chapter 7」指「美國破產法中的特定章節及相應破產程序」。",
+        "chapter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-11"
     },
@@ -1157,11 +1053,9 @@ export default {
       "masked": "The ____ is printed in bold.",
       "options": [
         "chapter-mcq-12",
-        "chapter-mcq-11",
-        "chapter-mcq-13",
-        "chapter-mcq-10",
-        "chapter-mcq-14",
-        "chapter-mcq-09"
+        "chapter-mcq-08",
+        "chapter-mcq-04",
+        "chapter-mcq-14"
       ],
       "explanation": "本句的「chapter heading」指「章節開頭的標題」。",
       "sentenceIndex": 26,
@@ -1170,12 +1064,10 @@ export default {
         "chapter heading"
       ],
       "optionReasons": {
-        "chapter-mcq-12": "本句指「章節開頭的標題」。",
-        "chapter-mcq-11": "「美國破產法中的特定章節及相應破產程序」是「Chapter 7/11 etc.」的用法，與本句語境不同。",
-        "chapter-mcq-13": "「一章結束、下一章開始的分隔點」是「chapter break」的用法，與本句語境不同。",
-        "chapter-mcq-10": "「宗教經典或其他文本中的一章」是「chapter — scripture/text」的用法，與本句語境不同。",
-        "chapter-mcq-14": "「接下來的人生／職業／發展階段」是「the next chapter」的用法，與本句語境不同。",
-        "chapter-mcq-09": "「某組織的地方分會」是「local chapter」的用法，與本句語境不同。"
+        "chapter-mcq-12": "本句的「chapter heading」指「章節開頭的標題」。",
+        "chapter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-12"
     },
@@ -1187,11 +1079,9 @@ export default {
       "masked": "Each ____ introduces a new topic.",
       "options": [
         "chapter-mcq-12",
-        "chapter-mcq-11",
-        "chapter-mcq-13",
-        "chapter-mcq-10",
         "chapter-mcq-14",
-        "chapter-mcq-09"
+        "chapter-mcq-04",
+        "chapter-mcq-08"
       ],
       "explanation": "本句的「chapter heading」指「章節開頭的標題」。",
       "sentenceIndex": 27,
@@ -1200,12 +1090,10 @@ export default {
         "chapter heading"
       ],
       "optionReasons": {
-        "chapter-mcq-12": "本句指「章節開頭的標題」。",
-        "chapter-mcq-11": "「美國破產法中的特定章節及相應破產程序」是「Chapter 7/11 etc.」的用法，與本句語境不同。",
-        "chapter-mcq-13": "「一章結束、下一章開始的分隔點」是「chapter break」的用法，與本句語境不同。",
-        "chapter-mcq-10": "「宗教經典或其他文本中的一章」是「chapter — scripture/text」的用法，與本句語境不同。",
-        "chapter-mcq-14": "「接下來的人生／職業／發展階段」是「the next chapter」的用法，與本句語境不同。",
-        "chapter-mcq-09": "「某組織的地方分會」是「local chapter」的用法，與本句語境不同。"
+        "chapter-mcq-12": "本句的「chapter heading」指「章節開頭的標題」。",
+        "chapter-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-12"
     },
@@ -1217,11 +1105,9 @@ export default {
       "masked": "The editor inserted a ____ there.",
       "options": [
         "chapter-mcq-13",
-        "chapter-mcq-12",
+        "chapter-mcq-04",
         "chapter-mcq-14",
-        "chapter-mcq-11",
-        "chapter-mcq-15",
-        "chapter-mcq-10"
+        "chapter-mcq-11"
       ],
       "explanation": "本句的「chapter break」指「一章結束、下一章開始的分隔點」。",
       "sentenceIndex": 28,
@@ -1230,12 +1116,10 @@ export default {
         "chapter break"
       ],
       "optionReasons": {
-        "chapter-mcq-13": "本句指「一章結束、下一章開始的分隔點」。",
-        "chapter-mcq-12": "「章節開頭的標題」是「chapter heading」的用法，與本句語境不同。",
-        "chapter-mcq-14": "「接下來的人生／職業／發展階段」是「the next chapter」的用法，與本句語境不同。",
-        "chapter-mcq-11": "「美國破產法中的特定章節及相應破產程序」是「Chapter 7/11 etc.」的用法，與本句語境不同。",
-        "chapter-mcq-15": "「表示新篇章；新階段」是「Passage meaning」的用法，與本句語境不同。",
-        "chapter-mcq-10": "「宗教經典或其他文本中的一章」是「chapter — scripture/text」的用法，與本句語境不同。"
+        "chapter-mcq-13": "本句的「chapter break」指「一章結束、下一章開始的分隔點」。",
+        "chapter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-13"
     },
@@ -1247,11 +1131,9 @@ export default {
       "masked": "The scene ends at a natural ____.",
       "options": [
         "chapter-mcq-13",
-        "chapter-mcq-12",
+        "chapter-mcq-07",
         "chapter-mcq-14",
-        "chapter-mcq-11",
-        "chapter-mcq-15",
-        "chapter-mcq-10"
+        "chapter-mcq-11"
       ],
       "explanation": "本句的「chapter break」指「一章結束、下一章開始的分隔點」。",
       "sentenceIndex": 29,
@@ -1260,12 +1142,10 @@ export default {
         "chapter break"
       ],
       "optionReasons": {
-        "chapter-mcq-13": "本句指「一章結束、下一章開始的分隔點」。",
-        "chapter-mcq-12": "「章節開頭的標題」是「chapter heading」的用法，與本句語境不同。",
-        "chapter-mcq-14": "「接下來的人生／職業／發展階段」是「the next chapter」的用法，與本句語境不同。",
-        "chapter-mcq-11": "「美國破產法中的特定章節及相應破產程序」是「Chapter 7/11 etc.」的用法，與本句語境不同。",
-        "chapter-mcq-15": "「表示新篇章；新階段」是「Passage meaning」的用法，與本句語境不同。",
-        "chapter-mcq-10": "「宗教經典或其他文本中的一章」是「chapter — scripture/text」的用法，與本句語境不同。"
+        "chapter-mcq-13": "本句的「chapter break」指「一章結束、下一章開始的分隔點」。",
+        "chapter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-13"
     },
@@ -1277,11 +1157,9 @@ export default {
       "masked": "She decided to ____ after leaving the company.",
       "options": [
         "chapter-mcq-16",
-        "chapter-mcq-15",
-        "chapter-mcq-14",
-        "chapter-mcq-13",
-        "chapter-mcq-12",
-        "chapter-mcq-11"
+        "chapter-mcq-09",
+        "chapter-mcq-07",
+        "chapter-mcq-10"
       ],
       "explanation": "本句的「start a new chapter」指「表示翻開新一頁；開展新篇章」。",
       "sentenceIndex": 30,
@@ -1290,12 +1168,10 @@ export default {
         "start a new chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-16": "本句指「表示翻開新一頁；開展新篇章」。",
-        "chapter-mcq-15": "「表示新篇章；新階段」是「Passage meaning」的用法，與本句語境不同。",
-        "chapter-mcq-14": "「接下來的人生／職業／發展階段」是「the next chapter」的用法，與本句語境不同。",
-        "chapter-mcq-13": "「一章結束、下一章開始的分隔點」是「chapter break」的用法，與本句語境不同。",
-        "chapter-mcq-12": "「章節開頭的標題」是「chapter heading」的用法，與本句語境不同。",
-        "chapter-mcq-11": "「美國破產法中的特定章節及相應破產程序」是「Chapter 7/11 etc.」的用法，與本句語境不同。"
+        "chapter-mcq-16": "本句的「start a new chapter」指「表示翻開新一頁；開展新篇章」。",
+        "chapter-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-16"
     },
@@ -1307,10 +1183,8 @@ export default {
       "masked": "The move helped him ____ and begin again.",
       "options": [
         "chapter-mcq-16",
-        "chapter-mcq-15",
-        "chapter-mcq-14",
-        "chapter-mcq-13",
-        "chapter-mcq-12",
+        "chapter-mcq-07",
+        "chapter-mcq-09",
         "chapter-mcq-11"
       ],
       "explanation": "本句的「turn the page」指「表示翻開新一頁；開展新篇章」。",
@@ -1320,12 +1194,10 @@ export default {
         "turn the page"
       ],
       "optionReasons": {
-        "chapter-mcq-16": "本句指「表示翻開新一頁；開展新篇章」。",
-        "chapter-mcq-15": "「表示新篇章；新階段」是「Passage meaning」的用法，與本句語境不同。",
-        "chapter-mcq-14": "「接下來的人生／職業／發展階段」是「the next chapter」的用法，與本句語境不同。",
-        "chapter-mcq-13": "「一章結束、下一章開始的分隔點」是「chapter break」的用法，與本句語境不同。",
-        "chapter-mcq-12": "「章節開頭的標題」是「chapter heading」的用法，與本句語境不同。",
-        "chapter-mcq-11": "「美國破產法中的特定章節及相應破產程序」是「Chapter 7/11 etc.」的用法，與本句語境不同。"
+        "chapter-mcq-16": "本句的「turn the page」指「表示翻開新一頁；開展新篇章」。",
+        "chapter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-16"
     },
@@ -1337,11 +1209,9 @@ export default {
       "masked": "I’m excited about the ____ of my career.",
       "options": [
         "chapter-mcq-14",
-        "chapter-mcq-13",
-        "chapter-mcq-15",
-        "chapter-mcq-12",
-        "chapter-mcq-16",
-        "chapter-mcq-11"
+        "chapter-mcq-09",
+        "chapter-mcq-11",
+        "chapter-mcq-10"
       ],
       "explanation": "本句的「next chapter」指「接下來的人生／職業／發展階段」。",
       "sentenceIndex": 32,
@@ -1350,12 +1220,10 @@ export default {
         "next chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-14": "本句指「接下來的人生／職業／發展階段」。",
-        "chapter-mcq-13": "「一章結束、下一章開始的分隔點」是「chapter break」的用法，與本句語境不同。",
-        "chapter-mcq-15": "「表示新篇章；新階段」是「Passage meaning」的用法，與本句語境不同。",
-        "chapter-mcq-12": "「章節開頭的標題」是「chapter heading」的用法，與本句語境不同。",
-        "chapter-mcq-16": "「表示翻開新一頁；開展新篇章」是「16. turn the page / start a new chapter」的用法，與本句語境不同。",
-        "chapter-mcq-11": "「美國破產法中的特定章節及相應破產程序」是「Chapter 7/11 etc.」的用法，與本句語境不同。"
+        "chapter-mcq-14": "本句的「next chapter」指「接下來的人生／職業／發展階段」。",
+        "chapter-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-14"
     },
@@ -1367,11 +1235,9 @@ export default {
       "masked": "Nobody knew what the ____ would bring.",
       "options": [
         "chapter-mcq-14",
-        "chapter-mcq-13",
-        "chapter-mcq-15",
         "chapter-mcq-12",
-        "chapter-mcq-16",
-        "chapter-mcq-11"
+        "chapter-mcq-10",
+        "chapter-mcq-09"
       ],
       "explanation": "本句的「next chapter」指「接下來的人生／職業／發展階段」。",
       "sentenceIndex": 33,
@@ -1380,12 +1246,10 @@ export default {
         "next chapter"
       ],
       "optionReasons": {
-        "chapter-mcq-14": "本句指「接下來的人生／職業／發展階段」。",
-        "chapter-mcq-13": "「一章結束、下一章開始的分隔點」是「chapter break」的用法，與本句語境不同。",
-        "chapter-mcq-15": "「表示新篇章；新階段」是「Passage meaning」的用法，與本句語境不同。",
-        "chapter-mcq-12": "「章節開頭的標題」是「chapter heading」的用法，與本句語境不同。",
-        "chapter-mcq-16": "「表示翻開新一頁；開展新篇章」是「16. turn the page / start a new chapter」的用法，與本句語境不同。",
-        "chapter-mcq-11": "「美國破產法中的特定章節及相應破產程序」是「Chapter 7/11 etc.」的用法，與本句語境不同。"
+        "chapter-mcq-14": "本句的「next chapter」指「接下來的人生／職業／發展階段」。",
+        "chapter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chapter-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chapter-mcq-14"
     }
@@ -1397,5 +1261,7 @@ export default {
     "sha256": "b1ba82b609cb8d26a5cc66cafec2eace096eb4745b6a0d00c6c1a97e59b210fc",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

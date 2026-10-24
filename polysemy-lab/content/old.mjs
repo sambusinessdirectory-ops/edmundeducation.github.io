@@ -143,7 +143,7 @@ export default {
     },
     {
       "id": "old-mcq-07",
-      "title": "表示人／事物自出生或產生以來已有多少時間",
+      "title": "人／事物自出生或產生以來已有多少時間",
       "form": "years old",
       "en": "years old",
       "zh": "表示人／事物自出生或產生以來已有多少時間",
@@ -393,11 +393,9 @@ export default {
       "masked": "An ____ person I know well is my grandmother on my mother's side.",
       "options": [
         "old-mcq-01",
-        "old-mcq-02",
-        "old-mcq-03",
-        "old-mcq-04",
-        "old-mcq-05",
-        "old-mcq-06"
+        "old-mcq-17",
+        "old-mcq-13",
+        "old-mcq-05"
       ],
       "explanation": "本句的「old」指「已活了很多年、處於人生較後階段的；年長的」。",
       "sentenceIndex": 0,
@@ -406,12 +404,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-01": "本句指「已活了很多年、處於人生較後階段的；年長的」。",
-        "old-mcq-02": "「已經生長或存活了很長時間的」是「old — living thing」的用法，與本句語境不同。",
-        "old-mcq-03": "「已存在或使用多年、年代較久的」是「old — object/building」的用法，與本句語境不同。",
-        "old-mcq-04": "「來自較久以前年代或歷史時期的」是「old — from long ago」的用法，與本句語境不同。",
-        "old-mcq-05": "「某人以前擁有、使用或身處的，而非現在的」是「old job/school/home」的用法，與本句語境不同。",
-        "old-mcq-06": "「已認識很長時間的朋友」是「old friend」的用法，與本句語境不同。"
+        "old-mcq-01": "本句的「old」指「已活了很多年、處於人生較後階段的；年長的」。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-01"
     },
@@ -423,11 +419,9 @@ export default {
       "masked": "The ____ man still walks to the market every morning.",
       "options": [
         "old-mcq-01",
-        "old-mcq-02",
-        "old-mcq-03",
-        "old-mcq-04",
-        "old-mcq-05",
-        "old-mcq-06"
+        "old-mcq-17",
+        "old-mcq-13",
+        "old-mcq-05"
       ],
       "explanation": "本句的「old」指「已活了很多年、處於人生較後階段的；年長的」。",
       "sentenceIndex": 1,
@@ -436,12 +430,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-01": "本句指「已活了很多年、處於人生較後階段的；年長的」。",
-        "old-mcq-02": "「已經生長或存活了很長時間的」是「old — living thing」的用法，與本句語境不同。",
-        "old-mcq-03": "「已存在或使用多年、年代較久的」是「old — object/building」的用法，與本句語境不同。",
-        "old-mcq-04": "「來自較久以前年代或歷史時期的」是「old — from long ago」的用法，與本句語境不同。",
-        "old-mcq-05": "「某人以前擁有、使用或身處的，而非現在的」是「old job/school/home」的用法，與本句語境不同。",
-        "old-mcq-06": "「已認識很長時間的朋友」是「old friend」的用法，與本句語境不同。"
+        "old-mcq-01": "本句的「old」指「已活了很多年、處於人生較後階段的；年長的」。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-01"
     },
@@ -453,11 +445,9 @@ export default {
       "masked": "Many ____ people prefer to remain independent for as long as possible.",
       "options": [
         "old-mcq-01",
-        "old-mcq-02",
-        "old-mcq-03",
-        "old-mcq-04",
+        "old-mcq-17",
         "old-mcq-05",
-        "old-mcq-06"
+        "old-mcq-13"
       ],
       "explanation": "本句的「older」指「已活了很多年、處於人生較後階段的；年長的」。",
       "sentenceIndex": 2,
@@ -466,12 +456,10 @@ export default {
         "older"
       ],
       "optionReasons": {
-        "old-mcq-01": "本句指「已活了很多年、處於人生較後階段的；年長的」。",
-        "old-mcq-02": "「已經生長或存活了很長時間的」是「old — living thing」的用法，與本句語境不同。",
-        "old-mcq-03": "「已存在或使用多年、年代較久的」是「old — object/building」的用法，與本句語境不同。",
-        "old-mcq-04": "「來自較久以前年代或歷史時期的」是「old — from long ago」的用法，與本句語境不同。",
-        "old-mcq-05": "「某人以前擁有、使用或身處的，而非現在的」是「old job/school/home」的用法，與本句語境不同。",
-        "old-mcq-06": "「已認識很長時間的朋友」是「old friend」的用法，與本句語境不同。"
+        "old-mcq-01": "本句的「older」指「已活了很多年、處於人生較後階段的；年長的」。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-01"
     },
@@ -483,11 +471,9 @@ export default {
       "masked": "To me she is a bit like an ____ tree.",
       "options": [
         "old-mcq-02",
-        "old-mcq-01",
-        "old-mcq-03",
-        "old-mcq-04",
         "old-mcq-05",
-        "old-mcq-06"
+        "old-mcq-13",
+        "old-mcq-17"
       ],
       "explanation": "本句的「old」指「已經生長或存活了很長時間的」。",
       "sentenceIndex": 3,
@@ -496,12 +482,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-02": "本句指「已經生長或存活了很長時間的」。",
-        "old-mcq-01": "「已活了很多年、處於人生較後階段的；年長的」是「old — person」的用法，與本句語境不同。",
-        "old-mcq-03": "「已存在或使用多年、年代較久的」是「old — object/building」的用法，與本句語境不同。",
-        "old-mcq-04": "「來自較久以前年代或歷史時期的」是「old — from long ago」的用法，與本句語境不同。",
-        "old-mcq-05": "「某人以前擁有、使用或身處的，而非現在的」是「old job/school/home」的用法，與本句語境不同。",
-        "old-mcq-06": "「已認識很長時間的朋友」是「old friend」的用法，與本句語境不同。"
+        "old-mcq-02": "本句的「old」指「已經生長或存活了很長時間的」。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-02"
     },
@@ -513,11 +497,9 @@ export default {
       "masked": "An ____ oak tree stands in the centre of the village.",
       "options": [
         "old-mcq-02",
-        "old-mcq-01",
-        "old-mcq-03",
-        "old-mcq-04",
+        "old-mcq-13",
         "old-mcq-05",
-        "old-mcq-06"
+        "old-mcq-17"
       ],
       "explanation": "本句的「old」指「已經生長或存活了很長時間的」。",
       "sentenceIndex": 4,
@@ -526,12 +508,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-02": "本句指「已經生長或存活了很長時間的」。",
-        "old-mcq-01": "「已活了很多年、處於人生較後階段的；年長的」是「old — person」的用法，與本句語境不同。",
-        "old-mcq-03": "「已存在或使用多年、年代較久的」是「old — object/building」的用法，與本句語境不同。",
-        "old-mcq-04": "「來自較久以前年代或歷史時期的」是「old — from long ago」的用法，與本句語境不同。",
-        "old-mcq-05": "「某人以前擁有、使用或身處的，而非現在的」是「old job/school/home」的用法，與本句語境不同。",
-        "old-mcq-06": "「已認識很長時間的朋友」是「old friend」的用法，與本句語境不同。"
+        "old-mcq-02": "本句的「old」指「已經生長或存活了很長時間的」。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-02"
     },
@@ -543,11 +523,9 @@ export default {
       "masked": "They live in an ____ house near the river.",
       "options": [
         "old-mcq-03",
-        "old-mcq-02",
-        "old-mcq-04",
-        "old-mcq-01",
         "old-mcq-05",
-        "old-mcq-06"
+        "old-mcq-17",
+        "old-mcq-13"
       ],
       "explanation": "本句的「old」指「已存在或使用多年、年代較久的」。",
       "sentenceIndex": 5,
@@ -556,12 +534,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-03": "本句指「已存在或使用多年、年代較久的」。",
-        "old-mcq-02": "「已經生長或存活了很長時間的」是「old — living thing」的用法，與本句語境不同。",
-        "old-mcq-04": "「來自較久以前年代或歷史時期的」是「old — from long ago」的用法，與本句語境不同。",
-        "old-mcq-01": "「已活了很多年、處於人生較後階段的；年長的」是「old — person」的用法，與本句語境不同。",
-        "old-mcq-05": "「某人以前擁有、使用或身處的，而非現在的」是「old job/school/home」的用法，與本句語境不同。",
-        "old-mcq-06": "「已認識很長時間的朋友」是「old friend」的用法，與本句語境不同。"
+        "old-mcq-03": "本句的「old」指「已存在或使用多年、年代較久的」。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-03"
     },
@@ -573,11 +549,9 @@ export default {
       "masked": "My laptop is getting ____, so I may replace it soon.",
       "options": [
         "old-mcq-03",
-        "old-mcq-02",
-        "old-mcq-04",
-        "old-mcq-01",
         "old-mcq-05",
-        "old-mcq-06"
+        "old-mcq-17",
+        "old-mcq-09"
       ],
       "explanation": "本句的「old」指「已存在或使用多年、年代較久的」。",
       "sentenceIndex": 6,
@@ -586,12 +560,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-03": "本句指「已存在或使用多年、年代較久的」。",
-        "old-mcq-02": "「已經生長或存活了很長時間的」是「old — living thing」的用法，與本句語境不同。",
-        "old-mcq-04": "「來自較久以前年代或歷史時期的」是「old — from long ago」的用法，與本句語境不同。",
-        "old-mcq-01": "「已活了很多年、處於人生較後階段的；年長的」是「old — person」的用法，與本句語境不同。",
-        "old-mcq-05": "「某人以前擁有、使用或身處的，而非現在的」是「old job/school/home」的用法，與本句語境不同。",
-        "old-mcq-06": "「已認識很長時間的朋友」是「old friend」的用法，與本句語境不同。"
+        "old-mcq-03": "本句的「old」指「已存在或使用多年、年代較久的」。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-03"
     },
@@ -603,11 +575,9 @@ export default {
       "masked": "They discovered an ____ manuscript in the library.",
       "options": [
         "old-mcq-04",
-        "old-mcq-03",
-        "old-mcq-05",
-        "old-mcq-02",
-        "old-mcq-06",
-        "old-mcq-01"
+        "old-mcq-17",
+        "old-mcq-08",
+        "old-mcq-13"
       ],
       "explanation": "本句的「old」指「來自較久以前年代或歷史時期的」。",
       "sentenceIndex": 7,
@@ -616,12 +586,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-04": "本句指「來自較久以前年代或歷史時期的」。",
-        "old-mcq-03": "「已存在或使用多年、年代較久的」是「old — object/building」的用法，與本句語境不同。",
-        "old-mcq-05": "「某人以前擁有、使用或身處的，而非現在的」是「old job/school/home」的用法，與本句語境不同。",
-        "old-mcq-02": "「已經生長或存活了很長時間的」是「old — living thing」的用法，與本句語境不同。",
-        "old-mcq-06": "「已認識很長時間的朋友」是「old friend」的用法，與本句語境不同。",
-        "old-mcq-01": "「已活了很多年、處於人生較後階段的；年長的」是「old — person」的用法，與本句語境不同。"
+        "old-mcq-04": "本句的「old」指「來自較久以前年代或歷史時期的」。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-04"
     },
@@ -633,11 +601,9 @@ export default {
       "masked": "The museum contains many ____ photographs of the city.",
       "options": [
         "old-mcq-04",
-        "old-mcq-03",
-        "old-mcq-05",
-        "old-mcq-02",
-        "old-mcq-06",
-        "old-mcq-01"
+        "old-mcq-17",
+        "old-mcq-08",
+        "old-mcq-13"
       ],
       "explanation": "本句的「old」指「來自較久以前年代或歷史時期的」。",
       "sentenceIndex": 8,
@@ -646,12 +612,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-04": "本句指「來自較久以前年代或歷史時期的」。",
-        "old-mcq-03": "「已存在或使用多年、年代較久的」是「old — object/building」的用法，與本句語境不同。",
-        "old-mcq-05": "「某人以前擁有、使用或身處的，而非現在的」是「old job/school/home」的用法，與本句語境不同。",
-        "old-mcq-02": "「已經生長或存活了很長時間的」是「old — living thing」的用法，與本句語境不同。",
-        "old-mcq-06": "「已認識很長時間的朋友」是「old friend」的用法，與本句語境不同。",
-        "old-mcq-01": "「已活了很多年、處於人生較後階段的；年長的」是「old — person」的用法，與本句語境不同。"
+        "old-mcq-04": "本句的「old」指「來自較久以前年代或歷史時期的」。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-04"
     },
@@ -663,11 +627,9 @@ export default {
       "masked": "I met some colleagues from my ____ job.",
       "options": [
         "old-mcq-05",
-        "old-mcq-04",
-        "old-mcq-06",
-        "old-mcq-03",
-        "old-mcq-07",
-        "old-mcq-02"
+        "old-mcq-14",
+        "old-mcq-16",
+        "old-mcq-08"
       ],
       "explanation": "本句的「old」指「某人以前擁有、使用或身處的，而非現在的」。",
       "sentenceIndex": 9,
@@ -676,12 +638,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-05": "本句指「某人以前擁有、使用或身處的，而非現在的」。",
-        "old-mcq-04": "「來自較久以前年代或歷史時期的」是「old — from long ago」的用法，與本句語境不同。",
-        "old-mcq-06": "「已認識很長時間的朋友」是「old friend」的用法，與本句語境不同。",
-        "old-mcq-03": "「已存在或使用多年、年代較久的」是「old — object/building」的用法，與本句語境不同。",
-        "old-mcq-07": "「表示人／事物自出生或產生以來已有多少時間」是「years old」的用法，與本句語境不同。",
-        "old-mcq-02": "「已經生長或存活了很長時間的」是「old — living thing」的用法，與本句語境不同。"
+        "old-mcq-05": "本句的「old」指「某人以前擁有、使用或身處的，而非現在的」。",
+        "old-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-05"
     },
@@ -693,11 +653,9 @@ export default {
       "masked": "She went back to visit her ____ school.",
       "options": [
         "old-mcq-05",
-        "old-mcq-04",
-        "old-mcq-06",
+        "old-mcq-09",
         "old-mcq-03",
-        "old-mcq-07",
-        "old-mcq-02"
+        "old-mcq-13"
       ],
       "explanation": "本句的「old」指「某人以前擁有、使用或身處的，而非現在的」。",
       "sentenceIndex": 10,
@@ -706,12 +664,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-05": "本句指「某人以前擁有、使用或身處的，而非現在的」。",
-        "old-mcq-04": "「來自較久以前年代或歷史時期的」是「old — from long ago」的用法，與本句語境不同。",
-        "old-mcq-06": "「已認識很長時間的朋友」是「old friend」的用法，與本句語境不同。",
-        "old-mcq-03": "「已存在或使用多年、年代較久的」是「old — object/building」的用法，與本句語境不同。",
-        "old-mcq-07": "「表示人／事物自出生或產生以來已有多少時間」是「years old」的用法，與本句語境不同。",
-        "old-mcq-02": "「已經生長或存活了很長時間的」是「old — living thing」的用法，與本句語境不同。"
+        "old-mcq-05": "本句的「old」指「某人以前擁有、使用或身處的，而非現在的」。",
+        "old-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-05"
     },
@@ -723,11 +679,9 @@ export default {
       "masked": "I had dinner with an ____ friend from university.",
       "options": [
         "old-mcq-06",
-        "old-mcq-05",
-        "old-mcq-07",
-        "old-mcq-04",
-        "old-mcq-08",
-        "old-mcq-03"
+        "old-mcq-17",
+        "old-mcq-13",
+        "old-mcq-05"
       ],
       "explanation": "本句的「old」指「已認識很長時間的朋友」。",
       "sentenceIndex": 11,
@@ -736,12 +690,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-06": "本句指「已認識很長時間的朋友」。",
-        "old-mcq-05": "「某人以前擁有、使用或身處的，而非現在的」是「old job/school/home」的用法，與本句語境不同。",
-        "old-mcq-07": "「表示人／事物自出生或產生以來已有多少時間」是「years old」的用法，與本句語境不同。",
-        "old-mcq-04": "「來自較久以前年代或歷史時期的」是「old — from long ago」的用法，與本句語境不同。",
-        "old-mcq-08": "「年齡或成熟程度已足以進行某事」是「old enough to」的用法，與本句語境不同。",
-        "old-mcq-03": "「已存在或使用多年、年代較久的」是「old — object/building」的用法，與本句語境不同。"
+        "old-mcq-06": "本句的「old」指「已認識很長時間的朋友」。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-06"
     },
@@ -753,11 +705,9 @@ export default {
       "masked": "She ran into an ____ classmate at the station.",
       "options": [
         "old-mcq-06",
-        "old-mcq-05",
-        "old-mcq-07",
-        "old-mcq-04",
-        "old-mcq-08",
-        "old-mcq-03"
+        "old-mcq-14",
+        "old-mcq-09",
+        "old-mcq-13"
       ],
       "explanation": "本句的「old」指「已認識很長時間的朋友」。",
       "sentenceIndex": 12,
@@ -766,12 +716,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-06": "本句指「已認識很長時間的朋友」。",
-        "old-mcq-05": "「某人以前擁有、使用或身處的，而非現在的」是「old job/school/home」的用法，與本句語境不同。",
-        "old-mcq-07": "「表示人／事物自出生或產生以來已有多少時間」是「years old」的用法，與本句語境不同。",
-        "old-mcq-04": "「來自較久以前年代或歷史時期的」是「old — from long ago」的用法，與本句語境不同。",
-        "old-mcq-08": "「年齡或成熟程度已足以進行某事」是「old enough to」的用法，與本句語境不同。",
-        "old-mcq-03": "「已存在或使用多年、年代較久的」是「old — object/building」的用法，與本句語境不同。"
+        "old-mcq-06": "本句的「old」指「已認識很長時間的朋友」。",
+        "old-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-06"
     },
@@ -783,11 +731,9 @@ export default {
       "masked": "Her grandmother is seventy-eight years ____.",
       "options": [
         "old-mcq-07",
-        "old-mcq-06",
-        "old-mcq-08",
-        "old-mcq-05",
-        "old-mcq-09",
-        "old-mcq-04"
+        "old-mcq-13",
+        "old-mcq-17",
+        "old-mcq-05"
       ],
       "explanation": "本句的「old」指「表示人／事物自出生或產生以來已有多少時間」。",
       "sentenceIndex": 13,
@@ -796,12 +742,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-07": "本句指「表示人／事物自出生或產生以來已有多少時間」。",
-        "old-mcq-06": "「已認識很長時間的朋友」是「old friend」的用法，與本句語境不同。",
-        "old-mcq-08": "「年齡或成熟程度已足以進行某事」是「old enough to」的用法，與本句語境不同。",
-        "old-mcq-05": "「某人以前擁有、使用或身處的，而非現在的」是「old job/school/home」的用法，與本句語境不同。",
-        "old-mcq-09": "「年齡超出某項活動適合或可行的範圍」是「too old to/for」的用法，與本句語境不同。",
-        "old-mcq-04": "「來自較久以前年代或歷史時期的」是「old — from long ago」的用法，與本句語境不同。"
+        "old-mcq-07": "本句的「old」指「表示人／事物自出生或產生以來已有多少時間」。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-07"
     },
@@ -813,11 +757,9 @@ export default {
       "masked": "The baby is only six months ____.",
       "options": [
         "old-mcq-07",
-        "old-mcq-06",
-        "old-mcq-08",
+        "old-mcq-17",
         "old-mcq-05",
-        "old-mcq-09",
-        "old-mcq-04"
+        "old-mcq-13"
       ],
       "explanation": "本句的「old」指「表示人／事物自出生或產生以來已有多少時間」。",
       "sentenceIndex": 14,
@@ -826,12 +768,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-07": "本句指「表示人／事物自出生或產生以來已有多少時間」。",
-        "old-mcq-06": "「已認識很長時間的朋友」是「old friend」的用法，與本句語境不同。",
-        "old-mcq-08": "「年齡或成熟程度已足以進行某事」是「old enough to」的用法，與本句語境不同。",
-        "old-mcq-05": "「某人以前擁有、使用或身處的，而非現在的」是「old job/school/home」的用法，與本句語境不同。",
-        "old-mcq-09": "「年齡超出某項活動適合或可行的範圍」是「too old to/for」的用法，與本句語境不同。",
-        "old-mcq-04": "「來自較久以前年代或歷史時期的」是「old — from long ago」的用法，與本句語境不同。"
+        "old-mcq-07": "本句的「old」指「表示人／事物自出生或產生以來已有多少時間」。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-07"
     },
@@ -843,11 +783,9 @@ export default {
       "masked": "She is ____ enough to travel by herself.",
       "options": [
         "old-mcq-08",
-        "old-mcq-07",
-        "old-mcq-09",
-        "old-mcq-06",
-        "old-mcq-10",
-        "old-mcq-05"
+        "old-mcq-05",
+        "old-mcq-11",
+        "old-mcq-14"
       ],
       "explanation": "本句的「old」指「年齡或成熟程度已足以進行某事」。",
       "sentenceIndex": 15,
@@ -856,12 +794,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-08": "本句指「年齡或成熟程度已足以進行某事」。",
-        "old-mcq-07": "「表示人／事物自出生或產生以來已有多少時間」是「years old」的用法，與本句語境不同。",
-        "old-mcq-09": "「年齡超出某項活動適合或可行的範圍」是「too old to/for」的用法，與本句語境不同。",
-        "old-mcq-06": "「已認識很長時間的朋友」是「old friend」的用法，與本句語境不同。",
-        "old-mcq-10": "「已被較新版本或系統取代、不再是目前最新的」是「old version/system」的用法，與本句語境不同。",
-        "old-mcq-05": "「某人以前擁有、使用或身處的，而非現在的」是「old job/school/home」的用法，與本句語境不同。"
+        "old-mcq-08": "本句的「old」指「年齡或成熟程度已足以進行某事」。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-08"
     },
@@ -873,11 +809,9 @@ export default {
       "masked": "You are ____ enough to make your own decisions.",
       "options": [
         "old-mcq-08",
-        "old-mcq-07",
-        "old-mcq-09",
-        "old-mcq-06",
-        "old-mcq-10",
-        "old-mcq-05"
+        "old-mcq-05",
+        "old-mcq-11",
+        "old-mcq-13"
       ],
       "explanation": "本句的「old」指「年齡或成熟程度已足以進行某事」。",
       "sentenceIndex": 16,
@@ -886,12 +820,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-08": "本句指「年齡或成熟程度已足以進行某事」。",
-        "old-mcq-07": "「表示人／事物自出生或產生以來已有多少時間」是「years old」的用法，與本句語境不同。",
-        "old-mcq-09": "「年齡超出某項活動適合或可行的範圍」是「too old to/for」的用法，與本句語境不同。",
-        "old-mcq-06": "「已認識很長時間的朋友」是「old friend」的用法，與本句語境不同。",
-        "old-mcq-10": "「已被較新版本或系統取代、不再是目前最新的」是「old version/system」的用法，與本句語境不同。",
-        "old-mcq-05": "「某人以前擁有、使用或身處的，而非現在的」是「old job/school/home」的用法，與本句語境不同。"
+        "old-mcq-08": "本句的「old」指「年齡或成熟程度已足以進行某事」。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-08"
     },
@@ -903,10 +835,8 @@ export default {
       "masked": "He thinks he is too ____ to learn another language.",
       "options": [
         "old-mcq-09",
-        "old-mcq-08",
-        "old-mcq-10",
-        "old-mcq-07",
-        "old-mcq-11",
+        "old-mcq-17",
+        "old-mcq-13",
         "old-mcq-06"
       ],
       "explanation": "本句的「old」指「年齡超出某項活動適合或可行的範圍」。",
@@ -916,12 +846,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-09": "本句指「年齡超出某項活動適合或可行的範圍」。",
-        "old-mcq-08": "「年齡或成熟程度已足以進行某事」是「old enough to」的用法，與本句語境不同。",
-        "old-mcq-10": "「已被較新版本或系統取代、不再是目前最新的」是「old version/system」的用法，與本句語境不同。",
-        "old-mcq-07": "「表示人／事物自出生或產生以來已有多少時間」是「years old」的用法，與本句語境不同。",
-        "old-mcq-11": "「放置時間較長，以致不再新鮮或處於最佳狀態」是「old food」的用法，與本句語境不同。",
-        "old-mcq-06": "「已認識很長時間的朋友」是「old friend」的用法，與本句語境不同。"
+        "old-mcq-09": "本句的「old」指「年齡超出某項活動適合或可行的範圍」。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-09"
     },
@@ -933,11 +861,9 @@ export default {
       "masked": "She says she is too ____ for all-night parties now.",
       "options": [
         "old-mcq-09",
-        "old-mcq-08",
+        "old-mcq-06",
         "old-mcq-10",
-        "old-mcq-07",
-        "old-mcq-11",
-        "old-mcq-06"
+        "old-mcq-05"
       ],
       "explanation": "本句的「old」指「年齡超出某項活動適合或可行的範圍」。",
       "sentenceIndex": 18,
@@ -946,12 +872,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-09": "本句指「年齡超出某項活動適合或可行的範圍」。",
-        "old-mcq-08": "「年齡或成熟程度已足以進行某事」是「old enough to」的用法，與本句語境不同。",
-        "old-mcq-10": "「已被較新版本或系統取代、不再是目前最新的」是「old version/system」的用法，與本句語境不同。",
-        "old-mcq-07": "「表示人／事物自出生或產生以來已有多少時間」是「years old」的用法，與本句語境不同。",
-        "old-mcq-11": "「放置時間較長，以致不再新鮮或處於最佳狀態」是「old food」的用法，與本句語境不同。",
-        "old-mcq-06": "「已認識很長時間的朋友」是「old friend」的用法，與本句語境不同。"
+        "old-mcq-09": "本句的「old」指「年齡超出某項活動適合或可行的範圍」。",
+        "old-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-09"
     },
@@ -963,11 +887,9 @@ export default {
       "masked": "Delete the ____ version of the document.",
       "options": [
         "old-mcq-10",
-        "old-mcq-09",
-        "old-mcq-11",
-        "old-mcq-08",
-        "old-mcq-12",
-        "old-mcq-07"
+        "old-mcq-17",
+        "old-mcq-15",
+        "old-mcq-09"
       ],
       "explanation": "本句的「old」指「已被較新版本或系統取代、不再是目前最新的」。",
       "sentenceIndex": 19,
@@ -976,12 +898,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-10": "本句指「已被較新版本或系統取代、不再是目前最新的」。",
-        "old-mcq-09": "「年齡超出某項活動適合或可行的範圍」是「too old to/for」的用法，與本句語境不同。",
-        "old-mcq-11": "「放置時間較長，以致不再新鮮或處於最佳狀態」是「old food」的用法，與本句語境不同。",
-        "old-mcq-08": "「年齡或成熟程度已足以進行某事」是「old enough to」的用法，與本句語境不同。",
-        "old-mcq-12": "「屬於較早年代的風格、方式或觀念；老式／過時」是「old-fashioned」的用法，與本句語境不同。",
-        "old-mcq-07": "「表示人／事物自出生或產生以來已有多少時間」是「years old」的用法，與本句語境不同。"
+        "old-mcq-10": "本句的「old」指「已被較新版本或系統取代、不再是目前最新的」。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-10"
     },
@@ -993,11 +913,9 @@ export default {
       "masked": "The company replaced its ____ system with a newer one.",
       "options": [
         "old-mcq-10",
+        "old-mcq-15",
         "old-mcq-09",
-        "old-mcq-11",
-        "old-mcq-08",
-        "old-mcq-12",
-        "old-mcq-07"
+        "old-mcq-16"
       ],
       "explanation": "本句的「old」指「已被較新版本或系統取代、不再是目前最新的」。",
       "sentenceIndex": 20,
@@ -1006,12 +924,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-10": "本句指「已被較新版本或系統取代、不再是目前最新的」。",
-        "old-mcq-09": "「年齡超出某項活動適合或可行的範圍」是「too old to/for」的用法，與本句語境不同。",
-        "old-mcq-11": "「放置時間較長，以致不再新鮮或處於最佳狀態」是「old food」的用法，與本句語境不同。",
-        "old-mcq-08": "「年齡或成熟程度已足以進行某事」是「old enough to」的用法，與本句語境不同。",
-        "old-mcq-12": "「屬於較早年代的風格、方式或觀念；老式／過時」是「old-fashioned」的用法，與本句語境不同。",
-        "old-mcq-07": "「表示人／事物自出生或產生以來已有多少時間」是「years old」的用法，與本句語境不同。"
+        "old-mcq-10": "本句的「old」指「已被較新版本或系統取代、不再是目前最新的」。",
+        "old-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-10"
     },
@@ -1023,11 +939,9 @@ export default {
       "masked": "The bread tastes ____.",
       "options": [
         "old-mcq-11",
-        "old-mcq-10",
-        "old-mcq-12",
-        "old-mcq-09",
-        "old-mcq-13",
-        "old-mcq-08"
+        "old-mcq-08",
+        "old-mcq-17",
+        "old-mcq-15"
       ],
       "explanation": "本句的「old」指「放置時間較長，以致不再新鮮或處於最佳狀態」。",
       "sentenceIndex": 21,
@@ -1036,12 +950,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-11": "本句指「放置時間較長，以致不再新鮮或處於最佳狀態」。",
-        "old-mcq-10": "「已被較新版本或系統取代、不再是目前最新的」是「old version/system」的用法，與本句語境不同。",
-        "old-mcq-12": "「屬於較早年代的風格、方式或觀念；老式／過時」是「old-fashioned」的用法，與本句語境不同。",
-        "old-mcq-09": "「年齡超出某項活動適合或可行的範圍」是「too old to/for」的用法，與本句語境不同。",
-        "old-mcq-13": "「採用較傳統的態度、方法或風格」是「old-school」的用法，與本句語境不同。",
-        "old-mcq-08": "「年齡或成熟程度已足以進行某事」是「old enough to」的用法，與本句語境不同。"
+        "old-mcq-11": "本句的「old」指「放置時間較長，以致不再新鮮或處於最佳狀態」。",
+        "old-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-11"
     },
@@ -1053,11 +965,9 @@ export default {
       "masked": "Throw away any ____ food in the fridge.",
       "options": [
         "old-mcq-11",
-        "old-mcq-10",
-        "old-mcq-12",
-        "old-mcq-09",
-        "old-mcq-13",
-        "old-mcq-08"
+        "old-mcq-08",
+        "old-mcq-17",
+        "old-mcq-05"
       ],
       "explanation": "本句的「old」指「放置時間較長，以致不再新鮮或處於最佳狀態」。",
       "sentenceIndex": 22,
@@ -1066,12 +976,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-11": "本句指「放置時間較長，以致不再新鮮或處於最佳狀態」。",
-        "old-mcq-10": "「已被較新版本或系統取代、不再是目前最新的」是「old version/system」的用法，與本句語境不同。",
-        "old-mcq-12": "「屬於較早年代的風格、方式或觀念；老式／過時」是「old-fashioned」的用法，與本句語境不同。",
-        "old-mcq-09": "「年齡超出某項活動適合或可行的範圍」是「too old to/for」的用法，與本句語境不同。",
-        "old-mcq-13": "「採用較傳統的態度、方法或風格」是「old-school」的用法，與本句語境不同。",
-        "old-mcq-08": "「年齡或成熟程度已足以進行某事」是「old enough to」的用法，與本句語境不同。"
+        "old-mcq-11": "本句的「old」指「放置時間較長，以致不再新鮮或處於最佳狀態」。",
+        "old-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-11"
     },
@@ -1083,11 +991,9 @@ export default {
       "masked": "The hotel has a charming ____ interior.",
       "options": [
         "old-mcq-12",
-        "old-mcq-11",
-        "old-mcq-13",
-        "old-mcq-10",
-        "old-mcq-14",
-        "old-mcq-09"
+        "old-mcq-05",
+        "old-mcq-17",
+        "old-mcq-08"
       ],
       "explanation": "本句的「old-fashioned」指「屬於較早年代的風格、方式或觀念；老式／過時」。",
       "sentenceIndex": 23,
@@ -1096,12 +1002,10 @@ export default {
         "old-fashioned"
       ],
       "optionReasons": {
-        "old-mcq-12": "本句指「屬於較早年代的風格、方式或觀念；老式／過時」。",
-        "old-mcq-11": "「放置時間較長，以致不再新鮮或處於最佳狀態」是「old food」的用法，與本句語境不同。",
-        "old-mcq-13": "「採用較傳統的態度、方法或風格」是「old-school」的用法，與本句語境不同。",
-        "old-mcq-10": "「已被較新版本或系統取代、不再是目前最新的」是「old version/system」的用法，與本句語境不同。",
-        "old-mcq-14": "「人生較後期、年紀較大的階段」是「old age」的用法，與本句語境不同。",
-        "old-mcq-09": "「年齡超出某項活動適合或可行的範圍」是「too old to/for」的用法，與本句語境不同。"
+        "old-mcq-12": "本句的「old-fashioned」指「屬於較早年代的風格、方式或觀念；老式／過時」。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-12"
     },
@@ -1113,11 +1017,9 @@ export default {
       "masked": "Some people think that view is ____.",
       "options": [
         "old-mcq-12",
-        "old-mcq-11",
-        "old-mcq-13",
-        "old-mcq-10",
-        "old-mcq-14",
-        "old-mcq-09"
+        "old-mcq-05",
+        "old-mcq-08",
+        "old-mcq-17"
       ],
       "explanation": "本句的「old-fashioned」指「屬於較早年代的風格、方式或觀念；老式／過時」。",
       "sentenceIndex": 24,
@@ -1126,12 +1028,10 @@ export default {
         "old-fashioned"
       ],
       "optionReasons": {
-        "old-mcq-12": "本句指「屬於較早年代的風格、方式或觀念；老式／過時」。",
-        "old-mcq-11": "「放置時間較長，以致不再新鮮或處於最佳狀態」是「old food」的用法，與本句語境不同。",
-        "old-mcq-13": "「採用較傳統的態度、方法或風格」是「old-school」的用法，與本句語境不同。",
-        "old-mcq-10": "「已被較新版本或系統取代、不再是目前最新的」是「old version/system」的用法，與本句語境不同。",
-        "old-mcq-14": "「人生較後期、年紀較大的階段」是「old age」的用法，與本句語境不同。",
-        "old-mcq-09": "「年齡超出某項活動適合或可行的範圍」是「too old to/for」的用法，與本句語境不同。"
+        "old-mcq-12": "本句的「old-fashioned」指「屬於較早年代的風格、方式或觀念；老式／過時」。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-12"
     },
@@ -1143,11 +1043,9 @@ export default {
       "masked": "My grandfather is very ____ about manners.",
       "options": [
         "old-mcq-13",
-        "old-mcq-12",
-        "old-mcq-14",
-        "old-mcq-11",
-        "old-mcq-15",
-        "old-mcq-10"
+        "old-mcq-02",
+        "old-mcq-17",
+        "old-mcq-09"
       ],
       "explanation": "本句的「old-school」指「採用較傳統的態度、方法或風格」。",
       "sentenceIndex": 25,
@@ -1156,12 +1054,10 @@ export default {
         "old-school"
       ],
       "optionReasons": {
-        "old-mcq-13": "本句指「採用較傳統的態度、方法或風格」。",
-        "old-mcq-12": "「屬於較早年代的風格、方式或觀念；老式／過時」是「old-fashioned」的用法，與本句語境不同。",
-        "old-mcq-14": "「人生較後期、年紀較大的階段」是「old age」的用法，與本句語境不同。",
-        "old-mcq-11": "「放置時間較長，以致不再新鮮或處於最佳狀態」是「old food」的用法，與本句語境不同。",
-        "old-mcq-15": "「作為一個群體來說的年長人士」是「the old」的用法，與本句語境不同。",
-        "old-mcq-10": "「已被較新版本或系統取代、不再是目前最新的」是「old version/system」的用法，與本句語境不同。"
+        "old-mcq-13": "本句的「old-school」指「採用較傳統的態度、方法或風格」。",
+        "old-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-13"
     },
@@ -1173,11 +1069,9 @@ export default {
       "masked": "The café has an ____ atmosphere.",
       "options": [
         "old-mcq-13",
-        "old-mcq-12",
-        "old-mcq-14",
-        "old-mcq-11",
-        "old-mcq-15",
-        "old-mcq-10"
+        "old-mcq-02",
+        "old-mcq-17",
+        "old-mcq-09"
       ],
       "explanation": "本句的「old-school」指「採用較傳統的態度、方法或風格」。",
       "sentenceIndex": 26,
@@ -1186,12 +1080,10 @@ export default {
         "old-school"
       ],
       "optionReasons": {
-        "old-mcq-13": "本句指「採用較傳統的態度、方法或風格」。",
-        "old-mcq-12": "「屬於較早年代的風格、方式或觀念；老式／過時」是「old-fashioned」的用法，與本句語境不同。",
-        "old-mcq-14": "「人生較後期、年紀較大的階段」是「old age」的用法，與本句語境不同。",
-        "old-mcq-11": "「放置時間較長，以致不再新鮮或處於最佳狀態」是「old food」的用法，與本句語境不同。",
-        "old-mcq-15": "「作為一個群體來說的年長人士」是「the old」的用法，與本句語境不同。",
-        "old-mcq-10": "「已被較新版本或系統取代、不再是目前最新的」是「old version/system」的用法，與本句語境不同。"
+        "old-mcq-13": "本句的「old-school」指「採用較傳統的態度、方法或風格」。",
+        "old-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-13"
     },
@@ -1203,11 +1095,9 @@ export default {
       "masked": "Regular exercise can improve quality of life in ____ age.",
       "options": [
         "old-mcq-14",
-        "old-mcq-13",
-        "old-mcq-15",
-        "old-mcq-12",
-        "old-mcq-16",
-        "old-mcq-11"
+        "old-mcq-06",
+        "old-mcq-05",
+        "old-mcq-17"
       ],
       "explanation": "本句的「old」指「人生較後期、年紀較大的階段」。",
       "sentenceIndex": 27,
@@ -1216,12 +1106,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-14": "本句指「人生較後期、年紀較大的階段」。",
-        "old-mcq-13": "「採用較傳統的態度、方法或風格」是「old-school」的用法，與本句語境不同。",
-        "old-mcq-15": "「作為一個群體來說的年長人士」是「the old」的用法，與本句語境不同。",
-        "old-mcq-12": "「屬於較早年代的風格、方式或觀念；老式／過時」是「old-fashioned」的用法，與本句語境不同。",
-        "old-mcq-16": "「過去某段常帶回憶或懷念色彩的時期」是「the old days」的用法，與本句語境不同。",
-        "old-mcq-11": "「放置時間較長，以致不再新鮮或處於最佳狀態」是「old food」的用法，與本句語境不同。"
+        "old-mcq-14": "本句的「old」指「人生較後期、年紀較大的階段」。",
+        "old-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-14"
     },
@@ -1233,11 +1121,9 @@ export default {
       "masked": "She remained active well into ____ age.",
       "options": [
         "old-mcq-14",
-        "old-mcq-13",
-        "old-mcq-15",
-        "old-mcq-12",
-        "old-mcq-16",
-        "old-mcq-11"
+        "old-mcq-06",
+        "old-mcq-17",
+        "old-mcq-05"
       ],
       "explanation": "本句的「old」指「人生較後期、年紀較大的階段」。",
       "sentenceIndex": 28,
@@ -1246,12 +1132,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-14": "本句指「人生較後期、年紀較大的階段」。",
-        "old-mcq-13": "「採用較傳統的態度、方法或風格」是「old-school」的用法，與本句語境不同。",
-        "old-mcq-15": "「作為一個群體來說的年長人士」是「the old」的用法，與本句語境不同。",
-        "old-mcq-12": "「屬於較早年代的風格、方式或觀念；老式／過時」是「old-fashioned」的用法，與本句語境不同。",
-        "old-mcq-16": "「過去某段常帶回憶或懷念色彩的時期」是「the old days」的用法，與本句語境不同。",
-        "old-mcq-11": "「放置時間較長，以致不再新鮮或處於最佳狀態」是「old food」的用法，與本句語境不同。"
+        "old-mcq-14": "本句的「old」指「人生較後期、年紀較大的階段」。",
+        "old-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-14"
     },
@@ -1263,11 +1147,9 @@ export default {
       "masked": "Traditional societies often emphasized respect for the ____.",
       "options": [
         "old-mcq-15",
-        "old-mcq-14",
         "old-mcq-16",
-        "old-mcq-13",
-        "old-mcq-17",
-        "old-mcq-12"
+        "old-mcq-10",
+        "old-mcq-13"
       ],
       "explanation": "本句的「old」指「作為一個群體來說的年長人士」。",
       "sentenceIndex": 29,
@@ -1276,12 +1158,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-15": "本句指「作為一個群體來說的年長人士」。",
-        "old-mcq-14": "「人生較後期、年紀較大的階段」是「old age」的用法，與本句語境不同。",
-        "old-mcq-16": "「過去某段常帶回憶或懷念色彩的時期」是「the old days」的用法，與本句語境不同。",
-        "old-mcq-13": "「採用較傳統的態度、方法或風格」是「old-school」的用法，與本句語境不同。",
-        "old-mcq-17": "「對熟悉的人／事物表達親切、喜愛或懷念」是「good old...」的用法，與本句語境不同。",
-        "old-mcq-12": "「屬於較早年代的風格、方式或觀念；老式／過時」是「old-fashioned」的用法，與本句語境不同。"
+        "old-mcq-15": "本句的「old」指「作為一個群體來說的年長人士」。",
+        "old-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-15"
     },
@@ -1293,11 +1173,9 @@ export default {
       "masked": "The policy was designed to support both the young and the ____.",
       "options": [
         "old-mcq-15",
-        "old-mcq-14",
-        "old-mcq-16",
-        "old-mcq-13",
         "old-mcq-17",
-        "old-mcq-12"
+        "old-mcq-10",
+        "old-mcq-13"
       ],
       "explanation": "本句的「old」指「作為一個群體來說的年長人士」。",
       "sentenceIndex": 30,
@@ -1306,12 +1184,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-15": "本句指「作為一個群體來說的年長人士」。",
-        "old-mcq-14": "「人生較後期、年紀較大的階段」是「old age」的用法，與本句語境不同。",
-        "old-mcq-16": "「過去某段常帶回憶或懷念色彩的時期」是「the old days」的用法，與本句語境不同。",
-        "old-mcq-13": "「採用較傳統的態度、方法或風格」是「old-school」的用法，與本句語境不同。",
-        "old-mcq-17": "「對熟悉的人／事物表達親切、喜愛或懷念」是「good old...」的用法，與本句語境不同。",
-        "old-mcq-12": "「屬於較早年代的風格、方式或觀念；老式／過時」是「old-fashioned」的用法，與本句語境不同。"
+        "old-mcq-15": "本句的「old」指「作為一個群體來說的年長人士」。",
+        "old-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-15"
     },
@@ -1323,11 +1199,9 @@ export default {
       "masked": "He often talks about the ____ days.",
       "options": [
         "old-mcq-16",
-        "old-mcq-15",
-        "old-mcq-17",
-        "old-mcq-14",
-        "old-mcq-13",
-        "old-mcq-12"
+        "old-mcq-10",
+        "old-mcq-08",
+        "old-mcq-05"
       ],
       "explanation": "本句的「old」指「過去某段常帶回憶或懷念色彩的時期」。",
       "sentenceIndex": 31,
@@ -1336,12 +1210,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-16": "本句指「過去某段常帶回憶或懷念色彩的時期」。",
-        "old-mcq-15": "「作為一個群體來說的年長人士」是「the old」的用法，與本句語境不同。",
-        "old-mcq-17": "「對熟悉的人／事物表達親切、喜愛或懷念」是「good old...」的用法，與本句語境不同。",
-        "old-mcq-14": "「人生較後期、年紀較大的階段」是「old age」的用法，與本句語境不同。",
-        "old-mcq-13": "「採用較傳統的態度、方法或風格」是「old-school」的用法，與本句語境不同。",
-        "old-mcq-12": "「屬於較早年代的風格、方式或觀念；老式／過時」是「old-fashioned」的用法，與本句語境不同。"
+        "old-mcq-16": "本句的「old」指「過去某段常帶回憶或懷念色彩的時期」。",
+        "old-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-16"
     },
@@ -1353,11 +1225,9 @@ export default {
       "masked": "Things were very different in the ____ days.",
       "options": [
         "old-mcq-16",
-        "old-mcq-15",
-        "old-mcq-17",
-        "old-mcq-14",
+        "old-mcq-09",
         "old-mcq-13",
-        "old-mcq-12"
+        "old-mcq-10"
       ],
       "explanation": "本句的「old」指「過去某段常帶回憶或懷念色彩的時期」。",
       "sentenceIndex": 32,
@@ -1366,12 +1236,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-16": "本句指「過去某段常帶回憶或懷念色彩的時期」。",
-        "old-mcq-15": "「作為一個群體來說的年長人士」是「the old」的用法，與本句語境不同。",
-        "old-mcq-17": "「對熟悉的人／事物表達親切、喜愛或懷念」是「good old...」的用法，與本句語境不同。",
-        "old-mcq-14": "「人生較後期、年紀較大的階段」是「old age」的用法，與本句語境不同。",
-        "old-mcq-13": "「採用較傳統的態度、方法或風格」是「old-school」的用法，與本句語境不同。",
-        "old-mcq-12": "「屬於較早年代的風格、方式或觀念；老式／過時」是「old-fashioned」的用法，與本句語境不同。"
+        "old-mcq-16": "本句的「old」指「過去某段常帶回憶或懷念色彩的時期」。",
+        "old-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-16"
     },
@@ -1383,11 +1251,9 @@ export default {
       "masked": "Nothing beats good ____ homemade food.",
       "options": [
         "old-mcq-17",
-        "old-mcq-16",
-        "old-mcq-15",
-        "old-mcq-14",
         "old-mcq-13",
-        "old-mcq-12"
+        "old-mcq-03",
+        "old-mcq-15"
       ],
       "explanation": "本句的「old」指「對熟悉的人／事物表達親切、喜愛或懷念」。",
       "sentenceIndex": 33,
@@ -1396,12 +1262,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-17": "本句指「對熟悉的人／事物表達親切、喜愛或懷念」。",
-        "old-mcq-16": "「過去某段常帶回憶或懷念色彩的時期」是「the old days」的用法，與本句語境不同。",
-        "old-mcq-15": "「作為一個群體來說的年長人士」是「the old」的用法，與本句語境不同。",
-        "old-mcq-14": "「人生較後期、年紀較大的階段」是「old age」的用法，與本句語境不同。",
-        "old-mcq-13": "「採用較傳統的態度、方法或風格」是「old-school」的用法，與本句語境不同。",
-        "old-mcq-12": "「屬於較早年代的風格、方式或觀念；老式／過時」是「old-fashioned」的用法，與本句語境不同。"
+        "old-mcq-17": "本句的「old」指「對熟悉的人／事物表達親切、喜愛或懷念」。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-17"
     },
@@ -1413,11 +1277,9 @@ export default {
       "masked": "I spent the evening with good ____ Tom.",
       "options": [
         "old-mcq-17",
-        "old-mcq-16",
+        "old-mcq-03",
         "old-mcq-15",
-        "old-mcq-14",
-        "old-mcq-13",
-        "old-mcq-12"
+        "old-mcq-13"
       ],
       "explanation": "本句的「old」指「對熟悉的人／事物表達親切、喜愛或懷念」。",
       "sentenceIndex": 34,
@@ -1426,12 +1288,10 @@ export default {
         "old"
       ],
       "optionReasons": {
-        "old-mcq-17": "本句指「對熟悉的人／事物表達親切、喜愛或懷念」。",
-        "old-mcq-16": "「過去某段常帶回憶或懷念色彩的時期」是「the old days」的用法，與本句語境不同。",
-        "old-mcq-15": "「作為一個群體來說的年長人士」是「the old」的用法，與本句語境不同。",
-        "old-mcq-14": "「人生較後期、年紀較大的階段」是「old age」的用法，與本句語境不同。",
-        "old-mcq-13": "「採用較傳統的態度、方法或風格」是「old-school」的用法，與本句語境不同。",
-        "old-mcq-12": "「屬於較早年代的風格、方式或觀念；老式／過時」是「old-fashioned」的用法，與本句語境不同。"
+        "old-mcq-17": "本句的「old」指「對熟悉的人／事物表達親切、喜愛或懷念」。",
+        "old-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "old-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "old-mcq-17"
     }
@@ -1443,5 +1303,7 @@ export default {
     "sha256": "a04362944b3ca4a3ce7f5d0e573c6a92ce77579f217ddf1c35563b72cd2215e6",
     "pages": 8
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -514,10 +514,7 @@ export default {
       "masked": "I’ll meet you at the ____.",
       "options": [
         "station-mcq-01",
-        "station-mcq-02",
-        "station-mcq-03",
-        "station-mcq-04",
-        "station-mcq-05",
+        "station-mcq-10",
         "station-mcq-06"
       ],
       "explanation": "本句的「station」指「供交通工具停靠、乘客上落及相關服務運作的固定設施」。",
@@ -527,12 +524,9 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-01": "本句指「供交通工具停靠、乘客上落及相關服務運作的固定設施」。",
-        "station-mcq-02": "「供火車停靠及乘客上落的鐵路設施」是「train/railway station」的用法，與本句語境不同。",
-        "station-mcq-03": "「多條巴士／長途巴士集中停靠和開出的較大型設施」是「bus station」的用法，與本句語境不同。",
-        "station-mcq-04": "「某種公共服務、人員或設備駐守並執行工作的基地」是「station — service base」的用法，與本句語境不同。",
-        "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。"
+        "station-mcq-01": "本句的「station」指「供交通工具停靠、乘客上落及相關服務運作的固定設施」。",
+        "station-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-01"
     },
@@ -544,11 +538,8 @@ export default {
       "masked": "The train has just left the ____.",
       "options": [
         "station-mcq-01",
-        "station-mcq-02",
-        "station-mcq-03",
-        "station-mcq-04",
-        "station-mcq-05",
-        "station-mcq-06"
+        "station-mcq-11",
+        "station-mcq-18"
       ],
       "explanation": "本句的「station」指「供交通工具停靠、乘客上落及相關服務運作的固定設施」。",
       "sentenceIndex": 1,
@@ -557,12 +548,9 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-01": "本句指「供交通工具停靠、乘客上落及相關服務運作的固定設施」。",
-        "station-mcq-02": "「供火車停靠及乘客上落的鐵路設施」是「train/railway station」的用法，與本句語境不同。",
-        "station-mcq-03": "「多條巴士／長途巴士集中停靠和開出的較大型設施」是「bus station」的用法，與本句語境不同。",
-        "station-mcq-04": "「某種公共服務、人員或設備駐守並執行工作的基地」是「station — service base」的用法，與本句語境不同。",
-        "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。"
+        "station-mcq-01": "本句的「station」指「供交通工具停靠、乘客上落及相關服務運作的固定設施」。",
+        "station-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-01"
     },
@@ -574,10 +562,8 @@ export default {
       "masked": "The ____ is ten minutes away.",
       "options": [
         "station-mcq-02",
-        "station-mcq-01",
-        "station-mcq-03",
-        "station-mcq-04",
         "station-mcq-05",
+        "station-mcq-12",
         "station-mcq-06"
       ],
       "explanation": "本句的「train station」指「供火車停靠及乘客上落的鐵路設施」。",
@@ -587,12 +573,10 @@ export default {
         "train station"
       ],
       "optionReasons": {
-        "station-mcq-02": "本句指「供火車停靠及乘客上落的鐵路設施」。",
-        "station-mcq-01": "「供交通工具停靠、乘客上落及相關服務運作的固定設施」是「station — transport facility」的用法，與本句語境不同。",
-        "station-mcq-03": "「多條巴士／長途巴士集中停靠和開出的較大型設施」是「bus station」的用法，與本句語境不同。",
-        "station-mcq-04": "「某種公共服務、人員或設備駐守並執行工作的基地」是「station — service base」的用法，與本句語境不同。",
-        "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。"
+        "station-mcq-02": "本句的「train station」指「供火車停靠及乘客上落的鐵路設施」。",
+        "station-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-02"
     },
@@ -604,10 +588,8 @@ export default {
       "masked": "She waited outside the ____.",
       "options": [
         "station-mcq-02",
-        "station-mcq-01",
-        "station-mcq-03",
-        "station-mcq-04",
         "station-mcq-05",
+        "station-mcq-12",
         "station-mcq-06"
       ],
       "explanation": "本句的「railway station」指「供火車停靠及乘客上落的鐵路設施」。",
@@ -617,12 +599,10 @@ export default {
         "railway station"
       ],
       "optionReasons": {
-        "station-mcq-02": "本句指「供火車停靠及乘客上落的鐵路設施」。",
-        "station-mcq-01": "「供交通工具停靠、乘客上落及相關服務運作的固定設施」是「station — transport facility」的用法，與本句語境不同。",
-        "station-mcq-03": "「多條巴士／長途巴士集中停靠和開出的較大型設施」是「bus station」的用法，與本句語境不同。",
-        "station-mcq-04": "「某種公共服務、人員或設備駐守並執行工作的基地」是「station — service base」的用法，與本句語境不同。",
-        "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。"
+        "station-mcq-02": "本句的「railway station」指「供火車停靠及乘客上落的鐵路設施」。",
+        "station-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-02"
     },
@@ -634,11 +614,8 @@ export default {
       "masked": "The bus leaves from the main ____.",
       "options": [
         "station-pdf-001",
-        "station-mcq-02",
-        "station-mcq-04",
-        "station-mcq-01",
-        "station-mcq-05",
-        "station-mcq-06"
+        "station-mcq-11",
+        "station-mcq-18"
       ],
       "explanation": "本句的「station」指「為某種公共交通服務設置、供車輛停靠及乘客上落的地方」。",
       "sentenceIndex": 4,
@@ -647,12 +624,9 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-pdf-001": "本句指「為某種公共交通服務設置、供車輛停靠及乘客上落的地方」。",
-        "station-mcq-02": "「供火車停靠及乘客上落的鐵路設施」是「train/railway station」的用法，與本句語境不同。",
-        "station-mcq-04": "「某種公共服務、人員或設備駐守並執行工作的基地」是「station — service base」的用法，與本句語境不同。",
-        "station-mcq-01": "「供交通工具停靠、乘客上落及相關服務運作的固定設施」是「station — transport facility」的用法，與本句語境不同。",
-        "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。"
+        "station-pdf-001": "本句的「station」指「為某種公共交通服務設置、供車輛停靠及乘客上落的地方」。",
+        "station-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-pdf-001"
     },
@@ -664,11 +638,9 @@ export default {
       "masked": "We waited at the bus ____.",
       "options": [
         "station-pdf-001",
-        "station-mcq-02",
-        "station-mcq-04",
-        "station-mcq-01",
-        "station-mcq-05",
-        "station-mcq-06"
+        "station-mcq-20",
+        "station-mcq-18",
+        "station-mcq-14"
       ],
       "explanation": "本句的「station」指「為某種公共交通服務設置、供車輛停靠及乘客上落的地方」。",
       "sentenceIndex": 5,
@@ -677,12 +649,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-pdf-001": "本句指「為某種公共交通服務設置、供車輛停靠及乘客上落的地方」。",
-        "station-mcq-02": "「供火車停靠及乘客上落的鐵路設施」是「train/railway station」的用法，與本句語境不同。",
-        "station-mcq-04": "「某種公共服務、人員或設備駐守並執行工作的基地」是「station — service base」的用法，與本句語境不同。",
-        "station-mcq-01": "「供交通工具停靠、乘客上落及相關服務運作的固定設施」是「station — transport facility」的用法，與本句語境不同。",
-        "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。"
+        "station-pdf-001": "本句的「station」指「為某種公共交通服務設置、供車輛停靠及乘客上落的地方」。",
+        "station-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-pdf-001"
     },
@@ -694,11 +664,9 @@ export default {
       "masked": "The coach arrives at the central ____.",
       "options": [
         "station-mcq-03",
-        "station-mcq-02",
-        "station-mcq-04",
-        "station-mcq-01",
-        "station-mcq-05",
-        "station-mcq-06"
+        "station-mcq-10",
+        "station-mcq-18",
+        "station-mcq-16"
       ],
       "explanation": "本句的「bus station」指「多條巴士／長途巴士集中停靠和開出的較大型設施」。",
       "sentenceIndex": 6,
@@ -707,12 +675,10 @@ export default {
         "bus station"
       ],
       "optionReasons": {
-        "station-mcq-03": "本句指「多條巴士／長途巴士集中停靠和開出的較大型設施」。",
-        "station-mcq-02": "「供火車停靠及乘客上落的鐵路設施」是「train/railway station」的用法，與本句語境不同。",
-        "station-mcq-04": "「某種公共服務、人員或設備駐守並執行工作的基地」是「station — service base」的用法，與本句語境不同。",
-        "station-mcq-01": "「供交通工具停靠、乘客上落及相關服務運作的固定設施」是「station — transport facility」的用法，與本句語境不同。",
-        "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。"
+        "station-mcq-03": "本句的「bus station」指「多條巴士／長途巴士集中停靠和開出的較大型設施」。",
+        "station-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-03"
     },
@@ -724,11 +690,9 @@ export default {
       "masked": "There are several shops inside the ____.",
       "options": [
         "station-mcq-03",
-        "station-mcq-02",
-        "station-mcq-04",
-        "station-mcq-01",
-        "station-mcq-05",
-        "station-mcq-06"
+        "station-mcq-18",
+        "station-mcq-11",
+        "station-mcq-12"
       ],
       "explanation": "本句的「bus station」指「多條巴士／長途巴士集中停靠和開出的較大型設施」。",
       "sentenceIndex": 7,
@@ -737,12 +701,10 @@ export default {
         "bus station"
       ],
       "optionReasons": {
-        "station-mcq-03": "本句指「多條巴士／長途巴士集中停靠和開出的較大型設施」。",
-        "station-mcq-02": "「供火車停靠及乘客上落的鐵路設施」是「train/railway station」的用法，與本句語境不同。",
-        "station-mcq-04": "「某種公共服務、人員或設備駐守並執行工作的基地」是「station — service base」的用法，與本句語境不同。",
-        "station-mcq-01": "「供交通工具停靠、乘客上落及相關服務運作的固定設施」是「station — transport facility」的用法，與本句語境不同。",
-        "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。"
+        "station-mcq-03": "本句的「bus station」指「多條巴士／長途巴士集中停靠和開出的較大型設施」。",
+        "station-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-03"
     },
@@ -754,11 +716,7 @@ export default {
       "masked": "He works at the local police ____.",
       "options": [
         "station-mcq-04",
-        "station-mcq-03",
-        "station-mcq-05",
-        "station-mcq-02",
-        "station-mcq-06",
-        "station-mcq-01"
+        "station-mcq-02"
       ],
       "explanation": "本句的「station」指「某種公共服務、人員或設備駐守並執行工作的基地」。",
       "sentenceIndex": 8,
@@ -767,12 +725,8 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-04": "本句指「某種公共服務、人員或設備駐守並執行工作的基地」。",
-        "station-mcq-03": "「多條巴士／長途巴士集中停靠和開出的較大型設施」是「bus station」的用法，與本句語境不同。",
-        "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。",
-        "station-mcq-02": "「供火車停靠及乘客上落的鐵路設施」是「train/railway station」的用法，與本句語境不同。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。",
-        "station-mcq-01": "「供交通工具停靠、乘客上落及相關服務運作的固定設施」是「station — transport facility」的用法，與本句語境不同。"
+        "station-mcq-04": "本句的「station」指「某種公共服務、人員或設備駐守並執行工作的基地」。",
+        "station-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-04"
     },
@@ -784,11 +738,7 @@ export default {
       "masked": "The fire ____ is nearby.",
       "options": [
         "station-mcq-04",
-        "station-mcq-03",
-        "station-mcq-05",
-        "station-mcq-02",
-        "station-mcq-06",
-        "station-mcq-01"
+        "station-mcq-03"
       ],
       "explanation": "本句的「station」指「某種公共服務、人員或設備駐守並執行工作的基地」。",
       "sentenceIndex": 9,
@@ -797,12 +747,8 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-04": "本句指「某種公共服務、人員或設備駐守並執行工作的基地」。",
-        "station-mcq-03": "「多條巴士／長途巴士集中停靠和開出的較大型設施」是「bus station」的用法，與本句語境不同。",
-        "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。",
-        "station-mcq-02": "「供火車停靠及乘客上落的鐵路設施」是「train/railway station」的用法，與本句語境不同。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。",
-        "station-mcq-01": "「供交通工具停靠、乘客上落及相關服務運作的固定設施」是「station — transport facility」的用法，與本句語境不同。"
+        "station-mcq-04": "本句的「station」指「某種公共服務、人員或設備駐守並執行工作的基地」。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-04"
     },
@@ -814,11 +760,9 @@ export default {
       "masked": "She reported the theft at the police ____.",
       "options": [
         "station-mcq-05",
-        "station-mcq-04",
-        "station-mcq-06",
         "station-mcq-03",
-        "station-mcq-07",
-        "station-mcq-02"
+        "station-mcq-06",
+        "station-mcq-12"
       ],
       "explanation": "本句的「station」指「警務人員辦公及處理警務工作的地方」。",
       "sentenceIndex": 10,
@@ -827,12 +771,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-05": "本句指「警務人員辦公及處理警務工作的地方」。",
-        "station-mcq-04": "「某種公共服務、人員或設備駐守並執行工作的基地」是「station — service base」的用法，與本句語境不同。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。",
-        "station-mcq-03": "「多條巴士／長途巴士集中停靠和開出的較大型設施」是「bus station」的用法，與本句語境不同。",
-        "station-mcq-07": "「供研究人員工作、生活或觀測的研究基地」是「research station」的用法，與本句語境不同。",
-        "station-mcq-02": "「供火車停靠及乘客上落的鐵路設施」是「train/railway station」的用法，與本句語境不同。"
+        "station-mcq-05": "本句的「station」指「警務人員辦公及處理警務工作的地方」。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-05"
     },
@@ -844,11 +786,9 @@ export default {
       "masked": "The nearest police ____ is across the road.",
       "options": [
         "station-mcq-05",
-        "station-mcq-04",
-        "station-mcq-06",
         "station-mcq-03",
-        "station-mcq-07",
-        "station-mcq-02"
+        "station-mcq-12",
+        "station-mcq-06"
       ],
       "explanation": "本句的「station」指「警務人員辦公及處理警務工作的地方」。",
       "sentenceIndex": 11,
@@ -857,12 +797,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-05": "本句指「警務人員辦公及處理警務工作的地方」。",
-        "station-mcq-04": "「某種公共服務、人員或設備駐守並執行工作的基地」是「station — service base」的用法，與本句語境不同。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。",
-        "station-mcq-03": "「多條巴士／長途巴士集中停靠和開出的較大型設施」是「bus station」的用法，與本句語境不同。",
-        "station-mcq-07": "「供研究人員工作、生活或觀測的研究基地」是「research station」的用法，與本句語境不同。",
-        "station-mcq-02": "「供火車停靠及乘客上落的鐵路設施」是「train/railway station」的用法，與本句語境不同。"
+        "station-mcq-05": "本句的「station」指「警務人員辦公及處理警務工作的地方」。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-05"
     },
@@ -874,11 +812,9 @@ export default {
       "masked": "The fire engine returned to the ____.",
       "options": [
         "station-mcq-06",
-        "station-mcq-05",
-        "station-mcq-07",
-        "station-mcq-04",
-        "station-mcq-08",
-        "station-mcq-03"
+        "station-mcq-10",
+        "station-mcq-14",
+        "station-pdf-001"
       ],
       "explanation": "本句的「fire station」指「消防員、消防車和相關設備駐守的基地」。",
       "sentenceIndex": 12,
@@ -887,12 +823,10 @@ export default {
         "fire station"
       ],
       "optionReasons": {
-        "station-mcq-06": "本句指「消防員、消防車和相關設備駐守的基地」。",
-        "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。",
-        "station-mcq-07": "「供研究人員工作、生活或觀測的研究基地」是「research station」的用法，與本句語境不同。",
-        "station-mcq-04": "「某種公共服務、人員或設備駐守並執行工作的基地」是「station — service base」的用法，與本句語境不同。",
-        "station-mcq-08": "「在太空中長期運行、供太空人生活和工作的設施」是「space station」的用法，與本句語境不同。",
-        "station-mcq-03": "「多條巴士／長途巴士集中停靠和開出的較大型設施」是「bus station」的用法，與本句語境不同。"
+        "station-mcq-06": "本句的「fire station」指「消防員、消防車和相關設備駐守的基地」。",
+        "station-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "station-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-06"
     },
@@ -904,10 +838,7 @@ export default {
       "masked": "The children visited a local ____.",
       "options": [
         "station-mcq-06",
-        "station-mcq-05",
-        "station-mcq-07",
-        "station-mcq-04",
-        "station-mcq-08",
+        "station-mcq-10",
         "station-mcq-03"
       ],
       "explanation": "本句的「fire station」指「消防員、消防車和相關設備駐守的基地」。",
@@ -917,12 +848,9 @@ export default {
         "fire station"
       ],
       "optionReasons": {
-        "station-mcq-06": "本句指「消防員、消防車和相關設備駐守的基地」。",
-        "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。",
-        "station-mcq-07": "「供研究人員工作、生活或觀測的研究基地」是「research station」的用法，與本句語境不同。",
-        "station-mcq-04": "「某種公共服務、人員或設備駐守並執行工作的基地」是「station — service base」的用法，與本句語境不同。",
-        "station-mcq-08": "「在太空中長期運行、供太空人生活和工作的設施」是「space station」的用法，與本句語境不同。",
-        "station-mcq-03": "「多條巴士／長途巴士集中停靠和開出的較大型設施」是「bus station」的用法，與本句語境不同。"
+        "station-mcq-06": "本句的「fire station」指「消防員、消防車和相關設備駐守的基地」。",
+        "station-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-06"
     },
@@ -934,11 +862,9 @@ export default {
       "masked": "Scientists live at the research ____.",
       "options": [
         "station-mcq-07",
-        "station-mcq-06",
-        "station-mcq-08",
-        "station-mcq-05",
-        "station-mcq-09",
-        "station-mcq-04"
+        "station-mcq-12",
+        "station-mcq-03",
+        "station-mcq-15"
       ],
       "explanation": "本句的「station」指「供研究人員工作、生活或觀測的研究基地」。",
       "sentenceIndex": 14,
@@ -947,12 +873,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-07": "本句指「供研究人員工作、生活或觀測的研究基地」。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。",
-        "station-mcq-08": "「在太空中長期運行、供太空人生活和工作的設施」是「space station」的用法，與本句語境不同。",
-        "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。",
-        "station-mcq-09": "「負責播送電台／電視節目的機構或設施」是「station — broadcaster」的用法，與本句語境不同。",
-        "station-mcq-04": "「某種公共服務、人員或設備駐守並執行工作的基地」是「station — service base」的用法，與本句語境不同。"
+        "station-mcq-07": "本句的「station」指「供研究人員工作、生活或觀測的研究基地」。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-07"
     },
@@ -964,11 +888,9 @@ export default {
       "masked": "The Antarctic ____ operates throughout the year.",
       "options": [
         "station-mcq-07",
-        "station-mcq-06",
-        "station-mcq-08",
-        "station-mcq-05",
-        "station-mcq-09",
-        "station-mcq-04"
+        "station-mcq-12",
+        "station-mcq-03",
+        "station-mcq-15"
       ],
       "explanation": "本句的「station」指「供研究人員工作、生活或觀測的研究基地」。",
       "sentenceIndex": 15,
@@ -977,12 +899,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-07": "本句指「供研究人員工作、生活或觀測的研究基地」。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。",
-        "station-mcq-08": "「在太空中長期運行、供太空人生活和工作的設施」是「space station」的用法，與本句語境不同。",
-        "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。",
-        "station-mcq-09": "「負責播送電台／電視節目的機構或設施」是「station — broadcaster」的用法，與本句語境不同。",
-        "station-mcq-04": "「某種公共服務、人員或設備駐守並執行工作的基地」是「station — service base」的用法，與本句語境不同。"
+        "station-mcq-07": "本句的「station」指「供研究人員工作、生活或觀測的研究基地」。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-07"
     },
@@ -994,11 +914,9 @@ export default {
       "masked": "The living room becomes a space ____.",
       "options": [
         "station-mcq-08",
-        "station-mcq-07",
-        "station-mcq-09",
-        "station-mcq-06",
         "station-mcq-10",
-        "station-mcq-05"
+        "station-mcq-06",
+        "station-pdf-001"
       ],
       "explanation": "本句的「station」指「在太空中長期運行、供太空人生活和工作的設施」。",
       "sentenceIndex": 16,
@@ -1007,12 +925,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-08": "本句指「在太空中長期運行、供太空人生活和工作的設施」。",
-        "station-mcq-07": "「供研究人員工作、生活或觀測的研究基地」是「research station」的用法，與本句語境不同。",
-        "station-mcq-09": "「負責播送電台／電視節目的機構或設施」是「station — broadcaster」的用法，與本句語境不同。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。",
-        "station-mcq-10": "「透過無線電頻率播送聲音節目的廣播機構」是「radio station」的用法，與本句語境不同。",
-        "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。"
+        "station-mcq-08": "本句的「station」指「在太空中長期運行、供太空人生活和工作的設施」。",
+        "station-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "station-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-08"
     },
@@ -1024,11 +940,9 @@ export default {
       "masked": "Astronauts conduct experiments on the space ____.",
       "options": [
         "station-mcq-08",
-        "station-mcq-07",
-        "station-mcq-09",
-        "station-mcq-06",
-        "station-mcq-10",
-        "station-mcq-05"
+        "station-mcq-20",
+        "station-mcq-12",
+        "station-mcq-15"
       ],
       "explanation": "本句的「station」指「在太空中長期運行、供太空人生活和工作的設施」。",
       "sentenceIndex": 17,
@@ -1037,12 +951,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-08": "本句指「在太空中長期運行、供太空人生活和工作的設施」。",
-        "station-mcq-07": "「供研究人員工作、生活或觀測的研究基地」是「research station」的用法，與本句語境不同。",
-        "station-mcq-09": "「負責播送電台／電視節目的機構或設施」是「station — broadcaster」的用法，與本句語境不同。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。",
-        "station-mcq-10": "「透過無線電頻率播送聲音節目的廣播機構」是「radio station」的用法，與本句語境不同。",
-        "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。"
+        "station-mcq-08": "本句的「station」指「在太空中長期運行、供太空人生活和工作的設施」。",
+        "station-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-08"
     },
@@ -1054,11 +966,9 @@ export default {
       "masked": "The space ____ orbits Earth.",
       "options": [
         "station-mcq-08",
-        "station-mcq-07",
-        "station-mcq-09",
-        "station-mcq-06",
-        "station-mcq-10",
-        "station-mcq-05"
+        "station-mcq-11",
+        "station-mcq-12",
+        "station-mcq-06"
       ],
       "explanation": "本句的「station」指「在太空中長期運行、供太空人生活和工作的設施」。",
       "sentenceIndex": 18,
@@ -1067,12 +977,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-08": "本句指「在太空中長期運行、供太空人生活和工作的設施」。",
-        "station-mcq-07": "「供研究人員工作、生活或觀測的研究基地」是「research station」的用法，與本句語境不同。",
-        "station-mcq-09": "「負責播送電台／電視節目的機構或設施」是「station — broadcaster」的用法，與本句語境不同。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。",
-        "station-mcq-10": "「透過無線電頻率播送聲音節目的廣播機構」是「radio station」的用法，與本句語境不同。",
-        "station-mcq-05": "「警務人員辦公及處理警務工作的地方」是「police station」的用法，與本句語境不同。"
+        "station-mcq-08": "本句的「station」指「在太空中長期運行、供太空人生活和工作的設施」。",
+        "station-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-08"
     },
@@ -1084,11 +992,8 @@ export default {
       "masked": "I heard the news on the radio ____.",
       "options": [
         "station-mcq-09",
-        "station-mcq-08",
-        "station-mcq-10",
-        "station-mcq-07",
-        "station-mcq-11",
-        "station-mcq-06"
+        "station-mcq-18",
+        "station-pdf-001"
       ],
       "explanation": "本句的「station」指「負責播送電台／電視節目的機構或設施」。",
       "sentenceIndex": 19,
@@ -1097,12 +1002,9 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-09": "本句指「負責播送電台／電視節目的機構或設施」。",
-        "station-mcq-08": "「在太空中長期運行、供太空人生活和工作的設施」是「space station」的用法，與本句語境不同。",
-        "station-mcq-10": "「透過無線電頻率播送聲音節目的廣播機構」是「radio station」的用法，與本句語境不同。",
-        "station-mcq-07": "「供研究人員工作、生活或觀測的研究基地」是「research station」的用法，與本句語境不同。",
-        "station-mcq-11": "「製作／播送電視內容的機構」是「television station」的用法，與本句語境不同。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。"
+        "station-mcq-09": "本句的「station」指「負責播送電台／電視節目的機構或設施」。",
+        "station-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "station-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-09"
     },
@@ -1114,11 +1016,9 @@ export default {
       "masked": "She works for a local television ____.",
       "options": [
         "station-mcq-09",
-        "station-mcq-08",
-        "station-mcq-10",
-        "station-mcq-07",
-        "station-mcq-11",
-        "station-mcq-06"
+        "station-mcq-18",
+        "station-mcq-12",
+        "station-mcq-15"
       ],
       "explanation": "本句的「station」指「負責播送電台／電視節目的機構或設施」。",
       "sentenceIndex": 20,
@@ -1127,12 +1027,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-09": "本句指「負責播送電台／電視節目的機構或設施」。",
-        "station-mcq-08": "「在太空中長期運行、供太空人生活和工作的設施」是「space station」的用法，與本句語境不同。",
-        "station-mcq-10": "「透過無線電頻率播送聲音節目的廣播機構」是「radio station」的用法，與本句語境不同。",
-        "station-mcq-07": "「供研究人員工作、生活或觀測的研究基地」是「research station」的用法，與本句語境不同。",
-        "station-mcq-11": "「製作／播送電視內容的機構」是「television station」的用法，與本句語境不同。",
-        "station-mcq-06": "「消防員、消防車和相關設備駐守的基地」是「fire station」的用法，與本句語境不同。"
+        "station-mcq-09": "本句的「station」指「負責播送電台／電視節目的機構或設施」。",
+        "station-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-09"
     },
@@ -1144,11 +1042,8 @@ export default {
       "masked": "This radio ____ plays classical music.",
       "options": [
         "station-mcq-10",
-        "station-mcq-09",
-        "station-mcq-11",
-        "station-mcq-08",
-        "station-mcq-12",
-        "station-mcq-07"
+        "station-mcq-06",
+        "station-mcq-03"
       ],
       "explanation": "本句的「station」指「透過無線電頻率播送聲音節目的廣播機構」。",
       "sentenceIndex": 21,
@@ -1157,12 +1052,9 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-10": "本句指「透過無線電頻率播送聲音節目的廣播機構」。",
-        "station-mcq-09": "「負責播送電台／電視節目的機構或設施」是「station — broadcaster」的用法，與本句語境不同。",
-        "station-mcq-11": "「製作／播送電視內容的機構」是「television station」的用法，與本句語境不同。",
-        "station-mcq-08": "「在太空中長期運行、供太空人生活和工作的設施」是「space station」的用法，與本句語境不同。",
-        "station-mcq-12": "「某個可收聽的廣播服務／頻道」是「station — broadcast frequency/service」的用法，與本句語境不同。",
-        "station-mcq-07": "「供研究人員工作、生活或觀測的研究基地」是「research station」的用法，與本句語境不同。"
+        "station-mcq-10": "本句的「station」指「透過無線電頻率播送聲音節目的廣播機構」。",
+        "station-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-10"
     },
@@ -1174,11 +1066,8 @@ export default {
       "masked": "The interview was broadcast by a local radio ____.",
       "options": [
         "station-mcq-10",
-        "station-mcq-09",
-        "station-mcq-11",
-        "station-mcq-08",
-        "station-mcq-12",
-        "station-mcq-07"
+        "station-mcq-06",
+        "station-mcq-02"
       ],
       "explanation": "本句的「station」指「透過無線電頻率播送聲音節目的廣播機構」。",
       "sentenceIndex": 22,
@@ -1187,12 +1076,9 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-10": "本句指「透過無線電頻率播送聲音節目的廣播機構」。",
-        "station-mcq-09": "「負責播送電台／電視節目的機構或設施」是「station — broadcaster」的用法，與本句語境不同。",
-        "station-mcq-11": "「製作／播送電視內容的機構」是「television station」的用法，與本句語境不同。",
-        "station-mcq-08": "「在太空中長期運行、供太空人生活和工作的設施」是「space station」的用法，與本句語境不同。",
-        "station-mcq-12": "「某個可收聽的廣播服務／頻道」是「station — broadcast frequency/service」的用法，與本句語境不同。",
-        "station-mcq-07": "「供研究人員工作、生活或觀測的研究基地」是「research station」的用法，與本句語境不同。"
+        "station-mcq-10": "本句的「station」指「透過無線電頻率播送聲音節目的廣播機構」。",
+        "station-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-10"
     },
@@ -1204,11 +1090,9 @@ export default {
       "masked": "The television ____ produces local news.",
       "options": [
         "station-mcq-11",
-        "station-mcq-10",
-        "station-mcq-12",
-        "station-mcq-09",
-        "station-mcq-13",
-        "station-mcq-08"
+        "station-mcq-03",
+        "station-mcq-06",
+        "station-mcq-12"
       ],
       "explanation": "本句的「station」指「製作／播送電視內容的機構」。",
       "sentenceIndex": 23,
@@ -1217,12 +1101,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-11": "本句指「製作／播送電視內容的機構」。",
-        "station-mcq-10": "「透過無線電頻率播送聲音節目的廣播機構」是「radio station」的用法，與本句語境不同。",
-        "station-mcq-12": "「某個可收聽的廣播服務／頻道」是「station — broadcast frequency/service」的用法，與本句語境不同。",
-        "station-mcq-09": "「負責播送電台／電視節目的機構或設施」是「station — broadcaster」的用法，與本句語境不同。",
-        "station-mcq-13": "「為能源、觀測、通訊等特定技術用途設置的固定設施」是「station — technical facility」的用法，與本句語境不同。",
-        "station-mcq-08": "「在太空中長期運行、供太空人生活和工作的設施」是「space station」的用法，與本句語境不同。"
+        "station-mcq-11": "本句的「station」指「製作／播送電視內容的機構」。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-11"
     },
@@ -1234,11 +1116,9 @@ export default {
       "masked": "Several television ____ carried the programme.",
       "options": [
         "station-mcq-11",
-        "station-mcq-10",
-        "station-mcq-12",
-        "station-mcq-09",
-        "station-mcq-13",
-        "station-mcq-08"
+        "station-mcq-06",
+        "station-mcq-08",
+        "station-pdf-001"
       ],
       "explanation": "本句的「stations」指「製作／播送電視內容的機構」。",
       "sentenceIndex": 24,
@@ -1247,12 +1127,10 @@ export default {
         "stations"
       ],
       "optionReasons": {
-        "station-mcq-11": "本句指「製作／播送電視內容的機構」。",
-        "station-mcq-10": "「透過無線電頻率播送聲音節目的廣播機構」是「radio station」的用法，與本句語境不同。",
-        "station-mcq-12": "「某個可收聽的廣播服務／頻道」是「station — broadcast frequency/service」的用法，與本句語境不同。",
-        "station-mcq-09": "「負責播送電台／電視節目的機構或設施」是「station — broadcaster」的用法，與本句語境不同。",
-        "station-mcq-13": "「為能源、觀測、通訊等特定技術用途設置的固定設施」是「station — technical facility」的用法，與本句語境不同。",
-        "station-mcq-08": "「在太空中長期運行、供太空人生活和工作的設施」是「space station」的用法，與本句語境不同。"
+        "station-mcq-11": "本句的「stations」指「製作／播送電視內容的機構」。",
+        "station-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "station-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-11"
     },
@@ -1264,11 +1142,9 @@ export default {
       "masked": "Can you change the radio ____?",
       "options": [
         "station-mcq-12",
-        "station-mcq-11",
-        "station-mcq-13",
-        "station-mcq-10",
-        "station-mcq-14",
-        "station-mcq-09"
+        "station-pdf-002",
+        "station-mcq-03",
+        "station-mcq-20"
       ],
       "explanation": "本句的「station」指「某個可收聽的廣播服務／頻道」。",
       "sentenceIndex": 25,
@@ -1277,12 +1153,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-12": "本句指「某個可收聽的廣播服務／頻道」。",
-        "station-mcq-11": "「製作／播送電視內容的機構」是「television station」的用法，與本句語境不同。",
-        "station-mcq-13": "「為能源、觀測、通訊等特定技術用途設置的固定設施」是「station — technical facility」的用法，與本句語境不同。",
-        "station-mcq-10": "「透過無線電頻率播送聲音節目的廣播機構」是「radio station」的用法，與本句語境不同。",
-        "station-mcq-14": "「生產並輸送電力的設施」是「power station」的用法，與本句語境不同。",
-        "station-mcq-09": "「負責播送電台／電視節目的機構或設施」是「station — broadcaster」的用法，與本句語境不同。"
+        "station-mcq-12": "本句的「station」指「某個可收聽的廣播服務／頻道」。",
+        "station-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-12"
     },
@@ -1294,11 +1168,9 @@ export default {
       "masked": "I can’t find my favourite ____.",
       "options": [
         "station-mcq-12",
-        "station-mcq-11",
-        "station-mcq-13",
-        "station-mcq-10",
-        "station-mcq-14",
-        "station-mcq-09"
+        "station-mcq-15",
+        "station-mcq-03",
+        "station-mcq-07"
       ],
       "explanation": "本句的「station」指「某個可收聽的廣播服務／頻道」。",
       "sentenceIndex": 26,
@@ -1307,12 +1179,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-12": "本句指「某個可收聽的廣播服務／頻道」。",
-        "station-mcq-11": "「製作／播送電視內容的機構」是「television station」的用法，與本句語境不同。",
-        "station-mcq-13": "「為能源、觀測、通訊等特定技術用途設置的固定設施」是「station — technical facility」的用法，與本句語境不同。",
-        "station-mcq-10": "「透過無線電頻率播送聲音節目的廣播機構」是「radio station」的用法，與本句語境不同。",
-        "station-mcq-14": "「生產並輸送電力的設施」是「power station」的用法，與本句語境不同。",
-        "station-mcq-09": "「負責播送電台／電視節目的機構或設施」是「station — broadcaster」的用法，與本句語境不同。"
+        "station-mcq-12": "本句的「station」指「某個可收聽的廣播服務／頻道」。",
+        "station-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-12"
     },
@@ -1324,11 +1194,8 @@ export default {
       "masked": "The city built a new power ____.",
       "options": [
         "station-mcq-13",
-        "station-mcq-12",
-        "station-mcq-14",
-        "station-mcq-11",
-        "station-mcq-15",
-        "station-mcq-10"
+        "station-mcq-10",
+        "station-mcq-18"
       ],
       "explanation": "本句的「station」指「為能源、觀測、通訊等特定技術用途設置的固定設施」。",
       "sentenceIndex": 27,
@@ -1337,12 +1204,9 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-13": "本句指「為能源、觀測、通訊等特定技術用途設置的固定設施」。",
-        "station-mcq-12": "「某個可收聽的廣播服務／頻道」是「station — broadcast frequency/service」的用法，與本句語境不同。",
-        "station-mcq-14": "「生產並輸送電力的設施」是「power station」的用法，與本句語境不同。",
-        "station-mcq-11": "「製作／播送電視內容的機構」是「television station」的用法，與本句語境不同。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。",
-        "station-mcq-10": "「透過無線電頻率播送聲音節目的廣播機構」是「radio station」的用法，與本句語境不同。"
+        "station-mcq-13": "本句的「station」指「為能源、觀測、通訊等特定技術用途設置的固定設施」。",
+        "station-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-13"
     },
@@ -1354,11 +1218,8 @@ export default {
       "masked": "Data is collected at the weather ____.",
       "options": [
         "station-mcq-13",
-        "station-mcq-12",
-        "station-mcq-14",
-        "station-mcq-11",
-        "station-mcq-15",
-        "station-mcq-10"
+        "station-mcq-10",
+        "station-mcq-18"
       ],
       "explanation": "本句的「station」指「為能源、觀測、通訊等特定技術用途設置的固定設施」。",
       "sentenceIndex": 28,
@@ -1367,12 +1228,9 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-13": "本句指「為能源、觀測、通訊等特定技術用途設置的固定設施」。",
-        "station-mcq-12": "「某個可收聽的廣播服務／頻道」是「station — broadcast frequency/service」的用法，與本句語境不同。",
-        "station-mcq-14": "「生產並輸送電力的設施」是「power station」的用法，與本句語境不同。",
-        "station-mcq-11": "「製作／播送電視內容的機構」是「television station」的用法，與本句語境不同。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。",
-        "station-mcq-10": "「透過無線電頻率播送聲音節目的廣播機構」是「radio station」的用法，與本句語境不同。"
+        "station-mcq-13": "本句的「station」指「為能源、觀測、通訊等特定技術用途設置的固定設施」。",
+        "station-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-13"
     },
@@ -1384,11 +1242,9 @@ export default {
       "masked": "The power ____ supplies electricity to the region.",
       "options": [
         "station-mcq-14",
-        "station-mcq-13",
-        "station-mcq-15",
         "station-mcq-12",
-        "station-mcq-16",
-        "station-mcq-11"
+        "station-mcq-18",
+        "station-mcq-20"
       ],
       "explanation": "本句的「station」指「生產並輸送電力的設施」。",
       "sentenceIndex": 29,
@@ -1397,12 +1253,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-14": "本句指「生產並輸送電力的設施」。",
-        "station-mcq-13": "「為能源、觀測、通訊等特定技術用途設置的固定設施」是「station — technical facility」的用法，與本句語境不同。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。",
-        "station-mcq-12": "「某個可收聽的廣播服務／頻道」是「station — broadcast frequency/service」的用法，與本句語境不同。",
-        "station-mcq-16": "「提供電動車或設備充電服務的固定位置」是「charging station」的用法，與本句語境不同。",
-        "station-mcq-11": "「製作／播送電視內容的機構」是「television station」的用法，與本句語境不同。"
+        "station-mcq-14": "本句的「station」指「生產並輸送電力的設施」。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-14"
     },
@@ -1414,11 +1268,9 @@ export default {
       "masked": "The old power ____ has been closed.",
       "options": [
         "station-mcq-14",
-        "station-mcq-13",
-        "station-mcq-15",
         "station-mcq-12",
-        "station-mcq-16",
-        "station-mcq-11"
+        "station-mcq-20",
+        "station-mcq-18"
       ],
       "explanation": "本句的「station」指「生產並輸送電力的設施」。",
       "sentenceIndex": 30,
@@ -1427,12 +1279,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-14": "本句指「生產並輸送電力的設施」。",
-        "station-mcq-13": "「為能源、觀測、通訊等特定技術用途設置的固定設施」是「station — technical facility」的用法，與本句語境不同。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。",
-        "station-mcq-12": "「某個可收聽的廣播服務／頻道」是「station — broadcast frequency/service」的用法，與本句語境不同。",
-        "station-mcq-16": "「提供電動車或設備充電服務的固定位置」是「charging station」的用法，與本句語境不同。",
-        "station-mcq-11": "「製作／播送電視內容的機構」是「television station」的用法，與本句語境不同。"
+        "station-mcq-14": "本句的「station」指「生產並輸送電力的設施」。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-14"
     },
@@ -1444,11 +1294,9 @@ export default {
       "masked": "The weather ____ records temperature and rainfall.",
       "options": [
         "station-mcq-15",
-        "station-mcq-14",
-        "station-mcq-16",
-        "station-mcq-13",
-        "station-mcq-17",
-        "station-mcq-12"
+        "station-mcq-12",
+        "station-mcq-18",
+        "station-mcq-20"
       ],
       "explanation": "本句的「station」指「測量和記錄天氣資料的地點／設備」。",
       "sentenceIndex": 31,
@@ -1457,12 +1305,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-15": "本句指「測量和記錄天氣資料的地點／設備」。",
-        "station-mcq-14": "「生產並輸送電力的設施」是「power station」的用法，與本句語境不同。",
-        "station-mcq-16": "「提供電動車或設備充電服務的固定位置」是「charging station」的用法，與本句語境不同。",
-        "station-mcq-13": "「為能源、觀測、通訊等特定技術用途設置的固定設施」是「station — technical facility」的用法，與本句語境不同。",
-        "station-mcq-17": "「正式安排某人在指定地點駐守並執行職務」是「station — verb」的用法，與本句語境不同。",
-        "station-mcq-12": "「某個可收聽的廣播服務／頻道」是「station — broadcast frequency/service」的用法，與本句語境不同。"
+        "station-mcq-15": "本句的「station」指「測量和記錄天氣資料的地點／設備」。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-15"
     },
@@ -1474,11 +1320,9 @@ export default {
       "masked": "They installed a small weather ____ on the roof.",
       "options": [
         "station-mcq-15",
-        "station-mcq-14",
-        "station-mcq-16",
-        "station-mcq-13",
-        "station-mcq-17",
-        "station-mcq-12"
+        "station-mcq-18",
+        "station-mcq-10",
+        "station-mcq-02"
       ],
       "explanation": "本句的「station」指「測量和記錄天氣資料的地點／設備」。",
       "sentenceIndex": 32,
@@ -1487,12 +1331,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-15": "本句指「測量和記錄天氣資料的地點／設備」。",
-        "station-mcq-14": "「生產並輸送電力的設施」是「power station」的用法，與本句語境不同。",
-        "station-mcq-16": "「提供電動車或設備充電服務的固定位置」是「charging station」的用法，與本句語境不同。",
-        "station-mcq-13": "「為能源、觀測、通訊等特定技術用途設置的固定設施」是「station — technical facility」的用法，與本句語境不同。",
-        "station-mcq-17": "「正式安排某人在指定地點駐守並執行職務」是「station — verb」的用法，與本句語境不同。",
-        "station-mcq-12": "「某個可收聽的廣播服務／頻道」是「station — broadcast frequency/service」的用法，與本句語境不同。"
+        "station-mcq-15": "本句的「station」指「測量和記錄天氣資料的地點／設備」。",
+        "station-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-15"
     },
@@ -1504,11 +1346,9 @@ export default {
       "masked": "We stopped at a charging ____.",
       "options": [
         "station-mcq-16",
-        "station-mcq-15",
-        "station-mcq-17",
-        "station-mcq-14",
+        "station-mcq-03",
         "station-mcq-18",
-        "station-mcq-13"
+        "station-mcq-20"
       ],
       "explanation": "本句的「station」指「提供電動車或設備充電服務的固定位置」。",
       "sentenceIndex": 33,
@@ -1517,12 +1357,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-16": "本句指「提供電動車或設備充電服務的固定位置」。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。",
-        "station-mcq-17": "「正式安排某人在指定地點駐守並執行職務」是「station — verb」的用法，與本句語境不同。",
-        "station-mcq-14": "「生產並輸送電力的設施」是「power station」的用法，與本句語境不同。",
-        "station-mcq-18": "「因職務需要而被派駐／駐守於某地」是「be stationed」的用法，與本句語境不同。",
-        "station-mcq-13": "「為能源、觀測、通訊等特定技術用途設置的固定設施」是「station — technical facility」的用法，與本句語境不同。"
+        "station-mcq-16": "本句的「station」指「提供電動車或設備充電服務的固定位置」。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-16"
     },
@@ -1534,11 +1372,9 @@ export default {
       "masked": "More electric-car charging ____ are being installed.",
       "options": [
         "station-mcq-16",
-        "station-mcq-15",
-        "station-mcq-17",
-        "station-mcq-14",
-        "station-mcq-18",
-        "station-mcq-13"
+        "station-mcq-20",
+        "station-mcq-03",
+        "station-mcq-18"
       ],
       "explanation": "本句的「stations」指「提供電動車或設備充電服務的固定位置」。",
       "sentenceIndex": 34,
@@ -1547,12 +1383,10 @@ export default {
         "stations"
       ],
       "optionReasons": {
-        "station-mcq-16": "本句指「提供電動車或設備充電服務的固定位置」。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。",
-        "station-mcq-17": "「正式安排某人在指定地點駐守並執行職務」是「station — verb」的用法，與本句語境不同。",
-        "station-mcq-14": "「生產並輸送電力的設施」是「power station」的用法，與本句語境不同。",
-        "station-mcq-18": "「因職務需要而被派駐／駐守於某地」是「be stationed」的用法，與本句語境不同。",
-        "station-mcq-13": "「為能源、觀測、通訊等特定技術用途設置的固定設施」是「station — technical facility」的用法，與本句語境不同。"
+        "station-mcq-16": "本句的「stations」指「提供電動車或設備充電服務的固定位置」。",
+        "station-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-16"
     },
@@ -1564,11 +1398,9 @@ export default {
       "masked": "Each employee has a separate ____.",
       "options": [
         "station-pdf-002",
-        "station-mcq-15",
-        "station-mcq-17",
-        "station-mcq-14",
-        "station-mcq-18",
-        "station-mcq-13"
+        "station-mcq-12",
+        "station-mcq-20",
+        "station-mcq-03"
       ],
       "explanation": "本句的「workstation」指「專供一人工作的設備／位置；在電腦語境亦指高性能工作用電腦」。",
       "sentenceIndex": 35,
@@ -1577,12 +1409,10 @@ export default {
         "workstation"
       ],
       "optionReasons": {
-        "station-pdf-002": "本句指「專供一人工作的設備／位置；在電腦語境亦指高性能工作用電腦」。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。",
-        "station-mcq-17": "「正式安排某人在指定地點駐守並執行職務」是「station — verb」的用法，與本句語境不同。",
-        "station-mcq-14": "「生產並輸送電力的設施」是「power station」的用法，與本句語境不同。",
-        "station-mcq-18": "「因職務需要而被派駐／駐守於某地」是「be stationed」的用法，與本句語境不同。",
-        "station-mcq-13": "「為能源、觀測、通訊等特定技術用途設置的固定設施」是「station — technical facility」的用法，與本句語境不同。"
+        "station-pdf-002": "本句的「workstation」指「專供一人工作的設備／位置；在電腦語境亦指高性能工作用電腦」。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-pdf-002"
     },
@@ -1594,11 +1424,9 @@ export default {
       "masked": "The designer uses a powerful computer ____.",
       "options": [
         "station-pdf-002",
-        "station-mcq-15",
-        "station-mcq-17",
-        "station-mcq-14",
-        "station-mcq-18",
-        "station-mcq-13"
+        "station-mcq-12",
+        "station-mcq-03",
+        "station-mcq-20"
       ],
       "explanation": "本句的「workstation」指「專供一人工作的設備／位置；在電腦語境亦指高性能工作用電腦」。",
       "sentenceIndex": 36,
@@ -1607,12 +1435,10 @@ export default {
         "workstation"
       ],
       "optionReasons": {
-        "station-pdf-002": "本句指「專供一人工作的設備／位置；在電腦語境亦指高性能工作用電腦」。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。",
-        "station-mcq-17": "「正式安排某人在指定地點駐守並執行職務」是「station — verb」的用法，與本句語境不同。",
-        "station-mcq-14": "「生產並輸送電力的設施」是「power station」的用法，與本句語境不同。",
-        "station-mcq-18": "「因職務需要而被派駐／駐守於某地」是「be stationed」的用法，與本句語境不同。",
-        "station-mcq-13": "「為能源、觀測、通訊等特定技術用途設置的固定設施」是「station — technical facility」的用法，與本句語境不同。"
+        "station-pdf-002": "本句的「workstation」指「專供一人工作的設備／位置；在電腦語境亦指高性能工作用電腦」。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-pdf-002"
     },
@@ -1624,11 +1450,8 @@ export default {
       "masked": "Two guards were ____ at the entrance.",
       "options": [
         "station-mcq-17",
-        "station-mcq-16",
-        "station-mcq-18",
-        "station-mcq-15",
-        "station-mcq-19",
-        "station-mcq-14"
+        "station-mcq-03",
+        "station-mcq-12"
       ],
       "explanation": "本句的「stationed」指「正式安排某人在指定地點駐守並執行職務」。",
       "sentenceIndex": 37,
@@ -1637,12 +1460,9 @@ export default {
         "stationed"
       ],
       "optionReasons": {
-        "station-mcq-17": "本句指「正式安排某人在指定地點駐守並執行職務」。",
-        "station-mcq-16": "「提供電動車或設備充電服務的固定位置」是「charging station」的用法，與本句語境不同。",
-        "station-mcq-18": "「因職務需要而被派駐／駐守於某地」是「be stationed」的用法，與本句語境不同。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。",
-        "station-mcq-19": "「某人在任務或工作中被指定的位置／崗位」是「station — assigned post」的用法，與本句語境不同。",
-        "station-mcq-14": "「生產並輸送電力的設施」是「power station」的用法，與本句語境不同。"
+        "station-mcq-17": "本句的「stationed」指「正式安排某人在指定地點駐守並執行職務」。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-17"
     },
@@ -1654,11 +1474,8 @@ export default {
       "masked": "Police officers were ____ around the building.",
       "options": [
         "station-mcq-17",
-        "station-mcq-16",
-        "station-mcq-18",
-        "station-mcq-15",
-        "station-mcq-19",
-        "station-mcq-14"
+        "station-mcq-03",
+        "station-mcq-12"
       ],
       "explanation": "本句的「stationed」指「正式安排某人在指定地點駐守並執行職務」。",
       "sentenceIndex": 38,
@@ -1667,12 +1484,9 @@ export default {
         "stationed"
       ],
       "optionReasons": {
-        "station-mcq-17": "本句指「正式安排某人在指定地點駐守並執行職務」。",
-        "station-mcq-16": "「提供電動車或設備充電服務的固定位置」是「charging station」的用法，與本句語境不同。",
-        "station-mcq-18": "「因職務需要而被派駐／駐守於某地」是「be stationed」的用法，與本句語境不同。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。",
-        "station-mcq-19": "「某人在任務或工作中被指定的位置／崗位」是「station — assigned post」的用法，與本句語境不同。",
-        "station-mcq-14": "「生產並輸送電力的設施」是「power station」的用法，與本句語境不同。"
+        "station-mcq-17": "本句的「stationed」指「正式安排某人在指定地點駐守並執行職務」。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-17"
     },
@@ -1684,11 +1498,9 @@ export default {
       "masked": "He was ____ overseas for two years.",
       "options": [
         "station-mcq-18",
-        "station-mcq-17",
-        "station-mcq-19",
-        "station-mcq-16",
-        "station-mcq-20",
-        "station-mcq-15"
+        "station-mcq-14",
+        "station-mcq-15",
+        "station-mcq-20"
       ],
       "explanation": "本句的「stationed」指「因職務需要而被派駐／駐守於某地」。",
       "sentenceIndex": 39,
@@ -1697,12 +1509,10 @@ export default {
         "stationed"
       ],
       "optionReasons": {
-        "station-mcq-18": "本句指「因職務需要而被派駐／駐守於某地」。",
-        "station-mcq-17": "「正式安排某人在指定地點駐守並執行職務」是「station — verb」的用法，與本句語境不同。",
-        "station-mcq-19": "「某人在任務或工作中被指定的位置／崗位」是「station — assigned post」的用法，與本句語境不同。",
-        "station-mcq-16": "「提供電動車或設備充電服務的固定位置」是「charging station」的用法，與本句語境不同。",
-        "station-mcq-20": "「一個人在社會階層中的身份／地位；較正式、較舊式」是「station — social rank」的用法，與本句語境不同。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。"
+        "station-mcq-18": "本句的「stationed」指「因職務需要而被派駐／駐守於某地」。",
+        "station-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-18"
     },
@@ -1714,9 +1524,7 @@ export default {
       "masked": "The soldiers were ____ near the border.",
       "options": [
         "station-mcq-18",
-        "station-mcq-17",
-        "station-mcq-19",
-        "station-mcq-16",
+        "station-mcq-02",
         "station-mcq-20",
         "station-mcq-15"
       ],
@@ -1727,12 +1535,10 @@ export default {
         "stationed"
       ],
       "optionReasons": {
-        "station-mcq-18": "本句指「因職務需要而被派駐／駐守於某地」。",
-        "station-mcq-17": "「正式安排某人在指定地點駐守並執行職務」是「station — verb」的用法，與本句語境不同。",
-        "station-mcq-19": "「某人在任務或工作中被指定的位置／崗位」是「station — assigned post」的用法，與本句語境不同。",
-        "station-mcq-16": "「提供電動車或設備充電服務的固定位置」是「charging station」的用法，與本句語境不同。",
-        "station-mcq-20": "「一個人在社會階層中的身份／地位；較正式、較舊式」是「station — social rank」的用法，與本句語境不同。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。"
+        "station-mcq-18": "本句的「stationed」指「因職務需要而被派駐／駐守於某地」。",
+        "station-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-18"
     },
@@ -1744,11 +1550,9 @@ export default {
       "masked": "Each worker returned to his ____.",
       "options": [
         "station-mcq-19",
-        "station-mcq-18",
-        "station-mcq-20",
-        "station-mcq-17",
-        "station-mcq-16",
-        "station-mcq-15"
+        "station-mcq-06",
+        "station-mcq-03",
+        "station-mcq-12"
       ],
       "explanation": "本句的「station」指「某人在任務或工作中被指定的位置／崗位」。",
       "sentenceIndex": 41,
@@ -1757,12 +1561,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-19": "本句指「某人在任務或工作中被指定的位置／崗位」。",
-        "station-mcq-18": "「因職務需要而被派駐／駐守於某地」是「be stationed」的用法，與本句語境不同。",
-        "station-mcq-20": "「一個人在社會階層中的身份／地位；較正式、較舊式」是「station — social rank」的用法，與本句語境不同。",
-        "station-mcq-17": "「正式安排某人在指定地點駐守並執行職務」是「station — verb」的用法，與本句語境不同。",
-        "station-mcq-16": "「提供電動車或設備充電服務的固定位置」是「charging station」的用法，與本句語境不同。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。"
+        "station-mcq-19": "本句的「station」指「某人在任務或工作中被指定的位置／崗位」。",
+        "station-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-19"
     },
@@ -1774,11 +1576,9 @@ export default {
       "masked": "The crew members took their ____.",
       "options": [
         "station-mcq-19",
-        "station-mcq-18",
-        "station-mcq-20",
-        "station-mcq-17",
-        "station-mcq-16",
-        "station-mcq-15"
+        "station-mcq-14",
+        "station-mcq-06",
+        "station-mcq-12"
       ],
       "explanation": "本句的「stations」指「某人在任務或工作中被指定的位置／崗位」。",
       "sentenceIndex": 42,
@@ -1787,12 +1587,10 @@ export default {
         "stations"
       ],
       "optionReasons": {
-        "station-mcq-19": "本句指「某人在任務或工作中被指定的位置／崗位」。",
-        "station-mcq-18": "「因職務需要而被派駐／駐守於某地」是「be stationed」的用法，與本句語境不同。",
-        "station-mcq-20": "「一個人在社會階層中的身份／地位；較正式、較舊式」是「station — social rank」的用法，與本句語境不同。",
-        "station-mcq-17": "「正式安排某人在指定地點駐守並執行職務」是「station — verb」的用法，與本句語境不同。",
-        "station-mcq-16": "「提供電動車或設備充電服務的固定位置」是「charging station」的用法，與本句語境不同。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。"
+        "station-mcq-19": "本句的「stations」指「某人在任務或工作中被指定的位置／崗位」。",
+        "station-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-19"
     },
@@ -1804,11 +1602,9 @@ export default {
       "masked": "The crew rushed to their battle ____.",
       "options": [
         "station-mcq-19",
-        "station-mcq-18",
-        "station-mcq-20",
-        "station-mcq-17",
-        "station-mcq-16",
-        "station-mcq-15"
+        "station-mcq-03",
+        "station-mcq-06",
+        "station-mcq-12"
       ],
       "explanation": "本句的「stations」指「某人在任務或工作中被指定的位置／崗位」。",
       "sentenceIndex": 43,
@@ -1817,12 +1613,10 @@ export default {
         "stations"
       ],
       "optionReasons": {
-        "station-mcq-19": "本句指「某人在任務或工作中被指定的位置／崗位」。",
-        "station-mcq-18": "「因職務需要而被派駐／駐守於某地」是「be stationed」的用法，與本句語境不同。",
-        "station-mcq-20": "「一個人在社會階層中的身份／地位；較正式、較舊式」是「station — social rank」的用法，與本句語境不同。",
-        "station-mcq-17": "「正式安排某人在指定地點駐守並執行職務」是「station — verb」的用法，與本句語境不同。",
-        "station-mcq-16": "「提供電動車或設備充電服務的固定位置」是「charging station」的用法，與本句語境不同。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。"
+        "station-mcq-19": "本句的「stations」指「某人在任務或工作中被指定的位置／崗位」。",
+        "station-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-19"
     },
@@ -1834,11 +1628,9 @@ export default {
       "masked": "Everyone returned to their assigned ____.",
       "options": [
         "station-mcq-19",
-        "station-mcq-18",
-        "station-mcq-20",
-        "station-mcq-17",
-        "station-mcq-16",
-        "station-mcq-15"
+        "station-mcq-06",
+        "station-mcq-02",
+        "station-mcq-12"
       ],
       "explanation": "本句的「station」指「某人在任務或工作中被指定的位置／崗位」。",
       "sentenceIndex": 44,
@@ -1847,12 +1639,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-19": "本句指「某人在任務或工作中被指定的位置／崗位」。",
-        "station-mcq-18": "「因職務需要而被派駐／駐守於某地」是「be stationed」的用法，與本句語境不同。",
-        "station-mcq-20": "「一個人在社會階層中的身份／地位；較正式、較舊式」是「station — social rank」的用法，與本句語境不同。",
-        "station-mcq-17": "「正式安排某人在指定地點駐守並執行職務」是「station — verb」的用法，與本句語境不同。",
-        "station-mcq-16": "「提供電動車或設備充電服務的固定位置」是「charging station」的用法，與本句語境不同。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。"
+        "station-mcq-19": "本句的「station」指「某人在任務或工作中被指定的位置／崗位」。",
+        "station-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-19"
     },
@@ -1864,11 +1654,9 @@ export default {
       "masked": "People of every social ____ attended.",
       "options": [
         "station-mcq-20",
-        "station-mcq-19",
-        "station-mcq-18",
-        "station-mcq-17",
-        "station-mcq-16",
-        "station-mcq-15"
+        "station-mcq-14",
+        "station-pdf-001",
+        "station-mcq-18"
       ],
       "explanation": "本句的「station」指「一個人在社會階層中的身份／地位；較正式、較舊式」。",
       "sentenceIndex": 45,
@@ -1877,12 +1665,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-20": "本句指「一個人在社會階層中的身份／地位；較正式、較舊式」。",
-        "station-mcq-19": "「某人在任務或工作中被指定的位置／崗位」是「station — assigned post」的用法，與本句語境不同。",
-        "station-mcq-18": "「因職務需要而被派駐／駐守於某地」是「be stationed」的用法，與本句語境不同。",
-        "station-mcq-17": "「正式安排某人在指定地點駐守並執行職務」是「station — verb」的用法，與本句語境不同。",
-        "station-mcq-16": "「提供電動車或設備充電服務的固定位置」是「charging station」的用法，與本句語境不同。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。"
+        "station-mcq-20": "本句的「station」指「一個人在社會階層中的身份／地位；較正式、較舊式」。",
+        "station-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "station-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-20"
     },
@@ -1894,11 +1680,9 @@ export default {
       "masked": "His wealth raised his social ____.",
       "options": [
         "station-mcq-20",
-        "station-mcq-19",
-        "station-mcq-18",
-        "station-mcq-17",
-        "station-mcq-16",
-        "station-mcq-15"
+        "station-mcq-02",
+        "station-mcq-12",
+        "station-mcq-18"
       ],
       "explanation": "本句的「station」指「一個人在社會階層中的身份／地位；較正式、較舊式」。",
       "sentenceIndex": 46,
@@ -1907,12 +1691,10 @@ export default {
         "station"
       ],
       "optionReasons": {
-        "station-mcq-20": "本句指「一個人在社會階層中的身份／地位；較正式、較舊式」。",
-        "station-mcq-19": "「某人在任務或工作中被指定的位置／崗位」是「station — assigned post」的用法，與本句語境不同。",
-        "station-mcq-18": "「因職務需要而被派駐／駐守於某地」是「be stationed」的用法，與本句語境不同。",
-        "station-mcq-17": "「正式安排某人在指定地點駐守並執行職務」是「station — verb」的用法，與本句語境不同。",
-        "station-mcq-16": "「提供電動車或設備充電服務的固定位置」是「charging station」的用法，與本句語境不同。",
-        "station-mcq-15": "「測量和記錄天氣資料的地點／設備」是「weather station」的用法，與本句語境不同。"
+        "station-mcq-20": "本句的「station」指「一個人在社會階層中的身份／地位；較正式、較舊式」。",
+        "station-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "station-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "station-mcq-20"
     }
@@ -1924,5 +1706,7 @@ export default {
     "sha256": "ad024b99be871007b047cacdfe9be9e3dc79de009654f99abb8ce2d5bca5ecbc",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

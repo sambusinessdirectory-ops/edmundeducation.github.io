@@ -738,11 +738,9 @@ export default {
       "masked": "The road is very ____.",
       "options": [
         "wide-mcq-01",
-        "wide-mcq-02",
-        "wide-mcq-03",
+        "wide-mcq-12",
         "wide-mcq-04",
-        "wide-mcq-05",
-        "wide-mcq-06"
+        "wide-mcq-19"
       ],
       "explanation": "本句的「wide」指「從一邊到另一邊的橫向距離較大」。",
       "sentenceIndex": 0,
@@ -751,12 +749,10 @@ export default {
         "wide"
       ],
       "optionReasons": {
-        "wide-mcq-01": "本句指「從一邊到另一邊的橫向距離較大」。",
-        "wide-mcq-02": "「門、眼睛、開口等張開到非常大的程度」是「wide open」的用法，與本句語境不同。",
-        "wide-mcq-03": "「涵蓋的種類、範圍或領域很多／很廣」是「wide — range」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。"
+        "wide-mcq-01": "本句的「wide」指「從一邊到另一邊的橫向距離較大」。",
+        "wide-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-01"
     },
@@ -768,11 +764,9 @@ export default {
       "masked": "They sat at a ____.",
       "options": [
         "wide-mcq-01",
-        "wide-mcq-02",
-        "wide-mcq-03",
-        "wide-mcq-04",
         "wide-mcq-05",
-        "wide-mcq-06"
+        "wide-mcq-19",
+        "wide-mcq-12"
       ],
       "explanation": "本句的「wide table」指「從一邊到另一邊的橫向距離較大」。",
       "sentenceIndex": 1,
@@ -781,12 +775,10 @@ export default {
         "wide table"
       ],
       "optionReasons": {
-        "wide-mcq-01": "本句指「從一邊到另一邊的橫向距離較大」。",
-        "wide-mcq-02": "「門、眼睛、開口等張開到非常大的程度」是「wide open」的用法，與本句語境不同。",
-        "wide-mcq-03": "「涵蓋的種類、範圍或領域很多／很廣」是「wide — range」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。"
+        "wide-mcq-01": "本句的「wide table」指「從一邊到另一邊的橫向距離較大」。",
+        "wide-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-01"
     },
@@ -798,11 +790,9 @@ export default {
       "masked": "The entrance is ____ enough for two people.",
       "options": [
         "wide-mcq-28",
-        "wide-mcq-27",
-        "wide-mcq-26",
+        "wide-pdf-002",
         "wide-mcq-25",
-        "wide-mcq-24",
-        "wide-mcq-23"
+        "wide-mcq-26"
       ],
       "explanation": "本句的「wide」指「某個物體／空間橫向延伸的距離大」。",
       "sentenceIndex": 2,
@@ -811,12 +801,10 @@ export default {
         "wide"
       ],
       "optionReasons": {
-        "wide-mcq-28": "本句指「某個物體／空間橫向延伸的距離大」。",
-        "wide-mcq-27": "「能捕捉較廣視野範圍的鏡頭／攝影形式」是「wide-angle」的用法，與本句語境不同。",
-        "wide-mcq-26": "「畫面比例較寬的顯示／電影格式」是「widescreen」的用法，與本句語境不同。",
-        "wide-mcq-25": "「涵蓋很多不同主題、領域或問題的」是「wide-ranging」的用法，與本句語境不同。",
-        "wide-mcq-24": "「某物從一邊到另一邊的橫向距離」是「width」的用法，與本句語境不同。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。"
+        "wide-mcq-28": "本句的「wide」指「某個物體／空間橫向延伸的距離大」。",
+        "wide-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-28"
     },
@@ -828,11 +816,9 @@ export default {
       "masked": "They crossed a ____.",
       "options": [
         "wide-mcq-28",
-        "wide-mcq-27",
+        "wide-mcq-04",
         "wide-mcq-26",
-        "wide-mcq-25",
-        "wide-mcq-24",
-        "wide-mcq-23"
+        "wide-mcq-20"
       ],
       "explanation": "本句的「wide river」指「某個物體／空間橫向延伸的距離大」。",
       "sentenceIndex": 3,
@@ -841,12 +827,10 @@ export default {
         "wide river"
       ],
       "optionReasons": {
-        "wide-mcq-28": "本句指「某個物體／空間橫向延伸的距離大」。",
-        "wide-mcq-27": "「能捕捉較廣視野範圍的鏡頭／攝影形式」是「wide-angle」的用法，與本句語境不同。",
-        "wide-mcq-26": "「畫面比例較寬的顯示／電影格式」是「widescreen」的用法，與本句語境不同。",
-        "wide-mcq-25": "「涵蓋很多不同主題、領域或問題的」是「wide-ranging」的用法，與本句語境不同。",
-        "wide-mcq-24": "「某物從一邊到另一邊的橫向距離」是「width」的用法，與本句語境不同。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。"
+        "wide-mcq-28": "本句的「wide river」指「某個物體／空間橫向延伸的距離大」。",
+        "wide-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-28"
     },
@@ -858,11 +842,9 @@ export default {
       "masked": "She opened her eyes ____.",
       "options": [
         "wide-mcq-02",
-        "wide-mcq-01",
-        "wide-mcq-03",
-        "wide-mcq-04",
-        "wide-mcq-05",
-        "wide-mcq-06"
+        "wide-mcq-25",
+        "wide-mcq-24",
+        "wide-mcq-26"
       ],
       "explanation": "本句的「wide」指「門、眼睛、開口等張開到非常大的程度」。",
       "sentenceIndex": 4,
@@ -871,12 +853,10 @@ export default {
         "wide"
       ],
       "optionReasons": {
-        "wide-mcq-02": "本句指「門、眼睛、開口等張開到非常大的程度」。",
-        "wide-mcq-01": "「從一邊到另一邊的橫向距離較大」是「wide — physical width」的用法，與本句語境不同。",
-        "wide-mcq-03": "「涵蓋的種類、範圍或領域很多／很廣」是「wide — range」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。"
+        "wide-mcq-02": "本句的「wide」指「門、眼睛、開口等張開到非常大的程度」。",
+        "wide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-02"
     },
@@ -888,10 +868,8 @@ export default {
       "masked": "The door was ____.",
       "options": [
         "wide-mcq-02",
-        "wide-mcq-01",
-        "wide-mcq-03",
-        "wide-mcq-04",
-        "wide-mcq-05",
+        "wide-mcq-21",
+        "wide-mcq-26",
         "wide-mcq-06"
       ],
       "explanation": "本句的「wide open」指「門、眼睛、開口等張開到非常大的程度」。",
@@ -901,12 +879,10 @@ export default {
         "wide open"
       ],
       "optionReasons": {
-        "wide-mcq-02": "本句指「門、眼睛、開口等張開到非常大的程度」。",
-        "wide-mcq-01": "「從一邊到另一邊的橫向距離較大」是「wide — physical width」的用法，與本句語境不同。",
-        "wide-mcq-03": "「涵蓋的種類、範圍或領域很多／很廣」是「wide — range」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。"
+        "wide-mcq-02": "本句的「wide open」指「門、眼睛、開口等張開到非常大的程度」。",
+        "wide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-02"
     },
@@ -918,11 +894,9 @@ export default {
       "masked": "Open your mouth ____.",
       "options": [
         "wide-mcq-02",
-        "wide-mcq-01",
-        "wide-mcq-03",
-        "wide-mcq-04",
-        "wide-mcq-05",
-        "wide-mcq-06"
+        "wide-mcq-16",
+        "wide-mcq-11",
+        "wide-mcq-26"
       ],
       "explanation": "本句的「wide」指「門、眼睛、開口等張開到非常大的程度」。",
       "sentenceIndex": 6,
@@ -931,12 +905,10 @@ export default {
         "wide"
       ],
       "optionReasons": {
-        "wide-mcq-02": "本句指「門、眼睛、開口等張開到非常大的程度」。",
-        "wide-mcq-01": "「從一邊到另一邊的橫向距離較大」是「wide — physical width」的用法，與本句語境不同。",
-        "wide-mcq-03": "「涵蓋的種類、範圍或領域很多／很廣」是「wide — range」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。"
+        "wide-mcq-02": "本句的「wide」指「門、眼睛、開口等張開到非常大的程度」。",
+        "wide-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-02"
     },
@@ -948,11 +920,9 @@ export default {
       "masked": "He opened the window ____.",
       "options": [
         "wide-mcq-02",
-        "wide-mcq-01",
-        "wide-mcq-03",
-        "wide-mcq-04",
-        "wide-mcq-05",
-        "wide-mcq-06"
+        "wide-mcq-17",
+        "wide-pdf-001",
+        "wide-mcq-19"
       ],
       "explanation": "本句的「wide」指「門、眼睛、開口等張開到非常大的程度」。",
       "sentenceIndex": 7,
@@ -961,12 +931,10 @@ export default {
         "wide"
       ],
       "optionReasons": {
-        "wide-mcq-02": "本句指「門、眼睛、開口等張開到非常大的程度」。",
-        "wide-mcq-01": "「從一邊到另一邊的橫向距離較大」是「wide — physical width」的用法，與本句語境不同。",
-        "wide-mcq-03": "「涵蓋的種類、範圍或領域很多／很廣」是「wide — range」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。"
+        "wide-mcq-02": "本句的「wide」指「門、眼睛、開口等張開到非常大的程度」。",
+        "wide-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wide-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-02"
     },
@@ -978,10 +946,8 @@ export default {
       "masked": "The window was ____.",
       "options": [
         "wide-mcq-02",
-        "wide-mcq-01",
-        "wide-mcq-03",
-        "wide-mcq-04",
-        "wide-mcq-05",
+        "wide-mcq-25",
+        "wide-mcq-26",
         "wide-mcq-06"
       ],
       "explanation": "本句的「wide open」指「門、眼睛、開口等張開到非常大的程度」。",
@@ -991,12 +957,10 @@ export default {
         "wide open"
       ],
       "optionReasons": {
-        "wide-mcq-02": "本句指「門、眼睛、開口等張開到非常大的程度」。",
-        "wide-mcq-01": "「從一邊到另一邊的橫向距離較大」是「wide — physical width」的用法，與本句語境不同。",
-        "wide-mcq-03": "「涵蓋的種類、範圍或領域很多／很廣」是「wide — range」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。"
+        "wide-mcq-02": "本句的「wide open」指「門、眼睛、開口等張開到非常大的程度」。",
+        "wide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-02"
     },
@@ -1008,11 +972,9 @@ export default {
       "masked": "She left the door ____ open.",
       "options": [
         "wide-mcq-02",
-        "wide-mcq-01",
-        "wide-mcq-03",
-        "wide-mcq-04",
-        "wide-mcq-05",
-        "wide-mcq-06"
+        "wide-mcq-16",
+        "wide-mcq-06",
+        "wide-mcq-21"
       ],
       "explanation": "本句的「wide」指「門、眼睛、開口等張開到非常大的程度」。",
       "sentenceIndex": 9,
@@ -1021,12 +983,10 @@ export default {
         "wide"
       ],
       "optionReasons": {
-        "wide-mcq-02": "本句指「門、眼睛、開口等張開到非常大的程度」。",
-        "wide-mcq-01": "「從一邊到另一邊的橫向距離較大」是「wide — physical width」的用法，與本句語境不同。",
-        "wide-mcq-03": "「涵蓋的種類、範圍或領域很多／很廣」是「wide — range」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。"
+        "wide-mcq-02": "本句的「wide」指「門、眼睛、開口等張開到非常大的程度」。",
+        "wide-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-02"
     },
@@ -1038,11 +998,9 @@ export default {
       "masked": "The course covers a ____ of topics.",
       "options": [
         "wide-mcq-03",
-        "wide-mcq-02",
-        "wide-mcq-04",
-        "wide-mcq-01",
-        "wide-mcq-05",
-        "wide-mcq-06"
+        "wide-mcq-28",
+        "wide-mcq-26",
+        "wide-mcq-20"
       ],
       "explanation": "本句的「wide range」指「涵蓋的種類、範圍或領域很多／很廣」。",
       "sentenceIndex": 10,
@@ -1051,12 +1009,10 @@ export default {
         "wide range"
       ],
       "optionReasons": {
-        "wide-mcq-03": "本句指「涵蓋的種類、範圍或領域很多／很廣」。",
-        "wide-mcq-02": "「門、眼睛、開口等張開到非常大的程度」是「wide open」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。",
-        "wide-mcq-01": "「從一邊到另一邊的橫向距離較大」是「wide — physical width」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。"
+        "wide-mcq-03": "本句的「wide range」指「涵蓋的種類、範圍或領域很多／很廣」。",
+        "wide-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-03"
     },
@@ -1068,11 +1024,9 @@ export default {
       "masked": "She has a ____ of the subject.",
       "options": [
         "wide-mcq-03",
-        "wide-mcq-02",
-        "wide-mcq-04",
+        "wide-mcq-20",
         "wide-mcq-01",
-        "wide-mcq-05",
-        "wide-mcq-06"
+        "wide-mcq-13"
       ],
       "explanation": "本句的「wide knowledge」指「涵蓋的種類、範圍或領域很多／很廣」。",
       "sentenceIndex": 11,
@@ -1081,12 +1035,10 @@ export default {
         "wide knowledge"
       ],
       "optionReasons": {
-        "wide-mcq-03": "本句指「涵蓋的種類、範圍或領域很多／很廣」。",
-        "wide-mcq-02": "「門、眼睛、開口等張開到非常大的程度」是「wide open」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。",
-        "wide-mcq-01": "「從一邊到另一邊的橫向距離較大」是「wide — physical width」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。"
+        "wide-mcq-03": "本句的「wide knowledge」指「涵蓋的種類、範圍或領域很多／很廣」。",
+        "wide-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-03"
     },
@@ -1098,11 +1050,9 @@ export default {
       "masked": "The shop offers a ____ teas.",
       "options": [
         "wide-mcq-04",
-        "wide-mcq-03",
-        "wide-mcq-05",
-        "wide-mcq-02",
-        "wide-mcq-06",
-        "wide-mcq-01"
+        "wide-mcq-20",
+        "wide-mcq-28",
+        "wide-mcq-11"
       ],
       "explanation": "本句的「wide range of」指「包含很多不同種類、程度或選項的範圍」。",
       "sentenceIndex": 12,
@@ -1111,12 +1061,10 @@ export default {
         "wide range of"
       ],
       "optionReasons": {
-        "wide-mcq-04": "本句指「包含很多不同種類、程度或選項的範圍」。",
-        "wide-mcq-03": "「涵蓋的種類、範圍或領域很多／很廣」是「wide — range」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-02": "「門、眼睛、開口等張開到非常大的程度」是「wide open」的用法，與本句語境不同。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。",
-        "wide-mcq-01": "「從一邊到另一邊的橫向距離較大」是「wide — physical width」的用法，與本句語境不同。"
+        "wide-mcq-04": "本句的「wide range of」指「包含很多不同種類、程度或選項的範圍」。",
+        "wide-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-04"
     },
@@ -1128,10 +1076,8 @@ export default {
       "masked": "The issue affects a ____ people.",
       "options": [
         "wide-mcq-04",
-        "wide-mcq-03",
-        "wide-mcq-05",
-        "wide-mcq-02",
-        "wide-mcq-06",
+        "wide-mcq-11",
+        "wide-mcq-26",
         "wide-mcq-01"
       ],
       "explanation": "本句的「wide range of」指「包含很多不同種類、程度或選項的範圍」。",
@@ -1141,12 +1087,10 @@ export default {
         "wide range of"
       ],
       "optionReasons": {
-        "wide-mcq-04": "本句指「包含很多不同種類、程度或選項的範圍」。",
-        "wide-mcq-03": "「涵蓋的種類、範圍或領域很多／很廣」是「wide — range」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-02": "「門、眼睛、開口等張開到非常大的程度」是「wide open」的用法，與本句語境不同。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。",
-        "wide-mcq-01": "「從一邊到另一邊的橫向距離較大」是「wide — physical width」的用法，與本句語境不同。"
+        "wide-mcq-04": "本句的「wide range of」指「包含很多不同種類、程度或選項的範圍」。",
+        "wide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-04"
     },
@@ -1158,11 +1102,9 @@ export default {
       "masked": "The market sells a ____ fruit.",
       "options": [
         "wide-mcq-05",
-        "wide-mcq-04",
-        "wide-mcq-06",
-        "wide-mcq-03",
-        "wide-mcq-07",
-        "wide-mcq-02"
+        "wide-mcq-21",
+        "wide-mcq-19",
+        "wide-mcq-26"
       ],
       "explanation": "本句的「wide variety of」指「種類數量多而且彼此有所不同」。",
       "sentenceIndex": 14,
@@ -1171,12 +1113,10 @@ export default {
         "wide variety of"
       ],
       "optionReasons": {
-        "wide-mcq-05": "本句指「種類數量多而且彼此有所不同」。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。",
-        "wide-mcq-03": "「涵蓋的種類、範圍或領域很多／很廣」是「wide — range」的用法，與本句語境不同。",
-        "wide-mcq-07": "「兩個數值、群體、觀點或狀態之間的差距很大」是「wide gap/difference」的用法，與本句語境不同。",
-        "wide-mcq-02": "「門、眼睛、開口等張開到非常大的程度」是「wide open」的用法，與本句語境不同。"
+        "wide-mcq-05": "本句的「wide variety of」指「種類數量多而且彼此有所不同」。",
+        "wide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-05"
     },
@@ -1188,11 +1128,9 @@ export default {
       "masked": "People gave a ____ variety of answers.",
       "options": [
         "wide-mcq-05",
-        "wide-mcq-04",
-        "wide-mcq-06",
-        "wide-mcq-03",
-        "wide-mcq-07",
-        "wide-mcq-02"
+        "wide-mcq-13",
+        "wide-mcq-01",
+        "wide-mcq-20"
       ],
       "explanation": "本句的「wide」指「種類數量多而且彼此有所不同」。",
       "sentenceIndex": 15,
@@ -1201,12 +1139,10 @@ export default {
         "wide"
       ],
       "optionReasons": {
-        "wide-mcq-05": "本句指「種類數量多而且彼此有所不同」。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。",
-        "wide-mcq-03": "「涵蓋的種類、範圍或領域很多／很廣」是「wide — range」的用法，與本句語境不同。",
-        "wide-mcq-07": "「兩個數值、群體、觀點或狀態之間的差距很大」是「wide gap/difference」的用法，與本句語境不同。",
-        "wide-mcq-02": "「門、眼睛、開口等張開到非常大的程度」是「wide open」的用法，與本句語境不同。"
+        "wide-mcq-05": "本句的「wide」指「種類數量多而且彼此有所不同」。",
+        "wide-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-05"
     },
@@ -1218,11 +1154,9 @@ export default {
       "masked": "Customers have a ____ of products.",
       "options": [
         "wide-mcq-06",
-        "wide-mcq-05",
-        "wide-mcq-07",
-        "wide-mcq-04",
-        "wide-mcq-08",
-        "wide-mcq-03"
+        "wide-mcq-24",
+        "wide-mcq-25",
+        "wide-mcq-21"
       ],
       "explanation": "本句的「wide choice」指「可供選擇的項目／種類很多」。",
       "sentenceIndex": 16,
@@ -1231,12 +1165,10 @@ export default {
         "wide choice"
       ],
       "optionReasons": {
-        "wide-mcq-06": "本句指「可供選擇的項目／種類很多」。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-07": "「兩個數值、群體、觀點或狀態之間的差距很大」是「wide gap/difference」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。",
-        "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。",
-        "wide-mcq-03": "「涵蓋的種類、範圍或領域很多／很廣」是「wide — range」的用法，與本句語境不同。"
+        "wide-mcq-06": "本句的「wide choice」指「可供選擇的項目／種類很多」。",
+        "wide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-06"
     },
@@ -1248,11 +1180,9 @@ export default {
       "masked": "The website offers a ____ selection of courses.",
       "options": [
         "wide-mcq-06",
-        "wide-mcq-05",
-        "wide-mcq-07",
-        "wide-mcq-04",
-        "wide-mcq-08",
-        "wide-mcq-03"
+        "wide-mcq-18",
+        "wide-mcq-25",
+        "wide-mcq-19"
       ],
       "explanation": "本句的「wide」指「可供選擇的項目／種類很多」。",
       "sentenceIndex": 17,
@@ -1261,12 +1191,10 @@ export default {
         "wide"
       ],
       "optionReasons": {
-        "wide-mcq-06": "本句指「可供選擇的項目／種類很多」。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-07": "「兩個數值、群體、觀點或狀態之間的差距很大」是「wide gap/difference」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。",
-        "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。",
-        "wide-mcq-03": "「涵蓋的種類、範圍或領域很多／很廣」是「wide — range」的用法，與本句語境不同。"
+        "wide-mcq-06": "本句的「wide」指「可供選擇的項目／種類很多」。",
+        "wide-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-06"
     },
@@ -1278,11 +1206,9 @@ export default {
       "masked": "There is a ____ between the two results.",
       "options": [
         "wide-mcq-07",
-        "wide-mcq-06",
-        "wide-mcq-08",
-        "wide-mcq-05",
-        "wide-mcq-09",
-        "wide-mcq-04"
+        "wide-mcq-13",
+        "wide-mcq-26",
+        "wide-mcq-06"
       ],
       "explanation": "本句的「wide gap」指「兩個數值、群體、觀點或狀態之間的差距很大」。",
       "sentenceIndex": 18,
@@ -1291,12 +1217,10 @@ export default {
         "wide gap"
       ],
       "optionReasons": {
-        "wide-mcq-07": "本句指「兩個數值、群體、觀點或狀態之間的差距很大」。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。",
-        "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-09": "「受到很多人或不同群體普遍尊重」是「widely respected」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。"
+        "wide-mcq-07": "本句的「wide gap」指「兩個數值、群體、觀點或狀態之間的差距很大」。",
+        "wide-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-07"
     },
@@ -1308,11 +1232,9 @@ export default {
       "masked": "Their opinions are ____.",
       "options": [
         "wide-mcq-07",
-        "wide-mcq-06",
-        "wide-mcq-08",
-        "wide-mcq-05",
-        "wide-mcq-09",
-        "wide-mcq-04"
+        "wide-mcq-16",
+        "wide-mcq-12",
+        "wide-mcq-06"
       ],
       "explanation": "本句的「widely different」指「兩個數值、群體、觀點或狀態之間的差距很大」。",
       "sentenceIndex": 19,
@@ -1321,12 +1243,10 @@ export default {
         "widely different"
       ],
       "optionReasons": {
-        "wide-mcq-07": "本句指「兩個數值、群體、觀點或狀態之間的差距很大」。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。",
-        "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-09": "「受到很多人或不同群體普遍尊重」是「widely respected」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。"
+        "wide-mcq-07": "本句的「widely different」指「兩個數值、群體、觀點或狀態之間的差距很大」。",
+        "wide-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-07"
     },
@@ -1338,11 +1258,9 @@ export default {
       "masked": "There is a ____ between theory and practice.",
       "options": [
         "wide-mcq-07",
-        "wide-mcq-06",
-        "wide-mcq-08",
-        "wide-mcq-05",
-        "wide-mcq-09",
-        "wide-mcq-04"
+        "wide-mcq-12",
+        "wide-mcq-16",
+        "wide-mcq-26"
       ],
       "explanation": "本句的「wide gap」指「兩個數值、群體、觀點或狀態之間的差距很大」。",
       "sentenceIndex": 20,
@@ -1351,12 +1269,10 @@ export default {
         "wide gap"
       ],
       "optionReasons": {
-        "wide-mcq-07": "本句指「兩個數值、群體、觀點或狀態之間的差距很大」。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。",
-        "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-09": "「受到很多人或不同群體普遍尊重」是「widely respected」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。"
+        "wide-mcq-07": "本句的「wide gap」指「兩個數值、群體、觀點或狀態之間的差距很大」。",
+        "wide-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-07"
     },
@@ -1369,10 +1285,8 @@ export default {
       "options": [
         "wide-mcq-07",
         "wide-mcq-06",
-        "wide-mcq-08",
-        "wide-mcq-05",
-        "wide-mcq-09",
-        "wide-mcq-04"
+        "wide-mcq-12",
+        "wide-mcq-16"
       ],
       "explanation": "本句的「wide」指「兩個數值、群體、觀點或狀態之間的差距很大」。",
       "sentenceIndex": 21,
@@ -1381,12 +1295,10 @@ export default {
         "wide"
       ],
       "optionReasons": {
-        "wide-mcq-07": "本句指「兩個數值、群體、觀點或狀態之間的差距很大」。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。",
-        "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-09": "「受到很多人或不同群體普遍尊重」是「widely respected」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。"
+        "wide-mcq-07": "本句的「wide」指「兩個數值、群體、觀點或狀態之間的差距很大」。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-07"
     },
@@ -1398,11 +1310,9 @@ export default {
       "masked": "There is a ____ in experience between them.",
       "options": [
         "wide-mcq-07",
+        "wide-mcq-12",
         "wide-mcq-06",
-        "wide-mcq-08",
-        "wide-mcq-05",
-        "wide-mcq-09",
-        "wide-mcq-04"
+        "wide-mcq-26"
       ],
       "explanation": "本句的「wide difference」指「兩個數值、群體、觀點或狀態之間的差距很大」。",
       "sentenceIndex": 22,
@@ -1411,12 +1321,10 @@ export default {
         "wide difference"
       ],
       "optionReasons": {
-        "wide-mcq-07": "本句指「兩個數值、群體、觀點或狀態之間的差距很大」。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。",
-        "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-09": "「受到很多人或不同群體普遍尊重」是「widely respected」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。"
+        "wide-mcq-07": "本句的「wide difference」指「兩個數值、群體、觀點或狀態之間的差距很大」。",
+        "wide-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-07"
     },
@@ -1428,11 +1336,9 @@ export default {
       "masked": "Prices vary ____ between regions.",
       "options": [
         "wide-mcq-07",
+        "wide-mcq-26",
         "wide-mcq-06",
-        "wide-mcq-08",
-        "wide-mcq-05",
-        "wide-mcq-09",
-        "wide-mcq-04"
+        "wide-mcq-13"
       ],
       "explanation": "本句的「widely」指「兩個數值、群體、觀點或狀態之間的差距很大」。",
       "sentenceIndex": 23,
@@ -1441,12 +1347,10 @@ export default {
         "widely"
       ],
       "optionReasons": {
-        "wide-mcq-07": "本句指「兩個數值、群體、觀點或狀態之間的差距很大」。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。",
-        "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-09": "「受到很多人或不同群體普遍尊重」是「widely respected」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。"
+        "wide-mcq-07": "本句的「widely」指「兩個數值、群體、觀點或狀態之間的差距很大」。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-07"
     },
@@ -1458,11 +1362,9 @@ export default {
       "masked": "She is ____ in my family and even in the neighbourhood.",
       "options": [
         "wide-pdf-001",
-        "wide-mcq-08",
-        "wide-mcq-10",
-        "wide-mcq-07",
-        "wide-mcq-11",
-        "wide-mcq-06"
+        "wide-mcq-24",
+        "wide-pdf-002",
+        "wide-mcq-20"
       ],
       "explanation": "本句的「widely respected」指「在很多人、地方、群體或情況中都有／都發生」。",
       "sentenceIndex": 24,
@@ -1471,12 +1373,10 @@ export default {
         "widely respected"
       ],
       "optionReasons": {
-        "wide-pdf-001": "本句指「在很多人、地方、群體或情況中都有／都發生」。",
-        "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。",
-        "wide-mcq-10": "「被很多人／很多地方的人知道」是「widely known」的用法，與本句語境不同。",
-        "wide-mcq-07": "「兩個數值、群體、觀點或狀態之間的差距很大」是「wide gap/difference」的用法，與本句語境不同。",
-        "wide-mcq-11": "「在很多人、群體或領域中獲得接受」是「widely accepted」的用法，與本句語境不同。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。"
+        "wide-pdf-001": "本句的「widely respected」指「在很多人、地方、群體或情況中都有／都發生」。",
+        "wide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wide-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-pdf-001"
     },
@@ -1488,11 +1388,9 @@ export default {
       "masked": "The book is ____.",
       "options": [
         "wide-pdf-001",
-        "wide-mcq-08",
-        "wide-mcq-10",
-        "wide-mcq-07",
-        "wide-mcq-11",
-        "wide-mcq-06"
+        "wide-mcq-03",
+        "wide-mcq-26",
+        "wide-mcq-17"
       ],
       "explanation": "本句的「widely read」指「在很多人、地方、群體或情況中都有／都發生」。",
       "sentenceIndex": 25,
@@ -1501,12 +1399,10 @@ export default {
         "widely read"
       ],
       "optionReasons": {
-        "wide-pdf-001": "本句指「在很多人、地方、群體或情況中都有／都發生」。",
-        "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。",
-        "wide-mcq-10": "「被很多人／很多地方的人知道」是「widely known」的用法，與本句語境不同。",
-        "wide-mcq-07": "「兩個數值、群體、觀點或狀態之間的差距很大」是「wide gap/difference」的用法，與本句語境不同。",
-        "wide-mcq-11": "「在很多人、群體或領域中獲得接受」是「widely accepted」的用法，與本句語境不同。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。"
+        "wide-pdf-001": "本句的「widely read」指「在很多人、地方、群體或情況中都有／都發生」。",
+        "wide-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-pdf-001"
     },
@@ -1518,11 +1414,9 @@ export default {
       "masked": "The idea is ____.",
       "options": [
         "wide-pdf-001",
-        "wide-mcq-08",
-        "wide-mcq-10",
-        "wide-mcq-07",
-        "wide-mcq-11",
-        "wide-mcq-06"
+        "wide-mcq-02",
+        "wide-mcq-25",
+        "wide-mcq-01"
       ],
       "explanation": "本句的「widely accepted」指「在很多人、地方、群體或情況中都有／都發生」。",
       "sentenceIndex": 26,
@@ -1531,12 +1425,10 @@ export default {
         "widely accepted"
       ],
       "optionReasons": {
-        "wide-pdf-001": "本句指「在很多人、地方、群體或情況中都有／都發生」。",
-        "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。",
-        "wide-mcq-10": "「被很多人／很多地方的人知道」是「widely known」的用法，與本句語境不同。",
-        "wide-mcq-07": "「兩個數值、群體、觀點或狀態之間的差距很大」是「wide gap/difference」的用法，與本句語境不同。",
-        "wide-mcq-11": "「在很多人、群體或領域中獲得接受」是「widely accepted」的用法，與本句語境不同。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。"
+        "wide-pdf-001": "本句的「widely accepted」指「在很多人、地方、群體或情況中都有／都發生」。",
+        "wide-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-pdf-001"
     },
@@ -1548,11 +1440,9 @@ export default {
       "masked": "She is ____ for her kindness.",
       "options": [
         "wide-mcq-11",
-        "wide-mcq-10",
-        "wide-mcq-12",
-        "wide-mcq-09",
-        "wide-mcq-13",
-        "wide-mcq-08"
+        "wide-pdf-003",
+        "wide-mcq-20",
+        "wide-mcq-17"
       ],
       "explanation": "本句的「widely known」指「在很多人、群體或領域中獲得接受」。",
       "sentenceIndex": 27,
@@ -1561,12 +1451,10 @@ export default {
         "widely known"
       ],
       "optionReasons": {
-        "wide-mcq-11": "本句指「在很多人、群體或領域中獲得接受」。",
-        "wide-mcq-10": "「被很多人／很多地方的人知道」是「widely known」的用法，與本句語境不同。",
-        "wide-mcq-12": "「在很多人、地方、領域或情況中使用」是「widely used」的用法，與本句語境不同。",
-        "wide-mcq-09": "「受到很多人或不同群體普遍尊重」是「widely respected」的用法，與本句語境不同。",
-        "wide-mcq-13": "「在很多地方／渠道都可以取得」是「widely available」的用法，與本句語境不同。",
-        "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。"
+        "wide-mcq-11": "本句的「widely known」指「在很多人、群體或領域中獲得接受」。",
+        "wide-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-11"
     },
@@ -1578,11 +1466,9 @@ export default {
       "masked": "The method is ____ accepted.",
       "options": [
         "wide-mcq-11",
-        "wide-mcq-10",
-        "wide-mcq-12",
-        "wide-mcq-09",
-        "wide-mcq-13",
-        "wide-mcq-08"
+        "wide-mcq-20",
+        "wide-mcq-14",
+        "wide-mcq-24"
       ],
       "explanation": "本句的「widely」指「在很多人、群體或領域中獲得接受」。",
       "sentenceIndex": 28,
@@ -1591,12 +1477,10 @@ export default {
         "widely"
       ],
       "optionReasons": {
-        "wide-mcq-11": "本句指「在很多人、群體或領域中獲得接受」。",
-        "wide-mcq-10": "「被很多人／很多地方的人知道」是「widely known」的用法，與本句語境不同。",
-        "wide-mcq-12": "「在很多人、地方、領域或情況中使用」是「widely used」的用法，與本句語境不同。",
-        "wide-mcq-09": "「受到很多人或不同群體普遍尊重」是「widely respected」的用法，與本句語境不同。",
-        "wide-mcq-13": "「在很多地方／渠道都可以取得」是「widely available」的用法，與本句語境不同。",
-        "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。"
+        "wide-mcq-11": "本句的「widely」指「在很多人、群體或領域中獲得接受」。",
+        "wide-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-11"
     },
@@ -1608,11 +1492,9 @@ export default {
       "masked": "This software is ____.",
       "options": [
         "wide-mcq-12",
-        "wide-mcq-11",
-        "wide-mcq-13",
-        "wide-mcq-10",
-        "wide-mcq-14",
-        "wide-mcq-09"
+        "wide-mcq-05",
+        "wide-mcq-26",
+        "wide-mcq-24"
       ],
       "explanation": "本句的「widely used」指「在很多人、地方、領域或情況中使用」。",
       "sentenceIndex": 29,
@@ -1621,12 +1503,10 @@ export default {
         "widely used"
       ],
       "optionReasons": {
-        "wide-mcq-12": "本句指「在很多人、地方、領域或情況中使用」。",
-        "wide-mcq-11": "「在很多人、群體或領域中獲得接受」是「widely accepted」的用法，與本句語境不同。",
-        "wide-mcq-13": "「在很多地方／渠道都可以取得」是「widely available」的用法，與本句語境不同。",
-        "wide-mcq-10": "「被很多人／很多地方的人知道」是「widely known」的用法，與本句語境不同。",
-        "wide-mcq-14": "「數值、看法、品質等彼此相差很大」是「widely — greatly」的用法，與本句語境不同。",
-        "wide-mcq-09": "「受到很多人或不同群體普遍尊重」是「widely respected」的用法，與本句語境不同。"
+        "wide-mcq-12": "本句的「widely used」指「在很多人、地方、領域或情況中使用」。",
+        "wide-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-12"
     },
@@ -1638,11 +1518,9 @@ export default {
       "masked": "The expression is ____ used in conversation.",
       "options": [
         "wide-mcq-12",
-        "wide-mcq-11",
-        "wide-mcq-13",
-        "wide-mcq-10",
-        "wide-mcq-14",
-        "wide-mcq-09"
+        "wide-mcq-26",
+        "wide-mcq-27",
+        "wide-mcq-17"
       ],
       "explanation": "本句的「widely」指「在很多人、地方、領域或情況中使用」。",
       "sentenceIndex": 30,
@@ -1651,12 +1529,10 @@ export default {
         "widely"
       ],
       "optionReasons": {
-        "wide-mcq-12": "本句指「在很多人、地方、領域或情況中使用」。",
-        "wide-mcq-11": "「在很多人、群體或領域中獲得接受」是「widely accepted」的用法，與本句語境不同。",
-        "wide-mcq-13": "「在很多地方／渠道都可以取得」是「widely available」的用法，與本句語境不同。",
-        "wide-mcq-10": "「被很多人／很多地方的人知道」是「widely known」的用法，與本句語境不同。",
-        "wide-mcq-14": "「數值、看法、品質等彼此相差很大」是「widely — greatly」的用法，與本句語境不同。",
-        "wide-mcq-09": "「受到很多人或不同群體普遍尊重」是「widely respected」的用法，與本句語境不同。"
+        "wide-mcq-12": "本句的「widely」指「在很多人、地方、領域或情況中使用」。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-12"
     },
@@ -1668,11 +1544,9 @@ export default {
       "masked": "The product is ____.",
       "options": [
         "wide-mcq-13",
-        "wide-mcq-12",
-        "wide-mcq-14",
-        "wide-mcq-11",
-        "wide-mcq-15",
-        "wide-mcq-10"
+        "wide-mcq-04",
+        "wide-mcq-01",
+        "wide-mcq-26"
       ],
       "explanation": "本句的「widely available」指「在很多地方／渠道都可以取得」。",
       "sentenceIndex": 31,
@@ -1681,12 +1555,10 @@ export default {
         "widely available"
       ],
       "optionReasons": {
-        "wide-mcq-13": "本句指「在很多地方／渠道都可以取得」。",
-        "wide-mcq-12": "「在很多人、地方、領域或情況中使用」是「widely used」的用法，與本句語境不同。",
-        "wide-mcq-14": "「數值、看法、品質等彼此相差很大」是「widely — greatly」的用法，與本句語境不同。",
-        "wide-mcq-11": "「在很多人、群體或領域中獲得接受」是「widely accepted」的用法，與本句語境不同。",
-        "wide-mcq-15": "「不同個案之間的程度／數值／意見差距很大」是「vary widely」的用法，與本句語境不同。",
-        "wide-mcq-10": "「被很多人／很多地方的人知道」是「widely known」的用法，與本句語境不同。"
+        "wide-mcq-13": "本句的「widely available」指「在很多地方／渠道都可以取得」。",
+        "wide-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-13"
     },
@@ -1698,11 +1570,9 @@ export default {
       "masked": "Online courses are now ____ available.",
       "options": [
         "wide-mcq-13",
-        "wide-mcq-12",
-        "wide-mcq-14",
-        "wide-mcq-11",
-        "wide-mcq-15",
-        "wide-mcq-10"
+        "wide-mcq-02",
+        "wide-mcq-01",
+        "wide-mcq-26"
       ],
       "explanation": "本句的「widely」指「在很多地方／渠道都可以取得」。",
       "sentenceIndex": 32,
@@ -1711,12 +1581,10 @@ export default {
         "widely"
       ],
       "optionReasons": {
-        "wide-mcq-13": "本句指「在很多地方／渠道都可以取得」。",
-        "wide-mcq-12": "「在很多人、地方、領域或情況中使用」是「widely used」的用法，與本句語境不同。",
-        "wide-mcq-14": "「數值、看法、品質等彼此相差很大」是「widely — greatly」的用法，與本句語境不同。",
-        "wide-mcq-11": "「在很多人、群體或領域中獲得接受」是「widely accepted」的用法，與本句語境不同。",
-        "wide-mcq-15": "「不同個案之間的程度／數值／意見差距很大」是「vary widely」的用法，與本句語境不同。",
-        "wide-mcq-10": "「被很多人／很多地方的人知道」是「widely known」的用法，與本句語境不同。"
+        "wide-mcq-13": "本句的「widely」指「在很多地方／渠道都可以取得」。",
+        "wide-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-13"
     },
@@ -1728,11 +1596,9 @@ export default {
       "masked": "The species is ____.",
       "options": [
         "wide-mcq-13",
-        "wide-mcq-12",
-        "wide-mcq-14",
-        "wide-mcq-11",
         "wide-mcq-15",
-        "wide-mcq-10"
+        "wide-mcq-19",
+        "wide-mcq-26"
       ],
       "explanation": "本句的「widely distributed」指「在很多地方／渠道都可以取得」。",
       "sentenceIndex": 33,
@@ -1741,12 +1607,10 @@ export default {
         "widely distributed"
       ],
       "optionReasons": {
-        "wide-mcq-13": "本句指「在很多地方／渠道都可以取得」。",
-        "wide-mcq-12": "「在很多人、地方、領域或情況中使用」是「widely used」的用法，與本句語境不同。",
-        "wide-mcq-14": "「數值、看法、品質等彼此相差很大」是「widely — greatly」的用法，與本句語境不同。",
-        "wide-mcq-11": "「在很多人、群體或領域中獲得接受」是「widely accepted」的用法，與本句語境不同。",
-        "wide-mcq-15": "「不同個案之間的程度／數值／意見差距很大」是「vary widely」的用法，與本句語境不同。",
-        "wide-mcq-10": "「被很多人／很多地方的人知道」是「widely known」的用法，與本句語境不同。"
+        "wide-mcq-13": "本句的「widely distributed」指「在很多地方／渠道都可以取得」。",
+        "wide-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-13"
     },
@@ -1758,11 +1622,9 @@ export default {
       "masked": "The report was ____ distributed.",
       "options": [
         "wide-mcq-13",
-        "wide-mcq-12",
-        "wide-mcq-14",
-        "wide-mcq-11",
-        "wide-mcq-15",
-        "wide-mcq-10"
+        "wide-mcq-27",
+        "wide-mcq-01",
+        "wide-mcq-16"
       ],
       "explanation": "本句的「widely」指「在很多地方／渠道都可以取得」。",
       "sentenceIndex": 34,
@@ -1771,12 +1633,10 @@ export default {
         "widely"
       ],
       "optionReasons": {
-        "wide-mcq-13": "本句指「在很多地方／渠道都可以取得」。",
-        "wide-mcq-12": "「在很多人、地方、領域或情況中使用」是「widely used」的用法，與本句語境不同。",
-        "wide-mcq-14": "「數值、看法、品質等彼此相差很大」是「widely — greatly」的用法，與本句語境不同。",
-        "wide-mcq-11": "「在很多人、群體或領域中獲得接受」是「widely accepted」的用法，與本句語境不同。",
-        "wide-mcq-15": "「不同個案之間的程度／數值／意見差距很大」是「vary widely」的用法，與本句語境不同。",
-        "wide-mcq-10": "「被很多人／很多地方的人知道」是「widely known」的用法，與本句語境不同。"
+        "wide-mcq-13": "本句的「widely」指「在很多地方／渠道都可以取得」。",
+        "wide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-13"
     },
@@ -1789,10 +1649,8 @@ export default {
       "options": [
         "wide-mcq-14",
         "wide-mcq-13",
-        "wide-mcq-15",
-        "wide-mcq-12",
-        "wide-mcq-16",
-        "wide-mcq-11"
+        "wide-mcq-24",
+        "wide-mcq-25"
       ],
       "explanation": "本句的「vary widely」指「數值、看法、品質等彼此相差很大」。",
       "sentenceIndex": 35,
@@ -1801,12 +1659,10 @@ export default {
         "vary widely"
       ],
       "optionReasons": {
-        "wide-mcq-14": "本句指「數值、看法、品質等彼此相差很大」。",
-        "wide-mcq-13": "「在很多地方／渠道都可以取得」是「widely available」的用法，與本句語境不同。",
-        "wide-mcq-15": "「不同個案之間的程度／數值／意見差距很大」是「vary widely」的用法，與本句語境不同。",
-        "wide-mcq-12": "「在很多人、地方、領域或情況中使用」是「widely used」的用法，與本句語境不同。",
-        "wide-mcq-16": "「從側面偏離目標，沒有擊中／到達目標」是「wide — miss target」的用法，與本句語境不同。",
-        "wide-mcq-11": "「在很多人、群體或領域中獲得接受」是「widely accepted」的用法，與本句語境不同。"
+        "wide-mcq-14": "本句的「vary widely」指「數值、看法、品質等彼此相差很大」。",
+        "wide-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-14"
     },
@@ -1819,10 +1675,8 @@ export default {
       "options": [
         "wide-mcq-14",
         "wide-mcq-13",
-        "wide-mcq-15",
-        "wide-mcq-12",
-        "wide-mcq-16",
-        "wide-mcq-11"
+        "wide-mcq-06",
+        "wide-mcq-17"
       ],
       "explanation": "本句的「widely」指「數值、看法、品質等彼此相差很大」。",
       "sentenceIndex": 36,
@@ -1831,12 +1685,10 @@ export default {
         "widely"
       ],
       "optionReasons": {
-        "wide-mcq-14": "本句指「數值、看法、品質等彼此相差很大」。",
-        "wide-mcq-13": "「在很多地方／渠道都可以取得」是「widely available」的用法，與本句語境不同。",
-        "wide-mcq-15": "「不同個案之間的程度／數值／意見差距很大」是「vary widely」的用法，與本句語境不同。",
-        "wide-mcq-12": "「在很多人、地方、領域或情況中使用」是「widely used」的用法，與本句語境不同。",
-        "wide-mcq-16": "「從側面偏離目標，沒有擊中／到達目標」是「wide — miss target」的用法，與本句語境不同。",
-        "wide-mcq-11": "「在很多人、群體或領域中獲得接受」是「widely accepted」的用法，與本句語境不同。"
+        "wide-mcq-14": "本句的「widely」指「數值、看法、品質等彼此相差很大」。",
+        "wide-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-14"
     },
@@ -1848,11 +1700,9 @@ export default {
       "masked": "The quality can ____.",
       "options": [
         "wide-mcq-15",
-        "wide-mcq-14",
-        "wide-mcq-16",
-        "wide-mcq-13",
-        "wide-mcq-17",
-        "wide-mcq-12"
+        "wide-mcq-06",
+        "wide-mcq-26",
+        "wide-mcq-11"
       ],
       "explanation": "本句的「vary widely」指「不同個案之間的程度／數值／意見差距很大」。",
       "sentenceIndex": 37,
@@ -1861,12 +1711,10 @@ export default {
         "vary widely"
       ],
       "optionReasons": {
-        "wide-mcq-15": "本句指「不同個案之間的程度／數值／意見差距很大」。",
-        "wide-mcq-14": "「數值、看法、品質等彼此相差很大」是「widely — greatly」的用法，與本句語境不同。",
-        "wide-mcq-16": "「從側面偏離目標，沒有擊中／到達目標」是「wide — miss target」的用法，與本句語境不同。",
-        "wide-mcq-13": "「在很多地方／渠道都可以取得」是「widely available」的用法，與本句語境不同。",
-        "wide-mcq-17": "「實際或比喻上距離正確目標／答案很遠」是「wide of the mark」的用法，與本句語境不同。",
-        "wide-mcq-12": "「在很多人、地方、領域或情況中使用」是「widely used」的用法，與本句語境不同。"
+        "wide-mcq-15": "本句的「vary widely」指「不同個案之間的程度／數值／意見差距很大」。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-15"
     },
@@ -1878,11 +1726,9 @@ export default {
       "masked": "Opinions on the issue vary ____.",
       "options": [
         "wide-mcq-15",
-        "wide-mcq-14",
-        "wide-mcq-16",
         "wide-mcq-13",
-        "wide-mcq-17",
-        "wide-mcq-12"
+        "wide-mcq-06",
+        "wide-mcq-16"
       ],
       "explanation": "本句的「widely」指「不同個案之間的程度／數值／意見差距很大」。",
       "sentenceIndex": 38,
@@ -1891,12 +1737,10 @@ export default {
         "widely"
       ],
       "optionReasons": {
-        "wide-mcq-15": "本句指「不同個案之間的程度／數值／意見差距很大」。",
-        "wide-mcq-14": "「數值、看法、品質等彼此相差很大」是「widely — greatly」的用法，與本句語境不同。",
-        "wide-mcq-16": "「從側面偏離目標，沒有擊中／到達目標」是「wide — miss target」的用法，與本句語境不同。",
-        "wide-mcq-13": "「在很多地方／渠道都可以取得」是「widely available」的用法，與本句語境不同。",
-        "wide-mcq-17": "「實際或比喻上距離正確目標／答案很遠」是「wide of the mark」的用法，與本句語境不同。",
-        "wide-mcq-12": "「在很多人、地方、領域或情況中使用」是「widely used」的用法，與本句語境不同。"
+        "wide-mcq-15": "本句的「widely」指「不同個案之間的程度／數值／意見差距很大」。",
+        "wide-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-15"
     },
@@ -1908,11 +1752,9 @@ export default {
       "masked": "The ball went ____.",
       "options": [
         "wide-mcq-16",
-        "wide-mcq-15",
-        "wide-mcq-17",
-        "wide-mcq-14",
-        "wide-mcq-18",
-        "wide-mcq-13"
+        "wide-mcq-02",
+        "wide-mcq-11",
+        "wide-mcq-26"
       ],
       "explanation": "本句的「wide」指「從側面偏離目標，沒有擊中／到達目標」。",
       "sentenceIndex": 39,
@@ -1921,12 +1763,10 @@ export default {
         "wide"
       ],
       "optionReasons": {
-        "wide-mcq-16": "本句指「從側面偏離目標，沒有擊中／到達目標」。",
-        "wide-mcq-15": "「不同個案之間的程度／數值／意見差距很大」是「vary widely」的用法，與本句語境不同。",
-        "wide-mcq-17": "「實際或比喻上距離正確目標／答案很遠」是「wide of the mark」的用法，與本句語境不同。",
-        "wide-mcq-14": "「數值、看法、品質等彼此相差很大」是「widely — greatly」的用法，與本句語境不同。",
-        "wide-mcq-18": "「在很多地方、很大的地域範圍內；到處」是「far and wide」的用法，與本句語境不同。",
-        "wide-mcq-13": "「在很多地方／渠道都可以取得」是「widely available」的用法，與本句語境不同。"
+        "wide-mcq-16": "本句的「wide」指「從側面偏離目標，沒有擊中／到達目標」。",
+        "wide-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-16"
     },
@@ -1938,11 +1778,9 @@ export default {
       "masked": "His shot was ____ of the goal.",
       "options": [
         "wide-mcq-16",
-        "wide-mcq-15",
-        "wide-mcq-17",
-        "wide-mcq-14",
-        "wide-mcq-18",
-        "wide-mcq-13"
+        "wide-mcq-04",
+        "wide-mcq-26",
+        "wide-mcq-12"
       ],
       "explanation": "本句的「wide」指「從側面偏離目標，沒有擊中／到達目標」。",
       "sentenceIndex": 40,
@@ -1951,12 +1789,10 @@ export default {
         "wide"
       ],
       "optionReasons": {
-        "wide-mcq-16": "本句指「從側面偏離目標，沒有擊中／到達目標」。",
-        "wide-mcq-15": "「不同個案之間的程度／數值／意見差距很大」是「vary widely」的用法，與本句語境不同。",
-        "wide-mcq-17": "「實際或比喻上距離正確目標／答案很遠」是「wide of the mark」的用法，與本句語境不同。",
-        "wide-mcq-14": "「數值、看法、品質等彼此相差很大」是「widely — greatly」的用法，與本句語境不同。",
-        "wide-mcq-18": "「在很多地方、很大的地域範圍內；到處」是「far and wide」的用法，與本句語境不同。",
-        "wide-mcq-13": "「在很多地方／渠道都可以取得」是「widely available」的用法，與本句語境不同。"
+        "wide-mcq-16": "本句的「wide」指「從側面偏離目標，沒有擊中／到達目標」。",
+        "wide-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-16"
     },
@@ -1968,11 +1804,9 @@ export default {
       "masked": "The shot went ____.",
       "options": [
         "wide-mcq-17",
-        "wide-mcq-16",
-        "wide-mcq-18",
-        "wide-mcq-15",
         "wide-mcq-19",
-        "wide-mcq-14"
+        "wide-pdf-001",
+        "wide-mcq-25"
       ],
       "explanation": "本句的「wide of the mark」指「實際或比喻上距離正確目標／答案很遠」。",
       "sentenceIndex": 41,
@@ -1981,12 +1815,10 @@ export default {
         "wide of the mark"
       ],
       "optionReasons": {
-        "wide-mcq-17": "本句指「實際或比喻上距離正確目標／答案很遠」。",
-        "wide-mcq-16": "「從側面偏離目標，沒有擊中／到達目標」是「wide — miss target」的用法，與本句語境不同。",
-        "wide-mcq-18": "「在很多地方、很大的地域範圍內；到處」是「far and wide」的用法，與本句語境不同。",
-        "wide-mcq-15": "「不同個案之間的程度／數值／意見差距很大」是「vary widely」的用法，與本句語境不同。",
-        "wide-mcq-19": "「完全清醒、一點睡意也沒有」是「wide awake」的用法，與本句語境不同。",
-        "wide-mcq-14": "「數值、看法、品質等彼此相差很大」是「widely — greatly」的用法，與本句語境不同。"
+        "wide-mcq-17": "本句的「wide of the mark」指「實際或比喻上距離正確目標／答案很遠」。",
+        "wide-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wide-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-17"
     },
@@ -1998,11 +1830,9 @@ export default {
       "masked": "His estimate was ____.",
       "options": [
         "wide-mcq-17",
-        "wide-mcq-16",
-        "wide-mcq-18",
-        "wide-mcq-15",
-        "wide-mcq-19",
-        "wide-mcq-14"
+        "wide-mcq-03",
+        "wide-mcq-21",
+        "wide-mcq-19"
       ],
       "explanation": "本句的「wide of the mark」指「實際或比喻上距離正確目標／答案很遠」。",
       "sentenceIndex": 42,
@@ -2011,12 +1841,10 @@ export default {
         "wide of the mark"
       ],
       "optionReasons": {
-        "wide-mcq-17": "本句指「實際或比喻上距離正確目標／答案很遠」。",
-        "wide-mcq-16": "「從側面偏離目標，沒有擊中／到達目標」是「wide — miss target」的用法，與本句語境不同。",
-        "wide-mcq-18": "「在很多地方、很大的地域範圍內；到處」是「far and wide」的用法，與本句語境不同。",
-        "wide-mcq-15": "「不同個案之間的程度／數值／意見差距很大」是「vary widely」的用法，與本句語境不同。",
-        "wide-mcq-19": "「完全清醒、一點睡意也沒有」是「wide awake」的用法，與本句語境不同。",
-        "wide-mcq-14": "「數值、看法、品質等彼此相差很大」是「widely — greatly」的用法，與本句語境不同。"
+        "wide-mcq-17": "本句的「wide of the mark」指「實際或比喻上距離正確目標／答案很遠」。",
+        "wide-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-17"
     },
@@ -2028,11 +1856,9 @@ export default {
       "masked": "People came from ____.",
       "options": [
         "wide-mcq-18",
-        "wide-mcq-17",
+        "wide-mcq-26",
         "wide-mcq-19",
-        "wide-mcq-16",
-        "wide-mcq-20",
-        "wide-mcq-15"
+        "wide-mcq-06"
       ],
       "explanation": "本句的「far and wide」指「在很多地方、很大的地域範圍內；到處」。",
       "sentenceIndex": 43,
@@ -2041,12 +1867,10 @@ export default {
         "far and wide"
       ],
       "optionReasons": {
-        "wide-mcq-18": "本句指「在很多地方、很大的地域範圍內；到處」。",
-        "wide-mcq-17": "「實際或比喻上距離正確目標／答案很遠」是「wide of the mark」的用法，與本句語境不同。",
-        "wide-mcq-19": "「完全清醒、一點睡意也沒有」是「wide awake」的用法，與本句語境不同。",
-        "wide-mcq-16": "「從側面偏離目標，沒有擊中／到達目標」是「wide — miss target」的用法，與本句語境不同。",
-        "wide-mcq-20": "「眼睛睜大；亦可指天真、驚訝或充滿好奇」是「wide-eyed」的用法，與本句語境不同。",
-        "wide-mcq-15": "「不同個案之間的程度／數值／意見差距很大」是「vary widely」的用法，與本句語境不同。"
+        "wide-mcq-18": "本句的「far and wide」指「在很多地方、很大的地域範圍內；到處」。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-18"
     },
@@ -2058,11 +1882,9 @@ export default {
       "masked": "They searched far and ____ for the missing file.",
       "options": [
         "wide-mcq-18",
+        "wide-mcq-26",
         "wide-mcq-17",
-        "wide-mcq-19",
-        "wide-mcq-16",
-        "wide-mcq-20",
-        "wide-mcq-15"
+        "wide-mcq-06"
       ],
       "explanation": "本句的「wide」指「在很多地方、很大的地域範圍內；到處」。",
       "sentenceIndex": 44,
@@ -2071,12 +1893,10 @@ export default {
         "wide"
       ],
       "optionReasons": {
-        "wide-mcq-18": "本句指「在很多地方、很大的地域範圍內；到處」。",
-        "wide-mcq-17": "「實際或比喻上距離正確目標／答案很遠」是「wide of the mark」的用法，與本句語境不同。",
-        "wide-mcq-19": "「完全清醒、一點睡意也沒有」是「wide awake」的用法，與本句語境不同。",
-        "wide-mcq-16": "「從側面偏離目標，沒有擊中／到達目標」是「wide — miss target」的用法，與本句語境不同。",
-        "wide-mcq-20": "「眼睛睜大；亦可指天真、驚訝或充滿好奇」是「wide-eyed」的用法，與本句語境不同。",
-        "wide-mcq-15": "「不同個案之間的程度／數值／意見差距很大」是「vary widely」的用法，與本句語境不同。"
+        "wide-mcq-18": "本句的「wide」指「在很多地方、很大的地域範圍內；到處」。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-18"
     },
@@ -2088,11 +1908,9 @@ export default {
       "masked": "I was ____ before the presentation.",
       "options": [
         "wide-mcq-19",
-        "wide-mcq-18",
-        "wide-mcq-20",
-        "wide-mcq-17",
-        "wide-mcq-21",
-        "wide-mcq-16"
+        "wide-mcq-14",
+        "wide-mcq-25",
+        "wide-mcq-06"
       ],
       "explanation": "本句的「wide awake」指「完全清醒、一點睡意也沒有」。",
       "sentenceIndex": 45,
@@ -2101,12 +1919,10 @@ export default {
         "wide awake"
       ],
       "optionReasons": {
-        "wide-mcq-19": "本句指「完全清醒、一點睡意也沒有」。",
-        "wide-mcq-18": "「在很多地方、很大的地域範圍內；到處」是「far and wide」的用法，與本句語境不同。",
-        "wide-mcq-20": "「眼睛睜大；亦可指天真、驚訝或充滿好奇」是「wide-eyed」的用法，與本句語境不同。",
-        "wide-mcq-17": "「實際或比喻上距離正確目標／答案很遠」是「wide of the mark」的用法，與本句語境不同。",
-        "wide-mcq-21": "「在很多地方／人群中廣泛存在或發生的」是「widespread」的用法，與本句語境不同。",
-        "wide-mcq-16": "「從側面偏離目標，沒有擊中／到達目標」是「wide — miss target」的用法，與本句語境不同。"
+        "wide-mcq-19": "本句的「wide awake」指「完全清醒、一點睡意也沒有」。",
+        "wide-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-19"
     },
@@ -2118,11 +1934,9 @@ export default {
       "masked": "The noise kept me ____ awake.",
       "options": [
         "wide-mcq-19",
-        "wide-mcq-18",
-        "wide-mcq-20",
-        "wide-mcq-17",
-        "wide-mcq-21",
-        "wide-mcq-16"
+        "wide-pdf-001",
+        "wide-mcq-26",
+        "wide-pdf-002"
       ],
       "explanation": "本句的「wide」指「完全清醒、一點睡意也沒有」。",
       "sentenceIndex": 46,
@@ -2131,12 +1945,10 @@ export default {
         "wide"
       ],
       "optionReasons": {
-        "wide-mcq-19": "本句指「完全清醒、一點睡意也沒有」。",
-        "wide-mcq-18": "「在很多地方、很大的地域範圍內；到處」是「far and wide」的用法，與本句語境不同。",
-        "wide-mcq-20": "「眼睛睜大；亦可指天真、驚訝或充滿好奇」是「wide-eyed」的用法，與本句語境不同。",
-        "wide-mcq-17": "「實際或比喻上距離正確目標／答案很遠」是「wide of the mark」的用法，與本句語境不同。",
-        "wide-mcq-21": "「在很多地方／人群中廣泛存在或發生的」是「widespread」的用法，與本句語境不同。",
-        "wide-mcq-16": "「從側面偏離目標，沒有擊中／到達目標」是「wide — miss target」的用法，與本句語境不同。"
+        "wide-mcq-19": "本句的「wide」指「完全清醒、一點睡意也沒有」。",
+        "wide-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wide-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-19"
     },
@@ -2148,11 +1960,9 @@ export default {
       "masked": "The child stared at the stage ____.",
       "options": [
         "wide-mcq-20",
-        "wide-mcq-19",
-        "wide-mcq-21",
-        "wide-mcq-18",
-        "wide-mcq-22",
-        "wide-mcq-17"
+        "wide-mcq-17",
+        "wide-mcq-11",
+        "wide-mcq-05"
       ],
       "explanation": "本句的「wide-eyed」指「眼睛睜大；亦可指天真、驚訝或充滿好奇」。",
       "sentenceIndex": 47,
@@ -2161,12 +1971,10 @@ export default {
         "wide-eyed"
       ],
       "optionReasons": {
-        "wide-mcq-20": "本句指「眼睛睜大；亦可指天真、驚訝或充滿好奇」。",
-        "wide-mcq-19": "「完全清醒、一點睡意也沒有」是「wide awake」的用法，與本句語境不同。",
-        "wide-mcq-21": "「在很多地方／人群中廣泛存在或發生的」是「widespread」的用法，與本句語境不同。",
-        "wide-mcq-18": "「在很多地方、很大的地域範圍內；到處」是「far and wide」的用法，與本句語境不同。",
-        "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。",
-        "wide-mcq-17": "「實際或比喻上距離正確目標／答案很遠」是「wide of the mark」的用法，與本句語境不同。"
+        "wide-mcq-20": "本句的「wide-eyed」指「眼睛睜大；亦可指天真、驚訝或充滿好奇」。",
+        "wide-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-20"
     },
@@ -2178,11 +1986,9 @@ export default {
       "masked": "She arrived as a ____ young student.",
       "options": [
         "wide-mcq-20",
-        "wide-mcq-19",
-        "wide-mcq-21",
-        "wide-mcq-18",
         "wide-mcq-22",
-        "wide-mcq-17"
+        "wide-mcq-21",
+        "wide-mcq-26"
       ],
       "explanation": "本句的「wide-eyed」指「眼睛睜大；亦可指天真、驚訝或充滿好奇」。",
       "sentenceIndex": 48,
@@ -2191,12 +1997,10 @@ export default {
         "wide-eyed"
       ],
       "optionReasons": {
-        "wide-mcq-20": "本句指「眼睛睜大；亦可指天真、驚訝或充滿好奇」。",
-        "wide-mcq-19": "「完全清醒、一點睡意也沒有」是「wide awake」的用法，與本句語境不同。",
-        "wide-mcq-21": "「在很多地方／人群中廣泛存在或發生的」是「widespread」的用法，與本句語境不同。",
-        "wide-mcq-18": "「在很多地方、很大的地域範圍內；到處」是「far and wide」的用法，與本句語境不同。",
-        "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。",
-        "wide-mcq-17": "「實際或比喻上距離正確目標／答案很遠」是「wide of the mark」的用法，與本句語境不同。"
+        "wide-mcq-20": "本句的「wide-eyed」指「眼睛睜大；亦可指天真、驚訝或充滿好奇」。",
+        "wide-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-20"
     },
@@ -2208,11 +2012,9 @@ export default {
       "masked": "The idea gained ____.",
       "options": [
         "wide-mcq-21",
+        "wide-mcq-05",
         "wide-mcq-20",
-        "wide-mcq-22",
-        "wide-mcq-19",
-        "wide-mcq-23",
-        "wide-mcq-18"
+        "wide-mcq-26"
       ],
       "explanation": "本句的「widespread support」指「在很多地方／人群中廣泛存在或發生的」。",
       "sentenceIndex": 49,
@@ -2221,12 +2023,10 @@ export default {
         "widespread support"
       ],
       "optionReasons": {
-        "wide-mcq-21": "本句指「在很多地方／人群中廣泛存在或發生的」。",
-        "wide-mcq-20": "「眼睛睜大；亦可指天真、驚訝或充滿好奇」是「wide-eyed」的用法，與本句語境不同。",
-        "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。",
-        "wide-mcq-19": "「完全清醒、一點睡意也沒有」是「wide awake」的用法，與本句語境不同。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。",
-        "wide-mcq-18": "「在很多地方、很大的地域範圍內；到處」是「far and wide」的用法，與本句語境不同。"
+        "wide-mcq-21": "本句的「widespread support」指「在很多地方／人群中廣泛存在或發生的」。",
+        "wide-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-21"
     },
@@ -2238,11 +2038,9 @@ export default {
       "masked": "There was ____ concern about the problem.",
       "options": [
         "wide-mcq-21",
+        "wide-mcq-25",
         "wide-mcq-20",
-        "wide-mcq-22",
-        "wide-mcq-19",
-        "wide-mcq-23",
-        "wide-mcq-18"
+        "wide-mcq-24"
       ],
       "explanation": "本句的「widespread」指「在很多地方／人群中廣泛存在或發生的」。",
       "sentenceIndex": 50,
@@ -2251,12 +2049,10 @@ export default {
         "widespread"
       ],
       "optionReasons": {
-        "wide-mcq-21": "本句指「在很多地方／人群中廣泛存在或發生的」。",
-        "wide-mcq-20": "「眼睛睜大；亦可指天真、驚訝或充滿好奇」是「wide-eyed」的用法，與本句語境不同。",
-        "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。",
-        "wide-mcq-19": "「完全清醒、一點睡意也沒有」是「wide awake」的用法，與本句語境不同。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。",
-        "wide-mcq-18": "「在很多地方、很大的地域範圍內；到處」是「far and wide」的用法，與本句語境不同。"
+        "wide-mcq-21": "本句的「widespread」指「在很多地方／人群中廣泛存在或發生的」。",
+        "wide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-21"
     },
@@ -2268,11 +2064,9 @@ export default {
       "masked": "The storm caused ____.",
       "options": [
         "wide-mcq-21",
-        "wide-mcq-20",
-        "wide-mcq-22",
-        "wide-mcq-19",
-        "wide-mcq-23",
-        "wide-mcq-18"
+        "wide-mcq-06",
+        "wide-mcq-01",
+        "wide-mcq-20"
       ],
       "explanation": "本句的「widespread damage」指「在很多地方／人群中廣泛存在或發生的」。",
       "sentenceIndex": 51,
@@ -2281,12 +2075,10 @@ export default {
         "widespread damage"
       ],
       "optionReasons": {
-        "wide-mcq-21": "本句指「在很多地方／人群中廣泛存在或發生的」。",
-        "wide-mcq-20": "「眼睛睜大；亦可指天真、驚訝或充滿好奇」是「wide-eyed」的用法，與本句語境不同。",
-        "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。",
-        "wide-mcq-19": "「完全清醒、一點睡意也沒有」是「wide awake」的用法，與本句語境不同。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。",
-        "wide-mcq-18": "「在很多地方、很大的地域範圍內；到處」是「far and wide」的用法，與本句語境不同。"
+        "wide-mcq-21": "本句的「widespread damage」指「在很多地方／人群中廣泛存在或發生的」。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-21"
     },
@@ -2300,9 +2092,7 @@ export default {
         "wide-mcq-21",
         "wide-mcq-20",
         "wide-mcq-22",
-        "wide-mcq-19",
-        "wide-mcq-23",
-        "wide-mcq-18"
+        "wide-mcq-16"
       ],
       "explanation": "本句的「widespread」指「在很多地方／人群中廣泛存在或發生的」。",
       "sentenceIndex": 52,
@@ -2311,12 +2101,10 @@ export default {
         "widespread"
       ],
       "optionReasons": {
-        "wide-mcq-21": "本句指「在很多地方／人群中廣泛存在或發生的」。",
-        "wide-mcq-20": "「眼睛睜大；亦可指天真、驚訝或充滿好奇」是「wide-eyed」的用法，與本句語境不同。",
-        "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。",
-        "wide-mcq-19": "「完全清醒、一點睡意也沒有」是「wide awake」的用法，與本句語境不同。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。",
-        "wide-mcq-18": "「在很多地方、很大的地域範圍內；到處」是「far and wide」的用法，與本句語境不同。"
+        "wide-mcq-21": "本句的「widespread」指「在很多地方／人群中廣泛存在或發生的」。",
+        "wide-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-21"
     },
@@ -2328,11 +2116,9 @@ export default {
       "masked": "The road ____ after the bridge.",
       "options": [
         "wide-mcq-22",
-        "wide-mcq-21",
-        "wide-mcq-23",
-        "wide-mcq-20",
-        "wide-mcq-24",
-        "wide-mcq-19"
+        "wide-pdf-001",
+        "wide-mcq-25",
+        "wide-mcq-17"
       ],
       "explanation": "本句的「widens」指「令某物的橫向寬度增加，或本身變寬」。",
       "sentenceIndex": 53,
@@ -2341,12 +2127,10 @@ export default {
         "widens"
       ],
       "optionReasons": {
-        "wide-mcq-22": "本句指「令某物的橫向寬度增加，或本身變寬」。",
-        "wide-mcq-21": "「在很多地方／人群中廣泛存在或發生的」是「widespread」的用法，與本句語境不同。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。",
-        "wide-mcq-20": "「眼睛睜大；亦可指天真、驚訝或充滿好奇」是「wide-eyed」的用法，與本句語境不同。",
-        "wide-mcq-24": "「某物從一邊到另一邊的橫向距離」是「width」的用法，與本句語境不同。",
-        "wide-mcq-19": "「完全清醒、一點睡意也沒有」是「wide awake」的用法，與本句語境不同。"
+        "wide-mcq-22": "本句的「widens」指「令某物的橫向寬度增加，或本身變寬」。",
+        "wide-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-22"
     },
@@ -2358,11 +2142,9 @@ export default {
       "masked": "They plan to ____.",
       "options": [
         "wide-mcq-22",
-        "wide-mcq-21",
-        "wide-mcq-23",
-        "wide-mcq-20",
-        "wide-mcq-24",
-        "wide-mcq-19"
+        "wide-mcq-12",
+        "wide-mcq-19",
+        "wide-mcq-06"
       ],
       "explanation": "本句的「widen the entrance」指「令某物的橫向寬度增加，或本身變寬」。",
       "sentenceIndex": 54,
@@ -2371,12 +2153,10 @@ export default {
         "widen the entrance"
       ],
       "optionReasons": {
-        "wide-mcq-22": "本句指「令某物的橫向寬度增加，或本身變寬」。",
-        "wide-mcq-21": "「在很多地方／人群中廣泛存在或發生的」是「widespread」的用法，與本句語境不同。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。",
-        "wide-mcq-20": "「眼睛睜大；亦可指天真、驚訝或充滿好奇」是「wide-eyed」的用法，與本句語境不同。",
-        "wide-mcq-24": "「某物從一邊到另一邊的橫向距離」是「width」的用法，與本句語境不同。",
-        "wide-mcq-19": "「完全清醒、一點睡意也沒有」是「wide awake」的用法，與本句語境不同。"
+        "wide-mcq-22": "本句的「widen the entrance」指「令某物的橫向寬度增加，或本身變寬」。",
+        "wide-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-22"
     },
@@ -2388,11 +2168,9 @@ export default {
       "masked": "The gap between the two groups ____.",
       "options": [
         "wide-mcq-07",
-        "wide-mcq-06",
-        "wide-mcq-08",
-        "wide-mcq-05",
-        "wide-mcq-09",
-        "wide-mcq-04"
+        "wide-mcq-25",
+        "wide-mcq-13",
+        "wide-mcq-26"
       ],
       "explanation": "本句的「widened」指「兩個數值、群體、觀點或狀態之間的差距很大」。",
       "sentenceIndex": 55,
@@ -2401,12 +2179,10 @@ export default {
         "widened"
       ],
       "optionReasons": {
-        "wide-mcq-07": "本句指「兩個數值、群體、觀點或狀態之間的差距很大」。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。",
-        "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-09": "「受到很多人或不同群體普遍尊重」是「widely respected」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。"
+        "wide-mcq-07": "本句的「widened」指「兩個數值、群體、觀點或狀態之間的差距很大」。",
+        "wide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-07"
     },
@@ -2418,11 +2194,9 @@ export default {
       "masked": "The disagreement continued to ____.",
       "options": [
         "wide-mcq-07",
-        "wide-mcq-06",
-        "wide-mcq-08",
-        "wide-mcq-05",
-        "wide-mcq-09",
-        "wide-mcq-04"
+        "wide-mcq-26",
+        "wide-mcq-16",
+        "wide-mcq-13"
       ],
       "explanation": "本句的「widen」指「兩個數值、群體、觀點或狀態之間的差距很大」。",
       "sentenceIndex": 56,
@@ -2431,12 +2205,10 @@ export default {
         "widen"
       ],
       "optionReasons": {
-        "wide-mcq-07": "本句指「兩個數值、群體、觀點或狀態之間的差距很大」。",
-        "wide-mcq-06": "「可供選擇的項目／種類很多」是「wide choice」的用法，與本句語境不同。",
-        "wide-mcq-08": "「在很多人、地方、群體或情況中都存在／發生」是「widely — broad distribution」的用法，與本句語境不同。",
-        "wide-mcq-05": "「種類數量多而且彼此有所不同」是「wide variety」的用法，與本句語境不同。",
-        "wide-mcq-09": "「受到很多人或不同群體普遍尊重」是「widely respected」的用法，與本句語境不同。",
-        "wide-mcq-04": "「包含很多不同種類、程度或選項的範圍」是「wide range」的用法，與本句語境不同。"
+        "wide-mcq-07": "本句的「widen」指「兩個數值、群體、觀點或狀態之間的差距很大」。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-07"
     },
@@ -2448,11 +2220,9 @@ export default {
       "masked": "Travel can ____.",
       "options": [
         "wide-pdf-002",
-        "wide-mcq-22",
-        "wide-mcq-24",
-        "wide-mcq-21",
-        "wide-mcq-25",
-        "wide-mcq-20"
+        "wide-mcq-20",
+        "wide-mcq-17",
+        "wide-mcq-26"
       ],
       "explanation": "本句的「widen your experience」指「令知識、經驗、選擇或視野的範圍增加」。",
       "sentenceIndex": 57,
@@ -2461,12 +2231,10 @@ export default {
         "widen your experience"
       ],
       "optionReasons": {
-        "wide-pdf-002": "本句指「令知識、經驗、選擇或視野的範圍增加」。",
-        "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。",
-        "wide-mcq-24": "「某物從一邊到另一邊的橫向距離」是「width」的用法，與本句語境不同。",
-        "wide-mcq-21": "「在很多地方／人群中廣泛存在或發生的」是「widespread」的用法，與本句語境不同。",
-        "wide-mcq-25": "「涵蓋很多不同主題、領域或問題的」是「wide-ranging」的用法，與本句語境不同。",
-        "wide-mcq-20": "「眼睛睜大；亦可指天真、驚訝或充滿好奇」是「wide-eyed」的用法，與本句語境不同。"
+        "wide-pdf-002": "本句的「widen your experience」指「令知識、經驗、選擇或視野的範圍增加」。",
+        "wide-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-pdf-002"
     },
@@ -2478,11 +2246,9 @@ export default {
       "masked": "Reading ____ can widen your knowledge.",
       "options": [
         "wide-pdf-002",
-        "wide-mcq-22",
-        "wide-mcq-24",
-        "wide-mcq-21",
-        "wide-mcq-25",
-        "wide-mcq-20"
+        "wide-mcq-12",
+        "wide-mcq-17",
+        "wide-mcq-26"
       ],
       "explanation": "本句的「widely」指「令知識、經驗、選擇或視野的範圍增加」。",
       "sentenceIndex": 58,
@@ -2491,12 +2257,10 @@ export default {
         "widely"
       ],
       "optionReasons": {
-        "wide-pdf-002": "本句指「令知識、經驗、選擇或視野的範圍增加」。",
-        "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。",
-        "wide-mcq-24": "「某物從一邊到另一邊的橫向距離」是「width」的用法，與本句語境不同。",
-        "wide-mcq-21": "「在很多地方／人群中廣泛存在或發生的」是「widespread」的用法，與本句語境不同。",
-        "wide-mcq-25": "「涵蓋很多不同主題、領域或問題的」是「wide-ranging」的用法，與本句語境不同。",
-        "wide-mcq-20": "「眼睛睜大；亦可指天真、驚訝或充滿好奇」是「wide-eyed」的用法，與本句語境不同。"
+        "wide-pdf-002": "本句的「widely」指「令知識、經驗、選擇或視野的範圍增加」。",
+        "wide-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-pdf-002"
     },
@@ -2508,11 +2272,9 @@ export default {
       "masked": "Measure the ____ of the table.",
       "options": [
         "wide-mcq-24",
-        "wide-mcq-23",
-        "wide-mcq-25",
-        "wide-mcq-22",
-        "wide-mcq-26",
-        "wide-mcq-21"
+        "wide-mcq-21",
+        "wide-mcq-02",
+        "wide-mcq-19"
       ],
       "explanation": "本句的「width」指「某物從一邊到另一邊的橫向距離」。",
       "sentenceIndex": 59,
@@ -2521,12 +2283,10 @@ export default {
         "width"
       ],
       "optionReasons": {
-        "wide-mcq-24": "本句指「某物從一邊到另一邊的橫向距離」。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。",
-        "wide-mcq-25": "「涵蓋很多不同主題、領域或問題的」是「wide-ranging」的用法，與本句語境不同。",
-        "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。",
-        "wide-mcq-26": "「畫面比例較寬的顯示／電影格式」是「widescreen」的用法，與本句語境不同。",
-        "wide-mcq-21": "「在很多地方／人群中廣泛存在或發生的」是「widespread」的用法，與本句語境不同。"
+        "wide-mcq-24": "本句的「width」指「某物從一邊到另一邊的橫向距離」。",
+        "wide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-24"
     },
@@ -2538,11 +2298,9 @@ export default {
       "masked": "The road is five metres in ____.",
       "options": [
         "wide-mcq-24",
-        "wide-mcq-23",
-        "wide-mcq-25",
-        "wide-mcq-22",
-        "wide-mcq-26",
-        "wide-mcq-21"
+        "wide-mcq-13",
+        "wide-mcq-20",
+        "wide-mcq-06"
       ],
       "explanation": "本句的「width」指「某物從一邊到另一邊的橫向距離」。",
       "sentenceIndex": 60,
@@ -2551,12 +2309,10 @@ export default {
         "width"
       ],
       "optionReasons": {
-        "wide-mcq-24": "本句指「某物從一邊到另一邊的橫向距離」。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。",
-        "wide-mcq-25": "「涵蓋很多不同主題、領域或問題的」是「wide-ranging」的用法，與本句語境不同。",
-        "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。",
-        "wide-mcq-26": "「畫面比例較寬的顯示／電影格式」是「widescreen」的用法，與本句語境不同。",
-        "wide-mcq-21": "「在很多地方／人群中廣泛存在或發生的」是「widespread」的用法，與本句語境不同。"
+        "wide-mcq-24": "本句的「width」指「某物從一邊到另一邊的橫向距離」。",
+        "wide-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-24"
     },
@@ -2568,11 +2324,9 @@ export default {
       "masked": "The ____ of the gap increased.",
       "options": [
         "wide-pdf-003",
-        "wide-mcq-23",
-        "wide-mcq-25",
-        "wide-mcq-22",
-        "wide-mcq-26",
-        "wide-mcq-21"
+        "wide-mcq-17",
+        "wide-mcq-06",
+        "wide-mcq-26"
       ],
       "explanation": "本句的「width」指「某個空間、欄位、範圍的橫向大小」。",
       "sentenceIndex": 61,
@@ -2581,12 +2335,10 @@ export default {
         "width"
       ],
       "optionReasons": {
-        "wide-pdf-003": "本句指「某個空間、欄位、範圍的橫向大小」。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。",
-        "wide-mcq-25": "「涵蓋很多不同主題、領域或問題的」是「wide-ranging」的用法，與本句語境不同。",
-        "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。",
-        "wide-mcq-26": "「畫面比例較寬的顯示／電影格式」是「widescreen」的用法，與本句語境不同。",
-        "wide-mcq-21": "「在很多地方／人群中廣泛存在或發生的」是「widespread」的用法，與本句語境不同。"
+        "wide-pdf-003": "本句的「width」指「某個空間、欄位、範圍的橫向大小」。",
+        "wide-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-pdf-003"
     },
@@ -2598,11 +2350,9 @@ export default {
       "masked": "The design allows adjustment of the column ____.",
       "options": [
         "wide-pdf-003",
-        "wide-mcq-23",
+        "wide-mcq-17",
         "wide-mcq-25",
-        "wide-mcq-22",
-        "wide-mcq-26",
-        "wide-mcq-21"
+        "wide-mcq-26"
       ],
       "explanation": "本句的「width」指「某個空間、欄位、範圍的橫向大小」。",
       "sentenceIndex": 62,
@@ -2611,12 +2361,10 @@ export default {
         "width"
       ],
       "optionReasons": {
-        "wide-pdf-003": "本句指「某個空間、欄位、範圍的橫向大小」。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。",
-        "wide-mcq-25": "「涵蓋很多不同主題、領域或問題的」是「wide-ranging」的用法，與本句語境不同。",
-        "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。",
-        "wide-mcq-26": "「畫面比例較寬的顯示／電影格式」是「widescreen」的用法，與本句語境不同。",
-        "wide-mcq-21": "「在很多地方／人群中廣泛存在或發生的」是「widespread」的用法，與本句語境不同。"
+        "wide-pdf-003": "本句的「width」指「某個空間、欄位、範圍的橫向大小」。",
+        "wide-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-pdf-003"
     },
@@ -2628,11 +2376,9 @@ export default {
       "masked": "They had a ____.",
       "options": [
         "wide-mcq-25",
-        "wide-mcq-24",
+        "wide-pdf-002",
         "wide-mcq-26",
-        "wide-mcq-23",
-        "wide-mcq-27",
-        "wide-mcq-22"
+        "wide-mcq-13"
       ],
       "explanation": "本句的「wide-ranging discussion」指「涵蓋很多不同主題、領域或問題的」。",
       "sentenceIndex": 63,
@@ -2641,12 +2387,10 @@ export default {
         "wide-ranging discussion"
       ],
       "optionReasons": {
-        "wide-mcq-25": "本句指「涵蓋很多不同主題、領域或問題的」。",
-        "wide-mcq-24": "「某物從一邊到另一邊的橫向距離」是「width」的用法，與本句語境不同。",
-        "wide-mcq-26": "「畫面比例較寬的顯示／電影格式」是「widescreen」的用法，與本句語境不同。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。",
-        "wide-mcq-27": "「能捕捉較廣視野範圍的鏡頭／攝影形式」是「wide-angle」的用法，與本句語境不同。",
-        "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。"
+        "wide-mcq-25": "本句的「wide-ranging discussion」指「涵蓋很多不同主題、領域或問題的」。",
+        "wide-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-25"
     },
@@ -2658,11 +2402,9 @@ export default {
       "masked": "The report makes ____ recommendations.",
       "options": [
         "wide-mcq-25",
-        "wide-mcq-24",
-        "wide-mcq-26",
-        "wide-mcq-23",
-        "wide-mcq-27",
-        "wide-mcq-22"
+        "wide-mcq-17",
+        "wide-mcq-22",
+        "wide-mcq-06"
       ],
       "explanation": "本句的「wide-ranging」指「涵蓋很多不同主題、領域或問題的」。",
       "sentenceIndex": 64,
@@ -2671,12 +2413,10 @@ export default {
         "wide-ranging"
       ],
       "optionReasons": {
-        "wide-mcq-25": "本句指「涵蓋很多不同主題、領域或問題的」。",
-        "wide-mcq-24": "「某物從一邊到另一邊的橫向距離」是「width」的用法，與本句語境不同。",
-        "wide-mcq-26": "「畫面比例較寬的顯示／電影格式」是「widescreen」的用法，與本句語境不同。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。",
-        "wide-mcq-27": "「能捕捉較廣視野範圍的鏡頭／攝影形式」是「wide-angle」的用法，與本句語境不同。",
-        "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。"
+        "wide-mcq-25": "本句的「wide-ranging」指「涵蓋很多不同主題、領域或問題的」。",
+        "wide-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-25"
     },
@@ -2688,11 +2428,9 @@ export default {
       "masked": "The decision had ____.",
       "options": [
         "wide-mcq-25",
-        "wide-mcq-24",
-        "wide-mcq-26",
-        "wide-mcq-23",
-        "wide-mcq-27",
-        "wide-mcq-22"
+        "wide-mcq-22",
+        "wide-mcq-17",
+        "wide-mcq-06"
       ],
       "explanation": "本句的「far-reaching consequences」指「涵蓋很多不同主題、領域或問題的」。",
       "sentenceIndex": 65,
@@ -2701,12 +2439,10 @@ export default {
         "far-reaching consequences"
       ],
       "optionReasons": {
-        "wide-mcq-25": "本句指「涵蓋很多不同主題、領域或問題的」。",
-        "wide-mcq-24": "「某物從一邊到另一邊的橫向距離」是「width」的用法，與本句語境不同。",
-        "wide-mcq-26": "「畫面比例較寬的顯示／電影格式」是「widescreen」的用法，與本句語境不同。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。",
-        "wide-mcq-27": "「能捕捉較廣視野範圍的鏡頭／攝影形式」是「wide-angle」的用法，與本句語境不同。",
-        "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。"
+        "wide-mcq-25": "本句的「far-reaching consequences」指「涵蓋很多不同主題、領域或問題的」。",
+        "wide-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-25"
     },
@@ -2718,11 +2454,9 @@ export default {
       "masked": "The policy affects a ____ range of people.",
       "options": [
         "wide-mcq-25",
-        "wide-mcq-24",
-        "wide-mcq-26",
-        "wide-mcq-23",
-        "wide-mcq-27",
-        "wide-mcq-22"
+        "wide-mcq-17",
+        "wide-mcq-21",
+        "wide-mcq-19"
       ],
       "explanation": "本句的「wide」指「涵蓋很多不同主題、領域或問題的」。",
       "sentenceIndex": 66,
@@ -2731,12 +2465,10 @@ export default {
         "wide"
       ],
       "optionReasons": {
-        "wide-mcq-25": "本句指「涵蓋很多不同主題、領域或問題的」。",
-        "wide-mcq-24": "「某物從一邊到另一邊的橫向距離」是「width」的用法，與本句語境不同。",
-        "wide-mcq-26": "「畫面比例較寬的顯示／電影格式」是「widescreen」的用法，與本句語境不同。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。",
-        "wide-mcq-27": "「能捕捉較廣視野範圍的鏡頭／攝影形式」是「wide-angle」的用法，與本句語境不同。",
-        "wide-mcq-22": "「令某物的橫向寬度增加，或本身變寬」是「widen — physical」的用法，與本句語境不同。"
+        "wide-mcq-25": "本句的「wide」指「涵蓋很多不同主題、領域或問題的」。",
+        "wide-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-25"
     },
@@ -2748,11 +2480,9 @@ export default {
       "masked": "The film was designed for ____.",
       "options": [
         "wide-mcq-26",
-        "wide-mcq-25",
-        "wide-mcq-27",
         "wide-mcq-24",
-        "wide-mcq-28",
-        "wide-mcq-23"
+        "wide-mcq-06",
+        "wide-mcq-15"
       ],
       "explanation": "本句的「widescreen」指「畫面比例較寬的顯示／電影格式」。",
       "sentenceIndex": 67,
@@ -2761,12 +2491,10 @@ export default {
         "widescreen"
       ],
       "optionReasons": {
-        "wide-mcq-26": "本句指「畫面比例較寬的顯示／電影格式」。",
-        "wide-mcq-25": "「涵蓋很多不同主題、領域或問題的」是「wide-ranging」的用法，與本句語境不同。",
-        "wide-mcq-27": "「能捕捉較廣視野範圍的鏡頭／攝影形式」是「wide-angle」的用法，與本句語境不同。",
-        "wide-mcq-24": "「某物從一邊到另一邊的橫向距離」是「width」的用法，與本句語境不同。",
-        "wide-mcq-28": "「某個物體／空間橫向延伸的距離大」是「2. wide road/door/river（寬闊的道路／門／河） — 寬的；寬闊的」的用法，與本句語境不同。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。"
+        "wide-mcq-26": "本句的「widescreen」指「畫面比例較寬的顯示／電影格式」。",
+        "wide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-26"
     },
@@ -2778,11 +2506,9 @@ export default {
       "masked": "They bought a ____ television.",
       "options": [
         "wide-mcq-26",
-        "wide-mcq-25",
-        "wide-mcq-27",
-        "wide-mcq-24",
+        "wide-mcq-11",
         "wide-mcq-28",
-        "wide-mcq-23"
+        "wide-mcq-20"
       ],
       "explanation": "本句的「widescreen」指「畫面比例較寬的顯示／電影格式」。",
       "sentenceIndex": 68,
@@ -2791,12 +2517,10 @@ export default {
         "widescreen"
       ],
       "optionReasons": {
-        "wide-mcq-26": "本句指「畫面比例較寬的顯示／電影格式」。",
-        "wide-mcq-25": "「涵蓋很多不同主題、領域或問題的」是「wide-ranging」的用法，與本句語境不同。",
-        "wide-mcq-27": "「能捕捉較廣視野範圍的鏡頭／攝影形式」是「wide-angle」的用法，與本句語境不同。",
-        "wide-mcq-24": "「某物從一邊到另一邊的橫向距離」是「width」的用法，與本句語境不同。",
-        "wide-mcq-28": "「某個物體／空間橫向延伸的距離大」是「2. wide road/door/river（寬闊的道路／門／河） — 寬的；寬闊的」的用法，與本句語境不同。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。"
+        "wide-mcq-26": "本句的「widescreen」指「畫面比例較寬的顯示／電影格式」。",
+        "wide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-26"
     },
@@ -2808,11 +2532,9 @@ export default {
       "masked": "She used a ____.",
       "options": [
         "wide-mcq-27",
-        "wide-mcq-26",
-        "wide-mcq-28",
-        "wide-mcq-25",
-        "wide-mcq-24",
-        "wide-mcq-23"
+        "wide-mcq-16",
+        "wide-mcq-11",
+        "wide-mcq-20"
       ],
       "explanation": "本句的「wide-angle lens」指「能捕捉較廣視野範圍的鏡頭／攝影形式」。",
       "sentenceIndex": 69,
@@ -2821,12 +2543,10 @@ export default {
         "wide-angle lens"
       ],
       "optionReasons": {
-        "wide-mcq-27": "本句指「能捕捉較廣視野範圍的鏡頭／攝影形式」。",
-        "wide-mcq-26": "「畫面比例較寬的顯示／電影格式」是「widescreen」的用法，與本句語境不同。",
-        "wide-mcq-28": "「某個物體／空間橫向延伸的距離大」是「2. wide road/door/river（寬闊的道路／門／河） — 寬的；寬闊的」的用法，與本句語境不同。",
-        "wide-mcq-25": "「涵蓋很多不同主題、領域或問題的」是「wide-ranging」的用法，與本句語境不同。",
-        "wide-mcq-24": "「某物從一邊到另一邊的橫向距離」是「width」的用法，與本句語境不同。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。"
+        "wide-mcq-27": "本句的「wide-angle lens」指「能捕捉較廣視野範圍的鏡頭／攝影形式」。",
+        "wide-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-27"
     },
@@ -2838,11 +2558,9 @@ export default {
       "masked": "A ____ shot shows more of the room.",
       "options": [
         "wide-mcq-27",
-        "wide-mcq-26",
         "wide-mcq-28",
         "wide-mcq-25",
-        "wide-mcq-24",
-        "wide-mcq-23"
+        "wide-mcq-06"
       ],
       "explanation": "本句的「wide-angle」指「能捕捉較廣視野範圍的鏡頭／攝影形式」。",
       "sentenceIndex": 70,
@@ -2851,12 +2569,10 @@ export default {
         "wide-angle"
       ],
       "optionReasons": {
-        "wide-mcq-27": "本句指「能捕捉較廣視野範圍的鏡頭／攝影形式」。",
-        "wide-mcq-26": "「畫面比例較寬的顯示／電影格式」是「widescreen」的用法，與本句語境不同。",
-        "wide-mcq-28": "「某個物體／空間橫向延伸的距離大」是「2. wide road/door/river（寬闊的道路／門／河） — 寬的；寬闊的」的用法，與本句語境不同。",
-        "wide-mcq-25": "「涵蓋很多不同主題、領域或問題的」是「wide-ranging」的用法，與本句語境不同。",
-        "wide-mcq-24": "「某物從一邊到另一邊的橫向距離」是「width」的用法，與本句語境不同。",
-        "wide-mcq-23": "「令差距、分歧、範圍等進一步擴大」是「widen — figurative」的用法，與本句語境不同。"
+        "wide-mcq-27": "本句的「wide-angle」指「能捕捉較廣視野範圍的鏡頭／攝影形式」。",
+        "wide-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wide-mcq-27"
     }
@@ -2868,5 +2584,7 @@ export default {
     "sha256": "aa2a6e346c6f67bbd5dd78e5edd79fa8ab8d7c1276287630217359ea8fd1a777",
     "pages": 30
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

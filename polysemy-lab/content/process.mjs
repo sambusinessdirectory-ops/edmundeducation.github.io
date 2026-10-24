@@ -34,7 +34,7 @@ export default {
     },
     {
       "id": "process-mcq-02",
-      "title": "為完成某項工作而按既定次序進行的程序；屬於",
+      "title": "為完成某項工作而按既定次序進行的程序",
       "form": "process — formal/systematic procedure",
       "en": "process — formal/systematic procedure",
       "zh": "為完成某項工作而按既定次序進行的程序；屬於",
@@ -217,10 +217,7 @@ export default {
       "masked": "He taught me how to respect the ____.",
       "options": [
         "process-mcq-01",
-        "process-mcq-02",
-        "process-mcq-03",
-        "process-mcq-04",
-        "process-mcq-05",
+        "process-mcq-09",
         "process-mcq-06"
       ],
       "explanation": "本句的「process」指「某件事情由開始到結果所經過的一連串步驟、階段或變化」。",
@@ -230,12 +227,9 @@ export default {
         "process"
       ],
       "optionReasons": {
-        "process-mcq-01": "本句指「某件事情由開始到結果所經過的一連串步驟、階段或變化」。",
-        "process-mcq-02": "「為完成某項工作而按既定次序進行的程序；屬於」與本句語境不同。",
-        "process-mcq-03": "「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」與本句語境不同。",
-        "process-mcq-04": "「按一套程序或操作對申請、材料等進行處理」與本句語境不同。",
-        "process-mcq-05": "「對資料、訊息或經歷進行整理、分析、理解或運算」與本句語境不同。",
-        "process-mcq-06": "「逐漸理解、整理並消化自己的經歷或情緒；與」與本句語境不同。"
+        "process-mcq-01": "本句的「process」指「某件事情由開始到結果所經過的一連串步驟、階段或變化」。",
+        "process-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "process-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-01"
     },
@@ -247,10 +241,7 @@ export default {
       "masked": "Learning a language is a gradual ____.",
       "options": [
         "process-mcq-01",
-        "process-mcq-02",
-        "process-mcq-03",
-        "process-mcq-04",
-        "process-mcq-05",
+        "process-mcq-09",
         "process-mcq-06"
       ],
       "explanation": "本句的「process」指「某件事情由開始到結果所經過的一連串步驟、階段或變化」。",
@@ -260,12 +251,9 @@ export default {
         "process"
       ],
       "optionReasons": {
-        "process-mcq-01": "本句指「某件事情由開始到結果所經過的一連串步驟、階段或變化」。",
-        "process-mcq-02": "「為完成某項工作而按既定次序進行的程序；屬於」與本句語境不同。",
-        "process-mcq-03": "「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」與本句語境不同。",
-        "process-mcq-04": "「按一套程序或操作對申請、材料等進行處理」與本句語境不同。",
-        "process-mcq-05": "「對資料、訊息或經歷進行整理、分析、理解或運算」與本句語境不同。",
-        "process-mcq-06": "「逐漸理解、整理並消化自己的經歷或情緒；與」與本句語境不同。"
+        "process-mcq-01": "本句的「process」指「某件事情由開始到結果所經過的一連串步驟、階段或變化」。",
+        "process-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "process-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-01"
     },
@@ -277,10 +265,7 @@ export default {
       "masked": "The recovery ____ may take several months.",
       "options": [
         "process-mcq-01",
-        "process-mcq-02",
-        "process-mcq-03",
         "process-mcq-04",
-        "process-mcq-05",
         "process-mcq-06"
       ],
       "explanation": "本句的「process」指「某件事情由開始到結果所經過的一連串步驟、階段或變化」。",
@@ -290,12 +275,9 @@ export default {
         "process"
       ],
       "optionReasons": {
-        "process-mcq-01": "本句指「某件事情由開始到結果所經過的一連串步驟、階段或變化」。",
-        "process-mcq-02": "「為完成某項工作而按既定次序進行的程序；屬於」與本句語境不同。",
-        "process-mcq-03": "「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」與本句語境不同。",
-        "process-mcq-04": "「按一套程序或操作對申請、材料等進行處理」與本句語境不同。",
-        "process-mcq-05": "「對資料、訊息或經歷進行整理、分析、理解或運算」與本句語境不同。",
-        "process-mcq-06": "「逐漸理解、整理並消化自己的經歷或情緒；與」與本句語境不同。"
+        "process-mcq-01": "本句的「process」指「某件事情由開始到結果所經過的一連串步驟、階段或變化」。",
+        "process-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "process-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-01"
     },
@@ -307,10 +289,6 @@ export default {
       "masked": "The application ____ takes about two weeks.",
       "options": [
         "process-mcq-02",
-        "process-mcq-01",
-        "process-mcq-03",
-        "process-mcq-04",
-        "process-mcq-05",
         "process-mcq-06"
       ],
       "explanation": "本句的「process」指「為完成某項工作而按既定次序進行的程序；屬於」。",
@@ -320,12 +298,8 @@ export default {
         "process"
       ],
       "optionReasons": {
-        "process-mcq-02": "本句指「為完成某項工作而按既定次序進行的程序；屬於」。",
-        "process-mcq-01": "「某件事情由開始到結果所經過的一連串步驟、階段或變化」與本句語境不同。",
-        "process-mcq-03": "「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」與本句語境不同。",
-        "process-mcq-04": "「按一套程序或操作對申請、材料等進行處理」與本句語境不同。",
-        "process-mcq-05": "「對資料、訊息或經歷進行整理、分析、理解或運算」與本句語境不同。",
-        "process-mcq-06": "「逐漸理解、整理並消化自己的經歷或情緒；與」與本句語境不同。"
+        "process-mcq-02": "本句的「process」指「為完成某項工作而按既定次序進行的程序；屬於」。",
+        "process-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-02"
     },
@@ -337,10 +311,6 @@ export default {
       "masked": "You must follow the correct ____.",
       "options": [
         "process-mcq-02",
-        "process-mcq-01",
-        "process-mcq-03",
-        "process-mcq-04",
-        "process-mcq-05",
         "process-mcq-06"
       ],
       "explanation": "本句的「process」指「為完成某項工作而按既定次序進行的程序；屬於」。",
@@ -350,12 +320,8 @@ export default {
         "process"
       ],
       "optionReasons": {
-        "process-mcq-02": "本句指「為完成某項工作而按既定次序進行的程序；屬於」。",
-        "process-mcq-01": "「某件事情由開始到結果所經過的一連串步驟、階段或變化」與本句語境不同。",
-        "process-mcq-03": "「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」與本句語境不同。",
-        "process-mcq-04": "「按一套程序或操作對申請、材料等進行處理」與本句語境不同。",
-        "process-mcq-05": "「對資料、訊息或經歷進行整理、分析、理解或運算」與本句語境不同。",
-        "process-mcq-06": "「逐漸理解、整理並消化自己的經歷或情緒；與」與本句語境不同。"
+        "process-mcq-02": "本句的「process」指「為完成某項工作而按既定次序進行的程序；屬於」。",
+        "process-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-02"
     },
@@ -367,11 +333,7 @@ export default {
       "masked": "Ageing is a natural ____.",
       "options": [
         "process-mcq-03",
-        "process-mcq-02",
-        "process-mcq-04",
-        "process-mcq-01",
-        "process-mcq-05",
-        "process-mcq-06"
+        "process-mcq-05"
       ],
       "explanation": "本句的「process」指「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」。",
       "sentenceIndex": 5,
@@ -380,12 +342,8 @@ export default {
         "process"
       ],
       "optionReasons": {
-        "process-mcq-03": "本句指「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」。",
-        "process-mcq-02": "「為完成某項工作而按既定次序進行的程序；屬於」與本句語境不同。",
-        "process-mcq-04": "「按一套程序或操作對申請、材料等進行處理」與本句語境不同。",
-        "process-mcq-01": "「某件事情由開始到結果所經過的一連串步驟、階段或變化」與本句語境不同。",
-        "process-mcq-05": "「對資料、訊息或經歷進行整理、分析、理解或運算」與本句語境不同。",
-        "process-mcq-06": "「逐漸理解、整理並消化自己的經歷或情緒；與」與本句語境不同。"
+        "process-mcq-03": "本句的「process」指「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」。",
+        "process-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-03"
     },
@@ -397,11 +355,7 @@ export default {
       "masked": "The chemical ____ produces heat.",
       "options": [
         "process-mcq-03",
-        "process-mcq-02",
-        "process-mcq-04",
-        "process-mcq-01",
-        "process-mcq-05",
-        "process-mcq-06"
+        "process-mcq-05"
       ],
       "explanation": "本句的「process」指「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」。",
       "sentenceIndex": 6,
@@ -410,12 +364,8 @@ export default {
         "process"
       ],
       "optionReasons": {
-        "process-mcq-03": "本句指「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」。",
-        "process-mcq-02": "「為完成某項工作而按既定次序進行的程序；屬於」與本句語境不同。",
-        "process-mcq-04": "「按一套程序或操作對申請、材料等進行處理」與本句語境不同。",
-        "process-mcq-01": "「某件事情由開始到結果所經過的一連串步驟、階段或變化」與本句語境不同。",
-        "process-mcq-05": "「對資料、訊息或經歷進行整理、分析、理解或運算」與本句語境不同。",
-        "process-mcq-06": "「逐漸理解、整理並消化自己的經歷或情緒；與」與本句語境不同。"
+        "process-mcq-03": "本句的「process」指「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」。",
+        "process-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-03"
     },
@@ -427,11 +377,7 @@ export default {
       "masked": "The factory uses a new production ____.",
       "options": [
         "process-mcq-03",
-        "process-mcq-02",
-        "process-mcq-04",
-        "process-mcq-01",
-        "process-mcq-05",
-        "process-mcq-06"
+        "process-mcq-05"
       ],
       "explanation": "本句的「process」指「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」。",
       "sentenceIndex": 7,
@@ -440,12 +386,8 @@ export default {
         "process"
       ],
       "optionReasons": {
-        "process-mcq-03": "本句指「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」。",
-        "process-mcq-02": "「為完成某項工作而按既定次序進行的程序；屬於」與本句語境不同。",
-        "process-mcq-04": "「按一套程序或操作對申請、材料等進行處理」與本句語境不同。",
-        "process-mcq-01": "「某件事情由開始到結果所經過的一連串步驟、階段或變化」與本句語境不同。",
-        "process-mcq-05": "「對資料、訊息或經歷進行整理、分析、理解或運算」與本句語境不同。",
-        "process-mcq-06": "「逐漸理解、整理並消化自己的經歷或情緒；與」與本句語境不同。"
+        "process-mcq-03": "本句的「process」指「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」。",
+        "process-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-03"
     },
@@ -457,11 +399,7 @@ export default {
       "masked": "The entire manufacturing ____ is automated.",
       "options": [
         "process-mcq-03",
-        "process-mcq-02",
-        "process-mcq-04",
-        "process-mcq-01",
-        "process-mcq-05",
-        "process-mcq-06"
+        "process-mcq-05"
       ],
       "explanation": "本句的「process」指「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」。",
       "sentenceIndex": 8,
@@ -470,12 +408,8 @@ export default {
         "process"
       ],
       "optionReasons": {
-        "process-mcq-03": "本句指「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」。",
-        "process-mcq-02": "「為完成某項工作而按既定次序進行的程序；屬於」與本句語境不同。",
-        "process-mcq-04": "「按一套程序或操作對申請、材料等進行處理」與本句語境不同。",
-        "process-mcq-01": "「某件事情由開始到結果所經過的一連串步驟、階段或變化」與本句語境不同。",
-        "process-mcq-05": "「對資料、訊息或經歷進行整理、分析、理解或運算」與本句語境不同。",
-        "process-mcq-06": "「逐漸理解、整理並消化自己的經歷或情緒；與」與本句語境不同。"
+        "process-mcq-03": "本句的「process」指「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」。",
+        "process-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-03"
     },
@@ -487,11 +421,8 @@ export default {
       "masked": "The office will ____ your application within five working days.",
       "options": [
         "process-mcq-04",
-        "process-mcq-03",
-        "process-mcq-05",
-        "process-mcq-02",
-        "process-mcq-06",
-        "process-mcq-01"
+        "process-mcq-01",
+        "process-mcq-06"
       ],
       "explanation": "本句的「process」指「按一套程序或操作對申請、材料等進行處理」。",
       "sentenceIndex": 9,
@@ -500,12 +431,9 @@ export default {
         "process"
       ],
       "optionReasons": {
-        "process-mcq-04": "本句指「按一套程序或操作對申請、材料等進行處理」。",
-        "process-mcq-03": "「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」與本句語境不同。",
-        "process-mcq-05": "「對資料、訊息或經歷進行整理、分析、理解或運算」與本句語境不同。",
-        "process-mcq-02": "「為完成某項工作而按既定次序進行的程序；屬於」與本句語境不同。",
-        "process-mcq-06": "「逐漸理解、整理並消化自己的經歷或情緒；與」與本句語境不同。",
-        "process-mcq-01": "「某件事情由開始到結果所經過的一連串步驟、階段或變化」與本句語境不同。"
+        "process-mcq-04": "本句的「process」指「按一套程序或操作對申請、材料等進行處理」。",
+        "process-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "process-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-04"
     },
@@ -517,11 +445,8 @@ export default {
       "masked": "The machine ____ raw material into finished products.",
       "options": [
         "process-mcq-04",
-        "process-mcq-03",
-        "process-mcq-05",
-        "process-mcq-02",
-        "process-mcq-06",
-        "process-mcq-01"
+        "process-mcq-01",
+        "process-mcq-06"
       ],
       "explanation": "本句的「processes」指「按一套程序或操作對申請、材料等進行處理」。",
       "sentenceIndex": 10,
@@ -530,12 +455,9 @@ export default {
         "processes"
       ],
       "optionReasons": {
-        "process-mcq-04": "本句指「按一套程序或操作對申請、材料等進行處理」。",
-        "process-mcq-03": "「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」與本句語境不同。",
-        "process-mcq-05": "「對資料、訊息或經歷進行整理、分析、理解或運算」與本句語境不同。",
-        "process-mcq-02": "「為完成某項工作而按既定次序進行的程序；屬於」與本句語境不同。",
-        "process-mcq-06": "「逐漸理解、整理並消化自己的經歷或情緒；與」與本句語境不同。",
-        "process-mcq-01": "「某件事情由開始到結果所經過的一連串步驟、階段或變化」與本句語境不同。"
+        "process-mcq-04": "本句的「processes」指「按一套程序或操作對申請、材料等進行處理」。",
+        "process-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "process-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-04"
     },
@@ -547,11 +469,7 @@ export default {
       "masked": "The computer can ____ large amounts of data quickly.",
       "options": [
         "process-mcq-05",
-        "process-mcq-04",
-        "process-mcq-06",
-        "process-mcq-03",
-        "process-mcq-07",
-        "process-mcq-02"
+        "process-mcq-03"
       ],
       "explanation": "本句的「process」指「對資料、訊息或經歷進行整理、分析、理解或運算」。",
       "sentenceIndex": 11,
@@ -560,12 +478,8 @@ export default {
         "process"
       ],
       "optionReasons": {
-        "process-mcq-05": "本句指「對資料、訊息或經歷進行整理、分析、理解或運算」。",
-        "process-mcq-04": "「按一套程序或操作對申請、材料等進行處理」與本句語境不同。",
-        "process-mcq-06": "「逐漸理解、整理並消化自己的經歷或情緒；與」與本句語境不同。",
-        "process-mcq-03": "「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」與本句語境不同。",
-        "process-mcq-07": "「義相關」與本句語境不同。",
-        "process-mcq-02": "「為完成某項工作而按既定次序進行的程序；屬於」與本句語境不同。"
+        "process-mcq-05": "本句的「process」指「對資料、訊息或經歷進行整理、分析、理解或運算」。",
+        "process-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-05"
     },
@@ -577,11 +491,7 @@ export default {
       "masked": "I needed some time to ____ what she had said.",
       "options": [
         "process-mcq-05",
-        "process-mcq-04",
-        "process-mcq-06",
-        "process-mcq-03",
-        "process-mcq-07",
-        "process-mcq-02"
+        "process-mcq-03"
       ],
       "explanation": "本句的「process」指「對資料、訊息或經歷進行整理、分析、理解或運算」。",
       "sentenceIndex": 12,
@@ -590,12 +500,8 @@ export default {
         "process"
       ],
       "optionReasons": {
-        "process-mcq-05": "本句指「對資料、訊息或經歷進行整理、分析、理解或運算」。",
-        "process-mcq-04": "「按一套程序或操作對申請、材料等進行處理」與本句語境不同。",
-        "process-mcq-06": "「逐漸理解、整理並消化自己的經歷或情緒；與」與本句語境不同。",
-        "process-mcq-03": "「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」與本句語境不同。",
-        "process-mcq-07": "「義相關」與本句語境不同。",
-        "process-mcq-02": "「為完成某項工作而按既定次序進行的程序；屬於」與本句語境不同。"
+        "process-mcq-05": "本句的「process」指「對資料、訊息或經歷進行整理、分析、理解或運算」。",
+        "process-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-05"
     },
@@ -607,11 +513,7 @@ export default {
       "masked": "She needed time to ____ the loss.",
       "options": [
         "process-mcq-06",
-        "process-mcq-05",
-        "process-mcq-07",
-        "process-mcq-04",
-        "process-mcq-08",
-        "process-mcq-03"
+        "process-mcq-02"
       ],
       "explanation": "本句的「process」指「逐漸理解、整理並消化自己的經歷或情緒；與」。",
       "sentenceIndex": 13,
@@ -620,12 +522,8 @@ export default {
         "process"
       ],
       "optionReasons": {
-        "process-mcq-06": "本句指「逐漸理解、整理並消化自己的經歷或情緒；與」。",
-        "process-mcq-05": "「對資料、訊息或經歷進行整理、分析、理解或運算」與本句語境不同。",
-        "process-mcq-07": "「義相關」與本句語境不同。",
-        "process-mcq-04": "「按一套程序或操作對申請、材料等進行處理」與本句語境不同。",
-        "process-mcq-08": "「按程序處理資料、材料、申請等的活動／過程」與本句語境不同。",
-        "process-mcq-03": "「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」與本句語境不同。"
+        "process-mcq-06": "本句的「process」指「逐漸理解、整理並消化自己的經歷或情緒；與」。",
+        "process-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-06"
     },
@@ -637,11 +535,7 @@ export default {
       "masked": "He was still ____ what had happened.",
       "options": [
         "process-mcq-06",
-        "process-mcq-05",
-        "process-mcq-07",
-        "process-mcq-04",
-        "process-mcq-08",
-        "process-mcq-03"
+        "process-mcq-02"
       ],
       "explanation": "本句的「processing」指「逐漸理解、整理並消化自己的經歷或情緒；與」。",
       "sentenceIndex": 14,
@@ -650,12 +544,8 @@ export default {
         "processing"
       ],
       "optionReasons": {
-        "process-mcq-06": "本句指「逐漸理解、整理並消化自己的經歷或情緒；與」。",
-        "process-mcq-05": "「對資料、訊息或經歷進行整理、分析、理解或運算」與本句語境不同。",
-        "process-mcq-07": "「義相關」與本句語境不同。",
-        "process-mcq-04": "「按一套程序或操作對申請、材料等進行處理」與本句語境不同。",
-        "process-mcq-08": "「按程序處理資料、材料、申請等的活動／過程」與本句語境不同。",
-        "process-mcq-03": "「自然變化或生產中按一定次序發生的一系列步驟；屬於 stages 義」與本句語境不同。"
+        "process-mcq-06": "本句的「processing」指「逐漸理解、整理並消化自己的經歷或情緒；與」。",
+        "process-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-06"
     },
@@ -667,11 +557,8 @@ export default {
       "masked": "Data ____ is done automatically.",
       "options": [
         "process-mcq-08",
-        "process-mcq-07",
-        "process-mcq-09",
         "process-mcq-06",
-        "process-mcq-05",
-        "process-mcq-04"
+        "process-mcq-01"
       ],
       "explanation": "本句的「processing」指「按程序處理資料、材料、申請等的活動／過程」。",
       "sentenceIndex": 17,
@@ -680,12 +567,9 @@ export default {
         "processing"
       ],
       "optionReasons": {
-        "process-mcq-08": "本句指「按程序處理資料、材料、申請等的活動／過程」。",
-        "process-mcq-07": "「義相關」與本句語境不同。",
-        "process-mcq-09": "「負責處理資料或材料的設備、公司或人；常指電腦處理器」與本句語境不同。",
-        "process-mcq-06": "「逐漸理解、整理並消化自己的經歷或情緒；與」與本句語境不同。",
-        "process-mcq-05": "「對資料、訊息或經歷進行整理、分析、理解或運算」與本句語境不同。",
-        "process-mcq-04": "「按一套程序或操作對申請、材料等進行處理」與本句語境不同。"
+        "process-mcq-08": "本句的「processing」指「按程序處理資料、材料、申請等的活動／過程」。",
+        "process-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "process-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-08"
     },
@@ -697,11 +581,8 @@ export default {
       "masked": "The payment is still being ____.",
       "options": [
         "process-mcq-08",
-        "process-mcq-07",
-        "process-mcq-09",
         "process-mcq-06",
-        "process-mcq-05",
-        "process-mcq-04"
+        "process-mcq-01"
       ],
       "explanation": "本句的「processed」指「按程序處理資料、材料、申請等的活動／過程」。",
       "sentenceIndex": 18,
@@ -710,12 +591,9 @@ export default {
         "processed"
       ],
       "optionReasons": {
-        "process-mcq-08": "本句指「按程序處理資料、材料、申請等的活動／過程」。",
-        "process-mcq-07": "「義相關」與本句語境不同。",
-        "process-mcq-09": "「負責處理資料或材料的設備、公司或人；常指電腦處理器」與本句語境不同。",
-        "process-mcq-06": "「逐漸理解、整理並消化自己的經歷或情緒；與」與本句語境不同。",
-        "process-mcq-05": "「對資料、訊息或經歷進行整理、分析、理解或運算」與本句語境不同。",
-        "process-mcq-04": "「按一套程序或操作對申請、材料等進行處理」與本句語境不同。"
+        "process-mcq-08": "本句的「processed」指「按程序處理資料、材料、申請等的活動／過程」。",
+        "process-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "process-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-08"
     },
@@ -727,11 +605,8 @@ export default {
       "masked": "The laptop has a faster ____.",
       "options": [
         "process-mcq-09",
-        "process-mcq-08",
-        "process-mcq-07",
-        "process-mcq-06",
-        "process-mcq-05",
-        "process-mcq-04"
+        "process-mcq-03",
+        "process-mcq-06"
       ],
       "explanation": "本句的「processor」指「負責處理資料或材料的設備、公司或人；常指電腦處理器」。",
       "sentenceIndex": 19,
@@ -740,12 +615,9 @@ export default {
         "processor"
       ],
       "optionReasons": {
-        "process-mcq-09": "本句指「負責處理資料或材料的設備、公司或人；常指電腦處理器」。",
-        "process-mcq-08": "「按程序處理資料、材料、申請等的活動／過程」與本句語境不同。",
-        "process-mcq-07": "「義相關」與本句語境不同。",
-        "process-mcq-06": "「逐漸理解、整理並消化自己的經歷或情緒；與」與本句語境不同。",
-        "process-mcq-05": "「對資料、訊息或經歷進行整理、分析、理解或運算」與本句語境不同。",
-        "process-mcq-04": "「按一套程序或操作對申請、材料等進行處理」與本句語境不同。"
+        "process-mcq-09": "本句的「processor」指「負責處理資料或材料的設備、公司或人；常指電腦處理器」。",
+        "process-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "process-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-09"
     },
@@ -757,11 +629,8 @@ export default {
       "masked": "The company is a major food ____.",
       "options": [
         "process-mcq-09",
-        "process-mcq-08",
-        "process-mcq-07",
-        "process-mcq-06",
-        "process-mcq-05",
-        "process-mcq-04"
+        "process-mcq-01",
+        "process-mcq-06"
       ],
       "explanation": "本句的「processor」指「負責處理資料或材料的設備、公司或人；常指電腦處理器」。",
       "sentenceIndex": 20,
@@ -770,12 +639,9 @@ export default {
         "processor"
       ],
       "optionReasons": {
-        "process-mcq-09": "本句指「負責處理資料或材料的設備、公司或人；常指電腦處理器」。",
-        "process-mcq-08": "「按程序處理資料、材料、申請等的活動／過程」與本句語境不同。",
-        "process-mcq-07": "「義相關」與本句語境不同。",
-        "process-mcq-06": "「逐漸理解、整理並消化自己的經歷或情緒；與」與本句語境不同。",
-        "process-mcq-05": "「對資料、訊息或經歷進行整理、分析、理解或運算」與本句語境不同。",
-        "process-mcq-04": "「按一套程序或操作對申請、材料等進行處理」與本句語境不同。"
+        "process-mcq-09": "本句的「processor」指「負責處理資料或材料的設備、公司或人；常指電腦處理器」。",
+        "process-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "process-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "process-mcq-09"
     }
@@ -787,5 +653,7 @@ export default {
     "sha256": "f8dcbabc44511acdb20bd21d7d077d41e8beb4035653fd2b1f7f33b60ff707af",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

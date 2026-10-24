@@ -305,11 +305,9 @@ export default {
       "masked": "Can you ____ this sentence into Chinese?",
       "options": [
         "translate-mcq-01",
-        "translate-mcq-02",
         "translate-mcq-03",
-        "translate-mcq-04",
-        "translate-mcq-05",
-        "translate-mcq-06"
+        "translate-mcq-12",
+        "translate-mcq-11"
       ],
       "explanation": "本句的「translate」指「把一種語言中的意思改用另一種語言表達」。",
       "sentenceIndex": 0,
@@ -318,12 +316,10 @@ export default {
         "translate"
       ],
       "optionReasons": {
-        "translate-mcq-01": "本句指「把一種語言中的意思改用另一種語言表達」。",
-        "translate-mcq-02": "「把原文轉成另一語言的過程」與本句語境不同。",
-        "translate-mcq-03": "「經翻譯後產生的譯文／譯本」與本句語境不同。",
-        "translate-mcq-04": "「專門翻譯文字內容的人」與本句語境不同。",
-        "translate-mcq-05": "「把複雜內容改寫成更容易理解的說法」與本句語境不同。",
-        "translate-mcq-06": "「把抽象理念／計劃真正轉化為實際行動」與本句語境不同。"
+        "translate-mcq-01": "本句的「translate」指「把一種語言中的意思改用另一種語言表達」。",
+        "translate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-01"
     },
@@ -335,11 +331,9 @@ export default {
       "masked": "The novel was ____ from French into English.",
       "options": [
         "translate-mcq-01",
-        "translate-mcq-02",
         "translate-mcq-03",
-        "translate-mcq-04",
-        "translate-mcq-05",
-        "translate-mcq-06"
+        "translate-mcq-11",
+        "translate-mcq-12"
       ],
       "explanation": "本句的「translated」指「把一種語言中的意思改用另一種語言表達」。",
       "sentenceIndex": 1,
@@ -348,12 +342,10 @@ export default {
         "translated"
       ],
       "optionReasons": {
-        "translate-mcq-01": "本句指「把一種語言中的意思改用另一種語言表達」。",
-        "translate-mcq-02": "「把原文轉成另一語言的過程」與本句語境不同。",
-        "translate-mcq-03": "「經翻譯後產生的譯文／譯本」與本句語境不同。",
-        "translate-mcq-04": "「專門翻譯文字內容的人」與本句語境不同。",
-        "translate-mcq-05": "「把複雜內容改寫成更容易理解的說法」與本句語境不同。",
-        "translate-mcq-06": "「把抽象理念／計劃真正轉化為實際行動」與本句語境不同。"
+        "translate-mcq-01": "本句的「translated」指「把一種語言中的意思改用另一種語言表達」。",
+        "translate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-01"
     },
@@ -365,11 +357,9 @@ export default {
       "masked": "The English ____ is very clear.",
       "options": [
         "translate-mcq-03",
-        "translate-mcq-02",
-        "translate-mcq-04",
-        "translate-mcq-01",
-        "translate-mcq-05",
-        "translate-mcq-06"
+        "translate-mcq-10",
+        "translate-mcq-12",
+        "translate-mcq-11"
       ],
       "explanation": "本句的「translation」指「經翻譯後產生的譯文／譯本」。",
       "sentenceIndex": 8,
@@ -378,12 +368,10 @@ export default {
         "translation"
       ],
       "optionReasons": {
-        "translate-mcq-03": "本句指「經翻譯後產生的譯文／譯本」。",
-        "translate-mcq-02": "「把原文轉成另一語言的過程」與本句語境不同。",
-        "translate-mcq-04": "「專門翻譯文字內容的人」與本句語境不同。",
-        "translate-mcq-01": "「把一種語言中的意思改用另一種語言表達」與本句語境不同。",
-        "translate-mcq-05": "「把複雜內容改寫成更容易理解的說法」與本句語境不同。",
-        "translate-mcq-06": "「把抽象理念／計劃真正轉化為實際行動」與本句語境不同。"
+        "translate-mcq-03": "本句的「translation」指「經翻譯後產生的譯文／譯本」。",
+        "translate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-03"
     },
@@ -395,11 +383,9 @@ export default {
       "masked": "The ____ took several weeks.",
       "options": [
         "translate-mcq-03",
-        "translate-mcq-02",
-        "translate-mcq-04",
-        "translate-mcq-01",
+        "translate-mcq-13",
         "translate-mcq-05",
-        "translate-mcq-06"
+        "translate-mcq-07"
       ],
       "explanation": "本句的「translation」指「經翻譯後產生的譯文／譯本」。",
       "sentenceIndex": 9,
@@ -408,12 +394,10 @@ export default {
         "translation"
       ],
       "optionReasons": {
-        "translate-mcq-03": "本句指「經翻譯後產生的譯文／譯本」。",
-        "translate-mcq-02": "「把原文轉成另一語言的過程」與本句語境不同。",
-        "translate-mcq-04": "「專門翻譯文字內容的人」與本句語境不同。",
-        "translate-mcq-01": "「把一種語言中的意思改用另一種語言表達」與本句語境不同。",
-        "translate-mcq-05": "「把複雜內容改寫成更容易理解的說法」與本句語境不同。",
-        "translate-mcq-06": "「把抽象理念／計劃真正轉化為實際行動」與本句語境不同。"
+        "translate-mcq-03": "本句的「translation」指「經翻譯後產生的譯文／譯本」。",
+        "translate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-03"
     },
@@ -425,11 +409,9 @@ export default {
       "masked": "She works as a professional ____.",
       "options": [
         "translate-mcq-04",
-        "translate-mcq-03",
-        "translate-mcq-05",
-        "translate-mcq-02",
-        "translate-mcq-06",
-        "translate-mcq-01"
+        "translate-mcq-01",
+        "translate-mcq-11",
+        "translate-mcq-12"
       ],
       "explanation": "本句的「translator」指「專門翻譯文字內容的人」。",
       "sentenceIndex": 16,
@@ -438,12 +420,10 @@ export default {
         "translator"
       ],
       "optionReasons": {
-        "translate-mcq-04": "本句指「專門翻譯文字內容的人」。",
-        "translate-mcq-03": "「經翻譯後產生的譯文／譯本」與本句語境不同。",
-        "translate-mcq-05": "「把複雜內容改寫成更容易理解的說法」與本句語境不同。",
-        "translate-mcq-02": "「把原文轉成另一語言的過程」與本句語境不同。",
-        "translate-mcq-06": "「把抽象理念／計劃真正轉化為實際行動」與本句語境不同。",
-        "translate-mcq-01": "「把一種語言中的意思改用另一種語言表達」與本句語境不同。"
+        "translate-mcq-04": "本句的「translator」指「專門翻譯文字內容的人」。",
+        "translate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-04"
     },
@@ -455,11 +435,9 @@ export default {
       "masked": "The ____ preserved the author’s tone.",
       "options": [
         "translate-mcq-04",
-        "translate-mcq-03",
-        "translate-mcq-05",
-        "translate-mcq-02",
-        "translate-mcq-06",
-        "translate-mcq-01"
+        "translate-mcq-01",
+        "translate-mcq-11",
+        "translate-mcq-12"
       ],
       "explanation": "本句的「translator」指「專門翻譯文字內容的人」。",
       "sentenceIndex": 17,
@@ -468,12 +446,10 @@ export default {
         "translator"
       ],
       "optionReasons": {
-        "translate-mcq-04": "本句指「專門翻譯文字內容的人」。",
-        "translate-mcq-03": "「經翻譯後產生的譯文／譯本」與本句語境不同。",
-        "translate-mcq-05": "「把複雜內容改寫成更容易理解的說法」與本句語境不同。",
-        "translate-mcq-02": "「把原文轉成另一語言的過程」與本句語境不同。",
-        "translate-mcq-06": "「把抽象理念／計劃真正轉化為實際行動」與本句語境不同。",
-        "translate-mcq-01": "「把一種語言中的意思改用另一種語言表達」與本句語境不同。"
+        "translate-mcq-04": "本句的「translator」指「專門翻譯文字內容的人」。",
+        "translate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-04"
     },
@@ -485,11 +461,9 @@ export default {
       "masked": "The app includes an automatic ____.",
       "options": [
         "translate-mcq-04",
-        "translate-mcq-03",
-        "translate-mcq-05",
-        "translate-mcq-02",
-        "translate-mcq-06",
-        "translate-mcq-01"
+        "translate-mcq-12",
+        "translate-mcq-01",
+        "translate-mcq-11"
       ],
       "explanation": "本句的「translator」指「專門翻譯文字內容的人」。",
       "sentenceIndex": 18,
@@ -498,12 +472,10 @@ export default {
         "translator"
       ],
       "optionReasons": {
-        "translate-mcq-04": "本句指「專門翻譯文字內容的人」。",
-        "translate-mcq-03": "「經翻譯後產生的譯文／譯本」與本句語境不同。",
-        "translate-mcq-05": "「把複雜內容改寫成更容易理解的說法」與本句語境不同。",
-        "translate-mcq-02": "「把原文轉成另一語言的過程」與本句語境不同。",
-        "translate-mcq-06": "「把抽象理念／計劃真正轉化為實際行動」與本句語境不同。",
-        "translate-mcq-01": "「把一種語言中的意思改用另一種語言表達」與本句語境不同。"
+        "translate-mcq-04": "本句的「translator」指「專門翻譯文字內容的人」。",
+        "translate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-04"
     },
@@ -515,11 +487,9 @@ export default {
       "masked": "The system uses a ____ to convert input into another format.",
       "options": [
         "translate-mcq-04",
-        "translate-mcq-03",
-        "translate-mcq-05",
-        "translate-mcq-02",
-        "translate-mcq-06",
-        "translate-mcq-01"
+        "translate-mcq-01",
+        "translate-mcq-11",
+        "translate-mcq-12"
       ],
       "explanation": "本句的「translator」指「專門翻譯文字內容的人」。",
       "sentenceIndex": 19,
@@ -528,12 +498,10 @@ export default {
         "translator"
       ],
       "optionReasons": {
-        "translate-mcq-04": "本句指「專門翻譯文字內容的人」。",
-        "translate-mcq-03": "「經翻譯後產生的譯文／譯本」與本句語境不同。",
-        "translate-mcq-05": "「把複雜內容改寫成更容易理解的說法」與本句語境不同。",
-        "translate-mcq-02": "「把原文轉成另一語言的過程」與本句語境不同。",
-        "translate-mcq-06": "「把抽象理念／計劃真正轉化為實際行動」與本句語境不同。",
-        "translate-mcq-01": "「把一種語言中的意思改用另一種語言表達」與本句語境不同。"
+        "translate-mcq-04": "本句的「translator」指「專門翻譯文字內容的人」。",
+        "translate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-04"
     },
@@ -545,11 +513,9 @@ export default {
       "masked": "Can you ____ that technical explanation into plain English?",
       "options": [
         "translate-mcq-05",
-        "translate-mcq-04",
-        "translate-mcq-06",
-        "translate-mcq-03",
-        "translate-mcq-07",
-        "translate-mcq-02"
+        "translate-mcq-11",
+        "translate-mcq-13",
+        "translate-mcq-03"
       ],
       "explanation": "本句的「translate」指「把複雜內容改寫成更容易理解的說法」。",
       "sentenceIndex": 21,
@@ -558,12 +524,10 @@ export default {
         "translate"
       ],
       "optionReasons": {
-        "translate-mcq-05": "本句指「把複雜內容改寫成更容易理解的說法」。",
-        "translate-mcq-04": "「專門翻譯文字內容的人」與本句語境不同。",
-        "translate-mcq-06": "「把抽象理念／計劃真正轉化為實際行動」與本句語境不同。",
-        "translate-mcq-03": "「經翻譯後產生的譯文／譯本」與本句語境不同。",
-        "translate-mcq-07": "「使某種投入／條件具體表現為可見成果」與本句語境不同。",
-        "translate-mcq-02": "「把原文轉成另一語言的過程」與本句語境不同。"
+        "translate-mcq-05": "本句的「translate」指「把複雜內容改寫成更容易理解的說法」。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-05"
     },
@@ -575,11 +539,9 @@ export default {
       "masked": "The teacher ____ the theory into simple examples.",
       "options": [
         "translate-mcq-05",
-        "translate-mcq-04",
-        "translate-mcq-06",
-        "translate-mcq-03",
-        "translate-mcq-07",
-        "translate-mcq-02"
+        "translate-mcq-13",
+        "translate-mcq-11",
+        "translate-mcq-03"
       ],
       "explanation": "本句的「translated」指「把複雜內容改寫成更容易理解的說法」。",
       "sentenceIndex": 22,
@@ -588,12 +550,10 @@ export default {
         "translated"
       ],
       "optionReasons": {
-        "translate-mcq-05": "本句指「把複雜內容改寫成更容易理解的說法」。",
-        "translate-mcq-04": "「專門翻譯文字內容的人」與本句語境不同。",
-        "translate-mcq-06": "「把抽象理念／計劃真正轉化為實際行動」與本句語境不同。",
-        "translate-mcq-03": "「經翻譯後產生的譯文／譯本」與本句語境不同。",
-        "translate-mcq-07": "「使某種投入／條件具體表現為可見成果」與本句語境不同。",
-        "translate-mcq-02": "「把原文轉成另一語言的過程」與本句語境不同。"
+        "translate-mcq-05": "本句的「translated」指「把複雜內容改寫成更容易理解的說法」。",
+        "translate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-05"
     },
@@ -605,11 +565,9 @@ export default {
       "masked": "More spending did not ____ into better results.",
       "options": [
         "translate-mcq-07",
-        "translate-mcq-06",
-        "translate-mcq-08",
-        "translate-mcq-05",
-        "translate-mcq-09",
-        "translate-mcq-04"
+        "translate-mcq-03",
+        "translate-mcq-11",
+        "translate-mcq-05"
       ],
       "explanation": "本句的「translate」指「使某種投入／條件具體表現為可見成果」。",
       "sentenceIndex": 25,
@@ -618,12 +576,10 @@ export default {
         "translate"
       ],
       "optionReasons": {
-        "translate-mcq-07": "本句指「使某種投入／條件具體表現為可見成果」。",
-        "translate-mcq-06": "「把抽象理念／計劃真正轉化為實際行動」與本句語境不同。",
-        "translate-mcq-08": "「X 在實際效果上轉化／表現／導致 Y」與本句語境不同。",
-        "translate-mcq-05": "「把複雜內容改寫成更容易理解的說法」與本句語境不同。",
-        "translate-mcq-09": "「把一種資訊表示形式轉換成另一種形式」與本句語境不同。",
-        "translate-mcq-04": "「專門翻譯文字內容的人」與本句語境不同。"
+        "translate-mcq-07": "本句的「translate」指「使某種投入／條件具體表現為可見成果」。",
+        "translate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-07"
     },
@@ -635,11 +591,9 @@ export default {
       "masked": "Training must ____ into improved performance.",
       "options": [
         "translate-mcq-07",
-        "translate-mcq-06",
-        "translate-mcq-08",
-        "translate-mcq-05",
-        "translate-mcq-09",
-        "translate-mcq-04"
+        "translate-mcq-04",
+        "translate-mcq-11",
+        "translate-mcq-13"
       ],
       "explanation": "本句的「translate」指「使某種投入／條件具體表現為可見成果」。",
       "sentenceIndex": 26,
@@ -648,12 +602,10 @@ export default {
         "translate"
       ],
       "optionReasons": {
-        "translate-mcq-07": "本句指「使某種投入／條件具體表現為可見成果」。",
-        "translate-mcq-06": "「把抽象理念／計劃真正轉化為實際行動」與本句語境不同。",
-        "translate-mcq-08": "「X 在實際效果上轉化／表現／導致 Y」與本句語境不同。",
-        "translate-mcq-05": "「把複雜內容改寫成更容易理解的說法」與本句語境不同。",
-        "translate-mcq-09": "「把一種資訊表示形式轉換成另一種形式」與本句語境不同。",
-        "translate-mcq-04": "「專門翻譯文字內容的人」與本句語境不同。"
+        "translate-mcq-07": "本句的「translate」指「使某種投入／條件具體表現為可見成果」。",
+        "translate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-07"
     },
@@ -665,11 +617,9 @@ export default {
       "masked": "____ occurs at ribosomes.",
       "options": [
         "translate-mcq-10",
-        "translate-mcq-09",
         "translate-mcq-11",
-        "translate-mcq-08",
-        "translate-mcq-12",
-        "translate-mcq-07"
+        "translate-mcq-03",
+        "translate-mcq-01"
       ],
       "explanation": "本句的「Translation」指「根據 mRNA 資訊合成蛋白質的過程」。",
       "sentenceIndex": 49,
@@ -678,12 +628,10 @@ export default {
         "Translation"
       ],
       "optionReasons": {
-        "translate-mcq-10": "本句指「根據 mRNA 資訊合成蛋白質的過程」。",
-        "translate-mcq-09": "「把一種資訊表示形式轉換成另一種形式」與本句語境不同。",
-        "translate-mcq-11": "「圖形每一點按相同方向和距離移動的平移變換」與本句語境不同。",
-        "translate-mcq-08": "「X 在實際效果上轉化／表現／導致 Y」與本句語境不同。",
-        "translate-mcq-12": "「把基礎研究成果轉化為臨床／實際應用的研究」與本句語境不同。",
-        "translate-mcq-07": "「使某種投入／條件具體表現為可見成果」與本句語境不同。"
+        "translate-mcq-10": "本句的「Translation」指「根據 mRNA 資訊合成蛋白質的過程」。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-10"
     },
@@ -695,11 +643,9 @@ export default {
       "masked": "____ follows transcription in gene expression.",
       "options": [
         "translate-mcq-10",
-        "translate-mcq-09",
-        "translate-mcq-11",
-        "translate-mcq-08",
-        "translate-mcq-12",
-        "translate-mcq-07"
+        "translate-mcq-01",
+        "translate-mcq-03",
+        "translate-mcq-11"
       ],
       "explanation": "本句的「Translation」指「根據 mRNA 資訊合成蛋白質的過程」。",
       "sentenceIndex": 50,
@@ -708,12 +654,10 @@ export default {
         "Translation"
       ],
       "optionReasons": {
-        "translate-mcq-10": "本句指「根據 mRNA 資訊合成蛋白質的過程」。",
-        "translate-mcq-09": "「把一種資訊表示形式轉換成另一種形式」與本句語境不同。",
-        "translate-mcq-11": "「圖形每一點按相同方向和距離移動的平移變換」與本句語境不同。",
-        "translate-mcq-08": "「X 在實際效果上轉化／表現／導致 Y」與本句語境不同。",
-        "translate-mcq-12": "「把基礎研究成果轉化為臨床／實際應用的研究」與本句語境不同。",
-        "translate-mcq-07": "「使某種投入／條件具體表現為可見成果」與本句語境不同。"
+        "translate-mcq-10": "本句的「Translation」指「根據 mRNA 資訊合成蛋白質的過程」。",
+        "translate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-10"
     },
@@ -725,11 +669,9 @@ export default {
       "masked": "A ____ preserves size and shape.",
       "options": [
         "translate-mcq-11",
+        "translate-mcq-01",
         "translate-mcq-10",
-        "translate-mcq-12",
-        "translate-mcq-09",
-        "translate-mcq-13",
-        "translate-mcq-08"
+        "translate-mcq-12"
       ],
       "explanation": "本句的「translation」指「圖形每一點按相同方向和距離移動的平移變換」。",
       "sentenceIndex": 53,
@@ -738,12 +680,10 @@ export default {
         "translation"
       ],
       "optionReasons": {
-        "translate-mcq-11": "本句指「圖形每一點按相同方向和距離移動的平移變換」。",
-        "translate-mcq-10": "「根據 mRNA 資訊合成蛋白質的過程」與本句語境不同。",
-        "translate-mcq-12": "「把基礎研究成果轉化為臨床／實際應用的研究」與本句語境不同。",
-        "translate-mcq-09": "「把一種資訊表示形式轉換成另一種形式」與本句語境不同。",
-        "translate-mcq-13": "「原意、語氣或效果在轉換／傳達過程中流失」與本句語境不同。",
-        "translate-mcq-08": "「X 在實際效果上轉化／表現／導致 Y」與本句語境不同。"
+        "translate-mcq-11": "本句的「translation」指「圖形每一點按相同方向和距離移動的平移變換」。",
+        "translate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-11"
     },
@@ -755,11 +695,9 @@ export default {
       "masked": "The transformation is a ____, not a rotation.",
       "options": [
         "translate-mcq-11",
-        "translate-mcq-10",
-        "translate-mcq-12",
-        "translate-mcq-09",
-        "translate-mcq-13",
-        "translate-mcq-08"
+        "translate-mcq-04",
+        "translate-mcq-01",
+        "translate-mcq-12"
       ],
       "explanation": "本句的「translation」指「圖形每一點按相同方向和距離移動的平移變換」。",
       "sentenceIndex": 54,
@@ -768,12 +706,10 @@ export default {
         "translation"
       ],
       "optionReasons": {
-        "translate-mcq-11": "本句指「圖形每一點按相同方向和距離移動的平移變換」。",
-        "translate-mcq-10": "「根據 mRNA 資訊合成蛋白質的過程」與本句語境不同。",
-        "translate-mcq-12": "「把基礎研究成果轉化為臨床／實際應用的研究」與本句語境不同。",
-        "translate-mcq-09": "「把一種資訊表示形式轉換成另一種形式」與本句語境不同。",
-        "translate-mcq-13": "「原意、語氣或效果在轉換／傳達過程中流失」與本句語境不同。",
-        "translate-mcq-08": "「X 在實際效果上轉化／表現／導致 Y」與本句語境不同。"
+        "translate-mcq-11": "本句的「translation」指「圖形每一點按相同方向和距離移動的平移變換」。",
+        "translate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-11"
     },
@@ -785,11 +721,9 @@ export default {
       "masked": "____ research connects laboratory discoveries with patient care.",
       "options": [
         "translate-mcq-12",
-        "translate-mcq-11",
-        "translate-mcq-13",
-        "translate-mcq-10",
-        "translate-mcq-14",
-        "translate-mcq-09"
+        "translate-mcq-01",
+        "translate-mcq-04",
+        "translate-mcq-11"
       ],
       "explanation": "本句的「Translational」指「把基礎研究成果轉化為臨床／實際應用的研究」。",
       "sentenceIndex": 59,
@@ -798,12 +732,10 @@ export default {
         "Translational"
       ],
       "optionReasons": {
-        "translate-mcq-12": "本句指「把基礎研究成果轉化為臨床／實際應用的研究」。",
-        "translate-mcq-11": "「圖形每一點按相同方向和距離移動的平移變換」與本句語境不同。",
-        "translate-mcq-13": "「原意、語氣或效果在轉換／傳達過程中流失」與本句語境不同。",
-        "translate-mcq-10": "「根據 mRNA 資訊合成蛋白質的過程」與本句語境不同。",
-        "translate-mcq-14": "「沒有容易的一對一對應，難以準確翻譯的」與本句語境不同。",
-        "translate-mcq-09": "「把一種資訊表示形式轉換成另一種形式」與本句語境不同。"
+        "translate-mcq-12": "本句的「Translational」指「把基礎研究成果轉化為臨床／實際應用的研究」。",
+        "translate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-12"
     },
@@ -815,11 +747,9 @@ export default {
       "masked": "The ____ converts the input language into another representation.",
       "options": [
         "translate-mcq-04",
-        "translate-mcq-03",
-        "translate-mcq-05",
-        "translate-mcq-02",
-        "translate-mcq-06",
-        "translate-mcq-01"
+        "translate-mcq-13",
+        "translate-mcq-11",
+        "translate-mcq-07"
       ],
       "explanation": "本句的「translator」指「專門翻譯文字內容的人」。",
       "sentenceIndex": 64,
@@ -828,12 +758,10 @@ export default {
         "translator"
       ],
       "optionReasons": {
-        "translate-mcq-04": "本句指「專門翻譯文字內容的人」。",
-        "translate-mcq-03": "「經翻譯後產生的譯文／譯本」與本句語境不同。",
-        "translate-mcq-05": "「把複雜內容改寫成更容易理解的說法」與本句語境不同。",
-        "translate-mcq-02": "「把原文轉成另一語言的過程」與本句語境不同。",
-        "translate-mcq-06": "「把抽象理念／計劃真正轉化為實際行動」與本句語境不同。",
-        "translate-mcq-01": "「把一種語言中的意思改用另一種語言表達」與本句語境不同。"
+        "translate-mcq-04": "本句的「translator」指「專門翻譯文字內容的人」。",
+        "translate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-04"
     },
@@ -845,11 +773,9 @@ export default {
       "masked": "Compilers and assemblers are types of language ____.",
       "options": [
         "translate-mcq-04",
-        "translate-mcq-03",
-        "translate-mcq-05",
-        "translate-mcq-02",
-        "translate-mcq-06",
-        "translate-mcq-01"
+        "translate-mcq-13",
+        "translate-mcq-11",
+        "translate-mcq-07"
       ],
       "explanation": "本句的「translators」指「專門翻譯文字內容的人」。",
       "sentenceIndex": 65,
@@ -858,12 +784,10 @@ export default {
         "translators"
       ],
       "optionReasons": {
-        "translate-mcq-04": "本句指「專門翻譯文字內容的人」。",
-        "translate-mcq-03": "「經翻譯後產生的譯文／譯本」與本句語境不同。",
-        "translate-mcq-05": "「把複雜內容改寫成更容易理解的說法」與本句語境不同。",
-        "translate-mcq-02": "「把原文轉成另一語言的過程」與本句語境不同。",
-        "translate-mcq-06": "「把抽象理念／計劃真正轉化為實際行動」與本句語境不同。",
-        "translate-mcq-01": "「把一種語言中的意思改用另一種語言表達」與本句語境不同。"
+        "translate-mcq-04": "本句的「translators」指「專門翻譯文字內容的人」。",
+        "translate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-04"
     },
@@ -875,10 +799,7 @@ export default {
       "masked": "Lower costs can ____ into higher demand.",
       "options": [
         "translate-mcq-08",
-        "translate-mcq-07",
-        "translate-mcq-09",
-        "translate-mcq-06",
-        "translate-mcq-10",
+        "translate-mcq-11",
         "translate-mcq-05"
       ],
       "explanation": "本句的「translate」指「X 在實際效果上轉化／表現／導致 Y」。",
@@ -888,12 +809,9 @@ export default {
         "translate"
       ],
       "optionReasons": {
-        "translate-mcq-08": "本句指「X 在實際效果上轉化／表現／導致 Y」。",
-        "translate-mcq-07": "「使某種投入／條件具體表現為可見成果」與本句語境不同。",
-        "translate-mcq-09": "「把一種資訊表示形式轉換成另一種形式」與本句語境不同。",
-        "translate-mcq-06": "「把抽象理念／計劃真正轉化為實際行動」與本句語境不同。",
-        "translate-mcq-10": "「根據 mRNA 資訊合成蛋白質的過程」與本句語境不同。",
-        "translate-mcq-05": "「把複雜內容改寫成更容易理解的說法」與本句語境不同。"
+        "translate-mcq-08": "本句的「translate」指「X 在實際效果上轉化／表現／導致 Y」。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-08"
     },
@@ -905,11 +823,8 @@ export default {
       "masked": "A small delay can ____ into hours of lost productivity.",
       "options": [
         "translate-mcq-08",
-        "translate-mcq-07",
-        "translate-mcq-09",
-        "translate-mcq-06",
         "translate-mcq-10",
-        "translate-mcq-05"
+        "translate-mcq-11"
       ],
       "explanation": "本句的「translate」指「X 在實際效果上轉化／表現／導致 Y」。",
       "sentenceIndex": 69,
@@ -918,12 +833,9 @@ export default {
         "translate"
       ],
       "optionReasons": {
-        "translate-mcq-08": "本句指「X 在實際效果上轉化／表現／導致 Y」。",
-        "translate-mcq-07": "「使某種投入／條件具體表現為可見成果」與本句語境不同。",
-        "translate-mcq-09": "「把一種資訊表示形式轉換成另一種形式」與本句語境不同。",
-        "translate-mcq-06": "「把抽象理念／計劃真正轉化為實際行動」與本句語境不同。",
-        "translate-mcq-10": "「根據 mRNA 資訊合成蛋白質的過程」與本句語境不同。",
-        "translate-mcq-05": "「把複雜內容改寫成更容易理解的說法」與本句語境不同。"
+        "translate-mcq-08": "本句的「translate」指「X 在實際效果上轉化／表現／導致 Y」。",
+        "translate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-08"
     },
@@ -935,11 +847,9 @@ export default {
       "masked": "Some of the humour was ____.",
       "options": [
         "translate-mcq-13",
-        "translate-mcq-12",
-        "translate-mcq-14",
+        "translate-mcq-04",
         "translate-mcq-11",
-        "translate-mcq-15",
-        "translate-mcq-10"
+        "translate-mcq-07"
       ],
       "explanation": "本句的「lost in translation」指「原意、語氣或效果在轉換／傳達過程中流失」。",
       "sentenceIndex": 76,
@@ -948,12 +858,10 @@ export default {
         "lost in translation"
       ],
       "optionReasons": {
-        "translate-mcq-13": "本句指「原意、語氣或效果在轉換／傳達過程中流失」。",
-        "translate-mcq-12": "「把基礎研究成果轉化為臨床／實際應用的研究」與本句語境不同。",
-        "translate-mcq-14": "「沒有容易的一對一對應，難以準確翻譯的」與本句語境不同。",
-        "translate-mcq-11": "「圖形每一點按相同方向和距離移動的平移變換」與本句語境不同。",
-        "translate-mcq-15": "「把原文意思翻錯」與本句語境不同。",
-        "translate-mcq-10": "「根據 mRNA 資訊合成蛋白質的過程」與本句語境不同。"
+        "translate-mcq-13": "本句的「lost in translation」指「原意、語氣或效果在轉換／傳達過程中流失」。",
+        "translate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-13"
     },
@@ -965,11 +873,9 @@ export default {
       "masked": "Cultural nuance can easily be lost in ____.",
       "options": [
         "translate-mcq-13",
-        "translate-mcq-12",
-        "translate-mcq-14",
-        "translate-mcq-11",
-        "translate-mcq-15",
-        "translate-mcq-10"
+        "translate-mcq-03",
+        "translate-mcq-05",
+        "translate-mcq-11"
       ],
       "explanation": "本句的「translation」指「原意、語氣或效果在轉換／傳達過程中流失」。",
       "sentenceIndex": 77,
@@ -978,12 +884,10 @@ export default {
         "translation"
       ],
       "optionReasons": {
-        "translate-mcq-13": "本句指「原意、語氣或效果在轉換／傳達過程中流失」。",
-        "translate-mcq-12": "「把基礎研究成果轉化為臨床／實際應用的研究」與本句語境不同。",
-        "translate-mcq-14": "「沒有容易的一對一對應，難以準確翻譯的」與本句語境不同。",
-        "translate-mcq-11": "「圖形每一點按相同方向和距離移動的平移變換」與本句語境不同。",
-        "translate-mcq-15": "「把原文意思翻錯」與本句語境不同。",
-        "translate-mcq-10": "「根據 mRNA 資訊合成蛋白質的過程」與本句語境不同。"
+        "translate-mcq-13": "本句的「translation」指「原意、語氣或效果在轉換／傳達過程中流失」。",
+        "translate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "translate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "translate-mcq-13"
     }
@@ -995,5 +899,7 @@ export default {
     "sha256": "901666d9f660bf57a8d26dda650ebb7cf7e274ad221b828f02e8c996bfac062b",
     "pages": 37
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

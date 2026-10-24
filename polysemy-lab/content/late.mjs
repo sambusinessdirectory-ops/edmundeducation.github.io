@@ -465,16 +465,6 @@ export default {
           "She started learning English at fifty. Better late than never.",
           "她五十歲才開始學英語。遲開始總比永遠不開始好。",
           "即使做得較遲，也比完全不做更好"
-        ],
-        [
-          "It would be difficult to change the design at this late stage.",
-          "到了這麼後期／事到如今，要更改設計會很困難。",
-          "即使做得較遲，也比完全不做更好"
-        ],
-        [
-          "At this late stage, cancellation would be expensive.",
-          "到了這個後期階段，取消安排的成本會很高。",
-          "即使做得較遲，也比完全不做更好"
         ]
       ],
       "options": [],
@@ -504,7 +494,7 @@ export default {
     },
     {
       "id": "late-mcq-23",
-      "title": "表示太遲；為時已晚",
+      "title": "太遲；為時已晚",
       "form": "Unmapped practice late-09-0",
       "en": "Unmapped practice late-09-0",
       "zh": "表示太遲；為時已晚",
@@ -521,7 +511,7 @@ export default {
     },
     {
       "id": "late-mcq-24",
-      "title": "表示太遲；為時已晚",
+      "title": "太遲；為時已晚",
       "form": "Unmapped practice late-09-1",
       "en": "Unmapped practice late-09-1",
       "zh": "表示太遲；為時已晚",
@@ -538,7 +528,7 @@ export default {
     },
     {
       "id": "late-mcq-25",
-      "title": "表示較遲出現的；延後的",
+      "title": "較遲出現的；延後的",
       "form": "Unmapped practice late-10-0",
       "en": "Unmapped practice late-10-0",
       "zh": "表示較遲出現的；延後的",
@@ -555,7 +545,7 @@ export default {
     },
     {
       "id": "late-mcq-26",
-      "title": "表示較遲出現的；延後的",
+      "title": "較遲出現的；延後的",
       "form": "Unmapped practice late-10-1",
       "en": "Unmapped practice late-10-1",
       "zh": "表示較遲出現的；延後的",
@@ -565,6 +555,28 @@ export default {
           "The rainy season arrived late.",
           "雨季今年來得較遲。",
           "表示較遲出現的；延後的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "late-reviewed-473069d2ed",
+      "title": "到這麼後期；事到如今",
+      "form": "late · source section 24",
+      "en": "到這麼後期；事到如今",
+      "zh": "到這麼後期；事到如今",
+      "note": "對照原始教材第 24 節及例句核實。",
+      "examples": [
+        [
+          "It would be difficult to change the design at this late stage.",
+          "到了這麼後期／事到如今，要更改設計會很困難。",
+          "到這麼後期；事到如今"
+        ],
+        [
+          "At this late stage, cancellation would be expensive.",
+          "到了這個後期階段，取消安排的成本會很高。",
+          "到這麼後期；事到如今"
         ]
       ],
       "options": [],
@@ -597,11 +609,9 @@ export default {
       "masked": "我上班____了。",
       "options": [
         "late-mcq-01",
-        "late-mcq-02",
-        "late-mcq-03",
-        "late-mcq-04",
-        "late-mcq-05",
-        "late-mcq-06"
+        "late-reviewed-473069d2ed",
+        "late-mcq-19",
+        "late-mcq-08"
       ],
       "explanation": "本句的「late」指「比預定、正常或應該發生的時間更遲」。",
       "sentenceIndex": 0,
@@ -610,12 +620,10 @@ export default {
         "late"
       ],
       "optionReasons": {
-        "late-mcq-01": "本句指「比預定、正常或應該發生的時間更遲」。",
-        "late-mcq-02": "「在某活動／工作／課堂應到時間之後才到達」是「be late for」的用法，與本句語境不同。",
-        "late-mcq-03": "「超過規定截止期限才付款／提交的」是「late payment/application」的用法，與本句語境不同。",
-        "late-mcq-04": "「位於某段時間的後半或接近結束部分」是「late — period」的用法，與本句語境不同。",
-        "late-mcq-05": "「夜晚已進入較後時段；深夜／很晚」是「late at night」的用法，與本句語境不同。",
-        "late-mcq-06": "「位於人生或職業生涯的較後階段」是「late in life/career」的用法，與本句語境不同。"
+        "late-mcq-01": "本句的「late」指「比預定、正常或應該發生的時間更遲」。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-01"
     },
@@ -627,11 +635,9 @@ export default {
       "masked": "火車____二十分鐘。",
       "options": [
         "late-mcq-01",
-        "late-mcq-02",
-        "late-mcq-03",
-        "late-mcq-04",
-        "late-mcq-05",
-        "late-mcq-06"
+        "late-reviewed-473069d2ed",
+        "late-mcq-08",
+        "late-mcq-07"
       ],
       "explanation": "本句的「late」指「比預定、正常或應該發生的時間更遲」。",
       "sentenceIndex": 1,
@@ -640,12 +646,10 @@ export default {
         "late"
       ],
       "optionReasons": {
-        "late-mcq-01": "本句指「比預定、正常或應該發生的時間更遲」。",
-        "late-mcq-02": "「在某活動／工作／課堂應到時間之後才到達」是「be late for」的用法，與本句語境不同。",
-        "late-mcq-03": "「超過規定截止期限才付款／提交的」是「late payment/application」的用法，與本句語境不同。",
-        "late-mcq-04": "「位於某段時間的後半或接近結束部分」是「late — period」的用法，與本句語境不同。",
-        "late-mcq-05": "「夜晚已進入較後時段；深夜／很晚」是「late at night」的用法，與本句語境不同。",
-        "late-mcq-06": "「位於人生或職業生涯的較後階段」是「late in life/career」的用法，與本句語境不同。"
+        "late-mcq-01": "本句的「late」指「比預定、正常或應該發生的時間更遲」。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-01"
     },
@@ -657,11 +661,9 @@ export default {
       "masked": "她開會____了。",
       "options": [
         "late-mcq-02",
-        "late-mcq-01",
-        "late-mcq-03",
-        "late-mcq-04",
-        "late-mcq-05",
-        "late-mcq-06"
+        "late-mcq-07",
+        "late-mcq-21",
+        "late-mcq-19"
       ],
       "explanation": "本句的「late for the meeting」指「在某活動／工作／課堂應到時間之後才到達」。",
       "sentenceIndex": 2,
@@ -670,12 +672,10 @@ export default {
         "late for the meeting"
       ],
       "optionReasons": {
-        "late-mcq-02": "本句指「在某活動／工作／課堂應到時間之後才到達」。",
-        "late-mcq-01": "「比預定、正常或應該發生的時間更遲」是「late — punctuality」的用法，與本句語境不同。",
-        "late-mcq-03": "「超過規定截止期限才付款／提交的」是「late payment/application」的用法，與本句語境不同。",
-        "late-mcq-04": "「位於某段時間的後半或接近結束部分」是「late — period」的用法，與本句語境不同。",
-        "late-mcq-05": "「夜晚已進入較後時段；深夜／很晚」是「late at night」的用法，與本句語境不同。",
-        "late-mcq-06": "「位於人生或職業生涯的較後階段」是「late in life/career」的用法，與本句語境不同。"
+        "late-mcq-02": "本句的「late for the meeting」指「在某活動／工作／課堂應到時間之後才到達」。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-02"
     },
@@ -687,11 +687,9 @@ export default {
       "masked": "上課不要____。",
       "options": [
         "late-mcq-02",
-        "late-mcq-01",
-        "late-mcq-03",
-        "late-mcq-04",
-        "late-mcq-05",
-        "late-mcq-06"
+        "late-mcq-21",
+        "late-mcq-07",
+        "late-mcq-12"
       ],
       "explanation": "本句的「late for class」指「在某活動／工作／課堂應到時間之後才到達」。",
       "sentenceIndex": 3,
@@ -700,12 +698,10 @@ export default {
         "late for class"
       ],
       "optionReasons": {
-        "late-mcq-02": "本句指「在某活動／工作／課堂應到時間之後才到達」。",
-        "late-mcq-01": "「比預定、正常或應該發生的時間更遲」是「late — punctuality」的用法，與本句語境不同。",
-        "late-mcq-03": "「超過規定截止期限才付款／提交的」是「late payment/application」的用法，與本句語境不同。",
-        "late-mcq-04": "「位於某段時間的後半或接近結束部分」是「late — period」的用法，與本句語境不同。",
-        "late-mcq-05": "「夜晚已進入較後時段；深夜／很晚」是「late at night」的用法，與本句語境不同。",
-        "late-mcq-06": "「位於人生或職業生涯的較後階段」是「late in life/career」的用法，與本句語境不同。"
+        "late-mcq-02": "本句的「late for class」指「在某活動／工作／課堂應到時間之後才到達」。",
+        "late-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-02"
     },
@@ -717,11 +713,9 @@ export default {
       "masked": "公司對____付款收取費用。",
       "options": [
         "late-mcq-03",
-        "late-mcq-02",
-        "late-mcq-04",
-        "late-mcq-01",
-        "late-mcq-05",
-        "late-mcq-06"
+        "late-mcq-23",
+        "late-mcq-06",
+        "late-mcq-13"
       ],
       "explanation": "本句的「late payment」指「超過規定截止期限才付款／提交的」。",
       "sentenceIndex": 4,
@@ -730,12 +724,10 @@ export default {
         "late payment"
       ],
       "optionReasons": {
-        "late-mcq-03": "本句指「超過規定截止期限才付款／提交的」。",
-        "late-mcq-02": "「在某活動／工作／課堂應到時間之後才到達」是「be late for」的用法，與本句語境不同。",
-        "late-mcq-04": "「位於某段時間的後半或接近結束部分」是「late — period」的用法，與本句語境不同。",
-        "late-mcq-01": "「比預定、正常或應該發生的時間更遲」是「late — punctuality」的用法，與本句語境不同。",
-        "late-mcq-05": "「夜晚已進入較後時段；深夜／很晚」是「late at night」的用法，與本句語境不同。",
-        "late-mcq-06": "「位於人生或職業生涯的較後階段」是「late in life/career」的用法，與本句語境不同。"
+        "late-mcq-03": "本句的「late payment」指「超過規定截止期限才付款／提交的」。",
+        "late-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-03"
     },
@@ -747,22 +739,18 @@ export default {
       "masked": "逾期提____申請不會獲接納。",
       "options": [
         "late-mcq-03",
-        "late-mcq-02",
-        "late-mcq-04",
-        "late-mcq-01",
-        "late-mcq-05",
-        "late-mcq-06"
+        "late-mcq-14",
+        "late-mcq-21",
+        "late-mcq-12"
       ],
       "explanation": "本句的「late」指「超過規定截止期限才付款／提交的」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "optionReasons": {
-        "late-mcq-03": "本句指「超過規定截止期限才付款／提交的」。",
-        "late-mcq-02": "「在某活動／工作／課堂應到時間之後才到達」是「be late for」的用法，與本句語境不同。",
-        "late-mcq-04": "「位於某段時間的後半或接近結束部分」是「late — period」的用法，與本句語境不同。",
-        "late-mcq-01": "「比預定、正常或應該發生的時間更遲」是「late — punctuality」的用法，與本句語境不同。",
-        "late-mcq-05": "「夜晚已進入較後時段；深夜／很晚」是「late at night」的用法，與本句語境不同。",
-        "late-mcq-06": "「位於人生或職業生涯的較後階段」是「late in life/career」的用法，與本句語境不同。"
+        "late-mcq-03": "本句的「late」指「超過規定截止期限才付款／提交的」。",
+        "late-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-03"
     },
@@ -774,11 +762,9 @@ export default {
       "masked": "我們在____到達。",
       "options": [
         "late-mcq-04",
+        "late-mcq-18",
         "late-mcq-03",
-        "late-mcq-05",
-        "late-mcq-02",
-        "late-mcq-06",
-        "late-mcq-01"
+        "late-mcq-07"
       ],
       "explanation": "本句的「late afternoon」指「位於某段時間的後半或接近結束部分」。",
       "sentenceIndex": 6,
@@ -787,12 +773,10 @@ export default {
         "late afternoon"
       ],
       "optionReasons": {
-        "late-mcq-04": "本句指「位於某段時間的後半或接近結束部分」。",
-        "late-mcq-03": "「超過規定截止期限才付款／提交的」是「late payment/application」的用法，與本句語境不同。",
-        "late-mcq-05": "「夜晚已進入較後時段；深夜／很晚」是「late at night」的用法，與本句語境不同。",
-        "late-mcq-02": "「在某活動／工作／課堂應到時間之後才到達」是「be late for」的用法，與本句語境不同。",
-        "late-mcq-06": "「位於人生或職業生涯的較後階段」是「late in life/career」的用法，與本句語境不同。",
-        "late-mcq-01": "「比預定、正常或應該發生的時間更遲」是「late — punctuality」的用法，與本句語境不同。"
+        "late-mcq-04": "本句的「late afternoon」指「位於某段時間的後半或接近結束部分」。",
+        "late-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-04"
     },
@@ -804,11 +788,9 @@ export default {
       "masked": "公司在 ____ 年代後期快速增長。",
       "options": [
         "late-mcq-04",
+        "late-mcq-18",
         "late-mcq-03",
-        "late-mcq-05",
-        "late-mcq-02",
-        "late-mcq-06",
-        "late-mcq-01"
+        "late-mcq-07"
       ],
       "explanation": "本句的「late 1990s」指「位於某段時間的後半或接近結束部分」。",
       "sentenceIndex": 7,
@@ -817,12 +799,10 @@ export default {
         "late 1990s"
       ],
       "optionReasons": {
-        "late-mcq-04": "本句指「位於某段時間的後半或接近結束部分」。",
-        "late-mcq-03": "「超過規定截止期限才付款／提交的」是「late payment/application」的用法，與本句語境不同。",
-        "late-mcq-05": "「夜晚已進入較後時段；深夜／很晚」是「late at night」的用法，與本句語境不同。",
-        "late-mcq-02": "「在某活動／工作／課堂應到時間之後才到達」是「be late for」的用法，與本句語境不同。",
-        "late-mcq-06": "「位於人生或職業生涯的較後階段」是「late in life/career」的用法，與本句語境不同。",
-        "late-mcq-01": "「比預定、正常或應該發生的時間更遲」是「late — punctuality」的用法，與本句語境不同。"
+        "late-mcq-04": "本句的「late 1990s」指「位於某段時間的後半或接近結束部分」。",
+        "late-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-04"
     },
@@ -834,11 +814,9 @@ export default {
       "masked": "____。",
       "options": [
         "late-mcq-05",
-        "late-mcq-04",
-        "late-mcq-06",
+        "late-mcq-12",
         "late-mcq-03",
-        "late-mcq-07",
-        "late-mcq-02"
+        "late-mcq-07"
       ],
       "explanation": "本句的「late at night」指「夜晚已進入較後時段；深夜／很晚」。",
       "sentenceIndex": 8,
@@ -847,12 +825,10 @@ export default {
         "late at night"
       ],
       "optionReasons": {
-        "late-mcq-05": "本句指「夜晚已進入較後時段；深夜／很晚」。",
-        "late-mcq-04": "「位於某段時間的後半或接近結束部分」是「late — period」的用法，與本句語境不同。",
-        "late-mcq-06": "「位於人生或職業生涯的較後階段」是「late in life/career」的用法，與本句語境不同。",
-        "late-mcq-03": "「超過規定截止期限才付款／提交的」是「late payment/application」的用法，與本句語境不同。",
-        "late-mcq-07": "「該人已經去世；已故的」是「the late + person」的用法，與本句語境不同。",
-        "late-mcq-02": "「在某活動／工作／課堂應到時間之後才到達」是「be late for」的用法，與本句語境不同。"
+        "late-mcq-05": "本句的「late at night」指「夜晚已進入較後時段；深夜／很晚」。",
+        "late-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-05"
     },
@@ -864,11 +840,9 @@ export default {
       "masked": "街道到了____很安靜。",
       "options": [
         "late-mcq-05",
-        "late-mcq-04",
-        "late-mcq-06",
+        "late-mcq-13",
         "late-mcq-03",
-        "late-mcq-07",
-        "late-mcq-02"
+        "late-mcq-19"
       ],
       "explanation": "本句的「late at night」指「夜晚已進入較後時段；深夜／很晚」。",
       "sentenceIndex": 9,
@@ -877,12 +851,10 @@ export default {
         "late at night"
       ],
       "optionReasons": {
-        "late-mcq-05": "本句指「夜晚已進入較後時段；深夜／很晚」。",
-        "late-mcq-04": "「位於某段時間的後半或接近結束部分」是「late — period」的用法，與本句語境不同。",
-        "late-mcq-06": "「位於人生或職業生涯的較後階段」是「late in life/career」的用法，與本句語境不同。",
-        "late-mcq-03": "「超過規定截止期限才付款／提交的」是「late payment/application」的用法，與本句語境不同。",
-        "late-mcq-07": "「該人已經去世；已故的」是「the late + person」的用法，與本句語境不同。",
-        "late-mcq-02": "「在某活動／工作／課堂應到時間之後才到達」是「be late for」的用法，與本句語境不同。"
+        "late-mcq-05": "本句的「late at night」指「夜晚已進入較後時段；深夜／很晚」。",
+        "late-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-05"
     },
@@ -894,11 +866,9 @@ export default {
       "masked": "____。",
       "options": [
         "late-mcq-05",
-        "late-mcq-04",
-        "late-mcq-06",
+        "late-mcq-12",
         "late-mcq-03",
-        "late-mcq-07",
-        "late-mcq-02"
+        "late-mcq-21"
       ],
       "explanation": "本句的「late at night」指「夜晚已進入較後時段；深夜／很晚」。",
       "sentenceIndex": 10,
@@ -907,12 +877,10 @@ export default {
         "late at night"
       ],
       "optionReasons": {
-        "late-mcq-05": "本句指「夜晚已進入較後時段；深夜／很晚」。",
-        "late-mcq-04": "「位於某段時間的後半或接近結束部分」是「late — period」的用法，與本句語境不同。",
-        "late-mcq-06": "「位於人生或職業生涯的較後階段」是「late in life/career」的用法，與本句語境不同。",
-        "late-mcq-03": "「超過規定截止期限才付款／提交的」是「late payment/application」的用法，與本句語境不同。",
-        "late-mcq-07": "「該人已經去世；已故的」是「the late + person」的用法，與本句語境不同。",
-        "late-mcq-02": "「在某活動／工作／課堂應到時間之後才到達」是「be late for」的用法，與本句語境不同。"
+        "late-mcq-05": "本句的「late at night」指「夜晚已進入較後時段；深夜／很晚」。",
+        "late-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-05"
     },
@@ -924,11 +892,9 @@ export default {
       "masked": "他到了____才成為畫家。",
       "options": [
         "late-mcq-06",
-        "late-mcq-05",
         "late-mcq-07",
-        "late-mcq-04",
-        "late-mcq-08",
-        "late-mcq-03"
+        "late-mcq-23",
+        "late-mcq-13"
       ],
       "explanation": "本句的「late in life」指「位於人生或職業生涯的較後階段」。",
       "sentenceIndex": 11,
@@ -937,12 +903,10 @@ export default {
         "late in life"
       ],
       "optionReasons": {
-        "late-mcq-06": "本句指「位於人生或職業生涯的較後階段」。",
-        "late-mcq-05": "「夜晚已進入較後時段；深夜／很晚」是「late at night」的用法，與本句語境不同。",
-        "late-mcq-07": "「該人已經去世；已故的」是「the late + person」的用法，與本句語境不同。",
-        "late-mcq-04": "「位於某段時間的後半或接近結束部分」是「late — period」的用法，與本句語境不同。",
-        "late-mcq-08": "「在夜晚很後段進行、出現或供應的」是「late-night + noun」的用法，與本句語境不同。",
-        "late-mcq-03": "「超過規定截止期限才付款／提交的」是「late payment/application」的用法，與本句語境不同。"
+        "late-mcq-06": "本句的「late in life」指「位於人生或職業生涯的較後階段」。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-06"
     },
@@ -954,11 +918,9 @@ export default {
       "masked": "她職業生涯____作品變得更具實驗性。",
       "options": [
         "late-mcq-06",
-        "late-mcq-05",
-        "late-mcq-07",
-        "late-mcq-04",
-        "late-mcq-08",
-        "late-mcq-03"
+        "late-mcq-23",
+        "late-mcq-13",
+        "late-mcq-07"
       ],
       "explanation": "本句的「late-career」指「位於人生或職業生涯的較後階段」。",
       "sentenceIndex": 12,
@@ -967,12 +929,10 @@ export default {
         "late-career"
       ],
       "optionReasons": {
-        "late-mcq-06": "本句指「位於人生或職業生涯的較後階段」。",
-        "late-mcq-05": "「夜晚已進入較後時段；深夜／很晚」是「late at night」的用法，與本句語境不同。",
-        "late-mcq-07": "「該人已經去世；已故的」是「the late + person」的用法，與本句語境不同。",
-        "late-mcq-04": "「位於某段時間的後半或接近結束部分」是「late — period」的用法，與本句語境不同。",
-        "late-mcq-08": "「在夜晚很後段進行、出現或供應的」是「late-night + noun」的用法，與本句語境不同。",
-        "late-mcq-03": "「超過規定截止期限才付款／提交的」是「late payment/application」的用法，與本句語境不同。"
+        "late-mcq-06": "本句的「late-career」指「位於人生或職業生涯的較後階段」。",
+        "late-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-06"
     },
@@ -984,11 +944,9 @@ export default {
       "masked": "這個獎項以那位____教授命名。",
       "options": [
         "late-mcq-07",
-        "late-mcq-06",
-        "late-mcq-08",
-        "late-mcq-05",
-        "late-mcq-09",
-        "late-mcq-04"
+        "late-mcq-17",
+        "late-mcq-12",
+        "late-mcq-21"
       ],
       "explanation": "本句的「late professor」指「該人已經去世；已故的」。",
       "sentenceIndex": 13,
@@ -997,12 +955,10 @@ export default {
         "late professor"
       ],
       "optionReasons": {
-        "late-mcq-07": "本句指「該人已經去世；已故的」。",
-        "late-mcq-06": "「位於人生或職業生涯的較後階段」是「late in life/career」的用法，與本句語境不同。",
-        "late-mcq-08": "「在夜晚很後段進行、出現或供應的」是「late-night + noun」的用法，與本句語境不同。",
-        "late-mcq-05": "「夜晚已進入較後時段；深夜／很晚」是「late at night」的用法，與本句語境不同。",
-        "late-mcq-09": "「已超過仍可有效行動或改變結果的時間點」是「too late」的用法，與本句語境不同。",
-        "late-mcq-04": "「位於某段時間的後半或接近結束部分」是「late — period」的用法，與本句語境不同。"
+        "late-mcq-07": "本句的「late professor」指「該人已經去世；已故的」。",
+        "late-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-07"
     },
@@ -1014,11 +970,9 @@ export default {
       "masked": "她____丈夫是一名醫生。",
       "options": [
         "late-mcq-07",
-        "late-mcq-06",
-        "late-mcq-08",
-        "late-mcq-05",
-        "late-mcq-09",
-        "late-mcq-04"
+        "late-mcq-11",
+        "late-mcq-25",
+        "late-mcq-03"
       ],
       "explanation": "本句的「late husband」指「該人已經去世；已故的」。",
       "sentenceIndex": 14,
@@ -1027,12 +981,10 @@ export default {
         "late husband"
       ],
       "optionReasons": {
-        "late-mcq-07": "本句指「該人已經去世；已故的」。",
-        "late-mcq-06": "「位於人生或職業生涯的較後階段」是「late in life/career」的用法，與本句語境不同。",
-        "late-mcq-08": "「在夜晚很後段進行、出現或供應的」是「late-night + noun」的用法，與本句語境不同。",
-        "late-mcq-05": "「夜晚已進入較後時段；深夜／很晚」是「late at night」的用法，與本句語境不同。",
-        "late-mcq-09": "「已超過仍可有效行動或改變結果的時間點」是「too late」的用法，與本句語境不同。",
-        "late-mcq-04": "「位於某段時間的後半或接近結束部分」是「late — period」的用法，與本句語境不同。"
+        "late-mcq-07": "本句的「late husband」指「該人已經去世；已故的」。",
+        "late-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-07"
     },
@@ -1044,11 +996,9 @@ export default {
       "masked": "我看了一個____電視節目。",
       "options": [
         "late-mcq-08",
-        "late-mcq-07",
-        "late-mcq-09",
-        "late-mcq-06",
-        "late-mcq-10",
-        "late-mcq-05"
+        "late-mcq-13",
+        "late-mcq-03",
+        "late-mcq-07"
       ],
       "explanation": "本句的「late-night television show」指「在夜晚很後段進行、出現或供應的」。",
       "sentenceIndex": 15,
@@ -1057,12 +1007,10 @@ export default {
         "late-night television show"
       ],
       "optionReasons": {
-        "late-mcq-08": "本句指「在夜晚很後段進行、出現或供應的」。",
-        "late-mcq-07": "「該人已經去世；已故的」是「the late + person」的用法，與本句語境不同。",
-        "late-mcq-09": "「已超過仍可有效行動或改變結果的時間點」是「too late」的用法，與本句語境不同。",
-        "late-mcq-06": "「位於人生或職業生涯的較後階段」是「late in life/career」的用法，與本句語境不同。",
-        "late-mcq-10": "「在目前或前文所提時間之後」是「later — afterwards」的用法，與本句語境不同。",
-        "late-mcq-05": "「夜晚已進入較後時段；深夜／很晚」是「late at night」的用法，與本句語境不同。"
+        "late-mcq-08": "本句的「late-night television show」指「在夜晚很後段進行、出現或供應的」。",
+        "late-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-08"
     },
@@ -1074,11 +1022,9 @@ export default {
       "masked": "____。",
       "options": [
         "late-mcq-08",
-        "late-mcq-07",
-        "late-mcq-09",
-        "late-mcq-06",
-        "late-mcq-10",
-        "late-mcq-05"
+        "late-mcq-11",
+        "late-mcq-21",
+        "late-mcq-03"
       ],
       "explanation": "本句的「late-night snack」指「在夜晚很後段進行、出現或供應的」。",
       "sentenceIndex": 16,
@@ -1087,12 +1033,10 @@ export default {
         "late-night snack"
       ],
       "optionReasons": {
-        "late-mcq-08": "本句指「在夜晚很後段進行、出現或供應的」。",
-        "late-mcq-07": "「該人已經去世；已故的」是「the late + person」的用法，與本句語境不同。",
-        "late-mcq-09": "「已超過仍可有效行動或改變結果的時間點」是「too late」的用法，與本句語境不同。",
-        "late-mcq-06": "「位於人生或職業生涯的較後階段」是「late in life/career」的用法，與本句語境不同。",
-        "late-mcq-10": "「在目前或前文所提時間之後」是「later — afterwards」的用法，與本句語境不同。",
-        "late-mcq-05": "「夜晚已進入較後時段；深夜／很晚」是「late at night」的用法，與本句語境不同。"
+        "late-mcq-08": "本句的「late-night snack」指「在夜晚很後段進行、出現或供應的」。",
+        "late-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-08"
     },
@@ -1104,11 +1048,9 @@ export default {
       "masked": "____。",
       "options": [
         "late-mcq-23",
-        "late-mcq-22",
-        "late-mcq-21",
-        "late-mcq-25",
-        "late-mcq-20",
-        "late-mcq-19"
+        "late-reviewed-473069d2ed",
+        "late-mcq-12",
+        "late-mcq-06"
       ],
       "explanation": "本句的「too late」指「表示太遲；為時已晚」。",
       "sentenceIndex": 17,
@@ -1117,12 +1059,10 @@ export default {
         "too late"
       ],
       "optionReasons": {
-        "late-mcq-23": "本句指「表示太遲；為時已晚」。",
-        "late-mcq-22": "「本應較早發生，但延遲到後來才出現的；遲來的」是「belated」的用法，與本句語境不同。",
-        "late-mcq-21": "「即使做得較遲，也比完全不做更好」是「better late than never」的用法，與本句語境不同。",
-        "late-mcq-25": "「表示較遲出現的；延後的」是「Unmapped practice late-10-0」的用法，與本句語境不同。",
-        "late-mcq-20": "「雖不知道確切時間，但最終會／可能會發生；遲早」是「sooner or later」的用法，與本句語境不同。",
-        "late-mcq-19": "「較正式地表示「近來／最近」」是「of late」的用法，與本句語境不同。"
+        "late-mcq-23": "本句的「too late」指「表示太遲；為時已晚」。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-23"
     },
@@ -1134,11 +1074,9 @@ export default {
       "masked": "等我發現問題時，已經____了。",
       "options": [
         "late-mcq-24",
-        "late-mcq-25",
-        "late-mcq-22",
-        "late-mcq-21",
-        "late-mcq-20",
-        "late-mcq-19"
+        "late-mcq-12",
+        "late-mcq-06",
+        "late-mcq-03"
       ],
       "explanation": "本句的「too late」指「表示太遲；為時已晚」。",
       "sentenceIndex": 18,
@@ -1147,12 +1085,10 @@ export default {
         "too late"
       ],
       "optionReasons": {
-        "late-mcq-24": "本句指「表示太遲；為時已晚」。",
-        "late-mcq-25": "「表示較遲出現的；延後的」是「Unmapped practice late-10-0」的用法，與本句語境不同。",
-        "late-mcq-22": "「本應較早發生，但延遲到後來才出現的；遲來的」是「belated」的用法，與本句語境不同。",
-        "late-mcq-21": "「即使做得較遲，也比完全不做更好」是「better late than never」的用法，與本句語境不同。",
-        "late-mcq-20": "「雖不知道確切時間，但最終會／可能會發生；遲早」是「sooner or later」的用法，與本句語境不同。",
-        "late-mcq-19": "「較正式地表示「近來／最近」」是「of late」的用法，與本句語境不同。"
+        "late-mcq-24": "本句的「too late」指「表示太遲；為時已晚」。",
+        "late-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-24"
     },
@@ -1164,11 +1100,9 @@ export default {
       "masked": "今年花開得____。",
       "options": [
         "late-mcq-25",
-        "late-mcq-24",
-        "late-mcq-22",
-        "late-mcq-21",
-        "late-mcq-20",
-        "late-mcq-19"
+        "late-mcq-13",
+        "late-mcq-07",
+        "late-mcq-03"
       ],
       "explanation": "本句的「late」指「表示較遲出現的；延後的」。",
       "sentenceIndex": 19,
@@ -1177,12 +1111,10 @@ export default {
         "late"
       ],
       "optionReasons": {
-        "late-mcq-25": "本句指「表示較遲出現的；延後的」。",
-        "late-mcq-24": "「表示太遲；為時已晚」是「Unmapped practice late-09-1」的用法，與本句語境不同。",
-        "late-mcq-22": "「本應較早發生，但延遲到後來才出現的；遲來的」是「belated」的用法，與本句語境不同。",
-        "late-mcq-21": "「即使做得較遲，也比完全不做更好」是「better late than never」的用法，與本句語境不同。",
-        "late-mcq-20": "「雖不知道確切時間，但最終會／可能會發生；遲早」是「sooner or later」的用法，與本句語境不同。",
-        "late-mcq-19": "「較正式地表示「近來／最近」」是「of late」的用法，與本句語境不同。"
+        "late-mcq-25": "本句的「late」指「表示較遲出現的；延後的」。",
+        "late-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-25"
     },
@@ -1194,11 +1126,9 @@ export default {
       "masked": "雨季今年來得____。",
       "options": [
         "late-mcq-26",
-        "late-mcq-24",
-        "late-mcq-22",
-        "late-mcq-21",
-        "late-mcq-20",
-        "late-mcq-19"
+        "late-mcq-03",
+        "late-mcq-13",
+        "late-mcq-07"
       ],
       "explanation": "本句的「late」指「表示較遲出現的；延後的」。",
       "sentenceIndex": 20,
@@ -1207,12 +1137,10 @@ export default {
         "late"
       ],
       "optionReasons": {
-        "late-mcq-26": "本句指「表示較遲出現的；延後的」。",
-        "late-mcq-24": "「表示太遲；為時已晚」是「Unmapped practice late-09-1」的用法，與本句語境不同。",
-        "late-mcq-22": "「本應較早發生，但延遲到後來才出現的；遲來的」是「belated」的用法，與本句語境不同。",
-        "late-mcq-21": "「即使做得較遲，也比完全不做更好」是「better late than never」的用法，與本句語境不同。",
-        "late-mcq-20": "「雖不知道確切時間，但最終會／可能會發生；遲早」是「sooner or later」的用法，與本句語境不同。",
-        "late-mcq-19": "「較正式地表示「近來／最近」」是「of late」的用法，與本句語境不同。"
+        "late-mcq-26": "本句的「late」指「表示較遲出現的；延後的」。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-26"
     },
@@ -1224,10 +1152,8 @@ export default {
       "masked": "____，我買了那副耳機。",
       "options": [
         "late-mcq-10",
-        "late-mcq-09",
-        "late-mcq-11",
-        "late-mcq-08",
-        "late-mcq-12",
+        "late-mcq-19",
+        "late-mcq-21",
         "late-mcq-07"
       ],
       "explanation": "本句的「later」指「在目前或前文所提時間之後」。",
@@ -1237,12 +1163,10 @@ export default {
         "later"
       ],
       "optionReasons": {
-        "late-mcq-10": "本句指「在目前或前文所提時間之後」。",
-        "late-mcq-09": "「已超過仍可有效行動或改變結果的時間點」是「too late」的用法，與本句語境不同。",
-        "late-mcq-11": "「與另一時間相比發生得更遲」是「later — comparative」的用法，與本句語境不同。",
-        "late-mcq-08": "「在夜晚很後段進行、出現或供應的」是「late-night + noun」的用法，與本句語境不同。",
-        "late-mcq-12": "「在一連串事物中最近出現、發布或發生的；最新的」是「latest」的用法，與本句語境不同。",
-        "late-mcq-07": "「該人已經去世；已故的」是「the late + person」的用法，與本句語境不同。"
+        "late-mcq-10": "本句的「later」指「在目前或前文所提時間之後」。",
+        "late-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-10"
     },
@@ -1254,11 +1178,9 @@ export default {
       "masked": "____。",
       "options": [
         "late-mcq-10",
-        "late-mcq-09",
-        "late-mcq-11",
-        "late-mcq-08",
-        "late-mcq-12",
-        "late-mcq-07"
+        "late-mcq-07",
+        "late-mcq-13",
+        "late-mcq-19"
       ],
       "explanation": "本句的「later」指「在目前或前文所提時間之後」。",
       "sentenceIndex": 22,
@@ -1267,12 +1189,10 @@ export default {
         "later"
       ],
       "optionReasons": {
-        "late-mcq-10": "本句指「在目前或前文所提時間之後」。",
-        "late-mcq-09": "「已超過仍可有效行動或改變結果的時間點」是「too late」的用法，與本句語境不同。",
-        "late-mcq-11": "「與另一時間相比發生得更遲」是「later — comparative」的用法，與本句語境不同。",
-        "late-mcq-08": "「在夜晚很後段進行、出現或供應的」是「late-night + noun」的用法，與本句語境不同。",
-        "late-mcq-12": "「在一連串事物中最近出現、發布或發生的；最新的」是「latest」的用法，與本句語境不同。",
-        "late-mcq-07": "「該人已經去世；已故的」是「the late + person」的用法，與本句語境不同。"
+        "late-mcq-10": "本句的「later」指「在目前或前文所提時間之後」。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-10"
     },
@@ -1284,11 +1204,9 @@ export default {
       "masked": "我們可以在____階段再討論。",
       "options": [
         "late-mcq-11",
-        "late-mcq-10",
-        "late-mcq-12",
-        "late-mcq-09",
-        "late-mcq-13",
-        "late-mcq-08"
+        "late-mcq-08",
+        "late-mcq-19",
+        "late-mcq-03"
       ],
       "explanation": "本句的「later stage」指「與另一時間相比發生得更遲」。",
       "sentenceIndex": 23,
@@ -1297,12 +1215,10 @@ export default {
         "later stage"
       ],
       "optionReasons": {
-        "late-mcq-11": "本句指「與另一時間相比發生得更遲」。",
-        "late-mcq-10": "「在目前或前文所提時間之後」是「later — afterwards」的用法，與本句語境不同。",
-        "late-mcq-12": "「在一連串事物中最近出現、發布或發生的；最新的」是「latest」的用法，與本句語境不同。",
-        "late-mcq-09": "「已超過仍可有效行動或改變結果的時間點」是「too late」的用法，與本句語境不同。",
-        "late-mcq-13": "「最新消息、產品、潮流或發展」是「the latest」的用法，與本句語境不同。",
-        "late-mcq-08": "「在夜晚很後段進行、出現或供應的」是「late-night + noun」的用法，與本句語境不同。"
+        "late-mcq-11": "本句的「later stage」指「與另一時間相比發生得更遲」。",
+        "late-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-11"
     },
@@ -1314,11 +1230,9 @@ export default {
       "masked": "他____的作品更加成功。",
       "options": [
         "late-mcq-11",
-        "late-mcq-10",
-        "late-mcq-12",
-        "late-mcq-09",
-        "late-mcq-13",
-        "late-mcq-08"
+        "late-mcq-07",
+        "late-reviewed-473069d2ed",
+        "late-mcq-03"
       ],
       "explanation": "本句的「later work」指「與另一時間相比發生得更遲」。",
       "sentenceIndex": 24,
@@ -1327,12 +1241,10 @@ export default {
         "later work"
       ],
       "optionReasons": {
-        "late-mcq-11": "本句指「與另一時間相比發生得更遲」。",
-        "late-mcq-10": "「在目前或前文所提時間之後」是「later — afterwards」的用法，與本句語境不同。",
-        "late-mcq-12": "「在一連串事物中最近出現、發布或發生的；最新的」是「latest」的用法，與本句語境不同。",
-        "late-mcq-09": "「已超過仍可有效行動或改變結果的時間點」是「too late」的用法，與本句語境不同。",
-        "late-mcq-13": "「最新消息、產品、潮流或發展」是「the latest」的用法，與本句語境不同。",
-        "late-mcq-08": "「在夜晚很後段進行、出現或供應的」是「late-night + noun」的用法，與本句語境不同。"
+        "late-mcq-11": "本句的「later work」指「與另一時間相比發生得更遲」。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-11"
     },
@@ -1344,11 +1256,9 @@ export default {
       "masked": "第二班火車開得____。",
       "options": [
         "late-mcq-11",
-        "late-mcq-10",
-        "late-mcq-12",
-        "late-mcq-09",
-        "late-mcq-13",
-        "late-mcq-08"
+        "late-reviewed-473069d2ed",
+        "late-mcq-19",
+        "late-mcq-03"
       ],
       "explanation": "本句的「later」指「與另一時間相比發生得更遲」。",
       "sentenceIndex": 25,
@@ -1357,12 +1267,10 @@ export default {
         "later"
       ],
       "optionReasons": {
-        "late-mcq-11": "本句指「與另一時間相比發生得更遲」。",
-        "late-mcq-10": "「在目前或前文所提時間之後」是「later — afterwards」的用法，與本句語境不同。",
-        "late-mcq-12": "「在一連串事物中最近出現、發布或發生的；最新的」是「latest」的用法，與本句語境不同。",
-        "late-mcq-09": "「已超過仍可有效行動或改變結果的時間點」是「too late」的用法，與本句語境不同。",
-        "late-mcq-13": "「最新消息、產品、潮流或發展」是「the latest」的用法，與本句語境不同。",
-        "late-mcq-08": "「在夜晚很後段進行、出現或供應的」是「late-night + noun」的用法，與本句語境不同。"
+        "late-mcq-11": "本句的「later」指「與另一時間相比發生得更遲」。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-11"
     },
@@ -1374,11 +1282,9 @@ export default {
       "masked": "週末我通常睡得____。",
       "options": [
         "late-mcq-11",
-        "late-mcq-10",
-        "late-mcq-12",
-        "late-mcq-09",
-        "late-mcq-13",
-        "late-mcq-08"
+        "late-reviewed-473069d2ed",
+        "late-mcq-08",
+        "late-mcq-07"
       ],
       "explanation": "本句的「later」指「與另一時間相比發生得更遲」。",
       "sentenceIndex": 26,
@@ -1387,12 +1293,10 @@ export default {
         "later"
       ],
       "optionReasons": {
-        "late-mcq-11": "本句指「與另一時間相比發生得更遲」。",
-        "late-mcq-10": "「在目前或前文所提時間之後」是「later — afterwards」的用法，與本句語境不同。",
-        "late-mcq-12": "「在一連串事物中最近出現、發布或發生的；最新的」是「latest」的用法，與本句語境不同。",
-        "late-mcq-09": "「已超過仍可有效行動或改變結果的時間點」是「too late」的用法，與本句語境不同。",
-        "late-mcq-13": "「最新消息、產品、潮流或發展」是「the latest」的用法，與本句語境不同。",
-        "late-mcq-08": "「在夜晚很後段進行、出現或供應的」是「late-night + noun」的用法，與本句語境不同。"
+        "late-mcq-11": "本句的「later」指「與另一時間相比發生得更遲」。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-11"
     },
@@ -1404,11 +1308,9 @@ export default {
       "masked": "你看過公司的____產品嗎？",
       "options": [
         "late-mcq-12",
-        "late-mcq-11",
-        "late-mcq-13",
-        "late-mcq-10",
-        "late-mcq-14",
-        "late-mcq-09"
+        "late-mcq-21",
+        "late-mcq-05",
+        "late-mcq-07"
       ],
       "explanation": "本句的「latest product」指「在一連串事物中最近出現、發布或發生的；最新的」。",
       "sentenceIndex": 27,
@@ -1417,12 +1319,10 @@ export default {
         "latest product"
       ],
       "optionReasons": {
-        "late-mcq-12": "本句指「在一連串事物中最近出現、發布或發生的；最新的」。",
-        "late-mcq-11": "「與另一時間相比發生得更遲」是「later — comparative」的用法，與本句語境不同。",
-        "late-mcq-13": "「最新消息、產品、潮流或發展」是「the latest」的用法，與本句語境不同。",
-        "late-mcq-10": "「在目前或前文所提時間之後」是「later — afterwards」的用法，與本句語境不同。",
-        "late-mcq-14": "「容許的最晚時間；不得再遲」是「at the latest」的用法，與本句語境不同。",
-        "late-mcq-09": "「已超過仍可有效行動或改變結果的時間點」是「too late」的用法，與本句語境不同。"
+        "late-mcq-12": "本句的「latest product」指「在一連串事物中最近出現、發布或發生的；最新的」。",
+        "late-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-12"
     },
@@ -1434,11 +1334,9 @@ export default {
       "masked": "有甚麼____消息？",
       "options": [
         "late-mcq-12",
-        "late-mcq-11",
-        "late-mcq-13",
-        "late-mcq-10",
-        "late-mcq-14",
-        "late-mcq-09"
+        "late-mcq-17",
+        "late-mcq-07",
+        "late-mcq-21"
       ],
       "explanation": "本句的「latest news」指「在一連串事物中最近出現、發布或發生的；最新的」。",
       "sentenceIndex": 28,
@@ -1447,12 +1345,10 @@ export default {
         "latest news"
       ],
       "optionReasons": {
-        "late-mcq-12": "本句指「在一連串事物中最近出現、發布或發生的；最新的」。",
-        "late-mcq-11": "「與另一時間相比發生得更遲」是「later — comparative」的用法，與本句語境不同。",
-        "late-mcq-13": "「最新消息、產品、潮流或發展」是「the latest」的用法，與本句語境不同。",
-        "late-mcq-10": "「在目前或前文所提時間之後」是「later — afterwards」的用法，與本句語境不同。",
-        "late-mcq-14": "「容許的最晚時間；不得再遲」是「at the latest」的用法，與本句語境不同。",
-        "late-mcq-09": "「已超過仍可有效行動或改變結果的時間點」是「too late」的用法，與本句語境不同。"
+        "late-mcq-12": "本句的「latest news」指「在一連串事物中最近出現、發布或發生的；最新的」。",
+        "late-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-12"
     },
@@ -1464,11 +1360,9 @@ export default {
       "masked": "你聽到____了嗎？",
       "options": [
         "late-mcq-13",
-        "late-mcq-12",
-        "late-mcq-14",
-        "late-mcq-11",
-        "late-mcq-15",
-        "late-mcq-10"
+        "late-mcq-16",
+        "late-mcq-07",
+        "late-reviewed-473069d2ed"
       ],
       "explanation": "本句的「the latest」指「最新消息、產品、潮流或發展」。",
       "sentenceIndex": 29,
@@ -1477,12 +1371,10 @@ export default {
         "the latest"
       ],
       "optionReasons": {
-        "late-mcq-13": "本句指「最新消息、產品、潮流或發展」。",
-        "late-mcq-12": "「在一連串事物中最近出現、發布或發生的；最新的」是「latest」的用法，與本句語境不同。",
-        "late-mcq-14": "「容許的最晚時間；不得再遲」是「at the latest」的用法，與本句語境不同。",
-        "late-mcq-11": "「與另一時間相比發生得更遲」是「later — comparative」的用法，與本句語境不同。",
-        "late-mcq-15": "「距離現在不久的一段時間內；最近／近來」是「lately」的用法，與本句語境不同。",
-        "late-mcq-10": "「在目前或前文所提時間之後」是「later — afterwards」的用法，與本句語境不同。"
+        "late-mcq-13": "本句的「the latest」指「最新消息、產品、潮流或發展」。",
+        "late-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-13"
     },
@@ -1494,11 +1386,9 @@ export default {
       "masked": "她總是購買科技方面的____產品。",
       "options": [
         "late-mcq-13",
-        "late-mcq-12",
-        "late-mcq-14",
-        "late-mcq-11",
-        "late-mcq-15",
-        "late-mcq-10"
+        "late-mcq-02",
+        "late-mcq-08",
+        "late-mcq-21"
       ],
       "explanation": "本句的「the latest」指「最新消息、產品、潮流或發展」。",
       "sentenceIndex": 30,
@@ -1507,12 +1397,10 @@ export default {
         "the latest"
       ],
       "optionReasons": {
-        "late-mcq-13": "本句指「最新消息、產品、潮流或發展」。",
-        "late-mcq-12": "「在一連串事物中最近出現、發布或發生的；最新的」是「latest」的用法，與本句語境不同。",
-        "late-mcq-14": "「容許的最晚時間；不得再遲」是「at the latest」的用法，與本句語境不同。",
-        "late-mcq-11": "「與另一時間相比發生得更遲」是「later — comparative」的用法，與本句語境不同。",
-        "late-mcq-15": "「距離現在不久的一段時間內；最近／近來」是「lately」的用法，與本句語境不同。",
-        "late-mcq-10": "「在目前或前文所提時間之後」是「later — afterwards」的用法，與本句語境不同。"
+        "late-mcq-13": "本句的「the latest」指「最新消息、產品、潮流或發展」。",
+        "late-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-13"
     },
@@ -1524,11 +1412,9 @@ export default {
       "masked": "請____六點到達。",
       "options": [
         "late-mcq-14",
-        "late-mcq-13",
-        "late-mcq-15",
-        "late-mcq-12",
-        "late-mcq-16",
-        "late-mcq-11"
+        "late-mcq-07",
+        "late-reviewed-473069d2ed",
+        "late-mcq-03"
       ],
       "explanation": "本句的「at the latest」指「容許的最晚時間；不得再遲」。",
       "sentenceIndex": 31,
@@ -1537,12 +1423,10 @@ export default {
         "at the latest"
       ],
       "optionReasons": {
-        "late-mcq-14": "本句指「容許的最晚時間；不得再遲」。",
-        "late-mcq-13": "「最新消息、產品、潮流或發展」是「the latest」的用法，與本句語境不同。",
-        "late-mcq-15": "「距離現在不久的一段時間內；最近／近來」是「lately」的用法，與本句語境不同。",
-        "late-mcq-12": "「在一連串事物中最近出現、發布或發生的；最新的」是「latest」的用法，與本句語境不同。",
-        "late-mcq-16": "「比預定時間遲，或時間已進入較後階段的狀態」是「lateness」的用法，與本句語境不同。",
-        "late-mcq-11": "「與另一時間相比發生得更遲」是「later — comparative」的用法，與本句語境不同。"
+        "late-mcq-14": "本句的「at the latest」指「容許的最晚時間；不得再遲」。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-14"
     },
@@ -1554,11 +1438,9 @@ export default {
       "masked": "報告____必須在星期五提交。",
       "options": [
         "late-mcq-14",
-        "late-mcq-13",
-        "late-mcq-15",
-        "late-mcq-12",
-        "late-mcq-16",
-        "late-mcq-11"
+        "late-mcq-07",
+        "late-mcq-03",
+        "late-reviewed-473069d2ed"
       ],
       "explanation": "本句的「at the latest」指「容許的最晚時間；不得再遲」。",
       "sentenceIndex": 32,
@@ -1567,12 +1449,10 @@ export default {
         "at the latest"
       ],
       "optionReasons": {
-        "late-mcq-14": "本句指「容許的最晚時間；不得再遲」。",
-        "late-mcq-13": "「最新消息、產品、潮流或發展」是「the latest」的用法，與本句語境不同。",
-        "late-mcq-15": "「距離現在不久的一段時間內；最近／近來」是「lately」的用法，與本句語境不同。",
-        "late-mcq-12": "「在一連串事物中最近出現、發布或發生的；最新的」是「latest」的用法，與本句語境不同。",
-        "late-mcq-16": "「比預定時間遲，或時間已進入較後階段的狀態」是「lateness」的用法，與本句語境不同。",
-        "late-mcq-11": "「與另一時間相比發生得更遲」是「later — comparative」的用法，與本句語境不同。"
+        "late-mcq-14": "本句的「at the latest」指「容許的最晚時間；不得再遲」。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-14"
     },
@@ -1584,11 +1464,9 @@ export default {
       "masked": "____。",
       "options": [
         "late-mcq-15",
-        "late-mcq-14",
-        "late-mcq-16",
-        "late-mcq-13",
-        "late-mcq-17",
-        "late-mcq-12"
+        "late-mcq-18",
+        "late-mcq-07",
+        "late-reviewed-473069d2ed"
       ],
       "explanation": "本句的「lately」指「距離現在不久的一段時間內；最近／近來」。",
       "sentenceIndex": 33,
@@ -1597,12 +1475,10 @@ export default {
         "lately"
       ],
       "optionReasons": {
-        "late-mcq-15": "本句指「距離現在不久的一段時間內；最近／近來」。",
-        "late-mcq-14": "「容許的最晚時間；不得再遲」是「at the latest」的用法，與本句語境不同。",
-        "late-mcq-16": "「比預定時間遲，或時間已進入較後階段的狀態」是「lateness」的用法，與本句語境不同。",
-        "late-mcq-13": "「最新消息、產品、潮流或發展」是「the latest」的用法，與本句語境不同。",
-        "late-mcq-17": "「比指定／預定時間更遲到達的人」是「latecomer — literal」的用法，與本句語境不同。",
-        "late-mcq-12": "「在一連串事物中最近出現、發布或發生的；最新的」是「latest」的用法，與本句語境不同。"
+        "late-mcq-15": "本句的「lately」指「距離現在不久的一段時間內；最近／近來」。",
+        "late-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-15"
     },
@@ -1614,11 +1490,9 @@ export default {
       "masked": "你____常用這副耳機嗎？",
       "options": [
         "late-mcq-15",
-        "late-mcq-14",
-        "late-mcq-16",
-        "late-mcq-13",
-        "late-mcq-17",
-        "late-mcq-12"
+        "late-reviewed-473069d2ed",
+        "late-mcq-18",
+        "late-mcq-07"
       ],
       "explanation": "本句的「lately」指「距離現在不久的一段時間內；最近／近來」。",
       "sentenceIndex": 34,
@@ -1627,12 +1501,10 @@ export default {
         "lately"
       ],
       "optionReasons": {
-        "late-mcq-15": "本句指「距離現在不久的一段時間內；最近／近來」。",
-        "late-mcq-14": "「容許的最晚時間；不得再遲」是「at the latest」的用法，與本句語境不同。",
-        "late-mcq-16": "「比預定時間遲，或時間已進入較後階段的狀態」是「lateness」的用法，與本句語境不同。",
-        "late-mcq-13": "「最新消息、產品、潮流或發展」是「the latest」的用法，與本句語境不同。",
-        "late-mcq-17": "「比指定／預定時間更遲到達的人」是「latecomer — literal」的用法，與本句語境不同。",
-        "late-mcq-12": "「在一連串事物中最近出現、發布或發生的；最新的」是「latest」的用法，與本句語境不同。"
+        "late-mcq-15": "本句的「lately」指「距離現在不久的一段時間內；最近／近來」。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-15"
     },
@@ -1644,11 +1516,9 @@ export default {
       "masked": "他為自己的____道歉。",
       "options": [
         "late-mcq-16",
-        "late-mcq-15",
-        "late-mcq-17",
-        "late-mcq-14",
-        "late-mcq-18",
-        "late-mcq-13"
+        "late-mcq-12",
+        "late-reviewed-473069d2ed",
+        "late-mcq-07"
       ],
       "explanation": "本句的「lateness」指「比預定時間遲，或時間已進入較後階段的狀態」。",
       "sentenceIndex": 35,
@@ -1657,12 +1527,10 @@ export default {
         "lateness"
       ],
       "optionReasons": {
-        "late-mcq-16": "本句指「比預定時間遲，或時間已進入較後階段的狀態」。",
-        "late-mcq-15": "「距離現在不久的一段時間內；最近／近來」是「lately」的用法，與本句語境不同。",
-        "late-mcq-17": "「比指定／預定時間更遲到達的人」是「latecomer — literal」的用法，與本句語境不同。",
-        "late-mcq-14": "「容許的最晚時間；不得再遲」是「at the latest」的用法，與本句語境不同。",
-        "late-mcq-18": "「比其他人較遲進入某個活動、行業或潮流的人／機構」是「latecomer — figurative」的用法，與本句語境不同。",
-        "late-mcq-13": "「最新消息、產品、潮流或發展」是「the latest」的用法，與本句語境不同。"
+        "late-mcq-16": "本句的「lateness」指「比預定時間遲，或時間已進入較後階段的狀態」。",
+        "late-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-16"
     },
@@ -1674,11 +1542,9 @@ export default {
       "masked": "____已經很晚，令大家都很累。",
       "options": [
         "late-mcq-16",
-        "late-mcq-15",
-        "late-mcq-17",
-        "late-mcq-14",
-        "late-mcq-18",
-        "late-mcq-13"
+        "late-mcq-13",
+        "late-mcq-03",
+        "late-reviewed-473069d2ed"
       ],
       "explanation": "本句的「lateness」指「比預定時間遲，或時間已進入較後階段的狀態」。",
       "sentenceIndex": 36,
@@ -1687,12 +1553,10 @@ export default {
         "lateness"
       ],
       "optionReasons": {
-        "late-mcq-16": "本句指「比預定時間遲，或時間已進入較後階段的狀態」。",
-        "late-mcq-15": "「距離現在不久的一段時間內；最近／近來」是「lately」的用法，與本句語境不同。",
-        "late-mcq-17": "「比指定／預定時間更遲到達的人」是「latecomer — literal」的用法，與本句語境不同。",
-        "late-mcq-14": "「容許的最晚時間；不得再遲」是「at the latest」的用法，與本句語境不同。",
-        "late-mcq-18": "「比其他人較遲進入某個活動、行業或潮流的人／機構」是「latecomer — figurative」的用法，與本句語境不同。",
-        "late-mcq-13": "「最新消息、產品、潮流或發展」是「the latest」的用法，與本句語境不同。"
+        "late-mcq-16": "本句的「lateness」指「比預定時間遲，或時間已進入較後階段的狀態」。",
+        "late-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-16"
     },
@@ -1704,22 +1568,18 @@ export default {
       "masked": "表演開始後，____將不得進場。",
       "options": [
         "late-mcq-17",
-        "late-mcq-16",
-        "late-mcq-18",
-        "late-mcq-15",
-        "late-mcq-19",
-        "late-mcq-14"
+        "late-mcq-07",
+        "late-mcq-12",
+        "late-reviewed-473069d2ed"
       ],
       "explanation": "本句的「late」指「比指定／預定時間更遲到達的人」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "optionReasons": {
-        "late-mcq-17": "本句指「比指定／預定時間更遲到達的人」。",
-        "late-mcq-16": "「比預定時間遲，或時間已進入較後階段的狀態」是「lateness」的用法，與本句語境不同。",
-        "late-mcq-18": "「比其他人較遲進入某個活動、行業或潮流的人／機構」是「latecomer — figurative」的用法，與本句語境不同。",
-        "late-mcq-15": "「距離現在不久的一段時間內；最近／近來」是「lately」的用法，與本句語境不同。",
-        "late-mcq-19": "「較正式地表示「近來／最近」」是「of late」的用法，與本句語境不同。",
-        "late-mcq-14": "「容許的最晚時間；不得再遲」是「at the latest」的用法，與本句語境不同。"
+        "late-mcq-17": "本句的「late」指「比指定／預定時間更遲到達的人」。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-17"
     },
@@ -1731,11 +1591,9 @@ export default {
       "masked": "最初十分鐘內有幾名____的人進場。",
       "options": [
         "late-mcq-17",
-        "late-mcq-16",
-        "late-mcq-18",
-        "late-mcq-15",
-        "late-mcq-19",
-        "late-mcq-14"
+        "late-reviewed-473069d2ed",
+        "late-mcq-08",
+        "late-mcq-13"
       ],
       "explanation": "本句的「latecomers」指「比指定／預定時間更遲到達的人」。",
       "sentenceIndex": 38,
@@ -1744,12 +1602,10 @@ export default {
         "latecomers"
       ],
       "optionReasons": {
-        "late-mcq-17": "本句指「比指定／預定時間更遲到達的人」。",
-        "late-mcq-16": "「比預定時間遲，或時間已進入較後階段的狀態」是「lateness」的用法，與本句語境不同。",
-        "late-mcq-18": "「比其他人較遲進入某個活動、行業或潮流的人／機構」是「latecomer — figurative」的用法，與本句語境不同。",
-        "late-mcq-15": "「距離現在不久的一段時間內；最近／近來」是「lately」的用法，與本句語境不同。",
-        "late-mcq-19": "「較正式地表示「近來／最近」」是「of late」的用法，與本句語境不同。",
-        "late-mcq-14": "「容許的最晚時間；不得再遲」是「at the latest」的用法，與本句語境不同。"
+        "late-mcq-17": "本句的「latecomers」指「比指定／預定時間更遲到達的人」。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-17"
     },
@@ -1761,11 +1617,9 @@ export default {
       "masked": "____。",
       "options": [
         "late-mcq-18",
-        "late-mcq-17",
-        "late-mcq-19",
-        "late-mcq-16",
-        "late-mcq-20",
-        "late-mcq-15"
+        "late-reviewed-473069d2ed",
+        "late-mcq-07",
+        "late-mcq-03"
       ],
       "explanation": "本句的「latecomer」指「比其他人較遲進入某個活動、行業或潮流的人／機構」。",
       "sentenceIndex": 39,
@@ -1774,12 +1628,10 @@ export default {
         "latecomer"
       ],
       "optionReasons": {
-        "late-mcq-18": "本句指「比其他人較遲進入某個活動、行業或潮流的人／機構」。",
-        "late-mcq-17": "「比指定／預定時間更遲到達的人」是「latecomer — literal」的用法，與本句語境不同。",
-        "late-mcq-19": "「較正式地表示「近來／最近」」是「of late」的用法，與本句語境不同。",
-        "late-mcq-16": "「比預定時間遲，或時間已進入較後階段的狀態」是「lateness」的用法，與本句語境不同。",
-        "late-mcq-20": "「雖不知道確切時間，但最終會／可能會發生；遲早」是「sooner or later」的用法，與本句語境不同。",
-        "late-mcq-15": "「距離現在不久的一段時間內；最近／近來」是「lately」的用法，與本句語境不同。"
+        "late-mcq-18": "本句的「latecomer」指「比其他人較遲進入某個活動、行業或潮流的人／機構」。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-18"
     },
@@ -1791,11 +1643,9 @@ export default {
       "masked": "他很晚才開始使用社交媒體，是個較遲____的人。",
       "options": [
         "late-mcq-18",
-        "late-mcq-17",
-        "late-mcq-19",
-        "late-mcq-16",
-        "late-mcq-20",
-        "late-mcq-15"
+        "late-reviewed-473069d2ed",
+        "late-mcq-10",
+        "late-mcq-07"
       ],
       "explanation": "本句的「latecomer」指「比其他人較遲進入某個活動、行業或潮流的人／機構」。",
       "sentenceIndex": 40,
@@ -1804,12 +1654,10 @@ export default {
         "latecomer"
       ],
       "optionReasons": {
-        "late-mcq-18": "本句指「比其他人較遲進入某個活動、行業或潮流的人／機構」。",
-        "late-mcq-17": "「比指定／預定時間更遲到達的人」是「latecomer — literal」的用法，與本句語境不同。",
-        "late-mcq-19": "「較正式地表示「近來／最近」」是「of late」的用法，與本句語境不同。",
-        "late-mcq-16": "「比預定時間遲，或時間已進入較後階段的狀態」是「lateness」的用法，與本句語境不同。",
-        "late-mcq-20": "「雖不知道確切時間，但最終會／可能會發生；遲早」是「sooner or later」的用法，與本句語境不同。",
-        "late-mcq-15": "「距離現在不久的一段時間內；最近／近來」是「lately」的用法，與本句語境不同。"
+        "late-mcq-18": "本句的「latecomer」指「比其他人較遲進入某個活動、行業或潮流的人／機構」。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-18"
     },
@@ -1821,11 +1669,9 @@ export default {
       "masked": "銷售額____有所改善。",
       "options": [
         "late-mcq-19",
-        "late-mcq-18",
-        "late-mcq-20",
-        "late-mcq-17",
-        "late-mcq-21",
-        "late-mcq-16"
+        "late-reviewed-473069d2ed",
+        "late-mcq-23",
+        "late-mcq-10"
       ],
       "explanation": "本句的「of late」指「較正式地表示「近來／最近」」。",
       "sentenceIndex": 41,
@@ -1834,12 +1680,10 @@ export default {
         "of late"
       ],
       "optionReasons": {
-        "late-mcq-19": "本句指「較正式地表示「近來／最近」」。",
-        "late-mcq-18": "「比其他人較遲進入某個活動、行業或潮流的人／機構」是「latecomer — figurative」的用法，與本句語境不同。",
-        "late-mcq-20": "「雖不知道確切時間，但最終會／可能會發生；遲早」是「sooner or later」的用法，與本句語境不同。",
-        "late-mcq-17": "「比指定／預定時間更遲到達的人」是「latecomer — literal」的用法，與本句語境不同。",
-        "late-mcq-21": "「即使做得較遲，也比完全不做更好」是「better late than never」的用法，與本句語境不同。",
-        "late-mcq-16": "「比預定時間遲，或時間已進入較後階段的狀態」是「lateness」的用法，與本句語境不同。"
+        "late-mcq-19": "本句的「of late」指「較正式地表示「近來／最近」」。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-19"
     },
@@ -1851,11 +1695,9 @@ export default {
       "masked": "她____看起來有點累。",
       "options": [
         "late-mcq-19",
-        "late-mcq-18",
-        "late-mcq-20",
-        "late-mcq-17",
-        "late-mcq-21",
-        "late-mcq-16"
+        "late-mcq-11",
+        "late-mcq-03",
+        "late-mcq-07"
       ],
       "explanation": "本句的「of late」指「較正式地表示「近來／最近」」。",
       "sentenceIndex": 42,
@@ -1864,12 +1706,10 @@ export default {
         "of late"
       ],
       "optionReasons": {
-        "late-mcq-19": "本句指「較正式地表示「近來／最近」」。",
-        "late-mcq-18": "「比其他人較遲進入某個活動、行業或潮流的人／機構」是「latecomer — figurative」的用法，與本句語境不同。",
-        "late-mcq-20": "「雖不知道確切時間，但最終會／可能會發生；遲早」是「sooner or later」的用法，與本句語境不同。",
-        "late-mcq-17": "「比指定／預定時間更遲到達的人」是「latecomer — literal」的用法，與本句語境不同。",
-        "late-mcq-21": "「即使做得較遲，也比完全不做更好」是「better late than never」的用法，與本句語境不同。",
-        "late-mcq-16": "「比預定時間遲，或時間已進入較後階段的狀態」是「lateness」的用法，與本句語境不同。"
+        "late-mcq-19": "本句的「of late」指「較正式地表示「近來／最近」」。",
+        "late-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-19"
     },
@@ -1881,22 +1721,18 @@ export default {
       "masked": "____電池都需要更換。",
       "options": [
         "late-mcq-20",
-        "late-mcq-19",
-        "late-mcq-21",
-        "late-mcq-18",
-        "late-mcq-22",
-        "late-mcq-17"
+        "late-mcq-08",
+        "late-reviewed-473069d2ed",
+        "late-mcq-03"
       ],
       "explanation": "本句的「late」指「雖不知道確切時間，但最終會／可能會發生；遲早」。",
       "sentenceIndex": 43,
       "sourcePractice": 44,
       "optionReasons": {
-        "late-mcq-20": "本句指「雖不知道確切時間，但最終會／可能會發生；遲早」。",
-        "late-mcq-19": "「較正式地表示「近來／最近」」是「of late」的用法，與本句語境不同。",
-        "late-mcq-21": "「即使做得較遲，也比完全不做更好」是「better late than never」的用法，與本句語境不同。",
-        "late-mcq-18": "「比其他人較遲進入某個活動、行業或潮流的人／機構」是「latecomer — figurative」的用法，與本句語境不同。",
-        "late-mcq-22": "「本應較早發生，但延遲到後來才出現的；遲來的」是「belated」的用法，與本句語境不同。",
-        "late-mcq-17": "「比指定／預定時間更遲到達的人」是「latecomer — literal」的用法，與本句語境不同。"
+        "late-mcq-20": "本句的「late」指「雖不知道確切時間，但最終會／可能會發生；遲早」。",
+        "late-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-20"
     },
@@ -1908,11 +1744,9 @@ export default {
       "masked": "你____都需要作出決定。",
       "options": [
         "late-mcq-20",
-        "late-mcq-19",
-        "late-mcq-21",
-        "late-mcq-18",
-        "late-mcq-22",
-        "late-mcq-17"
+        "late-mcq-07",
+        "late-reviewed-473069d2ed",
+        "late-mcq-08"
       ],
       "explanation": "本句的「sooner or later」指「雖不知道確切時間，但最終會／可能會發生；遲早」。",
       "sentenceIndex": 44,
@@ -1921,12 +1755,10 @@ export default {
         "sooner or later"
       ],
       "optionReasons": {
-        "late-mcq-20": "本句指「雖不知道確切時間，但最終會／可能會發生；遲早」。",
-        "late-mcq-19": "「較正式地表示「近來／最近」」是「of late」的用法，與本句語境不同。",
-        "late-mcq-21": "「即使做得較遲，也比完全不做更好」是「better late than never」的用法，與本句語境不同。",
-        "late-mcq-18": "「比其他人較遲進入某個活動、行業或潮流的人／機構」是「latecomer — figurative」的用法，與本句語境不同。",
-        "late-mcq-22": "「本應較早發生，但延遲到後來才出現的；遲來的」是「belated」的用法，與本句語境不同。",
-        "late-mcq-17": "「比指定／預定時間更遲到達的人」是「latecomer — literal」的用法，與本句語境不同。"
+        "late-mcq-20": "本句的「sooner or later」指「雖不知道確切時間，但最終會／可能會發生；遲早」。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-20"
     },
@@ -1938,11 +1770,9 @@ export default {
       "masked": "他終於道歉了 —— ____。",
       "options": [
         "late-mcq-21",
-        "late-mcq-20",
-        "late-mcq-22",
-        "late-mcq-19",
-        "late-mcq-23",
-        "late-mcq-18"
+        "late-reviewed-473069d2ed",
+        "late-mcq-08",
+        "late-mcq-02"
       ],
       "explanation": "本句的「better late than never」指「即使做得較遲，也比完全不做更好」。",
       "sentenceIndex": 45,
@@ -1951,12 +1781,10 @@ export default {
         "better late than never"
       ],
       "optionReasons": {
-        "late-mcq-21": "本句指「即使做得較遲，也比完全不做更好」。",
-        "late-mcq-20": "「雖不知道確切時間，但最終會／可能會發生；遲早」是「sooner or later」的用法，與本句語境不同。",
-        "late-mcq-22": "「本應較早發生，但延遲到後來才出現的；遲來的」是「belated」的用法，與本句語境不同。",
-        "late-mcq-19": "「較正式地表示「近來／最近」」是「of late」的用法，與本句語境不同。",
-        "late-mcq-23": "「表示太遲；為時已晚」是「Unmapped practice late-09-0」的用法，與本句語境不同。",
-        "late-mcq-18": "「比其他人較遲進入某個活動、行業或潮流的人／機構」是「latecomer — figurative」的用法，與本句語境不同。"
+        "late-mcq-21": "本句的「better late than never」指「即使做得較遲，也比完全不做更好」。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-21"
     },
@@ -1968,81 +1796,73 @@ export default {
       "masked": "她五十歲才開始學英語。遲開始____永遠不開始好。",
       "options": [
         "late-mcq-21",
-        "late-mcq-20",
-        "late-mcq-22",
-        "late-mcq-19",
-        "late-mcq-23",
-        "late-mcq-18"
+        "late-mcq-04",
+        "late-mcq-08",
+        "late-reviewed-473069d2ed"
       ],
       "explanation": "本句的「late」指「即使做得較遲，也比完全不做更好」。",
       "sentenceIndex": 46,
       "sourcePractice": 47,
       "optionReasons": {
-        "late-mcq-21": "本句指「即使做得較遲，也比完全不做更好」。",
-        "late-mcq-20": "「雖不知道確切時間，但最終會／可能會發生；遲早」是「sooner or later」的用法，與本句語境不同。",
-        "late-mcq-22": "「本應較早發生，但延遲到後來才出現的；遲來的」是「belated」的用法，與本句語境不同。",
-        "late-mcq-19": "「較正式地表示「近來／最近」」是「of late」的用法，與本句語境不同。",
-        "late-mcq-23": "「表示太遲；為時已晚」是「Unmapped practice late-09-0」的用法，與本句語境不同。",
-        "late-mcq-18": "「比其他人較遲進入某個活動、行業或潮流的人／機構」是「latecomer — figurative」的用法，與本句語境不同。"
+        "late-mcq-21": "本句的「late」指「即使做得較遲，也比完全不做更好」。",
+        "late-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-21"
     },
     {
       "id": "late-24-0",
-      "sense": "late-mcq-21",
+      "sense": "late-reviewed-473069d2ed",
       "en": "It would be difficult to change the design at this late stage.",
       "zh": "到了這麼後期／事到如今，要更改設計會很困難。",
       "masked": "____，要更改設計會很困難。",
       "options": [
-        "late-mcq-21",
-        "late-mcq-20",
-        "late-mcq-22",
-        "late-mcq-19",
-        "late-mcq-23",
-        "late-mcq-18"
+        "late-reviewed-473069d2ed",
+        "late-mcq-01",
+        "late-mcq-18",
+        "late-mcq-19"
       ],
-      "explanation": "本句的「at this late stage」指「即使做得較遲，也比完全不做更好」。",
+      "explanation": "對照完整句子：「到了這麼後期／事到如今，要更改設計會很困難。」。這裡的「at this late stage」表示「到這麼後期；事到如今」。",
       "sentenceIndex": 47,
       "sourcePractice": 48,
       "targets": [
         "at this late stage"
       ],
       "optionReasons": {
-        "late-mcq-21": "本句指「即使做得較遲，也比完全不做更好」。",
-        "late-mcq-20": "「雖不知道確切時間，但最終會／可能會發生；遲早」是「sooner or later」的用法，與本句語境不同。",
-        "late-mcq-22": "「本應較早發生，但延遲到後來才出現的；遲來的」是「belated」的用法，與本句語境不同。",
-        "late-mcq-19": "「較正式地表示「近來／最近」」是「of late」的用法，與本句語境不同。",
-        "late-mcq-23": "「表示太遲；為時已晚」是「Unmapped practice late-09-0」的用法，與本句語境不同。",
-        "late-mcq-18": "「比其他人較遲進入某個活動、行業或潮流的人／機構」是「latecomer — figurative」的用法，與本句語境不同。"
+        "late-reviewed-473069d2ed": "對照完整句子：「到了這麼後期／事到如今，要更改設計會很困難。」。這裡的「at this late stage」表示「到這麼後期；事到如今」。",
+        "late-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "late-mcq-21"
+      "correctOption": "late-reviewed-473069d2ed",
+      "previousCorrectOption": "late-mcq-21",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "late-24-1",
-      "sense": "late-mcq-21",
+      "sense": "late-reviewed-473069d2ed",
       "en": "At this late stage, cancellation would be expensive.",
       "zh": "到了這個後期階段，取消安排的成本會很高。",
       "masked": "到了這個____階段，取消安排的成本會很高。",
       "options": [
+        "late-reviewed-473069d2ed",
+        "late-mcq-24",
         "late-mcq-21",
-        "late-mcq-20",
-        "late-mcq-22",
-        "late-mcq-19",
-        "late-mcq-23",
-        "late-mcq-18"
+        "late-mcq-15"
       ],
-      "explanation": "本句的「late」指「即使做得較遲，也比完全不做更好」。",
+      "explanation": "對照完整句子：「到了這個後期階段，取消安排的成本會很高。」。這裡的「late」表示「到這麼後期；事到如今」。",
       "sentenceIndex": 48,
       "sourcePractice": 49,
       "optionReasons": {
-        "late-mcq-21": "本句指「即使做得較遲，也比完全不做更好」。",
-        "late-mcq-20": "「雖不知道確切時間，但最終會／可能會發生；遲早」是「sooner or later」的用法，與本句語境不同。",
-        "late-mcq-22": "「本應較早發生，但延遲到後來才出現的；遲來的」是「belated」的用法，與本句語境不同。",
-        "late-mcq-19": "「較正式地表示「近來／最近」」是「of late」的用法，與本句語境不同。",
-        "late-mcq-23": "「表示太遲；為時已晚」是「Unmapped practice late-09-0」的用法，與本句語境不同。",
-        "late-mcq-18": "「比其他人較遲進入某個活動、行業或潮流的人／機構」是「latecomer — figurative」的用法，與本句語境不同。"
+        "late-reviewed-473069d2ed": "對照完整句子：「到了這個後期階段，取消安排的成本會很高。」。這裡的「late」表示「到這麼後期；事到如今」。",
+        "late-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "late-mcq-21"
+      "correctOption": "late-reviewed-473069d2ed",
+      "previousCorrectOption": "late-mcq-21",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "late-25-0",
@@ -2052,11 +1872,9 @@ export default {
       "masked": "請接受我____生日祝福。",
       "options": [
         "late-mcq-22",
-        "late-mcq-21",
-        "late-mcq-23",
-        "late-mcq-20",
-        "late-mcq-19",
-        "late-mcq-25"
+        "late-mcq-07",
+        "late-mcq-04",
+        "late-reviewed-473069d2ed"
       ],
       "explanation": "本句的「belated birthday wishes」指「本應較早發生，但延遲到後來才出現的；遲來的」。",
       "sentenceIndex": 49,
@@ -2065,12 +1883,10 @@ export default {
         "belated birthday wishes"
       ],
       "optionReasons": {
-        "late-mcq-22": "本句指「本應較早發生，但延遲到後來才出現的；遲來的」。",
-        "late-mcq-21": "「即使做得較遲，也比完全不做更好」是「better late than never」的用法，與本句語境不同。",
-        "late-mcq-23": "「表示太遲；為時已晚」是「Unmapped practice late-09-0」的用法，與本句語境不同。",
-        "late-mcq-20": "「雖不知道確切時間，但最終會／可能會發生；遲早」是「sooner or later」的用法，與本句語境不同。",
-        "late-mcq-19": "「較正式地表示「近來／最近」」是「of late」的用法，與本句語境不同。",
-        "late-mcq-25": "「表示較遲出現的；延後的」是「Unmapped practice late-10-0」的用法，與本句語境不同。"
+        "late-mcq-22": "本句的「belated birthday wishes」指「本應較早發生，但延遲到後來才出現的；遲來的」。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-22"
     },
@@ -2082,11 +1898,9 @@ export default {
       "masked": "他作出了____道歉。",
       "options": [
         "late-mcq-22",
-        "late-mcq-21",
-        "late-mcq-23",
-        "late-mcq-20",
-        "late-mcq-19",
-        "late-mcq-25"
+        "late-mcq-07",
+        "late-mcq-13",
+        "late-reviewed-473069d2ed"
       ],
       "explanation": "本句的「belated apology」指「本應較早發生，但延遲到後來才出現的；遲來的」。",
       "sentenceIndex": 50,
@@ -2095,12 +1909,10 @@ export default {
         "belated apology"
       ],
       "optionReasons": {
-        "late-mcq-22": "本句指「本應較早發生，但延遲到後來才出現的；遲來的」。",
-        "late-mcq-21": "「即使做得較遲，也比完全不做更好」是「better late than never」的用法，與本句語境不同。",
-        "late-mcq-23": "「表示太遲；為時已晚」是「Unmapped practice late-09-0」的用法，與本句語境不同。",
-        "late-mcq-20": "「雖不知道確切時間，但最終會／可能會發生；遲早」是「sooner or later」的用法，與本句語境不同。",
-        "late-mcq-19": "「較正式地表示「近來／最近」」是「of late」的用法，與本句語境不同。",
-        "late-mcq-25": "「表示較遲出現的；延後的」是「Unmapped practice late-10-0」的用法，與本句語境不同。"
+        "late-mcq-22": "本句的「belated apology」指「本應較早發生，但延遲到後來才出現的；遲來的」。",
+        "late-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "late-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "late-reviewed-473069d2ed": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "late-mcq-22"
     }
@@ -2110,5 +1922,7 @@ export default {
     "sha256": "0272e071638e0b7b32494fc48aa2d4ccff8a5272dac227d0317d5e152dd50ec8",
     "path": "manuals/late.pdf"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -551,9 +551,7 @@ export default {
         "command-mcq-22",
         "command-mcq-21",
         "command-mcq-20",
-        "command-mcq-19",
-        "command-mcq-18",
-        "command-mcq-17"
+        "command-mcq-18"
       ],
       "explanation": "本句的「command of physics」指「對自己教授的科目有非常深入的掌握」。",
       "sentenceIndex": 0,
@@ -562,12 +560,10 @@ export default {
         "command of physics"
       ],
       "optionReasons": {
-        "command-mcq-22": "本句指「對自己教授的科目有非常深入的掌握」。",
-        "command-mcq-21": "「具有權威、氣勢或強大存在感的」是「commanding」的用法，與本句語境不同。",
-        "command-mcq-20": "「負責軍事單位或行動的指揮官」是「commander」的用法，與本句語境不同。",
-        "command-mcq-19": "「在某人的指揮／領導之下」是「under someone’s command」的用法，與本句語境不同。",
-        "command-mcq-18": "「可供某人支配、使用或調度」是「at someone’s command」的用法，與本句語境不同。",
-        "command-mcq-17": "「因價值、需求或能力高而取得高價／高薪」是「command a high price/salary」的用法，與本句語境不同。"
+        "command-mcq-22": "本句的「command of physics」指「對自己教授的科目有非常深入的掌握」。",
+        "command-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-22"
     },
@@ -579,11 +575,9 @@ export default {
       "masked": "A good teacher needs a strong ____ as well as clear communication skills.",
       "options": [
         "command-mcq-22",
-        "command-mcq-21",
-        "command-mcq-20",
-        "command-mcq-19",
-        "command-mcq-18",
-        "command-mcq-17"
+        "command-mcq-11",
+        "command-mcq-16",
+        "command-mcq-14"
       ],
       "explanation": "本句的「command of the subject」指「對自己教授的科目有非常深入的掌握」。",
       "sentenceIndex": 1,
@@ -592,12 +586,10 @@ export default {
         "command of the subject"
       ],
       "optionReasons": {
-        "command-mcq-22": "本句指「對自己教授的科目有非常深入的掌握」。",
-        "command-mcq-21": "「具有權威、氣勢或強大存在感的」是「commanding」的用法，與本句語境不同。",
-        "command-mcq-20": "「負責軍事單位或行動的指揮官」是「commander」的用法，與本句語境不同。",
-        "command-mcq-19": "「在某人的指揮／領導之下」是「under someone’s command」的用法，與本句語境不同。",
-        "command-mcq-18": "「可供某人支配、使用或調度」是「at someone’s command」的用法，與本句語境不同。",
-        "command-mcq-17": "「因價值、需求或能力高而取得高價／高薪」是「command a high price/salary」的用法，與本句語境不同。"
+        "command-mcq-22": "本句的「command of the subject」指「對自己教授的科目有非常深入的掌握」。",
+        "command-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-22"
     },
@@ -609,11 +601,9 @@ export default {
       "masked": "The officer gave a clear ____.",
       "options": [
         "command-mcq-01",
-        "command-mcq-02",
-        "command-mcq-03",
-        "command-mcq-04",
-        "command-mcq-05",
-        "command-mcq-06"
+        "command-mcq-14",
+        "command-mcq-22",
+        "command-mcq-20"
       ],
       "explanation": "本句的「command」指「由有權力者發出的、預期他人服從的命令／指令」。",
       "sentenceIndex": 2,
@@ -622,12 +612,10 @@ export default {
         "command"
       ],
       "optionReasons": {
-        "command-mcq-01": "本句指「由有權力者發出的、預期他人服從的命令／指令」。",
-        "command-mcq-02": "「正式下達命令或發出指令」是「give/issue a command」的用法，與本句語境不同。",
-        "command-mcq-03": "「以權威命令某人做某事」是「command someone to do something」的用法，與本句語境不同。",
-        "command-mcq-04": "「對人員、單位或行動所擁有的指揮權／控制權」是「command — authority/control」的用法，與本句語境不同。",
-        "command-mcq-05": "「處於掌權、負責或指揮的位置」是「in command」的用法，與本句語境不同。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。"
+        "command-mcq-01": "本句的「command」指「由有權力者發出的、預期他人服從的命令／指令」。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-01"
     },
@@ -639,11 +627,9 @@ export default {
       "masked": "The dog obeyed its owner’s ____.",
       "options": [
         "command-mcq-01",
-        "command-mcq-02",
-        "command-mcq-03",
-        "command-mcq-04",
-        "command-mcq-05",
-        "command-mcq-06"
+        "command-mcq-22",
+        "command-mcq-14",
+        "command-mcq-20"
       ],
       "explanation": "本句的「command」指「由有權力者發出的、預期他人服從的命令／指令」。",
       "sentenceIndex": 3,
@@ -652,12 +638,10 @@ export default {
         "command"
       ],
       "optionReasons": {
-        "command-mcq-01": "本句指「由有權力者發出的、預期他人服從的命令／指令」。",
-        "command-mcq-02": "「正式下達命令或發出指令」是「give/issue a command」的用法，與本句語境不同。",
-        "command-mcq-03": "「以權威命令某人做某事」是「command someone to do something」的用法，與本句語境不同。",
-        "command-mcq-04": "「對人員、單位或行動所擁有的指揮權／控制權」是「command — authority/control」的用法，與本句語境不同。",
-        "command-mcq-05": "「處於掌權、負責或指揮的位置」是「in command」的用法，與本句語境不同。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。"
+        "command-mcq-01": "本句的「command」指「由有權力者發出的、預期他人服從的命令／指令」。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-01"
     },
@@ -669,10 +653,8 @@ export default {
       "masked": "The captain ____.",
       "options": [
         "command-mcq-02",
-        "command-mcq-01",
-        "command-mcq-03",
-        "command-mcq-04",
-        "command-mcq-05",
+        "command-mcq-16",
+        "command-mcq-14",
         "command-mcq-06"
       ],
       "explanation": "本句的「gave the command to stop」指「正式下達命令或發出指令」。",
@@ -682,12 +664,10 @@ export default {
         "gave the command to stop"
       ],
       "optionReasons": {
-        "command-mcq-02": "本句指「正式下達命令或發出指令」。",
-        "command-mcq-01": "「由有權力者發出的、預期他人服從的命令／指令」是「command — order」的用法，與本句語境不同。",
-        "command-mcq-03": "「以權威命令某人做某事」是「command someone to do something」的用法，與本句語境不同。",
-        "command-mcq-04": "「對人員、單位或行動所擁有的指揮權／控制權」是「command — authority/control」的用法，與本句語境不同。",
-        "command-mcq-05": "「處於掌權、負責或指揮的位置」是「in command」的用法，與本句語境不同。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。"
+        "command-mcq-02": "本句的「gave the command to stop」指「正式下達命令或發出指令」。",
+        "command-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-02"
     },
@@ -699,11 +679,9 @@ export default {
       "masked": "The system ____ to shut down.",
       "options": [
         "command-mcq-02",
-        "command-mcq-01",
-        "command-mcq-03",
-        "command-mcq-04",
-        "command-mcq-05",
-        "command-mcq-06"
+        "command-mcq-21",
+        "command-mcq-22",
+        "command-mcq-18"
       ],
       "explanation": "本句的「issued a command」指「正式下達命令或發出指令」。",
       "sentenceIndex": 5,
@@ -712,12 +690,10 @@ export default {
         "issued a command"
       ],
       "optionReasons": {
-        "command-mcq-02": "本句指「正式下達命令或發出指令」。",
-        "command-mcq-01": "「由有權力者發出的、預期他人服從的命令／指令」是「command — order」的用法，與本句語境不同。",
-        "command-mcq-03": "「以權威命令某人做某事」是「command someone to do something」的用法，與本句語境不同。",
-        "command-mcq-04": "「對人員、單位或行動所擁有的指揮權／控制權」是「command — authority/control」的用法，與本句語境不同。",
-        "command-mcq-05": "「處於掌權、負責或指揮的位置」是「in command」的用法，與本句語境不同。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。"
+        "command-mcq-02": "本句的「issued a command」指「正式下達命令或發出指令」。",
+        "command-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-02"
     },
@@ -729,11 +705,9 @@ export default {
       "masked": "The officer ____.",
       "options": [
         "command-mcq-03",
-        "command-mcq-02",
-        "command-mcq-04",
-        "command-mcq-01",
-        "command-mcq-05",
-        "command-mcq-06"
+        "command-mcq-22",
+        "command-mcq-20",
+        "command-mcq-14"
       ],
       "explanation": "本句的「commanded the soldiers to move forward」指「以權威命令某人做某事」。",
       "sentenceIndex": 6,
@@ -742,12 +716,10 @@ export default {
         "commanded the soldiers to move forward"
       ],
       "optionReasons": {
-        "command-mcq-03": "本句指「以權威命令某人做某事」。",
-        "command-mcq-02": "「正式下達命令或發出指令」是「give/issue a command」的用法，與本句語境不同。",
-        "command-mcq-04": "「對人員、單位或行動所擁有的指揮權／控制權」是「command — authority/control」的用法，與本句語境不同。",
-        "command-mcq-01": "「由有權力者發出的、預期他人服從的命令／指令」是「command — order」的用法，與本句語境不同。",
-        "command-mcq-05": "「處於掌權、負責或指揮的位置」是「in command」的用法，與本句語境不同。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。"
+        "command-mcq-03": "本句的「commanded the soldiers to move forward」指「以權威命令某人做某事」。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-03"
     },
@@ -759,11 +731,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "command-mcq-03",
-        "command-mcq-02",
-        "command-mcq-04",
-        "command-mcq-01",
-        "command-mcq-05",
-        "command-mcq-06"
+        "command-mcq-20",
+        "command-mcq-14",
+        "command-mcq-22"
       ],
       "explanation": "本句的「commanded him to leave」指「以權威命令某人做某事」。",
       "sentenceIndex": 7,
@@ -772,12 +742,10 @@ export default {
         "commanded him to leave"
       ],
       "optionReasons": {
-        "command-mcq-03": "本句指「以權威命令某人做某事」。",
-        "command-mcq-02": "「正式下達命令或發出指令」是「give/issue a command」的用法，與本句語境不同。",
-        "command-mcq-04": "「對人員、單位或行動所擁有的指揮權／控制權」是「command — authority/control」的用法，與本句語境不同。",
-        "command-mcq-01": "「由有權力者發出的、預期他人服從的命令／指令」是「command — order」的用法，與本句語境不同。",
-        "command-mcq-05": "「處於掌權、負責或指揮的位置」是「in command」的用法，與本句語境不同。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。"
+        "command-mcq-03": "本句的「commanded him to leave」指「以權威命令某人做某事」。",
+        "command-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-03"
     },
@@ -789,11 +757,9 @@ export default {
       "masked": "The general ____.",
       "options": [
         "command-mcq-03",
-        "command-mcq-02",
-        "command-mcq-04",
-        "command-mcq-01",
-        "command-mcq-05",
-        "command-mcq-06"
+        "command-mcq-20",
+        "command-mcq-22",
+        "command-mcq-14"
       ],
       "explanation": "本句的「commanded that the gates be closed」指「以權威命令某人做某事」。",
       "sentenceIndex": 8,
@@ -802,12 +768,10 @@ export default {
         "commanded that the gates be closed"
       ],
       "optionReasons": {
-        "command-mcq-03": "本句指「以權威命令某人做某事」。",
-        "command-mcq-02": "「正式下達命令或發出指令」是「give/issue a command」的用法，與本句語境不同。",
-        "command-mcq-04": "「對人員、單位或行動所擁有的指揮權／控制權」是「command — authority/control」的用法，與本句語境不同。",
-        "command-mcq-01": "「由有權力者發出的、預期他人服從的命令／指令」是「command — order」的用法，與本句語境不同。",
-        "command-mcq-05": "「處於掌權、負責或指揮的位置」是「in command」的用法，與本句語境不同。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。"
+        "command-mcq-03": "本句的「commanded that the gates be closed」指「以權威命令某人做某事」。",
+        "command-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-03"
     },
@@ -819,11 +783,9 @@ export default {
       "masked": "The judge ____.",
       "options": [
         "command-mcq-03",
-        "command-mcq-02",
-        "command-mcq-04",
-        "command-mcq-01",
-        "command-mcq-05",
-        "command-mcq-06"
+        "command-mcq-11",
+        "command-mcq-22",
+        "command-mcq-14"
       ],
       "explanation": "本句的「commanded that the prisoner remain silent」指「以權威命令某人做某事」。",
       "sentenceIndex": 9,
@@ -832,12 +794,10 @@ export default {
         "commanded that the prisoner remain silent"
       ],
       "optionReasons": {
-        "command-mcq-03": "本句指「以權威命令某人做某事」。",
-        "command-mcq-02": "「正式下達命令或發出指令」是「give/issue a command」的用法，與本句語境不同。",
-        "command-mcq-04": "「對人員、單位或行動所擁有的指揮權／控制權」是「command — authority/control」的用法，與本句語境不同。",
-        "command-mcq-01": "「由有權力者發出的、預期他人服從的命令／指令」是「command — order」的用法，與本句語境不同。",
-        "command-mcq-05": "「處於掌權、負責或指揮的位置」是「in command」的用法，與本句語境不同。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。"
+        "command-mcq-03": "本句的「commanded that the prisoner remain silent」指「以權威命令某人做某事」。",
+        "command-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-03"
     },
@@ -849,11 +809,9 @@ export default {
       "masked": "She was given ____.",
       "options": [
         "command-mcq-04",
-        "command-mcq-03",
-        "command-mcq-05",
-        "command-mcq-02",
-        "command-mcq-06",
-        "command-mcq-01"
+        "command-mcq-07",
+        "command-mcq-13",
+        "command-mcq-14"
       ],
       "explanation": "本句的「command of the unit」指「對人員、單位或行動所擁有的指揮權／控制權」。",
       "sentenceIndex": 10,
@@ -862,12 +820,10 @@ export default {
         "command of the unit"
       ],
       "optionReasons": {
-        "command-mcq-04": "本句指「對人員、單位或行動所擁有的指揮權／控制權」。",
-        "command-mcq-03": "「以權威命令某人做某事」是「command someone to do something」的用法，與本句語境不同。",
-        "command-mcq-05": "「處於掌權、負責或指揮的位置」是「in command」的用法，與本句語境不同。",
-        "command-mcq-02": "「正式下達命令或發出指令」是「give/issue a command」的用法，與本句語境不同。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。",
-        "command-mcq-01": "「由有權力者發出的、預期他人服從的命令／指令」是「command — order」的用法，與本句語境不同。"
+        "command-mcq-04": "本句的「command of the unit」指「對人員、單位或行動所擁有的指揮權／控制權」。",
+        "command-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-04"
     },
@@ -879,11 +835,9 @@ export default {
       "masked": "He remained in ____ throughout the operation.",
       "options": [
         "command-mcq-04",
-        "command-mcq-03",
-        "command-mcq-05",
-        "command-mcq-02",
-        "command-mcq-06",
-        "command-mcq-01"
+        "command-mcq-07",
+        "command-mcq-13",
+        "command-mcq-14"
       ],
       "explanation": "本句的「command」指「對人員、單位或行動所擁有的指揮權／控制權」。",
       "sentenceIndex": 11,
@@ -892,12 +846,10 @@ export default {
         "command"
       ],
       "optionReasons": {
-        "command-mcq-04": "本句指「對人員、單位或行動所擁有的指揮權／控制權」。",
-        "command-mcq-03": "「以權威命令某人做某事」是「command someone to do something」的用法，與本句語境不同。",
-        "command-mcq-05": "「處於掌權、負責或指揮的位置」是「in command」的用法，與本句語境不同。",
-        "command-mcq-02": "「正式下達命令或發出指令」是「give/issue a command」的用法，與本句語境不同。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。",
-        "command-mcq-01": "「由有權力者發出的、預期他人服從的命令／指令」是「command — order」的用法，與本句語境不同。"
+        "command-mcq-04": "本句的「command」指「對人員、單位或行動所擁有的指揮權／控制權」。",
+        "command-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-04"
     },
@@ -909,10 +861,8 @@ export default {
       "masked": "Who is ____ here?",
       "options": [
         "command-mcq-05",
-        "command-mcq-04",
-        "command-mcq-06",
-        "command-mcq-03",
-        "command-mcq-07",
+        "command-mcq-16",
+        "command-mcq-22",
         "command-mcq-02"
       ],
       "explanation": "本句的「in command」指「處於掌權、負責或指揮的位置」。",
@@ -922,12 +872,10 @@ export default {
         "in command"
       ],
       "optionReasons": {
-        "command-mcq-05": "本句指「處於掌權、負責或指揮的位置」。",
-        "command-mcq-04": "「對人員、單位或行動所擁有的指揮權／控制權」是「command — authority/control」的用法，與本句語境不同。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。",
-        "command-mcq-03": "「以權威命令某人做某事」是「command someone to do something」的用法，與本句語境不同。",
-        "command-mcq-07": "「對某個學科、技能或知識領域有深入掌握與熟練運用能力」是「command of something — mastery」的用法，與本句語境不同。",
-        "command-mcq-02": "「正式下達命令或發出指令」是「give/issue a command」的用法，與本句語境不同。"
+        "command-mcq-05": "本句的「in command」指「處於掌權、負責或指揮的位置」。",
+        "command-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-05"
     },
@@ -939,10 +887,8 @@ export default {
       "masked": "She stayed calm because she was clearly ____ of the situation.",
       "options": [
         "command-mcq-05",
-        "command-mcq-04",
-        "command-mcq-06",
-        "command-mcq-03",
-        "command-mcq-07",
+        "command-mcq-15",
+        "command-mcq-08",
         "command-mcq-02"
       ],
       "explanation": "本句的「in command」指「處於掌權、負責或指揮的位置」。",
@@ -952,12 +898,10 @@ export default {
         "in command"
       ],
       "optionReasons": {
-        "command-mcq-05": "本句指「處於掌權、負責或指揮的位置」。",
-        "command-mcq-04": "「對人員、單位或行動所擁有的指揮權／控制權」是「command — authority/control」的用法，與本句語境不同。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。",
-        "command-mcq-03": "「以權威命令某人做某事」是「command someone to do something」的用法，與本句語境不同。",
-        "command-mcq-07": "「對某個學科、技能或知識領域有深入掌握與熟練運用能力」是「command of something — mastery」的用法，與本句語境不同。",
-        "command-mcq-02": "「正式下達命令或發出指令」是「give/issue a command」的用法，與本句語境不同。"
+        "command-mcq-05": "本句的「in command」指「處於掌權、負責或指揮的位置」。",
+        "command-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-05"
     },
@@ -969,11 +913,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "command-mcq-06",
-        "command-mcq-05",
-        "command-mcq-07",
-        "command-mcq-04",
-        "command-mcq-08",
-        "command-mcq-03"
+        "command-mcq-13",
+        "command-mcq-14",
+        "command-mcq-08"
       ],
       "explanation": "本句的「took command of the team」指「接掌控制或領導權」。",
       "sentenceIndex": 14,
@@ -982,12 +924,10 @@ export default {
         "took command of the team"
       ],
       "optionReasons": {
-        "command-mcq-06": "本句指「接掌控制或領導權」。",
-        "command-mcq-05": "「處於掌權、負責或指揮的位置」是「in command」的用法，與本句語境不同。",
-        "command-mcq-07": "「對某個學科、技能或知識領域有深入掌握與熟練運用能力」是「command of something — mastery」的用法，與本句語境不同。",
-        "command-mcq-04": "「對人員、單位或行動所擁有的指揮權／控制權」是「command — authority/control」的用法，與本句語境不同。",
-        "command-mcq-08": "「準確、流暢且有效使用某語言的能力」是「command of a language」的用法，與本句語境不同。",
-        "command-mcq-03": "「以權威命令某人做某事」是「command someone to do something」的用法，與本句語境不同。"
+        "command-mcq-06": "本句的「took command of the team」指「接掌控制或領導權」。",
+        "command-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-06"
     },
@@ -999,11 +939,9 @@ export default {
       "masked": "A senior officer ____ after the emergency began.",
       "options": [
         "command-mcq-06",
-        "command-mcq-05",
-        "command-mcq-07",
-        "command-mcq-04",
-        "command-mcq-08",
-        "command-mcq-03"
+        "command-mcq-18",
+        "command-mcq-17",
+        "command-mcq-20"
       ],
       "explanation": "本句的「took command」指「接掌控制或領導權」。",
       "sentenceIndex": 15,
@@ -1012,12 +950,10 @@ export default {
         "took command"
       ],
       "optionReasons": {
-        "command-mcq-06": "本句指「接掌控制或領導權」。",
-        "command-mcq-05": "「處於掌權、負責或指揮的位置」是「in command」的用法，與本句語境不同。",
-        "command-mcq-07": "「對某個學科、技能或知識領域有深入掌握與熟練運用能力」是「command of something — mastery」的用法，與本句語境不同。",
-        "command-mcq-04": "「對人員、單位或行動所擁有的指揮權／控制權」是「command — authority/control」的用法，與本句語境不同。",
-        "command-mcq-08": "「準確、流暢且有效使用某語言的能力」是「command of a language」的用法，與本句語境不同。",
-        "command-mcq-03": "「以權威命令某人做某事」是「command someone to do something」的用法，與本句語境不同。"
+        "command-mcq-06": "本句的「took command」指「接掌控制或領導權」。",
+        "command-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-06"
     },
@@ -1029,11 +965,9 @@ export default {
       "masked": "She has a strong ____.",
       "options": [
         "command-mcq-07",
-        "command-mcq-06",
-        "command-mcq-08",
-        "command-mcq-05",
-        "command-mcq-09",
-        "command-mcq-04"
+        "command-mcq-02",
+        "command-mcq-04",
+        "command-mcq-14"
       ],
       "explanation": "本句的「command of mathematics」指「對某個學科、技能或知識領域有深入掌握與熟練運用能力」。",
       "sentenceIndex": 16,
@@ -1042,12 +976,10 @@ export default {
         "command of mathematics"
       ],
       "optionReasons": {
-        "command-mcq-07": "本句指「對某個學科、技能或知識領域有深入掌握與熟練運用能力」。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。",
-        "command-mcq-08": "「準確、流暢且有效使用某語言的能力」是「command of a language」的用法，與本句語境不同。",
-        "command-mcq-05": "「處於掌權、負責或指揮的位置」是「in command」的用法，與本句語境不同。",
-        "command-mcq-09": "「對某項技能、語言或知識有良好／深入掌握」是「good/strong command of」的用法，與本句語境不同。",
-        "command-mcq-04": "「對人員、單位或行動所擁有的指揮權／控制權」是「command — authority/control」的用法，與本句語境不同。"
+        "command-mcq-07": "本句的「command of mathematics」指「對某個學科、技能或知識領域有深入掌握與熟練運用能力」。",
+        "command-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-07"
     },
@@ -1059,11 +991,9 @@ export default {
       "masked": "His ____ impressed the students.",
       "options": [
         "command-mcq-07",
-        "command-mcq-06",
-        "command-mcq-08",
-        "command-mcq-05",
-        "command-mcq-09",
-        "command-mcq-04"
+        "command-mcq-20",
+        "command-mcq-14",
+        "command-mcq-18"
       ],
       "explanation": "本句的「command of the subject」指「對某個學科、技能或知識領域有深入掌握與熟練運用能力」。",
       "sentenceIndex": 17,
@@ -1072,12 +1002,10 @@ export default {
         "command of the subject"
       ],
       "optionReasons": {
-        "command-mcq-07": "本句指「對某個學科、技能或知識領域有深入掌握與熟練運用能力」。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。",
-        "command-mcq-08": "「準確、流暢且有效使用某語言的能力」是「command of a language」的用法，與本句語境不同。",
-        "command-mcq-05": "「處於掌權、負責或指揮的位置」是「in command」的用法，與本句語境不同。",
-        "command-mcq-09": "「對某項技能、語言或知識有良好／深入掌握」是「good/strong command of」的用法，與本句語境不同。",
-        "command-mcq-04": "「對人員、單位或行動所擁有的指揮權／控制權」是「command — authority/control」的用法，與本句語境不同。"
+        "command-mcq-07": "本句的「command of the subject」指「對某個學科、技能或知識領域有深入掌握與熟練運用能力」。",
+        "command-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-07"
     },
@@ -1089,11 +1017,9 @@ export default {
       "masked": "She has an excellent ____.",
       "options": [
         "command-mcq-08",
-        "command-mcq-07",
-        "command-mcq-09",
-        "command-mcq-06",
-        "command-mcq-10",
-        "command-mcq-05"
+        "command-mcq-02",
+        "command-mcq-05",
+        "command-mcq-18"
       ],
       "explanation": "本句的「command of English」指「準確、流暢且有效使用某語言的能力」。",
       "sentenceIndex": 18,
@@ -1102,12 +1028,10 @@ export default {
         "command of English"
       ],
       "optionReasons": {
-        "command-mcq-08": "本句指「準確、流暢且有效使用某語言的能力」。",
-        "command-mcq-07": "「對某個學科、技能或知識領域有深入掌握與熟練運用能力」是「command of something — mastery」的用法，與本句語境不同。",
-        "command-mcq-09": "「對某項技能、語言或知識有良好／深入掌握」是「good/strong command of」的用法，與本句語境不同。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。",
-        "command-mcq-10": "「有效掌控、管理某個局面的能力」是「command of a situation」的用法，與本句語境不同。",
-        "command-mcq-05": "「處於掌權、負責或指揮的位置」是「in command」的用法，與本句語境不同。"
+        "command-mcq-08": "本句的「command of English」指「準確、流暢且有效使用某語言的能力」。",
+        "command-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-08"
     },
@@ -1119,11 +1043,9 @@ export default {
       "masked": "His ____ is impressive.",
       "options": [
         "command-mcq-08",
-        "command-mcq-07",
-        "command-mcq-09",
-        "command-mcq-06",
-        "command-mcq-10",
-        "command-mcq-05"
+        "command-mcq-13",
+        "command-mcq-20",
+        "command-mcq-06"
       ],
       "explanation": "本句的「command of written English」指「準確、流暢且有效使用某語言的能力」。",
       "sentenceIndex": 19,
@@ -1132,12 +1054,10 @@ export default {
         "command of written English"
       ],
       "optionReasons": {
-        "command-mcq-08": "本句指「準確、流暢且有效使用某語言的能力」。",
-        "command-mcq-07": "「對某個學科、技能或知識領域有深入掌握與熟練運用能力」是「command of something — mastery」的用法，與本句語境不同。",
-        "command-mcq-09": "「對某項技能、語言或知識有良好／深入掌握」是「good/strong command of」的用法，與本句語境不同。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。",
-        "command-mcq-10": "「有效掌控、管理某個局面的能力」是「command of a situation」的用法，與本句語境不同。",
-        "command-mcq-05": "「處於掌權、負責或指揮的位置」是「in command」的用法，與本句語境不同。"
+        "command-mcq-08": "本句的「command of written English」指「準確、流暢且有效使用某語言的能力」。",
+        "command-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-08"
     },
@@ -1149,11 +1069,9 @@ export default {
       "masked": "Applicants need a ____.",
       "options": [
         "command-mcq-09",
-        "command-mcq-08",
-        "command-mcq-10",
-        "command-mcq-07",
-        "command-mcq-11",
-        "command-mcq-06"
+        "command-mcq-19",
+        "command-mcq-14",
+        "command-mcq-02"
       ],
       "explanation": "本句的「good command of English」指「對某項技能、語言或知識有良好／深入掌握」。",
       "sentenceIndex": 20,
@@ -1162,12 +1080,10 @@ export default {
         "good command of English"
       ],
       "optionReasons": {
-        "command-mcq-09": "本句指「對某項技能、語言或知識有良好／深入掌握」。",
-        "command-mcq-08": "「準確、流暢且有效使用某語言的能力」是「command of a language」的用法，與本句語境不同。",
-        "command-mcq-10": "「有效掌控、管理某個局面的能力」是「command of a situation」的用法，與本句語境不同。",
-        "command-mcq-07": "「對某個學科、技能或知識領域有深入掌握與熟練運用能力」是「command of something — mastery」的用法，與本句語境不同。",
-        "command-mcq-11": "「由特定指揮官領導的軍事單位／指揮部」是「command — military unit」的用法，與本句語境不同。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。"
+        "command-mcq-09": "本句的「good command of English」指「對某項技能、語言或知識有良好／深入掌握」。",
+        "command-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-09"
     },
@@ -1179,11 +1095,9 @@ export default {
       "masked": "She has a ____.",
       "options": [
         "command-mcq-09",
-        "command-mcq-08",
-        "command-mcq-10",
-        "command-mcq-07",
-        "command-mcq-11",
-        "command-mcq-06"
+        "command-mcq-12",
+        "command-mcq-15",
+        "command-mcq-14"
       ],
       "explanation": "本句的「strong command of scientific vocabulary」指「對某項技能、語言或知識有良好／深入掌握」。",
       "sentenceIndex": 21,
@@ -1192,12 +1106,10 @@ export default {
         "strong command of scientific vocabulary"
       ],
       "optionReasons": {
-        "command-mcq-09": "本句指「對某項技能、語言或知識有良好／深入掌握」。",
-        "command-mcq-08": "「準確、流暢且有效使用某語言的能力」是「command of a language」的用法，與本句語境不同。",
-        "command-mcq-10": "「有效掌控、管理某個局面的能力」是「command of a situation」的用法，與本句語境不同。",
-        "command-mcq-07": "「對某個學科、技能或知識領域有深入掌握與熟練運用能力」是「command of something — mastery」的用法，與本句語境不同。",
-        "command-mcq-11": "「由特定指揮官領導的軍事單位／指揮部」是「command — military unit」的用法，與本句語境不同。",
-        "command-mcq-06": "「接掌控制或領導權」是「take command」的用法，與本句語境不同。"
+        "command-mcq-09": "本句的「strong command of scientific vocabulary」指「對某項技能、語言或知識有良好／深入掌握」。",
+        "command-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-09"
     },
@@ -1209,11 +1121,9 @@ export default {
       "masked": "He struggled to maintain ____.",
       "options": [
         "command-mcq-10",
-        "command-mcq-09",
-        "command-mcq-11",
-        "command-mcq-08",
-        "command-mcq-12",
-        "command-mcq-07"
+        "command-mcq-19",
+        "command-mcq-14",
+        "command-mcq-13"
       ],
       "explanation": "本句的「command of himself」指「有效掌控、管理某個局面的能力」。",
       "sentenceIndex": 22,
@@ -1222,12 +1132,10 @@ export default {
         "command of himself"
       ],
       "optionReasons": {
-        "command-mcq-10": "本句指「有效掌控、管理某個局面的能力」。",
-        "command-mcq-09": "「對某項技能、語言或知識有良好／深入掌握」是「good/strong command of」的用法，與本句語境不同。",
-        "command-mcq-11": "「由特定指揮官領導的軍事單位／指揮部」是「command — military unit」的用法，與本句語境不同。",
-        "command-mcq-08": "「準確、流暢且有效使用某語言的能力」是「command of a language」的用法，與本句語境不同。",
-        "command-mcq-12": "「給電腦、程式或系統執行的指令」是「command — computing」的用法，與本句語境不同。",
-        "command-mcq-07": "「對某個學科、技能或知識領域有深入掌握與熟練運用能力」是「command of something — mastery」的用法，與本句語境不同。"
+        "command-mcq-10": "本句的「command of himself」指「有效掌控、管理某個局面的能力」。",
+        "command-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-10"
     },
@@ -1239,11 +1147,9 @@ export default {
       "masked": "She never lost ____ during the argument.",
       "options": [
         "command-mcq-10",
-        "command-mcq-09",
-        "command-mcq-11",
-        "command-mcq-08",
-        "command-mcq-12",
-        "command-mcq-07"
+        "command-mcq-20",
+        "command-mcq-18",
+        "command-mcq-02"
       ],
       "explanation": "本句的「command of herself」指「有效掌控、管理某個局面的能力」。",
       "sentenceIndex": 23,
@@ -1252,12 +1158,10 @@ export default {
         "command of herself"
       ],
       "optionReasons": {
-        "command-mcq-10": "本句指「有效掌控、管理某個局面的能力」。",
-        "command-mcq-09": "「對某項技能、語言或知識有良好／深入掌握」是「good/strong command of」的用法，與本句語境不同。",
-        "command-mcq-11": "「由特定指揮官領導的軍事單位／指揮部」是「command — military unit」的用法，與本句語境不同。",
-        "command-mcq-08": "「準確、流暢且有效使用某語言的能力」是「command of a language」的用法，與本句語境不同。",
-        "command-mcq-12": "「給電腦、程式或系統執行的指令」是「command — computing」的用法，與本句語境不同。",
-        "command-mcq-07": "「對某個學科、技能或知識領域有深入掌握與熟練運用能力」是「command of something — mastery」的用法，與本句語境不同。"
+        "command-mcq-10": "本句的「command of herself」指「有效掌控、管理某個局面的能力」。",
+        "command-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-10"
     },
@@ -1269,11 +1173,9 @@ export default {
       "masked": "She showed complete ____.",
       "options": [
         "command-mcq-10",
-        "command-mcq-09",
-        "command-mcq-11",
-        "command-mcq-08",
-        "command-mcq-12",
-        "command-mcq-07"
+        "command-mcq-20",
+        "command-mcq-15",
+        "command-mcq-02"
       ],
       "explanation": "本句的「command of the situation」指「有效掌控、管理某個局面的能力」。",
       "sentenceIndex": 24,
@@ -1282,12 +1184,10 @@ export default {
         "command of the situation"
       ],
       "optionReasons": {
-        "command-mcq-10": "本句指「有效掌控、管理某個局面的能力」。",
-        "command-mcq-09": "「對某項技能、語言或知識有良好／深入掌握」是「good/strong command of」的用法，與本句語境不同。",
-        "command-mcq-11": "「由特定指揮官領導的軍事單位／指揮部」是「command — military unit」的用法，與本句語境不同。",
-        "command-mcq-08": "「準確、流暢且有效使用某語言的能力」是「command of a language」的用法，與本句語境不同。",
-        "command-mcq-12": "「給電腦、程式或系統執行的指令」是「command — computing」的用法，與本句語境不同。",
-        "command-mcq-07": "「對某個學科、技能或知識領域有深入掌握與熟練運用能力」是「command of something — mastery」的用法，與本句語境不同。"
+        "command-mcq-10": "本句的「command of the situation」指「有效掌控、管理某個局面的能力」。",
+        "command-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-10"
     },
@@ -1299,11 +1199,9 @@ export default {
       "masked": "Good leaders keep ____ under pressure.",
       "options": [
         "command-mcq-10",
-        "command-mcq-09",
+        "command-mcq-13",
         "command-mcq-11",
-        "command-mcq-08",
-        "command-mcq-12",
-        "command-mcq-07"
+        "command-mcq-18"
       ],
       "explanation": "本句的「command of the situation」指「有效掌控、管理某個局面的能力」。",
       "sentenceIndex": 25,
@@ -1312,12 +1210,10 @@ export default {
         "command of the situation"
       ],
       "optionReasons": {
-        "command-mcq-10": "本句指「有效掌控、管理某個局面的能力」。",
-        "command-mcq-09": "「對某項技能、語言或知識有良好／深入掌握」是「good/strong command of」的用法，與本句語境不同。",
-        "command-mcq-11": "「由特定指揮官領導的軍事單位／指揮部」是「command — military unit」的用法，與本句語境不同。",
-        "command-mcq-08": "「準確、流暢且有效使用某語言的能力」是「command of a language」的用法，與本句語境不同。",
-        "command-mcq-12": "「給電腦、程式或系統執行的指令」是「command — computing」的用法，與本句語境不同。",
-        "command-mcq-07": "「對某個學科、技能或知識領域有深入掌握與熟練運用能力」是「command of something — mastery」的用法，與本句語境不同。"
+        "command-mcq-10": "本句的「command of the situation」指「有效掌控、管理某個局面的能力」。",
+        "command-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-10"
     },
@@ -1329,11 +1225,9 @@ export default {
       "masked": "He was transferred to a different ____.",
       "options": [
         "command-mcq-11",
-        "command-mcq-10",
-        "command-mcq-12",
-        "command-mcq-09",
-        "command-mcq-13",
-        "command-mcq-08"
+        "command-mcq-17",
+        "command-mcq-22",
+        "command-mcq-18"
       ],
       "explanation": "本句的「command」指「由特定指揮官領導的軍事單位／指揮部」。",
       "sentenceIndex": 26,
@@ -1342,12 +1236,10 @@ export default {
         "command"
       ],
       "optionReasons": {
-        "command-mcq-11": "本句指「由特定指揮官領導的軍事單位／指揮部」。",
-        "command-mcq-10": "「有效掌控、管理某個局面的能力」是「command of a situation」的用法，與本句語境不同。",
-        "command-mcq-12": "「給電腦、程式或系統執行的指令」是「command — computing」的用法，與本句語境不同。",
-        "command-mcq-09": "「對某項技能、語言或知識有良好／深入掌握」是「good/strong command of」的用法，與本句語境不同。",
-        "command-mcq-13": "「讓使用者輸入文字指令的命令列介面」是「command line」的用法，與本句語境不同。",
-        "command-mcq-08": "「準確、流暢且有效使用某語言的能力」是「command of a language」的用法，與本句語境不同。"
+        "command-mcq-11": "本句的「command」指「由特定指揮官領導的軍事單位／指揮部」。",
+        "command-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-11"
     },
@@ -1359,11 +1251,9 @@ export default {
       "masked": "The regional ____ issued a statement.",
       "options": [
         "command-mcq-11",
-        "command-mcq-10",
-        "command-mcq-12",
-        "command-mcq-09",
-        "command-mcq-13",
-        "command-mcq-08"
+        "command-mcq-03",
+        "command-mcq-22",
+        "command-mcq-12"
       ],
       "explanation": "本句的「command」指「由特定指揮官領導的軍事單位／指揮部」。",
       "sentenceIndex": 27,
@@ -1372,12 +1262,10 @@ export default {
         "command"
       ],
       "optionReasons": {
-        "command-mcq-11": "本句指「由特定指揮官領導的軍事單位／指揮部」。",
-        "command-mcq-10": "「有效掌控、管理某個局面的能力」是「command of a situation」的用法，與本句語境不同。",
-        "command-mcq-12": "「給電腦、程式或系統執行的指令」是「command — computing」的用法，與本句語境不同。",
-        "command-mcq-09": "「對某項技能、語言或知識有良好／深入掌握」是「good/strong command of」的用法，與本句語境不同。",
-        "command-mcq-13": "「讓使用者輸入文字指令的命令列介面」是「command line」的用法，與本句語境不同。",
-        "command-mcq-08": "「準確、流暢且有效使用某語言的能力」是「command of a language」的用法，與本句語境不同。"
+        "command-mcq-11": "本句的「command」指「由特定指揮官領導的軍事單位／指揮部」。",
+        "command-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-11"
     },
@@ -1389,11 +1277,9 @@ export default {
       "masked": "The decision came from ____.",
       "options": [
         "command-mcq-11",
-        "command-mcq-10",
-        "command-mcq-12",
         "command-mcq-09",
-        "command-mcq-13",
-        "command-mcq-08"
+        "command-mcq-15",
+        "command-mcq-02"
       ],
       "explanation": "本句的「high command」指「由特定指揮官領導的軍事單位／指揮部」。",
       "sentenceIndex": 28,
@@ -1402,12 +1288,10 @@ export default {
         "high command"
       ],
       "optionReasons": {
-        "command-mcq-11": "本句指「由特定指揮官領導的軍事單位／指揮部」。",
-        "command-mcq-10": "「有效掌控、管理某個局面的能力」是「command of a situation」的用法，與本句語境不同。",
-        "command-mcq-12": "「給電腦、程式或系統執行的指令」是「command — computing」的用法，與本句語境不同。",
-        "command-mcq-09": "「對某項技能、語言或知識有良好／深入掌握」是「good/strong command of」的用法，與本句語境不同。",
-        "command-mcq-13": "「讓使用者輸入文字指令的命令列介面」是「command line」的用法，與本句語境不同。",
-        "command-mcq-08": "「準確、流暢且有效使用某語言的能力」是「command of a language」的用法，與本句語境不同。"
+        "command-mcq-11": "本句的「high command」指「由特定指揮官領導的軍事單位／指揮部」。",
+        "command-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-11"
     },
@@ -1419,11 +1303,9 @@ export default {
       "masked": "____ approved the operation.",
       "options": [
         "command-mcq-11",
-        "command-mcq-10",
-        "command-mcq-12",
         "command-mcq-09",
-        "command-mcq-13",
-        "command-mcq-08"
+        "command-mcq-15",
+        "command-mcq-12"
       ],
       "explanation": "本句的「High command」指「由特定指揮官領導的軍事單位／指揮部」。",
       "sentenceIndex": 29,
@@ -1432,12 +1314,10 @@ export default {
         "High command"
       ],
       "optionReasons": {
-        "command-mcq-11": "本句指「由特定指揮官領導的軍事單位／指揮部」。",
-        "command-mcq-10": "「有效掌控、管理某個局面的能力」是「command of a situation」的用法，與本句語境不同。",
-        "command-mcq-12": "「給電腦、程式或系統執行的指令」是「command — computing」的用法，與本句語境不同。",
-        "command-mcq-09": "「對某項技能、語言或知識有良好／深入掌握」是「good/strong command of」的用法，與本句語境不同。",
-        "command-mcq-13": "「讓使用者輸入文字指令的命令列介面」是「command line」的用法，與本句語境不同。",
-        "command-mcq-08": "「準確、流暢且有效使用某語言的能力」是「command of a language」的用法，與本句語境不同。"
+        "command-mcq-11": "本句的「High command」指「由特定指揮官領導的軍事單位／指揮部」。",
+        "command-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-11"
     },
@@ -1449,11 +1329,9 @@ export default {
       "masked": "Enter the ____ in the terminal.",
       "options": [
         "command-mcq-12",
-        "command-mcq-11",
-        "command-mcq-13",
-        "command-mcq-10",
+        "command-mcq-06",
         "command-mcq-14",
-        "command-mcq-09"
+        "command-mcq-17"
       ],
       "explanation": "本句的「command」指「給電腦、程式或系統執行的指令」。",
       "sentenceIndex": 30,
@@ -1462,12 +1340,10 @@ export default {
         "command"
       ],
       "optionReasons": {
-        "command-mcq-12": "本句指「給電腦、程式或系統執行的指令」。",
-        "command-mcq-11": "「由特定指揮官領導的軍事單位／指揮部」是「command — military unit」的用法，與本句語境不同。",
-        "command-mcq-13": "「讓使用者輸入文字指令的命令列介面」是「command line」的用法，與本句語境不同。",
-        "command-mcq-10": "「有效掌控、管理某個局面的能力」是「command of a situation」的用法，與本句語境不同。",
-        "command-mcq-14": "「位於可俯瞰廣大景色的位置」是「command a view」的用法，與本句語境不同。",
-        "command-mcq-09": "「對某項技能、語言或知識有良好／深入掌握」是「good/strong command of」的用法，與本句語境不同。"
+        "command-mcq-12": "本句的「command」指「給電腦、程式或系統執行的指令」。",
+        "command-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-12"
     },
@@ -1479,11 +1355,9 @@ export default {
       "masked": "The program did not recognize the ____.",
       "options": [
         "command-mcq-12",
-        "command-mcq-11",
-        "command-mcq-13",
-        "command-mcq-10",
+        "command-mcq-17",
         "command-mcq-14",
-        "command-mcq-09"
+        "command-mcq-18"
       ],
       "explanation": "本句的「command」指「給電腦、程式或系統執行的指令」。",
       "sentenceIndex": 31,
@@ -1492,12 +1366,10 @@ export default {
         "command"
       ],
       "optionReasons": {
-        "command-mcq-12": "本句指「給電腦、程式或系統執行的指令」。",
-        "command-mcq-11": "「由特定指揮官領導的軍事單位／指揮部」是「command — military unit」的用法，與本句語境不同。",
-        "command-mcq-13": "「讓使用者輸入文字指令的命令列介面」是「command line」的用法，與本句語境不同。",
-        "command-mcq-10": "「有效掌控、管理某個局面的能力」是「command of a situation」的用法，與本句語境不同。",
-        "command-mcq-14": "「位於可俯瞰廣大景色的位置」是「command a view」的用法，與本句語境不同。",
-        "command-mcq-09": "「對某項技能、語言或知識有良好／深入掌握」是「good/strong command of」的用法，與本句語境不同。"
+        "command-mcq-12": "本句的「command」指「給電腦、程式或系統執行的指令」。",
+        "command-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-12"
     },
@@ -1509,11 +1381,9 @@ export default {
       "masked": "Open the ____.",
       "options": [
         "command-mcq-13",
-        "command-mcq-12",
         "command-mcq-14",
-        "command-mcq-11",
-        "command-mcq-15",
-        "command-mcq-10"
+        "command-mcq-10",
+        "command-mcq-15"
       ],
       "explanation": "本句的「command line」指「讓使用者輸入文字指令的命令列介面」。",
       "sentenceIndex": 32,
@@ -1522,12 +1392,10 @@ export default {
         "command line"
       ],
       "optionReasons": {
-        "command-mcq-13": "本句指「讓使用者輸入文字指令的命令列介面」。",
-        "command-mcq-12": "「給電腦、程式或系統執行的指令」是「command — computing」的用法，與本句語境不同。",
-        "command-mcq-14": "「位於可俯瞰廣大景色的位置」是「command a view」的用法，與本句語境不同。",
-        "command-mcq-11": "「由特定指揮官領導的軍事單位／指揮部」是「command — military unit」的用法，與本句語境不同。",
-        "command-mcq-15": "「自然讓他人產生尊重／敬意」是「command respect」的用法，與本句語境不同。",
-        "command-mcq-10": "「有效掌控、管理某個局面的能力」是「command of a situation」的用法，與本句語境不同。"
+        "command-mcq-13": "本句的「command line」指「讓使用者輸入文字指令的命令列介面」。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-13"
     },
@@ -1539,11 +1407,9 @@ export default {
       "masked": "Developers often use ____.",
       "options": [
         "command-mcq-13",
-        "command-mcq-12",
+        "command-mcq-18",
         "command-mcq-14",
-        "command-mcq-11",
-        "command-mcq-15",
-        "command-mcq-10"
+        "command-mcq-21"
       ],
       "explanation": "本句的「command-line tools」指「讓使用者輸入文字指令的命令列介面」。",
       "sentenceIndex": 33,
@@ -1552,12 +1418,10 @@ export default {
         "command-line tools"
       ],
       "optionReasons": {
-        "command-mcq-13": "本句指「讓使用者輸入文字指令的命令列介面」。",
-        "command-mcq-12": "「給電腦、程式或系統執行的指令」是「command — computing」的用法，與本句語境不同。",
-        "command-mcq-14": "「位於可俯瞰廣大景色的位置」是「command a view」的用法，與本句語境不同。",
-        "command-mcq-11": "「由特定指揮官領導的軍事單位／指揮部」是「command — military unit」的用法，與本句語境不同。",
-        "command-mcq-15": "「自然讓他人產生尊重／敬意」是「command respect」的用法，與本句語境不同。",
-        "command-mcq-10": "「有效掌控、管理某個局面的能力」是「command of a situation」的用法，與本句語境不同。"
+        "command-mcq-13": "本句的「command-line tools」指「讓使用者輸入文字指令的命令列介面」。",
+        "command-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-13"
     },
@@ -1569,11 +1433,9 @@ export default {
       "masked": "Type the command at the ____.",
       "options": [
         "command-mcq-13",
-        "command-mcq-12",
-        "command-mcq-14",
-        "command-mcq-11",
-        "command-mcq-15",
-        "command-mcq-10"
+        "command-mcq-21",
+        "command-mcq-18",
+        "command-mcq-06"
       ],
       "explanation": "本句的「command prompt」指「讓使用者輸入文字指令的命令列介面」。",
       "sentenceIndex": 34,
@@ -1582,12 +1444,10 @@ export default {
         "command prompt"
       ],
       "optionReasons": {
-        "command-mcq-13": "本句指「讓使用者輸入文字指令的命令列介面」。",
-        "command-mcq-12": "「給電腦、程式或系統執行的指令」是「command — computing」的用法，與本句語境不同。",
-        "command-mcq-14": "「位於可俯瞰廣大景色的位置」是「command a view」的用法，與本句語境不同。",
-        "command-mcq-11": "「由特定指揮官領導的軍事單位／指揮部」是「command — military unit」的用法，與本句語境不同。",
-        "command-mcq-15": "「自然讓他人產生尊重／敬意」是「command respect」的用法，與本句語境不同。",
-        "command-mcq-10": "「有效掌控、管理某個局面的能力」是「command of a situation」的用法，與本句語境不同。"
+        "command-mcq-13": "本句的「command prompt」指「讓使用者輸入文字指令的命令列介面」。",
+        "command-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-13"
     },
@@ -1599,11 +1459,9 @@ export default {
       "masked": "The ____ opened in a new window.",
       "options": [
         "command-mcq-13",
-        "command-mcq-12",
-        "command-mcq-14",
-        "command-mcq-11",
-        "command-mcq-15",
-        "command-mcq-10"
+        "command-mcq-18",
+        "command-mcq-17",
+        "command-mcq-14"
       ],
       "explanation": "本句的「command prompt」指「讓使用者輸入文字指令的命令列介面」。",
       "sentenceIndex": 35,
@@ -1612,12 +1470,10 @@ export default {
         "command prompt"
       ],
       "optionReasons": {
-        "command-mcq-13": "本句指「讓使用者輸入文字指令的命令列介面」。",
-        "command-mcq-12": "「給電腦、程式或系統執行的指令」是「command — computing」的用法，與本句語境不同。",
-        "command-mcq-14": "「位於可俯瞰廣大景色的位置」是「command a view」的用法，與本句語境不同。",
-        "command-mcq-11": "「由特定指揮官領導的軍事單位／指揮部」是「command — military unit」的用法，與本句語境不同。",
-        "command-mcq-15": "「自然讓他人產生尊重／敬意」是「command respect」的用法，與本句語境不同。",
-        "command-mcq-10": "「有效掌控、管理某個局面的能力」是「command of a situation」的用法，與本句語境不同。"
+        "command-mcq-13": "本句的「command prompt」指「讓使用者輸入文字指令的命令列介面」。",
+        "command-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-13"
     },
@@ -1629,11 +1485,9 @@ export default {
       "masked": "She spoke in a ____.",
       "options": [
         "command-mcq-21",
-        "command-mcq-20",
-        "command-mcq-22",
         "command-mcq-19",
-        "command-mcq-18",
-        "command-mcq-17"
+        "command-mcq-13",
+        "command-mcq-22"
       ],
       "explanation": "本句的「commanding voice」指「具有權威、氣勢或強大存在感的」。",
       "sentenceIndex": 36,
@@ -1642,12 +1496,10 @@ export default {
         "commanding voice"
       ],
       "optionReasons": {
-        "command-mcq-21": "本句指「具有權威、氣勢或強大存在感的」。",
-        "command-mcq-20": "「負責軍事單位或行動的指揮官」是「commander」的用法，與本句語境不同。",
-        "command-mcq-22": "「對自己教授的科目有非常深入的掌握」是「Passage meaning」的用法，與本句語境不同。",
-        "command-mcq-19": "「在某人的指揮／領導之下」是「under someone’s command」的用法，與本句語境不同。",
-        "command-mcq-18": "「可供某人支配、使用或調度」是「at someone’s command」的用法，與本句語境不同。",
-        "command-mcq-17": "「因價值、需求或能力高而取得高價／高薪」是「command a high price/salary」的用法，與本句語境不同。"
+        "command-mcq-21": "本句的「commanding voice」指「具有權威、氣勢或強大存在感的」。",
+        "command-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-21"
     },
@@ -1659,11 +1511,9 @@ export default {
       "masked": "He has a ____.",
       "options": [
         "command-mcq-21",
-        "command-mcq-20",
         "command-mcq-22",
-        "command-mcq-19",
-        "command-mcq-18",
-        "command-mcq-17"
+        "command-mcq-13",
+        "command-mcq-19"
       ],
       "explanation": "本句的「commanding presence」指「具有權威、氣勢或強大存在感的」。",
       "sentenceIndex": 37,
@@ -1672,12 +1522,10 @@ export default {
         "commanding presence"
       ],
       "optionReasons": {
-        "command-mcq-21": "本句指「具有權威、氣勢或強大存在感的」。",
-        "command-mcq-20": "「負責軍事單位或行動的指揮官」是「commander」的用法，與本句語境不同。",
-        "command-mcq-22": "「對自己教授的科目有非常深入的掌握」是「Passage meaning」的用法，與本句語境不同。",
-        "command-mcq-19": "「在某人的指揮／領導之下」是「under someone’s command」的用法，與本句語境不同。",
-        "command-mcq-18": "「可供某人支配、使用或調度」是「at someone’s command」的用法，與本句語境不同。",
-        "command-mcq-17": "「因價值、需求或能力高而取得高價／高薪」是「command a high price/salary」的用法，與本句語境不同。"
+        "command-mcq-21": "本句的「commanding presence」指「具有權威、氣勢或強大存在感的」。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-21"
     },
@@ -1689,11 +1537,9 @@ export default {
       "masked": "The hotel ____.",
       "options": [
         "command-mcq-14",
-        "command-mcq-13",
-        "command-mcq-15",
-        "command-mcq-12",
-        "command-mcq-16",
-        "command-mcq-11"
+        "command-mcq-17",
+        "command-mcq-18",
+        "command-mcq-06"
       ],
       "explanation": "本句的「commands a view of the sea」指「位於可俯瞰廣大景色的位置」。",
       "sentenceIndex": 38,
@@ -1702,12 +1548,10 @@ export default {
         "commands a view of the sea"
       ],
       "optionReasons": {
-        "command-mcq-14": "本句指「位於可俯瞰廣大景色的位置」。",
-        "command-mcq-13": "「讓使用者輸入文字指令的命令列介面」是「command line」的用法，與本句語境不同。",
-        "command-mcq-15": "「自然讓他人產生尊重／敬意」是「command respect」的用法，與本句語境不同。",
-        "command-mcq-12": "「給電腦、程式或系統執行的指令」是「command — computing」的用法，與本句語境不同。",
-        "command-mcq-16": "「強烈吸引並保持他人的注意」是「command attention」的用法，與本句語境不同。",
-        "command-mcq-11": "「由特定指揮官領導的軍事單位／指揮部」是「command — military unit」的用法，與本句語境不同。"
+        "command-mcq-14": "本句的「commands a view of the sea」指「位於可俯瞰廣大景色的位置」。",
+        "command-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-14"
     },
@@ -1719,11 +1563,9 @@ export default {
       "masked": "The hilltop ____ of the valley.",
       "options": [
         "command-mcq-14",
-        "command-mcq-13",
+        "command-mcq-10",
         "command-mcq-15",
-        "command-mcq-12",
-        "command-mcq-16",
-        "command-mcq-11"
+        "command-mcq-13"
       ],
       "explanation": "本句的「commands a magnificent view」指「位於可俯瞰廣大景色的位置」。",
       "sentenceIndex": 39,
@@ -1732,12 +1574,10 @@ export default {
         "commands a magnificent view"
       ],
       "optionReasons": {
-        "command-mcq-14": "本句指「位於可俯瞰廣大景色的位置」。",
-        "command-mcq-13": "「讓使用者輸入文字指令的命令列介面」是「command line」的用法，與本句語境不同。",
-        "command-mcq-15": "「自然讓他人產生尊重／敬意」是「command respect」的用法，與本句語境不同。",
-        "command-mcq-12": "「給電腦、程式或系統執行的指令」是「command — computing」的用法，與本句語境不同。",
-        "command-mcq-16": "「強烈吸引並保持他人的注意」是「command attention」的用法，與本句語境不同。",
-        "command-mcq-11": "「由特定指揮官領導的軍事單位／指揮部」是「command — military unit」的用法，與本句語境不同。"
+        "command-mcq-14": "本句的「commands a magnificent view」指「位於可俯瞰廣大景色的位置」。",
+        "command-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-14"
     },
@@ -1749,11 +1589,9 @@ export default {
       "masked": "Her knowledge and humility ____.",
       "options": [
         "command-mcq-15",
-        "command-mcq-14",
-        "command-mcq-16",
-        "command-mcq-13",
-        "command-mcq-17",
-        "command-mcq-12"
+        "command-mcq-02",
+        "command-mcq-09",
+        "command-mcq-06"
       ],
       "explanation": "本句的「command respect」指「自然讓他人產生尊重／敬意」。",
       "sentenceIndex": 40,
@@ -1762,12 +1600,10 @@ export default {
         "command respect"
       ],
       "optionReasons": {
-        "command-mcq-15": "本句指「自然讓他人產生尊重／敬意」。",
-        "command-mcq-14": "「位於可俯瞰廣大景色的位置」是「command a view」的用法，與本句語境不同。",
-        "command-mcq-16": "「強烈吸引並保持他人的注意」是「command attention」的用法，與本句語境不同。",
-        "command-mcq-13": "「讓使用者輸入文字指令的命令列介面」是「command line」的用法，與本句語境不同。",
-        "command-mcq-17": "「因價值、需求或能力高而取得高價／高薪」是「command a high price/salary」的用法，與本句語境不同。",
-        "command-mcq-12": "「給電腦、程式或系統執行的指令」是「command — computing」的用法，與本句語境不同。"
+        "command-mcq-15": "本句的「command respect」指「自然讓他人產生尊重／敬意」。",
+        "command-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-15"
     },
@@ -1779,11 +1615,9 @@ export default {
       "masked": "Good leaders ____ without demanding it.",
       "options": [
         "command-mcq-15",
-        "command-mcq-14",
-        "command-mcq-16",
         "command-mcq-13",
-        "command-mcq-17",
-        "command-mcq-12"
+        "command-mcq-08",
+        "command-mcq-05"
       ],
       "explanation": "本句的「command respect」指「自然讓他人產生尊重／敬意」。",
       "sentenceIndex": 41,
@@ -1792,12 +1626,10 @@ export default {
         "command respect"
       ],
       "optionReasons": {
-        "command-mcq-15": "本句指「自然讓他人產生尊重／敬意」。",
-        "command-mcq-14": "「位於可俯瞰廣大景色的位置」是「command a view」的用法，與本句語境不同。",
-        "command-mcq-16": "「強烈吸引並保持他人的注意」是「command attention」的用法，與本句語境不同。",
-        "command-mcq-13": "「讓使用者輸入文字指令的命令列介面」是「command line」的用法，與本句語境不同。",
-        "command-mcq-17": "「因價值、需求或能力高而取得高價／高薪」是「command a high price/salary」的用法，與本句語境不同。",
-        "command-mcq-12": "「給電腦、程式或系統執行的指令」是「command — computing」的用法，與本句語境不同。"
+        "command-mcq-15": "本句的「command respect」指「自然讓他人產生尊重／敬意」。",
+        "command-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-15"
     },
@@ -1809,11 +1641,9 @@ export default {
       "masked": "Her calm confidence ____.",
       "options": [
         "command-mcq-16",
-        "command-mcq-15",
-        "command-mcq-17",
-        "command-mcq-14",
-        "command-mcq-18",
-        "command-mcq-13"
+        "command-mcq-02",
+        "command-mcq-05",
+        "command-mcq-06"
       ],
       "explanation": "本句的「commanded attention」指「強烈吸引並保持他人的注意」。",
       "sentenceIndex": 42,
@@ -1822,12 +1652,10 @@ export default {
         "commanded attention"
       ],
       "optionReasons": {
-        "command-mcq-16": "本句指「強烈吸引並保持他人的注意」。",
-        "command-mcq-15": "「自然讓他人產生尊重／敬意」是「command respect」的用法，與本句語境不同。",
-        "command-mcq-17": "「因價值、需求或能力高而取得高價／高薪」是「command a high price/salary」的用法，與本句語境不同。",
-        "command-mcq-14": "「位於可俯瞰廣大景色的位置」是「command a view」的用法，與本句語境不同。",
-        "command-mcq-18": "「可供某人支配、使用或調度」是「at someone’s command」的用法，與本句語境不同。",
-        "command-mcq-13": "「讓使用者輸入文字指令的命令列介面」是「command line」的用法，與本句語境不同。"
+        "command-mcq-16": "本句的「commanded attention」指「強烈吸引並保持他人的注意」。",
+        "command-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-16"
     },
@@ -1839,11 +1667,9 @@ export default {
       "masked": "The speaker immediately ____.",
       "options": [
         "command-mcq-16",
-        "command-mcq-15",
-        "command-mcq-17",
-        "command-mcq-14",
-        "command-mcq-18",
-        "command-mcq-13"
+        "command-mcq-12",
+        "command-mcq-11",
+        "command-mcq-22"
       ],
       "explanation": "本句的「commanded the room’s attention」指「強烈吸引並保持他人的注意」。",
       "sentenceIndex": 43,
@@ -1852,12 +1678,10 @@ export default {
         "commanded the room’s attention"
       ],
       "optionReasons": {
-        "command-mcq-16": "本句指「強烈吸引並保持他人的注意」。",
-        "command-mcq-15": "「自然讓他人產生尊重／敬意」是「command respect」的用法，與本句語境不同。",
-        "command-mcq-17": "「因價值、需求或能力高而取得高價／高薪」是「command a high price/salary」的用法，與本句語境不同。",
-        "command-mcq-14": "「位於可俯瞰廣大景色的位置」是「command a view」的用法，與本句語境不同。",
-        "command-mcq-18": "「可供某人支配、使用或調度」是「at someone’s command」的用法，與本句語境不同。",
-        "command-mcq-13": "「讓使用者輸入文字指令的命令列介面」是「command line」的用法，與本句語境不同。"
+        "command-mcq-16": "本句的「commanded the room’s attention」指「強烈吸引並保持他人的注意」。",
+        "command-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-16"
     },
@@ -1869,11 +1693,9 @@ export default {
       "masked": "Rare books can ____.",
       "options": [
         "command-mcq-17",
-        "command-mcq-16",
-        "command-mcq-18",
-        "command-mcq-15",
-        "command-mcq-19",
-        "command-mcq-14"
+        "command-mcq-12",
+        "command-mcq-11",
+        "command-mcq-15"
       ],
       "explanation": "本句的「command high prices」指「因價值、需求或能力高而取得高價／高薪」。",
       "sentenceIndex": 44,
@@ -1882,12 +1704,10 @@ export default {
         "command high prices"
       ],
       "optionReasons": {
-        "command-mcq-17": "本句指「因價值、需求或能力高而取得高價／高薪」。",
-        "command-mcq-16": "「強烈吸引並保持他人的注意」是「command attention」的用法，與本句語境不同。",
-        "command-mcq-18": "「可供某人支配、使用或調度」是「at someone’s command」的用法，與本句語境不同。",
-        "command-mcq-15": "「自然讓他人產生尊重／敬意」是「command respect」的用法，與本句語境不同。",
-        "command-mcq-19": "「在某人的指揮／領導之下」是「under someone’s command」的用法，與本句語境不同。",
-        "command-mcq-14": "「位於可俯瞰廣大景色的位置」是「command a view」的用法，與本句語境不同。"
+        "command-mcq-17": "本句的「command high prices」指「因價值、需求或能力高而取得高價／高薪」。",
+        "command-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-17"
     },
@@ -1899,11 +1719,9 @@ export default {
       "masked": "Experienced specialists often ____.",
       "options": [
         "command-mcq-17",
-        "command-mcq-16",
-        "command-mcq-18",
-        "command-mcq-15",
-        "command-mcq-19",
-        "command-mcq-14"
+        "command-mcq-14",
+        "command-mcq-11",
+        "command-mcq-13"
       ],
       "explanation": "本句的「command higher salaries」指「因價值、需求或能力高而取得高價／高薪」。",
       "sentenceIndex": 45,
@@ -1912,12 +1730,10 @@ export default {
         "command higher salaries"
       ],
       "optionReasons": {
-        "command-mcq-17": "本句指「因價值、需求或能力高而取得高價／高薪」。",
-        "command-mcq-16": "「強烈吸引並保持他人的注意」是「command attention」的用法，與本句語境不同。",
-        "command-mcq-18": "「可供某人支配、使用或調度」是「at someone’s command」的用法，與本句語境不同。",
-        "command-mcq-15": "「自然讓他人產生尊重／敬意」是「command respect」的用法，與本句語境不同。",
-        "command-mcq-19": "「在某人的指揮／領導之下」是「under someone’s command」的用法，與本句語境不同。",
-        "command-mcq-14": "「位於可俯瞰廣大景色的位置」是「command a view」的用法，與本句語境不同。"
+        "command-mcq-17": "本句的「command higher salaries」指「因價值、需求或能力高而取得高價／高薪」。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-17"
     },
@@ -1929,11 +1745,9 @@ export default {
       "masked": "The ____ gave the order.",
       "options": [
         "command-mcq-20",
-        "command-mcq-19",
-        "command-mcq-21",
-        "command-mcq-18",
-        "command-mcq-22",
-        "command-mcq-17"
+        "command-mcq-03",
+        "command-mcq-06",
+        "command-mcq-22"
       ],
       "explanation": "本句的「commander」指「負責軍事單位或行動的指揮官」。",
       "sentenceIndex": 46,
@@ -1942,12 +1756,10 @@ export default {
         "commander"
       ],
       "optionReasons": {
-        "command-mcq-20": "本句指「負責軍事單位或行動的指揮官」。",
-        "command-mcq-19": "「在某人的指揮／領導之下」是「under someone’s command」的用法，與本句語境不同。",
-        "command-mcq-21": "「具有權威、氣勢或強大存在感的」是「commanding」的用法，與本句語境不同。",
-        "command-mcq-18": "「可供某人支配、使用或調度」是「at someone’s command」的用法，與本句語境不同。",
-        "command-mcq-22": "「對自己教授的科目有非常深入的掌握」是「Passage meaning」的用法，與本句語境不同。",
-        "command-mcq-17": "「因價值、需求或能力高而取得高價／高薪」是「command a high price/salary」的用法，與本句語境不同。"
+        "command-mcq-20": "本句的「commander」指「負責軍事單位或行動的指揮官」。",
+        "command-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-20"
     },
@@ -1959,11 +1771,9 @@ export default {
       "masked": "She served as unit ____.",
       "options": [
         "command-mcq-20",
-        "command-mcq-19",
-        "command-mcq-21",
-        "command-mcq-18",
-        "command-mcq-22",
-        "command-mcq-17"
+        "command-mcq-15",
+        "command-mcq-10",
+        "command-mcq-22"
       ],
       "explanation": "本句的「commander」指「負責軍事單位或行動的指揮官」。",
       "sentenceIndex": 47,
@@ -1972,12 +1782,10 @@ export default {
         "commander"
       ],
       "optionReasons": {
-        "command-mcq-20": "本句指「負責軍事單位或行動的指揮官」。",
-        "command-mcq-19": "「在某人的指揮／領導之下」是「under someone’s command」的用法，與本句語境不同。",
-        "command-mcq-21": "「具有權威、氣勢或強大存在感的」是「commanding」的用法，與本句語境不同。",
-        "command-mcq-18": "「可供某人支配、使用或調度」是「at someone’s command」的用法，與本句語境不同。",
-        "command-mcq-22": "「對自己教授的科目有非常深入的掌握」是「Passage meaning」的用法，與本句語境不同。",
-        "command-mcq-17": "「因價值、需求或能力高而取得高價／高薪」是「command a high price/salary」的用法，與本句語境不同。"
+        "command-mcq-20": "本句的「commander」指「負責軍事單位或行動的指揮官」。",
+        "command-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-20"
     },
@@ -1989,11 +1797,9 @@ export default {
       "masked": "The general had thousands of soldiers ____.",
       "options": [
         "command-mcq-18",
-        "command-mcq-17",
-        "command-mcq-19",
-        "command-mcq-16",
-        "command-mcq-20",
-        "command-mcq-15"
+        "command-mcq-06",
+        "command-mcq-08",
+        "command-mcq-02"
       ],
       "explanation": "本句的「at his command」指「可供某人支配、使用或調度」。",
       "sentenceIndex": 48,
@@ -2002,12 +1808,10 @@ export default {
         "at his command"
       ],
       "optionReasons": {
-        "command-mcq-18": "本句指「可供某人支配、使用或調度」。",
-        "command-mcq-17": "「因價值、需求或能力高而取得高價／高薪」是「command a high price/salary」的用法，與本句語境不同。",
-        "command-mcq-19": "「在某人的指揮／領導之下」是「under someone’s command」的用法，與本句語境不同。",
-        "command-mcq-16": "「強烈吸引並保持他人的注意」是「command attention」的用法，與本句語境不同。",
-        "command-mcq-20": "「負責軍事單位或行動的指揮官」是「commander」的用法，與本句語境不同。",
-        "command-mcq-15": "「自然讓他人產生尊重／敬意」是「command respect」的用法，與本句語境不同。"
+        "command-mcq-18": "本句的「at his command」指「可供某人支配、使用或調度」。",
+        "command-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-18"
     },
@@ -2019,11 +1823,9 @@ export default {
       "masked": "She had many useful resources ____.",
       "options": [
         "command-mcq-18",
-        "command-mcq-17",
-        "command-mcq-19",
-        "command-mcq-16",
-        "command-mcq-20",
-        "command-mcq-15"
+        "command-mcq-14",
+        "command-mcq-07",
+        "command-mcq-13"
       ],
       "explanation": "本句的「at her command」指「可供某人支配、使用或調度」。",
       "sentenceIndex": 49,
@@ -2032,12 +1834,10 @@ export default {
         "at her command"
       ],
       "optionReasons": {
-        "command-mcq-18": "本句指「可供某人支配、使用或調度」。",
-        "command-mcq-17": "「因價值、需求或能力高而取得高價／高薪」是「command a high price/salary」的用法，與本句語境不同。",
-        "command-mcq-19": "「在某人的指揮／領導之下」是「under someone’s command」的用法，與本句語境不同。",
-        "command-mcq-16": "「強烈吸引並保持他人的注意」是「command attention」的用法，與本句語境不同。",
-        "command-mcq-20": "「負責軍事單位或行動的指揮官」是「commander」的用法，與本句語境不同。",
-        "command-mcq-15": "「自然讓他人產生尊重／敬意」是「command respect」的用法，與本句語境不同。"
+        "command-mcq-18": "本句的「at her command」指「可供某人支配、使用或調度」。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-18"
     },
@@ -2049,11 +1849,9 @@ export default {
       "masked": "You have several tools ____.",
       "options": [
         "command-mcq-18",
-        "command-mcq-17",
-        "command-mcq-19",
-        "command-mcq-16",
         "command-mcq-20",
-        "command-mcq-15"
+        "command-mcq-02",
+        "command-mcq-07"
       ],
       "explanation": "本句的「at your command」指「可供某人支配、使用或調度」。",
       "sentenceIndex": 50,
@@ -2062,12 +1860,10 @@ export default {
         "at your command"
       ],
       "optionReasons": {
-        "command-mcq-18": "本句指「可供某人支配、使用或調度」。",
-        "command-mcq-17": "「因價值、需求或能力高而取得高價／高薪」是「command a high price/salary」的用法，與本句語境不同。",
-        "command-mcq-19": "「在某人的指揮／領導之下」是「under someone’s command」的用法，與本句語境不同。",
-        "command-mcq-16": "「強烈吸引並保持他人的注意」是「command attention」的用法，與本句語境不同。",
-        "command-mcq-20": "「負責軍事單位或行動的指揮官」是「commander」的用法，與本句語境不同。",
-        "command-mcq-15": "「自然讓他人產生尊重／敬意」是「command respect」的用法，與本句語境不同。"
+        "command-mcq-18": "本句的「at your command」指「可供某人支配、使用或調度」。",
+        "command-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-18"
     },
@@ -2079,11 +1875,9 @@ export default {
       "masked": "A skilled teacher has many strategies ____.",
       "options": [
         "command-mcq-18",
-        "command-mcq-17",
-        "command-mcq-19",
-        "command-mcq-16",
-        "command-mcq-20",
-        "command-mcq-15"
+        "command-mcq-21",
+        "command-mcq-06",
+        "command-mcq-22"
       ],
       "explanation": "本句的「at their command」指「可供某人支配、使用或調度」。",
       "sentenceIndex": 51,
@@ -2092,12 +1886,10 @@ export default {
         "at their command"
       ],
       "optionReasons": {
-        "command-mcq-18": "本句指「可供某人支配、使用或調度」。",
-        "command-mcq-17": "「因價值、需求或能力高而取得高價／高薪」是「command a high price/salary」的用法，與本句語境不同。",
-        "command-mcq-19": "「在某人的指揮／領導之下」是「under someone’s command」的用法，與本句語境不同。",
-        "command-mcq-16": "「強烈吸引並保持他人的注意」是「command attention」的用法，與本句語境不同。",
-        "command-mcq-20": "「負責軍事單位或行動的指揮官」是「commander」的用法，與本句語境不同。",
-        "command-mcq-15": "「自然讓他人產生尊重／敬意」是「command respect」的用法，與本句語境不同。"
+        "command-mcq-18": "本句的「at their command」指「可供某人支配、使用或調度」。",
+        "command-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-18"
     },
@@ -2109,11 +1901,9 @@ export default {
       "masked": "The unit served ____.",
       "options": [
         "command-mcq-19",
-        "command-mcq-18",
-        "command-mcq-20",
-        "command-mcq-17",
-        "command-mcq-21",
-        "command-mcq-16"
+        "command-mcq-08",
+        "command-mcq-22",
+        "command-mcq-14"
       ],
       "explanation": "本句的「under her command」指「在某人的指揮／領導之下」。",
       "sentenceIndex": 52,
@@ -2122,12 +1912,10 @@ export default {
         "under her command"
       ],
       "optionReasons": {
-        "command-mcq-19": "本句指「在某人的指揮／領導之下」。",
-        "command-mcq-18": "「可供某人支配、使用或調度」是「at someone’s command」的用法，與本句語境不同。",
-        "command-mcq-20": "「負責軍事單位或行動的指揮官」是「commander」的用法，與本句語境不同。",
-        "command-mcq-17": "「因價值、需求或能力高而取得高價／高薪」是「command a high price/salary」的用法，與本句語境不同。",
-        "command-mcq-21": "「具有權威、氣勢或強大存在感的」是「commanding」的用法，與本句語境不同。",
-        "command-mcq-16": "「強烈吸引並保持他人的注意」是「command attention」的用法，與本句語境不同。"
+        "command-mcq-19": "本句的「under her command」指「在某人的指揮／領導之下」。",
+        "command-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-19"
     },
@@ -2139,11 +1927,9 @@ export default {
       "masked": "Hundreds of staff worked ____.",
       "options": [
         "command-mcq-19",
-        "command-mcq-18",
-        "command-mcq-20",
         "command-mcq-17",
-        "command-mcq-21",
-        "command-mcq-16"
+        "command-mcq-14",
+        "command-mcq-22"
       ],
       "explanation": "本句的「under his command」指「在某人的指揮／領導之下」。",
       "sentenceIndex": 53,
@@ -2152,12 +1938,10 @@ export default {
         "under his command"
       ],
       "optionReasons": {
-        "command-mcq-19": "本句指「在某人的指揮／領導之下」。",
-        "command-mcq-18": "「可供某人支配、使用或調度」是「at someone’s command」的用法，與本句語境不同。",
-        "command-mcq-20": "「負責軍事單位或行動的指揮官」是「commander」的用法，與本句語境不同。",
-        "command-mcq-17": "「因價值、需求或能力高而取得高價／高薪」是「command a high price/salary」的用法，與本句語境不同。",
-        "command-mcq-21": "「具有權威、氣勢或強大存在感的」是「commanding」的用法，與本句語境不同。",
-        "command-mcq-16": "「強烈吸引並保持他人的注意」是「command attention」的用法，與本句語境不同。"
+        "command-mcq-19": "本句的「under his command」指「在某人的指揮／領導之下」。",
+        "command-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "command-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "command-mcq-19"
     }
@@ -2169,5 +1953,7 @@ export default {
     "sha256": "6521a82e5b2b1ed4cccd006f35ab1b6cb4a91d00216757c9998de6898806e583",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

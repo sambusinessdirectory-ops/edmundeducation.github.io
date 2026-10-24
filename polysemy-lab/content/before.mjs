@@ -393,11 +393,9 @@ export default {
       "masked": "____, I used to think studying meant memorising facts.",
       "options": [
         "before-mcq-01",
-        "before-mcq-02",
-        "before-mcq-04",
         "before-mcq-05",
-        "before-mcq-06",
-        "before-mcq-07"
+        "before-mcq-16",
+        "before-mcq-13"
       ],
       "explanation": "本句的「Before meeting him」指「在……之前」。",
       "sentenceIndex": 0,
@@ -406,12 +404,10 @@ export default {
         "Before meeting him"
       ],
       "optionReasons": {
-        "before-mcq-01": "本句指「在……之前」。",
-        "before-mcq-02": "「做……之前」是「before + -ing」的用法，與本句語境不同。",
-        "before-mcq-04": "「以前；之前」是「before (adverb)」的用法，與本句語境不同。",
-        "before-mcq-05": "「從未有過」是「never before」的用法，與本句語境不同。",
-        "before-mcq-06": "「以前一次」是「once before」的用法，與本句語境不同。",
-        "before-mcq-07": "「前一天」是「the day before」的用法，與本句語境不同。"
+        "before-mcq-01": "本句的「Before meeting him」指「在……之前」。",
+        "before-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-01"
     },
@@ -423,11 +419,9 @@ export default {
       "masked": "We spoke ____.",
       "options": [
         "before-mcq-01",
-        "before-mcq-02",
-        "before-mcq-04",
-        "before-mcq-05",
-        "before-mcq-06",
-        "before-mcq-07"
+        "before-mcq-15",
+        "before-mcq-13",
+        "before-mcq-17"
       ],
       "explanation": "本句的「before the meeting」指「在……之前」。",
       "sentenceIndex": 1,
@@ -436,12 +430,10 @@ export default {
         "before the meeting"
       ],
       "optionReasons": {
-        "before-mcq-01": "本句指「在……之前」。",
-        "before-mcq-02": "「做……之前」是「before + -ing」的用法，與本句語境不同。",
-        "before-mcq-04": "「以前；之前」是「before (adverb)」的用法，與本句語境不同。",
-        "before-mcq-05": "「從未有過」是「never before」的用法，與本句語境不同。",
-        "before-mcq-06": "「以前一次」是「once before」的用法，與本句語境不同。",
-        "before-mcq-07": "「前一天」是「the day before」的用法，與本句語境不同。"
+        "before-mcq-01": "本句的「before the meeting」指「在……之前」。",
+        "before-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-01"
     },
@@ -453,11 +445,9 @@ export default {
       "masked": "Finish your homework ____.",
       "options": [
         "before-mcq-01",
-        "before-mcq-02",
-        "before-mcq-04",
-        "before-mcq-05",
-        "before-mcq-06",
-        "before-mcq-07"
+        "before-mcq-13",
+        "before-mcq-12",
+        "before-mcq-16"
       ],
       "explanation": "本句的「before dinner」指「在……之前」。",
       "sentenceIndex": 2,
@@ -466,12 +456,10 @@ export default {
         "before dinner"
       ],
       "optionReasons": {
-        "before-mcq-01": "本句指「在……之前」。",
-        "before-mcq-02": "「做……之前」是「before + -ing」的用法，與本句語境不同。",
-        "before-mcq-04": "「以前；之前」是「before (adverb)」的用法，與本句語境不同。",
-        "before-mcq-05": "「從未有過」是「never before」的用法，與本句語境不同。",
-        "before-mcq-06": "「以前一次」是「once before」的用法，與本句語境不同。",
-        "before-mcq-07": "「前一天」是「the day before」的用法，與本句語境不同。"
+        "before-mcq-01": "本句的「before dinner」指「在……之前」。",
+        "before-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-01"
     },
@@ -483,11 +471,9 @@ export default {
       "masked": "Wash your hands ____.",
       "options": [
         "before-mcq-02",
-        "before-mcq-01",
-        "before-mcq-04",
-        "before-mcq-05",
-        "before-mcq-06",
-        "before-mcq-07"
+        "before-mcq-16",
+        "before-mcq-12",
+        "before-mcq-11"
       ],
       "explanation": "本句的「before eating」指「做……之前」。",
       "sentenceIndex": 3,
@@ -496,12 +482,10 @@ export default {
         "before eating"
       ],
       "optionReasons": {
-        "before-mcq-02": "本句指「做……之前」。",
-        "before-mcq-01": "「在……之前」是「before + noun」的用法，與本句語境不同。",
-        "before-mcq-04": "「以前；之前」是「before (adverb)」的用法，與本句語境不同。",
-        "before-mcq-05": "「從未有過」是「never before」的用法，與本句語境不同。",
-        "before-mcq-06": "「以前一次」是「once before」的用法，與本句語境不同。",
-        "before-mcq-07": "「前一天」是「the day before」的用法，與本句語境不同。"
+        "before-mcq-02": "本句的「before eating」指「做……之前」。",
+        "before-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-02"
     },
@@ -513,11 +497,9 @@ export default {
       "masked": "Think carefully ____.",
       "options": [
         "before-mcq-02",
-        "before-mcq-01",
-        "before-mcq-04",
+        "before-mcq-15",
         "before-mcq-05",
-        "before-mcq-06",
-        "before-mcq-07"
+        "before-mcq-17"
       ],
       "explanation": "本句的「before answering」指「做……之前」。",
       "sentenceIndex": 4,
@@ -526,12 +508,10 @@ export default {
         "before answering"
       ],
       "optionReasons": {
-        "before-mcq-02": "本句指「做……之前」。",
-        "before-mcq-01": "「在……之前」是「before + noun」的用法，與本句語境不同。",
-        "before-mcq-04": "「以前；之前」是「before (adverb)」的用法，與本句語境不同。",
-        "before-mcq-05": "「從未有過」是「never before」的用法，與本句語境不同。",
-        "before-mcq-06": "「以前一次」是「once before」的用法，與本句語境不同。",
-        "before-mcq-07": "「前一天」是「the day before」的用法，與本句語境不同。"
+        "before-mcq-02": "本句的「before answering」指「做……之前」。",
+        "before-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-02"
     },
@@ -543,11 +523,9 @@ export default {
       "masked": "Call me ____.",
       "options": [
         "before-mcq-03",
-        "before-mcq-02",
-        "before-mcq-04",
-        "before-mcq-05",
-        "before-mcq-06",
-        "before-mcq-07"
+        "before-mcq-13",
+        "before-mcq-16",
+        "before-mcq-15"
       ],
       "explanation": "本句的「before you leave」指「在……之前」。",
       "sentenceIndex": 5,
@@ -556,12 +534,10 @@ export default {
         "before you leave"
       ],
       "optionReasons": {
-        "before-mcq-03": "本句指「在……之前」。",
-        "before-mcq-02": "「做……之前」是「before + -ing」的用法，與本句語境不同。",
-        "before-mcq-04": "「以前；之前」是「before (adverb)」的用法，與本句語境不同。",
-        "before-mcq-05": "「從未有過」是「never before」的用法，與本句語境不同。",
-        "before-mcq-06": "「以前一次」是「once before」的用法，與本句語境不同。",
-        "before-mcq-07": "「前一天」是「the day before」的用法，與本句語境不同。"
+        "before-mcq-03": "本句的「before you leave」指「在……之前」。",
+        "before-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-03"
     },
@@ -573,11 +549,9 @@ export default {
       "masked": "Check everything ____.",
       "options": [
         "before-mcq-03",
-        "before-mcq-02",
-        "before-mcq-04",
-        "before-mcq-05",
-        "before-mcq-06",
-        "before-mcq-07"
+        "before-mcq-11",
+        "before-mcq-15",
+        "before-mcq-17"
       ],
       "explanation": "本句的「before the lesson starts」指「在……之前」。",
       "sentenceIndex": 6,
@@ -586,12 +560,10 @@ export default {
         "before the lesson starts"
       ],
       "optionReasons": {
-        "before-mcq-03": "本句指「在……之前」。",
-        "before-mcq-02": "「做……之前」是「before + -ing」的用法，與本句語境不同。",
-        "before-mcq-04": "「以前；之前」是「before (adverb)」的用法，與本句語境不同。",
-        "before-mcq-05": "「從未有過」是「never before」的用法，與本句語境不同。",
-        "before-mcq-06": "「以前一次」是「once before」的用法，與本句語境不同。",
-        "before-mcq-07": "「前一天」是「the day before」的用法，與本句語境不同。"
+        "before-mcq-03": "本句的「before the lesson starts」指「在……之前」。",
+        "before-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-03"
     },
@@ -603,11 +575,9 @@ export default {
       "masked": "I've seen this film ____.",
       "options": [
         "before-mcq-04",
-        "before-mcq-03",
-        "before-mcq-05",
-        "before-mcq-02",
-        "before-mcq-06",
-        "before-mcq-07"
+        "before-mcq-15",
+        "before-mcq-17",
+        "before-mcq-05"
       ],
       "explanation": "本句的「before」指「以前；之前」。",
       "sentenceIndex": 7,
@@ -616,12 +586,10 @@ export default {
         "before"
       ],
       "optionReasons": {
-        "before-mcq-04": "本句指「以前；之前」。",
-        "before-mcq-03": "「在……之前」是「before + clause」的用法，與本句語境不同。",
-        "before-mcq-05": "「從未有過」是「never before」的用法，與本句語境不同。",
-        "before-mcq-02": "「做……之前」是「before + -ing」的用法，與本句語境不同。",
-        "before-mcq-06": "「以前一次」是「once before」的用法，與本句語境不同。",
-        "before-mcq-07": "「前一天」是「the day before」的用法，與本句語境不同。"
+        "before-mcq-04": "本句的「before」指「以前；之前」。",
+        "before-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-04"
     },
@@ -633,11 +601,9 @@ export default {
       "masked": "Have we met ____?",
       "options": [
         "before-mcq-04",
-        "before-mcq-03",
-        "before-mcq-05",
-        "before-mcq-02",
-        "before-mcq-06",
-        "before-mcq-07"
+        "before-mcq-15",
+        "before-mcq-11",
+        "before-mcq-17"
       ],
       "explanation": "本句的「before」指「以前；之前」。",
       "sentenceIndex": 8,
@@ -646,12 +612,10 @@ export default {
         "before"
       ],
       "optionReasons": {
-        "before-mcq-04": "本句指「以前；之前」。",
-        "before-mcq-03": "「在……之前」是「before + clause」的用法，與本句語境不同。",
-        "before-mcq-05": "「從未有過」是「never before」的用法，與本句語境不同。",
-        "before-mcq-02": "「做……之前」是「before + -ing」的用法，與本句語境不同。",
-        "before-mcq-06": "「以前一次」是「once before」的用法，與本句語境不同。",
-        "before-mcq-07": "「前一天」是「the day before」的用法，與本句語境不同。"
+        "before-mcq-04": "本句的「before」指「以前；之前」。",
+        "before-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-04"
     },
@@ -664,10 +628,8 @@ export default {
       "options": [
         "before-mcq-05",
         "before-mcq-04",
-        "before-mcq-06",
-        "before-mcq-03",
-        "before-mcq-07",
-        "before-mcq-02"
+        "before-mcq-17",
+        "before-mcq-15"
       ],
       "explanation": "本句的「never seen anything like it before」指「從未有過」。",
       "sentenceIndex": 9,
@@ -676,12 +638,10 @@ export default {
         "never seen anything like it before"
       ],
       "optionReasons": {
-        "before-mcq-05": "本句指「從未有過」。",
-        "before-mcq-04": "「以前；之前」是「before (adverb)」的用法，與本句語境不同。",
-        "before-mcq-06": "「以前一次」是「once before」的用法，與本句語境不同。",
-        "before-mcq-03": "「在……之前」是「before + clause」的用法，與本句語境不同。",
-        "before-mcq-07": "「前一天」是「the day before」的用法，與本句語境不同。",
-        "before-mcq-02": "「做……之前」是「before + -ing」的用法，與本句語境不同。"
+        "before-mcq-05": "本句的「never seen anything like it before」指「從未有過」。",
+        "before-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-05"
     },
@@ -693,11 +653,9 @@ export default {
       "masked": "The city had ____ such heavy rain.",
       "options": [
         "before-mcq-05",
-        "before-mcq-04",
-        "before-mcq-06",
         "before-mcq-03",
-        "before-mcq-07",
-        "before-mcq-02"
+        "before-mcq-17",
+        "before-mcq-15"
       ],
       "explanation": "本句的「never before experienced」指「從未有過」。",
       "sentenceIndex": 10,
@@ -706,12 +664,10 @@ export default {
         "never before experienced"
       ],
       "optionReasons": {
-        "before-mcq-05": "本句指「從未有過」。",
-        "before-mcq-04": "「以前；之前」是「before (adverb)」的用法，與本句語境不同。",
-        "before-mcq-06": "「以前一次」是「once before」的用法，與本句語境不同。",
-        "before-mcq-03": "「在……之前」是「before + clause」的用法，與本句語境不同。",
-        "before-mcq-07": "「前一天」是「the day before」的用法，與本句語境不同。",
-        "before-mcq-02": "「做……之前」是「before + -ing」的用法，與本句語境不同。"
+        "before-mcq-05": "本句的「never before experienced」指「從未有過」。",
+        "before-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-05"
     },
@@ -723,11 +679,9 @@ export default {
       "masked": "I'd met him ____.",
       "options": [
         "before-mcq-06",
-        "before-mcq-05",
-        "before-mcq-07",
-        "before-mcq-04",
-        "before-mcq-08",
-        "before-mcq-03"
+        "before-mcq-11",
+        "before-mcq-15",
+        "before-mcq-17"
       ],
       "explanation": "本句的「once before」指「以前一次」。",
       "sentenceIndex": 11,
@@ -736,12 +690,10 @@ export default {
         "once before"
       ],
       "optionReasons": {
-        "before-mcq-06": "本句指「以前一次」。",
-        "before-mcq-05": "「從未有過」是「never before」的用法，與本句語境不同。",
-        "before-mcq-07": "「前一天」是「the day before」的用法，與本句語境不同。",
-        "before-mcq-04": "「以前；之前」是「before (adverb)」的用法，與本句語境不同。",
-        "before-mcq-08": "「前一晚」是「the night before」的用法，與本句語境不同。",
-        "before-mcq-03": "「在……之前」是「before + clause」的用法，與本句語境不同。"
+        "before-mcq-06": "本句的「once before」指「以前一次」。",
+        "before-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-06"
     },
@@ -753,11 +705,9 @@ export default {
       "masked": "She had visited the city ____.",
       "options": [
         "before-mcq-06",
-        "before-mcq-05",
-        "before-mcq-07",
-        "before-mcq-04",
-        "before-mcq-08",
-        "before-mcq-03"
+        "before-mcq-16",
+        "before-mcq-13",
+        "before-mcq-11"
       ],
       "explanation": "本句的「twice before」指「以前一次」。",
       "sentenceIndex": 12,
@@ -766,12 +716,10 @@ export default {
         "twice before"
       ],
       "optionReasons": {
-        "before-mcq-06": "本句指「以前一次」。",
-        "before-mcq-05": "「從未有過」是「never before」的用法，與本句語境不同。",
-        "before-mcq-07": "「前一天」是「the day before」的用法，與本句語境不同。",
-        "before-mcq-04": "「以前；之前」是「before (adverb)」的用法，與本句語境不同。",
-        "before-mcq-08": "「前一晚」是「the night before」的用法，與本句語境不同。",
-        "before-mcq-03": "「在……之前」是「before + clause」的用法，與本句語境不同。"
+        "before-mcq-06": "本句的「twice before」指「以前一次」。",
+        "before-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-06"
     },
@@ -783,11 +731,9 @@ export default {
       "masked": "I saw him ____.",
       "options": [
         "before-mcq-08",
-        "before-mcq-07",
-        "before-mcq-09",
-        "before-mcq-06",
-        "before-mcq-10",
-        "before-mcq-05"
+        "before-mcq-13",
+        "before-mcq-17",
+        "before-mcq-11"
       ],
       "explanation": "本句的「the day before」指「前一晚」。",
       "sentenceIndex": 13,
@@ -796,12 +742,10 @@ export default {
         "the day before"
       ],
       "optionReasons": {
-        "before-mcq-08": "本句指「前一晚」。",
-        "before-mcq-07": "「前一天」是「the day before」的用法，與本句語境不同。",
-        "before-mcq-09": "「在那之前」是「before that/then」的用法，與本句語境不同。",
-        "before-mcq-06": "「以前一次」是「once before」的用法，與本句語境不同。",
-        "before-mcq-10": "「不久之後」是「before long」的用法，與本句語境不同。",
-        "before-mcq-05": "「從未有過」是「never before」的用法，與本句語境不同。"
+        "before-mcq-08": "本句的「the day before」指「前一晚」。",
+        "before-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-08"
     },
@@ -813,11 +757,9 @@ export default {
       "masked": "She had prepared everything ____.",
       "options": [
         "before-mcq-08",
-        "before-mcq-07",
-        "before-mcq-09",
-        "before-mcq-06",
-        "before-mcq-10",
-        "before-mcq-05"
+        "before-mcq-05",
+        "before-mcq-17",
+        "before-mcq-12"
       ],
       "explanation": "本句的「the night before」指「前一晚」。",
       "sentenceIndex": 14,
@@ -826,12 +768,10 @@ export default {
         "the night before"
       ],
       "optionReasons": {
-        "before-mcq-08": "本句指「前一晚」。",
-        "before-mcq-07": "「前一天」是「the day before」的用法，與本句語境不同。",
-        "before-mcq-09": "「在那之前」是「before that/then」的用法，與本句語境不同。",
-        "before-mcq-06": "「以前一次」是「once before」的用法，與本句語境不同。",
-        "before-mcq-10": "「不久之後」是「before long」的用法，與本句語境不同。",
-        "before-mcq-05": "「從未有過」是「never before」的用法，與本句語境不同。"
+        "before-mcq-08": "本句的「the night before」指「前一晚」。",
+        "before-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-08"
     },
@@ -843,11 +783,9 @@ export default {
       "masked": "I had never heard of him ____.",
       "options": [
         "before-mcq-09",
-        "before-mcq-08",
-        "before-mcq-10",
-        "before-mcq-07",
-        "before-mcq-11",
-        "before-mcq-06"
+        "before-mcq-16",
+        "before-mcq-13",
+        "before-mcq-05"
       ],
       "explanation": "本句的「before that」指「在那之前」。",
       "sentenceIndex": 15,
@@ -856,12 +794,10 @@ export default {
         "before that"
       ],
       "optionReasons": {
-        "before-mcq-09": "本句指「在那之前」。",
-        "before-mcq-08": "「前一晚」是「the night before」的用法，與本句語境不同。",
-        "before-mcq-10": "「不久之後」是「before long」的用法，與本句語境不同。",
-        "before-mcq-07": "「前一天」是「the day before」的用法，與本句語境不同。",
-        "before-mcq-11": "「過不了多久」是「before too long」的用法，與本句語境不同。",
-        "before-mcq-06": "「以前一次」是「once before」的用法，與本句語境不同。"
+        "before-mcq-09": "本句的「before that」指「在那之前」。",
+        "before-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-09"
     },
@@ -873,11 +809,9 @@ export default {
       "masked": "We need to finish it ____.",
       "options": [
         "before-mcq-09",
-        "before-mcq-08",
-        "before-mcq-10",
-        "before-mcq-07",
-        "before-mcq-11",
-        "before-mcq-06"
+        "before-mcq-05",
+        "before-mcq-13",
+        "before-mcq-17"
       ],
       "explanation": "本句的「before then」指「在那之前」。",
       "sentenceIndex": 16,
@@ -886,12 +820,10 @@ export default {
         "before then"
       ],
       "optionReasons": {
-        "before-mcq-09": "本句指「在那之前」。",
-        "before-mcq-08": "「前一晚」是「the night before」的用法，與本句語境不同。",
-        "before-mcq-10": "「不久之後」是「before long」的用法，與本句語境不同。",
-        "before-mcq-07": "「前一天」是「the day before」的用法，與本句語境不同。",
-        "before-mcq-11": "「過不了多久」是「before too long」的用法，與本句語境不同。",
-        "before-mcq-06": "「以前一次」是「once before」的用法，與本句語境不同。"
+        "before-mcq-09": "本句的「before then」指「在那之前」。",
+        "before-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-09"
     },
@@ -903,11 +835,9 @@ export default {
       "masked": "____, everyone was laughing.",
       "options": [
         "before-mcq-11",
-        "before-mcq-10",
-        "before-mcq-12",
-        "before-mcq-09",
-        "before-mcq-13",
-        "before-mcq-08"
+        "before-pdf-001",
+        "before-mcq-16",
+        "before-mcq-15"
       ],
       "explanation": "本句的「Before long」指「過不了多久」。",
       "sentenceIndex": 17,
@@ -916,12 +846,10 @@ export default {
         "Before long"
       ],
       "optionReasons": {
-        "before-mcq-11": "本句指「過不了多久」。",
-        "before-mcq-10": "「不久之後」是「before long」的用法，與本句語境不同。",
-        "before-mcq-12": "「事先；預先」是「beforehand」的用法，與本句語境不同。",
-        "before-mcq-09": "「在那之前」是「before that/then」的用法，與本句語境不同。",
-        "before-mcq-13": "「比某人早」是「before someone」的用法，與本句語境不同。",
-        "before-mcq-08": "「前一晚」是「the night before」的用法，與本句語境不同。"
+        "before-mcq-11": "本句的「Before long」指「過不了多久」。",
+        "before-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-11"
     },
@@ -933,11 +861,9 @@ export default {
       "masked": "The rain stopped, and ____ the sun came out.",
       "options": [
         "before-mcq-11",
-        "before-mcq-10",
-        "before-mcq-12",
-        "before-mcq-09",
-        "before-mcq-13",
-        "before-mcq-08"
+        "before-pdf-001",
+        "before-mcq-16",
+        "before-mcq-13"
       ],
       "explanation": "本句的「before long」指「過不了多久」。",
       "sentenceIndex": 18,
@@ -946,12 +872,10 @@ export default {
         "before long"
       ],
       "optionReasons": {
-        "before-mcq-11": "本句指「過不了多久」。",
-        "before-mcq-10": "「不久之後」是「before long」的用法，與本句語境不同。",
-        "before-mcq-12": "「事先；預先」是「beforehand」的用法，與本句語境不同。",
-        "before-mcq-09": "「在那之前」是「before that/then」的用法，與本句語境不同。",
-        "before-mcq-13": "「比某人早」是「before someone」的用法，與本句語境不同。",
-        "before-mcq-08": "「前一晚」是「the night before」的用法，與本句語境不同。"
+        "before-mcq-11": "本句的「before long」指「過不了多久」。",
+        "before-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-11"
     },
@@ -963,11 +887,9 @@ export default {
       "masked": "You'll feel better ____.",
       "options": [
         "before-mcq-11",
-        "before-mcq-10",
-        "before-mcq-12",
-        "before-mcq-09",
-        "before-mcq-13",
-        "before-mcq-08"
+        "before-mcq-03",
+        "before-mcq-17",
+        "before-mcq-13"
       ],
       "explanation": "本句的「before too long」指「過不了多久」。",
       "sentenceIndex": 19,
@@ -976,12 +898,10 @@ export default {
         "before too long"
       ],
       "optionReasons": {
-        "before-mcq-11": "本句指「過不了多久」。",
-        "before-mcq-10": "「不久之後」是「before long」的用法，與本句語境不同。",
-        "before-mcq-12": "「事先；預先」是「beforehand」的用法，與本句語境不同。",
-        "before-mcq-09": "「在那之前」是「before that/then」的用法，與本句語境不同。",
-        "before-mcq-13": "「比某人早」是「before someone」的用法，與本句語境不同。",
-        "before-mcq-08": "「前一晚」是「the night before」的用法，與本句語境不同。"
+        "before-mcq-11": "本句的「before too long」指「過不了多久」。",
+        "before-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-11"
     },
@@ -993,11 +913,9 @@ export default {
       "masked": "We should hear from them ____.",
       "options": [
         "before-mcq-11",
-        "before-mcq-10",
-        "before-mcq-12",
-        "before-mcq-09",
+        "before-mcq-04",
         "before-mcq-13",
-        "before-mcq-08"
+        "before-mcq-15"
       ],
       "explanation": "本句的「before too long」指「過不了多久」。",
       "sentenceIndex": 20,
@@ -1006,12 +924,10 @@ export default {
         "before too long"
       ],
       "optionReasons": {
-        "before-mcq-11": "本句指「過不了多久」。",
-        "before-mcq-10": "「不久之後」是「before long」的用法，與本句語境不同。",
-        "before-mcq-12": "「事先；預先」是「beforehand」的用法，與本句語境不同。",
-        "before-mcq-09": "「在那之前」是「before that/then」的用法，與本句語境不同。",
-        "before-mcq-13": "「比某人早」是「before someone」的用法，與本句語境不同。",
-        "before-mcq-08": "「前一晚」是「the night before」的用法，與本句語境不同。"
+        "before-mcq-11": "本句的「before too long」指「過不了多久」。",
+        "before-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-11"
     },
@@ -1023,11 +939,9 @@ export default {
       "masked": "Please let me know ____.",
       "options": [
         "before-mcq-12",
-        "before-mcq-11",
         "before-mcq-13",
-        "before-mcq-10",
-        "before-mcq-14",
-        "before-mcq-09"
+        "before-mcq-01",
+        "before-mcq-05"
       ],
       "explanation": "本句的「beforehand」指「事先；預先」。",
       "sentenceIndex": 21,
@@ -1036,12 +950,10 @@ export default {
         "beforehand"
       ],
       "optionReasons": {
-        "before-mcq-12": "本句指「事先；預先」。",
-        "before-mcq-11": "「過不了多久」是「before too long」的用法，與本句語境不同。",
-        "before-mcq-13": "「比某人早」是「before someone」的用法，與本句語境不同。",
-        "before-mcq-10": "「不久之後」是「before long」的用法，與本句語境不同。",
-        "before-mcq-14": "「A 在 B 前」是「A before B」的用法，與本句語境不同。",
-        "before-mcq-09": "「在那之前」是「before that/then」的用法，與本句語境不同。"
+        "before-mcq-12": "本句的「beforehand」指「事先；預先」。",
+        "before-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-12"
     },
@@ -1053,11 +965,9 @@ export default {
       "masked": "We had prepared everything ____.",
       "options": [
         "before-mcq-12",
-        "before-mcq-11",
-        "before-mcq-13",
-        "before-mcq-10",
-        "before-mcq-14",
-        "before-mcq-09"
+        "before-mcq-02",
+        "before-mcq-17",
+        "before-mcq-11"
       ],
       "explanation": "本句的「beforehand」指「事先；預先」。",
       "sentenceIndex": 22,
@@ -1066,12 +976,10 @@ export default {
         "beforehand"
       ],
       "optionReasons": {
-        "before-mcq-12": "本句指「事先；預先」。",
-        "before-mcq-11": "「過不了多久」是「before too long」的用法，與本句語境不同。",
-        "before-mcq-13": "「比某人早」是「before someone」的用法，與本句語境不同。",
-        "before-mcq-10": "「不久之後」是「before long」的用法，與本句語境不同。",
-        "before-mcq-14": "「A 在 B 前」是「A before B」的用法，與本句語境不同。",
-        "before-mcq-09": "「在那之前」是「before that/then」的用法，與本句語境不同。"
+        "before-mcq-12": "本句的「beforehand」指「事先；預先」。",
+        "before-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-12"
     },
@@ -1083,11 +991,9 @@ export default {
       "masked": "She arrived ____.",
       "options": [
         "before-mcq-13",
-        "before-mcq-12",
-        "before-mcq-14",
-        "before-mcq-11",
-        "before-mcq-15",
-        "before-mcq-10"
+        "before-mcq-03",
+        "before-mcq-17",
+        "before-mcq-15"
       ],
       "explanation": "本句的「before me」指「比某人早」。",
       "sentenceIndex": 23,
@@ -1096,12 +1002,10 @@ export default {
         "before me"
       ],
       "optionReasons": {
-        "before-mcq-13": "本句指「比某人早」。",
-        "before-mcq-12": "「事先；預先」是「beforehand」的用法，與本句語境不同。",
-        "before-mcq-14": "「A 在 B 前」是「A before B」的用法，與本句語境不同。",
-        "before-mcq-11": "「過不了多久」是「before too long」的用法，與本句語境不同。",
-        "before-mcq-15": "「X 優先於 Y」是「put X before Y」的用法，與本句語境不同。",
-        "before-mcq-10": "「不久之後」是「before long」的用法，與本句語境不同。"
+        "before-mcq-13": "本句的「before me」指「比某人早」。",
+        "before-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-13"
     },
@@ -1113,11 +1017,9 @@ export default {
       "masked": "He finished the test ____.",
       "options": [
         "before-mcq-13",
-        "before-mcq-12",
-        "before-mcq-14",
-        "before-mcq-11",
-        "before-mcq-15",
-        "before-mcq-10"
+        "before-mcq-17",
+        "before-mcq-04",
+        "before-mcq-12"
       ],
       "explanation": "本句的「before everyone else」指「比某人早」。",
       "sentenceIndex": 24,
@@ -1126,12 +1028,10 @@ export default {
         "before everyone else"
       ],
       "optionReasons": {
-        "before-mcq-13": "本句指「比某人早」。",
-        "before-mcq-12": "「事先；預先」是「beforehand」的用法，與本句語境不同。",
-        "before-mcq-14": "「A 在 B 前」是「A before B」的用法，與本句語境不同。",
-        "before-mcq-11": "「過不了多久」是「before too long」的用法，與本句語境不同。",
-        "before-mcq-15": "「X 優先於 Y」是「put X before Y」的用法，與本句語境不同。",
-        "before-mcq-10": "「不久之後」是「before long」的用法，與本句語境不同。"
+        "before-mcq-13": "本句的「before everyone else」指「比某人早」。",
+        "before-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-13"
     },
@@ -1143,11 +1043,9 @@ export default {
       "masked": "B comes ____ in the alphabet.",
       "options": [
         "before-pdf-001",
-        "before-mcq-13",
-        "before-mcq-15",
         "before-mcq-12",
-        "before-mcq-16",
-        "before-mcq-11"
+        "before-mcq-05",
+        "before-mcq-17"
       ],
       "explanation": "本句的「before C」指「在排列、次序或位置上較前」。",
       "sentenceIndex": 25,
@@ -1156,12 +1054,10 @@ export default {
         "before C"
       ],
       "optionReasons": {
-        "before-pdf-001": "本句指「在排列、次序或位置上較前」。",
-        "before-mcq-13": "「比某人早」是「before someone」的用法，與本句語境不同。",
-        "before-mcq-15": "「X 優先於 Y」是「put X before Y」的用法，與本句語境不同。",
-        "before-mcq-12": "「事先；預先」是「beforehand」的用法，與本句語境不同。",
-        "before-mcq-16": "「出庭」是「appear before a court」的用法，與本句語境不同。",
-        "before-mcq-11": "「過不了多久」是「before too long」的用法，與本句語境不同。"
+        "before-pdf-001": "本句的「before C」指「在排列、次序或位置上較前」。",
+        "before-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-pdf-001"
     },
@@ -1174,10 +1070,8 @@ export default {
       "options": [
         "before-pdf-001",
         "before-mcq-13",
-        "before-mcq-15",
-        "before-mcq-12",
         "before-mcq-16",
-        "before-mcq-11"
+        "before-mcq-05"
       ],
       "explanation": "本句的「before mine」指「在排列、次序或位置上較前」。",
       "sentenceIndex": 26,
@@ -1186,12 +1080,10 @@ export default {
         "before mine"
       ],
       "optionReasons": {
-        "before-pdf-001": "本句指「在排列、次序或位置上較前」。",
-        "before-mcq-13": "「比某人早」是「before someone」的用法，與本句語境不同。",
-        "before-mcq-15": "「X 優先於 Y」是「put X before Y」的用法，與本句語境不同。",
-        "before-mcq-12": "「事先；預先」是「beforehand」的用法，與本句語境不同。",
-        "before-mcq-16": "「出庭」是「appear before a court」的用法，與本句語境不同。",
-        "before-mcq-11": "「過不了多久」是「before too long」的用法，與本句語境不同。"
+        "before-pdf-001": "本句的「before mine」指「在排列、次序或位置上較前」。",
+        "before-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-pdf-001"
     },
@@ -1203,11 +1095,9 @@ export default {
       "masked": "She always ____.",
       "options": [
         "before-mcq-15",
-        "before-mcq-14",
-        "before-mcq-16",
-        "before-mcq-13",
-        "before-mcq-17",
-        "before-mcq-12"
+        "before-mcq-04",
+        "before-mcq-11",
+        "before-mcq-13"
       ],
       "explanation": "本句的「puts her family before work」指「X 優先於 Y」。",
       "sentenceIndex": 27,
@@ -1216,12 +1106,10 @@ export default {
         "puts her family before work"
       ],
       "optionReasons": {
-        "before-mcq-15": "本句指「X 優先於 Y」。",
-        "before-mcq-14": "「A 在 B 前」是「A before B」的用法，與本句語境不同。",
-        "before-mcq-16": "「出庭」是「appear before a court」的用法，與本句語境不同。",
-        "before-mcq-13": "「比某人早」是「before someone」的用法，與本句語境不同。",
-        "before-mcq-17": "「提交 X 審議」是「place X before a board」的用法，與本句語境不同。",
-        "before-mcq-12": "「事先；預先」是「beforehand」的用法，與本句語境不同。"
+        "before-mcq-15": "本句的「puts her family before work」指「X 優先於 Y」。",
+        "before-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-15"
     },
@@ -1233,11 +1121,9 @@ export default {
       "masked": "Safety should come ____.",
       "options": [
         "before-mcq-15",
-        "before-mcq-14",
-        "before-mcq-16",
+        "before-mcq-05",
         "before-mcq-13",
-        "before-mcq-17",
-        "before-mcq-12"
+        "before-mcq-09"
       ],
       "explanation": "本句的「before convenience」指「X 優先於 Y」。",
       "sentenceIndex": 28,
@@ -1246,12 +1132,10 @@ export default {
         "before convenience"
       ],
       "optionReasons": {
-        "before-mcq-15": "本句指「X 優先於 Y」。",
-        "before-mcq-14": "「A 在 B 前」是「A before B」的用法，與本句語境不同。",
-        "before-mcq-16": "「出庭」是「appear before a court」的用法，與本句語境不同。",
-        "before-mcq-13": "「比某人早」是「before someone」的用法，與本句語境不同。",
-        "before-mcq-17": "「提交 X 審議」是「place X before a board」的用法，與本句語境不同。",
-        "before-mcq-12": "「事先；預先」是「beforehand」的用法，與本句語境不同。"
+        "before-mcq-15": "本句的「before convenience」指「X 優先於 Y」。",
+        "before-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-15"
     },
@@ -1263,11 +1147,9 @@ export default {
       "masked": "He was asked to ____.",
       "options": [
         "before-mcq-16",
-        "before-mcq-15",
         "before-mcq-17",
-        "before-mcq-14",
-        "before-mcq-13",
-        "before-mcq-12"
+        "before-mcq-03",
+        "before-mcq-05"
       ],
       "explanation": "本句的「appear before the court」指「出庭」。",
       "sentenceIndex": 29,
@@ -1276,12 +1158,10 @@ export default {
         "appear before the court"
       ],
       "optionReasons": {
-        "before-mcq-16": "本句指「出庭」。",
-        "before-mcq-15": "「X 優先於 Y」是「put X before Y」的用法，與本句語境不同。",
-        "before-mcq-17": "「提交 X 審議」是「place X before a board」的用法，與本句語境不同。",
-        "before-mcq-14": "「A 在 B 前」是「A before B」的用法，與本句語境不同。",
-        "before-mcq-13": "「比某人早」是「before someone」的用法，與本句語境不同。",
-        "before-mcq-12": "「事先；預先」是「beforehand」的用法，與本句語境不同。"
+        "before-mcq-16": "本句的「appear before the court」指「出庭」。",
+        "before-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-16"
     },
@@ -1293,10 +1173,8 @@ export default {
       "masked": "The witness came ____.",
       "options": [
         "before-mcq-16",
-        "before-mcq-15",
-        "before-mcq-17",
-        "before-mcq-14",
         "before-mcq-13",
+        "before-mcq-02",
         "before-mcq-12"
       ],
       "explanation": "本句的「before the committee」指「出庭」。",
@@ -1306,12 +1184,10 @@ export default {
         "before the committee"
       ],
       "optionReasons": {
-        "before-mcq-16": "本句指「出庭」。",
-        "before-mcq-15": "「X 優先於 Y」是「put X before Y」的用法，與本句語境不同。",
-        "before-mcq-17": "「提交 X 審議」是「place X before a board」的用法，與本句語境不同。",
-        "before-mcq-14": "「A 在 B 前」是「A before B」的用法，與本句語境不同。",
-        "before-mcq-13": "「比某人早」是「before someone」的用法，與本句語境不同。",
-        "before-mcq-12": "「事先；預先」是「beforehand」的用法，與本句語境不同。"
+        "before-mcq-16": "本句的「before the committee」指「出庭」。",
+        "before-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-16"
     },
@@ -1323,11 +1199,9 @@ export default {
       "masked": "The proposal was ____.",
       "options": [
         "before-mcq-17",
+        "before-mcq-02",
         "before-mcq-16",
-        "before-mcq-15",
-        "before-mcq-14",
-        "before-mcq-13",
-        "before-mcq-12"
+        "before-mcq-05"
       ],
       "explanation": "本句的「placed before the board」指「提交 X 審議」。",
       "sentenceIndex": 31,
@@ -1336,12 +1210,10 @@ export default {
         "placed before the board"
       ],
       "optionReasons": {
-        "before-mcq-17": "本句指「提交 X 審議」。",
-        "before-mcq-16": "「出庭」是「appear before a court」的用法，與本句語境不同。",
-        "before-mcq-15": "「X 優先於 Y」是「put X before Y」的用法，與本句語境不同。",
-        "before-mcq-14": "「A 在 B 前」是「A before B」的用法，與本句語境不同。",
-        "before-mcq-13": "「比某人早」是「before someone」的用法，與本句語境不同。",
-        "before-mcq-12": "「事先；預先」是「beforehand」的用法，與本句語境不同。"
+        "before-mcq-17": "本句的「placed before the board」指「提交 X 審議」。",
+        "before-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-17"
     },
@@ -1353,11 +1225,9 @@ export default {
       "masked": "The evidence was ____.",
       "options": [
         "before-mcq-17",
-        "before-mcq-16",
         "before-mcq-15",
-        "before-mcq-14",
-        "before-mcq-13",
-        "before-mcq-12"
+        "before-mcq-03",
+        "before-mcq-16"
       ],
       "explanation": "本句的「laid before the court」指「提交 X 審議」。",
       "sentenceIndex": 32,
@@ -1366,12 +1236,10 @@ export default {
         "laid before the court"
       ],
       "optionReasons": {
-        "before-mcq-17": "本句指「提交 X 審議」。",
-        "before-mcq-16": "「出庭」是「appear before a court」的用法，與本句語境不同。",
-        "before-mcq-15": "「X 優先於 Y」是「put X before Y」的用法，與本句語境不同。",
-        "before-mcq-14": "「A 在 B 前」是「A before B」的用法，與本句語境不同。",
-        "before-mcq-13": "「比某人早」是「before someone」的用法，與本句語境不同。",
-        "before-mcq-12": "「事先；預先」是「beforehand」的用法，與本句語境不同。"
+        "before-mcq-17": "本句的「laid before the court」指「提交 X 審議」。",
+        "before-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "before-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "before-mcq-17"
     }
@@ -1383,5 +1251,7 @@ export default {
     "sha256": "bf847a2f2155e4b0eef2effcc0cd799c96e1c7a6d1cfdeef52d56b63042a5204",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -1358,11 +1358,9 @@ export default {
       "masked": "Diversity can become an advantage rather than a source of ____.",
       "options": [
         "division-mcq-01",
-        "division-mcq-02",
-        "division-mcq-03",
-        "division-mcq-04",
-        "division-mcq-05",
-        "division-mcq-06"
+        "division-mcq-45",
+        "division-mcq-69",
+        "division-mcq-55"
       ],
       "explanation": "本句的「division」指「分裂；不和 passage sense」。",
       "sentenceIndex": 0,
@@ -1371,12 +1369,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-01": "本句指「分裂；不和 passage sense」。",
-        "division-mcq-02": "「分裂來源 cause」與本句語境不同。",
-        "division-mcq-03": "「造成分裂 social separation」與本句語境不同。",
-        "division-mcq-04": "「加深分裂 worsening」與本句語境不同。",
-        "division-mcq-05": "「彌合裂痕 repair」與本句語境不同。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。"
+        "division-mcq-01": "本句的「division」指「分裂；不和 passage sense」。",
+        "division-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-01"
     },
@@ -1388,11 +1384,9 @@ export default {
       "masked": "Poor leadership created ____ within the team.",
       "options": [
         "division-mcq-01",
-        "division-mcq-02",
-        "division-mcq-03",
-        "division-mcq-04",
-        "division-mcq-05",
-        "division-mcq-06"
+        "division-mcq-68",
+        "division-mcq-64",
+        "division-mcq-48"
       ],
       "explanation": "本句的「division」指「分裂；不和 passage sense」。",
       "sentenceIndex": 1,
@@ -1401,12 +1395,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-01": "本句指「分裂；不和 passage sense」。",
-        "division-mcq-02": "「分裂來源 cause」與本句語境不同。",
-        "division-mcq-03": "「造成分裂 social separation」與本句語境不同。",
-        "division-mcq-04": "「加深分裂 worsening」與本句語境不同。",
-        "division-mcq-05": "「彌合裂痕 repair」與本句語境不同。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。"
+        "division-mcq-01": "本句的「division」指「分裂；不和 passage sense」。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-01"
     },
@@ -1418,11 +1410,9 @@ export default {
       "masked": "Trust can prevent disagreement from turning into ____.",
       "options": [
         "division-mcq-01",
-        "division-mcq-02",
-        "division-mcq-03",
-        "division-mcq-04",
-        "division-mcq-05",
-        "division-mcq-06"
+        "division-mcq-55",
+        "division-mcq-45",
+        "division-mcq-64"
       ],
       "explanation": "本句的「division」指「分裂；不和 passage sense」。",
       "sentenceIndex": 2,
@@ -1431,12 +1421,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-01": "本句指「分裂；不和 passage sense」。",
-        "division-mcq-02": "「分裂來源 cause」與本句語境不同。",
-        "division-mcq-03": "「造成分裂 social separation」與本句語境不同。",
-        "division-mcq-04": "「加深分裂 worsening」與本句語境不同。",
-        "division-mcq-05": "「彌合裂痕 repair」與本句語境不同。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。"
+        "division-mcq-01": "本句的「division」指「分裂；不和 passage sense」。",
+        "division-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-01"
     },
@@ -1448,11 +1436,9 @@ export default {
       "masked": "Personality differences need not become a source of ____.",
       "options": [
         "division-mcq-02",
-        "division-mcq-01",
-        "division-mcq-03",
-        "division-mcq-04",
-        "division-mcq-05",
-        "division-mcq-06"
+        "division-mcq-61",
+        "division-mcq-48",
+        "division-mcq-58"
       ],
       "explanation": "本句的「division」指「分裂來源 cause」。",
       "sentenceIndex": 3,
@@ -1461,12 +1447,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-02": "本句指「分裂來源 cause」。",
-        "division-mcq-01": "「分裂；不和 passage sense」與本句語境不同。",
-        "division-mcq-03": "「造成分裂 social separation」與本句語境不同。",
-        "division-mcq-04": "「加深分裂 worsening」與本句語境不同。",
-        "division-mcq-05": "「彌合裂痕 repair」與本句語境不同。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。"
+        "division-mcq-02": "本句的「division」指「分裂來源 cause」。",
+        "division-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-02"
     },
@@ -1478,11 +1462,9 @@ export default {
       "masked": "Unfair treatment can become a major source of ____.",
       "options": [
         "division-mcq-02",
-        "division-mcq-01",
-        "division-mcq-03",
-        "division-mcq-04",
-        "division-mcq-05",
-        "division-mcq-06"
+        "division-mcq-57",
+        "division-mcq-69",
+        "division-mcq-58"
       ],
       "explanation": "本句的「division」指「分裂來源 cause」。",
       "sentenceIndex": 4,
@@ -1491,12 +1473,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-02": "本句指「分裂來源 cause」。",
-        "division-mcq-01": "「分裂；不和 passage sense」與本句語境不同。",
-        "division-mcq-03": "「造成分裂 social separation」與本句語境不同。",
-        "division-mcq-04": "「加深分裂 worsening」與本句語境不同。",
-        "division-mcq-05": "「彌合裂痕 repair」與本句語境不同。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。"
+        "division-mcq-02": "本句的「division」指「分裂來源 cause」。",
+        "division-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-02"
     },
@@ -1508,11 +1488,9 @@ export default {
       "masked": "Favouritism can cause ____ among employees.",
       "options": [
         "division-mcq-03",
-        "division-mcq-02",
-        "division-mcq-04",
-        "division-mcq-01",
-        "division-mcq-05",
-        "division-mcq-06"
+        "division-mcq-48",
+        "division-mcq-54",
+        "division-mcq-61"
       ],
       "explanation": "本句的「division」指「造成分裂 social separation」。",
       "sentenceIndex": 5,
@@ -1521,12 +1499,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-03": "本句指「造成分裂 social separation」。",
-        "division-mcq-02": "「分裂來源 cause」與本句語境不同。",
-        "division-mcq-04": "「加深分裂 worsening」與本句語境不同。",
-        "division-mcq-01": "「分裂；不和 passage sense」與本句語境不同。",
-        "division-mcq-05": "「彌合裂痕 repair」與本句語境不同。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。"
+        "division-mcq-03": "本句的「division」指「造成分裂 social separation」。",
+        "division-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-03"
     },
@@ -1538,11 +1514,9 @@ export default {
       "masked": "The decision caused deep ____ within the organisation.",
       "options": [
         "division-mcq-03",
-        "division-mcq-02",
-        "division-mcq-04",
-        "division-mcq-01",
-        "division-mcq-05",
-        "division-mcq-06"
+        "division-mcq-53",
+        "division-mcq-57",
+        "division-mcq-69"
       ],
       "explanation": "本句的「division」指「造成分裂 social separation」。",
       "sentenceIndex": 6,
@@ -1551,12 +1525,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-03": "本句指「造成分裂 social separation」。",
-        "division-mcq-02": "「分裂來源 cause」與本句語境不同。",
-        "division-mcq-04": "「加深分裂 worsening」與本句語境不同。",
-        "division-mcq-01": "「分裂；不和 passage sense」與本句語境不同。",
-        "division-mcq-05": "「彌合裂痕 repair」與本句語境不同。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。"
+        "division-mcq-03": "本句的「division」指「造成分裂 social separation」。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-03"
     },
@@ -1568,11 +1540,9 @@ export default {
       "masked": "Unclear reward systems can create ____.",
       "options": [
         "division-mcq-03",
-        "division-mcq-02",
-        "division-mcq-04",
-        "division-mcq-01",
-        "division-mcq-05",
-        "division-mcq-06"
+        "division-mcq-55",
+        "division-mcq-54",
+        "division-mcq-58"
       ],
       "explanation": "本句的「division」指「造成分裂 social separation」。",
       "sentenceIndex": 7,
@@ -1581,12 +1551,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-03": "本句指「造成分裂 social separation」。",
-        "division-mcq-02": "「分裂來源 cause」與本句語境不同。",
-        "division-mcq-04": "「加深分裂 worsening」與本句語境不同。",
-        "division-mcq-01": "「分裂；不和 passage sense」與本句語境不同。",
-        "division-mcq-05": "「彌合裂痕 repair」與本句語境不同。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。"
+        "division-mcq-03": "本句的「division」指「造成分裂 social separation」。",
+        "division-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-03"
     },
@@ -1598,11 +1566,9 @@ export default {
       "masked": "Competition for credit created ____ between team members.",
       "options": [
         "division-mcq-03",
-        "division-mcq-02",
-        "division-mcq-04",
-        "division-mcq-01",
-        "division-mcq-05",
-        "division-mcq-06"
+        "division-mcq-68",
+        "division-mcq-57",
+        "division-mcq-64"
       ],
       "explanation": "本句的「division」指「造成分裂 social separation」。",
       "sentenceIndex": 8,
@@ -1611,12 +1577,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-03": "本句指「造成分裂 social separation」。",
-        "division-mcq-02": "「分裂來源 cause」與本句語境不同。",
-        "division-mcq-04": "「加深分裂 worsening」與本句語境不同。",
-        "division-mcq-01": "「分裂；不和 passage sense」與本句語境不同。",
-        "division-mcq-05": "「彌合裂痕 repair」與本句語境不同。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。"
+        "division-mcq-03": "本句的「division」指「造成分裂 social separation」。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-03"
     },
@@ -1628,11 +1592,9 @@ export default {
       "masked": "Public blame only deepened the ____.",
       "options": [
         "division-mcq-04",
-        "division-mcq-03",
-        "division-mcq-05",
-        "division-mcq-02",
-        "division-mcq-06",
-        "division-mcq-01"
+        "division-mcq-55",
+        "division-mcq-53",
+        "division-mcq-61"
       ],
       "explanation": "本句的「division」指「加深分裂 worsening」。",
       "sentenceIndex": 9,
@@ -1641,12 +1603,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-04": "本句指「加深分裂 worsening」。",
-        "division-mcq-03": "「造成分裂 social separation」與本句語境不同。",
-        "division-mcq-05": "「彌合裂痕 repair」與本句語境不同。",
-        "division-mcq-02": "「分裂來源 cause」與本句語境不同。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。",
-        "division-mcq-01": "「分裂；不和 passage sense」與本句語境不同。"
+        "division-mcq-04": "本句的「division」指「加深分裂 worsening」。",
+        "division-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-04"
     },
@@ -1658,11 +1618,9 @@ export default {
       "masked": "Repeated conflict deepened ____ within the group.",
       "options": [
         "division-mcq-04",
-        "division-mcq-03",
-        "division-mcq-05",
-        "division-mcq-02",
-        "division-mcq-06",
-        "division-mcq-01"
+        "division-mcq-55",
+        "division-mcq-58",
+        "division-mcq-68"
       ],
       "explanation": "本句的「divisions」指「加深分裂 worsening」。",
       "sentenceIndex": 10,
@@ -1671,12 +1629,10 @@ export default {
         "divisions"
       ],
       "optionReasons": {
-        "division-mcq-04": "本句指「加深分裂 worsening」。",
-        "division-mcq-03": "「造成分裂 social separation」與本句語境不同。",
-        "division-mcq-05": "「彌合裂痕 repair」與本句語境不同。",
-        "division-mcq-02": "「分裂來源 cause」與本句語境不同。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。",
-        "division-mcq-01": "「分裂；不和 passage sense」與本句語境不同。"
+        "division-mcq-04": "本句的「divisions」指「加深分裂 worsening」。",
+        "division-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-04"
     },
@@ -1688,11 +1644,9 @@ export default {
       "masked": "Honest dialogue can heal ____.",
       "options": [
         "division-mcq-05",
-        "division-mcq-04",
-        "division-mcq-06",
-        "division-mcq-03",
-        "division-mcq-07",
-        "division-mcq-02"
+        "division-mcq-56",
+        "division-mcq-53",
+        "division-mcq-61"
       ],
       "explanation": "本句的「divisions」指「彌合裂痕 repair」。",
       "sentenceIndex": 15,
@@ -1701,12 +1655,10 @@ export default {
         "divisions"
       ],
       "optionReasons": {
-        "division-mcq-05": "本句指「彌合裂痕 repair」。",
-        "division-mcq-04": "「加深分裂 worsening」與本句語境不同。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。",
-        "division-mcq-03": "「造成分裂 social separation」與本句語境不同。",
-        "division-mcq-07": "「內部分裂 group」與本句語境不同。",
-        "division-mcq-02": "「分裂來源 cause」與本句語境不同。"
+        "division-mcq-05": "本句的「divisions」指「彌合裂痕 repair」。",
+        "division-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-05"
     },
@@ -1718,11 +1670,9 @@ export default {
       "masked": "It took years to heal the ____ within the organisation.",
       "options": [
         "division-mcq-05",
-        "division-mcq-04",
-        "division-mcq-06",
-        "division-mcq-03",
-        "division-mcq-07",
-        "division-mcq-02"
+        "division-mcq-24",
+        "division-mcq-53",
+        "division-mcq-57"
       ],
       "explanation": "本句的「divisions」指「彌合裂痕 repair」。",
       "sentenceIndex": 16,
@@ -1731,12 +1681,10 @@ export default {
         "divisions"
       ],
       "optionReasons": {
-        "division-mcq-05": "本句指「彌合裂痕 repair」。",
-        "division-mcq-04": "「加深分裂 worsening」與本句語境不同。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。",
-        "division-mcq-03": "「造成分裂 social separation」與本句語境不同。",
-        "division-mcq-07": "「內部分裂 group」與本句語境不同。",
-        "division-mcq-02": "「分裂來源 cause」與本句語境不同。"
+        "division-mcq-05": "本句的「divisions」指「彌合裂痕 repair」。",
+        "division-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-05"
     },
@@ -1748,11 +1696,9 @@ export default {
       "masked": "Rumours can sow ____ among colleagues.",
       "options": [
         "division-mcq-06",
-        "division-mcq-05",
-        "division-mcq-07",
-        "division-mcq-04",
-        "division-mcq-08",
-        "division-mcq-03"
+        "division-mcq-56",
+        "division-mcq-61",
+        "division-mcq-65"
       ],
       "explanation": "本句的「division」指「製造分裂 provoke」。",
       "sentenceIndex": 17,
@@ -1761,12 +1707,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-06": "本句指「製造分裂 provoke」。",
-        "division-mcq-05": "「彌合裂痕 repair」與本句語境不同。",
-        "division-mcq-07": "「內部分裂 group」與本句語境不同。",
-        "division-mcq-04": "「加深分裂 worsening」與本句語境不同。",
-        "division-mcq-08": "「群體間分歧 separation」與本句語境不同。",
-        "division-mcq-03": "「造成分裂 social separation」與本句語境不同。"
+        "division-mcq-06": "本句的「division」指「製造分裂 provoke」。",
+        "division-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-06"
     },
@@ -1778,11 +1722,9 @@ export default {
       "masked": "The message was criticised for sowing ____.",
       "options": [
         "division-mcq-06",
-        "division-mcq-05",
-        "division-mcq-07",
-        "division-mcq-04",
-        "division-mcq-08",
-        "division-mcq-03"
+        "division-mcq-56",
+        "division-mcq-53",
+        "division-mcq-54"
       ],
       "explanation": "本句的「division」指「製造分裂 provoke」。",
       "sentenceIndex": 18,
@@ -1791,12 +1733,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-06": "本句指「製造分裂 provoke」。",
-        "division-mcq-05": "「彌合裂痕 repair」與本句語境不同。",
-        "division-mcq-07": "「內部分裂 group」與本句語境不同。",
-        "division-mcq-04": "「加深分裂 worsening」與本句語境不同。",
-        "division-mcq-08": "「群體間分歧 separation」與本句語境不同。",
-        "division-mcq-03": "「造成分裂 social separation」與本句語境不同。"
+        "division-mcq-06": "本句的「division」指「製造分裂 provoke」。",
+        "division-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-06"
     },
@@ -1808,10 +1748,8 @@ export default {
       "masked": "The policy increased ____ between departments.",
       "options": [
         "division-mcq-08",
-        "division-mcq-07",
-        "division-mcq-09",
-        "division-mcq-06",
-        "division-mcq-10",
+        "division-mcq-45",
+        "division-mcq-55",
         "division-mcq-05"
       ],
       "explanation": "本句的「division」指「群體間分歧 separation」。",
@@ -1821,12 +1759,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-08": "本句指「群體間分歧 separation」。",
-        "division-mcq-07": "「內部分裂 group」與本句語境不同。",
-        "division-mcq-09": "「意見分歧 views」與本句語境不同。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。",
-        "division-mcq-10": "「社會分化 society」與本句語境不同。",
-        "division-mcq-05": "「彌合裂痕 repair」與本句語境不同。"
+        "division-mcq-08": "本句的「division」指「群體間分歧 separation」。",
+        "division-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-08"
     },
@@ -1838,11 +1774,9 @@ export default {
       "masked": "Better communication reduced ____ between staff and management.",
       "options": [
         "division-mcq-08",
-        "division-mcq-07",
-        "division-mcq-09",
-        "division-mcq-06",
-        "division-mcq-10",
-        "division-mcq-05"
+        "division-mcq-69",
+        "division-mcq-58",
+        "division-mcq-64"
       ],
       "explanation": "本句的「division」指「群體間分歧 separation」。",
       "sentenceIndex": 22,
@@ -1851,12 +1785,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-08": "本句指「群體間分歧 separation」。",
-        "division-mcq-07": "「內部分裂 group」與本句語境不同。",
-        "division-mcq-09": "「意見分歧 views」與本句語境不同。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。",
-        "division-mcq-10": "「社會分化 society」與本句語境不同。",
-        "division-mcq-05": "「彌合裂痕 repair」與本句語境不同。"
+        "division-mcq-08": "本句的「division」指「群體間分歧 separation」。",
+        "division-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-08"
     },
@@ -1868,11 +1800,9 @@ export default {
       "masked": "Internal ____ weakened the organisation.",
       "options": [
         "division-mcq-07",
-        "division-mcq-06",
-        "division-mcq-08",
-        "division-mcq-05",
-        "division-mcq-09",
-        "division-mcq-04"
+        "division-mcq-69",
+        "division-mcq-55",
+        "division-mcq-64"
       ],
       "explanation": "本句的「division」指「內部分裂 group」。",
       "sentenceIndex": 25,
@@ -1881,12 +1811,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-07": "本句指「內部分裂 group」。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。",
-        "division-mcq-08": "「群體間分歧 separation」與本句語境不同。",
-        "division-mcq-05": "「彌合裂痕 repair」與本句語境不同。",
-        "division-mcq-09": "「意見分歧 views」與本句語境不同。",
-        "division-mcq-04": "「加深分裂 worsening」與本句語境不同。"
+        "division-mcq-07": "本句的「division」指「內部分裂 group」。",
+        "division-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-07"
     },
@@ -1898,11 +1826,9 @@ export default {
       "masked": "Successful leaders try to prevent internal ____.",
       "options": [
         "division-mcq-07",
-        "division-mcq-06",
-        "division-mcq-08",
-        "division-mcq-05",
-        "division-mcq-09",
-        "division-mcq-04"
+        "division-mcq-53",
+        "division-mcq-69",
+        "division-mcq-58"
       ],
       "explanation": "本句的「division」指「內部分裂 group」。",
       "sentenceIndex": 26,
@@ -1911,12 +1837,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-07": "本句指「內部分裂 group」。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。",
-        "division-mcq-08": "「群體間分歧 separation」與本句語境不同。",
-        "division-mcq-05": "「彌合裂痕 repair」與本句語境不同。",
-        "division-mcq-09": "「意見分歧 views」與本句語境不同。",
-        "division-mcq-04": "「加深分裂 worsening」與本句語境不同。"
+        "division-mcq-07": "本句的「division」指「內部分裂 group」。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-07"
     },
@@ -1928,11 +1852,9 @@ export default {
       "masked": "There was clear ____ of opinion over the proposal.",
       "options": [
         "division-mcq-09",
-        "division-mcq-08",
-        "division-mcq-10",
-        "division-mcq-07",
-        "division-mcq-11",
-        "division-mcq-06"
+        "division-mcq-69",
+        "division-mcq-05",
+        "division-mcq-56"
       ],
       "explanation": "本句的「division」指「意見分歧 views」。",
       "sentenceIndex": 27,
@@ -1941,12 +1863,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-09": "本句指「意見分歧 views」。",
-        "division-mcq-08": "「群體間分歧 separation」與本句語境不同。",
-        "division-mcq-10": "「社會分化 society」與本句語境不同。",
-        "division-mcq-07": "「內部分裂 group」與本句語境不同。",
-        "division-mcq-11": "「階級分化 class」與本句語境不同。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。"
+        "division-mcq-09": "本句的「division」指「意見分歧 views」。",
+        "division-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-09"
     },
@@ -1958,11 +1878,9 @@ export default {
       "masked": "The issue produced a sharp ____ of opinion.",
       "options": [
         "division-mcq-09",
-        "division-mcq-08",
-        "division-mcq-10",
-        "division-mcq-07",
-        "division-mcq-11",
-        "division-mcq-06"
+        "division-mcq-64",
+        "division-mcq-55",
+        "division-mcq-58"
       ],
       "explanation": "本句的「division」指「意見分歧 views」。",
       "sentenceIndex": 28,
@@ -1971,12 +1889,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-09": "本句指「意見分歧 views」。",
-        "division-mcq-08": "「群體間分歧 separation」與本句語境不同。",
-        "division-mcq-10": "「社會分化 society」與本句語境不同。",
-        "division-mcq-07": "「內部分裂 group」與本句語境不同。",
-        "division-mcq-11": "「階級分化 class」與本句語境不同。",
-        "division-mcq-06": "「製造分裂 provoke」與本句語境不同。"
+        "division-mcq-09": "本句的「division」指「意見分歧 views」。",
+        "division-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-09"
     },
@@ -1988,11 +1904,9 @@ export default {
       "masked": "Income inequality can contribute to social ____.",
       "options": [
         "division-mcq-10",
-        "division-mcq-09",
-        "division-mcq-11",
-        "division-mcq-08",
-        "division-mcq-12",
-        "division-mcq-07"
+        "division-mcq-68",
+        "division-mcq-44",
+        "division-mcq-69"
       ],
       "explanation": "本句的「division」指「社會分化 society」。",
       "sentenceIndex": 29,
@@ -2001,12 +1915,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-10": "本句指「社會分化 society」。",
-        "division-mcq-09": "「意見分歧 views」與本句語境不同。",
-        "division-mcq-11": "「階級分化 class」與本句語境不同。",
-        "division-mcq-08": "「群體間分歧 separation」與本句語境不同。",
-        "division-mcq-12": "「宗教分歧 religion」與本句語境不同。",
-        "division-mcq-07": "「內部分裂 group」與本句語境不同。"
+        "division-mcq-10": "本句的「division」指「社會分化 society」。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-10"
     },
@@ -2018,11 +1930,9 @@ export default {
       "masked": "The programme aims to reduce social ____.",
       "options": [
         "division-mcq-10",
-        "division-mcq-09",
-        "division-mcq-11",
-        "division-mcq-08",
-        "division-mcq-12",
-        "division-mcq-07"
+        "division-mcq-05",
+        "division-mcq-69",
+        "division-mcq-53"
       ],
       "explanation": "本句的「divisions」指「社會分化 society」。",
       "sentenceIndex": 30,
@@ -2031,12 +1941,10 @@ export default {
         "divisions"
       ],
       "optionReasons": {
-        "division-mcq-10": "本句指「社會分化 society」。",
-        "division-mcq-09": "「意見分歧 views」與本句語境不同。",
-        "division-mcq-11": "「階級分化 class」與本句語境不同。",
-        "division-mcq-08": "「群體間分歧 separation」與本句語境不同。",
-        "division-mcq-12": "「宗教分歧 religion」與本句語境不同。",
-        "division-mcq-07": "「內部分裂 group」與本句語境不同。"
+        "division-mcq-10": "本句的「divisions」指「社會分化 society」。",
+        "division-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-10"
     },
@@ -2048,11 +1956,9 @@ export default {
       "masked": "The novel explores class ____.",
       "options": [
         "division-mcq-11",
-        "division-mcq-10",
-        "division-mcq-12",
-        "division-mcq-09",
-        "division-mcq-13",
-        "division-mcq-08"
+        "division-mcq-65",
+        "division-mcq-05",
+        "division-mcq-56"
       ],
       "explanation": "本句的「divisions」指「階級分化 class」。",
       "sentenceIndex": 31,
@@ -2061,12 +1967,10 @@ export default {
         "divisions"
       ],
       "optionReasons": {
-        "division-mcq-11": "本句指「階級分化 class」。",
-        "division-mcq-10": "「社會分化 society」與本句語境不同。",
-        "division-mcq-12": "「宗教分歧 religion」與本句語境不同。",
-        "division-mcq-09": "「意見分歧 views」與本句語境不同。",
-        "division-mcq-13": "「政治分歧 politics」與本句語境不同。",
-        "division-mcq-08": "「群體間分歧 separation」與本句語境不同。"
+        "division-mcq-11": "本句的「divisions」指「階級分化 class」。",
+        "division-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-11"
     },
@@ -2078,11 +1982,9 @@ export default {
       "masked": "Economic inequality may reinforce class ____.",
       "options": [
         "division-mcq-11",
-        "division-mcq-10",
-        "division-mcq-12",
-        "division-mcq-09",
-        "division-mcq-13",
-        "division-mcq-08"
+        "division-mcq-58",
+        "division-mcq-45",
+        "division-mcq-56"
       ],
       "explanation": "本句的「divisions」指「階級分化 class」。",
       "sentenceIndex": 32,
@@ -2091,12 +1993,10 @@ export default {
         "divisions"
       ],
       "optionReasons": {
-        "division-mcq-11": "本句指「階級分化 class」。",
-        "division-mcq-10": "「社會分化 society」與本句語境不同。",
-        "division-mcq-12": "「宗教分歧 religion」與本句語境不同。",
-        "division-mcq-09": "「意見分歧 views」與本句語境不同。",
-        "division-mcq-13": "「政治分歧 politics」與本句語境不同。",
-        "division-mcq-08": "「群體間分歧 separation」與本句語境不同。"
+        "division-mcq-11": "本句的「divisions」指「階級分化 class」。",
+        "division-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-11"
     },
@@ -2108,11 +2008,9 @@ export default {
       "masked": "The community experienced deep religious ____.",
       "options": [
         "division-mcq-12",
-        "division-mcq-11",
-        "division-mcq-13",
-        "division-mcq-10",
-        "division-mcq-14",
-        "division-mcq-09"
+        "division-mcq-64",
+        "division-mcq-56",
+        "division-mcq-05"
       ],
       "explanation": "本句的「divisions」指「宗教分歧 religion」。",
       "sentenceIndex": 33,
@@ -2121,12 +2019,10 @@ export default {
         "divisions"
       ],
       "optionReasons": {
-        "division-mcq-12": "本句指「宗教分歧 religion」。",
-        "division-mcq-11": "「階級分化 class」與本句語境不同。",
-        "division-mcq-13": "「政治分歧 politics」與本句語境不同。",
-        "division-mcq-10": "「社會分化 society」與本句語境不同。",
-        "division-mcq-14": "「令團隊分裂 verb」與本句語境不同。",
-        "division-mcq-09": "「意見分歧 views」與本句語境不同。"
+        "division-mcq-12": "本句的「divisions」指「宗教分歧 religion」。",
+        "division-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-12"
     },
@@ -2138,11 +2034,9 @@ export default {
       "masked": "Dialogue helped reduce religious ____.",
       "options": [
         "division-mcq-12",
-        "division-mcq-11",
-        "division-mcq-13",
-        "division-mcq-10",
-        "division-mcq-14",
-        "division-mcq-09"
+        "division-mcq-68",
+        "division-mcq-57",
+        "division-mcq-64"
       ],
       "explanation": "本句的「division」指「宗教分歧 religion」。",
       "sentenceIndex": 34,
@@ -2151,12 +2045,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-12": "本句指「宗教分歧 religion」。",
-        "division-mcq-11": "「階級分化 class」與本句語境不同。",
-        "division-mcq-13": "「政治分歧 politics」與本句語境不同。",
-        "division-mcq-10": "「社會分化 society」與本句語境不同。",
-        "division-mcq-14": "「令團隊分裂 verb」與本句語境不同。",
-        "division-mcq-09": "「意見分歧 views」與本句語境不同。"
+        "division-mcq-12": "本句的「division」指「宗教分歧 religion」。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-12"
     },
@@ -2168,11 +2060,9 @@ export default {
       "masked": "The issue caused significant political ____.",
       "options": [
         "division-mcq-13",
-        "division-mcq-12",
-        "division-mcq-14",
-        "division-mcq-11",
-        "division-mcq-15",
-        "division-mcq-10"
+        "division-mcq-57",
+        "division-mcq-69",
+        "division-mcq-68"
       ],
       "explanation": "本句的「division」指「政治分歧 politics」。",
       "sentenceIndex": 37,
@@ -2181,12 +2071,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-13": "本句指「政治分歧 politics」。",
-        "division-mcq-12": "「宗教分歧 religion」與本句語境不同。",
-        "division-mcq-14": "「令團隊分裂 verb」與本句語境不同。",
-        "division-mcq-11": "「階級分化 class」與本句語境不同。",
-        "division-mcq-15": "「令意見分化 disagreement」與本句語境不同。",
-        "division-mcq-10": "「社會分化 society」與本句語境不同。"
+        "division-mcq-13": "本句的「division」指「政治分歧 politics」。",
+        "division-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-13"
     },
@@ -2198,11 +2086,9 @@ export default {
       "masked": "Political ____ can affect workplace discussions too.",
       "options": [
         "division-mcq-13",
-        "division-mcq-12",
-        "division-mcq-14",
-        "division-mcq-11",
-        "division-mcq-15",
-        "division-mcq-10"
+        "division-mcq-56",
+        "division-mcq-48",
+        "division-mcq-53"
       ],
       "explanation": "本句的「divisions」指「政治分歧 politics」。",
       "sentenceIndex": 38,
@@ -2211,12 +2097,10 @@ export default {
         "divisions"
       ],
       "optionReasons": {
-        "division-mcq-13": "本句指「政治分歧 politics」。",
-        "division-mcq-12": "「宗教分歧 religion」與本句語境不同。",
-        "division-mcq-14": "「令團隊分裂 verb」與本句語境不同。",
-        "division-mcq-11": "「階級分化 class」與本句語境不同。",
-        "division-mcq-15": "「令意見分化 disagreement」與本句語境不同。",
-        "division-mcq-10": "「社會分化 society」與本句語境不同。"
+        "division-mcq-13": "本句的「divisions」指「政治分歧 politics」。",
+        "division-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-13"
     },
@@ -2228,11 +2112,9 @@ export default {
       "masked": "The team needs a clear ____ of labour.",
       "options": [
         "division-mcq-24",
-        "division-mcq-23",
-        "division-mcq-25",
-        "division-mcq-22",
-        "division-mcq-26",
-        "division-mcq-21"
+        "division-mcq-69",
+        "division-mcq-48",
+        "division-mcq-55"
       ],
       "explanation": "本句的「division」指「分工 specialization」。",
       "sentenceIndex": 43,
@@ -2241,12 +2123,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-24": "本句指「分工 specialization」。",
-        "division-mcq-23": "「分配工作量 work」與本句語境不同。",
-        "division-mcq-25": "「工作分工 workplace」與本句語境不同。",
-        "division-mcq-22": "「在……之間分配 distribution」與本句語境不同。",
-        "division-mcq-26": "「責任分工 responsibility」與本句語境不同。",
-        "division-mcq-21": "「劃分成部分 structure」與本句語境不同。"
+        "division-mcq-24": "本句的「division」指「分工 specialization」。",
+        "division-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-24"
     },
@@ -2258,11 +2138,9 @@ export default {
       "masked": "____ of labour allows people to specialise.",
       "options": [
         "division-mcq-24",
-        "division-mcq-23",
-        "division-mcq-25",
-        "division-mcq-22",
-        "division-mcq-26",
-        "division-mcq-21"
+        "division-mcq-54",
+        "division-mcq-56",
+        "division-mcq-68"
       ],
       "explanation": "本句的「Division」指「分工 specialization」。",
       "sentenceIndex": 44,
@@ -2271,12 +2149,10 @@ export default {
         "Division"
       ],
       "optionReasons": {
-        "division-mcq-24": "本句指「分工 specialization」。",
-        "division-mcq-23": "「分配工作量 work」與本句語境不同。",
-        "division-mcq-25": "「工作分工 workplace」與本句語境不同。",
-        "division-mcq-22": "「在……之間分配 distribution」與本句語境不同。",
-        "division-mcq-26": "「責任分工 responsibility」與本句語境不同。",
-        "division-mcq-21": "「劃分成部分 structure」與本句語境不同。"
+        "division-mcq-24": "本句的「Division」指「分工 specialization」。",
+        "division-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-24"
     },
@@ -2288,11 +2164,9 @@ export default {
       "masked": "The ____ of work should be agreed in advance.",
       "options": [
         "division-mcq-25",
-        "division-mcq-24",
-        "division-mcq-26",
-        "division-mcq-23",
-        "division-mcq-27",
-        "division-mcq-22"
+        "division-mcq-64",
+        "division-mcq-61",
+        "division-mcq-55"
       ],
       "explanation": "本句的「division」指「工作分工 workplace」。",
       "sentenceIndex": 45,
@@ -2301,12 +2175,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-25": "本句指「工作分工 workplace」。",
-        "division-mcq-24": "「分工 specialization」與本句語境不同。",
-        "division-mcq-26": "「責任分工 responsibility」與本句語境不同。",
-        "division-mcq-23": "「分配工作量 work」與本句語境不同。",
-        "division-mcq-27": "「職責分配 duties」與本句語境不同。",
-        "division-mcq-22": "「在……之間分配 distribution」與本句語境不同。"
+        "division-mcq-25": "本句的「division」指「工作分工 workplace」。",
+        "division-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-25"
     },
@@ -2318,11 +2190,9 @@ export default {
       "masked": "Poor ____ of work can create resentment.",
       "options": [
         "division-mcq-25",
-        "division-mcq-24",
-        "division-mcq-26",
-        "division-mcq-23",
-        "division-mcq-27",
-        "division-mcq-22"
+        "division-mcq-53",
+        "division-mcq-56",
+        "division-mcq-54"
       ],
       "explanation": "本句的「division」指「工作分工 workplace」。",
       "sentenceIndex": 46,
@@ -2331,12 +2201,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-25": "本句指「工作分工 workplace」。",
-        "division-mcq-24": "「分工 specialization」與本句語境不同。",
-        "division-mcq-26": "「責任分工 responsibility」與本句語境不同。",
-        "division-mcq-23": "「分配工作量 work」與本句語境不同。",
-        "division-mcq-27": "「職責分配 duties」與本句語境不同。",
-        "division-mcq-22": "「在……之間分配 distribution」與本句語境不同。"
+        "division-mcq-25": "本句的「division」指「工作分工 workplace」。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-25"
     },
@@ -2348,11 +2216,9 @@ export default {
       "masked": "The contract defines the ____ of responsibility.",
       "options": [
         "division-mcq-26",
-        "division-mcq-25",
-        "division-mcq-27",
-        "division-mcq-24",
-        "division-mcq-28",
-        "division-mcq-23"
+        "division-mcq-57",
+        "division-mcq-54",
+        "division-mcq-68"
       ],
       "explanation": "本句的「division」指「責任分工 responsibility」。",
       "sentenceIndex": 47,
@@ -2361,12 +2227,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-26": "本句指「責任分工 responsibility」。",
-        "division-mcq-25": "「工作分工 workplace」與本句語境不同。",
-        "division-mcq-27": "「職責分配 duties」與本句語境不同。",
-        "division-mcq-24": "「分工 specialization」與本句語境不同。",
-        "division-mcq-28": "「資產分割 legal/finance」與本句語境不同。",
-        "division-mcq-23": "「分配工作量 work」與本句語境不同。"
+        "division-mcq-26": "本句的「division」指「責任分工 responsibility」。",
+        "division-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-26"
     },
@@ -2378,11 +2242,9 @@ export default {
       "masked": "A clear ____ of responsibility prevents duplication.",
       "options": [
         "division-mcq-26",
-        "division-mcq-25",
-        "division-mcq-27",
-        "division-mcq-24",
-        "division-mcq-28",
-        "division-mcq-23"
+        "division-mcq-65",
+        "division-mcq-48",
+        "division-mcq-61"
       ],
       "explanation": "本句的「division」指「責任分工 responsibility」。",
       "sentenceIndex": 48,
@@ -2391,12 +2253,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-26": "本句指「責任分工 responsibility」。",
-        "division-mcq-25": "「工作分工 workplace」與本句語境不同。",
-        "division-mcq-27": "「職責分配 duties」與本句語境不同。",
-        "division-mcq-24": "「分工 specialization」與本句語境不同。",
-        "division-mcq-28": "「資產分割 legal/finance」與本句語境不同。",
-        "division-mcq-23": "「分配工作量 work」與本句語境不同。"
+        "division-mcq-26": "本句的「division」指「責任分工 responsibility」。",
+        "division-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-26"
     },
@@ -2408,11 +2268,9 @@ export default {
       "masked": "The manager explained the ____ of duties.",
       "options": [
         "division-mcq-27",
-        "division-mcq-26",
-        "division-mcq-28",
-        "division-mcq-25",
-        "division-mcq-29",
-        "division-mcq-24"
+        "division-mcq-61",
+        "division-mcq-58",
+        "division-mcq-55"
       ],
       "explanation": "本句的「division」指「職責分配 duties」。",
       "sentenceIndex": 49,
@@ -2421,12 +2279,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-27": "本句指「職責分配 duties」。",
-        "division-mcq-26": "「責任分工 responsibility」與本句語境不同。",
-        "division-mcq-28": "「資產分割 legal/finance」與本句語境不同。",
-        "division-mcq-25": "「工作分工 workplace」與本句語境不同。",
-        "division-mcq-29": "「財產分割 law」與本句語境不同。",
-        "division-mcq-24": "「分工 specialization」與本句語境不同。"
+        "division-mcq-27": "本句的「division」指「職責分配 duties」。",
+        "division-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-27"
     },
@@ -2438,11 +2294,9 @@ export default {
       "masked": "The ____ of duties changed after the restructuring.",
       "options": [
         "division-mcq-27",
-        "division-mcq-26",
-        "division-mcq-28",
-        "division-mcq-25",
-        "division-mcq-29",
-        "division-mcq-24"
+        "division-mcq-55",
+        "division-mcq-65",
+        "division-mcq-68"
       ],
       "explanation": "本句的「division」指「職責分配 duties」。",
       "sentenceIndex": 50,
@@ -2451,12 +2305,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-27": "本句指「職責分配 duties」。",
-        "division-mcq-26": "「責任分工 responsibility」與本句語境不同。",
-        "division-mcq-28": "「資產分割 legal/finance」與本句語境不同。",
-        "division-mcq-25": "「工作分工 workplace」與本句語境不同。",
-        "division-mcq-29": "「財產分割 law」與本句語境不同。",
-        "division-mcq-24": "「分工 specialization」與本句語境不同。"
+        "division-mcq-27": "本句的「division」指「職責分配 duties」。",
+        "division-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-27"
     },
@@ -2468,11 +2320,9 @@ export default {
       "masked": "The agreement covers the ____ of assets.",
       "options": [
         "division-mcq-28",
-        "division-mcq-27",
-        "division-mcq-29",
-        "division-mcq-26",
-        "division-mcq-30",
-        "division-mcq-25"
+        "division-mcq-57",
+        "division-mcq-53",
+        "division-mcq-48"
       ],
       "explanation": "本句的「division」指「資產分割 legal/finance」。",
       "sentenceIndex": 51,
@@ -2481,12 +2331,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-28": "本句指「資產分割 legal/finance」。",
-        "division-mcq-27": "「職責分配 duties」與本句語境不同。",
-        "division-mcq-29": "「財產分割 law」與本句語境不同。",
-        "division-mcq-26": "「責任分工 responsibility」與本句語境不同。",
-        "division-mcq-30": "「利潤分配 finance」與本句語境不同。",
-        "division-mcq-25": "「工作分工 workplace」與本句語境不同。"
+        "division-mcq-28": "本句的「division」指「資產分割 legal/finance」。",
+        "division-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-28"
     },
@@ -2498,11 +2346,9 @@ export default {
       "masked": "The parties disagreed over the ____ of assets.",
       "options": [
         "division-mcq-28",
-        "division-mcq-27",
-        "division-mcq-29",
-        "division-mcq-26",
-        "division-mcq-30",
-        "division-mcq-25"
+        "division-mcq-48",
+        "division-mcq-53",
+        "division-mcq-57"
       ],
       "explanation": "本句的「division」指「資產分割 legal/finance」。",
       "sentenceIndex": 52,
@@ -2511,12 +2357,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-28": "本句指「資產分割 legal/finance」。",
-        "division-mcq-27": "「職責分配 duties」與本句語境不同。",
-        "division-mcq-29": "「財產分割 law」與本句語境不同。",
-        "division-mcq-26": "「責任分工 responsibility」與本句語境不同。",
-        "division-mcq-30": "「利潤分配 finance」與本句語境不同。",
-        "division-mcq-25": "「工作分工 workplace」與本句語境不同。"
+        "division-mcq-28": "本句的「division」指「資產分割 legal/finance」。",
+        "division-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-28"
     },
@@ -2528,11 +2372,9 @@ export default {
       "masked": "The court considered the ____ of property.",
       "options": [
         "division-mcq-29",
-        "division-mcq-28",
-        "division-mcq-30",
-        "division-mcq-27",
-        "division-mcq-31",
-        "division-mcq-26"
+        "division-mcq-53",
+        "division-mcq-54",
+        "division-mcq-58"
       ],
       "explanation": "本句的「division」指「財產分割 law」。",
       "sentenceIndex": 53,
@@ -2541,12 +2383,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-29": "本句指「財產分割 law」。",
-        "division-mcq-28": "「資產分割 legal/finance」與本句語境不同。",
-        "division-mcq-30": "「利潤分配 finance」與本句語境不同。",
-        "division-mcq-27": "「職責分配 duties」與本句語境不同。",
-        "division-mcq-31": "「分配時間 time」與本句語境不同。",
-        "division-mcq-26": "「責任分工 responsibility」與本句語境不同。"
+        "division-mcq-29": "本句的「division」指「財產分割 law」。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-29"
     },
@@ -2558,11 +2398,9 @@ export default {
       "masked": "Property ____ rules vary by jurisdiction.",
       "options": [
         "division-mcq-29",
-        "division-mcq-28",
-        "division-mcq-30",
-        "division-mcq-27",
-        "division-mcq-31",
-        "division-mcq-26"
+        "division-mcq-61",
+        "division-mcq-55",
+        "division-mcq-53"
       ],
       "explanation": "本句的「division」指「財產分割 law」。",
       "sentenceIndex": 54,
@@ -2571,12 +2409,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-29": "本句指「財產分割 law」。",
-        "division-mcq-28": "「資產分割 legal/finance」與本句語境不同。",
-        "division-mcq-30": "「利潤分配 finance」與本句語境不同。",
-        "division-mcq-27": "「職責分配 duties」與本句語境不同。",
-        "division-mcq-31": "「分配時間 time」與本句語境不同。",
-        "division-mcq-26": "「責任分工 responsibility」與本句語境不同。"
+        "division-mcq-29": "本句的「division」指「財產分割 law」。",
+        "division-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-29"
     },
@@ -2588,11 +2424,9 @@ export default {
       "masked": "The partners agreed on the ____ of profits.",
       "options": [
         "division-mcq-30",
-        "division-mcq-29",
-        "division-mcq-31",
-        "division-mcq-28",
-        "division-mcq-32",
-        "division-mcq-27"
+        "division-mcq-45",
+        "division-mcq-54",
+        "division-mcq-68"
       ],
       "explanation": "本句的「division」指「利潤分配 finance」。",
       "sentenceIndex": 55,
@@ -2601,12 +2435,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-30": "本句指「利潤分配 finance」。",
-        "division-mcq-29": "「財產分割 law」與本句語境不同。",
-        "division-mcq-31": "「分配時間 time」與本句語境不同。",
-        "division-mcq-28": "「資產分割 legal/finance」與本句語境不同。",
-        "division-mcq-32": "「注意力分散 cognition」與本句語境不同。",
-        "division-mcq-27": "「職責分配 duties」與本句語境不同。"
+        "division-mcq-30": "本句的「division」指「利潤分配 finance」。",
+        "division-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-30"
     },
@@ -2618,11 +2450,9 @@ export default {
       "masked": "The company created a new business ____.",
       "options": [
         "division-mcq-44",
-        "division-mcq-43",
-        "division-mcq-45",
-        "division-mcq-42",
-        "division-mcq-46",
-        "division-mcq-41"
+        "division-mcq-54",
+        "division-mcq-69",
+        "division-mcq-03"
       ],
       "explanation": "本句的「division」指「業務事業部 company」。",
       "sentenceIndex": 58,
@@ -2631,12 +2461,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-44": "本句指「業務事業部 company」。",
-        "division-mcq-43": "「事業部；分部 organisation」與本句語境不同。",
-        "division-mcq-45": "「產品事業部 company」與本句語境不同。",
-        "division-mcq-42": "「大陸分水嶺 geography」與本句語境不同。",
-        "division-mcq-46": "「地區分部 company」與本句語境不同。",
-        "division-mcq-41": "「分水嶺 watershed」與本句語境不同。"
+        "division-mcq-44": "本句的「division」指「業務事業部 company」。",
+        "division-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-44"
     },
@@ -2648,11 +2476,9 @@ export default {
       "masked": "Each business ____ has its own financial targets.",
       "options": [
         "division-mcq-44",
-        "division-mcq-43",
-        "division-mcq-45",
-        "division-mcq-42",
-        "division-mcq-46",
-        "division-mcq-41"
+        "division-mcq-28",
+        "division-mcq-03",
+        "division-mcq-13"
       ],
       "explanation": "本句的「division」指「業務事業部 company」。",
       "sentenceIndex": 59,
@@ -2661,12 +2487,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-44": "本句指「業務事業部 company」。",
-        "division-mcq-43": "「事業部；分部 organisation」與本句語境不同。",
-        "division-mcq-45": "「產品事業部 company」與本句語境不同。",
-        "division-mcq-42": "「大陸分水嶺 geography」與本句語境不同。",
-        "division-mcq-46": "「地區分部 company」與本句語境不同。",
-        "division-mcq-41": "「分水嶺 watershed」與本句語境不同。"
+        "division-mcq-44": "本句的「division」指「業務事業部 company」。",
+        "division-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-44"
     },
@@ -2678,11 +2502,9 @@ export default {
       "masked": "She manages the electronics product ____.",
       "options": [
         "division-mcq-45",
-        "division-mcq-44",
-        "division-mcq-46",
-        "division-mcq-43",
-        "division-mcq-47",
-        "division-mcq-42"
+        "division-mcq-11",
+        "division-mcq-04",
+        "division-mcq-30"
       ],
       "explanation": "本句的「division」指「產品事業部 company」。",
       "sentenceIndex": 60,
@@ -2691,12 +2513,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-45": "本句指「產品事業部 company」。",
-        "division-mcq-44": "「業務事業部 company」與本句語境不同。",
-        "division-mcq-46": "「地區分部 company」與本句語境不同。",
-        "division-mcq-43": "「事業部；分部 organisation」與本句語境不同。",
-        "division-mcq-47": "「分部／事業部的 adjective」與本句語境不同。",
-        "division-mcq-42": "「大陸分水嶺 geography」與本句語境不同。"
+        "division-mcq-45": "本句的「division」指「產品事業部 company」。",
+        "division-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-45"
     },
@@ -2708,11 +2528,9 @@ export default {
       "masked": "The product ____ has its own sales and marketing teams.",
       "options": [
         "division-mcq-45",
-        "division-mcq-44",
-        "division-mcq-46",
-        "division-mcq-43",
-        "division-mcq-47",
-        "division-mcq-42"
+        "division-mcq-55",
+        "division-mcq-59",
+        "division-mcq-13"
       ],
       "explanation": "本句的「division」指「產品事業部 company」。",
       "sentenceIndex": 61,
@@ -2721,12 +2539,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-45": "本句指「產品事業部 company」。",
-        "division-mcq-44": "「業務事業部 company」與本句語境不同。",
-        "division-mcq-46": "「地區分部 company」與本句語境不同。",
-        "division-mcq-43": "「事業部；分部 organisation」與本句語境不同。",
-        "division-mcq-47": "「分部／事業部的 adjective」與本句語境不同。",
-        "division-mcq-42": "「大陸分水嶺 geography」與本句語境不同。"
+        "division-mcq-45": "本句的「division」指「產品事業部 company」。",
+        "division-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-45"
     },
@@ -2738,11 +2554,9 @@ export default {
       "masked": "The Asia-Pacific ____ reported strong growth.",
       "options": [
         "division-mcq-46",
-        "division-mcq-45",
-        "division-mcq-47",
-        "division-mcq-44",
-        "division-mcq-48",
-        "division-mcq-43"
+        "division-mcq-68",
+        "division-mcq-53",
+        "division-mcq-69"
       ],
       "explanation": "本句的「division」指「地區分部 company」。",
       "sentenceIndex": 62,
@@ -2751,12 +2565,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-46": "本句指「地區分部 company」。",
-        "division-mcq-45": "「產品事業部 company」與本句語境不同。",
-        "division-mcq-47": "「分部／事業部的 adjective」與本句語境不同。",
-        "division-mcq-44": "「業務事業部 company」與本句語境不同。",
-        "division-mcq-48": "「事業部制架構 organisation design」與本句語境不同。",
-        "division-mcq-43": "「事業部；分部 organisation」與本句語境不同。"
+        "division-mcq-46": "本句的「division」指「地區分部 company」。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-46"
     },
@@ -2768,11 +2580,9 @@ export default {
       "masked": "Regional ____ adapt strategy to local markets.",
       "options": [
         "division-mcq-46",
-        "division-mcq-45",
-        "division-mcq-47",
-        "division-mcq-44",
-        "division-mcq-48",
-        "division-mcq-43"
+        "division-mcq-53",
+        "division-mcq-55",
+        "division-mcq-54"
       ],
       "explanation": "本句的「divisions」指「地區分部 company」。",
       "sentenceIndex": 63,
@@ -2781,12 +2591,10 @@ export default {
         "divisions"
       ],
       "optionReasons": {
-        "division-mcq-46": "本句指「地區分部 company」。",
-        "division-mcq-45": "「產品事業部 company」與本句語境不同。",
-        "division-mcq-47": "「分部／事業部的 adjective」與本句語境不同。",
-        "division-mcq-44": "「業務事業部 company」與本句語境不同。",
-        "division-mcq-48": "「事業部制架構 organisation design」與本句語境不同。",
-        "division-mcq-43": "「事業部；分部 organisation」與本句語境不同。"
+        "division-mcq-46": "本句的「divisions」指「地區分部 company」。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-46"
     },
@@ -2798,11 +2606,9 @@ export default {
       "masked": "A ____ structure groups work around products or regions.",
       "options": [
         "division-mcq-48",
-        "division-mcq-47",
-        "division-mcq-49",
-        "division-mcq-46",
-        "division-mcq-50",
-        "division-mcq-45"
+        "division-mcq-13",
+        "division-mcq-11",
+        "division-mcq-68"
       ],
       "explanation": "本句的「divisional」指「事業部制架構 organisation design」。",
       "sentenceIndex": 68,
@@ -2811,12 +2617,10 @@ export default {
         "divisional"
       ],
       "optionReasons": {
-        "division-mcq-48": "本句指「事業部制架構 organisation design」。",
-        "division-mcq-47": "「分部／事業部的 adjective」與本句語境不同。",
-        "division-mcq-49": "「次級分區／分部 smaller division」與本句語境不同。",
-        "division-mcq-46": "「地區分部 company」與本句語境不同。",
-        "division-mcq-50": "「再細分 verb」與本句語境不同。",
-        "division-mcq-45": "「產品事業部 company」與本句語境不同。"
+        "division-mcq-48": "本句的「divisional」指「事業部制架構 organisation design」。",
+        "division-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-48"
     },
@@ -2828,11 +2632,9 @@ export default {
       "masked": "____ structures can improve accountability but may duplicate resources.",
       "options": [
         "division-mcq-48",
-        "division-mcq-47",
-        "division-mcq-49",
-        "division-mcq-46",
-        "division-mcq-50",
-        "division-mcq-45"
+        "division-mcq-54",
+        "division-mcq-57",
+        "division-mcq-75"
       ],
       "explanation": "本句的「Divisional」指「事業部制架構 organisation design」。",
       "sentenceIndex": 69,
@@ -2841,12 +2643,10 @@ export default {
         "Divisional"
       ],
       "optionReasons": {
-        "division-mcq-48": "本句指「事業部制架構 organisation design」。",
-        "division-mcq-47": "「分部／事業部的 adjective」與本句語境不同。",
-        "division-mcq-49": "「次級分區／分部 smaller division」與本句語境不同。",
-        "division-mcq-46": "「地區分部 company」與本句語境不同。",
-        "division-mcq-50": "「再細分 verb」與本句語境不同。",
-        "division-mcq-45": "「產品事業部 company」與本句語境不同。"
+        "division-mcq-48": "本句的「Divisional」指「事業部制架構 organisation design」。",
+        "division-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-48"
     },
@@ -2858,11 +2658,9 @@ export default {
       "masked": "Each ____ contains several subdivisions.",
       "options": [
         "division-mcq-49",
-        "division-mcq-48",
-        "division-mcq-50",
-        "division-mcq-47",
-        "division-mcq-51",
-        "division-mcq-46"
+        "division-mcq-68",
+        "division-mcq-05",
+        "division-mcq-56"
       ],
       "explanation": "本句的「division」指「次級分區／分部 smaller division」。",
       "sentenceIndex": 72,
@@ -2871,12 +2669,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-49": "本句指「次級分區／分部 smaller division」。",
-        "division-mcq-48": "「事業部制架構 organisation design」與本句語境不同。",
-        "division-mcq-50": "「再細分 verb」與本句語境不同。",
-        "division-mcq-47": "「分部／事業部的 adjective」與本句語境不同。",
-        "division-mcq-51": "「住宅小區／分區 real estate」與本句語境不同。",
-        "division-mcq-46": "「地區分部 company」與本句語境不同。"
+        "division-mcq-49": "本句的「division」指「次級分區／分部 smaller division」。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-49"
     },
@@ -2888,11 +2684,9 @@ export default {
       "masked": "The team returned to the top ____.",
       "options": [
         "division-mcq-53",
-        "division-mcq-52",
-        "division-mcq-54",
-        "division-mcq-51",
-        "division-mcq-55",
-        "division-mcq-50"
+        "division-mcq-56",
+        "division-mcq-44",
+        "division-mcq-05"
       ],
       "explanation": "本句的「division」指「頂級聯賽 sport」。",
       "sentenceIndex": 75,
@@ -2901,12 +2695,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-53": "本句指「頂級聯賽 sport」。",
-        "division-mcq-52": "「級別；組別 competition level」與本句語境不同。",
-        "division-mcq-54": "「體重級別 sport」與本句語境不同。",
-        "division-mcq-51": "「住宅小區／分區 real estate」與本句語境不同。",
-        "division-mcq-55": "「師 military」與本句語境不同。",
-        "division-mcq-50": "「再細分 verb」與本句語境不同。"
+        "division-mcq-53": "本句的「division」指「頂級聯賽 sport」。",
+        "division-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-53"
     },
@@ -2918,11 +2710,9 @@ export default {
       "masked": "Competing in the top ____ requires greater resources.",
       "options": [
         "division-mcq-53",
-        "division-mcq-52",
-        "division-mcq-54",
-        "division-mcq-51",
-        "division-mcq-55",
-        "division-mcq-50"
+        "division-mcq-73",
+        "division-mcq-65",
+        "division-mcq-56"
       ],
       "explanation": "本句的「division」指「頂級聯賽 sport」。",
       "sentenceIndex": 76,
@@ -2931,12 +2721,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-53": "本句指「頂級聯賽 sport」。",
-        "division-mcq-52": "「級別；組別 competition level」與本句語境不同。",
-        "division-mcq-54": "「體重級別 sport」與本句語境不同。",
-        "division-mcq-51": "「住宅小區／分區 real estate」與本句語境不同。",
-        "division-mcq-55": "「師 military」與本句語境不同。",
-        "division-mcq-50": "「再細分 verb」與本句語境不同。"
+        "division-mcq-53": "本句的「division」指「頂級聯賽 sport」。",
+        "division-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-53"
     },
@@ -2948,11 +2736,9 @@ export default {
       "masked": "The boxer moved into a higher weight ____.",
       "options": [
         "division-mcq-54",
-        "division-mcq-53",
-        "division-mcq-55",
-        "division-mcq-52",
-        "division-mcq-56",
-        "division-mcq-51"
+        "division-mcq-75",
+        "division-mcq-61",
+        "division-mcq-48"
       ],
       "explanation": "本句的「division」指「體重級別 sport」。",
       "sentenceIndex": 81,
@@ -2961,12 +2747,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-54": "本句指「體重級別 sport」。",
-        "division-mcq-53": "「頂級聯賽 sport」與本句語境不同。",
-        "division-mcq-55": "「師 military」與本句語境不同。",
-        "division-mcq-52": "「級別；組別 competition level」與本句語境不同。",
-        "division-mcq-56": "「步兵師 military」與本句語境不同。",
-        "division-mcq-51": "「住宅小區／分區 real estate」與本句語境不同。"
+        "division-mcq-54": "本句的「division」指「體重級別 sport」。",
+        "division-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-54"
     },
@@ -2978,11 +2762,9 @@ export default {
       "masked": "Athletes compete within defined weight ____.",
       "options": [
         "division-mcq-54",
-        "division-mcq-53",
-        "division-mcq-55",
-        "division-mcq-52",
-        "division-mcq-56",
-        "division-mcq-51"
+        "division-mcq-09",
+        "division-mcq-06",
+        "division-mcq-27"
       ],
       "explanation": "本句的「divisions」指「體重級別 sport」。",
       "sentenceIndex": 82,
@@ -2991,12 +2773,10 @@ export default {
         "divisions"
       ],
       "optionReasons": {
-        "division-mcq-54": "本句指「體重級別 sport」。",
-        "division-mcq-53": "「頂級聯賽 sport」與本句語境不同。",
-        "division-mcq-55": "「師 military」與本句語境不同。",
-        "division-mcq-52": "「級別；組別 competition level」與本句語境不同。",
-        "division-mcq-56": "「步兵師 military」與本句語境不同。",
-        "division-mcq-51": "「住宅小區／分區 real estate」與本句語境不同。"
+        "division-mcq-54": "本句的「divisions」指「體重級別 sport」。",
+        "division-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-54"
     },
@@ -3008,11 +2788,9 @@ export default {
       "masked": "The army deployed an infantry ____.",
       "options": [
         "division-mcq-55",
-        "division-mcq-54",
-        "division-mcq-56",
         "division-mcq-53",
-        "division-mcq-57",
-        "division-mcq-52"
+        "division-mcq-29",
+        "division-mcq-11"
       ],
       "explanation": "本句的「division」指「師 military」。",
       "sentenceIndex": 83,
@@ -3021,12 +2799,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-55": "本句指「師 military」。",
-        "division-mcq-54": "「體重級別 sport」與本句語境不同。",
-        "division-mcq-56": "「步兵師 military」與本句語境不同。",
-        "division-mcq-53": "「頂級聯賽 sport」與本句語境不同。",
-        "division-mcq-57": "「裝甲師 military」與本句語境不同。",
-        "division-mcq-52": "「級別；組別 competition level」與本句語境不同。"
+        "division-mcq-55": "本句的「division」指「師 military」。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-55"
     },
@@ -3038,11 +2814,9 @@ export default {
       "masked": "The ____ contained several brigades.",
       "options": [
         "division-mcq-55",
-        "division-mcq-54",
-        "division-mcq-56",
-        "division-mcq-53",
-        "division-mcq-57",
-        "division-mcq-52"
+        "division-mcq-11",
+        "division-mcq-44",
+        "division-mcq-64"
       ],
       "explanation": "本句的「division」指「師 military」。",
       "sentenceIndex": 84,
@@ -3051,12 +2825,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-55": "本句指「師 military」。",
-        "division-mcq-54": "「體重級別 sport」與本句語境不同。",
-        "division-mcq-56": "「步兵師 military」與本句語境不同。",
-        "division-mcq-53": "「頂級聯賽 sport」與本句語境不同。",
-        "division-mcq-57": "「裝甲師 military」與本句語境不同。",
-        "division-mcq-52": "「級別；組別 competition level」與本句語境不同。"
+        "division-mcq-55": "本句的「division」指「師 military」。",
+        "division-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-55"
     },
@@ -3068,11 +2840,9 @@ export default {
       "masked": "The infantry ____ moved north.",
       "options": [
         "division-mcq-56",
-        "division-mcq-55",
-        "division-mcq-57",
-        "division-mcq-54",
-        "division-mcq-58",
-        "division-mcq-53"
+        "division-mcq-01",
+        "division-mcq-44",
+        "division-mcq-68"
       ],
       "explanation": "本句的「division」指「步兵師 military」。",
       "sentenceIndex": 85,
@@ -3081,12 +2851,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-56": "本句指「步兵師 military」。",
-        "division-mcq-55": "「師 military」與本句語境不同。",
-        "division-mcq-57": "「裝甲師 military」與本句語境不同。",
-        "division-mcq-54": "「體重級別 sport」與本句語境不同。",
-        "division-mcq-58": "「行政區劃 government」與本句語境不同。",
-        "division-mcq-53": "「頂級聯賽 sport」與本句語境不同。"
+        "division-mcq-56": "本句的「division」指「步兵師 military」。",
+        "division-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-56"
     },
@@ -3098,11 +2866,9 @@ export default {
       "masked": "Several infantry ____ were reorganised.",
       "options": [
         "division-mcq-56",
-        "division-mcq-55",
-        "division-mcq-57",
-        "division-mcq-54",
-        "division-mcq-58",
-        "division-mcq-53"
+        "division-mcq-65",
+        "division-mcq-09",
+        "division-mcq-73"
       ],
       "explanation": "本句的「divisions」指「步兵師 military」。",
       "sentenceIndex": 86,
@@ -3111,12 +2877,10 @@ export default {
         "divisions"
       ],
       "optionReasons": {
-        "division-mcq-56": "本句指「步兵師 military」。",
-        "division-mcq-55": "「師 military」與本句語境不同。",
-        "division-mcq-57": "「裝甲師 military」與本句語境不同。",
-        "division-mcq-54": "「體重級別 sport」與本句語境不同。",
-        "division-mcq-58": "「行政區劃 government」與本句語境不同。",
-        "division-mcq-53": "「頂級聯賽 sport」與本句語境不同。"
+        "division-mcq-56": "本句的「divisions」指「步兵師 military」。",
+        "division-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-56"
     },
@@ -3128,10 +2892,8 @@ export default {
       "masked": "An armoured ____ was deployed.",
       "options": [
         "division-mcq-57",
-        "division-mcq-56",
-        "division-mcq-58",
-        "division-mcq-55",
-        "division-mcq-59",
+        "division-mcq-25",
+        "division-mcq-64",
         "division-mcq-54"
       ],
       "explanation": "本句的「division」指「裝甲師 military」。",
@@ -3141,12 +2903,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-57": "本句指「裝甲師 military」。",
-        "division-mcq-56": "「步兵師 military」與本句語境不同。",
-        "division-mcq-58": "「行政區劃 government」與本句語境不同。",
-        "division-mcq-55": "「師 military」與本句語境不同。",
-        "division-mcq-59": "「法院分庭 law」與本句語境不同。",
-        "division-mcq-54": "「體重級別 sport」與本句語境不同。"
+        "division-mcq-57": "本句的「division」指「裝甲師 military」。",
+        "division-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-57"
     },
@@ -3158,11 +2918,9 @@ export default {
       "masked": "Armoured ____ contain substantial mechanised forces.",
       "options": [
         "division-mcq-57",
-        "division-mcq-56",
         "division-mcq-58",
-        "division-mcq-55",
-        "division-mcq-59",
-        "division-mcq-54"
+        "division-mcq-75",
+        "division-mcq-61"
       ],
       "explanation": "本句的「divisions」指「裝甲師 military」。",
       "sentenceIndex": 88,
@@ -3171,12 +2929,10 @@ export default {
         "divisions"
       ],
       "optionReasons": {
-        "division-mcq-57": "本句指「裝甲師 military」。",
-        "division-mcq-56": "「步兵師 military」與本句語境不同。",
-        "division-mcq-58": "「行政區劃 government」與本句語境不同。",
-        "division-mcq-55": "「師 military」與本句語境不同。",
-        "division-mcq-59": "「法院分庭 law」與本句語境不同。",
-        "division-mcq-54": "「體重級別 sport」與本句語境不同。"
+        "division-mcq-57": "本句的「divisions」指「裝甲師 military」。",
+        "division-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-57"
     },
@@ -3188,11 +2944,9 @@ export default {
       "masked": "The country has several levels of administrative ____.",
       "options": [
         "division-mcq-58",
-        "division-mcq-57",
-        "division-mcq-59",
-        "division-mcq-56",
-        "division-mcq-60",
-        "division-mcq-55"
+        "division-mcq-68",
+        "division-mcq-53",
+        "division-mcq-65"
       ],
       "explanation": "本句的「division」指「行政區劃 government」。",
       "sentenceIndex": 91,
@@ -3201,12 +2955,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-58": "本句指「行政區劃 government」。",
-        "division-mcq-57": "「裝甲師 military」與本句語境不同。",
-        "division-mcq-59": "「法院分庭 law」與本句語境不同。",
-        "division-mcq-56": "「步兵師 military」與本句語境不同。",
-        "division-mcq-60": "「分組表決 legislature」與本句語境不同。",
-        "division-mcq-55": "「師 military」與本句語境不同。"
+        "division-mcq-58": "本句的「division」指「行政區劃 government」。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-58"
     },
@@ -3218,11 +2970,9 @@ export default {
       "masked": "Provinces and districts may be administrative ____.",
       "options": [
         "division-mcq-58",
-        "division-mcq-57",
-        "division-mcq-59",
-        "division-mcq-56",
-        "division-mcq-60",
-        "division-mcq-55"
+        "division-mcq-69",
+        "division-mcq-64",
+        "division-mcq-01"
       ],
       "explanation": "本句的「divisions」指「行政區劃 government」。",
       "sentenceIndex": 92,
@@ -3231,12 +2981,10 @@ export default {
         "divisions"
       ],
       "optionReasons": {
-        "division-mcq-58": "本句指「行政區劃 government」。",
-        "division-mcq-57": "「裝甲師 military」與本句語境不同。",
-        "division-mcq-59": "「法院分庭 law」與本句語境不同。",
-        "division-mcq-56": "「步兵師 military」與本句語境不同。",
-        "division-mcq-60": "「分組表決 legislature」與本句語境不同。",
-        "division-mcq-55": "「師 military」與本句語境不同。"
+        "division-mcq-58": "本句的「divisions」指「行政區劃 government」。",
+        "division-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-58"
     },
@@ -3248,10 +2996,8 @@ export default {
       "masked": "The case was heard in a specialist ____ of the court.",
       "options": [
         "division-mcq-59",
-        "division-mcq-58",
-        "division-mcq-60",
-        "division-mcq-57",
-        "division-mcq-61",
+        "division-mcq-54",
+        "division-mcq-69",
         "division-mcq-56"
       ],
       "explanation": "本句的「division」指「法院分庭 law」。",
@@ -3261,12 +3007,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-59": "本句指「法院分庭 law」。",
-        "division-mcq-58": "「行政區劃 government」與本句語境不同。",
-        "division-mcq-60": "「分組表決 legislature」與本句語境不同。",
-        "division-mcq-57": "「裝甲師 military」與本句語境不同。",
-        "division-mcq-61": "「表決鐘 legislature」與本句語境不同。",
-        "division-mcq-56": "「步兵師 military」與本句語境不同。"
+        "division-mcq-59": "本句的「division」指「法院分庭 law」。",
+        "division-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-59"
     },
@@ -3278,11 +3022,9 @@ export default {
       "masked": "Different ____ handle different types of cases.",
       "options": [
         "division-mcq-59",
-        "division-mcq-58",
-        "division-mcq-60",
-        "division-mcq-57",
-        "division-mcq-61",
-        "division-mcq-56"
+        "division-mcq-68",
+        "division-mcq-56",
+        "division-mcq-64"
       ],
       "explanation": "本句的「divisions」指「法院分庭 law」。",
       "sentenceIndex": 96,
@@ -3291,12 +3033,10 @@ export default {
         "divisions"
       ],
       "optionReasons": {
-        "division-mcq-59": "本句指「法院分庭 law」。",
-        "division-mcq-58": "「行政區劃 government」與本句語境不同。",
-        "division-mcq-60": "「分組表決 legislature」與本句語境不同。",
-        "division-mcq-57": "「裝甲師 military」與本句語境不同。",
-        "division-mcq-61": "「表決鐘 legislature」與本句語境不同。",
-        "division-mcq-56": "「步兵師 military」與本句語境不同。"
+        "division-mcq-59": "本句的「divisions」指「法院分庭 law」。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-59"
     },
@@ -3308,11 +3048,9 @@ export default {
       "masked": "The ____ bell alerted members that a vote was about to take place.",
       "options": [
         "division-mcq-61",
-        "division-mcq-60",
-        "division-mcq-62",
-        "division-mcq-59",
-        "division-mcq-63",
-        "division-mcq-58"
+        "division-mcq-28",
+        "division-mcq-73",
+        "division-mcq-64"
       ],
       "explanation": "本句的「division」指「表決鐘 legislature」。",
       "sentenceIndex": 102,
@@ -3321,12 +3059,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-61": "本句指「表決鐘 legislature」。",
-        "division-mcq-60": "「分組表決 legislature」與本句語境不同。",
-        "division-mcq-62": "「除法 mathematics」與本句語境不同。",
-        "division-mcq-59": "「法院分庭 law」與本句語境不同。",
-        "division-mcq-63": "「除以 B mathematics」與本句語境不同。",
-        "division-mcq-58": "「行政區劃 government」與本句語境不同。"
+        "division-mcq-61": "本句的「division」指「表決鐘 legislature」。",
+        "division-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-61"
     },
@@ -3338,11 +3074,9 @@ export default {
       "masked": "Members returned to the chamber when the ____ bell rang.",
       "options": [
         "division-mcq-61",
-        "division-mcq-60",
-        "division-mcq-62",
-        "division-mcq-59",
-        "division-mcq-63",
-        "division-mcq-58"
+        "division-mcq-12",
+        "division-mcq-65",
+        "division-mcq-68"
       ],
       "explanation": "本句的「division」指「表決鐘 legislature」。",
       "sentenceIndex": 103,
@@ -3351,12 +3085,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-61": "本句指「表決鐘 legislature」。",
-        "division-mcq-60": "「分組表決 legislature」與本句語境不同。",
-        "division-mcq-62": "「除法 mathematics」與本句語境不同。",
-        "division-mcq-59": "「法院分庭 law」與本句語境不同。",
-        "division-mcq-63": "「除以 B mathematics」與本句語境不同。",
-        "division-mcq-58": "「行政區劃 government」與本句語境不同。"
+        "division-mcq-61": "本句的「division」指「表決鐘 legislature」。",
+        "division-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-61"
     },
@@ -3368,11 +3100,9 @@ export default {
       "masked": "The symbol ÷ is a ____ sign.",
       "options": [
         "division-mcq-64",
-        "division-mcq-63",
-        "division-mcq-65",
-        "division-mcq-62",
-        "division-mcq-66",
-        "division-mcq-61"
+        "division-mcq-59",
+        "division-mcq-03",
+        "division-mcq-49"
       ],
       "explanation": "本句的「division」指「除號 mathematics」。",
       "sentenceIndex": 106,
@@ -3381,12 +3111,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-64": "本句指「除號 mathematics」。",
-        "division-mcq-63": "「除以 B mathematics」與本句語境不同。",
-        "division-mcq-65": "「長除法／直式除法 mathematics」與本句語境不同。",
-        "division-mcq-62": "「除法 mathematics」與本句語境不同。",
-        "division-mcq-66": "「被除數 mathematics」與本句語境不同。",
-        "division-mcq-61": "「表決鐘 legislature」與本句語境不同。"
+        "division-mcq-64": "本句的「division」指「除號 mathematics」。",
+        "division-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-64"
     },
@@ -3398,11 +3126,9 @@ export default {
       "masked": "A slash is also commonly used to represent ____.",
       "options": [
         "division-mcq-64",
-        "division-mcq-63",
-        "division-mcq-65",
-        "division-mcq-62",
-        "division-mcq-66",
-        "division-mcq-61"
+        "division-mcq-09",
+        "division-mcq-11",
+        "division-mcq-75"
       ],
       "explanation": "本句的「division」指「除號 mathematics」。",
       "sentenceIndex": 107,
@@ -3411,12 +3137,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-64": "本句指「除號 mathematics」。",
-        "division-mcq-63": "「除以 B mathematics」與本句語境不同。",
-        "division-mcq-65": "「長除法／直式除法 mathematics」與本句語境不同。",
-        "division-mcq-62": "「除法 mathematics」與本句語境不同。",
-        "division-mcq-66": "「被除數 mathematics」與本句語境不同。",
-        "division-mcq-61": "「表決鐘 legislature」與本句語境不同。"
+        "division-mcq-64": "本句的「division」指「除號 mathematics」。",
+        "division-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-64"
     },
@@ -3428,11 +3152,9 @@ export default {
       "masked": "Students practised long ____.",
       "options": [
         "division-mcq-65",
-        "division-mcq-64",
-        "division-mcq-66",
-        "division-mcq-63",
-        "division-mcq-67",
-        "division-mcq-62"
+        "division-mcq-12",
+        "division-mcq-54",
+        "division-mcq-11"
       ],
       "explanation": "本句的「division」指「長除法／直式除法 mathematics」。",
       "sentenceIndex": 110,
@@ -3441,12 +3163,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-65": "本句指「長除法／直式除法 mathematics」。",
-        "division-mcq-64": "「除號 mathematics」與本句語境不同。",
-        "division-mcq-66": "「被除數 mathematics」與本句語境不同。",
-        "division-mcq-63": "「除以 B mathematics」與本句語境不同。",
-        "division-mcq-67": "「除數 mathematics」與本句語境不同。",
-        "division-mcq-62": "「除法 mathematics」與本句語境不同。"
+        "division-mcq-65": "本句的「division」指「長除法／直式除法 mathematics」。",
+        "division-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-65"
     },
@@ -3458,11 +3178,9 @@ export default {
       "masked": "Long ____ is useful for dividing larger numbers by hand.",
       "options": [
         "division-mcq-65",
-        "division-mcq-64",
-        "division-mcq-66",
-        "division-mcq-63",
-        "division-mcq-67",
-        "division-mcq-62"
+        "division-mcq-48",
+        "division-mcq-58",
+        "division-mcq-30"
       ],
       "explanation": "本句的「division」指「長除法／直式除法 mathematics」。",
       "sentenceIndex": 111,
@@ -3471,12 +3189,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-65": "本句指「長除法／直式除法 mathematics」。",
-        "division-mcq-64": "「除號 mathematics」與本句語境不同。",
-        "division-mcq-66": "「被除數 mathematics」與本句語境不同。",
-        "division-mcq-63": "「除以 B mathematics」與本句語境不同。",
-        "division-mcq-67": "「除數 mathematics」與本句語境不同。",
-        "division-mcq-62": "「除法 mathematics」與本句語境不同。"
+        "division-mcq-65": "本句的「division」指「長除法／直式除法 mathematics」。",
+        "division-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-65"
     },
@@ -3488,11 +3204,9 @@ export default {
       "masked": "The quotient is the result of ____.",
       "options": [
         "division-mcq-68",
-        "division-mcq-67",
-        "division-mcq-69",
-        "division-mcq-66",
-        "division-mcq-70",
-        "division-mcq-65"
+        "division-mcq-07",
+        "division-mcq-57",
+        "division-mcq-12"
       ],
       "explanation": "本句的「division」指「商 mathematics」。",
       "sentenceIndex": 112,
@@ -3501,12 +3215,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-68": "本句指「商 mathematics」。",
-        "division-mcq-67": "「除數 mathematics」與本句語境不同。",
-        "division-mcq-69": "「餘數 mathematics」與本句語境不同。",
-        "division-mcq-66": "「被除數 mathematics」與本句語境不同。",
-        "division-mcq-70": "「可被……整除 mathematics」與本句語境不同。",
-        "division-mcq-65": "「長除法／直式除法 mathematics」與本句語境不同。"
+        "division-mcq-68": "本句的「division」指「商 mathematics」。",
+        "division-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-68"
     },
@@ -3518,11 +3230,9 @@ export default {
       "masked": "Some ____ problems have no remainder.",
       "options": [
         "division-mcq-69",
-        "division-mcq-68",
-        "division-mcq-70",
-        "division-mcq-67",
-        "division-mcq-71",
-        "division-mcq-66"
+        "division-mcq-30",
+        "division-mcq-73",
+        "division-mcq-26"
       ],
       "explanation": "本句的「division」指「餘數 mathematics」。",
       "sentenceIndex": 113,
@@ -3531,12 +3241,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-69": "本句指「餘數 mathematics」。",
-        "division-mcq-68": "「商 mathematics」與本句語境不同。",
-        "division-mcq-70": "「可被……整除 mathematics」與本句語境不同。",
-        "division-mcq-67": "「除數 mathematics」與本句語境不同。",
-        "division-mcq-71": "「整除性 mathematics」與本句語境不同。",
-        "division-mcq-66": "「被除數 mathematics」與本句語境不同。"
+        "division-mcq-69": "本句的「division」指「餘數 mathematics」。",
+        "division-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-69"
     },
@@ -3548,11 +3256,9 @@ export default {
       "masked": "Growth depends partly on cell ____.",
       "options": [
         "division-mcq-73",
-        "division-mcq-72",
-        "division-mcq-74",
-        "division-mcq-71",
-        "division-mcq-75",
-        "division-mcq-70"
+        "division-mcq-55",
+        "division-mcq-53",
+        "division-mcq-64"
       ],
       "explanation": "本句的「division」指「細胞分裂 biology」。",
       "sentenceIndex": 114,
@@ -3561,12 +3267,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-73": "本句指「細胞分裂 biology」。",
-        "division-mcq-72": "「不可分割／不可整除 math/general」與本句語境不同。",
-        "division-mcq-74": "「有絲分裂 biology」與本句語境不同。",
-        "division-mcq-71": "「整除性 mathematics」與本句語境不同。",
-        "division-mcq-75": "「減數分裂 biology」與本句語境不同。",
-        "division-mcq-70": "「可被……整除 mathematics」與本句語境不同。"
+        "division-mcq-73": "本句的「division」指「細胞分裂 biology」。",
+        "division-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-73"
     },
@@ -3578,11 +3282,9 @@ export default {
       "masked": "Cell ____ produces new cells.",
       "options": [
         "division-mcq-73",
-        "division-mcq-72",
-        "division-mcq-74",
-        "division-mcq-71",
-        "division-mcq-75",
-        "division-mcq-70"
+        "division-mcq-54",
+        "division-mcq-56",
+        "division-mcq-68"
       ],
       "explanation": "本句的「division」指「細胞分裂 biology」。",
       "sentenceIndex": 115,
@@ -3591,12 +3293,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-73": "本句指「細胞分裂 biology」。",
-        "division-mcq-72": "「不可分割／不可整除 math/general」與本句語境不同。",
-        "division-mcq-74": "「有絲分裂 biology」與本句語境不同。",
-        "division-mcq-71": "「整除性 mathematics」與本句語境不同。",
-        "division-mcq-75": "「減數分裂 biology」與本句語境不同。",
-        "division-mcq-70": "「可被……整除 mathematics」與本句語境不同。"
+        "division-mcq-73": "本句的「division」指「細胞分裂 biology」。",
+        "division-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-73"
     },
@@ -3608,11 +3308,9 @@ export default {
       "masked": "Most body growth involves mitotic cell ____.",
       "options": [
         "division-mcq-74",
-        "division-mcq-73",
-        "division-mcq-75",
-        "division-mcq-72",
-        "division-mcq-76",
-        "division-mcq-71"
+        "division-mcq-58",
+        "division-mcq-44",
+        "division-mcq-64"
       ],
       "explanation": "本句的「division」指「有絲分裂 biology」。",
       "sentenceIndex": 116,
@@ -3621,12 +3319,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-74": "本句指「有絲分裂 biology」。",
-        "division-mcq-73": "「細胞分裂 biology」與本句語境不同。",
-        "division-mcq-75": "「減數分裂 biology」與本句語境不同。",
-        "division-mcq-72": "「不可分割／不可整除 math/general」與本句語境不同。",
-        "division-mcq-76": "「門／分類單位 biology」與本句語境不同。",
-        "division-mcq-71": "「整除性 mathematics」與本句語境不同。"
+        "division-mcq-74": "本句的「division」指「有絲分裂 biology」。",
+        "division-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-74"
     },
@@ -3638,11 +3334,9 @@ export default {
       "masked": "Reproductive cells are formed through meiotic ____.",
       "options": [
         "division-mcq-75",
-        "division-mcq-74",
-        "division-mcq-76",
-        "division-mcq-73",
-        "division-mcq-77",
-        "division-mcq-72"
+        "division-mcq-58",
+        "division-mcq-55",
+        "division-mcq-68"
       ],
       "explanation": "本句的「division」指「減數分裂 biology」。",
       "sentenceIndex": 117,
@@ -3651,12 +3345,10 @@ export default {
         "division"
       ],
       "optionReasons": {
-        "division-mcq-75": "本句指「減數分裂 biology」。",
-        "division-mcq-74": "「有絲分裂 biology」與本句語境不同。",
-        "division-mcq-76": "「門／分類單位 biology」與本句語境不同。",
-        "division-mcq-73": "「細胞分裂 biology」與本句語境不同。",
-        "division-mcq-77": "「分隔物；隔板 physical separator」與本句語境不同。",
-        "division-mcq-72": "「不可分割／不可整除 math/general」與本句語境不同。"
+        "division-mcq-75": "本句的「division」指「減數分裂 biology」。",
+        "division-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-75"
     },
@@ -3668,11 +3360,9 @@ export default {
       "masked": "Meiosis involves two successive ____.",
       "options": [
         "division-mcq-75",
-        "division-mcq-74",
-        "division-mcq-76",
-        "division-mcq-73",
-        "division-mcq-77",
-        "division-mcq-72"
+        "division-mcq-58",
+        "division-mcq-57",
+        "division-mcq-53"
       ],
       "explanation": "本句的「divisions」指「減數分裂 biology」。",
       "sentenceIndex": 118,
@@ -3681,12 +3371,10 @@ export default {
         "divisions"
       ],
       "optionReasons": {
-        "division-mcq-75": "本句指「減數分裂 biology」。",
-        "division-mcq-74": "「有絲分裂 biology」與本句語境不同。",
-        "division-mcq-76": "「門／分類單位 biology」與本句語境不同。",
-        "division-mcq-73": "「細胞分裂 biology」與本句語境不同。",
-        "division-mcq-77": "「分隔物；隔板 physical separator」與本句語境不同。",
-        "division-mcq-72": "「不可分割／不可整除 math/general」與本句語境不同。"
+        "division-mcq-75": "本句的「divisions」指「減數分裂 biology」。",
+        "division-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "division-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "division-mcq-75"
     }
@@ -3698,5 +3386,7 @@ export default {
     "sha256": "7e2b86af579779e7610d406d4c3eeee0e016cce5f8cb108383906dfe4350530d",
     "pages": 81
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

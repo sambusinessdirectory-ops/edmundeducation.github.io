@@ -225,16 +225,6 @@ export default {
           "Always carry enough drinking water.",
           "一定要帶足夠的飲用水。",
           "適合人類直接飲用的水"
-        ],
-        [
-          "She placed a drinking glass beside the plate.",
-          "她在碟旁放了一個玻璃飲水杯。",
-          "適合人類直接飲用的水"
-        ],
-        [
-          "The cabinet contains several drinking glasses.",
-          "櫃裡有幾個飲用玻璃杯。",
-          "適合人類直接飲用的水"
         ]
       ],
       "options": [],
@@ -261,6 +251,28 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "drink-reviewed-17d393ba8b",
+      "title": "用來喝水或其他飲品的玻璃杯",
+      "form": "drink · source section 12",
+      "en": "用來喝水或其他飲品的玻璃杯",
+      "zh": "用來喝水或其他飲品的玻璃杯",
+      "note": "對照原始教材第 12 節及例句核實。",
+      "examples": [
+        [
+          "She placed a drinking glass beside the plate.",
+          "她在碟旁放了一個玻璃飲水杯。",
+          "用來喝水或其他飲品的玻璃杯"
+        ],
+        [
+          "The cabinet contains several drinking glasses.",
+          "櫃裡有幾個飲用玻璃杯。",
+          "用來喝水或其他飲品的玻璃杯"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -272,11 +284,8 @@ export default {
       "masked": "The shop sells simple ____ like coffee and tea.",
       "options": [
         "drink-mcq-01",
-        "drink-mcq-02",
-        "drink-mcq-03",
-        "drink-mcq-04",
-        "drink-mcq-05",
-        "drink-mcq-06"
+        "drink-mcq-08",
+        "drink-mcq-09"
       ],
       "explanation": "本句的「drinks」指「供人飲用的液體食品」。",
       "sentenceIndex": 0,
@@ -285,12 +294,9 @@ export default {
         "drinks"
       ],
       "optionReasons": {
-        "drink-mcq-01": "本句指「供人飲用的液體食品」。",
-        "drink-mcq-02": "「酒吧／社交語境中所指的一杯酒精飲品」與本句語境不同。",
-        "drink-mcq-03": "「一份／一杯具體飲品」與本句語境不同。",
-        "drink-mcq-04": "「酒精飲品作為整體概念」與本句語境不同。",
-        "drink-mcq-05": "「把液體吞入口中；喝」與本句語境不同。",
-        "drink-mcq-06": "「飲用酒精；喝酒」與本句語境不同。"
+        "drink-mcq-01": "本句的「drinks」指「供人飲用的液體食品」。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-01"
     },
@@ -302,11 +308,8 @@ export default {
       "masked": "Would you like a hot ____?",
       "options": [
         "drink-mcq-01",
-        "drink-mcq-02",
-        "drink-mcq-03",
-        "drink-mcq-04",
-        "drink-mcq-05",
-        "drink-mcq-06"
+        "drink-mcq-08",
+        "drink-mcq-09"
       ],
       "explanation": "本句的「drink」指「供人飲用的液體食品」。",
       "sentenceIndex": 1,
@@ -315,12 +318,9 @@ export default {
         "drink"
       ],
       "optionReasons": {
-        "drink-mcq-01": "本句指「供人飲用的液體食品」。",
-        "drink-mcq-02": "「酒吧／社交語境中所指的一杯酒精飲品」與本句語境不同。",
-        "drink-mcq-03": "「一份／一杯具體飲品」與本句語境不同。",
-        "drink-mcq-04": "「酒精飲品作為整體概念」與本句語境不同。",
-        "drink-mcq-05": "「把液體吞入口中；喝」與本句語境不同。",
-        "drink-mcq-06": "「飲用酒精；喝酒」與本句語境不同。"
+        "drink-mcq-01": "本句的「drink」指「供人飲用的液體食品」。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-01"
     },
@@ -332,11 +332,8 @@ export default {
       "masked": "Cold ____ are kept in the fridge.",
       "options": [
         "drink-mcq-01",
-        "drink-mcq-02",
-        "drink-mcq-03",
-        "drink-mcq-04",
-        "drink-mcq-05",
-        "drink-mcq-06"
+        "drink-mcq-08",
+        "drink-mcq-09"
       ],
       "explanation": "本句的「drinks」指「供人飲用的液體食品」。",
       "sentenceIndex": 2,
@@ -345,12 +342,9 @@ export default {
         "drinks"
       ],
       "optionReasons": {
-        "drink-mcq-01": "本句指「供人飲用的液體食品」。",
-        "drink-mcq-02": "「酒吧／社交語境中所指的一杯酒精飲品」與本句語境不同。",
-        "drink-mcq-03": "「一份／一杯具體飲品」與本句語境不同。",
-        "drink-mcq-04": "「酒精飲品作為整體概念」與本句語境不同。",
-        "drink-mcq-05": "「把液體吞入口中；喝」與本句語境不同。",
-        "drink-mcq-06": "「飲用酒精；喝酒」與本句語境不同。"
+        "drink-mcq-01": "本句的「drinks」指「供人飲用的液體食品」。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-01"
     },
@@ -362,11 +356,8 @@ export default {
       "masked": "Would you like a ____?” Depending on context:",
       "options": [
         "drink-mcq-02",
-        "drink-mcq-01",
-        "drink-mcq-03",
-        "drink-mcq-04",
         "drink-mcq-05",
-        "drink-mcq-06"
+        "drink-mcq-10"
       ],
       "explanation": "本句的「drink」指「酒吧／社交語境中所指的一杯酒精飲品」。",
       "sentenceIndex": 3,
@@ -375,12 +366,9 @@ export default {
         "drink"
       ],
       "optionReasons": {
-        "drink-mcq-02": "本句指「酒吧／社交語境中所指的一杯酒精飲品」。",
-        "drink-mcq-01": "「供人飲用的液體食品」與本句語境不同。",
-        "drink-mcq-03": "「一份／一杯具體飲品」與本句語境不同。",
-        "drink-mcq-04": "「酒精飲品作為整體概念」與本句語境不同。",
-        "drink-mcq-05": "「把液體吞入口中；喝」與本句語境不同。",
-        "drink-mcq-06": "「飲用酒精；喝酒」與本句語境不同。"
+        "drink-mcq-02": "本句的「drink」指「酒吧／社交語境中所指的一杯酒精飲品」。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-02"
     },
@@ -392,11 +380,8 @@ export default {
       "masked": "He ordered a ____ at the bar.",
       "options": [
         "drink-mcq-02",
-        "drink-mcq-01",
-        "drink-mcq-03",
-        "drink-mcq-04",
         "drink-mcq-05",
-        "drink-mcq-06"
+        "drink-mcq-10"
       ],
       "explanation": "本句的「drink」指「酒吧／社交語境中所指的一杯酒精飲品」。",
       "sentenceIndex": 4,
@@ -405,12 +390,9 @@ export default {
         "drink"
       ],
       "optionReasons": {
-        "drink-mcq-02": "本句指「酒吧／社交語境中所指的一杯酒精飲品」。",
-        "drink-mcq-01": "「供人飲用的液體食品」與本句語境不同。",
-        "drink-mcq-03": "「一份／一杯具體飲品」與本句語境不同。",
-        "drink-mcq-04": "「酒精飲品作為整體概念」與本句語境不同。",
-        "drink-mcq-05": "「把液體吞入口中；喝」與本句語境不同。",
-        "drink-mcq-06": "「飲用酒精；喝酒」與本句語境不同。"
+        "drink-mcq-02": "本句的「drink」指「酒吧／社交語境中所指的一杯酒精飲品」。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-02"
     },
@@ -422,11 +404,9 @@ export default {
       "masked": "I bought two ____.",
       "options": [
         "drink-mcq-03",
-        "drink-mcq-02",
-        "drink-mcq-04",
-        "drink-mcq-01",
         "drink-mcq-05",
-        "drink-mcq-06"
+        "drink-mcq-08",
+        "drink-mcq-10"
       ],
       "explanation": "本句的「drinks」指「一份／一杯具體飲品」。",
       "sentenceIndex": 5,
@@ -435,12 +415,10 @@ export default {
         "drinks"
       ],
       "optionReasons": {
-        "drink-mcq-03": "本句指「一份／一杯具體飲品」。",
-        "drink-mcq-02": "「酒吧／社交語境中所指的一杯酒精飲品」與本句語境不同。",
-        "drink-mcq-04": "「酒精飲品作為整體概念」與本句語境不同。",
-        "drink-mcq-01": "「供人飲用的液體食品」與本句語境不同。",
-        "drink-mcq-05": "「把液體吞入口中；喝」與本句語境不同。",
-        "drink-mcq-06": "「飲用酒精；喝酒」與本句語境不同。"
+        "drink-mcq-03": "本句的「drinks」指「一份／一杯具體飲品」。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-03"
     },
@@ -452,11 +430,9 @@ export default {
       "masked": "She had one ____ with dinner.",
       "options": [
         "drink-mcq-03",
-        "drink-mcq-02",
-        "drink-mcq-04",
-        "drink-mcq-01",
         "drink-mcq-05",
-        "drink-mcq-06"
+        "drink-mcq-09",
+        "drink-mcq-08"
       ],
       "explanation": "本句的「drink」指「一份／一杯具體飲品」。",
       "sentenceIndex": 6,
@@ -465,12 +441,10 @@ export default {
         "drink"
       ],
       "optionReasons": {
-        "drink-mcq-03": "本句指「一份／一杯具體飲品」。",
-        "drink-mcq-02": "「酒吧／社交語境中所指的一杯酒精飲品」與本句語境不同。",
-        "drink-mcq-04": "「酒精飲品作為整體概念」與本句語境不同。",
-        "drink-mcq-01": "「供人飲用的液體食品」與本句語境不同。",
-        "drink-mcq-05": "「把液體吞入口中；喝」與本句語境不同。",
-        "drink-mcq-06": "「飲用酒精；喝酒」與本句語境不同。"
+        "drink-mcq-03": "本句的「drink」指「一份／一杯具體飲品」。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-03"
     },
@@ -482,11 +456,9 @@ export default {
       "masked": "He gave up ____ completely.",
       "options": [
         "drink-mcq-04",
-        "drink-mcq-03",
         "drink-mcq-05",
-        "drink-mcq-02",
-        "drink-mcq-06",
-        "drink-mcq-01"
+        "drink-mcq-08",
+        "drink-mcq-10"
       ],
       "explanation": "本句的「drink」指「酒精飲品作為整體概念」。",
       "sentenceIndex": 7,
@@ -495,12 +467,10 @@ export default {
         "drink"
       ],
       "optionReasons": {
-        "drink-mcq-04": "本句指「酒精飲品作為整體概念」。",
-        "drink-mcq-03": "「一份／一杯具體飲品」與本句語境不同。",
-        "drink-mcq-05": "「把液體吞入口中；喝」與本句語境不同。",
-        "drink-mcq-02": "「酒吧／社交語境中所指的一杯酒精飲品」與本句語境不同。",
-        "drink-mcq-06": "「飲用酒精；喝酒」與本句語境不同。",
-        "drink-mcq-01": "「供人飲用的液體食品」與本句語境不同。"
+        "drink-mcq-04": "本句的「drink」指「酒精飲品作為整體概念」。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-04"
     },
@@ -512,11 +482,9 @@ export default {
       "masked": "Too much ____ can damage your health.",
       "options": [
         "drink-mcq-04",
-        "drink-mcq-03",
-        "drink-mcq-05",
-        "drink-mcq-02",
-        "drink-mcq-06",
-        "drink-mcq-01"
+        "drink-mcq-10",
+        "drink-mcq-08",
+        "drink-mcq-05"
       ],
       "explanation": "本句的「drink」指「酒精飲品作為整體概念」。",
       "sentenceIndex": 8,
@@ -525,12 +493,10 @@ export default {
         "drink"
       ],
       "optionReasons": {
-        "drink-mcq-04": "本句指「酒精飲品作為整體概念」。",
-        "drink-mcq-03": "「一份／一杯具體飲品」與本句語境不同。",
-        "drink-mcq-05": "「把液體吞入口中；喝」與本句語境不同。",
-        "drink-mcq-02": "「酒吧／社交語境中所指的一杯酒精飲品」與本句語境不同。",
-        "drink-mcq-06": "「飲用酒精；喝酒」與本句語境不同。",
-        "drink-mcq-01": "「供人飲用的液體食品」與本句語境不同。"
+        "drink-mcq-04": "本句的「drink」指「酒精飲品作為整體概念」。",
+        "drink-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-04"
     },
@@ -542,11 +508,9 @@ export default {
       "masked": "She ____ coffee every morning.",
       "options": [
         "drink-mcq-05",
-        "drink-mcq-04",
-        "drink-mcq-06",
-        "drink-mcq-03",
-        "drink-mcq-07",
-        "drink-mcq-02"
+        "drink-mcq-10",
+        "drink-mcq-08",
+        "drink-mcq-09"
       ],
       "explanation": "本句的「drinks」指「把液體吞入口中；喝」。",
       "sentenceIndex": 9,
@@ -555,12 +519,10 @@ export default {
         "drinks"
       ],
       "optionReasons": {
-        "drink-mcq-05": "本句指「把液體吞入口中；喝」。",
-        "drink-mcq-04": "「酒精飲品作為整體概念」與本句語境不同。",
-        "drink-mcq-06": "「飲用酒精；喝酒」與本句語境不同。",
-        "drink-mcq-03": "「一份／一杯具體飲品」與本句語境不同。",
-        "drink-mcq-07": "「經常或大量飲用酒精」與本句語境不同。",
-        "drink-mcq-02": "「酒吧／社交語境中所指的一杯酒精飲品」與本句語境不同。"
+        "drink-mcq-05": "本句的「drinks」指「把液體吞入口中；喝」。",
+        "drink-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-05"
     },
@@ -572,11 +534,8 @@ export default {
       "masked": "____ some water before you leave.",
       "options": [
         "drink-mcq-05",
-        "drink-mcq-04",
-        "drink-mcq-06",
-        "drink-mcq-03",
-        "drink-mcq-07",
-        "drink-mcq-02"
+        "drink-mcq-02",
+        "drink-mcq-10"
       ],
       "explanation": "本句的「Drink」指「把液體吞入口中；喝」。",
       "sentenceIndex": 10,
@@ -585,12 +544,9 @@ export default {
         "Drink"
       ],
       "optionReasons": {
-        "drink-mcq-05": "本句指「把液體吞入口中；喝」。",
-        "drink-mcq-04": "「酒精飲品作為整體概念」與本句語境不同。",
-        "drink-mcq-06": "「飲用酒精；喝酒」與本句語境不同。",
-        "drink-mcq-03": "「一份／一杯具體飲品」與本句語境不同。",
-        "drink-mcq-07": "「經常或大量飲用酒精」與本句語境不同。",
-        "drink-mcq-02": "「酒吧／社交語境中所指的一杯酒精飲品」與本句語境不同。"
+        "drink-mcq-05": "本句的「Drink」指「把液體吞入口中；喝」。",
+        "drink-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-05"
     },
@@ -603,8 +559,6 @@ export default {
       "options": [
         "drink-mcq-06",
         "drink-mcq-05",
-        "drink-mcq-07",
-        "drink-mcq-04",
         "drink-mcq-08",
         "drink-mcq-03"
       ],
@@ -615,12 +569,10 @@ export default {
         "drink"
       ],
       "optionReasons": {
-        "drink-mcq-06": "本句指「飲用酒精；喝酒」。",
-        "drink-mcq-05": "「把液體吞入口中；喝」與本句語境不同。",
-        "drink-mcq-07": "「經常或大量飲用酒精」與本句語境不同。",
-        "drink-mcq-04": "「酒精飲品作為整體概念」與本句語境不同。",
-        "drink-mcq-08": "「舉杯為某人／某事祝酒」與本句語境不同。",
-        "drink-mcq-03": "「一份／一杯具體飲品」與本句語境不同。"
+        "drink-mcq-06": "本句的「drink」指「飲用酒精；喝酒」。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-06"
     },
@@ -633,10 +585,8 @@ export default {
       "options": [
         "drink-mcq-06",
         "drink-mcq-05",
-        "drink-mcq-07",
-        "drink-mcq-04",
-        "drink-mcq-08",
-        "drink-mcq-03"
+        "drink-mcq-03",
+        "drink-mcq-08"
       ],
       "explanation": "本句的「drinking」指「飲用酒精；喝酒」。",
       "sentenceIndex": 12,
@@ -645,12 +595,10 @@ export default {
         "drinking"
       ],
       "optionReasons": {
-        "drink-mcq-06": "本句指「飲用酒精；喝酒」。",
-        "drink-mcq-05": "「把液體吞入口中；喝」與本句語境不同。",
-        "drink-mcq-07": "「經常或大量飲用酒精」與本句語境不同。",
-        "drink-mcq-04": "「酒精飲品作為整體概念」與本句語境不同。",
-        "drink-mcq-08": "「舉杯為某人／某事祝酒」與本句語境不同。",
-        "drink-mcq-03": "「一份／一杯具體飲品」與本句語境不同。"
+        "drink-mcq-06": "本句的「drinking」指「飲用酒精；喝酒」。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-06"
     },
@@ -662,11 +610,9 @@ export default {
       "masked": "He used to ____.",
       "options": [
         "drink-mcq-07",
-        "drink-mcq-06",
-        "drink-mcq-08",
         "drink-mcq-05",
-        "drink-mcq-09",
-        "drink-mcq-04"
+        "drink-mcq-08",
+        "drink-mcq-03"
       ],
       "explanation": "本句的「drink heavily」指「經常或大量飲用酒精」。",
       "sentenceIndex": 13,
@@ -675,12 +621,10 @@ export default {
         "drink heavily"
       ],
       "optionReasons": {
-        "drink-mcq-07": "本句指「經常或大量飲用酒精」。",
-        "drink-mcq-06": "「飲用酒精；喝酒」與本句語境不同。",
-        "drink-mcq-08": "「舉杯為某人／某事祝酒」與本句語境不同。",
-        "drink-mcq-05": "「把液體吞入口中；喝」與本句語境不同。",
-        "drink-mcq-09": "「飲酒這個行為或習慣，尤其指酒精」與本句語境不同。",
-        "drink-mcq-04": "「酒精飲品作為整體概念」與本句語境不同。"
+        "drink-mcq-07": "本句的「drink heavily」指「經常或大量飲用酒精」。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-07"
     },
@@ -692,11 +636,9 @@ export default {
       "masked": "____ too much can affect your health.",
       "options": [
         "drink-mcq-07",
-        "drink-mcq-06",
-        "drink-mcq-08",
         "drink-mcq-05",
-        "drink-mcq-09",
-        "drink-mcq-04"
+        "drink-mcq-08",
+        "drink-mcq-03"
       ],
       "explanation": "本句的「Drinking」指「經常或大量飲用酒精」。",
       "sentenceIndex": 14,
@@ -705,12 +647,10 @@ export default {
         "Drinking"
       ],
       "optionReasons": {
-        "drink-mcq-07": "本句指「經常或大量飲用酒精」。",
-        "drink-mcq-06": "「飲用酒精；喝酒」與本句語境不同。",
-        "drink-mcq-08": "「舉杯為某人／某事祝酒」與本句語境不同。",
-        "drink-mcq-05": "「把液體吞入口中；喝」與本句語境不同。",
-        "drink-mcq-09": "「飲酒這個行為或習慣，尤其指酒精」與本句語境不同。",
-        "drink-mcq-04": "「酒精飲品作為整體概念」與本句語境不同。"
+        "drink-mcq-07": "本句的「Drinking」指「經常或大量飲用酒精」。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-07"
     },
@@ -722,11 +662,9 @@ export default {
       "masked": "They ____ the couple’s future.",
       "options": [
         "drink-mcq-08",
-        "drink-mcq-07",
-        "drink-mcq-09",
-        "drink-mcq-06",
+        "drink-mcq-05",
         "drink-mcq-10",
-        "drink-mcq-05"
+        "drink-mcq-03"
       ],
       "explanation": "本句的「drank to」指「舉杯為某人／某事祝酒」。",
       "sentenceIndex": 15,
@@ -735,12 +673,10 @@ export default {
         "drank to"
       ],
       "optionReasons": {
-        "drink-mcq-08": "本句指「舉杯為某人／某事祝酒」。",
-        "drink-mcq-07": "「經常或大量飲用酒精」與本句語境不同。",
-        "drink-mcq-09": "「飲酒這個行為或習慣，尤其指酒精」與本句語境不同。",
-        "drink-mcq-06": "「飲用酒精；喝酒」與本句語境不同。",
-        "drink-mcq-10": "「適合人類直接飲用的水」與本句語境不同。",
-        "drink-mcq-05": "「把液體吞入口中；喝」與本句語境不同。"
+        "drink-mcq-08": "本句的「drank to」指「舉杯為某人／某事祝酒」。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-08"
     },
@@ -752,11 +688,9 @@ export default {
       "masked": "Let’s ____ to your success.",
       "options": [
         "drink-mcq-08",
-        "drink-mcq-07",
-        "drink-mcq-09",
-        "drink-mcq-06",
+        "drink-mcq-05",
         "drink-mcq-10",
-        "drink-mcq-05"
+        "drink-mcq-04"
       ],
       "explanation": "本句的「drink」指「舉杯為某人／某事祝酒」。",
       "sentenceIndex": 16,
@@ -765,12 +699,10 @@ export default {
         "drink"
       ],
       "optionReasons": {
-        "drink-mcq-08": "本句指「舉杯為某人／某事祝酒」。",
-        "drink-mcq-07": "「經常或大量飲用酒精」與本句語境不同。",
-        "drink-mcq-09": "「飲酒這個行為或習慣，尤其指酒精」與本句語境不同。",
-        "drink-mcq-06": "「飲用酒精；喝酒」與本句語境不同。",
-        "drink-mcq-10": "「適合人類直接飲用的水」與本句語境不同。",
-        "drink-mcq-05": "「把液體吞入口中；喝」與本句語境不同。"
+        "drink-mcq-08": "本句的「drink」指「舉杯為某人／某事祝酒」。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-08"
     },
@@ -782,11 +714,9 @@ export default {
       "masked": "His ____ became a problem.",
       "options": [
         "drink-mcq-09",
-        "drink-mcq-08",
+        "drink-mcq-05",
         "drink-mcq-10",
-        "drink-mcq-07",
-        "drink-mcq-11",
-        "drink-mcq-06"
+        "drink-mcq-08"
       ],
       "explanation": "本句的「drinking」指「飲酒這個行為或習慣，尤其指酒精」。",
       "sentenceIndex": 17,
@@ -795,12 +725,10 @@ export default {
         "drinking"
       ],
       "optionReasons": {
-        "drink-mcq-09": "本句指「飲酒這個行為或習慣，尤其指酒精」。",
-        "drink-mcq-08": "「舉杯為某人／某事祝酒」與本句語境不同。",
-        "drink-mcq-10": "「適合人類直接飲用的水」與本句語境不同。",
-        "drink-mcq-07": "「經常或大量飲用酒精」與本句語境不同。",
-        "drink-mcq-11": "「因飲酒而醉的」與本句語境不同。",
-        "drink-mcq-06": "「飲用酒精；喝酒」與本句語境不同。"
+        "drink-mcq-09": "本句的「drinking」指「飲酒這個行為或習慣，尤其指酒精」。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-09"
     },
@@ -812,11 +740,9 @@ export default {
       "masked": "The doctor advised him to reduce his ____.",
       "options": [
         "drink-mcq-09",
-        "drink-mcq-08",
-        "drink-mcq-10",
-        "drink-mcq-07",
-        "drink-mcq-11",
-        "drink-mcq-06"
+        "drink-mcq-05",
+        "drink-mcq-03",
+        "drink-mcq-08"
       ],
       "explanation": "本句的「drinking」指「飲酒這個行為或習慣，尤其指酒精」。",
       "sentenceIndex": 18,
@@ -825,12 +751,10 @@ export default {
         "drinking"
       ],
       "optionReasons": {
-        "drink-mcq-09": "本句指「飲酒這個行為或習慣，尤其指酒精」。",
-        "drink-mcq-08": "「舉杯為某人／某事祝酒」與本句語境不同。",
-        "drink-mcq-10": "「適合人類直接飲用的水」與本句語境不同。",
-        "drink-mcq-07": "「經常或大量飲用酒精」與本句語境不同。",
-        "drink-mcq-11": "「因飲酒而醉的」與本句語境不同。",
-        "drink-mcq-06": "「飲用酒精；喝酒」與本句語境不同。"
+        "drink-mcq-09": "本句的「drinking」指「飲酒這個行為或習慣，尤其指酒精」。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-09"
     },
@@ -842,11 +766,9 @@ export default {
       "masked": "The village needs clean ____.",
       "options": [
         "drink-mcq-10",
-        "drink-mcq-09",
-        "drink-mcq-11",
+        "drink-mcq-05",
         "drink-mcq-08",
-        "drink-mcq-12",
-        "drink-mcq-07"
+        "drink-mcq-04"
       ],
       "explanation": "本句的「drinking water」指「適合人類直接飲用的水」。",
       "sentenceIndex": 19,
@@ -855,12 +777,10 @@ export default {
         "drinking water"
       ],
       "optionReasons": {
-        "drink-mcq-10": "本句指「適合人類直接飲用的水」。",
-        "drink-mcq-09": "「飲酒這個行為或習慣，尤其指酒精」與本句語境不同。",
-        "drink-mcq-11": "「因飲酒而醉的」與本句語境不同。",
-        "drink-mcq-08": "「舉杯為某人／某事祝酒」與本句語境不同。",
-        "drink-mcq-12": "「與酒醉狀態／酒後行為相關的」與本句語境不同。",
-        "drink-mcq-07": "「經常或大量飲用酒精」與本句語境不同。"
+        "drink-mcq-10": "本句的「drinking water」指「適合人類直接飲用的水」。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-10"
     },
@@ -872,11 +792,9 @@ export default {
       "masked": "Always carry enough ____ water.",
       "options": [
         "drink-mcq-10",
-        "drink-mcq-09",
-        "drink-mcq-11",
+        "drink-mcq-05",
         "drink-mcq-08",
-        "drink-mcq-12",
-        "drink-mcq-07"
+        "drink-mcq-03"
       ],
       "explanation": "本句的「drinking」指「適合人類直接飲用的水」。",
       "sentenceIndex": 20,
@@ -885,74 +803,68 @@ export default {
         "drinking"
       ],
       "optionReasons": {
-        "drink-mcq-10": "本句指「適合人類直接飲用的水」。",
-        "drink-mcq-09": "「飲酒這個行為或習慣，尤其指酒精」與本句語境不同。",
-        "drink-mcq-11": "「因飲酒而醉的」與本句語境不同。",
-        "drink-mcq-08": "「舉杯為某人／某事祝酒」與本句語境不同。",
-        "drink-mcq-12": "「與酒醉狀態／酒後行為相關的」與本句語境不同。",
-        "drink-mcq-07": "「經常或大量飲用酒精」與本句語境不同。"
+        "drink-mcq-10": "本句的「drinking」指「適合人類直接飲用的水」。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drink-mcq-10"
     },
     {
       "id": "drink-12-0",
-      "sense": "drink-mcq-10",
+      "sense": "drink-reviewed-17d393ba8b",
       "en": "She placed a drinking glass beside the plate.",
       "zh": "她在碟旁放了一個玻璃飲水杯。",
       "masked": "She placed a ____ beside the plate.",
       "options": [
-        "drink-mcq-10",
-        "drink-mcq-09",
-        "drink-mcq-11",
+        "drink-reviewed-17d393ba8b",
+        "drink-mcq-05",
         "drink-mcq-08",
-        "drink-mcq-12",
-        "drink-mcq-07"
+        "drink-mcq-09"
       ],
-      "explanation": "本句的「drinking glass」指「適合人類直接飲用的水」。",
+      "explanation": "對照完整句子：「她在碟旁放了一個玻璃飲水杯。」。這裡的「drinking glass」表示「用來喝水或其他飲品的玻璃杯」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "drinking glass"
       ],
       "optionReasons": {
-        "drink-mcq-10": "本句指「適合人類直接飲用的水」。",
-        "drink-mcq-09": "「飲酒這個行為或習慣，尤其指酒精」與本句語境不同。",
-        "drink-mcq-11": "「因飲酒而醉的」與本句語境不同。",
-        "drink-mcq-08": "「舉杯為某人／某事祝酒」與本句語境不同。",
-        "drink-mcq-12": "「與酒醉狀態／酒後行為相關的」與本句語境不同。",
-        "drink-mcq-07": "「經常或大量飲用酒精」與本句語境不同。"
+        "drink-reviewed-17d393ba8b": "對照完整句子：「她在碟旁放了一個玻璃飲水杯。」。這裡的「drinking glass」表示「用來喝水或其他飲品的玻璃杯」。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "drink-mcq-10"
+      "correctOption": "drink-reviewed-17d393ba8b",
+      "previousCorrectOption": "drink-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "drink-12-1",
-      "sense": "drink-mcq-10",
+      "sense": "drink-reviewed-17d393ba8b",
       "en": "The cabinet contains several drinking glasses.",
       "zh": "櫃裡有幾個飲用玻璃杯。",
       "masked": "The cabinet contains several ____ glasses.",
       "options": [
-        "drink-mcq-10",
-        "drink-mcq-09",
-        "drink-mcq-11",
+        "drink-reviewed-17d393ba8b",
         "drink-mcq-08",
-        "drink-mcq-12",
-        "drink-mcq-07"
+        "drink-mcq-05",
+        "drink-mcq-09"
       ],
-      "explanation": "本句的「drinking」指「適合人類直接飲用的水」。",
+      "explanation": "對照完整句子：「櫃裡有幾個飲用玻璃杯。」。這裡的「drinking」表示「用來喝水或其他飲品的玻璃杯」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "drinking"
       ],
       "optionReasons": {
-        "drink-mcq-10": "本句指「適合人類直接飲用的水」。",
-        "drink-mcq-09": "「飲酒這個行為或習慣，尤其指酒精」與本句語境不同。",
-        "drink-mcq-11": "「因飲酒而醉的」與本句語境不同。",
-        "drink-mcq-08": "「舉杯為某人／某事祝酒」與本句語境不同。",
-        "drink-mcq-12": "「與酒醉狀態／酒後行為相關的」與本句語境不同。",
-        "drink-mcq-07": "「經常或大量飲用酒精」與本句語境不同。"
+        "drink-reviewed-17d393ba8b": "對照完整句子：「櫃裡有幾個飲用玻璃杯。」。這裡的「drinking」表示「用來喝水或其他飲品的玻璃杯」。",
+        "drink-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drink-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "drink-mcq-10"
+      "correctOption": "drink-reviewed-17d393ba8b",
+      "previousCorrectOption": "drink-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     }
   ],
   "comparisons": [],
@@ -962,5 +874,7 @@ export default {
     "sha256": "c788563f632a5eb620bf332bf71a3f56e5a523c19aa8c61f9e0c28510d616e4b",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -311,11 +311,7 @@ export default {
       "masked": "She ____.",
       "options": [
         "mentor-mcq-03",
-        "mentor-mcq-02",
-        "mentor-mcq-04",
-        "mentor-mcq-01",
-        "mentor-mcq-05",
-        "mentor-mcq-06"
+        "mentor-mcq-10"
       ],
       "explanation": "本句的「mentors younger teachers」指「在某個專業、技能或領域中指導某人」。",
       "sentenceIndex": 4,
@@ -324,12 +320,8 @@ export default {
         "mentors younger teachers"
       ],
       "optionReasons": {
-        "mentor-mcq-03": "本句指「在某個專業、技能或領域中指導某人」。",
-        "mentor-mcq-02": "「以導師身分持續指導、支持較缺乏經驗的人」與本句語境不同。",
-        "mentor-mcq-04": "「長期幫助某人在學業、職涯或個人成長上發展」與本句語境不同。",
-        "mentor-mcq-01": "「有經驗並長期提供建議、支持與方向的人；導師／指導者」與本句語境不同。",
-        "mentor-mcq-05": "「提供職涯方向與專業發展建議的導師」與本句語境不同。",
-        "mentor-mcq-06": "「在學術學習、研究或升學方面提供持續指導的導師」與本句語境不同。"
+        "mentor-mcq-03": "本句的「mentors younger teachers」指「在某個專業、技能或領域中指導某人」。",
+        "mentor-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-03"
     },
@@ -341,11 +333,7 @@ export default {
       "masked": "Senior staff are encouraged to ____.",
       "options": [
         "mentor-mcq-03",
-        "mentor-mcq-02",
-        "mentor-mcq-04",
-        "mentor-mcq-01",
-        "mentor-mcq-05",
-        "mentor-mcq-06"
+        "mentor-mcq-10"
       ],
       "explanation": "本句的「mentor new employees」指「在某個專業、技能或領域中指導某人」。",
       "sentenceIndex": 5,
@@ -354,12 +342,8 @@ export default {
         "mentor new employees"
       ],
       "optionReasons": {
-        "mentor-mcq-03": "本句指「在某個專業、技能或領域中指導某人」。",
-        "mentor-mcq-02": "「以導師身分持續指導、支持較缺乏經驗的人」與本句語境不同。",
-        "mentor-mcq-04": "「長期幫助某人在學業、職涯或個人成長上發展」與本句語境不同。",
-        "mentor-mcq-01": "「有經驗並長期提供建議、支持與方向的人；導師／指導者」與本句語境不同。",
-        "mentor-mcq-05": "「提供職涯方向與專業發展建議的導師」與本句語境不同。",
-        "mentor-mcq-06": "「在學術學習、研究或升學方面提供持續指導的導師」與本句語境不同。"
+        "mentor-mcq-03": "本句的「mentor new employees」指「在某個專業、技能或領域中指導某人」。",
+        "mentor-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-03"
     },
@@ -371,11 +355,7 @@ export default {
       "masked": "He ____.",
       "options": [
         "mentor-mcq-03",
-        "mentor-mcq-02",
-        "mentor-mcq-04",
-        "mentor-mcq-01",
-        "mentor-mcq-05",
-        "mentor-mcq-06"
+        "mentor-mcq-10"
       ],
       "explanation": "本句的「mentored me in research methods」指「在某個專業、技能或領域中指導某人」。",
       "sentenceIndex": 6,
@@ -384,12 +364,8 @@ export default {
         "mentored me in research methods"
       ],
       "optionReasons": {
-        "mentor-mcq-03": "本句指「在某個專業、技能或領域中指導某人」。",
-        "mentor-mcq-02": "「以導師身分持續指導、支持較缺乏經驗的人」與本句語境不同。",
-        "mentor-mcq-04": "「長期幫助某人在學業、職涯或個人成長上發展」與本句語境不同。",
-        "mentor-mcq-01": "「有經驗並長期提供建議、支持與方向的人；導師／指導者」與本句語境不同。",
-        "mentor-mcq-05": "「提供職涯方向與專業發展建議的導師」與本句語境不同。",
-        "mentor-mcq-06": "「在學術學習、研究或升學方面提供持續指導的導師」與本句語境不同。"
+        "mentor-mcq-03": "本句的「mentored me in research methods」指「在某個專業、技能或領域中指導某人」。",
+        "mentor-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-03"
     },
@@ -401,11 +377,7 @@ export default {
       "masked": "She ____.",
       "options": [
         "mentor-mcq-03",
-        "mentor-mcq-02",
-        "mentor-mcq-04",
-        "mentor-mcq-01",
-        "mentor-mcq-05",
-        "mentor-mcq-06"
+        "mentor-mcq-10"
       ],
       "explanation": "本句的「mentors students in science and engineering」指「在某個專業、技能或領域中指導某人」。",
       "sentenceIndex": 7,
@@ -414,12 +386,8 @@ export default {
         "mentors students in science and engineering"
       ],
       "optionReasons": {
-        "mentor-mcq-03": "本句指「在某個專業、技能或領域中指導某人」。",
-        "mentor-mcq-02": "「以導師身分持續指導、支持較缺乏經驗的人」與本句語境不同。",
-        "mentor-mcq-04": "「長期幫助某人在學業、職涯或個人成長上發展」與本句語境不同。",
-        "mentor-mcq-01": "「有經驗並長期提供建議、支持與方向的人；導師／指導者」與本句語境不同。",
-        "mentor-mcq-05": "「提供職涯方向與專業發展建議的導師」與本句語境不同。",
-        "mentor-mcq-06": "「在學術學習、研究或升學方面提供持續指導的導師」與本句語境不同。"
+        "mentor-mcq-03": "本句的「mentors students in science and engineering」指「在某個專業、技能或領域中指導某人」。",
+        "mentor-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-03"
     },
@@ -431,11 +399,7 @@ export default {
       "masked": "My ____ helped me choose a specialization.",
       "options": [
         "mentor-mcq-05",
-        "mentor-mcq-04",
-        "mentor-mcq-06",
-        "mentor-mcq-03",
-        "mentor-mcq-07",
-        "mentor-mcq-02"
+        "mentor-mcq-14"
       ],
       "explanation": "本句的「career mentor」指「提供職涯方向與專業發展建議的導師」。",
       "sentenceIndex": 10,
@@ -444,12 +408,8 @@ export default {
         "career mentor"
       ],
       "optionReasons": {
-        "mentor-mcq-05": "本句指「提供職涯方向與專業發展建議的導師」。",
-        "mentor-mcq-04": "「長期幫助某人在學業、職涯或個人成長上發展」與本句語境不同。",
-        "mentor-mcq-06": "「在學術學習、研究或升學方面提供持續指導的導師」與本句語境不同。",
-        "mentor-mcq-03": "「在某個專業、技能或領域中指導某人」與本句語境不同。",
-        "mentor-mcq-07": "「在某個專業領域提供職場與發展指導的人」與本句語境不同。",
-        "mentor-mcq-02": "「以導師身分持續指導、支持較缺乏經驗的人」與本句語境不同。"
+        "mentor-mcq-05": "本句的「career mentor」指「提供職涯方向與專業發展建議的導師」。",
+        "mentor-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-05"
     },
@@ -461,11 +421,7 @@ export default {
       "masked": "She regularly meets her ____ for advice.",
       "options": [
         "mentor-mcq-05",
-        "mentor-mcq-04",
-        "mentor-mcq-06",
-        "mentor-mcq-03",
-        "mentor-mcq-07",
-        "mentor-mcq-02"
+        "mentor-mcq-14"
       ],
       "explanation": "本句的「career mentor」指「提供職涯方向與專業發展建議的導師」。",
       "sentenceIndex": 11,
@@ -474,12 +430,8 @@ export default {
         "career mentor"
       ],
       "optionReasons": {
-        "mentor-mcq-05": "本句指「提供職涯方向與專業發展建議的導師」。",
-        "mentor-mcq-04": "「長期幫助某人在學業、職涯或個人成長上發展」與本句語境不同。",
-        "mentor-mcq-06": "「在學術學習、研究或升學方面提供持續指導的導師」與本句語境不同。",
-        "mentor-mcq-03": "「在某個專業、技能或領域中指導某人」與本句語境不同。",
-        "mentor-mcq-07": "「在某個專業領域提供職場與發展指導的人」與本句語境不同。",
-        "mentor-mcq-02": "「以導師身分持續指導、支持較缺乏經驗的人」與本句語境不同。"
+        "mentor-mcq-05": "本句的「career mentor」指「提供職涯方向與專業發展建議的導師」。",
+        "mentor-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-05"
     },
@@ -491,11 +443,7 @@ export default {
       "masked": "Each student is assigned an ____.",
       "options": [
         "mentor-mcq-06",
-        "mentor-mcq-05",
-        "mentor-mcq-07",
-        "mentor-mcq-04",
-        "mentor-mcq-08",
-        "mentor-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「academic mentor」指「在學術學習、研究或升學方面提供持續指導的導師」。",
       "sentenceIndex": 12,
@@ -504,12 +452,8 @@ export default {
         "academic mentor"
       ],
       "optionReasons": {
-        "mentor-mcq-06": "本句指「在學術學習、研究或升學方面提供持續指導的導師」。",
-        "mentor-mcq-05": "「提供職涯方向與專業發展建議的導師」與本句語境不同。",
-        "mentor-mcq-07": "「在某個專業領域提供職場與發展指導的人」與本句語境不同。",
-        "mentor-mcq-04": "「長期幫助某人在學業、職涯或個人成長上發展」與本句語境不同。",
-        "mentor-mcq-08": "「不只教授技能，也在信心、判斷和成長方面給予支持的人」與本句語境不同。",
-        "mentor-mcq-03": "「在某個專業、技能或領域中指導某人」與本句語境不同。"
+        "mentor-mcq-06": "本句的「academic mentor」指「在學術學習、研究或升學方面提供持續指導的導師」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-06"
     },
@@ -521,11 +465,7 @@ export default {
       "masked": "Her ____ encouraged her to apply for graduate school.",
       "options": [
         "mentor-mcq-06",
-        "mentor-mcq-05",
-        "mentor-mcq-07",
-        "mentor-mcq-04",
-        "mentor-mcq-08",
-        "mentor-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「academic mentor」指「在學術學習、研究或升學方面提供持續指導的導師」。",
       "sentenceIndex": 13,
@@ -534,12 +474,8 @@ export default {
         "academic mentor"
       ],
       "optionReasons": {
-        "mentor-mcq-06": "本句指「在學術學習、研究或升學方面提供持續指導的導師」。",
-        "mentor-mcq-05": "「提供職涯方向與專業發展建議的導師」與本句語境不同。",
-        "mentor-mcq-07": "「在某個專業領域提供職場與發展指導的人」與本句語境不同。",
-        "mentor-mcq-04": "「長期幫助某人在學業、職涯或個人成長上發展」與本句語境不同。",
-        "mentor-mcq-08": "「不只教授技能，也在信心、判斷和成長方面給予支持的人」與本句語境不同。",
-        "mentor-mcq-03": "「在某個專業、技能或領域中指導某人」與本句語境不同。"
+        "mentor-mcq-06": "本句的「academic mentor」指「在學術學習、研究或升學方面提供持續指導的導師」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-06"
     },
@@ -551,11 +487,7 @@ export default {
       "masked": "A ____ can help you understand workplace expectations.",
       "options": [
         "mentor-mcq-07",
-        "mentor-mcq-06",
-        "mentor-mcq-08",
-        "mentor-mcq-05",
-        "mentor-mcq-09",
-        "mentor-mcq-04"
+        "mentor-mcq-13"
       ],
       "explanation": "本句的「professional mentor」指「在某個專業領域提供職場與發展指導的人」。",
       "sentenceIndex": 14,
@@ -564,12 +496,8 @@ export default {
         "professional mentor"
       ],
       "optionReasons": {
-        "mentor-mcq-07": "本句指「在某個專業領域提供職場與發展指導的人」。",
-        "mentor-mcq-06": "「在學術學習、研究或升學方面提供持續指導的導師」與本句語境不同。",
-        "mentor-mcq-08": "「不只教授技能，也在信心、判斷和成長方面給予支持的人」與本句語境不同。",
-        "mentor-mcq-05": "「提供職涯方向與專業發展建議的導師」與本句語境不同。",
-        "mentor-mcq-09": "「安排有經驗者持續指導較缺乏經驗者的導師制度／計畫」與本句語境不同。",
-        "mentor-mcq-04": "「長期幫助某人在學業、職涯或個人成長上發展」與本句語境不同。"
+        "mentor-mcq-07": "本句的「professional mentor」指「在某個專業領域提供職場與發展指導的人」。",
+        "mentor-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-07"
     },
@@ -581,11 +509,7 @@ export default {
       "masked": "He found a ____ early in his career.",
       "options": [
         "mentor-mcq-07",
-        "mentor-mcq-06",
-        "mentor-mcq-08",
-        "mentor-mcq-05",
-        "mentor-mcq-09",
-        "mentor-mcq-04"
+        "mentor-mcq-13"
       ],
       "explanation": "本句的「professional mentor」指「在某個專業領域提供職場與發展指導的人」。",
       "sentenceIndex": 15,
@@ -594,12 +518,8 @@ export default {
         "professional mentor"
       ],
       "optionReasons": {
-        "mentor-mcq-07": "本句指「在某個專業領域提供職場與發展指導的人」。",
-        "mentor-mcq-06": "「在學術學習、研究或升學方面提供持續指導的導師」與本句語境不同。",
-        "mentor-mcq-08": "「不只教授技能，也在信心、判斷和成長方面給予支持的人」與本句語境不同。",
-        "mentor-mcq-05": "「提供職涯方向與專業發展建議的導師」與本句語境不同。",
-        "mentor-mcq-09": "「安排有經驗者持續指導較缺乏經驗者的導師制度／計畫」與本句語境不同。",
-        "mentor-mcq-04": "「長期幫助某人在學業、職涯或個人成長上發展」與本句語境不同。"
+        "mentor-mcq-07": "本句的「professional mentor」指「在某個專業領域提供職場與發展指導的人」。",
+        "mentor-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-07"
     },
@@ -611,11 +531,7 @@ export default {
       "masked": "The school runs a ____ for younger students.",
       "options": [
         "mentor-mcq-09",
-        "mentor-mcq-08",
-        "mentor-mcq-10",
-        "mentor-mcq-07",
-        "mentor-mcq-11",
-        "mentor-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「mentoring programme」指「安排有經驗者持續指導較缺乏經驗者的導師制度／計畫」。",
       "sentenceIndex": 18,
@@ -624,12 +540,8 @@ export default {
         "mentoring programme"
       ],
       "optionReasons": {
-        "mentor-mcq-09": "本句指「安排有經驗者持續指導較缺乏經驗者的導師制度／計畫」。",
-        "mentor-mcq-08": "「不只教授技能，也在信心、判斷和成長方面給予支持的人」與本句語境不同。",
-        "mentor-mcq-10": "「由年齡或身分相近但較有經驗者提供的同儕輔導」與本句語境不同。",
-        "mentor-mcq-07": "「在某個專業領域提供職場與發展指導的人」與本句語境不同。",
-        "mentor-mcq-11": "「持續提供方向、建議和支持的指導過程」與本句語境不同。",
-        "mentor-mcq-06": "「在學術學習、研究或升學方面提供持續指導的導師」與本句語境不同。"
+        "mentor-mcq-09": "本句的「mentoring programme」指「安排有經驗者持續指導較缺乏經驗者的導師制度／計畫」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-09"
     },
@@ -641,11 +553,7 @@ export default {
       "masked": "New employees can join a ____.",
       "options": [
         "mentor-mcq-09",
-        "mentor-mcq-08",
-        "mentor-mcq-10",
-        "mentor-mcq-07",
-        "mentor-mcq-11",
-        "mentor-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「mentoring programme」指「安排有經驗者持續指導較缺乏經驗者的導師制度／計畫」。",
       "sentenceIndex": 19,
@@ -654,12 +562,8 @@ export default {
         "mentoring programme"
       ],
       "optionReasons": {
-        "mentor-mcq-09": "本句指「安排有經驗者持續指導較缺乏經驗者的導師制度／計畫」。",
-        "mentor-mcq-08": "「不只教授技能，也在信心、判斷和成長方面給予支持的人」與本句語境不同。",
-        "mentor-mcq-10": "「由年齡或身分相近但較有經驗者提供的同儕輔導」與本句語境不同。",
-        "mentor-mcq-07": "「在某個專業領域提供職場與發展指導的人」與本句語境不同。",
-        "mentor-mcq-11": "「持續提供方向、建議和支持的指導過程」與本句語境不同。",
-        "mentor-mcq-06": "「在學術學習、研究或升學方面提供持續指導的導師」與本句語境不同。"
+        "mentor-mcq-09": "本句的「mentoring programme」指「安排有經驗者持續指導較缺乏經驗者的導師制度／計畫」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-09"
     },
@@ -671,11 +575,7 @@ export default {
       "masked": "The university offers ____ for first-year students.",
       "options": [
         "mentor-mcq-10",
-        "mentor-mcq-09",
-        "mentor-mcq-11",
-        "mentor-mcq-08",
-        "mentor-mcq-12",
-        "mentor-mcq-07"
+        "mentor-mcq-03"
       ],
       "explanation": "本句的「peer mentoring」指「由年齡或身分相近但較有經驗者提供的同儕輔導」。",
       "sentenceIndex": 20,
@@ -684,12 +584,8 @@ export default {
         "peer mentoring"
       ],
       "optionReasons": {
-        "mentor-mcq-10": "本句指「由年齡或身分相近但較有經驗者提供的同儕輔導」。",
-        "mentor-mcq-09": "「安排有經驗者持續指導較缺乏經驗者的導師制度／計畫」與本句語境不同。",
-        "mentor-mcq-11": "「持續提供方向、建議和支持的指導過程」與本句語境不同。",
-        "mentor-mcq-08": "「不只教授技能，也在信心、判斷和成長方面給予支持的人」與本句語境不同。",
-        "mentor-mcq-12": "「接受導師長期指導與支持的人」與本句語境不同。",
-        "mentor-mcq-07": "「在某個專業領域提供職場與發展指導的人」與本句語境不同。"
+        "mentor-mcq-10": "本句的「peer mentoring」指「由年齡或身分相近但較有經驗者提供的同儕輔導」。",
+        "mentor-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-10"
     },
@@ -701,11 +597,7 @@ export default {
       "masked": "____ can make new students feel less isolated.",
       "options": [
         "mentor-mcq-10",
-        "mentor-mcq-09",
-        "mentor-mcq-11",
-        "mentor-mcq-08",
-        "mentor-mcq-12",
-        "mentor-mcq-07"
+        "mentor-mcq-03"
       ],
       "explanation": "本句的「Peer mentoring」指「由年齡或身分相近但較有經驗者提供的同儕輔導」。",
       "sentenceIndex": 21,
@@ -714,12 +606,8 @@ export default {
         "Peer mentoring"
       ],
       "optionReasons": {
-        "mentor-mcq-10": "本句指「由年齡或身分相近但較有經驗者提供的同儕輔導」。",
-        "mentor-mcq-09": "「安排有經驗者持續指導較缺乏經驗者的導師制度／計畫」與本句語境不同。",
-        "mentor-mcq-11": "「持續提供方向、建議和支持的指導過程」與本句語境不同。",
-        "mentor-mcq-08": "「不只教授技能，也在信心、判斷和成長方面給予支持的人」與本句語境不同。",
-        "mentor-mcq-12": "「接受導師長期指導與支持的人」與本句語境不同。",
-        "mentor-mcq-07": "「在某個專業領域提供職場與發展指導的人」與本句語境不同。"
+        "mentor-mcq-10": "本句的「Peer mentoring」指「由年齡或身分相近但較有經驗者提供的同儕輔導」。",
+        "mentor-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-10"
     },
@@ -731,11 +619,7 @@ export default {
       "masked": "She has years of experience in ____ students.",
       "options": [
         "mentor-mcq-11",
-        "mentor-mcq-10",
-        "mentor-mcq-12",
-        "mentor-mcq-09",
-        "mentor-mcq-13",
-        "mentor-mcq-08"
+        "mentor-mcq-13"
       ],
       "explanation": "本句的「mentoring」指「持續提供方向、建議和支持的指導過程」。",
       "sentenceIndex": 22,
@@ -744,12 +628,8 @@ export default {
         "mentoring"
       ],
       "optionReasons": {
-        "mentor-mcq-11": "本句指「持續提供方向、建議和支持的指導過程」。",
-        "mentor-mcq-10": "「由年齡或身分相近但較有經驗者提供的同儕輔導」與本句語境不同。",
-        "mentor-mcq-12": "「接受導師長期指導與支持的人」與本句語境不同。",
-        "mentor-mcq-09": "「安排有經驗者持續指導較缺乏經驗者的導師制度／計畫」與本句語境不同。",
-        "mentor-mcq-13": "「擔任某人的導師角色」與本句語境不同。",
-        "mentor-mcq-08": "「不只教授技能，也在信心、判斷和成長方面給予支持的人」與本句語境不同。"
+        "mentor-mcq-11": "本句的「mentoring」指「持續提供方向、建議和支持的指導過程」。",
+        "mentor-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-11"
     },
@@ -761,11 +641,7 @@ export default {
       "masked": "Effective ____ requires patience and trust.",
       "options": [
         "mentor-mcq-11",
-        "mentor-mcq-10",
-        "mentor-mcq-12",
-        "mentor-mcq-09",
-        "mentor-mcq-13",
-        "mentor-mcq-08"
+        "mentor-mcq-13"
       ],
       "explanation": "本句的「mentoring」指「持續提供方向、建議和支持的指導過程」。",
       "sentenceIndex": 23,
@@ -774,12 +650,8 @@ export default {
         "mentoring"
       ],
       "optionReasons": {
-        "mentor-mcq-11": "本句指「持續提供方向、建議和支持的指導過程」。",
-        "mentor-mcq-10": "「由年齡或身分相近但較有經驗者提供的同儕輔導」與本句語境不同。",
-        "mentor-mcq-12": "「接受導師長期指導與支持的人」與本句語境不同。",
-        "mentor-mcq-09": "「安排有經驗者持續指導較缺乏經驗者的導師制度／計畫」與本句語境不同。",
-        "mentor-mcq-13": "「擔任某人的導師角色」與本句語境不同。",
-        "mentor-mcq-08": "「不只教授技能，也在信心、判斷和成長方面給予支持的人」與本句語境不同。"
+        "mentor-mcq-11": "本句的「mentoring」指「持續提供方向、建議和支持的指導過程」。",
+        "mentor-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-11"
     },
@@ -791,11 +663,7 @@ export default {
       "masked": "Each ____ meets their mentor once a month.",
       "options": [
         "mentor-mcq-12",
-        "mentor-mcq-11",
-        "mentor-mcq-13",
-        "mentor-mcq-10",
-        "mentor-mcq-14",
-        "mentor-mcq-09"
+        "contrast-purchase"
       ],
       "explanation": "本句的「mentee」指「接受導師長期指導與支持的人」。",
       "sentenceIndex": 24,
@@ -804,12 +672,8 @@ export default {
         "mentee"
       ],
       "optionReasons": {
-        "mentor-mcq-12": "本句指「接受導師長期指導與支持的人」。",
-        "mentor-mcq-11": "「持續提供方向、建議和支持的指導過程」與本句語境不同。",
-        "mentor-mcq-13": "「擔任某人的導師角色」與本句語境不同。",
-        "mentor-mcq-10": "「由年齡或身分相近但較有經驗者提供的同儕輔導」與本句語境不同。",
-        "mentor-mcq-14": "「指導較年輕或經驗較少的學生」與本句語境不同。",
-        "mentor-mcq-09": "「安排有經驗者持續指導較缺乏經驗者的導師制度／計畫」與本句語境不同。"
+        "mentor-mcq-12": "本句的「mentee」指「接受導師長期指導與支持的人」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-12"
     },
@@ -821,11 +685,7 @@ export default {
       "masked": "The ____ sets goals with the mentor.",
       "options": [
         "mentor-mcq-12",
-        "mentor-mcq-11",
-        "mentor-mcq-13",
-        "mentor-mcq-10",
-        "mentor-mcq-14",
-        "mentor-mcq-09"
+        "contrast-purchase"
       ],
       "explanation": "本句的「mentee」指「接受導師長期指導與支持的人」。",
       "sentenceIndex": 25,
@@ -834,12 +694,8 @@ export default {
         "mentee"
       ],
       "optionReasons": {
-        "mentor-mcq-12": "本句指「接受導師長期指導與支持的人」。",
-        "mentor-mcq-11": "「持續提供方向、建議和支持的指導過程」與本句語境不同。",
-        "mentor-mcq-13": "「擔任某人的導師角色」與本句語境不同。",
-        "mentor-mcq-10": "「由年齡或身分相近但較有經驗者提供的同儕輔導」與本句語境不同。",
-        "mentor-mcq-14": "「指導較年輕或經驗較少的學生」與本句語境不同。",
-        "mentor-mcq-09": "「安排有經驗者持續指導較缺乏經驗者的導師制度／計畫」與本句語境不同。"
+        "mentor-mcq-12": "本句的「mentee」指「接受導師長期指導與支持的人」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-12"
     },
@@ -851,11 +707,7 @@ export default {
       "masked": "She agreed to ____ for the programme.",
       "options": [
         "mentor-mcq-13",
-        "mentor-mcq-12",
-        "mentor-mcq-14",
-        "mentor-mcq-11",
-        "mentor-mcq-15",
-        "mentor-mcq-10"
+        "mentor-mcq-07"
       ],
       "explanation": "本句的「serve as a mentor」指「擔任某人的導師角色」。",
       "sentenceIndex": 26,
@@ -864,12 +716,8 @@ export default {
         "serve as a mentor"
       ],
       "optionReasons": {
-        "mentor-mcq-13": "本句指「擔任某人的導師角色」。",
-        "mentor-mcq-12": "「接受導師長期指導與支持的人」與本句語境不同。",
-        "mentor-mcq-14": "「指導較年輕或經驗較少的學生」與本句語境不同。",
-        "mentor-mcq-11": "「持續提供方向、建議和支持的指導過程」與本句語境不同。",
-        "mentor-mcq-15": "「在某個階段或過程中持續陪伴並指導某人」與本句語境不同。",
-        "mentor-mcq-10": "「由年齡或身分相近但較有經驗者提供的同儕輔導」與本句語境不同。"
+        "mentor-mcq-13": "本句的「serve as a mentor」指「擔任某人的導師角色」。",
+        "mentor-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-13"
     },
@@ -881,10 +729,6 @@ export default {
       "masked": "Experienced teachers often ____ to new staff.",
       "options": [
         "mentor-mcq-13",
-        "mentor-mcq-12",
-        "mentor-mcq-14",
-        "mentor-mcq-11",
-        "mentor-mcq-15",
         "mentor-mcq-10"
       ],
       "explanation": "本句的「serve as mentors」指「擔任某人的導師角色」。",
@@ -894,12 +738,8 @@ export default {
         "serve as mentors"
       ],
       "optionReasons": {
-        "mentor-mcq-13": "本句指「擔任某人的導師角色」。",
-        "mentor-mcq-12": "「接受導師長期指導與支持的人」與本句語境不同。",
-        "mentor-mcq-14": "「指導較年輕或經驗較少的學生」與本句語境不同。",
-        "mentor-mcq-11": "「持續提供方向、建議和支持的指導過程」與本句語境不同。",
-        "mentor-mcq-15": "「在某個階段或過程中持續陪伴並指導某人」與本句語境不同。",
-        "mentor-mcq-10": "「由年齡或身分相近但較有經驗者提供的同儕輔導」與本句語境不同。"
+        "mentor-mcq-13": "本句的「serve as mentors」指「擔任某人的導師角色」。",
+        "mentor-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-13"
     },
@@ -911,11 +751,7 @@ export default {
       "masked": "Senior students ____.",
       "options": [
         "mentor-mcq-14",
-        "mentor-mcq-13",
-        "mentor-mcq-15",
-        "mentor-mcq-12",
-        "mentor-mcq-11",
-        "mentor-mcq-10"
+        "mentor-mcq-05"
       ],
       "explanation": "本句的「mentor younger students」指「指導較年輕或經驗較少的學生」。",
       "sentenceIndex": 28,
@@ -924,12 +760,8 @@ export default {
         "mentor younger students"
       ],
       "optionReasons": {
-        "mentor-mcq-14": "本句指「指導較年輕或經驗較少的學生」。",
-        "mentor-mcq-13": "「擔任某人的導師角色」與本句語境不同。",
-        "mentor-mcq-15": "「在某個階段或過程中持續陪伴並指導某人」與本句語境不同。",
-        "mentor-mcq-12": "「接受導師長期指導與支持的人」與本句語境不同。",
-        "mentor-mcq-11": "「持續提供方向、建議和支持的指導過程」與本句語境不同。",
-        "mentor-mcq-10": "「由年齡或身分相近但較有經驗者提供的同儕輔導」與本句語境不同。"
+        "mentor-mcq-14": "本句的「mentor younger students」指「指導較年輕或經驗較少的學生」。",
+        "mentor-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-14"
     },
@@ -941,11 +773,7 @@ export default {
       "masked": "She volunteers to ____ interested in science.",
       "options": [
         "mentor-mcq-14",
-        "mentor-mcq-13",
-        "mentor-mcq-15",
-        "mentor-mcq-12",
-        "mentor-mcq-11",
-        "mentor-mcq-10"
+        "mentor-mcq-13"
       ],
       "explanation": "本句的「mentor younger students」指「指導較年輕或經驗較少的學生」。",
       "sentenceIndex": 29,
@@ -954,12 +782,8 @@ export default {
         "mentor younger students"
       ],
       "optionReasons": {
-        "mentor-mcq-14": "本句指「指導較年輕或經驗較少的學生」。",
-        "mentor-mcq-13": "「擔任某人的導師角色」與本句語境不同。",
-        "mentor-mcq-15": "「在某個階段或過程中持續陪伴並指導某人」與本句語境不同。",
-        "mentor-mcq-12": "「接受導師長期指導與支持的人」與本句語境不同。",
-        "mentor-mcq-11": "「持續提供方向、建議和支持的指導過程」與本句語境不同。",
-        "mentor-mcq-10": "「由年齡或身分相近但較有經驗者提供的同儕輔導」與本句語境不同。"
+        "mentor-mcq-14": "本句的「mentor younger students」指「指導較年輕或經驗較少的學生」。",
+        "mentor-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-14"
     },
@@ -971,11 +795,7 @@ export default {
       "masked": "She ____.",
       "options": [
         "mentor-mcq-15",
-        "mentor-mcq-14",
-        "mentor-mcq-13",
-        "mentor-mcq-12",
-        "mentor-mcq-11",
-        "mentor-mcq-10"
+        "mentor-mcq-05"
       ],
       "explanation": "本句的「mentored me through my first year of teaching」指「在某個階段或過程中持續陪伴並指導某人」。",
       "sentenceIndex": 30,
@@ -984,12 +804,8 @@ export default {
         "mentored me through my first year of teaching"
       ],
       "optionReasons": {
-        "mentor-mcq-15": "本句指「在某個階段或過程中持續陪伴並指導某人」。",
-        "mentor-mcq-14": "「指導較年輕或經驗較少的學生」與本句語境不同。",
-        "mentor-mcq-13": "「擔任某人的導師角色」與本句語境不同。",
-        "mentor-mcq-12": "「接受導師長期指導與支持的人」與本句語境不同。",
-        "mentor-mcq-11": "「持續提供方向、建議和支持的指導過程」與本句語境不同。",
-        "mentor-mcq-10": "「由年齡或身分相近但較有經驗者提供的同儕輔導」與本句語境不同。"
+        "mentor-mcq-15": "本句的「mentored me through my first year of teaching」指「在某個階段或過程中持續陪伴並指導某人」。",
+        "mentor-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-15"
     },
@@ -1001,11 +817,7 @@ export default {
       "masked": "He ____.",
       "options": [
         "mentor-mcq-15",
-        "mentor-mcq-14",
-        "mentor-mcq-13",
-        "mentor-mcq-12",
-        "mentor-mcq-11",
-        "mentor-mcq-10"
+        "mentor-mcq-05"
       ],
       "explanation": "本句的「mentored the team through a difficult transition」指「在某個階段或過程中持續陪伴並指導某人」。",
       "sentenceIndex": 31,
@@ -1014,12 +826,8 @@ export default {
         "mentored the team through a difficult transition"
       ],
       "optionReasons": {
-        "mentor-mcq-15": "本句指「在某個階段或過程中持續陪伴並指導某人」。",
-        "mentor-mcq-14": "「指導較年輕或經驗較少的學生」與本句語境不同。",
-        "mentor-mcq-13": "「擔任某人的導師角色」與本句語境不同。",
-        "mentor-mcq-12": "「接受導師長期指導與支持的人」與本句語境不同。",
-        "mentor-mcq-11": "「持續提供方向、建議和支持的指導過程」與本句語境不同。",
-        "mentor-mcq-10": "「由年齡或身分相近但較有經驗者提供的同儕輔導」與本句語境不同。"
+        "mentor-mcq-15": "本句的「mentored the team through a difficult transition」指「在某個階段或過程中持續陪伴並指導某人」。",
+        "mentor-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mentor-mcq-15"
     }
@@ -1031,5 +839,12 @@ export default {
     "sha256": "31bbfc5812139f13930566c8a740e95eab090535191979c63ec2e712849bb6e8",
     "pages": 11
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

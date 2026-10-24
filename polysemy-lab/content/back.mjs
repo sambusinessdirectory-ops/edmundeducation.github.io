@@ -498,16 +498,6 @@ export default {
       "note": "來源詞義：流動受阻而逐漸堆積、堵塞",
       "examples": [
         [
-          "Please back up a little.",
-          "請倒後一點。",
-          "流動受阻而逐漸堆積、堵塞"
-        ],
-        [
-          "The truck backed up slowly.",
-          "貨車慢慢倒後。",
-          "流動受阻而逐漸堆積、堵塞"
-        ],
-        [
           "Traffic backed up for miles.",
           "交通堵塞了幾英里。",
           "流動受阻而逐漸堆積、堵塞"
@@ -904,16 +894,6 @@ export default {
       "note": "來源詞義：主要方法失敗時退而依靠後備資源",
       "examples": [
         [
-          "The crowd fell back.",
-          "人群向後退。",
-          "主要方法失敗時退而依靠後備資源"
-        ],
-        [
-          "If the main plan fails, we can fall back on the backup.",
-          "如果主要方案失敗，我們可以退而使用／依靠後備方案。",
-          "主要方法失敗時退而依靠後備資源"
-        ],
-        [
           "I had notes to fall back on if my mind went blank.",
           "如果腦袋一片空白，我還有筆記可以依靠／作後備。",
           "主要方法失敗時退而依靠後備資源"
@@ -1093,7 +1073,7 @@ export default {
     },
     {
       "id": "back-mcq-48",
-      "title": "表示在排名、位置或進度上較後",
+      "title": "在排名、位置或進度上較後",
       "form": "52. back = earlier position in ranking/progress（落後） — 在後；落後",
       "en": "52. back = earlier position in ranking/progress（落後） — 在後；落後",
       "zh": "表示在排名、位置或進度上較後",
@@ -1115,7 +1095,7 @@ export default {
     },
     {
       "id": "back-mcq-49",
-      "title": "表示與之前／過去時期有關的",
+      "title": "與之前／過去時期有關的",
       "form": "55. back = adjective: previous/older issue（以前的／舊的） — 過去的；舊期的",
       "en": "55. back = adjective: previous/older issue（以前的／舊的） — 過去的；舊期的",
       "zh": "表示與之前／過去時期有關的",
@@ -1310,6 +1290,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "back-reviewed-52bbcf11fb",
+      "title": "向後移動；倒車",
+      "form": "back · source section 30",
+      "en": "向後移動；倒車",
+      "zh": "向後移動；倒車",
+      "note": "對照原始教材第 30 節及例句核實。",
+      "examples": [
+        [
+          "Please back up a little.",
+          "請倒後一點。",
+          "向後移動；倒車"
+        ],
+        [
+          "The truck backed up slowly.",
+          "貨車慢慢倒後。",
+          "向後移動；倒車"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "back-reviewed-a01e4bc89f",
+      "title": "後退；或退回較安全／次選方案",
+      "form": "back · source section 53",
+      "en": "後退；或退回較安全／次選方案",
+      "zh": "後退；或退回較安全／次選方案",
+      "note": "對照原始教材第 53 節及例句核實。",
+      "examples": [
+        [
+          "The crowd fell back.",
+          "人群向後退。",
+          "後退；或退回較安全／次選方案"
+        ],
+        [
+          "If the main plan fails, we can fall back on the backup.",
+          "如果主要方案失敗，我們可以退而使用／依靠後備方案。",
+          "後退；或退回較安全／次選方案"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1321,11 +1345,9 @@ export default {
       "masked": "Looking ____, it was a turning point for me.",
       "options": [
         "back-mcq-01",
-        "back-mcq-02",
-        "back-mcq-03",
-        "back-mcq-04",
-        "back-mcq-05",
-        "back-mcq-06"
+        "back-mcq-42",
+        "back-mcq-07",
+        "back-mcq-14"
       ],
       "explanation": "本句的「back」指「在時間上朝向較早的時候／過去」。",
       "sentenceIndex": 0,
@@ -1334,12 +1356,10 @@ export default {
         "back"
       ],
       "optionReasons": {
-        "back-mcq-01": "本句指「在時間上朝向較早的時候／過去」。",
-        "back-mcq-02": "「從現在的角度回想並重新理解以前的經歷」是「look back — figurative」的用法，與本句語境不同。",
-        "back-mcq-03": "「把視線／頭部轉向後方」是「look back — literal」的用法，與本句語境不同。",
-        "back-mcq-04": "「返回之前的地方、內容、話題或狀態」是「go back」的用法，與本句語境不同。",
-        "back-mcq-05": "「返回說話者／原地方，或某種狀態再次出現」是「come back」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。"
+        "back-mcq-01": "本句的「back」指「在時間上朝向較早的時候／過去」。",
+        "back-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-01"
     },
@@ -1351,11 +1371,9 @@ export default {
       "masked": "When I think ____ to that day, I still remember the nerves.",
       "options": [
         "back-mcq-01",
-        "back-mcq-02",
-        "back-mcq-03",
-        "back-mcq-04",
-        "back-mcq-05",
-        "back-mcq-06"
+        "back-mcq-26",
+        "back-pdf-002",
+        "back-mcq-14"
       ],
       "explanation": "本句的「back」指「在時間上朝向較早的時候／過去」。",
       "sentenceIndex": 1,
@@ -1364,12 +1382,10 @@ export default {
         "back"
       ],
       "optionReasons": {
-        "back-mcq-01": "本句指「在時間上朝向較早的時候／過去」。",
-        "back-mcq-02": "「從現在的角度回想並重新理解以前的經歷」是「look back — figurative」的用法，與本句語境不同。",
-        "back-mcq-03": "「把視線／頭部轉向後方」是「look back — literal」的用法，與本句語境不同。",
-        "back-mcq-04": "「返回之前的地方、內容、話題或狀態」是「go back」的用法，與本句語境不同。",
-        "back-mcq-05": "「返回說話者／原地方，或某種狀態再次出現」是「come back」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。"
+        "back-mcq-01": "本句的「back」指「在時間上朝向較早的時候／過去」。",
+        "back-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-01"
     },
@@ -1381,11 +1397,9 @@ export default {
       "masked": "Looking ____ now, I’m glad I accepted the challenge.",
       "options": [
         "back-mcq-01",
-        "back-mcq-02",
-        "back-mcq-03",
-        "back-mcq-04",
-        "back-mcq-05",
-        "back-mcq-06"
+        "back-mcq-36",
+        "back-pdf-003",
+        "back-mcq-45"
       ],
       "explanation": "本句的「back」指「在時間上朝向較早的時候／過去」。",
       "sentenceIndex": 2,
@@ -1394,12 +1408,10 @@ export default {
         "back"
       ],
       "optionReasons": {
-        "back-mcq-01": "本句指「在時間上朝向較早的時候／過去」。",
-        "back-mcq-02": "「從現在的角度回想並重新理解以前的經歷」是「look back — figurative」的用法，與本句語境不同。",
-        "back-mcq-03": "「把視線／頭部轉向後方」是「look back — literal」的用法，與本句語境不同。",
-        "back-mcq-04": "「返回之前的地方、內容、話題或狀態」是「go back」的用法，與本句語境不同。",
-        "back-mcq-05": "「返回說話者／原地方，或某種狀態再次出現」是「come back」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。"
+        "back-mcq-01": "本句的「back」指「在時間上朝向較早的時候／過去」。",
+        "back-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-01"
     },
@@ -1411,11 +1423,9 @@ export default {
       "masked": "She ____ at the audience.",
       "options": [
         "back-mcq-02",
-        "back-mcq-01",
-        "back-mcq-03",
-        "back-mcq-04",
-        "back-mcq-05",
-        "back-mcq-06"
+        "back-mcq-38",
+        "back-mcq-51",
+        "back-mcq-21"
       ],
       "explanation": "本句的「looked back」指「從現在的角度回想並重新理解以前的經歷」。",
       "sentenceIndex": 3,
@@ -1424,12 +1434,10 @@ export default {
         "looked back"
       ],
       "optionReasons": {
-        "back-mcq-02": "本句指「從現在的角度回想並重新理解以前的經歷」。",
-        "back-mcq-01": "「在時間上朝向較早的時候／過去」是「back — toward the past」的用法，與本句語境不同。",
-        "back-mcq-03": "「把視線／頭部轉向後方」是「look back — literal」的用法，與本句語境不同。",
-        "back-mcq-04": "「返回之前的地方、內容、話題或狀態」是「go back」的用法，與本句語境不同。",
-        "back-mcq-05": "「返回說話者／原地方，或某種狀態再次出現」是「come back」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。"
+        "back-mcq-02": "本句的「looked back」指「從現在的角度回想並重新理解以前的經歷」。",
+        "back-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-02"
     },
@@ -1441,11 +1449,9 @@ export default {
       "masked": "I often ____ on that experience.",
       "options": [
         "back-mcq-02",
-        "back-mcq-01",
-        "back-mcq-03",
-        "back-mcq-04",
-        "back-mcq-05",
-        "back-mcq-06"
+        "back-mcq-22",
+        "back-mcq-21",
+        "back-mcq-39"
       ],
       "explanation": "本句的「look back」指「從現在的角度回想並重新理解以前的經歷」。",
       "sentenceIndex": 4,
@@ -1454,12 +1460,10 @@ export default {
         "look back"
       ],
       "optionReasons": {
-        "back-mcq-02": "本句指「從現在的角度回想並重新理解以前的經歷」。",
-        "back-mcq-01": "「在時間上朝向較早的時候／過去」是「back — toward the past」的用法，與本句語境不同。",
-        "back-mcq-03": "「把視線／頭部轉向後方」是「look back — literal」的用法，與本句語境不同。",
-        "back-mcq-04": "「返回之前的地方、內容、話題或狀態」是「go back」的用法，與本句語境不同。",
-        "back-mcq-05": "「返回說話者／原地方，或某種狀態再次出現」是「come back」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。"
+        "back-mcq-02": "本句的「look back」指「從現在的角度回想並重新理解以前的經歷」。",
+        "back-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-02"
     },
@@ -1471,11 +1475,9 @@ export default {
       "masked": "I went ____ to my seat.",
       "options": [
         "back-mcq-04",
-        "back-mcq-03",
-        "back-mcq-05",
-        "back-mcq-02",
-        "back-mcq-06",
-        "back-mcq-01"
+        "back-mcq-27",
+        "back-mcq-21",
+        "back-mcq-19"
       ],
       "explanation": "本句的「back」指「返回之前的地方、內容、話題或狀態」。",
       "sentenceIndex": 5,
@@ -1484,12 +1486,10 @@ export default {
         "back"
       ],
       "optionReasons": {
-        "back-mcq-04": "本句指「返回之前的地方、內容、話題或狀態」。",
-        "back-mcq-03": "「把視線／頭部轉向後方」是「look back — literal」的用法，與本句語境不同。",
-        "back-mcq-05": "「返回說話者／原地方，或某種狀態再次出現」是「come back」的用法，與本句語境不同。",
-        "back-mcq-02": "「從現在的角度回想並重新理解以前的經歷」是「look back — figurative」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。",
-        "back-mcq-01": "「在時間上朝向較早的時候／過去」是「back — toward the past」的用法，與本句語境不同。"
+        "back-mcq-04": "本句的「back」指「返回之前的地方、內容、話題或狀態」。",
+        "back-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-04"
     },
@@ -1501,11 +1501,9 @@ export default {
       "masked": "She came ____ after lunch.",
       "options": [
         "back-mcq-04",
-        "back-mcq-03",
-        "back-mcq-05",
-        "back-mcq-02",
-        "back-mcq-06",
-        "back-mcq-01"
+        "back-mcq-40",
+        "back-mcq-14",
+        "back-pdf-002"
       ],
       "explanation": "本句的「back」指「返回之前的地方、內容、話題或狀態」。",
       "sentenceIndex": 6,
@@ -1514,12 +1512,10 @@ export default {
         "back"
       ],
       "optionReasons": {
-        "back-mcq-04": "本句指「返回之前的地方、內容、話題或狀態」。",
-        "back-mcq-03": "「把視線／頭部轉向後方」是「look back — literal」的用法，與本句語境不同。",
-        "back-mcq-05": "「返回說話者／原地方，或某種狀態再次出現」是「come back」的用法，與本句語境不同。",
-        "back-mcq-02": "「從現在的角度回想並重新理解以前的經歷」是「look back — figurative」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。",
-        "back-mcq-01": "「在時間上朝向較早的時候／過去」是「back — toward the past」的用法，與本句語境不同。"
+        "back-mcq-04": "本句的「back」指「返回之前的地方、內容、話題或狀態」。",
+        "back-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-04"
     },
@@ -1531,11 +1527,9 @@ export default {
       "masked": "I had to ____ to the first slide.",
       "options": [
         "back-mcq-04",
-        "back-mcq-03",
-        "back-mcq-05",
-        "back-mcq-02",
-        "back-mcq-06",
-        "back-mcq-01"
+        "back-mcq-09",
+        "back-mcq-19",
+        "back-mcq-15"
       ],
       "explanation": "本句的「go back」指「返回之前的地方、內容、話題或狀態」。",
       "sentenceIndex": 7,
@@ -1544,12 +1538,10 @@ export default {
         "go back"
       ],
       "optionReasons": {
-        "back-mcq-04": "本句指「返回之前的地方、內容、話題或狀態」。",
-        "back-mcq-03": "「把視線／頭部轉向後方」是「look back — literal」的用法，與本句語境不同。",
-        "back-mcq-05": "「返回說話者／原地方，或某種狀態再次出現」是「come back」的用法，與本句語境不同。",
-        "back-mcq-02": "「從現在的角度回想並重新理解以前的經歷」是「look back — figurative」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。",
-        "back-mcq-01": "「在時間上朝向較早的時候／過去」是「back — toward the past」的用法，與本句語境不同。"
+        "back-mcq-04": "本句的「go back」指「返回之前的地方、內容、話題或狀態」。",
+        "back-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-04"
     },
@@ -1561,11 +1553,9 @@ export default {
       "masked": "Let’s ____ to the main point.",
       "options": [
         "back-mcq-04",
-        "back-mcq-03",
-        "back-mcq-05",
-        "back-mcq-02",
-        "back-mcq-06",
-        "back-mcq-01"
+        "back-mcq-17",
+        "back-mcq-35",
+        "back-pdf-001"
       ],
       "explanation": "本句的「go back」指「返回之前的地方、內容、話題或狀態」。",
       "sentenceIndex": 8,
@@ -1574,12 +1564,10 @@ export default {
         "go back"
       ],
       "optionReasons": {
-        "back-mcq-04": "本句指「返回之前的地方、內容、話題或狀態」。",
-        "back-mcq-03": "「把視線／頭部轉向後方」是「look back — literal」的用法，與本句語境不同。",
-        "back-mcq-05": "「返回說話者／原地方，或某種狀態再次出現」是「come back」的用法，與本句語境不同。",
-        "back-mcq-02": "「從現在的角度回想並重新理解以前的經歷」是「look back — figurative」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。",
-        "back-mcq-01": "「在時間上朝向較早的時候／過去」是「back — toward the past」的用法，與本句語境不同。"
+        "back-mcq-04": "本句的「go back」指「返回之前的地方、內容、話題或狀態」。",
+        "back-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-04"
     },
@@ -1591,11 +1579,9 @@ export default {
       "masked": "I’ll ____ in ten minutes.",
       "options": [
         "back-mcq-05",
-        "back-mcq-04",
-        "back-mcq-06",
-        "back-mcq-03",
-        "back-mcq-07",
-        "back-mcq-02"
+        "back-mcq-27",
+        "back-mcq-37",
+        "back-mcq-22"
       ],
       "explanation": "本句的「come back」指「返回說話者／原地方，或某種狀態再次出現」。",
       "sentenceIndex": 9,
@@ -1604,12 +1590,10 @@ export default {
         "come back"
       ],
       "optionReasons": {
-        "back-mcq-05": "本句指「返回說話者／原地方，或某種狀態再次出現」。",
-        "back-mcq-04": "「返回之前的地方、內容、話題或狀態」是「go back」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。",
-        "back-mcq-03": "「把視線／頭部轉向後方」是「look back — literal」的用法，與本句語境不同。",
-        "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。",
-        "back-mcq-02": "「從現在的角度回想並重新理解以前的經歷」是「look back — figurative」的用法，與本句語境不同。"
+        "back-mcq-05": "本句的「come back」指「返回說話者／原地方，或某種狀態再次出現」。",
+        "back-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-05"
     },
@@ -1621,11 +1605,9 @@ export default {
       "masked": "The confidence slowly ____.",
       "options": [
         "back-mcq-05",
-        "back-mcq-04",
-        "back-mcq-06",
-        "back-mcq-03",
-        "back-mcq-07",
-        "back-mcq-02"
+        "back-mcq-41",
+        "back-mcq-32",
+        "back-mcq-43"
       ],
       "explanation": "本句的「came back」指「返回說話者／原地方，或某種狀態再次出現」。",
       "sentenceIndex": 10,
@@ -1634,12 +1616,10 @@ export default {
         "came back"
       ],
       "optionReasons": {
-        "back-mcq-05": "本句指「返回說話者／原地方，或某種狀態再次出現」。",
-        "back-mcq-04": "「返回之前的地方、內容、話題或狀態」是「go back」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。",
-        "back-mcq-03": "「把視線／頭部轉向後方」是「look back — literal」的用法，與本句語境不同。",
-        "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。",
-        "back-mcq-02": "「從現在的角度回想並重新理解以前的經歷」是「look back — figurative」的用法，與本句語境不同。"
+        "back-mcq-05": "本句的「came back」指「返回說話者／原地方，或某種狀態再次出現」。",
+        "back-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-05"
     },
@@ -1651,11 +1631,9 @@ export default {
       "masked": "What time did you ____?",
       "options": [
         "back-mcq-06",
-        "back-mcq-05",
-        "back-mcq-07",
-        "back-mcq-04",
-        "back-mcq-08",
-        "back-mcq-03"
+        "back-mcq-38",
+        "back-mcq-15",
+        "back-mcq-34"
       ],
       "explanation": "本句的「get back」指「成功返回；或重新取得之前失去／交出的東西」。",
       "sentenceIndex": 11,
@@ -1664,12 +1642,10 @@ export default {
         "get back"
       ],
       "optionReasons": {
-        "back-mcq-06": "本句指「成功返回；或重新取得之前失去／交出的東西」。",
-        "back-mcq-05": "「返回說話者／原地方，或某種狀態再次出現」是「come back」的用法，與本句語境不同。",
-        "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。",
-        "back-mcq-04": "「返回之前的地方、內容、話題或狀態」是「go back」的用法，與本句語境不同。",
-        "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。",
-        "back-mcq-03": "「把視線／頭部轉向後方」是「look back — literal」的用法，與本句語境不同。"
+        "back-mcq-06": "本句的「get back」指「成功返回；或重新取得之前失去／交出的東西」。",
+        "back-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-06"
     },
@@ -1681,11 +1657,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "back-mcq-06",
-        "back-mcq-05",
-        "back-mcq-07",
-        "back-mcq-04",
-        "back-mcq-08",
-        "back-mcq-03"
+        "back-mcq-51",
+        "back-mcq-15",
+        "back-mcq-11"
       ],
       "explanation": "本句的「get my notes back」指「成功返回；或重新取得之前失去／交出的東西」。",
       "sentenceIndex": 12,
@@ -1694,12 +1668,10 @@ export default {
         "get my notes back"
       ],
       "optionReasons": {
-        "back-mcq-06": "本句指「成功返回；或重新取得之前失去／交出的東西」。",
-        "back-mcq-05": "「返回說話者／原地方，或某種狀態再次出現」是「come back」的用法，與本句語境不同。",
-        "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。",
-        "back-mcq-04": "「返回之前的地方、內容、話題或狀態」是「go back」的用法，與本句語境不同。",
-        "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。",
-        "back-mcq-03": "「把視線／頭部轉向後方」是「look back — literal」的用法，與本句語境不同。"
+        "back-mcq-06": "本句的「get my notes back」指「成功返回；或重新取得之前失去／交出的東西」。",
+        "back-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-06"
     },
@@ -1711,11 +1683,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "back-mcq-07",
-        "back-mcq-06",
-        "back-mcq-08",
-        "back-mcq-05",
-        "back-mcq-09",
-        "back-mcq-04"
+        "back-mcq-27",
+        "back-mcq-19",
+        "back-mcq-25"
       ],
       "explanation": "本句的「give the microphone back」指「把原本屬於／來自某人的東西歸還」。",
       "sentenceIndex": 13,
@@ -1724,12 +1694,10 @@ export default {
         "give the microphone back"
       ],
       "optionReasons": {
-        "back-mcq-07": "本句指「把原本屬於／來自某人的東西歸還」。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。",
-        "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。",
-        "back-mcq-05": "「返回說話者／原地方，或某種狀態再次出現」是「come back」的用法，與本句語境不同。",
-        "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。",
-        "back-mcq-04": "「返回之前的地方、內容、話題或狀態」是「go back」的用法，與本句語境不同。"
+        "back-mcq-07": "本句的「give the microphone back」指「把原本屬於／來自某人的東西歸還」。",
+        "back-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-07"
     },
@@ -1741,11 +1709,9 @@ export default {
       "masked": "I gave her notes ____ after the meeting.",
       "options": [
         "back-mcq-07",
-        "back-mcq-06",
-        "back-mcq-08",
-        "back-mcq-05",
-        "back-mcq-09",
-        "back-mcq-04"
+        "back-mcq-18",
+        "back-mcq-34",
+        "back-mcq-09"
       ],
       "explanation": "本句的「back」指「把原本屬於／來自某人的東西歸還」。",
       "sentenceIndex": 14,
@@ -1754,12 +1720,10 @@ export default {
         "back"
       ],
       "optionReasons": {
-        "back-mcq-07": "本句指「把原本屬於／來自某人的東西歸還」。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。",
-        "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。",
-        "back-mcq-05": "「返回說話者／原地方，或某種狀態再次出現」是「come back」的用法，與本句語境不同。",
-        "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。",
-        "back-mcq-04": "「返回之前的地方、內容、話題或狀態」是「go back」的用法，與本句語境不同。"
+        "back-mcq-07": "本句的「back」指「把原本屬於／來自某人的東西歸還」。",
+        "back-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-07"
     },
@@ -1771,11 +1735,9 @@ export default {
       "masked": "I’ll ____ tomorrow.",
       "options": [
         "back-mcq-08",
-        "back-mcq-07",
-        "back-mcq-09",
-        "back-mcq-06",
-        "back-mcq-10",
-        "back-mcq-05"
+        "back-mcq-38",
+        "back-pdf-005",
+        "back-mcq-09"
       ],
       "explanation": "本句的「take the laptop back」指「把物件拿回；或收回之前說過的話」。",
       "sentenceIndex": 15,
@@ -1784,12 +1746,10 @@ export default {
         "take the laptop back"
       ],
       "optionReasons": {
-        "back-mcq-08": "本句指「把物件拿回；或收回之前說過的話」。",
-        "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。",
-        "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-05": "「返回說話者／原地方，或某種狀態再次出現」是「come back」的用法，與本句語境不同。"
+        "back-mcq-08": "本句的「take the laptop back」指「把物件拿回；或收回之前說過的話」。",
+        "back-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-08"
     },
@@ -1801,11 +1761,9 @@ export default {
       "masked": "I ____ what I said.",
       "options": [
         "back-mcq-08",
+        "back-mcq-13",
         "back-mcq-07",
-        "back-mcq-09",
-        "back-mcq-06",
-        "back-mcq-10",
-        "back-mcq-05"
+        "back-reviewed-52bbcf11fb"
       ],
       "explanation": "本句的「take back」指「把物件拿回；或收回之前說過的話」。",
       "sentenceIndex": 16,
@@ -1814,12 +1772,10 @@ export default {
         "take back"
       ],
       "optionReasons": {
-        "back-mcq-08": "本句指「把物件拿回；或收回之前說過的話」。",
-        "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。",
-        "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-05": "「返回說話者／原地方，或某種狀態再次出現」是「come back」的用法，與本句語境不同。"
+        "back-mcq-08": "本句的「take back」指「把物件拿回；或收回之前說過的話」。",
+        "back-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "back-reviewed-52bbcf11fb": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-08"
     },
@@ -1831,11 +1787,9 @@ export default {
       "masked": "My ____ hurt after standing for so long.",
       "options": [
         "back-mcq-09",
-        "back-mcq-08",
-        "back-mcq-10",
-        "back-mcq-07",
-        "back-mcq-11",
-        "back-mcq-06"
+        "back-mcq-13",
+        "back-mcq-21",
+        "back-pdf-004"
       ],
       "explanation": "本句的「back」指「身體後方由肩部到腰部一帶；背部」。",
       "sentenceIndex": 17,
@@ -1844,12 +1798,10 @@ export default {
         "back"
       ],
       "optionReasons": {
-        "back-mcq-09": "本句指「身體後方由肩部到腰部一帶；背部」。",
-        "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。"
+        "back-mcq-09": "本句的「back」指「身體後方由肩部到腰部一帶；背部」。",
+        "back-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-09"
     },
@@ -1861,11 +1813,9 @@ export default {
       "masked": "She carried the bag on her ____.",
       "options": [
         "back-mcq-09",
-        "back-mcq-08",
-        "back-mcq-10",
-        "back-mcq-07",
-        "back-mcq-11",
-        "back-mcq-06"
+        "back-mcq-13",
+        "back-pdf-004",
+        "back-mcq-01"
       ],
       "explanation": "本句的「back」指「身體後方由肩部到腰部一帶；背部」。",
       "sentenceIndex": 18,
@@ -1874,12 +1824,10 @@ export default {
         "back"
       ],
       "optionReasons": {
-        "back-mcq-09": "本句指「身體後方由肩部到腰部一帶；背部」。",
-        "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。"
+        "back-mcq-09": "本句的「back」指「身體後方由肩部到腰部一帶；背部」。",
+        "back-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-09"
     },
@@ -1891,11 +1839,9 @@ export default {
       "masked": "Sitting badly can cause ____.",
       "options": [
         "back-pdf-001",
-        "back-mcq-08",
-        "back-mcq-10",
-        "back-mcq-07",
-        "back-mcq-11",
-        "back-mcq-06"
+        "back-mcq-50",
+        "back-mcq-27",
+        "back-mcq-35"
       ],
       "explanation": "本句的「back pain」指「背部出現的疼痛」。",
       "sentenceIndex": 19,
@@ -1904,12 +1850,10 @@ export default {
         "back pain"
       ],
       "optionReasons": {
-        "back-pdf-001": "本句指「背部出現的疼痛」。",
-        "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。"
+        "back-pdf-001": "本句的「back pain」指「背部出現的疼痛」。",
+        "back-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-pdf-001"
     },
@@ -1921,11 +1865,9 @@ export default {
       "masked": "He took a break because of ____.",
       "options": [
         "back-pdf-001",
-        "back-mcq-08",
-        "back-mcq-10",
-        "back-mcq-07",
-        "back-mcq-11",
-        "back-mcq-06"
+        "back-mcq-21",
+        "back-mcq-40",
+        "back-mcq-14"
       ],
       "explanation": "本句的「back pain」指「背部出現的疼痛」。",
       "sentenceIndex": 20,
@@ -1934,12 +1876,10 @@ export default {
         "back pain"
       ],
       "optionReasons": {
-        "back-pdf-001": "本句指「背部出現的疼痛」。",
-        "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。"
+        "back-pdf-001": "本句的「back pain」指「背部出現的疼痛」。",
+        "back-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-pdf-001"
     },
@@ -1951,11 +1891,9 @@ export default {
       "masked": "She felt pain in her ____.",
       "options": [
         "back-pdf-002",
-        "back-mcq-08",
-        "back-mcq-10",
-        "back-mcq-07",
-        "back-mcq-11",
-        "back-mcq-06"
+        "back-mcq-36",
+        "back-mcq-15",
+        "back-mcq-25"
       ],
       "explanation": "本句的「lower back」指「身體背面，可進一步分為上背／下背」。",
       "sentenceIndex": 21,
@@ -1964,12 +1902,10 @@ export default {
         "lower back"
       ],
       "optionReasons": {
-        "back-pdf-002": "本句指「身體背面，可進一步分為上背／下背」。",
-        "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。"
+        "back-pdf-002": "本句的「lower back」指「身體背面，可進一步分為上背／下背」。",
+        "back-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-pdf-002"
     },
@@ -1981,11 +1917,9 @@ export default {
       "masked": "Stretch your ____ gently.",
       "options": [
         "back-pdf-002",
-        "back-mcq-08",
-        "back-mcq-10",
-        "back-mcq-07",
-        "back-mcq-11",
-        "back-mcq-06"
+        "back-mcq-13",
+        "back-mcq-22",
+        "back-pdf-005"
       ],
       "explanation": "本句的「upper back」指「身體背面，可進一步分為上背／下背」。",
       "sentenceIndex": 22,
@@ -1994,12 +1928,10 @@ export default {
         "upper back"
       ],
       "optionReasons": {
-        "back-pdf-002": "本句指「身體背面，可進一步分為上背／下背」。",
-        "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-06": "「成功返回；或重新取得之前失去／交出的東西」是「get back」的用法，與本句語境不同。"
+        "back-pdf-002": "本句的「upper back」指「身體背面，可進一步分為上背／下背」。",
+        "back-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-pdf-002"
     },
@@ -2011,11 +1943,9 @@ export default {
       "masked": "Write your name on the ____ of the card.",
       "options": [
         "back-mcq-10",
-        "back-mcq-09",
-        "back-mcq-11",
-        "back-mcq-08",
-        "back-mcq-12",
-        "back-mcq-07"
+        "back-mcq-29",
+        "back-pdf-002",
+        "back-mcq-26"
       ],
       "explanation": "本句的「back」指「某物與正面相反的一面／後部」。",
       "sentenceIndex": 23,
@@ -2024,12 +1954,10 @@ export default {
         "back"
       ],
       "optionReasons": {
-        "back-mcq-10": "本句指「某物與正面相反的一面／後部」。",
-        "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。",
-        "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。",
-        "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。"
+        "back-mcq-10": "本句的「back」指「某物與正面相反的一面／後部」。",
+        "back-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-10"
     },
@@ -2041,11 +1969,9 @@ export default {
       "masked": "The answer is on the ____ of the page.",
       "options": [
         "back-mcq-10",
-        "back-mcq-09",
-        "back-mcq-11",
-        "back-mcq-08",
-        "back-mcq-12",
-        "back-mcq-07"
+        "back-mcq-44",
+        "back-mcq-43",
+        "back-pdf-004"
       ],
       "explanation": "本句的「back」指「某物與正面相反的一面／後部」。",
       "sentenceIndex": 24,
@@ -2054,12 +1980,10 @@ export default {
         "back"
       ],
       "optionReasons": {
-        "back-mcq-10": "本句指「某物與正面相反的一面／後部」。",
-        "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。",
-        "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。",
-        "back-mcq-07": "「把原本屬於／來自某人的東西歸還」是「give something back」的用法，與本句語境不同。"
+        "back-mcq-10": "本句的「back」指「某物與正面相反的一面／後部」。",
+        "back-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-10"
     },
@@ -2071,11 +1995,9 @@ export default {
       "masked": "He sat at the ____.",
       "options": [
         "back-mcq-11",
-        "back-mcq-10",
-        "back-mcq-12",
-        "back-mcq-09",
-        "back-mcq-13",
-        "back-mcq-08"
+        "back-pdf-004",
+        "back-mcq-52",
+        "back-mcq-36"
       ],
       "explanation": "本句的「back of the room」指「某空間最遠離正面／入口的後方部分」。",
       "sentenceIndex": 25,
@@ -2084,12 +2006,10 @@ export default {
         "back of the room"
       ],
       "optionReasons": {
-        "back-mcq-11": "本句指「某空間最遠離正面／入口的後方部分」。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。",
-        "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
-        "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。"
+        "back-mcq-11": "本句的「back of the room」指「某空間最遠離正面／入口的後方部分」。",
+        "back-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-11"
     },
@@ -2101,11 +2021,9 @@ export default {
       "masked": "There is a garden at the ____.",
       "options": [
         "back-mcq-11",
-        "back-mcq-10",
-        "back-mcq-12",
-        "back-mcq-09",
-        "back-mcq-13",
-        "back-mcq-08"
+        "back-mcq-20",
+        "back-mcq-39",
+        "back-mcq-02"
       ],
       "explanation": "本句的「back of the building」指「某空間最遠離正面／入口的後方部分」。",
       "sentenceIndex": 26,
@@ -2114,12 +2032,10 @@ export default {
         "back of the building"
       ],
       "optionReasons": {
-        "back-mcq-11": "本句指「某空間最遠離正面／入口的後方部分」。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。",
-        "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
-        "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。"
+        "back-mcq-11": "本句的「back of the building」指「某空間最遠離正面／入口的後方部分」。",
+        "back-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-11"
     },
@@ -2131,11 +2047,9 @@ export default {
       "masked": "The senior managers were sitting ____.",
       "options": [
         "back-pdf-003",
-        "back-mcq-10",
-        "back-mcq-12",
-        "back-mcq-09",
-        "back-mcq-13",
-        "back-mcq-08"
+        "back-mcq-36",
+        "back-mcq-51",
+        "back-mcq-29"
       ],
       "explanation": "本句的「at the back」指「位於某個地方的後方位置」。",
       "sentenceIndex": 27,
@@ -2144,12 +2058,10 @@ export default {
         "at the back"
       ],
       "optionReasons": {
-        "back-pdf-003": "本句指「位於某個地方的後方位置」。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。",
-        "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
-        "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。"
+        "back-pdf-003": "本句的「at the back」指「位於某個地方的後方位置」。",
+        "back-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-pdf-003"
     },
@@ -2161,11 +2073,9 @@ export default {
       "masked": "There are extra chairs ____.",
       "options": [
         "back-pdf-003",
-        "back-mcq-10",
-        "back-mcq-12",
-        "back-mcq-09",
-        "back-mcq-13",
-        "back-mcq-08"
+        "back-mcq-44",
+        "back-pdf-001",
+        "back-pdf-004"
       ],
       "explanation": "本句的「at the back」指「位於某個地方的後方位置」。",
       "sentenceIndex": 28,
@@ -2174,12 +2084,10 @@ export default {
         "at the back"
       ],
       "optionReasons": {
-        "back-pdf-003": "本句指「位於某個地方的後方位置」。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。",
-        "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
-        "back-mcq-08": "「把物件拿回；或收回之前說過的話」是「take something back」的用法，與本句語境不同。"
+        "back-pdf-003": "本句的「at the back」指「位於某個地方的後方位置」。",
+        "back-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-pdf-003"
     },
@@ -2191,11 +2099,9 @@ export default {
       "masked": "She sat in the ____.",
       "options": [
         "back-mcq-12",
-        "back-mcq-11",
-        "back-mcq-13",
-        "back-mcq-10",
-        "back-mcq-14",
-        "back-mcq-09"
+        "back-mcq-23",
+        "back-mcq-44",
+        "back-mcq-20"
       ],
       "explanation": "本句的「back row」指「位於某物後方的，如 back row/back door」。",
       "sentenceIndex": 29,
@@ -2204,12 +2110,10 @@ export default {
         "back row"
       ],
       "optionReasons": {
-        "back-mcq-12": "本句指「位於某物後方的，如 back row/back door」。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。",
-        "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。"
+        "back-mcq-12": "本句的「back row」指「位於某物後方的，如 back row/back door」。",
+        "back-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-12"
     },
@@ -2221,11 +2125,9 @@ export default {
       "masked": "People in the ____ could still hear clearly.",
       "options": [
         "back-mcq-12",
-        "back-mcq-11",
-        "back-mcq-13",
-        "back-mcq-10",
-        "back-mcq-14",
-        "back-mcq-09"
+        "back-mcq-27",
+        "back-mcq-23",
+        "back-mcq-35"
       ],
       "explanation": "本句的「back row」指「位於某物後方的，如 back row/back door」。",
       "sentenceIndex": 30,
@@ -2234,12 +2136,10 @@ export default {
         "back row"
       ],
       "optionReasons": {
-        "back-mcq-12": "本句指「位於某物後方的，如 back row/back door」。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。",
-        "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。"
+        "back-mcq-12": "本句的「back row」指「位於某物後方的，如 back row/back door」。",
+        "back-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-12"
     },
@@ -2251,11 +2151,9 @@ export default {
       "masked": "Use the ____.",
       "options": [
         "back-mcq-12",
-        "back-mcq-11",
-        "back-mcq-13",
-        "back-mcq-10",
-        "back-mcq-14",
-        "back-mcq-09"
+        "back-mcq-44",
+        "back-mcq-45",
+        "back-mcq-38"
       ],
       "explanation": "本句的「back entrance」指「位於某物後方的，如 back row/back door」。",
       "sentenceIndex": 31,
@@ -2264,12 +2162,10 @@ export default {
         "back entrance"
       ],
       "optionReasons": {
-        "back-mcq-12": "本句指「位於某物後方的，如 back row/back door」。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。",
-        "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。"
+        "back-mcq-12": "本句的「back entrance」指「位於某物後方的，如 back row/back door」。",
+        "back-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-12"
     },
@@ -2281,11 +2177,9 @@ export default {
       "masked": "The staff entered through the ____.",
       "options": [
         "back-mcq-12",
-        "back-mcq-11",
         "back-mcq-13",
-        "back-mcq-10",
-        "back-mcq-14",
-        "back-mcq-09"
+        "back-mcq-21",
+        "back-mcq-17"
       ],
       "explanation": "本句的「back door」指「位於某物後方的，如 back row/back door」。",
       "sentenceIndex": 32,
@@ -2294,12 +2188,10 @@ export default {
         "back door"
       ],
       "optionReasons": {
-        "back-mcq-12": "本句指「位於某物後方的，如 back row/back door」。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。",
-        "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。"
+        "back-mcq-12": "本句的「back door」指「位於某物後方的，如 back row/back door」。",
+        "back-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-12"
     },
@@ -2311,11 +2203,9 @@ export default {
       "masked": "I sat in the ____.",
       "options": [
         "back-mcq-12",
-        "back-mcq-11",
-        "back-mcq-13",
-        "back-mcq-10",
-        "back-mcq-14",
-        "back-mcq-09"
+        "back-mcq-32",
+        "back-mcq-25",
+        "back-pdf-002"
       ],
       "explanation": "本句的「back seat」指「位於某物後方的，如 back row/back door」。",
       "sentenceIndex": 33,
@@ -2324,12 +2214,10 @@ export default {
         "back seat"
       ],
       "optionReasons": {
-        "back-mcq-12": "本句指「位於某物後方的，如 back row/back door」。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。",
-        "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。"
+        "back-mcq-12": "本句的「back seat」指「位於某物後方的，如 back row/back door」。",
+        "back-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-12"
     },
@@ -2341,11 +2229,9 @@ export default {
       "masked": "Put the bag on the ____.",
       "options": [
         "back-mcq-12",
-        "back-mcq-11",
-        "back-mcq-13",
-        "back-mcq-10",
-        "back-mcq-14",
-        "back-mcq-09"
+        "back-mcq-07",
+        "back-pdf-005",
+        "back-mcq-23"
       ],
       "explanation": "本句的「back seat」指「位於某物後方的，如 back row/back door」。",
       "sentenceIndex": 34,
@@ -2354,12 +2240,10 @@ export default {
         "back seat"
       ],
       "optionReasons": {
-        "back-mcq-12": "本句指「位於某物後方的，如 back row/back door」。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。",
-        "back-mcq-09": "「身體後方由肩部到腰部一帶；背部」是「back — body part」的用法，與本句語境不同。"
+        "back-mcq-12": "本句的「back seat」指「位於某物後方的，如 back row/back door」。",
+        "back-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-12"
     },
@@ -2371,11 +2255,9 @@ export default {
       "masked": "The team ____.",
       "options": [
         "back-mcq-13",
-        "back-mcq-12",
-        "back-mcq-14",
-        "back-mcq-11",
-        "back-mcq-15",
-        "back-mcq-10"
+        "back-pdf-005",
+        "back-mcq-07",
+        "back-mcq-18"
       ],
       "explanation": "本句的「backed the proposal」指「提供支持、贊成、資源或力量，使其更有機會成功」。",
       "sentenceIndex": 35,
@@ -2384,12 +2266,10 @@ export default {
         "backed the proposal"
       ],
       "optionReasons": {
-        "back-mcq-13": "本句指「提供支持、贊成、資源或力量，使其更有機會成功」。",
-        "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-15": "「使車輛向後行駛」是「back a vehicle」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。"
+        "back-mcq-13": "本句的「backed the proposal」指「提供支持、贊成、資源或力量，使其更有機會成功」。",
+        "back-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-13"
     },
@@ -2401,11 +2281,9 @@ export default {
       "masked": "My supervisor ____.",
       "options": [
         "back-mcq-13",
-        "back-mcq-12",
-        "back-mcq-14",
-        "back-mcq-11",
-        "back-mcq-15",
-        "back-mcq-10"
+        "back-mcq-09",
+        "back-mcq-27",
+        "back-mcq-04"
       ],
       "explanation": "本句的「backed me」指「提供支持、贊成、資源或力量，使其更有機會成功」。",
       "sentenceIndex": 36,
@@ -2414,12 +2292,10 @@ export default {
         "backed me"
       ],
       "optionReasons": {
-        "back-mcq-13": "本句指「提供支持、贊成、資源或力量，使其更有機會成功」。",
-        "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-15": "「使車輛向後行駛」是「back a vehicle」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。"
+        "back-mcq-13": "本句的「backed me」指「提供支持、贊成、資源或力量，使其更有機會成功」。",
+        "back-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-13"
     },
@@ -2431,11 +2307,9 @@ export default {
       "masked": "Senior management ____.",
       "options": [
         "back-mcq-44",
-        "back-mcq-43",
+        "back-mcq-20",
         "back-mcq-45",
-        "back-mcq-42",
-        "back-mcq-46",
-        "back-mcq-41"
+        "back-pdf-002"
       ],
       "explanation": "本句的「backed the plan」指「公開或實際表示支持某個提議／方案」。",
       "sentenceIndex": 37,
@@ -2444,12 +2318,10 @@ export default {
         "backed the plan"
       ],
       "optionReasons": {
-        "back-mcq-44": "本句指「公開或實際表示支持某個提議／方案」。",
-        "back-mcq-43": "「形成某人身份／能力的教育、經歷、文化或家庭背景」是「background — personal」的用法，與本句語境不同。",
-        "back-mcq-45": "「返回先前正在做／談論的事情」是「34. back = return to a previous topic/activity（回到） — 回到；重新開始」的用法，與本句語境不同。",
-        "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
-        "back-mcq-46": "「在時間上非常久以前，或空間上很後方」是「39. way back（很久以前／很後面） — 很久以前；很遠後方」的用法，與本句語境不同。",
-        "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。"
+        "back-mcq-44": "本句的「backed the plan」指「公開或實際表示支持某個提議／方案」。",
+        "back-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-44"
     },
@@ -2461,11 +2333,9 @@ export default {
       "masked": "Most employees ____.",
       "options": [
         "back-mcq-44",
-        "back-mcq-43",
-        "back-mcq-45",
-        "back-mcq-42",
-        "back-mcq-46",
-        "back-mcq-41"
+        "back-mcq-11",
+        "back-mcq-27",
+        "back-mcq-35"
       ],
       "explanation": "本句的「backed the change」指「公開或實際表示支持某個提議／方案」。",
       "sentenceIndex": 38,
@@ -2474,12 +2344,10 @@ export default {
         "backed the change"
       ],
       "optionReasons": {
-        "back-mcq-44": "本句指「公開或實際表示支持某個提議／方案」。",
-        "back-mcq-43": "「形成某人身份／能力的教育、經歷、文化或家庭背景」是「background — personal」的用法，與本句語境不同。",
-        "back-mcq-45": "「返回先前正在做／談論的事情」是「34. back = return to a previous topic/activity（回到） — 回到；重新開始」的用法，與本句語境不同。",
-        "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
-        "back-mcq-46": "「在時間上非常久以前，或空間上很後方」是「39. way back（很久以前／很後面） — 很久以前；很遠後方」的用法，與本句語境不同。",
-        "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。"
+        "back-mcq-44": "本句的「backed the change」指「公開或實際表示支持某個提議／方案」。",
+        "back-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-44"
     },
@@ -2491,11 +2359,9 @@ export default {
       "masked": "Several investors ____.",
       "options": [
         "back-mcq-13",
-        "back-mcq-12",
-        "back-mcq-14",
-        "back-mcq-11",
-        "back-mcq-15",
-        "back-mcq-10"
+        "back-mcq-05",
+        "back-mcq-02",
+        "back-mcq-23"
       ],
       "explanation": "本句的「backed the company」指「提供支持、贊成、資源或力量，使其更有機會成功」。",
       "sentenceIndex": 39,
@@ -2504,12 +2370,10 @@ export default {
         "backed the company"
       ],
       "optionReasons": {
-        "back-mcq-13": "本句指「提供支持、贊成、資源或力量，使其更有機會成功」。",
-        "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-15": "「使車輛向後行駛」是「back a vehicle」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。"
+        "back-mcq-13": "本句的「backed the company」指「提供支持、贊成、資源或力量，使其更有機會成功」。",
+        "back-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-13"
     },
@@ -2521,11 +2385,9 @@ export default {
       "masked": "The project is ____ private funding.",
       "options": [
         "back-mcq-13",
-        "back-mcq-12",
-        "back-mcq-14",
-        "back-mcq-11",
+        "back-mcq-48",
         "back-mcq-15",
-        "back-mcq-10"
+        "back-mcq-28"
       ],
       "explanation": "本句的「backed by」指「提供支持、贊成、資源或力量，使其更有機會成功」。",
       "sentenceIndex": 40,
@@ -2534,12 +2396,10 @@ export default {
         "backed by"
       ],
       "optionReasons": {
-        "back-mcq-13": "本句指「提供支持、贊成、資源或力量，使其更有機會成功」。",
-        "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。",
-        "back-mcq-15": "「使車輛向後行駛」是「back a vehicle」的用法，與本句語境不同。",
-        "back-mcq-10": "「某物與正面相反的一面／後部」是「back — rear side」的用法，與本句語境不同。"
+        "back-mcq-13": "本句的「backed by」指「提供支持、贊成、資源或力量，使其更有機會成功」。",
+        "back-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-13"
     },
@@ -2551,11 +2411,9 @@ export default {
       "masked": "The proposal is ____.",
       "options": [
         "back-mcq-14",
-        "back-mcq-13",
-        "back-mcq-15",
-        "back-mcq-12",
-        "back-mcq-16",
-        "back-mcq-11"
+        "back-mcq-35",
+        "back-mcq-45",
+        "back-pdf-004"
       ],
       "explanation": "本句的「backed by evidence」指「得到人、資金、證據或制度上的支持」。",
       "sentenceIndex": 41,
@@ -2564,12 +2422,10 @@ export default {
         "backed by evidence"
       ],
       "optionReasons": {
-        "back-mcq-14": "本句指「得到人、資金、證據或制度上的支持」。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
-        "back-mcq-15": "「使車輛向後行駛」是「back a vehicle」的用法，與本句語境不同。",
-        "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。",
-        "back-mcq-16": "「向後退；或比喻上逐漸退出／不再支持」是「back away」的用法，與本句語境不同。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。"
+        "back-mcq-14": "本句的「backed by evidence」指「得到人、資金、證據或制度上的支持」。",
+        "back-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-14"
     },
@@ -2581,11 +2437,9 @@ export default {
       "masked": "The project is ____ senior management.",
       "options": [
         "back-mcq-14",
-        "back-mcq-13",
-        "back-mcq-15",
-        "back-mcq-12",
-        "back-mcq-16",
-        "back-mcq-11"
+        "back-mcq-04",
+        "back-mcq-27",
+        "back-mcq-41"
       ],
       "explanation": "本句的「backed by」指「得到人、資金、證據或制度上的支持」。",
       "sentenceIndex": 42,
@@ -2594,12 +2448,10 @@ export default {
         "backed by"
       ],
       "optionReasons": {
-        "back-mcq-14": "本句指「得到人、資金、證據或制度上的支持」。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
-        "back-mcq-15": "「使車輛向後行駛」是「back a vehicle」的用法，與本句語境不同。",
-        "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。",
-        "back-mcq-16": "「向後退；或比喻上逐漸退出／不再支持」是「back away」的用法，與本句語境不同。",
-        "back-mcq-11": "「某空間最遠離正面／入口的後方部分」是「the back of a place」的用法，與本句語境不同。"
+        "back-mcq-14": "本句的「backed by」指「得到人、資金、證據或制度上的支持」。",
+        "back-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-14"
     },
@@ -2611,11 +2463,9 @@ export default {
       "masked": "He ____ into the space.",
       "options": [
         "back-mcq-15",
-        "back-mcq-14",
-        "back-mcq-16",
         "back-mcq-13",
-        "back-mcq-17",
-        "back-mcq-12"
+        "back-mcq-21",
+        "back-mcq-49"
       ],
       "explanation": "本句的「backed the car」指「使車輛向後行駛」。",
       "sentenceIndex": 43,
@@ -2624,12 +2474,10 @@ export default {
         "backed the car"
       ],
       "optionReasons": {
-        "back-mcq-15": "本句指「使車輛向後行駛」。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。",
-        "back-mcq-16": "「向後退；或比喻上逐漸退出／不再支持」是「back away」的用法，與本句語境不同。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
-        "back-mcq-17": "「因反對／壓力而放棄原本的立場或要求」是「back down」的用法，與本句語境不同。",
-        "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。"
+        "back-mcq-15": "本句的「backed the car」指「使車輛向後行駛」。",
+        "back-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-15"
     },
@@ -2641,11 +2489,9 @@ export default {
       "masked": "She slowly ____.",
       "options": [
         "back-mcq-15",
-        "back-mcq-14",
-        "back-mcq-16",
-        "back-mcq-13",
-        "back-mcq-17",
-        "back-mcq-12"
+        "back-mcq-52",
+        "back-mcq-20",
+        "back-mcq-33"
       ],
       "explanation": "本句的「backed away」指「使車輛向後行駛」。",
       "sentenceIndex": 44,
@@ -2654,12 +2500,10 @@ export default {
         "backed away"
       ],
       "optionReasons": {
-        "back-mcq-15": "本句指「使車輛向後行駛」。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。",
-        "back-mcq-16": "「向後退；或比喻上逐漸退出／不再支持」是「back away」的用法，與本句語境不同。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
-        "back-mcq-17": "「因反對／壓力而放棄原本的立場或要求」是「back down」的用法，與本句語境不同。",
-        "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。"
+        "back-mcq-15": "本句的「backed away」指「使車輛向後行駛」。",
+        "back-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-15"
     },
@@ -2671,11 +2515,9 @@ export default {
       "masked": "Can you ____ a little?",
       "options": [
         "back-mcq-15",
-        "back-mcq-14",
-        "back-mcq-16",
-        "back-mcq-13",
-        "back-mcq-17",
-        "back-mcq-12"
+        "back-mcq-43",
+        "back-mcq-29",
+        "back-mcq-28"
       ],
       "explanation": "本句的「back the car」指「使車輛向後行駛」。",
       "sentenceIndex": 45,
@@ -2684,12 +2526,10 @@ export default {
         "back the car"
       ],
       "optionReasons": {
-        "back-mcq-15": "本句指「使車輛向後行駛」。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。",
-        "back-mcq-16": "「向後退；或比喻上逐漸退出／不再支持」是「back away」的用法，與本句語境不同。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
-        "back-mcq-17": "「因反對／壓力而放棄原本的立場或要求」是「back down」的用法，與本句語境不同。",
-        "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。"
+        "back-mcq-15": "本句的「back the car」指「使車輛向後行駛」。",
+        "back-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-15"
     },
@@ -2701,11 +2541,9 @@ export default {
       "masked": "He ____ of the garage.",
       "options": [
         "back-mcq-15",
-        "back-mcq-14",
-        "back-mcq-16",
-        "back-mcq-13",
+        "back-mcq-26",
         "back-mcq-17",
-        "back-mcq-12"
+        "back-mcq-44"
       ],
       "explanation": "本句的「backed the car out」指「使車輛向後行駛」。",
       "sentenceIndex": 46,
@@ -2714,12 +2552,10 @@ export default {
         "backed the car out"
       ],
       "optionReasons": {
-        "back-mcq-15": "本句指「使車輛向後行駛」。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。",
-        "back-mcq-16": "「向後退；或比喻上逐漸退出／不再支持」是「back away」的用法，與本句語境不同。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。",
-        "back-mcq-17": "「因反對／壓力而放棄原本的立場或要求」是「back down」的用法，與本句語境不同。",
-        "back-mcq-12": "「位於某物後方的，如 back row/back door」是「back + noun」的用法，與本句語境不同。"
+        "back-mcq-15": "本句的「backed the car out」指「使車輛向後行駛」。",
+        "back-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-15"
     },
@@ -2731,11 +2567,9 @@ export default {
       "masked": "She ____ from the edge.",
       "options": [
         "back-mcq-16",
-        "back-mcq-15",
-        "back-mcq-17",
-        "back-mcq-14",
-        "back-mcq-18",
-        "back-mcq-13"
+        "back-mcq-51",
+        "back-mcq-49",
+        "back-mcq-17"
       ],
       "explanation": "本句的「backed away」指「向後退；或比喻上逐漸退出／不再支持」。",
       "sentenceIndex": 47,
@@ -2744,12 +2578,10 @@ export default {
         "backed away"
       ],
       "optionReasons": {
-        "back-mcq-16": "本句指「向後退；或比喻上逐漸退出／不再支持」。",
-        "back-mcq-15": "「使車輛向後行駛」是「back a vehicle」的用法，與本句語境不同。",
-        "back-mcq-17": "「因反對／壓力而放棄原本的立場或要求」是「back down」的用法，與本句語境不同。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。",
-        "back-mcq-18": "「在已同意／承諾後退出計劃、安排或協議」是「back out」的用法，與本句語境不同。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。"
+        "back-mcq-16": "本句的「backed away」指「向後退；或比喻上逐漸退出／不再支持」。",
+        "back-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-16"
     },
@@ -2761,11 +2593,9 @@ export default {
       "masked": "The company ____ the proposal.",
       "options": [
         "back-mcq-16",
-        "back-mcq-15",
-        "back-mcq-17",
-        "back-mcq-14",
-        "back-mcq-18",
-        "back-mcq-13"
+        "back-mcq-35",
+        "back-mcq-49",
+        "back-mcq-34"
       ],
       "explanation": "本句的「backed away from」指「向後退；或比喻上逐漸退出／不再支持」。",
       "sentenceIndex": 48,
@@ -2774,12 +2604,10 @@ export default {
         "backed away from"
       ],
       "optionReasons": {
-        "back-mcq-16": "本句指「向後退；或比喻上逐漸退出／不再支持」。",
-        "back-mcq-15": "「使車輛向後行駛」是「back a vehicle」的用法，與本句語境不同。",
-        "back-mcq-17": "「因反對／壓力而放棄原本的立場或要求」是「back down」的用法，與本句語境不同。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。",
-        "back-mcq-18": "「在已同意／承諾後退出計劃、安排或協議」是「back out」的用法，與本句語境不同。",
-        "back-mcq-13": "「提供支持、贊成、資源或力量，使其更有機會成功」是「back someone/something」的用法，與本句語境不同。"
+        "back-mcq-16": "本句的「backed away from」指「向後退；或比喻上逐漸退出／不再支持」。",
+        "back-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-16"
     },
@@ -2791,11 +2619,9 @@ export default {
       "masked": "Neither side was willing to ____.",
       "options": [
         "back-mcq-17",
-        "back-mcq-16",
-        "back-mcq-18",
-        "back-mcq-15",
-        "back-mcq-19",
-        "back-mcq-14"
+        "back-mcq-01",
+        "back-mcq-31",
+        "back-mcq-33"
       ],
       "explanation": "本句的「back down」指「因反對／壓力而放棄原本的立場或要求」。",
       "sentenceIndex": 49,
@@ -2804,12 +2630,10 @@ export default {
         "back down"
       ],
       "optionReasons": {
-        "back-mcq-17": "本句指「因反對／壓力而放棄原本的立場或要求」。",
-        "back-mcq-16": "「向後退；或比喻上逐漸退出／不再支持」是「back away」的用法，與本句語境不同。",
-        "back-mcq-18": "「在已同意／承諾後退出計劃、安排或協議」是「back out」的用法，與本句語境不同。",
-        "back-mcq-15": "「使車輛向後行駛」是「back a vehicle」的用法，與本句語境不同。",
-        "back-mcq-19": "「提供支持、證據或協助」是「back up — support」的用法，與本句語境不同。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。"
+        "back-mcq-17": "本句的「back down」指「因反對／壓力而放棄原本的立場或要求」。",
+        "back-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-17"
     },
@@ -2821,11 +2645,9 @@ export default {
       "masked": "She refused to ____ under pressure.",
       "options": [
         "back-mcq-17",
-        "back-mcq-16",
-        "back-mcq-18",
-        "back-mcq-15",
-        "back-mcq-19",
-        "back-mcq-14"
+        "back-mcq-28",
+        "back-mcq-31",
+        "back-mcq-15"
       ],
       "explanation": "本句的「back down」指「因反對／壓力而放棄原本的立場或要求」。",
       "sentenceIndex": 50,
@@ -2834,12 +2656,10 @@ export default {
         "back down"
       ],
       "optionReasons": {
-        "back-mcq-17": "本句指「因反對／壓力而放棄原本的立場或要求」。",
-        "back-mcq-16": "「向後退；或比喻上逐漸退出／不再支持」是「back away」的用法，與本句語境不同。",
-        "back-mcq-18": "「在已同意／承諾後退出計劃、安排或協議」是「back out」的用法，與本句語境不同。",
-        "back-mcq-15": "「使車輛向後行駛」是「back a vehicle」的用法，與本句語境不同。",
-        "back-mcq-19": "「提供支持、證據或協助」是「back up — support」的用法，與本句語境不同。",
-        "back-mcq-14": "「得到人、資金、證據或制度上的支持」是「be backed by」的用法，與本句語境不同。"
+        "back-mcq-17": "本句的「back down」指「因反對／壓力而放棄原本的立場或要求」。",
+        "back-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-17"
     },
@@ -2851,11 +2671,9 @@ export default {
       "masked": "I almost ____ of the presentation.",
       "options": [
         "back-mcq-18",
-        "back-mcq-17",
-        "back-mcq-19",
-        "back-mcq-16",
+        "back-mcq-14",
         "back-mcq-20",
-        "back-mcq-15"
+        "back-mcq-28"
       ],
       "explanation": "本句的「backed out」指「在已同意／承諾後退出計劃、安排或協議」。",
       "sentenceIndex": 51,
@@ -2864,12 +2682,10 @@ export default {
         "backed out"
       ],
       "optionReasons": {
-        "back-mcq-18": "本句指「在已同意／承諾後退出計劃、安排或協議」。",
-        "back-mcq-17": "「因反對／壓力而放棄原本的立場或要求」是「back down」的用法，與本句語境不同。",
-        "back-mcq-19": "「提供支持、證據或協助」是「back up — support」的用法，與本句語境不同。",
-        "back-mcq-16": "「向後退；或比喻上逐漸退出／不再支持」是「back away」的用法，與本句語境不同。",
-        "back-mcq-20": "「建立額外副本，以防原始資料遺失／損壞」是「back up — data」的用法，與本句語境不同。",
-        "back-mcq-15": "「使車輛向後行駛」是「back a vehicle」的用法，與本句語境不同。"
+        "back-mcq-18": "本句的「backed out」指「在已同意／承諾後退出計劃、安排或協議」。",
+        "back-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-18"
     },
@@ -2881,11 +2697,9 @@ export default {
       "masked": "He ____ the agreement.",
       "options": [
         "back-mcq-18",
-        "back-mcq-17",
-        "back-mcq-19",
-        "back-mcq-16",
-        "back-mcq-20",
-        "back-mcq-15"
+        "back-mcq-32",
+        "back-pdf-005",
+        "back-mcq-07"
       ],
       "explanation": "本句的「backed out of」指「在已同意／承諾後退出計劃、安排或協議」。",
       "sentenceIndex": 52,
@@ -2894,12 +2708,10 @@ export default {
         "backed out of"
       ],
       "optionReasons": {
-        "back-mcq-18": "本句指「在已同意／承諾後退出計劃、安排或協議」。",
-        "back-mcq-17": "「因反對／壓力而放棄原本的立場或要求」是「back down」的用法，與本句語境不同。",
-        "back-mcq-19": "「提供支持、證據或協助」是「back up — support」的用法，與本句語境不同。",
-        "back-mcq-16": "「向後退；或比喻上逐漸退出／不再支持」是「back away」的用法，與本句語境不同。",
-        "back-mcq-20": "「建立額外副本，以防原始資料遺失／損壞」是「back up — data」的用法，與本句語境不同。",
-        "back-mcq-15": "「使車輛向後行駛」是「back a vehicle」的用法，與本句語境不同。"
+        "back-mcq-18": "本句的「backed out of」指「在已同意／承諾後退出計劃、安排或協議」。",
+        "back-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-18"
     },
@@ -2911,11 +2723,9 @@ export default {
       "masked": "The data ____ her argument.",
       "options": [
         "back-mcq-19",
-        "back-mcq-18",
-        "back-mcq-20",
-        "back-mcq-17",
-        "back-mcq-21",
-        "back-mcq-16"
+        "back-pdf-005",
+        "back-pdf-004",
+        "back-mcq-07"
       ],
       "explanation": "本句的「backs up」指「提供支持、證據或協助」。",
       "sentenceIndex": 53,
@@ -2924,12 +2734,10 @@ export default {
         "backs up"
       ],
       "optionReasons": {
-        "back-mcq-19": "本句指「提供支持、證據或協助」。",
-        "back-mcq-18": "「在已同意／承諾後退出計劃、安排或協議」是「back out」的用法，與本句語境不同。",
-        "back-mcq-20": "「建立額外副本，以防原始資料遺失／損壞」是「back up — data」的用法，與本句語境不同。",
-        "back-mcq-17": "「因反對／壓力而放棄原本的立場或要求」是「back down」的用法，與本句語境不同。",
-        "back-mcq-21": "「流動受阻而逐漸堆積、堵塞」是「back up — congestion」的用法，與本句語境不同。",
-        "back-mcq-16": "「向後退；或比喻上逐漸退出／不再支持」是「back away」的用法，與本句語境不同。"
+        "back-mcq-19": "本句的「backs up」指「提供支持、證據或協助」。",
+        "back-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-19"
     },
@@ -2941,11 +2749,9 @@ export default {
       "masked": "My colleagues ____.",
       "options": [
         "back-mcq-19",
-        "back-mcq-18",
-        "back-mcq-20",
         "back-mcq-17",
-        "back-mcq-21",
-        "back-mcq-16"
+        "back-mcq-34",
+        "back-mcq-38"
       ],
       "explanation": "本句的「backed me up」指「提供支持、證據或協助」。",
       "sentenceIndex": 54,
@@ -2954,12 +2760,10 @@ export default {
         "backed me up"
       ],
       "optionReasons": {
-        "back-mcq-19": "本句指「提供支持、證據或協助」。",
-        "back-mcq-18": "「在已同意／承諾後退出計劃、安排或協議」是「back out」的用法，與本句語境不同。",
-        "back-mcq-20": "「建立額外副本，以防原始資料遺失／損壞」是「back up — data」的用法，與本句語境不同。",
-        "back-mcq-17": "「因反對／壓力而放棄原本的立場或要求」是「back down」的用法，與本句語境不同。",
-        "back-mcq-21": "「流動受阻而逐漸堆積、堵塞」是「back up — congestion」的用法，與本句語境不同。",
-        "back-mcq-16": "「向後退；或比喻上逐漸退出／不再支持」是「back away」的用法，與本句語境不同。"
+        "back-mcq-19": "本句的「backed me up」指「提供支持、證據或協助」。",
+        "back-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-19"
     },
@@ -2971,11 +2775,9 @@ export default {
       "masked": "Always ____ your presentation files.",
       "options": [
         "back-mcq-20",
-        "back-mcq-19",
-        "back-mcq-21",
-        "back-mcq-18",
-        "back-mcq-22",
-        "back-mcq-17"
+        "back-mcq-11",
+        "back-pdf-004",
+        "back-mcq-39"
       ],
       "explanation": "本句的「back up」指「建立額外副本，以防原始資料遺失／損壞」。",
       "sentenceIndex": 55,
@@ -2984,12 +2786,10 @@ export default {
         "back up"
       ],
       "optionReasons": {
-        "back-mcq-20": "本句指「建立額外副本，以防原始資料遺失／損壞」。",
-        "back-mcq-19": "「提供支持、證據或協助」是「back up — support」的用法，與本句語境不同。",
-        "back-mcq-21": "「流動受阻而逐漸堆積、堵塞」是「back up — congestion」的用法，與本句語境不同。",
-        "back-mcq-18": "「在已同意／承諾後退出計劃、安排或協議」是「back out」的用法，與本句語境不同。",
-        "back-mcq-22": "「主要方案／資料失效時可使用的後備項目」是「backup」的用法，與本句語境不同。",
-        "back-mcq-17": "「因反對／壓力而放棄原本的立場或要求」是「back down」的用法，與本句語境不同。"
+        "back-mcq-20": "本句的「back up」指「建立額外副本，以防原始資料遺失／損壞」。",
+        "back-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-20"
     },
@@ -3001,11 +2801,9 @@ export default {
       "masked": "I ____ the data before updating the system.",
       "options": [
         "back-mcq-20",
-        "back-mcq-19",
-        "back-mcq-21",
-        "back-mcq-18",
-        "back-mcq-22",
-        "back-mcq-17"
+        "back-mcq-02",
+        "back-mcq-28",
+        "back-reviewed-52bbcf11fb"
       ],
       "explanation": "本句的「backed up」指「建立額外副本，以防原始資料遺失／損壞」。",
       "sentenceIndex": 56,
@@ -3014,12 +2812,10 @@ export default {
         "backed up"
       ],
       "optionReasons": {
-        "back-mcq-20": "本句指「建立額外副本，以防原始資料遺失／損壞」。",
-        "back-mcq-19": "「提供支持、證據或協助」是「back up — support」的用法，與本句語境不同。",
-        "back-mcq-21": "「流動受阻而逐漸堆積、堵塞」是「back up — congestion」的用法，與本句語境不同。",
-        "back-mcq-18": "「在已同意／承諾後退出計劃、安排或協議」是「back out」的用法，與本句語境不同。",
-        "back-mcq-22": "「主要方案／資料失效時可使用的後備項目」是「backup」的用法，與本句語境不同。",
-        "back-mcq-17": "「因反對／壓力而放棄原本的立場或要求」是「back down」的用法，與本句語境不同。"
+        "back-mcq-20": "本句的「backed up」指「建立額外副本，以防原始資料遺失／損壞」。",
+        "back-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "back-reviewed-52bbcf11fb": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-20"
     },
@@ -3031,11 +2827,9 @@ export default {
       "masked": "Keep a ____ of the slides.",
       "options": [
         "back-mcq-22",
-        "back-mcq-21",
+        "back-mcq-33",
         "back-mcq-23",
-        "back-mcq-20",
-        "back-mcq-24",
-        "back-mcq-19"
+        "back-mcq-02"
       ],
       "explanation": "本句的「backup copy」指「主要方案／資料失效時可使用的後備項目」。",
       "sentenceIndex": 57,
@@ -3044,12 +2838,10 @@ export default {
         "backup copy"
       ],
       "optionReasons": {
-        "back-mcq-22": "本句指「主要方案／資料失效時可使用的後備項目」。",
-        "back-mcq-21": "「流動受阻而逐漸堆積、堵塞」是「back up — congestion」的用法，與本句語境不同。",
-        "back-mcq-23": "「在兩個方向／兩方之間反覆來回」是「back and forth」的用法，與本句語境不同。",
-        "back-mcq-20": "「建立額外副本，以防原始資料遺失／損壞」是「back up — data」的用法，與本句語境不同。",
-        "back-mcq-24": "「背部相對；或兩件事情中間幾乎沒有間隔地連續發生」是「back-to-back」的用法，與本句語境不同。",
-        "back-mcq-19": "「提供支持、證據或協助」是「back up — support」的用法，與本句語境不同。"
+        "back-mcq-22": "本句的「backup copy」指「主要方案／資料失效時可使用的後備項目」。",
+        "back-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-22"
     },
@@ -3061,11 +2853,9 @@ export default {
       "masked": "We need a ____.",
       "options": [
         "back-mcq-22",
-        "back-mcq-21",
-        "back-mcq-23",
-        "back-mcq-20",
-        "back-mcq-24",
-        "back-mcq-19"
+        "back-mcq-02",
+        "back-mcq-19",
+        "back-mcq-05"
       ],
       "explanation": "本句的「backup plan」指「主要方案／資料失效時可使用的後備項目」。",
       "sentenceIndex": 58,
@@ -3074,74 +2864,68 @@ export default {
         "backup plan"
       ],
       "optionReasons": {
-        "back-mcq-22": "本句指「主要方案／資料失效時可使用的後備項目」。",
-        "back-mcq-21": "「流動受阻而逐漸堆積、堵塞」是「back up — congestion」的用法，與本句語境不同。",
-        "back-mcq-23": "「在兩個方向／兩方之間反覆來回」是「back and forth」的用法，與本句語境不同。",
-        "back-mcq-20": "「建立額外副本，以防原始資料遺失／損壞」是「back up — data」的用法，與本句語境不同。",
-        "back-mcq-24": "「背部相對；或兩件事情中間幾乎沒有間隔地連續發生」是「back-to-back」的用法，與本句語境不同。",
-        "back-mcq-19": "「提供支持、證據或協助」是「back up — support」的用法，與本句語境不同。"
+        "back-mcq-22": "本句的「backup plan」指「主要方案／資料失效時可使用的後備項目」。",
+        "back-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-22"
     },
     {
       "id": "back-30-0",
-      "sense": "back-mcq-21",
+      "sense": "back-reviewed-52bbcf11fb",
       "en": "Please back up a little.",
       "zh": "請倒後一點。",
       "masked": "Please ____ a little.",
       "options": [
-        "back-mcq-21",
-        "back-mcq-20",
-        "back-mcq-22",
-        "back-mcq-19",
-        "back-mcq-23",
-        "back-mcq-18"
+        "back-reviewed-52bbcf11fb",
+        "back-mcq-49",
+        "back-mcq-51",
+        "back-mcq-07"
       ],
-      "explanation": "本句的「back up」指「流動受阻而逐漸堆積、堵塞」。",
+      "explanation": "對照完整句子：「請倒後一點。」。這裡的「back up」表示「向後移動；倒車」。",
       "sentenceIndex": 59,
       "sourcePractice": 60,
       "targets": [
         "back up"
       ],
       "optionReasons": {
-        "back-mcq-21": "本句指「流動受阻而逐漸堆積、堵塞」。",
-        "back-mcq-20": "「建立額外副本，以防原始資料遺失／損壞」是「back up — data」的用法，與本句語境不同。",
-        "back-mcq-22": "「主要方案／資料失效時可使用的後備項目」是「backup」的用法，與本句語境不同。",
-        "back-mcq-19": "「提供支持、證據或協助」是「back up — support」的用法，與本句語境不同。",
-        "back-mcq-23": "「在兩個方向／兩方之間反覆來回」是「back and forth」的用法，與本句語境不同。",
-        "back-mcq-18": "「在已同意／承諾後退出計劃、安排或協議」是「back out」的用法，與本句語境不同。"
+        "back-reviewed-52bbcf11fb": "對照完整句子：「請倒後一點。」。這裡的「back up」表示「向後移動；倒車」。",
+        "back-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "back-mcq-21"
+      "correctOption": "back-reviewed-52bbcf11fb",
+      "previousCorrectOption": "back-mcq-21",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "back-30-1",
-      "sense": "back-mcq-21",
+      "sense": "back-reviewed-52bbcf11fb",
       "en": "The truck backed up slowly.",
       "zh": "貨車慢慢倒後。",
       "masked": "The truck ____ slowly.",
       "options": [
-        "back-mcq-21",
-        "back-mcq-20",
-        "back-mcq-22",
-        "back-mcq-19",
-        "back-mcq-23",
-        "back-mcq-18"
+        "back-reviewed-52bbcf11fb",
+        "back-mcq-50",
+        "back-mcq-37",
+        "back-mcq-51"
       ],
-      "explanation": "本句的「backed up」指「流動受阻而逐漸堆積、堵塞」。",
+      "explanation": "對照完整句子：「貨車慢慢倒後。」。這裡的「backed up」表示「向後移動；倒車」。",
       "sentenceIndex": 60,
       "sourcePractice": 61,
       "targets": [
         "backed up"
       ],
       "optionReasons": {
-        "back-mcq-21": "本句指「流動受阻而逐漸堆積、堵塞」。",
-        "back-mcq-20": "「建立額外副本，以防原始資料遺失／損壞」是「back up — data」的用法，與本句語境不同。",
-        "back-mcq-22": "「主要方案／資料失效時可使用的後備項目」是「backup」的用法，與本句語境不同。",
-        "back-mcq-19": "「提供支持、證據或協助」是「back up — support」的用法，與本句語境不同。",
-        "back-mcq-23": "「在兩個方向／兩方之間反覆來回」是「back and forth」的用法，與本句語境不同。",
-        "back-mcq-18": "「在已同意／承諾後退出計劃、安排或協議」是「back out」的用法，與本句語境不同。"
+        "back-reviewed-52bbcf11fb": "對照完整句子：「貨車慢慢倒後。」。這裡的「backed up」表示「向後移動；倒車」。",
+        "back-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "back-mcq-21"
+      "correctOption": "back-reviewed-52bbcf11fb",
+      "previousCorrectOption": "back-mcq-21",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "back-31-0",
@@ -3151,11 +2935,9 @@ export default {
       "masked": "Traffic ____ for miles.",
       "options": [
         "back-mcq-21",
-        "back-mcq-20",
-        "back-mcq-22",
-        "back-mcq-19",
-        "back-mcq-23",
-        "back-mcq-18"
+        "back-reviewed-a01e4bc89f",
+        "back-mcq-27",
+        "back-mcq-43"
       ],
       "explanation": "本句的「backed up」指「流動受阻而逐漸堆積、堵塞」。",
       "sentenceIndex": 61,
@@ -3164,12 +2946,10 @@ export default {
         "backed up"
       ],
       "optionReasons": {
-        "back-mcq-21": "本句指「流動受阻而逐漸堆積、堵塞」。",
-        "back-mcq-20": "「建立額外副本，以防原始資料遺失／損壞」是「back up — data」的用法，與本句語境不同。",
-        "back-mcq-22": "「主要方案／資料失效時可使用的後備項目」是「backup」的用法，與本句語境不同。",
-        "back-mcq-19": "「提供支持、證據或協助」是「back up — support」的用法，與本句語境不同。",
-        "back-mcq-23": "「在兩個方向／兩方之間反覆來回」是「back and forth」的用法，與本句語境不同。",
-        "back-mcq-18": "「在已同意／承諾後退出計劃、安排或協議」是「back out」的用法，與本句語境不同。"
+        "back-mcq-21": "本句的「backed up」指「流動受阻而逐漸堆積、堵塞」。",
+        "back-reviewed-a01e4bc89f": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-21"
     },
@@ -3181,11 +2961,9 @@ export default {
       "masked": "Requests are ____ in the system.",
       "options": [
         "back-mcq-21",
-        "back-mcq-20",
-        "back-mcq-22",
-        "back-mcq-19",
-        "back-mcq-23",
-        "back-mcq-18"
+        "back-mcq-12",
+        "back-mcq-13",
+        "back-mcq-08"
       ],
       "explanation": "本句的「backing up」指「流動受阻而逐漸堆積、堵塞」。",
       "sentenceIndex": 62,
@@ -3194,12 +2972,10 @@ export default {
         "backing up"
       ],
       "optionReasons": {
-        "back-mcq-21": "本句指「流動受阻而逐漸堆積、堵塞」。",
-        "back-mcq-20": "「建立額外副本，以防原始資料遺失／損壞」是「back up — data」的用法，與本句語境不同。",
-        "back-mcq-22": "「主要方案／資料失效時可使用的後備項目」是「backup」的用法，與本句語境不同。",
-        "back-mcq-19": "「提供支持、證據或協助」是「back up — support」的用法，與本句語境不同。",
-        "back-mcq-23": "「在兩個方向／兩方之間反覆來回」是「back and forth」的用法，與本句語境不同。",
-        "back-mcq-18": "「在已同意／承諾後退出計劃、安排或協議」是「back out」的用法，與本句語境不同。"
+        "back-mcq-21": "本句的「backing up」指「流動受阻而逐漸堆積、堵塞」。",
+        "back-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-21"
     },
@@ -3211,11 +2987,9 @@ export default {
       "masked": "She walked ____ before the presentation.",
       "options": [
         "back-mcq-23",
-        "back-mcq-22",
-        "back-mcq-24",
-        "back-mcq-21",
-        "back-mcq-25",
-        "back-mcq-20"
+        "back-mcq-50",
+        "back-mcq-33",
+        "back-mcq-48"
       ],
       "explanation": "本句的「back and forth」指「在兩個方向／兩方之間反覆來回」。",
       "sentenceIndex": 63,
@@ -3224,12 +2998,10 @@ export default {
         "back and forth"
       ],
       "optionReasons": {
-        "back-mcq-23": "本句指「在兩個方向／兩方之間反覆來回」。",
-        "back-mcq-22": "「主要方案／資料失效時可使用的後備項目」是「backup」的用法，與本句語境不同。",
-        "back-mcq-24": "「背部相對；或兩件事情中間幾乎沒有間隔地連續發生」是「back-to-back」的用法，與本句語境不同。",
-        "back-mcq-21": "「流動受阻而逐漸堆積、堵塞」是「back up — congestion」的用法，與本句語境不同。",
-        "back-mcq-25": "「從異常／改變狀態返回正常狀態」是「back to normal」的用法，與本句語境不同。",
-        "back-mcq-20": "「建立額外副本，以防原始資料遺失／損壞」是「back up — data」的用法，與本句語境不同。"
+        "back-mcq-23": "本句的「back and forth」指「在兩個方向／兩方之間反覆來回」。",
+        "back-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-23"
     },
@@ -3241,11 +3013,9 @@ export default {
       "masked": "We exchanged emails ____.",
       "options": [
         "back-mcq-23",
-        "back-mcq-22",
-        "back-mcq-24",
-        "back-mcq-21",
-        "back-mcq-25",
-        "back-mcq-20"
+        "back-pdf-002",
+        "back-mcq-32",
+        "back-mcq-22"
       ],
       "explanation": "本句的「back and forth」指「在兩個方向／兩方之間反覆來回」。",
       "sentenceIndex": 64,
@@ -3254,12 +3024,10 @@ export default {
         "back and forth"
       ],
       "optionReasons": {
-        "back-mcq-23": "本句指「在兩個方向／兩方之間反覆來回」。",
-        "back-mcq-22": "「主要方案／資料失效時可使用的後備項目」是「backup」的用法，與本句語境不同。",
-        "back-mcq-24": "「背部相對；或兩件事情中間幾乎沒有間隔地連續發生」是「back-to-back」的用法，與本句語境不同。",
-        "back-mcq-21": "「流動受阻而逐漸堆積、堵塞」是「back up — congestion」的用法，與本句語境不同。",
-        "back-mcq-25": "「從異常／改變狀態返回正常狀態」是「back to normal」的用法，與本句語境不同。",
-        "back-mcq-20": "「建立額外副本，以防原始資料遺失／損壞」是「back up — data」的用法，與本句語境不同。"
+        "back-mcq-23": "本句的「back and forth」指「在兩個方向／兩方之間反覆來回」。",
+        "back-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-23"
     },
@@ -3271,11 +3039,9 @@ export default {
       "masked": "Let’s get ____ the presentation.",
       "options": [
         "back-mcq-45",
-        "back-mcq-44",
-        "back-mcq-46",
         "back-mcq-43",
-        "back-mcq-47",
-        "back-mcq-42"
+        "back-pdf-003",
+        "back-mcq-28"
       ],
       "explanation": "本句的「back to」指「返回先前正在做／談論的事情」。",
       "sentenceIndex": 65,
@@ -3284,12 +3050,10 @@ export default {
         "back to"
       ],
       "optionReasons": {
-        "back-mcq-45": "本句指「返回先前正在做／談論的事情」。",
-        "back-mcq-44": "「公開或實際表示支持某個提議／方案」是「19. back a proposal/plan（支持方案） — 支持；贊成」的用法，與本句語境不同。",
-        "back-mcq-46": "「在時間上非常久以前，或空間上很後方」是「39. way back（很久以前／很後面） — 很久以前；很遠後方」的用法，與本句語境不同。",
-        "back-mcq-43": "「形成某人身份／能力的教育、經歷、文化或家庭背景」是「background — personal」的用法，與本句語境不同。",
-        "back-mcq-47": "「對之前收到的聯絡作出回應」是「41. write/text/email back（回覆） — 回信；回訊息」的用法，與本句語境不同。",
-        "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。"
+        "back-mcq-45": "本句的「back to」指「返回先前正在做／談論的事情」。",
+        "back-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-45"
     },
@@ -3301,11 +3065,9 @@ export default {
       "masked": "I need to get ____.",
       "options": [
         "back-mcq-45",
-        "back-mcq-44",
-        "back-mcq-46",
-        "back-mcq-43",
-        "back-mcq-47",
-        "back-mcq-42"
+        "back-mcq-13",
+        "back-mcq-42",
+        "back-mcq-21"
       ],
       "explanation": "本句的「back to work」指「返回先前正在做／談論的事情」。",
       "sentenceIndex": 66,
@@ -3314,12 +3076,10 @@ export default {
         "back to work"
       ],
       "optionReasons": {
-        "back-mcq-45": "本句指「返回先前正在做／談論的事情」。",
-        "back-mcq-44": "「公開或實際表示支持某個提議／方案」是「19. back a proposal/plan（支持方案） — 支持；贊成」的用法，與本句語境不同。",
-        "back-mcq-46": "「在時間上非常久以前，或空間上很後方」是「39. way back（很久以前／很後面） — 很久以前；很遠後方」的用法，與本句語境不同。",
-        "back-mcq-43": "「形成某人身份／能力的教育、經歷、文化或家庭背景」是「background — personal」的用法，與本句語境不同。",
-        "back-mcq-47": "「對之前收到的聯絡作出回應」是「41. write/text/email back（回覆） — 回信；回訊息」的用法，與本句語境不同。",
-        "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。"
+        "back-mcq-45": "本句的「back to work」指「返回先前正在做／談論的事情」。",
+        "back-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-45"
     },
@@ -3331,11 +3091,9 @@ export default {
       "masked": "My breathing slowly returned ____.",
       "options": [
         "back-mcq-25",
-        "back-mcq-24",
-        "back-mcq-26",
-        "back-mcq-23",
-        "back-mcq-27",
-        "back-mcq-22"
+        "back-mcq-37",
+        "back-mcq-09",
+        "back-mcq-52"
       ],
       "explanation": "本句的「back to normal」指「從異常／改變狀態返回正常狀態」。",
       "sentenceIndex": 67,
@@ -3344,12 +3102,10 @@ export default {
         "back to normal"
       ],
       "optionReasons": {
-        "back-mcq-25": "本句指「從異常／改變狀態返回正常狀態」。",
-        "back-mcq-24": "「背部相對；或兩件事情中間幾乎沒有間隔地連續發生」是「back-to-back」的用法，與本句語境不同。",
-        "back-mcq-26": "「之前進展失效，需要重新由最初開始」是「back to square one」的用法，與本句語境不同。",
-        "back-mcq-23": "「在兩個方向／兩方之間反覆來回」是「back and forth」的用法，與本句語境不同。",
-        "back-mcq-27": "「在所談論的過去那個時期」是「back then」的用法，與本句語境不同。",
-        "back-mcq-22": "「主要方案／資料失效時可使用的後備項目」是「backup」的用法，與本句語境不同。"
+        "back-mcq-25": "本句的「back to normal」指「從異常／改變狀態返回正常狀態」。",
+        "back-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-25"
     },
@@ -3361,11 +3117,9 @@ export default {
       "masked": "Things are finally ____.",
       "options": [
         "back-mcq-25",
-        "back-mcq-24",
-        "back-mcq-26",
-        "back-mcq-23",
-        "back-mcq-27",
-        "back-mcq-22"
+        "back-mcq-20",
+        "back-mcq-39",
+        "back-pdf-001"
       ],
       "explanation": "本句的「back to normal」指「從異常／改變狀態返回正常狀態」。",
       "sentenceIndex": 68,
@@ -3374,12 +3128,10 @@ export default {
         "back to normal"
       ],
       "optionReasons": {
-        "back-mcq-25": "本句指「從異常／改變狀態返回正常狀態」。",
-        "back-mcq-24": "「背部相對；或兩件事情中間幾乎沒有間隔地連續發生」是「back-to-back」的用法，與本句語境不同。",
-        "back-mcq-26": "「之前進展失效，需要重新由最初開始」是「back to square one」的用法，與本句語境不同。",
-        "back-mcq-23": "「在兩個方向／兩方之間反覆來回」是「back and forth」的用法，與本句語境不同。",
-        "back-mcq-27": "「在所談論的過去那個時期」是「back then」的用法，與本句語境不同。",
-        "back-mcq-22": "「主要方案／資料失效時可使用的後備項目」是「backup」的用法，與本句語境不同。"
+        "back-mcq-25": "本句的「back to normal」指「從異常／改變狀態返回正常狀態」。",
+        "back-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-25"
     },
@@ -3391,11 +3143,9 @@ export default {
       "masked": "The failed test sent us ____.",
       "options": [
         "back-mcq-26",
-        "back-mcq-25",
-        "back-mcq-27",
-        "back-mcq-24",
-        "back-mcq-28",
-        "back-mcq-23"
+        "back-mcq-13",
+        "back-mcq-23",
+        "back-mcq-10"
       ],
       "explanation": "本句的「back to square one」指「之前進展失效，需要重新由最初開始」。",
       "sentenceIndex": 69,
@@ -3404,12 +3154,10 @@ export default {
         "back to square one"
       ],
       "optionReasons": {
-        "back-mcq-26": "本句指「之前進展失效，需要重新由最初開始」。",
-        "back-mcq-25": "「從異常／改變狀態返回正常狀態」是「back to normal」的用法，與本句語境不同。",
-        "back-mcq-27": "「在所談論的過去那個時期」是「back then」的用法，與本句語境不同。",
-        "back-mcq-24": "「背部相對；或兩件事情中間幾乎沒有間隔地連續發生」是「back-to-back」的用法，與本句語境不同。",
-        "back-mcq-28": "「強調某個較早的過去時期」是「back in + past time」的用法，與本句語境不同。",
-        "back-mcq-23": "「在兩個方向／兩方之間反覆來回」是「back and forth」的用法，與本句語境不同。"
+        "back-mcq-26": "本句的「back to square one」指「之前進展失效，需要重新由最初開始」。",
+        "back-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-26"
     },
@@ -3421,11 +3169,9 @@ export default {
       "masked": "If we lose the file, we’re ____.",
       "options": [
         "back-mcq-26",
-        "back-mcq-25",
-        "back-mcq-27",
-        "back-mcq-24",
-        "back-mcq-28",
-        "back-mcq-23"
+        "back-mcq-15",
+        "back-mcq-23",
+        "back-mcq-10"
       ],
       "explanation": "本句的「back to square one」指「之前進展失效，需要重新由最初開始」。",
       "sentenceIndex": 70,
@@ -3434,12 +3180,10 @@ export default {
         "back to square one"
       ],
       "optionReasons": {
-        "back-mcq-26": "本句指「之前進展失效，需要重新由最初開始」。",
-        "back-mcq-25": "「從異常／改變狀態返回正常狀態」是「back to normal」的用法，與本句語境不同。",
-        "back-mcq-27": "「在所談論的過去那個時期」是「back then」的用法，與本句語境不同。",
-        "back-mcq-24": "「背部相對；或兩件事情中間幾乎沒有間隔地連續發生」是「back-to-back」的用法，與本句語境不同。",
-        "back-mcq-28": "「強調某個較早的過去時期」是「back in + past time」的用法，與本句語境不同。",
-        "back-mcq-23": "「在兩個方向／兩方之間反覆來回」是「back and forth」的用法，與本句語境不同。"
+        "back-mcq-26": "本句的「back to square one」指「之前進展失效，需要重新由最初開始」。",
+        "back-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-26"
     },
@@ -3451,11 +3195,9 @@ export default {
       "masked": "____, I was terrified of public speaking.",
       "options": [
         "back-mcq-27",
-        "back-mcq-26",
-        "back-mcq-28",
-        "back-mcq-25",
-        "back-mcq-29",
-        "back-mcq-24"
+        "back-mcq-17",
+        "back-mcq-10",
+        "back-mcq-44"
       ],
       "explanation": "本句的「Back then」指「在所談論的過去那個時期」。",
       "sentenceIndex": 71,
@@ -3464,12 +3206,10 @@ export default {
         "Back then"
       ],
       "optionReasons": {
-        "back-mcq-27": "本句指「在所談論的過去那個時期」。",
-        "back-mcq-26": "「之前進展失效，需要重新由最初開始」是「back to square one」的用法，與本句語境不同。",
-        "back-mcq-28": "「強調某個較早的過去時期」是「back in + past time」的用法，與本句語境不同。",
-        "back-mcq-25": "「從異常／改變狀態返回正常狀態」是「back to normal」的用法，與本句語境不同。",
-        "back-mcq-29": "「把訊息／動作回傳給原來的發出者」是「verb + back — response」的用法，與本句語境不同。",
-        "back-mcq-24": "「背部相對；或兩件事情中間幾乎沒有間隔地連續發生」是「back-to-back」的用法，與本句語境不同。"
+        "back-mcq-27": "本句的「Back then」指「在所談論的過去那個時期」。",
+        "back-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-27"
     },
@@ -3481,11 +3221,9 @@ export default {
       "masked": "Things were different ____.",
       "options": [
         "back-mcq-27",
-        "back-mcq-26",
-        "back-mcq-28",
-        "back-mcq-25",
-        "back-mcq-29",
-        "back-mcq-24"
+        "back-mcq-16",
+        "back-mcq-20",
+        "back-mcq-50"
       ],
       "explanation": "本句的「back then」指「在所談論的過去那個時期」。",
       "sentenceIndex": 72,
@@ -3494,12 +3232,10 @@ export default {
         "back then"
       ],
       "optionReasons": {
-        "back-mcq-27": "本句指「在所談論的過去那個時期」。",
-        "back-mcq-26": "「之前進展失效，需要重新由最初開始」是「back to square one」的用法，與本句語境不同。",
-        "back-mcq-28": "「強調某個較早的過去時期」是「back in + past time」的用法，與本句語境不同。",
-        "back-mcq-25": "「從異常／改變狀態返回正常狀態」是「back to normal」的用法，與本句語境不同。",
-        "back-mcq-29": "「把訊息／動作回傳給原來的發出者」是「verb + back — response」的用法，與本句語境不同。",
-        "back-mcq-24": "「背部相對；或兩件事情中間幾乎沒有間隔地連續發生」是「back-to-back」的用法，與本句語境不同。"
+        "back-mcq-27": "本句的「back then」指「在所談論的過去那個時期」。",
+        "back-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-27"
     },
@@ -3511,11 +3247,9 @@ export default {
       "masked": "____, I would never have volunteered.",
       "options": [
         "back-mcq-28",
-        "back-mcq-27",
-        "back-mcq-29",
-        "back-mcq-26",
-        "back-mcq-30",
-        "back-mcq-25"
+        "back-mcq-18",
+        "back-mcq-50",
+        "back-mcq-17"
       ],
       "explanation": "本句的「Back in 2025」指「強調某個較早的過去時期」。",
       "sentenceIndex": 73,
@@ -3524,12 +3258,10 @@ export default {
         "Back in 2025"
       ],
       "optionReasons": {
-        "back-mcq-28": "本句指「強調某個較早的過去時期」。",
-        "back-mcq-27": "「在所談論的過去那個時期」是「back then」的用法，與本句語境不同。",
-        "back-mcq-29": "「把訊息／動作回傳給原來的發出者」是「verb + back — response」的用法，與本句語境不同。",
-        "back-mcq-26": "「之前進展失效，需要重新由最初開始」是「back to square one」的用法，與本句語境不同。",
-        "back-mcq-30": "「歸還欠款；或非正式地報復」是「pay back」的用法，與本句語境不同。",
-        "back-mcq-25": "「從異常／改變狀態返回正常狀態」是「back to normal」的用法，與本句語境不同。"
+        "back-mcq-28": "本句的「Back in 2025」指「強調某個較早的過去時期」。",
+        "back-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-28"
     },
@@ -3541,11 +3273,9 @@ export default {
       "masked": "I met her ____.",
       "options": [
         "back-mcq-28",
-        "back-mcq-27",
-        "back-mcq-29",
-        "back-mcq-26",
-        "back-mcq-30",
-        "back-mcq-25"
+        "back-mcq-12",
+        "back-mcq-02",
+        "back-mcq-39"
       ],
       "explanation": "本句的「back in college」指「強調某個較早的過去時期」。",
       "sentenceIndex": 74,
@@ -3554,12 +3284,10 @@ export default {
         "back in college"
       ],
       "optionReasons": {
-        "back-mcq-28": "本句指「強調某個較早的過去時期」。",
-        "back-mcq-27": "「在所談論的過去那個時期」是「back then」的用法，與本句語境不同。",
-        "back-mcq-29": "「把訊息／動作回傳給原來的發出者」是「verb + back — response」的用法，與本句語境不同。",
-        "back-mcq-26": "「之前進展失效，需要重新由最初開始」是「back to square one」的用法，與本句語境不同。",
-        "back-mcq-30": "「歸還欠款；或非正式地報復」是「pay back」的用法，與本句語境不同。",
-        "back-mcq-25": "「從異常／改變狀態返回正常狀態」是「back to normal」的用法，與本句語境不同。"
+        "back-mcq-28": "本句的「back in college」指「強調某個較早的過去時期」。",
+        "back-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-28"
     },
@@ -3571,11 +3299,9 @@ export default {
       "masked": "We met ____ in 2018.",
       "options": [
         "back-mcq-46",
-        "back-mcq-45",
-        "back-mcq-47",
-        "back-mcq-44",
-        "back-mcq-48",
-        "back-mcq-43"
+        "back-mcq-39",
+        "back-pdf-005",
+        "back-mcq-52"
       ],
       "explanation": "本句的「way back」指「在時間上非常久以前，或空間上很後方」。",
       "sentenceIndex": 75,
@@ -3584,12 +3310,10 @@ export default {
         "way back"
       ],
       "optionReasons": {
-        "back-mcq-46": "本句指「在時間上非常久以前，或空間上很後方」。",
-        "back-mcq-45": "「返回先前正在做／談論的事情」是「34. back = return to a previous topic/activity（回到） — 回到；重新開始」的用法，與本句語境不同。",
-        "back-mcq-47": "「對之前收到的聯絡作出回應」是「41. write/text/email back（回覆） — 回信；回訊息」的用法，與本句語境不同。",
-        "back-mcq-44": "「公開或實際表示支持某個提議／方案」是「19. back a proposal/plan（支持方案） — 支持；贊成」的用法，與本句語境不同。",
-        "back-mcq-48": "「表示在排名、位置或進度上較後」是「52. back = earlier position in ranking/progress（落後） — 在後；落後」的用法，與本句語境不同。",
-        "back-mcq-43": "「形成某人身份／能力的教育、經歷、文化或家庭背景」是「background — personal」的用法，與本句語境不同。"
+        "back-mcq-46": "本句的「way back」指「在時間上非常久以前，或空間上很後方」。",
+        "back-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-46"
     },
@@ -3601,11 +3325,9 @@ export default {
       "masked": "He was sitting ____ in the room.",
       "options": [
         "back-mcq-46",
-        "back-mcq-45",
-        "back-mcq-47",
+        "back-pdf-002",
         "back-mcq-44",
-        "back-mcq-48",
-        "back-mcq-43"
+        "back-mcq-07"
       ],
       "explanation": "本句的「way back」指「在時間上非常久以前，或空間上很後方」。",
       "sentenceIndex": 76,
@@ -3614,12 +3336,10 @@ export default {
         "way back"
       ],
       "optionReasons": {
-        "back-mcq-46": "本句指「在時間上非常久以前，或空間上很後方」。",
-        "back-mcq-45": "「返回先前正在做／談論的事情」是「34. back = return to a previous topic/activity（回到） — 回到；重新開始」的用法，與本句語境不同。",
-        "back-mcq-47": "「對之前收到的聯絡作出回應」是「41. write/text/email back（回覆） — 回信；回訊息」的用法，與本句語境不同。",
-        "back-mcq-44": "「公開或實際表示支持某個提議／方案」是「19. back a proposal/plan（支持方案） — 支持；贊成」的用法，與本句語境不同。",
-        "back-mcq-48": "「表示在排名、位置或進度上較後」是「52. back = earlier position in ranking/progress（落後） — 在後；落後」的用法，與本句語境不同。",
-        "back-mcq-43": "「形成某人身份／能力的教育、經歷、文化或家庭背景」是「background — personal」的用法，與本句語境不同。"
+        "back-mcq-46": "本句的「way back」指「在時間上非常久以前，或空間上很後方」。",
+        "back-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-46"
     },
@@ -3632,10 +3352,8 @@ export default {
       "options": [
         "back-mcq-29",
         "back-mcq-28",
-        "back-mcq-30",
-        "back-mcq-27",
-        "back-mcq-31",
-        "back-mcq-26"
+        "back-mcq-44",
+        "back-mcq-43"
       ],
       "explanation": "本句的「call you back」指「把訊息／動作回傳給原來的發出者」。",
       "sentenceIndex": 77,
@@ -3644,12 +3362,10 @@ export default {
         "call you back"
       ],
       "optionReasons": {
-        "back-mcq-29": "本句指「把訊息／動作回傳給原來的發出者」。",
-        "back-mcq-28": "「強調某個較早的過去時期」是「back in + past time」的用法，與本句語境不同。",
-        "back-mcq-30": "「歸還欠款；或非正式地報復」是「pay back」的用法，與本句語境不同。",
-        "back-mcq-27": "「在所談論的過去那個時期」是「back then」的用法，與本句語境不同。",
-        "back-mcq-31": "「重新取得之前失去的東西／狀態」是「get something back」的用法，與本句語境不同。",
-        "back-mcq-26": "「之前進展失效，需要重新由最初開始」是「back to square one」的用法，與本句語境不同。"
+        "back-mcq-29": "本句的「call you back」指「把訊息／動作回傳給原來的發出者」。",
+        "back-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-29"
     },
@@ -3661,10 +3377,8 @@ export default {
       "masked": "She ____ immediately.",
       "options": [
         "back-mcq-29",
-        "back-mcq-28",
-        "back-mcq-30",
-        "back-mcq-27",
-        "back-mcq-31",
+        "back-pdf-003",
+        "back-mcq-37",
         "back-mcq-26"
       ],
       "explanation": "本句的「emailed me back」指「把訊息／動作回傳給原來的發出者」。",
@@ -3674,12 +3388,10 @@ export default {
         "emailed me back"
       ],
       "optionReasons": {
-        "back-mcq-29": "本句指「把訊息／動作回傳給原來的發出者」。",
-        "back-mcq-28": "「強調某個較早的過去時期」是「back in + past time」的用法，與本句語境不同。",
-        "back-mcq-30": "「歸還欠款；或非正式地報復」是「pay back」的用法，與本句語境不同。",
-        "back-mcq-27": "「在所談論的過去那個時期」是「back then」的用法，與本句語境不同。",
-        "back-mcq-31": "「重新取得之前失去的東西／狀態」是「get something back」的用法，與本句語境不同。",
-        "back-mcq-26": "「之前進展失效，需要重新由最初開始」是「back to square one」的用法，與本句語境不同。"
+        "back-mcq-29": "本句的「emailed me back」指「把訊息／動作回傳給原來的發出者」。",
+        "back-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-29"
     },
@@ -3691,11 +3403,9 @@ export default {
       "masked": "Please ____ when you have time.",
       "options": [
         "back-mcq-47",
-        "back-mcq-46",
-        "back-mcq-48",
-        "back-mcq-45",
-        "back-mcq-49",
-        "back-mcq-44"
+        "back-mcq-51",
+        "back-mcq-41",
+        "back-mcq-48"
       ],
       "explanation": "本句的「write back」指「對之前收到的聯絡作出回應」。",
       "sentenceIndex": 79,
@@ -3704,12 +3414,10 @@ export default {
         "write back"
       ],
       "optionReasons": {
-        "back-mcq-47": "本句指「對之前收到的聯絡作出回應」。",
-        "back-mcq-46": "「在時間上非常久以前，或空間上很後方」是「39. way back（很久以前／很後面） — 很久以前；很遠後方」的用法，與本句語境不同。",
-        "back-mcq-48": "「表示在排名、位置或進度上較後」是「52. back = earlier position in ranking/progress（落後） — 在後；落後」的用法，與本句語境不同。",
-        "back-mcq-45": "「返回先前正在做／談論的事情」是「34. back = return to a previous topic/activity（回到） — 回到；重新開始」的用法，與本句語境不同。",
-        "back-mcq-49": "「表示與之前／過去時期有關的」是「55. back = adjective: previous/older issue（以前的／舊的） — 過去的；舊期的」的用法，與本句語境不同。",
-        "back-mcq-44": "「公開或實際表示支持某個提議／方案」是「19. back a proposal/plan（支持方案） — 支持；贊成」的用法，與本句語境不同。"
+        "back-mcq-47": "本句的「write back」指「對之前收到的聯絡作出回應」。",
+        "back-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-47"
     },
@@ -3721,11 +3429,9 @@ export default {
       "masked": "He never ____.",
       "options": [
         "back-mcq-47",
-        "back-mcq-46",
-        "back-mcq-48",
-        "back-mcq-45",
-        "back-mcq-49",
-        "back-mcq-44"
+        "back-mcq-37",
+        "back-mcq-10",
+        "back-mcq-40"
       ],
       "explanation": "本句的「texted back」指「對之前收到的聯絡作出回應」。",
       "sentenceIndex": 80,
@@ -3734,12 +3440,10 @@ export default {
         "texted back"
       ],
       "optionReasons": {
-        "back-mcq-47": "本句指「對之前收到的聯絡作出回應」。",
-        "back-mcq-46": "「在時間上非常久以前，或空間上很後方」是「39. way back（很久以前／很後面） — 很久以前；很遠後方」的用法，與本句語境不同。",
-        "back-mcq-48": "「表示在排名、位置或進度上較後」是「52. back = earlier position in ranking/progress（落後） — 在後；落後」的用法，與本句語境不同。",
-        "back-mcq-45": "「返回先前正在做／談論的事情」是「34. back = return to a previous topic/activity（回到） — 回到；重新開始」的用法，與本句語境不同。",
-        "back-mcq-49": "「表示與之前／過去時期有關的」是「55. back = adjective: previous/older issue（以前的／舊的） — 過去的；舊期的」的用法，與本句語境不同。",
-        "back-mcq-44": "「公開或實際表示支持某個提議／方案」是「19. back a proposal/plan（支持方案） — 支持；贊成」的用法，與本句語境不同。"
+        "back-mcq-47": "本句的「texted back」指「對之前收到的聯絡作出回應」。",
+        "back-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-47"
     },
@@ -3751,11 +3455,9 @@ export default {
       "masked": "I finally ____.",
       "options": [
         "back-mcq-31",
-        "back-mcq-30",
-        "back-mcq-32",
-        "back-mcq-29",
-        "back-mcq-33",
-        "back-mcq-28"
+        "back-mcq-51",
+        "back-mcq-44",
+        "back-reviewed-52bbcf11fb"
       ],
       "explanation": "本句的「got my confidence back」指「重新取得之前失去的東西／狀態」。",
       "sentenceIndex": 81,
@@ -3764,12 +3466,10 @@ export default {
         "got my confidence back"
       ],
       "optionReasons": {
-        "back-mcq-31": "本句指「重新取得之前失去的東西／狀態」。",
-        "back-mcq-30": "「歸還欠款；或非正式地報復」是「pay back」的用法，與本句語境不同。",
-        "back-mcq-32": "「重新取得之前失去的信任、支持、客戶等」是「win back」的用法，與本句語境不同。",
-        "back-mcq-29": "「把訊息／動作回傳給原來的發出者」是「verb + back — response」的用法，與本句語境不同。",
-        "back-mcq-33": "「阻止某人發展、前進或做想做的事情」是「hold someone back」的用法，與本句語境不同。",
-        "back-mcq-28": "「強調某個較早的過去時期」是「back in + past time」的用法，與本句語境不同。"
+        "back-mcq-31": "本句的「got my confidence back」指「重新取得之前失去的東西／狀態」。",
+        "back-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "back-reviewed-52bbcf11fb": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-31"
     },
@@ -3781,11 +3481,9 @@ export default {
       "masked": "She got her phone ____.",
       "options": [
         "back-mcq-31",
-        "back-mcq-30",
-        "back-mcq-32",
-        "back-mcq-29",
-        "back-mcq-33",
-        "back-mcq-28"
+        "back-reviewed-a01e4bc89f",
+        "back-mcq-35",
+        "back-mcq-41"
       ],
       "explanation": "本句的「back」指「重新取得之前失去的東西／狀態」。",
       "sentenceIndex": 82,
@@ -3794,12 +3492,10 @@ export default {
         "back"
       ],
       "optionReasons": {
-        "back-mcq-31": "本句指「重新取得之前失去的東西／狀態」。",
-        "back-mcq-30": "「歸還欠款；或非正式地報復」是「pay back」的用法，與本句語境不同。",
-        "back-mcq-32": "「重新取得之前失去的信任、支持、客戶等」是「win back」的用法，與本句語境不同。",
-        "back-mcq-29": "「把訊息／動作回傳給原來的發出者」是「verb + back — response」的用法，與本句語境不同。",
-        "back-mcq-33": "「阻止某人發展、前進或做想做的事情」是「hold someone back」的用法，與本句語境不同。",
-        "back-mcq-28": "「強調某個較早的過去時期」是「back in + past time」的用法，與本句語境不同。"
+        "back-mcq-31": "本句的「back」指「重新取得之前失去的東西／狀態」。",
+        "back-reviewed-a01e4bc89f": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-31"
     },
@@ -3811,11 +3507,9 @@ export default {
       "masked": "The company is trying to ____.",
       "options": [
         "back-mcq-32",
-        "back-mcq-31",
-        "back-mcq-33",
-        "back-mcq-30",
-        "back-mcq-34",
-        "back-mcq-29"
+        "back-pdf-003",
+        "back-mcq-51",
+        "back-pdf-001"
       ],
       "explanation": "本句的「win customers back」指「重新取得之前失去的信任、支持、客戶等」。",
       "sentenceIndex": 83,
@@ -3824,12 +3518,10 @@ export default {
         "win customers back"
       ],
       "optionReasons": {
-        "back-mcq-32": "本句指「重新取得之前失去的信任、支持、客戶等」。",
-        "back-mcq-31": "「重新取得之前失去的東西／狀態」是「get something back」的用法，與本句語境不同。",
-        "back-mcq-33": "「阻止某人發展、前進或做想做的事情」是「hold someone back」的用法，與本句語境不同。",
-        "back-mcq-30": "「歸還欠款；或非正式地報復」是「pay back」的用法，與本句語境不同。",
-        "back-mcq-34": "「抑制情緒／力量，或隱瞞／保留資訊」是「hold something back」的用法，與本句語境不同。",
-        "back-mcq-29": "「把訊息／動作回傳給原來的發出者」是「verb + back — response」的用法，與本句語境不同。"
+        "back-mcq-32": "本句的「win customers back」指「重新取得之前失去的信任、支持、客戶等」。",
+        "back-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-32"
     },
@@ -3841,11 +3533,9 @@ export default {
       "masked": "She worked hard to ____.",
       "options": [
         "back-mcq-32",
-        "back-mcq-31",
-        "back-mcq-33",
-        "back-mcq-30",
-        "back-mcq-34",
-        "back-mcq-29"
+        "back-mcq-41",
+        "back-pdf-005",
+        "back-reviewed-a01e4bc89f"
       ],
       "explanation": "本句的「win back their trust」指「重新取得之前失去的信任、支持、客戶等」。",
       "sentenceIndex": 84,
@@ -3854,12 +3544,10 @@ export default {
         "win back their trust"
       ],
       "optionReasons": {
-        "back-mcq-32": "本句指「重新取得之前失去的信任、支持、客戶等」。",
-        "back-mcq-31": "「重新取得之前失去的東西／狀態」是「get something back」的用法，與本句語境不同。",
-        "back-mcq-33": "「阻止某人發展、前進或做想做的事情」是「hold someone back」的用法，與本句語境不同。",
-        "back-mcq-30": "「歸還欠款；或非正式地報復」是「pay back」的用法，與本句語境不同。",
-        "back-mcq-34": "「抑制情緒／力量，或隱瞞／保留資訊」是「hold something back」的用法，與本句語境不同。",
-        "back-mcq-29": "「把訊息／動作回傳給原來的發出者」是「verb + back — response」的用法，與本句語境不同。"
+        "back-mcq-32": "本句的「win back their trust」指「重新取得之前失去的信任、支持、客戶等」。",
+        "back-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "back-reviewed-a01e4bc89f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-32"
     },
@@ -3871,11 +3559,9 @@ export default {
       "masked": "Fear was ____.",
       "options": [
         "back-mcq-33",
-        "back-mcq-32",
-        "back-mcq-34",
-        "back-mcq-31",
-        "back-mcq-35",
-        "back-mcq-30"
+        "back-mcq-42",
+        "back-mcq-27",
+        "back-mcq-38"
       ],
       "explanation": "本句的「holding me back」指「阻止某人發展、前進或做想做的事情」。",
       "sentenceIndex": 85,
@@ -3884,12 +3570,10 @@ export default {
         "holding me back"
       ],
       "optionReasons": {
-        "back-mcq-33": "本句指「阻止某人發展、前進或做想做的事情」。",
-        "back-mcq-32": "「重新取得之前失去的信任、支持、客戶等」是「win back」的用法，與本句語境不同。",
-        "back-mcq-34": "「抑制情緒／力量，或隱瞞／保留資訊」是「hold something back」的用法，與本句語境不同。",
-        "back-mcq-31": "「重新取得之前失去的東西／狀態」是「get something back」的用法，與本句語境不同。",
-        "back-mcq-35": "「在某人不知道／不在場時秘密做某事」是「behind someone’s back」的用法，與本句語境不同。",
-        "back-mcq-30": "「歸還欠款；或非正式地報復」是「pay back」的用法，與本句語境不同。"
+        "back-mcq-33": "本句的「holding me back」指「阻止某人發展、前進或做想做的事情」。",
+        "back-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-33"
     },
@@ -3901,11 +3585,9 @@ export default {
       "masked": "Don’t let one mistake ____.",
       "options": [
         "back-mcq-33",
-        "back-mcq-32",
-        "back-mcq-34",
-        "back-mcq-31",
-        "back-mcq-35",
-        "back-mcq-30"
+        "back-mcq-38",
+        "back-mcq-15",
+        "back-mcq-42"
       ],
       "explanation": "本句的「hold you back」指「阻止某人發展、前進或做想做的事情」。",
       "sentenceIndex": 86,
@@ -3914,12 +3596,10 @@ export default {
         "hold you back"
       ],
       "optionReasons": {
-        "back-mcq-33": "本句指「阻止某人發展、前進或做想做的事情」。",
-        "back-mcq-32": "「重新取得之前失去的信任、支持、客戶等」是「win back」的用法，與本句語境不同。",
-        "back-mcq-34": "「抑制情緒／力量，或隱瞞／保留資訊」是「hold something back」的用法，與本句語境不同。",
-        "back-mcq-31": "「重新取得之前失去的東西／狀態」是「get something back」的用法，與本句語境不同。",
-        "back-mcq-35": "「在某人不知道／不在場時秘密做某事」是「behind someone’s back」的用法，與本句語境不同。",
-        "back-mcq-30": "「歸還欠款；或非正式地報復」是「pay back」的用法，與本句語境不同。"
+        "back-mcq-33": "本句的「hold you back」指「阻止某人發展、前進或做想做的事情」。",
+        "back-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-33"
     },
@@ -3931,11 +3611,9 @@ export default {
       "masked": "She tried to ____.",
       "options": [
         "back-mcq-34",
-        "back-mcq-33",
-        "back-mcq-35",
-        "back-mcq-32",
-        "back-mcq-36",
-        "back-mcq-31"
+        "back-reviewed-52bbcf11fb",
+        "back-mcq-38",
+        "back-pdf-005"
       ],
       "explanation": "本句的「hold back her tears」指「抑制情緒／力量，或隱瞞／保留資訊」。",
       "sentenceIndex": 87,
@@ -3944,12 +3622,10 @@ export default {
         "hold back her tears"
       ],
       "optionReasons": {
-        "back-mcq-34": "本句指「抑制情緒／力量，或隱瞞／保留資訊」。",
-        "back-mcq-33": "「阻止某人發展、前進或做想做的事情」是「hold someone back」的用法，與本句語境不同。",
-        "back-mcq-35": "「在某人不知道／不在場時秘密做某事」是「behind someone’s back」的用法，與本句語境不同。",
-        "back-mcq-32": "「重新取得之前失去的信任、支持、客戶等」是「win back」的用法，與本句語境不同。",
-        "back-mcq-36": "「拒絕支持、幫助或面對某人／某事」是「turn your back on」的用法，與本句語境不同。",
-        "back-mcq-31": "「重新取得之前失去的東西／狀態」是「get something back」的用法，與本句語境不同。"
+        "back-mcq-34": "本句的「hold back her tears」指「抑制情緒／力量，或隱瞞／保留資訊」。",
+        "back-reviewed-52bbcf11fb": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-34"
     },
@@ -3961,11 +3637,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "back-mcq-34",
-        "back-mcq-33",
-        "back-mcq-35",
-        "back-mcq-32",
-        "back-mcq-36",
-        "back-mcq-31"
+        "back-mcq-10",
+        "back-mcq-27",
+        "back-mcq-18"
       ],
       "explanation": "本句的「holding back information」指「抑制情緒／力量，或隱瞞／保留資訊」。",
       "sentenceIndex": 88,
@@ -3974,12 +3648,10 @@ export default {
         "holding back information"
       ],
       "optionReasons": {
-        "back-mcq-34": "本句指「抑制情緒／力量，或隱瞞／保留資訊」。",
-        "back-mcq-33": "「阻止某人發展、前進或做想做的事情」是「hold someone back」的用法，與本句語境不同。",
-        "back-mcq-35": "「在某人不知道／不在場時秘密做某事」是「behind someone’s back」的用法，與本句語境不同。",
-        "back-mcq-32": "「重新取得之前失去的信任、支持、客戶等」是「win back」的用法，與本句語境不同。",
-        "back-mcq-36": "「拒絕支持、幫助或面對某人／某事」是「turn your back on」的用法，與本句語境不同。",
-        "back-mcq-31": "「重新取得之前失去的東西／狀態」是「get something back」的用法，與本句語境不同。"
+        "back-mcq-34": "本句的「holding back information」指「抑制情緒／力量，或隱瞞／保留資訊」。",
+        "back-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-34"
     },
@@ -3991,11 +3663,9 @@ export default {
       "masked": "They discussed the issue ____.",
       "options": [
         "back-mcq-35",
-        "back-mcq-34",
-        "back-mcq-36",
-        "back-mcq-33",
-        "back-mcq-37",
-        "back-mcq-32"
+        "back-mcq-19",
+        "back-mcq-21",
+        "back-mcq-11"
       ],
       "explanation": "本句的「behind my back」指「在某人不知道／不在場時秘密做某事」。",
       "sentenceIndex": 89,
@@ -4004,12 +3674,10 @@ export default {
         "behind my back"
       ],
       "optionReasons": {
-        "back-mcq-35": "本句指「在某人不知道／不在場時秘密做某事」。",
-        "back-mcq-34": "「抑制情緒／力量，或隱瞞／保留資訊」是「hold something back」的用法，與本句語境不同。",
-        "back-mcq-36": "「拒絕支持、幫助或面對某人／某事」是「turn your back on」的用法，與本句語境不同。",
-        "back-mcq-33": "「阻止某人發展、前進或做想做的事情」是「hold someone back」的用法，與本句語境不同。",
-        "back-mcq-37": "「在有困難時支持、保護或幫助某人」是「have someone’s back」的用法，與本句語境不同。",
-        "back-mcq-32": "「重新取得之前失去的信任、支持、客戶等」是「win back」的用法，與本句語境不同。"
+        "back-mcq-35": "本句的「behind my back」指「在某人不知道／不在場時秘密做某事」。",
+        "back-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-35"
     },
@@ -4021,11 +3689,9 @@ export default {
       "masked": "Don’t criticize people ____.",
       "options": [
         "back-mcq-35",
-        "back-mcq-34",
-        "back-mcq-36",
-        "back-mcq-33",
-        "back-mcq-37",
-        "back-mcq-32"
+        "back-mcq-11",
+        "back-mcq-23",
+        "back-mcq-25"
       ],
       "explanation": "本句的「behind their backs」指「在某人不知道／不在場時秘密做某事」。",
       "sentenceIndex": 90,
@@ -4034,12 +3700,10 @@ export default {
         "behind their backs"
       ],
       "optionReasons": {
-        "back-mcq-35": "本句指「在某人不知道／不在場時秘密做某事」。",
-        "back-mcq-34": "「抑制情緒／力量，或隱瞞／保留資訊」是「hold something back」的用法，與本句語境不同。",
-        "back-mcq-36": "「拒絕支持、幫助或面對某人／某事」是「turn your back on」的用法，與本句語境不同。",
-        "back-mcq-33": "「阻止某人發展、前進或做想做的事情」是「hold someone back」的用法，與本句語境不同。",
-        "back-mcq-37": "「在有困難時支持、保護或幫助某人」是「have someone’s back」的用法，與本句語境不同。",
-        "back-mcq-32": "「重新取得之前失去的信任、支持、客戶等」是「win back」的用法，與本句語境不同。"
+        "back-mcq-35": "本句的「behind their backs」指「在某人不知道／不在場時秘密做某事」。",
+        "back-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-35"
     },
@@ -4051,11 +3715,9 @@ export default {
       "masked": "She refused to ____ the team.",
       "options": [
         "back-mcq-36",
-        "back-mcq-35",
-        "back-mcq-37",
-        "back-mcq-34",
-        "back-mcq-38",
-        "back-mcq-33"
+        "back-mcq-52",
+        "back-mcq-41",
+        "back-mcq-25"
       ],
       "explanation": "本句的「turn her back on」指「拒絕支持、幫助或面對某人／某事」。",
       "sentenceIndex": 91,
@@ -4064,12 +3726,10 @@ export default {
         "turn her back on"
       ],
       "optionReasons": {
-        "back-mcq-36": "本句指「拒絕支持、幫助或面對某人／某事」。",
-        "back-mcq-35": "「在某人不知道／不在場時秘密做某事」是「behind someone’s back」的用法，與本句語境不同。",
-        "back-mcq-37": "「在有困難時支持、保護或幫助某人」是「have someone’s back」的用法，與本句語境不同。",
-        "back-mcq-34": "「抑制情緒／力量，或隱瞞／保留資訊」是「hold something back」的用法，與本句語境不同。",
-        "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。",
-        "back-mcq-33": "「阻止某人發展、前進或做想做的事情」是「hold someone back」的用法，與本句語境不同。"
+        "back-mcq-36": "本句的「turn her back on」指「拒絕支持、幫助或面對某人／某事」。",
+        "back-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-36"
     },
@@ -4081,11 +3741,9 @@ export default {
       "masked": "You can’t just ____ the problem.",
       "options": [
         "back-mcq-36",
-        "back-mcq-35",
-        "back-mcq-37",
-        "back-mcq-34",
-        "back-mcq-38",
-        "back-mcq-33"
+        "back-mcq-52",
+        "back-mcq-47",
+        "back-mcq-05"
       ],
       "explanation": "本句的「turn your back on」指「拒絕支持、幫助或面對某人／某事」。",
       "sentenceIndex": 92,
@@ -4094,12 +3752,10 @@ export default {
         "turn your back on"
       ],
       "optionReasons": {
-        "back-mcq-36": "本句指「拒絕支持、幫助或面對某人／某事」。",
-        "back-mcq-35": "「在某人不知道／不在場時秘密做某事」是「behind someone’s back」的用法，與本句語境不同。",
-        "back-mcq-37": "「在有困難時支持、保護或幫助某人」是「have someone’s back」的用法，與本句語境不同。",
-        "back-mcq-34": "「抑制情緒／力量，或隱瞞／保留資訊」是「hold something back」的用法，與本句語境不同。",
-        "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。",
-        "back-mcq-33": "「阻止某人發展、前進或做想做的事情」是「hold someone back」的用法，與本句語境不同。"
+        "back-mcq-36": "本句的「turn your back on」指「拒絕支持、幫助或面對某人／某事」。",
+        "back-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-36"
     },
@@ -4111,11 +3767,9 @@ export default {
       "masked": "Don’t worry—I’ve ____.",
       "options": [
         "back-mcq-37",
-        "back-mcq-36",
-        "back-mcq-38",
-        "back-mcq-35",
-        "back-mcq-39",
-        "back-mcq-34"
+        "back-mcq-10",
+        "back-pdf-002",
+        "back-mcq-06"
       ],
       "explanation": "本句的「got your back」指「在有困難時支持、保護或幫助某人」。",
       "sentenceIndex": 93,
@@ -4124,12 +3778,10 @@ export default {
         "got your back"
       ],
       "optionReasons": {
-        "back-mcq-37": "本句指「在有困難時支持、保護或幫助某人」。",
-        "back-mcq-36": "「拒絕支持、幫助或面對某人／某事」是「turn your back on」的用法，與本句語境不同。",
-        "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。",
-        "back-mcq-35": "「在某人不知道／不在場時秘密做某事」是「behind someone’s back」的用法，與本句語境不同。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
-        "back-mcq-34": "「抑制情緒／力量，或隱瞞／保留資訊」是「hold something back」的用法，與本句語境不同。"
+        "back-mcq-37": "本句的「got your back」指「在有困難時支持、保護或幫助某人」。",
+        "back-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-37"
     },
@@ -4141,11 +3793,9 @@ export default {
       "masked": "My team always ____.",
       "options": [
         "back-mcq-37",
-        "back-mcq-36",
-        "back-mcq-38",
-        "back-mcq-35",
-        "back-mcq-39",
-        "back-mcq-34"
+        "back-pdf-002",
+        "back-mcq-05",
+        "back-mcq-39"
       ],
       "explanation": "本句的「has my back」指「在有困難時支持、保護或幫助某人」。",
       "sentenceIndex": 94,
@@ -4154,12 +3804,10 @@ export default {
         "has my back"
       ],
       "optionReasons": {
-        "back-mcq-37": "本句指「在有困難時支持、保護或幫助某人」。",
-        "back-mcq-36": "「拒絕支持、幫助或面對某人／某事」是「turn your back on」的用法，與本句語境不同。",
-        "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。",
-        "back-mcq-35": "「在某人不知道／不在場時秘密做某事」是「behind someone’s back」的用法，與本句語境不同。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
-        "back-mcq-34": "「抑制情緒／力量，或隱瞞／保留資訊」是「hold something back」的用法，與本句語境不同。"
+        "back-mcq-37": "本句的「has my back」指「在有困難時支持、保護或幫助某人」。",
+        "back-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-37"
     },
@@ -4171,11 +3819,9 @@ export default {
       "masked": "You need to ____.",
       "options": [
         "back-mcq-38",
-        "back-mcq-37",
-        "back-mcq-39",
-        "back-mcq-36",
-        "back-mcq-40",
-        "back-mcq-35"
+        "back-mcq-12",
+        "back-mcq-07",
+        "back-mcq-51"
       ],
       "explanation": "本句的「watch your back」指「小心意料之外的危險、背叛或問題」。",
       "sentenceIndex": 95,
@@ -4184,12 +3830,10 @@ export default {
         "watch your back"
       ],
       "optionReasons": {
-        "back-mcq-38": "本句指「小心意料之外的危險、背叛或問題」。",
-        "back-mcq-37": "「在有困難時支持、保護或幫助某人」是「have someone’s back」的用法，與本句語境不同。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
-        "back-mcq-36": "「拒絕支持、幫助或面對某人／某事」是「turn your back on」的用法，與本句語境不同。",
-        "back-mcq-40": "「主要方法失敗時退而依靠後備資源」是「fall back on」的用法，與本句語境不同。",
-        "back-mcq-35": "「在某人不知道／不在場時秘密做某事」是「behind someone’s back」的用法，與本句語境不同。"
+        "back-mcq-38": "本句的「watch your back」指「小心意料之外的危險、背叛或問題」。",
+        "back-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-38"
     },
@@ -4201,11 +3845,9 @@ export default {
       "masked": "In that competitive environment, everyone was watching their ____.",
       "options": [
         "back-mcq-38",
-        "back-mcq-37",
-        "back-mcq-39",
-        "back-mcq-36",
-        "back-mcq-40",
-        "back-mcq-35"
+        "back-mcq-14",
+        "back-mcq-10",
+        "back-mcq-15"
       ],
       "explanation": "本句的「back」指「小心意料之外的危險、背叛或問題」。",
       "sentenceIndex": 96,
@@ -4214,12 +3856,10 @@ export default {
         "back"
       ],
       "optionReasons": {
-        "back-mcq-38": "本句指「小心意料之外的危險、背叛或問題」。",
-        "back-mcq-37": "「在有困難時支持、保護或幫助某人」是「have someone’s back」的用法，與本句語境不同。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
-        "back-mcq-36": "「拒絕支持、幫助或面對某人／某事」是「turn your back on」的用法，與本句語境不同。",
-        "back-mcq-40": "「主要方法失敗時退而依靠後備資源」是「fall back on」的用法，與本句語境不同。",
-        "back-mcq-35": "「在某人不知道／不在場時秘密做某事」是「behind someone’s back」的用法，與本句語境不同。"
+        "back-mcq-38": "本句的「back」指「小心意料之外的危險、背叛或問題」。",
+        "back-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-38"
     },
@@ -4231,11 +3871,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "back-mcq-39",
-        "back-mcq-38",
-        "back-mcq-40",
-        "back-mcq-37",
-        "back-mcq-41",
-        "back-mcq-36"
+        "back-reviewed-52bbcf11fb",
+        "back-mcq-36",
+        "back-mcq-50"
       ],
       "explanation": "本句的「patted me on the back」指「實際拍背，或比喻上給予讚賞／肯定」。",
       "sentenceIndex": 97,
@@ -4244,12 +3882,10 @@ export default {
         "patted me on the back"
       ],
       "optionReasons": {
-        "back-mcq-39": "本句指「實際拍背，或比喻上給予讚賞／肯定」。",
-        "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。",
-        "back-mcq-40": "「主要方法失敗時退而依靠後備資源」是「fall back on」的用法，與本句語境不同。",
-        "back-mcq-37": "「在有困難時支持、保護或幫助某人」是「have someone’s back」的用法，與本句語境不同。",
-        "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。",
-        "back-mcq-36": "「拒絕支持、幫助或面對某人／某事」是「turn your back on」的用法，與本句語境不同。"
+        "back-mcq-39": "本句的「patted me on the back」指「實際拍背，或比喻上給予讚賞／肯定」。",
+        "back-reviewed-52bbcf11fb": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-39"
     },
@@ -4261,11 +3897,9 @@ export default {
       "masked": "The team deserves a ____.",
       "options": [
         "back-mcq-39",
-        "back-mcq-38",
-        "back-mcq-40",
-        "back-mcq-37",
-        "back-mcq-41",
-        "back-mcq-36"
+        "back-mcq-45",
+        "back-mcq-46",
+        "back-mcq-51"
       ],
       "explanation": "本句的「pat on the back」指「實際拍背，或比喻上給予讚賞／肯定」。",
       "sentenceIndex": 98,
@@ -4274,12 +3908,10 @@ export default {
         "pat on the back"
       ],
       "optionReasons": {
-        "back-mcq-39": "本句指「實際拍背，或比喻上給予讚賞／肯定」。",
-        "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。",
-        "back-mcq-40": "「主要方法失敗時退而依靠後備資源」是「fall back on」的用法，與本句語境不同。",
-        "back-mcq-37": "「在有困難時支持、保護或幫助某人」是「have someone’s back」的用法，與本句語境不同。",
-        "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。",
-        "back-mcq-36": "「拒絕支持、幫助或面對某人／某事」是「turn your back on」的用法，與本句語境不同。"
+        "back-mcq-39": "本句的「pat on the back」指「實際拍背，或比喻上給予讚賞／肯定」。",
+        "back-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-39"
     },
@@ -4291,11 +3923,9 @@ export default {
       "masked": "Our team is several points ____.",
       "options": [
         "back-mcq-48",
-        "back-mcq-47",
-        "back-mcq-49",
-        "back-mcq-46",
-        "back-mcq-50",
-        "back-mcq-45"
+        "back-mcq-36",
+        "back-mcq-23",
+        "back-pdf-004"
       ],
       "explanation": "本句的「back」指「表示在排名、位置或進度上較後」。",
       "sentenceIndex": 99,
@@ -4304,12 +3934,10 @@ export default {
         "back"
       ],
       "optionReasons": {
-        "back-mcq-48": "本句指「表示在排名、位置或進度上較後」。",
-        "back-mcq-47": "「對之前收到的聯絡作出回應」是「41. write/text/email back（回覆） — 回信；回訊息」的用法，與本句語境不同。",
-        "back-mcq-49": "「表示與之前／過去時期有關的」是「55. back = adjective: previous/older issue（以前的／舊的） — 過去的；舊期的」的用法，與本句語境不同。",
-        "back-mcq-46": "「在時間上非常久以前，或空間上很後方」是「39. way back（很久以前／很後面） — 很久以前；很遠後方」的用法，與本句語境不同。",
-        "back-mcq-50": "「之前應付但尚未支付的工資」是「56. back pay（補發薪酬） — 欠薪；補發工資」的用法，與本句語境不同。",
-        "back-mcq-45": "「返回先前正在做／談論的事情」是「34. back = return to a previous topic/activity（回到） — 回到；重新開始」的用法，與本句語境不同。"
+        "back-mcq-48": "本句的「back」指「表示在排名、位置或進度上較後」。",
+        "back-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-48"
     },
@@ -4321,11 +3949,9 @@ export default {
       "masked": "He fell ____ in the race.",
       "options": [
         "back-mcq-48",
-        "back-mcq-47",
-        "back-mcq-49",
-        "back-mcq-46",
-        "back-mcq-50",
-        "back-mcq-45"
+        "back-pdf-004",
+        "back-mcq-51",
+        "back-mcq-47"
       ],
       "explanation": "本句的「back」指「表示在排名、位置或進度上較後」。",
       "sentenceIndex": 100,
@@ -4334,74 +3960,68 @@ export default {
         "back"
       ],
       "optionReasons": {
-        "back-mcq-48": "本句指「表示在排名、位置或進度上較後」。",
-        "back-mcq-47": "「對之前收到的聯絡作出回應」是「41. write/text/email back（回覆） — 回信；回訊息」的用法，與本句語境不同。",
-        "back-mcq-49": "「表示與之前／過去時期有關的」是「55. back = adjective: previous/older issue（以前的／舊的） — 過去的；舊期的」的用法，與本句語境不同。",
-        "back-mcq-46": "「在時間上非常久以前，或空間上很後方」是「39. way back（很久以前／很後面） — 很久以前；很遠後方」的用法，與本句語境不同。",
-        "back-mcq-50": "「之前應付但尚未支付的工資」是「56. back pay（補發薪酬） — 欠薪；補發工資」的用法，與本句語境不同。",
-        "back-mcq-45": "「返回先前正在做／談論的事情」是「34. back = return to a previous topic/activity（回到） — 回到；重新開始」的用法，與本句語境不同。"
+        "back-mcq-48": "本句的「back」指「表示在排名、位置或進度上較後」。",
+        "back-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-48"
     },
     {
       "id": "back-53-0",
-      "sense": "back-mcq-40",
+      "sense": "back-reviewed-a01e4bc89f",
       "en": "The crowd fell back.",
       "zh": "人群向後退。",
       "masked": "The crowd ____.",
       "options": [
-        "back-mcq-40",
-        "back-mcq-39",
-        "back-mcq-41",
-        "back-mcq-38",
-        "back-mcq-42",
-        "back-mcq-37"
+        "back-reviewed-a01e4bc89f",
+        "back-mcq-49",
+        "back-mcq-52",
+        "back-pdf-001"
       ],
-      "explanation": "本句的「fell back」指「主要方法失敗時退而依靠後備資源」。",
+      "explanation": "對照完整句子：「人群向後退。」。這裡的「fell back」表示「後退；或退回較安全／次選方案」。",
       "sentenceIndex": 101,
       "sourcePractice": 102,
       "targets": [
         "fell back"
       ],
       "optionReasons": {
-        "back-mcq-40": "本句指「主要方法失敗時退而依靠後備資源」。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
-        "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。",
-        "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。",
-        "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
-        "back-mcq-37": "「在有困難時支持、保護或幫助某人」是「have someone’s back」的用法，與本句語境不同。"
+        "back-reviewed-a01e4bc89f": "對照完整句子：「人群向後退。」。這裡的「fell back」表示「後退；或退回較安全／次選方案」。",
+        "back-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "back-mcq-40"
+      "correctOption": "back-reviewed-a01e4bc89f",
+      "previousCorrectOption": "back-mcq-40",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "back-53-1",
-      "sense": "back-mcq-40",
+      "sense": "back-reviewed-a01e4bc89f",
       "en": "If the main plan fails, we can fall back on the backup.",
       "zh": "如果主要方案失敗，我們可以退而使用／依靠後備方案。",
       "masked": "If the main plan fails, we can ____ the backup.",
       "options": [
-        "back-mcq-40",
+        "back-reviewed-a01e4bc89f",
         "back-mcq-39",
-        "back-mcq-41",
-        "back-mcq-38",
-        "back-mcq-42",
-        "back-mcq-37"
+        "back-mcq-34",
+        "back-mcq-17"
       ],
-      "explanation": "本句的「fall back on」指「主要方法失敗時退而依靠後備資源」。",
+      "explanation": "對照完整句子：「如果主要方案失敗，我們可以退而使用／依靠後備方案。」。這裡的「fall back on」表示「後退；或退回較安全／次選方案」。",
       "sentenceIndex": 102,
       "sourcePractice": 103,
       "targets": [
         "fall back on"
       ],
       "optionReasons": {
-        "back-mcq-40": "本句指「主要方法失敗時退而依靠後備資源」。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
-        "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。",
-        "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。",
-        "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
-        "back-mcq-37": "「在有困難時支持、保護或幫助某人」是「have someone’s back」的用法，與本句語境不同。"
+        "back-reviewed-a01e4bc89f": "對照完整句子：「如果主要方案失敗，我們可以退而使用／依靠後備方案。」。這裡的「fall back on」表示「後退；或退回較安全／次選方案」。",
+        "back-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "back-mcq-40"
+      "correctOption": "back-reviewed-a01e4bc89f",
+      "previousCorrectOption": "back-mcq-40",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "back-54-0",
@@ -4411,11 +4031,9 @@ export default {
       "masked": "I had notes to ____ if my mind went blank.",
       "options": [
         "back-mcq-40",
-        "back-mcq-39",
-        "back-mcq-41",
-        "back-mcq-38",
-        "back-mcq-42",
-        "back-mcq-37"
+        "back-mcq-04",
+        "back-mcq-19",
+        "back-mcq-38"
       ],
       "explanation": "本句的「fall back on」指「主要方法失敗時退而依靠後備資源」。",
       "sentenceIndex": 103,
@@ -4424,12 +4042,10 @@ export default {
         "fall back on"
       ],
       "optionReasons": {
-        "back-mcq-40": "本句指「主要方法失敗時退而依靠後備資源」。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
-        "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。",
-        "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。",
-        "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
-        "back-mcq-37": "「在有困難時支持、保護或幫助某人」是「have someone’s back」的用法，與本句語境不同。"
+        "back-mcq-40": "本句的「fall back on」指「主要方法失敗時退而依靠後備資源」。",
+        "back-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-40"
     },
@@ -4441,11 +4057,9 @@ export default {
       "masked": "Savings gave him something to ____.",
       "options": [
         "back-mcq-40",
-        "back-mcq-39",
-        "back-mcq-41",
-        "back-mcq-38",
-        "back-mcq-42",
-        "back-mcq-37"
+        "back-mcq-45",
+        "back-mcq-02",
+        "back-mcq-36"
       ],
       "explanation": "本句的「fall back on」指「主要方法失敗時退而依靠後備資源」。",
       "sentenceIndex": 104,
@@ -4454,12 +4068,10 @@ export default {
         "fall back on"
       ],
       "optionReasons": {
-        "back-mcq-40": "本句指「主要方法失敗時退而依靠後備資源」。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
-        "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。",
-        "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。",
-        "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
-        "back-mcq-37": "「在有困難時支持、保護或幫助某人」是「have someone’s back」的用法，與本句語境不同。"
+        "back-mcq-40": "本句的「fall back on」指「主要方法失敗時退而依靠後備資源」。",
+        "back-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-40"
     },
@@ -4471,11 +4083,9 @@ export default {
       "masked": "I read some ____ of the magazine.",
       "options": [
         "back-mcq-49",
-        "back-mcq-48",
-        "back-mcq-50",
-        "back-mcq-47",
-        "back-mcq-51",
-        "back-mcq-46"
+        "back-mcq-10",
+        "back-mcq-14",
+        "back-mcq-41"
       ],
       "explanation": "本句的「back issues」指「表示與之前／過去時期有關的」。",
       "sentenceIndex": 105,
@@ -4484,12 +4094,10 @@ export default {
         "back issues"
       ],
       "optionReasons": {
-        "back-mcq-49": "本句指「表示與之前／過去時期有關的」。",
-        "back-mcq-48": "「表示在排名、位置或進度上較後」是「52. back = earlier position in ranking/progress（落後） — 在後；落後」的用法，與本句語境不同。",
-        "back-mcq-50": "「之前應付但尚未支付的工資」是「56. back pay（補發薪酬） — 欠薪；補發工資」的用法，與本句語境不同。",
-        "back-mcq-47": "「對之前收到的聯絡作出回應」是「41. write/text/email back（回覆） — 回信；回訊息」的用法，與本句語境不同。",
-        "back-mcq-51": "「反抗／反擊；或努力抑制強烈情緒」是「59. fight back（反擊／忍住情緒） — 反擊；抵抗」的用法，與本句語境不同。",
-        "back-mcq-46": "「在時間上非常久以前，或空間上很後方」是「39. way back（很久以前／很後面） — 很久以前；很遠後方」的用法，與本句語境不同。"
+        "back-mcq-49": "本句的「back issues」指「表示與之前／過去時期有關的」。",
+        "back-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-49"
     },
@@ -4501,11 +4109,9 @@ export default {
       "masked": "The company owes ____.",
       "options": [
         "back-mcq-49",
-        "back-mcq-48",
-        "back-mcq-50",
-        "back-mcq-47",
-        "back-mcq-51",
-        "back-mcq-46"
+        "back-pdf-002",
+        "back-mcq-20",
+        "back-mcq-05"
       ],
       "explanation": "本句的「back pay」指「表示與之前／過去時期有關的」。",
       "sentenceIndex": 106,
@@ -4514,12 +4120,10 @@ export default {
         "back pay"
       ],
       "optionReasons": {
-        "back-mcq-49": "本句指「表示與之前／過去時期有關的」。",
-        "back-mcq-48": "「表示在排名、位置或進度上較後」是「52. back = earlier position in ranking/progress（落後） — 在後；落後」的用法，與本句語境不同。",
-        "back-mcq-50": "「之前應付但尚未支付的工資」是「56. back pay（補發薪酬） — 欠薪；補發工資」的用法，與本句語境不同。",
-        "back-mcq-47": "「對之前收到的聯絡作出回應」是「41. write/text/email back（回覆） — 回信；回訊息」的用法，與本句語境不同。",
-        "back-mcq-51": "「反抗／反擊；或努力抑制強烈情緒」是「59. fight back（反擊／忍住情緒） — 反擊；抵抗」的用法，與本句語境不同。",
-        "back-mcq-46": "「在時間上非常久以前，或空間上很後方」是「39. way back（很久以前／很後面） — 很久以前；很遠後方」的用法，與本句語境不同。"
+        "back-mcq-49": "本句的「back pay」指「表示與之前／過去時期有關的」。",
+        "back-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-49"
     },
@@ -4531,11 +4135,9 @@ export default {
       "masked": "Employees received ____.",
       "options": [
         "back-mcq-50",
-        "back-mcq-49",
-        "back-mcq-51",
-        "back-mcq-48",
-        "back-mcq-52",
-        "back-mcq-47"
+        "back-mcq-15",
+        "back-mcq-38",
+        "back-mcq-21"
       ],
       "explanation": "本句的「back pay」指「之前應付但尚未支付的工資」。",
       "sentenceIndex": 107,
@@ -4544,12 +4146,10 @@ export default {
         "back pay"
       ],
       "optionReasons": {
-        "back-mcq-50": "本句指「之前應付但尚未支付的工資」。",
-        "back-mcq-49": "「表示與之前／過去時期有關的」是「55. back = adjective: previous/older issue（以前的／舊的） — 過去的；舊期的」的用法，與本句語境不同。",
-        "back-mcq-51": "「反抗／反擊；或努力抑制強烈情緒」是「59. fight back（反擊／忍住情緒） — 反擊；抵抗」的用法，與本句語境不同。",
-        "back-mcq-48": "「表示在排名、位置或進度上較後」是「52. back = earlier position in ranking/progress（落後） — 在後；落後」的用法，與本句語境不同。",
-        "back-mcq-52": "「以被視為不尊重的方式反駁有權威的人」是「60. answer/talk back（頂嘴） — 頂嘴；反駁」的用法，與本句語境不同。",
-        "back-mcq-47": "「對之前收到的聯絡作出回應」是「41. write/text/email back（回覆） — 回信；回訊息」的用法，與本句語境不同。"
+        "back-mcq-50": "本句的「back pay」指「之前應付但尚未支付的工資」。",
+        "back-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-50"
     },
@@ -4561,11 +4161,9 @@ export default {
       "masked": "The settlement included two months of ____.",
       "options": [
         "back-mcq-50",
-        "back-mcq-49",
-        "back-mcq-51",
         "back-mcq-48",
-        "back-mcq-52",
-        "back-mcq-47"
+        "back-mcq-18",
+        "back-mcq-07"
       ],
       "explanation": "本句的「back pay」指「之前應付但尚未支付的工資」。",
       "sentenceIndex": 108,
@@ -4574,12 +4172,10 @@ export default {
         "back pay"
       ],
       "optionReasons": {
-        "back-mcq-50": "本句指「之前應付但尚未支付的工資」。",
-        "back-mcq-49": "「表示與之前／過去時期有關的」是「55. back = adjective: previous/older issue（以前的／舊的） — 過去的；舊期的」的用法，與本句語境不同。",
-        "back-mcq-51": "「反抗／反擊；或努力抑制強烈情緒」是「59. fight back（反擊／忍住情緒） — 反擊；抵抗」的用法，與本句語境不同。",
-        "back-mcq-48": "「表示在排名、位置或進度上較後」是「52. back = earlier position in ranking/progress（落後） — 在後；落後」的用法，與本句語境不同。",
-        "back-mcq-52": "「以被視為不尊重的方式反駁有權威的人」是「60. answer/talk back（頂嘴） — 頂嘴；反駁」的用法，與本句語境不同。",
-        "back-mcq-47": "「對之前收到的聯絡作出回應」是「41. write/text/email back（回覆） — 回信；回訊息」的用法，與本句語境不同。"
+        "back-mcq-50": "本句的「back pay」指「之前應付但尚未支付的工資」。",
+        "back-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-50"
     },
@@ -4591,11 +4187,9 @@ export default {
       "masked": "The library stores ____ of the journal.",
       "options": [
         "back-pdf-004",
-        "back-mcq-39",
-        "back-mcq-41",
-        "back-mcq-38",
         "back-mcq-42",
-        "back-mcq-37"
+        "back-mcq-52",
+        "back-pdf-002"
       ],
       "explanation": "本句的「back issues」指「雜誌／期刊以前出版的期號」。",
       "sentenceIndex": 109,
@@ -4604,12 +4198,10 @@ export default {
         "back issues"
       ],
       "optionReasons": {
-        "back-pdf-004": "本句指「雜誌／期刊以前出版的期號」。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
-        "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。",
-        "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。",
-        "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
-        "back-mcq-37": "「在有困難時支持、保護或幫助某人」是「have someone’s back」的用法，與本句語境不同。"
+        "back-pdf-004": "本句的「back issues」指「雜誌／期刊以前出版的期號」。",
+        "back-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-pdf-004"
     },
@@ -4621,11 +4213,9 @@ export default {
       "masked": "I found the article in a ____.",
       "options": [
         "back-pdf-004",
-        "back-mcq-39",
-        "back-mcq-41",
-        "back-mcq-38",
-        "back-mcq-42",
-        "back-mcq-37"
+        "back-mcq-22",
+        "back-mcq-10",
+        "back-mcq-39"
       ],
       "explanation": "本句的「back issue」指「雜誌／期刊以前出版的期號」。",
       "sentenceIndex": 110,
@@ -4634,12 +4224,10 @@ export default {
         "back issue"
       ],
       "optionReasons": {
-        "back-pdf-004": "本句指「雜誌／期刊以前出版的期號」。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
-        "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。",
-        "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。",
-        "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
-        "back-mcq-37": "「在有困難時支持、保護或幫助某人」是「have someone’s back」的用法，與本句語境不同。"
+        "back-pdf-004": "本句的「back issue」指「雜誌／期刊以前出版的期號」。",
+        "back-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-pdf-004"
     },
@@ -4651,11 +4239,9 @@ export default {
       "masked": "The team ____ after a difficult start.",
       "options": [
         "back-mcq-51",
-        "back-mcq-50",
-        "back-mcq-52",
-        "back-mcq-49",
-        "back-mcq-48",
-        "back-mcq-47"
+        "back-mcq-44",
+        "back-pdf-002",
+        "back-pdf-004"
       ],
       "explanation": "本句的「fought back」指「反抗／反擊；或努力抑制強烈情緒」。",
       "sentenceIndex": 111,
@@ -4664,12 +4250,10 @@ export default {
         "fought back"
       ],
       "optionReasons": {
-        "back-mcq-51": "本句指「反抗／反擊；或努力抑制強烈情緒」。",
-        "back-mcq-50": "「之前應付但尚未支付的工資」是「56. back pay（補發薪酬） — 欠薪；補發工資」的用法，與本句語境不同。",
-        "back-mcq-52": "「以被視為不尊重的方式反駁有權威的人」是「60. answer/talk back（頂嘴） — 頂嘴；反駁」的用法，與本句語境不同。",
-        "back-mcq-49": "「表示與之前／過去時期有關的」是「55. back = adjective: previous/older issue（以前的／舊的） — 過去的；舊期的」的用法，與本句語境不同。",
-        "back-mcq-48": "「表示在排名、位置或進度上較後」是「52. back = earlier position in ranking/progress（落後） — 在後；落後」的用法，與本句語境不同。",
-        "back-mcq-47": "「對之前收到的聯絡作出回應」是「41. write/text/email back（回覆） — 回信；回訊息」的用法，與本句語境不同。"
+        "back-mcq-51": "本句的「fought back」指「反抗／反擊；或努力抑制強烈情緒」。",
+        "back-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-51"
     },
@@ -4681,11 +4265,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "back-mcq-51",
-        "back-mcq-50",
-        "back-mcq-52",
-        "back-mcq-49",
-        "back-mcq-48",
-        "back-mcq-47"
+        "back-mcq-32",
+        "back-mcq-21",
+        "back-mcq-33"
       ],
       "explanation": "本句的「fought back tears」指「反抗／反擊；或努力抑制強烈情緒」。",
       "sentenceIndex": 112,
@@ -4694,12 +4276,10 @@ export default {
         "fought back tears"
       ],
       "optionReasons": {
-        "back-mcq-51": "本句指「反抗／反擊；或努力抑制強烈情緒」。",
-        "back-mcq-50": "「之前應付但尚未支付的工資」是「56. back pay（補發薪酬） — 欠薪；補發工資」的用法，與本句語境不同。",
-        "back-mcq-52": "「以被視為不尊重的方式反駁有權威的人」是「60. answer/talk back（頂嘴） — 頂嘴；反駁」的用法，與本句語境不同。",
-        "back-mcq-49": "「表示與之前／過去時期有關的」是「55. back = adjective: previous/older issue（以前的／舊的） — 過去的；舊期的」的用法，與本句語境不同。",
-        "back-mcq-48": "「表示在排名、位置或進度上較後」是「52. back = earlier position in ranking/progress（落後） — 在後；落後」的用法，與本句語境不同。",
-        "back-mcq-47": "「對之前收到的聯絡作出回應」是「41. write/text/email back（回覆） — 回信；回訊息」的用法，與本句語境不同。"
+        "back-mcq-51": "本句的「fought back tears」指「反抗／反擊；或努力抑制強烈情緒」。",
+        "back-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-51"
     },
@@ -4711,11 +4291,9 @@ export default {
       "masked": "Don’t ____ to your manager like that.",
       "options": [
         "back-mcq-52",
-        "back-mcq-51",
-        "back-mcq-50",
-        "back-mcq-49",
-        "back-mcq-48",
-        "back-mcq-47"
+        "back-mcq-28",
+        "back-mcq-44",
+        "back-mcq-41"
       ],
       "explanation": "本句的「talk back」指「以被視為不尊重的方式反駁有權威的人」。",
       "sentenceIndex": 113,
@@ -4724,12 +4302,10 @@ export default {
         "talk back"
       ],
       "optionReasons": {
-        "back-mcq-52": "本句指「以被視為不尊重的方式反駁有權威的人」。",
-        "back-mcq-51": "「反抗／反擊；或努力抑制強烈情緒」是「59. fight back（反擊／忍住情緒） — 反擊；抵抗」的用法，與本句語境不同。",
-        "back-mcq-50": "「之前應付但尚未支付的工資」是「56. back pay（補發薪酬） — 欠薪；補發工資」的用法，與本句語境不同。",
-        "back-mcq-49": "「表示與之前／過去時期有關的」是「55. back = adjective: previous/older issue（以前的／舊的） — 過去的；舊期的」的用法，與本句語境不同。",
-        "back-mcq-48": "「表示在排名、位置或進度上較後」是「52. back = earlier position in ranking/progress（落後） — 在後；落後」的用法，與本句語境不同。",
-        "back-mcq-47": "「對之前收到的聯絡作出回應」是「41. write/text/email back（回覆） — 回信；回訊息」的用法，與本句語境不同。"
+        "back-mcq-52": "本句的「talk back」指「以被視為不尊重的方式反駁有權威的人」。",
+        "back-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-52"
     },
@@ -4741,11 +4317,9 @@ export default {
       "masked": "The child ____.",
       "options": [
         "back-mcq-52",
-        "back-mcq-51",
-        "back-mcq-50",
-        "back-mcq-49",
-        "back-mcq-48",
-        "back-mcq-47"
+        "back-mcq-07",
+        "back-pdf-002",
+        "back-mcq-05"
       ],
       "explanation": "本句的「answered back」指「以被視為不尊重的方式反駁有權威的人」。",
       "sentenceIndex": 114,
@@ -4754,12 +4328,10 @@ export default {
         "answered back"
       ],
       "optionReasons": {
-        "back-mcq-52": "本句指「以被視為不尊重的方式反駁有權威的人」。",
-        "back-mcq-51": "「反抗／反擊；或努力抑制強烈情緒」是「59. fight back（反擊／忍住情緒） — 反擊；抵抗」的用法，與本句語境不同。",
-        "back-mcq-50": "「之前應付但尚未支付的工資」是「56. back pay（補發薪酬） — 欠薪；補發工資」的用法，與本句語境不同。",
-        "back-mcq-49": "「表示與之前／過去時期有關的」是「55. back = adjective: previous/older issue（以前的／舊的） — 過去的；舊期的」的用法，與本句語境不同。",
-        "back-mcq-48": "「表示在排名、位置或進度上較後」是「52. back = earlier position in ranking/progress（落後） — 在後；落後」的用法，與本句語境不同。",
-        "back-mcq-47": "「對之前收到的聯絡作出回應」是「41. write/text/email back（回覆） — 回信；回訊息」的用法，與本句語境不同。"
+        "back-mcq-52": "本句的「answered back」指「以被視為不尊重的方式反駁有權威的人」。",
+        "back-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-52"
     },
@@ -4771,11 +4343,9 @@ export default {
       "masked": "She took a step ____.",
       "options": [
         "back-mcq-41",
-        "back-mcq-40",
-        "back-mcq-42",
-        "back-mcq-39",
-        "back-mcq-43",
-        "back-mcq-38"
+        "back-mcq-28",
+        "back-mcq-35",
+        "back-mcq-26"
       ],
       "explanation": "本句的「backwards」指「朝後方方向；比喻上亦可指倒退」。",
       "sentenceIndex": 115,
@@ -4784,12 +4354,10 @@ export default {
         "backwards"
       ],
       "optionReasons": {
-        "back-mcq-41": "本句指「朝後方方向；比喻上亦可指倒退」。",
-        "back-mcq-40": "「主要方法失敗時退而依靠後備資源」是「fall back on」的用法，與本句語境不同。",
-        "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
-        "back-mcq-43": "「形成某人身份／能力的教育、經歷、文化或家庭背景」是「background — personal」的用法，與本句語境不同。",
-        "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。"
+        "back-mcq-41": "本句的「backwards」指「朝後方方向；比喻上亦可指倒退」。",
+        "back-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-41"
     },
@@ -4801,11 +4369,9 @@ export default {
       "masked": "The chair tilted ____.",
       "options": [
         "back-mcq-41",
-        "back-mcq-40",
-        "back-mcq-42",
-        "back-mcq-39",
-        "back-mcq-43",
-        "back-mcq-38"
+        "back-mcq-05",
+        "back-mcq-49",
+        "back-mcq-07"
       ],
       "explanation": "本句的「backward」指「朝後方方向；比喻上亦可指倒退」。",
       "sentenceIndex": 116,
@@ -4814,12 +4380,10 @@ export default {
         "backward"
       ],
       "optionReasons": {
-        "back-mcq-41": "本句指「朝後方方向；比喻上亦可指倒退」。",
-        "back-mcq-40": "「主要方法失敗時退而依靠後備資源」是「fall back on」的用法，與本句語境不同。",
-        "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
-        "back-mcq-43": "「形成某人身份／能力的教育、經歷、文化或家庭背景」是「background — personal」的用法，與本句語境不同。",
-        "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。"
+        "back-mcq-41": "本句的「backward」指「朝後方方向；比喻上亦可指倒退」。",
+        "back-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-41"
     },
@@ -4831,11 +4395,9 @@ export default {
       "masked": "The change would be a ____.",
       "options": [
         "back-pdf-005",
-        "back-mcq-40",
-        "back-mcq-42",
-        "back-mcq-39",
-        "back-mcq-43",
-        "back-mcq-38"
+        "back-mcq-49",
+        "back-mcq-35",
+        "back-mcq-45"
       ],
       "explanation": "本句的「backward step」指「朝較差／較舊／較不發達狀態發展的」。",
       "sentenceIndex": 117,
@@ -4844,12 +4406,10 @@ export default {
         "backward step"
       ],
       "optionReasons": {
-        "back-pdf-005": "本句指「朝較差／較舊／較不發達狀態發展的」。",
-        "back-mcq-40": "「主要方法失敗時退而依靠後備資源」是「fall back on」的用法，與本句語境不同。",
-        "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
-        "back-mcq-43": "「形成某人身份／能力的教育、經歷、文化或家庭背景」是「background — personal」的用法，與本句語境不同。",
-        "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。"
+        "back-pdf-005": "本句的「backward step」指「朝較差／較舊／較不發達狀態發展的」。",
+        "back-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-pdf-005"
     },
@@ -4861,11 +4421,9 @@ export default {
       "masked": "The system was considered outdated and ____.",
       "options": [
         "back-pdf-005",
-        "back-mcq-40",
-        "back-mcq-42",
-        "back-mcq-39",
-        "back-mcq-43",
-        "back-mcq-38"
+        "back-pdf-004",
+        "back-mcq-22",
+        "back-mcq-35"
       ],
       "explanation": "本句的「backward」指「朝較差／較舊／較不發達狀態發展的」。",
       "sentenceIndex": 118,
@@ -4874,12 +4432,10 @@ export default {
         "backward"
       ],
       "optionReasons": {
-        "back-pdf-005": "本句指「朝較差／較舊／較不發達狀態發展的」。",
-        "back-mcq-40": "「主要方法失敗時退而依靠後備資源」是「fall back on」的用法，與本句語境不同。",
-        "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。",
-        "back-mcq-43": "「形成某人身份／能力的教育、經歷、文化或家庭背景」是「background — personal」的用法，與本句語境不同。",
-        "back-mcq-38": "「小心意料之外的危險、背叛或問題」是「watch your back」的用法，與本句語境不同。"
+        "back-pdf-005": "本句的「backward」指「朝較差／較舊／較不發達狀態發展的」。",
+        "back-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-pdf-005"
     },
@@ -4891,11 +4447,9 @@ export default {
       "masked": "The slides had a dark ____.",
       "options": [
         "back-mcq-42",
-        "back-mcq-41",
-        "back-mcq-43",
-        "back-mcq-40",
-        "back-mcq-44",
-        "back-mcq-39"
+        "back-mcq-45",
+        "back-mcq-47",
+        "back-mcq-36"
       ],
       "explanation": "本句的「background」指「位於主要對象後方／次要位置的視覺或聲音部分」。",
       "sentenceIndex": 119,
@@ -4904,12 +4458,10 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "back-mcq-42": "本句指「位於主要對象後方／次要位置的視覺或聲音部分」。",
-        "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。",
-        "back-mcq-43": "「形成某人身份／能力的教育、經歷、文化或家庭背景」是「background — personal」的用法，與本句語境不同。",
-        "back-mcq-40": "「主要方法失敗時退而依靠後備資源」是「fall back on」的用法，與本句語境不同。",
-        "back-mcq-44": "「公開或實際表示支持某個提議／方案」是「19. back a proposal/plan（支持方案） — 支持；贊成」的用法，與本句語境不同。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。"
+        "back-mcq-42": "本句的「background」指「位於主要對象後方／次要位置的視覺或聲音部分」。",
+        "back-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-42"
     },
@@ -4921,11 +4473,9 @@ export default {
       "masked": "She has a technical ____.",
       "options": [
         "back-mcq-42",
-        "back-mcq-41",
-        "back-mcq-43",
-        "back-mcq-40",
-        "back-mcq-44",
-        "back-mcq-39"
+        "back-mcq-51",
+        "back-mcq-25",
+        "back-mcq-23"
       ],
       "explanation": "本句的「background」指「位於主要對象後方／次要位置的視覺或聲音部分」。",
       "sentenceIndex": 120,
@@ -4934,12 +4484,10 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "back-mcq-42": "本句指「位於主要對象後方／次要位置的視覺或聲音部分」。",
-        "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。",
-        "back-mcq-43": "「形成某人身份／能力的教育、經歷、文化或家庭背景」是「background — personal」的用法，與本句語境不同。",
-        "back-mcq-40": "「主要方法失敗時退而依靠後備資源」是「fall back on」的用法，與本句語境不同。",
-        "back-mcq-44": "「公開或實際表示支持某個提議／方案」是「19. back a proposal/plan（支持方案） — 支持；贊成」的用法，與本句語境不同。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。"
+        "back-mcq-42": "本句的「background」指「位於主要對象後方／次要位置的視覺或聲音部分」。",
+        "back-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-42"
     },
@@ -4951,11 +4499,9 @@ export default {
       "masked": "He has a strong business ____.",
       "options": [
         "back-mcq-43",
-        "back-mcq-42",
-        "back-mcq-44",
-        "back-mcq-41",
-        "back-mcq-45",
-        "back-mcq-40"
+        "back-pdf-004",
+        "back-mcq-32",
+        "back-pdf-003"
       ],
       "explanation": "本句的「background」指「形成某人身份／能力的教育、經歷、文化或家庭背景」。",
       "sentenceIndex": 121,
@@ -4964,12 +4510,10 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "back-mcq-43": "本句指「形成某人身份／能力的教育、經歷、文化或家庭背景」。",
-        "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
-        "back-mcq-44": "「公開或實際表示支持某個提議／方案」是「19. back a proposal/plan（支持方案） — 支持；贊成」的用法，與本句語境不同。",
-        "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。",
-        "back-mcq-45": "「返回先前正在做／談論的事情」是「34. back = return to a previous topic/activity（回到） — 回到；重新開始」的用法，與本句語境不同。",
-        "back-mcq-40": "「主要方法失敗時退而依靠後備資源」是「fall back on」的用法，與本句語境不同。"
+        "back-mcq-43": "本句的「background」指「形成某人身份／能力的教育、經歷、文化或家庭背景」。",
+        "back-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-43"
     },
@@ -4981,11 +4525,9 @@ export default {
       "masked": "People from different cultural ____ attended.",
       "options": [
         "back-mcq-43",
-        "back-mcq-42",
+        "back-mcq-49",
         "back-mcq-44",
-        "back-mcq-41",
-        "back-mcq-45",
-        "back-mcq-40"
+        "back-mcq-23"
       ],
       "explanation": "本句的「backgrounds」指「形成某人身份／能力的教育、經歷、文化或家庭背景」。",
       "sentenceIndex": 122,
@@ -4994,12 +4536,10 @@ export default {
         "backgrounds"
       ],
       "optionReasons": {
-        "back-mcq-43": "本句指「形成某人身份／能力的教育、經歷、文化或家庭背景」。",
-        "back-mcq-42": "「位於主要對象後方／次要位置的視覺或聲音部分」是「background — visual」的用法，與本句語境不同。",
-        "back-mcq-44": "「公開或實際表示支持某個提議／方案」是「19. back a proposal/plan（支持方案） — 支持；贊成」的用法，與本句語境不同。",
-        "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。",
-        "back-mcq-45": "「返回先前正在做／談論的事情」是「34. back = return to a previous topic/activity（回到） — 回到；重新開始」的用法，與本句語境不同。",
-        "back-mcq-40": "「主要方法失敗時退而依靠後備資源」是「fall back on」的用法，與本句語境不同。"
+        "back-mcq-43": "本句的「backgrounds」指「形成某人身份／能力的教育、經歷、文化或家庭背景」。",
+        "back-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-43"
     },
@@ -5011,11 +4551,9 @@ export default {
       "masked": "There was noise in the ____.",
       "options": [
         "back-mcq-42",
-        "back-mcq-41",
-        "back-mcq-43",
-        "back-mcq-40",
-        "back-mcq-44",
-        "back-mcq-39"
+        "back-mcq-32",
+        "back-pdf-004",
+        "back-mcq-21"
       ],
       "explanation": "本句的「background」指「位於主要對象後方／次要位置的視覺或聲音部分」。",
       "sentenceIndex": 123,
@@ -5024,12 +4562,10 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "back-mcq-42": "本句指「位於主要對象後方／次要位置的視覺或聲音部分」。",
-        "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。",
-        "back-mcq-43": "「形成某人身份／能力的教育、經歷、文化或家庭背景」是「background — personal」的用法，與本句語境不同。",
-        "back-mcq-40": "「主要方法失敗時退而依靠後備資源」是「fall back on」的用法，與本句語境不同。",
-        "back-mcq-44": "「公開或實際表示支持某個提議／方案」是「19. back a proposal/plan（支持方案） — 支持；贊成」的用法，與本句語境不同。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。"
+        "back-mcq-42": "本句的「background」指「位於主要對象後方／次要位置的視覺或聲音部分」。",
+        "back-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "back-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-42"
     },
@@ -5041,11 +4577,9 @@ export default {
       "masked": "The chart appears against a white ____.",
       "options": [
         "back-mcq-42",
-        "back-mcq-41",
-        "back-mcq-43",
-        "back-mcq-40",
-        "back-mcq-44",
-        "back-mcq-39"
+        "back-mcq-01",
+        "back-mcq-38",
+        "back-mcq-45"
       ],
       "explanation": "本句的「background」指「位於主要對象後方／次要位置的視覺或聲音部分」。",
       "sentenceIndex": 124,
@@ -5054,12 +4588,10 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "back-mcq-42": "本句指「位於主要對象後方／次要位置的視覺或聲音部分」。",
-        "back-mcq-41": "「朝後方方向；比喻上亦可指倒退」是「backward(s)」的用法，與本句語境不同。",
-        "back-mcq-43": "「形成某人身份／能力的教育、經歷、文化或家庭背景」是「background — personal」的用法，與本句語境不同。",
-        "back-mcq-40": "「主要方法失敗時退而依靠後備資源」是「fall back on」的用法，與本句語境不同。",
-        "back-mcq-44": "「公開或實際表示支持某個提議／方案」是「19. back a proposal/plan（支持方案） — 支持；贊成」的用法，與本句語境不同。",
-        "back-mcq-39": "「實際拍背，或比喻上給予讚賞／肯定」是「pat on the back」的用法，與本句語境不同。"
+        "back-mcq-42": "本句的「background」指「位於主要對象後方／次要位置的視覺或聲音部分」。",
+        "back-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "back-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "back-mcq-42"
     }
@@ -5071,5 +4603,7 @@ export default {
     "sha256": "26d20706b883c93b128697607cbaa9187de419da02081f5e74562c059363109a",
     "pages": 44
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

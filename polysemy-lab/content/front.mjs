@@ -723,11 +723,7 @@ export default {
       "masked": "I had to speak ____ about two hundred colleagues.",
       "options": [
         "front-mcq-01",
-        "front-mcq-02",
-        "front-mcq-03",
-        "front-mcq-04",
-        "front-mcq-05",
-        "front-mcq-06"
+        "front-mcq-32"
       ],
       "explanation": "本句的「in front of」指「處於某人／某物前方，通常面向對方或位於對方可直接看見的位置」。",
       "sentenceIndex": 0,
@@ -736,12 +732,8 @@ export default {
         "in front of"
       ],
       "optionReasons": {
-        "front-mcq-01": "本句指「處於某人／某物前方，通常面向對方或位於對方可直接看見的位置」。",
-        "front-mcq-02": "「某物朝向前方或主要外側的一面／部分」是「the front — physical part」的用法，與本句語境不同。",
-        "front-mcq-03": "「位於某物前方或前部位置的」是「front + noun」的用法，與本句語境不同。",
-        "front-mcq-04": "「處於某個空間、隊伍或群體最前方的位置」是「at the front」的用法，與本句語境不同。",
-        "front-mcq-05": "「房間中面向觀眾／學生的主要前方位置」是「front of the room」的用法，與本句語境不同。",
-        "front-mcq-06": "「面向外界、最容易被看見的主要外側表面」是「front — visible side」的用法，與本句語境不同。"
+        "front-mcq-01": "本句的「in front of」指「處於某人／某物前方，通常面向對方或位於對方可直接看見的位置」。",
+        "front-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-01"
     },
@@ -753,11 +745,7 @@ export default {
       "masked": "She stood ____ the audience and began her presentation.",
       "options": [
         "front-mcq-01",
-        "front-mcq-02",
-        "front-mcq-03",
-        "front-mcq-04",
-        "front-mcq-05",
-        "front-mcq-06"
+        "front-mcq-32"
       ],
       "explanation": "本句的「in front of」指「處於某人／某物前方，通常面向對方或位於對方可直接看見的位置」。",
       "sentenceIndex": 1,
@@ -766,12 +754,8 @@ export default {
         "in front of"
       ],
       "optionReasons": {
-        "front-mcq-01": "本句指「處於某人／某物前方，通常面向對方或位於對方可直接看見的位置」。",
-        "front-mcq-02": "「某物朝向前方或主要外側的一面／部分」是「the front — physical part」的用法，與本句語境不同。",
-        "front-mcq-03": "「位於某物前方或前部位置的」是「front + noun」的用法，與本句語境不同。",
-        "front-mcq-04": "「處於某個空間、隊伍或群體最前方的位置」是「at the front」的用法，與本句語境不同。",
-        "front-mcq-05": "「房間中面向觀眾／學生的主要前方位置」是「front of the room」的用法，與本句語境不同。",
-        "front-mcq-06": "「面向外界、最容易被看見的主要外側表面」是「front — visible side」的用法，與本句語境不同。"
+        "front-mcq-01": "本句的「in front of」指「處於某人／某物前方，通常面向對方或位於對方可直接看見的位置」。",
+        "front-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-01"
     },
@@ -783,11 +767,7 @@ export default {
       "masked": "A car stopped ____ the building.",
       "options": [
         "front-mcq-01",
-        "front-mcq-02",
-        "front-mcq-03",
-        "front-mcq-04",
-        "front-mcq-05",
-        "front-mcq-06"
+        "front-mcq-20"
       ],
       "explanation": "本句的「in front of」指「處於某人／某物前方，通常面向對方或位於對方可直接看見的位置」。",
       "sentenceIndex": 2,
@@ -796,12 +776,8 @@ export default {
         "in front of"
       ],
       "optionReasons": {
-        "front-mcq-01": "本句指「處於某人／某物前方，通常面向對方或位於對方可直接看見的位置」。",
-        "front-mcq-02": "「某物朝向前方或主要外側的一面／部分」是「the front — physical part」的用法，與本句語境不同。",
-        "front-mcq-03": "「位於某物前方或前部位置的」是「front + noun」的用法，與本句語境不同。",
-        "front-mcq-04": "「處於某個空間、隊伍或群體最前方的位置」是「at the front」的用法，與本句語境不同。",
-        "front-mcq-05": "「房間中面向觀眾／學生的主要前方位置」是「front of the room」的用法，與本句語境不同。",
-        "front-mcq-06": "「面向外界、最容易被看見的主要外側表面」是「front — visible side」的用法，與本句語境不同。"
+        "front-mcq-01": "本句的「in front of」指「處於某人／某物前方，通常面向對方或位於對方可直接看見的位置」。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-01"
     },
@@ -813,11 +789,9 @@ export default {
       "masked": "The logo is printed on the ____ of the folder.",
       "options": [
         "front-mcq-02",
-        "front-mcq-01",
-        "front-mcq-03",
-        "front-mcq-04",
-        "front-mcq-05",
-        "front-mcq-06"
+        "front-mcq-22",
+        "front-mcq-32",
+        "front-mcq-31"
       ],
       "explanation": "本句的「front」指「某物朝向前方或主要外側的一面／部分」。",
       "sentenceIndex": 3,
@@ -826,12 +800,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-02": "本句指「某物朝向前方或主要外側的一面／部分」。",
-        "front-mcq-01": "「處於某人／某物前方，通常面向對方或位於對方可直接看見的位置」是「in front of」的用法，與本句語境不同。",
-        "front-mcq-03": "「位於某物前方或前部位置的」是「front + noun」的用法，與本句語境不同。",
-        "front-mcq-04": "「處於某個空間、隊伍或群體最前方的位置」是「at the front」的用法，與本句語境不同。",
-        "front-mcq-05": "「房間中面向觀眾／學生的主要前方位置」是「front of the room」的用法，與本句語境不同。",
-        "front-mcq-06": "「面向外界、最容易被看見的主要外側表面」是「front — visible side」的用法，與本句語境不同。"
+        "front-mcq-02": "本句的「front」指「某物朝向前方或主要外側的一面／部分」。",
+        "front-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-02"
     },
@@ -843,11 +815,9 @@ export default {
       "masked": "There is a small garden at the ____ of the house.",
       "options": [
         "front-mcq-02",
-        "front-mcq-01",
-        "front-mcq-03",
-        "front-mcq-04",
-        "front-mcq-05",
-        "front-mcq-06"
+        "front-mcq-14",
+        "front-mcq-29",
+        "front-mcq-17"
       ],
       "explanation": "本句的「front」指「某物朝向前方或主要外側的一面／部分」。",
       "sentenceIndex": 4,
@@ -856,12 +826,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-02": "本句指「某物朝向前方或主要外側的一面／部分」。",
-        "front-mcq-01": "「處於某人／某物前方，通常面向對方或位於對方可直接看見的位置」是「in front of」的用法，與本句語境不同。",
-        "front-mcq-03": "「位於某物前方或前部位置的」是「front + noun」的用法，與本句語境不同。",
-        "front-mcq-04": "「處於某個空間、隊伍或群體最前方的位置」是「at the front」的用法，與本句語境不同。",
-        "front-mcq-05": "「房間中面向觀眾／學生的主要前方位置」是「front of the room」的用法，與本句語境不同。",
-        "front-mcq-06": "「面向外界、最容易被看見的主要外側表面」是「front — visible side」的用法，與本句語境不同。"
+        "front-mcq-02": "本句的「front」指「某物朝向前方或主要外側的一面／部分」。",
+        "front-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-02"
     },
@@ -873,11 +841,9 @@ export default {
       "masked": "Please use the ____.",
       "options": [
         "front-mcq-03",
-        "front-mcq-02",
-        "front-mcq-04",
-        "front-mcq-01",
-        "front-mcq-05",
-        "front-mcq-06"
+        "front-mcq-06",
+        "front-mcq-33",
+        "front-mcq-20"
       ],
       "explanation": "本句的「front door」指「位於某物前方或前部位置的」。",
       "sentenceIndex": 5,
@@ -886,12 +852,10 @@ export default {
         "front door"
       ],
       "optionReasons": {
-        "front-mcq-03": "本句指「位於某物前方或前部位置的」。",
-        "front-mcq-02": "「某物朝向前方或主要外側的一面／部分」是「the front — physical part」的用法，與本句語境不同。",
-        "front-mcq-04": "「處於某個空間、隊伍或群體最前方的位置」是「at the front」的用法，與本句語境不同。",
-        "front-mcq-01": "「處於某人／某物前方，通常面向對方或位於對方可直接看見的位置」是「in front of」的用法，與本句語境不同。",
-        "front-mcq-05": "「房間中面向觀眾／學生的主要前方位置」是「front of the room」的用法，與本句語境不同。",
-        "front-mcq-06": "「面向外界、最容易被看見的主要外側表面」是「front — visible side」的用法，與本句語境不同。"
+        "front-mcq-03": "本句的「front door」指「位於某物前方或前部位置的」。",
+        "front-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-03"
     },
@@ -903,11 +867,9 @@ export default {
       "masked": "We sat in the ____.",
       "options": [
         "front-mcq-03",
-        "front-mcq-02",
-        "front-mcq-04",
-        "front-mcq-01",
-        "front-mcq-05",
-        "front-mcq-06"
+        "front-mcq-27",
+        "front-mcq-33",
+        "front-mcq-29"
       ],
       "explanation": "本句的「front row」指「位於某物前方或前部位置的」。",
       "sentenceIndex": 6,
@@ -916,12 +878,10 @@ export default {
         "front row"
       ],
       "optionReasons": {
-        "front-mcq-03": "本句指「位於某物前方或前部位置的」。",
-        "front-mcq-02": "「某物朝向前方或主要外側的一面／部分」是「the front — physical part」的用法，與本句語境不同。",
-        "front-mcq-04": "「處於某個空間、隊伍或群體最前方的位置」是「at the front」的用法，與本句語境不同。",
-        "front-mcq-01": "「處於某人／某物前方，通常面向對方或位於對方可直接看見的位置」是「in front of」的用法，與本句語境不同。",
-        "front-mcq-05": "「房間中面向觀眾／學生的主要前方位置」是「front of the room」的用法，與本句語境不同。",
-        "front-mcq-06": "「面向外界、最容易被看見的主要外側表面」是「front — visible side」的用法，與本句語境不同。"
+        "front-mcq-03": "本句的「front row」指「位於某物前方或前部位置的」。",
+        "front-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-03"
     },
@@ -933,11 +893,9 @@ export default {
       "masked": "The senior managers were sitting ____.",
       "options": [
         "front-mcq-04",
-        "front-mcq-03",
-        "front-mcq-05",
-        "front-mcq-02",
-        "front-mcq-06",
-        "front-mcq-01"
+        "front-mcq-30",
+        "front-mcq-22",
+        "front-mcq-32"
       ],
       "explanation": "本句的「at the front」指「處於某個空間、隊伍或群體最前方的位置」。",
       "sentenceIndex": 7,
@@ -946,12 +904,10 @@ export default {
         "at the front"
       ],
       "optionReasons": {
-        "front-mcq-04": "本句指「處於某個空間、隊伍或群體最前方的位置」。",
-        "front-mcq-03": "「位於某物前方或前部位置的」是「front + noun」的用法，與本句語境不同。",
-        "front-mcq-05": "「房間中面向觀眾／學生的主要前方位置」是「front of the room」的用法，與本句語境不同。",
-        "front-mcq-02": "「某物朝向前方或主要外側的一面／部分」是「the front — physical part」的用法，與本句語境不同。",
-        "front-mcq-06": "「面向外界、最容易被看見的主要外側表面」是「front — visible side」的用法，與本句語境不同。",
-        "front-mcq-01": "「處於某人／某物前方，通常面向對方或位於對方可直接看見的位置」是「in front of」的用法，與本句語境不同。"
+        "front-mcq-04": "本句的「at the front」指「處於某個空間、隊伍或群體最前方的位置」。",
+        "front-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-04"
     },
@@ -963,11 +919,9 @@ export default {
       "masked": "Please leave your name badge at the desk ____.",
       "options": [
         "front-mcq-04",
-        "front-mcq-03",
-        "front-mcq-05",
-        "front-mcq-02",
-        "front-mcq-06",
-        "front-mcq-01"
+        "front-mcq-30",
+        "front-mcq-22",
+        "front-mcq-12"
       ],
       "explanation": "本句的「at the front」指「處於某個空間、隊伍或群體最前方的位置」。",
       "sentenceIndex": 8,
@@ -976,12 +930,10 @@ export default {
         "at the front"
       ],
       "optionReasons": {
-        "front-mcq-04": "本句指「處於某個空間、隊伍或群體最前方的位置」。",
-        "front-mcq-03": "「位於某物前方或前部位置的」是「front + noun」的用法，與本句語境不同。",
-        "front-mcq-05": "「房間中面向觀眾／學生的主要前方位置」是「front of the room」的用法，與本句語境不同。",
-        "front-mcq-02": "「某物朝向前方或主要外側的一面／部分」是「the front — physical part」的用法，與本句語境不同。",
-        "front-mcq-06": "「面向外界、最容易被看見的主要外側表面」是「front — visible side」的用法，與本句語境不同。",
-        "front-mcq-01": "「處於某人／某物前方，通常面向對方或位於對方可直接看見的位置」是「in front of」的用法，與本句語境不同。"
+        "front-mcq-04": "本句的「at the front」指「處於某個空間、隊伍或群體最前方的位置」。",
+        "front-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-04"
     },
@@ -993,11 +945,9 @@ export default {
       "masked": "She walked to the ____.",
       "options": [
         "front-mcq-05",
-        "front-mcq-04",
-        "front-mcq-06",
-        "front-mcq-03",
-        "front-mcq-07",
-        "front-mcq-02"
+        "front-mcq-08",
+        "front-mcq-16",
+        "front-mcq-29"
       ],
       "explanation": "本句的「front of the room」指「房間中面向觀眾／學生的主要前方位置」。",
       "sentenceIndex": 9,
@@ -1006,12 +956,10 @@ export default {
         "front of the room"
       ],
       "optionReasons": {
-        "front-mcq-05": "本句指「房間中面向觀眾／學生的主要前方位置」。",
-        "front-mcq-04": "「處於某個空間、隊伍或群體最前方的位置」是「at the front」的用法，與本句語境不同。",
-        "front-mcq-06": "「面向外界、最容易被看見的主要外側表面」是「front — visible side」的用法，與本句語境不同。",
-        "front-mcq-03": "「位於某物前方或前部位置的」是「front + noun」的用法，與本句語境不同。",
-        "front-mcq-07": "「報紙最前面、通常放置最重要新聞的版面」是「front page」的用法，與本句語境不同。",
-        "front-mcq-02": "「某物朝向前方或主要外側的一面／部分」是「the front — physical part」的用法，與本句語境不同。"
+        "front-mcq-05": "本句的「front of the room」指「房間中面向觀眾／學生的主要前方位置」。",
+        "front-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-05"
     },
@@ -1023,11 +971,9 @@ export default {
       "masked": "The screen is at the ____.",
       "options": [
         "front-mcq-05",
-        "front-mcq-04",
-        "front-mcq-06",
-        "front-mcq-03",
-        "front-mcq-07",
-        "front-mcq-02"
+        "front-mcq-32",
+        "front-mcq-16",
+        "front-mcq-08"
       ],
       "explanation": "本句的「front of the classroom」指「房間中面向觀眾／學生的主要前方位置」。",
       "sentenceIndex": 10,
@@ -1036,12 +982,10 @@ export default {
         "front of the classroom"
       ],
       "optionReasons": {
-        "front-mcq-05": "本句指「房間中面向觀眾／學生的主要前方位置」。",
-        "front-mcq-04": "「處於某個空間、隊伍或群體最前方的位置」是「at the front」的用法，與本句語境不同。",
-        "front-mcq-06": "「面向外界、最容易被看見的主要外側表面」是「front — visible side」的用法，與本句語境不同。",
-        "front-mcq-03": "「位於某物前方或前部位置的」是「front + noun」的用法，與本句語境不同。",
-        "front-mcq-07": "「報紙最前面、通常放置最重要新聞的版面」是「front page」的用法，與本句語境不同。",
-        "front-mcq-02": "「某物朝向前方或主要外側的一面／部分」是「the front — physical part」的用法，與本句語境不同。"
+        "front-mcq-05": "本句的「front of the classroom」指「房間中面向觀眾／學生的主要前方位置」。",
+        "front-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-05"
     },
@@ -1053,11 +997,9 @@ export default {
       "masked": "The ____ of the building was covered in glass.",
       "options": [
         "front-mcq-06",
-        "front-mcq-05",
-        "front-mcq-07",
-        "front-mcq-04",
+        "front-mcq-19",
         "front-mcq-08",
-        "front-mcq-03"
+        "front-mcq-28"
       ],
       "explanation": "本句的「front」指「面向外界、最容易被看見的主要外側表面」。",
       "sentenceIndex": 11,
@@ -1066,12 +1008,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-06": "本句指「面向外界、最容易被看見的主要外側表面」。",
-        "front-mcq-05": "「房間中面向觀眾／學生的主要前方位置」是「front of the room」的用法，與本句語境不同。",
-        "front-mcq-07": "「報紙最前面、通常放置最重要新聞的版面」是「front page」的用法，與本句語境不同。",
-        "front-mcq-04": "「處於某個空間、隊伍或群體最前方的位置」是「at the front」的用法，與本句語境不同。",
-        "front-mcq-08": "「酒店、辦公室或機構入口附近負責接待訪客的櫃檯／部門」是「front desk」的用法，與本句語境不同。",
-        "front-mcq-03": "「位於某物前方或前部位置的」是「front + noun」的用法，與本句語境不同。"
+        "front-mcq-06": "本句的「front」指「面向外界、最容易被看見的主要外側表面」。",
+        "front-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-06"
     },
@@ -1083,11 +1023,9 @@ export default {
       "masked": "There is a large sign on the ____ of the shop.",
       "options": [
         "front-mcq-06",
-        "front-mcq-05",
-        "front-mcq-07",
-        "front-mcq-04",
-        "front-mcq-08",
-        "front-mcq-03"
+        "front-mcq-13",
+        "front-mcq-28",
+        "front-mcq-08"
       ],
       "explanation": "本句的「front」指「面向外界、最容易被看見的主要外側表面」。",
       "sentenceIndex": 12,
@@ -1096,12 +1034,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-06": "本句指「面向外界、最容易被看見的主要外側表面」。",
-        "front-mcq-05": "「房間中面向觀眾／學生的主要前方位置」是「front of the room」的用法，與本句語境不同。",
-        "front-mcq-07": "「報紙最前面、通常放置最重要新聞的版面」是「front page」的用法，與本句語境不同。",
-        "front-mcq-04": "「處於某個空間、隊伍或群體最前方的位置」是「at the front」的用法，與本句語境不同。",
-        "front-mcq-08": "「酒店、辦公室或機構入口附近負責接待訪客的櫃檯／部門」是「front desk」的用法，與本句語境不同。",
-        "front-mcq-03": "「位於某物前方或前部位置的」是「front + noun」的用法，與本句語境不同。"
+        "front-mcq-06": "本句的「front」指「面向外界、最容易被看見的主要外側表面」。",
+        "front-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-06"
     },
@@ -1113,11 +1049,9 @@ export default {
       "masked": "The story appeared on the ____.",
       "options": [
         "front-mcq-07",
-        "front-mcq-06",
-        "front-mcq-08",
-        "front-mcq-05",
-        "front-mcq-09",
-        "front-mcq-04"
+        "front-mcq-22",
+        "front-mcq-29",
+        "front-mcq-31"
       ],
       "explanation": "本句的「front page」指「報紙最前面、通常放置最重要新聞的版面」。",
       "sentenceIndex": 13,
@@ -1126,12 +1060,10 @@ export default {
         "front page"
       ],
       "optionReasons": {
-        "front-mcq-07": "本句指「報紙最前面、通常放置最重要新聞的版面」。",
-        "front-mcq-06": "「面向外界、最容易被看見的主要外側表面」是「front — visible side」的用法，與本句語境不同。",
-        "front-mcq-08": "「酒店、辦公室或機構入口附近負責接待訪客的櫃檯／部門」是「front desk」的用法，與本句語境不同。",
-        "front-mcq-05": "「房間中面向觀眾／學生的主要前方位置」是「front of the room」的用法，與本句語境不同。",
-        "front-mcq-09": "「負責對外接觸／接待，或在某些行業中指管理決策的部門」是「front office」的用法，與本句語境不同。",
-        "front-mcq-04": "「處於某個空間、隊伍或群體最前方的位置」是「at the front」的用法，與本句語境不同。"
+        "front-mcq-07": "本句的「front page」指「報紙最前面、通常放置最重要新聞的版面」。",
+        "front-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-07"
     },
@@ -1143,11 +1075,9 @@ export default {
       "masked": "The scandal dominated the ____.",
       "options": [
         "front-mcq-07",
-        "front-mcq-06",
-        "front-mcq-08",
-        "front-mcq-05",
-        "front-mcq-09",
-        "front-mcq-04"
+        "front-mcq-31",
+        "front-mcq-22",
+        "front-mcq-32"
       ],
       "explanation": "本句的「front page」指「報紙最前面、通常放置最重要新聞的版面」。",
       "sentenceIndex": 14,
@@ -1156,12 +1086,10 @@ export default {
         "front page"
       ],
       "optionReasons": {
-        "front-mcq-07": "本句指「報紙最前面、通常放置最重要新聞的版面」。",
-        "front-mcq-06": "「面向外界、最容易被看見的主要外側表面」是「front — visible side」的用法，與本句語境不同。",
-        "front-mcq-08": "「酒店、辦公室或機構入口附近負責接待訪客的櫃檯／部門」是「front desk」的用法，與本句語境不同。",
-        "front-mcq-05": "「房間中面向觀眾／學生的主要前方位置」是「front of the room」的用法，與本句語境不同。",
-        "front-mcq-09": "「負責對外接觸／接待，或在某些行業中指管理決策的部門」是「front office」的用法，與本句語境不同。",
-        "front-mcq-04": "「處於某個空間、隊伍或群體最前方的位置」是「at the front」的用法，與本句語境不同。"
+        "front-mcq-07": "本句的「front page」指「報紙最前面、通常放置最重要新聞的版面」。",
+        "front-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-07"
     },
@@ -1173,11 +1101,9 @@ export default {
       "masked": "Please leave the key at the ____.",
       "options": [
         "front-mcq-08",
-        "front-mcq-07",
-        "front-mcq-09",
-        "front-mcq-06",
-        "front-mcq-10",
-        "front-mcq-05"
+        "front-mcq-27",
+        "front-mcq-13",
+        "front-mcq-20"
       ],
       "explanation": "本句的「front desk」指「酒店、辦公室或機構入口附近負責接待訪客的櫃檯／部門」。",
       "sentenceIndex": 15,
@@ -1186,12 +1112,10 @@ export default {
         "front desk"
       ],
       "optionReasons": {
-        "front-mcq-08": "本句指「酒店、辦公室或機構入口附近負責接待訪客的櫃檯／部門」。",
-        "front-mcq-07": "「報紙最前面、通常放置最重要新聞的版面」是「front page」的用法，與本句語境不同。",
-        "front-mcq-09": "「負責對外接觸／接待，或在某些行業中指管理決策的部門」是「front office」的用法，與本句語境不同。",
-        "front-mcq-06": "「面向外界、最容易被看見的主要外側表面」是「front — visible side」的用法，與本句語境不同。",
-        "front-mcq-10": "「與顧客／觀眾直接接觸的服務區域或工作」是「front of house」的用法，與本句語境不同。",
-        "front-mcq-05": "「房間中面向觀眾／學生的主要前方位置」是「front of the room」的用法，與本句語境不同。"
+        "front-mcq-08": "本句的「front desk」指「酒店、辦公室或機構入口附近負責接待訪客的櫃檯／部門」。",
+        "front-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-08"
     },
@@ -1203,11 +1127,9 @@ export default {
       "masked": "Ask the ____ if you need help.",
       "options": [
         "front-mcq-08",
-        "front-mcq-07",
-        "front-mcq-09",
-        "front-mcq-06",
-        "front-mcq-10",
-        "front-mcq-05"
+        "front-mcq-22",
+        "front-mcq-32",
+        "front-mcq-07"
       ],
       "explanation": "本句的「front desk」指「酒店、辦公室或機構入口附近負責接待訪客的櫃檯／部門」。",
       "sentenceIndex": 16,
@@ -1216,12 +1138,10 @@ export default {
         "front desk"
       ],
       "optionReasons": {
-        "front-mcq-08": "本句指「酒店、辦公室或機構入口附近負責接待訪客的櫃檯／部門」。",
-        "front-mcq-07": "「報紙最前面、通常放置最重要新聞的版面」是「front page」的用法，與本句語境不同。",
-        "front-mcq-09": "「負責對外接觸／接待，或在某些行業中指管理決策的部門」是「front office」的用法，與本句語境不同。",
-        "front-mcq-06": "「面向外界、最容易被看見的主要外側表面」是「front — visible side」的用法，與本句語境不同。",
-        "front-mcq-10": "「與顧客／觀眾直接接觸的服務區域或工作」是「front of house」的用法，與本句語境不同。",
-        "front-mcq-05": "「房間中面向觀眾／學生的主要前方位置」是「front of the room」的用法，與本句語境不同。"
+        "front-mcq-08": "本句的「front desk」指「酒店、辦公室或機構入口附近負責接待訪客的櫃檯／部門」。",
+        "front-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-08"
     },
@@ -1233,11 +1153,9 @@ export default {
       "masked": "She works ____ at the theatre.",
       "options": [
         "front-mcq-10",
-        "front-mcq-09",
-        "front-mcq-11",
-        "front-mcq-08",
-        "front-mcq-12",
-        "front-mcq-07"
+        "front-mcq-21",
+        "front-mcq-26",
+        "front-mcq-28"
       ],
       "explanation": "本句的「front of house」指「與顧客／觀眾直接接觸的服務區域或工作」。",
       "sentenceIndex": 17,
@@ -1246,12 +1164,10 @@ export default {
         "front of house"
       ],
       "optionReasons": {
-        "front-mcq-10": "本句指「與顧客／觀眾直接接觸的服務區域或工作」。",
-        "front-mcq-09": "「負責對外接觸／接待，或在某些行業中指管理決策的部門」是「front office」的用法，與本句語境不同。",
-        "front-mcq-11": "「最接近戰鬥、危機、顧客或主要問題現場的位置；前線／第一線」是「front line」的用法，與本句語境不同。",
-        "front-mcq-08": "「酒店、辦公室或機構入口附近負責接待訪客的櫃檯／部門」是「front desk」的用法，與本句語境不同。",
-        "front-mcq-12": "「直接面對顧客、病人、危機或主要工作現場的」是「front-line」的用法，與本句語境不同。",
-        "front-mcq-07": "「報紙最前面、通常放置最重要新聞的版面」是「front page」的用法，與本句語境不同。"
+        "front-mcq-10": "本句的「front of house」指「與顧客／觀眾直接接觸的服務區域或工作」。",
+        "front-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-10"
     },
@@ -1263,11 +1179,9 @@ export default {
       "masked": "The restaurant needs more ____.",
       "options": [
         "front-mcq-10",
-        "front-mcq-09",
-        "front-mcq-11",
-        "front-mcq-08",
-        "front-mcq-12",
-        "front-mcq-07"
+        "front-mcq-21",
+        "front-mcq-28",
+        "front-mcq-26"
       ],
       "explanation": "本句的「front-of-house staff」指「與顧客／觀眾直接接觸的服務區域或工作」。",
       "sentenceIndex": 18,
@@ -1276,12 +1190,10 @@ export default {
         "front-of-house staff"
       ],
       "optionReasons": {
-        "front-mcq-10": "本句指「與顧客／觀眾直接接觸的服務區域或工作」。",
-        "front-mcq-09": "「負責對外接觸／接待，或在某些行業中指管理決策的部門」是「front office」的用法，與本句語境不同。",
-        "front-mcq-11": "「最接近戰鬥、危機、顧客或主要問題現場的位置；前線／第一線」是「front line」的用法，與本句語境不同。",
-        "front-mcq-08": "「酒店、辦公室或機構入口附近負責接待訪客的櫃檯／部門」是「front desk」的用法，與本句語境不同。",
-        "front-mcq-12": "「直接面對顧客、病人、危機或主要工作現場的」是「front-line」的用法，與本句語境不同。",
-        "front-mcq-07": "「報紙最前面、通常放置最重要新聞的版面」是「front page」的用法，與本句語境不同。"
+        "front-mcq-10": "本句的「front-of-house staff」指「與顧客／觀眾直接接觸的服務區域或工作」。",
+        "front-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-10"
     },
@@ -1293,11 +1205,9 @@ export default {
       "masked": "Soldiers were sent to the ____.",
       "options": [
         "front-mcq-11",
-        "front-mcq-10",
-        "front-mcq-12",
-        "front-mcq-09",
-        "front-mcq-13",
-        "front-mcq-08"
+        "front-mcq-20",
+        "front-mcq-27",
+        "front-mcq-30"
       ],
       "explanation": "本句的「front line」指「最接近戰鬥、危機、顧客或主要問題現場的位置；前線／第一線」。",
       "sentenceIndex": 19,
@@ -1306,12 +1216,10 @@ export default {
         "front line"
       ],
       "optionReasons": {
-        "front-mcq-11": "本句指「最接近戰鬥、危機、顧客或主要問題現場的位置；前線／第一線」。",
-        "front-mcq-10": "「與顧客／觀眾直接接觸的服務區域或工作」是「front of house」的用法，與本句語境不同。",
-        "front-mcq-12": "「直接面對顧客、病人、危機或主要工作現場的」是「front-line」的用法，與本句語境不同。",
-        "front-mcq-09": "「負責對外接觸／接待，或在某些行業中指管理決策的部門」是「front office」的用法，與本句語境不同。",
-        "front-mcq-13": "「在某個領域、行動或發展中處於前列／領先位置」是「front — leading position」的用法，與本句語境不同。",
-        "front-mcq-08": "「酒店、辦公室或機構入口附近負責接待訪客的櫃檯／部門」是「front desk」的用法，與本句語境不同。"
+        "front-mcq-11": "本句的「front line」指「最接近戰鬥、危機、顧客或主要問題現場的位置；前線／第一線」。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-11"
     },
@@ -1323,11 +1231,9 @@ export default {
       "masked": "Nurses were on the ____ during the crisis.",
       "options": [
         "front-mcq-11",
-        "front-mcq-10",
-        "front-mcq-12",
-        "front-mcq-09",
-        "front-mcq-13",
-        "front-mcq-08"
+        "front-mcq-30",
+        "front-mcq-20",
+        "front-mcq-17"
       ],
       "explanation": "本句的「front line」指「最接近戰鬥、危機、顧客或主要問題現場的位置；前線／第一線」。",
       "sentenceIndex": 20,
@@ -1336,12 +1242,10 @@ export default {
         "front line"
       ],
       "optionReasons": {
-        "front-mcq-11": "本句指「最接近戰鬥、危機、顧客或主要問題現場的位置；前線／第一線」。",
-        "front-mcq-10": "「與顧客／觀眾直接接觸的服務區域或工作」是「front of house」的用法，與本句語境不同。",
-        "front-mcq-12": "「直接面對顧客、病人、危機或主要工作現場的」是「front-line」的用法，與本句語境不同。",
-        "front-mcq-09": "「負責對外接觸／接待，或在某些行業中指管理決策的部門」是「front office」的用法，與本句語境不同。",
-        "front-mcq-13": "「在某個領域、行動或發展中處於前列／領先位置」是「front — leading position」的用法，與本句語境不同。",
-        "front-mcq-08": "「酒店、辦公室或機構入口附近負責接待訪客的櫃檯／部門」是「front desk」的用法，與本句語境不同。"
+        "front-mcq-11": "本句的「front line」指「最接近戰鬥、危機、顧客或主要問題現場的位置；前線／第一線」。",
+        "front-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-11"
     },
@@ -1353,11 +1257,9 @@ export default {
       "masked": "____ deal directly with customers.",
       "options": [
         "front-mcq-12",
-        "front-mcq-11",
-        "front-mcq-13",
-        "front-mcq-10",
-        "front-mcq-14",
-        "front-mcq-09"
+        "front-mcq-23",
+        "front-mcq-20",
+        "front-mcq-17"
       ],
       "explanation": "本句的「Front-line workers」指「直接面對顧客、病人、危機或主要工作現場的」。",
       "sentenceIndex": 21,
@@ -1366,12 +1268,10 @@ export default {
         "Front-line workers"
       ],
       "optionReasons": {
-        "front-mcq-12": "本句指「直接面對顧客、病人、危機或主要工作現場的」。",
-        "front-mcq-11": "「最接近戰鬥、危機、顧客或主要問題現場的位置；前線／第一線」是「front line」的用法，與本句語境不同。",
-        "front-mcq-13": "「在某個領域、行動或發展中處於前列／領先位置」是「front — leading position」的用法，與本句語境不同。",
-        "front-mcq-10": "「與顧客／觀眾直接接觸的服務區域或工作」是「front of house」的用法，與本句語境不同。",
-        "front-mcq-14": "「在某個領域的發展、創新或行動中處於最領先的位置」是「forefront」的用法，與本句語境不同。",
-        "front-mcq-09": "「負責對外接觸／接待，或在某些行業中指管理決策的部門」是「front office」的用法，與本句語境不同。"
+        "front-mcq-12": "本句的「Front-line workers」指「直接面對顧客、病人、危機或主要工作現場的」。",
+        "front-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-12"
     },
@@ -1383,11 +1283,9 @@ export default {
       "masked": "The policy affects ____ most.",
       "options": [
         "front-mcq-12",
-        "front-mcq-11",
-        "front-mcq-13",
-        "front-mcq-10",
-        "front-mcq-14",
-        "front-mcq-09"
+        "front-mcq-30",
+        "front-mcq-04",
+        "front-mcq-22"
       ],
       "explanation": "本句的「front-line staff」指「直接面對顧客、病人、危機或主要工作現場的」。",
       "sentenceIndex": 22,
@@ -1396,12 +1294,10 @@ export default {
         "front-line staff"
       ],
       "optionReasons": {
-        "front-mcq-12": "本句指「直接面對顧客、病人、危機或主要工作現場的」。",
-        "front-mcq-11": "「最接近戰鬥、危機、顧客或主要問題現場的位置；前線／第一線」是「front line」的用法，與本句語境不同。",
-        "front-mcq-13": "「在某個領域、行動或發展中處於前列／領先位置」是「front — leading position」的用法，與本句語境不同。",
-        "front-mcq-10": "「與顧客／觀眾直接接觸的服務區域或工作」是「front of house」的用法，與本句語境不同。",
-        "front-mcq-14": "「在某個領域的發展、創新或行動中處於最領先的位置」是「forefront」的用法，與本句語境不同。",
-        "front-mcq-09": "「負責對外接觸／接待，或在某些行業中指管理決策的部門」是「front office」的用法，與本句語境不同。"
+        "front-mcq-12": "本句的「front-line staff」指「直接面對顧客、病人、危機或主要工作現場的」。",
+        "front-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-12"
     },
@@ -1413,11 +1309,9 @@ export default {
       "masked": "The company is at the ____ of technological change.",
       "options": [
         "front-mcq-13",
-        "front-mcq-12",
-        "front-mcq-14",
-        "front-mcq-11",
-        "front-mcq-15",
-        "front-mcq-10"
+        "front-mcq-21",
+        "front-mcq-26",
+        "front-mcq-29"
       ],
       "explanation": "本句的「front」指「在某個領域、行動或發展中處於前列／領先位置」。",
       "sentenceIndex": 23,
@@ -1426,12 +1320,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-13": "本句指「在某個領域、行動或發展中處於前列／領先位置」。",
-        "front-mcq-12": "「直接面對顧客、病人、危機或主要工作現場的」是「front-line」的用法，與本句語境不同。",
-        "front-mcq-14": "「在某個領域的發展、創新或行動中處於最領先的位置」是「forefront」的用法，與本句語境不同。",
-        "front-mcq-11": "「最接近戰鬥、危機、顧客或主要問題現場的位置；前線／第一線」是「front line」的用法，與本句語境不同。",
-        "front-mcq-15": "「特意展示給別人看的外在態度／形象，可能跟真正感受不同」是「front — public image」的用法，與本句語境不同。",
-        "front-mcq-10": "「與顧客／觀眾直接接觸的服務區域或工作」是「front of house」的用法，與本句語境不同。"
+        "front-mcq-13": "本句的「front」指「在某個領域、行動或發展中處於前列／領先位置」。",
+        "front-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-13"
     },
@@ -1443,11 +1335,9 @@ export default {
       "masked": "She remained at the ____ of the movement.",
       "options": [
         "front-mcq-13",
-        "front-mcq-12",
-        "front-mcq-14",
-        "front-mcq-11",
-        "front-mcq-15",
-        "front-mcq-10"
+        "front-mcq-22",
+        "front-mcq-25",
+        "front-mcq-29"
       ],
       "explanation": "本句的「front」指「在某個領域、行動或發展中處於前列／領先位置」。",
       "sentenceIndex": 24,
@@ -1456,12 +1346,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-13": "本句指「在某個領域、行動或發展中處於前列／領先位置」。",
-        "front-mcq-12": "「直接面對顧客、病人、危機或主要工作現場的」是「front-line」的用法，與本句語境不同。",
-        "front-mcq-14": "「在某個領域的發展、創新或行動中處於最領先的位置」是「forefront」的用法，與本句語境不同。",
-        "front-mcq-11": "「最接近戰鬥、危機、顧客或主要問題現場的位置；前線／第一線」是「front line」的用法，與本句語境不同。",
-        "front-mcq-15": "「特意展示給別人看的外在態度／形象，可能跟真正感受不同」是「front — public image」的用法，與本句語境不同。",
-        "front-mcq-10": "「與顧客／觀眾直接接觸的服務區域或工作」是「front of house」的用法，與本句語境不同。"
+        "front-mcq-13": "本句的「front」指「在某個領域、行動或發展中處於前列／領先位置」。",
+        "front-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-13"
     },
@@ -1473,11 +1361,9 @@ export default {
       "masked": "The company is at the ____ artificial intelligence research.",
       "options": [
         "front-mcq-14",
-        "front-mcq-13",
-        "front-mcq-15",
-        "front-mcq-12",
-        "front-mcq-16",
-        "front-mcq-11"
+        "front-mcq-02",
+        "front-mcq-08",
+        "front-mcq-16"
       ],
       "explanation": "本句的「forefront of」指「在某個領域的發展、創新或行動中處於最領先的位置」。",
       "sentenceIndex": 25,
@@ -1486,12 +1372,10 @@ export default {
         "forefront of"
       ],
       "optionReasons": {
-        "front-mcq-14": "本句指「在某個領域的發展、創新或行動中處於最領先的位置」。",
-        "front-mcq-13": "「在某個領域、行動或發展中處於前列／領先位置」是「front — leading position」的用法，與本句語境不同。",
-        "front-mcq-15": "「特意展示給別人看的外在態度／形象，可能跟真正感受不同」是「front — public image」的用法，與本句語境不同。",
-        "front-mcq-12": "「直接面對顧客、病人、危機或主要工作現場的」是「front-line」的用法，與本句語境不同。",
-        "front-mcq-16": "「雖然內心未必如此，但對外表現出勇敢／自信」是「put on a brave/confident front」的用法，與本句語境不同。",
-        "front-mcq-11": "「最接近戰鬥、危機、顧客或主要問題現場的位置；前線／第一線」是「front line」的用法，與本句語境不同。"
+        "front-mcq-14": "本句的「forefront of」指「在某個領域的發展、創新或行動中處於最領先的位置」。",
+        "front-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-14"
     },
@@ -1503,11 +1387,9 @@ export default {
       "masked": "She has been at the ____ workplace reform.",
       "options": [
         "front-mcq-14",
-        "front-mcq-13",
-        "front-mcq-15",
-        "front-mcq-12",
-        "front-mcq-16",
-        "front-mcq-11"
+        "front-mcq-02",
+        "front-mcq-29",
+        "front-mcq-21"
       ],
       "explanation": "本句的「forefront of」指「在某個領域的發展、創新或行動中處於最領先的位置」。",
       "sentenceIndex": 26,
@@ -1516,12 +1398,10 @@ export default {
         "forefront of"
       ],
       "optionReasons": {
-        "front-mcq-14": "本句指「在某個領域的發展、創新或行動中處於最領先的位置」。",
-        "front-mcq-13": "「在某個領域、行動或發展中處於前列／領先位置」是「front — leading position」的用法，與本句語境不同。",
-        "front-mcq-15": "「特意展示給別人看的外在態度／形象，可能跟真正感受不同」是「front — public image」的用法，與本句語境不同。",
-        "front-mcq-12": "「直接面對顧客、病人、危機或主要工作現場的」是「front-line」的用法，與本句語境不同。",
-        "front-mcq-16": "「雖然內心未必如此，但對外表現出勇敢／自信」是「put on a brave/confident front」的用法，與本句語境不同。",
-        "front-mcq-11": "「最接近戰鬥、危機、顧客或主要問題現場的位置；前線／第一線」是「front line」的用法，與本句語境不同。"
+        "front-mcq-14": "本句的「forefront of」指「在某個領域的發展、創新或行動中處於最領先的位置」。",
+        "front-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-14"
     },
@@ -1533,11 +1413,8 @@ export default {
       "masked": "He tried to maintain a calm ____ despite feeling nervous.",
       "options": [
         "front-mcq-15",
-        "front-mcq-14",
-        "front-mcq-16",
-        "front-mcq-13",
-        "front-mcq-17",
-        "front-mcq-12"
+        "front-mcq-05",
+        "front-mcq-28"
       ],
       "explanation": "本句的「front」指「特意展示給別人看的外在態度／形象，可能跟真正感受不同」。",
       "sentenceIndex": 27,
@@ -1546,12 +1423,9 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-15": "本句指「特意展示給別人看的外在態度／形象，可能跟真正感受不同」。",
-        "front-mcq-14": "「在某個領域的發展、創新或行動中處於最領先的位置」是「forefront」的用法，與本句語境不同。",
-        "front-mcq-16": "「雖然內心未必如此，但對外表現出勇敢／自信」是「put on a brave/confident front」的用法，與本句語境不同。",
-        "front-mcq-13": "「在某個領域、行動或發展中處於前列／領先位置」是「front — leading position」的用法，與本句語境不同。",
-        "front-mcq-17": "「表面正常，但實際用來掩飾另一項秘密或非法活動的組織／業務」是「front — cover for hidden activity」的用法，與本句語境不同。",
-        "front-mcq-12": "「直接面對顧客、病人、危機或主要工作現場的」是「front-line」的用法，與本句語境不同。"
+        "front-mcq-15": "本句的「front」指「特意展示給別人看的外在態度／形象，可能跟真正感受不同」。",
+        "front-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-15"
     },
@@ -1563,11 +1437,9 @@ export default {
       "masked": "The company put on a confident ____ during the crisis.",
       "options": [
         "front-mcq-15",
-        "front-mcq-14",
-        "front-mcq-16",
-        "front-mcq-13",
-        "front-mcq-17",
-        "front-mcq-12"
+        "front-mcq-31",
+        "front-mcq-12",
+        "front-mcq-28"
       ],
       "explanation": "本句的「front」指「特意展示給別人看的外在態度／形象，可能跟真正感受不同」。",
       "sentenceIndex": 28,
@@ -1576,12 +1448,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-15": "本句指「特意展示給別人看的外在態度／形象，可能跟真正感受不同」。",
-        "front-mcq-14": "「在某個領域的發展、創新或行動中處於最領先的位置」是「forefront」的用法，與本句語境不同。",
-        "front-mcq-16": "「雖然內心未必如此，但對外表現出勇敢／自信」是「put on a brave/confident front」的用法，與本句語境不同。",
-        "front-mcq-13": "「在某個領域、行動或發展中處於前列／領先位置」是「front — leading position」的用法，與本句語境不同。",
-        "front-mcq-17": "「表面正常，但實際用來掩飾另一項秘密或非法活動的組織／業務」是「front — cover for hidden activity」的用法，與本句語境不同。",
-        "front-mcq-12": "「直接面對顧客、病人、危機或主要工作現場的」是「front-line」的用法，與本句語境不同。"
+        "front-mcq-15": "本句的「front」指「特意展示給別人看的外在態度／形象，可能跟真正感受不同」。",
+        "front-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-15"
     },
@@ -1593,11 +1463,9 @@ export default {
       "masked": "I was nervous, but I tried to ____.",
       "options": [
         "front-mcq-16",
-        "front-mcq-15",
-        "front-mcq-17",
-        "front-mcq-14",
-        "front-mcq-18",
-        "front-mcq-13"
+        "front-mcq-04",
+        "front-mcq-32",
+        "front-mcq-30"
       ],
       "explanation": "本句的「put on a confident front」指「雖然內心未必如此，但對外表現出勇敢／自信」。",
       "sentenceIndex": 29,
@@ -1606,12 +1474,10 @@ export default {
         "put on a confident front"
       ],
       "optionReasons": {
-        "front-mcq-16": "本句指「雖然內心未必如此，但對外表現出勇敢／自信」。",
-        "front-mcq-15": "「特意展示給別人看的外在態度／形象，可能跟真正感受不同」是「front — public image」的用法，與本句語境不同。",
-        "front-mcq-17": "「表面正常，但實際用來掩飾另一項秘密或非法活動的組織／業務」是「front — cover for hidden activity」的用法，與本句語境不同。",
-        "front-mcq-14": "「在某個領域的發展、創新或行動中處於最領先的位置」是「forefront」的用法，與本句語境不同。",
-        "front-mcq-18": "「在幾個不同方面、領域或問題上同時行動／面對壓力」是「on several fronts」的用法，與本句語境不同。",
-        "front-mcq-13": "「在某個領域、行動或發展中處於前列／領先位置」是「front — leading position」的用法，與本句語境不同。"
+        "front-mcq-16": "本句的「put on a confident front」指「雖然內心未必如此，但對外表現出勇敢／自信」。",
+        "front-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-16"
     },
@@ -1623,11 +1489,9 @@ export default {
       "masked": "She ____ despite the bad news.",
       "options": [
         "front-mcq-16",
-        "front-mcq-15",
-        "front-mcq-17",
-        "front-mcq-14",
-        "front-mcq-18",
-        "front-mcq-13"
+        "front-mcq-29",
+        "front-mcq-05",
+        "front-mcq-08"
       ],
       "explanation": "本句的「put on a brave front」指「雖然內心未必如此，但對外表現出勇敢／自信」。",
       "sentenceIndex": 30,
@@ -1636,12 +1500,10 @@ export default {
         "put on a brave front"
       ],
       "optionReasons": {
-        "front-mcq-16": "本句指「雖然內心未必如此，但對外表現出勇敢／自信」。",
-        "front-mcq-15": "「特意展示給別人看的外在態度／形象，可能跟真正感受不同」是「front — public image」的用法，與本句語境不同。",
-        "front-mcq-17": "「表面正常，但實際用來掩飾另一項秘密或非法活動的組織／業務」是「front — cover for hidden activity」的用法，與本句語境不同。",
-        "front-mcq-14": "「在某個領域的發展、創新或行動中處於最領先的位置」是「forefront」的用法，與本句語境不同。",
-        "front-mcq-18": "「在幾個不同方面、領域或問題上同時行動／面對壓力」是「on several fronts」的用法，與本句語境不同。",
-        "front-mcq-13": "「在某個領域、行動或發展中處於前列／領先位置」是「front — leading position」的用法，與本句語境不同。"
+        "front-mcq-16": "本句的「put on a brave front」指「雖然內心未必如此，但對外表現出勇敢／自信」。",
+        "front-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-16"
     },
@@ -1653,11 +1515,9 @@ export default {
       "masked": "The business was allegedly a ____ for illegal activity.",
       "options": [
         "front-mcq-17",
-        "front-mcq-16",
-        "front-mcq-18",
-        "front-mcq-15",
-        "front-mcq-19",
-        "front-mcq-14"
+        "front-mcq-05",
+        "front-mcq-20",
+        "front-mcq-29"
       ],
       "explanation": "本句的「front」指「表面正常，但實際用來掩飾另一項秘密或非法活動的組織／業務」。",
       "sentenceIndex": 31,
@@ -1666,12 +1526,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-17": "本句指「表面正常，但實際用來掩飾另一項秘密或非法活動的組織／業務」。",
-        "front-mcq-16": "「雖然內心未必如此，但對外表現出勇敢／自信」是「put on a brave/confident front」的用法，與本句語境不同。",
-        "front-mcq-18": "「在幾個不同方面、領域或問題上同時行動／面對壓力」是「on several fronts」的用法，與本句語境不同。",
-        "front-mcq-15": "「特意展示給別人看的外在態度／形象，可能跟真正感受不同」是「front — public image」的用法，與本句語境不同。",
-        "front-mcq-19": "「戰爭中軍隊直接交戰的地區／戰線」是「front — military」的用法，與本句語境不同。",
-        "front-mcq-14": "「在某個領域的發展、創新或行動中處於最領先的位置」是「forefront」的用法，與本句語境不同。"
+        "front-mcq-17": "本句的「front」指「表面正常，但實際用來掩飾另一項秘密或非法活動的組織／業務」。",
+        "front-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-17"
     },
@@ -1683,11 +1541,9 @@ export default {
       "masked": "The shop was used as a ____ for the operation.",
       "options": [
         "front-mcq-17",
-        "front-mcq-16",
-        "front-mcq-18",
-        "front-mcq-15",
-        "front-mcq-19",
-        "front-mcq-14"
+        "front-mcq-11",
+        "front-mcq-20",
+        "front-mcq-30"
       ],
       "explanation": "本句的「front」指「表面正常，但實際用來掩飾另一項秘密或非法活動的組織／業務」。",
       "sentenceIndex": 32,
@@ -1696,12 +1552,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-17": "本句指「表面正常，但實際用來掩飾另一項秘密或非法活動的組織／業務」。",
-        "front-mcq-16": "「雖然內心未必如此，但對外表現出勇敢／自信」是「put on a brave/confident front」的用法，與本句語境不同。",
-        "front-mcq-18": "「在幾個不同方面、領域或問題上同時行動／面對壓力」是「on several fronts」的用法，與本句語境不同。",
-        "front-mcq-15": "「特意展示給別人看的外在態度／形象，可能跟真正感受不同」是「front — public image」的用法，與本句語境不同。",
-        "front-mcq-19": "「戰爭中軍隊直接交戰的地區／戰線」是「front — military」的用法，與本句語境不同。",
-        "front-mcq-14": "「在某個領域的發展、創新或行動中處於最領先的位置」是「forefront」的用法，與本句語境不同。"
+        "front-mcq-17": "本句的「front」指「表面正常，但實際用來掩飾另一項秘密或非法活動的組織／業務」。",
+        "front-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-17"
     },
@@ -1713,11 +1567,9 @@ export default {
       "masked": "The country was fighting on two ____.",
       "options": [
         "front-mcq-32",
-        "front-mcq-31",
-        "front-mcq-33",
-        "front-mcq-30",
-        "front-mcq-29",
-        "front-mcq-28"
+        "front-mcq-25",
+        "front-mcq-03",
+        "front-mcq-08"
       ],
       "explanation": "本句的「fronts」指「在幾個不同方面／領域同時面對行動、問題或競爭」。",
       "sentenceIndex": 33,
@@ -1726,12 +1578,10 @@ export default {
         "fronts"
       ],
       "optionReasons": {
-        "front-mcq-32": "本句指「在幾個不同方面／領域同時面對行動、問題或競爭」。",
-        "front-mcq-31": "「鄰近海、河等水域的濱水／海濱地區」是「waterfront/seafront」的用法，與本句語境不同。",
-        "front-mcq-33": "「為共同目標聯合行動的一群組織／人物，或共同展現的立場」是「21. front = organized political/social movement grouping（陣線／聯盟） — 陣線；聯盟」的用法，與本句語境不同。",
-        "front-mcq-30": "「建築物／土地面向道路、河流、海岸等的正面部分或長度」是「frontage」的用法，與本句語境不同。",
-        "front-mcq-29": "「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」是「frontal attack」的用法，與本句語境不同。",
-        "front-mcq-28": "「與某物前面部分有關，或從正面而來的」是「frontal」的用法，與本句語境不同。"
+        "front-mcq-32": "本句的「fronts」指「在幾個不同方面／領域同時面對行動、問題或競爭」。",
+        "front-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-32"
     },
@@ -1743,11 +1593,9 @@ export default {
       "masked": "The company is facing pressure on several ____.",
       "options": [
         "front-mcq-32",
-        "front-mcq-31",
-        "front-mcq-33",
-        "front-mcq-30",
-        "front-mcq-29",
-        "front-mcq-28"
+        "front-mcq-28",
+        "front-mcq-05",
+        "front-mcq-22"
       ],
       "explanation": "本句的「fronts」指「在幾個不同方面／領域同時面對行動、問題或競爭」。",
       "sentenceIndex": 34,
@@ -1756,12 +1604,10 @@ export default {
         "fronts"
       ],
       "optionReasons": {
-        "front-mcq-32": "本句指「在幾個不同方面／領域同時面對行動、問題或競爭」。",
-        "front-mcq-31": "「鄰近海、河等水域的濱水／海濱地區」是「waterfront/seafront」的用法，與本句語境不同。",
-        "front-mcq-33": "「為共同目標聯合行動的一群組織／人物，或共同展現的立場」是「21. front = organized political/social movement grouping（陣線／聯盟） — 陣線；聯盟」的用法，與本句語境不同。",
-        "front-mcq-30": "「建築物／土地面向道路、河流、海岸等的正面部分或長度」是「frontage」的用法，與本句語境不同。",
-        "front-mcq-29": "「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」是「frontal attack」的用法，與本句語境不同。",
-        "front-mcq-28": "「與某物前面部分有關，或從正面而來的」是「frontal」的用法，與本句語境不同。"
+        "front-mcq-32": "本句的「fronts」指「在幾個不同方面／領域同時面對行動、問題或競爭」。",
+        "front-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-32"
     },
@@ -1773,11 +1619,9 @@ export default {
       "masked": "News arrived from the western ____.",
       "options": [
         "front-mcq-19",
-        "front-mcq-18",
-        "front-mcq-20",
-        "front-mcq-17",
-        "front-mcq-21",
-        "front-mcq-16"
+        "front-mcq-24",
+        "front-mcq-16",
+        "front-mcq-28"
       ],
       "explanation": "本句的「front」指「戰爭中軍隊直接交戰的地區／戰線」。",
       "sentenceIndex": 35,
@@ -1786,12 +1630,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-19": "本句指「戰爭中軍隊直接交戰的地區／戰線」。",
-        "front-mcq-18": "「在幾個不同方面、領域或問題上同時行動／面對壓力」是「on several fronts」的用法，與本句語境不同。",
-        "front-mcq-20": "「不同性質氣團之間的交界面／氣象鋒面」是「weather front」的用法，與本句語境不同。",
-        "front-mcq-17": "「表面正常，但實際用來掩飾另一項秘密或非法活動的組織／業務」是「front — cover for hidden activity」的用法，與本句語境不同。",
-        "front-mcq-21": "「多方對外表現一致、團結的共同立場／陣線」是「united front」的用法，與本句語境不同。",
-        "front-mcq-16": "「雖然內心未必如此，但對外表現出勇敢／自信」是「put on a brave/confident front」的用法，與本句語境不同。"
+        "front-mcq-19": "本句的「front」指「戰爭中軍隊直接交戰的地區／戰線」。",
+        "front-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-19"
     },
@@ -1803,11 +1645,9 @@ export default {
       "masked": "Thousands of soldiers were moved to the ____.",
       "options": [
         "front-mcq-19",
-        "front-mcq-18",
-        "front-mcq-20",
         "front-mcq-17",
-        "front-mcq-21",
-        "front-mcq-16"
+        "front-mcq-07",
+        "front-mcq-30"
       ],
       "explanation": "本句的「front」指「戰爭中軍隊直接交戰的地區／戰線」。",
       "sentenceIndex": 36,
@@ -1816,12 +1656,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-19": "本句指「戰爭中軍隊直接交戰的地區／戰線」。",
-        "front-mcq-18": "「在幾個不同方面、領域或問題上同時行動／面對壓力」是「on several fronts」的用法，與本句語境不同。",
-        "front-mcq-20": "「不同性質氣團之間的交界面／氣象鋒面」是「weather front」的用法，與本句語境不同。",
-        "front-mcq-17": "「表面正常，但實際用來掩飾另一項秘密或非法活動的組織／業務」是「front — cover for hidden activity」的用法，與本句語境不同。",
-        "front-mcq-21": "「多方對外表現一致、團結的共同立場／陣線」是「united front」的用法，與本句語境不同。",
-        "front-mcq-16": "「雖然內心未必如此，但對外表現出勇敢／自信」是「put on a brave/confident front」的用法，與本句語境不同。"
+        "front-mcq-19": "本句的「front」指「戰爭中軍隊直接交戰的地區／戰線」。",
+        "front-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-19"
     },
@@ -1833,11 +1671,9 @@ export default {
       "masked": "A cold ____ is moving across the region.",
       "options": [
         "front-mcq-20",
-        "front-mcq-19",
-        "front-mcq-21",
-        "front-mcq-18",
-        "front-mcq-22",
-        "front-mcq-17"
+        "front-mcq-02",
+        "front-mcq-17",
+        "front-mcq-10"
       ],
       "explanation": "本句的「front」指「不同性質氣團之間的交界面／氣象鋒面」。",
       "sentenceIndex": 37,
@@ -1846,12 +1682,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-20": "本句指「不同性質氣團之間的交界面／氣象鋒面」。",
-        "front-mcq-19": "「戰爭中軍隊直接交戰的地區／戰線」是「front — military」的用法，與本句語境不同。",
-        "front-mcq-21": "「多方對外表現一致、團結的共同立場／陣線」是「united front」的用法，與本句語境不同。",
-        "front-mcq-18": "「在幾個不同方面、領域或問題上同時行動／面對壓力」是「on several fronts」的用法，與本句語境不同。",
-        "front-mcq-22": "「用來掩飾真實感受、目的或情況的表面形象」是「front — false appearance」的用法，與本句語境不同。",
-        "front-mcq-17": "「表面正常，但實際用來掩飾另一項秘密或非法活動的組織／業務」是「front — cover for hidden activity」的用法，與本句語境不同。"
+        "front-mcq-20": "本句的「front」指「不同性質氣團之間的交界面／氣象鋒面」。",
+        "front-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-20"
     },
@@ -1863,10 +1697,8 @@ export default {
       "masked": "The warm ____ brought heavy rain.",
       "options": [
         "front-mcq-20",
-        "front-mcq-19",
-        "front-mcq-21",
-        "front-mcq-18",
-        "front-mcq-22",
+        "front-mcq-13",
+        "front-mcq-07",
         "front-mcq-17"
       ],
       "explanation": "本句的「front」指「不同性質氣團之間的交界面／氣象鋒面」。",
@@ -1876,12 +1708,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-20": "本句指「不同性質氣團之間的交界面／氣象鋒面」。",
-        "front-mcq-19": "「戰爭中軍隊直接交戰的地區／戰線」是「front — military」的用法，與本句語境不同。",
-        "front-mcq-21": "「多方對外表現一致、團結的共同立場／陣線」是「united front」的用法，與本句語境不同。",
-        "front-mcq-18": "「在幾個不同方面、領域或問題上同時行動／面對壓力」是「on several fronts」的用法，與本句語境不同。",
-        "front-mcq-22": "「用來掩飾真實感受、目的或情況的表面形象」是「front — false appearance」的用法，與本句語境不同。",
-        "front-mcq-17": "「表面正常，但實際用來掩飾另一項秘密或非法活動的組織／業務」是「front — cover for hidden activity」的用法，與本句語境不同。"
+        "front-mcq-20": "本句的「front」指「不同性質氣團之間的交界面／氣象鋒面」。",
+        "front-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-20"
     },
@@ -1893,11 +1723,9 @@ export default {
       "masked": "Several groups formed a united ____.",
       "options": [
         "front-mcq-33",
-        "front-mcq-32",
-        "front-mcq-31",
-        "front-mcq-30",
-        "front-mcq-29",
-        "front-mcq-28"
+        "front-mcq-07",
+        "front-mcq-23",
+        "front-mcq-27"
       ],
       "explanation": "本句的「front」指「為共同目標聯合行動的一群組織／人物，或共同展現的立場」。",
       "sentenceIndex": 39,
@@ -1906,12 +1734,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-33": "本句指「為共同目標聯合行動的一群組織／人物，或共同展現的立場」。",
-        "front-mcq-32": "「在幾個不同方面／領域同時面對行動、問題或競爭」是「18. front = area of conflict/activity（戰線／方面） — 戰線；方面」的用法，與本句語境不同。",
-        "front-mcq-31": "「鄰近海、河等水域的濱水／海濱地區」是「waterfront/seafront」的用法，與本句語境不同。",
-        "front-mcq-30": "「建築物／土地面向道路、河流、海岸等的正面部分或長度」是「frontage」的用法，與本句語境不同。",
-        "front-mcq-29": "「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」是「frontal attack」的用法，與本句語境不同。",
-        "front-mcq-28": "「與某物前面部分有關，或從正面而來的」是「frontal」的用法，與本句語境不同。"
+        "front-mcq-33": "本句的「front」指「為共同目標聯合行動的一群組織／人物，或共同展現的立場」。",
+        "front-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-33"
     },
@@ -1923,10 +1749,8 @@ export default {
       "masked": "They presented a united ____ during the negotiations.",
       "options": [
         "front-mcq-33",
-        "front-mcq-32",
-        "front-mcq-31",
-        "front-mcq-30",
-        "front-mcq-29",
+        "front-mcq-10",
+        "front-mcq-06",
         "front-mcq-28"
       ],
       "explanation": "本句的「front」指「為共同目標聯合行動的一群組織／人物，或共同展現的立場」。",
@@ -1936,12 +1760,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-33": "本句指「為共同目標聯合行動的一群組織／人物，或共同展現的立場」。",
-        "front-mcq-32": "「在幾個不同方面／領域同時面對行動、問題或競爭」是「18. front = area of conflict/activity（戰線／方面） — 戰線；方面」的用法，與本句語境不同。",
-        "front-mcq-31": "「鄰近海、河等水域的濱水／海濱地區」是「waterfront/seafront」的用法，與本句語境不同。",
-        "front-mcq-30": "「建築物／土地面向道路、河流、海岸等的正面部分或長度」是「frontage」的用法，與本句語境不同。",
-        "front-mcq-29": "「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」是「frontal attack」的用法，與本句語境不同。",
-        "front-mcq-28": "「與某物前面部分有關，或從正面而來的」是「frontal」的用法，與本句語境不同。"
+        "front-mcq-33": "本句的「front」指「為共同目標聯合行動的一群組織／人物，或共同展現的立場」。",
+        "front-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-33"
     },
@@ -1953,11 +1775,9 @@ export default {
       "masked": "The managers showed a ____ to employees.",
       "options": [
         "front-mcq-21",
-        "front-mcq-20",
-        "front-mcq-22",
-        "front-mcq-19",
-        "front-mcq-23",
-        "front-mcq-18"
+        "front-mcq-03",
+        "front-mcq-08",
+        "front-mcq-30"
       ],
       "explanation": "本句的「united front」指「多方對外表現一致、團結的共同立場／陣線」。",
       "sentenceIndex": 41,
@@ -1966,12 +1786,10 @@ export default {
         "united front"
       ],
       "optionReasons": {
-        "front-mcq-21": "本句指「多方對外表現一致、團結的共同立場／陣線」。",
-        "front-mcq-20": "「不同性質氣團之間的交界面／氣象鋒面」是「weather front」的用法，與本句語境不同。",
-        "front-mcq-22": "「用來掩飾真實感受、目的或情況的表面形象」是「front — false appearance」的用法，與本句語境不同。",
-        "front-mcq-19": "「戰爭中軍隊直接交戰的地區／戰線」是「front — military」的用法，與本句語境不同。",
-        "front-mcq-23": "「建築物／地方的正面朝向某個方向或位置」是「front + place — verb」的用法，與本句語境不同。",
-        "front-mcq-18": "「在幾個不同方面、領域或問題上同時行動／面對壓力」是「on several fronts」的用法，與本句語境不同。"
+        "front-mcq-21": "本句的「united front」指「多方對外表現一致、團結的共同立場／陣線」。",
+        "front-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-21"
     },
@@ -1983,11 +1801,9 @@ export default {
       "masked": "Despite private disagreements, they maintained a ____.",
       "options": [
         "front-mcq-21",
-        "front-mcq-20",
-        "front-mcq-22",
-        "front-mcq-19",
-        "front-mcq-23",
-        "front-mcq-18"
+        "front-mcq-04",
+        "front-mcq-28",
+        "front-mcq-12"
       ],
       "explanation": "本句的「united front」指「多方對外表現一致、團結的共同立場／陣線」。",
       "sentenceIndex": 42,
@@ -1996,12 +1812,10 @@ export default {
         "united front"
       ],
       "optionReasons": {
-        "front-mcq-21": "本句指「多方對外表現一致、團結的共同立場／陣線」。",
-        "front-mcq-20": "「不同性質氣團之間的交界面／氣象鋒面」是「weather front」的用法，與本句語境不同。",
-        "front-mcq-22": "「用來掩飾真實感受、目的或情況的表面形象」是「front — false appearance」的用法，與本句語境不同。",
-        "front-mcq-19": "「戰爭中軍隊直接交戰的地區／戰線」是「front — military」的用法，與本句語境不同。",
-        "front-mcq-23": "「建築物／地方的正面朝向某個方向或位置」是「front + place — verb」的用法，與本句語境不同。",
-        "front-mcq-18": "「在幾個不同方面、領域或問題上同時行動／面對壓力」是「on several fronts」的用法，與本句語境不同。"
+        "front-mcq-21": "本句的「united front」指「多方對外表現一致、團結的共同立場／陣線」。",
+        "front-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-21"
     },
@@ -2013,11 +1827,9 @@ export default {
       "masked": "His confidence was only a ____.",
       "options": [
         "front-mcq-22",
-        "front-mcq-21",
-        "front-mcq-23",
-        "front-mcq-20",
-        "front-mcq-24",
-        "front-mcq-19"
+        "front-mcq-04",
+        "front-mcq-32",
+        "front-mcq-30"
       ],
       "explanation": "本句的「front」指「用來掩飾真實感受、目的或情況的表面形象」。",
       "sentenceIndex": 43,
@@ -2026,12 +1838,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-22": "本句指「用來掩飾真實感受、目的或情況的表面形象」。",
-        "front-mcq-21": "「多方對外表現一致、團結的共同立場／陣線」是「united front」的用法，與本句語境不同。",
-        "front-mcq-23": "「建築物／地方的正面朝向某個方向或位置」是「front + place — verb」的用法，與本句語境不同。",
-        "front-mcq-20": "「不同性質氣團之間的交界面／氣象鋒面」是「weather front」的用法，與本句語境不同。",
-        "front-mcq-24": "「作為最公開、最主要的代表人物領導／代表某組織或活動」是「front an organization/campaign」的用法，與本句語境不同。",
-        "front-mcq-19": "「戰爭中軍隊直接交戰的地區／戰線」是「front — military」的用法，與本句語境不同。"
+        "front-mcq-22": "本句的「front」指「用來掩飾真實感受、目的或情況的表面形象」。",
+        "front-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-22"
     },
@@ -2043,11 +1853,9 @@ export default {
       "masked": "The friendly manner was a ____ hiding his frustration.",
       "options": [
         "front-mcq-22",
-        "front-mcq-21",
-        "front-mcq-23",
-        "front-mcq-20",
-        "front-mcq-24",
-        "front-mcq-19"
+        "front-mcq-04",
+        "front-mcq-32",
+        "front-mcq-30"
       ],
       "explanation": "本句的「front」指「用來掩飾真實感受、目的或情況的表面形象」。",
       "sentenceIndex": 44,
@@ -2056,12 +1864,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-22": "本句指「用來掩飾真實感受、目的或情況的表面形象」。",
-        "front-mcq-21": "「多方對外表現一致、團結的共同立場／陣線」是「united front」的用法，與本句語境不同。",
-        "front-mcq-23": "「建築物／地方的正面朝向某個方向或位置」是「front + place — verb」的用法，與本句語境不同。",
-        "front-mcq-20": "「不同性質氣團之間的交界面／氣象鋒面」是「weather front」的用法，與本句語境不同。",
-        "front-mcq-24": "「作為最公開、最主要的代表人物領導／代表某組織或活動」是「front an organization/campaign」的用法，與本句語境不同。",
-        "front-mcq-19": "「戰爭中軍隊直接交戰的地區／戰線」是「front — military」的用法，與本句語境不同。"
+        "front-mcq-22": "本句的「front」指「用來掩飾真實感受、目的或情況的表面形象」。",
+        "front-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-22"
     },
@@ -2073,11 +1879,9 @@ export default {
       "masked": "The hotel ____.",
       "options": [
         "front-mcq-23",
+        "front-mcq-32",
         "front-mcq-22",
-        "front-mcq-24",
-        "front-mcq-21",
-        "front-mcq-25",
-        "front-mcq-20"
+        "front-mcq-08"
       ],
       "explanation": "本句的「fronts the beach」指「建築物／地方的正面朝向某個方向或位置」。",
       "sentenceIndex": 45,
@@ -2086,12 +1890,10 @@ export default {
         "fronts the beach"
       ],
       "optionReasons": {
-        "front-mcq-23": "本句指「建築物／地方的正面朝向某個方向或位置」。",
-        "front-mcq-22": "「用來掩飾真實感受、目的或情況的表面形象」是「front — false appearance」的用法，與本句語境不同。",
-        "front-mcq-24": "「作為最公開、最主要的代表人物領導／代表某組織或活動」是「front an organization/campaign」的用法，與本句語境不同。",
-        "front-mcq-21": "「多方對外表現一致、團結的共同立場／陣線」是「united front」的用法，與本句語境不同。",
-        "front-mcq-25": "「作為樂隊最主要代表表演者，通常擔任主唱」是「front a band」的用法，與本句語境不同。",
-        "front-mcq-20": "「不同性質氣團之間的交界面／氣象鋒面」是「weather front」的用法，與本句語境不同。"
+        "front-mcq-23": "本句的「fronts the beach」指「建築物／地方的正面朝向某個方向或位置」。",
+        "front-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-23"
     },
@@ -2103,11 +1905,9 @@ export default {
       "masked": "The building ____ a busy street.",
       "options": [
         "front-mcq-23",
-        "front-mcq-22",
-        "front-mcq-24",
-        "front-mcq-21",
-        "front-mcq-25",
-        "front-mcq-20"
+        "front-mcq-20",
+        "front-mcq-16",
+        "front-mcq-24"
       ],
       "explanation": "本句的「fronts onto」指「建築物／地方的正面朝向某個方向或位置」。",
       "sentenceIndex": 46,
@@ -2116,12 +1916,10 @@ export default {
         "fronts onto"
       ],
       "optionReasons": {
-        "front-mcq-23": "本句指「建築物／地方的正面朝向某個方向或位置」。",
-        "front-mcq-22": "「用來掩飾真實感受、目的或情況的表面形象」是「front — false appearance」的用法，與本句語境不同。",
-        "front-mcq-24": "「作為最公開、最主要的代表人物領導／代表某組織或活動」是「front an organization/campaign」的用法，與本句語境不同。",
-        "front-mcq-21": "「多方對外表現一致、團結的共同立場／陣線」是「united front」的用法，與本句語境不同。",
-        "front-mcq-25": "「作為樂隊最主要代表表演者，通常擔任主唱」是「front a band」的用法，與本句語境不同。",
-        "front-mcq-20": "「不同性質氣團之間的交界面／氣象鋒面」是「weather front」的用法，與本句語境不同。"
+        "front-mcq-23": "本句的「fronts onto」指「建築物／地方的正面朝向某個方向或位置」。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-23"
     },
@@ -2133,11 +1931,9 @@ export default {
       "masked": "She ____ the organization’s public campaign.",
       "options": [
         "front-mcq-24",
-        "front-mcq-23",
-        "front-mcq-25",
-        "front-mcq-22",
-        "front-mcq-26",
-        "front-mcq-21"
+        "front-mcq-20",
+        "front-mcq-30",
+        "front-mcq-19"
       ],
       "explanation": "本句的「fronts」指「作為最公開、最主要的代表人物領導／代表某組織或活動」。",
       "sentenceIndex": 47,
@@ -2146,12 +1942,10 @@ export default {
         "fronts"
       ],
       "optionReasons": {
-        "front-mcq-24": "本句指「作為最公開、最主要的代表人物領導／代表某組織或活動」。",
-        "front-mcq-23": "「建築物／地方的正面朝向某個方向或位置」是「front + place — verb」的用法，與本句語境不同。",
-        "front-mcq-25": "「作為樂隊最主要代表表演者，通常擔任主唱」是「front a band」的用法，與本句語境不同。",
-        "front-mcq-22": "「用來掩飾真實感受、目的或情況的表面形象」是「front — false appearance」的用法，與本句語境不同。",
-        "front-mcq-26": "「作為節目的主要主持／出鏡代表人物」是「front a programme」的用法，與本句語境不同。",
-        "front-mcq-21": "「多方對外表現一致、團結的共同立場／陣線」是「united front」的用法，與本句語境不同。"
+        "front-mcq-24": "本句的「fronts」指「作為最公開、最主要的代表人物領導／代表某組織或活動」。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-24"
     },
@@ -2163,11 +1957,9 @@ export default {
       "masked": "He was chosen to ____ the new initiative.",
       "options": [
         "front-mcq-24",
-        "front-mcq-23",
-        "front-mcq-25",
-        "front-mcq-22",
-        "front-mcq-26",
-        "front-mcq-21"
+        "front-mcq-16",
+        "front-mcq-31",
+        "front-mcq-20"
       ],
       "explanation": "本句的「front」指「作為最公開、最主要的代表人物領導／代表某組織或活動」。",
       "sentenceIndex": 48,
@@ -2176,12 +1968,10 @@ export default {
         "front"
       ],
       "optionReasons": {
-        "front-mcq-24": "本句指「作為最公開、最主要的代表人物領導／代表某組織或活動」。",
-        "front-mcq-23": "「建築物／地方的正面朝向某個方向或位置」是「front + place — verb」的用法，與本句語境不同。",
-        "front-mcq-25": "「作為樂隊最主要代表表演者，通常擔任主唱」是「front a band」的用法，與本句語境不同。",
-        "front-mcq-22": "「用來掩飾真實感受、目的或情況的表面形象」是「front — false appearance」的用法，與本句語境不同。",
-        "front-mcq-26": "「作為節目的主要主持／出鏡代表人物」是「front a programme」的用法，與本句語境不同。",
-        "front-mcq-21": "「多方對外表現一致、團結的共同立場／陣線」是「united front」的用法，與本句語境不同。"
+        "front-mcq-24": "本句的「front」指「作為最公開、最主要的代表人物領導／代表某組織或活動」。",
+        "front-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-24"
     },
@@ -2193,11 +1983,9 @@ export default {
       "masked": "She ____ a successful rock band.",
       "options": [
         "front-mcq-25",
-        "front-mcq-24",
-        "front-mcq-26",
         "front-mcq-23",
-        "front-mcq-27",
-        "front-mcq-22"
+        "front-mcq-08",
+        "front-mcq-32"
       ],
       "explanation": "本句的「fronts」指「作為樂隊最主要代表表演者，通常擔任主唱」。",
       "sentenceIndex": 49,
@@ -2206,12 +1994,10 @@ export default {
         "fronts"
       ],
       "optionReasons": {
-        "front-mcq-25": "本句指「作為樂隊最主要代表表演者，通常擔任主唱」。",
-        "front-mcq-24": "「作為最公開、最主要的代表人物領導／代表某組織或活動」是「front an organization/campaign」的用法，與本句語境不同。",
-        "front-mcq-26": "「作為節目的主要主持／出鏡代表人物」是「front a programme」的用法，與本句語境不同。",
-        "front-mcq-23": "「建築物／地方的正面朝向某個方向或位置」是「front + place — verb」的用法，與本句語境不同。",
-        "front-mcq-27": "「表面代表正常活動，實際替另一項隱藏活動作掩護」是「front for something」的用法，與本句語境不同。",
-        "front-mcq-22": "「用來掩飾真實感受、目的或情況的表面形象」是「front — false appearance」的用法，與本句語境不同。"
+        "front-mcq-25": "本句的「fronts」指「作為樂隊最主要代表表演者，通常擔任主唱」。",
+        "front-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-25"
     },
@@ -2223,10 +2009,8 @@ export default {
       "masked": "The band is ____ a well-known singer.",
       "options": [
         "front-mcq-25",
-        "front-mcq-24",
-        "front-mcq-26",
-        "front-mcq-23",
-        "front-mcq-27",
+        "front-mcq-13",
+        "front-mcq-30",
         "front-mcq-22"
       ],
       "explanation": "本句的「fronted by」指「作為樂隊最主要代表表演者，通常擔任主唱」。",
@@ -2236,12 +2020,10 @@ export default {
         "fronted by"
       ],
       "optionReasons": {
-        "front-mcq-25": "本句指「作為樂隊最主要代表表演者，通常擔任主唱」。",
-        "front-mcq-24": "「作為最公開、最主要的代表人物領導／代表某組織或活動」是「front an organization/campaign」的用法，與本句語境不同。",
-        "front-mcq-26": "「作為節目的主要主持／出鏡代表人物」是「front a programme」的用法，與本句語境不同。",
-        "front-mcq-23": "「建築物／地方的正面朝向某個方向或位置」是「front + place — verb」的用法，與本句語境不同。",
-        "front-mcq-27": "「表面代表正常活動，實際替另一項隱藏活動作掩護」是「front for something」的用法，與本句語境不同。",
-        "front-mcq-22": "「用來掩飾真實感受、目的或情況的表面形象」是「front — false appearance」的用法，與本句語境不同。"
+        "front-mcq-25": "本句的「fronted by」指「作為樂隊最主要代表表演者，通常擔任主唱」。",
+        "front-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-25"
     },
@@ -2253,11 +2035,9 @@ export default {
       "masked": "She ____ a weekly current-affairs programme.",
       "options": [
         "front-mcq-26",
-        "front-mcq-25",
-        "front-mcq-27",
-        "front-mcq-24",
-        "front-mcq-28",
-        "front-mcq-23"
+        "front-mcq-20",
+        "front-mcq-23",
+        "front-mcq-16"
       ],
       "explanation": "本句的「fronts」指「作為節目的主要主持／出鏡代表人物」。",
       "sentenceIndex": 51,
@@ -2266,12 +2046,10 @@ export default {
         "fronts"
       ],
       "optionReasons": {
-        "front-mcq-26": "本句指「作為節目的主要主持／出鏡代表人物」。",
-        "front-mcq-25": "「作為樂隊最主要代表表演者，通常擔任主唱」是「front a band」的用法，與本句語境不同。",
-        "front-mcq-27": "「表面代表正常活動，實際替另一項隱藏活動作掩護」是「front for something」的用法，與本句語境不同。",
-        "front-mcq-24": "「作為最公開、最主要的代表人物領導／代表某組織或活動」是「front an organization/campaign」的用法，與本句語境不同。",
-        "front-mcq-28": "「與某物前面部分有關，或從正面而來的」是「frontal」的用法，與本句語境不同。",
-        "front-mcq-23": "「建築物／地方的正面朝向某個方向或位置」是「front + place — verb」的用法，與本句語境不同。"
+        "front-mcq-26": "本句的「fronts」指「作為節目的主要主持／出鏡代表人物」。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-26"
     },
@@ -2283,11 +2061,9 @@ export default {
       "masked": "The documentary is ____ a famous journalist.",
       "options": [
         "front-mcq-26",
-        "front-mcq-25",
-        "front-mcq-27",
-        "front-mcq-24",
-        "front-mcq-28",
-        "front-mcq-23"
+        "front-mcq-32",
+        "front-mcq-30",
+        "front-mcq-10"
       ],
       "explanation": "本句的「fronted by」指「作為節目的主要主持／出鏡代表人物」。",
       "sentenceIndex": 52,
@@ -2296,12 +2072,10 @@ export default {
         "fronted by"
       ],
       "optionReasons": {
-        "front-mcq-26": "本句指「作為節目的主要主持／出鏡代表人物」。",
-        "front-mcq-25": "「作為樂隊最主要代表表演者，通常擔任主唱」是「front a band」的用法，與本句語境不同。",
-        "front-mcq-27": "「表面代表正常活動，實際替另一項隱藏活動作掩護」是「front for something」的用法，與本句語境不同。",
-        "front-mcq-24": "「作為最公開、最主要的代表人物領導／代表某組織或活動」是「front an organization/campaign」的用法，與本句語境不同。",
-        "front-mcq-28": "「與某物前面部分有關，或從正面而來的」是「frontal」的用法，與本句語境不同。",
-        "front-mcq-23": "「建築物／地方的正面朝向某個方向或位置」是「front + place — verb」的用法，與本句語境不同。"
+        "front-mcq-26": "本句的「fronted by」指「作為節目的主要主持／出鏡代表人物」。",
+        "front-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-26"
     },
@@ -2313,11 +2087,9 @@ export default {
       "masked": "The company was accused of ____ an illegal network.",
       "options": [
         "front-mcq-27",
-        "front-mcq-26",
-        "front-mcq-28",
-        "front-mcq-25",
-        "front-mcq-29",
-        "front-mcq-24"
+        "front-mcq-02",
+        "front-mcq-10",
+        "front-mcq-20"
       ],
       "explanation": "本句的「fronting for」指「表面代表正常活動，實際替另一項隱藏活動作掩護」。",
       "sentenceIndex": 53,
@@ -2326,12 +2098,10 @@ export default {
         "fronting for"
       ],
       "optionReasons": {
-        "front-mcq-27": "本句指「表面代表正常活動，實際替另一項隱藏活動作掩護」。",
-        "front-mcq-26": "「作為節目的主要主持／出鏡代表人物」是「front a programme」的用法，與本句語境不同。",
-        "front-mcq-28": "「與某物前面部分有關，或從正面而來的」是「frontal」的用法，與本句語境不同。",
-        "front-mcq-25": "「作為樂隊最主要代表表演者，通常擔任主唱」是「front a band」的用法，與本句語境不同。",
-        "front-mcq-29": "「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」是「frontal attack」的用法，與本句語境不同。",
-        "front-mcq-24": "「作為最公開、最主要的代表人物領導／代表某組織或活動」是「front an organization/campaign」的用法，與本句語境不同。"
+        "front-mcq-27": "本句的「fronting for」指「表面代表正常活動，實際替另一項隱藏活動作掩護」。",
+        "front-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-27"
     },
@@ -2343,11 +2113,9 @@ export default {
       "masked": "The organization allegedly ____ another group.",
       "options": [
         "front-mcq-27",
-        "front-mcq-26",
-        "front-mcq-28",
-        "front-mcq-25",
-        "front-mcq-29",
-        "front-mcq-24"
+        "front-mcq-04",
+        "front-mcq-12",
+        "front-mcq-20"
       ],
       "explanation": "本句的「fronted for」指「表面代表正常活動，實際替另一項隱藏活動作掩護」。",
       "sentenceIndex": 54,
@@ -2356,12 +2124,10 @@ export default {
         "fronted for"
       ],
       "optionReasons": {
-        "front-mcq-27": "本句指「表面代表正常活動，實際替另一項隱藏活動作掩護」。",
-        "front-mcq-26": "「作為節目的主要主持／出鏡代表人物」是「front a programme」的用法，與本句語境不同。",
-        "front-mcq-28": "「與某物前面部分有關，或從正面而來的」是「frontal」的用法，與本句語境不同。",
-        "front-mcq-25": "「作為樂隊最主要代表表演者，通常擔任主唱」是「front a band」的用法，與本句語境不同。",
-        "front-mcq-29": "「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」是「frontal attack」的用法，與本句語境不同。",
-        "front-mcq-24": "「作為最公開、最主要的代表人物領導／代表某組織或活動」是「front an organization/campaign」的用法，與本句語境不同。"
+        "front-mcq-27": "本句的「fronted for」指「表面代表正常活動，實際替另一項隱藏活動作掩護」。",
+        "front-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-27"
     },
@@ -2373,11 +2139,9 @@ export default {
       "masked": "The car suffered severe ____.",
       "options": [
         "front-mcq-28",
-        "front-mcq-27",
-        "front-mcq-29",
-        "front-mcq-26",
-        "front-mcq-30",
-        "front-mcq-25"
+        "front-mcq-12",
+        "front-mcq-16",
+        "front-mcq-31"
       ],
       "explanation": "本句的「frontal damage」指「與某物前面部分有關，或從正面而來的」。",
       "sentenceIndex": 55,
@@ -2386,12 +2150,10 @@ export default {
         "frontal damage"
       ],
       "optionReasons": {
-        "front-mcq-28": "本句指「與某物前面部分有關，或從正面而來的」。",
-        "front-mcq-27": "「表面代表正常活動，實際替另一項隱藏活動作掩護」是「front for something」的用法，與本句語境不同。",
-        "front-mcq-29": "「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」是「frontal attack」的用法，與本句語境不同。",
-        "front-mcq-26": "「作為節目的主要主持／出鏡代表人物」是「front a programme」的用法，與本句語境不同。",
-        "front-mcq-30": "「建築物／土地面向道路、河流、海岸等的正面部分或長度」是「frontage」的用法，與本句語境不同。",
-        "front-mcq-25": "「作為樂隊最主要代表表演者，通常擔任主唱」是「front a band」的用法，與本句語境不同。"
+        "front-mcq-28": "本句的「frontal damage」指「與某物前面部分有關，或從正面而來的」。",
+        "front-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-28"
     },
@@ -2403,11 +2165,9 @@ export default {
       "masked": "The photograph shows a ____ of the building.",
       "options": [
         "front-mcq-28",
-        "front-mcq-27",
-        "front-mcq-29",
-        "front-mcq-26",
-        "front-mcq-30",
-        "front-mcq-25"
+        "front-mcq-12",
+        "front-mcq-20",
+        "front-mcq-33"
       ],
       "explanation": "本句的「frontal view」指「與某物前面部分有關，或從正面而來的」。",
       "sentenceIndex": 56,
@@ -2416,12 +2176,10 @@ export default {
         "frontal view"
       ],
       "optionReasons": {
-        "front-mcq-28": "本句指「與某物前面部分有關，或從正面而來的」。",
-        "front-mcq-27": "「表面代表正常活動，實際替另一項隱藏活動作掩護」是「front for something」的用法，與本句語境不同。",
-        "front-mcq-29": "「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」是「frontal attack」的用法，與本句語境不同。",
-        "front-mcq-26": "「作為節目的主要主持／出鏡代表人物」是「front a programme」的用法，與本句語境不同。",
-        "front-mcq-30": "「建築物／土地面向道路、河流、海岸等的正面部分或長度」是「frontage」的用法，與本句語境不同。",
-        "front-mcq-25": "「作為樂隊最主要代表表演者，通常擔任主唱」是「front a band」的用法，與本句語境不同。"
+        "front-mcq-28": "本句的「frontal view」指「與某物前面部分有關，或從正面而來的」。",
+        "front-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-28"
     },
@@ -2433,11 +2191,9 @@ export default {
       "masked": "The army launched a ____.",
       "options": [
         "front-mcq-29",
-        "front-mcq-28",
-        "front-mcq-30",
-        "front-mcq-27",
-        "front-mcq-31",
-        "front-mcq-26"
+        "front-mcq-06",
+        "front-mcq-14",
+        "front-mcq-20"
       ],
       "explanation": "本句的「frontal attack」指「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」。",
       "sentenceIndex": 57,
@@ -2446,12 +2202,10 @@ export default {
         "frontal attack"
       ],
       "optionReasons": {
-        "front-mcq-29": "本句指「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」。",
-        "front-mcq-28": "「與某物前面部分有關，或從正面而來的」是「frontal」的用法，與本句語境不同。",
-        "front-mcq-30": "「建築物／土地面向道路、河流、海岸等的正面部分或長度」是「frontage」的用法，與本句語境不同。",
-        "front-mcq-27": "「表面代表正常活動，實際替另一項隱藏活動作掩護」是「front for something」的用法，與本句語境不同。",
-        "front-mcq-31": "「鄰近海、河等水域的濱水／海濱地區」是「waterfront/seafront」的用法，與本句語境不同。",
-        "front-mcq-26": "「作為節目的主要主持／出鏡代表人物」是「front a programme」的用法，與本句語境不同。"
+        "front-mcq-29": "本句的「frontal attack」指「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」。",
+        "front-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-29"
     },
@@ -2463,11 +2217,9 @@ export default {
       "masked": "The article launched a ____ on the policy.",
       "options": [
         "front-mcq-29",
-        "front-mcq-28",
-        "front-mcq-30",
-        "front-mcq-27",
-        "front-mcq-31",
-        "front-mcq-26"
+        "front-mcq-25",
+        "front-mcq-14",
+        "front-mcq-20"
       ],
       "explanation": "本句的「frontal attack」指「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」。",
       "sentenceIndex": 58,
@@ -2476,12 +2228,10 @@ export default {
         "frontal attack"
       ],
       "optionReasons": {
-        "front-mcq-29": "本句指「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」。",
-        "front-mcq-28": "「與某物前面部分有關，或從正面而來的」是「frontal」的用法，與本句語境不同。",
-        "front-mcq-30": "「建築物／土地面向道路、河流、海岸等的正面部分或長度」是「frontage」的用法，與本句語境不同。",
-        "front-mcq-27": "「表面代表正常活動，實際替另一項隱藏活動作掩護」是「front for something」的用法，與本句語境不同。",
-        "front-mcq-31": "「鄰近海、河等水域的濱水／海濱地區」是「waterfront/seafront」的用法，與本句語境不同。",
-        "front-mcq-26": "「作為節目的主要主持／出鏡代表人物」是「front a programme」的用法，與本句語境不同。"
+        "front-mcq-29": "本句的「frontal attack」指「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」。",
+        "front-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-29"
     },
@@ -2493,11 +2243,9 @@ export default {
       "masked": "The shop has twenty metres of street ____.",
       "options": [
         "front-mcq-30",
-        "front-mcq-29",
-        "front-mcq-31",
-        "front-mcq-28",
-        "front-mcq-32",
-        "front-mcq-27"
+        "front-mcq-10",
+        "front-mcq-16",
+        "front-mcq-24"
       ],
       "explanation": "本句的「frontage」指「建築物／土地面向道路、河流、海岸等的正面部分或長度」。",
       "sentenceIndex": 59,
@@ -2506,12 +2254,10 @@ export default {
         "frontage"
       ],
       "optionReasons": {
-        "front-mcq-30": "本句指「建築物／土地面向道路、河流、海岸等的正面部分或長度」。",
-        "front-mcq-29": "「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」是「frontal attack」的用法，與本句語境不同。",
-        "front-mcq-31": "「鄰近海、河等水域的濱水／海濱地區」是「waterfront/seafront」的用法，與本句語境不同。",
-        "front-mcq-28": "「與某物前面部分有關，或從正面而來的」是「frontal」的用法，與本句語境不同。",
-        "front-mcq-32": "「在幾個不同方面／領域同時面對行動、問題或競爭」是「18. front = area of conflict/activity（戰線／方面） — 戰線；方面」的用法，與本句語境不同。",
-        "front-mcq-27": "「表面代表正常活動，實際替另一項隱藏活動作掩護」是「front for something」的用法，與本句語境不同。"
+        "front-mcq-30": "本句的「frontage」指「建築物／土地面向道路、河流、海岸等的正面部分或長度」。",
+        "front-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-30"
     },
@@ -2523,11 +2269,9 @@ export default {
       "masked": "Properties with sea ____ are expensive.",
       "options": [
         "front-mcq-30",
-        "front-mcq-29",
-        "front-mcq-31",
-        "front-mcq-28",
-        "front-mcq-32",
-        "front-mcq-27"
+        "front-mcq-10",
+        "front-mcq-22",
+        "front-mcq-20"
       ],
       "explanation": "本句的「frontage」指「建築物／土地面向道路、河流、海岸等的正面部分或長度」。",
       "sentenceIndex": 60,
@@ -2536,12 +2280,10 @@ export default {
         "frontage"
       ],
       "optionReasons": {
-        "front-mcq-30": "本句指「建築物／土地面向道路、河流、海岸等的正面部分或長度」。",
-        "front-mcq-29": "「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」是「frontal attack」的用法，與本句語境不同。",
-        "front-mcq-31": "「鄰近海、河等水域的濱水／海濱地區」是「waterfront/seafront」的用法，與本句語境不同。",
-        "front-mcq-28": "「與某物前面部分有關，或從正面而來的」是「frontal」的用法，與本句語境不同。",
-        "front-mcq-32": "「在幾個不同方面／領域同時面對行動、問題或競爭」是「18. front = area of conflict/activity（戰線／方面） — 戰線；方面」的用法，與本句語境不同。",
-        "front-mcq-27": "「表面代表正常活動，實際替另一項隱藏活動作掩護」是「front for something」的用法，與本句語境不同。"
+        "front-mcq-30": "本句的「frontage」指「建築物／土地面向道路、河流、海岸等的正面部分或長度」。",
+        "front-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-30"
     },
@@ -2553,11 +2295,9 @@ export default {
       "masked": "We had dinner near the ____.",
       "options": [
         "front-mcq-31",
-        "front-mcq-30",
-        "front-mcq-32",
-        "front-mcq-29",
-        "front-mcq-33",
-        "front-mcq-28"
+        "front-mcq-02",
+        "front-mcq-17",
+        "front-mcq-20"
       ],
       "explanation": "本句的「waterfront」指「鄰近海、河等水域的濱水／海濱地區」。",
       "sentenceIndex": 61,
@@ -2566,12 +2306,10 @@ export default {
         "waterfront"
       ],
       "optionReasons": {
-        "front-mcq-31": "本句指「鄰近海、河等水域的濱水／海濱地區」。",
-        "front-mcq-30": "「建築物／土地面向道路、河流、海岸等的正面部分或長度」是「frontage」的用法，與本句語境不同。",
-        "front-mcq-32": "「在幾個不同方面／領域同時面對行動、問題或競爭」是「18. front = area of conflict/activity（戰線／方面） — 戰線；方面」的用法，與本句語境不同。",
-        "front-mcq-29": "「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」是「frontal attack」的用法，與本句語境不同。",
-        "front-mcq-33": "「為共同目標聯合行動的一群組織／人物，或共同展現的立場」是「21. front = organized political/social movement grouping（陣線／聯盟） — 陣線；聯盟」的用法，與本句語境不同。",
-        "front-mcq-28": "「與某物前面部分有關，或從正面而來的」是「frontal」的用法，與本句語境不同。"
+        "front-mcq-31": "本句的「waterfront」指「鄰近海、河等水域的濱水／海濱地區」。",
+        "front-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-31"
     },
@@ -2583,10 +2321,8 @@ export default {
       "masked": "The hotel is on the ____.",
       "options": [
         "front-mcq-31",
-        "front-mcq-30",
-        "front-mcq-32",
-        "front-mcq-29",
-        "front-mcq-33",
+        "front-mcq-24",
+        "front-mcq-22",
         "front-mcq-28"
       ],
       "explanation": "本句的「seafront」指「鄰近海、河等水域的濱水／海濱地區」。",
@@ -2596,12 +2332,10 @@ export default {
         "seafront"
       ],
       "optionReasons": {
-        "front-mcq-31": "本句指「鄰近海、河等水域的濱水／海濱地區」。",
-        "front-mcq-30": "「建築物／土地面向道路、河流、海岸等的正面部分或長度」是「frontage」的用法，與本句語境不同。",
-        "front-mcq-32": "「在幾個不同方面／領域同時面對行動、問題或競爭」是「18. front = area of conflict/activity（戰線／方面） — 戰線；方面」的用法，與本句語境不同。",
-        "front-mcq-29": "「從正面直接進攻；比喻毫不迂迴地直接批評／挑戰」是「frontal attack」的用法，與本句語境不同。",
-        "front-mcq-33": "「為共同目標聯合行動的一群組織／人物，或共同展現的立場」是「21. front = organized political/social movement grouping（陣線／聯盟） — 陣線；聯盟」的用法，與本句語境不同。",
-        "front-mcq-28": "「與某物前面部分有關，或從正面而來的」是「frontal」的用法，與本句語境不同。"
+        "front-mcq-31": "本句的「seafront」指「鄰近海、河等水域的濱水／海濱地區」。",
+        "front-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "front-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "front-mcq-31"
     }
@@ -2613,5 +2347,7 @@ export default {
     "sha256": "8cab56f5277a9e6b6371b7d6422f6ce3a50bf9f393d897705230dca871e4e8f1",
     "pages": 26
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

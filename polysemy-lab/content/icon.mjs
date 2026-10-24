@@ -214,11 +214,7 @@ export default {
       "masked": "The church contains several ancient ____.",
       "options": [
         "icon-mcq-01",
-        "icon-mcq-02",
-        "icon-mcq-03",
-        "icon-mcq-04",
-        "icon-mcq-05",
-        "icon-mcq-06"
+        "icon-mcq-05"
       ],
       "explanation": "本句的「icons」指「宗教中受到尊崇的神聖圖像，尤指東正教聖像」。",
       "sentenceIndex": 0,
@@ -227,12 +223,8 @@ export default {
         "icons"
       ],
       "optionReasons": {
-        "icon-mcq-01": "本句指「宗教中受到尊崇的神聖圖像，尤指東正教聖像」。",
-        "icon-mcq-02": "「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」與本句語境不同。",
-        "icon-mcq-03": "「電腦或手機介面中代表程式、功能、檔案或操作的小型圖示」與本句語境不同。",
-        "icon-mcq-04": "「因外形或特徵與所代表事物相似而具有意義的像似符號」與本句語境不同。",
-        "icon-mcq-05": "「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」與本句語境不同。",
-        "icon-mcq-06": "「因與所指事物具有相似性而形成的；像似符號性的」與本句語境不同。"
+        "icon-mcq-01": "本句的「icons」指「宗教中受到尊崇的神聖圖像，尤指東正教聖像」。",
+        "icon-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "icon-mcq-01"
     },
@@ -244,11 +236,7 @@ export default {
       "masked": "The ____ was displayed near the altar.",
       "options": [
         "icon-mcq-01",
-        "icon-mcq-02",
-        "icon-mcq-03",
-        "icon-mcq-04",
-        "icon-mcq-05",
-        "icon-mcq-06"
+        "icon-mcq-02"
       ],
       "explanation": "本句的「icon」指「宗教中受到尊崇的神聖圖像，尤指東正教聖像」。",
       "sentenceIndex": 1,
@@ -257,12 +245,8 @@ export default {
         "icon"
       ],
       "optionReasons": {
-        "icon-mcq-01": "本句指「宗教中受到尊崇的神聖圖像，尤指東正教聖像」。",
-        "icon-mcq-02": "「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」與本句語境不同。",
-        "icon-mcq-03": "「電腦或手機介面中代表程式、功能、檔案或操作的小型圖示」與本句語境不同。",
-        "icon-mcq-04": "「因外形或特徵與所代表事物相似而具有意義的像似符號」與本句語境不同。",
-        "icon-mcq-05": "「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」與本句語境不同。",
-        "icon-mcq-06": "「因與所指事物具有相似性而形成的；像似符號性的」與本句語境不同。"
+        "icon-mcq-01": "本句的「icon」指「宗教中受到尊崇的神聖圖像，尤指東正教聖像」。",
+        "icon-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "icon-mcq-01"
     },
@@ -274,11 +258,8 @@ export default {
       "masked": "She became a fashion ____.",
       "options": [
         "icon-mcq-02",
-        "icon-mcq-01",
-        "icon-mcq-03",
-        "icon-mcq-04",
-        "icon-mcq-05",
-        "icon-mcq-06"
+        "icon-mcq-08",
+        "icon-mcq-09"
       ],
       "explanation": "本句的「icon」指「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」。",
       "sentenceIndex": 2,
@@ -287,12 +268,9 @@ export default {
         "icon"
       ],
       "optionReasons": {
-        "icon-mcq-02": "本句指「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」。",
-        "icon-mcq-01": "「宗教中受到尊崇的神聖圖像，尤指東正教聖像」與本句語境不同。",
-        "icon-mcq-03": "「電腦或手機介面中代表程式、功能、檔案或操作的小型圖示」與本句語境不同。",
-        "icon-mcq-04": "「因外形或特徵與所代表事物相似而具有意義的像似符號」與本句語境不同。",
-        "icon-mcq-05": "「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」與本句語境不同。",
-        "icon-mcq-06": "「因與所指事物具有相似性而形成的；像似符號性的」與本句語境不同。"
+        "icon-mcq-02": "本句的「icon」指「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」。",
+        "icon-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "icon-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "icon-mcq-02"
     },
@@ -304,11 +282,7 @@ export default {
       "masked": "The bridge is an architectural ____.",
       "options": [
         "icon-mcq-02",
-        "icon-mcq-01",
-        "icon-mcq-03",
-        "icon-mcq-04",
-        "icon-mcq-05",
-        "icon-mcq-06"
+        "icon-mcq-01"
       ],
       "explanation": "本句的「icon」指「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」。",
       "sentenceIndex": 3,
@@ -317,12 +291,8 @@ export default {
         "icon"
       ],
       "optionReasons": {
-        "icon-mcq-02": "本句指「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」。",
-        "icon-mcq-01": "「宗教中受到尊崇的神聖圖像，尤指東正教聖像」與本句語境不同。",
-        "icon-mcq-03": "「電腦或手機介面中代表程式、功能、檔案或操作的小型圖示」與本句語境不同。",
-        "icon-mcq-04": "「因外形或特徵與所代表事物相似而具有意義的像似符號」與本句語境不同。",
-        "icon-mcq-05": "「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」與本句語境不同。",
-        "icon-mcq-06": "「因與所指事物具有相似性而形成的；像似符號性的」與本句語境不同。"
+        "icon-mcq-02": "本句的「icon」指「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」。",
+        "icon-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "icon-mcq-02"
     },
@@ -334,11 +304,8 @@ export default {
       "masked": "He is regarded as a music ____.",
       "options": [
         "icon-mcq-02",
-        "icon-mcq-01",
-        "icon-mcq-03",
-        "icon-mcq-04",
-        "icon-mcq-05",
-        "icon-mcq-06"
+        "icon-mcq-08",
+        "icon-mcq-09"
       ],
       "explanation": "本句的「icon」指「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」。",
       "sentenceIndex": 4,
@@ -347,12 +314,9 @@ export default {
         "icon"
       ],
       "optionReasons": {
-        "icon-mcq-02": "本句指「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」。",
-        "icon-mcq-01": "「宗教中受到尊崇的神聖圖像，尤指東正教聖像」與本句語境不同。",
-        "icon-mcq-03": "「電腦或手機介面中代表程式、功能、檔案或操作的小型圖示」與本句語境不同。",
-        "icon-mcq-04": "「因外形或特徵與所代表事物相似而具有意義的像似符號」與本句語境不同。",
-        "icon-mcq-05": "「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」與本句語境不同。",
-        "icon-mcq-06": "「因與所指事物具有相似性而形成的；像似符號性的」與本句語境不同。"
+        "icon-mcq-02": "本句的「icon」指「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」。",
+        "icon-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "icon-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "icon-mcq-02"
     },
@@ -364,11 +328,8 @@ export default {
       "masked": "The actor became a global ____.",
       "options": [
         "icon-mcq-02",
-        "icon-mcq-01",
-        "icon-mcq-03",
-        "icon-mcq-04",
-        "icon-mcq-05",
-        "icon-mcq-06"
+        "icon-mcq-09",
+        "icon-mcq-08"
       ],
       "explanation": "本句的「icon」指「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」。",
       "sentenceIndex": 5,
@@ -377,12 +338,9 @@ export default {
         "icon"
       ],
       "optionReasons": {
-        "icon-mcq-02": "本句指「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」。",
-        "icon-mcq-01": "「宗教中受到尊崇的神聖圖像，尤指東正教聖像」與本句語境不同。",
-        "icon-mcq-03": "「電腦或手機介面中代表程式、功能、檔案或操作的小型圖示」與本句語境不同。",
-        "icon-mcq-04": "「因外形或特徵與所代表事物相似而具有意義的像似符號」與本句語境不同。",
-        "icon-mcq-05": "「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」與本句語境不同。",
-        "icon-mcq-06": "「因與所指事物具有相似性而形成的；像似符號性的」與本句語境不同。"
+        "icon-mcq-02": "本句的「icon」指「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」。",
+        "icon-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "icon-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "icon-mcq-02"
     },
@@ -394,11 +352,8 @@ export default {
       "masked": "Click the settings ____.",
       "options": [
         "icon-mcq-03",
-        "icon-mcq-02",
-        "icon-mcq-04",
-        "icon-mcq-01",
-        "icon-mcq-05",
-        "icon-mcq-06"
+        "icon-mcq-09",
+        "icon-pdf-001"
       ],
       "explanation": "本句的「icon」指「電腦或手機介面中代表程式、功能、檔案或操作的小型圖示」。",
       "sentenceIndex": 6,
@@ -407,12 +362,9 @@ export default {
         "icon"
       ],
       "optionReasons": {
-        "icon-mcq-03": "本句指「電腦或手機介面中代表程式、功能、檔案或操作的小型圖示」。",
-        "icon-mcq-02": "「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」與本句語境不同。",
-        "icon-mcq-04": "「因外形或特徵與所代表事物相似而具有意義的像似符號」與本句語境不同。",
-        "icon-mcq-01": "「宗教中受到尊崇的神聖圖像，尤指東正教聖像」與本句語境不同。",
-        "icon-mcq-05": "「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」與本句語境不同。",
-        "icon-mcq-06": "「因與所指事物具有相似性而形成的；像似符號性的」與本句語境不同。"
+        "icon-mcq-03": "本句的「icon」指「電腦或手機介面中代表程式、功能、檔案或操作的小型圖示」。",
+        "icon-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "icon-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "icon-mcq-03"
     },
@@ -424,11 +376,8 @@ export default {
       "masked": "Drag the file onto the trash ____.",
       "options": [
         "icon-mcq-03",
-        "icon-mcq-02",
-        "icon-mcq-04",
-        "icon-mcq-01",
-        "icon-mcq-05",
-        "icon-mcq-06"
+        "icon-mcq-09",
+        "icon-pdf-001"
       ],
       "explanation": "本句的「icon」指「電腦或手機介面中代表程式、功能、檔案或操作的小型圖示」。",
       "sentenceIndex": 7,
@@ -437,12 +386,9 @@ export default {
         "icon"
       ],
       "optionReasons": {
-        "icon-mcq-03": "本句指「電腦或手機介面中代表程式、功能、檔案或操作的小型圖示」。",
-        "icon-mcq-02": "「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」與本句語境不同。",
-        "icon-mcq-04": "「因外形或特徵與所代表事物相似而具有意義的像似符號」與本句語境不同。",
-        "icon-mcq-01": "「宗教中受到尊崇的神聖圖像，尤指東正教聖像」與本句語境不同。",
-        "icon-mcq-05": "「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」與本句語境不同。",
-        "icon-mcq-06": "「因與所指事物具有相似性而形成的；像似符號性的」與本句語境不同。"
+        "icon-mcq-03": "本句的「icon」指「電腦或手機介面中代表程式、功能、檔案或操作的小型圖示」。",
+        "icon-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "icon-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "icon-mcq-03"
     },
@@ -454,10 +400,6 @@ export default {
       "masked": "In semiotics, a portrait can function as an ____.",
       "options": [
         "icon-mcq-04",
-        "icon-mcq-03",
-        "icon-mcq-05",
-        "icon-mcq-02",
-        "icon-mcq-06",
         "icon-mcq-01"
       ],
       "explanation": "本句的「icon」指「因外形或特徵與所代表事物相似而具有意義的像似符號」。",
@@ -467,12 +409,8 @@ export default {
         "icon"
       ],
       "optionReasons": {
-        "icon-mcq-04": "本句指「因外形或特徵與所代表事物相似而具有意義的像似符號」。",
-        "icon-mcq-03": "「電腦或手機介面中代表程式、功能、檔案或操作的小型圖示」與本句語境不同。",
-        "icon-mcq-05": "「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」與本句語境不同。",
-        "icon-mcq-02": "「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」與本句語境不同。",
-        "icon-mcq-06": "「因與所指事物具有相似性而形成的；像似符號性的」與本句語境不同。",
-        "icon-mcq-01": "「宗教中受到尊崇的神聖圖像，尤指東正教聖像」與本句語境不同。"
+        "icon-mcq-04": "本句的「icon」指「因外形或特徵與所代表事物相似而具有意義的像似符號」。",
+        "icon-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "icon-mcq-04"
     },
@@ -484,11 +422,8 @@ export default {
       "masked": "The sign uses familiar ____ for food and transport.",
       "options": [
         "icon-mcq-07",
-        "icon-mcq-06",
-        "icon-mcq-08",
-        "icon-mcq-05",
-        "icon-mcq-09",
-        "icon-mcq-04"
+        "icon-mcq-04",
+        "icon-mcq-09"
       ],
       "explanation": "本句的「icons」指「某主題／文化中的圖像象徵系統；亦指研究圖像象徵的藝術史方法」。",
       "sentenceIndex": 9,
@@ -497,12 +432,9 @@ export default {
         "icons"
       ],
       "optionReasons": {
-        "icon-mcq-07": "本句指「某主題／文化中的圖像象徵系統；亦指研究圖像象徵的藝術史方法」。",
-        "icon-mcq-06": "「因與所指事物具有相似性而形成的；像似符號性的」與本句語境不同。",
-        "icon-mcq-08": "「與圖像符號系統或圖像學有關的」與本句語境不同。",
-        "icon-mcq-05": "「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」與本句語境不同。",
-        "icon-mcq-09": "「原指破壞聖像者；現亦可指挑戰傳統觀念的人」與本句語境不同。",
-        "icon-mcq-04": "「因外形或特徵與所代表事物相似而具有意義的像似符號」與本句語境不同。"
+        "icon-mcq-07": "本句的「icons」指「某主題／文化中的圖像象徵系統；亦指研究圖像象徵的藝術史方法」。",
+        "icon-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "icon-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "icon-mcq-07"
     },
@@ -514,11 +446,8 @@ export default {
       "masked": "It may not be the most ____ building in Hong Kong.",
       "options": [
         "icon-mcq-05",
-        "icon-mcq-04",
-        "icon-mcq-06",
-        "icon-mcq-03",
-        "icon-mcq-07",
-        "icon-mcq-02"
+        "icon-mcq-09",
+        "icon-mcq-08"
       ],
       "explanation": "本句的「iconic」指「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」。",
       "sentenceIndex": 10,
@@ -527,12 +456,9 @@ export default {
         "iconic"
       ],
       "optionReasons": {
-        "icon-mcq-05": "本句指「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」。",
-        "icon-mcq-04": "「因外形或特徵與所代表事物相似而具有意義的像似符號」與本句語境不同。",
-        "icon-mcq-06": "「因與所指事物具有相似性而形成的；像似符號性的」與本句語境不同。",
-        "icon-mcq-03": "「電腦或手機介面中代表程式、功能、檔案或操作的小型圖示」與本句語境不同。",
-        "icon-mcq-07": "「某主題／文化中的圖像象徵系統；亦指研究圖像象徵的藝術史方法」與本句語境不同。",
-        "icon-mcq-02": "「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」與本句語境不同。"
+        "icon-mcq-05": "本句的「iconic」指「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」。",
+        "icon-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "icon-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "icon-mcq-05"
     },
@@ -544,11 +470,8 @@ export default {
       "masked": "The tower has become an ____ part of the city skyline.",
       "options": [
         "icon-mcq-05",
-        "icon-mcq-04",
-        "icon-mcq-06",
-        "icon-mcq-03",
-        "icon-mcq-07",
-        "icon-mcq-02"
+        "icon-mcq-09",
+        "icon-mcq-08"
       ],
       "explanation": "本句的「iconic」指「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」。",
       "sentenceIndex": 11,
@@ -557,12 +480,9 @@ export default {
         "iconic"
       ],
       "optionReasons": {
-        "icon-mcq-05": "本句指「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」。",
-        "icon-mcq-04": "「因外形或特徵與所代表事物相似而具有意義的像似符號」與本句語境不同。",
-        "icon-mcq-06": "「因與所指事物具有相似性而形成的；像似符號性的」與本句語境不同。",
-        "icon-mcq-03": "「電腦或手機介面中代表程式、功能、檔案或操作的小型圖示」與本句語境不同。",
-        "icon-mcq-07": "「某主題／文化中的圖像象徵系統；亦指研究圖像象徵的藝術史方法」與本句語境不同。",
-        "icon-mcq-02": "「因極高知名度、影響力或辨識度而成為某領域、地方、文化或時代代表的人／事物」與本句語境不同。"
+        "icon-mcq-05": "本句的「iconic」指「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」。",
+        "icon-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "icon-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "icon-mcq-05"
     },
@@ -574,11 +494,8 @@ export default {
       "masked": "The painting uses traditional religious ____.",
       "options": [
         "icon-pdf-001",
-        "icon-mcq-06",
-        "icon-mcq-08",
-        "icon-mcq-05",
         "icon-mcq-09",
-        "icon-mcq-04"
+        "icon-mcq-03"
       ],
       "explanation": "本句的「iconography」指「某種宗教、文化、人物、主題或時期中反覆使用的一整套圖像和象徵」。",
       "sentenceIndex": 16,
@@ -587,12 +504,9 @@ export default {
         "iconography"
       ],
       "optionReasons": {
-        "icon-pdf-001": "本句指「某種宗教、文化、人物、主題或時期中反覆使用的一整套圖像和象徵」。",
-        "icon-mcq-06": "「因與所指事物具有相似性而形成的；像似符號性的」與本句語境不同。",
-        "icon-mcq-08": "「與圖像符號系統或圖像學有關的」與本句語境不同。",
-        "icon-mcq-05": "「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」與本句語境不同。",
-        "icon-mcq-09": "「原指破壞聖像者；現亦可指挑戰傳統觀念的人」與本句語境不同。",
-        "icon-mcq-04": "「因外形或特徵與所代表事物相似而具有意義的像似符號」與本句語境不同。"
+        "icon-pdf-001": "本句的「iconography」指「某種宗教、文化、人物、主題或時期中反覆使用的一整套圖像和象徵」。",
+        "icon-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "icon-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "icon-pdf-001"
     },
@@ -604,11 +518,8 @@ export default {
       "masked": "The course introduces Renaissance ____.",
       "options": [
         "icon-mcq-07",
-        "icon-mcq-06",
-        "icon-mcq-08",
-        "icon-mcq-05",
-        "icon-mcq-09",
-        "icon-mcq-04"
+        "icon-mcq-04",
+        "icon-mcq-09"
       ],
       "explanation": "本句的「iconography」指「某主題／文化中的圖像象徵系統；亦指研究圖像象徵的藝術史方法」。",
       "sentenceIndex": 17,
@@ -617,12 +528,9 @@ export default {
         "iconography"
       ],
       "optionReasons": {
-        "icon-mcq-07": "本句指「某主題／文化中的圖像象徵系統；亦指研究圖像象徵的藝術史方法」。",
-        "icon-mcq-06": "「因與所指事物具有相似性而形成的；像似符號性的」與本句語境不同。",
-        "icon-mcq-08": "「與圖像符號系統或圖像學有關的」與本句語境不同。",
-        "icon-mcq-05": "「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」與本句語境不同。",
-        "icon-mcq-09": "「原指破壞聖像者；現亦可指挑戰傳統觀念的人」與本句語境不同。",
-        "icon-mcq-04": "「因外形或特徵與所代表事物相似而具有意義的像似符號」與本句語境不同。"
+        "icon-mcq-07": "本句的「iconography」指「某主題／文化中的圖像象徵系統；亦指研究圖像象徵的藝術史方法」。",
+        "icon-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "icon-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "icon-mcq-07"
     },
@@ -634,11 +542,8 @@ export default {
       "masked": "The work contains rich ____ detail.",
       "options": [
         "icon-mcq-08",
-        "icon-mcq-07",
-        "icon-mcq-09",
-        "icon-mcq-06",
-        "icon-mcq-05",
-        "icon-mcq-04"
+        "icon-mcq-02",
+        "icon-mcq-09"
       ],
       "explanation": "本句的「iconographic」指「與圖像符號系統或圖像學有關的」。",
       "sentenceIndex": 18,
@@ -647,12 +552,9 @@ export default {
         "iconographic"
       ],
       "optionReasons": {
-        "icon-mcq-08": "本句指「與圖像符號系統或圖像學有關的」。",
-        "icon-mcq-07": "「某主題／文化中的圖像象徵系統；亦指研究圖像象徵的藝術史方法」與本句語境不同。",
-        "icon-mcq-09": "「原指破壞聖像者；現亦可指挑戰傳統觀念的人」與本句語境不同。",
-        "icon-mcq-06": "「因與所指事物具有相似性而形成的；像似符號性的」與本句語境不同。",
-        "icon-mcq-05": "「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」與本句語境不同。",
-        "icon-mcq-04": "「因外形或特徵與所代表事物相似而具有意義的像似符號」與本句語境不同。"
+        "icon-mcq-08": "本句的「iconographic」指「與圖像符號系統或圖像學有關的」。",
+        "icon-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "icon-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "icon-mcq-08"
     },
@@ -664,11 +566,8 @@ export default {
       "masked": "The artist was regarded as an ____.",
       "options": [
         "icon-mcq-09",
-        "icon-mcq-08",
-        "icon-mcq-07",
-        "icon-mcq-06",
         "icon-mcq-05",
-        "icon-mcq-04"
+        "icon-mcq-08"
       ],
       "explanation": "本句的「iconoclast」指「原指破壞聖像者；現亦可指挑戰傳統觀念的人」。",
       "sentenceIndex": 19,
@@ -677,12 +576,9 @@ export default {
         "iconoclast"
       ],
       "optionReasons": {
-        "icon-mcq-09": "本句指「原指破壞聖像者；現亦可指挑戰傳統觀念的人」。",
-        "icon-mcq-08": "「與圖像符號系統或圖像學有關的」與本句語境不同。",
-        "icon-mcq-07": "「某主題／文化中的圖像象徵系統；亦指研究圖像象徵的藝術史方法」與本句語境不同。",
-        "icon-mcq-06": "「因與所指事物具有相似性而形成的；像似符號性的」與本句語境不同。",
-        "icon-mcq-05": "「極具辨識度、知名度和代表性，能象徵某地方、文化、時代或風格的」與本句語境不同。",
-        "icon-mcq-04": "「因外形或特徵與所代表事物相似而具有意義的像似符號」與本句語境不同。"
+        "icon-mcq-09": "本句的「iconoclast」指「原指破壞聖像者；現亦可指挑戰傳統觀念的人」。",
+        "icon-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "icon-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "icon-mcq-09"
     }
@@ -694,5 +590,7 @@ export default {
     "sha256": "c94a0f30d47bd44f5958a011b3177631d7d721166a100ca3907f9a308d49e440",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

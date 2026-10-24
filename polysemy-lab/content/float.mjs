@@ -450,11 +450,9 @@ export default {
       "masked": "The leaves ____ on the pond.",
       "options": [
         "float-mcq-01",
-        "float-mcq-02",
-        "float-mcq-03",
-        "float-mcq-04",
-        "float-mcq-05",
-        "float-mcq-06"
+        "float-mcq-06",
+        "float-mcq-11",
+        "float-mcq-07"
       ],
       "explanation": "本句的「floated」指「因浮力而停留在液體表面／其中，而不沉下去」。",
       "sentenceIndex": 0,
@@ -463,12 +461,10 @@ export default {
         "floated"
       ],
       "optionReasons": {
-        "float-mcq-01": "本句指「因浮力而停留在液體表面／其中，而不沉下去」。",
-        "float-mcq-02": "「在水面上隨水流或輕微力量緩慢漂動」與本句語境不同。",
-        "float-mcq-03": "「在空氣中輕輕停留或移動」與本句語境不同。",
-        "float-mcq-04": "「看起來沒有重量感或固定位置，彷彿輕輕漂移的」與本句語境不同。",
-        "float-mcq-05": "「以非常輕盈、流暢、幾乎沒有重量感的方式移動」與本句語境不同。",
-        "float-mcq-06": "「沒有明確固定方向地緩慢移動／轉移」與本句語境不同。"
+        "float-mcq-01": "本句的「floated」指「因浮力而停留在液體表面／其中，而不沉下去」。",
+        "float-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-01"
     },
@@ -480,11 +476,9 @@ export default {
       "masked": "Oil ____ on water.",
       "options": [
         "float-mcq-01",
-        "float-mcq-02",
-        "float-mcq-03",
-        "float-mcq-04",
-        "float-mcq-05",
-        "float-mcq-06"
+        "float-mcq-18",
+        "float-mcq-08",
+        "float-mcq-19"
       ],
       "explanation": "本句的「floats」指「因浮力而停留在液體表面／其中，而不沉下去」。",
       "sentenceIndex": 1,
@@ -493,12 +487,10 @@ export default {
         "floats"
       ],
       "optionReasons": {
-        "float-mcq-01": "本句指「因浮力而停留在液體表面／其中，而不沉下去」。",
-        "float-mcq-02": "「在水面上隨水流或輕微力量緩慢漂動」與本句語境不同。",
-        "float-mcq-03": "「在空氣中輕輕停留或移動」與本句語境不同。",
-        "float-mcq-04": "「看起來沒有重量感或固定位置，彷彿輕輕漂移的」與本句語境不同。",
-        "float-mcq-05": "「以非常輕盈、流暢、幾乎沒有重量感的方式移動」與本句語境不同。",
-        "float-mcq-06": "「沒有明確固定方向地緩慢移動／轉移」與本句語境不同。"
+        "float-mcq-01": "本句的「floats」指「因浮力而停留在液體表面／其中，而不沉下去」。",
+        "float-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-01"
     },
@@ -510,11 +502,9 @@ export default {
       "masked": "A small boat ____ slowly across the lake.",
       "options": [
         "float-mcq-02",
-        "float-mcq-01",
-        "float-mcq-03",
-        "float-mcq-04",
-        "float-mcq-05",
-        "float-mcq-06"
+        "float-mcq-11",
+        "float-mcq-08",
+        "float-mcq-14"
       ],
       "explanation": "本句的「floated」指「在水面上隨水流或輕微力量緩慢漂動」。",
       "sentenceIndex": 2,
@@ -523,12 +513,10 @@ export default {
         "floated"
       ],
       "optionReasons": {
-        "float-mcq-02": "本句指「在水面上隨水流或輕微力量緩慢漂動」。",
-        "float-mcq-01": "「因浮力而停留在液體表面／其中，而不沉下去」與本句語境不同。",
-        "float-mcq-03": "「在空氣中輕輕停留或移動」與本句語境不同。",
-        "float-mcq-04": "「看起來沒有重量感或固定位置，彷彿輕輕漂移的」與本句語境不同。",
-        "float-mcq-05": "「以非常輕盈、流暢、幾乎沒有重量感的方式移動」與本句語境不同。",
-        "float-mcq-06": "「沒有明確固定方向地緩慢移動／轉移」與本句語境不同。"
+        "float-mcq-02": "本句的「floated」指「在水面上隨水流或輕微力量緩慢漂動」。",
+        "float-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-02"
     },
@@ -540,11 +528,9 @@ export default {
       "masked": "Petals ____ downstream.",
       "options": [
         "float-mcq-02",
-        "float-mcq-01",
-        "float-mcq-03",
-        "float-mcq-04",
-        "float-mcq-05",
-        "float-mcq-06"
+        "float-mcq-11",
+        "float-mcq-14",
+        "float-mcq-07"
       ],
       "explanation": "本句的「floated」指「在水面上隨水流或輕微力量緩慢漂動」。",
       "sentenceIndex": 3,
@@ -553,12 +539,10 @@ export default {
         "floated"
       ],
       "optionReasons": {
-        "float-mcq-02": "本句指「在水面上隨水流或輕微力量緩慢漂動」。",
-        "float-mcq-01": "「因浮力而停留在液體表面／其中，而不沉下去」與本句語境不同。",
-        "float-mcq-03": "「在空氣中輕輕停留或移動」與本句語境不同。",
-        "float-mcq-04": "「看起來沒有重量感或固定位置，彷彿輕輕漂移的」與本句語境不同。",
-        "float-mcq-05": "「以非常輕盈、流暢、幾乎沒有重量感的方式移動」與本句語境不同。",
-        "float-mcq-06": "「沒有明確固定方向地緩慢移動／轉移」與本句語境不同。"
+        "float-mcq-02": "本句的「floated」指「在水面上隨水流或輕微力量緩慢漂動」。",
+        "float-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-02"
     },
@@ -570,11 +554,9 @@ export default {
       "masked": "A feather ____ through the air.",
       "options": [
         "float-mcq-03",
-        "float-mcq-02",
-        "float-mcq-04",
-        "float-mcq-01",
-        "float-mcq-05",
-        "float-mcq-06"
+        "float-mcq-13",
+        "float-mcq-17",
+        "float-mcq-19"
       ],
       "explanation": "本句的「floated」指「在空氣中輕輕停留或移動」。",
       "sentenceIndex": 4,
@@ -583,12 +565,10 @@ export default {
         "floated"
       ],
       "optionReasons": {
-        "float-mcq-03": "本句指「在空氣中輕輕停留或移動」。",
-        "float-mcq-02": "「在水面上隨水流或輕微力量緩慢漂動」與本句語境不同。",
-        "float-mcq-04": "「看起來沒有重量感或固定位置，彷彿輕輕漂移的」與本句語境不同。",
-        "float-mcq-01": "「因浮力而停留在液體表面／其中，而不沉下去」與本句語境不同。",
-        "float-mcq-05": "「以非常輕盈、流暢、幾乎沒有重量感的方式移動」與本句語境不同。",
-        "float-mcq-06": "「沒有明確固定方向地緩慢移動／轉移」與本句語境不同。"
+        "float-mcq-03": "本句的「floated」指「在空氣中輕輕停留或移動」。",
+        "float-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-03"
     },
@@ -600,11 +580,9 @@ export default {
       "masked": "Dust ____ in the sunlight.",
       "options": [
         "float-mcq-03",
-        "float-mcq-02",
-        "float-mcq-04",
-        "float-mcq-01",
-        "float-mcq-05",
-        "float-mcq-06"
+        "float-mcq-15",
+        "float-mcq-16",
+        "float-mcq-13"
       ],
       "explanation": "本句的「floated」指「在空氣中輕輕停留或移動」。",
       "sentenceIndex": 5,
@@ -613,12 +591,10 @@ export default {
         "floated"
       ],
       "optionReasons": {
-        "float-mcq-03": "本句指「在空氣中輕輕停留或移動」。",
-        "float-mcq-02": "「在水面上隨水流或輕微力量緩慢漂動」與本句語境不同。",
-        "float-mcq-04": "「看起來沒有重量感或固定位置，彷彿輕輕漂移的」與本句語境不同。",
-        "float-mcq-01": "「因浮力而停留在液體表面／其中，而不沉下去」與本句語境不同。",
-        "float-mcq-05": "「以非常輕盈、流暢、幾乎沒有重量感的方式移動」與本句語境不同。",
-        "float-mcq-06": "「沒有明確固定方向地緩慢移動／轉移」與本句語境不同。"
+        "float-mcq-03": "本句的「floated」指「在空氣中輕輕停留或移動」。",
+        "float-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-03"
     },
@@ -630,11 +606,9 @@ export default {
       "masked": "I noticed the quiet, ____.",
       "options": [
         "float-mcq-04",
-        "float-mcq-03",
-        "float-mcq-05",
-        "float-mcq-02",
-        "float-mcq-06",
-        "float-mcq-01"
+        "float-mcq-11",
+        "float-mcq-01",
+        "float-mcq-08"
       ],
       "explanation": "本句的「floating light」指「看起來沒有重量感或固定位置，彷彿輕輕漂移的」。",
       "sentenceIndex": 6,
@@ -643,12 +617,10 @@ export default {
         "floating light"
       ],
       "optionReasons": {
-        "float-mcq-04": "本句指「看起來沒有重量感或固定位置，彷彿輕輕漂移的」。",
-        "float-mcq-03": "「在空氣中輕輕停留或移動」與本句語境不同。",
-        "float-mcq-05": "「以非常輕盈、流暢、幾乎沒有重量感的方式移動」與本句語境不同。",
-        "float-mcq-02": "「在水面上隨水流或輕微力量緩慢漂動」與本句語境不同。",
-        "float-mcq-06": "「沒有明確固定方向地緩慢移動／轉移」與本句語境不同。",
-        "float-mcq-01": "「因浮力而停留在液體表面／其中，而不沉下去」與本句語境不同。"
+        "float-mcq-04": "本句的「floating light」指「看起來沒有重量感或固定位置，彷彿輕輕漂移的」。",
+        "float-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-04"
     },
@@ -660,11 +632,9 @@ export default {
       "masked": "Soft patches of light seemed to ____ across the water.",
       "options": [
         "float-mcq-04",
-        "float-mcq-03",
-        "float-mcq-05",
-        "float-mcq-02",
-        "float-mcq-06",
-        "float-mcq-01"
+        "float-mcq-17",
+        "float-mcq-15",
+        "float-mcq-11"
       ],
       "explanation": "本句的「float」指「看起來沒有重量感或固定位置，彷彿輕輕漂移的」。",
       "sentenceIndex": 7,
@@ -673,12 +643,10 @@ export default {
         "float"
       ],
       "optionReasons": {
-        "float-mcq-04": "本句指「看起來沒有重量感或固定位置，彷彿輕輕漂移的」。",
-        "float-mcq-03": "「在空氣中輕輕停留或移動」與本句語境不同。",
-        "float-mcq-05": "「以非常輕盈、流暢、幾乎沒有重量感的方式移動」與本句語境不同。",
-        "float-mcq-02": "「在水面上隨水流或輕微力量緩慢漂動」與本句語境不同。",
-        "float-mcq-06": "「沒有明確固定方向地緩慢移動／轉移」與本句語境不同。",
-        "float-mcq-01": "「因浮力而停留在液體表面／其中，而不沉下去」與本句語境不同。"
+        "float-mcq-04": "本句的「float」指「看起來沒有重量感或固定位置，彷彿輕輕漂移的」。",
+        "float-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-04"
     },
@@ -690,11 +658,9 @@ export default {
       "masked": "She seemed to ____ across the stage.",
       "options": [
         "float-mcq-05",
-        "float-mcq-04",
-        "float-mcq-06",
-        "float-mcq-03",
         "float-mcq-07",
-        "float-mcq-02"
+        "float-mcq-20",
+        "float-mcq-14"
       ],
       "explanation": "本句的「float」指「以非常輕盈、流暢、幾乎沒有重量感的方式移動」。",
       "sentenceIndex": 8,
@@ -703,12 +669,10 @@ export default {
         "float"
       ],
       "optionReasons": {
-        "float-mcq-05": "本句指「以非常輕盈、流暢、幾乎沒有重量感的方式移動」。",
-        "float-mcq-04": "「看起來沒有重量感或固定位置，彷彿輕輕漂移的」與本句語境不同。",
-        "float-mcq-06": "「沒有明確固定方向地緩慢移動／轉移」與本句語境不同。",
-        "float-mcq-03": "「在空氣中輕輕停留或移動」與本句語境不同。",
-        "float-mcq-07": "「把尚未正式決定的想法提出來供討論／試探反應」與本句語境不同。",
-        "float-mcq-02": "「在水面上隨水流或輕微力量緩慢漂動」與本句語境不同。"
+        "float-mcq-05": "本句的「float」指「以非常輕盈、流暢、幾乎沒有重量感的方式移動」。",
+        "float-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-05"
     },
@@ -720,11 +684,9 @@ export default {
       "masked": "The dancer ____ into the room.",
       "options": [
         "float-mcq-05",
-        "float-mcq-04",
-        "float-mcq-06",
-        "float-mcq-03",
-        "float-mcq-07",
-        "float-mcq-02"
+        "float-mcq-17",
+        "float-mcq-20",
+        "float-mcq-08"
       ],
       "explanation": "本句的「floated」指「以非常輕盈、流暢、幾乎沒有重量感的方式移動」。",
       "sentenceIndex": 9,
@@ -733,12 +695,10 @@ export default {
         "floated"
       ],
       "optionReasons": {
-        "float-mcq-05": "本句指「以非常輕盈、流暢、幾乎沒有重量感的方式移動」。",
-        "float-mcq-04": "「看起來沒有重量感或固定位置，彷彿輕輕漂移的」與本句語境不同。",
-        "float-mcq-06": "「沒有明確固定方向地緩慢移動／轉移」與本句語境不同。",
-        "float-mcq-03": "「在空氣中輕輕停留或移動」與本句語境不同。",
-        "float-mcq-07": "「把尚未正式決定的想法提出來供討論／試探反應」與本句語境不同。",
-        "float-mcq-02": "「在水面上隨水流或輕微力量緩慢漂動」與本句語境不同。"
+        "float-mcq-05": "本句的「floated」指「以非常輕盈、流暢、幾乎沒有重量感的方式移動」。",
+        "float-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-05"
     },
@@ -750,11 +710,9 @@ export default {
       "masked": "Clouds ____ across the sky.",
       "options": [
         "float-mcq-06",
-        "float-mcq-05",
-        "float-mcq-07",
-        "float-mcq-04",
         "float-mcq-08",
-        "float-mcq-03"
+        "float-mcq-19",
+        "float-mcq-11"
       ],
       "explanation": "本句的「floated」指「沒有明確固定方向地緩慢移動／轉移」。",
       "sentenceIndex": 10,
@@ -763,12 +721,10 @@ export default {
         "floated"
       ],
       "optionReasons": {
-        "float-mcq-06": "本句指「沒有明確固定方向地緩慢移動／轉移」。",
-        "float-mcq-05": "「以非常輕盈、流暢、幾乎沒有重量感的方式移動」與本句語境不同。",
-        "float-mcq-07": "「把尚未正式決定的想法提出來供討論／試探反應」與本句語境不同。",
-        "float-mcq-04": "「看起來沒有重量感或固定位置，彷彿輕輕漂移的」與本句語境不同。",
-        "float-mcq-08": "「把私人公司的股份公開出售，使公司上市」與本句語境不同。",
-        "float-mcq-03": "「在空氣中輕輕停留或移動」與本句語境不同。"
+        "float-mcq-06": "本句的「floated」指「沒有明確固定方向地緩慢移動／轉移」。",
+        "float-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-06"
     },
@@ -780,11 +736,9 @@ export default {
       "masked": "His attention ____ from one topic to another.",
       "options": [
         "float-mcq-06",
-        "float-mcq-05",
-        "float-mcq-07",
-        "float-mcq-04",
-        "float-mcq-08",
-        "float-mcq-03"
+        "float-mcq-13",
+        "float-mcq-01",
+        "float-mcq-12"
       ],
       "explanation": "本句的「floated」指「沒有明確固定方向地緩慢移動／轉移」。",
       "sentenceIndex": 11,
@@ -793,12 +747,10 @@ export default {
         "floated"
       ],
       "optionReasons": {
-        "float-mcq-06": "本句指「沒有明確固定方向地緩慢移動／轉移」。",
-        "float-mcq-05": "「以非常輕盈、流暢、幾乎沒有重量感的方式移動」與本句語境不同。",
-        "float-mcq-07": "「把尚未正式決定的想法提出來供討論／試探反應」與本句語境不同。",
-        "float-mcq-04": "「看起來沒有重量感或固定位置，彷彿輕輕漂移的」與本句語境不同。",
-        "float-mcq-08": "「把私人公司的股份公開出售，使公司上市」與本句語境不同。",
-        "float-mcq-03": "「在空氣中輕輕停留或移動」與本句語境不同。"
+        "float-mcq-06": "本句的「floated」指「沒有明確固定方向地緩慢移動／轉移」。",
+        "float-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-06"
     },
@@ -810,11 +762,9 @@ export default {
       "masked": "She ____ the idea of opening the exhibition later.",
       "options": [
         "float-mcq-07",
-        "float-mcq-06",
-        "float-mcq-08",
-        "float-mcq-05",
-        "float-mcq-09",
-        "float-mcq-04"
+        "float-mcq-02",
+        "float-mcq-01",
+        "float-mcq-17"
       ],
       "explanation": "本句的「floated」指「把尚未正式決定的想法提出來供討論／試探反應」。",
       "sentenceIndex": 12,
@@ -823,12 +773,10 @@ export default {
         "floated"
       ],
       "optionReasons": {
-        "float-mcq-07": "本句指「把尚未正式決定的想法提出來供討論／試探反應」。",
-        "float-mcq-06": "「沒有明確固定方向地緩慢移動／轉移」與本句語境不同。",
-        "float-mcq-08": "「把私人公司的股份公開出售，使公司上市」與本句語境不同。",
-        "float-mcq-05": "「以非常輕盈、流暢、幾乎沒有重量感的方式移動」與本句語境不同。",
-        "float-mcq-09": "「讓匯率由市場供求決定，而不是維持固定水平」與本句語境不同。",
-        "float-mcq-04": "「看起來沒有重量感或固定位置，彷彿輕輕漂移的」與本句語境不同。"
+        "float-mcq-07": "本句的「floated」指「把尚未正式決定的想法提出來供討論／試探反應」。",
+        "float-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-07"
     },
@@ -840,11 +788,9 @@ export default {
       "masked": "Several possible solutions were ____ at the meeting.",
       "options": [
         "float-mcq-07",
-        "float-mcq-06",
-        "float-mcq-08",
-        "float-mcq-05",
-        "float-mcq-09",
-        "float-mcq-04"
+        "float-mcq-03",
+        "float-mcq-17",
+        "float-mcq-12"
       ],
       "explanation": "本句的「floated」指「把尚未正式決定的想法提出來供討論／試探反應」。",
       "sentenceIndex": 13,
@@ -853,12 +799,10 @@ export default {
         "floated"
       ],
       "optionReasons": {
-        "float-mcq-07": "本句指「把尚未正式決定的想法提出來供討論／試探反應」。",
-        "float-mcq-06": "「沒有明確固定方向地緩慢移動／轉移」與本句語境不同。",
-        "float-mcq-08": "「把私人公司的股份公開出售，使公司上市」與本句語境不同。",
-        "float-mcq-05": "「以非常輕盈、流暢、幾乎沒有重量感的方式移動」與本句語境不同。",
-        "float-mcq-09": "「讓匯率由市場供求決定，而不是維持固定水平」與本句語境不同。",
-        "float-mcq-04": "「看起來沒有重量感或固定位置，彷彿輕輕漂移的」與本句語境不同。"
+        "float-mcq-07": "本句的「floated」指「把尚未正式決定的想法提出來供討論／試探反應」。",
+        "float-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-07"
     },
@@ -870,11 +814,9 @@ export default {
       "masked": "The owners plan to ____ the company next year.",
       "options": [
         "float-mcq-08",
-        "float-mcq-07",
-        "float-mcq-09",
-        "float-mcq-06",
-        "float-mcq-10",
-        "float-mcq-05"
+        "float-mcq-14",
+        "float-mcq-19",
+        "float-mcq-03"
       ],
       "explanation": "本句的「float」指「把私人公司的股份公開出售，使公司上市」。",
       "sentenceIndex": 14,
@@ -883,12 +825,10 @@ export default {
         "float"
       ],
       "optionReasons": {
-        "float-mcq-08": "本句指「把私人公司的股份公開出售，使公司上市」。",
-        "float-mcq-07": "「把尚未正式決定的想法提出來供討論／試探反應」與本句語境不同。",
-        "float-mcq-09": "「讓匯率由市場供求決定，而不是維持固定水平」與本句語境不同。",
-        "float-mcq-06": "「沒有明確固定方向地緩慢移動／轉移」與本句語境不同。",
-        "float-mcq-10": "「主要由市場供求決定的浮動匯率」與本句語境不同。",
-        "float-mcq-05": "「以非常輕盈、流暢、幾乎沒有重量感的方式移動」與本句語境不同。"
+        "float-mcq-08": "本句的「float」指「把私人公司的股份公開出售，使公司上市」。",
+        "float-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-08"
     },
@@ -900,11 +840,9 @@ export default {
       "masked": "The firm was ____ on the stock market.",
       "options": [
         "float-mcq-08",
-        "float-mcq-07",
-        "float-mcq-09",
-        "float-mcq-06",
-        "float-mcq-10",
-        "float-mcq-05"
+        "float-mcq-02",
+        "float-mcq-20",
+        "float-mcq-03"
       ],
       "explanation": "本句的「floated」指「把私人公司的股份公開出售，使公司上市」。",
       "sentenceIndex": 15,
@@ -913,12 +851,10 @@ export default {
         "floated"
       ],
       "optionReasons": {
-        "float-mcq-08": "本句指「把私人公司的股份公開出售，使公司上市」。",
-        "float-mcq-07": "「把尚未正式決定的想法提出來供討論／試探反應」與本句語境不同。",
-        "float-mcq-09": "「讓匯率由市場供求決定，而不是維持固定水平」與本句語境不同。",
-        "float-mcq-06": "「沒有明確固定方向地緩慢移動／轉移」與本句語境不同。",
-        "float-mcq-10": "「主要由市場供求決定的浮動匯率」與本句語境不同。",
-        "float-mcq-05": "「以非常輕盈、流暢、幾乎沒有重量感的方式移動」與本句語境不同。"
+        "float-mcq-08": "本句的「floated」指「把私人公司的股份公開出售，使公司上市」。",
+        "float-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-08"
     },
@@ -930,11 +866,9 @@ export default {
       "masked": "The government decided to ____ the currency.",
       "options": [
         "float-mcq-09",
-        "float-mcq-08",
-        "float-mcq-10",
-        "float-mcq-07",
-        "float-mcq-11",
-        "float-mcq-06"
+        "float-mcq-05",
+        "float-mcq-13",
+        "float-mcq-12"
       ],
       "explanation": "本句的「float」指「讓匯率由市場供求決定，而不是維持固定水平」。",
       "sentenceIndex": 16,
@@ -943,12 +877,10 @@ export default {
         "float"
       ],
       "optionReasons": {
-        "float-mcq-09": "本句指「讓匯率由市場供求決定，而不是維持固定水平」。",
-        "float-mcq-08": "「把私人公司的股份公開出售，使公司上市」與本句語境不同。",
-        "float-mcq-10": "「主要由市場供求決定的浮動匯率」與本句語境不同。",
-        "float-mcq-07": "「把尚未正式決定的想法提出來供討論／試探反應」與本句語境不同。",
-        "float-mcq-11": "「巡遊中經裝飾的花車／展示平台」與本句語境不同。",
-        "float-mcq-06": "「沒有明確固定方向地緩慢移動／轉移」與本句語境不同。"
+        "float-mcq-09": "本句的「float」指「讓匯率由市場供求決定，而不是維持固定水平」。",
+        "float-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-09"
     },
@@ -960,11 +892,9 @@ export default {
       "masked": "The currency was allowed to ____ against the dollar.",
       "options": [
         "float-mcq-09",
-        "float-mcq-08",
-        "float-mcq-10",
-        "float-mcq-07",
-        "float-mcq-11",
-        "float-mcq-06"
+        "float-mcq-14",
+        "float-mcq-03",
+        "float-mcq-12"
       ],
       "explanation": "本句的「float」指「讓匯率由市場供求決定，而不是維持固定水平」。",
       "sentenceIndex": 17,
@@ -973,12 +903,10 @@ export default {
         "float"
       ],
       "optionReasons": {
-        "float-mcq-09": "本句指「讓匯率由市場供求決定，而不是維持固定水平」。",
-        "float-mcq-08": "「把私人公司的股份公開出售，使公司上市」與本句語境不同。",
-        "float-mcq-10": "「主要由市場供求決定的浮動匯率」與本句語境不同。",
-        "float-mcq-07": "「把尚未正式決定的想法提出來供討論／試探反應」與本句語境不同。",
-        "float-mcq-11": "「巡遊中經裝飾的花車／展示平台」與本句語境不同。",
-        "float-mcq-06": "「沒有明確固定方向地緩慢移動／轉移」與本句語境不同。"
+        "float-mcq-09": "本句的「float」指「讓匯率由市場供求決定，而不是維持固定水平」。",
+        "float-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-09"
     },
@@ -990,11 +918,9 @@ export default {
       "masked": "The country uses a ____.",
       "options": [
         "float-mcq-10",
-        "float-mcq-09",
         "float-mcq-11",
-        "float-mcq-08",
-        "float-mcq-12",
-        "float-mcq-07"
+        "float-mcq-14",
+        "float-mcq-19"
       ],
       "explanation": "本句的「floating exchange rate」指「主要由市場供求決定的浮動匯率」。",
       "sentenceIndex": 18,
@@ -1003,12 +929,10 @@ export default {
         "floating exchange rate"
       ],
       "optionReasons": {
-        "float-mcq-10": "本句指「主要由市場供求決定的浮動匯率」。",
-        "float-mcq-09": "「讓匯率由市場供求決定，而不是維持固定水平」與本句語境不同。",
-        "float-mcq-11": "「巡遊中經裝飾的花車／展示平台」與本句語境不同。",
-        "float-mcq-08": "「把私人公司的股份公開出售，使公司上市」與本句語境不同。",
-        "float-mcq-12": "「浮在線上、顯示魚是否咬餌的魚漂」與本句語境不同。",
-        "float-mcq-07": "「把尚未正式決定的想法提出來供討論／試探反應」與本句語境不同。"
+        "float-mcq-10": "本句的「floating exchange rate」指「主要由市場供求決定的浮動匯率」。",
+        "float-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-10"
     },
@@ -1020,11 +944,9 @@ export default {
       "masked": "A ____ exchange rate changes with market conditions.",
       "options": [
         "float-mcq-10",
-        "float-mcq-09",
         "float-mcq-11",
-        "float-mcq-08",
-        "float-mcq-12",
-        "float-mcq-07"
+        "float-mcq-19",
+        "float-mcq-14"
       ],
       "explanation": "本句的「floating」指「主要由市場供求決定的浮動匯率」。",
       "sentenceIndex": 19,
@@ -1033,12 +955,10 @@ export default {
         "floating"
       ],
       "optionReasons": {
-        "float-mcq-10": "本句指「主要由市場供求決定的浮動匯率」。",
-        "float-mcq-09": "「讓匯率由市場供求決定，而不是維持固定水平」與本句語境不同。",
-        "float-mcq-11": "「巡遊中經裝飾的花車／展示平台」與本句語境不同。",
-        "float-mcq-08": "「把私人公司的股份公開出售，使公司上市」與本句語境不同。",
-        "float-mcq-12": "「浮在線上、顯示魚是否咬餌的魚漂」與本句語境不同。",
-        "float-mcq-07": "「把尚未正式決定的想法提出來供討論／試探反應」與本句語境不同。"
+        "float-mcq-10": "本句的「floating」指「主要由市場供求決定的浮動匯率」。",
+        "float-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-10"
     },
@@ -1050,11 +970,9 @@ export default {
       "masked": "The parade included a huge flower-covered ____.",
       "options": [
         "float-mcq-11",
-        "float-mcq-10",
+        "float-mcq-06",
         "float-mcq-12",
-        "float-mcq-09",
-        "float-mcq-13",
-        "float-mcq-08"
+        "float-mcq-15"
       ],
       "explanation": "本句的「float」指「巡遊中經裝飾的花車／展示平台」。",
       "sentenceIndex": 20,
@@ -1063,12 +981,10 @@ export default {
         "float"
       ],
       "optionReasons": {
-        "float-mcq-11": "本句指「巡遊中經裝飾的花車／展示平台」。",
-        "float-mcq-10": "「主要由市場供求決定的浮動匯率」與本句語境不同。",
-        "float-mcq-12": "「浮在線上、顯示魚是否咬餌的魚漂」與本句語境不同。",
-        "float-mcq-09": "「讓匯率由市場供求決定，而不是維持固定水平」與本句語境不同。",
-        "float-mcq-13": "「隨液面升降、用來控制或測量液面的浮球／浮子」與本句語境不同。",
-        "float-mcq-08": "「把私人公司的股份公開出售，使公司上市」與本句語境不同。"
+        "float-mcq-11": "本句的「float」指「巡遊中經裝飾的花車／展示平台」。",
+        "float-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-11"
     },
@@ -1080,11 +996,9 @@ export default {
       "masked": "Children waved from the festival ____.",
       "options": [
         "float-mcq-11",
-        "float-mcq-10",
-        "float-mcq-12",
-        "float-mcq-09",
+        "float-mcq-16",
         "float-mcq-13",
-        "float-mcq-08"
+        "float-mcq-12"
       ],
       "explanation": "本句的「float」指「巡遊中經裝飾的花車／展示平台」。",
       "sentenceIndex": 21,
@@ -1093,12 +1007,10 @@ export default {
         "float"
       ],
       "optionReasons": {
-        "float-mcq-11": "本句指「巡遊中經裝飾的花車／展示平台」。",
-        "float-mcq-10": "「主要由市場供求決定的浮動匯率」與本句語境不同。",
-        "float-mcq-12": "「浮在線上、顯示魚是否咬餌的魚漂」與本句語境不同。",
-        "float-mcq-09": "「讓匯率由市場供求決定，而不是維持固定水平」與本句語境不同。",
-        "float-mcq-13": "「隨液面升降、用來控制或測量液面的浮球／浮子」與本句語境不同。",
-        "float-mcq-08": "「把私人公司的股份公開出售，使公司上市」與本句語境不同。"
+        "float-mcq-11": "本句的「float」指「巡遊中經裝飾的花車／展示平台」。",
+        "float-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-11"
     },
@@ -1110,11 +1022,9 @@ export default {
       "masked": "Watch the ____ carefully for movement.",
       "options": [
         "float-mcq-12",
-        "float-mcq-11",
-        "float-mcq-13",
-        "float-mcq-10",
-        "float-mcq-14",
-        "float-mcq-09"
+        "float-mcq-19",
+        "float-mcq-06",
+        "float-mcq-17"
       ],
       "explanation": "本句的「float」指「浮在線上、顯示魚是否咬餌的魚漂」。",
       "sentenceIndex": 22,
@@ -1123,12 +1033,10 @@ export default {
         "float"
       ],
       "optionReasons": {
-        "float-mcq-12": "本句指「浮在線上、顯示魚是否咬餌的魚漂」。",
-        "float-mcq-11": "「巡遊中經裝飾的花車／展示平台」與本句語境不同。",
-        "float-mcq-13": "「隨液面升降、用來控制或測量液面的浮球／浮子」與本句語境不同。",
-        "float-mcq-10": "「主要由市場供求決定的浮動匯率」與本句語境不同。",
-        "float-mcq-14": "「收銀處預備用來找續的小額現金」與本句語境不同。",
-        "float-mcq-09": "「讓匯率由市場供求決定，而不是維持固定水平」與本句語境不同。"
+        "float-mcq-12": "本句的「float」指「浮在線上、顯示魚是否咬餌的魚漂」。",
+        "float-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-12"
     },
@@ -1140,11 +1048,9 @@ export default {
       "masked": "The ____ disappeared beneath the water.",
       "options": [
         "float-mcq-12",
-        "float-mcq-11",
-        "float-mcq-13",
-        "float-mcq-10",
-        "float-mcq-14",
-        "float-mcq-09"
+        "float-mcq-09",
+        "float-mcq-19",
+        "float-mcq-11"
       ],
       "explanation": "本句的「float」指「浮在線上、顯示魚是否咬餌的魚漂」。",
       "sentenceIndex": 23,
@@ -1153,12 +1059,10 @@ export default {
         "float"
       ],
       "optionReasons": {
-        "float-mcq-12": "本句指「浮在線上、顯示魚是否咬餌的魚漂」。",
-        "float-mcq-11": "「巡遊中經裝飾的花車／展示平台」與本句語境不同。",
-        "float-mcq-13": "「隨液面升降、用來控制或測量液面的浮球／浮子」與本句語境不同。",
-        "float-mcq-10": "「主要由市場供求決定的浮動匯率」與本句語境不同。",
-        "float-mcq-14": "「收銀處預備用來找續的小額現金」與本句語境不同。",
-        "float-mcq-09": "「讓匯率由市場供求決定，而不是維持固定水平」與本句語境不同。"
+        "float-mcq-12": "本句的「float」指「浮在線上、顯示魚是否咬餌的魚漂」。",
+        "float-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-12"
     },
@@ -1170,11 +1074,9 @@ export default {
       "masked": "The tank uses a ____ to control the water level.",
       "options": [
         "float-mcq-13",
-        "float-mcq-12",
-        "float-mcq-14",
-        "float-mcq-11",
+        "float-mcq-16",
         "float-mcq-15",
-        "float-mcq-10"
+        "float-mcq-03"
       ],
       "explanation": "本句的「float」指「隨液面升降、用來控制或測量液面的浮球／浮子」。",
       "sentenceIndex": 24,
@@ -1183,12 +1085,10 @@ export default {
         "float"
       ],
       "optionReasons": {
-        "float-mcq-13": "本句指「隨液面升降、用來控制或測量液面的浮球／浮子」。",
-        "float-mcq-12": "「浮在線上、顯示魚是否咬餌的魚漂」與本句語境不同。",
-        "float-mcq-14": "「收銀處預備用來找續的小額現金」與本句語境不同。",
-        "float-mcq-11": "「巡遊中經裝飾的花車／展示平台」與本句語境不同。",
-        "float-mcq-15": "「可由公眾自由買賣的公司流通股份」與本句語境不同。",
-        "float-mcq-10": "「主要由市場供求決定的浮動匯率」與本句語境不同。"
+        "float-mcq-13": "本句的「float」指「隨液面升降、用來控制或測量液面的浮球／浮子」。",
+        "float-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-13"
     },
@@ -1200,11 +1100,9 @@ export default {
       "masked": "A damaged ____ can cause the tank to overflow.",
       "options": [
         "float-mcq-13",
-        "float-mcq-12",
-        "float-mcq-14",
-        "float-mcq-11",
         "float-mcq-15",
-        "float-mcq-10"
+        "float-mcq-09",
+        "float-mcq-03"
       ],
       "explanation": "本句的「float」指「隨液面升降、用來控制或測量液面的浮球／浮子」。",
       "sentenceIndex": 25,
@@ -1213,12 +1111,10 @@ export default {
         "float"
       ],
       "optionReasons": {
-        "float-mcq-13": "本句指「隨液面升降、用來控制或測量液面的浮球／浮子」。",
-        "float-mcq-12": "「浮在線上、顯示魚是否咬餌的魚漂」與本句語境不同。",
-        "float-mcq-14": "「收銀處預備用來找續的小額現金」與本句語境不同。",
-        "float-mcq-11": "「巡遊中經裝飾的花車／展示平台」與本句語境不同。",
-        "float-mcq-15": "「可由公眾自由買賣的公司流通股份」與本句語境不同。",
-        "float-mcq-10": "「主要由市場供求決定的浮動匯率」與本句語境不同。"
+        "float-mcq-13": "本句的「float」指「隨液面升降、用來控制或測量液面的浮球／浮子」。",
+        "float-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-13"
     },
@@ -1230,11 +1126,9 @@ export default {
       "masked": "The cashier starts the day with a £100 ____.",
       "options": [
         "float-mcq-14",
-        "float-mcq-13",
-        "float-mcq-15",
-        "float-mcq-12",
-        "float-mcq-16",
-        "float-mcq-11"
+        "float-mcq-01",
+        "float-mcq-08",
+        "float-mcq-17"
       ],
       "explanation": "本句的「float」指「收銀處預備用來找續的小額現金」。",
       "sentenceIndex": 26,
@@ -1243,12 +1137,10 @@ export default {
         "float"
       ],
       "optionReasons": {
-        "float-mcq-14": "本句指「收銀處預備用來找續的小額現金」。",
-        "float-mcq-13": "「隨液面升降、用來控制或測量液面的浮球／浮子」與本句語境不同。",
-        "float-mcq-15": "「可由公眾自由買賣的公司流通股份」與本句語境不同。",
-        "float-mcq-12": "「浮在線上、顯示魚是否咬餌的魚漂」與本句語境不同。",
-        "float-mcq-16": "「數值、安排或位置可以改變而非固定的」與本句語境不同。",
-        "float-mcq-11": "「巡遊中經裝飾的花車／展示平台」與本句語境不同。"
+        "float-mcq-14": "本句的「float」指「收銀處預備用來找續的小額現金」。",
+        "float-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-14"
     },
@@ -1260,11 +1152,9 @@ export default {
       "masked": "Make sure there is enough change in the ____.",
       "options": [
         "float-mcq-14",
-        "float-mcq-13",
-        "float-mcq-15",
-        "float-mcq-12",
-        "float-mcq-16",
-        "float-mcq-11"
+        "float-mcq-20",
+        "float-mcq-05",
+        "float-mcq-15"
       ],
       "explanation": "本句的「float」指「收銀處預備用來找續的小額現金」。",
       "sentenceIndex": 27,
@@ -1273,12 +1163,10 @@ export default {
         "float"
       ],
       "optionReasons": {
-        "float-mcq-14": "本句指「收銀處預備用來找續的小額現金」。",
-        "float-mcq-13": "「隨液面升降、用來控制或測量液面的浮球／浮子」與本句語境不同。",
-        "float-mcq-15": "「可由公眾自由買賣的公司流通股份」與本句語境不同。",
-        "float-mcq-12": "「浮在線上、顯示魚是否咬餌的魚漂」與本句語境不同。",
-        "float-mcq-16": "「數值、安排或位置可以改變而非固定的」與本句語境不同。",
-        "float-mcq-11": "「巡遊中經裝飾的花車／展示平台」與本句語境不同。"
+        "float-mcq-14": "本句的「float」指「收銀處預備用來找續的小額現金」。",
+        "float-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-14"
     },
@@ -1290,11 +1178,9 @@ export default {
       "masked": "Only a small percentage of the company’s shares are in the public ____.",
       "options": [
         "float-mcq-15",
+        "float-mcq-01",
         "float-mcq-14",
-        "float-mcq-16",
-        "float-mcq-13",
-        "float-mcq-17",
-        "float-mcq-12"
+        "float-mcq-17"
       ],
       "explanation": "本句的「float」指「可由公眾自由買賣的公司流通股份」。",
       "sentenceIndex": 28,
@@ -1303,12 +1189,10 @@ export default {
         "float"
       ],
       "optionReasons": {
-        "float-mcq-15": "本句指「可由公眾自由買賣的公司流通股份」。",
-        "float-mcq-14": "「收銀處預備用來找續的小額現金」與本句語境不同。",
-        "float-mcq-16": "「數值、安排或位置可以改變而非固定的」與本句語境不同。",
-        "float-mcq-13": "「隨液面升降、用來控制或測量液面的浮球／浮子」與本句語境不同。",
-        "float-mcq-17": "「會隨市場基準或條件調整的利率」與本句語境不同。",
-        "float-mcq-12": "「浮在線上、顯示魚是否咬餌的魚漂」與本句語境不同。"
+        "float-mcq-15": "本句的「float」指「可由公眾自由買賣的公司流通股份」。",
+        "float-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-15"
     },
@@ -1320,11 +1204,9 @@ export default {
       "masked": "A larger ____ can increase trading liquidity.",
       "options": [
         "float-mcq-15",
-        "float-mcq-14",
-        "float-mcq-16",
+        "float-mcq-01",
         "float-mcq-13",
-        "float-mcq-17",
-        "float-mcq-12"
+        "float-mcq-17"
       ],
       "explanation": "本句的「float」指「可由公眾自由買賣的公司流通股份」。",
       "sentenceIndex": 29,
@@ -1333,12 +1215,10 @@ export default {
         "float"
       ],
       "optionReasons": {
-        "float-mcq-15": "本句指「可由公眾自由買賣的公司流通股份」。",
-        "float-mcq-14": "「收銀處預備用來找續的小額現金」與本句語境不同。",
-        "float-mcq-16": "「數值、安排或位置可以改變而非固定的」與本句語境不同。",
-        "float-mcq-13": "「隨液面升降、用來控制或測量液面的浮球／浮子」與本句語境不同。",
-        "float-mcq-17": "「會隨市場基準或條件調整的利率」與本句語境不同。",
-        "float-mcq-12": "「浮在線上、顯示魚是否咬餌的魚漂」與本句語境不同。"
+        "float-mcq-15": "本句的「float」指「可由公眾自由買賣的公司流通股份」。",
+        "float-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-15"
     },
@@ -1350,11 +1230,9 @@ export default {
       "masked": "The loan has a ____.",
       "options": [
         "float-mcq-16",
-        "float-mcq-15",
-        "float-mcq-17",
-        "float-mcq-14",
-        "float-mcq-18",
-        "float-mcq-13"
+        "float-mcq-12",
+        "float-mcq-03",
+        "float-mcq-08"
       ],
       "explanation": "本句的「floating interest rate」指「數值、安排或位置可以改變而非固定的」。",
       "sentenceIndex": 30,
@@ -1363,12 +1241,10 @@ export default {
         "floating interest rate"
       ],
       "optionReasons": {
-        "float-mcq-16": "本句指「數值、安排或位置可以改變而非固定的」。",
-        "float-mcq-15": "「可由公眾自由買賣的公司流通股份」與本句語境不同。",
-        "float-mcq-17": "「會隨市場基準或條件調整的利率」與本句語境不同。",
-        "float-mcq-14": "「收銀處預備用來找續的小額現金」與本句語境不同。",
-        "float-mcq-18": "「經常流動／暫住而非固定長期居住的人口」與本句語境不同。",
-        "float-mcq-13": "「隨液面升降、用來控制或測量液面的浮球／浮子」與本句語境不同。"
+        "float-mcq-16": "本句的「floating interest rate」指「數值、安排或位置可以改變而非固定的」。",
+        "float-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-16"
     },
@@ -1380,11 +1256,9 @@ export default {
       "masked": "They use a ____ schedule rather than fixed hours.",
       "options": [
         "float-mcq-16",
-        "float-mcq-15",
-        "float-mcq-17",
-        "float-mcq-14",
-        "float-mcq-18",
-        "float-mcq-13"
+        "float-mcq-13",
+        "float-mcq-12",
+        "float-mcq-02"
       ],
       "explanation": "本句的「floating」指「數值、安排或位置可以改變而非固定的」。",
       "sentenceIndex": 31,
@@ -1393,12 +1267,10 @@ export default {
         "floating"
       ],
       "optionReasons": {
-        "float-mcq-16": "本句指「數值、安排或位置可以改變而非固定的」。",
-        "float-mcq-15": "「可由公眾自由買賣的公司流通股份」與本句語境不同。",
-        "float-mcq-17": "「會隨市場基準或條件調整的利率」與本句語境不同。",
-        "float-mcq-14": "「收銀處預備用來找續的小額現金」與本句語境不同。",
-        "float-mcq-18": "「經常流動／暫住而非固定長期居住的人口」與本句語境不同。",
-        "float-mcq-13": "「隨液面升降、用來控制或測量液面的浮球／浮子」與本句語境不同。"
+        "float-mcq-16": "本句的「floating」指「數值、安排或位置可以改變而非固定的」。",
+        "float-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-16"
     },
@@ -1410,11 +1282,9 @@ export default {
       "masked": "Payments may rise if the ____ increases.",
       "options": [
         "float-mcq-17",
-        "float-mcq-16",
-        "float-mcq-18",
         "float-mcq-15",
-        "float-mcq-19",
-        "float-mcq-14"
+        "float-mcq-11",
+        "float-mcq-03"
       ],
       "explanation": "本句的「floating interest rate」指「會隨市場基準或條件調整的利率」。",
       "sentenceIndex": 32,
@@ -1423,12 +1293,10 @@ export default {
         "floating interest rate"
       ],
       "optionReasons": {
-        "float-mcq-17": "本句指「會隨市場基準或條件調整的利率」。",
-        "float-mcq-16": "「數值、安排或位置可以改變而非固定的」與本句語境不同。",
-        "float-mcq-18": "「經常流動／暫住而非固定長期居住的人口」與本句語境不同。",
-        "float-mcq-15": "「可由公眾自由買賣的公司流通股份」與本句語境不同。",
-        "float-mcq-19": "「加入冰淇淋的汽水飲品」與本句語境不同。",
-        "float-mcq-14": "「收銀處預備用來找續的小額現金」與本句語境不同。"
+        "float-mcq-17": "本句的「floating interest rate」指「會隨市場基準或條件調整的利率」。",
+        "float-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-17"
     },
@@ -1440,11 +1308,9 @@ export default {
       "masked": "The mortgage has a ____ rate.",
       "options": [
         "float-mcq-17",
-        "float-mcq-16",
-        "float-mcq-18",
-        "float-mcq-15",
-        "float-mcq-19",
-        "float-mcq-14"
+        "float-mcq-05",
+        "float-mcq-07",
+        "float-mcq-01"
       ],
       "explanation": "本句的「floating」指「會隨市場基準或條件調整的利率」。",
       "sentenceIndex": 33,
@@ -1453,12 +1319,10 @@ export default {
         "floating"
       ],
       "optionReasons": {
-        "float-mcq-17": "本句指「會隨市場基準或條件調整的利率」。",
-        "float-mcq-16": "「數值、安排或位置可以改變而非固定的」與本句語境不同。",
-        "float-mcq-18": "「經常流動／暫住而非固定長期居住的人口」與本句語境不同。",
-        "float-mcq-15": "「可由公眾自由買賣的公司流通股份」與本句語境不同。",
-        "float-mcq-19": "「加入冰淇淋的汽水飲品」與本句語境不同。",
-        "float-mcq-14": "「收銀處預備用來找續的小額現金」與本句語境不同。"
+        "float-mcq-17": "本句的「floating」指「會隨市場基準或條件調整的利率」。",
+        "float-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-17"
     },
@@ -1470,11 +1334,9 @@ export default {
       "masked": "The city has a large ____.",
       "options": [
         "float-mcq-18",
+        "float-mcq-01",
         "float-mcq-17",
-        "float-mcq-19",
-        "float-mcq-16",
-        "float-mcq-20",
-        "float-mcq-15"
+        "float-mcq-13"
       ],
       "explanation": "本句的「floating population」指「經常流動／暫住而非固定長期居住的人口」。",
       "sentenceIndex": 34,
@@ -1483,12 +1345,10 @@ export default {
         "floating population"
       ],
       "optionReasons": {
-        "float-mcq-18": "本句指「經常流動／暫住而非固定長期居住的人口」。",
-        "float-mcq-17": "「會隨市場基準或條件調整的利率」與本句語境不同。",
-        "float-mcq-19": "「加入冰淇淋的汽水飲品」與本句語境不同。",
-        "float-mcq-16": "「數值、安排或位置可以改變而非固定的」與本句語境不同。",
-        "float-mcq-20": "「保持漂浮或使人／物漂浮的狀態／作用」與本句語境不同。",
-        "float-mcq-15": "「可由公眾自由買賣的公司流通股份」與本句語境不同。"
+        "float-mcq-18": "本句的「floating population」指「經常流動／暫住而非固定長期居住的人口」。",
+        "float-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-18"
     },
@@ -1500,11 +1360,9 @@ export default {
       "masked": "The study examined housing needs among the ____ population.",
       "options": [
         "float-mcq-18",
-        "float-mcq-17",
-        "float-mcq-19",
-        "float-mcq-16",
         "float-mcq-20",
-        "float-mcq-15"
+        "float-mcq-19",
+        "float-mcq-13"
       ],
       "explanation": "本句的「floating」指「經常流動／暫住而非固定長期居住的人口」。",
       "sentenceIndex": 35,
@@ -1513,12 +1371,10 @@ export default {
         "floating"
       ],
       "optionReasons": {
-        "float-mcq-18": "本句指「經常流動／暫住而非固定長期居住的人口」。",
-        "float-mcq-17": "「會隨市場基準或條件調整的利率」與本句語境不同。",
-        "float-mcq-19": "「加入冰淇淋的汽水飲品」與本句語境不同。",
-        "float-mcq-16": "「數值、安排或位置可以改變而非固定的」與本句語境不同。",
-        "float-mcq-20": "「保持漂浮或使人／物漂浮的狀態／作用」與本句語境不同。",
-        "float-mcq-15": "「可由公眾自由買賣的公司流通股份」與本句語境不同。"
+        "float-mcq-18": "本句的「floating」指「經常流動／暫住而非固定長期居住的人口」。",
+        "float-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-18"
     },
@@ -1530,11 +1386,9 @@ export default {
       "masked": "He ordered a root beer ____.",
       "options": [
         "float-mcq-19",
-        "float-mcq-18",
         "float-mcq-20",
-        "float-mcq-17",
-        "float-mcq-16",
-        "float-mcq-15"
+        "float-mcq-10",
+        "float-mcq-03"
       ],
       "explanation": "本句的「float」指「加入冰淇淋的汽水飲品」。",
       "sentenceIndex": 36,
@@ -1543,12 +1397,10 @@ export default {
         "float"
       ],
       "optionReasons": {
-        "float-mcq-19": "本句指「加入冰淇淋的汽水飲品」。",
-        "float-mcq-18": "「經常流動／暫住而非固定長期居住的人口」與本句語境不同。",
-        "float-mcq-20": "「保持漂浮或使人／物漂浮的狀態／作用」與本句語境不同。",
-        "float-mcq-17": "「會隨市場基準或條件調整的利率」與本句語境不同。",
-        "float-mcq-16": "「數值、安排或位置可以改變而非固定的」與本句語境不同。",
-        "float-mcq-15": "「可由公眾自由買賣的公司流通股份」與本句語境不同。"
+        "float-mcq-19": "本句的「float」指「加入冰淇淋的汽水飲品」。",
+        "float-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-19"
     },
@@ -1560,11 +1412,9 @@ export default {
       "masked": "The café serves cola ____ in summer.",
       "options": [
         "float-mcq-19",
-        "float-mcq-18",
-        "float-mcq-20",
-        "float-mcq-17",
+        "float-mcq-12",
         "float-mcq-16",
-        "float-mcq-15"
+        "float-mcq-13"
       ],
       "explanation": "本句的「floats」指「加入冰淇淋的汽水飲品」。",
       "sentenceIndex": 37,
@@ -1573,12 +1423,10 @@ export default {
         "floats"
       ],
       "optionReasons": {
-        "float-mcq-19": "本句指「加入冰淇淋的汽水飲品」。",
-        "float-mcq-18": "「經常流動／暫住而非固定長期居住的人口」與本句語境不同。",
-        "float-mcq-20": "「保持漂浮或使人／物漂浮的狀態／作用」與本句語境不同。",
-        "float-mcq-17": "「會隨市場基準或條件調整的利率」與本句語境不同。",
-        "float-mcq-16": "「數值、安排或位置可以改變而非固定的」與本句語境不同。",
-        "float-mcq-15": "「可由公眾自由買賣的公司流通股份」與本句語境不同。"
+        "float-mcq-19": "本句的「floats」指「加入冰淇淋的汽水飲品」。",
+        "float-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-19"
     },
@@ -1590,11 +1438,9 @@ export default {
       "masked": "The device provides enough ____ to keep the swimmer above water.",
       "options": [
         "float-mcq-20",
-        "float-mcq-19",
-        "float-mcq-18",
+        "float-mcq-03",
         "float-mcq-17",
-        "float-mcq-16",
-        "float-mcq-15"
+        "float-mcq-07"
       ],
       "explanation": "本句的「flotation」指「保持漂浮或使人／物漂浮的狀態／作用」。",
       "sentenceIndex": 38,
@@ -1603,12 +1449,10 @@ export default {
         "flotation"
       ],
       "optionReasons": {
-        "float-mcq-20": "本句指「保持漂浮或使人／物漂浮的狀態／作用」。",
-        "float-mcq-19": "「加入冰淇淋的汽水飲品」與本句語境不同。",
-        "float-mcq-18": "「經常流動／暫住而非固定長期居住的人口」與本句語境不同。",
-        "float-mcq-17": "「會隨市場基準或條件調整的利率」與本句語境不同。",
-        "float-mcq-16": "「數值、安排或位置可以改變而非固定的」與本句語境不同。",
-        "float-mcq-15": "「可由公眾自由買賣的公司流通股份」與本句語境不同。"
+        "float-mcq-20": "本句的「flotation」指「保持漂浮或使人／物漂浮的狀態／作用」。",
+        "float-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "float-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "float-mcq-20"
     }
@@ -1620,5 +1464,7 @@ export default {
     "sha256": "d86512c0cef0134daef480872b485da0d6b846c5fb63cf004c68178e40347a92",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

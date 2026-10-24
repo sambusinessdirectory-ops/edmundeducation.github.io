@@ -201,11 +201,7 @@ export default {
       "masked": "They walked through a ____ forest.",
       "options": [
         "dense-mcq-01",
-        "dense-mcq-02",
-        "dense-mcq-03",
-        "dense-mcq-04",
-        "dense-mcq-05",
-        "dense-mcq-06"
+        "dense-mcq-05"
       ],
       "explanation": "本句的「dense」指「很多物體集中在較小空間內，彼此距離很近；稠密的」。",
       "sentenceIndex": 0,
@@ -214,12 +210,8 @@ export default {
         "dense"
       ],
       "optionReasons": {
-        "dense-mcq-01": "本句指「很多物體集中在較小空間內，彼此距離很近；稠密的」。",
-        "dense-mcq-02": "「在有限篇幅中集中大量資訊、概念或論證，讀起來較費力」是「dense — information/writing」的用法，與本句語境不同。",
-        "dense-mcq-03": "「單位體積內含有較多質量的；密度高的」是「dense — scientific」的用法，與本句語境不同。",
-        "dense-mcq-04": "「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」是「dense — fog/smoke」的用法，與本句語境不同。",
-        "dense-mcq-05": "「理解力慢、很難明白明顯事情的；遲鈍的」是「dense — person, informal」的用法，與本句語境不同。",
-        "dense-mcq-06": "「以高密度、密集或濃縮方式」是「densely」的用法，與本句語境不同。"
+        "dense-mcq-01": "本句的「dense」指「很多物體集中在較小空間內，彼此距離很近；稠密的」。",
+        "dense-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-01"
     },
@@ -231,11 +223,7 @@ export default {
       "masked": "The city has a ____ network of narrow streets.",
       "options": [
         "dense-mcq-01",
-        "dense-mcq-02",
-        "dense-mcq-03",
-        "dense-mcq-04",
-        "dense-mcq-05",
-        "dense-mcq-06"
+        "dense-mcq-05"
       ],
       "explanation": "本句的「dense」指「很多物體集中在較小空間內，彼此距離很近；稠密的」。",
       "sentenceIndex": 1,
@@ -244,12 +232,8 @@ export default {
         "dense"
       ],
       "optionReasons": {
-        "dense-mcq-01": "本句指「很多物體集中在較小空間內，彼此距離很近；稠密的」。",
-        "dense-mcq-02": "「在有限篇幅中集中大量資訊、概念或論證，讀起來較費力」是「dense — information/writing」的用法，與本句語境不同。",
-        "dense-mcq-03": "「單位體積內含有較多質量的；密度高的」是「dense — scientific」的用法，與本句語境不同。",
-        "dense-mcq-04": "「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」是「dense — fog/smoke」的用法，與本句語境不同。",
-        "dense-mcq-05": "「理解力慢、很難明白明顯事情的；遲鈍的」是「dense — person, informal」的用法，與本句語境不同。",
-        "dense-mcq-06": "「以高密度、密集或濃縮方式」是「densely」的用法，與本句語境不同。"
+        "dense-mcq-01": "本句的「dense」指「很多物體集中在較小空間內，彼此距離很近；稠密的」。",
+        "dense-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-01"
     },
@@ -261,9 +245,6 @@ export default {
       "masked": "I imagine the book will be ____ than the novels I usually read.",
       "options": [
         "dense-mcq-02",
-        "dense-mcq-01",
-        "dense-mcq-03",
-        "dense-mcq-04",
         "dense-mcq-05",
         "dense-mcq-06"
       ],
@@ -274,12 +255,9 @@ export default {
         "denser"
       ],
       "optionReasons": {
-        "dense-mcq-02": "本句指「在有限篇幅中集中大量資訊、概念或論證，讀起來較費力」。",
-        "dense-mcq-01": "「很多物體集中在較小空間內，彼此距離很近；稠密的」是「dense — physically packed」的用法，與本句語境不同。",
-        "dense-mcq-03": "「單位體積內含有較多質量的；密度高的」是「dense — scientific」的用法，與本句語境不同。",
-        "dense-mcq-04": "「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」是「dense — fog/smoke」的用法，與本句語境不同。",
-        "dense-mcq-05": "「理解力慢、很難明白明顯事情的；遲鈍的」是「dense — person, informal」的用法，與本句語境不同。",
-        "dense-mcq-06": "「以高密度、密集或濃縮方式」是「densely」的用法，與本句語境不同。"
+        "dense-mcq-02": "本句的「denser」指「在有限篇幅中集中大量資訊、概念或論證，讀起來較費力」。",
+        "dense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dense-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-02"
     },
@@ -291,11 +269,8 @@ export default {
       "masked": "The article is short but extremely ____.",
       "options": [
         "dense-mcq-02",
-        "dense-mcq-01",
-        "dense-mcq-03",
-        "dense-mcq-04",
-        "dense-mcq-05",
-        "dense-mcq-06"
+        "dense-mcq-06",
+        "dense-mcq-05"
       ],
       "explanation": "本句的「dense」指「在有限篇幅中集中大量資訊、概念或論證，讀起來較費力」。",
       "sentenceIndex": 3,
@@ -304,12 +279,9 @@ export default {
         "dense"
       ],
       "optionReasons": {
-        "dense-mcq-02": "本句指「在有限篇幅中集中大量資訊、概念或論證，讀起來較費力」。",
-        "dense-mcq-01": "「很多物體集中在較小空間內，彼此距離很近；稠密的」是「dense — physically packed」的用法，與本句語境不同。",
-        "dense-mcq-03": "「單位體積內含有較多質量的；密度高的」是「dense — scientific」的用法，與本句語境不同。",
-        "dense-mcq-04": "「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」是「dense — fog/smoke」的用法，與本句語境不同。",
-        "dense-mcq-05": "「理解力慢、很難明白明顯事情的；遲鈍的」是「dense — person, informal」的用法，與本句語境不同。",
-        "dense-mcq-06": "「以高密度、密集或濃縮方式」是「densely」的用法，與本句語境不同。"
+        "dense-mcq-02": "本句的「dense」指「在有限篇幅中集中大量資訊、概念或論證，讀起來較費力」。",
+        "dense-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dense-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-02"
     },
@@ -321,11 +293,8 @@ export default {
       "masked": "The chapter is ____ with historical detail.",
       "options": [
         "dense-mcq-02",
-        "dense-mcq-01",
-        "dense-mcq-03",
-        "dense-mcq-04",
-        "dense-mcq-05",
-        "dense-mcq-06"
+        "dense-mcq-06",
+        "dense-mcq-05"
       ],
       "explanation": "本句的「dense」指「在有限篇幅中集中大量資訊、概念或論證，讀起來較費力」。",
       "sentenceIndex": 4,
@@ -334,12 +303,9 @@ export default {
         "dense"
       ],
       "optionReasons": {
-        "dense-mcq-02": "本句指「在有限篇幅中集中大量資訊、概念或論證，讀起來較費力」。",
-        "dense-mcq-01": "「很多物體集中在較小空間內，彼此距離很近；稠密的」是「dense — physically packed」的用法，與本句語境不同。",
-        "dense-mcq-03": "「單位體積內含有較多質量的；密度高的」是「dense — scientific」的用法，與本句語境不同。",
-        "dense-mcq-04": "「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」是「dense — fog/smoke」的用法，與本句語境不同。",
-        "dense-mcq-05": "「理解力慢、很難明白明顯事情的；遲鈍的」是「dense — person, informal」的用法，與本句語境不同。",
-        "dense-mcq-06": "「以高密度、密集或濃縮方式」是「densely」的用法，與本句語境不同。"
+        "dense-mcq-02": "本句的「dense」指「在有限篇幅中集中大量資訊、概念或論證，讀起來較費力」。",
+        "dense-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dense-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-02"
     },
@@ -351,11 +317,7 @@ export default {
       "masked": "The theory is quite ____.",
       "options": [
         "dense-mcq-08",
-        "dense-mcq-07",
-        "dense-mcq-06",
-        "dense-mcq-05",
-        "dense-mcq-04",
-        "dense-mcq-03"
+        "dense-mcq-07"
       ],
       "explanation": "本句的「dense」指「因內容複雜、壓縮或概念太多而難以理解的」。",
       "sentenceIndex": 5,
@@ -364,12 +326,8 @@ export default {
         "dense"
       ],
       "optionReasons": {
-        "dense-mcq-08": "本句指「因內容複雜、壓縮或概念太多而難以理解的」。",
-        "dense-mcq-07": "「密度；集中程度」是「density」的用法，與本句語境不同。",
-        "dense-mcq-06": "「以高密度、密集或濃縮方式」是「densely」的用法，與本句語境不同。",
-        "dense-mcq-05": "「理解力慢、很難明白明顯事情的；遲鈍的」是「dense — person, informal」的用法，與本句語境不同。",
-        "dense-mcq-04": "「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」是「dense — fog/smoke」的用法，與本句語境不同。",
-        "dense-mcq-03": "「單位體積內含有較多質量的；密度高的」是「dense — scientific」的用法，與本句語境不同。"
+        "dense-mcq-08": "本句的「dense」指「因內容複雜、壓縮或概念太多而難以理解的」。",
+        "dense-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-08"
     },
@@ -381,11 +339,7 @@ export default {
       "masked": "His explanation was too ____ for beginners.",
       "options": [
         "dense-mcq-08",
-        "dense-mcq-07",
-        "dense-mcq-06",
-        "dense-mcq-05",
-        "dense-mcq-04",
-        "dense-mcq-03"
+        "dense-mcq-07"
       ],
       "explanation": "本句的「dense」指「因內容複雜、壓縮或概念太多而難以理解的」。",
       "sentenceIndex": 6,
@@ -394,12 +348,8 @@ export default {
         "dense"
       ],
       "optionReasons": {
-        "dense-mcq-08": "本句指「因內容複雜、壓縮或概念太多而難以理解的」。",
-        "dense-mcq-07": "「密度；集中程度」是「density」的用法，與本句語境不同。",
-        "dense-mcq-06": "「以高密度、密集或濃縮方式」是「densely」的用法，與本句語境不同。",
-        "dense-mcq-05": "「理解力慢、很難明白明顯事情的；遲鈍的」是「dense — person, informal」的用法，與本句語境不同。",
-        "dense-mcq-04": "「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」是「dense — fog/smoke」的用法，與本句語境不同。",
-        "dense-mcq-03": "「單位體積內含有較多質量的；密度高的」是「dense — scientific」的用法，與本句語境不同。"
+        "dense-mcq-08": "本句的「dense」指「因內容複雜、壓縮或概念太多而難以理解的」。",
+        "dense-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-08"
     },
@@ -411,11 +361,8 @@ export default {
       "masked": "Lead is ____ than aluminium.",
       "options": [
         "dense-mcq-03",
-        "dense-mcq-02",
         "dense-mcq-04",
-        "dense-mcq-01",
-        "dense-mcq-05",
-        "dense-mcq-06"
+        "dense-mcq-05"
       ],
       "explanation": "本句的「denser」指「單位體積內含有較多質量的；密度高的」。",
       "sentenceIndex": 7,
@@ -424,12 +371,9 @@ export default {
         "denser"
       ],
       "optionReasons": {
-        "dense-mcq-03": "本句指「單位體積內含有較多質量的；密度高的」。",
-        "dense-mcq-02": "「在有限篇幅中集中大量資訊、概念或論證，讀起來較費力」是「dense — information/writing」的用法，與本句語境不同。",
-        "dense-mcq-04": "「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」是「dense — fog/smoke」的用法，與本句語境不同。",
-        "dense-mcq-01": "「很多物體集中在較小空間內，彼此距離很近；稠密的」是「dense — physically packed」的用法，與本句語境不同。",
-        "dense-mcq-05": "「理解力慢、很難明白明顯事情的；遲鈍的」是「dense — person, informal」的用法，與本句語境不同。",
-        "dense-mcq-06": "「以高密度、密集或濃縮方式」是「densely」的用法，與本句語境不同。"
+        "dense-mcq-03": "本句的「denser」指「單位體積內含有較多質量的；密度高的」。",
+        "dense-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dense-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-03"
     },
@@ -441,11 +385,8 @@ export default {
       "masked": "The material is extremely ____.",
       "options": [
         "dense-mcq-03",
-        "dense-mcq-02",
         "dense-mcq-04",
-        "dense-mcq-01",
-        "dense-mcq-05",
-        "dense-mcq-06"
+        "dense-mcq-05"
       ],
       "explanation": "本句的「dense」指「單位體積內含有較多質量的；密度高的」。",
       "sentenceIndex": 8,
@@ -454,12 +395,9 @@ export default {
         "dense"
       ],
       "optionReasons": {
-        "dense-mcq-03": "本句指「單位體積內含有較多質量的；密度高的」。",
-        "dense-mcq-02": "「在有限篇幅中集中大量資訊、概念或論證，讀起來較費力」是「dense — information/writing」的用法，與本句語境不同。",
-        "dense-mcq-04": "「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」是「dense — fog/smoke」的用法，與本句語境不同。",
-        "dense-mcq-01": "「很多物體集中在較小空間內，彼此距離很近；稠密的」是「dense — physically packed」的用法，與本句語境不同。",
-        "dense-mcq-05": "「理解力慢、很難明白明顯事情的；遲鈍的」是「dense — person, informal」的用法，與本句語境不同。",
-        "dense-mcq-06": "「以高密度、密集或濃縮方式」是「densely」的用法，與本句語境不同。"
+        "dense-mcq-03": "本句的「dense」指「單位體積內含有較多質量的；密度高的」。",
+        "dense-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dense-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-03"
     },
@@ -472,10 +410,7 @@ export default {
       "options": [
         "dense-mcq-04",
         "dense-mcq-03",
-        "dense-mcq-05",
-        "dense-mcq-02",
-        "dense-mcq-06",
-        "dense-mcq-01"
+        "dense-mcq-05"
       ],
       "explanation": "本句的「dense」指「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」。",
       "sentenceIndex": 9,
@@ -484,12 +419,9 @@ export default {
         "dense"
       ],
       "optionReasons": {
-        "dense-mcq-04": "本句指「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」。",
-        "dense-mcq-03": "「單位體積內含有較多質量的；密度高的」是「dense — scientific」的用法，與本句語境不同。",
-        "dense-mcq-05": "「理解力慢、很難明白明顯事情的；遲鈍的」是「dense — person, informal」的用法，與本句語境不同。",
-        "dense-mcq-02": "「在有限篇幅中集中大量資訊、概念或論證，讀起來較費力」是「dense — information/writing」的用法，與本句語境不同。",
-        "dense-mcq-06": "「以高密度、密集或濃縮方式」是「densely」的用法，與本句語境不同。",
-        "dense-mcq-01": "「很多物體集中在較小空間內，彼此距離很近；稠密的」是「dense — physically packed」的用法，與本句語境不同。"
+        "dense-mcq-04": "本句的「dense」指「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」。",
+        "dense-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dense-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-04"
     },
@@ -502,10 +434,7 @@ export default {
       "options": [
         "dense-mcq-04",
         "dense-mcq-03",
-        "dense-mcq-05",
-        "dense-mcq-02",
-        "dense-mcq-06",
-        "dense-mcq-01"
+        "dense-mcq-05"
       ],
       "explanation": "本句的「dense」指「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」。",
       "sentenceIndex": 10,
@@ -514,12 +443,9 @@ export default {
         "dense"
       ],
       "optionReasons": {
-        "dense-mcq-04": "本句指「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」。",
-        "dense-mcq-03": "「單位體積內含有較多質量的；密度高的」是「dense — scientific」的用法，與本句語境不同。",
-        "dense-mcq-05": "「理解力慢、很難明白明顯事情的；遲鈍的」是「dense — person, informal」的用法，與本句語境不同。",
-        "dense-mcq-02": "「在有限篇幅中集中大量資訊、概念或論證，讀起來較費力」是「dense — information/writing」的用法，與本句語境不同。",
-        "dense-mcq-06": "「以高密度、密集或濃縮方式」是「densely」的用法，與本句語境不同。",
-        "dense-mcq-01": "「很多物體集中在較小空間內，彼此距離很近；稠密的」是「dense — physically packed」的用法，與本句語境不同。"
+        "dense-mcq-04": "本句的「dense」指「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」。",
+        "dense-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dense-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-04"
     },
@@ -531,11 +457,7 @@ export default {
       "masked": "Are you being ____ on purpose?",
       "options": [
         "dense-mcq-05",
-        "dense-mcq-04",
-        "dense-mcq-06",
-        "dense-mcq-03",
-        "dense-mcq-07",
-        "dense-mcq-02"
+        "dense-mcq-07"
       ],
       "explanation": "本句的「dense」指「理解力慢、很難明白明顯事情的；遲鈍的」。",
       "sentenceIndex": 11,
@@ -544,12 +466,8 @@ export default {
         "dense"
       ],
       "optionReasons": {
-        "dense-mcq-05": "本句指「理解力慢、很難明白明顯事情的；遲鈍的」。",
-        "dense-mcq-04": "「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」是「dense — fog/smoke」的用法，與本句語境不同。",
-        "dense-mcq-06": "「以高密度、密集或濃縮方式」是「densely」的用法，與本句語境不同。",
-        "dense-mcq-03": "「單位體積內含有較多質量的；密度高的」是「dense — scientific」的用法，與本句語境不同。",
-        "dense-mcq-07": "「密度；集中程度」是「density」的用法，與本句語境不同。",
-        "dense-mcq-02": "「在有限篇幅中集中大量資訊、概念或論證，讀起來較費力」是「dense — information/writing」的用法，與本句語境不同。"
+        "dense-mcq-05": "本句的「dense」指「理解力慢、很難明白明顯事情的；遲鈍的」。",
+        "dense-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-05"
     },
@@ -561,10 +479,7 @@ export default {
       "masked": "I felt a bit ____ when I finally understood the joke.",
       "options": [
         "dense-mcq-05",
-        "dense-mcq-04",
         "dense-mcq-06",
-        "dense-mcq-03",
-        "dense-mcq-07",
         "dense-mcq-02"
       ],
       "explanation": "本句的「dense」指「理解力慢、很難明白明顯事情的；遲鈍的」。",
@@ -574,12 +489,9 @@ export default {
         "dense"
       ],
       "optionReasons": {
-        "dense-mcq-05": "本句指「理解力慢、很難明白明顯事情的；遲鈍的」。",
-        "dense-mcq-04": "「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」是「dense — fog/smoke」的用法，與本句語境不同。",
-        "dense-mcq-06": "「以高密度、密集或濃縮方式」是「densely」的用法，與本句語境不同。",
-        "dense-mcq-03": "「單位體積內含有較多質量的；密度高的」是「dense — scientific」的用法，與本句語境不同。",
-        "dense-mcq-07": "「密度；集中程度」是「density」的用法，與本句語境不同。",
-        "dense-mcq-02": "「在有限篇幅中集中大量資訊、概念或論證，讀起來較費力」是「dense — information/writing」的用法，與本句語境不同。"
+        "dense-mcq-05": "本句的「dense」指「理解力慢、很難明白明顯事情的；遲鈍的」。",
+        "dense-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dense-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-05"
     },
@@ -592,10 +504,7 @@ export default {
       "options": [
         "dense-mcq-06",
         "dense-mcq-05",
-        "dense-mcq-07",
-        "dense-mcq-04",
-        "dense-mcq-08",
-        "dense-mcq-03"
+        "dense-mcq-02"
       ],
       "explanation": "本句的「densely」指「以高密度、密集或濃縮方式」。",
       "sentenceIndex": 13,
@@ -604,12 +513,9 @@ export default {
         "densely"
       ],
       "optionReasons": {
-        "dense-mcq-06": "本句指「以高密度、密集或濃縮方式」。",
-        "dense-mcq-05": "「理解力慢、很難明白明顯事情的；遲鈍的」是「dense — person, informal」的用法，與本句語境不同。",
-        "dense-mcq-07": "「密度；集中程度」是「density」的用法，與本句語境不同。",
-        "dense-mcq-04": "「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」是「dense — fog/smoke」的用法，與本句語境不同。",
-        "dense-mcq-08": "「因內容複雜、壓縮或概念太多而難以理解的」是「3. dense = difficult to understand because complex（難懂） — 晦澀的；難理解的」的用法，與本句語境不同。",
-        "dense-mcq-03": "「單位體積內含有較多質量的；密度高的」是「dense — scientific」的用法，與本句語境不同。"
+        "dense-mcq-06": "本句的「densely」指「以高密度、密集或濃縮方式」。",
+        "dense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dense-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-06"
     },
@@ -622,10 +528,7 @@ export default {
       "options": [
         "dense-mcq-06",
         "dense-mcq-05",
-        "dense-mcq-07",
-        "dense-mcq-04",
-        "dense-mcq-08",
-        "dense-mcq-03"
+        "dense-mcq-02"
       ],
       "explanation": "本句的「densely」指「以高密度、密集或濃縮方式」。",
       "sentenceIndex": 14,
@@ -634,12 +537,9 @@ export default {
         "densely"
       ],
       "optionReasons": {
-        "dense-mcq-06": "本句指「以高密度、密集或濃縮方式」。",
-        "dense-mcq-05": "「理解力慢、很難明白明顯事情的；遲鈍的」是「dense — person, informal」的用法，與本句語境不同。",
-        "dense-mcq-07": "「密度；集中程度」是「density」的用法，與本句語境不同。",
-        "dense-mcq-04": "「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」是「dense — fog/smoke」的用法，與本句語境不同。",
-        "dense-mcq-08": "「因內容複雜、壓縮或概念太多而難以理解的」是「3. dense = difficult to understand because complex（難懂） — 晦澀的；難理解的」的用法，與本句語境不同。",
-        "dense-mcq-03": "「單位體積內含有較多質量的；密度高的」是「dense — scientific」的用法，與本句語境不同。"
+        "dense-mcq-06": "本句的「densely」指「以高密度、密集或濃縮方式」。",
+        "dense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dense-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-06"
     },
@@ -651,11 +551,7 @@ export default {
       "masked": "Population ____ is very high in the city.",
       "options": [
         "dense-mcq-07",
-        "dense-mcq-06",
-        "dense-mcq-08",
-        "dense-mcq-05",
-        "dense-mcq-04",
-        "dense-mcq-03"
+        "dense-mcq-05"
       ],
       "explanation": "本句的「density」指「密度；集中程度」。",
       "sentenceIndex": 15,
@@ -664,12 +560,8 @@ export default {
         "density"
       ],
       "optionReasons": {
-        "dense-mcq-07": "本句指「密度；集中程度」。",
-        "dense-mcq-06": "「以高密度、密集或濃縮方式」是「densely」的用法，與本句語境不同。",
-        "dense-mcq-08": "「因內容複雜、壓縮或概念太多而難以理解的」是「3. dense = difficult to understand because complex（難懂） — 晦澀的；難理解的」的用法，與本句語境不同。",
-        "dense-mcq-05": "「理解力慢、很難明白明顯事情的；遲鈍的」是「dense — person, informal」的用法，與本句語境不同。",
-        "dense-mcq-04": "「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」是「dense — fog/smoke」的用法，與本句語境不同。",
-        "dense-mcq-03": "「單位體積內含有較多質量的；密度高的」是「dense — scientific」的用法，與本句語境不同。"
+        "dense-mcq-07": "本句的「density」指「密度；集中程度」。",
+        "dense-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-07"
     },
@@ -681,11 +573,7 @@ export default {
       "masked": "The scientist measured the ____ of the liquid.",
       "options": [
         "dense-mcq-07",
-        "dense-mcq-06",
-        "dense-mcq-08",
-        "dense-mcq-05",
-        "dense-mcq-04",
-        "dense-mcq-03"
+        "dense-mcq-08"
       ],
       "explanation": "本句的「density」指「密度；集中程度」。",
       "sentenceIndex": 16,
@@ -694,12 +582,8 @@ export default {
         "density"
       ],
       "optionReasons": {
-        "dense-mcq-07": "本句指「密度；集中程度」。",
-        "dense-mcq-06": "「以高密度、密集或濃縮方式」是「densely」的用法，與本句語境不同。",
-        "dense-mcq-08": "「因內容複雜、壓縮或概念太多而難以理解的」是「3. dense = difficult to understand because complex（難懂） — 晦澀的；難理解的」的用法，與本句語境不同。",
-        "dense-mcq-05": "「理解力慢、很難明白明顯事情的；遲鈍的」是「dense — person, informal」的用法，與本句語境不同。",
-        "dense-mcq-04": "「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」是「dense — fog/smoke」的用法，與本句語境不同。",
-        "dense-mcq-03": "「單位體積內含有較多質量的；密度高的」是「dense — scientific」的用法，與本句語境不同。"
+        "dense-mcq-07": "本句的「density」指「密度；集中程度」。",
+        "dense-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-07"
     },
@@ -711,11 +595,7 @@ export default {
       "masked": "The ____ of information made the chapter difficult to read.",
       "options": [
         "dense-mcq-07",
-        "dense-mcq-06",
-        "dense-mcq-08",
-        "dense-mcq-05",
-        "dense-mcq-04",
-        "dense-mcq-03"
+        "dense-mcq-08"
       ],
       "explanation": "本句的「density」指「密度；集中程度」。",
       "sentenceIndex": 17,
@@ -724,12 +604,8 @@ export default {
         "density"
       ],
       "optionReasons": {
-        "dense-mcq-07": "本句指「密度；集中程度」。",
-        "dense-mcq-06": "「以高密度、密集或濃縮方式」是「densely」的用法，與本句語境不同。",
-        "dense-mcq-08": "「因內容複雜、壓縮或概念太多而難以理解的」是「3. dense = difficult to understand because complex（難懂） — 晦澀的；難理解的」的用法，與本句語境不同。",
-        "dense-mcq-05": "「理解力慢、很難明白明顯事情的；遲鈍的」是「dense — person, informal」的用法，與本句語境不同。",
-        "dense-mcq-04": "「濃厚、集中，以致難以看穿的；屬於 physical concentration 義」是「dense — fog/smoke」的用法，與本句語境不同。",
-        "dense-mcq-03": "「單位體積內含有較多質量的；密度高的」是「dense — scientific」的用法，與本句語境不同。"
+        "dense-mcq-07": "本句的「density」指「密度；集中程度」。",
+        "dense-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dense-mcq-07"
     }
@@ -741,5 +617,7 @@ export default {
     "sha256": "8366b3944589de6f90e7b88832c5ae8ea6f60a2f3c4f3842f8b9c6d236e53d74",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

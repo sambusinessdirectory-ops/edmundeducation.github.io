@@ -311,16 +311,6 @@ export default {
           "He paused reflectively before answering.",
           "他回答前沉思地停了一下。",
           "帶有沉思性質或善於深入思考的"
-        ],
-        [
-          "The building uses highly reflective glass.",
-          "這座建築使用高度反光玻璃。",
-          "帶有沉思性質或善於深入思考的"
-        ],
-        [
-          "Reflective materials improve visibility at night.",
-          "反光材料可以提高夜間能見度。",
-          "帶有沉思性質或善於深入思考的"
         ]
       ],
       "options": [],
@@ -391,6 +381,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "reflection-reviewed-8ab04fc39c",
+      "title": "能有效反射光線的",
+      "form": "reflection · source section 18",
+      "en": "能有效反射光線的",
+      "zh": "能有效反射光線的",
+      "note": "對照原始教材第 18 節及例句核實。",
+      "examples": [
+        [
+          "The building uses highly reflective glass.",
+          "這座建築使用高度反光玻璃。",
+          "能有效反射光線的"
+        ],
+        [
+          "Reflective materials improve visibility at night.",
+          "反光材料可以提高夜間能見度。",
+          "能有效反射光線的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -402,11 +414,8 @@ export default {
       "masked": "I noticed the blurred ____.",
       "options": [
         "reflection-mcq-01",
-        "reflection-mcq-02",
-        "reflection-mcq-03",
-        "reflection-mcq-04",
-        "reflection-mcq-05",
-        "reflection-mcq-06"
+        "reflection-mcq-10",
+        "reflection-mcq-14"
       ],
       "explanation": "本句的「reflections」指「光線從水面、鏡面等反射後形成的可見影像／倒影」。",
       "sentenceIndex": 0,
@@ -415,12 +424,9 @@ export default {
         "reflections"
       ],
       "optionReasons": {
-        "reflection-mcq-01": "本句指「光線從水面、鏡面等反射後形成的可見影像／倒影」。",
-        "reflection-mcq-02": "「光線或波碰到表面後返回原來介質的現象」是「reflection — physics」的用法，與本句語境不同。",
-        "reflection-mcq-03": "「對某事進行認真、深入、安靜的思考」是「reflection — thought」的用法，與本句語境不同。",
-        "reflection-mcq-04": "「對某主題、經歷或問題形成的深入思考／感想」是「reflection on」的用法，與本句語境不同。",
-        "reflection-mcq-05": "「某事物把另一事物的特徵、狀態或性質呈現出來」是「reflection — representation」的用法，與本句語境不同。",
-        "reflection-mcq-06": "「某件事對別人如何評價某人／機構所造成的影響」是「reflection on reputation」的用法，與本句語境不同。"
+        "reflection-mcq-01": "本句的「reflections」指「光線從水面、鏡面等反射後形成的可見影像／倒影」。",
+        "reflection-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-01"
     },
@@ -432,11 +438,8 @@ export default {
       "masked": "She looked at her ____ in the mirror.",
       "options": [
         "reflection-mcq-01",
-        "reflection-mcq-02",
-        "reflection-mcq-03",
-        "reflection-mcq-04",
-        "reflection-mcq-05",
-        "reflection-mcq-06"
+        "reflection-mcq-10",
+        "reflection-mcq-14"
       ],
       "explanation": "本句的「reflection」指「光線從水面、鏡面等反射後形成的可見影像／倒影」。",
       "sentenceIndex": 1,
@@ -445,12 +448,9 @@ export default {
         "reflection"
       ],
       "optionReasons": {
-        "reflection-mcq-01": "本句指「光線從水面、鏡面等反射後形成的可見影像／倒影」。",
-        "reflection-mcq-02": "「光線或波碰到表面後返回原來介質的現象」是「reflection — physics」的用法，與本句語境不同。",
-        "reflection-mcq-03": "「對某事進行認真、深入、安靜的思考」是「reflection — thought」的用法，與本句語境不同。",
-        "reflection-mcq-04": "「對某主題、經歷或問題形成的深入思考／感想」是「reflection on」的用法，與本句語境不同。",
-        "reflection-mcq-05": "「某事物把另一事物的特徵、狀態或性質呈現出來」是「reflection — representation」的用法，與本句語境不同。",
-        "reflection-mcq-06": "「某件事對別人如何評價某人／機構所造成的影響」是「reflection on reputation」的用法，與本句語境不同。"
+        "reflection-mcq-01": "本句的「reflection」指「光線從水面、鏡面等反射後形成的可見影像／倒影」。",
+        "reflection-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-01"
     },
@@ -462,11 +462,9 @@ export default {
       "masked": "The trees formed beautiful ____ on the lake.",
       "options": [
         "reflection-mcq-01",
-        "reflection-mcq-02",
-        "reflection-mcq-03",
-        "reflection-mcq-04",
-        "reflection-mcq-05",
-        "reflection-mcq-06"
+        "reflection-mcq-15",
+        "reflection-mcq-13",
+        "reflection-mcq-14"
       ],
       "explanation": "本句的「reflections」指「光線從水面、鏡面等反射後形成的可見影像／倒影」。",
       "sentenceIndex": 2,
@@ -475,12 +473,10 @@ export default {
         "reflections"
       ],
       "optionReasons": {
-        "reflection-mcq-01": "本句指「光線從水面、鏡面等反射後形成的可見影像／倒影」。",
-        "reflection-mcq-02": "「光線或波碰到表面後返回原來介質的現象」是「reflection — physics」的用法，與本句語境不同。",
-        "reflection-mcq-03": "「對某事進行認真、深入、安靜的思考」是「reflection — thought」的用法，與本句語境不同。",
-        "reflection-mcq-04": "「對某主題、經歷或問題形成的深入思考／感想」是「reflection on」的用法，與本句語境不同。",
-        "reflection-mcq-05": "「某事物把另一事物的特徵、狀態或性質呈現出來」是「reflection — representation」的用法，與本句語境不同。",
-        "reflection-mcq-06": "「某件事對別人如何評價某人／機構所造成的影響」是「reflection on reputation」的用法，與本句語境不同。"
+        "reflection-mcq-01": "本句的「reflections」指「光線從水面、鏡面等反射後形成的可見影像／倒影」。",
+        "reflection-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-01"
     },
@@ -492,11 +488,9 @@ export default {
       "masked": "The shiny surface increases light ____.",
       "options": [
         "reflection-mcq-02",
-        "reflection-mcq-01",
-        "reflection-mcq-03",
-        "reflection-mcq-04",
-        "reflection-mcq-05",
-        "reflection-mcq-06"
+        "reflection-mcq-11",
+        "reflection-mcq-15",
+        "reflection-mcq-14"
       ],
       "explanation": "本句的「reflection」指「光線或波碰到表面後返回原來介質的現象」。",
       "sentenceIndex": 3,
@@ -505,12 +499,10 @@ export default {
         "reflection"
       ],
       "optionReasons": {
-        "reflection-mcq-02": "本句指「光線或波碰到表面後返回原來介質的現象」。",
-        "reflection-mcq-01": "「光線從水面、鏡面等反射後形成的可見影像／倒影」是「reflection — image」的用法，與本句語境不同。",
-        "reflection-mcq-03": "「對某事進行認真、深入、安靜的思考」是「reflection — thought」的用法，與本句語境不同。",
-        "reflection-mcq-04": "「對某主題、經歷或問題形成的深入思考／感想」是「reflection on」的用法，與本句語境不同。",
-        "reflection-mcq-05": "「某事物把另一事物的特徵、狀態或性質呈現出來」是「reflection — representation」的用法，與本句語境不同。",
-        "reflection-mcq-06": "「某件事對別人如何評價某人／機構所造成的影響」是「reflection on reputation」的用法，與本句語境不同。"
+        "reflection-mcq-02": "本句的「reflection」指「光線或波碰到表面後返回原來介質的現象」。",
+        "reflection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-02"
     },
@@ -522,11 +514,9 @@ export default {
       "masked": "____ occurs when light hits a surface and bounces back.",
       "options": [
         "reflection-mcq-02",
-        "reflection-mcq-01",
-        "reflection-mcq-03",
         "reflection-mcq-04",
-        "reflection-mcq-05",
-        "reflection-mcq-06"
+        "reflection-mcq-14",
+        "reflection-mcq-05"
       ],
       "explanation": "本句的「Reflection」指「光線或波碰到表面後返回原來介質的現象」。",
       "sentenceIndex": 4,
@@ -535,12 +525,10 @@ export default {
         "Reflection"
       ],
       "optionReasons": {
-        "reflection-mcq-02": "本句指「光線或波碰到表面後返回原來介質的現象」。",
-        "reflection-mcq-01": "「光線從水面、鏡面等反射後形成的可見影像／倒影」是「reflection — image」的用法，與本句語境不同。",
-        "reflection-mcq-03": "「對某事進行認真、深入、安靜的思考」是「reflection — thought」的用法，與本句語境不同。",
-        "reflection-mcq-04": "「對某主題、經歷或問題形成的深入思考／感想」是「reflection on」的用法，與本句語境不同。",
-        "reflection-mcq-05": "「某事物把另一事物的特徵、狀態或性質呈現出來」是「reflection — representation」的用法，與本句語境不同。",
-        "reflection-mcq-06": "「某件事對別人如何評價某人／機構所造成的影響」是「reflection on reputation」的用法，與本句語境不同。"
+        "reflection-mcq-02": "本句的「Reflection」指「光線或波碰到表面後返回原來介質的現象」。",
+        "reflection-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-02"
     },
@@ -552,10 +540,8 @@ export default {
       "masked": "After some ____, she changed her mind.",
       "options": [
         "reflection-mcq-03",
-        "reflection-mcq-02",
-        "reflection-mcq-04",
-        "reflection-mcq-01",
         "reflection-mcq-05",
+        "reflection-mcq-12",
         "reflection-mcq-06"
       ],
       "explanation": "本句的「reflection」指「對某事進行認真、深入、安靜的思考」。",
@@ -565,12 +551,10 @@ export default {
         "reflection"
       ],
       "optionReasons": {
-        "reflection-mcq-03": "本句指「對某事進行認真、深入、安靜的思考」。",
-        "reflection-mcq-02": "「光線或波碰到表面後返回原來介質的現象」是「reflection — physics」的用法，與本句語境不同。",
-        "reflection-mcq-04": "「對某主題、經歷或問題形成的深入思考／感想」是「reflection on」的用法，與本句語境不同。",
-        "reflection-mcq-01": "「光線從水面、鏡面等反射後形成的可見影像／倒影」是「reflection — image」的用法，與本句語境不同。",
-        "reflection-mcq-05": "「某事物把另一事物的特徵、狀態或性質呈現出來」是「reflection — representation」的用法，與本句語境不同。",
-        "reflection-mcq-06": "「某件事對別人如何評價某人／機構所造成的影響」是「reflection on reputation」的用法，與本句語境不同。"
+        "reflection-mcq-03": "本句的「reflection」指「對某事進行認真、深入、安靜的思考」。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-03"
     },
@@ -582,9 +566,7 @@ export default {
       "masked": "The trip gave me time for ____.",
       "options": [
         "reflection-mcq-03",
-        "reflection-mcq-02",
-        "reflection-mcq-04",
-        "reflection-mcq-01",
+        "reflection-mcq-09",
         "reflection-mcq-05",
         "reflection-mcq-06"
       ],
@@ -595,12 +577,10 @@ export default {
         "reflection"
       ],
       "optionReasons": {
-        "reflection-mcq-03": "本句指「對某事進行認真、深入、安靜的思考」。",
-        "reflection-mcq-02": "「光線或波碰到表面後返回原來介質的現象」是「reflection — physics」的用法，與本句語境不同。",
-        "reflection-mcq-04": "「對某主題、經歷或問題形成的深入思考／感想」是「reflection on」的用法，與本句語境不同。",
-        "reflection-mcq-01": "「光線從水面、鏡面等反射後形成的可見影像／倒影」是「reflection — image」的用法，與本句語境不同。",
-        "reflection-mcq-05": "「某事物把另一事物的特徵、狀態或性質呈現出來」是「reflection — representation」的用法，與本句語境不同。",
-        "reflection-mcq-06": "「某件事對別人如何評價某人／機構所造成的影響」是「reflection on reputation」的用法，與本句語境不同。"
+        "reflection-mcq-03": "本句的「reflection」指「對某事進行認真、深入、安靜的思考」。",
+        "reflection-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-03"
     },
@@ -612,11 +592,9 @@ export default {
       "masked": "The essay is a ____ modern life.",
       "options": [
         "reflection-mcq-04",
-        "reflection-mcq-03",
         "reflection-mcq-05",
-        "reflection-mcq-02",
-        "reflection-mcq-06",
-        "reflection-mcq-01"
+        "reflection-mcq-12",
+        "reflection-mcq-14"
       ],
       "explanation": "本句的「reflection on」指「對某主題、經歷或問題形成的深入思考／感想」。",
       "sentenceIndex": 7,
@@ -625,12 +603,10 @@ export default {
         "reflection on"
       ],
       "optionReasons": {
-        "reflection-mcq-04": "本句指「對某主題、經歷或問題形成的深入思考／感想」。",
-        "reflection-mcq-03": "「對某事進行認真、深入、安靜的思考」是「reflection — thought」的用法，與本句語境不同。",
-        "reflection-mcq-05": "「某事物把另一事物的特徵、狀態或性質呈現出來」是「reflection — representation」的用法，與本句語境不同。",
-        "reflection-mcq-02": "「光線或波碰到表面後返回原來介質的現象」是「reflection — physics」的用法，與本句語境不同。",
-        "reflection-mcq-06": "「某件事對別人如何評價某人／機構所造成的影響」是「reflection on reputation」的用法，與本句語境不同。",
-        "reflection-mcq-01": "「光線從水面、鏡面等反射後形成的可見影像／倒影」是「reflection — image」的用法，與本句語境不同。"
+        "reflection-mcq-04": "本句的「reflection on」指「對某主題、經歷或問題形成的深入思考／感想」。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-04"
     },
@@ -642,11 +618,9 @@ export default {
       "masked": "Her speech included ____ on her childhood.",
       "options": [
         "reflection-mcq-04",
-        "reflection-mcq-03",
-        "reflection-mcq-05",
         "reflection-mcq-02",
-        "reflection-mcq-06",
-        "reflection-mcq-01"
+        "reflection-mcq-05",
+        "reflection-mcq-14"
       ],
       "explanation": "本句的「reflections」指「對某主題、經歷或問題形成的深入思考／感想」。",
       "sentenceIndex": 8,
@@ -655,12 +629,10 @@ export default {
         "reflections"
       ],
       "optionReasons": {
-        "reflection-mcq-04": "本句指「對某主題、經歷或問題形成的深入思考／感想」。",
-        "reflection-mcq-03": "「對某事進行認真、深入、安靜的思考」是「reflection — thought」的用法，與本句語境不同。",
-        "reflection-mcq-05": "「某事物把另一事物的特徵、狀態或性質呈現出來」是「reflection — representation」的用法，與本句語境不同。",
-        "reflection-mcq-02": "「光線或波碰到表面後返回原來介質的現象」是「reflection — physics」的用法，與本句語境不同。",
-        "reflection-mcq-06": "「某件事對別人如何評價某人／機構所造成的影響」是「reflection on reputation」的用法，與本句語境不同。",
-        "reflection-mcq-01": "「光線從水面、鏡面等反射後形成的可見影像／倒影」是「reflection — image」的用法，與本句語境不同。"
+        "reflection-mcq-04": "本句的「reflections」指「對某主題、經歷或問題形成的深入思考／感想」。",
+        "reflection-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-04"
     },
@@ -672,11 +644,9 @@ export default {
       "masked": "The room is a ____ of her personality.",
       "options": [
         "reflection-mcq-05",
+        "reflection-mcq-16",
         "reflection-mcq-04",
-        "reflection-mcq-06",
-        "reflection-mcq-03",
-        "reflection-mcq-07",
-        "reflection-mcq-02"
+        "reflection-reviewed-8ab04fc39c"
       ],
       "explanation": "本句的「reflection」指「某事物把另一事物的特徵、狀態或性質呈現出來」。",
       "sentenceIndex": 9,
@@ -685,12 +655,10 @@ export default {
         "reflection"
       ],
       "optionReasons": {
-        "reflection-mcq-05": "本句指「某事物把另一事物的特徵、狀態或性質呈現出來」。",
-        "reflection-mcq-04": "「對某主題、經歷或問題形成的深入思考／感想」是「reflection on」的用法，與本句語境不同。",
-        "reflection-mcq-06": "「某件事對別人如何評價某人／機構所造成的影響」是「reflection on reputation」的用法，與本句語境不同。",
-        "reflection-mcq-03": "「對某事進行認真、深入、安靜的思考」是「reflection — thought」的用法，與本句語境不同。",
-        "reflection-mcq-07": "「經過思考後形成的個別感想、想法或評論」是「reflections — thoughts」的用法，與本句語境不同。",
-        "reflection-mcq-02": "「光線或波碰到表面後返回原來介質的現象」是「reflection — physics」的用法，與本句語境不同。"
+        "reflection-mcq-05": "本句的「reflection」指「某事物把另一事物的特徵、狀態或性質呈現出來」。",
+        "reflection-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "reflection-reviewed-8ab04fc39c": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-05"
     },
@@ -702,11 +670,9 @@ export default {
       "masked": "His writing is a ____ of his experiences.",
       "options": [
         "reflection-mcq-05",
-        "reflection-mcq-04",
-        "reflection-mcq-06",
-        "reflection-mcq-03",
-        "reflection-mcq-07",
-        "reflection-mcq-02"
+        "reflection-mcq-09",
+        "reflection-mcq-14",
+        "reflection-mcq-04"
       ],
       "explanation": "本句的「reflection」指「某事物把另一事物的特徵、狀態或性質呈現出來」。",
       "sentenceIndex": 10,
@@ -715,12 +681,10 @@ export default {
         "reflection"
       ],
       "optionReasons": {
-        "reflection-mcq-05": "本句指「某事物把另一事物的特徵、狀態或性質呈現出來」。",
-        "reflection-mcq-04": "「對某主題、經歷或問題形成的深入思考／感想」是「reflection on」的用法，與本句語境不同。",
-        "reflection-mcq-06": "「某件事對別人如何評價某人／機構所造成的影響」是「reflection on reputation」的用法，與本句語境不同。",
-        "reflection-mcq-03": "「對某事進行認真、深入、安靜的思考」是「reflection — thought」的用法，與本句語境不同。",
-        "reflection-mcq-07": "「經過思考後形成的個別感想、想法或評論」是「reflections — thoughts」的用法，與本句語境不同。",
-        "reflection-mcq-02": "「光線或波碰到表面後返回原來介質的現象」是「reflection — physics」的用法，與本句語境不同。"
+        "reflection-mcq-05": "本句的「reflection」指「某事物把另一事物的特徵、狀態或性質呈現出來」。",
+        "reflection-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-05"
     },
@@ -732,11 +696,9 @@ export default {
       "masked": "Art can be a ____.",
       "options": [
         "reflection-mcq-15",
-        "reflection-mcq-14",
-        "reflection-mcq-16",
-        "reflection-mcq-13",
-        "reflection-mcq-12",
-        "reflection-mcq-11"
+        "reflection-mcq-03",
+        "reflection-mcq-01",
+        "reflection-mcq-14"
       ],
       "explanation": "本句的「reflection of society」指「顯示出 X 的特徵、價值、問題或變化」。",
       "sentenceIndex": 11,
@@ -745,12 +707,10 @@ export default {
         "reflection of society"
       ],
       "optionReasons": {
-        "reflection-mcq-15": "本句指「顯示出 X 的特徵、價值、問題或變化」。",
-        "reflection-mcq-14": "「把圖形沿指定直線／平面作鏡像翻轉的變換」是「reflection — geometry」的用法，與本句語境不同。",
-        "reflection-mcq-16": "「某行為令某人／機構形象變好或變差」是「14. reflect well/badly on + person/organization — 使……得到好／壞評價」的用法，與本句語境不同。",
-        "reflection-mcq-13": "「帶有沉思性質或善於深入思考的」是「reflective — mental」的用法，與本句語境不同。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。"
+        "reflection-mcq-15": "本句的「reflection of society」指「顯示出 X 的特徵、價值、問題或變化」。",
+        "reflection-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-15"
     },
@@ -762,11 +722,9 @@ export default {
       "masked": "Fashion is often a ____ of cultural change.",
       "options": [
         "reflection-mcq-15",
-        "reflection-mcq-14",
-        "reflection-mcq-16",
+        "reflection-mcq-09",
         "reflection-mcq-13",
-        "reflection-mcq-12",
-        "reflection-mcq-11"
+        "reflection-mcq-06"
       ],
       "explanation": "本句的「reflection」指「顯示出 X 的特徵、價值、問題或變化」。",
       "sentenceIndex": 12,
@@ -775,12 +733,10 @@ export default {
         "reflection"
       ],
       "optionReasons": {
-        "reflection-mcq-15": "本句指「顯示出 X 的特徵、價值、問題或變化」。",
-        "reflection-mcq-14": "「把圖形沿指定直線／平面作鏡像翻轉的變換」是「reflection — geometry」的用法，與本句語境不同。",
-        "reflection-mcq-16": "「某行為令某人／機構形象變好或變差」是「14. reflect well/badly on + person/organization — 使……得到好／壞評價」的用法，與本句語境不同。",
-        "reflection-mcq-13": "「帶有沉思性質或善於深入思考的」是「reflective — mental」的用法，與本句語境不同。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。"
+        "reflection-mcq-15": "本句的「reflection」指「顯示出 X 的特徵、價值、問題或變化」。",
+        "reflection-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-15"
     },
@@ -792,11 +748,9 @@ export default {
       "masked": "The poor service is a bad ____ the company.",
       "options": [
         "reflection-mcq-06",
-        "reflection-mcq-05",
-        "reflection-mcq-07",
-        "reflection-mcq-04",
-        "reflection-mcq-08",
-        "reflection-mcq-03"
+        "reflection-mcq-13",
+        "reflection-mcq-14",
+        "reflection-mcq-02"
       ],
       "explanation": "本句的「reflection on」指「某件事對別人如何評價某人／機構所造成的影響」。",
       "sentenceIndex": 13,
@@ -805,12 +759,10 @@ export default {
         "reflection on"
       ],
       "optionReasons": {
-        "reflection-mcq-06": "本句指「某件事對別人如何評價某人／機構所造成的影響」。",
-        "reflection-mcq-05": "「某事物把另一事物的特徵、狀態或性質呈現出來」是「reflection — representation」的用法，與本句語境不同。",
-        "reflection-mcq-07": "「經過思考後形成的個別感想、想法或評論」是「reflections — thoughts」的用法，與本句語境不同。",
-        "reflection-mcq-04": "「對某主題、經歷或問題形成的深入思考／感想」是「reflection on」的用法，與本句語境不同。",
-        "reflection-mcq-08": "「對自己的行為、想法、情緒或價值觀作深入檢視」是「self-reflection」的用法，與本句語境不同。",
-        "reflection-mcq-03": "「對某事進行認真、深入、安靜的思考」是「reflection — thought」的用法，與本句語境不同。"
+        "reflection-mcq-06": "本句的「reflection on」指「某件事對別人如何評價某人／機構所造成的影響」。",
+        "reflection-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-06"
     },
@@ -822,11 +774,9 @@ export default {
       "masked": "His behaviour was no ____ on his colleagues.",
       "options": [
         "reflection-mcq-06",
-        "reflection-mcq-05",
-        "reflection-mcq-07",
-        "reflection-mcq-04",
-        "reflection-mcq-08",
-        "reflection-mcq-03"
+        "reflection-mcq-02",
+        "reflection-mcq-03",
+        "reflection-mcq-14"
       ],
       "explanation": "本句的「reflection」指「某件事對別人如何評價某人／機構所造成的影響」。",
       "sentenceIndex": 14,
@@ -835,12 +785,10 @@ export default {
         "reflection"
       ],
       "optionReasons": {
-        "reflection-mcq-06": "本句指「某件事對別人如何評價某人／機構所造成的影響」。",
-        "reflection-mcq-05": "「某事物把另一事物的特徵、狀態或性質呈現出來」是「reflection — representation」的用法，與本句語境不同。",
-        "reflection-mcq-07": "「經過思考後形成的個別感想、想法或評論」是「reflections — thoughts」的用法，與本句語境不同。",
-        "reflection-mcq-04": "「對某主題、經歷或問題形成的深入思考／感想」是「reflection on」的用法，與本句語境不同。",
-        "reflection-mcq-08": "「對自己的行為、想法、情緒或價值觀作深入檢視」是「self-reflection」的用法，與本句語境不同。",
-        "reflection-mcq-03": "「對某事進行認真、深入、安靜的思考」是「reflection — thought」的用法，與本句語境不同。"
+        "reflection-mcq-06": "本句的「reflection」指「某件事對別人如何評價某人／機構所造成的影響」。",
+        "reflection-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-06"
     },
@@ -852,11 +800,9 @@ export default {
       "masked": "The book contains personal ____ on art.",
       "options": [
         "reflection-mcq-07",
-        "reflection-mcq-06",
-        "reflection-mcq-08",
+        "reflection-reviewed-8ab04fc39c",
         "reflection-mcq-05",
-        "reflection-mcq-09",
-        "reflection-mcq-04"
+        "reflection-mcq-16"
       ],
       "explanation": "本句的「reflections」指「經過思考後形成的個別感想、想法或評論」。",
       "sentenceIndex": 15,
@@ -865,12 +811,10 @@ export default {
         "reflections"
       ],
       "optionReasons": {
-        "reflection-mcq-07": "本句指「經過思考後形成的個別感想、想法或評論」。",
-        "reflection-mcq-06": "「某件事對別人如何評價某人／機構所造成的影響」是「reflection on reputation」的用法，與本句語境不同。",
-        "reflection-mcq-08": "「對自己的行為、想法、情緒或價值觀作深入檢視」是「self-reflection」的用法，與本句語境不同。",
-        "reflection-mcq-05": "「某事物把另一事物的特徵、狀態或性質呈現出來」是「reflection — representation」的用法，與本句語境不同。",
-        "reflection-mcq-09": "「把照射到表面的光線／影像反射回去」是「reflect — optical」的用法，與本句語境不同。",
-        "reflection-mcq-04": "「對某主題、經歷或問題形成的深入思考／感想」是「reflection on」的用法，與本句語境不同。"
+        "reflection-mcq-07": "本句的「reflections」指「經過思考後形成的個別感想、想法或評論」。",
+        "reflection-reviewed-8ab04fc39c": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-07"
     },
@@ -882,11 +826,9 @@ export default {
       "masked": "She shared a few ____ after the exhibition.",
       "options": [
         "reflection-mcq-07",
-        "reflection-mcq-06",
-        "reflection-mcq-08",
         "reflection-mcq-05",
-        "reflection-mcq-09",
-        "reflection-mcq-04"
+        "reflection-mcq-12",
+        "reflection-mcq-16"
       ],
       "explanation": "本句的「reflections」指「經過思考後形成的個別感想、想法或評論」。",
       "sentenceIndex": 16,
@@ -895,12 +837,10 @@ export default {
         "reflections"
       ],
       "optionReasons": {
-        "reflection-mcq-07": "本句指「經過思考後形成的個別感想、想法或評論」。",
-        "reflection-mcq-06": "「某件事對別人如何評價某人／機構所造成的影響」是「reflection on reputation」的用法，與本句語境不同。",
-        "reflection-mcq-08": "「對自己的行為、想法、情緒或價值觀作深入檢視」是「self-reflection」的用法，與本句語境不同。",
-        "reflection-mcq-05": "「某事物把另一事物的特徵、狀態或性質呈現出來」是「reflection — representation」的用法，與本句語境不同。",
-        "reflection-mcq-09": "「把照射到表面的光線／影像反射回去」是「reflect — optical」的用法，與本句語境不同。",
-        "reflection-mcq-04": "「對某主題、經歷或問題形成的深入思考／感想」是「reflection on」的用法，與本句語境不同。"
+        "reflection-mcq-07": "本句的「reflections」指「經過思考後形成的個別感想、想法或評論」。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-07"
     },
@@ -912,11 +852,9 @@ export default {
       "masked": "Good leadership requires ____.",
       "options": [
         "reflection-mcq-08",
-        "reflection-mcq-07",
-        "reflection-mcq-09",
-        "reflection-mcq-06",
-        "reflection-mcq-10",
-        "reflection-mcq-05"
+        "reflection-mcq-05",
+        "reflection-mcq-01",
+        "reflection-mcq-14"
       ],
       "explanation": "本句的「self-reflection」指「對自己的行為、想法、情緒或價值觀作深入檢視」。",
       "sentenceIndex": 17,
@@ -925,12 +863,10 @@ export default {
         "self-reflection"
       ],
       "optionReasons": {
-        "reflection-mcq-08": "本句指「對自己的行為、想法、情緒或價值觀作深入檢視」。",
-        "reflection-mcq-07": "「經過思考後形成的個別感想、想法或評論」是「reflections — thoughts」的用法，與本句語境不同。",
-        "reflection-mcq-09": "「把照射到表面的光線／影像反射回去」是「reflect — optical」的用法，與本句語境不同。",
-        "reflection-mcq-06": "「某件事對別人如何評價某人／機構所造成的影響」是「reflection on reputation」的用法，與本句語境不同。",
-        "reflection-mcq-10": "「顯示、體現某種狀態、特徵、想法或變化」是「reflect — figurative」的用法，與本句語境不同。",
-        "reflection-mcq-05": "「某事物把另一事物的特徵、狀態或性質呈現出來」是「reflection — representation」的用法，與本句語境不同。"
+        "reflection-mcq-08": "本句的「self-reflection」指「對自己的行為、想法、情緒或價值觀作深入檢視」。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-08"
     },
@@ -942,11 +878,9 @@ export default {
       "masked": "Journaling can encourage self-____.",
       "options": [
         "reflection-mcq-08",
-        "reflection-mcq-07",
+        "reflection-mcq-05",
         "reflection-mcq-09",
-        "reflection-mcq-06",
-        "reflection-mcq-10",
-        "reflection-mcq-05"
+        "reflection-mcq-14"
       ],
       "explanation": "本句的「reflection」指「對自己的行為、想法、情緒或價值觀作深入檢視」。",
       "sentenceIndex": 18,
@@ -955,12 +889,10 @@ export default {
         "reflection"
       ],
       "optionReasons": {
-        "reflection-mcq-08": "本句指「對自己的行為、想法、情緒或價值觀作深入檢視」。",
-        "reflection-mcq-07": "「經過思考後形成的個別感想、想法或評論」是「reflections — thoughts」的用法，與本句語境不同。",
-        "reflection-mcq-09": "「把照射到表面的光線／影像反射回去」是「reflect — optical」的用法，與本句語境不同。",
-        "reflection-mcq-06": "「某件事對別人如何評價某人／機構所造成的影響」是「reflection on reputation」的用法，與本句語境不同。",
-        "reflection-mcq-10": "「顯示、體現某種狀態、特徵、想法或變化」是「reflect — figurative」的用法，與本句語境不同。",
-        "reflection-mcq-05": "「某事物把另一事物的特徵、狀態或性質呈現出來」是「reflection — representation」的用法，與本句語境不同。"
+        "reflection-mcq-08": "本句的「reflection」指「對自己的行為、想法、情緒或價值觀作深入檢視」。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-08"
     },
@@ -972,10 +904,8 @@ export default {
       "masked": "The water ____ the evening light.",
       "options": [
         "reflection-mcq-09",
-        "reflection-mcq-08",
-        "reflection-mcq-10",
-        "reflection-mcq-07",
-        "reflection-mcq-11",
+        "reflection-mcq-13",
+        "reflection-mcq-15",
         "reflection-mcq-06"
       ],
       "explanation": "本句的「reflected」指「把照射到表面的光線／影像反射回去」。",
@@ -985,12 +915,10 @@ export default {
         "reflected"
       ],
       "optionReasons": {
-        "reflection-mcq-09": "本句指「把照射到表面的光線／影像反射回去」。",
-        "reflection-mcq-08": "「對自己的行為、想法、情緒或價值觀作深入檢視」是「self-reflection」的用法，與本句語境不同。",
-        "reflection-mcq-10": "「顯示、體現某種狀態、特徵、想法或變化」是「reflect — figurative」的用法，與本句語境不同。",
-        "reflection-mcq-07": "「經過思考後形成的個別感想、想法或評論」是「reflections — thoughts」的用法，與本句語境不同。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。",
-        "reflection-mcq-06": "「某件事對別人如何評價某人／機構所造成的影響」是「reflection on reputation」的用法，與本句語境不同。"
+        "reflection-mcq-09": "本句的「reflected」指「把照射到表面的光線／影像反射回去」。",
+        "reflection-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-09"
     },
@@ -1002,10 +930,8 @@ export default {
       "masked": "The mirror ____ the room.",
       "options": [
         "reflection-mcq-09",
-        "reflection-mcq-08",
-        "reflection-mcq-10",
-        "reflection-mcq-07",
-        "reflection-mcq-11",
+        "reflection-mcq-03",
+        "reflection-mcq-05",
         "reflection-mcq-06"
       ],
       "explanation": "本句的「reflects」指「把照射到表面的光線／影像反射回去」。",
@@ -1015,12 +941,10 @@ export default {
         "reflects"
       ],
       "optionReasons": {
-        "reflection-mcq-09": "本句指「把照射到表面的光線／影像反射回去」。",
-        "reflection-mcq-08": "「對自己的行為、想法、情緒或價值觀作深入檢視」是「self-reflection」的用法，與本句語境不同。",
-        "reflection-mcq-10": "「顯示、體現某種狀態、特徵、想法或變化」是「reflect — figurative」的用法，與本句語境不同。",
-        "reflection-mcq-07": "「經過思考後形成的個別感想、想法或評論」是「reflections — thoughts」的用法，與本句語境不同。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。",
-        "reflection-mcq-06": "「某件事對別人如何評價某人／機構所造成的影響」是「reflection on reputation」的用法，與本句語境不同。"
+        "reflection-mcq-09": "本句的「reflects」指「把照射到表面的光線／影像反射回去」。",
+        "reflection-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-09"
     },
@@ -1033,10 +957,8 @@ export default {
       "options": [
         "reflection-mcq-10",
         "reflection-mcq-09",
-        "reflection-mcq-11",
-        "reflection-mcq-08",
-        "reflection-mcq-12",
-        "reflection-mcq-07"
+        "reflection-mcq-06",
+        "reflection-mcq-14"
       ],
       "explanation": "本句的「reflects」指「顯示、體現某種狀態、特徵、想法或變化」。",
       "sentenceIndex": 21,
@@ -1045,12 +967,10 @@ export default {
         "reflects"
       ],
       "optionReasons": {
-        "reflection-mcq-10": "本句指「顯示、體現某種狀態、特徵、想法或變化」。",
-        "reflection-mcq-09": "「把照射到表面的光線／影像反射回去」是「reflect — optical」的用法，與本句語境不同。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。",
-        "reflection-mcq-08": "「對自己的行為、想法、情緒或價值觀作深入檢視」是「self-reflection」的用法，與本句語境不同。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-07": "「經過思考後形成的個別感想、想法或評論」是「reflections — thoughts」的用法，與本句語境不同。"
+        "reflection-mcq-10": "本句的「reflects」指「顯示、體現某種狀態、特徵、想法或變化」。",
+        "reflection-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-10"
     },
@@ -1062,11 +982,9 @@ export default {
       "masked": "The results ____ changing attitudes.",
       "options": [
         "reflection-mcq-10",
-        "reflection-mcq-09",
-        "reflection-mcq-11",
-        "reflection-mcq-08",
-        "reflection-mcq-12",
-        "reflection-mcq-07"
+        "reflection-mcq-06",
+        "reflection-reviewed-8ab04fc39c",
+        "reflection-mcq-14"
       ],
       "explanation": "本句的「reflect」指「顯示、體現某種狀態、特徵、想法或變化」。",
       "sentenceIndex": 22,
@@ -1075,12 +993,10 @@ export default {
         "reflect"
       ],
       "optionReasons": {
-        "reflection-mcq-10": "本句指「顯示、體現某種狀態、特徵、想法或變化」。",
-        "reflection-mcq-09": "「把照射到表面的光線／影像反射回去」是「reflect — optical」的用法，與本句語境不同。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。",
-        "reflection-mcq-08": "「對自己的行為、想法、情緒或價值觀作深入檢視」是「self-reflection」的用法，與本句語境不同。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-07": "「經過思考後形成的個別感想、想法或評論」是「reflections — thoughts」的用法，與本句語境不同。"
+        "reflection-mcq-10": "本句的「reflect」指「顯示、體現某種狀態、特徵、想法或變化」。",
+        "reflection-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reflection-reviewed-8ab04fc39c": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-10"
     },
@@ -1092,11 +1008,9 @@ export default {
       "masked": "She ____ on what had happened.",
       "options": [
         "reflection-mcq-11",
-        "reflection-mcq-10",
-        "reflection-mcq-12",
-        "reflection-mcq-09",
-        "reflection-mcq-13",
-        "reflection-mcq-08"
+        "reflection-mcq-05",
+        "reflection-mcq-02",
+        "reflection-mcq-14"
       ],
       "explanation": "本句的「reflected」指「對某件事認真、深入地思考」。",
       "sentenceIndex": 23,
@@ -1105,12 +1019,10 @@ export default {
         "reflected"
       ],
       "optionReasons": {
-        "reflection-mcq-11": "本句指「對某件事認真、深入地思考」。",
-        "reflection-mcq-10": "「顯示、體現某種狀態、特徵、想法或變化」是「reflect — figurative」的用法，與本句語境不同。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-09": "「把照射到表面的光線／影像反射回去」是「reflect — optical」的用法，與本句語境不同。",
-        "reflection-mcq-13": "「帶有沉思性質或善於深入思考的」是「reflective — mental」的用法，與本句語境不同。",
-        "reflection-mcq-08": "「對自己的行為、想法、情緒或價值觀作深入檢視」是「self-reflection」的用法，與本句語境不同。"
+        "reflection-mcq-11": "本句的「reflected」指「對某件事認真、深入地思考」。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-11"
     },
@@ -1122,11 +1034,9 @@ export default {
       "masked": "Take some time to ____ before deciding.",
       "options": [
         "reflection-mcq-11",
-        "reflection-mcq-10",
-        "reflection-mcq-12",
+        "reflection-mcq-15",
         "reflection-mcq-09",
-        "reflection-mcq-13",
-        "reflection-mcq-08"
+        "reflection-mcq-14"
       ],
       "explanation": "本句的「reflect」指「對某件事認真、深入地思考」。",
       "sentenceIndex": 24,
@@ -1135,12 +1045,10 @@ export default {
         "reflect"
       ],
       "optionReasons": {
-        "reflection-mcq-11": "本句指「對某件事認真、深入地思考」。",
-        "reflection-mcq-10": "「顯示、體現某種狀態、特徵、想法或變化」是「reflect — figurative」的用法，與本句語境不同。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-09": "「把照射到表面的光線／影像反射回去」是「reflect — optical」的用法，與本句語境不同。",
-        "reflection-mcq-13": "「帶有沉思性質或善於深入思考的」是「reflective — mental」的用法，與本句語境不同。",
-        "reflection-mcq-08": "「對自己的行為、想法、情緒或價值觀作深入檢視」是「self-reflection」的用法，與本句語境不同。"
+        "reflection-mcq-11": "本句的「reflect」指「對某件事認真、深入地思考」。",
+        "reflection-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-11"
     },
@@ -1152,11 +1060,9 @@ export default {
       "masked": "He ____ on his years at school.",
       "options": [
         "reflection-mcq-11",
-        "reflection-mcq-10",
-        "reflection-mcq-12",
-        "reflection-mcq-09",
-        "reflection-mcq-13",
-        "reflection-mcq-08"
+        "reflection-mcq-16",
+        "reflection-reviewed-8ab04fc39c",
+        "reflection-mcq-05"
       ],
       "explanation": "本句的「reflected」指「對某件事認真、深入地思考」。",
       "sentenceIndex": 25,
@@ -1165,12 +1071,10 @@ export default {
         "reflected"
       ],
       "optionReasons": {
-        "reflection-mcq-11": "本句指「對某件事認真、深入地思考」。",
-        "reflection-mcq-10": "「顯示、體現某種狀態、特徵、想法或變化」是「reflect — figurative」的用法，與本句語境不同。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-09": "「把照射到表面的光線／影像反射回去」是「reflect — optical」的用法，與本句語境不同。",
-        "reflection-mcq-13": "「帶有沉思性質或善於深入思考的」是「reflective — mental」的用法，與本句語境不同。",
-        "reflection-mcq-08": "「對自己的行為、想法、情緒或價值觀作深入檢視」是「self-reflection」的用法，與本句語境不同。"
+        "reflection-mcq-11": "本句的「reflected」指「對某件事認真、深入地思考」。",
+        "reflection-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reflection-reviewed-8ab04fc39c": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-11"
     },
@@ -1182,11 +1086,9 @@ export default {
       "masked": "The exhibition invites visitors to ____ on nature.",
       "options": [
         "reflection-mcq-11",
-        "reflection-mcq-10",
-        "reflection-mcq-12",
-        "reflection-mcq-09",
-        "reflection-mcq-13",
-        "reflection-mcq-08"
+        "reflection-mcq-02",
+        "reflection-mcq-14",
+        "reflection-mcq-05"
       ],
       "explanation": "本句的「reflect」指「對某件事認真、深入地思考」。",
       "sentenceIndex": 26,
@@ -1195,12 +1097,10 @@ export default {
         "reflect"
       ],
       "optionReasons": {
-        "reflection-mcq-11": "本句指「對某件事認真、深入地思考」。",
-        "reflection-mcq-10": "「顯示、體現某種狀態、特徵、想法或變化」是「reflect — figurative」的用法，與本句語境不同。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-09": "「把照射到表面的光線／影像反射回去」是「reflect — optical」的用法，與本句語境不同。",
-        "reflection-mcq-13": "「帶有沉思性質或善於深入思考的」是「reflective — mental」的用法，與本句語境不同。",
-        "reflection-mcq-08": "「對自己的行為、想法、情緒或價值觀作深入檢視」是「self-reflection」的用法，與本句語境不同。"
+        "reflection-mcq-11": "本句的「reflect」指「對某件事認真、深入地思考」。",
+        "reflection-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-11"
     },
@@ -1212,11 +1112,9 @@ export default {
       "masked": "Her professionalism ____ the team.",
       "options": [
         "reflection-mcq-16",
-        "reflection-mcq-15",
-        "reflection-mcq-14",
-        "reflection-mcq-13",
-        "reflection-mcq-12",
-        "reflection-mcq-11"
+        "reflection-reviewed-8ab04fc39c",
+        "reflection-mcq-11",
+        "reflection-mcq-05"
       ],
       "explanation": "本句的「reflects well on」指「某行為令某人／機構形象變好或變差」。",
       "sentenceIndex": 27,
@@ -1225,12 +1123,10 @@ export default {
         "reflects well on"
       ],
       "optionReasons": {
-        "reflection-mcq-16": "本句指「某行為令某人／機構形象變好或變差」。",
-        "reflection-mcq-15": "「顯示出 X 的特徵、價值、問題或變化」是「6. a reflection of society/culture = 社會／文化的反映」的用法，與本句語境不同。",
-        "reflection-mcq-14": "「把圖形沿指定直線／平面作鏡像翻轉的變換」是「reflection — geometry」的用法，與本句語境不同。",
-        "reflection-mcq-13": "「帶有沉思性質或善於深入思考的」是「reflective — mental」的用法，與本句語境不同。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。"
+        "reflection-mcq-16": "本句的「reflects well on」指「某行為令某人／機構形象變好或變差」。",
+        "reflection-reviewed-8ab04fc39c": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-16"
     },
@@ -1242,11 +1138,9 @@ export default {
       "masked": "The mistake ____ badly on the company.",
       "options": [
         "reflection-mcq-16",
-        "reflection-mcq-15",
-        "reflection-mcq-14",
-        "reflection-mcq-13",
-        "reflection-mcq-12",
-        "reflection-mcq-11"
+        "reflection-mcq-11",
+        "reflection-reviewed-8ab04fc39c",
+        "reflection-mcq-05"
       ],
       "explanation": "本句的「reflects」指「某行為令某人／機構形象變好或變差」。",
       "sentenceIndex": 28,
@@ -1255,12 +1149,10 @@ export default {
         "reflects"
       ],
       "optionReasons": {
-        "reflection-mcq-16": "本句指「某行為令某人／機構形象變好或變差」。",
-        "reflection-mcq-15": "「顯示出 X 的特徵、價值、問題或變化」是「6. a reflection of society/culture = 社會／文化的反映」的用法，與本句語境不同。",
-        "reflection-mcq-14": "「把圖形沿指定直線／平面作鏡像翻轉的變換」是「reflection — geometry」的用法，與本句語境不同。",
-        "reflection-mcq-13": "「帶有沉思性質或善於深入思考的」是「reflective — mental」的用法，與本句語境不同。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。"
+        "reflection-mcq-16": "本句的「reflects」指「某行為令某人／機構形象變好或變差」。",
+        "reflection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reflection-reviewed-8ab04fc39c": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-16"
     },
@@ -1273,10 +1165,8 @@ export default {
       "options": [
         "reflection-mcq-12",
         "reflection-mcq-11",
-        "reflection-mcq-13",
-        "reflection-mcq-10",
-        "reflection-mcq-14",
-        "reflection-mcq-09"
+        "reflection-mcq-05",
+        "reflection-mcq-16"
       ],
       "explanation": "本句的「reflective」指「能把光線反射回去的」。",
       "sentenceIndex": 29,
@@ -1285,12 +1175,10 @@ export default {
         "reflective"
       ],
       "optionReasons": {
-        "reflection-mcq-12": "本句指「能把光線反射回去的」。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。",
-        "reflection-mcq-13": "「帶有沉思性質或善於深入思考的」是「reflective — mental」的用法，與本句語境不同。",
-        "reflection-mcq-10": "「顯示、體現某種狀態、特徵、想法或變化」是「reflect — figurative」的用法，與本句語境不同。",
-        "reflection-mcq-14": "「把圖形沿指定直線／平面作鏡像翻轉的變換」是「reflection — geometry」的用法，與本句語境不同。",
-        "reflection-mcq-09": "「把照射到表面的光線／影像反射回去」是「reflect — optical」的用法，與本句語境不同。"
+        "reflection-mcq-12": "本句的「reflective」指「能把光線反射回去的」。",
+        "reflection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-12"
     },
@@ -1302,11 +1190,9 @@ export default {
       "masked": "The sign has a ____ surface.",
       "options": [
         "reflection-mcq-12",
-        "reflection-mcq-11",
-        "reflection-mcq-13",
-        "reflection-mcq-10",
-        "reflection-mcq-14",
-        "reflection-mcq-09"
+        "reflection-mcq-04",
+        "reflection-mcq-16",
+        "reflection-mcq-05"
       ],
       "explanation": "本句的「reflective」指「能把光線反射回去的」。",
       "sentenceIndex": 30,
@@ -1315,12 +1201,10 @@ export default {
         "reflective"
       ],
       "optionReasons": {
-        "reflection-mcq-12": "本句指「能把光線反射回去的」。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。",
-        "reflection-mcq-13": "「帶有沉思性質或善於深入思考的」是「reflective — mental」的用法，與本句語境不同。",
-        "reflection-mcq-10": "「顯示、體現某種狀態、特徵、想法或變化」是「reflect — figurative」的用法，與本句語境不同。",
-        "reflection-mcq-14": "「把圖形沿指定直線／平面作鏡像翻轉的變換」是「reflection — geometry」的用法，與本句語境不同。",
-        "reflection-mcq-09": "「把照射到表面的光線／影像反射回去」是「reflect — optical」的用法，與本句語境不同。"
+        "reflection-mcq-12": "本句的「reflective」指「能把光線反射回去的」。",
+        "reflection-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-12"
     },
@@ -1332,11 +1216,9 @@ export default {
       "masked": "She was in a ____ mood.",
       "options": [
         "reflection-mcq-13",
-        "reflection-mcq-12",
-        "reflection-mcq-14",
-        "reflection-mcq-11",
+        "reflection-mcq-01",
         "reflection-mcq-15",
-        "reflection-mcq-10"
+        "reflection-mcq-14"
       ],
       "explanation": "本句的「reflective」指「帶有沉思性質或善於深入思考的」。",
       "sentenceIndex": 31,
@@ -1345,12 +1227,10 @@ export default {
         "reflective"
       ],
       "optionReasons": {
-        "reflection-mcq-13": "本句指「帶有沉思性質或善於深入思考的」。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-14": "「把圖形沿指定直線／平面作鏡像翻轉的變換」是「reflection — geometry」的用法，與本句語境不同。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。",
-        "reflection-mcq-15": "「顯示出 X 的特徵、價值、問題或變化」是「6. a reflection of society/culture = 社會／文化的反映」的用法，與本句語境不同。",
-        "reflection-mcq-10": "「顯示、體現某種狀態、特徵、想法或變化」是「reflect — figurative」的用法，與本句語境不同。"
+        "reflection-mcq-13": "本句的「reflective」指「帶有沉思性質或善於深入思考的」。",
+        "reflection-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-13"
     },
@@ -1362,11 +1242,9 @@ export default {
       "masked": "He is a quiet and ____ person.",
       "options": [
         "reflection-mcq-13",
-        "reflection-mcq-12",
         "reflection-mcq-14",
-        "reflection-mcq-11",
-        "reflection-mcq-15",
-        "reflection-mcq-10"
+        "reflection-mcq-06",
+        "reflection-mcq-12"
       ],
       "explanation": "本句的「reflective」指「帶有沉思性質或善於深入思考的」。",
       "sentenceIndex": 32,
@@ -1375,12 +1253,10 @@ export default {
         "reflective"
       ],
       "optionReasons": {
-        "reflection-mcq-13": "本句指「帶有沉思性質或善於深入思考的」。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-14": "「把圖形沿指定直線／平面作鏡像翻轉的變換」是「reflection — geometry」的用法，與本句語境不同。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。",
-        "reflection-mcq-15": "「顯示出 X 的特徵、價值、問題或變化」是「6. a reflection of society/culture = 社會／文化的反映」的用法，與本句語境不同。",
-        "reflection-mcq-10": "「顯示、體現某種狀態、特徵、想法或變化」是「reflect — figurative」的用法，與本句語境不同。"
+        "reflection-mcq-13": "本句的「reflective」指「帶有沉思性質或善於深入思考的」。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-13"
     },
@@ -1394,9 +1270,7 @@ export default {
         "reflection-mcq-13",
         "reflection-mcq-12",
         "reflection-mcq-14",
-        "reflection-mcq-11",
-        "reflection-mcq-15",
-        "reflection-mcq-10"
+        "reflection-mcq-15"
       ],
       "explanation": "本句的「reflectively」指「帶有沉思性質或善於深入思考的」。",
       "sentenceIndex": 33,
@@ -1405,12 +1279,10 @@ export default {
         "reflectively"
       ],
       "optionReasons": {
-        "reflection-mcq-13": "本句指「帶有沉思性質或善於深入思考的」。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-14": "「把圖形沿指定直線／平面作鏡像翻轉的變換」是「reflection — geometry」的用法，與本句語境不同。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。",
-        "reflection-mcq-15": "「顯示出 X 的特徵、價值、問題或變化」是「6. a reflection of society/culture = 社會／文化的反映」的用法，與本句語境不同。",
-        "reflection-mcq-10": "「顯示、體現某種狀態、特徵、想法或變化」是「reflect — figurative」的用法，與本句語境不同。"
+        "reflection-mcq-13": "本句的「reflectively」指「帶有沉思性質或善於深入思考的」。",
+        "reflection-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-13"
     },
@@ -1423,10 +1295,8 @@ export default {
       "options": [
         "reflection-mcq-13",
         "reflection-mcq-12",
-        "reflection-mcq-14",
-        "reflection-mcq-11",
-        "reflection-mcq-15",
-        "reflection-mcq-10"
+        "reflection-mcq-16",
+        "reflection-mcq-14"
       ],
       "explanation": "本句的「reflectively」指「帶有沉思性質或善於深入思考的」。",
       "sentenceIndex": 34,
@@ -1435,74 +1305,68 @@ export default {
         "reflectively"
       ],
       "optionReasons": {
-        "reflection-mcq-13": "本句指「帶有沉思性質或善於深入思考的」。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-14": "「把圖形沿指定直線／平面作鏡像翻轉的變換」是「reflection — geometry」的用法，與本句語境不同。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。",
-        "reflection-mcq-15": "「顯示出 X 的特徵、價值、問題或變化」是「6. a reflection of society/culture = 社會／文化的反映」的用法，與本句語境不同。",
-        "reflection-mcq-10": "「顯示、體現某種狀態、特徵、想法或變化」是「reflect — figurative」的用法，與本句語境不同。"
+        "reflection-mcq-13": "本句的「reflectively」指「帶有沉思性質或善於深入思考的」。",
+        "reflection-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-13"
     },
     {
       "id": "reflection-18-0",
-      "sense": "reflection-mcq-13",
+      "sense": "reflection-reviewed-8ab04fc39c",
       "en": "The building uses highly reflective glass.",
       "zh": "這座建築使用高度反光玻璃。",
       "masked": "The building uses highly ____.",
       "options": [
+        "reflection-reviewed-8ab04fc39c",
+        "reflection-mcq-16",
         "reflection-mcq-13",
-        "reflection-mcq-12",
-        "reflection-mcq-14",
-        "reflection-mcq-11",
-        "reflection-mcq-15",
-        "reflection-mcq-10"
+        "reflection-mcq-14"
       ],
-      "explanation": "本句的「reflective glass」指「帶有沉思性質或善於深入思考的」。",
+      "explanation": "對照完整句子：「這座建築使用高度反光玻璃。」。這裡的「reflective glass」表示「能有效反射光線的」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "reflective glass"
       ],
       "optionReasons": {
-        "reflection-mcq-13": "本句指「帶有沉思性質或善於深入思考的」。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-14": "「把圖形沿指定直線／平面作鏡像翻轉的變換」是「reflection — geometry」的用法，與本句語境不同。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。",
-        "reflection-mcq-15": "「顯示出 X 的特徵、價值、問題或變化」是「6. a reflection of society/culture = 社會／文化的反映」的用法，與本句語境不同。",
-        "reflection-mcq-10": "「顯示、體現某種狀態、特徵、想法或變化」是「reflect — figurative」的用法，與本句語境不同。"
+        "reflection-reviewed-8ab04fc39c": "對照完整句子：「這座建築使用高度反光玻璃。」。這裡的「reflective glass」表示「能有效反射光線的」。",
+        "reflection-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "reflection-mcq-13"
+      "correctOption": "reflection-reviewed-8ab04fc39c",
+      "previousCorrectOption": "reflection-mcq-13",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "reflection-18-1",
-      "sense": "reflection-mcq-13",
+      "sense": "reflection-reviewed-8ab04fc39c",
       "en": "Reflective materials improve visibility at night.",
       "zh": "反光材料可以提高夜間能見度。",
       "masked": "____ materials improve visibility at night.",
       "options": [
-        "reflection-mcq-13",
-        "reflection-mcq-12",
-        "reflection-mcq-14",
-        "reflection-mcq-11",
-        "reflection-mcq-15",
-        "reflection-mcq-10"
+        "reflection-reviewed-8ab04fc39c",
+        "reflection-mcq-04",
+        "reflection-mcq-05",
+        "reflection-mcq-16"
       ],
-      "explanation": "本句的「Reflective」指「帶有沉思性質或善於深入思考的」。",
+      "explanation": "對照完整句子：「反光材料可以提高夜間能見度。」。這裡的「Reflective」表示「能有效反射光線的」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "Reflective"
       ],
       "optionReasons": {
-        "reflection-mcq-13": "本句指「帶有沉思性質或善於深入思考的」。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-14": "「把圖形沿指定直線／平面作鏡像翻轉的變換」是「reflection — geometry」的用法，與本句語境不同。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。",
-        "reflection-mcq-15": "「顯示出 X 的特徵、價值、問題或變化」是「6. a reflection of society/culture = 社會／文化的反映」的用法，與本句語境不同。",
-        "reflection-mcq-10": "「顯示、體現某種狀態、特徵、想法或變化」是「reflect — figurative」的用法，與本句語境不同。"
+        "reflection-reviewed-8ab04fc39c": "對照完整句子：「反光材料可以提高夜間能見度。」。這裡的「Reflective」表示「能有效反射光線的」。",
+        "reflection-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "reflection-mcq-13"
+      "correctOption": "reflection-reviewed-8ab04fc39c",
+      "previousCorrectOption": "reflection-mcq-13",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "reflection-19-0",
@@ -1512,11 +1376,9 @@ export default {
       "masked": "The second shape is a ____ of the first.",
       "options": [
         "reflection-mcq-14",
+        "reflection-mcq-06",
         "reflection-mcq-13",
-        "reflection-mcq-15",
-        "reflection-mcq-12",
-        "reflection-mcq-16",
-        "reflection-mcq-11"
+        "reflection-mcq-02"
       ],
       "explanation": "本句的「reflection」指「把圖形沿指定直線／平面作鏡像翻轉的變換」。",
       "sentenceIndex": 37,
@@ -1525,12 +1387,10 @@ export default {
         "reflection"
       ],
       "optionReasons": {
-        "reflection-mcq-14": "本句指「把圖形沿指定直線／平面作鏡像翻轉的變換」。",
-        "reflection-mcq-13": "「帶有沉思性質或善於深入思考的」是「reflective — mental」的用法，與本句語境不同。",
-        "reflection-mcq-15": "「顯示出 X 的特徵、價值、問題或變化」是「6. a reflection of society/culture = 社會／文化的反映」的用法，與本句語境不同。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-16": "「某行為令某人／機構形象變好或變差」是「14. reflect well/badly on + person/organization — 使……得到好／壞評價」的用法，與本句語境不同。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。"
+        "reflection-mcq-14": "本句的「reflection」指「把圖形沿指定直線／平面作鏡像翻轉的變換」。",
+        "reflection-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-14"
     },
@@ -1542,11 +1402,9 @@ export default {
       "masked": "A ____ flips a figure across a line.",
       "options": [
         "reflection-mcq-14",
+        "reflection-mcq-06",
         "reflection-mcq-13",
-        "reflection-mcq-15",
-        "reflection-mcq-12",
-        "reflection-mcq-16",
-        "reflection-mcq-11"
+        "reflection-mcq-15"
       ],
       "explanation": "本句的「reflection」指「把圖形沿指定直線／平面作鏡像翻轉的變換」。",
       "sentenceIndex": 38,
@@ -1555,12 +1413,10 @@ export default {
         "reflection"
       ],
       "optionReasons": {
-        "reflection-mcq-14": "本句指「把圖形沿指定直線／平面作鏡像翻轉的變換」。",
-        "reflection-mcq-13": "「帶有沉思性質或善於深入思考的」是「reflective — mental」的用法，與本句語境不同。",
-        "reflection-mcq-15": "「顯示出 X 的特徵、價值、問題或變化」是「6. a reflection of society/culture = 社會／文化的反映」的用法，與本句語境不同。",
-        "reflection-mcq-12": "「能把光線反射回去的」是「reflective — optical」的用法，與本句語境不同。",
-        "reflection-mcq-16": "「某行為令某人／機構形象變好或變差」是「14. reflect well/badly on + person/organization — 使……得到好／壞評價」的用法，與本句語境不同。",
-        "reflection-mcq-11": "「對某件事認真、深入地思考」是「reflect — think」的用法，與本句語境不同。"
+        "reflection-mcq-14": "本句的「reflection」指「把圖形沿指定直線／平面作鏡像翻轉的變換」。",
+        "reflection-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reflection-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflection-mcq-14"
     }
@@ -1572,5 +1428,7 @@ export default {
     "sha256": "18f85ffc3a0b8337fd5e83f2afc657bc668aefe7b2653cbb5e5bd1d249ada161",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

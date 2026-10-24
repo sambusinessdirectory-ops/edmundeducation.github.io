@@ -621,13 +621,7 @@ export default {
       "en": "relax/tighten policy",
       "zh": "放寬／收緊政策要求",
       "note": "來源詞義：放寬／收緊政策要求",
-      "examples": [
-        [
-          "That is against company policy.",
-          "那樣做違反公司規定。",
-          "放寬／收緊政策要求"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -663,6 +657,23 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "policy-reviewed-657fdead86",
+      "title": "違反規定",
+      "form": "policy · source section 120",
+      "en": "違反規定",
+      "zh": "違反規定",
+      "note": "對照原始教材第 120 節及例句核實。",
+      "examples": [
+        [
+          "That is against company policy.",
+          "那樣做違反公司規定。",
+          "違反規定"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -674,11 +685,8 @@ export default {
       "masked": "The company has a clear refund ____.",
       "options": [
         "policy-mcq-21",
-        "policy-mcq-20",
-        "policy-mcq-22",
-        "policy-mcq-19",
-        "policy-mcq-23",
-        "policy-mcq-18"
+        "policy-mcq-01",
+        "policy-mcq-30"
       ],
       "explanation": "本句的「policy」指「有關 X 的政策」。",
       "sentenceIndex": 0,
@@ -687,12 +695,9 @@ export default {
         "policy"
       ],
       "optionReasons": {
-        "policy-mcq-21": "本句指「有關 X 的政策」。",
-        "policy-mcq-20": "「政府處理對外關係的外交政策」與本句語境不同。",
-        "policy-mcq-22": "「機構說明如何處理個人資料的私隱政策」與本句語境不同。",
-        "policy-mcq-19": "「經濟／財政／貨幣政策」與本句語境不同。",
-        "policy-mcq-23": "「規定資訊系統／網絡可接受使用方式的政策」與本句語境不同。",
-        "policy-mcq-18": "「評估政策效果／表現」與本句語境不同。"
+        "policy-mcq-21": "本句的「policy」指「有關 X 的政策」。",
+        "policy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "policy-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "policy-mcq-21"
     },
@@ -704,11 +709,8 @@ export default {
       "masked": "The school changed its attendance ____.",
       "options": [
         "policy-mcq-21",
-        "policy-mcq-20",
-        "policy-mcq-22",
-        "policy-mcq-19",
-        "policy-mcq-23",
-        "policy-mcq-18"
+        "policy-mcq-01",
+        "policy-mcq-30"
       ],
       "explanation": "本句的「policy」指「有關 X 的政策」。",
       "sentenceIndex": 1,
@@ -717,12 +719,9 @@ export default {
         "policy"
       ],
       "optionReasons": {
-        "policy-mcq-21": "本句指「有關 X 的政策」。",
-        "policy-mcq-20": "「政府處理對外關係的外交政策」與本句語境不同。",
-        "policy-mcq-22": "「機構說明如何處理個人資料的私隱政策」與本句語境不同。",
-        "policy-mcq-19": "「經濟／財政／貨幣政策」與本句語境不同。",
-        "policy-mcq-23": "「規定資訊系統／網絡可接受使用方式的政策」與本句語境不同。",
-        "policy-mcq-18": "「評估政策效果／表現」與本句語境不同。"
+        "policy-mcq-21": "本句的「policy」指「有關 X 的政策」。",
+        "policy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "policy-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "policy-mcq-21"
     },
@@ -734,11 +733,8 @@ export default {
       "masked": "Our ____ is to respond within two working days.",
       "options": [
         "policy-mcq-01",
-        "policy-mcq-02",
-        "policy-mcq-03",
-        "policy-mcq-04",
-        "policy-mcq-05",
-        "policy-mcq-06"
+        "policy-mcq-21",
+        "policy-mcq-30"
       ],
       "explanation": "本句的「policy」指「機構／個人為處理一類反覆出現的問題而採用的原則、規定或方針」。",
       "sentenceIndex": 2,
@@ -747,12 +743,9 @@ export default {
         "policy"
       ],
       "optionReasons": {
-        "policy-mcq-01": "本句指「機構／個人為處理一類反覆出現的問題而採用的原則、規定或方針」。",
-        "policy-mcq-02": "「公司正式採用的內部規定／方針」與本句語境不同。",
-        "policy-mcq-03": "「管理座位分配、使用時間、資格等的座位使用規定」與本句語境不同。",
-        "policy-mcq-04": "「有關出勤／出席要求的政策或規定」與本句語境不同。",
-        "policy-mcq-05": "「顧客在甚麼條件下可退款／退貨的規定」與本句語境不同。",
-        "policy-mcq-06": "「取消預訂／服務時適用的規定」與本句語境不同。"
+        "policy-mcq-01": "本句的「policy」指「機構／個人為處理一類反覆出現的問題而採用的原則、規定或方針」。",
+        "policy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "policy-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "policy-mcq-01"
     },
@@ -764,11 +757,8 @@ export default {
       "masked": "It is company ____ to wear identification badges.",
       "options": [
         "policy-mcq-02",
-        "policy-mcq-01",
-        "policy-mcq-03",
-        "policy-mcq-04",
-        "policy-mcq-05",
-        "policy-mcq-06"
+        "policy-mcq-30",
+        "policy-mcq-21"
       ],
       "explanation": "本句的「policy」指「公司正式採用的內部規定／方針」。",
       "sentenceIndex": 3,
@@ -777,12 +767,9 @@ export default {
         "policy"
       ],
       "optionReasons": {
-        "policy-mcq-02": "本句指「公司正式採用的內部規定／方針」。",
-        "policy-mcq-01": "「機構／個人為處理一類反覆出現的問題而採用的原則、規定或方針」與本句語境不同。",
-        "policy-mcq-03": "「管理座位分配、使用時間、資格等的座位使用規定」與本句語境不同。",
-        "policy-mcq-04": "「有關出勤／出席要求的政策或規定」與本句語境不同。",
-        "policy-mcq-05": "「顧客在甚麼條件下可退款／退貨的規定」與本句語境不同。",
-        "policy-mcq-06": "「取消預訂／服務時適用的規定」與本句語境不同。"
+        "policy-mcq-02": "本句的「policy」指「公司正式採用的內部規定／方針」。",
+        "policy-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "policy-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "policy-mcq-02"
     },
@@ -794,11 +781,8 @@ export default {
       "masked": "The café introduced a seating ____ during peak hours.",
       "options": [
         "policy-mcq-03",
-        "policy-mcq-02",
-        "policy-mcq-04",
-        "policy-mcq-01",
-        "policy-mcq-05",
-        "policy-mcq-06"
+        "policy-mcq-30",
+        "policy-mcq-21"
       ],
       "explanation": "本句的「policy」指「管理座位分配、使用時間、資格等的座位使用規定」。",
       "sentenceIndex": 4,
@@ -807,12 +791,9 @@ export default {
         "policy"
       ],
       "optionReasons": {
-        "policy-mcq-03": "本句指「管理座位分配、使用時間、資格等的座位使用規定」。",
-        "policy-mcq-02": "「公司正式採用的內部規定／方針」與本句語境不同。",
-        "policy-mcq-04": "「有關出勤／出席要求的政策或規定」與本句語境不同。",
-        "policy-mcq-01": "「機構／個人為處理一類反覆出現的問題而採用的原則、規定或方針」與本句語境不同。",
-        "policy-mcq-05": "「顧客在甚麼條件下可退款／退貨的規定」與本句語境不同。",
-        "policy-mcq-06": "「取消預訂／服務時適用的規定」與本句語境不同。"
+        "policy-mcq-03": "本句的「policy」指「管理座位分配、使用時間、資格等的座位使用規定」。",
+        "policy-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "policy-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "policy-mcq-03"
     },
@@ -824,11 +805,8 @@ export default {
       "masked": "It is my ____ never to lend money to friends.",
       "options": [
         "policy-mcq-08",
-        "policy-mcq-07",
-        "policy-mcq-09",
-        "policy-mcq-06",
-        "policy-mcq-10",
-        "policy-mcq-05"
+        "policy-mcq-21",
+        "policy-mcq-30"
       ],
       "explanation": "本句的「policy」指「個人一向遵守的行事原則」。",
       "sentenceIndex": 5,
@@ -837,12 +815,9 @@ export default {
         "policy"
       ],
       "optionReasons": {
-        "policy-mcq-08": "本句指「個人一向遵守的行事原則」。",
-        "policy-mcq-07": "「對指定行為不予容忍並按政策處理的零容忍政策」與本句語境不同。",
-        "policy-mcq-09": "「因一貫政策／原則，而非某一次臨時決定」與本句語境不同。",
-        "policy-mcq-06": "「取消預訂／服務時適用的規定」與本句語境不同。",
-        "policy-mcq-10": "「公共機構處理社會／經濟問題所採取的整體政策方向」與本句語境不同。",
-        "policy-mcq-05": "「顧客在甚麼條件下可退款／退貨的規定」與本句語境不同。"
+        "policy-mcq-08": "本句的「policy」指「個人一向遵守的行事原則」。",
+        "policy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "policy-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "policy-mcq-08"
     },
@@ -854,11 +829,7 @@ export default {
       "masked": "We do not comment on individual cases as a matter of ____.",
       "options": [
         "policy-mcq-09",
-        "policy-mcq-08",
-        "policy-mcq-10",
-        "policy-mcq-07",
-        "policy-mcq-11",
-        "policy-mcq-06"
+        "policy-mcq-30"
       ],
       "explanation": "本句的「policy」指「因一貫政策／原則，而非某一次臨時決定」。",
       "sentenceIndex": 6,
@@ -867,12 +838,8 @@ export default {
         "policy"
       ],
       "optionReasons": {
-        "policy-mcq-09": "本句指「因一貫政策／原則，而非某一次臨時決定」。",
-        "policy-mcq-08": "「個人一向遵守的行事原則」與本句語境不同。",
-        "policy-mcq-10": "「公共機構處理社會／經濟問題所採取的整體政策方向」與本句語境不同。",
-        "policy-mcq-07": "「對指定行為不予容忍並按政策處理的零容忍政策」與本句語境不同。",
-        "policy-mcq-11": "「政策希望達成的目標」與本句語境不同。",
-        "policy-mcq-06": "「取消預訂／服務時適用的規定」與本句語境不同。"
+        "policy-mcq-09": "本句的「policy」指「因一貫政策／原則，而非某一次臨時決定」。",
+        "policy-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "policy-mcq-09"
     },
@@ -884,11 +851,8 @@ export default {
       "masked": "The research may inform ____.",
       "options": [
         "policy-mcq-15",
-        "policy-mcq-14",
-        "policy-mcq-16",
-        "policy-mcq-13",
-        "policy-mcq-17",
-        "policy-mcq-12"
+        "policy-mcq-08",
+        "policy-mcq-30"
       ],
       "explanation": "本句的「policymaking」指「政策形成、設計和制定的過程」。",
       "sentenceIndex": 7,
@@ -897,12 +861,9 @@ export default {
         "policymaking"
       ],
       "optionReasons": {
-        "policy-mcq-15": "本句指「政策形成、設計和制定的過程」。",
-        "policy-mcq-14": "「制定具體決策時依循的整體政策框架」與本句語境不同。",
-        "policy-mcq-16": "「參與制定政策的人員」與本句語境不同。",
-        "policy-mcq-13": "「稅收、規管、補貼等用以實現政策目標的工具」與本句語境不同。",
-        "policy-mcq-17": "「把已採納政策真正落實執行」與本句語境不同。",
-        "policy-mcq-12": "「為實現政策目標而採取的具體措施」與本句語境不同。"
+        "policy-mcq-15": "本句的「policymaking」指「政策形成、設計和制定的過程」。",
+        "policy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "policy-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "policy-mcq-15"
     },
@@ -914,11 +875,8 @@ export default {
       "masked": "The school reviewed its ____ on mobile phones.",
       "options": [
         "policy-mcq-21",
-        "policy-mcq-20",
-        "policy-mcq-22",
-        "policy-mcq-19",
-        "policy-mcq-23",
-        "policy-mcq-18"
+        "policy-mcq-01",
+        "policy-mcq-30"
       ],
       "explanation": "本句的「policy」指「有關 X 的政策」。",
       "sentenceIndex": 8,
@@ -927,12 +885,9 @@ export default {
         "policy"
       ],
       "optionReasons": {
-        "policy-mcq-21": "本句指「有關 X 的政策」。",
-        "policy-mcq-20": "「政府處理對外關係的外交政策」與本句語境不同。",
-        "policy-mcq-22": "「機構說明如何處理個人資料的私隱政策」與本句語境不同。",
-        "policy-mcq-19": "「經濟／財政／貨幣政策」與本句語境不同。",
-        "policy-mcq-23": "「規定資訊系統／網絡可接受使用方式的政策」與本句語境不同。",
-        "policy-mcq-18": "「評估政策效果／表現」與本句語境不同。"
+        "policy-mcq-21": "本句的「policy」指「有關 X 的政策」。",
+        "policy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "policy-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "policy-mcq-21"
     },
@@ -944,11 +899,8 @@ export default {
       "masked": "Read the insurance ____ carefully.",
       "options": [
         "policy-mcq-30",
-        "policy-mcq-29",
-        "policy-mcq-31",
-        "policy-mcq-28",
-        "policy-mcq-32",
-        "policy-mcq-27"
+        "policy-mcq-45",
+        "policy-reviewed-657fdead86"
       ],
       "explanation": "本句的「policy」指「列明保險保障、條款與責任的保單／保險合約」。",
       "sentenceIndex": 9,
@@ -957,12 +909,9 @@ export default {
         "policy"
       ],
       "optionReasons": {
-        "policy-mcq-30": "本句指「列明保險保障、條款與責任的保單／保險合約」。",
-        "policy-mcq-29": "「根據配置策略而非僅目的地址作路由選擇」與本句語境不同。",
-        "policy-mcq-31": "「持有／擁有保單的個人或實體」與本句語境不同。",
-        "policy-mcq-28": "「Windows 管理環境中的「群組原則」機制」與本句語境不同。",
-        "policy-mcq-32": "「保費」與本句語境不同。",
-        "policy-mcq-27": "「以可版本管理／自動執行的程式化形式表達政策」與本句語境不同。"
+        "policy-mcq-30": "本句的「policy」指「列明保險保障、條款與責任的保單／保險合約」。",
+        "policy-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "policy-reviewed-657fdead86": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "policy-mcq-30"
     },
@@ -974,11 +923,8 @@ export default {
       "masked": "She took out a travel insurance ____.",
       "options": [
         "policy-mcq-45",
-        "policy-mcq-44",
-        "policy-mcq-46",
-        "policy-mcq-43",
-        "policy-mcq-47",
-        "policy-mcq-42"
+        "policy-mcq-30",
+        "policy-mcq-08"
       ],
       "explanation": "本句的「policy」指「正式選定／批准一項政策」。",
       "sentenceIndex": 10,
@@ -987,12 +933,9 @@ export default {
         "policy"
       ],
       "optionReasons": {
-        "policy-mcq-45": "本句指「正式選定／批准一項政策」。",
-        "policy-mcq-44": "「離策略強化學習中的行為策略／目標策略」與本句語境不同。",
-        "policy-mcq-46": "「把新政策正式帶入實際使用」與本句語境不同。",
-        "policy-mcq-43": "「交替評估和改進策略的策略迭代方法」與本句語境不同。",
-        "policy-mcq-47": "「把政策內容實際落實」與本句語境不同。",
-        "policy-mcq-42": "「直接優化策略參數的一類強化學習方法」與本句語境不同。"
+        "policy-mcq-45": "本句的「policy」指「正式選定／批准一項政策」。",
+        "policy-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "policy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "policy-mcq-45"
     },
@@ -1004,11 +947,8 @@ export default {
       "masked": "Staff must comply with company ____.",
       "options": [
         "policy-mcq-47",
-        "policy-mcq-46",
-        "policy-mcq-48",
-        "policy-mcq-45",
-        "policy-mcq-49",
-        "policy-mcq-44"
+        "policy-mcq-30",
+        "policy-mcq-03"
       ],
       "explanation": "本句的「policy」指「把政策內容實際落實」。",
       "sentenceIndex": 11,
@@ -1017,44 +957,37 @@ export default {
         "policy"
       ],
       "optionReasons": {
-        "policy-mcq-47": "本句指「把政策內容實際落實」。",
-        "policy-mcq-46": "「把新政策正式帶入實際使用」與本句語境不同。",
-        "policy-mcq-48": "「要求人員實際遵守政策並執行後果」與本句語境不同。",
-        "policy-mcq-45": "「正式選定／批准一項政策」與本句語境不同。",
-        "policy-mcq-49": "「修訂／更新現有政策」與本句語境不同。",
-        "policy-mcq-44": "「離策略強化學習中的行為策略／目標策略」與本句語境不同。"
+        "policy-mcq-47": "本句的「policy」指「把政策內容實際落實」。",
+        "policy-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "policy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "policy-mcq-47"
     },
     {
       "id": "policy-120-0",
-      "sense": "policy-mcq-50",
+      "sense": "policy-reviewed-657fdead86",
       "en": "That is against company policy.",
       "zh": "那樣做違反公司規定。",
       "masked": "That is against company ____.",
       "options": [
-        "policy-mcq-50",
-        "policy-mcq-49",
-        "policy-mcq-51",
-        "policy-mcq-48",
-        "policy-mcq-52",
-        "policy-mcq-47"
+        "policy-reviewed-657fdead86",
+        "policy-mcq-21",
+        "policy-mcq-30"
       ],
-      "explanation": "本句的「policy」指「放寬／收緊政策要求」。",
+      "explanation": "對照完整句子：「那樣做違反公司規定。」。這裡的「policy」表示「違反規定」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "policy"
       ],
       "optionReasons": {
-        "policy-mcq-50": "本句指「放寬／收緊政策要求」。",
-        "policy-mcq-49": "「修訂／更新現有政策」與本句語境不同。",
-        "policy-mcq-51": "「對一般政策規則獲准作出的例外」與本句語境不同。",
-        "policy-mcq-48": "「要求人員實際遵守政策並執行後果」與本句語境不同。",
-        "policy-mcq-52": "「明智／權宜的行事方式；現已罕見」與本句語境不同。",
-        "policy-mcq-47": "「把政策內容實際落實」與本句語境不同。"
+        "policy-reviewed-657fdead86": "對照完整句子：「那樣做違反公司規定。」。這裡的「policy」表示「違反規定」。",
+        "policy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "policy-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "policy-mcq-50"
+      "correctOption": "policy-reviewed-657fdead86",
+      "previousCorrectOption": "policy-mcq-50",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     }
   ],
   "comparisons": [],
@@ -1064,5 +997,7 @@ export default {
     "sha256": "4964c108b1e55d09b5a9bb39369b88d9b2429c319f188cf1a148e11f57da5a0f",
     "pages": 41
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

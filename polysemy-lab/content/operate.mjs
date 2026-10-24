@@ -915,11 +915,9 @@ export default {
       "masked": "The machine is ____ normally.",
       "options": [
         "operate-mcq-01",
-        "operate-mcq-02",
-        "operate-mcq-03",
-        "operate-mcq-04",
-        "operate-mcq-05",
-        "operate-mcq-06"
+        "operate-mcq-57",
+        "operate-mcq-28",
+        "operate-mcq-25"
       ],
       "explanation": "本句的「operating」指「機器／系統本身正常運作」。",
       "sentenceIndex": 0,
@@ -928,12 +926,10 @@ export default {
         "operating"
       ],
       "optionReasons": {
-        "operate-mcq-01": "本句指「機器／系統本身正常運作」。",
-        "operate-mcq-02": "「人控制、使用機械；操作」與本句語境不同。",
-        "operate-mcq-03": "「經營／營運一門生意」與本句語境不同。",
-        "operate-mcq-04": "「負責該商業場所的日常經營」與本句語境不同。",
-        "operate-mcq-05": "「營辦、提供某項持續服務」與本句語境不同。",
-        "operate-mcq-06": "「服務按時間／路線正常提供」與本句語境不同。"
+        "operate-mcq-01": "本句的「operating」指「機器／系統本身正常運作」。",
+        "operate-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-01"
     },
@@ -945,11 +941,9 @@ export default {
       "masked": "The system can ____ without an internet connection.",
       "options": [
         "operate-mcq-01",
-        "operate-mcq-02",
-        "operate-mcq-03",
-        "operate-mcq-04",
-        "operate-mcq-05",
-        "operate-mcq-06"
+        "operate-mcq-28",
+        "operate-mcq-57",
+        "operate-mcq-11"
       ],
       "explanation": "本句的「operate」指「機器／系統本身正常運作」。",
       "sentenceIndex": 1,
@@ -958,12 +952,10 @@ export default {
         "operate"
       ],
       "optionReasons": {
-        "operate-mcq-01": "本句指「機器／系統本身正常運作」。",
-        "operate-mcq-02": "「人控制、使用機械；操作」與本句語境不同。",
-        "operate-mcq-03": "「經營／營運一門生意」與本句語境不同。",
-        "operate-mcq-04": "「負責該商業場所的日常經營」與本句語境不同。",
-        "operate-mcq-05": "「營辦、提供某項持續服務」與本句語境不同。",
-        "operate-mcq-06": "「服務按時間／路線正常提供」與本句語境不同。"
+        "operate-mcq-01": "本句的「operate」指「機器／系統本身正常運作」。",
+        "operate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-01"
     },
@@ -975,11 +967,9 @@ export default {
       "masked": "The equipment cannot ____ safely at this temperature.",
       "options": [
         "operate-mcq-01",
-        "operate-mcq-02",
-        "operate-mcq-03",
-        "operate-mcq-04",
-        "operate-mcq-05",
-        "operate-mcq-06"
+        "operate-mcq-57",
+        "operate-mcq-38",
+        "operate-mcq-27"
       ],
       "explanation": "本句的「operate」指「機器／系統本身正常運作」。",
       "sentenceIndex": 2,
@@ -988,12 +978,10 @@ export default {
         "operate"
       ],
       "optionReasons": {
-        "operate-mcq-01": "本句指「機器／系統本身正常運作」。",
-        "operate-mcq-02": "「人控制、使用機械；操作」與本句語境不同。",
-        "operate-mcq-03": "「經營／營運一門生意」與本句語境不同。",
-        "operate-mcq-04": "「負責該商業場所的日常經營」與本句語境不同。",
-        "operate-mcq-05": "「營辦、提供某項持續服務」與本句語境不同。",
-        "operate-mcq-06": "「服務按時間／路線正常提供」與本句語境不同。"
+        "operate-mcq-01": "本句的「operate」指「機器／系統本身正常運作」。",
+        "operate-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-01"
     },
@@ -1005,11 +993,9 @@ export default {
       "masked": "Only trained staff may ____ this machine.",
       "options": [
         "operate-mcq-02",
-        "operate-mcq-01",
-        "operate-mcq-03",
-        "operate-mcq-04",
-        "operate-mcq-05",
-        "operate-mcq-06"
+        "operate-mcq-08",
+        "operate-mcq-50",
+        "operate-mcq-57"
       ],
       "explanation": "本句的「operate」指「人控制、使用機械；操作」。",
       "sentenceIndex": 3,
@@ -1018,12 +1004,10 @@ export default {
         "operate"
       ],
       "optionReasons": {
-        "operate-mcq-02": "本句指「人控制、使用機械；操作」。",
-        "operate-mcq-01": "「機器／系統本身正常運作」與本句語境不同。",
-        "operate-mcq-03": "「經營／營運一門生意」與本句語境不同。",
-        "operate-mcq-04": "「負責該商業場所的日常經營」與本句語境不同。",
-        "operate-mcq-05": "「營辦、提供某項持續服務」與本句語境不同。",
-        "operate-mcq-06": "「服務按時間／路線正常提供」與本句語境不同。"
+        "operate-mcq-02": "本句的「operate」指「人控制、使用機械；操作」。",
+        "operate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-02"
     },
@@ -1035,11 +1019,9 @@ export default {
       "masked": "Do you know how to ____ the equipment?",
       "options": [
         "operate-mcq-02",
-        "operate-mcq-01",
-        "operate-mcq-03",
-        "operate-mcq-04",
         "operate-mcq-05",
-        "operate-mcq-06"
+        "operate-mcq-07",
+        "operate-mcq-54"
       ],
       "explanation": "本句的「operate」指「人控制、使用機械；操作」。",
       "sentenceIndex": 4,
@@ -1048,12 +1030,10 @@ export default {
         "operate"
       ],
       "optionReasons": {
-        "operate-mcq-02": "本句指「人控制、使用機械；操作」。",
-        "operate-mcq-01": "「機器／系統本身正常運作」與本句語境不同。",
-        "operate-mcq-03": "「經營／營運一門生意」與本句語境不同。",
-        "operate-mcq-04": "「負責該商業場所的日常經營」與本句語境不同。",
-        "operate-mcq-05": "「營辦、提供某項持續服務」與本句語境不同。",
-        "operate-mcq-06": "「服務按時間／路線正常提供」與本句語境不同。"
+        "operate-mcq-02": "本句的「operate」指「人控制、使用機械；操作」。",
+        "operate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-02"
     },
@@ -1066,10 +1046,8 @@ export default {
       "options": [
         "operate-mcq-03",
         "operate-mcq-02",
-        "operate-mcq-04",
-        "operate-mcq-01",
-        "operate-mcq-05",
-        "operate-mcq-06"
+        "operate-mcq-50",
+        "operate-mcq-25"
       ],
       "explanation": "本句的「operate」指「經營／營運一門生意」。",
       "sentenceIndex": 5,
@@ -1078,12 +1056,10 @@ export default {
         "operate"
       ],
       "optionReasons": {
-        "operate-mcq-03": "本句指「經營／營運一門生意」。",
-        "operate-mcq-02": "「人控制、使用機械；操作」與本句語境不同。",
-        "operate-mcq-04": "「負責該商業場所的日常經營」與本句語境不同。",
-        "operate-mcq-01": "「機器／系統本身正常運作」與本句語境不同。",
-        "operate-mcq-05": "「營辦、提供某項持續服務」與本句語境不同。",
-        "operate-mcq-06": "「服務按時間／路線正常提供」與本句語境不同。"
+        "operate-mcq-03": "本句的「operate」指「經營／營運一門生意」。",
+        "operate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-03"
     },
@@ -1095,11 +1071,9 @@ export default {
       "masked": "The family has ____ the restaurant for twenty years.",
       "options": [
         "operate-mcq-03",
-        "operate-mcq-02",
-        "operate-mcq-04",
-        "operate-mcq-01",
-        "operate-mcq-05",
-        "operate-mcq-06"
+        "operate-mcq-27",
+        "operate-mcq-25",
+        "operate-mcq-02"
       ],
       "explanation": "本句的「operated」指「經營／營運一門生意」。",
       "sentenceIndex": 6,
@@ -1108,12 +1082,10 @@ export default {
         "operated"
       ],
       "optionReasons": {
-        "operate-mcq-03": "本句指「經營／營運一門生意」。",
-        "operate-mcq-02": "「人控制、使用機械；操作」與本句語境不同。",
-        "operate-mcq-04": "「負責該商業場所的日常經營」與本句語境不同。",
-        "operate-mcq-01": "「機器／系統本身正常運作」與本句語境不同。",
-        "operate-mcq-05": "「營辦、提供某項持續服務」與本句語境不同。",
-        "operate-mcq-06": "「服務按時間／路線正常提供」與本句語境不同。"
+        "operate-mcq-03": "本句的「operated」指「經營／營運一門生意」。",
+        "operate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-03"
     },
@@ -1125,10 +1097,8 @@ export default {
       "masked": "The company ____ a free shuttle service.",
       "options": [
         "operate-mcq-05",
-        "operate-mcq-04",
-        "operate-mcq-06",
-        "operate-mcq-03",
-        "operate-mcq-07",
+        "operate-mcq-10",
+        "operate-mcq-50",
         "operate-mcq-02"
       ],
       "explanation": "本句的「operates」指「營辦、提供某項持續服務」。",
@@ -1138,12 +1108,10 @@ export default {
         "operates"
       ],
       "optionReasons": {
-        "operate-mcq-05": "本句指「營辦、提供某項持續服務」。",
-        "operate-mcq-04": "「負責該商業場所的日常經營」與本句語境不同。",
-        "operate-mcq-06": "「服務按時間／路線正常提供」與本句語境不同。",
-        "operate-mcq-03": "「經營／營運一門生意」與本句語境不同。",
-        "operate-mcq-07": "「在某市場／地方開展業務活動」與本句語境不同。",
-        "operate-mcq-02": "「人控制、使用機械；操作」與本句語境不同。"
+        "operate-mcq-05": "本句的「operates」指「營辦、提供某項持續服務」。",
+        "operate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-05"
     },
@@ -1155,11 +1123,9 @@ export default {
       "masked": "The company ____ in several countries.",
       "options": [
         "operate-mcq-07",
-        "operate-mcq-06",
-        "operate-mcq-08",
-        "operate-mcq-05",
-        "operate-mcq-09",
-        "operate-mcq-04"
+        "operate-mcq-10",
+        "operate-mcq-02",
+        "operate-mcq-27"
       ],
       "explanation": "本句的「operates」指「在某市場／地方開展業務活動」。",
       "sentenceIndex": 8,
@@ -1168,12 +1134,10 @@ export default {
         "operates"
       ],
       "optionReasons": {
-        "operate-mcq-07": "本句指「在某市場／地方開展業務活動」。",
-        "operate-mcq-06": "「服務按時間／路線正常提供」與本句語境不同。",
-        "operate-mcq-08": "「以 X 作為營運基地」與本句語境不同。",
-        "operate-mcq-05": "「營辦、提供某項持續服務」與本句語境不同。",
-        "operate-mcq-09": "「以某名稱／牌照制度營運」與本句語境不同。",
-        "operate-mcq-04": "「負責該商業場所的日常經營」與本句語境不同。"
+        "operate-mcq-07": "本句的「operates」指「在某市場／地方開展業務活動」。",
+        "operate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-07"
     },
@@ -1185,11 +1149,9 @@ export default {
       "masked": "The company ____ from an office in the city centre.",
       "options": [
         "operate-mcq-08",
-        "operate-mcq-07",
-        "operate-mcq-09",
-        "operate-mcq-06",
-        "operate-mcq-10",
-        "operate-mcq-05"
+        "operate-mcq-44",
+        "operate-mcq-25",
+        "operate-mcq-27"
       ],
       "explanation": "本句的「operates」指「以 X 作為營運基地」。",
       "sentenceIndex": 9,
@@ -1198,12 +1160,10 @@ export default {
         "operates"
       ],
       "optionReasons": {
-        "operate-mcq-08": "本句指「以 X 作為營運基地」。",
-        "operate-mcq-07": "「在某市場／地方開展業務活動」與本句語境不同。",
-        "operate-mcq-09": "「以某名稱／牌照制度營運」與本句語境不同。",
-        "operate-mcq-06": "「服務按時間／路線正常提供」與本句語境不同。",
-        "operate-mcq-10": "「以某種身分／機構形式運作」與本句語境不同。",
-        "operate-mcq-05": "「營辦、提供某項持續服務」與本句語境不同。"
+        "operate-mcq-08": "本句的「operates」指「以 X 作為營運基地」。",
+        "operate-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-08"
     },
@@ -1215,11 +1175,9 @@ export default {
       "masked": "The building ____ as a community centre.",
       "options": [
         "operate-mcq-10",
-        "operate-mcq-09",
         "operate-mcq-11",
-        "operate-mcq-08",
-        "operate-mcq-12",
-        "operate-mcq-07"
+        "operate-mcq-25",
+        "operate-mcq-57"
       ],
       "explanation": "本句的「operates」指「以某種身分／機構形式運作」。",
       "sentenceIndex": 10,
@@ -1228,12 +1186,10 @@ export default {
         "operates"
       ],
       "optionReasons": {
-        "operate-mcq-10": "本句指「以某種身分／機構形式運作」。",
-        "operate-mcq-09": "「以某名稱／牌照制度營運」與本句語境不同。",
-        "operate-mcq-11": "「盈利／虧損經營」與本句語境不同。",
-        "operate-mcq-08": "「以 X 作為營運基地」與本句語境不同。",
-        "operate-mcq-12": "「以最大容量運作」與本句語境不同。",
-        "operate-mcq-07": "「在某市場／地方開展業務活動」與本句語境不同。"
+        "operate-mcq-10": "本句的「operates」指「以某種身分／機構形式運作」。",
+        "operate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-10"
     },
@@ -1245,11 +1201,9 @@ export default {
       "masked": "The service has ____ at a loss for years.",
       "options": [
         "operate-mcq-11",
-        "operate-mcq-10",
-        "operate-mcq-12",
-        "operate-mcq-09",
-        "operate-mcq-13",
-        "operate-mcq-08"
+        "operate-mcq-23",
+        "operate-mcq-25",
+        "operate-mcq-57"
       ],
       "explanation": "本句的「operated」指「盈利／虧損經營」。",
       "sentenceIndex": 11,
@@ -1258,12 +1212,10 @@ export default {
         "operated"
       ],
       "optionReasons": {
-        "operate-mcq-11": "本句指「盈利／虧損經營」。",
-        "operate-mcq-10": "「以某種身分／機構形式運作」與本句語境不同。",
-        "operate-mcq-12": "「以最大容量運作」與本句語境不同。",
-        "operate-mcq-09": "「以某名稱／牌照制度營運」與本句語境不同。",
-        "operate-mcq-13": "「維持日常業務運轉所產生的營運成本」與本句語境不同。",
-        "operate-mcq-08": "「以 X 作為營運基地」與本句語境不同。"
+        "operate-mcq-11": "本句的「operated」指「盈利／虧損經營」。",
+        "operate-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-11"
     },
@@ -1275,11 +1227,9 @@ export default {
       "masked": "Rent is a major ____ cost.",
       "options": [
         "operate-mcq-13",
-        "operate-mcq-12",
-        "operate-mcq-14",
-        "operate-mcq-11",
-        "operate-mcq-15",
-        "operate-mcq-10"
+        "operate-mcq-57",
+        "operate-mcq-27",
+        "operate-mcq-44"
       ],
       "explanation": "本句的「operating」指「維持日常業務運轉所產生的營運成本」。",
       "sentenceIndex": 12,
@@ -1288,12 +1238,10 @@ export default {
         "operating"
       ],
       "optionReasons": {
-        "operate-mcq-13": "本句指「維持日常業務運轉所產生的營運成本」。",
-        "operate-mcq-12": "「以最大容量運作」與本句語境不同。",
-        "operate-mcq-14": "「固定／變動營運成本」與本句語境不同。",
-        "operate-mcq-11": "「盈利／虧損經營」與本句語境不同。",
-        "operate-mcq-15": "「日常業務活動產生的營運開支」與本句語境不同。",
-        "operate-mcq-10": "「以某種身分／機構形式運作」與本句語境不同。"
+        "operate-mcq-13": "本句的「operating」指「維持日常業務運轉所產生的營運成本」。",
+        "operate-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-13"
     },
@@ -1305,11 +1253,9 @@ export default {
       "masked": "She oversees the company's daily ____.",
       "options": [
         "operate-mcq-21",
-        "operate-mcq-20",
-        "operate-mcq-22",
-        "operate-mcq-19",
-        "operate-mcq-23",
-        "operate-mcq-18"
+        "operate-mcq-38",
+        "operate-mcq-02",
+        "operate-mcq-27"
       ],
       "explanation": "本句的「operations」指「負責日常流程／服務營運的經理」。",
       "sentenceIndex": 13,
@@ -1318,12 +1264,10 @@ export default {
         "operations"
       ],
       "optionReasons": {
-        "operate-mcq-21": "本句指「負責日常流程／服務營運的經理」。",
-        "operate-mcq-20": "「公司日常營運活動」與本句語境不同。",
-        "operate-mcq-22": "「機器的運作／運作方式」與本句語境不同。",
-        "operate-mcq-19": "「固定營運成本令利潤對收入變化產生放大效應的營運槓桿」與本句語境不同。",
-        "operate-mcq-23": "「正在使用／運作中」與本句語境不同。",
-        "operate-mcq-18": "「日常營運活動產生的現金流」與本句語境不同。"
+        "operate-mcq-21": "本句的「operations」指「負責日常流程／服務營運的經理」。",
+        "operate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-21"
     },
@@ -1335,11 +1279,9 @@ export default {
       "masked": "The manual explains the ____ of the machine.",
       "options": [
         "operate-mcq-22",
-        "operate-mcq-21",
-        "operate-mcq-23",
-        "operate-mcq-20",
-        "operate-mcq-24",
-        "operate-mcq-19"
+        "operate-mcq-38",
+        "operate-mcq-05",
+        "operate-mcq-07"
       ],
       "explanation": "本句的「operation」指「機器的運作／運作方式」。",
       "sentenceIndex": 14,
@@ -1348,12 +1290,10 @@ export default {
         "operation"
       ],
       "optionReasons": {
-        "operate-mcq-22": "本句指「機器的運作／運作方式」。",
-        "operate-mcq-21": "「負責日常流程／服務營運的經理」與本句語境不同。",
-        "operate-mcq-23": "「正在使用／運作中」與本句語境不同。",
-        "operate-mcq-20": "「公司日常營運活動」與本句語境不同。",
-        "operate-mcq-24": "「正式投入運作」與本句語境不同。",
-        "operate-mcq-19": "「固定營運成本令利潤對收入變化產生放大效應的營運槓桿」與本句語境不同。"
+        "operate-mcq-22": "本句的「operation」指「機器的運作／運作方式」。",
+        "operate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-22"
     },
@@ -1365,11 +1305,9 @@ export default {
       "masked": "The system is now in ____.",
       "options": [
         "operate-mcq-23",
-        "operate-mcq-22",
-        "operate-mcq-24",
-        "operate-mcq-21",
         "operate-mcq-25",
-        "operate-mcq-20"
+        "operate-mcq-27",
+        "operate-mcq-57"
       ],
       "explanation": "本句的「operation」指「正在使用／運作中」。",
       "sentenceIndex": 15,
@@ -1378,12 +1316,10 @@ export default {
         "operation"
       ],
       "optionReasons": {
-        "operate-mcq-23": "本句指「正在使用／運作中」。",
-        "operate-mcq-22": "「機器的運作／運作方式」與本句語境不同。",
-        "operate-mcq-24": "「正式投入運作」與本句語境不同。",
-        "operate-mcq-21": "「負責日常流程／服務營運的經理」與本句語境不同。",
-        "operate-mcq-25": "「停止業務／行動」與本句語境不同。",
-        "operate-mcq-20": "「公司日常營運活動」與本句語境不同。"
+        "operate-mcq-23": "本句的「operation」指「正在使用／運作中」。",
+        "operate-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-23"
     },
@@ -1395,11 +1331,9 @@ export default {
       "masked": "Police launched a major search ____.",
       "options": [
         "operate-mcq-25",
-        "operate-mcq-24",
-        "operate-mcq-26",
-        "operate-mcq-23",
-        "operate-mcq-27",
-        "operate-mcq-22"
+        "operate-mcq-39",
+        "operate-mcq-57",
+        "operate-mcq-11"
       ],
       "explanation": "本句的「operation」指「停止業務／行動」。",
       "sentenceIndex": 16,
@@ -1408,12 +1342,10 @@ export default {
         "operation"
       ],
       "optionReasons": {
-        "operate-mcq-25": "本句指「停止業務／行動」。",
-        "operate-mcq-24": "「正式投入運作」與本句語境不同。",
-        "operate-mcq-26": "「有組織的救援／搜查行動」與本句語境不同。",
-        "operate-mcq-23": "「正在使用／運作中」與本句語境不同。",
-        "operate-mcq-27": "「手術」與本句語境不同。",
-        "operate-mcq-22": "「機器的運作／運作方式」與本句語境不同。"
+        "operate-mcq-25": "本句的「operation」指「停止業務／行動」。",
+        "operate-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-25"
     },
@@ -1425,11 +1357,9 @@ export default {
       "masked": "The surgeon ____ on the patient.",
       "options": [
         "operate-mcq-28",
-        "operate-mcq-27",
-        "operate-mcq-29",
-        "operate-mcq-26",
-        "operate-mcq-30",
-        "operate-mcq-25"
+        "operate-mcq-01",
+        "operate-mcq-39",
+        "operate-mcq-11"
       ],
       "explanation": "本句的「operated」指「為某人進行外科手術」。",
       "sentenceIndex": 17,
@@ -1438,12 +1368,10 @@ export default {
         "operated"
       ],
       "optionReasons": {
-        "operate-mcq-28": "本句指「為某人進行外科手術」。",
-        "operate-mcq-27": "「手術」與本句語境不同。",
-        "operate-mcq-29": "「手術室」與本句語境不同。",
-        "operate-mcq-26": "「有組織的救援／搜查行動」與本句語境不同。",
-        "operate-mcq-30": "「手術治療」與本句語境不同。",
-        "operate-mcq-25": "「停止業務／行動」與本句語境不同。"
+        "operate-mcq-28": "本句的「operated」指「為某人進行外科手術」。",
+        "operate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-28"
     },
@@ -1455,11 +1383,9 @@ export default {
       "masked": "She had an ____ on her knee.",
       "options": [
         "operate-mcq-27",
-        "operate-mcq-26",
-        "operate-mcq-28",
+        "operate-mcq-23",
         "operate-mcq-25",
-        "operate-mcq-29",
-        "operate-mcq-24"
+        "operate-mcq-57"
       ],
       "explanation": "本句的「operation」指「手術」。",
       "sentenceIndex": 18,
@@ -1468,12 +1394,10 @@ export default {
         "operation"
       ],
       "optionReasons": {
-        "operate-mcq-27": "本句指「手術」。",
-        "operate-mcq-26": "「有組織的救援／搜查行動」與本句語境不同。",
-        "operate-mcq-28": "「為某人進行外科手術」與本句語境不同。",
-        "operate-mcq-25": "「停止業務／行動」與本句語境不同。",
-        "operate-mcq-29": "「手術室」與本句語境不同。",
-        "operate-mcq-24": "「正式投入運作」與本句語境不同。"
+        "operate-mcq-27": "本句的「operation」指「手術」。",
+        "operate-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-27"
     },
@@ -1485,11 +1409,9 @@ export default {
       "masked": "The intelligence ____ worked overseas.",
       "options": [
         "operate-mcq-38",
-        "operate-mcq-37",
-        "operate-mcq-39",
-        "operate-mcq-36",
-        "operate-mcq-40",
-        "operate-mcq-35"
+        "operate-mcq-23",
+        "operate-mcq-05",
+        "operate-mcq-27"
       ],
       "explanation": "本句的「operative」指「情報／政治等行動人員、特工」。",
       "sentenceIndex": 19,
@@ -1498,12 +1420,10 @@ export default {
         "operative"
       ],
       "optionReasons": {
-        "operate-mcq-38": "本句指「情報／政治等行動人員、特工」。",
-        "operate-mcq-37": "「警方有計劃的執法行動」與本句語境不同。",
-        "operate-mcq-39": "「加、減、乘、除等數學運算」與本句語境不同。",
-        "operate-mcq-36": "「有組織的軍事行動」與本句語境不同。",
-        "operate-mcq-40": "「對數值／函數等執行運算的算子／運算子」與本句語境不同。",
-        "operate-mcq-35": "「無法／不適合手術治療的腫瘤」與本句語境不同。"
+        "operate-mcq-38": "本句的「operative」指「情報／政治等行動人員、特工」。",
+        "operate-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-38"
     },
@@ -1515,11 +1435,9 @@ export default {
       "masked": "Multiplication is a mathematical ____.",
       "options": [
         "operate-mcq-39",
-        "operate-mcq-38",
-        "operate-mcq-40",
-        "operate-mcq-37",
-        "operate-mcq-41",
-        "operate-mcq-36"
+        "operate-mcq-07",
+        "operate-mcq-44",
+        "operate-mcq-05"
       ],
       "explanation": "本句的「operation」指「加、減、乘、除等數學運算」。",
       "sentenceIndex": 20,
@@ -1528,12 +1446,10 @@ export default {
         "operation"
       ],
       "optionReasons": {
-        "operate-mcq-39": "本句指「加、減、乘、除等數學運算」。",
-        "operate-mcq-38": "「情報／政治等行動人員、特工」與本句語境不同。",
-        "operate-mcq-40": "「對數值／函數等執行運算的算子／運算子」與本句語境不同。",
-        "operate-mcq-37": "「警方有計劃的執法行動」與本句語境不同。",
-        "operate-mcq-41": "「電腦系統執行的一項操作」與本句語境不同。",
-        "operate-mcq-36": "「有組織的軍事行動」與本句語境不同。"
+        "operate-mcq-39": "本句的「operation」指「加、減、乘、除等數學運算」。",
+        "operate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-39"
     },
@@ -1545,11 +1461,9 @@ export default {
       "masked": "The crane ____ must be properly trained.",
       "options": [
         "operate-mcq-44",
-        "operate-mcq-43",
-        "operate-mcq-45",
-        "operate-mcq-42",
-        "operate-mcq-46",
-        "operate-mcq-41"
+        "operate-mcq-13",
+        "operate-mcq-27",
+        "operate-mcq-39"
       ],
       "explanation": "本句的「operator」指「操作機器／設備的人員」。",
       "sentenceIndex": 21,
@@ -1558,12 +1472,10 @@ export default {
         "operator"
       ],
       "optionReasons": {
-        "operate-mcq-44": "本句指「操作機器／設備的人員」。",
-        "operate-mcq-43": "「程式語言中的算術、比較、邏輯等運算子」與本句語境不同。",
-        "operate-mcq-45": "「實際營運交通、網絡、設施等服務的營運商」與本句語境不同。",
-        "operate-mcq-42": "「管理電腦硬件資源及提供軟件運行環境的作業系統」與本句語境不同。",
-        "operate-mcq-46": "「組織／包裝旅遊產品的旅遊營辦商」與本句語境不同。",
-        "operate-mcq-41": "「電腦系統執行的一項操作」與本句語境不同。"
+        "operate-mcq-44": "本句的「operator」指「操作機器／設備的人員」。",
+        "operate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-44"
     },
@@ -1575,11 +1487,9 @@ export default {
       "masked": "The rail ____ announced a timetable change.",
       "options": [
         "operate-mcq-45",
-        "operate-mcq-44",
-        "operate-mcq-46",
-        "operate-mcq-43",
-        "operate-mcq-47",
-        "operate-mcq-42"
+        "operate-mcq-57",
+        "operate-mcq-50",
+        "operate-mcq-28"
       ],
       "explanation": "本句的「operator」指「實際營運交通、網絡、設施等服務的營運商」。",
       "sentenceIndex": 22,
@@ -1588,12 +1498,10 @@ export default {
         "operator"
       ],
       "optionReasons": {
-        "operate-mcq-45": "本句指「實際營運交通、網絡、設施等服務的營運商」。",
-        "operate-mcq-44": "「操作機器／設備的人員」與本句語境不同。",
-        "operate-mcq-46": "「組織／包裝旅遊產品的旅遊營辦商」與本句語境不同。",
-        "operate-mcq-43": "「程式語言中的算術、比較、邏輯等運算子」與本句語境不同。",
-        "operate-mcq-47": "「電話接線員」與本句語境不同。",
-        "operate-mcq-42": "「管理電腦硬件資源及提供軟件運行環境的作業系統」與本句語境不同。"
+        "operate-mcq-45": "本句的「operator」指「實際營運交通、網絡、設施等服務的營運商」。",
+        "operate-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-45"
     },
@@ -1605,11 +1513,9 @@ export default {
       "masked": "The new system is now fully ____.",
       "options": [
         "operate-mcq-50",
-        "operate-mcq-49",
-        "operate-mcq-51",
-        "operate-mcq-48",
-        "operate-mcq-52",
-        "operate-mcq-47"
+        "operate-mcq-02",
+        "operate-mcq-39",
+        "operate-mcq-11"
       ],
       "explanation": "本句的「operational」指「已準備好並能正常投入使用的」。",
       "sentenceIndex": 23,
@@ -1618,12 +1524,10 @@ export default {
         "operational"
       ],
       "optionReasons": {
-        "operate-mcq-50": "本句指「已準備好並能正常投入使用的」。",
-        "operate-mcq-49": "「因操作人員失誤造成的錯誤」與本句語境不同。",
-        "operate-mcq-51": "「已全面投入正常運作」與本句語境不同。",
-        "operate-mcq-48": "「善於應對、圓滑甚至帶操縱意味的人」與本句語境不同。",
-        "operate-mcq-52": "「與日常營運實務有關的」與本句語境不同。",
-        "operate-mcq-47": "「電話接線員」與本句語境不同。"
+        "operate-mcq-50": "本句的「operational」指「已準備好並能正常投入使用的」。",
+        "operate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-50"
     },
@@ -1635,11 +1539,9 @@ export default {
       "masked": "The plan is technically possible but ____ difficult.",
       "options": [
         "operate-mcq-54",
-        "operate-mcq-53",
-        "operate-mcq-55",
-        "operate-mcq-52",
-        "operate-mcq-56",
-        "operate-mcq-51"
+        "operate-mcq-27",
+        "operate-mcq-02",
+        "operate-mcq-07"
       ],
       "explanation": "本句的「operationally」指「從實際營運／執行角度而言」。",
       "sentenceIndex": 24,
@@ -1648,12 +1550,10 @@ export default {
         "operationally"
       ],
       "optionReasons": {
-        "operate-mcq-54": "本句指「從實際營運／執行角度而言」。",
-        "operate-mcq-53": "「因人員、流程、系統或外部事件等引起的營運風險」與本句語境不同。",
-        "operate-mcq-55": "「正在生效、具實際效力的」與本句語境不同。",
-        "operate-mcq-52": "「與日常營運實務有關的」與本句語境不同。",
-        "operate-mcq-56": "「法規／協議等開始具效力的日期」與本句語境不同。",
-        "operate-mcq-51": "「已全面投入正常運作」與本句語境不同。"
+        "operate-mcq-54": "本句的「operationally」指「從實際營運／執行角度而言」。",
+        "operate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-54"
     },
@@ -1665,11 +1565,9 @@ export default {
       "masked": "The ____ word is ‘temporary’.",
       "options": [
         "operate-mcq-57",
-        "operate-mcq-56",
-        "operate-mcq-58",
-        "operate-mcq-55",
-        "operate-mcq-59",
-        "operate-mcq-54"
+        "operate-mcq-10",
+        "operate-mcq-11",
+        "operate-mcq-27"
       ],
       "explanation": "本句的「operative」指「決定句意或論點的關鍵字眼」。",
       "sentenceIndex": 25,
@@ -1678,12 +1576,10 @@ export default {
         "operative"
       ],
       "optionReasons": {
-        "operate-mcq-57": "本句指「決定句意或論點的關鍵字眼」。",
-        "operate-mcq-56": "「法規／協議等開始具效力的日期」與本句語境不同。",
-        "operate-mcq-58": "「法律效果自動因法律規定產生」與本句語境不同。",
-        "operate-mcq-55": "「正在生效、具實際效力的」與本句語境不同。",
-        "operate-mcq-59": "「對某事物發生作用／影響」與本句語境不同。",
-        "operate-mcq-54": "「從實際營運／執行角度而言」與本句語境不同。"
+        "operate-mcq-57": "本句的「operative」指「決定句意或論點的關鍵字眼」。",
+        "operate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "operate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "operate-mcq-57"
     }
@@ -1695,5 +1591,7 @@ export default {
     "sha256": "cbe0dcea634aa9b8ad48e05cec71268db758bf3efea58bce816980d07830d181",
     "pages": 61
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

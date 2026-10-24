@@ -751,11 +751,9 @@ export default {
       "masked": "He is still ____ from the operation.",
       "options": [
         "recover-mcq-02",
-        "recover-mcq-01",
-        "recover-mcq-03",
-        "recover-mcq-04",
-        "recover-mcq-05",
-        "recover-mcq-06"
+        "recover-mcq-17",
+        "recover-mcq-20",
+        "recover-mcq-24"
       ],
       "explanation": "本句的「recovering」指「從疾病、傷勢或手術中康復」。",
       "sentenceIndex": 2,
@@ -764,12 +762,10 @@ export default {
         "recovering"
       ],
       "optionReasons": {
-        "recover-mcq-02": "本句指「從疾病、傷勢或手術中康復」。",
-        "recover-mcq-01": "「生病、受傷或身體虛弱後重新變健康；康復」與本句語境不同。",
-        "recover-mcq-03": "「恢復健康與身體機能的康復過程」與本句語境不同。",
-        "recover-mcq-04": "「從疾病／傷勢中逐漸康復」與本句語境不同。",
-        "recover-mcq-05": "「完全恢復健康或原有身體機能」與本句語境不同。",
-        "recover-mcq-06": "「困難、衰退或失敗後恢復正常／改善」與本句語境不同。"
+        "recover-mcq-02": "本句的「recovering」指「從疾病、傷勢或手術中康復」。",
+        "recover-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-02"
     },
@@ -781,11 +777,9 @@ export default {
       "masked": "She ____ quickly after the illness.",
       "options": [
         "recover-mcq-02",
-        "recover-mcq-01",
-        "recover-mcq-03",
-        "recover-mcq-04",
-        "recover-mcq-05",
-        "recover-mcq-06"
+        "recover-mcq-19",
+        "recover-mcq-27",
+        "recover-mcq-24"
       ],
       "explanation": "本句的「recovered」指「從疾病、傷勢或手術中康復」。",
       "sentenceIndex": 3,
@@ -794,12 +788,10 @@ export default {
         "recovered"
       ],
       "optionReasons": {
-        "recover-mcq-02": "本句指「從疾病、傷勢或手術中康復」。",
-        "recover-mcq-01": "「生病、受傷或身體虛弱後重新變健康；康復」與本句語境不同。",
-        "recover-mcq-03": "「恢復健康與身體機能的康復過程」與本句語境不同。",
-        "recover-mcq-04": "「從疾病／傷勢中逐漸康復」與本句語境不同。",
-        "recover-mcq-05": "「完全恢復健康或原有身體機能」與本句語境不同。",
-        "recover-mcq-06": "「困難、衰退或失敗後恢復正常／改善」與本句語境不同。"
+        "recover-mcq-02": "本句的「recovered」指「從疾病、傷勢或手術中康復」。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-02"
     },
@@ -811,11 +803,9 @@ export default {
       "masked": "It took him months to ____.",
       "options": [
         "recover-mcq-02",
-        "recover-mcq-01",
-        "recover-mcq-03",
-        "recover-mcq-04",
-        "recover-mcq-05",
-        "recover-mcq-06"
+        "recover-mcq-11",
+        "recover-mcq-24",
+        "recover-mcq-18"
       ],
       "explanation": "本句的「recover from the injury」指「從疾病、傷勢或手術中康復」。",
       "sentenceIndex": 4,
@@ -824,12 +814,10 @@ export default {
         "recover from the injury"
       ],
       "optionReasons": {
-        "recover-mcq-02": "本句指「從疾病、傷勢或手術中康復」。",
-        "recover-mcq-01": "「生病、受傷或身體虛弱後重新變健康；康復」與本句語境不同。",
-        "recover-mcq-03": "「恢復健康與身體機能的康復過程」與本句語境不同。",
-        "recover-mcq-04": "「從疾病／傷勢中逐漸康復」與本句語境不同。",
-        "recover-mcq-05": "「完全恢復健康或原有身體機能」與本句語境不同。",
-        "recover-mcq-06": "「困難、衰退或失敗後恢復正常／改善」與本句語境不同。"
+        "recover-mcq-02": "本句的「recover from the injury」指「從疾病、傷勢或手術中康復」。",
+        "recover-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-02"
     },
@@ -841,11 +829,9 @@ export default {
       "masked": "She is ____ at home.",
       "options": [
         "recover-mcq-02",
-        "recover-mcq-01",
-        "recover-mcq-03",
-        "recover-mcq-04",
-        "recover-mcq-05",
-        "recover-mcq-06"
+        "recover-mcq-21",
+        "recover-mcq-20",
+        "recover-mcq-27"
       ],
       "explanation": "本句的「recovering from surgery」指「從疾病、傷勢或手術中康復」。",
       "sentenceIndex": 5,
@@ -854,12 +840,10 @@ export default {
         "recovering from surgery"
       ],
       "optionReasons": {
-        "recover-mcq-02": "本句指「從疾病、傷勢或手術中康復」。",
-        "recover-mcq-01": "「生病、受傷或身體虛弱後重新變健康；康復」與本句語境不同。",
-        "recover-mcq-03": "「恢復健康與身體機能的康復過程」與本句語境不同。",
-        "recover-mcq-04": "「從疾病／傷勢中逐漸康復」與本句語境不同。",
-        "recover-mcq-05": "「完全恢復健康或原有身體機能」與本句語境不同。",
-        "recover-mcq-06": "「困難、衰退或失敗後恢復正常／改善」與本句語境不同。"
+        "recover-mcq-02": "本句的「recovering from surgery」指「從疾病、傷勢或手術中康復」。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-02"
     },
@@ -871,11 +855,9 @@ export default {
       "masked": "His ____ was slower than expected.",
       "options": [
         "recover-mcq-03",
-        "recover-mcq-02",
-        "recover-mcq-04",
-        "recover-mcq-01",
-        "recover-mcq-05",
-        "recover-mcq-06"
+        "recover-mcq-28",
+        "recover-mcq-24",
+        "recover-mcq-25"
       ],
       "explanation": "本句的「recovery」指「恢復健康與身體機能的康復過程」。",
       "sentenceIndex": 6,
@@ -884,12 +866,10 @@ export default {
         "recovery"
       ],
       "optionReasons": {
-        "recover-mcq-03": "本句指「恢復健康與身體機能的康復過程」。",
-        "recover-mcq-02": "「從疾病、傷勢或手術中康復」與本句語境不同。",
-        "recover-mcq-04": "「從疾病／傷勢中逐漸康復」與本句語境不同。",
-        "recover-mcq-01": "「生病、受傷或身體虛弱後重新變健康；康復」與本句語境不同。",
-        "recover-mcq-05": "「完全恢復健康或原有身體機能」與本句語境不同。",
-        "recover-mcq-06": "「困難、衰退或失敗後恢復正常／改善」與本句語境不同。"
+        "recover-mcq-03": "本句的「recovery」指「恢復健康與身體機能的康復過程」。",
+        "recover-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-03"
     },
@@ -901,11 +881,9 @@ export default {
       "masked": "Rest is important during ____.",
       "options": [
         "recover-mcq-03",
-        "recover-mcq-02",
-        "recover-mcq-04",
-        "recover-mcq-01",
-        "recover-mcq-05",
-        "recover-mcq-06"
+        "recover-mcq-18",
+        "recover-mcq-11",
+        "recover-mcq-21"
       ],
       "explanation": "本句的「recovery」指「恢復健康與身體機能的康復過程」。",
       "sentenceIndex": 7,
@@ -914,12 +892,10 @@ export default {
         "recovery"
       ],
       "optionReasons": {
-        "recover-mcq-03": "本句指「恢復健康與身體機能的康復過程」。",
-        "recover-mcq-02": "「從疾病、傷勢或手術中康復」與本句語境不同。",
-        "recover-mcq-04": "「從疾病／傷勢中逐漸康復」與本句語境不同。",
-        "recover-mcq-01": "「生病、受傷或身體虛弱後重新變健康；康復」與本句語境不同。",
-        "recover-mcq-05": "「完全恢復健康或原有身體機能」與本句語境不同。",
-        "recover-mcq-06": "「困難、衰退或失敗後恢復正常／改善」與本句語境不同。"
+        "recover-mcq-03": "本句的「recovery」指「恢復健康與身體機能的康復過程」。",
+        "recover-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-03"
     },
@@ -931,11 +907,9 @@ export default {
       "masked": "She made a full ____.",
       "options": [
         "recover-mcq-04",
-        "recover-mcq-03",
-        "recover-mcq-05",
-        "recover-mcq-02",
-        "recover-mcq-06",
-        "recover-mcq-01"
+        "recover-mcq-17",
+        "recover-mcq-13",
+        "recover-mcq-19"
       ],
       "explanation": "本句的「recovery」指「從疾病／傷勢中逐漸康復」。",
       "sentenceIndex": 8,
@@ -944,12 +918,10 @@ export default {
         "recovery"
       ],
       "optionReasons": {
-        "recover-mcq-04": "本句指「從疾病／傷勢中逐漸康復」。",
-        "recover-mcq-03": "「恢復健康與身體機能的康復過程」與本句語境不同。",
-        "recover-mcq-05": "「完全恢復健康或原有身體機能」與本句語境不同。",
-        "recover-mcq-02": "「從疾病、傷勢或手術中康復」與本句語境不同。",
-        "recover-mcq-06": "「困難、衰退或失敗後恢復正常／改善」與本句語境不同。",
-        "recover-mcq-01": "「生病、受傷或身體虛弱後重新變健康；康復」與本句語境不同。"
+        "recover-mcq-04": "本句的「recovery」指「從疾病／傷勢中逐漸康復」。",
+        "recover-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-04"
     },
@@ -961,11 +933,9 @@ export default {
       "masked": "Doctors expect him to make a good ____.",
       "options": [
         "recover-mcq-04",
-        "recover-mcq-03",
-        "recover-mcq-05",
-        "recover-mcq-02",
-        "recover-mcq-06",
-        "recover-mcq-01"
+        "recover-mcq-24",
+        "recover-mcq-27",
+        "recover-mcq-19"
       ],
       "explanation": "本句的「recovery」指「從疾病／傷勢中逐漸康復」。",
       "sentenceIndex": 9,
@@ -974,12 +944,10 @@ export default {
         "recovery"
       ],
       "optionReasons": {
-        "recover-mcq-04": "本句指「從疾病／傷勢中逐漸康復」。",
-        "recover-mcq-03": "「恢復健康與身體機能的康復過程」與本句語境不同。",
-        "recover-mcq-05": "「完全恢復健康或原有身體機能」與本句語境不同。",
-        "recover-mcq-02": "「從疾病、傷勢或手術中康復」與本句語境不同。",
-        "recover-mcq-06": "「困難、衰退或失敗後恢復正常／改善」與本句語境不同。",
-        "recover-mcq-01": "「生病、受傷或身體虛弱後重新變健康；康復」與本句語境不同。"
+        "recover-mcq-04": "本句的「recovery」指「從疾病／傷勢中逐漸康復」。",
+        "recover-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-04"
     },
@@ -991,11 +959,9 @@ export default {
       "masked": "A ____ may take several months.",
       "options": [
         "recover-mcq-05",
-        "recover-mcq-04",
-        "recover-mcq-06",
-        "recover-mcq-03",
-        "recover-mcq-07",
-        "recover-mcq-02"
+        "recover-mcq-10",
+        "recover-mcq-20",
+        "recover-mcq-24"
       ],
       "explanation": "本句的「full recovery」指「完全恢復健康或原有身體機能」。",
       "sentenceIndex": 10,
@@ -1004,12 +970,10 @@ export default {
         "full recovery"
       ],
       "optionReasons": {
-        "recover-mcq-05": "本句指「完全恢復健康或原有身體機能」。",
-        "recover-mcq-04": "「從疾病／傷勢中逐漸康復」與本句語境不同。",
-        "recover-mcq-06": "「困難、衰退或失敗後恢復正常／改善」與本句語境不同。",
-        "recover-mcq-03": "「恢復健康與身體機能的康復過程」與本句語境不同。",
-        "recover-mcq-07": "「經濟衰退後重新增長、改善的經濟復甦」與本句語境不同。",
-        "recover-mcq-02": "「從疾病、傷勢或手術中康復」與本句語境不同。"
+        "recover-mcq-05": "本句的「full recovery」指「完全恢復健康或原有身體機能」。",
+        "recover-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-05"
     },
@@ -1021,11 +985,9 @@ export default {
       "masked": "He eventually made a ____.",
       "options": [
         "recover-mcq-05",
-        "recover-mcq-04",
-        "recover-mcq-06",
-        "recover-mcq-03",
-        "recover-mcq-07",
-        "recover-mcq-02"
+        "recover-mcq-32",
+        "recover-mcq-27",
+        "recover-mcq-24"
       ],
       "explanation": "本句的「full recovery」指「完全恢復健康或原有身體機能」。",
       "sentenceIndex": 11,
@@ -1034,12 +996,10 @@ export default {
         "full recovery"
       ],
       "optionReasons": {
-        "recover-mcq-05": "本句指「完全恢復健康或原有身體機能」。",
-        "recover-mcq-04": "「從疾病／傷勢中逐漸康復」與本句語境不同。",
-        "recover-mcq-06": "「困難、衰退或失敗後恢復正常／改善」與本句語境不同。",
-        "recover-mcq-03": "「恢復健康與身體機能的康復過程」與本句語境不同。",
-        "recover-mcq-07": "「經濟衰退後重新增長、改善的經濟復甦」與本句語境不同。",
-        "recover-mcq-02": "「從疾病、傷勢或手術中康復」與本句語境不同。"
+        "recover-mcq-05": "本句的「full recovery」指「完全恢復健康或原有身體機能」。",
+        "recover-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-05"
     },
@@ -1051,11 +1011,9 @@ export default {
       "masked": "The business slowly ____ after a difficult year.",
       "options": [
         "recover-mcq-06",
-        "recover-mcq-05",
-        "recover-mcq-07",
-        "recover-mcq-04",
-        "recover-mcq-08",
-        "recover-mcq-03"
+        "recover-mcq-13",
+        "recover-mcq-19",
+        "recover-mcq-24"
       ],
       "explanation": "本句的「recovered」指「困難、衰退或失敗後恢復正常／改善」。",
       "sentenceIndex": 12,
@@ -1064,12 +1022,10 @@ export default {
         "recovered"
       ],
       "optionReasons": {
-        "recover-mcq-06": "本句指「困難、衰退或失敗後恢復正常／改善」。",
-        "recover-mcq-05": "「完全恢復健康或原有身體機能」與本句語境不同。",
-        "recover-mcq-07": "「經濟衰退後重新增長、改善的經濟復甦」與本句語境不同。",
-        "recover-mcq-04": "「從疾病／傷勢中逐漸康復」與本句語境不同。",
-        "recover-mcq-08": "「市場／價格下跌後重新回升」與本句語境不同。",
-        "recover-mcq-03": "「恢復健康與身體機能的康復過程」與本句語境不同。"
+        "recover-mcq-06": "本句的「recovered」指「困難、衰退或失敗後恢復正常／改善」。",
+        "recover-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-06"
     },
@@ -1081,11 +1037,9 @@ export default {
       "masked": "The market began to ____.",
       "options": [
         "recover-mcq-06",
-        "recover-mcq-05",
-        "recover-mcq-07",
-        "recover-mcq-04",
-        "recover-mcq-08",
-        "recover-mcq-03"
+        "recover-mcq-19",
+        "recover-mcq-13",
+        "recover-mcq-24"
       ],
       "explanation": "本句的「recover」指「困難、衰退或失敗後恢復正常／改善」。",
       "sentenceIndex": 13,
@@ -1094,12 +1048,10 @@ export default {
         "recover"
       ],
       "optionReasons": {
-        "recover-mcq-06": "本句指「困難、衰退或失敗後恢復正常／改善」。",
-        "recover-mcq-05": "「完全恢復健康或原有身體機能」與本句語境不同。",
-        "recover-mcq-07": "「經濟衰退後重新增長、改善的經濟復甦」與本句語境不同。",
-        "recover-mcq-04": "「從疾病／傷勢中逐漸康復」與本句語境不同。",
-        "recover-mcq-08": "「市場／價格下跌後重新回升」與本句語境不同。",
-        "recover-mcq-03": "「恢復健康與身體機能的康復過程」與本句語境不同。"
+        "recover-mcq-06": "本句的「recover」指「困難、衰退或失敗後恢復正常／改善」。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-06"
     },
@@ -1111,11 +1063,9 @@ export default {
       "masked": "The country showed signs of ____.",
       "options": [
         "recover-mcq-07",
-        "recover-mcq-06",
-        "recover-mcq-08",
-        "recover-mcq-05",
-        "recover-mcq-09",
-        "recover-mcq-04"
+        "recover-mcq-27",
+        "recover-mcq-17",
+        "recover-mcq-03"
       ],
       "explanation": "本句的「economic recovery」指「經濟衰退後重新增長、改善的經濟復甦」。",
       "sentenceIndex": 14,
@@ -1124,12 +1074,10 @@ export default {
         "economic recovery"
       ],
       "optionReasons": {
-        "recover-mcq-07": "本句指「經濟衰退後重新增長、改善的經濟復甦」。",
-        "recover-mcq-06": "「困難、衰退或失敗後恢復正常／改善」與本句語境不同。",
-        "recover-mcq-08": "「市場／價格下跌後重新回升」與本句語境不同。",
-        "recover-mcq-05": "「完全恢復健康或原有身體機能」與本句語境不同。",
-        "recover-mcq-09": "「從挫折、失敗或危機中恢復」與本句語境不同。",
-        "recover-mcq-04": "「從疾病／傷勢中逐漸康復」與本句語境不同。"
+        "recover-mcq-07": "本句的「economic recovery」指「經濟衰退後重新增長、改善的經濟復甦」。",
+        "recover-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-07"
     },
@@ -1141,11 +1089,9 @@ export default {
       "masked": "Employment increased during the ____.",
       "options": [
         "recover-mcq-07",
-        "recover-mcq-06",
-        "recover-mcq-08",
-        "recover-mcq-05",
-        "recover-mcq-09",
-        "recover-mcq-04"
+        "recover-mcq-25",
+        "recover-mcq-12",
+        "recover-mcq-14"
       ],
       "explanation": "本句的「recovery」指「經濟衰退後重新增長、改善的經濟復甦」。",
       "sentenceIndex": 15,
@@ -1154,12 +1100,10 @@ export default {
         "recovery"
       ],
       "optionReasons": {
-        "recover-mcq-07": "本句指「經濟衰退後重新增長、改善的經濟復甦」。",
-        "recover-mcq-06": "「困難、衰退或失敗後恢復正常／改善」與本句語境不同。",
-        "recover-mcq-08": "「市場／價格下跌後重新回升」與本句語境不同。",
-        "recover-mcq-05": "「完全恢復健康或原有身體機能」與本句語境不同。",
-        "recover-mcq-09": "「從挫折、失敗或危機中恢復」與本句語境不同。",
-        "recover-mcq-04": "「從疾病／傷勢中逐漸康復」與本句語境不同。"
+        "recover-mcq-07": "本句的「recovery」指「經濟衰退後重新增長、改善的經濟復甦」。",
+        "recover-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-07"
     },
@@ -1171,11 +1115,9 @@ export default {
       "masked": "Shares staged a strong ____.",
       "options": [
         "recover-mcq-08",
-        "recover-mcq-07",
-        "recover-mcq-09",
-        "recover-mcq-06",
-        "recover-mcq-10",
-        "recover-mcq-05"
+        "recover-mcq-03",
+        "recover-mcq-17",
+        "recover-mcq-27"
       ],
       "explanation": "本句的「recovery」指「市場／價格下跌後重新回升」。",
       "sentenceIndex": 16,
@@ -1184,12 +1126,10 @@ export default {
         "recovery"
       ],
       "optionReasons": {
-        "recover-mcq-08": "本句指「市場／價格下跌後重新回升」。",
-        "recover-mcq-07": "「經濟衰退後重新增長、改善的經濟復甦」與本句語境不同。",
-        "recover-mcq-09": "「從挫折、失敗或危機中恢復」與本句語境不同。",
-        "recover-mcq-06": "「困難、衰退或失敗後恢復正常／改善」與本句語境不同。",
-        "recover-mcq-10": "「找回、取回或追回之前遺失／被偷的東西」與本句語境不同。",
-        "recover-mcq-05": "「完全恢復健康或原有身體機能」與本句語境不同。"
+        "recover-mcq-08": "本句的「recovery」指「市場／價格下跌後重新回升」。",
+        "recover-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-08"
     },
@@ -1201,11 +1141,9 @@ export default {
       "masked": "Oil prices ____ after falling sharply.",
       "options": [
         "recover-mcq-08",
-        "recover-mcq-07",
-        "recover-mcq-09",
-        "recover-mcq-06",
-        "recover-mcq-10",
-        "recover-mcq-05"
+        "recover-mcq-16",
+        "recover-mcq-04",
+        "recover-mcq-12"
       ],
       "explanation": "本句的「recovered」指「市場／價格下跌後重新回升」。",
       "sentenceIndex": 17,
@@ -1214,12 +1152,10 @@ export default {
         "recovered"
       ],
       "optionReasons": {
-        "recover-mcq-08": "本句指「市場／價格下跌後重新回升」。",
-        "recover-mcq-07": "「經濟衰退後重新增長、改善的經濟復甦」與本句語境不同。",
-        "recover-mcq-09": "「從挫折、失敗或危機中恢復」與本句語境不同。",
-        "recover-mcq-06": "「困難、衰退或失敗後恢復正常／改善」與本句語境不同。",
-        "recover-mcq-10": "「找回、取回或追回之前遺失／被偷的東西」與本句語境不同。",
-        "recover-mcq-05": "「完全恢復健康或原有身體機能」與本句語境不同。"
+        "recover-mcq-08": "本句的「recovered」指「市場／價格下跌後重新回升」。",
+        "recover-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-08"
     },
@@ -1231,11 +1167,9 @@ export default {
       "masked": "The team quickly ____.",
       "options": [
         "recover-mcq-09",
-        "recover-mcq-08",
-        "recover-mcq-10",
-        "recover-mcq-07",
-        "recover-mcq-11",
-        "recover-mcq-06"
+        "recover-mcq-24",
+        "recover-mcq-12",
+        "recover-mcq-19"
       ],
       "explanation": "本句的「recovered from the defeat」指「從挫折、失敗或危機中恢復」。",
       "sentenceIndex": 18,
@@ -1244,12 +1178,10 @@ export default {
         "recovered from the defeat"
       ],
       "optionReasons": {
-        "recover-mcq-09": "本句指「從挫折、失敗或危機中恢復」。",
-        "recover-mcq-08": "「市場／價格下跌後重新回升」與本句語境不同。",
-        "recover-mcq-10": "「找回、取回或追回之前遺失／被偷的東西」與本句語境不同。",
-        "recover-mcq-07": "「經濟衰退後重新增長、改善的經濟復甦」與本句語境不同。",
-        "recover-mcq-11": "「尋回失物／追回失竊財物」與本句語境不同。",
-        "recover-mcq-06": "「困難、衰退或失敗後恢復正常／改善」與本句語境不同。"
+        "recover-mcq-09": "本句的「recovered from the defeat」指「從挫折、失敗或危機中恢復」。",
+        "recover-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-09"
     },
@@ -1261,11 +1193,9 @@ export default {
       "masked": "The company struggled to ____.",
       "options": [
         "recover-mcq-09",
-        "recover-mcq-08",
-        "recover-mcq-10",
-        "recover-mcq-07",
-        "recover-mcq-11",
-        "recover-mcq-06"
+        "recover-mcq-21",
+        "recover-mcq-19",
+        "recover-mcq-13"
       ],
       "explanation": "本句的「recover from the crisis」指「從挫折、失敗或危機中恢復」。",
       "sentenceIndex": 19,
@@ -1274,12 +1204,10 @@ export default {
         "recover from the crisis"
       ],
       "optionReasons": {
-        "recover-mcq-09": "本句指「從挫折、失敗或危機中恢復」。",
-        "recover-mcq-08": "「市場／價格下跌後重新回升」與本句語境不同。",
-        "recover-mcq-10": "「找回、取回或追回之前遺失／被偷的東西」與本句語境不同。",
-        "recover-mcq-07": "「經濟衰退後重新增長、改善的經濟復甦」與本句語境不同。",
-        "recover-mcq-11": "「尋回失物／追回失竊財物」與本句語境不同。",
-        "recover-mcq-06": "「困難、衰退或失敗後恢復正常／改善」與本句語境不同。"
+        "recover-mcq-09": "本句的「recover from the crisis」指「從挫折、失敗或危機中恢復」。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-09"
     },
@@ -1291,11 +1219,9 @@ export default {
       "masked": "Police ____.",
       "options": [
         "recover-mcq-10",
-        "recover-mcq-09",
-        "recover-mcq-11",
-        "recover-mcq-08",
-        "recover-mcq-12",
-        "recover-mcq-07"
+        "recover-mcq-16",
+        "recover-mcq-21",
+        "recover-mcq-04"
       ],
       "explanation": "本句的「recovered the stolen car」指「找回、取回或追回之前遺失／被偷的東西」。",
       "sentenceIndex": 20,
@@ -1304,12 +1230,10 @@ export default {
         "recovered the stolen car"
       ],
       "optionReasons": {
-        "recover-mcq-10": "本句指「找回、取回或追回之前遺失／被偷的東西」。",
-        "recover-mcq-09": "「從挫折、失敗或危機中恢復」與本句語境不同。",
-        "recover-mcq-11": "「尋回失物／追回失竊財物」與本句語境不同。",
-        "recover-mcq-08": "「市場／價格下跌後重新回升」與本句語境不同。",
-        "recover-mcq-12": "「從困難地點把物件取回、尋回或打撈」與本句語境不同。",
-        "recover-mcq-07": "「經濟衰退後重新增長、改善的經濟復甦」與本句語境不同。"
+        "recover-mcq-10": "本句的「recovered the stolen car」指「找回、取回或追回之前遺失／被偷的東西」。",
+        "recover-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-10"
     },
@@ -1321,11 +1245,9 @@ export default {
       "masked": "Most of the missing property was eventually ____.",
       "options": [
         "recover-mcq-10",
-        "recover-mcq-09",
-        "recover-mcq-11",
-        "recover-mcq-08",
-        "recover-mcq-12",
-        "recover-mcq-07"
+        "recover-mcq-04",
+        "recover-mcq-07",
+        "recover-mcq-29"
       ],
       "explanation": "本句的「recovered」指「找回、取回或追回之前遺失／被偷的東西」。",
       "sentenceIndex": 21,
@@ -1334,12 +1256,10 @@ export default {
         "recovered"
       ],
       "optionReasons": {
-        "recover-mcq-10": "本句指「找回、取回或追回之前遺失／被偷的東西」。",
-        "recover-mcq-09": "「從挫折、失敗或危機中恢復」與本句語境不同。",
-        "recover-mcq-11": "「尋回失物／追回失竊財物」與本句語境不同。",
-        "recover-mcq-08": "「市場／價格下跌後重新回升」與本句語境不同。",
-        "recover-mcq-12": "「從困難地點把物件取回、尋回或打撈」與本句語境不同。",
-        "recover-mcq-07": "「經濟衰退後重新增長、改善的經濟復甦」與本句語境不同。"
+        "recover-mcq-10": "本句的「recovered」指「找回、取回或追回之前遺失／被偷的東西」。",
+        "recover-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-10"
     },
@@ -1351,11 +1271,9 @@ export default {
       "masked": "The police ____.",
       "options": [
         "recover-mcq-11",
-        "recover-mcq-10",
-        "recover-mcq-12",
-        "recover-mcq-09",
-        "recover-mcq-13",
-        "recover-mcq-08"
+        "recover-mcq-02",
+        "recover-mcq-21",
+        "recover-mcq-29"
       ],
       "explanation": "本句的「recovered several stolen items」指「尋回失物／追回失竊財物」。",
       "sentenceIndex": 22,
@@ -1364,12 +1282,10 @@ export default {
         "recovered several stolen items"
       ],
       "optionReasons": {
-        "recover-mcq-11": "本句指「尋回失物／追回失竊財物」。",
-        "recover-mcq-10": "「找回、取回或追回之前遺失／被偷的東西」與本句語境不同。",
-        "recover-mcq-12": "「從困難地點把物件取回、尋回或打撈」與本句語境不同。",
-        "recover-mcq-09": "「從挫折、失敗或危機中恢復」與本句語境不同。",
-        "recover-mcq-13": "「尋回／打撈遺體或遺骸」與本句語境不同。",
-        "recover-mcq-08": "「市場／價格下跌後重新回升」與本句語境不同。"
+        "recover-mcq-11": "本句的「recovered several stolen items」指「尋回失物／追回失竊財物」。",
+        "recover-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-11"
     },
@@ -1381,11 +1297,9 @@ export default {
       "masked": "Divers were sent to ____.",
       "options": [
         "recover-mcq-11",
-        "recover-mcq-10",
-        "recover-mcq-12",
-        "recover-mcq-09",
-        "recover-mcq-13",
-        "recover-mcq-08"
+        "recover-mcq-07",
+        "recover-mcq-04",
+        "recover-mcq-29"
       ],
       "explanation": "本句的「recover the equipment」指「尋回失物／追回失竊財物」。",
       "sentenceIndex": 23,
@@ -1394,12 +1308,10 @@ export default {
         "recover the equipment"
       ],
       "optionReasons": {
-        "recover-mcq-11": "本句指「尋回失物／追回失竊財物」。",
-        "recover-mcq-10": "「找回、取回或追回之前遺失／被偷的東西」與本句語境不同。",
-        "recover-mcq-12": "「從困難地點把物件取回、尋回或打撈」與本句語境不同。",
-        "recover-mcq-09": "「從挫折、失敗或危機中恢復」與本句語境不同。",
-        "recover-mcq-13": "「尋回／打撈遺體或遺骸」與本句語境不同。",
-        "recover-mcq-08": "「市場／價格下跌後重新回升」與本句語境不同。"
+        "recover-mcq-11": "本句的「recover the equipment」指「尋回失物／追回失竊財物」。",
+        "recover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-11"
     },
@@ -1411,11 +1323,9 @@ export default {
       "masked": "Divers ____ from the sea.",
       "options": [
         "recover-mcq-12",
-        "recover-mcq-11",
-        "recover-mcq-13",
-        "recover-mcq-10",
-        "recover-mcq-14",
-        "recover-mcq-09"
+        "recover-mcq-03",
+        "recover-mcq-21",
+        "recover-mcq-19"
       ],
       "explanation": "本句的「recovered the wreckage」指「從困難地點把物件取回、尋回或打撈」。",
       "sentenceIndex": 24,
@@ -1424,12 +1334,10 @@ export default {
         "recovered the wreckage"
       ],
       "optionReasons": {
-        "recover-mcq-12": "本句指「從困難地點把物件取回、尋回或打撈」。",
-        "recover-mcq-11": "「尋回失物／追回失竊財物」與本句語境不同。",
-        "recover-mcq-13": "「尋回／打撈遺體或遺骸」與本句語境不同。",
-        "recover-mcq-10": "「找回、取回或追回之前遺失／被偷的東西」與本句語境不同。",
-        "recover-mcq-14": "「把遺失、刪除或損壞的資料恢復／復原」與本句語境不同。",
-        "recover-mcq-09": "「從挫折、失敗或危機中恢復」與本句語境不同。"
+        "recover-mcq-12": "本句的「recovered the wreckage」指「從困難地點把物件取回、尋回或打撈」。",
+        "recover-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-12"
     },
@@ -1441,11 +1349,9 @@ export default {
       "masked": "Rescue workers ____ from the site.",
       "options": [
         "recover-mcq-12",
-        "recover-mcq-11",
-        "recover-mcq-13",
-        "recover-mcq-10",
+        "recover-mcq-21",
         "recover-mcq-14",
-        "recover-mcq-09"
+        "recover-mcq-02"
       ],
       "explanation": "本句的「recovered the equipment」指「從困難地點把物件取回、尋回或打撈」。",
       "sentenceIndex": 25,
@@ -1454,12 +1360,10 @@ export default {
         "recovered the equipment"
       ],
       "optionReasons": {
-        "recover-mcq-12": "本句指「從困難地點把物件取回、尋回或打撈」。",
-        "recover-mcq-11": "「尋回失物／追回失竊財物」與本句語境不同。",
-        "recover-mcq-13": "「尋回／打撈遺體或遺骸」與本句語境不同。",
-        "recover-mcq-10": "「找回、取回或追回之前遺失／被偷的東西」與本句語境不同。",
-        "recover-mcq-14": "「把遺失、刪除或損壞的資料恢復／復原」與本句語境不同。",
-        "recover-mcq-09": "「從挫折、失敗或危機中恢復」與本句語境不同。"
+        "recover-mcq-12": "本句的「recovered the equipment」指「從困難地點把物件取回、尋回或打撈」。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-12"
     },
@@ -1471,11 +1375,9 @@ export default {
       "masked": "Rescue teams ____ from the river.",
       "options": [
         "recover-mcq-13",
-        "recover-mcq-12",
-        "recover-mcq-14",
-        "recover-mcq-11",
-        "recover-mcq-15",
-        "recover-mcq-10"
+        "recover-mcq-16",
+        "recover-mcq-02",
+        "recover-mcq-19"
       ],
       "explanation": "本句的「recovered the body」指「尋回／打撈遺體或遺骸」。",
       "sentenceIndex": 26,
@@ -1484,12 +1386,10 @@ export default {
         "recovered the body"
       ],
       "optionReasons": {
-        "recover-mcq-13": "本句指「尋回／打撈遺體或遺骸」。",
-        "recover-mcq-12": "「從困難地點把物件取回、尋回或打撈」與本句語境不同。",
-        "recover-mcq-14": "「把遺失、刪除或損壞的資料恢復／復原」與本句語境不同。",
-        "recover-mcq-11": "「尋回失物／追回失竊財物」與本句語境不同。",
-        "recover-mcq-15": "「恢復遺失、刪除、損毀或無法存取資料的過程」與本句語境不同。",
-        "recover-mcq-10": "「找回、取回或追回之前遺失／被偷的東西」與本句語境不同。"
+        "recover-mcq-13": "本句的「recovered the body」指「尋回／打撈遺體或遺骸」。",
+        "recover-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-13"
     },
@@ -1501,11 +1401,9 @@ export default {
       "masked": "The remains were ____ several days later.",
       "options": [
         "recover-mcq-13",
-        "recover-mcq-12",
-        "recover-mcq-14",
-        "recover-mcq-11",
-        "recover-mcq-15",
-        "recover-mcq-10"
+        "recover-mcq-07",
+        "recover-mcq-29",
+        "recover-mcq-02"
       ],
       "explanation": "本句的「recovered」指「尋回／打撈遺體或遺骸」。",
       "sentenceIndex": 27,
@@ -1514,12 +1412,10 @@ export default {
         "recovered"
       ],
       "optionReasons": {
-        "recover-mcq-13": "本句指「尋回／打撈遺體或遺骸」。",
-        "recover-mcq-12": "「從困難地點把物件取回、尋回或打撈」與本句語境不同。",
-        "recover-mcq-14": "「把遺失、刪除或損壞的資料恢復／復原」與本句語境不同。",
-        "recover-mcq-11": "「尋回失物／追回失竊財物」與本句語境不同。",
-        "recover-mcq-15": "「恢復遺失、刪除、損毀或無法存取資料的過程」與本句語境不同。",
-        "recover-mcq-10": "「找回、取回或追回之前遺失／被偷的東西」與本句語境不同。"
+        "recover-mcq-13": "本句的「recovered」指「尋回／打撈遺體或遺骸」。",
+        "recover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-13"
     },
@@ -1531,11 +1427,9 @@ export default {
       "masked": "The technician managed to ____.",
       "options": [
         "recover-mcq-14",
-        "recover-mcq-13",
-        "recover-mcq-15",
+        "recover-mcq-08",
         "recover-mcq-12",
-        "recover-mcq-16",
-        "recover-mcq-11"
+        "recover-mcq-04"
       ],
       "explanation": "本句的「recover the deleted files」指「把遺失、刪除或損壞的資料恢復／復原」。",
       "sentenceIndex": 28,
@@ -1544,12 +1438,10 @@ export default {
         "recover the deleted files"
       ],
       "optionReasons": {
-        "recover-mcq-14": "本句指「把遺失、刪除或損壞的資料恢復／復原」。",
-        "recover-mcq-13": "「尋回／打撈遺體或遺骸」與本句語境不同。",
-        "recover-mcq-15": "「恢復遺失、刪除、損毀或無法存取資料的過程」與本句語境不同。",
-        "recover-mcq-12": "「從困難地點把物件取回、尋回或打撈」與本句語境不同。",
-        "recover-mcq-16": "「用於修復／恢復裝置或系統的復原模式」與本句語境不同。",
-        "recover-mcq-11": "「尋回失物／追回失竊財物」與本句語境不同。"
+        "recover-mcq-14": "本句的「recover the deleted files」指「把遺失、刪除或損壞的資料恢復／復原」。",
+        "recover-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-14"
     },
@@ -1561,11 +1453,9 @@ export default {
       "masked": "Some data could not be ____.",
       "options": [
         "recover-mcq-14",
-        "recover-mcq-13",
-        "recover-mcq-15",
-        "recover-mcq-12",
-        "recover-mcq-16",
-        "recover-mcq-11"
+        "recover-mcq-18",
+        "recover-mcq-21",
+        "recover-mcq-12"
       ],
       "explanation": "本句的「recovered」指「把遺失、刪除或損壞的資料恢復／復原」。",
       "sentenceIndex": 29,
@@ -1574,12 +1464,10 @@ export default {
         "recovered"
       ],
       "optionReasons": {
-        "recover-mcq-14": "本句指「把遺失、刪除或損壞的資料恢復／復原」。",
-        "recover-mcq-13": "「尋回／打撈遺體或遺骸」與本句語境不同。",
-        "recover-mcq-15": "「恢復遺失、刪除、損毀或無法存取資料的過程」與本句語境不同。",
-        "recover-mcq-12": "「從困難地點把物件取回、尋回或打撈」與本句語境不同。",
-        "recover-mcq-16": "「用於修復／恢復裝置或系統的復原模式」與本句語境不同。",
-        "recover-mcq-11": "「尋回失物／追回失竊財物」與本句語境不同。"
+        "recover-mcq-14": "本句的「recovered」指「把遺失、刪除或損壞的資料恢復／復原」。",
+        "recover-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-14"
     },
@@ -1591,11 +1479,9 @@ export default {
       "masked": "The company specializes in ____.",
       "options": [
         "recover-mcq-15",
-        "recover-mcq-14",
-        "recover-mcq-16",
-        "recover-mcq-13",
-        "recover-mcq-17",
-        "recover-mcq-12"
+        "recover-mcq-18",
+        "recover-mcq-24",
+        "recover-mcq-27"
       ],
       "explanation": "本句的「data recovery」指「恢復遺失、刪除、損毀或無法存取資料的過程」。",
       "sentenceIndex": 30,
@@ -1604,12 +1490,10 @@ export default {
         "data recovery"
       ],
       "optionReasons": {
-        "recover-mcq-15": "本句指「恢復遺失、刪除、損毀或無法存取資料的過程」。",
-        "recover-mcq-14": "「把遺失、刪除或損壞的資料恢復／復原」與本句語境不同。",
-        "recover-mcq-16": "「用於修復／恢復裝置或系統的復原模式」與本句語境不同。",
-        "recover-mcq-13": "「尋回／打撈遺體或遺骸」與本句語境不同。",
-        "recover-mcq-17": "「追回或收回遺失、被欠等的款項」與本句語境不同。",
-        "recover-mcq-12": "「從困難地點把物件取回、尋回或打撈」與本句語境不同。"
+        "recover-mcq-15": "本句的「data recovery」指「恢復遺失、刪除、損毀或無法存取資料的過程」。",
+        "recover-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-15"
     },
@@ -1621,11 +1505,9 @@ export default {
       "masked": "We tried several ____ methods.",
       "options": [
         "recover-mcq-15",
-        "recover-mcq-14",
-        "recover-mcq-16",
-        "recover-mcq-13",
-        "recover-mcq-17",
-        "recover-mcq-12"
+        "recover-mcq-24",
+        "recover-mcq-18",
+        "recover-mcq-04"
       ],
       "explanation": "本句的「data recovery」指「恢復遺失、刪除、損毀或無法存取資料的過程」。",
       "sentenceIndex": 31,
@@ -1634,12 +1516,10 @@ export default {
         "data recovery"
       ],
       "optionReasons": {
-        "recover-mcq-15": "本句指「恢復遺失、刪除、損毀或無法存取資料的過程」。",
-        "recover-mcq-14": "「把遺失、刪除或損壞的資料恢復／復原」與本句語境不同。",
-        "recover-mcq-16": "「用於修復／恢復裝置或系統的復原模式」與本句語境不同。",
-        "recover-mcq-13": "「尋回／打撈遺體或遺骸」與本句語境不同。",
-        "recover-mcq-17": "「追回或收回遺失、被欠等的款項」與本句語境不同。",
-        "recover-mcq-12": "「從困難地點把物件取回、尋回或打撈」與本句語境不同。"
+        "recover-mcq-15": "本句的「data recovery」指「恢復遺失、刪除、損毀或無法存取資料的過程」。",
+        "recover-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-15"
     },
@@ -1651,11 +1531,9 @@ export default {
       "masked": "Start the computer in ____.",
       "options": [
         "recover-mcq-16",
-        "recover-mcq-15",
-        "recover-mcq-17",
-        "recover-mcq-14",
-        "recover-mcq-18",
-        "recover-mcq-13"
+        "recover-mcq-12",
+        "recover-mcq-24",
+        "recover-mcq-18"
       ],
       "explanation": "本句的「recovery mode」指「用於修復／恢復裝置或系統的復原模式」。",
       "sentenceIndex": 32,
@@ -1664,12 +1542,10 @@ export default {
         "recovery mode"
       ],
       "optionReasons": {
-        "recover-mcq-16": "本句指「用於修復／恢復裝置或系統的復原模式」。",
-        "recover-mcq-15": "「恢復遺失、刪除、損毀或無法存取資料的過程」與本句語境不同。",
-        "recover-mcq-17": "「追回或收回遺失、被欠等的款項」與本句語境不同。",
-        "recover-mcq-14": "「把遺失、刪除或損壞的資料恢復／復原」與本句語境不同。",
-        "recover-mcq-18": "「收回先前支付的成本／費用」與本句語境不同。",
-        "recover-mcq-13": "「尋回／打撈遺體或遺骸」與本句語境不同。"
+        "recover-mcq-16": "本句的「recovery mode」指「用於修復／恢復裝置或系統的復原模式」。",
+        "recover-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-16"
     },
@@ -1681,11 +1557,9 @@ export default {
       "masked": "The system created a ____.",
       "options": [
         "recover-mcq-16",
-        "recover-mcq-15",
-        "recover-mcq-17",
-        "recover-mcq-14",
-        "recover-mcq-18",
-        "recover-mcq-13"
+        "recover-mcq-13",
+        "recover-mcq-20",
+        "recover-mcq-17"
       ],
       "explanation": "本句的「recovery file」指「用於修復／恢復裝置或系統的復原模式」。",
       "sentenceIndex": 33,
@@ -1694,12 +1568,10 @@ export default {
         "recovery file"
       ],
       "optionReasons": {
-        "recover-mcq-16": "本句指「用於修復／恢復裝置或系統的復原模式」。",
-        "recover-mcq-15": "「恢復遺失、刪除、損毀或無法存取資料的過程」與本句語境不同。",
-        "recover-mcq-17": "「追回或收回遺失、被欠等的款項」與本句語境不同。",
-        "recover-mcq-14": "「把遺失、刪除或損壞的資料恢復／復原」與本句語境不同。",
-        "recover-mcq-18": "「收回先前支付的成本／費用」與本句語境不同。",
-        "recover-mcq-13": "「尋回／打撈遺體或遺骸」與本句語境不同。"
+        "recover-mcq-16": "本句的「recovery file」指「用於修復／恢復裝置或系統的復原模式」。",
+        "recover-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-16"
     },
@@ -1711,11 +1583,9 @@ export default {
       "masked": "The company is trying to ____.",
       "options": [
         "recover-mcq-17",
-        "recover-mcq-16",
-        "recover-mcq-18",
-        "recover-mcq-15",
-        "recover-mcq-19",
-        "recover-mcq-14"
+        "recover-mcq-34",
+        "recover-mcq-07",
+        "recover-mcq-30"
       ],
       "explanation": "本句的「recover the money」指「追回或收回遺失、被欠等的款項」。",
       "sentenceIndex": 34,
@@ -1724,12 +1594,10 @@ export default {
         "recover the money"
       ],
       "optionReasons": {
-        "recover-mcq-17": "本句指「追回或收回遺失、被欠等的款項」。",
-        "recover-mcq-16": "「用於修復／恢復裝置或系統的復原模式」與本句語境不同。",
-        "recover-mcq-18": "「收回先前支付的成本／費用」與本句語境不同。",
-        "recover-mcq-15": "「恢復遺失、刪除、損毀或無法存取資料的過程」與本句語境不同。",
-        "recover-mcq-19": "「法律：取得／追討損害賠償」與本句語境不同。",
-        "recover-mcq-14": "「把遺失、刪除或損壞的資料恢復／復原」與本句語境不同。"
+        "recover-mcq-17": "本句的「recover the money」指「追回或收回遺失、被欠等的款項」。",
+        "recover-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-17"
     },
@@ -1741,11 +1609,9 @@ export default {
       "masked": "Investors may never ____.",
       "options": [
         "recover-mcq-17",
-        "recover-mcq-16",
-        "recover-mcq-18",
-        "recover-mcq-15",
-        "recover-mcq-19",
-        "recover-mcq-14"
+        "recover-mcq-34",
+        "recover-mcq-07",
+        "recover-mcq-30"
       ],
       "explanation": "本句的「recover their losses」指「追回或收回遺失、被欠等的款項」。",
       "sentenceIndex": 35,
@@ -1754,12 +1620,10 @@ export default {
         "recover their losses"
       ],
       "optionReasons": {
-        "recover-mcq-17": "本句指「追回或收回遺失、被欠等的款項」。",
-        "recover-mcq-16": "「用於修復／恢復裝置或系統的復原模式」與本句語境不同。",
-        "recover-mcq-18": "「收回先前支付的成本／費用」與本句語境不同。",
-        "recover-mcq-15": "「恢復遺失、刪除、損毀或無法存取資料的過程」與本句語境不同。",
-        "recover-mcq-19": "「法律：取得／追討損害賠償」與本句語境不同。",
-        "recover-mcq-14": "「把遺失、刪除或損壞的資料恢復／復原」與本句語境不同。"
+        "recover-mcq-17": "本句的「recover their losses」指「追回或收回遺失、被欠等的款項」。",
+        "recover-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-17"
     },
@@ -1771,11 +1635,9 @@ export default {
       "masked": "The business needs to ____.",
       "options": [
         "recover-mcq-18",
-        "recover-mcq-17",
-        "recover-mcq-19",
-        "recover-mcq-16",
-        "recover-mcq-20",
-        "recover-mcq-15"
+        "recover-mcq-29",
+        "recover-mcq-04",
+        "recover-mcq-23"
       ],
       "explanation": "本句的「recover its costs」指「收回先前支付的成本／費用」。",
       "sentenceIndex": 36,
@@ -1784,12 +1646,10 @@ export default {
         "recover its costs"
       ],
       "optionReasons": {
-        "recover-mcq-18": "本句指「收回先前支付的成本／費用」。",
-        "recover-mcq-17": "「追回或收回遺失、被欠等的款項」與本句語境不同。",
-        "recover-mcq-19": "「法律：取得／追討損害賠償」與本句語境不同。",
-        "recover-mcq-16": "「用於修復／恢復裝置或系統的復原模式」與本句語境不同。",
-        "recover-mcq-20": "「挽回先前遭受的金錢或價值損失」與本句語境不同。",
-        "recover-mcq-15": "「恢復遺失、刪除、損毀或無法存取資料的過程」與本句語境不同。"
+        "recover-mcq-18": "本句的「recover its costs」指「收回先前支付的成本／費用」。",
+        "recover-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-18"
     },
@@ -1801,11 +1661,9 @@ export default {
       "masked": "The fee helps the organization ____.",
       "options": [
         "recover-mcq-18",
-        "recover-mcq-17",
-        "recover-mcq-19",
-        "recover-mcq-16",
-        "recover-mcq-20",
-        "recover-mcq-15"
+        "recover-mcq-22",
+        "recover-mcq-04",
+        "recover-mcq-23"
       ],
       "explanation": "本句的「recover operating costs」指「收回先前支付的成本／費用」。",
       "sentenceIndex": 37,
@@ -1814,12 +1672,10 @@ export default {
         "recover operating costs"
       ],
       "optionReasons": {
-        "recover-mcq-18": "本句指「收回先前支付的成本／費用」。",
-        "recover-mcq-17": "「追回或收回遺失、被欠等的款項」與本句語境不同。",
-        "recover-mcq-19": "「法律：取得／追討損害賠償」與本句語境不同。",
-        "recover-mcq-16": "「用於修復／恢復裝置或系統的復原模式」與本句語境不同。",
-        "recover-mcq-20": "「挽回先前遭受的金錢或價值損失」與本句語境不同。",
-        "recover-mcq-15": "「恢復遺失、刪除、損毀或無法存取資料的過程」與本句語境不同。"
+        "recover-mcq-18": "本句的「recover operating costs」指「收回先前支付的成本／費用」。",
+        "recover-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-18"
     },
@@ -1831,11 +1687,9 @@ export default {
       "masked": "The claimant sought to ____.",
       "options": [
         "recover-mcq-19",
-        "recover-mcq-18",
-        "recover-mcq-20",
-        "recover-mcq-17",
-        "recover-mcq-21",
-        "recover-mcq-16"
+        "recover-mcq-16",
+        "recover-mcq-02",
+        "recover-mcq-24"
       ],
       "explanation": "本句的「recover damages」指「法律：取得／追討損害賠償」。",
       "sentenceIndex": 38,
@@ -1844,12 +1698,10 @@ export default {
         "recover damages"
       ],
       "optionReasons": {
-        "recover-mcq-19": "本句指「法律：取得／追討損害賠償」。",
-        "recover-mcq-18": "「收回先前支付的成本／費用」與本句語境不同。",
-        "recover-mcq-20": "「挽回先前遭受的金錢或價值損失」與本句語境不同。",
-        "recover-mcq-17": "「追回或收回遺失、被欠等的款項」與本句語境不同。",
-        "recover-mcq-21": "「受到驚嚇／情緒波動後重新鎮定自己」與本句語境不同。",
-        "recover-mcq-16": "「用於修復／恢復裝置或系統的復原模式」與本句語境不同。"
+        "recover-mcq-19": "本句的「recover damages」指「法律：取得／追討損害賠償」。",
+        "recover-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-19"
     },
@@ -1861,11 +1713,9 @@ export default {
       "masked": "Victims may be able to ____ through the courts.",
       "options": [
         "recover-mcq-19",
-        "recover-mcq-18",
-        "recover-mcq-20",
-        "recover-mcq-17",
-        "recover-mcq-21",
-        "recover-mcq-16"
+        "recover-mcq-23",
+        "recover-mcq-34",
+        "recover-mcq-13"
       ],
       "explanation": "本句的「recover damages」指「法律：取得／追討損害賠償」。",
       "sentenceIndex": 39,
@@ -1874,12 +1724,10 @@ export default {
         "recover damages"
       ],
       "optionReasons": {
-        "recover-mcq-19": "本句指「法律：取得／追討損害賠償」。",
-        "recover-mcq-18": "「收回先前支付的成本／費用」與本句語境不同。",
-        "recover-mcq-20": "「挽回先前遭受的金錢或價值損失」與本句語境不同。",
-        "recover-mcq-17": "「追回或收回遺失、被欠等的款項」與本句語境不同。",
-        "recover-mcq-21": "「受到驚嚇／情緒波動後重新鎮定自己」與本句語境不同。",
-        "recover-mcq-16": "「用於修復／恢復裝置或系統的復原模式」與本句語境不同。"
+        "recover-mcq-19": "本句的「recover damages」指「法律：取得／追討損害賠償」。",
+        "recover-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-19"
     },
@@ -1891,11 +1739,9 @@ export default {
       "masked": "The company hopes to ____ next year.",
       "options": [
         "recover-mcq-20",
-        "recover-mcq-19",
-        "recover-mcq-21",
-        "recover-mcq-18",
-        "recover-mcq-22",
-        "recover-mcq-17"
+        "recover-mcq-34",
+        "recover-mcq-30",
+        "recover-mcq-21"
       ],
       "explanation": "本句的「recover its losses」指「挽回先前遭受的金錢或價值損失」。",
       "sentenceIndex": 40,
@@ -1904,12 +1750,10 @@ export default {
         "recover its losses"
       ],
       "optionReasons": {
-        "recover-mcq-20": "本句指「挽回先前遭受的金錢或價值損失」。",
-        "recover-mcq-19": "「法律：取得／追討損害賠償」與本句語境不同。",
-        "recover-mcq-21": "「受到驚嚇／情緒波動後重新鎮定自己」與本句語境不同。",
-        "recover-mcq-18": "「收回先前支付的成本／費用」與本句語境不同。",
-        "recover-mcq-22": "「恢復鎮定／冷靜」與本句語境不同。",
-        "recover-mcq-17": "「追回或收回遺失、被欠等的款項」與本句語境不同。"
+        "recover-mcq-20": "本句的「recover its losses」指「挽回先前遭受的金錢或價值損失」。",
+        "recover-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-20"
     },
@@ -1921,11 +1765,9 @@ export default {
       "masked": "It took years for investors to ____.",
       "options": [
         "recover-mcq-20",
-        "recover-mcq-19",
+        "recover-mcq-34",
         "recover-mcq-21",
-        "recover-mcq-18",
-        "recover-mcq-22",
-        "recover-mcq-17"
+        "recover-mcq-12"
       ],
       "explanation": "本句的「recover their losses」指「挽回先前遭受的金錢或價值損失」。",
       "sentenceIndex": 41,
@@ -1934,12 +1776,10 @@ export default {
         "recover their losses"
       ],
       "optionReasons": {
-        "recover-mcq-20": "本句指「挽回先前遭受的金錢或價值損失」。",
-        "recover-mcq-19": "「法律：取得／追討損害賠償」與本句語境不同。",
-        "recover-mcq-21": "「受到驚嚇／情緒波動後重新鎮定自己」與本句語境不同。",
-        "recover-mcq-18": "「收回先前支付的成本／費用」與本句語境不同。",
-        "recover-mcq-22": "「恢復鎮定／冷靜」與本句語境不同。",
-        "recover-mcq-17": "「追回或收回遺失、被欠等的款項」與本句語境不同。"
+        "recover-mcq-20": "本句的「recover their losses」指「挽回先前遭受的金錢或價值損失」。",
+        "recover-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-20"
     },
@@ -1951,11 +1791,9 @@ export default {
       "masked": "She paused for a moment to ____.",
       "options": [
         "recover-mcq-21",
-        "recover-mcq-20",
-        "recover-mcq-22",
-        "recover-mcq-19",
-        "recover-mcq-23",
-        "recover-mcq-18"
+        "recover-mcq-18",
+        "recover-mcq-14",
+        "recover-mcq-02"
       ],
       "explanation": "本句的「recover herself」指「受到驚嚇／情緒波動後重新鎮定自己」。",
       "sentenceIndex": 42,
@@ -1964,12 +1802,10 @@ export default {
         "recover herself"
       ],
       "optionReasons": {
-        "recover-mcq-21": "本句指「受到驚嚇／情緒波動後重新鎮定自己」。",
-        "recover-mcq-20": "「挽回先前遭受的金錢或價值損失」與本句語境不同。",
-        "recover-mcq-22": "「恢復鎮定／冷靜」與本句語境不同。",
-        "recover-mcq-19": "「法律：取得／追討損害賠償」與本句語境不同。",
-        "recover-mcq-23": "「身體失去平衡後重新站穩」與本句語境不同。",
-        "recover-mcq-18": "「收回先前支付的成本／費用」與本句語境不同。"
+        "recover-mcq-21": "本句的「recover herself」指「受到驚嚇／情緒波動後重新鎮定自己」。",
+        "recover-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-21"
     },
@@ -1981,11 +1817,9 @@ export default {
       "masked": "He quickly ____ and continued speaking.",
       "options": [
         "recover-mcq-21",
-        "recover-mcq-20",
-        "recover-mcq-22",
         "recover-mcq-19",
-        "recover-mcq-23",
-        "recover-mcq-18"
+        "recover-mcq-14",
+        "recover-mcq-12"
       ],
       "explanation": "本句的「recovered himself」指「受到驚嚇／情緒波動後重新鎮定自己」。",
       "sentenceIndex": 43,
@@ -1994,12 +1828,10 @@ export default {
         "recovered himself"
       ],
       "optionReasons": {
-        "recover-mcq-21": "本句指「受到驚嚇／情緒波動後重新鎮定自己」。",
-        "recover-mcq-20": "「挽回先前遭受的金錢或價值損失」與本句語境不同。",
-        "recover-mcq-22": "「恢復鎮定／冷靜」與本句語境不同。",
-        "recover-mcq-19": "「法律：取得／追討損害賠償」與本句語境不同。",
-        "recover-mcq-23": "「身體失去平衡後重新站穩」與本句語境不同。",
-        "recover-mcq-18": "「收回先前支付的成本／費用」與本句語境不同。"
+        "recover-mcq-21": "本句的「recovered himself」指「受到驚嚇／情緒波動後重新鎮定自己」。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-21"
     },
@@ -2011,11 +1843,9 @@ export default {
       "masked": "It took her several minutes to ____.",
       "options": [
         "recover-mcq-22",
-        "recover-mcq-21",
-        "recover-mcq-23",
-        "recover-mcq-20",
         "recover-mcq-24",
-        "recover-mcq-19"
+        "recover-mcq-12",
+        "recover-mcq-32"
       ],
       "explanation": "本句的「recover her composure」指「恢復鎮定／冷靜」。",
       "sentenceIndex": 44,
@@ -2024,12 +1854,10 @@ export default {
         "recover her composure"
       ],
       "optionReasons": {
-        "recover-mcq-22": "本句指「恢復鎮定／冷靜」。",
-        "recover-mcq-21": "「受到驚嚇／情緒波動後重新鎮定自己」與本句語境不同。",
-        "recover-mcq-23": "「身體失去平衡後重新站穩」與本句語境不同。",
-        "recover-mcq-20": "「挽回先前遭受的金錢或價值損失」與本句語境不同。",
-        "recover-mcq-24": "「運動：重新搶回球／奪回控球權」與本句語境不同。",
-        "recover-mcq-19": "「法律：取得／追討損害賠償」與本句語境不同。"
+        "recover-mcq-22": "本句的「recover her composure」指「恢復鎮定／冷靜」。",
+        "recover-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-22"
     },
@@ -2041,10 +1869,8 @@ export default {
       "masked": "He took a deep breath and ____.",
       "options": [
         "recover-mcq-22",
-        "recover-mcq-21",
+        "recover-mcq-12",
         "recover-mcq-23",
-        "recover-mcq-20",
-        "recover-mcq-24",
         "recover-mcq-19"
       ],
       "explanation": "本句的「recovered his composure」指「恢復鎮定／冷靜」。",
@@ -2054,12 +1880,10 @@ export default {
         "recovered his composure"
       ],
       "optionReasons": {
-        "recover-mcq-22": "本句指「恢復鎮定／冷靜」。",
-        "recover-mcq-21": "「受到驚嚇／情緒波動後重新鎮定自己」與本句語境不同。",
-        "recover-mcq-23": "「身體失去平衡後重新站穩」與本句語境不同。",
-        "recover-mcq-20": "「挽回先前遭受的金錢或價值損失」與本句語境不同。",
-        "recover-mcq-24": "「運動：重新搶回球／奪回控球權」與本句語境不同。",
-        "recover-mcq-19": "「法律：取得／追討損害賠償」與本句語境不同。"
+        "recover-mcq-22": "本句的「recovered his composure」指「恢復鎮定／冷靜」。",
+        "recover-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-22"
     },
@@ -2071,11 +1895,9 @@ export default {
       "masked": "She stumbled but quickly ____.",
       "options": [
         "recover-mcq-23",
-        "recover-mcq-22",
-        "recover-mcq-24",
-        "recover-mcq-21",
-        "recover-mcq-25",
-        "recover-mcq-20"
+        "recover-mcq-12",
+        "recover-mcq-16",
+        "recover-mcq-02"
       ],
       "explanation": "本句的「recovered her balance」指「身體失去平衡後重新站穩」。",
       "sentenceIndex": 46,
@@ -2084,12 +1906,10 @@ export default {
         "recovered her balance"
       ],
       "optionReasons": {
-        "recover-mcq-23": "本句指「身體失去平衡後重新站穩」。",
-        "recover-mcq-22": "「恢復鎮定／冷靜」與本句語境不同。",
-        "recover-mcq-24": "「運動：重新搶回球／奪回控球權」與本句語境不同。",
-        "recover-mcq-21": "「受到驚嚇／情緒波動後重新鎮定自己」與本句語境不同。",
-        "recover-mcq-25": "「挽回先前失去的優勢、進展、支持等」與本句語境不同。",
-        "recover-mcq-20": "「挽回先前遭受的金錢或價值損失」與本句語境不同。"
+        "recover-mcq-23": "本句的「recovered her balance」指「身體失去平衡後重新站穩」。",
+        "recover-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-23"
     },
@@ -2101,11 +1921,9 @@ export default {
       "masked": "He grabbed the railing to ____.",
       "options": [
         "recover-mcq-23",
-        "recover-mcq-22",
-        "recover-mcq-24",
-        "recover-mcq-21",
-        "recover-mcq-25",
-        "recover-mcq-20"
+        "recover-mcq-30",
+        "recover-mcq-12",
+        "recover-mcq-32"
       ],
       "explanation": "本句的「recover his balance」指「身體失去平衡後重新站穩」。",
       "sentenceIndex": 47,
@@ -2114,12 +1932,10 @@ export default {
         "recover his balance"
       ],
       "optionReasons": {
-        "recover-mcq-23": "本句指「身體失去平衡後重新站穩」。",
-        "recover-mcq-22": "「恢復鎮定／冷靜」與本句語境不同。",
-        "recover-mcq-24": "「運動：重新搶回球／奪回控球權」與本句語境不同。",
-        "recover-mcq-21": "「受到驚嚇／情緒波動後重新鎮定自己」與本句語境不同。",
-        "recover-mcq-25": "「挽回先前失去的優勢、進展、支持等」與本句語境不同。",
-        "recover-mcq-20": "「挽回先前遭受的金錢或價值損失」與本句語境不同。"
+        "recover-mcq-23": "本句的「recover his balance」指「身體失去平衡後重新站穩」。",
+        "recover-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-23"
     },
@@ -2131,11 +1947,9 @@ export default {
       "masked": "The defender ____.",
       "options": [
         "recover-mcq-24",
-        "recover-mcq-23",
-        "recover-mcq-25",
-        "recover-mcq-22",
-        "recover-mcq-26",
-        "recover-mcq-21"
+        "recover-mcq-03",
+        "recover-mcq-19",
+        "recover-mcq-17"
       ],
       "explanation": "本句的「recovered the ball」指「運動：重新搶回球／奪回控球權」。",
       "sentenceIndex": 48,
@@ -2144,12 +1958,10 @@ export default {
         "recovered the ball"
       ],
       "optionReasons": {
-        "recover-mcq-24": "本句指「運動：重新搶回球／奪回控球權」。",
-        "recover-mcq-23": "「身體失去平衡後重新站穩」與本句語境不同。",
-        "recover-mcq-25": "「挽回先前失去的優勢、進展、支持等」與本句語境不同。",
-        "recover-mcq-22": "「恢復鎮定／冷靜」與本句語境不同。",
-        "recover-mcq-26": "「困難或衰退後回復較正常／良好狀態的過程」與本句語境不同。",
-        "recover-mcq-21": "「受到驚嚇／情緒波動後重新鎮定自己」與本句語境不同。"
+        "recover-mcq-24": "本句的「recovered the ball」指「運動：重新搶回球／奪回控球權」。",
+        "recover-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-24"
     },
@@ -2161,11 +1973,9 @@ export default {
       "masked": "Their team quickly ____.",
       "options": [
         "recover-mcq-24",
-        "recover-mcq-23",
-        "recover-mcq-25",
-        "recover-mcq-22",
-        "recover-mcq-26",
-        "recover-mcq-21"
+        "recover-mcq-34",
+        "recover-mcq-19",
+        "recover-mcq-17"
       ],
       "explanation": "本句的「recovered possession」指「運動：重新搶回球／奪回控球權」。",
       "sentenceIndex": 49,
@@ -2174,12 +1984,10 @@ export default {
         "recovered possession"
       ],
       "optionReasons": {
-        "recover-mcq-24": "本句指「運動：重新搶回球／奪回控球權」。",
-        "recover-mcq-23": "「身體失去平衡後重新站穩」與本句語境不同。",
-        "recover-mcq-25": "「挽回先前失去的優勢、進展、支持等」與本句語境不同。",
-        "recover-mcq-22": "「恢復鎮定／冷靜」與本句語境不同。",
-        "recover-mcq-26": "「困難或衰退後回復較正常／良好狀態的過程」與本句語境不同。",
-        "recover-mcq-21": "「受到驚嚇／情緒波動後重新鎮定自己」與本句語境不同。"
+        "recover-mcq-24": "本句的「recovered possession」指「運動：重新搶回球／奪回控球權」。",
+        "recover-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-24"
     },
@@ -2191,11 +1999,9 @@ export default {
       "masked": "The company is trying to ____.",
       "options": [
         "recover-mcq-25",
-        "recover-mcq-24",
-        "recover-mcq-26",
-        "recover-mcq-23",
-        "recover-mcq-27",
-        "recover-mcq-22"
+        "recover-mcq-05",
+        "recover-mcq-19",
+        "recover-mcq-21"
       ],
       "explanation": "本句的「recover lost ground」指「挽回先前失去的優勢、進展、支持等」。",
       "sentenceIndex": 50,
@@ -2204,12 +2010,10 @@ export default {
         "recover lost ground"
       ],
       "optionReasons": {
-        "recover-mcq-25": "本句指「挽回先前失去的優勢、進展、支持等」。",
-        "recover-mcq-24": "「運動：重新搶回球／奪回控球權」與本句語境不同。",
-        "recover-mcq-26": "「困難或衰退後回復較正常／良好狀態的過程」與本句語境不同。",
-        "recover-mcq-23": "「身體失去平衡後重新站穩」與本句語境不同。",
-        "recover-mcq-27": "「找回／尋回失去或失竊物品的行動」與本句語境不同。",
-        "recover-mcq-22": "「恢復鎮定／冷靜」與本句語境不同。"
+        "recover-mcq-25": "本句的「recover lost ground」指「挽回先前失去的優勢、進展、支持等」。",
+        "recover-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-25"
     },
@@ -2221,11 +2025,9 @@ export default {
       "masked": "The runner began to ____ on the leaders.",
       "options": [
         "recover-mcq-25",
-        "recover-mcq-24",
-        "recover-mcq-26",
-        "recover-mcq-23",
-        "recover-mcq-27",
-        "recover-mcq-22"
+        "recover-mcq-21",
+        "recover-mcq-34",
+        "recover-mcq-19"
       ],
       "explanation": "本句的「recover ground」指「挽回先前失去的優勢、進展、支持等」。",
       "sentenceIndex": 51,
@@ -2234,12 +2036,10 @@ export default {
         "recover ground"
       ],
       "optionReasons": {
-        "recover-mcq-25": "本句指「挽回先前失去的優勢、進展、支持等」。",
-        "recover-mcq-24": "「運動：重新搶回球／奪回控球權」與本句語境不同。",
-        "recover-mcq-26": "「困難或衰退後回復較正常／良好狀態的過程」與本句語境不同。",
-        "recover-mcq-23": "「身體失去平衡後重新站穩」與本句語境不同。",
-        "recover-mcq-27": "「找回／尋回失去或失竊物品的行動」與本句語境不同。",
-        "recover-mcq-22": "「恢復鎮定／冷靜」與本句語境不同。"
+        "recover-mcq-25": "本句的「recover ground」指「挽回先前失去的優勢、進展、支持等」。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-25"
     },
@@ -2251,11 +2051,9 @@ export default {
       "masked": "Police announced the ____.",
       "options": [
         "recover-mcq-27",
-        "recover-mcq-26",
-        "recover-mcq-28",
-        "recover-mcq-25",
+        "recover-mcq-19",
         "recover-mcq-29",
-        "recover-mcq-24"
+        "recover-mcq-02"
       ],
       "explanation": "本句的「recovery of the stolen paintings」指「找回／尋回失去或失竊物品的行動」。",
       "sentenceIndex": 54,
@@ -2264,12 +2062,10 @@ export default {
         "recovery of the stolen paintings"
       ],
       "optionReasons": {
-        "recover-mcq-27": "本句指「找回／尋回失去或失竊物品的行動」。",
-        "recover-mcq-26": "「困難或衰退後回復較正常／良好狀態的過程」與本句語境不同。",
-        "recover-mcq-28": "「追回債款、成本或其他金錢損失」與本句語境不同。",
-        "recover-mcq-25": "「挽回先前失去的優勢、進展、支持等」與本句語境不同。",
-        "recover-mcq-29": "「災難／系統故障後恢復資料、服務及運作的災難復原」與本句語境不同。",
-        "recover-mcq-24": "「運動：重新搶回球／奪回控球權」與本句語境不同。"
+        "recover-mcq-27": "本句的「recovery of the stolen paintings」指「找回／尋回失去或失竊物品的行動」。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-27"
     },
@@ -2281,11 +2077,9 @@ export default {
       "masked": "The operation led to the ____.",
       "options": [
         "recover-mcq-27",
-        "recover-mcq-26",
-        "recover-mcq-28",
-        "recover-mcq-25",
-        "recover-mcq-29",
-        "recover-mcq-24"
+        "recover-mcq-03",
+        "recover-mcq-07",
+        "recover-mcq-17"
       ],
       "explanation": "本句的「recovery of several items」指「找回／尋回失去或失竊物品的行動」。",
       "sentenceIndex": 55,
@@ -2294,12 +2088,10 @@ export default {
         "recovery of several items"
       ],
       "optionReasons": {
-        "recover-mcq-27": "本句指「找回／尋回失去或失竊物品的行動」。",
-        "recover-mcq-26": "「困難或衰退後回復較正常／良好狀態的過程」與本句語境不同。",
-        "recover-mcq-28": "「追回債款、成本或其他金錢損失」與本句語境不同。",
-        "recover-mcq-25": "「挽回先前失去的優勢、進展、支持等」與本句語境不同。",
-        "recover-mcq-29": "「災難／系統故障後恢復資料、服務及運作的災難復原」與本句語境不同。",
-        "recover-mcq-24": "「運動：重新搶回球／奪回控球權」與本句語境不同。"
+        "recover-mcq-27": "本句的「recovery of several items」指「找回／尋回失去或失竊物品的行動」。",
+        "recover-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-27"
     },
@@ -2311,11 +2103,9 @@ export default {
       "masked": "Debt ____ can take time.",
       "options": [
         "recover-mcq-28",
-        "recover-mcq-27",
-        "recover-mcq-29",
-        "recover-mcq-26",
-        "recover-mcq-30",
-        "recover-mcq-25"
+        "recover-mcq-05",
+        "recover-mcq-21",
+        "recover-mcq-04"
       ],
       "explanation": "本句的「recovery」指「追回債款、成本或其他金錢損失」。",
       "sentenceIndex": 56,
@@ -2324,12 +2114,10 @@ export default {
         "recovery"
       ],
       "optionReasons": {
-        "recover-mcq-28": "本句指「追回債款、成本或其他金錢損失」。",
-        "recover-mcq-27": "「找回／尋回失去或失竊物品的行動」與本句語境不同。",
-        "recover-mcq-29": "「災難／系統故障後恢復資料、服務及運作的災難復原」與本句語境不同。",
-        "recover-mcq-26": "「困難或衰退後回復較正常／良好狀態的過程」與本句語境不同。",
-        "recover-mcq-30": "「回復健康、正常功能或系統運作所需的時間」與本句語境不同。",
-        "recover-mcq-25": "「挽回先前失去的優勢、進展、支持等」與本句語境不同。"
+        "recover-mcq-28": "本句的「recovery」指「追回債款、成本或其他金錢損失」。",
+        "recover-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-28"
     },
@@ -2341,11 +2129,9 @@ export default {
       "masked": "Cost ____ was built into the pricing model.",
       "options": [
         "recover-mcq-28",
-        "recover-mcq-27",
-        "recover-mcq-29",
-        "recover-mcq-26",
-        "recover-mcq-30",
-        "recover-mcq-25"
+        "recover-mcq-02",
+        "recover-mcq-16",
+        "recover-mcq-21"
       ],
       "explanation": "本句的「recovery」指「追回債款、成本或其他金錢損失」。",
       "sentenceIndex": 57,
@@ -2354,12 +2140,10 @@ export default {
         "recovery"
       ],
       "optionReasons": {
-        "recover-mcq-28": "本句指「追回債款、成本或其他金錢損失」。",
-        "recover-mcq-27": "「找回／尋回失去或失竊物品的行動」與本句語境不同。",
-        "recover-mcq-29": "「災難／系統故障後恢復資料、服務及運作的災難復原」與本句語境不同。",
-        "recover-mcq-26": "「困難或衰退後回復較正常／良好狀態的過程」與本句語境不同。",
-        "recover-mcq-30": "「回復健康、正常功能或系統運作所需的時間」與本句語境不同。",
-        "recover-mcq-25": "「挽回先前失去的優勢、進展、支持等」與本句語境不同。"
+        "recover-mcq-28": "本句的「recovery」指「追回債款、成本或其他金錢損失」。",
+        "recover-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-28"
     },
@@ -2371,11 +2155,9 @@ export default {
       "masked": "The company has a ____.",
       "options": [
         "recover-mcq-29",
-        "recover-mcq-28",
-        "recover-mcq-30",
+        "recover-mcq-20",
         "recover-mcq-27",
-        "recover-mcq-31",
-        "recover-mcq-26"
+        "recover-mcq-17"
       ],
       "explanation": "本句的「disaster recovery plan」指「災難／系統故障後恢復資料、服務及運作的災難復原」。",
       "sentenceIndex": 58,
@@ -2384,12 +2166,10 @@ export default {
         "disaster recovery plan"
       ],
       "optionReasons": {
-        "recover-mcq-29": "本句指「災難／系統故障後恢復資料、服務及運作的災難復原」。",
-        "recover-mcq-28": "「追回債款、成本或其他金錢損失」與本句語境不同。",
-        "recover-mcq-30": "「回復健康、正常功能或系統運作所需的時間」與本句語境不同。",
-        "recover-mcq-27": "「找回／尋回失去或失竊物品的行動」與本句語境不同。",
-        "recover-mcq-31": "「可以恢復、找回、追回或收回的」與本句語境不同。",
-        "recover-mcq-26": "「困難或衰退後回復較正常／良好狀態的過程」與本句語境不同。"
+        "recover-mcq-29": "本句的「disaster recovery plan」指「災難／系統故障後恢復資料、服務及運作的災難復原」。",
+        "recover-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-29"
     },
@@ -2401,11 +2181,9 @@ export default {
       "masked": "Regular backups are essential for ____.",
       "options": [
         "recover-mcq-29",
-        "recover-mcq-28",
-        "recover-mcq-30",
-        "recover-mcq-27",
-        "recover-mcq-31",
-        "recover-mcq-26"
+        "recover-mcq-13",
+        "recover-mcq-18",
+        "recover-mcq-10"
       ],
       "explanation": "本句的「disaster recovery」指「災難／系統故障後恢復資料、服務及運作的災難復原」。",
       "sentenceIndex": 59,
@@ -2414,12 +2192,10 @@ export default {
         "disaster recovery"
       ],
       "optionReasons": {
-        "recover-mcq-29": "本句指「災難／系統故障後恢復資料、服務及運作的災難復原」。",
-        "recover-mcq-28": "「追回債款、成本或其他金錢損失」與本句語境不同。",
-        "recover-mcq-30": "「回復健康、正常功能或系統運作所需的時間」與本句語境不同。",
-        "recover-mcq-27": "「找回／尋回失去或失竊物品的行動」與本句語境不同。",
-        "recover-mcq-31": "「可以恢復、找回、追回或收回的」與本句語境不同。",
-        "recover-mcq-26": "「困難或衰退後回復較正常／良好狀態的過程」與本句語境不同。"
+        "recover-mcq-29": "本句的「disaster recovery」指「災難／系統故障後恢復資料、服務及運作的災難復原」。",
+        "recover-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-29"
     },
@@ -2431,11 +2207,9 @@ export default {
       "masked": "The procedure has a short ____.",
       "options": [
         "recover-mcq-30",
-        "recover-mcq-29",
-        "recover-mcq-31",
-        "recover-mcq-28",
-        "recover-mcq-32",
-        "recover-mcq-27"
+        "recover-mcq-19",
+        "recover-mcq-21",
+        "recover-mcq-14"
       ],
       "explanation": "本句的「recovery time」指「回復健康、正常功能或系統運作所需的時間」。",
       "sentenceIndex": 60,
@@ -2444,12 +2218,10 @@ export default {
         "recovery time"
       ],
       "optionReasons": {
-        "recover-mcq-30": "本句指「回復健康、正常功能或系統運作所需的時間」。",
-        "recover-mcq-29": "「災難／系統故障後恢復資料、服務及運作的災難復原」與本句語境不同。",
-        "recover-mcq-31": "「可以恢復、找回、追回或收回的」與本句語境不同。",
-        "recover-mcq-28": "「追回債款、成本或其他金錢損失」與本句語境不同。",
-        "recover-mcq-32": "「法律上可以追回／索取的費用或賠償」與本句語境不同。",
-        "recover-mcq-27": "「找回／尋回失去或失竊物品的行動」與本句語境不同。"
+        "recover-mcq-30": "本句的「recovery time」指「回復健康、正常功能或系統運作所需的時間」。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-30"
     },
@@ -2461,11 +2233,9 @@ export default {
       "masked": "The system’s ____ was improved.",
       "options": [
         "recover-mcq-30",
-        "recover-mcq-29",
-        "recover-mcq-31",
-        "recover-mcq-28",
-        "recover-mcq-32",
-        "recover-mcq-27"
+        "recover-mcq-19",
+        "recover-mcq-21",
+        "recover-mcq-17"
       ],
       "explanation": "本句的「recovery time」指「回復健康、正常功能或系統運作所需的時間」。",
       "sentenceIndex": 61,
@@ -2474,12 +2244,10 @@ export default {
         "recovery time"
       ],
       "optionReasons": {
-        "recover-mcq-30": "本句指「回復健康、正常功能或系統運作所需的時間」。",
-        "recover-mcq-29": "「災難／系統故障後恢復資料、服務及運作的災難復原」與本句語境不同。",
-        "recover-mcq-31": "「可以恢復、找回、追回或收回的」與本句語境不同。",
-        "recover-mcq-28": "「追回債款、成本或其他金錢損失」與本句語境不同。",
-        "recover-mcq-32": "「法律上可以追回／索取的費用或賠償」與本句語境不同。",
-        "recover-mcq-27": "「找回／尋回失去或失竊物品的行動」與本句語境不同。"
+        "recover-mcq-30": "本句的「recovery time」指「回復健康、正常功能或系統運作所需的時間」。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-30"
     },
@@ -2491,11 +2259,9 @@ export default {
       "masked": "Most of the data is ____.",
       "options": [
         "recover-mcq-31",
-        "recover-mcq-30",
-        "recover-mcq-32",
-        "recover-mcq-29",
-        "recover-mcq-33",
-        "recover-mcq-28"
+        "recover-mcq-21",
+        "recover-mcq-02",
+        "recover-mcq-19"
       ],
       "explanation": "本句的「recoverable」指「可以恢復、找回、追回或收回的」。",
       "sentenceIndex": 62,
@@ -2504,12 +2270,10 @@ export default {
         "recoverable"
       ],
       "optionReasons": {
-        "recover-mcq-31": "本句指「可以恢復、找回、追回或收回的」。",
-        "recover-mcq-30": "「回復健康、正常功能或系統運作所需的時間」與本句語境不同。",
-        "recover-mcq-32": "「法律上可以追回／索取的費用或賠償」與本句語境不同。",
-        "recover-mcq-29": "「災難／系統故障後恢復資料、服務及運作的災難復原」與本句語境不同。",
-        "recover-mcq-33": "「無法恢復、找回或追回的」與本句語境不同。",
-        "recover-mcq-28": "「追回債款、成本或其他金錢損失」與本句語境不同。"
+        "recover-mcq-31": "本句的「recoverable」指「可以恢復、找回、追回或收回的」。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-31"
     },
@@ -2521,11 +2285,9 @@ export default {
       "masked": "Some of the money may be ____.",
       "options": [
         "recover-mcq-31",
-        "recover-mcq-30",
-        "recover-mcq-32",
-        "recover-mcq-29",
-        "recover-mcq-33",
-        "recover-mcq-28"
+        "recover-mcq-21",
+        "recover-mcq-20",
+        "recover-mcq-13"
       ],
       "explanation": "本句的「recoverable」指「可以恢復、找回、追回或收回的」。",
       "sentenceIndex": 63,
@@ -2534,12 +2296,10 @@ export default {
         "recoverable"
       ],
       "optionReasons": {
-        "recover-mcq-31": "本句指「可以恢復、找回、追回或收回的」。",
-        "recover-mcq-30": "「回復健康、正常功能或系統運作所需的時間」與本句語境不同。",
-        "recover-mcq-32": "「法律上可以追回／索取的費用或賠償」與本句語境不同。",
-        "recover-mcq-29": "「災難／系統故障後恢復資料、服務及運作的災難復原」與本句語境不同。",
-        "recover-mcq-33": "「無法恢復、找回或追回的」與本句語境不同。",
-        "recover-mcq-28": "「追回債款、成本或其他金錢損失」與本句語境不同。"
+        "recover-mcq-31": "本句的「recoverable」指「可以恢復、找回、追回或收回的」。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-31"
     },
@@ -2551,11 +2311,9 @@ export default {
       "masked": "Legal fees may be ____.",
       "options": [
         "recover-mcq-32",
-        "recover-mcq-31",
-        "recover-mcq-33",
-        "recover-mcq-30",
-        "recover-mcq-34",
-        "recover-mcq-29"
+        "recover-mcq-21",
+        "recover-mcq-09",
+        "recover-mcq-02"
       ],
       "explanation": "本句的「recoverable」指「法律上可以追回／索取的費用或賠償」。",
       "sentenceIndex": 64,
@@ -2564,12 +2322,10 @@ export default {
         "recoverable"
       ],
       "optionReasons": {
-        "recover-mcq-32": "本句指「法律上可以追回／索取的費用或賠償」。",
-        "recover-mcq-31": "「可以恢復、找回、追回或收回的」與本句語境不同。",
-        "recover-mcq-33": "「無法恢復、找回或追回的」與本句語境不同。",
-        "recover-mcq-30": "「回復健康、正常功能或系統運作所需的時間」與本句語境不同。",
-        "recover-mcq-34": "「疾病、手術或疲勞後休養並恢復體力」與本句語境不同。",
-        "recover-mcq-29": "「災難／系統故障後恢復資料、服務及運作的災難復原」與本句語境不同。"
+        "recover-mcq-32": "本句的「recoverable」指「法律上可以追回／索取的費用或賠償」。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-32"
     },
@@ -2581,11 +2337,9 @@ export default {
       "masked": "The court considered which costs were ____.",
       "options": [
         "recover-mcq-32",
-        "recover-mcq-31",
-        "recover-mcq-33",
-        "recover-mcq-30",
-        "recover-mcq-34",
-        "recover-mcq-29"
+        "recover-mcq-21",
+        "recover-mcq-29",
+        "recover-mcq-04"
       ],
       "explanation": "本句的「recoverable」指「法律上可以追回／索取的費用或賠償」。",
       "sentenceIndex": 65,
@@ -2594,12 +2348,10 @@ export default {
         "recoverable"
       ],
       "optionReasons": {
-        "recover-mcq-32": "本句指「法律上可以追回／索取的費用或賠償」。",
-        "recover-mcq-31": "「可以恢復、找回、追回或收回的」與本句語境不同。",
-        "recover-mcq-33": "「無法恢復、找回或追回的」與本句語境不同。",
-        "recover-mcq-30": "「回復健康、正常功能或系統運作所需的時間」與本句語境不同。",
-        "recover-mcq-34": "「疾病、手術或疲勞後休養並恢復體力」與本句語境不同。",
-        "recover-mcq-29": "「災難／系統故障後恢復資料、服務及運作的災難復原」與本句語境不同。"
+        "recover-mcq-32": "本句的「recoverable」指「法律上可以追回／索取的費用或賠償」。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-32"
     },
@@ -2611,11 +2363,9 @@ export default {
       "masked": "Some files were permanently ____.",
       "options": [
         "recover-mcq-33",
-        "recover-mcq-32",
-        "recover-mcq-34",
-        "recover-mcq-31",
-        "recover-mcq-30",
-        "recover-mcq-29"
+        "recover-mcq-21",
+        "recover-mcq-02",
+        "recover-mcq-18"
       ],
       "explanation": "本句的「unrecoverable」指「無法恢復、找回或追回的」。",
       "sentenceIndex": 66,
@@ -2624,12 +2374,10 @@ export default {
         "unrecoverable"
       ],
       "optionReasons": {
-        "recover-mcq-33": "本句指「無法恢復、找回或追回的」。",
-        "recover-mcq-32": "「法律上可以追回／索取的費用或賠償」與本句語境不同。",
-        "recover-mcq-34": "「疾病、手術或疲勞後休養並恢復體力」與本句語境不同。",
-        "recover-mcq-31": "「可以恢復、找回、追回或收回的」與本句語境不同。",
-        "recover-mcq-30": "「回復健康、正常功能或系統運作所需的時間」與本句語境不同。",
-        "recover-mcq-29": "「災難／系統故障後恢復資料、服務及運作的災難復原」與本句語境不同。"
+        "recover-mcq-33": "本句的「unrecoverable」指「無法恢復、找回或追回的」。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-33"
     },
@@ -2641,11 +2389,9 @@ export default {
       "masked": "Part of the investment was ____.",
       "options": [
         "recover-mcq-33",
-        "recover-mcq-32",
-        "recover-mcq-34",
-        "recover-mcq-31",
-        "recover-mcq-30",
-        "recover-mcq-29"
+        "recover-mcq-21",
+        "recover-mcq-20",
+        "recover-mcq-04"
       ],
       "explanation": "本句的「unrecoverable」指「無法恢復、找回或追回的」。",
       "sentenceIndex": 67,
@@ -2654,12 +2400,10 @@ export default {
         "unrecoverable"
       ],
       "optionReasons": {
-        "recover-mcq-33": "本句指「無法恢復、找回或追回的」。",
-        "recover-mcq-32": "「法律上可以追回／索取的費用或賠償」與本句語境不同。",
-        "recover-mcq-34": "「疾病、手術或疲勞後休養並恢復體力」與本句語境不同。",
-        "recover-mcq-31": "「可以恢復、找回、追回或收回的」與本句語境不同。",
-        "recover-mcq-30": "「回復健康、正常功能或系統運作所需的時間」與本句語境不同。",
-        "recover-mcq-29": "「災難／系統故障後恢復資料、服務及運作的災難復原」與本句語境不同。"
+        "recover-mcq-33": "本句的「unrecoverable」指「無法恢復、找回或追回的」。",
+        "recover-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-33"
     },
@@ -2671,11 +2415,9 @@ export default {
       "masked": "He stayed home to ____.",
       "options": [
         "recover-mcq-34",
-        "recover-mcq-33",
         "recover-mcq-32",
-        "recover-mcq-31",
-        "recover-mcq-30",
-        "recover-mcq-29"
+        "recover-mcq-12",
+        "recover-mcq-25"
       ],
       "explanation": "本句的「recuperate」指「疾病、手術或疲勞後休養並恢復體力」。",
       "sentenceIndex": 68,
@@ -2684,12 +2426,10 @@ export default {
         "recuperate"
       ],
       "optionReasons": {
-        "recover-mcq-34": "本句指「疾病、手術或疲勞後休養並恢復體力」。",
-        "recover-mcq-33": "「無法恢復、找回或追回的」與本句語境不同。",
-        "recover-mcq-32": "「法律上可以追回／索取的費用或賠償」與本句語境不同。",
-        "recover-mcq-31": "「可以恢復、找回、追回或收回的」與本句語境不同。",
-        "recover-mcq-30": "「回復健康、正常功能或系統運作所需的時間」與本句語境不同。",
-        "recover-mcq-29": "「災難／系統故障後恢復資料、服務及運作的災難復原」與本句語境不同。"
+        "recover-mcq-34": "本句的「recuperate」指「疾病、手術或疲勞後休養並恢復體力」。",
+        "recover-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-34"
     },
@@ -2701,11 +2441,9 @@ export default {
       "masked": "She needed several weeks to ____ after surgery.",
       "options": [
         "recover-mcq-34",
-        "recover-mcq-33",
         "recover-mcq-32",
-        "recover-mcq-31",
-        "recover-mcq-30",
-        "recover-mcq-29"
+        "recover-mcq-27",
+        "recover-mcq-24"
       ],
       "explanation": "本句的「recuperate」指「疾病、手術或疲勞後休養並恢復體力」。",
       "sentenceIndex": 69,
@@ -2714,12 +2452,10 @@ export default {
         "recuperate"
       ],
       "optionReasons": {
-        "recover-mcq-34": "本句指「疾病、手術或疲勞後休養並恢復體力」。",
-        "recover-mcq-33": "「無法恢復、找回或追回的」與本句語境不同。",
-        "recover-mcq-32": "「法律上可以追回／索取的費用或賠償」與本句語境不同。",
-        "recover-mcq-31": "「可以恢復、找回、追回或收回的」與本句語境不同。",
-        "recover-mcq-30": "「回復健康、正常功能或系統運作所需的時間」與本句語境不同。",
-        "recover-mcq-29": "「災難／系統故障後恢復資料、服務及運作的災難復原」與本句語境不同。"
+        "recover-mcq-34": "本句的「recuperate」指「疾病、手術或疲勞後休養並恢復體力」。",
+        "recover-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "recover-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recover-mcq-34"
     }
@@ -2731,5 +2467,7 @@ export default {
     "sha256": "b99a818ec3af6f767f5c8c44694b9172b0735f02458cd6ee0f83cafdf6b2cd7d",
     "pages": 21
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

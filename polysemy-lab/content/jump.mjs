@@ -570,18 +570,7 @@ export default {
       "en": "long jump",
       "zh": "跳遠",
       "note": "來源詞義：跳遠",
-      "examples": [
-        [
-          "There was a sudden jump in temperature.",
-          "氣溫突然急升。",
-          "跳遠"
-        ],
-        [
-          "We saw a large jump in demand.",
-          "需求出現大幅躍升。",
-          "跳遠"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -880,6 +869,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "jump-reviewed-5e8c0afcec",
+      "title": "數值或程度突然明顯改變，尤其上升",
+      "form": "jump · source section 32",
+      "en": "數值或程度突然明顯改變，尤其上升",
+      "zh": "數值或程度突然明顯改變，尤其上升",
+      "note": "對照原始教材第 32 節及例句核實。",
+      "examples": [
+        [
+          "There was a sudden jump in temperature.",
+          "氣溫突然急升。",
+          "數值或程度突然明顯改變，尤其上升"
+        ],
+        [
+          "We saw a large jump in demand.",
+          "需求出現大幅躍升。",
+          "數值或程度突然明顯改變，尤其上升"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -891,11 +902,9 @@ export default {
       "masked": "The child ____ over the puddle.",
       "options": [
         "jump-mcq-01",
-        "jump-mcq-02",
-        "jump-mcq-03",
-        "jump-mcq-04",
-        "jump-mcq-05",
-        "jump-mcq-06"
+        "jump-mcq-17",
+        "jump-mcq-31",
+        "jump-pdf-002"
       ],
       "explanation": "本句的「jumped」指「跳；躍」。",
       "sentenceIndex": 0,
@@ -904,12 +913,10 @@ export default {
         "jumped"
       ],
       "optionReasons": {
-        "jump-mcq-01": "本句指「跳；躍」。",
-        "jump-mcq-02": "「跳過」是「jump over」的用法，與本句語境不同。",
-        "jump-mcq-03": "「跳進／跳出」是「jump into/out of」的用法，與本句語境不同。",
-        "jump-mcq-04": "「跳起／突然站起」是「jump up」的用法，與本句語境不同。",
-        "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。"
+        "jump-mcq-01": "本句的「jumped」指「跳；躍」。",
+        "jump-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "jump-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-01"
     },
@@ -921,11 +928,9 @@ export default {
       "masked": "He ____ as high as he could.",
       "options": [
         "jump-mcq-01",
-        "jump-mcq-02",
-        "jump-mcq-03",
-        "jump-mcq-04",
-        "jump-mcq-05",
-        "jump-mcq-06"
+        "jump-mcq-27",
+        "jump-mcq-28",
+        "jump-mcq-16"
       ],
       "explanation": "本句的「jumped」指「跳；躍」。",
       "sentenceIndex": 1,
@@ -934,12 +939,10 @@ export default {
         "jumped"
       ],
       "optionReasons": {
-        "jump-mcq-01": "本句指「跳；躍」。",
-        "jump-mcq-02": "「跳過」是「jump over」的用法，與本句語境不同。",
-        "jump-mcq-03": "「跳進／跳出」是「jump into/out of」的用法，與本句語境不同。",
-        "jump-mcq-04": "「跳起／突然站起」是「jump up」的用法，與本句語境不同。",
-        "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。"
+        "jump-mcq-01": "本句的「jumped」指「跳；躍」。",
+        "jump-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-01"
     },
@@ -951,11 +954,9 @@ export default {
       "masked": "She ____ from the wall.",
       "options": [
         "jump-mcq-01",
-        "jump-mcq-02",
-        "jump-mcq-03",
-        "jump-mcq-04",
-        "jump-mcq-05",
-        "jump-mcq-06"
+        "jump-mcq-32",
+        "jump-mcq-20",
+        "jump-mcq-31"
       ],
       "explanation": "本句的「jumped down」指「跳；躍」。",
       "sentenceIndex": 2,
@@ -964,12 +965,10 @@ export default {
         "jumped down"
       ],
       "optionReasons": {
-        "jump-mcq-01": "本句指「跳；躍」。",
-        "jump-mcq-02": "「跳過」是「jump over」的用法，與本句語境不同。",
-        "jump-mcq-03": "「跳進／跳出」是「jump into/out of」的用法，與本句語境不同。",
-        "jump-mcq-04": "「跳起／突然站起」是「jump up」的用法，與本句語境不同。",
-        "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。"
+        "jump-mcq-01": "本句的「jumped down」指「跳；躍」。",
+        "jump-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-01"
     },
@@ -981,11 +980,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "jump-mcq-02",
-        "jump-mcq-01",
-        "jump-mcq-03",
-        "jump-mcq-04",
-        "jump-mcq-05",
-        "jump-mcq-06"
+        "jump-mcq-32",
+        "jump-mcq-22",
+        "jump-mcq-36"
       ],
       "explanation": "本句的「jumped over the fence」指「跳過」。",
       "sentenceIndex": 3,
@@ -994,12 +991,10 @@ export default {
         "jumped over the fence"
       ],
       "optionReasons": {
-        "jump-mcq-02": "本句指「跳過」。",
-        "jump-mcq-01": "「跳；躍」是「jump」的用法，與本句語境不同。",
-        "jump-mcq-03": "「跳進／跳出」是「jump into/out of」的用法，與本句語境不同。",
-        "jump-mcq-04": "「跳起／突然站起」是「jump up」的用法，與本句語境不同。",
-        "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。"
+        "jump-mcq-02": "本句的「jumped over the fence」指「跳過」。",
+        "jump-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-02"
     },
@@ -1011,11 +1006,9 @@ export default {
       "masked": "The horse ____.",
       "options": [
         "jump-mcq-02",
-        "jump-mcq-01",
-        "jump-mcq-03",
-        "jump-mcq-04",
-        "jump-mcq-05",
-        "jump-mcq-06"
+        "jump-mcq-23",
+        "jump-mcq-32",
+        "jump-mcq-21"
       ],
       "explanation": "本句的「jumped over the barrier」指「跳過」。",
       "sentenceIndex": 4,
@@ -1024,12 +1017,10 @@ export default {
         "jumped over the barrier"
       ],
       "optionReasons": {
-        "jump-mcq-02": "本句指「跳過」。",
-        "jump-mcq-01": "「跳；躍」是「jump」的用法，與本句語境不同。",
-        "jump-mcq-03": "「跳進／跳出」是「jump into/out of」的用法，與本句語境不同。",
-        "jump-mcq-04": "「跳起／突然站起」是「jump up」的用法，與本句語境不同。",
-        "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。"
+        "jump-mcq-02": "本句的「jumped over the barrier」指「跳過」。",
+        "jump-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-02"
     },
@@ -1041,11 +1032,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "jump-mcq-03",
-        "jump-mcq-02",
-        "jump-mcq-04",
-        "jump-mcq-01",
-        "jump-mcq-05",
-        "jump-mcq-06"
+        "jump-mcq-16",
+        "jump-mcq-10",
+        "jump-reviewed-5e8c0afcec"
       ],
       "explanation": "本句的「jumped into the pool」指「跳進／跳出」。",
       "sentenceIndex": 5,
@@ -1054,12 +1043,10 @@ export default {
         "jumped into the pool"
       ],
       "optionReasons": {
-        "jump-mcq-03": "本句指「跳進／跳出」。",
-        "jump-mcq-02": "「跳過」是「jump over」的用法，與本句語境不同。",
-        "jump-mcq-04": "「跳起／突然站起」是「jump up」的用法，與本句語境不同。",
-        "jump-mcq-01": "「跳；躍」是「jump」的用法，與本句語境不同。",
-        "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。"
+        "jump-mcq-03": "本句的「jumped into the pool」指「跳進／跳出」。",
+        "jump-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "jump-reviewed-5e8c0afcec": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-03"
     },
@@ -1071,11 +1058,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "jump-mcq-03",
-        "jump-mcq-02",
-        "jump-mcq-04",
-        "jump-mcq-01",
-        "jump-mcq-05",
-        "jump-mcq-06"
+        "jump-pdf-002",
+        "jump-pdf-003",
+        "jump-mcq-19"
       ],
       "explanation": "本句的「jumped out of the car」指「跳進／跳出」。",
       "sentenceIndex": 6,
@@ -1084,12 +1069,10 @@ export default {
         "jumped out of the car"
       ],
       "optionReasons": {
-        "jump-mcq-03": "本句指「跳進／跳出」。",
-        "jump-mcq-02": "「跳過」是「jump over」的用法，與本句語境不同。",
-        "jump-mcq-04": "「跳起／突然站起」是「jump up」的用法，與本句語境不同。",
-        "jump-mcq-01": "「跳；躍」是「jump」的用法，與本句語境不同。",
-        "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。"
+        "jump-mcq-03": "本句的「jumped out of the car」指「跳進／跳出」。",
+        "jump-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "jump-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-03"
     },
@@ -1101,11 +1084,9 @@ export default {
       "masked": "He ____ when his name was called.",
       "options": [
         "jump-mcq-04",
-        "jump-mcq-03",
-        "jump-mcq-05",
-        "jump-mcq-02",
-        "jump-mcq-06",
-        "jump-mcq-01"
+        "jump-mcq-19",
+        "jump-mcq-34",
+        "jump-mcq-27"
       ],
       "explanation": "本句的「jumped up」指「跳起／突然站起」。",
       "sentenceIndex": 7,
@@ -1114,12 +1095,10 @@ export default {
         "jumped up"
       ],
       "optionReasons": {
-        "jump-mcq-04": "本句指「跳起／突然站起」。",
-        "jump-mcq-03": "「跳進／跳出」是「jump into/out of」的用法，與本句語境不同。",
-        "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。",
-        "jump-mcq-02": "「跳過」是「jump over」的用法，與本句語境不同。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。",
-        "jump-mcq-01": "「跳；躍」是「jump」的用法，與本句語境不同。"
+        "jump-mcq-04": "本句的「jumped up」指「跳起／突然站起」。",
+        "jump-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-04"
     },
@@ -1131,11 +1110,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "jump-mcq-04",
-        "jump-mcq-03",
-        "jump-mcq-05",
-        "jump-mcq-02",
-        "jump-mcq-06",
-        "jump-mcq-01"
+        "jump-mcq-16",
+        "jump-mcq-10",
+        "jump-mcq-21"
       ],
       "explanation": "本句的「jumped up from her seat」指「跳起／突然站起」。",
       "sentenceIndex": 8,
@@ -1144,12 +1121,10 @@ export default {
         "jumped up from her seat"
       ],
       "optionReasons": {
-        "jump-mcq-04": "本句指「跳起／突然站起」。",
-        "jump-mcq-03": "「跳進／跳出」是「jump into/out of」的用法，與本句語境不同。",
-        "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。",
-        "jump-mcq-02": "「跳過」是「jump over」的用法，與本句語境不同。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。",
-        "jump-mcq-01": "「跳；躍」是「jump」的用法，與本句語境不同。"
+        "jump-mcq-04": "本句的「jumped up from her seat」指「跳起／突然站起」。",
+        "jump-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-04"
     },
@@ -1161,11 +1136,9 @@ export default {
       "masked": "The loud noise made me ____.",
       "options": [
         "jump-mcq-33",
-        "jump-mcq-32",
-        "jump-mcq-34",
-        "jump-mcq-31",
-        "jump-mcq-35",
-        "jump-mcq-30"
+        "jump-mcq-20",
+        "jump-mcq-18",
+        "jump-mcq-15"
       ],
       "explanation": "本句的「jump」指「因突然聲音、動作或驚嚇而身體猛然一動」。",
       "sentenceIndex": 9,
@@ -1174,12 +1147,10 @@ export default {
         "jump"
       ],
       "optionReasons": {
-        "jump-mcq-33": "本句指「因突然聲音、動作或驚嚇而身體猛然一動」。",
-        "jump-mcq-32": "「搭電啟動／迅速推動」是「jump-start」的用法，與本句語境不同。",
-        "jump-mcq-34": "「沒有平順過渡地迅速轉到另一個主題、位置或狀態」是「8. jump from one thing to another — 突然由一件事轉到另一件事」的用法，與本句語境不同。",
-        "jump-mcq-31": "「汽車跨接線」是「jumper cables」的用法，與本句語境不同。",
-        "jump-mcq-35": "「突然或積極地加入談話、活動或正在進行的事情」是「17. jump in / jump into a conversation — 突然加入談話」的用法，與本句語境不同。",
-        "jump-mcq-30": "「跳躍者」是「jumper」的用法，與本句語境不同。"
+        "jump-mcq-33": "本句的「jump」指「因突然聲音、動作或驚嚇而身體猛然一動」。",
+        "jump-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-33"
     },
@@ -1191,11 +1162,9 @@ export default {
       "masked": "I ____ when someone touched my shoulder.",
       "options": [
         "jump-mcq-33",
-        "jump-mcq-32",
         "jump-mcq-34",
-        "jump-mcq-31",
-        "jump-mcq-35",
-        "jump-mcq-30"
+        "jump-mcq-14",
+        "jump-mcq-03"
       ],
       "explanation": "本句的「jumped」指「因突然聲音、動作或驚嚇而身體猛然一動」。",
       "sentenceIndex": 10,
@@ -1204,12 +1173,10 @@ export default {
         "jumped"
       ],
       "optionReasons": {
-        "jump-mcq-33": "本句指「因突然聲音、動作或驚嚇而身體猛然一動」。",
-        "jump-mcq-32": "「搭電啟動／迅速推動」是「jump-start」的用法，與本句語境不同。",
-        "jump-mcq-34": "「沒有平順過渡地迅速轉到另一個主題、位置或狀態」是「8. jump from one thing to another — 突然由一件事轉到另一件事」的用法，與本句語境不同。",
-        "jump-mcq-31": "「汽車跨接線」是「jumper cables」的用法，與本句語境不同。",
-        "jump-mcq-35": "「突然或積極地加入談話、活動或正在進行的事情」是「17. jump in / jump into a conversation — 突然加入談話」的用法，與本句語境不同。",
-        "jump-mcq-30": "「跳躍者」是「jumper」的用法，與本句語境不同。"
+        "jump-mcq-33": "本句的「jumped」指「因突然聲音、動作或驚嚇而身體猛然一動」。",
+        "jump-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-33"
     },
@@ -1221,11 +1188,9 @@ export default {
       "masked": "You ____!",
       "options": [
         "jump-mcq-06",
-        "jump-mcq-05",
-        "jump-mcq-07",
-        "jump-mcq-04",
-        "jump-mcq-08",
-        "jump-mcq-03"
+        "jump-pdf-001",
+        "jump-mcq-09",
+        "jump-mcq-29"
       ],
       "explanation": "本句的「made me jump」指「嚇某人一跳」。",
       "sentenceIndex": 11,
@@ -1234,12 +1199,10 @@ export default {
         "made me jump"
       ],
       "optionReasons": {
-        "jump-mcq-06": "本句指「嚇某人一跳」。",
-        "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。",
-        "jump-mcq-07": "「由 X 突然轉到 Y」是「jump from X to Y」的用法，與本句語境不同。",
-        "jump-mcq-04": "「跳起／突然站起」是「jump up」的用法，與本句語境不同。",
-        "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。",
-        "jump-mcq-03": "「跳進／跳出」是「jump into/out of」的用法，與本句語境不同。"
+        "jump-mcq-06": "本句的「made me jump」指「嚇某人一跳」。",
+        "jump-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-06"
     },
@@ -1251,11 +1214,9 @@ export default {
       "masked": "The alarm ____.",
       "options": [
         "jump-mcq-06",
-        "jump-mcq-05",
         "jump-mcq-07",
-        "jump-mcq-04",
-        "jump-mcq-08",
-        "jump-mcq-03"
+        "jump-mcq-20",
+        "jump-mcq-18"
       ],
       "explanation": "本句的「made everyone jump」指「嚇某人一跳」。",
       "sentenceIndex": 12,
@@ -1264,12 +1225,10 @@ export default {
         "made everyone jump"
       ],
       "optionReasons": {
-        "jump-mcq-06": "本句指「嚇某人一跳」。",
-        "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。",
-        "jump-mcq-07": "「由 X 突然轉到 Y」是「jump from X to Y」的用法，與本句語境不同。",
-        "jump-mcq-04": "「跳起／突然站起」是「jump up」的用法，與本句語境不同。",
-        "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。",
-        "jump-mcq-03": "「跳進／跳出」是「jump into/out of」的用法，與本句語境不同。"
+        "jump-mcq-06": "本句的「made everyone jump」指「嚇某人一跳」。",
+        "jump-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-06"
     },
@@ -1281,11 +1240,9 @@ export default {
       "masked": "He ____ to avoid the bicycle.",
       "options": [
         "jump-pdf-001",
-        "jump-mcq-06",
-        "jump-mcq-08",
-        "jump-mcq-05",
-        "jump-mcq-09",
-        "jump-mcq-04"
+        "jump-mcq-21",
+        "jump-mcq-31",
+        "jump-mcq-15"
       ],
       "explanation": "本句的「jumped aside」指「非常快速而突然地移動到另一位置」。",
       "sentenceIndex": 13,
@@ -1294,12 +1251,10 @@ export default {
         "jumped aside"
       ],
       "optionReasons": {
-        "jump-pdf-001": "本句指「非常快速而突然地移動到另一位置」。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。",
-        "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。",
-        "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。",
-        "jump-mcq-09": "「妄下結論；太快判斷」是「jump to conclusions」的用法，與本句語境不同。",
-        "jump-mcq-04": "「跳起／突然站起」是「jump up」的用法，與本句語境不同。"
+        "jump-pdf-001": "本句的「jumped aside」指「非常快速而突然地移動到另一位置」。",
+        "jump-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-pdf-001"
     },
@@ -1311,11 +1266,9 @@ export default {
       "masked": "She ____ when the door opened suddenly.",
       "options": [
         "jump-pdf-001",
-        "jump-mcq-06",
-        "jump-mcq-08",
-        "jump-mcq-05",
-        "jump-mcq-09",
-        "jump-mcq-04"
+        "jump-mcq-03",
+        "jump-mcq-16",
+        "jump-mcq-17"
       ],
       "explanation": "本句的「jumped back」指「非常快速而突然地移動到另一位置」。",
       "sentenceIndex": 14,
@@ -1324,12 +1277,10 @@ export default {
         "jumped back"
       ],
       "optionReasons": {
-        "jump-pdf-001": "本句指「非常快速而突然地移動到另一位置」。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。",
-        "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。",
-        "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。",
-        "jump-mcq-09": "「妄下結論；太快判斷」是「jump to conclusions」的用法，與本句語境不同。",
-        "jump-mcq-04": "「跳起／突然站起」是「jump up」的用法，與本句語境不同。"
+        "jump-pdf-001": "本句的「jumped back」指「非常快速而突然地移動到另一位置」。",
+        "jump-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-pdf-001"
     },
@@ -1341,11 +1292,9 @@ export default {
       "masked": "He kept ____.",
       "options": [
         "jump-mcq-34",
-        "jump-mcq-33",
-        "jump-mcq-35",
-        "jump-mcq-32",
-        "jump-mcq-36",
-        "jump-mcq-31"
+        "jump-pdf-003",
+        "jump-mcq-25",
+        "jump-mcq-27"
       ],
       "explanation": "本句的「jumping from one topic to another」指「沒有平順過渡地迅速轉到另一個主題、位置或狀態」。",
       "sentenceIndex": 15,
@@ -1354,12 +1303,10 @@ export default {
         "jumping from one topic to another"
       ],
       "optionReasons": {
-        "jump-mcq-34": "本句指「沒有平順過渡地迅速轉到另一個主題、位置或狀態」。",
-        "jump-mcq-33": "「因突然聲音、動作或驚嚇而身體猛然一動」是「5. jump（因驚嚇而猛然一震） — 嚇得一震；突然一跳」的用法，與本句語境不同。",
-        "jump-mcq-35": "「突然或積極地加入談話、活動或正在進行的事情」是「17. jump in / jump into a conversation — 突然加入談話」的用法，與本句語境不同。",
-        "jump-mcq-32": "「搭電啟動／迅速推動」是「jump-start」的用法，與本句語境不同。",
-        "jump-mcq-36": "「因突然受驚而出現的短暫驚嚇反應」是「33. give someone a jump / get a jump — 嚇一跳」的用法，與本句語境不同。",
-        "jump-mcq-31": "「汽車跨接線」是「jumper cables」的用法，與本句語境不同。"
+        "jump-mcq-34": "本句的「jumping from one topic to another」指「沒有平順過渡地迅速轉到另一個主題、位置或狀態」。",
+        "jump-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-34"
     },
@@ -1371,11 +1318,9 @@ export default {
       "masked": "The story ____.",
       "options": [
         "jump-mcq-34",
-        "jump-mcq-33",
-        "jump-mcq-35",
-        "jump-mcq-32",
-        "jump-mcq-36",
-        "jump-mcq-31"
+        "jump-mcq-29",
+        "jump-mcq-11",
+        "jump-mcq-22"
       ],
       "explanation": "本句的「jumps between different time periods」指「沒有平順過渡地迅速轉到另一個主題、位置或狀態」。",
       "sentenceIndex": 16,
@@ -1384,12 +1329,10 @@ export default {
         "jumps between different time periods"
       ],
       "optionReasons": {
-        "jump-mcq-34": "本句指「沒有平順過渡地迅速轉到另一個主題、位置或狀態」。",
-        "jump-mcq-33": "「因突然聲音、動作或驚嚇而身體猛然一動」是「5. jump（因驚嚇而猛然一震） — 嚇得一震；突然一跳」的用法，與本句語境不同。",
-        "jump-mcq-35": "「突然或積極地加入談話、活動或正在進行的事情」是「17. jump in / jump into a conversation — 突然加入談話」的用法，與本句語境不同。",
-        "jump-mcq-32": "「搭電啟動／迅速推動」是「jump-start」的用法，與本句語境不同。",
-        "jump-mcq-36": "「因突然受驚而出現的短暫驚嚇反應」是「33. give someone a jump / get a jump — 嚇一跳」的用法，與本句語境不同。",
-        "jump-mcq-31": "「汽車跨接線」是「jumper cables」的用法，與本句語境不同。"
+        "jump-mcq-34": "本句的「jumps between different time periods」指「沒有平順過渡地迅速轉到另一個主題、位置或狀態」。",
+        "jump-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-34"
     },
@@ -1401,11 +1344,9 @@ export default {
       "masked": "Let's ____.",
       "options": [
         "jump-mcq-08",
-        "jump-mcq-07",
-        "jump-mcq-09",
-        "jump-mcq-06",
-        "jump-mcq-10",
-        "jump-mcq-05"
+        "jump-mcq-19",
+        "jump-mcq-23",
+        "jump-mcq-27"
       ],
       "explanation": "本句的「jump ahead to the final section」指「跳到後面／提前」。",
       "sentenceIndex": 17,
@@ -1414,12 +1355,10 @@ export default {
         "jump ahead to the final section"
       ],
       "optionReasons": {
-        "jump-mcq-08": "本句指「跳到後面／提前」。",
-        "jump-mcq-07": "「由 X 突然轉到 Y」是「jump from X to Y」的用法，與本句語境不同。",
-        "jump-mcq-09": "「妄下結論；太快判斷」是「jump to conclusions」的用法，與本句語境不同。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。",
-        "jump-mcq-10": "「立即抓住機會」是「jump at the chance」的用法，與本句語境不同。",
-        "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。"
+        "jump-mcq-08": "本句的「jump ahead to the final section」指「跳到後面／提前」。",
+        "jump-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-08"
     },
@@ -1431,11 +1370,9 @@ export default {
       "masked": "Don't ____ before reading the instructions.",
       "options": [
         "jump-mcq-08",
-        "jump-mcq-07",
-        "jump-mcq-09",
-        "jump-mcq-06",
-        "jump-mcq-10",
-        "jump-mcq-05"
+        "jump-mcq-23",
+        "jump-mcq-15",
+        "jump-mcq-34"
       ],
       "explanation": "本句的「jump ahead」指「跳到後面／提前」。",
       "sentenceIndex": 18,
@@ -1444,12 +1381,10 @@ export default {
         "jump ahead"
       ],
       "optionReasons": {
-        "jump-mcq-08": "本句指「跳到後面／提前」。",
-        "jump-mcq-07": "「由 X 突然轉到 Y」是「jump from X to Y」的用法，與本句語境不同。",
-        "jump-mcq-09": "「妄下結論；太快判斷」是「jump to conclusions」的用法，與本句語境不同。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。",
-        "jump-mcq-10": "「立即抓住機會」是「jump at the chance」的用法，與本句語境不同。",
-        "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。"
+        "jump-mcq-08": "本句的「jump ahead」指「跳到後面／提前」。",
+        "jump-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-08"
     },
@@ -1461,11 +1396,9 @@ export default {
       "masked": "He admitted that he had ____.",
       "options": [
         "jump-mcq-09",
-        "jump-mcq-08",
-        "jump-mcq-10",
-        "jump-mcq-07",
-        "jump-mcq-11",
-        "jump-mcq-06"
+        "jump-mcq-25",
+        "jump-reviewed-5e8c0afcec",
+        "jump-mcq-10"
       ],
       "explanation": "本句的「jumped to conclusions」指「妄下結論；太快判斷」。",
       "sentenceIndex": 19,
@@ -1474,12 +1407,10 @@ export default {
         "jumped to conclusions"
       ],
       "optionReasons": {
-        "jump-mcq-09": "本句指「妄下結論；太快判斷」。",
-        "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。",
-        "jump-mcq-10": "「立即抓住機會」是「jump at the chance」的用法，與本句語境不同。",
-        "jump-mcq-07": "「由 X 突然轉到 Y」是「jump from X to Y」的用法，與本句語境不同。",
-        "jump-mcq-11": "「高興得跳起來」是「jump for joy」的用法，與本句語境不同。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。"
+        "jump-mcq-09": "本句的「jumped to conclusions」指「妄下結論；太快判斷」。",
+        "jump-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "jump-reviewed-5e8c0afcec": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-09"
     },
@@ -1491,10 +1422,8 @@ export default {
       "masked": "Don't ____ before hearing both sides.",
       "options": [
         "jump-mcq-09",
-        "jump-mcq-08",
-        "jump-mcq-10",
-        "jump-mcq-07",
-        "jump-mcq-11",
+        "jump-mcq-28",
+        "jump-mcq-12",
         "jump-mcq-06"
       ],
       "explanation": "本句的「jump to conclusions」指「妄下結論；太快判斷」。",
@@ -1504,12 +1433,10 @@ export default {
         "jump to conclusions"
       ],
       "optionReasons": {
-        "jump-mcq-09": "本句指「妄下結論；太快判斷」。",
-        "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。",
-        "jump-mcq-10": "「立即抓住機會」是「jump at the chance」的用法，與本句語境不同。",
-        "jump-mcq-07": "「由 X 突然轉到 Y」是「jump from X to Y」的用法，與本句語境不同。",
-        "jump-mcq-11": "「高興得跳起來」是「jump for joy」的用法，與本句語境不同。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。"
+        "jump-mcq-09": "本句的「jump to conclusions」指「妄下結論；太快判斷」。",
+        "jump-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-09"
     },
@@ -1521,11 +1448,9 @@ export default {
       "masked": "I saw the empty desk and ____ that he had left.",
       "options": [
         "jump-mcq-09",
-        "jump-mcq-08",
-        "jump-mcq-10",
-        "jump-mcq-07",
-        "jump-mcq-11",
-        "jump-mcq-06"
+        "jump-mcq-04",
+        "jump-mcq-15",
+        "jump-mcq-16"
       ],
       "explanation": "本句的「jumped to the conclusion」指「妄下結論；太快判斷」。",
       "sentenceIndex": 21,
@@ -1534,12 +1459,10 @@ export default {
         "jumped to the conclusion"
       ],
       "optionReasons": {
-        "jump-mcq-09": "本句指「妄下結論；太快判斷」。",
-        "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。",
-        "jump-mcq-10": "「立即抓住機會」是「jump at the chance」的用法，與本句語境不同。",
-        "jump-mcq-07": "「由 X 突然轉到 Y」是「jump from X to Y」的用法，與本句語境不同。",
-        "jump-mcq-11": "「高興得跳起來」是「jump for joy」的用法，與本句語境不同。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。"
+        "jump-mcq-09": "本句的「jumped to the conclusion」指「妄下結論；太快判斷」。",
+        "jump-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-09"
     },
@@ -1551,11 +1474,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "jump-pdf-002",
-        "jump-mcq-08",
-        "jump-mcq-10",
-        "jump-mcq-07",
-        "jump-mcq-11",
-        "jump-mcq-06"
+        "jump-mcq-16",
+        "jump-mcq-04",
+        "jump-mcq-28"
       ],
       "explanation": "本句的「jumped to the conclusion that I was angry」指「在證據不足時快速認定某件事是真的」。",
       "sentenceIndex": 22,
@@ -1564,12 +1485,10 @@ export default {
         "jumped to the conclusion that I was angry"
       ],
       "optionReasons": {
-        "jump-pdf-002": "本句指「在證據不足時快速認定某件事是真的」。",
-        "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。",
-        "jump-mcq-10": "「立即抓住機會」是「jump at the chance」的用法，與本句語境不同。",
-        "jump-mcq-07": "「由 X 突然轉到 Y」是「jump from X to Y」的用法，與本句語境不同。",
-        "jump-mcq-11": "「高興得跳起來」是「jump for joy」的用法，與本句語境不同。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。"
+        "jump-pdf-002": "本句的「jumped to the conclusion that I was angry」指「在證據不足時快速認定某件事是真的」。",
+        "jump-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-pdf-002"
     },
@@ -1581,11 +1500,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "jump-pdf-002",
-        "jump-mcq-08",
-        "jump-mcq-10",
-        "jump-mcq-07",
-        "jump-mcq-11",
-        "jump-mcq-06"
+        "jump-mcq-24",
+        "jump-mcq-14",
+        "jump-mcq-29"
       ],
       "explanation": "本句的「jump to the conclusion that the project has failed」指「在證據不足時快速認定某件事是真的」。",
       "sentenceIndex": 23,
@@ -1594,12 +1511,10 @@ export default {
         "jump to the conclusion that the project has failed"
       ],
       "optionReasons": {
-        "jump-pdf-002": "本句指「在證據不足時快速認定某件事是真的」。",
-        "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。",
-        "jump-mcq-10": "「立即抓住機會」是「jump at the chance」的用法，與本句語境不同。",
-        "jump-mcq-07": "「由 X 突然轉到 Y」是「jump from X to Y」的用法，與本句語境不同。",
-        "jump-mcq-11": "「高興得跳起來」是「jump for joy」的用法，與本句語境不同。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。"
+        "jump-pdf-002": "本句的「jump to the conclusion that the project has failed」指「在證據不足時快速認定某件事是真的」。",
+        "jump-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-pdf-002"
     },
@@ -1611,11 +1526,9 @@ export default {
       "masked": "I would ____ to work abroad.",
       "options": [
         "jump-mcq-10",
-        "jump-mcq-09",
-        "jump-mcq-11",
-        "jump-mcq-08",
-        "jump-mcq-12",
-        "jump-mcq-07"
+        "jump-mcq-14",
+        "jump-mcq-27",
+        "jump-mcq-04"
       ],
       "explanation": "本句的「jump at the chance」指「立即抓住機會」。",
       "sentenceIndex": 24,
@@ -1624,12 +1537,10 @@ export default {
         "jump at the chance"
       ],
       "optionReasons": {
-        "jump-mcq-10": "本句指「立即抓住機會」。",
-        "jump-mcq-09": "「妄下結論；太快判斷」是「jump to conclusions」的用法，與本句語境不同。",
-        "jump-mcq-11": "「高興得跳起來」是「jump for joy」的用法，與本句語境不同。",
-        "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。",
-        "jump-mcq-12": "「價格急升」是「prices jump」的用法，與本句語境不同。",
-        "jump-mcq-07": "「由 X 突然轉到 Y」是「jump from X to Y」的用法，與本句語境不同。"
+        "jump-mcq-10": "本句的「jump at the chance」指「立即抓住機會」。",
+        "jump-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-10"
     },
@@ -1641,11 +1552,9 @@ export default {
       "masked": "She ____ to join the project.",
       "options": [
         "jump-mcq-10",
-        "jump-mcq-09",
-        "jump-mcq-11",
-        "jump-mcq-08",
-        "jump-mcq-12",
-        "jump-mcq-07"
+        "jump-mcq-14",
+        "jump-mcq-07",
+        "jump-mcq-23"
       ],
       "explanation": "本句的「jumped at the opportunity」指「立即抓住機會」。",
       "sentenceIndex": 25,
@@ -1654,12 +1563,10 @@ export default {
         "jumped at the opportunity"
       ],
       "optionReasons": {
-        "jump-mcq-10": "本句指「立即抓住機會」。",
-        "jump-mcq-09": "「妄下結論；太快判斷」是「jump to conclusions」的用法，與本句語境不同。",
-        "jump-mcq-11": "「高興得跳起來」是「jump for joy」的用法，與本句語境不同。",
-        "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。",
-        "jump-mcq-12": "「價格急升」是「prices jump」的用法，與本句語境不同。",
-        "jump-mcq-07": "「由 X 突然轉到 Y」是「jump from X to Y」的用法，與本句語境不同。"
+        "jump-mcq-10": "本句的「jumped at the opportunity」指「立即抓住機會」。",
+        "jump-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-10"
     },
@@ -1671,11 +1578,9 @@ export default {
       "masked": "She ____ when she heard the news.",
       "options": [
         "jump-mcq-11",
-        "jump-mcq-10",
-        "jump-mcq-12",
-        "jump-mcq-09",
-        "jump-mcq-13",
-        "jump-mcq-08"
+        "jump-reviewed-5e8c0afcec",
+        "jump-mcq-29",
+        "jump-mcq-17"
       ],
       "explanation": "本句的「jumped for joy」指「高興得跳起來」。",
       "sentenceIndex": 26,
@@ -1684,12 +1589,10 @@ export default {
         "jumped for joy"
       ],
       "optionReasons": {
-        "jump-mcq-11": "本句指「高興得跳起來」。",
-        "jump-mcq-10": "「立即抓住機會」是「jump at the chance」的用法，與本句語境不同。",
-        "jump-mcq-12": "「價格急升」是「prices jump」的用法，與本句語境不同。",
-        "jump-mcq-09": "「妄下結論；太快判斷」是「jump to conclusions」的用法，與本句語境不同。",
-        "jump-mcq-13": "「銷售急升」是「a jump in sales」的用法，與本句語境不同。",
-        "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。"
+        "jump-mcq-11": "本句的「jumped for joy」指「高興得跳起來」。",
+        "jump-reviewed-5e8c0afcec": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-11"
     },
@@ -1701,11 +1604,9 @@ export default {
       "masked": "I wasn't exactly ____ about the extra work.",
       "options": [
         "jump-mcq-11",
-        "jump-mcq-10",
-        "jump-mcq-12",
-        "jump-mcq-09",
-        "jump-mcq-13",
-        "jump-mcq-08"
+        "jump-mcq-16",
+        "jump-mcq-32",
+        "jump-mcq-18"
       ],
       "explanation": "本句的「jumping for joy」指「高興得跳起來」。",
       "sentenceIndex": 27,
@@ -1714,12 +1615,10 @@ export default {
         "jumping for joy"
       ],
       "optionReasons": {
-        "jump-mcq-11": "本句指「高興得跳起來」。",
-        "jump-mcq-10": "「立即抓住機會」是「jump at the chance」的用法，與本句語境不同。",
-        "jump-mcq-12": "「價格急升」是「prices jump」的用法，與本句語境不同。",
-        "jump-mcq-09": "「妄下結論；太快判斷」是「jump to conclusions」的用法，與本句語境不同。",
-        "jump-mcq-13": "「銷售急升」是「a jump in sales」的用法，與本句語境不同。",
-        "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。"
+        "jump-mcq-11": "本句的「jumping for joy」指「高興得跳起來」。",
+        "jump-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-11"
     },
@@ -1731,11 +1630,9 @@ export default {
       "masked": "Prices ____ by 15%.",
       "options": [
         "jump-mcq-12",
-        "jump-mcq-11",
-        "jump-mcq-13",
-        "jump-mcq-10",
-        "jump-mcq-14",
-        "jump-mcq-09"
+        "jump-mcq-31",
+        "jump-pdf-003",
+        "jump-mcq-25"
       ],
       "explanation": "本句的「jumped」指「價格急升」。",
       "sentenceIndex": 28,
@@ -1744,12 +1641,10 @@ export default {
         "jumped"
       ],
       "optionReasons": {
-        "jump-mcq-12": "本句指「價格急升」。",
-        "jump-mcq-11": "「高興得跳起來」是「jump for joy」的用法，與本句語境不同。",
-        "jump-mcq-13": "「銷售急升」是「a jump in sales」的用法，與本句語境不同。",
-        "jump-mcq-10": "「立即抓住機會」是「jump at the chance」的用法，與本句語境不同。",
-        "jump-mcq-14": "「插入／介入／加入」是「jump in」的用法，與本句語境不同。",
-        "jump-mcq-09": "「妄下結論；太快判斷」是「jump to conclusions」的用法，與本句語境不同。"
+        "jump-mcq-12": "本句的「jumped」指「價格急升」。",
+        "jump-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "jump-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-12"
     },
@@ -1761,11 +1656,9 @@ export default {
       "masked": "Attendance ____ after the announcement.",
       "options": [
         "jump-mcq-12",
-        "jump-mcq-11",
-        "jump-mcq-13",
-        "jump-mcq-10",
-        "jump-mcq-14",
-        "jump-mcq-09"
+        "jump-mcq-29",
+        "jump-mcq-23",
+        "jump-mcq-16"
       ],
       "explanation": "本句的「jumped」指「價格急升」。",
       "sentenceIndex": 29,
@@ -1774,12 +1667,10 @@ export default {
         "jumped"
       ],
       "optionReasons": {
-        "jump-mcq-12": "本句指「價格急升」。",
-        "jump-mcq-11": "「高興得跳起來」是「jump for joy」的用法，與本句語境不同。",
-        "jump-mcq-13": "「銷售急升」是「a jump in sales」的用法，與本句語境不同。",
-        "jump-mcq-10": "「立即抓住機會」是「jump at the chance」的用法，與本句語境不同。",
-        "jump-mcq-14": "「插入／介入／加入」是「jump in」的用法，與本句語境不同。",
-        "jump-mcq-09": "「妄下結論；太快判斷」是「jump to conclusions」的用法，與本句語境不同。"
+        "jump-mcq-12": "本句的「jumped」指「價格急升」。",
+        "jump-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-12"
     },
@@ -1791,11 +1682,9 @@ export default {
       "masked": "There was a sharp ____.",
       "options": [
         "jump-pdf-003",
-        "jump-mcq-12",
-        "jump-mcq-14",
         "jump-mcq-11",
-        "jump-mcq-15",
-        "jump-mcq-10"
+        "jump-mcq-19",
+        "jump-mcq-31"
       ],
       "explanation": "本句的「jump in prices」指「X 在短時間內突然明顯增加」。",
       "sentenceIndex": 30,
@@ -1804,12 +1693,10 @@ export default {
         "jump in prices"
       ],
       "optionReasons": {
-        "jump-pdf-003": "本句指「X 在短時間內突然明顯增加」。",
-        "jump-mcq-12": "「價格急升」是「prices jump」的用法，與本句語境不同。",
-        "jump-mcq-14": "「插入／介入／加入」是「jump in」的用法，與本句語境不同。",
-        "jump-mcq-11": "「高興得跳起來」是「jump for joy」的用法，與本句語境不同。",
-        "jump-mcq-15": "「立即責難某人」是「jump on someone」的用法，與本句語境不同。",
-        "jump-mcq-10": "「立即抓住機會」是「jump at the chance」的用法，與本句語境不同。"
+        "jump-pdf-003": "本句的「jump in prices」指「X 在短時間內突然明顯增加」。",
+        "jump-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-pdf-003"
     },
@@ -1821,11 +1708,9 @@ export default {
       "masked": "The company reported a ____.",
       "options": [
         "jump-pdf-003",
+        "jump-mcq-20",
         "jump-mcq-12",
-        "jump-mcq-14",
-        "jump-mcq-11",
-        "jump-mcq-15",
-        "jump-mcq-10"
+        "jump-mcq-15"
       ],
       "explanation": "本句的「jump in sales」指「X 在短時間內突然明顯增加」。",
       "sentenceIndex": 31,
@@ -1834,12 +1719,10 @@ export default {
         "jump in sales"
       ],
       "optionReasons": {
-        "jump-pdf-003": "本句指「X 在短時間內突然明顯增加」。",
-        "jump-mcq-12": "「價格急升」是「prices jump」的用法，與本句語境不同。",
-        "jump-mcq-14": "「插入／介入／加入」是「jump in」的用法，與本句語境不同。",
-        "jump-mcq-11": "「高興得跳起來」是「jump for joy」的用法，與本句語境不同。",
-        "jump-mcq-15": "「立即責難某人」是「jump on someone」的用法，與本句語境不同。",
-        "jump-mcq-10": "「立即抓住機會」是「jump at the chance」的用法，與本句語境不同。"
+        "jump-pdf-003": "本句的「jump in sales」指「X 在短時間內突然明顯增加」。",
+        "jump-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-pdf-003"
     },
@@ -1851,11 +1734,9 @@ export default {
       "masked": "The price ____.",
       "options": [
         "jump-mcq-07",
-        "jump-mcq-06",
-        "jump-mcq-08",
-        "jump-mcq-05",
-        "jump-mcq-09",
-        "jump-mcq-04"
+        "jump-mcq-31",
+        "jump-mcq-24",
+        "jump-mcq-19"
       ],
       "explanation": "本句的「jumped from $20 to $35」指「由 X 突然轉到 Y」。",
       "sentenceIndex": 32,
@@ -1864,12 +1745,10 @@ export default {
         "jumped from $20 to $35"
       ],
       "optionReasons": {
-        "jump-mcq-07": "本句指「由 X 突然轉到 Y」。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。",
-        "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。",
-        "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。",
-        "jump-mcq-09": "「妄下結論；太快判斷」是「jump to conclusions」的用法，與本句語境不同。",
-        "jump-mcq-04": "「跳起／突然站起」是「jump up」的用法，與本句語境不同。"
+        "jump-mcq-07": "本句的「jumped from $20 to $35」指「由 X 突然轉到 Y」。",
+        "jump-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-07"
     },
@@ -1881,11 +1760,9 @@ export default {
       "masked": "Membership ____.",
       "options": [
         "jump-mcq-07",
-        "jump-mcq-06",
-        "jump-mcq-08",
-        "jump-mcq-05",
-        "jump-mcq-09",
-        "jump-mcq-04"
+        "jump-mcq-31",
+        "jump-mcq-18",
+        "jump-mcq-27"
       ],
       "explanation": "本句的「jumped from 500 to 800」指「由 X 突然轉到 Y」。",
       "sentenceIndex": 33,
@@ -1894,12 +1771,10 @@ export default {
         "jumped from 500 to 800"
       ],
       "optionReasons": {
-        "jump-mcq-07": "本句指「由 X 突然轉到 Y」。",
-        "jump-mcq-06": "「嚇某人一跳」是「make someone jump」的用法，與本句語境不同。",
-        "jump-mcq-08": "「跳到後面／提前」是「jump ahead」的用法，與本句語境不同。",
-        "jump-mcq-05": "「嚇得一震」是「jump (startle)」的用法，與本句語境不同。",
-        "jump-mcq-09": "「妄下結論；太快判斷」是「jump to conclusions」的用法，與本句語境不同。",
-        "jump-mcq-04": "「跳起／突然站起」是「jump up」的用法，與本句語境不同。"
+        "jump-mcq-07": "本句的「jumped from 500 to 800」指「由 X 突然轉到 Y」。",
+        "jump-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-07"
     },
@@ -1911,11 +1786,9 @@ export default {
       "masked": "Kevin ____.",
       "options": [
         "jump-mcq-35",
-        "jump-mcq-34",
-        "jump-mcq-36",
-        "jump-mcq-33",
-        "jump-mcq-32",
-        "jump-mcq-31"
+        "jump-mcq-23",
+        "jump-mcq-15",
+        "jump-mcq-25"
       ],
       "explanation": "本句的「jumped into the conversation」指「突然或積極地加入談話、活動或正在進行的事情」。",
       "sentenceIndex": 34,
@@ -1924,12 +1797,10 @@ export default {
         "jumped into the conversation"
       ],
       "optionReasons": {
-        "jump-mcq-35": "本句指「突然或積極地加入談話、活動或正在進行的事情」。",
-        "jump-mcq-34": "「沒有平順過渡地迅速轉到另一個主題、位置或狀態」是「8. jump from one thing to another — 突然由一件事轉到另一件事」的用法，與本句語境不同。",
-        "jump-mcq-36": "「因突然受驚而出現的短暫驚嚇反應」是「33. give someone a jump / get a jump — 嚇一跳」的用法，與本句語境不同。",
-        "jump-mcq-33": "「因突然聲音、動作或驚嚇而身體猛然一動」是「5. jump（因驚嚇而猛然一震） — 嚇得一震；突然一跳」的用法，與本句語境不同。",
-        "jump-mcq-32": "「搭電啟動／迅速推動」是「jump-start」的用法，與本句語境不同。",
-        "jump-mcq-31": "「汽車跨接線」是「jumper cables」的用法，與本句語境不同。"
+        "jump-mcq-35": "本句的「jumped into the conversation」指「突然或積極地加入談話、活動或正在進行的事情」。",
+        "jump-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-35"
     },
@@ -1941,11 +1812,9 @@ export default {
       "masked": "Feel free to ____ if you have an idea.",
       "options": [
         "jump-mcq-35",
-        "jump-mcq-34",
-        "jump-mcq-36",
-        "jump-mcq-33",
-        "jump-mcq-32",
-        "jump-mcq-31"
+        "jump-mcq-23",
+        "jump-mcq-27",
+        "jump-mcq-09"
       ],
       "explanation": "本句的「jump in」指「突然或積極地加入談話、活動或正在進行的事情」。",
       "sentenceIndex": 35,
@@ -1954,12 +1823,10 @@ export default {
         "jump in"
       ],
       "optionReasons": {
-        "jump-mcq-35": "本句指「突然或積極地加入談話、活動或正在進行的事情」。",
-        "jump-mcq-34": "「沒有平順過渡地迅速轉到另一個主題、位置或狀態」是「8. jump from one thing to another — 突然由一件事轉到另一件事」的用法，與本句語境不同。",
-        "jump-mcq-36": "「因突然受驚而出現的短暫驚嚇反應」是「33. give someone a jump / get a jump — 嚇一跳」的用法，與本句語境不同。",
-        "jump-mcq-33": "「因突然聲音、動作或驚嚇而身體猛然一動」是「5. jump（因驚嚇而猛然一震） — 嚇得一震；突然一跳」的用法，與本句語境不同。",
-        "jump-mcq-32": "「搭電啟動／迅速推動」是「jump-start」的用法，與本句語境不同。",
-        "jump-mcq-31": "「汽車跨接線」是「jumper cables」的用法，與本句語境不同。"
+        "jump-mcq-35": "本句的「jump in」指「突然或積極地加入談話、活動或正在進行的事情」。",
+        "jump-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-35"
     },
@@ -1971,11 +1838,9 @@ export default {
       "masked": "She ____ to help when the discussion became confusing.",
       "options": [
         "jump-mcq-14",
-        "jump-mcq-13",
-        "jump-mcq-15",
-        "jump-mcq-12",
         "jump-mcq-16",
-        "jump-mcq-11"
+        "jump-mcq-19",
+        "jump-pdf-002"
       ],
       "explanation": "本句的「jumped in」指「插入／介入／加入」。",
       "sentenceIndex": 36,
@@ -1984,12 +1849,10 @@ export default {
         "jumped in"
       ],
       "optionReasons": {
-        "jump-mcq-14": "本句指「插入／介入／加入」。",
-        "jump-mcq-13": "「銷售急升」是「a jump in sales」的用法，與本句語境不同。",
-        "jump-mcq-15": "「立即責難某人」是「jump on someone」的用法，與本句語境不同。",
-        "jump-mcq-12": "「價格急升」是「prices jump」的用法，與本句語境不同。",
-        "jump-mcq-16": "「猛烈責罵」是「jump down someone's throat」的用法，與本句語境不同。",
-        "jump-mcq-11": "「高興得跳起來」是「jump for joy」的用法，與本句語境不同。"
+        "jump-mcq-14": "本句的「jumped in」指「插入／介入／加入」。",
+        "jump-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "jump-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-14"
     },
@@ -2001,11 +1864,9 @@ export default {
       "masked": "The manager ____ before the argument got worse.",
       "options": [
         "jump-mcq-14",
-        "jump-mcq-13",
-        "jump-mcq-15",
-        "jump-mcq-12",
-        "jump-mcq-16",
-        "jump-mcq-11"
+        "jump-mcq-11",
+        "jump-mcq-21",
+        "jump-pdf-002"
       ],
       "explanation": "本句的「jumped in」指「插入／介入／加入」。",
       "sentenceIndex": 37,
@@ -2014,12 +1875,10 @@ export default {
         "jumped in"
       ],
       "optionReasons": {
-        "jump-mcq-14": "本句指「插入／介入／加入」。",
-        "jump-mcq-13": "「銷售急升」是「a jump in sales」的用法，與本句語境不同。",
-        "jump-mcq-15": "「立即責難某人」是「jump on someone」的用法，與本句語境不同。",
-        "jump-mcq-12": "「價格急升」是「prices jump」的用法，與本句語境不同。",
-        "jump-mcq-16": "「猛烈責罵」是「jump down someone's throat」的用法，與本句語境不同。",
-        "jump-mcq-11": "「高興得跳起來」是「jump for joy」的用法，與本句語境不同。"
+        "jump-mcq-14": "本句的「jumped in」指「插入／介入／加入」。",
+        "jump-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "jump-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-14"
     },
@@ -2031,11 +1890,9 @@ export default {
       "masked": "The dog ____.",
       "options": [
         "jump-mcq-15",
-        "jump-mcq-14",
-        "jump-mcq-16",
-        "jump-mcq-13",
-        "jump-mcq-17",
-        "jump-mcq-12"
+        "jump-mcq-33",
+        "jump-mcq-22",
+        "jump-mcq-27"
       ],
       "explanation": "本句的「jumped at me」指「立即責難某人」。",
       "sentenceIndex": 38,
@@ -2044,12 +1901,10 @@ export default {
         "jumped at me"
       ],
       "optionReasons": {
-        "jump-mcq-15": "本句指「立即責難某人」。",
-        "jump-mcq-14": "「插入／介入／加入」是「jump in」的用法，與本句語境不同。",
-        "jump-mcq-16": "「猛烈責罵」是「jump down someone's throat」的用法，與本句語境不同。",
-        "jump-mcq-13": "「銷售急升」是「a jump in sales」的用法，與本句語境不同。",
-        "jump-mcq-17": "「插隊」是「jump the queue/line」的用法，與本句語境不同。",
-        "jump-mcq-12": "「價格急升」是「prices jump」的用法，與本句語境不同。"
+        "jump-mcq-15": "本句的「jumped at me」指「立即責難某人」。",
+        "jump-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-15"
     },
@@ -2061,11 +1916,9 @@ export default {
       "masked": "The cat ____.",
       "options": [
         "jump-mcq-15",
-        "jump-mcq-14",
-        "jump-mcq-16",
-        "jump-mcq-13",
-        "jump-mcq-17",
-        "jump-mcq-12"
+        "jump-mcq-09",
+        "jump-mcq-02",
+        "jump-mcq-22"
       ],
       "explanation": "本句的「jumped on the table」指「立即責難某人」。",
       "sentenceIndex": 39,
@@ -2074,12 +1927,10 @@ export default {
         "jumped on the table"
       ],
       "optionReasons": {
-        "jump-mcq-15": "本句指「立即責難某人」。",
-        "jump-mcq-14": "「插入／介入／加入」是「jump in」的用法，與本句語境不同。",
-        "jump-mcq-16": "「猛烈責罵」是「jump down someone's throat」的用法，與本句語境不同。",
-        "jump-mcq-13": "「銷售急升」是「a jump in sales」的用法，與本句語境不同。",
-        "jump-mcq-17": "「插隊」是「jump the queue/line」的用法，與本句語境不同。",
-        "jump-mcq-12": "「價格急升」是「prices jump」的用法，與本句語境不同。"
+        "jump-mcq-15": "本句的「jumped on the table」指「立即責難某人」。",
+        "jump-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-15"
     },
@@ -2091,11 +1942,9 @@ export default {
       "masked": "Everyone ____ for the mistake.",
       "options": [
         "jump-mcq-15",
-        "jump-mcq-14",
-        "jump-mcq-16",
-        "jump-mcq-13",
-        "jump-mcq-17",
-        "jump-mcq-12"
+        "jump-mcq-29",
+        "jump-mcq-21",
+        "jump-mcq-20"
       ],
       "explanation": "本句的「jumped on him」指「立即責難某人」。",
       "sentenceIndex": 40,
@@ -2104,12 +1953,10 @@ export default {
         "jumped on him"
       ],
       "optionReasons": {
-        "jump-mcq-15": "本句指「立即責難某人」。",
-        "jump-mcq-14": "「插入／介入／加入」是「jump in」的用法，與本句語境不同。",
-        "jump-mcq-16": "「猛烈責罵」是「jump down someone's throat」的用法，與本句語境不同。",
-        "jump-mcq-13": "「銷售急升」是「a jump in sales」的用法，與本句語境不同。",
-        "jump-mcq-17": "「插隊」是「jump the queue/line」的用法，與本句語境不同。",
-        "jump-mcq-12": "「價格急升」是「prices jump」的用法，與本句語境不同。"
+        "jump-mcq-15": "本句的「jumped on him」指「立即責難某人」。",
+        "jump-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-15"
     },
@@ -2121,11 +1968,9 @@ export default {
       "masked": "Don't ____ just because something went wrong.",
       "options": [
         "jump-mcq-15",
-        "jump-mcq-14",
-        "jump-mcq-16",
-        "jump-mcq-13",
-        "jump-mcq-17",
-        "jump-mcq-12"
+        "jump-mcq-02",
+        "jump-mcq-22",
+        "jump-pdf-003"
       ],
       "explanation": "本句的「jump on me」指「立即責難某人」。",
       "sentenceIndex": 41,
@@ -2134,12 +1979,10 @@ export default {
         "jump on me"
       ],
       "optionReasons": {
-        "jump-mcq-15": "本句指「立即責難某人」。",
-        "jump-mcq-14": "「插入／介入／加入」是「jump in」的用法，與本句語境不同。",
-        "jump-mcq-16": "「猛烈責罵」是「jump down someone's throat」的用法，與本句語境不同。",
-        "jump-mcq-13": "「銷售急升」是「a jump in sales」的用法，與本句語境不同。",
-        "jump-mcq-17": "「插隊」是「jump the queue/line」的用法，與本句語境不同。",
-        "jump-mcq-12": "「價格急升」是「prices jump」的用法，與本句語境不同。"
+        "jump-mcq-15": "本句的「jump on me」指「立即責難某人」。",
+        "jump-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "jump-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-15"
     },
@@ -2151,11 +1994,9 @@ export default {
       "masked": "Don't ____—I was only asking a question.",
       "options": [
         "jump-mcq-16",
-        "jump-mcq-15",
-        "jump-mcq-17",
         "jump-mcq-14",
-        "jump-mcq-18",
-        "jump-mcq-13"
+        "jump-mcq-06",
+        "jump-mcq-20"
       ],
       "explanation": "本句的「jump down my throat」指「猛烈責罵」。",
       "sentenceIndex": 42,
@@ -2164,12 +2005,10 @@ export default {
         "jump down my throat"
       ],
       "optionReasons": {
-        "jump-mcq-16": "本句指「猛烈責罵」。",
-        "jump-mcq-15": "「立即責難某人」是「jump on someone」的用法，與本句語境不同。",
-        "jump-mcq-17": "「插隊」是「jump the queue/line」的用法，與本句語境不同。",
-        "jump-mcq-14": "「插入／介入／加入」是「jump in」的用法，與本句語境不同。",
-        "jump-mcq-18": "「操之過急」是「jump the gun」的用法，與本句語境不同。",
-        "jump-mcq-13": "「銷售急升」是「a jump in sales」的用法，與本句語境不同。"
+        "jump-mcq-16": "本句的「jump down my throat」指「猛烈責罵」。",
+        "jump-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-16"
     },
@@ -2181,11 +2020,9 @@ export default {
       "masked": "He ____ for a minor mistake.",
       "options": [
         "jump-mcq-16",
-        "jump-mcq-15",
-        "jump-mcq-17",
-        "jump-mcq-14",
-        "jump-mcq-18",
-        "jump-mcq-13"
+        "jump-mcq-36",
+        "jump-mcq-10",
+        "jump-mcq-31"
       ],
       "explanation": "本句的「jumped down her throat」指「猛烈責罵」。",
       "sentenceIndex": 43,
@@ -2194,12 +2031,10 @@ export default {
         "jumped down her throat"
       ],
       "optionReasons": {
-        "jump-mcq-16": "本句指「猛烈責罵」。",
-        "jump-mcq-15": "「立即責難某人」是「jump on someone」的用法，與本句語境不同。",
-        "jump-mcq-17": "「插隊」是「jump the queue/line」的用法，與本句語境不同。",
-        "jump-mcq-14": "「插入／介入／加入」是「jump in」的用法，與本句語境不同。",
-        "jump-mcq-18": "「操之過急」是「jump the gun」的用法，與本句語境不同。",
-        "jump-mcq-13": "「銷售急升」是「a jump in sales」的用法，與本句語境不同。"
+        "jump-mcq-16": "本句的「jumped down her throat」指「猛烈責罵」。",
+        "jump-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-16"
     },
@@ -2211,11 +2046,9 @@ export default {
       "masked": "Someone tried to ____.",
       "options": [
         "jump-mcq-17",
-        "jump-mcq-16",
-        "jump-mcq-18",
-        "jump-mcq-15",
-        "jump-mcq-19",
-        "jump-mcq-14"
+        "jump-mcq-27",
+        "jump-mcq-33",
+        "jump-pdf-002"
       ],
       "explanation": "本句的「jump the queue」指「插隊」。",
       "sentenceIndex": 44,
@@ -2224,12 +2057,10 @@ export default {
         "jump the queue"
       ],
       "optionReasons": {
-        "jump-mcq-17": "本句指「插隊」。",
-        "jump-mcq-16": "「猛烈責罵」是「jump down someone's throat」的用法，與本句語境不同。",
-        "jump-mcq-18": "「操之過急」是「jump the gun」的用法，與本句語境不同。",
-        "jump-mcq-15": "「立即責難某人」是「jump on someone」的用法，與本句語境不同。",
-        "jump-mcq-19": "「棄船／離開原團隊」是「jump ship」的用法，與本句語境不同。",
-        "jump-mcq-14": "「插入／介入／加入」是「jump in」的用法，與本句語境不同。"
+        "jump-mcq-17": "本句的「jump the queue」指「插隊」。",
+        "jump-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "jump-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-17"
     },
@@ -2241,11 +2072,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "jump-mcq-17",
-        "jump-mcq-16",
-        "jump-mcq-18",
-        "jump-mcq-15",
-        "jump-mcq-19",
-        "jump-mcq-14"
+        "jump-mcq-30",
+        "jump-mcq-09",
+        "jump-mcq-29"
       ],
       "explanation": "本句的「jump the line」指「插隊」。",
       "sentenceIndex": 45,
@@ -2254,12 +2083,10 @@ export default {
         "jump the line"
       ],
       "optionReasons": {
-        "jump-mcq-17": "本句指「插隊」。",
-        "jump-mcq-16": "「猛烈責罵」是「jump down someone's throat」的用法，與本句語境不同。",
-        "jump-mcq-18": "「操之過急」是「jump the gun」的用法，與本句語境不同。",
-        "jump-mcq-15": "「立即責難某人」是「jump on someone」的用法，與本句語境不同。",
-        "jump-mcq-19": "「棄船／離開原團隊」是「jump ship」的用法，與本句語境不同。",
-        "jump-mcq-14": "「插入／介入／加入」是「jump in」的用法，與本句語境不同。"
+        "jump-mcq-17": "本句的「jump the line」指「插隊」。",
+        "jump-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-17"
     },
@@ -2271,11 +2098,9 @@ export default {
       "masked": "We ____ and announced the result too early.",
       "options": [
         "jump-mcq-18",
-        "jump-mcq-17",
-        "jump-mcq-19",
-        "jump-mcq-16",
-        "jump-mcq-20",
-        "jump-mcq-15"
+        "jump-reviewed-5e8c0afcec",
+        "jump-mcq-28",
+        "jump-mcq-17"
       ],
       "explanation": "本句的「jumped the gun」指「操之過急」。",
       "sentenceIndex": 46,
@@ -2284,12 +2109,10 @@ export default {
         "jumped the gun"
       ],
       "optionReasons": {
-        "jump-mcq-18": "本句指「操之過急」。",
-        "jump-mcq-17": "「插隊」是「jump the queue/line」的用法，與本句語境不同。",
-        "jump-mcq-19": "「棄船／離開原團隊」是「jump ship」的用法，與本句語境不同。",
-        "jump-mcq-16": "「猛烈責罵」是「jump down someone's throat」的用法，與本句語境不同。",
-        "jump-mcq-20": "「跟風」是「jump on the bandwagon」的用法，與本句語境不同。",
-        "jump-mcq-15": "「立即責難某人」是「jump on someone」的用法，與本句語境不同。"
+        "jump-mcq-18": "本句的「jumped the gun」指「操之過急」。",
+        "jump-reviewed-5e8c0afcec": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-18"
     },
@@ -2302,10 +2125,8 @@ export default {
       "options": [
         "jump-mcq-18",
         "jump-mcq-17",
-        "jump-mcq-19",
-        "jump-mcq-16",
-        "jump-mcq-20",
-        "jump-mcq-15"
+        "jump-pdf-003",
+        "jump-mcq-21"
       ],
       "explanation": "本句的「jump the gun」指「操之過急」。",
       "sentenceIndex": 47,
@@ -2314,12 +2135,10 @@ export default {
         "jump the gun"
       ],
       "optionReasons": {
-        "jump-mcq-18": "本句指「操之過急」。",
-        "jump-mcq-17": "「插隊」是「jump the queue/line」的用法，與本句語境不同。",
-        "jump-mcq-19": "「棄船／離開原團隊」是「jump ship」的用法，與本句語境不同。",
-        "jump-mcq-16": "「猛烈責罵」是「jump down someone's throat」的用法，與本句語境不同。",
-        "jump-mcq-20": "「跟風」是「jump on the bandwagon」的用法，與本句語境不同。",
-        "jump-mcq-15": "「立即責難某人」是「jump on someone」的用法，與本句語境不同。"
+        "jump-mcq-18": "本句的「jump the gun」指「操之過急」。",
+        "jump-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "jump-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-18"
     },
@@ -2331,11 +2150,9 @@ export default {
       "masked": "Several employees ____ after the company changed direction.",
       "options": [
         "jump-mcq-19",
-        "jump-mcq-18",
-        "jump-mcq-20",
-        "jump-mcq-17",
-        "jump-mcq-21",
-        "jump-mcq-16"
+        "jump-mcq-14",
+        "jump-reviewed-5e8c0afcec",
+        "jump-mcq-01"
       ],
       "explanation": "本句的「jumped ship」指「棄船／離開原團隊」。",
       "sentenceIndex": 48,
@@ -2344,12 +2161,10 @@ export default {
         "jumped ship"
       ],
       "optionReasons": {
-        "jump-mcq-19": "本句指「棄船／離開原團隊」。",
-        "jump-mcq-18": "「操之過急」是「jump the gun」的用法，與本句語境不同。",
-        "jump-mcq-20": "「跟風」是「jump on the bandwagon」的用法，與本句語境不同。",
-        "jump-mcq-17": "「插隊」是「jump the queue/line」的用法，與本句語境不同。",
-        "jump-mcq-21": "「應付繁複要求」是「jump through hoops」的用法，與本句語境不同。",
-        "jump-mcq-16": "「猛烈責罵」是「jump down someone's throat」的用法，與本句語境不同。"
+        "jump-mcq-19": "本句的「jumped ship」指「棄船／離開原團隊」。",
+        "jump-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "jump-reviewed-5e8c0afcec": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-19"
     },
@@ -2361,11 +2176,9 @@ export default {
       "masked": "The sailors prepared to ____.",
       "options": [
         "jump-mcq-19",
-        "jump-mcq-18",
-        "jump-mcq-20",
-        "jump-mcq-17",
-        "jump-mcq-21",
-        "jump-mcq-16"
+        "jump-pdf-002",
+        "jump-mcq-02",
+        "jump-mcq-12"
       ],
       "explanation": "本句的「jump ship」指「棄船／離開原團隊」。",
       "sentenceIndex": 49,
@@ -2374,12 +2187,10 @@ export default {
         "jump ship"
       ],
       "optionReasons": {
-        "jump-mcq-19": "本句指「棄船／離開原團隊」。",
-        "jump-mcq-18": "「操之過急」是「jump the gun」的用法，與本句語境不同。",
-        "jump-mcq-20": "「跟風」是「jump on the bandwagon」的用法，與本句語境不同。",
-        "jump-mcq-17": "「插隊」是「jump the queue/line」的用法，與本句語境不同。",
-        "jump-mcq-21": "「應付繁複要求」是「jump through hoops」的用法，與本句語境不同。",
-        "jump-mcq-16": "「猛烈責罵」是「jump down someone's throat」的用法，與本句語境不同。"
+        "jump-mcq-19": "本句的「jump ship」指「棄船／離開原團隊」。",
+        "jump-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-19"
     },
@@ -2391,11 +2202,9 @@ export default {
       "masked": "Many companies ____.",
       "options": [
         "jump-mcq-20",
-        "jump-mcq-19",
-        "jump-mcq-21",
-        "jump-mcq-18",
-        "jump-mcq-22",
-        "jump-mcq-17"
+        "jump-mcq-02",
+        "jump-mcq-14",
+        "jump-mcq-22"
       ],
       "explanation": "本句的「jumped on the bandwagon」指「跟風」。",
       "sentenceIndex": 50,
@@ -2404,12 +2213,10 @@ export default {
         "jumped on the bandwagon"
       ],
       "optionReasons": {
-        "jump-mcq-20": "本句指「跟風」。",
-        "jump-mcq-19": "「棄船／離開原團隊」是「jump ship」的用法，與本句語境不同。",
-        "jump-mcq-21": "「應付繁複要求」是「jump through hoops」的用法，與本句語境不同。",
-        "jump-mcq-18": "「操之過急」是「jump the gun」的用法，與本句語境不同。",
-        "jump-mcq-22": "「特別顯眼」是「jump out at someone」的用法，與本句語境不同。",
-        "jump-mcq-17": "「插隊」是「jump the queue/line」的用法，與本句語境不同。"
+        "jump-mcq-20": "本句的「jumped on the bandwagon」指「跟風」。",
+        "jump-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-20"
     },
@@ -2421,11 +2228,9 @@ export default {
       "masked": "He bought the product only because everyone else had ____.",
       "options": [
         "jump-mcq-20",
-        "jump-mcq-19",
-        "jump-mcq-21",
-        "jump-mcq-18",
-        "jump-mcq-22",
-        "jump-mcq-17"
+        "jump-mcq-15",
+        "jump-mcq-23",
+        "jump-mcq-29"
       ],
       "explanation": "本句的「jumped on the bandwagon」指「跟風」。",
       "sentenceIndex": 51,
@@ -2434,12 +2239,10 @@ export default {
         "jumped on the bandwagon"
       ],
       "optionReasons": {
-        "jump-mcq-20": "本句指「跟風」。",
-        "jump-mcq-19": "「棄船／離開原團隊」是「jump ship」的用法，與本句語境不同。",
-        "jump-mcq-21": "「應付繁複要求」是「jump through hoops」的用法，與本句語境不同。",
-        "jump-mcq-18": "「操之過急」是「jump the gun」的用法，與本句語境不同。",
-        "jump-mcq-22": "「特別顯眼」是「jump out at someone」的用法，與本句語境不同。",
-        "jump-mcq-17": "「插隊」是「jump the queue/line」的用法，與本句語境不同。"
+        "jump-mcq-20": "本句的「jumped on the bandwagon」指「跟風」。",
+        "jump-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-20"
     },
@@ -2451,11 +2254,9 @@ export default {
       "masked": "We had to ____ to get approval.",
       "options": [
         "jump-mcq-21",
-        "jump-mcq-20",
-        "jump-mcq-22",
+        "jump-pdf-003",
         "jump-mcq-19",
-        "jump-mcq-23",
-        "jump-mcq-18"
+        "jump-mcq-32"
       ],
       "explanation": "本句的「jump through hoops」指「應付繁複要求」。",
       "sentenceIndex": 52,
@@ -2464,12 +2265,10 @@ export default {
         "jump through hoops"
       ],
       "optionReasons": {
-        "jump-mcq-21": "本句指「應付繁複要求」。",
-        "jump-mcq-20": "「跟風」是「jump on the bandwagon」的用法，與本句語境不同。",
-        "jump-mcq-22": "「特別顯眼」是「jump out at someone」的用法，與本句語境不同。",
-        "jump-mcq-19": "「棄船／離開原團隊」是「jump ship」的用法，與本句語境不同。",
-        "jump-mcq-23": "「作出重大轉變」是「make the jump」的用法，與本句語境不同。",
-        "jump-mcq-18": "「操之過急」是「jump the gun」的用法，與本句語境不同。"
+        "jump-mcq-21": "本句的「jump through hoops」指「應付繁複要求」。",
+        "jump-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-21"
     },
@@ -2481,11 +2280,9 @@ export default {
       "masked": "Applicants shouldn't have to ____.",
       "options": [
         "jump-mcq-21",
-        "jump-mcq-20",
-        "jump-mcq-22",
-        "jump-mcq-19",
-        "jump-mcq-23",
-        "jump-mcq-18"
+        "jump-pdf-001",
+        "jump-mcq-25",
+        "jump-mcq-27"
       ],
       "explanation": "本句的「jump through endless hoops」指「應付繁複要求」。",
       "sentenceIndex": 53,
@@ -2494,12 +2291,10 @@ export default {
         "jump through endless hoops"
       ],
       "optionReasons": {
-        "jump-mcq-21": "本句指「應付繁複要求」。",
-        "jump-mcq-20": "「跟風」是「jump on the bandwagon」的用法，與本句語境不同。",
-        "jump-mcq-22": "「特別顯眼」是「jump out at someone」的用法，與本句語境不同。",
-        "jump-mcq-19": "「棄船／離開原團隊」是「jump ship」的用法，與本句語境不同。",
-        "jump-mcq-23": "「作出重大轉變」是「make the jump」的用法，與本句語境不同。",
-        "jump-mcq-18": "「操之過急」是「jump the gun」的用法，與本句語境不同。"
+        "jump-mcq-21": "本句的「jump through endless hoops」指「應付繁複要求」。",
+        "jump-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-21"
     },
@@ -2511,11 +2306,9 @@ export default {
       "masked": "One mistake immediately ____.",
       "options": [
         "jump-mcq-22",
-        "jump-mcq-21",
-        "jump-mcq-23",
-        "jump-mcq-20",
-        "jump-mcq-24",
-        "jump-mcq-19"
+        "jump-mcq-02",
+        "jump-mcq-27",
+        "jump-mcq-28"
       ],
       "explanation": "本句的「jumped out at me」指「特別顯眼」。",
       "sentenceIndex": 54,
@@ -2524,12 +2317,10 @@ export default {
         "jumped out at me"
       ],
       "optionReasons": {
-        "jump-mcq-22": "本句指「特別顯眼」。",
-        "jump-mcq-21": "「應付繁複要求」是「jump through hoops」的用法，與本句語境不同。",
-        "jump-mcq-23": "「作出重大轉變」是「make the jump」的用法，與本句語境不同。",
-        "jump-mcq-20": "「跟風」是「jump on the bandwagon」的用法，與本句語境不同。",
-        "jump-mcq-24": "「一跳／急升」是「jump (noun)」的用法，與本句語境不同。",
-        "jump-mcq-19": "「棄船／離開原團隊」是「jump ship」的用法，與本句語境不同。"
+        "jump-mcq-22": "本句的「jumped out at me」指「特別顯眼」。",
+        "jump-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-22"
     },
@@ -2541,11 +2332,9 @@ export default {
       "masked": "The bright headline ____.",
       "options": [
         "jump-mcq-22",
-        "jump-mcq-21",
-        "jump-mcq-23",
-        "jump-mcq-20",
-        "jump-mcq-24",
-        "jump-mcq-19"
+        "jump-pdf-001",
+        "jump-mcq-18",
+        "jump-mcq-28"
       ],
       "explanation": "本句的「jumps out at you」指「特別顯眼」。",
       "sentenceIndex": 55,
@@ -2554,12 +2343,10 @@ export default {
         "jumps out at you"
       ],
       "optionReasons": {
-        "jump-mcq-22": "本句指「特別顯眼」。",
-        "jump-mcq-21": "「應付繁複要求」是「jump through hoops」的用法，與本句語境不同。",
-        "jump-mcq-23": "「作出重大轉變」是「make the jump」的用法，與本句語境不同。",
-        "jump-mcq-20": "「跟風」是「jump on the bandwagon」的用法，與本句語境不同。",
-        "jump-mcq-24": "「一跳／急升」是「jump (noun)」的用法，與本句語境不同。",
-        "jump-mcq-19": "「棄船／離開原團隊」是「jump ship」的用法，與本句語境不同。"
+        "jump-mcq-22": "本句的「jumps out at you」指「特別顯眼」。",
+        "jump-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-22"
     },
@@ -2571,11 +2358,9 @@ export default {
       "masked": "The colours ____.",
       "options": [
         "jump-mcq-22",
-        "jump-mcq-21",
-        "jump-mcq-23",
-        "jump-mcq-20",
-        "jump-mcq-24",
-        "jump-mcq-19"
+        "jump-mcq-12",
+        "jump-pdf-002",
+        "jump-mcq-16"
       ],
       "explanation": "本句的「jump off the page」指「特別顯眼」。",
       "sentenceIndex": 56,
@@ -2584,12 +2369,10 @@ export default {
         "jump off the page"
       ],
       "optionReasons": {
-        "jump-mcq-22": "本句指「特別顯眼」。",
-        "jump-mcq-21": "「應付繁複要求」是「jump through hoops」的用法，與本句語境不同。",
-        "jump-mcq-23": "「作出重大轉變」是「make the jump」的用法，與本句語境不同。",
-        "jump-mcq-20": "「跟風」是「jump on the bandwagon」的用法，與本句語境不同。",
-        "jump-mcq-24": "「一跳／急升」是「jump (noun)」的用法，與本句語境不同。",
-        "jump-mcq-19": "「棄船／離開原團隊」是「jump ship」的用法，與本句語境不同。"
+        "jump-mcq-22": "本句的「jump off the page」指「特別顯眼」。",
+        "jump-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "jump-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-22"
     },
@@ -2601,11 +2384,9 @@ export default {
       "masked": "The character seems to ____.",
       "options": [
         "jump-mcq-22",
-        "jump-mcq-21",
-        "jump-mcq-23",
-        "jump-mcq-20",
-        "jump-mcq-24",
-        "jump-mcq-19"
+        "jump-mcq-25",
+        "jump-mcq-10",
+        "jump-mcq-20"
       ],
       "explanation": "本句的「jump off the screen」指「特別顯眼」。",
       "sentenceIndex": 57,
@@ -2614,12 +2395,10 @@ export default {
         "jump off the screen"
       ],
       "optionReasons": {
-        "jump-mcq-22": "本句指「特別顯眼」。",
-        "jump-mcq-21": "「應付繁複要求」是「jump through hoops」的用法，與本句語境不同。",
-        "jump-mcq-23": "「作出重大轉變」是「make the jump」的用法，與本句語境不同。",
-        "jump-mcq-20": "「跟風」是「jump on the bandwagon」的用法，與本句語境不同。",
-        "jump-mcq-24": "「一跳／急升」是「jump (noun)」的用法，與本句語境不同。",
-        "jump-mcq-19": "「棄船／離開原團隊」是「jump ship」的用法，與本句語境不同。"
+        "jump-mcq-22": "本句的「jump off the screen」指「特別顯眼」。",
+        "jump-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-22"
     },
@@ -2631,11 +2410,9 @@ export default {
       "masked": "She finally ____.",
       "options": [
         "jump-mcq-23",
-        "jump-mcq-22",
-        "jump-mcq-24",
-        "jump-mcq-21",
-        "jump-mcq-25",
-        "jump-mcq-20"
+        "jump-mcq-09",
+        "jump-mcq-11",
+        "jump-pdf-001"
       ],
       "explanation": "本句的「made the jump from student to full-time worker」指「作出重大轉變」。",
       "sentenceIndex": 58,
@@ -2644,12 +2421,10 @@ export default {
         "made the jump from student to full-time worker"
       ],
       "optionReasons": {
-        "jump-mcq-23": "本句指「作出重大轉變」。",
-        "jump-mcq-22": "「特別顯眼」是「jump out at someone」的用法，與本句語境不同。",
-        "jump-mcq-24": "「一跳／急升」是「jump (noun)」的用法，與本句語境不同。",
-        "jump-mcq-21": "「應付繁複要求」是「jump through hoops」的用法，與本句語境不同。",
-        "jump-mcq-25": "「跳高」是「high jump」的用法，與本句語境不同。",
-        "jump-mcq-20": "「跟風」是「jump on the bandwagon」的用法，與本句語境不同。"
+        "jump-mcq-23": "本句的「made the jump from student to full-time worker」指「作出重大轉變」。",
+        "jump-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "jump-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-23"
     },
@@ -2661,11 +2436,9 @@ export default {
       "masked": "The business is ready to ____.",
       "options": [
         "jump-mcq-23",
-        "jump-mcq-22",
-        "jump-mcq-24",
-        "jump-mcq-21",
-        "jump-mcq-25",
-        "jump-mcq-20"
+        "jump-mcq-02",
+        "jump-pdf-001",
+        "jump-mcq-10"
       ],
       "explanation": "本句的「make the jump into international markets」指「作出重大轉變」。",
       "sentenceIndex": 59,
@@ -2674,12 +2447,10 @@ export default {
         "make the jump into international markets"
       ],
       "optionReasons": {
-        "jump-mcq-23": "本句指「作出重大轉變」。",
-        "jump-mcq-22": "「特別顯眼」是「jump out at someone」的用法，與本句語境不同。",
-        "jump-mcq-24": "「一跳／急升」是「jump (noun)」的用法，與本句語境不同。",
-        "jump-mcq-21": "「應付繁複要求」是「jump through hoops」的用法，與本句語境不同。",
-        "jump-mcq-25": "「跳高」是「high jump」的用法，與本句語境不同。",
-        "jump-mcq-20": "「跟風」是「jump on the bandwagon」的用法，與本句語境不同。"
+        "jump-mcq-23": "本句的「make the jump into international markets」指「作出重大轉變」。",
+        "jump-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jump-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-23"
     },
@@ -2691,11 +2462,9 @@ export default {
       "masked": "He cleared the fence in one ____.",
       "options": [
         "jump-mcq-24",
-        "jump-mcq-23",
-        "jump-mcq-25",
-        "jump-mcq-22",
-        "jump-mcq-26",
-        "jump-mcq-21"
+        "jump-mcq-32",
+        "jump-mcq-28",
+        "jump-mcq-22"
       ],
       "explanation": "本句的「jump」指「一跳／急升」。",
       "sentenceIndex": 60,
@@ -2704,12 +2473,10 @@ export default {
         "jump"
       ],
       "optionReasons": {
-        "jump-mcq-24": "本句指「一跳／急升」。",
-        "jump-mcq-23": "「作出重大轉變」是「make the jump」的用法，與本句語境不同。",
-        "jump-mcq-25": "「跳高」是「high jump」的用法，與本句語境不同。",
-        "jump-mcq-22": "「特別顯眼」是「jump out at someone」的用法，與本句語境不同。",
-        "jump-mcq-26": "「跳遠」是「long jump」的用法，與本句語境不同。",
-        "jump-mcq-21": "「應付繁複要求」是「jump through hoops」的用法，與本句語境不同。"
+        "jump-mcq-24": "本句的「jump」指「一跳／急升」。",
+        "jump-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-24"
     },
@@ -2721,11 +2488,9 @@ export default {
       "masked": "That was an impressive ____.",
       "options": [
         "jump-mcq-24",
-        "jump-mcq-23",
-        "jump-mcq-25",
-        "jump-mcq-22",
-        "jump-mcq-26",
-        "jump-mcq-21"
+        "jump-mcq-34",
+        "jump-mcq-35",
+        "jump-mcq-20"
       ],
       "explanation": "本句的「jump」指「一跳／急升」。",
       "sentenceIndex": 61,
@@ -2734,12 +2499,10 @@ export default {
         "jump"
       ],
       "optionReasons": {
-        "jump-mcq-24": "本句指「一跳／急升」。",
-        "jump-mcq-23": "「作出重大轉變」是「make the jump」的用法，與本句語境不同。",
-        "jump-mcq-25": "「跳高」是「high jump」的用法，與本句語境不同。",
-        "jump-mcq-22": "「特別顯眼」是「jump out at someone」的用法，與本句語境不同。",
-        "jump-mcq-26": "「跳遠」是「long jump」的用法，與本句語境不同。",
-        "jump-mcq-21": "「應付繁複要求」是「jump through hoops」的用法，與本句語境不同。"
+        "jump-mcq-24": "本句的「jump」指「一跳／急升」。",
+        "jump-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-24"
     },
@@ -2751,11 +2514,9 @@ export default {
       "masked": "She competes in the ____.",
       "options": [
         "jump-mcq-25",
-        "jump-mcq-24",
-        "jump-mcq-26",
-        "jump-mcq-23",
-        "jump-mcq-27",
-        "jump-mcq-22"
+        "jump-mcq-07",
+        "jump-mcq-10",
+        "jump-mcq-17"
       ],
       "explanation": "本句的「high jump」指「跳高」。",
       "sentenceIndex": 62,
@@ -2764,12 +2525,10 @@ export default {
         "high jump"
       ],
       "optionReasons": {
-        "jump-mcq-25": "本句指「跳高」。",
-        "jump-mcq-24": "「一跳／急升」是「jump (noun)」的用法，與本句語境不同。",
-        "jump-mcq-26": "「跳遠」是「long jump」的用法，與本句語境不同。",
-        "jump-mcq-23": "「作出重大轉變」是「make the jump」的用法，與本句語境不同。",
-        "jump-mcq-27": "「神經緊張、易受驚」是「jumpy」的用法，與本句語境不同。",
-        "jump-mcq-22": "「特別顯眼」是「jump out at someone」的用法，與本句語境不同。"
+        "jump-mcq-25": "本句的「high jump」指「跳高」。",
+        "jump-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-25"
     },
@@ -2781,11 +2540,9 @@ export default {
       "masked": "He won the ____.",
       "options": [
         "jump-mcq-25",
-        "jump-mcq-24",
-        "jump-mcq-26",
-        "jump-mcq-23",
-        "jump-mcq-27",
-        "jump-mcq-22"
+        "jump-mcq-18",
+        "jump-mcq-22",
+        "jump-mcq-29"
       ],
       "explanation": "本句的「long jump」指「跳高」。",
       "sentenceIndex": 63,
@@ -2794,74 +2551,68 @@ export default {
         "long jump"
       ],
       "optionReasons": {
-        "jump-mcq-25": "本句指「跳高」。",
-        "jump-mcq-24": "「一跳／急升」是「jump (noun)」的用法，與本句語境不同。",
-        "jump-mcq-26": "「跳遠」是「long jump」的用法，與本句語境不同。",
-        "jump-mcq-23": "「作出重大轉變」是「make the jump」的用法，與本句語境不同。",
-        "jump-mcq-27": "「神經緊張、易受驚」是「jumpy」的用法，與本句語境不同。",
-        "jump-mcq-22": "「特別顯眼」是「jump out at someone」的用法，與本句語境不同。"
+        "jump-mcq-25": "本句的「long jump」指「跳高」。",
+        "jump-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-25"
     },
     {
       "id": "jump-32-0",
-      "sense": "jump-mcq-26",
+      "sense": "jump-reviewed-5e8c0afcec",
       "en": "There was a sudden jump in temperature.",
       "zh": "氣溫突然急升。",
       "masked": "There was a sudden ____.",
       "options": [
-        "jump-mcq-26",
-        "jump-mcq-25",
-        "jump-mcq-27",
-        "jump-mcq-24",
-        "jump-mcq-28",
-        "jump-mcq-23"
+        "jump-reviewed-5e8c0afcec",
+        "jump-mcq-30",
+        "jump-mcq-32",
+        "jump-mcq-21"
       ],
-      "explanation": "本句的「jump in temperature」指「跳遠」。",
+      "explanation": "對照完整句子：「氣溫突然急升。」。這裡的「jump in temperature」表示「數值或程度突然明顯改變，尤其上升」。",
       "sentenceIndex": 64,
       "sourcePractice": 1,
       "targets": [
         "jump in temperature"
       ],
       "optionReasons": {
-        "jump-mcq-26": "本句指「跳遠」。",
-        "jump-mcq-25": "「跳高」是「high jump」的用法，與本句語境不同。",
-        "jump-mcq-27": "「神經緊張、易受驚」是「jumpy」的用法，與本句語境不同。",
-        "jump-mcq-24": "「一跳／急升」是「jump (noun)」的用法，與本句語境不同。",
-        "jump-mcq-28": "「冷衫」是「jumper (BrE)」的用法，與本句語境不同。",
-        "jump-mcq-23": "「作出重大轉變」是「make the jump」的用法，與本句語境不同。"
+        "jump-reviewed-5e8c0afcec": "對照完整句子：「氣溫突然急升。」。這裡的「jump in temperature」表示「數值或程度突然明顯改變，尤其上升」。",
+        "jump-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "jump-mcq-26"
+      "correctOption": "jump-reviewed-5e8c0afcec",
+      "previousCorrectOption": "jump-mcq-26",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "jump-32-1",
-      "sense": "jump-mcq-26",
+      "sense": "jump-reviewed-5e8c0afcec",
       "en": "We saw a large jump in demand.",
       "zh": "需求出現大幅躍升。",
       "masked": "We saw a large ____.",
       "options": [
-        "jump-mcq-26",
+        "jump-reviewed-5e8c0afcec",
+        "jump-mcq-16",
         "jump-mcq-25",
-        "jump-mcq-27",
-        "jump-mcq-24",
-        "jump-mcq-28",
-        "jump-mcq-23"
+        "jump-mcq-21"
       ],
-      "explanation": "本句的「jump in demand」指「跳遠」。",
+      "explanation": "對照完整句子：「需求出現大幅躍升。」。這裡的「jump in demand」表示「數值或程度突然明顯改變，尤其上升」。",
       "sentenceIndex": 65,
       "sourcePractice": 2,
       "targets": [
         "jump in demand"
       ],
       "optionReasons": {
-        "jump-mcq-26": "本句指「跳遠」。",
-        "jump-mcq-25": "「跳高」是「high jump」的用法，與本句語境不同。",
-        "jump-mcq-27": "「神經緊張、易受驚」是「jumpy」的用法，與本句語境不同。",
-        "jump-mcq-24": "「一跳／急升」是「jump (noun)」的用法，與本句語境不同。",
-        "jump-mcq-28": "「冷衫」是「jumper (BrE)」的用法，與本句語境不同。",
-        "jump-mcq-23": "「作出重大轉變」是「make the jump」的用法，與本句語境不同。"
+        "jump-reviewed-5e8c0afcec": "對照完整句子：「需求出現大幅躍升。」。這裡的「jump in demand」表示「數值或程度突然明顯改變，尤其上升」。",
+        "jump-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "jump-mcq-26"
+      "correctOption": "jump-reviewed-5e8c0afcec",
+      "previousCorrectOption": "jump-mcq-26",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "jump-33-0",
@@ -2871,11 +2622,9 @@ export default {
       "masked": "The sudden voice gave me quite a ____.",
       "options": [
         "jump-mcq-36",
-        "jump-mcq-35",
-        "jump-mcq-34",
-        "jump-mcq-33",
-        "jump-mcq-32",
-        "jump-mcq-31"
+        "jump-mcq-16",
+        "jump-mcq-19",
+        "jump-mcq-29"
       ],
       "explanation": "本句的「jump」指「因突然受驚而出現的短暫驚嚇反應」。",
       "sentenceIndex": 66,
@@ -2884,12 +2633,10 @@ export default {
         "jump"
       ],
       "optionReasons": {
-        "jump-mcq-36": "本句指「因突然受驚而出現的短暫驚嚇反應」。",
-        "jump-mcq-35": "「突然或積極地加入談話、活動或正在進行的事情」是「17. jump in / jump into a conversation — 突然加入談話」的用法，與本句語境不同。",
-        "jump-mcq-34": "「沒有平順過渡地迅速轉到另一個主題、位置或狀態」是「8. jump from one thing to another — 突然由一件事轉到另一件事」的用法，與本句語境不同。",
-        "jump-mcq-33": "「因突然聲音、動作或驚嚇而身體猛然一動」是「5. jump（因驚嚇而猛然一震） — 嚇得一震；突然一跳」的用法，與本句語境不同。",
-        "jump-mcq-32": "「搭電啟動／迅速推動」是「jump-start」的用法，與本句語境不同。",
-        "jump-mcq-31": "「汽車跨接線」是「jumper cables」的用法，與本句語境不同。"
+        "jump-mcq-36": "本句的「jump」指「因突然受驚而出現的短暫驚嚇反應」。",
+        "jump-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-36"
     },
@@ -2901,11 +2648,9 @@ export default {
       "masked": "I got a ____ when the door slammed.",
       "options": [
         "jump-mcq-36",
-        "jump-mcq-35",
-        "jump-mcq-34",
-        "jump-mcq-33",
-        "jump-mcq-32",
-        "jump-mcq-31"
+        "jump-mcq-09",
+        "jump-mcq-28",
+        "jump-mcq-24"
       ],
       "explanation": "本句的「jump」指「因突然受驚而出現的短暫驚嚇反應」。",
       "sentenceIndex": 67,
@@ -2914,12 +2659,10 @@ export default {
         "jump"
       ],
       "optionReasons": {
-        "jump-mcq-36": "本句指「因突然受驚而出現的短暫驚嚇反應」。",
-        "jump-mcq-35": "「突然或積極地加入談話、活動或正在進行的事情」是「17. jump in / jump into a conversation — 突然加入談話」的用法，與本句語境不同。",
-        "jump-mcq-34": "「沒有平順過渡地迅速轉到另一個主題、位置或狀態」是「8. jump from one thing to another — 突然由一件事轉到另一件事」的用法，與本句語境不同。",
-        "jump-mcq-33": "「因突然聲音、動作或驚嚇而身體猛然一動」是「5. jump（因驚嚇而猛然一震） — 嚇得一震；突然一跳」的用法，與本句語境不同。",
-        "jump-mcq-32": "「搭電啟動／迅速推動」是「jump-start」的用法，與本句語境不同。",
-        "jump-mcq-31": "「汽車跨接線」是「jumper cables」的用法，與本句語境不同。"
+        "jump-mcq-36": "本句的「jump」指「因突然受驚而出現的短暫驚嚇反應」。",
+        "jump-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-36"
     },
@@ -2931,11 +2674,9 @@ export default {
       "masked": "I've been a bit ____ since the accident.",
       "options": [
         "jump-mcq-27",
-        "jump-mcq-26",
-        "jump-mcq-28",
-        "jump-mcq-25",
-        "jump-mcq-29",
-        "jump-mcq-24"
+        "jump-mcq-10",
+        "jump-mcq-30",
+        "jump-mcq-22"
       ],
       "explanation": "本句的「jumpy」指「神經緊張、易受驚」。",
       "sentenceIndex": 68,
@@ -2944,12 +2685,10 @@ export default {
         "jumpy"
       ],
       "optionReasons": {
-        "jump-mcq-27": "本句指「神經緊張、易受驚」。",
-        "jump-mcq-26": "「跳遠」是「long jump」的用法，與本句語境不同。",
-        "jump-mcq-28": "「冷衫」是「jumper (BrE)」的用法，與本句語境不同。",
-        "jump-mcq-25": "「跳高」是「high jump」的用法，與本句語境不同。",
-        "jump-mcq-29": "「無袖連身裙」是「jumper (AmE)」的用法，與本句語境不同。",
-        "jump-mcq-24": "「一跳／急升」是「jump (noun)」的用法，與本句語境不同。"
+        "jump-mcq-27": "本句的「jumpy」指「神經緊張、易受驚」。",
+        "jump-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-27"
     },
@@ -2961,11 +2700,9 @@ export default {
       "masked": "The strange noises made everyone ____.",
       "options": [
         "jump-mcq-27",
-        "jump-mcq-26",
-        "jump-mcq-28",
-        "jump-mcq-25",
-        "jump-mcq-29",
-        "jump-mcq-24"
+        "jump-mcq-22",
+        "jump-mcq-04",
+        "jump-mcq-20"
       ],
       "explanation": "本句的「jumpy」指「神經緊張、易受驚」。",
       "sentenceIndex": 69,
@@ -2974,12 +2711,10 @@ export default {
         "jumpy"
       ],
       "optionReasons": {
-        "jump-mcq-27": "本句指「神經緊張、易受驚」。",
-        "jump-mcq-26": "「跳遠」是「long jump」的用法，與本句語境不同。",
-        "jump-mcq-28": "「冷衫」是「jumper (BrE)」的用法，與本句語境不同。",
-        "jump-mcq-25": "「跳高」是「high jump」的用法，與本句語境不同。",
-        "jump-mcq-29": "「無袖連身裙」是「jumper (AmE)」的用法，與本句語境不同。",
-        "jump-mcq-24": "「一跳／急升」是「jump (noun)」的用法，與本句語境不同。"
+        "jump-mcq-27": "本句的「jumpy」指「神經緊張、易受驚」。",
+        "jump-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-27"
     },
@@ -2991,11 +2726,9 @@ export default {
       "masked": "She wore a woollen ____.",
       "options": [
         "jump-mcq-28",
-        "jump-mcq-27",
         "jump-mcq-29",
-        "jump-mcq-26",
-        "jump-mcq-30",
-        "jump-mcq-25"
+        "jump-mcq-10",
+        "jump-mcq-12"
       ],
       "explanation": "本句的「jumper」指「冷衫」。",
       "sentenceIndex": 70,
@@ -3004,12 +2737,10 @@ export default {
         "jumper"
       ],
       "optionReasons": {
-        "jump-mcq-28": "本句指「冷衫」。",
-        "jump-mcq-27": "「神經緊張、易受驚」是「jumpy」的用法，與本句語境不同。",
-        "jump-mcq-29": "「無袖連身裙」是「jumper (AmE)」的用法，與本句語境不同。",
-        "jump-mcq-26": "「跳遠」是「long jump」的用法，與本句語境不同。",
-        "jump-mcq-30": "「跳躍者」是「jumper」的用法，與本句語境不同。",
-        "jump-mcq-25": "「跳高」是「high jump」的用法，與本句語境不同。"
+        "jump-mcq-28": "本句的「jumper」指「冷衫」。",
+        "jump-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-28"
     },
@@ -3021,11 +2752,9 @@ export default {
       "masked": "It's cold, so put on a ____.",
       "options": [
         "jump-mcq-28",
-        "jump-mcq-27",
-        "jump-mcq-29",
-        "jump-mcq-26",
-        "jump-mcq-30",
-        "jump-mcq-25"
+        "jump-mcq-03",
+        "jump-mcq-21",
+        "jump-mcq-17"
       ],
       "explanation": "本句的「jumper」指「冷衫」。",
       "sentenceIndex": 71,
@@ -3034,12 +2763,10 @@ export default {
         "jumper"
       ],
       "optionReasons": {
-        "jump-mcq-28": "本句指「冷衫」。",
-        "jump-mcq-27": "「神經緊張、易受驚」是「jumpy」的用法，與本句語境不同。",
-        "jump-mcq-29": "「無袖連身裙」是「jumper (AmE)」的用法，與本句語境不同。",
-        "jump-mcq-26": "「跳遠」是「long jump」的用法，與本句語境不同。",
-        "jump-mcq-30": "「跳躍者」是「jumper」的用法，與本句語境不同。",
-        "jump-mcq-25": "「跳高」是「high jump」的用法，與本句語境不同。"
+        "jump-mcq-28": "本句的「jumper」指「冷衫」。",
+        "jump-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-28"
     },
@@ -3051,11 +2778,9 @@ export default {
       "masked": "The child wore a denim ____ over a shirt.",
       "options": [
         "jump-mcq-29",
+        "jump-mcq-22",
         "jump-mcq-28",
-        "jump-mcq-30",
-        "jump-mcq-27",
-        "jump-mcq-31",
-        "jump-mcq-26"
+        "jump-mcq-35"
       ],
       "explanation": "本句的「jumper」指「無袖連身裙」。",
       "sentenceIndex": 72,
@@ -3064,12 +2789,10 @@ export default {
         "jumper"
       ],
       "optionReasons": {
-        "jump-mcq-29": "本句指「無袖連身裙」。",
-        "jump-mcq-28": "「冷衫」是「jumper (BrE)」的用法，與本句語境不同。",
-        "jump-mcq-30": "「跳躍者」是「jumper」的用法，與本句語境不同。",
-        "jump-mcq-27": "「神經緊張、易受驚」是「jumpy」的用法，與本句語境不同。",
-        "jump-mcq-31": "「汽車跨接線」是「jumper cables」的用法，與本句語境不同。",
-        "jump-mcq-26": "「跳遠」是「long jump」的用法，與本句語境不同。"
+        "jump-mcq-29": "本句的「jumper」指「無袖連身裙」。",
+        "jump-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-29"
     },
@@ -3081,11 +2804,9 @@ export default {
       "masked": "In American English, ____ can refer to a sleeveless dress worn over another top.",
       "options": [
         "jump-mcq-29",
-        "jump-mcq-28",
-        "jump-mcq-30",
-        "jump-mcq-27",
-        "jump-mcq-31",
-        "jump-mcq-26"
+        "jump-mcq-22",
+        "jump-mcq-14",
+        "jump-mcq-19"
       ],
       "explanation": "本句的「jumper」指「無袖連身裙」。",
       "sentenceIndex": 73,
@@ -3094,12 +2815,10 @@ export default {
         "jumper"
       ],
       "optionReasons": {
-        "jump-mcq-29": "本句指「無袖連身裙」。",
-        "jump-mcq-28": "「冷衫」是「jumper (BrE)」的用法，與本句語境不同。",
-        "jump-mcq-30": "「跳躍者」是「jumper」的用法，與本句語境不同。",
-        "jump-mcq-27": "「神經緊張、易受驚」是「jumpy」的用法，與本句語境不同。",
-        "jump-mcq-31": "「汽車跨接線」是「jumper cables」的用法，與本句語境不同。",
-        "jump-mcq-26": "「跳遠」是「long jump」的用法，與本句語境不同。"
+        "jump-mcq-29": "本句的「jumper」指「無袖連身裙」。",
+        "jump-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-29"
     },
@@ -3111,11 +2830,9 @@ export default {
       "masked": "He is a strong ____.",
       "options": [
         "jump-mcq-30",
-        "jump-mcq-29",
-        "jump-mcq-31",
-        "jump-mcq-28",
-        "jump-mcq-32",
-        "jump-mcq-27"
+        "jump-mcq-09",
+        "jump-mcq-07",
+        "jump-mcq-10"
       ],
       "explanation": "本句的「jumper」指「跳躍者」。",
       "sentenceIndex": 74,
@@ -3124,12 +2841,10 @@ export default {
         "jumper"
       ],
       "optionReasons": {
-        "jump-mcq-30": "本句指「跳躍者」。",
-        "jump-mcq-29": "「無袖連身裙」是「jumper (AmE)」的用法，與本句語境不同。",
-        "jump-mcq-31": "「汽車跨接線」是「jumper cables」的用法，與本句語境不同。",
-        "jump-mcq-28": "「冷衫」是「jumper (BrE)」的用法，與本句語境不同。",
-        "jump-mcq-32": "「搭電啟動／迅速推動」是「jump-start」的用法，與本句語境不同。",
-        "jump-mcq-27": "「神經緊張、易受驚」是「jumpy」的用法，與本句語境不同。"
+        "jump-mcq-30": "本句的「jumper」指「跳躍者」。",
+        "jump-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-30"
     },
@@ -3141,11 +2856,9 @@ export default {
       "masked": "This horse is an excellent ____.",
       "options": [
         "jump-mcq-30",
-        "jump-mcq-29",
+        "jump-mcq-36",
         "jump-mcq-31",
-        "jump-mcq-28",
-        "jump-mcq-32",
-        "jump-mcq-27"
+        "jump-mcq-17"
       ],
       "explanation": "本句的「jumper」指「跳躍者」。",
       "sentenceIndex": 75,
@@ -3154,12 +2867,10 @@ export default {
         "jumper"
       ],
       "optionReasons": {
-        "jump-mcq-30": "本句指「跳躍者」。",
-        "jump-mcq-29": "「無袖連身裙」是「jumper (AmE)」的用法，與本句語境不同。",
-        "jump-mcq-31": "「汽車跨接線」是「jumper cables」的用法，與本句語境不同。",
-        "jump-mcq-28": "「冷衫」是「jumper (BrE)」的用法，與本句語境不同。",
-        "jump-mcq-32": "「搭電啟動／迅速推動」是「jump-start」的用法，與本句語境不同。",
-        "jump-mcq-27": "「神經緊張、易受驚」是「jumpy」的用法，與本句語境不同。"
+        "jump-mcq-30": "本句的「jumper」指「跳躍者」。",
+        "jump-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-30"
     },
@@ -3171,11 +2882,9 @@ export default {
       "masked": "Do you have ____?",
       "options": [
         "jump-mcq-31",
-        "jump-mcq-30",
-        "jump-mcq-32",
-        "jump-mcq-29",
-        "jump-mcq-33",
-        "jump-mcq-28"
+        "jump-mcq-17",
+        "jump-reviewed-5e8c0afcec",
+        "jump-mcq-18"
       ],
       "explanation": "本句的「jumper cables」指「汽車跨接線」。",
       "sentenceIndex": 76,
@@ -3184,12 +2893,10 @@ export default {
         "jumper cables"
       ],
       "optionReasons": {
-        "jump-mcq-31": "本句指「汽車跨接線」。",
-        "jump-mcq-30": "「跳躍者」是「jumper」的用法，與本句語境不同。",
-        "jump-mcq-32": "「搭電啟動／迅速推動」是「jump-start」的用法，與本句語境不同。",
-        "jump-mcq-29": "「無袖連身裙」是「jumper (AmE)」的用法，與本句語境不同。",
-        "jump-mcq-33": "「因突然聲音、動作或驚嚇而身體猛然一動」是「5. jump（因驚嚇而猛然一震） — 嚇得一震；突然一跳」的用法，與本句語境不同。",
-        "jump-mcq-28": "「冷衫」是「jumper (BrE)」的用法，與本句語境不同。"
+        "jump-mcq-31": "本句的「jumper cables」指「汽車跨接線」。",
+        "jump-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "jump-reviewed-5e8c0afcec": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-31"
     },
@@ -3201,11 +2908,9 @@ export default {
       "masked": "We used ____ to start the car.",
       "options": [
         "jump-mcq-31",
-        "jump-mcq-30",
-        "jump-mcq-32",
-        "jump-mcq-29",
-        "jump-mcq-33",
-        "jump-mcq-28"
+        "jump-mcq-03",
+        "jump-mcq-34",
+        "jump-mcq-29"
       ],
       "explanation": "本句的「jump leads」指「汽車跨接線」。",
       "sentenceIndex": 77,
@@ -3214,12 +2919,10 @@ export default {
         "jump leads"
       ],
       "optionReasons": {
-        "jump-mcq-31": "本句指「汽車跨接線」。",
-        "jump-mcq-30": "「跳躍者」是「jumper」的用法，與本句語境不同。",
-        "jump-mcq-32": "「搭電啟動／迅速推動」是「jump-start」的用法，與本句語境不同。",
-        "jump-mcq-29": "「無袖連身裙」是「jumper (AmE)」的用法，與本句語境不同。",
-        "jump-mcq-33": "「因突然聲音、動作或驚嚇而身體猛然一動」是「5. jump（因驚嚇而猛然一震） — 嚇得一震；突然一跳」的用法，與本句語境不同。",
-        "jump-mcq-28": "「冷衫」是「jumper (BrE)」的用法，與本句語境不同。"
+        "jump-mcq-31": "本句的「jump leads」指「汽車跨接線」。",
+        "jump-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-31"
     },
@@ -3231,11 +2934,9 @@ export default {
       "masked": "We had to ____.",
       "options": [
         "jump-mcq-32",
-        "jump-mcq-31",
-        "jump-mcq-33",
-        "jump-mcq-30",
-        "jump-mcq-34",
-        "jump-mcq-29"
+        "jump-mcq-01",
+        "jump-mcq-09",
+        "jump-mcq-07"
       ],
       "explanation": "本句的「jump-start the car」指「搭電啟動／迅速推動」。",
       "sentenceIndex": 78,
@@ -3244,12 +2945,10 @@ export default {
         "jump-start the car"
       ],
       "optionReasons": {
-        "jump-mcq-32": "本句指「搭電啟動／迅速推動」。",
-        "jump-mcq-31": "「汽車跨接線」是「jumper cables」的用法，與本句語境不同。",
-        "jump-mcq-33": "「因突然聲音、動作或驚嚇而身體猛然一動」是「5. jump（因驚嚇而猛然一震） — 嚇得一震；突然一跳」的用法，與本句語境不同。",
-        "jump-mcq-30": "「跳躍者」是「jumper」的用法，與本句語境不同。",
-        "jump-mcq-34": "「沒有平順過渡地迅速轉到另一個主題、位置或狀態」是「8. jump from one thing to another — 突然由一件事轉到另一件事」的用法，與本句語境不同。",
-        "jump-mcq-29": "「無袖連身裙」是「jumper (AmE)」的用法，與本句語境不同。"
+        "jump-mcq-32": "本句的「jump-start the car」指「搭電啟動／迅速推動」。",
+        "jump-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-32"
     },
@@ -3261,11 +2960,9 @@ export default {
       "masked": "His battery was flat, so I gave him a ____.",
       "options": [
         "jump-mcq-32",
-        "jump-mcq-31",
-        "jump-mcq-33",
-        "jump-mcq-30",
-        "jump-mcq-34",
-        "jump-mcq-29"
+        "jump-mcq-28",
+        "jump-mcq-29",
+        "jump-mcq-17"
       ],
       "explanation": "本句的「jump-start」指「搭電啟動／迅速推動」。",
       "sentenceIndex": 79,
@@ -3274,12 +2971,10 @@ export default {
         "jump-start"
       ],
       "optionReasons": {
-        "jump-mcq-32": "本句指「搭電啟動／迅速推動」。",
-        "jump-mcq-31": "「汽車跨接線」是「jumper cables」的用法，與本句語境不同。",
-        "jump-mcq-33": "「因突然聲音、動作或驚嚇而身體猛然一動」是「5. jump（因驚嚇而猛然一震） — 嚇得一震；突然一跳」的用法，與本句語境不同。",
-        "jump-mcq-30": "「跳躍者」是「jumper」的用法，與本句語境不同。",
-        "jump-mcq-34": "「沒有平順過渡地迅速轉到另一個主題、位置或狀態」是「8. jump from one thing to another — 突然由一件事轉到另一件事」的用法，與本句語境不同。",
-        "jump-mcq-29": "「無袖連身裙」是「jumper (AmE)」的用法，與本句語境不同。"
+        "jump-mcq-32": "本句的「jump-start」指「搭電啟動／迅速推動」。",
+        "jump-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-32"
     },
@@ -3291,11 +2986,9 @@ export default {
       "masked": "The campaign helped ____.",
       "options": [
         "jump-mcq-32",
-        "jump-mcq-31",
-        "jump-mcq-33",
-        "jump-mcq-30",
-        "jump-mcq-34",
-        "jump-mcq-29"
+        "jump-mcq-03",
+        "jump-pdf-003",
+        "jump-mcq-22"
       ],
       "explanation": "本句的「jump-start sales」指「搭電啟動／迅速推動」。",
       "sentenceIndex": 80,
@@ -3304,12 +2997,10 @@ export default {
         "jump-start sales"
       ],
       "optionReasons": {
-        "jump-mcq-32": "本句指「搭電啟動／迅速推動」。",
-        "jump-mcq-31": "「汽車跨接線」是「jumper cables」的用法，與本句語境不同。",
-        "jump-mcq-33": "「因突然聲音、動作或驚嚇而身體猛然一動」是「5. jump（因驚嚇而猛然一震） — 嚇得一震；突然一跳」的用法，與本句語境不同。",
-        "jump-mcq-30": "「跳躍者」是「jumper」的用法，與本句語境不同。",
-        "jump-mcq-34": "「沒有平順過渡地迅速轉到另一個主題、位置或狀態」是「8. jump from one thing to another — 突然由一件事轉到另一件事」的用法，與本句語境不同。",
-        "jump-mcq-29": "「無袖連身裙」是「jumper (AmE)」的用法，與本句語境不同。"
+        "jump-mcq-32": "本句的「jump-start sales」指「搭電啟動／迅速推動」。",
+        "jump-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "jump-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-32"
     },
@@ -3321,11 +3012,9 @@ export default {
       "masked": "We need fresh ideas to ____.",
       "options": [
         "jump-mcq-32",
-        "jump-mcq-31",
-        "jump-mcq-33",
-        "jump-mcq-30",
-        "jump-mcq-34",
-        "jump-mcq-29"
+        "jump-mcq-08",
+        "jump-mcq-19",
+        "jump-mcq-09"
       ],
       "explanation": "本句的「jump-start the project」指「搭電啟動／迅速推動」。",
       "sentenceIndex": 81,
@@ -3334,12 +3023,10 @@ export default {
         "jump-start the project"
       ],
       "optionReasons": {
-        "jump-mcq-32": "本句指「搭電啟動／迅速推動」。",
-        "jump-mcq-31": "「汽車跨接線」是「jumper cables」的用法，與本句語境不同。",
-        "jump-mcq-33": "「因突然聲音、動作或驚嚇而身體猛然一動」是「5. jump（因驚嚇而猛然一震） — 嚇得一震；突然一跳」的用法，與本句語境不同。",
-        "jump-mcq-30": "「跳躍者」是「jumper」的用法，與本句語境不同。",
-        "jump-mcq-34": "「沒有平順過渡地迅速轉到另一個主題、位置或狀態」是「8. jump from one thing to another — 突然由一件事轉到另一件事」的用法，與本句語境不同。",
-        "jump-mcq-29": "「無袖連身裙」是「jumper (AmE)」的用法，與本句語境不同。"
+        "jump-mcq-32": "本句的「jump-start the project」指「搭電啟動／迅速推動」。",
+        "jump-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "jump-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jump-mcq-32"
     }
@@ -3351,5 +3038,7 @@ export default {
     "sha256": "42773a243e4365d7733313bf6858af9bc445a15ca1bb2bae60e10029ec9734f9",
     "pages": 28
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

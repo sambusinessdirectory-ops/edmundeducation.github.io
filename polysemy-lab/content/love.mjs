@@ -570,7 +570,7 @@ export default {
     },
     {
       "id": "love-mcq-25",
-      "title": "表示她對孩子表現出親切愛護",
+      "title": "她對孩子表現出親切愛護",
       "form": "29. for the love of God / for love's sake（感嘆／較固定） — 拜託；看在……份上",
       "en": "29. for the love of God / for love's sake（感嘆／較固定） — 拜託；看在……份上",
       "zh": "表示她對孩子表現出親切愛護",
@@ -622,11 +622,9 @@ export default {
       "masked": "She ____ her grandchildren very much.",
       "options": [
         "love-mcq-01",
-        "love-mcq-02",
-        "love-mcq-03",
-        "love-mcq-04",
-        "love-mcq-05",
-        "love-mcq-06"
+        "love-mcq-20",
+        "love-mcq-15",
+        "love-mcq-14"
       ],
       "explanation": "本句的「loves」指「對某人有深厚感情、關心和情感連繫」。",
       "sentenceIndex": 0,
@@ -635,12 +633,10 @@ export default {
         "loves"
       ],
       "optionReasons": {
-        "love-mcq-01": "本句指「對某人有深厚感情、關心和情感連繫」。",
-        "love-mcq-02": "「家人或親近的人之間深厚的關愛、依附和在乎」是「love — family/friend affection」的用法，與本句語境不同。",
-        "love-mcq-03": "「兩人之間帶有浪漫、親密意味的深厚感情」是「romantic love」的用法，與本句語境不同。",
-        "love-mcq-04": "「對某人有強烈浪漫愛情」是「be in love with」的用法，與本句語境不同。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。"
+        "love-mcq-01": "本句的「loves」指「對某人有深厚感情、關心和情感連繫」。",
+        "love-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-01"
     },
@@ -652,11 +648,9 @@ export default {
       "masked": "I ____ my family.",
       "options": [
         "love-mcq-01",
-        "love-mcq-02",
-        "love-mcq-03",
-        "love-mcq-04",
-        "love-mcq-05",
-        "love-mcq-06"
+        "love-mcq-15",
+        "love-mcq-20",
+        "love-mcq-14"
       ],
       "explanation": "本句的「love」指「對某人有深厚感情、關心和情感連繫」。",
       "sentenceIndex": 1,
@@ -665,12 +659,10 @@ export default {
         "love"
       ],
       "optionReasons": {
-        "love-mcq-01": "本句指「對某人有深厚感情、關心和情感連繫」。",
-        "love-mcq-02": "「家人或親近的人之間深厚的關愛、依附和在乎」是「love — family/friend affection」的用法，與本句語境不同。",
-        "love-mcq-03": "「兩人之間帶有浪漫、親密意味的深厚感情」是「romantic love」的用法，與本句語境不同。",
-        "love-mcq-04": "「對某人有強烈浪漫愛情」是「be in love with」的用法，與本句語境不同。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。"
+        "love-mcq-01": "本句的「love」指「對某人有深厚感情、關心和情感連繫」。",
+        "love-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-01"
     },
@@ -682,11 +674,9 @@ export default {
       "masked": "She shows ____ through small actions.",
       "options": [
         "love-mcq-02",
-        "love-mcq-01",
-        "love-mcq-03",
-        "love-mcq-04",
-        "love-mcq-05",
-        "love-mcq-06"
+        "love-mcq-24",
+        "love-mcq-14",
+        "love-mcq-07"
       ],
       "explanation": "本句的「love」指「家人或親近的人之間深厚的關愛、依附和在乎」。",
       "sentenceIndex": 2,
@@ -695,12 +685,10 @@ export default {
         "love"
       ],
       "optionReasons": {
-        "love-mcq-02": "本句指「家人或親近的人之間深厚的關愛、依附和在乎」。",
-        "love-mcq-01": "「對某人有深厚感情、關心和情感連繫」是「love someone」的用法，與本句語境不同。",
-        "love-mcq-03": "「兩人之間帶有浪漫、親密意味的深厚感情」是「romantic love」的用法，與本句語境不同。",
-        "love-mcq-04": "「對某人有強烈浪漫愛情」是「be in love with」的用法，與本句語境不同。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。"
+        "love-mcq-02": "本句的「love」指「家人或親近的人之間深厚的關愛、依附和在乎」。",
+        "love-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-02"
     },
@@ -712,11 +700,9 @@ export default {
       "masked": "His parents showed their ____ by supporting him during difficult times.",
       "options": [
         "love-mcq-02",
-        "love-mcq-01",
-        "love-mcq-03",
-        "love-mcq-04",
-        "love-mcq-05",
-        "love-mcq-06"
+        "love-mcq-06",
+        "love-mcq-19",
+        "love-mcq-14"
       ],
       "explanation": "本句的「love」指「家人或親近的人之間深厚的關愛、依附和在乎」。",
       "sentenceIndex": 3,
@@ -725,12 +711,10 @@ export default {
         "love"
       ],
       "optionReasons": {
-        "love-mcq-02": "本句指「家人或親近的人之間深厚的關愛、依附和在乎」。",
-        "love-mcq-01": "「對某人有深厚感情、關心和情感連繫」是「love someone」的用法，與本句語境不同。",
-        "love-mcq-03": "「兩人之間帶有浪漫、親密意味的深厚感情」是「romantic love」的用法，與本句語境不同。",
-        "love-mcq-04": "「對某人有強烈浪漫愛情」是「be in love with」的用法，與本句語境不同。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。"
+        "love-mcq-02": "本句的「love」指「家人或親近的人之間深厚的關愛、依附和在乎」。",
+        "love-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-02"
     },
@@ -742,11 +726,9 @@ export default {
       "masked": "There was a lot of ____ in their family.",
       "options": [
         "love-mcq-02",
-        "love-mcq-01",
-        "love-mcq-03",
-        "love-mcq-04",
-        "love-mcq-05",
-        "love-mcq-06"
+        "love-mcq-06",
+        "love-mcq-19",
+        "love-mcq-14"
       ],
       "explanation": "本句的「love」指「家人或親近的人之間深厚的關愛、依附和在乎」。",
       "sentenceIndex": 4,
@@ -755,12 +737,10 @@ export default {
         "love"
       ],
       "optionReasons": {
-        "love-mcq-02": "本句指「家人或親近的人之間深厚的關愛、依附和在乎」。",
-        "love-mcq-01": "「對某人有深厚感情、關心和情感連繫」是「love someone」的用法，與本句語境不同。",
-        "love-mcq-03": "「兩人之間帶有浪漫、親密意味的深厚感情」是「romantic love」的用法，與本句語境不同。",
-        "love-mcq-04": "「對某人有強烈浪漫愛情」是「be in love with」的用法，與本句語境不同。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。"
+        "love-mcq-02": "本句的「love」指「家人或親近的人之間深厚的關愛、依附和在乎」。",
+        "love-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-02"
     },
@@ -772,11 +752,9 @@ export default {
       "masked": "They fell in ____ at university.",
       "options": [
         "love-mcq-03",
-        "love-mcq-02",
-        "love-mcq-04",
-        "love-mcq-01",
-        "love-mcq-05",
-        "love-mcq-06"
+        "love-mcq-14",
+        "love-mcq-13",
+        "love-mcq-15"
       ],
       "explanation": "本句的「love」指「兩人之間帶有浪漫、親密意味的深厚感情」。",
       "sentenceIndex": 5,
@@ -785,12 +763,10 @@ export default {
         "love"
       ],
       "optionReasons": {
-        "love-mcq-03": "本句指「兩人之間帶有浪漫、親密意味的深厚感情」。",
-        "love-mcq-02": "「家人或親近的人之間深厚的關愛、依附和在乎」是「love — family/friend affection」的用法，與本句語境不同。",
-        "love-mcq-04": "「對某人有強烈浪漫愛情」是「be in love with」的用法，與本句語境不同。",
-        "love-mcq-01": "「對某人有深厚感情、關心和情感連繫」是「love someone」的用法，與本句語境不同。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。"
+        "love-mcq-03": "本句的「love」指「兩人之間帶有浪漫、親密意味的深厚感情」。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-03"
     },
@@ -802,11 +778,9 @@ export default {
       "masked": "The film is a story about ____ and loss.",
       "options": [
         "love-mcq-03",
-        "love-mcq-02",
-        "love-mcq-04",
-        "love-mcq-01",
-        "love-mcq-05",
-        "love-mcq-06"
+        "love-mcq-20",
+        "love-mcq-15",
+        "love-mcq-13"
       ],
       "explanation": "本句的「love」指「兩人之間帶有浪漫、親密意味的深厚感情」。",
       "sentenceIndex": 6,
@@ -815,12 +789,10 @@ export default {
         "love"
       ],
       "optionReasons": {
-        "love-mcq-03": "本句指「兩人之間帶有浪漫、親密意味的深厚感情」。",
-        "love-mcq-02": "「家人或親近的人之間深厚的關愛、依附和在乎」是「love — family/friend affection」的用法，與本句語境不同。",
-        "love-mcq-04": "「對某人有強烈浪漫愛情」是「be in love with」的用法，與本句語境不同。",
-        "love-mcq-01": "「對某人有深厚感情、關心和情感連繫」是「love someone」的用法，與本句語境不同。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。"
+        "love-mcq-03": "本句的「love」指「兩人之間帶有浪漫、親密意味的深厚感情」。",
+        "love-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-03"
     },
@@ -832,11 +804,9 @@ export default {
       "masked": "She is ____ him.",
       "options": [
         "love-mcq-04",
-        "love-mcq-03",
-        "love-mcq-05",
-        "love-mcq-02",
         "love-mcq-06",
-        "love-mcq-01"
+        "love-mcq-12",
+        "love-mcq-14"
       ],
       "explanation": "本句的「in love with」指「對某人有強烈浪漫愛情」。",
       "sentenceIndex": 7,
@@ -845,12 +815,10 @@ export default {
         "in love with"
       ],
       "optionReasons": {
-        "love-mcq-04": "本句指「對某人有強烈浪漫愛情」。",
-        "love-mcq-03": "「兩人之間帶有浪漫、親密意味的深厚感情」是「romantic love」的用法，與本句語境不同。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。",
-        "love-mcq-02": "「家人或親近的人之間深厚的關愛、依附和在乎」是「love — family/friend affection」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。",
-        "love-mcq-01": "「對某人有深厚感情、關心和情感連繫」是「love someone」的用法，與本句語境不同。"
+        "love-mcq-04": "本句的「in love with」指「對某人有強烈浪漫愛情」。",
+        "love-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-04"
     },
@@ -862,11 +830,9 @@ export default {
       "masked": "He realized that he was still ____ her.",
       "options": [
         "love-mcq-04",
-        "love-mcq-03",
-        "love-mcq-05",
-        "love-mcq-02",
-        "love-mcq-06",
-        "love-mcq-01"
+        "love-mcq-14",
+        "love-mcq-12",
+        "love-mcq-21"
       ],
       "explanation": "本句的「in love with」指「對某人有強烈浪漫愛情」。",
       "sentenceIndex": 8,
@@ -875,12 +841,10 @@ export default {
         "in love with"
       ],
       "optionReasons": {
-        "love-mcq-04": "本句指「對某人有強烈浪漫愛情」。",
-        "love-mcq-03": "「兩人之間帶有浪漫、親密意味的深厚感情」是「romantic love」的用法，與本句語境不同。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。",
-        "love-mcq-02": "「家人或親近的人之間深厚的關愛、依附和在乎」是「love — family/friend affection」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。",
-        "love-mcq-01": "「對某人有深厚感情、關心和情感連繫」是「love someone」的用法，與本句語境不同。"
+        "love-mcq-04": "本句的「in love with」指「對某人有強烈浪漫愛情」。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-04"
     },
@@ -892,11 +856,9 @@ export default {
       "masked": "They ____ very quickly.",
       "options": [
         "love-mcq-05",
-        "love-mcq-04",
-        "love-mcq-06",
-        "love-mcq-03",
-        "love-mcq-07",
-        "love-mcq-02"
+        "love-mcq-14",
+        "love-mcq-12",
+        "love-mcq-07"
       ],
       "explanation": "本句的「fell in love」指「開始對某人產生浪漫愛情」。",
       "sentenceIndex": 9,
@@ -905,12 +867,10 @@ export default {
         "fell in love"
       ],
       "optionReasons": {
-        "love-mcq-05": "本句指「開始對某人產生浪漫愛情」。",
-        "love-mcq-04": "「對某人有強烈浪漫愛情」是「be in love with」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。",
-        "love-mcq-03": "「兩人之間帶有浪漫、親密意味的深厚感情」是「romantic love」的用法，與本句語境不同。",
-        "love-mcq-07": "「非常想做某事，或很樂意接受邀請」是「would love to」的用法，與本句語境不同。",
-        "love-mcq-02": "「家人或親近的人之間深厚的關愛、依附和在乎」是「love — family/friend affection」的用法，與本句語境不同。"
+        "love-mcq-05": "本句的「fell in love」指「開始對某人產生浪漫愛情」。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-05"
     },
@@ -922,11 +882,9 @@ export default {
       "masked": "She ____ him after they worked together.",
       "options": [
         "love-mcq-05",
-        "love-mcq-04",
-        "love-mcq-06",
-        "love-mcq-03",
         "love-mcq-07",
-        "love-mcq-02"
+        "love-mcq-21",
+        "love-mcq-14"
       ],
       "explanation": "本句的「fell in love with」指「開始對某人產生浪漫愛情」。",
       "sentenceIndex": 10,
@@ -935,12 +893,10 @@ export default {
         "fell in love with"
       ],
       "optionReasons": {
-        "love-mcq-05": "本句指「開始對某人產生浪漫愛情」。",
-        "love-mcq-04": "「對某人有強烈浪漫愛情」是「be in love with」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。",
-        "love-mcq-03": "「兩人之間帶有浪漫、親密意味的深厚感情」是「romantic love」的用法，與本句語境不同。",
-        "love-mcq-07": "「非常想做某事，或很樂意接受邀請」是「would love to」的用法，與本句語境不同。",
-        "love-mcq-02": "「家人或親近的人之間深厚的關愛、依附和在乎」是「love — family/friend affection」的用法，與本句語境不同。"
+        "love-mcq-05": "本句的「fell in love with」指「開始對某人產生浪漫愛情」。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-05"
     },
@@ -952,11 +908,9 @@ export default {
       "masked": "I ____ travelling.",
       "options": [
         "love-mcq-06",
+        "love-mcq-25",
         "love-mcq-05",
-        "love-mcq-07",
-        "love-mcq-04",
-        "love-mcq-08",
-        "love-mcq-03"
+        "love-mcq-02"
       ],
       "explanation": "本句的「love」指「非常喜歡並享受某件事或活動」。",
       "sentenceIndex": 11,
@@ -965,12 +919,10 @@ export default {
         "love"
       ],
       "optionReasons": {
-        "love-mcq-06": "本句指「非常喜歡並享受某件事或活動」。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。",
-        "love-mcq-07": "「非常想做某事，或很樂意接受邀請」是「would love to」的用法，與本句語境不同。",
-        "love-mcq-04": "「對某人有強烈浪漫愛情」是「be in love with」的用法，與本句語境不同。",
-        "love-mcq-08": "「對某個人、領域或活動持久而強烈的熱愛」是「love of/for something」的用法，與本句語境不同。",
-        "love-mcq-03": "「兩人之間帶有浪漫、親密意味的深厚感情」是「romantic love」的用法，與本句語境不同。"
+        "love-mcq-06": "本句的「love」指「非常喜歡並享受某件事或活動」。",
+        "love-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-06"
     },
@@ -982,11 +934,9 @@ export default {
       "masked": "She ____ music.",
       "options": [
         "love-mcq-06",
-        "love-mcq-05",
-        "love-mcq-07",
-        "love-mcq-04",
-        "love-mcq-08",
-        "love-mcq-03"
+        "love-mcq-19",
+        "love-mcq-16",
+        "love-mcq-02"
       ],
       "explanation": "本句的「loves」指「非常喜歡並享受某件事或活動」。",
       "sentenceIndex": 12,
@@ -995,12 +945,10 @@ export default {
         "loves"
       ],
       "optionReasons": {
-        "love-mcq-06": "本句指「非常喜歡並享受某件事或活動」。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。",
-        "love-mcq-07": "「非常想做某事，或很樂意接受邀請」是「would love to」的用法，與本句語境不同。",
-        "love-mcq-04": "「對某人有強烈浪漫愛情」是「be in love with」的用法，與本句語境不同。",
-        "love-mcq-08": "「對某個人、領域或活動持久而強烈的熱愛」是「love of/for something」的用法，與本句語境不同。",
-        "love-mcq-03": "「兩人之間帶有浪漫、親密意味的深厚感情」是「romantic love」的用法，與本句語境不同。"
+        "love-mcq-06": "本句的「loves」指「非常喜歡並享受某件事或活動」。",
+        "love-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-06"
     },
@@ -1012,11 +960,9 @@ export default {
       "masked": "She ____ for her family.",
       "options": [
         "love-mcq-06",
-        "love-mcq-05",
-        "love-mcq-07",
-        "love-mcq-04",
-        "love-mcq-08",
-        "love-mcq-03"
+        "love-mcq-01",
+        "love-mcq-14",
+        "love-mcq-16"
       ],
       "explanation": "本句的「loves to cook」指「非常喜歡並享受某件事或活動」。",
       "sentenceIndex": 13,
@@ -1025,12 +971,10 @@ export default {
         "loves to cook"
       ],
       "optionReasons": {
-        "love-mcq-06": "本句指「非常喜歡並享受某件事或活動」。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。",
-        "love-mcq-07": "「非常想做某事，或很樂意接受邀請」是「would love to」的用法，與本句語境不同。",
-        "love-mcq-04": "「對某人有強烈浪漫愛情」是「be in love with」的用法，與本句語境不同。",
-        "love-mcq-08": "「對某個人、領域或活動持久而強烈的熱愛」是「love of/for something」的用法，與本句語境不同。",
-        "love-mcq-03": "「兩人之間帶有浪漫、親密意味的深厚感情」是「romantic love」的用法，與本句語境不同。"
+        "love-mcq-06": "本句的「loves to cook」指「非常喜歡並享受某件事或活動」。",
+        "love-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-06"
     },
@@ -1042,11 +986,9 @@ export default {
       "masked": "He ____ before bed.",
       "options": [
         "love-mcq-06",
-        "love-mcq-05",
-        "love-mcq-07",
-        "love-mcq-04",
-        "love-mcq-08",
-        "love-mcq-03"
+        "love-mcq-02",
+        "love-mcq-23",
+        "love-mcq-14"
       ],
       "explanation": "本句的「loves reading」指「非常喜歡並享受某件事或活動」。",
       "sentenceIndex": 14,
@@ -1055,12 +997,10 @@ export default {
         "loves reading"
       ],
       "optionReasons": {
-        "love-mcq-06": "本句指「非常喜歡並享受某件事或活動」。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。",
-        "love-mcq-07": "「非常想做某事，或很樂意接受邀請」是「would love to」的用法，與本句語境不同。",
-        "love-mcq-04": "「對某人有強烈浪漫愛情」是「be in love with」的用法，與本句語境不同。",
-        "love-mcq-08": "「對某個人、領域或活動持久而強烈的熱愛」是「love of/for something」的用法，與本句語境不同。",
-        "love-mcq-03": "「兩人之間帶有浪漫、親密意味的深厚感情」是「romantic love」的用法，與本句語境不同。"
+        "love-mcq-06": "本句的「loves reading」指「非常喜歡並享受某件事或活動」。",
+        "love-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-06"
     },
@@ -1072,11 +1012,9 @@ export default {
       "masked": "I’d ____ visit her this weekend.",
       "options": [
         "love-mcq-07",
-        "love-mcq-06",
-        "love-mcq-08",
-        "love-mcq-05",
-        "love-mcq-09",
-        "love-mcq-04"
+        "love-mcq-14",
+        "love-mcq-02",
+        "love-mcq-24"
       ],
       "explanation": "本句的「love to」指「非常想做某事，或很樂意接受邀請」。",
       "sentenceIndex": 15,
@@ -1085,12 +1023,10 @@ export default {
         "love to"
       ],
       "optionReasons": {
-        "love-mcq-07": "本句指「非常想做某事，或很樂意接受邀請」。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。",
-        "love-mcq-08": "「對某個人、領域或活動持久而強烈的熱愛」是「love of/for something」的用法，與本句語境不同。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。",
-        "love-mcq-09": "「被某人深深愛著的人，尤其常帶浪漫意味」是「love — loved person」的用法，與本句語境不同。",
-        "love-mcq-04": "「對某人有強烈浪漫愛情」是「be in love with」的用法，與本句語境不同。"
+        "love-mcq-07": "本句的「love to」指「非常想做某事，或很樂意接受邀請」。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-07"
     },
@@ -1102,11 +1038,9 @@ export default {
       "masked": "We’d ____ join you.",
       "options": [
         "love-mcq-07",
-        "love-mcq-06",
         "love-mcq-08",
-        "love-mcq-05",
-        "love-mcq-09",
-        "love-mcq-04"
+        "love-mcq-02",
+        "love-mcq-05"
       ],
       "explanation": "本句的「love to」指「非常想做某事，或很樂意接受邀請」。",
       "sentenceIndex": 16,
@@ -1115,12 +1049,10 @@ export default {
         "love to"
       ],
       "optionReasons": {
-        "love-mcq-07": "本句指「非常想做某事，或很樂意接受邀請」。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。",
-        "love-mcq-08": "「對某個人、領域或活動持久而強烈的熱愛」是「love of/for something」的用法，與本句語境不同。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。",
-        "love-mcq-09": "「被某人深深愛著的人，尤其常帶浪漫意味」是「love — loved person」的用法，與本句語境不同。",
-        "love-mcq-04": "「對某人有強烈浪漫愛情」是「be in love with」的用法，與本句語境不同。"
+        "love-mcq-07": "本句的「love to」指「非常想做某事，或很樂意接受邀請」。",
+        "love-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-07"
     },
@@ -1133,10 +1065,8 @@ export default {
       "options": [
         "love-mcq-08",
         "love-mcq-07",
-        "love-mcq-09",
-        "love-mcq-06",
-        "love-mcq-10",
-        "love-mcq-05"
+        "love-mcq-01",
+        "love-mcq-14"
       ],
       "explanation": "本句的「love of」指「對某個人、領域或活動持久而強烈的熱愛」。",
       "sentenceIndex": 17,
@@ -1145,12 +1075,10 @@ export default {
         "love of"
       ],
       "optionReasons": {
-        "love-mcq-08": "本句指「對某個人、領域或活動持久而強烈的熱愛」。",
-        "love-mcq-07": "「非常想做某事，或很樂意接受邀請」是「would love to」的用法，與本句語境不同。",
-        "love-mcq-09": "「被某人深深愛著的人，尤其常帶浪漫意味」是「love — loved person」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。",
-        "love-mcq-10": "「最早產生深厚感情的人或最早真正熱愛的事物」是「first love」的用法，與本句語境不同。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。"
+        "love-mcq-08": "本句的「love of」指「對某個人、領域或活動持久而強烈的熱愛」。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-08"
     },
@@ -1163,10 +1091,8 @@ export default {
       "options": [
         "love-mcq-08",
         "love-mcq-07",
-        "love-mcq-09",
-        "love-mcq-06",
-        "love-mcq-10",
-        "love-mcq-05"
+        "love-mcq-01",
+        "love-mcq-14"
       ],
       "explanation": "本句的「love of」指「對某個人、領域或活動持久而強烈的熱愛」。",
       "sentenceIndex": 18,
@@ -1175,12 +1101,10 @@ export default {
         "love of"
       ],
       "optionReasons": {
-        "love-mcq-08": "本句指「對某個人、領域或活動持久而強烈的熱愛」。",
-        "love-mcq-07": "「非常想做某事，或很樂意接受邀請」是「would love to」的用法，與本句語境不同。",
-        "love-mcq-09": "「被某人深深愛著的人，尤其常帶浪漫意味」是「love — loved person」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。",
-        "love-mcq-10": "「最早產生深厚感情的人或最早真正熱愛的事物」是「first love」的用法，與本句語境不同。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。"
+        "love-mcq-08": "本句的「love of」指「對某個人、領域或活動持久而強烈的熱愛」。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-08"
     },
@@ -1192,11 +1116,9 @@ export default {
       "masked": "She did it for the ____ her family.",
       "options": [
         "love-mcq-08",
+        "love-mcq-01",
         "love-mcq-07",
-        "love-mcq-09",
-        "love-mcq-06",
-        "love-mcq-10",
-        "love-mcq-05"
+        "love-mcq-14"
       ],
       "explanation": "本句的「love of」指「對某個人、領域或活動持久而強烈的熱愛」。",
       "sentenceIndex": 19,
@@ -1205,12 +1127,10 @@ export default {
         "love of"
       ],
       "optionReasons": {
-        "love-mcq-08": "本句指「對某個人、領域或活動持久而強烈的熱愛」。",
-        "love-mcq-07": "「非常想做某事，或很樂意接受邀請」是「would love to」的用法，與本句語境不同。",
-        "love-mcq-09": "「被某人深深愛著的人，尤其常帶浪漫意味」是「love — loved person」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。",
-        "love-mcq-10": "「最早產生深厚感情的人或最早真正熱愛的事物」是「first love」的用法，與本句語境不同。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。"
+        "love-mcq-08": "本句的「love of」指「對某個人、領域或活動持久而強烈的熱愛」。",
+        "love-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-08"
     },
@@ -1222,11 +1142,9 @@ export default {
       "masked": "He teaches for the ____ the subject.",
       "options": [
         "love-mcq-08",
+        "love-mcq-19",
         "love-mcq-07",
-        "love-mcq-09",
-        "love-mcq-06",
-        "love-mcq-10",
-        "love-mcq-05"
+        "love-mcq-14"
       ],
       "explanation": "本句的「love of」指「對某個人、領域或活動持久而強烈的熱愛」。",
       "sentenceIndex": 20,
@@ -1235,12 +1153,10 @@ export default {
         "love of"
       ],
       "optionReasons": {
-        "love-mcq-08": "本句指「對某個人、領域或活動持久而強烈的熱愛」。",
-        "love-mcq-07": "「非常想做某事，或很樂意接受邀請」是「would love to」的用法，與本句語境不同。",
-        "love-mcq-09": "「被某人深深愛著的人，尤其常帶浪漫意味」是「love — loved person」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。",
-        "love-mcq-10": "「最早產生深厚感情的人或最早真正熱愛的事物」是「first love」的用法，與本句語境不同。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。"
+        "love-mcq-08": "本句的「love of」指「對某個人、領域或活動持久而強烈的熱愛」。",
+        "love-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-08"
     },
@@ -1252,11 +1168,9 @@ export default {
       "masked": "She was the great ____ of his life.",
       "options": [
         "love-mcq-09",
-        "love-mcq-08",
-        "love-mcq-10",
-        "love-mcq-07",
-        "love-mcq-11",
-        "love-mcq-06"
+        "love-mcq-21",
+        "love-mcq-14",
+        "love-mcq-13"
       ],
       "explanation": "本句的「love」指「被某人深深愛著的人，尤其常帶浪漫意味」。",
       "sentenceIndex": 21,
@@ -1265,12 +1179,10 @@ export default {
         "love"
       ],
       "optionReasons": {
-        "love-mcq-09": "本句指「被某人深深愛著的人，尤其常帶浪漫意味」。",
-        "love-mcq-08": "「對某個人、領域或活動持久而強烈的熱愛」是「love of/for something」的用法，與本句語境不同。",
-        "love-mcq-10": "「最早產生深厚感情的人或最早真正熱愛的事物」是「first love」的用法，與本句語境不同。",
-        "love-mcq-07": "「非常想做某事，或很樂意接受邀請」是「would love to」的用法，與本句語境不同。",
-        "love-mcq-11": "「自己深愛和非常在乎的人，通常指家人或伴侶」是「loved one」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。"
+        "love-mcq-09": "本句的「love」指「被某人深深愛著的人，尤其常帶浪漫意味」。",
+        "love-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-09"
     },
@@ -1282,11 +1194,9 @@ export default {
       "masked": "He never forgot his first ____.",
       "options": [
         "love-mcq-09",
-        "love-mcq-08",
-        "love-mcq-10",
-        "love-mcq-07",
-        "love-mcq-11",
-        "love-mcq-06"
+        "love-mcq-14",
+        "love-mcq-21",
+        "love-mcq-13"
       ],
       "explanation": "本句的「love」指「被某人深深愛著的人，尤其常帶浪漫意味」。",
       "sentenceIndex": 22,
@@ -1295,12 +1205,10 @@ export default {
         "love"
       ],
       "optionReasons": {
-        "love-mcq-09": "本句指「被某人深深愛著的人，尤其常帶浪漫意味」。",
-        "love-mcq-08": "「對某個人、領域或活動持久而強烈的熱愛」是「love of/for something」的用法，與本句語境不同。",
-        "love-mcq-10": "「最早產生深厚感情的人或最早真正熱愛的事物」是「first love」的用法，與本句語境不同。",
-        "love-mcq-07": "「非常想做某事，或很樂意接受邀請」是「would love to」的用法，與本句語境不同。",
-        "love-mcq-11": "「自己深愛和非常在乎的人，通常指家人或伴侶」是「loved one」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。"
+        "love-mcq-09": "本句的「love」指「被某人深深愛著的人，尤其常帶浪漫意味」。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-09"
     },
@@ -1312,10 +1220,8 @@ export default {
       "masked": "She still remembers her ____.",
       "options": [
         "love-mcq-10",
-        "love-mcq-09",
-        "love-mcq-11",
-        "love-mcq-08",
-        "love-mcq-12",
+        "love-mcq-14",
+        "love-mcq-19",
         "love-mcq-07"
       ],
       "explanation": "本句的「first love」指「最早產生深厚感情的人或最早真正熱愛的事物」。",
@@ -1325,12 +1231,10 @@ export default {
         "first love"
       ],
       "optionReasons": {
-        "love-mcq-10": "本句指「最早產生深厚感情的人或最早真正熱愛的事物」。",
-        "love-mcq-09": "「被某人深深愛著的人，尤其常帶浪漫意味」是「love — loved person」的用法，與本句語境不同。",
-        "love-mcq-11": "「自己深愛和非常在乎的人，通常指家人或伴侶」是「loved one」的用法，與本句語境不同。",
-        "love-mcq-08": "「對某個人、領域或活動持久而強烈的熱愛」是「love of/for something」的用法，與本句語境不同。",
-        "love-mcq-12": "「透過照顧、支持、陪伴、言語或行動表達深厚關心」是「show love」的用法，與本句語境不同。",
-        "love-mcq-07": "「非常想做某事，或很樂意接受邀請」是「would love to」的用法，與本句語境不同。"
+        "love-mcq-10": "本句的「first love」指「最早產生深厚感情的人或最早真正熱愛的事物」。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-10"
     },
@@ -1342,11 +1246,9 @@ export default {
       "masked": "Music was his ____.",
       "options": [
         "love-mcq-10",
-        "love-mcq-09",
-        "love-mcq-11",
-        "love-mcq-08",
-        "love-mcq-12",
-        "love-mcq-07"
+        "love-mcq-14",
+        "love-mcq-07",
+        "love-mcq-19"
       ],
       "explanation": "本句的「first love」指「最早產生深厚感情的人或最早真正熱愛的事物」。",
       "sentenceIndex": 24,
@@ -1355,12 +1257,10 @@ export default {
         "first love"
       ],
       "optionReasons": {
-        "love-mcq-10": "本句指「最早產生深厚感情的人或最早真正熱愛的事物」。",
-        "love-mcq-09": "「被某人深深愛著的人，尤其常帶浪漫意味」是「love — loved person」的用法，與本句語境不同。",
-        "love-mcq-11": "「自己深愛和非常在乎的人，通常指家人或伴侶」是「loved one」的用法，與本句語境不同。",
-        "love-mcq-08": "「對某個人、領域或活動持久而強烈的熱愛」是「love of/for something」的用法，與本句語境不同。",
-        "love-mcq-12": "「透過照顧、支持、陪伴、言語或行動表達深厚關心」是「show love」的用法，與本句語境不同。",
-        "love-mcq-07": "「非常想做某事，或很樂意接受邀請」是「would love to」的用法，與本句語境不同。"
+        "love-mcq-10": "本句的「first love」指「最早產生深厚感情的人或最早真正熱愛的事物」。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-10"
     },
@@ -1372,11 +1272,9 @@ export default {
       "masked": "It is important to spend time with your ____.",
       "options": [
         "love-mcq-11",
-        "love-mcq-10",
-        "love-mcq-12",
-        "love-mcq-09",
-        "love-mcq-13",
-        "love-mcq-08"
+        "love-mcq-24",
+        "love-pdf-001",
+        "love-mcq-14"
       ],
       "explanation": "本句的「loved ones」指「自己深愛和非常在乎的人，通常指家人或伴侶」。",
       "sentenceIndex": 25,
@@ -1385,12 +1283,10 @@ export default {
         "loved ones"
       ],
       "optionReasons": {
-        "love-mcq-11": "本句指「自己深愛和非常在乎的人，通常指家人或伴侶」。",
-        "love-mcq-10": "「最早產生深厚感情的人或最早真正熱愛的事物」是「first love」的用法，與本句語境不同。",
-        "love-mcq-12": "「透過照顧、支持、陪伴、言語或行動表達深厚關心」是「show love」的用法，與本句語境不同。",
-        "love-mcq-09": "「被某人深深愛著的人，尤其常帶浪漫意味」是「love — loved person」的用法，與本句語境不同。",
-        "love-mcq-13": "「對自己的價值、需要和身心保持尊重與關愛」是「self-love」的用法，與本句語境不同。",
-        "love-mcq-08": "「對某個人、領域或活動持久而強烈的熱愛」是「love of/for something」的用法，與本句語境不同。"
+        "love-mcq-11": "本句的「loved ones」指「自己深愛和非常在乎的人，通常指家人或伴侶」。",
+        "love-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "love-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-11"
     },
@@ -1402,11 +1298,9 @@ export default {
       "masked": "She wanted to stay close to her ____.",
       "options": [
         "love-mcq-11",
-        "love-mcq-10",
-        "love-mcq-12",
-        "love-mcq-09",
-        "love-mcq-13",
-        "love-mcq-08"
+        "love-mcq-19",
+        "love-mcq-21",
+        "love-mcq-14"
       ],
       "explanation": "本句的「loved ones」指「自己深愛和非常在乎的人，通常指家人或伴侶」。",
       "sentenceIndex": 26,
@@ -1415,12 +1309,10 @@ export default {
         "loved ones"
       ],
       "optionReasons": {
-        "love-mcq-11": "本句指「自己深愛和非常在乎的人，通常指家人或伴侶」。",
-        "love-mcq-10": "「最早產生深厚感情的人或最早真正熱愛的事物」是「first love」的用法，與本句語境不同。",
-        "love-mcq-12": "「透過照顧、支持、陪伴、言語或行動表達深厚關心」是「show love」的用法，與本句語境不同。",
-        "love-mcq-09": "「被某人深深愛著的人，尤其常帶浪漫意味」是「love — loved person」的用法，與本句語境不同。",
-        "love-mcq-13": "「對自己的價值、需要和身心保持尊重與關愛」是「self-love」的用法，與本句語境不同。",
-        "love-mcq-08": "「對某個人、領域或活動持久而強烈的熱愛」是「love of/for something」的用法，與本句語境不同。"
+        "love-mcq-11": "本句的「loved ones」指「自己深愛和非常在乎的人，通常指家人或伴侶」。",
+        "love-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-11"
     },
@@ -1432,11 +1324,9 @@ export default {
       "masked": "Cooking for everyone was her way of showing ____.",
       "options": [
         "love-mcq-12",
-        "love-mcq-11",
-        "love-mcq-13",
-        "love-mcq-10",
-        "love-mcq-14",
-        "love-mcq-09"
+        "love-mcq-04",
+        "love-mcq-17",
+        "love-mcq-16"
       ],
       "explanation": "本句的「love」指「透過照顧、支持、陪伴、言語或行動表達深厚關心」。",
       "sentenceIndex": 27,
@@ -1445,12 +1335,10 @@ export default {
         "love"
       ],
       "optionReasons": {
-        "love-mcq-12": "本句指「透過照顧、支持、陪伴、言語或行動表達深厚關心」。",
-        "love-mcq-11": "「自己深愛和非常在乎的人，通常指家人或伴侶」是「loved one」的用法，與本句語境不同。",
-        "love-mcq-13": "「對自己的價值、需要和身心保持尊重與關愛」是「self-love」的用法，與本句語境不同。",
-        "love-mcq-10": "「最早產生深厚感情的人或最早真正熱愛的事物」是「first love」的用法，與本句語境不同。",
-        "love-mcq-14": "「網球計分中的零分」是「love — tennis」的用法，與本句語境不同。",
-        "love-mcq-09": "「被某人深深愛著的人，尤其常帶浪漫意味」是「love — loved person」的用法，與本句語境不同。"
+        "love-mcq-12": "本句的「love」指「透過照顧、支持、陪伴、言語或行動表達深厚關心」。",
+        "love-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-12"
     },
@@ -1462,11 +1350,9 @@ export default {
       "masked": "Small acts of kindness can communicate ____.",
       "options": [
         "love-mcq-12",
-        "love-mcq-11",
-        "love-mcq-13",
-        "love-mcq-10",
-        "love-mcq-14",
-        "love-mcq-09"
+        "love-mcq-17",
+        "love-mcq-04",
+        "love-mcq-16"
       ],
       "explanation": "本句的「love」指「透過照顧、支持、陪伴、言語或行動表達深厚關心」。",
       "sentenceIndex": 28,
@@ -1475,12 +1361,10 @@ export default {
         "love"
       ],
       "optionReasons": {
-        "love-mcq-12": "本句指「透過照顧、支持、陪伴、言語或行動表達深厚關心」。",
-        "love-mcq-11": "「自己深愛和非常在乎的人，通常指家人或伴侶」是「loved one」的用法，與本句語境不同。",
-        "love-mcq-13": "「對自己的價值、需要和身心保持尊重與關愛」是「self-love」的用法，與本句語境不同。",
-        "love-mcq-10": "「最早產生深厚感情的人或最早真正熱愛的事物」是「first love」的用法，與本句語境不同。",
-        "love-mcq-14": "「網球計分中的零分」是「love — tennis」的用法，與本句語境不同。",
-        "love-mcq-09": "「被某人深深愛著的人，尤其常帶浪漫意味」是「love — loved person」的用法，與本句語境不同。"
+        "love-mcq-12": "本句的「love」指「透過照顧、支持、陪伴、言語或行動表達深厚關心」。",
+        "love-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-12"
     },
@@ -1492,11 +1376,9 @@ export default {
       "masked": "Healthy ____ includes respecting your own needs.",
       "options": [
         "love-mcq-13",
-        "love-mcq-12",
-        "love-mcq-14",
-        "love-mcq-11",
-        "love-mcq-15",
-        "love-mcq-10"
+        "love-mcq-03",
+        "love-pdf-001",
+        "love-mcq-14"
       ],
       "explanation": "本句的「self-love」指「對自己的價值、需要和身心保持尊重與關愛」。",
       "sentenceIndex": 29,
@@ -1505,12 +1387,10 @@ export default {
         "self-love"
       ],
       "optionReasons": {
-        "love-mcq-13": "本句指「對自己的價值、需要和身心保持尊重與關愛」。",
-        "love-mcq-12": "「透過照顧、支持、陪伴、言語或行動表達深厚關心」是「show love」的用法，與本句語境不同。",
-        "love-mcq-14": "「網球計分中的零分」是「love — tennis」的用法，與本句語境不同。",
-        "love-mcq-11": "「自己深愛和非常在乎的人，通常指家人或伴侶」是「loved one」的用法，與本句語境不同。",
-        "love-mcq-15": "「經常表現出愛、關懷、溫柔和照顧的」是「loving」的用法，與本句語境不同。",
-        "love-mcq-10": "「最早產生深厚感情的人或最早真正熱愛的事物」是「first love」的用法，與本句語境不同。"
+        "love-mcq-13": "本句的「self-love」指「對自己的價值、需要和身心保持尊重與關愛」。",
+        "love-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "love-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-13"
     },
@@ -1522,11 +1402,9 @@ export default {
       "masked": "She learned that ____ is different from selfishness.",
       "options": [
         "love-mcq-13",
-        "love-mcq-12",
+        "love-pdf-001",
         "love-mcq-14",
-        "love-mcq-11",
-        "love-mcq-15",
-        "love-mcq-10"
+        "love-mcq-24"
       ],
       "explanation": "本句的「self-love」指「對自己的價值、需要和身心保持尊重與關愛」。",
       "sentenceIndex": 30,
@@ -1535,12 +1413,10 @@ export default {
         "self-love"
       ],
       "optionReasons": {
-        "love-mcq-13": "本句指「對自己的價值、需要和身心保持尊重與關愛」。",
-        "love-mcq-12": "「透過照顧、支持、陪伴、言語或行動表達深厚關心」是「show love」的用法，與本句語境不同。",
-        "love-mcq-14": "「網球計分中的零分」是「love — tennis」的用法，與本句語境不同。",
-        "love-mcq-11": "「自己深愛和非常在乎的人，通常指家人或伴侶」是「loved one」的用法，與本句語境不同。",
-        "love-mcq-15": "「經常表現出愛、關懷、溫柔和照顧的」是「loving」的用法，與本句語境不同。",
-        "love-mcq-10": "「最早產生深厚感情的人或最早真正熱愛的事物」是「first love」的用法，與本句語境不同。"
+        "love-mcq-13": "本句的「self-love」指「對自己的價值、需要和身心保持尊重與關愛」。",
+        "love-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-13"
     },
@@ -1553,10 +1429,8 @@ export default {
       "options": [
         "love-mcq-08",
         "love-mcq-07",
-        "love-mcq-09",
-        "love-mcq-06",
-        "love-mcq-10",
-        "love-mcq-05"
+        "love-mcq-03",
+        "love-mcq-14"
       ],
       "explanation": "本句的「love」指「對某個人、領域或活動持久而強烈的熱愛」。",
       "sentenceIndex": 31,
@@ -1565,12 +1439,10 @@ export default {
         "love"
       ],
       "optionReasons": {
-        "love-mcq-08": "本句指「對某個人、領域或活動持久而強烈的熱愛」。",
-        "love-mcq-07": "「非常想做某事，或很樂意接受邀請」是「would love to」的用法，與本句語境不同。",
-        "love-mcq-09": "「被某人深深愛著的人，尤其常帶浪漫意味」是「love — loved person」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。",
-        "love-mcq-10": "「最早產生深厚感情的人或最早真正熱愛的事物」是「first love」的用法，與本句語境不同。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。"
+        "love-mcq-08": "本句的「love」指「對某個人、領域或活動持久而強烈的熱愛」。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-08"
     },
@@ -1582,11 +1454,9 @@ export default {
       "masked": "Her ____ for animals led her to become a vet.",
       "options": [
         "love-mcq-08",
-        "love-mcq-07",
-        "love-mcq-09",
-        "love-mcq-06",
-        "love-mcq-10",
-        "love-mcq-05"
+        "love-mcq-01",
+        "love-mcq-14",
+        "love-mcq-07"
       ],
       "explanation": "本句的「love」指「對某個人、領域或活動持久而強烈的熱愛」。",
       "sentenceIndex": 32,
@@ -1595,12 +1465,10 @@ export default {
         "love"
       ],
       "optionReasons": {
-        "love-mcq-08": "本句指「對某個人、領域或活動持久而強烈的熱愛」。",
-        "love-mcq-07": "「非常想做某事，或很樂意接受邀請」是「would love to」的用法，與本句語境不同。",
-        "love-mcq-09": "「被某人深深愛著的人，尤其常帶浪漫意味」是「love — loved person」的用法，與本句語境不同。",
-        "love-mcq-06": "「非常喜歡並享受某件事或活動」是「love something/doing something」的用法，與本句語境不同。",
-        "love-mcq-10": "「最早產生深厚感情的人或最早真正熱愛的事物」是「first love」的用法，與本句語境不同。",
-        "love-mcq-05": "「開始對某人產生浪漫愛情」是「fall in love」的用法，與本句語境不同。"
+        "love-mcq-08": "本句的「love」指「對某個人、領域或活動持久而強烈的熱愛」。",
+        "love-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-08"
     },
@@ -1612,11 +1480,9 @@ export default {
       "masked": "The score is fifteen-____.",
       "options": [
         "love-mcq-14",
-        "love-mcq-13",
-        "love-mcq-15",
         "love-mcq-12",
-        "love-mcq-16",
-        "love-mcq-11"
+        "love-mcq-20",
+        "love-mcq-19"
       ],
       "explanation": "本句的「love」指「網球計分中的零分」。",
       "sentenceIndex": 33,
@@ -1625,12 +1491,10 @@ export default {
         "love"
       ],
       "optionReasons": {
-        "love-mcq-14": "本句指「網球計分中的零分」。",
-        "love-mcq-13": "「對自己的價值、需要和身心保持尊重與關愛」是「self-love」的用法，與本句語境不同。",
-        "love-mcq-15": "「經常表現出愛、關懷、溫柔和照顧的」是「loving」的用法，與本句語境不同。",
-        "love-mcq-12": "「透過照顧、支持、陪伴、言語或行動表達深厚關心」是「show love」的用法，與本句語境不同。",
-        "love-mcq-16": "「以充滿愛、溫柔和關懷的方式」是「lovingly」的用法，與本句語境不同。",
-        "love-mcq-11": "「自己深愛和非常在乎的人，通常指家人或伴侶」是「loved one」的用法，與本句語境不同。"
+        "love-mcq-14": "本句的「love」指「網球計分中的零分」。",
+        "love-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-14"
     },
@@ -1642,11 +1506,9 @@ export default {
       "masked": "She won the game forty-____.",
       "options": [
         "love-mcq-14",
-        "love-mcq-13",
-        "love-mcq-15",
-        "love-mcq-12",
-        "love-mcq-16",
-        "love-mcq-11"
+        "love-mcq-05",
+        "love-mcq-06",
+        "love-mcq-15"
       ],
       "explanation": "本句的「love」指「網球計分中的零分」。",
       "sentenceIndex": 34,
@@ -1655,12 +1517,10 @@ export default {
         "love"
       ],
       "optionReasons": {
-        "love-mcq-14": "本句指「網球計分中的零分」。",
-        "love-mcq-13": "「對自己的價值、需要和身心保持尊重與關愛」是「self-love」的用法，與本句語境不同。",
-        "love-mcq-15": "「經常表現出愛、關懷、溫柔和照顧的」是「loving」的用法，與本句語境不同。",
-        "love-mcq-12": "「透過照顧、支持、陪伴、言語或行動表達深厚關心」是「show love」的用法，與本句語境不同。",
-        "love-mcq-16": "「以充滿愛、溫柔和關懷的方式」是「lovingly」的用法，與本句語境不同。",
-        "love-mcq-11": "「自己深愛和非常在乎的人，通常指家人或伴侶」是「loved one」的用法，與本句語境不同。"
+        "love-mcq-14": "本句的「love」指「網球計分中的零分」。",
+        "love-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-14"
     },
@@ -1673,10 +1533,8 @@ export default {
       "options": [
         "love-mcq-15",
         "love-mcq-14",
-        "love-mcq-16",
-        "love-mcq-13",
-        "love-mcq-17",
-        "love-mcq-12"
+        "love-mcq-01",
+        "love-mcq-21"
       ],
       "explanation": "本句的「loving」指「經常表現出愛、關懷、溫柔和照顧的」。",
       "sentenceIndex": 35,
@@ -1685,12 +1543,10 @@ export default {
         "loving"
       ],
       "optionReasons": {
-        "love-mcq-15": "本句指「經常表現出愛、關懷、溫柔和照顧的」。",
-        "love-mcq-14": "「網球計分中的零分」是「love — tennis」的用法，與本句語境不同。",
-        "love-mcq-16": "「以充滿愛、溫柔和關懷的方式」是「lovingly」的用法，與本句語境不同。",
-        "love-mcq-13": "「對自己的價值、需要和身心保持尊重與關愛」是「self-love」的用法，與本句語境不同。",
-        "love-mcq-17": "「性格或特質容易令人產生喜愛和感情的」是「lovable」的用法，與本句語境不同。",
-        "love-mcq-12": "「透過照顧、支持、陪伴、言語或行動表達深厚關心」是「show love」的用法，與本句語境不同。"
+        "love-mcq-15": "本句的「loving」指「經常表現出愛、關懷、溫柔和照顧的」。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-15"
     },
@@ -1702,11 +1558,9 @@ export default {
       "masked": "The children grew up in a ____ home.",
       "options": [
         "love-mcq-15",
-        "love-mcq-14",
-        "love-mcq-16",
-        "love-mcq-13",
-        "love-mcq-17",
-        "love-mcq-12"
+        "love-mcq-24",
+        "love-mcq-21",
+        "love-mcq-14"
       ],
       "explanation": "本句的「loving」指「經常表現出愛、關懷、溫柔和照顧的」。",
       "sentenceIndex": 36,
@@ -1715,12 +1569,10 @@ export default {
         "loving"
       ],
       "optionReasons": {
-        "love-mcq-15": "本句指「經常表現出愛、關懷、溫柔和照顧的」。",
-        "love-mcq-14": "「網球計分中的零分」是「love — tennis」的用法，與本句語境不同。",
-        "love-mcq-16": "「以充滿愛、溫柔和關懷的方式」是「lovingly」的用法，與本句語境不同。",
-        "love-mcq-13": "「對自己的價值、需要和身心保持尊重與關愛」是「self-love」的用法，與本句語境不同。",
-        "love-mcq-17": "「性格或特質容易令人產生喜愛和感情的」是「lovable」的用法，與本句語境不同。",
-        "love-mcq-12": "「透過照顧、支持、陪伴、言語或行動表達深厚關心」是「show love」的用法，與本句語境不同。"
+        "love-mcq-15": "本句的「loving」指「經常表現出愛、關懷、溫柔和照顧的」。",
+        "love-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-15"
     },
@@ -1732,11 +1584,9 @@ export default {
       "masked": "She ____ prepared food for the family.",
       "options": [
         "love-mcq-16",
-        "love-mcq-15",
-        "love-mcq-17",
         "love-mcq-14",
-        "love-mcq-18",
-        "love-mcq-13"
+        "love-mcq-07",
+        "love-mcq-21"
       ],
       "explanation": "本句的「lovingly」指「以充滿愛、溫柔和關懷的方式」。",
       "sentenceIndex": 37,
@@ -1745,12 +1595,10 @@ export default {
         "lovingly"
       ],
       "optionReasons": {
-        "love-mcq-16": "本句指「以充滿愛、溫柔和關懷的方式」。",
-        "love-mcq-15": "「經常表現出愛、關懷、溫柔和照顧的」是「loving」的用法，與本句語境不同。",
-        "love-mcq-17": "「性格或特質容易令人產生喜愛和感情的」是「lovable」的用法，與本句語境不同。",
-        "love-mcq-14": "「網球計分中的零分」是「love — tennis」的用法，與本句語境不同。",
-        "love-mcq-18": "「被深深愛著、珍惜或廣受愛戴的」是「beloved」的用法，與本句語境不同。",
-        "love-mcq-13": "「對自己的價值、需要和身心保持尊重與關愛」是「self-love」的用法，與本句語境不同。"
+        "love-mcq-16": "本句的「lovingly」指「以充滿愛、溫柔和關懷的方式」。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-16"
     },
@@ -1762,11 +1610,9 @@ export default {
       "masked": "He spoke ____ about his grandmother.",
       "options": [
         "love-mcq-16",
-        "love-mcq-15",
-        "love-mcq-17",
         "love-mcq-14",
-        "love-mcq-18",
-        "love-mcq-13"
+        "love-mcq-21",
+        "love-mcq-12"
       ],
       "explanation": "本句的「lovingly」指「以充滿愛、溫柔和關懷的方式」。",
       "sentenceIndex": 38,
@@ -1775,12 +1621,10 @@ export default {
         "lovingly"
       ],
       "optionReasons": {
-        "love-mcq-16": "本句指「以充滿愛、溫柔和關懷的方式」。",
-        "love-mcq-15": "「經常表現出愛、關懷、溫柔和照顧的」是「loving」的用法，與本句語境不同。",
-        "love-mcq-17": "「性格或特質容易令人產生喜愛和感情的」是「lovable」的用法，與本句語境不同。",
-        "love-mcq-14": "「網球計分中的零分」是「love — tennis」的用法，與本句語境不同。",
-        "love-mcq-18": "「被深深愛著、珍惜或廣受愛戴的」是「beloved」的用法，與本句語境不同。",
-        "love-mcq-13": "「對自己的價值、需要和身心保持尊重與關愛」是「self-love」的用法，與本句語境不同。"
+        "love-mcq-16": "本句的「lovingly」指「以充滿愛、溫柔和關懷的方式」。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-16"
     },
@@ -1792,10 +1636,8 @@ export default {
       "masked": "He can be difficult, but he is still very ____.",
       "options": [
         "love-mcq-17",
-        "love-mcq-16",
-        "love-mcq-18",
-        "love-mcq-15",
-        "love-mcq-19",
+        "love-mcq-07",
+        "love-mcq-12",
         "love-mcq-14"
       ],
       "explanation": "本句的「lovable」指「性格或特質容易令人產生喜愛和感情的」。",
@@ -1805,12 +1647,10 @@ export default {
         "lovable"
       ],
       "optionReasons": {
-        "love-mcq-17": "本句指「性格或特質容易令人產生喜愛和感情的」。",
-        "love-mcq-16": "「以充滿愛、溫柔和關懷的方式」是「lovingly」的用法，與本句語境不同。",
-        "love-mcq-18": "「被深深愛著、珍惜或廣受愛戴的」是「beloved」的用法，與本句語境不同。",
-        "love-mcq-15": "「經常表現出愛、關懷、溫柔和照顧的」是「loving」的用法，與本句語境不同。",
-        "love-mcq-19": "「與某人有浪漫或性關係的人」是「lover — romantic」的用法，與本句語境不同。",
-        "love-mcq-14": "「網球計分中的零分」是「love — tennis」的用法，與本句語境不同。"
+        "love-mcq-17": "本句的「lovable」指「性格或特質容易令人產生喜愛和感情的」。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-17"
     },
@@ -1822,11 +1662,9 @@ export default {
       "masked": "The character is funny and ____.",
       "options": [
         "love-mcq-17",
-        "love-mcq-16",
-        "love-mcq-18",
-        "love-mcq-15",
-        "love-mcq-19",
-        "love-mcq-14"
+        "love-mcq-14",
+        "love-mcq-12",
+        "love-mcq-07"
       ],
       "explanation": "本句的「lovable」指「性格或特質容易令人產生喜愛和感情的」。",
       "sentenceIndex": 40,
@@ -1835,12 +1673,10 @@ export default {
         "lovable"
       ],
       "optionReasons": {
-        "love-mcq-17": "本句指「性格或特質容易令人產生喜愛和感情的」。",
-        "love-mcq-16": "「以充滿愛、溫柔和關懷的方式」是「lovingly」的用法，與本句語境不同。",
-        "love-mcq-18": "「被深深愛著、珍惜或廣受愛戴的」是「beloved」的用法，與本句語境不同。",
-        "love-mcq-15": "「經常表現出愛、關懷、溫柔和照顧的」是「loving」的用法，與本句語境不同。",
-        "love-mcq-19": "「與某人有浪漫或性關係的人」是「lover — romantic」的用法，與本句語境不同。",
-        "love-mcq-14": "「網球計分中的零分」是「love — tennis」的用法，與本句語境不同。"
+        "love-mcq-17": "本句的「lovable」指「性格或特質容易令人產生喜愛和感情的」。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-17"
     },
@@ -1852,11 +1688,9 @@ export default {
       "masked": "She was a ____ grandmother.",
       "options": [
         "love-mcq-18",
-        "love-mcq-17",
-        "love-mcq-19",
-        "love-mcq-16",
-        "love-mcq-20",
-        "love-mcq-15"
+        "love-pdf-001",
+        "love-mcq-14",
+        "love-mcq-24"
       ],
       "explanation": "本句的「beloved」指「被深深愛著、珍惜或廣受愛戴的」。",
       "sentenceIndex": 41,
@@ -1865,12 +1699,10 @@ export default {
         "beloved"
       ],
       "optionReasons": {
-        "love-mcq-18": "本句指「被深深愛著、珍惜或廣受愛戴的」。",
-        "love-mcq-17": "「性格或特質容易令人產生喜愛和感情的」是「lovable」的用法，與本句語境不同。",
-        "love-mcq-19": "「與某人有浪漫或性關係的人」是「lover — romantic」的用法，與本句語境不同。",
-        "love-mcq-16": "「以充滿愛、溫柔和關懷的方式」是「lovingly」的用法，與本句語境不同。",
-        "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。",
-        "love-mcq-15": "「經常表現出愛、關懷、溫柔和照顧的」是「loving」的用法，與本句語境不同。"
+        "love-mcq-18": "本句的「beloved」指「被深深愛著、珍惜或廣受愛戴的」。",
+        "love-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-18"
     },
@@ -1882,11 +1714,9 @@ export default {
       "masked": "The writer returned to his ____ hometown.",
       "options": [
         "love-mcq-18",
-        "love-mcq-17",
-        "love-mcq-19",
-        "love-mcq-16",
-        "love-mcq-20",
-        "love-mcq-15"
+        "love-mcq-24",
+        "love-mcq-21",
+        "love-mcq-14"
       ],
       "explanation": "本句的「beloved」指「被深深愛著、珍惜或廣受愛戴的」。",
       "sentenceIndex": 42,
@@ -1895,12 +1725,10 @@ export default {
         "beloved"
       ],
       "optionReasons": {
-        "love-mcq-18": "本句指「被深深愛著、珍惜或廣受愛戴的」。",
-        "love-mcq-17": "「性格或特質容易令人產生喜愛和感情的」是「lovable」的用法，與本句語境不同。",
-        "love-mcq-19": "「與某人有浪漫或性關係的人」是「lover — romantic」的用法，與本句語境不同。",
-        "love-mcq-16": "「以充滿愛、溫柔和關懷的方式」是「lovingly」的用法，與本句語境不同。",
-        "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。",
-        "love-mcq-15": "「經常表現出愛、關懷、溫柔和照顧的」是「loving」的用法，與本句語境不同。"
+        "love-mcq-18": "本句的「beloved」指「被深深愛著、珍惜或廣受愛戴的」。",
+        "love-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-18"
     },
@@ -1912,11 +1740,9 @@ export default {
       "masked": "The story follows two young ____.",
       "options": [
         "love-mcq-19",
-        "love-mcq-18",
         "love-mcq-20",
-        "love-mcq-17",
-        "love-mcq-21",
-        "love-mcq-16"
+        "love-mcq-16",
+        "love-mcq-14"
       ],
       "explanation": "本句的「lovers」指「與某人有浪漫或性關係的人」。",
       "sentenceIndex": 43,
@@ -1925,12 +1751,10 @@ export default {
         "lovers"
       ],
       "optionReasons": {
-        "love-mcq-19": "本句指「與某人有浪漫或性關係的人」。",
-        "love-mcq-18": "「被深深愛著、珍惜或廣受愛戴的」是「beloved」的用法，與本句語境不同。",
-        "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。",
-        "love-mcq-17": "「性格或特質容易令人產生喜愛和感情的」是「lovable」的用法，與本句語境不同。",
-        "love-mcq-21": "「令人感到愉快、美好、吸引或親切的」是「lovely」的用法，與本句語境不同。",
-        "love-mcq-16": "「以充滿愛、溫柔和關懷的方式」是「lovingly」的用法，與本句語境不同。"
+        "love-mcq-19": "本句的「lovers」指「與某人有浪漫或性關係的人」。",
+        "love-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-19"
     },
@@ -1942,10 +1766,8 @@ export default {
       "masked": "They were childhood friends who later became ____.",
       "options": [
         "love-mcq-19",
-        "love-mcq-18",
-        "love-mcq-20",
-        "love-mcq-17",
-        "love-mcq-21",
+        "love-mcq-11",
+        "love-mcq-10",
         "love-mcq-16"
       ],
       "explanation": "本句的「lovers」指「與某人有浪漫或性關係的人」。",
@@ -1955,12 +1777,10 @@ export default {
         "lovers"
       ],
       "optionReasons": {
-        "love-mcq-19": "本句指「與某人有浪漫或性關係的人」。",
-        "love-mcq-18": "「被深深愛著、珍惜或廣受愛戴的」是「beloved」的用法，與本句語境不同。",
-        "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。",
-        "love-mcq-17": "「性格或特質容易令人產生喜愛和感情的」是「lovable」的用法，與本句語境不同。",
-        "love-mcq-21": "「令人感到愉快、美好、吸引或親切的」是「lovely」的用法，與本句語境不同。",
-        "love-mcq-16": "「以充滿愛、溫柔和關懷的方式」是「lovingly」的用法，與本句語境不同。"
+        "love-mcq-19": "本句的「lovers」指「與某人有浪漫或性關係的人」。",
+        "love-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-19"
     },
@@ -1972,11 +1792,9 @@ export default {
       "masked": "She is a ____ classical music.",
       "options": [
         "love-mcq-20",
-        "love-mcq-19",
-        "love-mcq-21",
-        "love-mcq-18",
-        "love-mcq-22",
-        "love-mcq-17"
+        "love-mcq-14",
+        "love-mcq-24",
+        "love-mcq-12"
       ],
       "explanation": "本句的「lover of」指「非常熱愛某個活動、藝術或事物的人」。",
       "sentenceIndex": 45,
@@ -1985,12 +1803,10 @@ export default {
         "lover of"
       ],
       "optionReasons": {
-        "love-mcq-20": "本句指「非常熱愛某個活動、藝術或事物的人」。",
-        "love-mcq-19": "「與某人有浪漫或性關係的人」是「lover — romantic」的用法，與本句語境不同。",
-        "love-mcq-21": "「令人感到愉快、美好、吸引或親切的」是「lovely」的用法，與本句語境不同。",
-        "love-mcq-18": "「被深深愛著、珍惜或廣受愛戴的」是「beloved」的用法，與本句語境不同。",
-        "love-mcq-22": "「向某人表達浪漫愛意的信件」是「love letter」的用法，與本句語境不同。",
-        "love-mcq-17": "「性格或特質容易令人產生喜愛和感情的」是「lovable」的用法，與本句語境不同。"
+        "love-mcq-20": "本句的「lover of」指「非常熱愛某個活動、藝術或事物的人」。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-20"
     },
@@ -2002,11 +1818,9 @@ export default {
       "masked": "He has always been a ____ books.",
       "options": [
         "love-mcq-20",
+        "love-mcq-14",
         "love-mcq-19",
-        "love-mcq-21",
-        "love-mcq-18",
-        "love-mcq-22",
-        "love-mcq-17"
+        "love-mcq-02"
       ],
       "explanation": "本句的「lover of」指「非常熱愛某個活動、藝術或事物的人」。",
       "sentenceIndex": 46,
@@ -2015,12 +1829,10 @@ export default {
         "lover of"
       ],
       "optionReasons": {
-        "love-mcq-20": "本句指「非常熱愛某個活動、藝術或事物的人」。",
-        "love-mcq-19": "「與某人有浪漫或性關係的人」是「lover — romantic」的用法，與本句語境不同。",
-        "love-mcq-21": "「令人感到愉快、美好、吸引或親切的」是「lovely」的用法，與本句語境不同。",
-        "love-mcq-18": "「被深深愛著、珍惜或廣受愛戴的」是「beloved」的用法，與本句語境不同。",
-        "love-mcq-22": "「向某人表達浪漫愛意的信件」是「love letter」的用法，與本句語境不同。",
-        "love-mcq-17": "「性格或特質容易令人產生喜愛和感情的」是「lovable」的用法，與本句語境不同。"
+        "love-mcq-20": "本句的「lover of」指「非常熱愛某個活動、藝術或事物的人」。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-20"
     },
@@ -2032,11 +1844,9 @@ export default {
       "masked": "She has a ____ smile.",
       "options": [
         "love-mcq-21",
-        "love-mcq-20",
-        "love-mcq-22",
-        "love-mcq-19",
-        "love-mcq-23",
-        "love-mcq-18"
+        "love-mcq-11",
+        "love-mcq-16",
+        "love-mcq-04"
       ],
       "explanation": "本句的「lovely」指「令人感到愉快、美好、吸引或親切的」。",
       "sentenceIndex": 47,
@@ -2045,12 +1855,10 @@ export default {
         "lovely"
       ],
       "optionReasons": {
-        "love-mcq-21": "本句指「令人感到愉快、美好、吸引或親切的」。",
-        "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。",
-        "love-mcq-22": "「向某人表達浪漫愛意的信件」是「love letter」的用法，與本句語境不同。",
-        "love-mcq-19": "「與某人有浪漫或性關係的人」是「lover — romantic」的用法，與本句語境不同。",
-        "love-mcq-23": "「以浪漫愛情和感情關係為主要內容的故事」是「love story」的用法，與本句語境不同。",
-        "love-mcq-18": "「被深深愛著、珍惜或廣受愛戴的」是「beloved」的用法，與本句語境不同。"
+        "love-mcq-21": "本句的「lovely」指「令人感到愉快、美好、吸引或親切的」。",
+        "love-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-21"
     },
@@ -2062,11 +1870,9 @@ export default {
       "masked": "We had a ____ afternoon together.",
       "options": [
         "love-mcq-21",
-        "love-mcq-20",
-        "love-mcq-22",
-        "love-mcq-19",
-        "love-mcq-23",
-        "love-mcq-18"
+        "love-mcq-12",
+        "love-mcq-13",
+        "love-mcq-07"
       ],
       "explanation": "本句的「lovely」指「令人感到愉快、美好、吸引或親切的」。",
       "sentenceIndex": 48,
@@ -2075,12 +1881,10 @@ export default {
         "lovely"
       ],
       "optionReasons": {
-        "love-mcq-21": "本句指「令人感到愉快、美好、吸引或親切的」。",
-        "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。",
-        "love-mcq-22": "「向某人表達浪漫愛意的信件」是「love letter」的用法，與本句語境不同。",
-        "love-mcq-19": "「與某人有浪漫或性關係的人」是「lover — romantic」的用法，與本句語境不同。",
-        "love-mcq-23": "「以浪漫愛情和感情關係為主要內容的故事」是「love story」的用法，與本句語境不同。",
-        "love-mcq-18": "「被深深愛著、珍惜或廣受愛戴的」是「beloved」的用法，與本句語境不同。"
+        "love-mcq-21": "本句的「lovely」指「令人感到愉快、美好、吸引或親切的」。",
+        "love-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-21"
     },
@@ -2092,11 +1896,9 @@ export default {
       "masked": "Your grandmother sounds ____.",
       "options": [
         "love-pdf-001",
-        "love-mcq-20",
-        "love-mcq-22",
-        "love-mcq-19",
-        "love-mcq-23",
-        "love-mcq-18"
+        "love-mcq-14",
+        "love-mcq-13",
+        "love-mcq-12"
       ],
       "explanation": "本句的「lovely」指「形容一個人的性格或待人方式令人喜歡、感到溫暖」。",
       "sentenceIndex": 49,
@@ -2105,12 +1907,10 @@ export default {
         "lovely"
       ],
       "optionReasons": {
-        "love-pdf-001": "本句指「形容一個人的性格或待人方式令人喜歡、感到溫暖」。",
-        "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。",
-        "love-mcq-22": "「向某人表達浪漫愛意的信件」是「love letter」的用法，與本句語境不同。",
-        "love-mcq-19": "「與某人有浪漫或性關係的人」是「lover — romantic」的用法，與本句語境不同。",
-        "love-mcq-23": "「以浪漫愛情和感情關係為主要內容的故事」是「love story」的用法，與本句語境不同。",
-        "love-mcq-18": "「被深深愛著、珍惜或廣受愛戴的」是「beloved」的用法，與本句語境不同。"
+        "love-pdf-001": "本句的「lovely」指「形容一個人的性格或待人方式令人喜歡、感到溫暖」。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-pdf-001"
     },
@@ -2122,11 +1922,9 @@ export default {
       "masked": "Everyone says she is absolutely ____.",
       "options": [
         "love-pdf-001",
-        "love-mcq-20",
-        "love-mcq-22",
-        "love-mcq-19",
-        "love-mcq-23",
-        "love-mcq-18"
+        "love-mcq-25",
+        "love-mcq-13",
+        "love-mcq-14"
       ],
       "explanation": "本句的「lovely」指「形容一個人的性格或待人方式令人喜歡、感到溫暖」。",
       "sentenceIndex": 50,
@@ -2135,12 +1933,10 @@ export default {
         "lovely"
       ],
       "optionReasons": {
-        "love-pdf-001": "本句指「形容一個人的性格或待人方式令人喜歡、感到溫暖」。",
-        "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。",
-        "love-mcq-22": "「向某人表達浪漫愛意的信件」是「love letter」的用法，與本句語境不同。",
-        "love-mcq-19": "「與某人有浪漫或性關係的人」是「lover — romantic」的用法，與本句語境不同。",
-        "love-mcq-23": "「以浪漫愛情和感情關係為主要內容的故事」是「love story」的用法，與本句語境不同。",
-        "love-mcq-18": "「被深深愛著、珍惜或廣受愛戴的」是「beloved」的用法，與本句語境不同。"
+        "love-pdf-001": "本句的「lovely」指「形容一個人的性格或待人方式令人喜歡、感到溫暖」。",
+        "love-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-pdf-001"
     },
@@ -2153,10 +1949,8 @@ export default {
       "options": [
         "love-mcq-22",
         "love-mcq-21",
-        "love-mcq-23",
-        "love-mcq-20",
-        "love-mcq-24",
-        "love-mcq-19"
+        "love-mcq-14",
+        "love-mcq-07"
       ],
       "explanation": "本句的「love letter」指「向某人表達浪漫愛意的信件」。",
       "sentenceIndex": 51,
@@ -2165,12 +1959,10 @@ export default {
         "love letter"
       ],
       "optionReasons": {
-        "love-mcq-22": "本句指「向某人表達浪漫愛意的信件」。",
-        "love-mcq-21": "「令人感到愉快、美好、吸引或親切的」是「lovely」的用法，與本句語境不同。",
-        "love-mcq-23": "「以浪漫愛情和感情關係為主要內容的故事」是「love story」的用法，與本句語境不同。",
-        "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。",
-        "love-mcq-24": "「第一次見面便立即產生強烈浪漫感情」是「love at first sight」的用法，與本句語境不同。",
-        "love-mcq-19": "「與某人有浪漫或性關係的人」是「lover — romantic」的用法，與本句語境不同。"
+        "love-mcq-22": "本句的「love letter」指「向某人表達浪漫愛意的信件」。",
+        "love-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-22"
     },
@@ -2183,10 +1975,8 @@ export default {
       "options": [
         "love-mcq-22",
         "love-mcq-21",
-        "love-mcq-23",
-        "love-mcq-20",
-        "love-mcq-24",
-        "love-mcq-19"
+        "love-mcq-14",
+        "love-mcq-11"
       ],
       "explanation": "本句的「love letters」指「向某人表達浪漫愛意的信件」。",
       "sentenceIndex": 52,
@@ -2195,12 +1985,10 @@ export default {
         "love letters"
       ],
       "optionReasons": {
-        "love-mcq-22": "本句指「向某人表達浪漫愛意的信件」。",
-        "love-mcq-21": "「令人感到愉快、美好、吸引或親切的」是「lovely」的用法，與本句語境不同。",
-        "love-mcq-23": "「以浪漫愛情和感情關係為主要內容的故事」是「love story」的用法，與本句語境不同。",
-        "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。",
-        "love-mcq-24": "「第一次見面便立即產生強烈浪漫感情」是「love at first sight」的用法，與本句語境不同。",
-        "love-mcq-19": "「與某人有浪漫或性關係的人」是「lover — romantic」的用法，與本句語境不同。"
+        "love-mcq-22": "本句的「love letters」指「向某人表達浪漫愛意的信件」。",
+        "love-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-22"
     },
@@ -2212,11 +2000,9 @@ export default {
       "masked": "The film is a moving ____.",
       "options": [
         "love-mcq-23",
-        "love-mcq-22",
-        "love-mcq-24",
-        "love-mcq-21",
-        "love-mcq-25",
-        "love-mcq-20"
+        "love-mcq-06",
+        "love-mcq-12",
+        "love-mcq-14"
       ],
       "explanation": "本句的「love story」指「以浪漫愛情和感情關係為主要內容的故事」。",
       "sentenceIndex": 53,
@@ -2225,12 +2011,10 @@ export default {
         "love story"
       ],
       "optionReasons": {
-        "love-mcq-23": "本句指「以浪漫愛情和感情關係為主要內容的故事」。",
-        "love-mcq-22": "「向某人表達浪漫愛意的信件」是「love letter」的用法，與本句語境不同。",
-        "love-mcq-24": "「第一次見面便立即產生強烈浪漫感情」是「love at first sight」的用法，與本句語境不同。",
-        "love-mcq-21": "「令人感到愉快、美好、吸引或親切的」是「lovely」的用法，與本句語境不同。",
-        "love-mcq-25": "「表示她對孩子表現出親切愛護」是「29. for the love of God / for love's sake（感嘆／較固定） — 拜託；看在……份上」的用法，與本句語境不同。",
-        "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。"
+        "love-mcq-23": "本句的「love story」指「以浪漫愛情和感情關係為主要內容的故事」。",
+        "love-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-23"
     },
@@ -2242,11 +2026,9 @@ export default {
       "masked": "Their relationship became a famous ____.",
       "options": [
         "love-mcq-23",
-        "love-mcq-22",
-        "love-mcq-24",
-        "love-mcq-21",
-        "love-mcq-25",
-        "love-mcq-20"
+        "love-mcq-14",
+        "love-mcq-07",
+        "love-mcq-12"
       ],
       "explanation": "本句的「love story」指「以浪漫愛情和感情關係為主要內容的故事」。",
       "sentenceIndex": 54,
@@ -2255,12 +2037,10 @@ export default {
         "love story"
       ],
       "optionReasons": {
-        "love-mcq-23": "本句指「以浪漫愛情和感情關係為主要內容的故事」。",
-        "love-mcq-22": "「向某人表達浪漫愛意的信件」是「love letter」的用法，與本句語境不同。",
-        "love-mcq-24": "「第一次見面便立即產生強烈浪漫感情」是「love at first sight」的用法，與本句語境不同。",
-        "love-mcq-21": "「令人感到愉快、美好、吸引或親切的」是「lovely」的用法，與本句語境不同。",
-        "love-mcq-25": "「表示她對孩子表現出親切愛護」是「29. for the love of God / for love's sake（感嘆／較固定） — 拜託；看在……份上」的用法，與本句語境不同。",
-        "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。"
+        "love-mcq-23": "本句的「love story」指「以浪漫愛情和感情關係為主要內容的故事」。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-23"
     },
@@ -2272,11 +2052,9 @@ export default {
       "masked": "For him, it was ____.",
       "options": [
         "love-mcq-24",
-        "love-mcq-23",
         "love-mcq-25",
-        "love-mcq-22",
-        "love-mcq-21",
-        "love-mcq-20"
+        "love-mcq-02",
+        "love-mcq-06"
       ],
       "explanation": "本句的「love at first sight」指「第一次見面便立即產生強烈浪漫感情」。",
       "sentenceIndex": 55,
@@ -2285,12 +2063,10 @@ export default {
         "love at first sight"
       ],
       "optionReasons": {
-        "love-mcq-24": "本句指「第一次見面便立即產生強烈浪漫感情」。",
-        "love-mcq-23": "「以浪漫愛情和感情關係為主要內容的故事」是「love story」的用法，與本句語境不同。",
-        "love-mcq-25": "「表示她對孩子表現出親切愛護」是「29. for the love of God / for love's sake（感嘆／較固定） — 拜託；看在……份上」的用法，與本句語境不同。",
-        "love-mcq-22": "「向某人表達浪漫愛意的信件」是「love letter」的用法，與本句語境不同。",
-        "love-mcq-21": "「令人感到愉快、美好、吸引或親切的」是「lovely」的用法，與本句語境不同。",
-        "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。"
+        "love-mcq-24": "本句的「love at first sight」指「第一次見面便立即產生強烈浪漫感情」。",
+        "love-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-24"
     },
@@ -2302,11 +2078,9 @@ export default {
       "masked": "They joked that theirs was ____.",
       "options": [
         "love-mcq-24",
-        "love-mcq-23",
-        "love-mcq-25",
-        "love-mcq-22",
-        "love-mcq-21",
-        "love-mcq-20"
+        "love-mcq-02",
+        "love-mcq-15",
+        "love-mcq-14"
       ],
       "explanation": "本句的「love at first sight」指「第一次見面便立即產生強烈浪漫感情」。",
       "sentenceIndex": 56,
@@ -2315,12 +2089,10 @@ export default {
         "love at first sight"
       ],
       "optionReasons": {
-        "love-mcq-24": "本句指「第一次見面便立即產生強烈浪漫感情」。",
-        "love-mcq-23": "「以浪漫愛情和感情關係為主要內容的故事」是「love story」的用法，與本句語境不同。",
-        "love-mcq-25": "「表示她對孩子表現出親切愛護」是「29. for the love of God / for love's sake（感嘆／較固定） — 拜託；看在……份上」的用法，與本句語境不同。",
-        "love-mcq-22": "「向某人表達浪漫愛意的信件」是「love letter」的用法，與本句語境不同。",
-        "love-mcq-21": "「令人感到愉快、美好、吸引或親切的」是「lovely」的用法，與本句語境不同。",
-        "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。"
+        "love-mcq-24": "本句的「love at first sight」指「第一次見面便立即產生強烈浪漫感情」。",
+        "love-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-24"
     },
@@ -2332,11 +2104,9 @@ export default {
       "masked": "For the ____, be careful!",
       "options": [
         "love-mcq-25",
-        "love-mcq-24",
-        "love-mcq-23",
-        "love-mcq-22",
-        "love-mcq-21",
-        "love-mcq-20"
+        "love-mcq-19",
+        "love-mcq-07",
+        "love-mcq-14"
       ],
       "explanation": "本句的「love of God」指「表示她對孩子表現出親切愛護」。",
       "sentenceIndex": 57,
@@ -2345,12 +2115,10 @@ export default {
         "love of God"
       ],
       "optionReasons": {
-        "love-mcq-25": "本句指「表示她對孩子表現出親切愛護」。",
-        "love-mcq-24": "「第一次見面便立即產生強烈浪漫感情」是「love at first sight」的用法，與本句語境不同。",
-        "love-mcq-23": "「以浪漫愛情和感情關係為主要內容的故事」是「love story」的用法，與本句語境不同。",
-        "love-mcq-22": "「向某人表達浪漫愛意的信件」是「love letter」的用法，與本句語境不同。",
-        "love-mcq-21": "「令人感到愉快、美好、吸引或親切的」是「lovely」的用法，與本句語境不同。",
-        "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。"
+        "love-mcq-25": "本句的「love of God」指「表示她對孩子表現出親切愛護」。",
+        "love-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-25"
     },
@@ -2362,11 +2130,9 @@ export default {
       "masked": "Do it for ____, not for money.",
       "options": [
         "love-mcq-25",
-        "love-mcq-24",
-        "love-mcq-23",
-        "love-mcq-22",
-        "love-mcq-21",
-        "love-mcq-20"
+        "love-mcq-19",
+        "love-mcq-06",
+        "love-mcq-14"
       ],
       "explanation": "本句的「love's sake」指「表示她對孩子表現出親切愛護」。",
       "sentenceIndex": 58,
@@ -2375,12 +2141,10 @@ export default {
         "love's sake"
       ],
       "optionReasons": {
-        "love-mcq-25": "本句指「表示她對孩子表現出親切愛護」。",
-        "love-mcq-24": "「第一次見面便立即產生強烈浪漫感情」是「love at first sight」的用法，與本句語境不同。",
-        "love-mcq-23": "「以浪漫愛情和感情關係為主要內容的故事」是「love story」的用法，與本句語境不同。",
-        "love-mcq-22": "「向某人表達浪漫愛意的信件」是「love letter」的用法，與本句語境不同。",
-        "love-mcq-21": "「令人感到愉快、美好、吸引或親切的」是「lovely」的用法，與本句語境不同。",
-        "love-mcq-20": "「非常熱愛某個活動、藝術或事物的人」是「lover of something」的用法，與本句語境不同。"
+        "love-mcq-25": "本句的「love's sake」指「表示她對孩子表現出親切愛護」。",
+        "love-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "love-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "love-mcq-25"
     }
@@ -2392,5 +2156,7 @@ export default {
     "sha256": "6e1b179edbeeb22113b382c39f392f6901fce61d39617d495b487b353426013c",
     "pages": 22
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

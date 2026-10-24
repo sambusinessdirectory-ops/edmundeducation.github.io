@@ -508,11 +508,9 @@ export default {
       "masked": "They ____ his accent.",
       "options": [
         "mock-mcq-02",
-        "mock-mcq-01",
-        "mock-mcq-03",
-        "mock-mcq-04",
-        "mock-mcq-05",
-        "mock-mcq-06"
+        "mock-mcq-18",
+        "mock-mcq-12",
+        "mock-mcq-23"
       ],
       "explanation": "本句的「mocked」指「因某特徵、行為或錯誤而嘲笑某人」。",
       "sentenceIndex": 2,
@@ -521,12 +519,10 @@ export default {
         "mocked"
       ],
       "optionReasons": {
-        "mock-mcq-02": "本句指「因某特徵、行為或錯誤而嘲笑某人」。",
-        "mock-mcq-01": "「以不尊重、蔑視的方式取笑／嘲笑某人」與本句語境不同。",
-        "mock-mcq-03": "「模仿某人的聲音、動作等來取笑對方」與本句語境不同。",
-        "mock-mcq-04": "「嘲弄、蔑視某種規則、信念、制度等」與本句語境不同。",
-        "mock-mcq-05": "「為練習、測試、示範等而仿照真實情況製成的；模擬的」與本句語境不同。",
-        "mock-mcq-06": "「仿照正式考試進行的模擬考試／測驗」與本句語境不同。"
+        "mock-mcq-02": "本句的「mocked」指「因某特徵、行為或錯誤而嘲笑某人」。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-02"
     },
@@ -538,11 +534,9 @@ export default {
       "masked": "She was ____ by classmates for her clothes.",
       "options": [
         "mock-mcq-02",
-        "mock-mcq-01",
-        "mock-mcq-03",
-        "mock-mcq-04",
-        "mock-mcq-05",
-        "mock-mcq-06"
+        "mock-mcq-18",
+        "mock-mcq-23",
+        "mock-mcq-21"
       ],
       "explanation": "本句的「mocked」指「因某特徵、行為或錯誤而嘲笑某人」。",
       "sentenceIndex": 3,
@@ -551,12 +545,10 @@ export default {
         "mocked"
       ],
       "optionReasons": {
-        "mock-mcq-02": "本句指「因某特徵、行為或錯誤而嘲笑某人」。",
-        "mock-mcq-01": "「以不尊重、蔑視的方式取笑／嘲笑某人」與本句語境不同。",
-        "mock-mcq-03": "「模仿某人的聲音、動作等來取笑對方」與本句語境不同。",
-        "mock-mcq-04": "「嘲弄、蔑視某種規則、信念、制度等」與本句語境不同。",
-        "mock-mcq-05": "「為練習、測試、示範等而仿照真實情況製成的；模擬的」與本句語境不同。",
-        "mock-mcq-06": "「仿照正式考試進行的模擬考試／測驗」與本句語境不同。"
+        "mock-mcq-02": "本句的「mocked」指「因某特徵、行為或錯誤而嘲笑某人」。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-02"
     },
@@ -568,11 +560,9 @@ export default {
       "masked": "Nobody should be ____ asking a question.",
       "options": [
         "mock-mcq-02",
-        "mock-mcq-01",
-        "mock-mcq-03",
-        "mock-mcq-04",
-        "mock-mcq-05",
-        "mock-mcq-06"
+        "mock-mcq-12",
+        "mock-mcq-21",
+        "mock-mcq-18"
       ],
       "explanation": "本句的「mocked for」指「因某特徵、行為或錯誤而嘲笑某人」。",
       "sentenceIndex": 4,
@@ -581,12 +571,10 @@ export default {
         "mocked for"
       ],
       "optionReasons": {
-        "mock-mcq-02": "本句指「因某特徵、行為或錯誤而嘲笑某人」。",
-        "mock-mcq-01": "「以不尊重、蔑視的方式取笑／嘲笑某人」與本句語境不同。",
-        "mock-mcq-03": "「模仿某人的聲音、動作等來取笑對方」與本句語境不同。",
-        "mock-mcq-04": "「嘲弄、蔑視某種規則、信念、制度等」與本句語境不同。",
-        "mock-mcq-05": "「為練習、測試、示範等而仿照真實情況製成的；模擬的」與本句語境不同。",
-        "mock-mcq-06": "「仿照正式考試進行的模擬考試／測驗」與本句語境不同。"
+        "mock-mcq-02": "本句的「mocked for」指「因某特徵、行為或錯誤而嘲笑某人」。",
+        "mock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-02"
     },
@@ -598,11 +586,9 @@ export default {
       "masked": "He was ____ being shy.",
       "options": [
         "mock-mcq-02",
-        "mock-mcq-01",
-        "mock-mcq-03",
-        "mock-mcq-04",
-        "mock-mcq-05",
-        "mock-mcq-06"
+        "mock-mcq-18",
+        "mock-mcq-23",
+        "mock-mcq-12"
       ],
       "explanation": "本句的「mocked for」指「因某特徵、行為或錯誤而嘲笑某人」。",
       "sentenceIndex": 5,
@@ -611,12 +597,10 @@ export default {
         "mocked for"
       ],
       "optionReasons": {
-        "mock-mcq-02": "本句指「因某特徵、行為或錯誤而嘲笑某人」。",
-        "mock-mcq-01": "「以不尊重、蔑視的方式取笑／嘲笑某人」與本句語境不同。",
-        "mock-mcq-03": "「模仿某人的聲音、動作等來取笑對方」與本句語境不同。",
-        "mock-mcq-04": "「嘲弄、蔑視某種規則、信念、制度等」與本句語境不同。",
-        "mock-mcq-05": "「為練習、測試、示範等而仿照真實情況製成的；模擬的」與本句語境不同。",
-        "mock-mcq-06": "「仿照正式考試進行的模擬考試／測驗」與本句語境不同。"
+        "mock-mcq-02": "本句的「mocked for」指「因某特徵、行為或錯誤而嘲笑某人」。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-02"
     },
@@ -628,11 +612,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "mock-mcq-03",
-        "mock-mcq-02",
-        "mock-mcq-04",
-        "mock-mcq-01",
-        "mock-mcq-05",
-        "mock-mcq-06"
+        "mock-mcq-20",
+        "mock-mcq-23",
+        "mock-mcq-21"
       ],
       "explanation": "本句的「mocked her voice」指「模仿某人的聲音、動作等來取笑對方」。",
       "sentenceIndex": 6,
@@ -641,12 +623,10 @@ export default {
         "mocked her voice"
       ],
       "optionReasons": {
-        "mock-mcq-03": "本句指「模仿某人的聲音、動作等來取笑對方」。",
-        "mock-mcq-02": "「因某特徵、行為或錯誤而嘲笑某人」與本句語境不同。",
-        "mock-mcq-04": "「嘲弄、蔑視某種規則、信念、制度等」與本句語境不同。",
-        "mock-mcq-01": "「以不尊重、蔑視的方式取笑／嘲笑某人」與本句語境不同。",
-        "mock-mcq-05": "「為練習、測試、示範等而仿照真實情況製成的；模擬的」與本句語境不同。",
-        "mock-mcq-06": "「仿照正式考試進行的模擬考試／測驗」與本句語境不同。"
+        "mock-mcq-03": "本句的「mocked her voice」指「模仿某人的聲音、動作等來取笑對方」。",
+        "mock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-03"
     },
@@ -658,11 +638,9 @@ export default {
       "masked": "The boys ____.",
       "options": [
         "mock-mcq-03",
-        "mock-mcq-02",
-        "mock-mcq-04",
-        "mock-mcq-01",
-        "mock-mcq-05",
-        "mock-mcq-06"
+        "mock-mcq-20",
+        "mock-mcq-21",
+        "mock-mcq-23"
       ],
       "explanation": "本句的「mocked the way he walked」指「模仿某人的聲音、動作等來取笑對方」。",
       "sentenceIndex": 7,
@@ -671,12 +649,10 @@ export default {
         "mocked the way he walked"
       ],
       "optionReasons": {
-        "mock-mcq-03": "本句指「模仿某人的聲音、動作等來取笑對方」。",
-        "mock-mcq-02": "「因某特徵、行為或錯誤而嘲笑某人」與本句語境不同。",
-        "mock-mcq-04": "「嘲弄、蔑視某種規則、信念、制度等」與本句語境不同。",
-        "mock-mcq-01": "「以不尊重、蔑視的方式取笑／嘲笑某人」與本句語境不同。",
-        "mock-mcq-05": "「為練習、測試、示範等而仿照真實情況製成的；模擬的」與本句語境不同。",
-        "mock-mcq-06": "「仿照正式考試進行的模擬考試／測驗」與本句語境不同。"
+        "mock-mcq-03": "本句的「mocked the way he walked」指「模仿某人的聲音、動作等來取笑對方」。",
+        "mock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-03"
     },
@@ -688,11 +664,9 @@ export default {
       "masked": "He openly ____.",
       "options": [
         "mock-mcq-04",
-        "mock-mcq-03",
-        "mock-mcq-05",
-        "mock-mcq-02",
-        "mock-mcq-06",
-        "mock-mcq-01"
+        "mock-mcq-12",
+        "mock-mcq-16",
+        "mock-mcq-21"
       ],
       "explanation": "本句的「mocked the rules」指「嘲弄、蔑視某種規則、信念、制度等」。",
       "sentenceIndex": 8,
@@ -701,12 +675,10 @@ export default {
         "mocked the rules"
       ],
       "optionReasons": {
-        "mock-mcq-04": "本句指「嘲弄、蔑視某種規則、信念、制度等」。",
-        "mock-mcq-03": "「模仿某人的聲音、動作等來取笑對方」與本句語境不同。",
-        "mock-mcq-05": "「為練習、測試、示範等而仿照真實情況製成的；模擬的」與本句語境不同。",
-        "mock-mcq-02": "「因某特徵、行為或錯誤而嘲笑某人」與本句語境不同。",
-        "mock-mcq-06": "「仿照正式考試進行的模擬考試／測驗」與本句語境不同。",
-        "mock-mcq-01": "「以不尊重、蔑視的方式取笑／嘲笑某人」與本句語境不同。"
+        "mock-mcq-04": "本句的「mocked the rules」指「嘲弄、蔑視某種規則、信念、制度等」。",
+        "mock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-04"
     },
@@ -718,11 +690,9 @@ export default {
       "masked": "The article seemed to ____.",
       "options": [
         "mock-mcq-04",
-        "mock-mcq-03",
-        "mock-mcq-05",
-        "mock-mcq-02",
-        "mock-mcq-06",
-        "mock-mcq-01"
+        "mock-mcq-14",
+        "mock-mcq-12",
+        "mock-mcq-23"
       ],
       "explanation": "本句的「mock traditional values」指「嘲弄、蔑視某種規則、信念、制度等」。",
       "sentenceIndex": 9,
@@ -731,12 +701,10 @@ export default {
         "mock traditional values"
       ],
       "optionReasons": {
-        "mock-mcq-04": "本句指「嘲弄、蔑視某種規則、信念、制度等」。",
-        "mock-mcq-03": "「模仿某人的聲音、動作等來取笑對方」與本句語境不同。",
-        "mock-mcq-05": "「為練習、測試、示範等而仿照真實情況製成的；模擬的」與本句語境不同。",
-        "mock-mcq-02": "「因某特徵、行為或錯誤而嘲笑某人」與本句語境不同。",
-        "mock-mcq-06": "「仿照正式考試進行的模擬考試／測驗」與本句語境不同。",
-        "mock-mcq-01": "「以不尊重、蔑視的方式取笑／嘲笑某人」與本句語境不同。"
+        "mock-mcq-04": "本句的「mock traditional values」指「嘲弄、蔑視某種規則、信念、制度等」。",
+        "mock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-04"
     },
@@ -748,11 +716,9 @@ export default {
       "masked": "We have a ____ next week.",
       "options": [
         "mock-mcq-06",
-        "mock-mcq-05",
-        "mock-mcq-07",
+        "mock-mcq-23",
         "mock-mcq-04",
-        "mock-mcq-08",
-        "mock-mcq-03"
+        "mock-mcq-21"
       ],
       "explanation": "本句的「mock exam」指「仿照正式考試進行的模擬考試／測驗」。",
       "sentenceIndex": 10,
@@ -761,12 +727,10 @@ export default {
         "mock exam"
       ],
       "optionReasons": {
-        "mock-mcq-06": "本句指「仿照正式考試進行的模擬考試／測驗」。",
-        "mock-mcq-05": "「為練習、測試、示範等而仿照真實情況製成的；模擬的」與本句語境不同。",
-        "mock-mcq-07": "「仿照真實面試進行的模擬面試」與本句語境不同。",
-        "mock-mcq-04": "「嘲弄、蔑視某種規則、信念、制度等」與本句語境不同。",
-        "mock-mcq-08": "「為教育、訓練等進行的模擬法庭／審訊」與本句語境不同。",
-        "mock-mcq-03": "「模仿某人的聲音、動作等來取笑對方」與本句語境不同。"
+        "mock-mcq-06": "本句的「mock exam」指「仿照正式考試進行的模擬考試／測驗」。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-06"
     },
@@ -778,11 +742,9 @@ export default {
       "masked": "The ____ helped me identify my weak areas.",
       "options": [
         "mock-mcq-06",
-        "mock-mcq-05",
-        "mock-mcq-07",
-        "mock-mcq-04",
-        "mock-mcq-08",
-        "mock-mcq-03"
+        "mock-mcq-23",
+        "mock-mcq-20",
+        "mock-mcq-18"
       ],
       "explanation": "本句的「mock test」指「仿照正式考試進行的模擬考試／測驗」。",
       "sentenceIndex": 11,
@@ -791,12 +753,10 @@ export default {
         "mock test"
       ],
       "optionReasons": {
-        "mock-mcq-06": "本句指「仿照正式考試進行的模擬考試／測驗」。",
-        "mock-mcq-05": "「為練習、測試、示範等而仿照真實情況製成的；模擬的」與本句語境不同。",
-        "mock-mcq-07": "「仿照真實面試進行的模擬面試」與本句語境不同。",
-        "mock-mcq-04": "「嘲弄、蔑視某種規則、信念、制度等」與本句語境不同。",
-        "mock-mcq-08": "「為教育、訓練等進行的模擬法庭／審訊」與本句語境不同。",
-        "mock-mcq-03": "「模仿某人的聲音、動作等來取笑對方」與本句語境不同。"
+        "mock-mcq-06": "本句的「mock test」指「仿照正式考試進行的模擬考試／測驗」。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-06"
     },
@@ -808,11 +768,9 @@ export default {
       "masked": "The school organized a ____ for students.",
       "options": [
         "mock-mcq-07",
-        "mock-mcq-06",
-        "mock-mcq-08",
-        "mock-mcq-05",
-        "mock-mcq-09",
-        "mock-mcq-04"
+        "mock-mcq-18",
+        "mock-mcq-19",
+        "mock-mcq-23"
       ],
       "explanation": "本句的「mock interview」指「仿照真實面試進行的模擬面試」。",
       "sentenceIndex": 12,
@@ -821,12 +779,10 @@ export default {
         "mock interview"
       ],
       "optionReasons": {
-        "mock-mcq-07": "本句指「仿照真實面試進行的模擬面試」。",
-        "mock-mcq-06": "「仿照正式考試進行的模擬考試／測驗」與本句語境不同。",
-        "mock-mcq-08": "「為教育、訓練等進行的模擬法庭／審訊」與本句語境不同。",
-        "mock-mcq-05": "「為練習、測試、示範等而仿照真實情況製成的；模擬的」與本句語境不同。",
-        "mock-mcq-09": "「仿照真正選舉舉行的模擬選舉」與本句語境不同。",
-        "mock-mcq-04": "「嘲弄、蔑視某種規則、信念、制度等」與本句語境不同。"
+        "mock-mcq-07": "本句的「mock interview」指「仿照真實面試進行的模擬面試」。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-07"
     },
@@ -838,11 +794,9 @@ export default {
       "masked": "A ____ can help you prepare for difficult questions.",
       "options": [
         "mock-mcq-07",
-        "mock-mcq-06",
-        "mock-mcq-08",
-        "mock-mcq-05",
-        "mock-mcq-09",
-        "mock-mcq-04"
+        "mock-mcq-23",
+        "mock-mcq-21",
+        "mock-mcq-19"
       ],
       "explanation": "本句的「mock interview」指「仿照真實面試進行的模擬面試」。",
       "sentenceIndex": 13,
@@ -851,12 +805,10 @@ export default {
         "mock interview"
       ],
       "optionReasons": {
-        "mock-mcq-07": "本句指「仿照真實面試進行的模擬面試」。",
-        "mock-mcq-06": "「仿照正式考試進行的模擬考試／測驗」與本句語境不同。",
-        "mock-mcq-08": "「為教育、訓練等進行的模擬法庭／審訊」與本句語境不同。",
-        "mock-mcq-05": "「為練習、測試、示範等而仿照真實情況製成的；模擬的」與本句語境不同。",
-        "mock-mcq-09": "「仿照真正選舉舉行的模擬選舉」與本句語境不同。",
-        "mock-mcq-04": "「嘲弄、蔑視某種規則、信念、制度等」與本句語境不同。"
+        "mock-mcq-07": "本句的「mock interview」指「仿照真實面試進行的模擬面試」。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-07"
     },
@@ -868,11 +820,9 @@ export default {
       "masked": "Law students took part in a ____.",
       "options": [
         "mock-mcq-08",
-        "mock-mcq-07",
-        "mock-mcq-09",
-        "mock-mcq-06",
-        "mock-mcq-10",
-        "mock-mcq-05"
+        "mock-mcq-20",
+        "mock-mcq-23",
+        "mock-mcq-10"
       ],
       "explanation": "本句的「mock trial」指「為教育、訓練等進行的模擬法庭／審訊」。",
       "sentenceIndex": 14,
@@ -881,12 +831,10 @@ export default {
         "mock trial"
       ],
       "optionReasons": {
-        "mock-mcq-08": "本句指「為教育、訓練等進行的模擬法庭／審訊」。",
-        "mock-mcq-07": "「仿照真實面試進行的模擬面試」與本句語境不同。",
-        "mock-mcq-09": "「仿照真正選舉舉行的模擬選舉」與本句語境不同。",
-        "mock-mcq-06": "「仿照正式考試進行的模擬考試／測驗」與本句語境不同。",
-        "mock-mcq-10": "「外觀仿照真實事物但本身不是真的；仿製的」與本句語境不同。",
-        "mock-mcq-05": "「為練習、測試、示範等而仿照真實情況製成的；模擬的」與本句語境不同。"
+        "mock-mcq-08": "本句的「mock trial」指「為教育、訓練等進行的模擬法庭／審訊」。",
+        "mock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-08"
     },
@@ -898,11 +846,9 @@ export default {
       "masked": "The class held a ____ based on the case.",
       "options": [
         "mock-mcq-08",
-        "mock-mcq-07",
-        "mock-mcq-09",
-        "mock-mcq-06",
+        "mock-mcq-23",
         "mock-mcq-10",
-        "mock-mcq-05"
+        "mock-mcq-21"
       ],
       "explanation": "本句的「mock trial」指「為教育、訓練等進行的模擬法庭／審訊」。",
       "sentenceIndex": 15,
@@ -911,12 +857,10 @@ export default {
         "mock trial"
       ],
       "optionReasons": {
-        "mock-mcq-08": "本句指「為教育、訓練等進行的模擬法庭／審訊」。",
-        "mock-mcq-07": "「仿照真實面試進行的模擬面試」與本句語境不同。",
-        "mock-mcq-09": "「仿照真正選舉舉行的模擬選舉」與本句語境不同。",
-        "mock-mcq-06": "「仿照正式考試進行的模擬考試／測驗」與本句語境不同。",
-        "mock-mcq-10": "「外觀仿照真實事物但本身不是真的；仿製的」與本句語境不同。",
-        "mock-mcq-05": "「為練習、測試、示範等而仿照真實情況製成的；模擬的」與本句語境不同。"
+        "mock-mcq-08": "本句的「mock trial」指「為教育、訓練等進行的模擬法庭／審訊」。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-08"
     },
@@ -928,11 +872,9 @@ export default {
       "masked": "Students held a ____ at school.",
       "options": [
         "mock-mcq-09",
-        "mock-mcq-08",
-        "mock-mcq-10",
-        "mock-mcq-07",
-        "mock-mcq-11",
-        "mock-mcq-06"
+        "mock-mcq-20",
+        "mock-mcq-23",
+        "mock-mcq-18"
       ],
       "explanation": "本句的「mock election」指「仿照真正選舉舉行的模擬選舉」。",
       "sentenceIndex": 16,
@@ -941,12 +883,10 @@ export default {
         "mock election"
       ],
       "optionReasons": {
-        "mock-mcq-09": "本句指「仿照真正選舉舉行的模擬選舉」。",
-        "mock-mcq-08": "「為教育、訓練等進行的模擬法庭／審訊」與本句語境不同。",
-        "mock-mcq-10": "「外觀仿照真實事物但本身不是真的；仿製的」與本句語境不同。",
-        "mock-mcq-07": "「仿照真實面試進行的模擬面試」與本句語境不同。",
-        "mock-mcq-11": "「用來展示設計、外觀或結構的模型／樣稿」與本句語境不同。",
-        "mock-mcq-06": "「仿照正式考試進行的模擬考試／測驗」與本句語境不同。"
+        "mock-mcq-09": "本句的「mock election」指「仿照真正選舉舉行的模擬選舉」。",
+        "mock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-09"
     },
@@ -958,11 +898,9 @@ export default {
       "masked": "The ____ was designed to teach students how voting works.",
       "options": [
         "mock-mcq-09",
-        "mock-mcq-08",
-        "mock-mcq-10",
-        "mock-mcq-07",
-        "mock-mcq-11",
-        "mock-mcq-06"
+        "mock-mcq-19",
+        "mock-mcq-23",
+        "mock-mcq-18"
       ],
       "explanation": "本句的「mock election」指「仿照真正選舉舉行的模擬選舉」。",
       "sentenceIndex": 17,
@@ -971,12 +909,10 @@ export default {
         "mock election"
       ],
       "optionReasons": {
-        "mock-mcq-09": "本句指「仿照真正選舉舉行的模擬選舉」。",
-        "mock-mcq-08": "「為教育、訓練等進行的模擬法庭／審訊」與本句語境不同。",
-        "mock-mcq-10": "「外觀仿照真實事物但本身不是真的；仿製的」與本句語境不同。",
-        "mock-mcq-07": "「仿照真實面試進行的模擬面試」與本句語境不同。",
-        "mock-mcq-11": "「用來展示設計、外觀或結構的模型／樣稿」與本句語境不同。",
-        "mock-mcq-06": "「仿照正式考試進行的模擬考試／測驗」與本句語境不同。"
+        "mock-mcq-09": "本句的「mock election」指「仿照真正選舉舉行的模擬選舉」。",
+        "mock-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-09"
     },
@@ -988,11 +924,9 @@ export default {
       "masked": "The fireplace was surrounded by ____.",
       "options": [
         "mock-mcq-10",
-        "mock-mcq-09",
-        "mock-mcq-11",
-        "mock-mcq-08",
-        "mock-mcq-12",
-        "mock-mcq-07"
+        "mock-mcq-17",
+        "mock-mcq-21",
+        "mock-mcq-15"
       ],
       "explanation": "本句的「mock stone」指「外觀仿照真實事物但本身不是真的；仿製的」。",
       "sentenceIndex": 18,
@@ -1001,12 +935,10 @@ export default {
         "mock stone"
       ],
       "optionReasons": {
-        "mock-mcq-10": "本句指「外觀仿照真實事物但本身不是真的；仿製的」。",
-        "mock-mcq-09": "「仿照真正選舉舉行的模擬選舉」與本句語境不同。",
-        "mock-mcq-11": "「用來展示設計、外觀或結構的模型／樣稿」與本句語境不同。",
-        "mock-mcq-08": "「為教育、訓練等進行的模擬法庭／審訊」與本句語境不同。",
-        "mock-mcq-12": "「製作臨時模型、版面或設計樣稿」與本句語境不同。",
-        "mock-mcq-07": "「仿照真實面試進行的模擬面試」與本句語境不同。"
+        "mock-mcq-10": "本句的「mock stone」指「外觀仿照真實事物但本身不是真的；仿製的」。",
+        "mock-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-10"
     },
@@ -1018,11 +950,9 @@ export default {
       "masked": "The costume included a ____.",
       "options": [
         "mock-mcq-10",
-        "mock-mcq-09",
-        "mock-mcq-11",
-        "mock-mcq-08",
-        "mock-mcq-12",
-        "mock-mcq-07"
+        "mock-mcq-23",
+        "mock-mcq-18",
+        "mock-mcq-20"
       ],
       "explanation": "本句的「mock sword」指「外觀仿照真實事物但本身不是真的；仿製的」。",
       "sentenceIndex": 19,
@@ -1031,12 +961,10 @@ export default {
         "mock sword"
       ],
       "optionReasons": {
-        "mock-mcq-10": "本句指「外觀仿照真實事物但本身不是真的；仿製的」。",
-        "mock-mcq-09": "「仿照真正選舉舉行的模擬選舉」與本句語境不同。",
-        "mock-mcq-11": "「用來展示設計、外觀或結構的模型／樣稿」與本句語境不同。",
-        "mock-mcq-08": "「為教育、訓練等進行的模擬法庭／審訊」與本句語境不同。",
-        "mock-mcq-12": "「製作臨時模型、版面或設計樣稿」與本句語境不同。",
-        "mock-mcq-07": "「仿照真實面試進行的模擬面試」與本句語境不同。"
+        "mock-mcq-10": "本句的「mock sword」指「外觀仿照真實事物但本身不是真的；仿製的」。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-10"
     },
@@ -1048,11 +976,9 @@ export default {
       "masked": "The designer showed us a ____ of the new website.",
       "options": [
         "mock-mcq-11",
-        "mock-mcq-10",
-        "mock-mcq-12",
-        "mock-mcq-09",
-        "mock-mcq-13",
-        "mock-mcq-08"
+        "mock-mcq-17",
+        "mock-mcq-21",
+        "mock-mcq-23"
       ],
       "explanation": "本句的「mock-up」指「用來展示設計、外觀或結構的模型／樣稿」。",
       "sentenceIndex": 20,
@@ -1061,12 +987,10 @@ export default {
         "mock-up"
       ],
       "optionReasons": {
-        "mock-mcq-11": "本句指「用來展示設計、外觀或結構的模型／樣稿」。",
-        "mock-mcq-10": "「外觀仿照真實事物但本身不是真的；仿製的」與本句語境不同。",
-        "mock-mcq-12": "「製作臨時模型、版面或設計樣稿」與本句語境不同。",
-        "mock-mcq-09": "「仿照真正選舉舉行的模擬選舉」與本句語境不同。",
-        "mock-mcq-13": "「測試時用來模擬真實服務／元件的替身」與本句語境不同。",
-        "mock-mcq-08": "「為教育、訓練等進行的模擬法庭／審訊」與本句語境不同。"
+        "mock-mcq-11": "本句的「mock-up」指「用來展示設計、外觀或結構的模型／樣稿」。",
+        "mock-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-11"
     },
@@ -1078,11 +1002,9 @@ export default {
       "masked": "Engineers built a full-size ____ of the cabin.",
       "options": [
         "mock-mcq-11",
-        "mock-mcq-10",
-        "mock-mcq-12",
-        "mock-mcq-09",
-        "mock-mcq-13",
-        "mock-mcq-08"
+        "mock-mcq-21",
+        "mock-mcq-02",
+        "mock-mcq-20"
       ],
       "explanation": "本句的「mock-up」指「用來展示設計、外觀或結構的模型／樣稿」。",
       "sentenceIndex": 21,
@@ -1091,12 +1013,10 @@ export default {
         "mock-up"
       ],
       "optionReasons": {
-        "mock-mcq-11": "本句指「用來展示設計、外觀或結構的模型／樣稿」。",
-        "mock-mcq-10": "「外觀仿照真實事物但本身不是真的；仿製的」與本句語境不同。",
-        "mock-mcq-12": "「製作臨時模型、版面或設計樣稿」與本句語境不同。",
-        "mock-mcq-09": "「仿照真正選舉舉行的模擬選舉」與本句語境不同。",
-        "mock-mcq-13": "「測試時用來模擬真實服務／元件的替身」與本句語境不同。",
-        "mock-mcq-08": "「為教育、訓練等進行的模擬法庭／審訊」與本句語境不同。"
+        "mock-mcq-11": "本句的「mock-up」指「用來展示設計、外觀或結構的模型／樣稿」。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-11"
     },
@@ -1108,11 +1028,9 @@ export default {
       "masked": "She ____ several possible layouts.",
       "options": [
         "mock-mcq-12",
-        "mock-mcq-11",
-        "mock-mcq-13",
-        "mock-mcq-10",
-        "mock-mcq-14",
-        "mock-mcq-09"
+        "mock-mcq-21",
+        "mock-mcq-19",
+        "mock-mcq-23"
       ],
       "explanation": "本句的「mocked up」指「製作臨時模型、版面或設計樣稿」。",
       "sentenceIndex": 22,
@@ -1121,12 +1039,10 @@ export default {
         "mocked up"
       ],
       "optionReasons": {
-        "mock-mcq-12": "本句指「製作臨時模型、版面或設計樣稿」。",
-        "mock-mcq-11": "「用來展示設計、外觀或結構的模型／樣稿」與本句語境不同。",
-        "mock-mcq-13": "「測試時用來模擬真實服務／元件的替身」與本句語境不同。",
-        "mock-mcq-10": "「外觀仿照真實事物但本身不是真的；仿製的」與本句語境不同。",
-        "mock-mcq-14": "「軟體測試中模擬真實物件行為的測試替身」與本句語境不同。",
-        "mock-mcq-09": "「仿照真正選舉舉行的模擬選舉」與本句語境不同。"
+        "mock-mcq-12": "本句的「mocked up」指「製作臨時模型、版面或設計樣稿」。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-12"
     },
@@ -1138,11 +1054,9 @@ export default {
       "masked": "The team ____ the screen before coding it.",
       "options": [
         "mock-mcq-12",
-        "mock-mcq-11",
-        "mock-mcq-13",
-        "mock-mcq-10",
-        "mock-mcq-14",
-        "mock-mcq-09"
+        "mock-mcq-19",
+        "mock-mcq-21",
+        "mock-mcq-23"
       ],
       "explanation": "本句的「mocked up」指「製作臨時模型、版面或設計樣稿」。",
       "sentenceIndex": 23,
@@ -1151,12 +1065,10 @@ export default {
         "mocked up"
       ],
       "optionReasons": {
-        "mock-mcq-12": "本句指「製作臨時模型、版面或設計樣稿」。",
-        "mock-mcq-11": "「用來展示設計、外觀或結構的模型／樣稿」與本句語境不同。",
-        "mock-mcq-13": "「測試時用來模擬真實服務／元件的替身」與本句語境不同。",
-        "mock-mcq-10": "「外觀仿照真實事物但本身不是真的；仿製的」與本句語境不同。",
-        "mock-mcq-14": "「軟體測試中模擬真實物件行為的測試替身」與本句語境不同。",
-        "mock-mcq-09": "「仿照真正選舉舉行的模擬選舉」與本句語境不同。"
+        "mock-mcq-12": "本句的「mocked up」指「製作臨時模型、版面或設計樣稿」。",
+        "mock-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-12"
     },
@@ -1168,11 +1080,9 @@ export default {
       "masked": "The test uses a ____ instead of the real database.",
       "options": [
         "mock-mcq-13",
-        "mock-mcq-12",
-        "mock-mcq-14",
-        "mock-mcq-11",
-        "mock-mcq-15",
-        "mock-mcq-10"
+        "mock-mcq-20",
+        "mock-mcq-18",
+        "mock-mcq-23"
       ],
       "explanation": "本句的「mock」指「測試時用來模擬真實服務／元件的替身」。",
       "sentenceIndex": 24,
@@ -1181,12 +1091,10 @@ export default {
         "mock"
       ],
       "optionReasons": {
-        "mock-mcq-13": "本句指「測試時用來模擬真實服務／元件的替身」。",
-        "mock-mcq-12": "「製作臨時模型、版面或設計樣稿」與本句語境不同。",
-        "mock-mcq-14": "「軟體測試中模擬真實物件行為的測試替身」與本句語境不同。",
-        "mock-mcq-11": "「用來展示設計、外觀或結構的模型／樣稿」與本句語境不同。",
-        "mock-mcq-15": "「為測試／示範而人為建立的模擬資料」與本句語境不同。",
-        "mock-mcq-10": "「外觀仿照真實事物但本身不是真的；仿製的」與本句語境不同。"
+        "mock-mcq-13": "本句的「mock」指「測試時用來模擬真實服務／元件的替身」。",
+        "mock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-13"
     },
@@ -1198,11 +1106,9 @@ export default {
       "masked": "Developers created a ____ for testing.",
       "options": [
         "mock-mcq-13",
-        "mock-mcq-12",
-        "mock-mcq-14",
-        "mock-mcq-11",
-        "mock-mcq-15",
-        "mock-mcq-10"
+        "mock-mcq-19",
+        "mock-mcq-21",
+        "mock-mcq-18"
       ],
       "explanation": "本句的「mock service」指「測試時用來模擬真實服務／元件的替身」。",
       "sentenceIndex": 25,
@@ -1211,12 +1117,10 @@ export default {
         "mock service"
       ],
       "optionReasons": {
-        "mock-mcq-13": "本句指「測試時用來模擬真實服務／元件的替身」。",
-        "mock-mcq-12": "「製作臨時模型、版面或設計樣稿」與本句語境不同。",
-        "mock-mcq-14": "「軟體測試中模擬真實物件行為的測試替身」與本句語境不同。",
-        "mock-mcq-11": "「用來展示設計、外觀或結構的模型／樣稿」與本句語境不同。",
-        "mock-mcq-15": "「為測試／示範而人為建立的模擬資料」與本句語境不同。",
-        "mock-mcq-10": "「外觀仿照真實事物但本身不是真的；仿製的」與本句語境不同。"
+        "mock-mcq-13": "本句的「mock service」指「測試時用來模擬真實服務／元件的替身」。",
+        "mock-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-13"
     },
@@ -1228,11 +1132,9 @@ export default {
       "masked": "The unit test uses a ____.",
       "options": [
         "mock-mcq-14",
-        "mock-mcq-13",
-        "mock-mcq-15",
-        "mock-mcq-12",
-        "mock-mcq-16",
-        "mock-mcq-11"
+        "mock-mcq-21",
+        "mock-mcq-18",
+        "mock-mcq-19"
       ],
       "explanation": "本句的「mock object」指「軟體測試中模擬真實物件行為的測試替身」。",
       "sentenceIndex": 26,
@@ -1241,12 +1143,10 @@ export default {
         "mock object"
       ],
       "optionReasons": {
-        "mock-mcq-14": "本句指「軟體測試中模擬真實物件行為的測試替身」。",
-        "mock-mcq-13": "「測試時用來模擬真實服務／元件的替身」與本句語境不同。",
-        "mock-mcq-15": "「為測試／示範而人為建立的模擬資料」與本句語境不同。",
-        "mock-mcq-12": "「製作臨時模型、版面或設計樣稿」與本句語境不同。",
-        "mock-mcq-16": "「為測試而模擬真實 API／伺服器行為的系統」與本句語境不同。",
-        "mock-mcq-11": "「用來展示設計、外觀或結構的模型／樣稿」與本句語境不同。"
+        "mock-mcq-14": "本句的「mock object」指「軟體測試中模擬真實物件行為的測試替身」。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-14"
     },
@@ -1258,11 +1158,9 @@ export default {
       "masked": "A ____ can imitate a service without contacting the real system.",
       "options": [
         "mock-mcq-14",
-        "mock-mcq-13",
-        "mock-mcq-15",
-        "mock-mcq-12",
-        "mock-mcq-16",
-        "mock-mcq-11"
+        "mock-mcq-23",
+        "mock-mcq-20",
+        "mock-mcq-18"
       ],
       "explanation": "本句的「mock object」指「軟體測試中模擬真實物件行為的測試替身」。",
       "sentenceIndex": 27,
@@ -1271,12 +1169,10 @@ export default {
         "mock object"
       ],
       "optionReasons": {
-        "mock-mcq-14": "本句指「軟體測試中模擬真實物件行為的測試替身」。",
-        "mock-mcq-13": "「測試時用來模擬真實服務／元件的替身」與本句語境不同。",
-        "mock-mcq-15": "「為測試／示範而人為建立的模擬資料」與本句語境不同。",
-        "mock-mcq-12": "「製作臨時模型、版面或設計樣稿」與本句語境不同。",
-        "mock-mcq-16": "「為測試而模擬真實 API／伺服器行為的系統」與本句語境不同。",
-        "mock-mcq-11": "「用來展示設計、外觀或結構的模型／樣稿」與本句語境不同。"
+        "mock-mcq-14": "本句的「mock object」指「軟體測試中模擬真實物件行為的測試替身」。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-14"
     },
@@ -1288,11 +1184,9 @@ export default {
       "masked": "We tested the application with ____.",
       "options": [
         "mock-mcq-15",
-        "mock-mcq-14",
-        "mock-mcq-16",
-        "mock-mcq-13",
-        "mock-mcq-17",
-        "mock-mcq-12"
+        "mock-mcq-20",
+        "mock-mcq-21",
+        "mock-mcq-10"
       ],
       "explanation": "本句的「mock data」指「為測試／示範而人為建立的模擬資料」。",
       "sentenceIndex": 28,
@@ -1301,12 +1195,10 @@ export default {
         "mock data"
       ],
       "optionReasons": {
-        "mock-mcq-15": "本句指「為測試／示範而人為建立的模擬資料」。",
-        "mock-mcq-14": "「軟體測試中模擬真實物件行為的測試替身」與本句語境不同。",
-        "mock-mcq-16": "「為測試而模擬真實 API／伺服器行為的系統」與本句語境不同。",
-        "mock-mcq-13": "「測試時用來模擬真實服務／元件的替身」與本句語境不同。",
-        "mock-mcq-17": "「嘲弄、譏諷某人的言語或行為」與本句語境不同。",
-        "mock-mcq-12": "「製作臨時模型、版面或設計樣稿」與本句語境不同。"
+        "mock-mcq-15": "本句的「mock data」指「為測試／示範而人為建立的模擬資料」。",
+        "mock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-15"
     },
@@ -1318,11 +1210,9 @@ export default {
       "masked": "The dashboard currently displays ____.",
       "options": [
         "mock-mcq-15",
-        "mock-mcq-14",
-        "mock-mcq-16",
-        "mock-mcq-13",
-        "mock-mcq-17",
-        "mock-mcq-12"
+        "mock-mcq-02",
+        "mock-mcq-20",
+        "mock-mcq-23"
       ],
       "explanation": "本句的「mock data」指「為測試／示範而人為建立的模擬資料」。",
       "sentenceIndex": 29,
@@ -1331,12 +1221,10 @@ export default {
         "mock data"
       ],
       "optionReasons": {
-        "mock-mcq-15": "本句指「為測試／示範而人為建立的模擬資料」。",
-        "mock-mcq-14": "「軟體測試中模擬真實物件行為的測試替身」與本句語境不同。",
-        "mock-mcq-16": "「為測試而模擬真實 API／伺服器行為的系統」與本句語境不同。",
-        "mock-mcq-13": "「測試時用來模擬真實服務／元件的替身」與本句語境不同。",
-        "mock-mcq-17": "「嘲弄、譏諷某人的言語或行為」與本句語境不同。",
-        "mock-mcq-12": "「製作臨時模型、版面或設計樣稿」與本句語境不同。"
+        "mock-mcq-15": "本句的「mock data」指「為測試／示範而人為建立的模擬資料」。",
+        "mock-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-15"
     },
@@ -1348,11 +1236,9 @@ export default {
       "masked": "The app connects to a ____ during development.",
       "options": [
         "mock-mcq-16",
-        "mock-mcq-15",
-        "mock-mcq-17",
-        "mock-mcq-14",
         "mock-mcq-18",
-        "mock-mcq-13"
+        "mock-mcq-19",
+        "mock-mcq-21"
       ],
       "explanation": "本句的「mock API」指「為測試而模擬真實 API／伺服器行為的系統」。",
       "sentenceIndex": 30,
@@ -1361,12 +1247,10 @@ export default {
         "mock API"
       ],
       "optionReasons": {
-        "mock-mcq-16": "本句指「為測試而模擬真實 API／伺服器行為的系統」。",
-        "mock-mcq-15": "「為測試／示範而人為建立的模擬資料」與本句語境不同。",
-        "mock-mcq-17": "「嘲弄、譏諷某人的言語或行為」與本句語境不同。",
-        "mock-mcq-14": "「軟體測試中模擬真實物件行為的測試替身」與本句語境不同。",
-        "mock-mcq-18": "「使某制度、原則等顯得荒謬、無效或形同虛設」與本句語境不同。",
-        "mock-mcq-13": "「測試時用來模擬真實服務／元件的替身」與本句語境不同。"
+        "mock-mcq-16": "本句的「mock API」指「為測試而模擬真實 API／伺服器行為的系統」。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-16"
     },
@@ -1378,11 +1262,9 @@ export default {
       "masked": "A ____ returned sample responses.",
       "options": [
         "mock-mcq-16",
-        "mock-mcq-15",
-        "mock-mcq-17",
-        "mock-mcq-14",
         "mock-mcq-18",
-        "mock-mcq-13"
+        "mock-mcq-21",
+        "mock-mcq-19"
       ],
       "explanation": "本句的「mock server」指「為測試而模擬真實 API／伺服器行為的系統」。",
       "sentenceIndex": 31,
@@ -1391,12 +1273,10 @@ export default {
         "mock server"
       ],
       "optionReasons": {
-        "mock-mcq-16": "本句指「為測試而模擬真實 API／伺服器行為的系統」。",
-        "mock-mcq-15": "「為測試／示範而人為建立的模擬資料」與本句語境不同。",
-        "mock-mcq-17": "「嘲弄、譏諷某人的言語或行為」與本句語境不同。",
-        "mock-mcq-14": "「軟體測試中模擬真實物件行為的測試替身」與本句語境不同。",
-        "mock-mcq-18": "「使某制度、原則等顯得荒謬、無效或形同虛設」與本句語境不同。",
-        "mock-mcq-13": "「測試時用來模擬真實服務／元件的替身」與本句語境不同。"
+        "mock-mcq-16": "本句的「mock server」指「為測試而模擬真實 API／伺服器行為的系統」。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-16"
     },
@@ -1408,11 +1288,9 @@ export default {
       "masked": "He became the target of ____.",
       "options": [
         "mock-mcq-17",
-        "mock-mcq-16",
-        "mock-mcq-18",
-        "mock-mcq-15",
-        "mock-mcq-19",
-        "mock-mcq-14"
+        "mock-mcq-11",
+        "mock-mcq-21",
+        "mock-mcq-23"
       ],
       "explanation": "本句的「mockery」指「嘲弄、譏諷某人的言語或行為」。",
       "sentenceIndex": 32,
@@ -1421,12 +1299,10 @@ export default {
         "mockery"
       ],
       "optionReasons": {
-        "mock-mcq-17": "本句指「嘲弄、譏諷某人的言語或行為」。",
-        "mock-mcq-16": "「為測試而模擬真實 API／伺服器行為的系統」與本句語境不同。",
-        "mock-mcq-18": "「使某制度、原則等顯得荒謬、無效或形同虛設」與本句語境不同。",
-        "mock-mcq-15": "「為測試／示範而人為建立的模擬資料」與本句語境不同。",
-        "mock-mcq-19": "「帶嘲笑、譏諷或蔑視意味的」與本句語境不同。",
-        "mock-mcq-14": "「軟體測試中模擬真實物件行為的測試替身」與本句語境不同。"
+        "mock-mcq-17": "本句的「mockery」指「嘲弄、譏諷某人的言語或行為」。",
+        "mock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-17"
     },
@@ -1438,11 +1314,9 @@ export default {
       "masked": "Her suggestion was met with ____.",
       "options": [
         "mock-mcq-17",
-        "mock-mcq-16",
-        "mock-mcq-18",
         "mock-mcq-15",
-        "mock-mcq-19",
-        "mock-mcq-14"
+        "mock-mcq-10",
+        "mock-mcq-21"
       ],
       "explanation": "本句的「mockery」指「嘲弄、譏諷某人的言語或行為」。",
       "sentenceIndex": 33,
@@ -1451,12 +1325,10 @@ export default {
         "mockery"
       ],
       "optionReasons": {
-        "mock-mcq-17": "本句指「嘲弄、譏諷某人的言語或行為」。",
-        "mock-mcq-16": "「為測試而模擬真實 API／伺服器行為的系統」與本句語境不同。",
-        "mock-mcq-18": "「使某制度、原則等顯得荒謬、無效或形同虛設」與本句語境不同。",
-        "mock-mcq-15": "「為測試／示範而人為建立的模擬資料」與本句語境不同。",
-        "mock-mcq-19": "「帶嘲笑、譏諷或蔑視意味的」與本句語境不同。",
-        "mock-mcq-14": "「軟體測試中模擬真實物件行為的測試替身」與本句語境不同。"
+        "mock-mcq-17": "本句的「mockery」指「嘲弄、譏諷某人的言語或行為」。",
+        "mock-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-17"
     },
@@ -1468,11 +1340,9 @@ export default {
       "masked": "The unfair process ____.",
       "options": [
         "mock-mcq-18",
-        "mock-mcq-17",
+        "mock-mcq-14",
         "mock-mcq-19",
-        "mock-mcq-16",
-        "mock-mcq-20",
-        "mock-mcq-15"
+        "mock-mcq-21"
       ],
       "explanation": "本句的「made a mockery of justice」指「使某制度、原則等顯得荒謬、無效或形同虛設」。",
       "sentenceIndex": 34,
@@ -1481,12 +1351,10 @@ export default {
         "made a mockery of justice"
       ],
       "optionReasons": {
-        "mock-mcq-18": "本句指「使某制度、原則等顯得荒謬、無效或形同虛設」。",
-        "mock-mcq-17": "「嘲弄、譏諷某人的言語或行為」與本句語境不同。",
-        "mock-mcq-19": "「帶嘲笑、譏諷或蔑視意味的」與本句語境不同。",
-        "mock-mcq-16": "「為測試而模擬真實 API／伺服器行為的系統」與本句語境不同。",
-        "mock-mcq-20": "「以嘲弄、譏諷的方式」與本句語境不同。",
-        "mock-mcq-15": "「為測試／示範而人為建立的模擬資料」與本句語境不同。"
+        "mock-mcq-18": "本句的「made a mockery of justice」指「使某制度、原則等顯得荒謬、無效或形同虛設」。",
+        "mock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-18"
     },
@@ -1498,11 +1366,9 @@ export default {
       "masked": "Ignoring the rules ____.",
       "options": [
         "mock-mcq-18",
-        "mock-mcq-17",
-        "mock-mcq-19",
-        "mock-mcq-16",
+        "mock-mcq-07",
         "mock-mcq-20",
-        "mock-mcq-15"
+        "mock-mcq-21"
       ],
       "explanation": "本句的「makes a mockery of the system」指「使某制度、原則等顯得荒謬、無效或形同虛設」。",
       "sentenceIndex": 35,
@@ -1511,12 +1377,10 @@ export default {
         "makes a mockery of the system"
       ],
       "optionReasons": {
-        "mock-mcq-18": "本句指「使某制度、原則等顯得荒謬、無效或形同虛設」。",
-        "mock-mcq-17": "「嘲弄、譏諷某人的言語或行為」與本句語境不同。",
-        "mock-mcq-19": "「帶嘲笑、譏諷或蔑視意味的」與本句語境不同。",
-        "mock-mcq-16": "「為測試而模擬真實 API／伺服器行為的系統」與本句語境不同。",
-        "mock-mcq-20": "「以嘲弄、譏諷的方式」與本句語境不同。",
-        "mock-mcq-15": "「為測試／示範而人為建立的模擬資料」與本句語境不同。"
+        "mock-mcq-18": "本句的「makes a mockery of the system」指「使某制度、原則等顯得荒謬、無效或形同虛設」。",
+        "mock-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-18"
     },
@@ -1528,11 +1392,9 @@ export default {
       "masked": "He gave her a ____.",
       "options": [
         "mock-mcq-19",
-        "mock-mcq-18",
-        "mock-mcq-20",
-        "mock-mcq-17",
-        "mock-mcq-21",
-        "mock-mcq-16"
+        "mock-mcq-11",
+        "mock-mcq-14",
+        "mock-mcq-21"
       ],
       "explanation": "本句的「mocking smile」指「帶嘲笑、譏諷或蔑視意味的」。",
       "sentenceIndex": 36,
@@ -1541,12 +1403,10 @@ export default {
         "mocking smile"
       ],
       "optionReasons": {
-        "mock-mcq-19": "本句指「帶嘲笑、譏諷或蔑視意味的」。",
-        "mock-mcq-18": "「使某制度、原則等顯得荒謬、無效或形同虛設」與本句語境不同。",
-        "mock-mcq-20": "「以嘲弄、譏諷的方式」與本句語境不同。",
-        "mock-mcq-17": "「嘲弄、譏諷某人的言語或行為」與本句語境不同。",
-        "mock-mcq-21": "「為幽默效果而故意裝作嚴肅的」與本句語境不同。",
-        "mock-mcq-16": "「為測試而模擬真實 API／伺服器行為的系統」與本句語境不同。"
+        "mock-mcq-19": "本句的「mocking smile」指「帶嘲笑、譏諷或蔑視意味的」。",
+        "mock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-19"
     },
@@ -1558,11 +1418,9 @@ export default {
       "masked": "She spoke in a ____.",
       "options": [
         "mock-mcq-19",
-        "mock-mcq-18",
-        "mock-mcq-20",
-        "mock-mcq-17",
-        "mock-mcq-21",
-        "mock-mcq-16"
+        "mock-mcq-08",
+        "mock-mcq-10",
+        "mock-mcq-12"
       ],
       "explanation": "本句的「mocking tone」指「帶嘲笑、譏諷或蔑視意味的」。",
       "sentenceIndex": 37,
@@ -1571,12 +1429,10 @@ export default {
         "mocking tone"
       ],
       "optionReasons": {
-        "mock-mcq-19": "本句指「帶嘲笑、譏諷或蔑視意味的」。",
-        "mock-mcq-18": "「使某制度、原則等顯得荒謬、無效或形同虛設」與本句語境不同。",
-        "mock-mcq-20": "「以嘲弄、譏諷的方式」與本句語境不同。",
-        "mock-mcq-17": "「嘲弄、譏諷某人的言語或行為」與本句語境不同。",
-        "mock-mcq-21": "「為幽默效果而故意裝作嚴肅的」與本句語境不同。",
-        "mock-mcq-16": "「為測試而模擬真實 API／伺服器行為的系統」與本句語境不同。"
+        "mock-mcq-19": "本句的「mocking tone」指「帶嘲笑、譏諷或蔑視意味的」。",
+        "mock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-19"
     },
@@ -1588,11 +1444,9 @@ export default {
       "masked": "He repeated my words in a ____.",
       "options": [
         "mock-mcq-20",
-        "mock-mcq-19",
-        "mock-mcq-21",
+        "mock-mcq-13",
         "mock-mcq-18",
-        "mock-mcq-22",
-        "mock-mcq-17"
+        "mock-mcq-03"
       ],
       "explanation": "本句的「mocking voice」指「以嘲弄、譏諷的方式」。",
       "sentenceIndex": 38,
@@ -1601,12 +1455,10 @@ export default {
         "mocking voice"
       ],
       "optionReasons": {
-        "mock-mcq-20": "本句指「以嘲弄、譏諷的方式」。",
-        "mock-mcq-19": "「帶嘲笑、譏諷或蔑視意味的」與本句語境不同。",
-        "mock-mcq-21": "「為幽默效果而故意裝作嚴肅的」與本句語境不同。",
-        "mock-mcq-18": "「使某制度、原則等顯得荒謬、無效或形同虛設」與本句語境不同。",
-        "mock-mcq-22": "「文學：故意把普通小事寫得像英雄史詩般莊嚴的」與本句語境不同。",
-        "mock-mcq-17": "「嘲弄、譏諷某人的言語或行為」與本句語境不同。"
+        "mock-mcq-20": "本句的「mocking voice」指「以嘲弄、譏諷的方式」。",
+        "mock-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-20"
     },
@@ -1618,11 +1470,9 @@ export default {
       "masked": "I could hear the ____ in her reply.",
       "options": [
         "mock-mcq-20",
-        "mock-mcq-19",
-        "mock-mcq-21",
-        "mock-mcq-18",
-        "mock-mcq-22",
-        "mock-mcq-17"
+        "mock-mcq-12",
+        "mock-mcq-16",
+        "mock-mcq-18"
       ],
       "explanation": "本句的「mocking tone」指「以嘲弄、譏諷的方式」。",
       "sentenceIndex": 39,
@@ -1631,12 +1481,10 @@ export default {
         "mocking tone"
       ],
       "optionReasons": {
-        "mock-mcq-20": "本句指「以嘲弄、譏諷的方式」。",
-        "mock-mcq-19": "「帶嘲笑、譏諷或蔑視意味的」與本句語境不同。",
-        "mock-mcq-21": "「為幽默效果而故意裝作嚴肅的」與本句語境不同。",
-        "mock-mcq-18": "「使某制度、原則等顯得荒謬、無效或形同虛設」與本句語境不同。",
-        "mock-mcq-22": "「文學：故意把普通小事寫得像英雄史詩般莊嚴的」與本句語境不同。",
-        "mock-mcq-17": "「嘲弄、譏諷某人的言語或行為」與本句語境不同。"
+        "mock-mcq-20": "本句的「mocking tone」指「以嘲弄、譏諷的方式」。",
+        "mock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-20"
     },
@@ -1648,11 +1496,9 @@ export default {
       "masked": "He bowed ____.",
       "options": [
         "mock-mcq-20",
-        "mock-mcq-19",
-        "mock-mcq-21",
+        "mock-mcq-09",
         "mock-mcq-18",
-        "mock-mcq-22",
-        "mock-mcq-17"
+        "mock-mcq-21"
       ],
       "explanation": "本句的「mockingly」指「以嘲弄、譏諷的方式」。",
       "sentenceIndex": 40,
@@ -1661,12 +1507,10 @@ export default {
         "mockingly"
       ],
       "optionReasons": {
-        "mock-mcq-20": "本句指「以嘲弄、譏諷的方式」。",
-        "mock-mcq-19": "「帶嘲笑、譏諷或蔑視意味的」與本句語境不同。",
-        "mock-mcq-21": "「為幽默效果而故意裝作嚴肅的」與本句語境不同。",
-        "mock-mcq-18": "「使某制度、原則等顯得荒謬、無效或形同虛設」與本句語境不同。",
-        "mock-mcq-22": "「文學：故意把普通小事寫得像英雄史詩般莊嚴的」與本句語境不同。",
-        "mock-mcq-17": "「嘲弄、譏諷某人的言語或行為」與本句語境不同。"
+        "mock-mcq-20": "本句的「mockingly」指「以嘲弄、譏諷的方式」。",
+        "mock-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-20"
     },
@@ -1678,11 +1522,9 @@ export default {
       "masked": "She repeated the phrase ____.",
       "options": [
         "mock-mcq-20",
-        "mock-mcq-19",
+        "mock-mcq-15",
         "mock-mcq-21",
-        "mock-mcq-18",
-        "mock-mcq-22",
-        "mock-mcq-17"
+        "mock-mcq-03"
       ],
       "explanation": "本句的「mockingly」指「以嘲弄、譏諷的方式」。",
       "sentenceIndex": 41,
@@ -1691,12 +1533,10 @@ export default {
         "mockingly"
       ],
       "optionReasons": {
-        "mock-mcq-20": "本句指「以嘲弄、譏諷的方式」。",
-        "mock-mcq-19": "「帶嘲笑、譏諷或蔑視意味的」與本句語境不同。",
-        "mock-mcq-21": "「為幽默效果而故意裝作嚴肅的」與本句語境不同。",
-        "mock-mcq-18": "「使某制度、原則等顯得荒謬、無效或形同虛設」與本句語境不同。",
-        "mock-mcq-22": "「文學：故意把普通小事寫得像英雄史詩般莊嚴的」與本句語境不同。",
-        "mock-mcq-17": "「嘲弄、譏諷某人的言語或行為」與本句語境不同。"
+        "mock-mcq-20": "本句的「mockingly」指「以嘲弄、譏諷的方式」。",
+        "mock-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-20"
     },
@@ -1708,11 +1548,9 @@ export default {
       "masked": "He gave me a ____.",
       "options": [
         "mock-mcq-21",
-        "mock-mcq-20",
-        "mock-mcq-22",
-        "mock-mcq-19",
+        "mock-mcq-14",
         "mock-mcq-23",
-        "mock-mcq-18"
+        "mock-mcq-04"
       ],
       "explanation": "本句的「mock-serious look」指「為幽默效果而故意裝作嚴肅的」。",
       "sentenceIndex": 42,
@@ -1721,12 +1559,10 @@ export default {
         "mock-serious look"
       ],
       "optionReasons": {
-        "mock-mcq-21": "本句指「為幽默效果而故意裝作嚴肅的」。",
-        "mock-mcq-20": "「以嘲弄、譏諷的方式」與本句語境不同。",
-        "mock-mcq-22": "「文學：故意把普通小事寫得像英雄史詩般莊嚴的」與本句語境不同。",
-        "mock-mcq-19": "「帶嘲笑、譏諷或蔑視意味的」與本句語境不同。",
-        "mock-mcq-23": "「以紀錄片形式拍攝的虛構／諷刺作品；偽紀錄片」與本句語境不同。",
-        "mock-mcq-18": "「使某制度、原則等顯得荒謬、無效或形同虛設」與本句語境不同。"
+        "mock-mcq-21": "本句的「mock-serious look」指「為幽默效果而故意裝作嚴肅的」。",
+        "mock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-21"
     },
@@ -1738,11 +1574,9 @@ export default {
       "masked": "She spoke in a ____.",
       "options": [
         "mock-mcq-21",
-        "mock-mcq-20",
-        "mock-mcq-22",
-        "mock-mcq-19",
-        "mock-mcq-23",
-        "mock-mcq-18"
+        "mock-mcq-02",
+        "mock-mcq-15",
+        "mock-mcq-04"
       ],
       "explanation": "本句的「mock-serious voice」指「為幽默效果而故意裝作嚴肅的」。",
       "sentenceIndex": 43,
@@ -1751,12 +1585,10 @@ export default {
         "mock-serious voice"
       ],
       "optionReasons": {
-        "mock-mcq-21": "本句指「為幽默效果而故意裝作嚴肅的」。",
-        "mock-mcq-20": "「以嘲弄、譏諷的方式」與本句語境不同。",
-        "mock-mcq-22": "「文學：故意把普通小事寫得像英雄史詩般莊嚴的」與本句語境不同。",
-        "mock-mcq-19": "「帶嘲笑、譏諷或蔑視意味的」與本句語境不同。",
-        "mock-mcq-23": "「以紀錄片形式拍攝的虛構／諷刺作品；偽紀錄片」與本句語境不同。",
-        "mock-mcq-18": "「使某制度、原則等顯得荒謬、無效或形同虛設」與本句語境不同。"
+        "mock-mcq-21": "本句的「mock-serious voice」指「為幽默效果而故意裝作嚴肅的」。",
+        "mock-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-21"
     },
@@ -1768,11 +1600,9 @@ export default {
       "masked": "The series is filmed as a ____.",
       "options": [
         "mock-mcq-23",
-        "mock-mcq-22",
+        "mock-mcq-16",
         "mock-mcq-21",
-        "mock-mcq-20",
-        "mock-mcq-19",
-        "mock-mcq-18"
+        "mock-mcq-12"
       ],
       "explanation": "本句的「mockumentary」指「以紀錄片形式拍攝的虛構／諷刺作品；偽紀錄片」。",
       "sentenceIndex": 44,
@@ -1781,12 +1611,10 @@ export default {
         "mockumentary"
       ],
       "optionReasons": {
-        "mock-mcq-23": "本句指「以紀錄片形式拍攝的虛構／諷刺作品；偽紀錄片」。",
-        "mock-mcq-22": "「文學：故意把普通小事寫得像英雄史詩般莊嚴的」與本句語境不同。",
-        "mock-mcq-21": "「為幽默效果而故意裝作嚴肅的」與本句語境不同。",
-        "mock-mcq-20": "「以嘲弄、譏諷的方式」與本句語境不同。",
-        "mock-mcq-19": "「帶嘲笑、譏諷或蔑視意味的」與本句語境不同。",
-        "mock-mcq-18": "「使某制度、原則等顯得荒謬、無效或形同虛設」與本句語境不同。"
+        "mock-mcq-23": "本句的「mockumentary」指「以紀錄片形式拍攝的虛構／諷刺作品；偽紀錄片」。",
+        "mock-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-23"
     },
@@ -1798,11 +1626,9 @@ export default {
       "masked": "The ____ imitates documentary conventions for comedy.",
       "options": [
         "mock-mcq-23",
-        "mock-mcq-22",
-        "mock-mcq-21",
-        "mock-mcq-20",
-        "mock-mcq-19",
-        "mock-mcq-18"
+        "mock-mcq-08",
+        "mock-mcq-02",
+        "mock-mcq-12"
       ],
       "explanation": "本句的「mockumentary」指「以紀錄片形式拍攝的虛構／諷刺作品；偽紀錄片」。",
       "sentenceIndex": 45,
@@ -1811,12 +1637,10 @@ export default {
         "mockumentary"
       ],
       "optionReasons": {
-        "mock-mcq-23": "本句指「以紀錄片形式拍攝的虛構／諷刺作品；偽紀錄片」。",
-        "mock-mcq-22": "「文學：故意把普通小事寫得像英雄史詩般莊嚴的」與本句語境不同。",
-        "mock-mcq-21": "「為幽默效果而故意裝作嚴肅的」與本句語境不同。",
-        "mock-mcq-20": "「以嘲弄、譏諷的方式」與本句語境不同。",
-        "mock-mcq-19": "「帶嘲笑、譏諷或蔑視意味的」與本句語境不同。",
-        "mock-mcq-18": "「使某制度、原則等顯得荒謬、無效或形同虛設」與本句語境不同。"
+        "mock-mcq-23": "本句的「mockumentary」指「以紀錄片形式拍攝的虛構／諷刺作品；偽紀錄片」。",
+        "mock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mock-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mock-mcq-23"
     }
@@ -1828,5 +1652,7 @@ export default {
     "sha256": "9c907fda55d1139ac6dbddcb806d74ce058ed2cf58cf19212cd86f4e44c7ad74",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

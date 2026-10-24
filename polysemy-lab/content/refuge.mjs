@@ -141,10 +141,7 @@ export default {
       "masked": "The villagers sought ____ from the storm.",
       "options": [
         "refuge-pdf-001",
-        "refuge-mcq-02",
-        "refuge-mcq-03",
-        "refuge-mcq-04",
-        "refuge-mcq-05"
+        "refuge-mcq-02"
       ],
       "explanation": "本句的「refuge」指「在危險、惡劣天氣或威脅下提供保護和安全的地方／狀態」。",
       "sentenceIndex": 0,
@@ -153,11 +150,8 @@ export default {
         "refuge"
       ],
       "optionReasons": {
-        "refuge-pdf-001": "本句指「在危險、惡劣天氣或威脅下提供保護和安全的地方／狀態」。",
-        "refuge-mcq-02": "「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」是「refuge — figurative」的用法，與本句語境不同。",
-        "refuge-mcq-03": "「為動植物提供保護和安全棲息環境的保護區／庇護地」是「refuge — wildlife」的用法，與本句語境不同。",
-        "refuge-mcq-04": "「為逃離危險、迫害或衝突的人提供的安全庇護」是「refuge — protection/asylum」的用法，與本句語境不同。",
-        "refuge-mcq-05": "「因戰爭、迫害或危險而被迫離開原居地的人；難民」是「refugee」的用法，與本句語境不同。"
+        "refuge-pdf-001": "本句的「refuge」指「在危險、惡劣天氣或威脅下提供保護和安全的地方／狀態」。",
+        "refuge-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "refuge-pdf-001"
     },
@@ -169,10 +163,7 @@ export default {
       "masked": "The cave provided ____ from the cold.",
       "options": [
         "refuge-pdf-001",
-        "refuge-mcq-02",
-        "refuge-mcq-03",
-        "refuge-mcq-04",
-        "refuge-mcq-05"
+        "refuge-mcq-02"
       ],
       "explanation": "本句的「refuge」指「在危險、惡劣天氣或威脅下提供保護和安全的地方／狀態」。",
       "sentenceIndex": 1,
@@ -181,11 +172,8 @@ export default {
         "refuge"
       ],
       "optionReasons": {
-        "refuge-pdf-001": "本句指「在危險、惡劣天氣或威脅下提供保護和安全的地方／狀態」。",
-        "refuge-mcq-02": "「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」是「refuge — figurative」的用法，與本句語境不同。",
-        "refuge-mcq-03": "「為動植物提供保護和安全棲息環境的保護區／庇護地」是「refuge — wildlife」的用法，與本句語境不同。",
-        "refuge-mcq-04": "「為逃離危險、迫害或衝突的人提供的安全庇護」是「refuge — protection/asylum」的用法，與本句語境不同。",
-        "refuge-mcq-05": "「因戰爭、迫害或危險而被迫離開原居地的人；難民」是「refugee」的用法，與本句語境不同。"
+        "refuge-pdf-001": "本句的「refuge」指「在危險、惡劣天氣或威脅下提供保護和安全的地方／狀態」。",
+        "refuge-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "refuge-pdf-001"
     },
@@ -197,10 +185,7 @@ export default {
       "masked": "The library felt like a ____ to me.",
       "options": [
         "refuge-mcq-02",
-        "refuge-mcq-01",
-        "refuge-mcq-03",
-        "refuge-mcq-04",
-        "refuge-mcq-05"
+        "refuge-pdf-001"
       ],
       "explanation": "本句的「refuge」指「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」。",
       "sentenceIndex": 2,
@@ -209,11 +194,8 @@ export default {
         "refuge"
       ],
       "optionReasons": {
-        "refuge-mcq-02": "本句指「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」。",
-        "refuge-mcq-01": "「躲避危險、暴力或惡劣環境的庇護／避難場所」是「refuge — physical safety」的用法，與本句語境不同。",
-        "refuge-mcq-03": "「為動植物提供保護和安全棲息環境的保護區／庇護地」是「refuge — wildlife」的用法，與本句語境不同。",
-        "refuge-mcq-04": "「為逃離危險、迫害或衝突的人提供的安全庇護」是「refuge — protection/asylum」的用法，與本句語境不同。",
-        "refuge-mcq-05": "「因戰爭、迫害或危險而被迫離開原居地的人；難民」是「refugee」的用法，與本句語境不同。"
+        "refuge-mcq-02": "本句的「refuge」指「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」。",
+        "refuge-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "refuge-mcq-02"
     },
@@ -225,10 +207,7 @@ export default {
       "masked": "Music became a ____ during a difficult period.",
       "options": [
         "refuge-mcq-02",
-        "refuge-mcq-01",
-        "refuge-mcq-03",
-        "refuge-mcq-04",
-        "refuge-mcq-05"
+        "refuge-pdf-001"
       ],
       "explanation": "本句的「refuge」指「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」。",
       "sentenceIndex": 3,
@@ -237,11 +216,8 @@ export default {
         "refuge"
       ],
       "optionReasons": {
-        "refuge-mcq-02": "本句指「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」。",
-        "refuge-mcq-01": "「躲避危險、暴力或惡劣環境的庇護／避難場所」是「refuge — physical safety」的用法，與本句語境不同。",
-        "refuge-mcq-03": "「為動植物提供保護和安全棲息環境的保護區／庇護地」是「refuge — wildlife」的用法，與本句語境不同。",
-        "refuge-mcq-04": "「為逃離危險、迫害或衝突的人提供的安全庇護」是「refuge — protection/asylum」的用法，與本句語境不同。",
-        "refuge-mcq-05": "「因戰爭、迫害或危險而被迫離開原居地的人；難民」是「refugee」的用法，與本句語境不同。"
+        "refuge-mcq-02": "本句的「refuge」指「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」。",
+        "refuge-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "refuge-mcq-02"
     },
@@ -253,10 +229,7 @@ export default {
       "masked": "The garden is a quiet ____ from city life.",
       "options": [
         "refuge-mcq-02",
-        "refuge-mcq-01",
-        "refuge-mcq-03",
-        "refuge-mcq-04",
-        "refuge-mcq-05"
+        "refuge-pdf-001"
       ],
       "explanation": "本句的「refuge」指「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」。",
       "sentenceIndex": 4,
@@ -265,11 +238,8 @@ export default {
         "refuge"
       ],
       "optionReasons": {
-        "refuge-mcq-02": "本句指「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」。",
-        "refuge-mcq-01": "「躲避危險、暴力或惡劣環境的庇護／避難場所」是「refuge — physical safety」的用法，與本句語境不同。",
-        "refuge-mcq-03": "「為動植物提供保護和安全棲息環境的保護區／庇護地」是「refuge — wildlife」的用法，與本句語境不同。",
-        "refuge-mcq-04": "「為逃離危險、迫害或衝突的人提供的安全庇護」是「refuge — protection/asylum」的用法，與本句語境不同。",
-        "refuge-mcq-05": "「因戰爭、迫害或危險而被迫離開原居地的人；難民」是「refugee」的用法，與本句語境不同。"
+        "refuge-mcq-02": "本句的「refuge」指「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」。",
+        "refuge-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "refuge-mcq-02"
     },
@@ -281,10 +251,7 @@ export default {
       "masked": "The wetlands are an important wildlife ____.",
       "options": [
         "refuge-mcq-03",
-        "refuge-mcq-02",
-        "refuge-mcq-04",
-        "refuge-mcq-01",
-        "refuge-mcq-05"
+        "refuge-mcq-02"
       ],
       "explanation": "本句的「refuge」指「為動植物提供保護和安全棲息環境的保護區／庇護地」。",
       "sentenceIndex": 5,
@@ -293,11 +260,8 @@ export default {
         "refuge"
       ],
       "optionReasons": {
-        "refuge-mcq-03": "本句指「為動植物提供保護和安全棲息環境的保護區／庇護地」。",
-        "refuge-mcq-02": "「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」是「refuge — figurative」的用法，與本句語境不同。",
-        "refuge-mcq-04": "「為逃離危險、迫害或衝突的人提供的安全庇護」是「refuge — protection/asylum」的用法，與本句語境不同。",
-        "refuge-mcq-01": "「躲避危險、暴力或惡劣環境的庇護／避難場所」是「refuge — physical safety」的用法，與本句語境不同。",
-        "refuge-mcq-05": "「因戰爭、迫害或危險而被迫離開原居地的人；難民」是「refugee」的用法，與本句語境不同。"
+        "refuge-mcq-03": "本句的「refuge」指「為動植物提供保護和安全棲息環境的保護區／庇護地」。",
+        "refuge-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "refuge-mcq-03"
     },
@@ -309,10 +273,7 @@ export default {
       "masked": "The island serves as a ____ for rare birds.",
       "options": [
         "refuge-mcq-03",
-        "refuge-mcq-02",
-        "refuge-mcq-04",
-        "refuge-mcq-01",
-        "refuge-mcq-05"
+        "refuge-mcq-02"
       ],
       "explanation": "本句的「refuge」指「為動植物提供保護和安全棲息環境的保護區／庇護地」。",
       "sentenceIndex": 6,
@@ -321,11 +282,8 @@ export default {
         "refuge"
       ],
       "optionReasons": {
-        "refuge-mcq-03": "本句指「為動植物提供保護和安全棲息環境的保護區／庇護地」。",
-        "refuge-mcq-02": "「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」是「refuge — figurative」的用法，與本句語境不同。",
-        "refuge-mcq-04": "「為逃離危險、迫害或衝突的人提供的安全庇護」是「refuge — protection/asylum」的用法，與本句語境不同。",
-        "refuge-mcq-01": "「躲避危險、暴力或惡劣環境的庇護／避難場所」是「refuge — physical safety」的用法，與本句語境不同。",
-        "refuge-mcq-05": "「因戰爭、迫害或危險而被迫離開原居地的人；難民」是「refugee」的用法，與本句語境不同。"
+        "refuge-mcq-03": "本句的「refuge」指「為動植物提供保護和安全棲息環境的保護區／庇護地」。",
+        "refuge-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "refuge-mcq-03"
     },
@@ -337,10 +295,7 @@ export default {
       "masked": "The country offered ____ to families fleeing the conflict.",
       "options": [
         "refuge-mcq-04",
-        "refuge-mcq-03",
-        "refuge-mcq-05",
-        "refuge-mcq-02",
-        "refuge-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「refuge」指「為逃離危險、迫害或衝突的人提供的安全庇護」。",
       "sentenceIndex": 7,
@@ -349,11 +304,8 @@ export default {
         "refuge"
       ],
       "optionReasons": {
-        "refuge-mcq-04": "本句指「為逃離危險、迫害或衝突的人提供的安全庇護」。",
-        "refuge-mcq-03": "「為動植物提供保護和安全棲息環境的保護區／庇護地」是「refuge — wildlife」的用法，與本句語境不同。",
-        "refuge-mcq-05": "「因戰爭、迫害或危險而被迫離開原居地的人；難民」是「refugee」的用法，與本句語境不同。",
-        "refuge-mcq-02": "「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」是「refuge — figurative」的用法，與本句語境不同。",
-        "refuge-mcq-01": "「躲避危險、暴力或惡劣環境的庇護／避難場所」是「refuge — physical safety」的用法，與本句語境不同。"
+        "refuge-mcq-04": "本句的「refuge」指「為逃離危險、迫害或衝突的人提供的安全庇護」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "refuge-mcq-04"
     },
@@ -365,10 +317,7 @@ export default {
       "masked": "They sought ____ across the border.",
       "options": [
         "refuge-mcq-04",
-        "refuge-mcq-03",
-        "refuge-mcq-05",
-        "refuge-mcq-02",
-        "refuge-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「refuge」指「為逃離危險、迫害或衝突的人提供的安全庇護」。",
       "sentenceIndex": 8,
@@ -377,11 +326,8 @@ export default {
         "refuge"
       ],
       "optionReasons": {
-        "refuge-mcq-04": "本句指「為逃離危險、迫害或衝突的人提供的安全庇護」。",
-        "refuge-mcq-03": "「為動植物提供保護和安全棲息環境的保護區／庇護地」是「refuge — wildlife」的用法，與本句語境不同。",
-        "refuge-mcq-05": "「因戰爭、迫害或危險而被迫離開原居地的人；難民」是「refugee」的用法，與本句語境不同。",
-        "refuge-mcq-02": "「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」是「refuge — figurative」的用法，與本句語境不同。",
-        "refuge-mcq-01": "「躲避危險、暴力或惡劣環境的庇護／避難場所」是「refuge — physical safety」的用法，與本句語境不同。"
+        "refuge-mcq-04": "本句的「refuge」指「為逃離危險、迫害或衝突的人提供的安全庇護」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "refuge-mcq-04"
     },
@@ -393,10 +339,7 @@ export default {
       "masked": "The camp provided shelter for thousands of ____.",
       "options": [
         "refuge-mcq-05",
-        "refuge-mcq-04",
-        "refuge-mcq-03",
-        "refuge-mcq-02",
-        "refuge-mcq-01"
+        "refuge-mcq-02"
       ],
       "explanation": "本句的「refugees」指「因戰爭、迫害或危險而被迫離開原居地的人；難民」。",
       "sentenceIndex": 9,
@@ -405,11 +348,8 @@ export default {
         "refugees"
       ],
       "optionReasons": {
-        "refuge-mcq-05": "本句指「因戰爭、迫害或危險而被迫離開原居地的人；難民」。",
-        "refuge-mcq-04": "「為逃離危險、迫害或衝突的人提供的安全庇護」是「refuge — protection/asylum」的用法，與本句語境不同。",
-        "refuge-mcq-03": "「為動植物提供保護和安全棲息環境的保護區／庇護地」是「refuge — wildlife」的用法，與本句語境不同。",
-        "refuge-mcq-02": "「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」是「refuge — figurative」的用法，與本句語境不同。",
-        "refuge-mcq-01": "「躲避危險、暴力或惡劣環境的庇護／避難場所」是「refuge — physical safety」的用法，與本句語境不同。"
+        "refuge-mcq-05": "本句的「refugees」指「因戰爭、迫害或危險而被迫離開原居地的人；難民」。",
+        "refuge-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "refuge-mcq-05"
     },
@@ -421,10 +361,7 @@ export default {
       "masked": "Many ____ had crossed the border.",
       "options": [
         "refuge-mcq-05",
-        "refuge-mcq-04",
-        "refuge-mcq-03",
-        "refuge-mcq-02",
-        "refuge-mcq-01"
+        "refuge-mcq-02"
       ],
       "explanation": "本句的「refugees」指「因戰爭、迫害或危險而被迫離開原居地的人；難民」。",
       "sentenceIndex": 10,
@@ -433,11 +370,8 @@ export default {
         "refugees"
       ],
       "optionReasons": {
-        "refuge-mcq-05": "本句指「因戰爭、迫害或危險而被迫離開原居地的人；難民」。",
-        "refuge-mcq-04": "「為逃離危險、迫害或衝突的人提供的安全庇護」是「refuge — protection/asylum」的用法，與本句語境不同。",
-        "refuge-mcq-03": "「為動植物提供保護和安全棲息環境的保護區／庇護地」是「refuge — wildlife」的用法，與本句語境不同。",
-        "refuge-mcq-02": "「讓人暫時逃離壓力、噪音、混亂或情緒困擾的避風港」是「refuge — figurative」的用法，與本句語境不同。",
-        "refuge-mcq-01": "「躲避危險、暴力或惡劣環境的庇護／避難場所」是「refuge — physical safety」的用法，與本句語境不同。"
+        "refuge-mcq-05": "本句的「refugees」指「因戰爭、迫害或危險而被迫離開原居地的人；難民」。",
+        "refuge-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "refuge-mcq-05"
     }
@@ -449,5 +383,12 @@ export default {
     "sha256": "88e702281d5c4cc6c7fc5c747ee3c1841f90f493da918d5ca3ab128439c5425f",
     "pages": 8
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

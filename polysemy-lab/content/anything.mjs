@@ -285,16 +285,6 @@ export default {
           "We didn’t discuss money or anything.",
           "我們沒有談錢之類的事。",
           "或其他相關／同類事物；之類的"
-        ],
-        [
-          "It was raining like anything.",
-          "雨下得非常大。",
-          "或其他相關／同類事物；之類的"
-        ],
-        [
-          "She was working like anything to finish on time.",
-          "她為了準時完成而拼命工作。",
-          "或其他相關／同類事物；之類的"
         ]
       ],
       "options": [],
@@ -409,6 +399,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "anything-reviewed-d045826ba7",
+      "title": "程度非常強烈",
+      "form": "anything · source section 17",
+      "en": "程度非常強烈",
+      "zh": "程度非常強烈",
+      "note": "對照原始教材第 17 節及例句核實。",
+      "examples": [
+        [
+          "It was raining like anything.",
+          "雨下得非常大。",
+          "程度非常強烈"
+        ],
+        [
+          "She was working like anything to finish on time.",
+          "她為了準時完成而拼命工作。",
+          "程度非常強烈"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -420,11 +432,9 @@ export default {
       "masked": "Did you buy ____ at the museum shop?",
       "options": [
         "anything-mcq-01",
-        "anything-mcq-02",
-        "anything-mcq-03",
-        "anything-mcq-04",
-        "anything-mcq-05",
-        "anything-mcq-06"
+        "anything-mcq-13",
+        "anything-mcq-14",
+        "anything-reviewed-d045826ba7"
       ],
       "explanation": "本句的「anything」指「在未知選項中詢問是否存在任何一樣事物」。",
       "sentenceIndex": 0,
@@ -433,12 +443,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-01": "本句指「在未知選項中詢問是否存在任何一樣事物」。",
-        "anything-mcq-02": "「否定範圍涵蓋所有可能事物；甚麼都沒有／不……」是「anything — negative」的用法，與本句語境不同。",
-        "anything-mcq-03": "「沒有限定哪一項；任何一樣都可以」是「anything — free choice」的用法，與本句語境不同。",
-        "anything-mcq-04": "「所有符合後面條件的可能事物中任意一樣」是「anything + clause」的用法，與本句語境不同。",
-        "anything-mcq-05": "「完全不是；一點也不」是「anything but」的用法，與本句語境不同。",
-        "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。"
+        "anything-mcq-01": "本句的「anything」指「在未知選項中詢問是否存在任何一樣事物」。",
+        "anything-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anything-reviewed-d045826ba7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-01"
     },
@@ -450,11 +458,9 @@ export default {
       "masked": "Is there ____ you want to ask?",
       "options": [
         "anything-mcq-01",
-        "anything-mcq-02",
-        "anything-mcq-03",
-        "anything-mcq-04",
-        "anything-mcq-05",
-        "anything-mcq-06"
+        "anything-mcq-13",
+        "anything-mcq-14",
+        "anything-mcq-09"
       ],
       "explanation": "本句的「anything」指「在未知選項中詢問是否存在任何一樣事物」。",
       "sentenceIndex": 1,
@@ -463,12 +469,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-01": "本句指「在未知選項中詢問是否存在任何一樣事物」。",
-        "anything-mcq-02": "「否定範圍涵蓋所有可能事物；甚麼都沒有／不……」是「anything — negative」的用法，與本句語境不同。",
-        "anything-mcq-03": "「沒有限定哪一項；任何一樣都可以」是「anything — free choice」的用法，與本句語境不同。",
-        "anything-mcq-04": "「所有符合後面條件的可能事物中任意一樣」是「anything + clause」的用法，與本句語境不同。",
-        "anything-mcq-05": "「完全不是；一點也不」是「anything but」的用法，與本句語境不同。",
-        "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。"
+        "anything-mcq-01": "本句的「anything」指「在未知選項中詢問是否存在任何一樣事物」。",
+        "anything-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-01"
     },
@@ -480,11 +484,9 @@ export default {
       "masked": "I didn’t buy ____.",
       "options": [
         "anything-pdf-001",
-        "anything-mcq-01",
-        "anything-mcq-03",
-        "anything-mcq-04",
+        "anything-mcq-12",
         "anything-mcq-05",
-        "anything-mcq-06"
+        "anything-mcq-14"
       ],
       "explanation": "本句的「anything」指「在否定句中表示沒有任何一樣事物符合」。",
       "sentenceIndex": 2,
@@ -493,12 +495,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-pdf-001": "本句指「在否定句中表示沒有任何一樣事物符合」。",
-        "anything-mcq-01": "「在未知選項中詢問是否存在任何一樣事物」是「anything — question」的用法，與本句語境不同。",
-        "anything-mcq-03": "「沒有限定哪一項；任何一樣都可以」是「anything — free choice」的用法，與本句語境不同。",
-        "anything-mcq-04": "「所有符合後面條件的可能事物中任意一樣」是「anything + clause」的用法，與本句語境不同。",
-        "anything-mcq-05": "「完全不是；一點也不」是「anything but」的用法，與本句語境不同。",
-        "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。"
+        "anything-pdf-001": "本句的「anything」指「在否定句中表示沒有任何一樣事物符合」。",
+        "anything-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-pdf-001"
     },
@@ -510,11 +510,9 @@ export default {
       "masked": "She couldn’t see ____ in the dark.",
       "options": [
         "anything-pdf-001",
-        "anything-mcq-01",
-        "anything-mcq-03",
-        "anything-mcq-04",
-        "anything-mcq-05",
-        "anything-mcq-06"
+        "anything-mcq-13",
+        "anything-reviewed-d045826ba7",
+        "anything-mcq-14"
       ],
       "explanation": "本句的「anything」指「在否定句中表示沒有任何一樣事物符合」。",
       "sentenceIndex": 3,
@@ -523,12 +521,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-pdf-001": "本句指「在否定句中表示沒有任何一樣事物符合」。",
-        "anything-mcq-01": "「在未知選項中詢問是否存在任何一樣事物」是「anything — question」的用法，與本句語境不同。",
-        "anything-mcq-03": "「沒有限定哪一項；任何一樣都可以」是「anything — free choice」的用法，與本句語境不同。",
-        "anything-mcq-04": "「所有符合後面條件的可能事物中任意一樣」是「anything + clause」的用法，與本句語境不同。",
-        "anything-mcq-05": "「完全不是；一點也不」是「anything but」的用法，與本句語境不同。",
-        "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。"
+        "anything-pdf-001": "本句的「anything」指「在否定句中表示沒有任何一樣事物符合」。",
+        "anything-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "anything-reviewed-d045826ba7": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-pdf-001"
     },
@@ -540,11 +536,9 @@ export default {
       "masked": "You can choose ____ you like.",
       "options": [
         "anything-mcq-03",
-        "anything-mcq-02",
-        "anything-mcq-04",
-        "anything-mcq-01",
+        "anything-reviewed-d045826ba7",
         "anything-mcq-05",
-        "anything-mcq-06"
+        "anything-mcq-12"
       ],
       "explanation": "本句的「anything」指「沒有限定哪一項；任何一樣都可以」。",
       "sentenceIndex": 4,
@@ -553,12 +547,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-03": "本句指「沒有限定哪一項；任何一樣都可以」。",
-        "anything-mcq-02": "「否定範圍涵蓋所有可能事物；甚麼都沒有／不……」是「anything — negative」的用法，與本句語境不同。",
-        "anything-mcq-04": "「所有符合後面條件的可能事物中任意一樣」是「anything + clause」的用法，與本句語境不同。",
-        "anything-mcq-01": "「在未知選項中詢問是否存在任何一樣事物」是「anything — question」的用法，與本句語境不同。",
-        "anything-mcq-05": "「完全不是；一點也不」是「anything but」的用法，與本句語境不同。",
-        "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。"
+        "anything-mcq-03": "本句的「anything」指「沒有限定哪一項；任何一樣都可以」。",
+        "anything-reviewed-d045826ba7": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-03"
     },
@@ -570,11 +562,9 @@ export default {
       "masked": "Ask me ____.",
       "options": [
         "anything-mcq-03",
-        "anything-mcq-02",
-        "anything-mcq-04",
-        "anything-mcq-01",
-        "anything-mcq-05",
-        "anything-mcq-06"
+        "anything-mcq-12",
+        "anything-reviewed-d045826ba7",
+        "anything-mcq-13"
       ],
       "explanation": "本句的「anything」指「沒有限定哪一項；任何一樣都可以」。",
       "sentenceIndex": 5,
@@ -583,12 +573,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-03": "本句指「沒有限定哪一項；任何一樣都可以」。",
-        "anything-mcq-02": "「否定範圍涵蓋所有可能事物；甚麼都沒有／不……」是「anything — negative」的用法，與本句語境不同。",
-        "anything-mcq-04": "「所有符合後面條件的可能事物中任意一樣」是「anything + clause」的用法，與本句語境不同。",
-        "anything-mcq-01": "「在未知選項中詢問是否存在任何一樣事物」是「anything — question」的用法，與本句語境不同。",
-        "anything-mcq-05": "「完全不是；一點也不」是「anything but」的用法，與本句語境不同。",
-        "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。"
+        "anything-mcq-03": "本句的「anything」指「沒有限定哪一項；任何一樣都可以」。",
+        "anything-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anything-reviewed-d045826ba7": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-03"
     },
@@ -600,11 +588,9 @@ export default {
       "masked": "It was beyond ____.",
       "options": [
         "anything-mcq-04",
-        "anything-mcq-03",
-        "anything-mcq-05",
-        "anything-mcq-02",
-        "anything-mcq-06",
-        "anything-mcq-01"
+        "anything-reviewed-d045826ba7",
+        "anything-mcq-13",
+        "anything-mcq-15"
       ],
       "explanation": "本句的「anything I could afford」指「所有符合後面條件的可能事物中任意一樣」。",
       "sentenceIndex": 6,
@@ -613,12 +599,10 @@ export default {
         "anything I could afford"
       ],
       "optionReasons": {
-        "anything-mcq-04": "本句指「所有符合後面條件的可能事物中任意一樣」。",
-        "anything-mcq-03": "「沒有限定哪一項；任何一樣都可以」是「anything — free choice」的用法，與本句語境不同。",
-        "anything-mcq-05": "「完全不是；一點也不」是「anything but」的用法，與本句語境不同。",
-        "anything-mcq-02": "「否定範圍涵蓋所有可能事物；甚麼都沒有／不……」是「anything — negative」的用法，與本句語境不同。",
-        "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。",
-        "anything-mcq-01": "「在未知選項中詢問是否存在任何一樣事物」是「anything — question」的用法，與本句語境不同。"
+        "anything-mcq-04": "本句的「anything I could afford」指「所有符合後面條件的可能事物中任意一樣」。",
+        "anything-reviewed-d045826ba7": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-04"
     },
@@ -630,11 +614,9 @@ export default {
       "masked": "Choose ____ that looks interesting.",
       "options": [
         "anything-mcq-04",
-        "anything-mcq-03",
-        "anything-mcq-05",
-        "anything-mcq-02",
-        "anything-mcq-06",
-        "anything-mcq-01"
+        "anything-mcq-07",
+        "anything-mcq-13",
+        "anything-mcq-16"
       ],
       "explanation": "本句的「anything」指「所有符合後面條件的可能事物中任意一樣」。",
       "sentenceIndex": 7,
@@ -643,12 +625,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-04": "本句指「所有符合後面條件的可能事物中任意一樣」。",
-        "anything-mcq-03": "「沒有限定哪一項；任何一樣都可以」是「anything — free choice」的用法，與本句語境不同。",
-        "anything-mcq-05": "「完全不是；一點也不」是「anything but」的用法，與本句語境不同。",
-        "anything-mcq-02": "「否定範圍涵蓋所有可能事物；甚麼都沒有／不……」是「anything — negative」的用法，與本句語境不同。",
-        "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。",
-        "anything-mcq-01": "「在未知選項中詢問是否存在任何一樣事物」是「anything — question」的用法，與本句語境不同。"
+        "anything-mcq-04": "本句的「anything」指「所有符合後面條件的可能事物中任意一樣」。",
+        "anything-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-04"
     },
@@ -660,11 +640,9 @@ export default {
       "masked": "The painting is ____.",
       "options": [
         "anything-mcq-05",
-        "anything-mcq-04",
-        "anything-mcq-06",
-        "anything-mcq-03",
-        "anything-mcq-07",
-        "anything-mcq-02"
+        "anything-mcq-01",
+        "anything-mcq-12",
+        "anything-reviewed-d045826ba7"
       ],
       "explanation": "本句的「anything but ordinary」指「完全不是；一點也不」。",
       "sentenceIndex": 8,
@@ -673,12 +651,10 @@ export default {
         "anything but ordinary"
       ],
       "optionReasons": {
-        "anything-mcq-05": "本句指「完全不是；一點也不」。",
-        "anything-mcq-04": "「所有符合後面條件的可能事物中任意一樣」是「anything + clause」的用法，與本句語境不同。",
-        "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。",
-        "anything-mcq-03": "「沒有限定哪一項；任何一樣都可以」是「anything — free choice」的用法，與本句語境不同。",
-        "anything-mcq-07": "「達到接近某個數量或程度」是「anything near/close to」的用法，與本句語境不同。",
-        "anything-mcq-02": "「否定範圍涵蓋所有可能事物；甚麼都沒有／不……」是「anything — negative」的用法，與本句語境不同。"
+        "anything-mcq-05": "本句的「anything but ordinary」指「完全不是；一點也不」。",
+        "anything-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anything-reviewed-d045826ba7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-05"
     },
@@ -690,11 +666,9 @@ export default {
       "masked": "The process was ____ but simple.",
       "options": [
         "anything-mcq-05",
-        "anything-mcq-04",
-        "anything-mcq-06",
-        "anything-mcq-03",
-        "anything-mcq-07",
-        "anything-mcq-02"
+        "anything-mcq-16",
+        "anything-reviewed-d045826ba7",
+        "anything-mcq-13"
       ],
       "explanation": "本句的「anything」指「完全不是；一點也不」。",
       "sentenceIndex": 9,
@@ -703,12 +677,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-05": "本句指「完全不是；一點也不」。",
-        "anything-mcq-04": "「所有符合後面條件的可能事物中任意一樣」是「anything + clause」的用法，與本句語境不同。",
-        "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。",
-        "anything-mcq-03": "「沒有限定哪一項；任何一樣都可以」是「anything — free choice」的用法，與本句語境不同。",
-        "anything-mcq-07": "「達到接近某個數量或程度」是「anything near/close to」的用法，與本句語境不同。",
-        "anything-mcq-02": "「否定範圍涵蓋所有可能事物；甚麼都沒有／不……」是「anything — negative」的用法，與本句語境不同。"
+        "anything-mcq-05": "本句的「anything」指「完全不是；一點也不」。",
+        "anything-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "anything-reviewed-d045826ba7": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-05"
     },
@@ -720,11 +692,9 @@ export default {
       "masked": "Have you seen ____ this before?",
       "options": [
         "anything-mcq-06",
-        "anything-mcq-05",
-        "anything-mcq-07",
-        "anything-mcq-04",
-        "anything-mcq-08",
-        "anything-mcq-03"
+        "anything-mcq-11",
+        "anything-mcq-14",
+        "anything-mcq-12"
       ],
       "explanation": "本句的「anything like」指「與某物相似／達到類似程度」。",
       "sentenceIndex": 10,
@@ -733,12 +703,10 @@ export default {
         "anything like"
       ],
       "optionReasons": {
-        "anything-mcq-06": "本句指「與某物相似／達到類似程度」。",
-        "anything-mcq-05": "「完全不是；一點也不」是「anything but」的用法，與本句語境不同。",
-        "anything-mcq-07": "「達到接近某個數量或程度」是「anything near/close to」的用法，與本句語境不同。",
-        "anything-mcq-04": "「所有符合後面條件的可能事物中任意一樣」是「anything + clause」的用法，與本句語境不同。",
-        "anything-mcq-08": "「A 至 B 範圍內任何可能的數值／情況」是「anything from A to B」的用法，與本句語境不同。",
-        "anything-mcq-03": "「沒有限定哪一項；任何一樣都可以」是「anything — free choice」的用法，與本句語境不同。"
+        "anything-mcq-06": "本句的「anything like」指「與某物相似／達到類似程度」。",
+        "anything-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-06"
     },
@@ -750,11 +718,9 @@ export default {
       "masked": "The reproduction is not ____ like the original.",
       "options": [
         "anything-mcq-06",
-        "anything-mcq-05",
-        "anything-mcq-07",
-        "anything-mcq-04",
-        "anything-mcq-08",
-        "anything-mcq-03"
+        "anything-mcq-10",
+        "anything-mcq-14",
+        "anything-mcq-05"
       ],
       "explanation": "本句的「anything」指「與某物相似／達到類似程度」。",
       "sentenceIndex": 11,
@@ -763,12 +729,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-06": "本句指「與某物相似／達到類似程度」。",
-        "anything-mcq-05": "「完全不是；一點也不」是「anything but」的用法，與本句語境不同。",
-        "anything-mcq-07": "「達到接近某個數量或程度」是「anything near/close to」的用法，與本句語境不同。",
-        "anything-mcq-04": "「所有符合後面條件的可能事物中任意一樣」是「anything + clause」的用法，與本句語境不同。",
-        "anything-mcq-08": "「A 至 B 範圍內任何可能的數值／情況」是「anything from A to B」的用法，與本句語境不同。",
-        "anything-mcq-03": "「沒有限定哪一項；任何一樣都可以」是「anything — free choice」的用法，與本句語境不同。"
+        "anything-mcq-06": "本句的「anything」指「與某物相似／達到類似程度」。",
+        "anything-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-06"
     },
@@ -780,11 +744,9 @@ export default {
       "masked": "I can’t afford ____ that price.",
       "options": [
         "anything-mcq-07",
-        "anything-mcq-06",
-        "anything-mcq-08",
-        "anything-mcq-05",
-        "anything-mcq-09",
-        "anything-mcq-04"
+        "anything-mcq-16",
+        "anything-mcq-04",
+        "anything-mcq-13"
       ],
       "explanation": "本句的「anything near」指「達到接近某個數量或程度」。",
       "sentenceIndex": 12,
@@ -793,12 +755,10 @@ export default {
         "anything near"
       ],
       "optionReasons": {
-        "anything-mcq-07": "本句指「達到接近某個數量或程度」。",
-        "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。",
-        "anything-mcq-08": "「A 至 B 範圍內任何可能的數值／情況」是「anything from A to B」的用法，與本句語境不同。",
-        "anything-mcq-05": "「完全不是；一點也不」是「anything but」的用法，與本句語境不同。",
-        "anything-mcq-09": "「數值可能從較低範圍一直到指定上限」是「anything up to」的用法，與本句語境不同。",
-        "anything-mcq-04": "「所有符合後面條件的可能事物中任意一樣」是「anything + clause」的用法，與本句語境不同。"
+        "anything-mcq-07": "本句的「anything near」指「達到接近某個數量或程度」。",
+        "anything-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-07"
     },
@@ -810,11 +770,9 @@ export default {
       "masked": "The copy is not ____ close to the quality of the original.",
       "options": [
         "anything-mcq-07",
-        "anything-mcq-06",
-        "anything-mcq-08",
-        "anything-mcq-05",
-        "anything-mcq-09",
-        "anything-mcq-04"
+        "anything-mcq-10",
+        "anything-mcq-14",
+        "anything-mcq-05"
       ],
       "explanation": "本句的「anything」指「達到接近某個數量或程度」。",
       "sentenceIndex": 13,
@@ -823,12 +781,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-07": "本句指「達到接近某個數量或程度」。",
-        "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。",
-        "anything-mcq-08": "「A 至 B 範圍內任何可能的數值／情況」是「anything from A to B」的用法，與本句語境不同。",
-        "anything-mcq-05": "「完全不是；一點也不」是「anything but」的用法，與本句語境不同。",
-        "anything-mcq-09": "「數值可能從較低範圍一直到指定上限」是「anything up to」的用法，與本句語境不同。",
-        "anything-mcq-04": "「所有符合後面條件的可能事物中任意一樣」是「anything + clause」的用法，與本句語境不同。"
+        "anything-mcq-07": "本句的「anything」指「達到接近某個數量或程度」。",
+        "anything-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-07"
     },
@@ -840,11 +796,9 @@ export default {
       "masked": "The repair could cost ____ five hundred to two thousand dollars.",
       "options": [
         "anything-mcq-08",
-        "anything-mcq-07",
-        "anything-mcq-09",
-        "anything-mcq-06",
-        "anything-mcq-10",
-        "anything-mcq-05"
+        "anything-mcq-13",
+        "anything-mcq-05",
+        "anything-mcq-14"
       ],
       "explanation": "本句的「anything from」指「A 至 B 範圍內任何可能的數值／情況」。",
       "sentenceIndex": 14,
@@ -853,12 +807,10 @@ export default {
         "anything from"
       ],
       "optionReasons": {
-        "anything-mcq-08": "本句指「A 至 B 範圍內任何可能的數值／情況」。",
-        "anything-mcq-07": "「達到接近某個數量或程度」是「anything near/close to」的用法，與本句語境不同。",
-        "anything-mcq-09": "「數值可能從較低範圍一直到指定上限」是「anything up to」的用法，與本句語境不同。",
-        "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。",
-        "anything-mcq-10": "「除已提及事物之外的其他任何東西」是「anything else」的用法，與本句語境不同。",
-        "anything-mcq-05": "「完全不是；一點也不」是「anything but」的用法，與本句語境不同。"
+        "anything-mcq-08": "本句的「anything from」指「A 至 B 範圍內任何可能的數值／情況」。",
+        "anything-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-08"
     },
@@ -870,11 +822,9 @@ export default {
       "masked": "The exhibition may take ____ from one hour to an entire afternoon.",
       "options": [
         "anything-mcq-08",
-        "anything-mcq-07",
-        "anything-mcq-09",
-        "anything-mcq-06",
-        "anything-mcq-10",
-        "anything-mcq-05"
+        "anything-mcq-14",
+        "anything-mcq-13",
+        "anything-mcq-12"
       ],
       "explanation": "本句的「anything」指「A 至 B 範圍內任何可能的數值／情況」。",
       "sentenceIndex": 15,
@@ -883,12 +833,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-08": "本句指「A 至 B 範圍內任何可能的數值／情況」。",
-        "anything-mcq-07": "「達到接近某個數量或程度」是「anything near/close to」的用法，與本句語境不同。",
-        "anything-mcq-09": "「數值可能從較低範圍一直到指定上限」是「anything up to」的用法，與本句語境不同。",
-        "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。",
-        "anything-mcq-10": "「除已提及事物之外的其他任何東西」是「anything else」的用法，與本句語境不同。",
-        "anything-mcq-05": "「完全不是；一點也不」是「anything but」的用法，與本句語境不同。"
+        "anything-mcq-08": "本句的「anything」指「A 至 B 範圍內任何可能的數值／情況」。",
+        "anything-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-08"
     },
@@ -900,11 +848,9 @@ export default {
       "masked": "The frame could cost ____ five thousand dollars.",
       "options": [
         "anything-mcq-09",
-        "anything-mcq-08",
-        "anything-mcq-10",
-        "anything-mcq-07",
-        "anything-mcq-11",
-        "anything-mcq-06"
+        "anything-mcq-14",
+        "anything-pdf-002",
+        "anything-mcq-05"
       ],
       "explanation": "本句的「anything up to」指「數值可能從較低範圍一直到指定上限」。",
       "sentenceIndex": 16,
@@ -913,12 +859,10 @@ export default {
         "anything up to"
       ],
       "optionReasons": {
-        "anything-mcq-09": "本句指「數值可能從較低範圍一直到指定上限」。",
-        "anything-mcq-08": "「A 至 B 範圍內任何可能的數值／情況」是「anything from A to B」的用法，與本句語境不同。",
-        "anything-mcq-10": "「除已提及事物之外的其他任何東西」是「anything else」的用法，與本句語境不同。",
-        "anything-mcq-07": "「達到接近某個數量或程度」是「anything near/close to」的用法，與本句語境不同。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。",
-        "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。"
+        "anything-mcq-09": "本句的「anything up to」指「數值可能從較低範圍一直到指定上限」。",
+        "anything-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anything-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-09"
     },
@@ -930,11 +874,9 @@ export default {
       "masked": "Delivery can take ____ up to two weeks.",
       "options": [
         "anything-mcq-09",
-        "anything-mcq-08",
         "anything-mcq-10",
-        "anything-mcq-07",
-        "anything-mcq-11",
-        "anything-mcq-06"
+        "anything-mcq-14",
+        "anything-mcq-05"
       ],
       "explanation": "本句的「anything」指「數值可能從較低範圍一直到指定上限」。",
       "sentenceIndex": 17,
@@ -943,12 +885,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-09": "本句指「數值可能從較低範圍一直到指定上限」。",
-        "anything-mcq-08": "「A 至 B 範圍內任何可能的數值／情況」是「anything from A to B」的用法，與本句語境不同。",
-        "anything-mcq-10": "「除已提及事物之外的其他任何東西」是「anything else」的用法，與本句語境不同。",
-        "anything-mcq-07": "「達到接近某個數量或程度」是「anything near/close to」的用法，與本句語境不同。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。",
-        "anything-mcq-06": "「與某物相似／達到類似程度」是「anything like」的用法，與本句語境不同。"
+        "anything-mcq-09": "本句的「anything」指「數值可能從較低範圍一直到指定上限」。",
+        "anything-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-09"
     },
@@ -960,11 +900,9 @@ export default {
       "masked": "Would you like ____?",
       "options": [
         "anything-mcq-10",
-        "anything-mcq-09",
-        "anything-mcq-11",
-        "anything-mcq-08",
         "anything-mcq-12",
-        "anything-mcq-07"
+        "anything-reviewed-d045826ba7",
+        "anything-mcq-05"
       ],
       "explanation": "本句的「anything else」指「除已提及事物之外的其他任何東西」。",
       "sentenceIndex": 18,
@@ -973,12 +911,10 @@ export default {
         "anything else"
       ],
       "optionReasons": {
-        "anything-mcq-10": "本句指「除已提及事物之外的其他任何東西」。",
-        "anything-mcq-09": "「數值可能從較低範圍一直到指定上限」是「anything up to」的用法，與本句語境不同。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。",
-        "anything-mcq-08": "「A 至 B 範圍內任何可能的數值／情況」是「anything from A to B」的用法，與本句語境不同。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-07": "「達到接近某個數量或程度」是「anything near/close to」的用法，與本句語境不同。"
+        "anything-mcq-10": "本句的「anything else」指「除已提及事物之外的其他任何東西」。",
+        "anything-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anything-reviewed-d045826ba7": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-10"
     },
@@ -991,10 +927,8 @@ export default {
       "options": [
         "anything-mcq-10",
         "anything-mcq-09",
-        "anything-mcq-11",
-        "anything-mcq-08",
-        "anything-mcq-12",
-        "anything-mcq-07"
+        "anything-mcq-05",
+        "anything-mcq-12"
       ],
       "explanation": "本句的「anything」指「除已提及事物之外的其他任何東西」。",
       "sentenceIndex": 19,
@@ -1003,12 +937,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-10": "本句指「除已提及事物之外的其他任何東西」。",
-        "anything-mcq-09": "「數值可能從較低範圍一直到指定上限」是「anything up to」的用法，與本句語境不同。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。",
-        "anything-mcq-08": "「A 至 B 範圍內任何可能的數值／情況」是「anything from A to B」的用法，與本句語境不同。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-07": "「達到接近某個數量或程度」是「anything near/close to」的用法，與本句語境不同。"
+        "anything-mcq-10": "本句的「anything」指「除已提及事物之外的其他任何東西」。",
+        "anything-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-10"
     },
@@ -1020,11 +952,9 @@ export default {
       "masked": "Do you want to know ____?",
       "options": [
         "anything-mcq-10",
-        "anything-mcq-09",
-        "anything-mcq-11",
-        "anything-mcq-08",
+        "anything-mcq-05",
         "anything-mcq-12",
-        "anything-mcq-07"
+        "anything-reviewed-d045826ba7"
       ],
       "explanation": "本句的「anything more」指「除已提及事物之外的其他任何東西」。",
       "sentenceIndex": 20,
@@ -1033,12 +963,10 @@ export default {
         "anything more"
       ],
       "optionReasons": {
-        "anything-mcq-10": "本句指「除已提及事物之外的其他任何東西」。",
-        "anything-mcq-09": "「數值可能從較低範圍一直到指定上限」是「anything up to」的用法，與本句語境不同。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。",
-        "anything-mcq-08": "「A 至 B 範圍內任何可能的數值／情況」是「anything from A to B」的用法，與本句語境不同。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-07": "「達到接近某個數量或程度」是「anything near/close to」的用法，與本句語境不同。"
+        "anything-mcq-10": "本句的「anything more」指「除已提及事物之外的其他任何東西」。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anything-reviewed-d045826ba7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-10"
     },
@@ -1050,11 +978,9 @@ export default {
       "masked": "I can’t add ____ more.",
       "options": [
         "anything-mcq-10",
-        "anything-mcq-09",
-        "anything-mcq-11",
-        "anything-mcq-08",
-        "anything-mcq-12",
-        "anything-mcq-07"
+        "anything-mcq-06",
+        "anything-mcq-05",
+        "anything-mcq-12"
       ],
       "explanation": "本句的「anything」指「除已提及事物之外的其他任何東西」。",
       "sentenceIndex": 21,
@@ -1063,12 +989,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-10": "本句指「除已提及事物之外的其他任何東西」。",
-        "anything-mcq-09": "「數值可能從較低範圍一直到指定上限」是「anything up to」的用法，與本句語境不同。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。",
-        "anything-mcq-08": "「A 至 B 範圍內任何可能的數值／情況」是「anything from A to B」的用法，與本句語境不同。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-07": "「達到接近某個數量或程度」是「anything near/close to」的用法，與本句語境不同。"
+        "anything-mcq-10": "本句的「anything」指「除已提及事物之外的其他任何東西」。",
+        "anything-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-10"
     },
@@ -1080,11 +1004,9 @@ export default {
       "masked": "If you need ____, call me.",
       "options": [
         "anything-mcq-11",
-        "anything-mcq-10",
+        "anything-mcq-06",
         "anything-mcq-12",
-        "anything-mcq-09",
-        "anything-mcq-13",
-        "anything-mcq-08"
+        "anything-mcq-14"
       ],
       "explanation": "本句的「anything at all」指「強調任何可能事物都包括；哪怕一點點」。",
       "sentenceIndex": 22,
@@ -1093,12 +1015,10 @@ export default {
         "anything at all"
       ],
       "optionReasons": {
-        "anything-mcq-11": "本句指「強調任何可能事物都包括；哪怕一點點」。",
-        "anything-mcq-10": "「除已提及事物之外的其他任何東西」是「anything else」的用法，與本句語境不同。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-09": "「數值可能從較低範圍一直到指定上限」是「anything up to」的用法，與本句語境不同。",
-        "anything-mcq-13": "「或其他相關／同類事物；之類的」是「or anything」的用法，與本句語境不同。",
-        "anything-mcq-08": "「A 至 B 範圍內任何可能的數值／情況」是「anything from A to B」的用法，與本句語境不同。"
+        "anything-mcq-11": "本句的「anything at all」指「強調任何可能事物都包括；哪怕一點點」。",
+        "anything-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-11"
     },
@@ -1110,11 +1030,9 @@ export default {
       "masked": "I couldn’t hear ____ at all.",
       "options": [
         "anything-mcq-11",
-        "anything-mcq-10",
+        "anything-mcq-06",
         "anything-mcq-12",
-        "anything-mcq-09",
-        "anything-mcq-13",
-        "anything-mcq-08"
+        "anything-mcq-14"
       ],
       "explanation": "本句的「anything」指「強調任何可能事物都包括；哪怕一點點」。",
       "sentenceIndex": 23,
@@ -1123,12 +1041,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-11": "本句指「強調任何可能事物都包括；哪怕一點點」。",
-        "anything-mcq-10": "「除已提及事物之外的其他任何東西」是「anything else」的用法，與本句語境不同。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-09": "「數值可能從較低範圍一直到指定上限」是「anything up to」的用法，與本句語境不同。",
-        "anything-mcq-13": "「或其他相關／同類事物；之類的」是「or anything」的用法，與本句語境不同。",
-        "anything-mcq-08": "「A 至 B 範圍內任何可能的數值／情況」是「anything from A to B」的用法，與本句語境不同。"
+        "anything-mcq-11": "本句的「anything」指「強調任何可能事物都包括；哪怕一點點」。",
+        "anything-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-11"
     },
@@ -1140,11 +1056,9 @@ export default {
       "masked": "We’ll do ____ to protect the painting.",
       "options": [
         "anything-pdf-002",
-        "anything-mcq-10",
-        "anything-mcq-12",
-        "anything-mcq-09",
+        "anything-mcq-05",
         "anything-mcq-13",
-        "anything-mcq-08"
+        "anything-mcq-09"
       ],
       "explanation": "本句的「anything possible」指「任何在現實上可行的事情」。",
       "sentenceIndex": 24,
@@ -1153,12 +1067,10 @@ export default {
         "anything possible"
       ],
       "optionReasons": {
-        "anything-pdf-002": "本句指「任何在現實上可行的事情」。",
-        "anything-mcq-10": "「除已提及事物之外的其他任何東西」是「anything else」的用法，與本句語境不同。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-09": "「數值可能從較低範圍一直到指定上限」是「anything up to」的用法，與本句語境不同。",
-        "anything-mcq-13": "「或其他相關／同類事物；之類的」是「or anything」的用法，與本句語境不同。",
-        "anything-mcq-08": "「A 至 B 範圍內任何可能的數值／情況」是「anything from A to B」的用法，與本句語境不同。"
+        "anything-pdf-002": "本句的「anything possible」指「任何在現實上可行的事情」。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-pdf-002"
     },
@@ -1170,11 +1082,9 @@ export default {
       "masked": "She tried ____ possible to solve the problem.",
       "options": [
         "anything-pdf-002",
-        "anything-mcq-10",
-        "anything-mcq-12",
         "anything-mcq-09",
-        "anything-mcq-13",
-        "anything-mcq-08"
+        "anything-mcq-05",
+        "anything-mcq-14"
       ],
       "explanation": "本句的「anything」指「任何在現實上可行的事情」。",
       "sentenceIndex": 25,
@@ -1183,12 +1093,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-pdf-002": "本句指「任何在現實上可行的事情」。",
-        "anything-mcq-10": "「除已提及事物之外的其他任何東西」是「anything else」的用法，與本句語境不同。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-09": "「數值可能從較低範圍一直到指定上限」是「anything up to」的用法，與本句語境不同。",
-        "anything-mcq-13": "「或其他相關／同類事物；之類的」是「or anything」的用法，與本句語境不同。",
-        "anything-mcq-08": "「A 至 B 範圍內任何可能的數值／情況」是「anything from A to B」的用法，與本句語境不同。"
+        "anything-pdf-002": "本句的「anything」指「任何在現實上可行的事情」。",
+        "anything-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-pdf-002"
     },
@@ -1200,11 +1108,9 @@ export default {
       "masked": "Does this have ____ the exhibition?",
       "options": [
         "anything-mcq-16",
-        "anything-mcq-15",
-        "anything-mcq-14",
-        "anything-mcq-13",
-        "anything-mcq-12",
-        "anything-mcq-11"
+        "anything-mcq-05",
+        "anything-mcq-09",
+        "anything-mcq-12"
       ],
       "explanation": "本句的「anything to do with」指「與某主題、人或事情有任何關聯」。",
       "sentenceIndex": 26,
@@ -1213,12 +1119,10 @@ export default {
         "anything to do with"
       ],
       "optionReasons": {
-        "anything-mcq-16": "本句指「與某主題、人或事情有任何關聯」。",
-        "anything-mcq-15": "「幾乎沒有規限；任何做法都可接受」是「anything goes」的用法，與本句語境不同。",
-        "anything-mcq-14": "「無論有甚麼條件或代價都不願做某事」是「not ... for anything」的用法，與本句語境不同。",
-        "anything-mcq-13": "「或其他相關／同類事物；之類的」是「or anything」的用法，與本句語境不同。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。"
+        "anything-mcq-16": "本句的「anything to do with」指「與某主題、人或事情有任何關聯」。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-16"
     },
@@ -1230,11 +1134,9 @@ export default {
       "masked": "The delay had ____ to do with the museum.",
       "options": [
         "anything-mcq-16",
-        "anything-mcq-15",
-        "anything-mcq-14",
-        "anything-mcq-13",
         "anything-mcq-12",
-        "anything-mcq-11"
+        "anything-reviewed-d045826ba7",
+        "anything-mcq-14"
       ],
       "explanation": "本句的「nothing」指「與某主題、人或事情有任何關聯」。",
       "sentenceIndex": 27,
@@ -1243,12 +1145,10 @@ export default {
         "nothing"
       ],
       "optionReasons": {
-        "anything-mcq-16": "本句指「與某主題、人或事情有任何關聯」。",
-        "anything-mcq-15": "「幾乎沒有規限；任何做法都可接受」是「anything goes」的用法，與本句語境不同。",
-        "anything-mcq-14": "「無論有甚麼條件或代價都不願做某事」是「not ... for anything」的用法，與本句語境不同。",
-        "anything-mcq-13": "「或其他相關／同類事物；之類的」是「or anything」的用法，與本句語境不同。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。"
+        "anything-mcq-16": "本句的「nothing」指「與某主題、人或事情有任何關聯」。",
+        "anything-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anything-reviewed-d045826ba7": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-16"
     },
@@ -1262,9 +1162,7 @@ export default {
         "anything-mcq-12",
         "anything-mcq-11",
         "anything-mcq-13",
-        "anything-mcq-10",
-        "anything-mcq-14",
-        "anything-mcq-09"
+        "anything-reviewed-d045826ba7"
       ],
       "explanation": "本句的「if anything」指「若真要作比較，實際情況反而更接近後面的說法」。",
       "sentenceIndex": 28,
@@ -1273,12 +1171,10 @@ export default {
         "if anything"
       ],
       "optionReasons": {
-        "anything-mcq-12": "本句指「若真要作比較，實際情況反而更接近後面的說法」。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。",
-        "anything-mcq-13": "「或其他相關／同類事物；之類的」是「or anything」的用法，與本句語境不同。",
-        "anything-mcq-10": "「除已提及事物之外的其他任何東西」是「anything else」的用法，與本句語境不同。",
-        "anything-mcq-14": "「無論有甚麼條件或代價都不願做某事」是「not ... for anything」的用法，與本句語境不同。",
-        "anything-mcq-09": "「數值可能從較低範圍一直到指定上限」是「anything up to」的用法，與本句語境不同。"
+        "anything-mcq-12": "本句的「if anything」指「若真要作比較，實際情況反而更接近後面的說法」。",
+        "anything-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "anything-reviewed-d045826ba7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-12"
     },
@@ -1290,11 +1186,9 @@ export default {
       "masked": "The room did not feel smaller. If ____, it felt more open.",
       "options": [
         "anything-mcq-12",
-        "anything-mcq-11",
+        "anything-mcq-03",
         "anything-mcq-13",
-        "anything-mcq-10",
-        "anything-mcq-14",
-        "anything-mcq-09"
+        "anything-mcq-05"
       ],
       "explanation": "本句的「anything」指「若真要作比較，實際情況反而更接近後面的說法」。",
       "sentenceIndex": 29,
@@ -1303,12 +1197,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-12": "本句指「若真要作比較，實際情況反而更接近後面的說法」。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。",
-        "anything-mcq-13": "「或其他相關／同類事物；之類的」是「or anything」的用法，與本句語境不同。",
-        "anything-mcq-10": "「除已提及事物之外的其他任何東西」是「anything else」的用法，與本句語境不同。",
-        "anything-mcq-14": "「無論有甚麼條件或代價都不願做某事」是「not ... for anything」的用法，與本句語境不同。",
-        "anything-mcq-09": "「數值可能從較低範圍一直到指定上限」是「anything up to」的用法，與本句語境不同。"
+        "anything-mcq-12": "本句的「anything」指「若真要作比較，實際情況反而更接近後面的說法」。",
+        "anything-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-12"
     },
@@ -1320,11 +1212,9 @@ export default {
       "masked": "I didn’t buy a poster ____.",
       "options": [
         "anything-mcq-13",
-        "anything-mcq-12",
         "anything-mcq-14",
         "anything-mcq-11",
-        "anything-mcq-15",
-        "anything-mcq-10"
+        "anything-reviewed-d045826ba7"
       ],
       "explanation": "本句的「or anything」指「或其他相關／同類事物；之類的」。",
       "sentenceIndex": 30,
@@ -1333,12 +1223,10 @@ export default {
         "or anything"
       ],
       "optionReasons": {
-        "anything-mcq-13": "本句指「或其他相關／同類事物；之類的」。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-14": "「無論有甚麼條件或代價都不願做某事」是「not ... for anything」的用法，與本句語境不同。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。",
-        "anything-mcq-15": "「幾乎沒有規限；任何做法都可接受」是「anything goes」的用法，與本句語境不同。",
-        "anything-mcq-10": "「除已提及事物之外的其他任何東西」是「anything else」的用法，與本句語境不同。"
+        "anything-mcq-13": "本句的「or anything」指「或其他相關／同類事物；之類的」。",
+        "anything-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "anything-reviewed-d045826ba7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-13"
     },
@@ -1351,10 +1239,8 @@ export default {
       "options": [
         "anything-mcq-13",
         "anything-mcq-12",
-        "anything-mcq-14",
         "anything-mcq-11",
-        "anything-mcq-15",
-        "anything-mcq-10"
+        "anything-mcq-14"
       ],
       "explanation": "本句的「anything」指「或其他相關／同類事物；之類的」。",
       "sentenceIndex": 31,
@@ -1363,74 +1249,68 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-13": "本句指「或其他相關／同類事物；之類的」。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-14": "「無論有甚麼條件或代價都不願做某事」是「not ... for anything」的用法，與本句語境不同。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。",
-        "anything-mcq-15": "「幾乎沒有規限；任何做法都可接受」是「anything goes」的用法，與本句語境不同。",
-        "anything-mcq-10": "「除已提及事物之外的其他任何東西」是「anything else」的用法，與本句語境不同。"
+        "anything-mcq-13": "本句的「anything」指「或其他相關／同類事物；之類的」。",
+        "anything-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-13"
     },
     {
       "id": "anything-17-0",
-      "sense": "anything-mcq-13",
+      "sense": "anything-reviewed-d045826ba7",
       "en": "It was raining like anything.",
       "zh": "雨下得非常大。",
       "masked": "It was raining ____.",
       "options": [
+        "anything-reviewed-d045826ba7",
+        "anything-mcq-03",
         "anything-mcq-13",
-        "anything-mcq-12",
-        "anything-mcq-14",
-        "anything-mcq-11",
-        "anything-mcq-15",
-        "anything-mcq-10"
+        "anything-mcq-12"
       ],
-      "explanation": "本句的「like anything」指「或其他相關／同類事物；之類的」。",
+      "explanation": "對照完整句子：「雨下得非常大。」。這裡的「like anything」表示「程度非常強烈」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "like anything"
       ],
       "optionReasons": {
-        "anything-mcq-13": "本句指「或其他相關／同類事物；之類的」。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-14": "「無論有甚麼條件或代價都不願做某事」是「not ... for anything」的用法，與本句語境不同。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。",
-        "anything-mcq-15": "「幾乎沒有規限；任何做法都可接受」是「anything goes」的用法，與本句語境不同。",
-        "anything-mcq-10": "「除已提及事物之外的其他任何東西」是「anything else」的用法，與本句語境不同。"
+        "anything-reviewed-d045826ba7": "對照完整句子：「雨下得非常大。」。這裡的「like anything」表示「程度非常強烈」。",
+        "anything-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "anything-mcq-13"
+      "correctOption": "anything-reviewed-d045826ba7",
+      "previousCorrectOption": "anything-mcq-13",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "anything-17-1",
-      "sense": "anything-mcq-13",
+      "sense": "anything-reviewed-d045826ba7",
       "en": "She was working like anything to finish on time.",
       "zh": "她為了準時完成而拼命工作。",
       "masked": "She was working like ____ to finish on time.",
       "options": [
-        "anything-mcq-13",
-        "anything-mcq-12",
-        "anything-mcq-14",
-        "anything-mcq-11",
-        "anything-mcq-15",
-        "anything-mcq-10"
+        "anything-reviewed-d045826ba7",
+        "anything-mcq-03",
+        "anything-mcq-05",
+        "anything-mcq-12"
       ],
-      "explanation": "本句的「anything」指「或其他相關／同類事物；之類的」。",
+      "explanation": "對照完整句子：「她為了準時完成而拼命工作。」。這裡的「anything」表示「程度非常強烈」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-13": "本句指「或其他相關／同類事物；之類的」。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-14": "「無論有甚麼條件或代價都不願做某事」是「not ... for anything」的用法，與本句語境不同。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。",
-        "anything-mcq-15": "「幾乎沒有規限；任何做法都可接受」是「anything goes」的用法，與本句語境不同。",
-        "anything-mcq-10": "「除已提及事物之外的其他任何東西」是「anything else」的用法，與本句語境不同。"
+        "anything-reviewed-d045826ba7": "對照完整句子：「她為了準時完成而拼命工作。」。這裡的「anything」表示「程度非常強烈」。",
+        "anything-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "anything-mcq-13"
+      "correctOption": "anything-reviewed-d045826ba7",
+      "previousCorrectOption": "anything-mcq-13",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "anything-18-0",
@@ -1440,11 +1320,9 @@ export default {
       "masked": "I wouldn’t sell the painting ____.",
       "options": [
         "anything-mcq-14",
-        "anything-mcq-13",
-        "anything-mcq-15",
-        "anything-mcq-12",
-        "anything-mcq-16",
-        "anything-mcq-11"
+        "anything-mcq-07",
+        "anything-pdf-001",
+        "anything-mcq-05"
       ],
       "explanation": "本句的「for anything」指「無論有甚麼條件或代價都不願做某事」。",
       "sentenceIndex": 34,
@@ -1453,12 +1331,10 @@ export default {
         "for anything"
       ],
       "optionReasons": {
-        "anything-mcq-14": "本句指「無論有甚麼條件或代價都不願做某事」。",
-        "anything-mcq-13": "「或其他相關／同類事物；之類的」是「or anything」的用法，與本句語境不同。",
-        "anything-mcq-15": "「幾乎沒有規限；任何做法都可接受」是「anything goes」的用法，與本句語境不同。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-16": "「與某主題、人或事情有任何關聯」是「14. anything to do with + topic = 與……有任何關係」的用法，與本句語境不同。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。"
+        "anything-mcq-14": "本句的「for anything」指「無論有甚麼條件或代價都不願做某事」。",
+        "anything-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "anything-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-14"
     },
@@ -1470,11 +1346,9 @@ export default {
       "masked": "She wouldn’t miss the exhibition for ____.",
       "options": [
         "anything-mcq-14",
-        "anything-mcq-13",
-        "anything-mcq-15",
-        "anything-mcq-12",
-        "anything-mcq-16",
-        "anything-mcq-11"
+        "anything-mcq-10",
+        "anything-mcq-07",
+        "anything-mcq-05"
       ],
       "explanation": "本句的「anything」指「無論有甚麼條件或代價都不願做某事」。",
       "sentenceIndex": 35,
@@ -1483,12 +1357,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-14": "本句指「無論有甚麼條件或代價都不願做某事」。",
-        "anything-mcq-13": "「或其他相關／同類事物；之類的」是「or anything」的用法，與本句語境不同。",
-        "anything-mcq-15": "「幾乎沒有規限；任何做法都可接受」是「anything goes」的用法，與本句語境不同。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-16": "「與某主題、人或事情有任何關聯」是「14. anything to do with + topic = 與……有任何關係」的用法，與本句語境不同。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。"
+        "anything-mcq-14": "本句的「anything」指「無論有甚麼條件或代價都不願做某事」。",
+        "anything-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-14"
     },
@@ -1500,11 +1372,9 @@ export default {
       "masked": "In this creative exercise, ____.",
       "options": [
         "anything-mcq-15",
-        "anything-mcq-14",
-        "anything-mcq-16",
         "anything-mcq-13",
-        "anything-mcq-12",
-        "anything-mcq-11"
+        "anything-reviewed-d045826ba7",
+        "anything-mcq-05"
       ],
       "explanation": "本句的「anything goes」指「幾乎沒有規限；任何做法都可接受」。",
       "sentenceIndex": 36,
@@ -1513,12 +1383,10 @@ export default {
         "anything goes"
       ],
       "optionReasons": {
-        "anything-mcq-15": "本句指「幾乎沒有規限；任何做法都可接受」。",
-        "anything-mcq-14": "「無論有甚麼條件或代價都不願做某事」是「not ... for anything」的用法，與本句語境不同。",
-        "anything-mcq-16": "「與某主題、人或事情有任何關聯」是「14. anything to do with + topic = 與……有任何關係」的用法，與本句語境不同。",
-        "anything-mcq-13": "「或其他相關／同類事物；之類的」是「or anything」的用法，與本句語境不同。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。"
+        "anything-mcq-15": "本句的「anything goes」指「幾乎沒有規限；任何做法都可接受」。",
+        "anything-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "anything-reviewed-d045826ba7": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-15"
     },
@@ -1530,11 +1398,9 @@ export default {
       "masked": "There are almost no rules — ____ goes.",
       "options": [
         "anything-mcq-15",
-        "anything-mcq-14",
-        "anything-mcq-16",
         "anything-mcq-13",
-        "anything-mcq-12",
-        "anything-mcq-11"
+        "anything-reviewed-d045826ba7",
+        "anything-mcq-05"
       ],
       "explanation": "本句的「anything」指「幾乎沒有規限；任何做法都可接受」。",
       "sentenceIndex": 37,
@@ -1543,12 +1409,10 @@ export default {
         "anything"
       ],
       "optionReasons": {
-        "anything-mcq-15": "本句指「幾乎沒有規限；任何做法都可接受」。",
-        "anything-mcq-14": "「無論有甚麼條件或代價都不願做某事」是「not ... for anything」的用法，與本句語境不同。",
-        "anything-mcq-16": "「與某主題、人或事情有任何關聯」是「14. anything to do with + topic = 與……有任何關係」的用法，與本句語境不同。",
-        "anything-mcq-13": "「或其他相關／同類事物；之類的」是「or anything」的用法，與本句語境不同。",
-        "anything-mcq-12": "「若真要作比較，實際情況反而更接近後面的說法」是「if anything」的用法，與本句語境不同。",
-        "anything-mcq-11": "「強調任何可能事物都包括；哪怕一點點」是「anything at all」的用法，與本句語境不同。"
+        "anything-mcq-15": "本句的「anything」指「幾乎沒有規限；任何做法都可接受」。",
+        "anything-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "anything-reviewed-d045826ba7": "請比較這個意思與句子中標示的用法。",
+        "anything-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anything-mcq-15"
     }
@@ -1560,5 +1424,7 @@ export default {
     "sha256": "b55316a861e9c0c7d0e6ee1ce1f3dfd8158f6b44c5a50f3f8ff53cf3a276facf",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

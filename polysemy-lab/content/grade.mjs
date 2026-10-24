@@ -630,11 +630,9 @@ export default {
       "masked": "The exam counts for 50% of the ____.",
       "options": [
         "grade-mcq-02",
-        "grade-mcq-01",
-        "grade-mcq-03",
-        "grade-mcq-04",
-        "grade-mcq-05",
-        "grade-mcq-06"
+        "grade-mcq-21",
+        "grade-mcq-26",
+        "grade-mcq-13"
       ],
       "explanation": "本句的「final grade」指「最終成績」。",
       "sentenceIndex": 3,
@@ -643,12 +641,10 @@ export default {
         "final grade"
       ],
       "optionReasons": {
-        "grade-mcq-02": "本句指「最終成績」。",
-        "grade-mcq-01": "「成績」與本句語境不同。",
-        "grade-mcq-03": "「取得成績」與本句語境不同。",
-        "grade-mcq-04": "「績點」與本句語境不同。",
-        "grade-mcq-05": "「平均績點」與本句語境不同。",
-        "grade-mcq-06": "「年級」與本句語境不同。"
+        "grade-mcq-02": "本句的「final grade」指「最終成績」。",
+        "grade-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-02"
     },
@@ -660,11 +656,9 @@ export default {
       "masked": "Your ____ will include coursework and participation.",
       "options": [
         "grade-mcq-02",
-        "grade-mcq-01",
-        "grade-mcq-03",
-        "grade-mcq-04",
-        "grade-mcq-05",
-        "grade-mcq-06"
+        "grade-mcq-20",
+        "grade-mcq-26",
+        "grade-mcq-28"
       ],
       "explanation": "本句的「final grade」指「最終成績」。",
       "sentenceIndex": 4,
@@ -673,12 +667,10 @@ export default {
         "final grade"
       ],
       "optionReasons": {
-        "grade-mcq-02": "本句指「最終成績」。",
-        "grade-mcq-01": "「成績」與本句語境不同。",
-        "grade-mcq-03": "「取得成績」與本句語境不同。",
-        "grade-mcq-04": "「績點」與本句語境不同。",
-        "grade-mcq-05": "「平均績點」與本句語境不同。",
-        "grade-mcq-06": "「年級」與本句語境不同。"
+        "grade-mcq-02": "本句的「final grade」指「最終成績」。",
+        "grade-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-02"
     },
@@ -690,11 +682,9 @@ export default {
       "masked": "I ____ on the presentation.",
       "options": [
         "grade-mcq-03",
-        "grade-mcq-02",
-        "grade-mcq-04",
-        "grade-mcq-01",
-        "grade-mcq-05",
-        "grade-mcq-06"
+        "grade-mcq-07",
+        "grade-mcq-16",
+        "grade-mcq-23"
       ],
       "explanation": "本句的「got a good grade」指「取得成績」。",
       "sentenceIndex": 5,
@@ -703,12 +693,10 @@ export default {
         "got a good grade"
       ],
       "optionReasons": {
-        "grade-mcq-03": "本句指「取得成績」。",
-        "grade-mcq-02": "「最終成績」與本句語境不同。",
-        "grade-mcq-04": "「績點」與本句語境不同。",
-        "grade-mcq-01": "「成績」與本句語境不同。",
-        "grade-mcq-05": "「平均績點」與本句語境不同。",
-        "grade-mcq-06": "「年級」與本句語境不同。"
+        "grade-mcq-03": "本句的「got a good grade」指「取得成績」。",
+        "grade-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-03"
     },
@@ -720,11 +708,9 @@ export default {
       "masked": "Students will ____ next week.",
       "options": [
         "grade-mcq-03",
-        "grade-mcq-02",
-        "grade-mcq-04",
-        "grade-mcq-01",
-        "grade-mcq-05",
-        "grade-mcq-06"
+        "grade-mcq-27",
+        "grade-mcq-08",
+        "grade-mcq-23"
       ],
       "explanation": "本句的「receive their grades」指「取得成績」。",
       "sentenceIndex": 6,
@@ -733,12 +719,10 @@ export default {
         "receive their grades"
       ],
       "optionReasons": {
-        "grade-mcq-03": "本句指「取得成績」。",
-        "grade-mcq-02": "「最終成績」與本句語境不同。",
-        "grade-mcq-04": "「績點」與本句語境不同。",
-        "grade-mcq-01": "「成績」與本句語境不同。",
-        "grade-mcq-05": "「平均績點」與本句語境不同。",
-        "grade-mcq-06": "「年級」與本句語境不同。"
+        "grade-mcq-03": "本句的「receive their grades」指「取得成績」。",
+        "grade-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-03"
     },
@@ -750,11 +734,9 @@ export default {
       "masked": "Her ____ is very high.",
       "options": [
         "grade-mcq-04",
-        "grade-mcq-03",
-        "grade-mcq-05",
-        "grade-mcq-02",
-        "grade-mcq-06",
-        "grade-mcq-01"
+        "grade-mcq-28",
+        "grade-mcq-21",
+        "grade-mcq-17"
       ],
       "explanation": "本句的「grade point average」指「績點」。",
       "sentenceIndex": 7,
@@ -763,12 +745,10 @@ export default {
         "grade point average"
       ],
       "optionReasons": {
-        "grade-mcq-04": "本句指「績點」。",
-        "grade-mcq-03": "「取得成績」與本句語境不同。",
-        "grade-mcq-05": "「平均績點」與本句語境不同。",
-        "grade-mcq-02": "「最終成績」與本句語境不同。",
-        "grade-mcq-06": "「年級」與本句語境不同。",
-        "grade-mcq-01": "「成績」與本句語境不同。"
+        "grade-mcq-04": "本句的「grade point average」指「績點」。",
+        "grade-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-04"
     },
@@ -780,11 +760,9 @@ export default {
       "masked": "Some universities consider your ____ when reviewing applications.",
       "options": [
         "grade-mcq-04",
-        "grade-mcq-03",
-        "grade-mcq-05",
-        "grade-mcq-02",
-        "grade-mcq-06",
-        "grade-mcq-01"
+        "grade-mcq-28",
+        "grade-mcq-22",
+        "grade-mcq-10"
       ],
       "explanation": "本句的「GPA」指「績點」。",
       "sentenceIndex": 8,
@@ -793,12 +771,10 @@ export default {
         "GPA"
       ],
       "optionReasons": {
-        "grade-mcq-04": "本句指「績點」。",
-        "grade-mcq-03": "「取得成績」與本句語境不同。",
-        "grade-mcq-05": "「平均績點」與本句語境不同。",
-        "grade-mcq-02": "「最終成績」與本句語境不同。",
-        "grade-mcq-06": "「年級」與本句語境不同。",
-        "grade-mcq-01": "「成績」與本句語境不同。"
+        "grade-mcq-04": "本句的「GPA」指「績點」。",
+        "grade-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-04"
     },
@@ -810,11 +786,9 @@ export default {
       "masked": "She is in the fifth ____.",
       "options": [
         "grade-mcq-07",
-        "grade-mcq-06",
-        "grade-mcq-08",
-        "grade-mcq-05",
-        "grade-mcq-09",
-        "grade-mcq-04"
+        "grade-mcq-28",
+        "grade-mcq-21",
+        "grade-mcq-03"
       ],
       "explanation": "本句的「grade」指「五年級」。",
       "sentenceIndex": 9,
@@ -823,12 +797,10 @@ export default {
         "grade"
       ],
       "optionReasons": {
-        "grade-mcq-07": "本句指「五年級」。",
-        "grade-mcq-06": "「年級」與本句語境不同。",
-        "grade-mcq-08": "「年級程度」與本句語境不同。",
-        "grade-mcq-05": "「平均績點」與本句語境不同。",
-        "grade-mcq-09": "「等級；級別」與本句語境不同。",
-        "grade-mcq-04": "「績點」與本句語境不同。"
+        "grade-mcq-07": "本句的「grade」指「五年級」。",
+        "grade-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-07"
     },
@@ -840,11 +812,9 @@ export default {
       "masked": "What ____ are you in?",
       "options": [
         "grade-mcq-07",
-        "grade-mcq-06",
-        "grade-mcq-08",
-        "grade-mcq-05",
-        "grade-mcq-09",
-        "grade-mcq-04"
+        "grade-mcq-27",
+        "grade-mcq-04",
+        "grade-mcq-16"
       ],
       "explanation": "本句的「grade」指「五年級」。",
       "sentenceIndex": 10,
@@ -853,12 +823,10 @@ export default {
         "grade"
       ],
       "optionReasons": {
-        "grade-mcq-07": "本句指「五年級」。",
-        "grade-mcq-06": "「年級」與本句語境不同。",
-        "grade-mcq-08": "「年級程度」與本句語境不同。",
-        "grade-mcq-05": "「平均績點」與本句語境不同。",
-        "grade-mcq-09": "「等級；級別」與本句語境不同。",
-        "grade-mcq-04": "「績點」與本句語境不同。"
+        "grade-mcq-07": "本句的「grade」指「五年級」。",
+        "grade-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-07"
     },
@@ -870,11 +838,9 @@ export default {
       "masked": "He started ____ this year.",
       "options": [
         "grade-pdf-001",
-        "grade-mcq-06",
-        "grade-mcq-08",
-        "grade-mcq-05",
-        "grade-mcq-09",
-        "grade-mcq-04"
+        "grade-mcq-03",
+        "grade-mcq-26",
+        "grade-mcq-29"
       ],
       "explanation": "本句的「first grade」指「美國等教育制度中的第 X 個年級」。",
       "sentenceIndex": 11,
@@ -883,12 +849,10 @@ export default {
         "first grade"
       ],
       "optionReasons": {
-        "grade-pdf-001": "本句指「美國等教育制度中的第 X 個年級」。",
-        "grade-mcq-06": "「年級」與本句語境不同。",
-        "grade-mcq-08": "「年級程度」與本句語境不同。",
-        "grade-mcq-05": "「平均績點」與本句語境不同。",
-        "grade-mcq-09": "「等級；級別」與本句語境不同。",
-        "grade-mcq-04": "「績點」與本句語境不同。"
+        "grade-pdf-001": "本句的「first grade」指「美國等教育制度中的第 X 個年級」。",
+        "grade-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-pdf-001"
     },
@@ -900,11 +864,9 @@ export default {
       "masked": "She teaches ____.",
       "options": [
         "grade-pdf-001",
-        "grade-mcq-06",
-        "grade-mcq-08",
-        "grade-mcq-05",
-        "grade-mcq-09",
-        "grade-mcq-04"
+        "grade-mcq-28",
+        "grade-mcq-22",
+        "grade-mcq-03"
       ],
       "explanation": "本句的「sixth-grade students」指「美國等教育制度中的第 X 個年級」。",
       "sentenceIndex": 12,
@@ -913,12 +875,10 @@ export default {
         "sixth-grade students"
       ],
       "optionReasons": {
-        "grade-pdf-001": "本句指「美國等教育制度中的第 X 個年級」。",
-        "grade-mcq-06": "「年級」與本句語境不同。",
-        "grade-mcq-08": "「年級程度」與本句語境不同。",
-        "grade-mcq-05": "「平均績點」與本句語境不同。",
-        "grade-mcq-09": "「等級；級別」與本句語境不同。",
-        "grade-mcq-04": "「績點」與本句語境不同。"
+        "grade-pdf-001": "本句的「sixth-grade students」指「美國等教育制度中的第 X 個年級」。",
+        "grade-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-pdf-001"
     },
@@ -930,11 +890,9 @@ export default {
       "masked": "The book is suitable for this ____.",
       "options": [
         "grade-mcq-08",
-        "grade-mcq-07",
-        "grade-mcq-09",
-        "grade-mcq-06",
-        "grade-mcq-10",
-        "grade-mcq-05"
+        "grade-mcq-26",
+        "grade-mcq-24",
+        "grade-mcq-04"
       ],
       "explanation": "本句的「grade level」指「年級程度」。",
       "sentenceIndex": 13,
@@ -943,12 +901,10 @@ export default {
         "grade level"
       ],
       "optionReasons": {
-        "grade-mcq-08": "本句指「年級程度」。",
-        "grade-mcq-07": "「五年級」與本句語境不同。",
-        "grade-mcq-09": "「等級；級別」與本句語境不同。",
-        "grade-mcq-06": "「年級」與本句語境不同。",
-        "grade-mcq-10": "「高級／高品質的」與本句語境不同。",
-        "grade-mcq-05": "「平均績點」與本句語境不同。"
+        "grade-mcq-08": "本句的「grade level」指「年級程度」。",
+        "grade-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-08"
     },
@@ -960,11 +916,9 @@ export default {
       "masked": "His reading ability is above ____.",
       "options": [
         "grade-mcq-08",
-        "grade-mcq-07",
-        "grade-mcq-09",
-        "grade-mcq-06",
-        "grade-mcq-10",
-        "grade-mcq-05"
+        "grade-mcq-22",
+        "grade-mcq-02",
+        "grade-mcq-16"
       ],
       "explanation": "本句的「grade level」指「年級程度」。",
       "sentenceIndex": 14,
@@ -973,12 +927,10 @@ export default {
         "grade level"
       ],
       "optionReasons": {
-        "grade-mcq-08": "本句指「年級程度」。",
-        "grade-mcq-07": "「五年級」與本句語境不同。",
-        "grade-mcq-09": "「等級；級別」與本句語境不同。",
-        "grade-mcq-06": "「年級」與本句語境不同。",
-        "grade-mcq-10": "「高級／高品質的」與本句語境不同。",
-        "grade-mcq-05": "「平均績點」與本句語境不同。"
+        "grade-mcq-08": "本句的「grade level」指「年級程度」。",
+        "grade-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-08"
     },
@@ -990,11 +942,9 @@ export default {
       "masked": "This is a high ____ of steel.",
       "options": [
         "grade-mcq-09",
-        "grade-mcq-08",
-        "grade-mcq-10",
-        "grade-mcq-07",
-        "grade-mcq-11",
-        "grade-mcq-06"
+        "grade-mcq-21",
+        "grade-mcq-04",
+        "grade-mcq-27"
       ],
       "explanation": "本句的「grade」指「等級；級別」。",
       "sentenceIndex": 15,
@@ -1003,12 +953,10 @@ export default {
         "grade"
       ],
       "optionReasons": {
-        "grade-mcq-09": "本句指「等級；級別」。",
-        "grade-mcq-08": "「年級程度」與本句語境不同。",
-        "grade-mcq-10": "「高級／高品質的」與本句語境不同。",
-        "grade-mcq-07": "「五年級」與本句語境不同。",
-        "grade-mcq-11": "「低級／低品質的」與本句語境不同。",
-        "grade-mcq-06": "「年級」與本句語境不同。"
+        "grade-mcq-09": "本句的「grade」指「等級；級別」。",
+        "grade-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-09"
     },
@@ -1020,11 +968,9 @@ export default {
       "masked": "The products are divided into different ____.",
       "options": [
         "grade-mcq-09",
-        "grade-mcq-08",
-        "grade-mcq-10",
-        "grade-mcq-07",
-        "grade-mcq-11",
-        "grade-mcq-06"
+        "grade-mcq-04",
+        "grade-mcq-27",
+        "grade-mcq-23"
       ],
       "explanation": "本句的「grades」指「等級；級別」。",
       "sentenceIndex": 16,
@@ -1033,12 +979,10 @@ export default {
         "grades"
       ],
       "optionReasons": {
-        "grade-mcq-09": "本句指「等級；級別」。",
-        "grade-mcq-08": "「年級程度」與本句語境不同。",
-        "grade-mcq-10": "「高級／高品質的」與本句語境不同。",
-        "grade-mcq-07": "「五年級」與本句語境不同。",
-        "grade-mcq-11": "「低級／低品質的」與本句語境不同。",
-        "grade-mcq-06": "「年級」與本句語境不同。"
+        "grade-mcq-09": "本句的「grades」指「等級；級別」。",
+        "grade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-09"
     },
@@ -1050,11 +994,9 @@ export default {
       "masked": "The factory uses ____.",
       "options": [
         "grade-mcq-10",
-        "grade-mcq-09",
-        "grade-mcq-11",
-        "grade-mcq-08",
-        "grade-mcq-12",
-        "grade-mcq-07"
+        "grade-mcq-27",
+        "grade-mcq-04",
+        "grade-mcq-22"
       ],
       "explanation": "本句的「high-grade materials」指「高級／高品質的」。",
       "sentenceIndex": 17,
@@ -1063,12 +1005,10 @@ export default {
         "high-grade materials"
       ],
       "optionReasons": {
-        "grade-mcq-10": "本句指「高級／高品質的」。",
-        "grade-mcq-09": "「等級；級別」與本句語境不同。",
-        "grade-mcq-11": "「低級／低品質的」與本句語境不同。",
-        "grade-mcq-08": "「年級程度」與本句語境不同。",
-        "grade-mcq-12": "「A 級」與本句語境不同。",
-        "grade-mcq-07": "「五年級」與本句語境不同。"
+        "grade-mcq-10": "本句的「high-grade materials」指「高級／高品質的」。",
+        "grade-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-10"
     },
@@ -1080,11 +1020,9 @@ export default {
       "masked": "The fuel was too ____ for the engine.",
       "options": [
         "grade-mcq-10",
-        "grade-mcq-09",
-        "grade-mcq-11",
-        "grade-mcq-08",
-        "grade-mcq-12",
-        "grade-mcq-07"
+        "grade-mcq-04",
+        "grade-mcq-27",
+        "grade-mcq-17"
       ],
       "explanation": "本句的「low-grade」指「高級／高品質的」。",
       "sentenceIndex": 18,
@@ -1093,12 +1031,10 @@ export default {
         "low-grade"
       ],
       "optionReasons": {
-        "grade-mcq-10": "本句指「高級／高品質的」。",
-        "grade-mcq-09": "「等級；級別」與本句語境不同。",
-        "grade-mcq-11": "「低級／低品質的」與本句語境不同。",
-        "grade-mcq-08": "「年級程度」與本句語境不同。",
-        "grade-mcq-12": "「A 級」與本句語境不同。",
-        "grade-mcq-07": "「五年級」與本句語境不同。"
+        "grade-mcq-10": "本句的「low-grade」指「高級／高品質的」。",
+        "grade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-10"
     },
@@ -1110,11 +1046,9 @@ export default {
       "masked": "These eggs are ____.",
       "options": [
         "grade-mcq-12",
-        "grade-mcq-11",
-        "grade-mcq-13",
-        "grade-mcq-10",
-        "grade-mcq-14",
-        "grade-mcq-09"
+        "grade-mcq-26",
+        "grade-mcq-21",
+        "grade-mcq-24"
       ],
       "explanation": "本句的「Grade A」指「A 級」。",
       "sentenceIndex": 19,
@@ -1123,12 +1057,10 @@ export default {
         "Grade A"
       ],
       "optionReasons": {
-        "grade-mcq-12": "本句指「A 級」。",
-        "grade-mcq-11": "「低級／低品質的」與本句語境不同。",
-        "grade-mcq-13": "「食品級」與本句語境不同。",
-        "grade-mcq-10": "「高級／高品質的」與本句語境不同。",
-        "grade-mcq-14": "「醫療級」與本句語境不同。",
-        "grade-mcq-09": "「等級；級別」與本句語境不同。"
+        "grade-mcq-12": "本句的「Grade A」指「A 級」。",
+        "grade-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-12"
     },
@@ -1140,11 +1072,9 @@ export default {
       "masked": "The product meets ____.",
       "options": [
         "grade-mcq-12",
-        "grade-mcq-11",
-        "grade-mcq-13",
-        "grade-mcq-10",
-        "grade-mcq-14",
-        "grade-mcq-09"
+        "grade-mcq-18",
+        "grade-mcq-29",
+        "grade-mcq-04"
       ],
       "explanation": "本句的「Grade A standards」指「A 級」。",
       "sentenceIndex": 20,
@@ -1153,12 +1083,10 @@ export default {
         "Grade A standards"
       ],
       "optionReasons": {
-        "grade-mcq-12": "本句指「A 級」。",
-        "grade-mcq-11": "「低級／低品質的」與本句語境不同。",
-        "grade-mcq-13": "「食品級」與本句語境不同。",
-        "grade-mcq-10": "「高級／高品質的」與本句語境不同。",
-        "grade-mcq-14": "「醫療級」與本句語境不同。",
-        "grade-mcq-09": "「等級；級別」與本句語境不同。"
+        "grade-mcq-12": "本句的「Grade A standards」指「A 級」。",
+        "grade-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-12"
     },
@@ -1170,11 +1098,9 @@ export default {
       "masked": "The container is made from ____.",
       "options": [
         "grade-mcq-13",
-        "grade-mcq-12",
-        "grade-mcq-14",
-        "grade-mcq-11",
-        "grade-mcq-15",
-        "grade-mcq-10"
+        "grade-mcq-16",
+        "grade-mcq-02",
+        "grade-mcq-23"
       ],
       "explanation": "本句的「food-grade plastic」指「食品級」。",
       "sentenceIndex": 21,
@@ -1183,12 +1109,10 @@ export default {
         "food-grade plastic"
       ],
       "optionReasons": {
-        "grade-mcq-13": "本句指「食品級」。",
-        "grade-mcq-12": "「A 級」與本句語境不同。",
-        "grade-mcq-14": "「醫療級」與本句語境不同。",
-        "grade-mcq-11": "「低級／低品質的」與本句語境不同。",
-        "grade-mcq-15": "「工業級」與本句語境不同。",
-        "grade-mcq-10": "「高級／高品質的」與本句語境不同。"
+        "grade-mcq-13": "本句的「food-grade plastic」指「食品級」。",
+        "grade-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-13"
     },
@@ -1200,11 +1124,9 @@ export default {
       "masked": "Use only ____.",
       "options": [
         "grade-mcq-13",
-        "grade-mcq-12",
-        "grade-mcq-14",
-        "grade-mcq-11",
-        "grade-mcq-15",
-        "grade-mcq-10"
+        "grade-mcq-17",
+        "grade-mcq-24",
+        "grade-mcq-23"
       ],
       "explanation": "本句的「food-grade materials」指「食品級」。",
       "sentenceIndex": 22,
@@ -1213,12 +1135,10 @@ export default {
         "food-grade materials"
       ],
       "optionReasons": {
-        "grade-mcq-13": "本句指「食品級」。",
-        "grade-mcq-12": "「A 級」與本句語境不同。",
-        "grade-mcq-14": "「醫療級」與本句語境不同。",
-        "grade-mcq-11": "「低級／低品質的」與本句語境不同。",
-        "grade-mcq-15": "「工業級」與本句語境不同。",
-        "grade-mcq-10": "「高級／高品質的」與本句語境不同。"
+        "grade-mcq-13": "本句的「food-grade materials」指「食品級」。",
+        "grade-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-13"
     },
@@ -1230,11 +1150,9 @@ export default {
       "masked": "The product uses ____.",
       "options": [
         "grade-mcq-14",
-        "grade-mcq-13",
-        "grade-mcq-15",
-        "grade-mcq-12",
+        "grade-mcq-23",
         "grade-mcq-16",
-        "grade-mcq-11"
+        "grade-mcq-29"
       ],
       "explanation": "本句的「medical-grade silicone」指「醫療級」。",
       "sentenceIndex": 23,
@@ -1243,12 +1161,10 @@ export default {
         "medical-grade silicone"
       ],
       "optionReasons": {
-        "grade-mcq-14": "本句指「醫療級」。",
-        "grade-mcq-13": "「食品級」與本句語境不同。",
-        "grade-mcq-15": "「工業級」與本句語境不同。",
-        "grade-mcq-12": "「A 級」與本句語境不同。",
-        "grade-mcq-16": "「評分；批改」與本句語境不同。",
-        "grade-mcq-11": "「低級／低品質的」與本句語境不同。"
+        "grade-mcq-14": "本句的「medical-grade silicone」指「醫療級」。",
+        "grade-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-14"
     },
@@ -1260,11 +1176,9 @@ export default {
       "masked": "The device must meet ____.",
       "options": [
         "grade-mcq-14",
-        "grade-mcq-13",
-        "grade-mcq-15",
-        "grade-mcq-12",
-        "grade-mcq-16",
-        "grade-mcq-11"
+        "grade-mcq-27",
+        "grade-mcq-26",
+        "grade-mcq-24"
       ],
       "explanation": "本句的「medical-grade standards」指「醫療級」。",
       "sentenceIndex": 24,
@@ -1273,12 +1187,10 @@ export default {
         "medical-grade standards"
       ],
       "optionReasons": {
-        "grade-mcq-14": "本句指「醫療級」。",
-        "grade-mcq-13": "「食品級」與本句語境不同。",
-        "grade-mcq-15": "「工業級」與本句語境不同。",
-        "grade-mcq-12": "「A 級」與本句語境不同。",
-        "grade-mcq-16": "「評分；批改」與本句語境不同。",
-        "grade-mcq-11": "「低級／低品質的」與本句語境不同。"
+        "grade-mcq-14": "本句的「medical-grade standards」指「醫療級」。",
+        "grade-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-14"
     },
@@ -1290,11 +1202,9 @@ export default {
       "masked": "The machine uses ____.",
       "options": [
         "grade-mcq-15",
-        "grade-mcq-14",
-        "grade-mcq-16",
-        "grade-mcq-13",
-        "grade-mcq-17",
-        "grade-mcq-12"
+        "grade-mcq-02",
+        "grade-mcq-28",
+        "grade-mcq-24"
       ],
       "explanation": "本句的「industrial-grade components」指「工業級」。",
       "sentenceIndex": 25,
@@ -1303,12 +1213,10 @@ export default {
         "industrial-grade components"
       ],
       "optionReasons": {
-        "grade-mcq-15": "本句指「工業級」。",
-        "grade-mcq-14": "「醫療級」與本句語境不同。",
-        "grade-mcq-16": "「評分；批改」與本句語境不同。",
-        "grade-mcq-13": "「食品級」與本句語境不同。",
-        "grade-mcq-17": "「批改試卷」與本句語境不同。",
-        "grade-mcq-12": "「A 級」與本句語境不同。"
+        "grade-mcq-15": "本句的「industrial-grade components」指「工業級」。",
+        "grade-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-15"
     },
@@ -1320,11 +1228,9 @@ export default {
       "masked": "This cleaner is ____.",
       "options": [
         "grade-mcq-15",
-        "grade-mcq-14",
-        "grade-mcq-16",
-        "grade-mcq-13",
-        "grade-mcq-17",
-        "grade-mcq-12"
+        "grade-mcq-26",
+        "grade-mcq-03",
+        "grade-mcq-22"
       ],
       "explanation": "本句的「industrial grade」指「工業級」。",
       "sentenceIndex": 26,
@@ -1333,12 +1239,10 @@ export default {
         "industrial grade"
       ],
       "optionReasons": {
-        "grade-mcq-15": "本句指「工業級」。",
-        "grade-mcq-14": "「醫療級」與本句語境不同。",
-        "grade-mcq-16": "「評分；批改」與本句語境不同。",
-        "grade-mcq-13": "「食品級」與本句語境不同。",
-        "grade-mcq-17": "「批改試卷」與本句語境不同。",
-        "grade-mcq-12": "「A 級」與本句語境不同。"
+        "grade-mcq-15": "本句的「industrial grade」指「工業級」。",
+        "grade-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-15"
     },
@@ -1350,11 +1254,9 @@ export default {
       "masked": "The teacher ____.",
       "options": [
         "grade-mcq-16",
-        "grade-mcq-15",
-        "grade-mcq-17",
-        "grade-mcq-14",
-        "grade-mcq-18",
-        "grade-mcq-13"
+        "grade-mcq-29",
+        "grade-mcq-09",
+        "grade-mcq-22"
       ],
       "explanation": "本句的「graded our presentations」指「評分；批改」。",
       "sentenceIndex": 27,
@@ -1363,12 +1265,10 @@ export default {
         "graded our presentations"
       ],
       "optionReasons": {
-        "grade-mcq-16": "本句指「評分；批改」。",
-        "grade-mcq-15": "「工業級」與本句語境不同。",
-        "grade-mcq-17": "「批改試卷」與本句語境不同。",
-        "grade-mcq-14": "「醫療級」與本句語境不同。",
-        "grade-mcq-18": "「評分制度」與本句語境不同。",
-        "grade-mcq-13": "「食品級」與本句語境不同。"
+        "grade-mcq-16": "本句的「graded our presentations」指「評分；批改」。",
+        "grade-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-16"
     },
@@ -1380,11 +1280,9 @@ export default {
       "masked": "She spent the evening ____.",
       "options": [
         "grade-mcq-16",
-        "grade-mcq-15",
-        "grade-mcq-17",
         "grade-mcq-14",
-        "grade-mcq-18",
-        "grade-mcq-13"
+        "grade-mcq-29",
+        "grade-mcq-26"
       ],
       "explanation": "本句的「grading papers」指「評分；批改」。",
       "sentenceIndex": 28,
@@ -1393,12 +1291,10 @@ export default {
         "grading papers"
       ],
       "optionReasons": {
-        "grade-mcq-16": "本句指「評分；批改」。",
-        "grade-mcq-15": "「工業級」與本句語境不同。",
-        "grade-mcq-17": "「批改試卷」與本句語境不同。",
-        "grade-mcq-14": "「醫療級」與本句語境不同。",
-        "grade-mcq-18": "「評分制度」與本句語境不同。",
-        "grade-mcq-13": "「食品級」與本句語境不同。"
+        "grade-mcq-16": "本句的「grading papers」指「評分；批改」。",
+        "grade-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-16"
     },
@@ -1410,11 +1306,9 @@ export default {
       "masked": "It took two days to ____.",
       "options": [
         "grade-mcq-17",
-        "grade-mcq-16",
-        "grade-mcq-18",
-        "grade-mcq-15",
-        "grade-mcq-19",
-        "grade-mcq-14"
+        "grade-mcq-12",
+        "grade-mcq-04",
+        "grade-mcq-21"
       ],
       "explanation": "本句的「grade the exams」指「批改試卷」。",
       "sentenceIndex": 29,
@@ -1423,12 +1317,10 @@ export default {
         "grade the exams"
       ],
       "optionReasons": {
-        "grade-mcq-17": "本句指「批改試卷」。",
-        "grade-mcq-16": "「評分；批改」與本句語境不同。",
-        "grade-mcq-18": "「評分制度」與本句語境不同。",
-        "grade-mcq-15": "「工業級」與本句語境不同。",
-        "grade-mcq-19": "「按品質分級」與本句語境不同。",
-        "grade-mcq-14": "「醫療級」與本句語境不同。"
+        "grade-mcq-17": "本句的「grade the exams」指「批改試卷」。",
+        "grade-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-17"
     },
@@ -1440,11 +1332,9 @@ export default {
       "masked": "The professor ____ carefully.",
       "options": [
         "grade-mcq-17",
-        "grade-mcq-16",
-        "grade-mcq-18",
-        "grade-mcq-15",
-        "grade-mcq-19",
-        "grade-mcq-14"
+        "grade-mcq-09",
+        "grade-mcq-23",
+        "grade-mcq-28"
       ],
       "explanation": "本句的「graded the essays」指「批改試卷」。",
       "sentenceIndex": 30,
@@ -1453,12 +1343,10 @@ export default {
         "graded the essays"
       ],
       "optionReasons": {
-        "grade-mcq-17": "本句指「批改試卷」。",
-        "grade-mcq-16": "「評分；批改」與本句語境不同。",
-        "grade-mcq-18": "「評分制度」與本句語境不同。",
-        "grade-mcq-15": "「工業級」與本句語境不同。",
-        "grade-mcq-19": "「按品質分級」與本句語境不同。",
-        "grade-mcq-14": "「醫療級」與本句語境不同。"
+        "grade-mcq-17": "本句的「graded the essays」指「批改試卷」。",
+        "grade-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-17"
     },
@@ -1470,11 +1358,9 @@ export default {
       "masked": "The school uses a letter ____.",
       "options": [
         "grade-mcq-18",
-        "grade-mcq-17",
-        "grade-mcq-19",
-        "grade-mcq-16",
-        "grade-mcq-20",
-        "grade-mcq-15"
+        "grade-mcq-22",
+        "grade-mcq-27",
+        "grade-mcq-09"
       ],
       "explanation": "本句的「grading system」指「評分制度」。",
       "sentenceIndex": 31,
@@ -1483,12 +1369,10 @@ export default {
         "grading system"
       ],
       "optionReasons": {
-        "grade-mcq-18": "本句指「評分制度」。",
-        "grade-mcq-17": "「批改試卷」與本句語境不同。",
-        "grade-mcq-19": "「按品質分級」與本句語境不同。",
-        "grade-mcq-16": "「評分；批改」與本句語境不同。",
-        "grade-mcq-20": "「分級讀物」與本句語境不同。",
-        "grade-mcq-15": "「工業級」與本句語境不同。"
+        "grade-mcq-18": "本句的「grading system」指「評分制度」。",
+        "grade-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-18"
     },
@@ -1500,11 +1384,9 @@ export default {
       "masked": "Different countries use different ____.",
       "options": [
         "grade-mcq-18",
-        "grade-mcq-17",
-        "grade-mcq-19",
-        "grade-mcq-16",
-        "grade-mcq-20",
-        "grade-mcq-15"
+        "grade-mcq-26",
+        "grade-mcq-15",
+        "grade-mcq-04"
       ],
       "explanation": "本句的「grading systems」指「評分制度」。",
       "sentenceIndex": 32,
@@ -1513,12 +1395,10 @@ export default {
         "grading systems"
       ],
       "optionReasons": {
-        "grade-mcq-18": "本句指「評分制度」。",
-        "grade-mcq-17": "「批改試卷」與本句語境不同。",
-        "grade-mcq-19": "「按品質分級」與本句語境不同。",
-        "grade-mcq-16": "「評分；批改」與本句語境不同。",
-        "grade-mcq-20": "「分級讀物」與本句語境不同。",
-        "grade-mcq-15": "「工業級」與本句語境不同。"
+        "grade-mcq-18": "本句的「grading systems」指「評分制度」。",
+        "grade-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-18"
     },
@@ -1530,11 +1410,9 @@ export default {
       "masked": "The course uses ____.",
       "options": [
         "grade-mcq-20",
-        "grade-mcq-19",
-        "grade-mcq-21",
-        "grade-mcq-18",
-        "grade-mcq-22",
-        "grade-mcq-17"
+        "grade-mcq-29",
+        "grade-mcq-04",
+        "grade-mcq-23"
       ],
       "explanation": "本句的「graded reading materials」指「分級讀物」。",
       "sentenceIndex": 35,
@@ -1543,12 +1421,10 @@ export default {
         "graded reading materials"
       ],
       "optionReasons": {
-        "grade-mcq-20": "本句指「分級讀物」。",
-        "grade-mcq-19": "「按品質分級」與本句語境不同。",
-        "grade-mcq-21": "「坡度」與本句語境不同。",
-        "grade-mcq-18": "「評分制度」與本句語境不同。",
-        "grade-mcq-22": "「陡坡」與本句語境不同。",
-        "grade-mcq-17": "「批改試卷」與本句語境不同。"
+        "grade-mcq-20": "本句的「graded reading materials」指「分級讀物」。",
+        "grade-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-20"
     },
@@ -1560,11 +1436,9 @@ export default {
       "masked": "The exercises become harder in ____.",
       "options": [
         "grade-mcq-20",
-        "grade-mcq-19",
+        "grade-mcq-28",
         "grade-mcq-21",
-        "grade-mcq-18",
-        "grade-mcq-22",
-        "grade-mcq-17"
+        "grade-mcq-02"
       ],
       "explanation": "本句的「graded steps」指「分級讀物」。",
       "sentenceIndex": 36,
@@ -1573,12 +1447,10 @@ export default {
         "graded steps"
       ],
       "optionReasons": {
-        "grade-mcq-20": "本句指「分級讀物」。",
-        "grade-mcq-19": "「按品質分級」與本句語境不同。",
-        "grade-mcq-21": "「坡度」與本句語境不同。",
-        "grade-mcq-18": "「評分制度」與本句語境不同。",
-        "grade-mcq-22": "「陡坡」與本句語境不同。",
-        "grade-mcq-17": "「批改試卷」與本句語境不同。"
+        "grade-mcq-20": "本句的「graded steps」指「分級讀物」。",
+        "grade-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-20"
     },
@@ -1590,11 +1462,9 @@ export default {
       "masked": "Beginners often learn through ____.",
       "options": [
         "grade-mcq-20",
-        "grade-mcq-19",
-        "grade-mcq-21",
-        "grade-mcq-18",
-        "grade-mcq-22",
-        "grade-mcq-17"
+        "grade-mcq-17",
+        "grade-mcq-23",
+        "grade-mcq-28"
       ],
       "explanation": "本句的「graded readers」指「分級讀物」。",
       "sentenceIndex": 37,
@@ -1603,12 +1473,10 @@ export default {
         "graded readers"
       ],
       "optionReasons": {
-        "grade-mcq-20": "本句指「分級讀物」。",
-        "grade-mcq-19": "「按品質分級」與本句語境不同。",
-        "grade-mcq-21": "「坡度」與本句語境不同。",
-        "grade-mcq-18": "「評分制度」與本句語境不同。",
-        "grade-mcq-22": "「陡坡」與本句語境不同。",
-        "grade-mcq-17": "「批改試卷」與本句語境不同。"
+        "grade-mcq-20": "本句的「graded readers」指「分級讀物」。",
+        "grade-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-20"
     },
@@ -1620,11 +1488,9 @@ export default {
       "masked": "This ____ uses simplified vocabulary.",
       "options": [
         "grade-mcq-20",
-        "grade-mcq-19",
-        "grade-mcq-21",
-        "grade-mcq-18",
         "grade-mcq-22",
-        "grade-mcq-17"
+        "grade-mcq-04",
+        "grade-mcq-26"
       ],
       "explanation": "本句的「graded reader」指「分級讀物」。",
       "sentenceIndex": 38,
@@ -1633,12 +1499,10 @@ export default {
         "graded reader"
       ],
       "optionReasons": {
-        "grade-mcq-20": "本句指「分級讀物」。",
-        "grade-mcq-19": "「按品質分級」與本句語境不同。",
-        "grade-mcq-21": "「坡度」與本句語境不同。",
-        "grade-mcq-18": "「評分制度」與本句語境不同。",
-        "grade-mcq-22": "「陡坡」與本句語境不同。",
-        "grade-mcq-17": "「批改試卷」與本句語境不同。"
+        "grade-mcq-20": "本句的「graded reader」指「分級讀物」。",
+        "grade-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-20"
     },
@@ -1650,11 +1514,9 @@ export default {
       "masked": "The road has a steep ____.",
       "options": [
         "grade-mcq-21",
-        "grade-mcq-20",
-        "grade-mcq-22",
-        "grade-mcq-19",
-        "grade-mcq-23",
-        "grade-mcq-18"
+        "grade-mcq-13",
+        "grade-mcq-03",
+        "grade-mcq-24"
       ],
       "explanation": "本句的「grade」指「坡度」。",
       "sentenceIndex": 39,
@@ -1663,12 +1525,10 @@ export default {
         "grade"
       ],
       "optionReasons": {
-        "grade-mcq-21": "本句指「坡度」。",
-        "grade-mcq-20": "「分級讀物」與本句語境不同。",
-        "grade-mcq-22": "「陡坡」與本句語境不同。",
-        "grade-mcq-19": "「按品質分級」與本句語境不同。",
-        "grade-mcq-23": "「整平／整坡」與本句語境不同。",
-        "grade-mcq-18": "「評分制度」與本句語境不同。"
+        "grade-mcq-21": "本句的「grade」指「坡度」。",
+        "grade-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-21"
     },
@@ -1680,11 +1540,9 @@ export default {
       "masked": "The train struggled on the steep ____.",
       "options": [
         "grade-mcq-21",
-        "grade-mcq-20",
-        "grade-mcq-22",
-        "grade-mcq-19",
-        "grade-mcq-23",
-        "grade-mcq-18"
+        "grade-mcq-13",
+        "grade-mcq-17",
+        "grade-mcq-29"
       ],
       "explanation": "本句的「grade」指「坡度」。",
       "sentenceIndex": 40,
@@ -1693,12 +1551,10 @@ export default {
         "grade"
       ],
       "optionReasons": {
-        "grade-mcq-21": "本句指「坡度」。",
-        "grade-mcq-20": "「分級讀物」與本句語境不同。",
-        "grade-mcq-22": "「陡坡」與本句語境不同。",
-        "grade-mcq-19": "「按品質分級」與本句語境不同。",
-        "grade-mcq-23": "「整平／整坡」與本句語境不同。",
-        "grade-mcq-18": "「評分制度」與本句語境不同。"
+        "grade-mcq-21": "本句的「grade」指「坡度」。",
+        "grade-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-21"
     },
@@ -1710,11 +1566,9 @@ export default {
       "masked": "Trucks slow down on the ____.",
       "options": [
         "grade-mcq-22",
-        "grade-mcq-21",
-        "grade-mcq-23",
-        "grade-mcq-20",
         "grade-mcq-24",
-        "grade-mcq-19"
+        "grade-mcq-03",
+        "grade-mcq-29"
       ],
       "explanation": "本句的「steep grade」指「陡坡」。",
       "sentenceIndex": 41,
@@ -1723,12 +1577,10 @@ export default {
         "steep grade"
       ],
       "optionReasons": {
-        "grade-mcq-22": "本句指「陡坡」。",
-        "grade-mcq-21": "「坡度」與本句語境不同。",
-        "grade-mcq-23": "「整平／整坡」與本句語境不同。",
-        "grade-mcq-20": "「分級讀物」與本句語境不同。",
-        "grade-mcq-24": "「評分者」與本句語境不同。",
-        "grade-mcq-19": "「按品質分級」與本句語境不同。"
+        "grade-mcq-22": "本句的「steep grade」指「陡坡」。",
+        "grade-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-22"
     },
@@ -1740,11 +1592,9 @@ export default {
       "masked": "Cyclists found the ____ difficult.",
       "options": [
         "grade-mcq-22",
-        "grade-mcq-21",
-        "grade-mcq-23",
-        "grade-mcq-20",
-        "grade-mcq-24",
-        "grade-mcq-19"
+        "grade-mcq-15",
+        "grade-mcq-04",
+        "grade-mcq-18"
       ],
       "explanation": "本句的「grade」指「陡坡」。",
       "sentenceIndex": 42,
@@ -1753,12 +1603,10 @@ export default {
         "grade"
       ],
       "optionReasons": {
-        "grade-mcq-22": "本句指「陡坡」。",
-        "grade-mcq-21": "「坡度」與本句語境不同。",
-        "grade-mcq-23": "「整平／整坡」與本句語境不同。",
-        "grade-mcq-20": "「分級讀物」與本句語境不同。",
-        "grade-mcq-24": "「評分者」與本句語境不同。",
-        "grade-mcq-19": "「按品質分級」與本句語境不同。"
+        "grade-mcq-22": "本句的「grade」指「陡坡」。",
+        "grade-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-22"
     },
@@ -1770,11 +1618,9 @@ export default {
       "masked": "Workers ____ before construction.",
       "options": [
         "grade-mcq-23",
-        "grade-mcq-22",
-        "grade-mcq-24",
-        "grade-mcq-21",
-        "grade-mcq-25",
-        "grade-mcq-20"
+        "grade-mcq-27",
+        "grade-mcq-20",
+        "grade-mcq-03"
       ],
       "explanation": "本句的「graded the land」指「整平／整坡」。",
       "sentenceIndex": 43,
@@ -1783,12 +1629,10 @@ export default {
         "graded the land"
       ],
       "optionReasons": {
-        "grade-mcq-23": "本句指「整平／整坡」。",
-        "grade-mcq-22": "「陡坡」與本句語境不同。",
-        "grade-mcq-24": "「評分者」與本句語境不同。",
-        "grade-mcq-21": "「坡度」與本句語境不同。",
-        "grade-mcq-25": "「某年級學生」與本句語境不同。",
-        "grade-mcq-20": "「分級讀物」與本句語境不同。"
+        "grade-mcq-23": "本句的「graded the land」指「整平／整坡」。",
+        "grade-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-23"
     },
@@ -1800,11 +1644,9 @@ export default {
       "masked": "The road was ____ to improve drainage.",
       "options": [
         "grade-mcq-23",
-        "grade-mcq-22",
-        "grade-mcq-24",
-        "grade-mcq-21",
-        "grade-mcq-25",
-        "grade-mcq-20"
+        "grade-mcq-10",
+        "grade-mcq-16",
+        "grade-mcq-02"
       ],
       "explanation": "本句的「graded」指「整平／整坡」。",
       "sentenceIndex": 44,
@@ -1813,12 +1655,10 @@ export default {
         "graded"
       ],
       "optionReasons": {
-        "grade-mcq-23": "本句指「整平／整坡」。",
-        "grade-mcq-22": "「陡坡」與本句語境不同。",
-        "grade-mcq-24": "「評分者」與本句語境不同。",
-        "grade-mcq-21": "「坡度」與本句語境不同。",
-        "grade-mcq-25": "「某年級學生」與本句語境不同。",
-        "grade-mcq-20": "「分級讀物」與本句語境不同。"
+        "grade-mcq-23": "本句的「graded」指「整平／整坡」。",
+        "grade-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-23"
     },
@@ -1830,11 +1670,9 @@ export default {
       "masked": "Each essay is checked by two ____.",
       "options": [
         "grade-mcq-24",
-        "grade-mcq-23",
-        "grade-mcq-25",
-        "grade-mcq-22",
-        "grade-mcq-26",
-        "grade-mcq-21"
+        "grade-mcq-08",
+        "grade-mcq-04",
+        "grade-mcq-27"
       ],
       "explanation": "本句的「graders」指「評分者」。",
       "sentenceIndex": 45,
@@ -1843,12 +1681,10 @@ export default {
         "graders"
       ],
       "optionReasons": {
-        "grade-mcq-24": "本句指「評分者」。",
-        "grade-mcq-23": "「整平／整坡」與本句語境不同。",
-        "grade-mcq-25": "「某年級學生」與本句語境不同。",
-        "grade-mcq-22": "「陡坡」與本句語境不同。",
-        "grade-mcq-26": "「平地機」與本句語境不同。",
-        "grade-mcq-21": "「坡度」與本句語境不同。"
+        "grade-mcq-24": "本句的「graders」指「評分者」。",
+        "grade-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-24"
     },
@@ -1861,10 +1697,8 @@ export default {
       "options": [
         "grade-mcq-24",
         "grade-mcq-23",
-        "grade-mcq-25",
-        "grade-mcq-22",
-        "grade-mcq-26",
-        "grade-mcq-21"
+        "grade-mcq-14",
+        "grade-mcq-04"
       ],
       "explanation": "本句的「grader」指「評分者」。",
       "sentenceIndex": 46,
@@ -1873,12 +1707,10 @@ export default {
         "grader"
       ],
       "optionReasons": {
-        "grade-mcq-24": "本句指「評分者」。",
-        "grade-mcq-23": "「整平／整坡」與本句語境不同。",
-        "grade-mcq-25": "「某年級學生」與本句語境不同。",
-        "grade-mcq-22": "「陡坡」與本句語境不同。",
-        "grade-mcq-26": "「平地機」與本句語境不同。",
-        "grade-mcq-21": "「坡度」與本句語境不同。"
+        "grade-mcq-24": "本句的「grader」指「評分者」。",
+        "grade-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-24"
     },
@@ -1890,11 +1722,9 @@ export default {
       "masked": "She's a fourth ____.",
       "options": [
         "grade-mcq-25",
-        "grade-mcq-24",
-        "grade-mcq-26",
-        "grade-mcq-23",
         "grade-mcq-27",
-        "grade-mcq-22"
+        "grade-mcq-18",
+        "grade-mcq-23"
       ],
       "explanation": "本句的「grader」指「某年級學生」。",
       "sentenceIndex": 47,
@@ -1903,12 +1733,10 @@ export default {
         "grader"
       ],
       "optionReasons": {
-        "grade-mcq-25": "本句指「某年級學生」。",
-        "grade-mcq-24": "「評分者」與本句語境不同。",
-        "grade-mcq-26": "「平地機」與本句語境不同。",
-        "grade-mcq-23": "「整平／整坡」與本句語境不同。",
-        "grade-mcq-27": "「漸變；層次」與本句語境不同。",
-        "grade-mcq-22": "「陡坡」與本句語境不同。"
+        "grade-mcq-25": "本句的「grader」指「某年級學生」。",
+        "grade-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-25"
     },
@@ -1920,11 +1748,9 @@ export default {
       "masked": "The programme is designed for eighth ____.",
       "options": [
         "grade-mcq-25",
+        "grade-mcq-17",
         "grade-mcq-24",
-        "grade-mcq-26",
-        "grade-mcq-23",
-        "grade-mcq-27",
-        "grade-mcq-22"
+        "grade-mcq-23"
       ],
       "explanation": "本句的「graders」指「某年級學生」。",
       "sentenceIndex": 48,
@@ -1933,12 +1759,10 @@ export default {
         "graders"
       ],
       "optionReasons": {
-        "grade-mcq-25": "本句指「某年級學生」。",
-        "grade-mcq-24": "「評分者」與本句語境不同。",
-        "grade-mcq-26": "「平地機」與本句語境不同。",
-        "grade-mcq-23": "「整平／整坡」與本句語境不同。",
-        "grade-mcq-27": "「漸變；層次」與本句語境不同。",
-        "grade-mcq-22": "「陡坡」與本句語境不同。"
+        "grade-mcq-25": "本句的「graders」指「某年級學生」。",
+        "grade-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-25"
     },
@@ -1950,11 +1774,9 @@ export default {
       "masked": "A road ____ levelled the surface.",
       "options": [
         "grade-mcq-26",
-        "grade-mcq-25",
-        "grade-mcq-27",
-        "grade-mcq-24",
-        "grade-mcq-28",
-        "grade-mcq-23"
+        "grade-mcq-29",
+        "grade-mcq-20",
+        "grade-mcq-03"
       ],
       "explanation": "本句的「grader」指「平地機」。",
       "sentenceIndex": 49,
@@ -1963,12 +1785,10 @@ export default {
         "grader"
       ],
       "optionReasons": {
-        "grade-mcq-26": "本句指「平地機」。",
-        "grade-mcq-25": "「某年級學生」與本句語境不同。",
-        "grade-mcq-27": "「漸變；層次」與本句語境不同。",
-        "grade-mcq-24": "「評分者」與本句語境不同。",
-        "grade-mcq-28": "「逐漸的」與本句語境不同。",
-        "grade-mcq-23": "「整平／整坡」與本句語境不同。"
+        "grade-mcq-26": "本句的「grader」指「平地機」。",
+        "grade-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-26"
     },
@@ -1980,11 +1800,9 @@ export default {
       "masked": "The construction crew used a ____.",
       "options": [
         "grade-mcq-26",
-        "grade-mcq-25",
         "grade-mcq-27",
-        "grade-mcq-24",
-        "grade-mcq-28",
-        "grade-mcq-23"
+        "grade-mcq-08",
+        "grade-mcq-18"
       ],
       "explanation": "本句的「grader」指「平地機」。",
       "sentenceIndex": 50,
@@ -1993,12 +1811,10 @@ export default {
         "grader"
       ],
       "optionReasons": {
-        "grade-mcq-26": "本句指「平地機」。",
-        "grade-mcq-25": "「某年級學生」與本句語境不同。",
-        "grade-mcq-27": "「漸變；層次」與本句語境不同。",
-        "grade-mcq-24": "「評分者」與本句語境不同。",
-        "grade-mcq-28": "「逐漸的」與本句語境不同。",
-        "grade-mcq-23": "「整平／整坡」與本句語境不同。"
+        "grade-mcq-26": "本句的「grader」指「平地機」。",
+        "grade-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-26"
     },
@@ -2010,11 +1826,9 @@ export default {
       "masked": "The painting shows a smooth ____.",
       "options": [
         "grade-mcq-27",
-        "grade-mcq-26",
-        "grade-mcq-28",
-        "grade-mcq-25",
-        "grade-mcq-29",
-        "grade-mcq-24"
+        "grade-mcq-02",
+        "grade-mcq-12",
+        "grade-mcq-16"
       ],
       "explanation": "本句的「gradation of colour」指「漸變；層次」。",
       "sentenceIndex": 51,
@@ -2023,12 +1837,10 @@ export default {
         "gradation of colour"
       ],
       "optionReasons": {
-        "grade-mcq-27": "本句指「漸變；層次」。",
-        "grade-mcq-26": "「平地機」與本句語境不同。",
-        "grade-mcq-28": "「逐漸的」與本句語境不同。",
-        "grade-mcq-25": "「某年級學生」與本句語境不同。",
-        "grade-mcq-29": "「逐漸地」與本句語境不同。",
-        "grade-mcq-24": "「評分者」與本句語境不同。"
+        "grade-mcq-27": "本句的「gradation of colour」指「漸變；層次」。",
+        "grade-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-27"
     },
@@ -2040,11 +1852,9 @@ export default {
       "masked": "There are many subtle ____ between the two extremes.",
       "options": [
         "grade-mcq-27",
+        "grade-mcq-18",
         "grade-mcq-26",
-        "grade-mcq-28",
-        "grade-mcq-25",
-        "grade-mcq-29",
-        "grade-mcq-24"
+        "grade-mcq-08"
       ],
       "explanation": "本句的「gradations」指「漸變；層次」。",
       "sentenceIndex": 52,
@@ -2053,12 +1863,10 @@ export default {
         "gradations"
       ],
       "optionReasons": {
-        "grade-mcq-27": "本句指「漸變；層次」。",
-        "grade-mcq-26": "「平地機」與本句語境不同。",
-        "grade-mcq-28": "「逐漸的」與本句語境不同。",
-        "grade-mcq-25": "「某年級學生」與本句語境不同。",
-        "grade-mcq-29": "「逐漸地」與本句語境不同。",
-        "grade-mcq-24": "「評分者」與本句語境不同。"
+        "grade-mcq-27": "本句的「gradations」指「漸變；層次」。",
+        "grade-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-27"
     },
@@ -2070,11 +1878,9 @@ export default {
       "masked": "There was a ____ in his performance.",
       "options": [
         "grade-mcq-28",
-        "grade-mcq-27",
-        "grade-mcq-29",
-        "grade-mcq-26",
-        "grade-mcq-25",
-        "grade-mcq-24"
+        "grade-mcq-13",
+        "grade-mcq-17",
+        "grade-mcq-18"
       ],
       "explanation": "本句的「gradual improvement」指「逐漸的」。",
       "sentenceIndex": 53,
@@ -2083,12 +1889,10 @@ export default {
         "gradual improvement"
       ],
       "optionReasons": {
-        "grade-mcq-28": "本句指「逐漸的」。",
-        "grade-mcq-27": "「漸變；層次」與本句語境不同。",
-        "grade-mcq-29": "「逐漸地」與本句語境不同。",
-        "grade-mcq-26": "「平地機」與本句語境不同。",
-        "grade-mcq-25": "「某年級學生」與本句語境不同。",
-        "grade-mcq-24": "「評分者」與本句語境不同。"
+        "grade-mcq-28": "本句的「gradual improvement」指「逐漸的」。",
+        "grade-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-28"
     },
@@ -2100,11 +1904,9 @@ export default {
       "masked": "The change was slow and ____.",
       "options": [
         "grade-mcq-28",
-        "grade-mcq-27",
-        "grade-mcq-29",
-        "grade-mcq-26",
-        "grade-mcq-25",
-        "grade-mcq-24"
+        "grade-mcq-15",
+        "grade-mcq-17",
+        "grade-mcq-23"
       ],
       "explanation": "本句的「gradual」指「逐漸的」。",
       "sentenceIndex": 54,
@@ -2113,12 +1915,10 @@ export default {
         "gradual"
       ],
       "optionReasons": {
-        "grade-mcq-28": "本句指「逐漸的」。",
-        "grade-mcq-27": "「漸變；層次」與本句語境不同。",
-        "grade-mcq-29": "「逐漸地」與本句語境不同。",
-        "grade-mcq-26": "「平地機」與本句語境不同。",
-        "grade-mcq-25": "「某年級學生」與本句語境不同。",
-        "grade-mcq-24": "「評分者」與本句語境不同。"
+        "grade-mcq-28": "本句的「gradual」指「逐漸的」。",
+        "grade-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-28"
     },
@@ -2130,11 +1930,9 @@ export default {
       "masked": "The situation ____ improved.",
       "options": [
         "grade-mcq-29",
-        "grade-mcq-28",
-        "grade-mcq-27",
-        "grade-mcq-26",
-        "grade-mcq-25",
-        "grade-mcq-24"
+        "grade-mcq-02",
+        "grade-mcq-18",
+        "grade-mcq-12"
       ],
       "explanation": "本句的「gradually」指「逐漸地」。",
       "sentenceIndex": 55,
@@ -2143,12 +1941,10 @@ export default {
         "gradually"
       ],
       "optionReasons": {
-        "grade-mcq-29": "本句指「逐漸地」。",
-        "grade-mcq-28": "「逐漸的」與本句語境不同。",
-        "grade-mcq-27": "「漸變；層次」與本句語境不同。",
-        "grade-mcq-26": "「平地機」與本句語境不同。",
-        "grade-mcq-25": "「某年級學生」與本句語境不同。",
-        "grade-mcq-24": "「評分者」與本句語境不同。"
+        "grade-mcq-29": "本句的「gradually」指「逐漸地」。",
+        "grade-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-29"
     },
@@ -2160,11 +1956,9 @@ export default {
       "masked": "The sky ____ became darker.",
       "options": [
         "grade-mcq-29",
-        "grade-mcq-28",
-        "grade-mcq-27",
-        "grade-mcq-26",
-        "grade-mcq-25",
-        "grade-mcq-24"
+        "grade-mcq-03",
+        "grade-mcq-21",
+        "grade-mcq-15"
       ],
       "explanation": "本句的「gradually」指「逐漸地」。",
       "sentenceIndex": 56,
@@ -2173,12 +1967,10 @@ export default {
         "gradually"
       ],
       "optionReasons": {
-        "grade-mcq-29": "本句指「逐漸地」。",
-        "grade-mcq-28": "「逐漸的」與本句語境不同。",
-        "grade-mcq-27": "「漸變；層次」與本句語境不同。",
-        "grade-mcq-26": "「平地機」與本句語境不同。",
-        "grade-mcq-25": "「某年級學生」與本句語境不同。",
-        "grade-mcq-24": "「評分者」與本句語境不同。"
+        "grade-mcq-29": "本句的「gradually」指「逐漸地」。",
+        "grade-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "grade-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grade-mcq-29"
     }
@@ -2190,5 +1982,7 @@ export default {
     "sha256": "1a6e51669923964576b7f1dc69aea501a10839d45b41ff6bbeebdd8f2f1e1105",
     "pages": 22
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -268,11 +268,9 @@ export default {
       "masked": "She ____ into the pool.",
       "options": [
         "dive-mcq-01",
-        "dive-mcq-02",
-        "dive-mcq-03",
-        "dive-mcq-04",
+        "dive-mcq-06",
         "dive-mcq-05",
-        "dive-mcq-06"
+        "dive-pdf-002"
       ],
       "explanation": "本句的「dived」指「以頭部或上半身先進入水中的方式跳入水裡」。",
       "sentenceIndex": 0,
@@ -281,12 +279,10 @@ export default {
         "dived"
       ],
       "optionReasons": {
-        "dive-mcq-01": "本句指「以頭部或上半身先進入水中的方式跳入水裡」。",
-        "dive-mcq-02": "「潛入水面以下並在水中活動」是「dive — go underwater」的用法，與本句語境不同。",
-        "dive-mcq-03": "「從較高位置快速、陡峭地向下移動；俯衝／急降」是「dive — move steeply downward」的用法，與本句語境不同。",
-        "dive-mcq-04": "「價格、數量、水平等突然大幅下降」是「dive — numbers/value」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。"
+        "dive-mcq-01": "本句的「dived」指「以頭部或上半身先進入水中的方式跳入水裡」。",
+        "dive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dive-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-01"
     },
@@ -298,11 +294,9 @@ export default {
       "masked": "He stood at the edge and ____ into the sea.",
       "options": [
         "dive-mcq-01",
-        "dive-mcq-02",
-        "dive-mcq-03",
-        "dive-mcq-04",
         "dive-mcq-05",
-        "dive-mcq-06"
+        "dive-mcq-06",
+        "dive-pdf-002"
       ],
       "explanation": "本句的「dived」指「以頭部或上半身先進入水中的方式跳入水裡」。",
       "sentenceIndex": 1,
@@ -311,12 +305,10 @@ export default {
         "dived"
       ],
       "optionReasons": {
-        "dive-mcq-01": "本句指「以頭部或上半身先進入水中的方式跳入水裡」。",
-        "dive-mcq-02": "「潛入水面以下並在水中活動」是「dive — go underwater」的用法，與本句語境不同。",
-        "dive-mcq-03": "「從較高位置快速、陡峭地向下移動；俯衝／急降」是「dive — move steeply downward」的用法，與本句語境不同。",
-        "dive-mcq-04": "「價格、數量、水平等突然大幅下降」是「dive — numbers/value」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。"
+        "dive-mcq-01": "本句的「dived」指「以頭部或上半身先進入水中的方式跳入水裡」。",
+        "dive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dive-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-01"
     },
@@ -328,11 +320,9 @@ export default {
       "masked": "The whale ____ beneath the surface.",
       "options": [
         "dive-mcq-02",
-        "dive-mcq-01",
-        "dive-mcq-03",
-        "dive-mcq-04",
-        "dive-mcq-05",
-        "dive-mcq-06"
+        "dive-mcq-06",
+        "dive-pdf-002",
+        "dive-mcq-05"
       ],
       "explanation": "本句的「dived」指「潛入水面以下並在水中活動」。",
       "sentenceIndex": 2,
@@ -341,12 +331,10 @@ export default {
         "dived"
       ],
       "optionReasons": {
-        "dive-mcq-02": "本句指「潛入水面以下並在水中活動」。",
-        "dive-mcq-01": "「以頭部或上半身先進入水中的方式跳入水裡」是「dive — enter water」的用法，與本句語境不同。",
-        "dive-mcq-03": "「從較高位置快速、陡峭地向下移動；俯衝／急降」是「dive — move steeply downward」的用法，與本句語境不同。",
-        "dive-mcq-04": "「價格、數量、水平等突然大幅下降」是「dive — numbers/value」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。"
+        "dive-mcq-02": "本句的「dived」指「潛入水面以下並在水中活動」。",
+        "dive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dive-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-02"
     },
@@ -358,11 +346,9 @@ export default {
       "masked": "They went ____ near the reef.",
       "options": [
         "dive-mcq-02",
-        "dive-mcq-01",
-        "dive-mcq-03",
-        "dive-mcq-04",
-        "dive-mcq-05",
-        "dive-mcq-06"
+        "dive-mcq-06",
+        "dive-pdf-002",
+        "dive-mcq-05"
       ],
       "explanation": "本句的「diving」指「潛入水面以下並在水中活動」。",
       "sentenceIndex": 3,
@@ -371,12 +357,10 @@ export default {
         "diving"
       ],
       "optionReasons": {
-        "dive-mcq-02": "本句指「潛入水面以下並在水中活動」。",
-        "dive-mcq-01": "「以頭部或上半身先進入水中的方式跳入水裡」是「dive — enter water」的用法，與本句語境不同。",
-        "dive-mcq-03": "「從較高位置快速、陡峭地向下移動；俯衝／急降」是「dive — move steeply downward」的用法，與本句語境不同。",
-        "dive-mcq-04": "「價格、數量、水平等突然大幅下降」是「dive — numbers/value」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。"
+        "dive-mcq-02": "本句的「diving」指「潛入水面以下並在水中活動」。",
+        "dive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dive-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-02"
     },
@@ -388,10 +372,8 @@ export default {
       "masked": "The bird ____ toward the water.",
       "options": [
         "dive-mcq-03",
-        "dive-mcq-02",
-        "dive-mcq-04",
-        "dive-mcq-01",
-        "dive-mcq-05",
+        "dive-mcq-10",
+        "dive-mcq-07",
         "dive-mcq-06"
       ],
       "explanation": "本句的「dived」指「從較高位置快速、陡峭地向下移動；俯衝／急降」。",
@@ -401,12 +383,10 @@ export default {
         "dived"
       ],
       "optionReasons": {
-        "dive-mcq-03": "本句指「從較高位置快速、陡峭地向下移動；俯衝／急降」。",
-        "dive-mcq-02": "「潛入水面以下並在水中活動」是「dive — go underwater」的用法，與本句語境不同。",
-        "dive-mcq-04": "「價格、數量、水平等突然大幅下降」是「dive — numbers/value」的用法，與本句語境不同。",
-        "dive-mcq-01": "「以頭部或上半身先進入水中的方式跳入水裡」是「dive — enter water」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。"
+        "dive-mcq-03": "本句的「dived」指「從較高位置快速、陡峭地向下移動；俯衝／急降」。",
+        "dive-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-03"
     },
@@ -418,11 +398,9 @@ export default {
       "masked": "The plane suddenly began to ____.",
       "options": [
         "dive-mcq-03",
-        "dive-mcq-02",
-        "dive-mcq-04",
-        "dive-mcq-01",
-        "dive-mcq-05",
-        "dive-mcq-06"
+        "dive-mcq-06",
+        "dive-mcq-07",
+        "dive-mcq-10"
       ],
       "explanation": "本句的「dive」指「從較高位置快速、陡峭地向下移動；俯衝／急降」。",
       "sentenceIndex": 5,
@@ -431,12 +409,10 @@ export default {
         "dive"
       ],
       "optionReasons": {
-        "dive-mcq-03": "本句指「從較高位置快速、陡峭地向下移動；俯衝／急降」。",
-        "dive-mcq-02": "「潛入水面以下並在水中活動」是「dive — go underwater」的用法，與本句語境不同。",
-        "dive-mcq-04": "「價格、數量、水平等突然大幅下降」是「dive — numbers/value」的用法，與本句語境不同。",
-        "dive-mcq-01": "「以頭部或上半身先進入水中的方式跳入水裡」是「dive — enter water」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。"
+        "dive-mcq-03": "本句的「dive」指「從較高位置快速、陡峭地向下移動；俯衝／急降」。",
+        "dive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-03"
     },
@@ -448,11 +424,9 @@ export default {
       "masked": "Sales ____ after the announcement.",
       "options": [
         "dive-mcq-04",
-        "dive-mcq-03",
-        "dive-mcq-05",
-        "dive-mcq-02",
+        "dive-pdf-001",
         "dive-mcq-06",
-        "dive-mcq-01"
+        "dive-pdf-002"
       ],
       "explanation": "本句的「dived」指「價格、數量、水平等突然大幅下降」。",
       "sentenceIndex": 6,
@@ -461,12 +435,10 @@ export default {
         "dived"
       ],
       "optionReasons": {
-        "dive-mcq-04": "本句指「價格、數量、水平等突然大幅下降」。",
-        "dive-mcq-03": "「從較高位置快速、陡峭地向下移動；俯衝／急降」是「dive — move steeply downward」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。",
-        "dive-mcq-02": "「潛入水面以下並在水中活動」是「dive — go underwater」的用法，與本句語境不同。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
-        "dive-mcq-01": "「以頭部或上半身先進入水中的方式跳入水裡」是「dive — enter water」的用法，與本句語境不同。"
+        "dive-mcq-04": "本句的「dived」指「價格、數量、水平等突然大幅下降」。",
+        "dive-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dive-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-04"
     },
@@ -478,11 +450,9 @@ export default {
       "masked": "Temperatures ____ overnight.",
       "options": [
         "dive-mcq-04",
-        "dive-mcq-03",
-        "dive-mcq-05",
-        "dive-mcq-02",
         "dive-mcq-06",
-        "dive-mcq-01"
+        "dive-mcq-07",
+        "dive-pdf-002"
       ],
       "explanation": "本句的「dived」指「價格、數量、水平等突然大幅下降」。",
       "sentenceIndex": 7,
@@ -491,12 +461,10 @@ export default {
         "dived"
       ],
       "optionReasons": {
-        "dive-mcq-04": "本句指「價格、數量、水平等突然大幅下降」。",
-        "dive-mcq-03": "「從較高位置快速、陡峭地向下移動；俯衝／急降」是「dive — move steeply downward」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。",
-        "dive-mcq-02": "「潛入水面以下並在水中活動」是「dive — go underwater」的用法，與本句語境不同。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
-        "dive-mcq-01": "「以頭部或上半身先進入水中的方式跳入水裡」是「dive — enter water」的用法，與本句語境不同。"
+        "dive-mcq-04": "本句的「dived」指「價格、數量、水平等突然大幅下降」。",
+        "dive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dive-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-04"
     },
@@ -508,11 +476,9 @@ export default {
       "masked": "The goalkeeper ____ to his left.",
       "options": [
         "dive-mcq-05",
-        "dive-mcq-04",
-        "dive-mcq-06",
-        "dive-mcq-03",
-        "dive-mcq-07",
-        "dive-mcq-02"
+        "dive-pdf-002",
+        "dive-mcq-01",
+        "dive-mcq-07"
       ],
       "explanation": "本句的「dived」指「突然而快速地向某方向撲去」。",
       "sentenceIndex": 8,
@@ -521,12 +487,10 @@ export default {
         "dived"
       ],
       "optionReasons": {
-        "dive-mcq-05": "本句指「突然而快速地向某方向撲去」。",
-        "dive-mcq-04": "「價格、數量、水平等突然大幅下降」是「dive — numbers/value」的用法，與本句語境不同。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
-        "dive-mcq-03": "「從較高位置快速、陡峭地向下移動；俯衝／急降」是「dive — move steeply downward」的用法，與本句語境不同。",
-        "dive-mcq-07": "「不再猶豫，立即積極投入某事」是「dive in」的用法，與本句語境不同。",
-        "dive-mcq-02": "「潛入水面以下並在水中活動」是「dive — go underwater」的用法，與本句語境不同。"
+        "dive-mcq-05": "本句的「dived」指「突然而快速地向某方向撲去」。",
+        "dive-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-05"
     },
@@ -538,11 +502,9 @@ export default {
       "masked": "She ____ behind the wall when she heard the noise.",
       "options": [
         "dive-mcq-05",
-        "dive-mcq-04",
-        "dive-mcq-06",
-        "dive-mcq-03",
-        "dive-mcq-07",
-        "dive-mcq-02"
+        "dive-mcq-01",
+        "dive-pdf-001",
+        "dive-mcq-06"
       ],
       "explanation": "本句的「dived」指「突然而快速地向某方向撲去」。",
       "sentenceIndex": 9,
@@ -551,12 +513,10 @@ export default {
         "dived"
       ],
       "optionReasons": {
-        "dive-mcq-05": "本句指「突然而快速地向某方向撲去」。",
-        "dive-mcq-04": "「價格、數量、水平等突然大幅下降」是「dive — numbers/value」的用法，與本句語境不同。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
-        "dive-mcq-03": "「從較高位置快速、陡峭地向下移動；俯衝／急降」是「dive — move steeply downward」的用法，與本句語境不同。",
-        "dive-mcq-07": "「不再猶豫，立即積極投入某事」是「dive in」的用法，與本句語境不同。",
-        "dive-mcq-02": "「潛入水面以下並在水中活動」是「dive — go underwater」的用法，與本句語境不同。"
+        "dive-mcq-05": "本句的「dived」指「突然而快速地向某方向撲去」。",
+        "dive-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "dive-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-05"
     },
@@ -568,11 +528,9 @@ export default {
       "masked": "The referee thought the player had ____.",
       "options": [
         "dive-mcq-06",
-        "dive-mcq-05",
-        "dive-mcq-07",
-        "dive-mcq-04",
-        "dive-mcq-08",
-        "dive-mcq-03"
+        "dive-pdf-001",
+        "dive-mcq-03",
+        "dive-mcq-10"
       ],
       "explanation": "本句的「dived」指「故意倒地製造被犯規假象；假摔」。",
       "sentenceIndex": 10,
@@ -581,12 +539,10 @@ export default {
         "dived"
       ],
       "optionReasons": {
-        "dive-mcq-06": "本句指「故意倒地製造被犯規假象；假摔」。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。",
-        "dive-mcq-07": "「不再猶豫，立即積極投入某事」是「dive in」的用法，與本句語境不同。",
-        "dive-mcq-04": "「價格、數量、水平等突然大幅下降」是「dive — numbers/value」的用法，與本句語境不同。",
-        "dive-mcq-08": "「深入投入、研究或處理某件事」是「dive into」的用法，與本句語境不同。",
-        "dive-mcq-03": "「從較高位置快速、陡峭地向下移動；俯衝／急降」是「dive — move steeply downward」的用法，與本句語境不同。"
+        "dive-mcq-06": "本句的「dived」指「故意倒地製造被犯規假象；假摔」。",
+        "dive-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-06"
     },
@@ -598,11 +554,9 @@ export default {
       "masked": "He was criticized for ____ in the penalty area.",
       "options": [
         "dive-mcq-06",
-        "dive-mcq-05",
+        "dive-mcq-09",
         "dive-mcq-07",
-        "dive-mcq-04",
-        "dive-mcq-08",
-        "dive-mcq-03"
+        "dive-mcq-04"
       ],
       "explanation": "本句的「diving」指「故意倒地製造被犯規假象；假摔」。",
       "sentenceIndex": 11,
@@ -611,12 +565,10 @@ export default {
         "diving"
       ],
       "optionReasons": {
-        "dive-mcq-06": "本句指「故意倒地製造被犯規假象；假摔」。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。",
-        "dive-mcq-07": "「不再猶豫，立即積極投入某事」是「dive in」的用法，與本句語境不同。",
-        "dive-mcq-04": "「價格、數量、水平等突然大幅下降」是「dive — numbers/value」的用法，與本句語境不同。",
-        "dive-mcq-08": "「深入投入、研究或處理某件事」是「dive into」的用法，與本句語境不同。",
-        "dive-mcq-03": "「從較高位置快速、陡峭地向下移動；俯衝／急降」是「dive — move steeply downward」的用法，與本句語境不同。"
+        "dive-mcq-06": "本句的「diving」指「故意倒地製造被犯規假象；假摔」。",
+        "dive-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-06"
     },
@@ -628,11 +580,9 @@ export default {
       "masked": "Instead of ____, I kept putting the book off.",
       "options": [
         "dive-mcq-07",
-        "dive-mcq-06",
-        "dive-mcq-08",
-        "dive-mcq-05",
-        "dive-mcq-09",
-        "dive-mcq-04"
+        "dive-pdf-002",
+        "dive-mcq-04",
+        "dive-mcq-10"
       ],
       "explanation": "本句的「diving in」指「不再猶豫，立即積極投入某事」。",
       "sentenceIndex": 12,
@@ -641,12 +591,10 @@ export default {
         "diving in"
       ],
       "optionReasons": {
-        "dive-mcq-07": "本句指「不再猶豫，立即積極投入某事」。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
-        "dive-mcq-08": "「深入投入、研究或處理某件事」是「dive into」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。",
-        "dive-mcq-09": "「一次跳水／下潛；亦可指破舊廉價的場所」是「a dive」的用法，與本句語境不同。",
-        "dive-mcq-04": "「價格、數量、水平等突然大幅下降」是「dive — numbers/value」的用法，與本句語境不同。"
+        "dive-mcq-07": "本句的「diving in」指「不再猶豫，立即積極投入某事」。",
+        "dive-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-07"
     },
@@ -658,10 +606,8 @@ export default {
       "masked": "Once everyone arrived, we ____ and started planning.",
       "options": [
         "dive-mcq-07",
-        "dive-mcq-06",
-        "dive-mcq-08",
-        "dive-mcq-05",
-        "dive-mcq-09",
+        "dive-pdf-002",
+        "dive-mcq-10",
         "dive-mcq-04"
       ],
       "explanation": "本句的「dived in」指「不再猶豫，立即積極投入某事」。",
@@ -671,12 +617,10 @@ export default {
         "dived in"
       ],
       "optionReasons": {
-        "dive-mcq-07": "本句指「不再猶豫，立即積極投入某事」。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
-        "dive-mcq-08": "「深入投入、研究或處理某件事」是「dive into」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。",
-        "dive-mcq-09": "「一次跳水／下潛；亦可指破舊廉價的場所」是「a dive」的用法，與本句語境不同。",
-        "dive-mcq-04": "「價格、數量、水平等突然大幅下降」是「dive — numbers/value」的用法，與本句語境不同。"
+        "dive-mcq-07": "本句的「dived in」指「不再猶豫，立即積極投入某事」。",
+        "dive-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-07"
     },
@@ -688,11 +632,9 @@ export default {
       "masked": "Don’t overthink it—just ____.",
       "options": [
         "dive-mcq-07",
-        "dive-mcq-06",
-        "dive-mcq-08",
-        "dive-mcq-05",
-        "dive-mcq-09",
-        "dive-mcq-04"
+        "dive-pdf-002",
+        "dive-mcq-04",
+        "dive-mcq-10"
       ],
       "explanation": "本句的「dive in」指「不再猶豫，立即積極投入某事」。",
       "sentenceIndex": 14,
@@ -701,12 +643,10 @@ export default {
         "dive in"
       ],
       "optionReasons": {
-        "dive-mcq-07": "本句指「不再猶豫，立即積極投入某事」。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
-        "dive-mcq-08": "「深入投入、研究或處理某件事」是「dive into」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。",
-        "dive-mcq-09": "「一次跳水／下潛；亦可指破舊廉價的場所」是「a dive」的用法，與本句語境不同。",
-        "dive-mcq-04": "「價格、數量、水平等突然大幅下降」是「dive — numbers/value」的用法，與本句語境不同。"
+        "dive-mcq-07": "本句的「dive in」指「不再猶豫，立即積極投入某事」。",
+        "dive-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-07"
     },
@@ -718,11 +658,9 @@ export default {
       "masked": "She ____ the research.",
       "options": [
         "dive-pdf-001",
-        "dive-mcq-07",
-        "dive-mcq-09",
-        "dive-mcq-06",
         "dive-mcq-10",
-        "dive-mcq-05"
+        "dive-mcq-05",
+        "dive-pdf-002"
       ],
       "explanation": "本句的「dived into」指「積極深入某個主題、活動或工作」。",
       "sentenceIndex": 15,
@@ -731,12 +669,10 @@ export default {
         "dived into"
       ],
       "optionReasons": {
-        "dive-pdf-001": "本句指「積極深入某個主題、活動或工作」。",
-        "dive-mcq-07": "「不再猶豫，立即積極投入某事」是「dive in」的用法，與本句語境不同。",
-        "dive-mcq-09": "「一次跳水／下潛；亦可指破舊廉價的場所」是「a dive」的用法，與本句語境不同。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
-        "dive-mcq-10": "「跳水者／潛水員」是「diver」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。"
+        "dive-pdf-001": "本句的「dived into」指「積極深入某個主題、活動或工作」。",
+        "dive-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dive-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-pdf-001"
     },
@@ -748,9 +684,7 @@ export default {
       "masked": "The book ____ the history of the subject.",
       "options": [
         "dive-pdf-001",
-        "dive-mcq-07",
-        "dive-mcq-09",
-        "dive-mcq-06",
+        "dive-pdf-002",
         "dive-mcq-10",
         "dive-mcq-05"
       ],
@@ -761,12 +695,10 @@ export default {
         "dives into"
       ],
       "optionReasons": {
-        "dive-pdf-001": "本句指「積極深入某個主題、活動或工作」。",
-        "dive-mcq-07": "「不再猶豫，立即積極投入某事」是「dive in」的用法，與本句語境不同。",
-        "dive-mcq-09": "「一次跳水／下潛；亦可指破舊廉價的場所」是「a dive」的用法，與本句語境不同。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
-        "dive-mcq-10": "「跳水者／潛水員」是「diver」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。"
+        "dive-pdf-001": "本句的「dives into」指「積極深入某個主題、活動或工作」。",
+        "dive-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-pdf-001"
     },
@@ -778,11 +710,9 @@ export default {
       "masked": "He made a clean ____ into the pool.",
       "options": [
         "dive-mcq-09",
-        "dive-mcq-08",
-        "dive-mcq-10",
         "dive-mcq-07",
-        "dive-mcq-06",
-        "dive-mcq-05"
+        "dive-mcq-05",
+        "dive-mcq-06"
       ],
       "explanation": "本句的「dive」指「一次跳水／下潛；亦可指破舊廉價的場所」。",
       "sentenceIndex": 17,
@@ -791,12 +721,10 @@ export default {
         "dive"
       ],
       "optionReasons": {
-        "dive-mcq-09": "本句指「一次跳水／下潛；亦可指破舊廉價的場所」。",
-        "dive-mcq-08": "「深入投入、研究或處理某件事」是「dive into」的用法，與本句語境不同。",
-        "dive-mcq-10": "「跳水者／潛水員」是「diver」的用法，與本句語境不同。",
-        "dive-mcq-07": "「不再猶豫，立即積極投入某事」是「dive in」的用法，與本句語境不同。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。"
+        "dive-mcq-09": "本句的「dive」指「一次跳水／下潛；亦可指破舊廉價的場所」。",
+        "dive-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-09"
     },
@@ -808,11 +736,9 @@ export default {
       "masked": "The ____r made a deep dive.",
       "options": [
         "dive-mcq-09",
-        "dive-mcq-08",
-        "dive-mcq-10",
         "dive-mcq-07",
-        "dive-mcq-06",
-        "dive-mcq-05"
+        "dive-mcq-05",
+        "dive-mcq-06"
       ],
       "explanation": "本句的「dive」指「一次跳水／下潛；亦可指破舊廉價的場所」。",
       "sentenceIndex": 18,
@@ -821,12 +747,10 @@ export default {
         "dive"
       ],
       "optionReasons": {
-        "dive-mcq-09": "本句指「一次跳水／下潛；亦可指破舊廉價的場所」。",
-        "dive-mcq-08": "「深入投入、研究或處理某件事」是「dive into」的用法，與本句語境不同。",
-        "dive-mcq-10": "「跳水者／潛水員」是「diver」的用法，與本句語境不同。",
-        "dive-mcq-07": "「不再猶豫，立即積極投入某事」是「dive in」的用法，與本句語境不同。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。"
+        "dive-mcq-09": "本句的「dive」指「一次跳水／下潛；亦可指破舊廉價的場所」。",
+        "dive-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-09"
     },
@@ -838,11 +762,9 @@ export default {
       "masked": "The bar looks like a ____, but the food is excellent.",
       "options": [
         "dive-pdf-002",
-        "dive-mcq-08",
         "dive-mcq-10",
-        "dive-mcq-07",
-        "dive-mcq-06",
-        "dive-mcq-05"
+        "dive-mcq-05",
+        "dive-mcq-06"
       ],
       "explanation": "本句的「dive」指「廉價、破舊、品質不高的酒吧、旅館或類似場所」。",
       "sentenceIndex": 19,
@@ -851,12 +773,10 @@ export default {
         "dive"
       ],
       "optionReasons": {
-        "dive-pdf-002": "本句指「廉價、破舊、品質不高的酒吧、旅館或類似場所」。",
-        "dive-mcq-08": "「深入投入、研究或處理某件事」是「dive into」的用法，與本句語境不同。",
-        "dive-mcq-10": "「跳水者／潛水員」是「diver」的用法，與本句語境不同。",
-        "dive-mcq-07": "「不再猶豫，立即積極投入某事」是「dive in」的用法，與本句語境不同。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。"
+        "dive-pdf-002": "本句的「dive」指「廉價、破舊、品質不高的酒吧、旅館或類似場所」。",
+        "dive-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-pdf-002"
     },
@@ -868,10 +788,8 @@ export default {
       "masked": "They stayed in a cheap ____ near the station.",
       "options": [
         "dive-pdf-002",
-        "dive-mcq-08",
-        "dive-mcq-10",
+        "dive-mcq-02",
         "dive-mcq-07",
-        "dive-mcq-06",
         "dive-mcq-05"
       ],
       "explanation": "本句的「dive」指「廉價、破舊、品質不高的酒吧、旅館或類似場所」。",
@@ -881,12 +799,10 @@ export default {
         "dive"
       ],
       "optionReasons": {
-        "dive-pdf-002": "本句指「廉價、破舊、品質不高的酒吧、旅館或類似場所」。",
-        "dive-mcq-08": "「深入投入、研究或處理某件事」是「dive into」的用法，與本句語境不同。",
-        "dive-mcq-10": "「跳水者／潛水員」是「diver」的用法，與本句語境不同。",
-        "dive-mcq-07": "「不再猶豫，立即積極投入某事」是「dive in」的用法，與本句語境不同。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。"
+        "dive-pdf-002": "本句的「dive」指「廉價、破舊、品質不高的酒吧、旅館或類似場所」。",
+        "dive-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-pdf-002"
     },
@@ -898,11 +814,9 @@ export default {
       "masked": "The ____ disappeared beneath the surface.",
       "options": [
         "dive-mcq-10",
-        "dive-mcq-09",
-        "dive-mcq-08",
-        "dive-mcq-07",
+        "dive-mcq-03",
         "dive-mcq-06",
-        "dive-mcq-05"
+        "dive-pdf-001"
       ],
       "explanation": "本句的「diver」指「跳水者／潛水員」。",
       "sentenceIndex": 21,
@@ -911,12 +825,10 @@ export default {
         "diver"
       ],
       "optionReasons": {
-        "dive-mcq-10": "本句指「跳水者／潛水員」。",
-        "dive-mcq-09": "「一次跳水／下潛；亦可指破舊廉價的場所」是「a dive」的用法，與本句語境不同。",
-        "dive-mcq-08": "「深入投入、研究或處理某件事」是「dive into」的用法，與本句語境不同。",
-        "dive-mcq-07": "「不再猶豫，立即積極投入某事」是「dive in」的用法，與本句語境不同。",
-        "dive-mcq-06": "「故意倒地製造被犯規假象；假摔」是「dive — sport」的用法，與本句語境不同。",
-        "dive-mcq-05": "「突然而快速地向某方向撲去」是「dive — sudden physical movement」的用法，與本句語境不同。"
+        "dive-mcq-10": "本句的「diver」指「跳水者／潛水員」。",
+        "dive-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dive-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dive-mcq-10"
     }
@@ -928,5 +840,7 @@ export default {
     "sha256": "2e8c2f63f0fb1a59012631367a1deb99679cc7ae6da6fd8c7ea10c8397eaa3a8",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -564,11 +564,7 @@ export default {
       "masked": "The writer makes her ____ on drama very clear.",
       "options": [
         "stance-mcq-01",
-        "stance-mcq-02",
-        "stance-mcq-03",
-        "stance-mcq-04",
-        "stance-mcq-05",
-        "stance-mcq-06"
+        "stance-mcq-14"
       ],
       "explanation": "本句的「stance」指「對某個問題所採取的明確立場、態度或觀點」。",
       "sentenceIndex": 0,
@@ -577,12 +573,8 @@ export default {
         "stance"
       ],
       "optionReasons": {
-        "stance-mcq-01": "本句指「對某個問題所採取的明確立場、態度或觀點」。",
-        "stance-mcq-02": "「對某事／某議題的立場」與本句語境不同。",
-        "stance-mcq-03": "「面對某事時所採取的態度／立場」與本句語境不同。",
-        "stance-mcq-04": "「明確表態／採取某種立場」與本句語境不同。",
-        "stance-mcq-05": "「選擇並採取某種立場或態度」與本句語境不同。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。"
+        "stance-mcq-01": "本句的「stance」指「對某個問題所採取的明確立場、態度或觀點」。",
+        "stance-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-01"
     },
@@ -594,11 +586,7 @@ export default {
       "masked": "His ____ on the issue has not changed.",
       "options": [
         "stance-mcq-01",
-        "stance-mcq-02",
-        "stance-mcq-03",
-        "stance-mcq-04",
-        "stance-mcq-05",
-        "stance-mcq-06"
+        "stance-mcq-17"
       ],
       "explanation": "本句的「stance」指「對某個問題所採取的明確立場、態度或觀點」。",
       "sentenceIndex": 1,
@@ -607,12 +595,8 @@ export default {
         "stance"
       ],
       "optionReasons": {
-        "stance-mcq-01": "本句指「對某個問題所採取的明確立場、態度或觀點」。",
-        "stance-mcq-02": "「對某事／某議題的立場」與本句語境不同。",
-        "stance-mcq-03": "「面對某事時所採取的態度／立場」與本句語境不同。",
-        "stance-mcq-04": "「明確表態／採取某種立場」與本句語境不同。",
-        "stance-mcq-05": "「選擇並採取某種立場或態度」與本句語境不同。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。"
+        "stance-mcq-01": "本句的「stance」指「對某個問題所採取的明確立場、態度或觀點」。",
+        "stance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-01"
     },
@@ -624,11 +608,7 @@ export default {
       "masked": "The school explained its ____ on the new policy.",
       "options": [
         "stance-mcq-01",
-        "stance-mcq-02",
-        "stance-mcq-03",
-        "stance-mcq-04",
-        "stance-mcq-05",
-        "stance-mcq-06"
+        "stance-mcq-17"
       ],
       "explanation": "本句的「stance」指「對某個問題所採取的明確立場、態度或觀點」。",
       "sentenceIndex": 2,
@@ -637,12 +617,8 @@ export default {
         "stance"
       ],
       "optionReasons": {
-        "stance-mcq-01": "本句指「對某個問題所採取的明確立場、態度或觀點」。",
-        "stance-mcq-02": "「對某事／某議題的立場」與本句語境不同。",
-        "stance-mcq-03": "「面對某事時所採取的態度／立場」與本句語境不同。",
-        "stance-mcq-04": "「明確表態／採取某種立場」與本句語境不同。",
-        "stance-mcq-05": "「選擇並採取某種立場或態度」與本句語境不同。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。"
+        "stance-mcq-01": "本句的「stance」指「對某個問題所採取的明確立場、態度或觀點」。",
+        "stance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-01"
     },
@@ -654,11 +630,7 @@ export default {
       "masked": "She has taken a firm ____ against bullying.",
       "options": [
         "stance-mcq-01",
-        "stance-mcq-02",
-        "stance-mcq-03",
-        "stance-mcq-04",
-        "stance-mcq-05",
-        "stance-mcq-06"
+        "stance-mcq-14"
       ],
       "explanation": "本句的「stance」指「對某個問題所採取的明確立場、態度或觀點」。",
       "sentenceIndex": 3,
@@ -667,12 +639,8 @@ export default {
         "stance"
       ],
       "optionReasons": {
-        "stance-mcq-01": "本句指「對某個問題所採取的明確立場、態度或觀點」。",
-        "stance-mcq-02": "「對某事／某議題的立場」與本句語境不同。",
-        "stance-mcq-03": "「面對某事時所採取的態度／立場」與本句語境不同。",
-        "stance-mcq-04": "「明確表態／採取某種立場」與本句語境不同。",
-        "stance-mcq-05": "「選擇並採取某種立場或態度」與本句語境不同。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。"
+        "stance-mcq-01": "本句的「stance」指「對某個問題所採取的明確立場、態度或觀點」。",
+        "stance-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-01"
     },
@@ -684,11 +652,7 @@ export default {
       "masked": "What is your ____ homework?",
       "options": [
         "stance-mcq-02",
-        "stance-mcq-01",
-        "stance-mcq-03",
-        "stance-mcq-04",
-        "stance-mcq-05",
-        "stance-mcq-06"
+        "stance-mcq-16"
       ],
       "explanation": "本句的「stance on」指「對某事／某議題的立場」。",
       "sentenceIndex": 4,
@@ -697,12 +661,8 @@ export default {
         "stance on"
       ],
       "optionReasons": {
-        "stance-mcq-02": "本句指「對某事／某議題的立場」。",
-        "stance-mcq-01": "「對某個問題所採取的明確立場、態度或觀點」與本句語境不同。",
-        "stance-mcq-03": "「面對某事時所採取的態度／立場」與本句語境不同。",
-        "stance-mcq-04": "「明確表態／採取某種立場」與本句語境不同。",
-        "stance-mcq-05": "「選擇並採取某種立場或態度」與本句語境不同。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。"
+        "stance-mcq-02": "本句的「stance on」指「對某事／某議題的立場」。",
+        "stance-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-02"
     },
@@ -714,11 +674,8 @@ export default {
       "masked": "His ____ education is well known.",
       "options": [
         "stance-mcq-02",
-        "stance-mcq-01",
-        "stance-mcq-03",
-        "stance-mcq-04",
-        "stance-mcq-05",
-        "stance-mcq-06"
+        "stance-mcq-18",
+        "stance-mcq-17"
       ],
       "explanation": "本句的「stance on」指「對某事／某議題的立場」。",
       "sentenceIndex": 5,
@@ -727,12 +684,9 @@ export default {
         "stance on"
       ],
       "optionReasons": {
-        "stance-mcq-02": "本句指「對某事／某議題的立場」。",
-        "stance-mcq-01": "「對某個問題所採取的明確立場、態度或觀點」與本句語境不同。",
-        "stance-mcq-03": "「面對某事時所採取的態度／立場」與本句語境不同。",
-        "stance-mcq-04": "「明確表態／採取某種立場」與本句語境不同。",
-        "stance-mcq-05": "「選擇並採取某種立場或態度」與本句語境不同。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。"
+        "stance-mcq-02": "本句的「stance on」指「對某事／某議題的立場」。",
+        "stance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-02"
     },
@@ -744,11 +698,7 @@ export default {
       "masked": "The organization changed its ____ technology.",
       "options": [
         "stance-mcq-03",
-        "stance-mcq-02",
-        "stance-mcq-04",
-        "stance-mcq-01",
-        "stance-mcq-05",
-        "stance-mcq-06"
+        "stance-mcq-17"
       ],
       "explanation": "本句的「stance towards」指「面對某事時所採取的態度／立場」。",
       "sentenceIndex": 6,
@@ -757,12 +707,8 @@ export default {
         "stance towards"
       ],
       "optionReasons": {
-        "stance-mcq-03": "本句指「面對某事時所採取的態度／立場」。",
-        "stance-mcq-02": "「對某事／某議題的立場」與本句語境不同。",
-        "stance-mcq-04": "「明確表態／採取某種立場」與本句語境不同。",
-        "stance-mcq-01": "「對某個問題所採取的明確立場、態度或觀點」與本句語境不同。",
-        "stance-mcq-05": "「選擇並採取某種立場或態度」與本句語境不同。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。"
+        "stance-mcq-03": "本句的「stance towards」指「面對某事時所採取的態度／立場」。",
+        "stance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-03"
     },
@@ -774,11 +720,7 @@ export default {
       "masked": "Her ____ the proposal became more positive.",
       "options": [
         "stance-mcq-03",
-        "stance-mcq-02",
-        "stance-mcq-04",
-        "stance-mcq-01",
-        "stance-mcq-05",
-        "stance-mcq-06"
+        "stance-mcq-17"
       ],
       "explanation": "本句的「stance toward」指「面對某事時所採取的態度／立場」。",
       "sentenceIndex": 7,
@@ -787,12 +729,8 @@ export default {
         "stance toward"
       ],
       "optionReasons": {
-        "stance-mcq-03": "本句指「面對某事時所採取的態度／立場」。",
-        "stance-mcq-02": "「對某事／某議題的立場」與本句語境不同。",
-        "stance-mcq-04": "「明確表態／採取某種立場」與本句語境不同。",
-        "stance-mcq-01": "「對某個問題所採取的明確立場、態度或觀點」與本句語境不同。",
-        "stance-mcq-05": "「選擇並採取某種立場或態度」與本句語境不同。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。"
+        "stance-mcq-03": "本句的「stance toward」指「面對某事時所採取的態度／立場」。",
+        "stance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-03"
     },
@@ -804,11 +742,7 @@ export default {
       "masked": "Teachers were asked to ____ on the issue.",
       "options": [
         "stance-mcq-04",
-        "stance-mcq-03",
-        "stance-mcq-05",
-        "stance-mcq-02",
-        "stance-mcq-06",
-        "stance-mcq-01"
+        "stance-mcq-17"
       ],
       "explanation": "本句的「take a stance」指「明確表態／採取某種立場」。",
       "sentenceIndex": 8,
@@ -817,12 +751,8 @@ export default {
         "take a stance"
       ],
       "optionReasons": {
-        "stance-mcq-04": "本句指「明確表態／採取某種立場」。",
-        "stance-mcq-03": "「面對某事時所採取的態度／立場」與本句語境不同。",
-        "stance-mcq-05": "「選擇並採取某種立場或態度」與本句語境不同。",
-        "stance-mcq-02": "「對某事／某議題的立場」與本句語境不同。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。",
-        "stance-mcq-01": "「對某個問題所採取的明確立場、態度或觀點」與本句語境不同。"
+        "stance-mcq-04": "本句的「take a stance」指「明確表態／採取某種立場」。",
+        "stance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-04"
     },
@@ -834,11 +764,7 @@ export default {
       "masked": "He refused to ____.",
       "options": [
         "stance-mcq-04",
-        "stance-mcq-03",
-        "stance-mcq-05",
-        "stance-mcq-02",
-        "stance-mcq-06",
-        "stance-mcq-01"
+        "stance-mcq-14"
       ],
       "explanation": "本句的「take a stance」指「明確表態／採取某種立場」。",
       "sentenceIndex": 9,
@@ -847,12 +773,8 @@ export default {
         "take a stance"
       ],
       "optionReasons": {
-        "stance-mcq-04": "本句指「明確表態／採取某種立場」。",
-        "stance-mcq-03": "「面對某事時所採取的態度／立場」與本句語境不同。",
-        "stance-mcq-05": "「選擇並採取某種立場或態度」與本句語境不同。",
-        "stance-mcq-02": "「對某事／某議題的立場」與本句語境不同。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。",
-        "stance-mcq-01": "「對某個問題所採取的明確立場、態度或觀點」與本句語境不同。"
+        "stance-mcq-04": "本句的「take a stance」指「明確表態／採取某種立場」。",
+        "stance-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-04"
     },
@@ -864,11 +786,7 @@ export default {
       "masked": "The committee ____.",
       "options": [
         "stance-mcq-05",
-        "stance-mcq-04",
-        "stance-mcq-06",
-        "stance-mcq-03",
-        "stance-mcq-07",
-        "stance-mcq-02"
+        "stance-mcq-14"
       ],
       "explanation": "本句的「adopted a cautious stance」指「選擇並採取某種立場或態度」。",
       "sentenceIndex": 10,
@@ -877,12 +795,8 @@ export default {
         "adopted a cautious stance"
       ],
       "optionReasons": {
-        "stance-mcq-05": "本句指「選擇並採取某種立場或態度」。",
-        "stance-mcq-04": "「明確表態／採取某種立場」與本句語境不同。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。",
-        "stance-mcq-03": "「面對某事時所採取的態度／立場」與本句語境不同。",
-        "stance-mcq-07": "「嚴格、不妥協的強硬立場」與本句語境不同。",
-        "stance-mcq-02": "「對某事／某議題的立場」與本句語境不同。"
+        "stance-mcq-05": "本句的「adopted a cautious stance」指「選擇並採取某種立場或態度」。",
+        "stance-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-05"
     },
@@ -894,11 +808,7 @@ export default {
       "masked": "The company ____.",
       "options": [
         "stance-mcq-05",
-        "stance-mcq-04",
-        "stance-mcq-06",
-        "stance-mcq-03",
-        "stance-mcq-07",
-        "stance-mcq-02"
+        "stance-mcq-17"
       ],
       "explanation": "本句的「adopted a tougher stance」指「選擇並採取某種立場或態度」。",
       "sentenceIndex": 11,
@@ -907,12 +817,8 @@ export default {
         "adopted a tougher stance"
       ],
       "optionReasons": {
-        "stance-mcq-05": "本句指「選擇並採取某種立場或態度」。",
-        "stance-mcq-04": "「明確表態／採取某種立場」與本句語境不同。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。",
-        "stance-mcq-03": "「面對某事時所採取的態度／立場」與本句語境不同。",
-        "stance-mcq-07": "「嚴格、不妥協的強硬立場」與本句語境不同。",
-        "stance-mcq-02": "「對某事／某議題的立場」與本句語境不同。"
+        "stance-mcq-05": "本句的「adopted a tougher stance」指「選擇並採取某種立場或態度」。",
+        "stance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-05"
     },
@@ -924,11 +830,8 @@ export default {
       "masked": "She maintained a ____ on the issue.",
       "options": [
         "stance-mcq-06",
-        "stance-mcq-05",
-        "stance-mcq-07",
-        "stance-mcq-04",
-        "stance-mcq-08",
-        "stance-mcq-03"
+        "stance-mcq-17",
+        "stance-mcq-18"
       ],
       "explanation": "本句的「firm stance」指「不輕易改變的堅定立場」。",
       "sentenceIndex": 12,
@@ -937,12 +840,9 @@ export default {
         "firm stance"
       ],
       "optionReasons": {
-        "stance-mcq-06": "本句指「不輕易改變的堅定立場」。",
-        "stance-mcq-05": "「選擇並採取某種立場或態度」與本句語境不同。",
-        "stance-mcq-07": "「嚴格、不妥協的強硬立場」與本句語境不同。",
-        "stance-mcq-04": "「明確表態／採取某種立場」與本句語境不同。",
-        "stance-mcq-08": "「小心、保守的審慎立場」與本句語境不同。",
-        "stance-mcq-03": "「面對某事時所採取的態度／立場」與本句語境不同。"
+        "stance-mcq-06": "本句的「firm stance」指「不輕易改變的堅定立場」。",
+        "stance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-06"
     },
@@ -954,11 +854,8 @@ export default {
       "masked": "The principal took a ____ against bullying.",
       "options": [
         "stance-mcq-06",
-        "stance-mcq-05",
-        "stance-mcq-07",
-        "stance-mcq-04",
-        "stance-mcq-08",
-        "stance-mcq-03"
+        "stance-mcq-18",
+        "stance-mcq-17"
       ],
       "explanation": "本句的「firm stance」指「不輕易改變的堅定立場」。",
       "sentenceIndex": 13,
@@ -967,12 +864,9 @@ export default {
         "firm stance"
       ],
       "optionReasons": {
-        "stance-mcq-06": "本句指「不輕易改變的堅定立場」。",
-        "stance-mcq-05": "「選擇並採取某種立場或態度」與本句語境不同。",
-        "stance-mcq-07": "「嚴格、不妥協的強硬立場」與本句語境不同。",
-        "stance-mcq-04": "「明確表態／採取某種立場」與本句語境不同。",
-        "stance-mcq-08": "「小心、保守的審慎立場」與本句語境不同。",
-        "stance-mcq-03": "「面對某事時所採取的態度／立場」與本句語境不同。"
+        "stance-mcq-06": "本句的「firm stance」指「不輕易改變的堅定立場」。",
+        "stance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-06"
     },
@@ -984,11 +878,8 @@ export default {
       "masked": "The organization took a ____ on misconduct.",
       "options": [
         "stance-mcq-07",
-        "stance-mcq-06",
-        "stance-mcq-08",
-        "stance-mcq-05",
-        "stance-mcq-09",
-        "stance-mcq-04"
+        "stance-mcq-19",
+        "stance-mcq-14"
       ],
       "explanation": "本句的「tough stance」指「嚴格、不妥協的強硬立場」。",
       "sentenceIndex": 14,
@@ -997,12 +888,9 @@ export default {
         "tough stance"
       ],
       "optionReasons": {
-        "stance-mcq-07": "本句指「嚴格、不妥協的強硬立場」。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。",
-        "stance-mcq-08": "「小心、保守的審慎立場」與本句語境不同。",
-        "stance-mcq-05": "「選擇並採取某種立場或態度」與本句語境不同。",
-        "stance-mcq-09": "「不偏向任何一方的中立立場」與本句語境不同。",
-        "stance-mcq-04": "「明確表態／採取某種立場」與本句語境不同。"
+        "stance-mcq-07": "本句的「tough stance」指「嚴格、不妥協的強硬立場」。",
+        "stance-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-07"
     },
@@ -1014,11 +902,7 @@ export default {
       "masked": "He softened his previously ____.",
       "options": [
         "stance-mcq-07",
-        "stance-mcq-06",
-        "stance-mcq-08",
-        "stance-mcq-05",
-        "stance-mcq-09",
-        "stance-mcq-04"
+        "stance-mcq-21"
       ],
       "explanation": "本句的「hard-line stance」指「嚴格、不妥協的強硬立場」。",
       "sentenceIndex": 15,
@@ -1027,12 +911,8 @@ export default {
         "hard-line stance"
       ],
       "optionReasons": {
-        "stance-mcq-07": "本句指「嚴格、不妥協的強硬立場」。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。",
-        "stance-mcq-08": "「小心、保守的審慎立場」與本句語境不同。",
-        "stance-mcq-05": "「選擇並採取某種立場或態度」與本句語境不同。",
-        "stance-mcq-09": "「不偏向任何一方的中立立場」與本句語境不同。",
-        "stance-mcq-04": "「明確表態／採取某種立場」與本句語境不同。"
+        "stance-mcq-07": "本句的「hard-line stance」指「嚴格、不妥協的強硬立場」。",
+        "stance-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-07"
     },
@@ -1044,11 +924,7 @@ export default {
       "masked": "The board maintained a ____.",
       "options": [
         "stance-mcq-08",
-        "stance-mcq-07",
-        "stance-mcq-09",
-        "stance-mcq-06",
-        "stance-mcq-10",
-        "stance-mcq-05"
+        "stance-mcq-16"
       ],
       "explanation": "本句的「cautious stance」指「小心、保守的審慎立場」。",
       "sentenceIndex": 16,
@@ -1057,12 +933,8 @@ export default {
         "cautious stance"
       ],
       "optionReasons": {
-        "stance-mcq-08": "本句指「小心、保守的審慎立場」。",
-        "stance-mcq-07": "「嚴格、不妥協的強硬立場」與本句語境不同。",
-        "stance-mcq-09": "「不偏向任何一方的中立立場」與本句語境不同。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。",
-        "stance-mcq-10": "「改變原本的立場」與本句語境不同。",
-        "stance-mcq-05": "「選擇並採取某種立場或態度」與本句語境不同。"
+        "stance-mcq-08": "本句的「cautious stance」指「小心、保守的審慎立場」。",
+        "stance-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-08"
     },
@@ -1074,11 +946,7 @@ export default {
       "masked": "Researchers have taken a ____ on the claim.",
       "options": [
         "stance-mcq-08",
-        "stance-mcq-07",
-        "stance-mcq-09",
-        "stance-mcq-06",
-        "stance-mcq-10",
-        "stance-mcq-05"
+        "stance-mcq-16"
       ],
       "explanation": "本句的「cautious stance」指「小心、保守的審慎立場」。",
       "sentenceIndex": 17,
@@ -1087,12 +955,8 @@ export default {
         "cautious stance"
       ],
       "optionReasons": {
-        "stance-mcq-08": "本句指「小心、保守的審慎立場」。",
-        "stance-mcq-07": "「嚴格、不妥協的強硬立場」與本句語境不同。",
-        "stance-mcq-09": "「不偏向任何一方的中立立場」與本句語境不同。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。",
-        "stance-mcq-10": "「改變原本的立場」與本句語境不同。",
-        "stance-mcq-05": "「選擇並採取某種立場或態度」與本句語境不同。"
+        "stance-mcq-08": "本句的「cautious stance」指「小心、保守的審慎立場」。",
+        "stance-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-08"
     },
@@ -1104,11 +968,7 @@ export default {
       "masked": "The moderator maintained a ____.",
       "options": [
         "stance-mcq-09",
-        "stance-mcq-08",
-        "stance-mcq-10",
-        "stance-mcq-07",
-        "stance-mcq-11",
-        "stance-mcq-06"
+        "stance-mcq-16"
       ],
       "explanation": "本句的「neutral stance」指「不偏向任何一方的中立立場」。",
       "sentenceIndex": 18,
@@ -1117,12 +977,8 @@ export default {
         "neutral stance"
       ],
       "optionReasons": {
-        "stance-mcq-09": "本句指「不偏向任何一方的中立立場」。",
-        "stance-mcq-08": "「小心、保守的審慎立場」與本句語境不同。",
-        "stance-mcq-10": "「改變原本的立場」與本句語境不同。",
-        "stance-mcq-07": "「嚴格、不妥協的強硬立場」與本句語境不同。",
-        "stance-mcq-11": "「使原本強硬的立場變得較溫和」與本句語境不同。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。"
+        "stance-mcq-09": "本句的「neutral stance」指「不偏向任何一方的中立立場」。",
+        "stance-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-09"
     },
@@ -1134,11 +990,8 @@ export default {
       "masked": "The organization tried to remain ____.",
       "options": [
         "stance-mcq-09",
-        "stance-mcq-08",
-        "stance-mcq-10",
-        "stance-mcq-07",
-        "stance-mcq-11",
-        "stance-mcq-06"
+        "stance-mcq-19",
+        "stance-mcq-14"
       ],
       "explanation": "本句的「neutral in its stance」指「不偏向任何一方的中立立場」。",
       "sentenceIndex": 19,
@@ -1147,12 +1000,9 @@ export default {
         "neutral in its stance"
       ],
       "optionReasons": {
-        "stance-mcq-09": "本句指「不偏向任何一方的中立立場」。",
-        "stance-mcq-08": "「小心、保守的審慎立場」與本句語境不同。",
-        "stance-mcq-10": "「改變原本的立場」與本句語境不同。",
-        "stance-mcq-07": "「嚴格、不妥協的強硬立場」與本句語境不同。",
-        "stance-mcq-11": "「使原本強硬的立場變得較溫和」與本句語境不同。",
-        "stance-mcq-06": "「不輕易改變的堅定立場」與本句語境不同。"
+        "stance-mcq-09": "本句的「neutral in its stance」指「不偏向任何一方的中立立場」。",
+        "stance-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-09"
     },
@@ -1164,11 +1014,8 @@ export default {
       "masked": "New evidence caused her to ____.",
       "options": [
         "stance-mcq-10",
-        "stance-mcq-09",
-        "stance-mcq-11",
-        "stance-mcq-08",
-        "stance-mcq-12",
-        "stance-mcq-07"
+        "stance-mcq-18",
+        "stance-mcq-17"
       ],
       "explanation": "本句的「change her stance」指「改變原本的立場」。",
       "sentenceIndex": 20,
@@ -1177,12 +1024,9 @@ export default {
         "change her stance"
       ],
       "optionReasons": {
-        "stance-mcq-10": "本句指「改變原本的立場」。",
-        "stance-mcq-09": "「不偏向任何一方的中立立場」與本句語境不同。",
-        "stance-mcq-11": "「使原本強硬的立場變得較溫和」與本句語境不同。",
-        "stance-mcq-08": "「小心、保守的審慎立場」與本句語境不同。",
-        "stance-mcq-12": "「令立場變得更加強硬、不妥協」與本句語境不同。",
-        "stance-mcq-07": "「嚴格、不妥協的強硬立場」與本句語境不同。"
+        "stance-mcq-10": "本句的「change her stance」指「改變原本的立場」。",
+        "stance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-10"
     },
@@ -1194,11 +1038,8 @@ export default {
       "masked": "He has gradually ____ on the issue.",
       "options": [
         "stance-mcq-10",
-        "stance-mcq-09",
-        "stance-mcq-11",
-        "stance-mcq-08",
-        "stance-mcq-12",
-        "stance-mcq-07"
+        "stance-mcq-18",
+        "stance-mcq-17"
       ],
       "explanation": "本句的「changed his stance」指「改變原本的立場」。",
       "sentenceIndex": 21,
@@ -1207,12 +1048,9 @@ export default {
         "changed his stance"
       ],
       "optionReasons": {
-        "stance-mcq-10": "本句指「改變原本的立場」。",
-        "stance-mcq-09": "「不偏向任何一方的中立立場」與本句語境不同。",
-        "stance-mcq-11": "「使原本強硬的立場變得較溫和」與本句語境不同。",
-        "stance-mcq-08": "「小心、保守的審慎立場」與本句語境不同。",
-        "stance-mcq-12": "「令立場變得更加強硬、不妥協」與本句語境不同。",
-        "stance-mcq-07": "「嚴格、不妥協的強硬立場」與本句語境不同。"
+        "stance-mcq-10": "本句的「changed his stance」指「改變原本的立場」。",
+        "stance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-10"
     },
@@ -1224,11 +1062,7 @@ export default {
       "masked": "The company later ____.",
       "options": [
         "stance-mcq-11",
-        "stance-mcq-10",
-        "stance-mcq-12",
-        "stance-mcq-09",
-        "stance-mcq-13",
-        "stance-mcq-08"
+        "stance-mcq-16"
       ],
       "explanation": "本句的「softened its stance」指「使原本強硬的立場變得較溫和」。",
       "sentenceIndex": 22,
@@ -1237,12 +1071,8 @@ export default {
         "softened its stance"
       ],
       "optionReasons": {
-        "stance-mcq-11": "本句指「使原本強硬的立場變得較溫和」。",
-        "stance-mcq-10": "「改變原本的立場」與本句語境不同。",
-        "stance-mcq-12": "「令立場變得更加強硬、不妥協」與本句語境不同。",
-        "stance-mcq-09": "「不偏向任何一方的中立立場」與本句語境不同。",
-        "stance-mcq-13": "「人站立時雙腳、身體等所採取的姿勢／站姿」與本句語境不同。",
-        "stance-mcq-08": "「小心、保守的審慎立場」與本句語境不同。"
+        "stance-mcq-11": "本句的「softened its stance」指「使原本強硬的立場變得較溫和」。",
+        "stance-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-11"
     },
@@ -1254,11 +1084,8 @@ export default {
       "masked": "He appears to be ____.",
       "options": [
         "stance-mcq-11",
-        "stance-mcq-10",
-        "stance-mcq-12",
-        "stance-mcq-09",
-        "stance-mcq-13",
-        "stance-mcq-08"
+        "stance-mcq-15",
+        "stance-mcq-14"
       ],
       "explanation": "本句的「softening his stance」指「使原本強硬的立場變得較溫和」。",
       "sentenceIndex": 23,
@@ -1267,12 +1094,9 @@ export default {
         "softening his stance"
       ],
       "optionReasons": {
-        "stance-mcq-11": "本句指「使原本強硬的立場變得較溫和」。",
-        "stance-mcq-10": "「改變原本的立場」與本句語境不同。",
-        "stance-mcq-12": "「令立場變得更加強硬、不妥協」與本句語境不同。",
-        "stance-mcq-09": "「不偏向任何一方的中立立場」與本句語境不同。",
-        "stance-mcq-13": "「人站立時雙腳、身體等所採取的姿勢／站姿」與本句語境不同。",
-        "stance-mcq-08": "「小心、保守的審慎立場」與本句語境不同。"
+        "stance-mcq-11": "本句的「softening his stance」指「使原本強硬的立場變得較溫和」。",
+        "stance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-11"
     },
@@ -1284,11 +1108,8 @@ export default {
       "masked": "The dispute caused both sides to ____.",
       "options": [
         "stance-mcq-12",
-        "stance-mcq-11",
-        "stance-mcq-13",
-        "stance-mcq-10",
-        "stance-mcq-14",
-        "stance-mcq-09"
+        "stance-mcq-18",
+        "stance-mcq-17"
       ],
       "explanation": "本句的「harden their stance」指「令立場變得更加強硬、不妥協」。",
       "sentenceIndex": 24,
@@ -1297,12 +1118,9 @@ export default {
         "harden their stance"
       ],
       "optionReasons": {
-        "stance-mcq-12": "本句指「令立場變得更加強硬、不妥協」。",
-        "stance-mcq-11": "「使原本強硬的立場變得較溫和」與本句語境不同。",
-        "stance-mcq-13": "「人站立時雙腳、身體等所採取的姿勢／站姿」與本句語境不同。",
-        "stance-mcq-10": "「改變原本的立場」與本句語境不同。",
-        "stance-mcq-14": "「雙腳距離較寬／較窄的站姿」與本句語境不同。",
-        "stance-mcq-09": "「不偏向任何一方的中立立場」與本句語境不同。"
+        "stance-mcq-12": "本句的「harden their stance」指「令立場變得更加強硬、不妥協」。",
+        "stance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-12"
     },
@@ -1314,11 +1132,8 @@ export default {
       "masked": "The group ____ after the incident.",
       "options": [
         "stance-mcq-12",
-        "stance-mcq-11",
-        "stance-mcq-13",
-        "stance-mcq-10",
-        "stance-mcq-14",
-        "stance-mcq-09"
+        "stance-mcq-17",
+        "stance-mcq-18"
       ],
       "explanation": "本句的「hardened its stance」指「令立場變得更加強硬、不妥協」。",
       "sentenceIndex": 25,
@@ -1327,12 +1142,9 @@ export default {
         "hardened its stance"
       ],
       "optionReasons": {
-        "stance-mcq-12": "本句指「令立場變得更加強硬、不妥協」。",
-        "stance-mcq-11": "「使原本強硬的立場變得較溫和」與本句語境不同。",
-        "stance-mcq-13": "「人站立時雙腳、身體等所採取的姿勢／站姿」與本句語境不同。",
-        "stance-mcq-10": "「改變原本的立場」與本句語境不同。",
-        "stance-mcq-14": "「雙腳距離較寬／較窄的站姿」與本句語境不同。",
-        "stance-mcq-09": "「不偏向任何一方的中立立場」與本句語境不同。"
+        "stance-mcq-12": "本句的「hardened its stance」指「令立場變得更加強硬、不妥協」。",
+        "stance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-12"
     },
@@ -1344,11 +1156,7 @@ export default {
       "masked": "He stood in a relaxed ____.",
       "options": [
         "stance-mcq-13",
-        "stance-mcq-12",
-        "stance-mcq-14",
-        "stance-mcq-11",
-        "stance-mcq-15",
-        "stance-mcq-10"
+        "stance-mcq-02"
       ],
       "explanation": "本句的「stance」指「人站立時雙腳、身體等所採取的姿勢／站姿」。",
       "sentenceIndex": 26,
@@ -1357,12 +1165,8 @@ export default {
         "stance"
       ],
       "optionReasons": {
-        "stance-mcq-13": "本句指「人站立時雙腳、身體等所採取的姿勢／站姿」。",
-        "stance-mcq-12": "「令立場變得更加強硬、不妥協」與本句語境不同。",
-        "stance-mcq-14": "「雙腳距離較寬／較窄的站姿」與本句語境不同。",
-        "stance-mcq-11": "「使原本強硬的立場變得較溫和」與本句語境不同。",
-        "stance-mcq-15": "「為擊球、防守等動作採取的準備姿勢」與本句語境不同。",
-        "stance-mcq-10": "「改變原本的立場」與本句語境不同。"
+        "stance-mcq-13": "本句的「stance」指「人站立時雙腳、身體等所採取的姿勢／站姿」。",
+        "stance-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-13"
     },
@@ -1374,11 +1178,7 @@ export default {
       "masked": "Her wide ____ gave her better balance.",
       "options": [
         "stance-mcq-13",
-        "stance-mcq-12",
-        "stance-mcq-14",
-        "stance-mcq-11",
-        "stance-mcq-15",
-        "stance-mcq-10"
+        "stance-mcq-09"
       ],
       "explanation": "本句的「stance」指「人站立時雙腳、身體等所採取的姿勢／站姿」。",
       "sentenceIndex": 27,
@@ -1387,12 +1187,8 @@ export default {
         "stance"
       ],
       "optionReasons": {
-        "stance-mcq-13": "本句指「人站立時雙腳、身體等所採取的姿勢／站姿」。",
-        "stance-mcq-12": "「令立場變得更加強硬、不妥協」與本句語境不同。",
-        "stance-mcq-14": "「雙腳距離較寬／較窄的站姿」與本句語境不同。",
-        "stance-mcq-11": "「使原本強硬的立場變得較溫和」與本句語境不同。",
-        "stance-mcq-15": "「為擊球、防守等動作採取的準備姿勢」與本句語境不同。",
-        "stance-mcq-10": "「改變原本的立場」與本句語境不同。"
+        "stance-mcq-13": "本句的「stance」指「人站立時雙腳、身體等所採取的姿勢／站姿」。",
+        "stance-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-13"
     },
@@ -1404,11 +1200,8 @@ export default {
       "masked": "Use a slightly wider ____ for stability.",
       "options": [
         "stance-mcq-14",
-        "stance-mcq-13",
-        "stance-mcq-15",
         "stance-mcq-12",
-        "stance-mcq-16",
-        "stance-mcq-11"
+        "stance-mcq-18"
       ],
       "explanation": "本句的「stance」指「雙腳距離較寬／較窄的站姿」。",
       "sentenceIndex": 28,
@@ -1417,12 +1210,9 @@ export default {
         "stance"
       ],
       "optionReasons": {
-        "stance-mcq-14": "本句指「雙腳距離較寬／較窄的站姿」。",
-        "stance-mcq-13": "「人站立時雙腳、身體等所採取的姿勢／站姿」與本句語境不同。",
-        "stance-mcq-15": "「為擊球、防守等動作採取的準備姿勢」與本句語境不同。",
-        "stance-mcq-12": "「令立場變得更加強硬、不妥協」與本句語境不同。",
-        "stance-mcq-16": "「擊球前採取的站姿／打擊姿勢」與本句語境不同。",
-        "stance-mcq-11": "「使原本強硬的立場變得較溫和」與本句語境不同。"
+        "stance-mcq-14": "本句的「stance」指「雙腳距離較寬／較窄的站姿」。",
+        "stance-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-14"
     },
@@ -1434,11 +1224,8 @@ export default {
       "masked": "His ____ was too narrow.",
       "options": [
         "stance-mcq-14",
-        "stance-mcq-13",
-        "stance-mcq-15",
-        "stance-mcq-12",
-        "stance-mcq-16",
-        "stance-mcq-11"
+        "stance-mcq-02",
+        "stance-mcq-18"
       ],
       "explanation": "本句的「stance」指「雙腳距離較寬／較窄的站姿」。",
       "sentenceIndex": 29,
@@ -1447,12 +1234,9 @@ export default {
         "stance"
       ],
       "optionReasons": {
-        "stance-mcq-14": "本句指「雙腳距離較寬／較窄的站姿」。",
-        "stance-mcq-13": "「人站立時雙腳、身體等所採取的姿勢／站姿」與本句語境不同。",
-        "stance-mcq-15": "「為擊球、防守等動作採取的準備姿勢」與本句語境不同。",
-        "stance-mcq-12": "「令立場變得更加強硬、不妥協」與本句語境不同。",
-        "stance-mcq-16": "「擊球前採取的站姿／打擊姿勢」與本句語境不同。",
-        "stance-mcq-11": "「使原本強硬的立場變得較溫和」與本句語境不同。"
+        "stance-mcq-14": "本句的「stance」指「雙腳距離較寬／較窄的站姿」。",
+        "stance-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-14"
     },
@@ -1464,11 +1248,8 @@ export default {
       "masked": "The coach corrected her batting ____.",
       "options": [
         "stance-mcq-15",
-        "stance-mcq-14",
-        "stance-mcq-16",
-        "stance-mcq-13",
-        "stance-mcq-17",
-        "stance-mcq-12"
+        "stance-mcq-07",
+        "stance-mcq-14"
       ],
       "explanation": "本句的「stance」指「為擊球、防守等動作採取的準備姿勢」。",
       "sentenceIndex": 30,
@@ -1477,12 +1258,9 @@ export default {
         "stance"
       ],
       "optionReasons": {
-        "stance-mcq-15": "本句指「為擊球、防守等動作採取的準備姿勢」。",
-        "stance-mcq-14": "「雙腳距離較寬／較窄的站姿」與本句語境不同。",
-        "stance-mcq-16": "「擊球前採取的站姿／打擊姿勢」與本句語境不同。",
-        "stance-mcq-13": "「人站立時雙腳、身體等所採取的姿勢／站姿」與本句語境不同。",
-        "stance-mcq-17": "「高爾夫擊球前的身體與雙腳站姿」與本句語境不同。",
-        "stance-mcq-12": "「令立場變得更加強硬、不妥協」與本句語境不同。"
+        "stance-mcq-15": "本句的「stance」指「為擊球、防守等動作採取的準備姿勢」。",
+        "stance-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-15"
     },
@@ -1494,11 +1272,8 @@ export default {
       "masked": "A stable ____ is important in golf.",
       "options": [
         "stance-mcq-15",
-        "stance-mcq-14",
-        "stance-mcq-16",
-        "stance-mcq-13",
-        "stance-mcq-17",
-        "stance-mcq-12"
+        "stance-mcq-07",
+        "stance-mcq-14"
       ],
       "explanation": "本句的「stance」指「為擊球、防守等動作採取的準備姿勢」。",
       "sentenceIndex": 31,
@@ -1507,12 +1282,9 @@ export default {
         "stance"
       ],
       "optionReasons": {
-        "stance-mcq-15": "本句指「為擊球、防守等動作採取的準備姿勢」。",
-        "stance-mcq-14": "「雙腳距離較寬／較窄的站姿」與本句語境不同。",
-        "stance-mcq-16": "「擊球前採取的站姿／打擊姿勢」與本句語境不同。",
-        "stance-mcq-13": "「人站立時雙腳、身體等所採取的姿勢／站姿」與本句語境不同。",
-        "stance-mcq-17": "「高爾夫擊球前的身體與雙腳站姿」與本句語境不同。",
-        "stance-mcq-12": "「令立場變得更加強硬、不妥協」與本句語境不同。"
+        "stance-mcq-15": "本句的「stance」指「為擊球、防守等動作採取的準備姿勢」。",
+        "stance-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-15"
     },
@@ -1524,11 +1296,7 @@ export default {
       "masked": "He changed his ____.",
       "options": [
         "stance-mcq-16",
-        "stance-mcq-15",
-        "stance-mcq-17",
-        "stance-mcq-14",
-        "stance-mcq-18",
-        "stance-mcq-13"
+        "stance-mcq-20"
       ],
       "explanation": "本句的「batting stance」指「擊球前採取的站姿／打擊姿勢」。",
       "sentenceIndex": 32,
@@ -1537,12 +1305,8 @@ export default {
         "batting stance"
       ],
       "optionReasons": {
-        "stance-mcq-16": "本句指「擊球前採取的站姿／打擊姿勢」。",
-        "stance-mcq-15": "「為擊球、防守等動作採取的準備姿勢」與本句語境不同。",
-        "stance-mcq-17": "「高爾夫擊球前的身體與雙腳站姿」與本句語境不同。",
-        "stance-mcq-14": "「雙腳距離較寬／較窄的站姿」與本句語境不同。",
-        "stance-mcq-18": "「準備攻擊／防守時採取的格鬥架勢」與本句語境不同。",
-        "stance-mcq-13": "「人站立時雙腳、身體等所採取的姿勢／站姿」與本句語境不同。"
+        "stance-mcq-16": "本句的「batting stance」指「擊球前採取的站姿／打擊姿勢」。",
+        "stance-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-16"
     },
@@ -1554,11 +1318,7 @@ export default {
       "masked": "Her ____ looked more balanced.",
       "options": [
         "stance-mcq-16",
-        "stance-mcq-15",
-        "stance-mcq-17",
-        "stance-mcq-14",
-        "stance-mcq-18",
-        "stance-mcq-13"
+        "stance-mcq-09"
       ],
       "explanation": "本句的「batting stance」指「擊球前採取的站姿／打擊姿勢」。",
       "sentenceIndex": 33,
@@ -1567,12 +1327,8 @@ export default {
         "batting stance"
       ],
       "optionReasons": {
-        "stance-mcq-16": "本句指「擊球前採取的站姿／打擊姿勢」。",
-        "stance-mcq-15": "「為擊球、防守等動作採取的準備姿勢」與本句語境不同。",
-        "stance-mcq-17": "「高爾夫擊球前的身體與雙腳站姿」與本句語境不同。",
-        "stance-mcq-14": "「雙腳距離較寬／較窄的站姿」與本句語境不同。",
-        "stance-mcq-18": "「準備攻擊／防守時採取的格鬥架勢」與本句語境不同。",
-        "stance-mcq-13": "「人站立時雙腳、身體等所採取的姿勢／站姿」與本句語境不同。"
+        "stance-mcq-16": "本句的「batting stance」指「擊球前採取的站姿／打擊姿勢」。",
+        "stance-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-16"
     },
@@ -1584,11 +1340,8 @@ export default {
       "masked": "Check your ____ before swinging.",
       "options": [
         "stance-mcq-17",
-        "stance-mcq-16",
-        "stance-mcq-18",
-        "stance-mcq-15",
-        "stance-mcq-19",
-        "stance-mcq-14"
+        "stance-mcq-20",
+        "stance-mcq-18"
       ],
       "explanation": "本句的「stance」指「高爾夫擊球前的身體與雙腳站姿」。",
       "sentenceIndex": 34,
@@ -1597,12 +1350,9 @@ export default {
         "stance"
       ],
       "optionReasons": {
-        "stance-mcq-17": "本句指「高爾夫擊球前的身體與雙腳站姿」。",
-        "stance-mcq-16": "「擊球前採取的站姿／打擊姿勢」與本句語境不同。",
-        "stance-mcq-18": "「準備攻擊／防守時採取的格鬥架勢」與本句語境不同。",
-        "stance-mcq-15": "「為擊球、防守等動作採取的準備姿勢」與本句語境不同。",
-        "stance-mcq-19": "「為防守而採取的身體姿勢」與本句語境不同。",
-        "stance-mcq-14": "「雙腳距離較寬／較窄的站姿」與本句語境不同。"
+        "stance-mcq-17": "本句的「stance」指「高爾夫擊球前的身體與雙腳站姿」。",
+        "stance-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-17"
     },
@@ -1614,11 +1364,7 @@ export default {
       "masked": "His golf ____ was too wide.",
       "options": [
         "stance-mcq-17",
-        "stance-mcq-16",
-        "stance-mcq-18",
-        "stance-mcq-15",
-        "stance-mcq-19",
-        "stance-mcq-14"
+        "stance-mcq-04"
       ],
       "explanation": "本句的「stance」指「高爾夫擊球前的身體與雙腳站姿」。",
       "sentenceIndex": 35,
@@ -1627,12 +1373,8 @@ export default {
         "stance"
       ],
       "optionReasons": {
-        "stance-mcq-17": "本句指「高爾夫擊球前的身體與雙腳站姿」。",
-        "stance-mcq-16": "「擊球前採取的站姿／打擊姿勢」與本句語境不同。",
-        "stance-mcq-18": "「準備攻擊／防守時採取的格鬥架勢」與本句語境不同。",
-        "stance-mcq-15": "「為擊球、防守等動作採取的準備姿勢」與本句語境不同。",
-        "stance-mcq-19": "「為防守而採取的身體姿勢」與本句語境不同。",
-        "stance-mcq-14": "「雙腳距離較寬／較窄的站姿」與本句語境不同。"
+        "stance-mcq-17": "本句的「stance」指「高爾夫擊球前的身體與雙腳站姿」。",
+        "stance-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-17"
     },
@@ -1644,11 +1386,8 @@ export default {
       "masked": "The boxer moved into a ____.",
       "options": [
         "stance-mcq-18",
-        "stance-mcq-17",
-        "stance-mcq-19",
-        "stance-mcq-16",
-        "stance-mcq-20",
-        "stance-mcq-15"
+        "stance-mcq-06",
+        "stance-mcq-14"
       ],
       "explanation": "本句的「fighting stance」指「準備攻擊／防守時採取的格鬥架勢」。",
       "sentenceIndex": 36,
@@ -1657,12 +1396,9 @@ export default {
         "fighting stance"
       ],
       "optionReasons": {
-        "stance-mcq-18": "本句指「準備攻擊／防守時採取的格鬥架勢」。",
-        "stance-mcq-17": "「高爾夫擊球前的身體與雙腳站姿」與本句語境不同。",
-        "stance-mcq-19": "「為防守而採取的身體姿勢」與本句語境不同。",
-        "stance-mcq-16": "「擊球前採取的站姿／打擊姿勢」與本句語境不同。",
-        "stance-mcq-20": "「防禦、抗拒或自我保護的態度／立場」與本句語境不同。",
-        "stance-mcq-15": "「為擊球、防守等動作採取的準備姿勢」與本句語境不同。"
+        "stance-mcq-18": "本句的「fighting stance」指「準備攻擊／防守時採取的格鬥架勢」。",
+        "stance-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-18"
     },
@@ -1674,11 +1410,8 @@ export default {
       "masked": "She adopted a defensive ____.",
       "options": [
         "stance-mcq-18",
-        "stance-mcq-17",
-        "stance-mcq-19",
-        "stance-mcq-16",
-        "stance-mcq-20",
-        "stance-mcq-15"
+        "stance-mcq-25",
+        "stance-mcq-14"
       ],
       "explanation": "本句的「stance」指「準備攻擊／防守時採取的格鬥架勢」。",
       "sentenceIndex": 37,
@@ -1687,12 +1420,9 @@ export default {
         "stance"
       ],
       "optionReasons": {
-        "stance-mcq-18": "本句指「準備攻擊／防守時採取的格鬥架勢」。",
-        "stance-mcq-17": "「高爾夫擊球前的身體與雙腳站姿」與本句語境不同。",
-        "stance-mcq-19": "「為防守而採取的身體姿勢」與本句語境不同。",
-        "stance-mcq-16": "「擊球前採取的站姿／打擊姿勢」與本句語境不同。",
-        "stance-mcq-20": "「防禦、抗拒或自我保護的態度／立場」與本句語境不同。",
-        "stance-mcq-15": "「為擊球、防守等動作採取的準備姿勢」與本句語境不同。"
+        "stance-mcq-18": "本句的「stance」指「準備攻擊／防守時採取的格鬥架勢」。",
+        "stance-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-18"
     },
@@ -1704,11 +1434,8 @@ export default {
       "masked": "The player dropped into a ____.",
       "options": [
         "stance-mcq-19",
-        "stance-mcq-18",
-        "stance-mcq-20",
-        "stance-mcq-17",
-        "stance-mcq-21",
-        "stance-mcq-16"
+        "stance-mcq-02",
+        "stance-mcq-14"
       ],
       "explanation": "本句的「defensive stance」指「為防守而採取的身體姿勢」。",
       "sentenceIndex": 38,
@@ -1717,12 +1444,9 @@ export default {
         "defensive stance"
       ],
       "optionReasons": {
-        "stance-mcq-19": "本句指「為防守而採取的身體姿勢」。",
-        "stance-mcq-18": "「準備攻擊／防守時採取的格鬥架勢」與本句語境不同。",
-        "stance-mcq-20": "「防禦、抗拒或自我保護的態度／立場」與本句語境不同。",
-        "stance-mcq-17": "「高爾夫擊球前的身體與雙腳站姿」與本句語境不同。",
-        "stance-mcq-21": "「運動中身體相對目標呈開放／封閉角度的站姿」與本句語境不同。",
-        "stance-mcq-16": "「擊球前採取的站姿／打擊姿勢」與本句語境不同。"
+        "stance-mcq-19": "本句的「defensive stance」指「為防守而採取的身體姿勢」。",
+        "stance-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-19"
     },
@@ -1734,11 +1458,8 @@ export default {
       "masked": "Keep your knees bent in a ____.",
       "options": [
         "stance-mcq-19",
-        "stance-mcq-18",
-        "stance-mcq-20",
-        "stance-mcq-17",
-        "stance-mcq-21",
-        "stance-mcq-16"
+        "stance-mcq-06",
+        "stance-mcq-14"
       ],
       "explanation": "本句的「defensive stance」指「為防守而採取的身體姿勢」。",
       "sentenceIndex": 39,
@@ -1747,12 +1468,9 @@ export default {
         "defensive stance"
       ],
       "optionReasons": {
-        "stance-mcq-19": "本句指「為防守而採取的身體姿勢」。",
-        "stance-mcq-18": "「準備攻擊／防守時採取的格鬥架勢」與本句語境不同。",
-        "stance-mcq-20": "「防禦、抗拒或自我保護的態度／立場」與本句語境不同。",
-        "stance-mcq-17": "「高爾夫擊球前的身體與雙腳站姿」與本句語境不同。",
-        "stance-mcq-21": "「運動中身體相對目標呈開放／封閉角度的站姿」與本句語境不同。",
-        "stance-mcq-16": "「擊球前採取的站姿／打擊姿勢」與本句語境不同。"
+        "stance-mcq-19": "本句的「defensive stance」指「為防守而採取的身體姿勢」。",
+        "stance-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-19"
     },
@@ -1764,11 +1482,8 @@ export default {
       "masked": "The company adopted a ____ after the criticism.",
       "options": [
         "stance-mcq-20",
-        "stance-mcq-19",
-        "stance-mcq-21",
-        "stance-mcq-18",
-        "stance-mcq-22",
-        "stance-mcq-17"
+        "stance-mcq-14",
+        "stance-mcq-19"
       ],
       "explanation": "本句的「defensive stance」指「防禦、抗拒或自我保護的態度／立場」。",
       "sentenceIndex": 40,
@@ -1777,12 +1492,9 @@ export default {
         "defensive stance"
       ],
       "optionReasons": {
-        "stance-mcq-20": "本句指「防禦、抗拒或自我保護的態度／立場」。",
-        "stance-mcq-19": "「為防守而採取的身體姿勢」與本句語境不同。",
-        "stance-mcq-21": "「運動中身體相對目標呈開放／封閉角度的站姿」與本句語境不同。",
-        "stance-mcq-18": "「準備攻擊／防守時採取的格鬥架勢」與本句語境不同。",
-        "stance-mcq-22": "「車輛相對地面的高度、輪位等形成的車身姿態」與本句語境不同。",
-        "stance-mcq-17": "「高爾夫擊球前的身體與雙腳站姿」與本句語境不同。"
+        "stance-mcq-20": "本句的「defensive stance」指「防禦、抗拒或自我保護的態度／立場」。",
+        "stance-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-20"
     },
@@ -1794,11 +1506,8 @@ export default {
       "masked": "He immediately took a ____.",
       "options": [
         "stance-mcq-20",
-        "stance-mcq-19",
-        "stance-mcq-21",
-        "stance-mcq-18",
-        "stance-mcq-22",
-        "stance-mcq-17"
+        "stance-mcq-17",
+        "stance-mcq-18"
       ],
       "explanation": "本句的「defensive stance」指「防禦、抗拒或自我保護的態度／立場」。",
       "sentenceIndex": 41,
@@ -1807,12 +1516,9 @@ export default {
         "defensive stance"
       ],
       "optionReasons": {
-        "stance-mcq-20": "本句指「防禦、抗拒或自我保護的態度／立場」。",
-        "stance-mcq-19": "「為防守而採取的身體姿勢」與本句語境不同。",
-        "stance-mcq-21": "「運動中身體相對目標呈開放／封閉角度的站姿」與本句語境不同。",
-        "stance-mcq-18": "「準備攻擊／防守時採取的格鬥架勢」與本句語境不同。",
-        "stance-mcq-22": "「車輛相對地面的高度、輪位等形成的車身姿態」與本句語境不同。",
-        "stance-mcq-17": "「高爾夫擊球前的身體與雙腳站姿」與本句語境不同。"
+        "stance-mcq-20": "本句的「defensive stance」指「防禦、抗拒或自我保護的態度／立場」。",
+        "stance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-20"
     },
@@ -1824,11 +1530,7 @@ export default {
       "masked": "She uses an ____ when hitting the ball.",
       "options": [
         "stance-mcq-21",
-        "stance-mcq-20",
-        "stance-mcq-22",
-        "stance-mcq-19",
-        "stance-mcq-23",
-        "stance-mcq-18"
+        "stance-mcq-06"
       ],
       "explanation": "本句的「open stance」指「運動中身體相對目標呈開放／封閉角度的站姿」。",
       "sentenceIndex": 42,
@@ -1837,12 +1539,8 @@ export default {
         "open stance"
       ],
       "optionReasons": {
-        "stance-mcq-21": "本句指「運動中身體相對目標呈開放／封閉角度的站姿」。",
-        "stance-mcq-20": "「防禦、抗拒或自我保護的態度／立場」與本句語境不同。",
-        "stance-mcq-22": "「車輛相對地面的高度、輪位等形成的車身姿態」與本句語境不同。",
-        "stance-mcq-19": "「為防守而採取的身體姿勢」與本句語境不同。",
-        "stance-mcq-23": "「作者、研究者等分析問題時所採取的觀點／取向」與本句語境不同。",
-        "stance-mcq-18": "「準備攻擊／防守時採取的格鬥架勢」與本句語境不同。"
+        "stance-mcq-21": "本句的「open stance」指「運動中身體相對目標呈開放／封閉角度的站姿」。",
+        "stance-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-21"
     },
@@ -1854,11 +1552,7 @@ export default {
       "masked": "A ____ changes the body angle.",
       "options": [
         "stance-mcq-21",
-        "stance-mcq-20",
-        "stance-mcq-22",
-        "stance-mcq-19",
-        "stance-mcq-23",
-        "stance-mcq-18"
+        "stance-mcq-25"
       ],
       "explanation": "本句的「closed stance」指「運動中身體相對目標呈開放／封閉角度的站姿」。",
       "sentenceIndex": 43,
@@ -1867,12 +1561,8 @@ export default {
         "closed stance"
       ],
       "optionReasons": {
-        "stance-mcq-21": "本句指「運動中身體相對目標呈開放／封閉角度的站姿」。",
-        "stance-mcq-20": "「防禦、抗拒或自我保護的態度／立場」與本句語境不同。",
-        "stance-mcq-22": "「車輛相對地面的高度、輪位等形成的車身姿態」與本句語境不同。",
-        "stance-mcq-19": "「為防守而採取的身體姿勢」與本句語境不同。",
-        "stance-mcq-23": "「作者、研究者等分析問題時所採取的觀點／取向」與本句語境不同。",
-        "stance-mcq-18": "「準備攻擊／防守時採取的格鬥架勢」與本句語境不同。"
+        "stance-mcq-21": "本句的「closed stance」指「運動中身體相對目標呈開放／封閉角度的站姿」。",
+        "stance-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-21"
     },
@@ -1884,11 +1574,8 @@ export default {
       "masked": "She ____ despite criticism.",
       "options": [
         "stance-mcq-25",
-        "stance-mcq-24",
-        "stance-mcq-26",
-        "stance-mcq-23",
-        "stance-mcq-22",
-        "stance-mcq-21"
+        "stance-mcq-17",
+        "stance-mcq-18"
       ],
       "explanation": "本句的「maintained her stance」指「堅持／維持原有立場」。",
       "sentenceIndex": 54,
@@ -1897,12 +1584,9 @@ export default {
         "maintained her stance"
       ],
       "optionReasons": {
-        "stance-mcq-25": "本句指「堅持／維持原有立場」。",
-        "stance-mcq-24": "「說話者／作者透過語言表達的態度、判斷或立場」與本句語境不同。",
-        "stance-mcq-26": "「澄清、明確表達自己的立場」與本句語境不同。",
-        "stance-mcq-23": "「作者、研究者等分析問題時所採取的觀點／取向」與本句語境不同。",
-        "stance-mcq-22": "「車輛相對地面的高度、輪位等形成的車身姿態」與本句語境不同。",
-        "stance-mcq-21": "「運動中身體相對目標呈開放／封閉角度的站姿」與本句語境不同。"
+        "stance-mcq-25": "本句的「maintained her stance」指「堅持／維持原有立場」。",
+        "stance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-25"
     },
@@ -1914,11 +1598,8 @@ export default {
       "masked": "Both sides ____.",
       "options": [
         "stance-mcq-25",
-        "stance-mcq-24",
-        "stance-mcq-26",
-        "stance-mcq-23",
-        "stance-mcq-22",
-        "stance-mcq-21"
+        "stance-mcq-19",
+        "stance-mcq-14"
       ],
       "explanation": "本句的「maintained their stance」指「堅持／維持原有立場」。",
       "sentenceIndex": 55,
@@ -1927,12 +1608,9 @@ export default {
         "maintained their stance"
       ],
       "optionReasons": {
-        "stance-mcq-25": "本句指「堅持／維持原有立場」。",
-        "stance-mcq-24": "「說話者／作者透過語言表達的態度、判斷或立場」與本句語境不同。",
-        "stance-mcq-26": "「澄清、明確表達自己的立場」與本句語境不同。",
-        "stance-mcq-23": "「作者、研究者等分析問題時所採取的觀點／取向」與本句語境不同。",
-        "stance-mcq-22": "「車輛相對地面的高度、輪位等形成的車身姿態」與本句語境不同。",
-        "stance-mcq-21": "「運動中身體相對目標呈開放／封閉角度的站姿」與本句語境不同。"
+        "stance-mcq-25": "本句的「maintained their stance」指「堅持／維持原有立場」。",
+        "stance-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-25"
     },
@@ -1944,11 +1622,7 @@ export default {
       "masked": "He issued a statement to ____.",
       "options": [
         "stance-mcq-26",
-        "stance-mcq-25",
-        "stance-mcq-24",
-        "stance-mcq-23",
-        "stance-mcq-22",
-        "stance-mcq-21"
+        "stance-mcq-16"
       ],
       "explanation": "本句的「clarify his stance」指「澄清、明確表達自己的立場」。",
       "sentenceIndex": 56,
@@ -1957,12 +1631,8 @@ export default {
         "clarify his stance"
       ],
       "optionReasons": {
-        "stance-mcq-26": "本句指「澄清、明確表達自己的立場」。",
-        "stance-mcq-25": "「堅持／維持原有立場」與本句語境不同。",
-        "stance-mcq-24": "「說話者／作者透過語言表達的態度、判斷或立場」與本句語境不同。",
-        "stance-mcq-23": "「作者、研究者等分析問題時所採取的觀點／取向」與本句語境不同。",
-        "stance-mcq-22": "「車輛相對地面的高度、輪位等形成的車身姿態」與本句語境不同。",
-        "stance-mcq-21": "「運動中身體相對目標呈開放／封閉角度的站姿」與本句語境不同。"
+        "stance-mcq-26": "本句的「clarify his stance」指「澄清、明確表達自己的立場」。",
+        "stance-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-26"
     },
@@ -1974,11 +1644,8 @@ export default {
       "masked": "The opening paragraph clearly ____.",
       "options": [
         "stance-mcq-26",
-        "stance-mcq-25",
-        "stance-mcq-24",
-        "stance-mcq-23",
-        "stance-mcq-22",
-        "stance-mcq-21"
+        "stance-mcq-15",
+        "stance-mcq-14"
       ],
       "explanation": "本句的「clarifies the writer’s stance」指「澄清、明確表達自己的立場」。",
       "sentenceIndex": 57,
@@ -1987,12 +1654,9 @@ export default {
         "clarifies the writer’s stance"
       ],
       "optionReasons": {
-        "stance-mcq-26": "本句指「澄清、明確表達自己的立場」。",
-        "stance-mcq-25": "「堅持／維持原有立場」與本句語境不同。",
-        "stance-mcq-24": "「說話者／作者透過語言表達的態度、判斷或立場」與本句語境不同。",
-        "stance-mcq-23": "「作者、研究者等分析問題時所採取的觀點／取向」與本句語境不同。",
-        "stance-mcq-22": "「車輛相對地面的高度、輪位等形成的車身姿態」與本句語境不同。",
-        "stance-mcq-21": "「運動中身體相對目標呈開放／封閉角度的站姿」與本句語境不同。"
+        "stance-mcq-26": "本句的「clarifies the writer’s stance」指「澄清、明確表達自己的立場」。",
+        "stance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stance-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stance-mcq-26"
     }
@@ -2004,5 +1668,7 @@ export default {
     "sha256": "449715633378b3f8818ec119521981c8a2b29cd8e0503adb3557f8fee97df351",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

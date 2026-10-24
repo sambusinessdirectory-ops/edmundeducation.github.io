@@ -364,7 +364,7 @@ export default {
     },
     {
       "id": "treat-mcq-17",
-      "title": "表示這次由自己付款請客",
+      "title": "這次由自己付款請客",
       "form": "my treat",
       "en": "my treat",
       "zh": "表示這次由自己付款請客",
@@ -504,11 +504,9 @@ export default {
       "masked": "He never ____ a dry subject.",
       "options": [
         "treat-mcq-01",
-        "treat-mcq-02",
-        "treat-mcq-03",
-        "treat-mcq-04",
-        "treat-mcq-05",
-        "treat-mcq-06"
+        "treat-mcq-19",
+        "treat-mcq-17",
+        "treat-mcq-02"
       ],
       "explanation": "本句的「treated history as」指「把 A 視為某種身分、類別或性質，並按照那種理解來看待／處理」。",
       "sentenceIndex": 0,
@@ -517,12 +515,10 @@ export default {
         "treated history as"
       ],
       "optionReasons": {
-        "treat-mcq-01": "本句指「把 A 視為某種身分、類別或性質，並按照那種理解來看待／處理」。",
-        "treat-mcq-02": "「以某種態度或行為方式對待某人」是「treat someone」的用法，與本句語境不同。",
-        "treat-mcq-03": "「按照某種身分、關係或標準來對待某人」是「treat someone as/like...」的用法，與本句語境不同。",
-        "treat-mcq-04": "「採取醫療方法改善、控制疾病或傷患」是「treat illness/injury」的用法，與本句語境不同。",
-        "treat-mcq-05": "「透過醫療措施減輕／控制健康問題，不一定等於根治」是「treat symptom/condition」的用法，與本句語境不同。",
-        "treat-mcq-06": "「為改善疾病、傷患或症狀而採取的醫療方法／照護」是「treatment — medical」的用法，與本句語境不同。"
+        "treat-mcq-01": "本句的「treated history as」指「把 A 視為某種身分、類別或性質，並按照那種理解來看待／處理」。",
+        "treat-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-01"
     },
@@ -534,11 +530,9 @@ export default {
       "masked": "The teacher ____ an opportunity to think.",
       "options": [
         "treat-mcq-01",
-        "treat-mcq-02",
-        "treat-mcq-03",
-        "treat-mcq-04",
         "treat-mcq-05",
-        "treat-mcq-06"
+        "treat-mcq-17",
+        "treat-mcq-15"
       ],
       "explanation": "本句的「treated every question as」指「把 A 視為某種身分、類別或性質，並按照那種理解來看待／處理」。",
       "sentenceIndex": 1,
@@ -547,12 +541,10 @@ export default {
         "treated every question as"
       ],
       "optionReasons": {
-        "treat-mcq-01": "本句指「把 A 視為某種身分、類別或性質，並按照那種理解來看待／處理」。",
-        "treat-mcq-02": "「以某種態度或行為方式對待某人」是「treat someone」的用法，與本句語境不同。",
-        "treat-mcq-03": "「按照某種身分、關係或標準來對待某人」是「treat someone as/like...」的用法，與本句語境不同。",
-        "treat-mcq-04": "「採取醫療方法改善、控制疾病或傷患」是「treat illness/injury」的用法，與本句語境不同。",
-        "treat-mcq-05": "「透過醫療措施減輕／控制健康問題，不一定等於根治」是「treat symptom/condition」的用法，與本句語境不同。",
-        "treat-mcq-06": "「為改善疾病、傷患或症狀而採取的醫療方法／照護」是「treatment — medical」的用法，與本句語境不同。"
+        "treat-mcq-01": "本句的「treated every question as」指「把 A 視為某種身分、類別或性質，並按照那種理解來看待／處理」。",
+        "treat-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-01"
     },
@@ -564,11 +556,9 @@ export default {
       "masked": "We should ____.",
       "options": [
         "treat-mcq-01",
-        "treat-mcq-02",
-        "treat-mcq-03",
-        "treat-mcq-04",
-        "treat-mcq-05",
-        "treat-mcq-06"
+        "treat-mcq-19",
+        "treat-mcq-17",
+        "treat-mcq-02"
       ],
       "explanation": "本句的「treat this information as confidential」指「把 A 視為某種身分、類別或性質，並按照那種理解來看待／處理」。",
       "sentenceIndex": 2,
@@ -577,12 +567,10 @@ export default {
         "treat this information as confidential"
       ],
       "optionReasons": {
-        "treat-mcq-01": "本句指「把 A 視為某種身分、類別或性質，並按照那種理解來看待／處理」。",
-        "treat-mcq-02": "「以某種態度或行為方式對待某人」是「treat someone」的用法，與本句語境不同。",
-        "treat-mcq-03": "「按照某種身分、關係或標準來對待某人」是「treat someone as/like...」的用法，與本句語境不同。",
-        "treat-mcq-04": "「採取醫療方法改善、控制疾病或傷患」是「treat illness/injury」的用法，與本句語境不同。",
-        "treat-mcq-05": "「透過醫療措施減輕／控制健康問題，不一定等於根治」是「treat symptom/condition」的用法，與本句語境不同。",
-        "treat-mcq-06": "「為改善疾病、傷患或症狀而採取的醫療方法／照護」是「treatment — medical」的用法，與本句語境不同。"
+        "treat-mcq-01": "本句的「treat this information as confidential」指「把 A 視為某種身分、類別或性質，並按照那種理解來看待／處理」。",
+        "treat-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-01"
     },
@@ -594,11 +582,9 @@ export default {
       "masked": "He always ____.",
       "options": [
         "treat-mcq-02",
-        "treat-mcq-01",
-        "treat-mcq-03",
-        "treat-mcq-04",
-        "treat-mcq-05",
-        "treat-mcq-06"
+        "treat-mcq-08",
+        "treat-mcq-17",
+        "treat-mcq-12"
       ],
       "explanation": "本句的「treated his students with respect」指「以某種態度或行為方式對待某人」。",
       "sentenceIndex": 3,
@@ -607,12 +593,10 @@ export default {
         "treated his students with respect"
       ],
       "optionReasons": {
-        "treat-mcq-02": "本句指「以某種態度或行為方式對待某人」。",
-        "treat-mcq-01": "「把 A 視為某種身分、類別或性質，並按照那種理解來看待／處理」是「treat A as B」的用法，與本句語境不同。",
-        "treat-mcq-03": "「按照某種身分、關係或標準來對待某人」是「treat someone as/like...」的用法，與本句語境不同。",
-        "treat-mcq-04": "「採取醫療方法改善、控制疾病或傷患」是「treat illness/injury」的用法，與本句語境不同。",
-        "treat-mcq-05": "「透過醫療措施減輕／控制健康問題，不一定等於根治」是「treat symptom/condition」的用法，與本句語境不同。",
-        "treat-mcq-06": "「為改善疾病、傷患或症狀而採取的醫療方法／照護」是「treatment — medical」的用法，與本句語境不同。"
+        "treat-mcq-02": "本句的「treated his students with respect」指「以某種態度或行為方式對待某人」。",
+        "treat-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-02"
     },
@@ -624,11 +608,9 @@ export default {
       "masked": "You should ____.",
       "options": [
         "treat-mcq-02",
-        "treat-mcq-01",
-        "treat-mcq-03",
         "treat-mcq-04",
-        "treat-mcq-05",
-        "treat-mcq-06"
+        "treat-mcq-17",
+        "treat-mcq-10"
       ],
       "explanation": "本句的「treat people fairly」指「以某種態度或行為方式對待某人」。",
       "sentenceIndex": 4,
@@ -637,12 +619,10 @@ export default {
         "treat people fairly"
       ],
       "optionReasons": {
-        "treat-mcq-02": "本句指「以某種態度或行為方式對待某人」。",
-        "treat-mcq-01": "「把 A 視為某種身分、類別或性質，並按照那種理解來看待／處理」是「treat A as B」的用法，與本句語境不同。",
-        "treat-mcq-03": "「按照某種身分、關係或標準來對待某人」是「treat someone as/like...」的用法，與本句語境不同。",
-        "treat-mcq-04": "「採取醫療方法改善、控制疾病或傷患」是「treat illness/injury」的用法，與本句語境不同。",
-        "treat-mcq-05": "「透過醫療措施減輕／控制健康問題，不一定等於根治」是「treat symptom/condition」的用法，與本句語境不同。",
-        "treat-mcq-06": "「為改善疾病、傷患或症狀而採取的醫療方法／照護」是「treatment — medical」的用法，與本句語境不同。"
+        "treat-mcq-02": "本句的「treat people fairly」指「以某種態度或行為方式對待某人」。",
+        "treat-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-02"
     },
@@ -654,11 +634,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "treat-mcq-03",
-        "treat-mcq-02",
-        "treat-mcq-04",
-        "treat-mcq-01",
-        "treat-mcq-05",
-        "treat-mcq-06"
+        "treat-mcq-10",
+        "treat-mcq-18",
+        "treat-mcq-17"
       ],
       "explanation": "本句的「treats her students like adults」指「按照某種身分、關係或標準來對待某人」。",
       "sentenceIndex": 5,
@@ -667,12 +645,10 @@ export default {
         "treats her students like adults"
       ],
       "optionReasons": {
-        "treat-mcq-03": "本句指「按照某種身分、關係或標準來對待某人」。",
-        "treat-mcq-02": "「以某種態度或行為方式對待某人」是「treat someone」的用法，與本句語境不同。",
-        "treat-mcq-04": "「採取醫療方法改善、控制疾病或傷患」是「treat illness/injury」的用法，與本句語境不同。",
-        "treat-mcq-01": "「把 A 視為某種身分、類別或性質，並按照那種理解來看待／處理」是「treat A as B」的用法，與本句語境不同。",
-        "treat-mcq-05": "「透過醫療措施減輕／控制健康問題，不一定等於根治」是「treat symptom/condition」的用法，與本句語境不同。",
-        "treat-mcq-06": "「為改善疾病、傷患或症狀而採取的醫療方法／照護」是「treatment — medical」的用法，與本句語境不同。"
+        "treat-mcq-03": "本句的「treats her students like adults」指「按照某種身分、關係或標準來對待某人」。",
+        "treat-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-03"
     },
@@ -684,11 +660,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "treat-mcq-03",
-        "treat-mcq-02",
         "treat-mcq-04",
-        "treat-mcq-01",
-        "treat-mcq-05",
-        "treat-mcq-06"
+        "treat-mcq-16",
+        "treat-mcq-17"
       ],
       "explanation": "本句的「treated him as an equal」指「按照某種身分、關係或標準來對待某人」。",
       "sentenceIndex": 6,
@@ -697,12 +671,10 @@ export default {
         "treated him as an equal"
       ],
       "optionReasons": {
-        "treat-mcq-03": "本句指「按照某種身分、關係或標準來對待某人」。",
-        "treat-mcq-02": "「以某種態度或行為方式對待某人」是「treat someone」的用法，與本句語境不同。",
-        "treat-mcq-04": "「採取醫療方法改善、控制疾病或傷患」是「treat illness/injury」的用法，與本句語境不同。",
-        "treat-mcq-01": "「把 A 視為某種身分、類別或性質，並按照那種理解來看待／處理」是「treat A as B」的用法，與本句語境不同。",
-        "treat-mcq-05": "「透過醫療措施減輕／控制健康問題，不一定等於根治」是「treat symptom/condition」的用法，與本句語境不同。",
-        "treat-mcq-06": "「為改善疾病、傷患或症狀而採取的醫療方法／照護」是「treatment — medical」的用法，與本句語境不同。"
+        "treat-mcq-03": "本句的「treated him as an equal」指「按照某種身分、關係或標準來對待某人」。",
+        "treat-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-03"
     },
@@ -714,11 +686,9 @@ export default {
       "masked": "Doctors ____ the infection with antibiotics.",
       "options": [
         "treat-mcq-04",
-        "treat-mcq-03",
-        "treat-mcq-05",
-        "treat-mcq-02",
-        "treat-mcq-06",
-        "treat-mcq-01"
+        "treat-mcq-10",
+        "treat-mcq-14",
+        "treat-mcq-22"
       ],
       "explanation": "本句的「treated」指「採取醫療方法改善、控制疾病或傷患」。",
       "sentenceIndex": 7,
@@ -727,12 +697,10 @@ export default {
         "treated"
       ],
       "optionReasons": {
-        "treat-mcq-04": "本句指「採取醫療方法改善、控制疾病或傷患」。",
-        "treat-mcq-03": "「按照某種身分、關係或標準來對待某人」是「treat someone as/like...」的用法，與本句語境不同。",
-        "treat-mcq-05": "「透過醫療措施減輕／控制健康問題，不一定等於根治」是「treat symptom/condition」的用法，與本句語境不同。",
-        "treat-mcq-02": "「以某種態度或行為方式對待某人」是「treat someone」的用法，與本句語境不同。",
-        "treat-mcq-06": "「為改善疾病、傷患或症狀而採取的醫療方法／照護」是「treatment — medical」的用法，與本句語境不同。",
-        "treat-mcq-01": "「把 A 視為某種身分、類別或性質，並按照那種理解來看待／處理」是「treat A as B」的用法，與本句語境不同。"
+        "treat-mcq-04": "本句的「treated」指「採取醫療方法改善、控制疾病或傷患」。",
+        "treat-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-04"
     },
@@ -744,11 +712,9 @@ export default {
       "masked": "She was ____ for a knee injury.",
       "options": [
         "treat-mcq-04",
-        "treat-mcq-03",
-        "treat-mcq-05",
-        "treat-mcq-02",
-        "treat-mcq-06",
-        "treat-mcq-01"
+        "treat-mcq-14",
+        "treat-mcq-10",
+        "treat-mcq-11"
       ],
       "explanation": "本句的「treated」指「採取醫療方法改善、控制疾病或傷患」。",
       "sentenceIndex": 8,
@@ -757,12 +723,10 @@ export default {
         "treated"
       ],
       "optionReasons": {
-        "treat-mcq-04": "本句指「採取醫療方法改善、控制疾病或傷患」。",
-        "treat-mcq-03": "「按照某種身分、關係或標準來對待某人」是「treat someone as/like...」的用法，與本句語境不同。",
-        "treat-mcq-05": "「透過醫療措施減輕／控制健康問題，不一定等於根治」是「treat symptom/condition」的用法，與本句語境不同。",
-        "treat-mcq-02": "「以某種態度或行為方式對待某人」是「treat someone」的用法，與本句語境不同。",
-        "treat-mcq-06": "「為改善疾病、傷患或症狀而採取的醫療方法／照護」是「treatment — medical」的用法，與本句語境不同。",
-        "treat-mcq-01": "「把 A 視為某種身分、類別或性質，並按照那種理解來看待／處理」是「treat A as B」的用法，與本句語境不同。"
+        "treat-mcq-04": "本句的「treated」指「採取醫療方法改善、控制疾病或傷患」。",
+        "treat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-04"
     },
@@ -774,11 +738,9 @@ export default {
       "masked": "This medicine is used to ____.",
       "options": [
         "treat-mcq-05",
-        "treat-mcq-04",
-        "treat-mcq-06",
-        "treat-mcq-03",
         "treat-mcq-07",
-        "treat-mcq-02"
+        "treat-mcq-16",
+        "treat-mcq-17"
       ],
       "explanation": "本句的「treat headaches」指「透過醫療措施減輕／控制健康問題，不一定等於根治」。",
       "sentenceIndex": 9,
@@ -787,12 +749,10 @@ export default {
         "treat headaches"
       ],
       "optionReasons": {
-        "treat-mcq-05": "本句指「透過醫療措施減輕／控制健康問題，不一定等於根治」。",
-        "treat-mcq-04": "「採取醫療方法改善、控制疾病或傷患」是「treat illness/injury」的用法，與本句語境不同。",
-        "treat-mcq-06": "「為改善疾病、傷患或症狀而採取的醫療方法／照護」是「treatment — medical」的用法，與本句語境不同。",
-        "treat-mcq-03": "「按照某種身分、關係或標準來對待某人」是「treat someone as/like...」的用法，與本句語境不同。",
-        "treat-mcq-07": "「某人受到別人怎樣對待的方式／待遇」是「treatment — behaviour」的用法，與本句語境不同。",
-        "treat-mcq-02": "「以某種態度或行為方式對待某人」是「treat someone」的用法，與本句語境不同。"
+        "treat-mcq-05": "本句的「treat headaches」指「透過醫療措施減輕／控制健康問題，不一定等於根治」。",
+        "treat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-05"
     },
@@ -804,11 +764,9 @@ export default {
       "masked": "The condition can be ____ successfully.",
       "options": [
         "treat-mcq-05",
-        "treat-mcq-04",
-        "treat-mcq-06",
+        "treat-mcq-15",
         "treat-mcq-03",
-        "treat-mcq-07",
-        "treat-mcq-02"
+        "treat-mcq-22"
       ],
       "explanation": "本句的「treated」指「透過醫療措施減輕／控制健康問題，不一定等於根治」。",
       "sentenceIndex": 10,
@@ -817,12 +775,10 @@ export default {
         "treated"
       ],
       "optionReasons": {
-        "treat-mcq-05": "本句指「透過醫療措施減輕／控制健康問題，不一定等於根治」。",
-        "treat-mcq-04": "「採取醫療方法改善、控制疾病或傷患」是「treat illness/injury」的用法，與本句語境不同。",
-        "treat-mcq-06": "「為改善疾病、傷患或症狀而採取的醫療方法／照護」是「treatment — medical」的用法，與本句語境不同。",
-        "treat-mcq-03": "「按照某種身分、關係或標準來對待某人」是「treat someone as/like...」的用法，與本句語境不同。",
-        "treat-mcq-07": "「某人受到別人怎樣對待的方式／待遇」是「treatment — behaviour」的用法，與本句語境不同。",
-        "treat-mcq-02": "「以某種態度或行為方式對待某人」是「treat someone」的用法，與本句語境不同。"
+        "treat-mcq-05": "本句的「treated」指「透過醫療措施減輕／控制健康問題，不一定等於根治」。",
+        "treat-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-05"
     },
@@ -834,11 +790,9 @@ export default {
       "masked": "The patient responded well to the ____.",
       "options": [
         "treat-mcq-06",
-        "treat-mcq-05",
-        "treat-mcq-07",
-        "treat-mcq-04",
-        "treat-mcq-08",
-        "treat-mcq-03"
+        "treat-mcq-12",
+        "treat-mcq-02",
+        "treat-mcq-09"
       ],
       "explanation": "本句的「treatment」指「為改善疾病、傷患或症狀而採取的醫療方法／照護」。",
       "sentenceIndex": 11,
@@ -847,12 +801,10 @@ export default {
         "treatment"
       ],
       "optionReasons": {
-        "treat-mcq-06": "本句指「為改善疾病、傷患或症狀而採取的醫療方法／照護」。",
-        "treat-mcq-05": "「透過醫療措施減輕／控制健康問題，不一定等於根治」是「treat symptom/condition」的用法，與本句語境不同。",
-        "treat-mcq-07": "「某人受到別人怎樣對待的方式／待遇」是「treatment — behaviour」的用法，與本句語境不同。",
-        "treat-mcq-04": "「採取醫療方法改善、控制疾病或傷患」是「treat illness/injury」的用法，與本句語境不同。",
-        "treat-mcq-08": "「使用物理、化學等方法改變或保護材料」是「treat material」的用法，與本句語境不同。",
-        "treat-mcq-03": "「按照某種身分、關係或標準來對待某人」是「treat someone as/like...」的用法，與本句語境不同。"
+        "treat-mcq-06": "本句的「treatment」指「為改善疾病、傷患或症狀而採取的醫療方法／照護」。",
+        "treat-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-06"
     },
@@ -864,11 +816,9 @@ export default {
       "masked": "Several different ____ are available.",
       "options": [
         "treat-mcq-06",
-        "treat-mcq-05",
         "treat-mcq-07",
-        "treat-mcq-04",
-        "treat-mcq-08",
-        "treat-mcq-03"
+        "treat-mcq-12",
+        "treat-mcq-09"
       ],
       "explanation": "本句的「treatments」指「為改善疾病、傷患或症狀而採取的醫療方法／照護」。",
       "sentenceIndex": 12,
@@ -877,12 +827,10 @@ export default {
         "treatments"
       ],
       "optionReasons": {
-        "treat-mcq-06": "本句指「為改善疾病、傷患或症狀而採取的醫療方法／照護」。",
-        "treat-mcq-05": "「透過醫療措施減輕／控制健康問題，不一定等於根治」是「treat symptom/condition」的用法，與本句語境不同。",
-        "treat-mcq-07": "「某人受到別人怎樣對待的方式／待遇」是「treatment — behaviour」的用法，與本句語境不同。",
-        "treat-mcq-04": "「採取醫療方法改善、控制疾病或傷患」是「treat illness/injury」的用法，與本句語境不同。",
-        "treat-mcq-08": "「使用物理、化學等方法改變或保護材料」是「treat material」的用法，與本句語境不同。",
-        "treat-mcq-03": "「按照某種身分、關係或標準來對待某人」是「treat someone as/like...」的用法，與本句語境不同。"
+        "treat-mcq-06": "本句的「treatments」指「為改善疾病、傷患或症狀而採取的醫療方法／照護」。",
+        "treat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-06"
     },
@@ -894,11 +842,9 @@ export default {
       "masked": "The workers complained about unfair ____.",
       "options": [
         "treat-mcq-07",
+        "treat-mcq-10",
         "treat-mcq-06",
-        "treat-mcq-08",
-        "treat-mcq-05",
-        "treat-mcq-09",
-        "treat-mcq-04"
+        "treat-mcq-09"
       ],
       "explanation": "本句的「treatment」指「某人受到別人怎樣對待的方式／待遇」。",
       "sentenceIndex": 13,
@@ -907,12 +853,10 @@ export default {
         "treatment"
       ],
       "optionReasons": {
-        "treat-mcq-07": "本句指「某人受到別人怎樣對待的方式／待遇」。",
-        "treat-mcq-06": "「為改善疾病、傷患或症狀而採取的醫療方法／照護」是「treatment — medical」的用法，與本句語境不同。",
-        "treat-mcq-08": "「使用物理、化學等方法改變或保護材料」是「treat material」的用法，與本句語境不同。",
-        "treat-mcq-05": "「透過醫療措施減輕／控制健康問題，不一定等於根治」是「treat symptom/condition」的用法，與本句語境不同。",
-        "treat-mcq-09": "「去除污染物或不需要成分，使水／廢物達到安全標準」是「treat water/waste」的用法，與本句語境不同。",
-        "treat-mcq-04": "「採取醫療方法改善、控制疾病或傷患」是「treat illness/injury」的用法，與本句語境不同。"
+        "treat-mcq-07": "本句的「treatment」指「某人受到別人怎樣對待的方式／待遇」。",
+        "treat-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-07"
     },
@@ -924,11 +868,9 @@ export default {
       "masked": "Everyone deserves equal ____.",
       "options": [
         "treat-mcq-07",
-        "treat-mcq-06",
-        "treat-mcq-08",
-        "treat-mcq-05",
+        "treat-mcq-18",
         "treat-mcq-09",
-        "treat-mcq-04"
+        "treat-mcq-17"
       ],
       "explanation": "本句的「treatment」指「某人受到別人怎樣對待的方式／待遇」。",
       "sentenceIndex": 14,
@@ -937,12 +879,10 @@ export default {
         "treatment"
       ],
       "optionReasons": {
-        "treat-mcq-07": "本句指「某人受到別人怎樣對待的方式／待遇」。",
-        "treat-mcq-06": "「為改善疾病、傷患或症狀而採取的醫療方法／照護」是「treatment — medical」的用法，與本句語境不同。",
-        "treat-mcq-08": "「使用物理、化學等方法改變或保護材料」是「treat material」的用法，與本句語境不同。",
-        "treat-mcq-05": "「透過醫療措施減輕／控制健康問題，不一定等於根治」是「treat symptom/condition」的用法，與本句語境不同。",
-        "treat-mcq-09": "「去除污染物或不需要成分，使水／廢物達到安全標準」是「treat water/waste」的用法，與本句語境不同。",
-        "treat-mcq-04": "「採取醫療方法改善、控制疾病或傷患」是「treat illness/injury」的用法，與本句語境不同。"
+        "treat-mcq-07": "本句的「treatment」指「某人受到別人怎樣對待的方式／待遇」。",
+        "treat-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-07"
     },
@@ -954,11 +894,9 @@ export default {
       "masked": "The wood is ____ to protect it from water.",
       "options": [
         "treat-mcq-08",
-        "treat-mcq-07",
-        "treat-mcq-09",
-        "treat-mcq-06",
-        "treat-mcq-10",
-        "treat-mcq-05"
+        "treat-mcq-14",
+        "treat-mcq-03",
+        "treat-mcq-22"
       ],
       "explanation": "本句的「treated」指「使用物理、化學等方法改變或保護材料」。",
       "sentenceIndex": 15,
@@ -967,12 +905,10 @@ export default {
         "treated"
       ],
       "optionReasons": {
-        "treat-mcq-08": "本句指「使用物理、化學等方法改變或保護材料」。",
-        "treat-mcq-07": "「某人受到別人怎樣對待的方式／待遇」是「treatment — behaviour」的用法，與本句語境不同。",
-        "treat-mcq-09": "「去除污染物或不需要成分，使水／廢物達到安全標準」是「treat water/waste」的用法，與本句語境不同。",
-        "treat-mcq-06": "「為改善疾病、傷患或症狀而採取的醫療方法／照護」是「treatment — medical」的用法，與本句語境不同。",
-        "treat-mcq-10": "「對材料施加的物理／化學處理工序」是「treatment — material/process」的用法，與本句語境不同。",
-        "treat-mcq-05": "「透過醫療措施減輕／控制健康問題，不一定等於根治」是「treat symptom/condition」的用法，與本句語境不同。"
+        "treat-mcq-08": "本句的「treated」指「使用物理、化學等方法改變或保護材料」。",
+        "treat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-08"
     },
@@ -984,11 +920,9 @@ export default {
       "masked": "The fabric has been chemically ____.",
       "options": [
         "treat-mcq-08",
-        "treat-mcq-07",
-        "treat-mcq-09",
-        "treat-mcq-06",
-        "treat-mcq-10",
-        "treat-mcq-05"
+        "treat-mcq-21",
+        "treat-mcq-15",
+        "treat-mcq-09"
       ],
       "explanation": "本句的「treated」指「使用物理、化學等方法改變或保護材料」。",
       "sentenceIndex": 16,
@@ -997,12 +931,10 @@ export default {
         "treated"
       ],
       "optionReasons": {
-        "treat-mcq-08": "本句指「使用物理、化學等方法改變或保護材料」。",
-        "treat-mcq-07": "「某人受到別人怎樣對待的方式／待遇」是「treatment — behaviour」的用法，與本句語境不同。",
-        "treat-mcq-09": "「去除污染物或不需要成分，使水／廢物達到安全標準」是「treat water/waste」的用法，與本句語境不同。",
-        "treat-mcq-06": "「為改善疾病、傷患或症狀而採取的醫療方法／照護」是「treatment — medical」的用法，與本句語境不同。",
-        "treat-mcq-10": "「對材料施加的物理／化學處理工序」是「treatment — material/process」的用法，與本句語境不同。",
-        "treat-mcq-05": "「透過醫療措施減輕／控制健康問題，不一定等於根治」是「treat symptom/condition」的用法，與本句語境不同。"
+        "treat-mcq-08": "本句的「treated」指「使用物理、化學等方法改變或保護材料」。",
+        "treat-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-08"
     },
@@ -1014,11 +946,9 @@ export default {
       "masked": "The plant ____ before releasing it.",
       "options": [
         "treat-mcq-09",
-        "treat-mcq-08",
-        "treat-mcq-10",
-        "treat-mcq-07",
-        "treat-mcq-11",
-        "treat-mcq-06"
+        "treat-mcq-02",
+        "treat-mcq-12",
+        "treat-mcq-04"
       ],
       "explanation": "本句的「treats wastewater」指「去除污染物或不需要成分，使水／廢物達到安全標準」。",
       "sentenceIndex": 17,
@@ -1027,12 +957,10 @@ export default {
         "treats wastewater"
       ],
       "optionReasons": {
-        "treat-mcq-09": "本句指「去除污染物或不需要成分，使水／廢物達到安全標準」。",
-        "treat-mcq-08": "「使用物理、化學等方法改變或保護材料」是「treat material」的用法，與本句語境不同。",
-        "treat-mcq-10": "「對材料施加的物理／化學處理工序」是「treatment — material/process」的用法，與本句語境不同。",
-        "treat-mcq-07": "「某人受到別人怎樣對待的方式／待遇」是「treatment — behaviour」的用法，與本句語境不同。",
-        "treat-mcq-11": "「在書籍、文章、課堂等中以某種方式分析或論述題目」是「treat a subject」的用法，與本句語境不同。",
-        "treat-mcq-06": "「為改善疾病、傷患或症狀而採取的醫療方法／照護」是「treatment — medical」的用法，與本句語境不同。"
+        "treat-mcq-09": "本句的「treats wastewater」指「去除污染物或不需要成分，使水／廢物達到安全標準」。",
+        "treat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-09"
     },
@@ -1044,11 +972,9 @@ export default {
       "masked": "Drinking water must be properly ____.",
       "options": [
         "treat-mcq-09",
-        "treat-mcq-08",
-        "treat-mcq-10",
-        "treat-mcq-07",
-        "treat-mcq-11",
-        "treat-mcq-06"
+        "treat-mcq-15",
+        "treat-mcq-12",
+        "treat-mcq-22"
       ],
       "explanation": "本句的「treated」指「去除污染物或不需要成分，使水／廢物達到安全標準」。",
       "sentenceIndex": 18,
@@ -1057,12 +983,10 @@ export default {
         "treated"
       ],
       "optionReasons": {
-        "treat-mcq-09": "本句指「去除污染物或不需要成分，使水／廢物達到安全標準」。",
-        "treat-mcq-08": "「使用物理、化學等方法改變或保護材料」是「treat material」的用法，與本句語境不同。",
-        "treat-mcq-10": "「對材料施加的物理／化學處理工序」是「treatment — material/process」的用法，與本句語境不同。",
-        "treat-mcq-07": "「某人受到別人怎樣對待的方式／待遇」是「treatment — behaviour」的用法，與本句語境不同。",
-        "treat-mcq-11": "「在書籍、文章、課堂等中以某種方式分析或論述題目」是「treat a subject」的用法，與本句語境不同。",
-        "treat-mcq-06": "「為改善疾病、傷患或症狀而採取的醫療方法／照護」是「treatment — medical」的用法，與本句語境不同。"
+        "treat-mcq-09": "本句的「treated」指「去除污染物或不需要成分，使水／廢物達到安全標準」。",
+        "treat-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-09"
     },
@@ -1074,11 +998,9 @@ export default {
       "masked": "The wood needs a protective ____.",
       "options": [
         "treat-mcq-10",
-        "treat-mcq-09",
-        "treat-mcq-11",
-        "treat-mcq-08",
-        "treat-mcq-12",
-        "treat-mcq-07"
+        "treat-mcq-06",
+        "treat-mcq-02",
+        "treat-mcq-09"
       ],
       "explanation": "本句的「treatment」指「對材料施加的物理／化學處理工序」。",
       "sentenceIndex": 19,
@@ -1087,12 +1009,10 @@ export default {
         "treatment"
       ],
       "optionReasons": {
-        "treat-mcq-10": "本句指「對材料施加的物理／化學處理工序」。",
-        "treat-mcq-09": "「去除污染物或不需要成分，使水／廢物達到安全標準」是「treat water/waste」的用法，與本句語境不同。",
-        "treat-mcq-11": "「在書籍、文章、課堂等中以某種方式分析或論述題目」是「treat a subject」的用法，與本句語境不同。",
-        "treat-mcq-08": "「使用物理、化學等方法改變或保護材料」是「treat material」的用法，與本句語境不同。",
-        "treat-mcq-12": "「作品／文章呈現和處理某個題材的方式」是「treatment of a subject」的用法，與本句語境不同。",
-        "treat-mcq-07": "「某人受到別人怎樣對待的方式／待遇」是「treatment — behaviour」的用法，與本句語境不同。"
+        "treat-mcq-10": "本句的「treatment」指「對材料施加的物理／化學處理工序」。",
+        "treat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-10"
     },
@@ -1104,11 +1024,9 @@ export default {
       "masked": "Heat ____ can strengthen some metals.",
       "options": [
         "treat-mcq-10",
-        "treat-mcq-09",
         "treat-mcq-11",
-        "treat-mcq-08",
-        "treat-mcq-12",
-        "treat-mcq-07"
+        "treat-mcq-19",
+        "treat-mcq-09"
       ],
       "explanation": "本句的「treatment」指「對材料施加的物理／化學處理工序」。",
       "sentenceIndex": 20,
@@ -1117,12 +1035,10 @@ export default {
         "treatment"
       ],
       "optionReasons": {
-        "treat-mcq-10": "本句指「對材料施加的物理／化學處理工序」。",
-        "treat-mcq-09": "「去除污染物或不需要成分，使水／廢物達到安全標準」是「treat water/waste」的用法，與本句語境不同。",
-        "treat-mcq-11": "「在書籍、文章、課堂等中以某種方式分析或論述題目」是「treat a subject」的用法，與本句語境不同。",
-        "treat-mcq-08": "「使用物理、化學等方法改變或保護材料」是「treat material」的用法，與本句語境不同。",
-        "treat-mcq-12": "「作品／文章呈現和處理某個題材的方式」是「treatment of a subject」的用法，與本句語境不同。",
-        "treat-mcq-07": "「某人受到別人怎樣對待的方式／待遇」是「treatment — behaviour」的用法，與本句語境不同。"
+        "treat-mcq-10": "本句的「treatment」指「對材料施加的物理／化學處理工序」。",
+        "treat-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-10"
     },
@@ -1134,11 +1050,9 @@ export default {
       "masked": "The book ____ the subject in great detail.",
       "options": [
         "treat-mcq-11",
-        "treat-mcq-10",
-        "treat-mcq-12",
-        "treat-mcq-09",
-        "treat-mcq-13",
-        "treat-mcq-08"
+        "treat-mcq-20",
+        "treat-mcq-17",
+        "treat-mcq-07"
       ],
       "explanation": "本句的「treats」指「在書籍、文章、課堂等中以某種方式分析或論述題目」。",
       "sentenceIndex": 21,
@@ -1147,12 +1061,10 @@ export default {
         "treats"
       ],
       "optionReasons": {
-        "treat-mcq-11": "本句指「在書籍、文章、課堂等中以某種方式分析或論述題目」。",
-        "treat-mcq-10": "「對材料施加的物理／化學處理工序」是「treatment — material/process」的用法，與本句語境不同。",
-        "treat-mcq-12": "「作品／文章呈現和處理某個題材的方式」是「treatment of a subject」的用法，與本句語境不同。",
-        "treat-mcq-09": "「去除污染物或不需要成分，使水／廢物達到安全標準」是「treat water/waste」的用法，與本句語境不同。",
-        "treat-mcq-13": "「自己付費或特別安排，讓某人享受某物／體驗」是「treat someone to something」的用法，與本句語境不同。",
-        "treat-mcq-08": "「使用物理、化學等方法改變或保護材料」是「treat material」的用法，與本句語境不同。"
+        "treat-mcq-11": "本句的「treats」指「在書籍、文章、課堂等中以某種方式分析或論述題目」。",
+        "treat-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-11"
     },
@@ -1164,11 +1076,9 @@ export default {
       "masked": "The issue is ____ differently in the two textbooks.",
       "options": [
         "treat-mcq-11",
-        "treat-mcq-10",
-        "treat-mcq-12",
-        "treat-mcq-09",
         "treat-mcq-13",
-        "treat-mcq-08"
+        "treat-mcq-10",
+        "treat-mcq-21"
       ],
       "explanation": "本句的「treated」指「在書籍、文章、課堂等中以某種方式分析或論述題目」。",
       "sentenceIndex": 22,
@@ -1177,12 +1087,10 @@ export default {
         "treated"
       ],
       "optionReasons": {
-        "treat-mcq-11": "本句指「在書籍、文章、課堂等中以某種方式分析或論述題目」。",
-        "treat-mcq-10": "「對材料施加的物理／化學處理工序」是「treatment — material/process」的用法，與本句語境不同。",
-        "treat-mcq-12": "「作品／文章呈現和處理某個題材的方式」是「treatment of a subject」的用法，與本句語境不同。",
-        "treat-mcq-09": "「去除污染物或不需要成分，使水／廢物達到安全標準」是「treat water/waste」的用法，與本句語境不同。",
-        "treat-mcq-13": "「自己付費或特別安排，讓某人享受某物／體驗」是「treat someone to something」的用法，與本句語境不同。",
-        "treat-mcq-08": "「使用物理、化學等方法改變或保護材料」是「treat material」的用法，與本句語境不同。"
+        "treat-mcq-11": "本句的「treated」指「在書籍、文章、課堂等中以某種方式分析或論述題目」。",
+        "treat-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-11"
     },
@@ -1194,11 +1102,9 @@ export default {
       "masked": "The film’s ____ of history is surprisingly thoughtful.",
       "options": [
         "treat-mcq-12",
-        "treat-mcq-11",
-        "treat-mcq-13",
-        "treat-mcq-10",
         "treat-mcq-14",
-        "treat-mcq-09"
+        "treat-mcq-04",
+        "treat-mcq-21"
       ],
       "explanation": "本句的「treatment」指「作品／文章呈現和處理某個題材的方式」。",
       "sentenceIndex": 23,
@@ -1207,12 +1113,10 @@ export default {
         "treatment"
       ],
       "optionReasons": {
-        "treat-mcq-12": "本句指「作品／文章呈現和處理某個題材的方式」。",
-        "treat-mcq-11": "「在書籍、文章、課堂等中以某種方式分析或論述題目」是「treat a subject」的用法，與本句語境不同。",
-        "treat-mcq-13": "「自己付費或特別安排，讓某人享受某物／體驗」是「treat someone to something」的用法，與本句語境不同。",
-        "treat-mcq-10": "「對材料施加的物理／化學處理工序」是「treatment — material/process」的用法，與本句語境不同。",
-        "treat-mcq-14": "「特別讓自己享受某物作為犒賞」是「treat yourself」的用法，與本句語境不同。",
-        "treat-mcq-09": "「去除污染物或不需要成分，使水／廢物達到安全標準」是「treat water/waste」的用法，與本句語境不同。"
+        "treat-mcq-12": "本句的「treatment」指「作品／文章呈現和處理某個題材的方式」。",
+        "treat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-12"
     },
@@ -1224,11 +1128,9 @@ export default {
       "masked": "I liked the author’s ____ of the subject.",
       "options": [
         "treat-mcq-12",
-        "treat-mcq-11",
         "treat-mcq-13",
-        "treat-mcq-10",
-        "treat-mcq-14",
-        "treat-mcq-09"
+        "treat-mcq-06",
+        "treat-mcq-21"
       ],
       "explanation": "本句的「treatment」指「作品／文章呈現和處理某個題材的方式」。",
       "sentenceIndex": 24,
@@ -1237,12 +1139,10 @@ export default {
         "treatment"
       ],
       "optionReasons": {
-        "treat-mcq-12": "本句指「作品／文章呈現和處理某個題材的方式」。",
-        "treat-mcq-11": "「在書籍、文章、課堂等中以某種方式分析或論述題目」是「treat a subject」的用法，與本句語境不同。",
-        "treat-mcq-13": "「自己付費或特別安排，讓某人享受某物／體驗」是「treat someone to something」的用法，與本句語境不同。",
-        "treat-mcq-10": "「對材料施加的物理／化學處理工序」是「treatment — material/process」的用法，與本句語境不同。",
-        "treat-mcq-14": "「特別讓自己享受某物作為犒賞」是「treat yourself」的用法，與本句語境不同。",
-        "treat-mcq-09": "「去除污染物或不需要成分，使水／廢物達到安全標準」是「treat water/waste」的用法，與本句語境不同。"
+        "treat-mcq-12": "本句的「treatment」指「作品／文章呈現和處理某個題材的方式」。",
+        "treat-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-12"
     },
@@ -1254,11 +1154,9 @@ export default {
       "masked": "He ____ after the exam.",
       "options": [
         "treat-mcq-13",
-        "treat-mcq-12",
-        "treat-mcq-14",
+        "treat-mcq-18",
         "treat-mcq-11",
-        "treat-mcq-15",
-        "treat-mcq-10"
+        "treat-mcq-21"
       ],
       "explanation": "本句的「treated us to dinner」指「自己付費或特別安排，讓某人享受某物／體驗」。",
       "sentenceIndex": 25,
@@ -1267,12 +1165,10 @@ export default {
         "treated us to dinner"
       ],
       "optionReasons": {
-        "treat-mcq-13": "本句指「自己付費或特別安排，讓某人享受某物／體驗」。",
-        "treat-mcq-12": "「作品／文章呈現和處理某個題材的方式」是「treatment of a subject」的用法，與本句語境不同。",
-        "treat-mcq-14": "「特別讓自己享受某物作為犒賞」是「treat yourself」的用法，與本句語境不同。",
-        "treat-mcq-11": "「在書籍、文章、課堂等中以某種方式分析或論述題目」是「treat a subject」的用法，與本句語境不同。",
-        "treat-mcq-15": "「比平常更特別、令人愉快的享受／經驗」是「a treat — enjoyable thing」的用法，與本句語境不同。",
-        "treat-mcq-10": "「對材料施加的物理／化學處理工序」是「treatment — material/process」的用法，與本句語境不同。"
+        "treat-mcq-13": "本句的「treated us to dinner」指「自己付費或特別安排，讓某人享受某物／體驗」。",
+        "treat-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-13"
     },
@@ -1284,11 +1180,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "treat-mcq-13",
-        "treat-mcq-12",
-        "treat-mcq-14",
-        "treat-mcq-11",
-        "treat-mcq-15",
-        "treat-mcq-10"
+        "treat-mcq-05",
+        "treat-mcq-21",
+        "treat-mcq-11"
       ],
       "explanation": "本句的「treated her parents to a holiday」指「自己付費或特別安排，讓某人享受某物／體驗」。",
       "sentenceIndex": 26,
@@ -1297,12 +1191,10 @@ export default {
         "treated her parents to a holiday"
       ],
       "optionReasons": {
-        "treat-mcq-13": "本句指「自己付費或特別安排，讓某人享受某物／體驗」。",
-        "treat-mcq-12": "「作品／文章呈現和處理某個題材的方式」是「treatment of a subject」的用法，與本句語境不同。",
-        "treat-mcq-14": "「特別讓自己享受某物作為犒賞」是「treat yourself」的用法，與本句語境不同。",
-        "treat-mcq-11": "「在書籍、文章、課堂等中以某種方式分析或論述題目」是「treat a subject」的用法，與本句語境不同。",
-        "treat-mcq-15": "「比平常更特別、令人愉快的享受／經驗」是「a treat — enjoyable thing」的用法，與本句語境不同。",
-        "treat-mcq-10": "「對材料施加的物理／化學處理工序」是「treatment — material/process」的用法，與本句語境不同。"
+        "treat-mcq-13": "本句的「treated her parents to a holiday」指「自己付費或特別安排，讓某人享受某物／體驗」。",
+        "treat-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-13"
     },
@@ -1314,11 +1206,9 @@ export default {
       "masked": "I ____ a new pair of headphones.",
       "options": [
         "treat-mcq-14",
-        "treat-mcq-13",
-        "treat-mcq-15",
+        "treat-mcq-09",
         "treat-mcq-12",
-        "treat-mcq-16",
-        "treat-mcq-11"
+        "treat-mcq-22"
       ],
       "explanation": "本句的「treated myself to」指「特別讓自己享受某物作為犒賞」。",
       "sentenceIndex": 27,
@@ -1327,12 +1217,10 @@ export default {
         "treated myself to"
       ],
       "optionReasons": {
-        "treat-mcq-14": "本句指「特別讓自己享受某物作為犒賞」。",
-        "treat-mcq-13": "「自己付費或特別安排，讓某人享受某物／體驗」是「treat someone to something」的用法，與本句語境不同。",
-        "treat-mcq-15": "「比平常更特別、令人愉快的享受／經驗」是「a treat — enjoyable thing」的用法，與本句語境不同。",
-        "treat-mcq-12": "「作品／文章呈現和處理某個題材的方式」是「treatment of a subject」的用法，與本句語境不同。",
-        "treat-mcq-16": "「偶爾給予或享用的特別小食／獎勵」是「a treat — food/reward」的用法，與本句語境不同。",
-        "treat-mcq-11": "「在書籍、文章、課堂等中以某種方式分析或論述題目」是「treat a subject」的用法，與本句語境不同。"
+        "treat-mcq-14": "本句的「treated myself to」指「特別讓自己享受某物作為犒賞」。",
+        "treat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-14"
     },
@@ -1344,11 +1232,9 @@ export default {
       "masked": "After finishing the project, she ____ herself to a nice meal.",
       "options": [
         "treat-mcq-14",
-        "treat-mcq-13",
-        "treat-mcq-15",
+        "treat-mcq-21",
         "treat-mcq-12",
-        "treat-mcq-16",
-        "treat-mcq-11"
+        "treat-mcq-09"
       ],
       "explanation": "本句的「treated」指「特別讓自己享受某物作為犒賞」。",
       "sentenceIndex": 28,
@@ -1357,12 +1243,10 @@ export default {
         "treated"
       ],
       "optionReasons": {
-        "treat-mcq-14": "本句指「特別讓自己享受某物作為犒賞」。",
-        "treat-mcq-13": "「自己付費或特別安排，讓某人享受某物／體驗」是「treat someone to something」的用法，與本句語境不同。",
-        "treat-mcq-15": "「比平常更特別、令人愉快的享受／經驗」是「a treat — enjoyable thing」的用法，與本句語境不同。",
-        "treat-mcq-12": "「作品／文章呈現和處理某個題材的方式」是「treatment of a subject」的用法，與本句語境不同。",
-        "treat-mcq-16": "「偶爾給予或享用的特別小食／獎勵」是「a treat — food/reward」的用法，與本句語境不同。",
-        "treat-mcq-11": "「在書籍、文章、課堂等中以某種方式分析或論述題目」是「treat a subject」的用法，與本句語境不同。"
+        "treat-mcq-14": "本句的「treated」指「特別讓自己享受某物作為犒賞」。",
+        "treat-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-14"
     },
@@ -1374,11 +1258,9 @@ export default {
       "masked": "It was a real ____ to hear him speak.",
       "options": [
         "treat-mcq-15",
-        "treat-mcq-14",
-        "treat-mcq-16",
-        "treat-mcq-13",
-        "treat-mcq-17",
-        "treat-mcq-12"
+        "treat-mcq-19",
+        "treat-mcq-02",
+        "treat-mcq-11"
       ],
       "explanation": "本句的「treat」指「比平常更特別、令人愉快的享受／經驗」。",
       "sentenceIndex": 29,
@@ -1387,12 +1269,10 @@ export default {
         "treat"
       ],
       "optionReasons": {
-        "treat-mcq-15": "本句指「比平常更特別、令人愉快的享受／經驗」。",
-        "treat-mcq-14": "「特別讓自己享受某物作為犒賞」是「treat yourself」的用法，與本句語境不同。",
-        "treat-mcq-16": "「偶爾給予或享用的特別小食／獎勵」是「a treat — food/reward」的用法，與本句語境不同。",
-        "treat-mcq-13": "「自己付費或特別安排，讓某人享受某物／體驗」是「treat someone to something」的用法，與本句語境不同。",
-        "treat-mcq-17": "「表示這次由自己付款請客」是「my treat」的用法，與本句語境不同。",
-        "treat-mcq-12": "「作品／文章呈現和處理某個題材的方式」是「treatment of a subject」的用法，與本句語境不同。"
+        "treat-mcq-15": "本句的「treat」指「比平常更特別、令人愉快的享受／經驗」。",
+        "treat-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-15"
     },
@@ -1404,11 +1284,9 @@ export default {
       "masked": "A quiet afternoon at home is a ____ for me.",
       "options": [
         "treat-mcq-15",
-        "treat-mcq-14",
-        "treat-mcq-16",
-        "treat-mcq-13",
-        "treat-mcq-17",
-        "treat-mcq-12"
+        "treat-mcq-08",
+        "treat-mcq-02",
+        "treat-mcq-11"
       ],
       "explanation": "本句的「treat」指「比平常更特別、令人愉快的享受／經驗」。",
       "sentenceIndex": 30,
@@ -1417,12 +1295,10 @@ export default {
         "treat"
       ],
       "optionReasons": {
-        "treat-mcq-15": "本句指「比平常更特別、令人愉快的享受／經驗」。",
-        "treat-mcq-14": "「特別讓自己享受某物作為犒賞」是「treat yourself」的用法，與本句語境不同。",
-        "treat-mcq-16": "「偶爾給予或享用的特別小食／獎勵」是「a treat — food/reward」的用法，與本句語境不同。",
-        "treat-mcq-13": "「自己付費或特別安排，讓某人享受某物／體驗」是「treat someone to something」的用法，與本句語境不同。",
-        "treat-mcq-17": "「表示這次由自己付款請客」是「my treat」的用法，與本句語境不同。",
-        "treat-mcq-12": "「作品／文章呈現和處理某個題材的方式」是「treatment of a subject」的用法，與本句語境不同。"
+        "treat-mcq-15": "本句的「treat」指「比平常更特別、令人愉快的享受／經驗」。",
+        "treat-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-15"
     },
@@ -1434,11 +1310,9 @@ export default {
       "masked": "The children were given a small ____ after class.",
       "options": [
         "treat-mcq-16",
-        "treat-mcq-15",
-        "treat-mcq-17",
-        "treat-mcq-14",
-        "treat-mcq-18",
-        "treat-mcq-13"
+        "treat-mcq-03",
+        "treat-mcq-11",
+        "treat-mcq-05"
       ],
       "explanation": "本句的「treat」指「偶爾給予或享用的特別小食／獎勵」。",
       "sentenceIndex": 31,
@@ -1447,12 +1321,10 @@ export default {
         "treat"
       ],
       "optionReasons": {
-        "treat-mcq-16": "本句指「偶爾給予或享用的特別小食／獎勵」。",
-        "treat-mcq-15": "「比平常更特別、令人愉快的享受／經驗」是「a treat — enjoyable thing」的用法，與本句語境不同。",
-        "treat-mcq-17": "「表示這次由自己付款請客」是「my treat」的用法，與本句語境不同。",
-        "treat-mcq-14": "「特別讓自己享受某物作為犒賞」是「treat yourself」的用法，與本句語境不同。",
-        "treat-mcq-18": "「有可用方法能改善、控制或治療的」是「treatable」的用法，與本句語境不同。",
-        "treat-mcq-13": "「自己付費或特別安排，讓某人享受某物／體驗」是「treat someone to something」的用法，與本句語境不同。"
+        "treat-mcq-16": "本句的「treat」指「偶爾給予或享用的特別小食／獎勵」。",
+        "treat-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-16"
     },
@@ -1464,11 +1336,9 @@ export default {
       "masked": "Chocolate is an occasional ____ for me.",
       "options": [
         "treat-mcq-16",
-        "treat-mcq-15",
+        "treat-mcq-09",
         "treat-mcq-17",
-        "treat-mcq-14",
-        "treat-mcq-18",
-        "treat-mcq-13"
+        "treat-mcq-10"
       ],
       "explanation": "本句的「treat」指「偶爾給予或享用的特別小食／獎勵」。",
       "sentenceIndex": 32,
@@ -1477,12 +1347,10 @@ export default {
         "treat"
       ],
       "optionReasons": {
-        "treat-mcq-16": "本句指「偶爾給予或享用的特別小食／獎勵」。",
-        "treat-mcq-15": "「比平常更特別、令人愉快的享受／經驗」是「a treat — enjoyable thing」的用法，與本句語境不同。",
-        "treat-mcq-17": "「表示這次由自己付款請客」是「my treat」的用法，與本句語境不同。",
-        "treat-mcq-14": "「特別讓自己享受某物作為犒賞」是「treat yourself」的用法，與本句語境不同。",
-        "treat-mcq-18": "「有可用方法能改善、控制或治療的」是「treatable」的用法，與本句語境不同。",
-        "treat-mcq-13": "「自己付費或特別安排，讓某人享受某物／體驗」是「treat someone to something」的用法，與本句語境不同。"
+        "treat-mcq-16": "本句的「treat」指「偶爾給予或享用的特別小食／獎勵」。",
+        "treat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-16"
     },
@@ -1494,11 +1362,9 @@ export default {
       "masked": "Let’s have coffee — ____.",
       "options": [
         "treat-mcq-17",
-        "treat-mcq-16",
-        "treat-mcq-18",
-        "treat-mcq-15",
-        "treat-mcq-19",
-        "treat-mcq-14"
+        "treat-mcq-11",
+        "treat-mcq-02",
+        "treat-mcq-05"
       ],
       "explanation": "本句的「my treat」指「表示這次由自己付款請客」。",
       "sentenceIndex": 33,
@@ -1507,12 +1373,10 @@ export default {
         "my treat"
       ],
       "optionReasons": {
-        "treat-mcq-17": "本句指「表示這次由自己付款請客」。",
-        "treat-mcq-16": "「偶爾給予或享用的特別小食／獎勵」是「a treat — food/reward」的用法，與本句語境不同。",
-        "treat-mcq-18": "「有可用方法能改善、控制或治療的」是「treatable」的用法，與本句語境不同。",
-        "treat-mcq-15": "「比平常更特別、令人愉快的享受／經驗」是「a treat — enjoyable thing」的用法，與本句語境不同。",
-        "treat-mcq-19": "「目前沒有有效醫療方法能適當治療／控制的」是「untreatable」的用法，與本句語境不同。",
-        "treat-mcq-14": "「特別讓自己享受某物作為犒賞」是「treat yourself」的用法，與本句語境不同。"
+        "treat-mcq-17": "本句的「my treat」指「表示這次由自己付款請客」。",
+        "treat-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-17"
     },
@@ -1524,11 +1388,9 @@ export default {
       "masked": "Dinner is ____ tonight.",
       "options": [
         "treat-mcq-17",
-        "treat-mcq-16",
+        "treat-mcq-10",
         "treat-mcq-18",
-        "treat-mcq-15",
-        "treat-mcq-19",
-        "treat-mcq-14"
+        "treat-mcq-15"
       ],
       "explanation": "本句的「my treat」指「表示這次由自己付款請客」。",
       "sentenceIndex": 34,
@@ -1537,12 +1399,10 @@ export default {
         "my treat"
       ],
       "optionReasons": {
-        "treat-mcq-17": "本句指「表示這次由自己付款請客」。",
-        "treat-mcq-16": "「偶爾給予或享用的特別小食／獎勵」是「a treat — food/reward」的用法，與本句語境不同。",
-        "treat-mcq-18": "「有可用方法能改善、控制或治療的」是「treatable」的用法，與本句語境不同。",
-        "treat-mcq-15": "「比平常更特別、令人愉快的享受／經驗」是「a treat — enjoyable thing」的用法，與本句語境不同。",
-        "treat-mcq-19": "「目前沒有有效醫療方法能適當治療／控制的」是「untreatable」的用法，與本句語境不同。",
-        "treat-mcq-14": "「特別讓自己享受某物作為犒賞」是「treat yourself」的用法，與本句語境不同。"
+        "treat-mcq-17": "本句的「my treat」指「表示這次由自己付款請客」。",
+        "treat-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-17"
     },
@@ -1554,11 +1414,9 @@ export default {
       "masked": "The condition is ____.",
       "options": [
         "treat-mcq-18",
-        "treat-mcq-17",
-        "treat-mcq-19",
-        "treat-mcq-16",
-        "treat-mcq-20",
-        "treat-mcq-15"
+        "treat-mcq-21",
+        "treat-mcq-14",
+        "treat-mcq-01"
       ],
       "explanation": "本句的「treatable」指「有可用方法能改善、控制或治療的」。",
       "sentenceIndex": 35,
@@ -1567,12 +1425,10 @@ export default {
         "treatable"
       ],
       "optionReasons": {
-        "treat-mcq-18": "本句指「有可用方法能改善、控制或治療的」。",
-        "treat-mcq-17": "「表示這次由自己付款請客」是「my treat」的用法，與本句語境不同。",
-        "treat-mcq-19": "「目前沒有有效醫療方法能適當治療／控制的」是「untreatable」的用法，與本句語境不同。",
-        "treat-mcq-16": "「偶爾給予或享用的特別小食／獎勵」是「a treat — food/reward」的用法，與本句語境不同。",
-        "treat-mcq-20": "「尚未接受所需醫療、化學或其他處理的」是「untreated」的用法，與本句語境不同。",
-        "treat-mcq-15": "「比平常更特別、令人愉快的享受／經驗」是「a treat — enjoyable thing」的用法，與本句語境不同。"
+        "treat-mcq-18": "本句的「treatable」指「有可用方法能改善、控制或治療的」。",
+        "treat-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-18"
     },
@@ -1584,11 +1440,9 @@ export default {
       "masked": "Many infections are easily ____.",
       "options": [
         "treat-mcq-18",
-        "treat-mcq-17",
-        "treat-mcq-19",
-        "treat-mcq-16",
-        "treat-mcq-20",
-        "treat-mcq-15"
+        "treat-mcq-22",
+        "treat-mcq-10",
+        "treat-mcq-03"
       ],
       "explanation": "本句的「treatable」指「有可用方法能改善、控制或治療的」。",
       "sentenceIndex": 36,
@@ -1597,12 +1451,10 @@ export default {
         "treatable"
       ],
       "optionReasons": {
-        "treat-mcq-18": "本句指「有可用方法能改善、控制或治療的」。",
-        "treat-mcq-17": "「表示這次由自己付款請客」是「my treat」的用法，與本句語境不同。",
-        "treat-mcq-19": "「目前沒有有效醫療方法能適當治療／控制的」是「untreatable」的用法，與本句語境不同。",
-        "treat-mcq-16": "「偶爾給予或享用的特別小食／獎勵」是「a treat — food/reward」的用法，與本句語境不同。",
-        "treat-mcq-20": "「尚未接受所需醫療、化學或其他處理的」是「untreated」的用法，與本句語境不同。",
-        "treat-mcq-15": "「比平常更特別、令人愉快的享受／經驗」是「a treat — enjoyable thing」的用法，與本句語境不同。"
+        "treat-mcq-18": "本句的「treatable」指「有可用方法能改善、控制或治療的」。",
+        "treat-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-18"
     },
@@ -1614,11 +1466,9 @@ export default {
       "masked": "Some rare conditions remain ____.",
       "options": [
         "treat-mcq-19",
-        "treat-mcq-18",
-        "treat-mcq-20",
-        "treat-mcq-17",
-        "treat-mcq-21",
-        "treat-mcq-16"
+        "treat-mcq-12",
+        "treat-mcq-03",
+        "treat-mcq-15"
       ],
       "explanation": "本句的「untreatable」指「目前沒有有效醫療方法能適當治療／控制的」。",
       "sentenceIndex": 37,
@@ -1627,12 +1477,10 @@ export default {
         "untreatable"
       ],
       "optionReasons": {
-        "treat-mcq-19": "本句指「目前沒有有效醫療方法能適當治療／控制的」。",
-        "treat-mcq-18": "「有可用方法能改善、控制或治療的」是「treatable」的用法，與本句語境不同。",
-        "treat-mcq-20": "「尚未接受所需醫療、化學或其他處理的」是「untreated」的用法，與本句語境不同。",
-        "treat-mcq-17": "「表示這次由自己付款請客」是「my treat」的用法，與本句語境不同。",
-        "treat-mcq-21": "「以殘酷、不公平或不適當方式對待人／動物」是「mistreat」的用法，與本句語境不同。",
-        "treat-mcq-16": "「偶爾給予或享用的特別小食／獎勵」是「a treat — food/reward」的用法，與本句語境不同。"
+        "treat-mcq-19": "本句的「untreatable」指「目前沒有有效醫療方法能適當治療／控制的」。",
+        "treat-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-19"
     },
@@ -1644,11 +1492,9 @@ export default {
       "masked": "Doctors once considered the disease ____.",
       "options": [
         "treat-mcq-19",
-        "treat-mcq-18",
-        "treat-mcq-20",
-        "treat-mcq-17",
-        "treat-mcq-21",
-        "treat-mcq-16"
+        "treat-mcq-14",
+        "treat-mcq-12",
+        "treat-mcq-03"
       ],
       "explanation": "本句的「untreatable」指「目前沒有有效醫療方法能適當治療／控制的」。",
       "sentenceIndex": 38,
@@ -1657,12 +1503,10 @@ export default {
         "untreatable"
       ],
       "optionReasons": {
-        "treat-mcq-19": "本句指「目前沒有有效醫療方法能適當治療／控制的」。",
-        "treat-mcq-18": "「有可用方法能改善、控制或治療的」是「treatable」的用法，與本句語境不同。",
-        "treat-mcq-20": "「尚未接受所需醫療、化學或其他處理的」是「untreated」的用法，與本句語境不同。",
-        "treat-mcq-17": "「表示這次由自己付款請客」是「my treat」的用法，與本句語境不同。",
-        "treat-mcq-21": "「以殘酷、不公平或不適當方式對待人／動物」是「mistreat」的用法，與本句語境不同。",
-        "treat-mcq-16": "「偶爾給予或享用的特別小食／獎勵」是「a treat — food/reward」的用法，與本句語境不同。"
+        "treat-mcq-19": "本句的「untreatable」指「目前沒有有效醫療方法能適當治療／控制的」。",
+        "treat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-19"
     },
@@ -1674,11 +1518,9 @@ export default {
       "masked": "An ____ can become serious.",
       "options": [
         "treat-mcq-20",
-        "treat-mcq-19",
-        "treat-mcq-21",
-        "treat-mcq-18",
-        "treat-mcq-22",
-        "treat-mcq-17"
+        "treat-mcq-17",
+        "treat-mcq-03",
+        "treat-mcq-11"
       ],
       "explanation": "本句的「untreated infection」指「尚未接受所需醫療、化學或其他處理的」。",
       "sentenceIndex": 39,
@@ -1687,12 +1529,10 @@ export default {
         "untreated infection"
       ],
       "optionReasons": {
-        "treat-mcq-20": "本句指「尚未接受所需醫療、化學或其他處理的」。",
-        "treat-mcq-19": "「目前沒有有效醫療方法能適當治療／控制的」是「untreatable」的用法，與本句語境不同。",
-        "treat-mcq-21": "「以殘酷、不公平或不適當方式對待人／動物」是「mistreat」的用法，與本句語境不同。",
-        "treat-mcq-18": "「有可用方法能改善、控制或治療的」是「treatable」的用法，與本句語境不同。",
-        "treat-mcq-22": "「對人／動物作出的殘酷、不公平或不適當待遇」是「mistreatment」的用法，與本句語境不同。",
-        "treat-mcq-17": "「表示這次由自己付款請客」是「my treat」的用法，與本句語境不同。"
+        "treat-mcq-20": "本句的「untreated infection」指「尚未接受所需醫療、化學或其他處理的」。",
+        "treat-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-20"
     },
@@ -1704,10 +1544,8 @@ export default {
       "masked": "____ wood can be damaged by moisture.",
       "options": [
         "treat-mcq-20",
-        "treat-mcq-19",
-        "treat-mcq-21",
-        "treat-mcq-18",
-        "treat-mcq-22",
+        "treat-mcq-02",
+        "treat-mcq-11",
         "treat-mcq-17"
       ],
       "explanation": "本句的「Untreated」指「尚未接受所需醫療、化學或其他處理的」。",
@@ -1717,12 +1555,10 @@ export default {
         "Untreated"
       ],
       "optionReasons": {
-        "treat-mcq-20": "本句指「尚未接受所需醫療、化學或其他處理的」。",
-        "treat-mcq-19": "「目前沒有有效醫療方法能適當治療／控制的」是「untreatable」的用法，與本句語境不同。",
-        "treat-mcq-21": "「以殘酷、不公平或不適當方式對待人／動物」是「mistreat」的用法，與本句語境不同。",
-        "treat-mcq-18": "「有可用方法能改善、控制或治療的」是「treatable」的用法，與本句語境不同。",
-        "treat-mcq-22": "「對人／動物作出的殘酷、不公平或不適當待遇」是「mistreatment」的用法，與本句語境不同。",
-        "treat-mcq-17": "「表示這次由自己付款請客」是「my treat」的用法，與本句語境不同。"
+        "treat-mcq-20": "本句的「Untreated」指「尚未接受所需醫療、化學或其他處理的」。",
+        "treat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-20"
     },
@@ -1734,10 +1570,8 @@ export default {
       "masked": "No child should be ____.",
       "options": [
         "treat-mcq-21",
-        "treat-mcq-20",
-        "treat-mcq-22",
-        "treat-mcq-19",
-        "treat-mcq-18",
+        "treat-mcq-09",
+        "treat-mcq-05",
         "treat-mcq-17"
       ],
       "explanation": "本句的「mistreated」指「以殘酷、不公平或不適當方式對待人／動物」。",
@@ -1747,12 +1581,10 @@ export default {
         "mistreated"
       ],
       "optionReasons": {
-        "treat-mcq-21": "本句指「以殘酷、不公平或不適當方式對待人／動物」。",
-        "treat-mcq-20": "「尚未接受所需醫療、化學或其他處理的」是「untreated」的用法，與本句語境不同。",
-        "treat-mcq-22": "「對人／動物作出的殘酷、不公平或不適當待遇」是「mistreatment」的用法，與本句語境不同。",
-        "treat-mcq-19": "「目前沒有有效醫療方法能適當治療／控制的」是「untreatable」的用法，與本句語境不同。",
-        "treat-mcq-18": "「有可用方法能改善、控制或治療的」是「treatable」的用法，與本句語境不同。",
-        "treat-mcq-17": "「表示這次由自己付款請客」是「my treat」的用法，與本句語境不同。"
+        "treat-mcq-21": "本句的「mistreated」指「以殘酷、不公平或不適當方式對待人／動物」。",
+        "treat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-21"
     },
@@ -1765,10 +1597,8 @@ export default {
       "options": [
         "treat-mcq-21",
         "treat-mcq-20",
-        "treat-mcq-22",
-        "treat-mcq-19",
-        "treat-mcq-18",
-        "treat-mcq-17"
+        "treat-mcq-13",
+        "treat-mcq-18"
       ],
       "explanation": "本句的「mistreating animals」指「以殘酷、不公平或不適當方式對待人／動物」。",
       "sentenceIndex": 42,
@@ -1777,12 +1607,10 @@ export default {
         "mistreating animals"
       ],
       "optionReasons": {
-        "treat-mcq-21": "本句指「以殘酷、不公平或不適當方式對待人／動物」。",
-        "treat-mcq-20": "「尚未接受所需醫療、化學或其他處理的」是「untreated」的用法，與本句語境不同。",
-        "treat-mcq-22": "「對人／動物作出的殘酷、不公平或不適當待遇」是「mistreatment」的用法，與本句語境不同。",
-        "treat-mcq-19": "「目前沒有有效醫療方法能適當治療／控制的」是「untreatable」的用法，與本句語境不同。",
-        "treat-mcq-18": "「有可用方法能改善、控制或治療的」是「treatable」的用法，與本句語境不同。",
-        "treat-mcq-17": "「表示這次由自己付款請客」是「my treat」的用法，與本句語境不同。"
+        "treat-mcq-21": "本句的「mistreating animals」指「以殘酷、不公平或不適當方式對待人／動物」。",
+        "treat-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-21"
     },
@@ -1794,11 +1622,9 @@ export default {
       "masked": "The workers reported serious ____.",
       "options": [
         "treat-mcq-22",
-        "treat-mcq-21",
-        "treat-mcq-20",
-        "treat-mcq-19",
-        "treat-mcq-18",
-        "treat-mcq-17"
+        "treat-mcq-13",
+        "treat-mcq-05",
+        "treat-mcq-11"
       ],
       "explanation": "本句的「mistreatment」指「對人／動物作出的殘酷、不公平或不適當待遇」。",
       "sentenceIndex": 43,
@@ -1807,12 +1633,10 @@ export default {
         "mistreatment"
       ],
       "optionReasons": {
-        "treat-mcq-22": "本句指「對人／動物作出的殘酷、不公平或不適當待遇」。",
-        "treat-mcq-21": "「以殘酷、不公平或不適當方式對待人／動物」是「mistreat」的用法，與本句語境不同。",
-        "treat-mcq-20": "「尚未接受所需醫療、化學或其他處理的」是「untreated」的用法，與本句語境不同。",
-        "treat-mcq-19": "「目前沒有有效醫療方法能適當治療／控制的」是「untreatable」的用法，與本句語境不同。",
-        "treat-mcq-18": "「有可用方法能改善、控制或治療的」是「treatable」的用法，與本句語境不同。",
-        "treat-mcq-17": "「表示這次由自己付款請客」是「my treat」的用法，與本句語境不同。"
+        "treat-mcq-22": "本句的「mistreatment」指「對人／動物作出的殘酷、不公平或不適當待遇」。",
+        "treat-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-22"
     },
@@ -1824,11 +1648,9 @@ export default {
       "masked": "The law protects animals from ____.",
       "options": [
         "treat-mcq-22",
-        "treat-mcq-21",
-        "treat-mcq-20",
-        "treat-mcq-19",
-        "treat-mcq-18",
-        "treat-mcq-17"
+        "treat-mcq-14",
+        "treat-mcq-09",
+        "treat-mcq-11"
       ],
       "explanation": "本句的「mistreatment」指「對人／動物作出的殘酷、不公平或不適當待遇」。",
       "sentenceIndex": 44,
@@ -1837,12 +1659,10 @@ export default {
         "mistreatment"
       ],
       "optionReasons": {
-        "treat-mcq-22": "本句指「對人／動物作出的殘酷、不公平或不適當待遇」。",
-        "treat-mcq-21": "「以殘酷、不公平或不適當方式對待人／動物」是「mistreat」的用法，與本句語境不同。",
-        "treat-mcq-20": "「尚未接受所需醫療、化學或其他處理的」是「untreated」的用法，與本句語境不同。",
-        "treat-mcq-19": "「目前沒有有效醫療方法能適當治療／控制的」是「untreatable」的用法，與本句語境不同。",
-        "treat-mcq-18": "「有可用方法能改善、控制或治療的」是「treatable」的用法，與本句語境不同。",
-        "treat-mcq-17": "「表示這次由自己付款請客」是「my treat」的用法，與本句語境不同。"
+        "treat-mcq-22": "本句的「mistreatment」指「對人／動物作出的殘酷、不公平或不適當待遇」。",
+        "treat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "treat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treat-mcq-22"
     }
@@ -1854,5 +1674,7 @@ export default {
     "sha256": "47e6be73946d808818f40b812ac2196ab2ede1667c4c0d3a889c91aec0d4a62d",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -464,11 +464,9 @@ export default {
       "masked": "We drove slowly through the ____.",
       "options": [
         "fog-mcq-02",
-        "fog-mcq-01",
-        "fog-mcq-03",
-        "fog-mcq-04",
-        "fog-mcq-05",
-        "fog-mcq-06"
+        "fog-mcq-08",
+        "fog-mcq-13",
+        "fog-mcq-07"
       ],
       "explanation": "本句的「thick fog」指「能見度很低的濃霧／大霧」。",
       "sentenceIndex": 4,
@@ -477,12 +475,10 @@ export default {
         "thick fog"
       ],
       "optionReasons": {
-        "fog-mcq-02": "本句指「能見度很低的濃霧／大霧」。",
-        "fog-mcq-01": "「接近地面的微小水滴形成、使能見度下降的霧／濃霧」與本句語境不同。",
-        "fog-mcq-03": "「因霧氣造成視線模糊、能見度低的狀況」與本句語境不同。",
-        "fog-mcq-04": "「思考、理解或判斷不清楚的狀態；迷霧／困惑」與本句語境不同。",
-        "fog-mcq-05": "「思路模糊、難以集中或清楚思考的狀態」與本句語境不同。",
-        "fog-mcq-06": "「非正式指腦袋昏沉、專注力差、思考不清的狀態」與本句語境不同。"
+        "fog-mcq-02": "本句的「thick fog」指「能見度很低的濃霧／大霧」。",
+        "fog-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-02"
     },
@@ -494,11 +490,9 @@ export default {
       "masked": "The airport was closed because of ____.",
       "options": [
         "fog-mcq-02",
-        "fog-mcq-01",
-        "fog-mcq-03",
-        "fog-mcq-04",
         "fog-mcq-05",
-        "fog-mcq-06"
+        "fog-mcq-07",
+        "fog-mcq-10"
       ],
       "explanation": "本句的「dense fog」指「能見度很低的濃霧／大霧」。",
       "sentenceIndex": 5,
@@ -507,12 +501,10 @@ export default {
         "dense fog"
       ],
       "optionReasons": {
-        "fog-mcq-02": "本句指「能見度很低的濃霧／大霧」。",
-        "fog-mcq-01": "「接近地面的微小水滴形成、使能見度下降的霧／濃霧」與本句語境不同。",
-        "fog-mcq-03": "「因霧氣造成視線模糊、能見度低的狀況」與本句語境不同。",
-        "fog-mcq-04": "「思考、理解或判斷不清楚的狀態；迷霧／困惑」與本句語境不同。",
-        "fog-mcq-05": "「思路模糊、難以集中或清楚思考的狀態」與本句語境不同。",
-        "fog-mcq-06": "「非正式指腦袋昏沉、專注力差、思考不清的狀態」與本句語境不同。"
+        "fog-mcq-02": "本句的「dense fog」指「能見度很低的濃霧／大霧」。",
+        "fog-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-02"
     },
@@ -524,11 +516,9 @@ export default {
       "masked": "Visibility was poor because of the ____.",
       "options": [
         "fog-mcq-03",
-        "fog-mcq-02",
-        "fog-mcq-04",
-        "fog-mcq-01",
-        "fog-mcq-05",
-        "fog-mcq-06"
+        "fog-mcq-16",
+        "fog-mcq-09",
+        "fog-mcq-10"
       ],
       "explanation": "本句的「fog」指「因霧氣造成視線模糊、能見度低的狀況」。",
       "sentenceIndex": 6,
@@ -537,12 +527,10 @@ export default {
         "fog"
       ],
       "optionReasons": {
-        "fog-mcq-03": "本句指「因霧氣造成視線模糊、能見度低的狀況」。",
-        "fog-mcq-02": "「能見度很低的濃霧／大霧」與本句語境不同。",
-        "fog-mcq-04": "「思考、理解或判斷不清楚的狀態；迷霧／困惑」與本句語境不同。",
-        "fog-mcq-01": "「接近地面的微小水滴形成、使能見度下降的霧／濃霧」與本句語境不同。",
-        "fog-mcq-05": "「思路模糊、難以集中或清楚思考的狀態」與本句語境不同。",
-        "fog-mcq-06": "「非正式指腦袋昏沉、專注力差、思考不清的狀態」與本句語境不同。"
+        "fog-mcq-03": "本句的「fog」指「因霧氣造成視線模糊、能見度低的狀況」。",
+        "fog-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-03"
     },
@@ -554,11 +542,9 @@ export default {
       "masked": "The mountain was hidden by ____.",
       "options": [
         "fog-mcq-03",
-        "fog-mcq-02",
-        "fog-mcq-04",
-        "fog-mcq-01",
-        "fog-mcq-05",
-        "fog-mcq-06"
+        "fog-mcq-16",
+        "fog-mcq-09",
+        "fog-mcq-10"
       ],
       "explanation": "本句的「fog」指「因霧氣造成視線模糊、能見度低的狀況」。",
       "sentenceIndex": 7,
@@ -567,12 +553,10 @@ export default {
         "fog"
       ],
       "optionReasons": {
-        "fog-mcq-03": "本句指「因霧氣造成視線模糊、能見度低的狀況」。",
-        "fog-mcq-02": "「能見度很低的濃霧／大霧」與本句語境不同。",
-        "fog-mcq-04": "「思考、理解或判斷不清楚的狀態；迷霧／困惑」與本句語境不同。",
-        "fog-mcq-01": "「接近地面的微小水滴形成、使能見度下降的霧／濃霧」與本句語境不同。",
-        "fog-mcq-05": "「思路模糊、難以集中或清楚思考的狀態」與本句語境不同。",
-        "fog-mcq-06": "「非正式指腦袋昏沉、專注力差、思考不清的狀態」與本句語境不同。"
+        "fog-mcq-03": "本句的「fog」指「因霧氣造成視線模糊、能見度低的狀況」。",
+        "fog-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-03"
     },
@@ -584,11 +568,9 @@ export default {
       "masked": "I was still in a ____ after the first explanation.",
       "options": [
         "fog-mcq-04",
-        "fog-mcq-03",
-        "fog-mcq-05",
+        "fog-mcq-15",
         "fog-mcq-02",
-        "fog-mcq-06",
-        "fog-mcq-01"
+        "fog-mcq-10"
       ],
       "explanation": "本句的「fog」指「思考、理解或判斷不清楚的狀態；迷霧／困惑」。",
       "sentenceIndex": 8,
@@ -597,12 +579,10 @@ export default {
         "fog"
       ],
       "optionReasons": {
-        "fog-mcq-04": "本句指「思考、理解或判斷不清楚的狀態；迷霧／困惑」。",
-        "fog-mcq-03": "「因霧氣造成視線模糊、能見度低的狀況」與本句語境不同。",
-        "fog-mcq-05": "「思路模糊、難以集中或清楚思考的狀態」與本句語境不同。",
-        "fog-mcq-02": "「能見度很低的濃霧／大霧」與本句語境不同。",
-        "fog-mcq-06": "「非正式指腦袋昏沉、專注力差、思考不清的狀態」與本句語境不同。",
-        "fog-mcq-01": "「接近地面的微小水滴形成、使能見度下降的霧／濃霧」與本句語境不同。"
+        "fog-mcq-04": "本句的「fog」指「思考、理解或判斷不清楚的狀態；迷霧／困惑」。",
+        "fog-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-04"
     },
@@ -614,11 +594,9 @@ export default {
       "masked": "Stress can leave you in a mental ____.",
       "options": [
         "fog-mcq-04",
-        "fog-mcq-03",
-        "fog-mcq-05",
-        "fog-mcq-02",
-        "fog-mcq-06",
-        "fog-mcq-01"
+        "fog-mcq-16",
+        "fog-mcq-07",
+        "fog-mcq-15"
       ],
       "explanation": "本句的「fog」指「思考、理解或判斷不清楚的狀態；迷霧／困惑」。",
       "sentenceIndex": 9,
@@ -627,12 +605,10 @@ export default {
         "fog"
       ],
       "optionReasons": {
-        "fog-mcq-04": "本句指「思考、理解或判斷不清楚的狀態；迷霧／困惑」。",
-        "fog-mcq-03": "「因霧氣造成視線模糊、能見度低的狀況」與本句語境不同。",
-        "fog-mcq-05": "「思路模糊、難以集中或清楚思考的狀態」與本句語境不同。",
-        "fog-mcq-02": "「能見度很低的濃霧／大霧」與本句語境不同。",
-        "fog-mcq-06": "「非正式指腦袋昏沉、專注力差、思考不清的狀態」與本句語境不同。",
-        "fog-mcq-01": "「接近地面的微小水滴形成、使能見度下降的霧／濃霧」與本句語境不同。"
+        "fog-mcq-04": "本句的「fog」指「思考、理解或判斷不清楚的狀態；迷霧／困惑」。",
+        "fog-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-04"
     },
@@ -644,11 +620,9 @@ export default {
       "masked": "Lack of sleep gave me terrible ____.",
       "options": [
         "fog-mcq-05",
-        "fog-mcq-04",
-        "fog-mcq-06",
-        "fog-mcq-03",
-        "fog-mcq-07",
-        "fog-mcq-02"
+        "fog-mcq-02",
+        "fog-mcq-13",
+        "fog-mcq-07"
       ],
       "explanation": "本句的「mental fog」指「思路模糊、難以集中或清楚思考的狀態」。",
       "sentenceIndex": 10,
@@ -657,12 +631,10 @@ export default {
         "mental fog"
       ],
       "optionReasons": {
-        "fog-mcq-05": "本句指「思路模糊、難以集中或清楚思考的狀態」。",
-        "fog-mcq-04": "「思考、理解或判斷不清楚的狀態；迷霧／困惑」與本句語境不同。",
-        "fog-mcq-06": "「非正式指腦袋昏沉、專注力差、思考不清的狀態」與本句語境不同。",
-        "fog-mcq-03": "「因霧氣造成視線模糊、能見度低的狀況」與本句語境不同。",
-        "fog-mcq-07": "「天氣中的霧逐漸消散」與本句語境不同。",
-        "fog-mcq-02": "「能見度很低的濃霧／大霧」與本句語境不同。"
+        "fog-mcq-05": "本句的「mental fog」指「思路模糊、難以集中或清楚思考的狀態」。",
+        "fog-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-05"
     },
@@ -674,11 +646,9 @@ export default {
       "masked": "She found it hard to work through the ____.",
       "options": [
         "fog-mcq-05",
-        "fog-mcq-04",
-        "fog-mcq-06",
-        "fog-mcq-03",
-        "fog-mcq-07",
-        "fog-mcq-02"
+        "fog-mcq-02",
+        "fog-mcq-15",
+        "fog-mcq-07"
       ],
       "explanation": "本句的「mental fog」指「思路模糊、難以集中或清楚思考的狀態」。",
       "sentenceIndex": 11,
@@ -687,12 +657,10 @@ export default {
         "mental fog"
       ],
       "optionReasons": {
-        "fog-mcq-05": "本句指「思路模糊、難以集中或清楚思考的狀態」。",
-        "fog-mcq-04": "「思考、理解或判斷不清楚的狀態；迷霧／困惑」與本句語境不同。",
-        "fog-mcq-06": "「非正式指腦袋昏沉、專注力差、思考不清的狀態」與本句語境不同。",
-        "fog-mcq-03": "「因霧氣造成視線模糊、能見度低的狀況」與本句語境不同。",
-        "fog-mcq-07": "「天氣中的霧逐漸消散」與本句語境不同。",
-        "fog-mcq-02": "「能見度很低的濃霧／大霧」與本句語境不同。"
+        "fog-mcq-05": "本句的「mental fog」指「思路模糊、難以集中或清楚思考的狀態」。",
+        "fog-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-05"
     },
@@ -704,11 +672,9 @@ export default {
       "masked": "I had terrible ____ after staying up all night.",
       "options": [
         "fog-mcq-06",
-        "fog-mcq-05",
-        "fog-mcq-07",
-        "fog-mcq-04",
-        "fog-mcq-08",
-        "fog-mcq-03"
+        "fog-mcq-14",
+        "fog-mcq-09",
+        "fog-mcq-10"
       ],
       "explanation": "本句的「brain fog」指「非正式指腦袋昏沉、專注力差、思考不清的狀態」。",
       "sentenceIndex": 12,
@@ -717,12 +683,10 @@ export default {
         "brain fog"
       ],
       "optionReasons": {
-        "fog-mcq-06": "本句指「非正式指腦袋昏沉、專注力差、思考不清的狀態」。",
-        "fog-mcq-05": "「思路模糊、難以集中或清楚思考的狀態」與本句語境不同。",
-        "fog-mcq-07": "「天氣中的霧逐漸消散」與本句語境不同。",
-        "fog-mcq-04": "「思考、理解或判斷不清楚的狀態；迷霧／困惑」與本句語境不同。",
-        "fog-mcq-08": "「原本的困惑突然消失，事情開始變得清楚」與本句語境不同。",
-        "fog-mcq-03": "「因霧氣造成視線模糊、能見度低的狀況」與本句語境不同。"
+        "fog-mcq-06": "本句的「brain fog」指「非正式指腦袋昏沉、專注力差、思考不清的狀態」。",
+        "fog-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-06"
     },
@@ -734,11 +698,9 @@ export default {
       "masked": "Stress and tiredness can contribute to ____.",
       "options": [
         "fog-mcq-06",
-        "fog-mcq-05",
-        "fog-mcq-07",
-        "fog-mcq-04",
-        "fog-mcq-08",
-        "fog-mcq-03"
+        "fog-mcq-14",
+        "fog-mcq-09",
+        "fog-mcq-16"
       ],
       "explanation": "本句的「brain fog」指「非正式指腦袋昏沉、專注力差、思考不清的狀態」。",
       "sentenceIndex": 13,
@@ -747,12 +709,10 @@ export default {
         "brain fog"
       ],
       "optionReasons": {
-        "fog-mcq-06": "本句指「非正式指腦袋昏沉、專注力差、思考不清的狀態」。",
-        "fog-mcq-05": "「思路模糊、難以集中或清楚思考的狀態」與本句語境不同。",
-        "fog-mcq-07": "「天氣中的霧逐漸消散」與本句語境不同。",
-        "fog-mcq-04": "「思考、理解或判斷不清楚的狀態；迷霧／困惑」與本句語境不同。",
-        "fog-mcq-08": "「原本的困惑突然消失，事情開始變得清楚」與本句語境不同。",
-        "fog-mcq-03": "「因霧氣造成視線模糊、能見度低的狀況」與本句語境不同。"
+        "fog-mcq-06": "本句的「brain fog」指「非正式指腦袋昏沉、專注力差、思考不清的狀態」。",
+        "fog-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-06"
     },
@@ -764,11 +724,9 @@ export default {
       "masked": "The ____ by midday.",
       "options": [
         "fog-mcq-07",
-        "fog-mcq-06",
-        "fog-mcq-08",
-        "fog-mcq-05",
-        "fog-mcq-09",
-        "fog-mcq-04"
+        "fog-mcq-18",
+        "fog-mcq-16",
+        "fog-mcq-15"
       ],
       "explanation": "本句的「fog lifted」指「天氣中的霧逐漸消散」。",
       "sentenceIndex": 14,
@@ -777,12 +735,10 @@ export default {
         "fog lifted"
       ],
       "optionReasons": {
-        "fog-mcq-07": "本句指「天氣中的霧逐漸消散」。",
-        "fog-mcq-06": "「非正式指腦袋昏沉、專注力差、思考不清的狀態」與本句語境不同。",
-        "fog-mcq-08": "「原本的困惑突然消失，事情開始變得清楚」與本句語境不同。",
-        "fog-mcq-05": "「思路模糊、難以集中或清楚思考的狀態」與本句語境不同。",
-        "fog-mcq-09": "「霧散去；比喻困惑逐漸消除」與本句語境不同。",
-        "fog-mcq-04": "「思考、理解或判斷不清楚的狀態；迷霧／困惑」與本句語境不同。"
+        "fog-mcq-07": "本句的「fog lifted」指「天氣中的霧逐漸消散」。",
+        "fog-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-07"
     },
@@ -795,10 +751,8 @@ export default {
       "options": [
         "fog-mcq-07",
         "fog-mcq-06",
-        "fog-mcq-08",
-        "fog-mcq-05",
-        "fog-mcq-09",
-        "fog-mcq-04"
+        "fog-mcq-16",
+        "fog-mcq-10"
       ],
       "explanation": "本句的「fog to lift」指「天氣中的霧逐漸消散」。",
       "sentenceIndex": 15,
@@ -807,12 +761,10 @@ export default {
         "fog to lift"
       ],
       "optionReasons": {
-        "fog-mcq-07": "本句指「天氣中的霧逐漸消散」。",
-        "fog-mcq-06": "「非正式指腦袋昏沉、專注力差、思考不清的狀態」與本句語境不同。",
-        "fog-mcq-08": "「原本的困惑突然消失，事情開始變得清楚」與本句語境不同。",
-        "fog-mcq-05": "「思路模糊、難以集中或清楚思考的狀態」與本句語境不同。",
-        "fog-mcq-09": "「霧散去；比喻困惑逐漸消除」與本句語境不同。",
-        "fog-mcq-04": "「思考、理解或判斷不清楚的狀態；迷霧／困惑」與本句語境不同。"
+        "fog-mcq-07": "本句的「fog to lift」指「天氣中的霧逐漸消散」。",
+        "fog-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-07"
     },
@@ -824,11 +776,9 @@ export default {
       "masked": "After one good example, the ____.",
       "options": [
         "fog-mcq-08",
-        "fog-mcq-07",
-        "fog-mcq-09",
-        "fog-mcq-06",
-        "fog-mcq-10",
-        "fog-mcq-05"
+        "fog-mcq-13",
+        "fog-mcq-16",
+        "fog-mcq-07"
       ],
       "explanation": "本句的「fog lifted」指「原本的困惑突然消失，事情開始變得清楚」。",
       "sentenceIndex": 16,
@@ -837,12 +787,10 @@ export default {
         "fog lifted"
       ],
       "optionReasons": {
-        "fog-mcq-08": "本句指「原本的困惑突然消失，事情開始變得清楚」。",
-        "fog-mcq-07": "「天氣中的霧逐漸消散」與本句語境不同。",
-        "fog-mcq-09": "「霧散去；比喻困惑逐漸消除」與本句語境不同。",
-        "fog-mcq-06": "「非正式指腦袋昏沉、專注力差、思考不清的狀態」與本句語境不同。",
-        "fog-mcq-10": "「玻璃、鏡片等因凝結水氣而起霧」與本句語境不同。",
-        "fog-mcq-05": "「思路模糊、難以集中或清楚思考的狀態」與本句語境不同。"
+        "fog-mcq-08": "本句的「fog lifted」指「原本的困惑突然消失，事情開始變得清楚」。",
+        "fog-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-08"
     },
@@ -854,11 +802,7 @@ export default {
       "masked": "As she explained the process, the ____.",
       "options": [
         "fog-mcq-08",
-        "fog-mcq-07",
-        "fog-mcq-09",
-        "fog-mcq-06",
-        "fog-mcq-10",
-        "fog-mcq-05"
+        "fog-mcq-17"
       ],
       "explanation": "本句的「fog began to lift」指「原本的困惑突然消失，事情開始變得清楚」。",
       "sentenceIndex": 17,
@@ -867,12 +811,8 @@ export default {
         "fog began to lift"
       ],
       "optionReasons": {
-        "fog-mcq-08": "本句指「原本的困惑突然消失，事情開始變得清楚」。",
-        "fog-mcq-07": "「天氣中的霧逐漸消散」與本句語境不同。",
-        "fog-mcq-09": "「霧散去；比喻困惑逐漸消除」與本句語境不同。",
-        "fog-mcq-06": "「非正式指腦袋昏沉、專注力差、思考不清的狀態」與本句語境不同。",
-        "fog-mcq-10": "「玻璃、鏡片等因凝結水氣而起霧」與本句語境不同。",
-        "fog-mcq-05": "「思路模糊、難以集中或清楚思考的狀態」與本句語境不同。"
+        "fog-mcq-08": "本句的「fog began to lift」指「原本的困惑突然消失，事情開始變得清楚」。",
+        "fog-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-08"
     },
@@ -884,11 +824,9 @@ export default {
       "masked": "The ____ in the afternoon.",
       "options": [
         "fog-mcq-09",
-        "fog-mcq-08",
-        "fog-mcq-10",
-        "fog-mcq-07",
-        "fog-mcq-11",
-        "fog-mcq-06"
+        "fog-mcq-12",
+        "fog-mcq-15",
+        "fog-mcq-10"
       ],
       "explanation": "本句的「fog cleared」指「霧散去；比喻困惑逐漸消除」。",
       "sentenceIndex": 18,
@@ -897,12 +835,10 @@ export default {
         "fog cleared"
       ],
       "optionReasons": {
-        "fog-mcq-09": "本句指「霧散去；比喻困惑逐漸消除」。",
-        "fog-mcq-08": "「原本的困惑突然消失，事情開始變得清楚」與本句語境不同。",
-        "fog-mcq-10": "「玻璃、鏡片等因凝結水氣而起霧」與本句語境不同。",
-        "fog-mcq-07": "「天氣中的霧逐漸消散」與本句語境不同。",
-        "fog-mcq-11": "「使某人的思考或判斷變得模糊不清」與本句語境不同。",
-        "fog-mcq-06": "「非正式指腦袋昏沉、專注力差、思考不清的狀態」與本句語境不同。"
+        "fog-mcq-09": "本句的「fog cleared」指「霧散去；比喻困惑逐漸消除」。",
+        "fog-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-09"
     },
@@ -914,11 +850,9 @@ export default {
       "masked": "Once I saw the diagram, the ____.",
       "options": [
         "fog-mcq-09",
-        "fog-mcq-08",
-        "fog-mcq-10",
-        "fog-mcq-07",
         "fog-mcq-11",
-        "fog-mcq-06"
+        "fog-mcq-14",
+        "fog-mcq-16"
       ],
       "explanation": "本句的「fog cleared」指「霧散去；比喻困惑逐漸消除」。",
       "sentenceIndex": 19,
@@ -927,12 +861,10 @@ export default {
         "fog cleared"
       ],
       "optionReasons": {
-        "fog-mcq-09": "本句指「霧散去；比喻困惑逐漸消除」。",
-        "fog-mcq-08": "「原本的困惑突然消失，事情開始變得清楚」與本句語境不同。",
-        "fog-mcq-10": "「玻璃、鏡片等因凝結水氣而起霧」與本句語境不同。",
-        "fog-mcq-07": "「天氣中的霧逐漸消散」與本句語境不同。",
-        "fog-mcq-11": "「使某人的思考或判斷變得模糊不清」與本句語境不同。",
-        "fog-mcq-06": "「非正式指腦袋昏沉、專注力差、思考不清的狀態」與本句語境不同。"
+        "fog-mcq-09": "本句的「fog cleared」指「霧散去；比喻困惑逐漸消除」。",
+        "fog-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-09"
     },
@@ -944,11 +876,9 @@ export default {
       "masked": "The windows ____.",
       "options": [
         "fog-mcq-10",
-        "fog-mcq-09",
         "fog-mcq-11",
-        "fog-mcq-08",
-        "fog-mcq-12",
-        "fog-mcq-07"
+        "fog-mcq-02",
+        "fog-mcq-09"
       ],
       "explanation": "本句的「fogged up」指「玻璃、鏡片等因凝結水氣而起霧」。",
       "sentenceIndex": 22,
@@ -957,12 +887,10 @@ export default {
         "fogged up"
       ],
       "optionReasons": {
-        "fog-mcq-10": "本句指「玻璃、鏡片等因凝結水氣而起霧」。",
-        "fog-mcq-09": "「霧散去；比喻困惑逐漸消除」與本句語境不同。",
-        "fog-mcq-11": "「使某人的思考或判斷變得模糊不清」與本句語境不同。",
-        "fog-mcq-08": "「原本的困惑突然消失，事情開始變得清楚」與本句語境不同。",
-        "fog-mcq-12": "「使問題焦點變得更不清楚、更難理解」與本句語境不同。",
-        "fog-mcq-07": "「天氣中的霧逐漸消散」與本句語境不同。"
+        "fog-mcq-10": "本句的「fogged up」指「玻璃、鏡片等因凝結水氣而起霧」。",
+        "fog-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-10"
     },
@@ -974,11 +902,9 @@ export default {
       "masked": "My camera lens ____ in the humidity.",
       "options": [
         "fog-mcq-10",
-        "fog-mcq-09",
-        "fog-mcq-11",
-        "fog-mcq-08",
-        "fog-mcq-12",
-        "fog-mcq-07"
+        "fog-mcq-05",
+        "fog-mcq-02",
+        "fog-mcq-09"
       ],
       "explanation": "本句的「fogged up」指「玻璃、鏡片等因凝結水氣而起霧」。",
       "sentenceIndex": 23,
@@ -987,12 +913,10 @@ export default {
         "fogged up"
       ],
       "optionReasons": {
-        "fog-mcq-10": "本句指「玻璃、鏡片等因凝結水氣而起霧」。",
-        "fog-mcq-09": "「霧散去；比喻困惑逐漸消除」與本句語境不同。",
-        "fog-mcq-11": "「使某人的思考或判斷變得模糊不清」與本句語境不同。",
-        "fog-mcq-08": "「原本的困惑突然消失，事情開始變得清楚」與本句語境不同。",
-        "fog-mcq-12": "「使問題焦點變得更不清楚、更難理解」與本句語境不同。",
-        "fog-mcq-07": "「天氣中的霧逐漸消散」與本句語境不同。"
+        "fog-mcq-10": "本句的「fogged up」指「玻璃、鏡片等因凝結水氣而起霧」。",
+        "fog-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-10"
     },
@@ -1004,11 +928,9 @@ export default {
       "masked": "Fear can ____.",
       "options": [
         "fog-mcq-11",
-        "fog-mcq-10",
-        "fog-mcq-12",
-        "fog-mcq-09",
+        "fog-mcq-16",
         "fog-mcq-13",
-        "fog-mcq-08"
+        "fog-mcq-07"
       ],
       "explanation": "本句的「fog your judgment」指「使某人的思考或判斷變得模糊不清」。",
       "sentenceIndex": 24,
@@ -1017,12 +939,10 @@ export default {
         "fog your judgment"
       ],
       "optionReasons": {
-        "fog-mcq-11": "本句指「使某人的思考或判斷變得模糊不清」。",
-        "fog-mcq-10": "「玻璃、鏡片等因凝結水氣而起霧」與本句語境不同。",
-        "fog-mcq-12": "「使問題焦點變得更不清楚、更難理解」與本句語境不同。",
-        "fog-mcq-09": "「霧散去；比喻困惑逐漸消除」與本句語境不同。",
-        "fog-mcq-13": "「使玻璃、鏡片等蒙上霧氣」與本句語境不同。",
-        "fog-mcq-08": "「原本的困惑突然消失，事情開始變得清楚」與本句語境不同。"
+        "fog-mcq-11": "本句的「fog your judgment」指「使某人的思考或判斷變得模糊不清」。",
+        "fog-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-11"
     },
@@ -1034,11 +954,9 @@ export default {
       "masked": "Exhaustion ____.",
       "options": [
         "fog-mcq-11",
+        "fog-mcq-07",
         "fog-mcq-10",
-        "fog-mcq-12",
-        "fog-mcq-09",
-        "fog-mcq-13",
-        "fog-mcq-08"
+        "fog-mcq-02"
       ],
       "explanation": "本句的「fogged his thinking」指「使某人的思考或判斷變得模糊不清」。",
       "sentenceIndex": 25,
@@ -1047,12 +965,10 @@ export default {
         "fogged his thinking"
       ],
       "optionReasons": {
-        "fog-mcq-11": "本句指「使某人的思考或判斷變得模糊不清」。",
-        "fog-mcq-10": "「玻璃、鏡片等因凝結水氣而起霧」與本句語境不同。",
-        "fog-mcq-12": "「使問題焦點變得更不清楚、更難理解」與本句語境不同。",
-        "fog-mcq-09": "「霧散去；比喻困惑逐漸消除」與本句語境不同。",
-        "fog-mcq-13": "「使玻璃、鏡片等蒙上霧氣」與本句語境不同。",
-        "fog-mcq-08": "「原本的困惑突然消失，事情開始變得清楚」與本句語境不同。"
+        "fog-mcq-11": "本句的「fogged his thinking」指「使某人的思考或判斷變得模糊不清」。",
+        "fog-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-11"
     },
@@ -1064,11 +980,9 @@ export default {
       "masked": "Too many side arguments ____.",
       "options": [
         "fog-mcq-12",
-        "fog-mcq-11",
-        "fog-mcq-13",
+        "fog-mcq-09",
         "fog-mcq-10",
-        "fog-mcq-14",
-        "fog-mcq-09"
+        "fog-mcq-16"
       ],
       "explanation": "本句的「fogged the issue」指「使問題焦點變得更不清楚、更難理解」。",
       "sentenceIndex": 26,
@@ -1077,12 +991,10 @@ export default {
         "fogged the issue"
       ],
       "optionReasons": {
-        "fog-mcq-12": "本句指「使問題焦點變得更不清楚、更難理解」。",
-        "fog-mcq-11": "「使某人的思考或判斷變得模糊不清」與本句語境不同。",
-        "fog-mcq-13": "「使玻璃、鏡片等蒙上霧氣」與本句語境不同。",
-        "fog-mcq-10": "「玻璃、鏡片等因凝結水氣而起霧」與本句語境不同。",
-        "fog-mcq-14": "「舞台、電影等用人造蒸氣形成的霧效」與本句語境不同。",
-        "fog-mcq-09": "「霧散去；比喻困惑逐漸消除」與本句語境不同。"
+        "fog-mcq-12": "本句的「fogged the issue」指「使問題焦點變得更不清楚、更難理解」。",
+        "fog-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-12"
     },
@@ -1094,11 +1006,7 @@ export default {
       "masked": "Emotional language can ____.",
       "options": [
         "fog-mcq-12",
-        "fog-mcq-11",
-        "fog-mcq-13",
-        "fog-mcq-10",
-        "fog-mcq-14",
-        "fog-mcq-09"
+        "fog-mcq-17"
       ],
       "explanation": "本句的「fog the issue」指「使問題焦點變得更不清楚、更難理解」。",
       "sentenceIndex": 27,
@@ -1107,12 +1015,8 @@ export default {
         "fog the issue"
       ],
       "optionReasons": {
-        "fog-mcq-12": "本句指「使問題焦點變得更不清楚、更難理解」。",
-        "fog-mcq-11": "「使某人的思考或判斷變得模糊不清」與本句語境不同。",
-        "fog-mcq-13": "「使玻璃、鏡片等蒙上霧氣」與本句語境不同。",
-        "fog-mcq-10": "「玻璃、鏡片等因凝結水氣而起霧」與本句語境不同。",
-        "fog-mcq-14": "「舞台、電影等用人造蒸氣形成的霧效」與本句語境不同。",
-        "fog-mcq-09": "「霧散去；比喻困惑逐漸消除」與本句語境不同。"
+        "fog-mcq-12": "本句的「fog the issue」指「使問題焦點變得更不清楚、更難理解」。",
+        "fog-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-12"
     },
@@ -1124,11 +1028,9 @@ export default {
       "masked": "His breath ____.",
       "options": [
         "fog-mcq-13",
-        "fog-mcq-12",
-        "fog-mcq-14",
-        "fog-mcq-11",
-        "fog-mcq-15",
-        "fog-mcq-10"
+        "fog-mcq-05",
+        "fog-mcq-09",
+        "fog-mcq-02"
       ],
       "explanation": "本句的「fogged the glass」指「使玻璃、鏡片等蒙上霧氣」。",
       "sentenceIndex": 28,
@@ -1137,12 +1039,10 @@ export default {
         "fogged the glass"
       ],
       "optionReasons": {
-        "fog-mcq-13": "本句指「使玻璃、鏡片等蒙上霧氣」。",
-        "fog-mcq-12": "「使問題焦點變得更不清楚、更難理解」與本句語境不同。",
-        "fog-mcq-14": "「舞台、電影等用人造蒸氣形成的霧效」與本句語境不同。",
-        "fog-mcq-11": "「使某人的思考或判斷變得模糊不清」與本句語境不同。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。",
-        "fog-mcq-10": "「玻璃、鏡片等因凝結水氣而起霧」與本句語境不同。"
+        "fog-mcq-13": "本句的「fogged the glass」指「使玻璃、鏡片等蒙上霧氣」。",
+        "fog-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-13"
     },
@@ -1154,11 +1054,9 @@ export default {
       "masked": "Steam ____.",
       "options": [
         "fog-mcq-13",
-        "fog-mcq-12",
-        "fog-mcq-14",
-        "fog-mcq-11",
-        "fog-mcq-15",
-        "fog-mcq-10"
+        "fog-mcq-06",
+        "fog-mcq-09",
+        "fog-mcq-02"
       ],
       "explanation": "本句的「fogged the camera lens」指「使玻璃、鏡片等蒙上霧氣」。",
       "sentenceIndex": 29,
@@ -1167,12 +1065,10 @@ export default {
         "fogged the camera lens"
       ],
       "optionReasons": {
-        "fog-mcq-13": "本句指「使玻璃、鏡片等蒙上霧氣」。",
-        "fog-mcq-12": "「使問題焦點變得更不清楚、更難理解」與本句語境不同。",
-        "fog-mcq-14": "「舞台、電影等用人造蒸氣形成的霧效」與本句語境不同。",
-        "fog-mcq-11": "「使某人的思考或判斷變得模糊不清」與本句語境不同。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。",
-        "fog-mcq-10": "「玻璃、鏡片等因凝結水氣而起霧」與本句語境不同。"
+        "fog-mcq-13": "本句的「fogged the camera lens」指「使玻璃、鏡片等蒙上霧氣」。",
+        "fog-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-13"
     },
@@ -1184,11 +1080,9 @@ export default {
       "masked": "The stage was filled with ____.",
       "options": [
         "fog-mcq-14",
-        "fog-mcq-13",
-        "fog-mcq-15",
         "fog-mcq-12",
         "fog-mcq-16",
-        "fog-mcq-11"
+        "fog-mcq-09"
       ],
       "explanation": "本句的「fog」指「舞台、電影等用人造蒸氣形成的霧效」。",
       "sentenceIndex": 30,
@@ -1197,12 +1091,10 @@ export default {
         "fog"
       ],
       "optionReasons": {
-        "fog-mcq-14": "本句指「舞台、電影等用人造蒸氣形成的霧效」。",
-        "fog-mcq-13": "「使玻璃、鏡片等蒙上霧氣」與本句語境不同。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。",
-        "fog-mcq-12": "「使問題焦點變得更不清楚、更難理解」與本句語境不同。",
-        "fog-mcq-16": "「一大片聚集的濃霧；霧帶」與本句語境不同。",
-        "fog-mcq-11": "「使某人的思考或判斷變得模糊不清」與本句語境不同。"
+        "fog-mcq-14": "本句的「fog」指「舞台、電影等用人造蒸氣形成的霧效」。",
+        "fog-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-14"
     },
@@ -1214,11 +1106,9 @@ export default {
       "masked": "The concert used ____ during the opening.",
       "options": [
         "fog-mcq-14",
-        "fog-mcq-13",
-        "fog-mcq-15",
-        "fog-mcq-12",
-        "fog-mcq-16",
-        "fog-mcq-11"
+        "fog-mcq-08",
+        "fog-mcq-02",
+        "fog-mcq-10"
       ],
       "explanation": "本句的「fog effects」指「舞台、電影等用人造蒸氣形成的霧效」。",
       "sentenceIndex": 31,
@@ -1227,12 +1117,10 @@ export default {
         "fog effects"
       ],
       "optionReasons": {
-        "fog-mcq-14": "本句指「舞台、電影等用人造蒸氣形成的霧效」。",
-        "fog-mcq-13": "「使玻璃、鏡片等蒙上霧氣」與本句語境不同。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。",
-        "fog-mcq-12": "「使問題焦點變得更不清楚、更難理解」與本句語境不同。",
-        "fog-mcq-16": "「一大片聚集的濃霧；霧帶」與本句語境不同。",
-        "fog-mcq-11": "「使某人的思考或判斷變得模糊不清」與本句語境不同。"
+        "fog-mcq-14": "本句的「fog effects」指「舞台、電影等用人造蒸氣形成的霧效」。",
+        "fog-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-14"
     },
@@ -1244,11 +1132,9 @@ export default {
       "masked": "The stage crew turned on the ____.",
       "options": [
         "fog-mcq-15",
-        "fog-mcq-14",
+        "fog-mcq-18",
         "fog-mcq-16",
-        "fog-mcq-13",
-        "fog-mcq-17",
-        "fog-mcq-12"
+        "fog-mcq-09"
       ],
       "explanation": "本句的「fog machine」指「製造舞台／特效霧氣的煙霧機／造霧機」。",
       "sentenceIndex": 32,
@@ -1257,12 +1143,10 @@ export default {
         "fog machine"
       ],
       "optionReasons": {
-        "fog-mcq-15": "本句指「製造舞台／特效霧氣的煙霧機／造霧機」。",
-        "fog-mcq-14": "「舞台、電影等用人造蒸氣形成的霧效」與本句語境不同。",
-        "fog-mcq-16": "「一大片聚集的濃霧；霧帶」與本句語境不同。",
-        "fog-mcq-13": "「使玻璃、鏡片等蒙上霧氣」與本句語境不同。",
-        "fog-mcq-17": "「有霧、霧氣很重的」與本句語境不同。",
-        "fog-mcq-12": "「使問題焦點變得更不清楚、更難理解」與本句語境不同。"
+        "fog-mcq-15": "本句的「fog machine」指「製造舞台／特效霧氣的煙霧機／造霧機」。",
+        "fog-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-15"
     },
@@ -1274,11 +1158,9 @@ export default {
       "masked": "A ____ was used to create atmosphere.",
       "options": [
         "fog-mcq-15",
-        "fog-mcq-14",
-        "fog-mcq-16",
-        "fog-mcq-13",
-        "fog-mcq-17",
-        "fog-mcq-12"
+        "fog-mcq-11",
+        "fog-mcq-02",
+        "fog-mcq-09"
       ],
       "explanation": "本句的「fog machine」指「製造舞台／特效霧氣的煙霧機／造霧機」。",
       "sentenceIndex": 33,
@@ -1287,12 +1169,10 @@ export default {
         "fog machine"
       ],
       "optionReasons": {
-        "fog-mcq-15": "本句指「製造舞台／特效霧氣的煙霧機／造霧機」。",
-        "fog-mcq-14": "「舞台、電影等用人造蒸氣形成的霧效」與本句語境不同。",
-        "fog-mcq-16": "「一大片聚集的濃霧；霧帶」與本句語境不同。",
-        "fog-mcq-13": "「使玻璃、鏡片等蒙上霧氣」與本句語境不同。",
-        "fog-mcq-17": "「有霧、霧氣很重的」與本句語境不同。",
-        "fog-mcq-12": "「使問題焦點變得更不清楚、更難理解」與本句語境不同。"
+        "fog-mcq-15": "本句的「fog machine」指「製造舞台／特效霧氣的煙霧機／造霧機」。",
+        "fog-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-15"
     },
@@ -1304,11 +1184,9 @@ export default {
       "masked": "A ____ moved in from the sea.",
       "options": [
         "fog-mcq-16",
-        "fog-mcq-15",
-        "fog-mcq-17",
-        "fog-mcq-14",
-        "fog-mcq-18",
-        "fog-mcq-13"
+        "fog-mcq-08",
+        "fog-mcq-07",
+        "fog-mcq-15"
       ],
       "explanation": "本句的「fog bank」指「一大片聚集的濃霧；霧帶」。",
       "sentenceIndex": 34,
@@ -1317,12 +1195,10 @@ export default {
         "fog bank"
       ],
       "optionReasons": {
-        "fog-mcq-16": "本句指「一大片聚集的濃霧；霧帶」。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。",
-        "fog-mcq-17": "「有霧、霧氣很重的」與本句語境不同。",
-        "fog-mcq-14": "「舞台、電影等用人造蒸氣形成的霧效」與本句語境不同。",
-        "fog-mcq-18": "「思路、記憶或理解模糊不清的」與本句語境不同。",
-        "fog-mcq-13": "「使玻璃、鏡片等蒙上霧氣」與本句語境不同。"
+        "fog-mcq-16": "本句的「fog bank」指「一大片聚集的濃霧；霧帶」。",
+        "fog-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-16"
     },
@@ -1334,11 +1210,9 @@ export default {
       "masked": "The boat disappeared into a ____.",
       "options": [
         "fog-mcq-16",
-        "fog-mcq-15",
-        "fog-mcq-17",
-        "fog-mcq-14",
-        "fog-mcq-18",
-        "fog-mcq-13"
+        "fog-mcq-06",
+        "fog-mcq-07",
+        "fog-mcq-15"
       ],
       "explanation": "本句的「fog bank」指「一大片聚集的濃霧；霧帶」。",
       "sentenceIndex": 35,
@@ -1347,12 +1221,10 @@ export default {
         "fog bank"
       ],
       "optionReasons": {
-        "fog-mcq-16": "本句指「一大片聚集的濃霧；霧帶」。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。",
-        "fog-mcq-17": "「有霧、霧氣很重的」與本句語境不同。",
-        "fog-mcq-14": "「舞台、電影等用人造蒸氣形成的霧效」與本句語境不同。",
-        "fog-mcq-18": "「思路、記憶或理解模糊不清的」與本句語境不同。",
-        "fog-mcq-13": "「使玻璃、鏡片等蒙上霧氣」與本句語境不同。"
+        "fog-mcq-16": "本句的「fog bank」指「一大片聚集的濃霧；霧帶」。",
+        "fog-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-16"
     },
@@ -1364,11 +1236,9 @@ export default {
       "masked": "A ____ was issued overnight.",
       "options": [
         "fog-mcq-16",
-        "fog-mcq-15",
-        "fog-mcq-17",
+        "fog-mcq-08",
         "fog-mcq-14",
-        "fog-mcq-18",
-        "fog-mcq-13"
+        "fog-mcq-10"
       ],
       "explanation": "本句的「fog warning」指「一大片聚集的濃霧；霧帶」。",
       "sentenceIndex": 36,
@@ -1377,12 +1247,10 @@ export default {
         "fog warning"
       ],
       "optionReasons": {
-        "fog-mcq-16": "本句指「一大片聚集的濃霧；霧帶」。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。",
-        "fog-mcq-17": "「有霧、霧氣很重的」與本句語境不同。",
-        "fog-mcq-14": "「舞台、電影等用人造蒸氣形成的霧效」與本句語境不同。",
-        "fog-mcq-18": "「思路、記憶或理解模糊不清的」與本句語境不同。",
-        "fog-mcq-13": "「使玻璃、鏡片等蒙上霧氣」與本句語境不同。"
+        "fog-mcq-16": "本句的「fog warning」指「一大片聚集的濃霧；霧帶」。",
+        "fog-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-16"
     },
@@ -1394,11 +1262,9 @@ export default {
       "masked": "Drivers were advised to slow down during the ____.",
       "options": [
         "fog-mcq-16",
-        "fog-mcq-15",
-        "fog-mcq-17",
-        "fog-mcq-14",
-        "fog-mcq-18",
-        "fog-mcq-13"
+        "fog-mcq-06",
+        "fog-mcq-20",
+        "fog-mcq-14"
       ],
       "explanation": "本句的「fog warning」指「一大片聚集的濃霧；霧帶」。",
       "sentenceIndex": 37,
@@ -1407,12 +1273,10 @@ export default {
         "fog warning"
       ],
       "optionReasons": {
-        "fog-mcq-16": "本句指「一大片聚集的濃霧；霧帶」。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。",
-        "fog-mcq-17": "「有霧、霧氣很重的」與本句語境不同。",
-        "fog-mcq-14": "「舞台、電影等用人造蒸氣形成的霧效」與本句語境不同。",
-        "fog-mcq-18": "「思路、記憶或理解模糊不清的」與本句語境不同。",
-        "fog-mcq-13": "「使玻璃、鏡片等蒙上霧氣」與本句語境不同。"
+        "fog-mcq-16": "本句的「fog warning」指「一大片聚集的濃霧；霧帶」。",
+        "fog-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-16"
     },
@@ -1424,11 +1288,7 @@ export default {
       "masked": "It was a cold, ____.",
       "options": [
         "fog-mcq-17",
-        "fog-mcq-16",
-        "fog-mcq-18",
-        "fog-mcq-15",
-        "fog-mcq-19",
-        "fog-mcq-14"
+        "fog-mcq-08"
       ],
       "explanation": "本句的「foggy morning」指「有霧、霧氣很重的」。",
       "sentenceIndex": 38,
@@ -1437,12 +1297,8 @@ export default {
         "foggy morning"
       ],
       "optionReasons": {
-        "fog-mcq-17": "本句指「有霧、霧氣很重的」。",
-        "fog-mcq-16": "「一大片聚集的濃霧；霧帶」與本句語境不同。",
-        "fog-mcq-18": "「思路、記憶或理解模糊不清的」與本句語境不同。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。",
-        "fog-mcq-19": "「一頭霧水、迷迷糊糊、無法清楚思考」與本句語境不同。",
-        "fog-mcq-14": "「舞台、電影等用人造蒸氣形成的霧效」與本句語境不同。"
+        "fog-mcq-17": "本句的「foggy morning」指「有霧、霧氣很重的」。",
+        "fog-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-17"
     },
@@ -1454,11 +1310,7 @@ export default {
       "masked": "The road was difficult to see in the ____.",
       "options": [
         "fog-mcq-17",
-        "fog-mcq-16",
-        "fog-mcq-18",
-        "fog-mcq-15",
-        "fog-mcq-19",
-        "fog-mcq-14"
+        "fog-mcq-05"
       ],
       "explanation": "本句的「foggy conditions」指「有霧、霧氣很重的」。",
       "sentenceIndex": 39,
@@ -1467,12 +1319,8 @@ export default {
         "foggy conditions"
       ],
       "optionReasons": {
-        "fog-mcq-17": "本句指「有霧、霧氣很重的」。",
-        "fog-mcq-16": "「一大片聚集的濃霧；霧帶」與本句語境不同。",
-        "fog-mcq-18": "「思路、記憶或理解模糊不清的」與本句語境不同。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。",
-        "fog-mcq-19": "「一頭霧水、迷迷糊糊、無法清楚思考」與本句語境不同。",
-        "fog-mcq-14": "「舞台、電影等用人造蒸氣形成的霧效」與本句語境不同。"
+        "fog-mcq-17": "本句的「foggy conditions」指「有霧、霧氣很重的」。",
+        "fog-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-17"
     },
@@ -1484,11 +1332,9 @@ export default {
       "masked": "My memory of that day is a little ____.",
       "options": [
         "fog-mcq-18",
-        "fog-mcq-17",
-        "fog-mcq-19",
-        "fog-mcq-16",
-        "fog-mcq-20",
-        "fog-mcq-15"
+        "fog-mcq-13",
+        "fog-mcq-02",
+        "fog-mcq-07"
       ],
       "explanation": "本句的「foggy」指「思路、記憶或理解模糊不清的」。",
       "sentenceIndex": 40,
@@ -1497,12 +1343,10 @@ export default {
         "foggy"
       ],
       "optionReasons": {
-        "fog-mcq-18": "本句指「思路、記憶或理解模糊不清的」。",
-        "fog-mcq-17": "「有霧、霧氣很重的」與本句語境不同。",
-        "fog-mcq-19": "「一頭霧水、迷迷糊糊、無法清楚思考」與本句語境不同。",
-        "fog-mcq-16": "「一大片聚集的濃霧；霧帶」與本句語境不同。",
-        "fog-mcq-20": "「穿過實際霧氣；比喻在困惑中逐漸看清」與本句語境不同。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。"
+        "fog-mcq-18": "本句的「foggy」指「思路、記憶或理解模糊不清的」。",
+        "fog-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-18"
     },
@@ -1514,11 +1358,9 @@ export default {
       "masked": "I felt ____ after waking up.",
       "options": [
         "fog-mcq-18",
-        "fog-mcq-17",
-        "fog-mcq-19",
-        "fog-mcq-16",
-        "fog-mcq-20",
-        "fog-mcq-15"
+        "fog-mcq-14",
+        "fog-mcq-02",
+        "fog-mcq-10"
       ],
       "explanation": "本句的「foggy」指「思路、記憶或理解模糊不清的」。",
       "sentenceIndex": 41,
@@ -1527,12 +1369,10 @@ export default {
         "foggy"
       ],
       "optionReasons": {
-        "fog-mcq-18": "本句指「思路、記憶或理解模糊不清的」。",
-        "fog-mcq-17": "「有霧、霧氣很重的」與本句語境不同。",
-        "fog-mcq-19": "「一頭霧水、迷迷糊糊、無法清楚思考」與本句語境不同。",
-        "fog-mcq-16": "「一大片聚集的濃霧；霧帶」與本句語境不同。",
-        "fog-mcq-20": "「穿過實際霧氣；比喻在困惑中逐漸看清」與本句語境不同。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。"
+        "fog-mcq-18": "本句的「foggy」指「思路、記憶或理解模糊不清的」。",
+        "fog-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-18"
     },
@@ -1544,11 +1384,9 @@ export default {
       "masked": "The ____ disappeared as the sun rose.",
       "options": [
         "fog-mcq-18",
-        "fog-mcq-17",
-        "fog-mcq-19",
-        "fog-mcq-16",
-        "fog-mcq-20",
-        "fog-mcq-15"
+        "fog-mcq-13",
+        "fog-mcq-07",
+        "fog-mcq-16"
       ],
       "explanation": "本句的「fogginess」指「思路、記憶或理解模糊不清的」。",
       "sentenceIndex": 42,
@@ -1557,12 +1395,10 @@ export default {
         "fogginess"
       ],
       "optionReasons": {
-        "fog-mcq-18": "本句指「思路、記憶或理解模糊不清的」。",
-        "fog-mcq-17": "「有霧、霧氣很重的」與本句語境不同。",
-        "fog-mcq-19": "「一頭霧水、迷迷糊糊、無法清楚思考」與本句語境不同。",
-        "fog-mcq-16": "「一大片聚集的濃霧；霧帶」與本句語境不同。",
-        "fog-mcq-20": "「穿過實際霧氣；比喻在困惑中逐漸看清」與本句語境不同。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。"
+        "fog-mcq-18": "本句的「fogginess」指「思路、記憶或理解模糊不清的」。",
+        "fog-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-18"
     },
@@ -1574,11 +1410,9 @@ export default {
       "masked": "The mental ____ made concentration difficult.",
       "options": [
         "fog-mcq-18",
-        "fog-mcq-17",
-        "fog-mcq-19",
-        "fog-mcq-16",
-        "fog-mcq-20",
-        "fog-mcq-15"
+        "fog-mcq-07",
+        "fog-mcq-10",
+        "fog-mcq-16"
       ],
       "explanation": "本句的「fogginess」指「思路、記憶或理解模糊不清的」。",
       "sentenceIndex": 43,
@@ -1587,12 +1421,10 @@ export default {
         "fogginess"
       ],
       "optionReasons": {
-        "fog-mcq-18": "本句指「思路、記憶或理解模糊不清的」。",
-        "fog-mcq-17": "「有霧、霧氣很重的」與本句語境不同。",
-        "fog-mcq-19": "「一頭霧水、迷迷糊糊、無法清楚思考」與本句語境不同。",
-        "fog-mcq-16": "「一大片聚集的濃霧；霧帶」與本句語境不同。",
-        "fog-mcq-20": "「穿過實際霧氣；比喻在困惑中逐漸看清」與本句語境不同。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。"
+        "fog-mcq-18": "本句的「fogginess」指「思路、記憶或理解模糊不清的」。",
+        "fog-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-18"
     },
@@ -1604,11 +1436,9 @@ export default {
       "masked": "I spent the first half of the lesson ____.",
       "options": [
         "fog-mcq-19",
-        "fog-mcq-18",
-        "fog-mcq-20",
-        "fog-mcq-17",
+        "fog-mcq-09",
         "fog-mcq-16",
-        "fog-mcq-15"
+        "fog-mcq-14"
       ],
       "explanation": "本句的「in a fog」指「一頭霧水、迷迷糊糊、無法清楚思考」。",
       "sentenceIndex": 44,
@@ -1617,12 +1447,10 @@ export default {
         "in a fog"
       ],
       "optionReasons": {
-        "fog-mcq-19": "本句指「一頭霧水、迷迷糊糊、無法清楚思考」。",
-        "fog-mcq-18": "「思路、記憶或理解模糊不清的」與本句語境不同。",
-        "fog-mcq-20": "「穿過實際霧氣；比喻在困惑中逐漸看清」與本句語境不同。",
-        "fog-mcq-17": "「有霧、霧氣很重的」與本句語境不同。",
-        "fog-mcq-16": "「一大片聚集的濃霧；霧帶」與本句語境不同。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。"
+        "fog-mcq-19": "本句的「in a fog」指「一頭霧水、迷迷糊糊、無法清楚思考」。",
+        "fog-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-19"
     },
@@ -1634,11 +1462,9 @@ export default {
       "masked": "After the sudden news, she walked around ____.",
       "options": [
         "fog-mcq-19",
-        "fog-mcq-18",
-        "fog-mcq-20",
-        "fog-mcq-17",
-        "fog-mcq-16",
-        "fog-mcq-15"
+        "fog-mcq-13",
+        "fog-mcq-07",
+        "fog-mcq-02"
       ],
       "explanation": "本句的「in a fog」指「一頭霧水、迷迷糊糊、無法清楚思考」。",
       "sentenceIndex": 45,
@@ -1647,12 +1473,10 @@ export default {
         "in a fog"
       ],
       "optionReasons": {
-        "fog-mcq-19": "本句指「一頭霧水、迷迷糊糊、無法清楚思考」。",
-        "fog-mcq-18": "「思路、記憶或理解模糊不清的」與本句語境不同。",
-        "fog-mcq-20": "「穿過實際霧氣；比喻在困惑中逐漸看清」與本句語境不同。",
-        "fog-mcq-17": "「有霧、霧氣很重的」與本句語境不同。",
-        "fog-mcq-16": "「一大片聚集的濃霧；霧帶」與本句語境不同。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。"
+        "fog-mcq-19": "本句的「in a fog」指「一頭霧水、迷迷糊糊、無法清楚思考」。",
+        "fog-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-19"
     },
@@ -1664,11 +1488,9 @@ export default {
       "masked": "We could barely see ____.",
       "options": [
         "fog-mcq-20",
-        "fog-mcq-19",
-        "fog-mcq-18",
-        "fog-mcq-17",
-        "fog-mcq-16",
-        "fog-mcq-15"
+        "fog-mcq-02",
+        "fog-mcq-06",
+        "fog-mcq-10"
       ],
       "explanation": "本句的「through the fog」指「穿過實際霧氣；比喻在困惑中逐漸看清」。",
       "sentenceIndex": 46,
@@ -1677,12 +1499,10 @@ export default {
         "through the fog"
       ],
       "optionReasons": {
-        "fog-mcq-20": "本句指「穿過實際霧氣；比喻在困惑中逐漸看清」。",
-        "fog-mcq-19": "「一頭霧水、迷迷糊糊、無法清楚思考」與本句語境不同。",
-        "fog-mcq-18": "「思路、記憶或理解模糊不清的」與本句語境不同。",
-        "fog-mcq-17": "「有霧、霧氣很重的」與本句語境不同。",
-        "fog-mcq-16": "「一大片聚集的濃霧；霧帶」與本句語境不同。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。"
+        "fog-mcq-20": "本句的「through the fog」指「穿過實際霧氣；比喻在困惑中逐漸看清」。",
+        "fog-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-20"
     },
@@ -1694,11 +1514,9 @@ export default {
       "masked": "Her explanation helped us see ____.",
       "options": [
         "fog-mcq-20",
-        "fog-mcq-19",
-        "fog-mcq-18",
-        "fog-mcq-17",
+        "fog-mcq-12",
         "fog-mcq-16",
-        "fog-mcq-15"
+        "fog-mcq-10"
       ],
       "explanation": "本句的「through the fog」指「穿過實際霧氣；比喻在困惑中逐漸看清」。",
       "sentenceIndex": 47,
@@ -1707,12 +1525,10 @@ export default {
         "through the fog"
       ],
       "optionReasons": {
-        "fog-mcq-20": "本句指「穿過實際霧氣；比喻在困惑中逐漸看清」。",
-        "fog-mcq-19": "「一頭霧水、迷迷糊糊、無法清楚思考」與本句語境不同。",
-        "fog-mcq-18": "「思路、記憶或理解模糊不清的」與本句語境不同。",
-        "fog-mcq-17": "「有霧、霧氣很重的」與本句語境不同。",
-        "fog-mcq-16": "「一大片聚集的濃霧；霧帶」與本句語境不同。",
-        "fog-mcq-15": "「製造舞台／特效霧氣的煙霧機／造霧機」與本句語境不同。"
+        "fog-mcq-20": "本句的「through the fog」指「穿過實際霧氣；比喻在困惑中逐漸看清」。",
+        "fog-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fog-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fog-mcq-20"
     }
@@ -1724,5 +1540,7 @@ export default {
     "sha256": "22706672563261a3ee42c11d5e8cdf21a92816a5c25e454f171b6988e142c751",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -482,11 +482,9 @@ export default {
       "masked": "He was quite tall and ____.",
       "options": [
         "thin-mcq-19",
+        "thin-mcq-14",
         "thin-mcq-18",
-        "thin-mcq-20",
-        "thin-mcq-17",
-        "thin-mcq-16",
-        "thin-mcq-15"
+        "thin-pdf-001"
       ],
       "explanation": "本句的「thin」指「身體脂肪較少、身形不厚重的」。",
       "sentenceIndex": 0,
@@ -495,12 +493,10 @@ export default {
         "thin"
       ],
       "optionReasons": {
-        "thin-mcq-19": "本句指「身體脂肪較少、身形不厚重的」。",
-        "thin-mcq-18": "「憑空消失」是「vanish into thin air」的用法，與本句語境不同。",
-        "thin-mcq-20": "「從一面到另一面的厚度很小」是「3. thin（物件：薄的） — 薄的」的用法，與本句語境不同。",
-        "thin-mcq-17": "「如履薄冰」是「on thin ice」的用法，與本句語境不同。",
-        "thin-mcq-16": "「逐漸變少／稀疏」是「thin out」的用法，與本句語境不同。",
-        "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。"
+        "thin-mcq-19": "本句的「thin」指「身體脂肪較少、身形不厚重的」。",
+        "thin-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thin-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-19"
     },
@@ -513,10 +509,8 @@ export default {
       "options": [
         "thin-mcq-19",
         "thin-mcq-18",
-        "thin-mcq-20",
-        "thin-mcq-17",
-        "thin-mcq-16",
-        "thin-mcq-15"
+        "thin-mcq-02",
+        "thin-pdf-001"
       ],
       "explanation": "本句的「thin」指「身體脂肪較少、身形不厚重的」。",
       "sentenceIndex": 1,
@@ -525,12 +519,10 @@ export default {
         "thin"
       ],
       "optionReasons": {
-        "thin-mcq-19": "本句指「身體脂肪較少、身形不厚重的」。",
-        "thin-mcq-18": "「憑空消失」是「vanish into thin air」的用法，與本句語境不同。",
-        "thin-mcq-20": "「從一面到另一面的厚度很小」是「3. thin（物件：薄的） — 薄的」的用法，與本句語境不同。",
-        "thin-mcq-17": "「如履薄冰」是「on thin ice」的用法，與本句語境不同。",
-        "thin-mcq-16": "「逐漸變少／稀疏」是「thin out」的用法，與本句語境不同。",
-        "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。"
+        "thin-mcq-19": "本句的「thin」指「身體脂肪較少、身形不厚重的」。",
+        "thin-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "thin-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-19"
     },
@@ -542,11 +534,9 @@ export default {
       "masked": "She looked ____ after being ill.",
       "options": [
         "thin-mcq-19",
-        "thin-mcq-18",
-        "thin-mcq-20",
-        "thin-mcq-17",
-        "thin-mcq-16",
-        "thin-mcq-15"
+        "thin-pdf-001",
+        "thin-mcq-12",
+        "thin-mcq-08"
       ],
       "explanation": "本句的「thin」指「身體脂肪較少、身形不厚重的」。",
       "sentenceIndex": 2,
@@ -555,12 +545,10 @@ export default {
         "thin"
       ],
       "optionReasons": {
-        "thin-mcq-19": "本句指「身體脂肪較少、身形不厚重的」。",
-        "thin-mcq-18": "「憑空消失」是「vanish into thin air」的用法，與本句語境不同。",
-        "thin-mcq-20": "「從一面到另一面的厚度很小」是「3. thin（物件：薄的） — 薄的」的用法，與本句語境不同。",
-        "thin-mcq-17": "「如履薄冰」是「on thin ice」的用法，與本句語境不同。",
-        "thin-mcq-16": "「逐漸變少／稀疏」是「thin out」的用法，與本句語境不同。",
-        "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。"
+        "thin-mcq-19": "本句的「thin」指「身體脂肪較少、身形不厚重的」。",
+        "thin-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-19"
     },
@@ -572,11 +560,9 @@ export default {
       "masked": "He had a long, ____.",
       "options": [
         "thin-mcq-02",
-        "thin-mcq-01",
-        "thin-mcq-03",
-        "thin-mcq-04",
-        "thin-mcq-05",
-        "thin-mcq-06"
+        "thin-mcq-15",
+        "thin-mcq-12",
+        "thin-mcq-19"
       ],
       "explanation": "本句的「thin face」指「瘦削的臉」。",
       "sentenceIndex": 3,
@@ -585,12 +571,10 @@ export default {
         "thin face"
       ],
       "optionReasons": {
-        "thin-mcq-02": "本句指「瘦削的臉」。",
-        "thin-mcq-01": "「瘦的」是「thin person」的用法，與本句語境不同。",
-        "thin-mcq-03": "「薄紙」是「thin paper」的用法，與本句語境不同。",
-        "thin-mcq-04": "「薄層」是「thin layer」的用法，與本句語境不同。",
-        "thin-mcq-05": "「薄冰」是「thin ice」的用法，與本句語境不同。",
-        "thin-mcq-06": "「稀薄空氣」是「thin air」的用法，與本句語境不同。"
+        "thin-mcq-02": "本句的「thin face」指「瘦削的臉」。",
+        "thin-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-02"
     },
@@ -602,11 +586,9 @@ export default {
       "masked": "Her arms looked unusually ____.",
       "options": [
         "thin-mcq-02",
-        "thin-mcq-01",
-        "thin-mcq-03",
+        "thin-pdf-001",
         "thin-mcq-04",
-        "thin-mcq-05",
-        "thin-mcq-06"
+        "thin-mcq-08"
       ],
       "explanation": "本句的「thin」指「瘦削的臉」。",
       "sentenceIndex": 4,
@@ -615,12 +597,10 @@ export default {
         "thin"
       ],
       "optionReasons": {
-        "thin-mcq-02": "本句指「瘦削的臉」。",
-        "thin-mcq-01": "「瘦的」是「thin person」的用法，與本句語境不同。",
-        "thin-mcq-03": "「薄紙」是「thin paper」的用法，與本句語境不同。",
-        "thin-mcq-04": "「薄層」是「thin layer」的用法，與本句語境不同。",
-        "thin-mcq-05": "「薄冰」是「thin ice」的用法，與本句語境不同。",
-        "thin-mcq-06": "「稀薄空氣」是「thin air」的用法，與本句語境不同。"
+        "thin-mcq-02": "本句的「thin」指「瘦削的臉」。",
+        "thin-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-02"
     },
@@ -632,11 +612,9 @@ export default {
       "masked": "The book is printed on very ____.",
       "options": [
         "thin-mcq-20",
-        "thin-mcq-19",
-        "thin-mcq-18",
-        "thin-mcq-17",
-        "thin-mcq-16",
-        "thin-mcq-15"
+        "thin-mcq-08",
+        "thin-mcq-04",
+        "thin-mcq-11"
       ],
       "explanation": "本句的「thin paper」指「從一面到另一面的厚度很小」。",
       "sentenceIndex": 5,
@@ -645,12 +623,10 @@ export default {
         "thin paper"
       ],
       "optionReasons": {
-        "thin-mcq-20": "本句指「從一面到另一面的厚度很小」。",
-        "thin-mcq-19": "「身體脂肪較少、身形不厚重的」是「1. thin（人：瘦的） — 瘦的；纖瘦的」的用法，與本句語境不同。",
-        "thin-mcq-18": "「憑空消失」是「vanish into thin air」的用法，與本句語境不同。",
-        "thin-mcq-17": "「如履薄冰」是「on thin ice」的用法，與本句語境不同。",
-        "thin-mcq-16": "「逐漸變少／稀疏」是「thin out」的用法，與本句語境不同。",
-        "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。"
+        "thin-mcq-20": "本句的「thin paper」指「從一面到另一面的厚度很小」。",
+        "thin-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-20"
     },
@@ -662,11 +638,9 @@ export default {
       "masked": "She wore a ____.",
       "options": [
         "thin-mcq-20",
-        "thin-mcq-19",
-        "thin-mcq-18",
-        "thin-mcq-17",
         "thin-mcq-16",
-        "thin-mcq-15"
+        "thin-mcq-11",
+        "thin-mcq-13"
       ],
       "explanation": "本句的「thin jacket」指「從一面到另一面的厚度很小」。",
       "sentenceIndex": 6,
@@ -675,12 +649,10 @@ export default {
         "thin jacket"
       ],
       "optionReasons": {
-        "thin-mcq-20": "本句指「從一面到另一面的厚度很小」。",
-        "thin-mcq-19": "「身體脂肪較少、身形不厚重的」是「1. thin（人：瘦的） — 瘦的；纖瘦的」的用法，與本句語境不同。",
-        "thin-mcq-18": "「憑空消失」是「vanish into thin air」的用法，與本句語境不同。",
-        "thin-mcq-17": "「如履薄冰」是「on thin ice」的用法，與本句語境不同。",
-        "thin-mcq-16": "「逐漸變少／稀疏」是「thin out」的用法，與本句語境不同。",
-        "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。"
+        "thin-mcq-20": "本句的「thin jacket」指「從一面到另一面的厚度很小」。",
+        "thin-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-20"
     },
@@ -692,11 +664,9 @@ export default {
       "masked": "Spread a ____ of butter on the bread.",
       "options": [
         "thin-mcq-04",
-        "thin-mcq-03",
-        "thin-mcq-05",
+        "thin-mcq-18",
         "thin-mcq-02",
-        "thin-mcq-06",
-        "thin-mcq-01"
+        "thin-mcq-16"
       ],
       "explanation": "本句的「thin layer」指「薄層」。",
       "sentenceIndex": 7,
@@ -705,12 +675,10 @@ export default {
         "thin layer"
       ],
       "optionReasons": {
-        "thin-mcq-04": "本句指「薄層」。",
-        "thin-mcq-03": "「薄紙」是「thin paper」的用法，與本句語境不同。",
-        "thin-mcq-05": "「薄冰」是「thin ice」的用法，與本句語境不同。",
-        "thin-mcq-02": "「瘦削的臉」是「thin face」的用法，與本句語境不同。",
-        "thin-mcq-06": "「稀薄空氣」是「thin air」的用法，與本句語境不同。",
-        "thin-mcq-01": "「瘦的」是「thin person」的用法，與本句語境不同。"
+        "thin-mcq-04": "本句的「thin layer」指「薄層」。",
+        "thin-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-04"
     },
@@ -722,11 +690,9 @@ export default {
       "masked": "Cut the cucumber into ____.",
       "options": [
         "thin-mcq-04",
-        "thin-mcq-03",
-        "thin-mcq-05",
-        "thin-mcq-02",
-        "thin-mcq-06",
-        "thin-mcq-01"
+        "thin-pdf-001",
+        "thin-mcq-16",
+        "thin-mcq-12"
       ],
       "explanation": "本句的「thin slices」指「薄層」。",
       "sentenceIndex": 8,
@@ -735,12 +701,10 @@ export default {
         "thin slices"
       ],
       "optionReasons": {
-        "thin-mcq-04": "本句指「薄層」。",
-        "thin-mcq-03": "「薄紙」是「thin paper」的用法，與本句語境不同。",
-        "thin-mcq-05": "「薄冰」是「thin ice」的用法，與本句語境不同。",
-        "thin-mcq-02": "「瘦削的臉」是「thin face」的用法，與本句語境不同。",
-        "thin-mcq-06": "「稀薄空氣」是「thin air」的用法，與本句語境不同。",
-        "thin-mcq-01": "「瘦的」是「thin person」的用法，與本句語境不同。"
+        "thin-mcq-04": "本句的「thin slices」指「薄層」。",
+        "thin-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-04"
     },
@@ -752,11 +716,9 @@ export default {
       "masked": "Be careful—the ice is very ____.",
       "options": [
         "thin-mcq-05",
-        "thin-mcq-04",
-        "thin-mcq-06",
-        "thin-mcq-03",
-        "thin-mcq-07",
-        "thin-mcq-02"
+        "thin-mcq-12",
+        "thin-mcq-02",
+        "thin-mcq-20"
       ],
       "explanation": "本句的「thin」指「薄冰」。",
       "sentenceIndex": 9,
@@ -765,12 +727,10 @@ export default {
         "thin"
       ],
       "optionReasons": {
-        "thin-mcq-05": "本句指「薄冰」。",
-        "thin-mcq-04": "「薄層」是「thin layer」的用法，與本句語境不同。",
-        "thin-mcq-06": "「稀薄空氣」是「thin air」的用法，與本句語境不同。",
-        "thin-mcq-03": "「薄紙」是「thin paper」的用法，與本句語境不同。",
-        "thin-mcq-07": "「稀湯」是「thin soup」的用法，與本句語境不同。",
-        "thin-mcq-02": "「瘦削的臉」是「thin face」的用法，與本句語境不同。"
+        "thin-mcq-05": "本句的「thin」指「薄冰」。",
+        "thin-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-05"
     },
@@ -782,11 +742,9 @@ export default {
       "masked": "The lake was covered with a ____.",
       "options": [
         "thin-mcq-05",
-        "thin-mcq-04",
-        "thin-mcq-06",
-        "thin-mcq-03",
-        "thin-mcq-07",
-        "thin-mcq-02"
+        "thin-mcq-12",
+        "thin-mcq-16",
+        "thin-mcq-19"
       ],
       "explanation": "本句的「thin layer of ice」指「薄冰」。",
       "sentenceIndex": 10,
@@ -795,12 +753,10 @@ export default {
         "thin layer of ice"
       ],
       "optionReasons": {
-        "thin-mcq-05": "本句指「薄冰」。",
-        "thin-mcq-04": "「薄層」是「thin layer」的用法，與本句語境不同。",
-        "thin-mcq-06": "「稀薄空氣」是「thin air」的用法，與本句語境不同。",
-        "thin-mcq-03": "「薄紙」是「thin paper」的用法，與本句語境不同。",
-        "thin-mcq-07": "「稀湯」是「thin soup」的用法，與本句語境不同。",
-        "thin-mcq-02": "「瘦削的臉」是「thin face」的用法，與本句語境不同。"
+        "thin-mcq-05": "本句的「thin layer of ice」指「薄冰」。",
+        "thin-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-05"
     },
@@ -812,11 +768,9 @@ export default {
       "masked": "Breathing becomes harder in ____.",
       "options": [
         "thin-mcq-06",
-        "thin-mcq-05",
-        "thin-mcq-07",
-        "thin-mcq-04",
-        "thin-mcq-08",
-        "thin-mcq-03"
+        "thin-pdf-001",
+        "thin-mcq-19",
+        "thin-mcq-02"
       ],
       "explanation": "本句的「thin air」指「稀薄空氣」。",
       "sentenceIndex": 11,
@@ -825,12 +779,10 @@ export default {
         "thin air"
       ],
       "optionReasons": {
-        "thin-mcq-06": "本句指「稀薄空氣」。",
-        "thin-mcq-05": "「薄冰」是「thin ice」的用法，與本句語境不同。",
-        "thin-mcq-07": "「稀湯」是「thin soup」的用法，與本句語境不同。",
-        "thin-mcq-04": "「薄層」是「thin layer」的用法，與本句語境不同。",
-        "thin-mcq-08": "「稀疏／幼細頭髮」是「thin hair」的用法，與本句語境不同。",
-        "thin-mcq-03": "「薄紙」是「thin paper」的用法，與本句語境不同。"
+        "thin-mcq-06": "本句的「thin air」指「稀薄空氣」。",
+        "thin-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-06"
     },
@@ -842,11 +794,9 @@ export default {
       "masked": "At high altitude, the air is ____.",
       "options": [
         "thin-mcq-06",
-        "thin-mcq-05",
-        "thin-mcq-07",
-        "thin-mcq-04",
-        "thin-mcq-08",
-        "thin-mcq-03"
+        "thin-mcq-20",
+        "thin-pdf-001",
+        "thin-mcq-11"
       ],
       "explanation": "本句的「thinner」指「稀薄空氣」。",
       "sentenceIndex": 12,
@@ -855,12 +805,10 @@ export default {
         "thinner"
       ],
       "optionReasons": {
-        "thin-mcq-06": "本句指「稀薄空氣」。",
-        "thin-mcq-05": "「薄冰」是「thin ice」的用法，與本句語境不同。",
-        "thin-mcq-07": "「稀湯」是「thin soup」的用法，與本句語境不同。",
-        "thin-mcq-04": "「薄層」是「thin layer」的用法，與本句語境不同。",
-        "thin-mcq-08": "「稀疏／幼細頭髮」是「thin hair」的用法，與本句語境不同。",
-        "thin-mcq-03": "「薄紙」是「thin paper」的用法，與本句語境不同。"
+        "thin-mcq-06": "本句的「thinner」指「稀薄空氣」。",
+        "thin-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "thin-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-06"
     },
@@ -872,11 +820,9 @@ export default {
       "masked": "The soup was too ____.",
       "options": [
         "thin-mcq-07",
-        "thin-mcq-06",
-        "thin-mcq-08",
-        "thin-mcq-05",
-        "thin-mcq-09",
-        "thin-mcq-04"
+        "thin-mcq-12",
+        "thin-pdf-002",
+        "thin-mcq-02"
       ],
       "explanation": "本句的「thin」指「稀湯」。",
       "sentenceIndex": 13,
@@ -885,12 +831,10 @@ export default {
         "thin"
       ],
       "optionReasons": {
-        "thin-mcq-07": "本句指「稀湯」。",
-        "thin-mcq-06": "「稀薄空氣」是「thin air」的用法，與本句語境不同。",
-        "thin-mcq-08": "「稀疏／幼細頭髮」是「thin hair」的用法，與本句語境不同。",
-        "thin-mcq-05": "「薄冰」是「thin ice」的用法，與本句語境不同。",
-        "thin-mcq-09": "「稀疏人群」是「thin crowd」的用法，與本句語境不同。",
-        "thin-mcq-04": "「薄層」是「thin layer」的用法，與本句語境不同。"
+        "thin-mcq-07": "本句的「thin」指「稀湯」。",
+        "thin-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thin-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-07"
     },
@@ -902,11 +846,9 @@ export default {
       "masked": "Add less water if the sauce becomes too ____.",
       "options": [
         "thin-mcq-07",
-        "thin-mcq-06",
-        "thin-mcq-08",
-        "thin-mcq-05",
-        "thin-mcq-09",
-        "thin-mcq-04"
+        "thin-mcq-18",
+        "thin-mcq-02",
+        "thin-mcq-10"
       ],
       "explanation": "本句的「thin」指「稀湯」。",
       "sentenceIndex": 14,
@@ -915,12 +857,10 @@ export default {
         "thin"
       ],
       "optionReasons": {
-        "thin-mcq-07": "本句指「稀湯」。",
-        "thin-mcq-06": "「稀薄空氣」是「thin air」的用法，與本句語境不同。",
-        "thin-mcq-08": "「稀疏／幼細頭髮」是「thin hair」的用法，與本句語境不同。",
-        "thin-mcq-05": "「薄冰」是「thin ice」的用法，與本句語境不同。",
-        "thin-mcq-09": "「稀疏人群」是「thin crowd」的用法，與本句語境不同。",
-        "thin-mcq-04": "「薄層」是「thin layer」的用法，與本句語境不同。"
+        "thin-mcq-07": "本句的「thin」指「稀湯」。",
+        "thin-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-07"
     },
@@ -932,11 +872,9 @@ export default {
       "masked": "His hair is getting ____.",
       "options": [
         "thin-mcq-08",
-        "thin-mcq-07",
-        "thin-mcq-09",
-        "thin-mcq-06",
-        "thin-mcq-10",
-        "thin-mcq-05"
+        "thin-mcq-11",
+        "thin-mcq-04",
+        "thin-pdf-002"
       ],
       "explanation": "本句的「thin」指「稀疏／幼細頭髮」。",
       "sentenceIndex": 15,
@@ -945,12 +883,10 @@ export default {
         "thin"
       ],
       "optionReasons": {
-        "thin-mcq-08": "本句指「稀疏／幼細頭髮」。",
-        "thin-mcq-07": "「稀湯」是「thin soup」的用法，與本句語境不同。",
-        "thin-mcq-09": "「稀疏人群」是「thin crowd」的用法，與本句語境不同。",
-        "thin-mcq-06": "「稀薄空氣」是「thin air」的用法，與本句語境不同。",
-        "thin-mcq-10": "「單薄的聲音」是「thin voice」的用法，與本句語境不同。",
-        "thin-mcq-05": "「薄冰」是「thin ice」的用法，與本句語境不同。"
+        "thin-mcq-08": "本句的「thin」指「稀疏／幼細頭髮」。",
+        "thin-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "thin-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-08"
     },
@@ -962,11 +898,9 @@ export default {
       "masked": "She has very ____.",
       "options": [
         "thin-mcq-08",
-        "thin-mcq-07",
-        "thin-mcq-09",
-        "thin-mcq-06",
-        "thin-mcq-10",
-        "thin-mcq-05"
+        "thin-pdf-001",
+        "thin-mcq-13",
+        "thin-mcq-10"
       ],
       "explanation": "本句的「thin hair」指「稀疏／幼細頭髮」。",
       "sentenceIndex": 16,
@@ -975,12 +909,10 @@ export default {
         "thin hair"
       ],
       "optionReasons": {
-        "thin-mcq-08": "本句指「稀疏／幼細頭髮」。",
-        "thin-mcq-07": "「稀湯」是「thin soup」的用法，與本句語境不同。",
-        "thin-mcq-09": "「稀疏人群」是「thin crowd」的用法，與本句語境不同。",
-        "thin-mcq-06": "「稀薄空氣」是「thin air」的用法，與本句語境不同。",
-        "thin-mcq-10": "「單薄的聲音」是「thin voice」的用法，與本句語境不同。",
-        "thin-mcq-05": "「薄冰」是「thin ice」的用法，與本句語境不同。"
+        "thin-mcq-08": "本句的「thin hair」指「稀疏／幼細頭髮」。",
+        "thin-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-08"
     },
@@ -992,11 +924,9 @@ export default {
       "masked": "The crowd was surprisingly ____.",
       "options": [
         "thin-mcq-09",
-        "thin-mcq-08",
-        "thin-mcq-10",
-        "thin-mcq-07",
-        "thin-mcq-11",
-        "thin-mcq-06"
+        "thin-mcq-02",
+        "thin-mcq-12",
+        "thin-mcq-20"
       ],
       "explanation": "本句的「thin」指「稀疏人群」。",
       "sentenceIndex": 17,
@@ -1005,12 +935,10 @@ export default {
         "thin"
       ],
       "optionReasons": {
-        "thin-mcq-09": "本句指「稀疏人群」。",
-        "thin-mcq-08": "「稀疏／幼細頭髮」是「thin hair」的用法，與本句語境不同。",
-        "thin-mcq-10": "「單薄的聲音」是「thin voice」的用法，與本句語境不同。",
-        "thin-mcq-07": "「稀湯」是「thin soup」的用法，與本句語境不同。",
-        "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。",
-        "thin-mcq-06": "「稀薄空氣」是「thin air」的用法，與本句語境不同。"
+        "thin-mcq-09": "本句的「thin」指「稀疏人群」。",
+        "thin-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-09"
     },
@@ -1022,11 +950,9 @@ export default {
       "masked": "Attendance was ____ because of the bad weather.",
       "options": [
         "thin-mcq-09",
-        "thin-mcq-08",
+        "thin-mcq-20",
         "thin-mcq-10",
-        "thin-mcq-07",
-        "thin-mcq-11",
-        "thin-mcq-06"
+        "thin-mcq-11"
       ],
       "explanation": "本句的「thin」指「稀疏人群」。",
       "sentenceIndex": 18,
@@ -1035,12 +961,10 @@ export default {
         "thin"
       ],
       "optionReasons": {
-        "thin-mcq-09": "本句指「稀疏人群」。",
-        "thin-mcq-08": "「稀疏／幼細頭髮」是「thin hair」的用法，與本句語境不同。",
-        "thin-mcq-10": "「單薄的聲音」是「thin voice」的用法，與本句語境不同。",
-        "thin-mcq-07": "「稀湯」是「thin soup」的用法，與本句語境不同。",
-        "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。",
-        "thin-mcq-06": "「稀薄空氣」是「thin air」的用法，與本句語境不同。"
+        "thin-mcq-09": "本句的「thin」指「稀疏人群」。",
+        "thin-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-09"
     },
@@ -1052,11 +976,9 @@ export default {
       "masked": "The area has ____.",
       "options": [
         "thin-pdf-001",
-        "thin-mcq-08",
-        "thin-mcq-10",
         "thin-mcq-07",
-        "thin-mcq-11",
-        "thin-mcq-06"
+        "thin-mcq-05",
+        "thin-mcq-02"
       ],
       "explanation": "本句的「thin vegetation」指「分布密度低、不集中」。",
       "sentenceIndex": 19,
@@ -1065,12 +987,10 @@ export default {
         "thin vegetation"
       ],
       "optionReasons": {
-        "thin-pdf-001": "本句指「分布密度低、不集中」。",
-        "thin-mcq-08": "「稀疏／幼細頭髮」是「thin hair」的用法，與本句語境不同。",
-        "thin-mcq-10": "「單薄的聲音」是「thin voice」的用法，與本句語境不同。",
-        "thin-mcq-07": "「稀湯」是「thin soup」的用法，與本句語境不同。",
-        "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。",
-        "thin-mcq-06": "「稀薄空氣」是「thin air」的用法，與本句語境不同。"
+        "thin-pdf-001": "本句的「thin vegetation」指「分布密度低、不集中」。",
+        "thin-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-pdf-001"
     },
@@ -1082,11 +1002,9 @@ export default {
       "masked": "The population is ____ across the region.",
       "options": [
         "thin-pdf-001",
-        "thin-mcq-08",
-        "thin-mcq-10",
+        "thin-mcq-17",
         "thin-mcq-07",
-        "thin-mcq-11",
-        "thin-mcq-06"
+        "thin-mcq-18"
       ],
       "explanation": "本句的「thinly spread」指「分布密度低、不集中」。",
       "sentenceIndex": 20,
@@ -1095,12 +1013,10 @@ export default {
         "thinly spread"
       ],
       "optionReasons": {
-        "thin-pdf-001": "本句指「分布密度低、不集中」。",
-        "thin-mcq-08": "「稀疏／幼細頭髮」是「thin hair」的用法，與本句語境不同。",
-        "thin-mcq-10": "「單薄的聲音」是「thin voice」的用法，與本句語境不同。",
-        "thin-mcq-07": "「稀湯」是「thin soup」的用法，與本句語境不同。",
-        "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。",
-        "thin-mcq-06": "「稀薄空氣」是「thin air」的用法，與本句語境不同。"
+        "thin-pdf-001": "本句的「thinly spread」指「分布密度低、不集中」。",
+        "thin-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-pdf-001"
     },
@@ -1112,11 +1028,9 @@ export default {
       "masked": "His voice sounded ____ over the phone.",
       "options": [
         "thin-mcq-10",
-        "thin-mcq-09",
-        "thin-mcq-11",
-        "thin-mcq-08",
-        "thin-mcq-12",
-        "thin-mcq-07"
+        "thin-mcq-18",
+        "thin-mcq-20",
+        "thin-pdf-002"
       ],
       "explanation": "本句的「thin」指「單薄的聲音」。",
       "sentenceIndex": 21,
@@ -1125,12 +1039,10 @@ export default {
         "thin"
       ],
       "optionReasons": {
-        "thin-mcq-10": "本句指「單薄的聲音」。",
-        "thin-mcq-09": "「稀疏人群」是「thin crowd」的用法，與本句語境不同。",
-        "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。",
-        "thin-mcq-08": "「稀疏／幼細頭髮」是「thin hair」的用法，與本句語境不同。",
-        "thin-mcq-12": "「牽強藉口」是「thin excuse」的用法，與本句語境不同。",
-        "thin-mcq-07": "「稀湯」是「thin soup」的用法，與本句語境不同。"
+        "thin-mcq-10": "本句的「thin」指「單薄的聲音」。",
+        "thin-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "thin-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-10"
     },
@@ -1142,11 +1054,9 @@ export default {
       "masked": "The recording had a ____.",
       "options": [
         "thin-mcq-10",
-        "thin-mcq-09",
-        "thin-mcq-11",
         "thin-mcq-08",
-        "thin-mcq-12",
-        "thin-mcq-07"
+        "thin-mcq-20",
+        "thin-pdf-002"
       ],
       "explanation": "本句的「thin sound」指「單薄的聲音」。",
       "sentenceIndex": 22,
@@ -1155,12 +1065,10 @@ export default {
         "thin sound"
       ],
       "optionReasons": {
-        "thin-mcq-10": "本句指「單薄的聲音」。",
-        "thin-mcq-09": "「稀疏人群」是「thin crowd」的用法，與本句語境不同。",
-        "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。",
-        "thin-mcq-08": "「稀疏／幼細頭髮」是「thin hair」的用法，與本句語境不同。",
-        "thin-mcq-12": "「牽強藉口」是「thin excuse」的用法，與本句語境不同。",
-        "thin-mcq-07": "「稀湯」是「thin soup」的用法，與本句語境不同。"
+        "thin-mcq-10": "本句的「thin sound」指「單薄的聲音」。",
+        "thin-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "thin-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-10"
     },
@@ -1172,11 +1080,9 @@ export default {
       "masked": "She gave him a ____.",
       "options": [
         "thin-mcq-11",
-        "thin-mcq-10",
-        "thin-mcq-12",
-        "thin-mcq-09",
-        "thin-mcq-13",
-        "thin-mcq-08"
+        "thin-mcq-16",
+        "thin-mcq-20",
+        "thin-pdf-001"
       ],
       "explanation": "本句的「thin smile」指「淡淡／勉強的笑」。",
       "sentenceIndex": 23,
@@ -1185,12 +1091,10 @@ export default {
         "thin smile"
       ],
       "optionReasons": {
-        "thin-mcq-11": "本句指「淡淡／勉強的笑」。",
-        "thin-mcq-10": "「單薄的聲音」是「thin voice」的用法，與本句語境不同。",
-        "thin-mcq-12": "「牽強藉口」是「thin excuse」的用法，與本句語境不同。",
-        "thin-mcq-09": "「稀疏人群」是「thin crowd」的用法，與本句語境不同。",
-        "thin-mcq-13": "「薄弱證據」是「thin evidence」的用法，與本句語境不同。",
-        "thin-mcq-08": "「稀疏／幼細頭髮」是「thin hair」的用法，與本句語境不同。"
+        "thin-mcq-11": "本句的「thin smile」指「淡淡／勉強的笑」。",
+        "thin-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "thin-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-11"
     },
@@ -1202,11 +1106,9 @@ export default {
       "masked": "A ____ appeared on his face.",
       "options": [
         "thin-mcq-11",
-        "thin-mcq-10",
-        "thin-mcq-12",
-        "thin-mcq-09",
-        "thin-mcq-13",
-        "thin-mcq-08"
+        "thin-pdf-001",
+        "thin-mcq-07",
+        "thin-mcq-13"
       ],
       "explanation": "本句的「thin smile」指「淡淡／勉強的笑」。",
       "sentenceIndex": 24,
@@ -1215,12 +1117,10 @@ export default {
         "thin smile"
       ],
       "optionReasons": {
-        "thin-mcq-11": "本句指「淡淡／勉強的笑」。",
-        "thin-mcq-10": "「單薄的聲音」是「thin voice」的用法，與本句語境不同。",
-        "thin-mcq-12": "「牽強藉口」是「thin excuse」的用法，與本句語境不同。",
-        "thin-mcq-09": "「稀疏人群」是「thin crowd」的用法，與本句語境不同。",
-        "thin-mcq-13": "「薄弱證據」是「thin evidence」的用法，與本句語境不同。",
-        "thin-mcq-08": "「稀疏／幼細頭髮」是「thin hair」的用法，與本句語境不同。"
+        "thin-mcq-11": "本句的「thin smile」指「淡淡／勉強的笑」。",
+        "thin-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-11"
     },
@@ -1232,11 +1132,9 @@ export default {
       "masked": "That's a pretty ____.",
       "options": [
         "thin-mcq-12",
-        "thin-mcq-11",
-        "thin-mcq-13",
-        "thin-mcq-10",
-        "thin-mcq-14",
-        "thin-mcq-09"
+        "thin-pdf-001",
+        "thin-mcq-06",
+        "thin-mcq-13"
       ],
       "explanation": "本句的「thin excuse」指「牽強藉口」。",
       "sentenceIndex": 25,
@@ -1245,12 +1143,10 @@ export default {
         "thin excuse"
       ],
       "optionReasons": {
-        "thin-mcq-12": "本句指「牽強藉口」。",
-        "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。",
-        "thin-mcq-13": "「薄弱證據」是「thin evidence」的用法，與本句語境不同。",
-        "thin-mcq-10": "「單薄的聲音」是「thin voice」的用法，與本句語境不同。",
-        "thin-mcq-14": "「薄薄地／稀疏地」是「thinly」的用法，與本句語境不同。",
-        "thin-mcq-09": "「稀疏人群」是「thin crowd」的用法，與本句語境不同。"
+        "thin-mcq-12": "本句的「thin excuse」指「牽強藉口」。",
+        "thin-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-12"
     },
@@ -1262,11 +1158,9 @@ export default {
       "masked": "His explanation sounded ____.",
       "options": [
         "thin-mcq-12",
-        "thin-mcq-11",
-        "thin-mcq-13",
-        "thin-mcq-10",
-        "thin-mcq-14",
-        "thin-mcq-09"
+        "thin-pdf-002",
+        "thin-mcq-15",
+        "thin-mcq-02"
       ],
       "explanation": "本句的「thin」指「牽強藉口」。",
       "sentenceIndex": 26,
@@ -1275,12 +1169,10 @@ export default {
         "thin"
       ],
       "optionReasons": {
-        "thin-mcq-12": "本句指「牽強藉口」。",
-        "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。",
-        "thin-mcq-13": "「薄弱證據」是「thin evidence」的用法，與本句語境不同。",
-        "thin-mcq-10": "「單薄的聲音」是「thin voice」的用法，與本句語境不同。",
-        "thin-mcq-14": "「薄薄地／稀疏地」是「thinly」的用法，與本句語境不同。",
-        "thin-mcq-09": "「稀疏人群」是「thin crowd」的用法，與本句語境不同。"
+        "thin-mcq-12": "本句的「thin」指「牽強藉口」。",
+        "thin-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-12"
     },
@@ -1293,10 +1185,8 @@ export default {
       "options": [
         "thin-mcq-13",
         "thin-mcq-12",
-        "thin-mcq-14",
-        "thin-mcq-11",
-        "thin-mcq-15",
-        "thin-mcq-10"
+        "thin-mcq-07",
+        "thin-pdf-001"
       ],
       "explanation": "本句的「thin evidence」指「薄弱證據」。",
       "sentenceIndex": 27,
@@ -1305,12 +1195,10 @@ export default {
         "thin evidence"
       ],
       "optionReasons": {
-        "thin-mcq-13": "本句指「薄弱證據」。",
-        "thin-mcq-12": "「牽強藉口」是「thin excuse」的用法，與本句語境不同。",
-        "thin-mcq-14": "「薄薄地／稀疏地」是「thinly」的用法，與本句語境不同。",
-        "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。",
-        "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。",
-        "thin-mcq-10": "「單薄的聲音」是「thin voice」的用法，與本句語境不同。"
+        "thin-mcq-13": "本句的「thin evidence」指「薄弱證據」。",
+        "thin-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thin-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-13"
     },
@@ -1322,11 +1210,9 @@ export default {
       "masked": "There is only ____ for the claim.",
       "options": [
         "thin-mcq-13",
-        "thin-mcq-12",
-        "thin-mcq-14",
-        "thin-mcq-11",
-        "thin-mcq-15",
-        "thin-mcq-10"
+        "thin-pdf-001",
+        "thin-mcq-20",
+        "thin-mcq-07"
       ],
       "explanation": "本句的「thin support」指「薄弱證據」。",
       "sentenceIndex": 28,
@@ -1335,12 +1221,10 @@ export default {
         "thin support"
       ],
       "optionReasons": {
-        "thin-mcq-13": "本句指「薄弱證據」。",
-        "thin-mcq-12": "「牽強藉口」是「thin excuse」的用法，與本句語境不同。",
-        "thin-mcq-14": "「薄薄地／稀疏地」是「thinly」的用法，與本句語境不同。",
-        "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。",
-        "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。",
-        "thin-mcq-10": "「單薄的聲音」是「thin voice」的用法，與本句語境不同。"
+        "thin-mcq-13": "本句的「thin support」指「薄弱證據」。",
+        "thin-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-13"
     },
@@ -1352,11 +1236,9 @@ export default {
       "masked": "Slice the bread ____.",
       "options": [
         "thin-mcq-14",
-        "thin-mcq-13",
-        "thin-mcq-15",
-        "thin-mcq-12",
-        "thin-mcq-16",
-        "thin-mcq-11"
+        "thin-mcq-18",
+        "thin-mcq-19",
+        "thin-pdf-001"
       ],
       "explanation": "本句的「thinly」指「薄薄地／稀疏地」。",
       "sentenceIndex": 29,
@@ -1365,12 +1247,10 @@ export default {
         "thinly"
       ],
       "optionReasons": {
-        "thin-mcq-14": "本句指「薄薄地／稀疏地」。",
-        "thin-mcq-13": "「薄弱證據」是「thin evidence」的用法，與本句語境不同。",
-        "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。",
-        "thin-mcq-12": "「牽強藉口」是「thin excuse」的用法，與本句語境不同。",
-        "thin-mcq-16": "「逐漸變少／稀疏」是「thin out」的用法，與本句語境不同。",
-        "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。"
+        "thin-mcq-14": "本句的「thinly」指「薄薄地／稀疏地」。",
+        "thin-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "thin-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-14"
     },
@@ -1382,10 +1262,8 @@ export default {
       "masked": "Spread the paint ____.",
       "options": [
         "thin-mcq-14",
-        "thin-mcq-13",
-        "thin-mcq-15",
-        "thin-mcq-12",
-        "thin-mcq-16",
+        "thin-mcq-19",
+        "thin-pdf-002",
         "thin-mcq-11"
       ],
       "explanation": "本句的「thinly」指「薄薄地／稀疏地」。",
@@ -1395,12 +1273,10 @@ export default {
         "thinly"
       ],
       "optionReasons": {
-        "thin-mcq-14": "本句指「薄薄地／稀疏地」。",
-        "thin-mcq-13": "「薄弱證據」是「thin evidence」的用法，與本句語境不同。",
-        "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。",
-        "thin-mcq-12": "「牽強藉口」是「thin excuse」的用法，與本句語境不同。",
-        "thin-mcq-16": "「逐漸變少／稀疏」是「thin out」的用法，與本句語境不同。",
-        "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。"
+        "thin-mcq-14": "本句的「thinly」指「薄薄地／稀疏地」。",
+        "thin-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "thin-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-14"
     },
@@ -1412,11 +1288,9 @@ export default {
       "masked": "The region is ____.",
       "options": [
         "thin-pdf-002",
-        "thin-mcq-13",
-        "thin-mcq-15",
+        "thin-mcq-05",
         "thin-mcq-12",
-        "thin-mcq-16",
-        "thin-mcq-11"
+        "thin-mcq-09"
       ],
       "explanation": "本句的「thinly populated」指「以低密度、相隔較遠的方式」。",
       "sentenceIndex": 31,
@@ -1425,12 +1299,10 @@ export default {
         "thinly populated"
       ],
       "optionReasons": {
-        "thin-pdf-002": "本句指「以低密度、相隔較遠的方式」。",
-        "thin-mcq-13": "「薄弱證據」是「thin evidence」的用法，與本句語境不同。",
-        "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。",
-        "thin-mcq-12": "「牽強藉口」是「thin excuse」的用法，與本句語境不同。",
-        "thin-mcq-16": "「逐漸變少／稀疏」是「thin out」的用法，與本句語境不同。",
-        "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。"
+        "thin-pdf-002": "本句的「thinly populated」指「以低密度、相隔較遠的方式」。",
+        "thin-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-pdf-002"
     },
@@ -1442,11 +1314,9 @@ export default {
       "masked": "The houses are ____ across the valley.",
       "options": [
         "thin-pdf-002",
-        "thin-mcq-13",
-        "thin-mcq-15",
-        "thin-mcq-12",
-        "thin-mcq-16",
-        "thin-mcq-11"
+        "thin-mcq-02",
+        "thin-mcq-04",
+        "thin-mcq-07"
       ],
       "explanation": "本句的「thinly spread」指「以低密度、相隔較遠的方式」。",
       "sentenceIndex": 32,
@@ -1455,12 +1325,10 @@ export default {
         "thinly spread"
       ],
       "optionReasons": {
-        "thin-pdf-002": "本句指「以低密度、相隔較遠的方式」。",
-        "thin-mcq-13": "「薄弱證據」是「thin evidence」的用法，與本句語境不同。",
-        "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。",
-        "thin-mcq-12": "「牽強藉口」是「thin excuse」的用法，與本句語境不同。",
-        "thin-mcq-16": "「逐漸變少／稀疏」是「thin out」的用法，與本句語境不同。",
-        "thin-mcq-11": "「淡淡／勉強的笑」是「thin smile」的用法，與本句語境不同。"
+        "thin-pdf-002": "本句的「thinly spread」指「以低密度、相隔較遠的方式」。",
+        "thin-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-pdf-002"
     },
@@ -1472,11 +1340,9 @@ export default {
       "masked": "You can ____ with a little water.",
       "options": [
         "thin-mcq-15",
-        "thin-mcq-14",
-        "thin-mcq-16",
-        "thin-mcq-13",
-        "thin-mcq-17",
-        "thin-mcq-12"
+        "thin-mcq-19",
+        "thin-mcq-12",
+        "thin-mcq-18"
       ],
       "explanation": "本句的「thin the sauce」指「使變稀／變薄」。",
       "sentenceIndex": 33,
@@ -1485,12 +1351,10 @@ export default {
         "thin the sauce"
       ],
       "optionReasons": {
-        "thin-mcq-15": "本句指「使變稀／變薄」。",
-        "thin-mcq-14": "「薄薄地／稀疏地」是「thinly」的用法，與本句語境不同。",
-        "thin-mcq-16": "「逐漸變少／稀疏」是「thin out」的用法，與本句語境不同。",
-        "thin-mcq-13": "「薄弱證據」是「thin evidence」的用法，與本句語境不同。",
-        "thin-mcq-17": "「如履薄冰」是「on thin ice」的用法，與本句語境不同。",
-        "thin-mcq-12": "「牽強藉口」是「thin excuse」的用法，與本句語境不同。"
+        "thin-mcq-15": "本句的「thin the sauce」指「使變稀／變薄」。",
+        "thin-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-15"
     },
@@ -1502,11 +1366,9 @@ export default {
       "masked": "The gardener ____.",
       "options": [
         "thin-mcq-15",
-        "thin-mcq-14",
-        "thin-mcq-16",
-        "thin-mcq-13",
-        "thin-mcq-17",
-        "thin-mcq-12"
+        "thin-mcq-20",
+        "thin-pdf-002",
+        "thin-mcq-02"
       ],
       "explanation": "本句的「thinned the plants」指「使變稀／變薄」。",
       "sentenceIndex": 34,
@@ -1515,12 +1377,10 @@ export default {
         "thinned the plants"
       ],
       "optionReasons": {
-        "thin-mcq-15": "本句指「使變稀／變薄」。",
-        "thin-mcq-14": "「薄薄地／稀疏地」是「thinly」的用法，與本句語境不同。",
-        "thin-mcq-16": "「逐漸變少／稀疏」是「thin out」的用法，與本句語境不同。",
-        "thin-mcq-13": "「薄弱證據」是「thin evidence」的用法，與本句語境不同。",
-        "thin-mcq-17": "「如履薄冰」是「on thin ice」的用法，與本句語境不同。",
-        "thin-mcq-12": "「牽強藉口」是「thin excuse」的用法，與本句語境不同。"
+        "thin-mcq-15": "本句的「thinned the plants」指「使變稀／變薄」。",
+        "thin-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "thin-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-15"
     },
@@ -1532,11 +1392,9 @@ export default {
       "masked": "The crowd began to ____ after midnight.",
       "options": [
         "thin-mcq-16",
-        "thin-mcq-15",
-        "thin-mcq-17",
-        "thin-mcq-14",
-        "thin-mcq-18",
-        "thin-mcq-13"
+        "thin-mcq-12",
+        "thin-mcq-05",
+        "thin-pdf-002"
       ],
       "explanation": "本句的「thin out」指「逐漸變少／稀疏」。",
       "sentenceIndex": 35,
@@ -1545,12 +1403,10 @@ export default {
         "thin out"
       ],
       "optionReasons": {
-        "thin-mcq-16": "本句指「逐漸變少／稀疏」。",
-        "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。",
-        "thin-mcq-17": "「如履薄冰」是「on thin ice」的用法，與本句語境不同。",
-        "thin-mcq-14": "「薄薄地／稀疏地」是「thinly」的用法，與本句語境不同。",
-        "thin-mcq-18": "「憑空消失」是「vanish into thin air」的用法，與本句語境不同。",
-        "thin-mcq-13": "「薄弱證據」是「thin evidence」的用法，與本句語境不同。"
+        "thin-mcq-16": "本句的「thin out」指「逐漸變少／稀疏」。",
+        "thin-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thin-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-16"
     },
@@ -1562,11 +1418,9 @@ export default {
       "masked": "His hair is beginning to ____.",
       "options": [
         "thin-mcq-16",
-        "thin-mcq-15",
         "thin-mcq-17",
-        "thin-mcq-14",
-        "thin-mcq-18",
-        "thin-mcq-13"
+        "thin-mcq-20",
+        "thin-mcq-02"
       ],
       "explanation": "本句的「thin out」指「逐漸變少／稀疏」。",
       "sentenceIndex": 36,
@@ -1575,12 +1429,10 @@ export default {
         "thin out"
       ],
       "optionReasons": {
-        "thin-mcq-16": "本句指「逐漸變少／稀疏」。",
-        "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。",
-        "thin-mcq-17": "「如履薄冰」是「on thin ice」的用法，與本句語境不同。",
-        "thin-mcq-14": "「薄薄地／稀疏地」是「thinly」的用法，與本句語境不同。",
-        "thin-mcq-18": "「憑空消失」是「vanish into thin air」的用法，與本句語境不同。",
-        "thin-mcq-13": "「薄弱證據」是「thin evidence」的用法，與本句語境不同。"
+        "thin-mcq-16": "本句的「thin out」指「逐漸變少／稀疏」。",
+        "thin-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-16"
     },
@@ -1592,11 +1444,9 @@ export default {
       "masked": "You're ____ after missing another deadline.",
       "options": [
         "thin-mcq-17",
-        "thin-mcq-16",
-        "thin-mcq-18",
-        "thin-mcq-15",
-        "thin-mcq-19",
-        "thin-mcq-14"
+        "thin-mcq-12",
+        "thin-mcq-02",
+        "thin-mcq-20"
       ],
       "explanation": "本句的「on thin ice」指「如履薄冰」。",
       "sentenceIndex": 37,
@@ -1605,12 +1455,10 @@ export default {
         "on thin ice"
       ],
       "optionReasons": {
-        "thin-mcq-17": "本句指「如履薄冰」。",
-        "thin-mcq-16": "「逐漸變少／稀疏」是「thin out」的用法，與本句語境不同。",
-        "thin-mcq-18": "「憑空消失」是「vanish into thin air」的用法，與本句語境不同。",
-        "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。",
-        "thin-mcq-19": "「身體脂肪較少、身形不厚重的」是「1. thin（人：瘦的） — 瘦的；纖瘦的」的用法，與本句語境不同。",
-        "thin-mcq-14": "「薄薄地／稀疏地」是「thinly」的用法，與本句語境不同。"
+        "thin-mcq-17": "本句的「on thin ice」指「如履薄冰」。",
+        "thin-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-17"
     },
@@ -1622,11 +1470,9 @@ export default {
       "masked": "He knew he was ____ with his manager.",
       "options": [
         "thin-mcq-17",
-        "thin-mcq-16",
-        "thin-mcq-18",
-        "thin-mcq-15",
-        "thin-mcq-19",
-        "thin-mcq-14"
+        "thin-pdf-002",
+        "thin-mcq-02",
+        "thin-mcq-09"
       ],
       "explanation": "本句的「on thin ice」指「如履薄冰」。",
       "sentenceIndex": 38,
@@ -1635,12 +1481,10 @@ export default {
         "on thin ice"
       ],
       "optionReasons": {
-        "thin-mcq-17": "本句指「如履薄冰」。",
-        "thin-mcq-16": "「逐漸變少／稀疏」是「thin out」的用法，與本句語境不同。",
-        "thin-mcq-18": "「憑空消失」是「vanish into thin air」的用法，與本句語境不同。",
-        "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。",
-        "thin-mcq-19": "「身體脂肪較少、身形不厚重的」是「1. thin（人：瘦的） — 瘦的；纖瘦的」的用法，與本句語境不同。",
-        "thin-mcq-14": "「薄薄地／稀疏地」是「thinly」的用法，與本句語境不同。"
+        "thin-mcq-17": "本句的「on thin ice」指「如履薄冰」。",
+        "thin-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-17"
     },
@@ -1652,11 +1496,9 @@ export default {
       "masked": "The keys seemed to ____.",
       "options": [
         "thin-mcq-18",
-        "thin-mcq-17",
-        "thin-mcq-19",
-        "thin-mcq-16",
-        "thin-mcq-20",
-        "thin-mcq-15"
+        "thin-mcq-11",
+        "thin-mcq-04",
+        "thin-pdf-002"
       ],
       "explanation": "本句的「vanish into thin air」指「憑空消失」。",
       "sentenceIndex": 39,
@@ -1665,12 +1507,10 @@ export default {
         "vanish into thin air"
       ],
       "optionReasons": {
-        "thin-mcq-18": "本句指「憑空消失」。",
-        "thin-mcq-17": "「如履薄冰」是「on thin ice」的用法，與本句語境不同。",
-        "thin-mcq-19": "「身體脂肪較少、身形不厚重的」是「1. thin（人：瘦的） — 瘦的；纖瘦的」的用法，與本句語境不同。",
-        "thin-mcq-16": "「逐漸變少／稀疏」是「thin out」的用法，與本句語境不同。",
-        "thin-mcq-20": "「從一面到另一面的厚度很小」是「3. thin（物件：薄的） — 薄的」的用法，與本句語境不同。",
-        "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。"
+        "thin-mcq-18": "本句的「vanish into thin air」指「憑空消失」。",
+        "thin-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "thin-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-18"
     },
@@ -1682,11 +1522,9 @@ export default {
       "masked": "The money didn't just ____.",
       "options": [
         "thin-mcq-18",
-        "thin-mcq-17",
-        "thin-mcq-19",
-        "thin-mcq-16",
-        "thin-mcq-20",
-        "thin-mcq-15"
+        "thin-mcq-05",
+        "thin-pdf-002",
+        "thin-mcq-16"
       ],
       "explanation": "本句的「disappear into thin air」指「憑空消失」。",
       "sentenceIndex": 40,
@@ -1695,12 +1533,10 @@ export default {
         "disappear into thin air"
       ],
       "optionReasons": {
-        "thin-mcq-18": "本句指「憑空消失」。",
-        "thin-mcq-17": "「如履薄冰」是「on thin ice」的用法，與本句語境不同。",
-        "thin-mcq-19": "「身體脂肪較少、身形不厚重的」是「1. thin（人：瘦的） — 瘦的；纖瘦的」的用法，與本句語境不同。",
-        "thin-mcq-16": "「逐漸變少／稀疏」是「thin out」的用法，與本句語境不同。",
-        "thin-mcq-20": "「從一面到另一面的厚度很小」是「3. thin（物件：薄的） — 薄的」的用法，與本句語境不同。",
-        "thin-mcq-15": "「使變稀／變薄」是「thin something」的用法，與本句語境不同。"
+        "thin-mcq-18": "本句的「disappear into thin air」指「憑空消失」。",
+        "thin-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thin-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "thin-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thin-mcq-18"
     }
@@ -1712,5 +1548,7 @@ export default {
     "sha256": "af9ac47b0869c2f3e751d2a012060b6db990d9f5db5a881aa33626377805dc1f",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

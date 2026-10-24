@@ -446,11 +446,9 @@ export default {
       "masked": "The car’s ____ needs to be replaced.",
       "options": [
         "battery-mcq-01",
-        "battery-mcq-02",
-        "battery-mcq-03",
-        "battery-mcq-04",
-        "battery-mcq-05",
-        "battery-mcq-06"
+        "battery-mcq-22",
+        "battery-mcq-18",
+        "battery-mcq-13"
       ],
       "explanation": "本句的「battery」指「透過化學方式儲存電能並向裝置供電的設備」。",
       "sentenceIndex": 0,
@@ -459,12 +457,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-01": "本句指「透過化學方式儲存電能並向裝置供電的設備」。",
-        "battery-mcq-02": "「用完電後可以重新充電並繼續使用的電池」與本句語境不同。",
-        "battery-mcq-03": "「專門為電動車驅動馬達供應高壓電力的大型動力電池」與本句語境不同。",
-        "battery-mcq-04": "「多個電芯／模組組合而成的完整電池系統」與本句語境不同。",
-        "battery-mcq-05": "「構成電池的單一電化學儲能單元」與本句語境不同。",
-        "battery-mcq-06": "「電池最大可儲存的電能量」與本句語境不同。"
+        "battery-mcq-01": "本句的「battery」指「透過化學方式儲存電能並向裝置供電的設備」。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-01"
     },
@@ -476,11 +472,9 @@ export default {
       "masked": "The device runs on a rechargeable ____.",
       "options": [
         "battery-mcq-01",
-        "battery-mcq-02",
-        "battery-mcq-03",
-        "battery-mcq-04",
-        "battery-mcq-05",
-        "battery-mcq-06"
+        "battery-mcq-22",
+        "battery-mcq-18",
+        "battery-mcq-13"
       ],
       "explanation": "本句的「battery」指「透過化學方式儲存電能並向裝置供電的設備」。",
       "sentenceIndex": 1,
@@ -489,12 +483,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-01": "本句指「透過化學方式儲存電能並向裝置供電的設備」。",
-        "battery-mcq-02": "「用完電後可以重新充電並繼續使用的電池」與本句語境不同。",
-        "battery-mcq-03": "「專門為電動車驅動馬達供應高壓電力的大型動力電池」與本句語境不同。",
-        "battery-mcq-04": "「多個電芯／模組組合而成的完整電池系統」與本句語境不同。",
-        "battery-mcq-05": "「構成電池的單一電化學儲能單元」與本句語境不同。",
-        "battery-mcq-06": "「電池最大可儲存的電能量」與本句語境不同。"
+        "battery-mcq-01": "本句的「battery」指「透過化學方式儲存電能並向裝置供電的設備」。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-01"
     },
@@ -506,11 +498,9 @@ export default {
       "masked": "Electric vehicles use large ____.",
       "options": [
         "battery-mcq-02",
-        "battery-mcq-01",
-        "battery-mcq-03",
-        "battery-mcq-04",
-        "battery-mcq-05",
-        "battery-mcq-06"
+        "battery-mcq-21",
+        "battery-mcq-18",
+        "battery-mcq-22"
       ],
       "explanation": "本句的「rechargeable batteries」指「用完電後可以重新充電並繼續使用的電池」。",
       "sentenceIndex": 2,
@@ -519,12 +509,10 @@ export default {
         "rechargeable batteries"
       ],
       "optionReasons": {
-        "battery-mcq-02": "本句指「用完電後可以重新充電並繼續使用的電池」。",
-        "battery-mcq-01": "「透過化學方式儲存電能並向裝置供電的設備」與本句語境不同。",
-        "battery-mcq-03": "「專門為電動車驅動馬達供應高壓電力的大型動力電池」與本句語境不同。",
-        "battery-mcq-04": "「多個電芯／模組組合而成的完整電池系統」與本句語境不同。",
-        "battery-mcq-05": "「構成電池的單一電化學儲能單元」與本句語境不同。",
-        "battery-mcq-06": "「電池最大可儲存的電能量」與本句語境不同。"
+        "battery-mcq-02": "本句的「rechargeable batteries」指「用完電後可以重新充電並繼續使用的電池」。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-02"
     },
@@ -536,11 +524,9 @@ export default {
       "masked": "The ____ powers the electric motor.",
       "options": [
         "battery-mcq-03",
-        "battery-mcq-02",
-        "battery-mcq-04",
-        "battery-mcq-01",
-        "battery-mcq-05",
-        "battery-mcq-06"
+        "battery-mcq-22",
+        "battery-mcq-18",
+        "battery-mcq-21"
       ],
       "explanation": "本句的「traction battery」指「專門為電動車驅動馬達供應高壓電力的大型動力電池」。",
       "sentenceIndex": 8,
@@ -549,12 +535,10 @@ export default {
         "traction battery"
       ],
       "optionReasons": {
-        "battery-mcq-03": "本句指「專門為電動車驅動馬達供應高壓電力的大型動力電池」。",
-        "battery-mcq-02": "「用完電後可以重新充電並繼續使用的電池」與本句語境不同。",
-        "battery-mcq-04": "「多個電芯／模組組合而成的完整電池系統」與本句語境不同。",
-        "battery-mcq-01": "「透過化學方式儲存電能並向裝置供電的設備」與本句語境不同。",
-        "battery-mcq-05": "「構成電池的單一電化學儲能單元」與本句語境不同。",
-        "battery-mcq-06": "「電池最大可儲存的電能量」與本句語境不同。"
+        "battery-mcq-03": "本句的「traction battery」指「專門為電動車驅動馬達供應高壓電力的大型動力電池」。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-03"
     },
@@ -566,11 +550,9 @@ export default {
       "masked": "The ____ pack sits under the floor.",
       "options": [
         "battery-mcq-04",
-        "battery-mcq-03",
-        "battery-mcq-05",
-        "battery-mcq-02",
-        "battery-mcq-06",
-        "battery-mcq-01"
+        "battery-mcq-18",
+        "battery-mcq-08",
+        "battery-mcq-22"
       ],
       "explanation": "本句的「battery」指「多個電芯／模組組合而成的完整電池系統」。",
       "sentenceIndex": 9,
@@ -579,12 +561,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-04": "本句指「多個電芯／模組組合而成的完整電池系統」。",
-        "battery-mcq-03": "「專門為電動車驅動馬達供應高壓電力的大型動力電池」與本句語境不同。",
-        "battery-mcq-05": "「構成電池的單一電化學儲能單元」與本句語境不同。",
-        "battery-mcq-02": "「用完電後可以重新充電並繼續使用的電池」與本句語境不同。",
-        "battery-mcq-06": "「電池最大可儲存的電能量」與本句語境不同。",
-        "battery-mcq-01": "「透過化學方式儲存電能並向裝置供電的設備」與本句語境不同。"
+        "battery-mcq-04": "本句的「battery」指「多個電芯／模組組合而成的完整電池系統」。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-04"
     },
@@ -596,11 +576,9 @@ export default {
       "masked": "The ____ pack contains many individual cells.",
       "options": [
         "battery-mcq-04",
-        "battery-mcq-03",
-        "battery-mcq-05",
-        "battery-mcq-02",
-        "battery-mcq-06",
-        "battery-mcq-01"
+        "battery-mcq-18",
+        "battery-mcq-08",
+        "battery-mcq-22"
       ],
       "explanation": "本句的「battery」指「多個電芯／模組組合而成的完整電池系統」。",
       "sentenceIndex": 10,
@@ -609,12 +587,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-04": "本句指「多個電芯／模組組合而成的完整電池系統」。",
-        "battery-mcq-03": "「專門為電動車驅動馬達供應高壓電力的大型動力電池」與本句語境不同。",
-        "battery-mcq-05": "「構成電池的單一電化學儲能單元」與本句語境不同。",
-        "battery-mcq-02": "「用完電後可以重新充電並繼續使用的電池」與本句語境不同。",
-        "battery-mcq-06": "「電池最大可儲存的電能量」與本句語境不同。",
-        "battery-mcq-01": "「透過化學方式儲存電能並向裝置供電的設備」與本句語境不同。"
+        "battery-mcq-04": "本句的「battery」指「多個電芯／模組組合而成的完整電池系統」。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-04"
     },
@@ -626,11 +602,9 @@ export default {
       "masked": "A ____ pack contains hundreds of cells.",
       "options": [
         "battery-mcq-05",
-        "battery-mcq-04",
-        "battery-mcq-06",
-        "battery-mcq-03",
-        "battery-mcq-07",
-        "battery-mcq-02"
+        "battery-mcq-18",
+        "battery-mcq-21",
+        "battery-mcq-22"
       ],
       "explanation": "本句的「battery」指「構成電池的單一電化學儲能單元」。",
       "sentenceIndex": 11,
@@ -639,12 +613,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-05": "本句指「構成電池的單一電化學儲能單元」。",
-        "battery-mcq-04": "「多個電芯／模組組合而成的完整電池系統」與本句語境不同。",
-        "battery-mcq-06": "「電池最大可儲存的電能量」與本句語境不同。",
-        "battery-mcq-03": "「專門為電動車驅動馬達供應高壓電力的大型動力電池」與本句語境不同。",
-        "battery-mcq-07": "「電池目前剩餘的電量比例」與本句語境不同。",
-        "battery-mcq-02": "「用完電後可以重新充電並繼續使用的電池」與本句語境不同。"
+        "battery-mcq-05": "本句的「battery」指「構成電池的單一電化學儲能單元」。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-05"
     },
@@ -656,11 +628,9 @@ export default {
       "masked": "The vehicle has a ____ capacity of 70 kWh.",
       "options": [
         "battery-mcq-06",
-        "battery-mcq-05",
-        "battery-mcq-07",
-        "battery-mcq-04",
-        "battery-mcq-08",
-        "battery-mcq-03"
+        "battery-mcq-22",
+        "battery-mcq-21",
+        "battery-mcq-18"
       ],
       "explanation": "本句的「battery」指「電池最大可儲存的電能量」。",
       "sentenceIndex": 14,
@@ -669,12 +639,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-06": "本句指「電池最大可儲存的電能量」。",
-        "battery-mcq-05": "「構成電池的單一電化學儲能單元」與本句語境不同。",
-        "battery-mcq-07": "「電池目前剩餘的電量比例」與本句語境不同。",
-        "battery-mcq-04": "「多個電芯／模組組合而成的完整電池系統」與本句語境不同。",
-        "battery-mcq-08": "「一次充電後可持續運作的時間」與本句語境不同。",
-        "battery-mcq-03": "「專門為電動車驅動馬達供應高壓電力的大型動力電池」與本句語境不同。"
+        "battery-mcq-06": "本句的「battery」指「電池最大可儲存的電能量」。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-06"
     },
@@ -686,11 +654,9 @@ export default {
       "masked": "____ capacity affects driving range.",
       "options": [
         "battery-mcq-06",
-        "battery-mcq-05",
-        "battery-mcq-07",
-        "battery-mcq-04",
-        "battery-mcq-08",
-        "battery-mcq-03"
+        "battery-mcq-22",
+        "battery-mcq-21",
+        "battery-mcq-18"
       ],
       "explanation": "本句的「Battery」指「電池最大可儲存的電能量」。",
       "sentenceIndex": 15,
@@ -699,12 +665,10 @@ export default {
         "Battery"
       ],
       "optionReasons": {
-        "battery-mcq-06": "本句指「電池最大可儲存的電能量」。",
-        "battery-mcq-05": "「構成電池的單一電化學儲能單元」與本句語境不同。",
-        "battery-mcq-07": "「電池目前剩餘的電量比例」與本句語境不同。",
-        "battery-mcq-04": "「多個電芯／模組組合而成的完整電池系統」與本句語境不同。",
-        "battery-mcq-08": "「一次充電後可持續運作的時間」與本句語境不同。",
-        "battery-mcq-03": "「專門為電動車驅動馬達供應高壓電力的大型動力電池」與本句語境不同。"
+        "battery-mcq-06": "本句的「Battery」指「電池最大可儲存的電能量」。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-06"
     },
@@ -716,11 +680,9 @@ export default {
       "masked": "The ____ level is down to 20%.",
       "options": [
         "battery-mcq-07",
-        "battery-mcq-06",
-        "battery-mcq-08",
-        "battery-mcq-05",
-        "battery-mcq-09",
-        "battery-mcq-04"
+        "battery-mcq-22",
+        "battery-mcq-18",
+        "battery-mcq-21"
       ],
       "explanation": "本句的「battery」指「電池目前剩餘的電量比例」。",
       "sentenceIndex": 16,
@@ -729,12 +691,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-07": "本句指「電池目前剩餘的電量比例」。",
-        "battery-mcq-06": "「電池最大可儲存的電能量」與本句語境不同。",
-        "battery-mcq-08": "「一次充電後可持續運作的時間」與本句語境不同。",
-        "battery-mcq-05": "「構成電池的單一電化學儲能單元」與本句語境不同。",
-        "battery-mcq-09": "「電池可正常使用到需要更換的大致壽命」與本句語境不同。",
-        "battery-mcq-04": "「多個電芯／模組組合而成的完整電池系統」與本句語境不同。"
+        "battery-mcq-07": "本句的「battery」指「電池目前剩餘的電量比例」。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-07"
     },
@@ -746,11 +706,9 @@ export default {
       "masked": "Check the ____ level before leaving.",
       "options": [
         "battery-mcq-07",
-        "battery-mcq-06",
-        "battery-mcq-08",
-        "battery-mcq-05",
-        "battery-mcq-09",
-        "battery-mcq-04"
+        "battery-mcq-21",
+        "battery-mcq-18",
+        "battery-mcq-22"
       ],
       "explanation": "本句的「battery」指「電池目前剩餘的電量比例」。",
       "sentenceIndex": 17,
@@ -759,12 +717,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-07": "本句指「電池目前剩餘的電量比例」。",
-        "battery-mcq-06": "「電池最大可儲存的電能量」與本句語境不同。",
-        "battery-mcq-08": "「一次充電後可持續運作的時間」與本句語境不同。",
-        "battery-mcq-05": "「構成電池的單一電化學儲能單元」與本句語境不同。",
-        "battery-mcq-09": "「電池可正常使用到需要更換的大致壽命」與本句語境不同。",
-        "battery-mcq-04": "「多個電芯／模組組合而成的完整電池系統」與本句語境不同。"
+        "battery-mcq-07": "本句的「battery」指「電池目前剩餘的電量比例」。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-07"
     },
@@ -776,11 +732,9 @@ export default {
       "masked": "This phone has excellent ____.",
       "options": [
         "battery-mcq-08",
-        "battery-mcq-07",
-        "battery-mcq-09",
-        "battery-mcq-06",
-        "battery-mcq-10",
-        "battery-mcq-05"
+        "battery-mcq-21",
+        "battery-mcq-22",
+        "battery-mcq-18"
       ],
       "explanation": "本句的「battery life」指「一次充電後可持續運作的時間」。",
       "sentenceIndex": 18,
@@ -789,12 +743,10 @@ export default {
         "battery life"
       ],
       "optionReasons": {
-        "battery-mcq-08": "本句指「一次充電後可持續運作的時間」。",
-        "battery-mcq-07": "「電池目前剩餘的電量比例」與本句語境不同。",
-        "battery-mcq-09": "「電池可正常使用到需要更換的大致壽命」與本句語境不同。",
-        "battery-mcq-06": "「電池最大可儲存的電能量」與本句語境不同。",
-        "battery-mcq-10": "「電池相對新電池所剩的容量、性能及整體狀況」與本句語境不同。",
-        "battery-mcq-05": "「構成電池的單一電化學儲能單元」與本句語境不同。"
+        "battery-mcq-08": "本句的「battery life」指「一次充電後可持續運作的時間」。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-08"
     },
@@ -806,11 +758,9 @@ export default {
       "masked": "Heat can shorten ____ life.",
       "options": [
         "battery-mcq-08",
-        "battery-mcq-07",
-        "battery-mcq-09",
-        "battery-mcq-06",
-        "battery-mcq-10",
-        "battery-mcq-05"
+        "battery-mcq-22",
+        "battery-mcq-18",
+        "battery-mcq-21"
       ],
       "explanation": "本句的「battery」指「一次充電後可持續運作的時間」。",
       "sentenceIndex": 19,
@@ -819,12 +769,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-08": "本句指「一次充電後可持續運作的時間」。",
-        "battery-mcq-07": "「電池目前剩餘的電量比例」與本句語境不同。",
-        "battery-mcq-09": "「電池可正常使用到需要更換的大致壽命」與本句語境不同。",
-        "battery-mcq-06": "「電池最大可儲存的電能量」與本句語境不同。",
-        "battery-mcq-10": "「電池相對新電池所剩的容量、性能及整體狀況」與本句語境不同。",
-        "battery-mcq-05": "「構成電池的單一電化學儲能單元」與本句語境不同。"
+        "battery-mcq-08": "本句的「battery」指「一次充電後可持續運作的時間」。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-08"
     },
@@ -836,11 +784,9 @@ export default {
       "masked": "The certificate shows the vehicle’s ____.",
       "options": [
         "battery-mcq-10",
-        "battery-mcq-09",
-        "battery-mcq-11",
-        "battery-mcq-08",
-        "battery-mcq-12",
-        "battery-mcq-07"
+        "battery-mcq-22",
+        "battery-mcq-21",
+        "battery-mcq-08"
       ],
       "explanation": "本句的「battery health」指「電池相對新電池所剩的容量、性能及整體狀況」。",
       "sentenceIndex": 20,
@@ -849,12 +795,10 @@ export default {
         "battery health"
       ],
       "optionReasons": {
-        "battery-mcq-10": "本句指「電池相對新電池所剩的容量、性能及整體狀況」。",
-        "battery-mcq-09": "「電池可正常使用到需要更換的大致壽命」與本句語境不同。",
-        "battery-mcq-11": "「電池隨時間／使用逐漸失去容量和性能的過程」與本句語境不同。",
-        "battery-mcq-08": "「一次充電後可持續運作的時間」與本句語境不同。",
-        "battery-mcq-12": "「製造商對電池性能／故障提供的保養保障」與本句語境不同。",
-        "battery-mcq-07": "「電池目前剩餘的電量比例」與本句語境不同。"
+        "battery-mcq-10": "本句的「battery health」指「電池相對新電池所剩的容量、性能及整體狀況」。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-10"
     },
@@ -866,11 +810,9 @@ export default {
       "masked": "____ health declines gradually with age and use.",
       "options": [
         "battery-mcq-10",
-        "battery-mcq-09",
-        "battery-mcq-11",
-        "battery-mcq-08",
-        "battery-mcq-12",
-        "battery-mcq-07"
+        "battery-mcq-21",
+        "battery-mcq-22",
+        "battery-mcq-08"
       ],
       "explanation": "本句的「Battery」指「電池相對新電池所剩的容量、性能及整體狀況」。",
       "sentenceIndex": 21,
@@ -879,12 +821,10 @@ export default {
         "Battery"
       ],
       "optionReasons": {
-        "battery-mcq-10": "本句指「電池相對新電池所剩的容量、性能及整體狀況」。",
-        "battery-mcq-09": "「電池可正常使用到需要更換的大致壽命」與本句語境不同。",
-        "battery-mcq-11": "「電池隨時間／使用逐漸失去容量和性能的過程」與本句語境不同。",
-        "battery-mcq-08": "「一次充電後可持續運作的時間」與本句語境不同。",
-        "battery-mcq-12": "「製造商對電池性能／故障提供的保養保障」與本句語境不同。",
-        "battery-mcq-07": "「電池目前剩餘的電量比例」與本句語境不同。"
+        "battery-mcq-10": "本句的「Battery」指「電池相對新電池所剩的容量、性能及整體狀況」。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-10"
     },
@@ -896,11 +836,9 @@ export default {
       "masked": "____ degradation can reduce driving range.",
       "options": [
         "battery-mcq-11",
-        "battery-mcq-10",
-        "battery-mcq-12",
-        "battery-mcq-09",
-        "battery-mcq-13",
-        "battery-mcq-08"
+        "battery-mcq-22",
+        "battery-mcq-18",
+        "battery-mcq-21"
       ],
       "explanation": "本句的「Battery」指「電池隨時間／使用逐漸失去容量和性能的過程」。",
       "sentenceIndex": 22,
@@ -909,12 +847,10 @@ export default {
         "Battery"
       ],
       "optionReasons": {
-        "battery-mcq-11": "本句指「電池隨時間／使用逐漸失去容量和性能的過程」。",
-        "battery-mcq-10": "「電池相對新電池所剩的容量、性能及整體狀況」與本句語境不同。",
-        "battery-mcq-12": "「製造商對電池性能／故障提供的保養保障」與本句語境不同。",
-        "battery-mcq-09": "「電池可正常使用到需要更換的大致壽命」與本句語境不同。",
-        "battery-mcq-13": "「把原有電池換成另一個電池／電池包」與本句語境不同。",
-        "battery-mcq-08": "「一次充電後可持續運作的時間」與本句語境不同。"
+        "battery-mcq-11": "本句的「Battery」指「電池隨時間／使用逐漸失去容量和性能的過程」。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-11"
     },
@@ -926,11 +862,9 @@ export default {
       "masked": "The manufacturer offers an eight-year ____ warranty.",
       "options": [
         "battery-mcq-12",
-        "battery-mcq-11",
-        "battery-mcq-13",
-        "battery-mcq-10",
-        "battery-mcq-14",
-        "battery-mcq-09"
+        "battery-mcq-18",
+        "battery-mcq-22",
+        "battery-mcq-21"
       ],
       "explanation": "本句的「battery」指「製造商對電池性能／故障提供的保養保障」。",
       "sentenceIndex": 24,
@@ -939,12 +873,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-12": "本句指「製造商對電池性能／故障提供的保養保障」。",
-        "battery-mcq-11": "「電池隨時間／使用逐漸失去容量和性能的過程」與本句語境不同。",
-        "battery-mcq-13": "「把原有電池換成另一個電池／電池包」與本句語境不同。",
-        "battery-mcq-10": "「電池相對新電池所剩的容量、性能及整體狀況」與本句語境不同。",
-        "battery-mcq-14": "「監測、保護和控制電池狀態的電子管理系統」與本句語境不同。",
-        "battery-mcq-09": "「電池可正常使用到需要更換的大致壽命」與本句語境不同。"
+        "battery-mcq-12": "本句的「battery」指「製造商對電池性能／故障提供的保養保障」。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-12"
     },
@@ -956,11 +888,9 @@ export default {
       "masked": "____ warranties may include capacity conditions.",
       "options": [
         "battery-mcq-12",
-        "battery-mcq-11",
-        "battery-mcq-13",
-        "battery-mcq-10",
-        "battery-mcq-14",
-        "battery-mcq-09"
+        "battery-mcq-22",
+        "battery-mcq-18",
+        "battery-mcq-21"
       ],
       "explanation": "本句的「Battery」指「製造商對電池性能／故障提供的保養保障」。",
       "sentenceIndex": 25,
@@ -969,12 +899,10 @@ export default {
         "Battery"
       ],
       "optionReasons": {
-        "battery-mcq-12": "本句指「製造商對電池性能／故障提供的保養保障」。",
-        "battery-mcq-11": "「電池隨時間／使用逐漸失去容量和性能的過程」與本句語境不同。",
-        "battery-mcq-13": "「把原有電池換成另一個電池／電池包」與本句語境不同。",
-        "battery-mcq-10": "「電池相對新電池所剩的容量、性能及整體狀況」與本句語境不同。",
-        "battery-mcq-14": "「監測、保護和控制電池狀態的電子管理系統」與本句語境不同。",
-        "battery-mcq-09": "「電池可正常使用到需要更換的大致壽命」與本句語境不同。"
+        "battery-mcq-12": "本句的「Battery」指「製造商對電池性能／故障提供的保養保障」。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-12"
     },
@@ -986,11 +914,9 @@ export default {
       "masked": "____ replacement can be expensive.",
       "options": [
         "battery-mcq-13",
-        "battery-mcq-12",
-        "battery-mcq-14",
-        "battery-mcq-11",
-        "battery-mcq-15",
-        "battery-mcq-10"
+        "battery-mcq-22",
+        "battery-mcq-18",
+        "battery-mcq-21"
       ],
       "explanation": "本句的「Battery」指「把原有電池換成另一個電池／電池包」。",
       "sentenceIndex": 26,
@@ -999,12 +925,10 @@ export default {
         "Battery"
       ],
       "optionReasons": {
-        "battery-mcq-13": "本句指「把原有電池換成另一個電池／電池包」。",
-        "battery-mcq-12": "「製造商對電池性能／故障提供的保養保障」與本句語境不同。",
-        "battery-mcq-14": "「監測、保護和控制電池狀態的電子管理系統」與本句語境不同。",
-        "battery-mcq-11": "「電池隨時間／使用逐漸失去容量和性能的過程」與本句語境不同。",
-        "battery-mcq-15": "「電量已耗盡、暫時無法正常供電的電池」與本句語境不同。",
-        "battery-mcq-10": "「電池相對新電池所剩的容量、性能及整體狀況」與本句語境不同。"
+        "battery-mcq-13": "本句的「Battery」指「把原有電池換成另一個電池／電池包」。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-13"
     },
@@ -1016,11 +940,9 @@ export default {
       "masked": "Buyers worry about future ____ replacement costs.",
       "options": [
         "battery-mcq-13",
-        "battery-mcq-12",
-        "battery-mcq-14",
-        "battery-mcq-11",
-        "battery-mcq-15",
-        "battery-mcq-10"
+        "battery-mcq-18",
+        "battery-mcq-22",
+        "battery-mcq-21"
       ],
       "explanation": "本句的「battery」指「把原有電池換成另一個電池／電池包」。",
       "sentenceIndex": 27,
@@ -1029,12 +951,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-13": "本句指「把原有電池換成另一個電池／電池包」。",
-        "battery-mcq-12": "「製造商對電池性能／故障提供的保養保障」與本句語境不同。",
-        "battery-mcq-14": "「監測、保護和控制電池狀態的電子管理系統」與本句語境不同。",
-        "battery-mcq-11": "「電池隨時間／使用逐漸失去容量和性能的過程」與本句語境不同。",
-        "battery-mcq-15": "「電量已耗盡、暫時無法正常供電的電池」與本句語境不同。",
-        "battery-mcq-10": "「電池相對新電池所剩的容量、性能及整體狀況」與本句語境不同。"
+        "battery-mcq-13": "本句的「battery」指「把原有電池換成另一個電池／電池包」。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-13"
     },
@@ -1046,11 +966,9 @@ export default {
       "masked": "The ____ management system monitors temperature.",
       "options": [
         "battery-mcq-14",
-        "battery-mcq-13",
-        "battery-mcq-15",
-        "battery-mcq-12",
-        "battery-mcq-16",
-        "battery-mcq-11"
+        "battery-mcq-22",
+        "battery-mcq-08",
+        "battery-mcq-18"
       ],
       "explanation": "本句的「battery」指「監測、保護和控制電池狀態的電子管理系統」。",
       "sentenceIndex": 30,
@@ -1059,12 +977,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-14": "本句指「監測、保護和控制電池狀態的電子管理系統」。",
-        "battery-mcq-13": "「把原有電池換成另一個電池／電池包」與本句語境不同。",
-        "battery-mcq-15": "「電量已耗盡、暫時無法正常供電的電池」與本句語境不同。",
-        "battery-mcq-12": "「製造商對電池性能／故障提供的保養保障」與本句語境不同。",
-        "battery-mcq-16": "「主要依靠電池供應能源運作的」與本句語境不同。",
-        "battery-mcq-11": "「電池隨時間／使用逐漸失去容量和性能的過程」與本句語境不同。"
+        "battery-mcq-14": "本句的「battery」指「監測、保護和控制電池狀態的電子管理系統」。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-14"
     },
@@ -1076,11 +992,9 @@ export default {
       "masked": "A BMS helps protect the ____ pack.",
       "options": [
         "battery-mcq-14",
-        "battery-mcq-13",
-        "battery-mcq-15",
-        "battery-mcq-12",
-        "battery-mcq-16",
-        "battery-mcq-11"
+        "battery-mcq-22",
+        "battery-mcq-08",
+        "battery-mcq-18"
       ],
       "explanation": "本句的「battery」指「監測、保護和控制電池狀態的電子管理系統」。",
       "sentenceIndex": 31,
@@ -1089,12 +1003,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-14": "本句指「監測、保護和控制電池狀態的電子管理系統」。",
-        "battery-mcq-13": "「把原有電池換成另一個電池／電池包」與本句語境不同。",
-        "battery-mcq-15": "「電量已耗盡、暫時無法正常供電的電池」與本句語境不同。",
-        "battery-mcq-12": "「製造商對電池性能／故障提供的保養保障」與本句語境不同。",
-        "battery-mcq-16": "「主要依靠電池供應能源運作的」與本句語境不同。",
-        "battery-mcq-11": "「電池隨時間／使用逐漸失去容量和性能的過程」與本句語境不同。"
+        "battery-mcq-14": "本句的「battery」指「監測、保護和控制電池狀態的電子管理系統」。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-14"
     },
@@ -1106,11 +1018,9 @@ export default {
       "masked": "The car has a dead ____.",
       "options": [
         "battery-mcq-15",
-        "battery-mcq-14",
-        "battery-mcq-16",
-        "battery-mcq-13",
-        "battery-mcq-17",
-        "battery-mcq-12"
+        "battery-mcq-18",
+        "battery-mcq-21",
+        "battery-mcq-22"
       ],
       "explanation": "本句的「battery」指「電量已耗盡、暫時無法正常供電的電池」。",
       "sentenceIndex": 38,
@@ -1119,12 +1029,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-15": "本句指「電量已耗盡、暫時無法正常供電的電池」。",
-        "battery-mcq-14": "「監測、保護和控制電池狀態的電子管理系統」與本句語境不同。",
-        "battery-mcq-16": "「主要依靠電池供應能源運作的」與本句語境不同。",
-        "battery-mcq-13": "「把原有電池換成另一個電池／電池包」與本句語境不同。",
-        "battery-mcq-17": "「集中出現的一整套／大量同類項目」與本句語境不同。",
-        "battery-mcq-12": "「製造商對電池性能／故障提供的保養保障」與本句語境不同。"
+        "battery-mcq-15": "本句的「battery」指「電量已耗盡、暫時無法正常供電的電池」。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-15"
     },
@@ -1136,11 +1044,9 @@ export default {
       "masked": "A dead ____ may need charging or replacement.",
       "options": [
         "battery-mcq-15",
-        "battery-mcq-14",
-        "battery-mcq-16",
-        "battery-mcq-13",
-        "battery-mcq-17",
-        "battery-mcq-12"
+        "battery-mcq-21",
+        "battery-mcq-22",
+        "battery-mcq-18"
       ],
       "explanation": "本句的「battery」指「電量已耗盡、暫時無法正常供電的電池」。",
       "sentenceIndex": 39,
@@ -1149,12 +1055,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-15": "本句指「電量已耗盡、暫時無法正常供電的電池」。",
-        "battery-mcq-14": "「監測、保護和控制電池狀態的電子管理系統」與本句語境不同。",
-        "battery-mcq-16": "「主要依靠電池供應能源運作的」與本句語境不同。",
-        "battery-mcq-13": "「把原有電池換成另一個電池／電池包」與本句語境不同。",
-        "battery-mcq-17": "「集中出現的一整套／大量同類項目」與本句語境不同。",
-        "battery-mcq-12": "「製造商對電池性能／故障提供的保養保障」與本句語境不同。"
+        "battery-mcq-15": "本句的「battery」指「電量已耗盡、暫時無法正常供電的電池」。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-15"
     },
@@ -1166,11 +1070,9 @@ export default {
       "masked": "The device is ____.",
       "options": [
         "battery-mcq-16",
-        "battery-mcq-15",
-        "battery-mcq-17",
-        "battery-mcq-14",
         "battery-mcq-18",
-        "battery-mcq-13"
+        "battery-mcq-22",
+        "battery-mcq-21"
       ],
       "explanation": "本句的「battery-powered」指「主要依靠電池供應能源運作的」。",
       "sentenceIndex": 40,
@@ -1179,12 +1081,10 @@ export default {
         "battery-powered"
       ],
       "optionReasons": {
-        "battery-mcq-16": "本句指「主要依靠電池供應能源運作的」。",
-        "battery-mcq-15": "「電量已耗盡、暫時無法正常供電的電池」與本句語境不同。",
-        "battery-mcq-17": "「集中出現的一整套／大量同類項目」與本句語境不同。",
-        "battery-mcq-14": "「監測、保護和控制電池狀態的電子管理系統」與本句語境不同。",
-        "battery-mcq-18": "「為評估某人／某狀況而進行的一整套測試」與本句語境不同。",
-        "battery-mcq-13": "「把原有電池換成另一個電池／電池包」與本句語境不同。"
+        "battery-mcq-16": "本句的「battery-powered」指「主要依靠電池供應能源運作的」。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-16"
     },
@@ -1196,11 +1096,9 @@ export default {
       "masked": "____ tools are easy to carry.",
       "options": [
         "battery-mcq-16",
-        "battery-mcq-15",
-        "battery-mcq-17",
-        "battery-mcq-14",
         "battery-mcq-18",
-        "battery-mcq-13"
+        "battery-mcq-22",
+        "battery-mcq-21"
       ],
       "explanation": "本句的「Battery-powered」指「主要依靠電池供應能源運作的」。",
       "sentenceIndex": 41,
@@ -1209,12 +1107,10 @@ export default {
         "Battery-powered"
       ],
       "optionReasons": {
-        "battery-mcq-16": "本句指「主要依靠電池供應能源運作的」。",
-        "battery-mcq-15": "「電量已耗盡、暫時無法正常供電的電池」與本句語境不同。",
-        "battery-mcq-17": "「集中出現的一整套／大量同類項目」與本句語境不同。",
-        "battery-mcq-14": "「監測、保護和控制電池狀態的電子管理系統」與本句語境不同。",
-        "battery-mcq-18": "「為評估某人／某狀況而進行的一整套測試」與本句語境不同。",
-        "battery-mcq-13": "「把原有電池換成另一個電池／電池包」與本句語境不同。"
+        "battery-mcq-16": "本句的「Battery-powered」指「主要依靠電池供應能源運作的」。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-16"
     },
@@ -1226,11 +1122,9 @@ export default {
       "masked": "The ____ underwent a battery of safety tests.",
       "options": [
         "battery-mcq-18",
-        "battery-mcq-17",
-        "battery-mcq-19",
-        "battery-mcq-16",
-        "battery-mcq-20",
-        "battery-mcq-15"
+        "battery-mcq-11",
+        "battery-mcq-21",
+        "battery-mcq-22"
       ],
       "explanation": "本句的「battery」指「為評估某人／某狀況而進行的一整套測試」。",
       "sentenceIndex": 44,
@@ -1239,12 +1133,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-18": "本句指「為評估某人／某狀況而進行的一整套測試」。",
-        "battery-mcq-17": "「集中出現的一整套／大量同類項目」與本句語境不同。",
-        "battery-mcq-19": "「由多門火炮及其人員組成的炮兵單位／炮組」與本句語境不同。",
-        "battery-mcq-16": "「主要依靠電池供應能源運作的」與本句語境不同。",
-        "battery-mcq-20": "「法律上未經合法理由的故意身體接觸／施力」與本句語境不同。",
-        "battery-mcq-15": "「電量已耗盡、暫時無法正常供電的電池」與本句語境不同。"
+        "battery-mcq-18": "本句的「battery」指「為評估某人／某狀況而進行的一整套測試」。",
+        "battery-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-18"
     },
@@ -1256,11 +1148,9 @@ export default {
       "masked": "Doctors ordered a ____ of tests.",
       "options": [
         "battery-mcq-18",
-        "battery-mcq-17",
-        "battery-mcq-19",
-        "battery-mcq-16",
-        "battery-mcq-20",
-        "battery-mcq-15"
+        "battery-mcq-13",
+        "battery-mcq-08",
+        "battery-mcq-01"
       ],
       "explanation": "本句的「battery」指「為評估某人／某狀況而進行的一整套測試」。",
       "sentenceIndex": 45,
@@ -1269,12 +1159,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-18": "本句指「為評估某人／某狀況而進行的一整套測試」。",
-        "battery-mcq-17": "「集中出現的一整套／大量同類項目」與本句語境不同。",
-        "battery-mcq-19": "「由多門火炮及其人員組成的炮兵單位／炮組」與本句語境不同。",
-        "battery-mcq-16": "「主要依靠電池供應能源運作的」與本句語境不同。",
-        "battery-mcq-20": "「法律上未經合法理由的故意身體接觸／施力」與本句語境不同。",
-        "battery-mcq-15": "「電量已耗盡、暫時無法正常供電的電池」與本句語境不同。"
+        "battery-mcq-18": "本句的「battery」指「為評估某人／某狀況而進行的一整套測試」。",
+        "battery-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-18"
     },
@@ -1286,10 +1174,8 @@ export default {
       "masked": "The laboratory installed a ____ of sensors.",
       "options": [
         "battery-mcq-21",
-        "battery-mcq-20",
-        "battery-mcq-22",
-        "battery-mcq-19",
-        "battery-mcq-23",
+        "battery-mcq-05",
+        "battery-mcq-08",
         "battery-mcq-18"
       ],
       "explanation": "本句的「battery」指「一組協同使用的同類設備」。",
@@ -1299,12 +1185,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-21": "本句指「一組協同使用的同類設備」。",
-        "battery-mcq-20": "「法律上未經合法理由的故意身體接觸／施力」與本句語境不同。",
-        "battery-mcq-22": "「步操樂隊／鼓隊中的行進打擊樂組」與本句語境不同。",
-        "battery-mcq-19": "「由多門火炮及其人員組成的炮兵單位／炮組」與本句語境不同。",
-        "battery-mcq-23": "「棒球中的投手與捕手組合」與本句語境不同。",
-        "battery-mcq-18": "「為評估某人／某狀況而進行的一整套測試」與本句語境不同。"
+        "battery-mcq-21": "本句的「battery」指「一組協同使用的同類設備」。",
+        "battery-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-21"
     },
@@ -1316,10 +1200,8 @@ export default {
       "masked": "A ____ of cameras monitored the site.",
       "options": [
         "battery-mcq-21",
-        "battery-mcq-20",
-        "battery-mcq-22",
-        "battery-mcq-19",
-        "battery-mcq-23",
+        "battery-mcq-05",
+        "battery-mcq-08",
         "battery-mcq-18"
       ],
       "explanation": "本句的「battery」指「一組協同使用的同類設備」。",
@@ -1329,12 +1211,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-21": "本句指「一組協同使用的同類設備」。",
-        "battery-mcq-20": "「法律上未經合法理由的故意身體接觸／施力」與本句語境不同。",
-        "battery-mcq-22": "「步操樂隊／鼓隊中的行進打擊樂組」與本句語境不同。",
-        "battery-mcq-19": "「由多門火炮及其人員組成的炮兵單位／炮組」與本句語境不同。",
-        "battery-mcq-23": "「棒球中的投手與捕手組合」與本句語境不同。",
-        "battery-mcq-18": "「為評估某人／某狀況而進行的一整套測試」與本句語境不同。"
+        "battery-mcq-21": "本句的「battery」指「一組協同使用的同類設備」。",
+        "battery-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-21"
     },
@@ -1346,11 +1226,9 @@ export default {
       "masked": "The marching band’s ____ kept a steady rhythm.",
       "options": [
         "battery-mcq-22",
-        "battery-mcq-21",
-        "battery-mcq-23",
-        "battery-mcq-20",
-        "battery-mcq-19",
-        "battery-mcq-18"
+        "battery-mcq-10",
+        "battery-mcq-08",
+        "battery-mcq-01"
       ],
       "explanation": "本句的「battery」指「步操樂隊／鼓隊中的行進打擊樂組」。",
       "sentenceIndex": 67,
@@ -1359,12 +1237,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-22": "本句指「步操樂隊／鼓隊中的行進打擊樂組」。",
-        "battery-mcq-21": "「一組協同使用的同類設備」與本句語境不同。",
-        "battery-mcq-23": "「棒球中的投手與捕手組合」與本句語境不同。",
-        "battery-mcq-20": "「法律上未經合法理由的故意身體接觸／施力」與本句語境不同。",
-        "battery-mcq-19": "「由多門火炮及其人員組成的炮兵單位／炮組」與本句語境不同。",
-        "battery-mcq-18": "「為評估某人／某狀況而進行的一整套測試」與本句語境不同。"
+        "battery-mcq-22": "本句的「battery」指「步操樂隊／鼓隊中的行進打擊樂組」。",
+        "battery-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-22"
     },
@@ -1376,11 +1252,9 @@ export default {
       "masked": "The ____ includes several drums.",
       "options": [
         "battery-mcq-22",
-        "battery-mcq-21",
-        "battery-mcq-23",
-        "battery-mcq-20",
-        "battery-mcq-19",
-        "battery-mcq-18"
+        "battery-mcq-12",
+        "battery-mcq-01",
+        "battery-mcq-08"
       ],
       "explanation": "本句的「battery」指「步操樂隊／鼓隊中的行進打擊樂組」。",
       "sentenceIndex": 68,
@@ -1389,12 +1263,10 @@ export default {
         "battery"
       ],
       "optionReasons": {
-        "battery-mcq-22": "本句指「步操樂隊／鼓隊中的行進打擊樂組」。",
-        "battery-mcq-21": "「一組協同使用的同類設備」與本句語境不同。",
-        "battery-mcq-23": "「棒球中的投手與捕手組合」與本句語境不同。",
-        "battery-mcq-20": "「法律上未經合法理由的故意身體接觸／施力」與本句語境不同。",
-        "battery-mcq-19": "「由多門火炮及其人員組成的炮兵單位／炮組」與本句語境不同。",
-        "battery-mcq-18": "「為評估某人／某狀況而進行的一整套測試」與本句語境不同。"
+        "battery-mcq-22": "本句的「battery」指「步操樂隊／鼓隊中的行進打擊樂組」。",
+        "battery-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "battery-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battery-mcq-22"
     }
@@ -1406,5 +1278,7 @@ export default {
     "sha256": "e01c89a3c85b2ba7bc41f546f09c6d8d3a8a02d958d36cec66bef71a5949393f",
     "pages": 38
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

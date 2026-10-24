@@ -526,11 +526,9 @@ export default {
       "masked": "She is widely ____ in my family.",
       "options": [
         "respect-mcq-01",
-        "respect-mcq-02",
         "respect-mcq-03",
-        "respect-mcq-04",
-        "respect-mcq-05",
-        "respect-mcq-06"
+        "respect-mcq-17",
+        "respect-mcq-21"
       ],
       "explanation": "本句的「respected」指「因某人的品格、能力、經驗或行為而對其有高度評價和敬意」。",
       "sentenceIndex": 0,
@@ -539,12 +537,10 @@ export default {
         "respected"
       ],
       "optionReasons": {
-        "respect-mcq-01": "本句指「因某人的品格、能力、經驗或行為而對其有高度評價和敬意」。",
-        "respect-mcq-02": "「承認並顧及某人的選擇、權利、意願或界線」是「respect someone's rights/decision」的用法，與本句語境不同。",
-        "respect-mcq-03": "「承認某規則、法律或界線的重要性並避免違反／侵犯」是「respect rules/law/privacy」的用法，與本句語境不同。",
-        "respect-mcq-04": "「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」是「respect — admiration noun」的用法，與本句語境不同。",
-        "respect-mcq-05": "「對某人／某事抱有敬意和高度評價」是「have respect for」的用法，與本句語境不同。",
-        "respect-mcq-06": "「透過態度、言語或行為表達敬意和重視」是「show respect」的用法，與本句語境不同。"
+        "respect-mcq-01": "本句的「respected」指「因某人的品格、能力、經驗或行為而對其有高度評價和敬意」。",
+        "respect-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-01"
     },
@@ -556,11 +552,9 @@ export default {
       "masked": "I really ____ her for the way she treats people.",
       "options": [
         "respect-mcq-01",
-        "respect-mcq-02",
-        "respect-mcq-03",
-        "respect-mcq-04",
-        "respect-mcq-05",
-        "respect-mcq-06"
+        "respect-mcq-13",
+        "respect-mcq-17",
+        "respect-mcq-21"
       ],
       "explanation": "本句的「respect」指「因某人的品格、能力、經驗或行為而對其有高度評價和敬意」。",
       "sentenceIndex": 1,
@@ -569,12 +563,10 @@ export default {
         "respect"
       ],
       "optionReasons": {
-        "respect-mcq-01": "本句指「因某人的品格、能力、經驗或行為而對其有高度評價和敬意」。",
-        "respect-mcq-02": "「承認並顧及某人的選擇、權利、意願或界線」是「respect someone's rights/decision」的用法，與本句語境不同。",
-        "respect-mcq-03": "「承認某規則、法律或界線的重要性並避免違反／侵犯」是「respect rules/law/privacy」的用法，與本句語境不同。",
-        "respect-mcq-04": "「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」是「respect — admiration noun」的用法，與本句語境不同。",
-        "respect-mcq-05": "「對某人／某事抱有敬意和高度評價」是「have respect for」的用法，與本句語境不同。",
-        "respect-mcq-06": "「透過態度、言語或行為表達敬意和重視」是「show respect」的用法，與本句語境不同。"
+        "respect-mcq-01": "本句的「respect」指「因某人的品格、能力、經驗或行為而對其有高度評價和敬意」。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-01"
     },
@@ -586,11 +578,9 @@ export default {
       "masked": "Everyone ____ him for his honesty.",
       "options": [
         "respect-mcq-01",
-        "respect-mcq-02",
         "respect-mcq-03",
-        "respect-mcq-04",
-        "respect-mcq-05",
-        "respect-mcq-06"
+        "respect-mcq-13",
+        "respect-mcq-21"
       ],
       "explanation": "本句的「respects」指「因某人的品格、能力、經驗或行為而對其有高度評價和敬意」。",
       "sentenceIndex": 2,
@@ -599,12 +589,10 @@ export default {
         "respects"
       ],
       "optionReasons": {
-        "respect-mcq-01": "本句指「因某人的品格、能力、經驗或行為而對其有高度評價和敬意」。",
-        "respect-mcq-02": "「承認並顧及某人的選擇、權利、意願或界線」是「respect someone's rights/decision」的用法，與本句語境不同。",
-        "respect-mcq-03": "「承認某規則、法律或界線的重要性並避免違反／侵犯」是「respect rules/law/privacy」的用法，與本句語境不同。",
-        "respect-mcq-04": "「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」是「respect — admiration noun」的用法，與本句語境不同。",
-        "respect-mcq-05": "「對某人／某事抱有敬意和高度評價」是「have respect for」的用法，與本句語境不同。",
-        "respect-mcq-06": "「透過態度、言語或行為表達敬意和重視」是「show respect」的用法，與本句語境不同。"
+        "respect-mcq-01": "本句的「respects」指「因某人的品格、能力、經驗或行為而對其有高度評價和敬意」。",
+        "respect-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-01"
     },
@@ -616,11 +604,9 @@ export default {
       "masked": "You should ____ other people’s opinions.",
       "options": [
         "respect-mcq-02",
-        "respect-mcq-01",
-        "respect-mcq-03",
-        "respect-mcq-04",
-        "respect-mcq-05",
-        "respect-mcq-06"
+        "respect-mcq-18",
+        "respect-mcq-17",
+        "respect-mcq-11"
       ],
       "explanation": "本句的「respect」指「承認並顧及某人的選擇、權利、意願或界線」。",
       "sentenceIndex": 3,
@@ -629,12 +615,10 @@ export default {
         "respect"
       ],
       "optionReasons": {
-        "respect-mcq-02": "本句指「承認並顧及某人的選擇、權利、意願或界線」。",
-        "respect-mcq-01": "「因某人的品格、能力、經驗或行為而對其有高度評價和敬意」是「respect someone — admiration」的用法，與本句語境不同。",
-        "respect-mcq-03": "「承認某規則、法律或界線的重要性並避免違反／侵犯」是「respect rules/law/privacy」的用法，與本句語境不同。",
-        "respect-mcq-04": "「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」是「respect — admiration noun」的用法，與本句語境不同。",
-        "respect-mcq-05": "「對某人／某事抱有敬意和高度評價」是「have respect for」的用法，與本句語境不同。",
-        "respect-mcq-06": "「透過態度、言語或行為表達敬意和重視」是「show respect」的用法，與本句語境不同。"
+        "respect-mcq-02": "本句的「respect」指「承認並顧及某人的選擇、權利、意願或界線」。",
+        "respect-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-02"
     },
@@ -646,11 +630,9 @@ export default {
       "masked": "We must ____ her decision.",
       "options": [
         "respect-mcq-02",
-        "respect-mcq-01",
-        "respect-mcq-03",
-        "respect-mcq-04",
-        "respect-mcq-05",
-        "respect-mcq-06"
+        "respect-mcq-11",
+        "respect-mcq-21",
+        "respect-mcq-17"
       ],
       "explanation": "本句的「respect」指「承認並顧及某人的選擇、權利、意願或界線」。",
       "sentenceIndex": 4,
@@ -659,12 +641,10 @@ export default {
         "respect"
       ],
       "optionReasons": {
-        "respect-mcq-02": "本句指「承認並顧及某人的選擇、權利、意願或界線」。",
-        "respect-mcq-01": "「因某人的品格、能力、經驗或行為而對其有高度評價和敬意」是「respect someone — admiration」的用法，與本句語境不同。",
-        "respect-mcq-03": "「承認某規則、法律或界線的重要性並避免違反／侵犯」是「respect rules/law/privacy」的用法，與本句語境不同。",
-        "respect-mcq-04": "「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」是「respect — admiration noun」的用法，與本句語境不同。",
-        "respect-mcq-05": "「對某人／某事抱有敬意和高度評價」是「have respect for」的用法，與本句語境不同。",
-        "respect-mcq-06": "「透過態度、言語或行為表達敬意和重視」是「show respect」的用法，與本句語境不同。"
+        "respect-mcq-02": "本句的「respect」指「承認並顧及某人的選擇、權利、意願或界線」。",
+        "respect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-02"
     },
@@ -676,11 +656,9 @@ export default {
       "masked": "Please ____ the rules.",
       "options": [
         "respect-mcq-03",
-        "respect-mcq-02",
-        "respect-mcq-04",
         "respect-mcq-01",
-        "respect-mcq-05",
-        "respect-mcq-06"
+        "respect-mcq-21",
+        "respect-mcq-11"
       ],
       "explanation": "本句的「respect」指「承認某規則、法律或界線的重要性並避免違反／侵犯」。",
       "sentenceIndex": 5,
@@ -689,12 +667,10 @@ export default {
         "respect"
       ],
       "optionReasons": {
-        "respect-mcq-03": "本句指「承認某規則、法律或界線的重要性並避免違反／侵犯」。",
-        "respect-mcq-02": "「承認並顧及某人的選擇、權利、意願或界線」是「respect someone's rights/decision」的用法，與本句語境不同。",
-        "respect-mcq-04": "「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」是「respect — admiration noun」的用法，與本句語境不同。",
-        "respect-mcq-01": "「因某人的品格、能力、經驗或行為而對其有高度評價和敬意」是「respect someone — admiration」的用法，與本句語境不同。",
-        "respect-mcq-05": "「對某人／某事抱有敬意和高度評價」是「have respect for」的用法，與本句語境不同。",
-        "respect-mcq-06": "「透過態度、言語或行為表達敬意和重視」是「show respect」的用法，與本句語境不同。"
+        "respect-mcq-03": "本句的「respect」指「承認某規則、法律或界線的重要性並避免違反／侵犯」。",
+        "respect-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-03"
     },
@@ -706,11 +682,9 @@ export default {
       "masked": "Everyone should ____ other people’s privacy.",
       "options": [
         "respect-mcq-03",
-        "respect-mcq-02",
-        "respect-mcq-04",
-        "respect-mcq-01",
-        "respect-mcq-05",
-        "respect-mcq-06"
+        "respect-mcq-11",
+        "respect-mcq-20",
+        "respect-mcq-19"
       ],
       "explanation": "本句的「respect」指「承認某規則、法律或界線的重要性並避免違反／侵犯」。",
       "sentenceIndex": 6,
@@ -719,12 +693,10 @@ export default {
         "respect"
       ],
       "optionReasons": {
-        "respect-mcq-03": "本句指「承認某規則、法律或界線的重要性並避免違反／侵犯」。",
-        "respect-mcq-02": "「承認並顧及某人的選擇、權利、意願或界線」是「respect someone's rights/decision」的用法，與本句語境不同。",
-        "respect-mcq-04": "「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」是「respect — admiration noun」的用法，與本句語境不同。",
-        "respect-mcq-01": "「因某人的品格、能力、經驗或行為而對其有高度評價和敬意」是「respect someone — admiration」的用法，與本句語境不同。",
-        "respect-mcq-05": "「對某人／某事抱有敬意和高度評價」是「have respect for」的用法，與本句語境不同。",
-        "respect-mcq-06": "「透過態度、言語或行為表達敬意和重視」是「show respect」的用法，與本句語境不同。"
+        "respect-mcq-03": "本句的「respect」指「承認某規則、法律或界線的重要性並避免違反／侵犯」。",
+        "respect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-03"
     },
@@ -736,11 +708,9 @@ export default {
       "masked": "She has earned the ____ of her neighbours.",
       "options": [
         "respect-mcq-04",
+        "respect-mcq-17",
         "respect-mcq-03",
-        "respect-mcq-05",
-        "respect-mcq-02",
-        "respect-mcq-06",
-        "respect-mcq-01"
+        "respect-mcq-13"
       ],
       "explanation": "本句的「respect」指「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」。",
       "sentenceIndex": 7,
@@ -749,12 +719,10 @@ export default {
         "respect"
       ],
       "optionReasons": {
-        "respect-mcq-04": "本句指「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」。",
-        "respect-mcq-03": "「承認某規則、法律或界線的重要性並避免違反／侵犯」是「respect rules/law/privacy」的用法，與本句語境不同。",
-        "respect-mcq-05": "「對某人／某事抱有敬意和高度評價」是「have respect for」的用法，與本句語境不同。",
-        "respect-mcq-02": "「承認並顧及某人的選擇、權利、意願或界線」是「respect someone's rights/decision」的用法，與本句語境不同。",
-        "respect-mcq-06": "「透過態度、言語或行為表達敬意和重視」是「show respect」的用法，與本句語境不同。",
-        "respect-mcq-01": "「因某人的品格、能力、經驗或行為而對其有高度評價和敬意」是「respect someone — admiration」的用法，與本句語境不同。"
+        "respect-mcq-04": "本句的「respect」指「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」。",
+        "respect-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-04"
     },
@@ -766,11 +734,9 @@ export default {
       "masked": "I have great ____ for her.",
       "options": [
         "respect-mcq-04",
+        "respect-mcq-19",
         "respect-mcq-03",
-        "respect-mcq-05",
-        "respect-mcq-02",
-        "respect-mcq-06",
-        "respect-mcq-01"
+        "respect-mcq-13"
       ],
       "explanation": "本句的「respect」指「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」。",
       "sentenceIndex": 8,
@@ -779,12 +745,10 @@ export default {
         "respect"
       ],
       "optionReasons": {
-        "respect-mcq-04": "本句指「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」。",
-        "respect-mcq-03": "「承認某規則、法律或界線的重要性並避免違反／侵犯」是「respect rules/law/privacy」的用法，與本句語境不同。",
-        "respect-mcq-05": "「對某人／某事抱有敬意和高度評價」是「have respect for」的用法，與本句語境不同。",
-        "respect-mcq-02": "「承認並顧及某人的選擇、權利、意願或界線」是「respect someone's rights/decision」的用法，與本句語境不同。",
-        "respect-mcq-06": "「透過態度、言語或行為表達敬意和重視」是「show respect」的用法，與本句語境不同。",
-        "respect-mcq-01": "「因某人的品格、能力、經驗或行為而對其有高度評價和敬意」是「respect someone — admiration」的用法，與本句語境不同。"
+        "respect-mcq-04": "本句的「respect」指「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」。",
+        "respect-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-04"
     },
@@ -796,11 +760,9 @@ export default {
       "masked": "I have a lot of ____ my grandmother.",
       "options": [
         "respect-mcq-05",
-        "respect-mcq-04",
-        "respect-mcq-06",
-        "respect-mcq-03",
-        "respect-mcq-07",
-        "respect-mcq-02"
+        "respect-mcq-12",
+        "respect-mcq-17",
+        "respect-mcq-03"
       ],
       "explanation": "本句的「respect for」指「對某人／某事抱有敬意和高度評價」。",
       "sentenceIndex": 9,
@@ -809,12 +771,10 @@ export default {
         "respect for"
       ],
       "optionReasons": {
-        "respect-mcq-05": "本句指「對某人／某事抱有敬意和高度評價」。",
-        "respect-mcq-04": "「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」是「respect — admiration noun」的用法，與本句語境不同。",
-        "respect-mcq-06": "「透過態度、言語或行為表達敬意和重視」是「show respect」的用法，與本句語境不同。",
-        "respect-mcq-03": "「承認某規則、法律或界線的重要性並避免違反／侵犯」是「respect rules/law/privacy」的用法，與本句語境不同。",
-        "respect-mcq-07": "「因自己的行為、能力或品格而令別人逐漸敬重自己」是「earn/gain respect」的用法，與本句語境不同。",
-        "respect-mcq-02": "「承認並顧及某人的選擇、權利、意願或界線」是「respect someone's rights/decision」的用法，與本句語境不同。"
+        "respect-mcq-05": "本句的「respect for」指「對某人／某事抱有敬意和高度評價」。",
+        "respect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-05"
     },
@@ -826,11 +786,9 @@ export default {
       "masked": "She has great ____ people who remain kind under pressure.",
       "options": [
         "respect-mcq-05",
-        "respect-mcq-04",
-        "respect-mcq-06",
+        "respect-mcq-13",
         "respect-mcq-03",
-        "respect-mcq-07",
-        "respect-mcq-02"
+        "respect-mcq-21"
       ],
       "explanation": "本句的「respect for」指「對某人／某事抱有敬意和高度評價」。",
       "sentenceIndex": 10,
@@ -839,12 +797,10 @@ export default {
         "respect for"
       ],
       "optionReasons": {
-        "respect-mcq-05": "本句指「對某人／某事抱有敬意和高度評價」。",
-        "respect-mcq-04": "「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」是「respect — admiration noun」的用法，與本句語境不同。",
-        "respect-mcq-06": "「透過態度、言語或行為表達敬意和重視」是「show respect」的用法，與本句語境不同。",
-        "respect-mcq-03": "「承認某規則、法律或界線的重要性並避免違反／侵犯」是「respect rules/law/privacy」的用法，與本句語境不同。",
-        "respect-mcq-07": "「因自己的行為、能力或品格而令別人逐漸敬重自己」是「earn/gain respect」的用法，與本句語境不同。",
-        "respect-mcq-02": "「承認並顧及某人的選擇、權利、意願或界線」是「respect someone's rights/decision」的用法，與本句語境不同。"
+        "respect-mcq-05": "本句的「respect for」指「對某人／某事抱有敬意和高度評價」。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-05"
     },
@@ -856,11 +812,9 @@ export default {
       "masked": "Listening carefully is one way to ____.",
       "options": [
         "respect-mcq-06",
-        "respect-mcq-05",
-        "respect-mcq-07",
-        "respect-mcq-04",
-        "respect-mcq-08",
-        "respect-mcq-03"
+        "respect-mcq-13",
+        "respect-mcq-20",
+        "respect-mcq-18"
       ],
       "explanation": "本句的「show respect」指「透過態度、言語或行為表達敬意和重視」。",
       "sentenceIndex": 11,
@@ -869,12 +823,10 @@ export default {
         "show respect"
       ],
       "optionReasons": {
-        "respect-mcq-06": "本句指「透過態度、言語或行為表達敬意和重視」。",
-        "respect-mcq-05": "「對某人／某事抱有敬意和高度評價」是「have respect for」的用法，與本句語境不同。",
-        "respect-mcq-07": "「因自己的行為、能力或品格而令別人逐漸敬重自己」是「earn/gain respect」的用法，與本句語境不同。",
-        "respect-mcq-04": "「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」是「respect — admiration noun」的用法，與本句語境不同。",
-        "respect-mcq-08": "「因某人的行為／決定而降低原本對其的敬意」是「lose respect for」的用法，與本句語境不同。",
-        "respect-mcq-03": "「承認某規則、法律或界線的重要性並避免違反／侵犯」是「respect rules/law/privacy」的用法，與本句語境不同。"
+        "respect-mcq-06": "本句的「show respect」指「透過態度、言語或行為表達敬意和重視」。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-06"
     },
@@ -886,11 +838,9 @@ export default {
       "masked": "The students stood quietly to ____.",
       "options": [
         "respect-mcq-06",
-        "respect-mcq-05",
-        "respect-mcq-07",
-        "respect-mcq-04",
-        "respect-mcq-08",
-        "respect-mcq-03"
+        "respect-mcq-21",
+        "respect-mcq-13",
+        "respect-mcq-18"
       ],
       "explanation": "本句的「show respect」指「透過態度、言語或行為表達敬意和重視」。",
       "sentenceIndex": 12,
@@ -899,12 +849,10 @@ export default {
         "show respect"
       ],
       "optionReasons": {
-        "respect-mcq-06": "本句指「透過態度、言語或行為表達敬意和重視」。",
-        "respect-mcq-05": "「對某人／某事抱有敬意和高度評價」是「have respect for」的用法，與本句語境不同。",
-        "respect-mcq-07": "「因自己的行為、能力或品格而令別人逐漸敬重自己」是「earn/gain respect」的用法，與本句語境不同。",
-        "respect-mcq-04": "「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」是「respect — admiration noun」的用法，與本句語境不同。",
-        "respect-mcq-08": "「因某人的行為／決定而降低原本對其的敬意」是「lose respect for」的用法，與本句語境不同。",
-        "respect-mcq-03": "「承認某規則、法律或界線的重要性並避免違反／侵犯」是「respect rules/law/privacy」的用法，與本句語境不同。"
+        "respect-mcq-06": "本句的「show respect」指「透過態度、言語或行為表達敬意和重視」。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-06"
     },
@@ -916,11 +864,9 @@ export default {
       "masked": "She ____ through years of kindness.",
       "options": [
         "respect-mcq-07",
-        "respect-mcq-06",
-        "respect-mcq-08",
-        "respect-mcq-05",
-        "respect-mcq-09",
-        "respect-mcq-04"
+        "respect-mcq-11",
+        "respect-mcq-19",
+        "respect-mcq-17"
       ],
       "explanation": "本句的「earned everyone’s respect」指「因自己的行為、能力或品格而令別人逐漸敬重自己」。",
       "sentenceIndex": 13,
@@ -929,12 +875,10 @@ export default {
         "earned everyone’s respect"
       ],
       "optionReasons": {
-        "respect-mcq-07": "本句指「因自己的行為、能力或品格而令別人逐漸敬重自己」。",
-        "respect-mcq-06": "「透過態度、言語或行為表達敬意和重視」是「show respect」的用法，與本句語境不同。",
-        "respect-mcq-08": "「因某人的行為／決定而降低原本對其的敬意」是「lose respect for」的用法，與本句語境不同。",
-        "respect-mcq-05": "「對某人／某事抱有敬意和高度評價」是「have respect for」的用法，與本句語境不同。",
-        "respect-mcq-09": "「對自己的價值和尊嚴保持基本尊重」是「self-respect」的用法，與本句語境不同。",
-        "respect-mcq-04": "「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」是「respect — admiration noun」的用法，與本句語境不同。"
+        "respect-mcq-07": "本句的「earned everyone’s respect」指「因自己的行為、能力或品格而令別人逐漸敬重自己」。",
+        "respect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-07"
     },
@@ -946,11 +890,9 @@ export default {
       "masked": "Good leaders ____ through their actions.",
       "options": [
         "respect-mcq-07",
-        "respect-mcq-06",
-        "respect-mcq-08",
-        "respect-mcq-05",
-        "respect-mcq-09",
-        "respect-mcq-04"
+        "respect-mcq-13",
+        "respect-mcq-21",
+        "respect-mcq-10"
       ],
       "explanation": "本句的「gain respect」指「因自己的行為、能力或品格而令別人逐漸敬重自己」。",
       "sentenceIndex": 14,
@@ -959,12 +901,10 @@ export default {
         "gain respect"
       ],
       "optionReasons": {
-        "respect-mcq-07": "本句指「因自己的行為、能力或品格而令別人逐漸敬重自己」。",
-        "respect-mcq-06": "「透過態度、言語或行為表達敬意和重視」是「show respect」的用法，與本句語境不同。",
-        "respect-mcq-08": "「因某人的行為／決定而降低原本對其的敬意」是「lose respect for」的用法，與本句語境不同。",
-        "respect-mcq-05": "「對某人／某事抱有敬意和高度評價」是「have respect for」的用法，與本句語境不同。",
-        "respect-mcq-09": "「對自己的價值和尊嚴保持基本尊重」是「self-respect」的用法，與本句語境不同。",
-        "respect-mcq-04": "「對某人的品格、能力、經驗或成就所產生的敬佩和高度評價」是「respect — admiration noun」的用法，與本句語境不同。"
+        "respect-mcq-07": "本句的「gain respect」指「因自己的行為、能力或品格而令別人逐漸敬重自己」。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-07"
     },
@@ -976,11 +916,9 @@ export default {
       "masked": "I ____ him after he lied.",
       "options": [
         "respect-mcq-08",
-        "respect-mcq-07",
-        "respect-mcq-09",
-        "respect-mcq-06",
-        "respect-mcq-10",
-        "respect-mcq-05"
+        "respect-mcq-12",
+        "respect-mcq-21",
+        "respect-mcq-17"
       ],
       "explanation": "本句的「lost respect for」指「因某人的行為／決定而降低原本對其的敬意」。",
       "sentenceIndex": 15,
@@ -989,12 +927,10 @@ export default {
         "lost respect for"
       ],
       "optionReasons": {
-        "respect-mcq-08": "本句指「因某人的行為／決定而降低原本對其的敬意」。",
-        "respect-mcq-07": "「因自己的行為、能力或品格而令別人逐漸敬重自己」是「earn/gain respect」的用法，與本句語境不同。",
-        "respect-mcq-09": "「對自己的價值和尊嚴保持基本尊重」是「self-respect」的用法，與本句語境不同。",
-        "respect-mcq-06": "「透過態度、言語或行為表達敬意和重視」是「show respect」的用法，與本句語境不同。",
-        "respect-mcq-10": "「雙方都重視並承認對方的價值、權利或觀點」是「mutual respect」的用法，與本句語境不同。",
-        "respect-mcq-05": "「對某人／某事抱有敬意和高度評價」是「have respect for」的用法，與本句語境不同。"
+        "respect-mcq-08": "本句的「lost respect for」指「因某人的行為／決定而降低原本對其的敬意」。",
+        "respect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-08"
     },
@@ -1006,11 +942,9 @@ export default {
       "masked": "She lost some ____ the manager after the incident.",
       "options": [
         "respect-mcq-08",
-        "respect-mcq-07",
-        "respect-mcq-09",
-        "respect-mcq-06",
-        "respect-mcq-10",
-        "respect-mcq-05"
+        "respect-mcq-17",
+        "respect-mcq-03",
+        "respect-mcq-11"
       ],
       "explanation": "本句的「respect for」指「因某人的行為／決定而降低原本對其的敬意」。",
       "sentenceIndex": 16,
@@ -1019,12 +953,10 @@ export default {
         "respect for"
       ],
       "optionReasons": {
-        "respect-mcq-08": "本句指「因某人的行為／決定而降低原本對其的敬意」。",
-        "respect-mcq-07": "「因自己的行為、能力或品格而令別人逐漸敬重自己」是「earn/gain respect」的用法，與本句語境不同。",
-        "respect-mcq-09": "「對自己的價值和尊嚴保持基本尊重」是「self-respect」的用法，與本句語境不同。",
-        "respect-mcq-06": "「透過態度、言語或行為表達敬意和重視」是「show respect」的用法，與本句語境不同。",
-        "respect-mcq-10": "「雙方都重視並承認對方的價值、權利或觀點」是「mutual respect」的用法，與本句語境不同。",
-        "respect-mcq-05": "「對某人／某事抱有敬意和高度評價」是「have respect for」的用法，與本句語境不同。"
+        "respect-mcq-08": "本句的「respect for」指「因某人的行為／決定而降低原本對其的敬意」。",
+        "respect-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-08"
     },
@@ -1036,11 +968,9 @@ export default {
       "masked": "You should never give up your ____.",
       "options": [
         "respect-mcq-09",
-        "respect-mcq-08",
-        "respect-mcq-10",
-        "respect-mcq-07",
-        "respect-mcq-11",
-        "respect-mcq-06"
+        "respect-mcq-21",
+        "respect-mcq-13",
+        "respect-mcq-02"
       ],
       "explanation": "本句的「self-respect」指「對自己的價值和尊嚴保持基本尊重」。",
       "sentenceIndex": 17,
@@ -1049,12 +979,10 @@ export default {
         "self-respect"
       ],
       "optionReasons": {
-        "respect-mcq-09": "本句指「對自己的價值和尊嚴保持基本尊重」。",
-        "respect-mcq-08": "「因某人的行為／決定而降低原本對其的敬意」是「lose respect for」的用法，與本句語境不同。",
-        "respect-mcq-10": "「雙方都重視並承認對方的價值、權利或觀點」是「mutual respect」的用法，與本句語境不同。",
-        "respect-mcq-07": "「因自己的行為、能力或品格而令別人逐漸敬重自己」是「earn/gain respect」的用法，與本句語境不同。",
-        "respect-mcq-11": "「某件事情的一個方面、角度或特點」是「respect — aspect」的用法，與本句語境不同。",
-        "respect-mcq-06": "「透過態度、言語或行為表達敬意和重視」是「show respect」的用法，與本句語境不同。"
+        "respect-mcq-09": "本句的「self-respect」指「對自己的價值和尊嚴保持基本尊重」。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-09"
     },
@@ -1066,11 +994,9 @@ export default {
       "masked": "Setting boundaries can be an act of ____.",
       "options": [
         "respect-mcq-09",
-        "respect-mcq-08",
-        "respect-mcq-10",
-        "respect-mcq-07",
-        "respect-mcq-11",
-        "respect-mcq-06"
+        "respect-mcq-12",
+        "respect-mcq-21",
+        "respect-mcq-14"
       ],
       "explanation": "本句的「self-respect」指「對自己的價值和尊嚴保持基本尊重」。",
       "sentenceIndex": 18,
@@ -1079,12 +1005,10 @@ export default {
         "self-respect"
       ],
       "optionReasons": {
-        "respect-mcq-09": "本句指「對自己的價值和尊嚴保持基本尊重」。",
-        "respect-mcq-08": "「因某人的行為／決定而降低原本對其的敬意」是「lose respect for」的用法，與本句語境不同。",
-        "respect-mcq-10": "「雙方都重視並承認對方的價值、權利或觀點」是「mutual respect」的用法，與本句語境不同。",
-        "respect-mcq-07": "「因自己的行為、能力或品格而令別人逐漸敬重自己」是「earn/gain respect」的用法，與本句語境不同。",
-        "respect-mcq-11": "「某件事情的一個方面、角度或特點」是「respect — aspect」的用法，與本句語境不同。",
-        "respect-mcq-06": "「透過態度、言語或行為表達敬意和重視」是「show respect」的用法，與本句語境不同。"
+        "respect-mcq-09": "本句的「self-respect」指「對自己的價值和尊嚴保持基本尊重」。",
+        "respect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-09"
     },
@@ -1096,11 +1020,9 @@ export default {
       "masked": "Their relationship is based on ____.",
       "options": [
         "respect-mcq-10",
-        "respect-mcq-09",
-        "respect-mcq-11",
-        "respect-mcq-08",
+        "respect-mcq-14",
         "respect-mcq-12",
-        "respect-mcq-07"
+        "respect-mcq-21"
       ],
       "explanation": "本句的「mutual respect」指「雙方都重視並承認對方的價值、權利或觀點」。",
       "sentenceIndex": 19,
@@ -1109,12 +1031,10 @@ export default {
         "mutual respect"
       ],
       "optionReasons": {
-        "respect-mcq-10": "本句指「雙方都重視並承認對方的價值、權利或觀點」。",
-        "respect-mcq-09": "「對自己的價值和尊嚴保持基本尊重」是「self-respect」的用法，與本句語境不同。",
-        "respect-mcq-11": "「某件事情的一個方面、角度或特點」是「respect — aspect」的用法，與本句語境不同。",
-        "respect-mcq-08": "「因某人的行為／決定而降低原本對其的敬意」是「lose respect for」的用法，與本句語境不同。",
-        "respect-mcq-12": "「關於某個主題；就某件事情而言」是「with respect to」的用法，與本句語境不同。",
-        "respect-mcq-07": "「因自己的行為、能力或品格而令別人逐漸敬重自己」是「earn/gain respect」的用法，與本句語境不同。"
+        "respect-mcq-10": "本句的「mutual respect」指「雙方都重視並承認對方的價值、權利或觀點」。",
+        "respect-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-10"
     },
@@ -1126,11 +1046,9 @@ export default {
       "masked": "Good teamwork requires ____.",
       "options": [
         "respect-mcq-10",
-        "respect-mcq-09",
-        "respect-mcq-11",
-        "respect-mcq-08",
-        "respect-mcq-12",
-        "respect-mcq-07"
+        "respect-mcq-19",
+        "respect-mcq-21",
+        "respect-mcq-12"
       ],
       "explanation": "本句的「mutual respect」指「雙方都重視並承認對方的價值、權利或觀點」。",
       "sentenceIndex": 20,
@@ -1139,12 +1057,10 @@ export default {
         "mutual respect"
       ],
       "optionReasons": {
-        "respect-mcq-10": "本句指「雙方都重視並承認對方的價值、權利或觀點」。",
-        "respect-mcq-09": "「對自己的價值和尊嚴保持基本尊重」是「self-respect」的用法，與本句語境不同。",
-        "respect-mcq-11": "「某件事情的一個方面、角度或特點」是「respect — aspect」的用法，與本句語境不同。",
-        "respect-mcq-08": "「因某人的行為／決定而降低原本對其的敬意」是「lose respect for」的用法，與本句語境不同。",
-        "respect-mcq-12": "「關於某個主題；就某件事情而言」是「with respect to」的用法，與本句語境不同。",
-        "respect-mcq-07": "「因自己的行為、能力或品格而令別人逐漸敬重自己」是「earn/gain respect」的用法，與本句語境不同。"
+        "respect-mcq-10": "本句的「mutual respect」指「雙方都重視並承認對方的價值、權利或觀點」。",
+        "respect-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-10"
     },
@@ -1156,11 +1072,9 @@ export default {
       "masked": "We should act with ____ for local traditions.",
       "options": [
         "respect-mcq-22",
-        "respect-mcq-21",
-        "respect-mcq-23",
-        "respect-mcq-20",
-        "respect-mcq-19",
-        "respect-mcq-18"
+        "respect-mcq-18",
+        "respect-mcq-11",
+        "respect-mcq-19"
       ],
       "explanation": "本句的「respect」指「對他人的權利、感受、文化、私隱或界線保持重視和顧及」。",
       "sentenceIndex": 21,
@@ -1169,12 +1083,10 @@ export default {
         "respect"
       ],
       "optionReasons": {
-        "respect-mcq-22": "本句指「對他人的權利、感受、文化、私隱或界線保持重視和顧及」。",
-        "respect-mcq-21": "「按前面提及項目的次序分別對應後面的資料」是「respectively」的用法，與本句語境不同。",
-        "respect-mcq-23": "「在行為上重視並顧及某人的權利、感受、意願或傳統」是「18. respectful of + rights/wishes/traditions — 尊重……的」的用法，與本句語境不同。",
-        "respect-mcq-20": "「分別屬於不同人物或事物的；各自的」是「respective」的用法，與本句語境不同。",
-        "respect-mcq-19": "「達到相當不錯、令人滿意或有一定份量的水平」是「respectable — reasonably good」的用法，與本句語境不同。",
-        "respect-mcq-18": "「在社會評價上正當、體面或值得尊敬的」是「respectable — socially acceptable」的用法，與本句語境不同。"
+        "respect-mcq-22": "本句的「respect」指「對他人的權利、感受、文化、私隱或界線保持重視和顧及」。",
+        "respect-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-22"
     },
@@ -1187,10 +1099,8 @@ export default {
       "options": [
         "respect-mcq-22",
         "respect-mcq-21",
-        "respect-mcq-23",
-        "respect-mcq-20",
-        "respect-mcq-19",
-        "respect-mcq-18"
+        "respect-mcq-13",
+        "respect-mcq-19"
       ],
       "explanation": "本句的「respect」指「對他人的權利、感受、文化、私隱或界線保持重視和顧及」。",
       "sentenceIndex": 22,
@@ -1199,12 +1109,10 @@ export default {
         "respect"
       ],
       "optionReasons": {
-        "respect-mcq-22": "本句指「對他人的權利、感受、文化、私隱或界線保持重視和顧及」。",
-        "respect-mcq-21": "「按前面提及項目的次序分別對應後面的資料」是「respectively」的用法，與本句語境不同。",
-        "respect-mcq-23": "「在行為上重視並顧及某人的權利、感受、意願或傳統」是「18. respectful of + rights/wishes/traditions — 尊重……的」的用法，與本句語境不同。",
-        "respect-mcq-20": "「分別屬於不同人物或事物的；各自的」是「respective」的用法，與本句語境不同。",
-        "respect-mcq-19": "「達到相當不錯、令人滿意或有一定份量的水平」是「respectable — reasonably good」的用法，與本句語境不同。",
-        "respect-mcq-18": "「在社會評價上正當、體面或值得尊敬的」是「respectable — socially acceptable」的用法，與本句語境不同。"
+        "respect-mcq-22": "本句的「respect」指「對他人的權利、感受、文化、私隱或界線保持重視和顧及」。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-22"
     },
@@ -1216,11 +1124,9 @@ export default {
       "masked": "She is very different from me ____.",
       "options": [
         "respect-mcq-11",
-        "respect-mcq-10",
-        "respect-mcq-12",
-        "respect-mcq-09",
-        "respect-mcq-13",
-        "respect-mcq-08"
+        "respect-mcq-23",
+        "respect-mcq-18",
+        "respect-mcq-03"
       ],
       "explanation": "本句的「in this respect」指「某件事情的一個方面、角度或特點」。",
       "sentenceIndex": 23,
@@ -1229,12 +1135,10 @@ export default {
         "in this respect"
       ],
       "optionReasons": {
-        "respect-mcq-11": "本句指「某件事情的一個方面、角度或特點」。",
-        "respect-mcq-10": "「雙方都重視並承認對方的價值、權利或觀點」是「mutual respect」的用法，與本句語境不同。",
-        "respect-mcq-12": "「關於某個主題；就某件事情而言」是「with respect to」的用法，與本句語境不同。",
-        "respect-mcq-09": "「對自己的價值和尊嚴保持基本尊重」是「self-respect」的用法，與本句語境不同。",
-        "respect-mcq-13": "「關於／針對某件事；較正式用法」是「in respect of」的用法，與本句語境不同。",
-        "respect-mcq-08": "「因某人的行為／決定而降低原本對其的敬意」是「lose respect for」的用法，與本句語境不同。"
+        "respect-mcq-11": "本句的「in this respect」指「某件事情的一個方面、角度或特點」。",
+        "respect-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-11"
     },
@@ -1246,11 +1150,9 @@ export default {
       "masked": "The two products are similar ____.",
       "options": [
         "respect-mcq-11",
-        "respect-mcq-10",
-        "respect-mcq-12",
         "respect-mcq-09",
-        "respect-mcq-13",
-        "respect-mcq-08"
+        "respect-mcq-19",
+        "respect-mcq-20"
       ],
       "explanation": "本句的「in several respects」指「某件事情的一個方面、角度或特點」。",
       "sentenceIndex": 24,
@@ -1259,12 +1161,10 @@ export default {
         "in several respects"
       ],
       "optionReasons": {
-        "respect-mcq-11": "本句指「某件事情的一個方面、角度或特點」。",
-        "respect-mcq-10": "「雙方都重視並承認對方的價值、權利或觀點」是「mutual respect」的用法，與本句語境不同。",
-        "respect-mcq-12": "「關於某個主題；就某件事情而言」是「with respect to」的用法，與本句語境不同。",
-        "respect-mcq-09": "「對自己的價值和尊嚴保持基本尊重」是「self-respect」的用法，與本句語境不同。",
-        "respect-mcq-13": "「關於／針對某件事；較正式用法」是「in respect of」的用法，與本句語境不同。",
-        "respect-mcq-08": "「因某人的行為／決定而降低原本對其的敬意」是「lose respect for」的用法，與本句語境不同。"
+        "respect-mcq-11": "本句的「in several respects」指「某件事情的一個方面、角度或特點」。",
+        "respect-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-11"
     },
@@ -1276,11 +1176,9 @@ export default {
       "masked": "We have a question ____ the schedule.",
       "options": [
         "respect-mcq-12",
-        "respect-mcq-11",
-        "respect-mcq-13",
-        "respect-mcq-10",
-        "respect-mcq-14",
-        "respect-mcq-09"
+        "respect-mcq-17",
+        "respect-mcq-01",
+        "respect-mcq-03"
       ],
       "explanation": "本句的「with respect to」指「關於某個主題；就某件事情而言」。",
       "sentenceIndex": 25,
@@ -1289,12 +1187,10 @@ export default {
         "with respect to"
       ],
       "optionReasons": {
-        "respect-mcq-12": "本句指「關於某個主題；就某件事情而言」。",
-        "respect-mcq-11": "「某件事情的一個方面、角度或特點」是「respect — aspect」的用法，與本句語境不同。",
-        "respect-mcq-13": "「關於／針對某件事；較正式用法」是「in respect of」的用法，與本句語境不同。",
-        "respect-mcq-10": "「雙方都重視並承認對方的價值、權利或觀點」是「mutual respect」的用法，與本句語境不同。",
-        "respect-mcq-14": "「正式或禮貌地向某人表達的敬意或問候」是「respects — greetings/regard」的用法，與本句語境不同。",
-        "respect-mcq-09": "「對自己的價值和尊嚴保持基本尊重」是「self-respect」的用法，與本句語境不同。"
+        "respect-mcq-12": "本句的「with respect to」指「關於某個主題；就某件事情而言」。",
+        "respect-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-12"
     },
@@ -1306,11 +1202,9 @@ export default {
       "masked": "The report raises several issues ____ safety.",
       "options": [
         "respect-mcq-12",
-        "respect-mcq-11",
-        "respect-mcq-13",
-        "respect-mcq-10",
-        "respect-mcq-14",
-        "respect-mcq-09"
+        "respect-mcq-22",
+        "respect-mcq-21",
+        "respect-mcq-18"
       ],
       "explanation": "本句的「with respect to」指「關於某個主題；就某件事情而言」。",
       "sentenceIndex": 26,
@@ -1319,12 +1213,10 @@ export default {
         "with respect to"
       ],
       "optionReasons": {
-        "respect-mcq-12": "本句指「關於某個主題；就某件事情而言」。",
-        "respect-mcq-11": "「某件事情的一個方面、角度或特點」是「respect — aspect」的用法，與本句語境不同。",
-        "respect-mcq-13": "「關於／針對某件事；較正式用法」是「in respect of」的用法，與本句語境不同。",
-        "respect-mcq-10": "「雙方都重視並承認對方的價值、權利或觀點」是「mutual respect」的用法，與本句語境不同。",
-        "respect-mcq-14": "「正式或禮貌地向某人表達的敬意或問候」是「respects — greetings/regard」的用法，與本句語境不同。",
-        "respect-mcq-09": "「對自己的價值和尊嚴保持基本尊重」是「self-respect」的用法，與本句語境不同。"
+        "respect-mcq-12": "本句的「with respect to」指「關於某個主題；就某件事情而言」。",
+        "respect-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-12"
     },
@@ -1336,11 +1228,9 @@ export default {
       "masked": "Payment is due ____ the services provided.",
       "options": [
         "respect-mcq-13",
-        "respect-mcq-12",
-        "respect-mcq-14",
-        "respect-mcq-11",
-        "respect-mcq-15",
-        "respect-mcq-10"
+        "respect-mcq-04",
+        "respect-mcq-09",
+        "respect-mcq-21"
       ],
       "explanation": "本句的「in respect of」指「關於／針對某件事；較正式用法」。",
       "sentenceIndex": 27,
@@ -1349,12 +1239,10 @@ export default {
         "in respect of"
       ],
       "optionReasons": {
-        "respect-mcq-13": "本句指「關於／針對某件事；較正式用法」。",
-        "respect-mcq-12": "「關於某個主題；就某件事情而言」是「with respect to」的用法，與本句語境不同。",
-        "respect-mcq-14": "「正式或禮貌地向某人表達的敬意或問候」是「respects — greetings/regard」的用法，與本句語境不同。",
-        "respect-mcq-11": "「某件事情的一個方面、角度或特點」是「respect — aspect」的用法，與本句語境不同。",
-        "respect-mcq-15": "「以正式或莊重方式向某人／某家庭表達敬意」是「pay your respects」的用法，與本句語境不同。",
-        "respect-mcq-10": "「雙方都重視並承認對方的價值、權利或觀點」是「mutual respect」的用法，與本句語境不同。"
+        "respect-mcq-13": "本句的「in respect of」指「關於／針對某件事；較正式用法」。",
+        "respect-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-13"
     },
@@ -1366,10 +1254,8 @@ export default {
       "masked": "The claim was made ____ damage to the property.",
       "options": [
         "respect-mcq-13",
-        "respect-mcq-12",
-        "respect-mcq-14",
-        "respect-mcq-11",
-        "respect-mcq-15",
+        "respect-mcq-20",
+        "respect-mcq-19",
         "respect-mcq-10"
       ],
       "explanation": "本句的「in respect of」指「關於／針對某件事；較正式用法」。",
@@ -1379,12 +1265,10 @@ export default {
         "in respect of"
       ],
       "optionReasons": {
-        "respect-mcq-13": "本句指「關於／針對某件事；較正式用法」。",
-        "respect-mcq-12": "「關於某個主題；就某件事情而言」是「with respect to」的用法，與本句語境不同。",
-        "respect-mcq-14": "「正式或禮貌地向某人表達的敬意或問候」是「respects — greetings/regard」的用法，與本句語境不同。",
-        "respect-mcq-11": "「某件事情的一個方面、角度或特點」是「respect — aspect」的用法，與本句語境不同。",
-        "respect-mcq-15": "「以正式或莊重方式向某人／某家庭表達敬意」是「pay your respects」的用法，與本句語境不同。",
-        "respect-mcq-10": "「雙方都重視並承認對方的價值、權利或觀點」是「mutual respect」的用法，與本句語境不同。"
+        "respect-mcq-13": "本句的「in respect of」指「關於／針對某件事；較正式用法」。",
+        "respect-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-13"
     },
@@ -1396,10 +1280,8 @@ export default {
       "masked": "Please give your grandmother my ____.",
       "options": [
         "respect-mcq-14",
-        "respect-mcq-13",
-        "respect-mcq-15",
-        "respect-mcq-12",
-        "respect-mcq-16",
+        "respect-mcq-10",
+        "respect-mcq-21",
         "respect-mcq-11"
       ],
       "explanation": "本句的「respects」指「正式或禮貌地向某人表達的敬意或問候」。",
@@ -1409,12 +1291,10 @@ export default {
         "respects"
       ],
       "optionReasons": {
-        "respect-mcq-14": "本句指「正式或禮貌地向某人表達的敬意或問候」。",
-        "respect-mcq-13": "「關於／針對某件事；較正式用法」是「in respect of」的用法，與本句語境不同。",
-        "respect-mcq-15": "「以正式或莊重方式向某人／某家庭表達敬意」是「pay your respects」的用法，與本句語境不同。",
-        "respect-mcq-12": "「關於某個主題；就某件事情而言」是「with respect to」的用法，與本句語境不同。",
-        "respect-mcq-16": "「言行表現出對別人的敬意、禮貌和重視」是「respectful」的用法，與本句語境不同。",
-        "respect-mcq-11": "「某件事情的一個方面、角度或特點」是「respect — aspect」的用法，與本句語境不同。"
+        "respect-mcq-14": "本句的「respects」指「正式或禮貌地向某人表達的敬意或問候」。",
+        "respect-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-14"
     },
@@ -1426,11 +1306,9 @@ export default {
       "masked": "He came to pay his ____.",
       "options": [
         "respect-mcq-14",
-        "respect-mcq-13",
-        "respect-mcq-15",
-        "respect-mcq-12",
-        "respect-mcq-16",
-        "respect-mcq-11"
+        "respect-mcq-11",
+        "respect-mcq-10",
+        "respect-mcq-21"
       ],
       "explanation": "本句的「respects」指「正式或禮貌地向某人表達的敬意或問候」。",
       "sentenceIndex": 30,
@@ -1439,12 +1317,10 @@ export default {
         "respects"
       ],
       "optionReasons": {
-        "respect-mcq-14": "本句指「正式或禮貌地向某人表達的敬意或問候」。",
-        "respect-mcq-13": "「關於／針對某件事；較正式用法」是「in respect of」的用法，與本句語境不同。",
-        "respect-mcq-15": "「以正式或莊重方式向某人／某家庭表達敬意」是「pay your respects」的用法，與本句語境不同。",
-        "respect-mcq-12": "「關於某個主題；就某件事情而言」是「with respect to」的用法，與本句語境不同。",
-        "respect-mcq-16": "「言行表現出對別人的敬意、禮貌和重視」是「respectful」的用法，與本句語境不同。",
-        "respect-mcq-11": "「某件事情的一個方面、角度或特點」是「respect — aspect」的用法，與本句語境不同。"
+        "respect-mcq-14": "本句的「respects」指「正式或禮貌地向某人表達的敬意或問候」。",
+        "respect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-14"
     },
@@ -1456,11 +1332,9 @@ export default {
       "masked": "We went to ____ to the family.",
       "options": [
         "respect-mcq-15",
-        "respect-mcq-14",
-        "respect-mcq-16",
-        "respect-mcq-13",
-        "respect-mcq-17",
-        "respect-mcq-12"
+        "respect-mcq-11",
+        "respect-mcq-21",
+        "respect-mcq-10"
       ],
       "explanation": "本句的「pay our respects」指「以正式或莊重方式向某人／某家庭表達敬意」。",
       "sentenceIndex": 31,
@@ -1469,12 +1343,10 @@ export default {
         "pay our respects"
       ],
       "optionReasons": {
-        "respect-mcq-15": "本句指「以正式或莊重方式向某人／某家庭表達敬意」。",
-        "respect-mcq-14": "「正式或禮貌地向某人表達的敬意或問候」是「respects — greetings/regard」的用法，與本句語境不同。",
-        "respect-mcq-16": "「言行表現出對別人的敬意、禮貌和重視」是「respectful」的用法，與本句語境不同。",
-        "respect-mcq-13": "「關於／針對某件事；較正式用法」是「in respect of」的用法，與本句語境不同。",
-        "respect-mcq-17": "「以尊重、有禮而重視對方的方式」是「respectfully」的用法，與本句語境不同。",
-        "respect-mcq-12": "「關於某個主題；就某件事情而言」是「with respect to」的用法，與本句語境不同。"
+        "respect-mcq-15": "本句的「pay our respects」指「以正式或莊重方式向某人／某家庭表達敬意」。",
+        "respect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-15"
     },
@@ -1486,11 +1358,9 @@ export default {
       "masked": "Many people came to ____.",
       "options": [
         "respect-mcq-15",
-        "respect-mcq-14",
-        "respect-mcq-16",
-        "respect-mcq-13",
-        "respect-mcq-17",
-        "respect-mcq-12"
+        "respect-mcq-21",
+        "respect-mcq-12",
+        "respect-mcq-10"
       ],
       "explanation": "本句的「pay their respects」指「以正式或莊重方式向某人／某家庭表達敬意」。",
       "sentenceIndex": 32,
@@ -1499,12 +1369,10 @@ export default {
         "pay their respects"
       ],
       "optionReasons": {
-        "respect-mcq-15": "本句指「以正式或莊重方式向某人／某家庭表達敬意」。",
-        "respect-mcq-14": "「正式或禮貌地向某人表達的敬意或問候」是「respects — greetings/regard」的用法，與本句語境不同。",
-        "respect-mcq-16": "「言行表現出對別人的敬意、禮貌和重視」是「respectful」的用法，與本句語境不同。",
-        "respect-mcq-13": "「關於／針對某件事；較正式用法」是「in respect of」的用法，與本句語境不同。",
-        "respect-mcq-17": "「以尊重、有禮而重視對方的方式」是「respectfully」的用法，與本句語境不同。",
-        "respect-mcq-12": "「關於某個主題；就某件事情而言」是「with respect to」的用法，與本句語境不同。"
+        "respect-mcq-15": "本句的「pay their respects」指「以正式或莊重方式向某人／某家庭表達敬意」。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-15"
     },
@@ -1516,11 +1384,9 @@ export default {
       "masked": "The students were very ____ toward the teacher.",
       "options": [
         "respect-mcq-16",
-        "respect-mcq-15",
-        "respect-mcq-17",
-        "respect-mcq-14",
-        "respect-mcq-18",
-        "respect-mcq-13"
+        "respect-mcq-13",
+        "respect-mcq-19",
+        "respect-mcq-18"
       ],
       "explanation": "本句的「respectful」指「言行表現出對別人的敬意、禮貌和重視」。",
       "sentenceIndex": 33,
@@ -1529,12 +1395,10 @@ export default {
         "respectful"
       ],
       "optionReasons": {
-        "respect-mcq-16": "本句指「言行表現出對別人的敬意、禮貌和重視」。",
-        "respect-mcq-15": "「以正式或莊重方式向某人／某家庭表達敬意」是「pay your respects」的用法，與本句語境不同。",
-        "respect-mcq-17": "「以尊重、有禮而重視對方的方式」是「respectfully」的用法，與本句語境不同。",
-        "respect-mcq-14": "「正式或禮貌地向某人表達的敬意或問候」是「respects — greetings/regard」的用法，與本句語境不同。",
-        "respect-mcq-18": "「在社會評價上正當、體面或值得尊敬的」是「respectable — socially acceptable」的用法，與本句語境不同。",
-        "respect-mcq-13": "「關於／針對某件事；較正式用法」是「in respect of」的用法，與本句語境不同。"
+        "respect-mcq-16": "本句的「respectful」指「言行表現出對別人的敬意、禮貌和重視」。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-16"
     },
@@ -1546,11 +1410,9 @@ export default {
       "masked": "She spoke in a calm and ____ way.",
       "options": [
         "respect-mcq-16",
-        "respect-mcq-15",
-        "respect-mcq-17",
-        "respect-mcq-14",
-        "respect-mcq-18",
-        "respect-mcq-13"
+        "respect-mcq-13",
+        "respect-mcq-03",
+        "respect-mcq-18"
       ],
       "explanation": "本句的「respectful」指「言行表現出對別人的敬意、禮貌和重視」。",
       "sentenceIndex": 34,
@@ -1559,12 +1421,10 @@ export default {
         "respectful"
       ],
       "optionReasons": {
-        "respect-mcq-16": "本句指「言行表現出對別人的敬意、禮貌和重視」。",
-        "respect-mcq-15": "「以正式或莊重方式向某人／某家庭表達敬意」是「pay your respects」的用法，與本句語境不同。",
-        "respect-mcq-17": "「以尊重、有禮而重視對方的方式」是「respectfully」的用法，與本句語境不同。",
-        "respect-mcq-14": "「正式或禮貌地向某人表達的敬意或問候」是「respects — greetings/regard」的用法，與本句語境不同。",
-        "respect-mcq-18": "「在社會評價上正當、體面或值得尊敬的」是「respectable — socially acceptable」的用法，與本句語境不同。",
-        "respect-mcq-13": "「關於／針對某件事；較正式用法」是「in respect of」的用法，與本句語境不同。"
+        "respect-mcq-16": "本句的「respectful」指「言行表現出對別人的敬意、禮貌和重視」。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-16"
     },
@@ -1576,11 +1436,9 @@ export default {
       "masked": "We should be ____ her wishes.",
       "options": [
         "respect-mcq-23",
-        "respect-mcq-22",
-        "respect-mcq-21",
-        "respect-mcq-20",
-        "respect-mcq-19",
-        "respect-mcq-18"
+        "respect-mcq-18",
+        "respect-mcq-13",
+        "respect-mcq-21"
       ],
       "explanation": "本句的「respectful of」指「在行為上重視並顧及某人的權利、感受、意願或傳統」。",
       "sentenceIndex": 35,
@@ -1589,12 +1447,10 @@ export default {
         "respectful of"
       ],
       "optionReasons": {
-        "respect-mcq-23": "本句指「在行為上重視並顧及某人的權利、感受、意願或傳統」。",
-        "respect-mcq-22": "「對他人的權利、感受、文化、私隱或界線保持重視和顧及」是「11. respect = regard for feelings/rights/traditions（尊重／顧及） — 尊重；重視」的用法，與本句語境不同。",
-        "respect-mcq-21": "「按前面提及項目的次序分別對應後面的資料」是「respectively」的用法，與本句語境不同。",
-        "respect-mcq-20": "「分別屬於不同人物或事物的；各自的」是「respective」的用法，與本句語境不同。",
-        "respect-mcq-19": "「達到相當不錯、令人滿意或有一定份量的水平」是「respectable — reasonably good」的用法，與本句語境不同。",
-        "respect-mcq-18": "「在社會評價上正當、體面或值得尊敬的」是「respectable — socially acceptable」的用法，與本句語境不同。"
+        "respect-mcq-23": "本句的「respectful of」指「在行為上重視並顧及某人的權利、感受、意願或傳統」。",
+        "respect-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-23"
     },
@@ -1606,10 +1462,8 @@ export default {
       "masked": "Visitors should be ____ local customs.",
       "options": [
         "respect-mcq-23",
-        "respect-mcq-22",
         "respect-mcq-21",
-        "respect-mcq-20",
-        "respect-mcq-19",
+        "respect-mcq-13",
         "respect-mcq-18"
       ],
       "explanation": "本句的「respectful of」指「在行為上重視並顧及某人的權利、感受、意願或傳統」。",
@@ -1619,12 +1473,10 @@ export default {
         "respectful of"
       ],
       "optionReasons": {
-        "respect-mcq-23": "本句指「在行為上重視並顧及某人的權利、感受、意願或傳統」。",
-        "respect-mcq-22": "「對他人的權利、感受、文化、私隱或界線保持重視和顧及」是「11. respect = regard for feelings/rights/traditions（尊重／顧及） — 尊重；重視」的用法，與本句語境不同。",
-        "respect-mcq-21": "「按前面提及項目的次序分別對應後面的資料」是「respectively」的用法，與本句語境不同。",
-        "respect-mcq-20": "「分別屬於不同人物或事物的；各自的」是「respective」的用法，與本句語境不同。",
-        "respect-mcq-19": "「達到相當不錯、令人滿意或有一定份量的水平」是「respectable — reasonably good」的用法，與本句語境不同。",
-        "respect-mcq-18": "「在社會評價上正當、體面或值得尊敬的」是「respectable — socially acceptable」的用法，與本句語境不同。"
+        "respect-mcq-23": "本句的「respectful of」指「在行為上重視並顧及某人的權利、感受、意願或傳統」。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-23"
     },
@@ -1636,11 +1488,9 @@ export default {
       "masked": "She ____ disagreed with the decision.",
       "options": [
         "respect-mcq-17",
-        "respect-mcq-16",
-        "respect-mcq-18",
-        "respect-mcq-15",
-        "respect-mcq-19",
-        "respect-mcq-14"
+        "respect-mcq-13",
+        "respect-mcq-08",
+        "respect-mcq-21"
       ],
       "explanation": "本句的「respectfully」指「以尊重、有禮而重視對方的方式」。",
       "sentenceIndex": 37,
@@ -1649,12 +1499,10 @@ export default {
         "respectfully"
       ],
       "optionReasons": {
-        "respect-mcq-17": "本句指「以尊重、有禮而重視對方的方式」。",
-        "respect-mcq-16": "「言行表現出對別人的敬意、禮貌和重視」是「respectful」的用法，與本句語境不同。",
-        "respect-mcq-18": "「在社會評價上正當、體面或值得尊敬的」是「respectable — socially acceptable」的用法，與本句語境不同。",
-        "respect-mcq-15": "「以正式或莊重方式向某人／某家庭表達敬意」是「pay your respects」的用法，與本句語境不同。",
-        "respect-mcq-19": "「達到相當不錯、令人滿意或有一定份量的水平」是「respectable — reasonably good」的用法，與本句語境不同。",
-        "respect-mcq-14": "「正式或禮貌地向某人表達的敬意或問候」是「respects — greetings/regard」的用法，與本句語境不同。"
+        "respect-mcq-17": "本句的「respectfully」指「以尊重、有禮而重視對方的方式」。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-17"
     },
@@ -1666,11 +1514,9 @@ export default {
       "masked": "He listened ____ while she spoke.",
       "options": [
         "respect-mcq-17",
-        "respect-mcq-16",
-        "respect-mcq-18",
-        "respect-mcq-15",
-        "respect-mcq-19",
-        "respect-mcq-14"
+        "respect-mcq-02",
+        "respect-mcq-11",
+        "respect-mcq-21"
       ],
       "explanation": "本句的「respectfully」指「以尊重、有禮而重視對方的方式」。",
       "sentenceIndex": 38,
@@ -1679,12 +1525,10 @@ export default {
         "respectfully"
       ],
       "optionReasons": {
-        "respect-mcq-17": "本句指「以尊重、有禮而重視對方的方式」。",
-        "respect-mcq-16": "「言行表現出對別人的敬意、禮貌和重視」是「respectful」的用法，與本句語境不同。",
-        "respect-mcq-18": "「在社會評價上正當、體面或值得尊敬的」是「respectable — socially acceptable」的用法，與本句語境不同。",
-        "respect-mcq-15": "「以正式或莊重方式向某人／某家庭表達敬意」是「pay your respects」的用法，與本句語境不同。",
-        "respect-mcq-19": "「達到相當不錯、令人滿意或有一定份量的水平」是「respectable — reasonably good」的用法，與本句語境不同。",
-        "respect-mcq-14": "「正式或禮貌地向某人表達的敬意或問候」是「respects — greetings/regard」的用法，與本句語境不同。"
+        "respect-mcq-17": "本句的「respectfully」指「以尊重、有禮而重視對方的方式」。",
+        "respect-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-17"
     },
@@ -1696,11 +1540,9 @@ export default {
       "masked": "He built a ____ career.",
       "options": [
         "respect-mcq-18",
-        "respect-mcq-17",
-        "respect-mcq-19",
-        "respect-mcq-16",
         "respect-mcq-20",
-        "respect-mcq-15"
+        "respect-mcq-12",
+        "respect-mcq-03"
       ],
       "explanation": "本句的「respectable」指「在社會評價上正當、體面或值得尊敬的」。",
       "sentenceIndex": 39,
@@ -1709,12 +1551,10 @@ export default {
         "respectable"
       ],
       "optionReasons": {
-        "respect-mcq-18": "本句指「在社會評價上正當、體面或值得尊敬的」。",
-        "respect-mcq-17": "「以尊重、有禮而重視對方的方式」是「respectfully」的用法，與本句語境不同。",
-        "respect-mcq-19": "「達到相當不錯、令人滿意或有一定份量的水平」是「respectable — reasonably good」的用法，與本句語境不同。",
-        "respect-mcq-16": "「言行表現出對別人的敬意、禮貌和重視」是「respectful」的用法，與本句語境不同。",
-        "respect-mcq-20": "「分別屬於不同人物或事物的；各自的」是「respective」的用法，與本句語境不同。",
-        "respect-mcq-15": "「以正式或莊重方式向某人／某家庭表達敬意」是「pay your respects」的用法，與本句語境不同。"
+        "respect-mcq-18": "本句的「respectable」指「在社會評價上正當、體面或值得尊敬的」。",
+        "respect-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-18"
     },
@@ -1726,11 +1566,9 @@ export default {
       "masked": "They are a highly ____ family.",
       "options": [
         "respect-mcq-18",
-        "respect-mcq-17",
-        "respect-mcq-19",
-        "respect-mcq-16",
+        "respect-mcq-11",
         "respect-mcq-20",
-        "respect-mcq-15"
+        "respect-mcq-03"
       ],
       "explanation": "本句的「respectable」指「在社會評價上正當、體面或值得尊敬的」。",
       "sentenceIndex": 40,
@@ -1739,12 +1577,10 @@ export default {
         "respectable"
       ],
       "optionReasons": {
-        "respect-mcq-18": "本句指「在社會評價上正當、體面或值得尊敬的」。",
-        "respect-mcq-17": "「以尊重、有禮而重視對方的方式」是「respectfully」的用法，與本句語境不同。",
-        "respect-mcq-19": "「達到相當不錯、令人滿意或有一定份量的水平」是「respectable — reasonably good」的用法，與本句語境不同。",
-        "respect-mcq-16": "「言行表現出對別人的敬意、禮貌和重視」是「respectful」的用法，與本句語境不同。",
-        "respect-mcq-20": "「分別屬於不同人物或事物的；各自的」是「respective」的用法，與本句語境不同。",
-        "respect-mcq-15": "「以正式或莊重方式向某人／某家庭表達敬意」是「pay your respects」的用法，與本句語境不同。"
+        "respect-mcq-18": "本句的「respectable」指「在社會評價上正當、體面或值得尊敬的」。",
+        "respect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-18"
     },
@@ -1756,11 +1592,9 @@ export default {
       "masked": "The team achieved a ____ result.",
       "options": [
         "respect-mcq-19",
-        "respect-mcq-18",
-        "respect-mcq-20",
         "respect-mcq-17",
-        "respect-mcq-21",
-        "respect-mcq-16"
+        "respect-mcq-12",
+        "respect-mcq-04"
       ],
       "explanation": "本句的「respectable」指「達到相當不錯、令人滿意或有一定份量的水平」。",
       "sentenceIndex": 41,
@@ -1769,12 +1603,10 @@ export default {
         "respectable"
       ],
       "optionReasons": {
-        "respect-mcq-19": "本句指「達到相當不錯、令人滿意或有一定份量的水平」。",
-        "respect-mcq-18": "「在社會評價上正當、體面或值得尊敬的」是「respectable — socially acceptable」的用法，與本句語境不同。",
-        "respect-mcq-20": "「分別屬於不同人物或事物的；各自的」是「respective」的用法，與本句語境不同。",
-        "respect-mcq-17": "「以尊重、有禮而重視對方的方式」是「respectfully」的用法，與本句語境不同。",
-        "respect-mcq-21": "「按前面提及項目的次序分別對應後面的資料」是「respectively」的用法，與本句語境不同。",
-        "respect-mcq-16": "「言行表現出對別人的敬意、禮貌和重視」是「respectful」的用法，與本句語境不同。"
+        "respect-mcq-19": "本句的「respectable」指「達到相當不錯、令人滿意或有一定份量的水平」。",
+        "respect-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-19"
     },
@@ -1786,11 +1618,9 @@ export default {
       "masked": "She earns a ____ salary.",
       "options": [
         "respect-mcq-19",
-        "respect-mcq-18",
-        "respect-mcq-20",
-        "respect-mcq-17",
-        "respect-mcq-21",
-        "respect-mcq-16"
+        "respect-mcq-22",
+        "respect-mcq-13",
+        "respect-mcq-21"
       ],
       "explanation": "本句的「respectable」指「達到相當不錯、令人滿意或有一定份量的水平」。",
       "sentenceIndex": 42,
@@ -1799,12 +1629,10 @@ export default {
         "respectable"
       ],
       "optionReasons": {
-        "respect-mcq-19": "本句指「達到相當不錯、令人滿意或有一定份量的水平」。",
-        "respect-mcq-18": "「在社會評價上正當、體面或值得尊敬的」是「respectable — socially acceptable」的用法，與本句語境不同。",
-        "respect-mcq-20": "「分別屬於不同人物或事物的；各自的」是「respective」的用法，與本句語境不同。",
-        "respect-mcq-17": "「以尊重、有禮而重視對方的方式」是「respectfully」的用法，與本句語境不同。",
-        "respect-mcq-21": "「按前面提及項目的次序分別對應後面的資料」是「respectively」的用法，與本句語境不同。",
-        "respect-mcq-16": "「言行表現出對別人的敬意、禮貌和重視」是「respectful」的用法，與本句語境不同。"
+        "respect-mcq-19": "本句的「respectable」指「達到相當不錯、令人滿意或有一定份量的水平」。",
+        "respect-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-19"
     },
@@ -1816,11 +1644,9 @@ export default {
       "masked": "The students returned to their ____ classrooms.",
       "options": [
         "respect-mcq-20",
-        "respect-mcq-19",
-        "respect-mcq-21",
         "respect-mcq-18",
-        "respect-mcq-22",
-        "respect-mcq-17"
+        "respect-mcq-12",
+        "respect-mcq-03"
       ],
       "explanation": "本句的「respective」指「分別屬於不同人物或事物的；各自的」。",
       "sentenceIndex": 43,
@@ -1829,12 +1655,10 @@ export default {
         "respective"
       ],
       "optionReasons": {
-        "respect-mcq-20": "本句指「分別屬於不同人物或事物的；各自的」。",
-        "respect-mcq-19": "「達到相當不錯、令人滿意或有一定份量的水平」是「respectable — reasonably good」的用法，與本句語境不同。",
-        "respect-mcq-21": "「按前面提及項目的次序分別對應後面的資料」是「respectively」的用法，與本句語境不同。",
-        "respect-mcq-18": "「在社會評價上正當、體面或值得尊敬的」是「respectable — socially acceptable」的用法，與本句語境不同。",
-        "respect-mcq-22": "「對他人的權利、感受、文化、私隱或界線保持重視和顧及」是「11. respect = regard for feelings/rights/traditions（尊重／顧及） — 尊重；重視」的用法，與本句語境不同。",
-        "respect-mcq-17": "「以尊重、有禮而重視對方的方式」是「respectfully」的用法，與本句語境不同。"
+        "respect-mcq-20": "本句的「respective」指「分別屬於不同人物或事物的；各自的」。",
+        "respect-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-20"
     },
@@ -1846,11 +1670,9 @@ export default {
       "masked": "They spoke about their ____ roles.",
       "options": [
         "respect-mcq-20",
-        "respect-mcq-19",
-        "respect-mcq-21",
-        "respect-mcq-18",
-        "respect-mcq-22",
-        "respect-mcq-17"
+        "respect-mcq-13",
+        "respect-mcq-03",
+        "respect-mcq-06"
       ],
       "explanation": "本句的「respective」指「分別屬於不同人物或事物的；各自的」。",
       "sentenceIndex": 44,
@@ -1859,12 +1681,10 @@ export default {
         "respective"
       ],
       "optionReasons": {
-        "respect-mcq-20": "本句指「分別屬於不同人物或事物的；各自的」。",
-        "respect-mcq-19": "「達到相當不錯、令人滿意或有一定份量的水平」是「respectable — reasonably good」的用法，與本句語境不同。",
-        "respect-mcq-21": "「按前面提及項目的次序分別對應後面的資料」是「respectively」的用法，與本句語境不同。",
-        "respect-mcq-18": "「在社會評價上正當、體面或值得尊敬的」是「respectable — socially acceptable」的用法，與本句語境不同。",
-        "respect-mcq-22": "「對他人的權利、感受、文化、私隱或界線保持重視和顧及」是「11. respect = regard for feelings/rights/traditions（尊重／顧及） — 尊重；重視」的用法，與本句語境不同。",
-        "respect-mcq-17": "「以尊重、有禮而重視對方的方式」是「respectfully」的用法，與本句語境不同。"
+        "respect-mcq-20": "本句的「respective」指「分別屬於不同人物或事物的；各自的」。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-20"
     },
@@ -1876,11 +1696,9 @@ export default {
       "masked": "Anna and Ben are 20 and 22, ____.",
       "options": [
         "respect-mcq-21",
-        "respect-mcq-20",
-        "respect-mcq-22",
-        "respect-mcq-19",
-        "respect-mcq-23",
-        "respect-mcq-18"
+        "respect-mcq-04",
+        "respect-mcq-10",
+        "respect-mcq-13"
       ],
       "explanation": "本句的「respectively」指「按前面提及項目的次序分別對應後面的資料」。",
       "sentenceIndex": 45,
@@ -1889,12 +1707,10 @@ export default {
         "respectively"
       ],
       "optionReasons": {
-        "respect-mcq-21": "本句指「按前面提及項目的次序分別對應後面的資料」。",
-        "respect-mcq-20": "「分別屬於不同人物或事物的；各自的」是「respective」的用法，與本句語境不同。",
-        "respect-mcq-22": "「對他人的權利、感受、文化、私隱或界線保持重視和顧及」是「11. respect = regard for feelings/rights/traditions（尊重／顧及） — 尊重；重視」的用法，與本句語境不同。",
-        "respect-mcq-19": "「達到相當不錯、令人滿意或有一定份量的水平」是「respectable — reasonably good」的用法，與本句語境不同。",
-        "respect-mcq-23": "「在行為上重視並顧及某人的權利、感受、意願或傳統」是「18. respectful of + rights/wishes/traditions — 尊重……的」的用法，與本句語境不同。",
-        "respect-mcq-18": "「在社會評價上正當、體面或值得尊敬的」是「respectable — socially acceptable」的用法，與本句語境不同。"
+        "respect-mcq-21": "本句的「respectively」指「按前面提及項目的次序分別對應後面的資料」。",
+        "respect-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-21"
     },
@@ -1906,11 +1722,9 @@ export default {
       "masked": "The red and blue models cost $50 and $60, ____.",
       "options": [
         "respect-mcq-21",
-        "respect-mcq-20",
-        "respect-mcq-22",
-        "respect-mcq-19",
-        "respect-mcq-23",
-        "respect-mcq-18"
+        "respect-mcq-01",
+        "respect-mcq-13",
+        "respect-mcq-09"
       ],
       "explanation": "本句的「respectively」指「按前面提及項目的次序分別對應後面的資料」。",
       "sentenceIndex": 46,
@@ -1919,12 +1733,10 @@ export default {
         "respectively"
       ],
       "optionReasons": {
-        "respect-mcq-21": "本句指「按前面提及項目的次序分別對應後面的資料」。",
-        "respect-mcq-20": "「分別屬於不同人物或事物的；各自的」是「respective」的用法，與本句語境不同。",
-        "respect-mcq-22": "「對他人的權利、感受、文化、私隱或界線保持重視和顧及」是「11. respect = regard for feelings/rights/traditions（尊重／顧及） — 尊重；重視」的用法，與本句語境不同。",
-        "respect-mcq-19": "「達到相當不錯、令人滿意或有一定份量的水平」是「respectable — reasonably good」的用法，與本句語境不同。",
-        "respect-mcq-23": "「在行為上重視並顧及某人的權利、感受、意願或傳統」是「18. respectful of + rights/wishes/traditions — 尊重……的」的用法，與本句語境不同。",
-        "respect-mcq-18": "「在社會評價上正當、體面或值得尊敬的」是「respectable — socially acceptable」的用法，與本句語境不同。"
+        "respect-mcq-21": "本句的「respectively」指「按前面提及項目的次序分別對應後面的資料」。",
+        "respect-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "respect-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "respect-mcq-21"
     }
@@ -1936,5 +1748,7 @@ export default {
     "sha256": "2865fbbdc3c65c169b0564999efeccd1f6c5d525da1a13aa5c7328330fbdad42",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

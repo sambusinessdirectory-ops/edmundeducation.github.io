@@ -453,11 +453,9 @@ export default {
       "masked": "The surprise gift really ____ me.",
       "options": [
         "excite-mcq-21",
-        "excite-mcq-20",
-        "excite-mcq-19",
-        "excite-mcq-18",
-        "excite-mcq-17",
-        "excite-mcq-16"
+        "excite-mcq-04",
+        "excite-mcq-06",
+        "excite-mcq-09"
       ],
       "explanation": "本句的「excited」指「令人興奮的；令人期待的；刺激的」。",
       "sentenceIndex": 0,
@@ -466,12 +464,10 @@ export default {
         "excited"
       ],
       "optionReasons": {
-        "excite-mcq-21": "本句指「令人興奮的；令人期待的；刺激的」。",
-        "excite-mcq-20": "「excited = 感到興奮的；exciting = 令人興奮的」是「excited vs exciting」的用法，與本句語境不同。",
-        "excite-mcq-19": "「開始變得興奮／期待」是「get excited」的用法，與本句語境不同。",
-        "excite-mcq-18": "「科學中的激發作用；工程中的勵磁／激磁」是「excitation」的用法，與本句語境不同。",
-        "excite-mcq-17": "「容易受到刺激並產生反應的性質；易興奮性」是「excitability」的用法，與本句語境不同。",
-        "excite-mcq-16": "「很容易變得興奮、激動或情緒高漲的」是「excitable」的用法，與本句語境不同。"
+        "excite-mcq-21": "本句的「excited」指「令人興奮的；令人期待的；刺激的」。",
+        "excite-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-21"
     },
@@ -483,11 +479,9 @@ export default {
       "masked": "The idea of travelling abroad ____ her.",
       "options": [
         "excite-mcq-21",
-        "excite-mcq-20",
-        "excite-mcq-19",
-        "excite-mcq-18",
-        "excite-mcq-17",
-        "excite-mcq-16"
+        "excite-mcq-03",
+        "excite-mcq-04",
+        "excite-mcq-05"
       ],
       "explanation": "本句的「excited」指「令人興奮的；令人期待的；刺激的」。",
       "sentenceIndex": 1,
@@ -496,12 +490,10 @@ export default {
         "excited"
       ],
       "optionReasons": {
-        "excite-mcq-21": "本句指「令人興奮的；令人期待的；刺激的」。",
-        "excite-mcq-20": "「excited = 感到興奮的；exciting = 令人興奮的」是「excited vs exciting」的用法，與本句語境不同。",
-        "excite-mcq-19": "「開始變得興奮／期待」是「get excited」的用法，與本句語境不同。",
-        "excite-mcq-18": "「科學中的激發作用；工程中的勵磁／激磁」是「excitation」的用法，與本句語境不同。",
-        "excite-mcq-17": "「容易受到刺激並產生反應的性質；易興奮性」是「excitability」的用法，與本句語境不同。",
-        "excite-mcq-16": "「很容易變得興奮、激動或情緒高漲的」是「excitable」的用法，與本句語境不同。"
+        "excite-mcq-21": "本句的「excited」指「令人興奮的；令人期待的；刺激的」。",
+        "excite-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-21"
     },
@@ -513,11 +505,9 @@ export default {
       "masked": "The news ____ everyone.",
       "options": [
         "excite-mcq-02",
-        "excite-mcq-01",
-        "excite-mcq-03",
-        "excite-mcq-04",
+        "excite-mcq-16",
         "excite-mcq-05",
-        "excite-mcq-06"
+        "excite-mcq-09"
       ],
       "explanation": "本句的「excited」指「使某人對某事產生熱情或期待」。",
       "sentenceIndex": 2,
@@ -526,12 +516,10 @@ export default {
         "excited"
       ],
       "optionReasons": {
-        "excite-mcq-02": "本句指「使某人對某事產生熱情或期待」。",
-        "excite-mcq-01": "「使某人產生強烈興趣、熱情或期待；使興奮」是「excite — enthusiasm」的用法，與本句語境不同。",
-        "excite-mcq-03": "「激起、引發強烈情緒或反應」是「excite — strong emotion」的用法，與本句語境不同。",
-        "excite-mcq-04": "「引起興趣、好奇心或注意」是「excite interest/curiosity」的用法，與本句語境不同。",
-        "excite-mcq-05": "「給原子、電子等能量，使其進入較高能階；激發」是「excite — physics/chemistry」的用法，與本句語境不同。",
-        "excite-mcq-06": "「粒子、原子或分子獲得較高能量後所處的激發態」是「excited state」的用法，與本句語境不同。"
+        "excite-mcq-02": "本句的「excited」指「使某人對某事產生熱情或期待」。",
+        "excite-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-02"
     },
@@ -543,11 +531,9 @@ export default {
       "masked": "New challenges often ____ him.",
       "options": [
         "excite-mcq-02",
-        "excite-mcq-01",
-        "excite-mcq-03",
-        "excite-mcq-04",
-        "excite-mcq-05",
-        "excite-mcq-06"
+        "excite-mcq-06",
+        "excite-mcq-16",
+        "excite-mcq-09"
       ],
       "explanation": "本句的「excite」指「使某人對某事產生熱情或期待」。",
       "sentenceIndex": 3,
@@ -556,12 +542,10 @@ export default {
         "excite"
       ],
       "optionReasons": {
-        "excite-mcq-02": "本句指「使某人對某事產生熱情或期待」。",
-        "excite-mcq-01": "「使某人產生強烈興趣、熱情或期待；使興奮」是「excite — enthusiasm」的用法，與本句語境不同。",
-        "excite-mcq-03": "「激起、引發強烈情緒或反應」是「excite — strong emotion」的用法，與本句語境不同。",
-        "excite-mcq-04": "「引起興趣、好奇心或注意」是「excite interest/curiosity」的用法，與本句語境不同。",
-        "excite-mcq-05": "「給原子、電子等能量，使其進入較高能階；激發」是「excite — physics/chemistry」的用法，與本句語境不同。",
-        "excite-mcq-06": "「粒子、原子或分子獲得較高能量後所處的激發態」是「excited state」的用法，與本句語境不同。"
+        "excite-mcq-02": "本句的「excite」指「使某人對某事產生熱情或期待」。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-02"
     },
@@ -573,11 +557,9 @@ export default {
       "masked": "The teacher ____.",
       "options": [
         "excite-mcq-02",
-        "excite-mcq-01",
-        "excite-mcq-03",
-        "excite-mcq-04",
+        "excite-mcq-16",
         "excite-mcq-05",
-        "excite-mcq-06"
+        "excite-mcq-09"
       ],
       "explanation": "本句的「excited the students about science」指「使某人對某事產生熱情或期待」。",
       "sentenceIndex": 4,
@@ -586,12 +568,10 @@ export default {
         "excited the students about science"
       ],
       "optionReasons": {
-        "excite-mcq-02": "本句指「使某人對某事產生熱情或期待」。",
-        "excite-mcq-01": "「使某人產生強烈興趣、熱情或期待；使興奮」是「excite — enthusiasm」的用法，與本句語境不同。",
-        "excite-mcq-03": "「激起、引發強烈情緒或反應」是「excite — strong emotion」的用法，與本句語境不同。",
-        "excite-mcq-04": "「引起興趣、好奇心或注意」是「excite interest/curiosity」的用法，與本句語境不同。",
-        "excite-mcq-05": "「給原子、電子等能量，使其進入較高能階；激發」是「excite — physics/chemistry」的用法，與本句語境不同。",
-        "excite-mcq-06": "「粒子、原子或分子獲得較高能量後所處的激發態」是「excited state」的用法，與本句語境不同。"
+        "excite-mcq-02": "本句的「excited the students about science」指「使某人對某事產生熱情或期待」。",
+        "excite-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-02"
     },
@@ -603,11 +583,9 @@ export default {
       "masked": "The presentation ____.",
       "options": [
         "excite-mcq-02",
-        "excite-mcq-01",
-        "excite-mcq-03",
-        "excite-mcq-04",
+        "excite-mcq-20",
         "excite-mcq-05",
-        "excite-mcq-06"
+        "excite-mcq-03"
       ],
       "explanation": "本句的「excited investors about the new product」指「使某人對某事產生熱情或期待」。",
       "sentenceIndex": 5,
@@ -616,12 +594,10 @@ export default {
         "excited investors about the new product"
       ],
       "optionReasons": {
-        "excite-mcq-02": "本句指「使某人對某事產生熱情或期待」。",
-        "excite-mcq-01": "「使某人產生強烈興趣、熱情或期待；使興奮」是「excite — enthusiasm」的用法，與本句語境不同。",
-        "excite-mcq-03": "「激起、引發強烈情緒或反應」是「excite — strong emotion」的用法，與本句語境不同。",
-        "excite-mcq-04": "「引起興趣、好奇心或注意」是「excite interest/curiosity」的用法，與本句語境不同。",
-        "excite-mcq-05": "「給原子、電子等能量，使其進入較高能階；激發」是「excite — physics/chemistry」的用法，與本句語境不同。",
-        "excite-mcq-06": "「粒子、原子或分子獲得較高能量後所處的激發態」是「excited state」的用法，與本句語境不同。"
+        "excite-mcq-02": "本句的「excited investors about the new product」指「使某人對某事產生熱情或期待」。",
+        "excite-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-02"
     },
@@ -634,9 +610,7 @@ export default {
       "options": [
         "excite-mcq-03",
         "excite-mcq-02",
-        "excite-mcq-04",
-        "excite-mcq-01",
-        "excite-mcq-05",
+        "excite-mcq-20",
         "excite-mcq-06"
       ],
       "explanation": "本句的「excited strong feelings」指「激起、引發強烈情緒或反應」。",
@@ -646,12 +620,10 @@ export default {
         "excited strong feelings"
       ],
       "optionReasons": {
-        "excite-mcq-03": "本句指「激起、引發強烈情緒或反應」。",
-        "excite-mcq-02": "「使某人對某事產生熱情或期待」是「excite someone about something」的用法，與本句語境不同。",
-        "excite-mcq-04": "「引起興趣、好奇心或注意」是「excite interest/curiosity」的用法，與本句語境不同。",
-        "excite-mcq-01": "「使某人產生強烈興趣、熱情或期待；使興奮」是「excite — enthusiasm」的用法，與本句語境不同。",
-        "excite-mcq-05": "「給原子、電子等能量，使其進入較高能階；激發」是「excite — physics/chemistry」的用法，與本句語境不同。",
-        "excite-mcq-06": "「粒子、原子或分子獲得較高能量後所處的激發態」是「excited state」的用法，與本句語境不同。"
+        "excite-mcq-03": "本句的「excited strong feelings」指「激起、引發強烈情緒或反應」。",
+        "excite-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-03"
     },
@@ -663,11 +635,9 @@ export default {
       "masked": "The proposal ____.",
       "options": [
         "excite-mcq-03",
-        "excite-mcq-02",
-        "excite-mcq-04",
-        "excite-mcq-01",
-        "excite-mcq-05",
-        "excite-mcq-06"
+        "excite-mcq-11",
+        "excite-mcq-07",
+        "excite-mcq-05"
       ],
       "explanation": "本句的「excited considerable public interest」指「激起、引發強烈情緒或反應」。",
       "sentenceIndex": 7,
@@ -676,12 +646,10 @@ export default {
         "excited considerable public interest"
       ],
       "optionReasons": {
-        "excite-mcq-03": "本句指「激起、引發強烈情緒或反應」。",
-        "excite-mcq-02": "「使某人對某事產生熱情或期待」是「excite someone about something」的用法，與本句語境不同。",
-        "excite-mcq-04": "「引起興趣、好奇心或注意」是「excite interest/curiosity」的用法，與本句語境不同。",
-        "excite-mcq-01": "「使某人產生強烈興趣、熱情或期待；使興奮」是「excite — enthusiasm」的用法，與本句語境不同。",
-        "excite-mcq-05": "「給原子、電子等能量，使其進入較高能階；激發」是「excite — physics/chemistry」的用法，與本句語境不同。",
-        "excite-mcq-06": "「粒子、原子或分子獲得較高能量後所處的激發態」是「excited state」的用法，與本句語境不同。"
+        "excite-mcq-03": "本句的「excited considerable public interest」指「激起、引發強烈情緒或反應」。",
+        "excite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-03"
     },
@@ -693,11 +661,9 @@ export default {
       "masked": "The discovery ____.",
       "options": [
         "excite-mcq-04",
-        "excite-mcq-03",
         "excite-mcq-05",
-        "excite-mcq-02",
-        "excite-mcq-06",
-        "excite-mcq-01"
+        "excite-mcq-12",
+        "excite-mcq-16"
       ],
       "explanation": "本句的「excited scientific interest」指「引起興趣、好奇心或注意」。",
       "sentenceIndex": 8,
@@ -706,12 +672,10 @@ export default {
         "excited scientific interest"
       ],
       "optionReasons": {
-        "excite-mcq-04": "本句指「引起興趣、好奇心或注意」。",
-        "excite-mcq-03": "「激起、引發強烈情緒或反應」是「excite — strong emotion」的用法，與本句語境不同。",
-        "excite-mcq-05": "「給原子、電子等能量，使其進入較高能階；激發」是「excite — physics/chemistry」的用法，與本句語境不同。",
-        "excite-mcq-02": "「使某人對某事產生熱情或期待」是「excite someone about something」的用法，與本句語境不同。",
-        "excite-mcq-06": "「粒子、原子或分子獲得較高能量後所處的激發態」是「excited state」的用法，與本句語境不同。",
-        "excite-mcq-01": "「使某人產生強烈興趣、熱情或期待；使興奮」是「excite — enthusiasm」的用法，與本句語境不同。"
+        "excite-mcq-04": "本句的「excited scientific interest」指「引起興趣、好奇心或注意」。",
+        "excite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-04"
     },
@@ -723,11 +687,9 @@ export default {
       "masked": "Her story ____.",
       "options": [
         "excite-mcq-04",
-        "excite-mcq-03",
+        "excite-mcq-12",
         "excite-mcq-05",
-        "excite-mcq-02",
-        "excite-mcq-06",
-        "excite-mcq-01"
+        "excite-mcq-16"
       ],
       "explanation": "本句的「excited my curiosity」指「引起興趣、好奇心或注意」。",
       "sentenceIndex": 9,
@@ -736,12 +698,10 @@ export default {
         "excited my curiosity"
       ],
       "optionReasons": {
-        "excite-mcq-04": "本句指「引起興趣、好奇心或注意」。",
-        "excite-mcq-03": "「激起、引發強烈情緒或反應」是「excite — strong emotion」的用法，與本句語境不同。",
-        "excite-mcq-05": "「給原子、電子等能量，使其進入較高能階；激發」是「excite — physics/chemistry」的用法，與本句語境不同。",
-        "excite-mcq-02": "「使某人對某事產生熱情或期待」是「excite someone about something」的用法，與本句語境不同。",
-        "excite-mcq-06": "「粒子、原子或分子獲得較高能量後所處的激發態」是「excited state」的用法，與本句語境不同。",
-        "excite-mcq-01": "「使某人產生強烈興趣、熱情或期待；使興奮」是「excite — enthusiasm」的用法，與本句語境不同。"
+        "excite-mcq-04": "本句的「excited my curiosity」指「引起興趣、好奇心或注意」。",
+        "excite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-04"
     },
@@ -753,11 +713,9 @@ export default {
       "masked": "The laser ____.",
       "options": [
         "excite-mcq-05",
-        "excite-mcq-04",
-        "excite-mcq-06",
-        "excite-mcq-03",
-        "excite-mcq-07",
-        "excite-mcq-02"
+        "excite-mcq-08",
+        "excite-mcq-12",
+        "excite-mcq-09"
       ],
       "explanation": "本句的「excites the atoms」指「給原子、電子等能量，使其進入較高能階；激發」。",
       "sentenceIndex": 10,
@@ -766,12 +724,10 @@ export default {
         "excites the atoms"
       ],
       "optionReasons": {
-        "excite-mcq-05": "本句指「給原子、電子等能量，使其進入較高能階；激發」。",
-        "excite-mcq-04": "「引起興趣、好奇心或注意」是「excite interest/curiosity」的用法，與本句語境不同。",
-        "excite-mcq-06": "「粒子、原子或分子獲得較高能量後所處的激發態」是「excited state」的用法，與本句語境不同。",
-        "excite-mcq-03": "「激起、引發強烈情緒或反應」是「excite — strong emotion」的用法，與本句語境不同。",
-        "excite-mcq-07": "「向線圈等供能以建立磁場；勵磁／激磁」是「excite — electrical engineering」的用法，與本句語境不同。",
-        "excite-mcq-02": "「使某人對某事產生熱情或期待」是「excite someone about something」的用法，與本句語境不同。"
+        "excite-mcq-05": "本句的「excites the atoms」指「給原子、電子等能量，使其進入較高能階；激發」。",
+        "excite-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-05"
     },
@@ -783,11 +739,9 @@ export default {
       "masked": "Electrons can be ____.",
       "options": [
         "excite-mcq-05",
-        "excite-mcq-04",
-        "excite-mcq-06",
-        "excite-mcq-03",
-        "excite-mcq-07",
-        "excite-mcq-02"
+        "excite-mcq-02",
+        "excite-mcq-20",
+        "excite-mcq-09"
       ],
       "explanation": "本句的「excited to higher energy levels」指「給原子、電子等能量，使其進入較高能階；激發」。",
       "sentenceIndex": 11,
@@ -796,12 +750,10 @@ export default {
         "excited to higher energy levels"
       ],
       "optionReasons": {
-        "excite-mcq-05": "本句指「給原子、電子等能量，使其進入較高能階；激發」。",
-        "excite-mcq-04": "「引起興趣、好奇心或注意」是「excite interest/curiosity」的用法，與本句語境不同。",
-        "excite-mcq-06": "「粒子、原子或分子獲得較高能量後所處的激發態」是「excited state」的用法，與本句語境不同。",
-        "excite-mcq-03": "「激起、引發強烈情緒或反應」是「excite — strong emotion」的用法，與本句語境不同。",
-        "excite-mcq-07": "「向線圈等供能以建立磁場；勵磁／激磁」是「excite — electrical engineering」的用法，與本句語境不同。",
-        "excite-mcq-02": "「使某人對某事產生熱情或期待」是「excite someone about something」的用法，與本句語境不同。"
+        "excite-mcq-05": "本句的「excited to higher energy levels」指「給原子、電子等能量，使其進入較高能階；激發」。",
+        "excite-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-05"
     },
@@ -813,11 +765,9 @@ export default {
       "masked": "The electron moved into an ____.",
       "options": [
         "excite-mcq-06",
-        "excite-mcq-05",
-        "excite-mcq-07",
         "excite-mcq-04",
-        "excite-mcq-08",
-        "excite-mcq-03"
+        "excite-mcq-20",
+        "excite-mcq-12"
       ],
       "explanation": "本句的「excited state」指「粒子、原子或分子獲得較高能量後所處的激發態」。",
       "sentenceIndex": 12,
@@ -826,12 +776,10 @@ export default {
         "excited state"
       ],
       "optionReasons": {
-        "excite-mcq-06": "本句指「粒子、原子或分子獲得較高能量後所處的激發態」。",
-        "excite-mcq-05": "「給原子、電子等能量，使其進入較高能階；激發」是「excite — physics/chemistry」的用法，與本句語境不同。",
-        "excite-mcq-07": "「向線圈等供能以建立磁場；勵磁／激磁」是「excite — electrical engineering」的用法，與本句語境不同。",
-        "excite-mcq-04": "「引起興趣、好奇心或注意」是「excite interest/curiosity」的用法，與本句語境不同。",
-        "excite-mcq-08": "「引起性興奮」是「excite — sexual」的用法，與本句語境不同。",
-        "excite-mcq-03": "「激起、引發強烈情緒或反應」是「excite — strong emotion」的用法，與本句語境不同。"
+        "excite-mcq-06": "本句的「excited state」指「粒子、原子或分子獲得較高能量後所處的激發態」。",
+        "excite-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-06"
     },
@@ -843,11 +791,9 @@ export default {
       "masked": "The molecule quickly returned from the ____.",
       "options": [
         "excite-mcq-06",
-        "excite-mcq-05",
-        "excite-mcq-07",
         "excite-mcq-04",
-        "excite-mcq-08",
-        "excite-mcq-03"
+        "excite-mcq-11",
+        "excite-mcq-09"
       ],
       "explanation": "本句的「excited state」指「粒子、原子或分子獲得較高能量後所處的激發態」。",
       "sentenceIndex": 13,
@@ -856,12 +802,10 @@ export default {
         "excited state"
       ],
       "optionReasons": {
-        "excite-mcq-06": "本句指「粒子、原子或分子獲得較高能量後所處的激發態」。",
-        "excite-mcq-05": "「給原子、電子等能量，使其進入較高能階；激發」是「excite — physics/chemistry」的用法，與本句語境不同。",
-        "excite-mcq-07": "「向線圈等供能以建立磁場；勵磁／激磁」是「excite — electrical engineering」的用法，與本句語境不同。",
-        "excite-mcq-04": "「引起興趣、好奇心或注意」是「excite interest/curiosity」的用法，與本句語境不同。",
-        "excite-mcq-08": "「引起性興奮」是「excite — sexual」的用法，與本句語境不同。",
-        "excite-mcq-03": "「激起、引發強烈情緒或反應」是「excite — strong emotion」的用法，與本句語境不同。"
+        "excite-mcq-06": "本句的「excited state」指「粒子、原子或分子獲得較高能量後所處的激發態」。",
+        "excite-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-06"
     },
@@ -873,11 +817,9 @@ export default {
       "masked": "The coil is ____.",
       "options": [
         "excite-mcq-07",
+        "excite-mcq-11",
         "excite-mcq-06",
-        "excite-mcq-08",
-        "excite-mcq-05",
-        "excite-mcq-09",
-        "excite-mcq-04"
+        "excite-mcq-09"
       ],
       "explanation": "本句的「excited by an electric current」指「向線圈等供能以建立磁場；勵磁／激磁」。",
       "sentenceIndex": 14,
@@ -886,12 +828,10 @@ export default {
         "excited by an electric current"
       ],
       "optionReasons": {
-        "excite-mcq-07": "本句指「向線圈等供能以建立磁場；勵磁／激磁」。",
-        "excite-mcq-06": "「粒子、原子或分子獲得較高能量後所處的激發態」是「excited state」的用法，與本句語境不同。",
-        "excite-mcq-08": "「引起性興奮」是「excite — sexual」的用法，與本句語境不同。",
-        "excite-mcq-05": "「給原子、電子等能量，使其進入較高能階；激發」是「excite — physics/chemistry」的用法，與本句語境不同。",
-        "excite-mcq-09": "「激起騷動、憤怒或不安」是「excite — provoke/agitate」的用法，與本句語境不同。",
-        "excite-mcq-04": "「引起興趣、好奇心或注意」是「excite interest/curiosity」的用法，與本句語境不同。"
+        "excite-mcq-07": "本句的「excited by an electric current」指「向線圈等供能以建立磁場；勵磁／激磁」。",
+        "excite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-07"
     },
@@ -903,11 +843,9 @@ export default {
       "masked": "The field winding must be properly ____.",
       "options": [
         "excite-mcq-07",
-        "excite-mcq-06",
-        "excite-mcq-08",
-        "excite-mcq-05",
-        "excite-mcq-09",
-        "excite-mcq-04"
+        "excite-mcq-19",
+        "excite-mcq-03",
+        "excite-mcq-06"
       ],
       "explanation": "本句的「excited」指「向線圈等供能以建立磁場；勵磁／激磁」。",
       "sentenceIndex": 15,
@@ -916,12 +854,10 @@ export default {
         "excited"
       ],
       "optionReasons": {
-        "excite-mcq-07": "本句指「向線圈等供能以建立磁場；勵磁／激磁」。",
-        "excite-mcq-06": "「粒子、原子或分子獲得較高能量後所處的激發態」是「excited state」的用法，與本句語境不同。",
-        "excite-mcq-08": "「引起性興奮」是「excite — sexual」的用法，與本句語境不同。",
-        "excite-mcq-05": "「給原子、電子等能量，使其進入較高能階；激發」是「excite — physics/chemistry」的用法，與本句語境不同。",
-        "excite-mcq-09": "「激起騷動、憤怒或不安」是「excite — provoke/agitate」的用法，與本句語境不同。",
-        "excite-mcq-04": "「引起興趣、好奇心或注意」是「excite interest/curiosity」的用法，與本句語境不同。"
+        "excite-mcq-07": "本句的「excited」指「向線圈等供能以建立磁場；勵磁／激磁」。",
+        "excite-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-07"
     },
@@ -933,11 +869,9 @@ export default {
       "masked": "The scene was intended to ____ the viewer sexually.",
       "options": [
         "excite-mcq-08",
-        "excite-mcq-07",
-        "excite-mcq-09",
         "excite-mcq-06",
-        "excite-mcq-10",
-        "excite-mcq-05"
+        "excite-mcq-12",
+        "excite-mcq-09"
       ],
       "explanation": "本句的「excite」指「引起性興奮」。",
       "sentenceIndex": 16,
@@ -946,12 +880,10 @@ export default {
         "excite"
       ],
       "optionReasons": {
-        "excite-mcq-08": "本句指「引起性興奮」。",
-        "excite-mcq-07": "「向線圈等供能以建立磁場；勵磁／激磁」是「excite — electrical engineering」的用法，與本句語境不同。",
-        "excite-mcq-09": "「激起騷動、憤怒或不安」是「excite — provoke/agitate」的用法，與本句語境不同。",
-        "excite-mcq-06": "「粒子、原子或分子獲得較高能量後所處的激發態」是「excited state」的用法，與本句語境不同。",
-        "excite-mcq-10": "「本人感受到興奮、期待或情緒激動的」是「excited」的用法，與本句語境不同。",
-        "excite-mcq-05": "「給原子、電子等能量，使其進入較高能階；激發」是「excite — physics/chemistry」的用法，與本句語境不同。"
+        "excite-mcq-08": "本句的「excite」指「引起性興奮」。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-08"
     },
@@ -963,11 +895,9 @@ export default {
       "masked": "Certain stimuli may ____ sexual arousal.",
       "options": [
         "excite-mcq-08",
-        "excite-mcq-07",
-        "excite-mcq-09",
         "excite-mcq-06",
-        "excite-mcq-10",
-        "excite-mcq-05"
+        "excite-mcq-12",
+        "excite-mcq-09"
       ],
       "explanation": "本句的「excite」指「引起性興奮」。",
       "sentenceIndex": 17,
@@ -976,12 +906,10 @@ export default {
         "excite"
       ],
       "optionReasons": {
-        "excite-mcq-08": "本句指「引起性興奮」。",
-        "excite-mcq-07": "「向線圈等供能以建立磁場；勵磁／激磁」是「excite — electrical engineering」的用法，與本句語境不同。",
-        "excite-mcq-09": "「激起騷動、憤怒或不安」是「excite — provoke/agitate」的用法，與本句語境不同。",
-        "excite-mcq-06": "「粒子、原子或分子獲得較高能量後所處的激發態」是「excited state」的用法，與本句語境不同。",
-        "excite-mcq-10": "「本人感受到興奮、期待或情緒激動的」是「excited」的用法，與本句語境不同。",
-        "excite-mcq-05": "「給原子、電子等能量，使其進入較高能階；激發」是「excite — physics/chemistry」的用法，與本句語境不同。"
+        "excite-mcq-08": "本句的「excite」指「引起性興奮」。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-08"
     },
@@ -993,11 +921,8 @@ export default {
       "masked": "The rumours ____ in the town.",
       "options": [
         "excite-mcq-09",
-        "excite-mcq-08",
-        "excite-mcq-10",
-        "excite-mcq-07",
-        "excite-mcq-11",
-        "excite-mcq-06"
+        "excite-mcq-13",
+        "excite-mcq-05"
       ],
       "explanation": "本句的「excited unrest」指「激起騷動、憤怒或不安」。",
       "sentenceIndex": 18,
@@ -1006,12 +931,9 @@ export default {
         "excited unrest"
       ],
       "optionReasons": {
-        "excite-mcq-09": "本句指「激起騷動、憤怒或不安」。",
-        "excite-mcq-08": "「引起性興奮」是「excite — sexual」的用法，與本句語境不同。",
-        "excite-mcq-10": "「本人感受到興奮、期待或情緒激動的」是「excited」的用法，與本句語境不同。",
-        "excite-mcq-07": "「向線圈等供能以建立磁場；勵磁／激磁」是「excite — electrical engineering」的用法，與本句語境不同。",
-        "excite-mcq-11": "「對某事感到興奮／期待」是「excited about」的用法，與本句語境不同。",
-        "excite-mcq-06": "「粒子、原子或分子獲得較高能量後所處的激發態」是「excited state」的用法，與本句語境不同。"
+        "excite-mcq-09": "本句的「excited unrest」指「激起騷動、憤怒或不安」。",
+        "excite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-09"
     },
@@ -1023,11 +945,9 @@ export default {
       "masked": "His remarks ____ among the crowd.",
       "options": [
         "excite-mcq-09",
-        "excite-mcq-08",
-        "excite-mcq-10",
-        "excite-mcq-07",
         "excite-mcq-11",
-        "excite-mcq-06"
+        "excite-mcq-07",
+        "excite-mcq-05"
       ],
       "explanation": "本句的「excited anger」指「激起騷動、憤怒或不安」。",
       "sentenceIndex": 19,
@@ -1036,12 +956,10 @@ export default {
         "excited anger"
       ],
       "optionReasons": {
-        "excite-mcq-09": "本句指「激起騷動、憤怒或不安」。",
-        "excite-mcq-08": "「引起性興奮」是「excite — sexual」的用法，與本句語境不同。",
-        "excite-mcq-10": "「本人感受到興奮、期待或情緒激動的」是「excited」的用法，與本句語境不同。",
-        "excite-mcq-07": "「向線圈等供能以建立磁場；勵磁／激磁」是「excite — electrical engineering」的用法，與本句語境不同。",
-        "excite-mcq-11": "「對某事感到興奮／期待」是「excited about」的用法，與本句語境不同。",
-        "excite-mcq-06": "「粒子、原子或分子獲得較高能量後所處的激發態」是「excited state」的用法，與本句語境不同。"
+        "excite-mcq-09": "本句的「excited anger」指「激起騷動、憤怒或不安」。",
+        "excite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-09"
     },
@@ -1053,11 +971,9 @@ export default {
       "masked": "I’m really ____ about the trip.",
       "options": [
         "excite-mcq-10",
-        "excite-mcq-09",
-        "excite-mcq-11",
-        "excite-mcq-08",
-        "excite-mcq-12",
-        "excite-mcq-07"
+        "excite-mcq-04",
+        "excite-mcq-05",
+        "excite-mcq-09"
       ],
       "explanation": "本句的「excited」指「本人感受到興奮、期待或情緒激動的」。",
       "sentenceIndex": 20,
@@ -1066,12 +982,10 @@ export default {
         "excited"
       ],
       "optionReasons": {
-        "excite-mcq-10": "本句指「本人感受到興奮、期待或情緒激動的」。",
-        "excite-mcq-09": "「激起騷動、憤怒或不安」是「excite — provoke/agitate」的用法，與本句語境不同。",
-        "excite-mcq-11": "「對某事感到興奮／期待」是「excited about」的用法，與本句語境不同。",
-        "excite-mcq-08": "「引起性興奮」是「excite — sexual」的用法，與本句語境不同。",
-        "excite-mcq-12": "「很期待做某事」是「excited to do」的用法，與本句語境不同。",
-        "excite-mcq-07": "「向線圈等供能以建立磁場；勵磁／激磁」是「excite — electrical engineering」的用法，與本句語境不同。"
+        "excite-mcq-10": "本句的「excited」指「本人感受到興奮、期待或情緒激動的」。",
+        "excite-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-10"
     },
@@ -1083,11 +997,9 @@ export default {
       "masked": "The children were ____ to open their presents.",
       "options": [
         "excite-mcq-10",
-        "excite-mcq-09",
-        "excite-mcq-11",
-        "excite-mcq-08",
-        "excite-mcq-12",
-        "excite-mcq-07"
+        "excite-mcq-04",
+        "excite-mcq-06",
+        "excite-mcq-09"
       ],
       "explanation": "本句的「excited」指「本人感受到興奮、期待或情緒激動的」。",
       "sentenceIndex": 21,
@@ -1096,12 +1008,10 @@ export default {
         "excited"
       ],
       "optionReasons": {
-        "excite-mcq-10": "本句指「本人感受到興奮、期待或情緒激動的」。",
-        "excite-mcq-09": "「激起騷動、憤怒或不安」是「excite — provoke/agitate」的用法，與本句語境不同。",
-        "excite-mcq-11": "「對某事感到興奮／期待」是「excited about」的用法，與本句語境不同。",
-        "excite-mcq-08": "「引起性興奮」是「excite — sexual」的用法，與本句語境不同。",
-        "excite-mcq-12": "「很期待做某事」是「excited to do」的用法，與本句語境不同。",
-        "excite-mcq-07": "「向線圈等供能以建立磁場；勵磁／激磁」是「excite — electrical engineering」的用法，與本句語境不同。"
+        "excite-mcq-10": "本句的「excited」指「本人感受到興奮、期待或情緒激動的」。",
+        "excite-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-10"
     },
@@ -1113,11 +1023,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "excite-mcq-11",
-        "excite-mcq-10",
-        "excite-mcq-12",
         "excite-mcq-09",
-        "excite-mcq-13",
-        "excite-mcq-08"
+        "excite-mcq-05",
+        "excite-mcq-07"
       ],
       "explanation": "本句的「excited about her new job」指「對某事感到興奮／期待」。",
       "sentenceIndex": 22,
@@ -1126,12 +1034,10 @@ export default {
         "excited about her new job"
       ],
       "optionReasons": {
-        "excite-mcq-11": "本句指「對某事感到興奮／期待」。",
-        "excite-mcq-10": "「本人感受到興奮、期待或情緒激動的」是「excited」的用法，與本句語境不同。",
-        "excite-mcq-12": "「很期待做某事」是「excited to do」的用法，與本句語境不同。",
-        "excite-mcq-09": "「激起騷動、憤怒或不安」是「excite — provoke/agitate」的用法，與本句語境不同。",
-        "excite-mcq-13": "「能使人產生興奮、熱情或期待的；令人興奮的」是「exciting」的用法，與本句語境不同。",
-        "excite-mcq-08": "「引起性興奮」是「excite — sexual」的用法，與本句語境不同。"
+        "excite-mcq-11": "本句的「excited about her new job」指「對某事感到興奮／期待」。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-11"
     },
@@ -1143,11 +1049,9 @@ export default {
       "masked": "We are ____.",
       "options": [
         "excite-mcq-11",
-        "excite-mcq-10",
-        "excite-mcq-12",
+        "excite-mcq-05",
         "excite-mcq-09",
-        "excite-mcq-13",
-        "excite-mcq-08"
+        "excite-mcq-07"
       ],
       "explanation": "本句的「excited about the opportunity」指「對某事感到興奮／期待」。",
       "sentenceIndex": 23,
@@ -1156,12 +1060,10 @@ export default {
         "excited about the opportunity"
       ],
       "optionReasons": {
-        "excite-mcq-11": "本句指「對某事感到興奮／期待」。",
-        "excite-mcq-10": "「本人感受到興奮、期待或情緒激動的」是「excited」的用法，與本句語境不同。",
-        "excite-mcq-12": "「很期待做某事」是「excited to do」的用法，與本句語境不同。",
-        "excite-mcq-09": "「激起騷動、憤怒或不安」是「excite — provoke/agitate」的用法，與本句語境不同。",
-        "excite-mcq-13": "「能使人產生興奮、熱情或期待的；令人興奮的」是「exciting」的用法，與本句語境不同。",
-        "excite-mcq-08": "「引起性興奮」是「excite — sexual」的用法，與本句語境不同。"
+        "excite-mcq-11": "本句的「excited about the opportunity」指「對某事感到興奮／期待」。",
+        "excite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-11"
     },
@@ -1173,11 +1075,9 @@ export default {
       "masked": "I’m ____ the course.",
       "options": [
         "excite-mcq-12",
-        "excite-mcq-11",
-        "excite-mcq-13",
-        "excite-mcq-10",
-        "excite-mcq-14",
-        "excite-mcq-09"
+        "excite-mcq-07",
+        "excite-mcq-03",
+        "excite-mcq-05"
       ],
       "explanation": "本句的「excited to start」指「很期待做某事」。",
       "sentenceIndex": 24,
@@ -1186,12 +1086,10 @@ export default {
         "excited to start"
       ],
       "optionReasons": {
-        "excite-mcq-12": "本句指「很期待做某事」。",
-        "excite-mcq-11": "「對某事感到興奮／期待」是「excited about」的用法，與本句語境不同。",
-        "excite-mcq-13": "「能使人產生興奮、熱情或期待的；令人興奮的」是「exciting」的用法，與本句語境不同。",
-        "excite-mcq-10": "「本人感受到興奮、期待或情緒激動的」是「excited」的用法，與本句語境不同。",
-        "excite-mcq-14": "「興奮、期待的感覺」是「excitement — emotion」的用法，與本句語境不同。",
-        "excite-mcq-09": "「激起騷動、憤怒或不安」是「excite — provoke/agitate」的用法，與本句語境不同。"
+        "excite-mcq-12": "本句的「excited to start」指「很期待做某事」。",
+        "excite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-12"
     },
@@ -1203,10 +1101,8 @@ export default {
       "masked": "She was ____ the team.",
       "options": [
         "excite-mcq-12",
-        "excite-mcq-11",
-        "excite-mcq-13",
-        "excite-mcq-10",
-        "excite-mcq-14",
+        "excite-mcq-08",
+        "excite-mcq-06",
         "excite-mcq-09"
       ],
       "explanation": "本句的「excited to meet」指「很期待做某事」。",
@@ -1216,12 +1112,10 @@ export default {
         "excited to meet"
       ],
       "optionReasons": {
-        "excite-mcq-12": "本句指「很期待做某事」。",
-        "excite-mcq-11": "「對某事感到興奮／期待」是「excited about」的用法，與本句語境不同。",
-        "excite-mcq-13": "「能使人產生興奮、熱情或期待的；令人興奮的」是「exciting」的用法，與本句語境不同。",
-        "excite-mcq-10": "「本人感受到興奮、期待或情緒激動的」是「excited」的用法，與本句語境不同。",
-        "excite-mcq-14": "「興奮、期待的感覺」是「excitement — emotion」的用法，與本句語境不同。",
-        "excite-mcq-09": "「激起騷動、憤怒或不安」是「excite — provoke/agitate」的用法，與本句語境不同。"
+        "excite-mcq-12": "本句的「excited to meet」指「很期待做某事」。",
+        "excite-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-12"
     },
@@ -1233,11 +1127,8 @@ export default {
       "masked": "It was an ____.",
       "options": [
         "excite-mcq-13",
-        "excite-mcq-12",
-        "excite-mcq-14",
-        "excite-mcq-11",
-        "excite-mcq-15",
-        "excite-mcq-10"
+        "excite-mcq-09",
+        "excite-mcq-06"
       ],
       "explanation": "本句的「exciting opportunity」指「能使人產生興奮、熱情或期待的；令人興奮的」。",
       "sentenceIndex": 26,
@@ -1246,12 +1137,9 @@ export default {
         "exciting opportunity"
       ],
       "optionReasons": {
-        "excite-mcq-13": "本句指「能使人產生興奮、熱情或期待的；令人興奮的」。",
-        "excite-mcq-12": "「很期待做某事」是「excited to do」的用法，與本句語境不同。",
-        "excite-mcq-14": "「興奮、期待的感覺」是「excitement — emotion」的用法，與本句語境不同。",
-        "excite-mcq-11": "「對某事感到興奮／期待」是「excited about」的用法，與本句語境不同。",
-        "excite-mcq-15": "「令人感到刺激、熱鬧的活動或狀態」是「excitement — stimulation」的用法，與本句語境不同。",
-        "excite-mcq-10": "「本人感受到興奮、期待或情緒激動的」是「excited」的用法，與本句語境不同。"
+        "excite-mcq-13": "本句的「exciting opportunity」指「能使人產生興奮、熱情或期待的；令人興奮的」。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-13"
     },
@@ -1263,11 +1151,8 @@ export default {
       "masked": "The match had an ____.",
       "options": [
         "excite-mcq-13",
-        "excite-mcq-12",
-        "excite-mcq-14",
-        "excite-mcq-11",
-        "excite-mcq-15",
-        "excite-mcq-10"
+        "excite-mcq-03",
+        "excite-mcq-06"
       ],
       "explanation": "本句的「exciting finish」指「能使人產生興奮、熱情或期待的；令人興奮的」。",
       "sentenceIndex": 27,
@@ -1276,12 +1161,9 @@ export default {
         "exciting finish"
       ],
       "optionReasons": {
-        "excite-mcq-13": "本句指「能使人產生興奮、熱情或期待的；令人興奮的」。",
-        "excite-mcq-12": "「很期待做某事」是「excited to do」的用法，與本句語境不同。",
-        "excite-mcq-14": "「興奮、期待的感覺」是「excitement — emotion」的用法，與本句語境不同。",
-        "excite-mcq-11": "「對某事感到興奮／期待」是「excited about」的用法，與本句語境不同。",
-        "excite-mcq-15": "「令人感到刺激、熱鬧的活動或狀態」是「excitement — stimulation」的用法，與本句語境不同。",
-        "excite-mcq-10": "「本人感受到興奮、期待或情緒激動的」是「excited」的用法，與本句語境不同。"
+        "excite-mcq-13": "本句的「exciting finish」指「能使人產生興奮、熱情或期待的；令人興奮的」。",
+        "excite-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-13"
     },
@@ -1293,11 +1175,9 @@ export default {
       "masked": "The dog is very ____ around visitors.",
       "options": [
         "excite-mcq-16",
-        "excite-mcq-15",
-        "excite-mcq-17",
-        "excite-mcq-14",
-        "excite-mcq-18",
-        "excite-mcq-13"
+        "excite-mcq-12",
+        "excite-mcq-07",
+        "excite-mcq-09"
       ],
       "explanation": "本句的「excitable」指「很容易變得興奮、激動或情緒高漲的」。",
       "sentenceIndex": 28,
@@ -1306,12 +1186,10 @@ export default {
         "excitable"
       ],
       "optionReasons": {
-        "excite-mcq-16": "本句指「很容易變得興奮、激動或情緒高漲的」。",
-        "excite-mcq-15": "「令人感到刺激、熱鬧的活動或狀態」是「excitement — stimulation」的用法，與本句語境不同。",
-        "excite-mcq-17": "「容易受到刺激並產生反應的性質；易興奮性」是「excitability」的用法，與本句語境不同。",
-        "excite-mcq-14": "「興奮、期待的感覺」是「excitement — emotion」的用法，與本句語境不同。",
-        "excite-mcq-18": "「科學中的激發作用；工程中的勵磁／激磁」是「excitation」的用法，與本句語境不同。",
-        "excite-mcq-13": "「能使人產生興奮、熱情或期待的；令人興奮的」是「exciting」的用法，與本句語境不同。"
+        "excite-mcq-16": "本句的「excitable」指「很容易變得興奮、激動或情緒高漲的」。",
+        "excite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-16"
     },
@@ -1323,11 +1201,9 @@ export default {
       "masked": "He has an ____.",
       "options": [
         "excite-mcq-16",
-        "excite-mcq-15",
-        "excite-mcq-17",
-        "excite-mcq-14",
-        "excite-mcq-18",
-        "excite-mcq-13"
+        "excite-mcq-02",
+        "excite-mcq-06",
+        "excite-mcq-09"
       ],
       "explanation": "本句的「excitable personality」指「很容易變得興奮、激動或情緒高漲的」。",
       "sentenceIndex": 29,
@@ -1336,12 +1212,10 @@ export default {
         "excitable personality"
       ],
       "optionReasons": {
-        "excite-mcq-16": "本句指「很容易變得興奮、激動或情緒高漲的」。",
-        "excite-mcq-15": "「令人感到刺激、熱鬧的活動或狀態」是「excitement — stimulation」的用法，與本句語境不同。",
-        "excite-mcq-17": "「容易受到刺激並產生反應的性質；易興奮性」是「excitability」的用法，與本句語境不同。",
-        "excite-mcq-14": "「興奮、期待的感覺」是「excitement — emotion」的用法，與本句語境不同。",
-        "excite-mcq-18": "「科學中的激發作用；工程中的勵磁／激磁」是「excitation」的用法，與本句語境不同。",
-        "excite-mcq-13": "「能使人產生興奮、熱情或期待的；令人興奮的」是「exciting」的用法，與本句語境不同。"
+        "excite-mcq-16": "本句的「excitable personality」指「很容易變得興奮、激動或情緒高漲的」。",
+        "excite-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-16"
     },
@@ -1353,11 +1227,9 @@ export default {
       "masked": "Stress can increase emotional ____.",
       "options": [
         "excite-mcq-17",
-        "excite-mcq-16",
-        "excite-mcq-18",
-        "excite-mcq-15",
-        "excite-mcq-19",
-        "excite-mcq-14"
+        "excite-mcq-12",
+        "excite-mcq-06",
+        "excite-mcq-09"
       ],
       "explanation": "本句的「excitability」指「容易受到刺激並產生反應的性質；易興奮性」。",
       "sentenceIndex": 30,
@@ -1366,12 +1238,10 @@ export default {
         "excitability"
       ],
       "optionReasons": {
-        "excite-mcq-17": "本句指「容易受到刺激並產生反應的性質；易興奮性」。",
-        "excite-mcq-16": "「很容易變得興奮、激動或情緒高漲的」是「excitable」的用法，與本句語境不同。",
-        "excite-mcq-18": "「科學中的激發作用；工程中的勵磁／激磁」是「excitation」的用法，與本句語境不同。",
-        "excite-mcq-15": "「令人感到刺激、熱鬧的活動或狀態」是「excitement — stimulation」的用法，與本句語境不同。",
-        "excite-mcq-19": "「開始變得興奮／期待」是「get excited」的用法，與本句語境不同。",
-        "excite-mcq-14": "「興奮、期待的感覺」是「excitement — emotion」的用法，與本句語境不同。"
+        "excite-mcq-17": "本句的「excitability」指「容易受到刺激並產生反應的性質；易興奮性」。",
+        "excite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-17"
     },
@@ -1383,11 +1253,9 @@ export default {
       "masked": "Nerve cells have electrical ____.",
       "options": [
         "excite-mcq-17",
-        "excite-mcq-16",
-        "excite-mcq-18",
-        "excite-mcq-15",
-        "excite-mcq-19",
-        "excite-mcq-14"
+        "excite-mcq-12",
+        "excite-mcq-06",
+        "excite-mcq-09"
       ],
       "explanation": "本句的「excitability」指「容易受到刺激並產生反應的性質；易興奮性」。",
       "sentenceIndex": 31,
@@ -1396,12 +1264,10 @@ export default {
         "excitability"
       ],
       "optionReasons": {
-        "excite-mcq-17": "本句指「容易受到刺激並產生反應的性質；易興奮性」。",
-        "excite-mcq-16": "「很容易變得興奮、激動或情緒高漲的」是「excitable」的用法，與本句語境不同。",
-        "excite-mcq-18": "「科學中的激發作用；工程中的勵磁／激磁」是「excitation」的用法，與本句語境不同。",
-        "excite-mcq-15": "「令人感到刺激、熱鬧的活動或狀態」是「excitement — stimulation」的用法，與本句語境不同。",
-        "excite-mcq-19": "「開始變得興奮／期待」是「get excited」的用法，與本句語境不同。",
-        "excite-mcq-14": "「興奮、期待的感覺」是「excitement — emotion」的用法，與本句語境不同。"
+        "excite-mcq-17": "本句的「excitability」指「容易受到刺激並產生反應的性質；易興奮性」。",
+        "excite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-17"
     },
@@ -1413,11 +1279,9 @@ export default {
       "masked": "The children ____ when they saw the presents.",
       "options": [
         "excite-mcq-19",
-        "excite-mcq-18",
-        "excite-mcq-20",
-        "excite-mcq-17",
-        "excite-mcq-21",
-        "excite-mcq-16"
+        "excite-mcq-07",
+        "excite-mcq-05",
+        "excite-mcq-09"
       ],
       "explanation": "本句的「got excited」指「開始變得興奮／期待」。",
       "sentenceIndex": 32,
@@ -1426,12 +1290,10 @@ export default {
         "got excited"
       ],
       "optionReasons": {
-        "excite-mcq-19": "本句指「開始變得興奮／期待」。",
-        "excite-mcq-18": "「科學中的激發作用；工程中的勵磁／激磁」是「excitation」的用法，與本句語境不同。",
-        "excite-mcq-20": "「excited = 感到興奮的；exciting = 令人興奮的」是「excited vs exciting」的用法，與本句語境不同。",
-        "excite-mcq-17": "「容易受到刺激並產生反應的性質；易興奮性」是「excitability」的用法，與本句語境不同。",
-        "excite-mcq-21": "「令人興奮的；令人期待的；刺激的」是「Passage meaning」的用法，與本句語境不同。",
-        "excite-mcq-16": "「很容易變得興奮、激動或情緒高漲的」是「excitable」的用法，與本句語境不同。"
+        "excite-mcq-19": "本句的「got excited」指「開始變得興奮／期待」。",
+        "excite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-19"
     },
@@ -1443,11 +1305,9 @@ export default {
       "masked": "Don’t ____ yet.",
       "options": [
         "excite-mcq-19",
-        "excite-mcq-18",
-        "excite-mcq-20",
-        "excite-mcq-17",
-        "excite-mcq-21",
-        "excite-mcq-16"
+        "excite-mcq-09",
+        "excite-mcq-06",
+        "excite-mcq-07"
       ],
       "explanation": "本句的「get too excited」指「開始變得興奮／期待」。",
       "sentenceIndex": 33,
@@ -1456,12 +1316,10 @@ export default {
         "get too excited"
       ],
       "optionReasons": {
-        "excite-mcq-19": "本句指「開始變得興奮／期待」。",
-        "excite-mcq-18": "「科學中的激發作用；工程中的勵磁／激磁」是「excitation」的用法，與本句語境不同。",
-        "excite-mcq-20": "「excited = 感到興奮的；exciting = 令人興奮的」是「excited vs exciting」的用法，與本句語境不同。",
-        "excite-mcq-17": "「容易受到刺激並產生反應的性質；易興奮性」是「excitability」的用法，與本句語境不同。",
-        "excite-mcq-21": "「令人興奮的；令人期待的；刺激的」是「Passage meaning」的用法，與本句語境不同。",
-        "excite-mcq-16": "「很容易變得興奮、激動或情緒高漲的」是「excitable」的用法，與本句語境不同。"
+        "excite-mcq-19": "本句的「get too excited」指「開始變得興奮／期待」。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-19"
     },
@@ -1473,11 +1331,9 @@ export default {
       "masked": "I’m ____.",
       "options": [
         "excite-mcq-11",
-        "excite-mcq-10",
-        "excite-mcq-12",
+        "excite-mcq-06",
         "excite-mcq-09",
-        "excite-mcq-13",
-        "excite-mcq-08"
+        "excite-mcq-07"
       ],
       "explanation": "本句的「excited about the future」指「對某事感到興奮／期待」。",
       "sentenceIndex": 34,
@@ -1486,12 +1342,10 @@ export default {
         "excited about the future"
       ],
       "optionReasons": {
-        "excite-mcq-11": "本句指「對某事感到興奮／期待」。",
-        "excite-mcq-10": "「本人感受到興奮、期待或情緒激動的」是「excited」的用法，與本句語境不同。",
-        "excite-mcq-12": "「很期待做某事」是「excited to do」的用法，與本句語境不同。",
-        "excite-mcq-09": "「激起騷動、憤怒或不安」是「excite — provoke/agitate」的用法，與本句語境不同。",
-        "excite-mcq-13": "「能使人產生興奮、熱情或期待的；令人興奮的」是「exciting」的用法，與本句語境不同。",
-        "excite-mcq-08": "「引起性興奮」是「excite — sexual」的用法，與本句語境不同。"
+        "excite-mcq-11": "本句的「excited about the future」指「對某事感到興奮／期待」。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-11"
     },
@@ -1503,11 +1357,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "excite-mcq-11",
-        "excite-mcq-10",
-        "excite-mcq-12",
-        "excite-mcq-09",
-        "excite-mcq-13",
-        "excite-mcq-08"
+        "excite-mcq-07",
+        "excite-mcq-06",
+        "excite-mcq-09"
       ],
       "explanation": "本句的「excited about the idea」指「對某事感到興奮／期待」。",
       "sentenceIndex": 35,
@@ -1516,12 +1368,10 @@ export default {
         "excited about the idea"
       ],
       "optionReasons": {
-        "excite-mcq-11": "本句指「對某事感到興奮／期待」。",
-        "excite-mcq-10": "「本人感受到興奮、期待或情緒激動的」是「excited」的用法，與本句語境不同。",
-        "excite-mcq-12": "「很期待做某事」是「excited to do」的用法，與本句語境不同。",
-        "excite-mcq-09": "「激起騷動、憤怒或不安」是「excite — provoke/agitate」的用法，與本句語境不同。",
-        "excite-mcq-13": "「能使人產生興奮、熱情或期待的；令人興奮的」是「exciting」的用法，與本句語境不同。",
-        "excite-mcq-08": "「引起性興奮」是「excite — sexual」的用法，與本句語境不同。"
+        "excite-mcq-11": "本句的「excited about the idea」指「對某事感到興奮／期待」。",
+        "excite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-11"
     },
@@ -1533,11 +1383,9 @@ export default {
       "masked": "He is ____.",
       "options": [
         "excite-mcq-20",
-        "excite-mcq-19",
-        "excite-mcq-21",
-        "excite-mcq-18",
-        "excite-mcq-17",
-        "excite-mcq-16"
+        "excite-mcq-05",
+        "excite-mcq-03",
+        "excite-mcq-02"
       ],
       "explanation": "本句的「excited by new ideas」指「excited = 感到興奮的；exciting = 令人興奮的」。",
       "sentenceIndex": 36,
@@ -1546,12 +1394,10 @@ export default {
         "excited by new ideas"
       ],
       "optionReasons": {
-        "excite-mcq-20": "本句指「excited = 感到興奮的；exciting = 令人興奮的」。",
-        "excite-mcq-19": "「開始變得興奮／期待」是「get excited」的用法，與本句語境不同。",
-        "excite-mcq-21": "「令人興奮的；令人期待的；刺激的」是「Passage meaning」的用法，與本句語境不同。",
-        "excite-mcq-18": "「科學中的激發作用；工程中的勵磁／激磁」是「excitation」的用法，與本句語境不同。",
-        "excite-mcq-17": "「容易受到刺激並產生反應的性質；易興奮性」是「excitability」的用法，與本句語境不同。",
-        "excite-mcq-16": "「很容易變得興奮、激動或情緒高漲的」是「excitable」的用法，與本句語境不同。"
+        "excite-mcq-20": "本句的「excited by new ideas」指「excited = 感到興奮的；exciting = 令人興奮的」。",
+        "excite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-20"
     },
@@ -1563,11 +1409,9 @@ export default {
       "masked": "Scientists were ____.",
       "options": [
         "excite-mcq-20",
-        "excite-mcq-19",
-        "excite-mcq-21",
-        "excite-mcq-18",
-        "excite-mcq-17",
-        "excite-mcq-16"
+        "excite-mcq-12",
+        "excite-mcq-09",
+        "excite-mcq-06"
       ],
       "explanation": "本句的「excited by the discovery」指「excited = 感到興奮的；exciting = 令人興奮的」。",
       "sentenceIndex": 37,
@@ -1576,12 +1420,10 @@ export default {
         "excited by the discovery"
       ],
       "optionReasons": {
-        "excite-mcq-20": "本句指「excited = 感到興奮的；exciting = 令人興奮的」。",
-        "excite-mcq-19": "「開始變得興奮／期待」是「get excited」的用法，與本句語境不同。",
-        "excite-mcq-21": "「令人興奮的；令人期待的；刺激的」是「Passage meaning」的用法，與本句語境不同。",
-        "excite-mcq-18": "「科學中的激發作用；工程中的勵磁／激磁」是「excitation」的用法，與本句語境不同。",
-        "excite-mcq-17": "「容易受到刺激並產生反應的性質；易興奮性」是「excitability」的用法，與本句語境不同。",
-        "excite-mcq-16": "「很容易變得興奮、激動或情緒高漲的」是「excitable」的用法，與本句語境不同。"
+        "excite-mcq-20": "本句的「excited by the discovery」指「excited = 感到興奮的；exciting = 令人興奮的」。",
+        "excite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "excite-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excite-mcq-20"
     }
@@ -1593,5 +1435,7 @@ export default {
     "sha256": "f2cbef52ea8a639ed06bff104417a6905179b540555ef9ac82e4dad87cb01c18",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

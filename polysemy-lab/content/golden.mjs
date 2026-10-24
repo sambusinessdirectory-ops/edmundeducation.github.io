@@ -242,11 +242,8 @@ export default {
       "masked": "The bread had a ____ crust.",
       "options": [
         "golden-mcq-01",
-        "golden-mcq-02",
-        "golden-mcq-03",
-        "golden-mcq-04",
         "golden-mcq-05",
-        "golden-mcq-06"
+        "golden-mcq-08"
       ],
       "explanation": "本句的「golden」指「顏色像黃金般偏黃、溫暖而明亮的」。",
       "sentenceIndex": 0,
@@ -255,12 +252,9 @@ export default {
         "golden"
       ],
       "optionReasons": {
-        "golden-mcq-01": "本句指「顏色像黃金般偏黃、溫暖而明亮的」。",
-        "golden-mcq-02": "「外觀看起來像黃金或呈金色的」與本句語境不同。",
-        "golden-mcq-03": "「非常有利、珍貴、難得而值得把握的」與本句語境不同。",
-        "golden-mcq-04": "「特別有利而難得、值得把握的機會」與本句語境不同。",
-        "golden-mcq-05": "「某領域最繁榮、最成功或最有創造力的時期」與本句語境不同。",
-        "golden-mcq-06": "「美好／成功的歲月；亦可委婉指退休晚年」與本句語境不同。"
+        "golden-mcq-01": "本句的「golden」指「顏色像黃金般偏黃、溫暖而明亮的」。",
+        "golden-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-01"
     },
@@ -272,11 +266,8 @@ export default {
       "masked": "The evening light turned the buildings ____.",
       "options": [
         "golden-mcq-01",
-        "golden-mcq-02",
-        "golden-mcq-03",
-        "golden-mcq-04",
-        "golden-mcq-05",
-        "golden-mcq-06"
+        "golden-mcq-08",
+        "golden-mcq-05"
       ],
       "explanation": "本句的「golden」指「顏色像黃金般偏黃、溫暖而明亮的」。",
       "sentenceIndex": 1,
@@ -285,12 +276,9 @@ export default {
         "golden"
       ],
       "optionReasons": {
-        "golden-mcq-01": "本句指「顏色像黃金般偏黃、溫暖而明亮的」。",
-        "golden-mcq-02": "「外觀看起來像黃金或呈金色的」與本句語境不同。",
-        "golden-mcq-03": "「非常有利、珍貴、難得而值得把握的」與本句語境不同。",
-        "golden-mcq-04": "「特別有利而難得、值得把握的機會」與本句語境不同。",
-        "golden-mcq-05": "「某領域最繁榮、最成功或最有創造力的時期」與本句語境不同。",
-        "golden-mcq-06": "「美好／成功的歲月；亦可委婉指退休晚年」與本句語境不同。"
+        "golden-mcq-01": "本句的「golden」指「顏色像黃金般偏黃、溫暖而明亮的」。",
+        "golden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-01"
     },
@@ -302,11 +290,8 @@ export default {
       "masked": "She wore a ____ bracelet.",
       "options": [
         "golden-mcq-02",
-        "golden-mcq-01",
-        "golden-mcq-03",
-        "golden-mcq-04",
         "golden-mcq-05",
-        "golden-mcq-06"
+        "golden-mcq-03"
       ],
       "explanation": "本句的「golden」指「外觀看起來像黃金或呈金色的」。",
       "sentenceIndex": 2,
@@ -315,12 +300,9 @@ export default {
         "golden"
       ],
       "optionReasons": {
-        "golden-mcq-02": "本句指「外觀看起來像黃金或呈金色的」。",
-        "golden-mcq-01": "「顏色像黃金般偏黃、溫暖而明亮的」與本句語境不同。",
-        "golden-mcq-03": "「非常有利、珍貴、難得而值得把握的」與本句語境不同。",
-        "golden-mcq-04": "「特別有利而難得、值得把握的機會」與本句語境不同。",
-        "golden-mcq-05": "「某領域最繁榮、最成功或最有創造力的時期」與本句語境不同。",
-        "golden-mcq-06": "「美好／成功的歲月；亦可委婉指退休晚年」與本句語境不同。"
+        "golden-mcq-02": "本句的「golden」指「外觀看起來像黃金或呈金色的」。",
+        "golden-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-02"
     },
@@ -332,11 +314,8 @@ export default {
       "masked": "The statue has a ____ surface.",
       "options": [
         "golden-mcq-02",
-        "golden-mcq-01",
-        "golden-mcq-03",
-        "golden-mcq-04",
         "golden-mcq-05",
-        "golden-mcq-06"
+        "golden-mcq-04"
       ],
       "explanation": "本句的「golden」指「外觀看起來像黃金或呈金色的」。",
       "sentenceIndex": 3,
@@ -345,12 +324,9 @@ export default {
         "golden"
       ],
       "optionReasons": {
-        "golden-mcq-02": "本句指「外觀看起來像黃金或呈金色的」。",
-        "golden-mcq-01": "「顏色像黃金般偏黃、溫暖而明亮的」與本句語境不同。",
-        "golden-mcq-03": "「非常有利、珍貴、難得而值得把握的」與本句語境不同。",
-        "golden-mcq-04": "「特別有利而難得、值得把握的機會」與本句語境不同。",
-        "golden-mcq-05": "「某領域最繁榮、最成功或最有創造力的時期」與本句語境不同。",
-        "golden-mcq-06": "「美好／成功的歲月；亦可委婉指退休晚年」與本句語境不同。"
+        "golden-mcq-02": "本句的「golden」指「外觀看起來像黃金或呈金色的」。",
+        "golden-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-02"
     },
@@ -362,11 +338,8 @@ export default {
       "masked": "This is a ____ for the business.",
       "options": [
         "golden-mcq-03",
-        "golden-mcq-02",
-        "golden-mcq-04",
-        "golden-mcq-01",
-        "golden-mcq-05",
-        "golden-mcq-06"
+        "golden-mcq-10",
+        "golden-mcq-05"
       ],
       "explanation": "本句的「golden opportunity」指「非常有利、珍貴、難得而值得把握的」。",
       "sentenceIndex": 4,
@@ -375,12 +348,9 @@ export default {
         "golden opportunity"
       ],
       "optionReasons": {
-        "golden-mcq-03": "本句指「非常有利、珍貴、難得而值得把握的」。",
-        "golden-mcq-02": "「外觀看起來像黃金或呈金色的」與本句語境不同。",
-        "golden-mcq-04": "「特別有利而難得、值得把握的機會」與本句語境不同。",
-        "golden-mcq-01": "「顏色像黃金般偏黃、溫暖而明亮的」與本句語境不同。",
-        "golden-mcq-05": "「某領域最繁榮、最成功或最有創造力的時期」與本句語境不同。",
-        "golden-mcq-06": "「美好／成功的歲月；亦可委婉指退休晚年」與本句語境不同。"
+        "golden-mcq-03": "本句的「golden opportunity」指「非常有利、珍貴、難得而值得把握的」。",
+        "golden-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-03"
     },
@@ -392,11 +362,8 @@ export default {
       "masked": "She was given a ____ chance to expand.",
       "options": [
         "golden-mcq-03",
-        "golden-mcq-02",
-        "golden-mcq-04",
-        "golden-mcq-01",
-        "golden-mcq-05",
-        "golden-mcq-06"
+        "golden-mcq-06",
+        "golden-mcq-02"
       ],
       "explanation": "本句的「golden」指「非常有利、珍貴、難得而值得把握的」。",
       "sentenceIndex": 5,
@@ -405,12 +372,9 @@ export default {
         "golden"
       ],
       "optionReasons": {
-        "golden-mcq-03": "本句指「非常有利、珍貴、難得而值得把握的」。",
-        "golden-mcq-02": "「外觀看起來像黃金或呈金色的」與本句語境不同。",
-        "golden-mcq-04": "「特別有利而難得、值得把握的機會」與本句語境不同。",
-        "golden-mcq-01": "「顏色像黃金般偏黃、溫暖而明亮的」與本句語境不同。",
-        "golden-mcq-05": "「某領域最繁榮、最成功或最有創造力的時期」與本句語境不同。",
-        "golden-mcq-06": "「美好／成功的歲月；亦可委婉指退休晚年」與本句語境不同。"
+        "golden-mcq-03": "本句的「golden」指「非常有利、珍貴、難得而值得把握的」。",
+        "golden-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-03"
     },
@@ -422,11 +386,8 @@ export default {
       "masked": "The empty shop next door was a ____ to expand.",
       "options": [
         "golden-mcq-04",
-        "golden-mcq-03",
-        "golden-mcq-05",
-        "golden-mcq-02",
-        "golden-mcq-06",
-        "golden-mcq-01"
+        "golden-mcq-10",
+        "golden-mcq-05"
       ],
       "explanation": "本句的「golden opportunity」指「特別有利而難得、值得把握的機會」。",
       "sentenceIndex": 6,
@@ -435,12 +396,9 @@ export default {
         "golden opportunity"
       ],
       "optionReasons": {
-        "golden-mcq-04": "本句指「特別有利而難得、值得把握的機會」。",
-        "golden-mcq-03": "「非常有利、珍貴、難得而值得把握的」與本句語境不同。",
-        "golden-mcq-05": "「某領域最繁榮、最成功或最有創造力的時期」與本句語境不同。",
-        "golden-mcq-02": "「外觀看起來像黃金或呈金色的」與本句語境不同。",
-        "golden-mcq-06": "「美好／成功的歲月；亦可委婉指退休晚年」與本句語境不同。",
-        "golden-mcq-01": "「顏色像黃金般偏黃、溫暖而明亮的」與本句語境不同。"
+        "golden-mcq-04": "本句的「golden opportunity」指「特別有利而難得、值得把握的機會」。",
+        "golden-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-04"
     },
@@ -452,11 +410,8 @@ export default {
       "masked": "Don’t waste this ____ opportunity.",
       "options": [
         "golden-mcq-04",
-        "golden-mcq-03",
         "golden-mcq-05",
-        "golden-mcq-02",
-        "golden-mcq-06",
-        "golden-mcq-01"
+        "golden-mcq-10"
       ],
       "explanation": "本句的「golden」指「特別有利而難得、值得把握的機會」。",
       "sentenceIndex": 7,
@@ -465,12 +420,9 @@ export default {
         "golden"
       ],
       "optionReasons": {
-        "golden-mcq-04": "本句指「特別有利而難得、值得把握的機會」。",
-        "golden-mcq-03": "「非常有利、珍貴、難得而值得把握的」與本句語境不同。",
-        "golden-mcq-05": "「某領域最繁榮、最成功或最有創造力的時期」與本句語境不同。",
-        "golden-mcq-02": "「外觀看起來像黃金或呈金色的」與本句語境不同。",
-        "golden-mcq-06": "「美好／成功的歲月；亦可委婉指退休晚年」與本句語境不同。",
-        "golden-mcq-01": "「顏色像黃金般偏黃、溫暖而明亮的」與本句語境不同。"
+        "golden-mcq-04": "本句的「golden」指「特別有利而難得、值得把握的機會」。",
+        "golden-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-04"
     },
@@ -482,10 +434,7 @@ export default {
       "masked": "The 1990s were a ____ for the industry.",
       "options": [
         "golden-mcq-05",
-        "golden-mcq-04",
-        "golden-mcq-06",
-        "golden-mcq-03",
-        "golden-mcq-07",
+        "golden-mcq-11",
         "golden-mcq-02"
       ],
       "explanation": "本句的「golden age」指「某領域最繁榮、最成功或最有創造力的時期」。",
@@ -495,12 +444,9 @@ export default {
         "golden age"
       ],
       "optionReasons": {
-        "golden-mcq-05": "本句指「某領域最繁榮、最成功或最有創造力的時期」。",
-        "golden-mcq-04": "「特別有利而難得、值得把握的機會」與本句語境不同。",
-        "golden-mcq-06": "「美好／成功的歲月；亦可委婉指退休晚年」與本句語境不同。",
-        "golden-mcq-03": "「非常有利、珍貴、難得而值得把握的」與本句語境不同。",
-        "golden-mcq-07": "「最重要、最值得遵守的基本原則」與本句語境不同。",
-        "golden-mcq-02": "「外觀看起來像黃金或呈金色的」與本句語境不同。"
+        "golden-mcq-05": "本句的「golden age」指「某領域最繁榮、最成功或最有創造力的時期」。",
+        "golden-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-05"
     },
@@ -512,11 +458,8 @@ export default {
       "masked": "The museum explores the ____ age of local cinema.",
       "options": [
         "golden-mcq-05",
-        "golden-mcq-04",
-        "golden-mcq-06",
-        "golden-mcq-03",
-        "golden-mcq-07",
-        "golden-mcq-02"
+        "golden-mcq-10",
+        "golden-mcq-08"
       ],
       "explanation": "本句的「golden」指「某領域最繁榮、最成功或最有創造力的時期」。",
       "sentenceIndex": 9,
@@ -525,12 +468,9 @@ export default {
         "golden"
       ],
       "optionReasons": {
-        "golden-mcq-05": "本句指「某領域最繁榮、最成功或最有創造力的時期」。",
-        "golden-mcq-04": "「特別有利而難得、值得把握的機會」與本句語境不同。",
-        "golden-mcq-06": "「美好／成功的歲月；亦可委婉指退休晚年」與本句語境不同。",
-        "golden-mcq-03": "「非常有利、珍貴、難得而值得把握的」與本句語境不同。",
-        "golden-mcq-07": "「最重要、最值得遵守的基本原則」與本句語境不同。",
-        "golden-mcq-02": "「外觀看起來像黃金或呈金色的」與本句語境不同。"
+        "golden-mcq-05": "本句的「golden」指「某領域最繁榮、最成功或最有創造力的時期」。",
+        "golden-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-05"
     },
@@ -542,11 +482,8 @@ export default {
       "masked": "He looked back on the ____ of the business.",
       "options": [
         "golden-mcq-06",
-        "golden-mcq-05",
-        "golden-mcq-07",
-        "golden-mcq-04",
-        "golden-mcq-08",
-        "golden-mcq-03"
+        "golden-mcq-03",
+        "golden-mcq-01"
       ],
       "explanation": "本句的「golden years」指「美好／成功的歲月；亦可委婉指退休晚年」。",
       "sentenceIndex": 10,
@@ -555,12 +492,9 @@ export default {
         "golden years"
       ],
       "optionReasons": {
-        "golden-mcq-06": "本句指「美好／成功的歲月；亦可委婉指退休晚年」。",
-        "golden-mcq-05": "「某領域最繁榮、最成功或最有創造力的時期」與本句語境不同。",
-        "golden-mcq-07": "「最重要、最值得遵守的基本原則」與本句語境不同。",
-        "golden-mcq-04": "「特別有利而難得、值得把握的機會」與本句語境不同。",
-        "golden-mcq-08": "「美好、珍貴、值得回味或珍惜的」與本句語境不同。",
-        "golden-mcq-03": "「非常有利、珍貴、難得而值得把握的」與本句語境不同。"
+        "golden-mcq-06": "本句的「golden years」指「美好／成功的歲月；亦可委婉指退休晚年」。",
+        "golden-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-06"
     },
@@ -572,11 +506,8 @@ export default {
       "masked": "They moved to the coast for their ____ years.",
       "options": [
         "golden-mcq-06",
-        "golden-mcq-05",
-        "golden-mcq-07",
-        "golden-mcq-04",
-        "golden-mcq-08",
-        "golden-mcq-03"
+        "golden-mcq-11",
+        "golden-mcq-01"
       ],
       "explanation": "本句的「golden」指「美好／成功的歲月；亦可委婉指退休晚年」。",
       "sentenceIndex": 11,
@@ -585,12 +516,9 @@ export default {
         "golden"
       ],
       "optionReasons": {
-        "golden-mcq-06": "本句指「美好／成功的歲月；亦可委婉指退休晚年」。",
-        "golden-mcq-05": "「某領域最繁榮、最成功或最有創造力的時期」與本句語境不同。",
-        "golden-mcq-07": "「最重要、最值得遵守的基本原則」與本句語境不同。",
-        "golden-mcq-04": "「特別有利而難得、值得把握的機會」與本句語境不同。",
-        "golden-mcq-08": "「美好、珍貴、值得回味或珍惜的」與本句語境不同。",
-        "golden-mcq-03": "「非常有利、珍貴、難得而值得把握的」與本句語境不同。"
+        "golden-mcq-06": "本句的「golden」指「美好／成功的歲月；亦可委婉指退休晚年」。",
+        "golden-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-06"
     },
@@ -602,11 +530,8 @@ export default {
       "masked": "The ____ is to keep the product simple.",
       "options": [
         "golden-mcq-07",
-        "golden-mcq-06",
-        "golden-mcq-08",
-        "golden-mcq-05",
-        "golden-mcq-09",
-        "golden-mcq-04"
+        "golden-mcq-10",
+        "golden-mcq-06"
       ],
       "explanation": "本句的「golden rule」指「最重要、最值得遵守的基本原則」。",
       "sentenceIndex": 12,
@@ -615,12 +540,9 @@ export default {
         "golden rule"
       ],
       "optionReasons": {
-        "golden-mcq-07": "本句指「最重要、最值得遵守的基本原則」。",
-        "golden-mcq-06": "「美好／成功的歲月；亦可委婉指退休晚年」與本句語境不同。",
-        "golden-mcq-08": "「美好、珍貴、值得回味或珍惜的」與本句語境不同。",
-        "golden-mcq-05": "「某領域最繁榮、最成功或最有創造力的時期」與本句語境不同。",
-        "golden-mcq-09": "「黃金這種貴金屬」與本句語境不同。",
-        "golden-mcq-04": "「特別有利而難得、值得把握的機會」與本句語境不同。"
+        "golden-mcq-07": "本句的「golden rule」指「最重要、最值得遵守的基本原則」。",
+        "golden-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-07"
     },
@@ -632,11 +554,8 @@ export default {
       "masked": "The ____ rule of customer service is to listen.",
       "options": [
         "golden-mcq-07",
-        "golden-mcq-06",
-        "golden-mcq-08",
-        "golden-mcq-05",
-        "golden-mcq-09",
-        "golden-mcq-04"
+        "golden-mcq-10",
+        "golden-mcq-06"
       ],
       "explanation": "本句的「golden」指「最重要、最值得遵守的基本原則」。",
       "sentenceIndex": 13,
@@ -645,12 +564,9 @@ export default {
         "golden"
       ],
       "optionReasons": {
-        "golden-mcq-07": "本句指「最重要、最值得遵守的基本原則」。",
-        "golden-mcq-06": "「美好／成功的歲月；亦可委婉指退休晚年」與本句語境不同。",
-        "golden-mcq-08": "「美好、珍貴、值得回味或珍惜的」與本句語境不同。",
-        "golden-mcq-05": "「某領域最繁榮、最成功或最有創造力的時期」與本句語境不同。",
-        "golden-mcq-09": "「黃金這種貴金屬」與本句語境不同。",
-        "golden-mcq-04": "「特別有利而難得、值得把握的機會」與本句語境不同。"
+        "golden-mcq-07": "本句的「golden」指「最重要、最值得遵守的基本原則」。",
+        "golden-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-07"
     },
@@ -662,11 +578,8 @@ export default {
       "masked": "She has many ____ of the old bakery.",
       "options": [
         "golden-mcq-08",
-        "golden-mcq-07",
-        "golden-mcq-09",
-        "golden-mcq-06",
-        "golden-mcq-10",
-        "golden-mcq-05"
+        "golden-mcq-05",
+        "golden-mcq-02"
       ],
       "explanation": "本句的「golden memories」指「美好、珍貴、值得回味或珍惜的」。",
       "sentenceIndex": 16,
@@ -675,12 +588,9 @@ export default {
         "golden memories"
       ],
       "optionReasons": {
-        "golden-mcq-08": "本句指「美好、珍貴、值得回味或珍惜的」。",
-        "golden-mcq-07": "「最重要、最值得遵守的基本原則」與本句語境不同。",
-        "golden-mcq-09": "「黃金這種貴金屬」與本句語境不同。",
-        "golden-mcq-06": "「美好／成功的歲月；亦可委婉指退休晚年」與本句語境不同。",
-        "golden-mcq-10": "「金色」與本句語境不同。",
-        "golden-mcq-05": "「某領域最繁榮、最成功或最有創造力的時期」與本句語境不同。"
+        "golden-mcq-08": "本句的「golden memories」指「美好、珍貴、值得回味或珍惜的」。",
+        "golden-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-08"
     },
@@ -692,9 +602,6 @@ export default {
       "masked": "Childhood gave him a few ____ moments.",
       "options": [
         "golden-mcq-08",
-        "golden-mcq-07",
-        "golden-mcq-09",
-        "golden-mcq-06",
         "golden-mcq-10",
         "golden-mcq-05"
       ],
@@ -705,12 +612,9 @@ export default {
         "golden"
       ],
       "optionReasons": {
-        "golden-mcq-08": "本句指「美好、珍貴、值得回味或珍惜的」。",
-        "golden-mcq-07": "「最重要、最值得遵守的基本原則」與本句語境不同。",
-        "golden-mcq-09": "「黃金這種貴金屬」與本句語境不同。",
-        "golden-mcq-06": "「美好／成功的歲月；亦可委婉指退休晚年」與本句語境不同。",
-        "golden-mcq-10": "「金色」與本句語境不同。",
-        "golden-mcq-05": "「某領域最繁榮、最成功或最有創造力的時期」與本句語境不同。"
+        "golden-mcq-08": "本句的「golden」指「美好、珍貴、值得回味或珍惜的」。",
+        "golden-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-08"
     },
@@ -722,11 +626,8 @@ export default {
       "masked": "The ring is made of ____.",
       "options": [
         "golden-mcq-09",
-        "golden-mcq-08",
-        "golden-mcq-10",
-        "golden-mcq-07",
-        "golden-mcq-11",
-        "golden-mcq-06"
+        "golden-mcq-06",
+        "golden-mcq-04"
       ],
       "explanation": "本句的「gold」指「黃金這種貴金屬」。",
       "sentenceIndex": 20,
@@ -735,12 +636,9 @@ export default {
         "gold"
       ],
       "optionReasons": {
-        "golden-mcq-09": "本句指「黃金這種貴金屬」。",
-        "golden-mcq-08": "「美好、珍貴、值得回味或珍惜的」與本句語境不同。",
-        "golden-mcq-10": "「金色」與本句語境不同。",
-        "golden-mcq-07": "「最重要、最值得遵守的基本原則」與本句語境不同。",
-        "golden-mcq-11": "「非常珍貴、有用或值得重視的人／事物」與本句語境不同。",
-        "golden-mcq-06": "「美好／成功的歲月；亦可委婉指退休晚年」與本句語境不同。"
+        "golden-mcq-09": "本句的「gold」指「黃金這種貴金屬」。",
+        "golden-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-09"
     },
@@ -752,10 +650,7 @@ export default {
       "masked": "The logo is printed in black and ____.",
       "options": [
         "golden-mcq-10",
-        "golden-mcq-09",
         "golden-mcq-11",
-        "golden-mcq-08",
-        "golden-mcq-07",
         "golden-mcq-06"
       ],
       "explanation": "本句的「gold」指「金色」。",
@@ -765,12 +660,9 @@ export default {
         "gold"
       ],
       "optionReasons": {
-        "golden-mcq-10": "本句指「金色」。",
-        "golden-mcq-09": "「黃金這種貴金屬」與本句語境不同。",
-        "golden-mcq-11": "「非常珍貴、有用或值得重視的人／事物」與本句語境不同。",
-        "golden-mcq-08": "「美好、珍貴、值得回味或珍惜的」與本句語境不同。",
-        "golden-mcq-07": "「最重要、最值得遵守的基本原則」與本句語境不同。",
-        "golden-mcq-06": "「美好／成功的歲月；亦可委婉指退休晚年」與本句語境不同。"
+        "golden-mcq-10": "本句的「gold」指「金色」。",
+        "golden-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-10"
     },
@@ -782,11 +674,8 @@ export default {
       "masked": "For a small bakery, loyal customers are ____.",
       "options": [
         "golden-mcq-11",
-        "golden-mcq-10",
-        "golden-mcq-09",
-        "golden-mcq-08",
-        "golden-mcq-07",
-        "golden-mcq-06"
+        "golden-mcq-02",
+        "golden-mcq-05"
       ],
       "explanation": "本句的「gold」指「非常珍貴、有用或值得重視的人／事物」。",
       "sentenceIndex": 22,
@@ -795,12 +684,9 @@ export default {
         "gold"
       ],
       "optionReasons": {
-        "golden-mcq-11": "本句指「非常珍貴、有用或值得重視的人／事物」。",
-        "golden-mcq-10": "「金色」與本句語境不同。",
-        "golden-mcq-09": "「黃金這種貴金屬」與本句語境不同。",
-        "golden-mcq-08": "「美好、珍貴、值得回味或珍惜的」與本句語境不同。",
-        "golden-mcq-07": "「最重要、最值得遵守的基本原則」與本句語境不同。",
-        "golden-mcq-06": "「美好／成功的歲月；亦可委婉指退休晚年」與本句語境不同。"
+        "golden-mcq-11": "本句的「gold」指「非常珍貴、有用或值得重視的人／事物」。",
+        "golden-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "golden-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "golden-mcq-11"
     }
@@ -812,5 +698,7 @@ export default {
     "sha256": "d52d2d160111d4f60d169b119be938ee5d04d00cf372594e30b0ced9b85d3dc8",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -551,11 +551,9 @@ export default {
       "masked": "The project is still at an early ____.",
       "options": [
         "stage-mcq-01",
-        "stage-mcq-02",
-        "stage-mcq-03",
-        "stage-mcq-04",
-        "stage-mcq-05",
-        "stage-mcq-06"
+        "stage-mcq-23",
+        "stage-mcq-24",
+        "stage-mcq-13"
       ],
       "explanation": "本句的「stage」指「一個發展、程序或變化過程中的特定階段」。",
       "sentenceIndex": 2,
@@ -564,12 +562,10 @@ export default {
         "stage"
       ],
       "optionReasons": {
-        "stage-mcq-01": "本句指「一個發展、程序或變化過程中的特定階段」。",
-        "stage-mcq-02": "「人生中的某一時期／階段」與本句語境不同。",
-        "stage-mcq-03": "「在某一特定進展階段／時點」與本句語境不同。",
-        "stage-mcq-04": "「早期／後期／最後階段」與本句語境不同。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。"
+        "stage-mcq-01": "本句的「stage」指「一個發展、程序或變化過程中的特定階段」。",
+        "stage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-01"
     },
@@ -581,10 +577,8 @@ export default {
       "masked": "We are entering the final ____ of development.",
       "options": [
         "stage-mcq-01",
-        "stage-mcq-02",
-        "stage-mcq-03",
-        "stage-mcq-04",
-        "stage-mcq-05",
+        "stage-mcq-10",
+        "stage-mcq-22",
         "stage-mcq-06"
       ],
       "explanation": "本句的「stage」指「一個發展、程序或變化過程中的特定階段」。",
@@ -594,12 +588,10 @@ export default {
         "stage"
       ],
       "optionReasons": {
-        "stage-mcq-01": "本句指「一個發展、程序或變化過程中的特定階段」。",
-        "stage-mcq-02": "「人生中的某一時期／階段」與本句語境不同。",
-        "stage-mcq-03": "「在某一特定進展階段／時點」與本句語境不同。",
-        "stage-mcq-04": "「早期／後期／最後階段」與本句語境不同。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。"
+        "stage-mcq-01": "本句的「stage」指「一個發展、程序或變化過程中的特定階段」。",
+        "stage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-01"
     },
@@ -611,11 +603,9 @@ export default {
       "masked": "Parenthood is a major ____.",
       "options": [
         "stage-mcq-02",
-        "stage-mcq-01",
-        "stage-mcq-03",
-        "stage-mcq-04",
         "stage-mcq-05",
-        "stage-mcq-06"
+        "stage-mcq-22",
+        "stage-mcq-10"
       ],
       "explanation": "本句的「stage of life」指「人生中的某一時期／階段」。",
       "sentenceIndex": 4,
@@ -624,12 +614,10 @@ export default {
         "stage of life"
       ],
       "optionReasons": {
-        "stage-mcq-02": "本句指「人生中的某一時期／階段」。",
-        "stage-mcq-01": "「一個發展、程序或變化過程中的特定階段」與本句語境不同。",
-        "stage-mcq-03": "「在某一特定進展階段／時點」與本句語境不同。",
-        "stage-mcq-04": "「早期／後期／最後階段」與本句語境不同。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。"
+        "stage-mcq-02": "本句的「stage of life」指「人生中的某一時期／階段」。",
+        "stage-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-02"
     },
@@ -641,11 +629,9 @@ export default {
       "masked": "People face different challenges at different ____.",
       "options": [
         "stage-mcq-02",
-        "stage-mcq-01",
-        "stage-mcq-03",
-        "stage-mcq-04",
-        "stage-mcq-05",
-        "stage-mcq-06"
+        "stage-mcq-06",
+        "stage-mcq-11",
+        "stage-mcq-22"
       ],
       "explanation": "本句的「stages of life」指「人生中的某一時期／階段」。",
       "sentenceIndex": 5,
@@ -654,12 +640,10 @@ export default {
         "stages of life"
       ],
       "optionReasons": {
-        "stage-mcq-02": "本句指「人生中的某一時期／階段」。",
-        "stage-mcq-01": "「一個發展、程序或變化過程中的特定階段」與本句語境不同。",
-        "stage-mcq-03": "「在某一特定進展階段／時點」與本句語境不同。",
-        "stage-mcq-04": "「早期／後期／最後階段」與本句語境不同。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。"
+        "stage-mcq-02": "本句的「stages of life」指「人生中的某一時期／階段」。",
+        "stage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-02"
     },
@@ -671,11 +655,9 @@ export default {
       "masked": "At this ____, we need more information.",
       "options": [
         "stage-mcq-03",
-        "stage-mcq-02",
-        "stage-mcq-04",
-        "stage-mcq-01",
         "stage-mcq-05",
-        "stage-mcq-06"
+        "stage-mcq-13",
+        "stage-mcq-10"
       ],
       "explanation": "本句的「stage」指「在某一特定進展階段／時點」。",
       "sentenceIndex": 6,
@@ -684,12 +666,10 @@ export default {
         "stage"
       ],
       "optionReasons": {
-        "stage-mcq-03": "本句指「在某一特定進展階段／時點」。",
-        "stage-mcq-02": "「人生中的某一時期／階段」與本句語境不同。",
-        "stage-mcq-04": "「早期／後期／最後階段」與本句語境不同。",
-        "stage-mcq-01": "「一個發展、程序或變化過程中的特定階段」與本句語境不同。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。"
+        "stage-mcq-03": "本句的「stage」指「在某一特定進展階段／時點」。",
+        "stage-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-03"
     },
@@ -701,11 +681,9 @@ export default {
       "masked": "At that ____, I had not made a final decision.",
       "options": [
         "stage-mcq-03",
-        "stage-mcq-02",
-        "stage-mcq-04",
-        "stage-mcq-01",
-        "stage-mcq-05",
-        "stage-mcq-06"
+        "stage-mcq-11",
+        "stage-mcq-06",
+        "stage-mcq-13"
       ],
       "explanation": "本句的「stage」指「在某一特定進展階段／時點」。",
       "sentenceIndex": 7,
@@ -714,12 +692,10 @@ export default {
         "stage"
       ],
       "optionReasons": {
-        "stage-mcq-03": "本句指「在某一特定進展階段／時點」。",
-        "stage-mcq-02": "「人生中的某一時期／階段」與本句語境不同。",
-        "stage-mcq-04": "「早期／後期／最後階段」與本句語境不同。",
-        "stage-mcq-01": "「一個發展、程序或變化過程中的特定階段」與本句語境不同。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。"
+        "stage-mcq-03": "本句的「stage」指「在某一特定進展階段／時點」。",
+        "stage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-03"
     },
@@ -731,11 +707,9 @@ export default {
       "masked": "The idea is still at an ____.",
       "options": [
         "stage-mcq-04",
-        "stage-mcq-03",
-        "stage-mcq-05",
-        "stage-mcq-02",
-        "stage-mcq-06",
-        "stage-mcq-01"
+        "stage-mcq-24",
+        "stage-mcq-11",
+        "stage-mcq-10"
       ],
       "explanation": "本句的「early stage」指「早期／後期／最後階段」。",
       "sentenceIndex": 8,
@@ -744,12 +718,10 @@ export default {
         "early stage"
       ],
       "optionReasons": {
-        "stage-mcq-04": "本句指「早期／後期／最後階段」。",
-        "stage-mcq-03": "「在某一特定進展階段／時點」與本句語境不同。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。",
-        "stage-mcq-02": "「人生中的某一時期／階段」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。",
-        "stage-mcq-01": "「一個發展、程序或變化過程中的特定階段」與本句語境不同。"
+        "stage-mcq-04": "本句的「early stage」指「早期／後期／最後階段」。",
+        "stage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-04"
     },
@@ -761,11 +733,9 @@ export default {
       "masked": "Problems are easier to fix at an ____.",
       "options": [
         "stage-mcq-04",
-        "stage-mcq-03",
-        "stage-mcq-05",
-        "stage-mcq-02",
         "stage-mcq-06",
-        "stage-mcq-01"
+        "stage-mcq-11",
+        "stage-mcq-13"
       ],
       "explanation": "本句的「early stage」指「早期／後期／最後階段」。",
       "sentenceIndex": 9,
@@ -774,12 +744,10 @@ export default {
         "early stage"
       ],
       "optionReasons": {
-        "stage-mcq-04": "本句指「早期／後期／最後階段」。",
-        "stage-mcq-03": "「在某一特定進展階段／時點」與本句語境不同。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。",
-        "stage-mcq-02": "「人生中的某一時期／階段」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。",
-        "stage-mcq-01": "「一個發展、程序或變化過程中的特定階段」與本句語境不同。"
+        "stage-mcq-04": "本句的「early stage」指「早期／後期／最後階段」。",
+        "stage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-04"
     },
@@ -791,11 +759,9 @@ export default {
       "masked": "The issue became serious at a ____.",
       "options": [
         "stage-mcq-04",
-        "stage-mcq-03",
-        "stage-mcq-05",
-        "stage-mcq-02",
-        "stage-mcq-06",
-        "stage-mcq-01"
+        "stage-mcq-08",
+        "stage-mcq-13",
+        "stage-mcq-11"
       ],
       "explanation": "本句的「later stage」指「早期／後期／最後階段」。",
       "sentenceIndex": 10,
@@ -804,12 +770,10 @@ export default {
         "later stage"
       ],
       "optionReasons": {
-        "stage-mcq-04": "本句指「早期／後期／最後階段」。",
-        "stage-mcq-03": "「在某一特定進展階段／時點」與本句語境不同。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。",
-        "stage-mcq-02": "「人生中的某一時期／階段」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。",
-        "stage-mcq-01": "「一個發展、程序或變化過程中的特定階段」與本句語境不同。"
+        "stage-mcq-04": "本句的「later stage」指「早期／後期／最後階段」。",
+        "stage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-04"
     },
@@ -821,11 +785,9 @@ export default {
       "masked": "We can discuss the details at a ____.",
       "options": [
         "stage-mcq-04",
-        "stage-mcq-03",
-        "stage-mcq-05",
-        "stage-mcq-02",
         "stage-mcq-06",
-        "stage-mcq-01"
+        "stage-mcq-10",
+        "stage-mcq-11"
       ],
       "explanation": "本句的「later stage」指「早期／後期／最後階段」。",
       "sentenceIndex": 11,
@@ -834,12 +796,10 @@ export default {
         "later stage"
       ],
       "optionReasons": {
-        "stage-mcq-04": "本句指「早期／後期／最後階段」。",
-        "stage-mcq-03": "「在某一特定進展階段／時點」與本句語境不同。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。",
-        "stage-mcq-02": "「人生中的某一時期／階段」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。",
-        "stage-mcq-01": "「一個發展、程序或變化過程中的特定階段」與本句語境不同。"
+        "stage-mcq-04": "本句的「later stage」指「早期／後期／最後階段」。",
+        "stage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-04"
     },
@@ -851,11 +811,9 @@ export default {
       "masked": "The project has reached its ____.",
       "options": [
         "stage-mcq-04",
-        "stage-mcq-03",
-        "stage-mcq-05",
-        "stage-mcq-02",
-        "stage-mcq-06",
-        "stage-mcq-01"
+        "stage-mcq-21",
+        "stage-mcq-10",
+        "stage-mcq-23"
       ],
       "explanation": "本句的「final stage」指「早期／後期／最後階段」。",
       "sentenceIndex": 12,
@@ -864,12 +822,10 @@ export default {
         "final stage"
       ],
       "optionReasons": {
-        "stage-mcq-04": "本句指「早期／後期／最後階段」。",
-        "stage-mcq-03": "「在某一特定進展階段／時點」與本句語境不同。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。",
-        "stage-mcq-02": "「人生中的某一時期／階段」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。",
-        "stage-mcq-01": "「一個發展、程序或變化過程中的特定階段」與本句語境不同。"
+        "stage-mcq-04": "本句的「final stage」指「早期／後期／最後階段」。",
+        "stage-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-04"
     },
@@ -881,11 +837,9 @@ export default {
       "masked": "She was in the ____ of training.",
       "options": [
         "stage-mcq-04",
-        "stage-mcq-03",
-        "stage-mcq-05",
-        "stage-mcq-02",
-        "stage-mcq-06",
-        "stage-mcq-01"
+        "stage-mcq-08",
+        "stage-mcq-13",
+        "stage-mcq-11"
       ],
       "explanation": "本句的「final stage」指「早期／後期／最後階段」。",
       "sentenceIndex": 13,
@@ -894,12 +848,10 @@ export default {
         "final stage"
       ],
       "optionReasons": {
-        "stage-mcq-04": "本句指「早期／後期／最後階段」。",
-        "stage-mcq-03": "「在某一特定進展階段／時點」與本句語境不同。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。",
-        "stage-mcq-02": "「人生中的某一時期／階段」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。",
-        "stage-mcq-01": "「一個發展、程序或變化過程中的特定階段」與本句語境不同。"
+        "stage-mcq-04": "本句的「final stage」指「早期／後期／最後階段」。",
+        "stage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-04"
     },
@@ -911,11 +863,9 @@ export default {
       "masked": "The singer walked onto the ____.",
       "options": [
         "stage-mcq-05",
-        "stage-mcq-04",
-        "stage-mcq-06",
-        "stage-mcq-03",
-        "stage-mcq-07",
-        "stage-mcq-02"
+        "stage-mcq-02",
+        "stage-mcq-13",
+        "stage-mcq-18"
       ],
       "explanation": "本句的「stage」指「演員、歌手、講者等表演或發言的舞台」。",
       "sentenceIndex": 14,
@@ -924,12 +874,10 @@ export default {
         "stage"
       ],
       "optionReasons": {
-        "stage-mcq-05": "本句指「演員、歌手、講者等表演或發言的舞台」。",
-        "stage-mcq-04": "「早期／後期／最後階段」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。",
-        "stage-mcq-03": "「在某一特定進展階段／時點」與本句語境不同。",
-        "stage-mcq-07": "「舞台外／幕後」與本句語境不同。",
-        "stage-mcq-02": "「人生中的某一時期／階段」與本句語境不同。"
+        "stage-mcq-05": "本句的「stage」指「演員、歌手、講者等表演或發言的舞台」。",
+        "stage-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-05"
     },
@@ -941,11 +889,9 @@ export default {
       "masked": "The actors stood in the centre of the ____.",
       "options": [
         "stage-mcq-05",
-        "stage-mcq-04",
-        "stage-mcq-06",
-        "stage-mcq-03",
-        "stage-mcq-07",
-        "stage-mcq-02"
+        "stage-mcq-18",
+        "stage-mcq-15",
+        "stage-mcq-22"
       ],
       "explanation": "本句的「stage」指「演員、歌手、講者等表演或發言的舞台」。",
       "sentenceIndex": 15,
@@ -954,12 +900,10 @@ export default {
         "stage"
       ],
       "optionReasons": {
-        "stage-mcq-05": "本句指「演員、歌手、講者等表演或發言的舞台」。",
-        "stage-mcq-04": "「早期／後期／最後階段」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。",
-        "stage-mcq-03": "「在某一特定進展階段／時點」與本句語境不同。",
-        "stage-mcq-07": "「舞台外／幕後」與本句語境不同。",
-        "stage-mcq-02": "「人生中的某一時期／階段」與本句語境不同。"
+        "stage-mcq-05": "本句的「stage」指「演員、歌手、講者等表演或發言的舞台」。",
+        "stage-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-05"
     },
@@ -971,11 +915,9 @@ export default {
       "masked": "She feels confident ____.",
       "options": [
         "stage-mcq-06",
-        "stage-mcq-05",
-        "stage-mcq-07",
-        "stage-mcq-04",
-        "stage-mcq-08",
-        "stage-mcq-03"
+        "stage-mcq-15",
+        "stage-mcq-16",
+        "stage-mcq-18"
       ],
       "explanation": "本句的「on stage」指「在舞台上表演／登台」。",
       "sentenceIndex": 16,
@@ -984,12 +926,10 @@ export default {
         "on stage"
       ],
       "optionReasons": {
-        "stage-mcq-06": "本句指「在舞台上表演／登台」。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。",
-        "stage-mcq-07": "「舞台外／幕後」與本句語境不同。",
-        "stage-mcq-04": "「早期／後期／最後階段」與本句語境不同。",
-        "stage-mcq-08": "「舞台表演、戲劇界」與本句語境不同。",
-        "stage-mcq-03": "「在某一特定進展階段／時點」與本句語境不同。"
+        "stage-mcq-06": "本句的「on stage」指「在舞台上表演／登台」。",
+        "stage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-06"
     },
@@ -1001,11 +941,9 @@ export default {
       "masked": "The band went ____ at nine.",
       "options": [
         "stage-mcq-06",
-        "stage-mcq-05",
-        "stage-mcq-07",
-        "stage-mcq-04",
-        "stage-mcq-08",
-        "stage-mcq-03"
+        "stage-mcq-22",
+        "stage-mcq-03",
+        "stage-mcq-11"
       ],
       "explanation": "本句的「on stage」指「在舞台上表演／登台」。",
       "sentenceIndex": 17,
@@ -1014,12 +952,10 @@ export default {
         "on stage"
       ],
       "optionReasons": {
-        "stage-mcq-06": "本句指「在舞台上表演／登台」。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。",
-        "stage-mcq-07": "「舞台外／幕後」與本句語境不同。",
-        "stage-mcq-04": "「早期／後期／最後階段」與本句語境不同。",
-        "stage-mcq-08": "「舞台表演、戲劇界」與本句語境不同。",
-        "stage-mcq-03": "「在某一特定進展階段／時點」與本句語境不同。"
+        "stage-mcq-06": "本句的「on stage」指「在舞台上表演／登台」。",
+        "stage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-06"
     },
@@ -1031,11 +967,9 @@ export default {
       "masked": "The actor waited ____.",
       "options": [
         "stage-mcq-07",
-        "stage-mcq-06",
-        "stage-mcq-08",
-        "stage-mcq-05",
-        "stage-mcq-09",
-        "stage-mcq-04"
+        "stage-mcq-14",
+        "stage-mcq-11",
+        "stage-mcq-16"
       ],
       "explanation": "本句的「offstage」指「舞台外／幕後」。",
       "sentenceIndex": 18,
@@ -1044,12 +978,10 @@ export default {
         "offstage"
       ],
       "optionReasons": {
-        "stage-mcq-07": "本句指「舞台外／幕後」。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。",
-        "stage-mcq-08": "「舞台表演、戲劇界」與本句語境不同。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。",
-        "stage-mcq-09": "「組織並進行表演、活動、抗議等；上演／舉辦」與本句語境不同。",
-        "stage-mcq-04": "「早期／後期／最後階段」與本句語境不同。"
+        "stage-mcq-07": "本句的「offstage」指「舞台外／幕後」。",
+        "stage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-07"
     },
@@ -1061,11 +993,9 @@ export default {
       "masked": "They are close friends ____ too.",
       "options": [
         "stage-mcq-07",
-        "stage-mcq-06",
-        "stage-mcq-08",
-        "stage-mcq-05",
         "stage-mcq-09",
-        "stage-mcq-04"
+        "stage-mcq-13",
+        "stage-mcq-17"
       ],
       "explanation": "本句的「offstage」指「舞台外／幕後」。",
       "sentenceIndex": 19,
@@ -1074,12 +1004,10 @@ export default {
         "offstage"
       ],
       "optionReasons": {
-        "stage-mcq-07": "本句指「舞台外／幕後」。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。",
-        "stage-mcq-08": "「舞台表演、戲劇界」與本句語境不同。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。",
-        "stage-mcq-09": "「組織並進行表演、活動、抗議等；上演／舉辦」與本句語境不同。",
-        "stage-mcq-04": "「早期／後期／最後階段」與本句語境不同。"
+        "stage-mcq-07": "本句的「offstage」指「舞台外／幕後」。",
+        "stage-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-07"
     },
@@ -1091,11 +1019,9 @@ export default {
       "masked": "She has worked on the ____ for twenty years.",
       "options": [
         "stage-mcq-08",
-        "stage-mcq-07",
-        "stage-mcq-09",
-        "stage-mcq-06",
-        "stage-mcq-10",
-        "stage-mcq-05"
+        "stage-mcq-14",
+        "stage-mcq-11",
+        "stage-mcq-13"
       ],
       "explanation": "本句的「stage」指「舞台表演、戲劇界」。",
       "sentenceIndex": 20,
@@ -1104,12 +1030,10 @@ export default {
         "stage"
       ],
       "optionReasons": {
-        "stage-mcq-08": "本句指「舞台表演、戲劇界」。",
-        "stage-mcq-07": "「舞台外／幕後」與本句語境不同。",
-        "stage-mcq-09": "「組織並進行表演、活動、抗議等；上演／舉辦」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。",
-        "stage-mcq-10": "「上演戲劇或節目」與本句語境不同。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。"
+        "stage-mcq-08": "本句的「stage」指「舞台表演、戲劇界」。",
+        "stage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-08"
     },
@@ -1121,11 +1045,9 @@ export default {
       "masked": "He left television and returned to the ____.",
       "options": [
         "stage-mcq-08",
-        "stage-mcq-07",
-        "stage-mcq-09",
-        "stage-mcq-06",
-        "stage-mcq-10",
-        "stage-mcq-05"
+        "stage-mcq-01",
+        "stage-mcq-22",
+        "stage-mcq-11"
       ],
       "explanation": "本句的「stage」指「舞台表演、戲劇界」。",
       "sentenceIndex": 21,
@@ -1134,12 +1056,10 @@ export default {
         "stage"
       ],
       "optionReasons": {
-        "stage-mcq-08": "本句指「舞台表演、戲劇界」。",
-        "stage-mcq-07": "「舞台外／幕後」與本句語境不同。",
-        "stage-mcq-09": "「組織並進行表演、活動、抗議等；上演／舉辦」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。",
-        "stage-mcq-10": "「上演戲劇或節目」與本句語境不同。",
-        "stage-mcq-05": "「演員、歌手、講者等表演或發言的舞台」與本句語境不同。"
+        "stage-mcq-08": "本句的「stage」指「舞台表演、戲劇界」。",
+        "stage-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-08"
     },
@@ -1151,11 +1071,9 @@ export default {
       "masked": "The school ____.",
       "options": [
         "stage-mcq-09",
-        "stage-mcq-08",
-        "stage-mcq-10",
-        "stage-mcq-07",
-        "stage-mcq-11",
-        "stage-mcq-06"
+        "stage-mcq-16",
+        "stage-mcq-04",
+        "stage-mcq-13"
       ],
       "explanation": "本句的「staged a play」指「組織並進行表演、活動、抗議等；上演／舉辦」。",
       "sentenceIndex": 22,
@@ -1164,12 +1082,10 @@ export default {
         "staged a play"
       ],
       "optionReasons": {
-        "stage-mcq-09": "本句指「組織並進行表演、活動、抗議等；上演／舉辦」。",
-        "stage-mcq-08": "「舞台表演、戲劇界」與本句語境不同。",
-        "stage-mcq-10": "「上演戲劇或節目」與本句語境不同。",
-        "stage-mcq-07": "「舞台外／幕後」與本句語境不同。",
-        "stage-mcq-11": "「發起／舉行抗議活動」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。"
+        "stage-mcq-09": "本句的「staged a play」指「組織並進行表演、活動、抗議等；上演／舉辦」。",
+        "stage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-09"
     },
@@ -1181,11 +1097,9 @@ export default {
       "masked": "Workers ____.",
       "options": [
         "stage-mcq-09",
-        "stage-mcq-08",
-        "stage-mcq-10",
-        "stage-mcq-07",
-        "stage-mcq-11",
-        "stage-mcq-06"
+        "stage-mcq-04",
+        "stage-mcq-23",
+        "stage-mcq-16"
       ],
       "explanation": "本句的「staged a protest」指「組織並進行表演、活動、抗議等；上演／舉辦」。",
       "sentenceIndex": 23,
@@ -1194,12 +1108,10 @@ export default {
         "staged a protest"
       ],
       "optionReasons": {
-        "stage-mcq-09": "本句指「組織並進行表演、活動、抗議等；上演／舉辦」。",
-        "stage-mcq-08": "「舞台表演、戲劇界」與本句語境不同。",
-        "stage-mcq-10": "「上演戲劇或節目」與本句語境不同。",
-        "stage-mcq-07": "「舞台外／幕後」與本句語境不同。",
-        "stage-mcq-11": "「發起／舉行抗議活動」與本句語境不同。",
-        "stage-mcq-06": "「在舞台上表演／登台」與本句語境不同。"
+        "stage-mcq-09": "本句的「staged a protest」指「組織並進行表演、活動、抗議等；上演／舉辦」。",
+        "stage-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-09"
     },
@@ -1211,11 +1123,9 @@ export default {
       "masked": "The theatre ____.",
       "options": [
         "stage-mcq-10",
-        "stage-mcq-09",
         "stage-mcq-11",
-        "stage-mcq-08",
-        "stage-mcq-12",
-        "stage-mcq-07"
+        "stage-mcq-02",
+        "stage-mcq-18"
       ],
       "explanation": "本句的「staged a new production」指「上演戲劇或節目」。",
       "sentenceIndex": 24,
@@ -1224,12 +1134,10 @@ export default {
         "staged a new production"
       ],
       "optionReasons": {
-        "stage-mcq-10": "本句指「上演戲劇或節目」。",
-        "stage-mcq-09": "「組織並進行表演、活動、抗議等；上演／舉辦」與本句語境不同。",
-        "stage-mcq-11": "「發起／舉行抗議活動」與本句語境不同。",
-        "stage-mcq-08": "「舞台表演、戲劇界」與本句語境不同。",
-        "stage-mcq-12": "「刻意安排某場景或事件，使其看起來自然或真實」與本句語境不同。",
-        "stage-mcq-07": "「舞台外／幕後」與本句語境不同。"
+        "stage-mcq-10": "本句的「staged a new production」指「上演戲劇或節目」。",
+        "stage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-10"
     },
@@ -1241,10 +1149,8 @@ export default {
       "masked": "The students ____.",
       "options": [
         "stage-mcq-10",
-        "stage-mcq-09",
-        "stage-mcq-11",
-        "stage-mcq-08",
-        "stage-mcq-12",
+        "stage-mcq-18",
+        "stage-mcq-13",
         "stage-mcq-07"
       ],
       "explanation": "本句的「staged a musical」指「上演戲劇或節目」。",
@@ -1254,12 +1160,10 @@ export default {
         "staged a musical"
       ],
       "optionReasons": {
-        "stage-mcq-10": "本句指「上演戲劇或節目」。",
-        "stage-mcq-09": "「組織並進行表演、活動、抗議等；上演／舉辦」與本句語境不同。",
-        "stage-mcq-11": "「發起／舉行抗議活動」與本句語境不同。",
-        "stage-mcq-08": "「舞台表演、戲劇界」與本句語境不同。",
-        "stage-mcq-12": "「刻意安排某場景或事件，使其看起來自然或真實」與本句語境不同。",
-        "stage-mcq-07": "「舞台外／幕後」與本句語境不同。"
+        "stage-mcq-10": "本句的「staged a musical」指「上演戲劇或節目」。",
+        "stage-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-10"
     },
@@ -1271,11 +1175,9 @@ export default {
       "masked": "Residents ____.",
       "options": [
         "stage-mcq-11",
-        "stage-mcq-10",
-        "stage-mcq-12",
-        "stage-mcq-09",
-        "stage-mcq-13",
-        "stage-mcq-08"
+        "stage-mcq-22",
+        "stage-mcq-07",
+        "stage-mcq-02"
       ],
       "explanation": "本句的「staged a demonstration」指「發起／舉行抗議活動」。",
       "sentenceIndex": 26,
@@ -1284,12 +1186,10 @@ export default {
         "staged a demonstration"
       ],
       "optionReasons": {
-        "stage-mcq-11": "本句指「發起／舉行抗議活動」。",
-        "stage-mcq-10": "「上演戲劇或節目」與本句語境不同。",
-        "stage-mcq-12": "「刻意安排某場景或事件，使其看起來自然或真實」與本句語境不同。",
-        "stage-mcq-09": "「組織並進行表演、活動、抗議等；上演／舉辦」與本句語境不同。",
-        "stage-mcq-13": "「事先安排、擺拍或刻意製造的照片／事件」與本句語境不同。",
-        "stage-mcq-08": "「舞台表演、戲劇界」與本句語境不同。"
+        "stage-mcq-11": "本句的「staged a demonstration」指「發起／舉行抗議活動」。",
+        "stage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-11"
     },
@@ -1301,11 +1201,9 @@ export default {
       "masked": "Employees ____ outside the office.",
       "options": [
         "stage-mcq-11",
-        "stage-mcq-10",
-        "stage-mcq-12",
-        "stage-mcq-09",
-        "stage-mcq-13",
-        "stage-mcq-08"
+        "stage-mcq-23",
+        "stage-mcq-04",
+        "stage-mcq-18"
       ],
       "explanation": "本句的「staged a protest」指「發起／舉行抗議活動」。",
       "sentenceIndex": 27,
@@ -1314,12 +1212,10 @@ export default {
         "staged a protest"
       ],
       "optionReasons": {
-        "stage-mcq-11": "本句指「發起／舉行抗議活動」。",
-        "stage-mcq-10": "「上演戲劇或節目」與本句語境不同。",
-        "stage-mcq-12": "「刻意安排某場景或事件，使其看起來自然或真實」與本句語境不同。",
-        "stage-mcq-09": "「組織並進行表演、活動、抗議等；上演／舉辦」與本句語境不同。",
-        "stage-mcq-13": "「事先安排、擺拍或刻意製造的照片／事件」與本句語境不同。",
-        "stage-mcq-08": "「舞台表演、戲劇界」與本句語境不同。"
+        "stage-mcq-11": "本句的「staged a protest」指「發起／舉行抗議活動」。",
+        "stage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-11"
     },
@@ -1331,11 +1227,9 @@ export default {
       "masked": "It looked like a ____.",
       "options": [
         "stage-mcq-13",
-        "stage-mcq-12",
-        "stage-mcq-14",
-        "stage-mcq-11",
-        "stage-mcq-15",
-        "stage-mcq-10"
+        "stage-mcq-08",
+        "stage-mcq-17",
+        "stage-mcq-11"
       ],
       "explanation": "本句的「staged photograph」指「事先安排、擺拍或刻意製造的照片／事件」。",
       "sentenceIndex": 30,
@@ -1344,12 +1238,10 @@ export default {
         "staged photograph"
       ],
       "optionReasons": {
-        "stage-mcq-13": "本句指「事先安排、擺拍或刻意製造的照片／事件」。",
-        "stage-mcq-12": "「刻意安排某場景或事件，使其看起來自然或真實」與本句語境不同。",
-        "stage-mcq-14": "「多階段賽事中的一個賽段」與本句語境不同。",
-        "stage-mcq-11": "「發起／舉行抗議活動」與本句語境不同。",
-        "stage-mcq-15": "「錦標賽中的分組賽／淘汰賽階段」與本句語境不同。",
-        "stage-mcq-10": "「上演戲劇或節目」與本句語境不同。"
+        "stage-mcq-13": "本句的「staged photograph」指「事先安排、擺拍或刻意製造的照片／事件」。",
+        "stage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-13"
     },
@@ -1361,11 +1253,9 @@ export default {
       "masked": "The interview felt completely ____.",
       "options": [
         "stage-mcq-13",
-        "stage-mcq-12",
         "stage-mcq-14",
-        "stage-mcq-11",
-        "stage-mcq-15",
-        "stage-mcq-10"
+        "stage-mcq-10",
+        "stage-mcq-05"
       ],
       "explanation": "本句的「staged」指「事先安排、擺拍或刻意製造的照片／事件」。",
       "sentenceIndex": 31,
@@ -1374,12 +1264,10 @@ export default {
         "staged"
       ],
       "optionReasons": {
-        "stage-mcq-13": "本句指「事先安排、擺拍或刻意製造的照片／事件」。",
-        "stage-mcq-12": "「刻意安排某場景或事件，使其看起來自然或真實」與本句語境不同。",
-        "stage-mcq-14": "「多階段賽事中的一個賽段」與本句語境不同。",
-        "stage-mcq-11": "「發起／舉行抗議活動」與本句語境不同。",
-        "stage-mcq-15": "「錦標賽中的分組賽／淘汰賽階段」與本句語境不同。",
-        "stage-mcq-10": "「上演戲劇或節目」與本句語境不同。"
+        "stage-mcq-13": "本句的「staged」指「事先安排、擺拍或刻意製造的照片／事件」。",
+        "stage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-13"
     },
@@ -1391,11 +1279,9 @@ export default {
       "masked": "He won the mountain ____ of the race.",
       "options": [
         "stage-mcq-14",
-        "stage-mcq-13",
-        "stage-mcq-15",
-        "stage-mcq-12",
-        "stage-mcq-16",
-        "stage-mcq-11"
+        "stage-mcq-07",
+        "stage-mcq-22",
+        "stage-mcq-09"
       ],
       "explanation": "本句的「stage」指「多階段賽事中的一個賽段」。",
       "sentenceIndex": 32,
@@ -1404,12 +1290,10 @@ export default {
         "stage"
       ],
       "optionReasons": {
-        "stage-mcq-14": "本句指「多階段賽事中的一個賽段」。",
-        "stage-mcq-13": "「事先安排、擺拍或刻意製造的照片／事件」與本句語境不同。",
-        "stage-mcq-15": "「錦標賽中的分組賽／淘汰賽階段」與本句語境不同。",
-        "stage-mcq-12": "「刻意安排某場景或事件，使其看起來自然或真實」與本句語境不同。",
-        "stage-mcq-16": "「疾病發展到的特定期別」與本句語境不同。",
-        "stage-mcq-11": "「發起／舉行抗議活動」與本句語境不同。"
+        "stage-mcq-14": "本句的「stage」指「多階段賽事中的一個賽段」。",
+        "stage-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-14"
     },
@@ -1421,11 +1305,9 @@ export default {
       "masked": "The next ____ is much longer.",
       "options": [
         "stage-mcq-14",
-        "stage-mcq-13",
-        "stage-mcq-15",
-        "stage-mcq-12",
-        "stage-mcq-16",
-        "stage-mcq-11"
+        "stage-mcq-24",
+        "stage-mcq-07",
+        "stage-mcq-10"
       ],
       "explanation": "本句的「stage」指「多階段賽事中的一個賽段」。",
       "sentenceIndex": 33,
@@ -1434,12 +1316,10 @@ export default {
         "stage"
       ],
       "optionReasons": {
-        "stage-mcq-14": "本句指「多階段賽事中的一個賽段」。",
-        "stage-mcq-13": "「事先安排、擺拍或刻意製造的照片／事件」與本句語境不同。",
-        "stage-mcq-15": "「錦標賽中的分組賽／淘汰賽階段」與本句語境不同。",
-        "stage-mcq-12": "「刻意安排某場景或事件，使其看起來自然或真實」與本句語境不同。",
-        "stage-mcq-16": "「疾病發展到的特定期別」與本句語境不同。",
-        "stage-mcq-11": "「發起／舉行抗議活動」與本句語境不同。"
+        "stage-mcq-14": "本句的「stage」指「多階段賽事中的一個賽段」。",
+        "stage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-14"
     },
@@ -1451,11 +1331,9 @@ export default {
       "masked": "The team reached the ____.",
       "options": [
         "stage-mcq-15",
-        "stage-mcq-14",
         "stage-mcq-16",
-        "stage-mcq-13",
-        "stage-mcq-17",
-        "stage-mcq-12"
+        "stage-mcq-11",
+        "stage-mcq-07"
       ],
       "explanation": "本句的「knockout stage」指「錦標賽中的分組賽／淘汰賽階段」。",
       "sentenceIndex": 34,
@@ -1464,12 +1342,10 @@ export default {
         "knockout stage"
       ],
       "optionReasons": {
-        "stage-mcq-15": "本句指「錦標賽中的分組賽／淘汰賽階段」。",
-        "stage-mcq-14": "「多階段賽事中的一個賽段」與本句語境不同。",
-        "stage-mcq-16": "「疾病發展到的特定期別」與本句語境不同。",
-        "stage-mcq-13": "「事先安排、擺拍或刻意製造的照片／事件」與本句語境不同。",
-        "stage-mcq-17": "「生物或人的發育／發展階段」與本句語境不同。",
-        "stage-mcq-12": "「刻意安排某場景或事件，使其看起來自然或真實」與本句語境不同。"
+        "stage-mcq-15": "本句的「knockout stage」指「錦標賽中的分組賽／淘汰賽階段」。",
+        "stage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-15"
     },
@@ -1481,11 +1357,9 @@ export default {
       "masked": "They were eliminated in the ____.",
       "options": [
         "stage-mcq-15",
-        "stage-mcq-14",
-        "stage-mcq-16",
-        "stage-mcq-13",
-        "stage-mcq-17",
-        "stage-mcq-12"
+        "stage-mcq-10",
+        "stage-mcq-22",
+        "stage-mcq-06"
       ],
       "explanation": "本句的「group stage」指「錦標賽中的分組賽／淘汰賽階段」。",
       "sentenceIndex": 35,
@@ -1494,12 +1368,10 @@ export default {
         "group stage"
       ],
       "optionReasons": {
-        "stage-mcq-15": "本句指「錦標賽中的分組賽／淘汰賽階段」。",
-        "stage-mcq-14": "「多階段賽事中的一個賽段」與本句語境不同。",
-        "stage-mcq-16": "「疾病發展到的特定期別」與本句語境不同。",
-        "stage-mcq-13": "「事先安排、擺拍或刻意製造的照片／事件」與本句語境不同。",
-        "stage-mcq-17": "「生物或人的發育／發展階段」與本句語境不同。",
-        "stage-mcq-12": "「刻意安排某場景或事件，使其看起來自然或真實」與本句語境不同。"
+        "stage-mcq-15": "本句的「group stage」指「錦標賽中的分組賽／淘汰賽階段」。",
+        "stage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-15"
     },
@@ -1511,11 +1383,9 @@ export default {
       "masked": "The cancer was diagnosed at ____.",
       "options": [
         "stage-mcq-16",
-        "stage-mcq-15",
-        "stage-mcq-17",
-        "stage-mcq-14",
+        "stage-mcq-06",
         "stage-mcq-18",
-        "stage-mcq-13"
+        "stage-mcq-10"
       ],
       "explanation": "本句的「stage II」指「疾病發展到的特定期別」。",
       "sentenceIndex": 38,
@@ -1524,12 +1394,10 @@ export default {
         "stage II"
       ],
       "optionReasons": {
-        "stage-mcq-16": "本句指「疾病發展到的特定期別」。",
-        "stage-mcq-15": "「錦標賽中的分組賽／淘汰賽階段」與本句語境不同。",
-        "stage-mcq-17": "「生物或人的發育／發展階段」與本句語境不同。",
-        "stage-mcq-14": "「多階段賽事中的一個賽段」與本句語境不同。",
-        "stage-mcq-18": "「多級火箭中的一個推進級／級段」與本句語境不同。",
-        "stage-mcq-13": "「事先安排、擺拍或刻意製造的照片／事件」與本句語境不同。"
+        "stage-mcq-16": "本句的「stage II」指「疾病發展到的特定期別」。",
+        "stage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-16"
     },
@@ -1542,10 +1410,8 @@ export default {
       "options": [
         "stage-mcq-16",
         "stage-mcq-15",
-        "stage-mcq-17",
-        "stage-mcq-14",
-        "stage-mcq-18",
-        "stage-mcq-13"
+        "stage-mcq-06",
+        "stage-mcq-22"
       ],
       "explanation": "本句的「stages」指「疾病發展到的特定期別」。",
       "sentenceIndex": 39,
@@ -1554,12 +1420,10 @@ export default {
         "stages"
       ],
       "optionReasons": {
-        "stage-mcq-16": "本句指「疾病發展到的特定期別」。",
-        "stage-mcq-15": "「錦標賽中的分組賽／淘汰賽階段」與本句語境不同。",
-        "stage-mcq-17": "「生物或人的發育／發展階段」與本句語境不同。",
-        "stage-mcq-14": "「多階段賽事中的一個賽段」與本句語境不同。",
-        "stage-mcq-18": "「多級火箭中的一個推進級／級段」與本句語境不同。",
-        "stage-mcq-13": "「事先安排、擺拍或刻意製造的照片／事件」與本句語境不同。"
+        "stage-mcq-16": "本句的「stages」指「疾病發展到的特定期別」。",
+        "stage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-16"
     },
@@ -1571,11 +1435,9 @@ export default {
       "masked": "The insect passes through several ____.",
       "options": [
         "stage-mcq-17",
-        "stage-mcq-16",
-        "stage-mcq-18",
-        "stage-mcq-15",
-        "stage-mcq-19",
-        "stage-mcq-14"
+        "stage-mcq-13",
+        "stage-mcq-23",
+        "stage-mcq-24"
       ],
       "explanation": "本句的「developmental stages」指「生物或人的發育／發展階段」。",
       "sentenceIndex": 40,
@@ -1584,12 +1446,10 @@ export default {
         "developmental stages"
       ],
       "optionReasons": {
-        "stage-mcq-17": "本句指「生物或人的發育／發展階段」。",
-        "stage-mcq-16": "「疾病發展到的特定期別」與本句語境不同。",
-        "stage-mcq-18": "「多級火箭中的一個推進級／級段」與本句語境不同。",
-        "stage-mcq-15": "「錦標賽中的分組賽／淘汰賽階段」與本句語境不同。",
-        "stage-mcq-19": "「演出的舞台呈現、製作安排」與本句語境不同。",
-        "stage-mcq-14": "「多階段賽事中的一個賽段」與本句語境不同。"
+        "stage-mcq-17": "本句的「developmental stages」指「生物或人的發育／發展階段」。",
+        "stage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-17"
     },
@@ -1601,11 +1461,9 @@ export default {
       "masked": "The embryo was examined at an early ____.",
       "options": [
         "stage-mcq-17",
-        "stage-mcq-16",
-        "stage-mcq-18",
-        "stage-mcq-15",
-        "stage-mcq-19",
-        "stage-mcq-14"
+        "stage-mcq-08",
+        "stage-mcq-13",
+        "stage-mcq-11"
       ],
       "explanation": "本句的「stage」指「生物或人的發育／發展階段」。",
       "sentenceIndex": 41,
@@ -1614,12 +1472,10 @@ export default {
         "stage"
       ],
       "optionReasons": {
-        "stage-mcq-17": "本句指「生物或人的發育／發展階段」。",
-        "stage-mcq-16": "「疾病發展到的特定期別」與本句語境不同。",
-        "stage-mcq-18": "「多級火箭中的一個推進級／級段」與本句語境不同。",
-        "stage-mcq-15": "「錦標賽中的分組賽／淘汰賽階段」與本句語境不同。",
-        "stage-mcq-19": "「演出的舞台呈現、製作安排」與本句語境不同。",
-        "stage-mcq-14": "「多階段賽事中的一個賽段」與本句語境不同。"
+        "stage-mcq-17": "本句的「stage」指「生物或人的發育／發展階段」。",
+        "stage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-17"
     },
@@ -1631,11 +1487,9 @@ export default {
       "masked": "The first ____ separated successfully.",
       "options": [
         "stage-mcq-18",
-        "stage-mcq-17",
-        "stage-mcq-19",
-        "stage-mcq-16",
-        "stage-mcq-20",
-        "stage-mcq-15"
+        "stage-mcq-24",
+        "stage-mcq-11",
+        "stage-mcq-13"
       ],
       "explanation": "本句的「stage」指「多級火箭中的一個推進級／級段」。",
       "sentenceIndex": 44,
@@ -1644,12 +1498,10 @@ export default {
         "stage"
       ],
       "optionReasons": {
-        "stage-mcq-18": "本句指「多級火箭中的一個推進級／級段」。",
-        "stage-mcq-17": "「生物或人的發育／發展階段」與本句語境不同。",
-        "stage-mcq-19": "「演出的舞台呈現、製作安排」與本句語境不同。",
-        "stage-mcq-16": "「疾病發展到的特定期別」與本句語境不同。",
-        "stage-mcq-20": "「為視覺或展示效果作的佈置」與本句語境不同。",
-        "stage-mcq-15": "「錦標賽中的分組賽／淘汰賽階段」與本句語境不同。"
+        "stage-mcq-18": "本句的「stage」指「多級火箭中的一個推進級／級段」。",
+        "stage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-18"
     },
@@ -1661,11 +1513,9 @@ export default {
       "masked": "The rocket uses three ____.",
       "options": [
         "stage-mcq-18",
-        "stage-mcq-17",
-        "stage-mcq-19",
-        "stage-mcq-16",
-        "stage-mcq-20",
-        "stage-mcq-15"
+        "stage-mcq-10",
+        "stage-mcq-05",
+        "stage-mcq-16"
       ],
       "explanation": "本句的「stages」指「多級火箭中的一個推進級／級段」。",
       "sentenceIndex": 45,
@@ -1674,12 +1524,10 @@ export default {
         "stages"
       ],
       "optionReasons": {
-        "stage-mcq-18": "本句指「多級火箭中的一個推進級／級段」。",
-        "stage-mcq-17": "「生物或人的發育／發展階段」與本句語境不同。",
-        "stage-mcq-19": "「演出的舞台呈現、製作安排」與本句語境不同。",
-        "stage-mcq-16": "「疾病發展到的特定期別」與本句語境不同。",
-        "stage-mcq-20": "「為視覺或展示效果作的佈置」與本句語境不同。",
-        "stage-mcq-15": "「錦標賽中的分組賽／淘汰賽階段」與本句語境不同。"
+        "stage-mcq-18": "本句的「stages」指「多級火箭中的一個推進級／級段」。",
+        "stage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-18"
     },
@@ -1691,11 +1539,9 @@ export default {
       "masked": "A ____ can discard empty sections during flight.",
       "options": [
         "stage-mcq-18",
-        "stage-mcq-17",
-        "stage-mcq-19",
+        "stage-mcq-24",
         "stage-mcq-16",
-        "stage-mcq-20",
-        "stage-mcq-15"
+        "stage-mcq-23"
       ],
       "explanation": "本句的「multistage rocket」指「多級火箭中的一個推進級／級段」。",
       "sentenceIndex": 46,
@@ -1704,12 +1550,10 @@ export default {
         "multistage rocket"
       ],
       "optionReasons": {
-        "stage-mcq-18": "本句指「多級火箭中的一個推進級／級段」。",
-        "stage-mcq-17": "「生物或人的發育／發展階段」與本句語境不同。",
-        "stage-mcq-19": "「演出的舞台呈現、製作安排」與本句語境不同。",
-        "stage-mcq-16": "「疾病發展到的特定期別」與本句語境不同。",
-        "stage-mcq-20": "「為視覺或展示效果作的佈置」與本句語境不同。",
-        "stage-mcq-15": "「錦標賽中的分組賽／淘汰賽階段」與本句語境不同。"
+        "stage-mcq-18": "本句的「multistage rocket」指「多級火箭中的一個推進級／級段」。",
+        "stage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-18"
     },
@@ -1721,11 +1565,9 @@ export default {
       "masked": "The launch vehicle is a two-____ rocket.",
       "options": [
         "stage-mcq-18",
-        "stage-mcq-17",
-        "stage-mcq-19",
-        "stage-mcq-16",
-        "stage-mcq-20",
-        "stage-mcq-15"
+        "stage-mcq-22",
+        "stage-mcq-06",
+        "stage-mcq-10"
       ],
       "explanation": "本句的「stage」指「多級火箭中的一個推進級／級段」。",
       "sentenceIndex": 47,
@@ -1734,12 +1576,10 @@ export default {
         "stage"
       ],
       "optionReasons": {
-        "stage-mcq-18": "本句指「多級火箭中的一個推進級／級段」。",
-        "stage-mcq-17": "「生物或人的發育／發展階段」與本句語境不同。",
-        "stage-mcq-19": "「演出的舞台呈現、製作安排」與本句語境不同。",
-        "stage-mcq-16": "「疾病發展到的特定期別」與本句語境不同。",
-        "stage-mcq-20": "「為視覺或展示效果作的佈置」與本句語境不同。",
-        "stage-mcq-15": "「錦標賽中的分組賽／淘汰賽階段」與本句語境不同。"
+        "stage-mcq-18": "本句的「stage」指「多級火箭中的一個推進級／級段」。",
+        "stage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-18"
     },
@@ -1751,11 +1591,9 @@ export default {
       "masked": "____ can improve first impressions.",
       "options": [
         "stage-mcq-21",
-        "stage-mcq-20",
         "stage-mcq-22",
-        "stage-mcq-19",
-        "stage-mcq-23",
-        "stage-mcq-18"
+        "stage-mcq-14",
+        "stage-mcq-23"
       ],
       "explanation": "本句的「Home staging」指「為售屋而進行的房屋展示佈置」。",
       "sentenceIndex": 48,
@@ -1764,12 +1602,10 @@ export default {
         "Home staging"
       ],
       "optionReasons": {
-        "stage-mcq-21": "本句指「為售屋而進行的房屋展示佈置」。",
-        "stage-mcq-20": "「為視覺或展示效果作的佈置」與本句語境不同。",
-        "stage-mcq-22": "「為之後事件創造條件／鋪路」與本句語境不同。",
-        "stage-mcq-19": "「演出的舞台呈現、製作安排」與本句語境不同。",
-        "stage-mcq-23": "「字面站舞台中央；比喻成為主要焦點」與本句語境不同。",
-        "stage-mcq-18": "「多級火箭中的一個推進級／級段」與本句語境不同。"
+        "stage-mcq-21": "本句的「Home staging」指「為售屋而進行的房屋展示佈置」。",
+        "stage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-21"
     },
@@ -1781,11 +1617,9 @@ export default {
       "masked": "They hired a professional for ____.",
       "options": [
         "stage-mcq-21",
-        "stage-mcq-20",
-        "stage-mcq-22",
-        "stage-mcq-19",
-        "stage-mcq-23",
-        "stage-mcq-18"
+        "stage-mcq-15",
+        "stage-mcq-13",
+        "stage-mcq-10"
       ],
       "explanation": "本句的「home staging」指「為售屋而進行的房屋展示佈置」。",
       "sentenceIndex": 49,
@@ -1794,12 +1628,10 @@ export default {
         "home staging"
       ],
       "optionReasons": {
-        "stage-mcq-21": "本句指「為售屋而進行的房屋展示佈置」。",
-        "stage-mcq-20": "「為視覺或展示效果作的佈置」與本句語境不同。",
-        "stage-mcq-22": "「為之後事件創造條件／鋪路」與本句語境不同。",
-        "stage-mcq-19": "「演出的舞台呈現、製作安排」與本句語境不同。",
-        "stage-mcq-23": "「字面站舞台中央；比喻成為主要焦點」與本句語境不同。",
-        "stage-mcq-18": "「多級火箭中的一個推進級／級段」與本句語境不同。"
+        "stage-mcq-21": "本句的「home staging」指「為售屋而進行的房屋展示佈置」。",
+        "stage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-21"
     },
@@ -1811,11 +1643,9 @@ export default {
       "masked": "The agreement ____ further cooperation.",
       "options": [
         "stage-mcq-22",
-        "stage-mcq-21",
         "stage-mcq-23",
-        "stage-mcq-20",
-        "stage-mcq-24",
-        "stage-mcq-19"
+        "stage-mcq-02",
+        "stage-mcq-09"
       ],
       "explanation": "本句的「set the stage for」指「為之後事件創造條件／鋪路」。",
       "sentenceIndex": 50,
@@ -1824,12 +1654,10 @@ export default {
         "set the stage for"
       ],
       "optionReasons": {
-        "stage-mcq-22": "本句指「為之後事件創造條件／鋪路」。",
-        "stage-mcq-21": "「為售屋而進行的房屋展示佈置」與本句語境不同。",
-        "stage-mcq-23": "「字面站舞台中央；比喻成為主要焦點」與本句語境不同。",
-        "stage-mcq-20": "「為視覺或展示效果作的佈置」與本句語境不同。",
-        "stage-mcq-24": "「在觀眾面前表演時的緊張／怯場」與本句語境不同。",
-        "stage-mcq-19": "「演出的舞台呈現、製作安排」與本句語境不同。"
+        "stage-mcq-22": "本句的「set the stage for」指「為之後事件創造條件／鋪路」。",
+        "stage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-22"
     },
@@ -1841,11 +1669,9 @@ export default {
       "masked": "The early research ____ later discoveries.",
       "options": [
         "stage-mcq-22",
-        "stage-mcq-21",
-        "stage-mcq-23",
-        "stage-mcq-20",
-        "stage-mcq-24",
-        "stage-mcq-19"
+        "stage-mcq-15",
+        "stage-mcq-08",
+        "stage-mcq-18"
       ],
       "explanation": "本句的「set the stage for」指「為之後事件創造條件／鋪路」。",
       "sentenceIndex": 51,
@@ -1854,12 +1680,10 @@ export default {
         "set the stage for"
       ],
       "optionReasons": {
-        "stage-mcq-22": "本句指「為之後事件創造條件／鋪路」。",
-        "stage-mcq-21": "「為售屋而進行的房屋展示佈置」與本句語境不同。",
-        "stage-mcq-23": "「字面站舞台中央；比喻成為主要焦點」與本句語境不同。",
-        "stage-mcq-20": "「為視覺或展示效果作的佈置」與本句語境不同。",
-        "stage-mcq-24": "「在觀眾面前表演時的緊張／怯場」與本句語境不同。",
-        "stage-mcq-19": "「演出的舞台呈現、製作安排」與本句語境不同。"
+        "stage-mcq-22": "本句的「set the stage for」指「為之後事件創造條件／鋪路」。",
+        "stage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-22"
     },
@@ -1871,11 +1695,9 @@ export default {
       "masked": "The lead actor ____.",
       "options": [
         "stage-mcq-23",
-        "stage-mcq-22",
-        "stage-mcq-24",
-        "stage-mcq-21",
-        "stage-mcq-25",
-        "stage-mcq-20"
+        "stage-mcq-04",
+        "stage-mcq-13",
+        "stage-mcq-24"
       ],
       "explanation": "本句的「took centre stage」指「字面站舞台中央；比喻成為主要焦點」。",
       "sentenceIndex": 52,
@@ -1884,12 +1706,10 @@ export default {
         "took centre stage"
       ],
       "optionReasons": {
-        "stage-mcq-23": "本句指「字面站舞台中央；比喻成為主要焦點」。",
-        "stage-mcq-22": "「為之後事件創造條件／鋪路」與本句語境不同。",
-        "stage-mcq-24": "「在觀眾面前表演時的緊張／怯場」與本句語境不同。",
-        "stage-mcq-21": "「為售屋而進行的房屋展示佈置」與本句語境不同。",
-        "stage-mcq-25": "「已上演的；也可指刻意安排、擺拍或假造的」與本句語境不同。",
-        "stage-mcq-20": "「為視覺或展示效果作的佈置」與本句語境不同。"
+        "stage-mcq-23": "本句的「took centre stage」指「字面站舞台中央；比喻成為主要焦點」。",
+        "stage-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-23"
     },
@@ -1901,11 +1721,9 @@ export default {
       "masked": "Climate issues ____ at the conference.",
       "options": [
         "stage-mcq-23",
-        "stage-mcq-22",
+        "stage-mcq-02",
         "stage-mcq-24",
-        "stage-mcq-21",
-        "stage-mcq-25",
-        "stage-mcq-20"
+        "stage-mcq-10"
       ],
       "explanation": "本句的「took centre stage」指「字面站舞台中央；比喻成為主要焦點」。",
       "sentenceIndex": 53,
@@ -1914,12 +1732,10 @@ export default {
         "took centre stage"
       ],
       "optionReasons": {
-        "stage-mcq-23": "本句指「字面站舞台中央；比喻成為主要焦點」。",
-        "stage-mcq-22": "「為之後事件創造條件／鋪路」與本句語境不同。",
-        "stage-mcq-24": "「在觀眾面前表演時的緊張／怯場」與本句語境不同。",
-        "stage-mcq-21": "「為售屋而進行的房屋展示佈置」與本句語境不同。",
-        "stage-mcq-25": "「已上演的；也可指刻意安排、擺拍或假造的」與本句語境不同。",
-        "stage-mcq-20": "「為視覺或展示效果作的佈置」與本句語境不同。"
+        "stage-mcq-23": "本句的「took centre stage」指「字面站舞台中央；比喻成為主要焦點」。",
+        "stage-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-23"
     },
@@ -1932,10 +1748,8 @@ export default {
       "options": [
         "stage-mcq-24",
         "stage-mcq-23",
-        "stage-mcq-25",
-        "stage-mcq-22",
-        "stage-mcq-21",
-        "stage-mcq-20"
+        "stage-mcq-13",
+        "stage-mcq-15"
       ],
       "explanation": "本句的「stage fright」指「在觀眾面前表演時的緊張／怯場」。",
       "sentenceIndex": 54,
@@ -1944,12 +1758,10 @@ export default {
         "stage fright"
       ],
       "optionReasons": {
-        "stage-mcq-24": "本句指「在觀眾面前表演時的緊張／怯場」。",
-        "stage-mcq-23": "「字面站舞台中央；比喻成為主要焦點」與本句語境不同。",
-        "stage-mcq-25": "「已上演的；也可指刻意安排、擺拍或假造的」與本句語境不同。",
-        "stage-mcq-22": "「為之後事件創造條件／鋪路」與本句語境不同。",
-        "stage-mcq-21": "「為售屋而進行的房屋展示佈置」與本句語境不同。",
-        "stage-mcq-20": "「為視覺或展示效果作的佈置」與本句語境不同。"
+        "stage-mcq-24": "本句的「stage fright」指「在觀眾面前表演時的緊張／怯場」。",
+        "stage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-24"
     },
@@ -1961,11 +1773,9 @@ export default {
       "masked": "Even experienced performers can get ____.",
       "options": [
         "stage-mcq-24",
-        "stage-mcq-23",
-        "stage-mcq-25",
+        "stage-mcq-17",
         "stage-mcq-22",
-        "stage-mcq-21",
-        "stage-mcq-20"
+        "stage-mcq-23"
       ],
       "explanation": "本句的「stage fright」指「在觀眾面前表演時的緊張／怯場」。",
       "sentenceIndex": 55,
@@ -1974,12 +1784,10 @@ export default {
         "stage fright"
       ],
       "optionReasons": {
-        "stage-mcq-24": "本句指「在觀眾面前表演時的緊張／怯場」。",
-        "stage-mcq-23": "「字面站舞台中央；比喻成為主要焦點」與本句語境不同。",
-        "stage-mcq-25": "「已上演的；也可指刻意安排、擺拍或假造的」與本句語境不同。",
-        "stage-mcq-22": "「為之後事件創造條件／鋪路」與本句語境不同。",
-        "stage-mcq-21": "「為售屋而進行的房屋展示佈置」與本句語境不同。",
-        "stage-mcq-20": "「為視覺或展示效果作的佈置」與本句語境不同。"
+        "stage-mcq-24": "本句的「stage fright」指「在觀眾面前表演時的緊張／怯場」。",
+        "stage-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "stage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stage-mcq-24"
     }
@@ -1991,5 +1799,7 @@ export default {
     "sha256": "d318950c970572ac2e44cb684237e111d2a7ea7a11ff4bb8791d46d806528822",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

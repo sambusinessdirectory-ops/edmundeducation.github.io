@@ -695,11 +695,7 @@ export default {
       "masked": "I ____ completely.",
       "options": [
         "trust-mcq-01",
-        "trust-mcq-02",
-        "trust-mcq-03",
-        "trust-mcq-04",
-        "trust-mcq-05",
-        "trust-mcq-06"
+        "trust-mcq-28"
       ],
       "explanation": "本句的「trust her」指「信任某人」。",
       "sentenceIndex": 0,
@@ -708,12 +704,8 @@ export default {
         "trust her"
       ],
       "optionReasons": {
-        "trust-mcq-01": "本句指「信任某人」。",
-        "trust-mcq-02": "「相信某人會做好 X」是「trust someone to do X」的用法，與本句語境不同。",
-        "trust-mcq-03": "「把 X 交託給某人」是「trust someone with X」的用法，與本句語境不同。",
-        "trust-mcq-04": "「相信某物／資訊可靠」是「trust something」的用法，與本句語境不同。",
-        "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。"
+        "trust-mcq-01": "本句的「trust her」指「信任某人」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-01"
     },
@@ -725,11 +717,7 @@ export default {
       "masked": "It takes time to learn whether you can ____.",
       "options": [
         "trust-mcq-01",
-        "trust-mcq-02",
-        "trust-mcq-03",
-        "trust-mcq-04",
-        "trust-mcq-05",
-        "trust-mcq-06"
+        "trust-mcq-28"
       ],
       "explanation": "本句的「trust someone」指「信任某人」。",
       "sentenceIndex": 1,
@@ -738,12 +726,8 @@ export default {
         "trust someone"
       ],
       "optionReasons": {
-        "trust-mcq-01": "本句指「信任某人」。",
-        "trust-mcq-02": "「相信某人會做好 X」是「trust someone to do X」的用法，與本句語境不同。",
-        "trust-mcq-03": "「把 X 交託給某人」是「trust someone with X」的用法，與本句語境不同。",
-        "trust-mcq-04": "「相信某物／資訊可靠」是「trust something」的用法，與本句語境不同。",
-        "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。"
+        "trust-mcq-01": "本句的「trust someone」指「信任某人」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-01"
     },
@@ -755,11 +739,7 @@ export default {
       "masked": "I ____.",
       "options": [
         "trust-mcq-02",
-        "trust-mcq-01",
-        "trust-mcq-03",
-        "trust-mcq-04",
-        "trust-mcq-05",
-        "trust-mcq-06"
+        "trust-mcq-28"
       ],
       "explanation": "本句的「trust him to make the right decision」指「相信某人會做好 X」。",
       "sentenceIndex": 2,
@@ -768,12 +748,8 @@ export default {
         "trust him to make the right decision"
       ],
       "optionReasons": {
-        "trust-mcq-02": "本句指「相信某人會做好 X」。",
-        "trust-mcq-01": "「信任某人」是「trust someone」的用法，與本句語境不同。",
-        "trust-mcq-03": "「把 X 交託給某人」是「trust someone with X」的用法，與本句語境不同。",
-        "trust-mcq-04": "「相信某物／資訊可靠」是「trust something」的用法，與本句語境不同。",
-        "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。"
+        "trust-mcq-02": "本句的「trust him to make the right decision」指「相信某人會做好 X」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-02"
     },
@@ -785,11 +761,7 @@ export default {
       "masked": "Can we ____?",
       "options": [
         "trust-mcq-02",
-        "trust-mcq-01",
-        "trust-mcq-03",
-        "trust-mcq-04",
-        "trust-mcq-05",
-        "trust-mcq-06"
+        "trust-mcq-28"
       ],
       "explanation": "本句的「trust her to keep the information private」指「相信某人會做好 X」。",
       "sentenceIndex": 3,
@@ -798,12 +770,8 @@ export default {
         "trust her to keep the information private"
       ],
       "optionReasons": {
-        "trust-mcq-02": "本句指「相信某人會做好 X」。",
-        "trust-mcq-01": "「信任某人」是「trust someone」的用法，與本句語境不同。",
-        "trust-mcq-03": "「把 X 交託給某人」是「trust someone with X」的用法，與本句語境不同。",
-        "trust-mcq-04": "「相信某物／資訊可靠」是「trust something」的用法，與本句語境不同。",
-        "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。"
+        "trust-mcq-02": "本句的「trust her to keep the information private」指「相信某人會做好 X」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-02"
     },
@@ -815,11 +783,9 @@ export default {
       "masked": "I wouldn't ____.",
       "options": [
         "trust-mcq-03",
-        "trust-mcq-02",
-        "trust-mcq-04",
-        "trust-mcq-01",
-        "trust-mcq-05",
-        "trust-mcq-06"
+        "trust-mcq-29",
+        "trust-mcq-23",
+        "trust-mcq-04"
       ],
       "explanation": "本句的「trust him with my car」指「把 X 交託給某人」。",
       "sentenceIndex": 4,
@@ -828,12 +794,10 @@ export default {
         "trust him with my car"
       ],
       "optionReasons": {
-        "trust-mcq-03": "本句指「把 X 交託給某人」。",
-        "trust-mcq-02": "「相信某人會做好 X」是「trust someone to do X」的用法，與本句語境不同。",
-        "trust-mcq-04": "「相信某物／資訊可靠」是「trust something」的用法，與本句語境不同。",
-        "trust-mcq-01": "「信任某人」是「trust someone」的用法，與本句語境不同。",
-        "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。"
+        "trust-mcq-03": "本句的「trust him with my car」指「把 X 交託給某人」。",
+        "trust-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-03"
     },
@@ -845,11 +809,7 @@ export default {
       "masked": "She ____.",
       "options": [
         "trust-mcq-03",
-        "trust-mcq-02",
-        "trust-mcq-04",
-        "trust-mcq-01",
-        "trust-mcq-05",
-        "trust-mcq-06"
+        "trust-mcq-24"
       ],
       "explanation": "本句的「trusted me with a secret」指「把 X 交託給某人」。",
       "sentenceIndex": 5,
@@ -858,12 +818,8 @@ export default {
         "trusted me with a secret"
       ],
       "optionReasons": {
-        "trust-mcq-03": "本句指「把 X 交託給某人」。",
-        "trust-mcq-02": "「相信某人會做好 X」是「trust someone to do X」的用法，與本句語境不同。",
-        "trust-mcq-04": "「相信某物／資訊可靠」是「trust something」的用法，與本句語境不同。",
-        "trust-mcq-01": "「信任某人」是「trust someone」的用法，與本句語境不同。",
-        "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。"
+        "trust-mcq-03": "本句的「trusted me with a secret」指「把 X 交託給某人」。",
+        "trust-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-03"
     },
@@ -875,11 +831,8 @@ export default {
       "masked": "They ____.",
       "options": [
         "trust-pdf-001",
-        "trust-mcq-02",
-        "trust-mcq-04",
-        "trust-mcq-01",
-        "trust-mcq-05",
-        "trust-mcq-06"
+        "trust-mcq-28",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「trusted her with managing the project」指「把某項責任交給某人，因為相信他有能力而且可靠」。",
       "sentenceIndex": 6,
@@ -888,12 +841,9 @@ export default {
         "trusted her with managing the project"
       ],
       "optionReasons": {
-        "trust-pdf-001": "本句指「把某項責任交給某人，因為相信他有能力而且可靠」。",
-        "trust-mcq-02": "「相信某人會做好 X」是「trust someone to do X」的用法，與本句語境不同。",
-        "trust-mcq-04": "「相信某物／資訊可靠」是「trust something」的用法，與本句語境不同。",
-        "trust-mcq-01": "「信任某人」是「trust someone」的用法，與本句語境不同。",
-        "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。"
+        "trust-pdf-001": "本句的「trusted her with managing the project」指「把某項責任交給某人，因為相信他有能力而且可靠」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-pdf-001"
     },
@@ -905,11 +855,8 @@ export default {
       "masked": "I wouldn't ____.",
       "options": [
         "trust-pdf-001",
-        "trust-mcq-02",
-        "trust-mcq-04",
-        "trust-mcq-01",
-        "trust-mcq-05",
-        "trust-mcq-06"
+        "trust-mcq-28",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「trust him with handling the money」指「把某項責任交給某人，因為相信他有能力而且可靠」。",
       "sentenceIndex": 7,
@@ -918,12 +865,9 @@ export default {
         "trust him with handling the money"
       ],
       "optionReasons": {
-        "trust-pdf-001": "本句指「把某項責任交給某人，因為相信他有能力而且可靠」。",
-        "trust-mcq-02": "「相信某人會做好 X」是「trust someone to do X」的用法，與本句語境不同。",
-        "trust-mcq-04": "「相信某物／資訊可靠」是「trust something」的用法，與本句語境不同。",
-        "trust-mcq-01": "「信任某人」是「trust someone」的用法，與本句語境不同。",
-        "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。"
+        "trust-pdf-001": "本句的「trust him with handling the money」指「把某項責任交給某人，因為相信他有能力而且可靠」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-pdf-001"
     },
@@ -935,11 +879,9 @@ export default {
       "masked": "I don't ____.",
       "options": [
         "trust-mcq-04",
-        "trust-mcq-03",
-        "trust-mcq-05",
-        "trust-mcq-02",
-        "trust-mcq-06",
-        "trust-mcq-01"
+        "trust-mcq-28",
+        "trust-mcq-14",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「trust this old machine」指「相信某物／資訊可靠」。",
       "sentenceIndex": 8,
@@ -948,12 +890,10 @@ export default {
         "trust this old machine"
       ],
       "optionReasons": {
-        "trust-mcq-04": "本句指「相信某物／資訊可靠」。",
-        "trust-mcq-03": "「把 X 交託給某人」是「trust someone with X」的用法，與本句語境不同。",
-        "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。",
-        "trust-mcq-02": "「相信某人會做好 X」是「trust someone to do X」的用法，與本句語境不同。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。",
-        "trust-mcq-01": "「信任某人」是「trust someone」的用法，與本句語境不同。"
+        "trust-mcq-04": "本句的「trust this old machine」指「相信某物／資訊可靠」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-04"
     },
@@ -966,10 +906,8 @@ export default {
       "options": [
         "trust-mcq-04",
         "trust-mcq-03",
-        "trust-mcq-05",
-        "trust-mcq-02",
-        "trust-mcq-06",
-        "trust-mcq-01"
+        "trust-mcq-19",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「trust information you see online」指「相信某物／資訊可靠」。",
       "sentenceIndex": 9,
@@ -978,12 +916,10 @@ export default {
         "trust information you see online"
       ],
       "optionReasons": {
-        "trust-mcq-04": "本句指「相信某物／資訊可靠」。",
-        "trust-mcq-03": "「把 X 交託給某人」是「trust someone with X」的用法，與本句語境不同。",
-        "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。",
-        "trust-mcq-02": "「相信某人會做好 X」是「trust someone to do X」的用法，與本句語境不同。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。",
-        "trust-mcq-01": "「信任某人」是「trust someone」的用法，與本句語境不同。"
+        "trust-mcq-04": "本句的「trust information you see online」指「相信某物／資訊可靠」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-04"
     },
@@ -995,11 +931,7 @@ export default {
       "masked": "I ____ the importance of this matter.",
       "options": [
         "trust-mcq-05",
-        "trust-mcq-04",
-        "trust-mcq-06",
-        "trust-mcq-03",
-        "trust-mcq-07",
-        "trust-mcq-02"
+        "trust-mcq-28"
       ],
       "explanation": "本句的「trust that you understand」指「相信……」。",
       "sentenceIndex": 10,
@@ -1008,12 +940,8 @@ export default {
         "trust that you understand"
       ],
       "optionReasons": {
-        "trust-mcq-05": "本句指「相信……」。",
-        "trust-mcq-04": "「相信某物／資訊可靠」是「trust something」的用法，與本句語境不同。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。",
-        "trust-mcq-03": "「把 X 交託給某人」是「trust someone with X」的用法，與本句語境不同。",
-        "trust-mcq-07": "「相信判斷力」是「trust your judgment」的用法，與本句語境不同。",
-        "trust-mcq-02": "「相信某人會做好 X」是「trust someone to do X」的用法，與本句語境不同。"
+        "trust-mcq-05": "本句的「trust that you understand」指「相信……」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-05"
     },
@@ -1025,11 +953,7 @@ export default {
       "masked": "We ____.",
       "options": [
         "trust-mcq-05",
-        "trust-mcq-04",
-        "trust-mcq-06",
-        "trust-mcq-03",
-        "trust-mcq-07",
-        "trust-mcq-02"
+        "trust-mcq-28"
       ],
       "explanation": "本句的「trust that the problem will be resolved soon」指「相信……」。",
       "sentenceIndex": 11,
@@ -1038,12 +962,8 @@ export default {
         "trust that the problem will be resolved soon"
       ],
       "optionReasons": {
-        "trust-mcq-05": "本句指「相信……」。",
-        "trust-mcq-04": "「相信某物／資訊可靠」是「trust something」的用法，與本句語境不同。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。",
-        "trust-mcq-03": "「把 X 交託給某人」是「trust someone with X」的用法，與本句語境不同。",
-        "trust-mcq-07": "「相信判斷力」是「trust your judgment」的用法，與本句語境不同。",
-        "trust-mcq-02": "「相信某人會做好 X」是「trust someone to do X」的用法，與本句語境不同。"
+        "trust-mcq-05": "本句的「trust that the problem will be resolved soon」指「相信……」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-05"
     },
@@ -1055,10 +975,6 @@ export default {
       "masked": "Sometimes you have to ____.",
       "options": [
         "trust-mcq-06",
-        "trust-mcq-05",
-        "trust-mcq-07",
-        "trust-mcq-04",
-        "trust-mcq-08",
         "trust-mcq-03"
       ],
       "explanation": "本句的「trust your instincts」指「相信直覺」。",
@@ -1068,12 +984,8 @@ export default {
         "trust your instincts"
       ],
       "optionReasons": {
-        "trust-mcq-06": "本句指「相信直覺」。",
-        "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。",
-        "trust-mcq-07": "「相信判斷力」是「trust your judgment」的用法，與本句語境不同。",
-        "trust-mcq-04": "「相信某物／資訊可靠」是「trust something」的用法，與本句語境不同。",
-        "trust-mcq-08": "「相信記憶」是「trust your memory」的用法，與本句語境不同。",
-        "trust-mcq-03": "「把 X 交託給某人」是「trust someone with X」的用法，與本句語境不同。"
+        "trust-mcq-06": "本句的「trust your instincts」指「相信直覺」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-06"
     },
@@ -1085,11 +997,7 @@ export default {
       "masked": "She ____ and decided not to go.",
       "options": [
         "trust-mcq-06",
-        "trust-mcq-05",
-        "trust-mcq-07",
-        "trust-mcq-04",
-        "trust-mcq-08",
-        "trust-mcq-03"
+        "trust-mcq-28"
       ],
       "explanation": "本句的「trusted her instincts」指「相信直覺」。",
       "sentenceIndex": 13,
@@ -1098,12 +1006,8 @@ export default {
         "trusted her instincts"
       ],
       "optionReasons": {
-        "trust-mcq-06": "本句指「相信直覺」。",
-        "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。",
-        "trust-mcq-07": "「相信判斷力」是「trust your judgment」的用法，與本句語境不同。",
-        "trust-mcq-04": "「相信某物／資訊可靠」是「trust something」的用法，與本句語境不同。",
-        "trust-mcq-08": "「相信記憶」是「trust your memory」的用法，與本句語境不同。",
-        "trust-mcq-03": "「把 X 交託給某人」是「trust someone with X」的用法，與本句語境不同。"
+        "trust-mcq-06": "本句的「trusted her instincts」指「相信直覺」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-06"
     },
@@ -1115,11 +1019,9 @@ export default {
       "masked": "You need to learn to ____.",
       "options": [
         "trust-mcq-07",
-        "trust-mcq-06",
-        "trust-mcq-08",
-        "trust-mcq-05",
-        "trust-mcq-09",
-        "trust-mcq-04"
+        "trust-mcq-03",
+        "trust-mcq-20",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「trust your own judgment」指「相信判斷力」。",
       "sentenceIndex": 14,
@@ -1128,12 +1030,10 @@ export default {
         "trust your own judgment"
       ],
       "optionReasons": {
-        "trust-mcq-07": "本句指「相信判斷力」。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。",
-        "trust-mcq-08": "「相信記憶」是「trust your memory」的用法，與本句語境不同。",
-        "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。",
-        "trust-mcq-09": "「信賴；對……有信心」是「trust in someone/something」的用法，與本句語境不同。",
-        "trust-mcq-04": "「相信某物／資訊可靠」是「trust something」的用法，與本句語境不同。"
+        "trust-mcq-07": "本句的「trust your own judgment」指「相信判斷力」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-07"
     },
@@ -1145,11 +1045,9 @@ export default {
       "masked": "I ____ when it comes to hiring staff.",
       "options": [
         "trust-mcq-07",
-        "trust-mcq-06",
-        "trust-mcq-08",
-        "trust-mcq-05",
-        "trust-mcq-09",
-        "trust-mcq-04"
+        "trust-mcq-03",
+        "trust-mcq-19",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「trust her judgment」指「相信判斷力」。",
       "sentenceIndex": 15,
@@ -1158,12 +1056,10 @@ export default {
         "trust her judgment"
       ],
       "optionReasons": {
-        "trust-mcq-07": "本句指「相信判斷力」。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。",
-        "trust-mcq-08": "「相信記憶」是「trust your memory」的用法，與本句語境不同。",
-        "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。",
-        "trust-mcq-09": "「信賴；對……有信心」是「trust in someone/something」的用法，與本句語境不同。",
-        "trust-mcq-04": "「相信某物／資訊可靠」是「trust something」的用法，與本句語境不同。"
+        "trust-mcq-07": "本句的「trust her judgment」指「相信判斷力」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-07"
     },
@@ -1175,11 +1071,7 @@ export default {
       "masked": "I don't ____ enough to answer without checking.",
       "options": [
         "trust-mcq-08",
-        "trust-mcq-07",
-        "trust-mcq-09",
-        "trust-mcq-06",
-        "trust-mcq-10",
-        "trust-mcq-05"
+        "trust-mcq-28"
       ],
       "explanation": "本句的「trust my memory」指「相信記憶」。",
       "sentenceIndex": 16,
@@ -1188,12 +1080,8 @@ export default {
         "trust my memory"
       ],
       "optionReasons": {
-        "trust-mcq-08": "本句指「相信記憶」。",
-        "trust-mcq-07": "「相信判斷力」是「trust your judgment」的用法，與本句語境不同。",
-        "trust-mcq-09": "「信賴；對……有信心」是「trust in someone/something」的用法，與本句語境不同。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。",
-        "trust-mcq-10": "「信任；信賴」是「trust (noun)」的用法，與本句語境不同。",
-        "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。"
+        "trust-mcq-08": "本句的「trust my memory」指「相信記憶」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-08"
     },
@@ -1205,11 +1093,7 @@ export default {
       "masked": "In the dark, he couldn't fully ____.",
       "options": [
         "trust-mcq-08",
-        "trust-mcq-07",
-        "trust-mcq-09",
-        "trust-mcq-06",
-        "trust-mcq-10",
-        "trust-mcq-05"
+        "trust-mcq-03"
       ],
       "explanation": "本句的「trust his eyes」指「相信記憶」。",
       "sentenceIndex": 17,
@@ -1218,12 +1102,8 @@ export default {
         "trust his eyes"
       ],
       "optionReasons": {
-        "trust-mcq-08": "本句指「相信記憶」。",
-        "trust-mcq-07": "「相信判斷力」是「trust your judgment」的用法，與本句語境不同。",
-        "trust-mcq-09": "「信賴；對……有信心」是「trust in someone/something」的用法，與本句語境不同。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。",
-        "trust-mcq-10": "「信任；信賴」是「trust (noun)」的用法，與本句語境不同。",
-        "trust-mcq-05": "「相信……」是「trust that...」的用法，與本句語境不同。"
+        "trust-mcq-08": "本句的「trust his eyes」指「相信記憶」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-08"
     },
@@ -1235,11 +1115,7 @@ export default {
       "masked": "She has great ____.",
       "options": [
         "trust-mcq-09",
-        "trust-mcq-08",
-        "trust-mcq-10",
-        "trust-mcq-07",
-        "trust-mcq-11",
-        "trust-mcq-06"
+        "trust-mcq-03"
       ],
       "explanation": "本句的「trust in her team」指「信賴；對……有信心」。",
       "sentenceIndex": 18,
@@ -1248,12 +1124,8 @@ export default {
         "trust in her team"
       ],
       "optionReasons": {
-        "trust-mcq-09": "本句指「信賴；對……有信心」。",
-        "trust-mcq-08": "「相信記憶」是「trust your memory」的用法，與本句語境不同。",
-        "trust-mcq-10": "「信任；信賴」是「trust (noun)」的用法，與本句語境不同。",
-        "trust-mcq-07": "「相信判斷力」是「trust your judgment」的用法，與本句語境不同。",
-        "trust-mcq-11": "「贏得信任」是「earn trust」的用法，與本句語境不同。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。"
+        "trust-mcq-09": "本句的「trust in her team」指「信賴；對……有信心」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-09"
     },
@@ -1265,11 +1137,7 @@ export default {
       "masked": "Many people place their ____.",
       "options": [
         "trust-mcq-09",
-        "trust-mcq-08",
-        "trust-mcq-10",
-        "trust-mcq-07",
-        "trust-mcq-11",
-        "trust-mcq-06"
+        "trust-mcq-03"
       ],
       "explanation": "本句的「trust in science」指「信賴；對……有信心」。",
       "sentenceIndex": 19,
@@ -1278,12 +1146,8 @@ export default {
         "trust in science"
       ],
       "optionReasons": {
-        "trust-mcq-09": "本句指「信賴；對……有信心」。",
-        "trust-mcq-08": "「相信記憶」是「trust your memory」的用法，與本句語境不同。",
-        "trust-mcq-10": "「信任；信賴」是「trust (noun)」的用法，與本句語境不同。",
-        "trust-mcq-07": "「相信判斷力」是「trust your judgment」的用法，與本句語境不同。",
-        "trust-mcq-11": "「贏得信任」是「earn trust」的用法，與本句語境不同。",
-        "trust-mcq-06": "「相信直覺」是「trust your instincts」的用法，與本句語境不同。"
+        "trust-mcq-09": "本句的「trust in science」指「信賴；對……有信心」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-09"
     },
@@ -1295,11 +1159,7 @@ export default {
       "masked": "A good relationship depends on ____.",
       "options": [
         "trust-mcq-10",
-        "trust-mcq-09",
-        "trust-mcq-11",
-        "trust-mcq-08",
-        "trust-mcq-12",
-        "trust-mcq-07"
+        "trust-mcq-03"
       ],
       "explanation": "本句的「trust」指「信任；信賴」。",
       "sentenceIndex": 20,
@@ -1308,12 +1168,8 @@ export default {
         "trust"
       ],
       "optionReasons": {
-        "trust-mcq-10": "本句指「信任；信賴」。",
-        "trust-mcq-09": "「信賴；對……有信心」是「trust in someone/something」的用法，與本句語境不同。",
-        "trust-mcq-11": "「贏得信任」是「earn trust」的用法，與本句語境不同。",
-        "trust-mcq-08": "「相信記憶」是「trust your memory」的用法，與本句語境不同。",
-        "trust-mcq-12": "「建立信任」是「build trust」的用法，與本句語境不同。",
-        "trust-mcq-07": "「相信判斷力」是「trust your judgment」的用法，與本句語境不同。"
+        "trust-mcq-10": "本句的「trust」指「信任；信賴」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-10"
     },
@@ -1325,11 +1181,7 @@ export default {
       "masked": "Once ____ is lost, it can be difficult to rebuild.",
       "options": [
         "trust-mcq-10",
-        "trust-mcq-09",
-        "trust-mcq-11",
-        "trust-mcq-08",
-        "trust-mcq-12",
-        "trust-mcq-07"
+        "trust-mcq-28"
       ],
       "explanation": "本句的「trust」指「信任；信賴」。",
       "sentenceIndex": 21,
@@ -1338,12 +1190,8 @@ export default {
         "trust"
       ],
       "optionReasons": {
-        "trust-mcq-10": "本句指「信任；信賴」。",
-        "trust-mcq-09": "「信賴；對……有信心」是「trust in someone/something」的用法，與本句語境不同。",
-        "trust-mcq-11": "「贏得信任」是「earn trust」的用法，與本句語境不同。",
-        "trust-mcq-08": "「相信記憶」是「trust your memory」的用法，與本句語境不同。",
-        "trust-mcq-12": "「建立信任」是「build trust」的用法，與本句語境不同。",
-        "trust-mcq-07": "「相信判斷力」是「trust your judgment」的用法，與本句語境不同。"
+        "trust-mcq-10": "本句的「trust」指「信任；信賴」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-10"
     },
@@ -1355,11 +1203,7 @@ export default {
       "masked": "It took months for him to ____.",
       "options": [
         "trust-mcq-11",
-        "trust-mcq-10",
-        "trust-mcq-12",
-        "trust-mcq-09",
-        "trust-mcq-13",
-        "trust-mcq-08"
+        "trust-mcq-03"
       ],
       "explanation": "本句的「earn her trust」指「贏得信任」。",
       "sentenceIndex": 22,
@@ -1368,12 +1212,8 @@ export default {
         "earn her trust"
       ],
       "optionReasons": {
-        "trust-mcq-11": "本句指「贏得信任」。",
-        "trust-mcq-10": "「信任；信賴」是「trust (noun)」的用法，與本句語境不同。",
-        "trust-mcq-12": "「建立信任」是「build trust」的用法，與本句語境不同。",
-        "trust-mcq-09": "「信賴；對……有信心」是「trust in someone/something」的用法，與本句語境不同。",
-        "trust-mcq-13": "「取得信任」是「gain trust」的用法，與本句語境不同。",
-        "trust-mcq-08": "「相信記憶」是「trust your memory」的用法，與本句語境不同。"
+        "trust-mcq-11": "本句的「earn her trust」指「贏得信任」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-11"
     },
@@ -1385,11 +1225,7 @@ export default {
       "masked": "Good leaders must ____ of their teams.",
       "options": [
         "trust-mcq-11",
-        "trust-mcq-10",
-        "trust-mcq-12",
-        "trust-mcq-09",
-        "trust-mcq-13",
-        "trust-mcq-08"
+        "trust-mcq-03"
       ],
       "explanation": "本句的「earn the trust」指「贏得信任」。",
       "sentenceIndex": 23,
@@ -1398,12 +1234,8 @@ export default {
         "earn the trust"
       ],
       "optionReasons": {
-        "trust-mcq-11": "本句指「贏得信任」。",
-        "trust-mcq-10": "「信任；信賴」是「trust (noun)」的用法，與本句語境不同。",
-        "trust-mcq-12": "「建立信任」是「build trust」的用法，與本句語境不同。",
-        "trust-mcq-09": "「信賴；對……有信心」是「trust in someone/something」的用法，與本句語境不同。",
-        "trust-mcq-13": "「取得信任」是「gain trust」的用法，與本句語境不同。",
-        "trust-mcq-08": "「相信記憶」是「trust your memory」的用法，與本句語境不同。"
+        "trust-mcq-11": "本句的「earn the trust」指「贏得信任」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-11"
     },
@@ -1415,11 +1247,9 @@ export default {
       "masked": "Honest communication helps ____.",
       "options": [
         "trust-mcq-12",
-        "trust-mcq-11",
-        "trust-mcq-13",
-        "trust-mcq-10",
-        "trust-mcq-14",
-        "trust-mcq-09"
+        "trust-mcq-03",
+        "trust-mcq-04",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「build trust」指「建立信任」。",
       "sentenceIndex": 24,
@@ -1428,12 +1258,10 @@ export default {
         "build trust"
       ],
       "optionReasons": {
-        "trust-mcq-12": "本句指「建立信任」。",
-        "trust-mcq-11": "「贏得信任」是「earn trust」的用法，與本句語境不同。",
-        "trust-mcq-13": "「取得信任」是「gain trust」的用法，與本句語境不同。",
-        "trust-mcq-10": "「信任；信賴」是「trust (noun)」的用法，與本句語境不同。",
-        "trust-mcq-14": "「失去信任」是「lose trust」的用法，與本句語境不同。",
-        "trust-mcq-09": "「信賴；對……有信心」是「trust in someone/something」的用法，與本句語境不同。"
+        "trust-mcq-12": "本句的「build trust」指「建立信任」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-12"
     },
@@ -1445,11 +1273,9 @@ export default {
       "masked": "It takes time to ____ between two people.",
       "options": [
         "trust-mcq-12",
-        "trust-mcq-11",
-        "trust-mcq-13",
-        "trust-mcq-10",
-        "trust-mcq-14",
-        "trust-mcq-09"
+        "trust-mcq-03",
+        "trust-mcq-07",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「build trust」指「建立信任」。",
       "sentenceIndex": 25,
@@ -1458,12 +1284,10 @@ export default {
         "build trust"
       ],
       "optionReasons": {
-        "trust-mcq-12": "本句指「建立信任」。",
-        "trust-mcq-11": "「贏得信任」是「earn trust」的用法，與本句語境不同。",
-        "trust-mcq-13": "「取得信任」是「gain trust」的用法，與本句語境不同。",
-        "trust-mcq-10": "「信任；信賴」是「trust (noun)」的用法，與本句語境不同。",
-        "trust-mcq-14": "「失去信任」是「lose trust」的用法，與本句語境不同。",
-        "trust-mcq-09": "「信賴；對……有信心」是「trust in someone/something」的用法，與本句語境不同。"
+        "trust-mcq-12": "本句的「build trust」指「建立信任」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-12"
     },
@@ -1475,11 +1299,7 @@ export default {
       "masked": "She slowly ____.",
       "options": [
         "trust-mcq-13",
-        "trust-mcq-12",
-        "trust-mcq-14",
-        "trust-mcq-11",
-        "trust-mcq-15",
-        "trust-mcq-10"
+        "trust-mcq-28"
       ],
       "explanation": "本句的「gained the child's trust」指「取得信任」。",
       "sentenceIndex": 26,
@@ -1488,12 +1308,8 @@ export default {
         "gained the child's trust"
       ],
       "optionReasons": {
-        "trust-mcq-13": "本句指「取得信任」。",
-        "trust-mcq-12": "「建立信任」是「build trust」的用法，與本句語境不同。",
-        "trust-mcq-14": "「失去信任」是「lose trust」的用法，與本句語境不同。",
-        "trust-mcq-11": "「贏得信任」是「earn trust」的用法，與本句語境不同。",
-        "trust-mcq-15": "「背叛／辜負信任」是「betray trust」的用法，與本句語境不同。",
-        "trust-mcq-10": "「信任；信賴」是「trust (noun)」的用法，與本句語境不同。"
+        "trust-mcq-13": "本句的「gained the child's trust」指「取得信任」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-13"
     },
@@ -1505,11 +1321,7 @@ export default {
       "masked": "A doctor needs to ____.",
       "options": [
         "trust-mcq-13",
-        "trust-mcq-12",
-        "trust-mcq-14",
-        "trust-mcq-11",
-        "trust-mcq-15",
-        "trust-mcq-10"
+        "trust-mcq-28"
       ],
       "explanation": "本句的「gain the trust of patients」指「取得信任」。",
       "sentenceIndex": 27,
@@ -1518,12 +1330,8 @@ export default {
         "gain the trust of patients"
       ],
       "optionReasons": {
-        "trust-mcq-13": "本句指「取得信任」。",
-        "trust-mcq-12": "「建立信任」是「build trust」的用法，與本句語境不同。",
-        "trust-mcq-14": "「失去信任」是「lose trust」的用法，與本句語境不同。",
-        "trust-mcq-11": "「贏得信任」是「earn trust」的用法，與本句語境不同。",
-        "trust-mcq-15": "「背叛／辜負信任」是「betray trust」的用法，與本句語境不同。",
-        "trust-mcq-10": "「信任；信賴」是「trust (noun)」的用法，與本句語境不同。"
+        "trust-mcq-13": "本句的「gain the trust of patients」指「取得信任」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-13"
     },
@@ -1535,11 +1343,9 @@ export default {
       "masked": "He lied repeatedly and eventually ____.",
       "options": [
         "trust-mcq-14",
-        "trust-mcq-13",
-        "trust-mcq-15",
-        "trust-mcq-12",
-        "trust-mcq-16",
-        "trust-mcq-11"
+        "trust-mcq-03",
+        "trust-mcq-04",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「lost her trust」指「失去信任」。",
       "sentenceIndex": 28,
@@ -1548,12 +1354,10 @@ export default {
         "lost her trust"
       ],
       "optionReasons": {
-        "trust-mcq-14": "本句指「失去信任」。",
-        "trust-mcq-13": "「取得信任」是「gain trust」的用法，與本句語境不同。",
-        "trust-mcq-15": "「背叛／辜負信任」是「betray trust」的用法，與本句語境不同。",
-        "trust-mcq-12": "「建立信任」是「build trust」的用法，與本句語境不同。",
-        "trust-mcq-16": "「重建信任」是「rebuild trust」的用法，與本句語境不同。",
-        "trust-mcq-11": "「贏得信任」是「earn trust」的用法，與本句語境不同。"
+        "trust-mcq-14": "本句的「lost her trust」指「失去信任」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-14"
     },
@@ -1565,11 +1369,9 @@ export default {
       "masked": "A company can quickly ____ after a serious scandal.",
       "options": [
         "trust-mcq-14",
-        "trust-mcq-13",
-        "trust-mcq-15",
-        "trust-mcq-12",
-        "trust-mcq-16",
-        "trust-mcq-11"
+        "trust-mcq-28",
+        "trust-mcq-04",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「lose public trust」指「失去信任」。",
       "sentenceIndex": 29,
@@ -1578,12 +1380,10 @@ export default {
         "lose public trust"
       ],
       "optionReasons": {
-        "trust-mcq-14": "本句指「失去信任」。",
-        "trust-mcq-13": "「取得信任」是「gain trust」的用法，與本句語境不同。",
-        "trust-mcq-15": "「背叛／辜負信任」是「betray trust」的用法，與本句語境不同。",
-        "trust-mcq-12": "「建立信任」是「build trust」的用法，與本句語境不同。",
-        "trust-mcq-16": "「重建信任」是「rebuild trust」的用法，與本句語境不同。",
-        "trust-mcq-11": "「贏得信任」是「earn trust」的用法，與本句語境不同。"
+        "trust-mcq-14": "本句的「lose public trust」指「失去信任」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-14"
     },
@@ -1595,11 +1395,9 @@ export default {
       "masked": "She felt that he had ____.",
       "options": [
         "trust-mcq-29",
-        "trust-mcq-28",
-        "trust-mcq-27",
-        "trust-mcq-26",
-        "trust-mcq-25",
-        "trust-mcq-24"
+        "trust-mcq-03",
+        "trust-mcq-04",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「betrayed her trust」指「做出違反對方信任的事情，使信任關係受到破壞」。",
       "sentenceIndex": 30,
@@ -1608,12 +1406,10 @@ export default {
         "betrayed her trust"
       ],
       "optionReasons": {
-        "trust-mcq-29": "本句指「做出違反對方信任的事情，使信任關係受到破壞」。",
-        "trust-mcq-28": "「受託人」是「trustee」的用法，與本句語境不同。",
-        "trust-mcq-27": "「信託基金」是「trust fund」的用法，與本句語境不同。",
-        "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
-        "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
-        "trust-mcq-24": "「不信任」是「distrust」的用法，與本句語境不同。"
+        "trust-mcq-29": "本句的「betrayed her trust」指「做出違反對方信任的事情，使信任關係受到破壞」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-29"
     },
@@ -1625,11 +1421,9 @@ export default {
       "masked": "Sharing that private information would ____.",
       "options": [
         "trust-mcq-29",
-        "trust-mcq-28",
-        "trust-mcq-27",
-        "trust-mcq-26",
-        "trust-mcq-25",
-        "trust-mcq-24"
+        "trust-mcq-03",
+        "trust-mcq-23",
+        "trust-mcq-07"
       ],
       "explanation": "本句的「break his trust」指「做出違反對方信任的事情，使信任關係受到破壞」。",
       "sentenceIndex": 31,
@@ -1638,12 +1432,10 @@ export default {
         "break his trust"
       ],
       "optionReasons": {
-        "trust-mcq-29": "本句指「做出違反對方信任的事情，使信任關係受到破壞」。",
-        "trust-mcq-28": "「受託人」是「trustee」的用法，與本句語境不同。",
-        "trust-mcq-27": "「信託基金」是「trust fund」的用法，與本句語境不同。",
-        "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
-        "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
-        "trust-mcq-24": "「不信任」是「distrust」的用法，與本句語境不同。"
+        "trust-mcq-29": "本句的「break his trust」指「做出違反對方信任的事情，使信任關係受到破壞」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-29"
     },
@@ -1655,11 +1447,9 @@ export default {
       "masked": "The company is trying to ____.",
       "options": [
         "trust-mcq-16",
-        "trust-mcq-15",
-        "trust-mcq-17",
-        "trust-mcq-14",
-        "trust-mcq-18",
-        "trust-mcq-13"
+        "trust-mcq-03",
+        "trust-mcq-07",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「rebuild public trust」指「重建信任」。",
       "sentenceIndex": 32,
@@ -1668,12 +1458,10 @@ export default {
         "rebuild public trust"
       ],
       "optionReasons": {
-        "trust-mcq-16": "本句指「重建信任」。",
-        "trust-mcq-15": "「背叛／辜負信任」是「betray trust」的用法，與本句語境不同。",
-        "trust-mcq-17": "「信賴；把信任寄託於」是「put/place trust in」的用法，與本句語境不同。",
-        "trust-mcq-14": "「失去信任」是「lose trust」的用法，與本句語境不同。",
-        "trust-mcq-18": "「受信任職位」是「position of trust」的用法，與本句語境不同。",
-        "trust-mcq-13": "「取得信任」是「gain trust」的用法，與本句語境不同。"
+        "trust-mcq-16": "本句的「rebuild public trust」指「重建信任」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-16"
     },
@@ -1685,11 +1473,9 @@ export default {
       "masked": "An apology alone may not be enough to ____.",
       "options": [
         "trust-mcq-16",
-        "trust-mcq-15",
-        "trust-mcq-17",
-        "trust-mcq-14",
-        "trust-mcq-18",
-        "trust-mcq-13"
+        "trust-mcq-28",
+        "trust-mcq-07",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「restore trust」指「重建信任」。",
       "sentenceIndex": 33,
@@ -1698,12 +1484,10 @@ export default {
         "restore trust"
       ],
       "optionReasons": {
-        "trust-mcq-16": "本句指「重建信任」。",
-        "trust-mcq-15": "「背叛／辜負信任」是「betray trust」的用法，與本句語境不同。",
-        "trust-mcq-17": "「信賴；把信任寄託於」是「put/place trust in」的用法，與本句語境不同。",
-        "trust-mcq-14": "「失去信任」是「lose trust」的用法，與本句語境不同。",
-        "trust-mcq-18": "「受信任職位」是「position of trust」的用法，與本句語境不同。",
-        "trust-mcq-13": "「取得信任」是「gain trust」的用法，與本句語境不同。"
+        "trust-mcq-16": "本句的「restore trust」指「重建信任」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-16"
     },
@@ -1715,11 +1499,7 @@ export default {
       "masked": "She ____ the wrong person.",
       "options": [
         "trust-mcq-17",
-        "trust-mcq-16",
-        "trust-mcq-18",
-        "trust-mcq-15",
-        "trust-mcq-19",
-        "trust-mcq-14"
+        "trust-mcq-04"
       ],
       "explanation": "本句的「placed her trust in」指「信賴；把信任寄託於」。",
       "sentenceIndex": 34,
@@ -1728,12 +1508,8 @@ export default {
         "placed her trust in"
       ],
       "optionReasons": {
-        "trust-mcq-17": "本句指「信賴；把信任寄託於」。",
-        "trust-mcq-16": "「重建信任」是「rebuild trust」的用法，與本句語境不同。",
-        "trust-mcq-18": "「受信任職位」是「position of trust」的用法，與本句語境不同。",
-        "trust-mcq-15": "「背叛／辜負信任」是「betray trust」的用法，與本句語境不同。",
-        "trust-mcq-19": "「違背信任」是「breach of trust」的用法，與本句語境不同。",
-        "trust-mcq-14": "「失去信任」是「lose trust」的用法，與本句語境不同。"
+        "trust-mcq-17": "本句的「placed her trust in」指「信賴；把信任寄託於」。",
+        "trust-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-17"
     },
@@ -1745,11 +1521,7 @@ export default {
       "masked": "Many people ____ experienced professionals.",
       "options": [
         "trust-mcq-17",
-        "trust-mcq-16",
-        "trust-mcq-18",
-        "trust-mcq-15",
-        "trust-mcq-19",
-        "trust-mcq-14"
+        "trust-mcq-04"
       ],
       "explanation": "本句的「put their trust in」指「信賴；把信任寄託於」。",
       "sentenceIndex": 35,
@@ -1758,12 +1530,8 @@ export default {
         "put their trust in"
       ],
       "optionReasons": {
-        "trust-mcq-17": "本句指「信賴；把信任寄託於」。",
-        "trust-mcq-16": "「重建信任」是「rebuild trust」的用法，與本句語境不同。",
-        "trust-mcq-18": "「受信任職位」是「position of trust」的用法，與本句語境不同。",
-        "trust-mcq-15": "「背叛／辜負信任」是「betray trust」的用法，與本句語境不同。",
-        "trust-mcq-19": "「違背信任」是「breach of trust」的用法，與本句語境不同。",
-        "trust-mcq-14": "「失去信任」是「lose trust」的用法，與本句語境不同。"
+        "trust-mcq-17": "本句的「put their trust in」指「信賴；把信任寄託於」。",
+        "trust-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-17"
     },
@@ -1775,11 +1543,9 @@ export default {
       "masked": "Teachers hold a ____.",
       "options": [
         "trust-mcq-18",
-        "trust-mcq-17",
-        "trust-mcq-19",
-        "trust-mcq-16",
-        "trust-mcq-20",
-        "trust-mcq-15"
+        "trust-mcq-03",
+        "trust-mcq-07",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「position of trust」指「受信任職位」。",
       "sentenceIndex": 36,
@@ -1788,12 +1554,10 @@ export default {
         "position of trust"
       ],
       "optionReasons": {
-        "trust-mcq-18": "本句指「受信任職位」。",
-        "trust-mcq-17": "「信賴；把信任寄託於」是「put/place trust in」的用法，與本句語境不同。",
-        "trust-mcq-19": "「違背信任」是「breach of trust」的用法，與本句語境不同。",
-        "trust-mcq-16": "「重建信任」是「rebuild trust」的用法，與本句語境不同。",
-        "trust-mcq-20": "「公眾信任」是「public trust」的用法，與本句語境不同。",
-        "trust-mcq-15": "「背叛／辜負信任」是「betray trust」的用法，與本句語境不同。"
+        "trust-mcq-18": "本句的「position of trust」指「受信任職位」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-18"
     },
@@ -1805,11 +1569,9 @@ export default {
       "masked": "He abused his ____.",
       "options": [
         "trust-mcq-18",
-        "trust-mcq-17",
-        "trust-mcq-19",
-        "trust-mcq-16",
-        "trust-mcq-20",
-        "trust-mcq-15"
+        "trust-mcq-03",
+        "trust-mcq-04",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「position of trust」指「受信任職位」。",
       "sentenceIndex": 37,
@@ -1818,12 +1580,10 @@ export default {
         "position of trust"
       ],
       "optionReasons": {
-        "trust-mcq-18": "本句指「受信任職位」。",
-        "trust-mcq-17": "「信賴；把信任寄託於」是「put/place trust in」的用法，與本句語境不同。",
-        "trust-mcq-19": "「違背信任」是「breach of trust」的用法，與本句語境不同。",
-        "trust-mcq-16": "「重建信任」是「rebuild trust」的用法，與本句語境不同。",
-        "trust-mcq-20": "「公眾信任」是「public trust」的用法，與本句語境不同。",
-        "trust-mcq-15": "「背叛／辜負信任」是「betray trust」的用法，與本句語境不同。"
+        "trust-mcq-18": "本句的「position of trust」指「受信任職位」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-18"
     },
@@ -1835,11 +1595,9 @@ export default {
       "masked": "The disclosure was seen as a serious ____.",
       "options": [
         "trust-mcq-19",
-        "trust-mcq-18",
-        "trust-mcq-20",
-        "trust-mcq-17",
-        "trust-mcq-21",
-        "trust-mcq-16"
+        "trust-mcq-28",
+        "trust-mcq-04",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「breach of trust」指「違背信任」。",
       "sentenceIndex": 38,
@@ -1848,12 +1606,10 @@ export default {
         "breach of trust"
       ],
       "optionReasons": {
-        "trust-mcq-19": "本句指「違背信任」。",
-        "trust-mcq-18": "「受信任職位」是「position of trust」的用法，與本句語境不同。",
-        "trust-mcq-20": "「公眾信任」是「public trust」的用法，與本句語境不同。",
-        "trust-mcq-17": "「信賴；把信任寄託於」是「put/place trust in」的用法，與本句語境不同。",
-        "trust-mcq-21": "「容易相信別人的」是「trusting」的用法，與本句語境不同。",
-        "trust-mcq-16": "「重建信任」是「rebuild trust」的用法，與本句語境不同。"
+        "trust-mcq-19": "本句的「breach of trust」指「違背信任」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-19"
     },
@@ -1865,11 +1621,9 @@ export default {
       "masked": "Misusing confidential information can amount to a ____.",
       "options": [
         "trust-mcq-19",
-        "trust-mcq-18",
-        "trust-mcq-20",
-        "trust-mcq-17",
-        "trust-mcq-21",
-        "trust-mcq-16"
+        "trust-mcq-28",
+        "trust-mcq-23",
+        "trust-mcq-04"
       ],
       "explanation": "本句的「breach of trust」指「違背信任」。",
       "sentenceIndex": 39,
@@ -1878,12 +1632,10 @@ export default {
         "breach of trust"
       ],
       "optionReasons": {
-        "trust-mcq-19": "本句指「違背信任」。",
-        "trust-mcq-18": "「受信任職位」是「position of trust」的用法，與本句語境不同。",
-        "trust-mcq-20": "「公眾信任」是「public trust」的用法，與本句語境不同。",
-        "trust-mcq-17": "「信賴；把信任寄託於」是「put/place trust in」的用法，與本句語境不同。",
-        "trust-mcq-21": "「容易相信別人的」是「trusting」的用法，與本句語境不同。",
-        "trust-mcq-16": "「重建信任」是「rebuild trust」的用法，與本句語境不同。"
+        "trust-mcq-19": "本句的「breach of trust」指「違背信任」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-19"
     },
@@ -1895,11 +1647,9 @@ export default {
       "masked": "Transparency is essential for maintaining ____.",
       "options": [
         "trust-mcq-20",
-        "trust-mcq-19",
-        "trust-mcq-21",
-        "trust-mcq-18",
-        "trust-mcq-22",
-        "trust-mcq-17"
+        "trust-mcq-03",
+        "trust-mcq-07",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「public trust」指「公眾信任」。",
       "sentenceIndex": 40,
@@ -1908,12 +1658,10 @@ export default {
         "public trust"
       ],
       "optionReasons": {
-        "trust-mcq-20": "本句指「公眾信任」。",
-        "trust-mcq-19": "「違背信任」是「breach of trust」的用法，與本句語境不同。",
-        "trust-mcq-21": "「容易相信別人的」是「trusting」的用法，與本句語境不同。",
-        "trust-mcq-18": "「受信任職位」是「position of trust」的用法，與本句語境不同。",
-        "trust-mcq-22": "「值得信賴的」是「trustworthy」的用法，與本句語境不同。",
-        "trust-mcq-17": "「信賴；把信任寄託於」是「put/place trust in」的用法，與本句語境不同。"
+        "trust-mcq-20": "本句的「public trust」指「公眾信任」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-20"
     },
@@ -1925,11 +1673,9 @@ export default {
       "masked": "The incident damaged ____ in the organization.",
       "options": [
         "trust-mcq-20",
-        "trust-mcq-19",
-        "trust-mcq-21",
-        "trust-mcq-18",
-        "trust-mcq-22",
-        "trust-mcq-17"
+        "trust-mcq-03",
+        "trust-mcq-07",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「public trust」指「公眾信任」。",
       "sentenceIndex": 41,
@@ -1938,12 +1684,10 @@ export default {
         "public trust"
       ],
       "optionReasons": {
-        "trust-mcq-20": "本句指「公眾信任」。",
-        "trust-mcq-19": "「違背信任」是「breach of trust」的用法，與本句語境不同。",
-        "trust-mcq-21": "「容易相信別人的」是「trusting」的用法，與本句語境不同。",
-        "trust-mcq-18": "「受信任職位」是「position of trust」的用法，與本句語境不同。",
-        "trust-mcq-22": "「值得信賴的」是「trustworthy」的用法，與本句語境不同。",
-        "trust-mcq-17": "「信賴；把信任寄託於」是「put/place trust in」的用法，與本句語境不同。"
+        "trust-mcq-20": "本句的「public trust」指「公眾信任」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-20"
     },
@@ -1955,11 +1699,7 @@ export default {
       "masked": "She is honest and completely ____.",
       "options": [
         "trust-mcq-22",
-        "trust-mcq-21",
-        "trust-mcq-23",
-        "trust-mcq-20",
-        "trust-mcq-24",
-        "trust-mcq-19"
+        "trust-mcq-28"
       ],
       "explanation": "本句的「trustworthy」指「值得信賴的」。",
       "sentenceIndex": 42,
@@ -1968,12 +1708,8 @@ export default {
         "trustworthy"
       ],
       "optionReasons": {
-        "trust-mcq-22": "本句指「值得信賴的」。",
-        "trust-mcq-21": "「容易相信別人的」是「trusting」的用法，與本句語境不同。",
-        "trust-mcq-23": "「可信賴程度」是「trustworthiness」的用法，與本句語境不同。",
-        "trust-mcq-20": "「公眾信任」是「public trust」的用法，與本句語境不同。",
-        "trust-mcq-24": "「不信任」是「distrust」的用法，與本句語境不同。",
-        "trust-mcq-19": "「違背信任」是「breach of trust」的用法，與本句語境不同。"
+        "trust-mcq-22": "本句的「trustworthy」指「值得信賴的」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-22"
     },
@@ -1985,11 +1721,7 @@ export default {
       "masked": "Make sure your information comes from a ____.",
       "options": [
         "trust-mcq-22",
-        "trust-mcq-21",
-        "trust-mcq-23",
-        "trust-mcq-20",
-        "trust-mcq-24",
-        "trust-mcq-19"
+        "trust-mcq-03"
       ],
       "explanation": "本句的「trustworthy source」指「值得信賴的」。",
       "sentenceIndex": 43,
@@ -1998,12 +1730,8 @@ export default {
         "trustworthy source"
       ],
       "optionReasons": {
-        "trust-mcq-22": "本句指「值得信賴的」。",
-        "trust-mcq-21": "「容易相信別人的」是「trusting」的用法，與本句語境不同。",
-        "trust-mcq-23": "「可信賴程度」是「trustworthiness」的用法，與本句語境不同。",
-        "trust-mcq-20": "「公眾信任」是「public trust」的用法，與本句語境不同。",
-        "trust-mcq-24": "「不信任」是「distrust」的用法，與本句語境不同。",
-        "trust-mcq-19": "「違背信任」是「breach of trust」的用法，與本句語境不同。"
+        "trust-mcq-22": "本句的「trustworthy source」指「值得信賴的」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-22"
     },
@@ -2015,11 +1743,9 @@ export default {
       "masked": "Employers value honesty and ____.",
       "options": [
         "trust-mcq-23",
-        "trust-mcq-22",
-        "trust-mcq-24",
-        "trust-mcq-21",
-        "trust-mcq-25",
-        "trust-mcq-20"
+        "trust-mcq-03",
+        "trust-mcq-18",
+        "trust-mcq-04"
       ],
       "explanation": "本句的「trustworthiness」指「可信賴程度」。",
       "sentenceIndex": 44,
@@ -2028,12 +1754,10 @@ export default {
         "trustworthiness"
       ],
       "optionReasons": {
-        "trust-mcq-23": "本句指「可信賴程度」。",
-        "trust-mcq-22": "「值得信賴的」是「trustworthy」的用法，與本句語境不同。",
-        "trust-mcq-24": "「不信任」是「distrust」的用法，與本句語境不同。",
-        "trust-mcq-21": "「容易相信別人的」是「trusting」的用法，與本句語境不同。",
-        "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
-        "trust-mcq-20": "「公眾信任」是「public trust」的用法，與本句語境不同。"
+        "trust-mcq-23": "本句的「trustworthiness」指「可信賴程度」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-23"
     },
@@ -2045,11 +1769,9 @@ export default {
       "masked": "We need to assess the ____.",
       "options": [
         "trust-mcq-23",
-        "trust-mcq-22",
-        "trust-mcq-24",
-        "trust-mcq-21",
-        "trust-mcq-25",
-        "trust-mcq-20"
+        "trust-mcq-03",
+        "trust-mcq-19",
+        "trust-mcq-04"
       ],
       "explanation": "本句的「trustworthiness of the source」指「可信賴程度」。",
       "sentenceIndex": 45,
@@ -2058,12 +1780,10 @@ export default {
         "trustworthiness of the source"
       ],
       "optionReasons": {
-        "trust-mcq-23": "本句指「可信賴程度」。",
-        "trust-mcq-22": "「值得信賴的」是「trustworthy」的用法，與本句語境不同。",
-        "trust-mcq-24": "「不信任」是「distrust」的用法，與本句語境不同。",
-        "trust-mcq-21": "「容易相信別人的」是「trusting」的用法，與本句語境不同。",
-        "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
-        "trust-mcq-20": "「公眾信任」是「public trust」的用法，與本句語境不同。"
+        "trust-mcq-23": "本句的「trustworthiness of the source」指「可信賴程度」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-23"
     },
@@ -2075,11 +1795,9 @@ export default {
       "masked": "She is naturally very ____.",
       "options": [
         "trust-mcq-21",
+        "trust-mcq-28",
         "trust-mcq-20",
-        "trust-mcq-22",
-        "trust-mcq-19",
-        "trust-mcq-23",
-        "trust-mcq-18"
+        "trust-mcq-23"
       ],
       "explanation": "本句的「trusting」指「容易相信別人的」。",
       "sentenceIndex": 46,
@@ -2088,12 +1806,10 @@ export default {
         "trusting"
       ],
       "optionReasons": {
-        "trust-mcq-21": "本句指「容易相信別人的」。",
-        "trust-mcq-20": "「公眾信任」是「public trust」的用法，與本句語境不同。",
-        "trust-mcq-22": "「值得信賴的」是「trustworthy」的用法，與本句語境不同。",
-        "trust-mcq-19": "「違背信任」是「breach of trust」的用法，與本句語境不同。",
-        "trust-mcq-23": "「可信賴程度」是「trustworthiness」的用法，與本句語境不同。",
-        "trust-mcq-18": "「受信任職位」是「position of trust」的用法，與本句語境不同。"
+        "trust-mcq-21": "本句的「trusting」指「容易相信別人的」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-21"
     },
@@ -2105,11 +1821,9 @@ export default {
       "masked": "Young children can be extremely ____.",
       "options": [
         "trust-mcq-21",
-        "trust-mcq-20",
-        "trust-mcq-22",
-        "trust-mcq-19",
+        "trust-mcq-28",
         "trust-mcq-23",
-        "trust-mcq-18"
+        "trust-mcq-19"
       ],
       "explanation": "本句的「trusting」指「容易相信別人的」。",
       "sentenceIndex": 47,
@@ -2118,12 +1832,10 @@ export default {
         "trusting"
       ],
       "optionReasons": {
-        "trust-mcq-21": "本句指「容易相信別人的」。",
-        "trust-mcq-20": "「公眾信任」是「public trust」的用法，與本句語境不同。",
-        "trust-mcq-22": "「值得信賴的」是「trustworthy」的用法，與本句語境不同。",
-        "trust-mcq-19": "「違背信任」是「breach of trust」的用法，與本句語境不同。",
-        "trust-mcq-23": "「可信賴程度」是「trustworthiness」的用法，與本句語境不同。",
-        "trust-mcq-18": "「受信任職位」是「position of trust」的用法，與本句語境不同。"
+        "trust-mcq-21": "本句的「trusting」指「容易相信別人的」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-21"
     },
@@ -2135,11 +1847,9 @@ export default {
       "masked": "He is sometimes ____ of strangers.",
       "options": [
         "trust-pdf-002",
-        "trust-mcq-23",
-        "trust-mcq-25",
-        "trust-mcq-22",
-        "trust-mcq-26",
-        "trust-mcq-21"
+        "trust-mcq-28",
+        "trust-mcq-07",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「too trusting」指「對別人的信任過多，缺乏足夠警覺」。",
       "sentenceIndex": 48,
@@ -2148,12 +1858,10 @@ export default {
         "too trusting"
       ],
       "optionReasons": {
-        "trust-pdf-002": "本句指「對別人的信任過多，缺乏足夠警覺」。",
-        "trust-mcq-23": "「可信賴程度」是「trustworthiness」的用法，與本句語境不同。",
-        "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
-        "trust-mcq-22": "「值得信賴的」是「trustworthy」的用法，與本句語境不同。",
-        "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
-        "trust-mcq-21": "「容易相信別人的」是「trusting」的用法，與本句語境不同。"
+        "trust-pdf-002": "本句的「too trusting」指「對別人的信任過多，缺乏足夠警覺」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-pdf-002"
     },
@@ -2165,11 +1873,9 @@ export default {
       "masked": "Being ____ can make you vulnerable to scams.",
       "options": [
         "trust-pdf-002",
-        "trust-mcq-23",
-        "trust-mcq-25",
-        "trust-mcq-22",
-        "trust-mcq-26",
-        "trust-mcq-21"
+        "trust-mcq-28",
+        "trust-mcq-04",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「too trusting」指「對別人的信任過多，缺乏足夠警覺」。",
       "sentenceIndex": 49,
@@ -2178,12 +1884,10 @@ export default {
         "too trusting"
       ],
       "optionReasons": {
-        "trust-pdf-002": "本句指「對別人的信任過多，缺乏足夠警覺」。",
-        "trust-mcq-23": "「可信賴程度」是「trustworthiness」的用法，與本句語境不同。",
-        "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
-        "trust-mcq-22": "「值得信賴的」是「trustworthy」的用法，與本句語境不同。",
-        "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
-        "trust-mcq-21": "「容易相信別人的」是「trusting」的用法，與本句語境不同。"
+        "trust-pdf-002": "本句的「too trusting」指「對別人的信任過多，缺乏足夠警覺」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-pdf-002"
     },
@@ -2195,11 +1899,7 @@ export default {
       "masked": "She ____ from the beginning.",
       "options": [
         "trust-mcq-24",
-        "trust-mcq-23",
-        "trust-mcq-25",
-        "trust-mcq-22",
-        "trust-mcq-26",
-        "trust-mcq-21"
+        "trust-mcq-03"
       ],
       "explanation": "本句的「distrusted him」指「不信任」。",
       "sentenceIndex": 50,
@@ -2208,12 +1908,8 @@ export default {
         "distrusted him"
       ],
       "optionReasons": {
-        "trust-mcq-24": "本句指「不信任」。",
-        "trust-mcq-23": "「可信賴程度」是「trustworthiness」的用法，與本句語境不同。",
-        "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
-        "trust-mcq-22": "「值得信賴的」是「trustworthy」的用法，與本句語境不同。",
-        "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
-        "trust-mcq-21": "「容易相信別人的」是「trusting」的用法，與本句語境不同。"
+        "trust-mcq-24": "本句的「distrusted him」指「不信任」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-24"
     },
@@ -2225,11 +1921,7 @@ export default {
       "masked": "Many consumers ____ that sound too good to be true.",
       "options": [
         "trust-mcq-24",
-        "trust-mcq-23",
-        "trust-mcq-25",
-        "trust-mcq-22",
-        "trust-mcq-26",
-        "trust-mcq-21"
+        "trust-mcq-28"
       ],
       "explanation": "本句的「distrust claims」指「不信任」。",
       "sentenceIndex": 51,
@@ -2238,12 +1930,8 @@ export default {
         "distrust claims"
       ],
       "optionReasons": {
-        "trust-mcq-24": "本句指「不信任」。",
-        "trust-mcq-23": "「可信賴程度」是「trustworthiness」的用法，與本句語境不同。",
-        "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
-        "trust-mcq-22": "「值得信賴的」是「trustworthy」的用法，與本句語境不同。",
-        "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
-        "trust-mcq-21": "「容易相信別人的」是「trusting」的用法，與本句語境不同。"
+        "trust-mcq-24": "本句的「distrust claims」指「不信任」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-24"
     },
@@ -2255,11 +1943,7 @@ export default {
       "masked": "Years of conflict created deep ____ between the two groups.",
       "options": [
         "trust-mcq-24",
-        "trust-mcq-23",
-        "trust-mcq-25",
-        "trust-mcq-22",
-        "trust-mcq-26",
-        "trust-mcq-21"
+        "trust-mcq-03"
       ],
       "explanation": "本句的「distrust」指「不信任」。",
       "sentenceIndex": 52,
@@ -2268,12 +1952,8 @@ export default {
         "distrust"
       ],
       "optionReasons": {
-        "trust-mcq-24": "本句指「不信任」。",
-        "trust-mcq-23": "「可信賴程度」是「trustworthiness」的用法，與本句語境不同。",
-        "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
-        "trust-mcq-22": "「值得信賴的」是「trustworthy」的用法，與本句語境不同。",
-        "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
-        "trust-mcq-21": "「容易相信別人的」是「trusting」的用法，與本句語境不同。"
+        "trust-mcq-24": "本句的「distrust」指「不信任」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-24"
     },
@@ -2285,11 +1965,7 @@ export default {
       "masked": "There is widespread ____ of the system.",
       "options": [
         "trust-mcq-24",
-        "trust-mcq-23",
-        "trust-mcq-25",
-        "trust-mcq-22",
-        "trust-mcq-26",
-        "trust-mcq-21"
+        "trust-mcq-28"
       ],
       "explanation": "本句的「distrust」指「不信任」。",
       "sentenceIndex": 53,
@@ -2298,12 +1974,8 @@ export default {
         "distrust"
       ],
       "optionReasons": {
-        "trust-mcq-24": "本句指「不信任」。",
-        "trust-mcq-23": "「可信賴程度」是「trustworthiness」的用法，與本句語境不同。",
-        "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
-        "trust-mcq-22": "「值得信賴的」是「trustworthy」的用法，與本句語境不同。",
-        "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
-        "trust-mcq-21": "「容易相信別人的」是「trusting」的用法，與本句語境不同。"
+        "trust-mcq-24": "本句的「distrust」指「不信任」。",
+        "trust-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-24"
     },
@@ -2315,11 +1987,9 @@ export default {
       "masked": "She had learned to ____.",
       "options": [
         "trust-mcq-25",
-        "trust-mcq-24",
-        "trust-mcq-26",
+        "trust-mcq-03",
         "trust-mcq-23",
-        "trust-mcq-27",
-        "trust-mcq-22"
+        "trust-mcq-04"
       ],
       "explanation": "本句的「mistrust strangers」指「懷疑；不信任」。",
       "sentenceIndex": 54,
@@ -2328,12 +1998,10 @@ export default {
         "mistrust strangers"
       ],
       "optionReasons": {
-        "trust-mcq-25": "本句指「懷疑；不信任」。",
-        "trust-mcq-24": "「不信任」是「distrust」的用法，與本句語境不同。",
-        "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
-        "trust-mcq-23": "「可信賴程度」是「trustworthiness」的用法，與本句語境不同。",
-        "trust-mcq-27": "「信託基金」是「trust fund」的用法，與本句語境不同。",
-        "trust-mcq-22": "「值得信賴的」是「trustworthy」的用法，與本句語境不同。"
+        "trust-mcq-25": "本句的「mistrust strangers」指「懷疑；不信任」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-25"
     },
@@ -2345,11 +2013,9 @@ export default {
       "masked": "His behaviour created an atmosphere of ____.",
       "options": [
         "trust-mcq-25",
-        "trust-mcq-24",
-        "trust-mcq-26",
-        "trust-mcq-23",
-        "trust-mcq-27",
-        "trust-mcq-22"
+        "trust-mcq-03",
+        "trust-mcq-04",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「mistrust」指「懷疑；不信任」。",
       "sentenceIndex": 55,
@@ -2358,12 +2024,10 @@ export default {
         "mistrust"
       ],
       "optionReasons": {
-        "trust-mcq-25": "本句指「懷疑；不信任」。",
-        "trust-mcq-24": "「不信任」是「distrust」的用法，與本句語境不同。",
-        "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
-        "trust-mcq-23": "「可信賴程度」是「trustworthiness」的用法，與本句語境不同。",
-        "trust-mcq-27": "「信託基金」是「trust fund」的用法，與本句語境不同。",
-        "trust-mcq-22": "「值得信賴的」是「trustworthy」的用法，與本句語境不同。"
+        "trust-mcq-25": "本句的「mistrust」指「懷疑；不信任」。",
+        "trust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-25"
     },
@@ -2375,11 +2039,9 @@ export default {
       "masked": "Her grandparents set up a ____ for her education.",
       "options": [
         "trust-mcq-27",
-        "trust-mcq-26",
-        "trust-mcq-28",
-        "trust-mcq-25",
-        "trust-mcq-29",
-        "trust-mcq-24"
+        "trust-mcq-20",
+        "trust-mcq-04",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「trust fund」指「信託基金」。",
       "sentenceIndex": 56,
@@ -2388,12 +2050,10 @@ export default {
         "trust fund"
       ],
       "optionReasons": {
-        "trust-mcq-27": "本句指「信託基金」。",
-        "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
-        "trust-mcq-28": "「受託人」是「trustee」的用法，與本句語境不同。",
-        "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
-        "trust-mcq-29": "「做出違反對方信任的事情，使信任關係受到破壞」是「16. break / betray someone's trust — 辜負／背叛某人的信任」的用法，與本句語境不同。",
-        "trust-mcq-24": "「不信任」是「distrust」的用法，與本句語境不同。"
+        "trust-mcq-27": "本句的「trust fund」指「信託基金」。",
+        "trust-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-27"
     },
@@ -2405,11 +2065,9 @@ export default {
       "masked": "The money is held in a ____ until he turns twenty-one.",
       "options": [
         "trust-mcq-27",
-        "trust-mcq-26",
-        "trust-mcq-28",
-        "trust-mcq-25",
-        "trust-mcq-29",
-        "trust-mcq-24"
+        "trust-mcq-23",
+        "trust-mcq-21",
+        "trust-mcq-12"
       ],
       "explanation": "本句的「trust fund」指「信託基金」。",
       "sentenceIndex": 57,
@@ -2418,12 +2076,10 @@ export default {
         "trust fund"
       ],
       "optionReasons": {
-        "trust-mcq-27": "本句指「信託基金」。",
-        "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
-        "trust-mcq-28": "「受託人」是「trustee」的用法，與本句語境不同。",
-        "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
-        "trust-mcq-29": "「做出違反對方信任的事情，使信任關係受到破壞」是「16. break / betray someone's trust — 辜負／背叛某人的信任」的用法，與本句語境不同。",
-        "trust-mcq-24": "「不信任」是「distrust」的用法，與本句語境不同。"
+        "trust-mcq-27": "本句的「trust fund」指「信託基金」。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-27"
     },
@@ -2435,11 +2091,9 @@ export default {
       "masked": "The property is held in ____ for the children.",
       "options": [
         "trust-mcq-27",
-        "trust-mcq-26",
-        "trust-mcq-28",
-        "trust-mcq-25",
-        "trust-mcq-29",
-        "trust-mcq-24"
+        "trust-mcq-07",
+        "trust-mcq-19",
+        "trust-mcq-23"
       ],
       "explanation": "本句的「trust」指「信託基金」。",
       "sentenceIndex": 58,
@@ -2448,12 +2102,10 @@ export default {
         "trust"
       ],
       "optionReasons": {
-        "trust-mcq-27": "本句指「信託基金」。",
-        "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
-        "trust-mcq-28": "「受託人」是「trustee」的用法，與本句語境不同。",
-        "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
-        "trust-mcq-29": "「做出違反對方信任的事情，使信任關係受到破壞」是「16. break / betray someone's trust — 辜負／背叛某人的信任」的用法，與本句語境不同。",
-        "trust-mcq-24": "「不信任」是「distrust」的用法，與本句語境不同。"
+        "trust-mcq-27": "本句的「trust」指「信託基金」。",
+        "trust-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-27"
     },
@@ -2465,11 +2117,9 @@ export default {
       "masked": "They created a ____ to manage the family's assets.",
       "options": [
         "trust-mcq-27",
-        "trust-mcq-26",
-        "trust-mcq-28",
-        "trust-mcq-25",
-        "trust-mcq-29",
-        "trust-mcq-24"
+        "trust-pdf-001",
+        "trust-mcq-23",
+        "trust-mcq-29"
       ],
       "explanation": "本句的「trust」指「信託基金」。",
       "sentenceIndex": 59,
@@ -2478,12 +2128,10 @@ export default {
         "trust"
       ],
       "optionReasons": {
-        "trust-mcq-27": "本句指「信託基金」。",
-        "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
-        "trust-mcq-28": "「受託人」是「trustee」的用法，與本句語境不同。",
-        "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
-        "trust-mcq-29": "「做出違反對方信任的事情，使信任關係受到破壞」是「16. break / betray someone's trust — 辜負／背叛某人的信任」的用法，與本句語境不同。",
-        "trust-mcq-24": "「不信任」是「distrust」的用法，與本句語境不同。"
+        "trust-mcq-27": "本句的「trust」指「信託基金」。",
+        "trust-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "trust-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-27"
     },
@@ -2495,11 +2143,7 @@ export default {
       "masked": "The ____ manages the assets on behalf of the beneficiaries.",
       "options": [
         "trust-mcq-28",
-        "trust-mcq-27",
-        "trust-mcq-29",
-        "trust-mcq-26",
-        "trust-mcq-25",
-        "trust-mcq-24"
+        "trust-mcq-11"
       ],
       "explanation": "本句的「trustee」指「受託人」。",
       "sentenceIndex": 60,
@@ -2508,12 +2152,8 @@ export default {
         "trustee"
       ],
       "optionReasons": {
-        "trust-mcq-28": "本句指「受託人」。",
-        "trust-mcq-27": "「信託基金」是「trust fund」的用法，與本句語境不同。",
-        "trust-mcq-29": "「做出違反對方信任的事情，使信任關係受到破壞」是「16. break / betray someone's trust — 辜負／背叛某人的信任」的用法，與本句語境不同。",
-        "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
-        "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
-        "trust-mcq-24": "「不信任」是「distrust」的用法，與本句語境不同。"
+        "trust-mcq-28": "本句的「trustee」指「受託人」。",
+        "trust-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-28"
     },
@@ -2525,11 +2165,7 @@ export default {
       "masked": "She was appointed as a ____ of the charity.",
       "options": [
         "trust-mcq-28",
-        "trust-mcq-27",
-        "trust-mcq-29",
-        "trust-mcq-26",
-        "trust-mcq-25",
-        "trust-mcq-24"
+        "trust-mcq-01"
       ],
       "explanation": "本句的「trustee」指「受託人」。",
       "sentenceIndex": 61,
@@ -2538,12 +2174,8 @@ export default {
         "trustee"
       ],
       "optionReasons": {
-        "trust-mcq-28": "本句指「受託人」。",
-        "trust-mcq-27": "「信託基金」是「trust fund」的用法，與本句語境不同。",
-        "trust-mcq-29": "「做出違反對方信任的事情，使信任關係受到破壞」是「16. break / betray someone's trust — 辜負／背叛某人的信任」的用法，與本句語境不同。",
-        "trust-mcq-26": "「信託」是「trust (legal)」的用法，與本句語境不同。",
-        "trust-mcq-25": "「懷疑；不信任」是「mistrust」的用法，與本句語境不同。",
-        "trust-mcq-24": "「不信任」是「distrust」的用法，與本句語境不同。"
+        "trust-mcq-28": "本句的「trustee」指「受託人」。",
+        "trust-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trust-mcq-28"
     }
@@ -2555,5 +2187,7 @@ export default {
     "sha256": "6273a5b0a61bf8a4f315d8bc890c8d451b6cd5f0dbd169d92110139a361d8ed8",
     "pages": 22
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

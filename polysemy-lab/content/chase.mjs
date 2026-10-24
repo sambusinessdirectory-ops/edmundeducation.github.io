@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "chase-mcq-01",
-      "title": "表示追求；一味追逐；執著於；例句：「我不再一味追求完美，而是專注於穩定進步。」",
+      "title": "追求；一味追逐；執著於",
       "form": "Passage anchor > “From then on, I stopped chasing perfection all the time and started focusing on clarity, honesty, and real communication.",
       "en": "Passage anchor > “From then on, I stopped chasing perfection all the time and started focusing on clarity, honesty, and real communication.",
       "zh": "表示追求；一味追逐；執著於；例句：「我不再一味追求完美，而是專注於穩定進步。」",
@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "chase-mcq-02",
-      "title": "表示追；追趕；追捕；例句：「那隻狗穿過花園追著貓跑。」",
+      "title": "追；追趕；追捕",
       "form": "chase — run after someone or something in order to catch them = follow quickly because you want to catch someone or something 追；追趕；追捕",
       "en": "chase — run after someone or something in order to catch them = follow quickly because you want to catch someone or something 追；追趕；追捕",
       "zh": "表示追；追趕；追捕；例句：「那隻狗穿過花園追著貓跑。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "chase-mcq-03",
-      "title": "表示追著……跑；追趕；例句：「孩子們追著球跑。」",
+      "title": "追著……跑；追趕",
       "form": "chase after someone / something = run or move after someone or something in order to catch them 追著……跑；追趕",
       "en": "chase after someone / something = run or move after someone or something in order to catch them 追著……跑；追趕",
       "zh": "表示追著……跑；追趕；例句：「孩子們追著球跑。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "chase-mcq-04",
-      "title": "表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」",
+      "title": "趕走；驅逐",
       "form": "chase someone/something away = make someone or something leave by pursuing, frightening, or driving them off 趕走；驅逐",
       "en": "chase someone/something away = make someone or something leave by pursuing, frightening, or driving them off 趕走；驅逐",
       "zh": "表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "chase-mcq-05",
-      "title": "表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」",
+      "title": "趕出去；驅逐出去",
       "form": "chase someone out = force someone to leave a place 趕出去；驅逐出去",
       "en": "chase someone out = force someone to leave a place 趕出去；驅逐出去",
       "zh": "表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "chase-mcq-06",
-      "title": "表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」",
+      "title": "追求目標；追逐夢想",
       "form": "chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想",
       "en": "chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想",
       "zh": "表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "chase-mcq-07",
-      "title": "表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」",
+      "title": "追求成功",
       "form": "chase success = pursue success intensely 追求成功",
       "en": "chase success = pursue success intensely 追求成功",
       "zh": "表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "chase-mcq-08",
-      "title": "表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」",
+      "title": "追求完美；執著於完美",
       "form": "chase perfection = continually pursue a perfect standard 追求完美；執著於完美 This is the exact passage sense.",
       "en": "chase perfection = continually pursue a perfect standard 追求完美；執著於完美 This is the exact passage sense.",
       "zh": "表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "chase-mcq-09",
-      "title": "表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」",
+      "title": "追逐金錢／名聲／注意力",
       "form": "chase money / fame / attention = pursue something strongly, often with a slightly critical implication 追逐金錢／名聲／注意力",
       "en": "chase money / fame / attention = pursue something strongly, often with a slightly critical implication 追逐金錢／名聲／注意力",
       "zh": "表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "chase-mcq-10",
-      "title": "表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」",
+      "title": "追求機會；積極爭取機會",
       "form": "chase opportunities = actively pursue chances for success or advancement 追求機會；積極爭取機會",
       "en": "chase opportunities = actively pursue chances for success or advancement 追求機會；積極爭取機會",
       "zh": "表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "chase-mcq-11",
-      "title": "表示追求某人；例句：「他花了幾個月追求她。」",
+      "title": "追求某人",
       "form": "chase someone romantically = actively pursue someone because you want a romantic relationship 追求某人",
       "en": "chase someone romantically = actively pursue someone because you want a romantic relationship 追求某人",
       "zh": "表示追求某人；例句：「他花了幾個月追求她。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "chase-mcq-12",
-      "title": "表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」",
+      "title": "催某人交付／回覆／付款",
       "form": "chase someone for something = repeatedly contact someone in order to obtain something they owe or have not provided 催某人交付／回覆／付款",
       "en": "chase someone for something = repeatedly contact someone in order to obtain something they owe or have not provided 催某人交付／回覆／付款",
       "zh": "表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "chase-mcq-13",
-      "title": "表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」",
+      "title": "追蹤；催辦；跟進",
       "form": "chase up = follow up something actively to get progress, information, payment, or action 追蹤；催辦；跟進",
       "en": "chase up = follow up something actively to get progress, information, payment, or action 追蹤；催辦；跟進",
       "zh": "表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "chase-mcq-14",
-      "title": "表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」",
+      "title": "追逐；追趕",
       "form": "a chase = act of pursuing someone or something 追逐；追趕",
       "en": "a chase = act of pursuing someone or something 追逐；追趕",
       "zh": "表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "chase-mcq-15",
-      "title": "表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」",
+      "title": "飛車追逐；汽車追逐",
       "form": "car chase = pursuit involving cars 飛車追逐；汽車追逐",
       "en": "car chase = pursuit involving cars 飛車追逐；汽車追逐",
       "zh": "表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "chase-mcq-16",
-      "title": "表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」",
+      "title": "警方追捕",
       "form": "police chase = pursuit by police 警方追捕",
       "en": "police chase = pursuit by police 警方追捕",
       "zh": "表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "chase-mcq-17",
-      "title": "表示開始追趕；展開追捕；例句：「警方展開追捕。」",
+      "title": "開始追趕；展開追捕",
       "form": "give chase = start chasing someone or something 開始追趕；展開追捕",
       "en": "give chase = start chasing someone or something 開始追趕；展開追捕",
       "zh": "表示開始追趕；展開追捕；例句：「警方展開追捕。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "chase-mcq-19",
-      "title": "表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」",
+      "title": "開門見山；直奔主題",
       "form": "cut to the chase = stop wasting time and get directly to the main point 開門見山；直奔主題",
       "en": "cut to the chase = stop wasting time and get directly to the main point 開門見山；直奔主題",
       "zh": "表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "chase-mcq-21",
-      "title": "表示追趕；追逐；追求；例句：「不斷追求別人的認可可能很累。」",
+      "title": "追趕；追逐；追求",
       "form": "chasing = the act of pursuing someone, something, or a goal 追趕；追逐；追求",
       "en": "chasing = the act of pursuing someone, something, or a goal 追趕；追逐；追求",
       "zh": "表示追趕；追逐；追求；例句：「不斷追求別人的認可可能很累。」",
@@ -469,7 +469,7 @@ export default {
     },
     {
       "id": "chase-mcq-22",
-      "title": "表示追逐者；追趕者；例句：「那隻動物突然轉向追趕牠的人。」",
+      "title": "追逐者；追趕者",
       "form": "chaser = person or thing that chases; also occurs in several specialized compounds 追逐者；追趕者",
       "en": "chaser = person or thing that chases; also occurs in several specialized compounds 追逐者；追趕者",
       "zh": "表示追逐者；追趕者；例句：「那隻動物突然轉向追趕牠的人。」",
@@ -499,11 +499,9 @@ export default {
       "masked": "I stopped ____ and focused on making steady progress.",
       "options": [
         "chase-mcq-01",
-        "chase-mcq-02",
-        "chase-mcq-03",
-        "chase-mcq-04",
-        "chase-mcq-05",
-        "chase-mcq-06"
+        "chase-mcq-19",
+        "chase-mcq-12",
+        "chase-mcq-05"
       ],
       "explanation": "本句的「chasing perfection」指「表示追求；一味追逐；執著於；例句：「我不再一味追求完美，而是專注於穩定進步。」」。",
       "sentenceIndex": 0,
@@ -512,12 +510,10 @@ export default {
         "chasing perfection"
       ],
       "optionReasons": {
-        "chase-mcq-01": "本句指「表示追求；一味追逐；執著於；例句：「我不再一味追求完美，而是專注於穩定進步。」」。",
-        "chase-mcq-02": "「表示追；追趕；追捕；例句：「那隻狗穿過花園追著貓跑。」」是「chase — run after someone or something in order to catch them = follow quickly because you want to catch someone or something 追；追趕；追捕」的用法，與本句語境不同。",
-        "chase-mcq-03": "「表示追著……跑；追趕；例句：「孩子們追著球跑。」」是「chase after someone / something = run or move after someone or something in order to catch them 追著……跑；追趕」的用法，與本句語境不同。",
-        "chase-mcq-04": "「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」是「chase someone/something away = make someone or something leave by pursuing, frightening, or driving them off 趕走；驅逐」的用法，與本句語境不同。",
-        "chase-mcq-05": "「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」是「chase someone out = force someone to leave a place 趕出去；驅逐出去」的用法，與本句語境不同。",
-        "chase-mcq-06": "「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」是「chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想」的用法，與本句語境不同。"
+        "chase-mcq-01": "本句的「chasing perfection」指「表示追求；一味追逐；執著於；例句：「我不再一味追求完美，而是專注於穩定進步。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-01"
     },
@@ -529,11 +525,9 @@ export default {
       "masked": "If you keep ____, you may lose confidence.",
       "options": [
         "chase-mcq-01",
-        "chase-mcq-02",
-        "chase-mcq-03",
-        "chase-mcq-04",
-        "chase-mcq-05",
-        "chase-mcq-06"
+        "chase-mcq-19",
+        "chase-mcq-12",
+        "chase-mcq-20"
       ],
       "explanation": "本句的「chasing an impossible standard」指「表示追求；一味追逐；執著於；例句：「我不再一味追求完美，而是專注於穩定進步。」」。",
       "sentenceIndex": 1,
@@ -542,12 +536,10 @@ export default {
         "chasing an impossible standard"
       ],
       "optionReasons": {
-        "chase-mcq-01": "本句指「表示追求；一味追逐；執著於；例句：「我不再一味追求完美，而是專注於穩定進步。」」。",
-        "chase-mcq-02": "「表示追；追趕；追捕；例句：「那隻狗穿過花園追著貓跑。」」是「chase — run after someone or something in order to catch them = follow quickly because you want to catch someone or something 追；追趕；追捕」的用法，與本句語境不同。",
-        "chase-mcq-03": "「表示追著……跑；追趕；例句：「孩子們追著球跑。」」是「chase after someone / something = run or move after someone or something in order to catch them 追著……跑；追趕」的用法，與本句語境不同。",
-        "chase-mcq-04": "「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」是「chase someone/something away = make someone or something leave by pursuing, frightening, or driving them off 趕走；驅逐」的用法，與本句語境不同。",
-        "chase-mcq-05": "「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」是「chase someone out = force someone to leave a place 趕出去；驅逐出去」的用法，與本句語境不同。",
-        "chase-mcq-06": "「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」是「chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想」的用法，與本句語境不同。"
+        "chase-mcq-01": "本句的「chasing an impossible standard」指「表示追求；一味追逐；執著於；例句：「我不再一味追求完美，而是專注於穩定進步。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-01"
     },
@@ -559,11 +551,8 @@ export default {
       "masked": "The dog ____ across the garden.",
       "options": [
         "chase-mcq-02",
-        "chase-mcq-01",
-        "chase-mcq-03",
-        "chase-mcq-04",
-        "chase-mcq-05",
-        "chase-mcq-06"
+        "chase-mcq-19",
+        "chase-mcq-12"
       ],
       "explanation": "本句的「chased the cat」指「表示追；追趕；追捕；例句：「那隻狗穿過花園追著貓跑。」」。",
       "sentenceIndex": 2,
@@ -572,12 +561,9 @@ export default {
         "chased the cat"
       ],
       "optionReasons": {
-        "chase-mcq-02": "本句指「表示追；追趕；追捕；例句：「那隻狗穿過花園追著貓跑。」」。",
-        "chase-mcq-01": "「表示追求；一味追逐；執著於；例句：「我不再一味追求完美，而是專注於穩定進步。」」是「Passage anchor > “From then on, I stopped chasing perfection all the time and started focusing on clarity, honesty, and real communication.」的用法，與本句語境不同。",
-        "chase-mcq-03": "「表示追著……跑；追趕；例句：「孩子們追著球跑。」」是「chase after someone / something = run or move after someone or something in order to catch them 追著……跑；追趕」的用法，與本句語境不同。",
-        "chase-mcq-04": "「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」是「chase someone/something away = make someone or something leave by pursuing, frightening, or driving them off 趕走；驅逐」的用法，與本句語境不同。",
-        "chase-mcq-05": "「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」是「chase someone out = force someone to leave a place 趕出去；驅逐出去」的用法，與本句語境不同。",
-        "chase-mcq-06": "「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」是「chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想」的用法，與本句語境不同。"
+        "chase-mcq-02": "本句的「chased the cat」指「表示追；追趕；追捕；例句：「那隻狗穿過花園追著貓跑。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-02"
     },
@@ -589,11 +575,8 @@ export default {
       "masked": "Police ____ through the streets.",
       "options": [
         "chase-mcq-02",
-        "chase-mcq-01",
-        "chase-mcq-03",
-        "chase-mcq-04",
-        "chase-mcq-05",
-        "chase-mcq-06"
+        "chase-mcq-12",
+        "chase-mcq-19"
       ],
       "explanation": "本句的「chased the suspect」指「表示追；追趕；追捕；例句：「那隻狗穿過花園追著貓跑。」」。",
       "sentenceIndex": 3,
@@ -602,12 +585,9 @@ export default {
         "chased the suspect"
       ],
       "optionReasons": {
-        "chase-mcq-02": "本句指「表示追；追趕；追捕；例句：「那隻狗穿過花園追著貓跑。」」。",
-        "chase-mcq-01": "「表示追求；一味追逐；執著於；例句：「我不再一味追求完美，而是專注於穩定進步。」」是「Passage anchor > “From then on, I stopped chasing perfection all the time and started focusing on clarity, honesty, and real communication.」的用法，與本句語境不同。",
-        "chase-mcq-03": "「表示追著……跑；追趕；例句：「孩子們追著球跑。」」是「chase after someone / something = run or move after someone or something in order to catch them 追著……跑；追趕」的用法，與本句語境不同。",
-        "chase-mcq-04": "「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」是「chase someone/something away = make someone or something leave by pursuing, frightening, or driving them off 趕走；驅逐」的用法，與本句語境不同。",
-        "chase-mcq-05": "「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」是「chase someone out = force someone to leave a place 趕出去；驅逐出去」的用法，與本句語境不同。",
-        "chase-mcq-06": "「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」是「chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想」的用法，與本句語境不同。"
+        "chase-mcq-02": "本句的「chased the suspect」指「表示追；追趕；追捕；例句：「那隻狗穿過花園追著貓跑。」」。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-02"
     },
@@ -619,11 +599,9 @@ export default {
       "masked": "The children ____.",
       "options": [
         "chase-mcq-03",
-        "chase-mcq-02",
-        "chase-mcq-04",
-        "chase-mcq-01",
-        "chase-mcq-05",
-        "chase-mcq-06"
+        "chase-mcq-19",
+        "chase-mcq-12",
+        "chase-mcq-20"
       ],
       "explanation": "本句的「chased after the ball」指「表示追著……跑；追趕；例句：「孩子們追著球跑。」」。",
       "sentenceIndex": 4,
@@ -632,12 +610,10 @@ export default {
         "chased after the ball"
       ],
       "optionReasons": {
-        "chase-mcq-03": "本句指「表示追著……跑；追趕；例句：「孩子們追著球跑。」」。",
-        "chase-mcq-02": "「表示追；追趕；追捕；例句：「那隻狗穿過花園追著貓跑。」」是「chase — run after someone or something in order to catch them = follow quickly because you want to catch someone or something 追；追趕；追捕」的用法，與本句語境不同。",
-        "chase-mcq-04": "「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」是「chase someone/something away = make someone or something leave by pursuing, frightening, or driving them off 趕走；驅逐」的用法，與本句語境不同。",
-        "chase-mcq-01": "「表示追求；一味追逐；執著於；例句：「我不再一味追求完美，而是專注於穩定進步。」」是「Passage anchor > “From then on, I stopped chasing perfection all the time and started focusing on clarity, honesty, and real communication.」的用法，與本句語境不同。",
-        "chase-mcq-05": "「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」是「chase someone out = force someone to leave a place 趕出去；驅逐出去」的用法，與本句語境不同。",
-        "chase-mcq-06": "「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」是「chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想」的用法，與本句語境不同。"
+        "chase-mcq-03": "本句的「chased after the ball」指「表示追著……跑；追趕；例句：「孩子們追著球跑。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-03"
     },
@@ -649,10 +625,8 @@ export default {
       "masked": "He ____, but it had already left.",
       "options": [
         "chase-mcq-03",
-        "chase-mcq-02",
-        "chase-mcq-04",
-        "chase-mcq-01",
-        "chase-mcq-05",
+        "chase-mcq-19",
+        "chase-mcq-12",
         "chase-mcq-06"
       ],
       "explanation": "本句的「chased after the bus」指「表示追著……跑；追趕；例句：「孩子們追著球跑。」」。",
@@ -662,12 +636,10 @@ export default {
         "chased after the bus"
       ],
       "optionReasons": {
-        "chase-mcq-03": "本句指「表示追著……跑；追趕；例句：「孩子們追著球跑。」」。",
-        "chase-mcq-02": "「表示追；追趕；追捕；例句：「那隻狗穿過花園追著貓跑。」」是「chase — run after someone or something in order to catch them = follow quickly because you want to catch someone or something 追；追趕；追捕」的用法，與本句語境不同。",
-        "chase-mcq-04": "「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」是「chase someone/something away = make someone or something leave by pursuing, frightening, or driving them off 趕走；驅逐」的用法，與本句語境不同。",
-        "chase-mcq-01": "「表示追求；一味追逐；執著於；例句：「我不再一味追求完美，而是專注於穩定進步。」」是「Passage anchor > “From then on, I stopped chasing perfection all the time and started focusing on clarity, honesty, and real communication.」的用法，與本句語境不同。",
-        "chase-mcq-05": "「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」是「chase someone out = force someone to leave a place 趕出去；驅逐出去」的用法，與本句語境不同。",
-        "chase-mcq-06": "「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」是「chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想」的用法，與本句語境不同。"
+        "chase-mcq-03": "本句的「chased after the bus」指「表示追著……跑；追趕；例句：「孩子們追著球跑。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-03"
     },
@@ -679,11 +651,8 @@ export default {
       "masked": "She ____ from the garden.",
       "options": [
         "chase-mcq-04",
-        "chase-mcq-03",
-        "chase-mcq-05",
-        "chase-mcq-02",
-        "chase-mcq-06",
-        "chase-mcq-01"
+        "chase-mcq-19",
+        "chase-mcq-11"
       ],
       "explanation": "本句的「chased the birds away」指「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」。",
       "sentenceIndex": 6,
@@ -692,12 +661,9 @@ export default {
         "chased the birds away"
       ],
       "optionReasons": {
-        "chase-mcq-04": "本句指「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」。",
-        "chase-mcq-03": "「表示追著……跑；追趕；例句：「孩子們追著球跑。」」是「chase after someone / something = run or move after someone or something in order to catch them 追著……跑；追趕」的用法，與本句語境不同。",
-        "chase-mcq-05": "「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」是「chase someone out = force someone to leave a place 趕出去；驅逐出去」的用法，與本句語境不同。",
-        "chase-mcq-02": "「表示追；追趕；追捕；例句：「那隻狗穿過花園追著貓跑。」」是「chase — run after someone or something in order to catch them = follow quickly because you want to catch someone or something 追；追趕；追捕」的用法，與本句語境不同。",
-        "chase-mcq-06": "「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」是「chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想」的用法，與本句語境不同。",
-        "chase-mcq-01": "「表示追求；一味追逐；執著於；例句：「我不再一味追求完美，而是專注於穩定進步。」」是「Passage anchor > “From then on, I stopped chasing perfection all the time and started focusing on clarity, honesty, and real communication.」的用法，與本句語境不同。"
+        "chase-mcq-04": "本句的「chased the birds away」指「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-04"
     },
@@ -709,11 +675,9 @@ export default {
       "masked": "The dog ____.",
       "options": [
         "chase-mcq-04",
-        "chase-mcq-03",
-        "chase-mcq-05",
-        "chase-mcq-02",
-        "chase-mcq-06",
-        "chase-mcq-01"
+        "chase-mcq-08",
+        "chase-mcq-19",
+        "chase-mcq-12"
       ],
       "explanation": "本句的「chased the fox away」指「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」。",
       "sentenceIndex": 7,
@@ -722,12 +686,10 @@ export default {
         "chased the fox away"
       ],
       "optionReasons": {
-        "chase-mcq-04": "本句指「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」。",
-        "chase-mcq-03": "「表示追著……跑；追趕；例句：「孩子們追著球跑。」」是「chase after someone / something = run or move after someone or something in order to catch them 追著……跑；追趕」的用法，與本句語境不同。",
-        "chase-mcq-05": "「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」是「chase someone out = force someone to leave a place 趕出去；驅逐出去」的用法，與本句語境不同。",
-        "chase-mcq-02": "「表示追；追趕；追捕；例句：「那隻狗穿過花園追著貓跑。」」是「chase — run after someone or something in order to catch them = follow quickly because you want to catch someone or something 追；追趕；追捕」的用法，與本句語境不同。",
-        "chase-mcq-06": "「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」是「chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想」的用法，與本句語境不同。",
-        "chase-mcq-01": "「表示追求；一味追逐；執著於；例句：「我不再一味追求完美，而是專注於穩定進步。」」是「Passage anchor > “From then on, I stopped chasing perfection all the time and started focusing on clarity, honesty, and real communication.」的用法，與本句語境不同。"
+        "chase-mcq-04": "本句的「chased the fox away」指「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」。",
+        "chase-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-04"
     },
@@ -739,11 +701,9 @@ export default {
       "masked": "The guard ____.",
       "options": [
         "chase-mcq-05",
-        "chase-mcq-04",
-        "chase-mcq-06",
-        "chase-mcq-03",
-        "chase-mcq-07",
-        "chase-mcq-02"
+        "chase-mcq-10",
+        "chase-mcq-20",
+        "chase-mcq-19"
       ],
       "explanation": "本句的「chased the intruder out」指「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」。",
       "sentenceIndex": 8,
@@ -752,12 +712,10 @@ export default {
         "chased the intruder out"
       ],
       "optionReasons": {
-        "chase-mcq-05": "本句指「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」。",
-        "chase-mcq-04": "「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」是「chase someone/something away = make someone or something leave by pursuing, frightening, or driving them off 趕走；驅逐」的用法，與本句語境不同。",
-        "chase-mcq-06": "「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」是「chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想」的用法，與本句語境不同。",
-        "chase-mcq-03": "「表示追著……跑；追趕；例句：「孩子們追著球跑。」」是「chase after someone / something = run or move after someone or something in order to catch them 追著……跑；追趕」的用法，與本句語境不同。",
-        "chase-mcq-07": "「表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」」是「chase success = pursue success intensely 追求成功」的用法，與本句語境不同。",
-        "chase-mcq-02": "「表示追；追趕；追捕；例句：「那隻狗穿過花園追著貓跑。」」是「chase — run after someone or something in order to catch them = follow quickly because you want to catch someone or something 追；追趕；追捕」的用法，與本句語境不同。"
+        "chase-mcq-05": "本句的「chased the intruder out」指「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」。",
+        "chase-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-05"
     },
@@ -769,11 +727,9 @@ export default {
       "masked": "They were ____.",
       "options": [
         "chase-mcq-05",
-        "chase-mcq-04",
-        "chase-mcq-06",
-        "chase-mcq-03",
-        "chase-mcq-07",
-        "chase-mcq-02"
+        "chase-mcq-19",
+        "chase-mcq-13",
+        "chase-mcq-12"
       ],
       "explanation": "本句的「chased out of the building」指「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」。",
       "sentenceIndex": 9,
@@ -782,12 +738,10 @@ export default {
         "chased out of the building"
       ],
       "optionReasons": {
-        "chase-mcq-05": "本句指「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」。",
-        "chase-mcq-04": "「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」是「chase someone/something away = make someone or something leave by pursuing, frightening, or driving them off 趕走；驅逐」的用法，與本句語境不同。",
-        "chase-mcq-06": "「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」是「chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想」的用法，與本句語境不同。",
-        "chase-mcq-03": "「表示追著……跑；追趕；例句：「孩子們追著球跑。」」是「chase after someone / something = run or move after someone or something in order to catch them 追著……跑；追趕」的用法，與本句語境不同。",
-        "chase-mcq-07": "「表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」」是「chase success = pursue success intensely 追求成功」的用法，與本句語境不同。",
-        "chase-mcq-02": "「表示追；追趕；追捕；例句：「那隻狗穿過花園追著貓跑。」」是「chase — run after someone or something in order to catch them = follow quickly because you want to catch someone or something 追；追趕；追捕」的用法，與本句語境不同。"
+        "chase-mcq-05": "本句的「chased out of the building」指「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-05"
     },
@@ -799,11 +753,9 @@ export default {
       "masked": "She moved abroad to ____ of becoming a musician.",
       "options": [
         "chase-mcq-06",
-        "chase-mcq-05",
-        "chase-mcq-07",
-        "chase-mcq-04",
-        "chase-mcq-08",
-        "chase-mcq-03"
+        "chase-mcq-12",
+        "chase-mcq-19",
+        "chase-mcq-04"
       ],
       "explanation": "本句的「chase her dream」指「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」。",
       "sentenceIndex": 10,
@@ -812,12 +764,10 @@ export default {
         "chase her dream"
       ],
       "optionReasons": {
-        "chase-mcq-06": "本句指「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」。",
-        "chase-mcq-05": "「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」是「chase someone out = force someone to leave a place 趕出去；驅逐出去」的用法，與本句語境不同。",
-        "chase-mcq-07": "「表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」」是「chase success = pursue success intensely 追求成功」的用法，與本句語境不同。",
-        "chase-mcq-04": "「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」是「chase someone/something away = make someone or something leave by pursuing, frightening, or driving them off 趕走；驅逐」的用法，與本句語境不同。",
-        "chase-mcq-08": "「表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」」是「chase perfection = continually pursue a perfect standard 追求完美；執著於完美 This is the exact passage sense.」的用法，與本句語境不同。",
-        "chase-mcq-03": "「表示追著……跑；追趕；例句：「孩子們追著球跑。」」是「chase after someone / something = run or move after someone or something in order to catch them 追著……跑；追趕」的用法，與本句語境不同。"
+        "chase-mcq-06": "本句的「chase her dream」指「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-06"
     },
@@ -829,11 +779,9 @@ export default {
       "masked": "He spent years ____.",
       "options": [
         "chase-mcq-06",
-        "chase-mcq-05",
-        "chase-mcq-07",
-        "chase-mcq-04",
-        "chase-mcq-08",
-        "chase-mcq-03"
+        "chase-mcq-19",
+        "chase-mcq-12",
+        "chase-mcq-20"
       ],
       "explanation": "本句的「chasing his goals」指「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」。",
       "sentenceIndex": 11,
@@ -842,12 +790,10 @@ export default {
         "chasing his goals"
       ],
       "optionReasons": {
-        "chase-mcq-06": "本句指「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」。",
-        "chase-mcq-05": "「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」是「chase someone out = force someone to leave a place 趕出去；驅逐出去」的用法，與本句語境不同。",
-        "chase-mcq-07": "「表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」」是「chase success = pursue success intensely 追求成功」的用法，與本句語境不同。",
-        "chase-mcq-04": "「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」是「chase someone/something away = make someone or something leave by pursuing, frightening, or driving them off 趕走；驅逐」的用法，與本句語境不同。",
-        "chase-mcq-08": "「表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」」是「chase perfection = continually pursue a perfect standard 追求完美；執著於完美 This is the exact passage sense.」的用法，與本句語境不同。",
-        "chase-mcq-03": "「表示追著……跑；追趕；例句：「孩子們追著球跑。」」是「chase after someone / something = run or move after someone or something in order to catch them 追著……跑；追趕」的用法，與本句語境不同。"
+        "chase-mcq-06": "本句的「chasing his goals」指「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-06"
     },
@@ -859,11 +805,9 @@ export default {
       "masked": "He spent years ____ without enjoying the process.",
       "options": [
         "chase-mcq-07",
-        "chase-mcq-06",
-        "chase-mcq-08",
+        "chase-mcq-19",
         "chase-mcq-05",
-        "chase-mcq-09",
-        "chase-mcq-04"
+        "chase-mcq-12"
       ],
       "explanation": "本句的「chasing success」指「表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」」。",
       "sentenceIndex": 12,
@@ -872,12 +816,10 @@ export default {
         "chasing success"
       ],
       "optionReasons": {
-        "chase-mcq-07": "本句指「表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」」。",
-        "chase-mcq-06": "「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」是「chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想」的用法，與本句語境不同。",
-        "chase-mcq-08": "「表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」」是「chase perfection = continually pursue a perfect standard 追求完美；執著於完美 This is the exact passage sense.」的用法，與本句語境不同。",
-        "chase-mcq-05": "「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」是「chase someone out = force someone to leave a place 趕出去；驅逐出去」的用法，與本句語境不同。",
-        "chase-mcq-09": "「表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」」是「chase money / fame / attention = pursue something strongly, often with a slightly critical implication 追逐金錢／名聲／注意力」的用法，與本句語境不同。",
-        "chase-mcq-04": "「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」是「chase someone/something away = make someone or something leave by pursuing, frightening, or driving them off 趕走；驅逐」的用法，與本句語境不同。"
+        "chase-mcq-07": "本句的「chasing success」指「表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-07"
     },
@@ -889,11 +831,9 @@ export default {
       "masked": "Constantly ____ can become exhausting.",
       "options": [
         "chase-mcq-07",
-        "chase-mcq-06",
-        "chase-mcq-08",
-        "chase-mcq-05",
-        "chase-mcq-09",
-        "chase-mcq-04"
+        "chase-mcq-12",
+        "chase-mcq-04",
+        "chase-mcq-19"
       ],
       "explanation": "本句的「chasing success」指「表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」」。",
       "sentenceIndex": 13,
@@ -902,12 +842,10 @@ export default {
         "chasing success"
       ],
       "optionReasons": {
-        "chase-mcq-07": "本句指「表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」」。",
-        "chase-mcq-06": "「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」是「chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想」的用法，與本句語境不同。",
-        "chase-mcq-08": "「表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」」是「chase perfection = continually pursue a perfect standard 追求完美；執著於完美 This is the exact passage sense.」的用法，與本句語境不同。",
-        "chase-mcq-05": "「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」是「chase someone out = force someone to leave a place 趕出去；驅逐出去」的用法，與本句語境不同。",
-        "chase-mcq-09": "「表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」」是「chase money / fame / attention = pursue something strongly, often with a slightly critical implication 追逐金錢／名聲／注意力」的用法，與本句語境不同。",
-        "chase-mcq-04": "「表示趕走；驅逐；例句：「她把花園裡的鳥趕走了。」」是「chase someone/something away = make someone or something leave by pursuing, frightening, or driving them off 趕走；驅逐」的用法，與本句語境不同。"
+        "chase-mcq-07": "本句的「chasing success」指「表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」」。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-07"
     },
@@ -919,11 +857,9 @@ export default {
       "masked": "She stopped ____ and became more confident.",
       "options": [
         "chase-mcq-08",
-        "chase-mcq-07",
-        "chase-mcq-09",
-        "chase-mcq-06",
-        "chase-mcq-10",
-        "chase-mcq-05"
+        "chase-mcq-04",
+        "chase-mcq-19",
+        "chase-mcq-12"
       ],
       "explanation": "本句的「chasing perfection」指「表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」」。",
       "sentenceIndex": 14,
@@ -932,12 +868,10 @@ export default {
         "chasing perfection"
       ],
       "optionReasons": {
-        "chase-mcq-08": "本句指「表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」」。",
-        "chase-mcq-07": "「表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」」是「chase success = pursue success intensely 追求成功」的用法，與本句語境不同。",
-        "chase-mcq-09": "「表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」」是「chase money / fame / attention = pursue something strongly, often with a slightly critical implication 追逐金錢／名聲／注意力」的用法，與本句語境不同。",
-        "chase-mcq-06": "「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」是「chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想」的用法，與本句語境不同。",
-        "chase-mcq-10": "「表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」」是「chase opportunities = actively pursue chances for success or advancement 追求機會；積極爭取機會」的用法，與本句語境不同。",
-        "chase-mcq-05": "「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」是「chase someone out = force someone to leave a place 趕出去；驅逐出去」的用法，與本句語境不同。"
+        "chase-mcq-08": "本句的「chasing perfection」指「表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」」。",
+        "chase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-08"
     },
@@ -949,11 +883,9 @@ export default {
       "masked": "Writers can waste a lot of time ____.",
       "options": [
         "chase-mcq-08",
-        "chase-mcq-07",
-        "chase-mcq-09",
-        "chase-mcq-06",
-        "chase-mcq-10",
-        "chase-mcq-05"
+        "chase-mcq-19",
+        "chase-mcq-05",
+        "chase-mcq-12"
       ],
       "explanation": "本句的「chasing perfection」指「表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」」。",
       "sentenceIndex": 15,
@@ -962,12 +894,10 @@ export default {
         "chasing perfection"
       ],
       "optionReasons": {
-        "chase-mcq-08": "本句指「表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」」。",
-        "chase-mcq-07": "「表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」」是「chase success = pursue success intensely 追求成功」的用法，與本句語境不同。",
-        "chase-mcq-09": "「表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」」是「chase money / fame / attention = pursue something strongly, often with a slightly critical implication 追逐金錢／名聲／注意力」的用法，與本句語境不同。",
-        "chase-mcq-06": "「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」是「chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想」的用法，與本句語境不同。",
-        "chase-mcq-10": "「表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」」是「chase opportunities = actively pursue chances for success or advancement 追求機會；積極爭取機會」的用法，與本句語境不同。",
-        "chase-mcq-05": "「表示趕出去；驅逐出去；例句：「警衛把闖入者趕了出去。」」是「chase someone out = force someone to leave a place 趕出去；驅逐出去」的用法，與本句語境不同。"
+        "chase-mcq-08": "本句的「chasing perfection」指「表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-08"
     },
@@ -979,11 +909,9 @@ export default {
       "masked": "He was more interested in ____ than improving his craft.",
       "options": [
         "chase-mcq-09",
-        "chase-mcq-08",
-        "chase-mcq-10",
-        "chase-mcq-07",
-        "chase-mcq-11",
-        "chase-mcq-06"
+        "chase-mcq-12",
+        "chase-mcq-19",
+        "chase-mcq-13"
       ],
       "explanation": "本句的「chasing fame」指「表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」」。",
       "sentenceIndex": 16,
@@ -992,12 +920,10 @@ export default {
         "chasing fame"
       ],
       "optionReasons": {
-        "chase-mcq-09": "本句指「表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」」。",
-        "chase-mcq-08": "「表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」」是「chase perfection = continually pursue a perfect standard 追求完美；執著於完美 This is the exact passage sense.」的用法，與本句語境不同。",
-        "chase-mcq-10": "「表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」」是「chase opportunities = actively pursue chances for success or advancement 追求機會；積極爭取機會」的用法，與本句語境不同。",
-        "chase-mcq-07": "「表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」」是「chase success = pursue success intensely 追求成功」的用法，與本句語境不同。",
-        "chase-mcq-11": "「表示追求某人；例句：「他花了幾個月追求她。」」是「chase someone romantically = actively pursue someone because you want a romantic relationship 追求某人」的用法，與本句語境不同。",
-        "chase-mcq-06": "「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」是「chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想」的用法，與本句語境不同。"
+        "chase-mcq-09": "本句的「chasing fame」指「表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」」。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-09"
     },
@@ -1009,11 +935,9 @@ export default {
       "masked": "Some companies focus too much on ____.",
       "options": [
         "chase-mcq-09",
-        "chase-mcq-08",
-        "chase-mcq-10",
-        "chase-mcq-07",
-        "chase-mcq-11",
-        "chase-mcq-06"
+        "chase-mcq-12",
+        "chase-mcq-19",
+        "chase-mcq-05"
       ],
       "explanation": "本句的「chasing short-term profits」指「表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」」。",
       "sentenceIndex": 17,
@@ -1022,12 +946,10 @@ export default {
         "chasing short-term profits"
       ],
       "optionReasons": {
-        "chase-mcq-09": "本句指「表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」」。",
-        "chase-mcq-08": "「表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」」是「chase perfection = continually pursue a perfect standard 追求完美；執著於完美 This is the exact passage sense.」的用法，與本句語境不同。",
-        "chase-mcq-10": "「表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」」是「chase opportunities = actively pursue chances for success or advancement 追求機會；積極爭取機會」的用法，與本句語境不同。",
-        "chase-mcq-07": "「表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」」是「chase success = pursue success intensely 追求成功」的用法，與本句語境不同。",
-        "chase-mcq-11": "「表示追求某人；例句：「他花了幾個月追求她。」」是「chase someone romantically = actively pursue someone because you want a romantic relationship 追求某人」的用法，與本句語境不同。",
-        "chase-mcq-06": "「表示追求目標；追逐夢想；例句：「她搬到國外去追逐成為音樂家的夢想。」」是「chase a goal / dream = make sustained efforts to achieve something desired 追求目標；追逐夢想」的用法，與本句語境不同。"
+        "chase-mcq-09": "本句的「chasing short-term profits」指「表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」」。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-09"
     },
@@ -1039,11 +961,9 @@ export default {
       "masked": "She moved cities to ____.",
       "options": [
         "chase-mcq-10",
-        "chase-mcq-09",
-        "chase-mcq-11",
-        "chase-mcq-08",
+        "chase-mcq-04",
         "chase-mcq-12",
-        "chase-mcq-07"
+        "chase-mcq-19"
       ],
       "explanation": "本句的「chase better opportunities」指「表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」」。",
       "sentenceIndex": 18,
@@ -1052,12 +972,10 @@ export default {
         "chase better opportunities"
       ],
       "optionReasons": {
-        "chase-mcq-10": "本句指「表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」」。",
-        "chase-mcq-09": "「表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」」是「chase money / fame / attention = pursue something strongly, often with a slightly critical implication 追逐金錢／名聲／注意力」的用法，與本句語境不同。",
-        "chase-mcq-11": "「表示追求某人；例句：「他花了幾個月追求她。」」是「chase someone romantically = actively pursue someone because you want a romantic relationship 追求某人」的用法，與本句語境不同。",
-        "chase-mcq-08": "「表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」」是「chase perfection = continually pursue a perfect standard 追求完美；執著於完美 This is the exact passage sense.」的用法，與本句語境不同。",
-        "chase-mcq-12": "「表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」」是「chase someone for something = repeatedly contact someone in order to obtain something they owe or have not provided 催某人交付／回覆／付款」的用法，與本句語境不同。",
-        "chase-mcq-07": "「表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」」是「chase success = pursue success intensely 追求成功」的用法，與本句語境不同。"
+        "chase-mcq-10": "本句的「chase better opportunities」指「表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」」。",
+        "chase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-10"
     },
@@ -1069,11 +987,9 @@ export default {
       "masked": "Young professionals often ____ abroad.",
       "options": [
         "chase-mcq-10",
-        "chase-mcq-09",
-        "chase-mcq-11",
-        "chase-mcq-08",
-        "chase-mcq-12",
-        "chase-mcq-07"
+        "chase-mcq-19",
+        "chase-mcq-04",
+        "chase-mcq-12"
       ],
       "explanation": "本句的「chase opportunities」指「表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」」。",
       "sentenceIndex": 19,
@@ -1082,12 +998,10 @@ export default {
         "chase opportunities"
       ],
       "optionReasons": {
-        "chase-mcq-10": "本句指「表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」」。",
-        "chase-mcq-09": "「表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」」是「chase money / fame / attention = pursue something strongly, often with a slightly critical implication 追逐金錢／名聲／注意力」的用法，與本句語境不同。",
-        "chase-mcq-11": "「表示追求某人；例句：「他花了幾個月追求她。」」是「chase someone romantically = actively pursue someone because you want a romantic relationship 追求某人」的用法，與本句語境不同。",
-        "chase-mcq-08": "「表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」」是「chase perfection = continually pursue a perfect standard 追求完美；執著於完美 This is the exact passage sense.」的用法，與本句語境不同。",
-        "chase-mcq-12": "「表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」」是「chase someone for something = repeatedly contact someone in order to obtain something they owe or have not provided 催某人交付／回覆／付款」的用法，與本句語境不同。",
-        "chase-mcq-07": "「表示追求成功；例句：「他多年來一直追逐成功，卻沒有享受過程。」」是「chase success = pursue success intensely 追求成功」的用法，與本句語境不同。"
+        "chase-mcq-10": "本句的「chase opportunities」指「表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-10"
     },
@@ -1099,11 +1013,8 @@ export default {
       "masked": "He spent months ____.",
       "options": [
         "chase-mcq-11",
-        "chase-mcq-10",
-        "chase-mcq-12",
-        "chase-mcq-09",
-        "chase-mcq-13",
-        "chase-mcq-08"
+        "chase-mcq-19",
+        "chase-mcq-05"
       ],
       "explanation": "本句的「chasing her」指「表示追求某人；例句：「他花了幾個月追求她。」」。",
       "sentenceIndex": 20,
@@ -1112,12 +1023,9 @@ export default {
         "chasing her"
       ],
       "optionReasons": {
-        "chase-mcq-11": "本句指「表示追求某人；例句：「他花了幾個月追求她。」」。",
-        "chase-mcq-10": "「表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」」是「chase opportunities = actively pursue chances for success or advancement 追求機會；積極爭取機會」的用法，與本句語境不同。",
-        "chase-mcq-12": "「表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」」是「chase someone for something = repeatedly contact someone in order to obtain something they owe or have not provided 催某人交付／回覆／付款」的用法，與本句語境不同。",
-        "chase-mcq-09": "「表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」」是「chase money / fame / attention = pursue something strongly, often with a slightly critical implication 追逐金錢／名聲／注意力」的用法，與本句語境不同。",
-        "chase-mcq-13": "「表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」」是「chase up = follow up something actively to get progress, information, payment, or action 追蹤；催辦；跟進」的用法，與本句語境不同。",
-        "chase-mcq-08": "「表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」」是「chase perfection = continually pursue a perfect standard 追求完美；執著於完美 This is the exact passage sense.」的用法，與本句語境不同。"
+        "chase-mcq-11": "本句的「chasing her」指「表示追求某人；例句：「他花了幾個月追求她。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-11"
     },
@@ -1129,11 +1037,8 @@ export default {
       "masked": "She wasn’t interested in ____.",
       "options": [
         "chase-mcq-11",
-        "chase-mcq-10",
-        "chase-mcq-12",
-        "chase-mcq-09",
-        "chase-mcq-13",
-        "chase-mcq-08"
+        "chase-mcq-04",
+        "chase-mcq-19"
       ],
       "explanation": "本句的「chasing anyone」指「表示追求某人；例句：「他花了幾個月追求她。」」。",
       "sentenceIndex": 21,
@@ -1142,12 +1047,9 @@ export default {
         "chasing anyone"
       ],
       "optionReasons": {
-        "chase-mcq-11": "本句指「表示追求某人；例句：「他花了幾個月追求她。」」。",
-        "chase-mcq-10": "「表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」」是「chase opportunities = actively pursue chances for success or advancement 追求機會；積極爭取機會」的用法，與本句語境不同。",
-        "chase-mcq-12": "「表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」」是「chase someone for something = repeatedly contact someone in order to obtain something they owe or have not provided 催某人交付／回覆／付款」的用法，與本句語境不同。",
-        "chase-mcq-09": "「表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」」是「chase money / fame / attention = pursue something strongly, often with a slightly critical implication 追逐金錢／名聲／注意力」的用法，與本句語境不同。",
-        "chase-mcq-13": "「表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」」是「chase up = follow up something actively to get progress, information, payment, or action 追蹤；催辦；跟進」的用法，與本句語境不同。",
-        "chase-mcq-08": "「表示追求完美；執著於完美；例句：「她不再追求完美，反而變得更有自信。」」是「chase perfection = continually pursue a perfect standard 追求完美；執著於完美 This is the exact passage sense.」的用法，與本句語境不同。"
+        "chase-mcq-11": "本句的「chasing anyone」指「表示追求某人；例句：「他花了幾個月追求她。」」。",
+        "chase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-11"
     },
@@ -1159,11 +1061,9 @@ export default {
       "masked": "I had to ____.",
       "options": [
         "chase-mcq-12",
-        "chase-mcq-11",
-        "chase-mcq-13",
-        "chase-mcq-10",
-        "chase-mcq-14",
-        "chase-mcq-09"
+        "chase-mcq-17",
+        "chase-mcq-06",
+        "chase-mcq-04"
       ],
       "explanation": "本句的「chase him for the report」指「表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」」。",
       "sentenceIndex": 22,
@@ -1172,12 +1072,10 @@ export default {
         "chase him for the report"
       ],
       "optionReasons": {
-        "chase-mcq-12": "本句指「表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」」。",
-        "chase-mcq-11": "「表示追求某人；例句：「他花了幾個月追求她。」」是「chase someone romantically = actively pursue someone because you want a romantic relationship 追求某人」的用法，與本句語境不同。",
-        "chase-mcq-13": "「表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」」是「chase up = follow up something actively to get progress, information, payment, or action 追蹤；催辦；跟進」的用法，與本句語境不同。",
-        "chase-mcq-10": "「表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」」是「chase opportunities = actively pursue chances for success or advancement 追求機會；積極爭取機會」的用法，與本句語境不同。",
-        "chase-mcq-14": "「表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」」是「a chase = act of pursuing someone or something 追逐；追趕」的用法，與本句語境不同。",
-        "chase-mcq-09": "「表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」」是「chase money / fame / attention = pursue something strongly, often with a slightly critical implication 追逐金錢／名聲／注意力」的用法，與本句語境不同。"
+        "chase-mcq-12": "本句的「chase him for the report」指「表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」」。",
+        "chase-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-12"
     },
@@ -1189,11 +1087,9 @@ export default {
       "masked": "We’re still ____.",
       "options": [
         "chase-mcq-12",
-        "chase-mcq-11",
-        "chase-mcq-13",
-        "chase-mcq-10",
-        "chase-mcq-14",
-        "chase-mcq-09"
+        "chase-mcq-06",
+        "chase-mcq-17",
+        "chase-mcq-04"
       ],
       "explanation": "本句的「chasing the client for payment」指「表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」」。",
       "sentenceIndex": 23,
@@ -1202,12 +1098,10 @@ export default {
         "chasing the client for payment"
       ],
       "optionReasons": {
-        "chase-mcq-12": "本句指「表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」」。",
-        "chase-mcq-11": "「表示追求某人；例句：「他花了幾個月追求她。」」是「chase someone romantically = actively pursue someone because you want a romantic relationship 追求某人」的用法，與本句語境不同。",
-        "chase-mcq-13": "「表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」」是「chase up = follow up something actively to get progress, information, payment, or action 追蹤；催辦；跟進」的用法，與本句語境不同。",
-        "chase-mcq-10": "「表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」」是「chase opportunities = actively pursue chances for success or advancement 追求機會；積極爭取機會」的用法，與本句語境不同。",
-        "chase-mcq-14": "「表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」」是「a chase = act of pursuing someone or something 追逐；追趕」的用法，與本句語境不同。",
-        "chase-mcq-09": "「表示追逐金錢／名聲／注意力；例句：「他比起提升自己的技藝，更在意追逐名聲。」」是「chase money / fame / attention = pursue something strongly, often with a slightly critical implication 追逐金錢／名聲／注意力」的用法，與本句語境不同。"
+        "chase-mcq-12": "本句的「chasing the client for payment」指「表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」」。",
+        "chase-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-12"
     },
@@ -1219,11 +1113,9 @@ export default {
       "masked": "I’ll ____ tomorrow.",
       "options": [
         "chase-mcq-13",
-        "chase-mcq-12",
-        "chase-mcq-14",
-        "chase-mcq-11",
-        "chase-mcq-15",
-        "chase-mcq-10"
+        "chase-mcq-05",
+        "chase-mcq-19",
+        "chase-mcq-17"
       ],
       "explanation": "本句的「chase up the invoice」指「表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」」。",
       "sentenceIndex": 24,
@@ -1232,12 +1124,10 @@ export default {
         "chase up the invoice"
       ],
       "optionReasons": {
-        "chase-mcq-13": "本句指「表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」」。",
-        "chase-mcq-12": "「表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」」是「chase someone for something = repeatedly contact someone in order to obtain something they owe or have not provided 催某人交付／回覆／付款」的用法，與本句語境不同。",
-        "chase-mcq-14": "「表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」」是「a chase = act of pursuing someone or something 追逐；追趕」的用法，與本句語境不同。",
-        "chase-mcq-11": "「表示追求某人；例句：「他花了幾個月追求她。」」是「chase someone romantically = actively pursue someone because you want a romantic relationship 追求某人」的用法，與本句語境不同。",
-        "chase-mcq-15": "「表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」」是「car chase = pursuit involving cars 飛車追逐；汽車追逐」的用法，與本句語境不同。",
-        "chase-mcq-10": "「表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」」是「chase opportunities = actively pursue chances for success or advancement 追求機會；積極爭取機會」的用法，與本句語境不同。"
+        "chase-mcq-13": "本句的「chase up the invoice」指「表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」」。",
+        "chase-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-13"
     },
@@ -1249,11 +1139,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "chase-mcq-13",
-        "chase-mcq-12",
-        "chase-mcq-14",
-        "chase-mcq-11",
-        "chase-mcq-15",
-        "chase-mcq-10"
+        "chase-mcq-19",
+        "chase-mcq-04",
+        "chase-mcq-20"
       ],
       "explanation": "本句的「chased up the missing documents」指「表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」」。",
       "sentenceIndex": 25,
@@ -1262,12 +1150,10 @@ export default {
         "chased up the missing documents"
       ],
       "optionReasons": {
-        "chase-mcq-13": "本句指「表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」」。",
-        "chase-mcq-12": "「表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」」是「chase someone for something = repeatedly contact someone in order to obtain something they owe or have not provided 催某人交付／回覆／付款」的用法，與本句語境不同。",
-        "chase-mcq-14": "「表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」」是「a chase = act of pursuing someone or something 追逐；追趕」的用法，與本句語境不同。",
-        "chase-mcq-11": "「表示追求某人；例句：「他花了幾個月追求她。」」是「chase someone romantically = actively pursue someone because you want a romantic relationship 追求某人」的用法，與本句語境不同。",
-        "chase-mcq-15": "「表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」」是「car chase = pursuit involving cars 飛車追逐；汽車追逐」的用法，與本句語境不同。",
-        "chase-mcq-10": "「表示追求機會；積極爭取機會；例句：「她搬到另一座城市去爭取更好的機會。」」是「chase opportunities = actively pursue chances for success or advancement 追求機會；積極爭取機會」的用法，與本句語境不同。"
+        "chase-mcq-13": "本句的「chased up the missing documents」指「表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-13"
     },
@@ -1279,11 +1165,8 @@ export default {
       "masked": "The film contains a long car ____.",
       "options": [
         "chase-mcq-14",
-        "chase-mcq-13",
-        "chase-mcq-15",
-        "chase-mcq-12",
-        "chase-mcq-16",
-        "chase-mcq-11"
+        "chase-mcq-19",
+        "chase-mcq-12"
       ],
       "explanation": "本句的「chase」指「表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」」。",
       "sentenceIndex": 26,
@@ -1292,12 +1175,9 @@ export default {
         "chase"
       ],
       "optionReasons": {
-        "chase-mcq-14": "本句指「表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」」。",
-        "chase-mcq-13": "「表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」」是「chase up = follow up something actively to get progress, information, payment, or action 追蹤；催辦；跟進」的用法，與本句語境不同。",
-        "chase-mcq-15": "「表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」」是「car chase = pursuit involving cars 飛車追逐；汽車追逐」的用法，與本句語境不同。",
-        "chase-mcq-12": "「表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」」是「chase someone for something = repeatedly contact someone in order to obtain something they owe or have not provided 催某人交付／回覆／付款」的用法，與本句語境不同。",
-        "chase-mcq-16": "「表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」」是「police chase = pursuit by police 警方追捕」的用法，與本句語境不同。",
-        "chase-mcq-11": "「表示追求某人；例句：「他花了幾個月追求她。」」是「chase someone romantically = actively pursue someone because you want a romantic relationship 追求某人」的用法，與本句語境不同。"
+        "chase-mcq-14": "本句的「chase」指「表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-14"
     },
@@ -1309,11 +1189,8 @@ export default {
       "masked": "The ____ lasted several minutes.",
       "options": [
         "chase-mcq-14",
-        "chase-mcq-13",
-        "chase-mcq-15",
-        "chase-mcq-12",
-        "chase-mcq-16",
-        "chase-mcq-11"
+        "chase-mcq-19",
+        "chase-mcq-12"
       ],
       "explanation": "本句的「chase」指「表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」」。",
       "sentenceIndex": 27,
@@ -1322,12 +1199,9 @@ export default {
         "chase"
       ],
       "optionReasons": {
-        "chase-mcq-14": "本句指「表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」」。",
-        "chase-mcq-13": "「表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」」是「chase up = follow up something actively to get progress, information, payment, or action 追蹤；催辦；跟進」的用法，與本句語境不同。",
-        "chase-mcq-15": "「表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」」是「car chase = pursuit involving cars 飛車追逐；汽車追逐」的用法，與本句語境不同。",
-        "chase-mcq-12": "「表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」」是「chase someone for something = repeatedly contact someone in order to obtain something they owe or have not provided 催某人交付／回覆／付款」的用法，與本句語境不同。",
-        "chase-mcq-16": "「表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」」是「police chase = pursuit by police 警方追捕」的用法，與本句語境不同。",
-        "chase-mcq-11": "「表示追求某人；例句：「他花了幾個月追求她。」」是「chase someone romantically = actively pursue someone because you want a romantic relationship 追求某人」的用法，與本句語境不同。"
+        "chase-mcq-14": "本句的「chase」指「表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-14"
     },
@@ -1339,11 +1213,9 @@ export default {
       "masked": "The movie opens with a dramatic ____.",
       "options": [
         "chase-mcq-15",
-        "chase-mcq-14",
-        "chase-mcq-16",
-        "chase-mcq-13",
-        "chase-mcq-17",
-        "chase-mcq-12"
+        "chase-mcq-19",
+        "chase-mcq-12",
+        "chase-mcq-10"
       ],
       "explanation": "本句的「car chase」指「表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」」。",
       "sentenceIndex": 28,
@@ -1352,12 +1224,10 @@ export default {
         "car chase"
       ],
       "optionReasons": {
-        "chase-mcq-15": "本句指「表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」」。",
-        "chase-mcq-14": "「表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」」是「a chase = act of pursuing someone or something 追逐；追趕」的用法，與本句語境不同。",
-        "chase-mcq-16": "「表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」」是「police chase = pursuit by police 警方追捕」的用法，與本句語境不同。",
-        "chase-mcq-13": "「表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」」是「chase up = follow up something actively to get progress, information, payment, or action 追蹤；催辦；跟進」的用法，與本句語境不同。",
-        "chase-mcq-17": "「表示開始追趕；展開追捕；例句：「警方展開追捕。」」是「give chase = start chasing someone or something 開始追趕；展開追捕」的用法，與本句語境不同。",
-        "chase-mcq-12": "「表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」」是「chase someone for something = repeatedly contact someone in order to obtain something they owe or have not provided 催某人交付／回覆／付款」的用法，與本句語境不同。"
+        "chase-mcq-15": "本句的「car chase」指「表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-15"
     },
@@ -1369,11 +1239,9 @@ export default {
       "masked": "Police became involved in a high-speed ____.",
       "options": [
         "chase-mcq-15",
-        "chase-mcq-14",
-        "chase-mcq-16",
-        "chase-mcq-13",
-        "chase-mcq-17",
-        "chase-mcq-12"
+        "chase-mcq-12",
+        "chase-mcq-19",
+        "chase-mcq-07"
       ],
       "explanation": "本句的「car chase」指「表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」」。",
       "sentenceIndex": 29,
@@ -1382,12 +1250,10 @@ export default {
         "car chase"
       ],
       "optionReasons": {
-        "chase-mcq-15": "本句指「表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」」。",
-        "chase-mcq-14": "「表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」」是「a chase = act of pursuing someone or something 追逐；追趕」的用法，與本句語境不同。",
-        "chase-mcq-16": "「表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」」是「police chase = pursuit by police 警方追捕」的用法，與本句語境不同。",
-        "chase-mcq-13": "「表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」」是「chase up = follow up something actively to get progress, information, payment, or action 追蹤；催辦；跟進」的用法，與本句語境不同。",
-        "chase-mcq-17": "「表示開始追趕；展開追捕；例句：「警方展開追捕。」」是「give chase = start chasing someone or something 開始追趕；展開追捕」的用法，與本句語境不同。",
-        "chase-mcq-12": "「表示催某人交付／回覆／付款；例句：「我得一直催他交報告。」」是「chase someone for something = repeatedly contact someone in order to obtain something they owe or have not provided 催某人交付／回覆／付款」的用法，與本句語境不同。"
+        "chase-mcq-15": "本句的「car chase」指「表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」」。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-15"
     },
@@ -1399,11 +1265,9 @@ export default {
       "masked": "The incident ended after a short ____.",
       "options": [
         "chase-mcq-16",
-        "chase-mcq-15",
-        "chase-mcq-17",
-        "chase-mcq-14",
-        "chase-mcq-18",
-        "chase-mcq-13"
+        "chase-mcq-12",
+        "chase-mcq-05",
+        "chase-mcq-19"
       ],
       "explanation": "本句的「police chase」指「表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」」。",
       "sentenceIndex": 30,
@@ -1412,12 +1276,10 @@ export default {
         "police chase"
       ],
       "optionReasons": {
-        "chase-mcq-16": "本句指「表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」」。",
-        "chase-mcq-15": "「表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」」是「car chase = pursuit involving cars 飛車追逐；汽車追逐」的用法，與本句語境不同。",
-        "chase-mcq-17": "「表示開始追趕；展開追捕；例句：「警方展開追捕。」」是「give chase = start chasing someone or something 開始追趕；展開追捕」的用法，與本句語境不同。",
-        "chase-mcq-14": "「表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」」是「a chase = act of pursuing someone or something 追逐；追趕」的用法，與本句語境不同。",
-        "chase-mcq-18": "「追逐過程的刺激；追求本身的快感」是「the thrill of the chase = excitement caused by pursuing something, sometimes more than by actually obtaining it 追逐過程的刺激；追求本身的快感」的用法，與本句語境不同。",
-        "chase-mcq-13": "「表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」」是「chase up = follow up something actively to get progress, information, payment, or action 追蹤；催辦；跟進」的用法，與本句語境不同。"
+        "chase-mcq-16": "本句的「police chase」指「表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」」。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-16"
     },
@@ -1429,11 +1291,9 @@ export default {
       "masked": "The driver fled during a ____.",
       "options": [
         "chase-mcq-16",
-        "chase-mcq-15",
-        "chase-mcq-17",
-        "chase-mcq-14",
-        "chase-mcq-18",
-        "chase-mcq-13"
+        "chase-mcq-12",
+        "chase-mcq-04",
+        "chase-mcq-19"
       ],
       "explanation": "本句的「police chase」指「表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」」。",
       "sentenceIndex": 31,
@@ -1442,12 +1302,10 @@ export default {
         "police chase"
       ],
       "optionReasons": {
-        "chase-mcq-16": "本句指「表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」」。",
-        "chase-mcq-15": "「表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」」是「car chase = pursuit involving cars 飛車追逐；汽車追逐」的用法，與本句語境不同。",
-        "chase-mcq-17": "「表示開始追趕；展開追捕；例句：「警方展開追捕。」」是「give chase = start chasing someone or something 開始追趕；展開追捕」的用法，與本句語境不同。",
-        "chase-mcq-14": "「表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」」是「a chase = act of pursuing someone or something 追逐；追趕」的用法，與本句語境不同。",
-        "chase-mcq-18": "「追逐過程的刺激；追求本身的快感」是「the thrill of the chase = excitement caused by pursuing something, sometimes more than by actually obtaining it 追逐過程的刺激；追求本身的快感」的用法，與本句語境不同。",
-        "chase-mcq-13": "「表示追蹤；催辦；跟進；例句：「我明天會去跟進／催辦那張發票。」」是「chase up = follow up something actively to get progress, information, payment, or action 追蹤；催辦；跟進」的用法，與本句語境不同。"
+        "chase-mcq-16": "本句的「police chase」指「表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」」。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-16"
     },
@@ -1459,11 +1317,9 @@ export default {
       "masked": "The police ____.",
       "options": [
         "chase-mcq-17",
-        "chase-mcq-16",
-        "chase-mcq-18",
-        "chase-mcq-15",
-        "chase-mcq-19",
-        "chase-mcq-14"
+        "chase-mcq-12",
+        "chase-mcq-05",
+        "chase-mcq-09"
       ],
       "explanation": "本句的「gave chase」指「表示開始追趕；展開追捕；例句：「警方展開追捕。」」。",
       "sentenceIndex": 32,
@@ -1472,12 +1328,10 @@ export default {
         "gave chase"
       ],
       "optionReasons": {
-        "chase-mcq-17": "本句指「表示開始追趕；展開追捕；例句：「警方展開追捕。」」。",
-        "chase-mcq-16": "「表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」」是「police chase = pursuit by police 警方追捕」的用法，與本句語境不同。",
-        "chase-mcq-18": "「追逐過程的刺激；追求本身的快感」是「the thrill of the chase = excitement caused by pursuing something, sometimes more than by actually obtaining it 追逐過程的刺激；追求本身的快感」的用法，與本句語境不同。",
-        "chase-mcq-15": "「表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」」是「car chase = pursuit involving cars 飛車追逐；汽車追逐」的用法，與本句語境不同。",
-        "chase-mcq-19": "「表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」」是「cut to the chase = stop wasting time and get directly to the main point 開門見山；直奔主題」的用法，與本句語境不同。",
-        "chase-mcq-14": "「表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」」是「a chase = act of pursuing someone or something 追逐；追趕」的用法，與本句語境不同。"
+        "chase-mcq-17": "本句的「gave chase」指「表示開始追趕；展開追捕；例句：「警方展開追捕。」」。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-17"
     },
@@ -1489,11 +1343,9 @@ export default {
       "masked": "The dog saw the rabbit and immediately ____.",
       "options": [
         "chase-mcq-17",
-        "chase-mcq-16",
-        "chase-mcq-18",
+        "chase-mcq-12",
         "chase-mcq-15",
-        "chase-mcq-19",
-        "chase-mcq-14"
+        "chase-mcq-20"
       ],
       "explanation": "本句的「gave chase」指「表示開始追趕；展開追捕；例句：「警方展開追捕。」」。",
       "sentenceIndex": 33,
@@ -1502,12 +1354,10 @@ export default {
         "gave chase"
       ],
       "optionReasons": {
-        "chase-mcq-17": "本句指「表示開始追趕；展開追捕；例句：「警方展開追捕。」」。",
-        "chase-mcq-16": "「表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」」是「police chase = pursuit by police 警方追捕」的用法，與本句語境不同。",
-        "chase-mcq-18": "「追逐過程的刺激；追求本身的快感」是「the thrill of the chase = excitement caused by pursuing something, sometimes more than by actually obtaining it 追逐過程的刺激；追求本身的快感」的用法，與本句語境不同。",
-        "chase-mcq-15": "「表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」」是「car chase = pursuit involving cars 飛車追逐；汽車追逐」的用法，與本句語境不同。",
-        "chase-mcq-19": "「表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」」是「cut to the chase = stop wasting time and get directly to the main point 開門見山；直奔主題」的用法，與本句語境不同。",
-        "chase-mcq-14": "「表示追逐；追趕；例句：「這部電影有一段很長的飛車追逐場面。」」是「a chase = act of pursuing someone or something 追逐；追趕」的用法，與本句語境不同。"
+        "chase-mcq-17": "本句的「gave chase」指「表示開始追趕；展開追捕；例句：「警方展開追捕。」」。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-17"
     },
@@ -1519,11 +1369,9 @@ export default {
       "masked": "For him, the ____ mattered more than winning.",
       "options": [
         "chase-mcq-18",
-        "chase-mcq-17",
+        "chase-mcq-12",
         "chase-mcq-19",
-        "chase-mcq-16",
-        "chase-mcq-20",
-        "chase-mcq-15"
+        "chase-mcq-13"
       ],
       "explanation": "本句的「thrill of the chase」指「追逐過程的刺激；追求本身的快感」。",
       "sentenceIndex": 34,
@@ -1532,12 +1380,10 @@ export default {
         "thrill of the chase"
       ],
       "optionReasons": {
-        "chase-mcq-18": "本句指「追逐過程的刺激；追求本身的快感」。",
-        "chase-mcq-17": "「表示開始追趕；展開追捕；例句：「警方展開追捕。」」是「give chase = start chasing someone or something 開始追趕；展開追捕」的用法，與本句語境不同。",
-        "chase-mcq-19": "「表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」」是「cut to the chase = stop wasting time and get directly to the main point 開門見山；直奔主題」的用法，與本句語境不同。",
-        "chase-mcq-16": "「表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」」是「police chase = pursuit by police 警方追捕」的用法，與本句語境不同。",
-        "chase-mcq-20": "「徒勞無功的尋找；白費力氣的追尋」是「wild-goose chase = pointless search or pursuit that is unlikely to succeed 徒勞無功的尋找；白費力氣的追尋」的用法，與本句語境不同。",
-        "chase-mcq-15": "「表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」」是「car chase = pursuit involving cars 飛車追逐；汽車追逐」的用法，與本句語境不同。"
+        "chase-mcq-18": "本句的「thrill of the chase」指「追逐過程的刺激；追求本身的快感」。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-18"
     },
@@ -1549,11 +1395,9 @@ export default {
       "masked": "Some people enjoy the ____ in business.",
       "options": [
         "chase-mcq-18",
-        "chase-mcq-17",
         "chase-mcq-19",
-        "chase-mcq-16",
-        "chase-mcq-20",
-        "chase-mcq-15"
+        "chase-mcq-12",
+        "chase-mcq-20"
       ],
       "explanation": "本句的「thrill of the chase」指「追逐過程的刺激；追求本身的快感」。",
       "sentenceIndex": 35,
@@ -1562,12 +1406,10 @@ export default {
         "thrill of the chase"
       ],
       "optionReasons": {
-        "chase-mcq-18": "本句指「追逐過程的刺激；追求本身的快感」。",
-        "chase-mcq-17": "「表示開始追趕；展開追捕；例句：「警方展開追捕。」」是「give chase = start chasing someone or something 開始追趕；展開追捕」的用法，與本句語境不同。",
-        "chase-mcq-19": "「表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」」是「cut to the chase = stop wasting time and get directly to the main point 開門見山；直奔主題」的用法，與本句語境不同。",
-        "chase-mcq-16": "「表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」」是「police chase = pursuit by police 警方追捕」的用法，與本句語境不同。",
-        "chase-mcq-20": "「徒勞無功的尋找；白費力氣的追尋」是「wild-goose chase = pointless search or pursuit that is unlikely to succeed 徒勞無功的尋找；白費力氣的追尋」的用法，與本句語境不同。",
-        "chase-mcq-15": "「表示飛車追逐；汽車追逐；例句：「這部電影以一場精彩的飛車追逐開場。」」是「car chase = pursuit involving cars 飛車追逐；汽車追逐」的用法，與本句語境不同。"
+        "chase-mcq-18": "本句的「thrill of the chase」指「追逐過程的刺激；追求本身的快感」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-18"
     },
@@ -1579,11 +1421,9 @@ export default {
       "masked": "Let’s ____—what do you actually want?",
       "options": [
         "chase-mcq-19",
-        "chase-mcq-18",
-        "chase-mcq-20",
-        "chase-mcq-17",
-        "chase-mcq-21",
-        "chase-mcq-16"
+        "chase-mcq-04",
+        "chase-mcq-01",
+        "chase-mcq-12"
       ],
       "explanation": "本句的「cut to the chase」指「表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」」。",
       "sentenceIndex": 36,
@@ -1592,12 +1432,10 @@ export default {
         "cut to the chase"
       ],
       "optionReasons": {
-        "chase-mcq-19": "本句指「表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」」。",
-        "chase-mcq-18": "「追逐過程的刺激；追求本身的快感」是「the thrill of the chase = excitement caused by pursuing something, sometimes more than by actually obtaining it 追逐過程的刺激；追求本身的快感」的用法，與本句語境不同。",
-        "chase-mcq-20": "「徒勞無功的尋找；白費力氣的追尋」是「wild-goose chase = pointless search or pursuit that is unlikely to succeed 徒勞無功的尋找；白費力氣的追尋」的用法，與本句語境不同。",
-        "chase-mcq-17": "「表示開始追趕；展開追捕；例句：「警方展開追捕。」」是「give chase = start chasing someone or something 開始追趕；展開追捕」的用法，與本句語境不同。",
-        "chase-mcq-21": "「表示追趕；追逐；追求；例句：「不斷追求別人的認可可能很累。」」是「chasing = the act of pursuing someone, something, or a goal 追趕；追逐；追求」的用法，與本句語境不同。",
-        "chase-mcq-16": "「表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」」是「police chase = pursuit by police 警方追捕」的用法，與本句語境不同。"
+        "chase-mcq-19": "本句的「cut to the chase」指「表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」」。",
+        "chase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-19"
     },
@@ -1609,11 +1447,9 @@ export default {
       "masked": "I’ll ____ and explain the main issue.",
       "options": [
         "chase-mcq-19",
-        "chase-mcq-18",
-        "chase-mcq-20",
-        "chase-mcq-17",
-        "chase-mcq-21",
-        "chase-mcq-16"
+        "chase-mcq-10",
+        "chase-mcq-22",
+        "chase-mcq-20"
       ],
       "explanation": "本句的「cut to the chase」指「表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」」。",
       "sentenceIndex": 37,
@@ -1622,12 +1458,10 @@ export default {
         "cut to the chase"
       ],
       "optionReasons": {
-        "chase-mcq-19": "本句指「表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」」。",
-        "chase-mcq-18": "「追逐過程的刺激；追求本身的快感」是「the thrill of the chase = excitement caused by pursuing something, sometimes more than by actually obtaining it 追逐過程的刺激；追求本身的快感」的用法，與本句語境不同。",
-        "chase-mcq-20": "「徒勞無功的尋找；白費力氣的追尋」是「wild-goose chase = pointless search or pursuit that is unlikely to succeed 徒勞無功的尋找；白費力氣的追尋」的用法，與本句語境不同。",
-        "chase-mcq-17": "「表示開始追趕；展開追捕；例句：「警方展開追捕。」」是「give chase = start chasing someone or something 開始追趕；展開追捕」的用法，與本句語境不同。",
-        "chase-mcq-21": "「表示追趕；追逐；追求；例句：「不斷追求別人的認可可能很累。」」是「chasing = the act of pursuing someone, something, or a goal 追趕；追逐；追求」的用法，與本句語境不同。",
-        "chase-mcq-16": "「表示警方追捕；例句：「事件在一段短暫的警方追捕後結束。」」是「police chase = pursuit by police 警方追捕」的用法，與本句語境不同。"
+        "chase-mcq-19": "本句的「cut to the chase」指「表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」」。",
+        "chase-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-19"
     },
@@ -1640,10 +1474,8 @@ export default {
       "options": [
         "chase-mcq-20",
         "chase-mcq-19",
-        "chase-mcq-21",
-        "chase-mcq-18",
-        "chase-mcq-22",
-        "chase-mcq-17"
+        "chase-mcq-05",
+        "chase-mcq-12"
       ],
       "explanation": "本句的「wild-goose chase」指「徒勞無功的尋找；白費力氣的追尋」。",
       "sentenceIndex": 38,
@@ -1652,12 +1484,10 @@ export default {
         "wild-goose chase"
       ],
       "optionReasons": {
-        "chase-mcq-20": "本句指「徒勞無功的尋找；白費力氣的追尋」。",
-        "chase-mcq-19": "「表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」」是「cut to the chase = stop wasting time and get directly to the main point 開門見山；直奔主題」的用法，與本句語境不同。",
-        "chase-mcq-21": "「表示追趕；追逐；追求；例句：「不斷追求別人的認可可能很累。」」是「chasing = the act of pursuing someone, something, or a goal 追趕；追逐；追求」的用法，與本句語境不同。",
-        "chase-mcq-18": "「追逐過程的刺激；追求本身的快感」是「the thrill of the chase = excitement caused by pursuing something, sometimes more than by actually obtaining it 追逐過程的刺激；追求本身的快感」的用法，與本句語境不同。",
-        "chase-mcq-22": "「表示追逐者；追趕者；例句：「那隻動物突然轉向追趕牠的人。」」是「chaser = person or thing that chases; also occurs in several specialized compounds 追逐者；追趕者」的用法，與本句語境不同。",
-        "chase-mcq-17": "「表示開始追趕；展開追捕；例句：「警方展開追捕。」」是「give chase = start chasing someone or something 開始追趕；展開追捕」的用法，與本句語境不同。"
+        "chase-mcq-20": "本句的「wild-goose chase」指「徒勞無功的尋找；白費力氣的追尋」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-20"
     },
@@ -1670,10 +1500,8 @@ export default {
       "options": [
         "chase-mcq-20",
         "chase-mcq-19",
-        "chase-mcq-21",
-        "chase-mcq-18",
-        "chase-mcq-22",
-        "chase-mcq-17"
+        "chase-mcq-05",
+        "chase-mcq-12"
       ],
       "explanation": "本句的「wild-goose chase」指「徒勞無功的尋找；白費力氣的追尋」。",
       "sentenceIndex": 39,
@@ -1682,12 +1510,10 @@ export default {
         "wild-goose chase"
       ],
       "optionReasons": {
-        "chase-mcq-20": "本句指「徒勞無功的尋找；白費力氣的追尋」。",
-        "chase-mcq-19": "「表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」」是「cut to the chase = stop wasting time and get directly to the main point 開門見山；直奔主題」的用法，與本句語境不同。",
-        "chase-mcq-21": "「表示追趕；追逐；追求；例句：「不斷追求別人的認可可能很累。」」是「chasing = the act of pursuing someone, something, or a goal 追趕；追逐；追求」的用法，與本句語境不同。",
-        "chase-mcq-18": "「追逐過程的刺激；追求本身的快感」是「the thrill of the chase = excitement caused by pursuing something, sometimes more than by actually obtaining it 追逐過程的刺激；追求本身的快感」的用法，與本句語境不同。",
-        "chase-mcq-22": "「表示追逐者；追趕者；例句：「那隻動物突然轉向追趕牠的人。」」是「chaser = person or thing that chases; also occurs in several specialized compounds 追逐者；追趕者」的用法，與本句語境不同。",
-        "chase-mcq-17": "「表示開始追趕；展開追捕；例句：「警方展開追捕。」」是「give chase = start chasing someone or something 開始追趕；展開追捕」的用法，與本句語境不同。"
+        "chase-mcq-20": "本句的「wild-goose chase」指「徒勞無功的尋找；白費力氣的追尋」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-20"
     },
@@ -1699,11 +1525,9 @@ export default {
       "masked": "Constantly ____ can be exhausting.",
       "options": [
         "chase-mcq-21",
-        "chase-mcq-20",
-        "chase-mcq-22",
         "chase-mcq-19",
-        "chase-mcq-18",
-        "chase-mcq-17"
+        "chase-mcq-12",
+        "chase-mcq-20"
       ],
       "explanation": "本句的「chasing approval」指「表示追趕；追逐；追求；例句：「不斷追求別人的認可可能很累。」」。",
       "sentenceIndex": 40,
@@ -1712,12 +1536,10 @@ export default {
         "chasing approval"
       ],
       "optionReasons": {
-        "chase-mcq-21": "本句指「表示追趕；追逐；追求；例句：「不斷追求別人的認可可能很累。」」。",
-        "chase-mcq-20": "「徒勞無功的尋找；白費力氣的追尋」是「wild-goose chase = pointless search or pursuit that is unlikely to succeed 徒勞無功的尋找；白費力氣的追尋」的用法，與本句語境不同。",
-        "chase-mcq-22": "「表示追逐者；追趕者；例句：「那隻動物突然轉向追趕牠的人。」」是「chaser = person or thing that chases; also occurs in several specialized compounds 追逐者；追趕者」的用法，與本句語境不同。",
-        "chase-mcq-19": "「表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」」是「cut to the chase = stop wasting time and get directly to the main point 開門見山；直奔主題」的用法，與本句語境不同。",
-        "chase-mcq-18": "「追逐過程的刺激；追求本身的快感」是「the thrill of the chase = excitement caused by pursuing something, sometimes more than by actually obtaining it 追逐過程的刺激；追求本身的快感」的用法，與本句語境不同。",
-        "chase-mcq-17": "「表示開始追趕；展開追捕；例句：「警方展開追捕。」」是「give chase = start chasing someone or something 開始追趕；展開追捕」的用法，與本句語境不同。"
+        "chase-mcq-21": "本句的「chasing approval」指「表示追趕；追逐；追求；例句：「不斷追求別人的認可可能很累。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-21"
     },
@@ -1729,11 +1551,9 @@ export default {
       "masked": "The children spent the afternoon ____.",
       "options": [
         "chase-mcq-21",
-        "chase-mcq-20",
-        "chase-mcq-22",
+        "chase-mcq-12",
         "chase-mcq-19",
-        "chase-mcq-18",
-        "chase-mcq-17"
+        "chase-mcq-13"
       ],
       "explanation": "本句的「chasing each other」指「表示追趕；追逐；追求；例句：「不斷追求別人的認可可能很累。」」。",
       "sentenceIndex": 41,
@@ -1742,12 +1562,10 @@ export default {
         "chasing each other"
       ],
       "optionReasons": {
-        "chase-mcq-21": "本句指「表示追趕；追逐；追求；例句：「不斷追求別人的認可可能很累。」」。",
-        "chase-mcq-20": "「徒勞無功的尋找；白費力氣的追尋」是「wild-goose chase = pointless search or pursuit that is unlikely to succeed 徒勞無功的尋找；白費力氣的追尋」的用法，與本句語境不同。",
-        "chase-mcq-22": "「表示追逐者；追趕者；例句：「那隻動物突然轉向追趕牠的人。」」是「chaser = person or thing that chases; also occurs in several specialized compounds 追逐者；追趕者」的用法，與本句語境不同。",
-        "chase-mcq-19": "「表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」」是「cut to the chase = stop wasting time and get directly to the main point 開門見山；直奔主題」的用法，與本句語境不同。",
-        "chase-mcq-18": "「追逐過程的刺激；追求本身的快感」是「the thrill of the chase = excitement caused by pursuing something, sometimes more than by actually obtaining it 追逐過程的刺激；追求本身的快感」的用法，與本句語境不同。",
-        "chase-mcq-17": "「表示開始追趕；展開追捕；例句：「警方展開追捕。」」是「give chase = start chasing someone or something 開始追趕；展開追捕」的用法，與本句語境不同。"
+        "chase-mcq-21": "本句的「chasing each other」指「表示追趕；追逐；追求；例句：「不斷追求別人的認可可能很累。」」。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-21"
     },
@@ -1759,11 +1577,9 @@ export default {
       "masked": "The animal suddenly turned toward its ____.",
       "options": [
         "chase-mcq-22",
-        "chase-mcq-21",
-        "chase-mcq-20",
+        "chase-mcq-12",
         "chase-mcq-19",
-        "chase-mcq-18",
-        "chase-mcq-17"
+        "chase-mcq-08"
       ],
       "explanation": "本句的「chaser」指「表示追逐者；追趕者；例句：「那隻動物突然轉向追趕牠的人。」」。",
       "sentenceIndex": 42,
@@ -1772,12 +1588,10 @@ export default {
         "chaser"
       ],
       "optionReasons": {
-        "chase-mcq-22": "本句指「表示追逐者；追趕者；例句：「那隻動物突然轉向追趕牠的人。」」。",
-        "chase-mcq-21": "「表示追趕；追逐；追求；例句：「不斷追求別人的認可可能很累。」」是「chasing = the act of pursuing someone, something, or a goal 追趕；追逐；追求」的用法，與本句語境不同。",
-        "chase-mcq-20": "「徒勞無功的尋找；白費力氣的追尋」是「wild-goose chase = pointless search or pursuit that is unlikely to succeed 徒勞無功的尋找；白費力氣的追尋」的用法，與本句語境不同。",
-        "chase-mcq-19": "「表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」」是「cut to the chase = stop wasting time and get directly to the main point 開門見山；直奔主題」的用法，與本句語境不同。",
-        "chase-mcq-18": "「追逐過程的刺激；追求本身的快感」是「the thrill of the chase = excitement caused by pursuing something, sometimes more than by actually obtaining it 追逐過程的刺激；追求本身的快感」的用法，與本句語境不同。",
-        "chase-mcq-17": "「表示開始追趕；展開追捕；例句：「警方展開追捕。」」是「give chase = start chasing someone or something 開始追趕；展開追捕」的用法，與本句語境不同。"
+        "chase-mcq-22": "本句的「chaser」指「表示追逐者；追趕者；例句：「那隻動物突然轉向追趕牠的人。」」。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-22"
     },
@@ -1789,11 +1603,9 @@ export default {
       "masked": "____ is more common in compounds than as a general everyday noun.",
       "options": [
         "chase-mcq-22",
-        "chase-mcq-21",
-        "chase-mcq-20",
         "chase-mcq-19",
-        "chase-mcq-18",
-        "chase-mcq-17"
+        "chase-mcq-12",
+        "chase-mcq-10"
       ],
       "explanation": "本句的「Chaser」指「表示追逐者；追趕者；例句：「那隻動物突然轉向追趕牠的人。」」。",
       "sentenceIndex": 43,
@@ -1802,12 +1614,10 @@ export default {
         "Chaser"
       ],
       "optionReasons": {
-        "chase-mcq-22": "本句指「表示追逐者；追趕者；例句：「那隻動物突然轉向追趕牠的人。」」。",
-        "chase-mcq-21": "「表示追趕；追逐；追求；例句：「不斷追求別人的認可可能很累。」」是「chasing = the act of pursuing someone, something, or a goal 追趕；追逐；追求」的用法，與本句語境不同。",
-        "chase-mcq-20": "「徒勞無功的尋找；白費力氣的追尋」是「wild-goose chase = pointless search or pursuit that is unlikely to succeed 徒勞無功的尋找；白費力氣的追尋」的用法，與本句語境不同。",
-        "chase-mcq-19": "「表示開門見山；直奔主題；例句：「我們直接進入正題吧——你到底想要什麼？」」是「cut to the chase = stop wasting time and get directly to the main point 開門見山；直奔主題」的用法，與本句語境不同。",
-        "chase-mcq-18": "「追逐過程的刺激；追求本身的快感」是「the thrill of the chase = excitement caused by pursuing something, sometimes more than by actually obtaining it 追逐過程的刺激；追求本身的快感」的用法，與本句語境不同。",
-        "chase-mcq-17": "「表示開始追趕；展開追捕；例句：「警方展開追捕。」」是「give chase = start chasing someone or something 開始追趕；展開追捕」的用法，與本句語境不同。"
+        "chase-mcq-22": "本句的「Chaser」指「表示追逐者；追趕者；例句：「那隻動物突然轉向追趕牠的人。」」。",
+        "chase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chase-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chase-mcq-22"
     }
@@ -1819,5 +1629,7 @@ export default {
     "sha256": "ac2ba369d6946bc4cd32a034031190d4f12c3c8b5ebf2a379efbeb797d6d9062",
     "pages": 13
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

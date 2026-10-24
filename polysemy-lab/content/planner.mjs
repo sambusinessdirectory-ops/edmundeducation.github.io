@@ -482,11 +482,8 @@ export default {
       "masked": "I bought a simple ____ and started writing down my deadlines.",
       "options": [
         "planner-mcq-01",
-        "planner-mcq-02",
-        "planner-mcq-03",
-        "planner-mcq-04",
-        "planner-mcq-05",
-        "planner-mcq-06"
+        "planner-mcq-10",
+        "planner-mcq-16"
       ],
       "explanation": "本句的「planner」指「計劃本；記事簿」。",
       "sentenceIndex": 0,
@@ -495,12 +492,9 @@ export default {
         "planner"
       ],
       "optionReasons": {
-        "planner-mcq-01": "本句指「計劃本；記事簿」。",
-        "planner-mcq-02": "「每日計劃本」與本句語境不同。",
-        "planner-mcq-03": "「每週計劃表」與本句語境不同。",
-        "planner-mcq-04": "「月度計劃表」與本句語境不同。",
-        "planner-mcq-05": "「學生記事簿」與本句語境不同。",
-        "planner-mcq-06": "「學業計劃本」與本句語境不同。"
+        "planner-mcq-01": "本句的「planner」指「計劃本；記事簿」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-01"
     },
@@ -512,11 +506,8 @@ export default {
       "masked": "I keep all my appointments in my ____.",
       "options": [
         "planner-mcq-01",
-        "planner-mcq-02",
-        "planner-mcq-03",
-        "planner-mcq-04",
-        "planner-mcq-05",
-        "planner-mcq-06"
+        "planner-mcq-10",
+        "planner-mcq-16"
       ],
       "explanation": "本句的「planner」指「計劃本；記事簿」。",
       "sentenceIndex": 1,
@@ -525,12 +516,9 @@ export default {
         "planner"
       ],
       "optionReasons": {
-        "planner-mcq-01": "本句指「計劃本；記事簿」。",
-        "planner-mcq-02": "「每日計劃本」與本句語境不同。",
-        "planner-mcq-03": "「每週計劃表」與本句語境不同。",
-        "planner-mcq-04": "「月度計劃表」與本句語境不同。",
-        "planner-mcq-05": "「學生記事簿」與本句語境不同。",
-        "planner-mcq-06": "「學業計劃本」與本句語境不同。"
+        "planner-mcq-01": "本句的「planner」指「計劃本；記事簿」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-01"
     },
@@ -542,11 +530,8 @@ export default {
       "masked": "Using a ____ helps me stay organised.",
       "options": [
         "planner-mcq-01",
-        "planner-mcq-02",
-        "planner-mcq-03",
-        "planner-mcq-04",
-        "planner-mcq-05",
-        "planner-mcq-06"
+        "planner-mcq-10",
+        "planner-mcq-16"
       ],
       "explanation": "本句的「planner」指「計劃本；記事簿」。",
       "sentenceIndex": 2,
@@ -555,12 +540,9 @@ export default {
         "planner"
       ],
       "optionReasons": {
-        "planner-mcq-01": "本句指「計劃本；記事簿」。",
-        "planner-mcq-02": "「每日計劃本」與本句語境不同。",
-        "planner-mcq-03": "「每週計劃表」與本句語境不同。",
-        "planner-mcq-04": "「月度計劃表」與本句語境不同。",
-        "planner-mcq-05": "「學生記事簿」與本句語境不同。",
-        "planner-mcq-06": "「學業計劃本」與本句語境不同。"
+        "planner-mcq-01": "本句的「planner」指「計劃本；記事簿」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-01"
     },
@@ -572,11 +554,9 @@ export default {
       "masked": "I write my priorities in a ____ every morning.",
       "options": [
         "planner-mcq-02",
-        "planner-mcq-01",
-        "planner-mcq-03",
-        "planner-mcq-04",
+        "planner-mcq-10",
         "planner-mcq-05",
-        "planner-mcq-06"
+        "planner-mcq-09"
       ],
       "explanation": "本句的「daily planner」指「每日計劃本」。",
       "sentenceIndex": 3,
@@ -585,12 +565,10 @@ export default {
         "daily planner"
       ],
       "optionReasons": {
-        "planner-mcq-02": "本句指「每日計劃本」。",
-        "planner-mcq-01": "「計劃本；記事簿」與本句語境不同。",
-        "planner-mcq-03": "「每週計劃表」與本句語境不同。",
-        "planner-mcq-04": "「月度計劃表」與本句語境不同。",
-        "planner-mcq-05": "「學生記事簿」與本句語境不同。",
-        "planner-mcq-06": "「學業計劃本」與本句語境不同。"
+        "planner-mcq-02": "本句的「daily planner」指「每日計劃本」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-02"
     },
@@ -602,11 +580,9 @@ export default {
       "masked": "Her ____ has separate spaces for appointments and tasks.",
       "options": [
         "planner-mcq-02",
-        "planner-mcq-01",
-        "planner-mcq-03",
-        "planner-mcq-04",
         "planner-mcq-05",
-        "planner-mcq-06"
+        "planner-mcq-10",
+        "planner-mcq-16"
       ],
       "explanation": "本句的「daily planner」指「每日計劃本」。",
       "sentenceIndex": 4,
@@ -615,12 +591,10 @@ export default {
         "daily planner"
       ],
       "optionReasons": {
-        "planner-mcq-02": "本句指「每日計劃本」。",
-        "planner-mcq-01": "「計劃本；記事簿」與本句語境不同。",
-        "planner-mcq-03": "「每週計劃表」與本句語境不同。",
-        "planner-mcq-04": "「月度計劃表」與本句語境不同。",
-        "planner-mcq-05": "「學生記事簿」與本句語境不同。",
-        "planner-mcq-06": "「學業計劃本」與本句語境不同。"
+        "planner-mcq-02": "本句的「daily planner」指「每日計劃本」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-02"
     },
@@ -632,11 +606,9 @@ export default {
       "masked": "A ____ lets me see the whole week at once.",
       "options": [
         "planner-mcq-03",
-        "planner-mcq-02",
-        "planner-mcq-04",
-        "planner-mcq-01",
+        "planner-mcq-10",
         "planner-mcq-05",
-        "planner-mcq-06"
+        "planner-mcq-16"
       ],
       "explanation": "本句的「weekly planner」指「每週計劃表」。",
       "sentenceIndex": 5,
@@ -645,12 +617,10 @@ export default {
         "weekly planner"
       ],
       "optionReasons": {
-        "planner-mcq-03": "本句指「每週計劃表」。",
-        "planner-mcq-02": "「每日計劃本」與本句語境不同。",
-        "planner-mcq-04": "「月度計劃表」與本句語境不同。",
-        "planner-mcq-01": "「計劃本；記事簿」與本句語境不同。",
-        "planner-mcq-05": "「學生記事簿」與本句語境不同。",
-        "planner-mcq-06": "「學業計劃本」與本句語境不同。"
+        "planner-mcq-03": "本句的「weekly planner」指「每週計劃表」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-03"
     },
@@ -662,11 +632,9 @@ export default {
       "masked": "I use a ____ to balance study and work.",
       "options": [
         "planner-mcq-03",
-        "planner-mcq-02",
-        "planner-mcq-04",
-        "planner-mcq-01",
         "planner-mcq-05",
-        "planner-mcq-06"
+        "planner-mcq-10",
+        "planner-mcq-16"
       ],
       "explanation": "本句的「weekly planner」指「每週計劃表」。",
       "sentenceIndex": 6,
@@ -675,12 +643,10 @@ export default {
         "weekly planner"
       ],
       "optionReasons": {
-        "planner-mcq-03": "本句指「每週計劃表」。",
-        "planner-mcq-02": "「每日計劃本」與本句語境不同。",
-        "planner-mcq-04": "「月度計劃表」與本句語境不同。",
-        "planner-mcq-01": "「計劃本；記事簿」與本句語境不同。",
-        "planner-mcq-05": "「學生記事簿」與本句語境不同。",
-        "planner-mcq-06": "「學業計劃本」與本句語境不同。"
+        "planner-mcq-03": "本句的「weekly planner」指「每週計劃表」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-03"
     },
@@ -692,11 +658,9 @@ export default {
       "masked": "I mark major deadlines on my ____.",
       "options": [
         "planner-mcq-04",
-        "planner-mcq-03",
+        "planner-mcq-10",
         "planner-mcq-05",
-        "planner-mcq-02",
-        "planner-mcq-06",
-        "planner-mcq-01"
+        "planner-mcq-16"
       ],
       "explanation": "本句的「monthly planner」指「月度計劃表」。",
       "sentenceIndex": 7,
@@ -705,12 +669,10 @@ export default {
         "monthly planner"
       ],
       "optionReasons": {
-        "planner-mcq-04": "本句指「月度計劃表」。",
-        "planner-mcq-03": "「每週計劃表」與本句語境不同。",
-        "planner-mcq-05": "「學生記事簿」與本句語境不同。",
-        "planner-mcq-02": "「每日計劃本」與本句語境不同。",
-        "planner-mcq-06": "「學業計劃本」與本句語境不同。",
-        "planner-mcq-01": "「計劃本；記事簿」與本句語境不同。"
+        "planner-mcq-04": "本句的「monthly planner」指「月度計劃表」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-04"
     },
@@ -722,11 +684,9 @@ export default {
       "masked": "The ____ gives a useful overview.",
       "options": [
         "planner-mcq-04",
-        "planner-mcq-03",
+        "planner-mcq-10",
         "planner-mcq-05",
-        "planner-mcq-02",
-        "planner-mcq-06",
-        "planner-mcq-01"
+        "planner-mcq-16"
       ],
       "explanation": "本句的「monthly planner」指「月度計劃表」。",
       "sentenceIndex": 8,
@@ -735,12 +695,10 @@ export default {
         "monthly planner"
       ],
       "optionReasons": {
-        "planner-mcq-04": "本句指「月度計劃表」。",
-        "planner-mcq-03": "「每週計劃表」與本句語境不同。",
-        "planner-mcq-05": "「學生記事簿」與本句語境不同。",
-        "planner-mcq-02": "「每日計劃本」與本句語境不同。",
-        "planner-mcq-06": "「學業計劃本」與本句語境不同。",
-        "planner-mcq-01": "「計劃本；記事簿」與本句語境不同。"
+        "planner-mcq-04": "本句的「monthly planner」指「月度計劃表」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-04"
     },
@@ -752,11 +710,9 @@ export default {
       "masked": "The school gives every student a ____.",
       "options": [
         "planner-mcq-05",
-        "planner-mcq-04",
-        "planner-mcq-06",
-        "planner-mcq-03",
-        "planner-mcq-07",
-        "planner-mcq-02"
+        "planner-mcq-10",
+        "planner-mcq-11",
+        "planner-mcq-16"
       ],
       "explanation": "本句的「student planner」指「學生記事簿」。",
       "sentenceIndex": 9,
@@ -765,12 +721,10 @@ export default {
         "student planner"
       ],
       "optionReasons": {
-        "planner-mcq-05": "本句指「學生記事簿」。",
-        "planner-mcq-04": "「月度計劃表」與本句語境不同。",
-        "planner-mcq-06": "「學業計劃本」與本句語境不同。",
-        "planner-mcq-03": "「每週計劃表」與本句語境不同。",
-        "planner-mcq-07": "「電子計劃本」與本句語境不同。",
-        "planner-mcq-02": "「每日計劃本」與本句語境不同。"
+        "planner-mcq-05": "本句的「student planner」指「學生記事簿」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-05"
     },
@@ -782,11 +736,8 @@ export default {
       "masked": "I wrote my homework deadlines in my ____.",
       "options": [
         "planner-mcq-05",
-        "planner-mcq-04",
-        "planner-mcq-06",
-        "planner-mcq-03",
-        "planner-mcq-07",
-        "planner-mcq-02"
+        "planner-mcq-15",
+        "planner-mcq-10"
       ],
       "explanation": "本句的「student planner」指「學生記事簿」。",
       "sentenceIndex": 10,
@@ -795,12 +746,9 @@ export default {
         "student planner"
       ],
       "optionReasons": {
-        "planner-mcq-05": "本句指「學生記事簿」。",
-        "planner-mcq-04": "「月度計劃表」與本句語境不同。",
-        "planner-mcq-06": "「學業計劃本」與本句語境不同。",
-        "planner-mcq-03": "「每週計劃表」與本句語境不同。",
-        "planner-mcq-07": "「電子計劃本」與本句語境不同。",
-        "planner-mcq-02": "「每日計劃本」與本句語境不同。"
+        "planner-mcq-05": "本句的「student planner」指「學生記事簿」。",
+        "planner-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-05"
     },
@@ -812,11 +760,8 @@ export default {
       "masked": "My ____ runs from September to August.",
       "options": [
         "planner-mcq-06",
-        "planner-mcq-05",
-        "planner-mcq-07",
-        "planner-mcq-04",
-        "planner-mcq-08",
-        "planner-mcq-03"
+        "planner-mcq-10",
+        "planner-mcq-16"
       ],
       "explanation": "本句的「academic planner」指「學業計劃本」。",
       "sentenceIndex": 11,
@@ -825,12 +770,9 @@ export default {
         "academic planner"
       ],
       "optionReasons": {
-        "planner-mcq-06": "本句指「學業計劃本」。",
-        "planner-mcq-05": "「學生記事簿」與本句語境不同。",
-        "planner-mcq-07": "「電子計劃本」與本句語境不同。",
-        "planner-mcq-04": "「月度計劃表」與本句語境不同。",
-        "planner-mcq-08": "「策劃者；規劃人員」與本句語境不同。",
-        "planner-mcq-03": "「每週計劃表」與本句語境不同。"
+        "planner-mcq-06": "本句的「academic planner」指「學業計劃本」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-06"
     },
@@ -842,11 +784,8 @@ export default {
       "masked": "An ____ can help students organise assignments and exams.",
       "options": [
         "planner-mcq-06",
-        "planner-mcq-05",
-        "planner-mcq-07",
-        "planner-mcq-04",
-        "planner-mcq-08",
-        "planner-mcq-03"
+        "planner-mcq-10",
+        "planner-mcq-16"
       ],
       "explanation": "本句的「academic planner」指「學業計劃本」。",
       "sentenceIndex": 12,
@@ -855,12 +794,9 @@ export default {
         "academic planner"
       ],
       "optionReasons": {
-        "planner-mcq-06": "本句指「學業計劃本」。",
-        "planner-mcq-05": "「學生記事簿」與本句語境不同。",
-        "planner-mcq-07": "「電子計劃本」與本句語境不同。",
-        "planner-mcq-04": "「月度計劃表」與本句語境不同。",
-        "planner-mcq-08": "「策劃者；規劃人員」與本句語境不同。",
-        "planner-mcq-03": "「每週計劃表」與本句語境不同。"
+        "planner-mcq-06": "本句的「academic planner」指「學業計劃本」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-06"
     },
@@ -872,11 +808,9 @@ export default {
       "masked": "I switched from a paper notebook to a ____.",
       "options": [
         "planner-mcq-07",
-        "planner-mcq-06",
-        "planner-mcq-08",
+        "planner-mcq-10",
         "planner-mcq-05",
-        "planner-mcq-09",
-        "planner-mcq-04"
+        "planner-mcq-16"
       ],
       "explanation": "本句的「digital planner」指「電子計劃本」。",
       "sentenceIndex": 13,
@@ -885,12 +819,10 @@ export default {
         "digital planner"
       ],
       "optionReasons": {
-        "planner-mcq-07": "本句指「電子計劃本」。",
-        "planner-mcq-06": "「學業計劃本」與本句語境不同。",
-        "planner-mcq-08": "「策劃者；規劃人員」與本句語境不同。",
-        "planner-mcq-05": "「學生記事簿」與本句語境不同。",
-        "planner-mcq-09": "「活動策劃人」與本句語境不同。",
-        "planner-mcq-04": "「月度計劃表」與本句語境不同。"
+        "planner-mcq-07": "本句的「digital planner」指「電子計劃本」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-07"
     },
@@ -902,11 +834,9 @@ export default {
       "masked": "Her ____ syncs across several devices.",
       "options": [
         "planner-mcq-07",
-        "planner-mcq-06",
-        "planner-mcq-08",
         "planner-mcq-05",
-        "planner-mcq-09",
-        "planner-mcq-04"
+        "planner-mcq-10",
+        "planner-mcq-09"
       ],
       "explanation": "本句的「digital planner」指「電子計劃本」。",
       "sentenceIndex": 14,
@@ -915,12 +845,10 @@ export default {
         "digital planner"
       ],
       "optionReasons": {
-        "planner-mcq-07": "本句指「電子計劃本」。",
-        "planner-mcq-06": "「學業計劃本」與本句語境不同。",
-        "planner-mcq-08": "「策劃者；規劃人員」與本句語境不同。",
-        "planner-mcq-05": "「學生記事簿」與本句語境不同。",
-        "planner-mcq-09": "「活動策劃人」與本句語境不同。",
-        "planner-mcq-04": "「月度計劃表」與本句語境不同。"
+        "planner-mcq-07": "本句的「digital planner」指「電子計劃本」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-07"
     },
@@ -932,11 +860,8 @@ export default {
       "masked": "She is an excellent ____.",
       "options": [
         "planner-mcq-08",
-        "planner-mcq-07",
-        "planner-mcq-09",
-        "planner-mcq-06",
-        "planner-mcq-10",
-        "planner-mcq-05"
+        "planner-mcq-05",
+        "planner-mcq-10"
       ],
       "explanation": "本句的「planner」指「策劃者；規劃人員」。",
       "sentenceIndex": 15,
@@ -945,12 +870,9 @@ export default {
         "planner"
       ],
       "optionReasons": {
-        "planner-mcq-08": "本句指「策劃者；規劃人員」。",
-        "planner-mcq-07": "「電子計劃本」與本句語境不同。",
-        "planner-mcq-09": "「活動策劃人」與本句語境不同。",
-        "planner-mcq-06": "「學業計劃本」與本句語境不同。",
-        "planner-mcq-10": "「婚禮統籌師」與本句語境不同。",
-        "planner-mcq-05": "「學生記事簿」與本句語境不同。"
+        "planner-mcq-08": "本句的「planner」指「策劃者；規劃人員」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-08"
     },
@@ -962,11 +884,8 @@ export default {
       "masked": "Good ____ think about possible problems in advance.",
       "options": [
         "planner-mcq-08",
-        "planner-mcq-07",
-        "planner-mcq-09",
-        "planner-mcq-06",
-        "planner-mcq-10",
-        "planner-mcq-05"
+        "planner-mcq-05",
+        "planner-mcq-10"
       ],
       "explanation": "本句的「planners」指「策劃者；規劃人員」。",
       "sentenceIndex": 16,
@@ -975,12 +894,9 @@ export default {
         "planners"
       ],
       "optionReasons": {
-        "planner-mcq-08": "本句指「策劃者；規劃人員」。",
-        "planner-mcq-07": "「電子計劃本」與本句語境不同。",
-        "planner-mcq-09": "「活動策劃人」與本句語境不同。",
-        "planner-mcq-06": "「學業計劃本」與本句語境不同。",
-        "planner-mcq-10": "「婚禮統籌師」與本句語境不同。",
-        "planner-mcq-05": "「學生記事簿」與本句語境不同。"
+        "planner-mcq-08": "本句的「planners」指「策劃者；規劃人員」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-08"
     },
@@ -992,11 +908,9 @@ export default {
       "masked": "They hired an ____ for the conference.",
       "options": [
         "planner-mcq-09",
-        "planner-mcq-08",
         "planner-mcq-10",
-        "planner-mcq-07",
-        "planner-mcq-11",
-        "planner-mcq-06"
+        "planner-mcq-05",
+        "planner-mcq-04"
       ],
       "explanation": "本句的「event planner」指「活動策劃人」。",
       "sentenceIndex": 17,
@@ -1005,12 +919,10 @@ export default {
         "event planner"
       ],
       "optionReasons": {
-        "planner-mcq-09": "本句指「活動策劃人」。",
-        "planner-mcq-08": "「策劃者；規劃人員」與本句語境不同。",
-        "planner-mcq-10": "「婚禮統籌師」與本句語境不同。",
-        "planner-mcq-07": "「電子計劃本」與本句語境不同。",
-        "planner-mcq-11": "「財務規劃師」與本句語境不同。",
-        "planner-mcq-06": "「學業計劃本」與本句語境不同。"
+        "planner-mcq-09": "本句的「event planner」指「活動策劃人」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-09"
     },
@@ -1022,11 +934,9 @@ export default {
       "masked": "An ____ coordinates the venue, schedule, and suppliers.",
       "options": [
         "planner-mcq-09",
-        "planner-mcq-08",
         "planner-mcq-10",
-        "planner-mcq-07",
-        "planner-mcq-11",
-        "planner-mcq-06"
+        "planner-mcq-05",
+        "planner-mcq-14"
       ],
       "explanation": "本句的「event planner」指「活動策劃人」。",
       "sentenceIndex": 18,
@@ -1035,12 +945,10 @@ export default {
         "event planner"
       ],
       "optionReasons": {
-        "planner-mcq-09": "本句指「活動策劃人」。",
-        "planner-mcq-08": "「策劃者；規劃人員」與本句語境不同。",
-        "planner-mcq-10": "「婚禮統籌師」與本句語境不同。",
-        "planner-mcq-07": "「電子計劃本」與本句語境不同。",
-        "planner-mcq-11": "「財務規劃師」與本句語境不同。",
-        "planner-mcq-06": "「學業計劃本」與本句語境不同。"
+        "planner-mcq-09": "本句的「event planner」指「活動策劃人」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-09"
     },
@@ -1052,11 +960,8 @@ export default {
       "masked": "They hired a ____.",
       "options": [
         "planner-mcq-10",
-        "planner-mcq-09",
-        "planner-mcq-11",
-        "planner-mcq-08",
-        "planner-mcq-12",
-        "planner-mcq-07"
+        "planner-mcq-01",
+        "planner-mcq-16"
       ],
       "explanation": "本句的「wedding planner」指「婚禮統籌師」。",
       "sentenceIndex": 19,
@@ -1065,12 +970,9 @@ export default {
         "wedding planner"
       ],
       "optionReasons": {
-        "planner-mcq-10": "本句指「婚禮統籌師」。",
-        "planner-mcq-09": "「活動策劃人」與本句語境不同。",
-        "planner-mcq-11": "「財務規劃師」與本句語境不同。",
-        "planner-mcq-08": "「策劃者；規劃人員」與本句語境不同。",
-        "planner-mcq-12": "「城市規劃師」與本句語境不同。",
-        "planner-mcq-07": "「電子計劃本」與本句語境不同。"
+        "planner-mcq-10": "本句的「wedding planner」指「婚禮統籌師」。",
+        "planner-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-10"
     },
@@ -1082,11 +984,9 @@ export default {
       "masked": "The ____ arranged the venue and decorations.",
       "options": [
         "planner-mcq-10",
-        "planner-mcq-09",
-        "planner-mcq-11",
-        "planner-mcq-08",
-        "planner-mcq-12",
-        "planner-mcq-07"
+        "planner-mcq-02",
+        "planner-mcq-16",
+        "planner-mcq-05"
       ],
       "explanation": "本句的「wedding planner」指「婚禮統籌師」。",
       "sentenceIndex": 20,
@@ -1095,12 +995,10 @@ export default {
         "wedding planner"
       ],
       "optionReasons": {
-        "planner-mcq-10": "本句指「婚禮統籌師」。",
-        "planner-mcq-09": "「活動策劃人」與本句語境不同。",
-        "planner-mcq-11": "「財務規劃師」與本句語境不同。",
-        "planner-mcq-08": "「策劃者；規劃人員」與本句語境不同。",
-        "planner-mcq-12": "「城市規劃師」與本句語境不同。",
-        "planner-mcq-07": "「電子計劃本」與本句語境不同。"
+        "planner-mcq-10": "本句的「wedding planner」指「婚禮統籌師」。",
+        "planner-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-10"
     },
@@ -1112,11 +1010,9 @@ export default {
       "masked": "She spoke to a ____ about retirement.",
       "options": [
         "planner-mcq-11",
-        "planner-mcq-10",
-        "planner-mcq-12",
-        "planner-mcq-09",
-        "planner-mcq-13",
-        "planner-mcq-08"
+        "planner-mcq-05",
+        "planner-mcq-16",
+        "planner-mcq-10"
       ],
       "explanation": "本句的「financial planner」指「財務規劃師」。",
       "sentenceIndex": 21,
@@ -1125,12 +1021,10 @@ export default {
         "financial planner"
       ],
       "optionReasons": {
-        "planner-mcq-11": "本句指「財務規劃師」。",
-        "planner-mcq-10": "「婚禮統籌師」與本句語境不同。",
-        "planner-mcq-12": "「城市規劃師」與本句語境不同。",
-        "planner-mcq-09": "「活動策劃人」與本句語境不同。",
-        "planner-mcq-13": "「城鎮規劃師」與本句語境不同。",
-        "planner-mcq-08": "「策劃者；規劃人員」與本句語境不同。"
+        "planner-mcq-11": "本句的「financial planner」指「財務規劃師」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-11"
     },
@@ -1142,11 +1036,9 @@ export default {
       "masked": "A ____ can help clients organize long-term financial goals.",
       "options": [
         "planner-mcq-11",
-        "planner-mcq-10",
-        "planner-mcq-12",
+        "planner-mcq-05",
         "planner-mcq-09",
-        "planner-mcq-13",
-        "planner-mcq-08"
+        "planner-mcq-10"
       ],
       "explanation": "本句的「financial planner」指「財務規劃師」。",
       "sentenceIndex": 22,
@@ -1155,12 +1047,10 @@ export default {
         "financial planner"
       ],
       "optionReasons": {
-        "planner-mcq-11": "本句指「財務規劃師」。",
-        "planner-mcq-10": "「婚禮統籌師」與本句語境不同。",
-        "planner-mcq-12": "「城市規劃師」與本句語境不同。",
-        "planner-mcq-09": "「活動策劃人」與本句語境不同。",
-        "planner-mcq-13": "「城鎮規劃師」與本句語境不同。",
-        "planner-mcq-08": "「策劃者；規劃人員」與本句語境不同。"
+        "planner-mcq-11": "本句的「financial planner」指「財務規劃師」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-11"
     },
@@ -1172,11 +1062,9 @@ export default {
       "masked": "She works as an ____.",
       "options": [
         "planner-mcq-12",
-        "planner-mcq-11",
-        "planner-mcq-13",
-        "planner-mcq-10",
-        "planner-mcq-14",
-        "planner-mcq-09"
+        "planner-mcq-05",
+        "planner-mcq-16",
+        "planner-mcq-10"
       ],
       "explanation": "本句的「urban planner」指「城市規劃師」。",
       "sentenceIndex": 23,
@@ -1185,12 +1073,10 @@ export default {
         "urban planner"
       ],
       "optionReasons": {
-        "planner-mcq-12": "本句指「城市規劃師」。",
-        "planner-mcq-11": "「財務規劃師」與本句語境不同。",
-        "planner-mcq-13": "「城鎮規劃師」與本句語境不同。",
-        "planner-mcq-10": "「婚禮統籌師」與本句語境不同。",
-        "planner-mcq-14": "「交通規劃師」與本句語境不同。",
-        "planner-mcq-09": "「活動策劃人」與本句語境不同。"
+        "planner-mcq-12": "本句的「urban planner」指「城市規劃師」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-12"
     },
@@ -1202,11 +1088,9 @@ export default {
       "masked": "____ consider housing, roads, and public spaces.",
       "options": [
         "planner-mcq-12",
-        "planner-mcq-11",
-        "planner-mcq-13",
-        "planner-mcq-10",
-        "planner-mcq-14",
-        "planner-mcq-09"
+        "planner-mcq-05",
+        "planner-mcq-09",
+        "planner-mcq-10"
       ],
       "explanation": "本句的「Urban planners」指「城市規劃師」。",
       "sentenceIndex": 24,
@@ -1215,12 +1099,10 @@ export default {
         "Urban planners"
       ],
       "optionReasons": {
-        "planner-mcq-12": "本句指「城市規劃師」。",
-        "planner-mcq-11": "「財務規劃師」與本句語境不同。",
-        "planner-mcq-13": "「城鎮規劃師」與本句語境不同。",
-        "planner-mcq-10": "「婚禮統籌師」與本句語境不同。",
-        "planner-mcq-14": "「交通規劃師」與本句語境不同。",
-        "planner-mcq-09": "「活動策劃人」與本句語境不同。"
+        "planner-mcq-12": "本句的「Urban planners」指「城市規劃師」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-12"
     },
@@ -1232,10 +1114,8 @@ export default {
       "masked": "He trained as a ____.",
       "options": [
         "planner-mcq-13",
-        "planner-mcq-12",
-        "planner-mcq-14",
-        "planner-mcq-11",
-        "planner-mcq-15",
+        "planner-mcq-05",
+        "planner-mcq-16",
         "planner-mcq-10"
       ],
       "explanation": "本句的「town planner」指「城鎮規劃師」。",
@@ -1245,12 +1125,10 @@ export default {
         "town planner"
       ],
       "optionReasons": {
-        "planner-mcq-13": "本句指「城鎮規劃師」。",
-        "planner-mcq-12": "「城市規劃師」與本句語境不同。",
-        "planner-mcq-14": "「交通規劃師」與本句語境不同。",
-        "planner-mcq-11": "「財務規劃師」與本句語境不同。",
-        "planner-mcq-15": "「策略規劃人員」與本句語境不同。",
-        "planner-mcq-10": "「婚禮統籌師」與本句語境不同。"
+        "planner-mcq-13": "本句的「town planner」指「城鎮規劃師」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-13"
     },
@@ -1262,10 +1140,8 @@ export default {
       "masked": "The ____ reviewed the development proposal.",
       "options": [
         "planner-mcq-13",
-        "planner-mcq-12",
-        "planner-mcq-14",
-        "planner-mcq-11",
-        "planner-mcq-15",
+        "planner-mcq-05",
+        "planner-mcq-16",
         "planner-mcq-10"
       ],
       "explanation": "本句的「town planners」指「城鎮規劃師」。",
@@ -1275,12 +1151,10 @@ export default {
         "town planners"
       ],
       "optionReasons": {
-        "planner-mcq-13": "本句指「城鎮規劃師」。",
-        "planner-mcq-12": "「城市規劃師」與本句語境不同。",
-        "planner-mcq-14": "「交通規劃師」與本句語境不同。",
-        "planner-mcq-11": "「財務規劃師」與本句語境不同。",
-        "planner-mcq-15": "「策略規劃人員」與本句語境不同。",
-        "planner-mcq-10": "「婚禮統籌師」與本句語境不同。"
+        "planner-mcq-13": "本句的「town planners」指「城鎮規劃師」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-13"
     },
@@ -1292,11 +1166,9 @@ export default {
       "masked": "The city employed several ____.",
       "options": [
         "planner-mcq-14",
-        "planner-mcq-13",
-        "planner-mcq-15",
-        "planner-mcq-12",
+        "planner-mcq-05",
         "planner-mcq-16",
-        "planner-mcq-11"
+        "planner-mcq-10"
       ],
       "explanation": "本句的「transport planners」指「交通規劃師」。",
       "sentenceIndex": 27,
@@ -1305,12 +1177,10 @@ export default {
         "transport planners"
       ],
       "optionReasons": {
-        "planner-mcq-14": "本句指「交通規劃師」。",
-        "planner-mcq-13": "「城鎮規劃師」與本句語境不同。",
-        "planner-mcq-15": "「策略規劃人員」與本句語境不同。",
-        "planner-mcq-12": "「城市規劃師」與本句語境不同。",
-        "planner-mcq-16": "「媒體策劃人」與本句語境不同。",
-        "planner-mcq-11": "「財務規劃師」與本句語境不同。"
+        "planner-mcq-14": "本句的「transport planners」指「交通規劃師」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-14"
     },
@@ -1322,11 +1192,9 @@ export default {
       "masked": "A ____ studies how people move around a city.",
       "options": [
         "planner-mcq-14",
-        "planner-mcq-13",
-        "planner-mcq-15",
-        "planner-mcq-12",
-        "planner-mcq-16",
-        "planner-mcq-11"
+        "planner-mcq-05",
+        "planner-mcq-10",
+        "planner-mcq-09"
       ],
       "explanation": "本句的「transport planner」指「交通規劃師」。",
       "sentenceIndex": 28,
@@ -1335,12 +1203,10 @@ export default {
         "transport planner"
       ],
       "optionReasons": {
-        "planner-mcq-14": "本句指「交通規劃師」。",
-        "planner-mcq-13": "「城鎮規劃師」與本句語境不同。",
-        "planner-mcq-15": "「策略規劃人員」與本句語境不同。",
-        "planner-mcq-12": "「城市規劃師」與本句語境不同。",
-        "planner-mcq-16": "「媒體策劃人」與本句語境不同。",
-        "planner-mcq-11": "「財務規劃師」與本句語境不同。"
+        "planner-mcq-14": "本句的「transport planner」指「交通規劃師」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-14"
     },
@@ -1352,11 +1218,8 @@ export default {
       "masked": "She works as a ____ for a large organization.",
       "options": [
         "planner-mcq-15",
-        "planner-mcq-14",
-        "planner-mcq-16",
-        "planner-mcq-13",
-        "planner-mcq-17",
-        "planner-mcq-12"
+        "planner-mcq-10",
+        "planner-mcq-05"
       ],
       "explanation": "本句的「strategic planner」指「策略規劃人員」。",
       "sentenceIndex": 29,
@@ -1365,12 +1228,9 @@ export default {
         "strategic planner"
       ],
       "optionReasons": {
-        "planner-mcq-15": "本句指「策略規劃人員」。",
-        "planner-mcq-14": "「交通規劃師」與本句語境不同。",
-        "planner-mcq-16": "「媒體策劃人」與本句語境不同。",
-        "planner-mcq-13": "「城鎮規劃師」與本句語境不同。",
-        "planner-mcq-17": "「生產規劃員」與本句語境不同。",
-        "planner-mcq-12": "「城市規劃師」與本句語境不同。"
+        "planner-mcq-15": "本句的「strategic planner」指「策略規劃人員」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-15"
     },
@@ -1382,11 +1242,8 @@ export default {
       "masked": "The ____ looks several years ahead.",
       "options": [
         "planner-mcq-15",
-        "planner-mcq-14",
-        "planner-mcq-16",
-        "planner-mcq-13",
-        "planner-mcq-17",
-        "planner-mcq-12"
+        "planner-mcq-10",
+        "planner-mcq-05"
       ],
       "explanation": "本句的「strategic planner」指「策略規劃人員」。",
       "sentenceIndex": 30,
@@ -1395,12 +1252,9 @@ export default {
         "strategic planner"
       ],
       "optionReasons": {
-        "planner-mcq-15": "本句指「策略規劃人員」。",
-        "planner-mcq-14": "「交通規劃師」與本句語境不同。",
-        "planner-mcq-16": "「媒體策劃人」與本句語境不同。",
-        "planner-mcq-13": "「城鎮規劃師」與本句語境不同。",
-        "planner-mcq-17": "「生產規劃員」與本句語境不同。",
-        "planner-mcq-12": "「城市規劃師」與本句語境不同。"
+        "planner-mcq-15": "本句的「strategic planner」指「策略規劃人員」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-15"
     },
@@ -1412,11 +1266,9 @@ export default {
       "masked": "The ____ chose where the advertisements should appear.",
       "options": [
         "planner-mcq-16",
-        "planner-mcq-15",
-        "planner-mcq-17",
-        "planner-mcq-14",
-        "planner-mcq-18",
-        "planner-mcq-13"
+        "planner-mcq-05",
+        "planner-mcq-10",
+        "planner-mcq-18"
       ],
       "explanation": "本句的「media planner」指「媒體策劃人」。",
       "sentenceIndex": 31,
@@ -1425,12 +1277,10 @@ export default {
         "media planner"
       ],
       "optionReasons": {
-        "planner-mcq-16": "本句指「媒體策劃人」。",
-        "planner-mcq-15": "「策略規劃人員」與本句語境不同。",
-        "planner-mcq-17": "「生產規劃員」與本句語境不同。",
-        "planner-mcq-14": "「交通規劃師」與本句語境不同。",
-        "planner-mcq-18": "「規劃工具」與本句語境不同。",
-        "planner-mcq-13": "「城鎮規劃師」與本句語境不同。"
+        "planner-mcq-16": "本句的「media planner」指「媒體策劃人」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-16"
     },
@@ -1442,11 +1292,9 @@ export default {
       "masked": "A ____ helps allocate advertising budgets across channels.",
       "options": [
         "planner-mcq-16",
-        "planner-mcq-15",
-        "planner-mcq-17",
-        "planner-mcq-14",
-        "planner-mcq-18",
-        "planner-mcq-13"
+        "planner-mcq-10",
+        "planner-mcq-05",
+        "planner-mcq-20"
       ],
       "explanation": "本句的「media planner」指「媒體策劃人」。",
       "sentenceIndex": 32,
@@ -1455,12 +1303,10 @@ export default {
         "media planner"
       ],
       "optionReasons": {
-        "planner-mcq-16": "本句指「媒體策劃人」。",
-        "planner-mcq-15": "「策略規劃人員」與本句語境不同。",
-        "planner-mcq-17": "「生產規劃員」與本句語境不同。",
-        "planner-mcq-14": "「交通規劃師」與本句語境不同。",
-        "planner-mcq-18": "「規劃工具」與本句語境不同。",
-        "planner-mcq-13": "「城鎮規劃師」與本句語境不同。"
+        "planner-mcq-16": "本句的「media planner」指「媒體策劃人」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-16"
     },
@@ -1472,11 +1318,9 @@ export default {
       "masked": "The factory needs an experienced ____.",
       "options": [
         "planner-mcq-17",
+        "planner-mcq-10",
         "planner-mcq-16",
-        "planner-mcq-18",
-        "planner-mcq-15",
-        "planner-mcq-19",
-        "planner-mcq-14"
+        "planner-mcq-05"
       ],
       "explanation": "本句的「production planner」指「生產規劃員」。",
       "sentenceIndex": 33,
@@ -1485,12 +1329,10 @@ export default {
         "production planner"
       ],
       "optionReasons": {
-        "planner-mcq-17": "本句指「生產規劃員」。",
-        "planner-mcq-16": "「媒體策劃人」與本句語境不同。",
-        "planner-mcq-18": "「規劃工具」與本句語境不同。",
-        "planner-mcq-15": "「策略規劃人員」與本句語境不同。",
-        "planner-mcq-19": "「路線規劃工具」與本句語境不同。",
-        "planner-mcq-14": "「交通規劃師」與本句語境不同。"
+        "planner-mcq-17": "本句的「production planner」指「生產規劃員」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-17"
     },
@@ -1502,11 +1344,9 @@ export default {
       "masked": "The ____ coordinates materials and manufacturing schedules.",
       "options": [
         "planner-mcq-17",
+        "planner-mcq-10",
         "planner-mcq-16",
-        "planner-mcq-18",
-        "planner-mcq-15",
-        "planner-mcq-19",
-        "planner-mcq-14"
+        "planner-mcq-05"
       ],
       "explanation": "本句的「production planner」指「生產規劃員」。",
       "sentenceIndex": 34,
@@ -1515,12 +1355,10 @@ export default {
         "production planner"
       ],
       "optionReasons": {
-        "planner-mcq-17": "本句指「生產規劃員」。",
-        "planner-mcq-16": "「媒體策劃人」與本句語境不同。",
-        "planner-mcq-18": "「規劃工具」與本句語境不同。",
-        "planner-mcq-15": "「策略規劃人員」與本句語境不同。",
-        "planner-mcq-19": "「路線規劃工具」與本句語境不同。",
-        "planner-mcq-14": "「交通規劃師」與本句語境不同。"
+        "planner-mcq-17": "本句的「production planner」指「生產規劃員」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-17"
     },
@@ -1532,11 +1370,9 @@ export default {
       "masked": "Use the online ____ to organize your schedule.",
       "options": [
         "planner-mcq-18",
-        "planner-mcq-17",
-        "planner-mcq-19",
-        "planner-mcq-16",
-        "planner-mcq-20",
-        "planner-mcq-15"
+        "planner-mcq-05",
+        "planner-mcq-10",
+        "planner-mcq-09"
       ],
       "explanation": "本句的「planner」指「規劃工具」。",
       "sentenceIndex": 35,
@@ -1545,12 +1381,10 @@ export default {
         "planner"
       ],
       "optionReasons": {
-        "planner-mcq-18": "本句指「規劃工具」。",
-        "planner-mcq-17": "「生產規劃員」與本句語境不同。",
-        "planner-mcq-19": "「路線規劃工具」與本句語境不同。",
-        "planner-mcq-16": "「媒體策劃人」與本句語境不同。",
-        "planner-mcq-20": "「行程規劃工具」與本句語境不同。",
-        "planner-mcq-15": "「策略規劃人員」與本句語境不同。"
+        "planner-mcq-18": "本句的「planner」指「規劃工具」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-18"
     },
@@ -1562,11 +1396,9 @@ export default {
       "masked": "The app includes a study ____.",
       "options": [
         "planner-mcq-18",
-        "planner-mcq-17",
-        "planner-mcq-19",
-        "planner-mcq-16",
-        "planner-mcq-20",
-        "planner-mcq-15"
+        "planner-mcq-05",
+        "planner-mcq-10",
+        "planner-mcq-09"
       ],
       "explanation": "本句的「planner」指「規劃工具」。",
       "sentenceIndex": 36,
@@ -1575,12 +1407,10 @@ export default {
         "planner"
       ],
       "optionReasons": {
-        "planner-mcq-18": "本句指「規劃工具」。",
-        "planner-mcq-17": "「生產規劃員」與本句語境不同。",
-        "planner-mcq-19": "「路線規劃工具」與本句語境不同。",
-        "planner-mcq-16": "「媒體策劃人」與本句語境不同。",
-        "planner-mcq-20": "「行程規劃工具」與本句語境不同。",
-        "planner-mcq-15": "「策略規劃人員」與本句語境不同。"
+        "planner-mcq-18": "本句的「planner」指「規劃工具」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-18"
     },
@@ -1592,11 +1422,9 @@ export default {
       "masked": "I used a ____ to find the quickest journey.",
       "options": [
         "planner-mcq-19",
-        "planner-mcq-18",
-        "planner-mcq-20",
-        "planner-mcq-17",
-        "planner-mcq-21",
-        "planner-mcq-16"
+        "planner-mcq-05",
+        "planner-mcq-10",
+        "planner-mcq-09"
       ],
       "explanation": "本句的「route planner」指「路線規劃工具」。",
       "sentenceIndex": 37,
@@ -1605,12 +1433,10 @@ export default {
         "route planner"
       ],
       "optionReasons": {
-        "planner-mcq-19": "本句指「路線規劃工具」。",
-        "planner-mcq-18": "「規劃工具」與本句語境不同。",
-        "planner-mcq-20": "「行程規劃工具」與本句語境不同。",
-        "planner-mcq-17": "「生產規劃員」與本句語境不同。",
-        "planner-mcq-21": "「膳食計劃表／工具」與本句語境不同。",
-        "planner-mcq-16": "「媒體策劃人」與本句語境不同。"
+        "planner-mcq-19": "本句的「route planner」指「路線規劃工具」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-19"
     },
@@ -1622,11 +1448,9 @@ export default {
       "masked": "The website has a useful cycling ____.",
       "options": [
         "planner-mcq-19",
-        "planner-mcq-18",
-        "planner-mcq-20",
-        "planner-mcq-17",
-        "planner-mcq-21",
-        "planner-mcq-16"
+        "planner-mcq-05",
+        "planner-mcq-10",
+        "planner-mcq-09"
       ],
       "explanation": "本句的「route planner」指「路線規劃工具」。",
       "sentenceIndex": 38,
@@ -1635,12 +1459,10 @@ export default {
         "route planner"
       ],
       "optionReasons": {
-        "planner-mcq-19": "本句指「路線規劃工具」。",
-        "planner-mcq-18": "「規劃工具」與本句語境不同。",
-        "planner-mcq-20": "「行程規劃工具」與本句語境不同。",
-        "planner-mcq-17": "「生產規劃員」與本句語境不同。",
-        "planner-mcq-21": "「膳食計劃表／工具」與本句語境不同。",
-        "planner-mcq-16": "「媒體策劃人」與本句語境不同。"
+        "planner-mcq-19": "本句的「route planner」指「路線規劃工具」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-19"
     },
@@ -1652,11 +1474,9 @@ export default {
       "masked": "Check the ____ before leaving home.",
       "options": [
         "planner-mcq-20",
-        "planner-mcq-19",
-        "planner-mcq-21",
-        "planner-mcq-18",
-        "planner-mcq-17",
-        "planner-mcq-16"
+        "planner-mcq-10",
+        "planner-mcq-05",
+        "planner-mcq-09"
       ],
       "explanation": "本句的「journey planner」指「行程規劃工具」。",
       "sentenceIndex": 39,
@@ -1665,12 +1485,10 @@ export default {
         "journey planner"
       ],
       "optionReasons": {
-        "planner-mcq-20": "本句指「行程規劃工具」。",
-        "planner-mcq-19": "「路線規劃工具」與本句語境不同。",
-        "planner-mcq-21": "「膳食計劃表／工具」與本句語境不同。",
-        "planner-mcq-18": "「規劃工具」與本句語境不同。",
-        "planner-mcq-17": "「生產規劃員」與本句語境不同。",
-        "planner-mcq-16": "「媒體策劃人」與本句語境不同。"
+        "planner-mcq-20": "本句的「journey planner」指「行程規劃工具」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-20"
     },
@@ -1682,10 +1500,8 @@ export default {
       "masked": "The transport app includes a ____.",
       "options": [
         "planner-mcq-20",
-        "planner-mcq-19",
-        "planner-mcq-21",
-        "planner-mcq-18",
-        "planner-mcq-17",
+        "planner-mcq-10",
+        "planner-mcq-05",
         "planner-mcq-16"
       ],
       "explanation": "本句的「journey planner」指「行程規劃工具」。",
@@ -1695,12 +1511,10 @@ export default {
         "journey planner"
       ],
       "optionReasons": {
-        "planner-mcq-20": "本句指「行程規劃工具」。",
-        "planner-mcq-19": "「路線規劃工具」與本句語境不同。",
-        "planner-mcq-21": "「膳食計劃表／工具」與本句語境不同。",
-        "planner-mcq-18": "「規劃工具」與本句語境不同。",
-        "planner-mcq-17": "「生產規劃員」與本句語境不同。",
-        "planner-mcq-16": "「媒體策劃人」與本句語境不同。"
+        "planner-mcq-20": "本句的「journey planner」指「行程規劃工具」。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-20"
     },
@@ -1712,11 +1526,9 @@ export default {
       "masked": "I use a weekly ____ to decide what to cook.",
       "options": [
         "planner-mcq-21",
-        "planner-mcq-20",
-        "planner-mcq-19",
-        "planner-mcq-18",
-        "planner-mcq-17",
-        "planner-mcq-16"
+        "planner-mcq-05",
+        "planner-mcq-10",
+        "planner-mcq-09"
       ],
       "explanation": "本句的「meal planner」指「膳食計劃表／工具」。",
       "sentenceIndex": 41,
@@ -1725,12 +1537,10 @@ export default {
         "meal planner"
       ],
       "optionReasons": {
-        "planner-mcq-21": "本句指「膳食計劃表／工具」。",
-        "planner-mcq-20": "「行程規劃工具」與本句語境不同。",
-        "planner-mcq-19": "「路線規劃工具」與本句語境不同。",
-        "planner-mcq-18": "「規劃工具」與本句語境不同。",
-        "planner-mcq-17": "「生產規劃員」與本句語境不同。",
-        "planner-mcq-16": "「媒體策劃人」與本句語境不同。"
+        "planner-mcq-21": "本句的「meal planner」指「膳食計劃表／工具」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-21"
     },
@@ -1742,10 +1552,8 @@ export default {
       "masked": "The app has a built-in ____.",
       "options": [
         "planner-mcq-21",
-        "planner-mcq-20",
-        "planner-mcq-19",
-        "planner-mcq-18",
-        "planner-mcq-17",
+        "planner-mcq-05",
+        "planner-mcq-10",
         "planner-mcq-16"
       ],
       "explanation": "本句的「meal planner」指「膳食計劃表／工具」。",
@@ -1755,12 +1563,10 @@ export default {
         "meal planner"
       ],
       "optionReasons": {
-        "planner-mcq-21": "本句指「膳食計劃表／工具」。",
-        "planner-mcq-20": "「行程規劃工具」與本句語境不同。",
-        "planner-mcq-19": "「路線規劃工具」與本句語境不同。",
-        "planner-mcq-18": "「規劃工具」與本句語境不同。",
-        "planner-mcq-17": "「生產規劃員」與本句語境不同。",
-        "planner-mcq-16": "「媒體策劃人」與本句語境不同。"
+        "planner-mcq-21": "本句的「meal planner」指「膳食計劃表／工具」。",
+        "planner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "planner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "planner-mcq-21"
     }
@@ -1772,5 +1578,7 @@ export default {
     "sha256": "17fa875d095d2bb8500a96a4d234d6cbce6d35fb2055b72e04b17397a4986c1a",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

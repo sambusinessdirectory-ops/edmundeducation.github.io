@@ -621,7 +621,7 @@ export default {
     },
     {
       "id": "box-mcq-31",
-      "title": "表示方框；文字框；欄位",
+      "title": "方框；文字框；欄位",
       "form": "10. box — rectangular area on a screen",
       "en": "10. box — rectangular area on a screen",
       "zh": "表示方框；文字框；欄位",
@@ -643,7 +643,7 @@ export default {
     },
     {
       "id": "box-mcq-32",
-      "title": "表示小禁區；球門區",
+      "title": "小禁區；球門區",
       "form": "14. six-yard box",
       "en": "14. six-yard box",
       "zh": "表示小禁區；球門區",
@@ -665,7 +665,7 @@ export default {
     },
     {
       "id": "box-mcq-33",
-      "title": "表示一盒／一箱的量",
+      "title": "一盒／一箱的量",
       "form": "33. boxful",
       "en": "33. boxful",
       "zh": "表示一盒／一箱的量",
@@ -695,11 +695,9 @@ export default {
       "masked": "The pen came in a beautiful ____.",
       "options": [
         "box-mcq-01",
-        "box-mcq-02",
-        "box-mcq-03",
-        "box-mcq-04",
-        "box-mcq-05",
-        "box-mcq-06"
+        "box-mcq-27",
+        "box-mcq-18",
+        "box-mcq-23"
       ],
       "explanation": "本句的「box」指「有明確側面、用來裝東西的盒子／箱子」。",
       "sentenceIndex": 0,
@@ -708,12 +706,10 @@ export default {
         "box"
       ],
       "optionReasons": {
-        "box-mcq-01": "本句指「有明確側面、用來裝東西的盒子／箱子」。",
-        "box-mcq-02": "「用來包裝或展示禮物的禮盒／展示盒」是「gift/presentation box」的用法，與本句語境不同。",
-        "box-mcq-03": "「用於搬運或收納物品的紙箱／收納箱」是「box — storage carton」的用法，與本句語境不同。",
-        "box-mcq-04": "「表格、試卷等上的方格／方框」是「box — marked area」的用法，與本句語境不同。",
-        "box-mcq-05": "「用來選擇選項的小方格／核取方塊」是「checkbox」的用法，與本句語境不同。",
-        "box-mcq-06": "「劇院、體育場等中的私人包廂」是「box — private compartment」的用法，與本句語境不同。"
+        "box-mcq-01": "本句的「box」指「有明確側面、用來裝東西的盒子／箱子」。",
+        "box-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-01"
     },
@@ -725,11 +721,9 @@ export default {
       "masked": "She opened the ____ and found the gift inside.",
       "options": [
         "box-mcq-01",
-        "box-mcq-02",
-        "box-mcq-03",
+        "box-mcq-17",
         "box-mcq-04",
-        "box-mcq-05",
-        "box-mcq-06"
+        "box-mcq-32"
       ],
       "explanation": "本句的「box」指「有明確側面、用來裝東西的盒子／箱子」。",
       "sentenceIndex": 1,
@@ -738,12 +732,10 @@ export default {
         "box"
       ],
       "optionReasons": {
-        "box-mcq-01": "本句指「有明確側面、用來裝東西的盒子／箱子」。",
-        "box-mcq-02": "「用來包裝或展示禮物的禮盒／展示盒」是「gift/presentation box」的用法，與本句語境不同。",
-        "box-mcq-03": "「用於搬運或收納物品的紙箱／收納箱」是「box — storage carton」的用法，與本句語境不同。",
-        "box-mcq-04": "「表格、試卷等上的方格／方框」是「box — marked area」的用法，與本句語境不同。",
-        "box-mcq-05": "「用來選擇選項的小方格／核取方塊」是「checkbox」的用法，與本句語境不同。",
-        "box-mcq-06": "「劇院、體育場等中的私人包廂」是「box — private compartment」的用法，與本句語境不同。"
+        "box-mcq-01": "本句的「box」指「有明確側面、用來裝東西的盒子／箱子」。",
+        "box-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-01"
     },
@@ -755,11 +747,9 @@ export default {
       "masked": "Put the books in the ____.",
       "options": [
         "box-mcq-01",
-        "box-mcq-02",
-        "box-mcq-03",
-        "box-mcq-04",
-        "box-mcq-05",
-        "box-mcq-06"
+        "box-mcq-18",
+        "box-mcq-10",
+        "box-mcq-07"
       ],
       "explanation": "本句的「box」指「有明確側面、用來裝東西的盒子／箱子」。",
       "sentenceIndex": 2,
@@ -768,12 +758,10 @@ export default {
         "box"
       ],
       "optionReasons": {
-        "box-mcq-01": "本句指「有明確側面、用來裝東西的盒子／箱子」。",
-        "box-mcq-02": "「用來包裝或展示禮物的禮盒／展示盒」是「gift/presentation box」的用法，與本句語境不同。",
-        "box-mcq-03": "「用於搬運或收納物品的紙箱／收納箱」是「box — storage carton」的用法，與本句語境不同。",
-        "box-mcq-04": "「表格、試卷等上的方格／方框」是「box — marked area」的用法，與本句語境不同。",
-        "box-mcq-05": "「用來選擇選項的小方格／核取方塊」是「checkbox」的用法，與本句語境不同。",
-        "box-mcq-06": "「劇院、體育場等中的私人包廂」是「box — private compartment」的用法，與本句語境不同。"
+        "box-mcq-01": "本句的「box」指「有明確側面、用來裝東西的盒子／箱子」。",
+        "box-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-01"
     },
@@ -785,11 +773,9 @@ export default {
       "masked": "The necklace came in a small ____.",
       "options": [
         "box-mcq-01",
-        "box-mcq-02",
-        "box-mcq-03",
-        "box-mcq-04",
-        "box-mcq-05",
-        "box-mcq-06"
+        "box-mcq-09",
+        "box-mcq-17",
+        "box-mcq-13"
       ],
       "explanation": "本句的「box」指「有明確側面、用來裝東西的盒子／箱子」。",
       "sentenceIndex": 3,
@@ -798,12 +784,10 @@ export default {
         "box"
       ],
       "optionReasons": {
-        "box-mcq-01": "本句指「有明確側面、用來裝東西的盒子／箱子」。",
-        "box-mcq-02": "「用來包裝或展示禮物的禮盒／展示盒」是「gift/presentation box」的用法，與本句語境不同。",
-        "box-mcq-03": "「用於搬運或收納物品的紙箱／收納箱」是「box — storage carton」的用法，與本句語境不同。",
-        "box-mcq-04": "「表格、試卷等上的方格／方框」是「box — marked area」的用法，與本句語境不同。",
-        "box-mcq-05": "「用來選擇選項的小方格／核取方塊」是「checkbox」的用法，與本句語境不同。",
-        "box-mcq-06": "「劇院、體育場等中的私人包廂」是「box — private compartment」的用法，與本句語境不同。"
+        "box-mcq-01": "本句的「box」指「有明確側面、用來裝東西的盒子／箱子」。",
+        "box-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-01"
     },
@@ -815,11 +799,9 @@ export default {
       "masked": "The watch came in a velvet ____.",
       "options": [
         "box-mcq-02",
-        "box-mcq-01",
-        "box-mcq-03",
-        "box-mcq-04",
-        "box-mcq-05",
-        "box-mcq-06"
+        "box-mcq-09",
+        "box-mcq-18",
+        "box-mcq-28"
       ],
       "explanation": "本句的「gift box」指「用來包裝或展示禮物的禮盒／展示盒」。",
       "sentenceIndex": 4,
@@ -828,12 +810,10 @@ export default {
         "gift box"
       ],
       "optionReasons": {
-        "box-mcq-02": "本句指「用來包裝或展示禮物的禮盒／展示盒」。",
-        "box-mcq-01": "「有明確側面、用來裝東西的盒子／箱子」是「box — container」的用法，與本句語境不同。",
-        "box-mcq-03": "「用於搬運或收納物品的紙箱／收納箱」是「box — storage carton」的用法，與本句語境不同。",
-        "box-mcq-04": "「表格、試卷等上的方格／方框」是「box — marked area」的用法，與本句語境不同。",
-        "box-mcq-05": "「用來選擇選項的小方格／核取方塊」是「checkbox」的用法，與本句語境不同。",
-        "box-mcq-06": "「劇院、體育場等中的私人包廂」是「box — private compartment」的用法，與本句語境不同。"
+        "box-mcq-02": "本句的「gift box」指「用來包裝或展示禮物的禮盒／展示盒」。",
+        "box-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-02"
     },
@@ -845,11 +825,9 @@ export default {
       "masked": "The pen was kept in a wooden ____.",
       "options": [
         "box-mcq-02",
-        "box-mcq-01",
-        "box-mcq-03",
-        "box-mcq-04",
-        "box-mcq-05",
-        "box-mcq-06"
+        "box-mcq-19",
+        "box-mcq-07",
+        "box-mcq-23"
       ],
       "explanation": "本句的「presentation box」指「用來包裝或展示禮物的禮盒／展示盒」。",
       "sentenceIndex": 5,
@@ -858,12 +836,10 @@ export default {
         "presentation box"
       ],
       "optionReasons": {
-        "box-mcq-02": "本句指「用來包裝或展示禮物的禮盒／展示盒」。",
-        "box-mcq-01": "「有明確側面、用來裝東西的盒子／箱子」是「box — container」的用法，與本句語境不同。",
-        "box-mcq-03": "「用於搬運或收納物品的紙箱／收納箱」是「box — storage carton」的用法，與本句語境不同。",
-        "box-mcq-04": "「表格、試卷等上的方格／方框」是「box — marked area」的用法，與本句語境不同。",
-        "box-mcq-05": "「用來選擇選項的小方格／核取方塊」是「checkbox」的用法，與本句語境不同。",
-        "box-mcq-06": "「劇院、體育場等中的私人包廂」是「box — private compartment」的用法，與本句語境不同。"
+        "box-mcq-02": "本句的「presentation box」指「用來包裝或展示禮物的禮盒／展示盒」。",
+        "box-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-02"
     },
@@ -875,11 +851,9 @@ export default {
       "masked": "We packed the books into cardboard ____.",
       "options": [
         "box-mcq-03",
-        "box-mcq-02",
-        "box-mcq-04",
-        "box-mcq-01",
-        "box-mcq-05",
-        "box-mcq-06"
+        "box-mcq-19",
+        "box-mcq-09",
+        "box-mcq-07"
       ],
       "explanation": "本句的「boxes」指「用於搬運或收納物品的紙箱／收納箱」。",
       "sentenceIndex": 6,
@@ -888,12 +862,10 @@ export default {
         "boxes"
       ],
       "optionReasons": {
-        "box-mcq-03": "本句指「用於搬運或收納物品的紙箱／收納箱」。",
-        "box-mcq-02": "「用來包裝或展示禮物的禮盒／展示盒」是「gift/presentation box」的用法，與本句語境不同。",
-        "box-mcq-04": "「表格、試卷等上的方格／方框」是「box — marked area」的用法，與本句語境不同。",
-        "box-mcq-01": "「有明確側面、用來裝東西的盒子／箱子」是「box — container」的用法，與本句語境不同。",
-        "box-mcq-05": "「用來選擇選項的小方格／核取方塊」是「checkbox」的用法，與本句語境不同。",
-        "box-mcq-06": "「劇院、體育場等中的私人包廂」是「box — private compartment」的用法，與本句語境不同。"
+        "box-mcq-03": "本句的「boxes」指「用於搬運或收納物品的紙箱／收納箱」。",
+        "box-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-03"
     },
@@ -905,11 +877,9 @@ export default {
       "masked": "The old photos are in a storage ____.",
       "options": [
         "box-mcq-03",
-        "box-mcq-02",
-        "box-mcq-04",
-        "box-mcq-01",
-        "box-mcq-05",
-        "box-mcq-06"
+        "box-mcq-23",
+        "box-mcq-32",
+        "box-mcq-10"
       ],
       "explanation": "本句的「box」指「用於搬運或收納物品的紙箱／收納箱」。",
       "sentenceIndex": 7,
@@ -918,12 +888,10 @@ export default {
         "box"
       ],
       "optionReasons": {
-        "box-mcq-03": "本句指「用於搬運或收納物品的紙箱／收納箱」。",
-        "box-mcq-02": "「用來包裝或展示禮物的禮盒／展示盒」是「gift/presentation box」的用法，與本句語境不同。",
-        "box-mcq-04": "「表格、試卷等上的方格／方框」是「box — marked area」的用法，與本句語境不同。",
-        "box-mcq-01": "「有明確側面、用來裝東西的盒子／箱子」是「box — container」的用法，與本句語境不同。",
-        "box-mcq-05": "「用來選擇選項的小方格／核取方塊」是「checkbox」的用法，與本句語境不同。",
-        "box-mcq-06": "「劇院、體育場等中的私人包廂」是「box — private compartment」的用法，與本句語境不同。"
+        "box-mcq-03": "本句的「box」指「用於搬運或收納物品的紙箱／收納箱」。",
+        "box-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-03"
     },
@@ -935,11 +903,9 @@ export default {
       "masked": "Tick the correct ____.",
       "options": [
         "box-mcq-04",
-        "box-mcq-03",
-        "box-mcq-05",
-        "box-mcq-02",
-        "box-mcq-06",
-        "box-mcq-01"
+        "box-mcq-07",
+        "box-mcq-33",
+        "box-mcq-30"
       ],
       "explanation": "本句的「box」指「表格、試卷等上的方格／方框」。",
       "sentenceIndex": 8,
@@ -948,12 +914,10 @@ export default {
         "box"
       ],
       "optionReasons": {
-        "box-mcq-04": "本句指「表格、試卷等上的方格／方框」。",
-        "box-mcq-03": "「用於搬運或收納物品的紙箱／收納箱」是「box — storage carton」的用法，與本句語境不同。",
-        "box-mcq-05": "「用來選擇選項的小方格／核取方塊」是「checkbox」的用法，與本句語境不同。",
-        "box-mcq-02": "「用來包裝或展示禮物的禮盒／展示盒」是「gift/presentation box」的用法，與本句語境不同。",
-        "box-mcq-06": "「劇院、體育場等中的私人包廂」是「box — private compartment」的用法，與本句語境不同。",
-        "box-mcq-01": "「有明確側面、用來裝東西的盒子／箱子」是「box — container」的用法，與本句語境不同。"
+        "box-mcq-04": "本句的「box」指「表格、試卷等上的方格／方框」。",
+        "box-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-04"
     },
@@ -965,11 +929,9 @@ export default {
       "masked": "Write your answer in the ____ below.",
       "options": [
         "box-mcq-04",
-        "box-mcq-03",
-        "box-mcq-05",
-        "box-mcq-02",
-        "box-mcq-06",
-        "box-mcq-01"
+        "box-mcq-20",
+        "box-mcq-23",
+        "box-mcq-18"
       ],
       "explanation": "本句的「box」指「表格、試卷等上的方格／方框」。",
       "sentenceIndex": 9,
@@ -978,12 +940,10 @@ export default {
         "box"
       ],
       "optionReasons": {
-        "box-mcq-04": "本句指「表格、試卷等上的方格／方框」。",
-        "box-mcq-03": "「用於搬運或收納物品的紙箱／收納箱」是「box — storage carton」的用法，與本句語境不同。",
-        "box-mcq-05": "「用來選擇選項的小方格／核取方塊」是「checkbox」的用法，與本句語境不同。",
-        "box-mcq-02": "「用來包裝或展示禮物的禮盒／展示盒」是「gift/presentation box」的用法，與本句語境不同。",
-        "box-mcq-06": "「劇院、體育場等中的私人包廂」是「box — private compartment」的用法，與本句語境不同。",
-        "box-mcq-01": "「有明確側面、用來裝東西的盒子／箱子」是「box — container」的用法，與本句語境不同。"
+        "box-mcq-04": "本句的「box」指「表格、試卷等上的方格／方框」。",
+        "box-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-04"
     },
@@ -995,11 +955,9 @@ export default {
       "masked": "Click the ____ to accept the terms.",
       "options": [
         "box-mcq-05",
-        "box-mcq-04",
-        "box-mcq-06",
-        "box-mcq-03",
-        "box-mcq-07",
-        "box-mcq-02"
+        "box-mcq-18",
+        "box-mcq-14",
+        "box-mcq-03"
       ],
       "explanation": "本句的「checkbox」指「用來選擇選項的小方格／核取方塊」。",
       "sentenceIndex": 10,
@@ -1008,12 +966,10 @@ export default {
         "checkbox"
       ],
       "optionReasons": {
-        "box-mcq-05": "本句指「用來選擇選項的小方格／核取方塊」。",
-        "box-mcq-04": "「表格、試卷等上的方格／方框」是「box — marked area」的用法，與本句語境不同。",
-        "box-mcq-06": "「劇院、體育場等中的私人包廂」是「box — private compartment」的用法，與本句語境不同。",
-        "box-mcq-03": "「用於搬運或收納物品的紙箱／收納箱」是「box — storage carton」的用法，與本句語境不同。",
-        "box-mcq-07": "「英式非正式：電視機」是「the box — television」的用法，與本句語境不同。",
-        "box-mcq-02": "「用來包裝或展示禮物的禮盒／展示盒」是「gift/presentation box」的用法，與本句語境不同。"
+        "box-mcq-05": "本句的「checkbox」指「用來選擇選項的小方格／核取方塊」。",
+        "box-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-05"
     },
@@ -1025,11 +981,9 @@ export default {
       "masked": "Tick the appropriate ____.",
       "options": [
         "box-mcq-05",
-        "box-mcq-04",
-        "box-mcq-06",
-        "box-mcq-03",
-        "box-mcq-07",
-        "box-mcq-02"
+        "box-mcq-18",
+        "box-mcq-13",
+        "box-mcq-11"
       ],
       "explanation": "本句的「box」指「用來選擇選項的小方格／核取方塊」。",
       "sentenceIndex": 11,
@@ -1038,12 +992,10 @@ export default {
         "box"
       ],
       "optionReasons": {
-        "box-mcq-05": "本句指「用來選擇選項的小方格／核取方塊」。",
-        "box-mcq-04": "「表格、試卷等上的方格／方框」是「box — marked area」的用法，與本句語境不同。",
-        "box-mcq-06": "「劇院、體育場等中的私人包廂」是「box — private compartment」的用法，與本句語境不同。",
-        "box-mcq-03": "「用於搬運或收納物品的紙箱／收納箱」是「box — storage carton」的用法，與本句語境不同。",
-        "box-mcq-07": "「英式非正式：電視機」是「the box — television」的用法，與本句語境不同。",
-        "box-mcq-02": "「用來包裝或展示禮物的禮盒／展示盒」是「gift/presentation box」的用法，與本句語境不同。"
+        "box-mcq-05": "本句的「box」指「用來選擇選項的小方格／核取方塊」。",
+        "box-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-05"
     },
@@ -1055,11 +1007,9 @@ export default {
       "masked": "They watched the match from a private ____.",
       "options": [
         "box-mcq-06",
-        "box-mcq-05",
-        "box-mcq-07",
-        "box-mcq-04",
-        "box-mcq-08",
-        "box-mcq-03"
+        "box-mcq-27",
+        "box-mcq-11",
+        "box-mcq-17"
       ],
       "explanation": "本句的「box」指「劇院、體育場等中的私人包廂」。",
       "sentenceIndex": 12,
@@ -1068,12 +1018,10 @@ export default {
         "box"
       ],
       "optionReasons": {
-        "box-mcq-06": "本句指「劇院、體育場等中的私人包廂」。",
-        "box-mcq-05": "「用來選擇選項的小方格／核取方塊」是「checkbox」的用法，與本句語境不同。",
-        "box-mcq-07": "「英式非正式：電視機」是「the box — television」的用法，與本句語境不同。",
-        "box-mcq-04": "「表格、試卷等上的方格／方框」是「box — marked area」的用法，與本句語境不同。",
-        "box-mcq-08": "「螢幕上的方框、輸入區或資訊區」是「box — computing/UI」的用法，與本句語境不同。",
-        "box-mcq-03": "「用於搬運或收納物品的紙箱／收納箱」是「box — storage carton」的用法，與本句語境不同。"
+        "box-mcq-06": "本句的「box」指「劇院、體育場等中的私人包廂」。",
+        "box-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-06"
     },
@@ -1085,11 +1033,9 @@ export default {
       "masked": "The theatre has several private ____.",
       "options": [
         "box-mcq-06",
-        "box-mcq-05",
-        "box-mcq-07",
-        "box-mcq-04",
-        "box-mcq-08",
-        "box-mcq-03"
+        "box-mcq-12",
+        "box-mcq-33",
+        "box-mcq-20"
       ],
       "explanation": "本句的「boxes」指「劇院、體育場等中的私人包廂」。",
       "sentenceIndex": 13,
@@ -1098,12 +1044,10 @@ export default {
         "boxes"
       ],
       "optionReasons": {
-        "box-mcq-06": "本句指「劇院、體育場等中的私人包廂」。",
-        "box-mcq-05": "「用來選擇選項的小方格／核取方塊」是「checkbox」的用法，與本句語境不同。",
-        "box-mcq-07": "「英式非正式：電視機」是「the box — television」的用法，與本句語境不同。",
-        "box-mcq-04": "「表格、試卷等上的方格／方框」是「box — marked area」的用法，與本句語境不同。",
-        "box-mcq-08": "「螢幕上的方框、輸入區或資訊區」是「box — computing/UI」的用法，與本句語境不同。",
-        "box-mcq-03": "「用於搬運或收納物品的紙箱／收納箱」是「box — storage carton」的用法，與本句語境不同。"
+        "box-mcq-06": "本句的「boxes」指「劇院、體育場等中的私人包廂」。",
+        "box-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-06"
     },
@@ -1115,11 +1059,9 @@ export default {
       "masked": "They reserved an ____.",
       "options": [
         "box-mcq-06",
-        "box-mcq-05",
-        "box-mcq-07",
-        "box-mcq-04",
-        "box-mcq-08",
-        "box-mcq-03"
+        "box-mcq-12",
+        "box-mcq-33",
+        "box-mcq-14"
       ],
       "explanation": "本句的「opera box」指「劇院、體育場等中的私人包廂」。",
       "sentenceIndex": 14,
@@ -1128,12 +1070,10 @@ export default {
         "opera box"
       ],
       "optionReasons": {
-        "box-mcq-06": "本句指「劇院、體育場等中的私人包廂」。",
-        "box-mcq-05": "「用來選擇選項的小方格／核取方塊」是「checkbox」的用法，與本句語境不同。",
-        "box-mcq-07": "「英式非正式：電視機」是「the box — television」的用法，與本句語境不同。",
-        "box-mcq-04": "「表格、試卷等上的方格／方框」是「box — marked area」的用法，與本句語境不同。",
-        "box-mcq-08": "「螢幕上的方框、輸入區或資訊區」是「box — computing/UI」的用法，與本句語境不同。",
-        "box-mcq-03": "「用於搬運或收納物品的紙箱／收納箱」是「box — storage carton」的用法，與本句語境不同。"
+        "box-mcq-06": "本句的「opera box」指「劇院、體育場等中的私人包廂」。",
+        "box-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-06"
     },
@@ -1145,11 +1085,9 @@ export default {
       "masked": "The family sat in a private ____.",
       "options": [
         "box-mcq-06",
-        "box-mcq-05",
-        "box-mcq-07",
-        "box-mcq-04",
-        "box-mcq-08",
-        "box-mcq-03"
+        "box-mcq-10",
+        "box-mcq-12",
+        "box-mcq-05"
       ],
       "explanation": "本句的「box」指「劇院、體育場等中的私人包廂」。",
       "sentenceIndex": 15,
@@ -1158,12 +1096,10 @@ export default {
         "box"
       ],
       "optionReasons": {
-        "box-mcq-06": "本句指「劇院、體育場等中的私人包廂」。",
-        "box-mcq-05": "「用來選擇選項的小方格／核取方塊」是「checkbox」的用法，與本句語境不同。",
-        "box-mcq-07": "「英式非正式：電視機」是「the box — television」的用法，與本句語境不同。",
-        "box-mcq-04": "「表格、試卷等上的方格／方框」是「box — marked area」的用法，與本句語境不同。",
-        "box-mcq-08": "「螢幕上的方框、輸入區或資訊區」是「box — computing/UI」的用法，與本句語境不同。",
-        "box-mcq-03": "「用於搬運或收納物品的紙箱／收納箱」是「box — storage carton」的用法，與本句語境不同。"
+        "box-mcq-06": "本句的「box」指「劇院、體育場等中的私人包廂」。",
+        "box-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-06"
     },
@@ -1175,11 +1111,9 @@ export default {
       "masked": "There was nothing good on ____.",
       "options": [
         "box-mcq-07",
-        "box-mcq-06",
-        "box-mcq-08",
-        "box-mcq-05",
-        "box-mcq-09",
-        "box-mcq-04"
+        "box-mcq-21",
+        "box-mcq-01",
+        "box-mcq-31"
       ],
       "explanation": "本句的「the box」指「英式非正式：電視機」。",
       "sentenceIndex": 16,
@@ -1188,12 +1122,10 @@ export default {
         "the box"
       ],
       "optionReasons": {
-        "box-mcq-07": "本句指「英式非正式：電視機」。",
-        "box-mcq-06": "「劇院、體育場等中的私人包廂」是「box — private compartment」的用法，與本句語境不同。",
-        "box-mcq-08": "「螢幕上的方框、輸入區或資訊區」是「box — computing/UI」的用法，與本句語境不同。",
-        "box-mcq-05": "「用來選擇選項的小方格／核取方塊」是「checkbox」的用法，與本句語境不同。",
-        "box-mcq-09": "「顯示資訊或要求輸入的對話方塊」是「dialog box」的用法，與本句語境不同。",
-        "box-mcq-04": "「表格、試卷等上的方格／方框」是「box — marked area」的用法，與本句語境不同。"
+        "box-mcq-07": "本句的「the box」指「英式非正式：電視機」。",
+        "box-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-07"
     },
@@ -1205,11 +1137,9 @@ export default {
       "masked": "He spent the evening in front of ____.",
       "options": [
         "box-mcq-07",
-        "box-mcq-06",
-        "box-mcq-08",
-        "box-mcq-05",
-        "box-mcq-09",
-        "box-mcq-04"
+        "box-mcq-01",
+        "box-mcq-13",
+        "box-mcq-17"
       ],
       "explanation": "本句的「the box」指「英式非正式：電視機」。",
       "sentenceIndex": 17,
@@ -1218,12 +1148,10 @@ export default {
         "the box"
       ],
       "optionReasons": {
-        "box-mcq-07": "本句指「英式非正式：電視機」。",
-        "box-mcq-06": "「劇院、體育場等中的私人包廂」是「box — private compartment」的用法，與本句語境不同。",
-        "box-mcq-08": "「螢幕上的方框、輸入區或資訊區」是「box — computing/UI」的用法，與本句語境不同。",
-        "box-mcq-05": "「用來選擇選項的小方格／核取方塊」是「checkbox」的用法，與本句語境不同。",
-        "box-mcq-09": "「顯示資訊或要求輸入的對話方塊」是「dialog box」的用法，與本句語境不同。",
-        "box-mcq-04": "「表格、試卷等上的方格／方框」是「box — marked area」的用法，與本句語境不同。"
+        "box-mcq-07": "本句的「the box」指「英式非正式：電視機」。",
+        "box-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-07"
     },
@@ -1235,11 +1163,9 @@ export default {
       "masked": "Enter your name in the ____.",
       "options": [
         "box-mcq-31",
-        "box-mcq-30",
         "box-mcq-32",
-        "box-mcq-29",
-        "box-mcq-33",
-        "box-mcq-28"
+        "box-mcq-16",
+        "box-mcq-24"
       ],
       "explanation": "本句的「box」指「表示方框；文字框；欄位」。",
       "sentenceIndex": 18,
@@ -1248,12 +1174,10 @@ export default {
         "box"
       ],
       "optionReasons": {
-        "box-mcq-31": "本句指「表示方框；文字框；欄位」。",
-        "box-mcq-30": "「外形四四方方、方正或略顯笨重的」是「boxy」的用法，與本句語境不同。",
-        "box-mcq-32": "「表示小禁區；球門區」是「14. six-yard box」的用法，與本句語境不同。",
-        "box-mcq-29": "「被裝進盒中；亦可指被圍困／限制」是「boxed」的用法，與本句語境不同。",
-        "box-mcq-33": "「表示一盒／一箱的量」是「33. boxful」的用法，與本句語境不同。",
-        "box-mcq-28": "「實體信箱；也可指電子／語音信箱」是「mailbox」的用法，與本句語境不同。"
+        "box-mcq-31": "本句的「box」指「表示方框；文字框；欄位」。",
+        "box-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-31"
     },
@@ -1265,11 +1189,9 @@ export default {
       "masked": "A warning ____ appeared on the screen.",
       "options": [
         "box-mcq-31",
-        "box-mcq-30",
-        "box-mcq-32",
-        "box-mcq-29",
-        "box-mcq-33",
-        "box-mcq-28"
+        "box-mcq-05",
+        "box-mcq-12",
+        "box-mcq-20"
       ],
       "explanation": "本句的「box」指「表示方框；文字框；欄位」。",
       "sentenceIndex": 19,
@@ -1278,12 +1200,10 @@ export default {
         "box"
       ],
       "optionReasons": {
-        "box-mcq-31": "本句指「表示方框；文字框；欄位」。",
-        "box-mcq-30": "「外形四四方方、方正或略顯笨重的」是「boxy」的用法，與本句語境不同。",
-        "box-mcq-32": "「表示小禁區；球門區」是「14. six-yard box」的用法，與本句語境不同。",
-        "box-mcq-29": "「被裝進盒中；亦可指被圍困／限制」是「boxed」的用法，與本句語境不同。",
-        "box-mcq-33": "「表示一盒／一箱的量」是「33. boxful」的用法，與本句語境不同。",
-        "box-mcq-28": "「實體信箱；也可指電子／語音信箱」是「mailbox」的用法，與本句語境不同。"
+        "box-mcq-31": "本句的「box」指「表示方框；文字框；欄位」。",
+        "box-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-31"
     },
@@ -1295,11 +1215,9 @@ export default {
       "masked": "A ____ appeared.",
       "options": [
         "box-mcq-09",
-        "box-mcq-08",
-        "box-mcq-10",
-        "box-mcq-07",
-        "box-mcq-11",
-        "box-mcq-06"
+        "box-mcq-02",
+        "box-mcq-14",
+        "box-mcq-17"
       ],
       "explanation": "本句的「dialog box」指「顯示資訊或要求輸入的對話方塊」。",
       "sentenceIndex": 20,
@@ -1308,12 +1226,10 @@ export default {
         "dialog box"
       ],
       "optionReasons": {
-        "box-mcq-09": "本句指「顯示資訊或要求輸入的對話方塊」。",
-        "box-mcq-08": "「螢幕上的方框、輸入區或資訊區」是「box — computing/UI」的用法，與本句語境不同。",
-        "box-mcq-10": "「輸入／顯示文字的文字框」是「text box」的用法，與本句語境不同。",
-        "box-mcq-07": "「英式非正式：電視機」是「the box — television」的用法，與本句語境不同。",
-        "box-mcq-11": "「足球球門前的禁區」是「box — football」的用法，與本句語境不同。",
-        "box-mcq-06": "「劇院、體育場等中的私人包廂」是「box — private compartment」的用法，與本句語境不同。"
+        "box-mcq-09": "本句的「dialog box」指「顯示資訊或要求輸入的對話方塊」。",
+        "box-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-09"
     },
@@ -1325,11 +1241,9 @@ export default {
       "masked": "Click “OK” in the ____.",
       "options": [
         "box-mcq-09",
-        "box-mcq-08",
-        "box-mcq-10",
-        "box-mcq-07",
-        "box-mcq-11",
-        "box-mcq-06"
+        "box-mcq-23",
+        "box-mcq-04",
+        "box-mcq-28"
       ],
       "explanation": "本句的「dialog box」指「顯示資訊或要求輸入的對話方塊」。",
       "sentenceIndex": 21,
@@ -1338,12 +1252,10 @@ export default {
         "dialog box"
       ],
       "optionReasons": {
-        "box-mcq-09": "本句指「顯示資訊或要求輸入的對話方塊」。",
-        "box-mcq-08": "「螢幕上的方框、輸入區或資訊區」是「box — computing/UI」的用法，與本句語境不同。",
-        "box-mcq-10": "「輸入／顯示文字的文字框」是「text box」的用法，與本句語境不同。",
-        "box-mcq-07": "「英式非正式：電視機」是「the box — television」的用法，與本句語境不同。",
-        "box-mcq-11": "「足球球門前的禁區」是「box — football」的用法，與本句語境不同。",
-        "box-mcq-06": "「劇院、體育場等中的私人包廂」是「box — private compartment」的用法，與本句語境不同。"
+        "box-mcq-09": "本句的「dialog box」指「顯示資訊或要求輸入的對話方塊」。",
+        "box-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-09"
     },
@@ -1355,11 +1267,9 @@ export default {
       "masked": "Type your answer in the ____.",
       "options": [
         "box-mcq-10",
-        "box-mcq-09",
-        "box-mcq-11",
-        "box-mcq-08",
-        "box-mcq-12",
-        "box-mcq-07"
+        "box-mcq-14",
+        "box-mcq-32",
+        "box-mcq-06"
       ],
       "explanation": "本句的「text box」指「輸入／顯示文字的文字框」。",
       "sentenceIndex": 22,
@@ -1368,12 +1278,10 @@ export default {
         "text box"
       ],
       "optionReasons": {
-        "box-mcq-10": "本句指「輸入／顯示文字的文字框」。",
-        "box-mcq-09": "「顯示資訊或要求輸入的對話方塊」是「dialog box」的用法，與本句語境不同。",
-        "box-mcq-11": "「足球球門前的禁區」是「box — football」的用法，與本句語境不同。",
-        "box-mcq-08": "「螢幕上的方框、輸入區或資訊區」是「box — computing/UI」的用法，與本句語境不同。",
-        "box-mcq-12": "「棒球打者站立的打擊區」是「batter’s box」的用法，與本句語境不同。",
-        "box-mcq-07": "「英式非正式：電視機」是「the box — television」的用法，與本句語境不同。"
+        "box-mcq-10": "本句的「text box」指「輸入／顯示文字的文字框」。",
+        "box-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-10"
     },
@@ -1385,11 +1293,9 @@ export default {
       "masked": "Add a ____ to the slide.",
       "options": [
         "box-mcq-10",
-        "box-mcq-09",
-        "box-mcq-11",
-        "box-mcq-08",
-        "box-mcq-12",
-        "box-mcq-07"
+        "box-mcq-06",
+        "box-mcq-28",
+        "box-mcq-32"
       ],
       "explanation": "本句的「text box」指「輸入／顯示文字的文字框」。",
       "sentenceIndex": 23,
@@ -1398,12 +1304,10 @@ export default {
         "text box"
       ],
       "optionReasons": {
-        "box-mcq-10": "本句指「輸入／顯示文字的文字框」。",
-        "box-mcq-09": "「顯示資訊或要求輸入的對話方塊」是「dialog box」的用法，與本句語境不同。",
-        "box-mcq-11": "「足球球門前的禁區」是「box — football」的用法，與本句語境不同。",
-        "box-mcq-08": "「螢幕上的方框、輸入區或資訊區」是「box — computing/UI」的用法，與本句語境不同。",
-        "box-mcq-12": "「棒球打者站立的打擊區」是「batter’s box」的用法，與本句語境不同。",
-        "box-mcq-07": "「英式非正式：電視機」是「the box — television」的用法，與本句語境不同。"
+        "box-mcq-10": "本句的「text box」指「輸入／顯示文字的文字框」。",
+        "box-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-10"
     },
@@ -1415,11 +1319,9 @@ export default {
       "masked": "The striker was fouled inside the ____.",
       "options": [
         "box-mcq-11",
-        "box-mcq-10",
-        "box-mcq-12",
-        "box-mcq-09",
-        "box-mcq-13",
-        "box-mcq-08"
+        "box-mcq-02",
+        "box-mcq-14",
+        "box-mcq-16"
       ],
       "explanation": "本句的「box」指「足球球門前的禁區」。",
       "sentenceIndex": 24,
@@ -1428,12 +1330,10 @@ export default {
         "box"
       ],
       "optionReasons": {
-        "box-mcq-11": "本句指「足球球門前的禁區」。",
-        "box-mcq-10": "「輸入／顯示文字的文字框」是「text box」的用法，與本句語境不同。",
-        "box-mcq-12": "「棒球打者站立的打擊區」是「batter’s box」的用法，與本句語境不同。",
-        "box-mcq-09": "「顯示資訊或要求輸入的對話方塊」是「dialog box」的用法，與本句語境不同。",
-        "box-mcq-13": "「進行拳擊／打拳」是「box — verb sport」的用法，與本句語境不同。",
-        "box-mcq-08": "「螢幕上的方框、輸入區或資訊區」是「box — computing/UI」的用法，與本句語境不同。"
+        "box-mcq-11": "本句的「box」指「足球球門前的禁區」。",
+        "box-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-11"
     },
@@ -1445,11 +1345,9 @@ export default {
       "masked": "The ball was cleared from the ____.",
       "options": [
         "box-mcq-11",
-        "box-mcq-10",
-        "box-mcq-12",
-        "box-mcq-09",
-        "box-mcq-13",
-        "box-mcq-08"
+        "box-mcq-33",
+        "box-mcq-31",
+        "box-mcq-13"
       ],
       "explanation": "本句的「box」指「足球球門前的禁區」。",
       "sentenceIndex": 25,
@@ -1458,12 +1356,10 @@ export default {
         "box"
       ],
       "optionReasons": {
-        "box-mcq-11": "本句指「足球球門前的禁區」。",
-        "box-mcq-10": "「輸入／顯示文字的文字框」是「text box」的用法，與本句語境不同。",
-        "box-mcq-12": "「棒球打者站立的打擊區」是「batter’s box」的用法，與本句語境不同。",
-        "box-mcq-09": "「顯示資訊或要求輸入的對話方塊」是「dialog box」的用法，與本句語境不同。",
-        "box-mcq-13": "「進行拳擊／打拳」是「box — verb sport」的用法，與本句語境不同。",
-        "box-mcq-08": "「螢幕上的方框、輸入區或資訊區」是「box — computing/UI」的用法，與本句語境不同。"
+        "box-mcq-11": "本句的「box」指「足球球門前的禁區」。",
+        "box-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-11"
     },
@@ -1475,11 +1371,9 @@ export default {
       "masked": "The goalkeeper caught the ball inside the ____.",
       "options": [
         "box-mcq-32",
-        "box-mcq-31",
-        "box-mcq-33",
-        "box-mcq-30",
-        "box-mcq-29",
-        "box-mcq-28"
+        "box-mcq-04",
+        "box-mcq-06",
+        "box-mcq-03"
       ],
       "explanation": "本句的「six-yard box」指「表示小禁區；球門區」。",
       "sentenceIndex": 26,
@@ -1488,12 +1382,10 @@ export default {
         "six-yard box"
       ],
       "optionReasons": {
-        "box-mcq-32": "本句指「表示小禁區；球門區」。",
-        "box-mcq-31": "「表示方框；文字框；欄位」是「10. box — rectangular area on a screen」的用法，與本句語境不同。",
-        "box-mcq-33": "「表示一盒／一箱的量」是「33. boxful」的用法，與本句語境不同。",
-        "box-mcq-30": "「外形四四方方、方正或略顯笨重的」是「boxy」的用法，與本句語境不同。",
-        "box-mcq-29": "「被裝進盒中；亦可指被圍困／限制」是「boxed」的用法，與本句語境不同。",
-        "box-mcq-28": "「實體信箱；也可指電子／語音信箱」是「mailbox」的用法，與本句語境不同。"
+        "box-mcq-32": "本句的「six-yard box」指「表示小禁區；球門區」。",
+        "box-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-32"
     },
@@ -1505,11 +1397,9 @@ export default {
       "masked": "The cross landed in the ____.",
       "options": [
         "box-mcq-32",
-        "box-mcq-31",
-        "box-mcq-33",
-        "box-mcq-30",
-        "box-mcq-29",
-        "box-mcq-28"
+        "box-mcq-14",
+        "box-mcq-20",
+        "box-mcq-18"
       ],
       "explanation": "本句的「six-yard box」指「表示小禁區；球門區」。",
       "sentenceIndex": 27,
@@ -1518,12 +1408,10 @@ export default {
         "six-yard box"
       ],
       "optionReasons": {
-        "box-mcq-32": "本句指「表示小禁區；球門區」。",
-        "box-mcq-31": "「表示方框；文字框；欄位」是「10. box — rectangular area on a screen」的用法，與本句語境不同。",
-        "box-mcq-33": "「表示一盒／一箱的量」是「33. boxful」的用法，與本句語境不同。",
-        "box-mcq-30": "「外形四四方方、方正或略顯笨重的」是「boxy」的用法，與本句語境不同。",
-        "box-mcq-29": "「被裝進盒中；亦可指被圍困／限制」是「boxed」的用法，與本句語境不同。",
-        "box-mcq-28": "「實體信箱；也可指電子／語音信箱」是「mailbox」的用法，與本句語境不同。"
+        "box-mcq-32": "本句的「six-yard box」指「表示小禁區；球門區」。",
+        "box-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-32"
     },
@@ -1535,11 +1423,9 @@ export default {
       "masked": "The batter stepped into the ____.",
       "options": [
         "box-mcq-12",
-        "box-mcq-11",
-        "box-mcq-13",
-        "box-mcq-10",
-        "box-mcq-14",
-        "box-mcq-09"
+        "box-mcq-09",
+        "box-mcq-06",
+        "box-mcq-24"
       ],
       "explanation": "本句的「batter’s box」指「棒球打者站立的打擊區」。",
       "sentenceIndex": 28,
@@ -1548,12 +1434,10 @@ export default {
         "batter’s box"
       ],
       "optionReasons": {
-        "box-mcq-12": "本句指「棒球打者站立的打擊區」。",
-        "box-mcq-11": "「足球球門前的禁區」是「box — football」的用法，與本句語境不同。",
-        "box-mcq-13": "「進行拳擊／打拳」是「box — verb sport」的用法，與本句語境不同。",
-        "box-mcq-10": "「輸入／顯示文字的文字框」是「text box」的用法，與本句語境不同。",
-        "box-mcq-14": "「拳擊運動」是「boxing」的用法，與本句語境不同。",
-        "box-mcq-09": "「顯示資訊或要求輸入的對話方塊」是「dialog box」的用法，與本句語境不同。"
+        "box-mcq-12": "本句的「batter’s box」指「棒球打者站立的打擊區」。",
+        "box-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-12"
     },
@@ -1565,11 +1449,9 @@ export default {
       "masked": "He left the ____ after the pitch.",
       "options": [
         "box-mcq-12",
-        "box-mcq-11",
-        "box-mcq-13",
-        "box-mcq-10",
-        "box-mcq-14",
-        "box-mcq-09"
+        "box-mcq-23",
+        "box-mcq-05",
+        "box-mcq-20"
       ],
       "explanation": "本句的「box」指「棒球打者站立的打擊區」。",
       "sentenceIndex": 29,
@@ -1578,12 +1460,10 @@ export default {
         "box"
       ],
       "optionReasons": {
-        "box-mcq-12": "本句指「棒球打者站立的打擊區」。",
-        "box-mcq-11": "「足球球門前的禁區」是「box — football」的用法，與本句語境不同。",
-        "box-mcq-13": "「進行拳擊／打拳」是「box — verb sport」的用法，與本句語境不同。",
-        "box-mcq-10": "「輸入／顯示文字的文字框」是「text box」的用法，與本句語境不同。",
-        "box-mcq-14": "「拳擊運動」是「boxing」的用法，與本句語境不同。",
-        "box-mcq-09": "「顯示資訊或要求輸入的對話方塊」是「dialog box」的用法，與本句語境不同。"
+        "box-mcq-12": "本句的「box」指「棒球打者站立的打擊區」。",
+        "box-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-12"
     },
@@ -1595,11 +1475,9 @@ export default {
       "masked": "He learned to ____ when he was young.",
       "options": [
         "box-mcq-13",
-        "box-mcq-12",
-        "box-mcq-14",
-        "box-mcq-11",
-        "box-mcq-15",
-        "box-mcq-10"
+        "box-mcq-33",
+        "box-mcq-24",
+        "box-mcq-27"
       ],
       "explanation": "本句的「box」指「進行拳擊／打拳」。",
       "sentenceIndex": 30,
@@ -1608,12 +1486,10 @@ export default {
         "box"
       ],
       "optionReasons": {
-        "box-mcq-13": "本句指「進行拳擊／打拳」。",
-        "box-mcq-12": "「棒球打者站立的打擊區」是「batter’s box」的用法，與本句語境不同。",
-        "box-mcq-14": "「拳擊運動」是「boxing」的用法，與本句語境不同。",
-        "box-mcq-11": "「足球球門前的禁區」是「box — football」的用法，與本句語境不同。",
-        "box-mcq-15": "「拳擊手」是「boxer — athlete」的用法，與本句語境不同。",
-        "box-mcq-10": "「輸入／顯示文字的文字框」是「text box」的用法，與本句語境不同。"
+        "box-mcq-13": "本句的「box」指「進行拳擊／打拳」。",
+        "box-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-13"
     },
@@ -1625,11 +1501,9 @@ export default {
       "masked": "She ____ competitively.",
       "options": [
         "box-mcq-13",
-        "box-mcq-12",
-        "box-mcq-14",
-        "box-mcq-11",
-        "box-mcq-15",
-        "box-mcq-10"
+        "box-mcq-21",
+        "box-mcq-33",
+        "box-mcq-05"
       ],
       "explanation": "本句的「boxes」指「進行拳擊／打拳」。",
       "sentenceIndex": 31,
@@ -1638,12 +1512,10 @@ export default {
         "boxes"
       ],
       "optionReasons": {
-        "box-mcq-13": "本句指「進行拳擊／打拳」。",
-        "box-mcq-12": "「棒球打者站立的打擊區」是「batter’s box」的用法，與本句語境不同。",
-        "box-mcq-14": "「拳擊運動」是「boxing」的用法，與本句語境不同。",
-        "box-mcq-11": "「足球球門前的禁區」是「box — football」的用法，與本句語境不同。",
-        "box-mcq-15": "「拳擊手」是「boxer — athlete」的用法，與本句語境不同。",
-        "box-mcq-10": "「輸入／顯示文字的文字框」是「text box」的用法，與本句語境不同。"
+        "box-mcq-13": "本句的「boxes」指「進行拳擊／打拳」。",
+        "box-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-13"
     },
@@ -1655,11 +1527,9 @@ export default {
       "masked": "He watches professional ____.",
       "options": [
         "box-mcq-14",
-        "box-mcq-13",
-        "box-mcq-15",
-        "box-mcq-12",
-        "box-mcq-16",
-        "box-mcq-11"
+        "box-mcq-04",
+        "box-mcq-06",
+        "box-mcq-09"
       ],
       "explanation": "本句的「boxing」指「拳擊運動」。",
       "sentenceIndex": 32,
@@ -1668,12 +1538,10 @@ export default {
         "boxing"
       ],
       "optionReasons": {
-        "box-mcq-14": "本句指「拳擊運動」。",
-        "box-mcq-13": "「進行拳擊／打拳」是「box — verb sport」的用法，與本句語境不同。",
-        "box-mcq-15": "「拳擊手」是「boxer — athlete」的用法，與本句語境不同。",
-        "box-mcq-12": "「棒球打者站立的打擊區」是「batter’s box」的用法，與本句語境不同。",
-        "box-mcq-16": "「把某物圍住，使其難以移動」是「box something in」的用法，與本句語境不同。",
-        "box-mcq-11": "「足球球門前的禁區」是「box — football」的用法，與本句語境不同。"
+        "box-mcq-14": "本句的「boxing」指「拳擊運動」。",
+        "box-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-14"
     },
@@ -1685,11 +1553,9 @@ export default {
       "masked": "She joined a ____ gym.",
       "options": [
         "box-mcq-14",
-        "box-mcq-13",
-        "box-mcq-15",
-        "box-mcq-12",
-        "box-mcq-16",
-        "box-mcq-11"
+        "box-mcq-02",
+        "box-mcq-07",
+        "box-mcq-21"
       ],
       "explanation": "本句的「boxing」指「拳擊運動」。",
       "sentenceIndex": 33,
@@ -1698,12 +1564,10 @@ export default {
         "boxing"
       ],
       "optionReasons": {
-        "box-mcq-14": "本句指「拳擊運動」。",
-        "box-mcq-13": "「進行拳擊／打拳」是「box — verb sport」的用法，與本句語境不同。",
-        "box-mcq-15": "「拳擊手」是「boxer — athlete」的用法，與本句語境不同。",
-        "box-mcq-12": "「棒球打者站立的打擊區」是「batter’s box」的用法，與本句語境不同。",
-        "box-mcq-16": "「把某物圍住，使其難以移動」是「box something in」的用法，與本句語境不同。",
-        "box-mcq-11": "「足球球門前的禁區」是「box — football」的用法，與本句語境不同。"
+        "box-mcq-14": "本句的「boxing」指「拳擊運動」。",
+        "box-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-14"
     },
@@ -1715,11 +1579,9 @@ export default {
       "masked": "The car was ____ by other vehicles.",
       "options": [
         "box-mcq-16",
-        "box-mcq-15",
-        "box-mcq-17",
-        "box-mcq-14",
-        "box-mcq-18",
-        "box-mcq-13"
+        "box-mcq-33",
+        "box-mcq-07",
+        "box-mcq-18"
       ],
       "explanation": "本句的「boxed in」指「把某物圍住，使其難以移動」。",
       "sentenceIndex": 34,
@@ -1728,12 +1590,10 @@ export default {
         "boxed in"
       ],
       "optionReasons": {
-        "box-mcq-16": "本句指「把某物圍住，使其難以移動」。",
-        "box-mcq-15": "「拳擊手」是「boxer — athlete」的用法，與本句語境不同。",
-        "box-mcq-17": "「被困住；比喻受到選擇或行動限制」是「be boxed in」的用法，與本句語境不同。",
-        "box-mcq-14": "「拳擊運動」是「boxing」的用法，與本句語境不同。",
-        "box-mcq-18": "「把某人硬性歸入某一固定類別」是「box someone into a category」的用法，與本句語境不同。",
-        "box-mcq-13": "「進行拳擊／打拳」是「box — verb sport」的用法，與本句語境不同。"
+        "box-mcq-16": "本句的「boxed in」指「把某物圍住，使其難以移動」。",
+        "box-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-16"
     },
@@ -1745,11 +1605,9 @@ export default {
       "masked": "Tall buildings ____.",
       "options": [
         "box-mcq-16",
-        "box-mcq-15",
-        "box-mcq-17",
-        "box-mcq-14",
-        "box-mcq-18",
-        "box-mcq-13"
+        "box-mcq-19",
+        "box-mcq-20",
+        "box-mcq-10"
       ],
       "explanation": "本句的「boxed the courtyard in」指「把某物圍住，使其難以移動」。",
       "sentenceIndex": 35,
@@ -1758,12 +1616,10 @@ export default {
         "boxed the courtyard in"
       ],
       "optionReasons": {
-        "box-mcq-16": "本句指「把某物圍住，使其難以移動」。",
-        "box-mcq-15": "「拳擊手」是「boxer — athlete」的用法，與本句語境不同。",
-        "box-mcq-17": "「被困住；比喻受到選擇或行動限制」是「be boxed in」的用法，與本句語境不同。",
-        "box-mcq-14": "「拳擊運動」是「boxing」的用法，與本句語境不同。",
-        "box-mcq-18": "「把某人硬性歸入某一固定類別」是「box someone into a category」的用法，與本句語境不同。",
-        "box-mcq-13": "「進行拳擊／打拳」是「box — verb sport」的用法，與本句語境不同。"
+        "box-mcq-16": "本句的「boxed the courtyard in」指「把某物圍住，使其難以移動」。",
+        "box-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-16"
     },
@@ -1775,11 +1631,9 @@ export default {
       "masked": "I felt ____ by the narrow office.",
       "options": [
         "box-mcq-17",
-        "box-mcq-16",
-        "box-mcq-18",
-        "box-mcq-15",
-        "box-mcq-19",
-        "box-mcq-14"
+        "box-mcq-11",
+        "box-mcq-33",
+        "box-mcq-10"
       ],
       "explanation": "本句的「boxed in」指「被困住；比喻受到選擇或行動限制」。",
       "sentenceIndex": 36,
@@ -1788,12 +1642,10 @@ export default {
         "boxed in"
       ],
       "optionReasons": {
-        "box-mcq-17": "本句指「被困住；比喻受到選擇或行動限制」。",
-        "box-mcq-16": "「把某物圍住，使其難以移動」是「box something in」的用法，與本句語境不同。",
-        "box-mcq-18": "「把某人硬性歸入某一固定類別」是「box someone into a category」的用法，與本句語境不同。",
-        "box-mcq-15": "「拳擊手」是「boxer — athlete」的用法，與本句語境不同。",
-        "box-mcq-19": "「不受傳統框架限制地創意思考」是「think outside the box」的用法，與本句語境不同。",
-        "box-mcq-14": "「拳擊運動」是「boxing」的用法，與本句語境不同。"
+        "box-mcq-17": "本句的「boxed in」指「被困住；比喻受到選擇或行動限制」。",
+        "box-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-17"
     },
@@ -1805,11 +1657,9 @@ export default {
       "masked": "The rules left us feeling ____.",
       "options": [
         "box-mcq-17",
-        "box-mcq-16",
-        "box-mcq-18",
-        "box-mcq-15",
-        "box-mcq-19",
-        "box-mcq-14"
+        "box-mcq-03",
+        "box-mcq-30",
+        "box-mcq-02"
       ],
       "explanation": "本句的「boxed in」指「被困住；比喻受到選擇或行動限制」。",
       "sentenceIndex": 37,
@@ -1818,12 +1668,10 @@ export default {
         "boxed in"
       ],
       "optionReasons": {
-        "box-mcq-17": "本句指「被困住；比喻受到選擇或行動限制」。",
-        "box-mcq-16": "「把某物圍住，使其難以移動」是「box something in」的用法，與本句語境不同。",
-        "box-mcq-18": "「把某人硬性歸入某一固定類別」是「box someone into a category」的用法，與本句語境不同。",
-        "box-mcq-15": "「拳擊手」是「boxer — athlete」的用法，與本句語境不同。",
-        "box-mcq-19": "「不受傳統框架限制地創意思考」是「think outside the box」的用法，與本句語境不同。",
-        "box-mcq-14": "「拳擊運動」是「boxing」的用法，與本句語境不同。"
+        "box-mcq-17": "本句的「boxed in」指「被困住；比喻受到選擇或行動限制」。",
+        "box-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-17"
     },
@@ -1835,11 +1683,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "box-mcq-18",
-        "box-mcq-17",
         "box-mcq-19",
-        "box-mcq-16",
-        "box-mcq-20",
-        "box-mcq-15"
+        "box-mcq-13",
+        "box-mcq-21"
       ],
       "explanation": "本句的「box people into simple categories」指「把某人硬性歸入某一固定類別」。",
       "sentenceIndex": 38,
@@ -1848,12 +1694,10 @@ export default {
         "box people into simple categories"
       ],
       "optionReasons": {
-        "box-mcq-18": "本句指「把某人硬性歸入某一固定類別」。",
-        "box-mcq-17": "「被困住；比喻受到選擇或行動限制」是「be boxed in」的用法，與本句語境不同。",
-        "box-mcq-19": "「不受傳統框架限制地創意思考」是「think outside the box」的用法，與本句語境不同。",
-        "box-mcq-16": "「把某物圍住，使其難以移動」是「box something in」的用法，與本句語境不同。",
-        "box-mcq-20": "「符合所有要求或理想條件」是「tick all the boxes」的用法，與本句語境不同。",
-        "box-mcq-15": "「拳擊手」是「boxer — athlete」的用法，與本句語境不同。"
+        "box-mcq-18": "本句的「box people into simple categories」指「把某人硬性歸入某一固定類別」。",
+        "box-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-18"
     },
@@ -1865,11 +1709,9 @@ export default {
       "masked": "The label ____ creatively.",
       "options": [
         "box-mcq-18",
-        "box-mcq-17",
-        "box-mcq-19",
-        "box-mcq-16",
-        "box-mcq-20",
-        "box-mcq-15"
+        "box-mcq-06",
+        "box-mcq-05",
+        "box-mcq-12"
       ],
       "explanation": "本句的「boxed him in」指「把某人硬性歸入某一固定類別」。",
       "sentenceIndex": 39,
@@ -1878,12 +1720,10 @@ export default {
         "boxed him in"
       ],
       "optionReasons": {
-        "box-mcq-18": "本句指「把某人硬性歸入某一固定類別」。",
-        "box-mcq-17": "「被困住；比喻受到選擇或行動限制」是「be boxed in」的用法，與本句語境不同。",
-        "box-mcq-19": "「不受傳統框架限制地創意思考」是「think outside the box」的用法，與本句語境不同。",
-        "box-mcq-16": "「把某物圍住，使其難以移動」是「box something in」的用法，與本句語境不同。",
-        "box-mcq-20": "「符合所有要求或理想條件」是「tick all the boxes」的用法，與本句語境不同。",
-        "box-mcq-15": "「拳擊手」是「boxer — athlete」的用法，與本句語境不同。"
+        "box-mcq-18": "本句的「boxed him in」指「把某人硬性歸入某一固定類別」。",
+        "box-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-18"
     },
@@ -1895,11 +1735,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "box-mcq-19",
-        "box-mcq-18",
-        "box-mcq-20",
-        "box-mcq-17",
-        "box-mcq-21",
-        "box-mcq-16"
+        "box-mcq-27",
+        "box-mcq-13",
+        "box-mcq-18"
       ],
       "explanation": "本句的「think outside the box」指「不受傳統框架限制地創意思考」。",
       "sentenceIndex": 40,
@@ -1908,12 +1746,10 @@ export default {
         "think outside the box"
       ],
       "optionReasons": {
-        "box-mcq-19": "本句指「不受傳統框架限制地創意思考」。",
-        "box-mcq-18": "「把某人硬性歸入某一固定類別」是「box someone into a category」的用法，與本句語境不同。",
-        "box-mcq-20": "「符合所有要求或理想條件」是「tick all the boxes」的用法，與本句語境不同。",
-        "box-mcq-17": "「被困住；比喻受到選擇或行動限制」是「be boxed in」的用法，與本句語境不同。",
-        "box-mcq-21": "「只是為滿足形式要求而做；走形式」是「box-ticking / tick-box」的用法，與本句語境不同。",
-        "box-mcq-16": "「把某物圍住，使其難以移動」是「box something in」的用法，與本句語境不同。"
+        "box-mcq-19": "本句的「think outside the box」指「不受傳統框架限制地創意思考」。",
+        "box-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-19"
     },
@@ -1925,11 +1761,9 @@ export default {
       "masked": "She is good at ____.",
       "options": [
         "box-mcq-19",
-        "box-mcq-18",
-        "box-mcq-20",
-        "box-mcq-17",
-        "box-mcq-21",
-        "box-mcq-16"
+        "box-mcq-24",
+        "box-mcq-28",
+        "box-mcq-20"
       ],
       "explanation": "本句的「thinking outside the box」指「不受傳統框架限制地創意思考」。",
       "sentenceIndex": 41,
@@ -1938,12 +1772,10 @@ export default {
         "thinking outside the box"
       ],
       "optionReasons": {
-        "box-mcq-19": "本句指「不受傳統框架限制地創意思考」。",
-        "box-mcq-18": "「把某人硬性歸入某一固定類別」是「box someone into a category」的用法，與本句語境不同。",
-        "box-mcq-20": "「符合所有要求或理想條件」是「tick all the boxes」的用法，與本句語境不同。",
-        "box-mcq-17": "「被困住；比喻受到選擇或行動限制」是「be boxed in」的用法，與本句語境不同。",
-        "box-mcq-21": "「只是為滿足形式要求而做；走形式」是「box-ticking / tick-box」的用法，與本句語境不同。",
-        "box-mcq-16": "「把某物圍住，使其難以移動」是「box something in」的用法，與本句語境不同。"
+        "box-mcq-19": "本句的「thinking outside the box」指「不受傳統框架限制地創意思考」。",
+        "box-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-19"
     },
@@ -1955,11 +1787,9 @@ export default {
       "masked": "The candidate ____.",
       "options": [
         "box-mcq-20",
-        "box-mcq-19",
-        "box-mcq-21",
-        "box-mcq-18",
-        "box-mcq-22",
-        "box-mcq-17"
+        "box-mcq-07",
+        "box-mcq-17",
+        "box-mcq-31"
       ],
       "explanation": "本句的「ticks all the boxes」指「符合所有要求或理想條件」。",
       "sentenceIndex": 42,
@@ -1968,12 +1798,10 @@ export default {
         "ticks all the boxes"
       ],
       "optionReasons": {
-        "box-mcq-20": "本句指「符合所有要求或理想條件」。",
-        "box-mcq-19": "「不受傳統框架限制地創意思考」是「think outside the box」的用法，與本句語境不同。",
-        "box-mcq-21": "「只是為滿足形式要求而做；走形式」是「box-ticking / tick-box」的用法，與本句語境不同。",
-        "box-mcq-18": "「把某人硬性歸入某一固定類別」是「box someone into a category」的用法，與本句語境不同。",
-        "box-mcq-22": "「無需額外設定即可使用；開箱即用」是「out of the box — technical」的用法，與本句語境不同。",
-        "box-mcq-17": "「被困住；比喻受到選擇或行動限制」是「be boxed in」的用法，與本句語境不同。"
+        "box-mcq-20": "本句的「ticks all the boxes」指「符合所有要求或理想條件」。",
+        "box-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-20"
     },
@@ -1985,11 +1813,9 @@ export default {
       "masked": "The apartment ____ for us.",
       "options": [
         "box-mcq-20",
-        "box-mcq-19",
-        "box-mcq-21",
         "box-mcq-18",
-        "box-mcq-22",
-        "box-mcq-17"
+        "box-mcq-24",
+        "box-mcq-30"
       ],
       "explanation": "本句的「ticks almost every box」指「符合所有要求或理想條件」。",
       "sentenceIndex": 43,
@@ -1998,12 +1824,10 @@ export default {
         "ticks almost every box"
       ],
       "optionReasons": {
-        "box-mcq-20": "本句指「符合所有要求或理想條件」。",
-        "box-mcq-19": "「不受傳統框架限制地創意思考」是「think outside the box」的用法，與本句語境不同。",
-        "box-mcq-21": "「只是為滿足形式要求而做；走形式」是「box-ticking / tick-box」的用法，與本句語境不同。",
-        "box-mcq-18": "「把某人硬性歸入某一固定類別」是「box someone into a category」的用法，與本句語境不同。",
-        "box-mcq-22": "「無需額外設定即可使用；開箱即用」是「out of the box — technical」的用法，與本句語境不同。",
-        "box-mcq-17": "「被困住；比喻受到選擇或行動限制」是「be boxed in」的用法，與本句語境不同。"
+        "box-mcq-20": "本句的「ticks almost every box」指「符合所有要求或理想條件」。",
+        "box-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-20"
     },
@@ -2015,11 +1839,9 @@ export default {
       "masked": "The review became a ____.",
       "options": [
         "box-mcq-21",
-        "box-mcq-20",
-        "box-mcq-22",
-        "box-mcq-19",
-        "box-mcq-23",
-        "box-mcq-18"
+        "box-mcq-28",
+        "box-mcq-13",
+        "box-mcq-16"
       ],
       "explanation": "本句的「box-ticking exercise」指「只是為滿足形式要求而做；走形式」。",
       "sentenceIndex": 44,
@@ -2028,12 +1850,10 @@ export default {
         "box-ticking exercise"
       ],
       "optionReasons": {
-        "box-mcq-21": "本句指「只是為滿足形式要求而做；走形式」。",
-        "box-mcq-20": "「符合所有要求或理想條件」是「tick all the boxes」的用法，與本句語境不同。",
-        "box-mcq-22": "「無需額外設定即可使用；開箱即用」是「out of the box — technical」的用法，與本句語境不同。",
-        "box-mcq-19": "「不受傳統框架限制地創意思考」是「think outside the box」的用法，與本句語境不同。",
-        "box-mcq-23": "「售票處」是「box office — ticket sales」的用法，與本句語境不同。",
-        "box-mcq-18": "「把某人硬性歸入某一固定類別」是「box someone into a category」的用法，與本句語境不同。"
+        "box-mcq-21": "本句的「box-ticking exercise」指「只是為滿足形式要求而做；走形式」。",
+        "box-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-21"
     },
@@ -2045,11 +1865,9 @@ export default {
       "masked": "Training should not become a ____.",
       "options": [
         "box-mcq-21",
-        "box-mcq-20",
-        "box-mcq-22",
-        "box-mcq-19",
-        "box-mcq-23",
-        "box-mcq-18"
+        "box-mcq-31",
+        "box-mcq-05",
+        "box-mcq-24"
       ],
       "explanation": "本句的「tick-box exercise」指「只是為滿足形式要求而做；走形式」。",
       "sentenceIndex": 45,
@@ -2058,12 +1876,10 @@ export default {
         "tick-box exercise"
       ],
       "optionReasons": {
-        "box-mcq-21": "本句指「只是為滿足形式要求而做；走形式」。",
-        "box-mcq-20": "「符合所有要求或理想條件」是「tick all the boxes」的用法，與本句語境不同。",
-        "box-mcq-22": "「無需額外設定即可使用；開箱即用」是「out of the box — technical」的用法，與本句語境不同。",
-        "box-mcq-19": "「不受傳統框架限制地創意思考」是「think outside the box」的用法，與本句語境不同。",
-        "box-mcq-23": "「售票處」是「box office — ticket sales」的用法，與本句語境不同。",
-        "box-mcq-18": "「把某人硬性歸入某一固定類別」是「box someone into a category」的用法，與本句語境不同。"
+        "box-mcq-21": "本句的「tick-box exercise」指「只是為滿足形式要求而做；走形式」。",
+        "box-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-21"
     },
@@ -2075,11 +1891,9 @@ export default {
       "masked": "Tickets are available at the ____.",
       "options": [
         "box-mcq-23",
-        "box-mcq-22",
-        "box-mcq-24",
-        "box-mcq-21",
-        "box-mcq-25",
-        "box-mcq-20"
+        "box-mcq-27",
+        "box-mcq-17",
+        "box-mcq-06"
       ],
       "explanation": "本句的「box office」指「售票處」。",
       "sentenceIndex": 46,
@@ -2088,12 +1902,10 @@ export default {
         "box office"
       ],
       "optionReasons": {
-        "box-mcq-23": "本句指「售票處」。",
-        "box-mcq-22": "「無需額外設定即可使用；開箱即用」是「out of the box — technical」的用法，與本句語境不同。",
-        "box-mcq-24": "「電影／演出的票房收入或市場表現」是「box office — commercial performance」的用法，與本句語境不同。",
-        "box-mcq-21": "「只是為滿足形式要求而做；走形式」是「box-ticking / tick-box」的用法，與本句語境不同。",
-        "box-mcq-25": "「飛行紀錄器；黑盒」是「black box — aircraft」的用法，與本句語境不同。",
-        "box-mcq-20": "「符合所有要求或理想條件」是「tick all the boxes」的用法，與本句語境不同。"
+        "box-mcq-23": "本句的「box office」指「售票處」。",
+        "box-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-23"
     },
@@ -2105,11 +1917,9 @@ export default {
       "masked": "The film performed well at the ____.",
       "options": [
         "box-mcq-23",
-        "box-mcq-22",
-        "box-mcq-24",
+        "box-mcq-02",
         "box-mcq-21",
-        "box-mcq-25",
-        "box-mcq-20"
+        "box-mcq-32"
       ],
       "explanation": "本句的「box office」指「售票處」。",
       "sentenceIndex": 47,
@@ -2118,12 +1928,10 @@ export default {
         "box office"
       ],
       "optionReasons": {
-        "box-mcq-23": "本句指「售票處」。",
-        "box-mcq-22": "「無需額外設定即可使用；開箱即用」是「out of the box — technical」的用法，與本句語境不同。",
-        "box-mcq-24": "「電影／演出的票房收入或市場表現」是「box office — commercial performance」的用法，與本句語境不同。",
-        "box-mcq-21": "「只是為滿足形式要求而做；走形式」是「box-ticking / tick-box」的用法，與本句語境不同。",
-        "box-mcq-25": "「飛行紀錄器；黑盒」是「black box — aircraft」的用法，與本句語境不同。",
-        "box-mcq-20": "「符合所有要求或理想條件」是「tick all the boxes」的用法，與本句語境不同。"
+        "box-mcq-23": "本句的「box office」指「售票處」。",
+        "box-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-23"
     },
@@ -2135,11 +1943,9 @@ export default {
       "masked": "The film became a ____.",
       "options": [
         "box-mcq-24",
-        "box-mcq-23",
-        "box-mcq-25",
-        "box-mcq-22",
-        "box-mcq-26",
-        "box-mcq-21"
+        "box-mcq-19",
+        "box-mcq-21",
+        "box-mcq-30"
       ],
       "explanation": "本句的「box-office hit」指「電影／演出的票房收入或市場表現」。",
       "sentenceIndex": 48,
@@ -2148,12 +1954,10 @@ export default {
         "box-office hit"
       ],
       "optionReasons": {
-        "box-mcq-24": "本句指「電影／演出的票房收入或市場表現」。",
-        "box-mcq-23": "「售票處」是「box office — ticket sales」的用法，與本句語境不同。",
-        "box-mcq-25": "「飛行紀錄器；黑盒」是「black box — aircraft」的用法，與本句語境不同。",
-        "box-mcq-22": "「無需額外設定即可使用；開箱即用」是「out of the box — technical」的用法，與本句語境不同。",
-        "box-mcq-26": "「內部運作不可見或難以理解的黑箱系統」是「black box — figurative/technical」的用法，與本句語境不同。",
-        "box-mcq-21": "「只是為滿足形式要求而做；走形式」是「box-ticking / tick-box」的用法，與本句語境不同。"
+        "box-mcq-24": "本句的「box-office hit」指「電影／演出的票房收入或市場表現」。",
+        "box-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-24"
     },
@@ -2165,11 +1969,9 @@ export default {
       "masked": "It was a major ____.",
       "options": [
         "box-mcq-24",
-        "box-mcq-23",
-        "box-mcq-25",
-        "box-mcq-22",
-        "box-mcq-26",
-        "box-mcq-21"
+        "box-mcq-11",
+        "box-mcq-16",
+        "box-mcq-30"
       ],
       "explanation": "本句的「box-office success」指「電影／演出的票房收入或市場表現」。",
       "sentenceIndex": 49,
@@ -2178,12 +1980,10 @@ export default {
         "box-office success"
       ],
       "optionReasons": {
-        "box-mcq-24": "本句指「電影／演出的票房收入或市場表現」。",
-        "box-mcq-23": "「售票處」是「box office — ticket sales」的用法，與本句語境不同。",
-        "box-mcq-25": "「飛行紀錄器；黑盒」是「black box — aircraft」的用法，與本句語境不同。",
-        "box-mcq-22": "「無需額外設定即可使用；開箱即用」是「out of the box — technical」的用法，與本句語境不同。",
-        "box-mcq-26": "「內部運作不可見或難以理解的黑箱系統」是「black box — figurative/technical」的用法，與本句語境不同。",
-        "box-mcq-21": "「只是為滿足形式要求而做；走形式」是「box-ticking / tick-box」的用法，與本句語境不同。"
+        "box-mcq-24": "本句的「box-office success」指「電影／演出的票房收入或市場表現」。",
+        "box-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-24"
     },
@@ -2195,11 +1995,9 @@ export default {
       "masked": "My ____ is full.",
       "options": [
         "box-mcq-27",
-        "box-mcq-26",
         "box-mcq-28",
-        "box-mcq-25",
-        "box-mcq-29",
-        "box-mcq-24"
+        "box-mcq-30",
+        "box-mcq-06"
       ],
       "explanation": "本句的「inbox」指「收取新訊息的收件匣」。",
       "sentenceIndex": 50,
@@ -2208,12 +2006,10 @@ export default {
         "inbox"
       ],
       "optionReasons": {
-        "box-mcq-27": "本句指「收取新訊息的收件匣」。",
-        "box-mcq-26": "「內部運作不可見或難以理解的黑箱系統」是「black box — figurative/technical」的用法，與本句語境不同。",
-        "box-mcq-28": "「實體信箱；也可指電子／語音信箱」是「mailbox」的用法，與本句語境不同。",
-        "box-mcq-25": "「飛行紀錄器；黑盒」是「black box — aircraft」的用法，與本句語境不同。",
-        "box-mcq-29": "「被裝進盒中；亦可指被圍困／限制」是「boxed」的用法，與本句語境不同。",
-        "box-mcq-24": "「電影／演出的票房收入或市場表現」是「box office — commercial performance」的用法，與本句語境不同。"
+        "box-mcq-27": "本句的「inbox」指「收取新訊息的收件匣」。",
+        "box-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-27"
     },
@@ -2225,11 +2021,9 @@ export default {
       "masked": "Check your email ____.",
       "options": [
         "box-mcq-27",
-        "box-mcq-26",
-        "box-mcq-28",
-        "box-mcq-25",
-        "box-mcq-29",
-        "box-mcq-24"
+        "box-mcq-30",
+        "box-mcq-02",
+        "box-mcq-23"
       ],
       "explanation": "本句的「inbox」指「收取新訊息的收件匣」。",
       "sentenceIndex": 51,
@@ -2238,12 +2032,10 @@ export default {
         "inbox"
       ],
       "optionReasons": {
-        "box-mcq-27": "本句指「收取新訊息的收件匣」。",
-        "box-mcq-26": "「內部運作不可見或難以理解的黑箱系統」是「black box — figurative/technical」的用法，與本句語境不同。",
-        "box-mcq-28": "「實體信箱；也可指電子／語音信箱」是「mailbox」的用法，與本句語境不同。",
-        "box-mcq-25": "「飛行紀錄器；黑盒」是「black box — aircraft」的用法，與本句語境不同。",
-        "box-mcq-29": "「被裝進盒中；亦可指被圍困／限制」是「boxed」的用法，與本句語境不同。",
-        "box-mcq-24": "「電影／演出的票房收入或市場表現」是「box office — commercial performance」的用法，與本句語境不同。"
+        "box-mcq-27": "本句的「inbox」指「收取新訊息的收件匣」。",
+        "box-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-27"
     },
@@ -2255,11 +2047,9 @@ export default {
       "masked": "The letter was in the ____.",
       "options": [
         "box-mcq-28",
-        "box-mcq-27",
-        "box-mcq-29",
-        "box-mcq-26",
+        "box-mcq-14",
         "box-mcq-30",
-        "box-mcq-25"
+        "box-mcq-23"
       ],
       "explanation": "本句的「mailbox」指「實體信箱；也可指電子／語音信箱」。",
       "sentenceIndex": 52,
@@ -2268,12 +2058,10 @@ export default {
         "mailbox"
       ],
       "optionReasons": {
-        "box-mcq-28": "本句指「實體信箱；也可指電子／語音信箱」。",
-        "box-mcq-27": "「收取新訊息的收件匣」是「inbox」的用法，與本句語境不同。",
-        "box-mcq-29": "「被裝進盒中；亦可指被圍困／限制」是「boxed」的用法，與本句語境不同。",
-        "box-mcq-26": "「內部運作不可見或難以理解的黑箱系統」是「black box — figurative/technical」的用法，與本句語境不同。",
-        "box-mcq-30": "「外形四四方方、方正或略顯笨重的」是「boxy」的用法，與本句語境不同。",
-        "box-mcq-25": "「飛行紀錄器；黑盒」是「black box — aircraft」的用法，與本句語境不同。"
+        "box-mcq-28": "本句的「mailbox」指「實體信箱；也可指電子／語音信箱」。",
+        "box-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-28"
     },
@@ -2286,10 +2074,8 @@ export default {
       "options": [
         "box-mcq-28",
         "box-mcq-27",
-        "box-mcq-29",
-        "box-mcq-26",
         "box-mcq-30",
-        "box-mcq-25"
+        "box-mcq-04"
       ],
       "explanation": "本句的「mailbox」指「實體信箱；也可指電子／語音信箱」。",
       "sentenceIndex": 53,
@@ -2298,12 +2084,10 @@ export default {
         "mailbox"
       ],
       "optionReasons": {
-        "box-mcq-28": "本句指「實體信箱；也可指電子／語音信箱」。",
-        "box-mcq-27": "「收取新訊息的收件匣」是「inbox」的用法，與本句語境不同。",
-        "box-mcq-29": "「被裝進盒中；亦可指被圍困／限制」是「boxed」的用法，與本句語境不同。",
-        "box-mcq-26": "「內部運作不可見或難以理解的黑箱系統」是「black box — figurative/technical」的用法，與本句語境不同。",
-        "box-mcq-30": "「外形四四方方、方正或略顯笨重的」是「boxy」的用法，與本句語境不同。",
-        "box-mcq-25": "「飛行紀錄器；黑盒」是「black box — aircraft」的用法，與本句語境不同。"
+        "box-mcq-28": "本句的「mailbox」指「實體信箱；也可指電子／語音信箱」。",
+        "box-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-28"
     },
@@ -2315,11 +2099,9 @@ export default {
       "masked": "The car has a ____.",
       "options": [
         "box-mcq-30",
-        "box-mcq-29",
-        "box-mcq-31",
-        "box-mcq-28",
-        "box-mcq-32",
-        "box-mcq-27"
+        "box-mcq-18",
+        "box-mcq-11",
+        "box-mcq-13"
       ],
       "explanation": "本句的「boxy design」指「外形四四方方、方正或略顯笨重的」。",
       "sentenceIndex": 54,
@@ -2328,12 +2110,10 @@ export default {
         "boxy design"
       ],
       "optionReasons": {
-        "box-mcq-30": "本句指「外形四四方方、方正或略顯笨重的」。",
-        "box-mcq-29": "「被裝進盒中；亦可指被圍困／限制」是「boxed」的用法，與本句語境不同。",
-        "box-mcq-31": "「表示方框；文字框；欄位」是「10. box — rectangular area on a screen」的用法，與本句語境不同。",
-        "box-mcq-28": "「實體信箱；也可指電子／語音信箱」是「mailbox」的用法，與本句語境不同。",
-        "box-mcq-32": "「表示小禁區；球門區」是「14. six-yard box」的用法，與本句語境不同。",
-        "box-mcq-27": "「收取新訊息的收件匣」是「inbox」的用法，與本句語境不同。"
+        "box-mcq-30": "本句的「boxy design」指「外形四四方方、方正或略顯笨重的」。",
+        "box-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-30"
     },
@@ -2345,11 +2125,9 @@ export default {
       "masked": "The jacket looked too ____ on him.",
       "options": [
         "box-mcq-30",
-        "box-mcq-29",
-        "box-mcq-31",
-        "box-mcq-28",
-        "box-mcq-32",
-        "box-mcq-27"
+        "box-mcq-03",
+        "box-mcq-18",
+        "box-mcq-23"
       ],
       "explanation": "本句的「boxy」指「外形四四方方、方正或略顯笨重的」。",
       "sentenceIndex": 55,
@@ -2358,12 +2136,10 @@ export default {
         "boxy"
       ],
       "optionReasons": {
-        "box-mcq-30": "本句指「外形四四方方、方正或略顯笨重的」。",
-        "box-mcq-29": "「被裝進盒中；亦可指被圍困／限制」是「boxed」的用法，與本句語境不同。",
-        "box-mcq-31": "「表示方框；文字框；欄位」是「10. box — rectangular area on a screen」的用法，與本句語境不同。",
-        "box-mcq-28": "「實體信箱；也可指電子／語音信箱」是「mailbox」的用法，與本句語境不同。",
-        "box-mcq-32": "「表示小禁區；球門區」是「14. six-yard box」的用法，與本句語境不同。",
-        "box-mcq-27": "「收取新訊息的收件匣」是「inbox」的用法，與本句語境不同。"
+        "box-mcq-30": "本句的「boxy」指「外形四四方方、方正或略顯笨重的」。",
+        "box-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-30"
     },
@@ -2375,11 +2151,9 @@ export default {
       "masked": "She donated a ____.",
       "options": [
         "box-mcq-33",
-        "box-mcq-32",
-        "box-mcq-31",
-        "box-mcq-30",
-        "box-mcq-29",
-        "box-mcq-28"
+        "box-mcq-10",
+        "box-mcq-16",
+        "box-mcq-23"
       ],
       "explanation": "本句的「boxful of books」指「表示一盒／一箱的量」。",
       "sentenceIndex": 56,
@@ -2388,12 +2162,10 @@ export default {
         "boxful of books"
       ],
       "optionReasons": {
-        "box-mcq-33": "本句指「表示一盒／一箱的量」。",
-        "box-mcq-32": "「表示小禁區；球門區」是「14. six-yard box」的用法，與本句語境不同。",
-        "box-mcq-31": "「表示方框；文字框；欄位」是「10. box — rectangular area on a screen」的用法，與本句語境不同。",
-        "box-mcq-30": "「外形四四方方、方正或略顯笨重的」是「boxy」的用法，與本句語境不同。",
-        "box-mcq-29": "「被裝進盒中；亦可指被圍困／限制」是「boxed」的用法，與本句語境不同。",
-        "box-mcq-28": "「實體信箱；也可指電子／語音信箱」是「mailbox」的用法，與本句語境不同。"
+        "box-mcq-33": "本句的「boxful of books」指「表示一盒／一箱的量」。",
+        "box-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-33"
     },
@@ -2406,10 +2178,8 @@ export default {
       "options": [
         "box-mcq-33",
         "box-mcq-32",
-        "box-mcq-31",
-        "box-mcq-30",
-        "box-mcq-29",
-        "box-mcq-28"
+        "box-mcq-19",
+        "box-mcq-20"
       ],
       "explanation": "本句的「boxful of old records」指「表示一盒／一箱的量」。",
       "sentenceIndex": 57,
@@ -2418,12 +2188,10 @@ export default {
         "boxful of old records"
       ],
       "optionReasons": {
-        "box-mcq-33": "本句指「表示一盒／一箱的量」。",
-        "box-mcq-32": "「表示小禁區；球門區」是「14. six-yard box」的用法，與本句語境不同。",
-        "box-mcq-31": "「表示方框；文字框；欄位」是「10. box — rectangular area on a screen」的用法，與本句語境不同。",
-        "box-mcq-30": "「外形四四方方、方正或略顯笨重的」是「boxy」的用法，與本句語境不同。",
-        "box-mcq-29": "「被裝進盒中；亦可指被圍困／限制」是「boxed」的用法，與本句語境不同。",
-        "box-mcq-28": "「實體信箱；也可指電子／語音信箱」是「mailbox」的用法，與本句語境不同。"
+        "box-mcq-33": "本句的「boxful of old records」指「表示一盒／一箱的量」。",
+        "box-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "box-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "box-mcq-33"
     }
@@ -2435,5 +2203,7 @@ export default {
     "sha256": "cf96d9659806085487abc23c0fe0f7f06b3678b51e942255c990b6de13442bcb",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -399,11 +399,9 @@ export default {
       "masked": "Call this number in an ____.",
       "options": [
         "emergency-mcq-01",
-        "emergency-mcq-02",
-        "emergency-mcq-03",
         "emergency-mcq-04",
-        "emergency-mcq-05",
-        "emergency-mcq-06"
+        "emergency-mcq-16",
+        "emergency-mcq-03"
       ],
       "explanation": "本句的「emergency」指「緊急情況；危急事故」。",
       "sentenceIndex": 0,
@@ -412,12 +410,10 @@ export default {
         "emergency"
       ],
       "optionReasons": {
-        "emergency-mcq-01": "本句指「緊急情況；危急事故」。",
-        "emergency-mcq-02": "「在緊急情況下」與本句語境不同。",
-        "emergency-mcq-03": "「醫療急症」與本句語境不同。",
-        "emergency-mcq-04": "「家庭突發事件」與本句語境不同。",
-        "emergency-mcq-05": "「緊急服務」與本句語境不同。",
-        "emergency-mcq-06": "「急症室」與本句語境不同。"
+        "emergency-mcq-01": "本句的「emergency」指「緊急情況；危急事故」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-01"
     },
@@ -429,11 +425,9 @@ export default {
       "masked": "The hospital is prepared for medical ____.",
       "options": [
         "emergency-mcq-01",
-        "emergency-mcq-02",
-        "emergency-mcq-03",
         "emergency-mcq-04",
-        "emergency-mcq-05",
-        "emergency-mcq-06"
+        "emergency-mcq-16",
+        "emergency-mcq-12"
       ],
       "explanation": "本句的「emergencies」指「緊急情況；危急事故」。",
       "sentenceIndex": 1,
@@ -442,12 +436,10 @@ export default {
         "emergencies"
       ],
       "optionReasons": {
-        "emergency-mcq-01": "本句指「緊急情況；危急事故」。",
-        "emergency-mcq-02": "「在緊急情況下」與本句語境不同。",
-        "emergency-mcq-03": "「醫療急症」與本句語境不同。",
-        "emergency-mcq-04": "「家庭突發事件」與本句語境不同。",
-        "emergency-mcq-05": "「緊急服務」與本句語境不同。",
-        "emergency-mcq-06": "「急症室」與本句語境不同。"
+        "emergency-mcq-01": "本句的「emergencies」指「緊急情況；危急事故」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-01"
     },
@@ -459,11 +451,9 @@ export default {
       "masked": "We need a clear plan for ____.",
       "options": [
         "emergency-mcq-01",
-        "emergency-mcq-02",
-        "emergency-mcq-03",
         "emergency-mcq-04",
-        "emergency-mcq-05",
-        "emergency-mcq-06"
+        "emergency-mcq-03",
+        "emergency-mcq-12"
       ],
       "explanation": "本句的「emergencies」指「緊急情況；危急事故」。",
       "sentenceIndex": 2,
@@ -472,12 +462,10 @@ export default {
         "emergencies"
       ],
       "optionReasons": {
-        "emergency-mcq-01": "本句指「緊急情況；危急事故」。",
-        "emergency-mcq-02": "「在緊急情況下」與本句語境不同。",
-        "emergency-mcq-03": "「醫療急症」與本句語境不同。",
-        "emergency-mcq-04": "「家庭突發事件」與本句語境不同。",
-        "emergency-mcq-05": "「緊急服務」與本句語境不同。",
-        "emergency-mcq-06": "「急症室」與本句語境不同。"
+        "emergency-mcq-01": "本句的「emergencies」指「緊急情況；危急事故」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-01"
     },
@@ -489,11 +477,8 @@ export default {
       "masked": "Use this door only ____.",
       "options": [
         "emergency-mcq-02",
-        "emergency-mcq-01",
-        "emergency-mcq-03",
-        "emergency-mcq-04",
-        "emergency-mcq-05",
-        "emergency-mcq-06"
+        "emergency-mcq-16",
+        "emergency-mcq-04"
       ],
       "explanation": "本句的「in an emergency」指「在緊急情況下」。",
       "sentenceIndex": 3,
@@ -502,12 +487,9 @@ export default {
         "in an emergency"
       ],
       "optionReasons": {
-        "emergency-mcq-02": "本句指「在緊急情況下」。",
-        "emergency-mcq-01": "「緊急情況；危急事故」與本句語境不同。",
-        "emergency-mcq-03": "「醫療急症」與本句語境不同。",
-        "emergency-mcq-04": "「家庭突發事件」與本句語境不同。",
-        "emergency-mcq-05": "「緊急服務」與本句語境不同。",
-        "emergency-mcq-06": "「急症室」與本句語境不同。"
+        "emergency-mcq-02": "本句的「in an emergency」指「在緊急情況下」。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-02"
     },
@@ -519,11 +501,8 @@ export default {
       "masked": "Everyone should know what to do ____.",
       "options": [
         "emergency-mcq-02",
-        "emergency-mcq-01",
-        "emergency-mcq-03",
         "emergency-mcq-04",
-        "emergency-mcq-05",
-        "emergency-mcq-06"
+        "emergency-mcq-16"
       ],
       "explanation": "本句的「in an emergency」指「在緊急情況下」。",
       "sentenceIndex": 4,
@@ -532,12 +511,9 @@ export default {
         "in an emergency"
       ],
       "optionReasons": {
-        "emergency-mcq-02": "本句指「在緊急情況下」。",
-        "emergency-mcq-01": "「緊急情況；危急事故」與本句語境不同。",
-        "emergency-mcq-03": "「醫療急症」與本句語境不同。",
-        "emergency-mcq-04": "「家庭突發事件」與本句語境不同。",
-        "emergency-mcq-05": "「緊急服務」與本句語境不同。",
-        "emergency-mcq-06": "「急症室」與本句語境不同。"
+        "emergency-mcq-02": "本句的「in an emergency」指「在緊急情況下」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-02"
     },
@@ -549,11 +525,9 @@ export default {
       "masked": "She was taken to hospital after a ____.",
       "options": [
         "emergency-mcq-03",
-        "emergency-mcq-02",
+        "emergency-mcq-16",
         "emergency-mcq-04",
-        "emergency-mcq-01",
-        "emergency-mcq-05",
-        "emergency-mcq-06"
+        "emergency-mcq-09"
       ],
       "explanation": "本句的「medical emergency」指「醫療急症」。",
       "sentenceIndex": 5,
@@ -562,12 +536,10 @@ export default {
         "medical emergency"
       ],
       "optionReasons": {
-        "emergency-mcq-03": "本句指「醫療急症」。",
-        "emergency-mcq-02": "「在緊急情況下」與本句語境不同。",
-        "emergency-mcq-04": "「家庭突發事件」與本句語境不同。",
-        "emergency-mcq-01": "「緊急情況；危急事故」與本句語境不同。",
-        "emergency-mcq-05": "「緊急服務」與本句語境不同。",
-        "emergency-mcq-06": "「急症室」與本句語境不同。"
+        "emergency-mcq-03": "本句的「medical emergency」指「醫療急症」。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-03"
     },
@@ -579,11 +551,9 @@ export default {
       "masked": "Chest pain can sometimes signal a ____.",
       "options": [
         "emergency-mcq-03",
-        "emergency-mcq-02",
+        "emergency-mcq-16",
         "emergency-mcq-04",
-        "emergency-mcq-01",
-        "emergency-mcq-05",
-        "emergency-mcq-06"
+        "emergency-mcq-08"
       ],
       "explanation": "本句的「medical emergency」指「醫療急症」。",
       "sentenceIndex": 6,
@@ -592,12 +562,10 @@ export default {
         "medical emergency"
       ],
       "optionReasons": {
-        "emergency-mcq-03": "本句指「醫療急症」。",
-        "emergency-mcq-02": "「在緊急情況下」與本句語境不同。",
-        "emergency-mcq-04": "「家庭突發事件」與本句語境不同。",
-        "emergency-mcq-01": "「緊急情況；危急事故」與本句語境不同。",
-        "emergency-mcq-05": "「緊急服務」與本句語境不同。",
-        "emergency-mcq-06": "「急症室」與本句語境不同。"
+        "emergency-mcq-03": "本句的「medical emergency」指「醫療急症」。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-03"
     },
@@ -609,11 +577,9 @@ export default {
       "masked": "He left work early because of a ____.",
       "options": [
         "emergency-mcq-04",
-        "emergency-mcq-03",
-        "emergency-mcq-05",
-        "emergency-mcq-02",
-        "emergency-mcq-06",
-        "emergency-mcq-01"
+        "emergency-mcq-16",
+        "emergency-mcq-07",
+        "emergency-mcq-12"
       ],
       "explanation": "本句的「family emergency」指「家庭突發事件」。",
       "sentenceIndex": 7,
@@ -622,12 +588,10 @@ export default {
         "family emergency"
       ],
       "optionReasons": {
-        "emergency-mcq-04": "本句指「家庭突發事件」。",
-        "emergency-mcq-03": "「醫療急症」與本句語境不同。",
-        "emergency-mcq-05": "「緊急服務」與本句語境不同。",
-        "emergency-mcq-02": "「在緊急情況下」與本句語境不同。",
-        "emergency-mcq-06": "「急症室」與本句語境不同。",
-        "emergency-mcq-01": "「緊急情況；危急事故」與本句語境不同。"
+        "emergency-mcq-04": "本句的「family emergency」指「家庭突發事件」。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-04"
     },
@@ -639,11 +603,9 @@ export default {
       "masked": "I may need to cancel if there is a ____.",
       "options": [
         "emergency-mcq-04",
+        "emergency-mcq-10",
         "emergency-mcq-03",
-        "emergency-mcq-05",
-        "emergency-mcq-02",
-        "emergency-mcq-06",
-        "emergency-mcq-01"
+        "emergency-mcq-16"
       ],
       "explanation": "本句的「family emergency」指「家庭突發事件」。",
       "sentenceIndex": 8,
@@ -652,12 +614,10 @@ export default {
         "family emergency"
       ],
       "optionReasons": {
-        "emergency-mcq-04": "本句指「家庭突發事件」。",
-        "emergency-mcq-03": "「醫療急症」與本句語境不同。",
-        "emergency-mcq-05": "「緊急服務」與本句語境不同。",
-        "emergency-mcq-02": "「在緊急情況下」與本句語境不同。",
-        "emergency-mcq-06": "「急症室」與本句語境不同。",
-        "emergency-mcq-01": "「緊急情況；危急事故」與本句語境不同。"
+        "emergency-mcq-04": "本句的「family emergency」指「家庭突發事件」。",
+        "emergency-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-04"
     },
@@ -670,10 +630,8 @@ export default {
       "options": [
         "emergency-mcq-05",
         "emergency-mcq-04",
-        "emergency-mcq-06",
-        "emergency-mcq-03",
-        "emergency-mcq-07",
-        "emergency-mcq-02"
+        "emergency-mcq-16",
+        "emergency-mcq-03"
       ],
       "explanation": "本句的「emergency services」指「緊急服務」。",
       "sentenceIndex": 9,
@@ -682,12 +640,10 @@ export default {
         "emergency services"
       ],
       "optionReasons": {
-        "emergency-mcq-05": "本句指「緊急服務」。",
-        "emergency-mcq-04": "「家庭突發事件」與本句語境不同。",
-        "emergency-mcq-06": "「急症室」與本句語境不同。",
-        "emergency-mcq-03": "「醫療急症」與本句語境不同。",
-        "emergency-mcq-07": "「緊急出口」與本句語境不同。",
-        "emergency-mcq-02": "「在緊急情況下」與本句語境不同。"
+        "emergency-mcq-05": "本句的「emergency services」指「緊急服務」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-05"
     },
@@ -699,11 +655,9 @@ export default {
       "masked": "Call the ____ if someone is in immediate danger.",
       "options": [
         "emergency-mcq-05",
+        "emergency-mcq-16",
         "emergency-mcq-04",
-        "emergency-mcq-06",
-        "emergency-mcq-03",
-        "emergency-mcq-07",
-        "emergency-mcq-02"
+        "emergency-mcq-03"
       ],
       "explanation": "本句的「emergency services」指「緊急服務」。",
       "sentenceIndex": 10,
@@ -712,12 +666,10 @@ export default {
         "emergency services"
       ],
       "optionReasons": {
-        "emergency-mcq-05": "本句指「緊急服務」。",
-        "emergency-mcq-04": "「家庭突發事件」與本句語境不同。",
-        "emergency-mcq-06": "「急症室」與本句語境不同。",
-        "emergency-mcq-03": "「醫療急症」與本句語境不同。",
-        "emergency-mcq-07": "「緊急出口」與本句語境不同。",
-        "emergency-mcq-02": "「在緊急情況下」與本句語境不同。"
+        "emergency-mcq-05": "本句的「emergency services」指「緊急服務」。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-05"
     },
@@ -729,11 +681,8 @@ export default {
       "masked": "He was taken to the ____.",
       "options": [
         "emergency-mcq-06",
-        "emergency-mcq-05",
-        "emergency-mcq-07",
         "emergency-mcq-04",
-        "emergency-mcq-08",
-        "emergency-mcq-03"
+        "emergency-mcq-16"
       ],
       "explanation": "本句的「emergency room」指「急症室」。",
       "sentenceIndex": 11,
@@ -742,12 +691,9 @@ export default {
         "emergency room"
       ],
       "optionReasons": {
-        "emergency-mcq-06": "本句指「急症室」。",
-        "emergency-mcq-05": "「緊急服務」與本句語境不同。",
-        "emergency-mcq-07": "「緊急出口」與本句語境不同。",
-        "emergency-mcq-04": "「家庭突發事件」與本句語境不同。",
-        "emergency-mcq-08": "「緊急聯絡人」與本句語境不同。",
-        "emergency-mcq-03": "「醫療急症」與本句語境不同。"
+        "emergency-mcq-06": "本句的「emergency room」指「急症室」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-06"
     },
@@ -759,11 +705,8 @@ export default {
       "masked": "The ____ was extremely busy.",
       "options": [
         "emergency-mcq-06",
-        "emergency-mcq-05",
-        "emergency-mcq-07",
-        "emergency-mcq-04",
-        "emergency-mcq-08",
-        "emergency-mcq-03"
+        "emergency-mcq-16",
+        "emergency-mcq-04"
       ],
       "explanation": "本句的「emergency department」指「急症室」。",
       "sentenceIndex": 12,
@@ -772,12 +715,9 @@ export default {
         "emergency department"
       ],
       "optionReasons": {
-        "emergency-mcq-06": "本句指「急症室」。",
-        "emergency-mcq-05": "「緊急服務」與本句語境不同。",
-        "emergency-mcq-07": "「緊急出口」與本句語境不同。",
-        "emergency-mcq-04": "「家庭突發事件」與本句語境不同。",
-        "emergency-mcq-08": "「緊急聯絡人」與本句語境不同。",
-        "emergency-mcq-03": "「醫療急症」與本句語境不同。"
+        "emergency-mcq-06": "本句的「emergency department」指「急症室」。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-06"
     },
@@ -789,11 +729,9 @@ export default {
       "masked": "Keep the ____ clear.",
       "options": [
         "emergency-mcq-07",
-        "emergency-mcq-06",
-        "emergency-mcq-08",
-        "emergency-mcq-05",
-        "emergency-mcq-09",
-        "emergency-mcq-04"
+        "emergency-mcq-16",
+        "emergency-mcq-04",
+        "emergency-mcq-03"
       ],
       "explanation": "本句的「emergency exit」指「緊急出口」。",
       "sentenceIndex": 13,
@@ -802,12 +740,10 @@ export default {
         "emergency exit"
       ],
       "optionReasons": {
-        "emergency-mcq-07": "本句指「緊急出口」。",
-        "emergency-mcq-06": "「急症室」與本句語境不同。",
-        "emergency-mcq-08": "「緊急聯絡人」與本句語境不同。",
-        "emergency-mcq-05": "「緊急服務」與本句語境不同。",
-        "emergency-mcq-09": "「緊急電話號碼」與本句語境不同。",
-        "emergency-mcq-04": "「家庭突發事件」與本句語境不同。"
+        "emergency-mcq-07": "本句的「emergency exit」指「緊急出口」。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-07"
     },
@@ -819,11 +755,9 @@ export default {
       "masked": "Follow the signs to the nearest ____.",
       "options": [
         "emergency-mcq-07",
-        "emergency-mcq-06",
-        "emergency-mcq-08",
-        "emergency-mcq-05",
-        "emergency-mcq-09",
-        "emergency-mcq-04"
+        "emergency-mcq-16",
+        "emergency-mcq-04",
+        "emergency-mcq-03"
       ],
       "explanation": "本句的「emergency exit」指「緊急出口」。",
       "sentenceIndex": 14,
@@ -832,12 +766,10 @@ export default {
         "emergency exit"
       ],
       "optionReasons": {
-        "emergency-mcq-07": "本句指「緊急出口」。",
-        "emergency-mcq-06": "「急症室」與本句語境不同。",
-        "emergency-mcq-08": "「緊急聯絡人」與本句語境不同。",
-        "emergency-mcq-05": "「緊急服務」與本句語境不同。",
-        "emergency-mcq-09": "「緊急電話號碼」與本句語境不同。",
-        "emergency-mcq-04": "「家庭突發事件」與本句語境不同。"
+        "emergency-mcq-07": "本句的「emergency exit」指「緊急出口」。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-07"
     },
@@ -849,11 +781,9 @@ export default {
       "masked": "Please provide an ____.",
       "options": [
         "emergency-mcq-08",
-        "emergency-mcq-07",
-        "emergency-mcq-09",
-        "emergency-mcq-06",
-        "emergency-mcq-10",
-        "emergency-mcq-05"
+        "emergency-mcq-04",
+        "emergency-mcq-16",
+        "emergency-mcq-12"
       ],
       "explanation": "本句的「emergency contact」指「緊急聯絡人」。",
       "sentenceIndex": 15,
@@ -862,12 +792,10 @@ export default {
         "emergency contact"
       ],
       "optionReasons": {
-        "emergency-mcq-08": "本句指「緊急聯絡人」。",
-        "emergency-mcq-07": "「緊急出口」與本句語境不同。",
-        "emergency-mcq-09": "「緊急電話號碼」與本句語境不同。",
-        "emergency-mcq-06": "「急症室」與本句語境不同。",
-        "emergency-mcq-10": "「緊急應變」與本句語境不同。",
-        "emergency-mcq-05": "「緊急服務」與本句語境不同。"
+        "emergency-mcq-08": "本句的「emergency contact」指「緊急聯絡人」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-08"
     },
@@ -879,11 +807,9 @@ export default {
       "masked": "Her sister is listed as her ____.",
       "options": [
         "emergency-mcq-08",
-        "emergency-mcq-07",
-        "emergency-mcq-09",
-        "emergency-mcq-06",
-        "emergency-mcq-10",
-        "emergency-mcq-05"
+        "emergency-mcq-16",
+        "emergency-mcq-04",
+        "emergency-mcq-03"
       ],
       "explanation": "本句的「emergency contact」指「緊急聯絡人」。",
       "sentenceIndex": 16,
@@ -892,12 +818,10 @@ export default {
         "emergency contact"
       ],
       "optionReasons": {
-        "emergency-mcq-08": "本句指「緊急聯絡人」。",
-        "emergency-mcq-07": "「緊急出口」與本句語境不同。",
-        "emergency-mcq-09": "「緊急電話號碼」與本句語境不同。",
-        "emergency-mcq-06": "「急症室」與本句語境不同。",
-        "emergency-mcq-10": "「緊急應變」與本句語境不同。",
-        "emergency-mcq-05": "「緊急服務」與本句語境不同。"
+        "emergency-mcq-08": "本句的「emergency contact」指「緊急聯絡人」。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-08"
     },
@@ -909,11 +833,9 @@ export default {
       "masked": "Save the local ____ in your phone.",
       "options": [
         "emergency-mcq-09",
-        "emergency-mcq-08",
-        "emergency-mcq-10",
-        "emergency-mcq-07",
-        "emergency-mcq-11",
-        "emergency-mcq-06"
+        "emergency-mcq-16",
+        "emergency-mcq-04",
+        "emergency-mcq-03"
       ],
       "explanation": "本句的「emergency number」指「緊急電話號碼」。",
       "sentenceIndex": 17,
@@ -922,12 +844,10 @@ export default {
         "emergency number"
       ],
       "optionReasons": {
-        "emergency-mcq-09": "本句指「緊急電話號碼」。",
-        "emergency-mcq-08": "「緊急聯絡人」與本句語境不同。",
-        "emergency-mcq-10": "「緊急應變」與本句語境不同。",
-        "emergency-mcq-07": "「緊急出口」與本句語境不同。",
-        "emergency-mcq-11": "「緊急措施」與本句語境不同。",
-        "emergency-mcq-06": "「急症室」與本句語境不同。"
+        "emergency-mcq-09": "本句的「emergency number」指「緊急電話號碼」。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-09"
     },
@@ -939,11 +859,9 @@ export default {
       "masked": "He called the ____ immediately.",
       "options": [
         "emergency-mcq-09",
-        "emergency-mcq-08",
-        "emergency-mcq-10",
-        "emergency-mcq-07",
-        "emergency-mcq-11",
-        "emergency-mcq-06"
+        "emergency-mcq-04",
+        "emergency-mcq-16",
+        "emergency-mcq-12"
       ],
       "explanation": "本句的「emergency number」指「緊急電話號碼」。",
       "sentenceIndex": 18,
@@ -952,12 +870,10 @@ export default {
         "emergency number"
       ],
       "optionReasons": {
-        "emergency-mcq-09": "本句指「緊急電話號碼」。",
-        "emergency-mcq-08": "「緊急聯絡人」與本句語境不同。",
-        "emergency-mcq-10": "「緊急應變」與本句語境不同。",
-        "emergency-mcq-07": "「緊急出口」與本句語境不同。",
-        "emergency-mcq-11": "「緊急措施」與本句語境不同。",
-        "emergency-mcq-06": "「急症室」與本句語境不同。"
+        "emergency-mcq-09": "本句的「emergency number」指「緊急電話號碼」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-09"
     },
@@ -969,11 +885,9 @@ export default {
       "masked": "The company reviewed its ____ procedures.",
       "options": [
         "emergency-mcq-10",
-        "emergency-mcq-09",
-        "emergency-mcq-11",
-        "emergency-mcq-08",
-        "emergency-mcq-12",
-        "emergency-mcq-07"
+        "emergency-mcq-16",
+        "emergency-mcq-04",
+        "emergency-mcq-03"
       ],
       "explanation": "本句的「emergency response」指「緊急應變」。",
       "sentenceIndex": 19,
@@ -982,12 +896,10 @@ export default {
         "emergency response"
       ],
       "optionReasons": {
-        "emergency-mcq-10": "本句指「緊急應變」。",
-        "emergency-mcq-09": "「緊急電話號碼」與本句語境不同。",
-        "emergency-mcq-11": "「緊急措施」與本句語境不同。",
-        "emergency-mcq-08": "「緊急聯絡人」與本句語境不同。",
-        "emergency-mcq-12": "「應急基金」與本句語境不同。",
-        "emergency-mcq-07": "「緊急出口」與本句語境不同。"
+        "emergency-mcq-10": "本句的「emergency response」指「緊急應變」。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-10"
     },
@@ -999,11 +911,9 @@ export default {
       "masked": "A fast ____ reduced the damage.",
       "options": [
         "emergency-mcq-10",
-        "emergency-mcq-09",
-        "emergency-mcq-11",
-        "emergency-mcq-08",
-        "emergency-mcq-12",
-        "emergency-mcq-07"
+        "emergency-mcq-04",
+        "emergency-mcq-16",
+        "emergency-mcq-03"
       ],
       "explanation": "本句的「emergency response」指「緊急應變」。",
       "sentenceIndex": 20,
@@ -1012,12 +922,10 @@ export default {
         "emergency response"
       ],
       "optionReasons": {
-        "emergency-mcq-10": "本句指「緊急應變」。",
-        "emergency-mcq-09": "「緊急電話號碼」與本句語境不同。",
-        "emergency-mcq-11": "「緊急措施」與本句語境不同。",
-        "emergency-mcq-08": "「緊急聯絡人」與本句語境不同。",
-        "emergency-mcq-12": "「應急基金」與本句語境不同。",
-        "emergency-mcq-07": "「緊急出口」與本句語境不同。"
+        "emergency-mcq-10": "本句的「emergency response」指「緊急應變」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-10"
     },
@@ -1029,11 +937,9 @@ export default {
       "masked": "The government introduced several ____.",
       "options": [
         "emergency-mcq-11",
-        "emergency-mcq-10",
-        "emergency-mcq-12",
-        "emergency-mcq-09",
-        "emergency-mcq-13",
-        "emergency-mcq-08"
+        "emergency-mcq-04",
+        "emergency-mcq-16",
+        "emergency-mcq-12"
       ],
       "explanation": "本句的「emergency measures」指「緊急措施」。",
       "sentenceIndex": 21,
@@ -1042,12 +948,10 @@ export default {
         "emergency measures"
       ],
       "optionReasons": {
-        "emergency-mcq-11": "本句指「緊急措施」。",
-        "emergency-mcq-10": "「緊急應變」與本句語境不同。",
-        "emergency-mcq-12": "「應急基金」與本句語境不同。",
-        "emergency-mcq-09": "「緊急電話號碼」與本句語境不同。",
-        "emergency-mcq-13": "「緊急物資」與本句語境不同。",
-        "emergency-mcq-08": "「緊急聯絡人」與本句語境不同。"
+        "emergency-mcq-11": "本句的「emergency measures」指「緊急措施」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-11"
     },
@@ -1059,11 +963,9 @@ export default {
       "masked": "Closing the building was an ____.",
       "options": [
         "emergency-mcq-11",
-        "emergency-mcq-10",
-        "emergency-mcq-12",
-        "emergency-mcq-09",
-        "emergency-mcq-13",
-        "emergency-mcq-08"
+        "emergency-mcq-16",
+        "emergency-mcq-04",
+        "emergency-mcq-03"
       ],
       "explanation": "本句的「emergency measure」指「緊急措施」。",
       "sentenceIndex": 22,
@@ -1072,12 +974,10 @@ export default {
         "emergency measure"
       ],
       "optionReasons": {
-        "emergency-mcq-11": "本句指「緊急措施」。",
-        "emergency-mcq-10": "「緊急應變」與本句語境不同。",
-        "emergency-mcq-12": "「應急基金」與本句語境不同。",
-        "emergency-mcq-09": "「緊急電話號碼」與本句語境不同。",
-        "emergency-mcq-13": "「緊急物資」與本句語境不同。",
-        "emergency-mcq-08": "「緊急聯絡人」與本句語境不同。"
+        "emergency-mcq-11": "本句的「emergency measure」指「緊急措施」。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-11"
     },
@@ -1089,11 +989,9 @@ export default {
       "masked": "Everyone should try to build an ____.",
       "options": [
         "emergency-mcq-12",
-        "emergency-mcq-11",
-        "emergency-mcq-13",
-        "emergency-mcq-10",
-        "emergency-mcq-14",
-        "emergency-mcq-09"
+        "emergency-mcq-04",
+        "emergency-mcq-16",
+        "emergency-mcq-07"
       ],
       "explanation": "本句的「emergency fund」指「應急基金」。",
       "sentenceIndex": 23,
@@ -1102,12 +1000,10 @@ export default {
         "emergency fund"
       ],
       "optionReasons": {
-        "emergency-mcq-12": "本句指「應急基金」。",
-        "emergency-mcq-11": "「緊急措施」與本句語境不同。",
-        "emergency-mcq-13": "「緊急物資」與本句語境不同。",
-        "emergency-mcq-10": "「緊急應變」與本句語境不同。",
-        "emergency-mcq-14": "「緊急降落」與本句語境不同。",
-        "emergency-mcq-09": "「緊急電話號碼」與本句語境不同。"
+        "emergency-mcq-12": "本句的「emergency fund」指「應急基金」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-12"
     },
@@ -1119,11 +1015,9 @@ export default {
       "masked": "Her ____ covered the unexpected repair bill.",
       "options": [
         "emergency-mcq-12",
-        "emergency-mcq-11",
-        "emergency-mcq-13",
-        "emergency-mcq-10",
-        "emergency-mcq-14",
-        "emergency-mcq-09"
+        "emergency-mcq-04",
+        "emergency-mcq-16",
+        "emergency-mcq-07"
       ],
       "explanation": "本句的「emergency fund」指「應急基金」。",
       "sentenceIndex": 24,
@@ -1132,12 +1026,10 @@ export default {
         "emergency fund"
       ],
       "optionReasons": {
-        "emergency-mcq-12": "本句指「應急基金」。",
-        "emergency-mcq-11": "「緊急措施」與本句語境不同。",
-        "emergency-mcq-13": "「緊急物資」與本句語境不同。",
-        "emergency-mcq-10": "「緊急應變」與本句語境不同。",
-        "emergency-mcq-14": "「緊急降落」與本句語境不同。",
-        "emergency-mcq-09": "「緊急電話號碼」與本句語境不同。"
+        "emergency-mcq-12": "本句的「emergency fund」指「應急基金」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-12"
     },
@@ -1149,11 +1041,8 @@ export default {
       "masked": "Keep basic ____ at home.",
       "options": [
         "emergency-mcq-13",
-        "emergency-mcq-12",
-        "emergency-mcq-14",
-        "emergency-mcq-11",
-        "emergency-mcq-15",
-        "emergency-mcq-10"
+        "emergency-mcq-04",
+        "emergency-mcq-16"
       ],
       "explanation": "本句的「emergency supplies」指「緊急物資」。",
       "sentenceIndex": 25,
@@ -1162,12 +1051,9 @@ export default {
         "emergency supplies"
       ],
       "optionReasons": {
-        "emergency-mcq-13": "本句指「緊急物資」。",
-        "emergency-mcq-12": "「應急基金」與本句語境不同。",
-        "emergency-mcq-14": "「緊急降落」與本句語境不同。",
-        "emergency-mcq-11": "「緊急措施」與本句語境不同。",
-        "emergency-mcq-15": "「緊急狀態」與本句語境不同。",
-        "emergency-mcq-10": "「緊急應變」與本句語境不同。"
+        "emergency-mcq-13": "本句的「emergency supplies」指「緊急物資」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-13"
     },
@@ -1179,11 +1065,8 @@ export default {
       "masked": "The shelter distributed ____.",
       "options": [
         "emergency-mcq-13",
-        "emergency-mcq-12",
-        "emergency-mcq-14",
-        "emergency-mcq-11",
-        "emergency-mcq-15",
-        "emergency-mcq-10"
+        "emergency-mcq-04",
+        "emergency-mcq-16"
       ],
       "explanation": "本句的「emergency supplies」指「緊急物資」。",
       "sentenceIndex": 26,
@@ -1192,12 +1075,9 @@ export default {
         "emergency supplies"
       ],
       "optionReasons": {
-        "emergency-mcq-13": "本句指「緊急物資」。",
-        "emergency-mcq-12": "「應急基金」與本句語境不同。",
-        "emergency-mcq-14": "「緊急降落」與本句語境不同。",
-        "emergency-mcq-11": "「緊急措施」與本句語境不同。",
-        "emergency-mcq-15": "「緊急狀態」與本句語境不同。",
-        "emergency-mcq-10": "「緊急應變」與本句語境不同。"
+        "emergency-mcq-13": "本句的「emergency supplies」指「緊急物資」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-13"
     },
@@ -1209,11 +1089,9 @@ export default {
       "masked": "The plane made an ____.",
       "options": [
         "emergency-mcq-14",
-        "emergency-mcq-13",
-        "emergency-mcq-15",
-        "emergency-mcq-12",
+        "emergency-mcq-04",
         "emergency-mcq-16",
-        "emergency-mcq-11"
+        "emergency-mcq-03"
       ],
       "explanation": "本句的「emergency landing」指「緊急降落」。",
       "sentenceIndex": 27,
@@ -1222,12 +1100,10 @@ export default {
         "emergency landing"
       ],
       "optionReasons": {
-        "emergency-mcq-14": "本句指「緊急降落」。",
-        "emergency-mcq-13": "「緊急物資」與本句語境不同。",
-        "emergency-mcq-15": "「緊急狀態」與本句語境不同。",
-        "emergency-mcq-12": "「應急基金」與本句語境不同。",
-        "emergency-mcq-16": "「危機；救火狀態」與本句語境不同。",
-        "emergency-mcq-11": "「緊急措施」與本句語境不同。"
+        "emergency-mcq-14": "本句的「emergency landing」指「緊急降落」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-14"
     },
@@ -1239,11 +1115,9 @@ export default {
       "masked": "A technical problem forced an ____.",
       "options": [
         "emergency-mcq-14",
-        "emergency-mcq-13",
-        "emergency-mcq-15",
-        "emergency-mcq-12",
         "emergency-mcq-16",
-        "emergency-mcq-11"
+        "emergency-mcq-04",
+        "emergency-mcq-12"
       ],
       "explanation": "本句的「emergency landing」指「緊急降落」。",
       "sentenceIndex": 28,
@@ -1252,12 +1126,10 @@ export default {
         "emergency landing"
       ],
       "optionReasons": {
-        "emergency-mcq-14": "本句指「緊急降落」。",
-        "emergency-mcq-13": "「緊急物資」與本句語境不同。",
-        "emergency-mcq-15": "「緊急狀態」與本句語境不同。",
-        "emergency-mcq-12": "「應急基金」與本句語境不同。",
-        "emergency-mcq-16": "「危機；救火狀態」與本句語境不同。",
-        "emergency-mcq-11": "「緊急措施」與本句語境不同。"
+        "emergency-mcq-14": "本句的「emergency landing」指「緊急降落」。",
+        "emergency-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-14"
     },
@@ -1269,11 +1141,9 @@ export default {
       "masked": "A ____ was declared after the disaster.",
       "options": [
         "emergency-mcq-15",
-        "emergency-mcq-14",
-        "emergency-mcq-16",
-        "emergency-mcq-13",
-        "emergency-mcq-17",
-        "emergency-mcq-12"
+        "emergency-mcq-04",
+        "emergency-mcq-12",
+        "emergency-mcq-03"
       ],
       "explanation": "本句的「state of emergency」指「緊急狀態」。",
       "sentenceIndex": 29,
@@ -1282,12 +1152,10 @@ export default {
         "state of emergency"
       ],
       "optionReasons": {
-        "emergency-mcq-15": "本句指「緊急狀態」。",
-        "emergency-mcq-14": "「緊急降落」與本句語境不同。",
-        "emergency-mcq-16": "「危機；救火狀態」與本句語境不同。",
-        "emergency-mcq-13": "「緊急物資」與本句語境不同。",
-        "emergency-mcq-17": "「緊急／救火模式」與本句語境不同。",
-        "emergency-mcq-12": "「應急基金」與本句語境不同。"
+        "emergency-mcq-15": "本句的「state of emergency」指「緊急狀態」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-15"
     },
@@ -1299,11 +1167,9 @@ export default {
       "masked": "Special powers may apply during a ____.",
       "options": [
         "emergency-mcq-15",
-        "emergency-mcq-14",
-        "emergency-mcq-16",
-        "emergency-mcq-13",
-        "emergency-mcq-17",
-        "emergency-mcq-12"
+        "emergency-mcq-04",
+        "emergency-mcq-12",
+        "emergency-mcq-03"
       ],
       "explanation": "本句的「state of emergency」指「緊急狀態」。",
       "sentenceIndex": 30,
@@ -1312,12 +1178,10 @@ export default {
         "state of emergency"
       ],
       "optionReasons": {
-        "emergency-mcq-15": "本句指「緊急狀態」。",
-        "emergency-mcq-14": "「緊急降落」與本句語境不同。",
-        "emergency-mcq-16": "「危機；救火狀態」與本句語境不同。",
-        "emergency-mcq-13": "「緊急物資」與本句語境不同。",
-        "emergency-mcq-17": "「緊急／救火模式」與本句語境不同。",
-        "emergency-mcq-12": "「應急基金」與本句語境不同。"
+        "emergency-mcq-15": "本句的「state of emergency」指「緊急狀態」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-15"
     },
@@ -1329,11 +1193,9 @@ export default {
       "masked": "I stopped feeling as if my life was one long ____.",
       "options": [
         "emergency-mcq-16",
-        "emergency-mcq-15",
-        "emergency-mcq-17",
-        "emergency-mcq-14",
-        "emergency-mcq-13",
-        "emergency-mcq-12"
+        "emergency-mcq-10",
+        "emergency-mcq-03",
+        "emergency-mcq-04"
       ],
       "explanation": "本句的「emergency」指「危機；救火狀態」。",
       "sentenceIndex": 31,
@@ -1342,12 +1204,10 @@ export default {
         "emergency"
       ],
       "optionReasons": {
-        "emergency-mcq-16": "本句指「危機；救火狀態」。",
-        "emergency-mcq-15": "「緊急狀態」與本句語境不同。",
-        "emergency-mcq-17": "「緊急／救火模式」與本句語境不同。",
-        "emergency-mcq-14": "「緊急降落」與本句語境不同。",
-        "emergency-mcq-13": "「緊急物資」與本句語境不同。",
-        "emergency-mcq-12": "「應急基金」與本句語境不同。"
+        "emergency-mcq-16": "本句的「emergency」指「危機；救火狀態」。",
+        "emergency-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-16"
     },
@@ -1359,11 +1219,8 @@ export default {
       "masked": "Poor planning made every deadline feel like an ____.",
       "options": [
         "emergency-mcq-16",
-        "emergency-mcq-15",
-        "emergency-mcq-17",
-        "emergency-mcq-14",
         "emergency-mcq-13",
-        "emergency-mcq-12"
+        "emergency-mcq-04"
       ],
       "explanation": "本句的「emergency」指「危機；救火狀態」。",
       "sentenceIndex": 32,
@@ -1372,12 +1229,9 @@ export default {
         "emergency"
       ],
       "optionReasons": {
-        "emergency-mcq-16": "本句指「危機；救火狀態」。",
-        "emergency-mcq-15": "「緊急狀態」與本句語境不同。",
-        "emergency-mcq-17": "「緊急／救火模式」與本句語境不同。",
-        "emergency-mcq-14": "「緊急降落」與本句語境不同。",
-        "emergency-mcq-13": "「緊急物資」與本句語境不同。",
-        "emergency-mcq-12": "「應急基金」與本句語境不同。"
+        "emergency-mcq-16": "本句的「emergency」指「危機；救火狀態」。",
+        "emergency-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-16"
     },
@@ -1389,11 +1243,8 @@ export default {
       "masked": "Not every problem needs to become an ____.",
       "options": [
         "emergency-mcq-16",
-        "emergency-mcq-15",
-        "emergency-mcq-17",
-        "emergency-mcq-14",
         "emergency-mcq-13",
-        "emergency-mcq-12"
+        "emergency-mcq-04"
       ],
       "explanation": "本句的「emergency」指「危機；救火狀態」。",
       "sentenceIndex": 33,
@@ -1402,12 +1253,9 @@ export default {
         "emergency"
       ],
       "optionReasons": {
-        "emergency-mcq-16": "本句指「危機；救火狀態」。",
-        "emergency-mcq-15": "「緊急狀態」與本句語境不同。",
-        "emergency-mcq-17": "「緊急／救火模式」與本句語境不同。",
-        "emergency-mcq-14": "「緊急降落」與本句語境不同。",
-        "emergency-mcq-13": "「緊急物資」與本句語境不同。",
-        "emergency-mcq-12": "「應急基金」與本句語境不同。"
+        "emergency-mcq-16": "本句的「emergency」指「危機；救火狀態」。",
+        "emergency-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-16"
     },
@@ -1419,10 +1267,8 @@ export default {
       "masked": "I was constantly working in ____.",
       "options": [
         "emergency-mcq-17",
-        "emergency-mcq-16",
-        "emergency-mcq-15",
-        "emergency-mcq-14",
-        "emergency-mcq-13",
+        "emergency-mcq-04",
+        "emergency-mcq-03",
         "emergency-mcq-12"
       ],
       "explanation": "本句的「emergency mode」指「緊急／救火模式」。",
@@ -1432,12 +1278,10 @@ export default {
         "emergency mode"
       ],
       "optionReasons": {
-        "emergency-mcq-17": "本句指「緊急／救火模式」。",
-        "emergency-mcq-16": "「危機；救火狀態」與本句語境不同。",
-        "emergency-mcq-15": "「緊急狀態」與本句語境不同。",
-        "emergency-mcq-14": "「緊急降落」與本句語境不同。",
-        "emergency-mcq-13": "「緊急物資」與本句語境不同。",
-        "emergency-mcq-12": "「應急基金」與本句語境不同。"
+        "emergency-mcq-17": "本句的「emergency mode」指「緊急／救火模式」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-17"
     },
@@ -1449,11 +1293,9 @@ export default {
       "masked": "Good planning helps teams avoid permanent ____.",
       "options": [
         "emergency-mcq-17",
-        "emergency-mcq-16",
-        "emergency-mcq-15",
-        "emergency-mcq-14",
-        "emergency-mcq-13",
-        "emergency-mcq-12"
+        "emergency-mcq-04",
+        "emergency-mcq-12",
+        "emergency-mcq-03"
       ],
       "explanation": "本句的「emergency mode」指「緊急／救火模式」。",
       "sentenceIndex": 37,
@@ -1462,12 +1304,10 @@ export default {
         "emergency mode"
       ],
       "optionReasons": {
-        "emergency-mcq-17": "本句指「緊急／救火模式」。",
-        "emergency-mcq-16": "「危機；救火狀態」與本句語境不同。",
-        "emergency-mcq-15": "「緊急狀態」與本句語境不同。",
-        "emergency-mcq-14": "「緊急降落」與本句語境不同。",
-        "emergency-mcq-13": "「緊急物資」與本句語境不同。",
-        "emergency-mcq-12": "「應急基金」與本句語境不同。"
+        "emergency-mcq-17": "本句的「emergency mode」指「緊急／救火模式」。",
+        "emergency-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "emergency-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emergency-mcq-17"
     }
@@ -1479,5 +1319,7 @@ export default {
     "sha256": "2d5479a1b7af14717887d1f4052c7b9dbb6a26681bbf3dd775222cd2fc85423c",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -185,11 +185,7 @@ export default {
       "masked": "The library has a large ____.",
       "options": [
         "reference-mcq-01",
-        "reference-mcq-02",
-        "reference-mcq-03",
-        "reference-mcq-04",
-        "reference-mcq-05",
-        "reference-mcq-06"
+        "reference-mcq-02"
       ],
       "explanation": "本句的「reference section」指「用來查閱、核實或取得資訊的參考資料／來源」。",
       "sentenceIndex": 0,
@@ -198,12 +194,8 @@ export default {
         "reference section"
       ],
       "optionReasons": {
-        "reference-mcq-01": "本句指「用來查閱、核實或取得資訊的參考資料／來源」。",
-        "reference-mcq-02": "「對某人、某事或某觀點的提及／言及」與本句語境不同。",
-        "reference-mcq-03": "「文章或研究中列出的資料來源／參考文獻」與本句語境不同。",
-        "reference-mcq-04": "「證明某人能力、品格或工作表現的推薦意見／推薦人資料」與本句語境不同。",
-        "reference-mcq-05": "「用來識別、查找或追蹤記錄的編號／代碼」與本句語境不同。",
-        "reference-mcq-06": "「用來比較、定位或判斷其他事物的參照基準」與本句語境不同。"
+        "reference-mcq-01": "本句的「reference section」指「用來查閱、核實或取得資訊的參考資料／來源」。",
+        "reference-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reference-mcq-01"
     },
@@ -215,11 +207,7 @@ export default {
       "masked": "This dictionary is a useful ____.",
       "options": [
         "reference-mcq-01",
-        "reference-mcq-02",
-        "reference-mcq-03",
-        "reference-mcq-04",
-        "reference-mcq-05",
-        "reference-mcq-06"
+        "reference-mcq-02"
       ],
       "explanation": "本句的「reference」指「用來查閱、核實或取得資訊的參考資料／來源」。",
       "sentenceIndex": 1,
@@ -228,12 +216,8 @@ export default {
         "reference"
       ],
       "optionReasons": {
-        "reference-mcq-01": "本句指「用來查閱、核實或取得資訊的參考資料／來源」。",
-        "reference-mcq-02": "「對某人、某事或某觀點的提及／言及」與本句語境不同。",
-        "reference-mcq-03": "「文章或研究中列出的資料來源／參考文獻」與本句語境不同。",
-        "reference-mcq-04": "「證明某人能力、品格或工作表現的推薦意見／推薦人資料」與本句語境不同。",
-        "reference-mcq-05": "「用來識別、查找或追蹤記錄的編號／代碼」與本句語境不同。",
-        "reference-mcq-06": "「用來比較、定位或判斷其他事物的參照基準」與本句語境不同。"
+        "reference-mcq-01": "本句的「reference」指「用來查閱、核實或取得資訊的參考資料／來源」。",
+        "reference-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reference-mcq-01"
     },
@@ -245,11 +229,7 @@ export default {
       "masked": "Keep the manual for future ____.",
       "options": [
         "reference-mcq-01",
-        "reference-mcq-02",
-        "reference-mcq-03",
-        "reference-mcq-04",
-        "reference-mcq-05",
-        "reference-mcq-06"
+        "reference-mcq-02"
       ],
       "explanation": "本句的「reference」指「用來查閱、核實或取得資訊的參考資料／來源」。",
       "sentenceIndex": 2,
@@ -258,12 +238,8 @@ export default {
         "reference"
       ],
       "optionReasons": {
-        "reference-mcq-01": "本句指「用來查閱、核實或取得資訊的參考資料／來源」。",
-        "reference-mcq-02": "「對某人、某事或某觀點的提及／言及」與本句語境不同。",
-        "reference-mcq-03": "「文章或研究中列出的資料來源／參考文獻」與本句語境不同。",
-        "reference-mcq-04": "「證明某人能力、品格或工作表現的推薦意見／推薦人資料」與本句語境不同。",
-        "reference-mcq-05": "「用來識別、查找或追蹤記錄的編號／代碼」與本句語境不同。",
-        "reference-mcq-06": "「用來比較、定位或判斷其他事物的參照基準」與本句語境不同。"
+        "reference-mcq-01": "本句的「reference」指「用來查閱、核實或取得資訊的參考資料／來源」。",
+        "reference-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reference-mcq-01"
     },
@@ -275,11 +251,7 @@ export default {
       "masked": "The article makes several ____ to climate change.",
       "options": [
         "reference-mcq-02",
-        "reference-mcq-01",
-        "reference-mcq-03",
-        "reference-mcq-04",
-        "reference-mcq-05",
-        "reference-mcq-06"
+        "reference-mcq-01"
       ],
       "explanation": "本句的「references」指「對某人、某事或某觀點的提及／言及」。",
       "sentenceIndex": 3,
@@ -288,12 +260,8 @@ export default {
         "references"
       ],
       "optionReasons": {
-        "reference-mcq-02": "本句指「對某人、某事或某觀點的提及／言及」。",
-        "reference-mcq-01": "「用來查閱、核實或取得資訊的參考資料／來源」與本句語境不同。",
-        "reference-mcq-03": "「文章或研究中列出的資料來源／參考文獻」與本句語境不同。",
-        "reference-mcq-04": "「證明某人能力、品格或工作表現的推薦意見／推薦人資料」與本句語境不同。",
-        "reference-mcq-05": "「用來識別、查找或追蹤記錄的編號／代碼」與本句語境不同。",
-        "reference-mcq-06": "「用來比較、定位或判斷其他事物的參照基準」與本句語境不同。"
+        "reference-mcq-02": "本句的「references」指「對某人、某事或某觀點的提及／言及」。",
+        "reference-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reference-mcq-02"
     },
@@ -305,11 +273,7 @@ export default {
       "masked": "There was no ____ to the earlier incident.",
       "options": [
         "reference-mcq-02",
-        "reference-mcq-01",
-        "reference-mcq-03",
-        "reference-mcq-04",
-        "reference-mcq-05",
-        "reference-mcq-06"
+        "reference-mcq-01"
       ],
       "explanation": "本句的「reference」指「對某人、某事或某觀點的提及／言及」。",
       "sentenceIndex": 4,
@@ -318,12 +282,8 @@ export default {
         "reference"
       ],
       "optionReasons": {
-        "reference-mcq-02": "本句指「對某人、某事或某觀點的提及／言及」。",
-        "reference-mcq-01": "「用來查閱、核實或取得資訊的參考資料／來源」與本句語境不同。",
-        "reference-mcq-03": "「文章或研究中列出的資料來源／參考文獻」與本句語境不同。",
-        "reference-mcq-04": "「證明某人能力、品格或工作表現的推薦意見／推薦人資料」與本句語境不同。",
-        "reference-mcq-05": "「用來識別、查找或追蹤記錄的編號／代碼」與本句語境不同。",
-        "reference-mcq-06": "「用來比較、定位或判斷其他事物的參照基準」與本句語境不同。"
+        "reference-mcq-02": "本句的「reference」指「對某人、某事或某觀點的提及／言及」。",
+        "reference-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reference-mcq-02"
     },
@@ -335,11 +295,7 @@ export default {
       "masked": "The essay includes twenty ____.",
       "options": [
         "reference-mcq-03",
-        "reference-mcq-02",
-        "reference-mcq-04",
-        "reference-mcq-01",
-        "reference-mcq-05",
-        "reference-mcq-06"
+        "reference-mcq-02"
       ],
       "explanation": "本句的「references」指「文章或研究中列出的資料來源／參考文獻」。",
       "sentenceIndex": 5,
@@ -348,12 +304,8 @@ export default {
         "references"
       ],
       "optionReasons": {
-        "reference-mcq-03": "本句指「文章或研究中列出的資料來源／參考文獻」。",
-        "reference-mcq-02": "「對某人、某事或某觀點的提及／言及」與本句語境不同。",
-        "reference-mcq-04": "「證明某人能力、品格或工作表現的推薦意見／推薦人資料」與本句語境不同。",
-        "reference-mcq-01": "「用來查閱、核實或取得資訊的參考資料／來源」與本句語境不同。",
-        "reference-mcq-05": "「用來識別、查找或追蹤記錄的編號／代碼」與本句語境不同。",
-        "reference-mcq-06": "「用來比較、定位或判斷其他事物的參照基準」與本句語境不同。"
+        "reference-mcq-03": "本句的「references」指「文章或研究中列出的資料來源／參考文獻」。",
+        "reference-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reference-mcq-03"
     },
@@ -365,11 +317,7 @@ export default {
       "masked": "Check the ____ at the end of the article.",
       "options": [
         "reference-mcq-03",
-        "reference-mcq-02",
-        "reference-mcq-04",
-        "reference-mcq-01",
-        "reference-mcq-05",
-        "reference-mcq-06"
+        "reference-mcq-02"
       ],
       "explanation": "本句的「references」指「文章或研究中列出的資料來源／參考文獻」。",
       "sentenceIndex": 6,
@@ -378,12 +326,8 @@ export default {
         "references"
       ],
       "optionReasons": {
-        "reference-mcq-03": "本句指「文章或研究中列出的資料來源／參考文獻」。",
-        "reference-mcq-02": "「對某人、某事或某觀點的提及／言及」與本句語境不同。",
-        "reference-mcq-04": "「證明某人能力、品格或工作表現的推薦意見／推薦人資料」與本句語境不同。",
-        "reference-mcq-01": "「用來查閱、核實或取得資訊的參考資料／來源」與本句語境不同。",
-        "reference-mcq-05": "「用來識別、查找或追蹤記錄的編號／代碼」與本句語境不同。",
-        "reference-mcq-06": "「用來比較、定位或判斷其他事物的參照基準」與本句語境不同。"
+        "reference-mcq-03": "本句的「references」指「文章或研究中列出的資料來源／參考文獻」。",
+        "reference-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reference-mcq-03"
     },
@@ -395,11 +339,7 @@ export default {
       "masked": "The employer asked for two ____.",
       "options": [
         "reference-mcq-04",
-        "reference-mcq-03",
-        "reference-mcq-05",
-        "reference-mcq-02",
-        "reference-mcq-06",
-        "reference-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「references」指「證明某人能力、品格或工作表現的推薦意見／推薦人資料」。",
       "sentenceIndex": 7,
@@ -408,12 +348,8 @@ export default {
         "references"
       ],
       "optionReasons": {
-        "reference-mcq-04": "本句指「證明某人能力、品格或工作表現的推薦意見／推薦人資料」。",
-        "reference-mcq-03": "「文章或研究中列出的資料來源／參考文獻」與本句語境不同。",
-        "reference-mcq-05": "「用來識別、查找或追蹤記錄的編號／代碼」與本句語境不同。",
-        "reference-mcq-02": "「對某人、某事或某觀點的提及／言及」與本句語境不同。",
-        "reference-mcq-06": "「用來比較、定位或判斷其他事物的參照基準」與本句語境不同。",
-        "reference-mcq-01": "「用來查閱、核實或取得資訊的參考資料／來源」與本句語境不同。"
+        "reference-mcq-04": "本句的「references」指「證明某人能力、品格或工作表現的推薦意見／推薦人資料」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reference-mcq-04"
     },
@@ -425,11 +361,7 @@ export default {
       "masked": "Her former manager gave her an excellent ____.",
       "options": [
         "reference-mcq-04",
-        "reference-mcq-03",
-        "reference-mcq-05",
-        "reference-mcq-02",
-        "reference-mcq-06",
-        "reference-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reference」指「證明某人能力、品格或工作表現的推薦意見／推薦人資料」。",
       "sentenceIndex": 8,
@@ -438,12 +370,8 @@ export default {
         "reference"
       ],
       "optionReasons": {
-        "reference-mcq-04": "本句指「證明某人能力、品格或工作表現的推薦意見／推薦人資料」。",
-        "reference-mcq-03": "「文章或研究中列出的資料來源／參考文獻」與本句語境不同。",
-        "reference-mcq-05": "「用來識別、查找或追蹤記錄的編號／代碼」與本句語境不同。",
-        "reference-mcq-02": "「對某人、某事或某觀點的提及／言及」與本句語境不同。",
-        "reference-mcq-06": "「用來比較、定位或判斷其他事物的參照基準」與本句語境不同。",
-        "reference-mcq-01": "「用來查閱、核實或取得資訊的參考資料／來源」與本句語境不同。"
+        "reference-mcq-04": "本句的「reference」指「證明某人能力、品格或工作表現的推薦意見／推薦人資料」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reference-mcq-04"
     },
@@ -455,10 +383,6 @@ export default {
       "masked": "Please quote your booking ____.",
       "options": [
         "reference-mcq-05",
-        "reference-mcq-04",
-        "reference-mcq-06",
-        "reference-mcq-03",
-        "reference-mcq-07",
         "reference-mcq-02"
       ],
       "explanation": "本句的「reference」指「用來識別、查找或追蹤記錄的編號／代碼」。",
@@ -468,12 +392,8 @@ export default {
         "reference"
       ],
       "optionReasons": {
-        "reference-mcq-05": "本句指「用來識別、查找或追蹤記錄的編號／代碼」。",
-        "reference-mcq-04": "「證明某人能力、品格或工作表現的推薦意見／推薦人資料」與本句語境不同。",
-        "reference-mcq-06": "「用來比較、定位或判斷其他事物的參照基準」與本句語境不同。",
-        "reference-mcq-03": "「文章或研究中列出的資料來源／參考文獻」與本句語境不同。",
-        "reference-mcq-07": "「在文字或說話中引用或提及」與本句語境不同。",
-        "reference-mcq-02": "「對某人、某事或某觀點的提及／言及」與本句語境不同。"
+        "reference-mcq-05": "本句的「reference」指「用來識別、查找或追蹤記錄的編號／代碼」。",
+        "reference-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reference-mcq-05"
     },
@@ -485,10 +405,6 @@ export default {
       "masked": "The case has a unique ____.",
       "options": [
         "reference-mcq-05",
-        "reference-mcq-04",
-        "reference-mcq-06",
-        "reference-mcq-03",
-        "reference-mcq-07",
         "reference-mcq-02"
       ],
       "explanation": "本句的「reference number」指「用來識別、查找或追蹤記錄的編號／代碼」。",
@@ -498,12 +414,8 @@ export default {
         "reference number"
       ],
       "optionReasons": {
-        "reference-mcq-05": "本句指「用來識別、查找或追蹤記錄的編號／代碼」。",
-        "reference-mcq-04": "「證明某人能力、品格或工作表現的推薦意見／推薦人資料」與本句語境不同。",
-        "reference-mcq-06": "「用來比較、定位或判斷其他事物的參照基準」與本句語境不同。",
-        "reference-mcq-03": "「文章或研究中列出的資料來源／參考文獻」與本句語境不同。",
-        "reference-mcq-07": "「在文字或說話中引用或提及」與本句語境不同。",
-        "reference-mcq-02": "「對某人、某事或某觀點的提及／言及」與本句語境不同。"
+        "reference-mcq-05": "本句的「reference number」指「用來識別、查找或追蹤記錄的編號／代碼」。",
+        "reference-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reference-mcq-05"
     },
@@ -515,11 +427,7 @@ export default {
       "masked": "Use the diagram as a ____.",
       "options": [
         "reference-mcq-06",
-        "reference-mcq-05",
-        "reference-mcq-07",
-        "reference-mcq-04",
-        "reference-mcq-08",
-        "reference-mcq-03"
+        "reference-mcq-07"
       ],
       "explanation": "本句的「reference」指「用來比較、定位或判斷其他事物的參照基準」。",
       "sentenceIndex": 11,
@@ -528,12 +436,8 @@ export default {
         "reference"
       ],
       "optionReasons": {
-        "reference-mcq-06": "本句指「用來比較、定位或判斷其他事物的參照基準」。",
-        "reference-mcq-05": "「用來識別、查找或追蹤記錄的編號／代碼」與本句語境不同。",
-        "reference-mcq-07": "「在文字或說話中引用或提及」與本句語境不同。",
-        "reference-mcq-04": "「證明某人能力、品格或工作表現的推薦意見／推薦人資料」與本句語境不同。",
-        "reference-mcq-08": "「提到、指向；轉介／轉介行為」與本句語境不同。",
-        "reference-mcq-03": "「文章或研究中列出的資料來源／參考文獻」與本句語境不同。"
+        "reference-mcq-06": "本句的「reference」指「用來比較、定位或判斷其他事物的參照基準」。",
+        "reference-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reference-mcq-06"
     },
@@ -545,11 +449,7 @@ export default {
       "masked": "The measurements were taken from a fixed ____.",
       "options": [
         "reference-mcq-06",
-        "reference-mcq-05",
-        "reference-mcq-07",
-        "reference-mcq-04",
-        "reference-mcq-08",
-        "reference-mcq-03"
+        "reference-mcq-07"
       ],
       "explanation": "本句的「reference point」指「用來比較、定位或判斷其他事物的參照基準」。",
       "sentenceIndex": 12,
@@ -558,12 +458,8 @@ export default {
         "reference point"
       ],
       "optionReasons": {
-        "reference-mcq-06": "本句指「用來比較、定位或判斷其他事物的參照基準」。",
-        "reference-mcq-05": "「用來識別、查找或追蹤記錄的編號／代碼」與本句語境不同。",
-        "reference-mcq-07": "「在文字或說話中引用或提及」與本句語境不同。",
-        "reference-mcq-04": "「證明某人能力、品格或工作表現的推薦意見／推薦人資料」與本句語境不同。",
-        "reference-mcq-08": "「提到、指向；轉介／轉介行為」與本句語境不同。",
-        "reference-mcq-03": "「文章或研究中列出的資料來源／參考文獻」與本句語境不同。"
+        "reference-mcq-06": "本句的「reference point」指「用來比較、定位或判斷其他事物的參照基準」。",
+        "reference-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reference-mcq-06"
     },
@@ -575,11 +471,7 @@ export default {
       "masked": "The report ____ several earlier studies.",
       "options": [
         "reference-mcq-07",
-        "reference-mcq-06",
-        "reference-mcq-08",
-        "reference-mcq-05",
-        "reference-mcq-04",
-        "reference-mcq-03"
+        "reference-mcq-06"
       ],
       "explanation": "本句的「references」指「在文字或說話中引用或提及」。",
       "sentenceIndex": 13,
@@ -588,12 +480,8 @@ export default {
         "references"
       ],
       "optionReasons": {
-        "reference-mcq-07": "本句指「在文字或說話中引用或提及」。",
-        "reference-mcq-06": "「用來比較、定位或判斷其他事物的參照基準」與本句語境不同。",
-        "reference-mcq-08": "「提到、指向；轉介／轉介行為」與本句語境不同。",
-        "reference-mcq-05": "「用來識別、查找或追蹤記錄的編號／代碼」與本句語境不同。",
-        "reference-mcq-04": "「證明某人能力、品格或工作表現的推薦意見／推薦人資料」與本句語境不同。",
-        "reference-mcq-03": "「文章或研究中列出的資料來源／參考文獻」與本句語境不同。"
+        "reference-mcq-07": "本句的「references」指「在文字或說話中引用或提及」。",
+        "reference-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reference-mcq-07"
     },
@@ -605,11 +493,7 @@ export default {
       "masked": "She ____ the incident in her speech.",
       "options": [
         "reference-mcq-07",
-        "reference-mcq-06",
-        "reference-mcq-08",
-        "reference-mcq-05",
-        "reference-mcq-04",
-        "reference-mcq-03"
+        "reference-mcq-06"
       ],
       "explanation": "本句的「referenced」指「在文字或說話中引用或提及」。",
       "sentenceIndex": 14,
@@ -618,12 +502,8 @@ export default {
         "referenced"
       ],
       "optionReasons": {
-        "reference-mcq-07": "本句指「在文字或說話中引用或提及」。",
-        "reference-mcq-06": "「用來比較、定位或判斷其他事物的參照基準」與本句語境不同。",
-        "reference-mcq-08": "「提到、指向；轉介／轉介行為」與本句語境不同。",
-        "reference-mcq-05": "「用來識別、查找或追蹤記錄的編號／代碼」與本句語境不同。",
-        "reference-mcq-04": "「證明某人能力、品格或工作表現的推薦意見／推薦人資料」與本句語境不同。",
-        "reference-mcq-03": "「文章或研究中列出的資料來源／參考文獻」與本句語境不同。"
+        "reference-mcq-07": "本句的「referenced」指「在文字或說話中引用或提及」。",
+        "reference-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reference-mcq-07"
     }
@@ -635,5 +515,12 @@ export default {
     "sha256": "886ccd3089442afc3779b4e7fc46288a23956674e4d661760c8ccf061eaf1345",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

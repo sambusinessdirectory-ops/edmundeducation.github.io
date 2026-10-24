@@ -122,7 +122,7 @@ export default {
     },
     {
       "id": "trouble-mcq-06",
-      "title": "身體某部位或功能出現的疾病、不適或毛病；屬於",
+      "title": "身體某部位或功能出現的疾病、不適或毛病",
       "form": "trouble — health problem",
       "en": "trouble — health problem",
       "zh": "身體某部位或功能出現的疾病、不適或毛病；屬於",
@@ -325,7 +325,7 @@ export default {
     },
     {
       "id": "trouble-mcq-15",
-      "title": "表示避免惹麻煩",
+      "title": "避免惹麻煩",
       "form": "Useful expression: stay out of trouble — 避免惹麻煩",
       "en": "Useful expression: stay out of trouble — 避免惹麻煩",
       "zh": "表示避免惹麻煩",
@@ -347,7 +347,7 @@ export default {
     },
     {
       "id": "trouble-mcq-16",
-      "title": "表示一點也不麻煩",
+      "title": "一點也不麻煩",
       "form": "Useful expression: no trouble at all — 一點也不麻煩",
       "en": "Useful expression: no trouble at all — 一點也不麻煩",
       "zh": "表示一點也不麻煩",
@@ -372,11 +372,9 @@ export default {
       "masked": "We had some ____ finding the address.",
       "options": [
         "trouble-mcq-01",
-        "trouble-mcq-02",
-        "trouble-mcq-03",
-        "trouble-mcq-04",
-        "trouble-mcq-05",
-        "trouble-mcq-06"
+        "trouble-mcq-06",
+        "trouble-mcq-08",
+        "trouble-mcq-12"
       ],
       "explanation": "本句的「trouble」指「令人感到困難、不順利或需要處理的問題／麻煩」。",
       "sentenceIndex": 0,
@@ -385,12 +383,10 @@ export default {
         "trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-01": "本句指「令人感到困難、不順利或需要處理的問題／麻煩」。",
-        "trouble-mcq-02": "「因做錯事或違反規則而面臨責備、處罰或其他不良後果」是「be/get in trouble — punishment」的用法，與本句語境不同。",
-        "trouble-mcq-03": "「處於困難、危險或需要幫助的情況」是「be in trouble — serious difficulty/danger」的用法，與本句語境不同。",
-        "trouble-mcq-04": "「做某事時感到困難，不能輕易完成」是「have trouble doing」的用法，與本句語境不同。",
-        "trouble-mcq-05": "「為完成某件事情而需要付出的額外工夫、時間或不便」是「trouble — effort/inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。"
+        "trouble-mcq-01": "本句的「trouble」指「令人感到困難、不順利或需要處理的問題／麻煩」。",
+        "trouble-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-01"
     },
@@ -402,11 +398,9 @@ export default {
       "masked": "The car has been giving us a lot of ____ lately.",
       "options": [
         "trouble-mcq-01",
-        "trouble-mcq-02",
-        "trouble-mcq-03",
-        "trouble-mcq-04",
-        "trouble-mcq-05",
-        "trouble-mcq-06"
+        "trouble-mcq-08",
+        "trouble-mcq-06",
+        "trouble-mcq-12"
       ],
       "explanation": "本句的「trouble」指「令人感到困難、不順利或需要處理的問題／麻煩」。",
       "sentenceIndex": 1,
@@ -415,12 +409,10 @@ export default {
         "trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-01": "本句指「令人感到困難、不順利或需要處理的問題／麻煩」。",
-        "trouble-mcq-02": "「因做錯事或違反規則而面臨責備、處罰或其他不良後果」是「be/get in trouble — punishment」的用法，與本句語境不同。",
-        "trouble-mcq-03": "「處於困難、危險或需要幫助的情況」是「be in trouble — serious difficulty/danger」的用法，與本句語境不同。",
-        "trouble-mcq-04": "「做某事時感到困難，不能輕易完成」是「have trouble doing」的用法，與本句語境不同。",
-        "trouble-mcq-05": "「為完成某件事情而需要付出的額外工夫、時間或不便」是「trouble — effort/inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。"
+        "trouble-mcq-01": "本句的「trouble」指「令人感到困難、不順利或需要處理的問題／麻煩」。",
+        "trouble-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-01"
     },
@@ -432,10 +424,8 @@ export default {
       "masked": "I thought I was going to get into serious ____.",
       "options": [
         "trouble-mcq-02",
-        "trouble-mcq-01",
-        "trouble-mcq-03",
-        "trouble-mcq-04",
-        "trouble-mcq-05",
+        "trouble-mcq-11",
+        "trouble-mcq-07",
         "trouble-mcq-06"
       ],
       "explanation": "本句的「trouble」指「因做錯事或違反規則而面臨責備、處罰或其他不良後果」。",
@@ -445,12 +435,10 @@ export default {
         "trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-02": "本句指「因做錯事或違反規則而面臨責備、處罰或其他不良後果」。",
-        "trouble-mcq-01": "「令人感到困難、不順利或需要處理的問題／麻煩」是「trouble — problem/difficulty」的用法，與本句語境不同。",
-        "trouble-mcq-03": "「處於困難、危險或需要幫助的情況」是「be in trouble — serious difficulty/danger」的用法，與本句語境不同。",
-        "trouble-mcq-04": "「做某事時感到困難，不能輕易完成」是「have trouble doing」的用法，與本句語境不同。",
-        "trouble-mcq-05": "「為完成某件事情而需要付出的額外工夫、時間或不便」是「trouble — effort/inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。"
+        "trouble-mcq-02": "本句的「trouble」指「因做錯事或違反規則而面臨責備、處罰或其他不良後果」。",
+        "trouble-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-02"
     },
@@ -462,10 +450,8 @@ export default {
       "masked": "He got into ____ for breaking the school rules.",
       "options": [
         "trouble-mcq-02",
-        "trouble-mcq-01",
-        "trouble-mcq-03",
-        "trouble-mcq-04",
-        "trouble-mcq-05",
+        "trouble-mcq-11",
+        "trouble-mcq-13",
         "trouble-mcq-06"
       ],
       "explanation": "本句的「trouble」指「因做錯事或違反規則而面臨責備、處罰或其他不良後果」。",
@@ -475,12 +461,10 @@ export default {
         "trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-02": "本句指「因做錯事或違反規則而面臨責備、處罰或其他不良後果」。",
-        "trouble-mcq-01": "「令人感到困難、不順利或需要處理的問題／麻煩」是「trouble — problem/difficulty」的用法，與本句語境不同。",
-        "trouble-mcq-03": "「處於困難、危險或需要幫助的情況」是「be in trouble — serious difficulty/danger」的用法，與本句語境不同。",
-        "trouble-mcq-04": "「做某事時感到困難，不能輕易完成」是「have trouble doing」的用法，與本句語境不同。",
-        "trouble-mcq-05": "「為完成某件事情而需要付出的額外工夫、時間或不便」是「trouble — effort/inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。"
+        "trouble-mcq-02": "本句的「trouble」指「因做錯事或違反規則而面臨責備、處罰或其他不良後果」。",
+        "trouble-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-02"
     },
@@ -492,11 +476,9 @@ export default {
       "masked": "You’ll be in ____ if the teacher finds out.",
       "options": [
         "trouble-mcq-02",
-        "trouble-mcq-01",
-        "trouble-mcq-03",
-        "trouble-mcq-04",
-        "trouble-mcq-05",
-        "trouble-mcq-06"
+        "trouble-mcq-06",
+        "trouble-mcq-10",
+        "trouble-mcq-16"
       ],
       "explanation": "本句的「trouble」指「因做錯事或違反規則而面臨責備、處罰或其他不良後果」。",
       "sentenceIndex": 4,
@@ -505,12 +487,10 @@ export default {
         "trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-02": "本句指「因做錯事或違反規則而面臨責備、處罰或其他不良後果」。",
-        "trouble-mcq-01": "「令人感到困難、不順利或需要處理的問題／麻煩」是「trouble — problem/difficulty」的用法，與本句語境不同。",
-        "trouble-mcq-03": "「處於困難、危險或需要幫助的情況」是「be in trouble — serious difficulty/danger」的用法，與本句語境不同。",
-        "trouble-mcq-04": "「做某事時感到困難，不能輕易完成」是「have trouble doing」的用法，與本句語境不同。",
-        "trouble-mcq-05": "「為完成某件事情而需要付出的額外工夫、時間或不便」是「trouble — effort/inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。"
+        "trouble-mcq-02": "本句的「trouble」指「因做錯事或違反規則而面臨責備、處罰或其他不良後果」。",
+        "trouble-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-02"
     },
@@ -522,11 +502,9 @@ export default {
       "masked": "The climbers were in ____ after the weather changed.",
       "options": [
         "trouble-mcq-03",
-        "trouble-mcq-02",
-        "trouble-mcq-04",
-        "trouble-mcq-01",
-        "trouble-mcq-05",
-        "trouble-mcq-06"
+        "trouble-mcq-12",
+        "trouble-mcq-15",
+        "trouble-mcq-09"
       ],
       "explanation": "本句的「trouble」指「處於困難、危險或需要幫助的情況」。",
       "sentenceIndex": 5,
@@ -535,12 +513,10 @@ export default {
         "trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-03": "本句指「處於困難、危險或需要幫助的情況」。",
-        "trouble-mcq-02": "「因做錯事或違反規則而面臨責備、處罰或其他不良後果」是「be/get in trouble — punishment」的用法，與本句語境不同。",
-        "trouble-mcq-04": "「做某事時感到困難，不能輕易完成」是「have trouble doing」的用法，與本句語境不同。",
-        "trouble-mcq-01": "「令人感到困難、不順利或需要處理的問題／麻煩」是「trouble — problem/difficulty」的用法，與本句語境不同。",
-        "trouble-mcq-05": "「為完成某件事情而需要付出的額外工夫、時間或不便」是「trouble — effort/inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。"
+        "trouble-mcq-03": "本句的「trouble」指「處於困難、危險或需要幫助的情況」。",
+        "trouble-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-03"
     },
@@ -552,11 +528,9 @@ export default {
       "masked": "If the engine fails out here, we could be in real ____.",
       "options": [
         "trouble-mcq-03",
-        "trouble-mcq-02",
-        "trouble-mcq-04",
-        "trouble-mcq-01",
-        "trouble-mcq-05",
-        "trouble-mcq-06"
+        "trouble-mcq-16",
+        "trouble-mcq-06",
+        "trouble-mcq-12"
       ],
       "explanation": "本句的「trouble」指「處於困難、危險或需要幫助的情況」。",
       "sentenceIndex": 6,
@@ -565,12 +539,10 @@ export default {
         "trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-03": "本句指「處於困難、危險或需要幫助的情況」。",
-        "trouble-mcq-02": "「因做錯事或違反規則而面臨責備、處罰或其他不良後果」是「be/get in trouble — punishment」的用法，與本句語境不同。",
-        "trouble-mcq-04": "「做某事時感到困難，不能輕易完成」是「have trouble doing」的用法，與本句語境不同。",
-        "trouble-mcq-01": "「令人感到困難、不順利或需要處理的問題／麻煩」是「trouble — problem/difficulty」的用法，與本句語境不同。",
-        "trouble-mcq-05": "「為完成某件事情而需要付出的額外工夫、時間或不便」是「trouble — effort/inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。"
+        "trouble-mcq-03": "本句的「trouble」指「處於困難、危險或需要幫助的情況」。",
+        "trouble-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-03"
     },
@@ -582,11 +554,9 @@ export default {
       "masked": "I have ____ names.",
       "options": [
         "trouble-mcq-04",
-        "trouble-mcq-03",
-        "trouble-mcq-05",
-        "trouble-mcq-02",
-        "trouble-mcq-06",
-        "trouble-mcq-01"
+        "trouble-mcq-16",
+        "trouble-mcq-10",
+        "trouble-mcq-06"
       ],
       "explanation": "本句的「trouble remembering」指「做某事時感到困難，不能輕易完成」。",
       "sentenceIndex": 7,
@@ -595,12 +565,10 @@ export default {
         "trouble remembering"
       ],
       "optionReasons": {
-        "trouble-mcq-04": "本句指「做某事時感到困難，不能輕易完成」。",
-        "trouble-mcq-03": "「處於困難、危險或需要幫助的情況」是「be in trouble — serious difficulty/danger」的用法，與本句語境不同。",
-        "trouble-mcq-05": "「為完成某件事情而需要付出的額外工夫、時間或不便」是「trouble — effort/inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-02": "「因做錯事或違反規則而面臨責備、處罰或其他不良後果」是「be/get in trouble — punishment」的用法，與本句語境不同。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。",
-        "trouble-mcq-01": "「令人感到困難、不順利或需要處理的問題／麻煩」是「trouble — problem/difficulty」的用法，與本句語境不同。"
+        "trouble-mcq-04": "本句的「trouble remembering」指「做某事時感到困難，不能輕易完成」。",
+        "trouble-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-04"
     },
@@ -612,11 +580,9 @@ export default {
       "masked": "She had ____ the window.",
       "options": [
         "trouble-mcq-04",
-        "trouble-mcq-03",
-        "trouble-mcq-05",
-        "trouble-mcq-02",
+        "trouble-mcq-15",
         "trouble-mcq-06",
-        "trouble-mcq-01"
+        "trouble-mcq-10"
       ],
       "explanation": "本句的「trouble opening」指「做某事時感到困難，不能輕易完成」。",
       "sentenceIndex": 8,
@@ -625,12 +591,10 @@ export default {
         "trouble opening"
       ],
       "optionReasons": {
-        "trouble-mcq-04": "本句指「做某事時感到困難，不能輕易完成」。",
-        "trouble-mcq-03": "「處於困難、危險或需要幫助的情況」是「be in trouble — serious difficulty/danger」的用法，與本句語境不同。",
-        "trouble-mcq-05": "「為完成某件事情而需要付出的額外工夫、時間或不便」是「trouble — effort/inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-02": "「因做錯事或違反規則而面臨責備、處罰或其他不良後果」是「be/get in trouble — punishment」的用法，與本句語境不同。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。",
-        "trouble-mcq-01": "「令人感到困難、不順利或需要處理的問題／麻煩」是「trouble — problem/difficulty」的用法，與本句語境不同。"
+        "trouble-mcq-04": "本句的「trouble opening」指「做某事時感到困難，不能輕易完成」。",
+        "trouble-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-04"
     },
@@ -642,10 +606,8 @@ export default {
       "masked": "Thank you for going to so much ____.",
       "options": [
         "trouble-mcq-05",
-        "trouble-mcq-04",
-        "trouble-mcq-06",
-        "trouble-mcq-03",
-        "trouble-mcq-07",
+        "trouble-mcq-10",
+        "trouble-mcq-16",
         "trouble-mcq-02"
       ],
       "explanation": "本句的「trouble」指「為完成某件事情而需要付出的額外工夫、時間或不便」。",
@@ -655,12 +617,10 @@ export default {
         "trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-05": "本句指「為完成某件事情而需要付出的額外工夫、時間或不便」。",
-        "trouble-mcq-04": "「做某事時感到困難，不能輕易完成」是「have trouble doing」的用法，與本句語境不同。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。",
-        "trouble-mcq-03": "「處於困難、危險或需要幫助的情況」是「be in trouble — serious difficulty/danger」的用法，與本句語境不同。",
-        "trouble-mcq-07": "「令某人感到擔心、不安或心理上受到困擾」是「trouble — verb, worry」的用法，與本句語境不同。",
-        "trouble-mcq-02": "「因做錯事或違反規則而面臨責備、處罰或其他不良後果」是「be/get in trouble — punishment」的用法，與本句語境不同。"
+        "trouble-mcq-05": "本句的「trouble」指「為完成某件事情而需要付出的額外工夫、時間或不便」。",
+        "trouble-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-05"
     },
@@ -672,11 +632,9 @@ export default {
       "masked": "It’s no ____ at all.",
       "options": [
         "trouble-mcq-05",
-        "trouble-mcq-04",
-        "trouble-mcq-06",
-        "trouble-mcq-03",
         "trouble-mcq-07",
-        "trouble-mcq-02"
+        "trouble-mcq-14",
+        "trouble-mcq-16"
       ],
       "explanation": "本句的「trouble」指「為完成某件事情而需要付出的額外工夫、時間或不便」。",
       "sentenceIndex": 10,
@@ -685,12 +643,10 @@ export default {
         "trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-05": "本句指「為完成某件事情而需要付出的額外工夫、時間或不便」。",
-        "trouble-mcq-04": "「做某事時感到困難，不能輕易完成」是「have trouble doing」的用法，與本句語境不同。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。",
-        "trouble-mcq-03": "「處於困難、危險或需要幫助的情況」是「be in trouble — serious difficulty/danger」的用法，與本句語境不同。",
-        "trouble-mcq-07": "「令某人感到擔心、不安或心理上受到困擾」是「trouble — verb, worry」的用法，與本句語境不同。",
-        "trouble-mcq-02": "「因做錯事或違反規則而面臨責備、處罰或其他不良後果」是「be/get in trouble — punishment」的用法，與本句語境不同。"
+        "trouble-mcq-05": "本句的「trouble」指「為完成某件事情而需要付出的額外工夫、時間或不便」。",
+        "trouble-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-05"
     },
@@ -702,11 +658,9 @@ export default {
       "masked": "She ____ explain everything clearly.",
       "options": [
         "trouble-mcq-12",
-        "trouble-mcq-11",
-        "trouble-mcq-13",
-        "trouble-mcq-10",
-        "trouble-mcq-14",
-        "trouble-mcq-09"
+        "trouble-mcq-01",
+        "trouble-mcq-08",
+        "trouble-mcq-06"
       ],
       "explanation": "本句的「took the trouble to」指「願意花額外時間、心力或工夫去做某件事」。",
       "sentenceIndex": 11,
@@ -715,12 +669,10 @@ export default {
         "took the trouble to"
       ],
       "optionReasons": {
-        "trouble-mcq-12": "本句指「願意花額外時間、心力或工夫去做某件事」。",
-        "trouble-mcq-11": "「容易造成麻煩、困難、煩惱或不便的」是「troublesome」的用法，與本句語境不同。",
-        "trouble-mcq-13": "「一個人生活中令其擔憂、痛苦或困擾的各種問題」是「8. troubles = worries / difficulties in one's life（煩惱） — 煩惱；憂患」的用法，與本句語境不同。",
-        "trouble-mcq-10": "「令人擔憂、不安或產生疑慮的」是「troubling」的用法，與本句語境不同。",
-        "trouble-mcq-14": "「做一些很可能引起問題或不良後果的事情」是「Useful expression: ask for trouble — 自找麻煩」的用法，與本句語境不同。",
-        "trouble-mcq-09": "「感到憂慮的，或受到嚴重問題影響的」是「troubled」的用法，與本句語境不同。"
+        "trouble-mcq-12": "本句的「took the trouble to」指「願意花額外時間、心力或工夫去做某件事」。",
+        "trouble-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-12"
     },
@@ -732,11 +684,9 @@ export default {
       "masked": "He ____ preparing a detailed guide.",
       "options": [
         "trouble-mcq-12",
-        "trouble-mcq-11",
-        "trouble-mcq-13",
-        "trouble-mcq-10",
-        "trouble-mcq-14",
-        "trouble-mcq-09"
+        "trouble-mcq-03",
+        "trouble-mcq-06",
+        "trouble-mcq-10"
       ],
       "explanation": "本句的「went to the trouble of」指「願意花額外時間、心力或工夫去做某件事」。",
       "sentenceIndex": 12,
@@ -745,12 +695,10 @@ export default {
         "went to the trouble of"
       ],
       "optionReasons": {
-        "trouble-mcq-12": "本句指「願意花額外時間、心力或工夫去做某件事」。",
-        "trouble-mcq-11": "「容易造成麻煩、困難、煩惱或不便的」是「troublesome」的用法，與本句語境不同。",
-        "trouble-mcq-13": "「一個人生活中令其擔憂、痛苦或困擾的各種問題」是「8. troubles = worries / difficulties in one's life（煩惱） — 煩惱；憂患」的用法，與本句語境不同。",
-        "trouble-mcq-10": "「令人擔憂、不安或產生疑慮的」是「troubling」的用法，與本句語境不同。",
-        "trouble-mcq-14": "「做一些很可能引起問題或不良後果的事情」是「Useful expression: ask for trouble — 自找麻煩」的用法，與本句語境不同。",
-        "trouble-mcq-09": "「感到憂慮的，或受到嚴重問題影響的」是「troubled」的用法，與本句語境不同。"
+        "trouble-mcq-12": "本句的「went to the trouble of」指「願意花額外時間、心力或工夫去做某件事」。",
+        "trouble-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-12"
     },
@@ -762,10 +710,8 @@ export default {
       "masked": "He has had heart ____ for several years.",
       "options": [
         "trouble-mcq-06",
-        "trouble-mcq-05",
-        "trouble-mcq-07",
-        "trouble-mcq-04",
-        "trouble-mcq-08",
+        "trouble-mcq-12",
+        "trouble-mcq-09",
         "trouble-mcq-03"
       ],
       "explanation": "本句的「trouble」指「身體某部位或功能出現的疾病、不適或毛病；屬於」。",
@@ -775,12 +721,10 @@ export default {
         "trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-06": "本句指「身體某部位或功能出現的疾病、不適或毛病；屬於」。",
-        "trouble-mcq-05": "「為完成某件事情而需要付出的額外工夫、時間或不便」是「trouble — effort/inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-07": "「令某人感到擔心、不安或心理上受到困擾」是「trouble — verb, worry」的用法，與本句語境不同。",
-        "trouble-mcq-04": "「做某事時感到困難，不能輕易完成」是「have trouble doing」的用法，與本句語境不同。",
-        "trouble-mcq-08": "「打擾某人、給某人造成不便，或禮貌地請求某人幫忙」是「trouble — verb, inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-03": "「處於困難、危險或需要幫助的情況」是「be in trouble — serious difficulty/danger」的用法，與本句語境不同。"
+        "trouble-mcq-06": "本句的「trouble」指「身體某部位或功能出現的疾病、不適或毛病；屬於」。",
+        "trouble-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-06"
     },
@@ -792,11 +736,9 @@ export default {
       "masked": "She went to the doctor because of stomach ____.",
       "options": [
         "trouble-mcq-06",
-        "trouble-mcq-05",
-        "trouble-mcq-07",
-        "trouble-mcq-04",
-        "trouble-mcq-08",
-        "trouble-mcq-03"
+        "trouble-mcq-01",
+        "trouble-mcq-12",
+        "trouble-mcq-08"
       ],
       "explanation": "本句的「trouble」指「身體某部位或功能出現的疾病、不適或毛病；屬於」。",
       "sentenceIndex": 14,
@@ -805,12 +747,10 @@ export default {
         "trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-06": "本句指「身體某部位或功能出現的疾病、不適或毛病；屬於」。",
-        "trouble-mcq-05": "「為完成某件事情而需要付出的額外工夫、時間或不便」是「trouble — effort/inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-07": "「令某人感到擔心、不安或心理上受到困擾」是「trouble — verb, worry」的用法，與本句語境不同。",
-        "trouble-mcq-04": "「做某事時感到困難，不能輕易完成」是「have trouble doing」的用法，與本句語境不同。",
-        "trouble-mcq-08": "「打擾某人、給某人造成不便，或禮貌地請求某人幫忙」是「trouble — verb, inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-03": "「處於困難、危險或需要幫助的情況」是「be in trouble — serious difficulty/danger」的用法，與本句語境不同。"
+        "trouble-mcq-06": "本句的「trouble」指「身體某部位或功能出現的疾病、不適或毛病；屬於」。",
+        "trouble-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-06"
     },
@@ -822,11 +762,9 @@ export default {
       "masked": "She told him about her ____.",
       "options": [
         "trouble-mcq-13",
-        "trouble-mcq-12",
-        "trouble-mcq-14",
-        "trouble-mcq-11",
-        "trouble-mcq-15",
-        "trouble-mcq-10"
+        "trouble-mcq-02",
+        "trouble-mcq-16",
+        "trouble-mcq-12"
       ],
       "explanation": "本句的「troubles」指「一個人生活中令其擔憂、痛苦或困擾的各種問題」。",
       "sentenceIndex": 15,
@@ -835,12 +773,10 @@ export default {
         "troubles"
       ],
       "optionReasons": {
-        "trouble-mcq-13": "本句指「一個人生活中令其擔憂、痛苦或困擾的各種問題」。",
-        "trouble-mcq-12": "「願意花額外時間、心力或工夫去做某件事」是「6. take/go to the trouble to do something（特地費心） — 特地；費心去做」的用法，與本句語境不同。",
-        "trouble-mcq-14": "「做一些很可能引起問題或不良後果的事情」是「Useful expression: ask for trouble — 自找麻煩」的用法，與本句語境不同。",
-        "trouble-mcq-11": "「容易造成麻煩、困難、煩惱或不便的」是「troublesome」的用法，與本句語境不同。",
-        "trouble-mcq-15": "「表示避免惹麻煩」是「Useful expression: stay out of trouble — 避免惹麻煩」的用法，與本句語境不同。",
-        "trouble-mcq-10": "「令人擔憂、不安或產生疑慮的」是「troubling」的用法，與本句語境不同。"
+        "trouble-mcq-13": "本句的「troubles」指「一個人生活中令其擔憂、痛苦或困擾的各種問題」。",
+        "trouble-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-13"
     },
@@ -852,11 +788,9 @@ export default {
       "masked": "Music helped him forget his ____ for a while.",
       "options": [
         "trouble-mcq-13",
-        "trouble-mcq-12",
-        "trouble-mcq-14",
-        "trouble-mcq-11",
-        "trouble-mcq-15",
-        "trouble-mcq-10"
+        "trouble-mcq-16",
+        "trouble-mcq-06",
+        "trouble-mcq-05"
       ],
       "explanation": "本句的「troubles」指「一個人生活中令其擔憂、痛苦或困擾的各種問題」。",
       "sentenceIndex": 16,
@@ -865,12 +799,10 @@ export default {
         "troubles"
       ],
       "optionReasons": {
-        "trouble-mcq-13": "本句指「一個人生活中令其擔憂、痛苦或困擾的各種問題」。",
-        "trouble-mcq-12": "「願意花額外時間、心力或工夫去做某件事」是「6. take/go to the trouble to do something（特地費心） — 特地；費心去做」的用法，與本句語境不同。",
-        "trouble-mcq-14": "「做一些很可能引起問題或不良後果的事情」是「Useful expression: ask for trouble — 自找麻煩」的用法，與本句語境不同。",
-        "trouble-mcq-11": "「容易造成麻煩、困難、煩惱或不便的」是「troublesome」的用法，與本句語境不同。",
-        "trouble-mcq-15": "「表示避免惹麻煩」是「Useful expression: stay out of trouble — 避免惹麻煩」的用法，與本句語境不同。",
-        "trouble-mcq-10": "「令人擔憂、不安或產生疑慮的」是「troubling」的用法，與本句語境不同。"
+        "trouble-mcq-13": "本句的「troubles」指「一個人生活中令其擔憂、痛苦或困擾的各種問題」。",
+        "trouble-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-13"
     },
@@ -882,11 +814,9 @@ export default {
       "masked": "Something about his explanation ____ me.",
       "options": [
         "trouble-mcq-07",
-        "trouble-mcq-06",
-        "trouble-mcq-08",
-        "trouble-mcq-05",
-        "trouble-mcq-09",
-        "trouble-mcq-04"
+        "trouble-mcq-16",
+        "trouble-mcq-14",
+        "trouble-mcq-06"
       ],
       "explanation": "本句的「troubled」指「令某人感到擔心、不安或心理上受到困擾」。",
       "sentenceIndex": 17,
@@ -895,12 +825,10 @@ export default {
         "troubled"
       ],
       "optionReasons": {
-        "trouble-mcq-07": "本句指「令某人感到擔心、不安或心理上受到困擾」。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。",
-        "trouble-mcq-08": "「打擾某人、給某人造成不便，或禮貌地請求某人幫忙」是「trouble — verb, inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-05": "「為完成某件事情而需要付出的額外工夫、時間或不便」是「trouble — effort/inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-09": "「感到憂慮的，或受到嚴重問題影響的」是「troubled」的用法，與本句語境不同。",
-        "trouble-mcq-04": "「做某事時感到困難，不能輕易完成」是「have trouble doing」的用法，與本句語境不同。"
+        "trouble-mcq-07": "本句的「troubled」指「令某人感到擔心、不安或心理上受到困擾」。",
+        "trouble-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-07"
     },
@@ -912,11 +840,9 @@ export default {
       "masked": "She was deeply ____ by what she had heard.",
       "options": [
         "trouble-mcq-07",
-        "trouble-mcq-06",
-        "trouble-mcq-08",
+        "trouble-mcq-16",
         "trouble-mcq-05",
-        "trouble-mcq-09",
-        "trouble-mcq-04"
+        "trouble-mcq-02"
       ],
       "explanation": "本句的「troubled」指「令某人感到擔心、不安或心理上受到困擾」。",
       "sentenceIndex": 18,
@@ -925,12 +851,10 @@ export default {
         "troubled"
       ],
       "optionReasons": {
-        "trouble-mcq-07": "本句指「令某人感到擔心、不安或心理上受到困擾」。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。",
-        "trouble-mcq-08": "「打擾某人、給某人造成不便，或禮貌地請求某人幫忙」是「trouble — verb, inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-05": "「為完成某件事情而需要付出的額外工夫、時間或不便」是「trouble — effort/inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-09": "「感到憂慮的，或受到嚴重問題影響的」是「troubled」的用法，與本句語境不同。",
-        "trouble-mcq-04": "「做某事時感到困難，不能輕易完成」是「have trouble doing」的用法，與本句語境不同。"
+        "trouble-mcq-07": "本句的「troubled」指「令某人感到擔心、不安或心理上受到困擾」。",
+        "trouble-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-07"
     },
@@ -942,11 +866,9 @@ export default {
       "masked": "Could I ____ you for a glass of water?",
       "options": [
         "trouble-mcq-08",
-        "trouble-mcq-07",
         "trouble-mcq-09",
-        "trouble-mcq-06",
-        "trouble-mcq-10",
-        "trouble-mcq-05"
+        "trouble-mcq-16",
+        "trouble-mcq-06"
       ],
       "explanation": "本句的「trouble」指「打擾某人、給某人造成不便，或禮貌地請求某人幫忙」。",
       "sentenceIndex": 19,
@@ -955,12 +877,10 @@ export default {
         "trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-08": "本句指「打擾某人、給某人造成不便，或禮貌地請求某人幫忙」。",
-        "trouble-mcq-07": "「令某人感到擔心、不安或心理上受到困擾」是「trouble — verb, worry」的用法，與本句語境不同。",
-        "trouble-mcq-09": "「感到憂慮的，或受到嚴重問題影響的」是「troubled」的用法，與本句語境不同。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。",
-        "trouble-mcq-10": "「令人擔憂、不安或產生疑慮的」是「troubling」的用法，與本句語境不同。",
-        "trouble-mcq-05": "「為完成某件事情而需要付出的額外工夫、時間或不便」是「trouble — effort/inconvenience」的用法，與本句語境不同。"
+        "trouble-mcq-08": "本句的「trouble」指「打擾某人、給某人造成不便，或禮貌地請求某人幫忙」。",
+        "trouble-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-08"
     },
@@ -972,11 +892,9 @@ export default {
       "masked": "I’m sorry to ____ you so late.",
       "options": [
         "trouble-mcq-08",
-        "trouble-mcq-07",
         "trouble-mcq-09",
-        "trouble-mcq-06",
-        "trouble-mcq-10",
-        "trouble-mcq-05"
+        "trouble-mcq-12",
+        "trouble-mcq-02"
       ],
       "explanation": "本句的「trouble」指「打擾某人、給某人造成不便，或禮貌地請求某人幫忙」。",
       "sentenceIndex": 20,
@@ -985,12 +903,10 @@ export default {
         "trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-08": "本句指「打擾某人、給某人造成不便，或禮貌地請求某人幫忙」。",
-        "trouble-mcq-07": "「令某人感到擔心、不安或心理上受到困擾」是「trouble — verb, worry」的用法，與本句語境不同。",
-        "trouble-mcq-09": "「感到憂慮的，或受到嚴重問題影響的」是「troubled」的用法，與本句語境不同。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。",
-        "trouble-mcq-10": "「令人擔憂、不安或產生疑慮的」是「troubling」的用法，與本句語境不同。",
-        "trouble-mcq-05": "「為完成某件事情而需要付出的額外工夫、時間或不便」是「trouble — effort/inconvenience」的用法，與本句語境不同。"
+        "trouble-mcq-08": "本句的「trouble」指「打擾某人、給某人造成不便，或禮貌地請求某人幫忙」。",
+        "trouble-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-08"
     },
@@ -1002,10 +918,8 @@ export default {
       "masked": "He looked deeply ____.",
       "options": [
         "trouble-mcq-09",
-        "trouble-mcq-08",
-        "trouble-mcq-10",
-        "trouble-mcq-07",
         "trouble-mcq-11",
+        "trouble-mcq-02",
         "trouble-mcq-06"
       ],
       "explanation": "本句的「troubled」指「感到憂慮的，或受到嚴重問題影響的」。",
@@ -1015,12 +929,10 @@ export default {
         "troubled"
       ],
       "optionReasons": {
-        "trouble-mcq-09": "本句指「感到憂慮的，或受到嚴重問題影響的」。",
-        "trouble-mcq-08": "「打擾某人、給某人造成不便，或禮貌地請求某人幫忙」是「trouble — verb, inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-10": "「令人擔憂、不安或產生疑慮的」是「troubling」的用法，與本句語境不同。",
-        "trouble-mcq-07": "「令某人感到擔心、不安或心理上受到困擾」是「trouble — verb, worry」的用法，與本句語境不同。",
-        "trouble-mcq-11": "「容易造成麻煩、困難、煩惱或不便的」是「troublesome」的用法，與本句語境不同。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。"
+        "trouble-mcq-09": "本句的「troubled」指「感到憂慮的，或受到嚴重問題影響的」。",
+        "trouble-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-09"
     },
@@ -1032,11 +944,9 @@ export default {
       "masked": "The company has had a ____ history.",
       "options": [
         "trouble-mcq-09",
-        "trouble-mcq-08",
-        "trouble-mcq-10",
-        "trouble-mcq-07",
-        "trouble-mcq-11",
-        "trouble-mcq-06"
+        "trouble-mcq-03",
+        "trouble-mcq-06",
+        "trouble-mcq-15"
       ],
       "explanation": "本句的「troubled」指「感到憂慮的，或受到嚴重問題影響的」。",
       "sentenceIndex": 22,
@@ -1045,12 +955,10 @@ export default {
         "troubled"
       ],
       "optionReasons": {
-        "trouble-mcq-09": "本句指「感到憂慮的，或受到嚴重問題影響的」。",
-        "trouble-mcq-08": "「打擾某人、給某人造成不便，或禮貌地請求某人幫忙」是「trouble — verb, inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-10": "「令人擔憂、不安或產生疑慮的」是「troubling」的用法，與本句語境不同。",
-        "trouble-mcq-07": "「令某人感到擔心、不安或心理上受到困擾」是「trouble — verb, worry」的用法，與本句語境不同。",
-        "trouble-mcq-11": "「容易造成麻煩、困難、煩惱或不便的」是「troublesome」的用法，與本句語境不同。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。"
+        "trouble-mcq-09": "本句的「troubled」指「感到憂慮的，或受到嚴重問題影響的」。",
+        "trouble-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-09"
     },
@@ -1062,11 +970,9 @@ export default {
       "masked": "They tried to help children from ____ families.",
       "options": [
         "trouble-mcq-09",
-        "trouble-mcq-08",
-        "trouble-mcq-10",
-        "trouble-mcq-07",
-        "trouble-mcq-11",
-        "trouble-mcq-06"
+        "trouble-mcq-12",
+        "trouble-mcq-03",
+        "trouble-mcq-02"
       ],
       "explanation": "本句的「troubled」指「感到憂慮的，或受到嚴重問題影響的」。",
       "sentenceIndex": 23,
@@ -1075,12 +981,10 @@ export default {
         "troubled"
       ],
       "optionReasons": {
-        "trouble-mcq-09": "本句指「感到憂慮的，或受到嚴重問題影響的」。",
-        "trouble-mcq-08": "「打擾某人、給某人造成不便，或禮貌地請求某人幫忙」是「trouble — verb, inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-10": "「令人擔憂、不安或產生疑慮的」是「troubling」的用法，與本句語境不同。",
-        "trouble-mcq-07": "「令某人感到擔心、不安或心理上受到困擾」是「trouble — verb, worry」的用法，與本句語境不同。",
-        "trouble-mcq-11": "「容易造成麻煩、困難、煩惱或不便的」是「troublesome」的用法，與本句語境不同。",
-        "trouble-mcq-06": "「身體某部位或功能出現的疾病、不適或毛病；屬於」是「trouble — health problem」的用法，與本句語境不同。"
+        "trouble-mcq-09": "本句的「troubled」指「感到憂慮的，或受到嚴重問題影響的」。",
+        "trouble-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-09"
     },
@@ -1092,11 +996,9 @@ export default {
       "masked": "The report contains some ____ findings.",
       "options": [
         "trouble-mcq-10",
-        "trouble-mcq-09",
-        "trouble-mcq-11",
-        "trouble-mcq-08",
-        "trouble-mcq-12",
-        "trouble-mcq-07"
+        "trouble-mcq-16",
+        "trouble-mcq-02",
+        "trouble-mcq-12"
       ],
       "explanation": "本句的「troubling」指「令人擔憂、不安或產生疑慮的」。",
       "sentenceIndex": 24,
@@ -1105,12 +1007,10 @@ export default {
         "troubling"
       ],
       "optionReasons": {
-        "trouble-mcq-10": "本句指「令人擔憂、不安或產生疑慮的」。",
-        "trouble-mcq-09": "「感到憂慮的，或受到嚴重問題影響的」是「troubled」的用法，與本句語境不同。",
-        "trouble-mcq-11": "「容易造成麻煩、困難、煩惱或不便的」是「troublesome」的用法，與本句語境不同。",
-        "trouble-mcq-08": "「打擾某人、給某人造成不便，或禮貌地請求某人幫忙」是「trouble — verb, inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-12": "「願意花額外時間、心力或工夫去做某件事」是「6. take/go to the trouble to do something（特地費心） — 特地；費心去做」的用法，與本句語境不同。",
-        "trouble-mcq-07": "「令某人感到擔心、不安或心理上受到困擾」是「trouble — verb, worry」的用法，與本句語境不同。"
+        "trouble-mcq-10": "本句的「troubling」指「令人擔憂、不安或產生疑慮的」。",
+        "trouble-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-10"
     },
@@ -1122,11 +1022,9 @@ export default {
       "masked": "That is a ____ sign.",
       "options": [
         "trouble-mcq-10",
-        "trouble-mcq-09",
-        "trouble-mcq-11",
-        "trouble-mcq-08",
-        "trouble-mcq-12",
-        "trouble-mcq-07"
+        "trouble-mcq-04",
+        "trouble-mcq-16",
+        "trouble-mcq-02"
       ],
       "explanation": "本句的「troubling」指「令人擔憂、不安或產生疑慮的」。",
       "sentenceIndex": 25,
@@ -1135,12 +1033,10 @@ export default {
         "troubling"
       ],
       "optionReasons": {
-        "trouble-mcq-10": "本句指「令人擔憂、不安或產生疑慮的」。",
-        "trouble-mcq-09": "「感到憂慮的，或受到嚴重問題影響的」是「troubled」的用法，與本句語境不同。",
-        "trouble-mcq-11": "「容易造成麻煩、困難、煩惱或不便的」是「troublesome」的用法，與本句語境不同。",
-        "trouble-mcq-08": "「打擾某人、給某人造成不便，或禮貌地請求某人幫忙」是「trouble — verb, inconvenience」的用法，與本句語境不同。",
-        "trouble-mcq-12": "「願意花額外時間、心力或工夫去做某件事」是「6. take/go to the trouble to do something（特地費心） — 特地；費心去做」的用法，與本句語境不同。",
-        "trouble-mcq-07": "「令某人感到擔心、不安或心理上受到困擾」是「trouble — verb, worry」的用法，與本句語境不同。"
+        "trouble-mcq-10": "本句的「troubling」指「令人擔憂、不安或產生疑慮的」。",
+        "trouble-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-10"
     },
@@ -1152,11 +1048,9 @@ export default {
       "masked": "This is a ____ problem.",
       "options": [
         "trouble-mcq-11",
-        "trouble-mcq-10",
-        "trouble-mcq-12",
         "trouble-mcq-09",
-        "trouble-mcq-13",
-        "trouble-mcq-08"
+        "trouble-mcq-02",
+        "trouble-mcq-12"
       ],
       "explanation": "本句的「troublesome」指「容易造成麻煩、困難、煩惱或不便的」。",
       "sentenceIndex": 26,
@@ -1165,12 +1059,10 @@ export default {
         "troublesome"
       ],
       "optionReasons": {
-        "trouble-mcq-11": "本句指「容易造成麻煩、困難、煩惱或不便的」。",
-        "trouble-mcq-10": "「令人擔憂、不安或產生疑慮的」是「troubling」的用法，與本句語境不同。",
-        "trouble-mcq-12": "「願意花額外時間、心力或工夫去做某件事」是「6. take/go to the trouble to do something（特地費心） — 特地；費心去做」的用法，與本句語境不同。",
-        "trouble-mcq-09": "「感到憂慮的，或受到嚴重問題影響的」是「troubled」的用法，與本句語境不同。",
-        "trouble-mcq-13": "「一個人生活中令其擔憂、痛苦或困擾的各種問題」是「8. troubles = worries / difficulties in one's life（煩惱） — 煩惱；憂患」的用法，與本句語境不同。",
-        "trouble-mcq-08": "「打擾某人、給某人造成不便，或禮貌地請求某人幫忙」是「trouble — verb, inconvenience」的用法，與本句語境不同。"
+        "trouble-mcq-11": "本句的「troublesome」指「容易造成麻煩、困難、煩惱或不便的」。",
+        "trouble-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-11"
     },
@@ -1182,11 +1074,9 @@ export default {
       "masked": "The machine has been ____ lately.",
       "options": [
         "trouble-mcq-11",
-        "trouble-mcq-10",
+        "trouble-mcq-02",
         "trouble-mcq-12",
-        "trouble-mcq-09",
-        "trouble-mcq-13",
-        "trouble-mcq-08"
+        "trouble-mcq-09"
       ],
       "explanation": "本句的「troublesome」指「容易造成麻煩、困難、煩惱或不便的」。",
       "sentenceIndex": 27,
@@ -1195,12 +1085,10 @@ export default {
         "troublesome"
       ],
       "optionReasons": {
-        "trouble-mcq-11": "本句指「容易造成麻煩、困難、煩惱或不便的」。",
-        "trouble-mcq-10": "「令人擔憂、不安或產生疑慮的」是「troubling」的用法，與本句語境不同。",
-        "trouble-mcq-12": "「願意花額外時間、心力或工夫去做某件事」是「6. take/go to the trouble to do something（特地費心） — 特地；費心去做」的用法，與本句語境不同。",
-        "trouble-mcq-09": "「感到憂慮的，或受到嚴重問題影響的」是「troubled」的用法，與本句語境不同。",
-        "trouble-mcq-13": "「一個人生活中令其擔憂、痛苦或困擾的各種問題」是「8. troubles = worries / difficulties in one's life（煩惱） — 煩惱；憂患」的用法，與本句語境不同。",
-        "trouble-mcq-08": "「打擾某人、給某人造成不便，或禮貌地請求某人幫忙」是「trouble — verb, inconvenience」的用法，與本句語境不同。"
+        "trouble-mcq-11": "本句的「troublesome」指「容易造成麻煩、困難、煩惱或不便的」。",
+        "trouble-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-11"
     },
@@ -1212,11 +1100,9 @@ export default {
       "masked": "Driving that fast is ____.",
       "options": [
         "trouble-mcq-14",
-        "trouble-mcq-13",
-        "trouble-mcq-15",
-        "trouble-mcq-12",
         "trouble-mcq-16",
-        "trouble-mcq-11"
+        "trouble-mcq-07",
+        "trouble-mcq-05"
       ],
       "explanation": "本句的「asking for trouble」指「做一些很可能引起問題或不良後果的事情」。",
       "sentenceIndex": 28,
@@ -1225,12 +1111,10 @@ export default {
         "asking for trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-14": "本句指「做一些很可能引起問題或不良後果的事情」。",
-        "trouble-mcq-13": "「一個人生活中令其擔憂、痛苦或困擾的各種問題」是「8. troubles = worries / difficulties in one's life（煩惱） — 煩惱；憂患」的用法，與本句語境不同。",
-        "trouble-mcq-15": "「表示避免惹麻煩」是「Useful expression: stay out of trouble — 避免惹麻煩」的用法，與本句語境不同。",
-        "trouble-mcq-12": "「願意花額外時間、心力或工夫去做某件事」是「6. take/go to the trouble to do something（特地費心） — 特地；費心去做」的用法，與本句語境不同。",
-        "trouble-mcq-16": "「表示一點也不麻煩」是「Useful expression: no trouble at all — 一點也不麻煩」的用法，與本句語境不同。",
-        "trouble-mcq-11": "「容易造成麻煩、困難、煩惱或不便的」是「troublesome」的用法，與本句語境不同。"
+        "trouble-mcq-14": "本句的「asking for trouble」指「做一些很可能引起問題或不良後果的事情」。",
+        "trouble-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-14"
     },
@@ -1242,11 +1126,9 @@ export default {
       "masked": "Ignoring the warning would be ____.",
       "options": [
         "trouble-mcq-14",
-        "trouble-mcq-13",
-        "trouble-mcq-15",
-        "trouble-mcq-12",
+        "trouble-mcq-07",
         "trouble-mcq-16",
-        "trouble-mcq-11"
+        "trouble-mcq-06"
       ],
       "explanation": "本句的「asking for trouble」指「做一些很可能引起問題或不良後果的事情」。",
       "sentenceIndex": 29,
@@ -1255,12 +1137,10 @@ export default {
         "asking for trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-14": "本句指「做一些很可能引起問題或不良後果的事情」。",
-        "trouble-mcq-13": "「一個人生活中令其擔憂、痛苦或困擾的各種問題」是「8. troubles = worries / difficulties in one's life（煩惱） — 煩惱；憂患」的用法，與本句語境不同。",
-        "trouble-mcq-15": "「表示避免惹麻煩」是「Useful expression: stay out of trouble — 避免惹麻煩」的用法，與本句語境不同。",
-        "trouble-mcq-12": "「願意花額外時間、心力或工夫去做某件事」是「6. take/go to the trouble to do something（特地費心） — 特地；費心去做」的用法，與本句語境不同。",
-        "trouble-mcq-16": "「表示一點也不麻煩」是「Useful expression: no trouble at all — 一點也不麻煩」的用法，與本句語境不同。",
-        "trouble-mcq-11": "「容易造成麻煩、困難、煩惱或不便的」是「troublesome」的用法，與本句語境不同。"
+        "trouble-mcq-14": "本句的「asking for trouble」指「做一些很可能引起問題或不良後果的事情」。",
+        "trouble-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-14"
     },
@@ -1272,11 +1152,9 @@ export default {
       "masked": "Try to ____.",
       "options": [
         "trouble-mcq-15",
-        "trouble-mcq-14",
-        "trouble-mcq-16",
-        "trouble-mcq-13",
         "trouble-mcq-12",
-        "trouble-mcq-11"
+        "trouble-mcq-14",
+        "trouble-mcq-07"
       ],
       "explanation": "本句的「stay out of trouble」指「表示避免惹麻煩」。",
       "sentenceIndex": 30,
@@ -1285,12 +1163,10 @@ export default {
         "stay out of trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-15": "本句指「表示避免惹麻煩」。",
-        "trouble-mcq-14": "「做一些很可能引起問題或不良後果的事情」是「Useful expression: ask for trouble — 自找麻煩」的用法，與本句語境不同。",
-        "trouble-mcq-16": "「表示一點也不麻煩」是「Useful expression: no trouble at all — 一點也不麻煩」的用法，與本句語境不同。",
-        "trouble-mcq-13": "「一個人生活中令其擔憂、痛苦或困擾的各種問題」是「8. troubles = worries / difficulties in one's life（煩惱） — 煩惱；憂患」的用法，與本句語境不同。",
-        "trouble-mcq-12": "「願意花額外時間、心力或工夫去做某件事」是「6. take/go to the trouble to do something（特地費心） — 特地；費心去做」的用法，與本句語境不同。",
-        "trouble-mcq-11": "「容易造成麻煩、困難、煩惱或不便的」是「troublesome」的用法，與本句語境不同。"
+        "trouble-mcq-15": "本句的「stay out of trouble」指「表示避免惹麻煩」。",
+        "trouble-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-15"
     },
@@ -1302,11 +1178,9 @@ export default {
       "masked": "He promised his parents he would stay out of ____.",
       "options": [
         "trouble-mcq-15",
-        "trouble-mcq-14",
-        "trouble-mcq-16",
-        "trouble-mcq-13",
-        "trouble-mcq-12",
-        "trouble-mcq-11"
+        "trouble-mcq-02",
+        "trouble-mcq-05",
+        "trouble-mcq-09"
       ],
       "explanation": "本句的「trouble」指「表示避免惹麻煩」。",
       "sentenceIndex": 31,
@@ -1315,12 +1189,10 @@ export default {
         "trouble"
       ],
       "optionReasons": {
-        "trouble-mcq-15": "本句指「表示避免惹麻煩」。",
-        "trouble-mcq-14": "「做一些很可能引起問題或不良後果的事情」是「Useful expression: ask for trouble — 自找麻煩」的用法，與本句語境不同。",
-        "trouble-mcq-16": "「表示一點也不麻煩」是「Useful expression: no trouble at all — 一點也不麻煩」的用法，與本句語境不同。",
-        "trouble-mcq-13": "「一個人生活中令其擔憂、痛苦或困擾的各種問題」是「8. troubles = worries / difficulties in one's life（煩惱） — 煩惱；憂患」的用法，與本句語境不同。",
-        "trouble-mcq-12": "「願意花額外時間、心力或工夫去做某件事」是「6. take/go to the trouble to do something（特地費心） — 特地；費心去做」的用法，與本句語境不同。",
-        "trouble-mcq-11": "「容易造成麻煩、困難、煩惱或不便的」是「troublesome」的用法，與本句語境不同。"
+        "trouble-mcq-15": "本句的「trouble」指「表示避免惹麻煩」。",
+        "trouble-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-15"
     },
@@ -1332,11 +1204,9 @@ export default {
       "masked": "Thanks for helping me.” > “It was ____.",
       "options": [
         "trouble-mcq-16",
-        "trouble-mcq-15",
-        "trouble-mcq-14",
-        "trouble-mcq-13",
-        "trouble-mcq-12",
-        "trouble-mcq-11"
+        "trouble-mcq-04",
+        "trouble-mcq-06",
+        "trouble-mcq-10"
       ],
       "explanation": "本句的「no trouble at all」指「表示一點也不麻煩」。",
       "sentenceIndex": 32,
@@ -1345,12 +1215,10 @@ export default {
         "no trouble at all"
       ],
       "optionReasons": {
-        "trouble-mcq-16": "本句指「表示一點也不麻煩」。",
-        "trouble-mcq-15": "「表示避免惹麻煩」是「Useful expression: stay out of trouble — 避免惹麻煩」的用法，與本句語境不同。",
-        "trouble-mcq-14": "「做一些很可能引起問題或不良後果的事情」是「Useful expression: ask for trouble — 自找麻煩」的用法，與本句語境不同。",
-        "trouble-mcq-13": "「一個人生活中令其擔憂、痛苦或困擾的各種問題」是「8. troubles = worries / difficulties in one's life（煩惱） — 煩惱；憂患」的用法，與本句語境不同。",
-        "trouble-mcq-12": "「願意花額外時間、心力或工夫去做某件事」是「6. take/go to the trouble to do something（特地費心） — 特地；費心去做」的用法，與本句語境不同。",
-        "trouble-mcq-11": "「容易造成麻煩、困難、煩惱或不便的」是「troublesome」的用法，與本句語境不同。"
+        "trouble-mcq-16": "本句的「no trouble at all」指「表示一點也不麻煩」。",
+        "trouble-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trouble-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trouble-mcq-16"
     }
@@ -1362,5 +1230,7 @@ export default {
     "sha256": "d01033f7364c2461c1ff6994cbb8752dec674855d524694321442ea0c275c4db",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -400,11 +400,8 @@ export default {
       "masked": "The news ____ everyone.",
       "options": [
         "stun-mcq-01",
-        "stun-mcq-02",
-        "stun-mcq-03",
-        "stun-mcq-04",
-        "stun-mcq-05",
-        "stun-mcq-06"
+        "stun-mcq-11",
+        "stun-mcq-16"
       ],
       "explanation": "本句的「stunned」指「令某人因極度意外／震驚而短暫難以正常反應」。",
       "sentenceIndex": 0,
@@ -413,12 +410,9 @@ export default {
         "stunned"
       ],
       "optionReasons": {
-        "stun-mcq-01": "本句指「令某人因極度意外／震驚而短暫難以正常反應」。",
-        "stun-mcq-02": "「因震驚程度太強而一時愣住、說不出話或反應不過來的」與本句語境不同。",
-        "stun-mcq-03": "「因 X 而極度震驚／愣住」與本句語境不同。",
-        "stun-mcq-04": "「因發現／得知某事而極度震驚」與本句語境不同。",
-        "stun-mcq-05": "「人們因過度震驚而一時完全沉默的狀態」與本句語境不同。",
-        "stun-mcq-06": "「顯示極度意外、愕然的表情」與本句語境不同。"
+        "stun-mcq-01": "本句的「stunned」指「令某人因極度意外／震驚而短暫難以正常反應」。",
+        "stun-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-01"
     },
@@ -430,11 +424,8 @@ export default {
       "masked": "Her sudden resignation ____ the team.",
       "options": [
         "stun-mcq-01",
-        "stun-mcq-02",
-        "stun-mcq-03",
-        "stun-mcq-04",
-        "stun-mcq-05",
-        "stun-mcq-06"
+        "stun-mcq-11",
+        "stun-mcq-16"
       ],
       "explanation": "本句的「stunned」指「令某人因極度意外／震驚而短暫難以正常反應」。",
       "sentenceIndex": 1,
@@ -443,12 +434,9 @@ export default {
         "stunned"
       ],
       "optionReasons": {
-        "stun-mcq-01": "本句指「令某人因極度意外／震驚而短暫難以正常反應」。",
-        "stun-mcq-02": "「因震驚程度太強而一時愣住、說不出話或反應不過來的」與本句語境不同。",
-        "stun-mcq-03": "「因 X 而極度震驚／愣住」與本句語境不同。",
-        "stun-mcq-04": "「因發現／得知某事而極度震驚」與本句語境不同。",
-        "stun-mcq-05": "「人們因過度震驚而一時完全沉默的狀態」與本句語境不同。",
-        "stun-mcq-06": "「顯示極度意外、愕然的表情」與本句語境不同。"
+        "stun-mcq-01": "本句的「stunned」指「令某人因極度意外／震驚而短暫難以正常反應」。",
+        "stun-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-01"
     },
@@ -460,11 +448,9 @@ export default {
       "masked": "The announcement was followed by ____.",
       "options": [
         "stun-mcq-05",
-        "stun-mcq-04",
+        "stun-mcq-09",
         "stun-mcq-06",
-        "stun-mcq-03",
-        "stun-mcq-07",
-        "stun-mcq-02"
+        "stun-mcq-15"
       ],
       "explanation": "本句的「stunned silence」指「人們因過度震驚而一時完全沉默的狀態」。",
       "sentenceIndex": 10,
@@ -473,12 +459,10 @@ export default {
         "stunned silence"
       ],
       "optionReasons": {
-        "stun-mcq-05": "本句指「人們因過度震驚而一時完全沉默的狀態」。",
-        "stun-mcq-04": "「因發現／得知某事而極度震驚」與本句語境不同。",
-        "stun-mcq-06": "「顯示極度意外、愕然的表情」與本句語境不同。",
-        "stun-mcq-03": "「因 X 而極度震驚／愣住」與本句語境不同。",
-        "stun-mcq-07": "「透過撞擊、電擊等令某人短暫失去知覺、方向感或行動能力」與本句語境不同。",
-        "stun-mcq-02": "「因震驚程度太強而一時愣住、說不出話或反應不過來的」與本句語境不同。"
+        "stun-mcq-05": "本句的「stunned silence」指「人們因過度震驚而一時完全沉默的狀態」。",
+        "stun-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-05"
     },
@@ -490,11 +474,9 @@ export default {
       "masked": "The room fell into ____ silence.",
       "options": [
         "stun-mcq-05",
-        "stun-mcq-04",
-        "stun-mcq-06",
-        "stun-mcq-03",
-        "stun-mcq-07",
-        "stun-mcq-02"
+        "stun-mcq-09",
+        "stun-mcq-19",
+        "stun-mcq-15"
       ],
       "explanation": "本句的「stunned」指「人們因過度震驚而一時完全沉默的狀態」。",
       "sentenceIndex": 11,
@@ -503,12 +485,10 @@ export default {
         "stunned"
       ],
       "optionReasons": {
-        "stun-mcq-05": "本句指「人們因過度震驚而一時完全沉默的狀態」。",
-        "stun-mcq-04": "「因發現／得知某事而極度震驚」與本句語境不同。",
-        "stun-mcq-06": "「顯示極度意外、愕然的表情」與本句語境不同。",
-        "stun-mcq-03": "「因 X 而極度震驚／愣住」與本句語境不同。",
-        "stun-mcq-07": "「透過撞擊、電擊等令某人短暫失去知覺、方向感或行動能力」與本句語境不同。",
-        "stun-mcq-02": "「因震驚程度太強而一時愣住、說不出話或反應不過來的」與本句語境不同。"
+        "stun-mcq-05": "本句的「stunned」指「人們因過度震驚而一時完全沉默的狀態」。",
+        "stun-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-05"
     },
@@ -520,11 +500,9 @@ export default {
       "masked": "He had a ____ on his face.",
       "options": [
         "stun-mcq-06",
-        "stun-mcq-05",
-        "stun-mcq-07",
-        "stun-mcq-04",
-        "stun-mcq-08",
-        "stun-mcq-03"
+        "stun-mcq-11",
+        "stun-mcq-22",
+        "stun-mcq-16"
       ],
       "explanation": "本句的「stunned expression」指「顯示極度意外、愕然的表情」。",
       "sentenceIndex": 12,
@@ -533,12 +511,10 @@ export default {
         "stunned expression"
       ],
       "optionReasons": {
-        "stun-mcq-06": "本句指「顯示極度意外、愕然的表情」。",
-        "stun-mcq-05": "「人們因過度震驚而一時完全沉默的狀態」與本句語境不同。",
-        "stun-mcq-07": "「透過撞擊、電擊等令某人短暫失去知覺、方向感或行動能力」與本句語境不同。",
-        "stun-mcq-04": "「因發現／得知某事而極度震驚」與本句語境不同。",
-        "stun-mcq-08": "「因撞擊等而短暫暈眩、神志恍惚的」與本句語境不同。",
-        "stun-mcq-03": "「因 X 而極度震驚／愣住」與本句語境不同。"
+        "stun-mcq-06": "本句的「stunned expression」指「顯示極度意外、愕然的表情」。",
+        "stun-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-06"
     },
@@ -550,11 +526,9 @@ export default {
       "masked": "She gave me a ____ look.",
       "options": [
         "stun-mcq-06",
-        "stun-mcq-05",
-        "stun-mcq-07",
-        "stun-mcq-04",
-        "stun-mcq-08",
-        "stun-mcq-03"
+        "stun-mcq-21",
+        "stun-mcq-12",
+        "stun-mcq-15"
       ],
       "explanation": "本句的「stunned」指「顯示極度意外、愕然的表情」。",
       "sentenceIndex": 13,
@@ -563,12 +537,10 @@ export default {
         "stunned"
       ],
       "optionReasons": {
-        "stun-mcq-06": "本句指「顯示極度意外、愕然的表情」。",
-        "stun-mcq-05": "「人們因過度震驚而一時完全沉默的狀態」與本句語境不同。",
-        "stun-mcq-07": "「透過撞擊、電擊等令某人短暫失去知覺、方向感或行動能力」與本句語境不同。",
-        "stun-mcq-04": "「因發現／得知某事而極度震驚」與本句語境不同。",
-        "stun-mcq-08": "「因撞擊等而短暫暈眩、神志恍惚的」與本句語境不同。",
-        "stun-mcq-03": "「因 X 而極度震驚／愣住」與本句語境不同。"
+        "stun-mcq-06": "本句的「stunned」指「顯示極度意外、愕然的表情」。",
+        "stun-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-06"
     },
@@ -580,11 +552,9 @@ export default {
       "masked": "Animals must be properly ____ before slaughter.",
       "options": [
         "stun-mcq-09",
-        "stun-mcq-08",
-        "stun-mcq-10",
-        "stun-mcq-07",
-        "stun-mcq-11",
-        "stun-mcq-06"
+        "stun-mcq-05",
+        "stun-mcq-19",
+        "stun-mcq-16"
       ],
       "explanation": "本句的「stunned」指「在屠宰前令動物失去知覺」。",
       "sentenceIndex": 20,
@@ -593,12 +563,10 @@ export default {
         "stunned"
       ],
       "optionReasons": {
-        "stun-mcq-09": "本句指「在屠宰前令動物失去知覺」。",
-        "stun-mcq-08": "「因撞擊等而短暫暈眩、神志恍惚的」與本句語境不同。",
-        "stun-mcq-10": "「動物在屠宰前的致昏程序」與本句語境不同。",
-        "stun-mcq-07": "「透過撞擊、電擊等令某人短暫失去知覺、方向感或行動能力」與本句語境不同。",
-        "stun-mcq-11": "「以電擊使人暫時失去行動能力的裝置」與本句語境不同。",
-        "stun-mcq-06": "「顯示極度意外、愕然的表情」與本句語境不同。"
+        "stun-mcq-09": "本句的「stunned」指「在屠宰前令動物失去知覺」。",
+        "stun-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-09"
     },
@@ -610,11 +578,9 @@ export default {
       "masked": "The equipment is designed to ____ animals quickly.",
       "options": [
         "stun-mcq-09",
-        "stun-mcq-08",
-        "stun-mcq-10",
-        "stun-mcq-07",
-        "stun-mcq-11",
-        "stun-mcq-06"
+        "stun-mcq-19",
+        "stun-mcq-05",
+        "stun-mcq-15"
       ],
       "explanation": "本句的「stun」指「在屠宰前令動物失去知覺」。",
       "sentenceIndex": 21,
@@ -623,12 +589,10 @@ export default {
         "stun"
       ],
       "optionReasons": {
-        "stun-mcq-09": "本句指「在屠宰前令動物失去知覺」。",
-        "stun-mcq-08": "「因撞擊等而短暫暈眩、神志恍惚的」與本句語境不同。",
-        "stun-mcq-10": "「動物在屠宰前的致昏程序」與本句語境不同。",
-        "stun-mcq-07": "「透過撞擊、電擊等令某人短暫失去知覺、方向感或行動能力」與本句語境不同。",
-        "stun-mcq-11": "「以電擊使人暫時失去行動能力的裝置」與本句語境不同。",
-        "stun-mcq-06": "「顯示極度意外、愕然的表情」與本句語境不同。"
+        "stun-mcq-09": "本句的「stun」指「在屠宰前令動物失去知覺」。",
+        "stun-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-09"
     },
@@ -640,11 +604,8 @@ export default {
       "masked": "The report referred to the use of a ____.",
       "options": [
         "stun-mcq-11",
-        "stun-mcq-10",
-        "stun-mcq-12",
-        "stun-mcq-09",
-        "stun-mcq-13",
-        "stun-mcq-08"
+        "stun-mcq-18",
+        "stun-mcq-06"
       ],
       "explanation": "本句的「stun gun」指「以電擊使人暫時失去行動能力的裝置」。",
       "sentenceIndex": 26,
@@ -653,12 +614,9 @@ export default {
         "stun gun"
       ],
       "optionReasons": {
-        "stun-mcq-11": "本句指「以電擊使人暫時失去行動能力的裝置」。",
-        "stun-mcq-10": "「動物在屠宰前的致昏程序」與本句語境不同。",
-        "stun-mcq-12": "「以強光／巨響使人短暫失去方向感的震撼裝置」與本句語境不同。",
-        "stun-mcq-09": "「在屠宰前令動物失去知覺」與本句語境不同。",
-        "stun-mcq-13": "「漂亮／吸引到令人產生強烈驚艷感的」與本句語境不同。",
-        "stun-mcq-08": "「因撞擊等而短暫暈眩、神志恍惚的」與本句語境不同。"
+        "stun-mcq-11": "本句的「stun gun」指「以電擊使人暫時失去行動能力的裝置」。",
+        "stun-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-11"
     },
@@ -670,11 +628,8 @@ export default {
       "masked": "A ____ gun is intended to incapacitate temporarily.",
       "options": [
         "stun-mcq-11",
-        "stun-mcq-10",
-        "stun-mcq-12",
-        "stun-mcq-09",
-        "stun-mcq-13",
-        "stun-mcq-08"
+        "stun-mcq-18",
+        "stun-mcq-06"
       ],
       "explanation": "本句的「stun」指「以電擊使人暫時失去行動能力的裝置」。",
       "sentenceIndex": 27,
@@ -683,12 +638,9 @@ export default {
         "stun"
       ],
       "optionReasons": {
-        "stun-mcq-11": "本句指「以電擊使人暫時失去行動能力的裝置」。",
-        "stun-mcq-10": "「動物在屠宰前的致昏程序」與本句語境不同。",
-        "stun-mcq-12": "「以強光／巨響使人短暫失去方向感的震撼裝置」與本句語境不同。",
-        "stun-mcq-09": "「在屠宰前令動物失去知覺」與本句語境不同。",
-        "stun-mcq-13": "「漂亮／吸引到令人產生強烈驚艷感的」與本句語境不同。",
-        "stun-mcq-08": "「因撞擊等而短暫暈眩、神志恍惚的」與本句語境不同。"
+        "stun-mcq-11": "本句的「stun」指「以電擊使人暫時失去行動能力的裝置」。",
+        "stun-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-11"
     },
@@ -700,11 +652,9 @@ export default {
       "masked": "The team used a ____ during the operation.",
       "options": [
         "stun-mcq-12",
-        "stun-mcq-11",
-        "stun-mcq-13",
-        "stun-mcq-10",
-        "stun-mcq-14",
-        "stun-mcq-09"
+        "stun-mcq-16",
+        "stun-mcq-06",
+        "stun-mcq-05"
       ],
       "explanation": "本句的「stun grenade」指「以強光／巨響使人短暫失去方向感的震撼裝置」。",
       "sentenceIndex": 28,
@@ -713,12 +663,10 @@ export default {
         "stun grenade"
       ],
       "optionReasons": {
-        "stun-mcq-12": "本句指「以強光／巨響使人短暫失去方向感的震撼裝置」。",
-        "stun-mcq-11": "「以電擊使人暫時失去行動能力的裝置」與本句語境不同。",
-        "stun-mcq-13": "「漂亮／吸引到令人產生強烈驚艷感的」與本句語境不同。",
-        "stun-mcq-10": "「動物在屠宰前的致昏程序」與本句語境不同。",
-        "stun-mcq-14": "「美麗、壯觀到令人驚嘆的」與本句語境不同。",
-        "stun-mcq-09": "「在屠宰前令動物失去知覺」與本句語境不同。"
+        "stun-mcq-12": "本句的「stun grenade」指「以強光／巨響使人短暫失去方向感的震撼裝置」。",
+        "stun-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-12"
     },
@@ -730,11 +678,9 @@ export default {
       "masked": "A ____ grenade produces intense light and sound.",
       "options": [
         "stun-mcq-12",
-        "stun-mcq-11",
-        "stun-mcq-13",
-        "stun-mcq-10",
-        "stun-mcq-14",
-        "stun-mcq-09"
+        "stun-mcq-06",
+        "stun-mcq-15",
+        "stun-mcq-05"
       ],
       "explanation": "本句的「stun」指「以強光／巨響使人短暫失去方向感的震撼裝置」。",
       "sentenceIndex": 29,
@@ -743,12 +689,10 @@ export default {
         "stun"
       ],
       "optionReasons": {
-        "stun-mcq-12": "本句指「以強光／巨響使人短暫失去方向感的震撼裝置」。",
-        "stun-mcq-11": "「以電擊使人暫時失去行動能力的裝置」與本句語境不同。",
-        "stun-mcq-13": "「漂亮／吸引到令人產生強烈驚艷感的」與本句語境不同。",
-        "stun-mcq-10": "「動物在屠宰前的致昏程序」與本句語境不同。",
-        "stun-mcq-14": "「美麗、壯觀到令人驚嘆的」與本句語境不同。",
-        "stun-mcq-09": "「在屠宰前令動物失去知覺」與本句語境不同。"
+        "stun-mcq-12": "本句的「stun」指「以強光／巨響使人短暫失去方向感的震撼裝置」。",
+        "stun-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-12"
     },
@@ -760,11 +704,9 @@ export default {
       "masked": "She delivered a ____.",
       "options": [
         "stun-mcq-15",
-        "stun-mcq-14",
-        "stun-mcq-16",
-        "stun-mcq-13",
-        "stun-mcq-17",
-        "stun-mcq-12"
+        "stun-mcq-11",
+        "stun-mcq-19",
+        "stun-mcq-05"
       ],
       "explanation": "本句的「stunning performance」指「出色到令人非常驚嘆、印象極深的」。",
       "sentenceIndex": 38,
@@ -773,12 +715,10 @@ export default {
         "stunning performance"
       ],
       "optionReasons": {
-        "stun-mcq-15": "本句指「出色到令人非常驚嘆、印象極深的」。",
-        "stun-mcq-14": "「美麗、壯觀到令人驚嘆的」與本句語境不同。",
-        "stun-mcq-16": "「規模／程度大到令人驚訝的成功」與本句語境不同。",
-        "stun-mcq-13": "「漂亮／吸引到令人產生強烈驚艷感的」與本句語境不同。",
-        "stun-mcq-17": "「結果出乎意料或影響強烈到令人震驚的」與本句語境不同。",
-        "stun-mcq-12": "「以強光／巨響使人短暫失去方向感的震撼裝置」與本句語境不同。"
+        "stun-mcq-15": "本句的「stunning performance」指「出色到令人非常驚嘆、印象極深的」。",
+        "stun-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-15"
     },
@@ -790,11 +730,9 @@ export default {
       "masked": "The player produced a ____ performance in the final.",
       "options": [
         "stun-mcq-15",
-        "stun-mcq-14",
-        "stun-mcq-16",
-        "stun-mcq-13",
-        "stun-mcq-17",
-        "stun-mcq-12"
+        "stun-mcq-11",
+        "stun-mcq-19",
+        "stun-mcq-05"
       ],
       "explanation": "本句的「stunning」指「出色到令人非常驚嘆、印象極深的」。",
       "sentenceIndex": 39,
@@ -803,12 +741,10 @@ export default {
         "stunning"
       ],
       "optionReasons": {
-        "stun-mcq-15": "本句指「出色到令人非常驚嘆、印象極深的」。",
-        "stun-mcq-14": "「美麗、壯觀到令人驚嘆的」與本句語境不同。",
-        "stun-mcq-16": "「規模／程度大到令人驚訝的成功」與本句語境不同。",
-        "stun-mcq-13": "「漂亮／吸引到令人產生強烈驚艷感的」與本句語境不同。",
-        "stun-mcq-17": "「結果出乎意料或影響強烈到令人震驚的」與本句語境不同。",
-        "stun-mcq-12": "「以強光／巨響使人短暫失去方向感的震撼裝置」與本句語境不同。"
+        "stun-mcq-15": "本句的「stunning」指「出色到令人非常驚嘆、印象極深的」。",
+        "stun-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-15"
     },
@@ -820,11 +756,9 @@ export default {
       "masked": "The campaign became a ____.",
       "options": [
         "stun-mcq-16",
-        "stun-mcq-15",
-        "stun-mcq-17",
-        "stun-mcq-14",
-        "stun-mcq-18",
-        "stun-mcq-13"
+        "stun-mcq-12",
+        "stun-mcq-06",
+        "stun-mcq-22"
       ],
       "explanation": "本句的「stunning success」指「規模／程度大到令人驚訝的成功」。",
       "sentenceIndex": 40,
@@ -833,12 +767,10 @@ export default {
         "stunning success"
       ],
       "optionReasons": {
-        "stun-mcq-16": "本句指「規模／程度大到令人驚訝的成功」。",
-        "stun-mcq-15": "「出色到令人非常驚嘆、印象極深的」與本句語境不同。",
-        "stun-mcq-17": "「結果出乎意料或影響強烈到令人震驚的」與本句語境不同。",
-        "stun-mcq-14": "「美麗、壯觀到令人驚嘆的」與本句語境不同。",
-        "stun-mcq-18": "「出乎意料、令人震驚的敗北」與本句語境不同。",
-        "stun-mcq-13": "「漂亮／吸引到令人產生強烈驚艷感的」與本句語境不同。"
+        "stun-mcq-16": "本句的「stunning success」指「規模／程度大到令人驚訝的成功」。",
+        "stun-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-16"
     },
@@ -850,11 +782,9 @@ export default {
       "masked": "The product launch was a ____ success.",
       "options": [
         "stun-mcq-16",
-        "stun-mcq-15",
-        "stun-mcq-17",
-        "stun-mcq-14",
-        "stun-mcq-18",
-        "stun-mcq-13"
+        "stun-mcq-12",
+        "stun-mcq-06",
+        "stun-mcq-05"
       ],
       "explanation": "本句的「stunning」指「規模／程度大到令人驚訝的成功」。",
       "sentenceIndex": 41,
@@ -863,12 +793,10 @@ export default {
         "stunning"
       ],
       "optionReasons": {
-        "stun-mcq-16": "本句指「規模／程度大到令人驚訝的成功」。",
-        "stun-mcq-15": "「出色到令人非常驚嘆、印象極深的」與本句語境不同。",
-        "stun-mcq-17": "「結果出乎意料或影響強烈到令人震驚的」與本句語境不同。",
-        "stun-mcq-14": "「美麗、壯觀到令人驚嘆的」與本句語境不同。",
-        "stun-mcq-18": "「出乎意料、令人震驚的敗北」與本句語境不同。",
-        "stun-mcq-13": "「漂亮／吸引到令人產生強烈驚艷感的」與本句語境不同。"
+        "stun-mcq-16": "本句的「stunning」指「規模／程度大到令人驚訝的成功」。",
+        "stun-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-16"
     },
@@ -880,11 +808,8 @@ export default {
       "masked": "The experiment produced a ____.",
       "options": [
         "stun-mcq-17",
-        "stun-mcq-16",
-        "stun-mcq-18",
-        "stun-mcq-15",
-        "stun-mcq-19",
-        "stun-mcq-14"
+        "stun-mcq-09",
+        "stun-mcq-06"
       ],
       "explanation": "本句的「stunning result」指「結果出乎意料或影響強烈到令人震驚的」。",
       "sentenceIndex": 42,
@@ -893,12 +818,9 @@ export default {
         "stunning result"
       ],
       "optionReasons": {
-        "stun-mcq-17": "本句指「結果出乎意料或影響強烈到令人震驚的」。",
-        "stun-mcq-16": "「規模／程度大到令人驚訝的成功」與本句語境不同。",
-        "stun-mcq-18": "「出乎意料、令人震驚的敗北」與本句語境不同。",
-        "stun-mcq-15": "「出色到令人非常驚嘆、印象極深的」與本句語境不同。",
-        "stun-mcq-19": "「弱方意外擊敗強方而造成的震撼結果」與本句語境不同。",
-        "stun-mcq-14": "「美麗、壯觀到令人驚嘆的」與本句語境不同。"
+        "stun-mcq-17": "本句的「stunning result」指「結果出乎意料或影響強烈到令人震驚的」。",
+        "stun-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-17"
     },
@@ -910,11 +832,8 @@ export default {
       "masked": "Researchers made a ____ discovery.",
       "options": [
         "stun-mcq-17",
-        "stun-mcq-16",
-        "stun-mcq-18",
-        "stun-mcq-15",
-        "stun-mcq-19",
-        "stun-mcq-14"
+        "stun-mcq-09",
+        "stun-mcq-06"
       ],
       "explanation": "本句的「stunning」指「結果出乎意料或影響強烈到令人震驚的」。",
       "sentenceIndex": 43,
@@ -923,12 +842,9 @@ export default {
         "stunning"
       ],
       "optionReasons": {
-        "stun-mcq-17": "本句指「結果出乎意料或影響強烈到令人震驚的」。",
-        "stun-mcq-16": "「規模／程度大到令人驚訝的成功」與本句語境不同。",
-        "stun-mcq-18": "「出乎意料、令人震驚的敗北」與本句語境不同。",
-        "stun-mcq-15": "「出色到令人非常驚嘆、印象極深的」與本句語境不同。",
-        "stun-mcq-19": "「弱方意外擊敗強方而造成的震撼結果」與本句語境不同。",
-        "stun-mcq-14": "「美麗、壯觀到令人驚嘆的」與本句語境不同。"
+        "stun-mcq-17": "本句的「stunning」指「結果出乎意料或影響強烈到令人震驚的」。",
+        "stun-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-17"
     },
@@ -940,11 +856,8 @@ export default {
       "masked": "The team suffered a ____.",
       "options": [
         "stun-mcq-18",
-        "stun-mcq-17",
-        "stun-mcq-19",
-        "stun-mcq-16",
-        "stun-mcq-20",
-        "stun-mcq-15"
+        "stun-mcq-11",
+        "stun-mcq-06"
       ],
       "explanation": "本句的「stunning defeat」指「出乎意料、令人震驚的敗北」。",
       "sentenceIndex": 44,
@@ -953,12 +866,9 @@ export default {
         "stunning defeat"
       ],
       "optionReasons": {
-        "stun-mcq-18": "本句指「出乎意料、令人震驚的敗北」。",
-        "stun-mcq-17": "「結果出乎意料或影響強烈到令人震驚的」與本句語境不同。",
-        "stun-mcq-19": "「弱方意外擊敗強方而造成的震撼結果」與本句語境不同。",
-        "stun-mcq-16": "「規模／程度大到令人驚訝的成功」與本句語境不同。",
-        "stun-mcq-20": "「以驚人、極為突出或極美的程度」與本句語境不同。",
-        "stun-mcq-15": "「出色到令人非常驚嘆、印象極深的」與本句語境不同。"
+        "stun-mcq-18": "本句的「stunning defeat」指「出乎意料、令人震驚的敗北」。",
+        "stun-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-18"
     },
@@ -970,11 +880,8 @@ export default {
       "masked": "The unexpected result was a ____ defeat for the favourites.",
       "options": [
         "stun-mcq-18",
-        "stun-mcq-17",
-        "stun-mcq-19",
-        "stun-mcq-16",
-        "stun-mcq-20",
-        "stun-mcq-15"
+        "stun-mcq-11",
+        "stun-mcq-06"
       ],
       "explanation": "本句的「stunning」指「出乎意料、令人震驚的敗北」。",
       "sentenceIndex": 45,
@@ -983,12 +890,9 @@ export default {
         "stunning"
       ],
       "optionReasons": {
-        "stun-mcq-18": "本句指「出乎意料、令人震驚的敗北」。",
-        "stun-mcq-17": "「結果出乎意料或影響強烈到令人震驚的」與本句語境不同。",
-        "stun-mcq-19": "「弱方意外擊敗強方而造成的震撼結果」與本句語境不同。",
-        "stun-mcq-16": "「規模／程度大到令人驚訝的成功」與本句語境不同。",
-        "stun-mcq-20": "「以驚人、極為突出或極美的程度」與本句語境不同。",
-        "stun-mcq-15": "「出色到令人非常驚嘆、印象極深的」與本句語境不同。"
+        "stun-mcq-18": "本句的「stunning」指「出乎意料、令人震驚的敗北」。",
+        "stun-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-18"
     },
@@ -1000,11 +904,9 @@ export default {
       "masked": "The underdog scored a ____.",
       "options": [
         "stun-mcq-19",
-        "stun-mcq-18",
-        "stun-mcq-20",
-        "stun-mcq-17",
-        "stun-mcq-21",
-        "stun-mcq-16"
+        "stun-mcq-09",
+        "stun-mcq-15",
+        "stun-mcq-21"
       ],
       "explanation": "本句的「stunning upset」指「弱方意外擊敗強方而造成的震撼結果」。",
       "sentenceIndex": 46,
@@ -1013,12 +915,10 @@ export default {
         "stunning upset"
       ],
       "optionReasons": {
-        "stun-mcq-19": "本句指「弱方意外擊敗強方而造成的震撼結果」。",
-        "stun-mcq-18": "「出乎意料、令人震驚的敗北」與本句語境不同。",
-        "stun-mcq-20": "「以驚人、極為突出或極美的程度」與本句語境不同。",
-        "stun-mcq-17": "「結果出乎意料或影響強烈到令人震驚的」與本句語境不同。",
-        "stun-mcq-21": "「令某人震驚到一時無法正常回應」與本句語境不同。",
-        "stun-mcq-16": "「規模／程度大到令人驚訝的成功」與本句語境不同。"
+        "stun-mcq-19": "本句的「stunning upset」指「弱方意外擊敗強方而造成的震撼結果」。",
+        "stun-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-19"
     },
@@ -1030,11 +930,9 @@ export default {
       "masked": "It was one of the tournament’s most ____ upsets.",
       "options": [
         "stun-mcq-19",
-        "stun-mcq-18",
-        "stun-mcq-20",
-        "stun-mcq-17",
-        "stun-mcq-21",
-        "stun-mcq-16"
+        "stun-mcq-09",
+        "stun-mcq-15",
+        "stun-mcq-21"
       ],
       "explanation": "本句的「stunning」指「弱方意外擊敗強方而造成的震撼結果」。",
       "sentenceIndex": 47,
@@ -1043,12 +941,10 @@ export default {
         "stunning"
       ],
       "optionReasons": {
-        "stun-mcq-19": "本句指「弱方意外擊敗強方而造成的震撼結果」。",
-        "stun-mcq-18": "「出乎意料、令人震驚的敗北」與本句語境不同。",
-        "stun-mcq-20": "「以驚人、極為突出或極美的程度」與本句語境不同。",
-        "stun-mcq-17": "「結果出乎意料或影響強烈到令人震驚的」與本句語境不同。",
-        "stun-mcq-21": "「令某人震驚到一時無法正常回應」與本句語境不同。",
-        "stun-mcq-16": "「規模／程度大到令人驚訝的成功」與本句語境不同。"
+        "stun-mcq-19": "本句的「stunning」指「弱方意外擊敗強方而造成的震撼結果」。",
+        "stun-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-19"
     },
@@ -1060,11 +956,9 @@ export default {
       "masked": "The result ____.",
       "options": [
         "stun-mcq-21",
-        "stun-mcq-20",
-        "stun-mcq-22",
-        "stun-mcq-19",
-        "stun-mcq-18",
-        "stun-mcq-17"
+        "stun-mcq-06",
+        "stun-mcq-12",
+        "stun-mcq-16"
       ],
       "explanation": "本句的「left everyone stunned」指「令某人震驚到一時無法正常回應」。",
       "sentenceIndex": 62,
@@ -1073,12 +967,10 @@ export default {
         "left everyone stunned"
       ],
       "optionReasons": {
-        "stun-mcq-21": "本句指「令某人震驚到一時無法正常回應」。",
-        "stun-mcq-20": "「以驚人、極為突出或極美的程度」與本句語境不同。",
-        "stun-mcq-22": "「以出色表現令觀眾驚艷；或以消息令其震驚」與本句語境不同。",
-        "stun-mcq-19": "「弱方意外擊敗強方而造成的震撼結果」與本句語境不同。",
-        "stun-mcq-18": "「出乎意料、令人震驚的敗北」與本句語境不同。",
-        "stun-mcq-17": "「結果出乎意料或影響強烈到令人震驚的」與本句語境不同。"
+        "stun-mcq-21": "本句的「left everyone stunned」指「令某人震驚到一時無法正常回應」。",
+        "stun-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-21"
     },
@@ -1090,11 +982,9 @@ export default {
       "masked": "Her sudden success left her classmates ____.",
       "options": [
         "stun-mcq-21",
-        "stun-mcq-20",
-        "stun-mcq-22",
-        "stun-mcq-19",
-        "stun-mcq-18",
-        "stun-mcq-17"
+        "stun-mcq-06",
+        "stun-mcq-09",
+        "stun-mcq-16"
       ],
       "explanation": "本句的「stunned」指「令某人震驚到一時無法正常回應」。",
       "sentenceIndex": 63,
@@ -1103,12 +993,10 @@ export default {
         "stunned"
       ],
       "optionReasons": {
-        "stun-mcq-21": "本句指「令某人震驚到一時無法正常回應」。",
-        "stun-mcq-20": "「以驚人、極為突出或極美的程度」與本句語境不同。",
-        "stun-mcq-22": "「以出色表現令觀眾驚艷；或以消息令其震驚」與本句語境不同。",
-        "stun-mcq-19": "「弱方意外擊敗強方而造成的震撼結果」與本句語境不同。",
-        "stun-mcq-18": "「出乎意料、令人震驚的敗北」與本句語境不同。",
-        "stun-mcq-17": "「結果出乎意料或影響強烈到令人震驚的」與本句語境不同。"
+        "stun-mcq-21": "本句的「stunned」指「令某人震驚到一時無法正常回應」。",
+        "stun-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-21"
     },
@@ -1120,11 +1008,9 @@ export default {
       "masked": "The singer ____ with her performance.",
       "options": [
         "stun-mcq-22",
-        "stun-mcq-21",
-        "stun-mcq-20",
-        "stun-mcq-19",
-        "stun-mcq-18",
-        "stun-mcq-17"
+        "stun-mcq-06",
+        "stun-mcq-11",
+        "stun-mcq-16"
       ],
       "explanation": "本句的「stunned the audience」指「以出色表現令觀眾驚艷；或以消息令其震驚」。",
       "sentenceIndex": 64,
@@ -1133,12 +1019,10 @@ export default {
         "stunned the audience"
       ],
       "optionReasons": {
-        "stun-mcq-22": "本句指「以出色表現令觀眾驚艷；或以消息令其震驚」。",
-        "stun-mcq-21": "「令某人震驚到一時無法正常回應」與本句語境不同。",
-        "stun-mcq-20": "「以驚人、極為突出或極美的程度」與本句語境不同。",
-        "stun-mcq-19": "「弱方意外擊敗強方而造成的震撼結果」與本句語境不同。",
-        "stun-mcq-18": "「出乎意料、令人震驚的敗北」與本句語境不同。",
-        "stun-mcq-17": "「結果出乎意料或影響強烈到令人震驚的」與本句語境不同。"
+        "stun-mcq-22": "本句的「stunned the audience」指「以出色表現令觀眾驚艷；或以消息令其震驚」。",
+        "stun-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-22"
     },
@@ -1150,11 +1034,9 @@ export default {
       "masked": "The announcement ____ the world.",
       "options": [
         "stun-mcq-22",
-        "stun-mcq-21",
-        "stun-mcq-20",
-        "stun-mcq-19",
-        "stun-mcq-18",
-        "stun-mcq-17"
+        "stun-mcq-06",
+        "stun-mcq-11",
+        "stun-mcq-16"
       ],
       "explanation": "本句的「stunned」指「以出色表現令觀眾驚艷；或以消息令其震驚」。",
       "sentenceIndex": 65,
@@ -1163,12 +1045,10 @@ export default {
         "stunned"
       ],
       "optionReasons": {
-        "stun-mcq-22": "本句指「以出色表現令觀眾驚艷；或以消息令其震驚」。",
-        "stun-mcq-21": "「令某人震驚到一時無法正常回應」與本句語境不同。",
-        "stun-mcq-20": "「以驚人、極為突出或極美的程度」與本句語境不同。",
-        "stun-mcq-19": "「弱方意外擊敗強方而造成的震撼結果」與本句語境不同。",
-        "stun-mcq-18": "「出乎意料、令人震驚的敗北」與本句語境不同。",
-        "stun-mcq-17": "「結果出乎意料或影響強烈到令人震驚的」與本句語境不同。"
+        "stun-mcq-22": "本句的「stunned」指「以出色表現令觀眾驚艷；或以消息令其震驚」。",
+        "stun-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stun-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stun-mcq-22"
     }
@@ -1180,5 +1060,7 @@ export default {
     "sha256": "1015a7178f943827b676d33aab9b829d206de19c5a71c4f02fce3f326d0c1f0a",
     "pages": 31
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

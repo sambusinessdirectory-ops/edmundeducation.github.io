@@ -338,11 +338,6 @@ export default {
       "note": "來源詞義：買回資產以結束沽空倉位；回補",
       "examples": [
         [
-          "There is a $20 cover charge after 9 p.m.",
-          "晚上九時後需要支付二十元入場費。",
-          "買回資產以結束沽空倉位；回補"
-        ],
-        [
           "Short sellers rushed to cover their positions.",
           "沽空者急於回補／平倉。",
           "買回資產以結束沽空倉位；回補"
@@ -427,6 +422,23 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "cover-reviewed-f769e756ee",
+      "title": "入場費；最低消費性收費",
+      "form": "cover · source section 25",
+      "en": "入場費；最低消費性收費",
+      "zh": "入場費；最低消費性收費",
+      "note": "對照原始教材第 25 節及例句核實。",
+      "examples": [
+        [
+          "There is a $20 cover charge after 9 p.m.",
+          "晚上九時後需要支付二十元入場費。",
+          "入場費；最低消費性收費"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -438,11 +450,9 @@ export default {
       "masked": "The tables were ____ notes and past papers.",
       "options": [
         "cover-pdf-001",
-        "cover-mcq-02",
-        "cover-mcq-03",
-        "cover-mcq-04",
-        "cover-mcq-05",
-        "cover-mcq-06"
+        "cover-mcq-09",
+        "cover-mcq-12",
+        "cover-mcq-15"
       ],
       "explanation": "本句的「covered in」指「令某物的表面被另一種物件、物質或材料遮住／鋪滿」。",
       "sentenceIndex": 0,
@@ -451,12 +461,10 @@ export default {
         "covered in"
       ],
       "optionReasons": {
-        "cover-pdf-001": "本句指「令某物的表面被另一種物件、物質或材料遮住／鋪滿」。",
-        "cover-mcq-02": "「用東西蓋住，以提供保護、遮蔽或隱私」與本句語境不同。",
-        "cover-mcq-03": "「用來蓋住／保護物件的蓋、套、罩、封面等」與本句語境不同。",
-        "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。"
+        "cover-pdf-001": "本句的「covered in」指「令某物的表面被另一種物件、物質或材料遮住／鋪滿」。",
+        "cover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-pdf-001"
     },
@@ -468,11 +476,9 @@ export default {
       "masked": "Snow ____ the road.",
       "options": [
         "cover-pdf-001",
-        "cover-mcq-02",
-        "cover-mcq-03",
-        "cover-mcq-04",
-        "cover-mcq-05",
-        "cover-mcq-06"
+        "cover-mcq-12",
+        "cover-pdf-002",
+        "cover-mcq-16"
       ],
       "explanation": "本句的「covered」指「令某物的表面被另一種物件、物質或材料遮住／鋪滿」。",
       "sentenceIndex": 1,
@@ -481,12 +487,10 @@ export default {
         "covered"
       ],
       "optionReasons": {
-        "cover-pdf-001": "本句指「令某物的表面被另一種物件、物質或材料遮住／鋪滿」。",
-        "cover-mcq-02": "「用東西蓋住，以提供保護、遮蔽或隱私」與本句語境不同。",
-        "cover-mcq-03": "「用來蓋住／保護物件的蓋、套、罩、封面等」與本句語境不同。",
-        "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。"
+        "cover-pdf-001": "本句的「covered」指「令某物的表面被另一種物件、物質或材料遮住／鋪滿」。",
+        "cover-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "cover-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-pdf-001"
     },
@@ -498,11 +502,9 @@ export default {
       "masked": "She ____ the food with a cloth.",
       "options": [
         "cover-pdf-001",
-        "cover-mcq-02",
-        "cover-mcq-03",
-        "cover-mcq-04",
-        "cover-mcq-05",
-        "cover-mcq-06"
+        "cover-mcq-15",
+        "cover-mcq-10",
+        "cover-mcq-05"
       ],
       "explanation": "本句的「covered」指「令某物的表面被另一種物件、物質或材料遮住／鋪滿」。",
       "sentenceIndex": 2,
@@ -511,12 +513,10 @@ export default {
         "covered"
       ],
       "optionReasons": {
-        "cover-pdf-001": "本句指「令某物的表面被另一種物件、物質或材料遮住／鋪滿」。",
-        "cover-mcq-02": "「用東西蓋住，以提供保護、遮蔽或隱私」與本句語境不同。",
-        "cover-mcq-03": "「用來蓋住／保護物件的蓋、套、罩、封面等」與本句語境不同。",
-        "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。"
+        "cover-pdf-001": "本句的「covered」指「令某物的表面被另一種物件、物質或材料遮住／鋪滿」。",
+        "cover-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-pdf-001"
     },
@@ -528,10 +528,8 @@ export default {
       "masked": "She ____ her face with her hands.",
       "options": [
         "cover-mcq-02",
-        "cover-mcq-01",
-        "cover-mcq-03",
-        "cover-mcq-04",
-        "cover-mcq-05",
+        "cover-reviewed-f769e756ee",
+        "cover-mcq-07",
         "cover-mcq-06"
       ],
       "explanation": "本句的「covered」指「用東西蓋住，以提供保護、遮蔽或隱私」。",
@@ -541,12 +539,10 @@ export default {
         "covered"
       ],
       "optionReasons": {
-        "cover-mcq-02": "本句指「用東西蓋住，以提供保護、遮蔽或隱私」。",
-        "cover-mcq-01": "「把某物鋪／蓋在表面，或使表面大部分被某物佔據」與本句語境不同。",
-        "cover-mcq-03": "「用來蓋住／保護物件的蓋、套、罩、封面等」與本句語境不同。",
-        "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。"
+        "cover-mcq-02": "本句的「covered」指「用東西蓋住，以提供保護、遮蔽或隱私」。",
+        "cover-reviewed-f769e756ee": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-02"
     },
@@ -558,11 +554,9 @@ export default {
       "masked": "____ the plants at night to protect them from frost.",
       "options": [
         "cover-mcq-02",
-        "cover-mcq-01",
-        "cover-mcq-03",
-        "cover-mcq-04",
-        "cover-mcq-05",
-        "cover-mcq-06"
+        "cover-mcq-16",
+        "cover-mcq-14",
+        "cover-reviewed-f769e756ee"
       ],
       "explanation": "本句的「Cover」指「用東西蓋住，以提供保護、遮蔽或隱私」。",
       "sentenceIndex": 4,
@@ -571,12 +565,10 @@ export default {
         "Cover"
       ],
       "optionReasons": {
-        "cover-mcq-02": "本句指「用東西蓋住，以提供保護、遮蔽或隱私」。",
-        "cover-mcq-01": "「把某物鋪／蓋在表面，或使表面大部分被某物佔據」與本句語境不同。",
-        "cover-mcq-03": "「用來蓋住／保護物件的蓋、套、罩、封面等」與本句語境不同。",
-        "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。"
+        "cover-mcq-02": "本句的「Cover」指「用東西蓋住，以提供保護、遮蔽或隱私」。",
+        "cover-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cover-reviewed-f769e756ee": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-02"
     },
@@ -588,11 +580,9 @@ export default {
       "masked": "Put the ____ back on the container.",
       "options": [
         "cover-mcq-03",
-        "cover-mcq-02",
-        "cover-mcq-04",
-        "cover-mcq-01",
-        "cover-mcq-05",
-        "cover-mcq-06"
+        "cover-mcq-14",
+        "cover-reviewed-f769e756ee",
+        "cover-mcq-16"
       ],
       "explanation": "本句的「cover」指「用來蓋住／保護物件的蓋、套、罩、封面等」。",
       "sentenceIndex": 5,
@@ -601,12 +591,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-03": "本句指「用來蓋住／保護物件的蓋、套、罩、封面等」。",
-        "cover-mcq-02": "「用東西蓋住，以提供保護、遮蔽或隱私」與本句語境不同。",
-        "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。",
-        "cover-mcq-01": "「把某物鋪／蓋在表面，或使表面大部分被某物佔據」與本句語境不同。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。"
+        "cover-mcq-03": "本句的「cover」指「用來蓋住／保護物件的蓋、套、罩、封面等」。",
+        "cover-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cover-reviewed-f769e756ee": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-03"
     },
@@ -618,11 +606,9 @@ export default {
       "masked": "The book has a bright red ____.",
       "options": [
         "cover-mcq-03",
-        "cover-mcq-02",
-        "cover-mcq-04",
-        "cover-mcq-01",
-        "cover-mcq-05",
-        "cover-mcq-06"
+        "cover-mcq-12",
+        "cover-mcq-06",
+        "cover-mcq-16"
       ],
       "explanation": "本句的「cover」指「用來蓋住／保護物件的蓋、套、罩、封面等」。",
       "sentenceIndex": 6,
@@ -631,12 +617,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-03": "本句指「用來蓋住／保護物件的蓋、套、罩、封面等」。",
-        "cover-mcq-02": "「用東西蓋住，以提供保護、遮蔽或隱私」與本句語境不同。",
-        "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。",
-        "cover-mcq-01": "「把某物鋪／蓋在表面，或使表面大部分被某物佔據」與本句語境不同。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。"
+        "cover-mcq-03": "本句的「cover」指「用來蓋住／保護物件的蓋、套、罩、封面等」。",
+        "cover-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-03"
     },
@@ -648,11 +632,9 @@ export default {
       "masked": "We put a protective ____ over the sofa.",
       "options": [
         "cover-mcq-03",
-        "cover-mcq-02",
-        "cover-mcq-04",
-        "cover-mcq-01",
-        "cover-mcq-05",
-        "cover-mcq-06"
+        "cover-mcq-16",
+        "cover-mcq-06",
+        "cover-mcq-11"
       ],
       "explanation": "本句的「cover」指「用來蓋住／保護物件的蓋、套、罩、封面等」。",
       "sentenceIndex": 7,
@@ -661,12 +643,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-03": "本句指「用來蓋住／保護物件的蓋、套、罩、封面等」。",
-        "cover-mcq-02": "「用東西蓋住，以提供保護、遮蔽或隱私」與本句語境不同。",
-        "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。",
-        "cover-mcq-01": "「把某物鋪／蓋在表面，或使表面大部分被某物佔據」與本句語境不同。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。"
+        "cover-mcq-03": "本句的「cover」指「用來蓋住／保護物件的蓋、套、罩、封面等」。",
+        "cover-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-03"
     },
@@ -678,11 +658,9 @@ export default {
       "masked": "The soldiers took ____ behind a wall.",
       "options": [
         "cover-mcq-04",
-        "cover-mcq-03",
-        "cover-mcq-05",
-        "cover-mcq-02",
-        "cover-mcq-06",
-        "cover-mcq-01"
+        "cover-mcq-15",
+        "cover-mcq-09",
+        "cover-mcq-08"
       ],
       "explanation": "本句的「cover」指「躲避危險／天氣的掩護或遮蔽」。",
       "sentenceIndex": 8,
@@ -691,12 +669,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-04": "本句指「躲避危險／天氣的掩護或遮蔽」。",
-        "cover-mcq-03": "「用來蓋住／保護物件的蓋、套、罩、封面等」與本句語境不同。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
-        "cover-mcq-02": "「用東西蓋住，以提供保護、遮蔽或隱私」與本句語境不同。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。",
-        "cover-mcq-01": "「把某物鋪／蓋在表面，或使表面大部分被某物佔據」與本句語境不同。"
+        "cover-mcq-04": "本句的「cover」指「躲避危險／天氣的掩護或遮蔽」。",
+        "cover-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-04"
     },
@@ -708,11 +684,9 @@ export default {
       "masked": "We ran for ____ when the rain started.",
       "options": [
         "cover-mcq-04",
-        "cover-mcq-03",
-        "cover-mcq-05",
-        "cover-mcq-02",
-        "cover-mcq-06",
-        "cover-mcq-01"
+        "cover-mcq-07",
+        "cover-mcq-09",
+        "cover-mcq-16"
       ],
       "explanation": "本句的「cover」指「躲避危險／天氣的掩護或遮蔽」。",
       "sentenceIndex": 9,
@@ -721,12 +695,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-04": "本句指「躲避危險／天氣的掩護或遮蔽」。",
-        "cover-mcq-03": "「用來蓋住／保護物件的蓋、套、罩、封面等」與本句語境不同。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
-        "cover-mcq-02": "「用東西蓋住，以提供保護、遮蔽或隱私」與本句語境不同。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。",
-        "cover-mcq-01": "「把某物鋪／蓋在表面，或使表面大部分被某物佔據」與本句語境不同。"
+        "cover-mcq-04": "本句的「cover」指「躲避危險／天氣的掩護或遮蔽」。",
+        "cover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-04"
     },
@@ -738,11 +710,9 @@ export default {
       "masked": "I’ll ____ you while you cross the road.",
       "options": [
         "cover-mcq-05",
-        "cover-mcq-04",
-        "cover-mcq-06",
-        "cover-mcq-03",
+        "cover-mcq-09",
         "cover-mcq-07",
-        "cover-mcq-02"
+        "cover-pdf-001"
       ],
       "explanation": "本句的「cover」指「掩護、保護或防守某人／地方」。",
       "sentenceIndex": 10,
@@ -751,12 +721,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-05": "本句指「掩護、保護或防守某人／地方」。",
-        "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。",
-        "cover-mcq-03": "「用來蓋住／保護物件的蓋、套、罩、封面等」與本句語境不同。",
-        "cover-mcq-07": "「採訪並報道某事件／新聞」與本句語境不同。",
-        "cover-mcq-02": "「用東西蓋住，以提供保護、遮蔽或隱私」與本句語境不同。"
+        "cover-mcq-05": "本句的「cover」指「掩護、保護或防守某人／地方」。",
+        "cover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cover-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-05"
     },
@@ -768,11 +736,9 @@ export default {
       "masked": "The defender moved across to ____ his teammate.",
       "options": [
         "cover-mcq-05",
-        "cover-mcq-04",
+        "cover-mcq-16",
         "cover-mcq-06",
-        "cover-mcq-03",
-        "cover-mcq-07",
-        "cover-mcq-02"
+        "cover-mcq-09"
       ],
       "explanation": "本句的「cover」指「掩護、保護或防守某人／地方」。",
       "sentenceIndex": 11,
@@ -781,12 +747,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-05": "本句指「掩護、保護或防守某人／地方」。",
-        "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。",
-        "cover-mcq-03": "「用來蓋住／保護物件的蓋、套、罩、封面等」與本句語境不同。",
-        "cover-mcq-07": "「採訪並報道某事件／新聞」與本句語境不同。",
-        "cover-mcq-02": "「用東西蓋住，以提供保護、遮蔽或隱私」與本句語境不同。"
+        "cover-mcq-05": "本句的「cover」指「掩護、保護或防守某人／地方」。",
+        "cover-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-05"
     },
@@ -798,11 +762,9 @@ export default {
       "masked": "The course ____ basic economics.",
       "options": [
         "cover-mcq-06",
-        "cover-mcq-05",
-        "cover-mcq-07",
-        "cover-mcq-04",
+        "cover-mcq-09",
         "cover-mcq-08",
-        "cover-mcq-03"
+        "cover-mcq-02"
       ],
       "explanation": "本句的「covers」指「把某課題納入講授、討論、文章或研究內容中」。",
       "sentenceIndex": 12,
@@ -811,12 +773,10 @@ export default {
         "covers"
       ],
       "optionReasons": {
-        "cover-mcq-06": "本句指「把某課題納入講授、討論、文章或研究內容中」。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
-        "cover-mcq-07": "「採訪並報道某事件／新聞」與本句語境不同。",
-        "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。",
-        "cover-mcq-08": "「延伸／覆蓋某範圍；走過某段距離；負責某地區」與本句語境不同。",
-        "cover-mcq-03": "「用來蓋住／保護物件的蓋、套、罩、封面等」與本句語境不同。"
+        "cover-mcq-06": "本句的「covers」指「把某課題納入講授、討論、文章或研究內容中」。",
+        "cover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-06"
     },
@@ -828,11 +788,9 @@ export default {
       "masked": "We have already ____ this topic.",
       "options": [
         "cover-mcq-06",
-        "cover-mcq-05",
-        "cover-mcq-07",
-        "cover-mcq-04",
-        "cover-mcq-08",
-        "cover-mcq-03"
+        "cover-mcq-02",
+        "cover-mcq-12",
+        "cover-pdf-001"
       ],
       "explanation": "本句的「covered」指「把某課題納入講授、討論、文章或研究內容中」。",
       "sentenceIndex": 13,
@@ -841,12 +799,10 @@ export default {
         "covered"
       ],
       "optionReasons": {
-        "cover-mcq-06": "本句指「把某課題納入講授、討論、文章或研究內容中」。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
-        "cover-mcq-07": "「採訪並報道某事件／新聞」與本句語境不同。",
-        "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。",
-        "cover-mcq-08": "「延伸／覆蓋某範圍；走過某段距離；負責某地區」與本句語境不同。",
-        "cover-mcq-03": "「用來蓋住／保護物件的蓋、套、罩、封面等」與本句語境不同。"
+        "cover-mcq-06": "本句的「covered」指「把某課題納入講授、討論、文章或研究內容中」。",
+        "cover-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "cover-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-06"
     },
@@ -858,11 +814,9 @@ export default {
       "masked": "The report ____ five major issues.",
       "options": [
         "cover-mcq-06",
-        "cover-mcq-05",
-        "cover-mcq-07",
-        "cover-mcq-04",
-        "cover-mcq-08",
-        "cover-mcq-03"
+        "cover-pdf-002",
+        "cover-mcq-15",
+        "cover-mcq-16"
       ],
       "explanation": "本句的「covers」指「把某課題納入講授、討論、文章或研究內容中」。",
       "sentenceIndex": 14,
@@ -871,12 +825,10 @@ export default {
         "covers"
       ],
       "optionReasons": {
-        "cover-mcq-06": "本句指「把某課題納入講授、討論、文章或研究內容中」。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
-        "cover-mcq-07": "「採訪並報道某事件／新聞」與本句語境不同。",
-        "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。",
-        "cover-mcq-08": "「延伸／覆蓋某範圍；走過某段距離；負責某地區」與本句語境不同。",
-        "cover-mcq-03": "「用來蓋住／保護物件的蓋、套、罩、封面等」與本句語境不同。"
+        "cover-mcq-06": "本句的「covers」指「把某課題納入講授、討論、文章或研究內容中」。",
+        "cover-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-06"
     },
@@ -888,11 +840,9 @@ export default {
       "masked": "Several reporters were sent to ____ the event.",
       "options": [
         "cover-mcq-07",
-        "cover-mcq-06",
-        "cover-mcq-08",
-        "cover-mcq-05",
-        "cover-mcq-09",
-        "cover-mcq-04"
+        "cover-mcq-04",
+        "cover-mcq-11",
+        "cover-mcq-14"
       ],
       "explanation": "本句的「cover」指「採訪並報道某事件／新聞」。",
       "sentenceIndex": 15,
@@ -901,12 +851,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-07": "本句指「採訪並報道某事件／新聞」。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。",
-        "cover-mcq-08": "「延伸／覆蓋某範圍；走過某段距離；負責某地區」與本句語境不同。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
-        "cover-mcq-09": "「金額足以支付／應付某項費用」與本句語境不同。",
-        "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。"
+        "cover-mcq-07": "本句的「cover」指「採訪並報道某事件／新聞」。",
+        "cover-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-07"
     },
@@ -918,11 +866,9 @@ export default {
       "masked": "The newspaper ____ the story extensively.",
       "options": [
         "cover-mcq-07",
-        "cover-mcq-06",
-        "cover-mcq-08",
-        "cover-mcq-05",
-        "cover-mcq-09",
-        "cover-mcq-04"
+        "cover-mcq-16",
+        "cover-pdf-002",
+        "cover-mcq-12"
       ],
       "explanation": "本句的「covered」指「採訪並報道某事件／新聞」。",
       "sentenceIndex": 16,
@@ -931,12 +877,10 @@ export default {
         "covered"
       ],
       "optionReasons": {
-        "cover-mcq-07": "本句指「採訪並報道某事件／新聞」。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。",
-        "cover-mcq-08": "「延伸／覆蓋某範圍；走過某段距離；負責某地區」與本句語境不同。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。",
-        "cover-mcq-09": "「金額足以支付／應付某項費用」與本句語境不同。",
-        "cover-mcq-04": "「躲避危險／天氣的掩護或遮蔽」與本句語境不同。"
+        "cover-mcq-07": "本句的「covered」指「採訪並報道某事件／新聞」。",
+        "cover-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cover-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-07"
     },
@@ -948,11 +892,9 @@ export default {
       "masked": "The forest ____ several square kilometres.",
       "options": [
         "cover-mcq-08",
-        "cover-mcq-07",
-        "cover-mcq-09",
-        "cover-mcq-06",
         "cover-mcq-10",
-        "cover-mcq-05"
+        "cover-mcq-15",
+        "cover-mcq-13"
       ],
       "explanation": "本句的「covers」指「延伸／覆蓋某範圍；走過某段距離；負責某地區」。",
       "sentenceIndex": 17,
@@ -961,12 +903,10 @@ export default {
         "covers"
       ],
       "optionReasons": {
-        "cover-mcq-08": "本句指「延伸／覆蓋某範圍；走過某段距離；負責某地區」。",
-        "cover-mcq-07": "「採訪並報道某事件／新聞」與本句語境不同。",
-        "cover-mcq-09": "「金額足以支付／應付某項費用」與本句語境不同。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。",
-        "cover-mcq-10": "「承保某種風險、損失或費用」與本句語境不同。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。"
+        "cover-mcq-08": "本句的「covers」指「延伸／覆蓋某範圍；走過某段距離；負責某地區」。",
+        "cover-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-08"
     },
@@ -978,11 +918,9 @@ export default {
       "masked": "We ____ twenty kilometres on foot.",
       "options": [
         "cover-mcq-08",
-        "cover-mcq-07",
         "cover-mcq-09",
-        "cover-mcq-06",
-        "cover-mcq-10",
-        "cover-mcq-05"
+        "cover-pdf-001",
+        "cover-mcq-13"
       ],
       "explanation": "本句的「covered」指「延伸／覆蓋某範圍；走過某段距離；負責某地區」。",
       "sentenceIndex": 18,
@@ -991,12 +929,10 @@ export default {
         "covered"
       ],
       "optionReasons": {
-        "cover-mcq-08": "本句指「延伸／覆蓋某範圍；走過某段距離；負責某地區」。",
-        "cover-mcq-07": "「採訪並報道某事件／新聞」與本句語境不同。",
-        "cover-mcq-09": "「金額足以支付／應付某項費用」與本句語境不同。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。",
-        "cover-mcq-10": "「承保某種風險、損失或費用」與本句語境不同。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。"
+        "cover-mcq-08": "本句的「covered」指「延伸／覆蓋某範圍；走過某段距離；負責某地區」。",
+        "cover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cover-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-08"
     },
@@ -1008,11 +944,9 @@ export default {
       "masked": "The sales team ____ the whole region.",
       "options": [
         "cover-mcq-08",
-        "cover-mcq-07",
         "cover-mcq-09",
-        "cover-mcq-06",
-        "cover-mcq-10",
-        "cover-mcq-05"
+        "cover-mcq-07",
+        "cover-mcq-11"
       ],
       "explanation": "本句的「covers」指「延伸／覆蓋某範圍；走過某段距離；負責某地區」。",
       "sentenceIndex": 19,
@@ -1021,12 +955,10 @@ export default {
         "covers"
       ],
       "optionReasons": {
-        "cover-mcq-08": "本句指「延伸／覆蓋某範圍；走過某段距離；負責某地區」。",
-        "cover-mcq-07": "「採訪並報道某事件／新聞」與本句語境不同。",
-        "cover-mcq-09": "「金額足以支付／應付某項費用」與本句語境不同。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。",
-        "cover-mcq-10": "「承保某種風險、損失或費用」與本句語境不同。",
-        "cover-mcq-05": "「掩護、保護或防守某人／地方」與本句語境不同。"
+        "cover-mcq-08": "本句的「covers」指「延伸／覆蓋某範圍；走過某段距離；負責某地區」。",
+        "cover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-08"
     },
@@ -1038,11 +970,9 @@ export default {
       "masked": "Mobile ____ is poor in this area.",
       "options": [
         "cover-mcq-17",
-        "cover-mcq-16",
-        "cover-mcq-18",
-        "cover-mcq-15",
         "cover-mcq-14",
-        "cover-mcq-13"
+        "cover-mcq-11",
+        "cover-mcq-12"
       ],
       "explanation": "本句的「coverage」指「報道、保險保障、網絡覆蓋或內容涵蓋範圍」。",
       "sentenceIndex": 20,
@@ -1051,12 +981,10 @@ export default {
         "coverage"
       ],
       "optionReasons": {
-        "cover-mcq-17": "本句指「報道、保險保障、網絡覆蓋或內容涵蓋範圍」。",
-        "cover-mcq-16": "「買回資產以結束沽空倉位；回補」與本句語境不同。",
-        "cover-mcq-18": "「移除遮蓋；進一步引申為揭露／發現隱藏事物」與本句語境不同。",
-        "cover-mcq-15": "「餐飲業中一位食客／一客」與本句語境不同。",
-        "cover-mcq-14": "「翻唱另一位歌手／樂隊原有的歌曲」與本句語境不同。",
-        "cover-mcq-13": "「為隱藏真實身分／目的而使用的掩護身分或故事」與本句語境不同。"
+        "cover-mcq-17": "本句的「coverage」指「報道、保險保障、網絡覆蓋或內容涵蓋範圍」。",
+        "cover-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-17"
     },
@@ -1068,10 +996,8 @@ export default {
       "masked": "The fee should ____ the cost of materials.",
       "options": [
         "cover-mcq-09",
-        "cover-mcq-08",
-        "cover-mcq-10",
-        "cover-mcq-07",
-        "cover-mcq-11",
+        "cover-mcq-13",
+        "cover-mcq-15",
         "cover-mcq-06"
       ],
       "explanation": "本句的「cover」指「金額足以支付／應付某項費用」。",
@@ -1081,12 +1007,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-09": "本句指「金額足以支付／應付某項費用」。",
-        "cover-mcq-08": "「延伸／覆蓋某範圍；走過某段距離；負責某地區」與本句語境不同。",
-        "cover-mcq-10": "「承保某種風險、損失或費用」與本句語境不同。",
-        "cover-mcq-07": "「採訪並報道某事件／新聞」與本句語境不同。",
-        "cover-mcq-11": "「暫時替別人代班／代為工作」與本句語境不同。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。"
+        "cover-mcq-09": "本句的「cover」指「金額足以支付／應付某項費用」。",
+        "cover-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-09"
     },
@@ -1098,11 +1022,9 @@ export default {
       "masked": "Her salary barely ____ her rent.",
       "options": [
         "cover-mcq-09",
-        "cover-mcq-08",
-        "cover-mcq-10",
-        "cover-mcq-07",
+        "cover-mcq-04",
         "cover-mcq-11",
-        "cover-mcq-06"
+        "cover-mcq-14"
       ],
       "explanation": "本句的「covers」指「金額足以支付／應付某項費用」。",
       "sentenceIndex": 22,
@@ -1111,12 +1033,10 @@ export default {
         "covers"
       ],
       "optionReasons": {
-        "cover-mcq-09": "本句指「金額足以支付／應付某項費用」。",
-        "cover-mcq-08": "「延伸／覆蓋某範圍；走過某段距離；負責某地區」與本句語境不同。",
-        "cover-mcq-10": "「承保某種風險、損失或費用」與本句語境不同。",
-        "cover-mcq-07": "「採訪並報道某事件／新聞」與本句語境不同。",
-        "cover-mcq-11": "「暫時替別人代班／代為工作」與本句語境不同。",
-        "cover-mcq-06": "「把某課題納入講授、討論、文章或研究內容中」與本句語境不同。"
+        "cover-mcq-09": "本句的「covers」指「金額足以支付／應付某項費用」。",
+        "cover-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-09"
     },
@@ -1128,11 +1048,9 @@ export default {
       "masked": "Does the insurance ____ theft?",
       "options": [
         "cover-pdf-002",
-        "cover-mcq-09",
-        "cover-mcq-11",
-        "cover-mcq-08",
-        "cover-mcq-12",
-        "cover-mcq-07"
+        "cover-mcq-16",
+        "cover-mcq-15",
+        "cover-mcq-12"
       ],
       "explanation": "本句的「cover」指「保險公司承諾在特定情況下承擔相關財務損失」。",
       "sentenceIndex": 23,
@@ -1141,12 +1059,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-pdf-002": "本句指「保險公司承諾在特定情況下承擔相關財務損失」。",
-        "cover-mcq-09": "「金額足以支付／應付某項費用」與本句語境不同。",
-        "cover-mcq-11": "「暫時替別人代班／代為工作」與本句語境不同。",
-        "cover-mcq-08": "「延伸／覆蓋某範圍；走過某段距離；負責某地區」與本句語境不同。",
-        "cover-mcq-12": "「掩飾、隱瞞某事實、行蹤或情緒」與本句語境不同。",
-        "cover-mcq-07": "「採訪並報道某事件／新聞」與本句語境不同。"
+        "cover-pdf-002": "本句的「cover」指「保險公司承諾在特定情況下承擔相關財務損失」。",
+        "cover-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-pdf-002"
     },
@@ -1158,10 +1074,8 @@ export default {
       "masked": "The policy ____ medical expenses overseas.",
       "options": [
         "cover-pdf-002",
-        "cover-mcq-09",
-        "cover-mcq-11",
-        "cover-mcq-08",
-        "cover-mcq-12",
+        "cover-mcq-14",
+        "cover-mcq-13",
         "cover-mcq-07"
       ],
       "explanation": "本句的「covers」指「保險公司承諾在特定情況下承擔相關財務損失」。",
@@ -1171,12 +1085,10 @@ export default {
         "covers"
       ],
       "optionReasons": {
-        "cover-pdf-002": "本句指「保險公司承諾在特定情況下承擔相關財務損失」。",
-        "cover-mcq-09": "「金額足以支付／應付某項費用」與本句語境不同。",
-        "cover-mcq-11": "「暫時替別人代班／代為工作」與本句語境不同。",
-        "cover-mcq-08": "「延伸／覆蓋某範圍；走過某段距離；負責某地區」與本句語境不同。",
-        "cover-mcq-12": "「掩飾、隱瞞某事實、行蹤或情緒」與本句語境不同。",
-        "cover-mcq-07": "「採訪並報道某事件／新聞」與本句語境不同。"
+        "cover-pdf-002": "本句的「covers」指「保險公司承諾在特定情況下承擔相關財務損失」。",
+        "cover-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-pdf-002"
     },
@@ -1188,11 +1100,9 @@ export default {
       "masked": "The plan provides worldwide medical ____.",
       "options": [
         "cover-mcq-10",
-        "cover-mcq-09",
-        "cover-mcq-11",
-        "cover-mcq-08",
-        "cover-mcq-12",
-        "cover-mcq-07"
+        "cover-mcq-14",
+        "cover-mcq-07",
+        "cover-mcq-12"
       ],
       "explanation": "本句的「cover」指「承保某種風險、損失或費用」。",
       "sentenceIndex": 25,
@@ -1201,12 +1111,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-10": "本句指「承保某種風險、損失或費用」。",
-        "cover-mcq-09": "「金額足以支付／應付某項費用」與本句語境不同。",
-        "cover-mcq-11": "「暫時替別人代班／代為工作」與本句語境不同。",
-        "cover-mcq-08": "「延伸／覆蓋某範圍；走過某段距離；負責某地區」與本句語境不同。",
-        "cover-mcq-12": "「掩飾、隱瞞某事實、行蹤或情緒」與本句語境不同。",
-        "cover-mcq-07": "「採訪並報道某事件／新聞」與本句語境不同。"
+        "cover-mcq-10": "本句的「cover」指「承保某種風險、損失或費用」。",
+        "cover-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-10"
     },
@@ -1218,11 +1126,9 @@ export default {
       "masked": "Can you ____ my shift tomorrow?",
       "options": [
         "cover-mcq-11",
-        "cover-mcq-10",
-        "cover-mcq-12",
-        "cover-mcq-09",
+        "cover-mcq-08",
         "cover-mcq-13",
-        "cover-mcq-08"
+        "cover-mcq-10"
       ],
       "explanation": "本句的「cover」指「暫時替別人代班／代為工作」。",
       "sentenceIndex": 26,
@@ -1231,12 +1137,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-11": "本句指「暫時替別人代班／代為工作」。",
-        "cover-mcq-10": "「承保某種風險、損失或費用」與本句語境不同。",
-        "cover-mcq-12": "「掩飾、隱瞞某事實、行蹤或情緒」與本句語境不同。",
-        "cover-mcq-09": "「金額足以支付／應付某項費用」與本句語境不同。",
-        "cover-mcq-13": "「為隱藏真實身分／目的而使用的掩護身分或故事」與本句語境不同。",
-        "cover-mcq-08": "「延伸／覆蓋某範圍；走過某段距離；負責某地區」與本句語境不同。"
+        "cover-mcq-11": "本句的「cover」指「暫時替別人代班／代為工作」。",
+        "cover-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-11"
     },
@@ -1248,11 +1152,9 @@ export default {
       "masked": "I’ll ____ for her while she is away.",
       "options": [
         "cover-mcq-11",
-        "cover-mcq-10",
-        "cover-mcq-12",
-        "cover-mcq-09",
-        "cover-mcq-13",
-        "cover-mcq-08"
+        "cover-mcq-06",
+        "cover-mcq-07",
+        "cover-mcq-16"
       ],
       "explanation": "本句的「cover」指「暫時替別人代班／代為工作」。",
       "sentenceIndex": 27,
@@ -1261,12 +1163,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-11": "本句指「暫時替別人代班／代為工作」。",
-        "cover-mcq-10": "「承保某種風險、損失或費用」與本句語境不同。",
-        "cover-mcq-12": "「掩飾、隱瞞某事實、行蹤或情緒」與本句語境不同。",
-        "cover-mcq-09": "「金額足以支付／應付某項費用」與本句語境不同。",
-        "cover-mcq-13": "「為隱藏真實身分／目的而使用的掩護身分或故事」與本句語境不同。",
-        "cover-mcq-08": "「延伸／覆蓋某範圍；走過某段距離；負責某地區」與本句語境不同。"
+        "cover-mcq-11": "本句的「cover」指「暫時替別人代班／代為工作」。",
+        "cover-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-11"
     },
@@ -1278,10 +1178,8 @@ export default {
       "masked": "He tried to ____ his embarrassment with a laugh.",
       "options": [
         "cover-mcq-12",
-        "cover-mcq-11",
-        "cover-mcq-13",
-        "cover-mcq-10",
-        "cover-mcq-14",
+        "cover-mcq-15",
+        "cover-pdf-001",
         "cover-mcq-09"
       ],
       "explanation": "本句的「cover」指「掩飾、隱瞞某事實、行蹤或情緒」。",
@@ -1291,12 +1189,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-12": "本句指「掩飾、隱瞞某事實、行蹤或情緒」。",
-        "cover-mcq-11": "「暫時替別人代班／代為工作」與本句語境不同。",
-        "cover-mcq-13": "「為隱藏真實身分／目的而使用的掩護身分或故事」與本句語境不同。",
-        "cover-mcq-10": "「承保某種風險、損失或費用」與本句語境不同。",
-        "cover-mcq-14": "「翻唱另一位歌手／樂隊原有的歌曲」與本句語境不同。",
-        "cover-mcq-09": "「金額足以支付／應付某項費用」與本句語境不同。"
+        "cover-mcq-12": "本句的「cover」指「掩飾、隱瞞某事實、行蹤或情緒」。",
+        "cover-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cover-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-12"
     },
@@ -1308,11 +1204,9 @@ export default {
       "masked": "They attempted to ____ their tracks.",
       "options": [
         "cover-mcq-12",
-        "cover-mcq-11",
-        "cover-mcq-13",
-        "cover-mcq-10",
+        "cover-mcq-08",
         "cover-mcq-14",
-        "cover-mcq-09"
+        "cover-reviewed-f769e756ee"
       ],
       "explanation": "本句的「cover」指「掩飾、隱瞞某事實、行蹤或情緒」。",
       "sentenceIndex": 30,
@@ -1321,12 +1215,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-12": "本句指「掩飾、隱瞞某事實、行蹤或情緒」。",
-        "cover-mcq-11": "「暫時替別人代班／代為工作」與本句語境不同。",
-        "cover-mcq-13": "「為隱藏真實身分／目的而使用的掩護身分或故事」與本句語境不同。",
-        "cover-mcq-10": "「承保某種風險、損失或費用」與本句語境不同。",
-        "cover-mcq-14": "「翻唱另一位歌手／樂隊原有的歌曲」與本句語境不同。",
-        "cover-mcq-09": "「金額足以支付／應付某項費用」與本句語境不同。"
+        "cover-mcq-12": "本句的「cover」指「掩飾、隱瞞某事實、行蹤或情緒」。",
+        "cover-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cover-reviewed-f769e756ee": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-12"
     },
@@ -1338,11 +1230,9 @@ export default {
       "masked": "The investigation found an attempt to ____ the mistake.",
       "options": [
         "cover-mcq-12",
+        "cover-mcq-09",
         "cover-mcq-11",
-        "cover-mcq-13",
-        "cover-mcq-10",
-        "cover-mcq-14",
-        "cover-mcq-09"
+        "cover-pdf-001"
       ],
       "explanation": "本句的「cover up」指「掩飾、隱瞞某事實、行蹤或情緒」。",
       "sentenceIndex": 31,
@@ -1351,12 +1241,10 @@ export default {
         "cover up"
       ],
       "optionReasons": {
-        "cover-mcq-12": "本句指「掩飾、隱瞞某事實、行蹤或情緒」。",
-        "cover-mcq-11": "「暫時替別人代班／代為工作」與本句語境不同。",
-        "cover-mcq-13": "「為隱藏真實身分／目的而使用的掩護身分或故事」與本句語境不同。",
-        "cover-mcq-10": "「承保某種風險、損失或費用」與本句語境不同。",
-        "cover-mcq-14": "「翻唱另一位歌手／樂隊原有的歌曲」與本句語境不同。",
-        "cover-mcq-09": "「金額足以支付／應付某項費用」與本句語境不同。"
+        "cover-mcq-12": "本句的「cover up」指「掩飾、隱瞞某事實、行蹤或情緒」。",
+        "cover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cover-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-12"
     },
@@ -1368,11 +1256,9 @@ export default {
       "masked": "His job at the company was only a ____.",
       "options": [
         "cover-mcq-13",
-        "cover-mcq-12",
+        "cover-pdf-002",
         "cover-mcq-14",
-        "cover-mcq-11",
-        "cover-mcq-15",
-        "cover-mcq-10"
+        "cover-mcq-06"
       ],
       "explanation": "本句的「cover」指「為隱藏真實身分／目的而使用的掩護身分或故事」。",
       "sentenceIndex": 32,
@@ -1381,12 +1267,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-13": "本句指「為隱藏真實身分／目的而使用的掩護身分或故事」。",
-        "cover-mcq-12": "「掩飾、隱瞞某事實、行蹤或情緒」與本句語境不同。",
-        "cover-mcq-14": "「翻唱另一位歌手／樂隊原有的歌曲」與本句語境不同。",
-        "cover-mcq-11": "「暫時替別人代班／代為工作」與本句語境不同。",
-        "cover-mcq-15": "「餐飲業中一位食客／一客」與本句語境不同。",
-        "cover-mcq-10": "「承保某種風險、損失或費用」與本句語境不同。"
+        "cover-mcq-13": "本句的「cover」指「為隱藏真實身分／目的而使用的掩護身分或故事」。",
+        "cover-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-13"
     },
@@ -1398,11 +1282,9 @@ export default {
       "masked": "Their ____ became more popular than the original.",
       "options": [
         "cover-mcq-14",
-        "cover-mcq-13",
-        "cover-mcq-15",
-        "cover-mcq-12",
-        "cover-mcq-16",
-        "cover-mcq-11"
+        "cover-mcq-09",
+        "cover-mcq-03",
+        "cover-mcq-17"
       ],
       "explanation": "本句的「cover」指「翻唱另一位歌手／樂隊原有的歌曲」。",
       "sentenceIndex": 34,
@@ -1411,12 +1293,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-14": "本句指「翻唱另一位歌手／樂隊原有的歌曲」。",
-        "cover-mcq-13": "「為隱藏真實身分／目的而使用的掩護身分或故事」與本句語境不同。",
-        "cover-mcq-15": "「餐飲業中一位食客／一客」與本句語境不同。",
-        "cover-mcq-12": "「掩飾、隱瞞某事實、行蹤或情緒」與本句語境不同。",
-        "cover-mcq-16": "「買回資產以結束沽空倉位；回補」與本句語境不同。",
-        "cover-mcq-11": "「暫時替別人代班／代為工作」與本句語境不同。"
+        "cover-mcq-14": "本句的「cover」指「翻唱另一位歌手／樂隊原有的歌曲」。",
+        "cover-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-14"
     },
@@ -1428,11 +1308,9 @@ export default {
       "masked": "The restaurant served 120 ____ at lunch.",
       "options": [
         "cover-mcq-15",
-        "cover-mcq-14",
-        "cover-mcq-16",
-        "cover-mcq-13",
-        "cover-mcq-17",
-        "cover-mcq-12"
+        "cover-pdf-002",
+        "cover-mcq-06",
+        "cover-mcq-07"
       ],
       "explanation": "本句的「covers」指「餐飲業中一位食客／一客」。",
       "sentenceIndex": 35,
@@ -1441,12 +1319,10 @@ export default {
         "covers"
       ],
       "optionReasons": {
-        "cover-mcq-15": "本句指「餐飲業中一位食客／一客」。",
-        "cover-mcq-14": "「翻唱另一位歌手／樂隊原有的歌曲」與本句語境不同。",
-        "cover-mcq-16": "「買回資產以結束沽空倉位；回補」與本句語境不同。",
-        "cover-mcq-13": "「為隱藏真實身分／目的而使用的掩護身分或故事」與本句語境不同。",
-        "cover-mcq-17": "「報道、保險保障、網絡覆蓋或內容涵蓋範圍」與本句語境不同。",
-        "cover-mcq-12": "「掩飾、隱瞞某事實、行蹤或情緒」與本句語境不同。"
+        "cover-mcq-15": "本句的「covers」指「餐飲業中一位食客／一客」。",
+        "cover-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-15"
     },
@@ -1458,11 +1334,9 @@ export default {
       "masked": "The dining room has space for fifty ____.",
       "options": [
         "cover-mcq-15",
-        "cover-mcq-14",
-        "cover-mcq-16",
-        "cover-mcq-13",
-        "cover-mcq-17",
-        "cover-mcq-12"
+        "cover-mcq-03",
+        "cover-mcq-07",
+        "cover-mcq-13"
       ],
       "explanation": "本句的「covers」指「餐飲業中一位食客／一客」。",
       "sentenceIndex": 36,
@@ -1471,44 +1345,40 @@ export default {
         "covers"
       ],
       "optionReasons": {
-        "cover-mcq-15": "本句指「餐飲業中一位食客／一客」。",
-        "cover-mcq-14": "「翻唱另一位歌手／樂隊原有的歌曲」與本句語境不同。",
-        "cover-mcq-16": "「買回資產以結束沽空倉位；回補」與本句語境不同。",
-        "cover-mcq-13": "「為隱藏真實身分／目的而使用的掩護身分或故事」與本句語境不同。",
-        "cover-mcq-17": "「報道、保險保障、網絡覆蓋或內容涵蓋範圍」與本句語境不同。",
-        "cover-mcq-12": "「掩飾、隱瞞某事實、行蹤或情緒」與本句語境不同。"
+        "cover-mcq-15": "本句的「covers」指「餐飲業中一位食客／一客」。",
+        "cover-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-15"
     },
     {
       "id": "cover-25-0",
-      "sense": "cover-mcq-16",
+      "sense": "cover-reviewed-f769e756ee",
       "en": "There is a $20 cover charge after 9 p.m.",
       "zh": "晚上九時後需要支付二十元入場費。",
       "masked": "There is a $20 ____ after 9 p.m.",
       "options": [
-        "cover-mcq-16",
-        "cover-mcq-15",
+        "cover-reviewed-f769e756ee",
+        "cover-pdf-001",
         "cover-mcq-17",
-        "cover-mcq-14",
-        "cover-mcq-18",
-        "cover-mcq-13"
+        "cover-mcq-16"
       ],
-      "explanation": "本句的「cover charge」指「買回資產以結束沽空倉位；回補」。",
+      "explanation": "對照完整句子：「晚上九時後需要支付二十元入場費。」。這裡的「cover charge」表示「入場費；最低消費性收費」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "cover charge"
       ],
       "optionReasons": {
-        "cover-mcq-16": "本句指「買回資產以結束沽空倉位；回補」。",
-        "cover-mcq-15": "「餐飲業中一位食客／一客」與本句語境不同。",
-        "cover-mcq-17": "「報道、保險保障、網絡覆蓋或內容涵蓋範圍」與本句語境不同。",
-        "cover-mcq-14": "「翻唱另一位歌手／樂隊原有的歌曲」與本句語境不同。",
-        "cover-mcq-18": "「移除遮蓋；進一步引申為揭露／發現隱藏事物」與本句語境不同。",
-        "cover-mcq-13": "「為隱藏真實身分／目的而使用的掩護身分或故事」與本句語境不同。"
+        "cover-reviewed-f769e756ee": "對照完整句子：「晚上九時後需要支付二十元入場費。」。這裡的「cover charge」表示「入場費；最低消費性收費」。",
+        "cover-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "cover-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "cover-mcq-16"
+      "correctOption": "cover-reviewed-f769e756ee",
+      "previousCorrectOption": "cover-mcq-16",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "cover-26-0",
@@ -1518,11 +1388,9 @@ export default {
       "masked": "Short sellers rushed to ____ their positions.",
       "options": [
         "cover-mcq-16",
-        "cover-mcq-15",
-        "cover-mcq-17",
-        "cover-mcq-14",
-        "cover-mcq-18",
-        "cover-mcq-13"
+        "cover-mcq-07",
+        "cover-reviewed-f769e756ee",
+        "cover-pdf-001"
       ],
       "explanation": "本句的「cover」指「買回資產以結束沽空倉位；回補」。",
       "sentenceIndex": 38,
@@ -1531,12 +1399,10 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "cover-mcq-16": "本句指「買回資產以結束沽空倉位；回補」。",
-        "cover-mcq-15": "「餐飲業中一位食客／一客」與本句語境不同。",
-        "cover-mcq-17": "「報道、保險保障、網絡覆蓋或內容涵蓋範圍」與本句語境不同。",
-        "cover-mcq-14": "「翻唱另一位歌手／樂隊原有的歌曲」與本句語境不同。",
-        "cover-mcq-18": "「移除遮蓋；進一步引申為揭露／發現隱藏事物」與本句語境不同。",
-        "cover-mcq-13": "「為隱藏真實身分／目的而使用的掩護身分或故事」與本句語境不同。"
+        "cover-mcq-16": "本句的「cover」指「買回資產以結束沽空倉位；回補」。",
+        "cover-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cover-reviewed-f769e756ee": "請比較這個意思與句子中標示的用法。",
+        "cover-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cover-mcq-16"
     }
@@ -1548,5 +1414,7 @@ export default {
     "sha256": "460f6ec04b90eb618e5d6787fc8f6c7b8da72d10425b48fea3c9b44f1508da5d",
     "pages": 23
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

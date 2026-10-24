@@ -231,7 +231,7 @@ export default {
     },
     {
       "id": "plan-mcq-11",
-      "title": "表示另有安排",
+      "title": "另有安排",
       "form": "Useful expression: have other plans — 另有安排",
       "en": "Useful expression: have other plans — 另有安排",
       "zh": "表示另有安排",
@@ -283,11 +283,7 @@ export default {
       "masked": "We did not need fancy ____ to have fun.",
       "options": [
         "plan-mcq-01",
-        "plan-mcq-02",
-        "plan-mcq-03",
-        "plan-mcq-04",
-        "plan-mcq-05",
-        "plan-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「plans」指「對未來準備做甚麼、如何做所作出的預先安排、打算或方案」。",
       "sentenceIndex": 0,
@@ -296,12 +292,8 @@ export default {
         "plans"
       ],
       "optionReasons": {
-        "plan-mcq-01": "本句指「對未來準備做甚麼、如何做所作出的預先安排、打算或方案」。",
-        "plan-mcq-02": "「為達成某個目標而制定的有系統行動方案；與一般 future-」是「plan — formal/detailed proposal」的用法，與本句語境不同。",
-        "plan-mcq-03": "「義高度相關」是「action」的用法，與本句語境不同。",
-        "plan-mcq-04": "「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」是「plan — drawing/layout」的用法，與本句語境不同。",
-        "plan-mcq-05": "「預先決定、安排或組織自己準備做甚麼，以及如何進行」是「plan — verb」的用法，與本句語境不同。",
-        "plan-mcq-06": "「預先考慮未來情況並為它安排所需行動或資源」是「plan for something」的用法，與本句語境不同。"
+        "plan-mcq-01": "本句的「plans」指「對未來準備做甚麼、如何做所作出的預先安排、打算或方案」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-01"
     },
@@ -313,11 +305,7 @@ export default {
       "masked": "What are your ____ for the weekend?",
       "options": [
         "plan-mcq-01",
-        "plan-mcq-02",
-        "plan-mcq-03",
-        "plan-mcq-04",
-        "plan-mcq-05",
-        "plan-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「plans」指「對未來準備做甚麼、如何做所作出的預先安排、打算或方案」。",
       "sentenceIndex": 1,
@@ -326,12 +314,8 @@ export default {
         "plans"
       ],
       "optionReasons": {
-        "plan-mcq-01": "本句指「對未來準備做甚麼、如何做所作出的預先安排、打算或方案」。",
-        "plan-mcq-02": "「為達成某個目標而制定的有系統行動方案；與一般 future-」是「plan — formal/detailed proposal」的用法，與本句語境不同。",
-        "plan-mcq-03": "「義高度相關」是「action」的用法，與本句語境不同。",
-        "plan-mcq-04": "「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」是「plan — drawing/layout」的用法，與本句語境不同。",
-        "plan-mcq-05": "「預先決定、安排或組織自己準備做甚麼，以及如何進行」是「plan — verb」的用法，與本句語境不同。",
-        "plan-mcq-06": "「預先考慮未來情況並為它安排所需行動或資源」是「plan for something」的用法，與本句語境不同。"
+        "plan-mcq-01": "本句的「plans」指「對未來準備做甚麼、如何做所作出的預先安排、打算或方案」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-01"
     },
@@ -343,11 +327,7 @@ export default {
       "masked": "The original ____ was to leave early.",
       "options": [
         "plan-mcq-01",
-        "plan-mcq-02",
-        "plan-mcq-03",
-        "plan-mcq-04",
-        "plan-mcq-05",
-        "plan-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「plan」指「對未來準備做甚麼、如何做所作出的預先安排、打算或方案」。",
       "sentenceIndex": 2,
@@ -356,12 +336,8 @@ export default {
         "plan"
       ],
       "optionReasons": {
-        "plan-mcq-01": "本句指「對未來準備做甚麼、如何做所作出的預先安排、打算或方案」。",
-        "plan-mcq-02": "「為達成某個目標而制定的有系統行動方案；與一般 future-」是「plan — formal/detailed proposal」的用法，與本句語境不同。",
-        "plan-mcq-03": "「義高度相關」是「action」的用法，與本句語境不同。",
-        "plan-mcq-04": "「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」是「plan — drawing/layout」的用法，與本句語境不同。",
-        "plan-mcq-05": "「預先決定、安排或組織自己準備做甚麼，以及如何進行」是「plan — verb」的用法，與本句語境不同。",
-        "plan-mcq-06": "「預先考慮未來情況並為它安排所需行動或資源」是「plan for something」的用法，與本句語境不同。"
+        "plan-mcq-01": "本句的「plan」指「對未來準備做甚麼、如何做所作出的預先安排、打算或方案」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-01"
     },
@@ -373,11 +349,7 @@ export default {
       "masked": "The company introduced a new five-year ____.",
       "options": [
         "plan-mcq-02",
-        "plan-mcq-01",
-        "plan-mcq-03",
-        "plan-mcq-04",
-        "plan-mcq-05",
-        "plan-mcq-06"
+        "plan-mcq-04"
       ],
       "explanation": "本句的「plan」指「為達成某個目標而制定的有系統行動方案；與一般 future-」。",
       "sentenceIndex": 3,
@@ -386,12 +358,8 @@ export default {
         "plan"
       ],
       "optionReasons": {
-        "plan-mcq-02": "本句指「為達成某個目標而制定的有系統行動方案；與一般 future-」。",
-        "plan-mcq-01": "「對未來準備做甚麼、如何做所作出的預先安排、打算或方案」是「plan — intended course of action」的用法，與本句語境不同。",
-        "plan-mcq-03": "「義高度相關」是「action」的用法，與本句語境不同。",
-        "plan-mcq-04": "「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」是「plan — drawing/layout」的用法，與本句語境不同。",
-        "plan-mcq-05": "「預先決定、安排或組織自己準備做甚麼，以及如何進行」是「plan — verb」的用法，與本句語境不同。",
-        "plan-mcq-06": "「預先考慮未來情況並為它安排所需行動或資源」是「plan for something」的用法，與本句語境不同。"
+        "plan-mcq-02": "本句的「plan」指「為達成某個目標而制定的有系統行動方案；與一般 future-」。",
+        "plan-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-02"
     },
@@ -403,11 +371,7 @@ export default {
       "masked": "We need a clear ____ for reducing costs.",
       "options": [
         "plan-mcq-02",
-        "plan-mcq-01",
-        "plan-mcq-03",
-        "plan-mcq-04",
-        "plan-mcq-05",
-        "plan-mcq-06"
+        "plan-mcq-04"
       ],
       "explanation": "本句的「plan」指「為達成某個目標而制定的有系統行動方案；與一般 future-」。",
       "sentenceIndex": 4,
@@ -416,12 +380,8 @@ export default {
         "plan"
       ],
       "optionReasons": {
-        "plan-mcq-02": "本句指「為達成某個目標而制定的有系統行動方案；與一般 future-」。",
-        "plan-mcq-01": "「對未來準備做甚麼、如何做所作出的預先安排、打算或方案」是「plan — intended course of action」的用法，與本句語境不同。",
-        "plan-mcq-03": "「義高度相關」是「action」的用法，與本句語境不同。",
-        "plan-mcq-04": "「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」是「plan — drawing/layout」的用法，與本句語境不同。",
-        "plan-mcq-05": "「預先決定、安排或組織自己準備做甚麼，以及如何進行」是「plan — verb」的用法，與本句語境不同。",
-        "plan-mcq-06": "「預先考慮未來情況並為它安排所需行動或資源」是「plan for something」的用法，與本句語境不同。"
+        "plan-mcq-02": "本句的「plan」指「為達成某個目標而制定的有系統行動方案；與一般 future-」。",
+        "plan-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-02"
     },
@@ -433,11 +393,7 @@ export default {
       "masked": "The architect showed us the floor ____.",
       "options": [
         "plan-mcq-04",
-        "plan-mcq-03",
-        "plan-mcq-05",
-        "plan-mcq-02",
-        "plan-mcq-06",
-        "plan-mcq-01"
+        "plan-mcq-02"
       ],
       "explanation": "本句的「plan」指「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」。",
       "sentenceIndex": 5,
@@ -446,12 +402,8 @@ export default {
         "plan"
       ],
       "optionReasons": {
-        "plan-mcq-04": "本句指「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」。",
-        "plan-mcq-03": "「義高度相關」是「action」的用法，與本句語境不同。",
-        "plan-mcq-05": "「預先決定、安排或組織自己準備做甚麼，以及如何進行」是「plan — verb」的用法，與本句語境不同。",
-        "plan-mcq-02": "「為達成某個目標而制定的有系統行動方案；與一般 future-」是「plan — formal/detailed proposal」的用法，與本句語境不同。",
-        "plan-mcq-06": "「預先考慮未來情況並為它安排所需行動或資源」是「plan for something」的用法，與本句語境不同。",
-        "plan-mcq-01": "「對未來準備做甚麼、如何做所作出的預先安排、打算或方案」是「plan — intended course of action」的用法，與本句語境不同。"
+        "plan-mcq-04": "本句的「plan」指「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」。",
+        "plan-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-04"
     },
@@ -463,11 +415,7 @@ export default {
       "masked": "The builders checked the ____ before starting work.",
       "options": [
         "plan-mcq-04",
-        "plan-mcq-03",
-        "plan-mcq-05",
-        "plan-mcq-02",
-        "plan-mcq-06",
-        "plan-mcq-01"
+        "plan-mcq-02"
       ],
       "explanation": "本句的「plans」指「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」。",
       "sentenceIndex": 6,
@@ -476,12 +424,8 @@ export default {
         "plans"
       ],
       "optionReasons": {
-        "plan-mcq-04": "本句指「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」。",
-        "plan-mcq-03": "「義高度相關」是「action」的用法，與本句語境不同。",
-        "plan-mcq-05": "「預先決定、安排或組織自己準備做甚麼，以及如何進行」是「plan — verb」的用法，與本句語境不同。",
-        "plan-mcq-02": "「為達成某個目標而制定的有系統行動方案；與一般 future-」是「plan — formal/detailed proposal」的用法，與本句語境不同。",
-        "plan-mcq-06": "「預先考慮未來情況並為它安排所需行動或資源」是「plan for something」的用法，與本句語境不同。",
-        "plan-mcq-01": "「對未來準備做甚麼、如何做所作出的預先安排、打算或方案」是「plan — intended course of action」的用法，與本句語境不同。"
+        "plan-mcq-04": "本句的「plans」指「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」。",
+        "plan-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-04"
     },
@@ -493,11 +437,7 @@ export default {
       "masked": "We ____ to visit the museum tomorrow.",
       "options": [
         "plan-mcq-05",
-        "plan-mcq-04",
-        "plan-mcq-06",
-        "plan-mcq-03",
-        "plan-mcq-07",
-        "plan-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「plan」指「預先決定、安排或組織自己準備做甚麼，以及如何進行」。",
       "sentenceIndex": 7,
@@ -506,12 +446,8 @@ export default {
         "plan"
       ],
       "optionReasons": {
-        "plan-mcq-05": "本句指「預先決定、安排或組織自己準備做甚麼，以及如何進行」。",
-        "plan-mcq-04": "「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」是「plan — drawing/layout」的用法，與本句語境不同。",
-        "plan-mcq-06": "「預先考慮未來情況並為它安排所需行動或資源」是「plan for something」的用法，與本句語境不同。",
-        "plan-mcq-03": "「義高度相關」是「action」的用法，與本句語境不同。",
-        "plan-mcq-07": "「預先制定目標、步驟、安排和資源的過程」是「planning」的用法，與本句語境不同。",
-        "plan-mcq-02": "「為達成某個目標而制定的有系統行動方案；與一般 future-」是「plan — formal/detailed proposal」的用法，與本句語境不同。"
+        "plan-mcq-05": "本句的「plan」指「預先決定、安排或組織自己準備做甚麼，以及如何進行」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-05"
     },
@@ -523,11 +459,7 @@ export default {
       "masked": "She ____ everything carefully.",
       "options": [
         "plan-mcq-05",
-        "plan-mcq-04",
-        "plan-mcq-06",
-        "plan-mcq-03",
-        "plan-mcq-07",
-        "plan-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「planned」指「預先決定、安排或組織自己準備做甚麼，以及如何進行」。",
       "sentenceIndex": 8,
@@ -536,12 +468,8 @@ export default {
         "planned"
       ],
       "optionReasons": {
-        "plan-mcq-05": "本句指「預先決定、安排或組織自己準備做甚麼，以及如何進行」。",
-        "plan-mcq-04": "「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」是「plan — drawing/layout」的用法，與本句語境不同。",
-        "plan-mcq-06": "「預先考慮未來情況並為它安排所需行動或資源」是「plan for something」的用法，與本句語境不同。",
-        "plan-mcq-03": "「義高度相關」是「action」的用法，與本句語境不同。",
-        "plan-mcq-07": "「預先制定目標、步驟、安排和資源的過程」是「planning」的用法，與本句語境不同。",
-        "plan-mcq-02": "「為達成某個目標而制定的有系統行動方案；與一般 future-」是「plan — formal/detailed proposal」的用法，與本句語境不同。"
+        "plan-mcq-05": "本句的「planned」指「預先決定、安排或組織自己準備做甚麼，以及如何進行」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-05"
     },
@@ -553,11 +481,7 @@ export default {
       "masked": "They are ____ a surprise party.",
       "options": [
         "plan-mcq-06",
-        "plan-mcq-05",
-        "plan-mcq-07",
-        "plan-mcq-04",
-        "plan-mcq-08",
-        "plan-mcq-03"
+        "plan-mcq-04"
       ],
       "explanation": "本句的「planning」指「預先考慮未來情況並為它安排所需行動或資源」。",
       "sentenceIndex": 9,
@@ -566,12 +490,8 @@ export default {
         "planning"
       ],
       "optionReasons": {
-        "plan-mcq-06": "本句指「預先考慮未來情況並為它安排所需行動或資源」。",
-        "plan-mcq-05": "「預先決定、安排或組織自己準備做甚麼，以及如何進行」是「plan — verb」的用法，與本句語境不同。",
-        "plan-mcq-07": "「預先制定目標、步驟、安排和資源的過程」是「planning」的用法，與本句語境不同。",
-        "plan-mcq-04": "「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」是「plan — drawing/layout」的用法，與本句語境不同。",
-        "plan-mcq-08": "「負責制定、設計或安排計劃的人」是「planner — person」的用法，與本句語境不同。",
-        "plan-mcq-03": "「義高度相關」是「action」的用法，與本句語境不同。"
+        "plan-mcq-06": "本句的「planning」指「預先考慮未來情況並為它安排所需行動或資源」。",
+        "plan-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-06"
     },
@@ -583,11 +503,7 @@ export default {
       "masked": "The route was carefully ____.",
       "options": [
         "plan-mcq-06",
-        "plan-mcq-05",
-        "plan-mcq-07",
-        "plan-mcq-04",
-        "plan-mcq-08",
-        "plan-mcq-03"
+        "plan-mcq-04"
       ],
       "explanation": "本句的「planned」指「預先考慮未來情況並為它安排所需行動或資源」。",
       "sentenceIndex": 10,
@@ -596,12 +512,8 @@ export default {
         "planned"
       ],
       "optionReasons": {
-        "plan-mcq-06": "本句指「預先考慮未來情況並為它安排所需行動或資源」。",
-        "plan-mcq-05": "「預先決定、安排或組織自己準備做甚麼，以及如何進行」是「plan — verb」的用法，與本句語境不同。",
-        "plan-mcq-07": "「預先制定目標、步驟、安排和資源的過程」是「planning」的用法，與本句語境不同。",
-        "plan-mcq-04": "「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」是「plan — drawing/layout」的用法，與本句語境不同。",
-        "plan-mcq-08": "「負責制定、設計或安排計劃的人」是「planner — person」的用法，與本句語境不同。",
-        "plan-mcq-03": "「義高度相關」是「action」的用法，與本句語境不同。"
+        "plan-mcq-06": "本句的「planned」指「預先考慮未來情況並為它安排所需行動或資源」。",
+        "plan-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-06"
     },
@@ -613,11 +525,7 @@ export default {
       "masked": "Families need to ____ unexpected expenses.",
       "options": [
         "plan-mcq-06",
-        "plan-mcq-05",
-        "plan-mcq-07",
-        "plan-mcq-04",
-        "plan-mcq-08",
-        "plan-mcq-03"
+        "plan-mcq-04"
       ],
       "explanation": "本句的「plan for」指「預先考慮未來情況並為它安排所需行動或資源」。",
       "sentenceIndex": 11,
@@ -626,12 +534,8 @@ export default {
         "plan for"
       ],
       "optionReasons": {
-        "plan-mcq-06": "本句指「預先考慮未來情況並為它安排所需行動或資源」。",
-        "plan-mcq-05": "「預先決定、安排或組織自己準備做甚麼，以及如何進行」是「plan — verb」的用法，與本句語境不同。",
-        "plan-mcq-07": "「預先制定目標、步驟、安排和資源的過程」是「planning」的用法，與本句語境不同。",
-        "plan-mcq-04": "「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」是「plan — drawing/layout」的用法，與本句語境不同。",
-        "plan-mcq-08": "「負責制定、設計或安排計劃的人」是「planner — person」的用法，與本句語境不同。",
-        "plan-mcq-03": "「義高度相關」是「action」的用法，與本句語境不同。"
+        "plan-mcq-06": "本句的「plan for」指「預先考慮未來情況並為它安排所需行動或資源」。",
+        "plan-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-06"
     },
@@ -643,11 +547,7 @@ export default {
       "masked": "The city is ____ future population growth.",
       "options": [
         "plan-mcq-06",
-        "plan-mcq-05",
-        "plan-mcq-07",
-        "plan-mcq-04",
-        "plan-mcq-08",
-        "plan-mcq-03"
+        "plan-mcq-04"
       ],
       "explanation": "本句的「planning for」指「預先考慮未來情況並為它安排所需行動或資源」。",
       "sentenceIndex": 12,
@@ -656,12 +556,8 @@ export default {
         "planning for"
       ],
       "optionReasons": {
-        "plan-mcq-06": "本句指「預先考慮未來情況並為它安排所需行動或資源」。",
-        "plan-mcq-05": "「預先決定、安排或組織自己準備做甚麼，以及如何進行」是「plan — verb」的用法，與本句語境不同。",
-        "plan-mcq-07": "「預先制定目標、步驟、安排和資源的過程」是「planning」的用法，與本句語境不同。",
-        "plan-mcq-04": "「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」是「plan — drawing/layout」的用法，與本句語境不同。",
-        "plan-mcq-08": "「負責制定、設計或安排計劃的人」是「planner — person」的用法，與本句語境不同。",
-        "plan-mcq-03": "「義高度相關」是「action」的用法，與本句語境不同。"
+        "plan-mcq-06": "本句的「planning for」指「預先考慮未來情況並為它安排所需行動或資源」。",
+        "plan-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-06"
     },
@@ -673,10 +569,6 @@ export default {
       "masked": "Good ____ can prevent many problems.",
       "options": [
         "plan-mcq-07",
-        "plan-mcq-06",
-        "plan-mcq-08",
-        "plan-mcq-05",
-        "plan-mcq-09",
         "plan-mcq-04"
       ],
       "explanation": "本句的「planning」指「預先制定目標、步驟、安排和資源的過程」。",
@@ -686,12 +578,8 @@ export default {
         "planning"
       ],
       "optionReasons": {
-        "plan-mcq-07": "本句指「預先制定目標、步驟、安排和資源的過程」。",
-        "plan-mcq-06": "「預先考慮未來情況並為它安排所需行動或資源」是「plan for something」的用法，與本句語境不同。",
-        "plan-mcq-08": "「負責制定、設計或安排計劃的人」是「planner — person」的用法，與本句語境不同。",
-        "plan-mcq-05": "「預先決定、安排或組織自己準備做甚麼，以及如何進行」是「plan — verb」的用法，與本句語境不同。",
-        "plan-mcq-09": "「用來安排日期、任務和行程的記事／規劃工具」是「planner — organizing tool」的用法，與本句語境不同。",
-        "plan-mcq-04": "「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」是「plan — drawing/layout」的用法，與本句語境不同。"
+        "plan-mcq-07": "本句的「planning」指「預先制定目標、步驟、安排和資源的過程」。",
+        "plan-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-07"
     },
@@ -703,10 +591,6 @@ export default {
       "masked": "The event required months of ____.",
       "options": [
         "plan-mcq-07",
-        "plan-mcq-06",
-        "plan-mcq-08",
-        "plan-mcq-05",
-        "plan-mcq-09",
         "plan-mcq-04"
       ],
       "explanation": "本句的「planning」指「預先制定目標、步驟、安排和資源的過程」。",
@@ -716,12 +600,8 @@ export default {
         "planning"
       ],
       "optionReasons": {
-        "plan-mcq-07": "本句指「預先制定目標、步驟、安排和資源的過程」。",
-        "plan-mcq-06": "「預先考慮未來情況並為它安排所需行動或資源」是「plan for something」的用法，與本句語境不同。",
-        "plan-mcq-08": "「負責制定、設計或安排計劃的人」是「planner — person」的用法，與本句語境不同。",
-        "plan-mcq-05": "「預先決定、安排或組織自己準備做甚麼，以及如何進行」是「plan — verb」的用法，與本句語境不同。",
-        "plan-mcq-09": "「用來安排日期、任務和行程的記事／規劃工具」是「planner — organizing tool」的用法，與本句語境不同。",
-        "plan-mcq-04": "「顯示建築物、房間、土地或其他結構如何排列、設計或建造的圖則／平面圖」是「plan — drawing/layout」的用法，與本句語境不同。"
+        "plan-mcq-07": "本句的「planning」指「預先制定目標、步驟、安排和資源的過程」。",
+        "plan-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-07"
     },
@@ -733,11 +613,7 @@ export default {
       "masked": "She works as an urban ____.",
       "options": [
         "plan-mcq-08",
-        "plan-mcq-07",
-        "plan-mcq-09",
-        "plan-mcq-06",
-        "plan-mcq-10",
-        "plan-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「planner」指「負責制定、設計或安排計劃的人」。",
       "sentenceIndex": 15,
@@ -746,12 +622,8 @@ export default {
         "planner"
       ],
       "optionReasons": {
-        "plan-mcq-08": "本句指「負責制定、設計或安排計劃的人」。",
-        "plan-mcq-07": "「預先制定目標、步驟、安排和資源的過程」是「planning」的用法，與本句語境不同。",
-        "plan-mcq-09": "「用來安排日期、任務和行程的記事／規劃工具」是「planner — organizing tool」的用法，與本句語境不同。",
-        "plan-mcq-06": "「預先考慮未來情況並為它安排所需行動或資源」是「plan for something」的用法，與本句語境不同。",
-        "plan-mcq-10": "「按照原先安排好的方式進行」是「Useful expression: go according to plan — 按計劃進行」的用法，與本句語境不同。",
-        "plan-mcq-05": "「預先決定、安排或組織自己準備做甚麼，以及如何進行」是「plan — verb」的用法，與本句語境不同。"
+        "plan-mcq-08": "本句的「planner」指「負責制定、設計或安排計劃的人」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-08"
     },
@@ -763,11 +635,7 @@ export default {
       "masked": "The event ____ arranged everything.",
       "options": [
         "plan-mcq-08",
-        "plan-mcq-07",
-        "plan-mcq-09",
-        "plan-mcq-06",
-        "plan-mcq-10",
-        "plan-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「planner」指「負責制定、設計或安排計劃的人」。",
       "sentenceIndex": 16,
@@ -776,12 +644,8 @@ export default {
         "planner"
       ],
       "optionReasons": {
-        "plan-mcq-08": "本句指「負責制定、設計或安排計劃的人」。",
-        "plan-mcq-07": "「預先制定目標、步驟、安排和資源的過程」是「planning」的用法，與本句語境不同。",
-        "plan-mcq-09": "「用來安排日期、任務和行程的記事／規劃工具」是「planner — organizing tool」的用法，與本句語境不同。",
-        "plan-mcq-06": "「預先考慮未來情況並為它安排所需行動或資源」是「plan for something」的用法，與本句語境不同。",
-        "plan-mcq-10": "「按照原先安排好的方式進行」是「Useful expression: go according to plan — 按計劃進行」的用法，與本句語境不同。",
-        "plan-mcq-05": "「預先決定、安排或組織自己準備做甚麼，以及如何進行」是「plan — verb」的用法，與本句語境不同。"
+        "plan-mcq-08": "本句的「planner」指「負責制定、設計或安排計劃的人」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-08"
     },
@@ -793,11 +657,7 @@ export default {
       "masked": "I write all my appointments in my ____.",
       "options": [
         "plan-mcq-09",
-        "plan-mcq-08",
-        "plan-mcq-10",
-        "plan-mcq-07",
-        "plan-mcq-11",
-        "plan-mcq-06"
+        "plan-mcq-04"
       ],
       "explanation": "本句的「planner」指「用來安排日期、任務和行程的記事／規劃工具」。",
       "sentenceIndex": 17,
@@ -806,12 +666,8 @@ export default {
         "planner"
       ],
       "optionReasons": {
-        "plan-mcq-09": "本句指「用來安排日期、任務和行程的記事／規劃工具」。",
-        "plan-mcq-08": "「負責制定、設計或安排計劃的人」是「planner — person」的用法，與本句語境不同。",
-        "plan-mcq-10": "「按照原先安排好的方式進行」是「Useful expression: go according to plan — 按計劃進行」的用法，與本句語境不同。",
-        "plan-mcq-07": "「預先制定目標、步驟、安排和資源的過程」是「planning」的用法，與本句語境不同。",
-        "plan-mcq-11": "「表示另有安排」是「Useful expression: have other plans — 另有安排」的用法，與本句語境不同。",
-        "plan-mcq-06": "「預先考慮未來情況並為它安排所需行動或資源」是「plan for something」的用法，與本句語境不同。"
+        "plan-mcq-09": "本句的「planner」指「用來安排日期、任務和行程的記事／規劃工具」。",
+        "plan-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-09"
     },
@@ -823,11 +679,7 @@ export default {
       "masked": "The app works as a weekly ____.",
       "options": [
         "plan-mcq-09",
-        "plan-mcq-08",
-        "plan-mcq-10",
-        "plan-mcq-07",
-        "plan-mcq-11",
-        "plan-mcq-06"
+        "plan-mcq-04"
       ],
       "explanation": "本句的「planner」指「用來安排日期、任務和行程的記事／規劃工具」。",
       "sentenceIndex": 18,
@@ -836,12 +688,8 @@ export default {
         "planner"
       ],
       "optionReasons": {
-        "plan-mcq-09": "本句指「用來安排日期、任務和行程的記事／規劃工具」。",
-        "plan-mcq-08": "「負責制定、設計或安排計劃的人」是「planner — person」的用法，與本句語境不同。",
-        "plan-mcq-10": "「按照原先安排好的方式進行」是「Useful expression: go according to plan — 按計劃進行」的用法，與本句語境不同。",
-        "plan-mcq-07": "「預先制定目標、步驟、安排和資源的過程」是「planning」的用法，與本句語境不同。",
-        "plan-mcq-11": "「表示另有安排」是「Useful expression: have other plans — 另有安排」的用法，與本句語境不同。",
-        "plan-mcq-06": "「預先考慮未來情況並為它安排所需行動或資源」是「plan for something」的用法，與本句語境不同。"
+        "plan-mcq-09": "本句的「planner」指「用來安排日期、任務和行程的記事／規劃工具」。",
+        "plan-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-09"
     },
@@ -853,11 +701,7 @@ export default {
       "masked": "Everything went according to ____.",
       "options": [
         "plan-mcq-10",
-        "plan-mcq-09",
-        "plan-mcq-11",
-        "plan-mcq-08",
-        "plan-mcq-12",
-        "plan-mcq-07"
+        "plan-mcq-04"
       ],
       "explanation": "本句的「plan」指「按照原先安排好的方式進行」。",
       "sentenceIndex": 19,
@@ -866,12 +710,8 @@ export default {
         "plan"
       ],
       "optionReasons": {
-        "plan-mcq-10": "本句指「按照原先安排好的方式進行」。",
-        "plan-mcq-09": "「用來安排日期、任務和行程的記事／規劃工具」是「planner — organizing tool」的用法，與本句語境不同。",
-        "plan-mcq-11": "「表示另有安排」是「Useful expression: have other plans — 另有安排」的用法，與本句語境不同。",
-        "plan-mcq-08": "「負責制定、設計或安排計劃的人」是「planner — person」的用法，與本句語境不同。",
-        "plan-mcq-12": "「比需要行動的時間更早開始考慮和安排」是「Useful expression: plan ahead — 提前計劃」的用法，與本句語境不同。",
-        "plan-mcq-07": "「預先制定目標、步驟、安排和資源的過程」是「planning」的用法，與本句語境不同。"
+        "plan-mcq-10": "本句的「plan」指「按照原先安排好的方式進行」。",
+        "plan-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-10"
     },
@@ -883,11 +723,7 @@ export default {
       "masked": "If everything goes according to ____, we’ll finish tomorrow.",
       "options": [
         "plan-mcq-10",
-        "plan-mcq-09",
-        "plan-mcq-11",
-        "plan-mcq-08",
-        "plan-mcq-12",
-        "plan-mcq-07"
+        "plan-mcq-04"
       ],
       "explanation": "本句的「plan」指「按照原先安排好的方式進行」。",
       "sentenceIndex": 20,
@@ -896,12 +732,8 @@ export default {
         "plan"
       ],
       "optionReasons": {
-        "plan-mcq-10": "本句指「按照原先安排好的方式進行」。",
-        "plan-mcq-09": "「用來安排日期、任務和行程的記事／規劃工具」是「planner — organizing tool」的用法，與本句語境不同。",
-        "plan-mcq-11": "「表示另有安排」是「Useful expression: have other plans — 另有安排」的用法，與本句語境不同。",
-        "plan-mcq-08": "「負責制定、設計或安排計劃的人」是「planner — person」的用法，與本句語境不同。",
-        "plan-mcq-12": "「比需要行動的時間更早開始考慮和安排」是「Useful expression: plan ahead — 提前計劃」的用法，與本句語境不同。",
-        "plan-mcq-07": "「預先制定目標、步驟、安排和資源的過程」是「planning」的用法，與本句語境不同。"
+        "plan-mcq-10": "本句的「plan」指「按照原先安排好的方式進行」。",
+        "plan-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-10"
     },
@@ -913,11 +745,7 @@ export default {
       "masked": "I’d love to come, but I already have other ____.",
       "options": [
         "plan-mcq-11",
-        "plan-mcq-10",
-        "plan-mcq-12",
-        "plan-mcq-09",
-        "plan-mcq-08",
-        "plan-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「plans」指「表示另有安排」。",
       "sentenceIndex": 21,
@@ -926,12 +754,8 @@ export default {
         "plans"
       ],
       "optionReasons": {
-        "plan-mcq-11": "本句指「表示另有安排」。",
-        "plan-mcq-10": "「按照原先安排好的方式進行」是「Useful expression: go according to plan — 按計劃進行」的用法，與本句語境不同。",
-        "plan-mcq-12": "「比需要行動的時間更早開始考慮和安排」是「Useful expression: plan ahead — 提前計劃」的用法，與本句語境不同。",
-        "plan-mcq-09": "「用來安排日期、任務和行程的記事／規劃工具」是「planner — organizing tool」的用法，與本句語境不同。",
-        "plan-mcq-08": "「負責制定、設計或安排計劃的人」是「planner — person」的用法，與本句語境不同。",
-        "plan-mcq-07": "「預先制定目標、步驟、安排和資源的過程」是「planning」的用法，與本句語境不同。"
+        "plan-mcq-11": "本句的「plans」指「表示另有安排」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-11"
     },
@@ -943,11 +767,7 @@ export default {
       "masked": "She had other ____ for the evening.",
       "options": [
         "plan-mcq-11",
-        "plan-mcq-10",
-        "plan-mcq-12",
-        "plan-mcq-09",
-        "plan-mcq-08",
-        "plan-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「plans」指「表示另有安排」。",
       "sentenceIndex": 22,
@@ -956,12 +776,8 @@ export default {
         "plans"
       ],
       "optionReasons": {
-        "plan-mcq-11": "本句指「表示另有安排」。",
-        "plan-mcq-10": "「按照原先安排好的方式進行」是「Useful expression: go according to plan — 按計劃進行」的用法，與本句語境不同。",
-        "plan-mcq-12": "「比需要行動的時間更早開始考慮和安排」是「Useful expression: plan ahead — 提前計劃」的用法，與本句語境不同。",
-        "plan-mcq-09": "「用來安排日期、任務和行程的記事／規劃工具」是「planner — organizing tool」的用法，與本句語境不同。",
-        "plan-mcq-08": "「負責制定、設計或安排計劃的人」是「planner — person」的用法，與本句語境不同。",
-        "plan-mcq-07": "「預先制定目標、步驟、安排和資源的過程」是「planning」的用法，與本句語境不同。"
+        "plan-mcq-11": "本句的「plans」指「表示另有安排」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-11"
     },
@@ -973,11 +789,7 @@ export default {
       "masked": "It helps to ____ before a long trip.",
       "options": [
         "plan-mcq-12",
-        "plan-mcq-11",
-        "plan-mcq-10",
-        "plan-mcq-09",
-        "plan-mcq-08",
-        "plan-mcq-07"
+        "plan-mcq-04"
       ],
       "explanation": "本句的「plan ahead」指「比需要行動的時間更早開始考慮和安排」。",
       "sentenceIndex": 23,
@@ -986,12 +798,8 @@ export default {
         "plan ahead"
       ],
       "optionReasons": {
-        "plan-mcq-12": "本句指「比需要行動的時間更早開始考慮和安排」。",
-        "plan-mcq-11": "「表示另有安排」是「Useful expression: have other plans — 另有安排」的用法，與本句語境不同。",
-        "plan-mcq-10": "「按照原先安排好的方式進行」是「Useful expression: go according to plan — 按計劃進行」的用法，與本句語境不同。",
-        "plan-mcq-09": "「用來安排日期、任務和行程的記事／規劃工具」是「planner — organizing tool」的用法，與本句語境不同。",
-        "plan-mcq-08": "「負責制定、設計或安排計劃的人」是「planner — person」的用法，與本句語境不同。",
-        "plan-mcq-07": "「預先制定目標、步驟、安排和資源的過程」是「planning」的用法，與本句語境不同。"
+        "plan-mcq-12": "本句的「plan ahead」指「比需要行動的時間更早開始考慮和安排」。",
+        "plan-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-12"
     },
@@ -1003,11 +811,7 @@ export default {
       "masked": "We should ____ for winter.",
       "options": [
         "plan-mcq-12",
-        "plan-mcq-11",
-        "plan-mcq-10",
-        "plan-mcq-09",
-        "plan-mcq-08",
-        "plan-mcq-07"
+        "plan-mcq-04"
       ],
       "explanation": "本句的「plan ahead」指「比需要行動的時間更早開始考慮和安排」。",
       "sentenceIndex": 24,
@@ -1016,12 +820,8 @@ export default {
         "plan ahead"
       ],
       "optionReasons": {
-        "plan-mcq-12": "本句指「比需要行動的時間更早開始考慮和安排」。",
-        "plan-mcq-11": "「表示另有安排」是「Useful expression: have other plans — 另有安排」的用法，與本句語境不同。",
-        "plan-mcq-10": "「按照原先安排好的方式進行」是「Useful expression: go according to plan — 按計劃進行」的用法，與本句語境不同。",
-        "plan-mcq-09": "「用來安排日期、任務和行程的記事／規劃工具」是「planner — organizing tool」的用法，與本句語境不同。",
-        "plan-mcq-08": "「負責制定、設計或安排計劃的人」是「planner — person」的用法，與本句語境不同。",
-        "plan-mcq-07": "「預先制定目標、步驟、安排和資源的過程」是「planning」的用法，與本句語境不同。"
+        "plan-mcq-12": "本句的「plan ahead」指「比需要行動的時間更早開始考慮和安排」。",
+        "plan-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plan-mcq-12"
     }
@@ -1033,5 +833,12 @@ export default {
     "sha256": "ba99b517f6783b4a422c6daf3e50379e1f42da378f5952ab3bc3391ff0dcff58",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

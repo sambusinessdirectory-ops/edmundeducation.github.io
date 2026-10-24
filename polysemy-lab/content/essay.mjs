@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "essay-mcq-02",
-      "title": "為學校、課程、評核或考試而撰寫的結構化論述文章；屬於",
+      "title": "為學校、課程、評核或考試而撰寫的結構化論述文章",
       "form": "essay — academic assignment",
       "en": "essay — academic assignment",
       "zh": "為學校、課程、評核或考試而撰寫的結構化論述文章；屬於",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "essay-mcq-08",
-      "title": "表示關於……的文章",
+      "title": "關於……的文章",
       "form": "Useful construction: essay on/about something — 關於……的文章",
       "en": "Useful construction: essay on/about something — 關於……的文章",
       "zh": "表示關於……的文章",
@@ -178,7 +178,7 @@ export default {
     },
     {
       "id": "essay-mcq-09",
-      "title": "表示論述題",
+      "title": "論述題",
       "form": "Useful compound: essay question — 論述題",
       "en": "Useful compound: essay question — 論述題",
       "zh": "表示論述題",
@@ -203,11 +203,8 @@ export default {
       "masked": "She wrote an ____ about memory and identity.",
       "options": [
         "essay-mcq-01",
-        "essay-mcq-02",
-        "essay-mcq-03",
-        "essay-mcq-04",
-        "essay-mcq-05",
-        "essay-mcq-06"
+        "essay-mcq-06",
+        "essay-mcq-05"
       ],
       "explanation": "本句的「essay」指「一篇以較完整方式分析、討論或反思某個主題的短篇文章」。",
       "sentenceIndex": 0,
@@ -216,12 +213,9 @@ export default {
         "essay"
       ],
       "optionReasons": {
-        "essay-mcq-01": "本句指「一篇以較完整方式分析、討論或反思某個主題的短篇文章」。",
-        "essay-mcq-02": "「為學校、課程、評核或考試而撰寫的結構化論述文章；屬於」是「essay — academic assignment」的用法，與本句語境不同。",
-        "essay-mcq-03": "「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」是「personal essay」的用法，與本句語境不同。",
-        "essay-mcq-04": "「要求考生以較長篇幅分析、解釋或論證的論述題」是「essay question」的用法，與本句語境不同。",
-        "essay-mcq-05": "「嘗試、試圖做某事；現代日常英語較少見」是「essay — verb, literary」的用法，與本句語境不同。",
-        "essay-mcq-06": "「散文家；隨筆作家」是「essayist」的用法，與本句語境不同。"
+        "essay-mcq-01": "本句的「essay」指「一篇以較完整方式分析、討論或反思某個主題的短篇文章」。",
+        "essay-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essay-mcq-01"
     },
@@ -233,9 +227,6 @@ export default {
       "masked": "The book contains a collection of ____ on modern life.",
       "options": [
         "essay-mcq-01",
-        "essay-mcq-02",
-        "essay-mcq-03",
-        "essay-mcq-04",
         "essay-mcq-05",
         "essay-mcq-06"
       ],
@@ -246,12 +237,9 @@ export default {
         "essays"
       ],
       "optionReasons": {
-        "essay-mcq-01": "本句指「一篇以較完整方式分析、討論或反思某個主題的短篇文章」。",
-        "essay-mcq-02": "「為學校、課程、評核或考試而撰寫的結構化論述文章；屬於」是「essay — academic assignment」的用法，與本句語境不同。",
-        "essay-mcq-03": "「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」是「personal essay」的用法，與本句語境不同。",
-        "essay-mcq-04": "「要求考生以較長篇幅分析、解釋或論證的論述題」是「essay question」的用法，與本句語境不同。",
-        "essay-mcq-05": "「嘗試、試圖做某事；現代日常英語較少見」是「essay — verb, literary」的用法，與本句語境不同。",
-        "essay-mcq-06": "「散文家；隨筆作家」是「essayist」的用法，與本句語境不同。"
+        "essay-mcq-01": "本句的「essays」指「一篇以較完整方式分析、討論或反思某個主題的短篇文章」。",
+        "essay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "essay-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essay-mcq-01"
     },
@@ -263,11 +251,8 @@ export default {
       "masked": "We have to write a 2,000-word ____.",
       "options": [
         "essay-mcq-02",
-        "essay-mcq-01",
-        "essay-mcq-03",
-        "essay-mcq-04",
         "essay-mcq-05",
-        "essay-mcq-06"
+        "essay-mcq-03"
       ],
       "explanation": "本句的「essay」指「為學校、課程、評核或考試而撰寫的結構化論述文章；屬於」。",
       "sentenceIndex": 2,
@@ -276,12 +261,9 @@ export default {
         "essay"
       ],
       "optionReasons": {
-        "essay-mcq-02": "本句指「為學校、課程、評核或考試而撰寫的結構化論述文章；屬於」。",
-        "essay-mcq-01": "「一篇以較完整方式分析、討論或反思某個主題的短篇文章」是「essay — general writing」的用法，與本句語境不同。",
-        "essay-mcq-03": "「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」是「personal essay」的用法，與本句語境不同。",
-        "essay-mcq-04": "「要求考生以較長篇幅分析、解釋或論證的論述題」是「essay question」的用法，與本句語境不同。",
-        "essay-mcq-05": "「嘗試、試圖做某事；現代日常英語較少見」是「essay — verb, literary」的用法，與本句語境不同。",
-        "essay-mcq-06": "「散文家；隨筆作家」是「essayist」的用法，與本句語境不同。"
+        "essay-mcq-02": "本句的「essay」指「為學校、課程、評核或考試而撰寫的結構化論述文章；屬於」。",
+        "essay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "essay-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essay-mcq-02"
     },
@@ -293,11 +275,8 @@ export default {
       "masked": "Her history ____ was due on Friday.",
       "options": [
         "essay-mcq-02",
-        "essay-mcq-01",
-        "essay-mcq-03",
-        "essay-mcq-04",
         "essay-mcq-05",
-        "essay-mcq-06"
+        "essay-mcq-03"
       ],
       "explanation": "本句的「essay」指「為學校、課程、評核或考試而撰寫的結構化論述文章；屬於」。",
       "sentenceIndex": 3,
@@ -306,12 +285,9 @@ export default {
         "essay"
       ],
       "optionReasons": {
-        "essay-mcq-02": "本句指「為學校、課程、評核或考試而撰寫的結構化論述文章；屬於」。",
-        "essay-mcq-01": "「一篇以較完整方式分析、討論或反思某個主題的短篇文章」是「essay — general writing」的用法，與本句語境不同。",
-        "essay-mcq-03": "「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」是「personal essay」的用法，與本句語境不同。",
-        "essay-mcq-04": "「要求考生以較長篇幅分析、解釋或論證的論述題」是「essay question」的用法，與本句語境不同。",
-        "essay-mcq-05": "「嘗試、試圖做某事；現代日常英語較少見」是「essay — verb, literary」的用法，與本句語境不同。",
-        "essay-mcq-06": "「散文家；隨筆作家」是「essayist」的用法，與本句語境不同。"
+        "essay-mcq-02": "本句的「essay」指「為學校、課程、評核或考試而撰寫的結構化論述文章；屬於」。",
+        "essay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "essay-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essay-mcq-02"
     },
@@ -323,11 +299,8 @@ export default {
       "masked": "I usually read novels or personal ____.",
       "options": [
         "essay-mcq-03",
-        "essay-mcq-02",
-        "essay-mcq-04",
-        "essay-mcq-01",
         "essay-mcq-05",
-        "essay-mcq-06"
+        "essay-mcq-02"
       ],
       "explanation": "本句的「essays」指「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」。",
       "sentenceIndex": 4,
@@ -336,12 +309,9 @@ export default {
         "essays"
       ],
       "optionReasons": {
-        "essay-mcq-03": "本句指「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」。",
-        "essay-mcq-02": "「為學校、課程、評核或考試而撰寫的結構化論述文章；屬於」是「essay — academic assignment」的用法，與本句語境不同。",
-        "essay-mcq-04": "「要求考生以較長篇幅分析、解釋或論證的論述題」是「essay question」的用法，與本句語境不同。",
-        "essay-mcq-01": "「一篇以較完整方式分析、討論或反思某個主題的短篇文章」是「essay — general writing」的用法，與本句語境不同。",
-        "essay-mcq-05": "「嘗試、試圖做某事；現代日常英語較少見」是「essay — verb, literary」的用法，與本句語境不同。",
-        "essay-mcq-06": "「散文家；隨筆作家」是「essayist」的用法，與本句語境不同。"
+        "essay-mcq-03": "本句的「essays」指「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」。",
+        "essay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "essay-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essay-mcq-03"
     },
@@ -354,10 +324,7 @@ export default {
       "options": [
         "essay-mcq-03",
         "essay-mcq-02",
-        "essay-mcq-04",
-        "essay-mcq-01",
-        "essay-mcq-05",
-        "essay-mcq-06"
+        "essay-mcq-05"
       ],
       "explanation": "本句的「essay」指「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」。",
       "sentenceIndex": 5,
@@ -366,12 +333,9 @@ export default {
         "essay"
       ],
       "optionReasons": {
-        "essay-mcq-03": "本句指「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」。",
-        "essay-mcq-02": "「為學校、課程、評核或考試而撰寫的結構化論述文章；屬於」是「essay — academic assignment」的用法，與本句語境不同。",
-        "essay-mcq-04": "「要求考生以較長篇幅分析、解釋或論證的論述題」是「essay question」的用法，與本句語境不同。",
-        "essay-mcq-01": "「一篇以較完整方式分析、討論或反思某個主題的短篇文章」是「essay — general writing」的用法，與本句語境不同。",
-        "essay-mcq-05": "「嘗試、試圖做某事；現代日常英語較少見」是「essay — verb, literary」的用法，與本句語境不同。",
-        "essay-mcq-06": "「散文家；隨筆作家」是「essayist」的用法，與本句語境不同。"
+        "essay-mcq-03": "本句的「essay」指「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」。",
+        "essay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "essay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essay-mcq-03"
     },
@@ -383,11 +347,8 @@ export default {
       "masked": "Her ____ begins with a childhood memory.",
       "options": [
         "essay-mcq-03",
-        "essay-mcq-02",
-        "essay-mcq-04",
-        "essay-mcq-01",
         "essay-mcq-05",
-        "essay-mcq-06"
+        "essay-mcq-02"
       ],
       "explanation": "本句的「essay」指「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」。",
       "sentenceIndex": 6,
@@ -396,12 +357,9 @@ export default {
         "essay"
       ],
       "optionReasons": {
-        "essay-mcq-03": "本句指「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」。",
-        "essay-mcq-02": "「為學校、課程、評核或考試而撰寫的結構化論述文章；屬於」是「essay — academic assignment」的用法，與本句語境不同。",
-        "essay-mcq-04": "「要求考生以較長篇幅分析、解釋或論證的論述題」是「essay question」的用法，與本句語境不同。",
-        "essay-mcq-01": "「一篇以較完整方式分析、討論或反思某個主題的短篇文章」是「essay — general writing」的用法，與本句語境不同。",
-        "essay-mcq-05": "「嘗試、試圖做某事；現代日常英語較少見」是「essay — verb, literary」的用法，與本句語境不同。",
-        "essay-mcq-06": "「散文家；隨筆作家」是「essayist」的用法，與本句語境不同。"
+        "essay-mcq-03": "本句的「essay」指「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」。",
+        "essay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "essay-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essay-mcq-03"
     },
@@ -413,11 +371,8 @@ export default {
       "masked": "The exam includes two ____ questions.",
       "options": [
         "essay-mcq-04",
-        "essay-mcq-03",
-        "essay-mcq-05",
-        "essay-mcq-02",
-        "essay-mcq-06",
-        "essay-mcq-01"
+        "essay-mcq-08",
+        "essay-mcq-05"
       ],
       "explanation": "本句的「essay」指「要求考生以較長篇幅分析、解釋或論證的論述題」。",
       "sentenceIndex": 7,
@@ -426,12 +381,9 @@ export default {
         "essay"
       ],
       "optionReasons": {
-        "essay-mcq-04": "本句指「要求考生以較長篇幅分析、解釋或論證的論述題」。",
-        "essay-mcq-03": "「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」是「personal essay」的用法，與本句語境不同。",
-        "essay-mcq-05": "「嘗試、試圖做某事；現代日常英語較少見」是「essay — verb, literary」的用法，與本句語境不同。",
-        "essay-mcq-02": "「為學校、課程、評核或考試而撰寫的結構化論述文章；屬於」是「essay — academic assignment」的用法，與本句語境不同。",
-        "essay-mcq-06": "「散文家；隨筆作家」是「essayist」的用法，與本句語境不同。",
-        "essay-mcq-01": "「一篇以較完整方式分析、討論或反思某個主題的短篇文章」是「essay — general writing」的用法，與本句語境不同。"
+        "essay-mcq-04": "本句的「essay」指「要求考生以較長篇幅分析、解釋或論證的論述題」。",
+        "essay-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "essay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essay-mcq-04"
     },
@@ -443,11 +395,8 @@ export default {
       "masked": "You have forty minutes to complete the ____.",
       "options": [
         "essay-mcq-04",
-        "essay-mcq-03",
-        "essay-mcq-05",
-        "essay-mcq-02",
-        "essay-mcq-06",
-        "essay-mcq-01"
+        "essay-mcq-08",
+        "essay-mcq-05"
       ],
       "explanation": "本句的「essay」指「要求考生以較長篇幅分析、解釋或論證的論述題」。",
       "sentenceIndex": 8,
@@ -456,12 +405,9 @@ export default {
         "essay"
       ],
       "optionReasons": {
-        "essay-mcq-04": "本句指「要求考生以較長篇幅分析、解釋或論證的論述題」。",
-        "essay-mcq-03": "「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」是「personal essay」的用法，與本句語境不同。",
-        "essay-mcq-05": "「嘗試、試圖做某事；現代日常英語較少見」是「essay — verb, literary」的用法，與本句語境不同。",
-        "essay-mcq-02": "「為學校、課程、評核或考試而撰寫的結構化論述文章；屬於」是「essay — academic assignment」的用法，與本句語境不同。",
-        "essay-mcq-06": "「散文家；隨筆作家」是「essayist」的用法，與本句語境不同。",
-        "essay-mcq-01": "「一篇以較完整方式分析、討論或反思某個主題的短篇文章」是「essay — general writing」的用法，與本句語境不同。"
+        "essay-mcq-04": "本句的「essay」指「要求考生以較長篇幅分析、解釋或論證的論述題」。",
+        "essay-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "essay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essay-mcq-04"
     },
@@ -473,11 +419,7 @@ export default {
       "masked": "He ____ a smile.",
       "options": [
         "essay-mcq-05",
-        "essay-mcq-04",
-        "essay-mcq-06",
-        "essay-mcq-03",
-        "essay-mcq-07",
-        "essay-mcq-02"
+        "essay-mcq-07"
       ],
       "explanation": "本句的「essayed」指「嘗試、試圖做某事；現代日常英語較少見」。",
       "sentenceIndex": 9,
@@ -486,12 +428,8 @@ export default {
         "essayed"
       ],
       "optionReasons": {
-        "essay-mcq-05": "本句指「嘗試、試圖做某事；現代日常英語較少見」。",
-        "essay-mcq-04": "「要求考生以較長篇幅分析、解釋或論證的論述題」是「essay question」的用法，與本句語境不同。",
-        "essay-mcq-06": "「散文家；隨筆作家」是「essayist」的用法，與本句語境不同。",
-        "essay-mcq-03": "「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」是「personal essay」的用法，與本句語境不同。",
-        "essay-mcq-07": "「具有散文式、思辨式或論述式風格的」是「essayistic」的用法，與本句語境不同。",
-        "essay-mcq-02": "「為學校、課程、評核或考試而撰寫的結構化論述文章；屬於」是「essay — academic assignment」的用法，與本句語境不同。"
+        "essay-mcq-05": "本句的「essayed」指「嘗試、試圖做某事；現代日常英語較少見」。",
+        "essay-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essay-mcq-05"
     },
@@ -503,11 +441,8 @@ export default {
       "masked": "She ____ a reply but stopped.",
       "options": [
         "essay-mcq-05",
-        "essay-mcq-04",
-        "essay-mcq-06",
-        "essay-mcq-03",
-        "essay-mcq-07",
-        "essay-mcq-02"
+        "essay-mcq-09",
+        "essay-mcq-08"
       ],
       "explanation": "本句的「essayed」指「嘗試、試圖做某事；現代日常英語較少見」。",
       "sentenceIndex": 10,
@@ -516,12 +451,9 @@ export default {
         "essayed"
       ],
       "optionReasons": {
-        "essay-mcq-05": "本句指「嘗試、試圖做某事；現代日常英語較少見」。",
-        "essay-mcq-04": "「要求考生以較長篇幅分析、解釋或論證的論述題」是「essay question」的用法，與本句語境不同。",
-        "essay-mcq-06": "「散文家；隨筆作家」是「essayist」的用法，與本句語境不同。",
-        "essay-mcq-03": "「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」是「personal essay」的用法，與本句語境不同。",
-        "essay-mcq-07": "「具有散文式、思辨式或論述式風格的」是「essayistic」的用法，與本句語境不同。",
-        "essay-mcq-02": "「為學校、課程、評核或考試而撰寫的結構化論述文章；屬於」是「essay — academic assignment」的用法，與本句語境不同。"
+        "essay-mcq-05": "本句的「essayed」指「嘗試、試圖做某事；現代日常英語較少見」。",
+        "essay-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "essay-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essay-mcq-05"
     },
@@ -534,10 +466,7 @@ export default {
       "options": [
         "essay-mcq-06",
         "essay-mcq-05",
-        "essay-mcq-07",
-        "essay-mcq-04",
-        "essay-mcq-08",
-        "essay-mcq-03"
+        "essay-mcq-04"
       ],
       "explanation": "本句的「essayist」指「散文家；隨筆作家」。",
       "sentenceIndex": 11,
@@ -546,12 +475,9 @@ export default {
         "essayist"
       ],
       "optionReasons": {
-        "essay-mcq-06": "本句指「散文家；隨筆作家」。",
-        "essay-mcq-05": "「嘗試、試圖做某事；現代日常英語較少見」是「essay — verb, literary」的用法，與本句語境不同。",
-        "essay-mcq-07": "「具有散文式、思辨式或論述式風格的」是「essayistic」的用法，與本句語境不同。",
-        "essay-mcq-04": "「要求考生以較長篇幅分析、解釋或論證的論述題」是「essay question」的用法，與本句語境不同。",
-        "essay-mcq-08": "「表示關於……的文章」是「Useful construction: essay on/about something — 關於……的文章」的用法，與本句語境不同。",
-        "essay-mcq-03": "「以作者自身經歷、感受或觀察探索某個較廣泛主題的個人隨筆／散文」是「personal essay」的用法，與本句語境不同。"
+        "essay-mcq-06": "本句的「essayist」指「散文家；隨筆作家」。",
+        "essay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "essay-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essay-mcq-06"
     },
@@ -563,11 +489,7 @@ export default {
       "masked": "The film has an ____ style.",
       "options": [
         "essay-mcq-07",
-        "essay-mcq-06",
-        "essay-mcq-08",
-        "essay-mcq-05",
-        "essay-mcq-09",
-        "essay-mcq-04"
+        "essay-mcq-05"
       ],
       "explanation": "本句的「essayistic」指「具有散文式、思辨式或論述式風格的」。",
       "sentenceIndex": 12,
@@ -576,12 +498,8 @@ export default {
         "essayistic"
       ],
       "optionReasons": {
-        "essay-mcq-07": "本句指「具有散文式、思辨式或論述式風格的」。",
-        "essay-mcq-06": "「散文家；隨筆作家」是「essayist」的用法，與本句語境不同。",
-        "essay-mcq-08": "「表示關於……的文章」是「Useful construction: essay on/about something — 關於……的文章」的用法，與本句語境不同。",
-        "essay-mcq-05": "「嘗試、試圖做某事；現代日常英語較少見」是「essay — verb, literary」的用法，與本句語境不同。",
-        "essay-mcq-09": "「表示論述題」是「Useful compound: essay question — 論述題」的用法，與本句語境不同。",
-        "essay-mcq-04": "「要求考生以較長篇幅分析、解釋或論證的論述題」是「essay question」的用法，與本句語境不同。"
+        "essay-mcq-07": "本句的「essayistic」指「具有散文式、思辨式或論述式風格的」。",
+        "essay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essay-mcq-07"
     },
@@ -593,11 +511,7 @@ export default {
       "masked": "Her writing is highly ____.",
       "options": [
         "essay-mcq-07",
-        "essay-mcq-06",
-        "essay-mcq-08",
-        "essay-mcq-05",
-        "essay-mcq-09",
-        "essay-mcq-04"
+        "essay-mcq-05"
       ],
       "explanation": "本句的「essayistic」指「具有散文式、思辨式或論述式風格的」。",
       "sentenceIndex": 13,
@@ -606,12 +520,8 @@ export default {
         "essayistic"
       ],
       "optionReasons": {
-        "essay-mcq-07": "本句指「具有散文式、思辨式或論述式風格的」。",
-        "essay-mcq-06": "「散文家；隨筆作家」是「essayist」的用法，與本句語境不同。",
-        "essay-mcq-08": "「表示關於……的文章」是「Useful construction: essay on/about something — 關於……的文章」的用法，與本句語境不同。",
-        "essay-mcq-05": "「嘗試、試圖做某事；現代日常英語較少見」是「essay — verb, literary」的用法，與本句語境不同。",
-        "essay-mcq-09": "「表示論述題」是「Useful compound: essay question — 論述題」的用法，與本句語境不同。",
-        "essay-mcq-04": "「要求考生以較長篇幅分析、解釋或論證的論述題」是「essay question」的用法，與本句語境不同。"
+        "essay-mcq-07": "本句的「essayistic」指「具有散文式、思辨式或論述式風格的」。",
+        "essay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essay-mcq-07"
     },
@@ -623,11 +533,8 @@ export default {
       "masked": "He wrote an ____ modern architecture.",
       "options": [
         "essay-mcq-08",
-        "essay-mcq-07",
-        "essay-mcq-09",
-        "essay-mcq-06",
-        "essay-mcq-05",
-        "essay-mcq-04"
+        "essay-mcq-04",
+        "essay-mcq-05"
       ],
       "explanation": "本句的「essay on」指「表示關於……的文章」。",
       "sentenceIndex": 14,
@@ -636,12 +543,9 @@ export default {
         "essay on"
       ],
       "optionReasons": {
-        "essay-mcq-08": "本句指「表示關於……的文章」。",
-        "essay-mcq-07": "「具有散文式、思辨式或論述式風格的」是「essayistic」的用法，與本句語境不同。",
-        "essay-mcq-09": "「表示論述題」是「Useful compound: essay question — 論述題」的用法，與本句語境不同。",
-        "essay-mcq-06": "「散文家；隨筆作家」是「essayist」的用法，與本句語境不同。",
-        "essay-mcq-05": "「嘗試、試圖做某事；現代日常英語較少見」是「essay — verb, literary」的用法，與本句語境不同。",
-        "essay-mcq-04": "「要求考生以較長篇幅分析、解釋或論證的論述題」是「essay question」的用法，與本句語境不同。"
+        "essay-mcq-08": "本句的「essay on」指「表示關於……的文章」。",
+        "essay-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "essay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essay-mcq-08"
     },
@@ -653,11 +557,8 @@ export default {
       "masked": "Choose one of the three ____.",
       "options": [
         "essay-mcq-09",
-        "essay-mcq-08",
-        "essay-mcq-07",
-        "essay-mcq-06",
         "essay-mcq-05",
-        "essay-mcq-04"
+        "essay-mcq-06"
       ],
       "explanation": "本句的「essay questions」指「表示論述題」。",
       "sentenceIndex": 15,
@@ -666,12 +567,9 @@ export default {
         "essay questions"
       ],
       "optionReasons": {
-        "essay-mcq-09": "本句指「表示論述題」。",
-        "essay-mcq-08": "「表示關於……的文章」是「Useful construction: essay on/about something — 關於……的文章」的用法，與本句語境不同。",
-        "essay-mcq-07": "「具有散文式、思辨式或論述式風格的」是「essayistic」的用法，與本句語境不同。",
-        "essay-mcq-06": "「散文家；隨筆作家」是「essayist」的用法，與本句語境不同。",
-        "essay-mcq-05": "「嘗試、試圖做某事；現代日常英語較少見」是「essay — verb, literary」的用法，與本句語境不同。",
-        "essay-mcq-04": "「要求考生以較長篇幅分析、解釋或論證的論述題」是「essay question」的用法，與本句語境不同。"
+        "essay-mcq-09": "本句的「essay questions」指「表示論述題」。",
+        "essay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "essay-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essay-mcq-09"
     }
@@ -683,5 +581,7 @@ export default {
     "sha256": "48c2ae8d33b4b17b690b31d4199eb8ca921c812d417eeb0c9db927177f6c2ec4",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

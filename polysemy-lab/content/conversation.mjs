@@ -404,11 +404,9 @@ export default {
       "masked": "She is not the sort of person who tries to dominate a ____.",
       "options": [
         "conversation-mcq-01",
-        "conversation-mcq-02",
-        "conversation-mcq-03",
-        "conversation-mcq-04",
-        "conversation-mcq-05",
-        "conversation-mcq-06"
+        "conversation-mcq-08",
+        "conversation-mcq-10",
+        "conversation-mcq-13"
       ],
       "explanation": "本句的「conversation」指「兩個或以上的人透過說話互相回應並交流想法、資訊或感受」。",
       "sentenceIndex": 0,
@@ -417,12 +415,10 @@ export default {
         "conversation"
       ],
       "optionReasons": {
-        "conversation-mcq-01": "本句指「兩個或以上的人透過說話互相回應並交流想法、資訊或感受」。",
-        "conversation-mcq-02": "「與某人進行一段有來有往的口頭交流」是「have a conversation」的用法，與本句語境不同。",
-        "conversation-mcq-03": "「以某個主題為中心進行的交談」是「conversation about something」的用法，與本句語境不同。",
-        "conversation-mcq-04": "「與某個特定人物進行的談話」是「conversation with someone」的用法，與本句語境不同。",
-        "conversation-mcq-05": "「為避免冷場或保持社交互動而主動找話題聊天」是「make conversation」的用法，與本句語境不同。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。"
+        "conversation-mcq-01": "本句的「conversation」指「兩個或以上的人透過說話互相回應並交流想法、資訊或感受」。",
+        "conversation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-01"
     },
@@ -434,11 +430,9 @@ export default {
       "masked": "We had a long ____ after dinner.",
       "options": [
         "conversation-mcq-01",
-        "conversation-mcq-02",
-        "conversation-mcq-03",
-        "conversation-mcq-04",
-        "conversation-mcq-05",
-        "conversation-mcq-06"
+        "conversation-mcq-08",
+        "conversation-mcq-10",
+        "conversation-mcq-13"
       ],
       "explanation": "本句的「conversation」指「兩個或以上的人透過說話互相回應並交流想法、資訊或感受」。",
       "sentenceIndex": 1,
@@ -447,12 +441,10 @@ export default {
         "conversation"
       ],
       "optionReasons": {
-        "conversation-mcq-01": "本句指「兩個或以上的人透過說話互相回應並交流想法、資訊或感受」。",
-        "conversation-mcq-02": "「與某人進行一段有來有往的口頭交流」是「have a conversation」的用法，與本句語境不同。",
-        "conversation-mcq-03": "「以某個主題為中心進行的交談」是「conversation about something」的用法，與本句語境不同。",
-        "conversation-mcq-04": "「與某個特定人物進行的談話」是「conversation with someone」的用法，與本句語境不同。",
-        "conversation-mcq-05": "「為避免冷場或保持社交互動而主動找話題聊天」是「make conversation」的用法，與本句語境不同。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。"
+        "conversation-mcq-01": "本句的「conversation」指「兩個或以上的人透過說話互相回應並交流想法、資訊或感受」。",
+        "conversation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-01"
     },
@@ -464,11 +456,9 @@ export default {
       "masked": "Their ____ became more serious.",
       "options": [
         "conversation-mcq-01",
-        "conversation-mcq-02",
-        "conversation-mcq-03",
-        "conversation-mcq-04",
-        "conversation-mcq-05",
-        "conversation-mcq-06"
+        "conversation-mcq-10",
+        "conversation-mcq-08",
+        "conversation-mcq-13"
       ],
       "explanation": "本句的「conversation」指「兩個或以上的人透過說話互相回應並交流想法、資訊或感受」。",
       "sentenceIndex": 2,
@@ -477,12 +467,10 @@ export default {
         "conversation"
       ],
       "optionReasons": {
-        "conversation-mcq-01": "本句指「兩個或以上的人透過說話互相回應並交流想法、資訊或感受」。",
-        "conversation-mcq-02": "「與某人進行一段有來有往的口頭交流」是「have a conversation」的用法，與本句語境不同。",
-        "conversation-mcq-03": "「以某個主題為中心進行的交談」是「conversation about something」的用法，與本句語境不同。",
-        "conversation-mcq-04": "「與某個特定人物進行的談話」是「conversation with someone」的用法，與本句語境不同。",
-        "conversation-mcq-05": "「為避免冷場或保持社交互動而主動找話題聊天」是「make conversation」的用法，與本句語境不同。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。"
+        "conversation-mcq-01": "本句的「conversation」指「兩個或以上的人透過說話互相回應並交流想法、資訊或感受」。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-01"
     },
@@ -494,11 +482,8 @@ export default {
       "masked": "I need to ____ with her.",
       "options": [
         "conversation-mcq-02",
-        "conversation-mcq-01",
-        "conversation-mcq-03",
-        "conversation-mcq-04",
-        "conversation-mcq-05",
-        "conversation-mcq-06"
+        "conversation-mcq-16",
+        "conversation-mcq-14"
       ],
       "explanation": "本句的「have a conversation」指「與某人進行一段有來有往的口頭交流」。",
       "sentenceIndex": 3,
@@ -507,12 +492,9 @@ export default {
         "have a conversation"
       ],
       "optionReasons": {
-        "conversation-mcq-02": "本句指「與某人進行一段有來有往的口頭交流」。",
-        "conversation-mcq-01": "「兩個或以上的人透過說話互相回應並交流想法、資訊或感受」是「conversation — spoken exchange」的用法，與本句語境不同。",
-        "conversation-mcq-03": "「以某個主題為中心進行的交談」是「conversation about something」的用法，與本句語境不同。",
-        "conversation-mcq-04": "「與某個特定人物進行的談話」是「conversation with someone」的用法，與本句語境不同。",
-        "conversation-mcq-05": "「為避免冷場或保持社交互動而主動找話題聊天」是「make conversation」的用法，與本句語境不同。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。"
+        "conversation-mcq-02": "本句的「have a conversation」指「與某人進行一段有來有往的口頭交流」。",
+        "conversation-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-02"
     },
@@ -524,11 +506,8 @@ export default {
       "masked": "They had a private ____ about the problem.",
       "options": [
         "conversation-mcq-02",
-        "conversation-mcq-01",
-        "conversation-mcq-03",
-        "conversation-mcq-04",
-        "conversation-mcq-05",
-        "conversation-mcq-06"
+        "conversation-mcq-16",
+        "conversation-mcq-14"
       ],
       "explanation": "本句的「conversation」指「與某人進行一段有來有往的口頭交流」。",
       "sentenceIndex": 4,
@@ -537,12 +516,9 @@ export default {
         "conversation"
       ],
       "optionReasons": {
-        "conversation-mcq-02": "本句指「與某人進行一段有來有往的口頭交流」。",
-        "conversation-mcq-01": "「兩個或以上的人透過說話互相回應並交流想法、資訊或感受」是「conversation — spoken exchange」的用法，與本句語境不同。",
-        "conversation-mcq-03": "「以某個主題為中心進行的交談」是「conversation about something」的用法，與本句語境不同。",
-        "conversation-mcq-04": "「與某個特定人物進行的談話」是「conversation with someone」的用法，與本句語境不同。",
-        "conversation-mcq-05": "「為避免冷場或保持社交互動而主動找話題聊天」是「make conversation」的用法，與本句語境不同。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。"
+        "conversation-mcq-02": "本句的「conversation」指「與某人進行一段有來有往的口頭交流」。",
+        "conversation-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-02"
     },
@@ -554,11 +530,9 @@ export default {
       "masked": "We had a ____ family life.",
       "options": [
         "conversation-mcq-03",
-        "conversation-mcq-02",
-        "conversation-mcq-04",
-        "conversation-mcq-01",
-        "conversation-mcq-05",
-        "conversation-mcq-06"
+        "conversation-mcq-12",
+        "conversation-mcq-10",
+        "conversation-mcq-09"
       ],
       "explanation": "本句的「conversation about」指「以某個主題為中心進行的交談」。",
       "sentenceIndex": 5,
@@ -567,12 +541,10 @@ export default {
         "conversation about"
       ],
       "optionReasons": {
-        "conversation-mcq-03": "本句指「以某個主題為中心進行的交談」。",
-        "conversation-mcq-02": "「與某人進行一段有來有往的口頭交流」是「have a conversation」的用法，與本句語境不同。",
-        "conversation-mcq-04": "「與某個特定人物進行的談話」是「conversation with someone」的用法，與本句語境不同。",
-        "conversation-mcq-01": "「兩個或以上的人透過說話互相回應並交流想法、資訊或感受」是「conversation — spoken exchange」的用法，與本句語境不同。",
-        "conversation-mcq-05": "「為避免冷場或保持社交互動而主動找話題聊天」是「make conversation」的用法，與本句語境不同。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。"
+        "conversation-mcq-03": "本句的「conversation about」指「以某個主題為中心進行的交談」。",
+        "conversation-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-03"
     },
@@ -584,11 +556,8 @@ export default {
       "masked": "The ____ work lasted an hour.",
       "options": [
         "conversation-mcq-03",
-        "conversation-mcq-02",
-        "conversation-mcq-04",
-        "conversation-mcq-01",
-        "conversation-mcq-05",
-        "conversation-mcq-06"
+        "conversation-mcq-10",
+        "conversation-mcq-13"
       ],
       "explanation": "本句的「conversation about」指「以某個主題為中心進行的交談」。",
       "sentenceIndex": 6,
@@ -597,12 +566,9 @@ export default {
         "conversation about"
       ],
       "optionReasons": {
-        "conversation-mcq-03": "本句指「以某個主題為中心進行的交談」。",
-        "conversation-mcq-02": "「與某人進行一段有來有往的口頭交流」是「have a conversation」的用法，與本句語境不同。",
-        "conversation-mcq-04": "「與某個特定人物進行的談話」是「conversation with someone」的用法，與本句語境不同。",
-        "conversation-mcq-01": "「兩個或以上的人透過說話互相回應並交流想法、資訊或感受」是「conversation — spoken exchange」的用法，與本句語境不同。",
-        "conversation-mcq-05": "「為避免冷場或保持社交互動而主動找話題聊天」是「make conversation」的用法，與本句語境不同。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。"
+        "conversation-mcq-03": "本句的「conversation about」指「以某個主題為中心進行的交談」。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-03"
     },
@@ -614,11 +580,9 @@ export default {
       "masked": "I had a useful ____ my teacher.",
       "options": [
         "conversation-mcq-04",
-        "conversation-mcq-03",
+        "conversation-mcq-09",
         "conversation-mcq-05",
-        "conversation-mcq-02",
-        "conversation-mcq-06",
-        "conversation-mcq-01"
+        "conversation-mcq-15"
       ],
       "explanation": "本句的「conversation with」指「與某個特定人物進行的談話」。",
       "sentenceIndex": 7,
@@ -627,12 +591,10 @@ export default {
         "conversation with"
       ],
       "optionReasons": {
-        "conversation-mcq-04": "本句指「與某個特定人物進行的談話」。",
-        "conversation-mcq-03": "「以某個主題為中心進行的交談」是「conversation about something」的用法，與本句語境不同。",
-        "conversation-mcq-05": "「為避免冷場或保持社交互動而主動找話題聊天」是「make conversation」的用法，與本句語境不同。",
-        "conversation-mcq-02": "「與某人進行一段有來有往的口頭交流」是「have a conversation」的用法，與本句語境不同。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。",
-        "conversation-mcq-01": "「兩個或以上的人透過說話互相回應並交流想法、資訊或感受」是「conversation — spoken exchange」的用法，與本句語境不同。"
+        "conversation-mcq-04": "本句的「conversation with」指「與某個特定人物進行的談話」。",
+        "conversation-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-04"
     },
@@ -644,11 +606,9 @@ export default {
       "masked": "Her ____ the manager was brief.",
       "options": [
         "conversation-mcq-04",
-        "conversation-mcq-03",
-        "conversation-mcq-05",
-        "conversation-mcq-02",
-        "conversation-mcq-06",
-        "conversation-mcq-01"
+        "conversation-mcq-09",
+        "conversation-mcq-15",
+        "conversation-mcq-05"
       ],
       "explanation": "本句的「conversation with」指「與某個特定人物進行的談話」。",
       "sentenceIndex": 8,
@@ -657,12 +617,10 @@ export default {
         "conversation with"
       ],
       "optionReasons": {
-        "conversation-mcq-04": "本句指「與某個特定人物進行的談話」。",
-        "conversation-mcq-03": "「以某個主題為中心進行的交談」是「conversation about something」的用法，與本句語境不同。",
-        "conversation-mcq-05": "「為避免冷場或保持社交互動而主動找話題聊天」是「make conversation」的用法，與本句語境不同。",
-        "conversation-mcq-02": "「與某人進行一段有來有往的口頭交流」是「have a conversation」的用法，與本句語境不同。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。",
-        "conversation-mcq-01": "「兩個或以上的人透過說話互相回應並交流想法、資訊或感受」是「conversation — spoken exchange」的用法，與本句語境不同。"
+        "conversation-mcq-04": "本句的「conversation with」指「與某個特定人物進行的談話」。",
+        "conversation-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-04"
     },
@@ -674,11 +632,9 @@ export default {
       "masked": "He tried to ____ while they waited.",
       "options": [
         "conversation-mcq-05",
-        "conversation-mcq-04",
+        "conversation-mcq-10",
         "conversation-mcq-06",
-        "conversation-mcq-03",
-        "conversation-mcq-07",
-        "conversation-mcq-02"
+        "conversation-mcq-15"
       ],
       "explanation": "本句的「make conversation」指「為避免冷場或保持社交互動而主動找話題聊天」。",
       "sentenceIndex": 9,
@@ -687,12 +643,10 @@ export default {
         "make conversation"
       ],
       "optionReasons": {
-        "conversation-mcq-05": "本句指「為避免冷場或保持社交互動而主動找話題聊天」。",
-        "conversation-mcq-04": "「與某個特定人物進行的談話」是「conversation with someone」的用法，與本句語境不同。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。",
-        "conversation-mcq-03": "「以某個主題為中心進行的交談」是「conversation about something」的用法，與本句語境不同。",
-        "conversation-mcq-07": "「令一段交談開始」是「start a conversation」的用法，與本句語境不同。",
-        "conversation-mcq-02": "「與某人進行一段有來有往的口頭交流」是「have a conversation」的用法，與本句語境不同。"
+        "conversation-mcq-05": "本句的「make conversation」指「為避免冷場或保持社交互動而主動找話題聊天」。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-05"
     },
@@ -704,11 +658,9 @@ export default {
       "masked": "She asked about the weather just to ____.",
       "options": [
         "conversation-mcq-05",
-        "conversation-mcq-04",
-        "conversation-mcq-06",
-        "conversation-mcq-03",
-        "conversation-mcq-07",
-        "conversation-mcq-02"
+        "conversation-mcq-10",
+        "conversation-mcq-15",
+        "conversation-mcq-06"
       ],
       "explanation": "本句的「make conversation」指「為避免冷場或保持社交互動而主動找話題聊天」。",
       "sentenceIndex": 10,
@@ -717,12 +669,10 @@ export default {
         "make conversation"
       ],
       "optionReasons": {
-        "conversation-mcq-05": "本句指「為避免冷場或保持社交互動而主動找話題聊天」。",
-        "conversation-mcq-04": "「與某個特定人物進行的談話」是「conversation with someone」的用法，與本句語境不同。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。",
-        "conversation-mcq-03": "「以某個主題為中心進行的交談」是「conversation about something」的用法，與本句語境不同。",
-        "conversation-mcq-07": "「令一段交談開始」是「start a conversation」的用法，與本句語境不同。",
-        "conversation-mcq-02": "「與某人進行一段有來有往的口頭交流」是「have a conversation」的用法，與本句語境不同。"
+        "conversation-mcq-05": "本句的「make conversation」指「為避免冷場或保持社交互動而主動找話題聊天」。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-05"
     },
@@ -734,11 +684,9 @@ export default {
       "masked": "She listened for a while before ____.",
       "options": [
         "conversation-mcq-06",
-        "conversation-mcq-05",
-        "conversation-mcq-07",
-        "conversation-mcq-04",
-        "conversation-mcq-08",
-        "conversation-mcq-03"
+        "conversation-mcq-09",
+        "conversation-mcq-15",
+        "conversation-mcq-10"
       ],
       "explanation": "本句的「joining the conversation」指「開始參與一段已經在進行中的談話」。",
       "sentenceIndex": 11,
@@ -747,12 +695,10 @@ export default {
         "joining the conversation"
       ],
       "optionReasons": {
-        "conversation-mcq-06": "本句指「開始參與一段已經在進行中的談話」。",
-        "conversation-mcq-05": "「為避免冷場或保持社交互動而主動找話題聊天」是「make conversation」的用法，與本句語境不同。",
-        "conversation-mcq-07": "「令一段交談開始」是「start a conversation」的用法，與本句語境不同。",
-        "conversation-mcq-04": "「與某個特定人物進行的談話」是「conversation with someone」的用法，與本句語境不同。",
-        "conversation-mcq-08": "「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」是「public/national conversation」的用法，與本句語境不同。",
-        "conversation-mcq-03": "「以某個主題為中心進行的交談」是「conversation about something」的用法，與本句語境不同。"
+        "conversation-mcq-06": "本句的「joining the conversation」指「開始參與一段已經在進行中的談話」。",
+        "conversation-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-06"
     },
@@ -764,11 +710,9 @@ export default {
       "masked": "More people gradually ____.",
       "options": [
         "conversation-mcq-06",
-        "conversation-mcq-05",
-        "conversation-mcq-07",
-        "conversation-mcq-04",
-        "conversation-mcq-08",
-        "conversation-mcq-03"
+        "conversation-mcq-09",
+        "conversation-mcq-10",
+        "conversation-mcq-14"
       ],
       "explanation": "本句的「joined the conversation」指「開始參與一段已經在進行中的談話」。",
       "sentenceIndex": 12,
@@ -777,12 +721,10 @@ export default {
         "joined the conversation"
       ],
       "optionReasons": {
-        "conversation-mcq-06": "本句指「開始參與一段已經在進行中的談話」。",
-        "conversation-mcq-05": "「為避免冷場或保持社交互動而主動找話題聊天」是「make conversation」的用法，與本句語境不同。",
-        "conversation-mcq-07": "「令一段交談開始」是「start a conversation」的用法，與本句語境不同。",
-        "conversation-mcq-04": "「與某個特定人物進行的談話」是「conversation with someone」的用法，與本句語境不同。",
-        "conversation-mcq-08": "「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」是「public/national conversation」的用法，與本句語境不同。",
-        "conversation-mcq-03": "「以某個主題為中心進行的交談」是「conversation about something」的用法，與本句語境不同。"
+        "conversation-mcq-06": "本句的「joined the conversation」指「開始參與一段已經在進行中的談話」。",
+        "conversation-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-06"
     },
@@ -794,11 +736,9 @@ export default {
       "masked": "He ____ with the person next to him.",
       "options": [
         "conversation-mcq-07",
-        "conversation-mcq-06",
         "conversation-mcq-08",
-        "conversation-mcq-05",
         "conversation-mcq-09",
-        "conversation-mcq-04"
+        "conversation-mcq-10"
       ],
       "explanation": "本句的「started a conversation」指「令一段交談開始」。",
       "sentenceIndex": 13,
@@ -807,12 +747,10 @@ export default {
         "started a conversation"
       ],
       "optionReasons": {
-        "conversation-mcq-07": "本句指「令一段交談開始」。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。",
-        "conversation-mcq-08": "「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」是「public/national conversation」的用法，與本句語境不同。",
-        "conversation-mcq-05": "「為避免冷場或保持社交互動而主動找話題聊天」是「make conversation」的用法，與本句語境不同。",
-        "conversation-mcq-09": "「不同思想、學科或藝術形式之間的互相呼應、交流或比較」是「conversation between fields/ideas」的用法，與本句語境不同。",
-        "conversation-mcq-04": "「與某個特定人物進行的談話」是「conversation with someone」的用法，與本句語境不同。"
+        "conversation-mcq-07": "本句的「started a conversation」指「令一段交談開始」。",
+        "conversation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-07"
     },
@@ -824,11 +762,9 @@ export default {
       "masked": "That question ____ about family traditions.",
       "options": [
         "conversation-mcq-07",
-        "conversation-mcq-06",
         "conversation-mcq-08",
-        "conversation-mcq-05",
-        "conversation-mcq-09",
-        "conversation-mcq-04"
+        "conversation-mcq-13",
+        "conversation-mcq-10"
       ],
       "explanation": "本句的「began a conversation」指「令一段交談開始」。",
       "sentenceIndex": 14,
@@ -837,12 +773,10 @@ export default {
         "began a conversation"
       ],
       "optionReasons": {
-        "conversation-mcq-07": "本句指「令一段交談開始」。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。",
-        "conversation-mcq-08": "「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」是「public/national conversation」的用法，與本句語境不同。",
-        "conversation-mcq-05": "「為避免冷場或保持社交互動而主動找話題聊天」是「make conversation」的用法，與本句語境不同。",
-        "conversation-mcq-09": "「不同思想、學科或藝術形式之間的互相呼應、交流或比較」是「conversation between fields/ideas」的用法，與本句語境不同。",
-        "conversation-mcq-04": "「與某個特定人物進行的談話」是「conversation with someone」的用法，與本句語境不同。"
+        "conversation-mcq-07": "本句的「began a conversation」指「令一段交談開始」。",
+        "conversation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-07"
     },
@@ -854,11 +788,7 @@ export default {
       "masked": "The issue has become part of the national ____.",
       "options": [
         "conversation-mcq-08",
-        "conversation-mcq-07",
-        "conversation-mcq-09",
-        "conversation-mcq-06",
-        "conversation-mcq-10",
-        "conversation-mcq-05"
+        "conversation-mcq-17"
       ],
       "explanation": "本句的「conversation」指「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」。",
       "sentenceIndex": 15,
@@ -867,12 +797,8 @@ export default {
         "conversation"
       ],
       "optionReasons": {
-        "conversation-mcq-08": "本句指「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」。",
-        "conversation-mcq-07": "「令一段交談開始」是「start a conversation」的用法，與本句語境不同。",
-        "conversation-mcq-09": "「不同思想、學科或藝術形式之間的互相呼應、交流或比較」是「conversation between fields/ideas」的用法，與本句語境不同。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。",
-        "conversation-mcq-10": "「因特別或有趣而容易引起別人談論的物件」是「conversation piece」的用法，與本句語境不同。",
-        "conversation-mcq-05": "「為避免冷場或保持社交互動而主動找話題聊天」是「make conversation」的用法，與本句語境不同。"
+        "conversation-mcq-08": "本句的「conversation」指「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」。",
+        "conversation-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-08"
     },
@@ -884,11 +810,9 @@ export default {
       "masked": "The film changed the public ____ about ageing.",
       "options": [
         "conversation-mcq-08",
+        "conversation-mcq-13",
         "conversation-mcq-07",
-        "conversation-mcq-09",
-        "conversation-mcq-06",
-        "conversation-mcq-10",
-        "conversation-mcq-05"
+        "conversation-mcq-10"
       ],
       "explanation": "本句的「conversation」指「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」。",
       "sentenceIndex": 16,
@@ -897,12 +821,10 @@ export default {
         "conversation"
       ],
       "optionReasons": {
-        "conversation-mcq-08": "本句指「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」。",
-        "conversation-mcq-07": "「令一段交談開始」是「start a conversation」的用法，與本句語境不同。",
-        "conversation-mcq-09": "「不同思想、學科或藝術形式之間的互相呼應、交流或比較」是「conversation between fields/ideas」的用法，與本句語境不同。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。",
-        "conversation-mcq-10": "「因特別或有趣而容易引起別人談論的物件」是「conversation piece」的用法，與本句語境不同。",
-        "conversation-mcq-05": "「為避免冷場或保持社交互動而主動找話題聊天」是「make conversation」的用法，與本句語境不同。"
+        "conversation-mcq-08": "本句的「conversation」指「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」。",
+        "conversation-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-08"
     },
@@ -914,11 +836,9 @@ export default {
       "masked": "Mental health is now part of the public ____.",
       "options": [
         "conversation-mcq-08",
+        "conversation-mcq-13",
         "conversation-mcq-07",
-        "conversation-mcq-09",
-        "conversation-mcq-06",
-        "conversation-mcq-10",
-        "conversation-mcq-05"
+        "conversation-mcq-10"
       ],
       "explanation": "本句的「conversation」指「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」。",
       "sentenceIndex": 17,
@@ -927,12 +847,10 @@ export default {
         "conversation"
       ],
       "optionReasons": {
-        "conversation-mcq-08": "本句指「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」。",
-        "conversation-mcq-07": "「令一段交談開始」是「start a conversation」的用法，與本句語境不同。",
-        "conversation-mcq-09": "「不同思想、學科或藝術形式之間的互相呼應、交流或比較」是「conversation between fields/ideas」的用法，與本句語境不同。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。",
-        "conversation-mcq-10": "「因特別或有趣而容易引起別人談論的物件」是「conversation piece」的用法，與本句語境不同。",
-        "conversation-mcq-05": "「為避免冷場或保持社交互動而主動找話題聊天」是「make conversation」的用法，與本句語境不同。"
+        "conversation-mcq-08": "本句的「conversation」指「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」。",
+        "conversation-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-08"
     },
@@ -945,10 +863,8 @@ export default {
       "options": [
         "conversation-mcq-08",
         "conversation-mcq-07",
-        "conversation-mcq-09",
-        "conversation-mcq-06",
-        "conversation-mcq-10",
-        "conversation-mcq-05"
+        "conversation-mcq-13",
+        "conversation-mcq-10"
       ],
       "explanation": "本句的「conversation」指「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」。",
       "sentenceIndex": 18,
@@ -957,12 +873,10 @@ export default {
         "conversation"
       ],
       "optionReasons": {
-        "conversation-mcq-08": "本句指「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」。",
-        "conversation-mcq-07": "「令一段交談開始」是「start a conversation」的用法，與本句語境不同。",
-        "conversation-mcq-09": "「不同思想、學科或藝術形式之間的互相呼應、交流或比較」是「conversation between fields/ideas」的用法，與本句語境不同。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。",
-        "conversation-mcq-10": "「因特別或有趣而容易引起別人談論的物件」是「conversation piece」的用法，與本句語境不同。",
-        "conversation-mcq-05": "「為避免冷場或保持社交互動而主動找話題聊天」是「make conversation」的用法，與本句語境不同。"
+        "conversation-mcq-08": "本句的「conversation」指「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」。",
+        "conversation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-08"
     },
@@ -974,11 +888,9 @@ export default {
       "masked": "The exhibition creates a ____ between art and technology.",
       "options": [
         "conversation-mcq-09",
-        "conversation-mcq-08",
+        "conversation-mcq-06",
         "conversation-mcq-10",
-        "conversation-mcq-07",
-        "conversation-mcq-11",
-        "conversation-mcq-06"
+        "conversation-mcq-15"
       ],
       "explanation": "本句的「conversation」指「不同思想、學科或藝術形式之間的互相呼應、交流或比較」。",
       "sentenceIndex": 19,
@@ -987,12 +899,10 @@ export default {
         "conversation"
       ],
       "optionReasons": {
-        "conversation-mcq-09": "本句指「不同思想、學科或藝術形式之間的互相呼應、交流或比較」。",
-        "conversation-mcq-08": "「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」是「public/national conversation」的用法，與本句語境不同。",
-        "conversation-mcq-10": "「因特別或有趣而容易引起別人談論的物件」是「conversation piece」的用法，與本句語境不同。",
-        "conversation-mcq-07": "「令一段交談開始」是「start a conversation」的用法，與本句語境不同。",
-        "conversation-mcq-11": "「能幫助人開始交談的問題、物件或話題」是「conversation starter」的用法，與本句語境不同。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。"
+        "conversation-mcq-09": "本句的「conversation」指「不同思想、學科或藝術形式之間的互相呼應、交流或比較」。",
+        "conversation-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-09"
     },
@@ -1006,9 +916,7 @@ export default {
         "conversation-mcq-09",
         "conversation-mcq-08",
         "conversation-mcq-10",
-        "conversation-mcq-07",
-        "conversation-mcq-11",
-        "conversation-mcq-06"
+        "conversation-mcq-15"
       ],
       "explanation": "本句的「conversation with」指「不同思想、學科或藝術形式之間的互相呼應、交流或比較」。",
       "sentenceIndex": 20,
@@ -1017,12 +925,10 @@ export default {
         "conversation with"
       ],
       "optionReasons": {
-        "conversation-mcq-09": "本句指「不同思想、學科或藝術形式之間的互相呼應、交流或比較」。",
-        "conversation-mcq-08": "「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」是「public/national conversation」的用法，與本句語境不同。",
-        "conversation-mcq-10": "「因特別或有趣而容易引起別人談論的物件」是「conversation piece」的用法，與本句語境不同。",
-        "conversation-mcq-07": "「令一段交談開始」是「start a conversation」的用法，與本句語境不同。",
-        "conversation-mcq-11": "「能幫助人開始交談的問題、物件或話題」是「conversation starter」的用法，與本句語境不同。",
-        "conversation-mcq-06": "「開始參與一段已經在進行中的談話」是「join the conversation」的用法，與本句語境不同。"
+        "conversation-mcq-09": "本句的「conversation with」指「不同思想、學科或藝術形式之間的互相呼應、交流或比較」。",
+        "conversation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-09"
     },
@@ -1034,11 +940,9 @@ export default {
       "masked": "The unusual lamp became a ____.",
       "options": [
         "conversation-mcq-10",
-        "conversation-mcq-09",
-        "conversation-mcq-11",
-        "conversation-mcq-08",
-        "conversation-mcq-12",
-        "conversation-mcq-07"
+        "conversation-mcq-01",
+        "conversation-mcq-05",
+        "conversation-mcq-06"
       ],
       "explanation": "本句的「conversation piece」指「因特別或有趣而容易引起別人談論的物件」。",
       "sentenceIndex": 21,
@@ -1047,12 +951,10 @@ export default {
         "conversation piece"
       ],
       "optionReasons": {
-        "conversation-mcq-10": "本句指「因特別或有趣而容易引起別人談論的物件」。",
-        "conversation-mcq-09": "「不同思想、學科或藝術形式之間的互相呼應、交流或比較」是「conversation between fields/ideas」的用法，與本句語境不同。",
-        "conversation-mcq-11": "「能幫助人開始交談的問題、物件或話題」是「conversation starter」的用法，與本句語境不同。",
-        "conversation-mcq-08": "「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」是「public/national conversation」的用法，與本句語境不同。",
-        "conversation-mcq-12": "「在談話中提問、聆聽、回應並維持互動的能力」是「conversation skills」的用法，與本句語境不同。",
-        "conversation-mcq-07": "「令一段交談開始」是「start a conversation」的用法，與本句語境不同。"
+        "conversation-mcq-10": "本句的「conversation piece」指「因特別或有趣而容易引起別人談論的物件」。",
+        "conversation-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-10"
     },
@@ -1064,11 +966,9 @@ export default {
       "masked": "The painting is a real ____.",
       "options": [
         "conversation-mcq-10",
-        "conversation-mcq-09",
-        "conversation-mcq-11",
-        "conversation-mcq-08",
-        "conversation-mcq-12",
-        "conversation-mcq-07"
+        "conversation-mcq-01",
+        "conversation-mcq-05",
+        "conversation-mcq-06"
       ],
       "explanation": "本句的「conversation piece」指「因特別或有趣而容易引起別人談論的物件」。",
       "sentenceIndex": 22,
@@ -1077,12 +977,10 @@ export default {
         "conversation piece"
       ],
       "optionReasons": {
-        "conversation-mcq-10": "本句指「因特別或有趣而容易引起別人談論的物件」。",
-        "conversation-mcq-09": "「不同思想、學科或藝術形式之間的互相呼應、交流或比較」是「conversation between fields/ideas」的用法，與本句語境不同。",
-        "conversation-mcq-11": "「能幫助人開始交談的問題、物件或話題」是「conversation starter」的用法，與本句語境不同。",
-        "conversation-mcq-08": "「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」是「public/national conversation」的用法，與本句語境不同。",
-        "conversation-mcq-12": "「在談話中提問、聆聽、回應並維持互動的能力」是「conversation skills」的用法，與本句語境不同。",
-        "conversation-mcq-07": "「令一段交談開始」是「start a conversation」的用法，與本句語境不同。"
+        "conversation-mcq-10": "本句的「conversation piece」指「因特別或有趣而容易引起別人談論的物件」。",
+        "conversation-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-10"
     },
@@ -1094,11 +992,8 @@ export default {
       "masked": "That question is a good ____.",
       "options": [
         "conversation-mcq-11",
-        "conversation-mcq-10",
-        "conversation-mcq-12",
-        "conversation-mcq-09",
-        "conversation-mcq-13",
-        "conversation-mcq-08"
+        "conversation-mcq-08",
+        "conversation-mcq-09"
       ],
       "explanation": "本句的「conversation starter」指「能幫助人開始交談的問題、物件或話題」。",
       "sentenceIndex": 23,
@@ -1107,12 +1002,9 @@ export default {
         "conversation starter"
       ],
       "optionReasons": {
-        "conversation-mcq-11": "本句指「能幫助人開始交談的問題、物件或話題」。",
-        "conversation-mcq-10": "「因特別或有趣而容易引起別人談論的物件」是「conversation piece」的用法，與本句語境不同。",
-        "conversation-mcq-12": "「在談話中提問、聆聽、回應並維持互動的能力」是「conversation skills」的用法，與本句語境不同。",
-        "conversation-mcq-09": "「不同思想、學科或藝術形式之間的互相呼應、交流或比較」是「conversation between fields/ideas」的用法，與本句語境不同。",
-        "conversation-mcq-13": "「像自然日常談話一樣非正式、流暢而易理解的」是「conversational — style」的用法，與本句語境不同。",
-        "conversation-mcq-08": "「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」是「public/national conversation」的用法，與本句語境不同。"
+        "conversation-mcq-11": "本句的「conversation starter」指「能幫助人開始交談的問題、物件或話題」。",
+        "conversation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-11"
     },
@@ -1124,11 +1016,8 @@ export default {
       "masked": "The photo became an easy ____.",
       "options": [
         "conversation-mcq-11",
-        "conversation-mcq-10",
-        "conversation-mcq-12",
-        "conversation-mcq-09",
-        "conversation-mcq-13",
-        "conversation-mcq-08"
+        "conversation-mcq-08",
+        "conversation-mcq-09"
       ],
       "explanation": "本句的「conversation starter」指「能幫助人開始交談的問題、物件或話題」。",
       "sentenceIndex": 24,
@@ -1137,12 +1026,9 @@ export default {
         "conversation starter"
       ],
       "optionReasons": {
-        "conversation-mcq-11": "本句指「能幫助人開始交談的問題、物件或話題」。",
-        "conversation-mcq-10": "「因特別或有趣而容易引起別人談論的物件」是「conversation piece」的用法，與本句語境不同。",
-        "conversation-mcq-12": "「在談話中提問、聆聽、回應並維持互動的能力」是「conversation skills」的用法，與本句語境不同。",
-        "conversation-mcq-09": "「不同思想、學科或藝術形式之間的互相呼應、交流或比較」是「conversation between fields/ideas」的用法，與本句語境不同。",
-        "conversation-mcq-13": "「像自然日常談話一樣非正式、流暢而易理解的」是「conversational — style」的用法，與本句語境不同。",
-        "conversation-mcq-08": "「社會、公眾或媒體圍繞某議題持續進行的廣泛討論」是「public/national conversation」的用法，與本句語境不同。"
+        "conversation-mcq-11": "本句的「conversation starter」指「能幫助人開始交談的問題、物件或話題」。",
+        "conversation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-11"
     },
@@ -1154,11 +1040,8 @@ export default {
       "masked": "Good ____ are useful in interviews.",
       "options": [
         "conversation-mcq-12",
-        "conversation-mcq-11",
-        "conversation-mcq-13",
-        "conversation-mcq-10",
-        "conversation-mcq-14",
-        "conversation-mcq-09"
+        "conversation-mcq-02",
+        "conversation-mcq-15"
       ],
       "explanation": "本句的「conversation skills」指「在談話中提問、聆聽、回應並維持互動的能力」。",
       "sentenceIndex": 25,
@@ -1167,12 +1050,9 @@ export default {
         "conversation skills"
       ],
       "optionReasons": {
-        "conversation-mcq-12": "本句指「在談話中提問、聆聽、回應並維持互動的能力」。",
-        "conversation-mcq-11": "「能幫助人開始交談的問題、物件或話題」是「conversation starter」的用法，與本句語境不同。",
-        "conversation-mcq-13": "「像自然日常談話一樣非正式、流暢而易理解的」是「conversational — style」的用法，與本句語境不同。",
-        "conversation-mcq-10": "「因特別或有趣而容易引起別人談論的物件」是「conversation piece」的用法，與本句語境不同。",
-        "conversation-mcq-14": "「語言能力足以應付一般日常交談的」是「conversational — language ability」的用法，與本句語境不同。",
-        "conversation-mcq-09": "「不同思想、學科或藝術形式之間的互相呼應、交流或比較」是「conversation between fields/ideas」的用法，與本句語境不同。"
+        "conversation-mcq-12": "本句的「conversation skills」指「在談話中提問、聆聽、回應並維持互動的能力」。",
+        "conversation-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-12"
     },
@@ -1184,11 +1064,8 @@ export default {
       "masked": "She has excellent ____.",
       "options": [
         "conversation-mcq-12",
-        "conversation-mcq-11",
-        "conversation-mcq-13",
-        "conversation-mcq-10",
-        "conversation-mcq-14",
-        "conversation-mcq-09"
+        "conversation-mcq-02",
+        "conversation-mcq-15"
       ],
       "explanation": "本句的「conversation skills」指「在談話中提問、聆聽、回應並維持互動的能力」。",
       "sentenceIndex": 26,
@@ -1197,12 +1074,9 @@ export default {
         "conversation skills"
       ],
       "optionReasons": {
-        "conversation-mcq-12": "本句指「在談話中提問、聆聽、回應並維持互動的能力」。",
-        "conversation-mcq-11": "「能幫助人開始交談的問題、物件或話題」是「conversation starter」的用法，與本句語境不同。",
-        "conversation-mcq-13": "「像自然日常談話一樣非正式、流暢而易理解的」是「conversational — style」的用法，與本句語境不同。",
-        "conversation-mcq-10": "「因特別或有趣而容易引起別人談論的物件」是「conversation piece」的用法，與本句語境不同。",
-        "conversation-mcq-14": "「語言能力足以應付一般日常交談的」是「conversational — language ability」的用法，與本句語境不同。",
-        "conversation-mcq-09": "「不同思想、學科或藝術形式之間的互相呼應、交流或比較」是「conversation between fields/ideas」的用法，與本句語境不同。"
+        "conversation-mcq-12": "本句的「conversation skills」指「在談話中提問、聆聽、回應並維持互動的能力」。",
+        "conversation-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-12"
     },
@@ -1214,10 +1088,8 @@ export default {
       "masked": "The article uses a ____ style.",
       "options": [
         "conversation-mcq-13",
-        "conversation-mcq-12",
-        "conversation-mcq-14",
-        "conversation-mcq-11",
-        "conversation-mcq-15",
+        "conversation-mcq-08",
+        "conversation-mcq-07",
         "conversation-mcq-10"
       ],
       "explanation": "本句的「conversational」指「像自然日常談話一樣非正式、流暢而易理解的」。",
@@ -1227,12 +1099,10 @@ export default {
         "conversational"
       ],
       "optionReasons": {
-        "conversation-mcq-13": "本句指「像自然日常談話一樣非正式、流暢而易理解的」。",
-        "conversation-mcq-12": "「在談話中提問、聆聽、回應並維持互動的能力」是「conversation skills」的用法，與本句語境不同。",
-        "conversation-mcq-14": "「語言能力足以應付一般日常交談的」是「conversational — language ability」的用法，與本句語境不同。",
-        "conversation-mcq-11": "「能幫助人開始交談的問題、物件或話題」是「conversation starter」的用法，與本句語境不同。",
-        "conversation-mcq-15": "「以自然、非正式、接近日常交談的方式」是「conversationally」的用法，與本句語境不同。",
-        "conversation-mcq-10": "「因特別或有趣而容易引起別人談論的物件」是「conversation piece」的用法，與本句語境不同。"
+        "conversation-mcq-13": "本句的「conversational」指「像自然日常談話一樣非正式、流暢而易理解的」。",
+        "conversation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-13"
     },
@@ -1244,10 +1114,8 @@ export default {
       "masked": "Her presentation sounded natural and ____.",
       "options": [
         "conversation-mcq-13",
-        "conversation-mcq-12",
-        "conversation-mcq-14",
-        "conversation-mcq-11",
-        "conversation-mcq-15",
+        "conversation-mcq-08",
+        "conversation-mcq-07",
         "conversation-mcq-10"
       ],
       "explanation": "本句的「conversational」指「像自然日常談話一樣非正式、流暢而易理解的」。",
@@ -1257,12 +1125,10 @@ export default {
         "conversational"
       ],
       "optionReasons": {
-        "conversation-mcq-13": "本句指「像自然日常談話一樣非正式、流暢而易理解的」。",
-        "conversation-mcq-12": "「在談話中提問、聆聽、回應並維持互動的能力」是「conversation skills」的用法，與本句語境不同。",
-        "conversation-mcq-14": "「語言能力足以應付一般日常交談的」是「conversational — language ability」的用法，與本句語境不同。",
-        "conversation-mcq-11": "「能幫助人開始交談的問題、物件或話題」是「conversation starter」的用法，與本句語境不同。",
-        "conversation-mcq-15": "「以自然、非正式、接近日常交談的方式」是「conversationally」的用法，與本句語境不同。",
-        "conversation-mcq-10": "「因特別或有趣而容易引起別人談論的物件」是「conversation piece」的用法，與本句語境不同。"
+        "conversation-mcq-13": "本句的「conversational」指「像自然日常談話一樣非正式、流暢而易理解的」。",
+        "conversation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-13"
     },
@@ -1274,11 +1140,9 @@ export default {
       "masked": "She is ____ in French.",
       "options": [
         "conversation-mcq-14",
-        "conversation-mcq-13",
-        "conversation-mcq-15",
-        "conversation-mcq-12",
-        "conversation-mcq-16",
-        "conversation-mcq-11"
+        "conversation-mcq-08",
+        "conversation-mcq-10",
+        "conversation-mcq-09"
       ],
       "explanation": "本句的「conversational」指「語言能力足以應付一般日常交談的」。",
       "sentenceIndex": 29,
@@ -1287,12 +1151,10 @@ export default {
         "conversational"
       ],
       "optionReasons": {
-        "conversation-mcq-14": "本句指「語言能力足以應付一般日常交談的」。",
-        "conversation-mcq-13": "「像自然日常談話一樣非正式、流暢而易理解的」是「conversational — style」的用法，與本句語境不同。",
-        "conversation-mcq-15": "「以自然、非正式、接近日常交談的方式」是「conversationally」的用法，與本句語境不同。",
-        "conversation-mcq-12": "「在談話中提問、聆聽、回應並維持互動的能力」是「conversation skills」的用法，與本句語境不同。",
-        "conversation-mcq-16": "「善於聆聽、回應並維持自然有趣談話的人」是「conversationalist」的用法，與本句語境不同。",
-        "conversation-mcq-11": "「能幫助人開始交談的問題、物件或話題」是「conversation starter」的用法，與本句語境不同。"
+        "conversation-mcq-14": "本句的「conversational」指「語言能力足以應付一般日常交談的」。",
+        "conversation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-14"
     },
@@ -1304,11 +1166,9 @@ export default {
       "masked": "He has ____ Japanese.",
       "options": [
         "conversation-mcq-14",
-        "conversation-mcq-13",
-        "conversation-mcq-15",
-        "conversation-mcq-12",
-        "conversation-mcq-16",
-        "conversation-mcq-11"
+        "conversation-mcq-08",
+        "conversation-mcq-10",
+        "conversation-mcq-09"
       ],
       "explanation": "本句的「conversational」指「語言能力足以應付一般日常交談的」。",
       "sentenceIndex": 30,
@@ -1317,12 +1177,10 @@ export default {
         "conversational"
       ],
       "optionReasons": {
-        "conversation-mcq-14": "本句指「語言能力足以應付一般日常交談的」。",
-        "conversation-mcq-13": "「像自然日常談話一樣非正式、流暢而易理解的」是「conversational — style」的用法，與本句語境不同。",
-        "conversation-mcq-15": "「以自然、非正式、接近日常交談的方式」是「conversationally」的用法，與本句語境不同。",
-        "conversation-mcq-12": "「在談話中提問、聆聽、回應並維持互動的能力」是「conversation skills」的用法，與本句語境不同。",
-        "conversation-mcq-16": "「善於聆聽、回應並維持自然有趣談話的人」是「conversationalist」的用法，與本句語境不同。",
-        "conversation-mcq-11": "「能幫助人開始交談的問題、物件或話題」是「conversation starter」的用法，與本句語境不同。"
+        "conversation-mcq-14": "本句的「conversational」指「語言能力足以應付一般日常交談的」。",
+        "conversation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-14"
     },
@@ -1334,11 +1192,9 @@ export default {
       "masked": "She explained the idea ____.",
       "options": [
         "conversation-mcq-15",
-        "conversation-mcq-14",
-        "conversation-mcq-16",
-        "conversation-mcq-13",
-        "conversation-mcq-17",
-        "conversation-mcq-12"
+        "conversation-mcq-08",
+        "conversation-mcq-10",
+        "conversation-mcq-09"
       ],
       "explanation": "本句的「conversationally」指「以自然、非正式、接近日常交談的方式」。",
       "sentenceIndex": 31,
@@ -1347,12 +1203,10 @@ export default {
         "conversationally"
       ],
       "optionReasons": {
-        "conversation-mcq-15": "本句指「以自然、非正式、接近日常交談的方式」。",
-        "conversation-mcq-14": "「語言能力足以應付一般日常交談的」是「conversational — language ability」的用法，與本句語境不同。",
-        "conversation-mcq-16": "「善於聆聽、回應並維持自然有趣談話的人」是「conversationalist」的用法，與本句語境不同。",
-        "conversation-mcq-13": "「像自然日常談話一樣非正式、流暢而易理解的」是「conversational — style」的用法，與本句語境不同。",
-        "conversation-mcq-17": "「與某人互相交談；較正式用語」是「converse — verb」的用法，與本句語境不同。",
-        "conversation-mcq-12": "「在談話中提問、聆聽、回應並維持互動的能力」是「conversation skills」的用法，與本句語境不同。"
+        "conversation-mcq-15": "本句的「conversationally」指「以自然、非正式、接近日常交談的方式」。",
+        "conversation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-15"
     },
@@ -1364,11 +1218,9 @@ export default {
       "masked": "The guide was written ____.",
       "options": [
         "conversation-mcq-15",
-        "conversation-mcq-14",
-        "conversation-mcq-16",
-        "conversation-mcq-13",
-        "conversation-mcq-17",
-        "conversation-mcq-12"
+        "conversation-mcq-08",
+        "conversation-mcq-10",
+        "conversation-mcq-09"
       ],
       "explanation": "本句的「conversationally」指「以自然、非正式、接近日常交談的方式」。",
       "sentenceIndex": 32,
@@ -1377,12 +1229,10 @@ export default {
         "conversationally"
       ],
       "optionReasons": {
-        "conversation-mcq-15": "本句指「以自然、非正式、接近日常交談的方式」。",
-        "conversation-mcq-14": "「語言能力足以應付一般日常交談的」是「conversational — language ability」的用法，與本句語境不同。",
-        "conversation-mcq-16": "「善於聆聽、回應並維持自然有趣談話的人」是「conversationalist」的用法，與本句語境不同。",
-        "conversation-mcq-13": "「像自然日常談話一樣非正式、流暢而易理解的」是「conversational — style」的用法，與本句語境不同。",
-        "conversation-mcq-17": "「與某人互相交談；較正式用語」是「converse — verb」的用法，與本句語境不同。",
-        "conversation-mcq-12": "「在談話中提問、聆聽、回應並維持互動的能力」是「conversation skills」的用法，與本句語境不同。"
+        "conversation-mcq-15": "本句的「conversationally」指「以自然、非正式、接近日常交談的方式」。",
+        "conversation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-15"
     },
@@ -1394,11 +1244,8 @@ export default {
       "masked": "She is an excellent ____.",
       "options": [
         "conversation-mcq-16",
-        "conversation-mcq-15",
-        "conversation-mcq-17",
-        "conversation-mcq-14",
-        "conversation-mcq-13",
-        "conversation-mcq-12"
+        "conversation-mcq-02",
+        "conversation-mcq-11"
       ],
       "explanation": "本句的「conversationalist」指「善於聆聽、回應並維持自然有趣談話的人」。",
       "sentenceIndex": 33,
@@ -1407,12 +1254,9 @@ export default {
         "conversationalist"
       ],
       "optionReasons": {
-        "conversation-mcq-16": "本句指「善於聆聽、回應並維持自然有趣談話的人」。",
-        "conversation-mcq-15": "「以自然、非正式、接近日常交談的方式」是「conversationally」的用法，與本句語境不同。",
-        "conversation-mcq-17": "「與某人互相交談；較正式用語」是「converse — verb」的用法，與本句語境不同。",
-        "conversation-mcq-14": "「語言能力足以應付一般日常交談的」是「conversational — language ability」的用法，與本句語境不同。",
-        "conversation-mcq-13": "「像自然日常談話一樣非正式、流暢而易理解的」是「conversational — style」的用法，與本句語境不同。",
-        "conversation-mcq-12": "「在談話中提問、聆聽、回應並維持互動的能力」是「conversation skills」的用法，與本句語境不同。"
+        "conversation-mcq-16": "本句的「conversationalist」指「善於聆聽、回應並維持自然有趣談話的人」。",
+        "conversation-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-16"
     },
@@ -1424,11 +1268,8 @@ export default {
       "masked": "A good ____ knows how to listen.",
       "options": [
         "conversation-mcq-16",
-        "conversation-mcq-15",
-        "conversation-mcq-17",
-        "conversation-mcq-14",
-        "conversation-mcq-13",
-        "conversation-mcq-12"
+        "conversation-mcq-02",
+        "conversation-mcq-14"
       ],
       "explanation": "本句的「conversationalist」指「善於聆聽、回應並維持自然有趣談話的人」。",
       "sentenceIndex": 34,
@@ -1437,12 +1278,9 @@ export default {
         "conversationalist"
       ],
       "optionReasons": {
-        "conversation-mcq-16": "本句指「善於聆聽、回應並維持自然有趣談話的人」。",
-        "conversation-mcq-15": "「以自然、非正式、接近日常交談的方式」是「conversationally」的用法，與本句語境不同。",
-        "conversation-mcq-17": "「與某人互相交談；較正式用語」是「converse — verb」的用法，與本句語境不同。",
-        "conversation-mcq-14": "「語言能力足以應付一般日常交談的」是「conversational — language ability」的用法，與本句語境不同。",
-        "conversation-mcq-13": "「像自然日常談話一樣非正式、流暢而易理解的」是「conversational — style」的用法，與本句語境不同。",
-        "conversation-mcq-12": "「在談話中提問、聆聽、回應並維持互動的能力」是「conversation skills」的用法，與本句語境不同。"
+        "conversation-mcq-16": "本句的「conversationalist」指「善於聆聽、回應並維持自然有趣談話的人」。",
+        "conversation-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "conversation-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-16"
     },
@@ -1454,11 +1292,7 @@ export default {
       "masked": "They ____ quietly for an hour.",
       "options": [
         "conversation-mcq-17",
-        "conversation-mcq-16",
-        "conversation-mcq-15",
-        "conversation-mcq-14",
-        "conversation-mcq-13",
-        "conversation-mcq-12"
+        "conversation-mcq-08"
       ],
       "explanation": "本句的「conversed」指「與某人互相交談；較正式用語」。",
       "sentenceIndex": 35,
@@ -1467,12 +1301,8 @@ export default {
         "conversed"
       ],
       "optionReasons": {
-        "conversation-mcq-17": "本句指「與某人互相交談；較正式用語」。",
-        "conversation-mcq-16": "「善於聆聽、回應並維持自然有趣談話的人」是「conversationalist」的用法，與本句語境不同。",
-        "conversation-mcq-15": "「以自然、非正式、接近日常交談的方式」是「conversationally」的用法，與本句語境不同。",
-        "conversation-mcq-14": "「語言能力足以應付一般日常交談的」是「conversational — language ability」的用法，與本句語境不同。",
-        "conversation-mcq-13": "「像自然日常談話一樣非正式、流暢而易理解的」是「conversational — style」的用法，與本句語境不同。",
-        "conversation-mcq-12": "「在談話中提問、聆聽、回應並維持互動的能力」是「conversation skills」的用法，與本句語境不同。"
+        "conversation-mcq-17": "本句的「conversed」指「與某人互相交談；較正式用語」。",
+        "conversation-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-17"
     },
@@ -1484,11 +1314,7 @@ export default {
       "masked": "She enjoys ____ with people from different backgrounds.",
       "options": [
         "conversation-mcq-17",
-        "conversation-mcq-16",
-        "conversation-mcq-15",
-        "conversation-mcq-14",
-        "conversation-mcq-13",
-        "conversation-mcq-12"
+        "conversation-mcq-08"
       ],
       "explanation": "本句的「conversing」指「與某人互相交談；較正式用語」。",
       "sentenceIndex": 36,
@@ -1497,12 +1323,8 @@ export default {
         "conversing"
       ],
       "optionReasons": {
-        "conversation-mcq-17": "本句指「與某人互相交談；較正式用語」。",
-        "conversation-mcq-16": "「善於聆聽、回應並維持自然有趣談話的人」是「conversationalist」的用法，與本句語境不同。",
-        "conversation-mcq-15": "「以自然、非正式、接近日常交談的方式」是「conversationally」的用法，與本句語境不同。",
-        "conversation-mcq-14": "「語言能力足以應付一般日常交談的」是「conversational — language ability」的用法，與本句語境不同。",
-        "conversation-mcq-13": "「像自然日常談話一樣非正式、流暢而易理解的」是「conversational — style」的用法，與本句語境不同。",
-        "conversation-mcq-12": "「在談話中提問、聆聽、回應並維持互動的能力」是「conversation skills」的用法，與本句語境不同。"
+        "conversation-mcq-17": "本句的「conversing」指「與某人互相交談；較正式用語」。",
+        "conversation-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conversation-mcq-17"
     }
@@ -1514,5 +1336,7 @@ export default {
     "sha256": "4e683a61ce50f934c31d2dc879f2acce3d6e4d6b477eae31ec4ebe748b405038",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

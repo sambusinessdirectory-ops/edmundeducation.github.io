@@ -358,11 +358,9 @@ export default {
       "masked": "She bought the painting from a reputable ____.",
       "options": [
         "dealer-mcq-01",
-        "dealer-mcq-02",
-        "dealer-mcq-03",
-        "dealer-mcq-04",
-        "dealer-mcq-05",
-        "dealer-mcq-06"
+        "dealer-mcq-14",
+        "dealer-mcq-17",
+        "dealer-mcq-09"
       ],
       "explanation": "本句的「dealer」指「專門買賣某一類商品的人或企業」。",
       "sentenceIndex": 0,
@@ -371,12 +369,10 @@ export default {
         "dealer"
       ],
       "optionReasons": {
-        "dealer-mcq-01": "本句指「專門買賣某一類商品的人或企業」。",
-        "dealer-mcq-02": "「專門向顧客銷售汽車的商家／經銷商」與本句語境不同。",
-        "dealer-mcq-03": "「獲製造商正式授權銷售／服務其產品的經銷商」與本句語境不同。",
-        "dealer-mcq-04": "「銷售某品牌／類別產品的經銷店或經銷企業」與本句語境不同。",
-        "dealer-mcq-05": "「被授權銷售某品牌產品的經銷資格／權利」與本句語境不同。",
-        "dealer-mcq-06": "「專門買賣藝術品的人／商家」與本句語境不同。"
+        "dealer-mcq-01": "本句的「dealer」指「專門買賣某一類商品的人或企業」。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-01"
     },
@@ -388,11 +384,9 @@ export default {
       "masked": "The ____ specializes in imported furniture.",
       "options": [
         "dealer-mcq-01",
-        "dealer-mcq-02",
-        "dealer-mcq-03",
-        "dealer-mcq-04",
-        "dealer-mcq-05",
-        "dealer-mcq-06"
+        "dealer-mcq-14",
+        "dealer-mcq-09",
+        "dealer-mcq-17"
       ],
       "explanation": "本句的「dealer」指「專門買賣某一類商品的人或企業」。",
       "sentenceIndex": 1,
@@ -401,12 +395,10 @@ export default {
         "dealer"
       ],
       "optionReasons": {
-        "dealer-mcq-01": "本句指「專門買賣某一類商品的人或企業」。",
-        "dealer-mcq-02": "「專門向顧客銷售汽車的商家／經銷商」與本句語境不同。",
-        "dealer-mcq-03": "「獲製造商正式授權銷售／服務其產品的經銷商」與本句語境不同。",
-        "dealer-mcq-04": "「銷售某品牌／類別產品的經銷店或經銷企業」與本句語境不同。",
-        "dealer-mcq-05": "「被授權銷售某品牌產品的經銷資格／權利」與本句語境不同。",
-        "dealer-mcq-06": "「專門買賣藝術品的人／商家」與本句語境不同。"
+        "dealer-mcq-01": "本句的「dealer」指「專門買賣某一類商品的人或企業」。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-01"
     },
@@ -418,11 +410,9 @@ export default {
       "masked": "The ____ offered several electric models.",
       "options": [
         "dealer-mcq-02",
-        "dealer-mcq-01",
-        "dealer-mcq-03",
-        "dealer-mcq-04",
-        "dealer-mcq-05",
-        "dealer-mcq-06"
+        "dealer-mcq-17",
+        "dealer-mcq-09",
+        "dealer-mcq-11"
       ],
       "explanation": "本句的「car dealer」指「專門向顧客銷售汽車的商家／經銷商」。",
       "sentenceIndex": 2,
@@ -431,12 +421,10 @@ export default {
         "car dealer"
       ],
       "optionReasons": {
-        "dealer-mcq-02": "本句指「專門向顧客銷售汽車的商家／經銷商」。",
-        "dealer-mcq-01": "「專門買賣某一類商品的人或企業」與本句語境不同。",
-        "dealer-mcq-03": "「獲製造商正式授權銷售／服務其產品的經銷商」與本句語境不同。",
-        "dealer-mcq-04": "「銷售某品牌／類別產品的經銷店或經銷企業」與本句語境不同。",
-        "dealer-mcq-05": "「被授權銷售某品牌產品的經銷資格／權利」與本句語境不同。",
-        "dealer-mcq-06": "「專門買賣藝術品的人／商家」與本句語境不同。"
+        "dealer-mcq-02": "本句的「car dealer」指「專門向顧客銷售汽車的商家／經銷商」。",
+        "dealer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-02"
     },
@@ -448,11 +436,9 @@ export default {
       "masked": "We compared prices at three car ____.",
       "options": [
         "dealer-mcq-02",
-        "dealer-mcq-01",
-        "dealer-mcq-03",
-        "dealer-mcq-04",
-        "dealer-mcq-05",
-        "dealer-mcq-06"
+        "dealer-mcq-17",
+        "dealer-mcq-11",
+        "dealer-mcq-09"
       ],
       "explanation": "本句的「dealers」指「專門向顧客銷售汽車的商家／經銷商」。",
       "sentenceIndex": 3,
@@ -461,12 +447,10 @@ export default {
         "dealers"
       ],
       "optionReasons": {
-        "dealer-mcq-02": "本句指「專門向顧客銷售汽車的商家／經銷商」。",
-        "dealer-mcq-01": "「專門買賣某一類商品的人或企業」與本句語境不同。",
-        "dealer-mcq-03": "「獲製造商正式授權銷售／服務其產品的經銷商」與本句語境不同。",
-        "dealer-mcq-04": "「銷售某品牌／類別產品的經銷店或經銷企業」與本句語境不同。",
-        "dealer-mcq-05": "「被授權銷售某品牌產品的經銷資格／權利」與本句語境不同。",
-        "dealer-mcq-06": "「專門買賣藝術品的人／商家」與本句語境不同。"
+        "dealer-mcq-02": "本句的「dealers」指「專門向顧客銷售汽車的商家／經銷商」。",
+        "dealer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-02"
     },
@@ -478,11 +462,9 @@ export default {
       "masked": "The company obtained the regional ____.",
       "options": [
         "dealer-mcq-05",
-        "dealer-mcq-04",
-        "dealer-mcq-06",
-        "dealer-mcq-03",
         "dealer-mcq-07",
-        "dealer-mcq-02"
+        "dealer-mcq-16",
+        "dealer-mcq-14"
       ],
       "explanation": "本句的「dealership」指「被授權銷售某品牌產品的經銷資格／權利」。",
       "sentenceIndex": 6,
@@ -491,12 +473,10 @@ export default {
         "dealership"
       ],
       "optionReasons": {
-        "dealer-mcq-05": "本句指「被授權銷售某品牌產品的經銷資格／權利」。",
-        "dealer-mcq-04": "「銷售某品牌／類別產品的經銷店或經銷企業」與本句語境不同。",
-        "dealer-mcq-06": "「專門買賣藝術品的人／商家」與本句語境不同。",
-        "dealer-mcq-03": "「獲製造商正式授權銷售／服務其產品的經銷商」與本句語境不同。",
-        "dealer-mcq-07": "「以自身帳戶買賣證券並可能提供報價／流動性的交易商」與本句語境不同。",
-        "dealer-mcq-02": "「專門向顧客銷售汽車的商家／經銷商」與本句語境不同。"
+        "dealer-mcq-05": "本句的「dealership」指「被授權銷售某品牌產品的經銷資格／權利」。",
+        "dealer-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-05"
     },
@@ -508,11 +488,9 @@ export default {
       "masked": "They lost the ____ after violating the agreement.",
       "options": [
         "dealer-mcq-05",
-        "dealer-mcq-04",
-        "dealer-mcq-06",
-        "dealer-mcq-03",
         "dealer-mcq-07",
-        "dealer-mcq-02"
+        "dealer-mcq-16",
+        "dealer-mcq-14"
       ],
       "explanation": "本句的「dealership」指「被授權銷售某品牌產品的經銷資格／權利」。",
       "sentenceIndex": 7,
@@ -521,12 +499,10 @@ export default {
         "dealership"
       ],
       "optionReasons": {
-        "dealer-mcq-05": "本句指「被授權銷售某品牌產品的經銷資格／權利」。",
-        "dealer-mcq-04": "「銷售某品牌／類別產品的經銷店或經銷企業」與本句語境不同。",
-        "dealer-mcq-06": "「專門買賣藝術品的人／商家」與本句語境不同。",
-        "dealer-mcq-03": "「獲製造商正式授權銷售／服務其產品的經銷商」與本句語境不同。",
-        "dealer-mcq-07": "「以自身帳戶買賣證券並可能提供報價／流動性的交易商」與本句語境不同。",
-        "dealer-mcq-02": "「專門向顧客銷售汽車的商家／經銷商」與本句語境不同。"
+        "dealer-mcq-05": "本句的「dealership」指「被授權銷售某品牌產品的經銷資格／權利」。",
+        "dealer-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-05"
     },
@@ -538,11 +514,9 @@ export default {
       "masked": "Buy the charger from an ____.",
       "options": [
         "dealer-mcq-03",
-        "dealer-mcq-02",
-        "dealer-mcq-04",
-        "dealer-mcq-01",
-        "dealer-mcq-05",
-        "dealer-mcq-06"
+        "dealer-mcq-14",
+        "dealer-mcq-08",
+        "dealer-mcq-09"
       ],
       "explanation": "本句的「authorized dealer」指「獲製造商正式授權銷售／服務其產品的經銷商」。",
       "sentenceIndex": 8,
@@ -551,12 +525,10 @@ export default {
         "authorized dealer"
       ],
       "optionReasons": {
-        "dealer-mcq-03": "本句指「獲製造商正式授權銷售／服務其產品的經銷商」。",
-        "dealer-mcq-02": "「專門向顧客銷售汽車的商家／經銷商」與本句語境不同。",
-        "dealer-mcq-04": "「銷售某品牌／類別產品的經銷店或經銷企業」與本句語境不同。",
-        "dealer-mcq-01": "「專門買賣某一類商品的人或企業」與本句語境不同。",
-        "dealer-mcq-05": "「被授權銷售某品牌產品的經銷資格／權利」與本句語境不同。",
-        "dealer-mcq-06": "「專門買賣藝術品的人／商家」與本句語境不同。"
+        "dealer-mcq-03": "本句的「authorized dealer」指「獲製造商正式授權銷售／服務其產品的經銷商」。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-03"
     },
@@ -568,11 +540,9 @@ export default {
       "masked": "Repairs carried out by authorized ____ may be covered by the warranty.",
       "options": [
         "dealer-mcq-03",
-        "dealer-mcq-02",
-        "dealer-mcq-04",
-        "dealer-mcq-01",
-        "dealer-mcq-05",
-        "dealer-mcq-06"
+        "dealer-mcq-08",
+        "dealer-mcq-14",
+        "dealer-mcq-09"
       ],
       "explanation": "本句的「dealers」指「獲製造商正式授權銷售／服務其產品的經銷商」。",
       "sentenceIndex": 9,
@@ -581,12 +551,10 @@ export default {
         "dealers"
       ],
       "optionReasons": {
-        "dealer-mcq-03": "本句指「獲製造商正式授權銷售／服務其產品的經銷商」。",
-        "dealer-mcq-02": "「專門向顧客銷售汽車的商家／經銷商」與本句語境不同。",
-        "dealer-mcq-04": "「銷售某品牌／類別產品的經銷店或經銷企業」與本句語境不同。",
-        "dealer-mcq-01": "「專門買賣某一類商品的人或企業」與本句語境不同。",
-        "dealer-mcq-05": "「被授權銷售某品牌產品的經銷資格／權利」與本句語境不同。",
-        "dealer-mcq-06": "「專門買賣藝術品的人／商家」與本句語境不同。"
+        "dealer-mcq-03": "本句的「dealers」指「獲製造商正式授權銷售／服務其產品的經銷商」。",
+        "dealer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-03"
     },
@@ -598,11 +566,9 @@ export default {
       "masked": "The painting was sold through an ____.",
       "options": [
         "dealer-mcq-06",
-        "dealer-mcq-05",
-        "dealer-mcq-07",
-        "dealer-mcq-04",
-        "dealer-mcq-08",
-        "dealer-mcq-03"
+        "dealer-mcq-17",
+        "dealer-mcq-09",
+        "dealer-mcq-14"
       ],
       "explanation": "本句的「art dealer」指「專門買賣藝術品的人／商家」。",
       "sentenceIndex": 14,
@@ -611,12 +577,10 @@ export default {
         "art dealer"
       ],
       "optionReasons": {
-        "dealer-mcq-06": "本句指「專門買賣藝術品的人／商家」。",
-        "dealer-mcq-05": "「被授權銷售某品牌產品的經銷資格／權利」與本句語境不同。",
-        "dealer-mcq-07": "「以自身帳戶買賣證券並可能提供報價／流動性的交易商」與本句語境不同。",
-        "dealer-mcq-04": "「銷售某品牌／類別產品的經銷店或經銷企業」與本句語境不同。",
-        "dealer-mcq-08": "「同時可為客戶撮合交易及自營買賣的證券公司」與本句語境不同。",
-        "dealer-mcq-03": "「獲製造商正式授權銷售／服務其產品的經銷商」與本句語境不同。"
+        "dealer-mcq-06": "本句的「art dealer」指「專門買賣藝術品的人／商家」。",
+        "dealer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-06"
     },
@@ -628,11 +592,9 @@ export default {
       "masked": "Art ____ often represent collectors and artists.",
       "options": [
         "dealer-mcq-06",
-        "dealer-mcq-05",
-        "dealer-mcq-07",
-        "dealer-mcq-04",
-        "dealer-mcq-08",
-        "dealer-mcq-03"
+        "dealer-mcq-17",
+        "dealer-mcq-09",
+        "dealer-mcq-14"
       ],
       "explanation": "本句的「dealers」指「專門買賣藝術品的人／商家」。",
       "sentenceIndex": 15,
@@ -641,12 +603,10 @@ export default {
         "dealers"
       ],
       "optionReasons": {
-        "dealer-mcq-06": "本句指「專門買賣藝術品的人／商家」。",
-        "dealer-mcq-05": "「被授權銷售某品牌產品的經銷資格／權利」與本句語境不同。",
-        "dealer-mcq-07": "「以自身帳戶買賣證券並可能提供報價／流動性的交易商」與本句語境不同。",
-        "dealer-mcq-04": "「銷售某品牌／類別產品的經銷店或經銷企業」與本句語境不同。",
-        "dealer-mcq-08": "「同時可為客戶撮合交易及自營買賣的證券公司」與本句語境不同。",
-        "dealer-mcq-03": "「獲製造商正式授權銷售／服務其產品的經銷商」與本句語境不同。"
+        "dealer-mcq-06": "本句的「dealers」指「專門買賣藝術品的人／商家」。",
+        "dealer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-06"
     },
@@ -658,11 +618,9 @@ export default {
       "masked": "The bank acts as a securities ____.",
       "options": [
         "dealer-mcq-07",
-        "dealer-mcq-06",
-        "dealer-mcq-08",
-        "dealer-mcq-05",
         "dealer-mcq-09",
-        "dealer-mcq-04"
+        "dealer-mcq-05",
+        "dealer-mcq-14"
       ],
       "explanation": "本句的「dealer」指「以自身帳戶買賣證券並可能提供報價／流動性的交易商」。",
       "sentenceIndex": 22,
@@ -671,12 +629,10 @@ export default {
         "dealer"
       ],
       "optionReasons": {
-        "dealer-mcq-07": "本句指「以自身帳戶買賣證券並可能提供報價／流動性的交易商」。",
-        "dealer-mcq-06": "「專門買賣藝術品的人／商家」與本句語境不同。",
-        "dealer-mcq-08": "「同時可為客戶撮合交易及自營買賣的證券公司」與本句語境不同。",
-        "dealer-mcq-05": "「被授權銷售某品牌產品的經銷資格／權利」與本句語境不同。",
-        "dealer-mcq-09": "「在牌局中負責洗牌、發牌或管理牌局的人」與本句語境不同。",
-        "dealer-mcq-04": "「銷售某品牌／類別產品的經銷店或經銷企業」與本句語境不同。"
+        "dealer-mcq-07": "本句的「dealer」指「以自身帳戶買賣證券並可能提供報價／流動性的交易商」。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-07"
     },
@@ -688,11 +644,9 @@ export default {
       "masked": "____ quote buying and selling prices.",
       "options": [
         "dealer-mcq-07",
-        "dealer-mcq-06",
-        "dealer-mcq-08",
-        "dealer-mcq-05",
-        "dealer-mcq-09",
-        "dealer-mcq-04"
+        "dealer-mcq-14",
+        "dealer-mcq-10",
+        "dealer-mcq-09"
       ],
       "explanation": "本句的「Dealers」指「以自身帳戶買賣證券並可能提供報價／流動性的交易商」。",
       "sentenceIndex": 23,
@@ -701,12 +655,10 @@ export default {
         "Dealers"
       ],
       "optionReasons": {
-        "dealer-mcq-07": "本句指「以自身帳戶買賣證券並可能提供報價／流動性的交易商」。",
-        "dealer-mcq-06": "「專門買賣藝術品的人／商家」與本句語境不同。",
-        "dealer-mcq-08": "「同時可為客戶撮合交易及自營買賣的證券公司」與本句語境不同。",
-        "dealer-mcq-05": "「被授權銷售某品牌產品的經銷資格／權利」與本句語境不同。",
-        "dealer-mcq-09": "「在牌局中負責洗牌、發牌或管理牌局的人」與本句語境不同。",
-        "dealer-mcq-04": "「銷售某品牌／類別產品的經銷店或經銷企業」與本句語境不同。"
+        "dealer-mcq-07": "本句的「Dealers」指「以自身帳戶買賣證券並可能提供報價／流動性的交易商」。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-07"
     },
@@ -718,11 +670,9 @@ export default {
       "masked": "The firm is registered as a ____.",
       "options": [
         "dealer-mcq-08",
-        "dealer-mcq-07",
-        "dealer-mcq-09",
-        "dealer-mcq-06",
         "dealer-mcq-10",
-        "dealer-mcq-05"
+        "dealer-mcq-14",
+        "dealer-mcq-12"
       ],
       "explanation": "本句的「broker-dealer」指「同時可為客戶撮合交易及自營買賣的證券公司」。",
       "sentenceIndex": 24,
@@ -731,12 +681,10 @@ export default {
         "broker-dealer"
       ],
       "optionReasons": {
-        "dealer-mcq-08": "本句指「同時可為客戶撮合交易及自營買賣的證券公司」。",
-        "dealer-mcq-07": "「以自身帳戶買賣證券並可能提供報價／流動性的交易商」與本句語境不同。",
-        "dealer-mcq-09": "「在牌局中負責洗牌、發牌或管理牌局的人」與本句語境不同。",
-        "dealer-mcq-06": "「專門買賣藝術品的人／商家」與本句語境不同。",
-        "dealer-mcq-10": "「非法出售受管制毒品的人」與本句語境不同。",
-        "dealer-mcq-05": "「被授權銷售某品牌產品的經銷資格／權利」與本句語境不同。"
+        "dealer-mcq-08": "本句的「broker-dealer」指「同時可為客戶撮合交易及自營買賣的證券公司」。",
+        "dealer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-08"
     },
@@ -748,10 +696,8 @@ export default {
       "masked": "A broker-____ may act both for clients and for its own account.",
       "options": [
         "dealer-mcq-08",
-        "dealer-mcq-07",
+        "dealer-mcq-14",
         "dealer-mcq-09",
-        "dealer-mcq-06",
-        "dealer-mcq-10",
         "dealer-mcq-05"
       ],
       "explanation": "本句的「dealer」指「同時可為客戶撮合交易及自營買賣的證券公司」。",
@@ -761,12 +707,10 @@ export default {
         "dealer"
       ],
       "optionReasons": {
-        "dealer-mcq-08": "本句指「同時可為客戶撮合交易及自營買賣的證券公司」。",
-        "dealer-mcq-07": "「以自身帳戶買賣證券並可能提供報價／流動性的交易商」與本句語境不同。",
-        "dealer-mcq-09": "「在牌局中負責洗牌、發牌或管理牌局的人」與本句語境不同。",
-        "dealer-mcq-06": "「專門買賣藝術品的人／商家」與本句語境不同。",
-        "dealer-mcq-10": "「非法出售受管制毒品的人」與本句語境不同。",
-        "dealer-mcq-05": "「被授權銷售某品牌產品的經銷資格／權利」與本句語境不同。"
+        "dealer-mcq-08": "本句的「dealer」指「同時可為客戶撮合交易及自營買賣的證券公司」。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-08"
     },
@@ -778,11 +722,9 @@ export default {
       "masked": "The ____ gave each player five cards.",
       "options": [
         "dealer-mcq-09",
-        "dealer-mcq-08",
-        "dealer-mcq-10",
-        "dealer-mcq-07",
-        "dealer-mcq-11",
-        "dealer-mcq-06"
+        "dealer-mcq-16",
+        "dealer-mcq-17",
+        "dealer-mcq-11"
       ],
       "explanation": "本句的「dealer」指「在牌局中負責洗牌、發牌或管理牌局的人」。",
       "sentenceIndex": 32,
@@ -791,12 +733,10 @@ export default {
         "dealer"
       ],
       "optionReasons": {
-        "dealer-mcq-09": "本句指「在牌局中負責洗牌、發牌或管理牌局的人」。",
-        "dealer-mcq-08": "「同時可為客戶撮合交易及自營買賣的證券公司」與本句語境不同。",
-        "dealer-mcq-10": "「非法出售受管制毒品的人」與本句語境不同。",
-        "dealer-mcq-07": "「以自身帳戶買賣證券並可能提供報價／流動性的交易商」與本句語境不同。",
-        "dealer-mcq-11": "「從事武器／軍火買賣的人或企業」與本句語境不同。",
-        "dealer-mcq-06": "「專門買賣藝術品的人／商家」與本句語境不同。"
+        "dealer-mcq-09": "本句的「dealer」指「在牌局中負責洗牌、發牌或管理牌局的人」。",
+        "dealer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-09"
     },
@@ -808,11 +748,9 @@ export default {
       "masked": "The ____ shuffled the deck.",
       "options": [
         "dealer-mcq-09",
-        "dealer-mcq-08",
-        "dealer-mcq-10",
-        "dealer-mcq-07",
-        "dealer-mcq-11",
-        "dealer-mcq-06"
+        "dealer-mcq-06",
+        "dealer-mcq-17",
+        "dealer-mcq-16"
       ],
       "explanation": "本句的「dealer」指「在牌局中負責洗牌、發牌或管理牌局的人」。",
       "sentenceIndex": 33,
@@ -821,12 +759,10 @@ export default {
         "dealer"
       ],
       "optionReasons": {
-        "dealer-mcq-09": "本句指「在牌局中負責洗牌、發牌或管理牌局的人」。",
-        "dealer-mcq-08": "「同時可為客戶撮合交易及自營買賣的證券公司」與本句語境不同。",
-        "dealer-mcq-10": "「非法出售受管制毒品的人」與本句語境不同。",
-        "dealer-mcq-07": "「以自身帳戶買賣證券並可能提供報價／流動性的交易商」與本句語境不同。",
-        "dealer-mcq-11": "「從事武器／軍火買賣的人或企業」與本句語境不同。",
-        "dealer-mcq-06": "「專門買賣藝術品的人／商家」與本句語境不同。"
+        "dealer-mcq-09": "本句的「dealer」指「在牌局中負責洗牌、發牌或管理牌局的人」。",
+        "dealer-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-09"
     },
@@ -838,11 +774,9 @@ export default {
       "masked": "Police arrested a suspected drug ____.",
       "options": [
         "dealer-mcq-10",
-        "dealer-mcq-09",
         "dealer-mcq-11",
-        "dealer-mcq-08",
-        "dealer-mcq-12",
-        "dealer-mcq-07"
+        "dealer-mcq-17",
+        "dealer-mcq-14"
       ],
       "explanation": "本句的「dealer」指「非法出售受管制毒品的人」。",
       "sentenceIndex": 38,
@@ -851,12 +785,10 @@ export default {
         "dealer"
       ],
       "optionReasons": {
-        "dealer-mcq-10": "本句指「非法出售受管制毒品的人」。",
-        "dealer-mcq-09": "「在牌局中負責洗牌、發牌或管理牌局的人」與本句語境不同。",
-        "dealer-mcq-11": "「從事武器／軍火買賣的人或企業」與本句語境不同。",
-        "dealer-mcq-08": "「同時可為客戶撮合交易及自營買賣的證券公司」與本句語境不同。",
-        "dealer-mcq-12": "「一個品牌／製造商所建立的經銷商銷售網絡」與本句語境不同。",
-        "dealer-mcq-07": "「以自身帳戶買賣證券並可能提供報價／流動性的交易商」與本句語境不同。"
+        "dealer-mcq-10": "本句的「dealer」指「非法出售受管制毒品的人」。",
+        "dealer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-10"
     },
@@ -868,11 +800,9 @@ export default {
       "masked": "The article referred to an international arms ____.",
       "options": [
         "dealer-mcq-11",
-        "dealer-mcq-10",
-        "dealer-mcq-12",
-        "dealer-mcq-09",
-        "dealer-mcq-13",
-        "dealer-mcq-08"
+        "dealer-mcq-05",
+        "dealer-mcq-14",
+        "dealer-mcq-09"
       ],
       "explanation": "本句的「dealer」指「從事武器／軍火買賣的人或企業」。",
       "sentenceIndex": 39,
@@ -881,12 +811,10 @@ export default {
         "dealer"
       ],
       "optionReasons": {
-        "dealer-mcq-11": "本句指「從事武器／軍火買賣的人或企業」。",
-        "dealer-mcq-10": "「非法出售受管制毒品的人」與本句語境不同。",
-        "dealer-mcq-12": "「一個品牌／製造商所建立的經銷商銷售網絡」與本句語境不同。",
-        "dealer-mcq-09": "「在牌局中負責洗牌、發牌或管理牌局的人」與本句語境不同。",
-        "dealer-mcq-13": "「以買賣某類商品 X 為業」與本句語境不同。",
-        "dealer-mcq-08": "「同時可為客戶撮合交易及自營買賣的證券公司」與本句語境不同。"
+        "dealer-mcq-11": "本句的「dealer」指「從事武器／軍火買賣的人或企業」。",
+        "dealer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-11"
     },
@@ -898,11 +826,9 @@ export default {
       "masked": "Arms ____ operate under very different legal regimes across jurisdictions.",
       "options": [
         "dealer-mcq-11",
-        "dealer-mcq-10",
-        "dealer-mcq-12",
+        "dealer-mcq-05",
         "dealer-mcq-09",
-        "dealer-mcq-13",
-        "dealer-mcq-08"
+        "dealer-mcq-14"
       ],
       "explanation": "本句的「dealers」指「從事武器／軍火買賣的人或企業」。",
       "sentenceIndex": 40,
@@ -911,12 +837,10 @@ export default {
         "dealers"
       ],
       "optionReasons": {
-        "dealer-mcq-11": "本句指「從事武器／軍火買賣的人或企業」。",
-        "dealer-mcq-10": "「非法出售受管制毒品的人」與本句語境不同。",
-        "dealer-mcq-12": "「一個品牌／製造商所建立的經銷商銷售網絡」與本句語境不同。",
-        "dealer-mcq-09": "「在牌局中負責洗牌、發牌或管理牌局的人」與本句語境不同。",
-        "dealer-mcq-13": "「以買賣某類商品 X 為業」與本句語境不同。",
-        "dealer-mcq-08": "「同時可為客戶撮合交易及自營買賣的證券公司」與本句語境不同。"
+        "dealer-mcq-11": "本句的「dealers」指「從事武器／軍火買賣的人或企業」。",
+        "dealer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-11"
     },
@@ -929,10 +853,8 @@ export default {
       "options": [
         "dealer-mcq-12",
         "dealer-mcq-11",
-        "dealer-mcq-13",
-        "dealer-mcq-10",
-        "dealer-mcq-14",
-        "dealer-mcq-09"
+        "dealer-mcq-17",
+        "dealer-mcq-14"
       ],
       "explanation": "本句的「dealer network」指「一個品牌／製造商所建立的經銷商銷售網絡」。",
       "sentenceIndex": 45,
@@ -941,12 +863,10 @@ export default {
         "dealer network"
       ],
       "optionReasons": {
-        "dealer-mcq-12": "本句指「一個品牌／製造商所建立的經銷商銷售網絡」。",
-        "dealer-mcq-11": "「從事武器／軍火買賣的人或企業」與本句語境不同。",
-        "dealer-mcq-13": "「以買賣某類商品 X 為業」與本句語境不同。",
-        "dealer-mcq-10": "「非法出售受管制毒品的人」與本句語境不同。",
-        "dealer-mcq-14": "「把紙牌分發給玩家」與本句語境不同。",
-        "dealer-mcq-09": "「在牌局中負責洗牌、發牌或管理牌局的人」與本句語境不同。"
+        "dealer-mcq-12": "本句的「dealer network」指「一個品牌／製造商所建立的經銷商銷售網絡」。",
+        "dealer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-12"
     },
@@ -958,11 +878,9 @@ export default {
       "masked": "A strong ____ network can improve service coverage.",
       "options": [
         "dealer-mcq-12",
+        "dealer-mcq-17",
         "dealer-mcq-11",
-        "dealer-mcq-13",
-        "dealer-mcq-10",
-        "dealer-mcq-14",
-        "dealer-mcq-09"
+        "dealer-mcq-14"
       ],
       "explanation": "本句的「dealer」指「一個品牌／製造商所建立的經銷商銷售網絡」。",
       "sentenceIndex": 46,
@@ -971,12 +889,10 @@ export default {
         "dealer"
       ],
       "optionReasons": {
-        "dealer-mcq-12": "本句指「一個品牌／製造商所建立的經銷商銷售網絡」。",
-        "dealer-mcq-11": "「從事武器／軍火買賣的人或企業」與本句語境不同。",
-        "dealer-mcq-13": "「以買賣某類商品 X 為業」與本句語境不同。",
-        "dealer-mcq-10": "「非法出售受管制毒品的人」與本句語境不同。",
-        "dealer-mcq-14": "「把紙牌分發給玩家」與本句語境不同。",
-        "dealer-mcq-09": "「在牌局中負責洗牌、發牌或管理牌局的人」與本句語境不同。"
+        "dealer-mcq-12": "本句的「dealer」指「一個品牌／製造商所建立的經銷商銷售網絡」。",
+        "dealer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-12"
     },
@@ -988,11 +904,9 @@ export default {
       "masked": "She ____ five cards to each player.",
       "options": [
         "dealer-mcq-14",
-        "dealer-mcq-13",
-        "dealer-mcq-15",
-        "dealer-mcq-12",
+        "dealer-mcq-11",
         "dealer-mcq-16",
-        "dealer-mcq-11"
+        "dealer-mcq-10"
       ],
       "explanation": "本句的「dealt」指「把紙牌分發給玩家」。",
       "sentenceIndex": 61,
@@ -1001,12 +915,10 @@ export default {
         "dealt"
       ],
       "optionReasons": {
-        "dealer-mcq-14": "本句指「把紙牌分發給玩家」。",
-        "dealer-mcq-13": "「以買賣某類商品 X 為業」與本句語境不同。",
-        "dealer-mcq-15": "「買賣／交易某類商品或資產的活動」與本句語境不同。",
-        "dealer-mcq-12": "「一個品牌／製造商所建立的經銷商銷售網絡」與本句語境不同。",
-        "dealer-mcq-16": "「與某人的商業、專業或其他正式往來」與本句語境不同。",
-        "dealer-mcq-11": "「從事武器／軍火買賣的人或企業」與本句語境不同。"
+        "dealer-mcq-14": "本句的「dealt」指「把紙牌分發給玩家」。",
+        "dealer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-14"
     },
@@ -1018,11 +930,9 @@ export default {
       "masked": "The company ____ used vehicles.",
       "options": [
         "dealer-mcq-13",
-        "dealer-mcq-12",
         "dealer-mcq-14",
-        "dealer-mcq-11",
-        "dealer-mcq-15",
-        "dealer-mcq-10"
+        "dealer-mcq-17",
+        "dealer-mcq-09"
       ],
       "explanation": "本句的「deals in」指「以買賣某類商品 X 為業」。",
       "sentenceIndex": 62,
@@ -1031,12 +941,10 @@ export default {
         "deals in"
       ],
       "optionReasons": {
-        "dealer-mcq-13": "本句指「以買賣某類商品 X 為業」。",
-        "dealer-mcq-12": "「一個品牌／製造商所建立的經銷商銷售網絡」與本句語境不同。",
-        "dealer-mcq-14": "「把紙牌分發給玩家」與本句語境不同。",
-        "dealer-mcq-11": "「從事武器／軍火買賣的人或企業」與本句語境不同。",
-        "dealer-mcq-15": "「買賣／交易某類商品或資產的活動」與本句語境不同。",
-        "dealer-mcq-10": "「非法出售受管制毒品的人」與本句語境不同。"
+        "dealer-mcq-13": "本句的「deals in」指「以買賣某類商品 X 為業」。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-13"
     },
@@ -1049,10 +957,8 @@ export default {
       "options": [
         "dealer-mcq-15",
         "dealer-mcq-14",
-        "dealer-mcq-16",
-        "dealer-mcq-13",
-        "dealer-mcq-17",
-        "dealer-mcq-12"
+        "dealer-mcq-09",
+        "dealer-mcq-16"
       ],
       "explanation": "本句的「dealing」指「買賣／交易某類商品或資產的活動」。",
       "sentenceIndex": 63,
@@ -1061,12 +967,10 @@ export default {
         "dealing"
       ],
       "optionReasons": {
-        "dealer-mcq-15": "本句指「買賣／交易某類商品或資產的活動」。",
-        "dealer-mcq-14": "「把紙牌分發給玩家」與本句語境不同。",
-        "dealer-mcq-16": "「與某人的商業、專業或其他正式往來」與本句語境不同。",
-        "dealer-mcq-13": "「以買賣某類商品 X 為業」與本句語境不同。",
-        "dealer-mcq-17": "「利用未公開重大資訊進行證券交易的內幕交易」與本句語境不同。",
-        "dealer-mcq-12": "「一個品牌／製造商所建立的經銷商銷售網絡」與本句語境不同。"
+        "dealer-mcq-15": "本句的「dealing」指「買賣／交易某類商品或資產的活動」。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-15"
     },
@@ -1078,11 +982,9 @@ export default {
       "masked": "The regulator investigated suspected ____.",
       "options": [
         "dealer-mcq-17",
-        "dealer-mcq-16",
-        "dealer-mcq-15",
-        "dealer-mcq-14",
-        "dealer-mcq-13",
-        "dealer-mcq-12"
+        "dealer-mcq-10",
+        "dealer-mcq-12",
+        "dealer-mcq-09"
       ],
       "explanation": "本句的「insider dealing」指「利用未公開重大資訊進行證券交易的內幕交易」。",
       "sentenceIndex": 64,
@@ -1091,12 +993,10 @@ export default {
         "insider dealing"
       ],
       "optionReasons": {
-        "dealer-mcq-17": "本句指「利用未公開重大資訊進行證券交易的內幕交易」。",
-        "dealer-mcq-16": "「與某人的商業、專業或其他正式往來」與本句語境不同。",
-        "dealer-mcq-15": "「買賣／交易某類商品或資產的活動」與本句語境不同。",
-        "dealer-mcq-14": "「把紙牌分發給玩家」與本句語境不同。",
-        "dealer-mcq-13": "「以買賣某類商品 X 為業」與本句語境不同。",
-        "dealer-mcq-12": "「一個品牌／製造商所建立的經銷商銷售網絡」與本句語境不同。"
+        "dealer-mcq-17": "本句的「insider dealing」指「利用未公開重大資訊進行證券交易的內幕交易」。",
+        "dealer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-17"
     },
@@ -1108,11 +1008,9 @@ export default {
       "masked": "The company has had no ____ that supplier.",
       "options": [
         "dealer-mcq-16",
-        "dealer-mcq-15",
+        "dealer-mcq-09",
         "dealer-mcq-17",
-        "dealer-mcq-14",
-        "dealer-mcq-13",
-        "dealer-mcq-12"
+        "dealer-mcq-14"
       ],
       "explanation": "本句的「dealings with」指「與某人的商業、專業或其他正式往來」。",
       "sentenceIndex": 65,
@@ -1121,12 +1019,10 @@ export default {
         "dealings with"
       ],
       "optionReasons": {
-        "dealer-mcq-16": "本句指「與某人的商業、專業或其他正式往來」。",
-        "dealer-mcq-15": "「買賣／交易某類商品或資產的活動」與本句語境不同。",
-        "dealer-mcq-17": "「利用未公開重大資訊進行證券交易的內幕交易」與本句語境不同。",
-        "dealer-mcq-14": "「把紙牌分發給玩家」與本句語境不同。",
-        "dealer-mcq-13": "「以買賣某類商品 X 為業」與本句語境不同。",
-        "dealer-mcq-12": "「一個品牌／製造商所建立的經銷商銷售網絡」與本句語境不同。"
+        "dealer-mcq-16": "本句的「dealings with」指「與某人的商業、專業或其他正式往來」。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-16"
     },
@@ -1138,11 +1034,9 @@ export default {
       "masked": "The vehicle was sold by an independent ____.",
       "options": [
         "dealer-mcq-03",
-        "dealer-mcq-02",
-        "dealer-mcq-04",
-        "dealer-mcq-01",
-        "dealer-mcq-05",
-        "dealer-mcq-06"
+        "dealer-mcq-11",
+        "dealer-mcq-14",
+        "dealer-mcq-09"
       ],
       "explanation": "本句的「dealer」指「獲製造商正式授權銷售／服務其產品的經銷商」。",
       "sentenceIndex": 69,
@@ -1151,12 +1045,10 @@ export default {
         "dealer"
       ],
       "optionReasons": {
-        "dealer-mcq-03": "本句指「獲製造商正式授權銷售／服務其產品的經銷商」。",
-        "dealer-mcq-02": "「專門向顧客銷售汽車的商家／經銷商」與本句語境不同。",
-        "dealer-mcq-04": "「銷售某品牌／類別產品的經銷店或經銷企業」與本句語境不同。",
-        "dealer-mcq-01": "「專門買賣某一類商品的人或企業」與本句語境不同。",
-        "dealer-mcq-05": "「被授權銷售某品牌產品的經銷資格／權利」與本句語境不同。",
-        "dealer-mcq-06": "「專門買賣藝術品的人／商家」與本句語境不同。"
+        "dealer-mcq-03": "本句的「dealer」指「獲製造商正式授權銷售／服務其產品的經銷商」。",
+        "dealer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-03"
     },
@@ -1168,11 +1060,9 @@ export default {
       "masked": "Authorized and independent ____ may offer different warranties.",
       "options": [
         "dealer-mcq-03",
-        "dealer-mcq-02",
-        "dealer-mcq-04",
-        "dealer-mcq-01",
-        "dealer-mcq-05",
-        "dealer-mcq-06"
+        "dealer-mcq-11",
+        "dealer-mcq-14",
+        "dealer-mcq-09"
       ],
       "explanation": "本句的「dealers」指「獲製造商正式授權銷售／服務其產品的經銷商」。",
       "sentenceIndex": 70,
@@ -1181,12 +1071,10 @@ export default {
         "dealers"
       ],
       "optionReasons": {
-        "dealer-mcq-03": "本句指「獲製造商正式授權銷售／服務其產品的經銷商」。",
-        "dealer-mcq-02": "「專門向顧客銷售汽車的商家／經銷商」與本句語境不同。",
-        "dealer-mcq-04": "「銷售某品牌／類別產品的經銷店或經銷企業」與本句語境不同。",
-        "dealer-mcq-01": "「專門買賣某一類商品的人或企業」與本句語境不同。",
-        "dealer-mcq-05": "「被授權銷售某品牌產品的經銷資格／權利」與本句語境不同。",
-        "dealer-mcq-06": "「專門買賣藝術品的人／商家」與本句語境不同。"
+        "dealer-mcq-03": "本句的「dealers」指「獲製造商正式授權銷售／服務其產品的經銷商」。",
+        "dealer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dealer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dealer-mcq-03"
     }
@@ -1198,5 +1086,7 @@ export default {
     "sha256": "70f8a4f5a31e99a5b00c41752709c38e4ebdd1c2d7b4089e28379e97f7c0ad90",
     "pages": 33
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

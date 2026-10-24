@@ -88,13 +88,16 @@ jobs:
           node --check proverb-system.js
           node --test tools/test-proverb-system.mjs tools/test-proverb-black-sand.mjs
 
-      - name: Validate focused Polysemy artwork release
+      - name: Validate focused Polysemy release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[polysemy-release]') }}
         run: |
           node --check polysemy-lab/app.mjs
           node --check polysemy-lab/media.mjs
           node --check polysemy-lab/recording.mjs
           node tools/test-polysemy-eddy-art.mjs
+          node tools/test-polysemy-fairness.mjs
+          npm ci --prefix tools/email-qa --ignore-scripts
+          node tools/test-polysemy-fairness-sync.mjs
 
       - name: Validate focused Professional English release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[professional-release]') }}

@@ -279,11 +279,9 @@ export default {
       "masked": "A bird was sitting on a ____.",
       "options": [
         "branch-mcq-01",
-        "branch-mcq-02",
-        "branch-mcq-03",
-        "branch-mcq-04",
-        "branch-mcq-05",
-        "branch-mcq-06"
+        "branch-mcq-10",
+        "branch-mcq-09",
+        "branch-mcq-07"
       ],
       "explanation": "本句的「branch」指「從樹幹伸出的較大型木質枝條」。",
       "sentenceIndex": 0,
@@ -292,12 +290,10 @@ export default {
         "branch"
       ],
       "optionReasons": {
-        "branch-mcq-01": "本句指「從樹幹伸出的較大型木質枝條」。",
-        "branch-mcq-02": "「同一企業在另一地點設立的營業／服務單位」與本句語境不同。",
-        "branch-mcq-03": "「大型組織內按地區或功能劃分的分支單位」與本句語境不同。",
-        "branch-mcq-04": "「較大知識領域中的一個專門子領域」與本句語境不同。",
-        "branch-mcq-05": "「政府體系中按權力／職能區分的主要部分」與本句語境不同。",
-        "branch-mcq-06": "「從主線／主流分出去的較小路線或水道」與本句語境不同。"
+        "branch-mcq-01": "本句的「branch」指「從樹幹伸出的較大型木質枝條」。",
+        "branch-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-01"
     },
@@ -309,11 +305,9 @@ export default {
       "masked": "The storm broke several ____.",
       "options": [
         "branch-mcq-01",
+        "branch-mcq-10",
         "branch-mcq-02",
-        "branch-mcq-03",
-        "branch-mcq-04",
-        "branch-mcq-05",
-        "branch-mcq-06"
+        "branch-mcq-11"
       ],
       "explanation": "本句的「branches」指「從樹幹伸出的較大型木質枝條」。",
       "sentenceIndex": 1,
@@ -322,12 +316,10 @@ export default {
         "branches"
       ],
       "optionReasons": {
-        "branch-mcq-01": "本句指「從樹幹伸出的較大型木質枝條」。",
-        "branch-mcq-02": "「同一企業在另一地點設立的營業／服務單位」與本句語境不同。",
-        "branch-mcq-03": "「大型組織內按地區或功能劃分的分支單位」與本句語境不同。",
-        "branch-mcq-04": "「較大知識領域中的一個專門子領域」與本句語境不同。",
-        "branch-mcq-05": "「政府體系中按權力／職能區分的主要部分」與本句語境不同。",
-        "branch-mcq-06": "「從主線／主流分出去的較小路線或水道」與本句語境不同。"
+        "branch-mcq-01": "本句的「branches」指「從樹幹伸出的較大型木質枝條」。",
+        "branch-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-01"
     },
@@ -339,11 +331,8 @@ export default {
       "masked": "The bakery may open another ____.",
       "options": [
         "branch-mcq-02",
-        "branch-mcq-01",
-        "branch-mcq-03",
-        "branch-mcq-04",
         "branch-mcq-05",
-        "branch-mcq-06"
+        "branch-mcq-01"
       ],
       "explanation": "本句的「branch」指「同一企業在另一地點設立的營業／服務單位」。",
       "sentenceIndex": 2,
@@ -352,12 +341,9 @@ export default {
         "branch"
       ],
       "optionReasons": {
-        "branch-mcq-02": "本句指「同一企業在另一地點設立的營業／服務單位」。",
-        "branch-mcq-01": "「從樹幹伸出的較大型木質枝條」與本句語境不同。",
-        "branch-mcq-03": "「大型組織內按地區或功能劃分的分支單位」與本句語境不同。",
-        "branch-mcq-04": "「較大知識領域中的一個專門子領域」與本句語境不同。",
-        "branch-mcq-05": "「政府體系中按權力／職能區分的主要部分」與本句語境不同。",
-        "branch-mcq-06": "「從主線／主流分出去的較小路線或水道」與本句語境不同。"
+        "branch-mcq-02": "本句的「branch」指「同一企業在另一地點設立的營業／服務單位」。",
+        "branch-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-02"
     },
@@ -369,11 +355,9 @@ export default {
       "masked": "The bank has several ____ across the city.",
       "options": [
         "branch-mcq-02",
-        "branch-mcq-01",
-        "branch-mcq-03",
+        "branch-mcq-10",
         "branch-mcq-04",
-        "branch-mcq-05",
-        "branch-mcq-06"
+        "branch-mcq-11"
       ],
       "explanation": "本句的「branches」指「同一企業在另一地點設立的營業／服務單位」。",
       "sentenceIndex": 3,
@@ -382,12 +366,10 @@ export default {
         "branches"
       ],
       "optionReasons": {
-        "branch-mcq-02": "本句指「同一企業在另一地點設立的營業／服務單位」。",
-        "branch-mcq-01": "「從樹幹伸出的較大型木質枝條」與本句語境不同。",
-        "branch-mcq-03": "「大型組織內按地區或功能劃分的分支單位」與本句語境不同。",
-        "branch-mcq-04": "「較大知識領域中的一個專門子領域」與本句語境不同。",
-        "branch-mcq-05": "「政府體系中按權力／職能區分的主要部分」與本句語境不同。",
-        "branch-mcq-06": "「從主線／主流分出去的較小路線或水道」與本句語境不同。"
+        "branch-mcq-02": "本句的「branches」指「同一企業在另一地點設立的營業／服務單位」。",
+        "branch-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-02"
     },
@@ -399,11 +381,9 @@ export default {
       "masked": "She works for the local ____ of the charity.",
       "options": [
         "branch-mcq-03",
-        "branch-mcq-02",
-        "branch-mcq-04",
-        "branch-mcq-01",
-        "branch-mcq-05",
-        "branch-mcq-06"
+        "branch-mcq-09",
+        "branch-mcq-06",
+        "branch-mcq-10"
       ],
       "explanation": "本句的「branch」指「大型組織內按地區或功能劃分的分支單位」。",
       "sentenceIndex": 4,
@@ -412,12 +392,10 @@ export default {
         "branch"
       ],
       "optionReasons": {
-        "branch-mcq-03": "本句指「大型組織內按地區或功能劃分的分支單位」。",
-        "branch-mcq-02": "「同一企業在另一地點設立的營業／服務單位」與本句語境不同。",
-        "branch-mcq-04": "「較大知識領域中的一個專門子領域」與本句語境不同。",
-        "branch-mcq-01": "「從樹幹伸出的較大型木質枝條」與本句語境不同。",
-        "branch-mcq-05": "「政府體系中按權力／職能區分的主要部分」與本句語境不同。",
-        "branch-mcq-06": "「從主線／主流分出去的較小路線或水道」與本句語境不同。"
+        "branch-mcq-03": "本句的「branch」指「大型組織內按地區或功能劃分的分支單位」。",
+        "branch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-03"
     },
@@ -429,11 +407,9 @@ export default {
       "masked": "The union opened a new regional ____.",
       "options": [
         "branch-mcq-03",
-        "branch-mcq-02",
-        "branch-mcq-04",
-        "branch-mcq-01",
-        "branch-mcq-05",
-        "branch-mcq-06"
+        "branch-mcq-09",
+        "branch-mcq-08",
+        "branch-mcq-07"
       ],
       "explanation": "本句的「branch」指「大型組織內按地區或功能劃分的分支單位」。",
       "sentenceIndex": 5,
@@ -442,12 +418,10 @@ export default {
         "branch"
       ],
       "optionReasons": {
-        "branch-mcq-03": "本句指「大型組織內按地區或功能劃分的分支單位」。",
-        "branch-mcq-02": "「同一企業在另一地點設立的營業／服務單位」與本句語境不同。",
-        "branch-mcq-04": "「較大知識領域中的一個專門子領域」與本句語境不同。",
-        "branch-mcq-01": "「從樹幹伸出的較大型木質枝條」與本句語境不同。",
-        "branch-mcq-05": "「政府體系中按權力／職能區分的主要部分」與本句語境不同。",
-        "branch-mcq-06": "「從主線／主流分出去的較小路線或水道」與本句語境不同。"
+        "branch-mcq-03": "本句的「branch」指「大型組織內按地區或功能劃分的分支單位」。",
+        "branch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-03"
     },
@@ -459,11 +433,9 @@ export default {
       "masked": "Biology has many different ____.",
       "options": [
         "branch-mcq-04",
-        "branch-mcq-03",
-        "branch-mcq-05",
-        "branch-mcq-02",
-        "branch-mcq-06",
-        "branch-mcq-01"
+        "branch-mcq-11",
+        "branch-mcq-07",
+        "branch-mcq-12"
       ],
       "explanation": "本句的「branches」指「較大知識領域中的一個專門子領域」。",
       "sentenceIndex": 6,
@@ -472,12 +444,10 @@ export default {
         "branches"
       ],
       "optionReasons": {
-        "branch-mcq-04": "本句指「較大知識領域中的一個專門子領域」。",
-        "branch-mcq-03": "「大型組織內按地區或功能劃分的分支單位」與本句語境不同。",
-        "branch-mcq-05": "「政府體系中按權力／職能區分的主要部分」與本句語境不同。",
-        "branch-mcq-02": "「同一企業在另一地點設立的營業／服務單位」與本句語境不同。",
-        "branch-mcq-06": "「從主線／主流分出去的較小路線或水道」與本句語境不同。",
-        "branch-mcq-01": "「從樹幹伸出的較大型木質枝條」與本句語境不同。"
+        "branch-mcq-04": "本句的「branches」指「較大知識領域中的一個專門子領域」。",
+        "branch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-04"
     },
@@ -489,11 +459,9 @@ export default {
       "masked": "Linguistics is a ____ of language study.",
       "options": [
         "branch-mcq-04",
-        "branch-mcq-03",
-        "branch-mcq-05",
-        "branch-mcq-02",
-        "branch-mcq-06",
-        "branch-mcq-01"
+        "branch-mcq-07",
+        "branch-mcq-10",
+        "branch-mcq-12"
       ],
       "explanation": "本句的「branch」指「較大知識領域中的一個專門子領域」。",
       "sentenceIndex": 7,
@@ -502,12 +470,10 @@ export default {
         "branch"
       ],
       "optionReasons": {
-        "branch-mcq-04": "本句指「較大知識領域中的一個專門子領域」。",
-        "branch-mcq-03": "「大型組織內按地區或功能劃分的分支單位」與本句語境不同。",
-        "branch-mcq-05": "「政府體系中按權力／職能區分的主要部分」與本句語境不同。",
-        "branch-mcq-02": "「同一企業在另一地點設立的營業／服務單位」與本句語境不同。",
-        "branch-mcq-06": "「從主線／主流分出去的較小路線或水道」與本句語境不同。",
-        "branch-mcq-01": "「從樹幹伸出的較大型木質枝條」與本句語境不同。"
+        "branch-mcq-04": "本句的「branch」指「較大知識領域中的一個專門子領域」。",
+        "branch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-04"
     },
@@ -519,11 +485,9 @@ export default {
       "masked": "The judicial ____ interprets the law.",
       "options": [
         "branch-mcq-05",
-        "branch-mcq-04",
-        "branch-mcq-06",
-        "branch-mcq-03",
-        "branch-mcq-07",
-        "branch-mcq-02"
+        "branch-mcq-01",
+        "branch-mcq-09",
+        "branch-mcq-07"
       ],
       "explanation": "本句的「branch」指「政府體系中按權力／職能區分的主要部分」。",
       "sentenceIndex": 8,
@@ -532,12 +496,10 @@ export default {
         "branch"
       ],
       "optionReasons": {
-        "branch-mcq-05": "本句指「政府體系中按權力／職能區分的主要部分」。",
-        "branch-mcq-04": "「較大知識領域中的一個專門子領域」與本句語境不同。",
-        "branch-mcq-06": "「從主線／主流分出去的較小路線或水道」與本句語境不同。",
-        "branch-mcq-03": "「大型組織內按地區或功能劃分的分支單位」與本句語境不同。",
-        "branch-mcq-07": "「同一家族內由不同後代形成的支系」與本句語境不同。",
-        "branch-mcq-02": "「同一企業在另一地點設立的營業／服務單位」與本句語境不同。"
+        "branch-mcq-05": "本句的「branch」指「政府體系中按權力／職能區分的主要部分」。",
+        "branch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-05"
     },
@@ -549,11 +511,9 @@ export default {
       "masked": "The three ____ of government have different roles.",
       "options": [
         "branch-mcq-05",
-        "branch-mcq-04",
-        "branch-mcq-06",
-        "branch-mcq-03",
-        "branch-mcq-07",
-        "branch-mcq-02"
+        "branch-mcq-09",
+        "branch-mcq-01",
+        "branch-mcq-07"
       ],
       "explanation": "本句的「branches」指「政府體系中按權力／職能區分的主要部分」。",
       "sentenceIndex": 9,
@@ -562,12 +522,10 @@ export default {
         "branches"
       ],
       "optionReasons": {
-        "branch-mcq-05": "本句指「政府體系中按權力／職能區分的主要部分」。",
-        "branch-mcq-04": "「較大知識領域中的一個專門子領域」與本句語境不同。",
-        "branch-mcq-06": "「從主線／主流分出去的較小路線或水道」與本句語境不同。",
-        "branch-mcq-03": "「大型組織內按地區或功能劃分的分支單位」與本句語境不同。",
-        "branch-mcq-07": "「同一家族內由不同後代形成的支系」與本句語境不同。",
-        "branch-mcq-02": "「同一企業在另一地點設立的營業／服務單位」與本句語境不同。"
+        "branch-mcq-05": "本句的「branches」指「政府體系中按權力／職能區分的主要部分」。",
+        "branch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-05"
     },
@@ -579,10 +537,8 @@ export default {
       "masked": "This river has several smaller ____.",
       "options": [
         "branch-mcq-06",
-        "branch-mcq-05",
         "branch-mcq-07",
-        "branch-mcq-04",
-        "branch-mcq-08",
+        "branch-mcq-09",
         "branch-mcq-03"
       ],
       "explanation": "本句的「branches」指「從主線／主流分出去的較小路線或水道」。",
@@ -592,12 +548,10 @@ export default {
         "branches"
       ],
       "optionReasons": {
-        "branch-mcq-06": "本句指「從主線／主流分出去的較小路線或水道」。",
-        "branch-mcq-05": "「政府體系中按權力／職能區分的主要部分」與本句語境不同。",
-        "branch-mcq-07": "「同一家族內由不同後代形成的支系」與本句語境不同。",
-        "branch-mcq-04": "「較大知識領域中的一個專門子領域」與本句語境不同。",
-        "branch-mcq-08": "「主體在某點分成兩個或以上較小部分」與本句語境不同。",
-        "branch-mcq-03": "「大型組織內按地區或功能劃分的分支單位」與本句語境不同。"
+        "branch-mcq-06": "本句的「branches」指「從主線／主流分出去的較小路線或水道」。",
+        "branch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-06"
     },
@@ -609,10 +563,8 @@ export default {
       "masked": "The railway ____ connects the town to the main line.",
       "options": [
         "branch-mcq-06",
-        "branch-mcq-05",
         "branch-mcq-07",
-        "branch-mcq-04",
-        "branch-mcq-08",
+        "branch-mcq-09",
         "branch-mcq-03"
       ],
       "explanation": "本句的「branch」指「從主線／主流分出去的較小路線或水道」。",
@@ -622,12 +574,10 @@ export default {
         "branch"
       ],
       "optionReasons": {
-        "branch-mcq-06": "本句指「從主線／主流分出去的較小路線或水道」。",
-        "branch-mcq-05": "「政府體系中按權力／職能區分的主要部分」與本句語境不同。",
-        "branch-mcq-07": "「同一家族內由不同後代形成的支系」與本句語境不同。",
-        "branch-mcq-04": "「較大知識領域中的一個專門子領域」與本句語境不同。",
-        "branch-mcq-08": "「主體在某點分成兩個或以上較小部分」與本句語境不同。",
-        "branch-mcq-03": "「大型組織內按地區或功能劃分的分支單位」與本句語境不同。"
+        "branch-mcq-06": "本句的「branch」指「從主線／主流分出去的較小路線或水道」。",
+        "branch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-06"
     },
@@ -639,11 +589,9 @@ export default {
       "masked": "They belong to a different ____ of the family.",
       "options": [
         "branch-mcq-07",
-        "branch-mcq-06",
-        "branch-mcq-08",
-        "branch-mcq-05",
-        "branch-mcq-09",
-        "branch-mcq-04"
+        "branch-mcq-12",
+        "branch-mcq-04",
+        "branch-mcq-06"
       ],
       "explanation": "本句的「branch」指「同一家族內由不同後代形成的支系」。",
       "sentenceIndex": 12,
@@ -652,12 +600,10 @@ export default {
         "branch"
       ],
       "optionReasons": {
-        "branch-mcq-07": "本句指「同一家族內由不同後代形成的支系」。",
-        "branch-mcq-06": "「從主線／主流分出去的較小路線或水道」與本句語境不同。",
-        "branch-mcq-08": "「主體在某點分成兩個或以上較小部分」與本句語境不同。",
-        "branch-mcq-05": "「政府體系中按權力／職能區分的主要部分」與本句語境不同。",
-        "branch-mcq-09": "「從原本活動／業務拓展到另一個新領域」與本句語境不同。",
-        "branch-mcq-04": "「較大知識領域中的一個專門子領域」與本句語境不同。"
+        "branch-mcq-07": "本句的「branch」指「同一家族內由不同後代形成的支系」。",
+        "branch-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-07"
     },
@@ -669,11 +615,9 @@ export default {
       "masked": "That ____ of the family moved overseas.",
       "options": [
         "branch-mcq-07",
-        "branch-mcq-06",
-        "branch-mcq-08",
-        "branch-mcq-05",
-        "branch-mcq-09",
-        "branch-mcq-04"
+        "branch-mcq-01",
+        "branch-mcq-12",
+        "branch-mcq-11"
       ],
       "explanation": "本句的「branch」指「同一家族內由不同後代形成的支系」。",
       "sentenceIndex": 13,
@@ -682,12 +626,10 @@ export default {
         "branch"
       ],
       "optionReasons": {
-        "branch-mcq-07": "本句指「同一家族內由不同後代形成的支系」。",
-        "branch-mcq-06": "「從主線／主流分出去的較小路線或水道」與本句語境不同。",
-        "branch-mcq-08": "「主體在某點分成兩個或以上較小部分」與本句語境不同。",
-        "branch-mcq-05": "「政府體系中按權力／職能區分的主要部分」與本句語境不同。",
-        "branch-mcq-09": "「從原本活動／業務拓展到另一個新領域」與本句語境不同。",
-        "branch-mcq-04": "「較大知識領域中的一個專門子領域」與本句語境不同。"
+        "branch-mcq-07": "本句的「branch」指「同一家族內由不同後代形成的支系」。",
+        "branch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-07"
     },
@@ -699,11 +641,9 @@ export default {
       "masked": "The road ____ near the village.",
       "options": [
         "branch-mcq-08",
-        "branch-mcq-07",
         "branch-mcq-09",
-        "branch-mcq-06",
-        "branch-mcq-10",
-        "branch-mcq-05"
+        "branch-mcq-01",
+        "branch-mcq-07"
       ],
       "explanation": "本句的「branches」指「主體在某點分成兩個或以上較小部分」。",
       "sentenceIndex": 14,
@@ -712,12 +652,10 @@ export default {
         "branches"
       ],
       "optionReasons": {
-        "branch-mcq-08": "本句指「主體在某點分成兩個或以上較小部分」。",
-        "branch-mcq-07": "「同一家族內由不同後代形成的支系」與本句語境不同。",
-        "branch-mcq-09": "「從原本活動／業務拓展到另一個新領域」與本句語境不同。",
-        "branch-mcq-06": "「從主線／主流分出去的較小路線或水道」與本句語境不同。",
-        "branch-mcq-10": "「一個結構由主體向多個方向分開的形式」與本句語境不同。",
-        "branch-mcq-05": "「政府體系中按權力／職能區分的主要部分」與本句語境不同。"
+        "branch-mcq-08": "本句的「branches」指「主體在某點分成兩個或以上較小部分」。",
+        "branch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-08"
     },
@@ -729,11 +667,9 @@ export default {
       "masked": "The river ____ into two channels.",
       "options": [
         "branch-mcq-08",
-        "branch-mcq-07",
         "branch-mcq-09",
-        "branch-mcq-06",
-        "branch-mcq-10",
-        "branch-mcq-05"
+        "branch-mcq-01",
+        "branch-mcq-07"
       ],
       "explanation": "本句的「branches」指「主體在某點分成兩個或以上較小部分」。",
       "sentenceIndex": 15,
@@ -742,12 +678,10 @@ export default {
         "branches"
       ],
       "optionReasons": {
-        "branch-mcq-08": "本句指「主體在某點分成兩個或以上較小部分」。",
-        "branch-mcq-07": "「同一家族內由不同後代形成的支系」與本句語境不同。",
-        "branch-mcq-09": "「從原本活動／業務拓展到另一個新領域」與本句語境不同。",
-        "branch-mcq-06": "「從主線／主流分出去的較小路線或水道」與本句語境不同。",
-        "branch-mcq-10": "「一個結構由主體向多個方向分開的形式」與本句語境不同。",
-        "branch-mcq-05": "「政府體系中按權力／職能區分的主要部分」與本句語境不同。"
+        "branch-mcq-08": "本句的「branches」指「主體在某點分成兩個或以上較小部分」。",
+        "branch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-08"
     },
@@ -759,11 +693,9 @@ export default {
       "masked": "The bakery may ____ into catering.",
       "options": [
         "branch-mcq-09",
-        "branch-mcq-08",
-        "branch-mcq-10",
-        "branch-mcq-07",
         "branch-mcq-11",
-        "branch-mcq-06"
+        "branch-mcq-08",
+        "branch-mcq-03"
       ],
       "explanation": "本句的「branch」指「從原本活動／業務拓展到另一個新領域」。",
       "sentenceIndex": 16,
@@ -772,12 +704,10 @@ export default {
         "branch"
       ],
       "optionReasons": {
-        "branch-mcq-09": "本句指「從原本活動／業務拓展到另一個新領域」。",
-        "branch-mcq-08": "「主體在某點分成兩個或以上較小部分」與本句語境不同。",
-        "branch-mcq-10": "「一個結構由主體向多個方向分開的形式」與本句語境不同。",
-        "branch-mcq-07": "「同一家族內由不同後代形成的支系」與本句語境不同。",
-        "branch-mcq-11": "「從主要交通路線分出去的次要支線」與本句語境不同。",
-        "branch-mcq-06": "「從主線／主流分出去的較小路線或水道」與本句語境不同。"
+        "branch-mcq-09": "本句的「branch」指「從原本活動／業務拓展到另一個新領域」。",
+        "branch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-09"
     },
@@ -789,11 +719,9 @@ export default {
       "masked": "The company ____ into online sales.",
       "options": [
         "branch-mcq-09",
-        "branch-mcq-08",
-        "branch-mcq-10",
-        "branch-mcq-07",
         "branch-mcq-11",
-        "branch-mcq-06"
+        "branch-mcq-03",
+        "branch-mcq-08"
       ],
       "explanation": "本句的「branched」指「從原本活動／業務拓展到另一個新領域」。",
       "sentenceIndex": 17,
@@ -802,12 +730,10 @@ export default {
         "branched"
       ],
       "optionReasons": {
-        "branch-mcq-09": "本句指「從原本活動／業務拓展到另一個新領域」。",
-        "branch-mcq-08": "「主體在某點分成兩個或以上較小部分」與本句語境不同。",
-        "branch-mcq-10": "「一個結構由主體向多個方向分開的形式」與本句語境不同。",
-        "branch-mcq-07": "「同一家族內由不同後代形成的支系」與本句語境不同。",
-        "branch-mcq-11": "「從主要交通路線分出去的次要支線」與本句語境不同。",
-        "branch-mcq-06": "「從主線／主流分出去的較小路線或水道」與本句語境不同。"
+        "branch-mcq-09": "本句的「branched」指「從原本活動／業務拓展到另一個新領域」。",
+        "branch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-09"
     },
@@ -820,10 +746,8 @@ export default {
       "options": [
         "branch-mcq-10",
         "branch-mcq-09",
-        "branch-mcq-11",
-        "branch-mcq-08",
-        "branch-mcq-12",
-        "branch-mcq-07"
+        "branch-mcq-01",
+        "branch-mcq-11"
       ],
       "explanation": "本句的「branching」指「一個結構由主體向多個方向分開的形式」。",
       "sentenceIndex": 18,
@@ -832,12 +756,10 @@ export default {
         "branching"
       ],
       "optionReasons": {
-        "branch-mcq-10": "本句指「一個結構由主體向多個方向分開的形式」。",
-        "branch-mcq-09": "「從原本活動／業務拓展到另一個新領域」與本句語境不同。",
-        "branch-mcq-11": "「從主要交通路線分出去的次要支線」與本句語境不同。",
-        "branch-mcq-08": "「主體在某點分成兩個或以上較小部分」與本句語境不同。",
-        "branch-mcq-12": "「公司／機構在另一地點設立的分部辦事處」與本句語境不同。",
-        "branch-mcq-07": "「同一家族內由不同後代形成的支系」與本句語境不同。"
+        "branch-mcq-10": "本句的「branching」指「一個結構由主體向多個方向分開的形式」。",
+        "branch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-10"
     },
@@ -849,10 +771,8 @@ export default {
       "masked": "The tree has a complex ____ pattern.",
       "options": [
         "branch-mcq-10",
+        "branch-mcq-01",
         "branch-mcq-09",
-        "branch-mcq-11",
-        "branch-mcq-08",
-        "branch-mcq-12",
         "branch-mcq-07"
       ],
       "explanation": "本句的「branching」指「一個結構由主體向多個方向分開的形式」。",
@@ -862,12 +782,10 @@ export default {
         "branching"
       ],
       "optionReasons": {
-        "branch-mcq-10": "本句指「一個結構由主體向多個方向分開的形式」。",
-        "branch-mcq-09": "「從原本活動／業務拓展到另一個新領域」與本句語境不同。",
-        "branch-mcq-11": "「從主要交通路線分出去的次要支線」與本句語境不同。",
-        "branch-mcq-08": "「主體在某點分成兩個或以上較小部分」與本句語境不同。",
-        "branch-mcq-12": "「公司／機構在另一地點設立的分部辦事處」與本句語境不同。",
-        "branch-mcq-07": "「同一家族內由不同後代形成的支系」與本句語境不同。"
+        "branch-mcq-10": "本句的「branching」指「一個結構由主體向多個方向分開的形式」。",
+        "branch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-10"
     },
@@ -879,11 +797,9 @@ export default {
       "masked": "The village is served by a railway ____.",
       "options": [
         "branch-mcq-11",
-        "branch-mcq-10",
-        "branch-mcq-12",
-        "branch-mcq-09",
-        "branch-mcq-08",
-        "branch-mcq-07"
+        "branch-mcq-04",
+        "branch-mcq-02",
+        "branch-mcq-08"
       ],
       "explanation": "本句的「branch line」指「從主要交通路線分出去的次要支線」。",
       "sentenceIndex": 20,
@@ -892,12 +808,10 @@ export default {
         "branch line"
       ],
       "optionReasons": {
-        "branch-mcq-11": "本句指「從主要交通路線分出去的次要支線」。",
-        "branch-mcq-10": "「一個結構由主體向多個方向分開的形式」與本句語境不同。",
-        "branch-mcq-12": "「公司／機構在另一地點設立的分部辦事處」與本句語境不同。",
-        "branch-mcq-09": "「從原本活動／業務拓展到另一個新領域」與本句語境不同。",
-        "branch-mcq-08": "「主體在某點分成兩個或以上較小部分」與本句語境不同。",
-        "branch-mcq-07": "「同一家族內由不同後代形成的支系」與本句語境不同。"
+        "branch-mcq-11": "本句的「branch line」指「從主要交通路線分出去的次要支線」。",
+        "branch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-11"
     },
@@ -909,10 +823,8 @@ export default {
       "masked": "The ____ line joins the main railway farther north.",
       "options": [
         "branch-mcq-11",
-        "branch-mcq-10",
-        "branch-mcq-12",
         "branch-mcq-09",
-        "branch-mcq-08",
+        "branch-mcq-01",
         "branch-mcq-07"
       ],
       "explanation": "本句的「branch」指「從主要交通路線分出去的次要支線」。",
@@ -922,12 +834,10 @@ export default {
         "branch"
       ],
       "optionReasons": {
-        "branch-mcq-11": "本句指「從主要交通路線分出去的次要支線」。",
-        "branch-mcq-10": "「一個結構由主體向多個方向分開的形式」與本句語境不同。",
-        "branch-mcq-12": "「公司／機構在另一地點設立的分部辦事處」與本句語境不同。",
-        "branch-mcq-09": "「從原本活動／業務拓展到另一個新領域」與本句語境不同。",
-        "branch-mcq-08": "「主體在某點分成兩個或以上較小部分」與本句語境不同。",
-        "branch-mcq-07": "「同一家族內由不同後代形成的支系」與本句語境不同。"
+        "branch-mcq-11": "本句的「branch」指「從主要交通路線分出去的次要支線」。",
+        "branch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-11"
     },
@@ -939,11 +849,9 @@ export default {
       "masked": "The company opened a new ____.",
       "options": [
         "branch-mcq-12",
-        "branch-mcq-11",
-        "branch-mcq-10",
-        "branch-mcq-09",
-        "branch-mcq-08",
-        "branch-mcq-07"
+        "branch-mcq-01",
+        "branch-mcq-07",
+        "branch-mcq-11"
       ],
       "explanation": "本句的「branch office」指「公司／機構在另一地點設立的分部辦事處」。",
       "sentenceIndex": 22,
@@ -952,12 +860,10 @@ export default {
         "branch office"
       ],
       "optionReasons": {
-        "branch-mcq-12": "本句指「公司／機構在另一地點設立的分部辦事處」。",
-        "branch-mcq-11": "「從主要交通路線分出去的次要支線」與本句語境不同。",
-        "branch-mcq-10": "「一個結構由主體向多個方向分開的形式」與本句語境不同。",
-        "branch-mcq-09": "「從原本活動／業務拓展到另一個新領域」與本句語境不同。",
-        "branch-mcq-08": "「主體在某點分成兩個或以上較小部分」與本句語境不同。",
-        "branch-mcq-07": "「同一家族內由不同後代形成的支系」與本句語境不同。"
+        "branch-mcq-12": "本句的「branch office」指「公司／機構在另一地點設立的分部辦事處」。",
+        "branch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-12"
     },
@@ -969,11 +875,9 @@ export default {
       "masked": "She manages the regional ____ office.",
       "options": [
         "branch-mcq-12",
-        "branch-mcq-11",
-        "branch-mcq-10",
-        "branch-mcq-09",
-        "branch-mcq-08",
-        "branch-mcq-07"
+        "branch-mcq-07",
+        "branch-mcq-04",
+        "branch-mcq-11"
       ],
       "explanation": "本句的「branch」指「公司／機構在另一地點設立的分部辦事處」。",
       "sentenceIndex": 23,
@@ -982,12 +886,10 @@ export default {
         "branch"
       ],
       "optionReasons": {
-        "branch-mcq-12": "本句指「公司／機構在另一地點設立的分部辦事處」。",
-        "branch-mcq-11": "「從主要交通路線分出去的次要支線」與本句語境不同。",
-        "branch-mcq-10": "「一個結構由主體向多個方向分開的形式」與本句語境不同。",
-        "branch-mcq-09": "「從原本活動／業務拓展到另一個新領域」與本句語境不同。",
-        "branch-mcq-08": "「主體在某點分成兩個或以上較小部分」與本句語境不同。",
-        "branch-mcq-07": "「同一家族內由不同後代形成的支系」與本句語境不同。"
+        "branch-mcq-12": "本句的「branch」指「公司／機構在另一地點設立的分部辦事處」。",
+        "branch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "branch-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "branch-mcq-12"
     }
@@ -999,5 +901,7 @@ export default {
     "sha256": "242690afadddd7493e57068e07a28c4a4b87d62eb5ce12280afcdf0e3a8fc83e",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

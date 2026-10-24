@@ -226,11 +226,6 @@ export default {
       "note": "來源詞義：法院內進行的正式法律程序",
       "examples": [
         [
-          "Everyone stood as the judge entered the court.",
-          "法官進入法庭時，所有人都站起來。",
-          "法院內進行的正式法律程序"
-        ],
-        [
           "Details emerged during court proceedings.",
           "詳情在法庭程序中披露。",
           "法院內進行的正式法律程序"
@@ -1598,6 +1593,23 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "court-reviewed-70f7962829",
+      "title": "法庭；審訊室",
+      "form": "court · source section 5",
+      "en": "法庭；審訊室",
+      "zh": "法庭；審訊室",
+      "note": "對照原始教材第 5 節及例句核實。",
+      "examples": [
+        [
+          "Everyone stood as the judge entered the court.",
+          "法官進入法庭時，所有人都站起來。",
+          "法庭；審訊室"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1609,11 +1621,9 @@ export default {
       "masked": "The teacher wanted to deal with the problem without turning the discussion into a ____.",
       "options": [
         "court-mcq-01",
-        "court-mcq-02",
-        "court-mcq-03",
-        "court-mcq-04",
-        "court-mcq-05",
-        "court-mcq-06"
+        "court-mcq-107",
+        "court-mcq-106",
+        "court-mcq-83"
       ],
       "explanation": "本句的「court」指「比喻：像法庭一樣正式指控、判斷、審問及懲處人的環境」。",
       "sentenceIndex": 0,
@@ -1622,12 +1632,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-01": "本句指「比喻：像法庭一樣正式指控、判斷、審問及懲處人的環境」。",
-        "court-mcq-02": "「有法律權力審理及裁決案件的法院／法庭」與本句語境不同。",
-        "court-mcq-03": "「正式審理法律案件的法院」與本句語境不同。",
-        "court-mcq-04": "「作出裁定、命令等的法庭／司法機關」與本句語境不同。",
-        "court-mcq-05": "「進行司法程序的法庭」與本句語境不同。",
-        "court-mcq-06": "「法院內實際進行聆訊／審判的房間」與本句語境不同。"
+        "court-mcq-01": "本句的「court」指「比喻：像法庭一樣正式指控、判斷、審問及懲處人的環境」。",
+        "court-mcq-107": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-106": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-83": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-01"
     },
@@ -1639,11 +1647,9 @@ export default {
       "masked": "A classroom should not become a ____ where every mistake is treated like a crime.",
       "options": [
         "court-mcq-01",
-        "court-mcq-02",
-        "court-mcq-03",
-        "court-mcq-04",
-        "court-mcq-05",
-        "court-mcq-06"
+        "court-mcq-83",
+        "court-mcq-101",
+        "court-mcq-107"
       ],
       "explanation": "本句的「courtroom」指「比喻：像法庭一樣正式指控、判斷、審問及懲處人的環境」。",
       "sentenceIndex": 1,
@@ -1652,12 +1658,10 @@ export default {
         "courtroom"
       ],
       "optionReasons": {
-        "court-mcq-01": "本句指「比喻：像法庭一樣正式指控、判斷、審問及懲處人的環境」。",
-        "court-mcq-02": "「有法律權力審理及裁決案件的法院／法庭」與本句語境不同。",
-        "court-mcq-03": "「正式審理法律案件的法院」與本句語境不同。",
-        "court-mcq-04": "「作出裁定、命令等的法庭／司法機關」與本句語境不同。",
-        "court-mcq-05": "「進行司法程序的法庭」與本句語境不同。",
-        "court-mcq-06": "「法院內實際進行聆訊／審判的房間」與本句語境不同。"
+        "court-mcq-01": "本句的「courtroom」指「比喻：像法庭一樣正式指控、判斷、審問及懲處人的環境」。",
+        "court-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-101": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-107": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-01"
     },
@@ -1669,11 +1673,9 @@ export default {
       "masked": "The case will be heard in ____.",
       "options": [
         "court-mcq-02",
-        "court-mcq-01",
-        "court-mcq-03",
-        "court-mcq-04",
-        "court-mcq-05",
-        "court-mcq-06"
+        "court-mcq-97",
+        "court-mcq-85",
+        "court-mcq-104"
       ],
       "explanation": "本句的「court」指「有法律權力審理及裁決案件的法院／法庭」。",
       "sentenceIndex": 2,
@@ -1682,12 +1684,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-02": "本句指「有法律權力審理及裁決案件的法院／法庭」。",
-        "court-mcq-01": "「比喻：像法庭一樣正式指控、判斷、審問及懲處人的環境」與本句語境不同。",
-        "court-mcq-03": "「正式審理法律案件的法院」與本句語境不同。",
-        "court-mcq-04": "「作出裁定、命令等的法庭／司法機關」與本句語境不同。",
-        "court-mcq-05": "「進行司法程序的法庭」與本句語境不同。",
-        "court-mcq-06": "「法院內實際進行聆訊／審判的房間」與本句語境不同。"
+        "court-mcq-02": "本句的「court」指「有法律權力審理及裁決案件的法院／法庭」。",
+        "court-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-104": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-02"
     },
@@ -1699,11 +1699,9 @@ export default {
       "masked": "The ____ rejected the application.",
       "options": [
         "court-mcq-02",
-        "court-mcq-01",
-        "court-mcq-03",
-        "court-mcq-04",
-        "court-mcq-05",
-        "court-mcq-06"
+        "court-mcq-85",
+        "court-mcq-101",
+        "court-mcq-106"
       ],
       "explanation": "本句的「court」指「有法律權力審理及裁決案件的法院／法庭」。",
       "sentenceIndex": 3,
@@ -1712,12 +1710,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-02": "本句指「有法律權力審理及裁決案件的法院／法庭」。",
-        "court-mcq-01": "「比喻：像法庭一樣正式指控、判斷、審問及懲處人的環境」與本句語境不同。",
-        "court-mcq-03": "「正式審理法律案件的法院」與本句語境不同。",
-        "court-mcq-04": "「作出裁定、命令等的法庭／司法機關」與本句語境不同。",
-        "court-mcq-05": "「進行司法程序的法庭」與本句語境不同。",
-        "court-mcq-06": "「法院內實際進行聆訊／審判的房間」與本句語境不同。"
+        "court-mcq-02": "本句的「court」指「有法律權力審理及裁決案件的法院／法庭」。",
+        "court-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-101": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-106": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-02"
     },
@@ -1729,11 +1725,9 @@ export default {
       "masked": "The dispute eventually reached a ____ of law.",
       "options": [
         "court-mcq-03",
-        "court-mcq-02",
-        "court-mcq-04",
-        "court-mcq-01",
-        "court-mcq-05",
-        "court-mcq-06"
+        "court-mcq-104",
+        "court-mcq-106",
+        "court-mcq-83"
       ],
       "explanation": "本句的「court」指「正式審理法律案件的法院」。",
       "sentenceIndex": 4,
@@ -1742,12 +1736,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-03": "本句指「正式審理法律案件的法院」。",
-        "court-mcq-02": "「有法律權力審理及裁決案件的法院／法庭」與本句語境不同。",
-        "court-mcq-04": "「作出裁定、命令等的法庭／司法機關」與本句語境不同。",
-        "court-mcq-01": "「比喻：像法庭一樣正式指控、判斷、審問及懲處人的環境」與本句語境不同。",
-        "court-mcq-05": "「進行司法程序的法庭」與本句語境不同。",
-        "court-mcq-06": "「法院內實際進行聆訊／審判的房間」與本句語境不同。"
+        "court-mcq-03": "本句的「court」指「正式審理法律案件的法院」。",
+        "court-mcq-104": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-106": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-83": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-03"
     },
@@ -1759,11 +1751,9 @@ export default {
       "masked": "The ____ ruled that the evidence was admissible.",
       "options": [
         "court-mcq-04",
-        "court-mcq-03",
-        "court-mcq-05",
-        "court-mcq-02",
-        "court-mcq-06",
-        "court-mcq-01"
+        "court-mcq-108",
+        "court-mcq-83",
+        "court-mcq-97"
       ],
       "explanation": "本句的「court」指「作出裁定、命令等的法庭／司法機關」。",
       "sentenceIndex": 5,
@@ -1772,12 +1762,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-04": "本句指「作出裁定、命令等的法庭／司法機關」。",
-        "court-mcq-03": "「正式審理法律案件的法院」與本句語境不同。",
-        "court-mcq-05": "「進行司法程序的法庭」與本句語境不同。",
-        "court-mcq-02": "「有法律權力審理及裁決案件的法院／法庭」與本句語境不同。",
-        "court-mcq-06": "「法院內實際進行聆訊／審判的房間」與本句語境不同。",
-        "court-mcq-01": "「比喻：像法庭一樣正式指控、判斷、審問及懲處人的環境」與本句語境不同。"
+        "court-mcq-04": "本句的「court」指「作出裁定、命令等的法庭／司法機關」。",
+        "court-mcq-108": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-97": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-04"
     },
@@ -1789,11 +1777,9 @@ export default {
       "masked": "The ____ ordered a new hearing.",
       "options": [
         "court-mcq-04",
-        "court-mcq-03",
-        "court-mcq-05",
-        "court-mcq-02",
-        "court-mcq-06",
-        "court-mcq-01"
+        "court-mcq-73",
+        "court-mcq-104",
+        "court-mcq-85"
       ],
       "explanation": "本句的「court」指「作出裁定、命令等的法庭／司法機關」。",
       "sentenceIndex": 6,
@@ -1802,44 +1788,40 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-04": "本句指「作出裁定、命令等的法庭／司法機關」。",
-        "court-mcq-03": "「正式審理法律案件的法院」與本句語境不同。",
-        "court-mcq-05": "「進行司法程序的法庭」與本句語境不同。",
-        "court-mcq-02": "「有法律權力審理及裁決案件的法院／法庭」與本句語境不同。",
-        "court-mcq-06": "「法院內實際進行聆訊／審判的房間」與本句語境不同。",
-        "court-mcq-01": "「比喻：像法庭一樣正式指控、判斷、審問及懲處人的環境」與本句語境不同。"
+        "court-mcq-04": "本句的「court」指「作出裁定、命令等的法庭／司法機關」。",
+        "court-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-104": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-85": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-04"
     },
     {
       "id": "court-05-0",
-      "sense": "court-mcq-14",
+      "sense": "court-reviewed-70f7962829",
       "en": "Everyone stood as the judge entered the court.",
       "zh": "法官進入法庭時，所有人都站起來。",
       "masked": "Everyone stood as the judge entered the ____.",
       "options": [
-        "court-mcq-14",
-        "court-mcq-13",
-        "court-mcq-15",
-        "court-mcq-12",
-        "court-mcq-16",
-        "court-mcq-11"
+        "court-reviewed-70f7962829",
+        "court-mcq-96",
+        "court-mcq-78",
+        "court-mcq-107"
       ],
-      "explanation": "本句的「court」指「法院內進行的正式法律程序」。",
+      "explanation": "對照完整句子：「法官進入法庭時，所有人都站起來。」。這裡的「court」表示「法庭；審訊室」。",
       "sentenceIndex": 7,
       "sourcePractice": 5,
       "targets": [
         "court"
       ],
       "optionReasons": {
-        "court-mcq-14": "本句指「法院內進行的正式法律程序」。",
-        "court-mcq-13": "「法院就特定事項進行的正式聆訊」與本句語境不同。",
-        "court-mcq-15": "「法院發出的具法律效力命令」與本句語境不同。",
-        "court-mcq-12": "「正由／將由法院處理的訴訟案件」與本句語境不同。",
-        "court-mcq-16": "「由法院正式下令的」與本句語境不同。",
-        "court-mcq-11": "「正式出庭」與本句語境不同。"
+        "court-reviewed-70f7962829": "對照完整句子：「法官進入法庭時，所有人都站起來。」。這裡的「court」表示「法庭；審訊室」。",
+        "court-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-107": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "court-mcq-14"
+      "correctOption": "court-reviewed-70f7962829",
+      "previousCorrectOption": "court-mcq-14",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "court-08-0",
@@ -1849,11 +1831,9 @@ export default {
       "masked": "They decided to go to ____.",
       "options": [
         "court-mcq-08",
-        "court-mcq-07",
-        "court-mcq-09",
-        "court-mcq-06",
-        "court-mcq-10",
-        "court-mcq-05"
+        "court-mcq-95",
+        "court-mcq-61",
+        "court-mcq-98"
       ],
       "explanation": "本句的「court」指「透過司法程序解決爭議；上法院」。",
       "sentenceIndex": 10,
@@ -1862,12 +1842,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-08": "本句指「透過司法程序解決爭議；上法院」。",
-        "court-mcq-07": "「設有法庭／法院辦公室的整座法院大樓」與本句語境不同。",
-        "court-mcq-09": "「對某人提出法律訴訟；告上法庭」與本句語境不同。",
-        "court-mcq-06": "「法院內實際進行聆訊／審判的房間」與本句語境不同。",
-        "court-mcq-10": "「正式把案件提交法院裁決」與本句語境不同。",
-        "court-mcq-05": "「進行司法程序的法庭」與本句語境不同。"
+        "court-mcq-08": "本句的「court」指「透過司法程序解決爭議；上法院」。",
+        "court-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-98": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-08"
     },
@@ -1879,11 +1857,9 @@ export default {
       "masked": "The customer threatened to take the company to ____.",
       "options": [
         "court-mcq-09",
-        "court-mcq-08",
-        "court-mcq-10",
-        "court-mcq-07",
-        "court-mcq-11",
-        "court-mcq-06"
+        "court-mcq-107",
+        "court-mcq-85",
+        "court-mcq-61"
       ],
       "explanation": "本句的「court」指「對某人提出法律訴訟；告上法庭」。",
       "sentenceIndex": 11,
@@ -1892,12 +1868,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-09": "本句指「對某人提出法律訴訟；告上法庭」。",
-        "court-mcq-08": "「透過司法程序解決爭議；上法院」與本句語境不同。",
-        "court-mcq-10": "「正式把案件提交法院裁決」與本句語境不同。",
-        "court-mcq-07": "「設有法庭／法院辦公室的整座法院大樓」與本句語境不同。",
-        "court-mcq-11": "「正式出庭」與本句語境不同。",
-        "court-mcq-06": "「法院內實際進行聆訊／審判的房間」與本句語境不同。"
+        "court-mcq-09": "本句的「court」指「對某人提出法律訴訟；告上法庭」。",
+        "court-mcq-107": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-09"
     },
@@ -1909,11 +1883,9 @@ export default {
       "masked": "He was required to appear in ____.",
       "options": [
         "court-mcq-11",
-        "court-mcq-10",
-        "court-mcq-12",
-        "court-mcq-09",
-        "court-mcq-13",
-        "court-mcq-08"
+        "court-mcq-102",
+        "court-mcq-83",
+        "court-mcq-85"
       ],
       "explanation": "本句的「court」指「正式出庭」。",
       "sentenceIndex": 12,
@@ -1922,12 +1894,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-11": "本句指「正式出庭」。",
-        "court-mcq-10": "「正式把案件提交法院裁決」與本句語境不同。",
-        "court-mcq-12": "「正由／將由法院處理的訴訟案件」與本句語境不同。",
-        "court-mcq-09": "「對某人提出法律訴訟；告上法庭」與本句語境不同。",
-        "court-mcq-13": "「法院就特定事項進行的正式聆訊」與本句語境不同。",
-        "court-mcq-08": "「透過司法程序解決爭議；上法院」與本句語境不同。"
+        "court-mcq-11": "本句的「court」指「正式出庭」。",
+        "court-mcq-102": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-85": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-11"
     },
@@ -1939,11 +1909,9 @@ export default {
       "masked": "The dispute became a ____ case.",
       "options": [
         "court-mcq-12",
-        "court-mcq-11",
-        "court-mcq-13",
-        "court-mcq-10",
-        "court-mcq-14",
-        "court-mcq-09"
+        "court-mcq-104",
+        "court-mcq-98",
+        "court-mcq-83"
       ],
       "explanation": "本句的「court」指「正由／將由法院處理的訴訟案件」。",
       "sentenceIndex": 14,
@@ -1952,12 +1920,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-12": "本句指「正由／將由法院處理的訴訟案件」。",
-        "court-mcq-11": "「正式出庭」與本句語境不同。",
-        "court-mcq-13": "「法院就特定事項進行的正式聆訊」與本句語境不同。",
-        "court-mcq-10": "「正式把案件提交法院裁決」與本句語境不同。",
-        "court-mcq-14": "「法院內進行的正式法律程序」與本句語境不同。",
-        "court-mcq-09": "「對某人提出法律訴訟；告上法庭」與本句語境不同。"
+        "court-mcq-12": "本句的「court」指「正由／將由法院處理的訴訟案件」。",
+        "court-mcq-104": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-98": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-83": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-12"
     },
@@ -1969,11 +1935,9 @@ export default {
       "masked": "A ____ hearing is scheduled for next month.",
       "options": [
         "court-mcq-13",
-        "court-mcq-12",
-        "court-mcq-14",
-        "court-mcq-11",
-        "court-mcq-15",
-        "court-mcq-10"
+        "court-mcq-98",
+        "court-mcq-101",
+        "court-mcq-74"
       ],
       "explanation": "本句的「court」指「法院就特定事項進行的正式聆訊」。",
       "sentenceIndex": 15,
@@ -1982,12 +1946,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-13": "本句指「法院就特定事項進行的正式聆訊」。",
-        "court-mcq-12": "「正由／將由法院處理的訴訟案件」與本句語境不同。",
-        "court-mcq-14": "「法院內進行的正式法律程序」與本句語境不同。",
-        "court-mcq-11": "「正式出庭」與本句語境不同。",
-        "court-mcq-15": "「法院發出的具法律效力命令」與本句語境不同。",
-        "court-mcq-10": "「正式把案件提交法院裁決」與本句語境不同。"
+        "court-mcq-13": "本句的「court」指「法院就特定事項進行的正式聆訊」。",
+        "court-mcq-98": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-101": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-13"
     },
@@ -1999,11 +1961,9 @@ export default {
       "masked": "Details emerged during ____ proceedings.",
       "options": [
         "court-mcq-14",
-        "court-mcq-13",
-        "court-mcq-15",
-        "court-mcq-12",
-        "court-mcq-16",
-        "court-mcq-11"
+        "court-mcq-105",
+        "court-mcq-74",
+        "court-mcq-99"
       ],
       "explanation": "本句的「court」指「法院內進行的正式法律程序」。",
       "sentenceIndex": 16,
@@ -2012,12 +1972,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-14": "本句指「法院內進行的正式法律程序」。",
-        "court-mcq-13": "「法院就特定事項進行的正式聆訊」與本句語境不同。",
-        "court-mcq-15": "「法院發出的具法律效力命令」與本句語境不同。",
-        "court-mcq-12": "「正由／將由法院處理的訴訟案件」與本句語境不同。",
-        "court-mcq-16": "「由法院正式下令的」與本句語境不同。",
-        "court-mcq-11": "「正式出庭」與本句語境不同。"
+        "court-mcq-14": "本句的「court」指「法院內進行的正式法律程序」。",
+        "court-mcq-105": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-99": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-14"
     },
@@ -2029,11 +1987,9 @@ export default {
       "masked": "The company complied with the ____ order.",
       "options": [
         "court-mcq-15",
-        "court-mcq-14",
-        "court-mcq-16",
-        "court-mcq-13",
-        "court-mcq-17",
-        "court-mcq-12"
+        "court-mcq-74",
+        "court-mcq-99",
+        "court-mcq-61"
       ],
       "explanation": "本句的「court」指「法院發出的具法律效力命令」。",
       "sentenceIndex": 17,
@@ -2042,12 +1998,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-15": "本句指「法院發出的具法律效力命令」。",
-        "court-mcq-14": "「法院內進行的正式法律程序」與本句語境不同。",
-        "court-mcq-16": "「由法院正式下令的」與本句語境不同。",
-        "court-mcq-13": "「法院就特定事項進行的正式聆訊」與本句語境不同。",
-        "court-mcq-17": "「法院對法律問題作出的裁定」與本句語境不同。",
-        "court-mcq-12": "「正由／將由法院處理的訴訟案件」與本句語境不同。"
+        "court-mcq-15": "本句的「court」指「法院發出的具法律效力命令」。",
+        "court-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-99": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-15"
     },
@@ -2059,11 +2013,9 @@ export default {
       "masked": "They threatened ____ action.",
       "options": [
         "court-mcq-20",
-        "court-mcq-19",
-        "court-mcq-21",
-        "court-mcq-18",
-        "court-mcq-22",
-        "court-mcq-17"
+        "court-mcq-11",
+        "court-mcq-108",
+        "court-mcq-101"
       ],
       "explanation": "本句的「court」指「透過法院採取的法律行動／訴訟」。",
       "sentenceIndex": 18,
@@ -2072,12 +2024,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-20": "本句指「透過法院採取的法律行動／訴訟」。",
-        "court-mcq-19": "「法院作出的決定」與本句語境不同。",
-        "court-mcq-21": "「司法程序涉及的法庭／訴訟費用」與本句語境不同。",
-        "court-mcq-18": "「法院正式作出的判決／判詞」與本句語境不同。",
-        "court-mcq-22": "「法院案件的正式紀錄」與本句語境不同。",
-        "court-mcq-17": "「法院對法律問題作出的裁定」與本句語境不同。"
+        "court-mcq-20": "本句的「court」指「透過法院採取的法律行動／訴訟」。",
+        "court-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-108": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-101": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-20"
     },
@@ -2089,11 +2039,9 @@ export default {
       "masked": "Law students took part in a moot ____ competition.",
       "options": [
         "court-mcq-47",
-        "court-mcq-46",
-        "court-mcq-48",
-        "court-mcq-45",
-        "court-mcq-49",
-        "court-mcq-44"
+        "court-mcq-78",
+        "court-mcq-97",
+        "court-mcq-73"
       ],
       "explanation": "本句的「court」指「法律學生模擬正式訴訟辯論的模擬法庭」。",
       "sentenceIndex": 19,
@@ -2102,12 +2050,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-47": "本句指「法律學生模擬正式訴訟辯論的模擬法庭」。",
-        "court-mcq-46": "「把軍人交軍事法庭審判」與本句語境不同。",
-        "court-mcq-48": "「由法院正式委任的」與本句語境不同。",
-        "court-mcq-45": "「軍事法庭／軍法審判」與本句語境不同。",
-        "court-mcq-49": "「不由法院最終判決、而由雙方協議達成的庭外和解」與本句語境不同。",
-        "court-mcq-44": "「依軍事法律處理案件的軍事法庭」與本句語境不同。"
+        "court-mcq-47": "本句的「court」指「法律學生模擬正式訴訟辯論的模擬法庭」。",
+        "court-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-47"
     },
@@ -2119,11 +2065,9 @@ export default {
       "masked": "The parties reached an out-of-____ settlement.",
       "options": [
         "court-mcq-49",
-        "court-mcq-48",
-        "court-mcq-50",
-        "court-mcq-47",
-        "court-mcq-51",
-        "court-mcq-46"
+        "court-mcq-101",
+        "court-mcq-78",
+        "court-mcq-105"
       ],
       "explanation": "本句的「court」指「不由法院最終判決、而由雙方協議達成的庭外和解」。",
       "sentenceIndex": 20,
@@ -2132,12 +2076,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-49": "本句指「不由法院最終判決、而由雙方協議達成的庭外和解」。",
-        "court-mcq-48": "「由法院正式委任的」與本句語境不同。",
-        "court-mcq-50": "「以協議而非完整庭審解決爭議」與本句語境不同。",
-        "court-mcq-47": "「法律學生模擬正式訴訟辯論的模擬法庭」與本句語境不同。",
-        "court-mcq-51": "「妨礙／違抗法院權威而構成的藐視法庭」與本句語境不同。",
-        "court-mcq-46": "「把軍人交軍事法庭審判」與本句語境不同。"
+        "court-mcq-49": "本句的「court」指「不由法院最終判決、而由雙方協議達成的庭外和解」。",
+        "court-mcq-101": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-105": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-49"
     },
@@ -2149,11 +2091,9 @@ export default {
       "masked": "The issue was being tried in the ____ of public opinion.",
       "options": [
         "court-mcq-53",
-        "court-mcq-52",
-        "court-mcq-54",
-        "court-mcq-51",
-        "court-mcq-55",
-        "court-mcq-50"
+        "court-mcq-108",
+        "court-mcq-107",
+        "court-mcq-74"
       ],
       "explanation": "本句的「court」指「比喻：由公眾／輿論對某人某事作評判的「輿論法庭」」。",
       "sentenceIndex": 21,
@@ -2162,12 +2102,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-53": "本句指「比喻：由公眾／輿論對某人某事作評判的「輿論法庭」」。",
-        "court-mcq-52": "「向公眾公開進行的法庭程序」與本句語境不同。",
-        "court-mcq-54": "「君主及其家臣、侍從、顧問等構成的宮廷」與本句語境不同。",
-        "court-mcq-51": "「妨礙／違抗法院權威而構成的藐視法庭」與本句語境不同。",
-        "court-mcq-55": "「朝廷／宮廷及其社交、政治環境」與本句語境不同。",
-        "court-mcq-50": "「以協議而非完整庭審解決爭議」與本句語境不同。"
+        "court-mcq-53": "本句的「court」指「比喻：由公眾／輿論對某人某事作評判的「輿論法庭」」。",
+        "court-mcq-108": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-107": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-53"
     },
@@ -2179,11 +2117,9 @@ export default {
       "masked": "He was holding ____ in the corner of the room.",
       "options": [
         "court-mcq-61",
-        "court-mcq-60",
-        "court-mcq-62",
-        "court-mcq-59",
-        "court-mcq-63",
-        "court-mcq-58"
+        "court-mcq-85",
+        "court-mcq-97",
+        "court-mcq-107"
       ],
       "explanation": "本句的「court」指「君主舉行正式接見／朝會」。",
       "sentenceIndex": 27,
@@ -2192,12 +2128,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-61": "本句指「君主舉行正式接見／朝會」。",
-        "court-mcq-60": "「中世紀文學中的宮廷愛情／騎士式愛情傳統」與本句語境不同。",
-        "court-mcq-62": "「成為群體中心、高談闊論並吸引眾人注意」與本句語境不同。",
-        "court-mcq-59": "「傳統上極有禮、優雅、講究禮節的」與本句語境不同。",
-        "court-mcq-63": "「正式／舊式：向某人獻殷勤、求愛或討好」與本句語境不同。",
-        "court-mcq-58": "「與宮廷有關的」與本句語境不同。"
+        "court-mcq-61": "本句的「court」指「君主舉行正式接見／朝會」。",
+        "court-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-107": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-61"
     },
@@ -2209,11 +2143,9 @@ export default {
       "masked": "The players walked onto the ____.",
       "options": [
         "court-mcq-83",
-        "court-mcq-82",
-        "court-mcq-84",
-        "court-mcq-81",
-        "court-mcq-85",
-        "court-mcq-80"
+        "court-reviewed-70f7962829",
+        "court-mcq-96",
+        "court-mcq-106"
       ],
       "explanation": "本句的「court」指「為場地運動設計的球場運動鞋」。",
       "sentenceIndex": 28,
@@ -2222,12 +2154,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-83": "本句指「為場地運動設計的球場運動鞋」。",
-        "court-mcq-82": "「草地網球場」與本句語境不同。",
-        "court-mcq-84": "「女裝正式淺口鞋；美式常稱 pump」與本句語境不同。",
-        "court-mcq-81": "「泥地網球場」與本句語境不同。",
-        "court-mcq-85": "「多家食店共用座位區的美食廣場」與本句語境不同。",
-        "court-mcq-80": "「硬地球場」與本句語境不同。"
+        "court-mcq-83": "本句的「court」指「為場地運動設計的球場運動鞋」。",
+        "court-reviewed-70f7962829": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-106": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-83"
     },
@@ -2239,11 +2169,9 @@ export default {
       "masked": "The ball landed outside the ____.",
       "options": [
         "court-mcq-83",
-        "court-mcq-82",
-        "court-mcq-84",
-        "court-mcq-81",
-        "court-mcq-85",
-        "court-mcq-80"
+        "court-mcq-106",
+        "court-mcq-108",
+        "court-mcq-107"
       ],
       "explanation": "本句的「court」指「為場地運動設計的球場運動鞋」。",
       "sentenceIndex": 29,
@@ -2252,12 +2180,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-83": "本句指「為場地運動設計的球場運動鞋」。",
-        "court-mcq-82": "「草地網球場」與本句語境不同。",
-        "court-mcq-84": "「女裝正式淺口鞋；美式常稱 pump」與本句語境不同。",
-        "court-mcq-81": "「泥地網球場」與本句語境不同。",
-        "court-mcq-85": "「多家食店共用座位區的美食廣場」與本句語境不同。",
-        "court-mcq-80": "「硬地球場」與本句語境不同。"
+        "court-mcq-83": "本句的「court」指「為場地運動設計的球場運動鞋」。",
+        "court-mcq-106": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-108": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-107": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-83"
     },
@@ -2269,11 +2195,9 @@ export default {
       "masked": "They are friends off ____.",
       "options": [
         "court-mcq-73",
-        "court-mcq-72",
-        "court-mcq-74",
-        "court-mcq-71",
-        "court-mcq-75",
-        "court-mcq-70"
+        "court-mcq-104",
+        "court-mcq-61",
+        "court-mcq-96"
       ],
       "explanation": "本句的「court」指「場外／非比賽時」。",
       "sentenceIndex": 31,
@@ -2282,12 +2206,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-73": "本句指「場外／非比賽時」。",
-        "court-mcq-72": "「在球場上／比賽中」與本句語境不同。",
-        "court-mcq-74": "「球隊／球員的主場」與本句語境不同。",
-        "court-mcq-71": "「在劃定球場上進行的場地運動」與本句語境不同。",
-        "court-mcq-75": "「在自己主場比賽的主場優勢」與本句語境不同。",
-        "court-mcq-70": "「匹克球場」與本句語境不同。"
+        "court-mcq-73": "本句的「court」指「場外／非比賽時」。",
+        "court-mcq-104": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-96": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-73"
     },
@@ -2299,11 +2221,9 @@ export default {
       "masked": "The team has home-____ advantage.",
       "options": [
         "court-mcq-74",
-        "court-mcq-73",
-        "court-mcq-75",
-        "court-mcq-72",
-        "court-mcq-76",
-        "court-mcq-71"
+        "court-mcq-101",
+        "court-mcq-03",
+        "court-mcq-97"
       ],
       "explanation": "本句的「court」指「球隊／球員的主場」。",
       "sentenceIndex": 32,
@@ -2312,12 +2232,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-74": "本句指「球隊／球員的主場」。",
-        "court-mcq-73": "「場外／非比賽時」與本句語境不同。",
-        "court-mcq-75": "「在自己主場比賽的主場優勢」與本句語境不同。",
-        "court-mcq-72": "「在球場上／比賽中」與本句語境不同。",
-        "court-mcq-76": "「整個球場；全場」與本句語境不同。",
-        "court-mcq-71": "「在劃定球場上進行的場地運動」與本句語境不同。"
+        "court-mcq-74": "本句的「court」指「球隊／球員的主場」。",
+        "court-mcq-101": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-97": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-74"
     },
@@ -2329,11 +2247,9 @@ export default {
       "masked": "The company launched a full-____ press to win the account.",
       "options": [
         "court-mcq-78",
-        "court-mcq-77",
-        "court-mcq-79",
-        "court-mcq-76",
-        "court-mcq-80",
-        "court-mcq-75"
+        "court-mcq-11",
+        "court-mcq-100",
+        "court-mcq-112"
       ],
       "explanation": "本句的「court」指「籃球中的全場緊迫防守」。",
       "sentenceIndex": 33,
@@ -2342,12 +2258,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-78": "本句指「籃球中的全場緊迫防守」。",
-        "court-mcq-77": "「半個球場；半場」與本句語境不同。",
-        "court-mcq-79": "「全面而強力的說服／推進攻勢」與本句語境不同。",
-        "court-mcq-76": "「整個球場；全場」與本句語境不同。",
-        "court-mcq-80": "「硬地球場」與本句語境不同。",
-        "court-mcq-75": "「在自己主場比賽的主場優勢」與本句語境不同。"
+        "court-mcq-78": "本句的「court」指「籃球中的全場緊迫防守」。",
+        "court-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-100": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-112": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-78"
     },
@@ -2359,11 +2273,9 @@ export default {
       "masked": "We met in the mall’s food ____.",
       "options": [
         "court-mcq-85",
-        "court-mcq-84",
-        "court-mcq-86",
-        "court-mcq-83",
-        "court-mcq-87",
-        "court-mcq-82"
+        "court-reviewed-70f7962829",
+        "court-mcq-105",
+        "court-mcq-96"
       ],
       "explanation": "本句的「court」指「多家食店共用座位區的美食廣場」。",
       "sentenceIndex": 34,
@@ -2372,12 +2284,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-85": "本句指「多家食店共用座位區的美食廣場」。",
-        "court-mcq-84": "「女裝正式淺口鞋；美式常稱 pump」與本句語境不同。",
-        "court-mcq-86": "「較少用：由建築圍繞的庭院」與本句語境不同。",
-        "court-mcq-83": "「為場地運動設計的球場運動鞋」與本句語境不同。",
-        "court-mcq-87": "「被建築／牆壁圍住或半圍住的庭院」與本句語境不同。",
-        "court-mcq-82": "「草地網球場」與本句語境不同。"
+        "court-mcq-85": "本句的「court」指「多家食店共用座位區的美食廣場」。",
+        "court-reviewed-70f7962829": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-105": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-96": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-85"
     },
@@ -2389,11 +2299,9 @@ export default {
       "masked": "The male performs an elaborate ____ display.",
       "options": [
         "court-mcq-95",
-        "court-mcq-94",
-        "court-mcq-96",
-        "court-mcq-93",
-        "court-mcq-97",
-        "court-mcq-92"
+        "court-mcq-04",
+        "court-mcq-74",
+        "court-mcq-96"
       ],
       "explanation": "本句的「courtship」指「動物用來吸引配偶的求偶展示」。",
       "sentenceIndex": 42,
@@ -2402,12 +2310,10 @@ export default {
         "courtship"
       ],
       "optionReasons": {
-        "court-mcq-95": "本句指「動物用來吸引配偶的求偶展示」。",
-        "court-mcq-94": "「動物在交配前吸引伴侶的求偶行為」與本句語境不同。",
-        "court-mcq-96": "「努力討好／爭取某人的好感」與本句語境不同。",
-        "court-mcq-93": "「求愛、追求及發展戀愛關係的過程」與本句語境不同。",
-        "court-mcq-97": "「積極爭取支持」與本句語境不同。",
-        "court-mcq-92": "「傳統：以結婚為方向交往／求愛」與本句語境不同。"
+        "court-mcq-95": "本句的「courtship」指「動物用來吸引配偶的求偶展示」。",
+        "court-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-96": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-95"
     },
@@ -2419,11 +2325,9 @@ export default {
       "masked": "The company tried to ____ investors’ favour.",
       "options": [
         "court-mcq-96",
-        "court-mcq-95",
-        "court-mcq-97",
-        "court-mcq-94",
-        "court-mcq-98",
-        "court-mcq-93"
+        "court-reviewed-70f7962829",
+        "court-mcq-61",
+        "court-mcq-78"
       ],
       "explanation": "本句的「court」指「努力討好／爭取某人的好感」。",
       "sentenceIndex": 43,
@@ -2432,12 +2336,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-96": "本句指「努力討好／爭取某人的好感」。",
-        "court-mcq-95": "「動物用來吸引配偶的求偶展示」與本句語境不同。",
-        "court-mcq-97": "「積極爭取支持」與本句語境不同。",
-        "court-mcq-94": "「動物在交配前吸引伴侶的求偶行為」與本句語境不同。",
-        "court-mcq-98": "「努力招攬顧客／客戶」與本句語境不同。",
-        "court-mcq-93": "「求愛、追求及發展戀愛關係的過程」與本句語境不同。"
+        "court-mcq-96": "本句的「court」指「努力討好／爭取某人的好感」。",
+        "court-reviewed-70f7962829": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-96"
     },
@@ -2449,11 +2351,9 @@ export default {
       "masked": "The designer deliberately ____ approval from critics.",
       "options": [
         "court-mcq-123",
-        "court-mcq-122",
-        "court-mcq-121",
-        "court-mcq-120",
-        "court-mcq-119",
-        "court-mcq-118"
+        "court-mcq-78",
+        "court-mcq-106",
+        "court-mcq-98"
       ],
       "explanation": "本句的「courted」指「主動爭取他人的認同；語法不同時才作此解」。",
       "sentenceIndex": 44,
@@ -2462,12 +2362,10 @@ export default {
         "courted"
       ],
       "optionReasons": {
-        "court-mcq-123": "本句指「主動爭取他人的認同；語法不同時才作此解」。",
-        "court-mcq-122": "「法院批准」與本句語境不同。",
-        "court-mcq-121": "「處理法庭程序／紀錄行政工作的書記員」與本句語境不同。",
-        "court-mcq-120": "「法庭傳譯員」與本句語境不同。",
-        "court-mcq-119": "「專門報道法庭案件的記者」與本句語境不同。",
-        "court-mcq-118": "「法庭逐字記錄／速記專業人員」與本句語境不同。"
+        "court-mcq-123": "本句的「courted」指「主動爭取他人的認同；語法不同時才作此解」。",
+        "court-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-106": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-98": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-123"
     },
@@ -2479,11 +2377,9 @@ export default {
       "masked": "The organization is ____ support from local businesses.",
       "options": [
         "court-mcq-97",
-        "court-mcq-96",
-        "court-mcq-98",
-        "court-mcq-95",
-        "court-mcq-99",
-        "court-mcq-94"
+        "court-mcq-47",
+        "court-mcq-105",
+        "court-mcq-73"
       ],
       "explanation": "本句的「courting」指「積極爭取支持」。",
       "sentenceIndex": 45,
@@ -2492,12 +2388,10 @@ export default {
         "courting"
       ],
       "optionReasons": {
-        "court-mcq-97": "本句指「積極爭取支持」。",
-        "court-mcq-96": "「努力討好／爭取某人的好感」與本句語境不同。",
-        "court-mcq-98": "「努力招攬顧客／客戶」與本句語境不同。",
-        "court-mcq-95": "「動物用來吸引配偶的求偶展示」與本句語境不同。",
-        "court-mcq-99": "「積極吸引／爭取投資者」與本句語境不同。",
-        "court-mcq-94": "「動物在交配前吸引伴侶的求偶行為」與本句語境不同。"
+        "court-mcq-97": "本句的「courting」指「積極爭取支持」。",
+        "court-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-105": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-97"
     },
@@ -2509,11 +2403,9 @@ export default {
       "masked": "Retailers are ____ younger customers.",
       "options": [
         "court-mcq-98",
-        "court-mcq-97",
-        "court-mcq-99",
-        "court-mcq-96",
-        "court-mcq-100",
-        "court-mcq-95"
+        "court-mcq-01",
+        "court-mcq-83",
+        "court-mcq-102"
       ],
       "explanation": "本句的「courting」指「努力招攬顧客／客戶」。",
       "sentenceIndex": 46,
@@ -2522,12 +2414,10 @@ export default {
         "courting"
       ],
       "optionReasons": {
-        "court-mcq-98": "本句指「努力招攬顧客／客戶」。",
-        "court-mcq-97": "「積極爭取支持」與本句語境不同。",
-        "court-mcq-99": "「積極吸引／爭取投資者」與本句語境不同。",
-        "court-mcq-96": "「努力討好／爭取某人的好感」與本句語境不同。",
-        "court-mcq-100": "「主動招攬生意」與本句語境不同。",
-        "court-mcq-95": "「動物用來吸引配偶的求偶展示」與本句語境不同。"
+        "court-mcq-98": "本句的「courting」指「努力招攬顧客／客戶」。",
+        "court-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-102": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-98"
     },
@@ -2539,11 +2429,9 @@ export default {
       "masked": "The company is ____ new investors.",
       "options": [
         "court-mcq-99",
-        "court-mcq-98",
+        "court-mcq-04",
         "court-mcq-100",
-        "court-mcq-97",
-        "court-mcq-101",
-        "court-mcq-96"
+        "court-mcq-61"
       ],
       "explanation": "本句的「courting」指「積極吸引／爭取投資者」。",
       "sentenceIndex": 47,
@@ -2552,12 +2440,10 @@ export default {
         "courting"
       ],
       "optionReasons": {
-        "court-mcq-99": "本句指「積極吸引／爭取投資者」。",
-        "court-mcq-98": "「努力招攬顧客／客戶」與本句語境不同。",
-        "court-mcq-100": "「主動招攬生意」與本句語境不同。",
-        "court-mcq-97": "「積極爭取支持」與本句語境不同。",
-        "court-mcq-101": "「刻意吸引別人注意」與本句語境不同。",
-        "court-mcq-96": "「努力討好／爭取某人的好感」與本句語境不同。"
+        "court-mcq-99": "本句的「courting」指「積極吸引／爭取投資者」。",
+        "court-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-100": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-99"
     },
@@ -2569,11 +2455,9 @@ export default {
       "masked": "The firm is ____ business overseas.",
       "options": [
         "court-mcq-100",
-        "court-mcq-99",
-        "court-mcq-101",
-        "court-mcq-98",
-        "court-mcq-102",
-        "court-mcq-97"
+        "court-mcq-96",
+        "court-mcq-03",
+        "court-mcq-73"
       ],
       "explanation": "本句的「courting」指「主動招攬生意」。",
       "sentenceIndex": 48,
@@ -2582,12 +2466,10 @@ export default {
         "courting"
       ],
       "optionReasons": {
-        "court-mcq-100": "本句指「主動招攬生意」。",
-        "court-mcq-99": "「積極吸引／爭取投資者」與本句語境不同。",
-        "court-mcq-101": "「刻意吸引別人注意」與本句語境不同。",
-        "court-mcq-98": "「努力招攬顧客／客戶」與本句語境不同。",
-        "court-mcq-102": "「刻意爭取媒體／公眾曝光」與本句語境不同。",
-        "court-mcq-97": "「積極爭取支持」與本句語境不同。"
+        "court-mcq-100": "本句的「courting」指「主動招攬生意」。",
+        "court-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-100"
     },
@@ -2599,10 +2481,8 @@ export default {
       "masked": "He dislikes ____ attention.",
       "options": [
         "court-mcq-101",
-        "court-mcq-100",
-        "court-mcq-102",
-        "court-mcq-99",
-        "court-mcq-103",
+        "court-mcq-107",
+        "court-mcq-47",
         "court-mcq-98"
       ],
       "explanation": "本句的「courting」指「刻意吸引別人注意」。",
@@ -2612,12 +2492,10 @@ export default {
         "courting"
       ],
       "optionReasons": {
-        "court-mcq-101": "本句指「刻意吸引別人注意」。",
-        "court-mcq-100": "「主動招攬生意」與本句語境不同。",
-        "court-mcq-102": "「刻意爭取媒體／公眾曝光」與本句語境不同。",
-        "court-mcq-99": "「積極吸引／爭取投資者」與本句語境不同。",
-        "court-mcq-103": "「刻意討好大眾、爭取人氣」與本句語境不同。",
-        "court-mcq-98": "「努力招攬顧客／客戶」與本句語境不同。"
+        "court-mcq-101": "本句的「courting」指「刻意吸引別人注意」。",
+        "court-mcq-107": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-98": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-101"
     },
@@ -2629,11 +2507,9 @@ export default {
       "masked": "The artist rarely ____ publicity.",
       "options": [
         "court-mcq-102",
-        "court-mcq-101",
-        "court-mcq-103",
-        "court-mcq-100",
-        "court-mcq-104",
-        "court-mcq-99"
+        "court-mcq-09",
+        "court-mcq-85",
+        "court-mcq-95"
       ],
       "explanation": "本句的「courts」指「刻意爭取媒體／公眾曝光」。",
       "sentenceIndex": 50,
@@ -2642,12 +2518,10 @@ export default {
         "courts"
       ],
       "optionReasons": {
-        "court-mcq-102": "本句指「刻意爭取媒體／公眾曝光」。",
-        "court-mcq-101": "「刻意吸引別人注意」與本句語境不同。",
-        "court-mcq-103": "「刻意討好大眾、爭取人氣」與本句語境不同。",
-        "court-mcq-100": "「主動招攬生意」與本句語境不同。",
-        "court-mcq-104": "「刻意／不顧後果地招惹爭議」與本句語境不同。",
-        "court-mcq-99": "「積極吸引／爭取投資者」與本句語境不同。"
+        "court-mcq-102": "本句的「courts」指「刻意爭取媒體／公眾曝光」。",
+        "court-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-95": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-102"
     },
@@ -2659,11 +2533,9 @@ export default {
       "masked": "The campaign seemed designed to ____ controversy.",
       "options": [
         "court-mcq-104",
-        "court-mcq-103",
-        "court-mcq-105",
-        "court-mcq-102",
-        "court-mcq-106",
-        "court-mcq-101"
+        "court-mcq-53",
+        "court-mcq-83",
+        "court-mcq-108"
       ],
       "explanation": "本句的「court」指「刻意／不顧後果地招惹爭議」。",
       "sentenceIndex": 51,
@@ -2672,12 +2544,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-104": "本句指「刻意／不顧後果地招惹爭議」。",
-        "court-mcq-103": "「刻意討好大眾、爭取人氣」與本句語境不同。",
-        "court-mcq-105": "「做出令危險更可能發生的事；自找危險」與本句語境不同。",
-        "court-mcq-102": "「刻意爭取媒體／公眾曝光」與本句語境不同。",
-        "court-mcq-106": "「做出極可能造成災難的事；招致災難」與本句語境不同。",
-        "court-mcq-101": "「刻意吸引別人注意」與本句語境不同。"
+        "court-mcq-104": "本句的「court」指「刻意／不顧後果地招惹爭議」。",
+        "court-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-108": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-104"
     },
@@ -2690,10 +2560,8 @@ export default {
       "options": [
         "court-mcq-105",
         "court-mcq-104",
-        "court-mcq-106",
-        "court-mcq-103",
-        "court-mcq-107",
-        "court-mcq-102"
+        "court-mcq-20",
+        "court-mcq-96"
       ],
       "explanation": "本句的「courting」指「做出令危險更可能發生的事；自找危險」。",
       "sentenceIndex": 52,
@@ -2702,12 +2570,10 @@ export default {
         "courting"
       ],
       "optionReasons": {
-        "court-mcq-105": "本句指「做出令危險更可能發生的事；自找危險」。",
-        "court-mcq-104": "「刻意／不顧後果地招惹爭議」與本句語境不同。",
-        "court-mcq-106": "「做出極可能造成災難的事；招致災難」與本句語境不同。",
-        "court-mcq-103": "「刻意討好大眾、爭取人氣」與本句語境不同。",
-        "court-mcq-107": "「自找麻煩／招惹麻煩」與本句語境不同。",
-        "court-mcq-102": "「刻意爭取媒體／公眾曝光」與本句語境不同。"
+        "court-mcq-105": "本句的「courting」指「做出令危險更可能發生的事；自找危險」。",
+        "court-mcq-104": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-96": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-105"
     },
@@ -2719,11 +2585,9 @@ export default {
       "masked": "Continuing without a backup would be ____ disaster.",
       "options": [
         "court-mcq-106",
-        "court-mcq-105",
-        "court-mcq-107",
-        "court-mcq-104",
-        "court-mcq-108",
-        "court-mcq-103"
+        "court-mcq-102",
+        "court-mcq-02",
+        "court-mcq-78"
       ],
       "explanation": "本句的「courting」指「做出極可能造成災難的事；招致災難」。",
       "sentenceIndex": 53,
@@ -2732,12 +2596,10 @@ export default {
         "courting"
       ],
       "optionReasons": {
-        "court-mcq-106": "本句指「做出極可能造成災難的事；招致災難」。",
-        "court-mcq-105": "「做出令危險更可能發生的事；自找危險」與本句語境不同。",
-        "court-mcq-107": "「自找麻煩／招惹麻煩」與本句語境不同。",
-        "court-mcq-104": "「刻意／不顧後果地招惹爭議」與本句語境不同。",
-        "court-mcq-108": "「文學／強烈語氣：極度冒險而自尋死路」與本句語境不同。",
-        "court-mcq-103": "「刻意討好大眾、爭取人氣」與本句語境不同。"
+        "court-mcq-106": "本句的「courting」指「做出極可能造成災難的事；招致災難」。",
+        "court-mcq-102": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-106"
     },
@@ -2749,11 +2611,9 @@ export default {
       "masked": "He was ____ trouble by ignoring the rules.",
       "options": [
         "court-mcq-107",
-        "court-mcq-106",
-        "court-mcq-108",
-        "court-mcq-105",
-        "court-mcq-109",
-        "court-mcq-104"
+        "court-mcq-09",
+        "court-mcq-99",
+        "court-mcq-74"
       ],
       "explanation": "本句的「courting」指「自找麻煩／招惹麻煩」。",
       "sentenceIndex": 54,
@@ -2762,12 +2622,10 @@ export default {
         "courting"
       ],
       "optionReasons": {
-        "court-mcq-107": "本句指「自找麻煩／招惹麻煩」。",
-        "court-mcq-106": "「做出極可能造成災難的事；招致災難」與本句語境不同。",
-        "court-mcq-108": "「文學／強烈語氣：極度冒險而自尋死路」與本句語境不同。",
-        "court-mcq-105": "「做出令危險更可能發生的事；自找危險」與本句語境不同。",
-        "court-mcq-109": "「企業為爭取合作、投資或交易所進行的長期拉攏／接洽」與本句語境不同。",
-        "court-mcq-104": "「刻意／不顧後果地招惹爭議」與本句語境不同。"
+        "court-mcq-107": "本句的「courting」指「自找麻煩／招惹麻煩」。",
+        "court-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-99": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-107"
     },
@@ -2779,11 +2637,9 @@ export default {
       "masked": "Entering the area without protection would be ____ death.",
       "options": [
         "court-mcq-108",
-        "court-mcq-107",
-        "court-mcq-109",
-        "court-mcq-106",
-        "court-mcq-110",
-        "court-mcq-105"
+        "court-mcq-78",
+        "court-mcq-53",
+        "court-mcq-83"
       ],
       "explanation": "本句的「courting」指「文學／強烈語氣：極度冒險而自尋死路」。",
       "sentenceIndex": 55,
@@ -2792,12 +2648,10 @@ export default {
         "courting"
       ],
       "optionReasons": {
-        "court-mcq-108": "本句指「文學／強烈語氣：極度冒險而自尋死路」。",
-        "court-mcq-107": "「自找麻煩／招惹麻煩」與本句語境不同。",
-        "court-mcq-109": "「企業為爭取合作、投資或交易所進行的長期拉攏／接洽」與本句語境不同。",
-        "court-mcq-106": "「做出極可能造成災難的事；招致災難」與本句語境不同。",
-        "court-mcq-110": "「某些機構正式名稱中指管治委員會／理事會」與本句語境不同。",
-        "court-mcq-105": "「做出令危險更可能發生的事；自找危險」與本句語境不同。"
+        "court-mcq-108": "本句的「courting」指「文學／強烈語氣：極度冒險而自尋死路」。",
+        "court-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-83": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-108"
     },
@@ -2809,11 +2663,9 @@ export default {
       "masked": "A king is a ____ card.",
       "options": [
         "court-mcq-112",
-        "court-mcq-111",
-        "court-mcq-113",
-        "court-mcq-110",
-        "court-mcq-114",
-        "court-mcq-109"
+        "court-mcq-97",
+        "court-mcq-101",
+        "court-mcq-74"
       ],
       "explanation": "本句的「court」指「標準撲克牌中的 K、Q、J；人頭牌」。",
       "sentenceIndex": 57,
@@ -2822,12 +2674,10 @@ export default {
         "court"
       ],
       "optionReasons": {
-        "court-mcq-112": "本句指「標準撲克牌中的 K、Q、J；人頭牌」。",
-        "court-mcq-111": "「某些大學制度中的高層管治機構」與本句語境不同。",
-        "court-mcq-113": "「皇家宮廷禮服，或依語境指正式法庭服飾」與本句語境不同。",
-        "court-mcq-110": "「某些機構正式名稱中指管治委員會／理事會」與本句語境不同。",
-        "court-mcq-114": "「排定的出庭／開庭日期」與本句語境不同。",
-        "court-mcq-109": "「企業為爭取合作、投資或交易所進行的長期拉攏／接洽」與本句語境不同。"
+        "court-mcq-112": "本句的「court」指「標準撲克牌中的 K、Q、J；人頭牌」。",
+        "court-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-101": "請比較這個意思與句子中標示的用法。",
+        "court-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "court-mcq-112"
     }
@@ -2839,5 +2689,7 @@ export default {
     "sha256": "dcad8223fcf0548371b43b0e8b598135f978357d334342e985a76faeee409b03",
     "pages": 79
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

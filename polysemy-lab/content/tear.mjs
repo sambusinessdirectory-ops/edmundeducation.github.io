@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "tear-mcq-03",
-      "title": "表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」",
+      "title": "把某物撕成兩半／碎片",
       "form": "tear something in half / into pieces",
       "en": "tear something in half / into pieces",
       "zh": "表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "tear-mcq-06",
-      "title": "表示撕碎；例句：「他看完信後把它撕碎了。」",
+      "title": "撕碎",
       "form": "tear something up",
       "en": "tear something up",
       "zh": "表示撕碎；例句：「他看完信後把它撕碎了。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "tear-mcq-13",
-      "title": "表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」",
+      "title": "狼吞虎嚥地吃",
       "form": "tear into food",
       "en": "tear into food",
       "zh": "表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "tear-mcq-14",
-      "title": "表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」",
+      "title": "拆掉；拆毀",
       "form": "tear down",
       "en": "tear down",
       "zh": "表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」",
@@ -579,7 +579,7 @@ export default {
     },
     {
       "id": "tear-mcq-27",
-      "title": "表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」",
+      "title": "感動得令某人流淚",
       "form": "move someone to tears",
       "en": "move someone to tears",
       "zh": "表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」",
@@ -785,10 +785,8 @@ export default {
       "masked": "Be careful not to ____.",
       "options": [
         "tear-mcq-01",
-        "tear-mcq-02",
-        "tear-mcq-03",
-        "tear-mcq-04",
-        "tear-mcq-05",
+        "tear-mcq-12",
+        "tear-mcq-33",
         "tear-mcq-06"
       ],
       "explanation": "本句的「tear the paper」指「用力拉扯，使紙張、布料等裂開或破掉」。",
@@ -798,12 +796,10 @@ export default {
         "tear the paper"
       ],
       "optionReasons": {
-        "tear-mcq-01": "本句指「用力拉扯，使紙張、布料等裂開或破掉」。",
-        "tear-mcq-02": "「某種物料因拉扯或受力而裂開」是「something tears」的用法，與本句語境不同。",
-        "tear-mcq-03": "「表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」」是「tear something in half / into pieces」的用法，與本句語境不同。",
-        "tear-mcq-04": "「用撕扯方式把封閉的東西打開」是「tear something open」的用法，與本句語境不同。",
-        "tear-mcq-05": "「用力撕扯，把某物從原來連接的位置弄下來」是「tear something off」的用法，與本句語境不同。",
-        "tear-mcq-06": "「表示撕碎；例句：「他看完信後把它撕碎了。」」是「tear something up」的用法，與本句語境不同。"
+        "tear-mcq-01": "本句的「tear the paper」指「用力拉扯，使紙張、布料等裂開或破掉」。",
+        "tear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-01"
     },
@@ -815,11 +811,9 @@ export default {
       "masked": "She accidentally ____ on a nail.",
       "options": [
         "tear-mcq-01",
-        "tear-mcq-02",
+        "tear-mcq-22",
         "tear-mcq-03",
-        "tear-mcq-04",
-        "tear-mcq-05",
-        "tear-mcq-06"
+        "tear-mcq-27"
       ],
       "explanation": "本句的「tore her dress」指「用力拉扯，使紙張、布料等裂開或破掉」。",
       "sentenceIndex": 1,
@@ -828,12 +822,10 @@ export default {
         "tore her dress"
       ],
       "optionReasons": {
-        "tear-mcq-01": "本句指「用力拉扯，使紙張、布料等裂開或破掉」。",
-        "tear-mcq-02": "「某種物料因拉扯或受力而裂開」是「something tears」的用法，與本句語境不同。",
-        "tear-mcq-03": "「表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」」是「tear something in half / into pieces」的用法，與本句語境不同。",
-        "tear-mcq-04": "「用撕扯方式把封閉的東西打開」是「tear something open」的用法，與本句語境不同。",
-        "tear-mcq-05": "「用力撕扯，把某物從原來連接的位置弄下來」是「tear something off」的用法，與本句語境不同。",
-        "tear-mcq-06": "「表示撕碎；例句：「他看完信後把它撕碎了。」」是「tear something up」的用法，與本句語境不同。"
+        "tear-mcq-01": "本句的「tore her dress」指「用力拉扯，使紙張、布料等裂開或破掉」。",
+        "tear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-01"
     },
@@ -845,11 +837,9 @@ export default {
       "masked": "This fabric ____ easily.",
       "options": [
         "tear-mcq-02",
-        "tear-mcq-01",
-        "tear-mcq-03",
-        "tear-mcq-04",
-        "tear-mcq-05",
-        "tear-mcq-06"
+        "tear-mcq-33",
+        "tear-mcq-34",
+        "tear-mcq-10"
       ],
       "explanation": "本句的「tears」指「某種物料因拉扯或受力而裂開」。",
       "sentenceIndex": 2,
@@ -858,12 +848,10 @@ export default {
         "tears"
       ],
       "optionReasons": {
-        "tear-mcq-02": "本句指「某種物料因拉扯或受力而裂開」。",
-        "tear-mcq-01": "「用力拉扯，使紙張、布料等裂開或破掉」是「tear something（撕；扯破）」的用法，與本句語境不同。",
-        "tear-mcq-03": "「表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」」是「tear something in half / into pieces」的用法，與本句語境不同。",
-        "tear-mcq-04": "「用撕扯方式把封閉的東西打開」是「tear something open」的用法，與本句語境不同。",
-        "tear-mcq-05": "「用力撕扯，把某物從原來連接的位置弄下來」是「tear something off」的用法，與本句語境不同。",
-        "tear-mcq-06": "「表示撕碎；例句：「他看完信後把它撕碎了。」」是「tear something up」的用法，與本句語境不同。"
+        "tear-mcq-02": "本句的「tears」指「某種物料因拉扯或受力而裂開」。",
+        "tear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-02"
     },
@@ -875,11 +863,9 @@ export default {
       "masked": "The bag ____ when I lifted it.",
       "options": [
         "tear-mcq-02",
-        "tear-mcq-01",
-        "tear-mcq-03",
-        "tear-mcq-04",
-        "tear-mcq-05",
-        "tear-mcq-06"
+        "tear-mcq-13",
+        "tear-mcq-14",
+        "tear-mcq-33"
       ],
       "explanation": "本句的「tore」指「某種物料因拉扯或受力而裂開」。",
       "sentenceIndex": 3,
@@ -888,12 +874,10 @@ export default {
         "tore"
       ],
       "optionReasons": {
-        "tear-mcq-02": "本句指「某種物料因拉扯或受力而裂開」。",
-        "tear-mcq-01": "「用力拉扯，使紙張、布料等裂開或破掉」是「tear something（撕；扯破）」的用法，與本句語境不同。",
-        "tear-mcq-03": "「表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」」是「tear something in half / into pieces」的用法，與本句語境不同。",
-        "tear-mcq-04": "「用撕扯方式把封閉的東西打開」是「tear something open」的用法，與本句語境不同。",
-        "tear-mcq-05": "「用力撕扯，把某物從原來連接的位置弄下來」是「tear something off」的用法，與本句語境不同。",
-        "tear-mcq-06": "「表示撕碎；例句：「他看完信後把它撕碎了。」」是「tear something up」的用法，與本句語境不同。"
+        "tear-mcq-02": "本句的「tore」指「某種物料因拉扯或受力而裂開」。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-02"
     },
@@ -905,11 +889,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "tear-mcq-03",
-        "tear-mcq-02",
-        "tear-mcq-04",
-        "tear-mcq-01",
-        "tear-mcq-05",
-        "tear-mcq-06"
+        "tear-mcq-08",
+        "tear-mcq-33",
+        "tear-mcq-34"
       ],
       "explanation": "本句的「tore the letter in half」指「表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」」。",
       "sentenceIndex": 4,
@@ -918,12 +900,10 @@ export default {
         "tore the letter in half"
       ],
       "optionReasons": {
-        "tear-mcq-03": "本句指「表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」」。",
-        "tear-mcq-02": "「某種物料因拉扯或受力而裂開」是「something tears」的用法，與本句語境不同。",
-        "tear-mcq-04": "「用撕扯方式把封閉的東西打開」是「tear something open」的用法，與本句語境不同。",
-        "tear-mcq-01": "「用力拉扯，使紙張、布料等裂開或破掉」是「tear something（撕；扯破）」的用法，與本句語境不同。",
-        "tear-mcq-05": "「用力撕扯，把某物從原來連接的位置弄下來」是「tear something off」的用法，與本句語境不同。",
-        "tear-mcq-06": "「表示撕碎；例句：「他看完信後把它撕碎了。」」是「tear something up」的用法，與本句語境不同。"
+        "tear-mcq-03": "本句的「tore the letter in half」指「表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」」。",
+        "tear-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-03"
     },
@@ -935,11 +915,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "tear-mcq-03",
-        "tear-mcq-02",
-        "tear-mcq-04",
-        "tear-mcq-01",
-        "tear-mcq-05",
-        "tear-mcq-06"
+        "tear-mcq-13",
+        "tear-mcq-10",
+        "tear-mcq-35"
       ],
       "explanation": "本句的「tore the paper into small pieces」指「表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」」。",
       "sentenceIndex": 5,
@@ -948,12 +926,10 @@ export default {
         "tore the paper into small pieces"
       ],
       "optionReasons": {
-        "tear-mcq-03": "本句指「表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」」。",
-        "tear-mcq-02": "「某種物料因拉扯或受力而裂開」是「something tears」的用法，與本句語境不同。",
-        "tear-mcq-04": "「用撕扯方式把封閉的東西打開」是「tear something open」的用法，與本句語境不同。",
-        "tear-mcq-01": "「用力拉扯，使紙張、布料等裂開或破掉」是「tear something（撕；扯破）」的用法，與本句語境不同。",
-        "tear-mcq-05": "「用力撕扯，把某物從原來連接的位置弄下來」是「tear something off」的用法，與本句語境不同。",
-        "tear-mcq-06": "「表示撕碎；例句：「他看完信後把它撕碎了。」」是「tear something up」的用法，與本句語境不同。"
+        "tear-mcq-03": "本句的「tore the paper into small pieces」指「表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」」。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-03"
     },
@@ -965,11 +941,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "tear-mcq-04",
-        "tear-mcq-03",
-        "tear-mcq-05",
-        "tear-mcq-02",
-        "tear-mcq-06",
-        "tear-mcq-01"
+        "tear-mcq-12",
+        "tear-mcq-32",
+        "tear-mcq-25"
       ],
       "explanation": "本句的「tore the envelope open」指「用撕扯方式把封閉的東西打開」。",
       "sentenceIndex": 6,
@@ -978,12 +952,10 @@ export default {
         "tore the envelope open"
       ],
       "optionReasons": {
-        "tear-mcq-04": "本句指「用撕扯方式把封閉的東西打開」。",
-        "tear-mcq-03": "「表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」」是「tear something in half / into pieces」的用法，與本句語境不同。",
-        "tear-mcq-05": "「用力撕扯，把某物從原來連接的位置弄下來」是「tear something off」的用法，與本句語境不同。",
-        "tear-mcq-02": "「某種物料因拉扯或受力而裂開」是「something tears」的用法，與本句語境不同。",
-        "tear-mcq-06": "「表示撕碎；例句：「他看完信後把它撕碎了。」」是「tear something up」的用法，與本句語境不同。",
-        "tear-mcq-01": "「用力拉扯，使紙張、布料等裂開或破掉」是「tear something（撕；扯破）」的用法，與本句語境不同。"
+        "tear-mcq-04": "本句的「tore the envelope open」指「用撕扯方式把封閉的東西打開」。",
+        "tear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-04"
     },
@@ -995,11 +967,9 @@ export default {
       "masked": "The child ____ excitedly.",
       "options": [
         "tear-mcq-04",
-        "tear-mcq-03",
-        "tear-mcq-05",
-        "tear-mcq-02",
-        "tear-mcq-06",
-        "tear-mcq-01"
+        "tear-mcq-28",
+        "tear-mcq-22",
+        "tear-mcq-19"
       ],
       "explanation": "本句的「tore the present open」指「用撕扯方式把封閉的東西打開」。",
       "sentenceIndex": 7,
@@ -1008,12 +978,10 @@ export default {
         "tore the present open"
       ],
       "optionReasons": {
-        "tear-mcq-04": "本句指「用撕扯方式把封閉的東西打開」。",
-        "tear-mcq-03": "「表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」」是「tear something in half / into pieces」的用法，與本句語境不同。",
-        "tear-mcq-05": "「用力撕扯，把某物從原來連接的位置弄下來」是「tear something off」的用法，與本句語境不同。",
-        "tear-mcq-02": "「某種物料因拉扯或受力而裂開」是「something tears」的用法，與本句語境不同。",
-        "tear-mcq-06": "「表示撕碎；例句：「他看完信後把它撕碎了。」」是「tear something up」的用法，與本句語境不同。",
-        "tear-mcq-01": "「用力拉扯，使紙張、布料等裂開或破掉」是「tear something（撕；扯破）」的用法，與本句語境不同。"
+        "tear-mcq-04": "本句的「tore the present open」指「用撕扯方式把封閉的東西打開」。",
+        "tear-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-04"
     },
@@ -1025,11 +993,9 @@ export default {
       "masked": "She ____ the notebook.",
       "options": [
         "tear-mcq-05",
-        "tear-mcq-04",
-        "tear-mcq-06",
-        "tear-mcq-03",
-        "tear-mcq-07",
-        "tear-mcq-02"
+        "tear-mcq-22",
+        "tear-mcq-19",
+        "tear-mcq-14"
       ],
       "explanation": "本句的「tore a page off」指「用力撕扯，把某物從原來連接的位置弄下來」。",
       "sentenceIndex": 8,
@@ -1038,12 +1004,10 @@ export default {
         "tore a page off"
       ],
       "optionReasons": {
-        "tear-mcq-05": "本句指「用力撕扯，把某物從原來連接的位置弄下來」。",
-        "tear-mcq-04": "「用撕扯方式把封閉的東西打開」是「tear something open」的用法，與本句語境不同。",
-        "tear-mcq-06": "「表示撕碎；例句：「他看完信後把它撕碎了。」」是「tear something up」的用法，與本句語境不同。",
-        "tear-mcq-03": "「表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」」是「tear something in half / into pieces」的用法，與本句語境不同。",
-        "tear-mcq-07": "「用很大力把某物撕開、扯碎或破壞」是「tear something apart」的用法，與本句語境不同。",
-        "tear-mcq-02": "「某種物料因拉扯或受力而裂開」是「something tears」的用法，與本句語境不同。"
+        "tear-mcq-05": "本句的「tore a page off」指「用力撕扯，把某物從原來連接的位置弄下來」。",
+        "tear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-05"
     },
@@ -1055,11 +1019,9 @@ export default {
       "masked": "He ____ the bottle.",
       "options": [
         "tear-mcq-05",
-        "tear-mcq-04",
-        "tear-mcq-06",
-        "tear-mcq-03",
-        "tear-mcq-07",
-        "tear-mcq-02"
+        "tear-mcq-34",
+        "tear-mcq-12",
+        "tear-mcq-33"
       ],
       "explanation": "本句的「tore the label off」指「用力撕扯，把某物從原來連接的位置弄下來」。",
       "sentenceIndex": 9,
@@ -1068,12 +1030,10 @@ export default {
         "tore the label off"
       ],
       "optionReasons": {
-        "tear-mcq-05": "本句指「用力撕扯，把某物從原來連接的位置弄下來」。",
-        "tear-mcq-04": "「用撕扯方式把封閉的東西打開」是「tear something open」的用法，與本句語境不同。",
-        "tear-mcq-06": "「表示撕碎；例句：「他看完信後把它撕碎了。」」是「tear something up」的用法，與本句語境不同。",
-        "tear-mcq-03": "「表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」」是「tear something in half / into pieces」的用法，與本句語境不同。",
-        "tear-mcq-07": "「用很大力把某物撕開、扯碎或破壞」是「tear something apart」的用法，與本句語境不同。",
-        "tear-mcq-02": "「某種物料因拉扯或受力而裂開」是「something tears」的用法，與本句語境不同。"
+        "tear-mcq-05": "本句的「tore the label off」指「用力撕扯，把某物從原來連接的位置弄下來」。",
+        "tear-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-05"
     },
@@ -1085,11 +1045,9 @@ export default {
       "masked": "He ____ after reading it.",
       "options": [
         "tear-mcq-06",
-        "tear-mcq-05",
-        "tear-mcq-07",
-        "tear-mcq-04",
-        "tear-mcq-08",
-        "tear-mcq-03"
+        "tear-mcq-27",
+        "tear-mcq-22",
+        "tear-mcq-11"
       ],
       "explanation": "本句的「tore up the letter」指「表示撕碎；例句：「他看完信後把它撕碎了。」」。",
       "sentenceIndex": 10,
@@ -1098,12 +1056,10 @@ export default {
         "tore up the letter"
       ],
       "optionReasons": {
-        "tear-mcq-06": "本句指「表示撕碎；例句：「他看完信後把它撕碎了。」」。",
-        "tear-mcq-05": "「用力撕扯，把某物從原來連接的位置弄下來」是「tear something off」的用法，與本句語境不同。",
-        "tear-mcq-07": "「用很大力把某物撕開、扯碎或破壞」是「tear something apart」的用法，與本句語境不同。",
-        "tear-mcq-04": "「用撕扯方式把封閉的東西打開」是「tear something open」的用法，與本句語境不同。",
-        "tear-mcq-08": "「嚴重破壞一個群體、關係或組織，使其分裂」是「tear something apart（figurative）」的用法，與本句語境不同。",
-        "tear-mcq-03": "「表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」」是「tear something in half / into pieces」的用法，與本句語境不同。"
+        "tear-mcq-06": "本句的「tore up the letter」指「表示撕碎；例句：「他看完信後把它撕碎了。」」。",
+        "tear-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-06"
     },
@@ -1115,11 +1071,9 @@ export default {
       "masked": "She ____ and threw it away.",
       "options": [
         "tear-mcq-06",
-        "tear-mcq-05",
-        "tear-mcq-07",
-        "tear-mcq-04",
-        "tear-mcq-08",
-        "tear-mcq-03"
+        "tear-mcq-32",
+        "tear-mcq-25",
+        "tear-mcq-02"
       ],
       "explanation": "本句的「tore the old document up」指「表示撕碎；例句：「他看完信後把它撕碎了。」」。",
       "sentenceIndex": 11,
@@ -1128,12 +1082,10 @@ export default {
         "tore the old document up"
       ],
       "optionReasons": {
-        "tear-mcq-06": "本句指「表示撕碎；例句：「他看完信後把它撕碎了。」」。",
-        "tear-mcq-05": "「用力撕扯，把某物從原來連接的位置弄下來」是「tear something off」的用法，與本句語境不同。",
-        "tear-mcq-07": "「用很大力把某物撕開、扯碎或破壞」是「tear something apart」的用法，與本句語境不同。",
-        "tear-mcq-04": "「用撕扯方式把封閉的東西打開」是「tear something open」的用法，與本句語境不同。",
-        "tear-mcq-08": "「嚴重破壞一個群體、關係或組織，使其分裂」是「tear something apart（figurative）」的用法，與本句語境不同。",
-        "tear-mcq-03": "「表示把某物撕成兩半／碎片；例句：「他把信撕成兩半。」」是「tear something in half / into pieces」的用法，與本句語境不同。"
+        "tear-mcq-06": "本句的「tore the old document up」指「表示撕碎；例句：「他看完信後把它撕碎了。」」。",
+        "tear-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-06"
     },
@@ -1145,11 +1097,9 @@ export default {
       "masked": "The dog ____.",
       "options": [
         "tear-mcq-07",
-        "tear-mcq-06",
-        "tear-mcq-08",
-        "tear-mcq-05",
-        "tear-mcq-09",
-        "tear-mcq-04"
+        "tear-mcq-15",
+        "tear-mcq-14",
+        "tear-mcq-26"
       ],
       "explanation": "本句的「tore the toy apart」指「用很大力把某物撕開、扯碎或破壞」。",
       "sentenceIndex": 12,
@@ -1158,12 +1108,10 @@ export default {
         "tore the toy apart"
       ],
       "optionReasons": {
-        "tear-mcq-07": "本句指「用很大力把某物撕開、扯碎或破壞」。",
-        "tear-mcq-06": "「表示撕碎；例句：「他看完信後把它撕碎了。」」是「tear something up」的用法，與本句語境不同。",
-        "tear-mcq-08": "「嚴重破壞一個群體、關係或組織，使其分裂」是「tear something apart（figurative）」的用法，與本句語境不同。",
-        "tear-mcq-05": "「用力撕扯，把某物從原來連接的位置弄下來」是「tear something off」的用法，與本句語境不同。",
-        "tear-mcq-09": "「因為非常投入或喜歡某事，而很難強迫自己離開」是「tear yourself away from something」的用法，與本句語境不同。",
-        "tear-mcq-04": "「用撕扯方式把封閉的東西打開」是「tear something open」的用法，與本句語境不同。"
+        "tear-mcq-07": "本句的「tore the toy apart」指「用很大力把某物撕開、扯碎或破壞」。",
+        "tear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-07"
     },
@@ -1175,11 +1123,9 @@ export default {
       "masked": "The machine ____.",
       "options": [
         "tear-mcq-07",
-        "tear-mcq-06",
-        "tear-mcq-08",
-        "tear-mcq-05",
-        "tear-mcq-09",
-        "tear-mcq-04"
+        "tear-mcq-20",
+        "tear-mcq-13",
+        "tear-mcq-34"
       ],
       "explanation": "本句的「tore the fabric apart」指「用很大力把某物撕開、扯碎或破壞」。",
       "sentenceIndex": 13,
@@ -1188,12 +1134,10 @@ export default {
         "tore the fabric apart"
       ],
       "optionReasons": {
-        "tear-mcq-07": "本句指「用很大力把某物撕開、扯碎或破壞」。",
-        "tear-mcq-06": "「表示撕碎；例句：「他看完信後把它撕碎了。」」是「tear something up」的用法，與本句語境不同。",
-        "tear-mcq-08": "「嚴重破壞一個群體、關係或組織，使其分裂」是「tear something apart（figurative）」的用法，與本句語境不同。",
-        "tear-mcq-05": "「用力撕扯，把某物從原來連接的位置弄下來」是「tear something off」的用法，與本句語境不同。",
-        "tear-mcq-09": "「因為非常投入或喜歡某事，而很難強迫自己離開」是「tear yourself away from something」的用法，與本句語境不同。",
-        "tear-mcq-04": "「用撕扯方式把封閉的東西打開」是「tear something open」的用法，與本句語境不同。"
+        "tear-mcq-07": "本句的「tore the fabric apart」指「用很大力把某物撕開、扯碎或破壞」。",
+        "tear-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-07"
     },
@@ -1205,11 +1149,9 @@ export default {
       "masked": "The conflict ____.",
       "options": [
         "tear-mcq-08",
-        "tear-mcq-07",
-        "tear-mcq-09",
-        "tear-mcq-06",
-        "tear-mcq-10",
-        "tear-mcq-05"
+        "tear-mcq-03",
+        "tear-mcq-23",
+        "tear-mcq-29"
       ],
       "explanation": "本句的「tore the family apart」指「嚴重破壞一個群體、關係或組織，使其分裂」。",
       "sentenceIndex": 14,
@@ -1218,12 +1160,10 @@ export default {
         "tore the family apart"
       ],
       "optionReasons": {
-        "tear-mcq-08": "本句指「嚴重破壞一個群體、關係或組織，使其分裂」。",
-        "tear-mcq-07": "「用很大力把某物撕開、扯碎或破壞」是「tear something apart」的用法，與本句語境不同。",
-        "tear-mcq-09": "「因為非常投入或喜歡某事，而很難強迫自己離開」是「tear yourself away from something」的用法，與本句語境不同。",
-        "tear-mcq-06": "「表示撕碎；例句：「他看完信後把它撕碎了。」」是「tear something up」的用法，與本句語境不同。",
-        "tear-mcq-10": "「以很快、很猛烈的方式穿過某地」是「tear through somewhere」的用法，與本句語境不同。",
-        "tear-mcq-05": "「用力撕扯，把某物從原來連接的位置弄下來」是「tear something off」的用法，與本句語境不同。"
+        "tear-mcq-08": "本句的「tore the family apart」指「嚴重破壞一個群體、關係或組織，使其分裂」。",
+        "tear-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-08"
     },
@@ -1235,11 +1175,9 @@ export default {
       "masked": "The scandal ____.",
       "options": [
         "tear-mcq-08",
-        "tear-mcq-07",
-        "tear-mcq-09",
-        "tear-mcq-06",
-        "tear-mcq-10",
-        "tear-mcq-05"
+        "tear-mcq-29",
+        "tear-mcq-03",
+        "tear-mcq-14"
       ],
       "explanation": "本句的「tore the organization apart」指「嚴重破壞一個群體、關係或組織，使其分裂」。",
       "sentenceIndex": 15,
@@ -1248,12 +1186,10 @@ export default {
         "tore the organization apart"
       ],
       "optionReasons": {
-        "tear-mcq-08": "本句指「嚴重破壞一個群體、關係或組織，使其分裂」。",
-        "tear-mcq-07": "「用很大力把某物撕開、扯碎或破壞」是「tear something apart」的用法，與本句語境不同。",
-        "tear-mcq-09": "「因為非常投入或喜歡某事，而很難強迫自己離開」是「tear yourself away from something」的用法，與本句語境不同。",
-        "tear-mcq-06": "「表示撕碎；例句：「他看完信後把它撕碎了。」」是「tear something up」的用法，與本句語境不同。",
-        "tear-mcq-10": "「以很快、很猛烈的方式穿過某地」是「tear through somewhere」的用法，與本句語境不同。",
-        "tear-mcq-05": "「用力撕扯，把某物從原來連接的位置弄下來」是「tear something off」的用法，與本句語境不同。"
+        "tear-mcq-08": "本句的「tore the organization apart」指「嚴重破壞一個群體、關係或組織，使其分裂」。",
+        "tear-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-08"
     },
@@ -1265,11 +1201,9 @@ export default {
       "masked": "I couldn't ____.",
       "options": [
         "tear-mcq-09",
-        "tear-mcq-08",
-        "tear-mcq-10",
-        "tear-mcq-07",
-        "tear-mcq-11",
-        "tear-mcq-06"
+        "tear-mcq-14",
+        "tear-mcq-27",
+        "tear-mcq-19"
       ],
       "explanation": "本句的「tear myself away from the book」指「因為非常投入或喜歡某事，而很難強迫自己離開」。",
       "sentenceIndex": 16,
@@ -1278,12 +1212,10 @@ export default {
         "tear myself away from the book"
       ],
       "optionReasons": {
-        "tear-mcq-09": "本句指「因為非常投入或喜歡某事，而很難強迫自己離開」。",
-        "tear-mcq-08": "「嚴重破壞一個群體、關係或組織，使其分裂」是「tear something apart（figurative）」的用法，與本句語境不同。",
-        "tear-mcq-10": "「以很快、很猛烈的方式穿過某地」是「tear through somewhere」的用法，與本句語境不同。",
-        "tear-mcq-07": "「用很大力把某物撕開、扯碎或破壞」是「tear something apart」的用法，與本句語境不同。",
-        "tear-mcq-11": "「以很快速度完成、閱讀、吃掉或處理大量東西」是「tear through something（快速處理／消耗）」的用法，與本句語境不同。",
-        "tear-mcq-06": "「表示撕碎；例句：「他看完信後把它撕碎了。」」是「tear something up」的用法，與本句語境不同。"
+        "tear-mcq-09": "本句的「tear myself away from the book」指「因為非常投入或喜歡某事，而很難強迫自己離開」。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-09"
     },
@@ -1296,10 +1228,8 @@ export default {
       "options": [
         "tear-mcq-09",
         "tear-mcq-08",
-        "tear-mcq-10",
-        "tear-mcq-07",
-        "tear-mcq-11",
-        "tear-mcq-06"
+        "tear-mcq-06",
+        "tear-mcq-14"
       ],
       "explanation": "本句的「tore herself away from the television」指「因為非常投入或喜歡某事，而很難強迫自己離開」。",
       "sentenceIndex": 17,
@@ -1308,12 +1238,10 @@ export default {
         "tore herself away from the television"
       ],
       "optionReasons": {
-        "tear-mcq-09": "本句指「因為非常投入或喜歡某事，而很難強迫自己離開」。",
-        "tear-mcq-08": "「嚴重破壞一個群體、關係或組織，使其分裂」是「tear something apart（figurative）」的用法，與本句語境不同。",
-        "tear-mcq-10": "「以很快、很猛烈的方式穿過某地」是「tear through somewhere」的用法，與本句語境不同。",
-        "tear-mcq-07": "「用很大力把某物撕開、扯碎或破壞」是「tear something apart」的用法，與本句語境不同。",
-        "tear-mcq-11": "「以很快速度完成、閱讀、吃掉或處理大量東西」是「tear through something（快速處理／消耗）」的用法，與本句語境不同。",
-        "tear-mcq-06": "「表示撕碎；例句：「他看完信後把它撕碎了。」」是「tear something up」的用法，與本句語境不同。"
+        "tear-mcq-09": "本句的「tore herself away from the television」指「因為非常投入或喜歡某事，而很難強迫自己離開」。",
+        "tear-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-09"
     },
@@ -1325,10 +1253,8 @@ export default {
       "masked": "The car ____.",
       "options": [
         "tear-mcq-10",
-        "tear-mcq-09",
-        "tear-mcq-11",
-        "tear-mcq-08",
-        "tear-mcq-12",
+        "tear-mcq-13",
+        "tear-mcq-21",
         "tear-mcq-07"
       ],
       "explanation": "本句的「tore through the streets」指「以很快、很猛烈的方式穿過某地」。",
@@ -1338,12 +1264,10 @@ export default {
         "tore through the streets"
       ],
       "optionReasons": {
-        "tear-mcq-10": "本句指「以很快、很猛烈的方式穿過某地」。",
-        "tear-mcq-09": "「因為非常投入或喜歡某事，而很難強迫自己離開」是「tear yourself away from something」的用法，與本句語境不同。",
-        "tear-mcq-11": "「以很快速度完成、閱讀、吃掉或處理大量東西」是「tear through something（快速處理／消耗）」的用法，與本句語境不同。",
-        "tear-mcq-08": "「嚴重破壞一個群體、關係或組織，使其分裂」是「tear something apart（figurative）」的用法，與本句語境不同。",
-        "tear-mcq-12": "「以非常強烈、激烈的方式批評或責罵某人」是「tear into someone」的用法，與本句語境不同。",
-        "tear-mcq-07": "「用很大力把某物撕開、扯碎或破壞」是「tear something apart」的用法，與本句語境不同。"
+        "tear-mcq-10": "本句的「tore through the streets」指「以很快、很猛烈的方式穿過某地」。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-10"
     },
@@ -1355,11 +1279,9 @@ export default {
       "masked": "The dog ____.",
       "options": [
         "tear-mcq-10",
-        "tear-mcq-09",
-        "tear-mcq-11",
-        "tear-mcq-08",
-        "tear-mcq-12",
-        "tear-mcq-07"
+        "tear-mcq-18",
+        "tear-mcq-07",
+        "tear-mcq-32"
       ],
       "explanation": "本句的「tore through the garden」指「以很快、很猛烈的方式穿過某地」。",
       "sentenceIndex": 19,
@@ -1368,12 +1290,10 @@ export default {
         "tore through the garden"
       ],
       "optionReasons": {
-        "tear-mcq-10": "本句指「以很快、很猛烈的方式穿過某地」。",
-        "tear-mcq-09": "「因為非常投入或喜歡某事，而很難強迫自己離開」是「tear yourself away from something」的用法，與本句語境不同。",
-        "tear-mcq-11": "「以很快速度完成、閱讀、吃掉或處理大量東西」是「tear through something（快速處理／消耗）」的用法，與本句語境不同。",
-        "tear-mcq-08": "「嚴重破壞一個群體、關係或組織，使其分裂」是「tear something apart（figurative）」的用法，與本句語境不同。",
-        "tear-mcq-12": "「以非常強烈、激烈的方式批評或責罵某人」是「tear into someone」的用法，與本句語境不同。",
-        "tear-mcq-07": "「用很大力把某物撕開、扯碎或破壞」是「tear something apart」的用法，與本句語境不同。"
+        "tear-mcq-10": "本句的「tore through the garden」指「以很快、很猛烈的方式穿過某地」。",
+        "tear-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-10"
     },
@@ -1385,11 +1305,9 @@ export default {
       "masked": "He ____ in one evening.",
       "options": [
         "tear-mcq-11",
-        "tear-mcq-10",
-        "tear-mcq-12",
-        "tear-mcq-09",
-        "tear-mcq-13",
-        "tear-mcq-08"
+        "tear-mcq-21",
+        "tear-mcq-19",
+        "tear-mcq-09"
       ],
       "explanation": "本句的「tore through the book」指「以很快速度完成、閱讀、吃掉或處理大量東西」。",
       "sentenceIndex": 20,
@@ -1398,12 +1316,10 @@ export default {
         "tore through the book"
       ],
       "optionReasons": {
-        "tear-mcq-11": "本句指「以很快速度完成、閱讀、吃掉或處理大量東西」。",
-        "tear-mcq-10": "「以很快、很猛烈的方式穿過某地」是「tear through somewhere」的用法，與本句語境不同。",
-        "tear-mcq-12": "「以非常強烈、激烈的方式批評或責罵某人」是「tear into someone」的用法，與本句語境不同。",
-        "tear-mcq-09": "「因為非常投入或喜歡某事，而很難強迫自己離開」是「tear yourself away from something」的用法，與本句語境不同。",
-        "tear-mcq-13": "「表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」」是「tear into food」的用法，與本句語境不同。",
-        "tear-mcq-08": "「嚴重破壞一個群體、關係或組織，使其分裂」是「tear something apart（figurative）」的用法，與本句語境不同。"
+        "tear-mcq-11": "本句的「tore through the book」指「以很快速度完成、閱讀、吃掉或處理大量東西」。",
+        "tear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-11"
     },
@@ -1415,11 +1331,9 @@ export default {
       "masked": "The children ____.",
       "options": [
         "tear-mcq-11",
-        "tear-mcq-10",
-        "tear-mcq-12",
+        "tear-mcq-34",
         "tear-mcq-09",
-        "tear-mcq-13",
-        "tear-mcq-08"
+        "tear-mcq-06"
       ],
       "explanation": "本句的「tore through the food」指「以很快速度完成、閱讀、吃掉或處理大量東西」。",
       "sentenceIndex": 21,
@@ -1428,12 +1342,10 @@ export default {
         "tore through the food"
       ],
       "optionReasons": {
-        "tear-mcq-11": "本句指「以很快速度完成、閱讀、吃掉或處理大量東西」。",
-        "tear-mcq-10": "「以很快、很猛烈的方式穿過某地」是「tear through somewhere」的用法，與本句語境不同。",
-        "tear-mcq-12": "「以非常強烈、激烈的方式批評或責罵某人」是「tear into someone」的用法，與本句語境不同。",
-        "tear-mcq-09": "「因為非常投入或喜歡某事，而很難強迫自己離開」是「tear yourself away from something」的用法，與本句語境不同。",
-        "tear-mcq-13": "「表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」」是「tear into food」的用法，與本句語境不同。",
-        "tear-mcq-08": "「嚴重破壞一個群體、關係或組織，使其分裂」是「tear something apart（figurative）」的用法，與本句語境不同。"
+        "tear-mcq-11": "本句的「tore through the food」指「以很快速度完成、閱讀、吃掉或處理大量東西」。",
+        "tear-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-11"
     },
@@ -1445,11 +1357,9 @@ export default {
       "masked": "The coach ____ after the match.",
       "options": [
         "tear-mcq-12",
-        "tear-mcq-11",
-        "tear-mcq-13",
-        "tear-mcq-10",
         "tear-mcq-14",
-        "tear-mcq-09"
+        "tear-mcq-06",
+        "tear-mcq-13"
       ],
       "explanation": "本句的「tore into the players」指「以非常強烈、激烈的方式批評或責罵某人」。",
       "sentenceIndex": 22,
@@ -1458,12 +1368,10 @@ export default {
         "tore into the players"
       ],
       "optionReasons": {
-        "tear-mcq-12": "本句指「以非常強烈、激烈的方式批評或責罵某人」。",
-        "tear-mcq-11": "「以很快速度完成、閱讀、吃掉或處理大量東西」是「tear through something（快速處理／消耗）」的用法，與本句語境不同。",
-        "tear-mcq-13": "「表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」」是「tear into food」的用法，與本句語境不同。",
-        "tear-mcq-10": "「以很快、很猛烈的方式穿過某地」是「tear through somewhere」的用法，與本句語境不同。",
-        "tear-mcq-14": "「表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」」是「tear down」的用法，與本句語境不同。",
-        "tear-mcq-09": "「因為非常投入或喜歡某事，而很難強迫自己離開」是「tear yourself away from something」的用法，與本句語境不同。"
+        "tear-mcq-12": "本句的「tore into the players」指「以非常強烈、激烈的方式批評或責罵某人」。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-12"
     },
@@ -1475,11 +1383,9 @@ export default {
       "masked": "She ____ for arriving late again.",
       "options": [
         "tear-mcq-12",
-        "tear-mcq-11",
-        "tear-mcq-13",
-        "tear-mcq-10",
-        "tear-mcq-14",
-        "tear-mcq-09"
+        "tear-mcq-05",
+        "tear-mcq-33",
+        "tear-mcq-17"
       ],
       "explanation": "本句的「tore into him」指「以非常強烈、激烈的方式批評或責罵某人」。",
       "sentenceIndex": 23,
@@ -1488,12 +1394,10 @@ export default {
         "tore into him"
       ],
       "optionReasons": {
-        "tear-mcq-12": "本句指「以非常強烈、激烈的方式批評或責罵某人」。",
-        "tear-mcq-11": "「以很快速度完成、閱讀、吃掉或處理大量東西」是「tear through something（快速處理／消耗）」的用法，與本句語境不同。",
-        "tear-mcq-13": "「表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」」是「tear into food」的用法，與本句語境不同。",
-        "tear-mcq-10": "「以很快、很猛烈的方式穿過某地」是「tear through somewhere」的用法，與本句語境不同。",
-        "tear-mcq-14": "「表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」」是「tear down」的用法，與本句語境不同。",
-        "tear-mcq-09": "「因為非常投入或喜歡某事，而很難強迫自己離開」是「tear yourself away from something」的用法，與本句語境不同。"
+        "tear-mcq-12": "本句的「tore into him」指「以非常強烈、激烈的方式批評或責罵某人」。",
+        "tear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-12"
     },
@@ -1506,10 +1410,8 @@ export default {
       "options": [
         "tear-mcq-13",
         "tear-mcq-12",
-        "tear-mcq-14",
-        "tear-mcq-11",
-        "tear-mcq-15",
-        "tear-mcq-10"
+        "tear-mcq-18",
+        "tear-mcq-05"
       ],
       "explanation": "本句的「tore into the pizza」指「表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」」。",
       "sentenceIndex": 24,
@@ -1518,12 +1420,10 @@ export default {
         "tore into the pizza"
       ],
       "optionReasons": {
-        "tear-mcq-13": "本句指「表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」」。",
-        "tear-mcq-12": "「以非常強烈、激烈的方式批評或責罵某人」是「tear into someone」的用法，與本句語境不同。",
-        "tear-mcq-14": "「表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」」是「tear down」的用法，與本句語境不同。",
-        "tear-mcq-11": "「以很快速度完成、閱讀、吃掉或處理大量東西」是「tear through something（快速處理／消耗）」的用法，與本句語境不同。",
-        "tear-mcq-15": "「透過批評、羞辱等方式打擊某人的自信或形象」是「tear down someone（figurative）」的用法，與本句語境不同。",
-        "tear-mcq-10": "「以很快、很猛烈的方式穿過某地」是「tear through somewhere」的用法，與本句語境不同。"
+        "tear-mcq-13": "本句的「tore into the pizza」指「表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」」。",
+        "tear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-13"
     },
@@ -1535,11 +1435,9 @@ export default {
       "masked": "He ____ as soon as he sat down.",
       "options": [
         "tear-mcq-13",
-        "tear-mcq-12",
+        "tear-mcq-09",
         "tear-mcq-14",
-        "tear-mcq-11",
-        "tear-mcq-15",
-        "tear-mcq-10"
+        "tear-mcq-19"
       ],
       "explanation": "本句的「tore into his dinner」指「表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」」。",
       "sentenceIndex": 25,
@@ -1548,12 +1446,10 @@ export default {
         "tore into his dinner"
       ],
       "optionReasons": {
-        "tear-mcq-13": "本句指「表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」」。",
-        "tear-mcq-12": "「以非常強烈、激烈的方式批評或責罵某人」是「tear into someone」的用法，與本句語境不同。",
-        "tear-mcq-14": "「表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」」是「tear down」的用法，與本句語境不同。",
-        "tear-mcq-11": "「以很快速度完成、閱讀、吃掉或處理大量東西」是「tear through something（快速處理／消耗）」的用法，與本句語境不同。",
-        "tear-mcq-15": "「透過批評、羞辱等方式打擊某人的自信或形象」是「tear down someone（figurative）」的用法，與本句語境不同。",
-        "tear-mcq-10": "「以很快、很猛烈的方式穿過某地」是「tear through somewhere」的用法，與本句語境不同。"
+        "tear-mcq-13": "本句的「tore into his dinner」指「表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」」。",
+        "tear-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-13"
     },
@@ -1565,11 +1461,9 @@ export default {
       "masked": "They plan to ____.",
       "options": [
         "tear-mcq-14",
+        "tear-mcq-22",
         "tear-mcq-13",
-        "tear-mcq-15",
-        "tear-mcq-12",
-        "tear-mcq-16",
-        "tear-mcq-11"
+        "tear-mcq-08"
       ],
       "explanation": "本句的「tear down the old building」指「表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」」。",
       "sentenceIndex": 26,
@@ -1578,12 +1472,10 @@ export default {
         "tear down the old building"
       ],
       "optionReasons": {
-        "tear-mcq-14": "本句指「表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」」。",
-        "tear-mcq-13": "「表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」」是「tear into food」的用法，與本句語境不同。",
-        "tear-mcq-15": "「透過批評、羞辱等方式打擊某人的自信或形象」是「tear down someone（figurative）」的用法，與本句語境不同。",
-        "tear-mcq-12": "「以非常強烈、激烈的方式批評或責罵某人」是「tear into someone」的用法，與本句語境不同。",
-        "tear-mcq-16": "「使肌肉或韌帶組織因受力而部分或完全撕裂」是「tear a muscle / ligament」的用法，與本句語境不同。",
-        "tear-mcq-11": "「以很快速度完成、閱讀、吃掉或處理大量東西」是「tear through something（快速處理／消耗）」的用法，與本句語境不同。"
+        "tear-mcq-14": "本句的「tear down the old building」指「表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」」。",
+        "tear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-14"
     },
@@ -1595,11 +1487,9 @@ export default {
       "masked": "The wall was ____ last year.",
       "options": [
         "tear-mcq-14",
-        "tear-mcq-13",
-        "tear-mcq-15",
-        "tear-mcq-12",
-        "tear-mcq-16",
-        "tear-mcq-11"
+        "tear-mcq-06",
+        "tear-mcq-19",
+        "tear-mcq-31"
       ],
       "explanation": "本句的「torn down」指「表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」」。",
       "sentenceIndex": 27,
@@ -1608,12 +1498,10 @@ export default {
         "torn down"
       ],
       "optionReasons": {
-        "tear-mcq-14": "本句指「表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」」。",
-        "tear-mcq-13": "「表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」」是「tear into food」的用法，與本句語境不同。",
-        "tear-mcq-15": "「透過批評、羞辱等方式打擊某人的自信或形象」是「tear down someone（figurative）」的用法，與本句語境不同。",
-        "tear-mcq-12": "「以非常強烈、激烈的方式批評或責罵某人」是「tear into someone」的用法，與本句語境不同。",
-        "tear-mcq-16": "「使肌肉或韌帶組織因受力而部分或完全撕裂」是「tear a muscle / ligament」的用法，與本句語境不同。",
-        "tear-mcq-11": "「以很快速度完成、閱讀、吃掉或處理大量東西」是「tear through something（快速處理／消耗）」的用法，與本句語境不同。"
+        "tear-mcq-14": "本句的「torn down」指「表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」」。",
+        "tear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-14"
     },
@@ -1626,10 +1514,8 @@ export default {
       "options": [
         "tear-mcq-15",
         "tear-mcq-14",
-        "tear-mcq-16",
         "tear-mcq-13",
-        "tear-mcq-17",
-        "tear-mcq-12"
+        "tear-mcq-21"
       ],
       "explanation": "本句的「tear people down」指「透過批評、羞辱等方式打擊某人的自信或形象」。",
       "sentenceIndex": 28,
@@ -1638,12 +1524,10 @@ export default {
         "tear people down"
       ],
       "optionReasons": {
-        "tear-mcq-15": "本句指「透過批評、羞辱等方式打擊某人的自信或形象」。",
-        "tear-mcq-14": "「表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」」是「tear down」的用法，與本句語境不同。",
-        "tear-mcq-16": "「使肌肉或韌帶組織因受力而部分或完全撕裂」是「tear a muscle / ligament」的用法，與本句語境不同。",
-        "tear-mcq-13": "「表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」」是「tear into food」的用法，與本句語境不同。",
-        "tear-mcq-17": "「衣物／材料時，表示撕破的；裂開的」是「torn（衣物／材料）」的用法，與本句語境不同。",
-        "tear-mcq-12": "「以非常強烈、激烈的方式批評或責罵某人」是「tear into someone」的用法，與本句語境不同。"
+        "tear-mcq-15": "本句的「tear people down」指「透過批評、羞辱等方式打擊某人的自信或形象」。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-15"
     },
@@ -1655,11 +1539,9 @@ export default {
       "masked": "Constant criticism can ____.",
       "options": [
         "tear-mcq-15",
-        "tear-mcq-14",
-        "tear-mcq-16",
+        "tear-mcq-33",
         "tear-mcq-13",
-        "tear-mcq-17",
-        "tear-mcq-12"
+        "tear-mcq-19"
       ],
       "explanation": "本句的「tear a person down」指「透過批評、羞辱等方式打擊某人的自信或形象」。",
       "sentenceIndex": 29,
@@ -1668,12 +1550,10 @@ export default {
         "tear a person down"
       ],
       "optionReasons": {
-        "tear-mcq-15": "本句指「透過批評、羞辱等方式打擊某人的自信或形象」。",
-        "tear-mcq-14": "「表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」」是「tear down」的用法，與本句語境不同。",
-        "tear-mcq-16": "「使肌肉或韌帶組織因受力而部分或完全撕裂」是「tear a muscle / ligament」的用法，與本句語境不同。",
-        "tear-mcq-13": "「表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」」是「tear into food」的用法，與本句語境不同。",
-        "tear-mcq-17": "「衣物／材料時，表示撕破的；裂開的」是「torn（衣物／材料）」的用法，與本句語境不同。",
-        "tear-mcq-12": "「以非常強烈、激烈的方式批評或責罵某人」是「tear into someone」的用法，與本句語境不同。"
+        "tear-mcq-15": "本句的「tear a person down」指「透過批評、羞辱等方式打擊某人的自信或形象」。",
+        "tear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-15"
     },
@@ -1685,11 +1565,9 @@ export default {
       "masked": "He ____ in his leg.",
       "options": [
         "tear-mcq-16",
-        "tear-mcq-15",
-        "tear-mcq-17",
         "tear-mcq-14",
-        "tear-mcq-18",
-        "tear-mcq-13"
+        "tear-mcq-33",
+        "tear-mcq-34"
       ],
       "explanation": "本句的「tore a muscle」指「使肌肉或韌帶組織因受力而部分或完全撕裂」。",
       "sentenceIndex": 30,
@@ -1698,12 +1576,10 @@ export default {
         "tore a muscle"
       ],
       "optionReasons": {
-        "tear-mcq-16": "本句指「使肌肉或韌帶組織因受力而部分或完全撕裂」。",
-        "tear-mcq-15": "「透過批評、羞辱等方式打擊某人的自信或形象」是「tear down someone（figurative）」的用法，與本句語境不同。",
-        "tear-mcq-17": "「衣物／材料時，表示撕破的；裂開的」是「torn（衣物／材料）」的用法，與本句語境不同。",
-        "tear-mcq-14": "「表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」」是「tear down」的用法，與本句語境不同。",
-        "tear-mcq-18": "「面對兩個選擇或感受時，因兩邊都有吸引力而難以決定」是「be torn between A and B」的用法，與本句語境不同。",
-        "tear-mcq-13": "「表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」」是「tear into food」的用法，與本句語境不同。"
+        "tear-mcq-16": "本句的「tore a muscle」指「使肌肉或韌帶組織因受力而部分或完全撕裂」。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-16"
     },
@@ -1715,11 +1591,9 @@ export default {
       "masked": "She ____ while playing football.",
       "options": [
         "tear-mcq-16",
-        "tear-mcq-15",
-        "tear-mcq-17",
-        "tear-mcq-14",
-        "tear-mcq-18",
-        "tear-mcq-13"
+        "tear-mcq-10",
+        "tear-mcq-13",
+        "tear-mcq-33"
       ],
       "explanation": "本句的「tore a ligament」指「使肌肉或韌帶組織因受力而部分或完全撕裂」。",
       "sentenceIndex": 31,
@@ -1728,12 +1602,10 @@ export default {
         "tore a ligament"
       ],
       "optionReasons": {
-        "tear-mcq-16": "本句指「使肌肉或韌帶組織因受力而部分或完全撕裂」。",
-        "tear-mcq-15": "「透過批評、羞辱等方式打擊某人的自信或形象」是「tear down someone（figurative）」的用法，與本句語境不同。",
-        "tear-mcq-17": "「衣物／材料時，表示撕破的；裂開的」是「torn（衣物／材料）」的用法，與本句語境不同。",
-        "tear-mcq-14": "「表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」」是「tear down」的用法，與本句語境不同。",
-        "tear-mcq-18": "「面對兩個選擇或感受時，因兩邊都有吸引力而難以決定」是「be torn between A and B」的用法，與本句語境不同。",
-        "tear-mcq-13": "「表示狼吞虎嚥地吃；例句：「肚子餓的孩子們開始狼吞虎嚥地吃薄餅。」」是「tear into food」的用法，與本句語境不同。"
+        "tear-mcq-16": "本句的「tore a ligament」指「使肌肉或韌帶組織因受力而部分或完全撕裂」。",
+        "tear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-16"
     },
@@ -1745,11 +1617,9 @@ export default {
       "masked": "He was wearing a ____.",
       "options": [
         "tear-mcq-17",
-        "tear-mcq-16",
-        "tear-mcq-18",
-        "tear-mcq-15",
-        "tear-mcq-19",
-        "tear-mcq-14"
+        "tear-mcq-20",
+        "tear-mcq-28",
+        "tear-mcq-13"
       ],
       "explanation": "本句的「torn shirt」指「衣物／材料時，表示撕破的；裂開的」。",
       "sentenceIndex": 32,
@@ -1758,12 +1628,10 @@ export default {
         "torn shirt"
       ],
       "optionReasons": {
-        "tear-mcq-17": "本句指「衣物／材料時，表示撕破的；裂開的」。",
-        "tear-mcq-16": "「使肌肉或韌帶組織因受力而部分或完全撕裂」是「tear a muscle / ligament」的用法，與本句語境不同。",
-        "tear-mcq-18": "「面對兩個選擇或感受時，因兩邊都有吸引力而難以決定」是「be torn between A and B」的用法，與本句語境不同。",
-        "tear-mcq-15": "「透過批評、羞辱等方式打擊某人的自信或形象」是「tear down someone（figurative）」的用法，與本句語境不同。",
-        "tear-mcq-19": "「對某個決定或情況有互相衝突的感受」是「be torn about something」的用法，與本句語境不同。",
-        "tear-mcq-14": "「表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」」是「tear down」的用法，與本句語境不同。"
+        "tear-mcq-17": "本句的「torn shirt」指「衣物／材料時，表示撕破的；裂開的」。",
+        "tear-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-17"
     },
@@ -1775,11 +1643,9 @@ export default {
       "masked": "The book had several ____.",
       "options": [
         "tear-mcq-17",
-        "tear-mcq-16",
-        "tear-mcq-18",
-        "tear-mcq-15",
-        "tear-mcq-19",
-        "tear-mcq-14"
+        "tear-mcq-30",
+        "tear-mcq-11",
+        "tear-mcq-31"
       ],
       "explanation": "本句的「torn pages」指「衣物／材料時，表示撕破的；裂開的」。",
       "sentenceIndex": 33,
@@ -1788,12 +1654,10 @@ export default {
         "torn pages"
       ],
       "optionReasons": {
-        "tear-mcq-17": "本句指「衣物／材料時，表示撕破的；裂開的」。",
-        "tear-mcq-16": "「使肌肉或韌帶組織因受力而部分或完全撕裂」是「tear a muscle / ligament」的用法，與本句語境不同。",
-        "tear-mcq-18": "「面對兩個選擇或感受時，因兩邊都有吸引力而難以決定」是「be torn between A and B」的用法，與本句語境不同。",
-        "tear-mcq-15": "「透過批評、羞辱等方式打擊某人的自信或形象」是「tear down someone（figurative）」的用法，與本句語境不同。",
-        "tear-mcq-19": "「對某個決定或情況有互相衝突的感受」是「be torn about something」的用法，與本句語境不同。",
-        "tear-mcq-14": "「表示拆掉；拆毀；例句：「他們計劃拆掉那座舊建築。」」是「tear down」的用法，與本句語境不同。"
+        "tear-mcq-17": "本句的「torn pages」指「衣物／材料時，表示撕破的；裂開的」。",
+        "tear-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-17"
     },
@@ -1805,11 +1669,9 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "tear-mcq-18",
-        "tear-mcq-17",
-        "tear-mcq-19",
-        "tear-mcq-16",
-        "tear-mcq-20",
-        "tear-mcq-15"
+        "tear-mcq-08",
+        "tear-mcq-35",
+        "tear-mcq-10"
       ],
       "explanation": "本句的「torn between staying here and moving abroad」指「面對兩個選擇或感受時，因兩邊都有吸引力而難以決定」。",
       "sentenceIndex": 34,
@@ -1818,12 +1680,10 @@ export default {
         "torn between staying here and moving abroad"
       ],
       "optionReasons": {
-        "tear-mcq-18": "本句指「面對兩個選擇或感受時，因兩邊都有吸引力而難以決定」。",
-        "tear-mcq-17": "「衣物／材料時，表示撕破的；裂開的」是「torn（衣物／材料）」的用法，與本句語境不同。",
-        "tear-mcq-19": "「對某個決定或情況有互相衝突的感受」是「be torn about something」的用法，與本句語境不同。",
-        "tear-mcq-16": "「使肌肉或韌帶組織因受力而部分或完全撕裂」是「tear a muscle / ligament」的用法，與本句語境不同。",
-        "tear-mcq-20": "「眼睛因情緒、刺激等產生的一滴液體，即眼淚」是「a tear（眼淚）」的用法，與本句語境不同。",
-        "tear-mcq-15": "「透過批評、羞辱等方式打擊某人的自信或形象」是「tear down someone（figurative）」的用法，與本句語境不同。"
+        "tear-mcq-18": "本句的「torn between staying here and moving abroad」指「面對兩個選擇或感受時，因兩邊都有吸引力而難以決定」。",
+        "tear-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-18"
     },
@@ -1835,11 +1695,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "tear-mcq-18",
-        "tear-mcq-17",
-        "tear-mcq-19",
-        "tear-mcq-16",
-        "tear-mcq-20",
-        "tear-mcq-15"
+        "tear-mcq-35",
+        "tear-mcq-04",
+        "tear-mcq-13"
       ],
       "explanation": "本句的「torn between loyalty and ambition」指「面對兩個選擇或感受時，因兩邊都有吸引力而難以決定」。",
       "sentenceIndex": 35,
@@ -1848,12 +1706,10 @@ export default {
         "torn between loyalty and ambition"
       ],
       "optionReasons": {
-        "tear-mcq-18": "本句指「面對兩個選擇或感受時，因兩邊都有吸引力而難以決定」。",
-        "tear-mcq-17": "「衣物／材料時，表示撕破的；裂開的」是「torn（衣物／材料）」的用法，與本句語境不同。",
-        "tear-mcq-19": "「對某個決定或情況有互相衝突的感受」是「be torn about something」的用法，與本句語境不同。",
-        "tear-mcq-16": "「使肌肉或韌帶組織因受力而部分或完全撕裂」是「tear a muscle / ligament」的用法，與本句語境不同。",
-        "tear-mcq-20": "「眼睛因情緒、刺激等產生的一滴液體，即眼淚」是「a tear（眼淚）」的用法，與本句語境不同。",
-        "tear-mcq-15": "「透過批評、羞辱等方式打擊某人的自信或形象」是「tear down someone（figurative）」的用法，與本句語境不同。"
+        "tear-mcq-18": "本句的「torn between loyalty and ambition」指「面對兩個選擇或感受時，因兩邊都有吸引力而難以決定」。",
+        "tear-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-18"
     },
@@ -1865,11 +1721,9 @@ export default {
       "masked": "I'm still ____.",
       "options": [
         "tear-mcq-19",
-        "tear-mcq-18",
-        "tear-mcq-20",
-        "tear-mcq-17",
-        "tear-mcq-21",
-        "tear-mcq-16"
+        "tear-mcq-11",
+        "tear-mcq-07",
+        "tear-mcq-33"
       ],
       "explanation": "本句的「torn about whether to accept the offer」指「對某個決定或情況有互相衝突的感受」。",
       "sentenceIndex": 36,
@@ -1878,12 +1732,10 @@ export default {
         "torn about whether to accept the offer"
       ],
       "optionReasons": {
-        "tear-mcq-19": "本句指「對某個決定或情況有互相衝突的感受」。",
-        "tear-mcq-18": "「面對兩個選擇或感受時，因兩邊都有吸引力而難以決定」是「be torn between A and B」的用法，與本句語境不同。",
-        "tear-mcq-20": "「眼睛因情緒、刺激等產生的一滴液體，即眼淚」是「a tear（眼淚）」的用法，與本句語境不同。",
-        "tear-mcq-17": "「衣物／材料時，表示撕破的；裂開的」是「torn（衣物／材料）」的用法，與本句語境不同。",
-        "tear-mcq-21": "「因哭泣、情緒或眼睛受刺激而流出的淚水」是「tears（眼淚）」的用法，與本句語境不同。",
-        "tear-mcq-16": "「使肌肉或韌帶組織因受力而部分或完全撕裂」是「tear a muscle / ligament」的用法，與本句語境不同。"
+        "tear-mcq-19": "本句的「torn about whether to accept the offer」指「對某個決定或情況有互相衝突的感受」。",
+        "tear-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-19"
     },
@@ -1895,11 +1747,9 @@ export default {
       "masked": "He felt ____.",
       "options": [
         "tear-mcq-19",
-        "tear-mcq-18",
-        "tear-mcq-20",
-        "tear-mcq-17",
-        "tear-mcq-21",
-        "tear-mcq-16"
+        "tear-mcq-30",
+        "tear-mcq-03",
+        "tear-mcq-13"
       ],
       "explanation": "本句的「torn about leaving his family」指「對某個決定或情況有互相衝突的感受」。",
       "sentenceIndex": 37,
@@ -1908,12 +1758,10 @@ export default {
         "torn about leaving his family"
       ],
       "optionReasons": {
-        "tear-mcq-19": "本句指「對某個決定或情況有互相衝突的感受」。",
-        "tear-mcq-18": "「面對兩個選擇或感受時，因兩邊都有吸引力而難以決定」是「be torn between A and B」的用法，與本句語境不同。",
-        "tear-mcq-20": "「眼睛因情緒、刺激等產生的一滴液體，即眼淚」是「a tear（眼淚）」的用法，與本句語境不同。",
-        "tear-mcq-17": "「衣物／材料時，表示撕破的；裂開的」是「torn（衣物／材料）」的用法，與本句語境不同。",
-        "tear-mcq-21": "「因哭泣、情緒或眼睛受刺激而流出的淚水」是「tears（眼淚）」的用法，與本句語境不同。",
-        "tear-mcq-16": "「使肌肉或韌帶組織因受力而部分或完全撕裂」是「tear a muscle / ligament」的用法，與本句語境不同。"
+        "tear-mcq-19": "本句的「torn about leaving his family」指「對某個決定或情況有互相衝突的感受」。",
+        "tear-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-19"
     },
@@ -1925,11 +1773,9 @@ export default {
       "masked": "A ____ rolled down her cheek.",
       "options": [
         "tear-mcq-20",
-        "tear-mcq-19",
-        "tear-mcq-21",
-        "tear-mcq-18",
-        "tear-mcq-22",
-        "tear-mcq-17"
+        "tear-mcq-04",
+        "tear-mcq-13",
+        "tear-mcq-03"
       ],
       "explanation": "本句的「tear」指「眼睛因情緒、刺激等產生的一滴液體，即眼淚」。",
       "sentenceIndex": 38,
@@ -1938,12 +1784,10 @@ export default {
         "tear"
       ],
       "optionReasons": {
-        "tear-mcq-20": "本句指「眼睛因情緒、刺激等產生的一滴液體，即眼淚」。",
-        "tear-mcq-19": "「對某個決定或情況有互相衝突的感受」是「be torn about something」的用法，與本句語境不同。",
-        "tear-mcq-21": "「因哭泣、情緒或眼睛受刺激而流出的淚水」是「tears（眼淚）」的用法，與本句語境不同。",
-        "tear-mcq-18": "「面對兩個選擇或感受時，因兩邊都有吸引力而難以決定」是「be torn between A and B」的用法，與本句語境不同。",
-        "tear-mcq-22": "「正在哭泣或因情緒強烈而滿眼淚水」是「in tears」的用法，與本句語境不同。",
-        "tear-mcq-17": "「衣物／材料時，表示撕破的；裂開的」是「torn（衣物／材料）」的用法，與本句語境不同。"
+        "tear-mcq-20": "本句的「tear」指「眼睛因情緒、刺激等產生的一滴液體，即眼淚」。",
+        "tear-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-20"
     },
@@ -1955,11 +1799,9 @@ export default {
       "masked": "He wiped away a ____.",
       "options": [
         "tear-mcq-20",
-        "tear-mcq-19",
-        "tear-mcq-21",
-        "tear-mcq-18",
-        "tear-mcq-22",
-        "tear-mcq-17"
+        "tear-mcq-10",
+        "tear-mcq-06",
+        "tear-mcq-13"
       ],
       "explanation": "本句的「tear」指「眼睛因情緒、刺激等產生的一滴液體，即眼淚」。",
       "sentenceIndex": 39,
@@ -1968,12 +1810,10 @@ export default {
         "tear"
       ],
       "optionReasons": {
-        "tear-mcq-20": "本句指「眼睛因情緒、刺激等產生的一滴液體，即眼淚」。",
-        "tear-mcq-19": "「對某個決定或情況有互相衝突的感受」是「be torn about something」的用法，與本句語境不同。",
-        "tear-mcq-21": "「因哭泣、情緒或眼睛受刺激而流出的淚水」是「tears（眼淚）」的用法，與本句語境不同。",
-        "tear-mcq-18": "「面對兩個選擇或感受時，因兩邊都有吸引力而難以決定」是「be torn between A and B」的用法，與本句語境不同。",
-        "tear-mcq-22": "「正在哭泣或因情緒強烈而滿眼淚水」是「in tears」的用法，與本句語境不同。",
-        "tear-mcq-17": "「衣物／材料時，表示撕破的；裂開的」是「torn（衣物／材料）」的用法，與本句語境不同。"
+        "tear-mcq-20": "本句的「tear」指「眼睛因情緒、刺激等產生的一滴液體，即眼淚」。",
+        "tear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-20"
     },
@@ -1985,11 +1825,9 @@ export default {
       "masked": "____ filled her eyes.",
       "options": [
         "tear-mcq-21",
-        "tear-mcq-20",
-        "tear-mcq-22",
-        "tear-mcq-19",
-        "tear-mcq-23",
-        "tear-mcq-18"
+        "tear-mcq-06",
+        "tear-mcq-10",
+        "tear-mcq-13"
       ],
       "explanation": "本句的「Tears」指「因哭泣、情緒或眼睛受刺激而流出的淚水」。",
       "sentenceIndex": 40,
@@ -1998,12 +1836,10 @@ export default {
         "Tears"
       ],
       "optionReasons": {
-        "tear-mcq-21": "本句指「因哭泣、情緒或眼睛受刺激而流出的淚水」。",
-        "tear-mcq-20": "「眼睛因情緒、刺激等產生的一滴液體，即眼淚」是「a tear（眼淚）」的用法，與本句語境不同。",
-        "tear-mcq-22": "「正在哭泣或因情緒強烈而滿眼淚水」是「in tears」的用法，與本句語境不同。",
-        "tear-mcq-19": "「對某個決定或情況有互相衝突的感受」是「be torn about something」的用法，與本句語境不同。",
-        "tear-mcq-23": "「因強烈情緒而突然開始哭泣」是「burst into tears」的用法，與本句語境不同。",
-        "tear-mcq-18": "「面對兩個選擇或感受時，因兩邊都有吸引力而難以決定」是「be torn between A and B」的用法，與本句語境不同。"
+        "tear-mcq-21": "本句的「Tears」指「因哭泣、情緒或眼睛受刺激而流出的淚水」。",
+        "tear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-21"
     },
@@ -2015,11 +1851,9 @@ export default {
       "masked": "He had ____ running down his face.",
       "options": [
         "tear-mcq-21",
-        "tear-mcq-20",
-        "tear-mcq-22",
-        "tear-mcq-19",
-        "tear-mcq-23",
-        "tear-mcq-18"
+        "tear-mcq-15",
+        "tear-mcq-10",
+        "tear-mcq-07"
       ],
       "explanation": "本句的「tears」指「因哭泣、情緒或眼睛受刺激而流出的淚水」。",
       "sentenceIndex": 41,
@@ -2028,12 +1862,10 @@ export default {
         "tears"
       ],
       "optionReasons": {
-        "tear-mcq-21": "本句指「因哭泣、情緒或眼睛受刺激而流出的淚水」。",
-        "tear-mcq-20": "「眼睛因情緒、刺激等產生的一滴液體，即眼淚」是「a tear（眼淚）」的用法，與本句語境不同。",
-        "tear-mcq-22": "「正在哭泣或因情緒強烈而滿眼淚水」是「in tears」的用法，與本句語境不同。",
-        "tear-mcq-19": "「對某個決定或情況有互相衝突的感受」是「be torn about something」的用法，與本句語境不同。",
-        "tear-mcq-23": "「因強烈情緒而突然開始哭泣」是「burst into tears」的用法，與本句語境不同。",
-        "tear-mcq-18": "「面對兩個選擇或感受時，因兩邊都有吸引力而難以決定」是「be torn between A and B」的用法，與本句語境不同。"
+        "tear-mcq-21": "本句的「tears」指「因哭泣、情緒或眼睛受刺激而流出的淚水」。",
+        "tear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-21"
     },
@@ -2045,11 +1877,9 @@ export default {
       "masked": "She left the room ____.",
       "options": [
         "tear-mcq-22",
-        "tear-mcq-21",
-        "tear-mcq-23",
-        "tear-mcq-20",
-        "tear-mcq-24",
-        "tear-mcq-19"
+        "tear-mcq-13",
+        "tear-mcq-05",
+        "tear-mcq-14"
       ],
       "explanation": "本句的「in tears」指「正在哭泣或因情緒強烈而滿眼淚水」。",
       "sentenceIndex": 42,
@@ -2058,12 +1888,10 @@ export default {
         "in tears"
       ],
       "optionReasons": {
-        "tear-mcq-22": "本句指「正在哭泣或因情緒強烈而滿眼淚水」。",
-        "tear-mcq-21": "「因哭泣、情緒或眼睛受刺激而流出的淚水」是「tears（眼淚）」的用法，與本句語境不同。",
-        "tear-mcq-23": "「因強烈情緒而突然開始哭泣」是「burst into tears」的用法，與本句語境不同。",
-        "tear-mcq-20": "「眼睛因情緒、刺激等產生的一滴液體，即眼淚」是「a tear（眼淚）」的用法，與本句語境不同。",
-        "tear-mcq-24": "「情緒強烈到幾乎要開始哭泣」是「be close to tears / on the verge of tears」的用法，與本句語境不同。",
-        "tear-mcq-19": "「對某個決定或情況有互相衝突的感受」是「be torn about something」的用法，與本句語境不同。"
+        "tear-mcq-22": "本句的「in tears」指「正在哭泣或因情緒強烈而滿眼淚水」。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-22"
     },
@@ -2075,11 +1903,9 @@ export default {
       "masked": "He was ____ after hearing the news.",
       "options": [
         "tear-mcq-22",
-        "tear-mcq-21",
-        "tear-mcq-23",
-        "tear-mcq-20",
-        "tear-mcq-24",
-        "tear-mcq-19"
+        "tear-mcq-05",
+        "tear-mcq-14",
+        "tear-mcq-15"
       ],
       "explanation": "本句的「in tears」指「正在哭泣或因情緒強烈而滿眼淚水」。",
       "sentenceIndex": 43,
@@ -2088,12 +1914,10 @@ export default {
         "in tears"
       ],
       "optionReasons": {
-        "tear-mcq-22": "本句指「正在哭泣或因情緒強烈而滿眼淚水」。",
-        "tear-mcq-21": "「因哭泣、情緒或眼睛受刺激而流出的淚水」是「tears（眼淚）」的用法，與本句語境不同。",
-        "tear-mcq-23": "「因強烈情緒而突然開始哭泣」是「burst into tears」的用法，與本句語境不同。",
-        "tear-mcq-20": "「眼睛因情緒、刺激等產生的一滴液體，即眼淚」是「a tear（眼淚）」的用法，與本句語境不同。",
-        "tear-mcq-24": "「情緒強烈到幾乎要開始哭泣」是「be close to tears / on the verge of tears」的用法，與本句語境不同。",
-        "tear-mcq-19": "「對某個決定或情況有互相衝突的感受」是「be torn about something」的用法，與本句語境不同。"
+        "tear-mcq-22": "本句的「in tears」指「正在哭泣或因情緒強烈而滿眼淚水」。",
+        "tear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-22"
     },
@@ -2105,11 +1929,9 @@ export default {
       "masked": "The child ____.",
       "options": [
         "tear-mcq-23",
-        "tear-mcq-22",
-        "tear-mcq-24",
-        "tear-mcq-21",
         "tear-mcq-25",
-        "tear-mcq-20"
+        "tear-mcq-03",
+        "tear-mcq-15"
       ],
       "explanation": "本句的「burst into tears」指「因強烈情緒而突然開始哭泣」。",
       "sentenceIndex": 44,
@@ -2118,12 +1940,10 @@ export default {
         "burst into tears"
       ],
       "optionReasons": {
-        "tear-mcq-23": "本句指「因強烈情緒而突然開始哭泣」。",
-        "tear-mcq-22": "「正在哭泣或因情緒強烈而滿眼淚水」是「in tears」的用法，與本句語境不同。",
-        "tear-mcq-24": "「情緒強烈到幾乎要開始哭泣」是「be close to tears / on the verge of tears」的用法，與本句語境不同。",
-        "tear-mcq-21": "「因哭泣、情緒或眼睛受刺激而流出的淚水」是「tears（眼淚）」的用法，與本句語境不同。",
-        "tear-mcq-25": "「努力控制自己，不讓眼淚流出來」是「fight back tears」的用法，與本句語境不同。",
-        "tear-mcq-20": "「眼睛因情緒、刺激等產生的一滴液體，即眼淚」是「a tear（眼淚）」的用法，與本句語境不同。"
+        "tear-mcq-23": "本句的「burst into tears」指「因強烈情緒而突然開始哭泣」。",
+        "tear-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-23"
     },
@@ -2135,11 +1955,9 @@ export default {
       "masked": "She ____ when she saw him.",
       "options": [
         "tear-mcq-23",
-        "tear-mcq-22",
-        "tear-mcq-24",
-        "tear-mcq-21",
+        "tear-mcq-06",
         "tear-mcq-25",
-        "tear-mcq-20"
+        "tear-mcq-13"
       ],
       "explanation": "本句的「burst into tears」指「因強烈情緒而突然開始哭泣」。",
       "sentenceIndex": 45,
@@ -2148,12 +1966,10 @@ export default {
         "burst into tears"
       ],
       "optionReasons": {
-        "tear-mcq-23": "本句指「因強烈情緒而突然開始哭泣」。",
-        "tear-mcq-22": "「正在哭泣或因情緒強烈而滿眼淚水」是「in tears」的用法，與本句語境不同。",
-        "tear-mcq-24": "「情緒強烈到幾乎要開始哭泣」是「be close to tears / on the verge of tears」的用法，與本句語境不同。",
-        "tear-mcq-21": "「因哭泣、情緒或眼睛受刺激而流出的淚水」是「tears（眼淚）」的用法，與本句語境不同。",
-        "tear-mcq-25": "「努力控制自己，不讓眼淚流出來」是「fight back tears」的用法，與本句語境不同。",
-        "tear-mcq-20": "「眼睛因情緒、刺激等產生的一滴液體，即眼淚」是「a tear（眼淚）」的用法，與本句語境不同。"
+        "tear-mcq-23": "本句的「burst into tears」指「因強烈情緒而突然開始哭泣」。",
+        "tear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-23"
     },
@@ -2165,11 +1981,9 @@ export default {
       "masked": "She looked ____.",
       "options": [
         "tear-mcq-24",
-        "tear-mcq-23",
-        "tear-mcq-25",
-        "tear-mcq-22",
-        "tear-mcq-26",
-        "tear-mcq-21"
+        "tear-mcq-19",
+        "tear-mcq-14",
+        "tear-mcq-27"
       ],
       "explanation": "本句的「close to tears」指「情緒強烈到幾乎要開始哭泣」。",
       "sentenceIndex": 46,
@@ -2178,12 +1992,10 @@ export default {
         "close to tears"
       ],
       "optionReasons": {
-        "tear-mcq-24": "本句指「情緒強烈到幾乎要開始哭泣」。",
-        "tear-mcq-23": "「因強烈情緒而突然開始哭泣」是「burst into tears」的用法，與本句語境不同。",
-        "tear-mcq-25": "「努力控制自己，不讓眼淚流出來」是「fight back tears」的用法，與本句語境不同。",
-        "tear-mcq-22": "「正在哭泣或因情緒強烈而滿眼淚水」是「in tears」的用法，與本句語境不同。",
-        "tear-mcq-26": "「控制自己的情緒，阻止眼淚流出」是「hold back tears」的用法，與本句語境不同。",
-        "tear-mcq-21": "「因哭泣、情緒或眼睛受刺激而流出的淚水」是「tears（眼淚）」的用法，與本句語境不同。"
+        "tear-mcq-24": "本句的「close to tears」指「情緒強烈到幾乎要開始哭泣」。",
+        "tear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-24"
     },
@@ -2195,11 +2007,9 @@ export default {
       "masked": "He was ____ after the argument.",
       "options": [
         "tear-mcq-24",
-        "tear-mcq-23",
-        "tear-mcq-25",
-        "tear-mcq-22",
-        "tear-mcq-26",
-        "tear-mcq-21"
+        "tear-mcq-18",
+        "tear-mcq-05",
+        "tear-mcq-27"
       ],
       "explanation": "本句的「on the verge of tears」指「情緒強烈到幾乎要開始哭泣」。",
       "sentenceIndex": 47,
@@ -2208,12 +2018,10 @@ export default {
         "on the verge of tears"
       ],
       "optionReasons": {
-        "tear-mcq-24": "本句指「情緒強烈到幾乎要開始哭泣」。",
-        "tear-mcq-23": "「因強烈情緒而突然開始哭泣」是「burst into tears」的用法，與本句語境不同。",
-        "tear-mcq-25": "「努力控制自己，不讓眼淚流出來」是「fight back tears」的用法，與本句語境不同。",
-        "tear-mcq-22": "「正在哭泣或因情緒強烈而滿眼淚水」是「in tears」的用法，與本句語境不同。",
-        "tear-mcq-26": "「控制自己的情緒，阻止眼淚流出」是「hold back tears」的用法，與本句語境不同。",
-        "tear-mcq-21": "「因哭泣、情緒或眼睛受刺激而流出的淚水」是「tears（眼淚）」的用法，與本句語境不同。"
+        "tear-mcq-24": "本句的「on the verge of tears」指「情緒強烈到幾乎要開始哭泣」。",
+        "tear-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-24"
     },
@@ -2225,11 +2033,9 @@ export default {
       "masked": "She ____ during the speech.",
       "options": [
         "tear-mcq-25",
-        "tear-mcq-24",
-        "tear-mcq-26",
-        "tear-mcq-23",
-        "tear-mcq-27",
-        "tear-mcq-22"
+        "tear-mcq-04",
+        "tear-mcq-13",
+        "tear-mcq-10"
       ],
       "explanation": "本句的「fought back tears」指「努力控制自己，不讓眼淚流出來」。",
       "sentenceIndex": 48,
@@ -2238,12 +2044,10 @@ export default {
         "fought back tears"
       ],
       "optionReasons": {
-        "tear-mcq-25": "本句指「努力控制自己，不讓眼淚流出來」。",
-        "tear-mcq-24": "「情緒強烈到幾乎要開始哭泣」是「be close to tears / on the verge of tears」的用法，與本句語境不同。",
-        "tear-mcq-26": "「控制自己的情緒，阻止眼淚流出」是「hold back tears」的用法，與本句語境不同。",
-        "tear-mcq-23": "「因強烈情緒而突然開始哭泣」是「burst into tears」的用法，與本句語境不同。",
-        "tear-mcq-27": "「表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」」是「move someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-22": "「正在哭泣或因情緒強烈而滿眼淚水」是「in tears」的用法，與本句語境不同。"
+        "tear-mcq-25": "本句的「fought back tears」指「努力控制自己，不讓眼淚流出來」。",
+        "tear-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-25"
     },
@@ -2255,11 +2059,9 @@ export default {
       "masked": "He ____ as he said goodbye.",
       "options": [
         "tear-mcq-25",
-        "tear-mcq-24",
-        "tear-mcq-26",
-        "tear-mcq-23",
-        "tear-mcq-27",
-        "tear-mcq-22"
+        "tear-mcq-13",
+        "tear-mcq-14",
+        "tear-mcq-23"
       ],
       "explanation": "本句的「fought back tears」指「努力控制自己，不讓眼淚流出來」。",
       "sentenceIndex": 49,
@@ -2268,12 +2070,10 @@ export default {
         "fought back tears"
       ],
       "optionReasons": {
-        "tear-mcq-25": "本句指「努力控制自己，不讓眼淚流出來」。",
-        "tear-mcq-24": "「情緒強烈到幾乎要開始哭泣」是「be close to tears / on the verge of tears」的用法，與本句語境不同。",
-        "tear-mcq-26": "「控制自己的情緒，阻止眼淚流出」是「hold back tears」的用法，與本句語境不同。",
-        "tear-mcq-23": "「因強烈情緒而突然開始哭泣」是「burst into tears」的用法，與本句語境不同。",
-        "tear-mcq-27": "「表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」」是「move someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-22": "「正在哭泣或因情緒強烈而滿眼淚水」是「in tears」的用法，與本句語境不同。"
+        "tear-mcq-25": "本句的「fought back tears」指「努力控制自己，不讓眼淚流出來」。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-25"
     },
@@ -2285,11 +2085,9 @@ export default {
       "masked": "She could barely ____.",
       "options": [
         "tear-mcq-26",
-        "tear-mcq-25",
-        "tear-mcq-27",
-        "tear-mcq-24",
-        "tear-mcq-28",
-        "tear-mcq-23"
+        "tear-mcq-05",
+        "tear-mcq-12",
+        "tear-mcq-14"
       ],
       "explanation": "本句的「hold back her tears」指「控制自己的情緒，阻止眼淚流出」。",
       "sentenceIndex": 50,
@@ -2298,12 +2096,10 @@ export default {
         "hold back her tears"
       ],
       "optionReasons": {
-        "tear-mcq-26": "本句指「控制自己的情緒，阻止眼淚流出」。",
-        "tear-mcq-25": "「努力控制自己，不讓眼淚流出來」是「fight back tears」的用法，與本句語境不同。",
-        "tear-mcq-27": "「表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」」是「move someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-24": "「情緒強烈到幾乎要開始哭泣」是「be close to tears / on the verge of tears」的用法，與本句語境不同。",
-        "tear-mcq-28": "「令某人因感動、悲傷等而幾乎或真的流淚」是「bring tears to someone's eyes」的用法，與本句語境不同。",
-        "tear-mcq-23": "「因強烈情緒而突然開始哭泣」是「burst into tears」的用法，與本句語境不同。"
+        "tear-mcq-26": "本句的「hold back her tears」指「控制自己的情緒，阻止眼淚流出」。",
+        "tear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-26"
     },
@@ -2315,11 +2111,9 @@ export default {
       "masked": "He tried to ____ during the ceremony.",
       "options": [
         "tear-mcq-26",
-        "tear-mcq-25",
-        "tear-mcq-27",
-        "tear-mcq-24",
-        "tear-mcq-28",
-        "tear-mcq-23"
+        "tear-mcq-02",
+        "tear-mcq-12",
+        "tear-mcq-13"
       ],
       "explanation": "本句的「hold back tears」指「控制自己的情緒，阻止眼淚流出」。",
       "sentenceIndex": 51,
@@ -2328,12 +2122,10 @@ export default {
         "hold back tears"
       ],
       "optionReasons": {
-        "tear-mcq-26": "本句指「控制自己的情緒，阻止眼淚流出」。",
-        "tear-mcq-25": "「努力控制自己，不讓眼淚流出來」是「fight back tears」的用法，與本句語境不同。",
-        "tear-mcq-27": "「表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」」是「move someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-24": "「情緒強烈到幾乎要開始哭泣」是「be close to tears / on the verge of tears」的用法，與本句語境不同。",
-        "tear-mcq-28": "「令某人因感動、悲傷等而幾乎或真的流淚」是「bring tears to someone's eyes」的用法，與本句語境不同。",
-        "tear-mcq-23": "「因強烈情緒而突然開始哭泣」是「burst into tears」的用法，與本句語境不同。"
+        "tear-mcq-26": "本句的「hold back tears」指「控制自己的情緒，阻止眼淚流出」。",
+        "tear-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-26"
     },
@@ -2345,11 +2137,9 @@ export default {
       "masked": "The speech ____.",
       "options": [
         "tear-mcq-27",
-        "tear-mcq-26",
-        "tear-mcq-28",
-        "tear-mcq-25",
-        "tear-mcq-29",
-        "tear-mcq-24"
+        "tear-mcq-05",
+        "tear-mcq-09",
+        "tear-mcq-11"
       ],
       "explanation": "本句的「moved her to tears」指「表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」」。",
       "sentenceIndex": 52,
@@ -2358,12 +2148,10 @@ export default {
         "moved her to tears"
       ],
       "optionReasons": {
-        "tear-mcq-27": "本句指「表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」」。",
-        "tear-mcq-26": "「控制自己的情緒，阻止眼淚流出」是「hold back tears」的用法，與本句語境不同。",
-        "tear-mcq-28": "「令某人因感動、悲傷等而幾乎或真的流淚」是「bring tears to someone's eyes」的用法，與本句語境不同。",
-        "tear-mcq-25": "「努力控制自己，不讓眼淚流出來」是「fight back tears」的用法，與本句語境不同。",
-        "tear-mcq-29": "「因極度開心或感動而流下的眼淚」是「tears of joy」的用法，與本句語境不同。",
-        "tear-mcq-24": "「情緒強烈到幾乎要開始哭泣」是「be close to tears / on the verge of tears」的用法，與本句語境不同。"
+        "tear-mcq-27": "本句的「moved her to tears」指「表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」」。",
+        "tear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-27"
     },
@@ -2375,10 +2163,8 @@ export default {
       "masked": "His kindness ____.",
       "options": [
         "tear-mcq-27",
-        "tear-mcq-26",
-        "tear-mcq-28",
-        "tear-mcq-25",
-        "tear-mcq-29",
+        "tear-mcq-01",
+        "tear-mcq-04",
         "tear-mcq-24"
       ],
       "explanation": "本句的「moved me to tears」指「表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」」。",
@@ -2388,12 +2174,10 @@ export default {
         "moved me to tears"
       ],
       "optionReasons": {
-        "tear-mcq-27": "本句指「表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」」。",
-        "tear-mcq-26": "「控制自己的情緒，阻止眼淚流出」是「hold back tears」的用法，與本句語境不同。",
-        "tear-mcq-28": "「令某人因感動、悲傷等而幾乎或真的流淚」是「bring tears to someone's eyes」的用法，與本句語境不同。",
-        "tear-mcq-25": "「努力控制自己，不讓眼淚流出來」是「fight back tears」的用法，與本句語境不同。",
-        "tear-mcq-29": "「因極度開心或感動而流下的眼淚」是「tears of joy」的用法，與本句語境不同。",
-        "tear-mcq-24": "「情緒強烈到幾乎要開始哭泣」是「be close to tears / on the verge of tears」的用法，與本句語境不同。"
+        "tear-mcq-27": "本句的「moved me to tears」指「表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」」。",
+        "tear-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-27"
     },
@@ -2405,11 +2189,9 @@ export default {
       "masked": "The memory ____.",
       "options": [
         "tear-mcq-28",
-        "tear-mcq-27",
-        "tear-mcq-29",
-        "tear-mcq-26",
-        "tear-mcq-30",
-        "tear-mcq-25"
+        "tear-mcq-04",
+        "tear-mcq-10",
+        "tear-mcq-13"
       ],
       "explanation": "本句的「brought tears to her eyes」指「令某人因感動、悲傷等而幾乎或真的流淚」。",
       "sentenceIndex": 54,
@@ -2418,12 +2200,10 @@ export default {
         "brought tears to her eyes"
       ],
       "optionReasons": {
-        "tear-mcq-28": "本句指「令某人因感動、悲傷等而幾乎或真的流淚」。",
-        "tear-mcq-27": "「表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」」是「move someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-29": "「因極度開心或感動而流下的眼淚」是「tears of joy」的用法，與本句語境不同。",
-        "tear-mcq-26": "「控制自己的情緒，阻止眼淚流出」是「hold back tears」的用法，與本句語境不同。",
-        "tear-mcq-30": "「因某種強烈情緒而流下的眼淚」是「tears of sadness / frustration」的用法，與本句語境不同。",
-        "tear-mcq-25": "「努力控制自己，不讓眼淚流出來」是「fight back tears」的用法，與本句語境不同。"
+        "tear-mcq-28": "本句的「brought tears to her eyes」指「令某人因感動、悲傷等而幾乎或真的流淚」。",
+        "tear-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-28"
     },
@@ -2435,11 +2215,9 @@ export default {
       "masked": "The song always ____.",
       "options": [
         "tear-mcq-28",
-        "tear-mcq-27",
-        "tear-mcq-29",
-        "tear-mcq-26",
-        "tear-mcq-30",
-        "tear-mcq-25"
+        "tear-mcq-11",
+        "tear-mcq-13",
+        "tear-mcq-06"
       ],
       "explanation": "本句的「brings tears to my eyes」指「令某人因感動、悲傷等而幾乎或真的流淚」。",
       "sentenceIndex": 55,
@@ -2448,12 +2226,10 @@ export default {
         "brings tears to my eyes"
       ],
       "optionReasons": {
-        "tear-mcq-28": "本句指「令某人因感動、悲傷等而幾乎或真的流淚」。",
-        "tear-mcq-27": "「表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」」是「move someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-29": "「因極度開心或感動而流下的眼淚」是「tears of joy」的用法，與本句語境不同。",
-        "tear-mcq-26": "「控制自己的情緒，阻止眼淚流出」是「hold back tears」的用法，與本句語境不同。",
-        "tear-mcq-30": "「因某種強烈情緒而流下的眼淚」是「tears of sadness / frustration」的用法，與本句語境不同。",
-        "tear-mcq-25": "「努力控制自己，不讓眼淚流出來」是「fight back tears」的用法，與本句語境不同。"
+        "tear-mcq-28": "本句的「brings tears to my eyes」指「令某人因感動、悲傷等而幾乎或真的流淚」。",
+        "tear-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-28"
     },
@@ -2465,11 +2241,9 @@ export default {
       "masked": "She cried ____ when she heard the result.",
       "options": [
         "tear-mcq-29",
-        "tear-mcq-28",
-        "tear-mcq-30",
-        "tear-mcq-27",
-        "tear-mcq-31",
-        "tear-mcq-26"
+        "tear-mcq-06",
+        "tear-mcq-10",
+        "tear-mcq-14"
       ],
       "explanation": "本句的「tears of joy」指「因極度開心或感動而流下的眼淚」。",
       "sentenceIndex": 56,
@@ -2478,12 +2252,10 @@ export default {
         "tears of joy"
       ],
       "optionReasons": {
-        "tear-mcq-29": "本句指「因極度開心或感動而流下的眼淚」。",
-        "tear-mcq-28": "「令某人因感動、悲傷等而幾乎或真的流淚」是「bring tears to someone's eyes」的用法，與本句語境不同。",
-        "tear-mcq-30": "「因某種強烈情緒而流下的眼淚」是「tears of sadness / frustration」的用法，與本句語境不同。",
-        "tear-mcq-27": "「表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」」是「move someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-31": "「令某人因悲傷、壓力或痛苦而哭泣」是「cry yourself to tears / reduce someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-26": "「控制自己的情緒，阻止眼淚流出」是「hold back tears」的用法，與本句語境不同。"
+        "tear-mcq-29": "本句的「tears of joy」指「因極度開心或感動而流下的眼淚」。",
+        "tear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-29"
     },
@@ -2495,11 +2267,9 @@ export default {
       "masked": "His parents were in ____.",
       "options": [
         "tear-mcq-29",
-        "tear-mcq-28",
-        "tear-mcq-30",
-        "tear-mcq-27",
-        "tear-mcq-31",
-        "tear-mcq-26"
+        "tear-mcq-05",
+        "tear-mcq-14",
+        "tear-mcq-13"
       ],
       "explanation": "本句的「tears of joy」指「因極度開心或感動而流下的眼淚」。",
       "sentenceIndex": 57,
@@ -2508,12 +2278,10 @@ export default {
         "tears of joy"
       ],
       "optionReasons": {
-        "tear-mcq-29": "本句指「因極度開心或感動而流下的眼淚」。",
-        "tear-mcq-28": "「令某人因感動、悲傷等而幾乎或真的流淚」是「bring tears to someone's eyes」的用法，與本句語境不同。",
-        "tear-mcq-30": "「因某種強烈情緒而流下的眼淚」是「tears of sadness / frustration」的用法，與本句語境不同。",
-        "tear-mcq-27": "「表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」」是「move someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-31": "「令某人因悲傷、壓力或痛苦而哭泣」是「cry yourself to tears / reduce someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-26": "「控制自己的情緒，阻止眼淚流出」是「hold back tears」的用法，與本句語境不同。"
+        "tear-mcq-29": "本句的「tears of joy」指「因極度開心或感動而流下的眼淚」。",
+        "tear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-29"
     },
@@ -2525,11 +2293,9 @@ export default {
       "masked": "She cried ____.",
       "options": [
         "tear-mcq-30",
-        "tear-mcq-29",
-        "tear-mcq-31",
-        "tear-mcq-28",
-        "tear-mcq-32",
-        "tear-mcq-27"
+        "tear-mcq-05",
+        "tear-mcq-17",
+        "tear-mcq-03"
       ],
       "explanation": "本句的「tears of frustration」指「因某種強烈情緒而流下的眼淚」。",
       "sentenceIndex": 58,
@@ -2538,12 +2304,10 @@ export default {
         "tears of frustration"
       ],
       "optionReasons": {
-        "tear-mcq-30": "本句指「因某種強烈情緒而流下的眼淚」。",
-        "tear-mcq-29": "「因極度開心或感動而流下的眼淚」是「tears of joy」的用法，與本句語境不同。",
-        "tear-mcq-31": "「令某人因悲傷、壓力或痛苦而哭泣」是「cry yourself to tears / reduce someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-28": "「令某人因感動、悲傷等而幾乎或真的流淚」是「bring tears to someone's eyes」的用法，與本句語境不同。",
-        "tear-mcq-32": "「因悲傷、感動等而眼中有淚或正在哭泣的」是「tearful」的用法，與本句語境不同。",
-        "tear-mcq-27": "「表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」」是「move someone to tears」的用法，與本句語境不同。"
+        "tear-mcq-30": "本句的「tears of frustration」指「因某種強烈情緒而流下的眼淚」。",
+        "tear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-30"
     },
@@ -2555,11 +2319,9 @@ export default {
       "masked": "His eyes filled with ____.",
       "options": [
         "tear-mcq-30",
-        "tear-mcq-29",
-        "tear-mcq-31",
-        "tear-mcq-28",
-        "tear-mcq-32",
-        "tear-mcq-27"
+        "tear-mcq-05",
+        "tear-mcq-19",
+        "tear-mcq-15"
       ],
       "explanation": "本句的「tears of sadness」指「因某種強烈情緒而流下的眼淚」。",
       "sentenceIndex": 59,
@@ -2568,12 +2330,10 @@ export default {
         "tears of sadness"
       ],
       "optionReasons": {
-        "tear-mcq-30": "本句指「因某種強烈情緒而流下的眼淚」。",
-        "tear-mcq-29": "「因極度開心或感動而流下的眼淚」是「tears of joy」的用法，與本句語境不同。",
-        "tear-mcq-31": "「令某人因悲傷、壓力或痛苦而哭泣」是「cry yourself to tears / reduce someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-28": "「令某人因感動、悲傷等而幾乎或真的流淚」是「bring tears to someone's eyes」的用法，與本句語境不同。",
-        "tear-mcq-32": "「因悲傷、感動等而眼中有淚或正在哭泣的」是「tearful」的用法，與本句語境不同。",
-        "tear-mcq-27": "「表示感動得令某人流淚；例句：「那篇演講令她感動落淚。」」是「move someone to tears」的用法，與本句語境不同。"
+        "tear-mcq-30": "本句的「tears of sadness」指「因某種強烈情緒而流下的眼淚」。",
+        "tear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-30"
     },
@@ -2585,11 +2345,9 @@ export default {
       "masked": "The harsh criticism ____.",
       "options": [
         "tear-mcq-31",
-        "tear-mcq-30",
-        "tear-mcq-32",
-        "tear-mcq-29",
-        "tear-mcq-33",
-        "tear-mcq-28"
+        "tear-mcq-11",
+        "tear-mcq-03",
+        "tear-mcq-19"
       ],
       "explanation": "本句的「reduced her to tears」指「令某人因悲傷、壓力或痛苦而哭泣」。",
       "sentenceIndex": 60,
@@ -2598,12 +2356,10 @@ export default {
         "reduced her to tears"
       ],
       "optionReasons": {
-        "tear-mcq-31": "本句指「令某人因悲傷、壓力或痛苦而哭泣」。",
-        "tear-mcq-30": "「因某種強烈情緒而流下的眼淚」是「tears of sadness / frustration」的用法，與本句語境不同。",
-        "tear-mcq-32": "「因悲傷、感動等而眼中有淚或正在哭泣的」是「tearful」的用法，與本句語境不同。",
-        "tear-mcq-29": "「因極度開心或感動而流下的眼淚」是「tears of joy」的用法，與本句語境不同。",
-        "tear-mcq-33": "「以眼中含淚或正在哭泣的方式」是「tearfully」的用法，與本句語境不同。",
-        "tear-mcq-28": "「令某人因感動、悲傷等而幾乎或真的流淚」是「bring tears to someone's eyes」的用法，與本句語境不同。"
+        "tear-mcq-31": "本句的「reduced her to tears」指「令某人因悲傷、壓力或痛苦而哭泣」。",
+        "tear-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-31"
     },
@@ -2615,11 +2371,9 @@ export default {
       "masked": "He was ____ by the pressure.",
       "options": [
         "tear-mcq-31",
-        "tear-mcq-30",
-        "tear-mcq-32",
-        "tear-mcq-29",
-        "tear-mcq-33",
-        "tear-mcq-28"
+        "tear-mcq-06",
+        "tear-mcq-10",
+        "tear-mcq-13"
       ],
       "explanation": "本句的「reduced to tears」指「令某人因悲傷、壓力或痛苦而哭泣」。",
       "sentenceIndex": 61,
@@ -2628,12 +2382,10 @@ export default {
         "reduced to tears"
       ],
       "optionReasons": {
-        "tear-mcq-31": "本句指「令某人因悲傷、壓力或痛苦而哭泣」。",
-        "tear-mcq-30": "「因某種強烈情緒而流下的眼淚」是「tears of sadness / frustration」的用法，與本句語境不同。",
-        "tear-mcq-32": "「因悲傷、感動等而眼中有淚或正在哭泣的」是「tearful」的用法，與本句語境不同。",
-        "tear-mcq-29": "「因極度開心或感動而流下的眼淚」是「tears of joy」的用法，與本句語境不同。",
-        "tear-mcq-33": "「以眼中含淚或正在哭泣的方式」是「tearfully」的用法，與本句語境不同。",
-        "tear-mcq-28": "「令某人因感動、悲傷等而幾乎或真的流淚」是「bring tears to someone's eyes」的用法，與本句語境不同。"
+        "tear-mcq-31": "本句的「reduced to tears」指「令某人因悲傷、壓力或痛苦而哭泣」。",
+        "tear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-31"
     },
@@ -2645,11 +2397,9 @@ export default {
       "masked": "She gave him a ____.",
       "options": [
         "tear-mcq-32",
-        "tear-mcq-31",
-        "tear-mcq-33",
-        "tear-mcq-30",
-        "tear-mcq-34",
-        "tear-mcq-29"
+        "tear-mcq-11",
+        "tear-mcq-07",
+        "tear-mcq-12"
       ],
       "explanation": "本句的「tearful goodbye」指「因悲傷、感動等而眼中有淚或正在哭泣的」。",
       "sentenceIndex": 62,
@@ -2658,12 +2408,10 @@ export default {
         "tearful goodbye"
       ],
       "optionReasons": {
-        "tear-mcq-32": "本句指「因悲傷、感動等而眼中有淚或正在哭泣的」。",
-        "tear-mcq-31": "「令某人因悲傷、壓力或痛苦而哭泣」是「cry yourself to tears / reduce someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-33": "「以眼中含淚或正在哭泣的方式」是「tearfully」的用法，與本句語境不同。",
-        "tear-mcq-30": "「因某種強烈情緒而流下的眼淚」是「tears of sadness / frustration」的用法，與本句語境不同。",
-        "tear-mcq-34": "「故意或很容易令人感動落淚的電影、故事等作品」是「tear-jerker」的用法，與本句語境不同。",
-        "tear-mcq-29": "「因極度開心或感動而流下的眼淚」是「tears of joy」的用法，與本句語境不同。"
+        "tear-mcq-32": "本句的「tearful goodbye」指「因悲傷、感動等而眼中有淚或正在哭泣的」。",
+        "tear-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-32"
     },
@@ -2675,11 +2423,9 @@ export default {
       "masked": "The child looked ____ after losing his toy.",
       "options": [
         "tear-mcq-32",
-        "tear-mcq-31",
-        "tear-mcq-33",
-        "tear-mcq-30",
-        "tear-mcq-34",
-        "tear-mcq-29"
+        "tear-mcq-08",
+        "tear-mcq-13",
+        "tear-mcq-17"
       ],
       "explanation": "本句的「tearful」指「因悲傷、感動等而眼中有淚或正在哭泣的」。",
       "sentenceIndex": 63,
@@ -2688,12 +2434,10 @@ export default {
         "tearful"
       ],
       "optionReasons": {
-        "tear-mcq-32": "本句指「因悲傷、感動等而眼中有淚或正在哭泣的」。",
-        "tear-mcq-31": "「令某人因悲傷、壓力或痛苦而哭泣」是「cry yourself to tears / reduce someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-33": "「以眼中含淚或正在哭泣的方式」是「tearfully」的用法，與本句語境不同。",
-        "tear-mcq-30": "「因某種強烈情緒而流下的眼淚」是「tears of sadness / frustration」的用法，與本句語境不同。",
-        "tear-mcq-34": "「故意或很容易令人感動落淚的電影、故事等作品」是「tear-jerker」的用法，與本句語境不同。",
-        "tear-mcq-29": "「因極度開心或感動而流下的眼淚」是「tears of joy」的用法，與本句語境不同。"
+        "tear-mcq-32": "本句的「tearful」指「因悲傷、感動等而眼中有淚或正在哭泣的」。",
+        "tear-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-32"
     },
@@ -2705,11 +2449,9 @@ export default {
       "masked": "She ____ thanked everyone for their support.",
       "options": [
         "tear-mcq-33",
-        "tear-mcq-32",
-        "tear-mcq-34",
-        "tear-mcq-31",
-        "tear-mcq-35",
-        "tear-mcq-30"
+        "tear-mcq-06",
+        "tear-mcq-01",
+        "tear-mcq-13"
       ],
       "explanation": "本句的「tearfully」指「以眼中含淚或正在哭泣的方式」。",
       "sentenceIndex": 64,
@@ -2718,12 +2460,10 @@ export default {
         "tearfully"
       ],
       "optionReasons": {
-        "tear-mcq-33": "本句指「以眼中含淚或正在哭泣的方式」。",
-        "tear-mcq-32": "「因悲傷、感動等而眼中有淚或正在哭泣的」是「tearful」的用法，與本句語境不同。",
-        "tear-mcq-34": "「故意或很容易令人感動落淚的電影、故事等作品」是「tear-jerker」的用法，與本句語境不同。",
-        "tear-mcq-31": "「令某人因悲傷、壓力或痛苦而哭泣」是「cry yourself to tears / reduce someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-35": "「眼睛開始充滿淚水，快要哭出來」是「tear up（eyes）」的用法，與本句語境不同。",
-        "tear-mcq-30": "「因某種強烈情緒而流下的眼淚」是「tears of sadness / frustration」的用法，與本句語境不同。"
+        "tear-mcq-33": "本句的「tearfully」指「以眼中含淚或正在哭泣的方式」。",
+        "tear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-33"
     },
@@ -2735,11 +2475,9 @@ export default {
       "masked": "He ____ said goodbye.",
       "options": [
         "tear-mcq-33",
-        "tear-mcq-32",
-        "tear-mcq-34",
-        "tear-mcq-31",
-        "tear-mcq-35",
-        "tear-mcq-30"
+        "tear-mcq-04",
+        "tear-mcq-16",
+        "tear-mcq-10"
       ],
       "explanation": "本句的「tearfully」指「以眼中含淚或正在哭泣的方式」。",
       "sentenceIndex": 65,
@@ -2748,12 +2486,10 @@ export default {
         "tearfully"
       ],
       "optionReasons": {
-        "tear-mcq-33": "本句指「以眼中含淚或正在哭泣的方式」。",
-        "tear-mcq-32": "「因悲傷、感動等而眼中有淚或正在哭泣的」是「tearful」的用法，與本句語境不同。",
-        "tear-mcq-34": "「故意或很容易令人感動落淚的電影、故事等作品」是「tear-jerker」的用法，與本句語境不同。",
-        "tear-mcq-31": "「令某人因悲傷、壓力或痛苦而哭泣」是「cry yourself to tears / reduce someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-35": "「眼睛開始充滿淚水，快要哭出來」是「tear up（eyes）」的用法，與本句語境不同。",
-        "tear-mcq-30": "「因某種強烈情緒而流下的眼淚」是「tears of sadness / frustration」的用法，與本句語境不同。"
+        "tear-mcq-33": "本句的「tearfully」指「以眼中含淚或正在哭泣的方式」。",
+        "tear-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-33"
     },
@@ -2765,11 +2501,9 @@ export default {
       "masked": "The film is a real ____.",
       "options": [
         "tear-mcq-34",
-        "tear-mcq-33",
-        "tear-mcq-35",
-        "tear-mcq-32",
-        "tear-mcq-31",
-        "tear-mcq-30"
+        "tear-mcq-04",
+        "tear-mcq-09",
+        "tear-mcq-24"
       ],
       "explanation": "本句的「tear-jerker」指「故意或很容易令人感動落淚的電影、故事等作品」。",
       "sentenceIndex": 66,
@@ -2778,12 +2512,10 @@ export default {
         "tear-jerker"
       ],
       "optionReasons": {
-        "tear-mcq-34": "本句指「故意或很容易令人感動落淚的電影、故事等作品」。",
-        "tear-mcq-33": "「以眼中含淚或正在哭泣的方式」是「tearfully」的用法，與本句語境不同。",
-        "tear-mcq-35": "「眼睛開始充滿淚水，快要哭出來」是「tear up（eyes）」的用法，與本句語境不同。",
-        "tear-mcq-32": "「因悲傷、感動等而眼中有淚或正在哭泣的」是「tearful」的用法，與本句語境不同。",
-        "tear-mcq-31": "「令某人因悲傷、壓力或痛苦而哭泣」是「cry yourself to tears / reduce someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-30": "「因某種強烈情緒而流下的眼淚」是「tears of sadness / frustration」的用法，與本句語境不同。"
+        "tear-mcq-34": "本句的「tear-jerker」指「故意或很容易令人感動落淚的電影、故事等作品」。",
+        "tear-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-34"
     },
@@ -2795,11 +2527,9 @@ export default {
       "masked": "I wasn't expecting the story to be such a ____.",
       "options": [
         "tear-mcq-34",
-        "tear-mcq-33",
-        "tear-mcq-35",
-        "tear-mcq-32",
-        "tear-mcq-31",
-        "tear-mcq-30"
+        "tear-mcq-17",
+        "tear-mcq-10",
+        "tear-mcq-13"
       ],
       "explanation": "本句的「tear-jerker」指「故意或很容易令人感動落淚的電影、故事等作品」。",
       "sentenceIndex": 67,
@@ -2808,12 +2538,10 @@ export default {
         "tear-jerker"
       ],
       "optionReasons": {
-        "tear-mcq-34": "本句指「故意或很容易令人感動落淚的電影、故事等作品」。",
-        "tear-mcq-33": "「以眼中含淚或正在哭泣的方式」是「tearfully」的用法，與本句語境不同。",
-        "tear-mcq-35": "「眼睛開始充滿淚水，快要哭出來」是「tear up（eyes）」的用法，與本句語境不同。",
-        "tear-mcq-32": "「因悲傷、感動等而眼中有淚或正在哭泣的」是「tearful」的用法，與本句語境不同。",
-        "tear-mcq-31": "「令某人因悲傷、壓力或痛苦而哭泣」是「cry yourself to tears / reduce someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-30": "「因某種強烈情緒而流下的眼淚」是「tears of sadness / frustration」的用法，與本句語境不同。"
+        "tear-mcq-34": "本句的「tear-jerker」指「故意或很容易令人感動落淚的電影、故事等作品」。",
+        "tear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-34"
     },
@@ -2825,11 +2553,9 @@ export default {
       "masked": "Her eyes ____ when she heard the news.",
       "options": [
         "tear-mcq-35",
-        "tear-mcq-34",
-        "tear-mcq-33",
-        "tear-mcq-32",
-        "tear-mcq-31",
-        "tear-mcq-30"
+        "tear-mcq-03",
+        "tear-mcq-13",
+        "tear-mcq-12"
       ],
       "explanation": "本句的「teared up」指「眼睛開始充滿淚水，快要哭出來」。",
       "sentenceIndex": 68,
@@ -2838,12 +2564,10 @@ export default {
         "teared up"
       ],
       "optionReasons": {
-        "tear-mcq-35": "本句指「眼睛開始充滿淚水，快要哭出來」。",
-        "tear-mcq-34": "「故意或很容易令人感動落淚的電影、故事等作品」是「tear-jerker」的用法，與本句語境不同。",
-        "tear-mcq-33": "「以眼中含淚或正在哭泣的方式」是「tearfully」的用法，與本句語境不同。",
-        "tear-mcq-32": "「因悲傷、感動等而眼中有淚或正在哭泣的」是「tearful」的用法，與本句語境不同。",
-        "tear-mcq-31": "「令某人因悲傷、壓力或痛苦而哭泣」是「cry yourself to tears / reduce someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-30": "「因某種強烈情緒而流下的眼淚」是「tears of sadness / frustration」的用法，與本句語境不同。"
+        "tear-mcq-35": "本句的「teared up」指「眼睛開始充滿淚水，快要哭出來」。",
+        "tear-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-35"
     },
@@ -2855,11 +2579,9 @@ export default {
       "masked": "I always ____ at the end of that film.",
       "options": [
         "tear-mcq-35",
-        "tear-mcq-34",
-        "tear-mcq-33",
-        "tear-mcq-32",
-        "tear-mcq-31",
-        "tear-mcq-30"
+        "tear-mcq-14",
+        "tear-mcq-15",
+        "tear-mcq-06"
       ],
       "explanation": "本句的「tear up」指「眼睛開始充滿淚水，快要哭出來」。",
       "sentenceIndex": 69,
@@ -2868,12 +2590,10 @@ export default {
         "tear up"
       ],
       "optionReasons": {
-        "tear-mcq-35": "本句指「眼睛開始充滿淚水，快要哭出來」。",
-        "tear-mcq-34": "「故意或很容易令人感動落淚的電影、故事等作品」是「tear-jerker」的用法，與本句語境不同。",
-        "tear-mcq-33": "「以眼中含淚或正在哭泣的方式」是「tearfully」的用法，與本句語境不同。",
-        "tear-mcq-32": "「因悲傷、感動等而眼中有淚或正在哭泣的」是「tearful」的用法，與本句語境不同。",
-        "tear-mcq-31": "「令某人因悲傷、壓力或痛苦而哭泣」是「cry yourself to tears / reduce someone to tears」的用法，與本句語境不同。",
-        "tear-mcq-30": "「因某種強烈情緒而流下的眼淚」是「tears of sadness / frustration」的用法，與本句語境不同。"
+        "tear-mcq-35": "本句的「tear up」指「眼睛開始充滿淚水，快要哭出來」。",
+        "tear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tear-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tear-mcq-35"
     }
@@ -2885,5 +2605,7 @@ export default {
     "sha256": "0644ee20c82edf10599b6a8a5d13c2418092ed1854554f155594c3bbef187b33",
     "pages": 24
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

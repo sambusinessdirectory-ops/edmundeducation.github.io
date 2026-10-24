@@ -667,11 +667,9 @@ export default {
       "masked": "What is the ____ of this box?",
       "options": [
         "weight-mcq-01",
-        "weight-mcq-02",
-        "weight-mcq-03",
-        "weight-mcq-04",
-        "weight-mcq-05",
-        "weight-mcq-06"
+        "weight-mcq-21",
+        "weight-mcq-30",
+        "weight-mcq-28"
       ],
       "explanation": "本句的「weight」指「重量」。",
       "sentenceIndex": 0,
@@ -680,12 +678,10 @@ export default {
         "weight"
       ],
       "optionReasons": {
-        "weight-mcq-01": "本句指「重量」。",
-        "weight-mcq-02": "「體重」是「body weight」的用法，與本句語境不同。",
-        "weight-mcq-03": "「減重」是「lose weight」的用法，與本句語境不同。",
-        "weight-mcq-04": "「增重」是「gain weight」的用法，與本句語境不同。",
-        "weight-mcq-05": "「重物」是「a weight」的用法，與本句語境不同。",
-        "weight-mcq-06": "「舉重／重量訓練」是「lift weights」的用法，與本句語境不同。"
+        "weight-mcq-01": "本句的「weight」指「重量」。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-01"
     },
@@ -697,11 +693,9 @@ export default {
       "masked": "The bridge can support a great deal of ____.",
       "options": [
         "weight-mcq-01",
-        "weight-mcq-02",
-        "weight-mcq-03",
-        "weight-mcq-04",
-        "weight-mcq-05",
-        "weight-mcq-06"
+        "weight-mcq-30",
+        "weight-mcq-18",
+        "weight-mcq-21"
       ],
       "explanation": "本句的「weight」指「重量」。",
       "sentenceIndex": 1,
@@ -710,12 +704,10 @@ export default {
         "weight"
       ],
       "optionReasons": {
-        "weight-mcq-01": "本句指「重量」。",
-        "weight-mcq-02": "「體重」是「body weight」的用法，與本句語境不同。",
-        "weight-mcq-03": "「減重」是「lose weight」的用法，與本句語境不同。",
-        "weight-mcq-04": "「增重」是「gain weight」的用法，與本句語境不同。",
-        "weight-mcq-05": "「重物」是「a weight」的用法，與本句語境不同。",
-        "weight-mcq-06": "「舉重／重量訓練」是「lift weights」的用法，與本句語境不同。"
+        "weight-mcq-01": "本句的「weight」指「重量」。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-01"
     },
@@ -727,11 +719,9 @@ export default {
       "masked": "The package is light in ____.",
       "options": [
         "weight-mcq-01",
-        "weight-mcq-02",
-        "weight-mcq-03",
-        "weight-mcq-04",
-        "weight-mcq-05",
-        "weight-mcq-06"
+        "weight-mcq-30",
+        "weight-mcq-18",
+        "weight-mcq-21"
       ],
       "explanation": "本句的「weight」指「重量」。",
       "sentenceIndex": 2,
@@ -740,12 +730,10 @@ export default {
         "weight"
       ],
       "optionReasons": {
-        "weight-mcq-01": "本句指「重量」。",
-        "weight-mcq-02": "「體重」是「body weight」的用法，與本句語境不同。",
-        "weight-mcq-03": "「減重」是「lose weight」的用法，與本句語境不同。",
-        "weight-mcq-04": "「增重」是「gain weight」的用法，與本句語境不同。",
-        "weight-mcq-05": "「重物」是「a weight」的用法，與本句語境不同。",
-        "weight-mcq-06": "「舉重／重量訓練」是「lift weights」的用法，與本句語境不同。"
+        "weight-mcq-01": "本句的「weight」指「重量」。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-01"
     },
@@ -757,11 +745,9 @@ export default {
       "masked": "His ____ has remained stable.",
       "options": [
         "weight-mcq-02",
-        "weight-mcq-01",
-        "weight-mcq-03",
-        "weight-mcq-04",
-        "weight-mcq-05",
-        "weight-mcq-06"
+        "weight-mcq-28",
+        "weight-mcq-17",
+        "weight-mcq-12"
       ],
       "explanation": "本句的「body weight」指「體重」。",
       "sentenceIndex": 3,
@@ -770,12 +756,10 @@ export default {
         "body weight"
       ],
       "optionReasons": {
-        "weight-mcq-02": "本句指「體重」。",
-        "weight-mcq-01": "「重量」是「weight」的用法，與本句語境不同。",
-        "weight-mcq-03": "「減重」是「lose weight」的用法，與本句語境不同。",
-        "weight-mcq-04": "「增重」是「gain weight」的用法，與本句語境不同。",
-        "weight-mcq-05": "「重物」是「a weight」的用法，與本句語境不同。",
-        "weight-mcq-06": "「舉重／重量訓練」是「lift weights」的用法，與本句語境不同。"
+        "weight-mcq-02": "本句的「body weight」指「體重」。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-02"
     },
@@ -787,11 +771,9 @@ export default {
       "masked": "Regular exercise can affect your ____.",
       "options": [
         "weight-mcq-02",
-        "weight-mcq-01",
-        "weight-mcq-03",
-        "weight-mcq-04",
-        "weight-mcq-05",
-        "weight-mcq-06"
+        "weight-mcq-17",
+        "weight-mcq-28",
+        "weight-mcq-12"
       ],
       "explanation": "本句的「weight」指「體重」。",
       "sentenceIndex": 4,
@@ -800,12 +782,10 @@ export default {
         "weight"
       ],
       "optionReasons": {
-        "weight-mcq-02": "本句指「體重」。",
-        "weight-mcq-01": "「重量」是「weight」的用法，與本句語境不同。",
-        "weight-mcq-03": "「減重」是「lose weight」的用法，與本句語境不同。",
-        "weight-mcq-04": "「增重」是「gain weight」的用法，與本句語境不同。",
-        "weight-mcq-05": "「重物」是「a weight」的用法，與本句語境不同。",
-        "weight-mcq-06": "「舉重／重量訓練」是「lift weights」的用法，與本句語境不同。"
+        "weight-mcq-02": "本句的「weight」指「體重」。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-02"
     },
@@ -817,11 +797,9 @@ export default {
       "masked": "She wants to ____ gradually.",
       "options": [
         "weight-mcq-03",
-        "weight-mcq-02",
-        "weight-mcq-04",
-        "weight-mcq-01",
-        "weight-mcq-05",
-        "weight-mcq-06"
+        "weight-mcq-11",
+        "weight-mcq-28",
+        "weight-mcq-17"
       ],
       "explanation": "本句的「lose weight」指「減重」。",
       "sentenceIndex": 5,
@@ -830,12 +808,10 @@ export default {
         "lose weight"
       ],
       "optionReasons": {
-        "weight-mcq-03": "本句指「減重」。",
-        "weight-mcq-02": "「體重」是「body weight」的用法，與本句語境不同。",
-        "weight-mcq-04": "「增重」是「gain weight」的用法，與本句語境不同。",
-        "weight-mcq-01": "「重量」是「weight」的用法，與本句語境不同。",
-        "weight-mcq-05": "「重物」是「a weight」的用法，與本句語境不同。",
-        "weight-mcq-06": "「舉重／重量訓練」是「lift weights」的用法，與本句語境不同。"
+        "weight-mcq-03": "本句的「lose weight」指「減重」。",
+        "weight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-03"
     },
@@ -847,11 +823,9 @@ export default {
       "masked": "He lost some ____ after changing his diet.",
       "options": [
         "weight-mcq-03",
-        "weight-mcq-02",
-        "weight-mcq-04",
-        "weight-mcq-01",
-        "weight-mcq-05",
-        "weight-mcq-06"
+        "weight-mcq-17",
+        "weight-mcq-21",
+        "weight-mcq-28"
       ],
       "explanation": "本句的「weight」指「減重」。",
       "sentenceIndex": 6,
@@ -860,12 +834,10 @@ export default {
         "weight"
       ],
       "optionReasons": {
-        "weight-mcq-03": "本句指「減重」。",
-        "weight-mcq-02": "「體重」是「body weight」的用法，與本句語境不同。",
-        "weight-mcq-04": "「增重」是「gain weight」的用法，與本句語境不同。",
-        "weight-mcq-01": "「重量」是「weight」的用法，與本句語境不同。",
-        "weight-mcq-05": "「重物」是「a weight」的用法，與本句語境不同。",
-        "weight-mcq-06": "「舉重／重量訓練」是「lift weights」的用法，與本句語境不同。"
+        "weight-mcq-03": "本句的「weight」指「減重」。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-03"
     },
@@ -877,11 +849,9 @@ export default {
       "masked": "He ____ over the winter.",
       "options": [
         "weight-mcq-04",
-        "weight-mcq-03",
-        "weight-mcq-05",
-        "weight-mcq-02",
-        "weight-mcq-06",
-        "weight-mcq-01"
+        "weight-mcq-21",
+        "weight-mcq-17",
+        "weight-mcq-28"
       ],
       "explanation": "本句的「gained weight」指「增重」。",
       "sentenceIndex": 7,
@@ -890,12 +860,10 @@ export default {
         "gained weight"
       ],
       "optionReasons": {
-        "weight-mcq-04": "本句指「增重」。",
-        "weight-mcq-03": "「減重」是「lose weight」的用法，與本句語境不同。",
-        "weight-mcq-05": "「重物」是「a weight」的用法，與本句語境不同。",
-        "weight-mcq-02": "「體重」是「body weight」的用法，與本句語境不同。",
-        "weight-mcq-06": "「舉重／重量訓練」是「lift weights」的用法，與本句語境不同。",
-        "weight-mcq-01": "「重量」是「weight」的用法，與本句語境不同。"
+        "weight-mcq-04": "本句的「gained weight」指「增重」。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-04"
     },
@@ -907,11 +875,9 @@ export default {
       "masked": "I've ____ recently.",
       "options": [
         "weight-mcq-04",
-        "weight-mcq-03",
-        "weight-mcq-05",
-        "weight-mcq-02",
-        "weight-mcq-06",
-        "weight-mcq-01"
+        "weight-mcq-21",
+        "weight-mcq-11",
+        "weight-mcq-17"
       ],
       "explanation": "本句的「put on a little weight」指「增重」。",
       "sentenceIndex": 8,
@@ -920,12 +886,10 @@ export default {
         "put on a little weight"
       ],
       "optionReasons": {
-        "weight-mcq-04": "本句指「增重」。",
-        "weight-mcq-03": "「減重」是「lose weight」的用法，與本句語境不同。",
-        "weight-mcq-05": "「重物」是「a weight」的用法，與本句語境不同。",
-        "weight-mcq-02": "「體重」是「body weight」的用法，與本句語境不同。",
-        "weight-mcq-06": "「舉重／重量訓練」是「lift weights」的用法，與本句語境不同。",
-        "weight-mcq-01": "「重量」是「weight」的用法，與本句語境不同。"
+        "weight-mcq-04": "本句的「put on a little weight」指「增重」。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-04"
     },
@@ -937,11 +901,9 @@ export default {
       "masked": "He lifted a heavy ____.",
       "options": [
         "weight-mcq-05",
-        "weight-mcq-04",
-        "weight-mcq-06",
-        "weight-mcq-03",
-        "weight-mcq-07",
-        "weight-mcq-02"
+        "weight-mcq-28",
+        "weight-mcq-18",
+        "weight-mcq-21"
       ],
       "explanation": "本句的「weight」指「重物」。",
       "sentenceIndex": 9,
@@ -950,12 +912,10 @@ export default {
         "weight"
       ],
       "optionReasons": {
-        "weight-mcq-05": "本句指「重物」。",
-        "weight-mcq-04": "「增重」是「gain weight」的用法，與本句語境不同。",
-        "weight-mcq-06": "「舉重／重量訓練」是「lift weights」的用法，與本句語境不同。",
-        "weight-mcq-03": "「減重」是「lose weight」的用法，與本句語境不同。",
-        "weight-mcq-07": "「重量上限」是「weight limit」的用法，與本句語境不同。",
-        "weight-mcq-02": "「體重」是「body weight」的用法，與本句語境不同。"
+        "weight-mcq-05": "本句的「weight」指「重物」。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-05"
     },
@@ -967,11 +927,9 @@ export default {
       "masked": "The ____ kept the paper from blowing away.",
       "options": [
         "weight-mcq-05",
-        "weight-mcq-04",
-        "weight-mcq-06",
-        "weight-mcq-03",
-        "weight-mcq-07",
-        "weight-mcq-02"
+        "weight-mcq-28",
+        "weight-mcq-17",
+        "weight-mcq-11"
       ],
       "explanation": "本句的「weight」指「重物」。",
       "sentenceIndex": 10,
@@ -980,12 +938,10 @@ export default {
         "weight"
       ],
       "optionReasons": {
-        "weight-mcq-05": "本句指「重物」。",
-        "weight-mcq-04": "「增重」是「gain weight」的用法，與本句語境不同。",
-        "weight-mcq-06": "「舉重／重量訓練」是「lift weights」的用法，與本句語境不同。",
-        "weight-mcq-03": "「減重」是「lose weight」的用法，與本句語境不同。",
-        "weight-mcq-07": "「重量上限」是「weight limit」的用法，與本句語境不同。",
-        "weight-mcq-02": "「體重」是「body weight」的用法，與本句語境不同。"
+        "weight-mcq-05": "本句的「weight」指「重物」。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-05"
     },
@@ -997,11 +953,9 @@ export default {
       "masked": "She goes to the gym to ____.",
       "options": [
         "weight-mcq-06",
-        "weight-mcq-05",
-        "weight-mcq-07",
-        "weight-mcq-04",
-        "weight-mcq-08",
-        "weight-mcq-03"
+        "weight-mcq-28",
+        "weight-mcq-21",
+        "weight-mcq-30"
       ],
       "explanation": "本句的「lift weights」指「舉重／重量訓練」。",
       "sentenceIndex": 11,
@@ -1010,12 +964,10 @@ export default {
         "lift weights"
       ],
       "optionReasons": {
-        "weight-mcq-06": "本句指「舉重／重量訓練」。",
-        "weight-mcq-05": "「重物」是「a weight」的用法，與本句語境不同。",
-        "weight-mcq-07": "「重量上限」是「weight limit」的用法，與本句語境不同。",
-        "weight-mcq-04": "「增重」是「gain weight」的用法，與本句語境不同。",
-        "weight-mcq-08": "「淨重」是「net weight」的用法，與本句語境不同。",
-        "weight-mcq-03": "「減重」是「lose weight」的用法，與本句語境不同。"
+        "weight-mcq-06": "本句的「lift weights」指「舉重／重量訓練」。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-06"
     },
@@ -1027,11 +979,9 @@ export default {
       "masked": "Start with lighter ____.",
       "options": [
         "weight-mcq-06",
-        "weight-mcq-05",
-        "weight-mcq-07",
-        "weight-mcq-04",
-        "weight-mcq-08",
-        "weight-mcq-03"
+        "weight-mcq-17",
+        "weight-mcq-18",
+        "weight-mcq-21"
       ],
       "explanation": "本句的「weights」指「舉重／重量訓練」。",
       "sentenceIndex": 12,
@@ -1040,12 +990,10 @@ export default {
         "weights"
       ],
       "optionReasons": {
-        "weight-mcq-06": "本句指「舉重／重量訓練」。",
-        "weight-mcq-05": "「重物」是「a weight」的用法，與本句語境不同。",
-        "weight-mcq-07": "「重量上限」是「weight limit」的用法，與本句語境不同。",
-        "weight-mcq-04": "「增重」是「gain weight」的用法，與本句語境不同。",
-        "weight-mcq-08": "「淨重」是「net weight」的用法，與本句語境不同。",
-        "weight-mcq-03": "「減重」是「lose weight」的用法，與本句語境不同。"
+        "weight-mcq-06": "本句的「weights」指「舉重／重量訓練」。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-06"
     },
@@ -1057,11 +1005,9 @@ export default {
       "masked": "The lift has a ____.",
       "options": [
         "weight-mcq-07",
-        "weight-mcq-06",
-        "weight-mcq-08",
-        "weight-mcq-05",
-        "weight-mcq-09",
-        "weight-mcq-04"
+        "weight-mcq-28",
+        "weight-mcq-17",
+        "weight-mcq-30"
       ],
       "explanation": "本句的「weight limit」指「重量上限」。",
       "sentenceIndex": 13,
@@ -1070,12 +1016,10 @@ export default {
         "weight limit"
       ],
       "optionReasons": {
-        "weight-mcq-07": "本句指「重量上限」。",
-        "weight-mcq-06": "「舉重／重量訓練」是「lift weights」的用法，與本句語境不同。",
-        "weight-mcq-08": "「淨重」是「net weight」的用法，與本句語境不同。",
-        "weight-mcq-05": "「重物」是「a weight」的用法，與本句語境不同。",
-        "weight-mcq-09": "「毛重」是「gross weight」的用法，與本句語境不同。",
-        "weight-mcq-04": "「增重」是「gain weight」的用法，與本句語境不同。"
+        "weight-mcq-07": "本句的「weight limit」指「重量上限」。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-07"
     },
@@ -1087,11 +1031,9 @@ export default {
       "masked": "My suitcase exceeded the airline's ____.",
       "options": [
         "weight-mcq-07",
-        "weight-mcq-06",
-        "weight-mcq-08",
-        "weight-mcq-05",
-        "weight-mcq-09",
-        "weight-mcq-04"
+        "weight-mcq-18",
+        "weight-mcq-28",
+        "weight-mcq-30"
       ],
       "explanation": "本句的「weight limit」指「重量上限」。",
       "sentenceIndex": 14,
@@ -1100,12 +1042,10 @@ export default {
         "weight limit"
       ],
       "optionReasons": {
-        "weight-mcq-07": "本句指「重量上限」。",
-        "weight-mcq-06": "「舉重／重量訓練」是「lift weights」的用法，與本句語境不同。",
-        "weight-mcq-08": "「淨重」是「net weight」的用法，與本句語境不同。",
-        "weight-mcq-05": "「重物」是「a weight」的用法，與本句語境不同。",
-        "weight-mcq-09": "「毛重」是「gross weight」的用法，與本句語境不同。",
-        "weight-mcq-04": "「增重」是「gain weight」的用法，與本句語境不同。"
+        "weight-mcq-07": "本句的「weight limit」指「重量上限」。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-07"
     },
@@ -1117,11 +1057,9 @@ export default {
       "masked": "The ____ is 500 grams.",
       "options": [
         "weight-mcq-09",
-        "weight-mcq-08",
-        "weight-mcq-10",
-        "weight-mcq-07",
-        "weight-mcq-11",
-        "weight-mcq-06"
+        "weight-mcq-21",
+        "weight-mcq-17",
+        "weight-mcq-12"
       ],
       "explanation": "本句的「net weight」指「毛重」。",
       "sentenceIndex": 15,
@@ -1130,12 +1068,10 @@ export default {
         "net weight"
       ],
       "optionReasons": {
-        "weight-mcq-09": "本句指「毛重」。",
-        "weight-mcq-08": "「淨重」是「net weight」的用法，與本句語境不同。",
-        "weight-mcq-10": "「分量；重要性」是「weight (importance)」的用法，與本句語境不同。",
-        "weight-mcq-07": "「重量上限」是「weight limit」的用法，與本句語境不同。",
-        "weight-mcq-11": "「情感分量」是「emotional weight」的用法，與本句語境不同。",
-        "weight-mcq-06": "「舉重／重量訓練」是「lift weights」的用法，與本句語境不同。"
+        "weight-mcq-09": "本句的「net weight」指「毛重」。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-09"
     },
@@ -1147,11 +1083,9 @@ export default {
       "masked": "The ____ includes the packaging.",
       "options": [
         "weight-mcq-09",
-        "weight-mcq-08",
-        "weight-mcq-10",
-        "weight-mcq-07",
-        "weight-mcq-11",
-        "weight-mcq-06"
+        "weight-mcq-17",
+        "weight-mcq-18",
+        "weight-mcq-21"
       ],
       "explanation": "本句的「gross weight」指「毛重」。",
       "sentenceIndex": 16,
@@ -1160,12 +1094,10 @@ export default {
         "gross weight"
       ],
       "optionReasons": {
-        "weight-mcq-09": "本句指「毛重」。",
-        "weight-mcq-08": "「淨重」是「net weight」的用法，與本句語境不同。",
-        "weight-mcq-10": "「分量；重要性」是「weight (importance)」的用法，與本句語境不同。",
-        "weight-mcq-07": "「重量上限」是「weight limit」的用法，與本句語境不同。",
-        "weight-mcq-11": "「情感分量」是「emotional weight」的用法，與本句語境不同。",
-        "weight-mcq-06": "「舉重／重量訓練」是「lift weights」的用法，與本句語境不同。"
+        "weight-mcq-09": "本句的「gross weight」指「毛重」。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-09"
     },
@@ -1177,11 +1109,9 @@ export default {
       "masked": "Her opinion carries a lot of ____.",
       "options": [
         "weight-mcq-10",
-        "weight-mcq-09",
-        "weight-mcq-11",
-        "weight-mcq-08",
-        "weight-mcq-12",
-        "weight-mcq-07"
+        "weight-mcq-28",
+        "weight-mcq-21",
+        "weight-mcq-30"
       ],
       "explanation": "本句的「weight」指「分量；重要性」。",
       "sentenceIndex": 17,
@@ -1190,12 +1120,10 @@ export default {
         "weight"
       ],
       "optionReasons": {
-        "weight-mcq-10": "本句指「分量；重要性」。",
-        "weight-mcq-09": "「毛重」是「gross weight」的用法，與本句語境不同。",
-        "weight-mcq-11": "「情感分量」是「emotional weight」的用法，與本句語境不同。",
-        "weight-mcq-08": "「淨重」是「net weight」的用法，與本句語境不同。",
-        "weight-mcq-12": "「有分量／影響力」是「carry weight」的用法，與本句語境不同。",
-        "weight-mcq-07": "「重量上限」是「weight limit」的用法，與本句語境不同。"
+        "weight-mcq-10": "本句的「weight」指「分量；重要性」。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-10"
     },
@@ -1207,11 +1135,9 @@ export default {
       "masked": "The evidence was given considerable ____.",
       "options": [
         "weight-mcq-10",
-        "weight-mcq-09",
-        "weight-mcq-11",
-        "weight-mcq-08",
-        "weight-mcq-12",
-        "weight-mcq-07"
+        "weight-mcq-30",
+        "weight-mcq-28",
+        "weight-mcq-17"
       ],
       "explanation": "本句的「weight」指「分量；重要性」。",
       "sentenceIndex": 18,
@@ -1220,12 +1146,10 @@ export default {
         "weight"
       ],
       "optionReasons": {
-        "weight-mcq-10": "本句指「分量；重要性」。",
-        "weight-mcq-09": "「毛重」是「gross weight」的用法，與本句語境不同。",
-        "weight-mcq-11": "「情感分量」是「emotional weight」的用法，與本句語境不同。",
-        "weight-mcq-08": "「淨重」是「net weight」的用法，與本句語境不同。",
-        "weight-mcq-12": "「有分量／影響力」是「carry weight」的用法，與本句語境不同。",
-        "weight-mcq-07": "「重量上限」是「weight limit」的用法，與本句語境不同。"
+        "weight-mcq-10": "本句的「weight」指「分量；重要性」。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-10"
     },
@@ -1237,11 +1161,9 @@ export default {
       "masked": "I wanted to give her something with emotional ____.",
       "options": [
         "weight-mcq-11",
-        "weight-mcq-10",
-        "weight-mcq-12",
-        "weight-mcq-09",
-        "weight-mcq-13",
-        "weight-mcq-08"
+        "weight-mcq-14",
+        "weight-mcq-21",
+        "weight-mcq-30"
       ],
       "explanation": "本句的「weight」指「情感分量」。",
       "sentenceIndex": 19,
@@ -1250,12 +1172,10 @@ export default {
         "weight"
       ],
       "optionReasons": {
-        "weight-mcq-11": "本句指「情感分量」。",
-        "weight-mcq-10": "「分量；重要性」是「weight (importance)」的用法，與本句語境不同。",
-        "weight-mcq-12": "「有分量／影響力」是「carry weight」的用法，與本句語境不同。",
-        "weight-mcq-09": "「毛重」是「gross weight」的用法，與本句語境不同。",
-        "weight-mcq-13": "「重視」是「give weight to」的用法，與本句語境不同。",
-        "weight-mcq-08": "「淨重」是「net weight」的用法，與本句語境不同。"
+        "weight-mcq-11": "本句的「weight」指「情感分量」。",
+        "weight-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-11"
     },
@@ -1267,11 +1187,9 @@ export default {
       "masked": "The old photograph carries a lot of emotional ____ for him.",
       "options": [
         "weight-mcq-11",
-        "weight-mcq-10",
-        "weight-mcq-12",
-        "weight-mcq-09",
-        "weight-mcq-13",
-        "weight-mcq-08"
+        "weight-mcq-27",
+        "weight-mcq-17",
+        "weight-mcq-30"
       ],
       "explanation": "本句的「weight」指「情感分量」。",
       "sentenceIndex": 20,
@@ -1280,12 +1198,10 @@ export default {
         "weight"
       ],
       "optionReasons": {
-        "weight-mcq-11": "本句指「情感分量」。",
-        "weight-mcq-10": "「分量；重要性」是「weight (importance)」的用法，與本句語境不同。",
-        "weight-mcq-12": "「有分量／影響力」是「carry weight」的用法，與本句語境不同。",
-        "weight-mcq-09": "「毛重」是「gross weight」的用法，與本句語境不同。",
-        "weight-mcq-13": "「重視」是「give weight to」的用法，與本句語境不同。",
-        "weight-mcq-08": "「淨重」是「net weight」的用法，與本句語境不同。"
+        "weight-mcq-11": "本句的「weight」指「情感分量」。",
+        "weight-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-11"
     },
@@ -1297,11 +1213,9 @@ export default {
       "masked": "Her recommendations ____.",
       "options": [
         "weight-mcq-12",
-        "weight-mcq-11",
-        "weight-mcq-13",
-        "weight-mcq-10",
-        "weight-mcq-14",
-        "weight-mcq-09"
+        "weight-mcq-27",
+        "weight-mcq-21",
+        "weight-mcq-30"
       ],
       "explanation": "本句的「carry a lot of weight」指「有分量／影響力」。",
       "sentenceIndex": 21,
@@ -1310,12 +1224,10 @@ export default {
         "carry a lot of weight"
       ],
       "optionReasons": {
-        "weight-mcq-12": "本句指「有分量／影響力」。",
-        "weight-mcq-11": "「情感分量」是「emotional weight」的用法，與本句語境不同。",
-        "weight-mcq-13": "「重視」是「give weight to」的用法，與本句語境不同。",
-        "weight-mcq-10": "「分量；重要性」是「weight (importance)」的用法，與本句語境不同。",
-        "weight-mcq-14": "「責任重擔」是「weight of responsibility」的用法，與本句語境不同。",
-        "weight-mcq-09": "「毛重」是「gross weight」的用法，與本句語境不同。"
+        "weight-mcq-12": "本句的「carry a lot of weight」指「有分量／影響力」。",
+        "weight-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-12"
     },
@@ -1327,11 +1239,9 @@ export default {
       "masked": "His opinion carries little ____ with the committee.",
       "options": [
         "weight-mcq-12",
-        "weight-mcq-11",
-        "weight-mcq-13",
-        "weight-mcq-10",
-        "weight-mcq-14",
-        "weight-mcq-09"
+        "weight-mcq-16",
+        "weight-mcq-17",
+        "weight-mcq-21"
       ],
       "explanation": "本句的「weight」指「有分量／影響力」。",
       "sentenceIndex": 22,
@@ -1340,12 +1250,10 @@ export default {
         "weight"
       ],
       "optionReasons": {
-        "weight-mcq-12": "本句指「有分量／影響力」。",
-        "weight-mcq-11": "「情感分量」是「emotional weight」的用法，與本句語境不同。",
-        "weight-mcq-13": "「重視」是「give weight to」的用法，與本句語境不同。",
-        "weight-mcq-10": "「分量；重要性」是「weight (importance)」的用法，與本句語境不同。",
-        "weight-mcq-14": "「責任重擔」是「weight of responsibility」的用法，與本句語境不同。",
-        "weight-mcq-09": "「毛重」是「gross weight」的用法，與本句語境不同。"
+        "weight-mcq-12": "本句的「weight」指「有分量／影響力」。",
+        "weight-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-12"
     },
@@ -1357,11 +1265,9 @@ export default {
       "masked": "The court ____ the new evidence.",
       "options": [
         "weight-mcq-13",
-        "weight-mcq-12",
-        "weight-mcq-14",
-        "weight-mcq-11",
-        "weight-mcq-15",
-        "weight-mcq-10"
+        "weight-mcq-18",
+        "weight-mcq-28",
+        "weight-mcq-30"
       ],
       "explanation": "本句的「gave weight to」指「重視」。",
       "sentenceIndex": 23,
@@ -1370,12 +1276,10 @@ export default {
         "gave weight to"
       ],
       "optionReasons": {
-        "weight-mcq-13": "本句指「重視」。",
-        "weight-mcq-12": "「有分量／影響力」是「carry weight」的用法，與本句語境不同。",
-        "weight-mcq-14": "「責任重擔」是「weight of responsibility」的用法，與本句語境不同。",
-        "weight-mcq-11": "「情感分量」是「emotional weight」的用法，與本句語境不同。",
-        "weight-mcq-15": "「心頭重擔」是「weight on your mind」的用法，與本句語境不同。",
-        "weight-mcq-10": "「分量；重要性」是「weight (importance)」的用法，與本句語境不同。"
+        "weight-mcq-13": "本句的「gave weight to」指「重視」。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-13"
     },
@@ -1387,11 +1291,9 @@ export default {
       "masked": "We should ____ long-term effects.",
       "options": [
         "weight-mcq-13",
+        "weight-mcq-17",
         "weight-mcq-12",
-        "weight-mcq-14",
-        "weight-mcq-11",
-        "weight-mcq-15",
-        "weight-mcq-10"
+        "weight-mcq-21"
       ],
       "explanation": "本句的「give more weight to」指「重視」。",
       "sentenceIndex": 24,
@@ -1400,12 +1302,10 @@ export default {
         "give more weight to"
       ],
       "optionReasons": {
-        "weight-mcq-13": "本句指「重視」。",
-        "weight-mcq-12": "「有分量／影響力」是「carry weight」的用法，與本句語境不同。",
-        "weight-mcq-14": "「責任重擔」是「weight of responsibility」的用法，與本句語境不同。",
-        "weight-mcq-11": "「情感分量」是「emotional weight」的用法，與本句語境不同。",
-        "weight-mcq-15": "「心頭重擔」是「weight on your mind」的用法，與本句語境不同。",
-        "weight-mcq-10": "「分量；重要性」是「weight (importance)」的用法，與本句語境不同。"
+        "weight-mcq-13": "本句的「give more weight to」指「重視」。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-13"
     },
@@ -1417,11 +1317,9 @@ export default {
       "masked": "She felt the ____.",
       "options": [
         "weight-mcq-14",
-        "weight-mcq-13",
-        "weight-mcq-15",
-        "weight-mcq-12",
-        "weight-mcq-16",
-        "weight-mcq-11"
+        "weight-mcq-28",
+        "weight-mcq-21",
+        "weight-mcq-30"
       ],
       "explanation": "本句的「weight of responsibility」指「責任重擔」。",
       "sentenceIndex": 25,
@@ -1430,12 +1328,10 @@ export default {
         "weight of responsibility"
       ],
       "optionReasons": {
-        "weight-mcq-14": "本句指「責任重擔」。",
-        "weight-mcq-13": "「重視」是「give weight to」的用法，與本句語境不同。",
-        "weight-mcq-15": "「心頭重擔」是「weight on your mind」的用法，與本句語境不同。",
-        "weight-mcq-12": "「有分量／影響力」是「carry weight」的用法，與本句語境不同。",
-        "weight-mcq-16": "「如釋重負」是「weight off your mind」的用法，與本句語境不同。",
-        "weight-mcq-11": "「情感分量」是「emotional weight」的用法，與本句語境不同。"
+        "weight-mcq-14": "本句的「weight of responsibility」指「責任重擔」。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-14"
     },
@@ -1447,11 +1343,9 @@ export default {
       "masked": "The ____ was difficult to bear.",
       "options": [
         "weight-mcq-14",
-        "weight-mcq-13",
-        "weight-mcq-15",
-        "weight-mcq-12",
-        "weight-mcq-16",
-        "weight-mcq-11"
+        "weight-mcq-18",
+        "weight-mcq-30",
+        "weight-mcq-28"
       ],
       "explanation": "本句的「weight of the decision」指「責任重擔」。",
       "sentenceIndex": 26,
@@ -1460,12 +1354,10 @@ export default {
         "weight of the decision"
       ],
       "optionReasons": {
-        "weight-mcq-14": "本句指「責任重擔」。",
-        "weight-mcq-13": "「重視」是「give weight to」的用法，與本句語境不同。",
-        "weight-mcq-15": "「心頭重擔」是「weight on your mind」的用法，與本句語境不同。",
-        "weight-mcq-12": "「有分量／影響力」是「carry weight」的用法，與本句語境不同。",
-        "weight-mcq-16": "「如釋重負」是「weight off your mind」的用法，與本句語境不同。",
-        "weight-mcq-11": "「情感分量」是「emotional weight」的用法，與本句語境不同。"
+        "weight-mcq-14": "本句的「weight of the decision」指「責任重擔」。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-14"
     },
@@ -1477,11 +1369,9 @@ export default {
       "masked": "The problem had become a ____.",
       "options": [
         "weight-mcq-28",
+        "weight-mcq-17",
         "weight-mcq-27",
-        "weight-mcq-29",
-        "weight-mcq-26",
-        "weight-mcq-30",
-        "weight-mcq-25"
+        "weight-mcq-18"
       ],
       "explanation": "本句的「weight on his mind」指「一直令人憂慮、造成心理壓力的事情」。",
       "sentenceIndex": 27,
@@ -1490,12 +1380,10 @@ export default {
         "weight on his mind"
       ],
       "optionReasons": {
-        "weight-mcq-28": "本句指「一直令人憂慮、造成心理壓力的事情」。",
-        "weight-mcq-27": "「失重的」是「weightless」的用法，與本句語境不同。",
-        "weight-mcq-29": "「在計算、評分或判斷中分配給某因素的相對重要程度」是「20. weight（統計／評分中的權重） — 權重；比重」的用法，與本句語境不同。",
-        "weight-mcq-26": "「體重過輕／重量不足」是「underweight」的用法，與本句語境不同。",
-        "weight-mcq-30": "「制度或安排在設計上偏向／不利於某一方」是「24. weight something in favour of / against — 使偏向某方」的用法，與本句語境不同。",
-        "weight-mcq-25": "「超重的」是「overweight」的用法，與本句語境不同。"
+        "weight-mcq-28": "本句的「weight on his mind」指「一直令人憂慮、造成心理壓力的事情」。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-28"
     },
@@ -1507,11 +1395,9 @@ export default {
       "masked": "The secret felt like a ____ she had been carrying for years.",
       "options": [
         "weight-mcq-28",
-        "weight-mcq-27",
-        "weight-mcq-29",
-        "weight-mcq-26",
+        "weight-mcq-03",
         "weight-mcq-30",
-        "weight-mcq-25"
+        "weight-mcq-11"
       ],
       "explanation": "本句的「weight」指「一直令人憂慮、造成心理壓力的事情」。",
       "sentenceIndex": 28,
@@ -1520,12 +1406,10 @@ export default {
         "weight"
       ],
       "optionReasons": {
-        "weight-mcq-28": "本句指「一直令人憂慮、造成心理壓力的事情」。",
-        "weight-mcq-27": "「失重的」是「weightless」的用法，與本句語境不同。",
-        "weight-mcq-29": "「在計算、評分或判斷中分配給某因素的相對重要程度」是「20. weight（統計／評分中的權重） — 權重；比重」的用法，與本句語境不同。",
-        "weight-mcq-26": "「體重過輕／重量不足」是「underweight」的用法，與本句語境不同。",
-        "weight-mcq-30": "「制度或安排在設計上偏向／不利於某一方」是「24. weight something in favour of / against — 使偏向某方」的用法，與本句語境不同。",
-        "weight-mcq-25": "「超重的」是「overweight」的用法，與本句語境不同。"
+        "weight-mcq-28": "本句的「weight」指「一直令人憂慮、造成心理壓力的事情」。",
+        "weight-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-28"
     },
@@ -1537,11 +1421,9 @@ export default {
       "masked": "Finishing the exam was a ____.",
       "options": [
         "weight-mcq-16",
-        "weight-mcq-15",
-        "weight-mcq-17",
-        "weight-mcq-14",
         "weight-mcq-18",
-        "weight-mcq-13"
+        "weight-mcq-30",
+        "weight-mcq-21"
       ],
       "explanation": "本句的「weight off my mind」指「如釋重負」。",
       "sentenceIndex": 29,
@@ -1550,12 +1432,10 @@ export default {
         "weight off my mind"
       ],
       "optionReasons": {
-        "weight-mcq-16": "本句指「如釋重負」。",
-        "weight-mcq-15": "「心頭重擔」是「weight on your mind」的用法，與本句語境不同。",
-        "weight-mcq-17": "「仗勢欺人」是「throw your weight around」的用法，與本句語境不同。",
-        "weight-mcq-14": "「責任重擔」是「weight of responsibility」的用法，與本句語境不同。",
-        "weight-mcq-18": "「盡本分」是「pull your weight」的用法，與本句語境不同。",
-        "weight-mcq-13": "「重視」是「give weight to」的用法，與本句語境不同。"
+        "weight-mcq-16": "本句的「weight off my mind」指「如釋重負」。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-16"
     },
@@ -1567,11 +1447,9 @@ export default {
       "masked": "Knowing she was safe took a ____.",
       "options": [
         "weight-mcq-16",
-        "weight-mcq-15",
-        "weight-mcq-17",
-        "weight-mcq-14",
+        "weight-mcq-21",
         "weight-mcq-18",
-        "weight-mcq-13"
+        "weight-mcq-30"
       ],
       "explanation": "本句的「weight off his mind」指「如釋重負」。",
       "sentenceIndex": 30,
@@ -1580,12 +1458,10 @@ export default {
         "weight off his mind"
       ],
       "optionReasons": {
-        "weight-mcq-16": "本句指「如釋重負」。",
-        "weight-mcq-15": "「心頭重擔」是「weight on your mind」的用法，與本句語境不同。",
-        "weight-mcq-17": "「仗勢欺人」是「throw your weight around」的用法，與本句語境不同。",
-        "weight-mcq-14": "「責任重擔」是「weight of responsibility」的用法，與本句語境不同。",
-        "weight-mcq-18": "「盡本分」是「pull your weight」的用法，與本句語境不同。",
-        "weight-mcq-13": "「重視」是「give weight to」的用法，與本句語境不同。"
+        "weight-mcq-16": "本句的「weight off his mind」指「如釋重負」。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-16"
     },
@@ -1597,11 +1473,9 @@ export default {
       "masked": "He likes to ____ in meetings.",
       "options": [
         "weight-mcq-17",
-        "weight-mcq-16",
-        "weight-mcq-18",
-        "weight-mcq-15",
-        "weight-mcq-19",
-        "weight-mcq-14"
+        "weight-mcq-26",
+        "weight-mcq-28",
+        "weight-mcq-12"
       ],
       "explanation": "本句的「throw his weight around」指「仗勢欺人」。",
       "sentenceIndex": 31,
@@ -1610,12 +1484,10 @@ export default {
         "throw his weight around"
       ],
       "optionReasons": {
-        "weight-mcq-17": "本句指「仗勢欺人」。",
-        "weight-mcq-16": "「如釋重負」是「weight off your mind」的用法，與本句語境不同。",
-        "weight-mcq-18": "「盡本分」是「pull your weight」的用法，與本句語境不同。",
-        "weight-mcq-15": "「心頭重擔」是「weight on your mind」的用法，與本句語境不同。",
-        "weight-mcq-19": "「字重」是「font weight」的用法，與本句語境不同。",
-        "weight-mcq-14": "「責任重擔」是「weight of responsibility」的用法，與本句語境不同。"
+        "weight-mcq-17": "本句的「throw his weight around」指「仗勢欺人」。",
+        "weight-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-17"
     },
@@ -1627,11 +1499,9 @@ export default {
       "masked": "Don't ____ just because you're the manager.",
       "options": [
         "weight-mcq-17",
-        "weight-mcq-16",
-        "weight-mcq-18",
-        "weight-mcq-15",
-        "weight-mcq-19",
-        "weight-mcq-14"
+        "weight-mcq-02",
+        "weight-mcq-30",
+        "weight-mcq-21"
       ],
       "explanation": "本句的「throw your weight around」指「仗勢欺人」。",
       "sentenceIndex": 32,
@@ -1640,12 +1510,10 @@ export default {
         "throw your weight around"
       ],
       "optionReasons": {
-        "weight-mcq-17": "本句指「仗勢欺人」。",
-        "weight-mcq-16": "「如釋重負」是「weight off your mind」的用法，與本句語境不同。",
-        "weight-mcq-18": "「盡本分」是「pull your weight」的用法，與本句語境不同。",
-        "weight-mcq-15": "「心頭重擔」是「weight on your mind」的用法，與本句語境不同。",
-        "weight-mcq-19": "「字重」是「font weight」的用法，與本句語境不同。",
-        "weight-mcq-14": "「責任重擔」是「weight of responsibility」的用法，與本句語境不同。"
+        "weight-mcq-17": "本句的「throw your weight around」指「仗勢欺人」。",
+        "weight-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-17"
     },
@@ -1657,11 +1525,9 @@ export default {
       "masked": "Everyone needs to ____.",
       "options": [
         "weight-mcq-18",
-        "weight-mcq-17",
         "weight-mcq-19",
-        "weight-mcq-16",
-        "weight-mcq-20",
-        "weight-mcq-15"
+        "weight-mcq-17",
+        "weight-mcq-28"
       ],
       "explanation": "本句的「pull their weight」指「盡本分」。",
       "sentenceIndex": 33,
@@ -1670,12 +1536,10 @@ export default {
         "pull their weight"
       ],
       "optionReasons": {
-        "weight-mcq-18": "本句指「盡本分」。",
-        "weight-mcq-17": "「仗勢欺人」是「throw your weight around」的用法，與本句語境不同。",
-        "weight-mcq-19": "「字重」是「font weight」的用法，與本句語境不同。",
-        "weight-mcq-16": "「如釋重負」是「weight off your mind」的用法，與本句語境不同。",
-        "weight-mcq-20": "「權重」是「weight (calculation)」的用法，與本句語境不同。",
-        "weight-mcq-15": "「心頭重擔」是「weight on your mind」的用法，與本句語境不同。"
+        "weight-mcq-18": "本句的「pull their weight」指「盡本分」。",
+        "weight-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-18"
     },
@@ -1687,11 +1551,9 @@ export default {
       "masked": "He wasn't ____ on the project.",
       "options": [
         "weight-mcq-18",
-        "weight-mcq-17",
-        "weight-mcq-19",
-        "weight-mcq-16",
-        "weight-mcq-20",
-        "weight-mcq-15"
+        "weight-mcq-07",
+        "weight-mcq-21",
+        "weight-mcq-17"
       ],
       "explanation": "本句的「pulling his weight」指「盡本分」。",
       "sentenceIndex": 34,
@@ -1700,12 +1562,10 @@ export default {
         "pulling his weight"
       ],
       "optionReasons": {
-        "weight-mcq-18": "本句指「盡本分」。",
-        "weight-mcq-17": "「仗勢欺人」是「throw your weight around」的用法，與本句語境不同。",
-        "weight-mcq-19": "「字重」是「font weight」的用法，與本句語境不同。",
-        "weight-mcq-16": "「如釋重負」是「weight off your mind」的用法，與本句語境不同。",
-        "weight-mcq-20": "「權重」是「weight (calculation)」的用法，與本句語境不同。",
-        "weight-mcq-15": "「心頭重擔」是「weight on your mind」的用法，與本句語境不同。"
+        "weight-mcq-18": "本句的「pulling his weight」指「盡本分」。",
+        "weight-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-18"
     },
@@ -1717,11 +1577,9 @@ export default {
       "masked": "She has considerable ____ in the industry.",
       "options": [
         "weight-mcq-19",
-        "weight-mcq-18",
-        "weight-mcq-20",
-        "weight-mcq-17",
         "weight-mcq-21",
-        "weight-mcq-16"
+        "weight-mcq-17",
+        "weight-mcq-30"
       ],
       "explanation": "本句的「weight」指「字重」。",
       "sentenceIndex": 35,
@@ -1730,12 +1588,10 @@ export default {
         "weight"
       ],
       "optionReasons": {
-        "weight-mcq-19": "本句指「字重」。",
-        "weight-mcq-18": "「盡本分」是「pull your weight」的用法，與本句語境不同。",
-        "weight-mcq-20": "「權重」是「weight (calculation)」的用法，與本句語境不同。",
-        "weight-mcq-17": "「仗勢欺人」是「throw your weight around」的用法，與本句語境不同。",
-        "weight-mcq-21": "「加權平均」是「weighted average」的用法，與本句語境不同。",
-        "weight-mcq-16": "「如釋重負」是「weight off your mind」的用法，與本句語境不同。"
+        "weight-mcq-19": "本句的「weight」指「字重」。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-19"
     },
@@ -1747,11 +1603,9 @@ export default {
       "masked": "His name gives the proposal extra ____.",
       "options": [
         "weight-mcq-19",
-        "weight-mcq-18",
-        "weight-mcq-20",
         "weight-mcq-17",
-        "weight-mcq-21",
-        "weight-mcq-16"
+        "weight-mcq-18",
+        "weight-mcq-30"
       ],
       "explanation": "本句的「weight」指「字重」。",
       "sentenceIndex": 36,
@@ -1760,12 +1614,10 @@ export default {
         "weight"
       ],
       "optionReasons": {
-        "weight-mcq-19": "本句指「字重」。",
-        "weight-mcq-18": "「盡本分」是「pull your weight」的用法，與本句語境不同。",
-        "weight-mcq-20": "「權重」是「weight (calculation)」的用法，與本句語境不同。",
-        "weight-mcq-17": "「仗勢欺人」是「throw your weight around」的用法，與本句語境不同。",
-        "weight-mcq-21": "「加權平均」是「weighted average」的用法，與本句語境不同。",
-        "weight-mcq-16": "「如釋重負」是「weight off your mind」的用法，與本句語境不同。"
+        "weight-mcq-19": "本句的「weight」指「字重」。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-19"
     },
@@ -1777,11 +1629,9 @@ export default {
       "masked": "Use a heavier font ____ for the heading.",
       "options": [
         "weight-mcq-19",
-        "weight-mcq-18",
-        "weight-mcq-20",
-        "weight-mcq-17",
         "weight-mcq-21",
-        "weight-mcq-16"
+        "weight-mcq-17",
+        "weight-mcq-12"
       ],
       "explanation": "本句的「weight」指「字重」。",
       "sentenceIndex": 37,
@@ -1790,12 +1640,10 @@ export default {
         "weight"
       ],
       "optionReasons": {
-        "weight-mcq-19": "本句指「字重」。",
-        "weight-mcq-18": "「盡本分」是「pull your weight」的用法，與本句語境不同。",
-        "weight-mcq-20": "「權重」是「weight (calculation)」的用法，與本句語境不同。",
-        "weight-mcq-17": "「仗勢欺人」是「throw your weight around」的用法，與本句語境不同。",
-        "weight-mcq-21": "「加權平均」是「weighted average」的用法，與本句語境不同。",
-        "weight-mcq-16": "「如釋重負」是「weight off your mind」的用法，與本句語境不同。"
+        "weight-mcq-19": "本句的「weight」指「字重」。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-19"
     },
@@ -1807,11 +1655,9 @@ export default {
       "masked": "The typeface is available in several ____.",
       "options": [
         "weight-mcq-19",
-        "weight-mcq-18",
-        "weight-mcq-20",
-        "weight-mcq-17",
         "weight-mcq-21",
-        "weight-mcq-16"
+        "weight-mcq-12",
+        "weight-mcq-17"
       ],
       "explanation": "本句的「weights」指「字重」。",
       "sentenceIndex": 38,
@@ -1820,12 +1666,10 @@ export default {
         "weights"
       ],
       "optionReasons": {
-        "weight-mcq-19": "本句指「字重」。",
-        "weight-mcq-18": "「盡本分」是「pull your weight」的用法，與本句語境不同。",
-        "weight-mcq-20": "「權重」是「weight (calculation)」的用法，與本句語境不同。",
-        "weight-mcq-17": "「仗勢欺人」是「throw your weight around」的用法，與本句語境不同。",
-        "weight-mcq-21": "「加權平均」是「weighted average」的用法，與本句語境不同。",
-        "weight-mcq-16": "「如釋重負」是「weight off your mind」的用法，與本句語境不同。"
+        "weight-mcq-19": "本句的「weights」指「字重」。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-19"
     },
@@ -1837,11 +1681,9 @@ export default {
       "masked": "The final exam has a ____ of 60%.",
       "options": [
         "weight-mcq-29",
+        "weight-mcq-21",
         "weight-mcq-28",
-        "weight-mcq-30",
-        "weight-mcq-27",
-        "weight-mcq-26",
-        "weight-mcq-25"
+        "weight-mcq-17"
       ],
       "explanation": "本句的「weight」指「在計算、評分或判斷中分配給某因素的相對重要程度」。",
       "sentenceIndex": 39,
@@ -1850,12 +1692,10 @@ export default {
         "weight"
       ],
       "optionReasons": {
-        "weight-mcq-29": "本句指「在計算、評分或判斷中分配給某因素的相對重要程度」。",
-        "weight-mcq-28": "「一直令人憂慮、造成心理壓力的事情」是「14. a weight on someone / someone's mind — 心頭重擔」的用法，與本句語境不同。",
-        "weight-mcq-30": "「制度或安排在設計上偏向／不利於某一方」是「24. weight something in favour of / against — 使偏向某方」的用法，與本句語境不同。",
-        "weight-mcq-27": "「失重的」是「weightless」的用法，與本句語境不同。",
-        "weight-mcq-26": "「體重過輕／重量不足」是「underweight」的用法，與本句語境不同。",
-        "weight-mcq-25": "「超重的」是「overweight」的用法，與本句語境不同。"
+        "weight-mcq-29": "本句的「weight」指「在計算、評分或判斷中分配給某因素的相對重要程度」。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-29"
     },
@@ -1867,11 +1707,9 @@ export default {
       "masked": "Different factors are given different ____.",
       "options": [
         "weight-mcq-29",
-        "weight-mcq-28",
-        "weight-mcq-30",
-        "weight-mcq-27",
-        "weight-mcq-26",
-        "weight-mcq-25"
+        "weight-mcq-17",
+        "weight-mcq-21",
+        "weight-mcq-28"
       ],
       "explanation": "本句的「weights」指「在計算、評分或判斷中分配給某因素的相對重要程度」。",
       "sentenceIndex": 40,
@@ -1880,12 +1718,10 @@ export default {
         "weights"
       ],
       "optionReasons": {
-        "weight-mcq-29": "本句指「在計算、評分或判斷中分配給某因素的相對重要程度」。",
-        "weight-mcq-28": "「一直令人憂慮、造成心理壓力的事情」是「14. a weight on someone / someone's mind — 心頭重擔」的用法，與本句語境不同。",
-        "weight-mcq-30": "「制度或安排在設計上偏向／不利於某一方」是「24. weight something in favour of / against — 使偏向某方」的用法，與本句語境不同。",
-        "weight-mcq-27": "「失重的」是「weightless」的用法，與本句語境不同。",
-        "weight-mcq-26": "「體重過輕／重量不足」是「underweight」的用法，與本句語境不同。",
-        "weight-mcq-25": "「超重的」是「overweight」的用法，與本句語境不同。"
+        "weight-mcq-29": "本句的「weights」指「在計算、評分或判斷中分配給某因素的相對重要程度」。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-29"
     },
@@ -1897,11 +1733,9 @@ export default {
       "masked": "The final score is a ____ of several assessments.",
       "options": [
         "weight-mcq-21",
-        "weight-mcq-20",
-        "weight-mcq-22",
         "weight-mcq-19",
-        "weight-mcq-23",
-        "weight-mcq-18"
+        "weight-mcq-12",
+        "weight-mcq-28"
       ],
       "explanation": "本句的「weighted average」指「加權平均」。",
       "sentenceIndex": 41,
@@ -1910,12 +1744,10 @@ export default {
         "weighted average"
       ],
       "optionReasons": {
-        "weight-mcq-21": "本句指「加權平均」。",
-        "weight-mcq-20": "「權重」是「weight (calculation)」的用法，與本句語境不同。",
-        "weight-mcq-22": "「偏重於」是「weighted towards」的用法，與本句語境不同。",
-        "weight-mcq-19": "「字重」是「font weight」的用法，與本句語境不同。",
-        "weight-mcq-23": "「加重」是「weight something」的用法，與本句語境不同。",
-        "weight-mcq-18": "「盡本分」是「pull your weight」的用法，與本句語境不同。"
+        "weight-mcq-21": "本句的「weighted average」指「加權平均」。",
+        "weight-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-21"
     },
@@ -1927,11 +1759,9 @@ export default {
       "masked": "We calculated a ____ based on population size.",
       "options": [
         "weight-mcq-21",
-        "weight-mcq-20",
-        "weight-mcq-22",
-        "weight-mcq-19",
-        "weight-mcq-23",
-        "weight-mcq-18"
+        "weight-mcq-13",
+        "weight-mcq-18",
+        "weight-mcq-30"
       ],
       "explanation": "本句的「weighted average」指「加權平均」。",
       "sentenceIndex": 42,
@@ -1940,12 +1770,10 @@ export default {
         "weighted average"
       ],
       "optionReasons": {
-        "weight-mcq-21": "本句指「加權平均」。",
-        "weight-mcq-20": "「權重」是「weight (calculation)」的用法，與本句語境不同。",
-        "weight-mcq-22": "「偏重於」是「weighted towards」的用法，與本句語境不同。",
-        "weight-mcq-19": "「字重」是「font weight」的用法，與本句語境不同。",
-        "weight-mcq-23": "「加重」是「weight something」的用法，與本句語境不同。",
-        "weight-mcq-18": "「盡本分」是「pull your weight」的用法，與本句語境不同。"
+        "weight-mcq-21": "本句的「weighted average」指「加權平均」。",
+        "weight-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-21"
     },
@@ -1957,11 +1785,9 @@ export default {
       "masked": "The course is ____.",
       "options": [
         "weight-mcq-22",
-        "weight-mcq-21",
-        "weight-mcq-23",
-        "weight-mcq-20",
-        "weight-mcq-24",
-        "weight-mcq-19"
+        "weight-mcq-11",
+        "weight-mcq-28",
+        "weight-mcq-21"
       ],
       "explanation": "本句的「weighted towards practical work」指「偏重於」。",
       "sentenceIndex": 43,
@@ -1970,12 +1796,10 @@ export default {
         "weighted towards practical work"
       ],
       "optionReasons": {
-        "weight-mcq-22": "本句指「偏重於」。",
-        "weight-mcq-21": "「加權平均」是「weighted average」的用法，與本句語境不同。",
-        "weight-mcq-23": "「加重」是「weight something」的用法，與本句語境不同。",
-        "weight-mcq-20": "「權重」是「weight (calculation)」的用法，與本句語境不同。",
-        "weight-mcq-24": "「重大問題」是「weighty issue」的用法，與本句語境不同。",
-        "weight-mcq-19": "「字重」是「font weight」的用法，與本句語境不同。"
+        "weight-mcq-22": "本句的「weighted towards practical work」指「偏重於」。",
+        "weight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-22"
     },
@@ -1987,11 +1811,9 @@ export default {
       "masked": "The survey was ____.",
       "options": [
         "weight-mcq-22",
-        "weight-mcq-21",
-        "weight-mcq-23",
-        "weight-mcq-20",
-        "weight-mcq-24",
-        "weight-mcq-19"
+        "weight-mcq-18",
+        "weight-mcq-28",
+        "weight-mcq-21"
       ],
       "explanation": "本句的「weighted towards younger respondents」指「偏重於」。",
       "sentenceIndex": 44,
@@ -2000,12 +1822,10 @@ export default {
         "weighted towards younger respondents"
       ],
       "optionReasons": {
-        "weight-mcq-22": "本句指「偏重於」。",
-        "weight-mcq-21": "「加權平均」是「weighted average」的用法，與本句語境不同。",
-        "weight-mcq-23": "「加重」是「weight something」的用法，與本句語境不同。",
-        "weight-mcq-20": "「權重」是「weight (calculation)」的用法，與本句語境不同。",
-        "weight-mcq-24": "「重大問題」是「weighty issue」的用法，與本句語境不同。",
-        "weight-mcq-19": "「字重」是「font weight」的用法，與本句語境不同。"
+        "weight-mcq-22": "本句的「weighted towards younger respondents」指「偏重於」。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-22"
     },
@@ -2017,11 +1837,9 @@ export default {
       "masked": "The base is ____ to stop it from falling over.",
       "options": [
         "weight-mcq-23",
-        "weight-mcq-22",
-        "weight-mcq-24",
-        "weight-mcq-21",
-        "weight-mcq-25",
-        "weight-mcq-20"
+        "weight-mcq-18",
+        "weight-mcq-17",
+        "weight-mcq-28"
       ],
       "explanation": "本句的「weighted」指「加重」。",
       "sentenceIndex": 45,
@@ -2030,12 +1848,10 @@ export default {
         "weighted"
       ],
       "optionReasons": {
-        "weight-mcq-23": "本句指「加重」。",
-        "weight-mcq-22": "「偏重於」是「weighted towards」的用法，與本句語境不同。",
-        "weight-mcq-24": "「重大問題」是「weighty issue」的用法，與本句語境不同。",
-        "weight-mcq-21": "「加權平均」是「weighted average」的用法，與本句語境不同。",
-        "weight-mcq-25": "「超重的」是「overweight」的用法，與本句語境不同。",
-        "weight-mcq-20": "「權重」是「weight (calculation)」的用法，與本句語境不同。"
+        "weight-mcq-23": "本句的「weighted」指「加重」。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-23"
     },
@@ -2047,11 +1863,9 @@ export default {
       "masked": "The curtain is ____.",
       "options": [
         "weight-mcq-23",
-        "weight-mcq-22",
-        "weight-mcq-24",
-        "weight-mcq-21",
-        "weight-mcq-25",
-        "weight-mcq-20"
+        "weight-mcq-28",
+        "weight-mcq-12",
+        "weight-mcq-17"
       ],
       "explanation": "本句的「weighted at the bottom」指「加重」。",
       "sentenceIndex": 46,
@@ -2060,12 +1874,10 @@ export default {
         "weighted at the bottom"
       ],
       "optionReasons": {
-        "weight-mcq-23": "本句指「加重」。",
-        "weight-mcq-22": "「偏重於」是「weighted towards」的用法，與本句語境不同。",
-        "weight-mcq-24": "「重大問題」是「weighty issue」的用法，與本句語境不同。",
-        "weight-mcq-21": "「加權平均」是「weighted average」的用法，與本句語境不同。",
-        "weight-mcq-25": "「超重的」是「overweight」的用法，與本句語境不同。",
-        "weight-mcq-20": "「權重」是「weight (calculation)」的用法，與本句語境不同。"
+        "weight-mcq-23": "本句的「weighted at the bottom」指「加重」。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-23"
     },
@@ -2077,11 +1889,9 @@ export default {
       "masked": "The rules are ____ larger companies.",
       "options": [
         "weight-mcq-30",
-        "weight-mcq-29",
         "weight-mcq-28",
-        "weight-mcq-27",
-        "weight-mcq-26",
-        "weight-mcq-25"
+        "weight-mcq-21",
+        "weight-mcq-26"
       ],
       "explanation": "本句的「weighted in favour of」指「制度或安排在設計上偏向／不利於某一方」。",
       "sentenceIndex": 47,
@@ -2090,12 +1900,10 @@ export default {
         "weighted in favour of"
       ],
       "optionReasons": {
-        "weight-mcq-30": "本句指「制度或安排在設計上偏向／不利於某一方」。",
-        "weight-mcq-29": "「在計算、評分或判斷中分配給某因素的相對重要程度」是「20. weight（統計／評分中的權重） — 權重；比重」的用法，與本句語境不同。",
-        "weight-mcq-28": "「一直令人憂慮、造成心理壓力的事情」是「14. a weight on someone / someone's mind — 心頭重擔」的用法，與本句語境不同。",
-        "weight-mcq-27": "「失重的」是「weightless」的用法，與本句語境不同。",
-        "weight-mcq-26": "「體重過輕／重量不足」是「underweight」的用法，與本句語境不同。",
-        "weight-mcq-25": "「超重的」是「overweight」的用法，與本句語境不同。"
+        "weight-mcq-30": "本句的「weighted in favour of」指「制度或安排在設計上偏向／不利於某一方」。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-30"
     },
@@ -2107,11 +1915,9 @@ export default {
       "masked": "The system is ____ beginners.",
       "options": [
         "weight-mcq-30",
-        "weight-mcq-29",
-        "weight-mcq-28",
-        "weight-mcq-27",
-        "weight-mcq-26",
-        "weight-mcq-25"
+        "weight-mcq-01",
+        "weight-mcq-18",
+        "weight-mcq-21"
       ],
       "explanation": "本句的「weighted against」指「制度或安排在設計上偏向／不利於某一方」。",
       "sentenceIndex": 48,
@@ -2120,12 +1926,10 @@ export default {
         "weighted against"
       ],
       "optionReasons": {
-        "weight-mcq-30": "本句指「制度或安排在設計上偏向／不利於某一方」。",
-        "weight-mcq-29": "「在計算、評分或判斷中分配給某因素的相對重要程度」是「20. weight（統計／評分中的權重） — 權重；比重」的用法，與本句語境不同。",
-        "weight-mcq-28": "「一直令人憂慮、造成心理壓力的事情」是「14. a weight on someone / someone's mind — 心頭重擔」的用法，與本句語境不同。",
-        "weight-mcq-27": "「失重的」是「weightless」的用法，與本句語境不同。",
-        "weight-mcq-26": "「體重過輕／重量不足」是「underweight」的用法，與本句語境不同。",
-        "weight-mcq-25": "「超重的」是「overweight」的用法，與本句語境不同。"
+        "weight-mcq-30": "本句的「weighted against」指「制度或安排在設計上偏向／不利於某一方」。",
+        "weight-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-30"
     },
@@ -2137,11 +1941,9 @@ export default {
       "masked": "He carried a ____ suitcase.",
       "options": [
         "weight-mcq-24",
-        "weight-mcq-23",
-        "weight-mcq-25",
-        "weight-mcq-22",
-        "weight-mcq-26",
-        "weight-mcq-21"
+        "weight-mcq-30",
+        "weight-mcq-12",
+        "weight-mcq-17"
       ],
       "explanation": "本句的「weighty」指「重大問題」。",
       "sentenceIndex": 49,
@@ -2150,12 +1952,10 @@ export default {
         "weighty"
       ],
       "optionReasons": {
-        "weight-mcq-24": "本句指「重大問題」。",
-        "weight-mcq-23": "「加重」是「weight something」的用法，與本句語境不同。",
-        "weight-mcq-25": "「超重的」是「overweight」的用法，與本句語境不同。",
-        "weight-mcq-22": "「偏重於」是「weighted towards」的用法，與本句語境不同。",
-        "weight-mcq-26": "「體重過輕／重量不足」是「underweight」的用法，與本句語境不同。",
-        "weight-mcq-21": "「加權平均」是「weighted average」的用法，與本句語境不同。"
+        "weight-mcq-24": "本句的「weighty」指「重大問題」。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-24"
     },
@@ -2167,11 +1967,9 @@ export default {
       "masked": "The old book was surprisingly ____.",
       "options": [
         "weight-mcq-24",
-        "weight-mcq-23",
-        "weight-mcq-25",
-        "weight-mcq-22",
-        "weight-mcq-26",
-        "weight-mcq-21"
+        "weight-mcq-12",
+        "weight-mcq-21",
+        "weight-mcq-28"
       ],
       "explanation": "本句的「weighty」指「重大問題」。",
       "sentenceIndex": 50,
@@ -2180,12 +1978,10 @@ export default {
         "weighty"
       ],
       "optionReasons": {
-        "weight-mcq-24": "本句指「重大問題」。",
-        "weight-mcq-23": "「加重」是「weight something」的用法，與本句語境不同。",
-        "weight-mcq-25": "「超重的」是「overweight」的用法，與本句語境不同。",
-        "weight-mcq-22": "「偏重於」是「weighted towards」的用法，與本句語境不同。",
-        "weight-mcq-26": "「體重過輕／重量不足」是「underweight」的用法，與本句語境不同。",
-        "weight-mcq-21": "「加權平均」是「weighted average」的用法，與本句語境不同。"
+        "weight-mcq-24": "本句的「weighty」指「重大問題」。",
+        "weight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-24"
     },
@@ -2197,10 +1993,8 @@ export default {
       "masked": "They discussed several ____.",
       "options": [
         "weight-mcq-24",
-        "weight-mcq-23",
-        "weight-mcq-25",
-        "weight-mcq-22",
-        "weight-mcq-26",
+        "weight-mcq-11",
+        "weight-mcq-30",
         "weight-mcq-21"
       ],
       "explanation": "本句的「weighty issues」指「重大問題」。",
@@ -2210,12 +2004,10 @@ export default {
         "weighty issues"
       ],
       "optionReasons": {
-        "weight-mcq-24": "本句指「重大問題」。",
-        "weight-mcq-23": "「加重」是「weight something」的用法，與本句語境不同。",
-        "weight-mcq-25": "「超重的」是「overweight」的用法，與本句語境不同。",
-        "weight-mcq-22": "「偏重於」是「weighted towards」的用法，與本句語境不同。",
-        "weight-mcq-26": "「體重過輕／重量不足」是「underweight」的用法，與本句語境不同。",
-        "weight-mcq-21": "「加權平均」是「weighted average」的用法，與本句語境不同。"
+        "weight-mcq-24": "本句的「weighty issues」指「重大問題」。",
+        "weight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-24"
     },
@@ -2227,10 +2019,8 @@ export default {
       "masked": "She offered a ____.",
       "options": [
         "weight-mcq-24",
-        "weight-mcq-23",
-        "weight-mcq-25",
-        "weight-mcq-22",
-        "weight-mcq-26",
+        "weight-mcq-17",
+        "weight-mcq-28",
         "weight-mcq-21"
       ],
       "explanation": "本句的「weighty argument」指「重大問題」。",
@@ -2240,12 +2030,10 @@ export default {
         "weighty argument"
       ],
       "optionReasons": {
-        "weight-mcq-24": "本句指「重大問題」。",
-        "weight-mcq-23": "「加重」是「weight something」的用法，與本句語境不同。",
-        "weight-mcq-25": "「超重的」是「overweight」的用法，與本句語境不同。",
-        "weight-mcq-22": "「偏重於」是「weighted towards」的用法，與本句語境不同。",
-        "weight-mcq-26": "「體重過輕／重量不足」是「underweight」的用法，與本句語境不同。",
-        "weight-mcq-21": "「加權平均」是「weighted average」的用法，與本句語境不同。"
+        "weight-mcq-24": "本句的「weighty argument」指「重大問題」。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-24"
     },
@@ -2257,11 +2045,9 @@ export default {
       "masked": "The suitcase is ____.",
       "options": [
         "weight-mcq-25",
-        "weight-mcq-24",
-        "weight-mcq-26",
-        "weight-mcq-23",
-        "weight-mcq-27",
-        "weight-mcq-22"
+        "weight-mcq-18",
+        "weight-mcq-28",
+        "weight-mcq-17"
       ],
       "explanation": "本句的「overweight」指「超重的」。",
       "sentenceIndex": 53,
@@ -2270,12 +2056,10 @@ export default {
         "overweight"
       ],
       "optionReasons": {
-        "weight-mcq-25": "本句指「超重的」。",
-        "weight-mcq-24": "「重大問題」是「weighty issue」的用法，與本句語境不同。",
-        "weight-mcq-26": "「體重過輕／重量不足」是「underweight」的用法，與本句語境不同。",
-        "weight-mcq-23": "「加重」是「weight something」的用法，與本句語境不同。",
-        "weight-mcq-27": "「失重的」是「weightless」的用法，與本句語境不同。",
-        "weight-mcq-22": "「偏重於」是「weighted towards」的用法，與本句語境不同。"
+        "weight-mcq-25": "本句的「overweight」指「超重的」。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-25"
     },
@@ -2287,11 +2071,9 @@ export default {
       "masked": "The parcel was slightly ____.",
       "options": [
         "weight-mcq-25",
-        "weight-mcq-24",
-        "weight-mcq-26",
-        "weight-mcq-23",
-        "weight-mcq-27",
-        "weight-mcq-22"
+        "weight-mcq-11",
+        "weight-mcq-28",
+        "weight-mcq-21"
       ],
       "explanation": "本句的「overweight」指「超重的」。",
       "sentenceIndex": 54,
@@ -2300,12 +2082,10 @@ export default {
         "overweight"
       ],
       "optionReasons": {
-        "weight-mcq-25": "本句指「超重的」。",
-        "weight-mcq-24": "「重大問題」是「weighty issue」的用法，與本句語境不同。",
-        "weight-mcq-26": "「體重過輕／重量不足」是「underweight」的用法，與本句語境不同。",
-        "weight-mcq-23": "「加重」是「weight something」的用法，與本句語境不同。",
-        "weight-mcq-27": "「失重的」是「weightless」的用法，與本句語境不同。",
-        "weight-mcq-22": "「偏重於」是「weighted towards」的用法，與本句語境不同。"
+        "weight-mcq-25": "本句的「overweight」指「超重的」。",
+        "weight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-25"
     },
@@ -2317,11 +2097,9 @@ export default {
       "masked": "The package was ____.",
       "options": [
         "weight-mcq-26",
-        "weight-mcq-25",
-        "weight-mcq-27",
-        "weight-mcq-24",
-        "weight-mcq-28",
-        "weight-mcq-23"
+        "weight-mcq-18",
+        "weight-mcq-17",
+        "weight-mcq-30"
       ],
       "explanation": "本句的「underweight」指「體重過輕／重量不足」。",
       "sentenceIndex": 55,
@@ -2330,12 +2108,10 @@ export default {
         "underweight"
       ],
       "optionReasons": {
-        "weight-mcq-26": "本句指「體重過輕／重量不足」。",
-        "weight-mcq-25": "「超重的」是「overweight」的用法，與本句語境不同。",
-        "weight-mcq-27": "「失重的」是「weightless」的用法，與本句語境不同。",
-        "weight-mcq-24": "「重大問題」是「weighty issue」的用法，與本句語境不同。",
-        "weight-mcq-28": "「一直令人憂慮、造成心理壓力的事情」是「14. a weight on someone / someone's mind — 心頭重擔」的用法，與本句語境不同。",
-        "weight-mcq-23": "「加重」是「weight something」的用法，與本句語境不同。"
+        "weight-mcq-26": "本句的「underweight」指「體重過輕／重量不足」。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-26"
     },
@@ -2347,11 +2123,9 @@ export default {
       "masked": "The doctor said the child was slightly ____.",
       "options": [
         "weight-mcq-26",
-        "weight-mcq-25",
-        "weight-mcq-27",
-        "weight-mcq-24",
-        "weight-mcq-28",
-        "weight-mcq-23"
+        "weight-mcq-18",
+        "weight-mcq-17",
+        "weight-mcq-30"
       ],
       "explanation": "本句的「underweight」指「體重過輕／重量不足」。",
       "sentenceIndex": 56,
@@ -2360,12 +2134,10 @@ export default {
         "underweight"
       ],
       "optionReasons": {
-        "weight-mcq-26": "本句指「體重過輕／重量不足」。",
-        "weight-mcq-25": "「超重的」是「overweight」的用法，與本句語境不同。",
-        "weight-mcq-27": "「失重的」是「weightless」的用法，與本句語境不同。",
-        "weight-mcq-24": "「重大問題」是「weighty issue」的用法，與本句語境不同。",
-        "weight-mcq-28": "「一直令人憂慮、造成心理壓力的事情」是「14. a weight on someone / someone's mind — 心頭重擔」的用法，與本句語境不同。",
-        "weight-mcq-23": "「加重」是「weight something」的用法，與本句語境不同。"
+        "weight-mcq-26": "本句的「underweight」指「體重過輕／重量不足」。",
+        "weight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-26"
     },
@@ -2377,11 +2149,9 @@ export default {
       "masked": "Astronauts appear ____ in orbit.",
       "options": [
         "weight-mcq-27",
-        "weight-mcq-26",
-        "weight-mcq-28",
-        "weight-mcq-25",
-        "weight-mcq-29",
-        "weight-mcq-24"
+        "weight-mcq-30",
+        "weight-mcq-17",
+        "weight-mcq-11"
       ],
       "explanation": "本句的「weightless」指「失重的」。",
       "sentenceIndex": 57,
@@ -2390,12 +2160,10 @@ export default {
         "weightless"
       ],
       "optionReasons": {
-        "weight-mcq-27": "本句指「失重的」。",
-        "weight-mcq-26": "「體重過輕／重量不足」是「underweight」的用法，與本句語境不同。",
-        "weight-mcq-28": "「一直令人憂慮、造成心理壓力的事情」是「14. a weight on someone / someone's mind — 心頭重擔」的用法，與本句語境不同。",
-        "weight-mcq-25": "「超重的」是「overweight」的用法，與本句語境不同。",
-        "weight-mcq-29": "「在計算、評分或判斷中分配給某因素的相對重要程度」是「20. weight（統計／評分中的權重） — 權重；比重」的用法，與本句語境不同。",
-        "weight-mcq-24": "「重大問題」是「weighty issue」的用法，與本句語境不同。"
+        "weight-mcq-27": "本句的「weightless」指「失重的」。",
+        "weight-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-27"
     },
@@ -2407,11 +2175,9 @@ export default {
       "masked": "She felt almost ____ in the water.",
       "options": [
         "weight-mcq-27",
-        "weight-mcq-26",
-        "weight-mcq-28",
-        "weight-mcq-25",
-        "weight-mcq-29",
-        "weight-mcq-24"
+        "weight-mcq-12",
+        "weight-mcq-21",
+        "weight-mcq-28"
       ],
       "explanation": "本句的「weightless」指「失重的」。",
       "sentenceIndex": 58,
@@ -2420,12 +2186,10 @@ export default {
         "weightless"
       ],
       "optionReasons": {
-        "weight-mcq-27": "本句指「失重的」。",
-        "weight-mcq-26": "「體重過輕／重量不足」是「underweight」的用法，與本句語境不同。",
-        "weight-mcq-28": "「一直令人憂慮、造成心理壓力的事情」是「14. a weight on someone / someone's mind — 心頭重擔」的用法，與本句語境不同。",
-        "weight-mcq-25": "「超重的」是「overweight」的用法，與本句語境不同。",
-        "weight-mcq-29": "「在計算、評分或判斷中分配給某因素的相對重要程度」是「20. weight（統計／評分中的權重） — 權重；比重」的用法，與本句語境不同。",
-        "weight-mcq-24": "「重大問題」是「weighty issue」的用法，與本句語境不同。"
+        "weight-mcq-27": "本句的「weightless」指「失重的」。",
+        "weight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "weight-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "weight-mcq-27"
     }
@@ -2437,5 +2201,7 @@ export default {
     "sha256": "317f6a49848295e71b34844aa1119d62ae91339581bb059f6080824a20a404fa",
     "pages": 24
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

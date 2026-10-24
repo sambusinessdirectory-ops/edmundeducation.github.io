@@ -262,11 +262,8 @@ export default {
       "masked": "She ____ the gift.",
       "options": [
         "accept-mcq-01",
-        "accept-mcq-02",
-        "accept-mcq-03",
         "accept-mcq-04",
-        "accept-mcq-05",
-        "accept-mcq-06"
+        "accept-mcq-02"
       ],
       "explanation": "本句的「accepted」指「願意收下、取得或接受別人提供的東西」。",
       "sentenceIndex": 0,
@@ -275,12 +272,9 @@ export default {
         "accepted"
       ],
       "optionReasons": {
-        "accept-mcq-01": "本句指「願意收下、取得或接受別人提供的東西」。",
-        "accept-mcq-02": "「同意某項提議、條件、安排或決定」與本句語境不同。",
-        "accept-mcq-03": "「承認某件事情是真的、正確的或成立的」與本句語境不同。",
-        "accept-mcq-04": "「面對並承認某個不愉快但難以改變的現實」與本句語境不同。",
-        "accept-mcq-05": "「接納某人，讓對方感到自己屬於某個群體或關係」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。"
+        "accept-mcq-01": "本句的「accepted」指「願意收下、取得或接受別人提供的東西」。",
+        "accept-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-01"
     },
@@ -292,11 +286,8 @@ export default {
       "masked": "He ____ the invitation.",
       "options": [
         "accept-mcq-01",
-        "accept-mcq-02",
-        "accept-mcq-03",
         "accept-mcq-04",
-        "accept-mcq-05",
-        "accept-mcq-06"
+        "accept-mcq-02"
       ],
       "explanation": "本句的「accepted」指「願意收下、取得或接受別人提供的東西」。",
       "sentenceIndex": 1,
@@ -305,12 +296,9 @@ export default {
         "accepted"
       ],
       "optionReasons": {
-        "accept-mcq-01": "本句指「願意收下、取得或接受別人提供的東西」。",
-        "accept-mcq-02": "「同意某項提議、條件、安排或決定」與本句語境不同。",
-        "accept-mcq-03": "「承認某件事情是真的、正確的或成立的」與本句語境不同。",
-        "accept-mcq-04": "「面對並承認某個不愉快但難以改變的現實」與本句語境不同。",
-        "accept-mcq-05": "「接納某人，讓對方感到自己屬於某個群體或關係」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。"
+        "accept-mcq-01": "本句的「accepted」指「願意收下、取得或接受別人提供的東西」。",
+        "accept-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-01"
     },
@@ -322,11 +310,8 @@ export default {
       "masked": "They ____ the new terms.",
       "options": [
         "accept-mcq-02",
-        "accept-mcq-01",
-        "accept-mcq-03",
-        "accept-mcq-04",
-        "accept-mcq-05",
-        "accept-mcq-06"
+        "accept-mcq-09",
+        "accept-mcq-04"
       ],
       "explanation": "本句的「accepted」指「同意某項提議、條件、安排或決定」。",
       "sentenceIndex": 2,
@@ -335,12 +320,9 @@ export default {
         "accepted"
       ],
       "optionReasons": {
-        "accept-mcq-02": "本句指「同意某項提議、條件、安排或決定」。",
-        "accept-mcq-01": "「願意收下、取得或接受別人提供的東西」與本句語境不同。",
-        "accept-mcq-03": "「承認某件事情是真的、正確的或成立的」與本句語境不同。",
-        "accept-mcq-04": "「面對並承認某個不愉快但難以改變的現實」與本句語境不同。",
-        "accept-mcq-05": "「接納某人，讓對方感到自己屬於某個群體或關係」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。"
+        "accept-mcq-02": "本句的「accepted」指「同意某項提議、條件、安排或決定」。",
+        "accept-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-02"
     },
@@ -352,11 +334,8 @@ export default {
       "masked": "She ____ the decision without argument.",
       "options": [
         "accept-mcq-02",
-        "accept-mcq-01",
-        "accept-mcq-03",
-        "accept-mcq-04",
-        "accept-mcq-05",
-        "accept-mcq-06"
+        "accept-mcq-09",
+        "accept-mcq-04"
       ],
       "explanation": "本句的「accepted」指「同意某項提議、條件、安排或決定」。",
       "sentenceIndex": 3,
@@ -365,12 +344,9 @@ export default {
         "accepted"
       ],
       "optionReasons": {
-        "accept-mcq-02": "本句指「同意某項提議、條件、安排或決定」。",
-        "accept-mcq-01": "「願意收下、取得或接受別人提供的東西」與本句語境不同。",
-        "accept-mcq-03": "「承認某件事情是真的、正確的或成立的」與本句語境不同。",
-        "accept-mcq-04": "「面對並承認某個不愉快但難以改變的現實」與本句語境不同。",
-        "accept-mcq-05": "「接納某人，讓對方感到自己屬於某個群體或關係」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。"
+        "accept-mcq-02": "本句的「accepted」指「同意某項提議、條件、安排或決定」。",
+        "accept-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-02"
     },
@@ -382,11 +358,8 @@ export default {
       "masked": "He refused to ____ that he had made a mistake.",
       "options": [
         "accept-mcq-03",
-        "accept-mcq-02",
-        "accept-mcq-04",
-        "accept-mcq-01",
-        "accept-mcq-05",
-        "accept-mcq-06"
+        "accept-mcq-11",
+        "accept-mcq-08"
       ],
       "explanation": "本句的「accept」指「承認某件事情是真的、正確的或成立的」。",
       "sentenceIndex": 4,
@@ -395,12 +368,9 @@ export default {
         "accept"
       ],
       "optionReasons": {
-        "accept-mcq-03": "本句指「承認某件事情是真的、正確的或成立的」。",
-        "accept-mcq-02": "「同意某項提議、條件、安排或決定」與本句語境不同。",
-        "accept-mcq-04": "「面對並承認某個不愉快但難以改變的現實」與本句語境不同。",
-        "accept-mcq-01": "「願意收下、取得或接受別人提供的東西」與本句語境不同。",
-        "accept-mcq-05": "「接納某人，讓對方感到自己屬於某個群體或關係」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。"
+        "accept-mcq-03": "本句的「accept」指「承認某件事情是真的、正確的或成立的」。",
+        "accept-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-03"
     },
@@ -412,11 +382,8 @@ export default {
       "masked": "Scientists generally ____ this explanation.",
       "options": [
         "accept-mcq-03",
-        "accept-mcq-02",
-        "accept-mcq-04",
-        "accept-mcq-01",
-        "accept-mcq-05",
-        "accept-mcq-06"
+        "accept-mcq-11",
+        "accept-mcq-05"
       ],
       "explanation": "本句的「accept」指「承認某件事情是真的、正確的或成立的」。",
       "sentenceIndex": 5,
@@ -425,12 +392,9 @@ export default {
         "accept"
       ],
       "optionReasons": {
-        "accept-mcq-03": "本句指「承認某件事情是真的、正確的或成立的」。",
-        "accept-mcq-02": "「同意某項提議、條件、安排或決定」與本句語境不同。",
-        "accept-mcq-04": "「面對並承認某個不愉快但難以改變的現實」與本句語境不同。",
-        "accept-mcq-01": "「願意收下、取得或接受別人提供的東西」與本句語境不同。",
-        "accept-mcq-05": "「接納某人，讓對方感到自己屬於某個群體或關係」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。"
+        "accept-mcq-03": "本句的「accept」指「承認某件事情是真的、正確的或成立的」。",
+        "accept-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-03"
     },
@@ -442,11 +406,8 @@ export default {
       "masked": "She slowly ____ the loss.",
       "options": [
         "accept-mcq-04",
-        "accept-mcq-03",
-        "accept-mcq-05",
-        "accept-mcq-02",
-        "accept-mcq-06",
-        "accept-mcq-01"
+        "accept-mcq-09",
+        "accept-mcq-05"
       ],
       "explanation": "本句的「accepted」指「面對並承認某個不愉快但難以改變的現實」。",
       "sentenceIndex": 6,
@@ -455,12 +416,9 @@ export default {
         "accepted"
       ],
       "optionReasons": {
-        "accept-mcq-04": "本句指「面對並承認某個不愉快但難以改變的現實」。",
-        "accept-mcq-03": "「承認某件事情是真的、正確的或成立的」與本句語境不同。",
-        "accept-mcq-05": "「接納某人，讓對方感到自己屬於某個群體或關係」與本句語境不同。",
-        "accept-mcq-02": "「同意某項提議、條件、安排或決定」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。",
-        "accept-mcq-01": "「願意收下、取得或接受別人提供的東西」與本句語境不同。"
+        "accept-mcq-04": "本句的「accepted」指「面對並承認某個不愉快但難以改變的現實」。",
+        "accept-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-04"
     },
@@ -472,11 +430,8 @@ export default {
       "masked": "It took him a long time to ____ that things had changed.",
       "options": [
         "accept-mcq-04",
-        "accept-mcq-03",
-        "accept-mcq-05",
         "accept-mcq-02",
-        "accept-mcq-06",
-        "accept-mcq-01"
+        "accept-mcq-11"
       ],
       "explanation": "本句的「accept」指「面對並承認某個不愉快但難以改變的現實」。",
       "sentenceIndex": 7,
@@ -485,12 +440,9 @@ export default {
         "accept"
       ],
       "optionReasons": {
-        "accept-mcq-04": "本句指「面對並承認某個不愉快但難以改變的現實」。",
-        "accept-mcq-03": "「承認某件事情是真的、正確的或成立的」與本句語境不同。",
-        "accept-mcq-05": "「接納某人，讓對方感到自己屬於某個群體或關係」與本句語境不同。",
-        "accept-mcq-02": "「同意某項提議、條件、安排或決定」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。",
-        "accept-mcq-01": "「願意收下、取得或接受別人提供的東西」與本句語境不同。"
+        "accept-mcq-04": "本句的「accept」指「面對並承認某個不愉快但難以改變的現實」。",
+        "accept-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-04"
     },
@@ -503,10 +455,7 @@ export default {
       "options": [
         "accept-mcq-05",
         "accept-mcq-04",
-        "accept-mcq-06",
-        "accept-mcq-03",
-        "accept-mcq-07",
-        "accept-mcq-02"
+        "accept-mcq-11"
       ],
       "explanation": "本句的「accepted」指「接納某人，讓對方感到自己屬於某個群體或關係」。",
       "sentenceIndex": 8,
@@ -515,12 +464,9 @@ export default {
         "accepted"
       ],
       "optionReasons": {
-        "accept-mcq-05": "本句指「接納某人，讓對方感到自己屬於某個群體或關係」。",
-        "accept-mcq-04": "「面對並承認某個不愉快但難以改變的現實」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。",
-        "accept-mcq-03": "「承認某件事情是真的、正確的或成立的」與本句語境不同。",
-        "accept-mcq-07": "「已被普遍認可、承認或接受的」與本句語境不同。",
-        "accept-mcq-02": "「同意某項提議、條件、安排或決定」與本句語境不同。"
+        "accept-mcq-05": "本句的「accepted」指「接納某人，讓對方感到自己屬於某個群體或關係」。",
+        "accept-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-05"
     },
@@ -533,10 +479,7 @@ export default {
       "options": [
         "accept-mcq-05",
         "accept-mcq-04",
-        "accept-mcq-06",
-        "accept-mcq-03",
-        "accept-mcq-07",
-        "accept-mcq-02"
+        "accept-mcq-11"
       ],
       "explanation": "本句的「accepted」指「接納某人，讓對方感到自己屬於某個群體或關係」。",
       "sentenceIndex": 9,
@@ -545,12 +488,9 @@ export default {
         "accepted"
       ],
       "optionReasons": {
-        "accept-mcq-05": "本句指「接納某人，讓對方感到自己屬於某個群體或關係」。",
-        "accept-mcq-04": "「面對並承認某個不愉快但難以改變的現實」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。",
-        "accept-mcq-03": "「承認某件事情是真的、正確的或成立的」與本句語境不同。",
-        "accept-mcq-07": "「已被普遍認可、承認或接受的」與本句語境不同。",
-        "accept-mcq-02": "「同意某項提議、條件、安排或決定」與本句語境不同。"
+        "accept-mcq-05": "本句的「accepted」指「接納某人，讓對方感到自己屬於某個群體或關係」。",
+        "accept-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-05"
     },
@@ -563,10 +503,7 @@ export default {
       "options": [
         "accept-mcq-05",
         "accept-mcq-04",
-        "accept-mcq-06",
-        "accept-mcq-03",
-        "accept-mcq-07",
-        "accept-mcq-02"
+        "accept-mcq-11"
       ],
       "explanation": "本句的「accepted」指「接納某人，讓對方感到自己屬於某個群體或關係」。",
       "sentenceIndex": 10,
@@ -575,12 +512,9 @@ export default {
         "accepted"
       ],
       "optionReasons": {
-        "accept-mcq-05": "本句指「接納某人，讓對方感到自己屬於某個群體或關係」。",
-        "accept-mcq-04": "「面對並承認某個不愉快但難以改變的現實」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。",
-        "accept-mcq-03": "「承認某件事情是真的、正確的或成立的」與本句語境不同。",
-        "accept-mcq-07": "「已被普遍認可、承認或接受的」與本句語境不同。",
-        "accept-mcq-02": "「同意某項提議、條件、安排或決定」與本句語境不同。"
+        "accept-mcq-05": "本句的「accepted」指「接納某人，讓對方感到自己屬於某個群體或關係」。",
+        "accept-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-05"
     },
@@ -592,11 +526,8 @@ export default {
       "masked": "The university ____ her application.",
       "options": [
         "accept-mcq-06",
-        "accept-mcq-05",
-        "accept-mcq-07",
-        "accept-mcq-04",
-        "accept-mcq-08",
-        "accept-mcq-03"
+        "accept-mcq-09",
+        "accept-mcq-04"
       ],
       "explanation": "本句的「accepted」指「正式允許某人／某物進入某個機構、程序或系統」。",
       "sentenceIndex": 11,
@@ -605,12 +536,9 @@ export default {
         "accepted"
       ],
       "optionReasons": {
-        "accept-mcq-06": "本句指「正式允許某人／某物進入某個機構、程序或系統」。",
-        "accept-mcq-05": "「接納某人，讓對方感到自己屬於某個群體或關係」與本句語境不同。",
-        "accept-mcq-07": "「已被普遍認可、承認或接受的」與本句語境不同。",
-        "accept-mcq-04": "「面對並承認某個不愉快但難以改變的現實」與本句語境不同。",
-        "accept-mcq-08": "「願意包容、接納不同的人、觀點或情況的」與本句語境不同。",
-        "accept-mcq-03": "「承認某件事情是真的、正確的或成立的」與本句語境不同。"
+        "accept-mcq-06": "本句的「accepted」指「正式允許某人／某物進入某個機構、程序或系統」。",
+        "accept-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-06"
     },
@@ -622,11 +550,8 @@ export default {
       "masked": "The hospital is not ____ new patients at the moment.",
       "options": [
         "accept-mcq-06",
-        "accept-mcq-05",
-        "accept-mcq-07",
         "accept-mcq-04",
-        "accept-mcq-08",
-        "accept-mcq-03"
+        "accept-mcq-11"
       ],
       "explanation": "本句的「accepting」指「正式允許某人／某物進入某個機構、程序或系統」。",
       "sentenceIndex": 12,
@@ -635,12 +560,9 @@ export default {
         "accepting"
       ],
       "optionReasons": {
-        "accept-mcq-06": "本句指「正式允許某人／某物進入某個機構、程序或系統」。",
-        "accept-mcq-05": "「接納某人，讓對方感到自己屬於某個群體或關係」與本句語境不同。",
-        "accept-mcq-07": "「已被普遍認可、承認或接受的」與本句語境不同。",
-        "accept-mcq-04": "「面對並承認某個不愉快但難以改變的現實」與本句語境不同。",
-        "accept-mcq-08": "「願意包容、接納不同的人、觀點或情況的」與本句語境不同。",
-        "accept-mcq-03": "「承認某件事情是真的、正確的或成立的」與本句語境不同。"
+        "accept-mcq-06": "本句的「accepting」指「正式允許某人／某物進入某個機構、程序或系統」。",
+        "accept-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-06"
     },
@@ -652,11 +574,7 @@ export default {
       "masked": "This is the ____ method.",
       "options": [
         "accept-mcq-07",
-        "accept-mcq-06",
-        "accept-mcq-08",
-        "accept-mcq-05",
-        "accept-mcq-09",
-        "accept-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「accepted」指「已被普遍認可、承認或接受的」。",
       "sentenceIndex": 15,
@@ -665,12 +583,8 @@ export default {
         "accepted"
       ],
       "optionReasons": {
-        "accept-mcq-07": "本句指「已被普遍認可、承認或接受的」。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。",
-        "accept-mcq-08": "「願意包容、接納不同的人、觀點或情況的」與本句語境不同。",
-        "accept-mcq-05": "「接納某人，讓對方感到自己屬於某個群體或關係」與本句語境不同。",
-        "accept-mcq-09": "「達到最低要求或標準，因此可以接受的」與本句語境不同。",
-        "accept-mcq-04": "「面對並承認某個不愉快但難以改變的現實」與本句語境不同。"
+        "accept-mcq-07": "本句的「accepted」指「已被普遍認可、承認或接受的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-07"
     },
@@ -682,11 +596,7 @@ export default {
       "masked": "The theory became widely ____.",
       "options": [
         "accept-mcq-07",
-        "accept-mcq-06",
-        "accept-mcq-08",
-        "accept-mcq-05",
-        "accept-mcq-09",
-        "accept-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「accepted」指「已被普遍認可、承認或接受的」。",
       "sentenceIndex": 16,
@@ -695,12 +605,8 @@ export default {
         "accepted"
       ],
       "optionReasons": {
-        "accept-mcq-07": "本句指「已被普遍認可、承認或接受的」。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。",
-        "accept-mcq-08": "「願意包容、接納不同的人、觀點或情況的」與本句語境不同。",
-        "accept-mcq-05": "「接納某人，讓對方感到自己屬於某個群體或關係」與本句語境不同。",
-        "accept-mcq-09": "「達到最低要求或標準，因此可以接受的」與本句語境不同。",
-        "accept-mcq-04": "「面對並承認某個不愉快但難以改變的現實」與本句語境不同。"
+        "accept-mcq-07": "本句的「accepted」指「已被普遍認可、承認或接受的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-07"
     },
@@ -712,11 +618,8 @@ export default {
       "masked": "She is very ____ of other people’s differences.",
       "options": [
         "accept-mcq-08",
-        "accept-mcq-07",
-        "accept-mcq-09",
-        "accept-mcq-06",
-        "accept-mcq-10",
-        "accept-mcq-05"
+        "accept-mcq-04",
+        "accept-mcq-09"
       ],
       "explanation": "本句的「accepting」指「願意包容、接納不同的人、觀點或情況的」。",
       "sentenceIndex": 17,
@@ -725,12 +628,9 @@ export default {
         "accepting"
       ],
       "optionReasons": {
-        "accept-mcq-08": "本句指「願意包容、接納不同的人、觀點或情況的」。",
-        "accept-mcq-07": "「已被普遍認可、承認或接受的」與本句語境不同。",
-        "accept-mcq-09": "「達到最低要求或標準，因此可以接受的」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。",
-        "accept-mcq-10": "「接受某事，或被群體接納／認可的狀態」與本句語境不同。",
-        "accept-mcq-05": "「接納某人，讓對方感到自己屬於某個群體或關係」與本句語境不同。"
+        "accept-mcq-08": "本句的「accepting」指「願意包容、接納不同的人、觀點或情況的」。",
+        "accept-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-08"
     },
@@ -742,11 +642,8 @@ export default {
       "masked": "The group created a warm and ____ atmosphere.",
       "options": [
         "accept-mcq-08",
-        "accept-mcq-07",
-        "accept-mcq-09",
-        "accept-mcq-06",
-        "accept-mcq-10",
-        "accept-mcq-05"
+        "accept-mcq-04",
+        "accept-mcq-11"
       ],
       "explanation": "本句的「accepting」指「願意包容、接納不同的人、觀點或情況的」。",
       "sentenceIndex": 18,
@@ -755,12 +652,9 @@ export default {
         "accepting"
       ],
       "optionReasons": {
-        "accept-mcq-08": "本句指「願意包容、接納不同的人、觀點或情況的」。",
-        "accept-mcq-07": "「已被普遍認可、承認或接受的」與本句語境不同。",
-        "accept-mcq-09": "「達到最低要求或標準，因此可以接受的」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。",
-        "accept-mcq-10": "「接受某事，或被群體接納／認可的狀態」與本句語境不同。",
-        "accept-mcq-05": "「接納某人，讓對方感到自己屬於某個群體或關係」與本句語境不同。"
+        "accept-mcq-08": "本句的「accepting」指「願意包容、接納不同的人、觀點或情況的」。",
+        "accept-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-08"
     },
@@ -772,10 +666,7 @@ export default {
       "masked": "The quality is ____.",
       "options": [
         "accept-mcq-09",
-        "accept-mcq-08",
-        "accept-mcq-10",
-        "accept-mcq-07",
-        "accept-mcq-11",
+        "accept-mcq-03",
         "accept-mcq-06"
       ],
       "explanation": "本句的「acceptable」指「達到最低要求或標準，因此可以接受的」。",
@@ -785,12 +676,9 @@ export default {
         "acceptable"
       ],
       "optionReasons": {
-        "accept-mcq-09": "本句指「達到最低要求或標準，因此可以接受的」。",
-        "accept-mcq-08": "「願意包容、接納不同的人、觀點或情況的」與本句語境不同。",
-        "accept-mcq-10": "「接受某事，或被群體接納／認可的狀態」與本句語境不同。",
-        "accept-mcq-07": "「已被普遍認可、承認或接受的」與本句語境不同。",
-        "accept-mcq-11": "「未達要求、規範或標準，因此不能接受的」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。"
+        "accept-mcq-09": "本句的「acceptable」指「達到最低要求或標準，因此可以接受的」。",
+        "accept-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-09"
     },
@@ -802,10 +690,7 @@ export default {
       "masked": "That behaviour is not ____.",
       "options": [
         "accept-mcq-09",
-        "accept-mcq-08",
-        "accept-mcq-10",
-        "accept-mcq-07",
-        "accept-mcq-11",
+        "accept-mcq-03",
         "accept-mcq-06"
       ],
       "explanation": "本句的「acceptable」指「達到最低要求或標準，因此可以接受的」。",
@@ -815,12 +700,9 @@ export default {
         "acceptable"
       ],
       "optionReasons": {
-        "accept-mcq-09": "本句指「達到最低要求或標準，因此可以接受的」。",
-        "accept-mcq-08": "「願意包容、接納不同的人、觀點或情況的」與本句語境不同。",
-        "accept-mcq-10": "「接受某事，或被群體接納／認可的狀態」與本句語境不同。",
-        "accept-mcq-07": "「已被普遍認可、承認或接受的」與本句語境不同。",
-        "accept-mcq-11": "「未達要求、規範或標準，因此不能接受的」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。"
+        "accept-mcq-09": "本句的「acceptable」指「達到最低要求或標準，因此可以接受的」。",
+        "accept-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-09"
     },
@@ -832,11 +714,7 @@ export default {
       "masked": "Her ____ of the offer surprised everyone.",
       "options": [
         "accept-mcq-10",
-        "accept-mcq-09",
-        "accept-mcq-11",
-        "accept-mcq-08",
-        "accept-mcq-07",
-        "accept-mcq-06"
+        "accept-mcq-03"
       ],
       "explanation": "本句的「acceptance」指「接受某事，或被群體接納／認可的狀態」。",
       "sentenceIndex": 21,
@@ -845,12 +723,8 @@ export default {
         "acceptance"
       ],
       "optionReasons": {
-        "accept-mcq-10": "本句指「接受某事，或被群體接納／認可的狀態」。",
-        "accept-mcq-09": "「達到最低要求或標準，因此可以接受的」與本句語境不同。",
-        "accept-mcq-11": "「未達要求、規範或標準，因此不能接受的」與本句語境不同。",
-        "accept-mcq-08": "「願意包容、接納不同的人、觀點或情況的」與本句語境不同。",
-        "accept-mcq-07": "「已被普遍認可、承認或接受的」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。"
+        "accept-mcq-10": "本句的「acceptance」指「接受某事，或被群體接納／認可的狀態」。",
+        "accept-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-10"
     },
@@ -862,11 +736,7 @@ export default {
       "masked": "Teenagers often care deeply about social ____.",
       "options": [
         "accept-mcq-10",
-        "accept-mcq-09",
-        "accept-mcq-11",
-        "accept-mcq-08",
-        "accept-mcq-07",
-        "accept-mcq-06"
+        "accept-mcq-03"
       ],
       "explanation": "本句的「acceptance」指「接受某事，或被群體接納／認可的狀態」。",
       "sentenceIndex": 22,
@@ -875,12 +745,8 @@ export default {
         "acceptance"
       ],
       "optionReasons": {
-        "accept-mcq-10": "本句指「接受某事，或被群體接納／認可的狀態」。",
-        "accept-mcq-09": "「達到最低要求或標準，因此可以接受的」與本句語境不同。",
-        "accept-mcq-11": "「未達要求、規範或標準，因此不能接受的」與本句語境不同。",
-        "accept-mcq-08": "「願意包容、接納不同的人、觀點或情況的」與本句語境不同。",
-        "accept-mcq-07": "「已被普遍認可、承認或接受的」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。"
+        "accept-mcq-10": "本句的「acceptance」指「接受某事，或被群體接納／認可的狀態」。",
+        "accept-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-10"
     },
@@ -892,11 +758,8 @@ export default {
       "masked": "The delay is completely ____.",
       "options": [
         "accept-mcq-11",
-        "accept-mcq-10",
-        "accept-mcq-09",
-        "accept-mcq-08",
-        "accept-mcq-07",
-        "accept-mcq-06"
+        "accept-mcq-06",
+        "accept-mcq-03"
       ],
       "explanation": "本句的「unacceptable」指「未達要求、規範或標準，因此不能接受的」。",
       "sentenceIndex": 23,
@@ -905,12 +768,9 @@ export default {
         "unacceptable"
       ],
       "optionReasons": {
-        "accept-mcq-11": "本句指「未達要求、規範或標準，因此不能接受的」。",
-        "accept-mcq-10": "「接受某事，或被群體接納／認可的狀態」與本句語境不同。",
-        "accept-mcq-09": "「達到最低要求或標準，因此可以接受的」與本句語境不同。",
-        "accept-mcq-08": "「願意包容、接納不同的人、觀點或情況的」與本句語境不同。",
-        "accept-mcq-07": "「已被普遍認可、承認或接受的」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。"
+        "accept-mcq-11": "本句的「unacceptable」指「未達要求、規範或標準，因此不能接受的」。",
+        "accept-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-11"
     },
@@ -922,11 +782,8 @@ export default {
       "masked": "Such behaviour is ____ at school.",
       "options": [
         "accept-mcq-11",
-        "accept-mcq-10",
-        "accept-mcq-09",
-        "accept-mcq-08",
-        "accept-mcq-07",
-        "accept-mcq-06"
+        "accept-mcq-02",
+        "accept-mcq-04"
       ],
       "explanation": "本句的「unacceptable」指「未達要求、規範或標準，因此不能接受的」。",
       "sentenceIndex": 24,
@@ -935,12 +792,9 @@ export default {
         "unacceptable"
       ],
       "optionReasons": {
-        "accept-mcq-11": "本句指「未達要求、規範或標準，因此不能接受的」。",
-        "accept-mcq-10": "「接受某事，或被群體接納／認可的狀態」與本句語境不同。",
-        "accept-mcq-09": "「達到最低要求或標準，因此可以接受的」與本句語境不同。",
-        "accept-mcq-08": "「願意包容、接納不同的人、觀點或情況的」與本句語境不同。",
-        "accept-mcq-07": "「已被普遍認可、承認或接受的」與本句語境不同。",
-        "accept-mcq-06": "「正式允許某人／某物進入某個機構、程序或系統」與本句語境不同。"
+        "accept-mcq-11": "本句的「unacceptable」指「未達要求、規範或標準，因此不能接受的」。",
+        "accept-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "accept-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accept-mcq-11"
     }
@@ -952,5 +806,12 @@ export default {
     "sha256": "65365cccf74207a6e1bc1e4e16fdd8e650ec62512c0e7b117951ebc21fcc3019",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

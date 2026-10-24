@@ -470,11 +470,8 @@ export default {
       "masked": "Every time I looked at it, I ____.",
       "options": [
         "notice-mcq-01",
-        "notice-mcq-02",
-        "notice-mcq-03",
-        "notice-mcq-04",
-        "notice-mcq-05",
-        "notice-mcq-06"
+        "notice-mcq-14",
+        "notice-mcq-08"
       ],
       "explanation": "本句的「noticed something new」指「透過看、聽或觀察而意識到某人、某物、細節或變化」。",
       "sentenceIndex": 0,
@@ -483,12 +480,9 @@ export default {
         "noticed something new"
       ],
       "optionReasons": {
-        "notice-mcq-01": "本句指「透過看、聽或觀察而意識到某人、某物、細節或變化」。",
-        "notice-mcq-02": "「察覺到某個完整事實／情況」與本句語境不同。",
-        "notice-mcq-03": "「注意到某人完成／發生整個動作」與本句語境不同。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。"
+        "notice-mcq-01": "本句的「noticed something new」指「透過看、聽或觀察而意識到某人、某物、細節或變化」。",
+        "notice-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-01"
     },
@@ -500,11 +494,8 @@ export default {
       "masked": "I ____ a small change in the colour.",
       "options": [
         "notice-mcq-01",
-        "notice-mcq-02",
-        "notice-mcq-03",
-        "notice-mcq-04",
-        "notice-mcq-05",
-        "notice-mcq-06"
+        "notice-mcq-10",
+        "notice-mcq-08"
       ],
       "explanation": "本句的「noticed」指「透過看、聽或觀察而意識到某人、某物、細節或變化」。",
       "sentenceIndex": 1,
@@ -513,12 +504,9 @@ export default {
         "noticed"
       ],
       "optionReasons": {
-        "notice-mcq-01": "本句指「透過看、聽或觀察而意識到某人、某物、細節或變化」。",
-        "notice-mcq-02": "「察覺到某個完整事實／情況」與本句語境不同。",
-        "notice-mcq-03": "「注意到某人完成／發生整個動作」與本句語境不同。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。"
+        "notice-mcq-01": "本句的「noticed」指「透過看、聽或觀察而意識到某人、某物、細節或變化」。",
+        "notice-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-01"
     },
@@ -530,11 +518,8 @@ export default {
       "masked": "Did you ____ the reflection in the water?",
       "options": [
         "notice-mcq-01",
-        "notice-mcq-02",
-        "notice-mcq-03",
-        "notice-mcq-04",
-        "notice-mcq-05",
-        "notice-mcq-06"
+        "notice-mcq-13",
+        "notice-mcq-08"
       ],
       "explanation": "本句的「notice」指「透過看、聽或觀察而意識到某人、某物、細節或變化」。",
       "sentenceIndex": 2,
@@ -543,12 +528,9 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-01": "本句指「透過看、聽或觀察而意識到某人、某物、細節或變化」。",
-        "notice-mcq-02": "「察覺到某個完整事實／情況」與本句語境不同。",
-        "notice-mcq-03": "「注意到某人完成／發生整個動作」與本句語境不同。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。"
+        "notice-mcq-01": "本句的「notice」指「透過看、聽或觀察而意識到某人、某物、細節或變化」。",
+        "notice-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-01"
     },
@@ -560,10 +542,8 @@ export default {
       "masked": "I ____ the colours looked different in natural light.",
       "options": [
         "notice-mcq-02",
-        "notice-mcq-01",
-        "notice-mcq-03",
-        "notice-mcq-04",
-        "notice-mcq-05",
+        "notice-mcq-11",
+        "notice-mcq-09",
         "notice-mcq-06"
       ],
       "explanation": "本句的「noticed that」指「察覺到某個完整事實／情況」。",
@@ -573,12 +553,10 @@ export default {
         "noticed that"
       ],
       "optionReasons": {
-        "notice-mcq-02": "本句指「察覺到某個完整事實／情況」。",
-        "notice-mcq-01": "「透過看、聽或觀察而意識到某人、某物、細節或變化」與本句語境不同。",
-        "notice-mcq-03": "「注意到某人完成／發生整個動作」與本句語境不同。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。"
+        "notice-mcq-02": "本句的「noticed that」指「察覺到某個完整事實／情況」。",
+        "notice-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-02"
     },
@@ -590,11 +568,8 @@ export default {
       "masked": "She ____ that one corner of the painting was darker.",
       "options": [
         "notice-mcq-02",
-        "notice-mcq-01",
-        "notice-mcq-03",
-        "notice-mcq-04",
-        "notice-mcq-05",
-        "notice-mcq-06"
+        "notice-mcq-13",
+        "notice-mcq-07"
       ],
       "explanation": "本句的「noticed」指「察覺到某個完整事實／情況」。",
       "sentenceIndex": 4,
@@ -603,12 +578,9 @@ export default {
         "noticed"
       ],
       "optionReasons": {
-        "notice-mcq-02": "本句指「察覺到某個完整事實／情況」。",
-        "notice-mcq-01": "「透過看、聽或觀察而意識到某人、某物、細節或變化」與本句語境不同。",
-        "notice-mcq-03": "「注意到某人完成／發生整個動作」與本句語境不同。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。"
+        "notice-mcq-02": "本句的「noticed」指「察覺到某個完整事實／情況」。",
+        "notice-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-02"
     },
@@ -620,10 +592,8 @@ export default {
       "masked": "I noticed ____.",
       "options": [
         "notice-pdf-001",
-        "notice-mcq-01",
-        "notice-mcq-03",
-        "notice-mcq-04",
-        "notice-mcq-05",
+        "notice-mcq-13",
+        "notice-mcq-11",
         "notice-mcq-06"
       ],
       "explanation": "本句的「how softly the light was painted」指「察覺某件事的方式、位置、內容等」。",
@@ -633,12 +603,10 @@ export default {
         "how softly the light was painted"
       ],
       "optionReasons": {
-        "notice-pdf-001": "本句指「察覺某件事的方式、位置、內容等」。",
-        "notice-mcq-01": "「透過看、聽或觀察而意識到某人、某物、細節或變化」與本句語境不同。",
-        "notice-mcq-03": "「注意到某人完成／發生整個動作」與本句語境不同。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。"
+        "notice-pdf-001": "本句的「how softly the light was painted」指「察覺某件事的方式、位置、內容等」。",
+        "notice-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-pdf-001"
     },
@@ -650,11 +618,9 @@ export default {
       "masked": "Did you ____ where she put the book?",
       "options": [
         "notice-pdf-001",
-        "notice-mcq-01",
-        "notice-mcq-03",
-        "notice-mcq-04",
-        "notice-mcq-05",
-        "notice-mcq-06"
+        "notice-mcq-06",
+        "notice-mcq-14",
+        "notice-mcq-11"
       ],
       "explanation": "本句的「notice」指「察覺某件事的方式、位置、內容等」。",
       "sentenceIndex": 6,
@@ -663,12 +629,10 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-pdf-001": "本句指「察覺某件事的方式、位置、內容等」。",
-        "notice-mcq-01": "「透過看、聽或觀察而意識到某人、某物、細節或變化」與本句語境不同。",
-        "notice-mcq-03": "「注意到某人完成／發生整個動作」與本句語境不同。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。"
+        "notice-pdf-001": "本句的「notice」指「察覺某件事的方式、位置、內容等」。",
+        "notice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-pdf-001"
     },
@@ -680,11 +644,9 @@ export default {
       "masked": "I noticed him ____ the room.",
       "options": [
         "notice-mcq-03",
-        "notice-mcq-02",
-        "notice-mcq-04",
-        "notice-mcq-01",
-        "notice-mcq-05",
-        "notice-mcq-06"
+        "notice-mcq-15",
+        "notice-mcq-17",
+        "notice-mcq-11"
       ],
       "explanation": "本句的「leave」指「注意到某人完成／發生整個動作」。",
       "sentenceIndex": 7,
@@ -693,12 +655,10 @@ export default {
         "leave"
       ],
       "optionReasons": {
-        "notice-mcq-03": "本句指「注意到某人完成／發生整個動作」。",
-        "notice-mcq-02": "「察覺到某個完整事實／情況」與本句語境不同。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。",
-        "notice-mcq-01": "「透過看、聽或觀察而意識到某人、某物、細節或變化」與本句語境不同。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。"
+        "notice-mcq-03": "本句的「leave」指「注意到某人完成／發生整個動作」。",
+        "notice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-03"
     },
@@ -710,11 +670,8 @@ export default {
       "masked": "She noticed the child ____ the book.",
       "options": [
         "notice-mcq-03",
-        "notice-mcq-02",
-        "notice-mcq-04",
-        "notice-mcq-01",
-        "notice-mcq-05",
-        "notice-mcq-06"
+        "notice-mcq-17",
+        "notice-mcq-12"
       ],
       "explanation": "本句的「pick up」指「注意到某人完成／發生整個動作」。",
       "sentenceIndex": 8,
@@ -723,12 +680,9 @@ export default {
         "pick up"
       ],
       "optionReasons": {
-        "notice-mcq-03": "本句指「注意到某人完成／發生整個動作」。",
-        "notice-mcq-02": "「察覺到某個完整事實／情況」與本句語境不同。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。",
-        "notice-mcq-01": "「透過看、聽或觀察而意識到某人、某物、細節或變化」與本句語境不同。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。"
+        "notice-mcq-03": "本句的「pick up」指「注意到某人完成／發生整個動作」。",
+        "notice-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-03"
     },
@@ -740,11 +694,8 @@ export default {
       "masked": "I noticed him ____ at the painting.",
       "options": [
         "notice-mcq-04",
-        "notice-mcq-03",
-        "notice-mcq-05",
         "notice-mcq-02",
-        "notice-mcq-06",
-        "notice-mcq-01"
+        "notice-mcq-09"
       ],
       "explanation": "本句的「looking」指「注意到某人正在進行某個動作」。",
       "sentenceIndex": 9,
@@ -753,12 +704,9 @@ export default {
         "looking"
       ],
       "optionReasons": {
-        "notice-mcq-04": "本句指「注意到某人正在進行某個動作」。",
-        "notice-mcq-03": "「注意到某人完成／發生整個動作」與本句語境不同。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
-        "notice-mcq-02": "「察覺到某個完整事實／情況」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。",
-        "notice-mcq-01": "「透過看、聽或觀察而意識到某人、某物、細節或變化」與本句語境不同。"
+        "notice-mcq-04": "本句的「looking」指「注意到某人正在進行某個動作」。",
+        "notice-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-04"
     },
@@ -770,11 +718,9 @@ export default {
       "masked": "She ____ someone standing near the door.",
       "options": [
         "notice-mcq-04",
-        "notice-mcq-03",
-        "notice-mcq-05",
         "notice-mcq-02",
-        "notice-mcq-06",
-        "notice-mcq-01"
+        "notice-mcq-08",
+        "notice-mcq-10"
       ],
       "explanation": "本句的「noticed」指「注意到某人正在進行某個動作」。",
       "sentenceIndex": 10,
@@ -783,12 +729,10 @@ export default {
         "noticed"
       ],
       "optionReasons": {
-        "notice-mcq-04": "本句指「注意到某人正在進行某個動作」。",
-        "notice-mcq-03": "「注意到某人完成／發生整個動作」與本句語境不同。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
-        "notice-mcq-02": "「察覺到某個完整事實／情況」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。",
-        "notice-mcq-01": "「透過看、聽或觀察而意識到某人、某物、細節或變化」與本句語境不同。"
+        "notice-mcq-04": "本句的「noticed」指「注意到某人正在進行某個動作」。",
+        "notice-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-04"
     },
@@ -800,11 +744,8 @@ export default {
       "masked": "No one seemed to ____ him.",
       "options": [
         "notice-mcq-05",
-        "notice-mcq-04",
-        "notice-mcq-06",
-        "notice-mcq-03",
-        "notice-mcq-07",
-        "notice-mcq-02"
+        "notice-mcq-13",
+        "notice-mcq-11"
       ],
       "explanation": "本句的「notice」指「對某人／某事的注意、察覺或關注」。",
       "sentenceIndex": 11,
@@ -813,12 +754,9 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-05": "本句指「對某人／某事的注意、察覺或關注」。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。",
-        "notice-mcq-03": "「注意到某人完成／發生整個動作」與本句語境不同。",
-        "notice-mcq-07": "「向公眾／群體提供資訊、規則或警告的書面通告」與本句語境不同。",
-        "notice-mcq-02": "「察覺到某個完整事實／情況」與本句語境不同。"
+        "notice-mcq-05": "本句的「notice」指「對某人／某事的注意、察覺或關注」。",
+        "notice-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-05"
     },
@@ -830,11 +768,8 @@ export default {
       "masked": "Her work finally began to be ____.",
       "options": [
         "notice-mcq-05",
-        "notice-mcq-04",
-        "notice-mcq-06",
-        "notice-mcq-03",
-        "notice-mcq-07",
-        "notice-mcq-02"
+        "notice-mcq-08",
+        "notice-mcq-13"
       ],
       "explanation": "本句的「noticed」指「對某人／某事的注意、察覺或關注」。",
       "sentenceIndex": 12,
@@ -843,12 +778,9 @@ export default {
         "noticed"
       ],
       "optionReasons": {
-        "notice-mcq-05": "本句指「對某人／某事的注意、察覺或關注」。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。",
-        "notice-mcq-03": "「注意到某人完成／發生整個動作」與本句語境不同。",
-        "notice-mcq-07": "「向公眾／群體提供資訊、規則或警告的書面通告」與本句語境不同。",
-        "notice-mcq-02": "「察覺到某個完整事實／情況」與本句語境不同。"
+        "notice-mcq-05": "本句的「noticed」指「對某人／某事的注意、察覺或關注」。",
+        "notice-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-05"
     },
@@ -860,11 +792,8 @@ export default {
       "masked": "The painting attracted little ____ at first.",
       "options": [
         "notice-mcq-05",
-        "notice-mcq-04",
-        "notice-mcq-06",
-        "notice-mcq-03",
-        "notice-mcq-07",
-        "notice-mcq-02"
+        "notice-mcq-12",
+        "notice-mcq-08"
       ],
       "explanation": "本句的「notice」指「對某人／某事的注意、察覺或關注」。",
       "sentenceIndex": 13,
@@ -873,12 +802,9 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-05": "本句指「對某人／某事的注意、察覺或關注」。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。",
-        "notice-mcq-03": "「注意到某人完成／發生整個動作」與本句語境不同。",
-        "notice-mcq-07": "「向公眾／群體提供資訊、規則或警告的書面通告」與本句語境不同。",
-        "notice-mcq-02": "「察覺到某個完整事實／情況」與本句語境不同。"
+        "notice-mcq-05": "本句的「notice」指「對某人／某事的注意、察覺或關注」。",
+        "notice-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-05"
     },
@@ -890,11 +816,8 @@ export default {
       "masked": "His comment escaped my ____.",
       "options": [
         "notice-mcq-05",
-        "notice-mcq-04",
-        "notice-mcq-06",
-        "notice-mcq-03",
-        "notice-mcq-07",
-        "notice-mcq-02"
+        "notice-mcq-15",
+        "notice-mcq-11"
       ],
       "explanation": "本句的「notice」指「對某人／某事的注意、察覺或關注」。",
       "sentenceIndex": 14,
@@ -903,12 +826,9 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-05": "本句指「對某人／某事的注意、察覺或關注」。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。",
-        "notice-mcq-03": "「注意到某人完成／發生整個動作」與本句語境不同。",
-        "notice-mcq-07": "「向公眾／群體提供資訊、規則或警告的書面通告」與本句語境不同。",
-        "notice-mcq-02": "「察覺到某個完整事實／情況」與本句語境不同。"
+        "notice-mcq-05": "本句的「notice」指「對某人／某事的注意、察覺或關注」。",
+        "notice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-05"
     },
@@ -920,11 +840,9 @@ export default {
       "masked": "People began to ____ the young artist.",
       "options": [
         "notice-mcq-06",
-        "notice-mcq-05",
-        "notice-mcq-07",
-        "notice-mcq-04",
+        "notice-mcq-02",
         "notice-mcq-08",
-        "notice-mcq-03"
+        "notice-mcq-10"
       ],
       "explanation": "本句的「take notice of」指「主動注意、重視或認真看待某人／某事」。",
       "sentenceIndex": 15,
@@ -933,12 +851,10 @@ export default {
         "take notice of"
       ],
       "optionReasons": {
-        "notice-mcq-06": "本句指「主動注意、重視或認真看待某人／某事」。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
-        "notice-mcq-07": "「向公眾／群體提供資訊、規則或警告的書面通告」與本句語境不同。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。",
-        "notice-mcq-08": "「在某事發生前提供的預先資訊／警告」與本句語境不同。",
-        "notice-mcq-03": "「注意到某人完成／發生整個動作」與本句語境不同。"
+        "notice-mcq-06": "本句的「take notice of」指「主動注意、重視或認真看待某人／某事」。",
+        "notice-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-06"
     },
@@ -950,11 +866,9 @@ export default {
       "masked": "You should take ____ of the warning signs.",
       "options": [
         "notice-mcq-06",
-        "notice-mcq-05",
-        "notice-mcq-07",
-        "notice-mcq-04",
-        "notice-mcq-08",
-        "notice-mcq-03"
+        "notice-mcq-09",
+        "notice-mcq-02",
+        "notice-mcq-11"
       ],
       "explanation": "本句的「notice」指「主動注意、重視或認真看待某人／某事」。",
       "sentenceIndex": 16,
@@ -963,12 +877,10 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-06": "本句指「主動注意、重視或認真看待某人／某事」。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
-        "notice-mcq-07": "「向公眾／群體提供資訊、規則或警告的書面通告」與本句語境不同。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。",
-        "notice-mcq-08": "「在某事發生前提供的預先資訊／警告」與本句語境不同。",
-        "notice-mcq-03": "「注意到某人完成／發生整個動作」與本句語境不同。"
+        "notice-mcq-06": "本句的「notice」指「主動注意、重視或認真看待某人／某事」。",
+        "notice-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-06"
     },
@@ -980,11 +892,8 @@ export default {
       "masked": "There was a ____ on the museum door.",
       "options": [
         "notice-mcq-07",
-        "notice-mcq-06",
-        "notice-mcq-08",
-        "notice-mcq-05",
-        "notice-mcq-09",
-        "notice-mcq-04"
+        "notice-mcq-17",
+        "notice-mcq-13"
       ],
       "explanation": "本句的「notice」指「向公眾／群體提供資訊、規則或警告的書面通告」。",
       "sentenceIndex": 17,
@@ -993,12 +902,9 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-07": "本句指「向公眾／群體提供資訊、規則或警告的書面通告」。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。",
-        "notice-mcq-08": "「在某事發生前提供的預先資訊／警告」與本句語境不同。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
-        "notice-mcq-09": "「在事件發生之前提前作出的通知」與本句語境不同。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。"
+        "notice-mcq-07": "本句的「notice」指「向公眾／群體提供資訊、規則或警告的書面通告」。",
+        "notice-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-07"
     },
@@ -1010,11 +916,8 @@ export default {
       "masked": "The school posted a ____ about the exhibition.",
       "options": [
         "notice-mcq-07",
-        "notice-mcq-06",
-        "notice-mcq-08",
-        "notice-mcq-05",
-        "notice-mcq-09",
-        "notice-mcq-04"
+        "notice-mcq-16",
+        "notice-mcq-13"
       ],
       "explanation": "本句的「notice」指「向公眾／群體提供資訊、規則或警告的書面通告」。",
       "sentenceIndex": 18,
@@ -1023,12 +926,9 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-07": "本句指「向公眾／群體提供資訊、規則或警告的書面通告」。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。",
-        "notice-mcq-08": "「在某事發生前提供的預先資訊／警告」與本句語境不同。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
-        "notice-mcq-09": "「在事件發生之前提前作出的通知」與本句語境不同。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。"
+        "notice-mcq-07": "本句的「notice」指「向公眾／群體提供資訊、規則或警告的書面通告」。",
+        "notice-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-07"
     },
@@ -1040,11 +940,8 @@ export default {
       "masked": "The timetable is on the ____.",
       "options": [
         "notice-pdf-002",
-        "notice-mcq-06",
-        "notice-mcq-08",
-        "notice-mcq-05",
-        "notice-mcq-09",
-        "notice-mcq-04"
+        "notice-mcq-04",
+        "notice-mcq-17"
       ],
       "explanation": "本句的「notice board」指「用來張貼公告、資訊或通知的板面」。",
       "sentenceIndex": 19,
@@ -1053,12 +950,9 @@ export default {
         "notice board"
       ],
       "optionReasons": {
-        "notice-pdf-002": "本句指「用來張貼公告、資訊或通知的板面」。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。",
-        "notice-mcq-08": "「在某事發生前提供的預先資訊／警告」與本句語境不同。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
-        "notice-mcq-09": "「在事件發生之前提前作出的通知」與本句語境不同。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。"
+        "notice-pdf-002": "本句的「notice board」指「用來張貼公告、資訊或通知的板面」。",
+        "notice-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-pdf-002"
     },
@@ -1070,11 +964,8 @@ export default {
       "masked": "Check the ____ for updates.",
       "options": [
         "notice-pdf-002",
-        "notice-mcq-06",
-        "notice-mcq-08",
-        "notice-mcq-05",
-        "notice-mcq-09",
-        "notice-mcq-04"
+        "notice-mcq-01",
+        "notice-mcq-11"
       ],
       "explanation": "本句的「noticeboard」指「用來張貼公告、資訊或通知的板面」。",
       "sentenceIndex": 20,
@@ -1083,12 +974,9 @@ export default {
         "noticeboard"
       ],
       "optionReasons": {
-        "notice-pdf-002": "本句指「用來張貼公告、資訊或通知的板面」。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。",
-        "notice-mcq-08": "「在某事發生前提供的預先資訊／警告」與本句語境不同。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。",
-        "notice-mcq-09": "「在事件發生之前提前作出的通知」與本句語境不同。",
-        "notice-mcq-04": "「注意到某人正在進行某個動作」與本句語境不同。"
+        "notice-pdf-002": "本句的「noticeboard」指「用來張貼公告、資訊或通知的板面」。",
+        "notice-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-pdf-002"
     },
@@ -1100,11 +988,8 @@ export default {
       "masked": "Please give us two weeks’ ____.",
       "options": [
         "notice-mcq-08",
-        "notice-mcq-07",
-        "notice-mcq-09",
-        "notice-mcq-06",
-        "notice-mcq-10",
-        "notice-mcq-05"
+        "notice-mcq-16",
+        "notice-mcq-10"
       ],
       "explanation": "本句的「notice」指「在某事發生前提供的預先資訊／警告」。",
       "sentenceIndex": 21,
@@ -1113,12 +998,9 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-08": "本句指「在某事發生前提供的預先資訊／警告」。",
-        "notice-mcq-07": "「向公眾／群體提供資訊、規則或警告的書面通告」與本句語境不同。",
-        "notice-mcq-09": "「在事件發生之前提前作出的通知」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。",
-        "notice-mcq-10": "「在很短準備／通知時間內；臨時」與本句語境不同。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。"
+        "notice-mcq-08": "本句的「notice」指「在某事發生前提供的預先資訊／警告」。",
+        "notice-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-08"
     },
@@ -1130,11 +1012,9 @@ export default {
       "masked": "The event was cancelled without ____.",
       "options": [
         "notice-mcq-08",
-        "notice-mcq-07",
-        "notice-mcq-09",
-        "notice-mcq-06",
+        "notice-mcq-17",
         "notice-mcq-10",
-        "notice-mcq-05"
+        "notice-mcq-06"
       ],
       "explanation": "本句的「notice」指「在某事發生前提供的預先資訊／警告」。",
       "sentenceIndex": 22,
@@ -1143,12 +1023,10 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-08": "本句指「在某事發生前提供的預先資訊／警告」。",
-        "notice-mcq-07": "「向公眾／群體提供資訊、規則或警告的書面通告」與本句語境不同。",
-        "notice-mcq-09": "「在事件發生之前提前作出的通知」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。",
-        "notice-mcq-10": "「在很短準備／通知時間內；臨時」與本句語境不同。",
-        "notice-mcq-05": "「對某人／某事的注意、察覺或關注」與本句語境不同。"
+        "notice-mcq-08": "本句的「notice」指「在某事發生前提供的預先資訊／警告」。",
+        "notice-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-08"
     },
@@ -1160,11 +1038,9 @@ export default {
       "masked": "We need ____ of any changes.",
       "options": [
         "notice-mcq-09",
-        "notice-mcq-08",
-        "notice-mcq-10",
-        "notice-mcq-07",
-        "notice-mcq-11",
-        "notice-mcq-06"
+        "notice-mcq-06",
+        "notice-mcq-17",
+        "notice-mcq-11"
       ],
       "explanation": "本句的「advance notice」指「在事件發生之前提前作出的通知」。",
       "sentenceIndex": 23,
@@ -1173,12 +1049,10 @@ export default {
         "advance notice"
       ],
       "optionReasons": {
-        "notice-mcq-09": "本句指「在事件發生之前提前作出的通知」。",
-        "notice-mcq-08": "「在某事發生前提供的預先資訊／警告」與本句語境不同。",
-        "notice-mcq-10": "「在很短準備／通知時間內；臨時」與本句語境不同。",
-        "notice-mcq-07": "「向公眾／群體提供資訊、規則或警告的書面通告」與本句語境不同。",
-        "notice-mcq-11": "「幾乎沒有準備時間，一收到指示就立即行動」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。"
+        "notice-mcq-09": "本句的「advance notice」指「在事件發生之前提前作出的通知」。",
+        "notice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-09"
     },
@@ -1190,11 +1064,9 @@ export default {
       "masked": "The museum gave visitors advance ____ of the closure.",
       "options": [
         "notice-mcq-09",
-        "notice-mcq-08",
-        "notice-mcq-10",
-        "notice-mcq-07",
-        "notice-mcq-11",
-        "notice-mcq-06"
+        "notice-mcq-02",
+        "notice-mcq-06",
+        "notice-mcq-11"
       ],
       "explanation": "本句的「notice」指「在事件發生之前提前作出的通知」。",
       "sentenceIndex": 24,
@@ -1203,12 +1075,10 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-09": "本句指「在事件發生之前提前作出的通知」。",
-        "notice-mcq-08": "「在某事發生前提供的預先資訊／警告」與本句語境不同。",
-        "notice-mcq-10": "「在很短準備／通知時間內；臨時」與本句語境不同。",
-        "notice-mcq-07": "「向公眾／群體提供資訊、規則或警告的書面通告」與本句語境不同。",
-        "notice-mcq-11": "「幾乎沒有準備時間，一收到指示就立即行動」與本句語境不同。",
-        "notice-mcq-06": "「主動注意、重視或認真看待某人／某事」與本句語境不同。"
+        "notice-mcq-09": "本句的「notice」指「在事件發生之前提前作出的通知」。",
+        "notice-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-09"
     },
@@ -1220,11 +1090,8 @@ export default {
       "masked": "Thank you for coming ____.",
       "options": [
         "notice-mcq-10",
-        "notice-mcq-09",
-        "notice-mcq-11",
-        "notice-mcq-08",
-        "notice-mcq-12",
-        "notice-mcq-07"
+        "notice-mcq-03",
+        "notice-mcq-17"
       ],
       "explanation": "本句的「at such short notice」指「在很短準備／通知時間內；臨時」。",
       "sentenceIndex": 25,
@@ -1233,12 +1100,9 @@ export default {
         "at such short notice"
       ],
       "optionReasons": {
-        "notice-mcq-10": "本句指「在很短準備／通知時間內；臨時」。",
-        "notice-mcq-09": "「在事件發生之前提前作出的通知」與本句語境不同。",
-        "notice-mcq-11": "「幾乎沒有準備時間，一收到指示就立即行動」與本句語境不同。",
-        "notice-mcq-08": "「在某事發生前提供的預先資訊／警告」與本句語境不同。",
-        "notice-mcq-12": "「目前安排持續，直到之後再有新通知」與本句語境不同。",
-        "notice-mcq-07": "「向公眾／群體提供資訊、規則或警告的書面通告」與本句語境不同。"
+        "notice-mcq-10": "本句的「at such short notice」指「在很短準備／通知時間內；臨時」。",
+        "notice-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-10"
     },
@@ -1250,11 +1114,9 @@ export default {
       "masked": "The meeting was arranged at short ____.",
       "options": [
         "notice-mcq-10",
-        "notice-mcq-09",
-        "notice-mcq-11",
-        "notice-mcq-08",
-        "notice-mcq-12",
-        "notice-mcq-07"
+        "notice-mcq-17",
+        "notice-mcq-04",
+        "notice-mcq-08"
       ],
       "explanation": "本句的「notice」指「在很短準備／通知時間內；臨時」。",
       "sentenceIndex": 26,
@@ -1263,12 +1125,10 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-10": "本句指「在很短準備／通知時間內；臨時」。",
-        "notice-mcq-09": "「在事件發生之前提前作出的通知」與本句語境不同。",
-        "notice-mcq-11": "「幾乎沒有準備時間，一收到指示就立即行動」與本句語境不同。",
-        "notice-mcq-08": "「在某事發生前提供的預先資訊／警告」與本句語境不同。",
-        "notice-mcq-12": "「目前安排持續，直到之後再有新通知」與本句語境不同。",
-        "notice-mcq-07": "「向公眾／群體提供資訊、規則或警告的書面通告」與本句語境不同。"
+        "notice-mcq-10": "本句的「notice」指「在很短準備／通知時間內；臨時」。",
+        "notice-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-10"
     },
@@ -1280,11 +1140,9 @@ export default {
       "masked": "She was ready to leave ____.",
       "options": [
         "notice-mcq-11",
-        "notice-mcq-10",
-        "notice-mcq-12",
-        "notice-mcq-09",
         "notice-mcq-13",
-        "notice-mcq-08"
+        "notice-mcq-17",
+        "notice-mcq-06"
       ],
       "explanation": "本句的「at a moment’s notice」指「幾乎沒有準備時間，一收到指示就立即行動」。",
       "sentenceIndex": 27,
@@ -1293,12 +1151,10 @@ export default {
         "at a moment’s notice"
       ],
       "optionReasons": {
-        "notice-mcq-11": "本句指「幾乎沒有準備時間，一收到指示就立即行動」。",
-        "notice-mcq-10": "「在很短準備／通知時間內；臨時」與本句語境不同。",
-        "notice-mcq-12": "「目前安排持續，直到之後再有新通知」與本句語境不同。",
-        "notice-mcq-09": "「在事件發生之前提前作出的通知」與本句語境不同。",
-        "notice-mcq-13": "「正式通知將終止工作、租約或合約」與本句語境不同。",
-        "notice-mcq-08": "「在某事發生前提供的預先資訊／警告」與本句語境不同。"
+        "notice-mcq-11": "本句的「at a moment’s notice」指「幾乎沒有準備時間，一收到指示就立即行動」。",
+        "notice-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-11"
     },
@@ -1310,11 +1166,8 @@ export default {
       "masked": "The team may be called in at a moment’s ____.",
       "options": [
         "notice-mcq-11",
-        "notice-mcq-10",
-        "notice-mcq-12",
-        "notice-mcq-09",
-        "notice-mcq-13",
-        "notice-mcq-08"
+        "notice-mcq-01",
+        "notice-mcq-15"
       ],
       "explanation": "本句的「notice」指「幾乎沒有準備時間，一收到指示就立即行動」。",
       "sentenceIndex": 28,
@@ -1323,12 +1176,9 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-11": "本句指「幾乎沒有準備時間，一收到指示就立即行動」。",
-        "notice-mcq-10": "「在很短準備／通知時間內；臨時」與本句語境不同。",
-        "notice-mcq-12": "「目前安排持續，直到之後再有新通知」與本句語境不同。",
-        "notice-mcq-09": "「在事件發生之前提前作出的通知」與本句語境不同。",
-        "notice-mcq-13": "「正式通知將終止工作、租約或合約」與本句語境不同。",
-        "notice-mcq-08": "「在某事發生前提供的預先資訊／警告」與本句語境不同。"
+        "notice-mcq-11": "本句的「notice」指「幾乎沒有準備時間，一收到指示就立即行動」。",
+        "notice-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-11"
     },
@@ -1340,11 +1190,8 @@ export default {
       "masked": "The gallery is closed ____.",
       "options": [
         "notice-mcq-12",
-        "notice-mcq-11",
-        "notice-mcq-13",
-        "notice-mcq-10",
-        "notice-mcq-14",
-        "notice-mcq-09"
+        "notice-mcq-01",
+        "notice-mcq-08"
       ],
       "explanation": "本句的「until further notice」指「目前安排持續，直到之後再有新通知」。",
       "sentenceIndex": 29,
@@ -1353,12 +1200,9 @@ export default {
         "until further notice"
       ],
       "optionReasons": {
-        "notice-mcq-12": "本句指「目前安排持續，直到之後再有新通知」。",
-        "notice-mcq-11": "「幾乎沒有準備時間，一收到指示就立即行動」與本句語境不同。",
-        "notice-mcq-13": "「正式通知將終止工作、租約或合約」與本句語境不同。",
-        "notice-mcq-10": "「在很短準備／通知時間內；臨時」與本句語境不同。",
-        "notice-mcq-14": "「正式通知終止後至實際終止前的合約通知期」與本句語境不同。",
-        "notice-mcq-09": "「在事件發生之前提前作出的通知」與本句語境不同。"
+        "notice-mcq-12": "本句的「until further notice」指「目前安排持續，直到之後再有新通知」。",
+        "notice-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-12"
     },
@@ -1370,11 +1214,9 @@ export default {
       "masked": "The service has been suspended until further ____.",
       "options": [
         "notice-mcq-12",
-        "notice-mcq-11",
-        "notice-mcq-13",
-        "notice-mcq-10",
-        "notice-mcq-14",
-        "notice-mcq-09"
+        "notice-mcq-02",
+        "notice-mcq-06",
+        "notice-mcq-08"
       ],
       "explanation": "本句的「notice」指「目前安排持續，直到之後再有新通知」。",
       "sentenceIndex": 30,
@@ -1383,12 +1225,10 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-12": "本句指「目前安排持續，直到之後再有新通知」。",
-        "notice-mcq-11": "「幾乎沒有準備時間，一收到指示就立即行動」與本句語境不同。",
-        "notice-mcq-13": "「正式通知將終止工作、租約或合約」與本句語境不同。",
-        "notice-mcq-10": "「在很短準備／通知時間內；臨時」與本句語境不同。",
-        "notice-mcq-14": "「正式通知終止後至實際終止前的合約通知期」與本句語境不同。",
-        "notice-mcq-09": "「在事件發生之前提前作出的通知」與本句語境不同。"
+        "notice-mcq-12": "本句的「notice」指「目前安排持續，直到之後再有新通知」。",
+        "notice-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-12"
     },
@@ -1400,11 +1240,8 @@ export default {
       "masked": "She ____ at work last week.",
       "options": [
         "notice-mcq-13",
-        "notice-mcq-12",
-        "notice-mcq-14",
-        "notice-mcq-11",
-        "notice-mcq-15",
-        "notice-mcq-10"
+        "notice-mcq-01",
+        "notice-mcq-11"
       ],
       "explanation": "本句的「gave notice」指「正式通知將終止工作、租約或合約」。",
       "sentenceIndex": 31,
@@ -1413,12 +1250,9 @@ export default {
         "gave notice"
       ],
       "optionReasons": {
-        "notice-mcq-13": "本句指「正式通知將終止工作、租約或合約」。",
-        "notice-mcq-12": "「目前安排持續，直到之後再有新通知」與本句語境不同。",
-        "notice-mcq-14": "「正式通知終止後至實際終止前的合約通知期」與本句語境不同。",
-        "notice-mcq-11": "「幾乎沒有準備時間，一收到指示就立即行動」與本句語境不同。",
-        "notice-mcq-15": "「具有正式或法律效力的書面通知」與本句語境不同。",
-        "notice-mcq-10": "「在很短準備／通知時間內；臨時」與本句語境不同。"
+        "notice-mcq-13": "本句的「gave notice」指「正式通知將終止工作、租約或合約」。",
+        "notice-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-13"
     },
@@ -1430,11 +1264,9 @@ export default {
       "masked": "The tenant gave one month’s ____.",
       "options": [
         "notice-mcq-13",
-        "notice-mcq-12",
-        "notice-mcq-14",
+        "notice-mcq-02",
         "notice-mcq-11",
-        "notice-mcq-15",
-        "notice-mcq-10"
+        "notice-mcq-06"
       ],
       "explanation": "本句的「notice」指「正式通知將終止工作、租約或合約」。",
       "sentenceIndex": 32,
@@ -1443,12 +1275,10 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-13": "本句指「正式通知將終止工作、租約或合約」。",
-        "notice-mcq-12": "「目前安排持續，直到之後再有新通知」與本句語境不同。",
-        "notice-mcq-14": "「正式通知終止後至實際終止前的合約通知期」與本句語境不同。",
-        "notice-mcq-11": "「幾乎沒有準備時間，一收到指示就立即行動」與本句語境不同。",
-        "notice-mcq-15": "「具有正式或法律效力的書面通知」與本句語境不同。",
-        "notice-mcq-10": "「在很短準備／通知時間內；臨時」與本句語境不同。"
+        "notice-mcq-13": "本句的「notice」指「正式通知將終止工作、租約或合約」。",
+        "notice-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-13"
     },
@@ -1460,9 +1290,6 @@ export default {
       "masked": "Her contract requires a one-month ____.",
       "options": [
         "notice-mcq-14",
-        "notice-mcq-13",
-        "notice-mcq-15",
-        "notice-mcq-12",
         "notice-mcq-16",
         "notice-mcq-11"
       ],
@@ -1473,12 +1300,9 @@ export default {
         "notice period"
       ],
       "optionReasons": {
-        "notice-mcq-14": "本句指「正式通知終止後至實際終止前的合約通知期」。",
-        "notice-mcq-13": "「正式通知將終止工作、租約或合約」與本句語境不同。",
-        "notice-mcq-15": "「具有正式或法律效力的書面通知」與本句語境不同。",
-        "notice-mcq-12": "「目前安排持續，直到之後再有新通知」與本句語境不同。",
-        "notice-mcq-16": "「明顯到足以被人察覺／注意的」與本句語境不同。",
-        "notice-mcq-11": "「幾乎沒有準備時間，一收到指示就立即行動」與本句語境不同。"
+        "notice-mcq-14": "本句的「notice period」指「正式通知終止後至實際終止前的合約通知期」。",
+        "notice-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-14"
     },
@@ -1490,11 +1314,8 @@ export default {
       "masked": "He is working through his ____ period.",
       "options": [
         "notice-mcq-14",
-        "notice-mcq-13",
-        "notice-mcq-15",
-        "notice-mcq-12",
-        "notice-mcq-16",
-        "notice-mcq-11"
+        "notice-mcq-11",
+        "notice-mcq-01"
       ],
       "explanation": "本句的「notice」指「正式通知終止後至實際終止前的合約通知期」。",
       "sentenceIndex": 34,
@@ -1503,12 +1324,9 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-14": "本句指「正式通知終止後至實際終止前的合約通知期」。",
-        "notice-mcq-13": "「正式通知將終止工作、租約或合約」與本句語境不同。",
-        "notice-mcq-15": "「具有正式或法律效力的書面通知」與本句語境不同。",
-        "notice-mcq-12": "「目前安排持續，直到之後再有新通知」與本句語境不同。",
-        "notice-mcq-16": "「明顯到足以被人察覺／注意的」與本句語境不同。",
-        "notice-mcq-11": "「幾乎沒有準備時間，一收到指示就立即行動」與本句語境不同。"
+        "notice-mcq-14": "本句的「notice」指「正式通知終止後至實際終止前的合約通知期」。",
+        "notice-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-14"
     },
@@ -1520,11 +1338,9 @@ export default {
       "masked": "The tenant received an eviction ____.",
       "options": [
         "notice-mcq-15",
-        "notice-mcq-14",
-        "notice-mcq-16",
-        "notice-mcq-13",
+        "notice-mcq-03",
         "notice-mcq-17",
-        "notice-mcq-12"
+        "notice-mcq-11"
       ],
       "explanation": "本句的「notice」指「具有正式或法律效力的書面通知」。",
       "sentenceIndex": 35,
@@ -1533,12 +1349,10 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-15": "本句指「具有正式或法律效力的書面通知」。",
-        "notice-mcq-14": "「正式通知終止後至實際終止前的合約通知期」與本句語境不同。",
-        "notice-mcq-16": "「明顯到足以被人察覺／注意的」與本句語境不同。",
-        "notice-mcq-13": "「正式通知將終止工作、租約或合約」與本句語境不同。",
-        "notice-mcq-17": "「程度足以讓人明顯察覺地」與本句語境不同。",
-        "notice-mcq-12": "「目前安排持續，直到之後再有新通知」與本句語境不同。"
+        "notice-mcq-15": "本句的「notice」指「具有正式或法律效力的書面通知」。",
+        "notice-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-15"
     },
@@ -1550,11 +1364,9 @@ export default {
       "masked": "The company was served with a legal ____.",
       "options": [
         "notice-mcq-15",
-        "notice-mcq-14",
-        "notice-mcq-16",
-        "notice-mcq-13",
         "notice-mcq-17",
-        "notice-mcq-12"
+        "notice-mcq-06",
+        "notice-mcq-11"
       ],
       "explanation": "本句的「notice」指「具有正式或法律效力的書面通知」。",
       "sentenceIndex": 36,
@@ -1563,12 +1375,10 @@ export default {
         "notice"
       ],
       "optionReasons": {
-        "notice-mcq-15": "本句指「具有正式或法律效力的書面通知」。",
-        "notice-mcq-14": "「正式通知終止後至實際終止前的合約通知期」與本句語境不同。",
-        "notice-mcq-16": "「明顯到足以被人察覺／注意的」與本句語境不同。",
-        "notice-mcq-13": "「正式通知將終止工作、租約或合約」與本句語境不同。",
-        "notice-mcq-17": "「程度足以讓人明顯察覺地」與本句語境不同。",
-        "notice-mcq-12": "「目前安排持續，直到之後再有新通知」與本句語境不同。"
+        "notice-mcq-15": "本句的「notice」指「具有正式或法律效力的書面通知」。",
+        "notice-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-15"
     },
@@ -1580,11 +1390,8 @@ export default {
       "masked": "There is a ____ difference in colour.",
       "options": [
         "notice-mcq-16",
-        "notice-mcq-15",
-        "notice-mcq-17",
-        "notice-mcq-14",
-        "notice-mcq-18",
-        "notice-mcq-13"
+        "notice-mcq-09",
+        "notice-mcq-07"
       ],
       "explanation": "本句的「noticeable」指「明顯到足以被人察覺／注意的」。",
       "sentenceIndex": 39,
@@ -1593,12 +1400,9 @@ export default {
         "noticeable"
       ],
       "optionReasons": {
-        "notice-mcq-16": "本句指「明顯到足以被人察覺／注意的」。",
-        "notice-mcq-15": "「具有正式或法律效力的書面通知」與本句語境不同。",
-        "notice-mcq-17": "「程度足以讓人明顯察覺地」與本句語境不同。",
-        "notice-mcq-14": "「正式通知終止後至實際終止前的合約通知期」與本句語境不同。",
-        "notice-mcq-18": "「沒有被看到、察覺或注意到的」與本句語境不同。",
-        "notice-mcq-13": "「正式通知將終止工作、租約或合約」與本句語境不同。"
+        "notice-mcq-16": "本句的「noticeable」指「明顯到足以被人察覺／注意的」。",
+        "notice-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-16"
     },
@@ -1610,11 +1414,8 @@ export default {
       "masked": "The painting became ____ brighter after restoration.” Actually here noticeably is the adverb; for adjective: > “The change is noticeable.",
       "options": [
         "notice-mcq-16",
-        "notice-mcq-15",
-        "notice-mcq-17",
         "notice-mcq-14",
-        "notice-mcq-18",
-        "notice-mcq-13"
+        "notice-mcq-07"
       ],
       "explanation": "本句的「noticeably」指「明顯到足以被人察覺／注意的」。",
       "sentenceIndex": 40,
@@ -1623,12 +1424,9 @@ export default {
         "noticeably"
       ],
       "optionReasons": {
-        "notice-mcq-16": "本句指「明顯到足以被人察覺／注意的」。",
-        "notice-mcq-15": "「具有正式或法律效力的書面通知」與本句語境不同。",
-        "notice-mcq-17": "「程度足以讓人明顯察覺地」與本句語境不同。",
-        "notice-mcq-14": "「正式通知終止後至實際終止前的合約通知期」與本句語境不同。",
-        "notice-mcq-18": "「沒有被看到、察覺或注意到的」與本句語境不同。",
-        "notice-mcq-13": "「正式通知將終止工作、租約或合約」與本句語境不同。"
+        "notice-mcq-16": "本句的「noticeably」指「明顯到足以被人察覺／注意的」。",
+        "notice-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-16"
     },
@@ -1640,11 +1438,9 @@ export default {
       "masked": "The room became ____ quieter.",
       "options": [
         "notice-mcq-17",
-        "notice-mcq-16",
-        "notice-mcq-18",
-        "notice-mcq-15",
-        "notice-mcq-14",
-        "notice-mcq-13"
+        "notice-mcq-04",
+        "notice-mcq-13",
+        "notice-mcq-08"
       ],
       "explanation": "本句的「noticeably」指「程度足以讓人明顯察覺地」。",
       "sentenceIndex": 41,
@@ -1653,12 +1449,10 @@ export default {
         "noticeably"
       ],
       "optionReasons": {
-        "notice-mcq-17": "本句指「程度足以讓人明顯察覺地」。",
-        "notice-mcq-16": "「明顯到足以被人察覺／注意的」與本句語境不同。",
-        "notice-mcq-18": "「沒有被看到、察覺或注意到的」與本句語境不同。",
-        "notice-mcq-15": "「具有正式或法律效力的書面通知」與本句語境不同。",
-        "notice-mcq-14": "「正式通知終止後至實際終止前的合約通知期」與本句語境不同。",
-        "notice-mcq-13": "「正式通知將終止工作、租約或合約」與本句語境不同。"
+        "notice-mcq-17": "本句的「noticeably」指「程度足以讓人明顯察覺地」。",
+        "notice-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-17"
     },
@@ -1670,11 +1464,9 @@ export default {
       "masked": "The colours are ____ softer.",
       "options": [
         "notice-mcq-17",
-        "notice-mcq-16",
-        "notice-mcq-18",
-        "notice-mcq-15",
-        "notice-mcq-14",
-        "notice-mcq-13"
+        "notice-mcq-04",
+        "notice-mcq-10",
+        "notice-mcq-08"
       ],
       "explanation": "本句的「noticeably」指「程度足以讓人明顯察覺地」。",
       "sentenceIndex": 42,
@@ -1683,12 +1475,10 @@ export default {
         "noticeably"
       ],
       "optionReasons": {
-        "notice-mcq-17": "本句指「程度足以讓人明顯察覺地」。",
-        "notice-mcq-16": "「明顯到足以被人察覺／注意的」與本句語境不同。",
-        "notice-mcq-18": "「沒有被看到、察覺或注意到的」與本句語境不同。",
-        "notice-mcq-15": "「具有正式或法律效力的書面通知」與本句語境不同。",
-        "notice-mcq-14": "「正式通知終止後至實際終止前的合約通知期」與本句語境不同。",
-        "notice-mcq-13": "「正式通知將終止工作、租約或合約」與本句語境不同。"
+        "notice-mcq-17": "本句的「noticeably」指「程度足以讓人明顯察覺地」。",
+        "notice-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-17"
     },
@@ -1700,11 +1490,8 @@ export default {
       "masked": "A small detail had gone ____.",
       "options": [
         "notice-mcq-18",
-        "notice-mcq-17",
-        "notice-mcq-16",
-        "notice-mcq-15",
-        "notice-mcq-14",
-        "notice-mcq-13"
+        "notice-mcq-09",
+        "notice-mcq-07"
       ],
       "explanation": "本句的「unnoticed」指「沒有被看到、察覺或注意到的」。",
       "sentenceIndex": 43,
@@ -1713,12 +1500,9 @@ export default {
         "unnoticed"
       ],
       "optionReasons": {
-        "notice-mcq-18": "本句指「沒有被看到、察覺或注意到的」。",
-        "notice-mcq-17": "「程度足以讓人明顯察覺地」與本句語境不同。",
-        "notice-mcq-16": "「明顯到足以被人察覺／注意的」與本句語境不同。",
-        "notice-mcq-15": "「具有正式或法律效力的書面通知」與本句語境不同。",
-        "notice-mcq-14": "「正式通知終止後至實際終止前的合約通知期」與本句語境不同。",
-        "notice-mcq-13": "「正式通知將終止工作、租約或合約」與本句語境不同。"
+        "notice-mcq-18": "本句的「unnoticed」指「沒有被看到、察覺或注意到的」。",
+        "notice-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notice-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-18"
     },
@@ -1730,11 +1514,7 @@ export default {
       "masked": "The mistake ____ for months.",
       "options": [
         "notice-mcq-18",
-        "notice-mcq-17",
-        "notice-mcq-16",
-        "notice-mcq-15",
-        "notice-mcq-14",
-        "notice-mcq-13"
+        "notice-pdf-002"
       ],
       "explanation": "本句的「went unnoticed」指「沒有被看到、察覺或注意到的」。",
       "sentenceIndex": 44,
@@ -1743,12 +1523,8 @@ export default {
         "went unnoticed"
       ],
       "optionReasons": {
-        "notice-mcq-18": "本句指「沒有被看到、察覺或注意到的」。",
-        "notice-mcq-17": "「程度足以讓人明顯察覺地」與本句語境不同。",
-        "notice-mcq-16": "「明顯到足以被人察覺／注意的」與本句語境不同。",
-        "notice-mcq-15": "「具有正式或法律效力的書面通知」與本句語境不同。",
-        "notice-mcq-14": "「正式通知終止後至實際終止前的合約通知期」與本句語境不同。",
-        "notice-mcq-13": "「正式通知將終止工作、租約或合約」與本句語境不同。"
+        "notice-mcq-18": "本句的「went unnoticed」指「沒有被看到、察覺或注意到的」。",
+        "notice-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notice-mcq-18"
     }
@@ -1760,5 +1536,7 @@ export default {
     "sha256": "61a94e46b2f504e28113400c219d0508da6110303b6e2545480ae1c8daff8ead",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -167,7 +167,7 @@ export default {
     },
     {
       "id": "lay-mcq-09",
-      "title": "表示敷設；鋪設",
+      "title": "敷設；鋪設",
       "form": "8. lay = set/install something technical（技術） — 敷設；鋪設",
       "en": "8. lay = set/install something technical（技術） — 敷設；鋪設",
       "zh": "表示敷設；鋪設",
@@ -189,7 +189,7 @@ export default {
     },
     {
       "id": "lay-mcq-10",
-      "title": "表示敷設；鋪設",
+      "title": "敷設；鋪設",
       "form": "Useful construction: lay down — establish a rule",
       "en": "Useful construction: lay down — establish a rule",
       "zh": "表示敷設；鋪設",
@@ -206,7 +206,7 @@ export default {
     },
     {
       "id": "lay-mcq-11",
-      "title": "表示敷設；鋪設",
+      "title": "敷設；鋪設",
       "form": "Useful construction: lay off — stop employing",
       "en": "Useful construction: lay off — stop employing",
       "zh": "表示敷設；鋪設",
@@ -280,11 +280,9 @@ export default {
       "masked": "She ____ the book on the table.",
       "options": [
         "lay-mcq-01",
-        "lay-mcq-02",
-        "lay-mcq-03",
-        "lay-mcq-04",
+        "lay-mcq-06",
         "lay-mcq-05",
-        "lay-mcq-06"
+        "lay-pdf-002"
       ],
       "explanation": "本句的「laid」指「把某物放到某個位置，通常帶有較刻意或有安排的感覺」。",
       "sentenceIndex": 0,
@@ -293,12 +291,10 @@ export default {
         "laid"
       ],
       "optionReasons": {
-        "lay-mcq-01": "本句指「把某物放到某個位置，通常帶有較刻意或有安排的感覺」。",
-        "lay-mcq-02": "「把地板、地毯、電纜、管道等鋪設／敷設好」是「lay — spread/install」的用法，與本句語境不同。",
-        "lay-mcq-03": "「把物件按某種用途、次序或形式排列／擺放」是「lay — arrange」的用法，與本句語境不同。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。"
+        "lay-mcq-01": "本句的「laid」指「把某物放到某個位置，通常帶有較刻意或有安排的感覺」。",
+        "lay-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lay-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-mcq-01"
     },
@@ -310,11 +306,9 @@ export default {
       "masked": "He ____ the keys beside the phone.",
       "options": [
         "lay-mcq-01",
-        "lay-mcq-02",
-        "lay-mcq-03",
-        "lay-mcq-04",
+        "lay-mcq-09",
         "lay-mcq-05",
-        "lay-mcq-06"
+        "lay-pdf-002"
       ],
       "explanation": "本句的「laid」指「把某物放到某個位置，通常帶有較刻意或有安排的感覺」。",
       "sentenceIndex": 1,
@@ -323,12 +317,10 @@ export default {
         "laid"
       ],
       "optionReasons": {
-        "lay-mcq-01": "本句指「把某物放到某個位置，通常帶有較刻意或有安排的感覺」。",
-        "lay-mcq-02": "「把地板、地毯、電纜、管道等鋪設／敷設好」是「lay — spread/install」的用法，與本句語境不同。",
-        "lay-mcq-03": "「把物件按某種用途、次序或形式排列／擺放」是「lay — arrange」的用法，與本句語境不同。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。"
+        "lay-mcq-01": "本句的「laid」指「把某物放到某個位置，通常帶有較刻意或有安排的感覺」。",
+        "lay-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lay-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-mcq-01"
     },
@@ -342,9 +334,7 @@ export default {
         "lay-mcq-02",
         "lay-mcq-01",
         "lay-mcq-03",
-        "lay-mcq-04",
-        "lay-mcq-05",
-        "lay-mcq-06"
+        "lay-pdf-002"
       ],
       "explanation": "本句的「laid」指「把地板、地毯、電纜、管道等鋪設／敷設好」。",
       "sentenceIndex": 2,
@@ -353,12 +343,10 @@ export default {
         "laid"
       ],
       "optionReasons": {
-        "lay-mcq-02": "本句指「把地板、地毯、電纜、管道等鋪設／敷設好」。",
-        "lay-mcq-01": "「把某物放到某個位置，通常帶有較刻意或有安排的感覺」是「lay — put/place」的用法，與本句語境不同。",
-        "lay-mcq-03": "「把物件按某種用途、次序或形式排列／擺放」是「lay — arrange」的用法，與本句語境不同。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。"
+        "lay-mcq-02": "本句的「laid」指「把地板、地毯、電纜、管道等鋪設／敷設好」。",
+        "lay-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lay-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-mcq-02"
     },
@@ -371,10 +359,8 @@ export default {
       "options": [
         "lay-mcq-02",
         "lay-mcq-01",
-        "lay-mcq-03",
-        "lay-mcq-04",
-        "lay-mcq-05",
-        "lay-mcq-06"
+        "lay-pdf-002",
+        "lay-mcq-05"
       ],
       "explanation": "本句的「laid」指「把地板、地毯、電纜、管道等鋪設／敷設好」。",
       "sentenceIndex": 3,
@@ -383,12 +369,10 @@ export default {
         "laid"
       ],
       "optionReasons": {
-        "lay-mcq-02": "本句指「把地板、地毯、電纜、管道等鋪設／敷設好」。",
-        "lay-mcq-01": "「把某物放到某個位置，通常帶有較刻意或有安排的感覺」是「lay — put/place」的用法，與本句語境不同。",
-        "lay-mcq-03": "「把物件按某種用途、次序或形式排列／擺放」是「lay — arrange」的用法，與本句語境不同。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。"
+        "lay-mcq-02": "本句的「laid」指「把地板、地毯、電纜、管道等鋪設／敷設好」。",
+        "lay-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "lay-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-mcq-02"
     },
@@ -400,11 +384,9 @@ export default {
       "masked": "She ____ the documents in a neat row.",
       "options": [
         "lay-mcq-03",
-        "lay-mcq-02",
-        "lay-mcq-04",
-        "lay-mcq-01",
+        "lay-mcq-06",
         "lay-mcq-05",
-        "lay-mcq-06"
+        "lay-mcq-11"
       ],
       "explanation": "本句的「laid」指「把物件按某種用途、次序或形式排列／擺放」。",
       "sentenceIndex": 4,
@@ -413,12 +395,10 @@ export default {
         "laid"
       ],
       "optionReasons": {
-        "lay-mcq-03": "本句指「把物件按某種用途、次序或形式排列／擺放」。",
-        "lay-mcq-02": "「把地板、地毯、電纜、管道等鋪設／敷設好」是「lay — spread/install」的用法，與本句語境不同。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。",
-        "lay-mcq-01": "「把某物放到某個位置，通常帶有較刻意或有安排的感覺」是「lay — put/place」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。"
+        "lay-mcq-03": "本句的「laid」指「把物件按某種用途、次序或形式排列／擺放」。",
+        "lay-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-mcq-03"
     },
@@ -430,10 +410,8 @@ export default {
       "masked": "The table was ____ for dinner.",
       "options": [
         "lay-mcq-03",
-        "lay-mcq-02",
-        "lay-mcq-04",
-        "lay-mcq-01",
         "lay-mcq-05",
+        "lay-mcq-10",
         "lay-mcq-06"
       ],
       "explanation": "本句的「laid」指「把物件按某種用途、次序或形式排列／擺放」。",
@@ -443,12 +421,10 @@ export default {
         "laid"
       ],
       "optionReasons": {
-        "lay-mcq-03": "本句指「把物件按某種用途、次序或形式排列／擺放」。",
-        "lay-mcq-02": "「把地板、地毯、電纜、管道等鋪設／敷設好」是「lay — spread/install」的用法，與本句語境不同。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。",
-        "lay-mcq-01": "「把某物放到某個位置，通常帶有較刻意或有安排的感覺」是「lay — put/place」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。"
+        "lay-mcq-03": "本句的「laid」指「把物件按某種用途、次序或形式排列／擺放」。",
+        "lay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-mcq-03"
     },
@@ -460,11 +436,9 @@ export default {
       "masked": "Everything is ____ in a very orderly way.",
       "options": [
         "lay-pdf-001",
-        "lay-mcq-03",
-        "lay-mcq-05",
-        "lay-mcq-02",
         "lay-mcq-06",
-        "lay-mcq-01"
+        "lay-pdf-002",
+        "lay-mcq-05"
       ],
       "explanation": "本句的「laid out」指「把空間、資訊或物件有系統地安排、排列或設計」。",
       "sentenceIndex": 6,
@@ -473,12 +447,10 @@ export default {
         "laid out"
       ],
       "optionReasons": {
-        "lay-pdf-001": "本句指「把空間、資訊或物件有系統地安排、排列或設計」。",
-        "lay-mcq-03": "「把物件按某種用途、次序或形式排列／擺放」是「lay — arrange」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-02": "「把地板、地毯、電纜、管道等鋪設／敷設好」是「lay — spread/install」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
-        "lay-mcq-01": "「把某物放到某個位置，通常帶有較刻意或有安排的感覺」是「lay — put/place」的用法，與本句語境不同。"
+        "lay-pdf-001": "本句的「laid out」指「把空間、資訊或物件有系統地安排、排列或設計」。",
+        "lay-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lay-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-pdf-001"
     },
@@ -490,11 +462,9 @@ export default {
       "masked": "The garden is ____ in a formal style.",
       "options": [
         "lay-pdf-001",
-        "lay-mcq-03",
         "lay-mcq-05",
-        "lay-mcq-02",
-        "lay-mcq-06",
-        "lay-mcq-01"
+        "lay-mcq-07",
+        "lay-pdf-002"
       ],
       "explanation": "本句的「laid out」指「把空間、資訊或物件有系統地安排、排列或設計」。",
       "sentenceIndex": 7,
@@ -503,12 +473,10 @@ export default {
         "laid out"
       ],
       "optionReasons": {
-        "lay-pdf-001": "本句指「把空間、資訊或物件有系統地安排、排列或設計」。",
-        "lay-mcq-03": "「把物件按某種用途、次序或形式排列／擺放」是「lay — arrange」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-02": "「把地板、地毯、電纜、管道等鋪設／敷設好」是「lay — spread/install」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
-        "lay-mcq-01": "「把某物放到某個位置，通常帶有較刻意或有安排的感覺」是「lay — put/place」的用法，與本句語境不同。"
+        "lay-pdf-001": "本句的「laid out」指「把空間、資訊或物件有系統地安排、排列或設計」。",
+        "lay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lay-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-pdf-001"
     },
@@ -520,11 +488,9 @@ export default {
       "masked": "The information is clearly ____ on the page.",
       "options": [
         "lay-pdf-001",
-        "lay-mcq-03",
         "lay-mcq-05",
-        "lay-mcq-02",
         "lay-mcq-06",
-        "lay-mcq-01"
+        "lay-pdf-002"
       ],
       "explanation": "本句的「laid out」指「把空間、資訊或物件有系統地安排、排列或設計」。",
       "sentenceIndex": 8,
@@ -533,12 +499,10 @@ export default {
         "laid out"
       ],
       "optionReasons": {
-        "lay-pdf-001": "本句指「把空間、資訊或物件有系統地安排、排列或設計」。",
-        "lay-mcq-03": "「把物件按某種用途、次序或形式排列／擺放」是「lay — arrange」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-02": "「把地板、地毯、電纜、管道等鋪設／敷設好」是「lay — spread/install」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
-        "lay-mcq-01": "「把某物放到某個位置，通常帶有較刻意或有安排的感覺」是「lay — put/place」的用法，與本句語境不同。"
+        "lay-pdf-001": "本句的「laid out」指「把空間、資訊或物件有系統地安排、排列或設計」。",
+        "lay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lay-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-pdf-001"
     },
@@ -552,9 +516,7 @@ export default {
         "lay-mcq-05",
         "lay-mcq-04",
         "lay-mcq-06",
-        "lay-mcq-03",
-        "lay-mcq-07",
-        "lay-mcq-02"
+        "lay-mcq-10"
       ],
       "explanation": "本句的「lay」指「產卵；下蛋」。",
       "sentenceIndex": 9,
@@ -563,12 +525,10 @@ export default {
         "lay"
       ],
       "optionReasons": {
-        "lay-mcq-05": "本句指「產卵；下蛋」。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
-        "lay-mcq-03": "「把物件按某種用途、次序或形式排列／擺放」是「lay — arrange」的用法，與本句語境不同。",
-        "lay-mcq-07": "「把責任、重點、要求等放在某人／某事上」是「lay — abstract placement」的用法，與本句語境不同。",
-        "lay-mcq-02": "「把地板、地毯、電纜、管道等鋪設／敷設好」是「lay — spread/install」的用法，與本句語境不同。"
+        "lay-mcq-05": "本句的「lay」指「產卵；下蛋」。",
+        "lay-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-mcq-05"
     },
@@ -581,10 +541,8 @@ export default {
       "options": [
         "lay-mcq-05",
         "lay-mcq-04",
-        "lay-mcq-06",
-        "lay-mcq-03",
-        "lay-mcq-07",
-        "lay-mcq-02"
+        "lay-mcq-09",
+        "lay-pdf-002"
       ],
       "explanation": "本句的「lay」指「產卵；下蛋」。",
       "sentenceIndex": 10,
@@ -593,12 +551,10 @@ export default {
         "lay"
       ],
       "optionReasons": {
-        "lay-mcq-05": "本句指「產卵；下蛋」。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
-        "lay-mcq-03": "「把物件按某種用途、次序或形式排列／擺放」是「lay — arrange」的用法，與本句語境不同。",
-        "lay-mcq-07": "「把責任、重點、要求等放在某人／某事上」是「lay — abstract placement」的用法，與本句語境不同。",
-        "lay-mcq-02": "「把地板、地毯、電纜、管道等鋪設／敷設好」是「lay — spread/install」的用法，與本句語境不同。"
+        "lay-mcq-05": "本句的「lay」指「產卵；下蛋」。",
+        "lay-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "lay-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-mcq-05"
     },
@@ -610,11 +566,9 @@ export default {
       "masked": "The research ____ the foundation for later work.",
       "options": [
         "lay-mcq-06",
-        "lay-mcq-05",
-        "lay-mcq-07",
-        "lay-mcq-04",
-        "lay-mcq-08",
-        "lay-mcq-03"
+        "lay-pdf-001",
+        "lay-mcq-02",
+        "lay-mcq-05"
       ],
       "explanation": "本句的「laid」指「奠定基礎、建立前提或框架」。",
       "sentenceIndex": 11,
@@ -623,12 +577,10 @@ export default {
         "laid"
       ],
       "optionReasons": {
-        "lay-mcq-06": "本句指「奠定基礎、建立前提或框架」。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-07": "「把責任、重點、要求等放在某人／某事上」是「lay — abstract placement」的用法，與本句語境不同。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。",
-        "lay-mcq-08": "「一層物質／結構；相關詞彙」是「layer」的用法，與本句語境不同。",
-        "lay-mcq-03": "「把物件按某種用途、次序或形式排列／擺放」是「lay — arrange」的用法，與本句語境不同。"
+        "lay-mcq-06": "本句的「laid」指「奠定基礎、建立前提或框架」。",
+        "lay-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-mcq-06"
     },
@@ -640,11 +592,9 @@ export default {
       "masked": "The agreement ____ the groundwork for cooperation.",
       "options": [
         "lay-mcq-06",
-        "lay-mcq-05",
         "lay-mcq-07",
-        "lay-mcq-04",
-        "lay-mcq-08",
-        "lay-mcq-03"
+        "lay-mcq-10",
+        "lay-mcq-04"
       ],
       "explanation": "本句的「laid」指「奠定基礎、建立前提或框架」。",
       "sentenceIndex": 12,
@@ -653,12 +603,10 @@ export default {
         "laid"
       ],
       "optionReasons": {
-        "lay-mcq-06": "本句指「奠定基礎、建立前提或框架」。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-07": "「把責任、重點、要求等放在某人／某事上」是「lay — abstract placement」的用法，與本句語境不同。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。",
-        "lay-mcq-08": "「一層物質／結構；相關詞彙」是「layer」的用法，與本句語境不同。",
-        "lay-mcq-03": "「把物件按某種用途、次序或形式排列／擺放」是「lay — arrange」的用法，與本句語境不同。"
+        "lay-mcq-06": "本句的「laid」指「奠定基礎、建立前提或框架」。",
+        "lay-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-mcq-06"
     },
@@ -670,11 +618,9 @@ export default {
       "masked": "They ____ the blame on poor planning.",
       "options": [
         "lay-mcq-07",
-        "lay-mcq-06",
-        "lay-mcq-08",
+        "lay-pdf-001",
         "lay-mcq-05",
-        "lay-mcq-09",
-        "lay-mcq-04"
+        "lay-pdf-002"
       ],
       "explanation": "本句的「laid」指「把責任、重點、要求等放在某人／某事上」。",
       "sentenceIndex": 13,
@@ -683,12 +629,10 @@ export default {
         "laid"
       ],
       "optionReasons": {
-        "lay-mcq-07": "本句指「把責任、重點、要求等放在某人／某事上」。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
-        "lay-mcq-08": "「一層物質／結構；相關詞彙」是「layer」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-09": "「表示敷設；鋪設」是「8. lay = set/install something technical（技術） — 敷設；鋪設」的用法，與本句語境不同。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。"
+        "lay-mcq-07": "本句的「laid」指「把責任、重點、要求等放在某人／某事上」。",
+        "lay-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lay-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-mcq-07"
     },
@@ -700,11 +644,9 @@ export default {
       "masked": "The report ____ emphasis on safety.",
       "options": [
         "lay-mcq-07",
-        "lay-mcq-06",
-        "lay-mcq-08",
         "lay-mcq-05",
-        "lay-mcq-09",
-        "lay-mcq-04"
+        "lay-mcq-04",
+        "lay-mcq-11"
       ],
       "explanation": "本句的「lays」指「把責任、重點、要求等放在某人／某事上」。",
       "sentenceIndex": 14,
@@ -713,12 +655,10 @@ export default {
         "lays"
       ],
       "optionReasons": {
-        "lay-mcq-07": "本句指「把責任、重點、要求等放在某人／某事上」。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
-        "lay-mcq-08": "「一層物質／結構；相關詞彙」是「layer」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-09": "「表示敷設；鋪設」是「8. lay = set/install something technical（技術） — 敷設；鋪設」的用法，與本句語境不同。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。"
+        "lay-mcq-07": "本句的「lays」指「把責任、重點、要求等放在某人／某事上」。",
+        "lay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-mcq-07"
     },
@@ -730,11 +670,9 @@ export default {
       "masked": "They are ____ new pipes.",
       "options": [
         "lay-mcq-09",
-        "lay-mcq-08",
-        "lay-mcq-07",
-        "lay-mcq-06",
         "lay-mcq-05",
-        "lay-mcq-04"
+        "lay-mcq-06",
+        "lay-mcq-03"
       ],
       "explanation": "本句的「laying」指「表示敷設；鋪設」。",
       "sentenceIndex": 15,
@@ -743,12 +681,10 @@ export default {
         "laying"
       ],
       "optionReasons": {
-        "lay-mcq-09": "本句指「表示敷設；鋪設」。",
-        "lay-mcq-08": "「一層物質／結構；相關詞彙」是「layer」的用法，與本句語境不同。",
-        "lay-mcq-07": "「把責任、重點、要求等放在某人／某事上」是「lay — abstract placement」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。"
+        "lay-mcq-09": "本句的「laying」指「表示敷設；鋪設」。",
+        "lay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-mcq-09"
     },
@@ -760,10 +696,8 @@ export default {
       "masked": "The company ____ fibre-optic cables.",
       "options": [
         "lay-mcq-09",
-        "lay-mcq-08",
         "lay-mcq-07",
         "lay-mcq-06",
-        "lay-mcq-05",
         "lay-mcq-04"
       ],
       "explanation": "本句的「laid」指「表示敷設；鋪設」。",
@@ -773,12 +707,10 @@ export default {
         "laid"
       ],
       "optionReasons": {
-        "lay-mcq-09": "本句指「表示敷設；鋪設」。",
-        "lay-mcq-08": "「一層物質／結構；相關詞彙」是「layer」的用法，與本句語境不同。",
-        "lay-mcq-07": "「把責任、重點、要求等放在某人／某事上」是「lay — abstract placement」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。"
+        "lay-mcq-09": "本句的「laid」指「表示敷設；鋪設」。",
+        "lay-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-mcq-09"
     },
@@ -790,11 +722,9 @@ export default {
       "masked": "A thin ____ of dust covered the shelf.",
       "options": [
         "lay-pdf-002",
-        "lay-mcq-07",
-        "lay-mcq-09",
-        "lay-mcq-06",
+        "lay-mcq-11",
         "lay-mcq-05",
-        "lay-mcq-04"
+        "lay-mcq-06"
       ],
       "explanation": "本句的「layer」指「一層覆蓋物或上下堆疊的層次」。",
       "sentenceIndex": 17,
@@ -803,12 +733,10 @@ export default {
         "layer"
       ],
       "optionReasons": {
-        "lay-pdf-002": "本句指「一層覆蓋物或上下堆疊的層次」。",
-        "lay-mcq-07": "「把責任、重點、要求等放在某人／某事上」是「lay — abstract placement」的用法，與本句語境不同。",
-        "lay-mcq-09": "「表示敷設；鋪設」是「8. lay = set/install something technical（技術） — 敷設；鋪設」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。"
+        "lay-pdf-002": "本句的「layer」指「一層覆蓋物或上下堆疊的層次」。",
+        "lay-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-pdf-002"
     },
@@ -820,11 +748,9 @@ export default {
       "masked": "The cake has three ____.",
       "options": [
         "lay-pdf-002",
-        "lay-mcq-07",
-        "lay-mcq-09",
+        "lay-pdf-001",
         "lay-mcq-06",
-        "lay-mcq-05",
-        "lay-mcq-04"
+        "lay-mcq-05"
       ],
       "explanation": "本句的「layers」指「一層覆蓋物或上下堆疊的層次」。",
       "sentenceIndex": 18,
@@ -833,12 +759,10 @@ export default {
         "layers"
       ],
       "optionReasons": {
-        "lay-pdf-002": "本句指「一層覆蓋物或上下堆疊的層次」。",
-        "lay-mcq-07": "「把責任、重點、要求等放在某人／某事上」是「lay — abstract placement」的用法，與本句語境不同。",
-        "lay-mcq-09": "「表示敷設；鋪設」是「8. lay = set/install something technical（技術） — 敷設；鋪設」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。"
+        "lay-pdf-002": "本句的「layers」指「一層覆蓋物或上下堆疊的層次」。",
+        "lay-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-pdf-002"
     },
@@ -850,11 +774,9 @@ export default {
       "masked": "She ____ the plan in detail.",
       "options": [
         "lay-mcq-04",
-        "lay-mcq-03",
-        "lay-mcq-05",
-        "lay-mcq-02",
+        "lay-pdf-002",
         "lay-mcq-06",
-        "lay-mcq-01"
+        "lay-mcq-07"
       ],
       "explanation": "本句的「laid out」指「有系統地佈置、排列、規劃；亦可指清楚說明」。",
       "sentenceIndex": 19,
@@ -863,12 +785,10 @@ export default {
         "laid out"
       ],
       "optionReasons": {
-        "lay-mcq-04": "本句指「有系統地佈置、排列、規劃；亦可指清楚說明」。",
-        "lay-mcq-03": "「把物件按某種用途、次序或形式排列／擺放」是「lay — arrange」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-02": "「把地板、地毯、電纜、管道等鋪設／敷設好」是「lay — spread/install」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
-        "lay-mcq-01": "「把某物放到某個位置，通常帶有較刻意或有安排的感覺」是「lay — put/place」的用法，與本句語境不同。"
+        "lay-mcq-04": "本句的「laid out」指「有系統地佈置、排列、規劃；亦可指清楚說明」。",
+        "lay-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-mcq-04"
     },
@@ -880,11 +800,9 @@ export default {
       "masked": "The law ____ clear requirements.",
       "options": [
         "lay-mcq-10",
-        "lay-mcq-08",
-        "lay-mcq-07",
-        "lay-mcq-06",
-        "lay-mcq-05",
-        "lay-mcq-04"
+        "lay-pdf-002",
+        "lay-mcq-03",
+        "lay-mcq-06"
       ],
       "explanation": "本句的「lays down」指「表示敷設；鋪設」。",
       "sentenceIndex": 20,
@@ -893,12 +811,10 @@ export default {
         "lays down"
       ],
       "optionReasons": {
-        "lay-mcq-10": "本句指「表示敷設；鋪設」。",
-        "lay-mcq-08": "「一層物質／結構；相關詞彙」是「layer」的用法，與本句語境不同。",
-        "lay-mcq-07": "「把責任、重點、要求等放在某人／某事上」是「lay — abstract placement」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。"
+        "lay-mcq-10": "本句的「lays down」指「表示敷設；鋪設」。",
+        "lay-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-mcq-10"
     },
@@ -910,11 +826,9 @@ export default {
       "masked": "The company had to ____ several workers.",
       "options": [
         "lay-mcq-11",
-        "lay-mcq-08",
-        "lay-mcq-07",
-        "lay-mcq-06",
+        "lay-mcq-04",
         "lay-mcq-05",
-        "lay-mcq-04"
+        "lay-pdf-002"
       ],
       "explanation": "本句的「lay off」指「表示敷設；鋪設」。",
       "sentenceIndex": 21,
@@ -923,12 +837,10 @@ export default {
         "lay off"
       ],
       "optionReasons": {
-        "lay-mcq-11": "本句指「表示敷設；鋪設」。",
-        "lay-mcq-08": "「一層物質／結構；相關詞彙」是「layer」的用法，與本句語境不同。",
-        "lay-mcq-07": "「把責任、重點、要求等放在某人／某事上」是「lay — abstract placement」的用法，與本句語境不同。",
-        "lay-mcq-06": "「奠定基礎、建立前提或框架」是「lay — foundation」的用法，與本句語境不同。",
-        "lay-mcq-05": "「產卵；下蛋」是「lay — eggs」的用法，與本句語境不同。",
-        "lay-mcq-04": "「有系統地佈置、排列、規劃；亦可指清楚說明」是「lay out」的用法，與本句語境不同。"
+        "lay-mcq-11": "本句的「lay off」指「表示敷設；鋪設」。",
+        "lay-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lay-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lay-mcq-11"
     }
@@ -940,5 +852,7 @@ export default {
     "sha256": "346d577455ed6d1910360a41d5d5f0e4793f3dbe12d4f4302096f3e2b02573ab",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

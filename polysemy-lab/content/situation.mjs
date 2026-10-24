@@ -346,16 +346,6 @@ export default {
           "We will adjust the plan if the situation changes.",
           "如果情況有變，我們會調整計劃。",
           "情況改變"
-        ],
-        [
-          "I wouldn't want to be in his situation.",
-          "我不想處於他的處境。",
-          "情況改變"
-        ],
-        [
-          "Try to see the problem from her situation.",
-          "試着從她的處境理解問題。",
-          "情況改變"
         ]
       ],
       "options": [],
@@ -536,6 +526,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "situation-reviewed-19d8f6d912",
+      "title": "某人當時所處的生活、工作或人際條件",
+      "form": "situation · source section 16",
+      "en": "某人當時所處的生活、工作或人際條件",
+      "zh": "某人當時所處的生活、工作或人際條件",
+      "note": "對照原始教材第 16 節及例句核實。",
+      "examples": [
+        [
+          "I wouldn't want to be in his situation.",
+          "我不想處於他的處境。",
+          "某人當時所處的生活、工作或人際條件"
+        ],
+        [
+          "Try to see the problem from her situation.",
+          "試着從她的處境理解問題。",
+          "某人當時所處的生活、工作或人際條件"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -547,11 +559,9 @@ export default {
       "masked": "A sincere apology can help ____.",
       "options": [
         "situation-mcq-01",
-        "situation-mcq-02",
+        "situation-mcq-11",
         "situation-mcq-03",
-        "situation-mcq-04",
-        "situation-mcq-05",
-        "situation-mcq-06"
+        "situation-mcq-16"
       ],
       "explanation": "本句的「mend the situation」指「情況；局面」。",
       "sentenceIndex": 0,
@@ -560,12 +570,10 @@ export default {
         "mend the situation"
       ],
       "optionReasons": {
-        "situation-mcq-01": "本句指「情況；局面」。",
-        "situation-mcq-02": "「在這種情況下」與本句語境不同。",
-        "situation-mcq-03": "「困難處境」與本句語境不同。",
-        "situation-mcq-04": "「尷尬局面」與本句語境不同。",
-        "situation-mcq-05": "「嚴重情況」與本句語境不同。",
-        "situation-mcq-06": "「目前情況」與本句語境不同。"
+        "situation-mcq-01": "本句的「mend the situation」指「情況；局面」。",
+        "situation-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-01"
     },
@@ -577,11 +585,9 @@ export default {
       "masked": "The ____ became more tense after the argument.",
       "options": [
         "situation-mcq-01",
-        "situation-mcq-02",
-        "situation-mcq-03",
-        "situation-mcq-04",
-        "situation-mcq-05",
-        "situation-mcq-06"
+        "situation-mcq-07",
+        "situation-mcq-24",
+        "situation-mcq-12"
       ],
       "explanation": "本句的「situation」指「情況；局面」。",
       "sentenceIndex": 1,
@@ -590,12 +596,10 @@ export default {
         "situation"
       ],
       "optionReasons": {
-        "situation-mcq-01": "本句指「情況；局面」。",
-        "situation-mcq-02": "「在這種情況下」與本句語境不同。",
-        "situation-mcq-03": "「困難處境」與本句語境不同。",
-        "situation-mcq-04": "「尷尬局面」與本句語境不同。",
-        "situation-mcq-05": "「嚴重情況」與本句語境不同。",
-        "situation-mcq-06": "「目前情況」與本句語境不同。"
+        "situation-mcq-01": "本句的「situation」指「情況；局面」。",
+        "situation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-01"
     },
@@ -607,11 +611,9 @@ export default {
       "masked": "We need to understand the ____ before making a decision.",
       "options": [
         "situation-mcq-01",
-        "situation-mcq-02",
-        "situation-mcq-03",
-        "situation-mcq-04",
-        "situation-mcq-05",
-        "situation-mcq-06"
+        "situation-mcq-16",
+        "situation-mcq-20",
+        "situation-mcq-02"
       ],
       "explanation": "本句的「situation」指「情況；局面」。",
       "sentenceIndex": 2,
@@ -620,12 +622,10 @@ export default {
         "situation"
       ],
       "optionReasons": {
-        "situation-mcq-01": "本句指「情況；局面」。",
-        "situation-mcq-02": "「在這種情況下」與本句語境不同。",
-        "situation-mcq-03": "「困難處境」與本句語境不同。",
-        "situation-mcq-04": "「尷尬局面」與本句語境不同。",
-        "situation-mcq-05": "「嚴重情況」與本句語境不同。",
-        "situation-mcq-06": "「目前情況」與本句語境不同。"
+        "situation-mcq-01": "本句的「situation」指「情況；局面」。",
+        "situation-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-01"
     },
@@ -637,11 +637,9 @@ export default {
       "masked": "What would you do ____?",
       "options": [
         "situation-mcq-02",
-        "situation-mcq-01",
-        "situation-mcq-03",
-        "situation-mcq-04",
+        "situation-mcq-07",
         "situation-mcq-05",
-        "situation-mcq-06"
+        "situation-mcq-18"
       ],
       "explanation": "本句的「in this situation」指「在這種情況下」。",
       "sentenceIndex": 3,
@@ -650,12 +648,10 @@ export default {
         "in this situation"
       ],
       "optionReasons": {
-        "situation-mcq-02": "本句指「在這種情況下」。",
-        "situation-mcq-01": "「情況；局面」與本句語境不同。",
-        "situation-mcq-03": "「困難處境」與本句語境不同。",
-        "situation-mcq-04": "「尷尬局面」與本句語境不同。",
-        "situation-mcq-05": "「嚴重情況」與本句語境不同。",
-        "situation-mcq-06": "「目前情況」與本句語境不同。"
+        "situation-mcq-02": "本句的「in this situation」指「在這種情況下」。",
+        "situation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-02"
     },
@@ -667,11 +663,9 @@ export default {
       "masked": "It is important to stay calm ____.",
       "options": [
         "situation-mcq-02",
-        "situation-mcq-01",
-        "situation-mcq-03",
+        "situation-mcq-08",
         "situation-mcq-04",
-        "situation-mcq-05",
-        "situation-mcq-06"
+        "situation-mcq-15"
       ],
       "explanation": "本句的「in this situation」指「在這種情況下」。",
       "sentenceIndex": 4,
@@ -680,12 +674,10 @@ export default {
         "in this situation"
       ],
       "optionReasons": {
-        "situation-mcq-02": "本句指「在這種情況下」。",
-        "situation-mcq-01": "「情況；局面」與本句語境不同。",
-        "situation-mcq-03": "「困難處境」與本句語境不同。",
-        "situation-mcq-04": "「尷尬局面」與本句語境不同。",
-        "situation-mcq-05": "「嚴重情況」與本句語境不同。",
-        "situation-mcq-06": "「目前情況」與本句語境不同。"
+        "situation-mcq-02": "本句的「in this situation」指「在這種情況下」。",
+        "situation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-02"
     },
@@ -697,11 +689,9 @@ export default {
       "masked": "She handled the ____ very well.",
       "options": [
         "situation-mcq-03",
+        "situation-mcq-20",
         "situation-mcq-02",
-        "situation-mcq-04",
-        "situation-mcq-01",
-        "situation-mcq-05",
-        "situation-mcq-06"
+        "situation-mcq-08"
       ],
       "explanation": "本句的「difficult situation」指「困難處境」。",
       "sentenceIndex": 5,
@@ -710,12 +700,10 @@ export default {
         "difficult situation"
       ],
       "optionReasons": {
-        "situation-mcq-03": "本句指「困難處境」。",
-        "situation-mcq-02": "「在這種情況下」與本句語境不同。",
-        "situation-mcq-04": "「尷尬局面」與本句語境不同。",
-        "situation-mcq-01": "「情況；局面」與本句語境不同。",
-        "situation-mcq-05": "「嚴重情況」與本句語境不同。",
-        "situation-mcq-06": "「目前情況」與本句語境不同。"
+        "situation-mcq-03": "本句的「difficult situation」指「困難處境」。",
+        "situation-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-03"
     },
@@ -727,11 +715,9 @@ export default {
       "masked": "We were all in a ____.",
       "options": [
         "situation-mcq-03",
-        "situation-mcq-02",
-        "situation-mcq-04",
-        "situation-mcq-01",
-        "situation-mcq-05",
-        "situation-mcq-06"
+        "situation-mcq-12",
+        "situation-mcq-11",
+        "situation-mcq-21"
       ],
       "explanation": "本句的「difficult situation」指「困難處境」。",
       "sentenceIndex": 6,
@@ -740,12 +726,10 @@ export default {
         "difficult situation"
       ],
       "optionReasons": {
-        "situation-mcq-03": "本句指「困難處境」。",
-        "situation-mcq-02": "「在這種情況下」與本句語境不同。",
-        "situation-mcq-04": "「尷尬局面」與本句語境不同。",
-        "situation-mcq-01": "「情況；局面」與本句語境不同。",
-        "situation-mcq-05": "「嚴重情況」與本句語境不同。",
-        "situation-mcq-06": "「目前情況」與本句語境不同。"
+        "situation-mcq-03": "本句的「difficult situation」指「困難處境」。",
+        "situation-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-03"
     },
@@ -757,11 +741,9 @@ export default {
       "masked": "His comment created an ____.",
       "options": [
         "situation-mcq-04",
-        "situation-mcq-03",
-        "situation-mcq-05",
-        "situation-mcq-02",
+        "situation-mcq-22",
         "situation-mcq-06",
-        "situation-mcq-01"
+        "situation-mcq-05"
       ],
       "explanation": "本句的「awkward situation」指「尷尬局面」。",
       "sentenceIndex": 7,
@@ -770,12 +752,10 @@ export default {
         "awkward situation"
       ],
       "optionReasons": {
-        "situation-mcq-04": "本句指「尷尬局面」。",
-        "situation-mcq-03": "「困難處境」與本句語境不同。",
-        "situation-mcq-05": "「嚴重情況」與本句語境不同。",
-        "situation-mcq-02": "「在這種情況下」與本句語境不同。",
-        "situation-mcq-06": "「目前情況」與本句語境不同。",
-        "situation-mcq-01": "「情況；局面」與本句語境不同。"
+        "situation-mcq-04": "本句的「awkward situation」指「尷尬局面」。",
+        "situation-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-04"
     },
@@ -787,11 +767,9 @@ export default {
       "masked": "I didn't know what to say in the ____.",
       "options": [
         "situation-mcq-04",
-        "situation-mcq-03",
+        "situation-mcq-08",
         "situation-mcq-05",
-        "situation-mcq-02",
-        "situation-mcq-06",
-        "situation-mcq-01"
+        "situation-mcq-06"
       ],
       "explanation": "本句的「awkward situation」指「尷尬局面」。",
       "sentenceIndex": 8,
@@ -800,12 +778,10 @@ export default {
         "awkward situation"
       ],
       "optionReasons": {
-        "situation-mcq-04": "本句指「尷尬局面」。",
-        "situation-mcq-03": "「困難處境」與本句語境不同。",
-        "situation-mcq-05": "「嚴重情況」與本句語境不同。",
-        "situation-mcq-02": "「在這種情況下」與本句語境不同。",
-        "situation-mcq-06": "「目前情況」與本句語境不同。",
-        "situation-mcq-01": "「情況；局面」與本句語境不同。"
+        "situation-mcq-04": "本句的「awkward situation」指「尷尬局面」。",
+        "situation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-04"
     },
@@ -817,11 +793,9 @@ export default {
       "masked": "This is a ____.",
       "options": [
         "situation-mcq-05",
-        "situation-mcq-04",
-        "situation-mcq-06",
-        "situation-mcq-03",
-        "situation-mcq-07",
-        "situation-mcq-02"
+        "situation-mcq-21",
+        "situation-mcq-19",
+        "situation-mcq-01"
       ],
       "explanation": "本句的「serious situation」指「嚴重情況」。",
       "sentenceIndex": 9,
@@ -830,12 +804,10 @@ export default {
         "serious situation"
       ],
       "optionReasons": {
-        "situation-mcq-05": "本句指「嚴重情況」。",
-        "situation-mcq-04": "「尷尬局面」與本句語境不同。",
-        "situation-mcq-06": "「目前情況」與本句語境不同。",
-        "situation-mcq-03": "「困難處境」與本句語境不同。",
-        "situation-mcq-07": "「財務狀況」與本句語境不同。",
-        "situation-mcq-02": "「在這種情況下」與本句語境不同。"
+        "situation-mcq-05": "本句的「serious situation」指「嚴重情況」。",
+        "situation-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-05"
     },
@@ -847,11 +819,9 @@ export default {
       "masked": "The manager realized how ____ was.",
       "options": [
         "situation-mcq-05",
-        "situation-mcq-04",
-        "situation-mcq-06",
-        "situation-mcq-03",
-        "situation-mcq-07",
-        "situation-mcq-02"
+        "situation-mcq-11",
+        "situation-mcq-02",
+        "situation-mcq-21"
       ],
       "explanation": "本句的「serious the situation」指「嚴重情況」。",
       "sentenceIndex": 10,
@@ -860,12 +830,10 @@ export default {
         "serious the situation"
       ],
       "optionReasons": {
-        "situation-mcq-05": "本句指「嚴重情況」。",
-        "situation-mcq-04": "「尷尬局面」與本句語境不同。",
-        "situation-mcq-06": "「目前情況」與本句語境不同。",
-        "situation-mcq-03": "「困難處境」與本句語境不同。",
-        "situation-mcq-07": "「財務狀況」與本句語境不同。",
-        "situation-mcq-02": "「在這種情況下」與本句語境不同。"
+        "situation-mcq-05": "本句的「serious the situation」指「嚴重情況」。",
+        "situation-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-05"
     },
@@ -878,10 +846,8 @@ export default {
       "options": [
         "situation-mcq-06",
         "situation-mcq-05",
-        "situation-mcq-07",
-        "situation-mcq-04",
-        "situation-mcq-08",
-        "situation-mcq-03"
+        "situation-mcq-12",
+        "situation-mcq-22"
       ],
       "explanation": "本句的「current situation」指「目前情況」。",
       "sentenceIndex": 11,
@@ -890,12 +856,10 @@ export default {
         "current situation"
       ],
       "optionReasons": {
-        "situation-mcq-06": "本句指「目前情況」。",
-        "situation-mcq-05": "「嚴重情況」與本句語境不同。",
-        "situation-mcq-07": "「財務狀況」與本句語境不同。",
-        "situation-mcq-04": "「尷尬局面」與本句語境不同。",
-        "situation-mcq-08": "「家庭狀況」與本句語境不同。",
-        "situation-mcq-03": "「困難處境」與本句語境不同。"
+        "situation-mcq-06": "本句的「current situation」指「目前情況」。",
+        "situation-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-06"
     },
@@ -907,11 +871,9 @@ export default {
       "masked": "The ____ is much better than before.",
       "options": [
         "situation-mcq-06",
-        "situation-mcq-05",
-        "situation-mcq-07",
-        "situation-mcq-04",
-        "situation-mcq-08",
-        "situation-mcq-03"
+        "situation-mcq-19",
+        "situation-mcq-14",
+        "situation-mcq-15"
       ],
       "explanation": "本句的「current situation」指「目前情況」。",
       "sentenceIndex": 12,
@@ -920,12 +882,10 @@ export default {
         "current situation"
       ],
       "optionReasons": {
-        "situation-mcq-06": "本句指「目前情況」。",
-        "situation-mcq-05": "「嚴重情況」與本句語境不同。",
-        "situation-mcq-07": "「財務狀況」與本句語境不同。",
-        "situation-mcq-04": "「尷尬局面」與本句語境不同。",
-        "situation-mcq-08": "「家庭狀況」與本句語境不同。",
-        "situation-mcq-03": "「困難處境」與本句語境不同。"
+        "situation-mcq-06": "本句的「current situation」指「目前情況」。",
+        "situation-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-06"
     },
@@ -937,11 +897,9 @@ export default {
       "masked": "Their ____ improved.",
       "options": [
         "situation-mcq-07",
-        "situation-mcq-06",
-        "situation-mcq-08",
-        "situation-mcq-05",
-        "situation-mcq-09",
-        "situation-mcq-04"
+        "situation-mcq-11",
+        "situation-mcq-01",
+        "situation-mcq-14"
       ],
       "explanation": "本句的「financial situation」指「財務狀況」。",
       "sentenceIndex": 13,
@@ -950,12 +908,10 @@ export default {
         "financial situation"
       ],
       "optionReasons": {
-        "situation-mcq-07": "本句指「財務狀況」。",
-        "situation-mcq-06": "「目前情況」與本句語境不同。",
-        "situation-mcq-08": "「家庭狀況」與本句語境不同。",
-        "situation-mcq-05": "「嚴重情況」與本句語境不同。",
-        "situation-mcq-09": "「工作處境」與本句語境不同。",
-        "situation-mcq-04": "「尷尬局面」與本句語境不同。"
+        "situation-mcq-07": "本句的「financial situation」指「財務狀況」。",
+        "situation-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-07"
     },
@@ -967,11 +923,9 @@ export default {
       "masked": "He explained his ____ to the bank.",
       "options": [
         "situation-mcq-07",
-        "situation-mcq-06",
-        "situation-mcq-08",
-        "situation-mcq-05",
-        "situation-mcq-09",
-        "situation-mcq-04"
+        "situation-mcq-20",
+        "situation-mcq-18",
+        "situation-mcq-03"
       ],
       "explanation": "本句的「financial situation」指「財務狀況」。",
       "sentenceIndex": 14,
@@ -980,12 +934,10 @@ export default {
         "financial situation"
       ],
       "optionReasons": {
-        "situation-mcq-07": "本句指「財務狀況」。",
-        "situation-mcq-06": "「目前情況」與本句語境不同。",
-        "situation-mcq-08": "「家庭狀況」與本句語境不同。",
-        "situation-mcq-05": "「嚴重情況」與本句語境不同。",
-        "situation-mcq-09": "「工作處境」與本句語境不同。",
-        "situation-mcq-04": "「尷尬局面」與本句語境不同。"
+        "situation-mcq-07": "本句的「financial situation」指「財務狀況」。",
+        "situation-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-07"
     },
@@ -997,11 +949,9 @@ export default {
       "masked": "The teacher understood her ____.",
       "options": [
         "situation-mcq-08",
-        "situation-mcq-07",
-        "situation-mcq-09",
-        "situation-mcq-06",
-        "situation-mcq-10",
-        "situation-mcq-05"
+        "situation-mcq-11",
+        "situation-mcq-18",
+        "situation-mcq-10"
       ],
       "explanation": "本句的「family situation」指「家庭狀況」。",
       "sentenceIndex": 15,
@@ -1010,12 +960,10 @@ export default {
         "family situation"
       ],
       "optionReasons": {
-        "situation-mcq-08": "本句指「家庭狀況」。",
-        "situation-mcq-07": "「財務狀況」與本句語境不同。",
-        "situation-mcq-09": "「工作處境」與本句語境不同。",
-        "situation-mcq-06": "「目前情況」與本句語境不同。",
-        "situation-mcq-10": "「處理局面」與本句語境不同。",
-        "situation-mcq-05": "「嚴重情況」與本句語境不同。"
+        "situation-mcq-08": "本句的「family situation」指「家庭狀況」。",
+        "situation-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-08"
     },
@@ -1027,11 +975,9 @@ export default {
       "masked": "His ____ made travel difficult.",
       "options": [
         "situation-mcq-08",
-        "situation-mcq-07",
-        "situation-mcq-09",
-        "situation-mcq-06",
-        "situation-mcq-10",
-        "situation-mcq-05"
+        "situation-mcq-18",
+        "situation-mcq-16",
+        "situation-mcq-21"
       ],
       "explanation": "本句的「family situation」指「家庭狀況」。",
       "sentenceIndex": 16,
@@ -1040,12 +986,10 @@ export default {
         "family situation"
       ],
       "optionReasons": {
-        "situation-mcq-08": "本句指「家庭狀況」。",
-        "situation-mcq-07": "「財務狀況」與本句語境不同。",
-        "situation-mcq-09": "「工作處境」與本句語境不同。",
-        "situation-mcq-06": "「目前情況」與本句語境不同。",
-        "situation-mcq-10": "「處理局面」與本句語境不同。",
-        "situation-mcq-05": "「嚴重情況」與本句語境不同。"
+        "situation-mcq-08": "本句的「family situation」指「家庭狀況」。",
+        "situation-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-08"
     },
@@ -1057,10 +1001,8 @@ export default {
       "masked": "My ____ has changed recently.",
       "options": [
         "situation-mcq-09",
-        "situation-mcq-08",
-        "situation-mcq-10",
-        "situation-mcq-07",
-        "situation-mcq-11",
+        "situation-mcq-16",
+        "situation-mcq-20",
         "situation-mcq-06"
       ],
       "explanation": "本句的「work situation」指「工作處境」。",
@@ -1070,12 +1012,10 @@ export default {
         "work situation"
       ],
       "optionReasons": {
-        "situation-mcq-09": "本句指「工作處境」。",
-        "situation-mcq-08": "「家庭狀況」與本句語境不同。",
-        "situation-mcq-10": "「處理局面」與本句語境不同。",
-        "situation-mcq-07": "「財務狀況」與本句語境不同。",
-        "situation-mcq-11": "「應付情況」與本句語境不同。",
-        "situation-mcq-06": "「目前情況」與本句語境不同。"
+        "situation-mcq-09": "本句的「work situation」指「工作處境」。",
+        "situation-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-09"
     },
@@ -1087,11 +1027,9 @@ export default {
       "masked": "She wanted to improve her ____.",
       "options": [
         "situation-mcq-09",
-        "situation-mcq-08",
-        "situation-mcq-10",
-        "situation-mcq-07",
-        "situation-mcq-11",
-        "situation-mcq-06"
+        "situation-mcq-16",
+        "situation-mcq-14",
+        "situation-mcq-11"
       ],
       "explanation": "本句的「work situation」指「工作處境」。",
       "sentenceIndex": 18,
@@ -1100,12 +1038,10 @@ export default {
         "work situation"
       ],
       "optionReasons": {
-        "situation-mcq-09": "本句指「工作處境」。",
-        "situation-mcq-08": "「家庭狀況」與本句語境不同。",
-        "situation-mcq-10": "「處理局面」與本句語境不同。",
-        "situation-mcq-07": "「財務狀況」與本句語境不同。",
-        "situation-mcq-11": "「應付情況」與本句語境不同。",
-        "situation-mcq-06": "「目前情況」與本句語境不同。"
+        "situation-mcq-09": "本句的「work situation」指「工作處境」。",
+        "situation-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-09"
     },
@@ -1117,11 +1053,9 @@ export default {
       "masked": "She ____ calmly.",
       "options": [
         "situation-mcq-10",
-        "situation-mcq-09",
-        "situation-mcq-11",
-        "situation-mcq-08",
+        "situation-mcq-07",
         "situation-mcq-12",
-        "situation-mcq-07"
+        "situation-mcq-14"
       ],
       "explanation": "本句的「handled the situation」指「處理局面」。",
       "sentenceIndex": 19,
@@ -1130,12 +1064,10 @@ export default {
         "handled the situation"
       ],
       "optionReasons": {
-        "situation-mcq-10": "本句指「處理局面」。",
-        "situation-mcq-09": "「工作處境」與本句語境不同。",
-        "situation-mcq-11": "「應付情況」與本句語境不同。",
-        "situation-mcq-08": "「家庭狀況」與本句語境不同。",
-        "situation-mcq-12": "「改善情況」與本句語境不同。",
-        "situation-mcq-07": "「財務狀況」與本句語境不同。"
+        "situation-mcq-10": "本句的「handled the situation」指「處理局面」。",
+        "situation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-10"
     },
@@ -1147,11 +1079,9 @@ export default {
       "masked": "He didn't know how to ____.",
       "options": [
         "situation-mcq-10",
-        "situation-mcq-09",
-        "situation-mcq-11",
+        "situation-mcq-05",
         "situation-mcq-08",
-        "situation-mcq-12",
-        "situation-mcq-07"
+        "situation-mcq-23"
       ],
       "explanation": "本句的「handle the situation」指「處理局面」。",
       "sentenceIndex": 20,
@@ -1160,12 +1090,10 @@ export default {
         "handle the situation"
       ],
       "optionReasons": {
-        "situation-mcq-10": "本句指「處理局面」。",
-        "situation-mcq-09": "「工作處境」與本句語境不同。",
-        "situation-mcq-11": "「應付情況」與本句語境不同。",
-        "situation-mcq-08": "「家庭狀況」與本句語境不同。",
-        "situation-mcq-12": "「改善情況」與本句語境不同。",
-        "situation-mcq-07": "「財務狀況」與本句語境不同。"
+        "situation-mcq-10": "本句的「handle the situation」指「處理局面」。",
+        "situation-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-10"
     },
@@ -1177,11 +1105,9 @@ export default {
       "masked": "We need to ____ quickly.",
       "options": [
         "situation-mcq-11",
-        "situation-mcq-10",
-        "situation-mcq-12",
-        "situation-mcq-09",
-        "situation-mcq-13",
-        "situation-mcq-08"
+        "situation-mcq-05",
+        "situation-mcq-06",
+        "situation-mcq-03"
       ],
       "explanation": "本句的「deal with the situation」指「應付情況」。",
       "sentenceIndex": 21,
@@ -1190,12 +1116,10 @@ export default {
         "deal with the situation"
       ],
       "optionReasons": {
-        "situation-mcq-11": "本句指「應付情況」。",
-        "situation-mcq-10": "「處理局面」與本句語境不同。",
-        "situation-mcq-12": "「改善情況」與本句語境不同。",
-        "situation-mcq-09": "「工作處境」與本句語境不同。",
-        "situation-mcq-13": "「修補局面」與本句語境不同。",
-        "situation-mcq-08": "「家庭狀況」與本句語境不同。"
+        "situation-mcq-11": "本句的「deal with the situation」指「應付情況」。",
+        "situation-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-11"
     },
@@ -1207,11 +1131,9 @@ export default {
       "masked": "She is good at ____.",
       "options": [
         "situation-mcq-11",
-        "situation-mcq-10",
+        "situation-mcq-08",
         "situation-mcq-12",
-        "situation-mcq-09",
-        "situation-mcq-13",
-        "situation-mcq-08"
+        "situation-mcq-24"
       ],
       "explanation": "本句的「dealing with difficult situations」指「應付情況」。",
       "sentenceIndex": 22,
@@ -1220,12 +1142,10 @@ export default {
         "dealing with difficult situations"
       ],
       "optionReasons": {
-        "situation-mcq-11": "本句指「應付情況」。",
-        "situation-mcq-10": "「處理局面」與本句語境不同。",
-        "situation-mcq-12": "「改善情況」與本句語境不同。",
-        "situation-mcq-09": "「工作處境」與本句語境不同。",
-        "situation-mcq-13": "「修補局面」與本句語境不同。",
-        "situation-mcq-08": "「家庭狀況」與本句語境不同。"
+        "situation-mcq-11": "本句的「dealing with difficult situations」指「應付情況」。",
+        "situation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-11"
     },
@@ -1237,11 +1157,9 @@ export default {
       "masked": "Better communication could ____.",
       "options": [
         "situation-mcq-12",
-        "situation-mcq-11",
-        "situation-mcq-13",
-        "situation-mcq-10",
-        "situation-mcq-14",
-        "situation-mcq-09"
+        "situation-mcq-20",
+        "situation-mcq-08",
+        "situation-mcq-18"
       ],
       "explanation": "本句的「improve the situation」指「改善情況」。",
       "sentenceIndex": 23,
@@ -1250,12 +1168,10 @@ export default {
         "improve the situation"
       ],
       "optionReasons": {
-        "situation-mcq-12": "本句指「改善情況」。",
-        "situation-mcq-11": "「應付情況」與本句語境不同。",
-        "situation-mcq-13": "「修補局面」與本句語境不同。",
-        "situation-mcq-10": "「處理局面」與本句語境不同。",
-        "situation-mcq-14": "「令情況惡化」與本句語境不同。",
-        "situation-mcq-09": "「工作處境」與本句語境不同。"
+        "situation-mcq-12": "本句的「improve the situation」指「改善情況」。",
+        "situation-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-12"
     },
@@ -1267,11 +1183,9 @@ export default {
       "masked": "Nothing seemed to ____.",
       "options": [
         "situation-mcq-12",
-        "situation-mcq-11",
-        "situation-mcq-13",
-        "situation-mcq-10",
-        "situation-mcq-14",
-        "situation-mcq-09"
+        "situation-mcq-15",
+        "situation-mcq-04",
+        "situation-mcq-14"
       ],
       "explanation": "本句的「improve the situation」指「改善情況」。",
       "sentenceIndex": 24,
@@ -1280,12 +1194,10 @@ export default {
         "improve the situation"
       ],
       "optionReasons": {
-        "situation-mcq-12": "本句指「改善情況」。",
-        "situation-mcq-11": "「應付情況」與本句語境不同。",
-        "situation-mcq-13": "「修補局面」與本句語境不同。",
-        "situation-mcq-10": "「處理局面」與本句語境不同。",
-        "situation-mcq-14": "「令情況惡化」與本句語境不同。",
-        "situation-mcq-09": "「工作處境」與本句語境不同。"
+        "situation-mcq-12": "本句的「improve the situation」指「改善情況」。",
+        "situation-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-12"
     },
@@ -1297,11 +1209,9 @@ export default {
       "masked": "Arguing would only ____.",
       "options": [
         "situation-mcq-14",
-        "situation-mcq-13",
-        "situation-mcq-15",
-        "situation-mcq-12",
-        "situation-mcq-16",
-        "situation-mcq-11"
+        "situation-mcq-23",
+        "situation-reviewed-19d8f6d912",
+        "situation-mcq-01"
       ],
       "explanation": "本句的「make the situation worse」指「令情況惡化」。",
       "sentenceIndex": 25,
@@ -1310,12 +1220,10 @@ export default {
         "make the situation worse"
       ],
       "optionReasons": {
-        "situation-mcq-14": "本句指「令情況惡化」。",
-        "situation-mcq-13": "「修補局面」與本句語境不同。",
-        "situation-mcq-15": "「了解情況」與本句語境不同。",
-        "situation-mcq-12": "「改善情況」與本句語境不同。",
-        "situation-mcq-16": "「情況改變」與本句語境不同。",
-        "situation-mcq-11": "「應付情況」與本句語境不同。"
+        "situation-mcq-14": "本句的「make the situation worse」指「令情況惡化」。",
+        "situation-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "situation-reviewed-19d8f6d912": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-14"
     },
@@ -1327,11 +1235,9 @@ export default {
       "masked": "His public criticism ____.",
       "options": [
         "situation-mcq-14",
-        "situation-mcq-13",
-        "situation-mcq-15",
-        "situation-mcq-12",
-        "situation-mcq-16",
-        "situation-mcq-11"
+        "situation-mcq-09",
+        "situation-mcq-19",
+        "situation-mcq-12"
       ],
       "explanation": "本句的「made the situation worse」指「令情況惡化」。",
       "sentenceIndex": 26,
@@ -1340,12 +1246,10 @@ export default {
         "made the situation worse"
       ],
       "optionReasons": {
-        "situation-mcq-14": "本句指「令情況惡化」。",
-        "situation-mcq-13": "「修補局面」與本句語境不同。",
-        "situation-mcq-15": "「了解情況」與本句語境不同。",
-        "situation-mcq-12": "「改善情況」與本句語境不同。",
-        "situation-mcq-16": "「情況改變」與本句語境不同。",
-        "situation-mcq-11": "「應付情況」與本句語境不同。"
+        "situation-mcq-14": "本句的「made the situation worse」指「令情況惡化」。",
+        "situation-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-14"
     },
@@ -1357,10 +1261,8 @@ export default {
       "masked": "He finally ____.",
       "options": [
         "situation-mcq-15",
-        "situation-mcq-14",
-        "situation-mcq-16",
-        "situation-mcq-13",
-        "situation-mcq-17",
+        "situation-mcq-05",
+        "situation-mcq-19",
         "situation-mcq-12"
       ],
       "explanation": "本句的「understood the situation」指「了解情況」。",
@@ -1370,12 +1272,10 @@ export default {
         "understood the situation"
       ],
       "optionReasons": {
-        "situation-mcq-15": "本句指「了解情況」。",
-        "situation-mcq-14": "「令情況惡化」與本句語境不同。",
-        "situation-mcq-16": "「情況改變」與本句語境不同。",
-        "situation-mcq-13": "「修補局面」與本句語境不同。",
-        "situation-mcq-17": "「位置；地勢」與本句語境不同。",
-        "situation-mcq-12": "「改善情況」與本句語境不同。"
+        "situation-mcq-15": "本句的「understood the situation」指「了解情況」。",
+        "situation-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-15"
     },
@@ -1387,11 +1287,9 @@ export default {
       "masked": "You need all the facts to ____ properly.",
       "options": [
         "situation-mcq-15",
-        "situation-mcq-14",
-        "situation-mcq-16",
-        "situation-mcq-13",
-        "situation-mcq-17",
-        "situation-mcq-12"
+        "situation-mcq-19",
+        "situation-reviewed-19d8f6d912",
+        "situation-mcq-07"
       ],
       "explanation": "本句的「understand the situation」指「了解情況」。",
       "sentenceIndex": 28,
@@ -1400,12 +1298,10 @@ export default {
         "understand the situation"
       ],
       "optionReasons": {
-        "situation-mcq-15": "本句指「了解情況」。",
-        "situation-mcq-14": "「令情況惡化」與本句語境不同。",
-        "situation-mcq-16": "「情況改變」與本句語境不同。",
-        "situation-mcq-13": "「修補局面」與本句語境不同。",
-        "situation-mcq-17": "「位置；地勢」與本句語境不同。",
-        "situation-mcq-12": "「改善情況」與本句語境不同。"
+        "situation-mcq-15": "本句的「understand the situation」指「了解情況」。",
+        "situation-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "situation-reviewed-19d8f6d912": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-15"
     },
@@ -1417,11 +1313,9 @@ export default {
       "masked": "The ____ after his apology.",
       "options": [
         "situation-mcq-16",
-        "situation-mcq-15",
-        "situation-mcq-17",
-        "situation-mcq-14",
-        "situation-mcq-18",
-        "situation-mcq-13"
+        "situation-mcq-20",
+        "situation-mcq-01",
+        "situation-mcq-05"
       ],
       "explanation": "本句的「situation changed」指「情況改變」。",
       "sentenceIndex": 29,
@@ -1430,12 +1324,10 @@ export default {
         "situation changed"
       ],
       "optionReasons": {
-        "situation-mcq-16": "本句指「情況改變」。",
-        "situation-mcq-15": "「了解情況」與本句語境不同。",
-        "situation-mcq-17": "「位置；地勢」與本句語境不同。",
-        "situation-mcq-14": "「令情況惡化」與本句語境不同。",
-        "situation-mcq-18": "「位於；坐落於」與本句語境不同。",
-        "situation-mcq-13": "「修補局面」與本句語境不同。"
+        "situation-mcq-16": "本句的「situation changed」指「情況改變」。",
+        "situation-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-16"
     },
@@ -1447,11 +1339,9 @@ export default {
       "masked": "We will adjust the plan if the ____.",
       "options": [
         "situation-mcq-16",
-        "situation-mcq-15",
-        "situation-mcq-17",
-        "situation-mcq-14",
-        "situation-mcq-18",
-        "situation-mcq-13"
+        "situation-mcq-04",
+        "situation-mcq-02",
+        "situation-mcq-07"
       ],
       "explanation": "本句的「situation changes」指「情況改變」。",
       "sentenceIndex": 30,
@@ -1460,74 +1350,68 @@ export default {
         "situation changes"
       ],
       "optionReasons": {
-        "situation-mcq-16": "本句指「情況改變」。",
-        "situation-mcq-15": "「了解情況」與本句語境不同。",
-        "situation-mcq-17": "「位置；地勢」與本句語境不同。",
-        "situation-mcq-14": "「令情況惡化」與本句語境不同。",
-        "situation-mcq-18": "「位於；坐落於」與本句語境不同。",
-        "situation-mcq-13": "「修補局面」與本句語境不同。"
+        "situation-mcq-16": "本句的「situation changes」指「情況改變」。",
+        "situation-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-16"
     },
     {
       "id": "situation-16-0",
-      "sense": "situation-mcq-16",
+      "sense": "situation-reviewed-19d8f6d912",
       "en": "I wouldn't want to be in his situation.",
       "zh": "我不想處於他的處境。",
       "masked": "I wouldn't want to be in his ____.",
       "options": [
-        "situation-mcq-16",
-        "situation-mcq-15",
-        "situation-mcq-17",
+        "situation-reviewed-19d8f6d912",
+        "situation-mcq-24",
         "situation-mcq-14",
-        "situation-mcq-18",
-        "situation-mcq-13"
+        "situation-mcq-01"
       ],
-      "explanation": "本句的「situation」指「情況改變」。",
+      "explanation": "對照完整句子：「我不想處於他的處境。」。這裡的「situation」表示「某人當時所處的生活、工作或人際條件」。",
       "sentenceIndex": 31,
       "sourcePractice": 1,
       "targets": [
         "situation"
       ],
       "optionReasons": {
-        "situation-mcq-16": "本句指「情況改變」。",
-        "situation-mcq-15": "「了解情況」與本句語境不同。",
-        "situation-mcq-17": "「位置；地勢」與本句語境不同。",
-        "situation-mcq-14": "「令情況惡化」與本句語境不同。",
-        "situation-mcq-18": "「位於；坐落於」與本句語境不同。",
-        "situation-mcq-13": "「修補局面」與本句語境不同。"
+        "situation-reviewed-19d8f6d912": "對照完整句子：「我不想處於他的處境。」。這裡的「situation」表示「某人當時所處的生活、工作或人際條件」。",
+        "situation-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "situation-mcq-16"
+      "correctOption": "situation-reviewed-19d8f6d912",
+      "previousCorrectOption": "situation-mcq-16",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "situation-16-1",
-      "sense": "situation-mcq-16",
+      "sense": "situation-reviewed-19d8f6d912",
       "en": "Try to see the problem from her situation.",
       "zh": "試着從她的處境理解問題。",
       "masked": "Try to see the problem from her ____.",
       "options": [
+        "situation-reviewed-19d8f6d912",
+        "situation-mcq-07",
         "situation-mcq-16",
-        "situation-mcq-15",
-        "situation-mcq-17",
-        "situation-mcq-14",
-        "situation-mcq-18",
-        "situation-mcq-13"
+        "situation-mcq-21"
       ],
-      "explanation": "本句的「situation」指「情況改變」。",
+      "explanation": "對照完整句子：「試着從她的處境理解問題。」。這裡的「situation」表示「某人當時所處的生活、工作或人際條件」。",
       "sentenceIndex": 32,
       "sourcePractice": 2,
       "targets": [
         "situation"
       ],
       "optionReasons": {
-        "situation-mcq-16": "本句指「情況改變」。",
-        "situation-mcq-15": "「了解情況」與本句語境不同。",
-        "situation-mcq-17": "「位置；地勢」與本句語境不同。",
-        "situation-mcq-14": "「令情況惡化」與本句語境不同。",
-        "situation-mcq-18": "「位於；坐落於」與本句語境不同。",
-        "situation-mcq-13": "「修補局面」與本句語境不同。"
+        "situation-reviewed-19d8f6d912": "對照完整句子：「試着從她的處境理解問題。」。這裡的「situation」表示「某人當時所處的生活、工作或人際條件」。",
+        "situation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "situation-mcq-16"
+      "correctOption": "situation-reviewed-19d8f6d912",
+      "previousCorrectOption": "situation-mcq-16",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "situation-18-0",
@@ -1537,11 +1421,9 @@ export default {
       "masked": "The hotel has a beautiful ____ overlooking the sea.",
       "options": [
         "situation-mcq-17",
-        "situation-mcq-16",
-        "situation-mcq-18",
-        "situation-mcq-15",
-        "situation-mcq-19",
-        "situation-mcq-14"
+        "situation-mcq-02",
+        "situation-mcq-22",
+        "situation-mcq-10"
       ],
       "explanation": "本句的「situation」指「位置；地勢」。",
       "sentenceIndex": 35,
@@ -1550,12 +1432,10 @@ export default {
         "situation"
       ],
       "optionReasons": {
-        "situation-mcq-17": "本句指「位置；地勢」。",
-        "situation-mcq-16": "「情況改變」與本句語境不同。",
-        "situation-mcq-18": "「位於；坐落於」與本句語境不同。",
-        "situation-mcq-15": "「了解情況」與本句語境不同。",
-        "situation-mcq-19": "「位置良好的」與本句語境不同。",
-        "situation-mcq-14": "「令情況惡化」與本句語境不同。"
+        "situation-mcq-17": "本句的「situation」指「位置；地勢」。",
+        "situation-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-17"
     },
@@ -1567,11 +1447,9 @@ export default {
       "masked": "The house enjoys a quiet ____ near the river.",
       "options": [
         "situation-mcq-17",
-        "situation-mcq-16",
-        "situation-mcq-18",
-        "situation-mcq-15",
-        "situation-mcq-19",
-        "situation-mcq-14"
+        "situation-mcq-05",
+        "situation-mcq-07",
+        "situation-mcq-04"
       ],
       "explanation": "本句的「situation」指「位置；地勢」。",
       "sentenceIndex": 36,
@@ -1580,12 +1458,10 @@ export default {
         "situation"
       ],
       "optionReasons": {
-        "situation-mcq-17": "本句指「位置；地勢」。",
-        "situation-mcq-16": "「情況改變」與本句語境不同。",
-        "situation-mcq-18": "「位於；坐落於」與本句語境不同。",
-        "situation-mcq-15": "「了解情況」與本句語境不同。",
-        "situation-mcq-19": "「位置良好的」與本句語境不同。",
-        "situation-mcq-14": "「令情況惡化」與本句語境不同。"
+        "situation-mcq-17": "本句的「situation」指「位置；地勢」。",
+        "situation-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-17"
     },
@@ -1597,11 +1473,9 @@ export default {
       "masked": "The library is ____.",
       "options": [
         "situation-mcq-18",
-        "situation-mcq-17",
-        "situation-mcq-19",
+        "situation-mcq-11",
         "situation-mcq-16",
-        "situation-mcq-20",
-        "situation-mcq-15"
+        "situation-mcq-09"
       ],
       "explanation": "本句的「situated near the station」指「位於；坐落於」。",
       "sentenceIndex": 37,
@@ -1610,12 +1484,10 @@ export default {
         "situated near the station"
       ],
       "optionReasons": {
-        "situation-mcq-18": "本句指「位於；坐落於」。",
-        "situation-mcq-17": "「位置；地勢」與本句語境不同。",
-        "situation-mcq-19": "「位置良好的」與本句語境不同。",
-        "situation-mcq-16": "「情況改變」與本句語境不同。",
-        "situation-mcq-20": "「把 X 放置於」與本句語境不同。",
-        "situation-mcq-15": "「了解情況」與本句語境不同。"
+        "situation-mcq-18": "本句的「situated near the station」指「位於；坐落於」。",
+        "situation-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-18"
     },
@@ -1627,11 +1499,9 @@ export default {
       "masked": "The hotel is ____.",
       "options": [
         "situation-mcq-18",
-        "situation-mcq-17",
-        "situation-mcq-19",
-        "situation-mcq-16",
-        "situation-mcq-20",
-        "situation-mcq-15"
+        "situation-mcq-08",
+        "situation-mcq-09",
+        "situation-mcq-05"
       ],
       "explanation": "本句的「situated in the city centre」指「位於；坐落於」。",
       "sentenceIndex": 38,
@@ -1640,12 +1510,10 @@ export default {
         "situated in the city centre"
       ],
       "optionReasons": {
-        "situation-mcq-18": "本句指「位於；坐落於」。",
-        "situation-mcq-17": "「位置；地勢」與本句語境不同。",
-        "situation-mcq-19": "「位置良好的」與本句語境不同。",
-        "situation-mcq-16": "「情況改變」與本句語境不同。",
-        "situation-mcq-20": "「把 X 放置於」與本句語境不同。",
-        "situation-mcq-15": "「了解情況」與本句語境不同。"
+        "situation-mcq-18": "本句的「situated in the city centre」指「位於；坐落於」。",
+        "situation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-18"
     },
@@ -1657,11 +1525,9 @@ export default {
       "masked": "The apartment is ____ for public transport.",
       "options": [
         "situation-mcq-19",
-        "situation-mcq-18",
-        "situation-mcq-20",
-        "situation-mcq-17",
-        "situation-mcq-21",
-        "situation-mcq-16"
+        "situation-mcq-06",
+        "situation-reviewed-19d8f6d912",
+        "situation-mcq-11"
       ],
       "explanation": "本句的「well-situated」指「位置良好的」。",
       "sentenceIndex": 39,
@@ -1670,12 +1536,10 @@ export default {
         "well-situated"
       ],
       "optionReasons": {
-        "situation-mcq-19": "本句指「位置良好的」。",
-        "situation-mcq-18": "「位於；坐落於」與本句語境不同。",
-        "situation-mcq-20": "「把 X 放置於」與本句語境不同。",
-        "situation-mcq-17": "「位置；地勢」與本句語境不同。",
-        "situation-mcq-21": "「放在脈絡中理解」與本句語境不同。",
-        "situation-mcq-16": "「情況改變」與本句語境不同。"
+        "situation-mcq-19": "本句的「well-situated」指「位置良好的」。",
+        "situation-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "situation-reviewed-19d8f6d912": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-19"
     },
@@ -1687,11 +1551,9 @@ export default {
       "masked": "The hotel is ____ near several attractions.",
       "options": [
         "situation-mcq-19",
-        "situation-mcq-18",
-        "situation-mcq-20",
-        "situation-mcq-17",
-        "situation-mcq-21",
-        "situation-mcq-16"
+        "situation-mcq-07",
+        "situation-mcq-02",
+        "situation-mcq-14"
       ],
       "explanation": "本句的「well-situated」指「位置良好的」。",
       "sentenceIndex": 40,
@@ -1700,12 +1562,10 @@ export default {
         "well-situated"
       ],
       "optionReasons": {
-        "situation-mcq-19": "本句指「位置良好的」。",
-        "situation-mcq-18": "「位於；坐落於」與本句語境不同。",
-        "situation-mcq-20": "「把 X 放置於」與本句語境不同。",
-        "situation-mcq-17": "「位置；地勢」與本句語境不同。",
-        "situation-mcq-21": "「放在脈絡中理解」與本句語境不同。",
-        "situation-mcq-16": "「情況改變」與本句語境不同。"
+        "situation-mcq-19": "本句的「well-situated」指「位置良好的」。",
+        "situation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-19"
     },
@@ -1717,11 +1577,9 @@ export default {
       "masked": "The building was ____ away from the main road.",
       "options": [
         "situation-mcq-20",
-        "situation-mcq-19",
-        "situation-mcq-21",
+        "situation-mcq-10",
         "situation-mcq-18",
-        "situation-mcq-22",
-        "situation-mcq-17"
+        "situation-mcq-15"
       ],
       "explanation": "本句的「situated」指「把 X 放置於」。",
       "sentenceIndex": 41,
@@ -1730,12 +1588,10 @@ export default {
         "situated"
       ],
       "optionReasons": {
-        "situation-mcq-20": "本句指「把 X 放置於」。",
-        "situation-mcq-19": "「位置良好的」與本句語境不同。",
-        "situation-mcq-21": "「放在脈絡中理解」與本句語境不同。",
-        "situation-mcq-18": "「位於；坐落於」與本句語境不同。",
-        "situation-mcq-22": "「情境性的」與本句語境不同。",
-        "situation-mcq-17": "「位置；地勢」與本句語境不同。"
+        "situation-mcq-20": "本句的「situated」指「把 X 放置於」。",
+        "situation-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-20"
     },
@@ -1747,11 +1603,9 @@ export default {
       "masked": "The desk should be ____.",
       "options": [
         "situation-mcq-20",
-        "situation-mcq-19",
-        "situation-mcq-21",
-        "situation-mcq-18",
-        "situation-mcq-22",
-        "situation-mcq-17"
+        "situation-mcq-12",
+        "situation-mcq-15",
+        "situation-mcq-11"
       ],
       "explanation": "本句的「situated near the window」指「把 X 放置於」。",
       "sentenceIndex": 42,
@@ -1760,12 +1614,10 @@ export default {
         "situated near the window"
       ],
       "optionReasons": {
-        "situation-mcq-20": "本句指「把 X 放置於」。",
-        "situation-mcq-19": "「位置良好的」與本句語境不同。",
-        "situation-mcq-21": "「放在脈絡中理解」與本句語境不同。",
-        "situation-mcq-18": "「位於；坐落於」與本句語境不同。",
-        "situation-mcq-22": "「情境性的」與本句語境不同。",
-        "situation-mcq-17": "「位置；地勢」與本句語境不同。"
+        "situation-mcq-20": "本句的「situated near the window」指「把 X 放置於」。",
+        "situation-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-20"
     },
@@ -1777,11 +1629,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "situation-mcq-21",
-        "situation-mcq-20",
-        "situation-mcq-22",
-        "situation-mcq-19",
-        "situation-mcq-23",
-        "situation-mcq-18"
+        "situation-mcq-03",
+        "situation-mcq-11",
+        "situation-mcq-04"
       ],
       "explanation": "本句的「situate the event in its historical context」指「放在脈絡中理解」。",
       "sentenceIndex": 43,
@@ -1790,12 +1640,10 @@ export default {
         "situate the event in its historical context"
       ],
       "optionReasons": {
-        "situation-mcq-21": "本句指「放在脈絡中理解」。",
-        "situation-mcq-20": "「把 X 放置於」與本句語境不同。",
-        "situation-mcq-22": "「情境性的」與本句語境不同。",
-        "situation-mcq-19": "「位置良好的」與本句語境不同。",
-        "situation-mcq-23": "「情境因素」與本句語境不同。",
-        "situation-mcq-18": "「位於；坐落於」與本句語境不同。"
+        "situation-mcq-21": "本句的「situate the event in its historical context」指「放在脈絡中理解」。",
+        "situation-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-21"
     },
@@ -1807,11 +1655,9 @@ export default {
       "masked": "The report ____.",
       "options": [
         "situation-mcq-21",
-        "situation-mcq-20",
-        "situation-mcq-22",
-        "situation-mcq-19",
-        "situation-mcq-23",
-        "situation-mcq-18"
+        "situation-mcq-04",
+        "situation-mcq-09",
+        "situation-mcq-05"
       ],
       "explanation": "本句的「situates the problem within a broader social context」指「放在脈絡中理解」。",
       "sentenceIndex": 44,
@@ -1820,12 +1666,10 @@ export default {
         "situates the problem within a broader social context"
       ],
       "optionReasons": {
-        "situation-mcq-21": "本句指「放在脈絡中理解」。",
-        "situation-mcq-20": "「把 X 放置於」與本句語境不同。",
-        "situation-mcq-22": "「情境性的」與本句語境不同。",
-        "situation-mcq-19": "「位置良好的」與本句語境不同。",
-        "situation-mcq-23": "「情境因素」與本句語境不同。",
-        "situation-mcq-18": "「位於；坐落於」與本句語境不同。"
+        "situation-mcq-21": "本句的「situates the problem within a broader social context」指「放在脈絡中理解」。",
+        "situation-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-21"
     },
@@ -1837,11 +1681,9 @@ export default {
       "masked": "His reaction was ____, not typical of his personality.",
       "options": [
         "situation-mcq-22",
-        "situation-mcq-21",
-        "situation-mcq-23",
-        "situation-mcq-20",
-        "situation-mcq-24",
-        "situation-mcq-19"
+        "situation-mcq-01",
+        "situation-mcq-14",
+        "situation-mcq-16"
       ],
       "explanation": "本句的「situational」指「情境性的」。",
       "sentenceIndex": 45,
@@ -1850,12 +1692,10 @@ export default {
         "situational"
       ],
       "optionReasons": {
-        "situation-mcq-22": "本句指「情境性的」。",
-        "situation-mcq-21": "「放在脈絡中理解」與本句語境不同。",
-        "situation-mcq-23": "「情境因素」與本句語境不同。",
-        "situation-mcq-20": "「把 X 放置於」與本句語境不同。",
-        "situation-mcq-24": "「情境意識」與本句語境不同。",
-        "situation-mcq-19": "「位置良好的」與本句語境不同。"
+        "situation-mcq-22": "本句的「situational」指「情境性的」。",
+        "situation-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-22"
     },
@@ -1867,11 +1707,9 @@ export default {
       "masked": "Stress can be highly ____.",
       "options": [
         "situation-mcq-22",
-        "situation-mcq-21",
-        "situation-mcq-23",
-        "situation-mcq-20",
-        "situation-mcq-24",
-        "situation-mcq-19"
+        "situation-mcq-07",
+        "situation-mcq-05",
+        "situation-mcq-16"
       ],
       "explanation": "本句的「situational」指「情境性的」。",
       "sentenceIndex": 46,
@@ -1880,12 +1718,10 @@ export default {
         "situational"
       ],
       "optionReasons": {
-        "situation-mcq-22": "本句指「情境性的」。",
-        "situation-mcq-21": "「放在脈絡中理解」與本句語境不同。",
-        "situation-mcq-23": "「情境因素」與本句語境不同。",
-        "situation-mcq-20": "「把 X 放置於」與本句語境不同。",
-        "situation-mcq-24": "「情境意識」與本句語境不同。",
-        "situation-mcq-19": "「位置良好的」與本句語境不同。"
+        "situation-mcq-22": "本句的「situational」指「情境性的」。",
+        "situation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-22"
     },
@@ -1897,11 +1733,9 @@ export default {
       "masked": "Several ____ affected his judgment.",
       "options": [
         "situation-mcq-23",
-        "situation-mcq-22",
-        "situation-mcq-24",
-        "situation-mcq-21",
-        "situation-mcq-20",
-        "situation-mcq-19"
+        "situation-mcq-02",
+        "situation-mcq-15",
+        "situation-reviewed-19d8f6d912"
       ],
       "explanation": "本句的「situational factors」指「情境因素」。",
       "sentenceIndex": 47,
@@ -1910,12 +1744,10 @@ export default {
         "situational factors"
       ],
       "optionReasons": {
-        "situation-mcq-23": "本句指「情境因素」。",
-        "situation-mcq-22": "「情境性的」與本句語境不同。",
-        "situation-mcq-24": "「情境意識」與本句語境不同。",
-        "situation-mcq-21": "「放在脈絡中理解」與本句語境不同。",
-        "situation-mcq-20": "「把 X 放置於」與本句語境不同。",
-        "situation-mcq-19": "「位置良好的」與本句語境不同。"
+        "situation-mcq-23": "本句的「situational factors」指「情境因素」。",
+        "situation-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "situation-reviewed-19d8f6d912": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-23"
     },
@@ -1927,11 +1759,9 @@ export default {
       "masked": "We should consider both personal and ____.",
       "options": [
         "situation-mcq-23",
-        "situation-mcq-22",
-        "situation-mcq-24",
-        "situation-mcq-21",
-        "situation-mcq-20",
-        "situation-mcq-19"
+        "situation-mcq-05",
+        "situation-mcq-02",
+        "situation-mcq-04"
       ],
       "explanation": "本句的「situational factors」指「情境因素」。",
       "sentenceIndex": 48,
@@ -1940,12 +1770,10 @@ export default {
         "situational factors"
       ],
       "optionReasons": {
-        "situation-mcq-23": "本句指「情境因素」。",
-        "situation-mcq-22": "「情境性的」與本句語境不同。",
-        "situation-mcq-24": "「情境意識」與本句語境不同。",
-        "situation-mcq-21": "「放在脈絡中理解」與本句語境不同。",
-        "situation-mcq-20": "「把 X 放置於」與本句語境不同。",
-        "situation-mcq-19": "「位置良好的」與本句語境不同。"
+        "situation-mcq-23": "本句的「situational factors」指「情境因素」。",
+        "situation-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-23"
     },
@@ -1957,11 +1785,9 @@ export default {
       "masked": "Pilots need strong ____.",
       "options": [
         "situation-mcq-24",
-        "situation-mcq-23",
-        "situation-mcq-22",
-        "situation-mcq-21",
-        "situation-mcq-20",
-        "situation-mcq-19"
+        "situation-reviewed-19d8f6d912",
+        "situation-mcq-18",
+        "situation-mcq-02"
       ],
       "explanation": "本句的「situational awareness」指「情境意識」。",
       "sentenceIndex": 49,
@@ -1970,12 +1796,10 @@ export default {
         "situational awareness"
       ],
       "optionReasons": {
-        "situation-mcq-24": "本句指「情境意識」。",
-        "situation-mcq-23": "「情境因素」與本句語境不同。",
-        "situation-mcq-22": "「情境性的」與本句語境不同。",
-        "situation-mcq-21": "「放在脈絡中理解」與本句語境不同。",
-        "situation-mcq-20": "「把 X 放置於」與本句語境不同。",
-        "situation-mcq-19": "「位置良好的」與本句語境不同。"
+        "situation-mcq-24": "本句的「situational awareness」指「情境意識」。",
+        "situation-reviewed-19d8f6d912": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-24"
     },
@@ -1987,11 +1811,9 @@ export default {
       "masked": "Good ____ helps people respond quickly to danger.",
       "options": [
         "situation-mcq-24",
-        "situation-mcq-23",
-        "situation-mcq-22",
-        "situation-mcq-21",
-        "situation-mcq-20",
-        "situation-mcq-19"
+        "situation-mcq-04",
+        "situation-mcq-07",
+        "situation-mcq-14"
       ],
       "explanation": "本句的「situational awareness」指「情境意識」。",
       "sentenceIndex": 50,
@@ -2000,12 +1822,10 @@ export default {
         "situational awareness"
       ],
       "optionReasons": {
-        "situation-mcq-24": "本句指「情境意識」。",
-        "situation-mcq-23": "「情境因素」與本句語境不同。",
-        "situation-mcq-22": "「情境性的」與本句語境不同。",
-        "situation-mcq-21": "「放在脈絡中理解」與本句語境不同。",
-        "situation-mcq-20": "「把 X 放置於」與本句語境不同。",
-        "situation-mcq-19": "「位置良好的」與本句語境不同。"
+        "situation-mcq-24": "本句的「situational awareness」指「情境意識」。",
+        "situation-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "situation-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "situation-mcq-24"
     }
@@ -2017,5 +1837,7 @@ export default {
     "sha256": "63526f91de2d0a976712a09e2df49e7d546aca1ef76eec958adefab22c18b679",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

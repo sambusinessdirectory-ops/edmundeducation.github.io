@@ -573,11 +573,9 @@ export default {
       "masked": "I ____ the exam just before time was called.",
       "options": [
         "finish-mcq-01",
-        "finish-mcq-02",
-        "finish-mcq-03",
-        "finish-mcq-04",
-        "finish-mcq-05",
-        "finish-mcq-06"
+        "finish-mcq-14",
+        "finish-mcq-10",
+        "finish-mcq-04"
       ],
       "explanation": "本句的「finished」指「把工作、活動或任務做到結束；完成／做完」。",
       "sentenceIndex": 0,
@@ -586,12 +584,10 @@ export default {
         "finished"
       ],
       "optionReasons": {
-        "finish-mcq-01": "本句指「把工作、活動或任務做到結束；完成／做完」。",
-        "finish-mcq-02": "「把某項正在進行的活動做完」是「finish doing something」的用法，與本句語境不同。",
-        "finish-mcq-03": "「完成學業、課程或教育階段」是「finish school/course/university」的用法，與本句語境不同。",
-        "finish-mcq-04": "「把食物或飲料全部吃完／喝完」是「finish — eat/drink all」的用法，與本句語境不同。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。"
+        "finish-mcq-01": "本句的「finished」指「把工作、活動或任務做到結束；完成／做完」。",
+        "finish-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-01"
     },
@@ -603,11 +599,9 @@ export default {
       "masked": "She ____ her homework before dinner.",
       "options": [
         "finish-mcq-01",
-        "finish-mcq-02",
-        "finish-mcq-03",
-        "finish-mcq-04",
-        "finish-mcq-05",
-        "finish-mcq-06"
+        "finish-mcq-14",
+        "finish-mcq-10",
+        "finish-mcq-04"
       ],
       "explanation": "本句的「finished」指「把工作、活動或任務做到結束；完成／做完」。",
       "sentenceIndex": 1,
@@ -616,12 +610,10 @@ export default {
         "finished"
       ],
       "optionReasons": {
-        "finish-mcq-01": "本句指「把工作、活動或任務做到結束；完成／做完」。",
-        "finish-mcq-02": "「把某項正在進行的活動做完」是「finish doing something」的用法，與本句語境不同。",
-        "finish-mcq-03": "「完成學業、課程或教育階段」是「finish school/course/university」的用法，與本句語境不同。",
-        "finish-mcq-04": "「把食物或飲料全部吃完／喝完」是「finish — eat/drink all」的用法，與本句語境不同。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。"
+        "finish-mcq-01": "本句的「finished」指「把工作、活動或任務做到結束；完成／做完」。",
+        "finish-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-01"
     },
@@ -633,11 +625,9 @@ export default {
       "masked": "I need to ____ this report tonight.",
       "options": [
         "finish-mcq-01",
-        "finish-mcq-02",
-        "finish-mcq-03",
-        "finish-mcq-04",
-        "finish-mcq-05",
-        "finish-mcq-06"
+        "finish-mcq-14",
+        "finish-mcq-10",
+        "finish-mcq-04"
       ],
       "explanation": "本句的「finish」指「把工作、活動或任務做到結束；完成／做完」。",
       "sentenceIndex": 2,
@@ -646,12 +636,10 @@ export default {
         "finish"
       ],
       "optionReasons": {
-        "finish-mcq-01": "本句指「把工作、活動或任務做到結束；完成／做完」。",
-        "finish-mcq-02": "「把某項正在進行的活動做完」是「finish doing something」的用法，與本句語境不同。",
-        "finish-mcq-03": "「完成學業、課程或教育階段」是「finish school/course/university」的用法，與本句語境不同。",
-        "finish-mcq-04": "「把食物或飲料全部吃完／喝完」是「finish — eat/drink all」的用法，與本句語境不同。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。"
+        "finish-mcq-01": "本句的「finish」指「把工作、活動或任務做到結束；完成／做完」。",
+        "finish-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-01"
     },
@@ -663,11 +651,9 @@ export default {
       "masked": "She ____ the project ahead of schedule.",
       "options": [
         "finish-mcq-01",
-        "finish-mcq-02",
-        "finish-mcq-03",
-        "finish-mcq-04",
-        "finish-mcq-05",
-        "finish-mcq-06"
+        "finish-mcq-11",
+        "finish-mcq-10",
+        "finish-mcq-05"
       ],
       "explanation": "本句的「finished」指「把工作、活動或任務做到結束；完成／做完」。",
       "sentenceIndex": 3,
@@ -676,12 +662,10 @@ export default {
         "finished"
       ],
       "optionReasons": {
-        "finish-mcq-01": "本句指「把工作、活動或任務做到結束；完成／做完」。",
-        "finish-mcq-02": "「把某項正在進行的活動做完」是「finish doing something」的用法，與本句語境不同。",
-        "finish-mcq-03": "「完成學業、課程或教育階段」是「finish school/course/university」的用法，與本句語境不同。",
-        "finish-mcq-04": "「把食物或飲料全部吃完／喝完」是「finish — eat/drink all」的用法，與本句語境不同。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。"
+        "finish-mcq-01": "本句的「finished」指「把工作、活動或任務做到結束；完成／做完」。",
+        "finish-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-01"
     },
@@ -693,11 +677,9 @@ export default {
       "masked": "I ____ the book yesterday.",
       "options": [
         "finish-mcq-02",
-        "finish-mcq-01",
-        "finish-mcq-03",
-        "finish-mcq-04",
-        "finish-mcq-05",
-        "finish-mcq-06"
+        "finish-mcq-12",
+        "finish-mcq-07",
+        "finish-mcq-10"
       ],
       "explanation": "本句的「finished reading」指「把某項正在進行的活動做完」。",
       "sentenceIndex": 4,
@@ -706,12 +688,10 @@ export default {
         "finished reading"
       ],
       "optionReasons": {
-        "finish-mcq-02": "本句指「把某項正在進行的活動做完」。",
-        "finish-mcq-01": "「把工作、活動或任務做到結束；完成／做完」是「finish — complete a task/activity」的用法，與本句語境不同。",
-        "finish-mcq-03": "「完成學業、課程或教育階段」是「finish school/course/university」的用法，與本句語境不同。",
-        "finish-mcq-04": "「把食物或飲料全部吃完／喝完」是「finish — eat/drink all」的用法，與本句語境不同。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。"
+        "finish-mcq-02": "本句的「finished reading」指「把某項正在進行的活動做完」。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-02"
     },
@@ -723,11 +703,9 @@ export default {
       "masked": "He ____ the email.",
       "options": [
         "finish-mcq-02",
-        "finish-mcq-01",
-        "finish-mcq-03",
-        "finish-mcq-04",
-        "finish-mcq-05",
-        "finish-mcq-06"
+        "finish-mcq-14",
+        "finish-mcq-22",
+        "finish-mcq-10"
       ],
       "explanation": "本句的「finished writing」指「把某項正在進行的活動做完」。",
       "sentenceIndex": 5,
@@ -736,12 +714,10 @@ export default {
         "finished writing"
       ],
       "optionReasons": {
-        "finish-mcq-02": "本句指「把某項正在進行的活動做完」。",
-        "finish-mcq-01": "「把工作、活動或任務做到結束；完成／做完」是「finish — complete a task/activity」的用法，與本句語境不同。",
-        "finish-mcq-03": "「完成學業、課程或教育階段」是「finish school/course/university」的用法，與本句語境不同。",
-        "finish-mcq-04": "「把食物或飲料全部吃完／喝完」是「finish — eat/drink all」的用法，與本句語境不同。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。"
+        "finish-mcq-02": "本句的「finished writing」指「把某項正在進行的活動做完」。",
+        "finish-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-02"
     },
@@ -753,11 +729,9 @@ export default {
       "masked": "The class ____ at four.",
       "options": [
         "finish-mcq-03",
-        "finish-mcq-02",
-        "finish-mcq-04",
-        "finish-mcq-01",
-        "finish-mcq-05",
-        "finish-mcq-06"
+        "finish-mcq-10",
+        "finish-mcq-11",
+        "finish-mcq-22"
       ],
       "explanation": "本句的「finishes」指「完成學業、課程或教育階段」。",
       "sentenceIndex": 6,
@@ -766,12 +740,10 @@ export default {
         "finishes"
       ],
       "optionReasons": {
-        "finish-mcq-03": "本句指「完成學業、課程或教育階段」。",
-        "finish-mcq-02": "「把某項正在進行的活動做完」是「finish doing something」的用法，與本句語境不同。",
-        "finish-mcq-04": "「把食物或飲料全部吃完／喝完」是「finish — eat/drink all」的用法，與本句語境不同。",
-        "finish-mcq-01": "「把工作、活動或任務做到結束；完成／做完」是「finish — complete a task/activity」的用法，與本句語境不同。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。"
+        "finish-mcq-03": "本句的「finishes」指「完成學業、課程或教育階段」。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-03"
     },
@@ -783,11 +755,9 @@ export default {
       "masked": "She ____ last year.",
       "options": [
         "finish-mcq-03",
-        "finish-mcq-02",
-        "finish-mcq-04",
-        "finish-mcq-01",
-        "finish-mcq-05",
-        "finish-mcq-06"
+        "finish-mcq-12",
+        "finish-mcq-22",
+        "finish-mcq-10"
       ],
       "explanation": "本句的「finished university」指「完成學業、課程或教育階段」。",
       "sentenceIndex": 7,
@@ -796,12 +766,10 @@ export default {
         "finished university"
       ],
       "optionReasons": {
-        "finish-mcq-03": "本句指「完成學業、課程或教育階段」。",
-        "finish-mcq-02": "「把某項正在進行的活動做完」是「finish doing something」的用法，與本句語境不同。",
-        "finish-mcq-04": "「把食物或飲料全部吃完／喝完」是「finish — eat/drink all」的用法，與本句語境不同。",
-        "finish-mcq-01": "「把工作、活動或任務做到結束；完成／做完」是「finish — complete a task/activity」的用法，與本句語境不同。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。"
+        "finish-mcq-03": "本句的「finished university」指「完成學業、課程或教育階段」。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-03"
     },
@@ -813,11 +781,9 @@ export default {
       "masked": "He ____ at eighteen.",
       "options": [
         "finish-mcq-03",
-        "finish-mcq-02",
-        "finish-mcq-04",
-        "finish-mcq-01",
-        "finish-mcq-05",
-        "finish-mcq-06"
+        "finish-mcq-22",
+        "finish-mcq-14",
+        "finish-mcq-10"
       ],
       "explanation": "本句的「finished school」指「完成學業、課程或教育階段」。",
       "sentenceIndex": 8,
@@ -826,12 +792,10 @@ export default {
         "finished school"
       ],
       "optionReasons": {
-        "finish-mcq-03": "本句指「完成學業、課程或教育階段」。",
-        "finish-mcq-02": "「把某項正在進行的活動做完」是「finish doing something」的用法，與本句語境不同。",
-        "finish-mcq-04": "「把食物或飲料全部吃完／喝完」是「finish — eat/drink all」的用法，與本句語境不同。",
-        "finish-mcq-01": "「把工作、活動或任務做到結束；完成／做完」是「finish — complete a task/activity」的用法，與本句語境不同。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。"
+        "finish-mcq-03": "本句的「finished school」指「完成學業、課程或教育階段」。",
+        "finish-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-03"
     },
@@ -843,11 +807,9 @@ export default {
       "masked": "She ____ in June.",
       "options": [
         "finish-mcq-03",
-        "finish-mcq-02",
-        "finish-mcq-04",
-        "finish-mcq-01",
-        "finish-mcq-05",
-        "finish-mcq-06"
+        "finish-mcq-07",
+        "finish-mcq-10",
+        "finish-mcq-12"
       ],
       "explanation": "本句的「finished a training course」指「完成學業、課程或教育階段」。",
       "sentenceIndex": 9,
@@ -856,12 +818,10 @@ export default {
         "finished a training course"
       ],
       "optionReasons": {
-        "finish-mcq-03": "本句指「完成學業、課程或教育階段」。",
-        "finish-mcq-02": "「把某項正在進行的活動做完」是「finish doing something」的用法，與本句語境不同。",
-        "finish-mcq-04": "「把食物或飲料全部吃完／喝完」是「finish — eat/drink all」的用法，與本句語境不同。",
-        "finish-mcq-01": "「把工作、活動或任務做到結束；完成／做完」是「finish — complete a task/activity」的用法，與本句語境不同。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。"
+        "finish-mcq-03": "本句的「finished a training course」指「完成學業、課程或教育階段」。",
+        "finish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-03"
     },
@@ -873,11 +833,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "finish-mcq-04",
-        "finish-mcq-03",
-        "finish-mcq-05",
-        "finish-mcq-02",
-        "finish-mcq-06",
-        "finish-mcq-01"
+        "finish-mcq-23",
+        "finish-mcq-10",
+        "finish-mcq-12"
       ],
       "explanation": "本句的「finish your dinner」指「把食物或飲料全部吃完／喝完」。",
       "sentenceIndex": 10,
@@ -886,12 +844,10 @@ export default {
         "finish your dinner"
       ],
       "optionReasons": {
-        "finish-mcq-04": "本句指「把食物或飲料全部吃完／喝完」。",
-        "finish-mcq-03": "「完成學業、課程或教育階段」是「finish school/course/university」的用法，與本句語境不同。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。",
-        "finish-mcq-02": "「把某項正在進行的活動做完」是「finish doing something」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。",
-        "finish-mcq-01": "「把工作、活動或任務做到結束；完成／做完」是「finish — complete a task/activity」的用法，與本句語境不同。"
+        "finish-mcq-04": "本句的「finish your dinner」指「把食物或飲料全部吃完／喝完」。",
+        "finish-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-04"
     },
@@ -903,11 +859,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "finish-mcq-04",
-        "finish-mcq-03",
-        "finish-mcq-05",
-        "finish-mcq-02",
-        "finish-mcq-06",
-        "finish-mcq-01"
+        "finish-mcq-14",
+        "finish-mcq-10",
+        "finish-mcq-06"
       ],
       "explanation": "本句的「finished the bottle of water」指「把食物或飲料全部吃完／喝完」。",
       "sentenceIndex": 11,
@@ -916,12 +870,10 @@ export default {
         "finished the bottle of water"
       ],
       "optionReasons": {
-        "finish-mcq-04": "本句指「把食物或飲料全部吃完／喝完」。",
-        "finish-mcq-03": "「完成學業、課程或教育階段」是「finish school/course/university」的用法，與本句語境不同。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。",
-        "finish-mcq-02": "「把某項正在進行的活動做完」是「finish doing something」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。",
-        "finish-mcq-01": "「把工作、活動或任務做到結束；完成／做完」是「finish — complete a task/activity」的用法，與本句語境不同。"
+        "finish-mcq-04": "本句的「finished the bottle of water」指「把食物或飲料全部吃完／喝完」。",
+        "finish-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-04"
     },
@@ -933,11 +885,9 @@ export default {
       "masked": "We ____ this morning.",
       "options": [
         "finish-mcq-05",
-        "finish-mcq-04",
-        "finish-mcq-06",
-        "finish-mcq-03",
-        "finish-mcq-07",
-        "finish-mcq-02"
+        "finish-mcq-14",
+        "finish-mcq-10",
+        "finish-mcq-08"
       ],
       "explanation": "本句的「finished the milk」指「把某樣東西全部用完」。",
       "sentenceIndex": 12,
@@ -946,12 +896,10 @@ export default {
         "finished the milk"
       ],
       "optionReasons": {
-        "finish-mcq-05": "本句指「把某樣東西全部用完」。",
-        "finish-mcq-04": "「把食物或飲料全部吃完／喝完」是「finish — eat/drink all」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。",
-        "finish-mcq-03": "「完成學業、課程或教育階段」是「finish school/course/university」的用法，與本句語境不同。",
-        "finish-mcq-07": "「某事物最後的部分、結尾或終場」是「finish — noun ending」的用法，與本句語境不同。",
-        "finish-mcq-02": "「把某項正在進行的活動做完」是「finish doing something」的用法，與本句語境不同。"
+        "finish-mcq-05": "本句的「finished the milk」指「把某樣東西全部用完」。",
+        "finish-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-05"
     },
@@ -963,11 +911,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "finish-mcq-05",
-        "finish-mcq-04",
-        "finish-mcq-06",
-        "finish-mcq-03",
-        "finish-mcq-07",
-        "finish-mcq-02"
+        "finish-mcq-14",
+        "finish-mcq-10",
+        "finish-mcq-08"
       ],
       "explanation": "本句的「finished the last of the paint」指「把某樣東西全部用完」。",
       "sentenceIndex": 13,
@@ -976,12 +922,10 @@ export default {
         "finished the last of the paint"
       ],
       "optionReasons": {
-        "finish-mcq-05": "本句指「把某樣東西全部用完」。",
-        "finish-mcq-04": "「把食物或飲料全部吃完／喝完」是「finish — eat/drink all」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。",
-        "finish-mcq-03": "「完成學業、課程或教育階段」是「finish school/course/university」的用法，與本句語境不同。",
-        "finish-mcq-07": "「某事物最後的部分、結尾或終場」是「finish — noun ending」的用法，與本句語境不同。",
-        "finish-mcq-02": "「把某項正在進行的活動做完」是「finish doing something」的用法，與本句語境不同。"
+        "finish-mcq-05": "本句的「finished the last of the paint」指「把某樣東西全部用完」。",
+        "finish-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-05"
     },
@@ -993,11 +937,9 @@ export default {
       "masked": "The meeting ____ at noon.",
       "options": [
         "finish-mcq-06",
-        "finish-mcq-05",
-        "finish-mcq-07",
-        "finish-mcq-04",
-        "finish-mcq-08",
-        "finish-mcq-03"
+        "finish-mcq-14",
+        "finish-mcq-10",
+        "finish-mcq-17"
       ],
       "explanation": "本句的「finished」指「活動、會議、電影等結束」。",
       "sentenceIndex": 14,
@@ -1006,12 +948,10 @@ export default {
         "finished"
       ],
       "optionReasons": {
-        "finish-mcq-06": "本句指「活動、會議、電影等結束」。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。",
-        "finish-mcq-07": "「某事物最後的部分、結尾或終場」是「finish — noun ending」的用法，與本句語境不同。",
-        "finish-mcq-04": "「把食物或飲料全部吃完／喝完」是「finish — eat/drink all」的用法，與本句語境不同。",
-        "finish-mcq-08": "「比賽結束時取得的最終名次」是「finish — competition position」的用法，與本句語境不同。",
-        "finish-mcq-03": "「完成學業、課程或教育階段」是「finish school/course/university」的用法，與本句語境不同。"
+        "finish-mcq-06": "本句的「finished」指「活動、會議、電影等結束」。",
+        "finish-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-06"
     },
@@ -1024,10 +964,8 @@ export default {
       "options": [
         "finish-mcq-06",
         "finish-mcq-05",
-        "finish-mcq-07",
-        "finish-mcq-04",
-        "finish-mcq-08",
-        "finish-mcq-03"
+        "finish-mcq-19",
+        "finish-mcq-11"
       ],
       "explanation": "本句的「finished」指「活動、會議、電影等結束」。",
       "sentenceIndex": 15,
@@ -1036,12 +974,10 @@ export default {
         "finished"
       ],
       "optionReasons": {
-        "finish-mcq-06": "本句指「活動、會議、電影等結束」。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。",
-        "finish-mcq-07": "「某事物最後的部分、結尾或終場」是「finish — noun ending」的用法，與本句語境不同。",
-        "finish-mcq-04": "「把食物或飲料全部吃完／喝完」是「finish — eat/drink all」的用法，與本句語境不同。",
-        "finish-mcq-08": "「比賽結束時取得的最終名次」是「finish — competition position」的用法，與本句語境不同。",
-        "finish-mcq-03": "「完成學業、課程或教育階段」是「finish school/course/university」的用法，與本句語境不同。"
+        "finish-mcq-06": "本句的「finished」指「活動、會議、電影等結束」。",
+        "finish-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-06"
     },
@@ -1053,11 +989,9 @@ export default {
       "masked": "The race had an exciting ____.",
       "options": [
         "finish-mcq-07",
-        "finish-mcq-06",
-        "finish-mcq-08",
-        "finish-mcq-05",
-        "finish-mcq-09",
-        "finish-mcq-04"
+        "finish-mcq-10",
+        "finish-mcq-02",
+        "finish-mcq-09"
       ],
       "explanation": "本句的「finish」指「某事物最後的部分、結尾或終場」。",
       "sentenceIndex": 16,
@@ -1066,12 +1000,10 @@ export default {
         "finish"
       ],
       "optionReasons": {
-        "finish-mcq-07": "本句指「某事物最後的部分、結尾或終場」。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。",
-        "finish-mcq-08": "「比賽結束時取得的最終名次」是「finish — competition position」的用法，與本句語境不同。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。",
-        "finish-mcq-09": "「以第一、第二等名次完成比賽」是「finish first/second/etc.」的用法，與本句語境不同。",
-        "finish-mcq-04": "「把食物或飲料全部吃完／喝完」是「finish — eat/drink all」的用法，與本句語境不同。"
+        "finish-mcq-07": "本句的「finish」指「某事物最後的部分、結尾或終場」。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-07"
     },
@@ -1083,11 +1015,9 @@ export default {
       "masked": "The film builds toward a dramatic ____.",
       "options": [
         "finish-mcq-07",
-        "finish-mcq-06",
-        "finish-mcq-08",
-        "finish-mcq-05",
-        "finish-mcq-09",
-        "finish-mcq-04"
+        "finish-mcq-20",
+        "finish-mcq-10",
+        "finish-mcq-12"
       ],
       "explanation": "本句的「finish」指「某事物最後的部分、結尾或終場」。",
       "sentenceIndex": 17,
@@ -1096,12 +1026,10 @@ export default {
         "finish"
       ],
       "optionReasons": {
-        "finish-mcq-07": "本句指「某事物最後的部分、結尾或終場」。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。",
-        "finish-mcq-08": "「比賽結束時取得的最終名次」是「finish — competition position」的用法，與本句語境不同。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。",
-        "finish-mcq-09": "「以第一、第二等名次完成比賽」是「finish first/second/etc.」的用法，與本句語境不同。",
-        "finish-mcq-04": "「把食物或飲料全部吃完／喝完」是「finish — eat/drink all」的用法，與本句語境不同。"
+        "finish-mcq-07": "本句的「finish」指「某事物最後的部分、結尾或終場」。",
+        "finish-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-07"
     },
@@ -1113,11 +1041,9 @@ export default {
       "masked": "She achieved a second-place ____.",
       "options": [
         "finish-mcq-08",
-        "finish-mcq-07",
-        "finish-mcq-09",
-        "finish-mcq-06",
+        "finish-mcq-12",
         "finish-mcq-10",
-        "finish-mcq-05"
+        "finish-mcq-02"
       ],
       "explanation": "本句的「finish」指「比賽結束時取得的最終名次」。",
       "sentenceIndex": 18,
@@ -1126,12 +1052,10 @@ export default {
         "finish"
       ],
       "optionReasons": {
-        "finish-mcq-08": "本句指「比賽結束時取得的最終名次」。",
-        "finish-mcq-07": "「某事物最後的部分、結尾或終場」是「finish — noun ending」的用法，與本句語境不同。",
-        "finish-mcq-09": "「以第一、第二等名次完成比賽」是「finish first/second/etc.」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。",
-        "finish-mcq-10": "「徹底擊敗、毀掉或解決某人／某事」是「finish someone off」的用法，與本句語境不同。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。"
+        "finish-mcq-08": "本句的「finish」指「比賽結束時取得的最終名次」。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-08"
     },
@@ -1143,11 +1067,9 @@ export default {
       "masked": "It was his best ____ of the season.",
       "options": [
         "finish-mcq-08",
-        "finish-mcq-07",
-        "finish-mcq-09",
-        "finish-mcq-06",
         "finish-mcq-10",
-        "finish-mcq-05"
+        "finish-mcq-12",
+        "finish-mcq-02"
       ],
       "explanation": "本句的「finish」指「比賽結束時取得的最終名次」。",
       "sentenceIndex": 19,
@@ -1156,12 +1078,10 @@ export default {
         "finish"
       ],
       "optionReasons": {
-        "finish-mcq-08": "本句指「比賽結束時取得的最終名次」。",
-        "finish-mcq-07": "「某事物最後的部分、結尾或終場」是「finish — noun ending」的用法，與本句語境不同。",
-        "finish-mcq-09": "「以第一、第二等名次完成比賽」是「finish first/second/etc.」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。",
-        "finish-mcq-10": "「徹底擊敗、毀掉或解決某人／某事」是「finish someone off」的用法，與本句語境不同。",
-        "finish-mcq-05": "「把某樣東西全部用完」是「finish — use all」的用法，與本句語境不同。"
+        "finish-mcq-08": "本句的「finish」指「比賽結束時取得的最終名次」。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-08"
     },
@@ -1173,11 +1093,9 @@ export default {
       "masked": "He ____ in the race.",
       "options": [
         "finish-mcq-09",
-        "finish-mcq-08",
-        "finish-mcq-10",
-        "finish-mcq-07",
         "finish-mcq-11",
-        "finish-mcq-06"
+        "finish-mcq-22",
+        "finish-mcq-10"
       ],
       "explanation": "本句的「finished first」指「以第一、第二等名次完成比賽」。",
       "sentenceIndex": 20,
@@ -1186,12 +1104,10 @@ export default {
         "finished first"
       ],
       "optionReasons": {
-        "finish-mcq-09": "本句指「以第一、第二等名次完成比賽」。",
-        "finish-mcq-08": "「比賽結束時取得的最終名次」是「finish — competition position」的用法，與本句語境不同。",
-        "finish-mcq-10": "「徹底擊敗、毀掉或解決某人／某事」是「finish someone off」的用法，與本句語境不同。",
-        "finish-mcq-07": "「某事物最後的部分、結尾或終場」是「finish — noun ending」的用法，與本句語境不同。",
-        "finish-mcq-11": "「物件表面的最後塗層、質感或處理」是「finish — surface treatment」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。"
+        "finish-mcq-09": "本句的「finished first」指「以第一、第二等名次完成比賽」。",
+        "finish-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-09"
     },
@@ -1203,11 +1119,9 @@ export default {
       "masked": "The team ____ overall.",
       "options": [
         "finish-mcq-09",
-        "finish-mcq-08",
-        "finish-mcq-10",
         "finish-mcq-07",
-        "finish-mcq-11",
-        "finish-mcq-06"
+        "finish-mcq-10",
+        "finish-mcq-12"
       ],
       "explanation": "本句的「finished third」指「以第一、第二等名次完成比賽」。",
       "sentenceIndex": 21,
@@ -1216,12 +1130,10 @@ export default {
         "finished third"
       ],
       "optionReasons": {
-        "finish-mcq-09": "本句指「以第一、第二等名次完成比賽」。",
-        "finish-mcq-08": "「比賽結束時取得的最終名次」是「finish — competition position」的用法，與本句語境不同。",
-        "finish-mcq-10": "「徹底擊敗、毀掉或解決某人／某事」是「finish someone off」的用法，與本句語境不同。",
-        "finish-mcq-07": "「某事物最後的部分、結尾或終場」是「finish — noun ending」的用法，與本句語境不同。",
-        "finish-mcq-11": "「物件表面的最後塗層、質感或處理」是「finish — surface treatment」的用法，與本句語境不同。",
-        "finish-mcq-06": "「活動、會議、電影等結束」是「finish — come to an end」的用法，與本句語境不同。"
+        "finish-mcq-09": "本句的「finished third」指「以第一、第二等名次完成比賽」。",
+        "finish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-09"
     },
@@ -1233,11 +1145,9 @@ export default {
       "masked": "The final goal ____.",
       "options": [
         "finish-mcq-10",
-        "finish-mcq-09",
-        "finish-mcq-11",
-        "finish-mcq-08",
         "finish-mcq-12",
-        "finish-mcq-07"
+        "finish-mcq-13",
+        "finish-mcq-08"
       ],
       "explanation": "本句的「finished the match off」指「徹底擊敗、毀掉或解決某人／某事」。",
       "sentenceIndex": 22,
@@ -1246,12 +1156,10 @@ export default {
         "finished the match off"
       ],
       "optionReasons": {
-        "finish-mcq-10": "本句指「徹底擊敗、毀掉或解決某人／某事」。",
-        "finish-mcq-09": "「以第一、第二等名次完成比賽」是「finish first/second/etc.」的用法，與本句語境不同。",
-        "finish-mcq-11": "「物件表面的最後塗層、質感或處理」是「finish — surface treatment」的用法，與本句語境不同。",
-        "finish-mcq-08": "「比賽結束時取得的最終名次」是「finish — competition position」的用法，與本句語境不同。",
-        "finish-mcq-12": "「啞面／亮面的表面處理」是「matte/glossy finish」的用法，與本句語境不同。",
-        "finish-mcq-07": "「某事物最後的部分、結尾或終場」是「finish — noun ending」的用法，與本句語境不同。"
+        "finish-mcq-10": "本句的「finished the match off」指「徹底擊敗、毀掉或解決某人／某事」。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-10"
     },
@@ -1263,11 +1171,9 @@ export default {
       "masked": "The injury nearly ____.",
       "options": [
         "finish-mcq-10",
-        "finish-mcq-09",
-        "finish-mcq-11",
-        "finish-mcq-08",
-        "finish-mcq-12",
-        "finish-mcq-07"
+        "finish-mcq-15",
+        "finish-mcq-02",
+        "finish-mcq-12"
       ],
       "explanation": "本句的「finished his career off」指「徹底擊敗、毀掉或解決某人／某事」。",
       "sentenceIndex": 23,
@@ -1276,12 +1182,10 @@ export default {
         "finished his career off"
       ],
       "optionReasons": {
-        "finish-mcq-10": "本句指「徹底擊敗、毀掉或解決某人／某事」。",
-        "finish-mcq-09": "「以第一、第二等名次完成比賽」是「finish first/second/etc.」的用法，與本句語境不同。",
-        "finish-mcq-11": "「物件表面的最後塗層、質感或處理」是「finish — surface treatment」的用法，與本句語境不同。",
-        "finish-mcq-08": "「比賽結束時取得的最終名次」是「finish — competition position」的用法，與本句語境不同。",
-        "finish-mcq-12": "「啞面／亮面的表面處理」是「matte/glossy finish」的用法，與本句語境不同。",
-        "finish-mcq-07": "「某事物最後的部分、結尾或終場」是「finish — noun ending」的用法，與本句語境不同。"
+        "finish-mcq-10": "本句的「finished his career off」指「徹底擊敗、毀掉或解決某人／某事」。",
+        "finish-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-10"
     },
@@ -1293,11 +1197,9 @@ export default {
       "masked": "One more mistake could ____ professionally.",
       "options": [
         "finish-mcq-10",
-        "finish-mcq-09",
-        "finish-mcq-11",
-        "finish-mcq-08",
-        "finish-mcq-12",
-        "finish-mcq-07"
+        "finish-mcq-01",
+        "finish-mcq-07",
+        "finish-mcq-12"
       ],
       "explanation": "本句的「finish him」指「徹底擊敗、毀掉或解決某人／某事」。",
       "sentenceIndex": 24,
@@ -1306,12 +1208,10 @@ export default {
         "finish him"
       ],
       "optionReasons": {
-        "finish-mcq-10": "本句指「徹底擊敗、毀掉或解決某人／某事」。",
-        "finish-mcq-09": "「以第一、第二等名次完成比賽」是「finish first/second/etc.」的用法，與本句語境不同。",
-        "finish-mcq-11": "「物件表面的最後塗層、質感或處理」是「finish — surface treatment」的用法，與本句語境不同。",
-        "finish-mcq-08": "「比賽結束時取得的最終名次」是「finish — competition position」的用法，與本句語境不同。",
-        "finish-mcq-12": "「啞面／亮面的表面處理」是「matte/glossy finish」的用法，與本句語境不同。",
-        "finish-mcq-07": "「某事物最後的部分、結尾或終場」是「finish — noun ending」的用法，與本句語境不同。"
+        "finish-mcq-10": "本句的「finish him」指「徹底擊敗、毀掉或解決某人／某事」。",
+        "finish-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-10"
     },
@@ -1323,11 +1223,9 @@ export default {
       "masked": "The boxer tried to ____ in the final round.",
       "options": [
         "finish-mcq-10",
+        "finish-mcq-07",
         "finish-mcq-09",
-        "finish-mcq-11",
-        "finish-mcq-08",
-        "finish-mcq-12",
-        "finish-mcq-07"
+        "finish-mcq-12"
       ],
       "explanation": "本句的「finish his opponent」指「徹底擊敗、毀掉或解決某人／某事」。",
       "sentenceIndex": 25,
@@ -1336,12 +1234,10 @@ export default {
         "finish his opponent"
       ],
       "optionReasons": {
-        "finish-mcq-10": "本句指「徹底擊敗、毀掉或解決某人／某事」。",
-        "finish-mcq-09": "「以第一、第二等名次完成比賽」是「finish first/second/etc.」的用法，與本句語境不同。",
-        "finish-mcq-11": "「物件表面的最後塗層、質感或處理」是「finish — surface treatment」的用法，與本句語境不同。",
-        "finish-mcq-08": "「比賽結束時取得的最終名次」是「finish — competition position」的用法，與本句語境不同。",
-        "finish-mcq-12": "「啞面／亮面的表面處理」是「matte/glossy finish」的用法，與本句語境不同。",
-        "finish-mcq-07": "「某事物最後的部分、結尾或終場」是「finish — noun ending」的用法，與本句語境不同。"
+        "finish-mcq-10": "本句的「finish his opponent」指「徹底擊敗、毀掉或解決某人／某事」。",
+        "finish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-10"
     },
@@ -1353,11 +1249,9 @@ export default {
       "masked": "The table has a smooth ____.",
       "options": [
         "finish-mcq-11",
-        "finish-mcq-10",
-        "finish-mcq-12",
-        "finish-mcq-09",
-        "finish-mcq-13",
-        "finish-mcq-08"
+        "finish-mcq-01",
+        "finish-mcq-19",
+        "finish-mcq-04"
       ],
       "explanation": "本句的「finish」指「物件表面的最後塗層、質感或處理」。",
       "sentenceIndex": 26,
@@ -1366,12 +1260,10 @@ export default {
         "finish"
       ],
       "optionReasons": {
-        "finish-mcq-11": "本句指「物件表面的最後塗層、質感或處理」。",
-        "finish-mcq-10": "「徹底擊敗、毀掉或解決某人／某事」是「finish someone off」的用法，與本句語境不同。",
-        "finish-mcq-12": "「啞面／亮面的表面處理」是「matte/glossy finish」的用法，與本句語境不同。",
-        "finish-mcq-09": "「以第一、第二等名次完成比賽」是「finish first/second/etc.」的用法，與本句語境不同。",
-        "finish-mcq-13": "「產品最後的做工、收尾品質」是「finish — workmanship」的用法，與本句語境不同。",
-        "finish-mcq-08": "「比賽結束時取得的最終名次」是「finish — competition position」的用法，與本句語境不同。"
+        "finish-mcq-11": "本句的「finish」指「物件表面的最後塗層、質感或處理」。",
+        "finish-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-11"
     },
@@ -1383,11 +1275,9 @@ export default {
       "masked": "The metal has a matte ____.",
       "options": [
         "finish-mcq-11",
-        "finish-mcq-10",
-        "finish-mcq-12",
-        "finish-mcq-09",
-        "finish-mcq-13",
-        "finish-mcq-08"
+        "finish-mcq-18",
+        "finish-mcq-22",
+        "finish-mcq-04"
       ],
       "explanation": "本句的「finish」指「物件表面的最後塗層、質感或處理」。",
       "sentenceIndex": 27,
@@ -1396,12 +1286,10 @@ export default {
         "finish"
       ],
       "optionReasons": {
-        "finish-mcq-11": "本句指「物件表面的最後塗層、質感或處理」。",
-        "finish-mcq-10": "「徹底擊敗、毀掉或解決某人／某事」是「finish someone off」的用法，與本句語境不同。",
-        "finish-mcq-12": "「啞面／亮面的表面處理」是「matte/glossy finish」的用法，與本句語境不同。",
-        "finish-mcq-09": "「以第一、第二等名次完成比賽」是「finish first/second/etc.」的用法，與本句語境不同。",
-        "finish-mcq-13": "「產品最後的做工、收尾品質」是「finish — workmanship」的用法，與本句語境不同。",
-        "finish-mcq-08": "「比賽結束時取得的最終名次」是「finish — competition position」的用法，與本句語境不同。"
+        "finish-mcq-11": "本句的「finish」指「物件表面的最後塗層、質感或處理」。",
+        "finish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-11"
     },
@@ -1413,11 +1301,9 @@ export default {
       "masked": "I prefer a ____.",
       "options": [
         "finish-mcq-12",
-        "finish-mcq-11",
-        "finish-mcq-13",
-        "finish-mcq-10",
-        "finish-mcq-14",
-        "finish-mcq-09"
+        "finish-mcq-01",
+        "finish-mcq-05",
+        "finish-mcq-13"
       ],
       "explanation": "本句的「matte finish」指「啞面／亮面的表面處理」。",
       "sentenceIndex": 28,
@@ -1426,12 +1312,10 @@ export default {
         "matte finish"
       ],
       "optionReasons": {
-        "finish-mcq-12": "本句指「啞面／亮面的表面處理」。",
-        "finish-mcq-11": "「物件表面的最後塗層、質感或處理」是「finish — surface treatment」的用法，與本句語境不同。",
-        "finish-mcq-13": "「產品最後的做工、收尾品質」是「finish — workmanship」的用法，與本句語境不同。",
-        "finish-mcq-10": "「徹底擊敗、毀掉或解決某人／某事」是「finish someone off」的用法，與本句語境不同。",
-        "finish-mcq-14": "「對表面作最後塗裝、拋光或處理」是「finish a surface」的用法，與本句語境不同。",
-        "finish-mcq-09": "「以第一、第二等名次完成比賽」是「finish first/second/etc.」的用法，與本句語境不同。"
+        "finish-mcq-12": "本句的「matte finish」指「啞面／亮面的表面處理」。",
+        "finish-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-12"
     },
@@ -1443,11 +1327,9 @@ export default {
       "masked": "The cabinet has a ____.",
       "options": [
         "finish-mcq-12",
-        "finish-mcq-11",
-        "finish-mcq-13",
         "finish-mcq-10",
-        "finish-mcq-14",
-        "finish-mcq-09"
+        "finish-mcq-13",
+        "finish-mcq-04"
       ],
       "explanation": "本句的「glossy finish」指「啞面／亮面的表面處理」。",
       "sentenceIndex": 29,
@@ -1456,12 +1338,10 @@ export default {
         "glossy finish"
       ],
       "optionReasons": {
-        "finish-mcq-12": "本句指「啞面／亮面的表面處理」。",
-        "finish-mcq-11": "「物件表面的最後塗層、質感或處理」是「finish — surface treatment」的用法，與本句語境不同。",
-        "finish-mcq-13": "「產品最後的做工、收尾品質」是「finish — workmanship」的用法，與本句語境不同。",
-        "finish-mcq-10": "「徹底擊敗、毀掉或解決某人／某事」是「finish someone off」的用法，與本句語境不同。",
-        "finish-mcq-14": "「對表面作最後塗裝、拋光或處理」是「finish a surface」的用法，與本句語境不同。",
-        "finish-mcq-09": "「以第一、第二等名次完成比賽」是「finish first/second/etc.」的用法，與本句語境不同。"
+        "finish-mcq-12": "本句的「glossy finish」指「啞面／亮面的表面處理」。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-12"
     },
@@ -1473,10 +1353,8 @@ export default {
       "masked": "The furniture has an excellent ____.",
       "options": [
         "finish-mcq-13",
-        "finish-mcq-12",
-        "finish-mcq-14",
-        "finish-mcq-11",
-        "finish-mcq-15",
+        "finish-mcq-21",
+        "finish-mcq-17",
         "finish-mcq-10"
       ],
       "explanation": "本句的「finish」指「產品最後的做工、收尾品質」。",
@@ -1486,12 +1364,10 @@ export default {
         "finish"
       ],
       "optionReasons": {
-        "finish-mcq-13": "本句指「產品最後的做工、收尾品質」。",
-        "finish-mcq-12": "「啞面／亮面的表面處理」是「matte/glossy finish」的用法，與本句語境不同。",
-        "finish-mcq-14": "「對表面作最後塗裝、拋光或處理」是「finish a surface」的用法，與本句語境不同。",
-        "finish-mcq-11": "「物件表面的最後塗層、質感或處理」是「finish — surface treatment」的用法，與本句語境不同。",
-        "finish-mcq-15": "「令某物完整或更好看的最後點綴」是「finishing touch」的用法，與本句語境不同。",
-        "finish-mcq-10": "「徹底擊敗、毀掉或解決某人／某事」是「finish someone off」的用法，與本句語境不同。"
+        "finish-mcq-13": "本句的「finish」指「產品最後的做工、收尾品質」。",
+        "finish-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-13"
     },
@@ -1503,10 +1379,8 @@ export default {
       "masked": "The product looks expensive because of its fine ____.",
       "options": [
         "finish-mcq-13",
-        "finish-mcq-12",
-        "finish-mcq-14",
-        "finish-mcq-11",
-        "finish-mcq-15",
+        "finish-mcq-22",
+        "finish-mcq-04",
         "finish-mcq-10"
       ],
       "explanation": "本句的「finish」指「產品最後的做工、收尾品質」。",
@@ -1516,12 +1390,10 @@ export default {
         "finish"
       ],
       "optionReasons": {
-        "finish-mcq-13": "本句指「產品最後的做工、收尾品質」。",
-        "finish-mcq-12": "「啞面／亮面的表面處理」是「matte/glossy finish」的用法，與本句語境不同。",
-        "finish-mcq-14": "「對表面作最後塗裝、拋光或處理」是「finish a surface」的用法，與本句語境不同。",
-        "finish-mcq-11": "「物件表面的最後塗層、質感或處理」是「finish — surface treatment」的用法，與本句語境不同。",
-        "finish-mcq-15": "「令某物完整或更好看的最後點綴」是「finishing touch」的用法，與本句語境不同。",
-        "finish-mcq-10": "「徹底擊敗、毀掉或解決某人／某事」是「finish someone off」的用法，與本句語境不同。"
+        "finish-mcq-13": "本句的「finish」指「產品最後的做工、收尾品質」。",
+        "finish-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-13"
     },
@@ -1533,11 +1405,9 @@ export default {
       "masked": "The wood was ____.",
       "options": [
         "finish-mcq-14",
-        "finish-mcq-13",
-        "finish-mcq-15",
-        "finish-mcq-12",
-        "finish-mcq-16",
-        "finish-mcq-11"
+        "finish-mcq-22",
+        "finish-mcq-18",
+        "finish-mcq-17"
       ],
       "explanation": "本句的「finished with oil」指「對表面作最後塗裝、拋光或處理」。",
       "sentenceIndex": 32,
@@ -1546,12 +1416,10 @@ export default {
         "finished with oil"
       ],
       "optionReasons": {
-        "finish-mcq-14": "本句指「對表面作最後塗裝、拋光或處理」。",
-        "finish-mcq-13": "「產品最後的做工、收尾品質」是「finish — workmanship」的用法，與本句語境不同。",
-        "finish-mcq-15": "「令某物完整或更好看的最後點綴」是「finishing touch」的用法，與本句語境不同。",
-        "finish-mcq-12": "「啞面／亮面的表面處理」是「matte/glossy finish」的用法，與本句語境不同。",
-        "finish-mcq-16": "「完成前最後的小修飾或收尾工作」是「finishing touches」的用法，與本句語境不同。",
-        "finish-mcq-11": "「物件表面的最後塗層、質感或處理」是「finish — surface treatment」的用法，與本句語境不同。"
+        "finish-mcq-14": "本句的「finished with oil」指「對表面作最後塗裝、拋光或處理」。",
+        "finish-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-14"
     },
@@ -1563,11 +1431,9 @@ export default {
       "masked": "The metal was carefully ____ by hand.",
       "options": [
         "finish-mcq-14",
-        "finish-mcq-13",
-        "finish-mcq-15",
-        "finish-mcq-12",
-        "finish-mcq-16",
-        "finish-mcq-11"
+        "finish-mcq-01",
+        "finish-mcq-19",
+        "finish-mcq-05"
       ],
       "explanation": "本句的「finished」指「對表面作最後塗裝、拋光或處理」。",
       "sentenceIndex": 33,
@@ -1576,12 +1442,10 @@ export default {
         "finished"
       ],
       "optionReasons": {
-        "finish-mcq-14": "本句指「對表面作最後塗裝、拋光或處理」。",
-        "finish-mcq-13": "「產品最後的做工、收尾品質」是「finish — workmanship」的用法，與本句語境不同。",
-        "finish-mcq-15": "「令某物完整或更好看的最後點綴」是「finishing touch」的用法，與本句語境不同。",
-        "finish-mcq-12": "「啞面／亮面的表面處理」是「matte/glossy finish」的用法，與本句語境不同。",
-        "finish-mcq-16": "「完成前最後的小修飾或收尾工作」是「finishing touches」的用法，與本句語境不同。",
-        "finish-mcq-11": "「物件表面的最後塗層、質感或處理」是「finish — surface treatment」的用法，與本句語境不同。"
+        "finish-mcq-14": "本句的「finished」指「對表面作最後塗裝、拋光或處理」。",
+        "finish-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-14"
     },
@@ -1593,10 +1457,8 @@ export default {
       "masked": "The flowers were the ____.",
       "options": [
         "finish-mcq-15",
-        "finish-mcq-14",
-        "finish-mcq-16",
-        "finish-mcq-13",
-        "finish-mcq-17",
+        "finish-mcq-22",
+        "finish-mcq-10",
         "finish-mcq-12"
       ],
       "explanation": "本句的「finishing touch」指「令某物完整或更好看的最後點綴」。",
@@ -1606,12 +1468,10 @@ export default {
         "finishing touch"
       ],
       "optionReasons": {
-        "finish-mcq-15": "本句指「令某物完整或更好看的最後點綴」。",
-        "finish-mcq-14": "「對表面作最後塗裝、拋光或處理」是「finish a surface」的用法，與本句語境不同。",
-        "finish-mcq-16": "「完成前最後的小修飾或收尾工作」是「finishing touches」的用法，與本句語境不同。",
-        "finish-mcq-13": "「產品最後的做工、收尾品質」是「finish — workmanship」的用法，與本句語境不同。",
-        "finish-mcq-17": "「把剩餘的食物或飲料全部吃完／喝完」是「finish off food/drink」的用法，與本句語境不同。",
-        "finish-mcq-12": "「啞面／亮面的表面處理」是「matte/glossy finish」的用法，與本句語境不同。"
+        "finish-mcq-15": "本句的「finishing touch」指「令某物完整或更好看的最後點綴」。",
+        "finish-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-15"
     },
@@ -1623,11 +1483,9 @@ export default {
       "masked": "A handwritten note added the ____ to the gift.",
       "options": [
         "finish-mcq-15",
-        "finish-mcq-14",
-        "finish-mcq-16",
-        "finish-mcq-13",
-        "finish-mcq-17",
-        "finish-mcq-12"
+        "finish-mcq-12",
+        "finish-mcq-22",
+        "finish-mcq-10"
       ],
       "explanation": "本句的「finishing touch」指「令某物完整或更好看的最後點綴」。",
       "sentenceIndex": 35,
@@ -1636,12 +1494,10 @@ export default {
         "finishing touch"
       ],
       "optionReasons": {
-        "finish-mcq-15": "本句指「令某物完整或更好看的最後點綴」。",
-        "finish-mcq-14": "「對表面作最後塗裝、拋光或處理」是「finish a surface」的用法，與本句語境不同。",
-        "finish-mcq-16": "「完成前最後的小修飾或收尾工作」是「finishing touches」的用法，與本句語境不同。",
-        "finish-mcq-13": "「產品最後的做工、收尾品質」是「finish — workmanship」的用法，與本句語境不同。",
-        "finish-mcq-17": "「把剩餘的食物或飲料全部吃完／喝完」是「finish off food/drink」的用法，與本句語境不同。",
-        "finish-mcq-12": "「啞面／亮面的表面處理」是「matte/glossy finish」的用法，與本句語境不同。"
+        "finish-mcq-15": "本句的「finishing touch」指「令某物完整或更好看的最後點綴」。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-15"
     },
@@ -1653,11 +1509,9 @@ export default {
       "masked": "We are putting the ____ on the report.",
       "options": [
         "finish-mcq-16",
-        "finish-mcq-15",
-        "finish-mcq-17",
-        "finish-mcq-14",
-        "finish-mcq-18",
-        "finish-mcq-13"
+        "finish-mcq-12",
+        "finish-mcq-10",
+        "finish-mcq-22"
       ],
       "explanation": "本句的「finishing touches」指「完成前最後的小修飾或收尾工作」。",
       "sentenceIndex": 36,
@@ -1666,12 +1520,10 @@ export default {
         "finishing touches"
       ],
       "optionReasons": {
-        "finish-mcq-16": "本句指「完成前最後的小修飾或收尾工作」。",
-        "finish-mcq-15": "「令某物完整或更好看的最後點綴」是「finishing touch」的用法，與本句語境不同。",
-        "finish-mcq-17": "「把剩餘的食物或飲料全部吃完／喝完」是「finish off food/drink」的用法，與本句語境不同。",
-        "finish-mcq-14": "「對表面作最後塗裝、拋光或處理」是「finish a surface」的用法，與本句語境不同。",
-        "finish-mcq-18": "「已完成、做好的」是「finished — completed」的用法，與本句語境不同。",
-        "finish-mcq-13": "「產品最後的做工、收尾品質」是「finish — workmanship」的用法，與本句語境不同。"
+        "finish-mcq-16": "本句的「finishing touches」指「完成前最後的小修飾或收尾工作」。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-16"
     },
@@ -1683,11 +1535,9 @@ export default {
       "masked": "She added the ____ to the room.",
       "options": [
         "finish-mcq-16",
-        "finish-mcq-15",
-        "finish-mcq-17",
-        "finish-mcq-14",
-        "finish-mcq-18",
-        "finish-mcq-13"
+        "finish-mcq-22",
+        "finish-mcq-10",
+        "finish-mcq-12"
       ],
       "explanation": "本句的「finishing touches」指「完成前最後的小修飾或收尾工作」。",
       "sentenceIndex": 37,
@@ -1696,12 +1546,10 @@ export default {
         "finishing touches"
       ],
       "optionReasons": {
-        "finish-mcq-16": "本句指「完成前最後的小修飾或收尾工作」。",
-        "finish-mcq-15": "「令某物完整或更好看的最後點綴」是「finishing touch」的用法，與本句語境不同。",
-        "finish-mcq-17": "「把剩餘的食物或飲料全部吃完／喝完」是「finish off food/drink」的用法，與本句語境不同。",
-        "finish-mcq-14": "「對表面作最後塗裝、拋光或處理」是「finish a surface」的用法，與本句語境不同。",
-        "finish-mcq-18": "「已完成、做好的」是「finished — completed」的用法，與本句語境不同。",
-        "finish-mcq-13": "「產品最後的做工、收尾品質」是「finish — workmanship」的用法，與本句語境不同。"
+        "finish-mcq-16": "本句的「finishing touches」指「完成前最後的小修飾或收尾工作」。",
+        "finish-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-16"
     },
@@ -1713,10 +1561,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "finish-mcq-17",
-        "finish-mcq-16",
-        "finish-mcq-18",
-        "finish-mcq-15",
-        "finish-mcq-19",
+        "finish-mcq-08",
+        "finish-mcq-10",
         "finish-mcq-14"
       ],
       "explanation": "本句的「finished off the cake」指「把剩餘的食物或飲料全部吃完／喝完」。",
@@ -1726,12 +1572,10 @@ export default {
         "finished off the cake"
       ],
       "optionReasons": {
-        "finish-mcq-17": "本句指「把剩餘的食物或飲料全部吃完／喝完」。",
-        "finish-mcq-16": "「完成前最後的小修飾或收尾工作」是「finishing touches」的用法，與本句語境不同。",
-        "finish-mcq-18": "「已完成、做好的」是「finished — completed」的用法，與本句語境不同。",
-        "finish-mcq-15": "「令某物完整或更好看的最後點綴」是「finishing touch」的用法，與本句語境不同。",
-        "finish-mcq-19": "「非正式：完了、沒希望了、被徹底擊敗」是「finished — ruined」的用法，與本句語境不同。",
-        "finish-mcq-14": "「對表面作最後塗裝、拋光或處理」是「finish a surface」的用法，與本句語境不同。"
+        "finish-mcq-17": "本句的「finished off the cake」指「把剩餘的食物或飲料全部吃完／喝完」。",
+        "finish-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-17"
     },
@@ -1743,11 +1587,9 @@ export default {
       "masked": "She ____ before leaving.",
       "options": [
         "finish-mcq-17",
-        "finish-mcq-16",
-        "finish-mcq-18",
-        "finish-mcq-15",
-        "finish-mcq-19",
-        "finish-mcq-14"
+        "finish-mcq-08",
+        "finish-mcq-14",
+        "finish-mcq-10"
       ],
       "explanation": "本句的「finished off the coffee」指「把剩餘的食物或飲料全部吃完／喝完」。",
       "sentenceIndex": 39,
@@ -1756,12 +1598,10 @@ export default {
         "finished off the coffee"
       ],
       "optionReasons": {
-        "finish-mcq-17": "本句指「把剩餘的食物或飲料全部吃完／喝完」。",
-        "finish-mcq-16": "「完成前最後的小修飾或收尾工作」是「finishing touches」的用法，與本句語境不同。",
-        "finish-mcq-18": "「已完成、做好的」是「finished — completed」的用法，與本句語境不同。",
-        "finish-mcq-15": "「令某物完整或更好看的最後點綴」是「finishing touch」的用法，與本句語境不同。",
-        "finish-mcq-19": "「非正式：完了、沒希望了、被徹底擊敗」是「finished — ruined」的用法，與本句語境不同。",
-        "finish-mcq-14": "「對表面作最後塗裝、拋光或處理」是「finish a surface」的用法，與本句語境不同。"
+        "finish-mcq-17": "本句的「finished off the coffee」指「把剩餘的食物或飲料全部吃完／喝完」。",
+        "finish-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-17"
     },
@@ -1773,11 +1613,9 @@ export default {
       "masked": "The report is finally ____.",
       "options": [
         "finish-mcq-18",
-        "finish-mcq-17",
-        "finish-mcq-19",
-        "finish-mcq-16",
-        "finish-mcq-20",
-        "finish-mcq-15"
+        "finish-mcq-12",
+        "finish-mcq-22",
+        "finish-mcq-10"
       ],
       "explanation": "本句的「finished」指「已完成、做好的」。",
       "sentenceIndex": 40,
@@ -1786,12 +1624,10 @@ export default {
         "finished"
       ],
       "optionReasons": {
-        "finish-mcq-18": "本句指「已完成、做好的」。",
-        "finish-mcq-17": "「把剩餘的食物或飲料全部吃完／喝完」是「finish off food/drink」的用法，與本句語境不同。",
-        "finish-mcq-19": "「非正式：完了、沒希望了、被徹底擊敗」是「finished — ruined」的用法，與本句語境不同。",
-        "finish-mcq-16": "「完成前最後的小修飾或收尾工作」是「finishing touches」的用法，與本句語境不同。",
-        "finish-mcq-20": "「尚未完成的」是「unfinished」的用法，與本句語境不同。",
-        "finish-mcq-15": "「令某物完整或更好看的最後點綴」是「finishing touch」的用法，與本句語境不同。"
+        "finish-mcq-18": "本句的「finished」指「已完成、做好的」。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-18"
     },
@@ -1803,11 +1639,9 @@ export default {
       "masked": "Is the painting ____?",
       "options": [
         "finish-mcq-18",
-        "finish-mcq-17",
-        "finish-mcq-19",
-        "finish-mcq-16",
-        "finish-mcq-20",
-        "finish-mcq-15"
+        "finish-mcq-07",
+        "finish-mcq-10",
+        "finish-mcq-12"
       ],
       "explanation": "本句的「finished」指「已完成、做好的」。",
       "sentenceIndex": 41,
@@ -1816,12 +1650,10 @@ export default {
         "finished"
       ],
       "optionReasons": {
-        "finish-mcq-18": "本句指「已完成、做好的」。",
-        "finish-mcq-17": "「把剩餘的食物或飲料全部吃完／喝完」是「finish off food/drink」的用法，與本句語境不同。",
-        "finish-mcq-19": "「非正式：完了、沒希望了、被徹底擊敗」是「finished — ruined」的用法，與本句語境不同。",
-        "finish-mcq-16": "「完成前最後的小修飾或收尾工作」是「finishing touches」的用法，與本句語境不同。",
-        "finish-mcq-20": "「尚未完成的」是「unfinished」的用法，與本句語境不同。",
-        "finish-mcq-15": "「令某物完整或更好看的最後點綴」是「finishing touch」的用法，與本句語境不同。"
+        "finish-mcq-18": "本句的「finished」指「已完成、做好的」。",
+        "finish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-18"
     },
@@ -1833,11 +1665,9 @@ export default {
       "masked": "Without funding, the project is ____.",
       "options": [
         "finish-mcq-19",
-        "finish-mcq-18",
-        "finish-mcq-20",
-        "finish-mcq-17",
-        "finish-mcq-21",
-        "finish-mcq-16"
+        "finish-mcq-07",
+        "finish-mcq-06",
+        "finish-mcq-12"
       ],
       "explanation": "本句的「finished」指「非正式：完了、沒希望了、被徹底擊敗」。",
       "sentenceIndex": 42,
@@ -1846,12 +1676,10 @@ export default {
         "finished"
       ],
       "optionReasons": {
-        "finish-mcq-19": "本句指「非正式：完了、沒希望了、被徹底擊敗」。",
-        "finish-mcq-18": "「已完成、做好的」是「finished — completed」的用法，與本句語境不同。",
-        "finish-mcq-20": "「尚未完成的」是「unfinished」的用法，與本句語境不同。",
-        "finish-mcq-17": "「把剩餘的食物或飲料全部吃完／喝完」是「finish off food/drink」的用法，與本句語境不同。",
-        "finish-mcq-21": "「完成者；體育中善於完成得分機會的終結者」是「finisher」的用法，與本句語境不同。",
-        "finish-mcq-16": "「完成前最後的小修飾或收尾工作」是「finishing touches」的用法，與本句語境不同。"
+        "finish-mcq-19": "本句的「finished」指「非正式：完了、沒希望了、被徹底擊敗」。",
+        "finish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-19"
     },
@@ -1863,11 +1691,9 @@ export default {
       "masked": "If they lose this contract, the company could be ____.",
       "options": [
         "finish-mcq-19",
-        "finish-mcq-18",
-        "finish-mcq-20",
-        "finish-mcq-17",
-        "finish-mcq-21",
-        "finish-mcq-16"
+        "finish-mcq-14",
+        "finish-mcq-08",
+        "finish-mcq-04"
       ],
       "explanation": "本句的「finished」指「非正式：完了、沒希望了、被徹底擊敗」。",
       "sentenceIndex": 43,
@@ -1876,12 +1702,10 @@ export default {
         "finished"
       ],
       "optionReasons": {
-        "finish-mcq-19": "本句指「非正式：完了、沒希望了、被徹底擊敗」。",
-        "finish-mcq-18": "「已完成、做好的」是「finished — completed」的用法，與本句語境不同。",
-        "finish-mcq-20": "「尚未完成的」是「unfinished」的用法，與本句語境不同。",
-        "finish-mcq-17": "「把剩餘的食物或飲料全部吃完／喝完」是「finish off food/drink」的用法，與本句語境不同。",
-        "finish-mcq-21": "「完成者；體育中善於完成得分機會的終結者」是「finisher」的用法，與本句語境不同。",
-        "finish-mcq-16": "「完成前最後的小修飾或收尾工作」是「finishing touches」的用法，與本句語境不同。"
+        "finish-mcq-19": "本句的「finished」指「非正式：完了、沒希望了、被徹底擊敗」。",
+        "finish-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-19"
     },
@@ -1893,11 +1717,9 @@ export default {
       "masked": "I still have some ____.",
       "options": [
         "finish-mcq-20",
-        "finish-mcq-19",
-        "finish-mcq-21",
-        "finish-mcq-18",
-        "finish-mcq-22",
-        "finish-mcq-17"
+        "finish-mcq-11",
+        "finish-mcq-10",
+        "finish-mcq-22"
       ],
       "explanation": "本句的「unfinished work」指「尚未完成的」。",
       "sentenceIndex": 44,
@@ -1906,12 +1728,10 @@ export default {
         "unfinished work"
       ],
       "optionReasons": {
-        "finish-mcq-20": "本句指「尚未完成的」。",
-        "finish-mcq-19": "「非正式：完了、沒希望了、被徹底擊敗」是「finished — ruined」的用法，與本句語境不同。",
-        "finish-mcq-21": "「完成者；體育中善於完成得分機會的終結者」是「finisher」的用法，與本句語境不同。",
-        "finish-mcq-18": "「已完成、做好的」是「finished — completed」的用法，與本句語境不同。",
-        "finish-mcq-22": "「以某事作結」是「finish with」的用法，與本句語境不同。",
-        "finish-mcq-17": "「把剩餘的食物或飲料全部吃完／喝完」是「finish off food/drink」的用法，與本句語境不同。"
+        "finish-mcq-20": "本句的「unfinished work」指「尚未完成的」。",
+        "finish-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-20"
     },
@@ -1923,11 +1743,9 @@ export default {
       "masked": "The building remained ____ for years.",
       "options": [
         "finish-mcq-20",
-        "finish-mcq-19",
-        "finish-mcq-21",
-        "finish-mcq-18",
         "finish-mcq-22",
-        "finish-mcq-17"
+        "finish-mcq-14",
+        "finish-mcq-10"
       ],
       "explanation": "本句的「unfinished」指「尚未完成的」。",
       "sentenceIndex": 45,
@@ -1936,12 +1754,10 @@ export default {
         "unfinished"
       ],
       "optionReasons": {
-        "finish-mcq-20": "本句指「尚未完成的」。",
-        "finish-mcq-19": "「非正式：完了、沒希望了、被徹底擊敗」是「finished — ruined」的用法，與本句語境不同。",
-        "finish-mcq-21": "「完成者；體育中善於完成得分機會的終結者」是「finisher」的用法，與本句語境不同。",
-        "finish-mcq-18": "「已完成、做好的」是「finished — completed」的用法，與本句語境不同。",
-        "finish-mcq-22": "「以某事作結」是「finish with」的用法，與本句語境不同。",
-        "finish-mcq-17": "「把剩餘的食物或飲料全部吃完／喝完」是「finish off food/drink」的用法，與本句語境不同。"
+        "finish-mcq-20": "本句的「unfinished」指「尚未完成的」。",
+        "finish-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-20"
     },
@@ -1953,11 +1769,9 @@ export default {
       "masked": "He is a strong ____ in close races.",
       "options": [
         "finish-mcq-21",
-        "finish-mcq-20",
-        "finish-mcq-22",
-        "finish-mcq-19",
-        "finish-mcq-23",
-        "finish-mcq-18"
+        "finish-mcq-11",
+        "finish-mcq-10",
+        "finish-mcq-17"
       ],
       "explanation": "本句的「finisher」指「完成者；體育中善於完成得分機會的終結者」。",
       "sentenceIndex": 46,
@@ -1966,12 +1780,10 @@ export default {
         "finisher"
       ],
       "optionReasons": {
-        "finish-mcq-21": "本句指「完成者；體育中善於完成得分機會的終結者」。",
-        "finish-mcq-20": "「尚未完成的」是「unfinished」的用法，與本句語境不同。",
-        "finish-mcq-22": "「以某事作結」是「finish with」的用法，與本句語境不同。",
-        "finish-mcq-19": "「非正式：完了、沒希望了、被徹底擊敗」是「finished — ruined」的用法，與本句語境不同。",
-        "finish-mcq-23": "「最後做某事來結束」是「finish by doing」的用法，與本句語境不同。",
-        "finish-mcq-18": "「已完成、做好的」是「finished — completed」的用法，與本句語境不同。"
+        "finish-mcq-21": "本句的「finisher」指「完成者；體育中善於完成得分機會的終結者」。",
+        "finish-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-21"
     },
@@ -1983,11 +1795,9 @@ export default {
       "masked": "The striker is an excellent ____.",
       "options": [
         "finish-mcq-21",
-        "finish-mcq-20",
-        "finish-mcq-22",
-        "finish-mcq-19",
-        "finish-mcq-23",
-        "finish-mcq-18"
+        "finish-mcq-11",
+        "finish-mcq-10",
+        "finish-mcq-05"
       ],
       "explanation": "本句的「finisher」指「完成者；體育中善於完成得分機會的終結者」。",
       "sentenceIndex": 47,
@@ -1996,12 +1806,10 @@ export default {
         "finisher"
       ],
       "optionReasons": {
-        "finish-mcq-21": "本句指「完成者；體育中善於完成得分機會的終結者」。",
-        "finish-mcq-20": "「尚未完成的」是「unfinished」的用法，與本句語境不同。",
-        "finish-mcq-22": "「以某事作結」是「finish with」的用法，與本句語境不同。",
-        "finish-mcq-19": "「非正式：完了、沒希望了、被徹底擊敗」是「finished — ruined」的用法，與本句語境不同。",
-        "finish-mcq-23": "「最後做某事來結束」是「finish by doing」的用法，與本句語境不同。",
-        "finish-mcq-18": "「已完成、做好的」是「finished — completed」的用法，與本句語境不同。"
+        "finish-mcq-21": "本句的「finisher」指「完成者；體育中善於完成得分機會的終結者」。",
+        "finish-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-21"
     },
@@ -2013,11 +1821,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "finish-mcq-22",
-        "finish-mcq-21",
-        "finish-mcq-23",
-        "finish-mcq-20",
-        "finish-mcq-24",
-        "finish-mcq-19"
+        "finish-mcq-17",
+        "finish-mcq-14",
+        "finish-mcq-20"
       ],
       "explanation": "本句的「finished with a short thank-you message」指「以某事作結」。",
       "sentenceIndex": 48,
@@ -2026,12 +1832,10 @@ export default {
         "finished with a short thank-you message"
       ],
       "optionReasons": {
-        "finish-mcq-22": "本句指「以某事作結」。",
-        "finish-mcq-21": "「完成者；體育中善於完成得分機會的終結者」是「finisher」的用法，與本句語境不同。",
-        "finish-mcq-23": "「最後做某事來結束」是「finish by doing」的用法，與本句語境不同。",
-        "finish-mcq-20": "「尚未完成的」是「unfinished」的用法，與本句語境不同。",
-        "finish-mcq-24": "「收尾、完成、結束」是「finish up」的用法，與本句語境不同。",
-        "finish-mcq-19": "「非正式：完了、沒希望了、被徹底擊敗」是「finished — ruined」的用法，與本句語境不同。"
+        "finish-mcq-22": "本句的「finished with a short thank-you message」指「以某事作結」。",
+        "finish-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-22"
     },
@@ -2043,11 +1847,9 @@ export default {
       "masked": "The meal ____.",
       "options": [
         "finish-mcq-22",
-        "finish-mcq-21",
-        "finish-mcq-23",
-        "finish-mcq-20",
-        "finish-mcq-24",
-        "finish-mcq-19"
+        "finish-mcq-19",
+        "finish-mcq-09",
+        "finish-mcq-11"
       ],
       "explanation": "本句的「finished with dessert」指「以某事作結」。",
       "sentenceIndex": 49,
@@ -2056,12 +1858,10 @@ export default {
         "finished with dessert"
       ],
       "optionReasons": {
-        "finish-mcq-22": "本句指「以某事作結」。",
-        "finish-mcq-21": "「完成者；體育中善於完成得分機會的終結者」是「finisher」的用法，與本句語境不同。",
-        "finish-mcq-23": "「最後做某事來結束」是「finish by doing」的用法，與本句語境不同。",
-        "finish-mcq-20": "「尚未完成的」是「unfinished」的用法，與本句語境不同。",
-        "finish-mcq-24": "「收尾、完成、結束」是「finish up」的用法，與本句語境不同。",
-        "finish-mcq-19": "「非正式：完了、沒希望了、被徹底擊敗」是「finished — ruined」的用法，與本句語境不同。"
+        "finish-mcq-22": "本句的「finished with dessert」指「以某事作結」。",
+        "finish-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-22"
     },
@@ -2073,11 +1873,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "finish-mcq-23",
-        "finish-mcq-22",
-        "finish-mcq-24",
-        "finish-mcq-21",
-        "finish-mcq-20",
-        "finish-mcq-19"
+        "finish-mcq-17",
+        "finish-mcq-19",
+        "finish-mcq-12"
       ],
       "explanation": "本句的「finished by thanking everyone」指「最後做某事來結束」。",
       "sentenceIndex": 50,
@@ -2086,12 +1884,10 @@ export default {
         "finished by thanking everyone"
       ],
       "optionReasons": {
-        "finish-mcq-23": "本句指「最後做某事來結束」。",
-        "finish-mcq-22": "「以某事作結」是「finish with」的用法，與本句語境不同。",
-        "finish-mcq-24": "「收尾、完成、結束」是「finish up」的用法，與本句語境不同。",
-        "finish-mcq-21": "「完成者；體育中善於完成得分機會的終結者」是「finisher」的用法，與本句語境不同。",
-        "finish-mcq-20": "「尚未完成的」是「unfinished」的用法，與本句語境不同。",
-        "finish-mcq-19": "「非正式：完了、沒希望了、被徹底擊敗」是「finished — ruined」的用法，與本句語境不同。"
+        "finish-mcq-23": "本句的「finished by thanking everyone」指「最後做某事來結束」。",
+        "finish-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-23"
     },
@@ -2103,11 +1899,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "finish-mcq-23",
-        "finish-mcq-22",
-        "finish-mcq-24",
-        "finish-mcq-21",
-        "finish-mcq-20",
-        "finish-mcq-19"
+        "finish-mcq-17",
+        "finish-mcq-12",
+        "finish-mcq-10"
       ],
       "explanation": "本句的「finished by asking one final question」指「最後做某事來結束」。",
       "sentenceIndex": 51,
@@ -2116,12 +1910,10 @@ export default {
         "finished by asking one final question"
       ],
       "optionReasons": {
-        "finish-mcq-23": "本句指「最後做某事來結束」。",
-        "finish-mcq-22": "「以某事作結」是「finish with」的用法，與本句語境不同。",
-        "finish-mcq-24": "「收尾、完成、結束」是「finish up」的用法，與本句語境不同。",
-        "finish-mcq-21": "「完成者；體育中善於完成得分機會的終結者」是「finisher」的用法，與本句語境不同。",
-        "finish-mcq-20": "「尚未完成的」是「unfinished」的用法，與本句語境不同。",
-        "finish-mcq-19": "「非正式：完了、沒希望了、被徹底擊敗」是「finished — ruined」的用法，與本句語境不同。"
+        "finish-mcq-23": "本句的「finished by asking one final question」指「最後做某事來結束」。",
+        "finish-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-23"
     },
@@ -2133,11 +1925,9 @@ export default {
       "masked": "I need ten minutes to ____.",
       "options": [
         "finish-mcq-24",
-        "finish-mcq-23",
-        "finish-mcq-22",
-        "finish-mcq-21",
-        "finish-mcq-20",
-        "finish-mcq-19"
+        "finish-mcq-12",
+        "finish-mcq-10",
+        "finish-mcq-17"
       ],
       "explanation": "本句的「finish up」指「收尾、完成、結束」。",
       "sentenceIndex": 52,
@@ -2146,12 +1936,10 @@ export default {
         "finish up"
       ],
       "optionReasons": {
-        "finish-mcq-24": "本句指「收尾、完成、結束」。",
-        "finish-mcq-23": "「最後做某事來結束」是「finish by doing」的用法，與本句語境不同。",
-        "finish-mcq-22": "「以某事作結」是「finish with」的用法，與本句語境不同。",
-        "finish-mcq-21": "「完成者；體育中善於完成得分機會的終結者」是「finisher」的用法，與本句語境不同。",
-        "finish-mcq-20": "「尚未完成的」是「unfinished」的用法，與本句語境不同。",
-        "finish-mcq-19": "「非正式：完了、沒希望了、被徹底擊敗」是「finished — ruined」的用法，與本句語境不同。"
+        "finish-mcq-24": "本句的「finish up」指「收尾、完成、結束」。",
+        "finish-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-24"
     },
@@ -2163,11 +1951,9 @@ export default {
       "masked": "The meeting ____ around six.",
       "options": [
         "finish-mcq-24",
-        "finish-mcq-23",
-        "finish-mcq-22",
-        "finish-mcq-21",
-        "finish-mcq-20",
-        "finish-mcq-19"
+        "finish-mcq-11",
+        "finish-mcq-10",
+        "finish-mcq-04"
       ],
       "explanation": "本句的「finished up」指「收尾、完成、結束」。",
       "sentenceIndex": 53,
@@ -2176,12 +1962,10 @@ export default {
         "finished up"
       ],
       "optionReasons": {
-        "finish-mcq-24": "本句指「收尾、完成、結束」。",
-        "finish-mcq-23": "「最後做某事來結束」是「finish by doing」的用法，與本句語境不同。",
-        "finish-mcq-22": "「以某事作結」是「finish with」的用法，與本句語境不同。",
-        "finish-mcq-21": "「完成者；體育中善於完成得分機會的終結者」是「finisher」的用法，與本句語境不同。",
-        "finish-mcq-20": "「尚未完成的」是「unfinished」的用法，與本句語境不同。",
-        "finish-mcq-19": "「非正式：完了、沒希望了、被徹底擊敗」是「finished — ruined」的用法，與本句語境不同。"
+        "finish-mcq-24": "本句的「finished up」指「收尾、完成、結束」。",
+        "finish-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "finish-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finish-mcq-24"
     }
@@ -2193,5 +1977,7 @@ export default {
     "sha256": "36ff942aec003d1785ba585cedeb80120f7e8d394ee4a5c11aa7ddd0f10fa11e",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

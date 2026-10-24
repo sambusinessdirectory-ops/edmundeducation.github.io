@@ -300,11 +300,9 @@ export default {
       "masked": "Wide-leg trousers are back in ____.",
       "options": [
         "fashion-mcq-01",
-        "fashion-mcq-02",
-        "fashion-mcq-03",
-        "fashion-mcq-04",
-        "fashion-mcq-05",
-        "fashion-mcq-06"
+        "fashion-mcq-06",
+        "fashion-mcq-09",
+        "fashion-mcq-03"
       ],
       "explanation": "本句的「fashion」指「某時期普遍流行、被視為時髦的款式、風格或做法」。",
       "sentenceIndex": 0,
@@ -313,12 +311,10 @@ export default {
         "fashion"
       ],
       "optionReasons": {
-        "fashion-mcq-01": "本句指「某時期普遍流行、被視為時髦的款式、風格或做法」。",
-        "fashion-mcq-02": "「關於服裝、穿搭、設計及流行風格的時尚領域」與本句語境不同。",
-        "fashion-mcq-03": "「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」與本句語境不同。",
-        "fashion-mcq-04": "「做某件事或呈現某事的方式、方法」與本句語境不同。",
-        "fashion-mcq-05": "「用材料製作、塑造或構成某物」與本句語境不同。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。"
+        "fashion-mcq-01": "本句的「fashion」指「某時期普遍流行、被視為時髦的款式、風格或做法」。",
+        "fashion-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-01"
     },
@@ -330,11 +326,8 @@ export default {
       "masked": "____ changes quickly.",
       "options": [
         "fashion-mcq-01",
-        "fashion-mcq-02",
-        "fashion-mcq-03",
-        "fashion-mcq-04",
         "fashion-mcq-05",
-        "fashion-mcq-06"
+        "fashion-mcq-09"
       ],
       "explanation": "本句的「Fashion」指「某時期普遍流行、被視為時髦的款式、風格或做法」。",
       "sentenceIndex": 1,
@@ -343,12 +336,9 @@ export default {
         "Fashion"
       ],
       "optionReasons": {
-        "fashion-mcq-01": "本句指「某時期普遍流行、被視為時髦的款式、風格或做法」。",
-        "fashion-mcq-02": "「關於服裝、穿搭、設計及流行風格的時尚領域」與本句語境不同。",
-        "fashion-mcq-03": "「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」與本句語境不同。",
-        "fashion-mcq-04": "「做某件事或呈現某事的方式、方法」與本句語境不同。",
-        "fashion-mcq-05": "「用材料製作、塑造或構成某物」與本句語境不同。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。"
+        "fashion-mcq-01": "本句的「Fashion」指「某時期普遍流行、被視為時髦的款式、風格或做法」。",
+        "fashion-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-01"
     },
@@ -360,11 +350,9 @@ export default {
       "masked": "Some styles stay in ____ for years.",
       "options": [
         "fashion-mcq-01",
-        "fashion-mcq-02",
+        "fashion-mcq-06",
         "fashion-mcq-03",
-        "fashion-mcq-04",
-        "fashion-mcq-05",
-        "fashion-mcq-06"
+        "fashion-mcq-09"
       ],
       "explanation": "本句的「fashion」指「某時期普遍流行、被視為時髦的款式、風格或做法」。",
       "sentenceIndex": 2,
@@ -373,12 +361,10 @@ export default {
         "fashion"
       ],
       "optionReasons": {
-        "fashion-mcq-01": "本句指「某時期普遍流行、被視為時髦的款式、風格或做法」。",
-        "fashion-mcq-02": "「關於服裝、穿搭、設計及流行風格的時尚領域」與本句語境不同。",
-        "fashion-mcq-03": "「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」與本句語境不同。",
-        "fashion-mcq-04": "「做某件事或呈現某事的方式、方法」與本句語境不同。",
-        "fashion-mcq-05": "「用材料製作、塑造或構成某物」與本句語境不同。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。"
+        "fashion-mcq-01": "本句的「fashion」指「某時期普遍流行、被視為時髦的款式、風格或做法」。",
+        "fashion-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-01"
     },
@@ -390,11 +376,9 @@ export default {
       "masked": "The jacket means more to me than just ____.",
       "options": [
         "fashion-mcq-02",
-        "fashion-mcq-01",
-        "fashion-mcq-03",
-        "fashion-mcq-04",
         "fashion-mcq-05",
-        "fashion-mcq-06"
+        "fashion-mcq-09",
+        "fashion-mcq-04"
       ],
       "explanation": "本句的「fashion」指「關於服裝、穿搭、設計及流行風格的時尚領域」。",
       "sentenceIndex": 3,
@@ -403,12 +387,10 @@ export default {
         "fashion"
       ],
       "optionReasons": {
-        "fashion-mcq-02": "本句指「關於服裝、穿搭、設計及流行風格的時尚領域」。",
-        "fashion-mcq-01": "「某時期普遍流行、被視為時髦的款式、風格或做法」與本句語境不同。",
-        "fashion-mcq-03": "「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」與本句語境不同。",
-        "fashion-mcq-04": "「做某件事或呈現某事的方式、方法」與本句語境不同。",
-        "fashion-mcq-05": "「用材料製作、塑造或構成某物」與本句語境不同。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。"
+        "fashion-mcq-02": "本句的「fashion」指「關於服裝、穿搭、設計及流行風格的時尚領域」。",
+        "fashion-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-02"
     },
@@ -420,11 +402,9 @@ export default {
       "masked": "She has always been interested in ____.",
       "options": [
         "fashion-mcq-02",
-        "fashion-mcq-01",
-        "fashion-mcq-03",
         "fashion-mcq-04",
-        "fashion-mcq-05",
-        "fashion-mcq-06"
+        "fashion-mcq-06",
+        "fashion-mcq-09"
       ],
       "explanation": "本句的「fashion」指「關於服裝、穿搭、設計及流行風格的時尚領域」。",
       "sentenceIndex": 4,
@@ -433,12 +413,10 @@ export default {
         "fashion"
       ],
       "optionReasons": {
-        "fashion-mcq-02": "本句指「關於服裝、穿搭、設計及流行風格的時尚領域」。",
-        "fashion-mcq-01": "「某時期普遍流行、被視為時髦的款式、風格或做法」與本句語境不同。",
-        "fashion-mcq-03": "「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」與本句語境不同。",
-        "fashion-mcq-04": "「做某件事或呈現某事的方式、方法」與本句語境不同。",
-        "fashion-mcq-05": "「用材料製作、塑造或構成某物」與本句語境不同。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。"
+        "fashion-mcq-02": "本句的「fashion」指「關於服裝、穿搭、設計及流行風格的時尚領域」。",
+        "fashion-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-02"
     },
@@ -450,11 +428,9 @@ export default {
       "masked": "He does not care much about ____.",
       "options": [
         "fashion-mcq-02",
-        "fashion-mcq-01",
-        "fashion-mcq-03",
+        "fashion-mcq-06",
         "fashion-mcq-04",
-        "fashion-mcq-05",
-        "fashion-mcq-06"
+        "fashion-mcq-09"
       ],
       "explanation": "本句的「fashion」指「關於服裝、穿搭、設計及流行風格的時尚領域」。",
       "sentenceIndex": 5,
@@ -463,12 +439,10 @@ export default {
         "fashion"
       ],
       "optionReasons": {
-        "fashion-mcq-02": "本句指「關於服裝、穿搭、設計及流行風格的時尚領域」。",
-        "fashion-mcq-01": "「某時期普遍流行、被視為時髦的款式、風格或做法」與本句語境不同。",
-        "fashion-mcq-03": "「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」與本句語境不同。",
-        "fashion-mcq-04": "「做某件事或呈現某事的方式、方法」與本句語境不同。",
-        "fashion-mcq-05": "「用材料製作、塑造或構成某物」與本句語境不同。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。"
+        "fashion-mcq-02": "本句的「fashion」指「關於服裝、穿搭、設計及流行風格的時尚領域」。",
+        "fashion-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-02"
     },
@@ -480,11 +454,9 @@ export default {
       "masked": "She works in ____.",
       "options": [
         "fashion-mcq-03",
-        "fashion-mcq-02",
-        "fashion-mcq-04",
-        "fashion-mcq-01",
-        "fashion-mcq-05",
-        "fashion-mcq-06"
+        "fashion-mcq-09",
+        "fashion-mcq-06",
+        "fashion-mcq-04"
       ],
       "explanation": "本句的「fashion」指「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」。",
       "sentenceIndex": 6,
@@ -493,12 +465,10 @@ export default {
         "fashion"
       ],
       "optionReasons": {
-        "fashion-mcq-03": "本句指「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」。",
-        "fashion-mcq-02": "「關於服裝、穿搭、設計及流行風格的時尚領域」與本句語境不同。",
-        "fashion-mcq-04": "「做某件事或呈現某事的方式、方法」與本句語境不同。",
-        "fashion-mcq-01": "「某時期普遍流行、被視為時髦的款式、風格或做法」與本句語境不同。",
-        "fashion-mcq-05": "「用材料製作、塑造或構成某物」與本句語境不同。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。"
+        "fashion-mcq-03": "本句的「fashion」指「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-03"
     },
@@ -510,11 +480,9 @@ export default {
       "masked": "The city is an important centre for ____.",
       "options": [
         "fashion-mcq-03",
-        "fashion-mcq-02",
         "fashion-mcq-04",
-        "fashion-mcq-01",
-        "fashion-mcq-05",
-        "fashion-mcq-06"
+        "fashion-mcq-06",
+        "fashion-mcq-09"
       ],
       "explanation": "本句的「fashion」指「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」。",
       "sentenceIndex": 7,
@@ -523,12 +491,10 @@ export default {
         "fashion"
       ],
       "optionReasons": {
-        "fashion-mcq-03": "本句指「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」。",
-        "fashion-mcq-02": "「關於服裝、穿搭、設計及流行風格的時尚領域」與本句語境不同。",
-        "fashion-mcq-04": "「做某件事或呈現某事的方式、方法」與本句語境不同。",
-        "fashion-mcq-01": "「某時期普遍流行、被視為時髦的款式、風格或做法」與本句語境不同。",
-        "fashion-mcq-05": "「用材料製作、塑造或構成某物」與本句語境不同。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。"
+        "fashion-mcq-03": "本句的「fashion」指「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」。",
+        "fashion-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-03"
     },
@@ -540,11 +506,9 @@ export default {
       "masked": "The information was presented in a clear ____.",
       "options": [
         "fashion-mcq-04",
-        "fashion-mcq-03",
-        "fashion-mcq-05",
         "fashion-mcq-02",
-        "fashion-mcq-06",
-        "fashion-mcq-01"
+        "fashion-mcq-05",
+        "fashion-mcq-09"
       ],
       "explanation": "本句的「fashion」指「做某件事或呈現某事的方式、方法」。",
       "sentenceIndex": 8,
@@ -553,12 +517,10 @@ export default {
         "fashion"
       ],
       "optionReasons": {
-        "fashion-mcq-04": "本句指「做某件事或呈現某事的方式、方法」。",
-        "fashion-mcq-03": "「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」與本句語境不同。",
-        "fashion-mcq-05": "「用材料製作、塑造或構成某物」與本句語境不同。",
-        "fashion-mcq-02": "「關於服裝、穿搭、設計及流行風格的時尚領域」與本句語境不同。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。",
-        "fashion-mcq-01": "「某時期普遍流行、被視為時髦的款式、風格或做法」與本句語境不同。"
+        "fashion-mcq-04": "本句的「fashion」指「做某件事或呈現某事的方式、方法」。",
+        "fashion-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-04"
     },
@@ -570,11 +532,9 @@ export default {
       "masked": "They responded in a similar ____.",
       "options": [
         "fashion-mcq-04",
-        "fashion-mcq-03",
-        "fashion-mcq-05",
-        "fashion-mcq-02",
+        "fashion-mcq-08",
         "fashion-mcq-06",
-        "fashion-mcq-01"
+        "fashion-mcq-03"
       ],
       "explanation": "本句的「fashion」指「做某件事或呈現某事的方式、方法」。",
       "sentenceIndex": 9,
@@ -583,12 +543,10 @@ export default {
         "fashion"
       ],
       "optionReasons": {
-        "fashion-mcq-04": "本句指「做某件事或呈現某事的方式、方法」。",
-        "fashion-mcq-03": "「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」與本句語境不同。",
-        "fashion-mcq-05": "「用材料製作、塑造或構成某物」與本句語境不同。",
-        "fashion-mcq-02": "「關於服裝、穿搭、設計及流行風格的時尚領域」與本句語境不同。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。",
-        "fashion-mcq-01": "「某時期普遍流行、被視為時髦的款式、風格或做法」與本句語境不同。"
+        "fashion-mcq-04": "本句的「fashion」指「做某件事或呈現某事的方式、方法」。",
+        "fashion-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-04"
     },
@@ -600,11 +558,9 @@ export default {
       "masked": "The room was decorated in traditional ____.",
       "options": [
         "fashion-mcq-04",
-        "fashion-mcq-03",
-        "fashion-mcq-05",
         "fashion-mcq-02",
         "fashion-mcq-06",
-        "fashion-mcq-01"
+        "fashion-mcq-09"
       ],
       "explanation": "本句的「fashion」指「做某件事或呈現某事的方式、方法」。",
       "sentenceIndex": 10,
@@ -613,12 +569,10 @@ export default {
         "fashion"
       ],
       "optionReasons": {
-        "fashion-mcq-04": "本句指「做某件事或呈現某事的方式、方法」。",
-        "fashion-mcq-03": "「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」與本句語境不同。",
-        "fashion-mcq-05": "「用材料製作、塑造或構成某物」與本句語境不同。",
-        "fashion-mcq-02": "「關於服裝、穿搭、設計及流行風格的時尚領域」與本句語境不同。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。",
-        "fashion-mcq-01": "「某時期普遍流行、被視為時髦的款式、風格或做法」與本句語境不同。"
+        "fashion-mcq-04": "本句的「fashion」指「做某件事或呈現某事的方式、方法」。",
+        "fashion-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-04"
     },
@@ -630,11 +584,9 @@ export default {
       "masked": "The pieces were arranged in a circular ____.",
       "options": [
         "fashion-mcq-04",
-        "fashion-mcq-03",
-        "fashion-mcq-05",
-        "fashion-mcq-02",
+        "fashion-mcq-10",
         "fashion-mcq-06",
-        "fashion-mcq-01"
+        "fashion-mcq-03"
       ],
       "explanation": "本句的「fashion」指「做某件事或呈現某事的方式、方法」。",
       "sentenceIndex": 11,
@@ -643,12 +595,10 @@ export default {
         "fashion"
       ],
       "optionReasons": {
-        "fashion-mcq-04": "本句指「做某件事或呈現某事的方式、方法」。",
-        "fashion-mcq-03": "「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」與本句語境不同。",
-        "fashion-mcq-05": "「用材料製作、塑造或構成某物」與本句語境不同。",
-        "fashion-mcq-02": "「關於服裝、穿搭、設計及流行風格的時尚領域」與本句語境不同。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。",
-        "fashion-mcq-01": "「某時期普遍流行、被視為時髦的款式、風格或做法」與本句語境不同。"
+        "fashion-mcq-04": "本句的「fashion」指「做某件事或呈現某事的方式、方法」。",
+        "fashion-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-04"
     },
@@ -660,11 +610,8 @@ export default {
       "masked": "They ____ a simple tool from wood.",
       "options": [
         "fashion-mcq-05",
-        "fashion-mcq-04",
-        "fashion-mcq-06",
-        "fashion-mcq-03",
-        "fashion-mcq-07",
-        "fashion-mcq-02"
+        "fashion-mcq-01",
+        "fashion-mcq-09"
       ],
       "explanation": "本句的「fashioned」指「用材料製作、塑造或構成某物」。",
       "sentenceIndex": 12,
@@ -673,12 +620,9 @@ export default {
         "fashioned"
       ],
       "optionReasons": {
-        "fashion-mcq-05": "本句指「用材料製作、塑造或構成某物」。",
-        "fashion-mcq-04": "「做某件事或呈現某事的方式、方法」與本句語境不同。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。",
-        "fashion-mcq-03": "「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」與本句語境不同。",
-        "fashion-mcq-07": "「正在流行／時髦」與本句語境不同。",
-        "fashion-mcq-02": "「關於服裝、穿搭、設計及流行風格的時尚領域」與本句語境不同。"
+        "fashion-mcq-05": "本句的「fashioned」指「用材料製作、塑造或構成某物」。",
+        "fashion-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-05"
     },
@@ -690,11 +634,9 @@ export default {
       "masked": "She ____ the clay into a small bowl.",
       "options": [
         "fashion-mcq-05",
+        "fashion-mcq-08",
         "fashion-mcq-04",
-        "fashion-mcq-06",
-        "fashion-mcq-03",
-        "fashion-mcq-07",
-        "fashion-mcq-02"
+        "fashion-mcq-09"
       ],
       "explanation": "本句的「fashioned」指「用材料製作、塑造或構成某物」。",
       "sentenceIndex": 13,
@@ -703,12 +645,10 @@ export default {
         "fashioned"
       ],
       "optionReasons": {
-        "fashion-mcq-05": "本句指「用材料製作、塑造或構成某物」。",
-        "fashion-mcq-04": "「做某件事或呈現某事的方式、方法」與本句語境不同。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。",
-        "fashion-mcq-03": "「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」與本句語境不同。",
-        "fashion-mcq-07": "「正在流行／時髦」與本句語境不同。",
-        "fashion-mcq-02": "「關於服裝、穿搭、設計及流行風格的時尚領域」與本句語境不同。"
+        "fashion-mcq-05": "本句的「fashioned」指「用材料製作、塑造或構成某物」。",
+        "fashion-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-05"
     },
@@ -720,10 +660,8 @@ export default {
       "masked": "He ____ a successful career from modest beginnings.",
       "options": [
         "fashion-mcq-06",
-        "fashion-mcq-05",
-        "fashion-mcq-07",
-        "fashion-mcq-04",
-        "fashion-mcq-08",
+        "fashion-pdf-001",
+        "fashion-mcq-09",
         "fashion-mcq-03"
       ],
       "explanation": "本句的「fashioned」指「有意識地塑造、打造某個結果、角色或事物」。",
@@ -733,12 +671,10 @@ export default {
         "fashioned"
       ],
       "optionReasons": {
-        "fashion-mcq-06": "本句指「有意識地塑造、打造某個結果、角色或事物」。",
-        "fashion-mcq-05": "「用材料製作、塑造或構成某物」與本句語境不同。",
-        "fashion-mcq-07": "「正在流行／時髦」與本句語境不同。",
-        "fashion-mcq-04": "「做某件事或呈現某事的方式、方法」與本句語境不同。",
-        "fashion-mcq-08": "「過時／不再流行」與本句語境不同。",
-        "fashion-mcq-03": "「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」與本句語境不同。"
+        "fashion-mcq-06": "本句的「fashioned」指「有意識地塑造、打造某個結果、角色或事物」。",
+        "fashion-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-06"
     },
@@ -750,11 +686,9 @@ export default {
       "masked": "The writer ____ the story from several real events.",
       "options": [
         "fashion-mcq-06",
-        "fashion-mcq-05",
-        "fashion-mcq-07",
+        "fashion-mcq-02",
         "fashion-mcq-04",
-        "fashion-mcq-08",
-        "fashion-mcq-03"
+        "fashion-mcq-09"
       ],
       "explanation": "本句的「fashioned」指「有意識地塑造、打造某個結果、角色或事物」。",
       "sentenceIndex": 15,
@@ -763,12 +697,10 @@ export default {
         "fashioned"
       ],
       "optionReasons": {
-        "fashion-mcq-06": "本句指「有意識地塑造、打造某個結果、角色或事物」。",
-        "fashion-mcq-05": "「用材料製作、塑造或構成某物」與本句語境不同。",
-        "fashion-mcq-07": "「正在流行／時髦」與本句語境不同。",
-        "fashion-mcq-04": "「做某件事或呈現某事的方式、方法」與本句語境不同。",
-        "fashion-mcq-08": "「過時／不再流行」與本句語境不同。",
-        "fashion-mcq-03": "「設計、生產、宣傳、銷售服裝等的時裝／時尚產業」與本句語境不同。"
+        "fashion-mcq-06": "本句的「fashioned」指「有意識地塑造、打造某個結果、角色或事物」。",
+        "fashion-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-06"
     },
@@ -780,11 +712,9 @@ export default {
       "masked": "Denim jackets are still ____.",
       "options": [
         "fashion-mcq-07",
-        "fashion-mcq-06",
-        "fashion-mcq-08",
-        "fashion-mcq-05",
         "fashion-mcq-09",
-        "fashion-mcq-04"
+        "fashion-mcq-04",
+        "fashion-mcq-05"
       ],
       "explanation": "本句的「in fashion」指「正在流行／時髦」。",
       "sentenceIndex": 18,
@@ -793,12 +723,10 @@ export default {
         "in fashion"
       ],
       "optionReasons": {
-        "fashion-mcq-07": "本句指「正在流行／時髦」。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。",
-        "fashion-mcq-08": "「過時／不再流行」與本句語境不同。",
-        "fashion-mcq-05": "「用材料製作、塑造或構成某物」與本句語境不同。",
-        "fashion-mcq-09": "「某程度上算是做到，但做得不太好」與本句語境不同。",
-        "fashion-mcq-04": "「做某件事或呈現某事的方式、方法」與本句語境不同。"
+        "fashion-mcq-07": "本句的「in fashion」指「正在流行／時髦」。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-07"
     },
@@ -810,11 +738,9 @@ export default {
       "masked": "That style went ____ years ago.",
       "options": [
         "fashion-mcq-08",
-        "fashion-mcq-07",
+        "fashion-mcq-05",
         "fashion-mcq-09",
-        "fashion-mcq-06",
-        "fashion-mcq-10",
-        "fashion-mcq-05"
+        "fashion-mcq-04"
       ],
       "explanation": "本句的「out of fashion」指「過時／不再流行」。",
       "sentenceIndex": 19,
@@ -823,12 +749,10 @@ export default {
         "out of fashion"
       ],
       "optionReasons": {
-        "fashion-mcq-08": "本句指「過時／不再流行」。",
-        "fashion-mcq-07": "「正在流行／時髦」與本句語境不同。",
-        "fashion-mcq-09": "「某程度上算是做到，但做得不太好」與本句語境不同。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。",
-        "fashion-mcq-10": "「流行、時髦；亦可指某地方、活動或觀念當下很受歡迎」與本句語境不同。",
-        "fashion-mcq-05": "「用材料製作、塑造或構成某物」與本句語境不同。"
+        "fashion-mcq-08": "本句的「out of fashion」指「過時／不再流行」。",
+        "fashion-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-08"
     },
@@ -840,10 +764,8 @@ export default {
       "masked": "He can cook, after a ____.",
       "options": [
         "fashion-mcq-09",
-        "fashion-mcq-08",
         "fashion-mcq-10",
-        "fashion-mcq-07",
-        "fashion-mcq-11",
+        "fashion-mcq-03",
         "fashion-mcq-06"
       ],
       "explanation": "本句的「fashion」指「某程度上算是做到，但做得不太好」。",
@@ -853,12 +775,10 @@ export default {
         "fashion"
       ],
       "optionReasons": {
-        "fashion-mcq-09": "本句指「某程度上算是做到，但做得不太好」。",
-        "fashion-mcq-08": "「過時／不再流行」與本句語境不同。",
-        "fashion-mcq-10": "「流行、時髦；亦可指某地方、活動或觀念當下很受歡迎」與本句語境不同。",
-        "fashion-mcq-07": "「正在流行／時髦」與本句語境不同。",
-        "fashion-mcq-11": "「不流行、過時、不受潮流人士歡迎的」與本句語境不同。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。"
+        "fashion-mcq-09": "本句的「fashion」指「某程度上算是做到，但做得不太好」。",
+        "fashion-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-09"
     },
@@ -870,11 +790,9 @@ export default {
       "masked": "The repair worked, after a ____.",
       "options": [
         "fashion-mcq-09",
-        "fashion-mcq-08",
-        "fashion-mcq-10",
-        "fashion-mcq-07",
         "fashion-mcq-11",
-        "fashion-mcq-06"
+        "fashion-mcq-05",
+        "fashion-mcq-04"
       ],
       "explanation": "本句的「fashion」指「某程度上算是做到，但做得不太好」。",
       "sentenceIndex": 21,
@@ -883,12 +801,10 @@ export default {
         "fashion"
       ],
       "optionReasons": {
-        "fashion-mcq-09": "本句指「某程度上算是做到，但做得不太好」。",
-        "fashion-mcq-08": "「過時／不再流行」與本句語境不同。",
-        "fashion-mcq-10": "「流行、時髦；亦可指某地方、活動或觀念當下很受歡迎」與本句語境不同。",
-        "fashion-mcq-07": "「正在流行／時髦」與本句語境不同。",
-        "fashion-mcq-11": "「不流行、過時、不受潮流人士歡迎的」與本句語境不同。",
-        "fashion-mcq-06": "「有意識地塑造、打造某個結果、角色或事物」與本句語境不同。"
+        "fashion-mcq-09": "本句的「fashion」指「某程度上算是做到，但做得不太好」。",
+        "fashion-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-09"
     },
@@ -900,11 +816,9 @@ export default {
       "masked": "She wore a very ____ jacket.",
       "options": [
         "fashion-pdf-001",
+        "fashion-mcq-06",
         "fashion-mcq-09",
-        "fashion-mcq-11",
-        "fashion-mcq-08",
-        "fashion-mcq-12",
-        "fashion-mcq-07"
+        "fashion-mcq-04"
       ],
       "explanation": "本句的「fashionable」指「符合目前流行風格、被認為時髦的」。",
       "sentenceIndex": 22,
@@ -913,12 +827,10 @@ export default {
         "fashionable"
       ],
       "optionReasons": {
-        "fashion-pdf-001": "本句指「符合目前流行風格、被認為時髦的」。",
-        "fashion-mcq-09": "「某程度上算是做到，但做得不太好」與本句語境不同。",
-        "fashion-mcq-11": "「不流行、過時、不受潮流人士歡迎的」與本句語境不同。",
-        "fashion-mcq-08": "「過時／不再流行」與本句語境不同。",
-        "fashion-mcq-12": "「非常關注時尚、追隨潮流的人」與本句語境不同。",
-        "fashion-mcq-07": "「正在流行／時髦」與本句語境不同。"
+        "fashion-pdf-001": "本句的「fashionable」指「符合目前流行風格、被認為時髦的」。",
+        "fashion-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-pdf-001"
     },
@@ -930,11 +842,9 @@ export default {
       "masked": "The neighbourhood became a ____ place to live.",
       "options": [
         "fashion-mcq-10",
-        "fashion-mcq-09",
-        "fashion-mcq-11",
-        "fashion-mcq-08",
-        "fashion-mcq-12",
-        "fashion-mcq-07"
+        "fashion-mcq-05",
+        "fashion-mcq-04",
+        "fashion-mcq-09"
       ],
       "explanation": "本句的「fashionable」指「流行、時髦；亦可指某地方、活動或觀念當下很受歡迎」。",
       "sentenceIndex": 23,
@@ -943,12 +853,10 @@ export default {
         "fashionable"
       ],
       "optionReasons": {
-        "fashion-mcq-10": "本句指「流行、時髦；亦可指某地方、活動或觀念當下很受歡迎」。",
-        "fashion-mcq-09": "「某程度上算是做到，但做得不太好」與本句語境不同。",
-        "fashion-mcq-11": "「不流行、過時、不受潮流人士歡迎的」與本句語境不同。",
-        "fashion-mcq-08": "「過時／不再流行」與本句語境不同。",
-        "fashion-mcq-12": "「非常關注時尚、追隨潮流的人」與本句語境不同。",
-        "fashion-mcq-07": "「正在流行／時髦」與本句語境不同。"
+        "fashion-mcq-10": "本句的「fashionable」指「流行、時髦；亦可指某地方、活動或觀念當下很受歡迎」。",
+        "fashion-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-10"
     },
@@ -960,11 +868,9 @@ export default {
       "masked": "The restaurant is popular with a ____ crowd.",
       "options": [
         "fashion-mcq-10",
+        "fashion-mcq-06",
         "fashion-mcq-09",
-        "fashion-mcq-11",
-        "fashion-mcq-08",
-        "fashion-mcq-12",
-        "fashion-mcq-07"
+        "fashion-mcq-04"
       ],
       "explanation": "本句的「fashionable」指「流行、時髦；亦可指某地方、活動或觀念當下很受歡迎」。",
       "sentenceIndex": 24,
@@ -973,12 +879,10 @@ export default {
         "fashionable"
       ],
       "optionReasons": {
-        "fashion-mcq-10": "本句指「流行、時髦；亦可指某地方、活動或觀念當下很受歡迎」。",
-        "fashion-mcq-09": "「某程度上算是做到，但做得不太好」與本句語境不同。",
-        "fashion-mcq-11": "「不流行、過時、不受潮流人士歡迎的」與本句語境不同。",
-        "fashion-mcq-08": "「過時／不再流行」與本句語境不同。",
-        "fashion-mcq-12": "「非常關注時尚、追隨潮流的人」與本句語境不同。",
-        "fashion-mcq-07": "「正在流行／時髦」與本句語境不同。"
+        "fashion-mcq-10": "本句的「fashionable」指「流行、時髦；亦可指某地方、活動或觀念當下很受歡迎」。",
+        "fashion-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-10"
     },
@@ -990,11 +894,9 @@ export default {
       "masked": "It became ____ to criticize the old approach.",
       "options": [
         "fashion-mcq-10",
-        "fashion-mcq-09",
-        "fashion-mcq-11",
-        "fashion-mcq-08",
-        "fashion-mcq-12",
-        "fashion-mcq-07"
+        "fashion-mcq-06",
+        "fashion-mcq-04",
+        "fashion-mcq-09"
       ],
       "explanation": "本句的「fashionable」指「流行、時髦；亦可指某地方、活動或觀念當下很受歡迎」。",
       "sentenceIndex": 25,
@@ -1003,12 +905,10 @@ export default {
         "fashionable"
       ],
       "optionReasons": {
-        "fashion-mcq-10": "本句指「流行、時髦；亦可指某地方、活動或觀念當下很受歡迎」。",
-        "fashion-mcq-09": "「某程度上算是做到，但做得不太好」與本句語境不同。",
-        "fashion-mcq-11": "「不流行、過時、不受潮流人士歡迎的」與本句語境不同。",
-        "fashion-mcq-08": "「過時／不再流行」與本句語境不同。",
-        "fashion-mcq-12": "「非常關注時尚、追隨潮流的人」與本句語境不同。",
-        "fashion-mcq-07": "「正在流行／時髦」與本句語境不同。"
+        "fashion-mcq-10": "本句的「fashionable」指「流行、時髦；亦可指某地方、活動或觀念當下很受歡迎」。",
+        "fashion-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-10"
     },
@@ -1020,11 +920,9 @@ export default {
       "masked": "The style became ____.",
       "options": [
         "fashion-mcq-11",
-        "fashion-mcq-10",
-        "fashion-mcq-12",
-        "fashion-mcq-09",
-        "fashion-mcq-08",
-        "fashion-mcq-07"
+        "fashion-mcq-06",
+        "fashion-mcq-04",
+        "fashion-mcq-09"
       ],
       "explanation": "本句的「unfashionable」指「不流行、過時、不受潮流人士歡迎的」。",
       "sentenceIndex": 28,
@@ -1033,12 +931,10 @@ export default {
         "unfashionable"
       ],
       "optionReasons": {
-        "fashion-mcq-11": "本句指「不流行、過時、不受潮流人士歡迎的」。",
-        "fashion-mcq-10": "「流行、時髦；亦可指某地方、活動或觀念當下很受歡迎」與本句語境不同。",
-        "fashion-mcq-12": "「非常關注時尚、追隨潮流的人」與本句語境不同。",
-        "fashion-mcq-09": "「某程度上算是做到，但做得不太好」與本句語境不同。",
-        "fashion-mcq-08": "「過時／不再流行」與本句語境不同。",
-        "fashion-mcq-07": "「正在流行／時髦」與本句語境不同。"
+        "fashion-mcq-11": "本句的「unfashionable」指「不流行、過時、不受潮流人士歡迎的」。",
+        "fashion-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-11"
     },
@@ -1050,11 +946,9 @@ export default {
       "masked": "It was once considered an ____ neighbourhood.",
       "options": [
         "fashion-mcq-11",
-        "fashion-mcq-10",
-        "fashion-mcq-12",
+        "fashion-mcq-04",
         "fashion-mcq-09",
-        "fashion-mcq-08",
-        "fashion-mcq-07"
+        "fashion-mcq-05"
       ],
       "explanation": "本句的「unfashionable」指「不流行、過時、不受潮流人士歡迎的」。",
       "sentenceIndex": 29,
@@ -1063,12 +957,10 @@ export default {
         "unfashionable"
       ],
       "optionReasons": {
-        "fashion-mcq-11": "本句指「不流行、過時、不受潮流人士歡迎的」。",
-        "fashion-mcq-10": "「流行、時髦；亦可指某地方、活動或觀念當下很受歡迎」與本句語境不同。",
-        "fashion-mcq-12": "「非常關注時尚、追隨潮流的人」與本句語境不同。",
-        "fashion-mcq-09": "「某程度上算是做到，但做得不太好」與本句語境不同。",
-        "fashion-mcq-08": "「過時／不再流行」與本句語境不同。",
-        "fashion-mcq-07": "「正在流行／時髦」與本句語境不同。"
+        "fashion-mcq-11": "本句的「unfashionable」指「不流行、過時、不受潮流人士歡迎的」。",
+        "fashion-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fashion-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fashion-mcq-11"
     }
@@ -1080,5 +972,7 @@ export default {
     "sha256": "1b08625173a3818604d47f5656b15e7ab586f1fac27996bd49a5178985c42a06",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

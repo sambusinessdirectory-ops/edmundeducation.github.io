@@ -368,11 +368,8 @@ export default {
       "masked": "Only a small percentage of ____ were electric.",
       "options": [
         "vehicle-mcq-01",
-        "vehicle-mcq-02",
-        "vehicle-mcq-03",
-        "vehicle-mcq-04",
-        "vehicle-mcq-05",
-        "vehicle-mcq-06"
+        "vehicle-mcq-11",
+        "vehicle-mcq-09"
       ],
       "explanation": "本句的「vehicles」指「用來運載人或貨物的交通工具，尤其是道路車輛」。",
       "sentenceIndex": 0,
@@ -381,12 +378,9 @@ export default {
         "vehicles"
       ],
       "optionReasons": {
-        "vehicle-mcq-01": "本句指「用來運載人或貨物的交通工具，尤其是道路車輛」。",
-        "vehicle-mcq-02": "「由引擎／馬達驅動的道路機動車輛」與本句語境不同。",
-        "vehicle-mcq-03": "「以電力驅動的車輛」與本句語境不同。",
-        "vehicle-mcq-04": "「主要用於商業、送貨、營運用途的車輛」與本句語境不同。",
-        "vehicle-mcq-05": "「用於消防、救護、警務等緊急服務的車輛」與本句語境不同。",
-        "vehicle-mcq-06": "「用來運送人員、設備或載荷進入／在太空運行的載具」與本句語境不同。"
+        "vehicle-mcq-01": "本句的「vehicles」指「用來運載人或貨物的交通工具，尤其是道路車輛」。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-01"
     },
@@ -398,11 +392,8 @@ export default {
       "masked": "The road is closed to heavy ____.",
       "options": [
         "vehicle-mcq-01",
-        "vehicle-mcq-02",
-        "vehicle-mcq-03",
-        "vehicle-mcq-04",
-        "vehicle-mcq-05",
-        "vehicle-mcq-06"
+        "vehicle-mcq-09",
+        "vehicle-mcq-11"
       ],
       "explanation": "本句的「vehicles」指「用來運載人或貨物的交通工具，尤其是道路車輛」。",
       "sentenceIndex": 1,
@@ -411,12 +402,9 @@ export default {
         "vehicles"
       ],
       "optionReasons": {
-        "vehicle-mcq-01": "本句指「用來運載人或貨物的交通工具，尤其是道路車輛」。",
-        "vehicle-mcq-02": "「由引擎／馬達驅動的道路機動車輛」與本句語境不同。",
-        "vehicle-mcq-03": "「以電力驅動的車輛」與本句語境不同。",
-        "vehicle-mcq-04": "「主要用於商業、送貨、營運用途的車輛」與本句語境不同。",
-        "vehicle-mcq-05": "「用於消防、救護、警務等緊急服務的車輛」與本句語境不同。",
-        "vehicle-mcq-06": "「用來運送人員、設備或載荷進入／在太空運行的載具」與本句語境不同。"
+        "vehicle-mcq-01": "本句的「vehicles」指「用來運載人或貨物的交通工具，尤其是道路車輛」。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-01"
     },
@@ -428,11 +416,9 @@ export default {
       "masked": "All ____ must be registered.",
       "options": [
         "vehicle-mcq-02",
-        "vehicle-mcq-01",
-        "vehicle-mcq-03",
-        "vehicle-mcq-04",
-        "vehicle-mcq-05",
-        "vehicle-mcq-06"
+        "vehicle-mcq-06",
+        "vehicle-mcq-11",
+        "vehicle-mcq-09"
       ],
       "explanation": "本句的「motor vehicles」指「由引擎／馬達驅動的道路機動車輛」。",
       "sentenceIndex": 2,
@@ -441,12 +427,10 @@ export default {
         "motor vehicles"
       ],
       "optionReasons": {
-        "vehicle-mcq-02": "本句指「由引擎／馬達驅動的道路機動車輛」。",
-        "vehicle-mcq-01": "「用來運載人或貨物的交通工具，尤其是道路車輛」與本句語境不同。",
-        "vehicle-mcq-03": "「以電力驅動的車輛」與本句語境不同。",
-        "vehicle-mcq-04": "「主要用於商業、送貨、營運用途的車輛」與本句語境不同。",
-        "vehicle-mcq-05": "「用於消防、救護、警務等緊急服務的車輛」與本句語境不同。",
-        "vehicle-mcq-06": "「用來運送人員、設備或載荷進入／在太空運行的載具」與本句語境不同。"
+        "vehicle-mcq-02": "本句的「motor vehicles」指「由引擎／馬達驅動的道路機動車輛」。",
+        "vehicle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-02"
     },
@@ -458,11 +442,9 @@ export default {
       "masked": "The law applies to motor ____ on public roads.",
       "options": [
         "vehicle-mcq-02",
-        "vehicle-mcq-01",
-        "vehicle-mcq-03",
-        "vehicle-mcq-04",
-        "vehicle-mcq-05",
-        "vehicle-mcq-06"
+        "vehicle-mcq-11",
+        "vehicle-mcq-15",
+        "vehicle-mcq-09"
       ],
       "explanation": "本句的「vehicles」指「由引擎／馬達驅動的道路機動車輛」。",
       "sentenceIndex": 3,
@@ -471,12 +453,10 @@ export default {
         "vehicles"
       ],
       "optionReasons": {
-        "vehicle-mcq-02": "本句指「由引擎／馬達驅動的道路機動車輛」。",
-        "vehicle-mcq-01": "「用來運載人或貨物的交通工具，尤其是道路車輛」與本句語境不同。",
-        "vehicle-mcq-03": "「以電力驅動的車輛」與本句語境不同。",
-        "vehicle-mcq-04": "「主要用於商業、送貨、營運用途的車輛」與本句語境不同。",
-        "vehicle-mcq-05": "「用於消防、救護、警務等緊急服務的車輛」與本句語境不同。",
-        "vehicle-mcq-06": "「用來運送人員、設備或載荷進入／在太空運行的載具」與本句語境不同。"
+        "vehicle-mcq-02": "本句的「vehicles」指「由引擎／馬達驅動的道路機動車輛」。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-02"
     },
@@ -488,11 +468,9 @@ export default {
       "masked": "Electric ____ produce no tailpipe emissions.",
       "options": [
         "vehicle-mcq-03",
-        "vehicle-mcq-02",
-        "vehicle-mcq-04",
-        "vehicle-mcq-01",
-        "vehicle-mcq-05",
-        "vehicle-mcq-06"
+        "vehicle-mcq-06",
+        "vehicle-mcq-11",
+        "vehicle-mcq-09"
       ],
       "explanation": "本句的「vehicles」指「以電力驅動的車輛」。",
       "sentenceIndex": 4,
@@ -501,12 +479,10 @@ export default {
         "vehicles"
       ],
       "optionReasons": {
-        "vehicle-mcq-03": "本句指「以電力驅動的車輛」。",
-        "vehicle-mcq-02": "「由引擎／馬達驅動的道路機動車輛」與本句語境不同。",
-        "vehicle-mcq-04": "「主要用於商業、送貨、營運用途的車輛」與本句語境不同。",
-        "vehicle-mcq-01": "「用來運載人或貨物的交通工具，尤其是道路車輛」與本句語境不同。",
-        "vehicle-mcq-05": "「用於消防、救護、警務等緊急服務的車輛」與本句語境不同。",
-        "vehicle-mcq-06": "「用來運送人員、設備或載荷進入／在太空運行的載具」與本句語境不同。"
+        "vehicle-mcq-03": "本句的「vehicles」指「以電力驅動的車輛」。",
+        "vehicle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-03"
     },
@@ -518,11 +494,8 @@ export default {
       "masked": "More drivers are considering electric ____.",
       "options": [
         "vehicle-mcq-03",
-        "vehicle-mcq-02",
-        "vehicle-mcq-04",
-        "vehicle-mcq-01",
-        "vehicle-mcq-05",
-        "vehicle-mcq-06"
+        "vehicle-mcq-10",
+        "vehicle-mcq-09"
       ],
       "explanation": "本句的「vehicles」指「以電力驅動的車輛」。",
       "sentenceIndex": 5,
@@ -531,12 +504,9 @@ export default {
         "vehicles"
       ],
       "optionReasons": {
-        "vehicle-mcq-03": "本句指「以電力驅動的車輛」。",
-        "vehicle-mcq-02": "「由引擎／馬達驅動的道路機動車輛」與本句語境不同。",
-        "vehicle-mcq-04": "「主要用於商業、送貨、營運用途的車輛」與本句語境不同。",
-        "vehicle-mcq-01": "「用來運載人或貨物的交通工具，尤其是道路車輛」與本句語境不同。",
-        "vehicle-mcq-05": "「用於消防、救護、警務等緊急服務的車輛」與本句語境不同。",
-        "vehicle-mcq-06": "「用來運送人員、設備或載荷進入／在太空運行的載具」與本句語境不同。"
+        "vehicle-mcq-03": "本句的「vehicles」指「以電力驅動的車輛」。",
+        "vehicle-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-03"
     },
@@ -548,11 +518,8 @@ export default {
       "masked": "The company operates a fleet of commercial ____.",
       "options": [
         "vehicle-mcq-04",
-        "vehicle-mcq-03",
-        "vehicle-mcq-05",
-        "vehicle-mcq-02",
-        "vehicle-mcq-06",
-        "vehicle-mcq-01"
+        "vehicle-mcq-11",
+        "vehicle-mcq-15"
       ],
       "explanation": "本句的「vehicles」指「主要用於商業、送貨、營運用途的車輛」。",
       "sentenceIndex": 8,
@@ -561,12 +528,9 @@ export default {
         "vehicles"
       ],
       "optionReasons": {
-        "vehicle-mcq-04": "本句指「主要用於商業、送貨、營運用途的車輛」。",
-        "vehicle-mcq-03": "「以電力驅動的車輛」與本句語境不同。",
-        "vehicle-mcq-05": "「用於消防、救護、警務等緊急服務的車輛」與本句語境不同。",
-        "vehicle-mcq-02": "「由引擎／馬達驅動的道路機動車輛」與本句語境不同。",
-        "vehicle-mcq-06": "「用來運送人員、設備或載荷進入／在太空運行的載具」與本句語境不同。",
-        "vehicle-mcq-01": "「用來運載人或貨物的交通工具，尤其是道路車輛」與本句語境不同。"
+        "vehicle-mcq-04": "本句的「vehicles」指「主要用於商業、送貨、營運用途的車輛」。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-04"
     },
@@ -578,11 +542,8 @@ export default {
       "masked": "Commercial ____ include vans and trucks.",
       "options": [
         "vehicle-mcq-04",
-        "vehicle-mcq-03",
-        "vehicle-mcq-05",
-        "vehicle-mcq-02",
-        "vehicle-mcq-06",
-        "vehicle-mcq-01"
+        "vehicle-mcq-15",
+        "vehicle-mcq-11"
       ],
       "explanation": "本句的「vehicles」指「主要用於商業、送貨、營運用途的車輛」。",
       "sentenceIndex": 9,
@@ -591,12 +552,9 @@ export default {
         "vehicles"
       ],
       "optionReasons": {
-        "vehicle-mcq-04": "本句指「主要用於商業、送貨、營運用途的車輛」。",
-        "vehicle-mcq-03": "「以電力驅動的車輛」與本句語境不同。",
-        "vehicle-mcq-05": "「用於消防、救護、警務等緊急服務的車輛」與本句語境不同。",
-        "vehicle-mcq-02": "「由引擎／馬達驅動的道路機動車輛」與本句語境不同。",
-        "vehicle-mcq-06": "「用來運送人員、設備或載荷進入／在太空運行的載具」與本句語境不同。",
-        "vehicle-mcq-01": "「用來運載人或貨物的交通工具，尤其是道路車輛」與本句語境不同。"
+        "vehicle-mcq-04": "本句的「vehicles」指「主要用於商業、送貨、營運用途的車輛」。",
+        "vehicle-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-04"
     },
@@ -608,11 +566,9 @@ export default {
       "masked": "Drivers must give way to emergency ____.",
       "options": [
         "vehicle-mcq-05",
-        "vehicle-mcq-04",
         "vehicle-mcq-06",
-        "vehicle-mcq-03",
-        "vehicle-mcq-07",
-        "vehicle-mcq-02"
+        "vehicle-mcq-09",
+        "vehicle-mcq-11"
       ],
       "explanation": "本句的「vehicles」指「用於消防、救護、警務等緊急服務的車輛」。",
       "sentenceIndex": 14,
@@ -621,12 +577,10 @@ export default {
         "vehicles"
       ],
       "optionReasons": {
-        "vehicle-mcq-05": "本句指「用於消防、救護、警務等緊急服務的車輛」。",
-        "vehicle-mcq-04": "「主要用於商業、送貨、營運用途的車輛」與本句語境不同。",
-        "vehicle-mcq-06": "「用來運送人員、設備或載荷進入／在太空運行的載具」與本句語境不同。",
-        "vehicle-mcq-03": "「以電力驅動的車輛」與本句語境不同。",
-        "vehicle-mcq-07": "「能透過感應器與軟件部分或完全自行駕駛的車輛」與本句語境不同。",
-        "vehicle-mcq-02": "「由引擎／馬達驅動的道路機動車輛」與本句語境不同。"
+        "vehicle-mcq-05": "本句的「vehicles」指「用於消防、救護、警務等緊急服務的車輛」。",
+        "vehicle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-05"
     },
@@ -638,11 +592,9 @@ export default {
       "masked": "The lane is reserved for emergency ____.",
       "options": [
         "vehicle-mcq-05",
-        "vehicle-mcq-04",
-        "vehicle-mcq-06",
-        "vehicle-mcq-03",
-        "vehicle-mcq-07",
-        "vehicle-mcq-02"
+        "vehicle-mcq-15",
+        "vehicle-mcq-09",
+        "vehicle-mcq-11"
       ],
       "explanation": "本句的「vehicles」指「用於消防、救護、警務等緊急服務的車輛」。",
       "sentenceIndex": 15,
@@ -651,12 +603,10 @@ export default {
         "vehicles"
       ],
       "optionReasons": {
-        "vehicle-mcq-05": "本句指「用於消防、救護、警務等緊急服務的車輛」。",
-        "vehicle-mcq-04": "「主要用於商業、送貨、營運用途的車輛」與本句語境不同。",
-        "vehicle-mcq-06": "「用來運送人員、設備或載荷進入／在太空運行的載具」與本句語境不同。",
-        "vehicle-mcq-03": "「以電力驅動的車輛」與本句語境不同。",
-        "vehicle-mcq-07": "「能透過感應器與軟件部分或完全自行駕駛的車輛」與本句語境不同。",
-        "vehicle-mcq-02": "「由引擎／馬達驅動的道路機動車輛」與本句語境不同。"
+        "vehicle-mcq-05": "本句的「vehicles」指「用於消防、救護、警務等緊急服務的車輛」。",
+        "vehicle-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-05"
     },
@@ -668,11 +618,9 @@ export default {
       "masked": "The satellite was carried by a launch ____.",
       "options": [
         "vehicle-mcq-06",
-        "vehicle-mcq-05",
-        "vehicle-mcq-07",
-        "vehicle-mcq-04",
-        "vehicle-mcq-08",
-        "vehicle-mcq-03"
+        "vehicle-mcq-18",
+        "vehicle-mcq-11",
+        "vehicle-mcq-09"
       ],
       "explanation": "本句的「vehicle」指「用來運送人員、設備或載荷進入／在太空運行的載具」。",
       "sentenceIndex": 22,
@@ -681,12 +629,10 @@ export default {
         "vehicle"
       ],
       "optionReasons": {
-        "vehicle-mcq-06": "本句指「用來運送人員、設備或載荷進入／在太空運行的載具」。",
-        "vehicle-mcq-05": "「用於消防、救護、警務等緊急服務的車輛」與本句語境不同。",
-        "vehicle-mcq-07": "「能透過感應器與軟件部分或完全自行駕駛的車輛」與本句語境不同。",
-        "vehicle-mcq-04": "「主要用於商業、送貨、營運用途的車輛」與本句語境不同。",
-        "vehicle-mcq-08": "「承載、傳達或推動思想、訊息、目的或改變的媒介／手段」與本句語境不同。",
-        "vehicle-mcq-03": "「以電力驅動的車輛」與本句語境不同。"
+        "vehicle-mcq-06": "本句的「vehicle」指「用來運送人員、設備或載荷進入／在太空運行的載具」。",
+        "vehicle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-06"
     },
@@ -698,11 +644,9 @@ export default {
       "masked": "The launch ____ failed shortly after lift-off.",
       "options": [
         "vehicle-mcq-06",
-        "vehicle-mcq-05",
-        "vehicle-mcq-07",
-        "vehicle-mcq-04",
-        "vehicle-mcq-08",
-        "vehicle-mcq-03"
+        "vehicle-mcq-03",
+        "vehicle-mcq-09",
+        "vehicle-mcq-11"
       ],
       "explanation": "本句的「vehicle」指「用來運送人員、設備或載荷進入／在太空運行的載具」。",
       "sentenceIndex": 23,
@@ -711,12 +655,10 @@ export default {
         "vehicle"
       ],
       "optionReasons": {
-        "vehicle-mcq-06": "本句指「用來運送人員、設備或載荷進入／在太空運行的載具」。",
-        "vehicle-mcq-05": "「用於消防、救護、警務等緊急服務的車輛」與本句語境不同。",
-        "vehicle-mcq-07": "「能透過感應器與軟件部分或完全自行駕駛的車輛」與本句語境不同。",
-        "vehicle-mcq-04": "「主要用於商業、送貨、營運用途的車輛」與本句語境不同。",
-        "vehicle-mcq-08": "「承載、傳達或推動思想、訊息、目的或改變的媒介／手段」與本句語境不同。",
-        "vehicle-mcq-03": "「以電力驅動的車輛」與本句語境不同。"
+        "vehicle-mcq-06": "本句的「vehicle」指「用來運送人員、設備或載荷進入／在太空運行的載具」。",
+        "vehicle-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-06"
     },
@@ -728,11 +670,8 @@ export default {
       "masked": "Autonomous ____ rely on sensors and software.",
       "options": [
         "vehicle-mcq-07",
-        "vehicle-mcq-06",
-        "vehicle-mcq-08",
-        "vehicle-mcq-05",
-        "vehicle-mcq-09",
-        "vehicle-mcq-04"
+        "vehicle-mcq-10",
+        "vehicle-mcq-09"
       ],
       "explanation": "本句的「vehicles」指「能透過感應器與軟件部分或完全自行駕駛的車輛」。",
       "sentenceIndex": 28,
@@ -741,12 +680,9 @@ export default {
         "vehicles"
       ],
       "optionReasons": {
-        "vehicle-mcq-07": "本句指「能透過感應器與軟件部分或完全自行駕駛的車輛」。",
-        "vehicle-mcq-06": "「用來運送人員、設備或載荷進入／在太空運行的載具」與本句語境不同。",
-        "vehicle-mcq-08": "「承載、傳達或推動思想、訊息、目的或改變的媒介／手段」與本句語境不同。",
-        "vehicle-mcq-05": "「用於消防、救護、警務等緊急服務的車輛」與本句語境不同。",
-        "vehicle-mcq-09": "「主要為展示某位明星才能或吸引力而打造的作品」與本句語境不同。",
-        "vehicle-mcq-04": "「主要用於商業、送貨、營運用途的車輛」與本句語境不同。"
+        "vehicle-mcq-07": "本句的「vehicles」指「能透過感應器與軟件部分或完全自行駕駛的車輛」。",
+        "vehicle-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-07"
     },
@@ -758,11 +694,8 @@ export default {
       "masked": "The company is testing autonomous ____.",
       "options": [
         "vehicle-mcq-07",
-        "vehicle-mcq-06",
-        "vehicle-mcq-08",
-        "vehicle-mcq-05",
-        "vehicle-mcq-09",
-        "vehicle-mcq-04"
+        "vehicle-mcq-11",
+        "vehicle-mcq-09"
       ],
       "explanation": "本句的「vehicles」指「能透過感應器與軟件部分或完全自行駕駛的車輛」。",
       "sentenceIndex": 29,
@@ -771,12 +704,9 @@ export default {
         "vehicles"
       ],
       "optionReasons": {
-        "vehicle-mcq-07": "本句指「能透過感應器與軟件部分或完全自行駕駛的車輛」。",
-        "vehicle-mcq-06": "「用來運送人員、設備或載荷進入／在太空運行的載具」與本句語境不同。",
-        "vehicle-mcq-08": "「承載、傳達或推動思想、訊息、目的或改變的媒介／手段」與本句語境不同。",
-        "vehicle-mcq-05": "「用於消防、救護、警務等緊急服務的車輛」與本句語境不同。",
-        "vehicle-mcq-09": "「主要為展示某位明星才能或吸引力而打造的作品」與本句語境不同。",
-        "vehicle-mcq-04": "「主要用於商業、送貨、營運用途的車輛」與本句語境不同。"
+        "vehicle-mcq-07": "本句的「vehicles」指「能透過感應器與軟件部分或完全自行駕駛的車輛」。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-07"
     },
@@ -788,9 +718,7 @@ export default {
       "masked": "The movie was clearly a ____.",
       "options": [
         "vehicle-mcq-09",
-        "vehicle-mcq-08",
-        "vehicle-mcq-10",
-        "vehicle-mcq-07",
+        "vehicle-mcq-05",
         "vehicle-mcq-11",
         "vehicle-mcq-06"
       ],
@@ -801,12 +729,10 @@ export default {
         "star vehicle"
       ],
       "optionReasons": {
-        "vehicle-mcq-09": "本句指「主要為展示某位明星才能或吸引力而打造的作品」。",
-        "vehicle-mcq-08": "「承載、傳達或推動思想、訊息、目的或改變的媒介／手段」與本句語境不同。",
-        "vehicle-mcq-10": "「用來持有、配置或投資資金／資產的金融工具或結構」與本句語境不同。",
-        "vehicle-mcq-07": "「能透過感應器與軟件部分或完全自行駕駛的車輛」與本句語境不同。",
-        "vehicle-mcq-11": "「為特定法律、財務或項目目的成立的獨立實體」與本句語境不同。",
-        "vehicle-mcq-06": "「用來運送人員、設備或載荷進入／在太空運行的載具」與本句語境不同。"
+        "vehicle-mcq-09": "本句的「star vehicle」指「主要為展示某位明星才能或吸引力而打造的作品」。",
+        "vehicle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-09"
     },
@@ -818,11 +744,8 @@ export default {
       "masked": "The musical became a ____ for its leading performer.",
       "options": [
         "vehicle-mcq-09",
-        "vehicle-mcq-08",
-        "vehicle-mcq-10",
         "vehicle-mcq-07",
-        "vehicle-mcq-11",
-        "vehicle-mcq-06"
+        "vehicle-mcq-11"
       ],
       "explanation": "本句的「vehicle」指「主要為展示某位明星才能或吸引力而打造的作品」。",
       "sentenceIndex": 45,
@@ -831,12 +754,9 @@ export default {
         "vehicle"
       ],
       "optionReasons": {
-        "vehicle-mcq-09": "本句指「主要為展示某位明星才能或吸引力而打造的作品」。",
-        "vehicle-mcq-08": "「承載、傳達或推動思想、訊息、目的或改變的媒介／手段」與本句語境不同。",
-        "vehicle-mcq-10": "「用來持有、配置或投資資金／資產的金融工具或結構」與本句語境不同。",
-        "vehicle-mcq-07": "「能透過感應器與軟件部分或完全自行駕駛的車輛」與本句語境不同。",
-        "vehicle-mcq-11": "「為特定法律、財務或項目目的成立的獨立實體」與本句語境不同。",
-        "vehicle-mcq-06": "「用來運送人員、設備或載荷進入／在太空運行的載具」與本句語境不同。"
+        "vehicle-mcq-09": "本句的「vehicle」指「主要為展示某位明星才能或吸引力而打造的作品」。",
+        "vehicle-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-09"
     },
@@ -848,11 +768,8 @@ export default {
       "masked": "A fund can serve as an investment ____.",
       "options": [
         "vehicle-mcq-10",
-        "vehicle-mcq-09",
-        "vehicle-mcq-11",
-        "vehicle-mcq-08",
-        "vehicle-mcq-12",
-        "vehicle-mcq-07"
+        "vehicle-mcq-07",
+        "vehicle-mcq-09"
       ],
       "explanation": "本句的「vehicle」指「用來持有、配置或投資資金／資產的金融工具或結構」。",
       "sentenceIndex": 48,
@@ -861,12 +778,9 @@ export default {
         "vehicle"
       ],
       "optionReasons": {
-        "vehicle-mcq-10": "本句指「用來持有、配置或投資資金／資產的金融工具或結構」。",
-        "vehicle-mcq-09": "「主要為展示某位明星才能或吸引力而打造的作品」與本句語境不同。",
-        "vehicle-mcq-11": "「為特定法律、財務或項目目的成立的獨立實體」與本句語境不同。",
-        "vehicle-mcq-08": "「承載、傳達或推動思想、訊息、目的或改變的媒介／手段」與本句語境不同。",
-        "vehicle-mcq-12": "「用來承載／傳送活性藥物成分的基質或介質」與本句語境不同。",
-        "vehicle-mcq-07": "「能透過感應器與軟件部分或完全自行駕駛的車輛」與本句語境不同。"
+        "vehicle-mcq-10": "本句的「vehicle」指「用來持有、配置或投資資金／資產的金融工具或結構」。",
+        "vehicle-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-10"
     },
@@ -878,11 +792,7 @@ export default {
       "masked": "Different investment ____ carry different risks.",
       "options": [
         "vehicle-mcq-10",
-        "vehicle-mcq-09",
-        "vehicle-mcq-11",
-        "vehicle-mcq-08",
-        "vehicle-mcq-12",
-        "vehicle-mcq-07"
+        "vehicle-mcq-04"
       ],
       "explanation": "本句的「vehicles」指「用來持有、配置或投資資金／資產的金融工具或結構」。",
       "sentenceIndex": 49,
@@ -891,12 +801,8 @@ export default {
         "vehicles"
       ],
       "optionReasons": {
-        "vehicle-mcq-10": "本句指「用來持有、配置或投資資金／資產的金融工具或結構」。",
-        "vehicle-mcq-09": "「主要為展示某位明星才能或吸引力而打造的作品」與本句語境不同。",
-        "vehicle-mcq-11": "「為特定法律、財務或項目目的成立的獨立實體」與本句語境不同。",
-        "vehicle-mcq-08": "「承載、傳達或推動思想、訊息、目的或改變的媒介／手段」與本句語境不同。",
-        "vehicle-mcq-12": "「用來承載／傳送活性藥物成分的基質或介質」與本句語境不同。",
-        "vehicle-mcq-07": "「能透過感應器與軟件部分或完全自行駕駛的車輛」與本句語境不同。"
+        "vehicle-mcq-10": "本句的「vehicles」指「用來持有、配置或投資資金／資產的金融工具或結構」。",
+        "vehicle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-10"
     },
@@ -908,11 +814,9 @@ export default {
       "masked": "The project was financed through a ____.",
       "options": [
         "vehicle-mcq-11",
-        "vehicle-mcq-10",
-        "vehicle-mcq-12",
+        "vehicle-mcq-02",
         "vehicle-mcq-09",
-        "vehicle-mcq-13",
-        "vehicle-mcq-08"
+        "vehicle-mcq-06"
       ],
       "explanation": "本句的「special purpose vehicle」指「為特定法律、財務或項目目的成立的獨立實體」。",
       "sentenceIndex": 50,
@@ -921,12 +825,10 @@ export default {
         "special purpose vehicle"
       ],
       "optionReasons": {
-        "vehicle-mcq-11": "本句指「為特定法律、財務或項目目的成立的獨立實體」。",
-        "vehicle-mcq-10": "「用來持有、配置或投資資金／資產的金融工具或結構」與本句語境不同。",
-        "vehicle-mcq-12": "「用來承載／傳送活性藥物成分的基質或介質」與本句語境不同。",
-        "vehicle-mcq-09": "「主要為展示某位明星才能或吸引力而打造的作品」與本句語境不同。",
-        "vehicle-mcq-13": "「承載病原並促成傳播的非生命媒介，如食物或水」與本句語境不同。",
-        "vehicle-mcq-08": "「承載、傳達或推動思想、訊息、目的或改變的媒介／手段」與本句語境不同。"
+        "vehicle-mcq-11": "本句的「special purpose vehicle」指「為特定法律、財務或項目目的成立的獨立實體」。",
+        "vehicle-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-11"
     },
@@ -938,11 +840,9 @@ export default {
       "masked": "The proposal needed a suitable legislative ____.",
       "options": [
         "vehicle-mcq-15",
-        "vehicle-mcq-14",
-        "vehicle-mcq-16",
-        "vehicle-mcq-13",
         "vehicle-mcq-17",
-        "vehicle-mcq-12"
+        "vehicle-mcq-09",
+        "vehicle-mcq-11"
       ],
       "explanation": "本句的「vehicle」指「用來承載並推進某項立法內容的法案／程序工具」。",
       "sentenceIndex": 75,
@@ -951,12 +851,10 @@ export default {
         "vehicle"
       ],
       "optionReasons": {
-        "vehicle-mcq-15": "本句指「用來承載並推進某項立法內容的法案／程序工具」。",
-        "vehicle-mcq-14": "「承載顏料或其他材料的液體／介質」與本句語境不同。",
-        "vehicle-mcq-16": "「與車輛、車流或道路車輛活動有關的」與本句語境不同。",
-        "vehicle-mcq-13": "「承載病原並促成傳播的非生命媒介，如食物或水」與本句語境不同。",
-        "vehicle-mcq-17": "「道路上的車輛流動」與本句語境不同。",
-        "vehicle-mcq-12": "「用來承載／傳送活性藥物成分的基質或介質」與本句語境不同。"
+        "vehicle-mcq-15": "本句的「vehicle」指「用來承載並推進某項立法內容的法案／程序工具」。",
+        "vehicle-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-15"
     },
@@ -968,11 +866,9 @@ export default {
       "masked": "The amendment was attached to a larger legislative ____.",
       "options": [
         "vehicle-mcq-15",
-        "vehicle-mcq-14",
-        "vehicle-mcq-16",
-        "vehicle-mcq-13",
-        "vehicle-mcq-17",
-        "vehicle-mcq-12"
+        "vehicle-mcq-18",
+        "vehicle-mcq-09",
+        "vehicle-mcq-11"
       ],
       "explanation": "本句的「vehicle」指「用來承載並推進某項立法內容的法案／程序工具」。",
       "sentenceIndex": 76,
@@ -981,12 +877,10 @@ export default {
         "vehicle"
       ],
       "optionReasons": {
-        "vehicle-mcq-15": "本句指「用來承載並推進某項立法內容的法案／程序工具」。",
-        "vehicle-mcq-14": "「承載顏料或其他材料的液體／介質」與本句語境不同。",
-        "vehicle-mcq-16": "「與車輛、車流或道路車輛活動有關的」與本句語境不同。",
-        "vehicle-mcq-13": "「承載病原並促成傳播的非生命媒介，如食物或水」與本句語境不同。",
-        "vehicle-mcq-17": "「道路上的車輛流動」與本句語境不同。",
-        "vehicle-mcq-12": "「用來承載／傳送活性藥物成分的基質或介質」與本句語境不同。"
+        "vehicle-mcq-15": "本句的「vehicle」指「用來承載並推進某項立法內容的法案／程序工具」。",
+        "vehicle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-15"
     },
@@ -998,11 +892,9 @@ export default {
       "masked": "The road carries heavy ____.",
       "options": [
         "vehicle-mcq-16",
-        "vehicle-mcq-15",
-        "vehicle-mcq-17",
-        "vehicle-mcq-14",
-        "vehicle-mcq-18",
-        "vehicle-mcq-13"
+        "vehicle-mcq-06",
+        "vehicle-mcq-11",
+        "vehicle-mcq-09"
       ],
       "explanation": "本句的「vehicular traffic」指「與車輛、車流或道路車輛活動有關的」。",
       "sentenceIndex": 81,
@@ -1011,12 +903,10 @@ export default {
         "vehicular traffic"
       ],
       "optionReasons": {
-        "vehicle-mcq-16": "本句指「與車輛、車流或道路車輛活動有關的」。",
-        "vehicle-mcq-15": "「用來承載並推進某項立法內容的法案／程序工具」與本句語境不同。",
-        "vehicle-mcq-17": "「道路上的車輛流動」與本句語境不同。",
-        "vehicle-mcq-14": "「承載顏料或其他材料的液體／介質」與本句語境不同。",
-        "vehicle-mcq-18": "「車輛所產生的排放」與本句語境不同。",
-        "vehicle-mcq-13": "「承載病原並促成傳播的非生命媒介，如食物或水」與本句語境不同。"
+        "vehicle-mcq-16": "本句的「vehicular traffic」指「與車輛、車流或道路車輛活動有關的」。",
+        "vehicle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-16"
     },
@@ -1028,11 +918,8 @@ export default {
       "masked": "The street is closed to ____.",
       "options": [
         "vehicle-mcq-17",
-        "vehicle-mcq-16",
-        "vehicle-mcq-18",
-        "vehicle-mcq-15",
-        "vehicle-mcq-19",
-        "vehicle-mcq-14"
+        "vehicle-mcq-10",
+        "vehicle-mcq-09"
       ],
       "explanation": "本句的「vehicular traffic」指「道路上的車輛流動」。",
       "sentenceIndex": 82,
@@ -1041,12 +928,9 @@ export default {
         "vehicular traffic"
       ],
       "optionReasons": {
-        "vehicle-mcq-17": "本句指「道路上的車輛流動」。",
-        "vehicle-mcq-16": "「與車輛、車流或道路車輛活動有關的」與本句語境不同。",
-        "vehicle-mcq-18": "「車輛所產生的排放」與本句語境不同。",
-        "vehicle-mcq-15": "「用來承載並推進某項立法內容的法案／程序工具」與本句語境不同。",
-        "vehicle-mcq-19": "「隱喻中承載比喻形象、把特質轉移到本體上的喻體」與本句語境不同。",
-        "vehicle-mcq-14": "「承載顏料或其他材料的液體／介質」與本句語境不同。"
+        "vehicle-mcq-17": "本句的「vehicular traffic」指「道路上的車輛流動」。",
+        "vehicle-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-17"
     },
@@ -1058,11 +942,9 @@ export default {
       "masked": "The policy aims to reduce ____.",
       "options": [
         "vehicle-mcq-18",
-        "vehicle-mcq-17",
-        "vehicle-mcq-19",
-        "vehicle-mcq-16",
-        "vehicle-mcq-15",
-        "vehicle-mcq-14"
+        "vehicle-mcq-09",
+        "vehicle-mcq-06",
+        "vehicle-mcq-11"
       ],
       "explanation": "本句的「vehicular emissions」指「車輛所產生的排放」。",
       "sentenceIndex": 84,
@@ -1071,12 +953,10 @@ export default {
         "vehicular emissions"
       ],
       "optionReasons": {
-        "vehicle-mcq-18": "本句指「車輛所產生的排放」。",
-        "vehicle-mcq-17": "「道路上的車輛流動」與本句語境不同。",
-        "vehicle-mcq-19": "「隱喻中承載比喻形象、把特質轉移到本體上的喻體」與本句語境不同。",
-        "vehicle-mcq-16": "「與車輛、車流或道路車輛活動有關的」與本句語境不同。",
-        "vehicle-mcq-15": "「用來承載並推進某項立法內容的法案／程序工具」與本句語境不同。",
-        "vehicle-mcq-14": "「承載顏料或其他材料的液體／介質」與本句語境不同。"
+        "vehicle-mcq-18": "本句的「vehicular emissions」指「車輛所產生的排放」。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-18"
     },
@@ -1088,11 +968,8 @@ export default {
       "masked": "The insurance covers damage to the insured ____.",
       "options": [
         "vehicle-mcq-01",
-        "vehicle-mcq-02",
-        "vehicle-mcq-03",
-        "vehicle-mcq-04",
-        "vehicle-mcq-05",
-        "vehicle-mcq-06"
+        "vehicle-mcq-09",
+        "vehicle-mcq-11"
       ],
       "explanation": "本句的「vehicle」指「用來運載人或貨物的交通工具，尤其是道路車輛」。",
       "sentenceIndex": 86,
@@ -1101,12 +978,9 @@ export default {
         "vehicle"
       ],
       "optionReasons": {
-        "vehicle-mcq-01": "本句指「用來運載人或貨物的交通工具，尤其是道路車輛」。",
-        "vehicle-mcq-02": "「由引擎／馬達驅動的道路機動車輛」與本句語境不同。",
-        "vehicle-mcq-03": "「以電力驅動的車輛」與本句語境不同。",
-        "vehicle-mcq-04": "「主要用於商業、送貨、營運用途的車輛」與本句語境不同。",
-        "vehicle-mcq-05": "「用於消防、救護、警務等緊急服務的車輛」與本句語境不同。",
-        "vehicle-mcq-06": "「用來運送人員、設備或載荷進入／在太空運行的載具」與本句語境不同。"
+        "vehicle-mcq-01": "本句的「vehicle」指「用來運載人或貨物的交通工具，尤其是道路車輛」。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-01"
     },
@@ -1118,11 +992,8 @@ export default {
       "masked": "The definition of ____ may vary by law.",
       "options": [
         "vehicle-mcq-01",
-        "vehicle-mcq-02",
-        "vehicle-mcq-03",
-        "vehicle-mcq-04",
-        "vehicle-mcq-05",
-        "vehicle-mcq-06"
+        "vehicle-mcq-09",
+        "vehicle-mcq-11"
       ],
       "explanation": "本句的「vehicle」指「用來運載人或貨物的交通工具，尤其是道路車輛」。",
       "sentenceIndex": 87,
@@ -1131,12 +1002,9 @@ export default {
         "vehicle"
       ],
       "optionReasons": {
-        "vehicle-mcq-01": "本句指「用來運載人或貨物的交通工具，尤其是道路車輛」。",
-        "vehicle-mcq-02": "「由引擎／馬達驅動的道路機動車輛」與本句語境不同。",
-        "vehicle-mcq-03": "「以電力驅動的車輛」與本句語境不同。",
-        "vehicle-mcq-04": "「主要用於商業、送貨、營運用途的車輛」與本句語境不同。",
-        "vehicle-mcq-05": "「用於消防、救護、警務等緊急服務的車輛」與本句語境不同。",
-        "vehicle-mcq-06": "「用來運送人員、設備或載荷進入／在太空運行的載具」與本句語境不同。"
+        "vehicle-mcq-01": "本句的「vehicle」指「用來運載人或貨物的交通工具，尤其是道路車輛」。",
+        "vehicle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "vehicle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vehicle-mcq-01"
     }
@@ -1148,5 +1016,7 @@ export default {
     "sha256": "3b9894d0bc42b4d330a1b0d7e84ff2e25242777b887ffab3f53c91b6d7a98377",
     "pages": 40
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

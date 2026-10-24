@@ -470,11 +470,7 @@ export default {
       "masked": "Under pressure, ____ can happen very quickly.",
       "options": [
         "misunderstanding-mcq-01",
-        "misunderstanding-mcq-02",
-        "misunderstanding-mcq-03",
-        "misunderstanding-mcq-04",
-        "misunderstanding-mcq-05",
-        "misunderstanding-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「misunderstandings」指「誤解；誤會」。",
       "sentenceIndex": 0,
@@ -483,12 +479,8 @@ export default {
         "misunderstandings"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-01": "本句指「誤解；誤會」。",
-        "misunderstanding-mcq-02": "「誤解某人」是「misunderstand someone」的用法，與本句語境不同。",
-        "misunderstanding-mcq-03": "「誤解某人的意思」是「misunderstand what someone means」的用法，與本句語境不同。",
-        "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。",
-        "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。"
+        "misunderstanding-mcq-01": "本句的「misunderstandings」指「誤解；誤會」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-01"
     },
@@ -500,11 +492,7 @@ export default {
       "masked": "The argument started because of a ____.",
       "options": [
         "misunderstanding-mcq-01",
-        "misunderstanding-mcq-02",
-        "misunderstanding-mcq-03",
-        "misunderstanding-mcq-04",
-        "misunderstanding-mcq-05",
-        "misunderstanding-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「misunderstanding」指「誤解；誤會」。",
       "sentenceIndex": 1,
@@ -513,12 +501,8 @@ export default {
         "misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-01": "本句指「誤解；誤會」。",
-        "misunderstanding-mcq-02": "「誤解某人」是「misunderstand someone」的用法，與本句語境不同。",
-        "misunderstanding-mcq-03": "「誤解某人的意思」是「misunderstand what someone means」的用法，與本句語境不同。",
-        "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。",
-        "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。"
+        "misunderstanding-mcq-01": "本句的「misunderstanding」指「誤解；誤會」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-01"
     },
@@ -530,11 +514,7 @@ export default {
       "masked": "It was all a ____.",
       "options": [
         "misunderstanding-mcq-01",
-        "misunderstanding-mcq-02",
-        "misunderstanding-mcq-03",
-        "misunderstanding-mcq-04",
-        "misunderstanding-mcq-05",
-        "misunderstanding-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「misunderstanding」指「誤解；誤會」。",
       "sentenceIndex": 2,
@@ -543,12 +523,8 @@ export default {
         "misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-01": "本句指「誤解；誤會」。",
-        "misunderstanding-mcq-02": "「誤解某人」是「misunderstand someone」的用法，與本句語境不同。",
-        "misunderstanding-mcq-03": "「誤解某人的意思」是「misunderstand what someone means」的用法，與本句語境不同。",
-        "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。",
-        "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。"
+        "misunderstanding-mcq-01": "本句的「misunderstanding」指「誤解；誤會」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-01"
     },
@@ -560,11 +536,7 @@ export default {
       "masked": "There was a ____.",
       "options": [
         "misunderstanding-pdf-001",
-        "misunderstanding-mcq-02",
-        "misunderstanding-mcq-03",
-        "misunderstanding-mcq-04",
-        "misunderstanding-mcq-05",
-        "misunderstanding-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「misunderstanding between Kevin and me」指「A 和 B 因理解不同而產生的誤會」。",
       "sentenceIndex": 3,
@@ -573,12 +545,8 @@ export default {
         "misunderstanding between Kevin and me"
       ],
       "optionReasons": {
-        "misunderstanding-pdf-001": "本句指「A 和 B 因理解不同而產生的誤會」。",
-        "misunderstanding-mcq-02": "「誤解某人」是「misunderstand someone」的用法，與本句語境不同。",
-        "misunderstanding-mcq-03": "「誤解某人的意思」是「misunderstand what someone means」的用法，與本句語境不同。",
-        "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。",
-        "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。"
+        "misunderstanding-pdf-001": "本句的「misunderstanding between Kevin and me」指「A 和 B 因理解不同而產生的誤會」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-pdf-001"
     },
@@ -590,11 +558,7 @@ export default {
       "masked": "A small ____ caused unnecessary tension.",
       "options": [
         "misunderstanding-pdf-001",
-        "misunderstanding-mcq-02",
-        "misunderstanding-mcq-03",
-        "misunderstanding-mcq-04",
-        "misunderstanding-mcq-05",
-        "misunderstanding-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「misunderstanding between teammates」指「A 和 B 因理解不同而產生的誤會」。",
       "sentenceIndex": 4,
@@ -603,12 +567,8 @@ export default {
         "misunderstanding between teammates"
       ],
       "optionReasons": {
-        "misunderstanding-pdf-001": "本句指「A 和 B 因理解不同而產生的誤會」。",
-        "misunderstanding-mcq-02": "「誤解某人」是「misunderstand someone」的用法，與本句語境不同。",
-        "misunderstanding-mcq-03": "「誤解某人的意思」是「misunderstand what someone means」的用法，與本句語境不同。",
-        "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。",
-        "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。"
+        "misunderstanding-pdf-001": "本句的「misunderstanding between teammates」指「A 和 B 因理解不同而產生的誤會」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-pdf-001"
     },
@@ -620,11 +580,7 @@ export default {
       "masked": "It turned out to be a ____.",
       "options": [
         "misunderstanding-mcq-10",
-        "misunderstanding-mcq-09",
-        "misunderstanding-mcq-11",
-        "misunderstanding-mcq-08",
-        "misunderstanding-mcq-12",
-        "misunderstanding-mcq-07"
+        "misunderstanding-mcq-19"
       ],
       "explanation": "本句的「simple misunderstanding」指「單純誤會」。",
       "sentenceIndex": 5,
@@ -633,12 +589,8 @@ export default {
         "simple misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-10": "本句指「單純誤會」。",
-        "misunderstanding-mcq-09": "「對 X 的誤解」是「misunderstanding about X」的用法，與本句語境不同。",
-        "misunderstanding-mcq-11": "「小誤會」是「minor misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-08": "「A 和 B 之間的誤會」是「misunderstanding between A and B」的用法，與本句語境不同。",
-        "misunderstanding-mcq-12": "「嚴重誤會」是「serious misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-07": "「誤會；誤解」是「misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-10": "本句的「simple misunderstanding」指「單純誤會」。",
+        "misunderstanding-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-10"
     },
@@ -650,11 +602,7 @@ export default {
       "masked": "Nobody had done anything wrong; it was just a ____.",
       "options": [
         "misunderstanding-mcq-10",
-        "misunderstanding-mcq-09",
-        "misunderstanding-mcq-11",
-        "misunderstanding-mcq-08",
-        "misunderstanding-mcq-12",
-        "misunderstanding-mcq-07"
+        "misunderstanding-mcq-20"
       ],
       "explanation": "本句的「simple misunderstanding」指「單純誤會」。",
       "sentenceIndex": 6,
@@ -663,12 +611,8 @@ export default {
         "simple misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-10": "本句指「單純誤會」。",
-        "misunderstanding-mcq-09": "「對 X 的誤解」是「misunderstanding about X」的用法，與本句語境不同。",
-        "misunderstanding-mcq-11": "「小誤會」是「minor misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-08": "「A 和 B 之間的誤會」是「misunderstanding between A and B」的用法，與本句語境不同。",
-        "misunderstanding-mcq-12": "「嚴重誤會」是「serious misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-07": "「誤會；誤解」是「misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-10": "本句的「simple misunderstanding」指「單純誤會」。",
+        "misunderstanding-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-10"
     },
@@ -680,11 +624,7 @@ export default {
       "masked": "The email caused a ____.",
       "options": [
         "misunderstanding-mcq-12",
-        "misunderstanding-mcq-11",
-        "misunderstanding-mcq-13",
-        "misunderstanding-mcq-10",
-        "misunderstanding-mcq-14",
-        "misunderstanding-mcq-09"
+        "misunderstanding-mcq-19"
       ],
       "explanation": "本句的「serious misunderstanding」指「嚴重誤會」。",
       "sentenceIndex": 7,
@@ -693,12 +633,8 @@ export default {
         "serious misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-12": "本句指「嚴重誤會」。",
-        "misunderstanding-mcq-11": "「小誤會」是「minor misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-13": "「常見誤解」是「common misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-10": "「單純誤會」是「simple misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-14": "「澄清誤會」是「clear up a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-09": "「對 X 的誤解」是「misunderstanding about X」的用法，與本句語境不同。"
+        "misunderstanding-mcq-12": "本句的「serious misunderstanding」指「嚴重誤會」。",
+        "misunderstanding-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-12"
     },
@@ -710,11 +646,7 @@ export default {
       "masked": "A ____ can damage trust.",
       "options": [
         "misunderstanding-mcq-12",
-        "misunderstanding-mcq-11",
-        "misunderstanding-mcq-13",
-        "misunderstanding-mcq-10",
-        "misunderstanding-mcq-14",
-        "misunderstanding-mcq-09"
+        "misunderstanding-mcq-19"
       ],
       "explanation": "本句的「serious misunderstanding」指「嚴重誤會」。",
       "sentenceIndex": 8,
@@ -723,12 +655,8 @@ export default {
         "serious misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-12": "本句指「嚴重誤會」。",
-        "misunderstanding-mcq-11": "「小誤會」是「minor misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-13": "「常見誤解」是「common misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-10": "「單純誤會」是「simple misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-14": "「澄清誤會」是「clear up a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-09": "「對 X 的誤解」是「misunderstanding about X」的用法，與本句語境不同。"
+        "misunderstanding-mcq-12": "本句的「serious misunderstanding」指「嚴重誤會」。",
+        "misunderstanding-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-12"
     },
@@ -740,11 +668,7 @@ export default {
       "masked": "We talked and ____.",
       "options": [
         "misunderstanding-mcq-14",
-        "misunderstanding-mcq-13",
-        "misunderstanding-mcq-15",
-        "misunderstanding-mcq-12",
-        "misunderstanding-mcq-16",
-        "misunderstanding-mcq-11"
+        "misunderstanding-mcq-20"
       ],
       "explanation": "本句的「cleared up the misunderstanding」指「澄清誤會」。",
       "sentenceIndex": 9,
@@ -753,12 +677,8 @@ export default {
         "cleared up the misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-14": "本句指「澄清誤會」。",
-        "misunderstanding-mcq-13": "「常見誤解」是「common misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-15": "「避免誤解」是「avoid misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-12": "「嚴重誤會」是「serious misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-16": "「造成誤會」是「cause a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-11": "「小誤會」是「minor misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-14": "本句的「cleared up the misunderstanding」指「澄清誤會」。",
+        "misunderstanding-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-14"
     },
@@ -770,11 +690,7 @@ export default {
       "masked": "His apology helped ____.",
       "options": [
         "misunderstanding-mcq-14",
-        "misunderstanding-mcq-13",
-        "misunderstanding-mcq-15",
-        "misunderstanding-mcq-12",
-        "misunderstanding-mcq-16",
-        "misunderstanding-mcq-11"
+        "misunderstanding-mcq-20"
       ],
       "explanation": "本句的「clear up the misunderstanding」指「澄清誤會」。",
       "sentenceIndex": 10,
@@ -783,12 +699,8 @@ export default {
         "clear up the misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-14": "本句指「澄清誤會」。",
-        "misunderstanding-mcq-13": "「常見誤解」是「common misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-15": "「避免誤解」是「avoid misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-12": "「嚴重誤會」是「serious misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-16": "「造成誤會」是「cause a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-11": "「小誤會」是「minor misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-14": "本句的「clear up the misunderstanding」指「澄清誤會」。",
+        "misunderstanding-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-14"
     },
@@ -800,11 +712,8 @@ export default {
       "masked": "Be specific to ____.",
       "options": [
         "misunderstanding-mcq-15",
-        "misunderstanding-mcq-14",
-        "misunderstanding-mcq-16",
-        "misunderstanding-mcq-13",
-        "misunderstanding-mcq-17",
-        "misunderstanding-mcq-12"
+        "misunderstanding-mcq-19",
+        "misunderstanding-mcq-18"
       ],
       "explanation": "本句的「avoid misunderstanding」指「避免誤解」。",
       "sentenceIndex": 11,
@@ -813,12 +722,9 @@ export default {
         "avoid misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-15": "本句指「避免誤解」。",
-        "misunderstanding-mcq-14": "「澄清誤會」是「clear up a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-16": "「造成誤會」是「cause a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-13": "「常見誤解」是「common misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-17": "「因為誤會」是「due to a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-12": "「嚴重誤會」是「serious misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-15": "本句的「avoid misunderstanding」指「避免誤解」。",
+        "misunderstanding-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "misunderstanding-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-15"
     },
@@ -830,11 +736,8 @@ export default {
       "masked": "Written instructions can help ____.",
       "options": [
         "misunderstanding-mcq-15",
-        "misunderstanding-mcq-14",
-        "misunderstanding-mcq-16",
-        "misunderstanding-mcq-13",
-        "misunderstanding-mcq-17",
-        "misunderstanding-mcq-12"
+        "misunderstanding-mcq-20",
+        "misunderstanding-mcq-18"
       ],
       "explanation": "本句的「avoid misunderstandings」指「避免誤解」。",
       "sentenceIndex": 12,
@@ -843,12 +746,9 @@ export default {
         "avoid misunderstandings"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-15": "本句指「避免誤解」。",
-        "misunderstanding-mcq-14": "「澄清誤會」是「clear up a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-16": "「造成誤會」是「cause a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-13": "「常見誤解」是「common misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-17": "「因為誤會」是「due to a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-12": "「嚴重誤會」是「serious misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-15": "本句的「avoid misunderstandings」指「避免誤解」。",
+        "misunderstanding-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "misunderstanding-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-15"
     },
@@ -860,11 +760,7 @@ export default {
       "masked": "His vague message ____.",
       "options": [
         "misunderstanding-mcq-16",
-        "misunderstanding-mcq-15",
-        "misunderstanding-mcq-17",
-        "misunderstanding-mcq-14",
-        "misunderstanding-mcq-18",
-        "misunderstanding-mcq-13"
+        "misunderstanding-mcq-20"
       ],
       "explanation": "本句的「caused a misunderstanding」指「造成誤會」。",
       "sentenceIndex": 13,
@@ -873,12 +769,8 @@ export default {
         "caused a misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-16": "本句指「造成誤會」。",
-        "misunderstanding-mcq-15": "「避免誤解」是「avoid misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-17": "「因為誤會」是「due to a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-14": "「澄清誤會」是「clear up a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-18": "「別誤會我的意思」是「Don't misunderstand me」的用法，與本句語境不同。",
-        "misunderstanding-mcq-13": "「常見誤解」是「common misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-16": "本句的「caused a misunderstanding」指「造成誤會」。",
+        "misunderstanding-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-16"
     },
@@ -890,11 +782,7 @@ export default {
       "masked": "Poor communication can ____.",
       "options": [
         "misunderstanding-mcq-16",
-        "misunderstanding-mcq-15",
-        "misunderstanding-mcq-17",
-        "misunderstanding-mcq-14",
-        "misunderstanding-mcq-18",
-        "misunderstanding-mcq-13"
+        "misunderstanding-mcq-19"
       ],
       "explanation": "本句的「cause misunderstandings」指「造成誤會」。",
       "sentenceIndex": 14,
@@ -903,12 +791,8 @@ export default {
         "cause misunderstandings"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-16": "本句指「造成誤會」。",
-        "misunderstanding-mcq-15": "「避免誤解」是「avoid misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-17": "「因為誤會」是「due to a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-14": "「澄清誤會」是「clear up a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-18": "「別誤會我的意思」是「Don't misunderstand me」的用法，與本句語境不同。",
-        "misunderstanding-mcq-13": "「常見誤解」是「common misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-16": "本句的「cause misunderstandings」指「造成誤會」。",
+        "misunderstanding-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-16"
     },
@@ -920,11 +804,7 @@ export default {
       "masked": "The delay happened ____.",
       "options": [
         "misunderstanding-mcq-17",
-        "misunderstanding-mcq-16",
-        "misunderstanding-mcq-18",
-        "misunderstanding-mcq-15",
-        "misunderstanding-mcq-19",
-        "misunderstanding-mcq-14"
+        "misunderstanding-mcq-20"
       ],
       "explanation": "本句的「due to a misunderstanding」指「因為誤會」。",
       "sentenceIndex": 15,
@@ -933,12 +813,8 @@ export default {
         "due to a misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-17": "本句指「因為誤會」。",
-        "misunderstanding-mcq-16": "「造成誤會」是「cause a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-18": "「別誤會我的意思」是「Don't misunderstand me」的用法，與本句語境不同。",
-        "misunderstanding-mcq-15": "「避免誤解」是「avoid misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-19": "「如果我理解錯了」是「if I've misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-14": "「澄清誤會」是「clear up a misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-17": "本句的「due to a misunderstanding」指「因為誤會」。",
+        "misunderstanding-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-17"
     },
@@ -950,11 +826,7 @@ export default {
       "masked": "He blamed me ____.",
       "options": [
         "misunderstanding-mcq-17",
-        "misunderstanding-mcq-16",
-        "misunderstanding-mcq-18",
-        "misunderstanding-mcq-15",
-        "misunderstanding-mcq-19",
-        "misunderstanding-mcq-14"
+        "misunderstanding-mcq-20"
       ],
       "explanation": "本句的「due to a misunderstanding」指「因為誤會」。",
       "sentenceIndex": 16,
@@ -963,12 +835,8 @@ export default {
         "due to a misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-17": "本句指「因為誤會」。",
-        "misunderstanding-mcq-16": "「造成誤會」是「cause a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-18": "「別誤會我的意思」是「Don't misunderstand me」的用法，與本句語境不同。",
-        "misunderstanding-mcq-15": "「避免誤解」是「avoid misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-19": "「如果我理解錯了」是「if I've misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-14": "「澄清誤會」是「clear up a misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-17": "本句的「due to a misunderstanding」指「因為誤會」。",
+        "misunderstanding-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-17"
     },
@@ -980,11 +848,7 @@ export default {
       "masked": "____",
       "options": [
         "misunderstanding-mcq-20",
-        "misunderstanding-mcq-19",
-        "misunderstanding-mcq-18",
-        "misunderstanding-mcq-17",
-        "misunderstanding-mcq-16",
-        "misunderstanding-mcq-15"
+        "misunderstanding-mcq-12"
       ],
       "explanation": "本句的「There seems to have been a misunderstanding.」指「禮貌地表示雙方對某件事的理解不一致」。",
       "sentenceIndex": 17,
@@ -993,12 +857,8 @@ export default {
         "There seems to have been a misunderstanding."
       ],
       "optionReasons": {
-        "misunderstanding-mcq-20": "本句指「禮貌地表示雙方對某件事的理解不一致」。",
-        "misunderstanding-mcq-19": "「如果我理解錯了」是「if I've misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-18": "「別誤會我的意思」是「Don't misunderstand me」的用法，與本句語境不同。",
-        "misunderstanding-mcq-17": "「因為誤會」是「due to a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-16": "「造成誤會」是「cause a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-15": "「避免誤解」是「avoid misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-20": "本句的「There seems to have been a misunderstanding.」指「禮貌地表示雙方對某件事的理解不一致」。",
+        "misunderstanding-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-20"
     },
@@ -1010,11 +870,7 @@ export default {
       "masked": "I think ____ about the deadline.",
       "options": [
         "misunderstanding-mcq-20",
-        "misunderstanding-mcq-19",
-        "misunderstanding-mcq-18",
-        "misunderstanding-mcq-17",
-        "misunderstanding-mcq-16",
-        "misunderstanding-mcq-15"
+        "misunderstanding-mcq-14"
       ],
       "explanation": "本句的「there has been a misunderstanding」指「禮貌地表示雙方對某件事的理解不一致」。",
       "sentenceIndex": 18,
@@ -1023,12 +879,8 @@ export default {
         "there has been a misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-20": "本句指「禮貌地表示雙方對某件事的理解不一致」。",
-        "misunderstanding-mcq-19": "「如果我理解錯了」是「if I've misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-18": "「別誤會我的意思」是「Don't misunderstand me」的用法，與本句語境不同。",
-        "misunderstanding-mcq-17": "「因為誤會」是「due to a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-16": "「造成誤會」是「cause a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-15": "「避免誤解」是「avoid misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-20": "本句的「there has been a misunderstanding」指「禮貌地表示雙方對某件事的理解不一致」。",
+        "misunderstanding-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-20"
     },
@@ -1040,11 +892,7 @@ export default {
       "masked": "You ____.",
       "options": [
         "misunderstanding-mcq-02",
-        "misunderstanding-mcq-01",
-        "misunderstanding-mcq-03",
-        "misunderstanding-mcq-04",
-        "misunderstanding-mcq-05",
-        "misunderstanding-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「misunderstood me」指「誤解某人」。",
       "sentenceIndex": 19,
@@ -1053,12 +901,8 @@ export default {
         "misunderstood me"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-02": "本句指「誤解某人」。",
-        "misunderstanding-mcq-01": "「誤解；誤會」是「misunderstand」的用法，與本句語境不同。",
-        "misunderstanding-mcq-03": "「誤解某人的意思」是「misunderstand what someone means」的用法，與本句語境不同。",
-        "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。",
-        "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。"
+        "misunderstanding-mcq-02": "本句的「misunderstood me」指「誤解某人」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-02"
     },
@@ -1070,11 +914,7 @@ export default {
       "masked": "I think Kevin ____.",
       "options": [
         "misunderstanding-mcq-02",
-        "misunderstanding-mcq-01",
-        "misunderstanding-mcq-03",
-        "misunderstanding-mcq-04",
-        "misunderstanding-mcq-05",
-        "misunderstanding-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「misunderstood the situation」指「誤解某人」。",
       "sentenceIndex": 20,
@@ -1083,12 +923,8 @@ export default {
         "misunderstood the situation"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-02": "本句指「誤解某人」。",
-        "misunderstanding-mcq-01": "「誤解；誤會」是「misunderstand」的用法，與本句語境不同。",
-        "misunderstanding-mcq-03": "「誤解某人的意思」是「misunderstand what someone means」的用法，與本句語境不同。",
-        "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。",
-        "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。"
+        "misunderstanding-mcq-02": "本句的「misunderstood the situation」指「誤解某人」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-02"
     },
@@ -1100,11 +936,7 @@ export default {
       "masked": "I ____.",
       "options": [
         "misunderstanding-mcq-03",
-        "misunderstanding-mcq-02",
-        "misunderstanding-mcq-04",
-        "misunderstanding-mcq-01",
-        "misunderstanding-mcq-05",
-        "misunderstanding-mcq-06"
+        "misunderstanding-mcq-20"
       ],
       "explanation": "本句的「misunderstood what he meant」指「誤解某人的意思」。",
       "sentenceIndex": 21,
@@ -1113,12 +945,8 @@ export default {
         "misunderstood what he meant"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-03": "本句指「誤解某人的意思」。",
-        "misunderstanding-mcq-02": "「誤解某人」是「misunderstand someone」的用法，與本句語境不同。",
-        "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。",
-        "misunderstanding-mcq-01": "「誤解；誤會」是「misunderstand」的用法，與本句語境不同。",
-        "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。"
+        "misunderstanding-mcq-03": "本句的「misunderstood what he meant」指「誤解某人的意思」。",
+        "misunderstanding-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-03"
     },
@@ -1130,11 +958,7 @@ export default {
       "masked": "She ____ as criticism.",
       "options": [
         "misunderstanding-mcq-03",
-        "misunderstanding-mcq-02",
-        "misunderstanding-mcq-04",
-        "misunderstanding-mcq-01",
-        "misunderstanding-mcq-05",
-        "misunderstanding-mcq-06"
+        "misunderstanding-mcq-19"
       ],
       "explanation": "本句的「misunderstood my comment」指「誤解某人的意思」。",
       "sentenceIndex": 22,
@@ -1143,12 +967,8 @@ export default {
         "misunderstood my comment"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-03": "本句指「誤解某人的意思」。",
-        "misunderstanding-mcq-02": "「誤解某人」是「misunderstand someone」的用法，與本句語境不同。",
-        "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。",
-        "misunderstanding-mcq-01": "「誤解；誤會」是「misunderstand」的用法，與本句語境不同。",
-        "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。"
+        "misunderstanding-mcq-03": "本句的「misunderstood my comment」指「誤解某人的意思」。",
+        "misunderstanding-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-03"
     },
@@ -1160,11 +980,8 @@ export default {
       "masked": "He had ____ what happened.",
       "options": [
         "misunderstanding-mcq-04",
-        "misunderstanding-mcq-03",
-        "misunderstanding-mcq-05",
-        "misunderstanding-mcq-02",
-        "misunderstanding-mcq-06",
-        "misunderstanding-mcq-01"
+        "misunderstanding-mcq-20",
+        "misunderstanding-mcq-18"
       ],
       "explanation": "本句的「completely misunderstood」指「完全誤解」。",
       "sentenceIndex": 23,
@@ -1173,12 +990,9 @@ export default {
         "completely misunderstood"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-04": "本句指「完全誤解」。",
-        "misunderstanding-mcq-03": "「誤解某人的意思」是「misunderstand what someone means」的用法，與本句語境不同。",
-        "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-02": "「誤解某人」是「misunderstand someone」的用法，與本句語境不同。",
-        "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。",
-        "misunderstanding-mcq-01": "「誤解；誤會」是「misunderstand」的用法，與本句語境不同。"
+        "misunderstanding-mcq-04": "本句的「completely misunderstood」指「完全誤解」。",
+        "misunderstanding-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "misunderstanding-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-04"
     },
@@ -1190,11 +1004,8 @@ export default {
       "masked": "I think you've ____.",
       "options": [
         "misunderstanding-mcq-04",
-        "misunderstanding-mcq-03",
-        "misunderstanding-mcq-05",
-        "misunderstanding-mcq-02",
-        "misunderstanding-mcq-06",
-        "misunderstanding-mcq-01"
+        "misunderstanding-mcq-19",
+        "misunderstanding-mcq-18"
       ],
       "explanation": "本句的「completely misunderstood me」指「完全誤解」。",
       "sentenceIndex": 24,
@@ -1203,12 +1014,9 @@ export default {
         "completely misunderstood me"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-04": "本句指「完全誤解」。",
-        "misunderstanding-mcq-03": "「誤解某人的意思」是「misunderstand what someone means」的用法，與本句語境不同。",
-        "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-02": "「誤解某人」是「misunderstand someone」的用法，與本句語境不同。",
-        "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。",
-        "misunderstanding-mcq-01": "「誤解；誤會」是「misunderstand」的用法，與本句語境不同。"
+        "misunderstanding-mcq-04": "本句的「completely misunderstood me」指「完全誤解」。",
+        "misunderstanding-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "misunderstanding-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-04"
     },
@@ -1220,11 +1028,7 @@ export default {
       "masked": "I felt ____.",
       "options": [
         "misunderstanding-mcq-05",
-        "misunderstanding-mcq-04",
-        "misunderstanding-mcq-06",
-        "misunderstanding-mcq-03",
-        "misunderstanding-mcq-07",
-        "misunderstanding-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「misunderstood」指「被誤解」。",
       "sentenceIndex": 25,
@@ -1233,12 +1037,8 @@ export default {
         "misunderstood"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-05": "本句指「被誤解」。",
-        "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。",
-        "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。",
-        "misunderstanding-mcq-03": "「誤解某人的意思」是「misunderstand what someone means」的用法，與本句語境不同。",
-        "misunderstanding-mcq-07": "「誤會；誤解」是「misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-02": "「誤解某人」是「misunderstand someone」的用法，與本句語境不同。"
+        "misunderstanding-mcq-05": "本句的「misunderstood」指「被誤解」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-05"
     },
@@ -1250,11 +1050,7 @@ export default {
       "masked": "Her intentions were ____.",
       "options": [
         "misunderstanding-mcq-05",
-        "misunderstanding-mcq-04",
-        "misunderstanding-mcq-06",
-        "misunderstanding-mcq-03",
-        "misunderstanding-mcq-07",
-        "misunderstanding-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「misunderstood」指「被誤解」。",
       "sentenceIndex": 26,
@@ -1263,12 +1059,8 @@ export default {
         "misunderstood"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-05": "本句指「被誤解」。",
-        "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。",
-        "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。",
-        "misunderstanding-mcq-03": "「誤解某人的意思」是「misunderstand what someone means」的用法，與本句語境不同。",
-        "misunderstanding-mcq-07": "「誤會；誤解」是「misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-02": "「誤解某人」是「misunderstand someone」的用法，與本句語境不同。"
+        "misunderstanding-mcq-05": "本句的「misunderstood」指「被誤解」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-05"
     },
@@ -1280,11 +1072,7 @@ export default {
       "masked": "He felt like a ____.",
       "options": [
         "misunderstanding-mcq-06",
-        "misunderstanding-mcq-05",
-        "misunderstanding-mcq-07",
-        "misunderstanding-mcq-04",
-        "misunderstanding-mcq-08",
-        "misunderstanding-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「misunderstood person」指「被誤解的」。",
       "sentenceIndex": 27,
@@ -1293,12 +1081,8 @@ export default {
         "misunderstood person"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-06": "本句指「被誤解的」。",
-        "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-07": "「誤會；誤解」是「misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。",
-        "misunderstanding-mcq-08": "「A 和 B 之間的誤會」是「misunderstanding between A and B」的用法，與本句語境不同。",
-        "misunderstanding-mcq-03": "「誤解某人的意思」是「misunderstand what someone means」的用法，與本句語境不同。"
+        "misunderstanding-mcq-06": "本句的「misunderstood person」指「被誤解的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-06"
     },
@@ -1310,11 +1094,7 @@ export default {
       "masked": "The character is often described as ____.",
       "options": [
         "misunderstanding-mcq-06",
-        "misunderstanding-mcq-05",
-        "misunderstanding-mcq-07",
-        "misunderstanding-mcq-04",
-        "misunderstanding-mcq-08",
-        "misunderstanding-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「misunderstood」指「被誤解的」。",
       "sentenceIndex": 28,
@@ -1323,12 +1103,8 @@ export default {
         "misunderstood"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-06": "本句指「被誤解的」。",
-        "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-07": "「誤會；誤解」是「misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。",
-        "misunderstanding-mcq-08": "「A 和 B 之間的誤會」是「misunderstanding between A and B」的用法，與本句語境不同。",
-        "misunderstanding-mcq-03": "「誤解某人的意思」是「misunderstand what someone means」的用法，與本句語境不同。"
+        "misunderstanding-mcq-06": "本句的「misunderstood」指「被誤解的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-06"
     },
@@ -1340,11 +1116,8 @@ export default {
       "masked": "____—I'm not blaming you.",
       "options": [
         "misunderstanding-mcq-18",
-        "misunderstanding-mcq-17",
-        "misunderstanding-mcq-19",
-        "misunderstanding-mcq-16",
         "misunderstanding-mcq-20",
-        "misunderstanding-mcq-15"
+        "misunderstanding-mcq-04"
       ],
       "explanation": "本句的「Don't misunderstand me」指「別誤會我的意思」。",
       "sentenceIndex": 29,
@@ -1353,12 +1126,9 @@ export default {
         "Don't misunderstand me"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-18": "本句指「別誤會我的意思」。",
-        "misunderstanding-mcq-17": "「因為誤會」是「due to a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-19": "「如果我理解錯了」是「if I've misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-16": "「造成誤會」是「cause a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-20": "「禮貌地表示雙方對某件事的理解不一致」是「9. There seems to have been a misunderstanding. — 看來出現了誤會」的用法，與本句語境不同。",
-        "misunderstanding-mcq-15": "「避免誤解」是「avoid misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-18": "本句的「Don't misunderstand me」指「別誤會我的意思」。",
+        "misunderstanding-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "misunderstanding-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-18"
     },
@@ -1370,11 +1140,8 @@ export default {
       "masked": "____; I agree with most of what you said.",
       "options": [
         "misunderstanding-mcq-18",
-        "misunderstanding-mcq-17",
-        "misunderstanding-mcq-19",
-        "misunderstanding-mcq-16",
         "misunderstanding-mcq-20",
-        "misunderstanding-mcq-15"
+        "misunderstanding-mcq-04"
       ],
       "explanation": "本句的「Don't misunderstand me」指「別誤會我的意思」。",
       "sentenceIndex": 30,
@@ -1383,12 +1150,9 @@ export default {
         "Don't misunderstand me"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-18": "本句指「別誤會我的意思」。",
-        "misunderstanding-mcq-17": "「因為誤會」是「due to a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-19": "「如果我理解錯了」是「if I've misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-16": "「造成誤會」是「cause a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-20": "「禮貌地表示雙方對某件事的理解不一致」是「9. There seems to have been a misunderstanding. — 看來出現了誤會」的用法，與本句語境不同。",
-        "misunderstanding-mcq-15": "「避免誤解」是「avoid misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-18": "本句的「Don't misunderstand me」指「別誤會我的意思」。",
+        "misunderstanding-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "misunderstanding-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-18"
     },
@@ -1400,11 +1164,7 @@ export default {
       "masked": "Correct me ____.",
       "options": [
         "misunderstanding-mcq-19",
-        "misunderstanding-mcq-18",
-        "misunderstanding-mcq-20",
-        "misunderstanding-mcq-17",
-        "misunderstanding-mcq-16",
-        "misunderstanding-mcq-15"
+        "misunderstanding-mcq-14"
       ],
       "explanation": "本句的「if I've misunderstood」指「如果我理解錯了」。",
       "sentenceIndex": 31,
@@ -1413,12 +1173,8 @@ export default {
         "if I've misunderstood"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-19": "本句指「如果我理解錯了」。",
-        "misunderstanding-mcq-18": "「別誤會我的意思」是「Don't misunderstand me」的用法，與本句語境不同。",
-        "misunderstanding-mcq-20": "「禮貌地表示雙方對某件事的理解不一致」是「9. There seems to have been a misunderstanding. — 看來出現了誤會」的用法，與本句語境不同。",
-        "misunderstanding-mcq-17": "「因為誤會」是「due to a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-16": "「造成誤會」是「cause a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-15": "「避免誤解」是「avoid misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-19": "本句的「if I've misunderstood」指「如果我理解錯了」。",
+        "misunderstanding-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-19"
     },
@@ -1430,11 +1186,7 @@ export default {
       "masked": "____, please explain it again.",
       "options": [
         "misunderstanding-mcq-19",
-        "misunderstanding-mcq-18",
-        "misunderstanding-mcq-20",
-        "misunderstanding-mcq-17",
-        "misunderstanding-mcq-16",
-        "misunderstanding-mcq-15"
+        "misunderstanding-mcq-14"
       ],
       "explanation": "本句的「If I've misunderstood」指「如果我理解錯了」。",
       "sentenceIndex": 32,
@@ -1443,12 +1195,8 @@ export default {
         "If I've misunderstood"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-19": "本句指「如果我理解錯了」。",
-        "misunderstanding-mcq-18": "「別誤會我的意思」是「Don't misunderstand me」的用法，與本句語境不同。",
-        "misunderstanding-mcq-20": "「禮貌地表示雙方對某件事的理解不一致」是「9. There seems to have been a misunderstanding. — 看來出現了誤會」的用法，與本句語境不同。",
-        "misunderstanding-mcq-17": "「因為誤會」是「due to a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-16": "「造成誤會」是「cause a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-15": "「避免誤解」是「avoid misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-19": "本句的「If I've misunderstood」指「如果我理解錯了」。",
+        "misunderstanding-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-19"
     },
@@ -1460,11 +1208,7 @@ export default {
       "masked": "The instruction led to a ____ about who should upload the file.",
       "options": [
         "misunderstanding-mcq-07",
-        "misunderstanding-mcq-06",
-        "misunderstanding-mcq-08",
-        "misunderstanding-mcq-05",
-        "misunderstanding-mcq-09",
-        "misunderstanding-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「misunderstanding」指「誤會；誤解」。",
       "sentenceIndex": 33,
@@ -1473,12 +1217,8 @@ export default {
         "misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-07": "本句指「誤會；誤解」。",
-        "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。",
-        "misunderstanding-mcq-08": "「A 和 B 之間的誤會」是「misunderstanding between A and B」的用法，與本句語境不同。",
-        "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-09": "「對 X 的誤解」是「misunderstanding about X」的用法，與本句語境不同。",
-        "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。"
+        "misunderstanding-mcq-07": "本句的「misunderstanding」指「誤會；誤解」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-07"
     },
@@ -1490,11 +1230,7 @@ export default {
       "masked": "There was a ____.",
       "options": [
         "misunderstanding-mcq-07",
-        "misunderstanding-mcq-06",
-        "misunderstanding-mcq-08",
-        "misunderstanding-mcq-05",
-        "misunderstanding-mcq-09",
-        "misunderstanding-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「misunderstanding about the meeting time」指「誤會；誤解」。",
       "sentenceIndex": 34,
@@ -1503,12 +1239,8 @@ export default {
         "misunderstanding about the meeting time"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-07": "本句指「誤會；誤解」。",
-        "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。",
-        "misunderstanding-mcq-08": "「A 和 B 之間的誤會」是「misunderstanding between A and B」的用法，與本句語境不同。",
-        "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-09": "「對 X 的誤解」是「misunderstanding about X」的用法，與本句語境不同。",
-        "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。"
+        "misunderstanding-mcq-07": "本句的「misunderstanding about the meeting time」指「誤會；誤解」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-07"
     },
@@ -1520,11 +1252,7 @@ export default {
       "masked": "The two friends had a ____ and stopped speaking for a week.",
       "options": [
         "misunderstanding-mcq-07",
-        "misunderstanding-mcq-06",
-        "misunderstanding-mcq-08",
-        "misunderstanding-mcq-05",
-        "misunderstanding-mcq-09",
-        "misunderstanding-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「misunderstanding」指「誤會；誤解」。",
       "sentenceIndex": 35,
@@ -1533,12 +1261,8 @@ export default {
         "misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-07": "本句指「誤會；誤解」。",
-        "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。",
-        "misunderstanding-mcq-08": "「A 和 B 之間的誤會」是「misunderstanding between A and B」的用法，與本句語境不同。",
-        "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-09": "「對 X 的誤解」是「misunderstanding about X」的用法，與本句語境不同。",
-        "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。"
+        "misunderstanding-mcq-07": "本句的「misunderstanding」指「誤會；誤解」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-07"
     },
@@ -1550,11 +1274,7 @@ export default {
       "masked": "I hope this ____ doesn't damage our friendship.",
       "options": [
         "misunderstanding-mcq-07",
-        "misunderstanding-mcq-06",
-        "misunderstanding-mcq-08",
-        "misunderstanding-mcq-05",
-        "misunderstanding-mcq-09",
-        "misunderstanding-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「misunderstanding」指「誤會；誤解」。",
       "sentenceIndex": 36,
@@ -1563,12 +1283,8 @@ export default {
         "misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-07": "本句指「誤會；誤解」。",
-        "misunderstanding-mcq-06": "「被誤解的」是「misunderstood (adj.)」的用法，與本句語境不同。",
-        "misunderstanding-mcq-08": "「A 和 B 之間的誤會」是「misunderstanding between A and B」的用法，與本句語境不同。",
-        "misunderstanding-mcq-05": "「被誤解」是「be misunderstood」的用法，與本句語境不同。",
-        "misunderstanding-mcq-09": "「對 X 的誤解」是「misunderstanding about X」的用法，與本句語境不同。",
-        "misunderstanding-mcq-04": "「完全誤解」是「completely misunderstand」的用法，與本句語境不同。"
+        "misunderstanding-mcq-07": "本句的「misunderstanding」指「誤會；誤解」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-07"
     },
@@ -1580,11 +1296,7 @@ export default {
       "masked": "It was only a ____.",
       "options": [
         "misunderstanding-mcq-11",
-        "misunderstanding-mcq-10",
-        "misunderstanding-mcq-12",
-        "misunderstanding-mcq-09",
-        "misunderstanding-mcq-13",
-        "misunderstanding-mcq-08"
+        "misunderstanding-mcq-20"
       ],
       "explanation": "本句的「minor misunderstanding」指「小誤會」。",
       "sentenceIndex": 37,
@@ -1593,12 +1305,8 @@ export default {
         "minor misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-11": "本句指「小誤會」。",
-        "misunderstanding-mcq-10": "「單純誤會」是「simple misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-12": "「嚴重誤會」是「serious misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-09": "「對 X 的誤解」是「misunderstanding about X」的用法，與本句語境不同。",
-        "misunderstanding-mcq-13": "「常見誤解」是「common misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-08": "「A 和 B 之間的誤會」是「misunderstanding between A and B」的用法，與本句語境不同。"
+        "misunderstanding-mcq-11": "本句的「minor misunderstanding」指「小誤會」。",
+        "misunderstanding-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-11"
     },
@@ -1610,11 +1318,7 @@ export default {
       "masked": "A ____ quickly became an argument.",
       "options": [
         "misunderstanding-mcq-11",
-        "misunderstanding-mcq-10",
-        "misunderstanding-mcq-12",
-        "misunderstanding-mcq-09",
-        "misunderstanding-mcq-13",
-        "misunderstanding-mcq-08"
+        "misunderstanding-mcq-19"
       ],
       "explanation": "本句的「minor misunderstanding」指「小誤會」。",
       "sentenceIndex": 38,
@@ -1623,12 +1327,8 @@ export default {
         "minor misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-11": "本句指「小誤會」。",
-        "misunderstanding-mcq-10": "「單純誤會」是「simple misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-12": "「嚴重誤會」是「serious misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-09": "「對 X 的誤解」是「misunderstanding about X」的用法，與本句語境不同。",
-        "misunderstanding-mcq-13": "「常見誤解」是「common misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-08": "「A 和 B 之間的誤會」是「misunderstanding between A and B」的用法，與本句語境不同。"
+        "misunderstanding-mcq-11": "本句的「minor misunderstanding」指「小誤會」。",
+        "misunderstanding-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-11"
     },
@@ -1640,11 +1340,8 @@ export default {
       "masked": "It's a ____ that these two words mean exactly the same thing.",
       "options": [
         "misunderstanding-mcq-13",
-        "misunderstanding-mcq-12",
-        "misunderstanding-mcq-14",
-        "misunderstanding-mcq-11",
-        "misunderstanding-mcq-15",
-        "misunderstanding-mcq-10"
+        "misunderstanding-mcq-18",
+        "misunderstanding-mcq-20"
       ],
       "explanation": "本句的「common misunderstanding」指「常見誤解」。",
       "sentenceIndex": 39,
@@ -1653,12 +1350,9 @@ export default {
         "common misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-13": "本句指「常見誤解」。",
-        "misunderstanding-mcq-12": "「嚴重誤會」是「serious misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-14": "「澄清誤會」是「clear up a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-11": "「小誤會」是「minor misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-15": "「避免誤解」是「avoid misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-10": "「單純誤會」是「simple misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-13": "本句的「common misunderstanding」指「常見誤解」。",
+        "misunderstanding-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "misunderstanding-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-13"
     },
@@ -1670,11 +1364,8 @@ export default {
       "masked": "There is a ____ about how the system works.",
       "options": [
         "misunderstanding-mcq-13",
-        "misunderstanding-mcq-12",
-        "misunderstanding-mcq-14",
-        "misunderstanding-mcq-11",
-        "misunderstanding-mcq-15",
-        "misunderstanding-mcq-10"
+        "misunderstanding-mcq-19",
+        "misunderstanding-mcq-18"
       ],
       "explanation": "本句的「common misunderstanding」指「常見誤解」。",
       "sentenceIndex": 40,
@@ -1683,12 +1374,9 @@ export default {
         "common misunderstanding"
       ],
       "optionReasons": {
-        "misunderstanding-mcq-13": "本句指「常見誤解」。",
-        "misunderstanding-mcq-12": "「嚴重誤會」是「serious misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-14": "「澄清誤會」是「clear up a misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-11": "「小誤會」是「minor misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-15": "「避免誤解」是「avoid misunderstanding」的用法，與本句語境不同。",
-        "misunderstanding-mcq-10": "「單純誤會」是「simple misunderstanding」的用法，與本句語境不同。"
+        "misunderstanding-mcq-13": "本句的「common misunderstanding」指「常見誤解」。",
+        "misunderstanding-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "misunderstanding-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "misunderstanding-mcq-13"
     }
@@ -1700,5 +1388,12 @@ export default {
     "sha256": "87ae34a132fec244babc752007c9b406dbb5666eb6125576b2542e30c9f9ac00",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

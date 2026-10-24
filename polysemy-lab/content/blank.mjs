@@ -457,16 +457,6 @@ export default {
       "note": "來源詞義：故意不承認、回應或理會某人；尤其英式非正式",
       "examples": [
         [
-          "The home team was held to a blank.",
-          "主隊被壓制至零得分。",
-          "故意不承認、回應或理會某人；尤其英式非正式"
-        ],
-        [
-          "The goalkeeper helped keep the opposition blank.",
-          "守門員協助令對手未能得分。",
-          "故意不承認、回應或理會某人；尤其英式非正式"
-        ],
-        [
           "I said hello, but she completely blanked me.",
           "我跟她打招呼，但她完全無視我／不理我。",
           "故意不承認、回應或理會某人；尤其英式非正式"
@@ -677,6 +667,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "blank-reviewed-f7ec5efa6b",
+      "title": "零分；沒有得分",
+      "form": "blank · source section 24",
+      "en": "零分；沒有得分",
+      "zh": "零分；沒有得分",
+      "note": "對照原始教材第 24 節及例句核實。",
+      "examples": [
+        [
+          "The home team was held to a blank.",
+          "主隊被壓制至零得分。",
+          "零分；沒有得分"
+        ],
+        [
+          "The goalkeeper helped keep the opposition blank.",
+          "守門員協助令對手未能得分。",
+          "零分；沒有得分"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -688,11 +700,8 @@ export default {
       "masked": "My mind would go ____.",
       "options": [
         "blank-mcq-01",
-        "blank-mcq-02",
-        "blank-mcq-03",
-        "blank-mcq-04",
-        "blank-mcq-05",
-        "blank-mcq-06"
+        "blank-mcq-06",
+        "blank-mcq-10"
       ],
       "explanation": "本句的「blank」指「因緊張、壓力或突發情況而短暫無法回想、組織或產生所需的想法／語言」。",
       "sentenceIndex": 0,
@@ -701,12 +710,9 @@ export default {
         "blank"
       ],
       "optionReasons": {
-        "blank-mcq-01": "本句指「因緊張、壓力或突發情況而短暫無法回想、組織或產生所需的想法／語言」。",
-        "blank-mcq-02": "「沒有文字、圖案、資料或其他內容的；空白的」是「blank — empty/unwritten」的用法，與本句語境不同。",
-        "blank-mcq-03": "「尚未寫上或印上主要內容的頁面」是「blank page」的用法，與本句語境不同。",
-        "blank-mcq-04": "「螢幕沒有顯示預期內容的空白畫面」是「blank screen」的用法，與本句語境不同。",
-        "blank-mcq-05": "「不在指定位置填寫、輸入或加入任何內容」是「leave something blank」的用法，與本句語境不同。",
-        "blank-mcq-06": "「特意留空、等待填寫資料的位置／欄位」是「blank space/field」的用法，與本句語境不同。"
+        "blank-mcq-01": "本句的「blank」指「因緊張、壓力或突發情況而短暫無法回想、組織或產生所需的想法／語言」。",
+        "blank-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-01"
     },
@@ -718,11 +724,9 @@ export default {
       "masked": "When the manager asked me a question, my mind went ____.",
       "options": [
         "blank-mcq-01",
-        "blank-mcq-02",
-        "blank-mcq-03",
-        "blank-mcq-04",
-        "blank-mcq-05",
-        "blank-mcq-06"
+        "blank-mcq-23",
+        "blank-pdf-002",
+        "blank-mcq-10"
       ],
       "explanation": "本句的「blank」指「因緊張、壓力或突發情況而短暫無法回想、組織或產生所需的想法／語言」。",
       "sentenceIndex": 1,
@@ -731,12 +735,10 @@ export default {
         "blank"
       ],
       "optionReasons": {
-        "blank-mcq-01": "本句指「因緊張、壓力或突發情況而短暫無法回想、組織或產生所需的想法／語言」。",
-        "blank-mcq-02": "「沒有文字、圖案、資料或其他內容的；空白的」是「blank — empty/unwritten」的用法，與本句語境不同。",
-        "blank-mcq-03": "「尚未寫上或印上主要內容的頁面」是「blank page」的用法，與本句語境不同。",
-        "blank-mcq-04": "「螢幕沒有顯示預期內容的空白畫面」是「blank screen」的用法，與本句語境不同。",
-        "blank-mcq-05": "「不在指定位置填寫、輸入或加入任何內容」是「leave something blank」的用法，與本句語境不同。",
-        "blank-mcq-06": "「特意留空、等待填寫資料的位置／欄位」是「blank space/field」的用法，與本句語境不同。"
+        "blank-mcq-01": "本句的「blank」指「因緊張、壓力或突發情況而短暫無法回想、組織或產生所需的想法／語言」。",
+        "blank-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-01"
     },
@@ -748,11 +750,9 @@ export default {
       "masked": "I knew the answer, but my mind suddenly went ____.",
       "options": [
         "blank-mcq-01",
-        "blank-mcq-02",
-        "blank-mcq-03",
-        "blank-mcq-04",
-        "blank-mcq-05",
-        "blank-mcq-06"
+        "blank-mcq-10",
+        "blank-mcq-27",
+        "blank-pdf-002"
       ],
       "explanation": "本句的「blank」指「因緊張、壓力或突發情況而短暫無法回想、組織或產生所需的想法／語言」。",
       "sentenceIndex": 2,
@@ -761,12 +761,10 @@ export default {
         "blank"
       ],
       "optionReasons": {
-        "blank-mcq-01": "本句指「因緊張、壓力或突發情況而短暫無法回想、組織或產生所需的想法／語言」。",
-        "blank-mcq-02": "「沒有文字、圖案、資料或其他內容的；空白的」是「blank — empty/unwritten」的用法，與本句語境不同。",
-        "blank-mcq-03": "「尚未寫上或印上主要內容的頁面」是「blank page」的用法，與本句語境不同。",
-        "blank-mcq-04": "「螢幕沒有顯示預期內容的空白畫面」是「blank screen」的用法，與本句語境不同。",
-        "blank-mcq-05": "「不在指定位置填寫、輸入或加入任何內容」是「leave something blank」的用法，與本句語境不同。",
-        "blank-mcq-06": "「特意留空、等待填寫資料的位置／欄位」是「blank space/field」的用法，與本句語境不同。"
+        "blank-mcq-01": "本句的「blank」指「因緊張、壓力或突發情況而短暫無法回想、組織或產生所需的想法／語言」。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-01"
     },
@@ -778,11 +776,8 @@ export default {
       "masked": "He handed me a ____.",
       "options": [
         "blank-mcq-02",
-        "blank-mcq-01",
-        "blank-mcq-03",
-        "blank-mcq-04",
-        "blank-mcq-05",
-        "blank-mcq-06"
+        "blank-mcq-10",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank sheet of paper」指「沒有文字、圖案、資料或其他內容的；空白的」。",
       "sentenceIndex": 3,
@@ -791,12 +786,9 @@ export default {
         "blank sheet of paper"
       ],
       "optionReasons": {
-        "blank-mcq-02": "本句指「沒有文字、圖案、資料或其他內容的；空白的」。",
-        "blank-mcq-01": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生所需的想法／語言」是「mind goes blank」的用法，與本句語境不同。",
-        "blank-mcq-03": "「尚未寫上或印上主要內容的頁面」是「blank page」的用法，與本句語境不同。",
-        "blank-mcq-04": "「螢幕沒有顯示預期內容的空白畫面」是「blank screen」的用法，與本句語境不同。",
-        "blank-mcq-05": "「不在指定位置填寫、輸入或加入任何內容」是「leave something blank」的用法，與本句語境不同。",
-        "blank-mcq-06": "「特意留空、等待填寫資料的位置／欄位」是「blank space/field」的用法，與本句語境不同。"
+        "blank-mcq-02": "本句的「blank sheet of paper」指「沒有文字、圖案、資料或其他內容的；空白的」。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-02"
     },
@@ -808,11 +800,8 @@ export default {
       "masked": "The form contains several ____.",
       "options": [
         "blank-mcq-02",
-        "blank-mcq-01",
-        "blank-mcq-03",
-        "blank-mcq-04",
-        "blank-mcq-05",
-        "blank-mcq-06"
+        "blank-mcq-10",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank spaces」指「沒有文字、圖案、資料或其他內容的；空白的」。",
       "sentenceIndex": 4,
@@ -821,12 +810,9 @@ export default {
         "blank spaces"
       ],
       "optionReasons": {
-        "blank-mcq-02": "本句指「沒有文字、圖案、資料或其他內容的；空白的」。",
-        "blank-mcq-01": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生所需的想法／語言」是「mind goes blank」的用法，與本句語境不同。",
-        "blank-mcq-03": "「尚未寫上或印上主要內容的頁面」是「blank page」的用法，與本句語境不同。",
-        "blank-mcq-04": "「螢幕沒有顯示預期內容的空白畫面」是「blank screen」的用法，與本句語境不同。",
-        "blank-mcq-05": "「不在指定位置填寫、輸入或加入任何內容」是「leave something blank」的用法，與本句語境不同。",
-        "blank-mcq-06": "「特意留空、等待填寫資料的位置／欄位」是「blank space/field」的用法，與本句語境不同。"
+        "blank-mcq-02": "本句的「blank spaces」指「沒有文字、圖案、資料或其他內容的；空白的」。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-02"
     },
@@ -838,11 +824,9 @@ export default {
       "masked": "I stared at the ____ and didn’t know how to begin.",
       "options": [
         "blank-mcq-03",
-        "blank-mcq-02",
-        "blank-mcq-04",
-        "blank-mcq-01",
-        "blank-mcq-05",
-        "blank-mcq-06"
+        "blank-reviewed-f7ec5efa6b",
+        "blank-pdf-002",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank page」指「尚未寫上或印上主要內容的頁面」。",
       "sentenceIndex": 5,
@@ -851,12 +835,10 @@ export default {
         "blank page"
       ],
       "optionReasons": {
-        "blank-mcq-03": "本句指「尚未寫上或印上主要內容的頁面」。",
-        "blank-mcq-02": "「沒有文字、圖案、資料或其他內容的；空白的」是「blank — empty/unwritten」的用法，與本句語境不同。",
-        "blank-mcq-04": "「螢幕沒有顯示預期內容的空白畫面」是「blank screen」的用法，與本句語境不同。",
-        "blank-mcq-01": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生所需的想法／語言」是「mind goes blank」的用法，與本句語境不同。",
-        "blank-mcq-05": "「不在指定位置填寫、輸入或加入任何內容」是「leave something blank」的用法，與本句語境不同。",
-        "blank-mcq-06": "「特意留空、等待填寫資料的位置／欄位」是「blank space/field」的用法，與本句語境不同。"
+        "blank-mcq-03": "本句的「blank page」指「尚未寫上或印上主要內容的頁面」。",
+        "blank-reviewed-f7ec5efa6b": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-03"
     },
@@ -868,11 +850,9 @@ export default {
       "masked": "Open your notebook to a ____.",
       "options": [
         "blank-mcq-03",
-        "blank-mcq-02",
-        "blank-mcq-04",
-        "blank-mcq-01",
-        "blank-mcq-05",
-        "blank-mcq-06"
+        "blank-mcq-11",
+        "blank-mcq-20",
+        "blank-pdf-002"
       ],
       "explanation": "本句的「blank page」指「尚未寫上或印上主要內容的頁面」。",
       "sentenceIndex": 6,
@@ -881,12 +861,10 @@ export default {
         "blank page"
       ],
       "optionReasons": {
-        "blank-mcq-03": "本句指「尚未寫上或印上主要內容的頁面」。",
-        "blank-mcq-02": "「沒有文字、圖案、資料或其他內容的；空白的」是「blank — empty/unwritten」的用法，與本句語境不同。",
-        "blank-mcq-04": "「螢幕沒有顯示預期內容的空白畫面」是「blank screen」的用法，與本句語境不同。",
-        "blank-mcq-01": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生所需的想法／語言」是「mind goes blank」的用法，與本句語境不同。",
-        "blank-mcq-05": "「不在指定位置填寫、輸入或加入任何內容」是「leave something blank」的用法，與本句語境不同。",
-        "blank-mcq-06": "「特意留空、等待填寫資料的位置／欄位」是「blank space/field」的用法，與本句語境不同。"
+        "blank-mcq-03": "本句的「blank page」指「尚未寫上或印上主要內容的頁面」。",
+        "blank-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-03"
     },
@@ -898,11 +876,8 @@ export default {
       "masked": "The computer suddenly showed a ____.",
       "options": [
         "blank-mcq-04",
-        "blank-mcq-03",
-        "blank-mcq-05",
-        "blank-mcq-02",
-        "blank-mcq-06",
-        "blank-mcq-01"
+        "blank-mcq-20",
+        "blank-mcq-10"
       ],
       "explanation": "本句的「blank screen」指「螢幕沒有顯示預期內容的空白畫面」。",
       "sentenceIndex": 7,
@@ -911,12 +886,9 @@ export default {
         "blank screen"
       ],
       "optionReasons": {
-        "blank-mcq-04": "本句指「螢幕沒有顯示預期內容的空白畫面」。",
-        "blank-mcq-03": "「尚未寫上或印上主要內容的頁面」是「blank page」的用法，與本句語境不同。",
-        "blank-mcq-05": "「不在指定位置填寫、輸入或加入任何內容」是「leave something blank」的用法，與本句語境不同。",
-        "blank-mcq-02": "「沒有文字、圖案、資料或其他內容的；空白的」是「blank — empty/unwritten」的用法，與本句語境不同。",
-        "blank-mcq-06": "「特意留空、等待填寫資料的位置／欄位」是「blank space/field」的用法，與本句語境不同。",
-        "blank-mcq-01": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生所需的想法／語言」是「mind goes blank」的用法，與本句語境不同。"
+        "blank-mcq-04": "本句的「blank screen」指「螢幕沒有顯示預期內容的空白畫面」。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-04"
     },
@@ -928,11 +900,8 @@ export default {
       "masked": "If you only see a ____, restart the application.",
       "options": [
         "blank-mcq-04",
-        "blank-mcq-03",
-        "blank-mcq-05",
-        "blank-mcq-02",
-        "blank-mcq-06",
-        "blank-mcq-01"
+        "blank-mcq-20",
+        "blank-mcq-10"
       ],
       "explanation": "本句的「blank screen」指「螢幕沒有顯示預期內容的空白畫面」。",
       "sentenceIndex": 8,
@@ -941,12 +910,9 @@ export default {
         "blank screen"
       ],
       "optionReasons": {
-        "blank-mcq-04": "本句指「螢幕沒有顯示預期內容的空白畫面」。",
-        "blank-mcq-03": "「尚未寫上或印上主要內容的頁面」是「blank page」的用法，與本句語境不同。",
-        "blank-mcq-05": "「不在指定位置填寫、輸入或加入任何內容」是「leave something blank」的用法，與本句語境不同。",
-        "blank-mcq-02": "「沒有文字、圖案、資料或其他內容的；空白的」是「blank — empty/unwritten」的用法，與本句語境不同。",
-        "blank-mcq-06": "「特意留空、等待填寫資料的位置／欄位」是「blank space/field」的用法，與本句語境不同。",
-        "blank-mcq-01": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生所需的想法／語言」是「mind goes blank」的用法，與本句語境不同。"
+        "blank-mcq-04": "本句的「blank screen」指「螢幕沒有顯示預期內容的空白畫面」。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-04"
     },
@@ -958,11 +924,9 @@ export default {
       "masked": "If the question does not apply to you, leave the box ____.",
       "options": [
         "blank-mcq-05",
-        "blank-mcq-04",
-        "blank-mcq-06",
-        "blank-mcq-03",
-        "blank-mcq-07",
-        "blank-mcq-02"
+        "blank-mcq-11",
+        "blank-pdf-002",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank」指「不在指定位置填寫、輸入或加入任何內容」。",
       "sentenceIndex": 9,
@@ -971,12 +935,10 @@ export default {
         "blank"
       ],
       "optionReasons": {
-        "blank-mcq-05": "本句指「不在指定位置填寫、輸入或加入任何內容」。",
-        "blank-mcq-04": "「螢幕沒有顯示預期內容的空白畫面」是「blank screen」的用法，與本句語境不同。",
-        "blank-mcq-06": "「特意留空、等待填寫資料的位置／欄位」是「blank space/field」的用法，與本句語境不同。",
-        "blank-mcq-03": "「尚未寫上或印上主要內容的頁面」是「blank page」的用法，與本句語境不同。",
-        "blank-mcq-07": "「題目、表格或文字中故意留下、需要填入內容的空位」是「a blank」的用法，與本句語境不同。",
-        "blank-mcq-02": "「沒有文字、圖案、資料或其他內容的；空白的」是「blank — empty/unwritten」的用法，與本句語境不同。"
+        "blank-mcq-05": "本句的「blank」指「不在指定位置填寫、輸入或加入任何內容」。",
+        "blank-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-05"
     },
@@ -988,11 +950,9 @@ export default {
       "masked": "She left the answer section ____.",
       "options": [
         "blank-mcq-05",
-        "blank-mcq-04",
-        "blank-mcq-06",
-        "blank-mcq-03",
-        "blank-mcq-07",
-        "blank-mcq-02"
+        "blank-mcq-10",
+        "blank-mcq-12",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank」指「不在指定位置填寫、輸入或加入任何內容」。",
       "sentenceIndex": 10,
@@ -1001,12 +961,10 @@ export default {
         "blank"
       ],
       "optionReasons": {
-        "blank-mcq-05": "本句指「不在指定位置填寫、輸入或加入任何內容」。",
-        "blank-mcq-04": "「螢幕沒有顯示預期內容的空白畫面」是「blank screen」的用法，與本句語境不同。",
-        "blank-mcq-06": "「特意留空、等待填寫資料的位置／欄位」是「blank space/field」的用法，與本句語境不同。",
-        "blank-mcq-03": "「尚未寫上或印上主要內容的頁面」是「blank page」的用法，與本句語境不同。",
-        "blank-mcq-07": "「題目、表格或文字中故意留下、需要填入內容的空位」是「a blank」的用法，與本句語境不同。",
-        "blank-mcq-02": "「沒有文字、圖案、資料或其他內容的；空白的」是「blank — empty/unwritten」的用法，與本句語境不同。"
+        "blank-mcq-05": "本句的「blank」指「不在指定位置填寫、輸入或加入任何內容」。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-05"
     },
@@ -1018,11 +976,9 @@ export default {
       "masked": "Enter your name in the ____.",
       "options": [
         "blank-mcq-06",
-        "blank-mcq-05",
-        "blank-mcq-07",
-        "blank-mcq-04",
-        "blank-mcq-08",
-        "blank-mcq-03"
+        "blank-mcq-10",
+        "blank-reviewed-f7ec5efa6b",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank field」指「特意留空、等待填寫資料的位置／欄位」。",
       "sentenceIndex": 11,
@@ -1031,12 +987,10 @@ export default {
         "blank field"
       ],
       "optionReasons": {
-        "blank-mcq-06": "本句指「特意留空、等待填寫資料的位置／欄位」。",
-        "blank-mcq-05": "「不在指定位置填寫、輸入或加入任何內容」是「leave something blank」的用法，與本句語境不同。",
-        "blank-mcq-07": "「題目、表格或文字中故意留下、需要填入內容的空位」是「a blank」的用法，與本句語境不同。",
-        "blank-mcq-04": "「螢幕沒有顯示預期內容的空白畫面」是「blank screen」的用法，與本句語境不同。",
-        "blank-mcq-08": "「把缺少的字、數字或資料填入指定空位」是「fill in the blank」的用法，與本句語境不同。",
-        "blank-mcq-03": "「尚未寫上或印上主要內容的頁面」是「blank page」的用法，與本句語境不同。"
+        "blank-mcq-06": "本句的「blank field」指「特意留空、等待填寫資料的位置／欄位」。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-reviewed-f7ec5efa6b": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-06"
     },
@@ -1048,11 +1002,9 @@ export default {
       "masked": "Write the missing word in the ____.",
       "options": [
         "blank-mcq-06",
-        "blank-mcq-05",
-        "blank-mcq-07",
-        "blank-mcq-04",
-        "blank-mcq-08",
-        "blank-mcq-03"
+        "blank-mcq-13",
+        "blank-mcq-10",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank space」指「特意留空、等待填寫資料的位置／欄位」。",
       "sentenceIndex": 12,
@@ -1061,12 +1013,10 @@ export default {
         "blank space"
       ],
       "optionReasons": {
-        "blank-mcq-06": "本句指「特意留空、等待填寫資料的位置／欄位」。",
-        "blank-mcq-05": "「不在指定位置填寫、輸入或加入任何內容」是「leave something blank」的用法，與本句語境不同。",
-        "blank-mcq-07": "「題目、表格或文字中故意留下、需要填入內容的空位」是「a blank」的用法，與本句語境不同。",
-        "blank-mcq-04": "「螢幕沒有顯示預期內容的空白畫面」是「blank screen」的用法，與本句語境不同。",
-        "blank-mcq-08": "「把缺少的字、數字或資料填入指定空位」是「fill in the blank」的用法，與本句語境不同。",
-        "blank-mcq-03": "「尚未寫上或印上主要內容的頁面」是「blank page」的用法，與本句語境不同。"
+        "blank-mcq-06": "本句的「blank space」指「特意留空、等待填寫資料的位置／欄位」。",
+        "blank-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-06"
     },
@@ -1078,11 +1028,7 @@ export default {
       "masked": "Fill in the ____ with the correct word.",
       "options": [
         "blank-mcq-07",
-        "blank-mcq-06",
-        "blank-mcq-08",
-        "blank-mcq-05",
-        "blank-mcq-09",
-        "blank-mcq-04"
+        "blank-mcq-14"
       ],
       "explanation": "本句的「blank」指「題目、表格或文字中故意留下、需要填入內容的空位」。",
       "sentenceIndex": 13,
@@ -1091,12 +1037,8 @@ export default {
         "blank"
       ],
       "optionReasons": {
-        "blank-mcq-07": "本句指「題目、表格或文字中故意留下、需要填入內容的空位」。",
-        "blank-mcq-06": "「特意留空、等待填寫資料的位置／欄位」是「blank space/field」的用法，與本句語境不同。",
-        "blank-mcq-08": "「把缺少的字、數字或資料填入指定空位」是「fill in the blank」的用法，與本句語境不同。",
-        "blank-mcq-05": "「不在指定位置填寫、輸入或加入任何內容」是「leave something blank」的用法，與本句語境不同。",
-        "blank-mcq-09": "「應該有資料的位置目前沒有內容；未填寫的」是「blank — missing information」的用法，與本句語境不同。",
-        "blank-mcq-04": "「螢幕沒有顯示預期內容的空白畫面」是「blank screen」的用法，與本句語境不同。"
+        "blank-mcq-07": "本句的「blank」指「題目、表格或文字中故意留下、需要填入內容的空位」。",
+        "blank-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-07"
     },
@@ -1108,11 +1050,8 @@ export default {
       "masked": "There are five ____ in the exercise.",
       "options": [
         "blank-mcq-07",
-        "blank-mcq-06",
-        "blank-mcq-08",
-        "blank-mcq-05",
-        "blank-mcq-09",
-        "blank-mcq-04"
+        "blank-mcq-10",
+        "blank-reviewed-f7ec5efa6b"
       ],
       "explanation": "本句的「blanks」指「題目、表格或文字中故意留下、需要填入內容的空位」。",
       "sentenceIndex": 14,
@@ -1121,12 +1060,9 @@ export default {
         "blanks"
       ],
       "optionReasons": {
-        "blank-mcq-07": "本句指「題目、表格或文字中故意留下、需要填入內容的空位」。",
-        "blank-mcq-06": "「特意留空、等待填寫資料的位置／欄位」是「blank space/field」的用法，與本句語境不同。",
-        "blank-mcq-08": "「把缺少的字、數字或資料填入指定空位」是「fill in the blank」的用法，與本句語境不同。",
-        "blank-mcq-05": "「不在指定位置填寫、輸入或加入任何內容」是「leave something blank」的用法，與本句語境不同。",
-        "blank-mcq-09": "「應該有資料的位置目前沒有內容；未填寫的」是「blank — missing information」的用法，與本句語境不同。",
-        "blank-mcq-04": "「螢幕沒有顯示預期內容的空白畫面」是「blank screen」的用法，與本句語境不同。"
+        "blank-mcq-07": "本句的「blanks」指「題目、表格或文字中故意留下、需要填入內容的空位」。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-reviewed-f7ec5efa6b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-07"
     },
@@ -1138,11 +1074,8 @@ export default {
       "masked": "Please ____ with the correct verb.",
       "options": [
         "blank-mcq-08",
-        "blank-mcq-07",
-        "blank-mcq-09",
-        "blank-mcq-06",
-        "blank-mcq-10",
-        "blank-mcq-05"
+        "blank-mcq-20",
+        "blank-mcq-10"
       ],
       "explanation": "本句的「fill in the blank」指「把缺少的字、數字或資料填入指定空位」。",
       "sentenceIndex": 15,
@@ -1151,12 +1084,9 @@ export default {
         "fill in the blank"
       ],
       "optionReasons": {
-        "blank-mcq-08": "本句指「把缺少的字、數字或資料填入指定空位」。",
-        "blank-mcq-07": "「題目、表格或文字中故意留下、需要填入內容的空位」是「a blank」的用法，與本句語境不同。",
-        "blank-mcq-09": "「應該有資料的位置目前沒有內容；未填寫的」是「blank — missing information」的用法，與本句語境不同。",
-        "blank-mcq-06": "「特意留空、等待填寫資料的位置／欄位」是「blank space/field」的用法，與本句語境不同。",
-        "blank-mcq-10": "「臉上／眼神中看不出情緒、理解、認出或明確反應」是「blank expression/face/look」的用法，與本句語境不同。",
-        "blank-mcq-05": "「不在指定位置填寫、輸入或加入任何內容」是「leave something blank」的用法，與本句語境不同。"
+        "blank-mcq-08": "本句的「fill in the blank」指「把缺少的字、數字或資料填入指定空位」。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-08"
     },
@@ -1168,11 +1098,8 @@ export default {
       "masked": "Students had to ____.",
       "options": [
         "blank-mcq-08",
-        "blank-mcq-07",
-        "blank-mcq-09",
-        "blank-mcq-06",
-        "blank-mcq-10",
-        "blank-mcq-05"
+        "blank-mcq-20",
+        "blank-mcq-10"
       ],
       "explanation": "本句的「fill in the blanks」指「把缺少的字、數字或資料填入指定空位」。",
       "sentenceIndex": 16,
@@ -1181,12 +1108,9 @@ export default {
         "fill in the blanks"
       ],
       "optionReasons": {
-        "blank-mcq-08": "本句指「把缺少的字、數字或資料填入指定空位」。",
-        "blank-mcq-07": "「題目、表格或文字中故意留下、需要填入內容的空位」是「a blank」的用法，與本句語境不同。",
-        "blank-mcq-09": "「應該有資料的位置目前沒有內容；未填寫的」是「blank — missing information」的用法，與本句語境不同。",
-        "blank-mcq-06": "「特意留空、等待填寫資料的位置／欄位」是「blank space/field」的用法，與本句語境不同。",
-        "blank-mcq-10": "「臉上／眼神中看不出情緒、理解、認出或明確反應」是「blank expression/face/look」的用法，與本句語境不同。",
-        "blank-mcq-05": "「不在指定位置填寫、輸入或加入任何內容」是「leave something blank」的用法，與本句語境不同。"
+        "blank-mcq-08": "本句的「fill in the blanks」指「把缺少的字、數字或資料填入指定空位」。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-08"
     },
@@ -1198,11 +1122,9 @@ export default {
       "masked": "The address field is still ____.",
       "options": [
         "blank-mcq-09",
-        "blank-mcq-08",
-        "blank-mcq-10",
-        "blank-mcq-07",
-        "blank-mcq-11",
-        "blank-mcq-06"
+        "blank-pdf-002",
+        "blank-mcq-20",
+        "blank-mcq-10"
       ],
       "explanation": "本句的「blank」指「應該有資料的位置目前沒有內容；未填寫的」。",
       "sentenceIndex": 17,
@@ -1211,12 +1133,10 @@ export default {
         "blank"
       ],
       "optionReasons": {
-        "blank-mcq-09": "本句指「應該有資料的位置目前沒有內容；未填寫的」。",
-        "blank-mcq-08": "「把缺少的字、數字或資料填入指定空位」是「fill in the blank」的用法，與本句語境不同。",
-        "blank-mcq-10": "「臉上／眼神中看不出情緒、理解、認出或明確反應」是「blank expression/face/look」的用法，與本句語境不同。",
-        "blank-mcq-07": "「題目、表格或文字中故意留下、需要填入內容的空位」是「a blank」的用法，與本句語境不同。",
-        "blank-mcq-11": "「沒有顯示理解、情緒或反應地；茫然地」是「blankly」的用法，與本句語境不同。",
-        "blank-mcq-06": "「特意留空、等待填寫資料的位置／欄位」是「blank space/field」的用法，與本句語境不同。"
+        "blank-mcq-09": "本句的「blank」指「應該有資料的位置目前沒有內容；未填寫的」。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-09"
     },
@@ -1228,11 +1148,9 @@ export default {
       "masked": "Several entries were ____ in the database.",
       "options": [
         "blank-mcq-09",
-        "blank-mcq-08",
+        "blank-pdf-002",
         "blank-mcq-10",
-        "blank-mcq-07",
-        "blank-mcq-11",
-        "blank-mcq-06"
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank」指「應該有資料的位置目前沒有內容；未填寫的」。",
       "sentenceIndex": 18,
@@ -1241,12 +1159,10 @@ export default {
         "blank"
       ],
       "optionReasons": {
-        "blank-mcq-09": "本句指「應該有資料的位置目前沒有內容；未填寫的」。",
-        "blank-mcq-08": "「把缺少的字、數字或資料填入指定空位」是「fill in the blank」的用法，與本句語境不同。",
-        "blank-mcq-10": "「臉上／眼神中看不出情緒、理解、認出或明確反應」是「blank expression/face/look」的用法，與本句語境不同。",
-        "blank-mcq-07": "「題目、表格或文字中故意留下、需要填入內容的空位」是「a blank」的用法，與本句語境不同。",
-        "blank-mcq-11": "「沒有顯示理解、情緒或反應地；茫然地」是「blankly」的用法，與本句語境不同。",
-        "blank-mcq-06": "「特意留空、等待填寫資料的位置／欄位」是「blank space/field」的用法，與本句語境不同。"
+        "blank-mcq-09": "本句的「blank」指「應該有資料的位置目前沒有內容；未填寫的」。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-09"
     },
@@ -1258,11 +1174,9 @@ export default {
       "masked": "He gave me a ____.",
       "options": [
         "blank-mcq-10",
-        "blank-mcq-09",
-        "blank-mcq-11",
-        "blank-mcq-08",
-        "blank-mcq-12",
-        "blank-mcq-07"
+        "blank-mcq-15",
+        "blank-mcq-03",
+        "blank-pdf-002"
       ],
       "explanation": "本句的「blank expression」指「臉上／眼神中看不出情緒、理解、認出或明確反應」。",
       "sentenceIndex": 19,
@@ -1271,12 +1185,10 @@ export default {
         "blank expression"
       ],
       "optionReasons": {
-        "blank-mcq-10": "本句指「臉上／眼神中看不出情緒、理解、認出或明確反應」。",
-        "blank-mcq-09": "「應該有資料的位置目前沒有內容；未填寫的」是「blank — missing information」的用法，與本句語境不同。",
-        "blank-mcq-11": "「沒有顯示理解、情緒或反應地；茫然地」是「blankly」的用法，與本句語境不同。",
-        "blank-mcq-08": "「把缺少的字、數字或資料填入指定空位」是「fill in the blank」的用法，與本句語境不同。",
-        "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。",
-        "blank-mcq-07": "「題目、表格或文字中故意留下、需要填入內容的空位」是「a blank」的用法，與本句語境不同。"
+        "blank-mcq-10": "本句的「blank expression」指「臉上／眼神中看不出情緒、理解、認出或明確反應」。",
+        "blank-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-10"
     },
@@ -1288,11 +1200,9 @@ export default {
       "masked": "The audience stared back with ____.",
       "options": [
         "blank-mcq-10",
-        "blank-mcq-09",
-        "blank-mcq-11",
-        "blank-mcq-08",
-        "blank-mcq-12",
-        "blank-mcq-07"
+        "blank-mcq-19",
+        "blank-mcq-05",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank expressions」指「臉上／眼神中看不出情緒、理解、認出或明確反應」。",
       "sentenceIndex": 20,
@@ -1301,12 +1211,10 @@ export default {
         "blank expressions"
       ],
       "optionReasons": {
-        "blank-mcq-10": "本句指「臉上／眼神中看不出情緒、理解、認出或明確反應」。",
-        "blank-mcq-09": "「應該有資料的位置目前沒有內容；未填寫的」是「blank — missing information」的用法，與本句語境不同。",
-        "blank-mcq-11": "「沒有顯示理解、情緒或反應地；茫然地」是「blankly」的用法，與本句語境不同。",
-        "blank-mcq-08": "「把缺少的字、數字或資料填入指定空位」是「fill in the blank」的用法，與本句語境不同。",
-        "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。",
-        "blank-mcq-07": "「題目、表格或文字中故意留下、需要填入內容的空位」是「a blank」的用法，與本句語境不同。"
+        "blank-mcq-10": "本句的「blank expressions」指「臉上／眼神中看不出情緒、理解、認出或明確反應」。",
+        "blank-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-10"
     },
@@ -1318,11 +1226,9 @@ export default {
       "masked": "She looked at me with a ____.",
       "options": [
         "blank-mcq-10",
-        "blank-mcq-09",
-        "blank-mcq-11",
-        "blank-mcq-08",
-        "blank-mcq-12",
-        "blank-mcq-07"
+        "blank-mcq-22",
+        "blank-pdf-002",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank face」指「臉上／眼神中看不出情緒、理解、認出或明確反應」。",
       "sentenceIndex": 21,
@@ -1331,12 +1237,10 @@ export default {
         "blank face"
       ],
       "optionReasons": {
-        "blank-mcq-10": "本句指「臉上／眼神中看不出情緒、理解、認出或明確反應」。",
-        "blank-mcq-09": "「應該有資料的位置目前沒有內容；未填寫的」是「blank — missing information」的用法，與本句語境不同。",
-        "blank-mcq-11": "「沒有顯示理解、情緒或反應地；茫然地」是「blankly」的用法，與本句語境不同。",
-        "blank-mcq-08": "「把缺少的字、數字或資料填入指定空位」是「fill in the blank」的用法，與本句語境不同。",
-        "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。",
-        "blank-mcq-07": "「題目、表格或文字中故意留下、需要填入內容的空位」是「a blank」的用法，與本句語境不同。"
+        "blank-mcq-10": "本句的「blank face」指「臉上／眼神中看不出情緒、理解、認出或明確反應」。",
+        "blank-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-10"
     },
@@ -1348,11 +1252,8 @@ export default {
       "masked": "His ____ showed that he had not understood the question.",
       "options": [
         "blank-mcq-10",
-        "blank-mcq-09",
-        "blank-mcq-11",
-        "blank-mcq-08",
-        "blank-mcq-12",
-        "blank-mcq-07"
+        "blank-mcq-28",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank look」指「臉上／眼神中看不出情緒、理解、認出或明確反應」。",
       "sentenceIndex": 22,
@@ -1361,12 +1262,9 @@ export default {
         "blank look"
       ],
       "optionReasons": {
-        "blank-mcq-10": "本句指「臉上／眼神中看不出情緒、理解、認出或明確反應」。",
-        "blank-mcq-09": "「應該有資料的位置目前沒有內容；未填寫的」是「blank — missing information」的用法，與本句語境不同。",
-        "blank-mcq-11": "「沒有顯示理解、情緒或反應地；茫然地」是「blankly」的用法，與本句語境不同。",
-        "blank-mcq-08": "「把缺少的字、數字或資料填入指定空位」是「fill in the blank」的用法，與本句語境不同。",
-        "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。",
-        "blank-mcq-07": "「題目、表格或文字中故意留下、需要填入內容的空位」是「a blank」的用法，與本句語境不同。"
+        "blank-mcq-10": "本句的「blank look」指「臉上／眼神中看不出情緒、理解、認出或明確反應」。",
+        "blank-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-10"
     },
@@ -1378,11 +1276,9 @@ export default {
       "masked": "She stared at the slide ____.",
       "options": [
         "blank-mcq-11",
-        "blank-mcq-10",
-        "blank-mcq-12",
-        "blank-mcq-09",
-        "blank-mcq-13",
-        "blank-mcq-08"
+        "blank-mcq-23",
+        "blank-pdf-002",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blankly」指「沒有顯示理解、情緒或反應地；茫然地」。",
       "sentenceIndex": 23,
@@ -1391,12 +1287,10 @@ export default {
         "blankly"
       ],
       "optionReasons": {
-        "blank-mcq-11": "本句指「沒有顯示理解、情緒或反應地；茫然地」。",
-        "blank-mcq-10": "「臉上／眼神中看不出情緒、理解、認出或明確反應」是「blank expression/face/look」的用法，與本句語境不同。",
-        "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。",
-        "blank-mcq-09": "「應該有資料的位置目前沒有內容；未填寫的」是「blank — missing information」的用法，與本句語境不同。",
-        "blank-mcq-13": "「嘗試記起、尋找或取得某個結果，但完全沒有成功」是「draw a blank」的用法，與本句語境不同。",
-        "blank-mcq-08": "「把缺少的字、數字或資料填入指定空位」是「fill in the blank」的用法，與本句語境不同。"
+        "blank-mcq-11": "本句的「blankly」指「沒有顯示理解、情緒或反應地；茫然地」。",
+        "blank-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-11"
     },
@@ -1408,11 +1302,9 @@ export default {
       "masked": "He looked ____ at me when I mentioned the name.",
       "options": [
         "blank-mcq-11",
-        "blank-mcq-10",
-        "blank-mcq-12",
-        "blank-mcq-09",
-        "blank-mcq-13",
-        "blank-mcq-08"
+        "blank-mcq-16",
+        "blank-pdf-002",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blankly」指「沒有顯示理解、情緒或反應地；茫然地」。",
       "sentenceIndex": 24,
@@ -1421,12 +1313,10 @@ export default {
         "blankly"
       ],
       "optionReasons": {
-        "blank-mcq-11": "本句指「沒有顯示理解、情緒或反應地；茫然地」。",
-        "blank-mcq-10": "「臉上／眼神中看不出情緒、理解、認出或明確反應」是「blank expression/face/look」的用法，與本句語境不同。",
-        "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。",
-        "blank-mcq-09": "「應該有資料的位置目前沒有內容；未填寫的」是「blank — missing information」的用法，與本句語境不同。",
-        "blank-mcq-13": "「嘗試記起、尋找或取得某個結果，但完全沒有成功」是「draw a blank」的用法，與本句語境不同。",
-        "blank-mcq-08": "「把缺少的字、數字或資料填入指定空位」是「fill in the blank」的用法，與本句語境不同。"
+        "blank-mcq-11": "本句的「blankly」指「沒有顯示理解、情緒或反應地；茫然地」。",
+        "blank-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-11"
     },
@@ -1438,11 +1328,9 @@ export default {
       "masked": "Everything after that moment is a complete ____.",
       "options": [
         "blank-mcq-12",
-        "blank-mcq-11",
-        "blank-mcq-13",
+        "blank-mcq-03",
         "blank-mcq-10",
-        "blank-mcq-14",
-        "blank-mcq-09"
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank」指「某段時間／事件完全無法回想起來的記憶空白」。",
       "sentenceIndex": 25,
@@ -1451,12 +1339,10 @@ export default {
         "blank"
       ],
       "optionReasons": {
-        "blank-mcq-12": "本句指「某段時間／事件完全無法回想起來的記憶空白」。",
-        "blank-mcq-11": "「沒有顯示理解、情緒或反應地；茫然地」是「blankly」的用法，與本句語境不同。",
-        "blank-mcq-13": "「嘗試記起、尋找或取得某個結果，但完全沒有成功」是「draw a blank」的用法，與本句語境不同。",
-        "blank-mcq-10": "「臉上／眼神中看不出情緒、理解、認出或明確反應」是「blank expression/face/look」的用法，與本句語境不同。",
-        "blank-mcq-14": "「沒有明顯情緒、反應或個人色彩的」是「blank — emotionless」的用法，與本句語境不同。",
-        "blank-mcq-09": "「應該有資料的位置目前沒有內容；未填寫的」是「blank — missing information」的用法，與本句語境不同。"
+        "blank-mcq-12": "本句的「blank」指「某段時間／事件完全無法回想起來的記憶空白」。",
+        "blank-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-12"
     },
@@ -1468,11 +1354,9 @@ export default {
       "masked": "There is a ____ in my memory of that evening.",
       "options": [
         "blank-mcq-12",
-        "blank-mcq-11",
-        "blank-mcq-13",
         "blank-mcq-10",
-        "blank-mcq-14",
-        "blank-mcq-09"
+        "blank-mcq-03",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank」指「某段時間／事件完全無法回想起來的記憶空白」。",
       "sentenceIndex": 26,
@@ -1481,12 +1365,10 @@ export default {
         "blank"
       ],
       "optionReasons": {
-        "blank-mcq-12": "本句指「某段時間／事件完全無法回想起來的記憶空白」。",
-        "blank-mcq-11": "「沒有顯示理解、情緒或反應地；茫然地」是「blankly」的用法，與本句語境不同。",
-        "blank-mcq-13": "「嘗試記起、尋找或取得某個結果，但完全沒有成功」是「draw a blank」的用法，與本句語境不同。",
-        "blank-mcq-10": "「臉上／眼神中看不出情緒、理解、認出或明確反應」是「blank expression/face/look」的用法，與本句語境不同。",
-        "blank-mcq-14": "「沒有明顯情緒、反應或個人色彩的」是「blank — emotionless」的用法，與本句語境不同。",
-        "blank-mcq-09": "「應該有資料的位置目前沒有內容；未填寫的」是「blank — missing information」的用法，與本句語境不同。"
+        "blank-mcq-12": "本句的「blank」指「某段時間／事件完全無法回想起來的記憶空白」。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-12"
     },
@@ -1498,11 +1380,8 @@ export default {
       "masked": "I tried to remember his name but ____.",
       "options": [
         "blank-mcq-13",
-        "blank-mcq-12",
-        "blank-mcq-14",
-        "blank-mcq-11",
-        "blank-mcq-15",
-        "blank-mcq-10"
+        "blank-mcq-10",
+        "blank-mcq-07"
       ],
       "explanation": "本句的「drew a blank」指「嘗試記起、尋找或取得某個結果，但完全沒有成功」。",
       "sentenceIndex": 27,
@@ -1511,12 +1390,9 @@ export default {
         "drew a blank"
       ],
       "optionReasons": {
-        "blank-mcq-13": "本句指「嘗試記起、尋找或取得某個結果，但完全沒有成功」。",
-        "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。",
-        "blank-mcq-14": "「沒有明顯情緒、反應或個人色彩的」是「blank — emotionless」的用法，與本句語境不同。",
-        "blank-mcq-11": "「沒有顯示理解、情緒或反應地；茫然地」是「blankly」的用法，與本句語境不同。",
-        "blank-mcq-15": "「暫時沒有可用的想法、答案或靈感」是「blank — no ideas」的用法，與本句語境不同。",
-        "blank-mcq-10": "「臉上／眼神中看不出情緒、理解、認出或明確反應」是「blank expression/face/look」的用法，與本句語境不同。"
+        "blank-mcq-13": "本句的「drew a blank」指「嘗試記起、尋找或取得某個結果，但完全沒有成功」。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-13"
     },
@@ -1528,11 +1404,9 @@ export default {
       "masked": "We searched the records but ____.",
       "options": [
         "blank-mcq-13",
-        "blank-mcq-12",
-        "blank-mcq-14",
-        "blank-mcq-11",
-        "blank-mcq-15",
-        "blank-mcq-10"
+        "blank-mcq-05",
+        "blank-mcq-20",
+        "blank-pdf-002"
       ],
       "explanation": "本句的「drew a blank」指「嘗試記起、尋找或取得某個結果，但完全沒有成功」。",
       "sentenceIndex": 28,
@@ -1541,12 +1415,10 @@ export default {
         "drew a blank"
       ],
       "optionReasons": {
-        "blank-mcq-13": "本句指「嘗試記起、尋找或取得某個結果，但完全沒有成功」。",
-        "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。",
-        "blank-mcq-14": "「沒有明顯情緒、反應或個人色彩的」是「blank — emotionless」的用法，與本句語境不同。",
-        "blank-mcq-11": "「沒有顯示理解、情緒或反應地；茫然地」是「blankly」的用法，與本句語境不同。",
-        "blank-mcq-15": "「暫時沒有可用的想法、答案或靈感」是「blank — no ideas」的用法，與本句語境不同。",
-        "blank-mcq-10": "「臉上／眼神中看不出情緒、理解、認出或明確反應」是「blank expression/face/look」的用法，與本句語境不同。"
+        "blank-mcq-13": "本句的「drew a blank」指「嘗試記起、尋找或取得某個結果，但完全沒有成功」。",
+        "blank-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-13"
     },
@@ -1558,11 +1430,8 @@ export default {
       "masked": "Her face remained ____.",
       "options": [
         "blank-mcq-14",
-        "blank-mcq-13",
-        "blank-mcq-15",
-        "blank-mcq-12",
-        "blank-mcq-16",
-        "blank-mcq-11"
+        "blank-mcq-05",
+        "blank-pdf-002"
       ],
       "explanation": "本句的「blank」指「沒有明顯情緒、反應或個人色彩的」。",
       "sentenceIndex": 29,
@@ -1571,12 +1440,9 @@ export default {
         "blank"
       ],
       "optionReasons": {
-        "blank-mcq-14": "本句指「沒有明顯情緒、反應或個人色彩的」。",
-        "blank-mcq-13": "「嘗試記起、尋找或取得某個結果，但完全沒有成功」是「draw a blank」的用法，與本句語境不同。",
-        "blank-mcq-15": "「暫時沒有可用的想法、答案或靈感」是「blank — no ideas」的用法，與本句語境不同。",
-        "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。",
-        "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。",
-        "blank-mcq-11": "「沒有顯示理解、情緒或反應地；茫然地」是「blankly」的用法，與本句語境不同。"
+        "blank-mcq-14": "本句的「blank」指「沒有明顯情緒、反應或個人色彩的」。",
+        "blank-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-14"
     },
@@ -1588,11 +1454,8 @@ export default {
       "masked": "He answered in a ____, emotionless voice.",
       "options": [
         "blank-mcq-14",
-        "blank-mcq-13",
-        "blank-mcq-15",
-        "blank-mcq-12",
-        "blank-mcq-16",
-        "blank-mcq-11"
+        "blank-mcq-23",
+        "blank-pdf-002"
       ],
       "explanation": "本句的「blank」指「沒有明顯情緒、反應或個人色彩的」。",
       "sentenceIndex": 30,
@@ -1601,12 +1464,9 @@ export default {
         "blank"
       ],
       "optionReasons": {
-        "blank-mcq-14": "本句指「沒有明顯情緒、反應或個人色彩的」。",
-        "blank-mcq-13": "「嘗試記起、尋找或取得某個結果，但完全沒有成功」是「draw a blank」的用法，與本句語境不同。",
-        "blank-mcq-15": "「暫時沒有可用的想法、答案或靈感」是「blank — no ideas」的用法，與本句語境不同。",
-        "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。",
-        "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。",
-        "blank-mcq-11": "「沒有顯示理解、情緒或反應地；茫然地」是「blankly」的用法，與本句語境不同。"
+        "blank-mcq-14": "本句的「blank」指「沒有明顯情緒、反應或個人色彩的」。",
+        "blank-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-14"
     },
@@ -1618,11 +1478,9 @@ export default {
       "masked": "I sat there completely ____, unable to think of an opening.",
       "options": [
         "blank-mcq-15",
-        "blank-mcq-14",
-        "blank-mcq-16",
-        "blank-mcq-13",
-        "blank-mcq-17",
-        "blank-mcq-12"
+        "blank-mcq-10",
+        "blank-mcq-06",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank」指「暫時沒有可用的想法、答案或靈感」。",
       "sentenceIndex": 31,
@@ -1631,12 +1489,10 @@ export default {
         "blank"
       ],
       "optionReasons": {
-        "blank-mcq-15": "本句指「暫時沒有可用的想法、答案或靈感」。",
-        "blank-mcq-14": "「沒有明顯情緒、反應或個人色彩的」是「blank — emotionless」的用法，與本句語境不同。",
-        "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。",
-        "blank-mcq-13": "「嘗試記起、尋找或取得某個結果，但完全沒有成功」是「draw a blank」的用法，與本句語境不同。",
-        "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。",
-        "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。"
+        "blank-mcq-15": "本句的「blank」指「暫時沒有可用的想法、答案或靈感」。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-15"
     },
@@ -1648,11 +1504,9 @@ export default {
       "masked": "When asked for an example, I suddenly felt ____.",
       "options": [
         "blank-mcq-15",
-        "blank-mcq-14",
-        "blank-mcq-16",
-        "blank-mcq-13",
-        "blank-mcq-17",
-        "blank-mcq-12"
+        "blank-mcq-10",
+        "blank-mcq-20",
+        "blank-mcq-03"
       ],
       "explanation": "本句的「blank」指「暫時沒有可用的想法、答案或靈感」。",
       "sentenceIndex": 32,
@@ -1661,12 +1515,10 @@ export default {
         "blank"
       ],
       "optionReasons": {
-        "blank-mcq-15": "本句指「暫時沒有可用的想法、答案或靈感」。",
-        "blank-mcq-14": "「沒有明顯情緒、反應或個人色彩的」是「blank — emotionless」的用法，與本句語境不同。",
-        "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。",
-        "blank-mcq-13": "「嘗試記起、尋找或取得某個結果，但完全沒有成功」是「draw a blank」的用法，與本句語境不同。",
-        "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。",
-        "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。"
+        "blank-mcq-15": "本句的「blank」指「暫時沒有可用的想法、答案或靈感」。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-15"
     },
@@ -1678,11 +1530,9 @@ export default {
       "masked": "Use a ____ for the message.",
       "options": [
         "blank-pdf-001",
-        "blank-mcq-14",
-        "blank-mcq-16",
-        "blank-mcq-13",
-        "blank-mcq-17",
-        "blank-mcq-12"
+        "blank-mcq-20",
+        "blank-mcq-10",
+        "blank-pdf-002"
       ],
       "explanation": "本句的「blank card」指「表面沒有文字、圖案、符號或裝飾的」。",
       "sentenceIndex": 33,
@@ -1691,12 +1541,10 @@ export default {
         "blank card"
       ],
       "optionReasons": {
-        "blank-pdf-001": "本句指「表面沒有文字、圖案、符號或裝飾的」。",
-        "blank-mcq-14": "「沒有明顯情緒、反應或個人色彩的」是「blank — emotionless」的用法，與本句語境不同。",
-        "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。",
-        "blank-mcq-13": "「嘗試記起、尋找或取得某個結果，但完全沒有成功」是「draw a blank」的用法，與本句語境不同。",
-        "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。",
-        "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。"
+        "blank-pdf-001": "本句的「blank card」指「表面沒有文字、圖案、符號或裝飾的」。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-pdf-001"
     },
@@ -1708,11 +1556,9 @@ export default {
       "masked": "The notebook has a ____.",
       "options": [
         "blank-pdf-001",
-        "blank-mcq-14",
-        "blank-mcq-16",
-        "blank-mcq-13",
-        "blank-mcq-17",
-        "blank-mcq-12"
+        "blank-mcq-10",
+        "blank-mcq-20",
+        "blank-pdf-002"
       ],
       "explanation": "本句的「blank cover」指「表面沒有文字、圖案、符號或裝飾的」。",
       "sentenceIndex": 34,
@@ -1721,12 +1567,10 @@ export default {
         "blank cover"
       ],
       "optionReasons": {
-        "blank-pdf-001": "本句指「表面沒有文字、圖案、符號或裝飾的」。",
-        "blank-mcq-14": "「沒有明顯情緒、反應或個人色彩的」是「blank — emotionless」的用法，與本句語境不同。",
-        "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。",
-        "blank-mcq-13": "「嘗試記起、尋找或取得某個結果，但完全沒有成功」是「draw a blank」的用法，與本句語境不同。",
-        "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。",
-        "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。"
+        "blank-pdf-001": "本句的「blank cover」指「表面沒有文字、圖案、符號或裝飾的」。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-pdf-001"
     },
@@ -1739,10 +1583,8 @@ export default {
       "options": [
         "blank-mcq-16",
         "blank-mcq-15",
-        "blank-mcq-17",
-        "blank-mcq-14",
-        "blank-mcq-18",
-        "blank-mcq-13"
+        "blank-mcq-10",
+        "blank-pdf-002"
       ],
       "explanation": "本句的「blank form」指「已有格式／欄位，但尚未填入實際資料的文件」。",
       "sentenceIndex": 35,
@@ -1751,12 +1593,10 @@ export default {
         "blank form"
       ],
       "optionReasons": {
-        "blank-mcq-16": "本句指「已有格式／欄位，但尚未填入實際資料的文件」。",
-        "blank-mcq-15": "「暫時沒有可用的想法、答案或靈感」是「blank — no ideas」的用法，與本句語境不同。",
-        "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。",
-        "blank-mcq-14": "「沒有明顯情緒、反應或個人色彩的」是「blank — emotionless」的用法，與本句語境不同。",
-        "blank-mcq-18": "「給某人極大的決定、行動或花費自由而沒有明確限制」是「blank cheque/check — figurative」的用法，與本句語境不同。",
-        "blank-mcq-13": "「嘗試記起、尋找或取得某個結果，但完全沒有成功」是「draw a blank」的用法，與本句語境不同。"
+        "blank-mcq-16": "本句的「blank form」指「已有格式／欄位，但尚未填入實際資料的文件」。",
+        "blank-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-16"
     },
@@ -1768,11 +1608,9 @@ export default {
       "masked": "The folder contains several ____.",
       "options": [
         "blank-mcq-16",
-        "blank-mcq-15",
-        "blank-mcq-17",
-        "blank-mcq-14",
-        "blank-mcq-18",
-        "blank-mcq-13"
+        "blank-mcq-11",
+        "blank-pdf-002",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank templates」指「已有格式／欄位，但尚未填入實際資料的文件」。",
       "sentenceIndex": 36,
@@ -1781,12 +1619,10 @@ export default {
         "blank templates"
       ],
       "optionReasons": {
-        "blank-mcq-16": "本句指「已有格式／欄位，但尚未填入實際資料的文件」。",
-        "blank-mcq-15": "「暫時沒有可用的想法、答案或靈感」是「blank — no ideas」的用法，與本句語境不同。",
-        "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。",
-        "blank-mcq-14": "「沒有明顯情緒、反應或個人色彩的」是「blank — emotionless」的用法，與本句語境不同。",
-        "blank-mcq-18": "「給某人極大的決定、行動或花費自由而沒有明確限制」是「blank cheque/check — figurative」的用法，與本句語境不同。",
-        "blank-mcq-13": "「嘗試記起、尋找或取得某個結果，但完全沒有成功」是「draw a blank」的用法，與本句語境不同。"
+        "blank-mcq-16": "本句的「blank templates」指「已有格式／欄位，但尚未填入實際資料的文件」。",
+        "blank-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-16"
     },
@@ -1798,11 +1634,8 @@ export default {
       "masked": "Never sign a ____.",
       "options": [
         "blank-mcq-17",
-        "blank-mcq-16",
-        "blank-mcq-18",
-        "blank-mcq-15",
-        "blank-mcq-19",
-        "blank-mcq-14"
+        "blank-mcq-10",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank cheque」指「某些關鍵資料尚未填寫的空白支票」。",
       "sentenceIndex": 37,
@@ -1811,12 +1644,9 @@ export default {
         "blank cheque"
       ],
       "optionReasons": {
-        "blank-mcq-17": "本句指「某些關鍵資料尚未填寫的空白支票」。",
-        "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。",
-        "blank-mcq-18": "「給某人極大的決定、行動或花費自由而沒有明確限制」是「blank cheque/check — figurative」的用法，與本句語境不同。",
-        "blank-mcq-15": "「暫時沒有可用的想法、答案或靈感」是「blank — no ideas」的用法，與本句語境不同。",
-        "blank-mcq-19": "「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」是「blank / blanks — ammunition」的用法，與本句語境不同。",
-        "blank-mcq-14": "「沒有明顯情緒、反應或個人色彩的」是「blank — emotionless」的用法，與本句語境不同。"
+        "blank-mcq-17": "本句的「blank cheque」指「某些關鍵資料尚未填寫的空白支票」。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-17"
     },
@@ -1828,11 +1658,8 @@ export default {
       "masked": "The amount had not been written on the ____.",
       "options": [
         "blank-mcq-17",
-        "blank-mcq-16",
-        "blank-mcq-18",
-        "blank-mcq-15",
-        "blank-mcq-19",
-        "blank-mcq-14"
+        "blank-mcq-10",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank check」指「某些關鍵資料尚未填寫的空白支票」。",
       "sentenceIndex": 38,
@@ -1841,12 +1668,9 @@ export default {
         "blank check"
       ],
       "optionReasons": {
-        "blank-mcq-17": "本句指「某些關鍵資料尚未填寫的空白支票」。",
-        "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。",
-        "blank-mcq-18": "「給某人極大的決定、行動或花費自由而沒有明確限制」是「blank cheque/check — figurative」的用法，與本句語境不同。",
-        "blank-mcq-15": "「暫時沒有可用的想法、答案或靈感」是「blank — no ideas」的用法，與本句語境不同。",
-        "blank-mcq-19": "「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」是「blank / blanks — ammunition」的用法，與本句語境不同。",
-        "blank-mcq-14": "「沒有明顯情緒、反應或個人色彩的」是「blank — emotionless」的用法，與本句語境不同。"
+        "blank-mcq-17": "本句的「blank check」指「某些關鍵資料尚未填寫的空白支票」。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-17"
     },
@@ -1858,11 +1682,7 @@ export default {
       "masked": "The board did not give management a ____.",
       "options": [
         "blank-mcq-18",
-        "blank-mcq-17",
-        "blank-mcq-19",
-        "blank-mcq-16",
-        "blank-mcq-20",
-        "blank-mcq-15"
+        "blank-mcq-06"
       ],
       "explanation": "本句的「blank cheque」指「給某人極大的決定、行動或花費自由而沒有明確限制」。",
       "sentenceIndex": 39,
@@ -1871,12 +1691,8 @@ export default {
         "blank cheque"
       ],
       "optionReasons": {
-        "blank-mcq-18": "本句指「給某人極大的決定、行動或花費自由而沒有明確限制」。",
-        "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。",
-        "blank-mcq-19": "「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」是「blank / blanks — ammunition」的用法，與本句語境不同。",
-        "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。",
-        "blank-mcq-20": "「故意不承認、回應或理會某人；尤其英式非正式」是「blank someone」的用法，與本句語境不同。",
-        "blank-mcq-15": "「暫時沒有可用的想法、答案或靈感」是「blank — no ideas」的用法，與本句語境不同。"
+        "blank-mcq-18": "本句的「blank cheque」指「給某人極大的決定、行動或花費自由而沒有明確限制」。",
+        "blank-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-18"
     },
@@ -1888,11 +1704,8 @@ export default {
       "masked": "Giving someone a ____ to spend is risky.",
       "options": [
         "blank-mcq-18",
-        "blank-mcq-17",
-        "blank-mcq-19",
         "blank-mcq-16",
-        "blank-mcq-20",
-        "blank-mcq-15"
+        "blank-pdf-002"
       ],
       "explanation": "本句的「blank check」指「給某人極大的決定、行動或花費自由而沒有明確限制」。",
       "sentenceIndex": 40,
@@ -1901,12 +1714,9 @@ export default {
         "blank check"
       ],
       "optionReasons": {
-        "blank-mcq-18": "本句指「給某人極大的決定、行動或花費自由而沒有明確限制」。",
-        "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。",
-        "blank-mcq-19": "「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」是「blank / blanks — ammunition」的用法，與本句語境不同。",
-        "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。",
-        "blank-mcq-20": "「故意不承認、回應或理會某人；尤其英式非正式」是「blank someone」的用法，與本句語境不同。",
-        "blank-mcq-15": "「暫時沒有可用的想法、答案或靈感」是「blank — no ideas」的用法，與本句語境不同。"
+        "blank-mcq-18": "本句的「blank check」指「給某人極大的決定、行動或花費自由而沒有明確限制」。",
+        "blank-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-18"
     },
@@ -1918,11 +1728,9 @@ export default {
       "masked": "The weapon was loaded with ____.",
       "options": [
         "blank-mcq-19",
-        "blank-mcq-18",
+        "blank-mcq-27",
         "blank-mcq-20",
-        "blank-mcq-17",
-        "blank-mcq-21",
-        "blank-mcq-16"
+        "blank-mcq-10"
       ],
       "explanation": "本句的「blank cartridges」指「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」。",
       "sentenceIndex": 41,
@@ -1931,12 +1739,10 @@ export default {
         "blank cartridges"
       ],
       "optionReasons": {
-        "blank-mcq-19": "本句指「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」。",
-        "blank-mcq-18": "「給某人極大的決定、行動或花費自由而沒有明確限制」是「blank cheque/check — figurative」的用法，與本句語境不同。",
-        "blank-mcq-20": "「故意不承認、回應或理會某人；尤其英式非正式」是「blank someone」的用法，與本句語境不同。",
-        "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。",
-        "blank-mcq-21": "「突然無法想起原本知道的資料」是「blank on something」的用法，與本句語境不同。",
-        "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。"
+        "blank-mcq-19": "本句的「blank cartridges」指「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」。",
+        "blank-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-19"
     },
@@ -1948,11 +1754,9 @@ export default {
       "masked": "The actors used ____ during filming.",
       "options": [
         "blank-mcq-19",
-        "blank-mcq-18",
         "blank-mcq-20",
-        "blank-mcq-17",
-        "blank-mcq-21",
-        "blank-mcq-16"
+        "blank-mcq-10",
+        "blank-mcq-23"
       ],
       "explanation": "本句的「blanks」指「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」。",
       "sentenceIndex": 42,
@@ -1961,12 +1765,10 @@ export default {
         "blanks"
       ],
       "optionReasons": {
-        "blank-mcq-19": "本句指「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」。",
-        "blank-mcq-18": "「給某人極大的決定、行動或花費自由而沒有明確限制」是「blank cheque/check — figurative」的用法，與本句語境不同。",
-        "blank-mcq-20": "「故意不承認、回應或理會某人；尤其英式非正式」是「blank someone」的用法，與本句語境不同。",
-        "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。",
-        "blank-mcq-21": "「突然無法想起原本知道的資料」是「blank on something」的用法，與本句語境不同。",
-        "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。"
+        "blank-mcq-19": "本句的「blanks」指「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-19"
     },
@@ -1978,11 +1780,9 @@ export default {
       "masked": "The soldiers were ____ during the exercise.",
       "options": [
         "blank-pdf-002",
-        "blank-mcq-18",
-        "blank-mcq-20",
-        "blank-mcq-17",
-        "blank-mcq-21",
-        "blank-mcq-16"
+        "blank-reviewed-f7ec5efa6b",
+        "blank-mcq-23",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「firing blanks」指「空包彈」。",
       "sentenceIndex": 43,
@@ -1991,12 +1791,10 @@ export default {
         "firing blanks"
       ],
       "optionReasons": {
-        "blank-pdf-002": "本句指「空包彈」。",
-        "blank-mcq-18": "「給某人極大的決定、行動或花費自由而沒有明確限制」是「blank cheque/check — figurative」的用法，與本句語境不同。",
-        "blank-mcq-20": "「故意不承認、回應或理會某人；尤其英式非正式」是「blank someone」的用法，與本句語境不同。",
-        "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。",
-        "blank-mcq-21": "「突然無法想起原本知道的資料」是「blank on something」的用法，與本句語境不同。",
-        "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。"
+        "blank-pdf-002": "本句的「firing blanks」指「空包彈」。",
+        "blank-reviewed-f7ec5efa6b": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-pdf-002"
     },
@@ -2008,10 +1806,8 @@ export default {
       "masked": "The gun contained only ____.",
       "options": [
         "blank-pdf-002",
-        "blank-mcq-18",
         "blank-mcq-20",
-        "blank-mcq-17",
-        "blank-mcq-21",
+        "blank-mcq-15",
         "blank-mcq-16"
       ],
       "explanation": "本句的「blanks」指「空包彈」。",
@@ -2021,12 +1817,10 @@ export default {
         "blanks"
       ],
       "optionReasons": {
-        "blank-pdf-002": "本句指「空包彈」。",
-        "blank-mcq-18": "「給某人極大的決定、行動或花費自由而沒有明確限制」是「blank cheque/check — figurative」的用法，與本句語境不同。",
-        "blank-mcq-20": "「故意不承認、回應或理會某人；尤其英式非正式」是「blank someone」的用法，與本句語境不同。",
-        "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。",
-        "blank-mcq-21": "「突然無法想起原本知道的資料」是「blank on something」的用法，與本句語境不同。",
-        "blank-mcq-16": "「已有格式／欄位，但尚未填入實際資料的文件」是「blank form/template」的用法，與本句語境不同。"
+        "blank-pdf-002": "本句的「blanks」指「空包彈」。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-pdf-002"
     },
@@ -2038,11 +1832,9 @@ export default {
       "masked": "The system writes the data to a ____.",
       "options": [
         "blank-mcq-27",
-        "blank-mcq-26",
-        "blank-mcq-28",
-        "blank-mcq-25",
-        "blank-mcq-24",
-        "blank-mcq-23"
+        "blank-pdf-002",
+        "blank-mcq-10",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blank card」指「尚未記錄、寫入或編碼內容的」。",
       "sentenceIndex": 45,
@@ -2051,12 +1843,10 @@ export default {
         "blank card"
       ],
       "optionReasons": {
-        "blank-mcq-27": "本句指「尚未記錄、寫入或編碼內容的」。",
-        "blank-mcq-26": "「毫不迂迴、非常直接地」是「point-blank — manner」的用法，與本句語境不同。",
-        "blank-mcq-28": "「使畫面、區域或內容變成空白」是「29. blank = erase / remove completely（抹去） — 抹去；消除」的用法，與本句語境不同。",
-        "blank-mcq-25": "「在極近距離下」是「point-blank — distance」的用法，與本句語境不同。",
-        "blank-mcq-24": "「沒有內容、想法、表情或反應的空白／茫然狀態」是「blankness」的用法，與本句語境不同。",
-        "blank-mcq-23": "「刻意把文字／資料遮掉、刪除或使其不可見」是「blank out — information」的用法，與本句語境不同。"
+        "blank-mcq-27": "本句的「blank card」指「尚未記錄、寫入或編碼內容的」。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-27"
     },
@@ -2068,11 +1858,9 @@ export default {
       "masked": "We need a ____.",
       "options": [
         "blank-mcq-27",
-        "blank-mcq-26",
-        "blank-mcq-28",
-        "blank-mcq-25",
-        "blank-mcq-24",
-        "blank-mcq-23"
+        "blank-mcq-20",
+        "blank-mcq-15",
+        "blank-mcq-10"
       ],
       "explanation": "本句的「blank storage device」指「尚未記錄、寫入或編碼內容的」。",
       "sentenceIndex": 46,
@@ -2081,74 +1869,68 @@ export default {
         "blank storage device"
       ],
       "optionReasons": {
-        "blank-mcq-27": "本句指「尚未記錄、寫入或編碼內容的」。",
-        "blank-mcq-26": "「毫不迂迴、非常直接地」是「point-blank — manner」的用法，與本句語境不同。",
-        "blank-mcq-28": "「使畫面、區域或內容變成空白」是「29. blank = erase / remove completely（抹去） — 抹去；消除」的用法，與本句語境不同。",
-        "blank-mcq-25": "「在極近距離下」是「point-blank — distance」的用法，與本句語境不同。",
-        "blank-mcq-24": "「沒有內容、想法、表情或反應的空白／茫然狀態」是「blankness」的用法，與本句語境不同。",
-        "blank-mcq-23": "「刻意把文字／資料遮掉、刪除或使其不可見」是「blank out — information」的用法，與本句語境不同。"
+        "blank-mcq-27": "本句的「blank storage device」指「尚未記錄、寫入或編碼內容的」。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-27"
     },
     {
       "id": "blank-24-0",
-      "sense": "blank-mcq-20",
+      "sense": "blank-reviewed-f7ec5efa6b",
       "en": "The home team was held to a blank.",
       "zh": "主隊被壓制至零得分。",
       "masked": "The home team was held to a ____.",
       "options": [
-        "blank-mcq-20",
-        "blank-mcq-19",
-        "blank-mcq-21",
-        "blank-mcq-18",
-        "blank-mcq-22",
-        "blank-mcq-17"
+        "blank-reviewed-f7ec5efa6b",
+        "blank-mcq-27",
+        "blank-mcq-10",
+        "blank-pdf-002"
       ],
-      "explanation": "本句的「blank」指「故意不承認、回應或理會某人；尤其英式非正式」。",
+      "explanation": "對照完整句子：「主隊被壓制至零得分。」。這裡的「blank」表示「零分；沒有得分」。",
       "sentenceIndex": 47,
       "sourcePractice": 48,
       "targets": [
         "blank"
       ],
       "optionReasons": {
-        "blank-mcq-20": "本句指「故意不承認、回應或理會某人；尤其英式非正式」。",
-        "blank-mcq-19": "「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」是「blank / blanks — ammunition」的用法，與本句語境不同。",
-        "blank-mcq-21": "「突然無法想起原本知道的資料」是「blank on something」的用法，與本句語境不同。",
-        "blank-mcq-18": "「給某人極大的決定、行動或花費自由而沒有明確限制」是「blank cheque/check — figurative」的用法，與本句語境不同。",
-        "blank-mcq-22": "「暫時無法思考／記憶，或完全忘記某段內容」是「blank out — memory」的用法，與本句語境不同。",
-        "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。"
+        "blank-reviewed-f7ec5efa6b": "對照完整句子：「主隊被壓制至零得分。」。這裡的「blank」表示「零分；沒有得分」。",
+        "blank-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "blank-mcq-20"
+      "correctOption": "blank-reviewed-f7ec5efa6b",
+      "previousCorrectOption": "blank-mcq-20",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "blank-24-1",
-      "sense": "blank-mcq-20",
+      "sense": "blank-reviewed-f7ec5efa6b",
       "en": "The goalkeeper helped keep the opposition blank.",
       "zh": "守門員協助令對手未能得分。",
       "masked": "The goalkeeper helped keep the opposition ____.",
       "options": [
-        "blank-mcq-20",
-        "blank-mcq-19",
-        "blank-mcq-21",
-        "blank-mcq-18",
-        "blank-mcq-22",
-        "blank-mcq-17"
+        "blank-reviewed-f7ec5efa6b",
+        "blank-mcq-27",
+        "blank-mcq-10",
+        "blank-mcq-20"
       ],
-      "explanation": "本句的「blank」指「故意不承認、回應或理會某人；尤其英式非正式」。",
+      "explanation": "對照完整句子：「守門員協助令對手未能得分。」。這裡的「blank」表示「零分；沒有得分」。",
       "sentenceIndex": 48,
       "sourcePractice": 49,
       "targets": [
         "blank"
       ],
       "optionReasons": {
-        "blank-mcq-20": "本句指「故意不承認、回應或理會某人；尤其英式非正式」。",
-        "blank-mcq-19": "「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」是「blank / blanks — ammunition」的用法，與本句語境不同。",
-        "blank-mcq-21": "「突然無法想起原本知道的資料」是「blank on something」的用法，與本句語境不同。",
-        "blank-mcq-18": "「給某人極大的決定、行動或花費自由而沒有明確限制」是「blank cheque/check — figurative」的用法，與本句語境不同。",
-        "blank-mcq-22": "「暫時無法思考／記憶，或完全忘記某段內容」是「blank out — memory」的用法，與本句語境不同。",
-        "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。"
+        "blank-reviewed-f7ec5efa6b": "對照完整句子：「守門員協助令對手未能得分。」。這裡的「blank」表示「零分；沒有得分」。",
+        "blank-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "blank-mcq-20"
+      "correctOption": "blank-reviewed-f7ec5efa6b",
+      "previousCorrectOption": "blank-mcq-20",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "blank-25-0",
@@ -2158,11 +1940,9 @@ export default {
       "masked": "I said hello, but she completely ____.",
       "options": [
         "blank-mcq-20",
+        "blank-mcq-27",
         "blank-mcq-19",
-        "blank-mcq-21",
-        "blank-mcq-18",
-        "blank-mcq-22",
-        "blank-mcq-17"
+        "blank-mcq-10"
       ],
       "explanation": "本句的「blanked me」指「故意不承認、回應或理會某人；尤其英式非正式」。",
       "sentenceIndex": 49,
@@ -2171,12 +1951,10 @@ export default {
         "blanked me"
       ],
       "optionReasons": {
-        "blank-mcq-20": "本句指「故意不承認、回應或理會某人；尤其英式非正式」。",
-        "blank-mcq-19": "「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」是「blank / blanks — ammunition」的用法，與本句語境不同。",
-        "blank-mcq-21": "「突然無法想起原本知道的資料」是「blank on something」的用法，與本句語境不同。",
-        "blank-mcq-18": "「給某人極大的決定、行動或花費自由而沒有明確限制」是「blank cheque/check — figurative」的用法，與本句語境不同。",
-        "blank-mcq-22": "「暫時無法思考／記憶，或完全忘記某段內容」是「blank out — memory」的用法，與本句語境不同。",
-        "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。"
+        "blank-mcq-20": "本句的「blanked me」指「故意不承認、回應或理會某人；尤其英式非正式」。",
+        "blank-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-20"
     },
@@ -2188,11 +1966,9 @@ export default {
       "masked": "He ____ his former colleague at the event.",
       "options": [
         "blank-mcq-20",
-        "blank-mcq-19",
-        "blank-mcq-21",
-        "blank-mcq-18",
-        "blank-mcq-22",
-        "blank-mcq-17"
+        "blank-pdf-001",
+        "blank-pdf-002",
+        "blank-mcq-10"
       ],
       "explanation": "本句的「blanked」指「故意不承認、回應或理會某人；尤其英式非正式」。",
       "sentenceIndex": 50,
@@ -2201,12 +1977,10 @@ export default {
         "blanked"
       ],
       "optionReasons": {
-        "blank-mcq-20": "本句指「故意不承認、回應或理會某人；尤其英式非正式」。",
-        "blank-mcq-19": "「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」是「blank / blanks — ammunition」的用法，與本句語境不同。",
-        "blank-mcq-21": "「突然無法想起原本知道的資料」是「blank on something」的用法，與本句語境不同。",
-        "blank-mcq-18": "「給某人極大的決定、行動或花費自由而沒有明確限制」是「blank cheque/check — figurative」的用法，與本句語境不同。",
-        "blank-mcq-22": "「暫時無法思考／記憶，或完全忘記某段內容」是「blank out — memory」的用法，與本句語境不同。",
-        "blank-mcq-17": "「某些關鍵資料尚未填寫的空白支票」是「blank cheque/check — literal」的用法，與本句語境不同。"
+        "blank-mcq-20": "本句的「blanked」指「故意不承認、回應或理會某人；尤其英式非正式」。",
+        "blank-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-20"
     },
@@ -2219,10 +1993,7 @@ export default {
       "options": [
         "blank-mcq-21",
         "blank-mcq-20",
-        "blank-mcq-22",
-        "blank-mcq-19",
-        "blank-mcq-23",
-        "blank-mcq-18"
+        "blank-pdf-002"
       ],
       "explanation": "本句的「blanked」指「突然無法想起原本知道的資料」。",
       "sentenceIndex": 51,
@@ -2231,12 +2002,9 @@ export default {
         "blanked"
       ],
       "optionReasons": {
-        "blank-mcq-21": "本句指「突然無法想起原本知道的資料」。",
-        "blank-mcq-20": "「故意不承認、回應或理會某人；尤其英式非正式」是「blank someone」的用法，與本句語境不同。",
-        "blank-mcq-22": "「暫時無法思考／記憶，或完全忘記某段內容」是「blank out — memory」的用法，與本句語境不同。",
-        "blank-mcq-19": "「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」是「blank / blanks — ammunition」的用法，與本句語境不同。",
-        "blank-mcq-23": "「刻意把文字／資料遮掉、刪除或使其不可見」是「blank out — information」的用法，與本句語境不同。",
-        "blank-mcq-18": "「給某人極大的決定、行動或花費自由而沒有明確限制」是「blank cheque/check — figurative」的用法，與本句語境不同。"
+        "blank-mcq-21": "本句的「blanked」指「突然無法想起原本知道的資料」。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-21"
     },
@@ -2249,10 +2017,7 @@ export default {
       "options": [
         "blank-mcq-21",
         "blank-mcq-20",
-        "blank-mcq-22",
-        "blank-mcq-19",
-        "blank-mcq-23",
-        "blank-mcq-18"
+        "blank-pdf-002"
       ],
       "explanation": "本句的「blanked」指「突然無法想起原本知道的資料」。",
       "sentenceIndex": 52,
@@ -2261,12 +2026,9 @@ export default {
         "blanked"
       ],
       "optionReasons": {
-        "blank-mcq-21": "本句指「突然無法想起原本知道的資料」。",
-        "blank-mcq-20": "「故意不承認、回應或理會某人；尤其英式非正式」是「blank someone」的用法，與本句語境不同。",
-        "blank-mcq-22": "「暫時無法思考／記憶，或完全忘記某段內容」是「blank out — memory」的用法，與本句語境不同。",
-        "blank-mcq-19": "「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」是「blank / blanks — ammunition」的用法，與本句語境不同。",
-        "blank-mcq-23": "「刻意把文字／資料遮掉、刪除或使其不可見」是「blank out — information」的用法，與本句語境不同。",
-        "blank-mcq-18": "「給某人極大的決定、行動或花費自由而沒有明確限制」是「blank cheque/check — figurative」的用法，與本句語境不同。"
+        "blank-mcq-21": "本句的「blanked」指「突然無法想起原本知道的資料」。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-21"
     },
@@ -2278,11 +2040,9 @@ export default {
       "masked": "I ____ during the interview.",
       "options": [
         "blank-mcq-22",
-        "blank-mcq-21",
-        "blank-mcq-23",
         "blank-mcq-20",
-        "blank-mcq-24",
-        "blank-mcq-19"
+        "blank-mcq-10",
+        "blank-pdf-002"
       ],
       "explanation": "本句的「blanked out」指「暫時無法思考／記憶，或完全忘記某段內容」。",
       "sentenceIndex": 53,
@@ -2291,12 +2051,10 @@ export default {
         "blanked out"
       ],
       "optionReasons": {
-        "blank-mcq-22": "本句指「暫時無法思考／記憶，或完全忘記某段內容」。",
-        "blank-mcq-21": "「突然無法想起原本知道的資料」是「blank on something」的用法，與本句語境不同。",
-        "blank-mcq-23": "「刻意把文字／資料遮掉、刪除或使其不可見」是「blank out — information」的用法，與本句語境不同。",
-        "blank-mcq-20": "「故意不承認、回應或理會某人；尤其英式非正式」是「blank someone」的用法，與本句語境不同。",
-        "blank-mcq-24": "「沒有內容、想法、表情或反應的空白／茫然狀態」是「blankness」的用法，與本句語境不同。",
-        "blank-mcq-19": "「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」是「blank / blanks — ammunition」的用法，與本句語境不同。"
+        "blank-mcq-22": "本句的「blanked out」指「暫時無法思考／記憶，或完全忘記某段內容」。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-22"
     },
@@ -2308,11 +2066,9 @@ export default {
       "masked": "She ____ part of the conversation.",
       "options": [
         "blank-mcq-22",
-        "blank-mcq-21",
-        "blank-mcq-23",
+        "blank-mcq-10",
         "blank-mcq-20",
-        "blank-mcq-24",
-        "blank-mcq-19"
+        "blank-pdf-002"
       ],
       "explanation": "本句的「blanked out」指「暫時無法思考／記憶，或完全忘記某段內容」。",
       "sentenceIndex": 54,
@@ -2321,12 +2077,10 @@ export default {
         "blanked out"
       ],
       "optionReasons": {
-        "blank-mcq-22": "本句指「暫時無法思考／記憶，或完全忘記某段內容」。",
-        "blank-mcq-21": "「突然無法想起原本知道的資料」是「blank on something」的用法，與本句語境不同。",
-        "blank-mcq-23": "「刻意把文字／資料遮掉、刪除或使其不可見」是「blank out — information」的用法，與本句語境不同。",
-        "blank-mcq-20": "「故意不承認、回應或理會某人；尤其英式非正式」是「blank someone」的用法，與本句語境不同。",
-        "blank-mcq-24": "「沒有內容、想法、表情或反應的空白／茫然狀態」是「blankness」的用法，與本句語境不同。",
-        "blank-mcq-19": "「沒有普通實彈彈頭、主要用來產生聲響／效果的空包彈」是「blank / blanks — ammunition」的用法，與本句語境不同。"
+        "blank-mcq-22": "本句的「blanked out」指「暫時無法思考／記憶，或完全忘記某段內容」。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-22"
     },
@@ -2338,11 +2092,9 @@ export default {
       "masked": "The personal details were ____.",
       "options": [
         "blank-mcq-23",
-        "blank-mcq-22",
-        "blank-mcq-24",
-        "blank-mcq-21",
-        "blank-mcq-25",
-        "blank-mcq-20"
+        "blank-reviewed-f7ec5efa6b",
+        "blank-pdf-002",
+        "blank-mcq-10"
       ],
       "explanation": "本句的「blanked out」指「刻意把文字／資料遮掉、刪除或使其不可見」。",
       "sentenceIndex": 55,
@@ -2351,12 +2103,10 @@ export default {
         "blanked out"
       ],
       "optionReasons": {
-        "blank-mcq-23": "本句指「刻意把文字／資料遮掉、刪除或使其不可見」。",
-        "blank-mcq-22": "「暫時無法思考／記憶，或完全忘記某段內容」是「blank out — memory」的用法，與本句語境不同。",
-        "blank-mcq-24": "「沒有內容、想法、表情或反應的空白／茫然狀態」是「blankness」的用法，與本句語境不同。",
-        "blank-mcq-21": "「突然無法想起原本知道的資料」是「blank on something」的用法，與本句語境不同。",
-        "blank-mcq-25": "「在極近距離下」是「point-blank — distance」的用法，與本句語境不同。",
-        "blank-mcq-20": "「故意不承認、回應或理會某人；尤其英式非正式」是「blank someone」的用法，與本句語境不同。"
+        "blank-mcq-23": "本句的「blanked out」指「刻意把文字／資料遮掉、刪除或使其不可見」。",
+        "blank-reviewed-f7ec5efa6b": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-23"
     },
@@ -2368,11 +2118,9 @@ export default {
       "masked": "Please ____ the account number before sharing the image.",
       "options": [
         "blank-mcq-23",
-        "blank-mcq-22",
-        "blank-mcq-24",
-        "blank-mcq-21",
-        "blank-mcq-25",
-        "blank-mcq-20"
+        "blank-mcq-15",
+        "blank-pdf-002",
+        "blank-mcq-10"
       ],
       "explanation": "本句的「blank out」指「刻意把文字／資料遮掉、刪除或使其不可見」。",
       "sentenceIndex": 56,
@@ -2381,12 +2129,10 @@ export default {
         "blank out"
       ],
       "optionReasons": {
-        "blank-mcq-23": "本句指「刻意把文字／資料遮掉、刪除或使其不可見」。",
-        "blank-mcq-22": "「暫時無法思考／記憶，或完全忘記某段內容」是「blank out — memory」的用法，與本句語境不同。",
-        "blank-mcq-24": "「沒有內容、想法、表情或反應的空白／茫然狀態」是「blankness」的用法，與本句語境不同。",
-        "blank-mcq-21": "「突然無法想起原本知道的資料」是「blank on something」的用法，與本句語境不同。",
-        "blank-mcq-25": "「在極近距離下」是「point-blank — distance」的用法，與本句語境不同。",
-        "blank-mcq-20": "「故意不承認、回應或理會某人；尤其英式非正式」是「blank someone」的用法，與本句語境不同。"
+        "blank-mcq-23": "本句的「blank out」指「刻意把文字／資料遮掉、刪除或使其不可見」。",
+        "blank-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-23"
     },
@@ -2398,11 +2144,8 @@ export default {
       "masked": "The system ____ the display.",
       "options": [
         "blank-mcq-28",
-        "blank-mcq-27",
-        "blank-mcq-26",
-        "blank-mcq-25",
-        "blank-mcq-24",
-        "blank-mcq-23"
+        "blank-mcq-10",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blanked」指「使畫面、區域或內容變成空白」。",
       "sentenceIndex": 57,
@@ -2411,12 +2154,9 @@ export default {
         "blanked"
       ],
       "optionReasons": {
-        "blank-mcq-28": "本句指「使畫面、區域或內容變成空白」。",
-        "blank-mcq-27": "「尚未記錄、寫入或編碼內容的」是「23. blank key/card/disc（未編碼／未寫入的） — 空白的；未寫入的」的用法，與本句語境不同。",
-        "blank-mcq-26": "「毫不迂迴、非常直接地」是「point-blank — manner」的用法，與本句語境不同。",
-        "blank-mcq-25": "「在極近距離下」是「point-blank — distance」的用法，與本句語境不同。",
-        "blank-mcq-24": "「沒有內容、想法、表情或反應的空白／茫然狀態」是「blankness」的用法，與本句語境不同。",
-        "blank-mcq-23": "「刻意把文字／資料遮掉、刪除或使其不可見」是「blank out — information」的用法，與本句語境不同。"
+        "blank-mcq-28": "本句的「blanked」指「使畫面、區域或內容變成空白」。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-28"
     },
@@ -2428,11 +2168,8 @@ export default {
       "masked": "The screen was temporarily ____.",
       "options": [
         "blank-mcq-28",
-        "blank-mcq-27",
-        "blank-mcq-26",
-        "blank-mcq-25",
-        "blank-mcq-24",
-        "blank-mcq-23"
+        "blank-mcq-20",
+        "blank-mcq-10"
       ],
       "explanation": "本句的「blanked」指「使畫面、區域或內容變成空白」。",
       "sentenceIndex": 58,
@@ -2441,12 +2178,9 @@ export default {
         "blanked"
       ],
       "optionReasons": {
-        "blank-mcq-28": "本句指「使畫面、區域或內容變成空白」。",
-        "blank-mcq-27": "「尚未記錄、寫入或編碼內容的」是「23. blank key/card/disc（未編碼／未寫入的） — 空白的；未寫入的」的用法，與本句語境不同。",
-        "blank-mcq-26": "「毫不迂迴、非常直接地」是「point-blank — manner」的用法，與本句語境不同。",
-        "blank-mcq-25": "「在極近距離下」是「point-blank — distance」的用法，與本句語境不同。",
-        "blank-mcq-24": "「沒有內容、想法、表情或反應的空白／茫然狀態」是「blankness」的用法，與本句語境不同。",
-        "blank-mcq-23": "「刻意把文字／資料遮掉、刪除或使其不可見」是「blank out — information」的用法，與本句語境不同。"
+        "blank-mcq-28": "本句的「blanked」指「使畫面、區域或內容變成空白」。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-28"
     },
@@ -2458,11 +2192,9 @@ export default {
       "masked": "He stared ____ at the question.",
       "options": [
         "blank-mcq-11",
-        "blank-mcq-10",
-        "blank-mcq-12",
-        "blank-mcq-09",
-        "blank-mcq-13",
-        "blank-mcq-08"
+        "blank-mcq-16",
+        "blank-pdf-002",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blankly」指「沒有顯示理解、情緒或反應地；茫然地」。",
       "sentenceIndex": 59,
@@ -2471,12 +2203,10 @@ export default {
         "blankly"
       ],
       "optionReasons": {
-        "blank-mcq-11": "本句指「沒有顯示理解、情緒或反應地；茫然地」。",
-        "blank-mcq-10": "「臉上／眼神中看不出情緒、理解、認出或明確反應」是「blank expression/face/look」的用法，與本句語境不同。",
-        "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。",
-        "blank-mcq-09": "「應該有資料的位置目前沒有內容；未填寫的」是「blank — missing information」的用法，與本句語境不同。",
-        "blank-mcq-13": "「嘗試記起、尋找或取得某個結果，但完全沒有成功」是「draw a blank」的用法，與本句語境不同。",
-        "blank-mcq-08": "「把缺少的字、數字或資料填入指定空位」是「fill in the blank」的用法，與本句語境不同。"
+        "blank-mcq-11": "本句的「blankly」指「沒有顯示理解、情緒或反應地；茫然地」。",
+        "blank-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-11"
     },
@@ -2488,11 +2218,9 @@ export default {
       "masked": "She nodded ____, clearly confused.",
       "options": [
         "blank-mcq-11",
-        "blank-mcq-10",
-        "blank-mcq-12",
-        "blank-mcq-09",
-        "blank-mcq-13",
-        "blank-mcq-08"
+        "blank-pdf-002",
+        "blank-mcq-05",
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blankly」指「沒有顯示理解、情緒或反應地；茫然地」。",
       "sentenceIndex": 60,
@@ -2501,12 +2229,10 @@ export default {
         "blankly"
       ],
       "optionReasons": {
-        "blank-mcq-11": "本句指「沒有顯示理解、情緒或反應地；茫然地」。",
-        "blank-mcq-10": "「臉上／眼神中看不出情緒、理解、認出或明確反應」是「blank expression/face/look」的用法，與本句語境不同。",
-        "blank-mcq-12": "「某段時間／事件完全無法回想起來的記憶空白」是「blank — memory gap」的用法，與本句語境不同。",
-        "blank-mcq-09": "「應該有資料的位置目前沒有內容；未填寫的」是「blank — missing information」的用法，與本句語境不同。",
-        "blank-mcq-13": "「嘗試記起、尋找或取得某個結果，但完全沒有成功」是「draw a blank」的用法，與本句語境不同。",
-        "blank-mcq-08": "「把缺少的字、數字或資料填入指定空位」是「fill in the blank」的用法，與本句語境不同。"
+        "blank-mcq-11": "本句的「blankly」指「沒有顯示理解、情緒或反應地；茫然地」。",
+        "blank-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-11"
     },
@@ -2518,11 +2244,7 @@ export default {
       "masked": "There was a moment of complete ____ in my mind.",
       "options": [
         "blank-mcq-24",
-        "blank-mcq-23",
-        "blank-mcq-25",
-        "blank-mcq-22",
-        "blank-mcq-26",
-        "blank-mcq-21"
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blankness」指「沒有內容、想法、表情或反應的空白／茫然狀態」。",
       "sentenceIndex": 61,
@@ -2531,12 +2253,8 @@ export default {
         "blankness"
       ],
       "optionReasons": {
-        "blank-mcq-24": "本句指「沒有內容、想法、表情或反應的空白／茫然狀態」。",
-        "blank-mcq-23": "「刻意把文字／資料遮掉、刪除或使其不可見」是「blank out — information」的用法，與本句語境不同。",
-        "blank-mcq-25": "「在極近距離下」是「point-blank — distance」的用法，與本句語境不同。",
-        "blank-mcq-22": "「暫時無法思考／記憶，或完全忘記某段內容」是「blank out — memory」的用法，與本句語境不同。",
-        "blank-mcq-26": "「毫不迂迴、非常直接地」是「point-blank — manner」的用法，與本句語境不同。",
-        "blank-mcq-21": "「突然無法想起原本知道的資料」是「blank on something」的用法，與本句語境不同。"
+        "blank-mcq-24": "本句的「blankness」指「沒有內容、想法、表情或反應的空白／茫然狀態」。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-24"
     },
@@ -2548,11 +2266,7 @@ export default {
       "masked": "The ____ of his expression made it hard to know what he was thinking.",
       "options": [
         "blank-mcq-24",
-        "blank-mcq-23",
-        "blank-mcq-25",
-        "blank-mcq-22",
-        "blank-mcq-26",
-        "blank-mcq-21"
+        "blank-mcq-20"
       ],
       "explanation": "本句的「blankness」指「沒有內容、想法、表情或反應的空白／茫然狀態」。",
       "sentenceIndex": 62,
@@ -2561,12 +2275,8 @@ export default {
         "blankness"
       ],
       "optionReasons": {
-        "blank-mcq-24": "本句指「沒有內容、想法、表情或反應的空白／茫然狀態」。",
-        "blank-mcq-23": "「刻意把文字／資料遮掉、刪除或使其不可見」是「blank out — information」的用法，與本句語境不同。",
-        "blank-mcq-25": "「在極近距離下」是「point-blank — distance」的用法，與本句語境不同。",
-        "blank-mcq-22": "「暫時無法思考／記憶，或完全忘記某段內容」是「blank out — memory」的用法，與本句語境不同。",
-        "blank-mcq-26": "「毫不迂迴、非常直接地」是「point-blank — manner」的用法，與本句語境不同。",
-        "blank-mcq-21": "「突然無法想起原本知道的資料」是「blank on something」的用法，與本句語境不同。"
+        "blank-mcq-24": "本句的「blankness」指「沒有內容、想法、表情或反應的空白／茫然狀態」。",
+        "blank-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blank-mcq-24"
     }
@@ -2578,5 +2288,7 @@ export default {
     "sha256": "64607679f325843c310643edce8ae7849ea6cd00c0a866ea2410132f06ccd831",
     "pages": 26
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

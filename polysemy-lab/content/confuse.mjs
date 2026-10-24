@@ -408,11 +408,9 @@ export default {
       "masked": "The instructions ____.",
       "options": [
         "confuse-mcq-01",
-        "confuse-mcq-02",
+        "confuse-mcq-09",
         "confuse-mcq-03",
-        "confuse-mcq-04",
-        "confuse-mcq-05",
-        "confuse-mcq-06"
+        "confuse-mcq-08"
       ],
       "explanation": "本句的「confused me」指「使某人無法清楚理解或判斷；使困惑」。",
       "sentenceIndex": 2,
@@ -421,12 +419,10 @@ export default {
         "confused me"
       ],
       "optionReasons": {
-        "confuse-mcq-01": "本句指「使某人無法清楚理解或判斷；使困惑」。",
-        "confuse-mcq-02": "「錯把 A 當成 B，或無法清楚區分兩者；搞混」與本句語境不同。",
-        "confuse-mcq-03": "「把兩個人或事物認錯／混淆」與本句語境不同。",
-        "confuse-mcq-04": "「加入無關或不清楚的資訊，使問題焦點更模糊」與本句語境不同。",
-        "confuse-mcq-05": "「使事情變得更複雜、更難理解或處理」與本句語境不同。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。"
+        "confuse-mcq-01": "本句的「confused me」指「使某人無法清楚理解或判斷；使困惑」。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-01"
     },
@@ -438,11 +434,9 @@ export default {
       "masked": "Too many technical terms can ____.",
       "options": [
         "confuse-mcq-01",
-        "confuse-mcq-02",
+        "confuse-mcq-08",
         "confuse-mcq-03",
-        "confuse-mcq-04",
-        "confuse-mcq-05",
-        "confuse-mcq-06"
+        "confuse-mcq-09"
       ],
       "explanation": "本句的「confuse beginners」指「使某人無法清楚理解或判斷；使困惑」。",
       "sentenceIndex": 3,
@@ -451,12 +445,10 @@ export default {
         "confuse beginners"
       ],
       "optionReasons": {
-        "confuse-mcq-01": "本句指「使某人無法清楚理解或判斷；使困惑」。",
-        "confuse-mcq-02": "「錯把 A 當成 B，或無法清楚區分兩者；搞混」與本句語境不同。",
-        "confuse-mcq-03": "「把兩個人或事物認錯／混淆」與本句語境不同。",
-        "confuse-mcq-04": "「加入無關或不清楚的資訊，使問題焦點更模糊」與本句語境不同。",
-        "confuse-mcq-05": "「使事情變得更複雜、更難理解或處理」與本句語境不同。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。"
+        "confuse-mcq-01": "本句的「confuse beginners」指「使某人無法清楚理解或判斷；使困惑」。",
+        "confuse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-01"
     },
@@ -468,11 +460,9 @@ export default {
       "masked": "The final step ____.",
       "options": [
         "confuse-mcq-01",
-        "confuse-mcq-02",
-        "confuse-mcq-03",
-        "confuse-mcq-04",
-        "confuse-mcq-05",
-        "confuse-mcq-06"
+        "confuse-mcq-08",
+        "confuse-mcq-09",
+        "confuse-mcq-03"
       ],
       "explanation": "本句的「confused several students」指「使某人無法清楚理解或判斷；使困惑」。",
       "sentenceIndex": 4,
@@ -481,12 +471,10 @@ export default {
         "confused several students"
       ],
       "optionReasons": {
-        "confuse-mcq-01": "本句指「使某人無法清楚理解或判斷；使困惑」。",
-        "confuse-mcq-02": "「錯把 A 當成 B，或無法清楚區分兩者；搞混」與本句語境不同。",
-        "confuse-mcq-03": "「把兩個人或事物認錯／混淆」與本句語境不同。",
-        "confuse-mcq-04": "「加入無關或不清楚的資訊，使問題焦點更模糊」與本句語境不同。",
-        "confuse-mcq-05": "「使事情變得更複雜、更難理解或處理」與本句語境不同。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。"
+        "confuse-mcq-01": "本句的「confused several students」指「使某人無法清楚理解或判斷；使困惑」。",
+        "confuse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-01"
     },
@@ -498,11 +486,9 @@ export default {
       "masked": "His explanation ____.",
       "options": [
         "confuse-mcq-01",
-        "confuse-mcq-02",
+        "confuse-mcq-09",
         "confuse-mcq-03",
-        "confuse-mcq-04",
-        "confuse-mcq-05",
-        "confuse-mcq-06"
+        "confuse-mcq-08"
       ],
       "explanation": "本句的「confused me even more」指「使某人無法清楚理解或判斷；使困惑」。",
       "sentenceIndex": 5,
@@ -511,12 +497,10 @@ export default {
         "confused me even more"
       ],
       "optionReasons": {
-        "confuse-mcq-01": "本句指「使某人無法清楚理解或判斷；使困惑」。",
-        "confuse-mcq-02": "「錯把 A 當成 B，或無法清楚區分兩者；搞混」與本句語境不同。",
-        "confuse-mcq-03": "「把兩個人或事物認錯／混淆」與本句語境不同。",
-        "confuse-mcq-04": "「加入無關或不清楚的資訊，使問題焦點更模糊」與本句語境不同。",
-        "confuse-mcq-05": "「使事情變得更複雜、更難理解或處理」與本句語境不同。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。"
+        "confuse-mcq-01": "本句的「confused me even more」指「使某人無法清楚理解或判斷；使困惑」。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-01"
     },
@@ -528,11 +512,9 @@ export default {
       "masked": "Students often ____.",
       "options": [
         "confuse-mcq-02",
-        "confuse-mcq-01",
-        "confuse-mcq-03",
-        "confuse-mcq-04",
-        "confuse-mcq-05",
-        "confuse-mcq-06"
+        "confuse-mcq-08",
+        "confuse-mcq-18",
+        "confuse-mcq-09"
       ],
       "explanation": "本句的「confuse mass with weight」指「錯把 A 當成 B，或無法清楚區分兩者；搞混」。",
       "sentenceIndex": 6,
@@ -541,12 +523,10 @@ export default {
         "confuse mass with weight"
       ],
       "optionReasons": {
-        "confuse-mcq-02": "本句指「錯把 A 當成 B，或無法清楚區分兩者；搞混」。",
-        "confuse-mcq-01": "「使某人無法清楚理解或判斷；使困惑」與本句語境不同。",
-        "confuse-mcq-03": "「把兩個人或事物認錯／混淆」與本句語境不同。",
-        "confuse-mcq-04": "「加入無關或不清楚的資訊，使問題焦點更模糊」與本句語境不同。",
-        "confuse-mcq-05": "「使事情變得更複雜、更難理解或處理」與本句語境不同。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。"
+        "confuse-mcq-02": "本句的「confuse mass with weight」指「錯把 A 當成 B，或無法清楚區分兩者；搞混」。",
+        "confuse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-02"
     },
@@ -558,11 +538,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "confuse-mcq-02",
-        "confuse-mcq-01",
-        "confuse-mcq-03",
-        "confuse-mcq-04",
-        "confuse-mcq-05",
-        "confuse-mcq-06"
+        "confuse-mcq-08",
+        "confuse-mcq-09",
+        "confuse-mcq-18"
       ],
       "explanation": "本句的「confuse confidence with arrogance」指「錯把 A 當成 B，或無法清楚區分兩者；搞混」。",
       "sentenceIndex": 7,
@@ -571,12 +549,10 @@ export default {
         "confuse confidence with arrogance"
       ],
       "optionReasons": {
-        "confuse-mcq-02": "本句指「錯把 A 當成 B，或無法清楚區分兩者；搞混」。",
-        "confuse-mcq-01": "「使某人無法清楚理解或判斷；使困惑」與本句語境不同。",
-        "confuse-mcq-03": "「把兩個人或事物認錯／混淆」與本句語境不同。",
-        "confuse-mcq-04": "「加入無關或不清楚的資訊，使問題焦點更模糊」與本句語境不同。",
-        "confuse-mcq-05": "「使事情變得更複雜、更難理解或處理」與本句語境不同。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。"
+        "confuse-mcq-02": "本句的「confuse confidence with arrogance」指「錯把 A 當成 B，或無法清楚區分兩者；搞混」。",
+        "confuse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-02"
     },
@@ -588,11 +564,9 @@ export default {
       "masked": "I always ____.",
       "options": [
         "confuse-mcq-03",
-        "confuse-mcq-02",
-        "confuse-mcq-04",
-        "confuse-mcq-01",
         "confuse-mcq-05",
-        "confuse-mcq-06"
+        "confuse-mcq-08",
+        "confuse-mcq-17"
       ],
       "explanation": "本句的「confuse the two brothers」指「把兩個人或事物認錯／混淆」。",
       "sentenceIndex": 8,
@@ -601,12 +575,10 @@ export default {
         "confuse the two brothers"
       ],
       "optionReasons": {
-        "confuse-mcq-03": "本句指「把兩個人或事物認錯／混淆」。",
-        "confuse-mcq-02": "「錯把 A 當成 B，或無法清楚區分兩者；搞混」與本句語境不同。",
-        "confuse-mcq-04": "「加入無關或不清楚的資訊，使問題焦點更模糊」與本句語境不同。",
-        "confuse-mcq-01": "「使某人無法清楚理解或判斷；使困惑」與本句語境不同。",
-        "confuse-mcq-05": "「使事情變得更複雜、更難理解或處理」與本句語境不同。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。"
+        "confuse-mcq-03": "本句的「confuse the two brothers」指「把兩個人或事物認錯／混淆」。",
+        "confuse-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-03"
     },
@@ -618,11 +590,9 @@ export default {
       "masked": "People sometimes ____.",
       "options": [
         "confuse-mcq-03",
-        "confuse-mcq-02",
-        "confuse-mcq-04",
-        "confuse-mcq-01",
-        "confuse-mcq-05",
-        "confuse-mcq-06"
+        "confuse-mcq-10",
+        "confuse-mcq-07",
+        "confuse-mcq-17"
       ],
       "explanation": "本句的「confuse these two terms」指「把兩個人或事物認錯／混淆」。",
       "sentenceIndex": 9,
@@ -631,12 +601,10 @@ export default {
         "confuse these two terms"
       ],
       "optionReasons": {
-        "confuse-mcq-03": "本句指「把兩個人或事物認錯／混淆」。",
-        "confuse-mcq-02": "「錯把 A 當成 B，或無法清楚區分兩者；搞混」與本句語境不同。",
-        "confuse-mcq-04": "「加入無關或不清楚的資訊，使問題焦點更模糊」與本句語境不同。",
-        "confuse-mcq-01": "「使某人無法清楚理解或判斷；使困惑」與本句語境不同。",
-        "confuse-mcq-05": "「使事情變得更複雜、更難理解或處理」與本句語境不同。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。"
+        "confuse-mcq-03": "本句的「confuse these two terms」指「把兩個人或事物認錯／混淆」。",
+        "confuse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-03"
     },
@@ -648,11 +616,8 @@ export default {
       "masked": "Bringing up unrelated details only ____.",
       "options": [
         "confuse-mcq-04",
-        "confuse-mcq-03",
-        "confuse-mcq-05",
-        "confuse-mcq-02",
-        "confuse-mcq-06",
-        "confuse-mcq-01"
+        "confuse-mcq-15",
+        "confuse-mcq-03"
       ],
       "explanation": "本句的「confuses the issue」指「加入無關或不清楚的資訊，使問題焦點更模糊」。",
       "sentenceIndex": 10,
@@ -661,12 +626,9 @@ export default {
         "confuses the issue"
       ],
       "optionReasons": {
-        "confuse-mcq-04": "本句指「加入無關或不清楚的資訊，使問題焦點更模糊」。",
-        "confuse-mcq-03": "「把兩個人或事物認錯／混淆」與本句語境不同。",
-        "confuse-mcq-05": "「使事情變得更複雜、更難理解或處理」與本句語境不同。",
-        "confuse-mcq-02": "「錯把 A 當成 B，或無法清楚區分兩者；搞混」與本句語境不同。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。",
-        "confuse-mcq-01": "「使某人無法清楚理解或判斷；使困惑」與本句語境不同。"
+        "confuse-mcq-04": "本句的「confuses the issue」指「加入無關或不清楚的資訊，使問題焦點更模糊」。",
+        "confuse-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-04"
     },
@@ -678,11 +640,8 @@ export default {
       "masked": "The extra argument ____ rather than solving it.",
       "options": [
         "confuse-mcq-04",
-        "confuse-mcq-03",
-        "confuse-mcq-05",
-        "confuse-mcq-02",
-        "confuse-mcq-06",
-        "confuse-mcq-01"
+        "confuse-mcq-09",
+        "confuse-mcq-18"
       ],
       "explanation": "本句的「confused the issue」指「加入無關或不清楚的資訊，使問題焦點更模糊」。",
       "sentenceIndex": 11,
@@ -691,12 +650,9 @@ export default {
         "confused the issue"
       ],
       "optionReasons": {
-        "confuse-mcq-04": "本句指「加入無關或不清楚的資訊，使問題焦點更模糊」。",
-        "confuse-mcq-03": "「把兩個人或事物認錯／混淆」與本句語境不同。",
-        "confuse-mcq-05": "「使事情變得更複雜、更難理解或處理」與本句語境不同。",
-        "confuse-mcq-02": "「錯把 A 當成 B，或無法清楚區分兩者；搞混」與本句語境不同。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。",
-        "confuse-mcq-01": "「使某人無法清楚理解或判斷；使困惑」與本句語境不同。"
+        "confuse-mcq-04": "本句的「confused the issue」指「加入無關或不清楚的資訊，使問題焦點更模糊」。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-04"
     },
@@ -708,11 +664,9 @@ export default {
       "masked": "A second set of instructions only ____.",
       "options": [
         "confuse-mcq-05",
-        "confuse-mcq-04",
-        "confuse-mcq-06",
-        "confuse-mcq-03",
-        "confuse-mcq-07",
-        "confuse-mcq-02"
+        "confuse-mcq-17",
+        "confuse-mcq-09",
+        "confuse-mcq-08"
       ],
       "explanation": "本句的「confused matters」指「使事情變得更複雜、更難理解或處理」。",
       "sentenceIndex": 12,
@@ -721,12 +675,10 @@ export default {
         "confused matters"
       ],
       "optionReasons": {
-        "confuse-mcq-05": "本句指「使事情變得更複雜、更難理解或處理」。",
-        "confuse-mcq-04": "「加入無關或不清楚的資訊，使問題焦點更模糊」與本句語境不同。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。",
-        "confuse-mcq-03": "「把兩個人或事物認錯／混淆」與本句語境不同。",
-        "confuse-mcq-07": "「對某件事的意思、差別或做法搞不清楚」與本句語境不同。",
-        "confuse-mcq-02": "「錯把 A 當成 B，或無法清楚區分兩者；搞混」與本句語境不同。"
+        "confuse-mcq-05": "本句的「confused matters」指「使事情變得更複雜、更難理解或處理」。",
+        "confuse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-05"
     },
@@ -738,11 +690,9 @@ export default {
       "masked": "Changing the rules halfway through ____.",
       "options": [
         "confuse-mcq-05",
-        "confuse-mcq-04",
-        "confuse-mcq-06",
-        "confuse-mcq-03",
-        "confuse-mcq-07",
-        "confuse-mcq-02"
+        "confuse-mcq-08",
+        "confuse-mcq-09",
+        "confuse-mcq-18"
       ],
       "explanation": "本句的「confused matters further」指「使事情變得更複雜、更難理解或處理」。",
       "sentenceIndex": 13,
@@ -751,12 +701,10 @@ export default {
         "confused matters further"
       ],
       "optionReasons": {
-        "confuse-mcq-05": "本句指「使事情變得更複雜、更難理解或處理」。",
-        "confuse-mcq-04": "「加入無關或不清楚的資訊，使問題焦點更模糊」與本句語境不同。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。",
-        "confuse-mcq-03": "「把兩個人或事物認錯／混淆」與本句語境不同。",
-        "confuse-mcq-07": "「對某件事的意思、差別或做法搞不清楚」與本句語境不同。",
-        "confuse-mcq-02": "「錯把 A 當成 B，或無法清楚區分兩者；搞混」與本句語境不同。"
+        "confuse-mcq-05": "本句的「confused matters further」指「使事情變得更複雜、更難理解或處理」。",
+        "confuse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-05"
     },
@@ -768,11 +716,8 @@ export default {
       "masked": "I’m ____ about this formula.",
       "options": [
         "confuse-mcq-06",
-        "confuse-mcq-05",
-        "confuse-mcq-07",
-        "confuse-mcq-04",
-        "confuse-mcq-08",
-        "confuse-mcq-03"
+        "confuse-mcq-03",
+        "confuse-mcq-09"
       ],
       "explanation": "本句的「confused」指「因不了解情況、內容或下一步而感到困惑」。",
       "sentenceIndex": 14,
@@ -781,12 +726,9 @@ export default {
         "confused"
       ],
       "optionReasons": {
-        "confuse-mcq-06": "本句指「因不了解情況、內容或下一步而感到困惑」。",
-        "confuse-mcq-05": "「使事情變得更複雜、更難理解或處理」與本句語境不同。",
-        "confuse-mcq-07": "「對某件事的意思、差別或做法搞不清楚」與本句語境不同。",
-        "confuse-mcq-04": "「加入無關或不清楚的資訊，使問題焦點更模糊」與本句語境不同。",
-        "confuse-mcq-08": "「因某項資訊、說明或情況而被弄糊塗」與本句語境不同。",
-        "confuse-mcq-03": "「把兩個人或事物認錯／混淆」與本句語境不同。"
+        "confuse-mcq-06": "本句的「confused」指「因不了解情況、內容或下一步而感到困惑」。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-06"
     },
@@ -798,11 +740,8 @@ export default {
       "masked": "She looked ____ by the question.",
       "options": [
         "confuse-mcq-06",
-        "confuse-mcq-05",
-        "confuse-mcq-07",
-        "confuse-mcq-04",
-        "confuse-mcq-08",
-        "confuse-mcq-03"
+        "confuse-mcq-03",
+        "confuse-mcq-09"
       ],
       "explanation": "本句的「confused」指「因不了解情況、內容或下一步而感到困惑」。",
       "sentenceIndex": 15,
@@ -811,12 +750,9 @@ export default {
         "confused"
       ],
       "optionReasons": {
-        "confuse-mcq-06": "本句指「因不了解情況、內容或下一步而感到困惑」。",
-        "confuse-mcq-05": "「使事情變得更複雜、更難理解或處理」與本句語境不同。",
-        "confuse-mcq-07": "「對某件事的意思、差別或做法搞不清楚」與本句語境不同。",
-        "confuse-mcq-04": "「加入無關或不清楚的資訊，使問題焦點更模糊」與本句語境不同。",
-        "confuse-mcq-08": "「因某項資訊、說明或情況而被弄糊塗」與本句語境不同。",
-        "confuse-mcq-03": "「把兩個人或事物認錯／混淆」與本句語境不同。"
+        "confuse-mcq-06": "本句的「confused」指「因不了解情況、內容或下一步而感到困惑」。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-06"
     },
@@ -828,11 +764,9 @@ export default {
       "masked": "I’m ____ between the two terms.",
       "options": [
         "confuse-mcq-07",
-        "confuse-mcq-06",
-        "confuse-mcq-08",
-        "confuse-mcq-05",
-        "confuse-mcq-09",
-        "confuse-mcq-04"
+        "confuse-mcq-18",
+        "confuse-mcq-10",
+        "confuse-mcq-09"
       ],
       "explanation": "本句的「confused about the difference」指「對某件事的意思、差別或做法搞不清楚」。",
       "sentenceIndex": 16,
@@ -841,12 +775,10 @@ export default {
         "confused about the difference"
       ],
       "optionReasons": {
-        "confuse-mcq-07": "本句指「對某件事的意思、差別或做法搞不清楚」。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。",
-        "confuse-mcq-08": "「因某項資訊、說明或情況而被弄糊塗」與本句語境不同。",
-        "confuse-mcq-05": "「使事情變得更複雜、更難理解或處理」與本句語境不同。",
-        "confuse-mcq-09": "「因疾病、疲勞、震驚等而神志或思緒混亂」與本句語境不同。",
-        "confuse-mcq-04": "「加入無關或不清楚的資訊，使問題焦點更模糊」與本句語境不同。"
+        "confuse-mcq-07": "本句的「confused about the difference」指「對某件事的意思、差別或做法搞不清楚」。",
+        "confuse-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-07"
     },
@@ -858,11 +790,9 @@ export default {
       "masked": "Students were ____.",
       "options": [
         "confuse-mcq-07",
-        "confuse-mcq-06",
-        "confuse-mcq-08",
-        "confuse-mcq-05",
-        "confuse-mcq-09",
-        "confuse-mcq-04"
+        "confuse-mcq-10",
+        "confuse-mcq-03",
+        "confuse-mcq-15"
       ],
       "explanation": "本句的「confused about what to do next」指「對某件事的意思、差別或做法搞不清楚」。",
       "sentenceIndex": 17,
@@ -871,12 +801,10 @@ export default {
         "confused about what to do next"
       ],
       "optionReasons": {
-        "confuse-mcq-07": "本句指「對某件事的意思、差別或做法搞不清楚」。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。",
-        "confuse-mcq-08": "「因某項資訊、說明或情況而被弄糊塗」與本句語境不同。",
-        "confuse-mcq-05": "「使事情變得更複雜、更難理解或處理」與本句語境不同。",
-        "confuse-mcq-09": "「因疾病、疲勞、震驚等而神志或思緒混亂」與本句語境不同。",
-        "confuse-mcq-04": "「加入無關或不清楚的資訊，使問題焦點更模糊」與本句語境不同。"
+        "confuse-mcq-07": "本句的「confused about what to do next」指「對某件事的意思、差別或做法搞不清楚」。",
+        "confuse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-07"
     },
@@ -888,11 +816,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "confuse-mcq-08",
-        "confuse-mcq-07",
-        "confuse-mcq-09",
-        "confuse-mcq-06",
-        "confuse-mcq-10",
-        "confuse-mcq-05"
+        "confuse-mcq-03",
+        "confuse-mcq-01",
+        "confuse-mcq-09"
       ],
       "explanation": "本句的「confused by the instructions」指「因某項資訊、說明或情況而被弄糊塗」。",
       "sentenceIndex": 18,
@@ -901,12 +827,10 @@ export default {
         "confused by the instructions"
       ],
       "optionReasons": {
-        "confuse-mcq-08": "本句指「因某項資訊、說明或情況而被弄糊塗」。",
-        "confuse-mcq-07": "「對某件事的意思、差別或做法搞不清楚」與本句語境不同。",
-        "confuse-mcq-09": "「因疾病、疲勞、震驚等而神志或思緒混亂」與本句語境不同。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。",
-        "confuse-mcq-10": "「內容或結構缺乏條理、讓人難以跟隨」與本句語境不同。",
-        "confuse-mcq-05": "「使事情變得更複雜、更難理解或處理」與本句語境不同。"
+        "confuse-mcq-08": "本句的「confused by the instructions」指「因某項資訊、說明或情況而被弄糊塗」。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-08"
     },
@@ -918,11 +842,9 @@ export default {
       "masked": "I was ____.",
       "options": [
         "confuse-mcq-08",
-        "confuse-mcq-07",
-        "confuse-mcq-09",
-        "confuse-mcq-06",
-        "confuse-mcq-10",
-        "confuse-mcq-05"
+        "confuse-mcq-11",
+        "confuse-mcq-03",
+        "confuse-mcq-09"
       ],
       "explanation": "本句的「confused by his answer」指「因某項資訊、說明或情況而被弄糊塗」。",
       "sentenceIndex": 19,
@@ -931,12 +853,10 @@ export default {
         "confused by his answer"
       ],
       "optionReasons": {
-        "confuse-mcq-08": "本句指「因某項資訊、說明或情況而被弄糊塗」。",
-        "confuse-mcq-07": "「對某件事的意思、差別或做法搞不清楚」與本句語境不同。",
-        "confuse-mcq-09": "「因疾病、疲勞、震驚等而神志或思緒混亂」與本句語境不同。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。",
-        "confuse-mcq-10": "「內容或結構缺乏條理、讓人難以跟隨」與本句語境不同。",
-        "confuse-mcq-05": "「使事情變得更複雜、更難理解或處理」與本句語境不同。"
+        "confuse-mcq-08": "本句的「confused by his answer」指「因某項資訊、說明或情況而被弄糊塗」。",
+        "confuse-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-08"
     },
@@ -948,11 +868,9 @@ export default {
       "masked": "He seemed ____ after waking up.",
       "options": [
         "confuse-mcq-09",
-        "confuse-mcq-08",
+        "confuse-mcq-05",
         "confuse-mcq-10",
-        "confuse-mcq-07",
-        "confuse-mcq-11",
-        "confuse-mcq-06"
+        "confuse-mcq-03"
       ],
       "explanation": "本句的「confused」指「因疾病、疲勞、震驚等而神志或思緒混亂」。",
       "sentenceIndex": 20,
@@ -961,12 +879,10 @@ export default {
         "confused"
       ],
       "optionReasons": {
-        "confuse-mcq-09": "本句指「因疾病、疲勞、震驚等而神志或思緒混亂」。",
-        "confuse-mcq-08": "「因某項資訊、說明或情況而被弄糊塗」與本句語境不同。",
-        "confuse-mcq-10": "「內容或結構缺乏條理、讓人難以跟隨」與本句語境不同。",
-        "confuse-mcq-07": "「對某件事的意思、差別或做法搞不清楚」與本句語境不同。",
-        "confuse-mcq-11": "「本身會使人難以理解；令人困惑的」與本句語境不同。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。"
+        "confuse-mcq-09": "本句的「confused」指「因疾病、疲勞、震驚等而神志或思緒混亂」。",
+        "confuse-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-09"
     },
@@ -978,11 +894,9 @@ export default {
       "masked": "The patient became increasingly ____.",
       "options": [
         "confuse-mcq-09",
-        "confuse-mcq-08",
-        "confuse-mcq-10",
-        "confuse-mcq-07",
-        "confuse-mcq-11",
-        "confuse-mcq-06"
+        "confuse-mcq-04",
+        "confuse-mcq-17",
+        "confuse-mcq-03"
       ],
       "explanation": "本句的「confused」指「因疾病、疲勞、震驚等而神志或思緒混亂」。",
       "sentenceIndex": 21,
@@ -991,12 +905,10 @@ export default {
         "confused"
       ],
       "optionReasons": {
-        "confuse-mcq-09": "本句指「因疾病、疲勞、震驚等而神志或思緒混亂」。",
-        "confuse-mcq-08": "「因某項資訊、說明或情況而被弄糊塗」與本句語境不同。",
-        "confuse-mcq-10": "「內容或結構缺乏條理、讓人難以跟隨」與本句語境不同。",
-        "confuse-mcq-07": "「對某件事的意思、差別或做法搞不清楚」與本句語境不同。",
-        "confuse-mcq-11": "「本身會使人難以理解；令人困惑的」與本句語境不同。",
-        "confuse-mcq-06": "「因不了解情況、內容或下一步而感到困惑」與本句語境不同。"
+        "confuse-mcq-09": "本句的「confused」指「因疾病、疲勞、震驚等而神志或思緒混亂」。",
+        "confuse-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-09"
     },
@@ -1008,11 +920,9 @@ export default {
       "masked": "His argument was rather ____.",
       "options": [
         "confuse-mcq-10",
-        "confuse-mcq-09",
-        "confuse-mcq-11",
-        "confuse-mcq-08",
-        "confuse-mcq-12",
-        "confuse-mcq-07"
+        "confuse-mcq-17",
+        "confuse-mcq-07",
+        "confuse-mcq-09"
       ],
       "explanation": "本句的「confused」指「內容或結構缺乏條理、讓人難以跟隨」。",
       "sentenceIndex": 22,
@@ -1021,12 +931,10 @@ export default {
         "confused"
       ],
       "optionReasons": {
-        "confuse-mcq-10": "本句指「內容或結構缺乏條理、讓人難以跟隨」。",
-        "confuse-mcq-09": "「因疾病、疲勞、震驚等而神志或思緒混亂」與本句語境不同。",
-        "confuse-mcq-11": "「本身會使人難以理解；令人困惑的」與本句語境不同。",
-        "confuse-mcq-08": "「因某項資訊、說明或情況而被弄糊塗」與本句語境不同。",
-        "confuse-mcq-12": "「因資訊不清而產生的困惑／不解」與本句語境不同。",
-        "confuse-mcq-07": "「對某件事的意思、差別或做法搞不清楚」與本句語境不同。"
+        "confuse-mcq-10": "本句的「confused」指「內容或結構缺乏條理、讓人難以跟隨」。",
+        "confuse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-10"
     },
@@ -1038,11 +946,9 @@ export default {
       "masked": "The report gives a ____ of what happened.",
       "options": [
         "confuse-mcq-10",
-        "confuse-mcq-09",
-        "confuse-mcq-11",
-        "confuse-mcq-08",
-        "confuse-mcq-12",
-        "confuse-mcq-07"
+        "confuse-mcq-03",
+        "confuse-mcq-07",
+        "confuse-mcq-17"
       ],
       "explanation": "本句的「confused account」指「內容或結構缺乏條理、讓人難以跟隨」。",
       "sentenceIndex": 23,
@@ -1051,12 +957,10 @@ export default {
         "confused account"
       ],
       "optionReasons": {
-        "confuse-mcq-10": "本句指「內容或結構缺乏條理、讓人難以跟隨」。",
-        "confuse-mcq-09": "「因疾病、疲勞、震驚等而神志或思緒混亂」與本句語境不同。",
-        "confuse-mcq-11": "「本身會使人難以理解；令人困惑的」與本句語境不同。",
-        "confuse-mcq-08": "「因某項資訊、說明或情況而被弄糊塗」與本句語境不同。",
-        "confuse-mcq-12": "「因資訊不清而產生的困惑／不解」與本句語境不同。",
-        "confuse-mcq-07": "「對某件事的意思、差別或做法搞不清楚」與本句語境不同。"
+        "confuse-mcq-10": "本句的「confused account」指「內容或結構缺乏條理、讓人難以跟隨」。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-10"
     },
@@ -1068,10 +972,8 @@ export default {
       "masked": "The instructions were ____.",
       "options": [
         "confuse-mcq-11",
-        "confuse-mcq-10",
-        "confuse-mcq-12",
+        "confuse-mcq-03",
         "confuse-mcq-09",
-        "confuse-mcq-13",
         "confuse-mcq-08"
       ],
       "explanation": "本句的「confusing」指「本身會使人難以理解；令人困惑的」。",
@@ -1081,12 +983,10 @@ export default {
         "confusing"
       ],
       "optionReasons": {
-        "confuse-mcq-11": "本句指「本身會使人難以理解；令人困惑的」。",
-        "confuse-mcq-10": "「內容或結構缺乏條理、讓人難以跟隨」與本句語境不同。",
-        "confuse-mcq-12": "「因資訊不清而產生的困惑／不解」與本句語境不同。",
-        "confuse-mcq-09": "「因疾病、疲勞、震驚等而神志或思緒混亂」與本句語境不同。",
-        "confuse-mcq-13": "「場面、安排或情況缺乏秩序；混亂」與本句語境不同。",
-        "confuse-mcq-08": "「因某項資訊、說明或情況而被弄糊塗」與本句語境不同。"
+        "confuse-mcq-11": "本句的「confusing」指「本身會使人難以理解；令人困惑的」。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-11"
     },
@@ -1098,11 +998,9 @@ export default {
       "masked": "The diagram is more ____ than helpful.",
       "options": [
         "confuse-mcq-11",
-        "confuse-mcq-10",
-        "confuse-mcq-12",
         "confuse-mcq-09",
-        "confuse-mcq-13",
-        "confuse-mcq-08"
+        "confuse-mcq-08",
+        "confuse-mcq-03"
       ],
       "explanation": "本句的「confusing」指「本身會使人難以理解；令人困惑的」。",
       "sentenceIndex": 25,
@@ -1111,12 +1009,10 @@ export default {
         "confusing"
       ],
       "optionReasons": {
-        "confuse-mcq-11": "本句指「本身會使人難以理解；令人困惑的」。",
-        "confuse-mcq-10": "「內容或結構缺乏條理、讓人難以跟隨」與本句語境不同。",
-        "confuse-mcq-12": "「因資訊不清而產生的困惑／不解」與本句語境不同。",
-        "confuse-mcq-09": "「因疾病、疲勞、震驚等而神志或思緒混亂」與本句語境不同。",
-        "confuse-mcq-13": "「場面、安排或情況缺乏秩序；混亂」與本句語境不同。",
-        "confuse-mcq-08": "「因某項資訊、說明或情況而被弄糊塗」與本句語境不同。"
+        "confuse-mcq-11": "本句的「confusing」指「本身會使人難以理解；令人困惑的」。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-11"
     },
@@ -1128,11 +1024,8 @@ export default {
       "masked": "The new rule caused ____ among students.",
       "options": [
         "confuse-mcq-15",
-        "confuse-mcq-14",
-        "confuse-mcq-16",
-        "confuse-mcq-13",
-        "confuse-mcq-17",
-        "confuse-mcq-12"
+        "confuse-mcq-04",
+        "confuse-mcq-03"
       ],
       "explanation": "本句的「confusion」指「使人困惑、誤解或造成混亂」。",
       "sentenceIndex": 26,
@@ -1141,12 +1034,9 @@ export default {
         "confusion"
       ],
       "optionReasons": {
-        "confuse-mcq-15": "本句指「使人困惑、誤解或造成混亂」。",
-        "confuse-mcq-14": "「無法分清兩件事而造成的混淆／誤認」與本句語境不同。",
-        "confuse-mcq-16": "「避免產生誤解、混淆或不清楚」與本句語境不同。",
-        "confuse-mcq-13": "「場面、安排或情況缺乏秩序；混亂」與本句語境不同。",
-        "confuse-mcq-17": "「開始感到困惑或把事情搞混」與本句語境不同。",
-        "confuse-mcq-12": "「因資訊不清而產生的困惑／不解」與本句語境不同。"
+        "confuse-mcq-15": "本句的「confusion」指「使人困惑、誤解或造成混亂」。",
+        "confuse-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-15"
     },
@@ -1158,11 +1048,9 @@ export default {
       "masked": "Similar labels can cause ____.",
       "options": [
         "confuse-mcq-15",
-        "confuse-mcq-14",
-        "confuse-mcq-16",
-        "confuse-mcq-13",
-        "confuse-mcq-17",
-        "confuse-mcq-12"
+        "confuse-mcq-10",
+        "confuse-mcq-07",
+        "confuse-mcq-03"
       ],
       "explanation": "本句的「confusion」指「使人困惑、誤解或造成混亂」。",
       "sentenceIndex": 27,
@@ -1171,12 +1059,10 @@ export default {
         "confusion"
       ],
       "optionReasons": {
-        "confuse-mcq-15": "本句指「使人困惑、誤解或造成混亂」。",
-        "confuse-mcq-14": "「無法分清兩件事而造成的混淆／誤認」與本句語境不同。",
-        "confuse-mcq-16": "「避免產生誤解、混淆或不清楚」與本句語境不同。",
-        "confuse-mcq-13": "「場面、安排或情況缺乏秩序；混亂」與本句語境不同。",
-        "confuse-mcq-17": "「開始感到困惑或把事情搞混」與本句語境不同。",
-        "confuse-mcq-12": "「因資訊不清而產生的困惑／不解」與本句語境不同。"
+        "confuse-mcq-15": "本句的「confusion」指「使人困惑、誤解或造成混亂」。",
+        "confuse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-15"
     },
@@ -1188,11 +1074,9 @@ export default {
       "masked": "Use clear labels to ____.",
       "options": [
         "confuse-mcq-16",
-        "confuse-mcq-15",
-        "confuse-mcq-17",
-        "confuse-mcq-14",
-        "confuse-mcq-18",
-        "confuse-mcq-13"
+        "confuse-mcq-08",
+        "confuse-mcq-09",
+        "confuse-mcq-17"
       ],
       "explanation": "本句的「avoid confusion」指「避免產生誤解、混淆或不清楚」。",
       "sentenceIndex": 28,
@@ -1201,12 +1085,10 @@ export default {
         "avoid confusion"
       ],
       "optionReasons": {
-        "confuse-mcq-16": "本句指「避免產生誤解、混淆或不清楚」。",
-        "confuse-mcq-15": "「使人困惑、誤解或造成混亂」與本句語境不同。",
-        "confuse-mcq-17": "「開始感到困惑或把事情搞混」與本句語境不同。",
-        "confuse-mcq-14": "「無法分清兩件事而造成的混淆／誤認」與本句語境不同。",
-        "confuse-mcq-18": "「很容易被誤認、混淆，或容易感到困惑」與本句語境不同。",
-        "confuse-mcq-13": "「場面、安排或情況缺乏秩序；混亂」與本句語境不同。"
+        "confuse-mcq-16": "本句的「avoid confusion」指「避免產生誤解、混淆或不清楚」。",
+        "confuse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-16"
     },
@@ -1218,11 +1100,9 @@ export default {
       "masked": "Let me explain the difference to ____.",
       "options": [
         "confuse-mcq-16",
-        "confuse-mcq-15",
+        "confuse-mcq-10",
         "confuse-mcq-17",
-        "confuse-mcq-14",
-        "confuse-mcq-18",
-        "confuse-mcq-13"
+        "confuse-mcq-09"
       ],
       "explanation": "本句的「avoid confusion」指「避免產生誤解、混淆或不清楚」。",
       "sentenceIndex": 29,
@@ -1231,12 +1111,10 @@ export default {
         "avoid confusion"
       ],
       "optionReasons": {
-        "confuse-mcq-16": "本句指「避免產生誤解、混淆或不清楚」。",
-        "confuse-mcq-15": "「使人困惑、誤解或造成混亂」與本句語境不同。",
-        "confuse-mcq-17": "「開始感到困惑或把事情搞混」與本句語境不同。",
-        "confuse-mcq-14": "「無法分清兩件事而造成的混淆／誤認」與本句語境不同。",
-        "confuse-mcq-18": "「很容易被誤認、混淆，或容易感到困惑」與本句語境不同。",
-        "confuse-mcq-13": "「場面、安排或情況缺乏秩序；混亂」與本句語境不同。"
+        "confuse-mcq-16": "本句的「avoid confusion」指「避免產生誤解、混淆或不清楚」。",
+        "confuse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-16"
     },
@@ -1248,11 +1126,9 @@ export default {
       "masked": "The two options are ____.",
       "options": [
         "confuse-mcq-15",
-        "confuse-mcq-14",
-        "confuse-mcq-16",
-        "confuse-mcq-13",
-        "confuse-mcq-17",
-        "confuse-mcq-12"
+        "confuse-mcq-08",
+        "confuse-mcq-07",
+        "confuse-mcq-03"
       ],
       "explanation": "本句的「confusingly similar」指「使人困惑、誤解或造成混亂」。",
       "sentenceIndex": 30,
@@ -1261,12 +1137,10 @@ export default {
         "confusingly similar"
       ],
       "optionReasons": {
-        "confuse-mcq-15": "本句指「使人困惑、誤解或造成混亂」。",
-        "confuse-mcq-14": "「無法分清兩件事而造成的混淆／誤認」與本句語境不同。",
-        "confuse-mcq-16": "「避免產生誤解、混淆或不清楚」與本句語境不同。",
-        "confuse-mcq-13": "「場面、安排或情況缺乏秩序；混亂」與本句語境不同。",
-        "confuse-mcq-17": "「開始感到困惑或把事情搞混」與本句語境不同。",
-        "confuse-mcq-12": "「因資訊不清而產生的困惑／不解」與本句語境不同。"
+        "confuse-mcq-15": "本句的「confusingly similar」指「使人困惑、誤解或造成混亂」。",
+        "confuse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-15"
     },
@@ -1278,11 +1152,9 @@ export default {
       "masked": "The instructions are ____.",
       "options": [
         "confuse-mcq-15",
-        "confuse-mcq-14",
-        "confuse-mcq-16",
-        "confuse-mcq-13",
-        "confuse-mcq-17",
-        "confuse-mcq-12"
+        "confuse-mcq-07",
+        "confuse-mcq-10",
+        "confuse-mcq-03"
       ],
       "explanation": "本句的「confusingly written」指「使人困惑、誤解或造成混亂」。",
       "sentenceIndex": 31,
@@ -1291,12 +1163,10 @@ export default {
         "confusingly written"
       ],
       "optionReasons": {
-        "confuse-mcq-15": "本句指「使人困惑、誤解或造成混亂」。",
-        "confuse-mcq-14": "「無法分清兩件事而造成的混淆／誤認」與本句語境不同。",
-        "confuse-mcq-16": "「避免產生誤解、混淆或不清楚」與本句語境不同。",
-        "confuse-mcq-13": "「場面、安排或情況缺乏秩序；混亂」與本句語境不同。",
-        "confuse-mcq-17": "「開始感到困惑或把事情搞混」與本句語境不同。",
-        "confuse-mcq-12": "「因資訊不清而產生的困惑／不解」與本句語境不同。"
+        "confuse-mcq-15": "本句的「confusingly written」指「使人困惑、誤解或造成混亂」。",
+        "confuse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-15"
     },
@@ -1308,11 +1178,9 @@ export default {
       "masked": "I always ____ at this step.",
       "options": [
         "confuse-mcq-17",
-        "confuse-mcq-16",
-        "confuse-mcq-18",
-        "confuse-mcq-15",
-        "confuse-mcq-14",
-        "confuse-mcq-13"
+        "confuse-mcq-10",
+        "confuse-mcq-05",
+        "confuse-mcq-03"
       ],
       "explanation": "本句的「get confused」指「開始感到困惑或把事情搞混」。",
       "sentenceIndex": 32,
@@ -1321,12 +1189,10 @@ export default {
         "get confused"
       ],
       "optionReasons": {
-        "confuse-mcq-17": "本句指「開始感到困惑或把事情搞混」。",
-        "confuse-mcq-16": "「避免產生誤解、混淆或不清楚」與本句語境不同。",
-        "confuse-mcq-18": "「很容易被誤認、混淆，或容易感到困惑」與本句語境不同。",
-        "confuse-mcq-15": "「使人困惑、誤解或造成混亂」與本句語境不同。",
-        "confuse-mcq-14": "「無法分清兩件事而造成的混淆／誤認」與本句語境不同。",
-        "confuse-mcq-13": "「場面、安排或情況缺乏秩序；混亂」與本句語境不同。"
+        "confuse-mcq-17": "本句的「get confused」指「開始感到困惑或把事情搞混」。",
+        "confuse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-17"
     },
@@ -1338,11 +1204,9 @@ export default {
       "masked": "Students may ____ if too many ideas are introduced at once.",
       "options": [
         "confuse-mcq-17",
-        "confuse-mcq-16",
-        "confuse-mcq-18",
-        "confuse-mcq-15",
-        "confuse-mcq-14",
-        "confuse-mcq-13"
+        "confuse-mcq-10",
+        "confuse-mcq-05",
+        "confuse-mcq-03"
       ],
       "explanation": "本句的「get confused」指「開始感到困惑或把事情搞混」。",
       "sentenceIndex": 33,
@@ -1351,12 +1215,10 @@ export default {
         "get confused"
       ],
       "optionReasons": {
-        "confuse-mcq-17": "本句指「開始感到困惑或把事情搞混」。",
-        "confuse-mcq-16": "「避免產生誤解、混淆或不清楚」與本句語境不同。",
-        "confuse-mcq-18": "「很容易被誤認、混淆，或容易感到困惑」與本句語境不同。",
-        "confuse-mcq-15": "「使人困惑、誤解或造成混亂」與本句語境不同。",
-        "confuse-mcq-14": "「無法分清兩件事而造成的混淆／誤認」與本句語境不同。",
-        "confuse-mcq-13": "「場面、安排或情況缺乏秩序；混亂」與本句語境不同。"
+        "confuse-mcq-17": "本句的「get confused」指「開始感到困惑或把事情搞混」。",
+        "confuse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-17"
     },
@@ -1368,11 +1230,8 @@ export default {
       "masked": "The two symbols are ____.",
       "options": [
         "confuse-mcq-18",
-        "confuse-mcq-17",
-        "confuse-mcq-16",
-        "confuse-mcq-15",
-        "confuse-mcq-14",
-        "confuse-mcq-13"
+        "confuse-mcq-04",
+        "confuse-mcq-09"
       ],
       "explanation": "本句的「easily confused」指「很容易被誤認、混淆，或容易感到困惑」。",
       "sentenceIndex": 34,
@@ -1381,12 +1240,9 @@ export default {
         "easily confused"
       ],
       "optionReasons": {
-        "confuse-mcq-18": "本句指「很容易被誤認、混淆，或容易感到困惑」。",
-        "confuse-mcq-17": "「開始感到困惑或把事情搞混」與本句語境不同。",
-        "confuse-mcq-16": "「避免產生誤解、混淆或不清楚」與本句語境不同。",
-        "confuse-mcq-15": "「使人困惑、誤解或造成混亂」與本句語境不同。",
-        "confuse-mcq-14": "「無法分清兩件事而造成的混淆／誤認」與本句語境不同。",
-        "confuse-mcq-13": "「場面、安排或情況缺乏秩序；混亂」與本句語境不同。"
+        "confuse-mcq-18": "本句的「easily confused」指「很容易被誤認、混淆，或容易感到困惑」。",
+        "confuse-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-18"
     },
@@ -1398,11 +1254,9 @@ export default {
       "masked": "Beginners are ____.",
       "options": [
         "confuse-mcq-18",
-        "confuse-mcq-17",
-        "confuse-mcq-16",
-        "confuse-mcq-15",
-        "confuse-mcq-14",
-        "confuse-mcq-13"
+        "confuse-mcq-07",
+        "confuse-mcq-08",
+        "confuse-mcq-09"
       ],
       "explanation": "本句的「easily confused by similar terms」指「很容易被誤認、混淆，或容易感到困惑」。",
       "sentenceIndex": 35,
@@ -1411,12 +1265,10 @@ export default {
         "easily confused by similar terms"
       ],
       "optionReasons": {
-        "confuse-mcq-18": "本句指「很容易被誤認、混淆，或容易感到困惑」。",
-        "confuse-mcq-17": "「開始感到困惑或把事情搞混」與本句語境不同。",
-        "confuse-mcq-16": "「避免產生誤解、混淆或不清楚」與本句語境不同。",
-        "confuse-mcq-15": "「使人困惑、誤解或造成混亂」與本句語境不同。",
-        "confuse-mcq-14": "「無法分清兩件事而造成的混淆／誤認」與本句語境不同。",
-        "confuse-mcq-13": "「場面、安排或情況缺乏秩序；混亂」與本句語境不同。"
+        "confuse-mcq-18": "本句的「easily confused by similar terms」指「很容易被誤認、混淆，或容易感到困惑」。",
+        "confuse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-18"
     },
@@ -1428,11 +1280,9 @@ export default {
       "masked": "By the end, I was ____.",
       "options": [
         "confuse-mcq-18",
-        "confuse-mcq-17",
-        "confuse-mcq-16",
-        "confuse-mcq-15",
-        "confuse-mcq-14",
-        "confuse-mcq-13"
+        "confuse-mcq-07",
+        "confuse-mcq-08",
+        "confuse-mcq-09"
       ],
       "explanation": "本句的「completely confused」指「很容易被誤認、混淆，或容易感到困惑」。",
       "sentenceIndex": 36,
@@ -1441,12 +1291,10 @@ export default {
         "completely confused"
       ],
       "optionReasons": {
-        "confuse-mcq-18": "本句指「很容易被誤認、混淆，或容易感到困惑」。",
-        "confuse-mcq-17": "「開始感到困惑或把事情搞混」與本句語境不同。",
-        "confuse-mcq-16": "「避免產生誤解、混淆或不清楚」與本句語境不同。",
-        "confuse-mcq-15": "「使人困惑、誤解或造成混亂」與本句語境不同。",
-        "confuse-mcq-14": "「無法分清兩件事而造成的混淆／誤認」與本句語境不同。",
-        "confuse-mcq-13": "「場面、安排或情況缺乏秩序；混亂」與本句語境不同。"
+        "confuse-mcq-18": "本句的「completely confused」指「很容易被誤認、混淆，或容易感到困惑」。",
+        "confuse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-18"
     },
@@ -1458,11 +1306,9 @@ export default {
       "masked": "He looked ____.",
       "options": [
         "confuse-mcq-18",
-        "confuse-mcq-17",
-        "confuse-mcq-16",
-        "confuse-mcq-15",
-        "confuse-mcq-14",
-        "confuse-mcq-13"
+        "confuse-mcq-07",
+        "confuse-mcq-08",
+        "confuse-mcq-09"
       ],
       "explanation": "本句的「hopelessly confused」指「很容易被誤認、混淆，或容易感到困惑」。",
       "sentenceIndex": 37,
@@ -1471,12 +1317,10 @@ export default {
         "hopelessly confused"
       ],
       "optionReasons": {
-        "confuse-mcq-18": "本句指「很容易被誤認、混淆，或容易感到困惑」。",
-        "confuse-mcq-17": "「開始感到困惑或把事情搞混」與本句語境不同。",
-        "confuse-mcq-16": "「避免產生誤解、混淆或不清楚」與本句語境不同。",
-        "confuse-mcq-15": "「使人困惑、誤解或造成混亂」與本句語境不同。",
-        "confuse-mcq-14": "「無法分清兩件事而造成的混淆／誤認」與本句語境不同。",
-        "confuse-mcq-13": "「場面、安排或情況缺乏秩序；混亂」與本句語境不同。"
+        "confuse-mcq-18": "本句的「hopelessly confused」指「很容易被誤認、混淆，或容易感到困惑」。",
+        "confuse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confuse-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confuse-mcq-18"
     }
@@ -1488,5 +1332,7 @@ export default {
     "sha256": "5d8e4f958bcf45a11f7e658aae307f6fc134531a0b8c11390d5766c102ffd157",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

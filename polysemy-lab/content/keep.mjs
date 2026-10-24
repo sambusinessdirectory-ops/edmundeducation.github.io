@@ -1126,11 +1126,9 @@ export default {
       "masked": "I knew this was the kind of opportunity I could not ____.",
       "options": [
         "keep-mcq-01",
-        "keep-mcq-02",
-        "keep-mcq-03",
-        "keep-mcq-04",
+        "keep-mcq-39",
         "keep-mcq-05",
-        "keep-mcq-06"
+        "keep-mcq-41"
       ],
       "explanation": "本句的「keep avoiding」指「某個動作持續、反覆或不停止地進行；一直／繼續做」。",
       "sentenceIndex": 0,
@@ -1139,12 +1137,10 @@ export default {
         "keep avoiding"
       ],
       "optionReasons": {
-        "keep-mcq-01": "本句指「某個動作持續、反覆或不停止地進行；一直／繼續做」。",
-        "keep-mcq-02": "「持續不斷或反覆做某事，常帶較強的「不停」語氣」是「keep on + -ing」的用法，與本句語境不同。",
-        "keep-mcq-03": "「即使遇到困難、疲勞或出錯，仍繼續進行」是「keep going」的用法，與本句語境不同。",
-        "keep-mcq-04": "「繼續擁有某物，不把它交走、丟掉、歸還或放棄」是「keep something — retain」的用法，與本句語境不同。",
-        "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。"
+        "keep-mcq-01": "本句的「keep avoiding」指「某個動作持續、反覆或不停止地進行；一直／繼續做」。",
+        "keep-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-01"
     },
@@ -1156,11 +1152,9 @@ export default {
       "masked": "I ____ instead of freezing.",
       "options": [
         "keep-mcq-01",
-        "keep-mcq-02",
-        "keep-mcq-03",
-        "keep-mcq-04",
+        "keep-mcq-15",
         "keep-mcq-05",
-        "keep-mcq-06"
+        "keep-mcq-27"
       ],
       "explanation": "本句的「kept going」指「某個動作持續、反覆或不停止地進行；一直／繼續做」。",
       "sentenceIndex": 1,
@@ -1169,12 +1163,10 @@ export default {
         "kept going"
       ],
       "optionReasons": {
-        "keep-mcq-01": "本句指「某個動作持續、反覆或不停止地進行；一直／繼續做」。",
-        "keep-mcq-02": "「持續不斷或反覆做某事，常帶較強的「不停」語氣」是「keep on + -ing」的用法，與本句語境不同。",
-        "keep-mcq-03": "「即使遇到困難、疲勞或出錯，仍繼續進行」是「keep going」的用法，與本句語境不同。",
-        "keep-mcq-04": "「繼續擁有某物，不把它交走、丟掉、歸還或放棄」是「keep something — retain」的用法，與本句語境不同。",
-        "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。"
+        "keep-mcq-01": "本句的「kept going」指「某個動作持續、反覆或不停止地進行；一直／繼續做」。",
+        "keep-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-01"
     },
@@ -1186,11 +1178,9 @@ export default {
       "masked": "She ____ until she felt more confident.",
       "options": [
         "keep-mcq-01",
-        "keep-mcq-02",
-        "keep-mcq-03",
-        "keep-mcq-04",
-        "keep-mcq-05",
-        "keep-mcq-06"
+        "keep-mcq-20",
+        "keep-mcq-41",
+        "keep-pdf-001"
       ],
       "explanation": "本句的「kept practising」指「某個動作持續、反覆或不停止地進行；一直／繼續做」。",
       "sentenceIndex": 2,
@@ -1199,12 +1189,10 @@ export default {
         "kept practising"
       ],
       "optionReasons": {
-        "keep-mcq-01": "本句指「某個動作持續、反覆或不停止地進行；一直／繼續做」。",
-        "keep-mcq-02": "「持續不斷或反覆做某事，常帶較強的「不停」語氣」是「keep on + -ing」的用法，與本句語境不同。",
-        "keep-mcq-03": "「即使遇到困難、疲勞或出錯，仍繼續進行」是「keep going」的用法，與本句語境不同。",
-        "keep-mcq-04": "「繼續擁有某物，不把它交走、丟掉、歸還或放棄」是「keep something — retain」的用法，與本句語境不同。",
-        "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。"
+        "keep-mcq-01": "本句的「kept practising」指「某個動作持續、反覆或不停止地進行；一直／繼續做」。",
+        "keep-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "keep-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-01"
     },
@@ -1216,11 +1204,9 @@ export default {
       "masked": "He ____ the same question.",
       "options": [
         "keep-mcq-02",
-        "keep-mcq-01",
-        "keep-mcq-03",
-        "keep-mcq-04",
+        "keep-mcq-13",
         "keep-mcq-05",
-        "keep-mcq-06"
+        "keep-mcq-41"
       ],
       "explanation": "本句的「kept on asking」指「持續不斷或反覆做某事，常帶較強的「不停」語氣」。",
       "sentenceIndex": 3,
@@ -1229,12 +1215,10 @@ export default {
         "kept on asking"
       ],
       "optionReasons": {
-        "keep-mcq-02": "本句指「持續不斷或反覆做某事，常帶較強的「不停」語氣」。",
-        "keep-mcq-01": "「某個動作持續、反覆或不停止地進行；一直／繼續做」是「keep + -ing」的用法，與本句語境不同。",
-        "keep-mcq-03": "「即使遇到困難、疲勞或出錯，仍繼續進行」是「keep going」的用法，與本句語境不同。",
-        "keep-mcq-04": "「繼續擁有某物，不把它交走、丟掉、歸還或放棄」是「keep something — retain」的用法，與本句語境不同。",
-        "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。"
+        "keep-mcq-02": "本句的「kept on asking」指「持續不斷或反覆做某事，常帶較強的「不停」語氣」。",
+        "keep-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-02"
     },
@@ -1246,11 +1230,9 @@ export default {
       "masked": "She ____ even after everyone else had left.",
       "options": [
         "keep-mcq-02",
-        "keep-mcq-01",
-        "keep-mcq-03",
-        "keep-mcq-04",
-        "keep-mcq-05",
-        "keep-mcq-06"
+        "keep-mcq-16",
+        "keep-mcq-39",
+        "keep-mcq-05"
       ],
       "explanation": "本句的「kept on practising」指「持續不斷或反覆做某事，常帶較強的「不停」語氣」。",
       "sentenceIndex": 4,
@@ -1259,12 +1241,10 @@ export default {
         "kept on practising"
       ],
       "optionReasons": {
-        "keep-mcq-02": "本句指「持續不斷或反覆做某事，常帶較強的「不停」語氣」。",
-        "keep-mcq-01": "「某個動作持續、反覆或不停止地進行；一直／繼續做」是「keep + -ing」的用法，與本句語境不同。",
-        "keep-mcq-03": "「即使遇到困難、疲勞或出錯，仍繼續進行」是「keep going」的用法，與本句語境不同。",
-        "keep-mcq-04": "「繼續擁有某物，不把它交走、丟掉、歸還或放棄」是「keep something — retain」的用法，與本句語境不同。",
-        "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。"
+        "keep-mcq-02": "本句的「kept on practising」指「持續不斷或反覆做某事，常帶較強的「不停」語氣」。",
+        "keep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-02"
     },
@@ -1276,11 +1256,9 @@ export default {
       "masked": "I made a couple of small mistakes, but I ____.",
       "options": [
         "keep-mcq-03",
-        "keep-mcq-02",
-        "keep-mcq-04",
-        "keep-mcq-01",
-        "keep-mcq-05",
-        "keep-mcq-06"
+        "keep-mcq-44",
+        "keep-mcq-45",
+        "keep-mcq-05"
       ],
       "explanation": "本句的「kept going」指「即使遇到困難、疲勞或出錯，仍繼續進行」。",
       "sentenceIndex": 5,
@@ -1289,12 +1267,10 @@ export default {
         "kept going"
       ],
       "optionReasons": {
-        "keep-mcq-03": "本句指「即使遇到困難、疲勞或出錯，仍繼續進行」。",
-        "keep-mcq-02": "「持續不斷或反覆做某事，常帶較強的「不停」語氣」是「keep on + -ing」的用法，與本句語境不同。",
-        "keep-mcq-04": "「繼續擁有某物，不把它交走、丟掉、歸還或放棄」是「keep something — retain」的用法，與本句語境不同。",
-        "keep-mcq-01": "「某個動作持續、反覆或不停止地進行；一直／繼續做」是「keep + -ing」的用法，與本句語境不同。",
-        "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。"
+        "keep-mcq-03": "本句的「kept going」指「即使遇到困難、疲勞或出錯，仍繼續進行」。",
+        "keep-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-03"
     },
@@ -1306,11 +1282,9 @@ export default {
       "masked": "Even if you lose your place, just ____.",
       "options": [
         "keep-mcq-03",
-        "keep-mcq-02",
-        "keep-mcq-04",
-        "keep-mcq-01",
+        "keep-mcq-44",
         "keep-mcq-05",
-        "keep-mcq-06"
+        "keep-mcq-26"
       ],
       "explanation": "本句的「keep going」指「即使遇到困難、疲勞或出錯，仍繼續進行」。",
       "sentenceIndex": 6,
@@ -1319,12 +1293,10 @@ export default {
         "keep going"
       ],
       "optionReasons": {
-        "keep-mcq-03": "本句指「即使遇到困難、疲勞或出錯，仍繼續進行」。",
-        "keep-mcq-02": "「持續不斷或反覆做某事，常帶較強的「不停」語氣」是「keep on + -ing」的用法，與本句語境不同。",
-        "keep-mcq-04": "「繼續擁有某物，不把它交走、丟掉、歸還或放棄」是「keep something — retain」的用法，與本句語境不同。",
-        "keep-mcq-01": "「某個動作持續、反覆或不停止地進行；一直／繼續做」是「keep + -ing」的用法，與本句語境不同。",
-        "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。"
+        "keep-mcq-03": "本句的「keep going」指「即使遇到困難、疲勞或出錯，仍繼續進行」。",
+        "keep-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-03"
     },
@@ -1336,11 +1308,9 @@ export default {
       "masked": "You can ____ the notes.",
       "options": [
         "keep-mcq-04",
-        "keep-mcq-03",
-        "keep-mcq-05",
-        "keep-mcq-02",
-        "keep-mcq-06",
-        "keep-mcq-01"
+        "keep-mcq-19",
+        "keep-mcq-31",
+        "keep-mcq-15"
       ],
       "explanation": "本句的「keep」指「繼續擁有某物，不把它交走、丟掉、歸還或放棄」。",
       "sentenceIndex": 7,
@@ -1349,12 +1319,10 @@ export default {
         "keep"
       ],
       "optionReasons": {
-        "keep-mcq-04": "本句指「繼續擁有某物，不把它交走、丟掉、歸還或放棄」。",
-        "keep-mcq-03": "「即使遇到困難、疲勞或出錯，仍繼續進行」是「keep going」的用法，與本句語境不同。",
-        "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。",
-        "keep-mcq-02": "「持續不斷或反覆做某事，常帶較強的「不停」語氣」是「keep on + -ing」的用法，與本句語境不同。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。",
-        "keep-mcq-01": "「某個動作持續、反覆或不停止地進行；一直／繼續做」是「keep + -ing」的用法，與本句語境不同。"
+        "keep-mcq-04": "本句的「keep」指「繼續擁有某物，不把它交走、丟掉、歸還或放棄」。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-04"
     },
@@ -1366,11 +1334,9 @@ export default {
       "masked": "She decided to ____ the old laptop.",
       "options": [
         "keep-mcq-04",
-        "keep-mcq-03",
-        "keep-mcq-05",
-        "keep-mcq-02",
-        "keep-mcq-06",
-        "keep-mcq-01"
+        "keep-mcq-46",
+        "keep-mcq-18",
+        "keep-mcq-26"
       ],
       "explanation": "本句的「keep」指「繼續擁有某物，不把它交走、丟掉、歸還或放棄」。",
       "sentenceIndex": 8,
@@ -1379,12 +1345,10 @@ export default {
         "keep"
       ],
       "optionReasons": {
-        "keep-mcq-04": "本句指「繼續擁有某物，不把它交走、丟掉、歸還或放棄」。",
-        "keep-mcq-03": "「即使遇到困難、疲勞或出錯，仍繼續進行」是「keep going」的用法，與本句語境不同。",
-        "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。",
-        "keep-mcq-02": "「持續不斷或反覆做某事，常帶較強的「不停」語氣」是「keep on + -ing」的用法，與本句語境不同。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。",
-        "keep-mcq-01": "「某個動作持續、反覆或不停止地進行；一直／繼續做」是「keep + -ing」的用法，與本句語境不同。"
+        "keep-mcq-04": "本句的「keep」指「繼續擁有某物，不把它交走、丟掉、歸還或放棄」。",
+        "keep-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-04"
     },
@@ -1396,11 +1360,9 @@ export default {
       "masked": "You can ____.",
       "options": [
         "keep-pdf-001",
-        "keep-mcq-03",
-        "keep-mcq-05",
-        "keep-mcq-02",
-        "keep-mcq-06",
-        "keep-mcq-01"
+        "keep-mcq-36",
+        "keep-mcq-35",
+        "keep-mcq-06"
       ],
       "explanation": "本句的「keep the copy」指「不需要把某物交還給原來的人／地方」。",
       "sentenceIndex": 9,
@@ -1409,12 +1371,10 @@ export default {
         "keep the copy"
       ],
       "optionReasons": {
-        "keep-pdf-001": "本句指「不需要把某物交還給原來的人／地方」。",
-        "keep-mcq-03": "「即使遇到困難、疲勞或出錯，仍繼續進行」是「keep going」的用法，與本句語境不同。",
-        "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。",
-        "keep-mcq-02": "「持續不斷或反覆做某事，常帶較強的「不停」語氣」是「keep on + -ing」的用法，與本句語境不同。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。",
-        "keep-mcq-01": "「某個動作持續、反覆或不停止地進行；一直／繼續做」是「keep + -ing」的用法，與本句語境不同。"
+        "keep-pdf-001": "本句的「keep the copy」指「不需要把某物交還給原來的人／地方」。",
+        "keep-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-pdf-001"
     },
@@ -1426,11 +1386,9 @@ export default {
       "masked": "The restaurant said we could ____.",
       "options": [
         "keep-pdf-001",
-        "keep-mcq-03",
-        "keep-mcq-05",
-        "keep-mcq-02",
-        "keep-mcq-06",
-        "keep-mcq-01"
+        "keep-mcq-27",
+        "keep-mcq-16",
+        "keep-mcq-17"
       ],
       "explanation": "本句的「keep the menu」指「不需要把某物交還給原來的人／地方」。",
       "sentenceIndex": 10,
@@ -1439,12 +1397,10 @@ export default {
         "keep the menu"
       ],
       "optionReasons": {
-        "keep-pdf-001": "本句指「不需要把某物交還給原來的人／地方」。",
-        "keep-mcq-03": "「即使遇到困難、疲勞或出錯，仍繼續進行」是「keep going」的用法，與本句語境不同。",
-        "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。",
-        "keep-mcq-02": "「持續不斷或反覆做某事，常帶較強的「不停」語氣」是「keep on + -ing」的用法，與本句語境不同。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。",
-        "keep-mcq-01": "「某個動作持續、反覆或不停止地進行；一直／繼續做」是「keep + -ing」的用法，與本句語境不同。"
+        "keep-pdf-001": "本句的「keep the menu」指「不需要把某物交還給原來的人／地方」。",
+        "keep-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-pdf-001"
     },
@@ -1456,11 +1412,9 @@ export default {
       "masked": "I ____ on the cloud.",
       "options": [
         "keep-mcq-05",
-        "keep-mcq-04",
-        "keep-mcq-06",
-        "keep-mcq-03",
-        "keep-mcq-07",
-        "keep-mcq-02"
+        "keep-mcq-11",
+        "keep-mcq-35",
+        "keep-mcq-19"
       ],
       "explanation": "本句的「keep my presentation files」指「把某物放在指定地方保存，以便日後使用」。",
       "sentenceIndex": 11,
@@ -1469,12 +1423,10 @@ export default {
         "keep my presentation files"
       ],
       "optionReasons": {
-        "keep-mcq-05": "本句指「把某物放在指定地方保存，以便日後使用」。",
-        "keep-mcq-04": "「繼續擁有某物，不把它交走、丟掉、歸還或放棄」是「keep something — retain」的用法，與本句語境不同。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。",
-        "keep-mcq-03": "「即使遇到困難、疲勞或出錯，仍繼續進行」是「keep going」的用法，與本句語境不同。",
-        "keep-mcq-07": "「建立並持續保存資料／紀錄」是「keep a record」的用法，與本句語境不同。",
-        "keep-mcq-02": "「持續不斷或反覆做某事，常帶較強的「不停」語氣」是「keep on + -ing」的用法，與本句語境不同。"
+        "keep-mcq-05": "本句的「keep my presentation files」指「把某物放在指定地方保存，以便日後使用」。",
+        "keep-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-05"
     },
@@ -1486,11 +1438,9 @@ export default {
       "masked": "Where do you ____ the spare batteries?",
       "options": [
         "keep-mcq-05",
-        "keep-mcq-04",
-        "keep-mcq-06",
-        "keep-mcq-03",
-        "keep-mcq-07",
-        "keep-mcq-02"
+        "keep-mcq-13",
+        "keep-mcq-37",
+        "keep-mcq-31"
       ],
       "explanation": "本句的「keep」指「把某物放在指定地方保存，以便日後使用」。",
       "sentenceIndex": 12,
@@ -1499,12 +1449,10 @@ export default {
         "keep"
       ],
       "optionReasons": {
-        "keep-mcq-05": "本句指「把某物放在指定地方保存，以便日後使用」。",
-        "keep-mcq-04": "「繼續擁有某物，不把它交走、丟掉、歸還或放棄」是「keep something — retain」的用法，與本句語境不同。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。",
-        "keep-mcq-03": "「即使遇到困難、疲勞或出錯，仍繼續進行」是「keep going」的用法，與本句語境不同。",
-        "keep-mcq-07": "「建立並持續保存資料／紀錄」是「keep a record」的用法，與本句語境不同。",
-        "keep-mcq-02": "「持續不斷或反覆做某事，常帶較強的「不停」語氣」是「keep on + -ing」的用法，與本句語境不同。"
+        "keep-mcq-05": "本句的「keep」指「把某物放在指定地方保存，以便日後使用」。",
+        "keep-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-05"
     },
@@ -1516,11 +1464,9 @@ export default {
       "masked": "____ the food in the refrigerator.",
       "options": [
         "keep-mcq-06",
-        "keep-mcq-05",
-        "keep-mcq-07",
-        "keep-mcq-04",
-        "keep-mcq-08",
-        "keep-mcq-03"
+        "keep-mcq-12",
+        "keep-mcq-14",
+        "keep-mcq-35"
       ],
       "explanation": "本句的「Keep」指「以適當方式保存食物，使其不容易變壞」。",
       "sentenceIndex": 13,
@@ -1529,12 +1475,10 @@ export default {
         "Keep"
       ],
       "optionReasons": {
-        "keep-mcq-06": "本句指「以適當方式保存食物，使其不容易變壞」。",
-        "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。",
-        "keep-mcq-07": "「建立並持續保存資料／紀錄」是「keep a record」的用法，與本句語境不同。",
-        "keep-mcq-04": "「繼續擁有某物，不把它交走、丟掉、歸還或放棄」是「keep something — retain」的用法，與本句語境不同。",
-        "keep-mcq-08": "「讓自己持續處於某種狀態」是「keep + adjective」的用法，與本句語境不同。",
-        "keep-mcq-03": "「即使遇到困難、疲勞或出錯，仍繼續進行」是「keep going」的用法，與本句語境不同。"
+        "keep-mcq-06": "本句的「Keep」指「以適當方式保存食物，使其不容易變壞」。",
+        "keep-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-06"
     },
@@ -1546,11 +1490,9 @@ export default {
       "masked": "This sauce will ____ for several days.",
       "options": [
         "keep-mcq-06",
-        "keep-mcq-05",
-        "keep-mcq-07",
-        "keep-mcq-04",
-        "keep-mcq-08",
-        "keep-mcq-03"
+        "keep-mcq-03",
+        "keep-mcq-32",
+        "keep-mcq-15"
       ],
       "explanation": "本句的「keep」指「以適當方式保存食物，使其不容易變壞」。",
       "sentenceIndex": 14,
@@ -1559,12 +1501,10 @@ export default {
         "keep"
       ],
       "optionReasons": {
-        "keep-mcq-06": "本句指「以適當方式保存食物，使其不容易變壞」。",
-        "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。",
-        "keep-mcq-07": "「建立並持續保存資料／紀錄」是「keep a record」的用法，與本句語境不同。",
-        "keep-mcq-04": "「繼續擁有某物，不把它交走、丟掉、歸還或放棄」是「keep something — retain」的用法，與本句語境不同。",
-        "keep-mcq-08": "「讓自己持續處於某種狀態」是「keep + adjective」的用法，與本句語境不同。",
-        "keep-mcq-03": "「即使遇到困難、疲勞或出錯，仍繼續進行」是「keep going」的用法，與本句語境不同。"
+        "keep-mcq-06": "本句的「keep」指「以適當方式保存食物，使其不容易變壞」。",
+        "keep-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-06"
     },
@@ -1576,11 +1516,9 @@ export default {
       "masked": "I ____ of all my presentations.",
       "options": [
         "keep-mcq-07",
-        "keep-mcq-06",
-        "keep-mcq-08",
-        "keep-mcq-05",
-        "keep-mcq-09",
-        "keep-mcq-04"
+        "keep-mcq-35",
+        "keep-mcq-16",
+        "keep-pdf-001"
       ],
       "explanation": "本句的「keep a record」指「建立並持續保存資料／紀錄」。",
       "sentenceIndex": 15,
@@ -1589,12 +1527,10 @@ export default {
         "keep a record"
       ],
       "optionReasons": {
-        "keep-mcq-07": "本句指「建立並持續保存資料／紀錄」。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。",
-        "keep-mcq-08": "「讓自己持續處於某種狀態」是「keep + adjective」的用法，與本句語境不同。",
-        "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。",
-        "keep-mcq-09": "「使某人／某物持續維持指定狀態」是「keep something + adjective」的用法，與本句語境不同。",
-        "keep-mcq-04": "「繼續擁有某物，不把它交走、丟掉、歸還或放棄」是「keep something — retain」的用法，與本句語境不同。"
+        "keep-mcq-07": "本句的「keep a record」指「建立並持續保存資料／紀錄」。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "keep-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-07"
     },
@@ -1606,11 +1542,9 @@ export default {
       "masked": "The company ____ of expenses.",
       "options": [
         "keep-mcq-07",
-        "keep-mcq-06",
-        "keep-mcq-08",
-        "keep-mcq-05",
-        "keep-mcq-09",
-        "keep-mcq-04"
+        "keep-mcq-41",
+        "keep-mcq-32",
+        "keep-mcq-31"
       ],
       "explanation": "本句的「keeps detailed records」指「建立並持續保存資料／紀錄」。",
       "sentenceIndex": 16,
@@ -1619,12 +1553,10 @@ export default {
         "keeps detailed records"
       ],
       "optionReasons": {
-        "keep-mcq-07": "本句指「建立並持續保存資料／紀錄」。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。",
-        "keep-mcq-08": "「讓自己持續處於某種狀態」是「keep + adjective」的用法，與本句語境不同。",
-        "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。",
-        "keep-mcq-09": "「使某人／某物持續維持指定狀態」是「keep something + adjective」的用法，與本句語境不同。",
-        "keep-mcq-04": "「繼續擁有某物，不把它交走、丟掉、歸還或放棄」是「keep something — retain」的用法，與本句語境不同。"
+        "keep-mcq-07": "本句的「keeps detailed records」指「建立並持續保存資料／紀錄」。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-07"
     },
@@ -1636,11 +1568,9 @@ export default {
       "masked": "Try to ____.",
       "options": [
         "keep-mcq-08",
-        "keep-mcq-07",
-        "keep-mcq-09",
         "keep-mcq-06",
-        "keep-mcq-10",
-        "keep-mcq-05"
+        "keep-mcq-41",
+        "keep-mcq-20"
       ],
       "explanation": "本句的「keep calm」指「讓自己持續處於某種狀態」。",
       "sentenceIndex": 17,
@@ -1649,12 +1579,10 @@ export default {
         "keep calm"
       ],
       "optionReasons": {
-        "keep-mcq-08": "本句指「讓自己持續處於某種狀態」。",
-        "keep-mcq-07": "「建立並持續保存資料／紀錄」是「keep a record」的用法，與本句語境不同。",
-        "keep-mcq-09": "「使某人／某物持續維持指定狀態」是「keep something + adjective」的用法，與本句語境不同。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。",
-        "keep-mcq-10": "「令某人持續處於忙碌／有興趣等狀態」是「keep someone busy/interested」的用法，與本句語境不同。",
-        "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。"
+        "keep-mcq-08": "本句的「keep calm」指「讓自己持續處於某種狀態」。",
+        "keep-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-08"
     },
@@ -1666,11 +1594,9 @@ export default {
       "masked": "Please ____ during the presentation.",
       "options": [
         "keep-mcq-08",
-        "keep-mcq-07",
-        "keep-mcq-09",
-        "keep-mcq-06",
-        "keep-mcq-10",
-        "keep-mcq-05"
+        "keep-mcq-20",
+        "keep-mcq-35",
+        "keep-mcq-26"
       ],
       "explanation": "本句的「keep quiet」指「讓自己持續處於某種狀態」。",
       "sentenceIndex": 18,
@@ -1679,12 +1605,10 @@ export default {
         "keep quiet"
       ],
       "optionReasons": {
-        "keep-mcq-08": "本句指「讓自己持續處於某種狀態」。",
-        "keep-mcq-07": "「建立並持續保存資料／紀錄」是「keep a record」的用法，與本句語境不同。",
-        "keep-mcq-09": "「使某人／某物持續維持指定狀態」是「keep something + adjective」的用法，與本句語境不同。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。",
-        "keep-mcq-10": "「令某人持續處於忙碌／有興趣等狀態」是「keep someone busy/interested」的用法，與本句語境不同。",
-        "keep-mcq-05": "「把某物放在指定地方保存，以便日後使用」是「keep something somewhere」的用法，與本句語境不同。"
+        "keep-mcq-08": "本句的「keep quiet」指「讓自己持續處於某種狀態」。",
+        "keep-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-08"
     },
@@ -1696,11 +1620,9 @@ export default {
       "masked": "Keep your explanation ____.",
       "options": [
         "keep-mcq-09",
-        "keep-mcq-08",
-        "keep-mcq-10",
-        "keep-mcq-07",
-        "keep-mcq-11",
-        "keep-mcq-06"
+        "keep-mcq-26",
+        "keep-mcq-14",
+        "keep-mcq-35"
       ],
       "explanation": "本句的「simple」指「使某人／某物持續維持指定狀態」。",
       "sentenceIndex": 19,
@@ -1709,12 +1631,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "keep-mcq-09": "本句指「使某人／某物持續維持指定狀態」。",
-        "keep-mcq-08": "「讓自己持續處於某種狀態」是「keep + adjective」的用法，與本句語境不同。",
-        "keep-mcq-10": "「令某人持續處於忙碌／有興趣等狀態」是「keep someone busy/interested」的用法，與本句語境不同。",
-        "keep-mcq-07": "「建立並持續保存資料／紀錄」是「keep a record」的用法，與本句語境不同。",
-        "keep-mcq-11": "「令系統、機器或活動持續運作而不中斷」是「keep something running/working」的用法，與本句語境不同。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。"
+        "keep-mcq-09": "本句的「simple」指「使某人／某物持續維持指定狀態」。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-09"
     },
@@ -1726,10 +1646,8 @@ export default {
       "masked": "The speaker kept the slides ____.",
       "options": [
         "keep-mcq-09",
-        "keep-mcq-08",
-        "keep-mcq-10",
-        "keep-mcq-07",
-        "keep-mcq-11",
+        "keep-mcq-18",
+        "keep-pdf-001",
         "keep-mcq-06"
       ],
       "explanation": "本句的「clear and uncluttered」指「使某人／某物持續維持指定狀態」。",
@@ -1739,12 +1657,10 @@ export default {
         "clear and uncluttered"
       ],
       "optionReasons": {
-        "keep-mcq-09": "本句指「使某人／某物持續維持指定狀態」。",
-        "keep-mcq-08": "「讓自己持續處於某種狀態」是「keep + adjective」的用法，與本句語境不同。",
-        "keep-mcq-10": "「令某人持續處於忙碌／有興趣等狀態」是「keep someone busy/interested」的用法，與本句語境不同。",
-        "keep-mcq-07": "「建立並持續保存資料／紀錄」是「keep a record」的用法，與本句語境不同。",
-        "keep-mcq-11": "「令系統、機器或活動持續運作而不中斷」是「keep something running/working」的用法，與本句語境不同。",
-        "keep-mcq-06": "「以適當方式保存食物，使其不容易變壞」是「keep food」的用法，與本句語境不同。"
+        "keep-mcq-09": "本句的「clear and uncluttered」指「使某人／某物持續維持指定狀態」。",
+        "keep-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "keep-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-09"
     },
@@ -1756,11 +1672,9 @@ export default {
       "masked": "The examples helped ____.",
       "options": [
         "keep-mcq-10",
-        "keep-mcq-09",
-        "keep-mcq-11",
-        "keep-mcq-08",
-        "keep-mcq-12",
-        "keep-mcq-07"
+        "keep-mcq-18",
+        "keep-mcq-26",
+        "keep-mcq-31"
       ],
       "explanation": "本句的「keep the audience interested」指「令某人持續處於忙碌／有興趣等狀態」。",
       "sentenceIndex": 21,
@@ -1769,12 +1683,10 @@ export default {
         "keep the audience interested"
       ],
       "optionReasons": {
-        "keep-mcq-10": "本句指「令某人持續處於忙碌／有興趣等狀態」。",
-        "keep-mcq-09": "「使某人／某物持續維持指定狀態」是「keep something + adjective」的用法，與本句語境不同。",
-        "keep-mcq-11": "「令系統、機器或活動持續運作而不中斷」是「keep something running/working」的用法，與本句語境不同。",
-        "keep-mcq-08": "「讓自己持續處於某種狀態」是「keep + adjective」的用法，與本句語境不同。",
-        "keep-mcq-12": "「令某人持續處於等待狀態」是「keep someone waiting」的用法，與本句語境不同。",
-        "keep-mcq-07": "「建立並持續保存資料／紀錄」是「keep a record」的用法，與本句語境不同。"
+        "keep-mcq-10": "本句的「keep the audience interested」指「令某人持續處於忙碌／有興趣等狀態」。",
+        "keep-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-10"
     },
@@ -1786,11 +1698,9 @@ export default {
       "masked": "The project ____ for months.",
       "options": [
         "keep-mcq-10",
-        "keep-mcq-09",
-        "keep-mcq-11",
-        "keep-mcq-08",
-        "keep-mcq-12",
-        "keep-mcq-07"
+        "keep-mcq-26",
+        "keep-mcq-18",
+        "keep-mcq-14"
       ],
       "explanation": "本句的「kept us busy」指「令某人持續處於忙碌／有興趣等狀態」。",
       "sentenceIndex": 22,
@@ -1799,12 +1709,10 @@ export default {
         "kept us busy"
       ],
       "optionReasons": {
-        "keep-mcq-10": "本句指「令某人持續處於忙碌／有興趣等狀態」。",
-        "keep-mcq-09": "「使某人／某物持續維持指定狀態」是「keep something + adjective」的用法，與本句語境不同。",
-        "keep-mcq-11": "「令系統、機器或活動持續運作而不中斷」是「keep something running/working」的用法，與本句語境不同。",
-        "keep-mcq-08": "「讓自己持續處於某種狀態」是「keep + adjective」的用法，與本句語境不同。",
-        "keep-mcq-12": "「令某人持續處於等待狀態」是「keep someone waiting」的用法，與本句語境不同。",
-        "keep-mcq-07": "「建立並持續保存資料／紀錄」是「keep a record」的用法，與本句語境不同。"
+        "keep-mcq-10": "本句的「kept us busy」指「令某人持續處於忙碌／有興趣等狀態」。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-10"
     },
@@ -1816,11 +1724,9 @@ export default {
       "masked": "We need backup power to ____.",
       "options": [
         "keep-mcq-11",
-        "keep-mcq-10",
-        "keep-mcq-12",
-        "keep-mcq-09",
-        "keep-mcq-13",
-        "keep-mcq-08"
+        "keep-pdf-002",
+        "keep-mcq-19",
+        "keep-mcq-05"
       ],
       "explanation": "本句的「keep the equipment running」指「令系統、機器或活動持續運作而不中斷」。",
       "sentenceIndex": 23,
@@ -1829,12 +1735,10 @@ export default {
         "keep the equipment running"
       ],
       "optionReasons": {
-        "keep-mcq-11": "本句指「令系統、機器或活動持續運作而不中斷」。",
-        "keep-mcq-10": "「令某人持續處於忙碌／有興趣等狀態」是「keep someone busy/interested」的用法，與本句語境不同。",
-        "keep-mcq-12": "「令某人持續處於等待狀態」是「keep someone waiting」的用法，與本句語境不同。",
-        "keep-mcq-09": "「使某人／某物持續維持指定狀態」是「keep something + adjective」的用法，與本句語境不同。",
-        "keep-mcq-13": "「阻止或妨礙某人進行某個動作」是「keep someone from doing」的用法，與本句語境不同。",
-        "keep-mcq-08": "「讓自己持續處於某種狀態」是「keep + adjective」的用法，與本句語境不同。"
+        "keep-mcq-11": "本句的「keep the equipment running」指「令系統、機器或活動持續運作而不中斷」。",
+        "keep-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-11"
     },
@@ -1846,11 +1750,9 @@ export default {
       "masked": "Regular maintenance ____.",
       "options": [
         "keep-mcq-11",
-        "keep-mcq-10",
-        "keep-mcq-12",
-        "keep-mcq-09",
-        "keep-mcq-13",
-        "keep-mcq-08"
+        "keep-mcq-31",
+        "keep-mcq-06",
+        "keep-mcq-16"
       ],
       "explanation": "本句的「keeps the system working」指「令系統、機器或活動持續運作而不中斷」。",
       "sentenceIndex": 24,
@@ -1859,12 +1761,10 @@ export default {
         "keeps the system working"
       ],
       "optionReasons": {
-        "keep-mcq-11": "本句指「令系統、機器或活動持續運作而不中斷」。",
-        "keep-mcq-10": "「令某人持續處於忙碌／有興趣等狀態」是「keep someone busy/interested」的用法，與本句語境不同。",
-        "keep-mcq-12": "「令某人持續處於等待狀態」是「keep someone waiting」的用法，與本句語境不同。",
-        "keep-mcq-09": "「使某人／某物持續維持指定狀態」是「keep something + adjective」的用法，與本句語境不同。",
-        "keep-mcq-13": "「阻止或妨礙某人進行某個動作」是「keep someone from doing」的用法，與本句語境不同。",
-        "keep-mcq-08": "「讓自己持續處於某種狀態」是「keep + adjective」的用法，與本句語境不同。"
+        "keep-mcq-11": "本句的「keeps the system working」指「令系統、機器或活動持續運作而不中斷」。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-11"
     },
@@ -1876,11 +1776,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "keep-mcq-42",
-        "keep-mcq-41",
-        "keep-mcq-43",
-        "keep-mcq-40",
-        "keep-mcq-44",
-        "keep-mcq-39"
+        "keep-mcq-26",
+        "keep-mcq-20",
+        "keep-mcq-41"
       ],
       "explanation": "本句的「keep costs low」指「防止某事偏離／離開目前理想狀態」。",
       "sentenceIndex": 25,
@@ -1889,12 +1787,10 @@ export default {
         "keep costs low"
       ],
       "optionReasons": {
-        "keep-mcq-42": "本句指「防止某事偏離／離開目前理想狀態」。",
-        "keep-mcq-41": "「永久地；或表示事情是認真的、有實際後果的」是「for keeps」的用法，與本句語境不同。",
-        "keep-mcq-43": "「使某物保持在遠處／不能接近」是「18. keep something away（使遠離） — 擋住；使不接近」的用法，與本句語境不同。",
-        "keep-mcq-40": "「質素很好、值得長期保留／珍惜的人或物」是「a keeper — informal」的用法，與本句語境不同。",
-        "keep-mcq-44": "「管理家庭日常事務、清潔、做飯等」是「29. keep house（料理家務／維持家庭） — 料理家務」的用法，與本句語境不同。",
-        "keep-mcq-39": "「負責照顧、管理、看守某人／某物的人」是「keeper — person」的用法，與本句語境不同。"
+        "keep-mcq-42": "本句的「keep costs low」指「防止某事偏離／離開目前理想狀態」。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-42"
     },
@@ -1906,11 +1802,9 @@ export default {
       "masked": "The company wants to ____.",
       "options": [
         "keep-mcq-42",
-        "keep-mcq-41",
-        "keep-mcq-43",
-        "keep-mcq-40",
-        "keep-mcq-44",
-        "keep-mcq-39"
+        "keep-mcq-05",
+        "keep-mcq-26",
+        "keep-mcq-20"
       ],
       "explanation": "本句的「keep prices stable」指「防止某事偏離／離開目前理想狀態」。",
       "sentenceIndex": 26,
@@ -1919,12 +1813,10 @@ export default {
         "keep prices stable"
       ],
       "optionReasons": {
-        "keep-mcq-42": "本句指「防止某事偏離／離開目前理想狀態」。",
-        "keep-mcq-41": "「永久地；或表示事情是認真的、有實際後果的」是「for keeps」的用法，與本句語境不同。",
-        "keep-mcq-43": "「使某物保持在遠處／不能接近」是「18. keep something away（使遠離） — 擋住；使不接近」的用法，與本句語境不同。",
-        "keep-mcq-40": "「質素很好、值得長期保留／珍惜的人或物」是「a keeper — informal」的用法，與本句語境不同。",
-        "keep-mcq-44": "「管理家庭日常事務、清潔、做飯等」是「29. keep house（料理家務／維持家庭） — 料理家務」的用法，與本句語境不同。",
-        "keep-mcq-39": "「負責照顧、管理、看守某人／某物的人」是「keeper — person」的用法，與本句語境不同。"
+        "keep-mcq-42": "本句的「keep prices stable」指「防止某事偏離／離開目前理想狀態」。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-42"
     },
@@ -1936,11 +1828,9 @@ export default {
       "masked": "Sorry to ____.",
       "options": [
         "keep-mcq-12",
-        "keep-mcq-11",
-        "keep-mcq-13",
-        "keep-mcq-10",
-        "keep-mcq-14",
-        "keep-mcq-09"
+        "keep-mcq-32",
+        "keep-mcq-31",
+        "keep-mcq-41"
       ],
       "explanation": "本句的「keep you waiting」指「令某人持續處於等待狀態」。",
       "sentenceIndex": 27,
@@ -1949,12 +1839,10 @@ export default {
         "keep you waiting"
       ],
       "optionReasons": {
-        "keep-mcq-12": "本句指「令某人持續處於等待狀態」。",
-        "keep-mcq-11": "「令系統、機器或活動持續運作而不中斷」是「keep something running/working」的用法，與本句語境不同。",
-        "keep-mcq-13": "「阻止或妨礙某人進行某個動作」是「keep someone from doing」的用法，與本句語境不同。",
-        "keep-mcq-10": "「令某人持續處於忙碌／有興趣等狀態」是「keep someone busy/interested」的用法，與本句語境不同。",
-        "keep-mcq-14": "「防止某件事情發生」是「keep something from happening」的用法，與本句語境不同。",
-        "keep-mcq-09": "「使某人／某物持續維持指定狀態」是「keep something + adjective」的用法，與本句語境不同。"
+        "keep-mcq-12": "本句的「keep you waiting」指「令某人持續處於等待狀態」。",
+        "keep-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-12"
     },
@@ -1966,11 +1854,9 @@ export default {
       "masked": "The manager ____ for twenty minutes.",
       "options": [
         "keep-mcq-12",
-        "keep-mcq-11",
-        "keep-mcq-13",
-        "keep-mcq-10",
         "keep-mcq-14",
-        "keep-mcq-09"
+        "keep-mcq-19",
+        "keep-mcq-31"
       ],
       "explanation": "本句的「kept us waiting」指「令某人持續處於等待狀態」。",
       "sentenceIndex": 28,
@@ -1979,12 +1865,10 @@ export default {
         "kept us waiting"
       ],
       "optionReasons": {
-        "keep-mcq-12": "本句指「令某人持續處於等待狀態」。",
-        "keep-mcq-11": "「令系統、機器或活動持續運作而不中斷」是「keep something running/working」的用法，與本句語境不同。",
-        "keep-mcq-13": "「阻止或妨礙某人進行某個動作」是「keep someone from doing」的用法，與本句語境不同。",
-        "keep-mcq-10": "「令某人持續處於忙碌／有興趣等狀態」是「keep someone busy/interested」的用法，與本句語境不同。",
-        "keep-mcq-14": "「防止某件事情發生」是「keep something from happening」的用法，與本句語境不同。",
-        "keep-mcq-09": "「使某人／某物持續維持指定狀態」是「keep something + adjective」的用法，與本句語境不同。"
+        "keep-mcq-12": "本句的「kept us waiting」指「令某人持續處於等待狀態」。",
+        "keep-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-12"
     },
@@ -1996,11 +1880,9 @@ export default {
       "masked": "Fear should not ____.",
       "options": [
         "keep-mcq-13",
-        "keep-mcq-12",
-        "keep-mcq-14",
-        "keep-mcq-11",
-        "keep-mcq-15",
-        "keep-mcq-10"
+        "keep-mcq-43",
+        "keep-mcq-41",
+        "keep-mcq-05"
       ],
       "explanation": "本句的「keep you from speaking」指「阻止或妨礙某人進行某個動作」。",
       "sentenceIndex": 29,
@@ -2009,12 +1891,10 @@ export default {
         "keep you from speaking"
       ],
       "optionReasons": {
-        "keep-mcq-13": "本句指「阻止或妨礙某人進行某個動作」。",
-        "keep-mcq-12": "「令某人持續處於等待狀態」是「keep someone waiting」的用法，與本句語境不同。",
-        "keep-mcq-14": "「防止某件事情發生」是「keep something from happening」的用法，與本句語境不同。",
-        "keep-mcq-11": "「令系統、機器或活動持續運作而不中斷」是「keep something running/working」的用法，與本句語境不同。",
-        "keep-mcq-15": "「不靠近／避免接觸某人、某物或某情況」是「keep away from」的用法，與本句語境不同。",
-        "keep-mcq-10": "「令某人持續處於忙碌／有興趣等狀態」是「keep someone busy/interested」的用法，與本句語境不同。"
+        "keep-mcq-13": "本句的「keep you from speaking」指「阻止或妨礙某人進行某個動作」。",
+        "keep-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-13"
     },
@@ -2026,11 +1906,9 @@ export default {
       "masked": "The technical problem ____ on time.",
       "options": [
         "keep-mcq-13",
-        "keep-mcq-12",
-        "keep-mcq-14",
-        "keep-mcq-11",
-        "keep-mcq-15",
-        "keep-mcq-10"
+        "keep-mcq-28",
+        "keep-mcq-41",
+        "keep-mcq-35"
       ],
       "explanation": "本句的「kept us from starting」指「阻止或妨礙某人進行某個動作」。",
       "sentenceIndex": 30,
@@ -2039,12 +1917,10 @@ export default {
         "kept us from starting"
       ],
       "optionReasons": {
-        "keep-mcq-13": "本句指「阻止或妨礙某人進行某個動作」。",
-        "keep-mcq-12": "「令某人持續處於等待狀態」是「keep someone waiting」的用法，與本句語境不同。",
-        "keep-mcq-14": "「防止某件事情發生」是「keep something from happening」的用法，與本句語境不同。",
-        "keep-mcq-11": "「令系統、機器或活動持續運作而不中斷」是「keep something running/working」的用法，與本句語境不同。",
-        "keep-mcq-15": "「不靠近／避免接觸某人、某物或某情況」是「keep away from」的用法，與本句語境不同。",
-        "keep-mcq-10": "「令某人持續處於忙碌／有興趣等狀態」是「keep someone busy/interested」的用法，與本句語境不同。"
+        "keep-mcq-13": "本句的「kept us from starting」指「阻止或妨礙某人進行某個動作」。",
+        "keep-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-13"
     },
@@ -2056,11 +1932,9 @@ export default {
       "masked": "Preparation can ____.",
       "options": [
         "keep-mcq-14",
-        "keep-mcq-13",
-        "keep-mcq-15",
         "keep-mcq-12",
-        "keep-mcq-16",
-        "keep-mcq-11"
+        "keep-mcq-26",
+        "keep-mcq-16"
       ],
       "explanation": "本句的「keep small mistakes from becoming bigger problems」指「防止某件事情發生」。",
       "sentenceIndex": 31,
@@ -2069,12 +1943,10 @@ export default {
         "keep small mistakes from becoming bigger problems"
       ],
       "optionReasons": {
-        "keep-mcq-14": "本句指「防止某件事情發生」。",
-        "keep-mcq-13": "「阻止或妨礙某人進行某個動作」是「keep someone from doing」的用法，與本句語境不同。",
-        "keep-mcq-15": "「不靠近／避免接觸某人、某物或某情況」是「keep away from」的用法，與本句語境不同。",
-        "keep-mcq-12": "「令某人持續處於等待狀態」是「keep someone waiting」的用法，與本句語境不同。",
-        "keep-mcq-16": "「按照既定規則、時間或計劃行事，不偏離」是「keep to a rule/schedule」的用法，與本句語境不同。",
-        "keep-mcq-11": "「令系統、機器或活動持續運作而不中斷」是「keep something running/working」的用法，與本句語境不同。"
+        "keep-mcq-14": "本句的「keep small mistakes from becoming bigger problems」指「防止某件事情發生」。",
+        "keep-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-14"
     },
@@ -2086,11 +1958,9 @@ export default {
       "masked": "The cover ____ the device.",
       "options": [
         "keep-mcq-14",
-        "keep-mcq-13",
-        "keep-mcq-15",
-        "keep-mcq-12",
-        "keep-mcq-16",
-        "keep-mcq-11"
+        "keep-mcq-20",
+        "keep-mcq-30",
+        "keep-mcq-31"
       ],
       "explanation": "本句的「keeps dust from entering」指「防止某件事情發生」。",
       "sentenceIndex": 32,
@@ -2099,12 +1969,10 @@ export default {
         "keeps dust from entering"
       ],
       "optionReasons": {
-        "keep-mcq-14": "本句指「防止某件事情發生」。",
-        "keep-mcq-13": "「阻止或妨礙某人進行某個動作」是「keep someone from doing」的用法，與本句語境不同。",
-        "keep-mcq-15": "「不靠近／避免接觸某人、某物或某情況」是「keep away from」的用法，與本句語境不同。",
-        "keep-mcq-12": "「令某人持續處於等待狀態」是「keep someone waiting」的用法，與本句語境不同。",
-        "keep-mcq-16": "「按照既定規則、時間或計劃行事，不偏離」是「keep to a rule/schedule」的用法，與本句語境不同。",
-        "keep-mcq-11": "「令系統、機器或活動持續運作而不中斷」是「keep something running/working」的用法，與本句語境不同。"
+        "keep-mcq-14": "本句的「keeps dust from entering」指「防止某件事情發生」。",
+        "keep-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-14"
     },
@@ -2116,11 +1984,9 @@ export default {
       "masked": "____ the edge.",
       "options": [
         "keep-mcq-15",
-        "keep-mcq-14",
-        "keep-mcq-16",
-        "keep-mcq-13",
-        "keep-mcq-17",
-        "keep-mcq-12"
+        "keep-mcq-34",
+        "keep-mcq-06",
+        "keep-mcq-41"
       ],
       "explanation": "本句的「Keep away from」指「不靠近／避免接觸某人、某物或某情況」。",
       "sentenceIndex": 33,
@@ -2129,12 +1995,10 @@ export default {
         "Keep away from"
       ],
       "optionReasons": {
-        "keep-mcq-15": "本句指「不靠近／避免接觸某人、某物或某情況」。",
-        "keep-mcq-14": "「防止某件事情發生」是「keep something from happening」的用法，與本句語境不同。",
-        "keep-mcq-16": "「按照既定規則、時間或計劃行事，不偏離」是「keep to a rule/schedule」的用法，與本句語境不同。",
-        "keep-mcq-13": "「阻止或妨礙某人進行某個動作」是「keep someone from doing」的用法，與本句語境不同。",
-        "keep-mcq-17": "「持續集中在相關內容，不離題」是「keep to the point/topic」的用法，與本句語境不同。",
-        "keep-mcq-12": "「令某人持續處於等待狀態」是「keep someone waiting」的用法，與本句語境不同。"
+        "keep-mcq-15": "本句的「Keep away from」指「不靠近／避免接觸某人、某物或某情況」。",
+        "keep-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-15"
     },
@@ -2146,11 +2010,9 @@ export default {
       "masked": "He tries to ____ unnecessary conflict.",
       "options": [
         "keep-mcq-15",
-        "keep-mcq-14",
-        "keep-mcq-16",
-        "keep-mcq-13",
-        "keep-mcq-17",
-        "keep-mcq-12"
+        "keep-mcq-32",
+        "keep-mcq-26",
+        "keep-mcq-11"
       ],
       "explanation": "本句的「keep away from」指「不靠近／避免接觸某人、某物或某情況」。",
       "sentenceIndex": 34,
@@ -2159,12 +2021,10 @@ export default {
         "keep away from"
       ],
       "optionReasons": {
-        "keep-mcq-15": "本句指「不靠近／避免接觸某人、某物或某情況」。",
-        "keep-mcq-14": "「防止某件事情發生」是「keep something from happening」的用法，與本句語境不同。",
-        "keep-mcq-16": "「按照既定規則、時間或計劃行事，不偏離」是「keep to a rule/schedule」的用法，與本句語境不同。",
-        "keep-mcq-13": "「阻止或妨礙某人進行某個動作」是「keep someone from doing」的用法，與本句語境不同。",
-        "keep-mcq-17": "「持續集中在相關內容，不離題」是「keep to the point/topic」的用法，與本句語境不同。",
-        "keep-mcq-12": "「令某人持續處於等待狀態」是「keep someone waiting」的用法，與本句語境不同。"
+        "keep-mcq-15": "本句的「keep away from」指「不靠近／避免接觸某人、某物或某情況」。",
+        "keep-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-15"
     },
@@ -2177,10 +2037,8 @@ export default {
       "options": [
         "keep-mcq-43",
         "keep-mcq-42",
-        "keep-mcq-44",
-        "keep-mcq-41",
-        "keep-mcq-45",
-        "keep-mcq-40"
+        "keep-mcq-20",
+        "keep-mcq-41"
       ],
       "explanation": "本句的「keep the sunlight away」指「使某物保持在遠處／不能接近」。",
       "sentenceIndex": 35,
@@ -2189,12 +2047,10 @@ export default {
         "keep the sunlight away"
       ],
       "optionReasons": {
-        "keep-mcq-43": "本句指「使某物保持在遠處／不能接近」。",
-        "keep-mcq-42": "「防止某事偏離／離開目前理想狀態」是「13. keep = prevent from changing/stopping（維持） — 維持；保持不變」的用法，與本句語境不同。",
-        "keep-mcq-44": "「管理家庭日常事務、清潔、做飯等」是「29. keep house（料理家務／維持家庭） — 料理家務」的用法，與本句語境不同。",
-        "keep-mcq-41": "「永久地；或表示事情是認真的、有實際後果的」是「for keeps」的用法，與本句語境不同。",
-        "keep-mcq-45": "「提供某人生活所需要的金錢／物資」是「32. keep = support financially（供養） — 供養；維持生活」的用法，與本句語境不同。",
-        "keep-mcq-40": "「質素很好、值得長期保留／珍惜的人或物」是「a keeper — informal」的用法，與本句語境不同。"
+        "keep-mcq-43": "本句的「keep the sunlight away」指「使某物保持在遠處／不能接近」。",
+        "keep-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-43"
     },
@@ -2207,10 +2063,8 @@ export default {
       "options": [
         "keep-mcq-43",
         "keep-mcq-42",
-        "keep-mcq-44",
-        "keep-mcq-41",
-        "keep-mcq-45",
-        "keep-mcq-40"
+        "keep-mcq-26",
+        "keep-mcq-35"
       ],
       "explanation": "本句的「keep insects away」指「使某物保持在遠處／不能接近」。",
       "sentenceIndex": 36,
@@ -2219,12 +2073,10 @@ export default {
         "keep insects away"
       ],
       "optionReasons": {
-        "keep-mcq-43": "本句指「使某物保持在遠處／不能接近」。",
-        "keep-mcq-42": "「防止某事偏離／離開目前理想狀態」是「13. keep = prevent from changing/stopping（維持） — 維持；保持不變」的用法，與本句語境不同。",
-        "keep-mcq-44": "「管理家庭日常事務、清潔、做飯等」是「29. keep house（料理家務／維持家庭） — 料理家務」的用法，與本句語境不同。",
-        "keep-mcq-41": "「永久地；或表示事情是認真的、有實際後果的」是「for keeps」的用法，與本句語境不同。",
-        "keep-mcq-45": "「提供某人生活所需要的金錢／物資」是「32. keep = support financially（供養） — 供養；維持生活」的用法，與本句語境不同。",
-        "keep-mcq-40": "「質素很好、值得長期保留／珍惜的人或物」是「a keeper — informal」的用法，與本句語境不同。"
+        "keep-mcq-43": "本句的「keep insects away」指「使某物保持在遠處／不能接近」。",
+        "keep-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-43"
     },
@@ -2236,11 +2088,9 @@ export default {
       "masked": "Try to ____.",
       "options": [
         "keep-mcq-16",
-        "keep-mcq-15",
-        "keep-mcq-17",
-        "keep-mcq-14",
-        "keep-mcq-18",
-        "keep-mcq-13"
+        "keep-mcq-24",
+        "keep-mcq-44",
+        "keep-pdf-001"
       ],
       "explanation": "本句的「keep to the schedule」指「按照既定規則、時間或計劃行事，不偏離」。",
       "sentenceIndex": 37,
@@ -2249,12 +2099,10 @@ export default {
         "keep to the schedule"
       ],
       "optionReasons": {
-        "keep-mcq-16": "本句指「按照既定規則、時間或計劃行事，不偏離」。",
-        "keep-mcq-15": "「不靠近／避免接觸某人、某物或某情況」是「keep away from」的用法，與本句語境不同。",
-        "keep-mcq-17": "「持續集中在相關內容，不離題」是「keep to the point/topic」的用法，與本句語境不同。",
-        "keep-mcq-14": "「防止某件事情發生」是「keep something from happening」的用法，與本句語境不同。",
-        "keep-mcq-18": "「按照自己已答應的內容行事；信守承諾」是「keep a promise」的用法，與本句語境不同。",
-        "keep-mcq-13": "「阻止或妨礙某人進行某個動作」是「keep someone from doing」的用法，與本句語境不同。"
+        "keep-mcq-16": "本句的「keep to the schedule」指「按照既定規則、時間或計劃行事，不偏離」。",
+        "keep-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "keep-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-16"
     },
@@ -2266,11 +2114,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "keep-mcq-16",
-        "keep-mcq-15",
-        "keep-mcq-17",
-        "keep-mcq-14",
-        "keep-mcq-18",
-        "keep-mcq-13"
+        "keep-mcq-02",
+        "keep-pdf-002",
+        "keep-mcq-44"
       ],
       "explanation": "本句的「keep to the rules」指「按照既定規則、時間或計劃行事，不偏離」。",
       "sentenceIndex": 38,
@@ -2279,12 +2125,10 @@ export default {
         "keep to the rules"
       ],
       "optionReasons": {
-        "keep-mcq-16": "本句指「按照既定規則、時間或計劃行事，不偏離」。",
-        "keep-mcq-15": "「不靠近／避免接觸某人、某物或某情況」是「keep away from」的用法，與本句語境不同。",
-        "keep-mcq-17": "「持續集中在相關內容，不離題」是「keep to the point/topic」的用法，與本句語境不同。",
-        "keep-mcq-14": "「防止某件事情發生」是「keep something from happening」的用法，與本句語境不同。",
-        "keep-mcq-18": "「按照自己已答應的內容行事；信守承諾」是「keep a promise」的用法，與本句語境不同。",
-        "keep-mcq-13": "「阻止或妨礙某人進行某個動作」是「keep someone from doing」的用法，與本句語境不同。"
+        "keep-mcq-16": "本句的「keep to the rules」指「按照既定規則、時間或計劃行事，不偏離」。",
+        "keep-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "keep-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-16"
     },
@@ -2296,11 +2140,9 @@ export default {
       "masked": "Try to ____ during the presentation.",
       "options": [
         "keep-mcq-17",
-        "keep-mcq-16",
-        "keep-mcq-18",
-        "keep-mcq-15",
-        "keep-mcq-19",
-        "keep-mcq-14"
+        "keep-mcq-05",
+        "keep-mcq-14",
+        "keep-mcq-26"
       ],
       "explanation": "本句的「keep to the point」指「持續集中在相關內容，不離題」。",
       "sentenceIndex": 39,
@@ -2309,12 +2151,10 @@ export default {
         "keep to the point"
       ],
       "optionReasons": {
-        "keep-mcq-17": "本句指「持續集中在相關內容，不離題」。",
-        "keep-mcq-16": "「按照既定規則、時間或計劃行事，不偏離」是「keep to a rule/schedule」的用法，與本句語境不同。",
-        "keep-mcq-18": "「按照自己已答應的內容行事；信守承諾」是「keep a promise」的用法，與本句語境不同。",
-        "keep-mcq-15": "「不靠近／避免接觸某人、某物或某情況」是「keep away from」的用法，與本句語境不同。",
-        "keep-mcq-19": "「履行自己曾作出的承諾；說到做到」是「keep your word」的用法，與本句語境不同。",
-        "keep-mcq-14": "「防止某件事情發生」是「keep something from happening」的用法，與本句語境不同。"
+        "keep-mcq-17": "本句的「keep to the point」指「持續集中在相關內容，不離題」。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-17"
     },
@@ -2326,11 +2166,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "keep-mcq-17",
-        "keep-mcq-16",
-        "keep-mcq-18",
-        "keep-mcq-15",
-        "keep-mcq-19",
-        "keep-mcq-14"
+        "keep-mcq-39",
+        "keep-mcq-05",
+        "keep-mcq-41"
       ],
       "explanation": "本句的「keep to the topic」指「持續集中在相關內容，不離題」。",
       "sentenceIndex": 40,
@@ -2339,12 +2177,10 @@ export default {
         "keep to the topic"
       ],
       "optionReasons": {
-        "keep-mcq-17": "本句指「持續集中在相關內容，不離題」。",
-        "keep-mcq-16": "「按照既定規則、時間或計劃行事，不偏離」是「keep to a rule/schedule」的用法，與本句語境不同。",
-        "keep-mcq-18": "「按照自己已答應的內容行事；信守承諾」是「keep a promise」的用法，與本句語境不同。",
-        "keep-mcq-15": "「不靠近／避免接觸某人、某物或某情況」是「keep away from」的用法，與本句語境不同。",
-        "keep-mcq-19": "「履行自己曾作出的承諾；說到做到」是「keep your word」的用法，與本句語境不同。",
-        "keep-mcq-14": "「防止某件事情發生」是「keep something from happening」的用法，與本句語境不同。"
+        "keep-mcq-17": "本句的「keep to the topic」指「持續集中在相關內容，不離題」。",
+        "keep-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-17"
     },
@@ -2356,11 +2192,9 @@ export default {
       "masked": "She ____ to help me practise.",
       "options": [
         "keep-mcq-18",
-        "keep-mcq-17",
-        "keep-mcq-19",
-        "keep-mcq-16",
-        "keep-mcq-20",
-        "keep-mcq-15"
+        "keep-mcq-10",
+        "keep-mcq-44",
+        "keep-mcq-41"
       ],
       "explanation": "本句的「kept her promise」指「按照自己已答應的內容行事；信守承諾」。",
       "sentenceIndex": 41,
@@ -2369,12 +2203,10 @@ export default {
         "kept her promise"
       ],
       "optionReasons": {
-        "keep-mcq-18": "本句指「按照自己已答應的內容行事；信守承諾」。",
-        "keep-mcq-17": "「持續集中在相關內容，不離題」是「keep to the point/topic」的用法，與本句語境不同。",
-        "keep-mcq-19": "「履行自己曾作出的承諾；說到做到」是「keep your word」的用法，與本句語境不同。",
-        "keep-mcq-16": "「按照既定規則、時間或計劃行事，不偏離」是「keep to a rule/schedule」的用法，與本句語境不同。",
-        "keep-mcq-20": "「不把秘密內容告訴其他人」是「keep a secret」的用法，與本句語境不同。",
-        "keep-mcq-15": "「不靠近／避免接觸某人、某物或某情況」是「keep away from」的用法，與本句語境不同。"
+        "keep-mcq-18": "本句的「kept her promise」指「按照自己已答應的內容行事；信守承諾」。",
+        "keep-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-18"
     },
@@ -2386,11 +2218,9 @@ export default {
       "masked": "You should always ____.",
       "options": [
         "keep-mcq-18",
-        "keep-mcq-17",
-        "keep-mcq-19",
-        "keep-mcq-16",
-        "keep-mcq-20",
-        "keep-mcq-15"
+        "keep-mcq-34",
+        "keep-mcq-46",
+        "keep-mcq-35"
       ],
       "explanation": "本句的「keep your promises」指「按照自己已答應的內容行事；信守承諾」。",
       "sentenceIndex": 42,
@@ -2399,12 +2229,10 @@ export default {
         "keep your promises"
       ],
       "optionReasons": {
-        "keep-mcq-18": "本句指「按照自己已答應的內容行事；信守承諾」。",
-        "keep-mcq-17": "「持續集中在相關內容，不離題」是「keep to the point/topic」的用法，與本句語境不同。",
-        "keep-mcq-19": "「履行自己曾作出的承諾；說到做到」是「keep your word」的用法，與本句語境不同。",
-        "keep-mcq-16": "「按照既定規則、時間或計劃行事，不偏離」是「keep to a rule/schedule」的用法，與本句語境不同。",
-        "keep-mcq-20": "「不把秘密內容告訴其他人」是「keep a secret」的用法，與本句語境不同。",
-        "keep-mcq-15": "「不靠近／避免接觸某人、某物或某情況」是「keep away from」的用法，與本句語境不同。"
+        "keep-mcq-18": "本句的「keep your promises」指「按照自己已答應的內容行事；信守承諾」。",
+        "keep-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-18"
     },
@@ -2416,11 +2244,9 @@ export default {
       "masked": "He said he would help, and he ____.",
       "options": [
         "keep-mcq-19",
-        "keep-mcq-18",
-        "keep-mcq-20",
         "keep-mcq-17",
-        "keep-mcq-21",
-        "keep-mcq-16"
+        "keep-mcq-06",
+        "keep-pdf-002"
       ],
       "explanation": "本句的「kept his word」指「履行自己曾作出的承諾；說到做到」。",
       "sentenceIndex": 43,
@@ -2429,12 +2255,10 @@ export default {
         "kept his word"
       ],
       "optionReasons": {
-        "keep-mcq-19": "本句指「履行自己曾作出的承諾；說到做到」。",
-        "keep-mcq-18": "「按照自己已答應的內容行事；信守承諾」是「keep a promise」的用法，與本句語境不同。",
-        "keep-mcq-20": "「不把秘密內容告訴其他人」是「keep a secret」的用法，與本句語境不同。",
-        "keep-mcq-17": "「持續集中在相關內容，不離題」是「keep to the point/topic」的用法，與本句語境不同。",
-        "keep-mcq-21": "「持續與某人聯絡，不失去聯繫」是「keep in touch」的用法，與本句語境不同。",
-        "keep-mcq-16": "「按照既定規則、時間或計劃行事，不偏離」是「keep to a rule/schedule」的用法，與本句語境不同。"
+        "keep-mcq-19": "本句的「kept his word」指「履行自己曾作出的承諾；說到做到」。",
+        "keep-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "keep-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-19"
     },
@@ -2446,11 +2270,9 @@ export default {
       "masked": "I trust her because she always ____.",
       "options": [
         "keep-mcq-19",
-        "keep-mcq-18",
-        "keep-mcq-20",
-        "keep-mcq-17",
-        "keep-mcq-21",
-        "keep-mcq-16"
+        "keep-mcq-29",
+        "keep-mcq-35",
+        "keep-mcq-06"
       ],
       "explanation": "本句的「keeps her word」指「履行自己曾作出的承諾；說到做到」。",
       "sentenceIndex": 44,
@@ -2459,12 +2281,10 @@ export default {
         "keeps her word"
       ],
       "optionReasons": {
-        "keep-mcq-19": "本句指「履行自己曾作出的承諾；說到做到」。",
-        "keep-mcq-18": "「按照自己已答應的內容行事；信守承諾」是「keep a promise」的用法，與本句語境不同。",
-        "keep-mcq-20": "「不把秘密內容告訴其他人」是「keep a secret」的用法，與本句語境不同。",
-        "keep-mcq-17": "「持續集中在相關內容，不離題」是「keep to the point/topic」的用法，與本句語境不同。",
-        "keep-mcq-21": "「持續與某人聯絡，不失去聯繫」是「keep in touch」的用法，與本句語境不同。",
-        "keep-mcq-16": "「按照既定規則、時間或計劃行事，不偏離」是「keep to a rule/schedule」的用法，與本句語境不同。"
+        "keep-mcq-19": "本句的「keeps her word」指「履行自己曾作出的承諾；說到做到」。",
+        "keep-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-19"
     },
@@ -2476,11 +2296,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "keep-mcq-20",
-        "keep-mcq-19",
-        "keep-mcq-21",
-        "keep-mcq-18",
-        "keep-mcq-22",
-        "keep-mcq-17"
+        "keep-mcq-32",
+        "keep-mcq-38",
+        "keep-mcq-31"
       ],
       "explanation": "本句的「keep a secret」指「不把秘密內容告訴其他人」。",
       "sentenceIndex": 45,
@@ -2489,12 +2307,10 @@ export default {
         "keep a secret"
       ],
       "optionReasons": {
-        "keep-mcq-20": "本句指「不把秘密內容告訴其他人」。",
-        "keep-mcq-19": "「履行自己曾作出的承諾；說到做到」是「keep your word」的用法，與本句語境不同。",
-        "keep-mcq-21": "「持續與某人聯絡，不失去聯繫」是「keep in touch」的用法，與本句語境不同。",
-        "keep-mcq-18": "「按照自己已答應的內容行事；信守承諾」是「keep a promise」的用法，與本句語境不同。",
-        "keep-mcq-22": "「持續掌握某人／某事的位置、進度、數量或變化」是「keep track of」的用法，與本句語境不同。",
-        "keep-mcq-17": "「持續集中在相關內容，不離題」是「keep to the point/topic」的用法，與本句語境不同。"
+        "keep-mcq-20": "本句的「keep a secret」指「不把秘密內容告訴其他人」。",
+        "keep-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-20"
     },
@@ -2506,11 +2322,9 @@ export default {
       "masked": "She promised to ____.",
       "options": [
         "keep-mcq-20",
-        "keep-mcq-19",
-        "keep-mcq-21",
-        "keep-mcq-18",
-        "keep-mcq-22",
-        "keep-mcq-17"
+        "keep-mcq-11",
+        "keep-mcq-14",
+        "keep-mcq-41"
       ],
       "explanation": "本句的「keep the information secret」指「不把秘密內容告訴其他人」。",
       "sentenceIndex": 46,
@@ -2519,12 +2333,10 @@ export default {
         "keep the information secret"
       ],
       "optionReasons": {
-        "keep-mcq-20": "本句指「不把秘密內容告訴其他人」。",
-        "keep-mcq-19": "「履行自己曾作出的承諾；說到做到」是「keep your word」的用法，與本句語境不同。",
-        "keep-mcq-21": "「持續與某人聯絡，不失去聯繫」是「keep in touch」的用法，與本句語境不同。",
-        "keep-mcq-18": "「按照自己已答應的內容行事；信守承諾」是「keep a promise」的用法，與本句語境不同。",
-        "keep-mcq-22": "「持續掌握某人／某事的位置、進度、數量或變化」是「keep track of」的用法，與本句語境不同。",
-        "keep-mcq-17": "「持續集中在相關內容，不離題」是「keep to the point/topic」的用法，與本句語境不同。"
+        "keep-mcq-20": "本句的「keep the information secret」指「不把秘密內容告訴其他人」。",
+        "keep-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-20"
     },
@@ -2536,10 +2348,8 @@ export default {
       "masked": "Let’s ____ after the project ends.",
       "options": [
         "keep-mcq-21",
-        "keep-mcq-20",
-        "keep-mcq-22",
-        "keep-mcq-19",
-        "keep-mcq-23",
+        "keep-pdf-001",
+        "keep-mcq-42",
         "keep-mcq-18"
       ],
       "explanation": "本句的「keep in touch」指「持續與某人聯絡，不失去聯繫」。",
@@ -2549,12 +2359,10 @@ export default {
         "keep in touch"
       ],
       "optionReasons": {
-        "keep-mcq-21": "本句指「持續與某人聯絡，不失去聯繫」。",
-        "keep-mcq-20": "「不把秘密內容告訴其他人」是「keep a secret」的用法，與本句語境不同。",
-        "keep-mcq-22": "「持續掌握某人／某事的位置、進度、數量或變化」是「keep track of」的用法，與本句語境不同。",
-        "keep-mcq-19": "「履行自己曾作出的承諾；說到做到」是「keep your word」的用法，與本句語境不同。",
-        "keep-mcq-23": "「持續留意、監察或暫時照看某人／某物」是「keep an eye on」的用法，與本句語境不同。",
-        "keep-mcq-18": "「按照自己已答應的內容行事；信守承諾」是「keep a promise」的用法，與本句語境不同。"
+        "keep-mcq-21": "本句的「keep in touch」指「持續與某人聯絡，不失去聯繫」。",
+        "keep-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-21"
     },
@@ -2566,11 +2374,9 @@ export default {
       "masked": "I still ____ several former colleagues.",
       "options": [
         "keep-mcq-21",
-        "keep-mcq-20",
-        "keep-mcq-22",
-        "keep-mcq-19",
-        "keep-mcq-23",
-        "keep-mcq-18"
+        "keep-mcq-35",
+        "keep-mcq-05",
+        "keep-mcq-14"
       ],
       "explanation": "本句的「keep in touch with」指「持續與某人聯絡，不失去聯繫」。",
       "sentenceIndex": 48,
@@ -2579,12 +2385,10 @@ export default {
         "keep in touch with"
       ],
       "optionReasons": {
-        "keep-mcq-21": "本句指「持續與某人聯絡，不失去聯繫」。",
-        "keep-mcq-20": "「不把秘密內容告訴其他人」是「keep a secret」的用法，與本句語境不同。",
-        "keep-mcq-22": "「持續掌握某人／某事的位置、進度、數量或變化」是「keep track of」的用法，與本句語境不同。",
-        "keep-mcq-19": "「履行自己曾作出的承諾；說到做到」是「keep your word」的用法，與本句語境不同。",
-        "keep-mcq-23": "「持續留意、監察或暫時照看某人／某物」是「keep an eye on」的用法，與本句語境不同。",
-        "keep-mcq-18": "「按照自己已答應的內容行事；信守承諾」是「keep a promise」的用法，與本句語境不同。"
+        "keep-mcq-21": "本句的「keep in touch with」指「持續與某人聯絡，不失去聯繫」。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-21"
     },
@@ -2596,11 +2400,9 @@ export default {
       "masked": "I use a timer to ____ my presentation length.",
       "options": [
         "keep-mcq-22",
-        "keep-mcq-21",
-        "keep-mcq-23",
-        "keep-mcq-20",
-        "keep-mcq-24",
-        "keep-mcq-19"
+        "keep-mcq-14",
+        "keep-mcq-16",
+        "keep-mcq-35"
       ],
       "explanation": "本句的「keep track of」指「持續掌握某人／某事的位置、進度、數量或變化」。",
       "sentenceIndex": 49,
@@ -2609,12 +2411,10 @@ export default {
         "keep track of"
       ],
       "optionReasons": {
-        "keep-mcq-22": "本句指「持續掌握某人／某事的位置、進度、數量或變化」。",
-        "keep-mcq-21": "「持續與某人聯絡，不失去聯繫」是「keep in touch」的用法，與本句語境不同。",
-        "keep-mcq-23": "「持續留意、監察或暫時照看某人／某物」是「keep an eye on」的用法，與本句語境不同。",
-        "keep-mcq-20": "「不把秘密內容告訴其他人」是「keep a secret」的用法，與本句語境不同。",
-        "keep-mcq-24": "「持續觀察某處／某人，以防問題發生」是「keep watch」的用法，與本句語境不同。",
-        "keep-mcq-19": "「履行自己曾作出的承諾；說到做到」是「keep your word」的用法，與本句語境不同。"
+        "keep-mcq-22": "本句的「keep track of」指「持續掌握某人／某事的位置、進度、數量或變化」。",
+        "keep-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-22"
     },
@@ -2626,11 +2426,9 @@ export default {
       "masked": "It is difficult to ____ all the changes.",
       "options": [
         "keep-mcq-22",
-        "keep-mcq-21",
-        "keep-mcq-23",
-        "keep-mcq-20",
-        "keep-mcq-24",
-        "keep-mcq-19"
+        "keep-mcq-32",
+        "keep-mcq-35",
+        "keep-mcq-41"
       ],
       "explanation": "本句的「keep track of」指「持續掌握某人／某事的位置、進度、數量或變化」。",
       "sentenceIndex": 50,
@@ -2639,12 +2437,10 @@ export default {
         "keep track of"
       ],
       "optionReasons": {
-        "keep-mcq-22": "本句指「持續掌握某人／某事的位置、進度、數量或變化」。",
-        "keep-mcq-21": "「持續與某人聯絡，不失去聯繫」是「keep in touch」的用法，與本句語境不同。",
-        "keep-mcq-23": "「持續留意、監察或暫時照看某人／某物」是「keep an eye on」的用法，與本句語境不同。",
-        "keep-mcq-20": "「不把秘密內容告訴其他人」是「keep a secret」的用法，與本句語境不同。",
-        "keep-mcq-24": "「持續觀察某處／某人，以防問題發生」是「keep watch」的用法，與本句語境不同。",
-        "keep-mcq-19": "「履行自己曾作出的承諾；說到做到」是「keep your word」的用法，與本句語境不同。"
+        "keep-mcq-22": "本句的「keep track of」指「持續掌握某人／某事的位置、進度、數量或變化」。",
+        "keep-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-22"
     },
@@ -2656,11 +2452,9 @@ export default {
       "masked": "Could you ____ the time for me?",
       "options": [
         "keep-mcq-23",
-        "keep-mcq-22",
-        "keep-mcq-24",
-        "keep-mcq-21",
-        "keep-mcq-25",
-        "keep-mcq-20"
+        "keep-mcq-44",
+        "keep-pdf-001",
+        "keep-mcq-19"
       ],
       "explanation": "本句的「keep an eye on」指「持續留意、監察或暫時照看某人／某物」。",
       "sentenceIndex": 51,
@@ -2669,12 +2463,10 @@ export default {
         "keep an eye on"
       ],
       "optionReasons": {
-        "keep-mcq-23": "本句指「持續留意、監察或暫時照看某人／某物」。",
-        "keep-mcq-22": "「持續掌握某人／某事的位置、進度、數量或變化」是「keep track of」的用法，與本句語境不同。",
-        "keep-mcq-24": "「持續觀察某處／某人，以防問題發生」是「keep watch」的用法，與本句語境不同。",
-        "keep-mcq-21": "「持續與某人聯絡，不失去聯繫」是「keep in touch」的用法，與本句語境不同。",
-        "keep-mcq-25": "「留在某人身邊陪伴，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。",
-        "keep-mcq-20": "「不把秘密內容告訴其他人」是「keep a secret」的用法，與本句語境不同。"
+        "keep-mcq-23": "本句的「keep an eye on」指「持續留意、監察或暫時照看某人／某物」。",
+        "keep-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "keep-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-23"
     },
@@ -2686,11 +2478,9 @@ export default {
       "masked": "Please ____ my bag.",
       "options": [
         "keep-mcq-23",
-        "keep-mcq-22",
-        "keep-mcq-24",
-        "keep-mcq-21",
-        "keep-mcq-25",
-        "keep-mcq-20"
+        "keep-mcq-06",
+        "keep-mcq-19",
+        "keep-mcq-42"
       ],
       "explanation": "本句的「keep an eye on」指「持續留意、監察或暫時照看某人／某物」。",
       "sentenceIndex": 52,
@@ -2699,12 +2489,10 @@ export default {
         "keep an eye on"
       ],
       "optionReasons": {
-        "keep-mcq-23": "本句指「持續留意、監察或暫時照看某人／某物」。",
-        "keep-mcq-22": "「持續掌握某人／某事的位置、進度、數量或變化」是「keep track of」的用法，與本句語境不同。",
-        "keep-mcq-24": "「持續觀察某處／某人，以防問題發生」是「keep watch」的用法，與本句語境不同。",
-        "keep-mcq-21": "「持續與某人聯絡，不失去聯繫」是「keep in touch」的用法，與本句語境不同。",
-        "keep-mcq-25": "「留在某人身邊陪伴，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。",
-        "keep-mcq-20": "「不把秘密內容告訴其他人」是「keep a secret」的用法，與本句語境不同。"
+        "keep-mcq-23": "本句的「keep an eye on」指「持續留意、監察或暫時照看某人／某物」。",
+        "keep-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-23"
     },
@@ -2716,11 +2504,9 @@ export default {
       "masked": "Someone stayed behind to ____.",
       "options": [
         "keep-mcq-24",
-        "keep-mcq-23",
-        "keep-mcq-25",
-        "keep-mcq-22",
-        "keep-mcq-26",
-        "keep-mcq-21"
+        "keep-mcq-19",
+        "keep-mcq-44",
+        "keep-pdf-001"
       ],
       "explanation": "本句的「keep watch」指「持續觀察某處／某人，以防問題發生」。",
       "sentenceIndex": 53,
@@ -2729,12 +2515,10 @@ export default {
         "keep watch"
       ],
       "optionReasons": {
-        "keep-mcq-24": "本句指「持續觀察某處／某人，以防問題發生」。",
-        "keep-mcq-23": "「持續留意、監察或暫時照看某人／某物」是「keep an eye on」的用法，與本句語境不同。",
-        "keep-mcq-25": "「留在某人身邊陪伴，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。",
-        "keep-mcq-22": "「持續掌握某人／某事的位置、進度、數量或變化」是「keep track of」的用法，與本句語境不同。",
-        "keep-mcq-26": "「長期飼養並照顧動物」是「keep animals」的用法，與本句語境不同。",
-        "keep-mcq-21": "「持續與某人聯絡，不失去聯繫」是「keep in touch」的用法，與本句語境不同。"
+        "keep-mcq-24": "本句的「keep watch」指「持續觀察某處／某人，以防問題發生」。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "keep-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-24"
     },
@@ -2746,11 +2530,9 @@ export default {
       "masked": "Security staff ____ over the entrance.",
       "options": [
         "keep-mcq-24",
-        "keep-mcq-23",
-        "keep-mcq-25",
-        "keep-mcq-22",
-        "keep-mcq-26",
-        "keep-mcq-21"
+        "keep-mcq-41",
+        "keep-mcq-16",
+        "keep-mcq-26"
       ],
       "explanation": "本句的「kept watch」指「持續觀察某處／某人，以防問題發生」。",
       "sentenceIndex": 54,
@@ -2759,12 +2541,10 @@ export default {
         "kept watch"
       ],
       "optionReasons": {
-        "keep-mcq-24": "本句指「持續觀察某處／某人，以防問題發生」。",
-        "keep-mcq-23": "「持續留意、監察或暫時照看某人／某物」是「keep an eye on」的用法，與本句語境不同。",
-        "keep-mcq-25": "「留在某人身邊陪伴，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。",
-        "keep-mcq-22": "「持續掌握某人／某事的位置、進度、數量或變化」是「keep track of」的用法，與本句語境不同。",
-        "keep-mcq-26": "「長期飼養並照顧動物」是「keep animals」的用法，與本句語境不同。",
-        "keep-mcq-21": "「持續與某人聯絡，不失去聯繫」是「keep in touch」的用法，與本句語境不同。"
+        "keep-mcq-24": "本句的「kept watch」指「持續觀察某處／某人，以防問題發生」。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-24"
     },
@@ -2776,11 +2556,9 @@ export default {
       "masked": "She stayed to ____ before the presentation.",
       "options": [
         "keep-mcq-25",
-        "keep-mcq-24",
         "keep-mcq-26",
-        "keep-mcq-23",
-        "keep-mcq-27",
-        "keep-mcq-22"
+        "keep-mcq-05",
+        "keep-mcq-14"
       ],
       "explanation": "本句的「keep me company」指「留在某人身邊陪伴，使對方不用獨處」。",
       "sentenceIndex": 55,
@@ -2789,12 +2567,10 @@ export default {
         "keep me company"
       ],
       "optionReasons": {
-        "keep-mcq-25": "本句指「留在某人身邊陪伴，使對方不用獨處」。",
-        "keep-mcq-24": "「持續觀察某處／某人，以防問題發生」是「keep watch」的用法，與本句語境不同。",
-        "keep-mcq-26": "「長期飼養並照顧動物」是「keep animals」的用法，與本句語境不同。",
-        "keep-mcq-23": "「持續留意、監察或暫時照看某人／某物」是「keep an eye on」的用法，與本句語境不同。",
-        "keep-mcq-27": "「經營並管理商店／旅店；較傳統用法」是「keep a shop/inn」的用法，與本句語境不同。",
-        "keep-mcq-22": "「持續掌握某人／某事的位置、進度、數量或變化」是「keep track of」的用法，與本句語境不同。"
+        "keep-mcq-25": "本句的「keep me company」指「留在某人身邊陪伴，使對方不用獨處」。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-25"
     },
@@ -2806,11 +2582,9 @@ export default {
       "masked": "I’ll ____ while you wait.",
       "options": [
         "keep-mcq-25",
-        "keep-mcq-24",
-        "keep-mcq-26",
-        "keep-mcq-23",
-        "keep-mcq-27",
-        "keep-mcq-22"
+        "keep-mcq-16",
+        "keep-mcq-41",
+        "keep-mcq-06"
       ],
       "explanation": "本句的「keep you company」指「留在某人身邊陪伴，使對方不用獨處」。",
       "sentenceIndex": 56,
@@ -2819,12 +2593,10 @@ export default {
         "keep you company"
       ],
       "optionReasons": {
-        "keep-mcq-25": "本句指「留在某人身邊陪伴，使對方不用獨處」。",
-        "keep-mcq-24": "「持續觀察某處／某人，以防問題發生」是「keep watch」的用法，與本句語境不同。",
-        "keep-mcq-26": "「長期飼養並照顧動物」是「keep animals」的用法，與本句語境不同。",
-        "keep-mcq-23": "「持續留意、監察或暫時照看某人／某物」是「keep an eye on」的用法，與本句語境不同。",
-        "keep-mcq-27": "「經營並管理商店／旅店；較傳統用法」是「keep a shop/inn」的用法，與本句語境不同。",
-        "keep-mcq-22": "「持續掌握某人／某事的位置、進度、數量或變化」是「keep track of」的用法，與本句語境不同。"
+        "keep-mcq-25": "本句的「keep you company」指「留在某人身邊陪伴，使對方不用獨處」。",
+        "keep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-25"
     },
@@ -2836,11 +2608,9 @@ export default {
       "masked": "She worked while he ____.",
       "options": [
         "keep-mcq-44",
-        "keep-mcq-43",
-        "keep-mcq-45",
-        "keep-mcq-42",
-        "keep-mcq-46",
-        "keep-mcq-41"
+        "keep-mcq-20",
+        "keep-mcq-41",
+        "keep-mcq-11"
       ],
       "explanation": "本句的「kept house」指「管理家庭日常事務、清潔、做飯等」。",
       "sentenceIndex": 57,
@@ -2849,12 +2619,10 @@ export default {
         "kept house"
       ],
       "optionReasons": {
-        "keep-mcq-44": "本句指「管理家庭日常事務、清潔、做飯等」。",
-        "keep-mcq-43": "「使某物保持在遠處／不能接近」是「18. keep something away（使遠離） — 擋住；使不接近」的用法，與本句語境不同。",
-        "keep-mcq-45": "「提供某人生活所需要的金錢／物資」是「32. keep = support financially（供養） — 供養；維持生活」的用法，與本句語境不同。",
-        "keep-mcq-42": "「防止某事偏離／離開目前理想狀態」是「13. keep = prevent from changing/stopping（維持） — 維持；保持不變」的用法，與本句語境不同。",
-        "keep-mcq-46": "「阻止某人／某物進入某個地方」是「50. keep someone/something out（不讓進入） — 阻止進入」的用法，與本句語境不同。",
-        "keep-mcq-41": "「永久地；或表示事情是認真的、有實際後果的」是「for keeps」的用法，與本句語境不同。"
+        "keep-mcq-44": "本句的「kept house」指「管理家庭日常事務、清潔、做飯等」。",
+        "keep-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-44"
     },
@@ -2866,11 +2634,9 @@ export default {
       "masked": "They hired someone to help ____.",
       "options": [
         "keep-mcq-44",
-        "keep-mcq-43",
-        "keep-mcq-45",
-        "keep-mcq-42",
-        "keep-mcq-46",
-        "keep-mcq-41"
+        "keep-mcq-08",
+        "keep-mcq-20",
+        "keep-mcq-26"
       ],
       "explanation": "本句的「keep house」指「管理家庭日常事務、清潔、做飯等」。",
       "sentenceIndex": 58,
@@ -2879,12 +2645,10 @@ export default {
         "keep house"
       ],
       "optionReasons": {
-        "keep-mcq-44": "本句指「管理家庭日常事務、清潔、做飯等」。",
-        "keep-mcq-43": "「使某物保持在遠處／不能接近」是「18. keep something away（使遠離） — 擋住；使不接近」的用法，與本句語境不同。",
-        "keep-mcq-45": "「提供某人生活所需要的金錢／物資」是「32. keep = support financially（供養） — 供養；維持生活」的用法，與本句語境不同。",
-        "keep-mcq-42": "「防止某事偏離／離開目前理想狀態」是「13. keep = prevent from changing/stopping（維持） — 維持；保持不變」的用法，與本句語境不同。",
-        "keep-mcq-46": "「阻止某人／某物進入某個地方」是「50. keep someone/something out（不讓進入） — 阻止進入」的用法，與本句語境不同。",
-        "keep-mcq-41": "「永久地；或表示事情是認真的、有實際後果的」是「for keeps」的用法，與本句語境不同。"
+        "keep-mcq-44": "本句的「keep house」指「管理家庭日常事務、清潔、做飯等」。",
+        "keep-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-44"
     },
@@ -2897,10 +2661,8 @@ export default {
       "options": [
         "keep-mcq-26",
         "keep-mcq-25",
-        "keep-mcq-27",
-        "keep-mcq-24",
-        "keep-mcq-28",
-        "keep-mcq-23"
+        "keep-mcq-44",
+        "keep-mcq-31"
       ],
       "explanation": "本句的「keep chickens」指「長期飼養並照顧動物」。",
       "sentenceIndex": 59,
@@ -2909,12 +2671,10 @@ export default {
         "keep chickens"
       ],
       "optionReasons": {
-        "keep-mcq-26": "本句指「長期飼養並照顧動物」。",
-        "keep-mcq-25": "「留在某人身邊陪伴，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。",
-        "keep-mcq-27": "「經營並管理商店／旅店；較傳統用法」是「keep a shop/inn」的用法，與本句語境不同。",
-        "keep-mcq-24": "「持續觀察某處／某人，以防問題發生」是「keep watch」的用法，與本句語境不同。",
-        "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。",
-        "keep-mcq-23": "「持續留意、監察或暫時照看某人／某物」是「keep an eye on」的用法，與本句語境不同。"
+        "keep-mcq-26": "本句的「keep chickens」指「長期飼養並照顧動物」。",
+        "keep-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-26"
     },
@@ -2926,11 +2686,9 @@ export default {
       "masked": "She has always ____.",
       "options": [
         "keep-mcq-26",
-        "keep-mcq-25",
-        "keep-mcq-27",
-        "keep-mcq-24",
-        "keep-mcq-28",
-        "keep-mcq-23"
+        "keep-mcq-41",
+        "keep-mcq-36",
+        "keep-mcq-06"
       ],
       "explanation": "本句的「kept horses」指「長期飼養並照顧動物」。",
       "sentenceIndex": 60,
@@ -2939,12 +2697,10 @@ export default {
         "kept horses"
       ],
       "optionReasons": {
-        "keep-mcq-26": "本句指「長期飼養並照顧動物」。",
-        "keep-mcq-25": "「留在某人身邊陪伴，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。",
-        "keep-mcq-27": "「經營並管理商店／旅店；較傳統用法」是「keep a shop/inn」的用法，與本句語境不同。",
-        "keep-mcq-24": "「持續觀察某處／某人，以防問題發生」是「keep watch」的用法，與本句語境不同。",
-        "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。",
-        "keep-mcq-23": "「持續留意、監察或暫時照看某人／某物」是「keep an eye on」的用法，與本句語境不同。"
+        "keep-mcq-26": "本句的「kept horses」指「長期飼養並照顧動物」。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-26"
     },
@@ -2956,11 +2712,9 @@ export default {
       "masked": "His family ____.",
       "options": [
         "keep-mcq-27",
-        "keep-mcq-26",
-        "keep-mcq-28",
-        "keep-mcq-25",
-        "keep-mcq-29",
-        "keep-mcq-24"
+        "keep-mcq-35",
+        "keep-mcq-08",
+        "keep-mcq-16"
       ],
       "explanation": "本句的「kept a small shop」指「經營並管理商店／旅店；較傳統用法」。",
       "sentenceIndex": 61,
@@ -2969,12 +2723,10 @@ export default {
         "kept a small shop"
       ],
       "optionReasons": {
-        "keep-mcq-27": "本句指「經營並管理商店／旅店；較傳統用法」。",
-        "keep-mcq-26": "「長期飼養並照顧動物」是「keep animals」的用法，與本句語境不同。",
-        "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。",
-        "keep-mcq-25": "「留在某人身邊陪伴，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。",
-        "keep-mcq-29": "「持續維持良好的身體狀態」是「keep fit/healthy」的用法，與本句語境不同。",
-        "keep-mcq-24": "「持續觀察某處／某人，以防問題發生」是「keep watch」的用法，與本句語境不同。"
+        "keep-mcq-27": "本句的「kept a small shop」指「經營並管理商店／旅店；較傳統用法」。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-27"
     },
@@ -2986,11 +2738,9 @@ export default {
       "masked": "They once ____ near the station.",
       "options": [
         "keep-mcq-27",
-        "keep-mcq-26",
-        "keep-mcq-28",
-        "keep-mcq-25",
-        "keep-mcq-29",
-        "keep-mcq-24"
+        "keep-mcq-35",
+        "keep-mcq-09",
+        "keep-pdf-001"
       ],
       "explanation": "本句的「kept an inn」指「經營並管理商店／旅店；較傳統用法」。",
       "sentenceIndex": 62,
@@ -2999,12 +2749,10 @@ export default {
         "kept an inn"
       ],
       "optionReasons": {
-        "keep-mcq-27": "本句指「經營並管理商店／旅店；較傳統用法」。",
-        "keep-mcq-26": "「長期飼養並照顧動物」是「keep animals」的用法，與本句語境不同。",
-        "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。",
-        "keep-mcq-25": "「留在某人身邊陪伴，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。",
-        "keep-mcq-29": "「持續維持良好的身體狀態」是「keep fit/healthy」的用法，與本句語境不同。",
-        "keep-mcq-24": "「持續觀察某處／某人，以防問題發生」是「keep watch」的用法，與本句語境不同。"
+        "keep-mcq-27": "本句的「kept an inn」指「經營並管理商店／旅店；較傳統用法」。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "keep-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-27"
     },
@@ -3016,10 +2764,8 @@ export default {
       "masked": "His salary was enough to ____.",
       "options": [
         "keep-mcq-45",
-        "keep-mcq-44",
-        "keep-mcq-46",
-        "keep-mcq-43",
-        "keep-mcq-42",
+        "keep-mcq-02",
+        "keep-mcq-16",
         "keep-mcq-41"
       ],
       "explanation": "本句的「keep the family」指「提供某人生活所需要的金錢／物資」。",
@@ -3029,12 +2775,10 @@ export default {
         "keep the family"
       ],
       "optionReasons": {
-        "keep-mcq-45": "本句指「提供某人生活所需要的金錢／物資」。",
-        "keep-mcq-44": "「管理家庭日常事務、清潔、做飯等」是「29. keep house（料理家務／維持家庭） — 料理家務」的用法，與本句語境不同。",
-        "keep-mcq-46": "「阻止某人／某物進入某個地方」是「50. keep someone/something out（不讓進入） — 阻止進入」的用法，與本句語境不同。",
-        "keep-mcq-43": "「使某物保持在遠處／不能接近」是「18. keep something away（使遠離） — 擋住；使不接近」的用法，與本句語境不同。",
-        "keep-mcq-42": "「防止某事偏離／離開目前理想狀態」是「13. keep = prevent from changing/stopping（維持） — 維持；保持不變」的用法，與本句語境不同。",
-        "keep-mcq-41": "「永久地；或表示事情是認真的、有實際後果的」是「for keeps」的用法，與本句語境不同。"
+        "keep-mcq-45": "本句的「keep the family」指「提供某人生活所需要的金錢／物資」。",
+        "keep-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-45"
     },
@@ -3046,11 +2790,9 @@ export default {
       "masked": "The farm barely ____ them.",
       "options": [
         "keep-mcq-45",
+        "keep-mcq-05",
         "keep-mcq-44",
-        "keep-mcq-46",
-        "keep-mcq-43",
-        "keep-mcq-42",
-        "keep-mcq-41"
+        "keep-mcq-28"
       ],
       "explanation": "本句的「kept」指「提供某人生活所需要的金錢／物資」。",
       "sentenceIndex": 64,
@@ -3059,12 +2801,10 @@ export default {
         "kept"
       ],
       "optionReasons": {
-        "keep-mcq-45": "本句指「提供某人生活所需要的金錢／物資」。",
-        "keep-mcq-44": "「管理家庭日常事務、清潔、做飯等」是「29. keep house（料理家務／維持家庭） — 料理家務」的用法，與本句語境不同。",
-        "keep-mcq-46": "「阻止某人／某物進入某個地方」是「50. keep someone/something out（不讓進入） — 阻止進入」的用法，與本句語境不同。",
-        "keep-mcq-43": "「使某物保持在遠處／不能接近」是「18. keep something away（使遠離） — 擋住；使不接近」的用法，與本句語境不同。",
-        "keep-mcq-42": "「防止某事偏離／離開目前理想狀態」是「13. keep = prevent from changing/stopping（維持） — 維持；保持不變」的用法，與本句語境不同。",
-        "keep-mcq-41": "「永久地；或表示事情是認真的、有實際後果的」是「for keeps」的用法，與本句語境不同。"
+        "keep-mcq-45": "本句的「kept」指「提供某人生活所需要的金錢／物資」。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-45"
     },
@@ -3076,11 +2816,9 @@ export default {
       "masked": "This food will ____ for three days.",
       "options": [
         "keep-mcq-28",
-        "keep-mcq-27",
-        "keep-mcq-29",
-        "keep-mcq-26",
-        "keep-mcq-30",
-        "keep-mcq-25"
+        "keep-mcq-44",
+        "keep-mcq-19",
+        "keep-pdf-001"
       ],
       "explanation": "本句的「keep」指「某物在一段時間內仍保持良好／不變壞」。",
       "sentenceIndex": 65,
@@ -3089,12 +2827,10 @@ export default {
         "keep"
       ],
       "optionReasons": {
-        "keep-mcq-28": "本句指「某物在一段時間內仍保持良好／不變壞」。",
-        "keep-mcq-27": "「經營並管理商店／旅店；較傳統用法」是「keep a shop/inn」的用法，與本句語境不同。",
-        "keep-mcq-29": "「持續維持良好的身體狀態」是「keep fit/healthy」的用法，與本句語境不同。",
-        "keep-mcq-26": "「長期飼養並照顧動物」是「keep animals」的用法，與本句語境不同。",
-        "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。",
-        "keep-mcq-25": "「留在某人身邊陪伴，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。"
+        "keep-mcq-28": "本句的「keep」指「某物在一段時間內仍保持良好／不變壞」。",
+        "keep-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "keep-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-28"
     },
@@ -3106,11 +2842,9 @@ export default {
       "masked": "The flowers won’t ____ long in this heat.",
       "options": [
         "keep-mcq-28",
-        "keep-mcq-27",
-        "keep-mcq-29",
-        "keep-mcq-26",
-        "keep-mcq-30",
-        "keep-mcq-25"
+        "keep-mcq-44",
+        "keep-mcq-15",
+        "keep-mcq-26"
       ],
       "explanation": "本句的「keep」指「某物在一段時間內仍保持良好／不變壞」。",
       "sentenceIndex": 66,
@@ -3119,12 +2853,10 @@ export default {
         "keep"
       ],
       "optionReasons": {
-        "keep-mcq-28": "本句指「某物在一段時間內仍保持良好／不變壞」。",
-        "keep-mcq-27": "「經營並管理商店／旅店；較傳統用法」是「keep a shop/inn」的用法，與本句語境不同。",
-        "keep-mcq-29": "「持續維持良好的身體狀態」是「keep fit/healthy」的用法，與本句語境不同。",
-        "keep-mcq-26": "「長期飼養並照顧動物」是「keep animals」的用法，與本句語境不同。",
-        "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。",
-        "keep-mcq-25": "「留在某人身邊陪伴，使對方不用獨處」是「keep someone company」的用法，與本句語境不同。"
+        "keep-mcq-28": "本句的「keep」指「某物在一段時間內仍保持良好／不變壞」。",
+        "keep-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-28"
     },
@@ -3136,11 +2868,9 @@ export default {
       "masked": "Regular exercise helps me ____.",
       "options": [
         "keep-mcq-29",
-        "keep-mcq-28",
-        "keep-mcq-30",
-        "keep-mcq-27",
-        "keep-mcq-31",
-        "keep-mcq-26"
+        "keep-mcq-26",
+        "keep-mcq-19",
+        "keep-mcq-13"
       ],
       "explanation": "本句的「keep fit」指「持續維持良好的身體狀態」。",
       "sentenceIndex": 67,
@@ -3149,12 +2879,10 @@ export default {
         "keep fit"
       ],
       "optionReasons": {
-        "keep-mcq-29": "本句指「持續維持良好的身體狀態」。",
-        "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。",
-        "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。",
-        "keep-mcq-27": "「經營並管理商店／旅店；較傳統用法」是「keep a shop/inn」的用法，與本句語境不同。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。",
-        "keep-mcq-26": "「長期飼養並照顧動物」是「keep animals」的用法，與本句語境不同。"
+        "keep-mcq-29": "本句的「keep fit」指「持續維持良好的身體狀態」。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-29"
     },
@@ -3166,11 +2894,9 @@ export default {
       "masked": "Good sleep helps ____.",
       "options": [
         "keep-mcq-29",
-        "keep-mcq-28",
-        "keep-mcq-30",
-        "keep-mcq-27",
-        "keep-mcq-31",
-        "keep-mcq-26"
+        "keep-mcq-15",
+        "keep-mcq-32",
+        "keep-pdf-001"
       ],
       "explanation": "本句的「keep you healthy」指「持續維持良好的身體狀態」。",
       "sentenceIndex": 68,
@@ -3179,12 +2905,10 @@ export default {
         "keep you healthy"
       ],
       "optionReasons": {
-        "keep-mcq-29": "本句指「持續維持良好的身體狀態」。",
-        "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。",
-        "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。",
-        "keep-mcq-27": "「經營並管理商店／旅店；較傳統用法」是「keep a shop/inn」的用法，與本句語境不同。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。",
-        "keep-mcq-26": "「長期飼養並照顧動物」是「keep animals」的用法，與本句語境不同。"
+        "keep-mcq-29": "本句的「keep you healthy」指「持續維持良好的身體狀態」。",
+        "keep-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "keep-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-29"
     },
@@ -3196,11 +2920,9 @@ export default {
       "masked": "Wear a jacket to ____.",
       "options": [
         "keep-mcq-29",
-        "keep-mcq-28",
-        "keep-mcq-30",
-        "keep-mcq-27",
-        "keep-mcq-31",
-        "keep-mcq-26"
+        "keep-mcq-41",
+        "keep-mcq-06",
+        "keep-mcq-31"
       ],
       "explanation": "本句的「keep warm」指「持續維持良好的身體狀態」。",
       "sentenceIndex": 69,
@@ -3209,12 +2931,10 @@ export default {
         "keep warm"
       ],
       "optionReasons": {
-        "keep-mcq-29": "本句指「持續維持良好的身體狀態」。",
-        "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。",
-        "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。",
-        "keep-mcq-27": "「經營並管理商店／旅店；較傳統用法」是「keep a shop/inn」的用法，與本句語境不同。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。",
-        "keep-mcq-26": "「長期飼養並照顧動物」是「keep animals」的用法，與本句語境不同。"
+        "keep-mcq-29": "本句的「keep warm」指「持續維持良好的身體狀態」。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-29"
     },
@@ -3226,11 +2946,9 @@ export default {
       "masked": "This cover will ____.",
       "options": [
         "keep-mcq-29",
-        "keep-mcq-28",
-        "keep-mcq-30",
-        "keep-mcq-27",
+        "keep-mcq-44",
         "keep-mcq-31",
-        "keep-mcq-26"
+        "keep-mcq-19"
       ],
       "explanation": "本句的「keep the equipment dry」指「持續維持良好的身體狀態」。",
       "sentenceIndex": 70,
@@ -3239,12 +2957,10 @@ export default {
         "keep the equipment dry"
       ],
       "optionReasons": {
-        "keep-mcq-29": "本句指「持續維持良好的身體狀態」。",
-        "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。",
-        "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。",
-        "keep-mcq-27": "「經營並管理商店／旅店；較傳統用法」是「keep a shop/inn」的用法，與本句語境不同。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。",
-        "keep-mcq-26": "「長期飼養並照顧動物」是「keep animals」的用法，與本句語境不同。"
+        "keep-mcq-29": "本句的「keep the equipment dry」指「持續維持良好的身體狀態」。",
+        "keep-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-29"
     },
@@ -3256,11 +2972,9 @@ export default {
       "masked": "____ the line.",
       "options": [
         "keep-mcq-30",
-        "keep-mcq-29",
         "keep-mcq-31",
-        "keep-mcq-28",
-        "keep-mcq-32",
-        "keep-mcq-27"
+        "keep-mcq-41",
+        "keep-mcq-45"
       ],
       "explanation": "本句的「Keep behind」指「持續位於指定方向／道路一側」。",
       "sentenceIndex": 71,
@@ -3269,12 +2983,10 @@ export default {
         "Keep behind"
       ],
       "optionReasons": {
-        "keep-mcq-30": "本句指「持續位於指定方向／道路一側」。",
-        "keep-mcq-29": "「持續維持良好的身體狀態」是「keep fit/healthy」的用法，與本句語境不同。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。",
-        "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
-        "keep-mcq-27": "「經營並管理商店／旅店；較傳統用法」是「keep a shop/inn」的用法，與本句語境不同。"
+        "keep-mcq-30": "本句的「Keep behind」指「持續位於指定方向／道路一側」。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-30"
     },
@@ -3286,11 +2998,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "keep-mcq-30",
-        "keep-mcq-29",
-        "keep-mcq-31",
-        "keep-mcq-28",
-        "keep-mcq-32",
-        "keep-mcq-27"
+        "keep-mcq-19",
+        "keep-mcq-39",
+        "keep-mcq-35"
       ],
       "explanation": "本句的「keep to the left」指「持續位於指定方向／道路一側」。",
       "sentenceIndex": 72,
@@ -3299,12 +3009,10 @@ export default {
         "keep to the left"
       ],
       "optionReasons": {
-        "keep-mcq-30": "本句指「持續位於指定方向／道路一側」。",
-        "keep-mcq-29": "「持續維持良好的身體狀態」是「keep fit/healthy」的用法，與本句語境不同。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。",
-        "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
-        "keep-mcq-27": "「經營並管理商店／旅店；較傳統用法」是「keep a shop/inn」的用法，與本句語境不同。"
+        "keep-mcq-30": "本句的「keep to the left」指「持續位於指定方向／道路一側」。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-30"
     },
@@ -3316,11 +3024,9 @@ export default {
       "masked": "Please ____ on the escalator.",
       "options": [
         "keep-mcq-30",
-        "keep-mcq-29",
-        "keep-mcq-31",
-        "keep-mcq-28",
-        "keep-mcq-32",
-        "keep-mcq-27"
+        "keep-mcq-19",
+        "keep-mcq-13",
+        "keep-mcq-31"
       ],
       "explanation": "本句的「keep left」指「持續位於指定方向／道路一側」。",
       "sentenceIndex": 73,
@@ -3329,12 +3035,10 @@ export default {
         "keep left"
       ],
       "optionReasons": {
-        "keep-mcq-30": "本句指「持續位於指定方向／道路一側」。",
-        "keep-mcq-29": "「持續維持良好的身體狀態」是「keep fit/healthy」的用法，與本句語境不同。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。",
-        "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
-        "keep-mcq-27": "「經營並管理商店／旅店；較傳統用法」是「keep a shop/inn」的用法，與本句語境不同。"
+        "keep-mcq-30": "本句的「keep left」指「持續位於指定方向／道路一側」。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-30"
     },
@@ -3346,11 +3050,9 @@ export default {
       "masked": "Drivers should ____ after the junction.",
       "options": [
         "keep-mcq-30",
-        "keep-mcq-29",
-        "keep-mcq-31",
-        "keep-mcq-28",
-        "keep-mcq-32",
-        "keep-mcq-27"
+        "keep-mcq-20",
+        "keep-mcq-35",
+        "keep-mcq-26"
       ],
       "explanation": "本句的「keep right」指「持續位於指定方向／道路一側」。",
       "sentenceIndex": 74,
@@ -3359,12 +3061,10 @@ export default {
         "keep right"
       ],
       "optionReasons": {
-        "keep-mcq-30": "本句指「持續位於指定方向／道路一側」。",
-        "keep-mcq-29": "「持續維持良好的身體狀態」是「keep fit/healthy」的用法，與本句語境不同。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。",
-        "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
-        "keep-mcq-27": "「經營並管理商店／旅店；較傳統用法」是「keep a shop/inn」的用法，與本句語境不同。"
+        "keep-mcq-30": "本句的「keep right」指「持續位於指定方向／道路一側」。",
+        "keep-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-30"
     },
@@ -3376,11 +3076,9 @@ export default {
       "masked": "Technology changes quickly, so companies must ____ it.",
       "options": [
         "keep-mcq-31",
-        "keep-mcq-30",
-        "keep-mcq-32",
-        "keep-mcq-29",
-        "keep-mcq-33",
-        "keep-mcq-28"
+        "keep-mcq-20",
+        "keep-mcq-19",
+        "keep-mcq-14"
       ],
       "explanation": "本句的「keep pace with」指「以相同速度或進度前進，不被對方拋離」。",
       "sentenceIndex": 75,
@@ -3389,12 +3087,10 @@ export default {
         "keep pace with"
       ],
       "optionReasons": {
-        "keep-mcq-31": "本句指「以相同速度或進度前進，不被對方拋離」。",
-        "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
-        "keep-mcq-29": "「持續維持良好的身體狀態」是「keep fit/healthy」的用法，與本句語境不同。",
-        "keep-mcq-33": "「持續掌握情況／防止混亂」是「keep control/order」的用法，與本句語境不同。",
-        "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。"
+        "keep-mcq-31": "本句的「keep pace with」指「以相同速度或進度前進，不被對方拋離」。",
+        "keep-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-31"
     },
@@ -3406,11 +3102,9 @@ export default {
       "masked": "I struggled to ____ the speaker.",
       "options": [
         "keep-mcq-31",
-        "keep-mcq-30",
-        "keep-mcq-32",
-        "keep-mcq-29",
-        "keep-mcq-33",
-        "keep-mcq-28"
+        "keep-mcq-09",
+        "keep-mcq-26",
+        "keep-mcq-41"
       ],
       "explanation": "本句的「keep pace with」指「以相同速度或進度前進，不被對方拋離」。",
       "sentenceIndex": 76,
@@ -3419,12 +3113,10 @@ export default {
         "keep pace with"
       ],
       "optionReasons": {
-        "keep-mcq-31": "本句指「以相同速度或進度前進，不被對方拋離」。",
-        "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
-        "keep-mcq-29": "「持續維持良好的身體狀態」是「keep fit/healthy」的用法，與本句語境不同。",
-        "keep-mcq-33": "「持續掌握情況／防止混亂」是「keep control/order」的用法，與本句語境不同。",
-        "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。"
+        "keep-mcq-31": "本句的「keep pace with」指「以相同速度或進度前進，不被對方拋離」。",
+        "keep-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-31"
     },
@@ -3436,11 +3128,9 @@ export default {
       "masked": "I practised so I could ____ the discussion.",
       "options": [
         "keep-pdf-002",
-        "keep-mcq-30",
-        "keep-mcq-32",
-        "keep-mcq-29",
-        "keep-mcq-33",
-        "keep-mcq-28"
+        "keep-mcq-35",
+        "keep-mcq-43",
+        "keep-mcq-16"
       ],
       "explanation": "本句的「keep up with」指「跟上某人的速度、知識、進展或變化」。",
       "sentenceIndex": 77,
@@ -3449,12 +3139,10 @@ export default {
         "keep up with"
       ],
       "optionReasons": {
-        "keep-pdf-002": "本句指「跟上某人的速度、知識、進展或變化」。",
-        "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
-        "keep-mcq-29": "「持續維持良好的身體狀態」是「keep fit/healthy」的用法，與本句語境不同。",
-        "keep-mcq-33": "「持續掌握情況／防止混亂」是「keep control/order」的用法，與本句語境不同。",
-        "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。"
+        "keep-pdf-002": "本句的「keep up with」指「跟上某人的速度、知識、進展或變化」。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-pdf-002"
     },
@@ -3466,11 +3154,9 @@ export default {
       "masked": "It is difficult to ____ all the changes.",
       "options": [
         "keep-pdf-002",
-        "keep-mcq-30",
-        "keep-mcq-32",
-        "keep-mcq-29",
-        "keep-mcq-33",
-        "keep-mcq-28"
+        "keep-mcq-34",
+        "keep-mcq-41",
+        "keep-mcq-26"
       ],
       "explanation": "本句的「keep up with」指「跟上某人的速度、知識、進展或變化」。",
       "sentenceIndex": 78,
@@ -3479,12 +3165,10 @@ export default {
         "keep up with"
       ],
       "optionReasons": {
-        "keep-pdf-002": "本句指「跟上某人的速度、知識、進展或變化」。",
-        "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
-        "keep-mcq-29": "「持續維持良好的身體狀態」是「keep fit/healthy」的用法，與本句語境不同。",
-        "keep-mcq-33": "「持續掌握情況／防止混亂」是「keep control/order」的用法，與本句語境不同。",
-        "keep-mcq-28": "「某物在一段時間內仍保持良好／不變壞」是「something keeps — food/product」的用法，與本句語境不同。"
+        "keep-pdf-002": "本句的「keep up with」指「跟上某人的速度、知識、進展或變化」。",
+        "keep-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-pdf-002"
     },
@@ -3496,11 +3180,9 @@ export default {
       "masked": "She held the rail to ____.",
       "options": [
         "keep-mcq-32",
-        "keep-mcq-31",
-        "keep-mcq-33",
-        "keep-mcq-30",
-        "keep-mcq-34",
-        "keep-mcq-29"
+        "keep-mcq-35",
+        "keep-mcq-41",
+        "keep-mcq-10"
       ],
       "explanation": "本句的「keep her balance」指「防止自己失去平衡」。",
       "sentenceIndex": 79,
@@ -3509,12 +3191,10 @@ export default {
         "keep her balance"
       ],
       "optionReasons": {
-        "keep-mcq-32": "本句指「防止自己失去平衡」。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。",
-        "keep-mcq-33": "「持續掌握情況／防止混亂」是「keep control/order」的用法，與本句語境不同。",
-        "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。",
-        "keep-mcq-34": "「在壓力、憤怒或突發情況中仍維持冷靜理性」是「keep your cool/head」的用法，與本句語境不同。",
-        "keep-mcq-29": "「持續維持良好的身體狀態」是「keep fit/healthy」的用法，與本句語境不同。"
+        "keep-mcq-32": "本句的「keep her balance」指「防止自己失去平衡」。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-32"
     },
@@ -3526,11 +3206,9 @@ export default {
       "masked": "It was difficult to ____ on the moving train.",
       "options": [
         "keep-mcq-32",
-        "keep-mcq-31",
-        "keep-mcq-33",
-        "keep-mcq-30",
-        "keep-mcq-34",
-        "keep-mcq-29"
+        "keep-mcq-40",
+        "keep-mcq-15",
+        "keep-mcq-41"
       ],
       "explanation": "本句的「keep my balance」指「防止自己失去平衡」。",
       "sentenceIndex": 80,
@@ -3539,12 +3217,10 @@ export default {
         "keep my balance"
       ],
       "optionReasons": {
-        "keep-mcq-32": "本句指「防止自己失去平衡」。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。",
-        "keep-mcq-33": "「持續掌握情況／防止混亂」是「keep control/order」的用法，與本句語境不同。",
-        "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。",
-        "keep-mcq-34": "「在壓力、憤怒或突發情況中仍維持冷靜理性」是「keep your cool/head」的用法，與本句語境不同。",
-        "keep-mcq-29": "「持續維持良好的身體狀態」是「keep fit/healthy」的用法，與本句語境不同。"
+        "keep-mcq-32": "本句的「keep my balance」指「防止自己失去平衡」。",
+        "keep-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-32"
     },
@@ -3556,11 +3232,9 @@ export default {
       "masked": "I tried to ____ my breathing.",
       "options": [
         "keep-mcq-33",
-        "keep-mcq-32",
-        "keep-mcq-34",
+        "keep-mcq-20",
         "keep-mcq-31",
-        "keep-mcq-35",
-        "keep-mcq-30"
+        "keep-mcq-16"
       ],
       "explanation": "本句的「keep control of」指「持續掌握情況／防止混亂」。",
       "sentenceIndex": 81,
@@ -3569,12 +3243,10 @@ export default {
         "keep control of"
       ],
       "optionReasons": {
-        "keep-mcq-33": "本句指「持續掌握情況／防止混亂」。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
-        "keep-mcq-34": "「在壓力、憤怒或突發情況中仍維持冷靜理性」是「keep your cool/head」的用法，與本句語境不同。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。",
-        "keep-mcq-35": "「暫不過早下結論，願意考慮不同可能性／觀點」是「keep an open mind」的用法，與本句語境不同。",
-        "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。"
+        "keep-mcq-33": "本句的「keep control of」指「持續掌握情況／防止混亂」。",
+        "keep-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-33"
     },
@@ -3586,11 +3258,9 @@ export default {
       "masked": "The manager struggled to ____ the discussion.",
       "options": [
         "keep-mcq-33",
-        "keep-mcq-32",
-        "keep-mcq-34",
-        "keep-mcq-31",
-        "keep-mcq-35",
-        "keep-mcq-30"
+        "keep-mcq-18",
+        "keep-pdf-002",
+        "keep-mcq-26"
       ],
       "explanation": "本句的「keep control of」指「持續掌握情況／防止混亂」。",
       "sentenceIndex": 82,
@@ -3599,12 +3269,10 @@ export default {
         "keep control of"
       ],
       "optionReasons": {
-        "keep-mcq-33": "本句指「持續掌握情況／防止混亂」。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
-        "keep-mcq-34": "「在壓力、憤怒或突發情況中仍維持冷靜理性」是「keep your cool/head」的用法，與本句語境不同。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。",
-        "keep-mcq-35": "「暫不過早下結論，願意考慮不同可能性／觀點」是「keep an open mind」的用法，與本句語境不同。",
-        "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。"
+        "keep-mcq-33": "本句的「keep control of」指「持續掌握情況／防止混亂」。",
+        "keep-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "keep-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-33"
     },
@@ -3616,11 +3284,9 @@ export default {
       "masked": "Security staff helped ____.",
       "options": [
         "keep-mcq-33",
-        "keep-mcq-32",
-        "keep-mcq-34",
-        "keep-mcq-31",
         "keep-mcq-35",
-        "keep-mcq-30"
+        "keep-mcq-15",
+        "keep-mcq-41"
       ],
       "explanation": "本句的「keep order」指「持續掌握情況／防止混亂」。",
       "sentenceIndex": 83,
@@ -3629,12 +3295,10 @@ export default {
         "keep order"
       ],
       "optionReasons": {
-        "keep-mcq-33": "本句指「持續掌握情況／防止混亂」。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
-        "keep-mcq-34": "「在壓力、憤怒或突發情況中仍維持冷靜理性」是「keep your cool/head」的用法，與本句語境不同。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。",
-        "keep-mcq-35": "「暫不過早下結論，願意考慮不同可能性／觀點」是「keep an open mind」的用法，與本句語境不同。",
-        "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。"
+        "keep-mcq-33": "本句的「keep order」指「持續掌握情況／防止混亂」。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-33"
     },
@@ -3646,11 +3310,9 @@ export default {
       "masked": "The chairperson tried to ____ during the meeting.",
       "options": [
         "keep-mcq-33",
-        "keep-mcq-32",
-        "keep-mcq-34",
-        "keep-mcq-31",
         "keep-mcq-35",
-        "keep-mcq-30"
+        "keep-mcq-05",
+        "keep-mcq-19"
       ],
       "explanation": "本句的「keep order」指「持續掌握情況／防止混亂」。",
       "sentenceIndex": 84,
@@ -3659,12 +3321,10 @@ export default {
         "keep order"
       ],
       "optionReasons": {
-        "keep-mcq-33": "本句指「持續掌握情況／防止混亂」。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
-        "keep-mcq-34": "「在壓力、憤怒或突發情況中仍維持冷靜理性」是「keep your cool/head」的用法，與本句語境不同。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。",
-        "keep-mcq-35": "「暫不過早下結論，願意考慮不同可能性／觀點」是「keep an open mind」的用法，與本句語境不同。",
-        "keep-mcq-30": "「持續位於指定方向／道路一側」是「keep left/right」的用法，與本句語境不同。"
+        "keep-mcq-33": "本句的「keep order」指「持續掌握情況／防止混亂」。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-33"
     },
@@ -3676,11 +3336,9 @@ export default {
       "masked": "Even after making a mistake, I tried to ____.",
       "options": [
         "keep-mcq-34",
-        "keep-mcq-33",
-        "keep-mcq-35",
-        "keep-mcq-32",
-        "keep-mcq-36",
-        "keep-mcq-31"
+        "keep-mcq-45",
+        "keep-mcq-26",
+        "keep-mcq-18"
       ],
       "explanation": "本句的「keep my cool」指「在壓力、憤怒或突發情況中仍維持冷靜理性」。",
       "sentenceIndex": 85,
@@ -3689,12 +3347,10 @@ export default {
         "keep my cool"
       ],
       "optionReasons": {
-        "keep-mcq-34": "本句指「在壓力、憤怒或突發情況中仍維持冷靜理性」。",
-        "keep-mcq-33": "「持續掌握情況／防止混亂」是「keep control/order」的用法，與本句語境不同。",
-        "keep-mcq-35": "「暫不過早下結論，願意考慮不同可能性／觀點」是「keep an open mind」的用法，與本句語境不同。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
-        "keep-mcq-36": "「持續提供最新資料，使某人一直掌握情況」是「keep someone informed」的用法，與本句語境不同。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。"
+        "keep-mcq-34": "本句的「keep my cool」指「在壓力、憤怒或突發情況中仍維持冷靜理性」。",
+        "keep-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-34"
     },
@@ -3706,11 +3362,9 @@ export default {
       "masked": "She ____ under pressure.",
       "options": [
         "keep-mcq-34",
-        "keep-mcq-33",
-        "keep-mcq-35",
-        "keep-mcq-32",
-        "keep-mcq-36",
-        "keep-mcq-31"
+        "keep-mcq-18",
+        "keep-mcq-05",
+        "keep-mcq-15"
       ],
       "explanation": "本句的「kept her cool」指「在壓力、憤怒或突發情況中仍維持冷靜理性」。",
       "sentenceIndex": 86,
@@ -3719,12 +3373,10 @@ export default {
         "kept her cool"
       ],
       "optionReasons": {
-        "keep-mcq-34": "本句指「在壓力、憤怒或突發情況中仍維持冷靜理性」。",
-        "keep-mcq-33": "「持續掌握情況／防止混亂」是「keep control/order」的用法，與本句語境不同。",
-        "keep-mcq-35": "「暫不過早下結論，願意考慮不同可能性／觀點」是「keep an open mind」的用法，與本句語境不同。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
-        "keep-mcq-36": "「持續提供最新資料，使某人一直掌握情況」是「keep someone informed」的用法，與本句語境不同。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。"
+        "keep-mcq-34": "本句的「kept her cool」指「在壓力、憤怒或突發情況中仍維持冷靜理性」。",
+        "keep-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-34"
     },
@@ -3736,11 +3388,9 @@ export default {
       "masked": "The key is to ____ when something goes wrong.",
       "options": [
         "keep-mcq-34",
-        "keep-mcq-33",
-        "keep-mcq-35",
-        "keep-mcq-32",
-        "keep-mcq-36",
-        "keep-mcq-31"
+        "keep-mcq-31",
+        "keep-mcq-15",
+        "keep-mcq-32"
       ],
       "explanation": "本句的「keep your head」指「在壓力、憤怒或突發情況中仍維持冷靜理性」。",
       "sentenceIndex": 87,
@@ -3749,12 +3399,10 @@ export default {
         "keep your head"
       ],
       "optionReasons": {
-        "keep-mcq-34": "本句指「在壓力、憤怒或突發情況中仍維持冷靜理性」。",
-        "keep-mcq-33": "「持續掌握情況／防止混亂」是「keep control/order」的用法，與本句語境不同。",
-        "keep-mcq-35": "「暫不過早下結論，願意考慮不同可能性／觀點」是「keep an open mind」的用法，與本句語境不同。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
-        "keep-mcq-36": "「持續提供最新資料，使某人一直掌握情況」是「keep someone informed」的用法，與本句語境不同。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。"
+        "keep-mcq-34": "本句的「keep your head」指「在壓力、憤怒或突發情況中仍維持冷靜理性」。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-34"
     },
@@ -3766,11 +3414,9 @@ export default {
       "masked": "She ____ and finished the presentation.",
       "options": [
         "keep-mcq-34",
-        "keep-mcq-33",
-        "keep-mcq-35",
-        "keep-mcq-32",
-        "keep-mcq-36",
-        "keep-mcq-31"
+        "keep-mcq-26",
+        "keep-mcq-31",
+        "keep-mcq-41"
       ],
       "explanation": "本句的「kept her head」指「在壓力、憤怒或突發情況中仍維持冷靜理性」。",
       "sentenceIndex": 88,
@@ -3779,12 +3425,10 @@ export default {
         "kept her head"
       ],
       "optionReasons": {
-        "keep-mcq-34": "本句指「在壓力、憤怒或突發情況中仍維持冷靜理性」。",
-        "keep-mcq-33": "「持續掌握情況／防止混亂」是「keep control/order」的用法，與本句語境不同。",
-        "keep-mcq-35": "「暫不過早下結論，願意考慮不同可能性／觀點」是「keep an open mind」的用法，與本句語境不同。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。",
-        "keep-mcq-36": "「持續提供最新資料，使某人一直掌握情況」是「keep someone informed」的用法，與本句語境不同。",
-        "keep-mcq-31": "「以相同速度或進度前進，不被對方拋離」是「keep pace with」的用法，與本句語境不同。"
+        "keep-mcq-34": "本句的「kept her head」指「在壓力、憤怒或突發情況中仍維持冷靜理性」。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-34"
     },
@@ -3796,11 +3440,9 @@ export default {
       "masked": "Try to ____ when receiving feedback.",
       "options": [
         "keep-mcq-35",
-        "keep-mcq-34",
-        "keep-mcq-36",
-        "keep-mcq-33",
-        "keep-mcq-37",
-        "keep-mcq-32"
+        "keep-mcq-10",
+        "keep-mcq-06",
+        "keep-mcq-27"
       ],
       "explanation": "本句的「keep an open mind」指「暫不過早下結論，願意考慮不同可能性／觀點」。",
       "sentenceIndex": 89,
@@ -3809,12 +3451,10 @@ export default {
         "keep an open mind"
       ],
       "optionReasons": {
-        "keep-mcq-35": "本句指「暫不過早下結論，願意考慮不同可能性／觀點」。",
-        "keep-mcq-34": "「在壓力、憤怒或突發情況中仍維持冷靜理性」是「keep your cool/head」的用法，與本句語境不同。",
-        "keep-mcq-36": "「持續提供最新資料，使某人一直掌握情況」是「keep someone informed」的用法，與本句語境不同。",
-        "keep-mcq-33": "「持續掌握情況／防止混亂」是「keep control/order」的用法，與本句語境不同。",
-        "keep-mcq-37": "「持續記住某項重要資訊並在判斷／行動時考慮」是「keep something in mind」的用法，與本句語境不同。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。"
+        "keep-mcq-35": "本句的「keep an open mind」指「暫不過早下結論，願意考慮不同可能性／觀點」。",
+        "keep-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-35"
     },
@@ -3826,11 +3466,9 @@ export default {
       "masked": "I decided to ____ about the opportunity.",
       "options": [
         "keep-mcq-35",
-        "keep-mcq-34",
-        "keep-mcq-36",
-        "keep-mcq-33",
-        "keep-mcq-37",
-        "keep-mcq-32"
+        "keep-mcq-01",
+        "keep-mcq-06",
+        "keep-mcq-26"
       ],
       "explanation": "本句的「keep an open mind」指「暫不過早下結論，願意考慮不同可能性／觀點」。",
       "sentenceIndex": 90,
@@ -3839,12 +3477,10 @@ export default {
         "keep an open mind"
       ],
       "optionReasons": {
-        "keep-mcq-35": "本句指「暫不過早下結論，願意考慮不同可能性／觀點」。",
-        "keep-mcq-34": "「在壓力、憤怒或突發情況中仍維持冷靜理性」是「keep your cool/head」的用法，與本句語境不同。",
-        "keep-mcq-36": "「持續提供最新資料，使某人一直掌握情況」是「keep someone informed」的用法，與本句語境不同。",
-        "keep-mcq-33": "「持續掌握情況／防止混亂」是「keep control/order」的用法，與本句語境不同。",
-        "keep-mcq-37": "「持續記住某項重要資訊並在判斷／行動時考慮」是「keep something in mind」的用法，與本句語境不同。",
-        "keep-mcq-32": "「防止自己失去平衡」是「keep your balance」的用法，與本句語境不同。"
+        "keep-mcq-35": "本句的「keep an open mind」指「暫不過早下結論，願意考慮不同可能性／觀點」。",
+        "keep-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-35"
     },
@@ -3856,11 +3492,9 @@ export default {
       "masked": "Please ____ about any changes.",
       "options": [
         "keep-mcq-36",
-        "keep-mcq-35",
-        "keep-mcq-37",
-        "keep-mcq-34",
-        "keep-mcq-38",
-        "keep-mcq-33"
+        "keep-mcq-16",
+        "keep-mcq-19",
+        "keep-mcq-14"
       ],
       "explanation": "本句的「keep me informed」指「持續提供最新資料，使某人一直掌握情況」。",
       "sentenceIndex": 91,
@@ -3869,12 +3503,10 @@ export default {
         "keep me informed"
       ],
       "optionReasons": {
-        "keep-mcq-36": "本句指「持續提供最新資料，使某人一直掌握情況」。",
-        "keep-mcq-35": "「暫不過早下結論，願意考慮不同可能性／觀點」是「keep an open mind」的用法，與本句語境不同。",
-        "keep-mcq-37": "「持續記住某項重要資訊並在判斷／行動時考慮」是「keep something in mind」的用法，與本句語境不同。",
-        "keep-mcq-34": "「在壓力、憤怒或突發情況中仍維持冷靜理性」是「keep your cool/head」的用法，與本句語境不同。",
-        "keep-mcq-38": "「維持實際或比喻上的距離，不過分接近／介入」是「keep your distance」的用法，與本句語境不同。",
-        "keep-mcq-33": "「持續掌握情況／防止混亂」是「keep control/order」的用法，與本句語境不同。"
+        "keep-mcq-36": "本句的「keep me informed」指「持續提供最新資料，使某人一直掌握情況」。",
+        "keep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-36"
     },
@@ -3886,11 +3518,9 @@ export default {
       "masked": "The manager ____ throughout the project.",
       "options": [
         "keep-mcq-36",
-        "keep-mcq-35",
-        "keep-mcq-37",
-        "keep-mcq-34",
-        "keep-mcq-38",
-        "keep-mcq-33"
+        "keep-mcq-26",
+        "keep-mcq-05",
+        "keep-mcq-35"
       ],
       "explanation": "本句的「kept the team informed」指「持續提供最新資料，使某人一直掌握情況」。",
       "sentenceIndex": 92,
@@ -3899,12 +3529,10 @@ export default {
         "kept the team informed"
       ],
       "optionReasons": {
-        "keep-mcq-36": "本句指「持續提供最新資料，使某人一直掌握情況」。",
-        "keep-mcq-35": "「暫不過早下結論，願意考慮不同可能性／觀點」是「keep an open mind」的用法，與本句語境不同。",
-        "keep-mcq-37": "「持續記住某項重要資訊並在判斷／行動時考慮」是「keep something in mind」的用法，與本句語境不同。",
-        "keep-mcq-34": "「在壓力、憤怒或突發情況中仍維持冷靜理性」是「keep your cool/head」的用法，與本句語境不同。",
-        "keep-mcq-38": "「維持實際或比喻上的距離，不過分接近／介入」是「keep your distance」的用法，與本句語境不同。",
-        "keep-mcq-33": "「持續掌握情況／防止混亂」是「keep control/order」的用法，與本句語境不同。"
+        "keep-mcq-36": "本句的「kept the team informed」指「持續提供最新資料，使某人一直掌握情況」。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-36"
     },
@@ -3916,11 +3544,9 @@ export default {
       "masked": "____ that the audience may be nervous too.",
       "options": [
         "keep-mcq-37",
-        "keep-mcq-36",
-        "keep-mcq-38",
-        "keep-mcq-35",
-        "keep-mcq-39",
-        "keep-mcq-34"
+        "keep-mcq-44",
+        "keep-mcq-31",
+        "keep-mcq-15"
       ],
       "explanation": "本句的「Keep in mind」指「持續記住某項重要資訊並在判斷／行動時考慮」。",
       "sentenceIndex": 93,
@@ -3929,12 +3555,10 @@ export default {
         "Keep in mind"
       ],
       "optionReasons": {
-        "keep-mcq-37": "本句指「持續記住某項重要資訊並在判斷／行動時考慮」。",
-        "keep-mcq-36": "「持續提供最新資料，使某人一直掌握情況」是「keep someone informed」的用法，與本句語境不同。",
-        "keep-mcq-38": "「維持實際或比喻上的距離，不過分接近／介入」是「keep your distance」的用法，與本句語境不同。",
-        "keep-mcq-35": "「暫不過早下結論，願意考慮不同可能性／觀點」是「keep an open mind」的用法，與本句語境不同。",
-        "keep-mcq-39": "「負責照顧、管理、看守某人／某物的人」是「keeper — person」的用法，與本句語境不同。",
-        "keep-mcq-34": "「在壓力、憤怒或突發情況中仍維持冷靜理性」是「keep your cool/head」的用法，與本句語境不同。"
+        "keep-mcq-37": "本句的「Keep in mind」指「持續記住某項重要資訊並在判斷／行動時考慮」。",
+        "keep-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-37"
     },
@@ -3946,11 +3570,9 @@ export default {
       "masked": "I kept that advice ____ during the presentation.",
       "options": [
         "keep-mcq-37",
-        "keep-mcq-36",
-        "keep-mcq-38",
-        "keep-mcq-35",
-        "keep-mcq-39",
-        "keep-mcq-34"
+        "keep-mcq-05",
+        "keep-mcq-44",
+        "keep-mcq-31"
       ],
       "explanation": "本句的「in mind」指「持續記住某項重要資訊並在判斷／行動時考慮」。",
       "sentenceIndex": 94,
@@ -3959,12 +3581,10 @@ export default {
         "in mind"
       ],
       "optionReasons": {
-        "keep-mcq-37": "本句指「持續記住某項重要資訊並在判斷／行動時考慮」。",
-        "keep-mcq-36": "「持續提供最新資料，使某人一直掌握情況」是「keep someone informed」的用法，與本句語境不同。",
-        "keep-mcq-38": "「維持實際或比喻上的距離，不過分接近／介入」是「keep your distance」的用法，與本句語境不同。",
-        "keep-mcq-35": "「暫不過早下結論，願意考慮不同可能性／觀點」是「keep an open mind」的用法，與本句語境不同。",
-        "keep-mcq-39": "「負責照顧、管理、看守某人／某物的人」是「keeper — person」的用法，與本句語境不同。",
-        "keep-mcq-34": "「在壓力、憤怒或突發情況中仍維持冷靜理性」是「keep your cool/head」的用法，與本句語境不同。"
+        "keep-mcq-37": "本句的「in mind」指「持續記住某項重要資訊並在判斷／行動時考慮」。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-37"
     },
@@ -3976,11 +3596,9 @@ export default {
       "masked": "Please ____ from the equipment.",
       "options": [
         "keep-mcq-38",
-        "keep-mcq-37",
-        "keep-mcq-39",
-        "keep-mcq-36",
-        "keep-mcq-40",
-        "keep-mcq-35"
+        "keep-mcq-05",
+        "keep-pdf-002",
+        "keep-mcq-18"
       ],
       "explanation": "本句的「keep your distance」指「維持實際或比喻上的距離，不過分接近／介入」。",
       "sentenceIndex": 95,
@@ -3989,12 +3607,10 @@ export default {
         "keep your distance"
       ],
       "optionReasons": {
-        "keep-mcq-38": "本句指「維持實際或比喻上的距離，不過分接近／介入」。",
-        "keep-mcq-37": "「持續記住某項重要資訊並在判斷／行動時考慮」是「keep something in mind」的用法，與本句語境不同。",
-        "keep-mcq-39": "「負責照顧、管理、看守某人／某物的人」是「keeper — person」的用法，與本句語境不同。",
-        "keep-mcq-36": "「持續提供最新資料，使某人一直掌握情況」是「keep someone informed」的用法，與本句語境不同。",
-        "keep-mcq-40": "「質素很好、值得長期保留／珍惜的人或物」是「a keeper — informal」的用法，與本句語境不同。",
-        "keep-mcq-35": "「暫不過早下結論，願意考慮不同可能性／觀點」是「keep an open mind」的用法，與本句語境不同。"
+        "keep-mcq-38": "本句的「keep your distance」指「維持實際或比喻上的距離，不過分接近／介入」。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "keep-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-38"
     },
@@ -4006,11 +3622,9 @@ export default {
       "masked": "He preferred to ____ from office politics.",
       "options": [
         "keep-mcq-38",
-        "keep-mcq-37",
-        "keep-mcq-39",
-        "keep-mcq-36",
-        "keep-mcq-40",
-        "keep-mcq-35"
+        "keep-mcq-05",
+        "keep-mcq-14",
+        "keep-mcq-26"
       ],
       "explanation": "本句的「keep his distance」指「維持實際或比喻上的距離，不過分接近／介入」。",
       "sentenceIndex": 96,
@@ -4019,12 +3633,10 @@ export default {
         "keep his distance"
       ],
       "optionReasons": {
-        "keep-mcq-38": "本句指「維持實際或比喻上的距離，不過分接近／介入」。",
-        "keep-mcq-37": "「持續記住某項重要資訊並在判斷／行動時考慮」是「keep something in mind」的用法，與本句語境不同。",
-        "keep-mcq-39": "「負責照顧、管理、看守某人／某物的人」是「keeper — person」的用法，與本句語境不同。",
-        "keep-mcq-36": "「持續提供最新資料，使某人一直掌握情況」是「keep someone informed」的用法，與本句語境不同。",
-        "keep-mcq-40": "「質素很好、值得長期保留／珍惜的人或物」是「a keeper — informal」的用法，與本句語境不同。",
-        "keep-mcq-35": "「暫不過早下結論，願意考慮不同可能性／觀點」是「keep an open mind」的用法，與本句語境不同。"
+        "keep-mcq-38": "本句的「keep his distance」指「維持實際或比喻上的距離，不過分接近／介入」。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-38"
     },
@@ -4036,11 +3648,9 @@ export default {
       "masked": "The door is designed to ____.",
       "options": [
         "keep-mcq-46",
-        "keep-mcq-45",
-        "keep-mcq-44",
-        "keep-mcq-43",
-        "keep-mcq-42",
-        "keep-mcq-41"
+        "keep-mcq-29",
+        "keep-mcq-35",
+        "keep-mcq-16"
       ],
       "explanation": "本句的「keep noise out」指「阻止某人／某物進入某個地方」。",
       "sentenceIndex": 97,
@@ -4049,12 +3659,10 @@ export default {
         "keep noise out"
       ],
       "optionReasons": {
-        "keep-mcq-46": "本句指「阻止某人／某物進入某個地方」。",
-        "keep-mcq-45": "「提供某人生活所需要的金錢／物資」是「32. keep = support financially（供養） — 供養；維持生活」的用法，與本句語境不同。",
-        "keep-mcq-44": "「管理家庭日常事務、清潔、做飯等」是「29. keep house（料理家務／維持家庭） — 料理家務」的用法，與本句語境不同。",
-        "keep-mcq-43": "「使某物保持在遠處／不能接近」是「18. keep something away（使遠離） — 擋住；使不接近」的用法，與本句語境不同。",
-        "keep-mcq-42": "「防止某事偏離／離開目前理想狀態」是「13. keep = prevent from changing/stopping（維持） — 維持；保持不變」的用法，與本句語境不同。",
-        "keep-mcq-41": "「永久地；或表示事情是認真的、有實際後果的」是「for keeps」的用法，與本句語境不同。"
+        "keep-mcq-46": "本句的「keep noise out」指「阻止某人／某物進入某個地方」。",
+        "keep-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-46"
     },
@@ -4066,11 +3674,9 @@ export default {
       "masked": "Security kept unauthorized visitors ____.",
       "options": [
         "keep-mcq-46",
-        "keep-mcq-45",
-        "keep-mcq-44",
-        "keep-mcq-43",
-        "keep-mcq-42",
-        "keep-mcq-41"
+        "keep-mcq-28",
+        "keep-mcq-18",
+        "keep-mcq-35"
       ],
       "explanation": "本句的「out」指「阻止某人／某物進入某個地方」。",
       "sentenceIndex": 98,
@@ -4079,12 +3685,10 @@ export default {
         "out"
       ],
       "optionReasons": {
-        "keep-mcq-46": "本句指「阻止某人／某物進入某個地方」。",
-        "keep-mcq-45": "「提供某人生活所需要的金錢／物資」是「32. keep = support financially（供養） — 供養；維持生活」的用法，與本句語境不同。",
-        "keep-mcq-44": "「管理家庭日常事務、清潔、做飯等」是「29. keep house（料理家務／維持家庭） — 料理家務」的用法，與本句語境不同。",
-        "keep-mcq-43": "「使某物保持在遠處／不能接近」是「18. keep something away（使遠離） — 擋住；使不接近」的用法，與本句語境不同。",
-        "keep-mcq-42": "「防止某事偏離／離開目前理想狀態」是「13. keep = prevent from changing/stopping（維持） — 維持；保持不變」的用法，與本句語境不同。",
-        "keep-mcq-41": "「永久地；或表示事情是認真的、有實際後果的」是「for keeps」的用法，與本句語境不同。"
+        "keep-mcq-46": "本句的「out」指「阻止某人／某物進入某個地方」。",
+        "keep-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-46"
     },
@@ -4096,11 +3700,9 @@ export default {
       "masked": "The animal ____ checked the enclosure.",
       "options": [
         "keep-mcq-39",
-        "keep-mcq-38",
-        "keep-mcq-40",
-        "keep-mcq-37",
-        "keep-mcq-41",
-        "keep-mcq-36"
+        "keep-mcq-06",
+        "keep-mcq-31",
+        "keep-pdf-001"
       ],
       "explanation": "本句的「keeper」指「負責照顧、管理、看守某人／某物的人」。",
       "sentenceIndex": 99,
@@ -4109,12 +3711,10 @@ export default {
         "keeper"
       ],
       "optionReasons": {
-        "keep-mcq-39": "本句指「負責照顧、管理、看守某人／某物的人」。",
-        "keep-mcq-38": "「維持實際或比喻上的距離，不過分接近／介入」是「keep your distance」的用法，與本句語境不同。",
-        "keep-mcq-40": "「質素很好、值得長期保留／珍惜的人或物」是「a keeper — informal」的用法，與本句語境不同。",
-        "keep-mcq-37": "「持續記住某項重要資訊並在判斷／行動時考慮」是「keep something in mind」的用法，與本句語境不同。",
-        "keep-mcq-41": "「永久地；或表示事情是認真的、有實際後果的」是「for keeps」的用法，與本句語境不同。",
-        "keep-mcq-36": "「持續提供最新資料，使某人一直掌握情況」是「keep someone informed」的用法，與本句語境不同。"
+        "keep-mcq-39": "本句的「keeper」指「負責照顧、管理、看守某人／某物的人」。",
+        "keep-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "keep-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-39"
     },
@@ -4126,11 +3726,9 @@ export default {
       "masked": "The museum ____ looked after the collection.",
       "options": [
         "keep-mcq-39",
-        "keep-mcq-38",
-        "keep-mcq-40",
-        "keep-mcq-37",
-        "keep-mcq-41",
-        "keep-mcq-36"
+        "keep-mcq-19",
+        "keep-mcq-01",
+        "keep-mcq-05"
       ],
       "explanation": "本句的「keeper」指「負責照顧、管理、看守某人／某物的人」。",
       "sentenceIndex": 100,
@@ -4139,12 +3737,10 @@ export default {
         "keeper"
       ],
       "optionReasons": {
-        "keep-mcq-39": "本句指「負責照顧、管理、看守某人／某物的人」。",
-        "keep-mcq-38": "「維持實際或比喻上的距離，不過分接近／介入」是「keep your distance」的用法，與本句語境不同。",
-        "keep-mcq-40": "「質素很好、值得長期保留／珍惜的人或物」是「a keeper — informal」的用法，與本句語境不同。",
-        "keep-mcq-37": "「持續記住某項重要資訊並在判斷／行動時考慮」是「keep something in mind」的用法，與本句語境不同。",
-        "keep-mcq-41": "「永久地；或表示事情是認真的、有實際後果的」是「for keeps」的用法，與本句語境不同。",
-        "keep-mcq-36": "「持續提供最新資料，使某人一直掌握情況」是「keep someone informed」的用法，與本句語境不同。"
+        "keep-mcq-39": "本句的「keeper」指「負責照顧、管理、看守某人／某物的人」。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-39"
     },
@@ -4156,11 +3752,9 @@ export default {
       "masked": "The ____ saved the shot.",
       "options": [
         "keep-mcq-39",
-        "keep-mcq-38",
-        "keep-mcq-40",
-        "keep-mcq-37",
-        "keep-mcq-41",
-        "keep-mcq-36"
+        "keep-mcq-43",
+        "keep-mcq-31",
+        "keep-pdf-001"
       ],
       "explanation": "本句的「goalkeeper」指「負責照顧、管理、看守某人／某物的人」。",
       "sentenceIndex": 101,
@@ -4169,12 +3763,10 @@ export default {
         "goalkeeper"
       ],
       "optionReasons": {
-        "keep-mcq-39": "本句指「負責照顧、管理、看守某人／某物的人」。",
-        "keep-mcq-38": "「維持實際或比喻上的距離，不過分接近／介入」是「keep your distance」的用法，與本句語境不同。",
-        "keep-mcq-40": "「質素很好、值得長期保留／珍惜的人或物」是「a keeper — informal」的用法，與本句語境不同。",
-        "keep-mcq-37": "「持續記住某項重要資訊並在判斷／行動時考慮」是「keep something in mind」的用法，與本句語境不同。",
-        "keep-mcq-41": "「永久地；或表示事情是認真的、有實際後果的」是「for keeps」的用法，與本句語境不同。",
-        "keep-mcq-36": "「持續提供最新資料，使某人一直掌握情況」是「keep someone informed」的用法，與本句語境不同。"
+        "keep-mcq-39": "本句的「goalkeeper」指「負責照顧、管理、看守某人／某物的人」。",
+        "keep-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "keep-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-39"
     },
@@ -4186,11 +3778,9 @@ export default {
       "masked": "The ____ caught the ball.",
       "options": [
         "keep-mcq-39",
-        "keep-mcq-38",
-        "keep-mcq-40",
-        "keep-mcq-37",
+        "keep-pdf-001",
         "keep-mcq-41",
-        "keep-mcq-36"
+        "keep-mcq-04"
       ],
       "explanation": "本句的「wicketkeeper」指「負責照顧、管理、看守某人／某物的人」。",
       "sentenceIndex": 102,
@@ -4199,12 +3789,10 @@ export default {
         "wicketkeeper"
       ],
       "optionReasons": {
-        "keep-mcq-39": "本句指「負責照顧、管理、看守某人／某物的人」。",
-        "keep-mcq-38": "「維持實際或比喻上的距離，不過分接近／介入」是「keep your distance」的用法，與本句語境不同。",
-        "keep-mcq-40": "「質素很好、值得長期保留／珍惜的人或物」是「a keeper — informal」的用法，與本句語境不同。",
-        "keep-mcq-37": "「持續記住某項重要資訊並在判斷／行動時考慮」是「keep something in mind」的用法，與本句語境不同。",
-        "keep-mcq-41": "「永久地；或表示事情是認真的、有實際後果的」是「for keeps」的用法，與本句語境不同。",
-        "keep-mcq-36": "「持續提供最新資料，使某人一直掌握情況」是「keep someone informed」的用法，與本句語境不同。"
+        "keep-mcq-39": "本句的「wicketkeeper」指「負責照顧、管理、看守某人／某物的人」。",
+        "keep-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-39"
     },
@@ -4216,11 +3804,9 @@ export default {
       "masked": "This recipe is definitely a ____.",
       "options": [
         "keep-mcq-40",
-        "keep-mcq-39",
-        "keep-mcq-41",
-        "keep-mcq-38",
-        "keep-mcq-42",
-        "keep-mcq-37"
+        "keep-mcq-20",
+        "keep-mcq-19",
+        "keep-mcq-16"
       ],
       "explanation": "本句的「keeper」指「質素很好、值得長期保留／珍惜的人或物」。",
       "sentenceIndex": 103,
@@ -4229,12 +3815,10 @@ export default {
         "keeper"
       ],
       "optionReasons": {
-        "keep-mcq-40": "本句指「質素很好、值得長期保留／珍惜的人或物」。",
-        "keep-mcq-39": "「負責照顧、管理、看守某人／某物的人」是「keeper — person」的用法，與本句語境不同。",
-        "keep-mcq-41": "「永久地；或表示事情是認真的、有實際後果的」是「for keeps」的用法，與本句語境不同。",
-        "keep-mcq-38": "「維持實際或比喻上的距離，不過分接近／介入」是「keep your distance」的用法，與本句語境不同。",
-        "keep-mcq-42": "「防止某事偏離／離開目前理想狀態」是「13. keep = prevent from changing/stopping（維持） — 維持；保持不變」的用法，與本句語境不同。",
-        "keep-mcq-37": "「持續記住某項重要資訊並在判斷／行動時考慮」是「keep something in mind」的用法，與本句語境不同。"
+        "keep-mcq-40": "本句的「keeper」指「質素很好、值得長期保留／珍惜的人或物」。",
+        "keep-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-40"
     },
@@ -4246,11 +3830,9 @@ export default {
       "masked": "Everyone likes her—she’s a ____.",
       "options": [
         "keep-mcq-40",
-        "keep-mcq-39",
-        "keep-mcq-41",
-        "keep-mcq-38",
-        "keep-mcq-42",
-        "keep-mcq-37"
+        "keep-mcq-31",
+        "keep-mcq-20",
+        "keep-mcq-19"
       ],
       "explanation": "本句的「keeper」指「質素很好、值得長期保留／珍惜的人或物」。",
       "sentenceIndex": 104,
@@ -4259,12 +3841,10 @@ export default {
         "keeper"
       ],
       "optionReasons": {
-        "keep-mcq-40": "本句指「質素很好、值得長期保留／珍惜的人或物」。",
-        "keep-mcq-39": "「負責照顧、管理、看守某人／某物的人」是「keeper — person」的用法，與本句語境不同。",
-        "keep-mcq-41": "「永久地；或表示事情是認真的、有實際後果的」是「for keeps」的用法，與本句語境不同。",
-        "keep-mcq-38": "「維持實際或比喻上的距離，不過分接近／介入」是「keep your distance」的用法，與本句語境不同。",
-        "keep-mcq-42": "「防止某事偏離／離開目前理想狀態」是「13. keep = prevent from changing/stopping（維持） — 維持；保持不變」的用法，與本句語境不同。",
-        "keep-mcq-37": "「持續記住某項重要資訊並在判斷／行動時考慮」是「keep something in mind」的用法，與本句語境不同。"
+        "keep-mcq-40": "本句的「keeper」指「質素很好、值得長期保留／珍惜的人或物」。",
+        "keep-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-40"
     },
@@ -4276,11 +3856,9 @@ export default {
       "masked": "You can have it ____.",
       "options": [
         "keep-mcq-41",
-        "keep-mcq-40",
-        "keep-mcq-42",
-        "keep-mcq-39",
-        "keep-mcq-43",
-        "keep-mcq-38"
+        "keep-mcq-22",
+        "keep-mcq-16",
+        "keep-mcq-26"
       ],
       "explanation": "本句的「for keeps」指「永久地；或表示事情是認真的、有實際後果的」。",
       "sentenceIndex": 105,
@@ -4289,12 +3867,10 @@ export default {
         "for keeps"
       ],
       "optionReasons": {
-        "keep-mcq-41": "本句指「永久地；或表示事情是認真的、有實際後果的」。",
-        "keep-mcq-40": "「質素很好、值得長期保留／珍惜的人或物」是「a keeper — informal」的用法，與本句語境不同。",
-        "keep-mcq-42": "「防止某事偏離／離開目前理想狀態」是「13. keep = prevent from changing/stopping（維持） — 維持；保持不變」的用法，與本句語境不同。",
-        "keep-mcq-39": "「負責照顧、管理、看守某人／某物的人」是「keeper — person」的用法，與本句語境不同。",
-        "keep-mcq-43": "「使某物保持在遠處／不能接近」是「18. keep something away（使遠離） — 擋住；使不接近」的用法，與本句語境不同。",
-        "keep-mcq-38": "「維持實際或比喻上的距離，不過分接近／介入」是「keep your distance」的用法，與本句語境不同。"
+        "keep-mcq-41": "本句的「for keeps」指「永久地；或表示事情是認真的、有實際後果的」。",
+        "keep-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-41"
     },
@@ -4306,11 +3882,9 @@ export default {
       "masked": "This time they are competing ____.",
       "options": [
         "keep-mcq-41",
-        "keep-mcq-40",
-        "keep-mcq-42",
-        "keep-mcq-39",
-        "keep-mcq-43",
-        "keep-mcq-38"
+        "keep-mcq-20",
+        "keep-mcq-19",
+        "keep-mcq-42"
       ],
       "explanation": "本句的「for keeps」指「永久地；或表示事情是認真的、有實際後果的」。",
       "sentenceIndex": 106,
@@ -4319,12 +3893,10 @@ export default {
         "for keeps"
       ],
       "optionReasons": {
-        "keep-mcq-41": "本句指「永久地；或表示事情是認真的、有實際後果的」。",
-        "keep-mcq-40": "「質素很好、值得長期保留／珍惜的人或物」是「a keeper — informal」的用法，與本句語境不同。",
-        "keep-mcq-42": "「防止某事偏離／離開目前理想狀態」是「13. keep = prevent from changing/stopping（維持） — 維持；保持不變」的用法，與本句語境不同。",
-        "keep-mcq-39": "「負責照顧、管理、看守某人／某物的人」是「keeper — person」的用法，與本句語境不同。",
-        "keep-mcq-43": "「使某物保持在遠處／不能接近」是「18. keep something away（使遠離） — 擋住；使不接近」的用法，與本句語境不同。",
-        "keep-mcq-38": "「維持實際或比喻上的距離，不過分接近／介入」是「keep your distance」的用法，與本句語境不同。"
+        "keep-mcq-41": "本句的「for keeps」指「永久地；或表示事情是認真的、有實際後果的」。",
+        "keep-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "keep-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "keep-mcq-41"
     }
@@ -4336,5 +3908,7 @@ export default {
     "sha256": "9ddd10377dd0e6c150600e784abfd0032afa939612f941d40fc70f24b60d72f7",
     "pages": 39
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

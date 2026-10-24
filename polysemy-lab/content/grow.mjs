@@ -792,16 +792,6 @@ export default {
           "Consumer spending can affect economic growth.",
           "消費者支出可以影響經濟增長。",
           "經濟產出／活動規模隨時間增加"
-        ],
-        [
-          "The city has experienced rapid population growth.",
-          "這個城市經歷快速的人口增長。",
-          "經濟產出／活動規模隨時間增加"
-        ],
-        [
-          "Population growth has slowed.",
-          "人口增長已經放緩。",
-          "經濟產出／活動規模隨時間增加"
         ]
       ],
       "options": [],
@@ -815,16 +805,6 @@ export default {
       "zh": "身體上長出的異常組織／腫塊",
       "note": "來源詞義：身體上長出的異常組織／腫塊",
       "examples": [
-        [
-          "Plants need light for healthy growth.",
-          "植物需要光線才能健康生長。",
-          "身體上長出的異常組織／腫塊"
-        ],
-        [
-          "Nutrition affects childhood growth.",
-          "營養會影響兒童發育／成長。",
-          "身體上長出的異常組織／腫塊"
-        ],
         [
           "The doctor found a small growth.",
           "醫生發現一個小腫塊／增生組織。",
@@ -1024,6 +1004,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "grow-reviewed-3c32dad585",
+      "title": "人口增長",
+      "form": "grow · source section 41",
+      "en": "人口增長",
+      "zh": "人口增長",
+      "note": "對照原始教材第 41 節及例句核實。",
+      "examples": [
+        [
+          "The city has experienced rapid population growth.",
+          "這個城市經歷快速的人口增長。",
+          "人口增長"
+        ],
+        [
+          "Population growth has slowed.",
+          "人口增長已經放緩。",
+          "人口增長"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "grow-reviewed-c682bbda48",
+      "title": "生物體尺寸、細胞、組織或成熟度增加的過程",
+      "form": "grow · source section 42",
+      "en": "生物體尺寸、細胞、組織或成熟度增加的過程",
+      "zh": "生物體尺寸、細胞、組織或成熟度增加的過程",
+      "note": "對照原始教材第 42 節及例句核實。",
+      "examples": [
+        [
+          "Plants need light for healthy growth.",
+          "植物需要光線才能健康生長。",
+          "生物體尺寸、細胞、組織或成熟度增加的過程"
+        ],
+        [
+          "Nutrition affects childhood growth.",
+          "營養會影響兒童發育／成長。",
+          "生物體尺寸、細胞、組織或成熟度增加的過程"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1035,11 +1059,9 @@ export default {
       "masked": "Confidence ____ when you do hard things anyway.",
       "options": [
         "grow-mcq-01",
-        "grow-mcq-02",
-        "grow-mcq-03",
-        "grow-mcq-04",
-        "grow-mcq-05",
-        "grow-mcq-06"
+        "grow-mcq-16",
+        "grow-pdf-001",
+        "grow-mcq-35"
       ],
       "explanation": "本句的「grows」指「某種能力、品質、感情或狀態隨時間逐漸變強／增加」。",
       "sentenceIndex": 0,
@@ -1048,12 +1070,10 @@ export default {
         "grows"
       ],
       "optionReasons": {
-        "grow-mcq-01": "本句指「某種能力、品質、感情或狀態隨時間逐漸變強／增加」。",
-        "grow-mcq-02": "「自信透過經驗逐步建立並變強」是「confidence grows」的用法，與本句語境不同。",
-        "grow-mcq-03": "「在自信方面逐漸增強；變得更有自信」是「grow in confidence」的用法，與本句語境不同。",
-        "grow-mcq-04": "「隨時間逐漸進入更強／弱的狀態」是「grow stronger/weaker」的用法，與本句語境不同。",
-        "grow-mcq-05": "「某個狀態逐步加深；愈來愈……」是「grow more + adjective」的用法，與本句語境不同。",
-        "grow-mcq-06": "「身體／物體的尺寸逐漸增加」是「grow — size」的用法，與本句語境不同。"
+        "grow-mcq-01": "本句的「grows」指「某種能力、品質、感情或狀態隨時間逐漸變強／增加」。",
+        "grow-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-01"
     },
@@ -1065,11 +1085,9 @@ export default {
       "masked": "Her confidence ____ after each presentation.",
       "options": [
         "grow-mcq-01",
-        "grow-mcq-02",
-        "grow-mcq-03",
-        "grow-mcq-04",
-        "grow-mcq-05",
-        "grow-mcq-06"
+        "grow-mcq-39",
+        "grow-mcq-38",
+        "grow-mcq-35"
       ],
       "explanation": "本句的「grew」指「某種能力、品質、感情或狀態隨時間逐漸變強／增加」。",
       "sentenceIndex": 1,
@@ -1078,12 +1096,10 @@ export default {
         "grew"
       ],
       "optionReasons": {
-        "grow-mcq-01": "本句指「某種能力、品質、感情或狀態隨時間逐漸變強／增加」。",
-        "grow-mcq-02": "「自信透過經驗逐步建立並變強」是「confidence grows」的用法，與本句語境不同。",
-        "grow-mcq-03": "「在自信方面逐漸增強；變得更有自信」是「grow in confidence」的用法，與本句語境不同。",
-        "grow-mcq-04": "「隨時間逐漸進入更強／弱的狀態」是「grow stronger/weaker」的用法，與本句語境不同。",
-        "grow-mcq-05": "「某個狀態逐步加深；愈來愈……」是「grow more + adjective」的用法，與本句語境不同。",
-        "grow-mcq-06": "「身體／物體的尺寸逐漸增加」是「grow — size」的用法，與本句語境不同。"
+        "grow-mcq-01": "本句的「grew」指「某種能力、品質、感情或狀態隨時間逐漸變強／增加」。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-01"
     },
@@ -1095,11 +1111,9 @@ export default {
       "masked": "Trust ____ slowly.",
       "options": [
         "grow-mcq-01",
-        "grow-mcq-02",
-        "grow-mcq-03",
-        "grow-mcq-04",
-        "grow-mcq-05",
-        "grow-mcq-06"
+        "grow-mcq-39",
+        "grow-mcq-36",
+        "grow-mcq-35"
       ],
       "explanation": "本句的「grows」指「某種能力、品質、感情或狀態隨時間逐漸變強／增加」。",
       "sentenceIndex": 2,
@@ -1108,12 +1122,10 @@ export default {
         "grows"
       ],
       "optionReasons": {
-        "grow-mcq-01": "本句指「某種能力、品質、感情或狀態隨時間逐漸變強／增加」。",
-        "grow-mcq-02": "「自信透過經驗逐步建立並變強」是「confidence grows」的用法，與本句語境不同。",
-        "grow-mcq-03": "「在自信方面逐漸增強；變得更有自信」是「grow in confidence」的用法，與本句語境不同。",
-        "grow-mcq-04": "「隨時間逐漸進入更強／弱的狀態」是「grow stronger/weaker」的用法，與本句語境不同。",
-        "grow-mcq-05": "「某個狀態逐步加深；愈來愈……」是「grow more + adjective」的用法，與本句語境不同。",
-        "grow-mcq-06": "「身體／物體的尺寸逐漸增加」是「grow — size」的用法，與本句語境不同。"
+        "grow-mcq-01": "本句的「grows」指「某種能力、品質、感情或狀態隨時間逐漸變強／增加」。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-01"
     },
@@ -1125,11 +1137,9 @@ export default {
       "masked": "She ____ as the project progressed.",
       "options": [
         "grow-mcq-03",
-        "grow-mcq-02",
-        "grow-mcq-04",
-        "grow-mcq-01",
-        "grow-mcq-05",
-        "grow-mcq-06"
+        "grow-mcq-37",
+        "grow-mcq-35",
+        "grow-pdf-001"
       ],
       "explanation": "本句的「grew in confidence」指「在自信方面逐漸增強；變得更有自信」。",
       "sentenceIndex": 3,
@@ -1138,12 +1148,10 @@ export default {
         "grew in confidence"
       ],
       "optionReasons": {
-        "grow-mcq-03": "本句指「在自信方面逐漸增強；變得更有自信」。",
-        "grow-mcq-02": "「自信透過經驗逐步建立並變強」是「confidence grows」的用法，與本句語境不同。",
-        "grow-mcq-04": "「隨時間逐漸進入更強／弱的狀態」是「grow stronger/weaker」的用法，與本句語境不同。",
-        "grow-mcq-01": "「某種能力、品質、感情或狀態隨時間逐漸變強／增加」是「grow — develop gradually」的用法，與本句語境不同。",
-        "grow-mcq-05": "「某個狀態逐步加深；愈來愈……」是「grow more + adjective」的用法，與本句語境不同。",
-        "grow-mcq-06": "「身體／物體的尺寸逐漸增加」是「grow — size」的用法，與本句語境不同。"
+        "grow-mcq-03": "本句的「grew in confidence」指「在自信方面逐漸增強；變得更有自信」。",
+        "grow-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-03"
     },
@@ -1155,11 +1163,9 @@ export default {
       "masked": "The students ____ after more practice.",
       "options": [
         "grow-mcq-03",
-        "grow-mcq-02",
-        "grow-mcq-04",
-        "grow-mcq-01",
-        "grow-mcq-05",
-        "grow-mcq-06"
+        "grow-pdf-002",
+        "grow-mcq-35",
+        "grow-mcq-39"
       ],
       "explanation": "本句的「grew in confidence」指「在自信方面逐漸增強；變得更有自信」。",
       "sentenceIndex": 4,
@@ -1168,12 +1174,10 @@ export default {
         "grew in confidence"
       ],
       "optionReasons": {
-        "grow-mcq-03": "本句指「在自信方面逐漸增強；變得更有自信」。",
-        "grow-mcq-02": "「自信透過經驗逐步建立並變強」是「confidence grows」的用法，與本句語境不同。",
-        "grow-mcq-04": "「隨時間逐漸進入更強／弱的狀態」是「grow stronger/weaker」的用法，與本句語境不同。",
-        "grow-mcq-01": "「某種能力、品質、感情或狀態隨時間逐漸變強／增加」是「grow — develop gradually」的用法，與本句語境不同。",
-        "grow-mcq-05": "「某個狀態逐步加深；愈來愈……」是「grow more + adjective」的用法，與本句語境不同。",
-        "grow-mcq-06": "「身體／物體的尺寸逐漸增加」是「grow — size」的用法，與本句語境不同。"
+        "grow-mcq-03": "本句的「grew in confidence」指「在自信方面逐漸增強；變得更有自信」。",
+        "grow-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-03"
     },
@@ -1185,11 +1189,9 @@ export default {
       "masked": "Her voice ____ as she continued.",
       "options": [
         "grow-mcq-04",
-        "grow-mcq-03",
-        "grow-mcq-05",
-        "grow-mcq-02",
-        "grow-mcq-06",
-        "grow-mcq-01"
+        "grow-mcq-22",
+        "grow-mcq-14",
+        "grow-mcq-10"
       ],
       "explanation": "本句的「grew stronger」指「隨時間逐漸進入更強／弱的狀態」。",
       "sentenceIndex": 5,
@@ -1198,12 +1200,10 @@ export default {
         "grew stronger"
       ],
       "optionReasons": {
-        "grow-mcq-04": "本句指「隨時間逐漸進入更強／弱的狀態」。",
-        "grow-mcq-03": "「在自信方面逐漸增強；變得更有自信」是「grow in confidence」的用法，與本句語境不同。",
-        "grow-mcq-05": "「某個狀態逐步加深；愈來愈……」是「grow more + adjective」的用法，與本句語境不同。",
-        "grow-mcq-02": "「自信透過經驗逐步建立並變強」是「confidence grows」的用法，與本句語境不同。",
-        "grow-mcq-06": "「身體／物體的尺寸逐漸增加」是「grow — size」的用法，與本句語境不同。",
-        "grow-mcq-01": "「某種能力、品質、感情或狀態隨時間逐漸變強／增加」是「grow — develop gradually」的用法，與本句語境不同。"
+        "grow-mcq-04": "本句的「grew stronger」指「隨時間逐漸進入更強／弱的狀態」。",
+        "grow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-04"
     },
@@ -1215,11 +1215,9 @@ export default {
       "masked": "The fear ____ with experience.",
       "options": [
         "grow-mcq-04",
-        "grow-mcq-03",
-        "grow-mcq-05",
-        "grow-mcq-02",
-        "grow-mcq-06",
-        "grow-mcq-01"
+        "grow-mcq-23",
+        "grow-mcq-14",
+        "grow-mcq-17"
       ],
       "explanation": "本句的「grew weaker」指「隨時間逐漸進入更強／弱的狀態」。",
       "sentenceIndex": 6,
@@ -1228,12 +1226,10 @@ export default {
         "grew weaker"
       ],
       "optionReasons": {
-        "grow-mcq-04": "本句指「隨時間逐漸進入更強／弱的狀態」。",
-        "grow-mcq-03": "「在自信方面逐漸增強；變得更有自信」是「grow in confidence」的用法，與本句語境不同。",
-        "grow-mcq-05": "「某個狀態逐步加深；愈來愈……」是「grow more + adjective」的用法，與本句語境不同。",
-        "grow-mcq-02": "「自信透過經驗逐步建立並變強」是「confidence grows」的用法，與本句語境不同。",
-        "grow-mcq-06": "「身體／物體的尺寸逐漸增加」是「grow — size」的用法，與本句語境不同。",
-        "grow-mcq-01": "「某種能力、品質、感情或狀態隨時間逐漸變強／增加」是「grow — develop gradually」的用法，與本句語境不同。"
+        "grow-mcq-04": "本句的「grew weaker」指「隨時間逐漸進入更強／弱的狀態」。",
+        "grow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-04"
     },
@@ -1245,11 +1241,9 @@ export default {
       "masked": "I ____ speaking in public.",
       "options": [
         "grow-mcq-05",
-        "grow-mcq-04",
-        "grow-mcq-06",
-        "grow-mcq-03",
-        "grow-mcq-07",
-        "grow-mcq-02"
+        "grow-mcq-37",
+        "grow-mcq-26",
+        "grow-pdf-001"
       ],
       "explanation": "本句的「grew more comfortable」指「某個狀態逐步加深；愈來愈……」。",
       "sentenceIndex": 7,
@@ -1258,12 +1252,10 @@ export default {
         "grew more comfortable"
       ],
       "optionReasons": {
-        "grow-mcq-05": "本句指「某個狀態逐步加深；愈來愈……」。",
-        "grow-mcq-04": "「隨時間逐漸進入更強／弱的狀態」是「grow stronger/weaker」的用法，與本句語境不同。",
-        "grow-mcq-06": "「身體／物體的尺寸逐漸增加」是「grow — size」的用法，與本句語境不同。",
-        "grow-mcq-03": "「在自信方面逐漸增強；變得更有自信」是「grow in confidence」的用法，與本句語境不同。",
-        "grow-mcq-07": "「身高／尺寸逐漸增加」是「grow taller/bigger」的用法，與本句語境不同。",
-        "grow-mcq-02": "「自信透過經驗逐步建立並變強」是「confidence grows」的用法，與本句語境不同。"
+        "grow-mcq-05": "本句的「grew more comfortable」指「某個狀態逐步加深；愈來愈……」。",
+        "grow-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-05"
     },
@@ -1275,11 +1267,9 @@ export default {
       "masked": "She ____ over time.",
       "options": [
         "grow-mcq-05",
-        "grow-mcq-04",
-        "grow-mcq-06",
-        "grow-mcq-03",
-        "grow-mcq-07",
-        "grow-mcq-02"
+        "grow-mcq-39",
+        "grow-mcq-10",
+        "grow-reviewed-3c32dad585"
       ],
       "explanation": "本句的「grew more confident」指「某個狀態逐步加深；愈來愈……」。",
       "sentenceIndex": 8,
@@ -1288,12 +1278,10 @@ export default {
         "grew more confident"
       ],
       "optionReasons": {
-        "grow-mcq-05": "本句指「某個狀態逐步加深；愈來愈……」。",
-        "grow-mcq-04": "「隨時間逐漸進入更強／弱的狀態」是「grow stronger/weaker」的用法，與本句語境不同。",
-        "grow-mcq-06": "「身體／物體的尺寸逐漸增加」是「grow — size」的用法，與本句語境不同。",
-        "grow-mcq-03": "「在自信方面逐漸增強；變得更有自信」是「grow in confidence」的用法，與本句語境不同。",
-        "grow-mcq-07": "「身高／尺寸逐漸增加」是「grow taller/bigger」的用法，與本句語境不同。",
-        "grow-mcq-02": "「自信透過經驗逐步建立並變強」是「confidence grows」的用法，與本句語境不同。"
+        "grow-mcq-05": "本句的「grew more confident」指「某個狀態逐步加深；愈來愈……」。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "grow-reviewed-3c32dad585": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-05"
     },
@@ -1305,11 +1293,9 @@ export default {
       "masked": "The child ____ quickly.",
       "options": [
         "grow-mcq-06",
-        "grow-mcq-05",
-        "grow-mcq-07",
-        "grow-mcq-04",
-        "grow-mcq-08",
-        "grow-mcq-03"
+        "grow-mcq-24",
+        "grow-pdf-001",
+        "grow-mcq-28"
       ],
       "explanation": "本句的「grew」指「身體／物體的尺寸逐漸增加」。",
       "sentenceIndex": 9,
@@ -1318,12 +1304,10 @@ export default {
         "grew"
       ],
       "optionReasons": {
-        "grow-mcq-06": "本句指「身體／物體的尺寸逐漸增加」。",
-        "grow-mcq-05": "「某個狀態逐步加深；愈來愈……」是「grow more + adjective」的用法，與本句語境不同。",
-        "grow-mcq-07": "「身高／尺寸逐漸增加」是「grow taller/bigger」的用法，與本句語境不同。",
-        "grow-mcq-04": "「隨時間逐漸進入更強／弱的狀態」是「grow stronger/weaker」的用法，與本句語境不同。",
-        "grow-mcq-08": "「隨年齡／經驗增加而變得成熟」是「grow — mature」的用法，與本句語境不同。",
-        "grow-mcq-03": "「在自信方面逐漸增強；變得更有自信」是「grow in confidence」的用法，與本句語境不同。"
+        "grow-mcq-06": "本句的「grew」指「身體／物體的尺寸逐漸增加」。",
+        "grow-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-06"
     },
@@ -1335,11 +1319,9 @@ export default {
       "masked": "The company’s office ____ too small for the team.",
       "options": [
         "grow-mcq-06",
-        "grow-mcq-05",
-        "grow-mcq-07",
-        "grow-mcq-04",
-        "grow-mcq-08",
-        "grow-mcq-03"
+        "grow-mcq-36",
+        "grow-mcq-26",
+        "grow-pdf-001"
       ],
       "explanation": "本句的「grew」指「身體／物體的尺寸逐漸增加」。",
       "sentenceIndex": 10,
@@ -1348,12 +1330,10 @@ export default {
         "grew"
       ],
       "optionReasons": {
-        "grow-mcq-06": "本句指「身體／物體的尺寸逐漸增加」。",
-        "grow-mcq-05": "「某個狀態逐步加深；愈來愈……」是「grow more + adjective」的用法，與本句語境不同。",
-        "grow-mcq-07": "「身高／尺寸逐漸增加」是「grow taller/bigger」的用法，與本句語境不同。",
-        "grow-mcq-04": "「隨時間逐漸進入更強／弱的狀態」是「grow stronger/weaker」的用法，與本句語境不同。",
-        "grow-mcq-08": "「隨年齡／經驗增加而變得成熟」是「grow — mature」的用法，與本句語境不同。",
-        "grow-mcq-03": "「在自信方面逐漸增強；變得更有自信」是「grow in confidence」的用法，與本句語境不同。"
+        "grow-mcq-06": "本句的「grew」指「身體／物體的尺寸逐漸增加」。",
+        "grow-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-06"
     },
@@ -1365,11 +1345,9 @@ export default {
       "masked": "He ____ during the year.",
       "options": [
         "grow-mcq-07",
-        "grow-mcq-06",
-        "grow-mcq-08",
-        "grow-mcq-05",
-        "grow-mcq-09",
-        "grow-mcq-04"
+        "grow-mcq-24",
+        "grow-mcq-39",
+        "grow-mcq-22"
       ],
       "explanation": "本句的「grew taller」指「身高／尺寸逐漸增加」。",
       "sentenceIndex": 11,
@@ -1378,12 +1356,10 @@ export default {
         "grew taller"
       ],
       "optionReasons": {
-        "grow-mcq-07": "本句指「身高／尺寸逐漸增加」。",
-        "grow-mcq-06": "「身體／物體的尺寸逐漸增加」是「grow — size」的用法，與本句語境不同。",
-        "grow-mcq-08": "「隨年齡／經驗增加而變得成熟」是「grow — mature」的用法，與本句語境不同。",
-        "grow-mcq-05": "「某個狀態逐步加深；愈來愈……」是「grow more + adjective」的用法，與本句語境不同。",
-        "grow-mcq-09": "「從兒童逐漸成長為成年人」是「grow up」的用法，與本句語境不同。",
-        "grow-mcq-04": "「隨時間逐漸進入更強／弱的狀態」是「grow stronger/weaker」的用法，與本句語境不同。"
+        "grow-mcq-07": "本句的「grew taller」指「身高／尺寸逐漸增加」。",
+        "grow-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-07"
     },
@@ -1395,11 +1371,9 @@ export default {
       "masked": "The problem ____ over time.",
       "options": [
         "grow-mcq-07",
-        "grow-mcq-06",
-        "grow-mcq-08",
-        "grow-mcq-05",
-        "grow-mcq-09",
-        "grow-mcq-04"
+        "grow-mcq-17",
+        "grow-pdf-001",
+        "grow-mcq-25"
       ],
       "explanation": "本句的「grew bigger」指「身高／尺寸逐漸增加」。",
       "sentenceIndex": 12,
@@ -1408,12 +1382,10 @@ export default {
         "grew bigger"
       ],
       "optionReasons": {
-        "grow-mcq-07": "本句指「身高／尺寸逐漸增加」。",
-        "grow-mcq-06": "「身體／物體的尺寸逐漸增加」是「grow — size」的用法，與本句語境不同。",
-        "grow-mcq-08": "「隨年齡／經驗增加而變得成熟」是「grow — mature」的用法，與本句語境不同。",
-        "grow-mcq-05": "「某個狀態逐步加深；愈來愈……」是「grow more + adjective」的用法，與本句語境不同。",
-        "grow-mcq-09": "「從兒童逐漸成長為成年人」是「grow up」的用法，與本句語境不同。",
-        "grow-mcq-04": "「隨時間逐漸進入更強／弱的狀態」是「grow stronger/weaker」的用法，與本句語境不同。"
+        "grow-mcq-07": "本句的「grew bigger」指「身高／尺寸逐漸增加」。",
+        "grow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-07"
     },
@@ -1425,11 +1397,9 @@ export default {
       "masked": "Children ____ quickly.",
       "options": [
         "grow-mcq-08",
-        "grow-mcq-07",
-        "grow-mcq-09",
-        "grow-mcq-06",
-        "grow-mcq-10",
-        "grow-mcq-05"
+        "grow-mcq-28",
+        "grow-pdf-001",
+        "grow-mcq-35"
       ],
       "explanation": "本句的「grow」指「隨年齡／經驗增加而變得成熟」。",
       "sentenceIndex": 13,
@@ -1438,12 +1408,10 @@ export default {
         "grow"
       ],
       "optionReasons": {
-        "grow-mcq-08": "本句指「隨年齡／經驗增加而變得成熟」。",
-        "grow-mcq-07": "「身高／尺寸逐漸增加」是「grow taller/bigger」的用法，與本句語境不同。",
-        "grow-mcq-09": "「從兒童逐漸成長為成年人」是「grow up」的用法，與本句語境不同。",
-        "grow-mcq-06": "「身體／物體的尺寸逐漸增加」是「grow — size」的用法，與本句語境不同。",
-        "grow-mcq-10": "「已成年的；或表現成熟、有責任感的」是「grown-up」的用法，與本句語境不同。",
-        "grow-mcq-05": "「某個狀態逐步加深；愈來愈……」是「grow more + adjective」的用法，與本句語境不同。"
+        "grow-mcq-08": "本句的「grow」指「隨年齡／經驗增加而變得成熟」。",
+        "grow-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-08"
     },
@@ -1455,11 +1423,9 @@ export default {
       "masked": "She ____ a confident leader.",
       "options": [
         "grow-mcq-08",
-        "grow-mcq-07",
-        "grow-mcq-09",
-        "grow-mcq-06",
-        "grow-mcq-10",
-        "grow-mcq-05"
+        "grow-mcq-35",
+        "grow-mcq-39",
+        "grow-mcq-04"
       ],
       "explanation": "本句的「grew into」指「隨年齡／經驗增加而變得成熟」。",
       "sentenceIndex": 14,
@@ -1468,12 +1434,10 @@ export default {
         "grew into"
       ],
       "optionReasons": {
-        "grow-mcq-08": "本句指「隨年齡／經驗增加而變得成熟」。",
-        "grow-mcq-07": "「身高／尺寸逐漸增加」是「grow taller/bigger」的用法，與本句語境不同。",
-        "grow-mcq-09": "「從兒童逐漸成長為成年人」是「grow up」的用法，與本句語境不同。",
-        "grow-mcq-06": "「身體／物體的尺寸逐漸增加」是「grow — size」的用法，與本句語境不同。",
-        "grow-mcq-10": "「已成年的；或表現成熟、有責任感的」是「grown-up」的用法，與本句語境不同。",
-        "grow-mcq-05": "「某個狀態逐步加深；愈來愈……」是「grow more + adjective」的用法，與本句語境不同。"
+        "grow-mcq-08": "本句的「grew into」指「隨年齡／經驗增加而變得成熟」。",
+        "grow-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-08"
     },
@@ -1485,11 +1449,9 @@ export default {
       "masked": "Where did you ____?",
       "options": [
         "grow-mcq-09",
-        "grow-mcq-08",
-        "grow-mcq-10",
-        "grow-mcq-07",
-        "grow-mcq-11",
-        "grow-mcq-06"
+        "grow-mcq-26",
+        "grow-mcq-13",
+        "grow-mcq-39"
       ],
       "explanation": "本句的「grow up」指「從兒童逐漸成長為成年人」。",
       "sentenceIndex": 15,
@@ -1498,12 +1460,10 @@ export default {
         "grow up"
       ],
       "optionReasons": {
-        "grow-mcq-09": "本句指「從兒童逐漸成長為成年人」。",
-        "grow-mcq-08": "「隨年齡／經驗增加而變得成熟」是「grow — mature」的用法，與本句語境不同。",
-        "grow-mcq-10": "「已成年的；或表現成熟、有責任感的」是「grown-up」的用法，與本句語境不同。",
-        "grow-mcq-07": "「身高／尺寸逐漸增加」是「grow taller/bigger」的用法，與本句語境不同。",
-        "grow-mcq-11": "「數量、程度或規模逐漸增加」是「grow — amount/number」的用法，與本句語境不同。",
-        "grow-mcq-06": "「身體／物體的尺寸逐漸增加」是「grow — size」的用法，與本句語境不同。"
+        "grow-mcq-09": "本句的「grow up」指「從兒童逐漸成長為成年人」。",
+        "grow-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-09"
     },
@@ -1515,11 +1475,9 @@ export default {
       "masked": "She ____ in a small town.",
       "options": [
         "grow-mcq-09",
-        "grow-mcq-08",
-        "grow-mcq-10",
-        "grow-mcq-07",
-        "grow-mcq-11",
-        "grow-mcq-06"
+        "grow-mcq-14",
+        "grow-mcq-26",
+        "grow-mcq-39"
       ],
       "explanation": "本句的「grew up」指「從兒童逐漸成長為成年人」。",
       "sentenceIndex": 16,
@@ -1528,12 +1486,10 @@ export default {
         "grew up"
       ],
       "optionReasons": {
-        "grow-mcq-09": "本句指「從兒童逐漸成長為成年人」。",
-        "grow-mcq-08": "「隨年齡／經驗增加而變得成熟」是「grow — mature」的用法，與本句語境不同。",
-        "grow-mcq-10": "「已成年的；或表現成熟、有責任感的」是「grown-up」的用法，與本句語境不同。",
-        "grow-mcq-07": "「身高／尺寸逐漸增加」是「grow taller/bigger」的用法，與本句語境不同。",
-        "grow-mcq-11": "「數量、程度或規模逐漸增加」是「grow — amount/number」的用法，與本句語境不同。",
-        "grow-mcq-06": "「身體／物體的尺寸逐漸增加」是「grow — size」的用法，與本句語境不同。"
+        "grow-mcq-09": "本句的「grew up」指「從兒童逐漸成長為成年人」。",
+        "grow-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-09"
     },
@@ -1545,11 +1501,9 @@ export default {
       "masked": "She has two ____ children.",
       "options": [
         "grow-mcq-10",
-        "grow-mcq-09",
-        "grow-mcq-11",
-        "grow-mcq-08",
-        "grow-mcq-12",
-        "grow-mcq-07"
+        "grow-mcq-07",
+        "grow-mcq-22",
+        "grow-mcq-05"
       ],
       "explanation": "本句的「grown-up」指「已成年的；或表現成熟、有責任感的」。",
       "sentenceIndex": 17,
@@ -1558,12 +1512,10 @@ export default {
         "grown-up"
       ],
       "optionReasons": {
-        "grow-mcq-10": "本句指「已成年的；或表現成熟、有責任感的」。",
-        "grow-mcq-09": "「從兒童逐漸成長為成年人」是「grow up」的用法，與本句語境不同。",
-        "grow-mcq-11": "「數量、程度或規模逐漸增加」是「grow — amount/number」的用法，與本句語境不同。",
-        "grow-mcq-08": "「隨年齡／經驗增加而變得成熟」是「grow — mature」的用法，與本句語境不同。",
-        "grow-mcq-12": "「增加的幅度為 X」是「grow by X」的用法，與本句語境不同。",
-        "grow-mcq-07": "「身高／尺寸逐漸增加」是「grow taller/bigger」的用法，與本句語境不同。"
+        "grow-mcq-10": "本句的「grown-up」指「已成年的；或表現成熟、有責任感的」。",
+        "grow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-10"
     },
@@ -1575,11 +1527,9 @@ export default {
       "masked": "That was a very ____ response.",
       "options": [
         "grow-mcq-10",
-        "grow-mcq-09",
-        "grow-mcq-11",
-        "grow-mcq-08",
         "grow-mcq-12",
-        "grow-mcq-07"
+        "grow-mcq-27",
+        "grow-mcq-39"
       ],
       "explanation": "本句的「grown-up」指「已成年的；或表現成熟、有責任感的」。",
       "sentenceIndex": 18,
@@ -1588,12 +1538,10 @@ export default {
         "grown-up"
       ],
       "optionReasons": {
-        "grow-mcq-10": "本句指「已成年的；或表現成熟、有責任感的」。",
-        "grow-mcq-09": "「從兒童逐漸成長為成年人」是「grow up」的用法，與本句語境不同。",
-        "grow-mcq-11": "「數量、程度或規模逐漸增加」是「grow — amount/number」的用法，與本句語境不同。",
-        "grow-mcq-08": "「隨年齡／經驗增加而變得成熟」是「grow — mature」的用法，與本句語境不同。",
-        "grow-mcq-12": "「增加的幅度為 X」是「grow by X」的用法，與本句語境不同。",
-        "grow-mcq-07": "「身高／尺寸逐漸增加」是「grow taller/bigger」的用法，與本句語境不同。"
+        "grow-mcq-10": "本句的「grown-up」指「已成年的；或表現成熟、有責任感的」。",
+        "grow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-10"
     },
@@ -1605,11 +1553,9 @@ export default {
       "masked": "The audience ____ larger.",
       "options": [
         "grow-mcq-11",
-        "grow-mcq-10",
-        "grow-mcq-12",
-        "grow-mcq-09",
-        "grow-mcq-13",
-        "grow-mcq-08"
+        "grow-pdf-001",
+        "grow-mcq-23",
+        "grow-mcq-10"
       ],
       "explanation": "本句的「grew」指「數量、程度或規模逐漸增加」。",
       "sentenceIndex": 19,
@@ -1618,12 +1564,10 @@ export default {
         "grew"
       ],
       "optionReasons": {
-        "grow-mcq-11": "本句指「數量、程度或規模逐漸增加」。",
-        "grow-mcq-10": "「已成年的；或表現成熟、有責任感的」是「grown-up」的用法，與本句語境不同。",
-        "grow-mcq-12": "「增加的幅度為 X」是「grow by X」的用法，與本句語境不同。",
-        "grow-mcq-09": "「從兒童逐漸成長為成年人」是「grow up」的用法，與本句語境不同。",
-        "grow-mcq-13": "「最終增加到指定數量／規模」是「grow to X」的用法，與本句語境不同。",
-        "grow-mcq-08": "「隨年齡／經驗增加而變得成熟」是「grow — mature」的用法，與本句語境不同。"
+        "grow-mcq-11": "本句的「grew」指「數量、程度或規模逐漸增加」。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-11"
     },
@@ -1635,11 +1579,9 @@ export default {
       "masked": "Demand ____ rapidly.",
       "options": [
         "grow-mcq-11",
-        "grow-mcq-10",
-        "grow-mcq-12",
-        "grow-mcq-09",
-        "grow-mcq-13",
-        "grow-mcq-08"
+        "grow-mcq-39",
+        "grow-mcq-24",
+        "grow-mcq-35"
       ],
       "explanation": "本句的「grew」指「數量、程度或規模逐漸增加」。",
       "sentenceIndex": 20,
@@ -1648,12 +1590,10 @@ export default {
         "grew"
       ],
       "optionReasons": {
-        "grow-mcq-11": "本句指「數量、程度或規模逐漸增加」。",
-        "grow-mcq-10": "「已成年的；或表現成熟、有責任感的」是「grown-up」的用法，與本句語境不同。",
-        "grow-mcq-12": "「增加的幅度為 X」是「grow by X」的用法，與本句語境不同。",
-        "grow-mcq-09": "「從兒童逐漸成長為成年人」是「grow up」的用法，與本句語境不同。",
-        "grow-mcq-13": "「最終增加到指定數量／規模」是「grow to X」的用法，與本句語境不同。",
-        "grow-mcq-08": "「隨年齡／經驗增加而變得成熟」是「grow — mature」的用法，與本句語境不同。"
+        "grow-mcq-11": "本句的「grew」指「數量、程度或規模逐漸增加」。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-11"
     },
@@ -1665,11 +1605,9 @@ export default {
       "masked": "The business ____.",
       "options": [
         "grow-mcq-12",
-        "grow-mcq-11",
-        "grow-mcq-13",
-        "grow-mcq-10",
-        "grow-mcq-14",
-        "grow-mcq-09"
+        "grow-mcq-39",
+        "grow-mcq-20",
+        "grow-mcq-38"
       ],
       "explanation": "本句的「grew rapidly」指「增加的幅度為 X」。",
       "sentenceIndex": 21,
@@ -1678,12 +1616,10 @@ export default {
         "grew rapidly"
       ],
       "optionReasons": {
-        "grow-mcq-12": "本句指「增加的幅度為 X」。",
-        "grow-mcq-11": "「數量、程度或規模逐漸增加」是「grow — amount/number」的用法，與本句語境不同。",
-        "grow-mcq-13": "「最終增加到指定數量／規模」是「grow to X」的用法，與本句語境不同。",
-        "grow-mcq-10": "「已成年的；或表現成熟、有責任感的」是「grown-up」的用法，與本句語境不同。",
-        "grow-mcq-14": "「數量／規模從 A 增加到 B」是「grow from A to B」的用法，與本句語境不同。",
-        "grow-mcq-09": "「從兒童逐漸成長為成年人」是「grow up」的用法，與本句語境不同。"
+        "grow-mcq-12": "本句的「grew rapidly」指「增加的幅度為 X」。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-12"
     },
@@ -1695,11 +1631,9 @@ export default {
       "masked": "Sales ____ throughout the year.",
       "options": [
         "grow-mcq-12",
-        "grow-mcq-11",
-        "grow-mcq-13",
+        "grow-mcq-27",
         "grow-mcq-10",
-        "grow-mcq-14",
-        "grow-mcq-09"
+        "grow-mcq-40"
       ],
       "explanation": "本句的「grew steadily」指「增加的幅度為 X」。",
       "sentenceIndex": 22,
@@ -1708,12 +1642,10 @@ export default {
         "grew steadily"
       ],
       "optionReasons": {
-        "grow-mcq-12": "本句指「增加的幅度為 X」。",
-        "grow-mcq-11": "「數量、程度或規模逐漸增加」是「grow — amount/number」的用法，與本句語境不同。",
-        "grow-mcq-13": "「最終增加到指定數量／規模」是「grow to X」的用法，與本句語境不同。",
-        "grow-mcq-10": "「已成年的；或表現成熟、有責任感的」是「grown-up」的用法，與本句語境不同。",
-        "grow-mcq-14": "「數量／規模從 A 增加到 B」是「grow from A to B」的用法，與本句語境不同。",
-        "grow-mcq-09": "「從兒童逐漸成長為成年人」是「grow up」的用法，與本句語境不同。"
+        "grow-mcq-12": "本句的「grew steadily」指「增加的幅度為 X」。",
+        "grow-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-12"
     },
@@ -1725,11 +1657,9 @@ export default {
       "masked": "Sales ____.",
       "options": [
         "grow-mcq-12",
-        "grow-mcq-11",
-        "grow-mcq-13",
-        "grow-mcq-10",
-        "grow-mcq-14",
-        "grow-mcq-09"
+        "grow-mcq-27",
+        "grow-pdf-001",
+        "grow-mcq-38"
       ],
       "explanation": "本句的「grew by 10%」指「增加的幅度為 X」。",
       "sentenceIndex": 23,
@@ -1738,12 +1668,10 @@ export default {
         "grew by 10%"
       ],
       "optionReasons": {
-        "grow-mcq-12": "本句指「增加的幅度為 X」。",
-        "grow-mcq-11": "「數量、程度或規模逐漸增加」是「grow — amount/number」的用法，與本句語境不同。",
-        "grow-mcq-13": "「最終增加到指定數量／規模」是「grow to X」的用法，與本句語境不同。",
-        "grow-mcq-10": "「已成年的；或表現成熟、有責任感的」是「grown-up」的用法，與本句語境不同。",
-        "grow-mcq-14": "「數量／規模從 A 增加到 B」是「grow from A to B」的用法，與本句語境不同。",
-        "grow-mcq-09": "「從兒童逐漸成長為成年人」是「grow up」的用法，與本句語境不同。"
+        "grow-mcq-12": "本句的「grew by 10%」指「增加的幅度為 X」。",
+        "grow-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-12"
     },
@@ -1755,11 +1683,9 @@ export default {
       "masked": "The team ____ five members.",
       "options": [
         "grow-mcq-12",
-        "grow-mcq-11",
-        "grow-mcq-13",
-        "grow-mcq-10",
-        "grow-mcq-14",
-        "grow-mcq-09"
+        "grow-mcq-23",
+        "grow-mcq-17",
+        "grow-mcq-18"
       ],
       "explanation": "本句的「grew by」指「增加的幅度為 X」。",
       "sentenceIndex": 24,
@@ -1768,12 +1694,10 @@ export default {
         "grew by"
       ],
       "optionReasons": {
-        "grow-mcq-12": "本句指「增加的幅度為 X」。",
-        "grow-mcq-11": "「數量、程度或規模逐漸增加」是「grow — amount/number」的用法，與本句語境不同。",
-        "grow-mcq-13": "「最終增加到指定數量／規模」是「grow to X」的用法，與本句語境不同。",
-        "grow-mcq-10": "「已成年的；或表現成熟、有責任感的」是「grown-up」的用法，與本句語境不同。",
-        "grow-mcq-14": "「數量／規模從 A 增加到 B」是「grow from A to B」的用法，與本句語境不同。",
-        "grow-mcq-09": "「從兒童逐漸成長為成年人」是「grow up」的用法，與本句語境不同。"
+        "grow-mcq-12": "本句的「grew by」指「增加的幅度為 X」。",
+        "grow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-12"
     },
@@ -1785,11 +1709,9 @@ export default {
       "masked": "The audience ____ 500 people.",
       "options": [
         "grow-mcq-13",
-        "grow-mcq-12",
-        "grow-mcq-14",
-        "grow-mcq-11",
-        "grow-mcq-15",
-        "grow-mcq-10"
+        "grow-mcq-35",
+        "grow-mcq-18",
+        "grow-mcq-36"
       ],
       "explanation": "本句的「grew to」指「最終增加到指定數量／規模」。",
       "sentenceIndex": 25,
@@ -1798,12 +1720,10 @@ export default {
         "grew to"
       ],
       "optionReasons": {
-        "grow-mcq-13": "本句指「最終增加到指定數量／規模」。",
-        "grow-mcq-12": "「增加的幅度為 X」是「grow by X」的用法，與本句語境不同。",
-        "grow-mcq-14": "「數量／規模從 A 增加到 B」是「grow from A to B」的用法，與本句語境不同。",
-        "grow-mcq-11": "「數量、程度或規模逐漸增加」是「grow — amount/number」的用法，與本句語境不同。",
-        "grow-mcq-15": "「植物自然增加尺寸、成熟和發展」是「plants grow」的用法，與本句語境不同。",
-        "grow-mcq-10": "「已成年的；或表現成熟、有責任感的」是「grown-up」的用法，與本句語境不同。"
+        "grow-mcq-13": "本句的「grew to」指「最終增加到指定數量／規模」。",
+        "grow-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-13"
     },
@@ -1815,10 +1735,8 @@ export default {
       "masked": "The company ____ 200 employees.",
       "options": [
         "grow-mcq-13",
-        "grow-mcq-12",
-        "grow-mcq-14",
-        "grow-mcq-11",
-        "grow-mcq-15",
+        "grow-mcq-28",
+        "grow-mcq-18",
         "grow-mcq-10"
       ],
       "explanation": "本句的「grew to」指「最終增加到指定數量／規模」。",
@@ -1828,12 +1746,10 @@ export default {
         "grew to"
       ],
       "optionReasons": {
-        "grow-mcq-13": "本句指「最終增加到指定數量／規模」。",
-        "grow-mcq-12": "「增加的幅度為 X」是「grow by X」的用法，與本句語境不同。",
-        "grow-mcq-14": "「數量／規模從 A 增加到 B」是「grow from A to B」的用法，與本句語境不同。",
-        "grow-mcq-11": "「數量、程度或規模逐漸增加」是「grow — amount/number」的用法，與本句語境不同。",
-        "grow-mcq-15": "「植物自然增加尺寸、成熟和發展」是「plants grow」的用法，與本句語境不同。",
-        "grow-mcq-10": "「已成年的；或表現成熟、有責任感的」是「grown-up」的用法，與本句語境不同。"
+        "grow-mcq-13": "本句的「grew to」指「最終增加到指定數量／規模」。",
+        "grow-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-13"
     },
@@ -1845,11 +1761,9 @@ export default {
       "masked": "The team ____ ten people to thirty.",
       "options": [
         "grow-mcq-14",
-        "grow-mcq-13",
-        "grow-mcq-15",
-        "grow-mcq-12",
-        "grow-mcq-16",
-        "grow-mcq-11"
+        "grow-pdf-001",
+        "grow-mcq-36",
+        "grow-mcq-25"
       ],
       "explanation": "本句的「grew from」指「數量／規模從 A 增加到 B」。",
       "sentenceIndex": 27,
@@ -1858,12 +1772,10 @@ export default {
         "grew from"
       ],
       "optionReasons": {
-        "grow-mcq-14": "本句指「數量／規模從 A 增加到 B」。",
-        "grow-mcq-13": "「最終增加到指定數量／規模」是「grow to X」的用法，與本句語境不同。",
-        "grow-mcq-15": "「植物自然增加尺寸、成熟和發展」是「plants grow」的用法，與本句語境不同。",
-        "grow-mcq-12": "「增加的幅度為 X」是「grow by X」的用法，與本句語境不同。",
-        "grow-mcq-16": "「種植並照料植物，使其生長」是「grow crops/plants」的用法，與本句語境不同。",
-        "grow-mcq-11": "「數量、程度或規模逐漸增加」是「grow — amount/number」的用法，與本句語境不同。"
+        "grow-mcq-14": "本句的「grew from」指「數量／規模從 A 增加到 B」。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-14"
     },
@@ -1875,11 +1787,9 @@ export default {
       "masked": "Revenue ____ $1 million to $2 million.",
       "options": [
         "grow-mcq-14",
-        "grow-mcq-13",
-        "grow-mcq-15",
-        "grow-mcq-12",
-        "grow-mcq-16",
-        "grow-mcq-11"
+        "grow-mcq-20",
+        "grow-mcq-33",
+        "grow-pdf-001"
       ],
       "explanation": "本句的「grew from」指「數量／規模從 A 增加到 B」。",
       "sentenceIndex": 28,
@@ -1888,12 +1798,10 @@ export default {
         "grew from"
       ],
       "optionReasons": {
-        "grow-mcq-14": "本句指「數量／規模從 A 增加到 B」。",
-        "grow-mcq-13": "「最終增加到指定數量／規模」是「grow to X」的用法，與本句語境不同。",
-        "grow-mcq-15": "「植物自然增加尺寸、成熟和發展」是「plants grow」的用法，與本句語境不同。",
-        "grow-mcq-12": "「增加的幅度為 X」是「grow by X」的用法，與本句語境不同。",
-        "grow-mcq-16": "「種植並照料植物，使其生長」是「grow crops/plants」的用法，與本句語境不同。",
-        "grow-mcq-11": "「數量、程度或規模逐漸增加」是「grow — amount/number」的用法，與本句語境不同。"
+        "grow-mcq-14": "本句的「grew from」指「數量／規模從 A 增加到 B」。",
+        "grow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-14"
     },
@@ -1905,11 +1813,9 @@ export default {
       "masked": "Plants ____ faster in warm weather.",
       "options": [
         "grow-mcq-15",
-        "grow-mcq-14",
-        "grow-mcq-16",
-        "grow-mcq-13",
-        "grow-mcq-17",
-        "grow-mcq-12"
+        "grow-mcq-19",
+        "grow-mcq-40",
+        "grow-mcq-35"
       ],
       "explanation": "本句的「grow」指「植物自然增加尺寸、成熟和發展」。",
       "sentenceIndex": 29,
@@ -1918,12 +1824,10 @@ export default {
         "grow"
       ],
       "optionReasons": {
-        "grow-mcq-15": "本句指「植物自然增加尺寸、成熟和發展」。",
-        "grow-mcq-14": "「數量／規模從 A 增加到 B」是「grow from A to B」的用法，與本句語境不同。",
-        "grow-mcq-16": "「種植並照料植物，使其生長」是「grow crops/plants」的用法，與本句語境不同。",
-        "grow-mcq-13": "「最終增加到指定數量／規模」是「grow to X」的用法，與本句語境不同。",
-        "grow-mcq-17": "「讓毛髮自然長出／變長」是「grow hair/beard」的用法，與本句語境不同。",
-        "grow-mcq-12": "「增加的幅度為 X」是「grow by X」的用法，與本句語境不同。"
+        "grow-mcq-15": "本句的「grow」指「植物自然增加尺寸、成熟和發展」。",
+        "grow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-15"
     },
@@ -1935,11 +1839,9 @@ export default {
       "masked": "The tree has ____ very tall.",
       "options": [
         "grow-mcq-15",
-        "grow-mcq-14",
-        "grow-mcq-16",
-        "grow-mcq-13",
-        "grow-mcq-17",
-        "grow-mcq-12"
+        "grow-mcq-27",
+        "grow-mcq-40",
+        "grow-mcq-22"
       ],
       "explanation": "本句的「grown」指「植物自然增加尺寸、成熟和發展」。",
       "sentenceIndex": 30,
@@ -1948,12 +1850,10 @@ export default {
         "grown"
       ],
       "optionReasons": {
-        "grow-mcq-15": "本句指「植物自然增加尺寸、成熟和發展」。",
-        "grow-mcq-14": "「數量／規模從 A 增加到 B」是「grow from A to B」的用法，與本句語境不同。",
-        "grow-mcq-16": "「種植並照料植物，使其生長」是「grow crops/plants」的用法，與本句語境不同。",
-        "grow-mcq-13": "「最終增加到指定數量／規模」是「grow to X」的用法，與本句語境不同。",
-        "grow-mcq-17": "「讓毛髮自然長出／變長」是「grow hair/beard」的用法，與本句語境不同。",
-        "grow-mcq-12": "「增加的幅度為 X」是「grow by X」的用法，與本句語境不同。"
+        "grow-mcq-15": "本句的「grown」指「植物自然增加尺寸、成熟和發展」。",
+        "grow-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-15"
     },
@@ -1965,11 +1865,9 @@ export default {
       "masked": "They ____ in the garden.",
       "options": [
         "grow-mcq-16",
-        "grow-mcq-15",
-        "grow-mcq-17",
         "grow-mcq-14",
-        "grow-mcq-18",
-        "grow-mcq-13"
+        "grow-mcq-20",
+        "grow-mcq-05"
       ],
       "explanation": "本句的「grow vegetables」指「種植並照料植物，使其生長」。",
       "sentenceIndex": 31,
@@ -1978,12 +1876,10 @@ export default {
         "grow vegetables"
       ],
       "optionReasons": {
-        "grow-mcq-16": "本句指「種植並照料植物，使其生長」。",
-        "grow-mcq-15": "「植物自然增加尺寸、成熟和發展」是「plants grow」的用法，與本句語境不同。",
-        "grow-mcq-17": "「讓毛髮自然長出／變長」是「grow hair/beard」的用法，與本句語境不同。",
-        "grow-mcq-14": "「數量／規模從 A 增加到 B」是「grow from A to B」的用法，與本句語境不同。",
-        "grow-mcq-18": "「隨時間逐漸變成某種狀態」是「grow + adjective」的用法，與本句語境不同。",
-        "grow-mcq-13": "「最終增加到指定數量／規模」是「grow to X」的用法，與本句語境不同。"
+        "grow-mcq-16": "本句的「grow vegetables」指「種植並照料植物，使其生長」。",
+        "grow-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-16"
     },
@@ -1995,11 +1891,9 @@ export default {
       "masked": "This farm ____.",
       "options": [
         "grow-mcq-16",
-        "grow-mcq-15",
-        "grow-mcq-17",
-        "grow-mcq-14",
         "grow-mcq-18",
-        "grow-mcq-13"
+        "grow-mcq-12",
+        "grow-mcq-28"
       ],
       "explanation": "本句的「grows rice」指「種植並照料植物，使其生長」。",
       "sentenceIndex": 32,
@@ -2008,12 +1902,10 @@ export default {
         "grows rice"
       ],
       "optionReasons": {
-        "grow-mcq-16": "本句指「種植並照料植物，使其生長」。",
-        "grow-mcq-15": "「植物自然增加尺寸、成熟和發展」是「plants grow」的用法，與本句語境不同。",
-        "grow-mcq-17": "「讓毛髮自然長出／變長」是「grow hair/beard」的用法，與本句語境不同。",
-        "grow-mcq-14": "「數量／規模從 A 增加到 B」是「grow from A to B」的用法，與本句語境不同。",
-        "grow-mcq-18": "「隨時間逐漸變成某種狀態」是「grow + adjective」的用法，與本句語境不同。",
-        "grow-mcq-13": "「最終增加到指定數量／規模」是「grow to X」的用法，與本句語境不同。"
+        "grow-mcq-16": "本句的「grows rice」指「種植並照料植物，使其生長」。",
+        "grow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-16"
     },
@@ -2025,11 +1917,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "grow-pdf-001",
-        "grow-mcq-15",
-        "grow-mcq-17",
-        "grow-mcq-14",
-        "grow-mcq-18",
-        "grow-mcq-13"
+        "grow-mcq-12",
+        "grow-mcq-10",
+        "grow-mcq-19"
       ],
       "explanation": "本句的「grow their own vegetables」指「自己栽培／生產，而不是購買」。",
       "sentenceIndex": 33,
@@ -2038,12 +1928,10 @@ export default {
         "grow their own vegetables"
       ],
       "optionReasons": {
-        "grow-pdf-001": "本句指「自己栽培／生產，而不是購買」。",
-        "grow-mcq-15": "「植物自然增加尺寸、成熟和發展」是「plants grow」的用法，與本句語境不同。",
-        "grow-mcq-17": "「讓毛髮自然長出／變長」是「grow hair/beard」的用法，與本句語境不同。",
-        "grow-mcq-14": "「數量／規模從 A 增加到 B」是「grow from A to B」的用法，與本句語境不同。",
-        "grow-mcq-18": "「隨時間逐漸變成某種狀態」是「grow + adjective」的用法，與本句語境不同。",
-        "grow-mcq-13": "「最終增加到指定數量／規模」是「grow to X」的用法，與本句語境不同。"
+        "grow-pdf-001": "本句的「grow their own vegetables」指「自己栽培／生產，而不是購買」。",
+        "grow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-pdf-001"
     },
@@ -2055,11 +1943,9 @@ export default {
       "masked": "More people are learning to ____.",
       "options": [
         "grow-pdf-001",
-        "grow-mcq-15",
-        "grow-mcq-17",
-        "grow-mcq-14",
         "grow-mcq-18",
-        "grow-mcq-13"
+        "grow-mcq-36",
+        "grow-mcq-28"
       ],
       "explanation": "本句的「grow their own food」指「自己栽培／生產，而不是購買」。",
       "sentenceIndex": 34,
@@ -2068,12 +1954,10 @@ export default {
         "grow their own food"
       ],
       "optionReasons": {
-        "grow-pdf-001": "本句指「自己栽培／生產，而不是購買」。",
-        "grow-mcq-15": "「植物自然增加尺寸、成熟和發展」是「plants grow」的用法，與本句語境不同。",
-        "grow-mcq-17": "「讓毛髮自然長出／變長」是「grow hair/beard」的用法，與本句語境不同。",
-        "grow-mcq-14": "「數量／規模從 A 增加到 B」是「grow from A to B」的用法，與本句語境不同。",
-        "grow-mcq-18": "「隨時間逐漸變成某種狀態」是「grow + adjective」的用法，與本句語境不同。",
-        "grow-mcq-13": "「最終增加到指定數量／規模」是「grow to X」的用法，與本句語境不同。"
+        "grow-pdf-001": "本句的「grow their own food」指「自己栽培／生產，而不是購買」。",
+        "grow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-pdf-001"
     },
@@ -2085,11 +1969,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "grow-mcq-17",
-        "grow-mcq-16",
-        "grow-mcq-18",
-        "grow-mcq-15",
-        "grow-mcq-19",
-        "grow-mcq-14"
+        "grow-mcq-12",
+        "grow-mcq-05",
+        "grow-mcq-39"
       ],
       "explanation": "本句的「grew a beard」指「讓毛髮自然長出／變長」。",
       "sentenceIndex": 35,
@@ -2098,12 +1980,10 @@ export default {
         "grew a beard"
       ],
       "optionReasons": {
-        "grow-mcq-17": "本句指「讓毛髮自然長出／變長」。",
-        "grow-mcq-16": "「種植並照料植物，使其生長」是「grow crops/plants」的用法，與本句語境不同。",
-        "grow-mcq-18": "「隨時間逐漸變成某種狀態」是「grow + adjective」的用法，與本句語境不同。",
-        "grow-mcq-15": "「植物自然增加尺寸、成熟和發展」是「plants grow」的用法，與本句語境不同。",
-        "grow-mcq-19": "「經過一段時間後逐漸開始具有某種感受、看法或能力」是「grow to + verb」的用法，與本句語境不同。",
-        "grow-mcq-14": "「數量／規模從 A 增加到 B」是「grow from A to B」的用法，與本句語境不同。"
+        "grow-mcq-17": "本句的「grew a beard」指「讓毛髮自然長出／變長」。",
+        "grow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-17"
     },
@@ -2115,11 +1995,9 @@ export default {
       "masked": "Her hair ____ quickly.",
       "options": [
         "grow-mcq-17",
-        "grow-mcq-16",
-        "grow-mcq-18",
-        "grow-mcq-15",
-        "grow-mcq-19",
-        "grow-mcq-14"
+        "grow-mcq-05",
+        "grow-mcq-30",
+        "grow-mcq-19"
       ],
       "explanation": "本句的「grew」指「讓毛髮自然長出／變長」。",
       "sentenceIndex": 36,
@@ -2128,12 +2006,10 @@ export default {
         "grew"
       ],
       "optionReasons": {
-        "grow-mcq-17": "本句指「讓毛髮自然長出／變長」。",
-        "grow-mcq-16": "「種植並照料植物，使其生長」是「grow crops/plants」的用法，與本句語境不同。",
-        "grow-mcq-18": "「隨時間逐漸變成某種狀態」是「grow + adjective」的用法，與本句語境不同。",
-        "grow-mcq-15": "「植物自然增加尺寸、成熟和發展」是「plants grow」的用法，與本句語境不同。",
-        "grow-mcq-19": "「經過一段時間後逐漸開始具有某種感受、看法或能力」是「grow to + verb」的用法，與本句語境不同。",
-        "grow-mcq-14": "「數量／規模從 A 增加到 B」是「grow from A to B」的用法，與本句語境不同。"
+        "grow-mcq-17": "本句的「grew」指「讓毛髮自然長出／變長」。",
+        "grow-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-17"
     },
@@ -2145,11 +2021,9 @@ export default {
       "masked": "The room ____.",
       "options": [
         "grow-mcq-18",
-        "grow-mcq-17",
-        "grow-mcq-19",
+        "grow-pdf-001",
         "grow-mcq-16",
-        "grow-mcq-20",
-        "grow-mcq-15"
+        "grow-mcq-13"
       ],
       "explanation": "本句的「grew quiet」指「隨時間逐漸變成某種狀態」。",
       "sentenceIndex": 37,
@@ -2158,12 +2032,10 @@ export default {
         "grew quiet"
       ],
       "optionReasons": {
-        "grow-mcq-18": "本句指「隨時間逐漸變成某種狀態」。",
-        "grow-mcq-17": "「讓毛髮自然長出／變長」是「grow hair/beard」的用法，與本句語境不同。",
-        "grow-mcq-19": "「經過一段時間後逐漸開始具有某種感受、看法或能力」是「grow to + verb」的用法，與本句語境不同。",
-        "grow-mcq-16": "「種植並照料植物，使其生長」是「grow crops/plants」的用法，與本句語境不同。",
-        "grow-mcq-20": "「隨時間逐漸適應某件事情」是「grow accustomed to」的用法，與本句語境不同。",
-        "grow-mcq-15": "「植物自然增加尺寸、成熟和發展」是「plants grow」的用法，與本句語境不同。"
+        "grow-mcq-18": "本句的「grew quiet」指「隨時間逐漸變成某種狀態」。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-18"
     },
@@ -2175,11 +2047,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "grow-mcq-18",
-        "grow-mcq-17",
-        "grow-mcq-19",
-        "grow-mcq-16",
-        "grow-mcq-20",
-        "grow-mcq-15"
+        "grow-mcq-14",
+        "grow-pdf-002",
+        "grow-pdf-001"
       ],
       "explanation": "本句的「grew tired」指「隨時間逐漸變成某種狀態」。",
       "sentenceIndex": 38,
@@ -2188,12 +2058,10 @@ export default {
         "grew tired"
       ],
       "optionReasons": {
-        "grow-mcq-18": "本句指「隨時間逐漸變成某種狀態」。",
-        "grow-mcq-17": "「讓毛髮自然長出／變長」是「grow hair/beard」的用法，與本句語境不同。",
-        "grow-mcq-19": "「經過一段時間後逐漸開始具有某種感受、看法或能力」是「grow to + verb」的用法，與本句語境不同。",
-        "grow-mcq-16": "「種植並照料植物，使其生長」是「grow crops/plants」的用法，與本句語境不同。",
-        "grow-mcq-20": "「隨時間逐漸適應某件事情」是「grow accustomed to」的用法，與本句語境不同。",
-        "grow-mcq-15": "「植物自然增加尺寸、成熟和發展」是「plants grow」的用法，與本句語境不同。"
+        "grow-mcq-18": "本句的「grew tired」指「隨時間逐漸變成某種狀態」。",
+        "grow-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-18"
     },
@@ -2205,11 +2073,9 @@ export default {
       "masked": "The audience ____.",
       "options": [
         "grow-mcq-18",
-        "grow-mcq-17",
-        "grow-mcq-19",
-        "grow-mcq-16",
-        "grow-mcq-20",
-        "grow-mcq-15"
+        "grow-mcq-36",
+        "grow-mcq-39",
+        "grow-mcq-13"
       ],
       "explanation": "本句的「grew impatient」指「隨時間逐漸變成某種狀態」。",
       "sentenceIndex": 39,
@@ -2218,12 +2084,10 @@ export default {
         "grew impatient"
       ],
       "optionReasons": {
-        "grow-mcq-18": "本句指「隨時間逐漸變成某種狀態」。",
-        "grow-mcq-17": "「讓毛髮自然長出／變長」是「grow hair/beard」的用法，與本句語境不同。",
-        "grow-mcq-19": "「經過一段時間後逐漸開始具有某種感受、看法或能力」是「grow to + verb」的用法，與本句語境不同。",
-        "grow-mcq-16": "「種植並照料植物，使其生長」是「grow crops/plants」的用法，與本句語境不同。",
-        "grow-mcq-20": "「隨時間逐漸適應某件事情」是「grow accustomed to」的用法，與本句語境不同。",
-        "grow-mcq-15": "「植物自然增加尺寸、成熟和發展」是「plants grow」的用法，與本句語境不同。"
+        "grow-mcq-18": "本句的「grew impatient」指「隨時間逐漸變成某種狀態」。",
+        "grow-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-18"
     },
@@ -2235,11 +2099,9 @@ export default {
       "masked": "He ____ of waiting.",
       "options": [
         "grow-mcq-18",
-        "grow-mcq-17",
-        "grow-mcq-19",
-        "grow-mcq-16",
-        "grow-mcq-20",
-        "grow-mcq-15"
+        "grow-mcq-13",
+        "grow-pdf-002",
+        "grow-mcq-39"
       ],
       "explanation": "本句的「grew tired」指「隨時間逐漸變成某種狀態」。",
       "sentenceIndex": 40,
@@ -2248,12 +2110,10 @@ export default {
         "grew tired"
       ],
       "optionReasons": {
-        "grow-mcq-18": "本句指「隨時間逐漸變成某種狀態」。",
-        "grow-mcq-17": "「讓毛髮自然長出／變長」是「grow hair/beard」的用法，與本句語境不同。",
-        "grow-mcq-19": "「經過一段時間後逐漸開始具有某種感受、看法或能力」是「grow to + verb」的用法，與本句語境不同。",
-        "grow-mcq-16": "「種植並照料植物，使其生長」是「grow crops/plants」的用法，與本句語境不同。",
-        "grow-mcq-20": "「隨時間逐漸適應某件事情」是「grow accustomed to」的用法，與本句語境不同。",
-        "grow-mcq-15": "「植物自然增加尺寸、成熟和發展」是「plants grow」的用法，與本句語境不同。"
+        "grow-mcq-18": "本句的「grew tired」指「隨時間逐漸變成某種狀態」。",
+        "grow-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-18"
     },
@@ -2265,11 +2125,9 @@ export default {
       "masked": "I ____ public speaking.",
       "options": [
         "grow-mcq-19",
-        "grow-mcq-18",
-        "grow-mcq-20",
-        "grow-mcq-17",
-        "grow-mcq-21",
-        "grow-mcq-16"
+        "grow-mcq-41",
+        "grow-mcq-22",
+        "grow-pdf-001"
       ],
       "explanation": "本句的「grew to enjoy」指「經過一段時間後逐漸開始具有某種感受、看法或能力」。",
       "sentenceIndex": 41,
@@ -2278,12 +2136,10 @@ export default {
         "grew to enjoy"
       ],
       "optionReasons": {
-        "grow-mcq-19": "本句指「經過一段時間後逐漸開始具有某種感受、看法或能力」。",
-        "grow-mcq-18": "「隨時間逐漸變成某種狀態」是「grow + adjective」的用法，與本句語境不同。",
-        "grow-mcq-20": "「隨時間逐漸適應某件事情」是「grow accustomed to」的用法，與本句語境不同。",
-        "grow-mcq-17": "「讓毛髮自然長出／變長」是「grow hair/beard」的用法，與本句語境不同。",
-        "grow-mcq-21": "「隨經驗／成長逐步成為某種人或適應角色」是「grow into a role/person」的用法，與本句語境不同。",
-        "grow-mcq-16": "「種植並照料植物，使其生長」是「grow crops/plants」的用法，與本句語境不同。"
+        "grow-mcq-19": "本句的「grew to enjoy」指「經過一段時間後逐漸開始具有某種感受、看法或能力」。",
+        "grow-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-19"
     },
@@ -2295,11 +2151,9 @@ export default {
       "masked": "She ____ why preparation mattered.",
       "options": [
         "grow-mcq-19",
-        "grow-mcq-18",
-        "grow-mcq-20",
-        "grow-mcq-17",
-        "grow-mcq-21",
-        "grow-mcq-16"
+        "grow-mcq-15",
+        "grow-pdf-001",
+        "grow-mcq-22"
       ],
       "explanation": "本句的「grew to understand」指「經過一段時間後逐漸開始具有某種感受、看法或能力」。",
       "sentenceIndex": 42,
@@ -2308,12 +2162,10 @@ export default {
         "grew to understand"
       ],
       "optionReasons": {
-        "grow-mcq-19": "本句指「經過一段時間後逐漸開始具有某種感受、看法或能力」。",
-        "grow-mcq-18": "「隨時間逐漸變成某種狀態」是「grow + adjective」的用法，與本句語境不同。",
-        "grow-mcq-20": "「隨時間逐漸適應某件事情」是「grow accustomed to」的用法，與本句語境不同。",
-        "grow-mcq-17": "「讓毛髮自然長出／變長」是「grow hair/beard」的用法，與本句語境不同。",
-        "grow-mcq-21": "「隨經驗／成長逐步成為某種人或適應角色」是「grow into a role/person」的用法，與本句語境不同。",
-        "grow-mcq-16": "「種植並照料植物，使其生長」是「grow crops/plants」的用法，與本句語境不同。"
+        "grow-mcq-19": "本句的「grew to understand」指「經過一段時間後逐漸開始具有某種感受、看法或能力」。",
+        "grow-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-19"
     },
@@ -2325,11 +2177,9 @@ export default {
       "masked": "I ____ speaking in front of groups.",
       "options": [
         "grow-mcq-20",
-        "grow-mcq-19",
-        "grow-mcq-21",
-        "grow-mcq-18",
         "grow-mcq-22",
-        "grow-mcq-17"
+        "grow-mcq-17",
+        "grow-mcq-14"
       ],
       "explanation": "本句的「grew accustomed to」指「隨時間逐漸適應某件事情」。",
       "sentenceIndex": 43,
@@ -2338,12 +2188,10 @@ export default {
         "grew accustomed to"
       ],
       "optionReasons": {
-        "grow-mcq-20": "本句指「隨時間逐漸適應某件事情」。",
-        "grow-mcq-19": "「經過一段時間後逐漸開始具有某種感受、看法或能力」是「grow to + verb」的用法，與本句語境不同。",
-        "grow-mcq-21": "「隨經驗／成長逐步成為某種人或適應角色」是「grow into a role/person」的用法，與本句語境不同。",
-        "grow-mcq-18": "「隨時間逐漸變成某種狀態」是「grow + adjective」的用法，與本句語境不同。",
-        "grow-mcq-22": "「身體長大到衣物變得合身」是「grow into clothes」的用法，與本句語境不同。",
-        "grow-mcq-17": "「讓毛髮自然長出／變長」是「grow hair/beard」的用法，與本句語境不同。"
+        "grow-mcq-20": "本句的「grew accustomed to」指「隨時間逐漸適應某件事情」。",
+        "grow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-20"
     },
@@ -2355,11 +2203,9 @@ export default {
       "masked": "She ____ accustomed to the new routine.",
       "options": [
         "grow-mcq-20",
-        "grow-mcq-19",
-        "grow-mcq-21",
-        "grow-mcq-18",
-        "grow-mcq-22",
-        "grow-mcq-17"
+        "grow-mcq-39",
+        "grow-reviewed-c682bbda48",
+        "grow-mcq-23"
       ],
       "explanation": "本句的「grew」指「隨時間逐漸適應某件事情」。",
       "sentenceIndex": 44,
@@ -2368,12 +2214,10 @@ export default {
         "grew"
       ],
       "optionReasons": {
-        "grow-mcq-20": "本句指「隨時間逐漸適應某件事情」。",
-        "grow-mcq-19": "「經過一段時間後逐漸開始具有某種感受、看法或能力」是「grow to + verb」的用法，與本句語境不同。",
-        "grow-mcq-21": "「隨經驗／成長逐步成為某種人或適應角色」是「grow into a role/person」的用法，與本句語境不同。",
-        "grow-mcq-18": "「隨時間逐漸變成某種狀態」是「grow + adjective」的用法，與本句語境不同。",
-        "grow-mcq-22": "「身體長大到衣物變得合身」是「grow into clothes」的用法，與本句語境不同。",
-        "grow-mcq-17": "「讓毛髮自然長出／變長」是「grow hair/beard」的用法，與本句語境不同。"
+        "grow-mcq-20": "本句的「grew」指「隨時間逐漸適應某件事情」。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "grow-reviewed-c682bbda48": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-20"
     },
@@ -2385,11 +2229,9 @@ export default {
       "masked": "She ____ a confident presenter.",
       "options": [
         "grow-mcq-21",
-        "grow-mcq-20",
-        "grow-mcq-22",
-        "grow-mcq-19",
-        "grow-mcq-23",
-        "grow-mcq-18"
+        "grow-mcq-13",
+        "grow-pdf-001",
+        "grow-mcq-25"
       ],
       "explanation": "本句的「grew into」指「隨經驗／成長逐步成為某種人或適應角色」。",
       "sentenceIndex": 45,
@@ -2398,12 +2240,10 @@ export default {
         "grew into"
       ],
       "optionReasons": {
-        "grow-mcq-21": "本句指「隨經驗／成長逐步成為某種人或適應角色」。",
-        "grow-mcq-20": "「隨時間逐漸適應某件事情」是「grow accustomed to」的用法，與本句語境不同。",
-        "grow-mcq-22": "「身體長大到衣物變得合身」是「grow into clothes」的用法，與本句語境不同。",
-        "grow-mcq-19": "「經過一段時間後逐漸開始具有某種感受、看法或能力」是「grow to + verb」的用法，與本句語境不同。",
-        "grow-mcq-23": "「身體長大後原有衣物變得太小」是「grow out of clothes」的用法，與本句語境不同。",
-        "grow-mcq-18": "「隨時間逐漸變成某種狀態」是「grow + adjective」的用法，與本句語境不同。"
+        "grow-mcq-21": "本句的「grew into」指「隨經驗／成長逐步成為某種人或適應角色」。",
+        "grow-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-21"
     },
@@ -2415,11 +2255,9 @@ export default {
       "masked": "He ____ the leadership role.",
       "options": [
         "grow-mcq-21",
-        "grow-mcq-20",
-        "grow-mcq-22",
-        "grow-mcq-19",
-        "grow-mcq-23",
-        "grow-mcq-18"
+        "grow-mcq-39",
+        "grow-mcq-30",
+        "grow-mcq-03"
       ],
       "explanation": "本句的「grew into」指「隨經驗／成長逐步成為某種人或適應角色」。",
       "sentenceIndex": 46,
@@ -2428,12 +2266,10 @@ export default {
         "grew into"
       ],
       "optionReasons": {
-        "grow-mcq-21": "本句指「隨經驗／成長逐步成為某種人或適應角色」。",
-        "grow-mcq-20": "「隨時間逐漸適應某件事情」是「grow accustomed to」的用法，與本句語境不同。",
-        "grow-mcq-22": "「身體長大到衣物變得合身」是「grow into clothes」的用法，與本句語境不同。",
-        "grow-mcq-19": "「經過一段時間後逐漸開始具有某種感受、看法或能力」是「grow to + verb」的用法，與本句語境不同。",
-        "grow-mcq-23": "「身體長大後原有衣物變得太小」是「grow out of clothes」的用法，與本句語境不同。",
-        "grow-mcq-18": "「隨時間逐漸變成某種狀態」是「grow + adjective」的用法，與本句語境不同。"
+        "grow-mcq-21": "本句的「grew into」指「隨經驗／成長逐步成為某種人或適應角色」。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-21"
     },
@@ -2445,10 +2281,8 @@ export default {
       "masked": "The jacket is large, but he’ll ____.",
       "options": [
         "grow-mcq-22",
-        "grow-mcq-21",
-        "grow-mcq-23",
-        "grow-mcq-20",
-        "grow-mcq-24",
+        "grow-mcq-10",
+        "grow-mcq-12",
         "grow-mcq-19"
       ],
       "explanation": "本句的「grow into it」指「身體長大到衣物變得合身」。",
@@ -2458,12 +2292,10 @@ export default {
         "grow into it"
       ],
       "optionReasons": {
-        "grow-mcq-22": "本句指「身體長大到衣物變得合身」。",
-        "grow-mcq-21": "「隨經驗／成長逐步成為某種人或適應角色」是「grow into a role/person」的用法，與本句語境不同。",
-        "grow-mcq-23": "「身體長大後原有衣物變得太小」是「grow out of clothes」的用法，與本句語境不同。",
-        "grow-mcq-20": "「隨時間逐漸適應某件事情」是「grow accustomed to」的用法，與本句語境不同。",
-        "grow-mcq-24": "「隨成熟／時間而自然停止某種習慣、恐懼或行為」是「grow out of a habit/fear」的用法，與本句語境不同。",
-        "grow-mcq-19": "「經過一段時間後逐漸開始具有某種感受、看法或能力」是「grow to + verb」的用法，與本句語境不同。"
+        "grow-mcq-22": "本句的「grow into it」指「身體長大到衣物變得合身」。",
+        "grow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-22"
     },
@@ -2475,11 +2307,9 @@ export default {
       "masked": "Children often ____ clothes quickly.",
       "options": [
         "grow-mcq-22",
-        "grow-mcq-21",
-        "grow-mcq-23",
-        "grow-mcq-20",
-        "grow-mcq-24",
-        "grow-mcq-19"
+        "grow-mcq-04",
+        "grow-mcq-10",
+        "grow-mcq-13"
       ],
       "explanation": "本句的「grow into」指「身體長大到衣物變得合身」。",
       "sentenceIndex": 48,
@@ -2488,12 +2318,10 @@ export default {
         "grow into"
       ],
       "optionReasons": {
-        "grow-mcq-22": "本句指「身體長大到衣物變得合身」。",
-        "grow-mcq-21": "「隨經驗／成長逐步成為某種人或適應角色」是「grow into a role/person」的用法，與本句語境不同。",
-        "grow-mcq-23": "「身體長大後原有衣物變得太小」是「grow out of clothes」的用法，與本句語境不同。",
-        "grow-mcq-20": "「隨時間逐漸適應某件事情」是「grow accustomed to」的用法，與本句語境不同。",
-        "grow-mcq-24": "「隨成熟／時間而自然停止某種習慣、恐懼或行為」是「grow out of a habit/fear」的用法，與本句語境不同。",
-        "grow-mcq-19": "「經過一段時間後逐漸開始具有某種感受、看法或能力」是「grow to + verb」的用法，與本句語境不同。"
+        "grow-mcq-22": "本句的「grow into」指「身體長大到衣物變得合身」。",
+        "grow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-22"
     },
@@ -2505,11 +2333,9 @@ export default {
       "masked": "She ____ the shoes.",
       "options": [
         "grow-mcq-23",
-        "grow-mcq-22",
-        "grow-mcq-24",
-        "grow-mcq-21",
-        "grow-mcq-25",
-        "grow-mcq-20"
+        "grow-mcq-04",
+        "grow-mcq-12",
+        "grow-mcq-28"
       ],
       "explanation": "本句的「grew out of」指「身體長大後原有衣物變得太小」。",
       "sentenceIndex": 49,
@@ -2518,12 +2344,10 @@ export default {
         "grew out of"
       ],
       "optionReasons": {
-        "grow-mcq-23": "本句指「身體長大後原有衣物變得太小」。",
-        "grow-mcq-22": "「身體長大到衣物變得合身」是「grow into clothes」的用法，與本句語境不同。",
-        "grow-mcq-24": "「隨成熟／時間而自然停止某種習慣、恐懼或行為」是「grow out of a habit/fear」的用法，與本句語境不同。",
-        "grow-mcq-21": "「隨經驗／成長逐步成為某種人或適應角色」是「grow into a role/person」的用法，與本句語境不同。",
-        "grow-mcq-25": "「人際關係隨時間變得不再親密」是「grow apart」的用法，與本句語境不同。",
-        "grow-mcq-20": "「隨時間逐漸適應某件事情」是「grow accustomed to」的用法，與本句語境不同。"
+        "grow-mcq-23": "本句的「grew out of」指「身體長大後原有衣物變得太小」。",
+        "grow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-23"
     },
@@ -2535,11 +2359,9 @@ export default {
       "masked": "Children quickly ____ their clothes.",
       "options": [
         "grow-mcq-23",
-        "grow-mcq-22",
-        "grow-mcq-24",
-        "grow-mcq-21",
-        "grow-mcq-25",
-        "grow-mcq-20"
+        "grow-mcq-30",
+        "grow-mcq-33",
+        "grow-mcq-04"
       ],
       "explanation": "本句的「grow out of」指「身體長大後原有衣物變得太小」。",
       "sentenceIndex": 50,
@@ -2548,12 +2370,10 @@ export default {
         "grow out of"
       ],
       "optionReasons": {
-        "grow-mcq-23": "本句指「身體長大後原有衣物變得太小」。",
-        "grow-mcq-22": "「身體長大到衣物變得合身」是「grow into clothes」的用法，與本句語境不同。",
-        "grow-mcq-24": "「隨成熟／時間而自然停止某種習慣、恐懼或行為」是「grow out of a habit/fear」的用法，與本句語境不同。",
-        "grow-mcq-21": "「隨經驗／成長逐步成為某種人或適應角色」是「grow into a role/person」的用法，與本句語境不同。",
-        "grow-mcq-25": "「人際關係隨時間變得不再親密」是「grow apart」的用法，與本句語境不同。",
-        "grow-mcq-20": "「隨時間逐漸適應某件事情」是「grow accustomed to」的用法，與本句語境不同。"
+        "grow-mcq-23": "本句的「grow out of」指「身體長大後原有衣物變得太小」。",
+        "grow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-23"
     },
@@ -2565,11 +2385,9 @@ export default {
       "masked": "He ____ his fear of speaking in class.",
       "options": [
         "grow-mcq-24",
-        "grow-mcq-23",
-        "grow-mcq-25",
-        "grow-mcq-22",
-        "grow-mcq-26",
-        "grow-mcq-21"
+        "grow-mcq-40",
+        "grow-mcq-30",
+        "grow-mcq-35"
       ],
       "explanation": "本句的「grew out of」指「隨成熟／時間而自然停止某種習慣、恐懼或行為」。",
       "sentenceIndex": 51,
@@ -2578,12 +2396,10 @@ export default {
         "grew out of"
       ],
       "optionReasons": {
-        "grow-mcq-24": "本句指「隨成熟／時間而自然停止某種習慣、恐懼或行為」。",
-        "grow-mcq-23": "「身體長大後原有衣物變得太小」是「grow out of clothes」的用法，與本句語境不同。",
-        "grow-mcq-25": "「人際關係隨時間變得不再親密」是「grow apart」的用法，與本句語境不同。",
-        "grow-mcq-22": "「身體長大到衣物變得合身」是「grow into clothes」的用法，與本句語境不同。",
-        "grow-mcq-26": "「人際關係隨時間變得更親密」是「grow closer」的用法，與本句語境不同。",
-        "grow-mcq-21": "「隨經驗／成長逐步成為某種人或適應角色」是「grow into a role/person」的用法，與本句語境不同。"
+        "grow-mcq-24": "本句的「grew out of」指「隨成熟／時間而自然停止某種習慣、恐懼或行為」。",
+        "grow-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-24"
     },
@@ -2595,11 +2411,9 @@ export default {
       "masked": "Most children ____ that phase.",
       "options": [
         "grow-mcq-24",
-        "grow-mcq-23",
-        "grow-mcq-25",
-        "grow-mcq-22",
-        "grow-mcq-26",
-        "grow-mcq-21"
+        "grow-mcq-29",
+        "grow-mcq-28",
+        "grow-mcq-22"
       ],
       "explanation": "本句的「grow out of」指「隨成熟／時間而自然停止某種習慣、恐懼或行為」。",
       "sentenceIndex": 52,
@@ -2608,12 +2422,10 @@ export default {
         "grow out of"
       ],
       "optionReasons": {
-        "grow-mcq-24": "本句指「隨成熟／時間而自然停止某種習慣、恐懼或行為」。",
-        "grow-mcq-23": "「身體長大後原有衣物變得太小」是「grow out of clothes」的用法，與本句語境不同。",
-        "grow-mcq-25": "「人際關係隨時間變得不再親密」是「grow apart」的用法，與本句語境不同。",
-        "grow-mcq-22": "「身體長大到衣物變得合身」是「grow into clothes」的用法，與本句語境不同。",
-        "grow-mcq-26": "「人際關係隨時間變得更親密」是「grow closer」的用法，與本句語境不同。",
-        "grow-mcq-21": "「隨經驗／成長逐步成為某種人或適應角色」是「grow into a role/person」的用法，與本句語境不同。"
+        "grow-mcq-24": "本句的「grow out of」指「隨成熟／時間而自然停止某種習慣、恐懼或行為」。",
+        "grow-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-24"
     },
@@ -2625,11 +2437,9 @@ export default {
       "masked": "The two friends gradually ____.",
       "options": [
         "grow-mcq-25",
-        "grow-mcq-24",
-        "grow-mcq-26",
-        "grow-mcq-23",
-        "grow-mcq-27",
-        "grow-mcq-22"
+        "grow-mcq-35",
+        "grow-mcq-12",
+        "grow-mcq-40"
       ],
       "explanation": "本句的「grew apart」指「人際關係隨時間變得不再親密」。",
       "sentenceIndex": 53,
@@ -2638,12 +2448,10 @@ export default {
         "grew apart"
       ],
       "optionReasons": {
-        "grow-mcq-25": "本句指「人際關係隨時間變得不再親密」。",
-        "grow-mcq-24": "「隨成熟／時間而自然停止某種習慣、恐懼或行為」是「grow out of a habit/fear」的用法，與本句語境不同。",
-        "grow-mcq-26": "「人際關係隨時間變得更親密」是「grow closer」的用法，與本句語境不同。",
-        "grow-mcq-23": "「身體長大後原有衣物變得太小」是「grow out of clothes」的用法，與本句語境不同。",
-        "grow-mcq-27": "「某人隨時間逐漸開始喜歡／欣賞某物」是「grow on someone」的用法，與本句語境不同。",
-        "grow-mcq-22": "「身體長大到衣物變得合身」是「grow into clothes」的用法，與本句語境不同。"
+        "grow-mcq-25": "本句的「grew apart」指「人際關係隨時間變得不再親密」。",
+        "grow-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-25"
     },
@@ -2655,11 +2463,9 @@ export default {
       "masked": "They ____ after leaving university.",
       "options": [
         "grow-mcq-25",
-        "grow-mcq-24",
-        "grow-mcq-26",
-        "grow-mcq-23",
-        "grow-mcq-27",
-        "grow-mcq-22"
+        "grow-mcq-30",
+        "grow-mcq-10",
+        "grow-mcq-39"
       ],
       "explanation": "本句的「grew apart」指「人際關係隨時間變得不再親密」。",
       "sentenceIndex": 54,
@@ -2668,12 +2474,10 @@ export default {
         "grew apart"
       ],
       "optionReasons": {
-        "grow-mcq-25": "本句指「人際關係隨時間變得不再親密」。",
-        "grow-mcq-24": "「隨成熟／時間而自然停止某種習慣、恐懼或行為」是「grow out of a habit/fear」的用法，與本句語境不同。",
-        "grow-mcq-26": "「人際關係隨時間變得更親密」是「grow closer」的用法，與本句語境不同。",
-        "grow-mcq-23": "「身體長大後原有衣物變得太小」是「grow out of clothes」的用法，與本句語境不同。",
-        "grow-mcq-27": "「某人隨時間逐漸開始喜歡／欣賞某物」是「grow on someone」的用法，與本句語境不同。",
-        "grow-mcq-22": "「身體長大到衣物變得合身」是「grow into clothes」的用法，與本句語境不同。"
+        "grow-mcq-25": "本句的「grew apart」指「人際關係隨時間變得不再親密」。",
+        "grow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-25"
     },
@@ -2685,11 +2489,9 @@ export default {
       "masked": "The team ____ during the project.",
       "options": [
         "grow-mcq-26",
-        "grow-mcq-25",
-        "grow-mcq-27",
-        "grow-mcq-24",
-        "grow-mcq-28",
-        "grow-mcq-23"
+        "grow-mcq-06",
+        "grow-mcq-40",
+        "grow-pdf-002"
       ],
       "explanation": "本句的「grew closer」指「人際關係隨時間變得更親密」。",
       "sentenceIndex": 55,
@@ -2698,12 +2500,10 @@ export default {
         "grew closer"
       ],
       "optionReasons": {
-        "grow-mcq-26": "本句指「人際關係隨時間變得更親密」。",
-        "grow-mcq-25": "「人際關係隨時間變得不再親密」是「grow apart」的用法，與本句語境不同。",
-        "grow-mcq-27": "「某人隨時間逐漸開始喜歡／欣賞某物」是「grow on someone」的用法，與本句語境不同。",
-        "grow-mcq-24": "「隨成熟／時間而自然停止某種習慣、恐懼或行為」是「grow out of a habit/fear」的用法，與本句語境不同。",
-        "grow-mcq-28": "「由某個來源、基礎或早期形式逐步發展」是「grow from」的用法，與本句語境不同。",
-        "grow-mcq-23": "「身體長大後原有衣物變得太小」是「grow out of clothes」的用法，與本句語境不同。"
+        "grow-mcq-26": "本句的「grew closer」指「人際關係隨時間變得更親密」。",
+        "grow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-26"
     },
@@ -2715,11 +2515,9 @@ export default {
       "masked": "They ____ after working together.",
       "options": [
         "grow-mcq-26",
-        "grow-mcq-25",
-        "grow-mcq-27",
-        "grow-mcq-24",
-        "grow-mcq-28",
-        "grow-mcq-23"
+        "grow-reviewed-3c32dad585",
+        "grow-mcq-39",
+        "grow-mcq-36"
       ],
       "explanation": "本句的「grew closer」指「人際關係隨時間變得更親密」。",
       "sentenceIndex": 56,
@@ -2728,12 +2526,10 @@ export default {
         "grew closer"
       ],
       "optionReasons": {
-        "grow-mcq-26": "本句指「人際關係隨時間變得更親密」。",
-        "grow-mcq-25": "「人際關係隨時間變得不再親密」是「grow apart」的用法，與本句語境不同。",
-        "grow-mcq-27": "「某人隨時間逐漸開始喜歡／欣賞某物」是「grow on someone」的用法，與本句語境不同。",
-        "grow-mcq-24": "「隨成熟／時間而自然停止某種習慣、恐懼或行為」是「grow out of a habit/fear」的用法，與本句語境不同。",
-        "grow-mcq-28": "「由某個來源、基礎或早期形式逐步發展」是「grow from」的用法，與本句語境不同。",
-        "grow-mcq-23": "「身體長大後原有衣物變得太小」是「grow out of clothes」的用法，與本句語境不同。"
+        "grow-mcq-26": "本句的「grew closer」指「人際關係隨時間變得更親密」。",
+        "grow-reviewed-3c32dad585": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-26"
     },
@@ -2745,11 +2541,9 @@ export default {
       "masked": "Public speaking slowly ____.",
       "options": [
         "grow-mcq-27",
-        "grow-mcq-26",
-        "grow-mcq-28",
-        "grow-mcq-25",
-        "grow-mcq-29",
-        "grow-mcq-24"
+        "grow-mcq-36",
+        "grow-mcq-30",
+        "grow-mcq-22"
       ],
       "explanation": "本句的「grew on me」指「某人隨時間逐漸開始喜歡／欣賞某物」。",
       "sentenceIndex": 57,
@@ -2758,12 +2552,10 @@ export default {
         "grew on me"
       ],
       "optionReasons": {
-        "grow-mcq-27": "本句指「某人隨時間逐漸開始喜歡／欣賞某物」。",
-        "grow-mcq-26": "「人際關係隨時間變得更親密」是「grow closer」的用法，與本句語境不同。",
-        "grow-mcq-28": "「由某個來源、基礎或早期形式逐步發展」是「grow from」的用法，與本句語境不同。",
-        "grow-mcq-25": "「人際關係隨時間變得不再親密」是「grow apart」的用法，與本句語境不同。",
-        "grow-mcq-29": "「主動令企業／業務規模、收入或市場增加」是「grow a business」的用法，與本句語境不同。",
-        "grow-mcq-24": "「隨成熟／時間而自然停止某種習慣、恐懼或行為」是「grow out of a habit/fear」的用法，與本句語境不同。"
+        "grow-mcq-27": "本句的「grew on me」指「某人隨時間逐漸開始喜歡／欣賞某物」。",
+        "grow-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-27"
     },
@@ -2775,11 +2567,9 @@ export default {
       "masked": "I didn’t like the design at first, but it ____.",
       "options": [
         "grow-mcq-27",
-        "grow-mcq-26",
-        "grow-mcq-28",
-        "grow-mcq-25",
-        "grow-mcq-29",
-        "grow-mcq-24"
+        "grow-mcq-39",
+        "grow-mcq-12",
+        "grow-mcq-23"
       ],
       "explanation": "本句的「grew on me」指「某人隨時間逐漸開始喜歡／欣賞某物」。",
       "sentenceIndex": 58,
@@ -2788,12 +2578,10 @@ export default {
         "grew on me"
       ],
       "optionReasons": {
-        "grow-mcq-27": "本句指「某人隨時間逐漸開始喜歡／欣賞某物」。",
-        "grow-mcq-26": "「人際關係隨時間變得更親密」是「grow closer」的用法，與本句語境不同。",
-        "grow-mcq-28": "「由某個來源、基礎或早期形式逐步發展」是「grow from」的用法，與本句語境不同。",
-        "grow-mcq-25": "「人際關係隨時間變得不再親密」是「grow apart」的用法，與本句語境不同。",
-        "grow-mcq-29": "「主動令企業／業務規模、收入或市場增加」是「grow a business」的用法，與本句語境不同。",
-        "grow-mcq-24": "「隨成熟／時間而自然停止某種習慣、恐懼或行為」是「grow out of a habit/fear」的用法，與本句語境不同。"
+        "grow-mcq-27": "本句的「grew on me」指「某人隨時間逐漸開始喜歡／欣賞某物」。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-27"
     },
@@ -2805,11 +2593,9 @@ export default {
       "masked": "Confidence ____.",
       "options": [
         "grow-mcq-28",
-        "grow-mcq-27",
         "grow-mcq-29",
-        "grow-mcq-26",
-        "grow-mcq-30",
-        "grow-mcq-25"
+        "grow-mcq-23",
+        "grow-pdf-002"
       ],
       "explanation": "本句的「grows from experience」指「由某個來源、基礎或早期形式逐步發展」。",
       "sentenceIndex": 59,
@@ -2818,12 +2604,10 @@ export default {
         "grows from experience"
       ],
       "optionReasons": {
-        "grow-mcq-28": "本句指「由某個來源、基礎或早期形式逐步發展」。",
-        "grow-mcq-27": "「某人隨時間逐漸開始喜歡／欣賞某物」是「grow on someone」的用法，與本句語境不同。",
-        "grow-mcq-29": "「主動令企業／業務規模、收入或市場增加」是「grow a business」的用法，與本句語境不同。",
-        "grow-mcq-26": "「人際關係隨時間變得更親密」是「grow closer」的用法，與本句語境不同。",
-        "grow-mcq-30": "「主動使銷售額／受眾規模增加」是「grow sales/audience」的用法，與本句語境不同。",
-        "grow-mcq-25": "「人際關係隨時間變得不再親密」是「grow apart」的用法，與本句語境不同。"
+        "grow-mcq-28": "本句的「grows from experience」指「由某個來源、基礎或早期形式逐步發展」。",
+        "grow-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-28"
     },
@@ -2835,11 +2619,9 @@ export default {
       "masked": "The project ____ a simple idea.",
       "options": [
         "grow-mcq-28",
-        "grow-mcq-27",
-        "grow-mcq-29",
-        "grow-mcq-26",
-        "grow-mcq-30",
-        "grow-mcq-25"
+        "grow-mcq-23",
+        "grow-pdf-002",
+        "grow-mcq-34"
       ],
       "explanation": "本句的「grew from」指「由某個來源、基礎或早期形式逐步發展」。",
       "sentenceIndex": 60,
@@ -2848,12 +2630,10 @@ export default {
         "grew from"
       ],
       "optionReasons": {
-        "grow-mcq-28": "本句指「由某個來源、基礎或早期形式逐步發展」。",
-        "grow-mcq-27": "「某人隨時間逐漸開始喜歡／欣賞某物」是「grow on someone」的用法，與本句語境不同。",
-        "grow-mcq-29": "「主動令企業／業務規模、收入或市場增加」是「grow a business」的用法，與本句語境不同。",
-        "grow-mcq-26": "「人際關係隨時間變得更親密」是「grow closer」的用法，與本句語境不同。",
-        "grow-mcq-30": "「主動使銷售額／受眾規模增加」是「grow sales/audience」的用法，與本句語境不同。",
-        "grow-mcq-25": "「人際關係隨時間變得不再親密」是「grow apart」的用法，與本句語境不同。"
+        "grow-mcq-28": "本句的「grew from」指「由某個來源、基礎或早期形式逐步發展」。",
+        "grow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-28"
     },
@@ -2865,11 +2645,8 @@ export default {
       "masked": "The business ____ a university project.",
       "options": [
         "grow-mcq-40",
-        "grow-mcq-39",
-        "grow-mcq-41",
-        "grow-mcq-38",
-        "grow-mcq-37",
-        "grow-mcq-36"
+        "grow-reviewed-3c32dad585",
+        "grow-mcq-24"
       ],
       "explanation": "本句的「grew out of」指「某件較大的事物由原有情況／活動逐步產生」。",
       "sentenceIndex": 61,
@@ -2878,12 +2655,9 @@ export default {
         "grew out of"
       ],
       "optionReasons": {
-        "grow-mcq-40": "本句指「某件較大的事物由原有情況／活動逐步產生」。",
-        "grow-mcq-39": "「在本地／內部培育、發展或生產的」是「home-grown」的用法，與本句語境不同。",
-        "grow-mcq-41": "「規模／性質發展到一個更大、更成熟的新形式」是「50. grow = spread/develop beyond original size（擴大） — 擴展；蔓延」的用法，與本句語境不同。",
-        "grow-mcq-38": "「植物長得太多／太長而顯得失控、雜亂」是「overgrown」的用法，與本句語境不同。",
-        "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。"
+        "grow-mcq-40": "本句的「grew out of」指「某件較大的事物由原有情況／活動逐步產生」。",
+        "grow-reviewed-3c32dad585": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-40"
     },
@@ -2895,11 +2669,9 @@ export default {
       "masked": "The idea ____ earlier research.",
       "options": [
         "grow-mcq-40",
-        "grow-mcq-39",
-        "grow-mcq-41",
-        "grow-mcq-38",
-        "grow-mcq-37",
-        "grow-mcq-36"
+        "grow-mcq-26",
+        "grow-mcq-17",
+        "grow-mcq-13"
       ],
       "explanation": "本句的「grew out of」指「某件較大的事物由原有情況／活動逐步產生」。",
       "sentenceIndex": 62,
@@ -2908,12 +2680,10 @@ export default {
         "grew out of"
       ],
       "optionReasons": {
-        "grow-mcq-40": "本句指「某件較大的事物由原有情況／活動逐步產生」。",
-        "grow-mcq-39": "「在本地／內部培育、發展或生產的」是「home-grown」的用法，與本句語境不同。",
-        "grow-mcq-41": "「規模／性質發展到一個更大、更成熟的新形式」是「50. grow = spread/develop beyond original size（擴大） — 擴展；蔓延」的用法，與本句語境不同。",
-        "grow-mcq-38": "「植物長得太多／太長而顯得失控、雜亂」是「overgrown」的用法，與本句語境不同。",
-        "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。"
+        "grow-mcq-40": "本句的「grew out of」指「某件較大的事物由原有情況／活動逐步產生」。",
+        "grow-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-40"
     },
@@ -2925,11 +2695,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "grow-mcq-29",
-        "grow-mcq-28",
-        "grow-mcq-30",
-        "grow-mcq-27",
-        "grow-mcq-31",
-        "grow-mcq-26"
+        "grow-mcq-22",
+        "grow-mcq-18",
+        "grow-mcq-33"
       ],
       "explanation": "本句的「grew quickly」指「主動令企業／業務規模、收入或市場增加」。",
       "sentenceIndex": 63,
@@ -2938,12 +2706,10 @@ export default {
         "grew quickly"
       ],
       "optionReasons": {
-        "grow-mcq-29": "本句指「主動令企業／業務規模、收入或市場增加」。",
-        "grow-mcq-28": "「由某個來源、基礎或早期形式逐步發展」是「grow from」的用法，與本句語境不同。",
-        "grow-mcq-30": "「主動使銷售額／受眾規模增加」是「grow sales/audience」的用法，與本句語境不同。",
-        "grow-mcq-27": "「某人隨時間逐漸開始喜歡／欣賞某物」是「grow on someone」的用法，與本句語境不同。",
-        "grow-mcq-31": "「某項數量、程度或問題正在逐漸增加」是「growing + noun」的用法，與本句語境不同。",
-        "grow-mcq-26": "「人際關係隨時間變得更親密」是「grow closer」的用法，與本句語境不同。"
+        "grow-mcq-29": "本句的「grew quickly」指「主動令企業／業務規模、收入或市場增加」。",
+        "grow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-29"
     },
@@ -2955,11 +2721,9 @@ export default {
       "masked": "The business has ____.",
       "options": [
         "grow-mcq-29",
-        "grow-mcq-28",
-        "grow-mcq-30",
-        "grow-mcq-27",
-        "grow-mcq-31",
-        "grow-mcq-26"
+        "grow-mcq-33",
+        "grow-mcq-20",
+        "grow-mcq-22"
       ],
       "explanation": "本句的「grown significantly」指「主動令企業／業務規模、收入或市場增加」。",
       "sentenceIndex": 64,
@@ -2968,12 +2732,10 @@ export default {
         "grown significantly"
       ],
       "optionReasons": {
-        "grow-mcq-29": "本句指「主動令企業／業務規模、收入或市場增加」。",
-        "grow-mcq-28": "「由某個來源、基礎或早期形式逐步發展」是「grow from」的用法，與本句語境不同。",
-        "grow-mcq-30": "「主動使銷售額／受眾規模增加」是「grow sales/audience」的用法，與本句語境不同。",
-        "grow-mcq-27": "「某人隨時間逐漸開始喜歡／欣賞某物」是「grow on someone」的用法，與本句語境不同。",
-        "grow-mcq-31": "「某項數量、程度或問題正在逐漸增加」是「growing + noun」的用法，與本句語境不同。",
-        "grow-mcq-26": "「人際關係隨時間變得更親密」是「grow closer」的用法，與本句語境不同。"
+        "grow-mcq-29": "本句的「grown significantly」指「主動令企業／業務規模、收入或市場增加」。",
+        "grow-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-29"
     },
@@ -2985,10 +2747,8 @@ export default {
       "masked": "She wants to ____.",
       "options": [
         "grow-mcq-29",
-        "grow-mcq-28",
-        "grow-mcq-30",
-        "grow-mcq-27",
-        "grow-mcq-31",
+        "grow-mcq-39",
+        "grow-mcq-16",
         "grow-mcq-26"
       ],
       "explanation": "本句的「grow the business」指「主動令企業／業務規模、收入或市場增加」。",
@@ -2998,12 +2758,10 @@ export default {
         "grow the business"
       ],
       "optionReasons": {
-        "grow-mcq-29": "本句指「主動令企業／業務規模、收入或市場增加」。",
-        "grow-mcq-28": "「由某個來源、基礎或早期形式逐步發展」是「grow from」的用法，與本句語境不同。",
-        "grow-mcq-30": "「主動使銷售額／受眾規模增加」是「grow sales/audience」的用法，與本句語境不同。",
-        "grow-mcq-27": "「某人隨時間逐漸開始喜歡／欣賞某物」是「grow on someone」的用法，與本句語境不同。",
-        "grow-mcq-31": "「某項數量、程度或問題正在逐漸增加」是「growing + noun」的用法，與本句語境不同。",
-        "grow-mcq-26": "「人際關係隨時間變得更親密」是「grow closer」的用法，與本句語境不同。"
+        "grow-mcq-29": "本句的「grow the business」指「主動令企業／業務規模、收入或市場增加」。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-29"
     },
@@ -3015,11 +2773,9 @@ export default {
       "masked": "The company is trying to ____.",
       "options": [
         "grow-mcq-29",
+        "grow-mcq-24",
         "grow-mcq-28",
-        "grow-mcq-30",
-        "grow-mcq-27",
-        "grow-mcq-31",
-        "grow-mcq-26"
+        "grow-mcq-35"
       ],
       "explanation": "本句的「grow its international business」指「主動令企業／業務規模、收入或市場增加」。",
       "sentenceIndex": 66,
@@ -3028,12 +2784,10 @@ export default {
         "grow its international business"
       ],
       "optionReasons": {
-        "grow-mcq-29": "本句指「主動令企業／業務規模、收入或市場增加」。",
-        "grow-mcq-28": "「由某個來源、基礎或早期形式逐步發展」是「grow from」的用法，與本句語境不同。",
-        "grow-mcq-30": "「主動使銷售額／受眾規模增加」是「grow sales/audience」的用法，與本句語境不同。",
-        "grow-mcq-27": "「某人隨時間逐漸開始喜歡／欣賞某物」是「grow on someone」的用法，與本句語境不同。",
-        "grow-mcq-31": "「某項數量、程度或問題正在逐漸增加」是「growing + noun」的用法，與本句語境不同。",
-        "grow-mcq-26": "「人際關係隨時間變得更親密」是「grow closer」的用法，與本句語境不同。"
+        "grow-mcq-29": "本句的「grow its international business」指「主動令企業／業務規模、收入或市場增加」。",
+        "grow-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-29"
     },
@@ -3045,11 +2799,9 @@ export default {
       "masked": "The campaign helped ____.",
       "options": [
         "grow-mcq-30",
-        "grow-mcq-29",
-        "grow-mcq-31",
-        "grow-mcq-28",
-        "grow-mcq-32",
-        "grow-mcq-27"
+        "grow-mcq-10",
+        "grow-mcq-20",
+        "grow-mcq-39"
       ],
       "explanation": "本句的「grow sales」指「主動使銷售額／受眾規模增加」。",
       "sentenceIndex": 67,
@@ -3058,12 +2810,10 @@ export default {
         "grow sales"
       ],
       "optionReasons": {
-        "grow-mcq-30": "本句指「主動使銷售額／受眾規模增加」。",
-        "grow-mcq-29": "「主動令企業／業務規模、收入或市場增加」是「grow a business」的用法，與本句語境不同。",
-        "grow-mcq-31": "「某項數量、程度或問題正在逐漸增加」是「growing + noun」的用法，與本句語境不同。",
-        "grow-mcq-28": "「由某個來源、基礎或早期形式逐步發展」是「grow from」的用法，與本句語境不同。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。",
-        "grow-mcq-27": "「某人隨時間逐漸開始喜歡／欣賞某物」是「grow on someone」的用法，與本句語境不同。"
+        "grow-mcq-30": "本句的「grow sales」指「主動使銷售額／受眾規模增加」。",
+        "grow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-30"
     },
@@ -3075,11 +2825,9 @@ export default {
       "masked": "They are trying to ____.",
       "options": [
         "grow-mcq-30",
-        "grow-mcq-29",
-        "grow-mcq-31",
-        "grow-mcq-28",
-        "grow-mcq-32",
-        "grow-mcq-27"
+        "grow-mcq-20",
+        "grow-mcq-23",
+        "grow-pdf-001"
       ],
       "explanation": "本句的「grow their audience」指「主動使銷售額／受眾規模增加」。",
       "sentenceIndex": 68,
@@ -3088,12 +2836,10 @@ export default {
         "grow their audience"
       ],
       "optionReasons": {
-        "grow-mcq-30": "本句指「主動使銷售額／受眾規模增加」。",
-        "grow-mcq-29": "「主動令企業／業務規模、收入或市場增加」是「grow a business」的用法，與本句語境不同。",
-        "grow-mcq-31": "「某項數量、程度或問題正在逐漸增加」是「growing + noun」的用法，與本句語境不同。",
-        "grow-mcq-28": "「由某個來源、基礎或早期形式逐步發展」是「grow from」的用法，與本句語境不同。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。",
-        "grow-mcq-27": "「某人隨時間逐漸開始喜歡／欣賞某物」是「grow on someone」的用法，與本句語境不同。"
+        "grow-mcq-30": "本句的「grow their audience」指「主動使銷售額／受眾規模增加」。",
+        "grow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-30"
     },
@@ -3105,11 +2851,9 @@ export default {
       "masked": "There is ____ for the service.",
       "options": [
         "grow-mcq-31",
-        "grow-mcq-30",
-        "grow-mcq-32",
-        "grow-mcq-29",
-        "grow-mcq-33",
-        "grow-mcq-28"
+        "grow-mcq-26",
+        "grow-pdf-001",
+        "grow-mcq-36"
       ],
       "explanation": "本句的「growing demand」指「某項數量、程度或問題正在逐漸增加」。",
       "sentenceIndex": 69,
@@ -3118,12 +2862,10 @@ export default {
         "growing demand"
       ],
       "optionReasons": {
-        "grow-mcq-31": "本句指「某項數量、程度或問題正在逐漸增加」。",
-        "grow-mcq-30": "「主動使銷售額／受眾規模增加」是「grow sales/audience」的用法，與本句語境不同。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。",
-        "grow-mcq-29": "「主動令企業／業務規模、收入或市場增加」是「grow a business」的用法，與本句語境不同。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。",
-        "grow-mcq-28": "「由某個來源、基礎或早期形式逐步發展」是「grow from」的用法，與本句語境不同。"
+        "grow-mcq-31": "本句的「growing demand」指「某項數量、程度或問題正在逐漸增加」。",
+        "grow-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-31"
     },
@@ -3135,11 +2877,9 @@ export default {
       "masked": "She felt ____.",
       "options": [
         "grow-mcq-31",
-        "grow-mcq-30",
-        "grow-mcq-32",
-        "grow-mcq-29",
-        "grow-mcq-33",
-        "grow-mcq-28"
+        "grow-mcq-22",
+        "grow-mcq-17",
+        "grow-mcq-39"
       ],
       "explanation": "本句的「growing confidence」指「某項數量、程度或問題正在逐漸增加」。",
       "sentenceIndex": 70,
@@ -3148,12 +2888,10 @@ export default {
         "growing confidence"
       ],
       "optionReasons": {
-        "grow-mcq-31": "本句指「某項數量、程度或問題正在逐漸增加」。",
-        "grow-mcq-30": "「主動使銷售額／受眾規模增加」是「grow sales/audience」的用法，與本句語境不同。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。",
-        "grow-mcq-29": "「主動令企業／業務規模、收入或市場增加」是「grow a business」的用法，與本句語境不同。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。",
-        "grow-mcq-28": "「由某個來源、基礎或早期形式逐步發展」是「grow from」的用法，與本句語境不同。"
+        "grow-mcq-31": "本句的「growing confidence」指「某項數量、程度或問題正在逐漸增加」。",
+        "grow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-31"
     },
@@ -3165,11 +2903,9 @@ export default {
       "masked": "There is ____ about the delays.",
       "options": [
         "grow-mcq-31",
-        "grow-mcq-30",
-        "grow-mcq-32",
-        "grow-mcq-29",
-        "grow-mcq-33",
-        "grow-mcq-28"
+        "grow-mcq-22",
+        "grow-mcq-39",
+        "grow-mcq-38"
       ],
       "explanation": "本句的「growing concern」指「某項數量、程度或問題正在逐漸增加」。",
       "sentenceIndex": 71,
@@ -3178,12 +2914,10 @@ export default {
         "growing concern"
       ],
       "optionReasons": {
-        "grow-mcq-31": "本句指「某項數量、程度或問題正在逐漸增加」。",
-        "grow-mcq-30": "「主動使銷售額／受眾規模增加」是「grow sales/audience」的用法，與本句語境不同。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。",
-        "grow-mcq-29": "「主動令企業／業務規模、收入或市場增加」是「grow a business」的用法，與本句語境不同。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。",
-        "grow-mcq-28": "「由某個來源、基礎或早期形式逐步發展」是「grow from」的用法，與本句語境不同。"
+        "grow-mcq-31": "本句的「growing concern」指「某項數量、程度或問題正在逐漸增加」。",
+        "grow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-31"
     },
@@ -3195,11 +2929,9 @@ export default {
       "masked": "The issue is causing ____.",
       "options": [
         "grow-mcq-31",
-        "grow-mcq-30",
-        "grow-mcq-32",
-        "grow-mcq-29",
-        "grow-mcq-33",
-        "grow-mcq-28"
+        "grow-mcq-22",
+        "grow-mcq-38",
+        "grow-mcq-39"
       ],
       "explanation": "本句的「growing concern」指「某項數量、程度或問題正在逐漸增加」。",
       "sentenceIndex": 72,
@@ -3208,12 +2940,10 @@ export default {
         "growing concern"
       ],
       "optionReasons": {
-        "grow-mcq-31": "本句指「某項數量、程度或問題正在逐漸增加」。",
-        "grow-mcq-30": "「主動使銷售額／受眾規模增加」是「grow sales/audience」的用法，與本句語境不同。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。",
-        "grow-mcq-29": "「主動令企業／業務規模、收入或市場增加」是「grow a business」的用法，與本句語境不同。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。",
-        "grow-mcq-28": "「由某個來源、基礎或早期形式逐步發展」是「grow from」的用法，與本句語境不同。"
+        "grow-mcq-31": "本句的「growing concern」指「某項數量、程度或問題正在逐漸增加」。",
+        "grow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-31"
     },
@@ -3225,11 +2955,9 @@ export default {
       "masked": "A ____ employees work remotely.",
       "options": [
         "grow-mcq-31",
-        "grow-mcq-30",
-        "grow-mcq-32",
-        "grow-mcq-29",
-        "grow-mcq-33",
-        "grow-mcq-28"
+        "grow-mcq-16",
+        "grow-pdf-001",
+        "grow-mcq-26"
       ],
       "explanation": "本句的「growing number of」指「某項數量、程度或問題正在逐漸增加」。",
       "sentenceIndex": 73,
@@ -3238,12 +2966,10 @@ export default {
         "growing number of"
       ],
       "optionReasons": {
-        "grow-mcq-31": "本句指「某項數量、程度或問題正在逐漸增加」。",
-        "grow-mcq-30": "「主動使銷售額／受眾規模增加」是「grow sales/audience」的用法，與本句語境不同。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。",
-        "grow-mcq-29": "「主動令企業／業務規模、收入或市場增加」是「grow a business」的用法，與本句語境不同。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。",
-        "grow-mcq-28": "「由某個來源、基礎或早期形式逐步發展」是「grow from」的用法，與本句語境不同。"
+        "grow-mcq-31": "本句的「growing number of」指「某項數量、程度或問題正在逐漸增加」。",
+        "grow-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-31"
     },
@@ -3255,11 +2981,9 @@ export default {
       "masked": "A ____ number of people are learning online.",
       "options": [
         "grow-mcq-31",
-        "grow-mcq-30",
-        "grow-mcq-32",
-        "grow-mcq-29",
-        "grow-mcq-33",
-        "grow-mcq-28"
+        "grow-mcq-26",
+        "grow-mcq-38",
+        "grow-mcq-35"
       ],
       "explanation": "本句的「growing」指「某項數量、程度或問題正在逐漸增加」。",
       "sentenceIndex": 74,
@@ -3268,12 +2992,10 @@ export default {
         "growing"
       ],
       "optionReasons": {
-        "grow-mcq-31": "本句指「某項數量、程度或問題正在逐漸增加」。",
-        "grow-mcq-30": "「主動使銷售額／受眾規模增加」是「grow sales/audience」的用法，與本句語境不同。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。",
-        "grow-mcq-29": "「主動令企業／業務規模、收入或市場增加」是「grow a business」的用法，與本句語境不同。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。",
-        "grow-mcq-28": "「由某個來源、基礎或早期形式逐步發展」是「grow from」的用法，與本句語境不同。"
+        "grow-mcq-31": "本句的「growing」指「某項數量、程度或問題正在逐漸增加」。",
+        "grow-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-31"
     },
@@ -3285,11 +3007,9 @@ export default {
       "masked": "The experience contributed to my personal ____.",
       "options": [
         "grow-mcq-32",
-        "grow-mcq-31",
-        "grow-mcq-33",
-        "grow-mcq-30",
-        "grow-mcq-34",
-        "grow-mcq-29"
+        "grow-mcq-25",
+        "grow-pdf-001",
+        "grow-mcq-35"
       ],
       "explanation": "本句的「growth」指「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」。",
       "sentenceIndex": 75,
@@ -3298,12 +3018,10 @@ export default {
         "growth"
       ],
       "optionReasons": {
-        "grow-mcq-32": "本句指「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」。",
-        "grow-mcq-31": "「某項數量、程度或問題正在逐漸增加」是「growing + noun」的用法，與本句語境不同。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。",
-        "grow-mcq-30": "「主動使銷售額／受眾規模增加」是「grow sales/audience」的用法，與本句語境不同。",
-        "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。",
-        "grow-mcq-29": "「主動令企業／業務規模、收入或市場增加」是「grow a business」的用法，與本句語境不同。"
+        "grow-mcq-32": "本句的「growth」指「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」。",
+        "grow-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-32"
     },
@@ -3315,11 +3033,9 @@ export default {
       "masked": "The company reported strong ____.",
       "options": [
         "grow-mcq-32",
-        "grow-mcq-31",
-        "grow-mcq-33",
-        "grow-mcq-30",
-        "grow-mcq-34",
-        "grow-mcq-29"
+        "grow-pdf-001",
+        "grow-mcq-23",
+        "grow-mcq-27"
       ],
       "explanation": "本句的「growth」指「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」。",
       "sentenceIndex": 76,
@@ -3328,12 +3044,10 @@ export default {
         "growth"
       ],
       "optionReasons": {
-        "grow-mcq-32": "本句指「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」。",
-        "grow-mcq-31": "「某項數量、程度或問題正在逐漸增加」是「growing + noun」的用法，與本句語境不同。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。",
-        "grow-mcq-30": "「主動使銷售額／受眾規模增加」是「grow sales/audience」的用法，與本句語境不同。",
-        "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。",
-        "grow-mcq-29": "「主動令企業／業務規模、收入或市場增加」是「grow a business」的用法，與本句語境不同。"
+        "grow-mcq-32": "本句的「growth」指「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-32"
     },
@@ -3345,11 +3059,9 @@ export default {
       "masked": "Facing challenges can support ____.",
       "options": [
         "grow-mcq-33",
-        "grow-mcq-32",
-        "grow-mcq-34",
-        "grow-mcq-31",
-        "grow-mcq-35",
-        "grow-mcq-30"
+        "grow-mcq-29",
+        "grow-mcq-22",
+        "grow-mcq-04"
       ],
       "explanation": "本句的「personal growth」指「一個人的能力、成熟度、理解、自信等逐步發展」。",
       "sentenceIndex": 77,
@@ -3358,12 +3070,10 @@ export default {
         "personal growth"
       ],
       "optionReasons": {
-        "grow-mcq-33": "本句指「一個人的能力、成熟度、理解、自信等逐步發展」。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。",
-        "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。",
-        "grow-mcq-31": "「某項數量、程度或問題正在逐漸增加」是「growing + noun」的用法，與本句語境不同。",
-        "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。",
-        "grow-mcq-30": "「主動使銷售額／受眾規模增加」是「grow sales/audience」的用法，與本句語境不同。"
+        "grow-mcq-33": "本句的「personal growth」指「一個人的能力、成熟度、理解、自信等逐步發展」。",
+        "grow-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-33"
     },
@@ -3375,11 +3085,9 @@ export default {
       "masked": "The presentation became an important experience for my ____.",
       "options": [
         "grow-mcq-33",
-        "grow-mcq-32",
-        "grow-mcq-34",
-        "grow-mcq-31",
-        "grow-mcq-35",
-        "grow-mcq-30"
+        "grow-mcq-23",
+        "grow-mcq-30",
+        "grow-pdf-001"
       ],
       "explanation": "本句的「personal growth」指「一個人的能力、成熟度、理解、自信等逐步發展」。",
       "sentenceIndex": 78,
@@ -3388,12 +3096,10 @@ export default {
         "personal growth"
       ],
       "optionReasons": {
-        "grow-mcq-33": "本句指「一個人的能力、成熟度、理解、自信等逐步發展」。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。",
-        "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。",
-        "grow-mcq-31": "「某項數量、程度或問題正在逐漸增加」是「growing + noun」的用法，與本句語境不同。",
-        "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。",
-        "grow-mcq-30": "「主動使銷售額／受眾規模增加」是「grow sales/audience」的用法，與本句語境不同。"
+        "grow-mcq-33": "本句的「personal growth」指「一個人的能力、成熟度、理解、自信等逐步發展」。",
+        "grow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-33"
     },
@@ -3406,10 +3112,7 @@ export default {
       "options": [
         "grow-mcq-34",
         "grow-mcq-33",
-        "grow-mcq-35",
-        "grow-mcq-32",
-        "grow-mcq-36",
-        "grow-mcq-31"
+        "grow-mcq-23"
       ],
       "explanation": "本句的「economic growth」指「經濟產出／活動規模隨時間增加」。",
       "sentenceIndex": 79,
@@ -3418,12 +3121,9 @@ export default {
         "economic growth"
       ],
       "optionReasons": {
-        "grow-mcq-34": "本句指「經濟產出／活動規模隨時間增加」。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。",
-        "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。",
-        "grow-mcq-31": "「某項數量、程度或問題正在逐漸增加」是「growing + noun」的用法，與本句語境不同。"
+        "grow-mcq-34": "本句的「economic growth」指「經濟產出／活動規模隨時間增加」。",
+        "grow-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-34"
     },
@@ -3435,11 +3135,9 @@ export default {
       "masked": "Consumer spending can affect economic ____.",
       "options": [
         "grow-mcq-34",
-        "grow-mcq-33",
-        "grow-mcq-35",
-        "grow-mcq-32",
-        "grow-mcq-36",
-        "grow-mcq-31"
+        "grow-mcq-10",
+        "grow-mcq-22",
+        "grow-mcq-28"
       ],
       "explanation": "本句的「growth」指「經濟產出／活動規模隨時間增加」。",
       "sentenceIndex": 80,
@@ -3448,134 +3146,124 @@ export default {
         "growth"
       ],
       "optionReasons": {
-        "grow-mcq-34": "本句指「經濟產出／活動規模隨時間增加」。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。",
-        "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。",
-        "grow-mcq-31": "「某項數量、程度或問題正在逐漸增加」是「growing + noun」的用法，與本句語境不同。"
+        "grow-mcq-34": "本句的「growth」指「經濟產出／活動規模隨時間增加」。",
+        "grow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-34"
     },
     {
       "id": "grow-41-0",
-      "sense": "grow-mcq-34",
+      "sense": "grow-reviewed-3c32dad585",
       "en": "The city has experienced rapid population growth.",
       "zh": "這個城市經歷快速的人口增長。",
       "masked": "The city has experienced rapid ____.",
       "options": [
-        "grow-mcq-34",
-        "grow-mcq-33",
-        "grow-mcq-35",
-        "grow-mcq-32",
-        "grow-mcq-36",
-        "grow-mcq-31"
+        "grow-reviewed-3c32dad585",
+        "grow-mcq-28",
+        "grow-mcq-25",
+        "grow-mcq-36"
       ],
-      "explanation": "本句的「population growth」指「經濟產出／活動規模隨時間增加」。",
+      "explanation": "對照完整句子：「這個城市經歷快速的人口增長。」。這裡的「population growth」表示「人口增長」。",
       "sentenceIndex": 81,
       "sourcePractice": 82,
       "targets": [
         "population growth"
       ],
       "optionReasons": {
-        "grow-mcq-34": "本句指「經濟產出／活動規模隨時間增加」。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。",
-        "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。",
-        "grow-mcq-31": "「某項數量、程度或問題正在逐漸增加」是「growing + noun」的用法，與本句語境不同。"
+        "grow-reviewed-3c32dad585": "對照完整句子：「這個城市經歷快速的人口增長。」。這裡的「population growth」表示「人口增長」。",
+        "grow-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "grow-mcq-34"
+      "correctOption": "grow-reviewed-3c32dad585",
+      "previousCorrectOption": "grow-mcq-34",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "grow-41-1",
-      "sense": "grow-mcq-34",
+      "sense": "grow-reviewed-3c32dad585",
       "en": "Population growth has slowed.",
       "zh": "人口增長已經放緩。",
       "masked": "Population ____ has slowed.",
       "options": [
-        "grow-mcq-34",
-        "grow-mcq-33",
-        "grow-mcq-35",
-        "grow-mcq-32",
-        "grow-mcq-36",
-        "grow-mcq-31"
+        "grow-reviewed-3c32dad585",
+        "grow-mcq-27",
+        "grow-mcq-28",
+        "grow-mcq-10"
       ],
-      "explanation": "本句的「growth」指「經濟產出／活動規模隨時間增加」。",
+      "explanation": "對照完整句子：「人口增長已經放緩。」。這裡的「growth」表示「人口增長」。",
       "sentenceIndex": 82,
       "sourcePractice": 83,
       "targets": [
         "growth"
       ],
       "optionReasons": {
-        "grow-mcq-34": "本句指「經濟產出／活動規模隨時間增加」。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。",
-        "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。",
-        "grow-mcq-31": "「某項數量、程度或問題正在逐漸增加」是「growing + noun」的用法，與本句語境不同。"
+        "grow-reviewed-3c32dad585": "對照完整句子：「人口增長已經放緩。」。這裡的「growth」表示「人口增長」。",
+        "grow-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "grow-mcq-34"
+      "correctOption": "grow-reviewed-3c32dad585",
+      "previousCorrectOption": "grow-mcq-34",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "grow-42-0",
-      "sense": "grow-mcq-35",
+      "sense": "grow-reviewed-c682bbda48",
       "en": "Plants need light for healthy growth.",
       "zh": "植物需要光線才能健康生長。",
       "masked": "Plants need light for healthy ____.",
       "options": [
-        "grow-mcq-35",
-        "grow-mcq-34",
-        "grow-mcq-36",
-        "grow-mcq-33",
-        "grow-mcq-37",
-        "grow-mcq-32"
+        "grow-reviewed-c682bbda48",
+        "grow-mcq-04",
+        "grow-mcq-28",
+        "grow-pdf-001"
       ],
-      "explanation": "本句的「growth」指「身體上長出的異常組織／腫塊」。",
+      "explanation": "對照完整句子：「植物需要光線才能健康生長。」。這裡的「growth」表示「生物體尺寸、細胞、組織或成熟度增加的過程」。",
       "sentenceIndex": 83,
       "sourcePractice": 84,
       "targets": [
         "growth"
       ],
       "optionReasons": {
-        "grow-mcq-35": "本句指「身體上長出的異常組織／腫塊」。",
-        "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。",
-        "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。"
+        "grow-reviewed-c682bbda48": "對照完整句子：「植物需要光線才能健康生長。」。這裡的「growth」表示「生物體尺寸、細胞、組織或成熟度增加的過程」。",
+        "grow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "grow-mcq-35"
+      "correctOption": "grow-reviewed-c682bbda48",
+      "previousCorrectOption": "grow-mcq-35",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "grow-42-1",
-      "sense": "grow-mcq-35",
+      "sense": "grow-reviewed-c682bbda48",
       "en": "Nutrition affects childhood growth.",
       "zh": "營養會影響兒童發育／成長。",
       "masked": "Nutrition affects childhood ____.",
       "options": [
-        "grow-mcq-35",
-        "grow-mcq-34",
-        "grow-mcq-36",
-        "grow-mcq-33",
-        "grow-mcq-37",
-        "grow-mcq-32"
+        "grow-reviewed-c682bbda48",
+        "grow-mcq-25",
+        "grow-mcq-28",
+        "grow-pdf-001"
       ],
-      "explanation": "本句的「growth」指「身體上長出的異常組織／腫塊」。",
+      "explanation": "對照完整句子：「營養會影響兒童發育／成長。」。這裡的「growth」表示「生物體尺寸、細胞、組織或成熟度增加的過程」。",
       "sentenceIndex": 84,
       "sourcePractice": 85,
       "targets": [
         "growth"
       ],
       "optionReasons": {
-        "grow-mcq-35": "本句指「身體上長出的異常組織／腫塊」。",
-        "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。",
-        "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。"
+        "grow-reviewed-c682bbda48": "對照完整句子：「營養會影響兒童發育／成長。」。這裡的「growth」表示「生物體尺寸、細胞、組織或成熟度增加的過程」。",
+        "grow-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "grow-mcq-35"
+      "correctOption": "grow-reviewed-c682bbda48",
+      "previousCorrectOption": "grow-mcq-35",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "grow-43-0",
@@ -3585,11 +3273,9 @@ export default {
       "masked": "The doctor found a small ____.",
       "options": [
         "grow-mcq-35",
-        "grow-mcq-34",
-        "grow-mcq-36",
-        "grow-mcq-33",
-        "grow-mcq-37",
-        "grow-mcq-32"
+        "grow-mcq-13",
+        "grow-mcq-03",
+        "grow-mcq-39"
       ],
       "explanation": "本句的「growth」指「身體上長出的異常組織／腫塊」。",
       "sentenceIndex": 85,
@@ -3598,12 +3284,10 @@ export default {
         "growth"
       ],
       "optionReasons": {
-        "grow-mcq-35": "本句指「身體上長出的異常組織／腫塊」。",
-        "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。",
-        "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。"
+        "grow-mcq-35": "本句的「growth」指「身體上長出的異常組織／腫塊」。",
+        "grow-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-35"
     },
@@ -3615,11 +3299,9 @@ export default {
       "masked": "The ____ was examined further.",
       "options": [
         "grow-mcq-35",
-        "grow-mcq-34",
-        "grow-mcq-36",
-        "grow-mcq-33",
-        "grow-mcq-37",
-        "grow-mcq-32"
+        "grow-mcq-03",
+        "grow-mcq-29",
+        "grow-mcq-40"
       ],
       "explanation": "本句的「growth」指「身體上長出的異常組織／腫塊」。",
       "sentenceIndex": 86,
@@ -3628,12 +3310,10 @@ export default {
         "growth"
       ],
       "optionReasons": {
-        "grow-mcq-35": "本句指「身體上長出的異常組織／腫塊」。",
-        "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。",
-        "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
-        "grow-mcq-32": "「尺寸、數量、能力、成熟度或規模逐步增加／發展的過程」是「growth — general」的用法，與本句語境不同。"
+        "grow-mcq-35": "本句的「growth」指「身體上長出的異常組織／腫塊」。",
+        "grow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-35"
     },
@@ -3645,11 +3325,9 @@ export default {
       "masked": "Local ____ supply the market.",
       "options": [
         "grow-mcq-36",
-        "grow-mcq-35",
-        "grow-mcq-37",
-        "grow-mcq-34",
-        "grow-mcq-38",
-        "grow-mcq-33"
+        "grow-mcq-30",
+        "grow-mcq-19",
+        "grow-mcq-05"
       ],
       "explanation": "本句的「growers」指「種植農作物、植物、水果等的人／企業」。",
       "sentenceIndex": 87,
@@ -3658,12 +3336,10 @@ export default {
         "growers"
       ],
       "optionReasons": {
-        "grow-mcq-36": "本句指「種植農作物、植物、水果等的人／企業」。",
-        "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。",
-        "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
-        "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。",
-        "grow-mcq-38": "「植物長得太多／太長而顯得失控、雜亂」是「overgrown」的用法，與本句語境不同。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。"
+        "grow-mcq-36": "本句的「growers」指「種植農作物、植物、水果等的人／企業」。",
+        "grow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-36"
     },
@@ -3675,11 +3351,9 @@ export default {
       "masked": "The region is famous for grape ____.",
       "options": [
         "grow-mcq-36",
-        "grow-mcq-35",
-        "grow-mcq-37",
-        "grow-mcq-34",
-        "grow-mcq-38",
-        "grow-mcq-33"
+        "grow-reviewed-3c32dad585",
+        "grow-mcq-27",
+        "grow-mcq-40"
       ],
       "explanation": "本句的「growers」指「種植農作物、植物、水果等的人／企業」。",
       "sentenceIndex": 88,
@@ -3688,12 +3362,10 @@ export default {
         "growers"
       ],
       "optionReasons": {
-        "grow-mcq-36": "本句指「種植農作物、植物、水果等的人／企業」。",
-        "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。",
-        "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
-        "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。",
-        "grow-mcq-38": "「植物長得太多／太長而顯得失控、雜亂」是「overgrown」的用法，與本句語境不同。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。"
+        "grow-mcq-36": "本句的「growers」指「種植農作物、植物、水果等的人／企業」。",
+        "grow-reviewed-3c32dad585": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-36"
     },
@@ -3705,11 +3377,9 @@ export default {
       "masked": "This variety is a fast ____.",
       "options": [
         "grow-pdf-002",
-        "grow-mcq-35",
-        "grow-mcq-37",
         "grow-mcq-34",
-        "grow-mcq-38",
-        "grow-mcq-33"
+        "grow-mcq-28",
+        "grow-mcq-03"
       ],
       "explanation": "本句的「grower」指「生長速度快／慢的植物」。",
       "sentenceIndex": 89,
@@ -3718,12 +3388,10 @@ export default {
         "grower"
       ],
       "optionReasons": {
-        "grow-pdf-002": "本句指「生長速度快／慢的植物」。",
-        "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。",
-        "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
-        "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。",
-        "grow-mcq-38": "「植物長得太多／太長而顯得失控、雜亂」是「overgrown」的用法，與本句語境不同。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。"
+        "grow-pdf-002": "本句的「grower」指「生長速度快／慢的植物」。",
+        "grow-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-pdf-002"
     },
@@ -3735,11 +3403,9 @@ export default {
       "masked": "It’s a slow ____, but very hardy.",
       "options": [
         "grow-pdf-002",
-        "grow-mcq-35",
-        "grow-mcq-37",
-        "grow-mcq-34",
-        "grow-mcq-38",
-        "grow-mcq-33"
+        "grow-mcq-05",
+        "grow-mcq-06",
+        "grow-mcq-25"
       ],
       "explanation": "本句的「grower」指「生長速度快／慢的植物」。",
       "sentenceIndex": 90,
@@ -3748,12 +3414,10 @@ export default {
         "grower"
       ],
       "optionReasons": {
-        "grow-pdf-002": "本句指「生長速度快／慢的植物」。",
-        "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。",
-        "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
-        "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。",
-        "grow-mcq-38": "「植物長得太多／太長而顯得失控、雜亂」是「overgrown」的用法，與本句語境不同。",
-        "grow-mcq-33": "「一個人的能力、成熟度、理解、自信等逐步發展」是「personal growth」的用法，與本句語境不同。"
+        "grow-pdf-002": "本句的「grower」指「生長速度快／慢的植物」。",
+        "grow-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-pdf-002"
     },
@@ -3765,11 +3429,9 @@ export default {
       "masked": "He ____ his jacket.",
       "options": [
         "grow-mcq-37",
-        "grow-mcq-36",
-        "grow-mcq-38",
-        "grow-mcq-35",
-        "grow-mcq-39",
-        "grow-mcq-34"
+        "grow-mcq-12",
+        "grow-pdf-001",
+        "grow-mcq-03"
       ],
       "explanation": "本句的「outgrew」指「因成長／發展而令原有空間、衣物、習慣等不再合適」。",
       "sentenceIndex": 91,
@@ -3778,12 +3440,10 @@ export default {
         "outgrew"
       ],
       "optionReasons": {
-        "grow-mcq-37": "本句指「因成長／發展而令原有空間、衣物、習慣等不再合適」。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。",
-        "grow-mcq-38": "「植物長得太多／太長而顯得失控、雜亂」是「overgrown」的用法，與本句語境不同。",
-        "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。",
-        "grow-mcq-39": "「在本地／內部培育、發展或生產的」是「home-grown」的用法，與本句語境不同。",
-        "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。"
+        "grow-mcq-37": "本句的「outgrew」指「因成長／發展而令原有空間、衣物、習慣等不再合適」。",
+        "grow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-37"
     },
@@ -3795,11 +3455,9 @@ export default {
       "masked": "The company ____ its small office.",
       "options": [
         "grow-mcq-37",
-        "grow-mcq-36",
-        "grow-mcq-38",
-        "grow-mcq-35",
-        "grow-mcq-39",
-        "grow-mcq-34"
+        "grow-mcq-03",
+        "grow-mcq-14",
+        "grow-mcq-05"
       ],
       "explanation": "本句的「outgrew」指「因成長／發展而令原有空間、衣物、習慣等不再合適」。",
       "sentenceIndex": 92,
@@ -3808,12 +3466,10 @@ export default {
         "outgrew"
       ],
       "optionReasons": {
-        "grow-mcq-37": "本句指「因成長／發展而令原有空間、衣物、習慣等不再合適」。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。",
-        "grow-mcq-38": "「植物長得太多／太長而顯得失控、雜亂」是「overgrown」的用法，與本句語境不同。",
-        "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。",
-        "grow-mcq-39": "「在本地／內部培育、發展或生產的」是「home-grown」的用法，與本句語境不同。",
-        "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。"
+        "grow-mcq-37": "本句的「outgrew」指「因成長／發展而令原有空間、衣物、習慣等不再合適」。",
+        "grow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-37"
     },
@@ -3825,11 +3481,9 @@ export default {
       "masked": "She eventually ____ her fear of speaking in class.",
       "options": [
         "grow-mcq-37",
-        "grow-mcq-36",
-        "grow-mcq-38",
-        "grow-mcq-35",
-        "grow-mcq-39",
-        "grow-mcq-34"
+        "grow-mcq-31",
+        "grow-mcq-05",
+        "grow-pdf-001"
       ],
       "explanation": "本句的「outgrew」指「因成長／發展而令原有空間、衣物、習慣等不再合適」。",
       "sentenceIndex": 93,
@@ -3838,12 +3492,10 @@ export default {
         "outgrew"
       ],
       "optionReasons": {
-        "grow-mcq-37": "本句指「因成長／發展而令原有空間、衣物、習慣等不再合適」。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。",
-        "grow-mcq-38": "「植物長得太多／太長而顯得失控、雜亂」是「overgrown」的用法，與本句語境不同。",
-        "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。",
-        "grow-mcq-39": "「在本地／內部培育、發展或生產的」是「home-grown」的用法，與本句語境不同。",
-        "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。"
+        "grow-mcq-37": "本句的「outgrew」指「因成長／發展而令原有空間、衣物、習慣等不再合適」。",
+        "grow-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-37"
     },
@@ -3855,11 +3507,9 @@ export default {
       "masked": "Children often ____ certain habits.",
       "options": [
         "grow-mcq-37",
-        "grow-mcq-36",
-        "grow-mcq-38",
-        "grow-mcq-35",
-        "grow-mcq-39",
-        "grow-mcq-34"
+        "grow-mcq-05",
+        "grow-mcq-31",
+        "grow-pdf-001"
       ],
       "explanation": "本句的「outgrow」指「因成長／發展而令原有空間、衣物、習慣等不再合適」。",
       "sentenceIndex": 94,
@@ -3868,12 +3518,10 @@ export default {
         "outgrow"
       ],
       "optionReasons": {
-        "grow-mcq-37": "本句指「因成長／發展而令原有空間、衣物、習慣等不再合適」。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。",
-        "grow-mcq-38": "「植物長得太多／太長而顯得失控、雜亂」是「overgrown」的用法，與本句語境不同。",
-        "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。",
-        "grow-mcq-39": "「在本地／內部培育、發展或生產的」是「home-grown」的用法，與本句語境不同。",
-        "grow-mcq-34": "「經濟產出／活動規模隨時間增加」是「economic growth」的用法，與本句語境不同。"
+        "grow-mcq-37": "本句的「outgrow」指「因成長／發展而令原有空間、衣物、習慣等不再合適」。",
+        "grow-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-37"
     },
@@ -3885,11 +3533,9 @@ export default {
       "masked": "The garden was ____.",
       "options": [
         "grow-mcq-38",
-        "grow-mcq-37",
-        "grow-mcq-39",
-        "grow-mcq-36",
+        "grow-mcq-31",
         "grow-mcq-40",
-        "grow-mcq-35"
+        "grow-mcq-26"
       ],
       "explanation": "本句的「overgrown」指「植物長得太多／太長而顯得失控、雜亂」。",
       "sentenceIndex": 95,
@@ -3898,12 +3544,10 @@ export default {
         "overgrown"
       ],
       "optionReasons": {
-        "grow-mcq-38": "本句指「植物長得太多／太長而顯得失控、雜亂」。",
-        "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
-        "grow-mcq-39": "「在本地／內部培育、發展或生產的」是「home-grown」的用法，與本句語境不同。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。",
-        "grow-mcq-40": "「某件較大的事物由原有情況／活動逐步產生」是「31. grow out of something（由……發展而成） — 源於；從……發展」的用法，與本句語境不同。",
-        "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。"
+        "grow-mcq-38": "本句的「overgrown」指「植物長得太多／太長而顯得失控、雜亂」。",
+        "grow-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-38"
     },
@@ -3915,11 +3559,9 @@ export default {
       "masked": "The path was covered by ____ plants.",
       "options": [
         "grow-mcq-38",
-        "grow-mcq-37",
-        "grow-mcq-39",
-        "grow-mcq-36",
-        "grow-mcq-40",
-        "grow-mcq-35"
+        "grow-mcq-25",
+        "grow-pdf-001",
+        "grow-mcq-05"
       ],
       "explanation": "本句的「overgrown」指「植物長得太多／太長而顯得失控、雜亂」。",
       "sentenceIndex": 96,
@@ -3928,12 +3570,10 @@ export default {
         "overgrown"
       ],
       "optionReasons": {
-        "grow-mcq-38": "本句指「植物長得太多／太長而顯得失控、雜亂」。",
-        "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
-        "grow-mcq-39": "「在本地／內部培育、發展或生產的」是「home-grown」的用法，與本句語境不同。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。",
-        "grow-mcq-40": "「某件較大的事物由原有情況／活動逐步產生」是「31. grow out of something（由……發展而成） — 源於；從……發展」的用法，與本句語境不同。",
-        "grow-mcq-35": "「身體上長出的異常組織／腫塊」是「growth — medical」的用法，與本句語境不同。"
+        "grow-mcq-38": "本句的「overgrown」指「植物長得太多／太長而顯得失控、雜亂」。",
+        "grow-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "grow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-38"
     },
@@ -3945,11 +3585,9 @@ export default {
       "masked": "They sell ____.",
       "options": [
         "grow-mcq-39",
-        "grow-mcq-38",
-        "grow-mcq-40",
-        "grow-mcq-37",
-        "grow-mcq-41",
-        "grow-mcq-36"
+        "grow-mcq-22",
+        "grow-mcq-14",
+        "grow-mcq-19"
       ],
       "explanation": "本句的「home-grown vegetables」指「在本地／內部培育、發展或生產的」。",
       "sentenceIndex": 97,
@@ -3958,12 +3596,10 @@ export default {
         "home-grown vegetables"
       ],
       "optionReasons": {
-        "grow-mcq-39": "本句指「在本地／內部培育、發展或生產的」。",
-        "grow-mcq-38": "「植物長得太多／太長而顯得失控、雜亂」是「overgrown」的用法，與本句語境不同。",
-        "grow-mcq-40": "「某件較大的事物由原有情況／活動逐步產生」是「31. grow out of something（由……發展而成） — 源於；從……發展」的用法，與本句語境不同。",
-        "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
-        "grow-mcq-41": "「規模／性質發展到一個更大、更成熟的新形式」是「50. grow = spread/develop beyond original size（擴大） — 擴展；蔓延」的用法，與本句語境不同。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。"
+        "grow-mcq-39": "本句的「home-grown vegetables」指「在本地／內部培育、發展或生產的」。",
+        "grow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-39"
     },
@@ -3975,11 +3611,9 @@ export default {
       "masked": "The company develops ____.",
       "options": [
         "grow-mcq-39",
-        "grow-mcq-38",
-        "grow-mcq-40",
-        "grow-mcq-37",
-        "grow-mcq-41",
-        "grow-mcq-36"
+        "grow-mcq-20",
+        "grow-mcq-10",
+        "grow-reviewed-3c32dad585"
       ],
       "explanation": "本句的「homegrown talent」指「在本地／內部培育、發展或生產的」。",
       "sentenceIndex": 98,
@@ -3988,12 +3622,10 @@ export default {
         "homegrown talent"
       ],
       "optionReasons": {
-        "grow-mcq-39": "本句指「在本地／內部培育、發展或生產的」。",
-        "grow-mcq-38": "「植物長得太多／太長而顯得失控、雜亂」是「overgrown」的用法，與本句語境不同。",
-        "grow-mcq-40": "「某件較大的事物由原有情況／活動逐步產生」是「31. grow out of something（由……發展而成） — 源於；從……發展」的用法，與本句語境不同。",
-        "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
-        "grow-mcq-41": "「規模／性質發展到一個更大、更成熟的新形式」是「50. grow = spread/develop beyond original size（擴大） — 擴展；蔓延」的用法，與本句語境不同。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。"
+        "grow-mcq-39": "本句的「homegrown talent」指「在本地／內部培育、發展或生產的」。",
+        "grow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "grow-reviewed-3c32dad585": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-39"
     },
@@ -4005,11 +3637,9 @@ export default {
       "masked": "The discussion ____ into a much larger debate.",
       "options": [
         "grow-mcq-41",
-        "grow-mcq-40",
-        "grow-mcq-39",
-        "grow-mcq-38",
-        "grow-mcq-37",
-        "grow-mcq-36"
+        "grow-mcq-03",
+        "grow-mcq-35",
+        "grow-mcq-05"
       ],
       "explanation": "本句的「grew」指「規模／性質發展到一個更大、更成熟的新形式」。",
       "sentenceIndex": 99,
@@ -4018,12 +3648,10 @@ export default {
         "grew"
       ],
       "optionReasons": {
-        "grow-mcq-41": "本句指「規模／性質發展到一個更大、更成熟的新形式」。",
-        "grow-mcq-40": "「某件較大的事物由原有情況／活動逐步產生」是「31. grow out of something（由……發展而成） — 源於；從……發展」的用法，與本句語境不同。",
-        "grow-mcq-39": "「在本地／內部培育、發展或生產的」是「home-grown」的用法，與本句語境不同。",
-        "grow-mcq-38": "「植物長得太多／太長而顯得失控、雜亂」是「overgrown」的用法，與本句語境不同。",
-        "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。"
+        "grow-mcq-41": "本句的「grew」指「規模／性質發展到一個更大、更成熟的新形式」。",
+        "grow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-41"
     },
@@ -4035,11 +3663,9 @@ export default {
       "masked": "The small project ____ into an international programme.",
       "options": [
         "grow-mcq-41",
-        "grow-mcq-40",
-        "grow-mcq-39",
-        "grow-mcq-38",
-        "grow-mcq-37",
-        "grow-mcq-36"
+        "grow-mcq-06",
+        "grow-mcq-05",
+        "grow-mcq-25"
       ],
       "explanation": "本句的「grew」指「規模／性質發展到一個更大、更成熟的新形式」。",
       "sentenceIndex": 100,
@@ -4048,12 +3674,10 @@ export default {
         "grew"
       ],
       "optionReasons": {
-        "grow-mcq-41": "本句指「規模／性質發展到一個更大、更成熟的新形式」。",
-        "grow-mcq-40": "「某件較大的事物由原有情況／活動逐步產生」是「31. grow out of something（由……發展而成） — 源於；從……發展」的用法，與本句語境不同。",
-        "grow-mcq-39": "「在本地／內部培育、發展或生產的」是「home-grown」的用法，與本句語境不同。",
-        "grow-mcq-38": "「植物長得太多／太長而顯得失控、雜亂」是「overgrown」的用法，與本句語境不同。",
-        "grow-mcq-37": "「因成長／發展而令原有空間、衣物、習慣等不再合適」是「outgrow」的用法，與本句語境不同。",
-        "grow-mcq-36": "「種植農作物、植物、水果等的人／企業」是「grower」的用法，與本句語境不同。"
+        "grow-mcq-41": "本句的「grew」指「規模／性質發展到一個更大、更成熟的新形式」。",
+        "grow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "grow-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grow-mcq-41"
     }
@@ -4065,5 +3689,7 @@ export default {
     "sha256": "bbfac96c694c33ed2eb8c2ed1b36270e330498a95624e1920371f11582c5c614",
     "pages": 36
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

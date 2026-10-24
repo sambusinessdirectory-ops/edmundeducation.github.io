@@ -344,11 +344,8 @@ export default {
       "masked": "The museum has an ____.",
       "options": [
         "online-mcq-01",
-        "online-mcq-02",
-        "online-mcq-03",
-        "online-mcq-04",
-        "online-mcq-05",
-        "online-mcq-06"
+        "online-mcq-07",
+        "online-mcq-08"
       ],
       "explanation": "本句的「online exhibition」指「透過互聯網提供、進行或可存取的」。",
       "sentenceIndex": 0,
@@ -357,12 +354,9 @@ export default {
         "online exhibition"
       ],
       "optionReasons": {
-        "online-mcq-01": "本句指「透過互聯網提供、進行或可存取的」。",
-        "online-mcq-02": "「使用者或裝置目前已連接互聯網／網絡」是「be online — person/device」的用法，與本句語境不同。",
-        "online-mcq-03": "「透過互聯網進行某個動作」是「online — adverb」的用法，與本句語境不同。",
-        "online-mcq-04": "「透過互聯網而非實體面對面進行的」是「online — class/event」的用法，與本句語境不同。",
-        "online-mcq-05": "「系統已連接網絡並處於可使用／運作狀態」是「online — system」的用法，與本句語境不同。",
-        "online-mcq-06": "「令服務、系統或資源開始連網並投入使用」是「bring X online」的用法，與本句語境不同。"
+        "online-mcq-01": "本句的「online exhibition」指「透過互聯網提供、進行或可存取的」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "online-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-01"
     },
@@ -374,10 +368,6 @@ export default {
       "masked": "I found the image in an ____ archive.",
       "options": [
         "online-mcq-01",
-        "online-mcq-02",
-        "online-mcq-03",
-        "online-mcq-04",
-        "online-mcq-05",
         "online-mcq-06"
       ],
       "explanation": "本句的「online」指「透過互聯網提供、進行或可存取的」。",
@@ -387,12 +377,8 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-mcq-01": "本句指「透過互聯網提供、進行或可存取的」。",
-        "online-mcq-02": "「使用者或裝置目前已連接互聯網／網絡」是「be online — person/device」的用法，與本句語境不同。",
-        "online-mcq-03": "「透過互聯網進行某個動作」是「online — adverb」的用法，與本句語境不同。",
-        "online-mcq-04": "「透過互聯網而非實體面對面進行的」是「online — class/event」的用法，與本句語境不同。",
-        "online-mcq-05": "「系統已連接網絡並處於可使用／運作狀態」是「online — system」的用法，與本句語境不同。",
-        "online-mcq-06": "「令服務、系統或資源開始連網並投入使用」是「bring X online」的用法，與本句語境不同。"
+        "online-mcq-01": "本句的「online」指「透過互聯網提供、進行或可存取的」。",
+        "online-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-01"
     },
@@ -404,11 +390,7 @@ export default {
       "masked": "The computer is ____ now.",
       "options": [
         "online-mcq-02",
-        "online-mcq-01",
-        "online-mcq-03",
-        "online-mcq-04",
-        "online-mcq-05",
-        "online-mcq-06"
+        "online-mcq-07"
       ],
       "explanation": "本句的「online」指「使用者或裝置目前已連接互聯網／網絡」。",
       "sentenceIndex": 2,
@@ -417,12 +399,8 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-mcq-02": "本句指「使用者或裝置目前已連接互聯網／網絡」。",
-        "online-mcq-01": "「透過互聯網提供、進行或可存取的」是「online + noun」的用法，與本句語境不同。",
-        "online-mcq-03": "「透過互聯網進行某個動作」是「online — adverb」的用法，與本句語境不同。",
-        "online-mcq-04": "「透過互聯網而非實體面對面進行的」是「online — class/event」的用法，與本句語境不同。",
-        "online-mcq-05": "「系統已連接網絡並處於可使用／運作狀態」是「online — system」的用法，與本句語境不同。",
-        "online-mcq-06": "「令服務、系統或資源開始連網並投入使用」是「bring X online」的用法，與本句語境不同。"
+        "online-mcq-02": "本句的「online」指「使用者或裝置目前已連接互聯網／網絡」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-02"
     },
@@ -434,11 +412,7 @@ export default {
       "masked": "Are you ____?",
       "options": [
         "online-mcq-02",
-        "online-mcq-01",
-        "online-mcq-03",
-        "online-mcq-04",
-        "online-mcq-05",
-        "online-mcq-06"
+        "online-mcq-07"
       ],
       "explanation": "本句的「online」指「使用者或裝置目前已連接互聯網／網絡」。",
       "sentenceIndex": 3,
@@ -447,12 +421,8 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-mcq-02": "本句指「使用者或裝置目前已連接互聯網／網絡」。",
-        "online-mcq-01": "「透過互聯網提供、進行或可存取的」是「online + noun」的用法，與本句語境不同。",
-        "online-mcq-03": "「透過互聯網進行某個動作」是「online — adverb」的用法，與本句語境不同。",
-        "online-mcq-04": "「透過互聯網而非實體面對面進行的」是「online — class/event」的用法，與本句語境不同。",
-        "online-mcq-05": "「系統已連接網絡並處於可使用／運作狀態」是「online — system」的用法，與本句語境不同。",
-        "online-mcq-06": "「令服務、系統或資源開始連網並投入使用」是「bring X online」的用法，與本句語境不同。"
+        "online-mcq-02": "本句的「online」指「使用者或裝置目前已連接互聯網／網絡」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-02"
     },
@@ -464,11 +434,8 @@ export default {
       "masked": "I went ____ to look for the painting.",
       "options": [
         "online-mcq-03",
-        "online-mcq-02",
-        "online-mcq-04",
-        "online-mcq-01",
-        "online-mcq-05",
-        "online-mcq-06"
+        "online-mcq-07",
+        "online-mcq-08"
       ],
       "explanation": "本句的「online」指「透過互聯網進行某個動作」。",
       "sentenceIndex": 4,
@@ -477,12 +444,9 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-mcq-03": "本句指「透過互聯網進行某個動作」。",
-        "online-mcq-02": "「使用者或裝置目前已連接互聯網／網絡」是「be online — person/device」的用法，與本句語境不同。",
-        "online-mcq-04": "「透過互聯網而非實體面對面進行的」是「online — class/event」的用法，與本句語境不同。",
-        "online-mcq-01": "「透過互聯網提供、進行或可存取的」是「online + noun」的用法，與本句語境不同。",
-        "online-mcq-05": "「系統已連接網絡並處於可使用／運作狀態」是「online — system」的用法，與本句語境不同。",
-        "online-mcq-06": "「令服務、系統或資源開始連網並投入使用」是「bring X online」的用法，與本句語境不同。"
+        "online-mcq-03": "本句的「online」指「透過互聯網進行某個動作」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "online-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-03"
     },
@@ -494,11 +458,8 @@ export default {
       "masked": "More people went ____ during the event.",
       "options": [
         "online-mcq-03",
-        "online-mcq-02",
-        "online-mcq-04",
-        "online-mcq-01",
-        "online-mcq-05",
-        "online-mcq-06"
+        "online-mcq-07",
+        "online-mcq-08"
       ],
       "explanation": "本句的「online」指「透過互聯網進行某個動作」。",
       "sentenceIndex": 5,
@@ -507,12 +468,9 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-mcq-03": "本句指「透過互聯網進行某個動作」。",
-        "online-mcq-02": "「使用者或裝置目前已連接互聯網／網絡」是「be online — person/device」的用法，與本句語境不同。",
-        "online-mcq-04": "「透過互聯網而非實體面對面進行的」是「online — class/event」的用法，與本句語境不同。",
-        "online-mcq-01": "「透過互聯網提供、進行或可存取的」是「online + noun」的用法，與本句語境不同。",
-        "online-mcq-05": "「系統已連接網絡並處於可使用／運作狀態」是「online — system」的用法，與本句語境不同。",
-        "online-mcq-06": "「令服務、系統或資源開始連網並投入使用」是「bring X online」的用法，與本句語境不同。"
+        "online-mcq-03": "本句的「online」指「透過互聯網進行某個動作」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "online-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-03"
     },
@@ -524,11 +482,8 @@ export default {
       "masked": "You can buy the print ____.",
       "options": [
         "online-mcq-03",
-        "online-mcq-02",
-        "online-mcq-04",
-        "online-mcq-01",
-        "online-mcq-05",
-        "online-mcq-06"
+        "online-mcq-07",
+        "online-mcq-08"
       ],
       "explanation": "本句的「online」指「透過互聯網進行某個動作」。",
       "sentenceIndex": 6,
@@ -537,12 +492,9 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-mcq-03": "本句指「透過互聯網進行某個動作」。",
-        "online-mcq-02": "「使用者或裝置目前已連接互聯網／網絡」是「be online — person/device」的用法，與本句語境不同。",
-        "online-mcq-04": "「透過互聯網而非實體面對面進行的」是「online — class/event」的用法，與本句語境不同。",
-        "online-mcq-01": "「透過互聯網提供、進行或可存取的」是「online + noun」的用法，與本句語境不同。",
-        "online-mcq-05": "「系統已連接網絡並處於可使用／運作狀態」是「online — system」的用法，與本句語境不同。",
-        "online-mcq-06": "「令服務、系統或資源開始連網並投入使用」是「bring X online」的用法，與本句語境不同。"
+        "online-mcq-03": "本句的「online」指「透過互聯網進行某個動作」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "online-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-03"
     },
@@ -554,11 +506,8 @@ export default {
       "masked": "The tickets are sold ____.",
       "options": [
         "online-mcq-03",
-        "online-mcq-02",
-        "online-mcq-04",
-        "online-mcq-01",
-        "online-mcq-05",
-        "online-mcq-06"
+        "online-mcq-07",
+        "online-mcq-08"
       ],
       "explanation": "本句的「online」指「透過互聯網進行某個動作」。",
       "sentenceIndex": 7,
@@ -567,12 +516,9 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-mcq-03": "本句指「透過互聯網進行某個動作」。",
-        "online-mcq-02": "「使用者或裝置目前已連接互聯網／網絡」是「be online — person/device」的用法，與本句語境不同。",
-        "online-mcq-04": "「透過互聯網而非實體面對面進行的」是「online — class/event」的用法，與本句語境不同。",
-        "online-mcq-01": "「透過互聯網提供、進行或可存取的」是「online + noun」的用法，與本句語境不同。",
-        "online-mcq-05": "「系統已連接網絡並處於可使用／運作狀態」是「online — system」的用法，與本句語境不同。",
-        "online-mcq-06": "「令服務、系統或資源開始連網並投入使用」是「bring X online」的用法，與本句語境不同。"
+        "online-mcq-03": "本句的「online」指「透過互聯網進行某個動作」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "online-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-03"
     },
@@ -584,10 +530,7 @@ export default {
       "masked": "The lecture was held ____.",
       "options": [
         "online-mcq-13",
-        "online-mcq-12",
-        "online-mcq-11",
-        "online-mcq-10",
-        "online-mcq-09",
+        "online-mcq-07",
         "online-mcq-08"
       ],
       "explanation": "本句的「online」指「透過互聯網進行，而不是實體面對面」。",
@@ -597,12 +540,9 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-mcq-13": "本句指「透過互聯網進行，而不是實體面對面」。",
-        "online-mcq-12": "「不透過網絡，而在實體或線下環境中進行的」是「offline — physical」的用法，與本句語境不同。",
-        "online-mcq-11": "「沒有連接網絡／互聯網的」是「offline — technical」的用法，與本句語境不同。",
-        "online-mcq-10": "「供使用者透過互聯網存取內容或進行活動的數碼系統」是「online platform」的用法，與本句語境不同。",
-        "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。"
+        "online-mcq-13": "本句的「online」指「透過互聯網進行，而不是實體面對面」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "online-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-13"
     },
@@ -614,10 +554,7 @@ export default {
       "masked": "She attends ____ classes twice a week.",
       "options": [
         "online-mcq-13",
-        "online-mcq-12",
-        "online-mcq-11",
-        "online-mcq-10",
-        "online-mcq-09",
+        "online-mcq-07",
         "online-mcq-08"
       ],
       "explanation": "本句的「online」指「透過互聯網進行，而不是實體面對面」。",
@@ -627,12 +564,9 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-mcq-13": "本句指「透過互聯網進行，而不是實體面對面」。",
-        "online-mcq-12": "「不透過網絡，而在實體或線下環境中進行的」是「offline — physical」的用法，與本句語境不同。",
-        "online-mcq-11": "「沒有連接網絡／互聯網的」是「offline — technical」的用法，與本句語境不同。",
-        "online-mcq-10": "「供使用者透過互聯網存取內容或進行活動的數碼系統」是「online platform」的用法，與本句語境不同。",
-        "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。"
+        "online-mcq-13": "本句的「online」指「透過互聯網進行，而不是實體面對面」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "online-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-13"
     },
@@ -644,11 +578,7 @@ export default {
       "masked": "The new server is now ____.",
       "options": [
         "online-mcq-05",
-        "online-mcq-04",
-        "online-mcq-06",
-        "online-mcq-03",
-        "online-mcq-07",
-        "online-mcq-02"
+        "online-mcq-13"
       ],
       "explanation": "本句的「online」指「系統已連接網絡並處於可使用／運作狀態」。",
       "sentenceIndex": 10,
@@ -657,12 +587,8 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-mcq-05": "本句指「系統已連接網絡並處於可使用／運作狀態」。",
-        "online-mcq-04": "「透過互聯網而非實體面對面進行的」是「online — class/event」的用法，與本句語境不同。",
-        "online-mcq-06": "「令服務、系統或資源開始連網並投入使用」是「bring X online」的用法，與本句語境不同。",
-        "online-mcq-03": "「透過互聯網進行某個動作」是「online — adverb」的用法，與本句語境不同。",
-        "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。",
-        "online-mcq-02": "「使用者或裝置目前已連接互聯網／網絡」是「be online — person/device」的用法，與本句語境不同。"
+        "online-mcq-05": "本句的「online」指「系統已連接網絡並處於可使用／運作狀態」。",
+        "online-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-05"
     },
@@ -674,11 +600,7 @@ export default {
       "masked": "The payment system is back ____.",
       "options": [
         "online-mcq-05",
-        "online-mcq-04",
-        "online-mcq-06",
-        "online-mcq-03",
-        "online-mcq-07",
-        "online-mcq-02"
+        "online-pdf-002"
       ],
       "explanation": "本句的「online」指「系統已連接網絡並處於可使用／運作狀態」。",
       "sentenceIndex": 11,
@@ -687,12 +609,8 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-mcq-05": "本句指「系統已連接網絡並處於可使用／運作狀態」。",
-        "online-mcq-04": "「透過互聯網而非實體面對面進行的」是「online — class/event」的用法，與本句語境不同。",
-        "online-mcq-06": "「令服務、系統或資源開始連網並投入使用」是「bring X online」的用法，與本句語境不同。",
-        "online-mcq-03": "「透過互聯網進行某個動作」是「online — adverb」的用法，與本句語境不同。",
-        "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。",
-        "online-mcq-02": "「使用者或裝置目前已連接互聯網／網絡」是「be online — person/device」的用法，與本句語境不同。"
+        "online-mcq-05": "本句的「online」指「系統已連接網絡並處於可使用／運作狀態」。",
+        "online-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-05"
     },
@@ -704,11 +622,7 @@ export default {
       "masked": "The company brought the new platform ____ last month.",
       "options": [
         "online-mcq-06",
-        "online-mcq-05",
-        "online-mcq-07",
-        "online-mcq-04",
-        "online-mcq-08",
-        "online-mcq-03"
+        "online-mcq-01"
       ],
       "explanation": "本句的「online」指「令服務、系統或資源開始連網並投入使用」。",
       "sentenceIndex": 12,
@@ -717,12 +631,8 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-mcq-06": "本句指「令服務、系統或資源開始連網並投入使用」。",
-        "online-mcq-05": "「系統已連接網絡並處於可使用／運作狀態」是「online — system」的用法，與本句語境不同。",
-        "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。",
-        "online-mcq-04": "「透過互聯網而非實體面對面進行的」是「online — class/event」的用法，與本句語境不同。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。",
-        "online-mcq-03": "「透過互聯網進行某個動作」是「online — adverb」的用法，與本句語境不同。"
+        "online-mcq-06": "本句的「online」指「令服務、系統或資源開始連網並投入使用」。",
+        "online-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-06"
     },
@@ -734,11 +644,7 @@ export default {
       "masked": "The museum plans to bring more collections ____.",
       "options": [
         "online-mcq-06",
-        "online-mcq-05",
-        "online-mcq-07",
-        "online-mcq-04",
-        "online-mcq-08",
-        "online-mcq-03"
+        "online-pdf-001"
       ],
       "explanation": "本句的「online」指「令服務、系統或資源開始連網並投入使用」。",
       "sentenceIndex": 13,
@@ -747,12 +653,8 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-mcq-06": "本句指「令服務、系統或資源開始連網並投入使用」。",
-        "online-mcq-05": "「系統已連接網絡並處於可使用／運作狀態」是「online — system」的用法，與本句語境不同。",
-        "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。",
-        "online-mcq-04": "「透過互聯網而非實體面對面進行的」是「online — class/event」的用法，與本句語境不同。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。",
-        "online-mcq-03": "「透過互聯網進行某個動作」是「online — adverb」的用法，與本句語境不同。"
+        "online-mcq-06": "本句的「online」指「令服務、系統或資源開始連網並投入使用」。",
+        "online-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-06"
     },
@@ -764,11 +666,7 @@ export default {
       "masked": "The new website came ____ yesterday.",
       "options": [
         "online-mcq-07",
-        "online-mcq-06",
-        "online-mcq-08",
-        "online-mcq-05",
-        "online-mcq-09",
-        "online-mcq-04"
+        "online-mcq-09"
       ],
       "explanation": "本句的「online」指「開始上線、開始運作或可供使用」。",
       "sentenceIndex": 14,
@@ -777,12 +675,8 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-mcq-07": "本句指「開始上線、開始運作或可供使用」。",
-        "online-mcq-06": "「令服務、系統或資源開始連網並投入使用」是「bring X online」的用法，與本句語境不同。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。",
-        "online-mcq-05": "「系統已連接網絡並處於可使用／運作狀態」是「online — system」的用法，與本句語境不同。",
-        "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
-        "online-mcq-04": "「透過互聯網而非實體面對面進行的」是「online — class/event」的用法，與本句語境不同。"
+        "online-mcq-07": "本句的「online」指「開始上線、開始運作或可供使用」。",
+        "online-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-07"
     },
@@ -794,11 +688,7 @@ export default {
       "masked": "Several new services came ____ this year.",
       "options": [
         "online-mcq-07",
-        "online-mcq-06",
-        "online-mcq-08",
-        "online-mcq-05",
-        "online-mcq-09",
-        "online-mcq-04"
+        "online-mcq-09"
       ],
       "explanation": "本句的「online」指「開始上線、開始運作或可供使用」。",
       "sentenceIndex": 15,
@@ -807,12 +697,8 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-mcq-07": "本句指「開始上線、開始運作或可供使用」。",
-        "online-mcq-06": "「令服務、系統或資源開始連網並投入使用」是「bring X online」的用法，與本句語境不同。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。",
-        "online-mcq-05": "「系統已連接網絡並處於可使用／運作狀態」是「online — system」的用法，與本句語境不同。",
-        "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
-        "online-mcq-04": "「透過互聯網而非實體面對面進行的」是「online — class/event」的用法，與本句語境不同。"
+        "online-mcq-07": "本句的「online」指「開始上線、開始運作或可供使用」。",
+        "online-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-07"
     },
@@ -825,10 +711,7 @@ export default {
       "options": [
         "online-mcq-08",
         "online-mcq-07",
-        "online-mcq-09",
-        "online-mcq-06",
-        "online-mcq-10",
-        "online-mcq-05"
+        "online-mcq-13"
       ],
       "explanation": "本句的「online presence」指「某人／機構在網絡渠道中的可見度及活動存在」。",
       "sentenceIndex": 16,
@@ -837,12 +720,9 @@ export default {
         "online presence"
       ],
       "optionReasons": {
-        "online-mcq-08": "本句指「某人／機構在網絡渠道中的可見度及活動存在」。",
-        "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。",
-        "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
-        "online-mcq-06": "「令服務、系統或資源開始連網並投入使用」是「bring X online」的用法，與本句語境不同。",
-        "online-mcq-10": "「供使用者透過互聯網存取內容或進行活動的數碼系統」是「online platform」的用法，與本句語境不同。",
-        "online-mcq-05": "「系統已連接網絡並處於可使用／運作狀態」是「online — system」的用法，與本句語境不同。"
+        "online-mcq-08": "本句的「online presence」指「某人／機構在網絡渠道中的可見度及活動存在」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "online-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-08"
     },
@@ -855,10 +735,7 @@ export default {
       "options": [
         "online-mcq-08",
         "online-mcq-07",
-        "online-mcq-09",
-        "online-mcq-06",
-        "online-mcq-10",
-        "online-mcq-05"
+        "online-pdf-001"
       ],
       "explanation": "本句的「online」指「某人／機構在網絡渠道中的可見度及活動存在」。",
       "sentenceIndex": 17,
@@ -867,12 +744,9 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-mcq-08": "本句指「某人／機構在網絡渠道中的可見度及活動存在」。",
-        "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。",
-        "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
-        "online-mcq-06": "「令服務、系統或資源開始連網並投入使用」是「bring X online」的用法，與本句語境不同。",
-        "online-mcq-10": "「供使用者透過互聯網存取內容或進行活動的數碼系統」是「online platform」的用法，與本句語境不同。",
-        "online-mcq-05": "「系統已連接網絡並處於可使用／運作狀態」是「online — system」的用法，與本句語境不同。"
+        "online-mcq-08": "本句的「online」指「某人／機構在網絡渠道中的可見度及活動存在」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "online-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-08"
     },
@@ -884,11 +758,7 @@ export default {
       "masked": "The artist has a large ____ of followers.",
       "options": [
         "online-mcq-09",
-        "online-mcq-08",
-        "online-mcq-10",
-        "online-mcq-07",
-        "online-mcq-11",
-        "online-mcq-06"
+        "online-mcq-07"
       ],
       "explanation": "本句的「online community」指「主要透過互聯網互動和交流的群體」。",
       "sentenceIndex": 18,
@@ -897,12 +767,8 @@ export default {
         "online community"
       ],
       "optionReasons": {
-        "online-mcq-09": "本句指「主要透過互聯網互動和交流的群體」。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。",
-        "online-mcq-10": "「供使用者透過互聯網存取內容或進行活動的數碼系統」是「online platform」的用法，與本句語境不同。",
-        "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。",
-        "online-mcq-11": "「沒有連接網絡／互聯網的」是「offline — technical」的用法，與本句語境不同。",
-        "online-mcq-06": "「令服務、系統或資源開始連網並投入使用」是「bring X online」的用法，與本句語境不同。"
+        "online-mcq-09": "本句的「online community」指「主要透過互聯網互動和交流的群體」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-09"
     },
@@ -914,11 +780,7 @@ export default {
       "masked": "____ communities can connect people with similar interests.",
       "options": [
         "online-mcq-09",
-        "online-mcq-08",
-        "online-mcq-10",
-        "online-mcq-07",
-        "online-mcq-11",
-        "online-mcq-06"
+        "online-mcq-07"
       ],
       "explanation": "本句的「Online」指「主要透過互聯網互動和交流的群體」。",
       "sentenceIndex": 19,
@@ -927,12 +789,8 @@ export default {
         "Online"
       ],
       "optionReasons": {
-        "online-mcq-09": "本句指「主要透過互聯網互動和交流的群體」。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。",
-        "online-mcq-10": "「供使用者透過互聯網存取內容或進行活動的數碼系統」是「online platform」的用法，與本句語境不同。",
-        "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。",
-        "online-mcq-11": "「沒有連接網絡／互聯網的」是「offline — technical」的用法，與本句語境不同。",
-        "online-mcq-06": "「令服務、系統或資源開始連網並投入使用」是「bring X online」的用法，與本句語境不同。"
+        "online-mcq-09": "本句的「Online」指「主要透過互聯網互動和交流的群體」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-09"
     },
@@ -944,11 +802,7 @@ export default {
       "masked": "The museum uses an ____ to display its collection.",
       "options": [
         "online-mcq-10",
-        "online-mcq-09",
-        "online-mcq-11",
-        "online-mcq-08",
-        "online-mcq-12",
-        "online-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「online platform」指「供使用者透過互聯網存取內容或進行活動的數碼系統」。",
       "sentenceIndex": 20,
@@ -957,12 +811,8 @@ export default {
         "online platform"
       ],
       "optionReasons": {
-        "online-mcq-10": "本句指「供使用者透過互聯網存取內容或進行活動的數碼系統」。",
-        "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
-        "online-mcq-11": "「沒有連接網絡／互聯網的」是「offline — technical」的用法，與本句語境不同。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。",
-        "online-mcq-12": "「不透過網絡，而在實體或線下環境中進行的」是「offline — physical」的用法，與本句語境不同。",
-        "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。"
+        "online-mcq-10": "本句的「online platform」指「供使用者透過互聯網存取內容或進行活動的數碼系統」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-10"
     },
@@ -974,11 +824,7 @@ export default {
       "masked": "The course is delivered through an ____ platform.",
       "options": [
         "online-mcq-10",
-        "online-mcq-09",
-        "online-mcq-11",
-        "online-mcq-08",
-        "online-mcq-12",
-        "online-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「online」指「供使用者透過互聯網存取內容或進行活動的數碼系統」。",
       "sentenceIndex": 21,
@@ -987,12 +833,8 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-mcq-10": "本句指「供使用者透過互聯網存取內容或進行活動的數碼系統」。",
-        "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
-        "online-mcq-11": "「沒有連接網絡／互聯網的」是「offline — technical」的用法，與本句語境不同。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。",
-        "online-mcq-12": "「不透過網絡，而在實體或線下環境中進行的」是「offline — physical」的用法，與本句語境不同。",
-        "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。"
+        "online-mcq-10": "本句的「online」指「供使用者透過互聯網存取內容或進行活動的數碼系統」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-10"
     },
@@ -1004,11 +846,8 @@ export default {
       "masked": "The museum has an ____.",
       "options": [
         "online-pdf-001",
-        "online-mcq-09",
-        "online-mcq-11",
-        "online-mcq-08",
-        "online-mcq-12",
-        "online-mcq-07"
+        "online-mcq-07",
+        "online-mcq-08"
       ],
       "explanation": "本句的「online shop」指「透過互聯網瀏覽和購買商品的商店」。",
       "sentenceIndex": 22,
@@ -1017,12 +856,9 @@ export default {
         "online shop"
       ],
       "optionReasons": {
-        "online-pdf-001": "本句指「透過互聯網瀏覽和購買商品的商店」。",
-        "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
-        "online-mcq-11": "「沒有連接網絡／互聯網的」是「offline — technical」的用法，與本句語境不同。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。",
-        "online-mcq-12": "「不透過網絡，而在實體或線下環境中進行的」是「offline — physical」的用法，與本句語境不同。",
-        "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。"
+        "online-pdf-001": "本句的「online shop」指「透過互聯網瀏覽和購買商品的商店」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "online-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-pdf-001"
     },
@@ -1034,11 +870,8 @@ export default {
       "masked": "You can order the reproduction from their ____ store.",
       "options": [
         "online-pdf-001",
-        "online-mcq-09",
-        "online-mcq-11",
-        "online-mcq-08",
-        "online-mcq-12",
-        "online-mcq-07"
+        "online-mcq-07",
+        "online-mcq-08"
       ],
       "explanation": "本句的「online」指「透過互聯網瀏覽和購買商品的商店」。",
       "sentenceIndex": 23,
@@ -1047,12 +880,9 @@ export default {
         "online"
       ],
       "optionReasons": {
-        "online-pdf-001": "本句指「透過互聯網瀏覽和購買商品的商店」。",
-        "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
-        "online-mcq-11": "「沒有連接網絡／互聯網的」是「offline — technical」的用法，與本句語境不同。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。",
-        "online-mcq-12": "「不透過網絡，而在實體或線下環境中進行的」是「offline — physical」的用法，與本句語境不同。",
-        "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。"
+        "online-pdf-001": "本句的「online」指「透過互聯網瀏覽和購買商品的商店」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "online-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-pdf-001"
     },
@@ -1064,11 +894,8 @@ export default {
       "masked": "I paid for the print through ____.",
       "options": [
         "online-pdf-002",
-        "online-mcq-09",
-        "online-mcq-11",
-        "online-mcq-08",
-        "online-mcq-12",
-        "online-mcq-07"
+        "online-mcq-07",
+        "online-mcq-08"
       ],
       "explanation": "本句的「online banking」指「透過互聯網管理銀行帳戶、付款及轉帳等服務」。",
       "sentenceIndex": 24,
@@ -1077,12 +904,9 @@ export default {
         "online banking"
       ],
       "optionReasons": {
-        "online-pdf-002": "本句指「透過互聯網管理銀行帳戶、付款及轉帳等服務」。",
-        "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
-        "online-mcq-11": "「沒有連接網絡／互聯網的」是「offline — technical」的用法，與本句語境不同。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。",
-        "online-mcq-12": "「不透過網絡，而在實體或線下環境中進行的」是「offline — physical」的用法，與本句語境不同。",
-        "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。"
+        "online-pdf-002": "本句的「online banking」指「透過互聯網管理銀行帳戶、付款及轉帳等服務」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "online-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-pdf-002"
     },
@@ -1094,11 +918,8 @@ export default {
       "masked": "____ banking makes transfers easier.",
       "options": [
         "online-pdf-002",
-        "online-mcq-09",
-        "online-mcq-11",
-        "online-mcq-08",
-        "online-mcq-12",
-        "online-mcq-07"
+        "online-mcq-07",
+        "online-mcq-08"
       ],
       "explanation": "本句的「Online」指「透過互聯網管理銀行帳戶、付款及轉帳等服務」。",
       "sentenceIndex": 25,
@@ -1107,12 +928,9 @@ export default {
         "Online"
       ],
       "optionReasons": {
-        "online-pdf-002": "本句指「透過互聯網管理銀行帳戶、付款及轉帳等服務」。",
-        "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
-        "online-mcq-11": "「沒有連接網絡／互聯網的」是「offline — technical」的用法，與本句語境不同。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。",
-        "online-mcq-12": "「不透過網絡，而在實體或線下環境中進行的」是「offline — physical」的用法，與本句語境不同。",
-        "online-mcq-07": "「開始上線、開始運作或可供使用」是「come online」的用法，與本句語境不同。"
+        "online-pdf-002": "本句的「Online」指「透過互聯網管理銀行帳戶、付款及轉帳等服務」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "online-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-pdf-002"
     },
@@ -1124,11 +942,7 @@ export default {
       "masked": "The computer is currently ____.",
       "options": [
         "online-mcq-11",
-        "online-mcq-10",
-        "online-mcq-12",
-        "online-mcq-09",
-        "online-mcq-13",
-        "online-mcq-08"
+        "online-mcq-07"
       ],
       "explanation": "本句的「offline」指「沒有連接網絡／互聯網的」。",
       "sentenceIndex": 26,
@@ -1137,12 +951,8 @@ export default {
         "offline"
       ],
       "optionReasons": {
-        "online-mcq-11": "本句指「沒有連接網絡／互聯網的」。",
-        "online-mcq-10": "「供使用者透過互聯網存取內容或進行活動的數碼系統」是「online platform」的用法，與本句語境不同。",
-        "online-mcq-12": "「不透過網絡，而在實體或線下環境中進行的」是「offline — physical」的用法，與本句語境不同。",
-        "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
-        "online-mcq-13": "「透過互聯網進行，而不是實體面對面」是「5. online = internet-based rather than face-to-face — 線上的；遙距的」的用法，與本句語境不同。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。"
+        "online-mcq-11": "本句的「offline」指「沒有連接網絡／互聯網的」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-11"
     },
@@ -1154,11 +964,7 @@ export default {
       "masked": "The website is temporarily ____.",
       "options": [
         "online-mcq-11",
-        "online-mcq-10",
-        "online-mcq-12",
-        "online-mcq-09",
-        "online-mcq-13",
-        "online-mcq-08"
+        "online-mcq-07"
       ],
       "explanation": "本句的「offline」指「沒有連接網絡／互聯網的」。",
       "sentenceIndex": 27,
@@ -1167,12 +973,8 @@ export default {
         "offline"
       ],
       "optionReasons": {
-        "online-mcq-11": "本句指「沒有連接網絡／互聯網的」。",
-        "online-mcq-10": "「供使用者透過互聯網存取內容或進行活動的數碼系統」是「online platform」的用法，與本句語境不同。",
-        "online-mcq-12": "「不透過網絡，而在實體或線下環境中進行的」是「offline — physical」的用法，與本句語境不同。",
-        "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
-        "online-mcq-13": "「透過互聯網進行，而不是實體面對面」是「5. online = internet-based rather than face-to-face — 線上的；遙距的」的用法，與本句語境不同。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。"
+        "online-mcq-11": "本句的「offline」指「沒有連接網絡／互聯網的」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-11"
     },
@@ -1184,11 +986,7 @@ export default {
       "masked": "The exhibition is available both online and ____.",
       "options": [
         "online-mcq-12",
-        "online-mcq-11",
-        "online-mcq-13",
-        "online-mcq-10",
-        "online-mcq-09",
-        "online-mcq-08"
+        "online-mcq-07"
       ],
       "explanation": "本句的「offline」指「不透過網絡，而在實體或線下環境中進行的」。",
       "sentenceIndex": 28,
@@ -1197,12 +995,8 @@ export default {
         "offline"
       ],
       "optionReasons": {
-        "online-mcq-12": "本句指「不透過網絡，而在實體或線下環境中進行的」。",
-        "online-mcq-11": "「沒有連接網絡／互聯網的」是「offline — technical」的用法，與本句語境不同。",
-        "online-mcq-13": "「透過互聯網進行，而不是實體面對面」是「5. online = internet-based rather than face-to-face — 線上的；遙距的」的用法，與本句語境不同。",
-        "online-mcq-10": "「供使用者透過互聯網存取內容或進行活動的數碼系統」是「online platform」的用法，與本句語境不同。",
-        "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。"
+        "online-mcq-12": "本句的「offline」指「不透過網絡，而在實體或線下環境中進行的」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-12"
     },
@@ -1214,11 +1008,7 @@ export default {
       "masked": "They moved the discussion ____.",
       "options": [
         "online-mcq-12",
-        "online-mcq-11",
-        "online-mcq-13",
-        "online-mcq-10",
-        "online-mcq-09",
-        "online-mcq-08"
+        "online-mcq-07"
       ],
       "explanation": "本句的「offline」指「不透過網絡，而在實體或線下環境中進行的」。",
       "sentenceIndex": 29,
@@ -1227,12 +1017,8 @@ export default {
         "offline"
       ],
       "optionReasons": {
-        "online-mcq-12": "本句指「不透過網絡，而在實體或線下環境中進行的」。",
-        "online-mcq-11": "「沒有連接網絡／互聯網的」是「offline — technical」的用法，與本句語境不同。",
-        "online-mcq-13": "「透過互聯網進行，而不是實體面對面」是「5. online = internet-based rather than face-to-face — 線上的；遙距的」的用法，與本句語境不同。",
-        "online-mcq-10": "「供使用者透過互聯網存取內容或進行活動的數碼系統」是「online platform」的用法，與本句語境不同。",
-        "online-mcq-09": "「主要透過互聯網互動和交流的群體」是「online community」的用法，與本句語境不同。",
-        "online-mcq-08": "「某人／機構在網絡渠道中的可見度及活動存在」是「online presence」的用法，與本句語境不同。"
+        "online-mcq-12": "本句的「offline」指「不透過網絡，而在實體或線下環境中進行的」。",
+        "online-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "online-mcq-12"
     }
@@ -1244,5 +1030,12 @@ export default {
     "sha256": "d4b0e85d557db9b289a1204fce0008e5105e153c1f1265a82bed5172b0c6a76b",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

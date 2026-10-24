@@ -447,10 +447,8 @@ export default {
       "options": [
         "busy-01",
         "busy-08",
-        "busy-09",
         "busy-10",
-        "busy-13",
-        "busy-04"
+        "busy-13"
       ],
       "explanation": "留意搭配：busy = person （人） having many things to do。這裡著重「忙碌的；有很多事情要處理的」。",
       "sentenceIndex": 0,
@@ -459,12 +457,10 @@ export default {
         "busy"
       ],
       "optionReasons": {
-        "busy-01": "本句搭配 busy = person （人） having many things to do，應理解為「忙碌的；有很多事情要處理的」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy = person （人） having many things to do 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy = person （人） having many things to do 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy = person （人） having many things to do 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy = person （人） having many things to do 的用法不同。",
-        "busy-04": "「人多、活動頻繁而繁忙的」適用於 busy = place/business （地方／商店／餐廳） having many people and much activity；與本句 busy = person （人） having many things to do 的用法不同。"
+        "busy-01": "留意搭配：busy = person （人） having many things to do。這裡著重「忙碌的；有很多事情要處理的」。",
+        "busy-08": "請比較這個意思與句子中標示的用法。",
+        "busy-10": "請比較這個意思與句子中標示的用法。",
+        "busy-13": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -475,11 +471,9 @@ export default {
       "masked": "她每逢月底都____。",
       "options": [
         "busy-01",
-        "busy-08",
-        "busy-09",
         "busy-10",
-        "busy-13",
-        "busy-04"
+        "busy-08",
+        "busy-13"
       ],
       "explanation": "留意搭配：busy = person （人） having many things to do。這裡著重「忙碌的；有很多事情要處理的」。",
       "sentenceIndex": 1,
@@ -488,12 +482,10 @@ export default {
         "busy"
       ],
       "optionReasons": {
-        "busy-01": "本句搭配 busy = person （人） having many things to do，應理解為「忙碌的；有很多事情要處理的」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy = person （人） having many things to do 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy = person （人） having many things to do 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy = person （人） having many things to do 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy = person （人） having many things to do 的用法不同。",
-        "busy-04": "「人多、活動頻繁而繁忙的」適用於 busy = place/business （地方／商店／餐廳） having many people and much activity；與本句 busy = person （人） having many things to do 的用法不同。"
+        "busy-01": "留意搭配：busy = person （人） having many things to do。這裡著重「忙碌的；有很多事情要處理的」。",
+        "busy-10": "請比較這個意思與句子中標示的用法。",
+        "busy-08": "請比較這個意思與句子中標示的用法。",
+        "busy-13": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -504,11 +496,9 @@ export default {
       "masked": "她當時正____。",
       "options": [
         "busy-02",
-        "busy-08",
-        "busy-09",
-        "busy-10",
         "busy-13",
-        "busy-04"
+        "busy-07",
+        "busy-10"
       ],
       "explanation": "留意搭配：busy doing + activity （正在進行的事情）。這裡著重「正忙於做 ……」。",
       "sentenceIndex": 2,
@@ -517,12 +507,10 @@ export default {
         "busy preparing"
       ],
       "optionReasons": {
-        "busy-02": "本句搭配 busy doing + activity （正在進行的事情），應理解為「正忙於做 ……」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy doing + activity （正在進行的事情） 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy doing + activity （正在進行的事情） 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy doing + activity （正在進行的事情） 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy doing + activity （正在進行的事情） 的用法不同。",
-        "busy-04": "「人多、活動頻繁而繁忙的」適用於 busy = place/business （地方／商店／餐廳） having many people and much activity；與本句 busy doing + activity （正在進行的事情） 的用法不同。"
+        "busy-02": "留意搭配：busy doing + activity （正在進行的事情）。這裡著重「正忙於做 ……」。",
+        "busy-13": "請比較這個意思與句子中標示的用法。",
+        "busy-07": "請比較這個意思與句子中標示的用法。",
+        "busy-10": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -533,11 +521,9 @@ export default {
       "masked": "員工正____。",
       "options": [
         "busy-02",
-        "busy-08",
-        "busy-09",
-        "busy-10",
+        "busy-07",
         "busy-13",
-        "busy-04"
+        "busy-10"
       ],
       "explanation": "留意搭配：busy doing + activity （正在進行的事情）。這裡著重「正忙於做 ……」。",
       "sentenceIndex": 3,
@@ -546,12 +532,10 @@ export default {
         "busy serving"
       ],
       "optionReasons": {
-        "busy-02": "本句搭配 busy doing + activity （正在進行的事情），應理解為「正忙於做 ……」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy doing + activity （正在進行的事情） 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy doing + activity （正在進行的事情） 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy doing + activity （正在進行的事情） 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy doing + activity （正在進行的事情） 的用法不同。",
-        "busy-04": "「人多、活動頻繁而繁忙的」適用於 busy = place/business （地方／商店／餐廳） having many people and much activity；與本句 busy doing + activity （正在進行的事情） 的用法不同。"
+        "busy-02": "留意搭配：busy doing + activity （正在進行的事情）。這裡著重「正忙於做 ……」。",
+        "busy-07": "請比較這個意思與句子中標示的用法。",
+        "busy-13": "請比較這個意思與句子中標示的用法。",
+        "busy-10": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -562,11 +546,9 @@ export default {
       "masked": "我目前正____。",
       "options": [
         "busy-03",
-        "busy-08",
-        "busy-09",
-        "busy-10",
+        "busy-07",
         "busy-13",
-        "busy-04"
+        "busy-10"
       ],
       "explanation": "留意搭配：busy with + work/task （工作／事情）。這裡著重「忙於處理 ……」。",
       "sentenceIndex": 4,
@@ -575,12 +557,10 @@ export default {
         "busy with"
       ],
       "optionReasons": {
-        "busy-03": "本句搭配 busy with + work/task （工作／事情），應理解為「忙於處理 ……」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy with + work/task （工作／事情） 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy with + work/task （工作／事情） 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy with + work/task （工作／事情） 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy with + work/task （工作／事情） 的用法不同。",
-        "busy-04": "「人多、活動頻繁而繁忙的」適用於 busy = place/business （地方／商店／餐廳） having many people and much activity；與本句 busy with + work/task （工作／事情） 的用法不同。"
+        "busy-03": "留意搭配：busy with + work/task （工作／事情）。這裡著重「忙於處理 ……」。",
+        "busy-07": "請比較這個意思與句子中標示的用法。",
+        "busy-13": "請比較這個意思與句子中標示的用法。",
+        "busy-10": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -591,11 +571,9 @@ export default {
       "masked": "他整個早上都____。",
       "options": [
         "busy-03",
-        "busy-08",
-        "busy-09",
-        "busy-10",
         "busy-13",
-        "busy-04"
+        "busy-07",
+        "busy-10"
       ],
       "explanation": "留意搭配：busy with + work/task （工作／事情）。這裡著重「忙於處理 ……」。",
       "sentenceIndex": 5,
@@ -604,12 +582,10 @@ export default {
         "busy with"
       ],
       "optionReasons": {
-        "busy-03": "本句搭配 busy with + work/task （工作／事情），應理解為「忙於處理 ……」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy with + work/task （工作／事情） 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy with + work/task （工作／事情） 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy with + work/task （工作／事情） 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy with + work/task （工作／事情） 的用法不同。",
-        "busy-04": "「人多、活動頻繁而繁忙的」適用於 busy = place/business （地方／商店／餐廳） having many people and much activity；與本句 busy with + work/task （工作／事情） 的用法不同。"
+        "busy-03": "留意搭配：busy with + work/task （工作／事情）。這裡著重「忙於處理 ……」。",
+        "busy-13": "請比較這個意思與句子中標示的用法。",
+        "busy-07": "請比較這個意思與句子中標示的用法。",
+        "busy-10": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -620,11 +596,9 @@ export default {
       "masked": "一列擠滿乘客的火車、一間____，以及一個嘈吵的辦公室",
       "options": [
         "busy-04",
-        "busy-08",
-        "busy-09",
-        "busy-10",
+        "busy-07",
         "busy-13",
-        "busy-01"
+        "busy-08"
       ],
       "explanation": "留意搭配：busy = place/business （地方／商店／餐廳） having many people and much activity。這裡著重「人多、活動頻繁而繁忙的」。",
       "sentenceIndex": 6,
@@ -633,12 +607,10 @@ export default {
         "busy"
       ],
       "optionReasons": {
-        "busy-04": "本句搭配 busy = place/business （地方／商店／餐廳） having many people and much activity，應理解為「人多、活動頻繁而繁忙的」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy = place/business （地方／商店／餐廳） having many people and much activity 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy = place/business （地方／商店／餐廳） having many people and much activity 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy = place/business （地方／商店／餐廳） having many people and much activity 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy = place/business （地方／商店／餐廳） having many people and much activity 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busy = place/business （地方／商店／餐廳） having many people and much activity 的用法不同。"
+        "busy-04": "留意搭配：busy = place/business （地方／商店／餐廳） having many people and much activity。這裡著重「人多、活動頻繁而繁忙的」。",
+        "busy-07": "請比較這個意思與句子中標示的用法。",
+        "busy-13": "請比較這個意思與句子中標示的用法。",
+        "busy-08": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -650,10 +622,8 @@ export default {
       "options": [
         "busy-04",
         "busy-08",
-        "busy-09",
-        "busy-10",
         "busy-13",
-        "busy-01"
+        "busy-07"
       ],
       "explanation": "留意搭配：busy = place/business （地方／商店／餐廳） having many people and much activity。這裡著重「人多、活動頻繁而繁忙的」。",
       "sentenceIndex": 7,
@@ -662,12 +632,10 @@ export default {
         "busy"
       ],
       "optionReasons": {
-        "busy-04": "本句搭配 busy = place/business （地方／商店／餐廳） having many people and much activity，應理解為「人多、活動頻繁而繁忙的」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy = place/business （地方／商店／餐廳） having many people and much activity 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy = place/business （地方／商店／餐廳） having many people and much activity 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy = place/business （地方／商店／餐廳） having many people and much activity 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy = place/business （地方／商店／餐廳） having many people and much activity 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busy = place/business （地方／商店／餐廳） having many people and much activity 的用法不同。"
+        "busy-04": "留意搭配：busy = place/business （地方／商店／餐廳） having many people and much activity。這裡著重「人多、活動頻繁而繁忙的」。",
+        "busy-08": "請比較這個意思與句子中標示的用法。",
+        "busy-13": "請比較這個意思與句子中標示的用法。",
+        "busy-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -678,11 +646,9 @@ export default {
       "masked": "假期期間，機場____。",
       "options": [
         "busy-04",
-        "busy-08",
-        "busy-09",
-        "busy-10",
+        "busy-07",
         "busy-13",
-        "busy-01"
+        "busy-09"
       ],
       "explanation": "留意搭配：busy = place/business （地方／商店／餐廳） having many people and much activity。這裡著重「人多、活動頻繁而繁忙的」。",
       "sentenceIndex": 8,
@@ -691,12 +657,10 @@ export default {
         "busy"
       ],
       "optionReasons": {
-        "busy-04": "本句搭配 busy = place/business （地方／商店／餐廳） having many people and much activity，應理解為「人多、活動頻繁而繁忙的」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy = place/business （地方／商店／餐廳） having many people and much activity 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy = place/business （地方／商店／餐廳） having many people and much activity 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy = place/business （地方／商店／餐廳） having many people and much activity 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy = place/business （地方／商店／餐廳） having many people and much activity 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busy = place/business （地方／商店／餐廳） having many people and much activity 的用法不同。"
+        "busy-04": "留意搭配：busy = place/business （地方／商店／餐廳） having many people and much activity。這裡著重「人多、活動頻繁而繁忙的」。",
+        "busy-07": "請比較這個意思與句子中標示的用法。",
+        "busy-13": "請比較這個意思與句子中標示的用法。",
+        "busy-09": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -707,11 +671,9 @@ export default {
       "masked": "過這條____時要小心。",
       "options": [
         "busy-05",
-        "busy-08",
+        "busy-07",
         "busy-09",
-        "busy-10",
-        "busy-13",
-        "busy-01"
+        "busy-13"
       ],
       "explanation": "留意搭配：busy = road/street/transport route （道路／街道／交通路線） having a lot of traffic。這裡著重「車流／人流頻繁的；交通繁忙的」。",
       "sentenceIndex": 9,
@@ -720,12 +682,10 @@ export default {
         "busy"
       ],
       "optionReasons": {
-        "busy-05": "本句搭配 busy = road/street/transport route （道路／街道／交通路線） having a lot of traffic，應理解為「車流／人流頻繁的；交通繁忙的」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy = road/street/transport route （道路／街道／交通路線） having a lot of traffic 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy = road/street/transport route （道路／街道／交通路線） having a lot of traffic 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy = road/street/transport route （道路／街道／交通路線） having a lot of traffic 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy = road/street/transport route （道路／街道／交通路線） having a lot of traffic 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busy = road/street/transport route （道路／街道／交通路線） having a lot of traffic 的用法不同。"
+        "busy-05": "留意搭配：busy = road/street/transport route （道路／街道／交通路線） having a lot of traffic。這裡著重「車流／人流頻繁的；交通繁忙的」。",
+        "busy-07": "請比較這個意思與句子中標示的用法。",
+        "busy-09": "請比較這個意思與句子中標示的用法。",
+        "busy-13": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -736,11 +696,9 @@ export default {
       "masked": "酒店位於一條____上。",
       "options": [
         "busy-05",
-        "busy-08",
-        "busy-09",
-        "busy-10",
         "busy-13",
-        "busy-01"
+        "busy-07",
+        "busy-09"
       ],
       "explanation": "留意搭配：busy = road/street/transport route （道路／街道／交通路線） having a lot of traffic。這裡著重「車流／人流頻繁的；交通繁忙的」。",
       "sentenceIndex": 10,
@@ -749,12 +707,10 @@ export default {
         "busy"
       ],
       "optionReasons": {
-        "busy-05": "本句搭配 busy = road/street/transport route （道路／街道／交通路線） having a lot of traffic，應理解為「車流／人流頻繁的；交通繁忙的」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy = road/street/transport route （道路／街道／交通路線） having a lot of traffic 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy = road/street/transport route （道路／街道／交通路線） having a lot of traffic 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy = road/street/transport route （道路／街道／交通路線） having a lot of traffic 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy = road/street/transport route （道路／街道／交通路線） having a lot of traffic 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busy = road/street/transport route （道路／街道／交通路線） having a lot of traffic 的用法不同。"
+        "busy-05": "留意搭配：busy = road/street/transport route （道路／街道／交通路線） having a lot of traffic。這裡著重「車流／人流頻繁的；交通繁忙的」。",
+        "busy-13": "請比較這個意思與句子中標示的用法。",
+        "busy-07": "請比較這個意思與句子中標示的用法。",
+        "busy-09": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -765,11 +721,9 @@ export default {
       "masked": "星期一是____。",
       "options": [
         "busy-06",
-        "busy-08",
-        "busy-09",
-        "busy-10",
         "busy-13",
-        "busy-01"
+        "busy-08",
+        "busy-12"
       ],
       "explanation": "留意搭配：busy = period/day/season （時段／日子／季節） containing a lot of work or activity。這裡著重「工作或活動很多的繁忙時段」。",
       "sentenceIndex": 11,
@@ -778,12 +732,10 @@ export default {
         "busy"
       ],
       "optionReasons": {
-        "busy-06": "本句搭配 busy = period/day/season （時段／日子／季節） containing a lot of work or activity，應理解為「工作或活動很多的繁忙時段」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy = period/day/season （時段／日子／季節） containing a lot of work or activity 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy = period/day/season （時段／日子／季節） containing a lot of work or activity 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy = period/day/season （時段／日子／季節） containing a lot of work or activity 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy = period/day/season （時段／日子／季節） containing a lot of work or activity 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busy = period/day/season （時段／日子／季節） containing a lot of work or activity 的用法不同。"
+        "busy-06": "留意搭配：busy = period/day/season （時段／日子／季節） containing a lot of work or activity。這裡著重「工作或活動很多的繁忙時段」。",
+        "busy-13": "請比較這個意思與句子中標示的用法。",
+        "busy-08": "請比較這個意思與句子中標示的用法。",
+        "busy-12": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -794,10 +746,8 @@ export default {
       "masked": "十二月是我們一年中____。",
       "options": [
         "busy-06",
-        "busy-08",
-        "busy-09",
-        "busy-10",
         "busy-13",
+        "busy-08",
         "busy-01"
       ],
       "explanation": "留意搭配：busy = period/day/season （時段／日子／季節） containing a lot of work or activity。這裡著重「工作或活動很多的繁忙時段」。",
@@ -807,12 +757,10 @@ export default {
         "busiest"
       ],
       "optionReasons": {
-        "busy-06": "本句搭配 busy = period/day/season （時段／日子／季節） containing a lot of work or activity，應理解為「工作或活動很多的繁忙時段」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy = period/day/season （時段／日子／季節） containing a lot of work or activity 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy = period/day/season （時段／日子／季節） containing a lot of work or activity 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy = period/day/season （時段／日子／季節） containing a lot of work or activity 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy = period/day/season （時段／日子／季節） containing a lot of work or activity 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busy = period/day/season （時段／日子／季節） containing a lot of work or activity 的用法不同。"
+        "busy-06": "留意搭配：busy = period/day/season （時段／日子／季節） containing a lot of work or activity。這裡著重「工作或活動很多的繁忙時段」。",
+        "busy-13": "請比較這個意思與句子中標示的用法。",
+        "busy-08": "請比較這個意思與句子中標示的用法。",
+        "busy-01": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -823,11 +771,9 @@ export default {
       "masked": "我這星期的____。",
       "options": [
         "busy-07",
-        "busy-08",
-        "busy-09",
-        "busy-10",
         "busy-13",
-        "busy-01"
+        "busy-01",
+        "busy-04"
       ],
       "explanation": "留意搭配：busy = schedule/calendar （時間表／日程） containing many appointments or activities。這裡著重「行程排得很滿的」。",
       "sentenceIndex": 13,
@@ -836,12 +782,10 @@ export default {
         "busy"
       ],
       "optionReasons": {
-        "busy-07": "本句搭配 busy = schedule/calendar （時間表／日程） containing many appointments or activities，應理解為「行程排得很滿的」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy = schedule/calendar （時間表／日程） containing many appointments or activities 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy = schedule/calendar （時間表／日程） containing many appointments or activities 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy = schedule/calendar （時間表／日程） containing many appointments or activities 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy = schedule/calendar （時間表／日程） containing many appointments or activities 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busy = schedule/calendar （時間表／日程） containing many appointments or activities 的用法不同。"
+        "busy-07": "留意搭配：busy = schedule/calendar （時間表／日程） containing many appointments or activities。這裡著重「行程排得很滿的」。",
+        "busy-13": "請比較這個意思與句子中標示的用法。",
+        "busy-01": "請比較這個意思與句子中標示的用法。",
+        "busy-04": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -852,11 +796,9 @@ export default {
       "masked": "早上有四個會議，所以會是個____。",
       "options": [
         "busy-07",
+        "busy-03",
         "busy-08",
-        "busy-09",
-        "busy-10",
-        "busy-13",
-        "busy-01"
+        "busy-13"
       ],
       "explanation": "留意搭配：busy = schedule/calendar （時間表／日程） containing many appointments or activities。這裡著重「行程排得很滿的」。",
       "sentenceIndex": 14,
@@ -865,12 +807,10 @@ export default {
         "busy"
       ],
       "optionReasons": {
-        "busy-07": "本句搭配 busy = schedule/calendar （時間表／日程） containing many appointments or activities，應理解為「行程排得很滿的」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy = schedule/calendar （時間表／日程） containing many appointments or activities 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy = schedule/calendar （時間表／日程） containing many appointments or activities 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy = schedule/calendar （時間表／日程） containing many appointments or activities 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy = schedule/calendar （時間表／日程） containing many appointments or activities 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busy = schedule/calendar （時間表／日程） containing many appointments or activities 的用法不同。"
+        "busy-07": "留意搭配：busy = schedule/calendar （時間表／日程） containing many appointments or activities。這裡著重「行程排得很滿的」。",
+        "busy-03": "請比較這個意思與句子中標示的用法。",
+        "busy-08": "請比較這個意思與句子中標示的用法。",
+        "busy-13": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -881,10 +821,8 @@ export default {
       "masked": "我嘗試打電話給她，但電話____。",
       "options": [
         "busy-08",
-        "busy-09",
-        "busy-10",
-        "busy-13",
-        "busy-01",
+        "busy-12",
+        "busy-07",
         "busy-04"
       ],
       "explanation": "留意搭配：busy = phone line （電話線） already being used。這裡著重「佔線的；正在通話中的」。",
@@ -894,12 +832,10 @@ export default {
         "busy"
       ],
       "optionReasons": {
-        "busy-08": "本句搭配 busy = phone line （電話線） already being used，應理解為「佔線的；正在通話中的」。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy = phone line （電話線） already being used 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy = phone line （電話線） already being used 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy = phone line （電話線） already being used 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busy = phone line （電話線） already being used 的用法不同。",
-        "busy-04": "「人多、活動頻繁而繁忙的」適用於 busy = place/business （地方／商店／餐廳） having many people and much activity；與本句 busy = phone line （電話線） already being used 的用法不同。"
+        "busy-08": "留意搭配：busy = phone line （電話線） already being used。這裡著重「佔線的；正在通話中的」。",
+        "busy-12": "請比較這個意思與句子中標示的用法。",
+        "busy-07": "請比較這個意思與句子中標示的用法。",
+        "busy-04": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -910,10 +846,8 @@ export default {
       "masked": "我每次打過去，電話號碼都____。",
       "options": [
         "busy-08",
-        "busy-09",
-        "busy-10",
+        "busy-12",
         "busy-13",
-        "busy-01",
         "busy-04"
       ],
       "explanation": "留意搭配：busy = phone line （電話線） already being used。這裡著重「佔線的；正在通話中的」。",
@@ -923,12 +857,10 @@ export default {
         "busy"
       ],
       "optionReasons": {
-        "busy-08": "本句搭配 busy = phone line （電話線） already being used，應理解為「佔線的；正在通話中的」。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy = phone line （電話線） already being used 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy = phone line （電話線） already being used 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy = phone line （電話線） already being used 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busy = phone line （電話線） already being used 的用法不同。",
-        "busy-04": "「人多、活動頻繁而繁忙的」適用於 busy = place/business （地方／商店／餐廳） having many people and much activity；與本句 busy = phone line （電話線） already being used 的用法不同。"
+        "busy-08": "留意搭配：busy = phone line （電話線） already being used。這裡著重「佔線的；正在通話中的」。",
+        "busy-12": "請比較這個意思與句子中標示的用法。",
+        "busy-13": "請比較這個意思與句子中標示的用法。",
+        "busy-04": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -939,11 +871,9 @@ export default {
       "masked": "伺服器目前____，請稍後再試。",
       "options": [
         "busy-09",
-        "busy-08",
-        "busy-10",
         "busy-13",
-        "busy-01",
-        "busy-04"
+        "busy-05",
+        "busy-12"
       ],
       "explanation": "留意搭配：busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand。這裡著重「正在處理工作而暫時無法接受更多操作的」。",
       "sentenceIndex": 17,
@@ -952,12 +882,10 @@ export default {
         "busy"
       ],
       "optionReasons": {
-        "busy-09": "本句搭配 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand，應理解為「正在處理工作而暫時無法接受更多操作的」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand 的用法不同。",
-        "busy-04": "「人多、活動頻繁而繁忙的」適用於 busy = place/business （地方／商店／餐廳） having many people and much activity；與本句 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand 的用法不同。"
+        "busy-09": "留意搭配：busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand。這裡著重「正在處理工作而暫時無法接受更多操作的」。",
+        "busy-13": "請比較這個意思與句子中標示的用法。",
+        "busy-05": "請比較這個意思與句子中標示的用法。",
+        "busy-12": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -968,11 +896,9 @@ export default {
       "masked": "打印機正____。",
       "options": [
         "busy-09",
-        "busy-08",
-        "busy-10",
+        "busy-11",
         "busy-13",
-        "busy-01",
-        "busy-04"
+        "busy-12"
       ],
       "explanation": "留意搭配：busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand。這裡著重「正在處理工作而暫時無法接受更多操作的」。",
       "sentenceIndex": 18,
@@ -981,12 +907,10 @@ export default {
         "busy"
       ],
       "optionReasons": {
-        "busy-09": "本句搭配 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand，應理解為「正在處理工作而暫時無法接受更多操作的」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand 的用法不同。",
-        "busy-04": "「人多、活動頻繁而繁忙的」適用於 busy = place/business （地方／商店／餐廳） having many people and much activity；與本句 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand 的用法不同。"
+        "busy-09": "留意搭配：busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand。這裡著重「正在處理工作而暫時無法接受更多操作的」。",
+        "busy-11": "請比較這個意思與句子中標示的用法。",
+        "busy-13": "請比較這個意思與句子中標示的用法。",
+        "busy-12": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -997,11 +921,9 @@ export default {
       "masked": "這個網站____。",
       "options": [
         "busy-10",
-        "busy-08",
-        "busy-09",
+        "busy-12",
         "busy-13",
-        "busy-01",
-        "busy-04"
+        "busy-07"
       ],
       "explanation": "留意搭配：busy = design/pattern/page （設計／圖案／版面） containing too many visual elements。這裡著重「視覺元素過多、顯得雜亂繁複的」。",
       "sentenceIndex": 19,
@@ -1010,12 +932,10 @@ export default {
         "busy"
       ],
       "optionReasons": {
-        "busy-10": "本句搭配 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements，應理解為「視覺元素過多、顯得雜亂繁複的」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements 的用法不同。",
-        "busy-04": "「人多、活動頻繁而繁忙的」適用於 busy = place/business （地方／商店／餐廳） having many people and much activity；與本句 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements 的用法不同。"
+        "busy-10": "留意搭配：busy = design/pattern/page （設計／圖案／版面） containing too many visual elements。這裡著重「視覺元素過多、顯得雜亂繁複的」。",
+        "busy-12": "請比較這個意思與句子中標示的用法。",
+        "busy-13": "請比較這個意思與句子中標示的用法。",
+        "busy-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1027,10 +947,8 @@ export default {
       "options": [
         "busy-10",
         "busy-08",
-        "busy-09",
-        "busy-13",
         "busy-01",
-        "busy-04"
+        "busy-07"
       ],
       "explanation": "留意搭配：busy = design/pattern/page （設計／圖案／版面） containing too many visual elements。這裡著重「視覺元素過多、顯得雜亂繁複的」。",
       "sentenceIndex": 20,
@@ -1039,12 +957,10 @@ export default {
         "busy"
       ],
       "optionReasons": {
-        "busy-10": "本句搭配 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements，應理解為「視覺元素過多、顯得雜亂繁複的」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements 的用法不同。",
-        "busy-04": "「人多、活動頻繁而繁忙的」適用於 busy = place/business （地方／商店／餐廳） having many people and much activity；與本句 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements 的用法不同。"
+        "busy-10": "留意搭配：busy = design/pattern/page （設計／圖案／版面） containing too many visual elements。這裡著重「視覺元素過多、顯得雜亂繁複的」。",
+        "busy-08": "請比較這個意思與句子中標示的用法。",
+        "busy-01": "請比較這個意思與句子中標示的用法。",
+        "busy-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1055,11 +971,9 @@ export default {
       "masked": "這間咖啡店週末____。",
       "options": [
         "busy-11",
-        "busy-08",
-        "busy-09",
-        "busy-10",
         "busy-13",
-        "busy-01"
+        "busy-10",
+        "busy-08"
       ],
       "explanation": "留意搭配：busier / busiest = comparative and superlative forms。這裡著重「比較之下更忙／最忙」。",
       "sentenceIndex": 21,
@@ -1068,12 +982,10 @@ export default {
         "busier"
       ],
       "optionReasons": {
-        "busy-11": "本句搭配 busier / busiest = comparative and superlative forms，應理解為「比較之下更忙／最忙」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busier / busiest = comparative and superlative forms 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busier / busiest = comparative and superlative forms 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busier / busiest = comparative and superlative forms 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busier / busiest = comparative and superlative forms 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busier / busiest = comparative and superlative forms 的用法不同。"
+        "busy-11": "留意搭配：busier / busiest = comparative and superlative forms。這裡著重「比較之下更忙／最忙」。",
+        "busy-13": "請比較這個意思與句子中標示的用法。",
+        "busy-10": "請比較這個意思與句子中標示的用法。",
+        "busy-08": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1084,11 +996,9 @@ export default {
       "masked": "星期五通常是我們____。",
       "options": [
         "busy-11",
-        "busy-08",
         "busy-09",
-        "busy-10",
         "busy-13",
-        "busy-01"
+        "busy-10"
       ],
       "explanation": "留意搭配：busier / busiest = comparative and superlative forms。這裡著重「比較之下更忙／最忙」。",
       "sentenceIndex": 22,
@@ -1097,12 +1007,10 @@ export default {
         "busiest"
       ],
       "optionReasons": {
-        "busy-11": "本句搭配 busier / busiest = comparative and superlative forms，應理解為「比較之下更忙／最忙」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busier / busiest = comparative and superlative forms 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busier / busiest = comparative and superlative forms 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busier / busiest = comparative and superlative forms 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busier / busiest = comparative and superlative forms 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busier / busiest = comparative and superlative forms 的用法不同。"
+        "busy-11": "留意搭配：busier / busiest = comparative and superlative forms。這裡著重「比較之下更忙／最忙」。",
+        "busy-09": "請比較這個意思與句子中標示的用法。",
+        "busy-13": "請比較這個意思與句子中標示的用法。",
+        "busy-10": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1113,11 +1021,9 @@ export default {
       "masked": "員工正____為午餐時段作準備。",
       "options": [
         "busy-12",
-        "busy-08",
         "busy-09",
-        "busy-10",
-        "busy-13",
-        "busy-04"
+        "busy-07",
+        "busy-10"
       ],
       "explanation": "留意搭配：busily = in an active, occupied way。這裡著重「忙碌地；不停地做事」。",
       "sentenceIndex": 23,
@@ -1126,12 +1032,10 @@ export default {
         "busily"
       ],
       "optionReasons": {
-        "busy-12": "本句搭配 busily = in an active, occupied way，應理解為「忙碌地；不停地做事」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busily = in an active, occupied way 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busily = in an active, occupied way 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busily = in an active, occupied way 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busily = in an active, occupied way 的用法不同。",
-        "busy-04": "「人多、活動頻繁而繁忙的」適用於 busy = place/business （地方／商店／餐廳） having many people and much activity；與本句 busily = in an active, occupied way 的用法不同。"
+        "busy-12": "留意搭配：busily = in an active, occupied way。這裡著重「忙碌地；不停地做事」。",
+        "busy-09": "請比較這個意思與句子中標示的用法。",
+        "busy-07": "請比較這個意思與句子中標示的用法。",
+        "busy-10": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1143,10 +1047,8 @@ export default {
       "options": [
         "busy-12",
         "busy-08",
-        "busy-09",
         "busy-10",
-        "busy-13",
-        "busy-04"
+        "busy-07"
       ],
       "explanation": "留意搭配：busily = in an active, occupied way。這裡著重「忙碌地；不停地做事」。",
       "sentenceIndex": 24,
@@ -1155,12 +1057,10 @@ export default {
         "busily"
       ],
       "optionReasons": {
-        "busy-12": "本句搭配 busily = in an active, occupied way，應理解為「忙碌地；不停地做事」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busily = in an active, occupied way 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busily = in an active, occupied way 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busily = in an active, occupied way 的用法不同。",
-        "busy-13": "「愛管閒事的人」適用於 busybody · noun；與本句 busily = in an active, occupied way 的用法不同。",
-        "busy-04": "「人多、活動頻繁而繁忙的」適用於 busy = place/business （地方／商店／餐廳） having many people and much activity；與本句 busily = in an active, occupied way 的用法不同。"
+        "busy-12": "留意搭配：busily = in an active, occupied way。這裡著重「忙碌地；不停地做事」。",
+        "busy-08": "請比較這個意思與句子中標示的用法。",
+        "busy-10": "請比較這個意思與句子中標示的用法。",
+        "busy-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1171,22 +1071,18 @@ export default {
       "masked": "她真的很____、愛打聽別人私事，總想知道鄰居在做甚麼。",
       "options": [
         "busy-13",
-        "busy-08",
-        "busy-09",
+        "busy-12",
         "busy-10",
-        "busy-01",
         "busy-04"
       ],
       "explanation": "busybody 是名詞，不是「很忙的人」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "optionReasons": {
-        "busy-13": "本句搭配 busybody · noun，應理解為「愛管閒事的人」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busybody · noun 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busybody · noun 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busybody · noun 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busybody · noun 的用法不同。",
-        "busy-04": "「人多、活動頻繁而繁忙的」適用於 busy = place/business （地方／商店／餐廳） having many people and much activity；與本句 busybody · noun 的用法不同。"
+        "busy-13": "busybody 是名詞，不是「很忙的人」。",
+        "busy-12": "請比較這個意思與句子中標示的用法。",
+        "busy-10": "請比較這個意思與句子中標示的用法。",
+        "busy-04": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1197,22 +1093,18 @@ export default {
       "masked": "別理他——他只是一個很愛插手別人事情____，甚麼都想管。",
       "options": [
         "busy-13",
-        "busy-08",
-        "busy-09",
+        "busy-11",
         "busy-10",
-        "busy-01",
-        "busy-04"
+        "busy-08"
       ],
       "explanation": "busybody 是名詞，不是「很忙的人」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "optionReasons": {
-        "busy-13": "本句搭配 busybody · noun，應理解為「愛管閒事的人」。",
-        "busy-08": "「佔線的；正在通話中的」適用於 busy = phone line （電話線） already being used；與本句 busybody · noun 的用法不同。",
-        "busy-09": "「正在處理工作而暫時無法接受更多操作的」適用於 busy = machine/system/server （機器／系統／伺服器） currently occupied handling another task or heavy demand；與本句 busybody · noun 的用法不同。",
-        "busy-10": "「視覺元素過多、顯得雜亂繁複的」適用於 busy = design/pattern/page （設計／圖案／版面） containing too many visual elements；與本句 busybody · noun 的用法不同。",
-        "busy-01": "「忙碌的；有很多事情要處理的」適用於 busy = person （人） having many things to do；與本句 busybody · noun 的用法不同。",
-        "busy-04": "「人多、活動頻繁而繁忙的」適用於 busy = place/business （地方／商店／餐廳） having many people and much activity；與本句 busybody · noun 的用法不同。"
+        "busy-13": "busybody 是名詞，不是「很忙的人」。",
+        "busy-11": "請比較這個意思與句子中標示的用法。",
+        "busy-10": "請比較這個意思與句子中標示的用法。",
+        "busy-08": "請比較這個意思與句子中標示的用法。"
       }
     }
   ],
@@ -1220,5 +1112,7 @@ export default {
     "file": "Polysemy exercise_Busy_(2).pdf",
     "sha256": "acea6be4e256bdd45611322cd5dd8a43d220c40f73861c3836428b33365f1a43",
     "path": "manuals/busy.pdf"
-  }
+  },
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

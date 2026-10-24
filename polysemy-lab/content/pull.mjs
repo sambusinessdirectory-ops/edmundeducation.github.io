@@ -582,11 +582,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "pull-mcq-02",
-        "pull-mcq-01",
-        "pull-mcq-03",
-        "pull-mcq-04",
-        "pull-mcq-05",
-        "pull-mcq-06"
+        "pull-mcq-19",
+        "pull-mcq-09",
+        "pull-mcq-12"
       ],
       "explanation": "本句的「pulled the door open」指「拉著某物／某人一起移動」。",
       "sentenceIndex": 2,
@@ -595,12 +593,10 @@ export default {
         "pulled the door open"
       ],
       "optionReasons": {
-        "pull-mcq-02": "本句指「拉著某物／某人一起移動」。",
-        "pull-mcq-01": "「用力把某人／某物往自己或某方向拉動」與本句語境不同。",
-        "pull-mcq-03": "「用手臂等力量把自己的身體拉高」與本句語境不同。",
-        "pull-mcq-04": "「把某物從裡面拉出、取出或拔出」與本句語境不同。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。"
+        "pull-mcq-02": "本句的「pulled the door open」指「拉著某物／某人一起移動」。",
+        "pull-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-02"
     },
@@ -612,11 +608,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "pull-mcq-02",
-        "pull-mcq-01",
-        "pull-mcq-03",
-        "pull-mcq-04",
-        "pull-mcq-05",
-        "pull-mcq-06"
+        "pull-mcq-08",
+        "pull-mcq-06",
+        "pull-mcq-15"
       ],
       "explanation": "本句的「pulled the chair closer」指「拉著某物／某人一起移動」。",
       "sentenceIndex": 3,
@@ -625,12 +619,10 @@ export default {
         "pulled the chair closer"
       ],
       "optionReasons": {
-        "pull-mcq-02": "本句指「拉著某物／某人一起移動」。",
-        "pull-mcq-01": "「用力把某人／某物往自己或某方向拉動」與本句語境不同。",
-        "pull-mcq-03": "「用手臂等力量把自己的身體拉高」與本句語境不同。",
-        "pull-mcq-04": "「把某物從裡面拉出、取出或拔出」與本句語境不同。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。"
+        "pull-mcq-02": "本句的「pulled the chair closer」指「拉著某物／某人一起移動」。",
+        "pull-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-02"
     },
@@ -642,10 +634,8 @@ export default {
       "masked": "The child ____ across the floor.",
       "options": [
         "pull-mcq-02",
-        "pull-mcq-01",
-        "pull-mcq-03",
-        "pull-mcq-04",
-        "pull-mcq-05",
+        "pull-mcq-12",
+        "pull-mcq-14",
         "pull-mcq-06"
       ],
       "explanation": "本句的「pulled the toy」指「拉著某物／某人一起移動」。",
@@ -655,12 +645,10 @@ export default {
         "pulled the toy"
       ],
       "optionReasons": {
-        "pull-mcq-02": "本句指「拉著某物／某人一起移動」。",
-        "pull-mcq-01": "「用力把某人／某物往自己或某方向拉動」與本句語境不同。",
-        "pull-mcq-03": "「用手臂等力量把自己的身體拉高」與本句語境不同。",
-        "pull-mcq-04": "「把某物從裡面拉出、取出或拔出」與本句語境不同。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。"
+        "pull-mcq-02": "本句的「pulled the toy」指「拉著某物／某人一起移動」。",
+        "pull-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-02"
     },
@@ -672,11 +660,9 @@ export default {
       "masked": "He ____ behind him.",
       "options": [
         "pull-mcq-02",
-        "pull-mcq-01",
-        "pull-mcq-03",
-        "pull-mcq-04",
-        "pull-mcq-05",
-        "pull-mcq-06"
+        "pull-mcq-15",
+        "pull-mcq-09",
+        "pull-mcq-19"
       ],
       "explanation": "本句的「pulled the suitcase」指「拉著某物／某人一起移動」。",
       "sentenceIndex": 5,
@@ -685,12 +671,10 @@ export default {
         "pulled the suitcase"
       ],
       "optionReasons": {
-        "pull-mcq-02": "本句指「拉著某物／某人一起移動」。",
-        "pull-mcq-01": "「用力把某人／某物往自己或某方向拉動」與本句語境不同。",
-        "pull-mcq-03": "「用手臂等力量把自己的身體拉高」與本句語境不同。",
-        "pull-mcq-04": "「把某物從裡面拉出、取出或拔出」與本句語境不同。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。"
+        "pull-mcq-02": "本句的「pulled the suitcase」指「拉著某物／某人一起移動」。",
+        "pull-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-02"
     },
@@ -702,11 +686,9 @@ export default {
       "masked": "She ____ onto the wall.",
       "options": [
         "pull-mcq-03",
-        "pull-mcq-02",
-        "pull-mcq-04",
-        "pull-mcq-01",
-        "pull-mcq-05",
-        "pull-mcq-06"
+        "pull-mcq-14",
+        "pull-mcq-20",
+        "pull-mcq-13"
       ],
       "explanation": "本句的「pulled herself up」指「用手臂等力量把自己的身體拉高」。",
       "sentenceIndex": 6,
@@ -715,12 +697,10 @@ export default {
         "pulled herself up"
       ],
       "optionReasons": {
-        "pull-mcq-03": "本句指「用手臂等力量把自己的身體拉高」。",
-        "pull-mcq-02": "「拉著某物／某人一起移動」與本句語境不同。",
-        "pull-mcq-04": "「把某物從裡面拉出、取出或拔出」與本句語境不同。",
-        "pull-mcq-01": "「用力把某人／某物往自己或某方向拉動」與本句語境不同。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。"
+        "pull-mcq-03": "本句的「pulled herself up」指「用手臂等力量把自己的身體拉高」。",
+        "pull-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-03"
     },
@@ -732,11 +712,9 @@ export default {
       "masked": "He ____ using the rope.",
       "options": [
         "pull-mcq-03",
-        "pull-mcq-02",
-        "pull-mcq-04",
-        "pull-mcq-01",
-        "pull-mcq-05",
-        "pull-mcq-06"
+        "pull-mcq-12",
+        "pull-mcq-13",
+        "pull-mcq-08"
       ],
       "explanation": "本句的「pulled himself up」指「用手臂等力量把自己的身體拉高」。",
       "sentenceIndex": 7,
@@ -745,12 +723,10 @@ export default {
         "pulled himself up"
       ],
       "optionReasons": {
-        "pull-mcq-03": "本句指「用手臂等力量把自己的身體拉高」。",
-        "pull-mcq-02": "「拉著某物／某人一起移動」與本句語境不同。",
-        "pull-mcq-04": "「把某物從裡面拉出、取出或拔出」與本句語境不同。",
-        "pull-mcq-01": "「用力把某人／某物往自己或某方向拉動」與本句語境不同。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。"
+        "pull-mcq-03": "本句的「pulled himself up」指「用手臂等力量把自己的身體拉高」。",
+        "pull-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-03"
     },
@@ -762,11 +738,9 @@ export default {
       "masked": "She ____ by the hand.",
       "options": [
         "pull-mcq-04",
-        "pull-mcq-03",
-        "pull-mcq-05",
-        "pull-mcq-02",
-        "pull-mcq-06",
-        "pull-mcq-01"
+        "pull-mcq-20",
+        "pull-mcq-23",
+        "pull-mcq-14"
       ],
       "explanation": "本句的「pulled the child along」指「把某物從裡面拉出、取出或拔出」。",
       "sentenceIndex": 8,
@@ -775,12 +749,10 @@ export default {
         "pulled the child along"
       ],
       "optionReasons": {
-        "pull-mcq-04": "本句指「把某物從裡面拉出、取出或拔出」。",
-        "pull-mcq-03": "「用手臂等力量把自己的身體拉高」與本句語境不同。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。",
-        "pull-mcq-02": "「拉著某物／某人一起移動」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。",
-        "pull-mcq-01": "「用力把某人／某物往自己或某方向拉動」與本句語境不同。"
+        "pull-mcq-04": "本句的「pulled the child along」指「把某物從裡面拉出、取出或拔出」。",
+        "pull-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-04"
     },
@@ -792,11 +764,9 @@ export default {
       "masked": "The dog ____.",
       "options": [
         "pull-mcq-04",
-        "pull-mcq-03",
-        "pull-mcq-05",
-        "pull-mcq-02",
-        "pull-mcq-06",
-        "pull-mcq-01"
+        "pull-mcq-16",
+        "pull-mcq-23",
+        "pull-mcq-25"
       ],
       "explanation": "本句的「pulled its owner along」指「把某物從裡面拉出、取出或拔出」。",
       "sentenceIndex": 9,
@@ -805,12 +775,10 @@ export default {
         "pulled its owner along"
       ],
       "optionReasons": {
-        "pull-mcq-04": "本句指「把某物從裡面拉出、取出或拔出」。",
-        "pull-mcq-03": "「用手臂等力量把自己的身體拉高」與本句語境不同。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。",
-        "pull-mcq-02": "「拉著某物／某人一起移動」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。",
-        "pull-mcq-01": "「用力把某人／某物往自己或某方向拉動」與本句語境不同。"
+        "pull-mcq-04": "本句的「pulled its owner along」指「把某物從裡面拉出、取出或拔出」。",
+        "pull-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-04"
     },
@@ -822,11 +790,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "pull-mcq-04",
-        "pull-mcq-03",
-        "pull-mcq-05",
-        "pull-mcq-02",
-        "pull-mcq-06",
-        "pull-mcq-01"
+        "pull-mcq-25",
+        "pull-mcq-14",
+        "pull-mcq-16"
       ],
       "explanation": "本句的「pulled a notebook out of her bag」指「把某物從裡面拉出、取出或拔出」。",
       "sentenceIndex": 10,
@@ -835,12 +801,10 @@ export default {
         "pulled a notebook out of her bag"
       ],
       "optionReasons": {
-        "pull-mcq-04": "本句指「把某物從裡面拉出、取出或拔出」。",
-        "pull-mcq-03": "「用手臂等力量把自己的身體拉高」與本句語境不同。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。",
-        "pull-mcq-02": "「拉著某物／某人一起移動」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。",
-        "pull-mcq-01": "「用力把某人／某物往自己或某方向拉動」與本句語境不同。"
+        "pull-mcq-04": "本句的「pulled a notebook out of her bag」指「把某物從裡面拉出、取出或拔出」。",
+        "pull-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-04"
     },
@@ -852,11 +816,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "pull-mcq-04",
-        "pull-mcq-03",
-        "pull-mcq-05",
-        "pull-mcq-02",
-        "pull-mcq-06",
-        "pull-mcq-01"
+        "pull-mcq-21",
+        "pull-mcq-07",
+        "pull-mcq-25"
       ],
       "explanation": "本句的「pulled the plug out」指「把某物從裡面拉出、取出或拔出」。",
       "sentenceIndex": 11,
@@ -865,12 +827,10 @@ export default {
         "pulled the plug out"
       ],
       "optionReasons": {
-        "pull-mcq-04": "本句指「把某物從裡面拉出、取出或拔出」。",
-        "pull-mcq-03": "「用手臂等力量把自己的身體拉高」與本句語境不同。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。",
-        "pull-mcq-02": "「拉著某物／某人一起移動」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。",
-        "pull-mcq-01": "「用力把某人／某物往自己或某方向拉動」與本句語境不同。"
+        "pull-mcq-04": "本句的「pulled the plug out」指「把某物從裡面拉出、取出或拔出」。",
+        "pull-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-04"
     },
@@ -882,11 +842,9 @@ export default {
       "masked": "She ____ and sat down.",
       "options": [
         "pull-mcq-04",
-        "pull-mcq-03",
-        "pull-mcq-05",
-        "pull-mcq-02",
-        "pull-mcq-06",
-        "pull-mcq-01"
+        "pull-mcq-15",
+        "pull-mcq-21",
+        "pull-mcq-20"
       ],
       "explanation": "本句的「pulled out a chair」指「把某物從裡面拉出、取出或拔出」。",
       "sentenceIndex": 12,
@@ -895,12 +853,10 @@ export default {
         "pulled out a chair"
       ],
       "optionReasons": {
-        "pull-mcq-04": "本句指「把某物從裡面拉出、取出或拔出」。",
-        "pull-mcq-03": "「用手臂等力量把自己的身體拉高」與本句語境不同。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。",
-        "pull-mcq-02": "「拉著某物／某人一起移動」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。",
-        "pull-mcq-01": "「用力把某人／某物往自己或某方向拉動」與本句語境不同。"
+        "pull-mcq-04": "本句的「pulled out a chair」指「把某物從裡面拉出、取出或拔出」。",
+        "pull-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-04"
     },
@@ -912,11 +868,9 @@ export default {
       "masked": "He ____ carefully.",
       "options": [
         "pull-mcq-04",
-        "pull-mcq-03",
-        "pull-mcq-05",
-        "pull-mcq-02",
-        "pull-mcq-06",
-        "pull-mcq-01"
+        "pull-mcq-14",
+        "pull-mcq-13",
+        "pull-mcq-10"
       ],
       "explanation": "本句的「pulled the drawer out」指「把某物從裡面拉出、取出或拔出」。",
       "sentenceIndex": 13,
@@ -925,12 +879,10 @@ export default {
         "pulled the drawer out"
       ],
       "optionReasons": {
-        "pull-mcq-04": "本句指「把某物從裡面拉出、取出或拔出」。",
-        "pull-mcq-03": "「用手臂等力量把自己的身體拉高」與本句語境不同。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。",
-        "pull-mcq-02": "「拉著某物／某人一起移動」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。",
-        "pull-mcq-01": "「用力把某人／某物往自己或某方向拉動」與本句語境不同。"
+        "pull-mcq-04": "本句的「pulled the drawer out」指「把某物從裡面拉出、取出或拔出」。",
+        "pull-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-04"
     },
@@ -942,11 +894,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "pull-mcq-05",
-        "pull-mcq-04",
-        "pull-mcq-06",
-        "pull-mcq-03",
-        "pull-mcq-07",
-        "pull-mcq-02"
+        "pull-mcq-19",
+        "pull-mcq-22",
+        "pull-mcq-23"
       ],
       "explanation": "本句的「pulled out of the deal」指「退出活動、協議、比賽、投資等」。",
       "sentenceIndex": 14,
@@ -955,12 +905,10 @@ export default {
         "pulled out of the deal"
       ],
       "optionReasons": {
-        "pull-mcq-05": "本句指「退出活動、協議、比賽、投資等」。",
-        "pull-mcq-04": "「把某物從裡面拉出、取出或拔出」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。",
-        "pull-mcq-03": "「用手臂等力量把自己的身體拉高」與本句語境不同。",
-        "pull-mcq-07": "「把車駛到路邊並停下」與本句語境不同。",
-        "pull-mcq-02": "「拉著某物／某人一起移動」與本句語境不同。"
+        "pull-mcq-05": "本句的「pulled out of the deal」指「退出活動、協議、比賽、投資等」。",
+        "pull-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-05"
     },
@@ -972,11 +920,9 @@ export default {
       "masked": "Several teams ____.",
       "options": [
         "pull-mcq-05",
-        "pull-mcq-04",
-        "pull-mcq-06",
-        "pull-mcq-03",
-        "pull-mcq-07",
-        "pull-mcq-02"
+        "pull-mcq-20",
+        "pull-mcq-23",
+        "pull-mcq-11"
       ],
       "explanation": "本句的「pulled out of the competition」指「退出活動、協議、比賽、投資等」。",
       "sentenceIndex": 15,
@@ -985,12 +931,10 @@ export default {
         "pulled out of the competition"
       ],
       "optionReasons": {
-        "pull-mcq-05": "本句指「退出活動、協議、比賽、投資等」。",
-        "pull-mcq-04": "「把某物從裡面拉出、取出或拔出」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。",
-        "pull-mcq-03": "「用手臂等力量把自己的身體拉高」與本句語境不同。",
-        "pull-mcq-07": "「把車駛到路邊並停下」與本句語境不同。",
-        "pull-mcq-02": "「拉著某物／某人一起移動」與本句語境不同。"
+        "pull-mcq-05": "本句的「pulled out of the competition」指「退出活動、協議、比賽、投資等」。",
+        "pull-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-05"
     },
@@ -1002,11 +946,9 @@ export default {
       "masked": "She ____ because of an injury.",
       "options": [
         "pull-mcq-05",
-        "pull-mcq-04",
-        "pull-mcq-06",
-        "pull-mcq-03",
-        "pull-mcq-07",
-        "pull-mcq-02"
+        "pull-mcq-10",
+        "pull-mcq-09",
+        "pull-mcq-19"
       ],
       "explanation": "本句的「pulled out of the race」指「退出活動、協議、比賽、投資等」。",
       "sentenceIndex": 16,
@@ -1015,12 +957,10 @@ export default {
         "pulled out of the race"
       ],
       "optionReasons": {
-        "pull-mcq-05": "本句指「退出活動、協議、比賽、投資等」。",
-        "pull-mcq-04": "「把某物從裡面拉出、取出或拔出」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。",
-        "pull-mcq-03": "「用手臂等力量把自己的身體拉高」與本句語境不同。",
-        "pull-mcq-07": "「把車駛到路邊並停下」與本句語境不同。",
-        "pull-mcq-02": "「拉著某物／某人一起移動」與本句語境不同。"
+        "pull-mcq-05": "本句的「pulled out of the race」指「退出活動、協議、比賽、投資等」。",
+        "pull-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-05"
     },
@@ -1032,11 +972,9 @@ export default {
       "masked": "The investor ____.",
       "options": [
         "pull-mcq-05",
-        "pull-mcq-04",
-        "pull-mcq-06",
-        "pull-mcq-03",
-        "pull-mcq-07",
-        "pull-mcq-02"
+        "pull-mcq-09",
+        "pull-mcq-22",
+        "pull-mcq-20"
       ],
       "explanation": "本句的「pulled out of the project」指「退出活動、協議、比賽、投資等」。",
       "sentenceIndex": 17,
@@ -1045,12 +983,10 @@ export default {
         "pulled out of the project"
       ],
       "optionReasons": {
-        "pull-mcq-05": "本句指「退出活動、協議、比賽、投資等」。",
-        "pull-mcq-04": "「把某物從裡面拉出、取出或拔出」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。",
-        "pull-mcq-03": "「用手臂等力量把自己的身體拉高」與本句語境不同。",
-        "pull-mcq-07": "「把車駛到路邊並停下」與本句語境不同。",
-        "pull-mcq-02": "「拉著某物／某人一起移動」與本句語境不同。"
+        "pull-mcq-05": "本句的「pulled out of the project」指「退出活動、協議、比賽、投資等」。",
+        "pull-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-05"
     },
@@ -1062,11 +998,9 @@ export default {
       "masked": "The bus ____ of the station.",
       "options": [
         "pull-mcq-06",
-        "pull-mcq-05",
-        "pull-mcq-07",
-        "pull-mcq-04",
+        "pull-mcq-10",
         "pull-mcq-08",
-        "pull-mcq-03"
+        "pull-mcq-21"
       ],
       "explanation": "本句的「pulled out」指「車輛從原位置駛出或駛入道路」。",
       "sentenceIndex": 18,
@@ -1075,12 +1009,10 @@ export default {
         "pulled out"
       ],
       "optionReasons": {
-        "pull-mcq-06": "本句指「車輛從原位置駛出或駛入道路」。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。",
-        "pull-mcq-07": "「把車駛到路邊並停下」與本句語境不同。",
-        "pull-mcq-04": "「把某物從裡面拉出、取出或拔出」與本句語境不同。",
-        "pull-mcq-08": "「把牙齒拔掉」與本句語境不同。",
-        "pull-mcq-03": "「用手臂等力量把自己的身體拉高」與本句語境不同。"
+        "pull-mcq-06": "本句的「pulled out」指「車輛從原位置駛出或駛入道路」。",
+        "pull-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-06"
     },
@@ -1092,11 +1024,9 @@ export default {
       "masked": "A car suddenly ____ in front of us.",
       "options": [
         "pull-mcq-06",
-        "pull-mcq-05",
-        "pull-mcq-07",
-        "pull-mcq-04",
         "pull-mcq-08",
-        "pull-mcq-03"
+        "pull-mcq-15",
+        "pull-mcq-11"
       ],
       "explanation": "本句的「pulled out」指「車輛從原位置駛出或駛入道路」。",
       "sentenceIndex": 19,
@@ -1105,12 +1035,10 @@ export default {
         "pulled out"
       ],
       "optionReasons": {
-        "pull-mcq-06": "本句指「車輛從原位置駛出或駛入道路」。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。",
-        "pull-mcq-07": "「把車駛到路邊並停下」與本句語境不同。",
-        "pull-mcq-04": "「把某物從裡面拉出、取出或拔出」與本句語境不同。",
-        "pull-mcq-08": "「把牙齒拔掉」與本句語境不同。",
-        "pull-mcq-03": "「用手臂等力量把自己的身體拉高」與本句語境不同。"
+        "pull-mcq-06": "本句的「pulled out」指「車輛從原位置駛出或駛入道路」。",
+        "pull-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-06"
     },
@@ -1122,11 +1050,9 @@ export default {
       "masked": "The driver ____.",
       "options": [
         "pull-mcq-07",
-        "pull-mcq-06",
-        "pull-mcq-08",
-        "pull-mcq-05",
-        "pull-mcq-09",
-        "pull-mcq-04"
+        "pull-mcq-11",
+        "pull-mcq-10",
+        "pull-mcq-12"
       ],
       "explanation": "本句的「pulled over」指「把車駛到路邊並停下」。",
       "sentenceIndex": 20,
@@ -1135,12 +1061,10 @@ export default {
         "pulled over"
       ],
       "optionReasons": {
-        "pull-mcq-07": "本句指「把車駛到路邊並停下」。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。",
-        "pull-mcq-08": "「把牙齒拔掉」與本句語境不同。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。",
-        "pull-mcq-09": "「把雜草從地上拔除」與本句語境不同。",
-        "pull-mcq-04": "「把某物從裡面拉出、取出或拔出」與本句語境不同。"
+        "pull-mcq-07": "本句的「pulled over」指「把車駛到路邊並停下」。",
+        "pull-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-07"
     },
@@ -1152,10 +1076,8 @@ export default {
       "masked": "The police asked him to ____.",
       "options": [
         "pull-mcq-07",
-        "pull-mcq-06",
         "pull-mcq-08",
-        "pull-mcq-05",
-        "pull-mcq-09",
+        "pull-mcq-11",
         "pull-mcq-04"
       ],
       "explanation": "本句的「pull over」指「把車駛到路邊並停下」。",
@@ -1165,12 +1087,10 @@ export default {
         "pull over"
       ],
       "optionReasons": {
-        "pull-mcq-07": "本句指「把車駛到路邊並停下」。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。",
-        "pull-mcq-08": "「把牙齒拔掉」與本句語境不同。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。",
-        "pull-mcq-09": "「把雜草從地上拔除」與本句語境不同。",
-        "pull-mcq-04": "「把某物從裡面拉出、取出或拔出」與本句語境不同。"
+        "pull-mcq-07": "本句的「pull over」指「把車駛到路邊並停下」。",
+        "pull-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-07"
     },
@@ -1182,11 +1102,9 @@ export default {
       "masked": "The dentist had to ____.",
       "options": [
         "pull-mcq-08",
-        "pull-mcq-07",
-        "pull-mcq-09",
-        "pull-mcq-06",
-        "pull-mcq-10",
-        "pull-mcq-05"
+        "pull-mcq-05",
+        "pull-mcq-19",
+        "pull-mcq-12"
       ],
       "explanation": "本句的「pull the tooth」指「把牙齒拔掉」。",
       "sentenceIndex": 22,
@@ -1195,12 +1113,10 @@ export default {
         "pull the tooth"
       ],
       "optionReasons": {
-        "pull-mcq-08": "本句指「把牙齒拔掉」。",
-        "pull-mcq-07": "「把車駛到路邊並停下」與本句語境不同。",
-        "pull-mcq-09": "「把雜草從地上拔除」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。",
-        "pull-mcq-10": "「吸引人群、顧客或注意力」與本句語境不同。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。"
+        "pull-mcq-08": "本句的「pull the tooth」指「把牙齒拔掉」。",
+        "pull-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-08"
     },
@@ -1212,11 +1128,9 @@ export default {
       "masked": "He had a wisdom tooth ____.",
       "options": [
         "pull-mcq-08",
-        "pull-mcq-07",
-        "pull-mcq-09",
-        "pull-mcq-06",
-        "pull-mcq-10",
-        "pull-mcq-05"
+        "pull-mcq-23",
+        "pull-mcq-13",
+        "pull-mcq-16"
       ],
       "explanation": "本句的「pulled」指「把牙齒拔掉」。",
       "sentenceIndex": 23,
@@ -1225,12 +1139,10 @@ export default {
         "pulled"
       ],
       "optionReasons": {
-        "pull-mcq-08": "本句指「把牙齒拔掉」。",
-        "pull-mcq-07": "「把車駛到路邊並停下」與本句語境不同。",
-        "pull-mcq-09": "「把雜草從地上拔除」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。",
-        "pull-mcq-10": "「吸引人群、顧客或注意力」與本句語境不同。",
-        "pull-mcq-05": "「退出活動、協議、比賽、投資等」與本句語境不同。"
+        "pull-mcq-08": "本句的「pulled」指「把牙齒拔掉」。",
+        "pull-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-08"
     },
@@ -1242,11 +1154,9 @@ export default {
       "masked": "She spent the morning ____.",
       "options": [
         "pull-mcq-09",
-        "pull-mcq-08",
-        "pull-mcq-10",
-        "pull-mcq-07",
-        "pull-mcq-11",
-        "pull-mcq-06"
+        "pull-mcq-06",
+        "pull-mcq-16",
+        "pull-mcq-15"
       ],
       "explanation": "本句的「pulling weeds」指「把雜草從地上拔除」。",
       "sentenceIndex": 24,
@@ -1255,12 +1165,10 @@ export default {
         "pulling weeds"
       ],
       "optionReasons": {
-        "pull-mcq-09": "本句指「把雜草從地上拔除」。",
-        "pull-mcq-08": "「把牙齒拔掉」與本句語境不同。",
-        "pull-mcq-10": "「吸引人群、顧客或注意力」與本句語境不同。",
-        "pull-mcq-07": "「把車駛到路邊並停下」與本句語境不同。",
-        "pull-mcq-11": "「因過度用力而拉傷肌肉」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。"
+        "pull-mcq-09": "本句的「pulling weeds」指「把雜草從地上拔除」。",
+        "pull-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-09"
     },
@@ -1272,11 +1180,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "pull-mcq-09",
-        "pull-mcq-08",
+        "pull-mcq-19",
         "pull-mcq-10",
-        "pull-mcq-07",
-        "pull-mcq-11",
-        "pull-mcq-06"
+        "pull-mcq-23"
       ],
       "explanation": "本句的「pull these weeds out」指「把雜草從地上拔除」。",
       "sentenceIndex": 25,
@@ -1285,12 +1191,10 @@ export default {
         "pull these weeds out"
       ],
       "optionReasons": {
-        "pull-mcq-09": "本句指「把雜草從地上拔除」。",
-        "pull-mcq-08": "「把牙齒拔掉」與本句語境不同。",
-        "pull-mcq-10": "「吸引人群、顧客或注意力」與本句語境不同。",
-        "pull-mcq-07": "「把車駛到路邊並停下」與本句語境不同。",
-        "pull-mcq-11": "「因過度用力而拉傷肌肉」與本句語境不同。",
-        "pull-mcq-06": "「車輛從原位置駛出或駛入道路」與本句語境不同。"
+        "pull-mcq-09": "本句的「pull these weeds out」指「把雜草從地上拔除」。",
+        "pull-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-09"
     },
@@ -1303,10 +1207,8 @@ export default {
       "options": [
         "pull-mcq-10",
         "pull-mcq-09",
-        "pull-mcq-11",
-        "pull-mcq-08",
-        "pull-mcq-12",
-        "pull-mcq-07"
+        "pull-mcq-07",
+        "pull-mcq-08"
       ],
       "explanation": "本句的「pulled a large crowd」指「吸引人群、顧客或注意力」。",
       "sentenceIndex": 26,
@@ -1315,12 +1217,10 @@ export default {
         "pulled a large crowd"
       ],
       "optionReasons": {
-        "pull-mcq-10": "本句指「吸引人群、顧客或注意力」。",
-        "pull-mcq-09": "「把雜草從地上拔除」與本句語境不同。",
-        "pull-mcq-11": "「因過度用力而拉傷肌肉」與本句語境不同。",
-        "pull-mcq-08": "「把牙齒拔掉」與本句語境不同。",
-        "pull-mcq-12": "「做出特定表情，常為鬼臉或不滿表情」與本句語境不同。",
-        "pull-mcq-07": "「把車駛到路邊並停下」與本句語境不同。"
+        "pull-mcq-10": "本句的「pulled a large crowd」指「吸引人群、顧客或注意力」。",
+        "pull-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-10"
     },
@@ -1332,11 +1232,9 @@ export default {
       "masked": "The campaign ____.",
       "options": [
         "pull-mcq-10",
-        "pull-mcq-09",
-        "pull-mcq-11",
-        "pull-mcq-08",
-        "pull-mcq-12",
-        "pull-mcq-07"
+        "pull-mcq-15",
+        "pull-mcq-05",
+        "pull-mcq-12"
       ],
       "explanation": "本句的「pulled in new customers」指「吸引人群、顧客或注意力」。",
       "sentenceIndex": 27,
@@ -1345,12 +1243,10 @@ export default {
         "pulled in new customers"
       ],
       "optionReasons": {
-        "pull-mcq-10": "本句指「吸引人群、顧客或注意力」。",
-        "pull-mcq-09": "「把雜草從地上拔除」與本句語境不同。",
-        "pull-mcq-11": "「因過度用力而拉傷肌肉」與本句語境不同。",
-        "pull-mcq-08": "「把牙齒拔掉」與本句語境不同。",
-        "pull-mcq-12": "「做出特定表情，常為鬼臉或不滿表情」與本句語境不同。",
-        "pull-mcq-07": "「把車駛到路邊並停下」與本句語境不同。"
+        "pull-mcq-10": "本句的「pulled in new customers」指「吸引人群、顧客或注意力」。",
+        "pull-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-10"
     },
@@ -1362,11 +1258,9 @@ export default {
       "masked": "I ____ in my back.",
       "options": [
         "pull-mcq-11",
-        "pull-mcq-10",
-        "pull-mcq-12",
-        "pull-mcq-09",
         "pull-mcq-13",
-        "pull-mcq-08"
+        "pull-mcq-23",
+        "pull-mcq-12"
       ],
       "explanation": "本句的「pulled a muscle」指「因過度用力而拉傷肌肉」。",
       "sentenceIndex": 28,
@@ -1375,12 +1269,10 @@ export default {
         "pulled a muscle"
       ],
       "optionReasons": {
-        "pull-mcq-11": "本句指「因過度用力而拉傷肌肉」。",
-        "pull-mcq-10": "「吸引人群、顧客或注意力」與本句語境不同。",
-        "pull-mcq-12": "「做出特定表情，常為鬼臉或不滿表情」與本句語境不同。",
-        "pull-mcq-09": "「把雜草從地上拔除」與本句語境不同。",
-        "pull-mcq-13": "「耍花招／做誇張或冒險舉動」與本句語境不同。",
-        "pull-mcq-08": "「把牙齒拔掉」與本句語境不同。"
+        "pull-mcq-11": "本句的「pulled a muscle」指「因過度用力而拉傷肌肉」。",
+        "pull-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-11"
     },
@@ -1392,11 +1284,9 @@ export default {
       "masked": "He ____ during training.",
       "options": [
         "pull-mcq-11",
-        "pull-mcq-10",
-        "pull-mcq-12",
-        "pull-mcq-09",
-        "pull-mcq-13",
-        "pull-mcq-08"
+        "pull-mcq-19",
+        "pull-mcq-06",
+        "pull-mcq-22"
       ],
       "explanation": "本句的「pulled a hamstring」指「因過度用力而拉傷肌肉」。",
       "sentenceIndex": 29,
@@ -1405,12 +1295,10 @@ export default {
         "pulled a hamstring"
       ],
       "optionReasons": {
-        "pull-mcq-11": "本句指「因過度用力而拉傷肌肉」。",
-        "pull-mcq-10": "「吸引人群、顧客或注意力」與本句語境不同。",
-        "pull-mcq-12": "「做出特定表情，常為鬼臉或不滿表情」與本句語境不同。",
-        "pull-mcq-09": "「把雜草從地上拔除」與本句語境不同。",
-        "pull-mcq-13": "「耍花招／做誇張或冒險舉動」與本句語境不同。",
-        "pull-mcq-08": "「把牙齒拔掉」與本句語境不同。"
+        "pull-mcq-11": "本句的「pulled a hamstring」指「因過度用力而拉傷肌肉」。",
+        "pull-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-11"
     },
@@ -1422,11 +1310,9 @@ export default {
       "masked": "She ____ when she tasted the medicine.",
       "options": [
         "pull-mcq-12",
-        "pull-mcq-11",
-        "pull-mcq-13",
-        "pull-mcq-10",
-        "pull-mcq-14",
-        "pull-mcq-09"
+        "pull-mcq-07",
+        "pull-mcq-25",
+        "pull-mcq-19"
       ],
       "explanation": "本句的「pulled a face」指「做出特定表情，常為鬼臉或不滿表情」。",
       "sentenceIndex": 30,
@@ -1435,12 +1321,10 @@ export default {
         "pulled a face"
       ],
       "optionReasons": {
-        "pull-mcq-12": "本句指「做出特定表情，常為鬼臉或不滿表情」。",
-        "pull-mcq-11": "「因過度用力而拉傷肌肉」與本句語境不同。",
-        "pull-mcq-13": "「耍花招／做誇張或冒險舉動」與本句語境不同。",
-        "pull-mcq-10": "「吸引人群、顧客或注意力」與本句語境不同。",
-        "pull-mcq-14": "「成功完成原本困難或令人印象深刻的事」與本句語境不同。",
-        "pull-mcq-09": "「把雜草從地上拔除」與本句語境不同。"
+        "pull-mcq-12": "本句的「pulled a face」指「做出特定表情，常為鬼臉或不滿表情」。",
+        "pull-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-12"
     },
@@ -1452,11 +1336,9 @@ export default {
       "masked": "The child ____.",
       "options": [
         "pull-mcq-12",
-        "pull-mcq-11",
-        "pull-mcq-13",
-        "pull-mcq-10",
-        "pull-mcq-14",
-        "pull-mcq-09"
+        "pull-mcq-24",
+        "pull-mcq-23",
+        "pull-mcq-08"
       ],
       "explanation": "本句的「pulled a funny face」指「做出特定表情，常為鬼臉或不滿表情」。",
       "sentenceIndex": 31,
@@ -1465,12 +1347,10 @@ export default {
         "pulled a funny face"
       ],
       "optionReasons": {
-        "pull-mcq-12": "本句指「做出特定表情，常為鬼臉或不滿表情」。",
-        "pull-mcq-11": "「因過度用力而拉傷肌肉」與本句語境不同。",
-        "pull-mcq-13": "「耍花招／做誇張或冒險舉動」與本句語境不同。",
-        "pull-mcq-10": "「吸引人群、顧客或注意力」與本句語境不同。",
-        "pull-mcq-14": "「成功完成原本困難或令人印象深刻的事」與本句語境不同。",
-        "pull-mcq-09": "「把雜草從地上拔除」與本句語境不同。"
+        "pull-mcq-12": "本句的「pulled a funny face」指「做出特定表情，常為鬼臉或不滿表情」。",
+        "pull-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-12"
     },
@@ -1482,11 +1362,9 @@ export default {
       "masked": "He tried to ____ on us.",
       "options": [
         "pull-mcq-13",
-        "pull-mcq-12",
-        "pull-mcq-14",
-        "pull-mcq-11",
-        "pull-mcq-15",
-        "pull-mcq-10"
+        "pull-mcq-03",
+        "pull-mcq-25",
+        "pull-mcq-14"
       ],
       "explanation": "本句的「pull a trick」指「耍花招／做誇張或冒險舉動」。",
       "sentenceIndex": 32,
@@ -1495,12 +1373,10 @@ export default {
         "pull a trick"
       ],
       "optionReasons": {
-        "pull-mcq-13": "本句指「耍花招／做誇張或冒險舉動」。",
-        "pull-mcq-12": "「做出特定表情，常為鬼臉或不滿表情」與本句語境不同。",
-        "pull-mcq-14": "「成功完成原本困難或令人印象深刻的事」與本句語境不同。",
-        "pull-mcq-11": "「因過度用力而拉傷肌肉」與本句語境不同。",
-        "pull-mcq-15": "「從重病、危機或困難中挺過來」與本句語境不同。",
-        "pull-mcq-10": "「吸引人群、顧客或注意力」與本句語境不同。"
+        "pull-mcq-13": "本句的「pull a trick」指「耍花招／做誇張或冒險舉動」。",
+        "pull-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-13"
     },
@@ -1512,11 +1388,9 @@ export default {
       "masked": "Don’t ____ again.",
       "options": [
         "pull-mcq-13",
-        "pull-mcq-12",
-        "pull-mcq-14",
-        "pull-mcq-11",
+        "pull-mcq-22",
         "pull-mcq-15",
-        "pull-mcq-10"
+        "pull-mcq-11"
       ],
       "explanation": "本句的「pull that trick」指「耍花招／做誇張或冒險舉動」。",
       "sentenceIndex": 33,
@@ -1525,12 +1399,10 @@ export default {
         "pull that trick"
       ],
       "optionReasons": {
-        "pull-mcq-13": "本句指「耍花招／做誇張或冒險舉動」。",
-        "pull-mcq-12": "「做出特定表情，常為鬼臉或不滿表情」與本句語境不同。",
-        "pull-mcq-14": "「成功完成原本困難或令人印象深刻的事」與本句語境不同。",
-        "pull-mcq-11": "「因過度用力而拉傷肌肉」與本句語境不同。",
-        "pull-mcq-15": "「從重病、危機或困難中挺過來」與本句語境不同。",
-        "pull-mcq-10": "「吸引人群、顧客或注意力」與本句語境不同。"
+        "pull-mcq-13": "本句的「pull that trick」指「耍花招／做誇張或冒險舉動」。",
+        "pull-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-13"
     },
@@ -1542,11 +1414,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "pull-mcq-13",
-        "pull-mcq-12",
         "pull-mcq-14",
         "pull-mcq-11",
-        "pull-mcq-15",
-        "pull-mcq-10"
+        "pull-mcq-25"
       ],
       "explanation": "本句的「pulled a dangerous stunt」指「耍花招／做誇張或冒險舉動」。",
       "sentenceIndex": 34,
@@ -1555,12 +1425,10 @@ export default {
         "pulled a dangerous stunt"
       ],
       "optionReasons": {
-        "pull-mcq-13": "本句指「耍花招／做誇張或冒險舉動」。",
-        "pull-mcq-12": "「做出特定表情，常為鬼臉或不滿表情」與本句語境不同。",
-        "pull-mcq-14": "「成功完成原本困難或令人印象深刻的事」與本句語境不同。",
-        "pull-mcq-11": "「因過度用力而拉傷肌肉」與本句語境不同。",
-        "pull-mcq-15": "「從重病、危機或困難中挺過來」與本句語境不同。",
-        "pull-mcq-10": "「吸引人群、顧客或注意力」與本句語境不同。"
+        "pull-mcq-13": "本句的「pulled a dangerous stunt」指「耍花招／做誇張或冒險舉動」。",
+        "pull-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-13"
     },
@@ -1572,11 +1440,9 @@ export default {
       "masked": "The company was criticized for ____.",
       "options": [
         "pull-mcq-13",
-        "pull-mcq-12",
-        "pull-mcq-14",
-        "pull-mcq-11",
-        "pull-mcq-15",
-        "pull-mcq-10"
+        "pull-mcq-10",
+        "pull-mcq-16",
+        "pull-mcq-06"
       ],
       "explanation": "本句的「pulling a publicity stunt」指「耍花招／做誇張或冒險舉動」。",
       "sentenceIndex": 35,
@@ -1585,12 +1451,10 @@ export default {
         "pulling a publicity stunt"
       ],
       "optionReasons": {
-        "pull-mcq-13": "本句指「耍花招／做誇張或冒險舉動」。",
-        "pull-mcq-12": "「做出特定表情，常為鬼臉或不滿表情」與本句語境不同。",
-        "pull-mcq-14": "「成功完成原本困難或令人印象深刻的事」與本句語境不同。",
-        "pull-mcq-11": "「因過度用力而拉傷肌肉」與本句語境不同。",
-        "pull-mcq-15": "「從重病、危機或困難中挺過來」與本句語境不同。",
-        "pull-mcq-10": "「吸引人群、顧客或注意力」與本句語境不同。"
+        "pull-mcq-13": "本句的「pulling a publicity stunt」指「耍花招／做誇張或冒險舉動」。",
+        "pull-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-13"
     },
@@ -1602,11 +1466,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "pull-mcq-14",
-        "pull-mcq-13",
-        "pull-mcq-15",
-        "pull-mcq-12",
-        "pull-mcq-16",
-        "pull-mcq-11"
+        "pull-mcq-05",
+        "pull-mcq-11",
+        "pull-mcq-04"
       ],
       "explanation": "本句的「pulled off a difficult presentation」指「成功完成原本困難或令人印象深刻的事」。",
       "sentenceIndex": 36,
@@ -1615,12 +1477,10 @@ export default {
         "pulled off a difficult presentation"
       ],
       "optionReasons": {
-        "pull-mcq-14": "本句指「成功完成原本困難或令人印象深刻的事」。",
-        "pull-mcq-13": "「耍花招／做誇張或冒險舉動」與本句語境不同。",
-        "pull-mcq-15": "「從重病、危機或困難中挺過來」與本句語境不同。",
-        "pull-mcq-12": "「做出特定表情，常為鬼臉或不滿表情」與本句語境不同。",
-        "pull-mcq-16": "「團結合作、共同努力」與本句語境不同。",
-        "pull-mcq-11": "「因過度用力而拉傷肌肉」與本句語境不同。"
+        "pull-mcq-14": "本句的「pulled off a difficult presentation」指「成功完成原本困難或令人印象深刻的事」。",
+        "pull-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-14"
     },
@@ -1632,11 +1492,9 @@ export default {
       "masked": "I don’t know how they ____.",
       "options": [
         "pull-mcq-14",
-        "pull-mcq-13",
-        "pull-mcq-15",
-        "pull-mcq-12",
-        "pull-mcq-16",
-        "pull-mcq-11"
+        "pull-mcq-23",
+        "pull-mcq-09",
+        "pull-mcq-03"
       ],
       "explanation": "本句的「pulled it off」指「成功完成原本困難或令人印象深刻的事」。",
       "sentenceIndex": 37,
@@ -1645,12 +1503,10 @@ export default {
         "pulled it off"
       ],
       "optionReasons": {
-        "pull-mcq-14": "本句指「成功完成原本困難或令人印象深刻的事」。",
-        "pull-mcq-13": "「耍花招／做誇張或冒險舉動」與本句語境不同。",
-        "pull-mcq-15": "「從重病、危機或困難中挺過來」與本句語境不同。",
-        "pull-mcq-12": "「做出特定表情，常為鬼臉或不滿表情」與本句語境不同。",
-        "pull-mcq-16": "「團結合作、共同努力」與本句語境不同。",
-        "pull-mcq-11": "「因過度用力而拉傷肌肉」與本句語境不同。"
+        "pull-mcq-14": "本句的「pulled it off」指「成功完成原本困難或令人印象深刻的事」。",
+        "pull-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-14"
     },
@@ -1662,11 +1518,9 @@ export default {
       "masked": "The doctors think he will ____.",
       "options": [
         "pull-mcq-15",
-        "pull-mcq-14",
-        "pull-mcq-16",
-        "pull-mcq-13",
-        "pull-mcq-17",
-        "pull-mcq-12"
+        "pull-mcq-20",
+        "pull-mcq-21",
+        "pull-mcq-07"
       ],
       "explanation": "本句的「pull through」指「從重病、危機或困難中挺過來」。",
       "sentenceIndex": 38,
@@ -1675,12 +1529,10 @@ export default {
         "pull through"
       ],
       "optionReasons": {
-        "pull-mcq-15": "本句指「從重病、危機或困難中挺過來」。",
-        "pull-mcq-14": "「成功完成原本困難或令人印象深刻的事」與本句語境不同。",
-        "pull-mcq-16": "「團結合作、共同努力」與本句語境不同。",
-        "pull-mcq-13": "「耍花招／做誇張或冒險舉動」與本句語境不同。",
-        "pull-mcq-17": "「拉開；也可指仔細拆解、分析或批評」與本句語境不同。",
-        "pull-mcq-12": "「做出特定表情，常為鬼臉或不滿表情」與本句語境不同。"
+        "pull-mcq-15": "本句的「pull through」指「從重病、危機或困難中挺過來」。",
+        "pull-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-15"
     },
@@ -1692,11 +1544,9 @@ export default {
       "masked": "The business managed to ____ the crisis.",
       "options": [
         "pull-mcq-15",
-        "pull-mcq-14",
-        "pull-mcq-16",
-        "pull-mcq-13",
-        "pull-mcq-17",
-        "pull-mcq-12"
+        "pull-mcq-06",
+        "pull-mcq-19",
+        "pull-mcq-05"
       ],
       "explanation": "本句的「pull through」指「從重病、危機或困難中挺過來」。",
       "sentenceIndex": 39,
@@ -1705,12 +1555,10 @@ export default {
         "pull through"
       ],
       "optionReasons": {
-        "pull-mcq-15": "本句指「從重病、危機或困難中挺過來」。",
-        "pull-mcq-14": "「成功完成原本困難或令人印象深刻的事」與本句語境不同。",
-        "pull-mcq-16": "「團結合作、共同努力」與本句語境不同。",
-        "pull-mcq-13": "「耍花招／做誇張或冒險舉動」與本句語境不同。",
-        "pull-mcq-17": "「拉開；也可指仔細拆解、分析或批評」與本句語境不同。",
-        "pull-mcq-12": "「做出特定表情，常為鬼臉或不滿表情」與本句語境不同。"
+        "pull-mcq-15": "本句的「pull through」指「從重病、危機或困難中挺過來」。",
+        "pull-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-15"
     },
@@ -1722,11 +1570,9 @@ export default {
       "masked": "The team ____ under pressure.",
       "options": [
         "pull-mcq-16",
-        "pull-mcq-15",
-        "pull-mcq-17",
-        "pull-mcq-14",
-        "pull-mcq-18",
-        "pull-mcq-13"
+        "pull-mcq-09",
+        "pull-mcq-23",
+        "pull-mcq-12"
       ],
       "explanation": "本句的「pulled together」指「團結合作、共同努力」。",
       "sentenceIndex": 40,
@@ -1735,12 +1581,10 @@ export default {
         "pulled together"
       ],
       "optionReasons": {
-        "pull-mcq-16": "本句指「團結合作、共同努力」。",
-        "pull-mcq-15": "「從重病、危機或困難中挺過來」與本句語境不同。",
-        "pull-mcq-17": "「拉開；也可指仔細拆解、分析或批評」與本句語境不同。",
-        "pull-mcq-14": "「成功完成原本困難或令人印象深刻的事」與本句語境不同。",
-        "pull-mcq-18": "「往後退；比喻撤回、縮減投入」與本句語境不同。",
-        "pull-mcq-13": "「耍花招／做誇張或冒險舉動」與本句語境不同。"
+        "pull-mcq-16": "本句的「pulled together」指「團結合作、共同努力」。",
+        "pull-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-16"
     },
@@ -1752,11 +1596,9 @@ export default {
       "masked": "We need to ____ to finish this project.",
       "options": [
         "pull-mcq-16",
-        "pull-mcq-15",
-        "pull-mcq-17",
-        "pull-mcq-14",
-        "pull-mcq-18",
-        "pull-mcq-13"
+        "pull-mcq-13",
+        "pull-mcq-23",
+        "pull-mcq-12"
       ],
       "explanation": "本句的「pull together」指「團結合作、共同努力」。",
       "sentenceIndex": 41,
@@ -1765,12 +1607,10 @@ export default {
         "pull together"
       ],
       "optionReasons": {
-        "pull-mcq-16": "本句指「團結合作、共同努力」。",
-        "pull-mcq-15": "「從重病、危機或困難中挺過來」與本句語境不同。",
-        "pull-mcq-17": "「拉開；也可指仔細拆解、分析或批評」與本句語境不同。",
-        "pull-mcq-14": "「成功完成原本困難或令人印象深刻的事」與本句語境不同。",
-        "pull-mcq-18": "「往後退；比喻撤回、縮減投入」與本句語境不同。",
-        "pull-mcq-13": "「耍花招／做誇張或冒險舉動」與本句語境不同。"
+        "pull-mcq-16": "本句的「pull together」指「團結合作、共同努力」。",
+        "pull-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-16"
     },
@@ -1782,11 +1622,9 @@ export default {
       "masked": "She ____ in the final lap.",
       "options": [
         "pull-mcq-19",
-        "pull-mcq-18",
-        "pull-mcq-20",
-        "pull-mcq-17",
-        "pull-mcq-21",
-        "pull-mcq-16"
+        "pull-mcq-25",
+        "pull-mcq-09",
+        "pull-mcq-23"
       ],
       "explanation": "本句的「pulled ahead」指「超前並取得領先」。",
       "sentenceIndex": 42,
@@ -1795,12 +1633,10 @@ export default {
         "pulled ahead"
       ],
       "optionReasons": {
-        "pull-mcq-19": "本句指「超前並取得領先」。",
-        "pull-mcq-18": "「往後退；比喻撤回、縮減投入」與本句語境不同。",
-        "pull-mcq-20": "「把某人叫到一旁私下交談」與本句語境不同。",
-        "pull-mcq-17": "「拉開；也可指仔細拆解、分析或批評」與本句語境不同。",
-        "pull-mcq-21": "「利用人脈或影響力促成某事」與本句語境不同。",
-        "pull-mcq-16": "「團結合作、共同努力」與本句語境不同。"
+        "pull-mcq-19": "本句的「pulled ahead」指「超前並取得領先」。",
+        "pull-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-19"
     },
@@ -1812,11 +1648,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "pull-mcq-19",
-        "pull-mcq-18",
-        "pull-mcq-20",
-        "pull-mcq-17",
-        "pull-mcq-21",
-        "pull-mcq-16"
+        "pull-mcq-08",
+        "pull-mcq-11",
+        "pull-mcq-09"
       ],
       "explanation": "本句的「pulled ahead of its competitors」指「超前並取得領先」。",
       "sentenceIndex": 43,
@@ -1825,12 +1659,10 @@ export default {
         "pulled ahead of its competitors"
       ],
       "optionReasons": {
-        "pull-mcq-19": "本句指「超前並取得領先」。",
-        "pull-mcq-18": "「往後退；比喻撤回、縮減投入」與本句語境不同。",
-        "pull-mcq-20": "「把某人叫到一旁私下交談」與本句語境不同。",
-        "pull-mcq-17": "「拉開；也可指仔細拆解、分析或批評」與本句語境不同。",
-        "pull-mcq-21": "「利用人脈或影響力促成某事」與本句語境不同。",
-        "pull-mcq-16": "「團結合作、共同努力」與本句語境不同。"
+        "pull-mcq-19": "本句的「pulled ahead of its competitors」指「超前並取得領先」。",
+        "pull-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-19"
     },
@@ -1842,11 +1674,9 @@ export default {
       "masked": "The teacher ____ after class.",
       "options": [
         "pull-mcq-20",
-        "pull-mcq-19",
-        "pull-mcq-21",
-        "pull-mcq-18",
-        "pull-mcq-22",
-        "pull-mcq-17"
+        "pull-mcq-14",
+        "pull-mcq-11",
+        "pull-mcq-16"
       ],
       "explanation": "本句的「pulled me aside」指「把某人叫到一旁私下交談」。",
       "sentenceIndex": 44,
@@ -1855,12 +1685,10 @@ export default {
         "pulled me aside"
       ],
       "optionReasons": {
-        "pull-mcq-20": "本句指「把某人叫到一旁私下交談」。",
-        "pull-mcq-19": "「超前並取得領先」與本句語境不同。",
-        "pull-mcq-21": "「利用人脈或影響力促成某事」與本句語境不同。",
-        "pull-mcq-18": "「往後退；比喻撤回、縮減投入」與本句語境不同。",
-        "pull-mcq-22": "「完成自己應承擔的工作；盡本分」與本句語境不同。",
-        "pull-mcq-17": "「拉開；也可指仔細拆解、分析或批評」與本句語境不同。"
+        "pull-mcq-20": "本句的「pulled me aside」指「把某人叫到一旁私下交談」。",
+        "pull-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-20"
     },
@@ -1872,11 +1700,9 @@ export default {
       "masked": "She ____ to give some advice.",
       "options": [
         "pull-mcq-20",
-        "pull-mcq-19",
-        "pull-mcq-21",
-        "pull-mcq-18",
-        "pull-mcq-22",
-        "pull-mcq-17"
+        "pull-mcq-06",
+        "pull-mcq-08",
+        "pull-mcq-13"
       ],
       "explanation": "本句的「pulled him aside」指「把某人叫到一旁私下交談」。",
       "sentenceIndex": 45,
@@ -1885,12 +1711,10 @@ export default {
         "pulled him aside"
       ],
       "optionReasons": {
-        "pull-mcq-20": "本句指「把某人叫到一旁私下交談」。",
-        "pull-mcq-19": "「超前並取得領先」與本句語境不同。",
-        "pull-mcq-21": "「利用人脈或影響力促成某事」與本句語境不同。",
-        "pull-mcq-18": "「往後退；比喻撤回、縮減投入」與本句語境不同。",
-        "pull-mcq-22": "「完成自己應承擔的工作；盡本分」與本句語境不同。",
-        "pull-mcq-17": "「拉開；也可指仔細拆解、分析或批評」與本句語境不同。"
+        "pull-mcq-20": "本句的「pulled him aside」指「把某人叫到一旁私下交談」。",
+        "pull-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-20"
     },
@@ -1902,11 +1726,9 @@ export default {
       "masked": "He ____ to get an interview.",
       "options": [
         "pull-mcq-21",
-        "pull-mcq-20",
-        "pull-mcq-22",
-        "pull-mcq-19",
-        "pull-mcq-23",
-        "pull-mcq-18"
+        "pull-mcq-13",
+        "pull-mcq-02",
+        "pull-mcq-19"
       ],
       "explanation": "本句的「pulled some strings」指「利用人脈或影響力促成某事」。",
       "sentenceIndex": 46,
@@ -1915,12 +1737,10 @@ export default {
         "pulled some strings"
       ],
       "optionReasons": {
-        "pull-mcq-21": "本句指「利用人脈或影響力促成某事」。",
-        "pull-mcq-20": "「把某人叫到一旁私下交談」與本句語境不同。",
-        "pull-mcq-22": "「完成自己應承擔的工作；盡本分」與本句語境不同。",
-        "pull-mcq-19": "「超前並取得領先」與本句語境不同。",
-        "pull-mcq-23": "「恢復情緒控制；振作起來」與本句語境不同。",
-        "pull-mcq-18": "「往後退；比喻撤回、縮減投入」與本句語境不同。"
+        "pull-mcq-21": "本句的「pulled some strings」指「利用人脈或影響力促成某事」。",
+        "pull-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-21"
     },
@@ -1932,11 +1752,9 @@ export default {
       "masked": "She refused to ____ for him.",
       "options": [
         "pull-mcq-21",
-        "pull-mcq-20",
-        "pull-mcq-22",
-        "pull-mcq-19",
-        "pull-mcq-23",
-        "pull-mcq-18"
+        "pull-mcq-02",
+        "pull-mcq-13",
+        "pull-mcq-12"
       ],
       "explanation": "本句的「pull strings」指「利用人脈或影響力促成某事」。",
       "sentenceIndex": 47,
@@ -1945,12 +1763,10 @@ export default {
         "pull strings"
       ],
       "optionReasons": {
-        "pull-mcq-21": "本句指「利用人脈或影響力促成某事」。",
-        "pull-mcq-20": "「把某人叫到一旁私下交談」與本句語境不同。",
-        "pull-mcq-22": "「完成自己應承擔的工作；盡本分」與本句語境不同。",
-        "pull-mcq-19": "「超前並取得領先」與本句語境不同。",
-        "pull-mcq-23": "「恢復情緒控制；振作起來」與本句語境不同。",
-        "pull-mcq-18": "「往後退；比喻撤回、縮減投入」與本句語境不同。"
+        "pull-mcq-21": "本句的「pull strings」指「利用人脈或影響力促成某事」。",
+        "pull-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-21"
     },
@@ -1962,10 +1778,8 @@ export default {
       "masked": "Everyone needs to ____.",
       "options": [
         "pull-mcq-22",
-        "pull-mcq-21",
-        "pull-mcq-23",
-        "pull-mcq-20",
-        "pull-mcq-24",
+        "pull-mcq-15",
+        "pull-mcq-25",
         "pull-mcq-19"
       ],
       "explanation": "本句的「pull their weight」指「完成自己應承擔的工作；盡本分」。",
@@ -1975,12 +1789,10 @@ export default {
         "pull their weight"
       ],
       "optionReasons": {
-        "pull-mcq-22": "本句指「完成自己應承擔的工作；盡本分」。",
-        "pull-mcq-21": "「利用人脈或影響力促成某事」與本句語境不同。",
-        "pull-mcq-23": "「恢復情緒控制；振作起來」與本句語境不同。",
-        "pull-mcq-20": "「把某人叫到一旁私下交談」與本句語境不同。",
-        "pull-mcq-24": "「拉的動作／拉力」與本句語境不同。",
-        "pull-mcq-19": "「超前並取得領先」與本句語境不同。"
+        "pull-mcq-22": "本句的「pull their weight」指「完成自己應承擔的工作；盡本分」。",
+        "pull-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-22"
     },
@@ -1992,11 +1804,9 @@ export default {
       "masked": "He wasn’t ____ on the project.",
       "options": [
         "pull-mcq-22",
-        "pull-mcq-21",
-        "pull-mcq-23",
-        "pull-mcq-20",
-        "pull-mcq-24",
-        "pull-mcq-19"
+        "pull-mcq-09",
+        "pull-mcq-11",
+        "pull-mcq-13"
       ],
       "explanation": "本句的「pulling his weight」指「完成自己應承擔的工作；盡本分」。",
       "sentenceIndex": 49,
@@ -2005,12 +1815,10 @@ export default {
         "pulling his weight"
       ],
       "optionReasons": {
-        "pull-mcq-22": "本句指「完成自己應承擔的工作；盡本分」。",
-        "pull-mcq-21": "「利用人脈或影響力促成某事」與本句語境不同。",
-        "pull-mcq-23": "「恢復情緒控制；振作起來」與本句語境不同。",
-        "pull-mcq-20": "「把某人叫到一旁私下交談」與本句語境不同。",
-        "pull-mcq-24": "「拉的動作／拉力」與本句語境不同。",
-        "pull-mcq-19": "「超前並取得領先」與本句語境不同。"
+        "pull-mcq-22": "本句的「pulling his weight」指「完成自己應承擔的工作；盡本分」。",
+        "pull-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-22"
     },
@@ -2022,11 +1830,9 @@ export default {
       "masked": "She took a moment to ____.",
       "options": [
         "pull-mcq-23",
+        "pull-mcq-11",
         "pull-mcq-22",
-        "pull-mcq-24",
-        "pull-mcq-21",
-        "pull-mcq-25",
-        "pull-mcq-20"
+        "pull-mcq-06"
       ],
       "explanation": "本句的「pull herself together」指「恢復情緒控制；振作起來」。",
       "sentenceIndex": 50,
@@ -2035,12 +1841,10 @@ export default {
         "pull herself together"
       ],
       "optionReasons": {
-        "pull-mcq-23": "本句指「恢復情緒控制；振作起來」。",
-        "pull-mcq-22": "「完成自己應承擔的工作；盡本分」與本句語境不同。",
-        "pull-mcq-24": "「拉的動作／拉力」與本句語境不同。",
-        "pull-mcq-21": "「利用人脈或影響力促成某事」與本句語境不同。",
-        "pull-mcq-25": "「對某人具有的吸引力或情感牽引力」與本句語境不同。",
-        "pull-mcq-20": "「把某人叫到一旁私下交談」與本句語境不同。"
+        "pull-mcq-23": "本句的「pull herself together」指「恢復情緒控制；振作起來」。",
+        "pull-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-23"
     },
@@ -2052,11 +1856,9 @@ export default {
       "masked": "____ and focus.",
       "options": [
         "pull-mcq-23",
-        "pull-mcq-22",
         "pull-mcq-24",
-        "pull-mcq-21",
-        "pull-mcq-25",
-        "pull-mcq-20"
+        "pull-mcq-20",
+        "pull-mcq-06"
       ],
       "explanation": "本句的「Pull yourself together」指「恢復情緒控制；振作起來」。",
       "sentenceIndex": 51,
@@ -2065,12 +1867,10 @@ export default {
         "Pull yourself together"
       ],
       "optionReasons": {
-        "pull-mcq-23": "本句指「恢復情緒控制；振作起來」。",
-        "pull-mcq-22": "「完成自己應承擔的工作；盡本分」與本句語境不同。",
-        "pull-mcq-24": "「拉的動作／拉力」與本句語境不同。",
-        "pull-mcq-21": "「利用人脈或影響力促成某事」與本句語境不同。",
-        "pull-mcq-25": "「對某人具有的吸引力或情感牽引力」與本句語境不同。",
-        "pull-mcq-20": "「把某人叫到一旁私下交談」與本句語境不同。"
+        "pull-mcq-23": "本句的「Pull yourself together」指「恢復情緒控制；振作起來」。",
+        "pull-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-23"
     },
@@ -2082,11 +1882,9 @@ export default {
       "masked": "Give the rope a ____.",
       "options": [
         "pull-mcq-24",
-        "pull-mcq-23",
-        "pull-mcq-25",
-        "pull-mcq-22",
-        "pull-mcq-21",
-        "pull-mcq-20"
+        "pull-mcq-07",
+        "pull-mcq-19",
+        "pull-mcq-23"
       ],
       "explanation": "本句的「pull」指「拉的動作／拉力」。",
       "sentenceIndex": 52,
@@ -2095,12 +1893,10 @@ export default {
         "pull"
       ],
       "optionReasons": {
-        "pull-mcq-24": "本句指「拉的動作／拉力」。",
-        "pull-mcq-23": "「恢復情緒控制；振作起來」與本句語境不同。",
-        "pull-mcq-25": "「對某人具有的吸引力或情感牽引力」與本句語境不同。",
-        "pull-mcq-22": "「完成自己應承擔的工作；盡本分」與本句語境不同。",
-        "pull-mcq-21": "「利用人脈或影響力促成某事」與本句語境不同。",
-        "pull-mcq-20": "「把某人叫到一旁私下交談」與本句語境不同。"
+        "pull-mcq-24": "本句的「pull」指「拉的動作／拉力」。",
+        "pull-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-24"
     },
@@ -2112,10 +1908,8 @@ export default {
       "masked": "The door opened with one strong ____.",
       "options": [
         "pull-mcq-24",
-        "pull-mcq-23",
-        "pull-mcq-25",
-        "pull-mcq-22",
-        "pull-mcq-21",
+        "pull-mcq-12",
+        "pull-mcq-06",
         "pull-mcq-20"
       ],
       "explanation": "本句的「pull」指「拉的動作／拉力」。",
@@ -2125,12 +1919,10 @@ export default {
         "pull"
       ],
       "optionReasons": {
-        "pull-mcq-24": "本句指「拉的動作／拉力」。",
-        "pull-mcq-23": "「恢復情緒控制；振作起來」與本句語境不同。",
-        "pull-mcq-25": "「對某人具有的吸引力或情感牽引力」與本句語境不同。",
-        "pull-mcq-22": "「完成自己應承擔的工作；盡本分」與本句語境不同。",
-        "pull-mcq-21": "「利用人脈或影響力促成某事」與本句語境不同。",
-        "pull-mcq-20": "「把某人叫到一旁私下交談」與本句語境不同。"
+        "pull-mcq-24": "本句的「pull」指「拉的動作／拉力」。",
+        "pull-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-24"
     },
@@ -2142,11 +1934,9 @@ export default {
       "masked": "The city has a strong ____ for young professionals.",
       "options": [
         "pull-mcq-25",
-        "pull-mcq-24",
-        "pull-mcq-23",
-        "pull-mcq-22",
-        "pull-mcq-21",
-        "pull-mcq-20"
+        "pull-mcq-12",
+        "pull-mcq-19",
+        "pull-mcq-15"
       ],
       "explanation": "本句的「pull」指「對某人具有的吸引力或情感牽引力」。",
       "sentenceIndex": 54,
@@ -2155,12 +1945,10 @@ export default {
         "pull"
       ],
       "optionReasons": {
-        "pull-mcq-25": "本句指「對某人具有的吸引力或情感牽引力」。",
-        "pull-mcq-24": "「拉的動作／拉力」與本句語境不同。",
-        "pull-mcq-23": "「恢復情緒控制；振作起來」與本句語境不同。",
-        "pull-mcq-22": "「完成自己應承擔的工作；盡本分」與本句語境不同。",
-        "pull-mcq-21": "「利用人脈或影響力促成某事」與本句語境不同。",
-        "pull-mcq-20": "「把某人叫到一旁私下交談」與本句語境不同。"
+        "pull-mcq-25": "本句的「pull」指「對某人具有的吸引力或情感牽引力」。",
+        "pull-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-25"
     },
@@ -2172,11 +1960,9 @@ export default {
       "masked": "Family still has a powerful emotional ____.",
       "options": [
         "pull-mcq-25",
-        "pull-mcq-24",
-        "pull-mcq-23",
-        "pull-mcq-22",
-        "pull-mcq-21",
-        "pull-mcq-20"
+        "pull-mcq-19",
+        "pull-mcq-15",
+        "pull-mcq-08"
       ],
       "explanation": "本句的「pull」指「對某人具有的吸引力或情感牽引力」。",
       "sentenceIndex": 55,
@@ -2185,12 +1971,10 @@ export default {
         "pull"
       ],
       "optionReasons": {
-        "pull-mcq-25": "本句指「對某人具有的吸引力或情感牽引力」。",
-        "pull-mcq-24": "「拉的動作／拉力」與本句語境不同。",
-        "pull-mcq-23": "「恢復情緒控制；振作起來」與本句語境不同。",
-        "pull-mcq-22": "「完成自己應承擔的工作；盡本分」與本句語境不同。",
-        "pull-mcq-21": "「利用人脈或影響力促成某事」與本句語境不同。",
-        "pull-mcq-20": "「把某人叫到一旁私下交談」與本句語境不同。"
+        "pull-mcq-25": "本句的「pull」指「對某人具有的吸引力或情感牽引力」。",
+        "pull-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pull-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pull-mcq-25"
     }
@@ -2202,5 +1986,7 @@ export default {
     "sha256": "cd405f2f2379ad2ff5f9321e24155923a8aa5b9e7dabd9f987c18418a4a1e1a2",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -667,11 +667,9 @@ export default {
       "masked": "She was silent for a ____.",
       "options": [
         "moment-mcq-01",
-        "moment-mcq-02",
-        "moment-mcq-03",
-        "moment-mcq-04",
-        "moment-mcq-05",
-        "moment-mcq-06"
+        "moment-mcq-12",
+        "moment-mcq-27",
+        "moment-mcq-05"
       ],
       "explanation": "本句的「moment」指「片刻；一瞬間」。",
       "sentenceIndex": 0,
@@ -680,12 +678,10 @@ export default {
         "moment"
       ],
       "optionReasons": {
-        "moment-mcq-01": "本句指「片刻；一瞬間」。",
-        "moment-mcq-02": "「那一刻」是「that moment」的用法，與本句語境不同。",
-        "moment-mcq-03": "「特別的時刻」是「special moment」的用法，與本句語境不同。",
-        "moment-mcq-04": "「情緒強烈的時刻」是「emotional moment」的用法，與本句語境不同。",
-        "moment-mcq-05": "「目前；現在」是「at the moment」的用法，與本句語境不同。",
-        "moment-mcq-06": "「暫時」是「for the moment」的用法，與本句語境不同。"
+        "moment-mcq-01": "本句的「moment」指「片刻；一瞬間」。",
+        "moment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-01"
     },
@@ -697,11 +693,9 @@ export default {
       "masked": "For a ____, I didn't know what to say.",
       "options": [
         "moment-mcq-01",
-        "moment-mcq-02",
-        "moment-mcq-03",
-        "moment-mcq-04",
-        "moment-mcq-05",
-        "moment-mcq-06"
+        "moment-mcq-27",
+        "moment-pdf-001",
+        "moment-mcq-07"
       ],
       "explanation": "本句的「moment」指「片刻；一瞬間」。",
       "sentenceIndex": 1,
@@ -710,12 +704,10 @@ export default {
         "moment"
       ],
       "optionReasons": {
-        "moment-mcq-01": "本句指「片刻；一瞬間」。",
-        "moment-mcq-02": "「那一刻」是「that moment」的用法，與本句語境不同。",
-        "moment-mcq-03": "「特別的時刻」是「special moment」的用法，與本句語境不同。",
-        "moment-mcq-04": "「情緒強烈的時刻」是「emotional moment」的用法，與本句語境不同。",
-        "moment-mcq-05": "「目前；現在」是「at the moment」的用法，與本句語境不同。",
-        "moment-mcq-06": "「暫時」是「for the moment」的用法，與本句語境不同。"
+        "moment-mcq-01": "本句的「moment」指「片刻；一瞬間」。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "moment-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-01"
     },
@@ -727,11 +719,9 @@ export default {
       "masked": "That ____ spoke volumes.",
       "options": [
         "moment-mcq-28",
-        "moment-mcq-27",
-        "moment-mcq-26",
-        "moment-mcq-25",
+        "moment-mcq-08",
         "moment-mcq-24",
-        "moment-mcq-23"
+        "moment-mcq-05"
       ],
       "explanation": "本句的「moment」指「某件特定事情發生的那個時刻或短暫情境」。",
       "sentenceIndex": 2,
@@ -740,12 +730,10 @@ export default {
         "moment"
       ],
       "optionReasons": {
-        "moment-mcq-28": "本句指「某件特定事情發生的那個時刻或短暫情境」。",
-        "moment-mcq-27": "「重大的」是「momentous」的用法，與本句語境不同。",
-        "moment-mcq-26": "「短暫地／很快」是「momentarily」的用法，與本句語境不同。",
-        "moment-mcq-25": "「短暫的」是「momentary」的用法，與本句語境不同。",
-        "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
-        "moment-mcq-23": "「把握時機」是「seize the moment」的用法，與本句語境不同。"
+        "moment-mcq-28": "本句的「moment」指「某件特定事情發生的那個時刻或短暫情境」。",
+        "moment-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-28"
     },
@@ -757,11 +745,9 @@ export default {
       "masked": "I still remember the ____ I first met her.",
       "options": [
         "moment-mcq-28",
-        "moment-mcq-27",
-        "moment-mcq-26",
-        "moment-mcq-25",
         "moment-mcq-24",
-        "moment-mcq-23"
+        "moment-mcq-09",
+        "moment-mcq-27"
       ],
       "explanation": "本句的「moment」指「某件特定事情發生的那個時刻或短暫情境」。",
       "sentenceIndex": 3,
@@ -770,12 +756,10 @@ export default {
         "moment"
       ],
       "optionReasons": {
-        "moment-mcq-28": "本句指「某件特定事情發生的那個時刻或短暫情境」。",
-        "moment-mcq-27": "「重大的」是「momentous」的用法，與本句語境不同。",
-        "moment-mcq-26": "「短暫地／很快」是「momentarily」的用法，與本句語境不同。",
-        "moment-mcq-25": "「短暫的」是「momentary」的用法，與本句語境不同。",
-        "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
-        "moment-mcq-23": "「把握時機」是「seize the moment」的用法，與本句語境不同。"
+        "moment-mcq-28": "本句的「moment」指「某件特定事情發生的那個時刻或短暫情境」。",
+        "moment-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-28"
     },
@@ -787,11 +771,9 @@ export default {
       "masked": "It was a ____ I would never forget.",
       "options": [
         "moment-mcq-28",
-        "moment-mcq-27",
-        "moment-mcq-26",
-        "moment-mcq-25",
-        "moment-mcq-24",
-        "moment-mcq-23"
+        "moment-mcq-15",
+        "moment-mcq-08",
+        "moment-mcq-05"
       ],
       "explanation": "本句的「moment」指「某件特定事情發生的那個時刻或短暫情境」。",
       "sentenceIndex": 4,
@@ -800,12 +782,10 @@ export default {
         "moment"
       ],
       "optionReasons": {
-        "moment-mcq-28": "本句指「某件特定事情發生的那個時刻或短暫情境」。",
-        "moment-mcq-27": "「重大的」是「momentous」的用法，與本句語境不同。",
-        "moment-mcq-26": "「短暫地／很快」是「momentarily」的用法，與本句語境不同。",
-        "moment-mcq-25": "「短暫的」是「momentary」的用法，與本句語境不同。",
-        "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
-        "moment-mcq-23": "「把握時機」是「seize the moment」的用法，與本句語境不同。"
+        "moment-mcq-28": "本句的「moment」指「某件特定事情發生的那個時刻或短暫情境」。",
+        "moment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-28"
     },
@@ -817,11 +797,9 @@ export default {
       "masked": "Winning the competition was a very special ____ for her.",
       "options": [
         "moment-mcq-03",
-        "moment-mcq-02",
-        "moment-mcq-04",
-        "moment-mcq-01",
         "moment-mcq-05",
-        "moment-mcq-06"
+        "moment-mcq-08",
+        "moment-mcq-15"
       ],
       "explanation": "本句的「moment」指「特別的時刻」。",
       "sentenceIndex": 5,
@@ -830,12 +808,10 @@ export default {
         "moment"
       ],
       "optionReasons": {
-        "moment-mcq-03": "本句指「特別的時刻」。",
-        "moment-mcq-02": "「那一刻」是「that moment」的用法，與本句語境不同。",
-        "moment-mcq-04": "「情緒強烈的時刻」是「emotional moment」的用法，與本句語境不同。",
-        "moment-mcq-01": "「片刻；一瞬間」是「a moment」的用法，與本句語境不同。",
-        "moment-mcq-05": "「目前；現在」是「at the moment」的用法，與本句語境不同。",
-        "moment-mcq-06": "「暫時」是「for the moment」的用法，與本句語境不同。"
+        "moment-mcq-03": "本句的「moment」指「特別的時刻」。",
+        "moment-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-03"
     },
@@ -847,11 +823,9 @@ export default {
       "masked": "It was one of the happiest ____ of my life.",
       "options": [
         "moment-mcq-03",
-        "moment-mcq-02",
-        "moment-mcq-04",
-        "moment-mcq-01",
-        "moment-mcq-05",
-        "moment-mcq-06"
+        "moment-mcq-22",
+        "moment-mcq-26",
+        "moment-mcq-09"
       ],
       "explanation": "本句的「moments」指「特別的時刻」。",
       "sentenceIndex": 6,
@@ -860,12 +834,10 @@ export default {
         "moments"
       ],
       "optionReasons": {
-        "moment-mcq-03": "本句指「特別的時刻」。",
-        "moment-mcq-02": "「那一刻」是「that moment」的用法，與本句語境不同。",
-        "moment-mcq-04": "「情緒強烈的時刻」是「emotional moment」的用法，與本句語境不同。",
-        "moment-mcq-01": "「片刻；一瞬間」是「a moment」的用法，與本句語境不同。",
-        "moment-mcq-05": "「目前；現在」是「at the moment」的用法，與本句語境不同。",
-        "moment-mcq-06": "「暫時」是「for the moment」的用法，與本句語境不同。"
+        "moment-mcq-03": "本句的「moments」指「特別的時刻」。",
+        "moment-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-03"
     },
@@ -877,11 +849,9 @@ export default {
       "masked": "There was an awkward ____ when nobody knew what to say.",
       "options": [
         "moment-mcq-04",
-        "moment-mcq-03",
-        "moment-mcq-05",
-        "moment-mcq-02",
-        "moment-mcq-06",
-        "moment-mcq-01"
+        "moment-mcq-22",
+        "moment-mcq-27",
+        "moment-mcq-07"
       ],
       "explanation": "本句的「moment」指「情緒強烈的時刻」。",
       "sentenceIndex": 7,
@@ -890,12 +860,10 @@ export default {
         "moment"
       ],
       "optionReasons": {
-        "moment-mcq-04": "本句指「情緒強烈的時刻」。",
-        "moment-mcq-03": "「特別的時刻」是「special moment」的用法，與本句語境不同。",
-        "moment-mcq-05": "「目前；現在」是「at the moment」的用法，與本句語境不同。",
-        "moment-mcq-02": "「那一刻」是「that moment」的用法，與本句語境不同。",
-        "moment-mcq-06": "「暫時」是「for the moment」的用法，與本句語境不同。",
-        "moment-mcq-01": "「片刻；一瞬間」是「a moment」的用法，與本句語境不同。"
+        "moment-mcq-04": "本句的「moment」指「情緒強烈的時刻」。",
+        "moment-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-04"
     },
@@ -907,11 +875,9 @@ export default {
       "masked": "It was an emotional ____ for the whole family.",
       "options": [
         "moment-mcq-04",
-        "moment-mcq-03",
+        "moment-mcq-27",
         "moment-mcq-05",
-        "moment-mcq-02",
-        "moment-mcq-06",
-        "moment-mcq-01"
+        "moment-mcq-25"
       ],
       "explanation": "本句的「moment」指「情緒強烈的時刻」。",
       "sentenceIndex": 8,
@@ -920,12 +886,10 @@ export default {
         "moment"
       ],
       "optionReasons": {
-        "moment-mcq-04": "本句指「情緒強烈的時刻」。",
-        "moment-mcq-03": "「特別的時刻」是「special moment」的用法，與本句語境不同。",
-        "moment-mcq-05": "「目前；現在」是「at the moment」的用法，與本句語境不同。",
-        "moment-mcq-02": "「那一刻」是「that moment」的用法，與本句語境不同。",
-        "moment-mcq-06": "「暫時」是「for the moment」的用法，與本句語境不同。",
-        "moment-mcq-01": "「片刻；一瞬間」是「a moment」的用法，與本句語境不同。"
+        "moment-mcq-04": "本句的「moment」指「情緒強烈的時刻」。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-04"
     },
@@ -937,11 +901,9 @@ export default {
       "masked": "I'm quite busy ____.",
       "options": [
         "moment-mcq-05",
+        "moment-mcq-09",
         "moment-mcq-04",
-        "moment-mcq-06",
-        "moment-mcq-03",
-        "moment-mcq-07",
-        "moment-mcq-02"
+        "moment-mcq-27"
       ],
       "explanation": "本句的「at the moment」指「目前；現在」。",
       "sentenceIndex": 9,
@@ -950,12 +912,10 @@ export default {
         "at the moment"
       ],
       "optionReasons": {
-        "moment-mcq-05": "本句指「目前；現在」。",
-        "moment-mcq-04": "「情緒強烈的時刻」是「emotional moment」的用法，與本句語境不同。",
-        "moment-mcq-06": "「暫時」是「for the moment」的用法，與本句語境不同。",
-        "moment-mcq-03": "「特別的時刻」是「special moment」的用法，與本句語境不同。",
-        "moment-mcq-07": "「一會兒」是「for a moment」的用法，與本句語境不同。",
-        "moment-mcq-02": "「那一刻」是「that moment」的用法，與本句語境不同。"
+        "moment-mcq-05": "本句的「at the moment」指「目前；現在」。",
+        "moment-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-05"
     },
@@ -967,11 +927,9 @@ export default {
       "masked": "She's not working ____.",
       "options": [
         "moment-mcq-05",
-        "moment-mcq-04",
-        "moment-mcq-06",
-        "moment-mcq-03",
-        "moment-mcq-07",
-        "moment-mcq-02"
+        "moment-mcq-11",
+        "moment-mcq-15",
+        "moment-mcq-08"
       ],
       "explanation": "本句的「at the moment」指「目前；現在」。",
       "sentenceIndex": 10,
@@ -980,12 +938,10 @@ export default {
         "at the moment"
       ],
       "optionReasons": {
-        "moment-mcq-05": "本句指「目前；現在」。",
-        "moment-mcq-04": "「情緒強烈的時刻」是「emotional moment」的用法，與本句語境不同。",
-        "moment-mcq-06": "「暫時」是「for the moment」的用法，與本句語境不同。",
-        "moment-mcq-03": "「特別的時刻」是「special moment」的用法，與本句語境不同。",
-        "moment-mcq-07": "「一會兒」是「for a moment」的用法，與本句語境不同。",
-        "moment-mcq-02": "「那一刻」是「that moment」的用法，與本句語境不同。"
+        "moment-mcq-05": "本句的「at the moment」指「目前；現在」。",
+        "moment-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-05"
     },
@@ -997,11 +953,9 @@ export default {
       "masked": "Let's leave things as they are ____.",
       "options": [
         "moment-mcq-06",
-        "moment-mcq-05",
-        "moment-mcq-07",
-        "moment-mcq-04",
-        "moment-mcq-08",
-        "moment-mcq-03"
+        "moment-mcq-27",
+        "moment-mcq-14",
+        "moment-mcq-24"
       ],
       "explanation": "本句的「for the moment」指「暫時」。",
       "sentenceIndex": 11,
@@ -1010,12 +964,10 @@ export default {
         "for the moment"
       ],
       "optionReasons": {
-        "moment-mcq-06": "本句指「暫時」。",
-        "moment-mcq-05": "「目前；現在」是「at the moment」的用法，與本句語境不同。",
-        "moment-mcq-07": "「一會兒」是「for a moment」的用法，與本句語境不同。",
-        "moment-mcq-04": "「情緒強烈的時刻」是「emotional moment」的用法，與本句語境不同。",
-        "moment-mcq-08": "「一會兒之後」是「in a moment」的用法，與本句語境不同。",
-        "moment-mcq-03": "「特別的時刻」是「special moment」的用法，與本句語境不同。"
+        "moment-mcq-06": "本句的「for the moment」指「暫時」。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-06"
     },
@@ -1027,11 +979,9 @@ export default {
       "masked": "The problem has been solved ____.",
       "options": [
         "moment-mcq-06",
-        "moment-mcq-05",
-        "moment-mcq-07",
-        "moment-mcq-04",
-        "moment-mcq-08",
-        "moment-mcq-03"
+        "moment-mcq-10",
+        "moment-mcq-27",
+        "moment-mcq-14"
       ],
       "explanation": "本句的「for the moment」指「暫時」。",
       "sentenceIndex": 12,
@@ -1040,12 +990,10 @@ export default {
         "for the moment"
       ],
       "optionReasons": {
-        "moment-mcq-06": "本句指「暫時」。",
-        "moment-mcq-05": "「目前；現在」是「at the moment」的用法，與本句語境不同。",
-        "moment-mcq-07": "「一會兒」是「for a moment」的用法，與本句語境不同。",
-        "moment-mcq-04": "「情緒強烈的時刻」是「emotional moment」的用法，與本句語境不同。",
-        "moment-mcq-08": "「一會兒之後」是「in a moment」的用法，與本句語境不同。",
-        "moment-mcq-03": "「特別的時刻」是「special moment」的用法，與本句語境不同。"
+        "moment-mcq-06": "本句的「for the moment」指「暫時」。",
+        "moment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-06"
     },
@@ -1057,11 +1005,9 @@ export default {
       "masked": "Can you wait here ____?",
       "options": [
         "moment-mcq-07",
-        "moment-mcq-06",
-        "moment-mcq-08",
-        "moment-mcq-05",
-        "moment-mcq-09",
-        "moment-mcq-04"
+        "moment-mcq-19",
+        "moment-mcq-24",
+        "moment-mcq-25"
       ],
       "explanation": "本句的「for a moment」指「一會兒」。",
       "sentenceIndex": 13,
@@ -1070,12 +1016,10 @@ export default {
         "for a moment"
       ],
       "optionReasons": {
-        "moment-mcq-07": "本句指「一會兒」。",
-        "moment-mcq-06": "「暫時」是「for the moment」的用法，與本句語境不同。",
-        "moment-mcq-08": "「一會兒之後」是「in a moment」的用法，與本句語境不同。",
-        "moment-mcq-05": "「目前；現在」是「at the moment」的用法，與本句語境不同。",
-        "moment-mcq-09": "「X 一……就……」是「the moment X...」的用法，與本句語境不同。",
-        "moment-mcq-04": "「情緒強烈的時刻」是「emotional moment」的用法，與本句語境不同。"
+        "moment-mcq-07": "本句的「for a moment」指「一會兒」。",
+        "moment-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-07"
     },
@@ -1087,11 +1031,9 @@ export default {
       "masked": "She closed her eyes ____.",
       "options": [
         "moment-mcq-07",
-        "moment-mcq-06",
-        "moment-mcq-08",
-        "moment-mcq-05",
-        "moment-mcq-09",
-        "moment-mcq-04"
+        "moment-mcq-10",
+        "moment-mcq-23",
+        "moment-mcq-27"
       ],
       "explanation": "本句的「for a moment」指「一會兒」。",
       "sentenceIndex": 14,
@@ -1100,12 +1042,10 @@ export default {
         "for a moment"
       ],
       "optionReasons": {
-        "moment-mcq-07": "本句指「一會兒」。",
-        "moment-mcq-06": "「暫時」是「for the moment」的用法，與本句語境不同。",
-        "moment-mcq-08": "「一會兒之後」是「in a moment」的用法，與本句語境不同。",
-        "moment-mcq-05": "「目前；現在」是「at the moment」的用法，與本句語境不同。",
-        "moment-mcq-09": "「X 一……就……」是「the moment X...」的用法，與本句語境不同。",
-        "moment-mcq-04": "「情緒強烈的時刻」是「emotional moment」的用法，與本句語境不同。"
+        "moment-mcq-07": "本句的「for a moment」指「一會兒」。",
+        "moment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-07"
     },
@@ -1117,11 +1057,9 @@ export default {
       "masked": "I'll be ready ____.",
       "options": [
         "moment-mcq-08",
-        "moment-mcq-07",
-        "moment-mcq-09",
-        "moment-mcq-06",
-        "moment-mcq-10",
-        "moment-mcq-05"
+        "moment-mcq-25",
+        "moment-mcq-22",
+        "moment-mcq-14"
       ],
       "explanation": "本句的「in a moment」指「一會兒之後」。",
       "sentenceIndex": 15,
@@ -1130,12 +1068,10 @@ export default {
         "in a moment"
       ],
       "optionReasons": {
-        "moment-mcq-08": "本句指「一會兒之後」。",
-        "moment-mcq-07": "「一會兒」是「for a moment」的用法，與本句語境不同。",
-        "moment-mcq-09": "「X 一……就……」是「the moment X...」的用法，與本句語境不同。",
-        "moment-mcq-06": "「暫時」是「for the moment」的用法，與本句語境不同。",
-        "moment-mcq-10": "「從那一刻起」是「from that moment on」的用法，與本句語境不同。",
-        "moment-mcq-05": "「目前；現在」是「at the moment」的用法，與本句語境不同。"
+        "moment-mcq-08": "本句的「in a moment」指「一會兒之後」。",
+        "moment-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-08"
     },
@@ -1147,11 +1083,9 @@ export default {
       "masked": "The doctor will see you ____.",
       "options": [
         "moment-mcq-08",
-        "moment-mcq-07",
-        "moment-mcq-09",
-        "moment-mcq-06",
         "moment-mcq-10",
-        "moment-mcq-05"
+        "moment-mcq-13",
+        "moment-mcq-25"
       ],
       "explanation": "本句的「in a moment」指「一會兒之後」。",
       "sentenceIndex": 16,
@@ -1160,12 +1094,10 @@ export default {
         "in a moment"
       ],
       "optionReasons": {
-        "moment-mcq-08": "本句指「一會兒之後」。",
-        "moment-mcq-07": "「一會兒」是「for a moment」的用法，與本句語境不同。",
-        "moment-mcq-09": "「X 一……就……」是「the moment X...」的用法，與本句語境不同。",
-        "moment-mcq-06": "「暫時」是「for the moment」的用法，與本句語境不同。",
-        "moment-mcq-10": "「從那一刻起」是「from that moment on」的用法，與本句語境不同。",
-        "moment-mcq-05": "「目前；現在」是「at the moment」的用法，與本句語境不同。"
+        "moment-mcq-08": "本句的「in a moment」指「一會兒之後」。",
+        "moment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-08"
     },
@@ -1177,11 +1109,9 @@ export default {
       "masked": "____, I knew something was wrong.",
       "options": [
         "moment-mcq-09",
-        "moment-mcq-08",
-        "moment-mcq-10",
+        "moment-mcq-28",
         "moment-mcq-07",
-        "moment-mcq-11",
-        "moment-mcq-06"
+        "moment-mcq-22"
       ],
       "explanation": "本句的「The moment I saw him」指「X 一……就……」。",
       "sentenceIndex": 17,
@@ -1190,12 +1120,10 @@ export default {
         "The moment I saw him"
       ],
       "optionReasons": {
-        "moment-mcq-09": "本句指「X 一……就……」。",
-        "moment-mcq-08": "「一會兒之後」是「in a moment」的用法，與本句語境不同。",
-        "moment-mcq-10": "「從那一刻起」是「from that moment on」的用法，與本句語境不同。",
-        "moment-mcq-07": "「一會兒」是「for a moment」的用法，與本句語境不同。",
-        "moment-mcq-11": "「就在那一刻」是「at that moment」的用法，與本句語境不同。",
-        "moment-mcq-06": "「暫時」是「for the moment」的用法，與本句語境不同。"
+        "moment-mcq-09": "本句的「The moment I saw him」指「X 一……就……」。",
+        "moment-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-09"
     },
@@ -1207,11 +1135,9 @@ export default {
       "masked": "Call me ____.",
       "options": [
         "moment-mcq-09",
-        "moment-mcq-08",
-        "moment-mcq-10",
-        "moment-mcq-07",
-        "moment-mcq-11",
-        "moment-mcq-06"
+        "moment-mcq-23",
+        "moment-mcq-24",
+        "moment-mcq-10"
       ],
       "explanation": "本句的「the moment you arrive」指「X 一……就……」。",
       "sentenceIndex": 18,
@@ -1220,12 +1146,10 @@ export default {
         "the moment you arrive"
       ],
       "optionReasons": {
-        "moment-mcq-09": "本句指「X 一……就……」。",
-        "moment-mcq-08": "「一會兒之後」是「in a moment」的用法，與本句語境不同。",
-        "moment-mcq-10": "「從那一刻起」是「from that moment on」的用法，與本句語境不同。",
-        "moment-mcq-07": "「一會兒」是「for a moment」的用法，與本句語境不同。",
-        "moment-mcq-11": "「就在那一刻」是「at that moment」的用法，與本句語境不同。",
-        "moment-mcq-06": "「暫時」是「for the moment」的用法，與本句語境不同。"
+        "moment-mcq-09": "本句的「the moment you arrive」指「X 一……就……」。",
+        "moment-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-09"
     },
@@ -1237,11 +1161,9 @@ export default {
       "masked": "____, everything changed.",
       "options": [
         "moment-mcq-10",
-        "moment-mcq-09",
-        "moment-mcq-11",
-        "moment-mcq-08",
-        "moment-mcq-12",
-        "moment-mcq-07"
+        "moment-mcq-13",
+        "moment-mcq-05",
+        "moment-mcq-15"
       ],
       "explanation": "本句的「From that moment on」指「從那一刻起」。",
       "sentenceIndex": 19,
@@ -1250,12 +1172,10 @@ export default {
         "From that moment on"
       ],
       "optionReasons": {
-        "moment-mcq-10": "本句指「從那一刻起」。",
-        "moment-mcq-09": "「X 一……就……」是「the moment X...」的用法，與本句語境不同。",
-        "moment-mcq-11": "「就在那一刻」是「at that moment」的用法，與本句語境不同。",
-        "moment-mcq-08": "「一會兒之後」是「in a moment」的用法，與本句語境不同。",
-        "moment-mcq-12": "「隨時」是「at any moment」的用法，與本句語境不同。",
-        "moment-mcq-07": "「一會兒」是「for a moment」的用法，與本句語境不同。"
+        "moment-mcq-10": "本句的「From that moment on」指「從那一刻起」。",
+        "moment-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-10"
     },
@@ -1267,11 +1187,9 @@ export default {
       "masked": "____, they became close friends.",
       "options": [
         "moment-mcq-10",
+        "moment-mcq-14",
         "moment-mcq-09",
-        "moment-mcq-11",
-        "moment-mcq-08",
-        "moment-mcq-12",
-        "moment-mcq-07"
+        "moment-mcq-26"
       ],
       "explanation": "本句的「From that moment on」指「從那一刻起」。",
       "sentenceIndex": 20,
@@ -1280,12 +1198,10 @@ export default {
         "From that moment on"
       ],
       "optionReasons": {
-        "moment-mcq-10": "本句指「從那一刻起」。",
-        "moment-mcq-09": "「X 一……就……」是「the moment X...」的用法，與本句語境不同。",
-        "moment-mcq-11": "「就在那一刻」是「at that moment」的用法，與本句語境不同。",
-        "moment-mcq-08": "「一會兒之後」是「in a moment」的用法，與本句語境不同。",
-        "moment-mcq-12": "「隨時」是「at any moment」的用法，與本句語境不同。",
-        "moment-mcq-07": "「一會兒」是「for a moment」的用法，與本句語境不同。"
+        "moment-mcq-10": "本句的「From that moment on」指「從那一刻起」。",
+        "moment-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-10"
     },
@@ -1297,11 +1213,9 @@ export default {
       "masked": "____, the phone rang.",
       "options": [
         "moment-mcq-11",
-        "moment-mcq-10",
-        "moment-mcq-12",
-        "moment-mcq-09",
-        "moment-mcq-13",
-        "moment-mcq-08"
+        "moment-mcq-15",
+        "moment-mcq-25",
+        "moment-mcq-20"
       ],
       "explanation": "本句的「At that moment」指「就在那一刻」。",
       "sentenceIndex": 21,
@@ -1310,12 +1224,10 @@ export default {
         "At that moment"
       ],
       "optionReasons": {
-        "moment-mcq-11": "本句指「就在那一刻」。",
-        "moment-mcq-10": "「從那一刻起」是「from that moment on」的用法，與本句語境不同。",
-        "moment-mcq-12": "「隨時」是「at any moment」的用法，與本句語境不同。",
-        "moment-mcq-09": "「X 一……就……」是「the moment X...」的用法，與本句語境不同。",
-        "moment-mcq-13": "「隨時就會」是「any moment now」的用法，與本句語境不同。",
-        "moment-mcq-08": "「一會兒之後」是「in a moment」的用法，與本句語境不同。"
+        "moment-mcq-11": "本句的「At that moment」指「就在那一刻」。",
+        "moment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-11"
     },
@@ -1327,11 +1239,9 @@ export default {
       "masked": "I realized ____ that I had made a mistake.",
       "options": [
         "moment-mcq-11",
-        "moment-mcq-10",
-        "moment-mcq-12",
-        "moment-mcq-09",
-        "moment-mcq-13",
-        "moment-mcq-08"
+        "moment-mcq-20",
+        "moment-mcq-08",
+        "moment-mcq-22"
       ],
       "explanation": "本句的「at that moment」指「就在那一刻」。",
       "sentenceIndex": 22,
@@ -1340,12 +1250,10 @@ export default {
         "at that moment"
       ],
       "optionReasons": {
-        "moment-mcq-11": "本句指「就在那一刻」。",
-        "moment-mcq-10": "「從那一刻起」是「from that moment on」的用法，與本句語境不同。",
-        "moment-mcq-12": "「隨時」是「at any moment」的用法，與本句語境不同。",
-        "moment-mcq-09": "「X 一……就……」是「the moment X...」的用法，與本句語境不同。",
-        "moment-mcq-13": "「隨時就會」是「any moment now」的用法，與本句語境不同。",
-        "moment-mcq-08": "「一會兒之後」是「in a moment」的用法，與本句語境不同。"
+        "moment-mcq-11": "本句的「at that moment」指「就在那一刻」。",
+        "moment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-11"
     },
@@ -1357,11 +1265,9 @@ export default {
       "masked": "The train could arrive ____.",
       "options": [
         "moment-mcq-12",
-        "moment-mcq-11",
-        "moment-mcq-13",
-        "moment-mcq-10",
-        "moment-mcq-14",
-        "moment-mcq-09"
+        "moment-mcq-26",
+        "moment-mcq-27",
+        "moment-mcq-05"
       ],
       "explanation": "本句的「at any moment」指「隨時」。",
       "sentenceIndex": 23,
@@ -1370,12 +1276,10 @@ export default {
         "at any moment"
       ],
       "optionReasons": {
-        "moment-mcq-12": "本句指「隨時」。",
-        "moment-mcq-11": "「就在那一刻」是「at that moment」的用法，與本句語境不同。",
-        "moment-mcq-13": "「隨時就會」是「any moment now」的用法，與本句語境不同。",
-        "moment-mcq-10": "「從那一刻起」是「from that moment on」的用法，與本句語境不同。",
-        "moment-mcq-14": "「剛才」是「a moment ago」的用法，與本句語境不同。",
-        "moment-mcq-09": "「X 一……就……」是「the moment X...」的用法，與本句語境不同。"
+        "moment-mcq-12": "本句的「at any moment」指「隨時」。",
+        "moment-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-12"
     },
@@ -1387,11 +1291,9 @@ export default {
       "masked": "It looked as if it might start raining ____.",
       "options": [
         "moment-mcq-12",
-        "moment-mcq-11",
-        "moment-mcq-13",
-        "moment-mcq-10",
-        "moment-mcq-14",
-        "moment-mcq-09"
+        "moment-mcq-07",
+        "moment-mcq-05",
+        "moment-mcq-24"
       ],
       "explanation": "本句的「at any moment」指「隨時」。",
       "sentenceIndex": 24,
@@ -1400,12 +1302,10 @@ export default {
         "at any moment"
       ],
       "optionReasons": {
-        "moment-mcq-12": "本句指「隨時」。",
-        "moment-mcq-11": "「就在那一刻」是「at that moment」的用法，與本句語境不同。",
-        "moment-mcq-13": "「隨時就會」是「any moment now」的用法，與本句語境不同。",
-        "moment-mcq-10": "「從那一刻起」是「from that moment on」的用法，與本句語境不同。",
-        "moment-mcq-14": "「剛才」是「a moment ago」的用法，與本句語境不同。",
-        "moment-mcq-09": "「X 一……就……」是「the moment X...」的用法，與本句語境不同。"
+        "moment-mcq-12": "本句的「at any moment」指「隨時」。",
+        "moment-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-12"
     },
@@ -1417,10 +1317,8 @@ export default {
       "masked": "She should be here ____.",
       "options": [
         "moment-mcq-13",
-        "moment-mcq-12",
-        "moment-mcq-14",
-        "moment-mcq-11",
-        "moment-mcq-15",
+        "moment-mcq-07",
+        "moment-mcq-26",
         "moment-mcq-10"
       ],
       "explanation": "本句的「any moment now」指「隨時就會」。",
@@ -1430,12 +1328,10 @@ export default {
         "any moment now"
       ],
       "optionReasons": {
-        "moment-mcq-13": "本句指「隨時就會」。",
-        "moment-mcq-12": "「隨時」是「at any moment」的用法，與本句語境不同。",
-        "moment-mcq-14": "「剛才」是「a moment ago」的用法，與本句語境不同。",
-        "moment-mcq-11": "「就在那一刻」是「at that moment」的用法，與本句語境不同。",
-        "moment-mcq-15": "「等一下」是「just/one moment」的用法，與本句語境不同。",
-        "moment-mcq-10": "「從那一刻起」是「from that moment on」的用法，與本句語境不同。"
+        "moment-mcq-13": "本句的「any moment now」指「隨時就會」。",
+        "moment-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-13"
     },
@@ -1447,11 +1343,9 @@ export default {
       "masked": "The announcement could come ____.",
       "options": [
         "moment-mcq-13",
-        "moment-mcq-12",
-        "moment-mcq-14",
-        "moment-mcq-11",
-        "moment-mcq-15",
-        "moment-mcq-10"
+        "moment-mcq-07",
+        "moment-mcq-21",
+        "moment-mcq-27"
       ],
       "explanation": "本句的「any moment now」指「隨時就會」。",
       "sentenceIndex": 26,
@@ -1460,12 +1354,10 @@ export default {
         "any moment now"
       ],
       "optionReasons": {
-        "moment-mcq-13": "本句指「隨時就會」。",
-        "moment-mcq-12": "「隨時」是「at any moment」的用法，與本句語境不同。",
-        "moment-mcq-14": "「剛才」是「a moment ago」的用法，與本句語境不同。",
-        "moment-mcq-11": "「就在那一刻」是「at that moment」的用法，與本句語境不同。",
-        "moment-mcq-15": "「等一下」是「just/one moment」的用法，與本句語境不同。",
-        "moment-mcq-10": "「從那一刻起」是「from that moment on」的用法，與本句語境不同。"
+        "moment-mcq-13": "本句的「any moment now」指「隨時就會」。",
+        "moment-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-13"
     },
@@ -1477,11 +1369,9 @@ export default {
       "masked": "He was here ____.",
       "options": [
         "moment-mcq-14",
-        "moment-mcq-13",
-        "moment-mcq-15",
-        "moment-mcq-12",
         "moment-mcq-16",
-        "moment-mcq-11"
+        "moment-mcq-25",
+        "moment-mcq-24"
       ],
       "explanation": "本句的「a moment ago」指「剛才」。",
       "sentenceIndex": 27,
@@ -1490,12 +1380,10 @@ export default {
         "a moment ago"
       ],
       "optionReasons": {
-        "moment-mcq-14": "本句指「剛才」。",
-        "moment-mcq-13": "「隨時就會」是「any moment now」的用法，與本句語境不同。",
-        "moment-mcq-15": "「等一下」是「just/one moment」的用法，與本句語境不同。",
-        "moment-mcq-12": "「隨時」是「at any moment」的用法，與本句語境不同。",
-        "moment-mcq-16": "「決定性時刻」是「defining moment」的用法，與本句語境不同。",
-        "moment-mcq-11": "「就在那一刻」是「at that moment」的用法，與本句語境不同。"
+        "moment-mcq-14": "本句的「a moment ago」指「剛才」。",
+        "moment-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-14"
     },
@@ -1507,11 +1395,9 @@ export default {
       "masked": "I saw her ____.",
       "options": [
         "moment-mcq-14",
-        "moment-mcq-13",
-        "moment-mcq-15",
-        "moment-mcq-12",
-        "moment-mcq-16",
-        "moment-mcq-11"
+        "moment-mcq-27",
+        "moment-mcq-09",
+        "moment-mcq-06"
       ],
       "explanation": "本句的「a moment ago」指「剛才」。",
       "sentenceIndex": 28,
@@ -1520,12 +1406,10 @@ export default {
         "a moment ago"
       ],
       "optionReasons": {
-        "moment-mcq-14": "本句指「剛才」。",
-        "moment-mcq-13": "「隨時就會」是「any moment now」的用法，與本句語境不同。",
-        "moment-mcq-15": "「等一下」是「just/one moment」的用法，與本句語境不同。",
-        "moment-mcq-12": "「隨時」是「at any moment」的用法，與本句語境不同。",
-        "moment-mcq-16": "「決定性時刻」是「defining moment」的用法，與本句語境不同。",
-        "moment-mcq-11": "「就在那一刻」是「at that moment」的用法，與本句語境不同。"
+        "moment-mcq-14": "本句的「a moment ago」指「剛才」。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-14"
     },
@@ -1537,11 +1421,9 @@ export default {
       "masked": "____, please.",
       "options": [
         "moment-mcq-15",
-        "moment-mcq-14",
-        "moment-mcq-16",
-        "moment-mcq-13",
-        "moment-mcq-17",
-        "moment-mcq-12"
+        "moment-mcq-06",
+        "moment-mcq-09",
+        "moment-mcq-05"
       ],
       "explanation": "本句的「Just a moment」指「等一下」。",
       "sentenceIndex": 29,
@@ -1550,12 +1432,10 @@ export default {
         "Just a moment"
       ],
       "optionReasons": {
-        "moment-mcq-15": "本句指「等一下」。",
-        "moment-mcq-14": "「剛才」是「a moment ago」的用法，與本句語境不同。",
-        "moment-mcq-16": "「決定性時刻」是「defining moment」的用法，與本句語境不同。",
-        "moment-mcq-13": "「隨時就會」是「any moment now」的用法，與本句語境不同。",
-        "moment-mcq-17": "「關鍵時刻」是「pivotal moment」的用法，與本句語境不同。",
-        "moment-mcq-12": "「隨時」是「at any moment」的用法，與本句語境不同。"
+        "moment-mcq-15": "本句的「Just a moment」指「等一下」。",
+        "moment-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-15"
     },
@@ -1567,11 +1447,9 @@ export default {
       "masked": "____—I forgot my bag.",
       "options": [
         "moment-mcq-15",
-        "moment-mcq-14",
-        "moment-mcq-16",
-        "moment-mcq-13",
-        "moment-mcq-17",
-        "moment-mcq-12"
+        "moment-mcq-20",
+        "moment-mcq-10",
+        "moment-mcq-25"
       ],
       "explanation": "本句的「Wait a moment」指「等一下」。",
       "sentenceIndex": 30,
@@ -1580,12 +1458,10 @@ export default {
         "Wait a moment"
       ],
       "optionReasons": {
-        "moment-mcq-15": "本句指「等一下」。",
-        "moment-mcq-14": "「剛才」是「a moment ago」的用法，與本句語境不同。",
-        "moment-mcq-16": "「決定性時刻」是「defining moment」的用法，與本句語境不同。",
-        "moment-mcq-13": "「隨時就會」是「any moment now」的用法，與本句語境不同。",
-        "moment-mcq-17": "「關鍵時刻」是「pivotal moment」的用法，與本句語境不同。",
-        "moment-mcq-12": "「隨時」是「at any moment」的用法，與本句語境不同。"
+        "moment-mcq-15": "本句的「Wait a moment」指「等一下」。",
+        "moment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-15"
     },
@@ -1597,11 +1473,9 @@ export default {
       "masked": "____, please. I'll check for you.",
       "options": [
         "moment-mcq-15",
+        "moment-mcq-28",
         "moment-mcq-14",
-        "moment-mcq-16",
-        "moment-mcq-13",
-        "moment-mcq-17",
-        "moment-mcq-12"
+        "moment-mcq-20"
       ],
       "explanation": "本句的「One moment」指「等一下」。",
       "sentenceIndex": 31,
@@ -1610,12 +1484,10 @@ export default {
         "One moment"
       ],
       "optionReasons": {
-        "moment-mcq-15": "本句指「等一下」。",
-        "moment-mcq-14": "「剛才」是「a moment ago」的用法，與本句語境不同。",
-        "moment-mcq-16": "「決定性時刻」是「defining moment」的用法，與本句語境不同。",
-        "moment-mcq-13": "「隨時就會」是「any moment now」的用法，與本句語境不同。",
-        "moment-mcq-17": "「關鍵時刻」是「pivotal moment」的用法，與本句語境不同。",
-        "moment-mcq-12": "「隨時」是「at any moment」的用法，與本句語境不同。"
+        "moment-mcq-15": "本句的「One moment」指「等一下」。",
+        "moment-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-15"
     },
@@ -1627,11 +1499,9 @@ export default {
       "masked": "____, sir. Your table will be ready shortly.",
       "options": [
         "moment-mcq-15",
-        "moment-mcq-14",
-        "moment-mcq-16",
-        "moment-mcq-13",
-        "moment-mcq-17",
-        "moment-mcq-12"
+        "moment-mcq-19",
+        "moment-mcq-01",
+        "moment-mcq-27"
       ],
       "explanation": "本句的「One moment」指「等一下」。",
       "sentenceIndex": 32,
@@ -1640,12 +1510,10 @@ export default {
         "One moment"
       ],
       "optionReasons": {
-        "moment-mcq-15": "本句指「等一下」。",
-        "moment-mcq-14": "「剛才」是「a moment ago」的用法，與本句語境不同。",
-        "moment-mcq-16": "「決定性時刻」是「defining moment」的用法，與本句語境不同。",
-        "moment-mcq-13": "「隨時就會」是「any moment now」的用法，與本句語境不同。",
-        "moment-mcq-17": "「關鍵時刻」是「pivotal moment」的用法，與本句語境不同。",
-        "moment-mcq-12": "「隨時」是「at any moment」的用法，與本句語境不同。"
+        "moment-mcq-15": "本句的「One moment」指「等一下」。",
+        "moment-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-15"
     },
@@ -1657,11 +1525,9 @@ export default {
       "masked": "The victory became a ____ in her career.",
       "options": [
         "moment-mcq-16",
+        "moment-mcq-26",
         "moment-mcq-15",
-        "moment-mcq-17",
-        "moment-mcq-14",
-        "moment-mcq-18",
-        "moment-mcq-13"
+        "moment-mcq-24"
       ],
       "explanation": "本句的「defining moment」指「決定性時刻」。",
       "sentenceIndex": 33,
@@ -1670,12 +1536,10 @@ export default {
         "defining moment"
       ],
       "optionReasons": {
-        "moment-mcq-16": "本句指「決定性時刻」。",
-        "moment-mcq-15": "「等一下」是「just/one moment」的用法，與本句語境不同。",
-        "moment-mcq-17": "「關鍵時刻」是「pivotal moment」的用法，與本句語境不同。",
-        "moment-mcq-14": "「剛才」是「a moment ago」的用法，與本句語境不同。",
-        "moment-mcq-18": "「歷史性時刻」是「historic moment」的用法，與本句語境不同。",
-        "moment-mcq-13": "「隨時就會」是「any moment now」的用法，與本句語境不同。"
+        "moment-mcq-16": "本句的「defining moment」指「決定性時刻」。",
+        "moment-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-16"
     },
@@ -1688,10 +1552,8 @@ export default {
       "options": [
         "moment-mcq-16",
         "moment-mcq-15",
-        "moment-mcq-17",
-        "moment-mcq-14",
-        "moment-mcq-18",
-        "moment-mcq-13"
+        "moment-mcq-08",
+        "moment-mcq-25"
       ],
       "explanation": "本句的「defining moment」指「決定性時刻」。",
       "sentenceIndex": 34,
@@ -1700,12 +1562,10 @@ export default {
         "defining moment"
       ],
       "optionReasons": {
-        "moment-mcq-16": "本句指「決定性時刻」。",
-        "moment-mcq-15": "「等一下」是「just/one moment」的用法，與本句語境不同。",
-        "moment-mcq-17": "「關鍵時刻」是「pivotal moment」的用法，與本句語境不同。",
-        "moment-mcq-14": "「剛才」是「a moment ago」的用法，與本句語境不同。",
-        "moment-mcq-18": "「歷史性時刻」是「historic moment」的用法，與本句語境不同。",
-        "moment-mcq-13": "「隨時就會」是「any moment now」的用法，與本句語境不同。"
+        "moment-mcq-16": "本句的「defining moment」指「決定性時刻」。",
+        "moment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-16"
     },
@@ -1717,11 +1577,9 @@ export default {
       "masked": "This was a ____ in the project.",
       "options": [
         "moment-mcq-17",
-        "moment-mcq-16",
-        "moment-mcq-18",
-        "moment-mcq-15",
-        "moment-mcq-19",
-        "moment-mcq-14"
+        "moment-mcq-22",
+        "moment-mcq-14",
+        "moment-mcq-08"
       ],
       "explanation": "本句的「pivotal moment」指「關鍵時刻」。",
       "sentenceIndex": 35,
@@ -1730,12 +1588,10 @@ export default {
         "pivotal moment"
       ],
       "optionReasons": {
-        "moment-mcq-17": "本句指「關鍵時刻」。",
-        "moment-mcq-16": "「決定性時刻」是「defining moment」的用法，與本句語境不同。",
-        "moment-mcq-18": "「歷史性時刻」是「historic moment」的用法，與本句語境不同。",
-        "moment-mcq-15": "「等一下」是「just/one moment」的用法，與本句語境不同。",
-        "moment-mcq-19": "「真相／成敗揭曉的時刻」是「moment of truth」的用法，與本句語境不同。",
-        "moment-mcq-14": "「剛才」是「a moment ago」的用法，與本句語境不同。"
+        "moment-mcq-17": "本句的「pivotal moment」指「關鍵時刻」。",
+        "moment-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-17"
     },
@@ -1747,11 +1603,9 @@ export default {
       "masked": "She remained calm at a ____.",
       "options": [
         "moment-mcq-17",
-        "moment-mcq-16",
-        "moment-mcq-18",
-        "moment-mcq-15",
-        "moment-mcq-19",
-        "moment-mcq-14"
+        "moment-mcq-24",
+        "moment-mcq-07",
+        "moment-mcq-09"
       ],
       "explanation": "本句的「crucial moment」指「關鍵時刻」。",
       "sentenceIndex": 36,
@@ -1760,12 +1614,10 @@ export default {
         "crucial moment"
       ],
       "optionReasons": {
-        "moment-mcq-17": "本句指「關鍵時刻」。",
-        "moment-mcq-16": "「決定性時刻」是「defining moment」的用法，與本句語境不同。",
-        "moment-mcq-18": "「歷史性時刻」是「historic moment」的用法，與本句語境不同。",
-        "moment-mcq-15": "「等一下」是「just/one moment」的用法，與本句語境不同。",
-        "moment-mcq-19": "「真相／成敗揭曉的時刻」是「moment of truth」的用法，與本句語境不同。",
-        "moment-mcq-14": "「剛才」是「a moment ago」的用法，與本句語境不同。"
+        "moment-mcq-17": "本句的「crucial moment」指「關鍵時刻」。",
+        "moment-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-17"
     },
@@ -1777,10 +1629,8 @@ export default {
       "masked": "Millions watched the ____ on television.",
       "options": [
         "moment-mcq-18",
-        "moment-mcq-17",
-        "moment-mcq-19",
-        "moment-mcq-16",
-        "moment-mcq-20",
+        "moment-mcq-26",
+        "moment-mcq-24",
         "moment-mcq-15"
       ],
       "explanation": "本句的「historic moment」指「歷史性時刻」。",
@@ -1790,12 +1640,10 @@ export default {
         "historic moment"
       ],
       "optionReasons": {
-        "moment-mcq-18": "本句指「歷史性時刻」。",
-        "moment-mcq-17": "「關鍵時刻」是「pivotal moment」的用法，與本句語境不同。",
-        "moment-mcq-19": "「真相／成敗揭曉的時刻」是「moment of truth」的用法，與本句語境不同。",
-        "moment-mcq-16": "「決定性時刻」是「defining moment」的用法，與本句語境不同。",
-        "moment-mcq-20": "「臨時通知下立即」是「at a moment's notice」的用法，與本句語境不同。",
-        "moment-mcq-15": "「等一下」是「just/one moment」的用法，與本句語境不同。"
+        "moment-mcq-18": "本句的「historic moment」指「歷史性時刻」。",
+        "moment-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-18"
     },
@@ -1807,11 +1655,9 @@ export default {
       "masked": "It was a ____ for the organization.",
       "options": [
         "moment-mcq-18",
-        "moment-mcq-17",
-        "moment-mcq-19",
-        "moment-mcq-16",
-        "moment-mcq-20",
-        "moment-mcq-15"
+        "moment-mcq-22",
+        "moment-mcq-27",
+        "moment-mcq-09"
       ],
       "explanation": "本句的「historic moment」指「歷史性時刻」。",
       "sentenceIndex": 38,
@@ -1820,12 +1666,10 @@ export default {
         "historic moment"
       ],
       "optionReasons": {
-        "moment-mcq-18": "本句指「歷史性時刻」。",
-        "moment-mcq-17": "「關鍵時刻」是「pivotal moment」的用法，與本句語境不同。",
-        "moment-mcq-19": "「真相／成敗揭曉的時刻」是「moment of truth」的用法，與本句語境不同。",
-        "moment-mcq-16": "「決定性時刻」是「defining moment」的用法，與本句語境不同。",
-        "moment-mcq-20": "「臨時通知下立即」是「at a moment's notice」的用法，與本句語境不同。",
-        "moment-mcq-15": "「等一下」是「just/one moment」的用法，與本句語境不同。"
+        "moment-mcq-18": "本句的「historic moment」指「歷史性時刻」。",
+        "moment-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-18"
     },
@@ -1837,11 +1681,9 @@ export default {
       "masked": "The final interview was the ____.",
       "options": [
         "moment-mcq-19",
-        "moment-mcq-18",
-        "moment-mcq-20",
-        "moment-mcq-17",
-        "moment-mcq-21",
-        "moment-mcq-16"
+        "moment-mcq-08",
+        "moment-mcq-24",
+        "moment-mcq-05"
       ],
       "explanation": "本句的「moment of truth」指「真相／成敗揭曉的時刻」。",
       "sentenceIndex": 39,
@@ -1850,12 +1692,10 @@ export default {
         "moment of truth"
       ],
       "optionReasons": {
-        "moment-mcq-19": "本句指「真相／成敗揭曉的時刻」。",
-        "moment-mcq-18": "「歷史性時刻」是「historic moment」的用法，與本句語境不同。",
-        "moment-mcq-20": "「臨時通知下立即」是「at a moment's notice」的用法，與本句語境不同。",
-        "moment-mcq-17": "「關鍵時刻」是「pivotal moment」的用法，與本句語境不同。",
-        "moment-mcq-21": "「一刻也不」是「not for a moment」的用法，與本句語境不同。",
-        "moment-mcq-16": "「決定性時刻」是「defining moment」的用法，與本句語境不同。"
+        "moment-mcq-19": "本句的「moment of truth」指「真相／成敗揭曉的時刻」。",
+        "moment-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-19"
     },
@@ -1867,11 +1707,9 @@ export default {
       "masked": "The ____ came when the results were announced.",
       "options": [
         "moment-mcq-19",
-        "moment-mcq-18",
-        "moment-mcq-20",
-        "moment-mcq-17",
-        "moment-mcq-21",
-        "moment-mcq-16"
+        "moment-mcq-09",
+        "moment-mcq-25",
+        "moment-mcq-24"
       ],
       "explanation": "本句的「moment of truth」指「真相／成敗揭曉的時刻」。",
       "sentenceIndex": 40,
@@ -1880,12 +1718,10 @@ export default {
         "moment of truth"
       ],
       "optionReasons": {
-        "moment-mcq-19": "本句指「真相／成敗揭曉的時刻」。",
-        "moment-mcq-18": "「歷史性時刻」是「historic moment」的用法，與本句語境不同。",
-        "moment-mcq-20": "「臨時通知下立即」是「at a moment's notice」的用法，與本句語境不同。",
-        "moment-mcq-17": "「關鍵時刻」是「pivotal moment」的用法，與本句語境不同。",
-        "moment-mcq-21": "「一刻也不」是「not for a moment」的用法，與本句語境不同。",
-        "moment-mcq-16": "「決定性時刻」是「defining moment」的用法，與本句語境不同。"
+        "moment-mcq-19": "本句的「moment of truth」指「真相／成敗揭曉的時刻」。",
+        "moment-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-19"
     },
@@ -1897,11 +1733,9 @@ export default {
       "masked": "She is ready to travel ____.",
       "options": [
         "moment-mcq-20",
-        "moment-mcq-19",
-        "moment-mcq-21",
-        "moment-mcq-18",
-        "moment-mcq-22",
-        "moment-mcq-17"
+        "moment-mcq-15",
+        "moment-mcq-27",
+        "moment-mcq-25"
       ],
       "explanation": "本句的「at a moment's notice」指「臨時通知下立即」。",
       "sentenceIndex": 41,
@@ -1910,12 +1744,10 @@ export default {
         "at a moment's notice"
       ],
       "optionReasons": {
-        "moment-mcq-20": "本句指「臨時通知下立即」。",
-        "moment-mcq-19": "「真相／成敗揭曉的時刻」是「moment of truth」的用法，與本句語境不同。",
-        "moment-mcq-21": "「一刻也不」是「not for a moment」的用法，與本句語境不同。",
-        "moment-mcq-18": "「歷史性時刻」是「historic moment」的用法，與本句語境不同。",
-        "moment-mcq-22": "「當下最受注目的」是「of the moment」的用法，與本句語境不同。",
-        "moment-mcq-17": "「關鍵時刻」是「pivotal moment」的用法，與本句語境不同。"
+        "moment-mcq-20": "本句的「at a moment's notice」指「臨時通知下立即」。",
+        "moment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-20"
     },
@@ -1927,11 +1759,9 @@ export default {
       "masked": "Staff may be required to work late ____.",
       "options": [
         "moment-mcq-20",
-        "moment-mcq-19",
-        "moment-mcq-21",
-        "moment-mcq-18",
-        "moment-mcq-22",
-        "moment-mcq-17"
+        "moment-mcq-26",
+        "moment-mcq-05",
+        "moment-mcq-15"
       ],
       "explanation": "本句的「at a moment's notice」指「臨時通知下立即」。",
       "sentenceIndex": 42,
@@ -1940,12 +1770,10 @@ export default {
         "at a moment's notice"
       ],
       "optionReasons": {
-        "moment-mcq-20": "本句指「臨時通知下立即」。",
-        "moment-mcq-19": "「真相／成敗揭曉的時刻」是「moment of truth」的用法，與本句語境不同。",
-        "moment-mcq-21": "「一刻也不」是「not for a moment」的用法，與本句語境不同。",
-        "moment-mcq-18": "「歷史性時刻」是「historic moment」的用法，與本句語境不同。",
-        "moment-mcq-22": "「當下最受注目的」是「of the moment」的用法，與本句語境不同。",
-        "moment-mcq-17": "「關鍵時刻」是「pivotal moment」的用法，與本句語境不同。"
+        "moment-mcq-20": "本句的「at a moment's notice」指「臨時通知下立即」。",
+        "moment-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-20"
     },
@@ -1957,11 +1785,9 @@ export default {
       "masked": "I did ____ believe he was lying.",
       "options": [
         "moment-mcq-21",
-        "moment-mcq-20",
-        "moment-mcq-22",
-        "moment-mcq-19",
         "moment-mcq-23",
-        "moment-mcq-18"
+        "moment-mcq-15",
+        "moment-mcq-27"
       ],
       "explanation": "本句的「not for a moment」指「一刻也不」。",
       "sentenceIndex": 43,
@@ -1970,12 +1796,10 @@ export default {
         "not for a moment"
       ],
       "optionReasons": {
-        "moment-mcq-21": "本句指「一刻也不」。",
-        "moment-mcq-20": "「臨時通知下立即」是「at a moment's notice」的用法，與本句語境不同。",
-        "moment-mcq-22": "「當下最受注目的」是「of the moment」的用法，與本句語境不同。",
-        "moment-mcq-19": "「真相／成敗揭曉的時刻」是「moment of truth」的用法，與本句語境不同。",
-        "moment-mcq-23": "「把握時機」是「seize the moment」的用法，與本句語境不同。",
-        "moment-mcq-18": "「歷史性時刻」是「historic moment」的用法，與本句語境不同。"
+        "moment-mcq-21": "本句的「not for a moment」指「一刻也不」。",
+        "moment-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-21"
     },
@@ -1987,11 +1811,9 @@ export default {
       "masked": "She never ____ considered giving up.",
       "options": [
         "moment-mcq-21",
-        "moment-mcq-20",
-        "moment-mcq-22",
-        "moment-mcq-19",
-        "moment-mcq-23",
-        "moment-mcq-18"
+        "moment-mcq-13",
+        "moment-mcq-26",
+        "moment-mcq-22"
       ],
       "explanation": "本句的「for a moment」指「一刻也不」。",
       "sentenceIndex": 44,
@@ -2000,12 +1822,10 @@ export default {
         "for a moment"
       ],
       "optionReasons": {
-        "moment-mcq-21": "本句指「一刻也不」。",
-        "moment-mcq-20": "「臨時通知下立即」是「at a moment's notice」的用法，與本句語境不同。",
-        "moment-mcq-22": "「當下最受注目的」是「of the moment」的用法，與本句語境不同。",
-        "moment-mcq-19": "「真相／成敗揭曉的時刻」是「moment of truth」的用法，與本句語境不同。",
-        "moment-mcq-23": "「把握時機」是「seize the moment」的用法，與本句語境不同。",
-        "moment-mcq-18": "「歷史性時刻」是「historic moment」的用法，與本句語境不同。"
+        "moment-mcq-21": "本句的「for a moment」指「一刻也不」。",
+        "moment-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-21"
     },
@@ -2017,11 +1837,9 @@ export default {
       "masked": "She is one of the actors ____.",
       "options": [
         "moment-mcq-22",
-        "moment-mcq-21",
-        "moment-mcq-23",
-        "moment-mcq-20",
-        "moment-mcq-24",
-        "moment-mcq-19"
+        "moment-mcq-10",
+        "moment-pdf-001",
+        "moment-mcq-14"
       ],
       "explanation": "本句的「of the moment」指「當下最受注目的」。",
       "sentenceIndex": 45,
@@ -2030,12 +1848,10 @@ export default {
         "of the moment"
       ],
       "optionReasons": {
-        "moment-mcq-22": "本句指「當下最受注目的」。",
-        "moment-mcq-21": "「一刻也不」是「not for a moment」的用法，與本句語境不同。",
-        "moment-mcq-23": "「把握時機」是「seize the moment」的用法，與本句語境不同。",
-        "moment-mcq-20": "「臨時通知下立即」是「at a moment's notice」的用法，與本句語境不同。",
-        "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
-        "moment-mcq-19": "「真相／成敗揭曉的時刻」是「moment of truth」的用法，與本句語境不同。"
+        "moment-mcq-22": "本句的「of the moment」指「當下最受注目的」。",
+        "moment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "moment-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-22"
     },
@@ -2047,11 +1863,9 @@ export default {
       "masked": "This is the fashion trend ____.",
       "options": [
         "moment-mcq-22",
-        "moment-mcq-21",
-        "moment-mcq-23",
-        "moment-mcq-20",
-        "moment-mcq-24",
-        "moment-mcq-19"
+        "moment-mcq-10",
+        "moment-mcq-08",
+        "moment-mcq-20"
       ],
       "explanation": "本句的「of the moment」指「當下最受注目的」。",
       "sentenceIndex": 46,
@@ -2060,12 +1874,10 @@ export default {
         "of the moment"
       ],
       "optionReasons": {
-        "moment-mcq-22": "本句指「當下最受注目的」。",
-        "moment-mcq-21": "「一刻也不」是「not for a moment」的用法，與本句語境不同。",
-        "moment-mcq-23": "「把握時機」是「seize the moment」的用法，與本句語境不同。",
-        "moment-mcq-20": "「臨時通知下立即」是「at a moment's notice」的用法，與本句語境不同。",
-        "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
-        "moment-mcq-19": "「真相／成敗揭曉的時刻」是「moment of truth」的用法，與本句語境不同。"
+        "moment-mcq-22": "本句的「of the moment」指「當下最受注目的」。",
+        "moment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-22"
     },
@@ -2077,11 +1889,9 @@ export default {
       "masked": "I wanted to say something, but the ____.",
       "options": [
         "moment-pdf-001",
+        "moment-mcq-11",
         "moment-mcq-22",
-        "moment-mcq-24",
-        "moment-mcq-21",
-        "moment-mcq-25",
-        "moment-mcq-20"
+        "moment-mcq-27"
       ],
       "explanation": "本句的「moment passed」指「某個適合行動或具有特殊意義的短暫時機結束」。",
       "sentenceIndex": 47,
@@ -2090,12 +1900,10 @@ export default {
         "moment passed"
       ],
       "optionReasons": {
-        "moment-pdf-001": "本句指「某個適合行動或具有特殊意義的短暫時機結束」。",
-        "moment-mcq-22": "「當下最受注目的」是「of the moment」的用法，與本句語境不同。",
-        "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
-        "moment-mcq-21": "「一刻也不」是「not for a moment」的用法，與本句語境不同。",
-        "moment-mcq-25": "「短暫的」是「momentary」的用法，與本句語境不同。",
-        "moment-mcq-20": "「臨時通知下立即」是「at a moment's notice」的用法，與本句語境不同。"
+        "moment-pdf-001": "本句的「moment passed」指「某個適合行動或具有特殊意義的短暫時機結束」。",
+        "moment-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-pdf-001"
     },
@@ -2107,11 +1915,9 @@ export default {
       "masked": "If you hesitate too long, the ____.",
       "options": [
         "moment-pdf-001",
-        "moment-mcq-22",
-        "moment-mcq-24",
-        "moment-mcq-21",
-        "moment-mcq-25",
-        "moment-mcq-20"
+        "moment-mcq-07",
+        "moment-mcq-27",
+        "moment-mcq-01"
       ],
       "explanation": "本句的「moment may pass」指「某個適合行動或具有特殊意義的短暫時機結束」。",
       "sentenceIndex": 48,
@@ -2120,12 +1926,10 @@ export default {
         "moment may pass"
       ],
       "optionReasons": {
-        "moment-pdf-001": "本句指「某個適合行動或具有特殊意義的短暫時機結束」。",
-        "moment-mcq-22": "「當下最受注目的」是「of the moment」的用法，與本句語境不同。",
-        "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
-        "moment-mcq-21": "「一刻也不」是「not for a moment」的用法，與本句語境不同。",
-        "moment-mcq-25": "「短暫的」是「momentary」的用法，與本句語境不同。",
-        "moment-mcq-20": "「臨時通知下立即」是「at a moment's notice」的用法，與本句語境不同。"
+        "moment-pdf-001": "本句的「moment may pass」指「某個適合行動或具有特殊意義的短暫時機結束」。",
+        "moment-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-pdf-001"
     },
@@ -2137,11 +1941,9 @@ export default {
       "masked": "She decided to ____ and tell him how she felt.",
       "options": [
         "moment-mcq-23",
-        "moment-mcq-22",
-        "moment-mcq-24",
-        "moment-mcq-21",
-        "moment-mcq-25",
-        "moment-mcq-20"
+        "moment-mcq-08",
+        "moment-mcq-09",
+        "moment-mcq-21"
       ],
       "explanation": "本句的「seize the moment」指「把握時機」。",
       "sentenceIndex": 49,
@@ -2150,12 +1952,10 @@ export default {
         "seize the moment"
       ],
       "optionReasons": {
-        "moment-mcq-23": "本句指「把握時機」。",
-        "moment-mcq-22": "「當下最受注目的」是「of the moment」的用法，與本句語境不同。",
-        "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
-        "moment-mcq-21": "「一刻也不」是「not for a moment」的用法，與本句語境不同。",
-        "moment-mcq-25": "「短暫的」是「momentary」的用法，與本句語境不同。",
-        "moment-mcq-20": "「臨時通知下立即」是「at a moment's notice」的用法，與本句語境不同。"
+        "moment-mcq-23": "本句的「seize the moment」指「把握時機」。",
+        "moment-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-23"
     },
@@ -2167,11 +1967,9 @@ export default {
       "masked": "You have to ____ when an opportunity appears.",
       "options": [
         "moment-mcq-23",
-        "moment-mcq-22",
-        "moment-mcq-24",
-        "moment-mcq-21",
-        "moment-mcq-25",
-        "moment-mcq-20"
+        "moment-mcq-15",
+        "moment-mcq-11",
+        "moment-mcq-22"
       ],
       "explanation": "本句的「seize the moment」指「把握時機」。",
       "sentenceIndex": 50,
@@ -2180,12 +1978,10 @@ export default {
         "seize the moment"
       ],
       "optionReasons": {
-        "moment-mcq-23": "本句指「把握時機」。",
-        "moment-mcq-22": "「當下最受注目的」是「of the moment」的用法，與本句語境不同。",
-        "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
-        "moment-mcq-21": "「一刻也不」是「not for a moment」的用法，與本句語境不同。",
-        "moment-mcq-25": "「短暫的」是「momentary」的用法，與本句語境不同。",
-        "moment-mcq-20": "「臨時通知下立即」是「at a moment's notice」的用法，與本句語境不同。"
+        "moment-mcq-23": "本句的「seize the moment」指「把握時機」。",
+        "moment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-23"
     },
@@ -2197,9 +1993,7 @@ export default {
       "masked": "Children are often better at ____ than adults.",
       "options": [
         "moment-mcq-24",
-        "moment-mcq-23",
-        "moment-mcq-25",
-        "moment-mcq-22",
+        "moment-mcq-14",
         "moment-mcq-26",
         "moment-mcq-21"
       ],
@@ -2210,12 +2004,10 @@ export default {
         "living in the moment"
       ],
       "optionReasons": {
-        "moment-mcq-24": "本句指「活在當下」。",
-        "moment-mcq-23": "「把握時機」是「seize the moment」的用法，與本句語境不同。",
-        "moment-mcq-25": "「短暫的」是「momentary」的用法，與本句語境不同。",
-        "moment-mcq-22": "「當下最受注目的」是「of the moment」的用法，與本句語境不同。",
-        "moment-mcq-26": "「短暫地／很快」是「momentarily」的用法，與本句語境不同。",
-        "moment-mcq-21": "「一刻也不」是「not for a moment」的用法，與本句語境不同。"
+        "moment-mcq-24": "本句的「living in the moment」指「活在當下」。",
+        "moment-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-24"
     },
@@ -2227,11 +2019,9 @@ export default {
       "masked": "Try to relax and ____.",
       "options": [
         "moment-mcq-24",
-        "moment-mcq-23",
-        "moment-mcq-25",
-        "moment-mcq-22",
-        "moment-mcq-26",
-        "moment-mcq-21"
+        "moment-mcq-06",
+        "moment-mcq-14",
+        "moment-mcq-01"
       ],
       "explanation": "本句的「live in the moment」指「活在當下」。",
       "sentenceIndex": 52,
@@ -2240,12 +2030,10 @@ export default {
         "live in the moment"
       ],
       "optionReasons": {
-        "moment-mcq-24": "本句指「活在當下」。",
-        "moment-mcq-23": "「把握時機」是「seize the moment」的用法，與本句語境不同。",
-        "moment-mcq-25": "「短暫的」是「momentary」的用法，與本句語境不同。",
-        "moment-mcq-22": "「當下最受注目的」是「of the moment」的用法，與本句語境不同。",
-        "moment-mcq-26": "「短暫地／很快」是「momentarily」的用法，與本句語境不同。",
-        "moment-mcq-21": "「一刻也不」是「not for a moment」的用法，與本句語境不同。"
+        "moment-mcq-24": "本句的「live in the moment」指「活在當下」。",
+        "moment-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-24"
     },
@@ -2257,10 +2045,8 @@ export default {
       "masked": "There was a ____.",
       "options": [
         "moment-mcq-25",
-        "moment-mcq-24",
-        "moment-mcq-26",
-        "moment-mcq-23",
-        "moment-mcq-27",
+        "moment-mcq-19",
+        "moment-mcq-07",
         "moment-mcq-22"
       ],
       "explanation": "本句的「momentary silence」指「短暫的」。",
@@ -2270,12 +2056,10 @@ export default {
         "momentary silence"
       ],
       "optionReasons": {
-        "moment-mcq-25": "本句指「短暫的」。",
-        "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
-        "moment-mcq-26": "「短暫地／很快」是「momentarily」的用法，與本句語境不同。",
-        "moment-mcq-23": "「把握時機」是「seize the moment」的用法，與本句語境不同。",
-        "moment-mcq-27": "「重大的」是「momentous」的用法，與本句語境不同。",
-        "moment-mcq-22": "「當下最受注目的」是「of the moment」的用法，與本句語境不同。"
+        "moment-mcq-25": "本句的「momentary silence」指「短暫的」。",
+        "moment-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-25"
     },
@@ -2287,11 +2071,9 @@ export default {
       "masked": "She felt a ____.",
       "options": [
         "moment-mcq-25",
-        "moment-mcq-24",
-        "moment-mcq-26",
-        "moment-mcq-23",
-        "moment-mcq-27",
-        "moment-mcq-22"
+        "moment-mcq-09",
+        "moment-mcq-21",
+        "moment-mcq-23"
       ],
       "explanation": "本句的「momentary sense of panic」指「短暫的」。",
       "sentenceIndex": 54,
@@ -2300,12 +2082,10 @@ export default {
         "momentary sense of panic"
       ],
       "optionReasons": {
-        "moment-mcq-25": "本句指「短暫的」。",
-        "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
-        "moment-mcq-26": "「短暫地／很快」是「momentarily」的用法，與本句語境不同。",
-        "moment-mcq-23": "「把握時機」是「seize the moment」的用法，與本句語境不同。",
-        "moment-mcq-27": "「重大的」是「momentous」的用法，與本句語境不同。",
-        "moment-mcq-22": "「當下最受注目的」是「of the moment」的用法，與本句語境不同。"
+        "moment-mcq-25": "本句的「momentary sense of panic」指「短暫的」。",
+        "moment-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-25"
     },
@@ -2317,11 +2097,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "moment-mcq-26",
-        "moment-mcq-25",
-        "moment-mcq-27",
-        "moment-mcq-24",
-        "moment-mcq-28",
-        "moment-mcq-23"
+        "moment-mcq-17",
+        "moment-mcq-09",
+        "moment-mcq-05"
       ],
       "explanation": "本句的「momentarily confused」指「短暫地／很快」。",
       "sentenceIndex": 55,
@@ -2330,12 +2108,10 @@ export default {
         "momentarily confused"
       ],
       "optionReasons": {
-        "moment-mcq-26": "本句指「短暫地／很快」。",
-        "moment-mcq-25": "「短暫的」是「momentary」的用法，與本句語境不同。",
-        "moment-mcq-27": "「重大的」是「momentous」的用法，與本句語境不同。",
-        "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
-        "moment-mcq-28": "「某件特定事情發生的那個時刻或短暫情境」是「2. a particular moment（某個特定時刻） — 時刻；一刻」的用法，與本句語境不同。",
-        "moment-mcq-23": "「把握時機」是「seize the moment」的用法，與本句語境不同。"
+        "moment-mcq-26": "本句的「momentarily confused」指「短暫地／很快」。",
+        "moment-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-26"
     },
@@ -2347,11 +2123,9 @@ export default {
       "masked": "The lights went out ____.",
       "options": [
         "moment-mcq-26",
-        "moment-mcq-25",
-        "moment-mcq-27",
-        "moment-mcq-24",
-        "moment-mcq-28",
-        "moment-mcq-23"
+        "moment-mcq-18",
+        "moment-mcq-14",
+        "moment-mcq-01"
       ],
       "explanation": "本句的「momentarily」指「短暫地／很快」。",
       "sentenceIndex": 56,
@@ -2360,12 +2134,10 @@ export default {
         "momentarily"
       ],
       "optionReasons": {
-        "moment-mcq-26": "本句指「短暫地／很快」。",
-        "moment-mcq-25": "「短暫的」是「momentary」的用法，與本句語境不同。",
-        "moment-mcq-27": "「重大的」是「momentous」的用法，與本句語境不同。",
-        "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
-        "moment-mcq-28": "「某件特定事情發生的那個時刻或短暫情境」是「2. a particular moment（某個特定時刻） — 時刻；一刻」的用法，與本句語境不同。",
-        "moment-mcq-23": "「把握時機」是「seize the moment」的用法，與本句語境不同。"
+        "moment-mcq-26": "本句的「momentarily」指「短暫地／很快」。",
+        "moment-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-26"
     },
@@ -2377,11 +2149,9 @@ export default {
       "masked": "The train will arrive ____.",
       "options": [
         "moment-mcq-26",
-        "moment-mcq-25",
         "moment-mcq-27",
-        "moment-mcq-24",
-        "moment-mcq-28",
-        "moment-mcq-23"
+        "moment-mcq-10",
+        "moment-mcq-24"
       ],
       "explanation": "本句的「momentarily」指「短暫地／很快」。",
       "sentenceIndex": 57,
@@ -2390,12 +2160,10 @@ export default {
         "momentarily"
       ],
       "optionReasons": {
-        "moment-mcq-26": "本句指「短暫地／很快」。",
-        "moment-mcq-25": "「短暫的」是「momentary」的用法，與本句語境不同。",
-        "moment-mcq-27": "「重大的」是「momentous」的用法，與本句語境不同。",
-        "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
-        "moment-mcq-28": "「某件特定事情發生的那個時刻或短暫情境」是「2. a particular moment（某個特定時刻） — 時刻；一刻」的用法，與本句語境不同。",
-        "moment-mcq-23": "「把握時機」是「seize the moment」的用法，與本句語境不同。"
+        "moment-mcq-26": "本句的「momentarily」指「短暫地／很快」。",
+        "moment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-26"
     },
@@ -2407,11 +2175,9 @@ export default {
       "masked": "We will begin ____.",
       "options": [
         "moment-mcq-26",
-        "moment-mcq-25",
-        "moment-mcq-27",
-        "moment-mcq-24",
-        "moment-mcq-28",
-        "moment-mcq-23"
+        "moment-mcq-18",
+        "moment-mcq-05",
+        "moment-mcq-14"
       ],
       "explanation": "本句的「momentarily」指「短暫地／很快」。",
       "sentenceIndex": 58,
@@ -2420,12 +2186,10 @@ export default {
         "momentarily"
       ],
       "optionReasons": {
-        "moment-mcq-26": "本句指「短暫地／很快」。",
-        "moment-mcq-25": "「短暫的」是「momentary」的用法，與本句語境不同。",
-        "moment-mcq-27": "「重大的」是「momentous」的用法，與本句語境不同。",
-        "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
-        "moment-mcq-28": "「某件特定事情發生的那個時刻或短暫情境」是「2. a particular moment（某個特定時刻） — 時刻；一刻」的用法，與本句語境不同。",
-        "moment-mcq-23": "「把握時機」是「seize the moment」的用法，與本句語境不同。"
+        "moment-mcq-26": "本句的「momentarily」指「短暫地／很快」。",
+        "moment-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-26"
     },
@@ -2437,11 +2201,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "moment-mcq-27",
-        "moment-mcq-26",
-        "moment-mcq-28",
-        "moment-mcq-25",
-        "moment-mcq-24",
-        "moment-mcq-23"
+        "moment-mcq-14",
+        "moment-mcq-01",
+        "moment-mcq-06"
       ],
       "explanation": "本句的「momentous decision」指「重大的」。",
       "sentenceIndex": 59,
@@ -2450,12 +2212,10 @@ export default {
         "momentous decision"
       ],
       "optionReasons": {
-        "moment-mcq-27": "本句指「重大的」。",
-        "moment-mcq-26": "「短暫地／很快」是「momentarily」的用法，與本句語境不同。",
-        "moment-mcq-28": "「某件特定事情發生的那個時刻或短暫情境」是「2. a particular moment（某個特定時刻） — 時刻；一刻」的用法，與本句語境不同。",
-        "moment-mcq-25": "「短暫的」是「momentary」的用法，與本句語境不同。",
-        "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
-        "moment-mcq-23": "「把握時機」是「seize the moment」的用法，與本句語境不同。"
+        "moment-mcq-27": "本句的「momentous decision」指「重大的」。",
+        "moment-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-27"
     },
@@ -2467,11 +2227,9 @@ export default {
       "masked": "The country was going through a ____.",
       "options": [
         "moment-mcq-27",
-        "moment-mcq-26",
-        "moment-mcq-28",
-        "moment-mcq-25",
-        "moment-mcq-24",
-        "moment-mcq-23"
+        "moment-pdf-001",
+        "moment-mcq-19",
+        "moment-mcq-08"
       ],
       "explanation": "本句的「momentous period of change」指「重大的」。",
       "sentenceIndex": 60,
@@ -2480,12 +2238,10 @@ export default {
         "momentous period of change"
       ],
       "optionReasons": {
-        "moment-mcq-27": "本句指「重大的」。",
-        "moment-mcq-26": "「短暫地／很快」是「momentarily」的用法，與本句語境不同。",
-        "moment-mcq-28": "「某件特定事情發生的那個時刻或短暫情境」是「2. a particular moment（某個特定時刻） — 時刻；一刻」的用法，與本句語境不同。",
-        "moment-mcq-25": "「短暫的」是「momentary」的用法，與本句語境不同。",
-        "moment-mcq-24": "「活在當下」是「live in the moment」的用法，與本句語境不同。",
-        "moment-mcq-23": "「把握時機」是「seize the moment」的用法，與本句語境不同。"
+        "moment-mcq-27": "本句的「momentous period of change」指「重大的」。",
+        "moment-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "moment-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "moment-mcq-27"
     }
@@ -2497,5 +2253,7 @@ export default {
     "sha256": "8ad3305256b8cac0061945f30e8d5b4e556e9917957059e1b5a86323350d6f4f",
     "pages": 23
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

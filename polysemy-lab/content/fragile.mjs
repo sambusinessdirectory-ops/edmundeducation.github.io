@@ -163,11 +163,7 @@ export default {
       "masked": "Be careful with the glass—it is very ____.",
       "options": [
         "fragile-mcq-01",
-        "fragile-mcq-02",
-        "fragile-mcq-03",
-        "fragile-mcq-04",
-        "fragile-mcq-05",
-        "fragile-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fragile」指「物理結構容易破裂、折斷或受損的；易碎／脆弱」。",
       "sentenceIndex": 0,
@@ -176,12 +172,8 @@ export default {
         "fragile"
       ],
       "optionReasons": {
-        "fragile-mcq-01": "本句指「物理結構容易破裂、折斷或受損的；易碎／脆弱」。",
-        "fragile-mcq-02": "「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」與本句語境不同。",
-        "fragile-mcq-03": "「情緒上容易受傷、受刺激或失去穩定的」與本句語境不同。",
-        "fragile-mcq-04": "「缺乏穩定性、容易崩潰、惡化或受到破壞的」與本句語境不同。",
-        "fragile-mcq-05": "「外形纖細、嬌嫩、給人容易受損感覺的；與」與本句語境不同。",
-        "fragile-mcq-06": "「義相關」與本句語境不同。"
+        "fragile-mcq-01": "本句的「fragile」指「物理結構容易破裂、折斷或受損的；易碎／脆弱」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fragile-mcq-01"
     },
@@ -193,11 +185,7 @@ export default {
       "masked": "The old paper is extremely ____.",
       "options": [
         "fragile-mcq-01",
-        "fragile-mcq-02",
-        "fragile-mcq-03",
-        "fragile-mcq-04",
-        "fragile-mcq-05",
-        "fragile-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fragile」指「物理結構容易破裂、折斷或受損的；易碎／脆弱」。",
       "sentenceIndex": 1,
@@ -206,12 +194,8 @@ export default {
         "fragile"
       ],
       "optionReasons": {
-        "fragile-mcq-01": "本句指「物理結構容易破裂、折斷或受損的；易碎／脆弱」。",
-        "fragile-mcq-02": "「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」與本句語境不同。",
-        "fragile-mcq-03": "「情緒上容易受傷、受刺激或失去穩定的」與本句語境不同。",
-        "fragile-mcq-04": "「缺乏穩定性、容易崩潰、惡化或受到破壞的」與本句語境不同。",
-        "fragile-mcq-05": "「外形纖細、嬌嫩、給人容易受損感覺的；與」與本句語境不同。",
-        "fragile-mcq-06": "「義相關」與本句語境不同。"
+        "fragile-mcq-01": "本句的「fragile」指「物理結構容易破裂、折斷或受損的；易碎／脆弱」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fragile-mcq-01"
     },
@@ -223,11 +207,7 @@ export default {
       "masked": "Sea turtles are both ____ and resilient.",
       "options": [
         "fragile-mcq-02",
-        "fragile-mcq-01",
-        "fragile-mcq-03",
-        "fragile-mcq-04",
-        "fragile-mcq-05",
-        "fragile-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fragile」指「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」。",
       "sentenceIndex": 2,
@@ -236,12 +216,8 @@ export default {
         "fragile"
       ],
       "optionReasons": {
-        "fragile-mcq-02": "本句指「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」。",
-        "fragile-mcq-01": "「物理結構容易破裂、折斷或受損的；易碎／脆弱」與本句語境不同。",
-        "fragile-mcq-03": "「情緒上容易受傷、受刺激或失去穩定的」與本句語境不同。",
-        "fragile-mcq-04": "「缺乏穩定性、容易崩潰、惡化或受到破壞的」與本句語境不同。",
-        "fragile-mcq-05": "「外形纖細、嬌嫩、給人容易受損感覺的；與」與本句語境不同。",
-        "fragile-mcq-06": "「義相關」與本句語境不同。"
+        "fragile-mcq-02": "本句的「fragile」指「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fragile-mcq-02"
     },
@@ -253,11 +229,7 @@ export default {
       "masked": "The young animal was still very ____.",
       "options": [
         "fragile-mcq-02",
-        "fragile-mcq-01",
-        "fragile-mcq-03",
-        "fragile-mcq-04",
-        "fragile-mcq-05",
-        "fragile-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fragile」指「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」。",
       "sentenceIndex": 3,
@@ -266,12 +238,8 @@ export default {
         "fragile"
       ],
       "optionReasons": {
-        "fragile-mcq-02": "本句指「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」。",
-        "fragile-mcq-01": "「物理結構容易破裂、折斷或受損的；易碎／脆弱」與本句語境不同。",
-        "fragile-mcq-03": "「情緒上容易受傷、受刺激或失去穩定的」與本句語境不同。",
-        "fragile-mcq-04": "「缺乏穩定性、容易崩潰、惡化或受到破壞的」與本句語境不同。",
-        "fragile-mcq-05": "「外形纖細、嬌嫩、給人容易受損感覺的；與」與本句語境不同。",
-        "fragile-mcq-06": "「義相關」與本句語境不同。"
+        "fragile-mcq-02": "本句的「fragile」指「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fragile-mcq-02"
     },
@@ -283,11 +251,7 @@ export default {
       "masked": "The ecosystem is extremely ____.",
       "options": [
         "fragile-mcq-02",
-        "fragile-mcq-01",
-        "fragile-mcq-03",
-        "fragile-mcq-04",
-        "fragile-mcq-05",
-        "fragile-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fragile」指「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」。",
       "sentenceIndex": 4,
@@ -296,12 +260,8 @@ export default {
         "fragile"
       ],
       "optionReasons": {
-        "fragile-mcq-02": "本句指「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」。",
-        "fragile-mcq-01": "「物理結構容易破裂、折斷或受損的；易碎／脆弱」與本句語境不同。",
-        "fragile-mcq-03": "「情緒上容易受傷、受刺激或失去穩定的」與本句語境不同。",
-        "fragile-mcq-04": "「缺乏穩定性、容易崩潰、惡化或受到破壞的」與本句語境不同。",
-        "fragile-mcq-05": "「外形纖細、嬌嫩、給人容易受損感覺的；與」與本句語境不同。",
-        "fragile-mcq-06": "「義相關」與本句語境不同。"
+        "fragile-mcq-02": "本句的「fragile」指「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fragile-mcq-02"
     },
@@ -313,11 +273,7 @@ export default {
       "masked": "He was emotionally ____ after the loss.",
       "options": [
         "fragile-mcq-03",
-        "fragile-mcq-02",
-        "fragile-mcq-04",
-        "fragile-mcq-01",
-        "fragile-mcq-05",
-        "fragile-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fragile」指「情緒上容易受傷、受刺激或失去穩定的」。",
       "sentenceIndex": 5,
@@ -326,12 +282,8 @@ export default {
         "fragile"
       ],
       "optionReasons": {
-        "fragile-mcq-03": "本句指「情緒上容易受傷、受刺激或失去穩定的」。",
-        "fragile-mcq-02": "「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」與本句語境不同。",
-        "fragile-mcq-04": "「缺乏穩定性、容易崩潰、惡化或受到破壞的」與本句語境不同。",
-        "fragile-mcq-01": "「物理結構容易破裂、折斷或受損的；易碎／脆弱」與本句語境不同。",
-        "fragile-mcq-05": "「外形纖細、嬌嫩、給人容易受損感覺的；與」與本句語境不同。",
-        "fragile-mcq-06": "「義相關」與本句語境不同。"
+        "fragile-mcq-03": "本句的「fragile」指「情緒上容易受傷、受刺激或失去穩定的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fragile-mcq-03"
     },
@@ -343,11 +295,7 @@ export default {
       "masked": "She seemed ____ and easily upset.",
       "options": [
         "fragile-mcq-03",
-        "fragile-mcq-02",
-        "fragile-mcq-04",
-        "fragile-mcq-01",
-        "fragile-mcq-05",
-        "fragile-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fragile」指「情緒上容易受傷、受刺激或失去穩定的」。",
       "sentenceIndex": 6,
@@ -356,12 +304,8 @@ export default {
         "fragile"
       ],
       "optionReasons": {
-        "fragile-mcq-03": "本句指「情緒上容易受傷、受刺激或失去穩定的」。",
-        "fragile-mcq-02": "「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」與本句語境不同。",
-        "fragile-mcq-04": "「缺乏穩定性、容易崩潰、惡化或受到破壞的」與本句語境不同。",
-        "fragile-mcq-01": "「物理結構容易破裂、折斷或受損的；易碎／脆弱」與本句語境不同。",
-        "fragile-mcq-05": "「外形纖細、嬌嫩、給人容易受損感覺的；與」與本句語境不同。",
-        "fragile-mcq-06": "「義相關」與本句語境不同。"
+        "fragile-mcq-03": "本句的「fragile」指「情緒上容易受傷、受刺激或失去穩定的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fragile-mcq-03"
     },
@@ -373,11 +317,7 @@ export default {
       "masked": "The peace agreement remains ____.",
       "options": [
         "fragile-mcq-04",
-        "fragile-mcq-03",
-        "fragile-mcq-05",
-        "fragile-mcq-02",
-        "fragile-mcq-06",
-        "fragile-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fragile」指「缺乏穩定性、容易崩潰、惡化或受到破壞的」。",
       "sentenceIndex": 7,
@@ -386,12 +326,8 @@ export default {
         "fragile"
       ],
       "optionReasons": {
-        "fragile-mcq-04": "本句指「缺乏穩定性、容易崩潰、惡化或受到破壞的」。",
-        "fragile-mcq-03": "「情緒上容易受傷、受刺激或失去穩定的」與本句語境不同。",
-        "fragile-mcq-05": "「外形纖細、嬌嫩、給人容易受損感覺的；與」與本句語境不同。",
-        "fragile-mcq-02": "「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」與本句語境不同。",
-        "fragile-mcq-06": "「義相關」與本句語境不同。",
-        "fragile-mcq-01": "「物理結構容易破裂、折斷或受損的；易碎／脆弱」與本句語境不同。"
+        "fragile-mcq-04": "本句的「fragile」指「缺乏穩定性、容易崩潰、惡化或受到破壞的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fragile-mcq-04"
     },
@@ -403,11 +339,7 @@ export default {
       "masked": "Their relationship was already ____.",
       "options": [
         "fragile-mcq-04",
-        "fragile-mcq-03",
-        "fragile-mcq-05",
-        "fragile-mcq-02",
-        "fragile-mcq-06",
-        "fragile-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fragile」指「缺乏穩定性、容易崩潰、惡化或受到破壞的」。",
       "sentenceIndex": 8,
@@ -416,12 +348,8 @@ export default {
         "fragile"
       ],
       "optionReasons": {
-        "fragile-mcq-04": "本句指「缺乏穩定性、容易崩潰、惡化或受到破壞的」。",
-        "fragile-mcq-03": "「情緒上容易受傷、受刺激或失去穩定的」與本句語境不同。",
-        "fragile-mcq-05": "「外形纖細、嬌嫩、給人容易受損感覺的；與」與本句語境不同。",
-        "fragile-mcq-02": "「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」與本句語境不同。",
-        "fragile-mcq-06": "「義相關」與本句語境不同。",
-        "fragile-mcq-01": "「物理結構容易破裂、折斷或受損的；易碎／脆弱」與本句語境不同。"
+        "fragile-mcq-04": "本句的「fragile」指「缺乏穩定性、容易崩潰、惡化或受到破壞的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fragile-mcq-04"
     },
@@ -433,11 +361,7 @@ export default {
       "masked": "She had a small, ____ frame.",
       "options": [
         "fragile-mcq-05",
-        "fragile-mcq-04",
-        "fragile-mcq-06",
-        "fragile-mcq-03",
-        "fragile-mcq-07",
-        "fragile-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fragile」指「外形纖細、嬌嫩、給人容易受損感覺的；與」。",
       "sentenceIndex": 9,
@@ -446,12 +370,8 @@ export default {
         "fragile"
       ],
       "optionReasons": {
-        "fragile-mcq-05": "本句指「外形纖細、嬌嫩、給人容易受損感覺的；與」。",
-        "fragile-mcq-04": "「缺乏穩定性、容易崩潰、惡化或受到破壞的」與本句語境不同。",
-        "fragile-mcq-06": "「義相關」與本句語境不同。",
-        "fragile-mcq-03": "「情緒上容易受傷、受刺激或失去穩定的」與本句語境不同。",
-        "fragile-mcq-07": "「容易受損、崩潰或受影響的性質／脆弱性」與本句語境不同。",
-        "fragile-mcq-02": "「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」與本句語境不同。"
+        "fragile-mcq-05": "本句的「fragile」指「外形纖細、嬌嫩、給人容易受損感覺的；與」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fragile-mcq-05"
     },
@@ -463,11 +383,7 @@ export default {
       "masked": "The flower looked beautiful but ____.",
       "options": [
         "fragile-mcq-05",
-        "fragile-mcq-04",
-        "fragile-mcq-06",
-        "fragile-mcq-03",
-        "fragile-mcq-07",
-        "fragile-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fragile」指「外形纖細、嬌嫩、給人容易受損感覺的；與」。",
       "sentenceIndex": 10,
@@ -476,12 +392,8 @@ export default {
         "fragile"
       ],
       "optionReasons": {
-        "fragile-mcq-05": "本句指「外形纖細、嬌嫩、給人容易受損感覺的；與」。",
-        "fragile-mcq-04": "「缺乏穩定性、容易崩潰、惡化或受到破壞的」與本句語境不同。",
-        "fragile-mcq-06": "「義相關」與本句語境不同。",
-        "fragile-mcq-03": "「情緒上容易受傷、受刺激或失去穩定的」與本句語境不同。",
-        "fragile-mcq-07": "「容易受損、崩潰或受影響的性質／脆弱性」與本句語境不同。",
-        "fragile-mcq-02": "「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」與本句語境不同。"
+        "fragile-mcq-05": "本句的「fragile」指「外形纖細、嬌嫩、給人容易受損感覺的；與」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fragile-mcq-05"
     },
@@ -493,11 +405,7 @@ export default {
       "masked": "The accident revealed the ____ of the system.",
       "options": [
         "fragile-mcq-07",
-        "fragile-mcq-06",
-        "fragile-mcq-05",
-        "fragile-mcq-04",
-        "fragile-mcq-03",
-        "fragile-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fragility」指「容易受損、崩潰或受影響的性質／脆弱性」。",
       "sentenceIndex": 11,
@@ -506,12 +414,8 @@ export default {
         "fragility"
       ],
       "optionReasons": {
-        "fragile-mcq-07": "本句指「容易受損、崩潰或受影響的性質／脆弱性」。",
-        "fragile-mcq-06": "「義相關」與本句語境不同。",
-        "fragile-mcq-05": "「外形纖細、嬌嫩、給人容易受損感覺的；與」與本句語境不同。",
-        "fragile-mcq-04": "「缺乏穩定性、容易崩潰、惡化或受到破壞的」與本句語境不同。",
-        "fragile-mcq-03": "「情緒上容易受傷、受刺激或失去穩定的」與本句語境不同。",
-        "fragile-mcq-02": "「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」與本句語境不同。"
+        "fragile-mcq-07": "本句的「fragility」指「容易受損、崩潰或受影響的性質／脆弱性」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fragile-mcq-07"
     },
@@ -523,11 +427,7 @@ export default {
       "masked": "The ____ of the ecosystem is a major concern.",
       "options": [
         "fragile-mcq-07",
-        "fragile-mcq-06",
-        "fragile-mcq-05",
-        "fragile-mcq-04",
-        "fragile-mcq-03",
-        "fragile-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fragility」指「容易受損、崩潰或受影響的性質／脆弱性」。",
       "sentenceIndex": 12,
@@ -536,12 +436,8 @@ export default {
         "fragility"
       ],
       "optionReasons": {
-        "fragile-mcq-07": "本句指「容易受損、崩潰或受影響的性質／脆弱性」。",
-        "fragile-mcq-06": "「義相關」與本句語境不同。",
-        "fragile-mcq-05": "「外形纖細、嬌嫩、給人容易受損感覺的；與」與本句語境不同。",
-        "fragile-mcq-04": "「缺乏穩定性、容易崩潰、惡化或受到破壞的」與本句語境不同。",
-        "fragile-mcq-03": "「情緒上容易受傷、受刺激或失去穩定的」與本句語境不同。",
-        "fragile-mcq-02": "「對傷害、壓力或環境變化抵抗力較低、容易受破壞的」與本句語境不同。"
+        "fragile-mcq-07": "本句的「fragility」指「容易受損、崩潰或受影響的性質／脆弱性」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fragile-mcq-07"
     }
@@ -553,5 +449,12 @@ export default {
     "sha256": "09d8f1e25b29678b34141398d28438288f38c4c11f713d6e41f2c33f3cf508e5",
     "pages": 9
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

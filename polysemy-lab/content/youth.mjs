@@ -564,11 +564,7 @@ export default {
       "masked": "He spent much of his ____ training as an athlete.",
       "options": [
         "youth-mcq-01",
-        "youth-mcq-02",
-        "youth-mcq-03",
-        "youth-mcq-04",
-        "youth-mcq-05",
-        "youth-mcq-06"
+        "youth-mcq-15"
       ],
       "explanation": "本句的「youth」指「一個人從童年逐步進入成年前後的年輕生命階段」。",
       "sentenceIndex": 0,
@@ -577,12 +573,8 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-01": "本句指「一個人從童年逐步進入成年前後的年輕生命階段」。",
-        "youth-mcq-02": "「被視為一個整體的青少年／年輕人群體」與本句語境不同。",
-        "youth-mcq-03": "「一名年輕人，常見於較正式、新聞或法律語境」與本句語境不同。",
-        "youth-mcq-04": "「多名個別青年／年輕人」與本句語境不同。",
-        "youth-mcq-05": "「某件事物尚未成熟、仍處於剛起步的發展初期」與本句語境不同。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。"
+        "youth-mcq-01": "本句的「youth」指「一個人從童年逐步進入成年前後的年輕生命階段」。",
+        "youth-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-01"
     },
@@ -594,11 +586,9 @@ export default {
       "masked": "She developed a love of sport in her ____.",
       "options": [
         "youth-mcq-01",
-        "youth-mcq-02",
-        "youth-mcq-03",
-        "youth-mcq-04",
-        "youth-mcq-05",
-        "youth-mcq-06"
+        "youth-mcq-10",
+        "youth-mcq-19",
+        "youth-mcq-05"
       ],
       "explanation": "本句的「youth」指「一個人從童年逐步進入成年前後的年輕生命階段」。",
       "sentenceIndex": 1,
@@ -607,12 +597,10 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-01": "本句指「一個人從童年逐步進入成年前後的年輕生命階段」。",
-        "youth-mcq-02": "「被視為一個整體的青少年／年輕人群體」與本句語境不同。",
-        "youth-mcq-03": "「一名年輕人，常見於較正式、新聞或法律語境」與本句語境不同。",
-        "youth-mcq-04": "「多名個別青年／年輕人」與本句語境不同。",
-        "youth-mcq-05": "「某件事物尚未成熟、仍處於剛起步的發展初期」與本句語境不同。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。"
+        "youth-mcq-01": "本句的「youth」指「一個人從童年逐步進入成年前後的年輕生命階段」。",
+        "youth-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-01"
     },
@@ -624,11 +612,8 @@ export default {
       "masked": "The Foundation is committed to ____ development.",
       "options": [
         "youth-mcq-02",
-        "youth-mcq-01",
-        "youth-mcq-03",
-        "youth-mcq-04",
         "youth-mcq-05",
-        "youth-mcq-06"
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth」指「被視為一個整體的青少年／年輕人群體」。",
       "sentenceIndex": 2,
@@ -637,12 +622,9 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-02": "本句指「被視為一個整體的青少年／年輕人群體」。",
-        "youth-mcq-01": "「一個人從童年逐步進入成年前後的年輕生命階段」與本句語境不同。",
-        "youth-mcq-03": "「一名年輕人，常見於較正式、新聞或法律語境」與本句語境不同。",
-        "youth-mcq-04": "「多名個別青年／年輕人」與本句語境不同。",
-        "youth-mcq-05": "「某件事物尚未成熟、仍處於剛起步的發展初期」與本句語境不同。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。"
+        "youth-mcq-02": "本句的「youth」指「被視為一個整體的青少年／年輕人群體」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-02"
     },
@@ -654,11 +636,8 @@ export default {
       "masked": "The programme provides opportunities for local ____.",
       "options": [
         "youth-mcq-02",
-        "youth-mcq-01",
-        "youth-mcq-03",
-        "youth-mcq-04",
         "youth-mcq-05",
-        "youth-mcq-06"
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth」指「被視為一個整體的青少年／年輕人群體」。",
       "sentenceIndex": 3,
@@ -667,12 +646,9 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-02": "本句指「被視為一個整體的青少年／年輕人群體」。",
-        "youth-mcq-01": "「一個人從童年逐步進入成年前後的年輕生命階段」與本句語境不同。",
-        "youth-mcq-03": "「一名年輕人，常見於較正式、新聞或法律語境」與本句語境不同。",
-        "youth-mcq-04": "「多名個別青年／年輕人」與本句語境不同。",
-        "youth-mcq-05": "「某件事物尚未成熟、仍處於剛起步的發展初期」與本句語境不同。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。"
+        "youth-mcq-02": "本句的「youth」指「被視為一個整體的青少年／年輕人群體」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-02"
     },
@@ -684,11 +660,8 @@ export default {
       "masked": "Sport can play an important role in supporting ____.",
       "options": [
         "youth-mcq-02",
-        "youth-mcq-01",
-        "youth-mcq-03",
-        "youth-mcq-04",
         "youth-mcq-05",
-        "youth-mcq-06"
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth」指「被視為一個整體的青少年／年輕人群體」。",
       "sentenceIndex": 4,
@@ -697,12 +670,9 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-02": "本句指「被視為一個整體的青少年／年輕人群體」。",
-        "youth-mcq-01": "「一個人從童年逐步進入成年前後的年輕生命階段」與本句語境不同。",
-        "youth-mcq-03": "「一名年輕人，常見於較正式、新聞或法律語境」與本句語境不同。",
-        "youth-mcq-04": "「多名個別青年／年輕人」與本句語境不同。",
-        "youth-mcq-05": "「某件事物尚未成熟、仍處於剛起步的發展初期」與本句語境不同。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。"
+        "youth-mcq-02": "本句的「youth」指「被視為一個整體的青少年／年輕人群體」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-02"
     },
@@ -714,11 +684,9 @@ export default {
       "masked": "A ____ was waiting outside the sports centre.",
       "options": [
         "youth-mcq-03",
-        "youth-mcq-02",
-        "youth-mcq-04",
-        "youth-mcq-01",
         "youth-mcq-05",
-        "youth-mcq-06"
+        "youth-mcq-16",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth」指「一名年輕人，常見於較正式、新聞或法律語境」。",
       "sentenceIndex": 5,
@@ -727,12 +695,10 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-03": "本句指「一名年輕人，常見於較正式、新聞或法律語境」。",
-        "youth-mcq-02": "「被視為一個整體的青少年／年輕人群體」與本句語境不同。",
-        "youth-mcq-04": "「多名個別青年／年輕人」與本句語境不同。",
-        "youth-mcq-01": "「一個人從童年逐步進入成年前後的年輕生命階段」與本句語境不同。",
-        "youth-mcq-05": "「某件事物尚未成熟、仍處於剛起步的發展初期」與本句語境不同。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。"
+        "youth-mcq-03": "本句的「youth」指「一名年輕人，常見於較正式、新聞或法律語境」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-03"
     },
@@ -744,11 +710,9 @@ export default {
       "masked": "The police spoke to two ____.",
       "options": [
         "youth-mcq-03",
-        "youth-mcq-02",
-        "youth-mcq-04",
-        "youth-mcq-01",
         "youth-mcq-05",
-        "youth-mcq-06"
+        "youth-mcq-16",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youths」指「一名年輕人，常見於較正式、新聞或法律語境」。",
       "sentenceIndex": 6,
@@ -757,12 +721,10 @@ export default {
         "youths"
       ],
       "optionReasons": {
-        "youth-mcq-03": "本句指「一名年輕人，常見於較正式、新聞或法律語境」。",
-        "youth-mcq-02": "「被視為一個整體的青少年／年輕人群體」與本句語境不同。",
-        "youth-mcq-04": "「多名個別青年／年輕人」與本句語境不同。",
-        "youth-mcq-01": "「一個人從童年逐步進入成年前後的年輕生命階段」與本句語境不同。",
-        "youth-mcq-05": "「某件事物尚未成熟、仍處於剛起步的發展初期」與本句語境不同。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。"
+        "youth-mcq-03": "本句的「youths」指「一名年輕人，常見於較正式、新聞或法律語境」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-03"
     },
@@ -774,11 +736,7 @@ export default {
       "masked": "Several ____ joined the training programme.",
       "options": [
         "youth-mcq-04",
-        "youth-mcq-03",
-        "youth-mcq-05",
-        "youth-mcq-02",
-        "youth-mcq-06",
-        "youth-mcq-01"
+        "youth-mcq-05"
       ],
       "explanation": "本句的「youths」指「多名個別青年／年輕人」。",
       "sentenceIndex": 7,
@@ -787,12 +745,8 @@ export default {
         "youths"
       ],
       "optionReasons": {
-        "youth-mcq-04": "本句指「多名個別青年／年輕人」。",
-        "youth-mcq-03": "「一名年輕人，常見於較正式、新聞或法律語境」與本句語境不同。",
-        "youth-mcq-05": "「某件事物尚未成熟、仍處於剛起步的發展初期」與本句語境不同。",
-        "youth-mcq-02": "「被視為一個整體的青少年／年輕人群體」與本句語境不同。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。",
-        "youth-mcq-01": "「一個人從童年逐步進入成年前後的年輕生命階段」與本句語境不同。"
+        "youth-mcq-04": "本句的「youths」指「多名個別青年／年輕人」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-04"
     },
@@ -804,11 +758,7 @@ export default {
       "masked": "The centre offers evening activities for local ____.",
       "options": [
         "youth-mcq-04",
-        "youth-mcq-03",
-        "youth-mcq-05",
-        "youth-mcq-02",
-        "youth-mcq-06",
-        "youth-mcq-01"
+        "youth-mcq-05"
       ],
       "explanation": "本句的「youths」指「多名個別青年／年輕人」。",
       "sentenceIndex": 8,
@@ -817,12 +767,8 @@ export default {
         "youths"
       ],
       "optionReasons": {
-        "youth-mcq-04": "本句指「多名個別青年／年輕人」。",
-        "youth-mcq-03": "「一名年輕人，常見於較正式、新聞或法律語境」與本句語境不同。",
-        "youth-mcq-05": "「某件事物尚未成熟、仍處於剛起步的發展初期」與本句語境不同。",
-        "youth-mcq-02": "「被視為一個整體的青少年／年輕人群體」與本句語境不同。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。",
-        "youth-mcq-01": "「一個人從童年逐步進入成年前後的年輕生命階段」與本句語境不同。"
+        "youth-mcq-04": "本句的「youths」指「多名個別青年／年輕人」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-04"
     },
@@ -834,11 +780,8 @@ export default {
       "masked": "The sport was still in its ____ at that time.",
       "options": [
         "youth-mcq-05",
-        "youth-mcq-04",
-        "youth-mcq-06",
-        "youth-mcq-03",
-        "youth-mcq-07",
-        "youth-mcq-02"
+        "youth-mcq-18",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth」指「某件事物尚未成熟、仍處於剛起步的發展初期」。",
       "sentenceIndex": 9,
@@ -847,12 +790,9 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-05": "本句指「某件事物尚未成熟、仍處於剛起步的發展初期」。",
-        "youth-mcq-04": "「多名個別青年／年輕人」與本句語境不同。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。",
-        "youth-mcq-03": "「一名年輕人，常見於較正式、新聞或法律語境」與本句語境不同。",
-        "youth-mcq-07": "「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」與本句語境不同。",
-        "youth-mcq-02": "「被視為一個整體的青少年／年輕人群體」與本句語境不同。"
+        "youth-mcq-05": "本句的「youth」指「某件事物尚未成熟、仍處於剛起步的發展初期」。",
+        "youth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-05"
     },
@@ -864,11 +804,9 @@ export default {
       "masked": "The technology is still in its ____.",
       "options": [
         "youth-mcq-05",
-        "youth-mcq-04",
+        "youth-mcq-10",
         "youth-mcq-06",
-        "youth-mcq-03",
-        "youth-mcq-07",
-        "youth-mcq-02"
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth」指「某件事物尚未成熟、仍處於剛起步的發展初期」。",
       "sentenceIndex": 10,
@@ -877,12 +815,10 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-05": "本句指「某件事物尚未成熟、仍處於剛起步的發展初期」。",
-        "youth-mcq-04": "「多名個別青年／年輕人」與本句語境不同。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。",
-        "youth-mcq-03": "「一名年輕人，常見於較正式、新聞或法律語境」與本句語境不同。",
-        "youth-mcq-07": "「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」與本句語境不同。",
-        "youth-mcq-02": "「被視為一個整體的青少年／年輕人群體」與本句語境不同。"
+        "youth-mcq-05": "本句的「youth」指「某件事物尚未成熟、仍處於剛起步的發展初期」。",
+        "youth-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-05"
     },
@@ -895,10 +831,8 @@ export default {
       "options": [
         "youth-mcq-06",
         "youth-mcq-05",
-        "youth-mcq-07",
-        "youth-mcq-04",
-        "youth-mcq-08",
-        "youth-mcq-03"
+        "youth-mcq-20",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth」指「與年輕相關的朝氣、活力、新鮮感或青春感」。",
       "sentenceIndex": 11,
@@ -907,12 +841,10 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-06": "本句指「與年輕相關的朝氣、活力、新鮮感或青春感」。",
-        "youth-mcq-05": "「某件事物尚未成熟、仍處於剛起步的發展初期」與本句語境不同。",
-        "youth-mcq-07": "「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」與本句語境不同。",
-        "youth-mcq-04": "「多名個別青年／年輕人」與本句語境不同。",
-        "youth-mcq-08": "「外表、行為或風格中呈現出的青春感和年輕活力」與本句語境不同。",
-        "youth-mcq-03": "「一名年輕人，常見於較正式、新聞或法律語境」與本句語境不同。"
+        "youth-mcq-06": "本句的「youth」指「與年輕相關的朝氣、活力、新鮮感或青春感」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-06"
     },
@@ -925,10 +857,8 @@ export default {
       "options": [
         "youth-mcq-06",
         "youth-mcq-05",
-        "youth-mcq-07",
-        "youth-mcq-04",
-        "youth-mcq-08",
-        "youth-mcq-03"
+        "youth-mcq-19",
+        "youth-mcq-20"
       ],
       "explanation": "本句的「youth」指「與年輕相關的朝氣、活力、新鮮感或青春感」。",
       "sentenceIndex": 12,
@@ -937,12 +867,10 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-06": "本句指「與年輕相關的朝氣、活力、新鮮感或青春感」。",
-        "youth-mcq-05": "「某件事物尚未成熟、仍處於剛起步的發展初期」與本句語境不同。",
-        "youth-mcq-07": "「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」與本句語境不同。",
-        "youth-mcq-04": "「多名個別青年／年輕人」與本句語境不同。",
-        "youth-mcq-08": "「外表、行為或風格中呈現出的青春感和年輕活力」與本句語境不同。",
-        "youth-mcq-03": "「一名年輕人，常見於較正式、新聞或法律語境」與本句語境不同。"
+        "youth-mcq-06": "本句的「youth」指「與年輕相關的朝氣、活力、新鮮感或青春感」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-06"
     },
@@ -954,11 +882,9 @@ export default {
       "masked": "He still has a very ____ appearance.",
       "options": [
         "youth-mcq-07",
-        "youth-mcq-06",
-        "youth-mcq-08",
         "youth-mcq-05",
-        "youth-mcq-09",
-        "youth-mcq-04"
+        "youth-mcq-19",
+        "youth-mcq-20"
       ],
       "explanation": "本句的「youthful」指「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」。",
       "sentenceIndex": 13,
@@ -967,12 +893,10 @@ export default {
         "youthful"
       ],
       "optionReasons": {
-        "youth-mcq-07": "本句指「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。",
-        "youth-mcq-08": "「外表、行為或風格中呈現出的青春感和年輕活力」與本句語境不同。",
-        "youth-mcq-05": "「某件事物尚未成熟、仍處於剛起步的發展初期」與本句語境不同。",
-        "youth-mcq-09": "「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」與本句語境不同。",
-        "youth-mcq-04": "「多名個別青年／年輕人」與本句語境不同。"
+        "youth-mcq-07": "本句的「youthful」指「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-07"
     },
@@ -984,11 +908,9 @@ export default {
       "masked": "She brings a ____ energy to the team.",
       "options": [
         "youth-mcq-07",
-        "youth-mcq-06",
-        "youth-mcq-08",
         "youth-mcq-05",
-        "youth-mcq-09",
-        "youth-mcq-04"
+        "youth-mcq-19",
+        "youth-mcq-20"
       ],
       "explanation": "本句的「youthful」指「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」。",
       "sentenceIndex": 14,
@@ -997,12 +919,10 @@ export default {
         "youthful"
       ],
       "optionReasons": {
-        "youth-mcq-07": "本句指「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。",
-        "youth-mcq-08": "「外表、行為或風格中呈現出的青春感和年輕活力」與本句語境不同。",
-        "youth-mcq-05": "「某件事物尚未成熟、仍處於剛起步的發展初期」與本句語境不同。",
-        "youth-mcq-09": "「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」與本句語境不同。",
-        "youth-mcq-04": "「多名個別青年／年輕人」與本句語境不同。"
+        "youth-mcq-07": "本句的「youthful」指「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-07"
     },
@@ -1014,11 +934,9 @@ export default {
       "masked": "The brand wants a more ____ image.",
       "options": [
         "youth-mcq-07",
-        "youth-mcq-06",
-        "youth-mcq-08",
         "youth-mcq-05",
-        "youth-mcq-09",
-        "youth-mcq-04"
+        "youth-mcq-20",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youthful」指「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」。",
       "sentenceIndex": 15,
@@ -1027,12 +945,10 @@ export default {
         "youthful"
       ],
       "optionReasons": {
-        "youth-mcq-07": "本句指「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。",
-        "youth-mcq-08": "「外表、行為或風格中呈現出的青春感和年輕活力」與本句語境不同。",
-        "youth-mcq-05": "「某件事物尚未成熟、仍處於剛起步的發展初期」與本句語境不同。",
-        "youth-mcq-09": "「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」與本句語境不同。",
-        "youth-mcq-04": "「多名個別青年／年輕人」與本句語境不同。"
+        "youth-mcq-07": "本句的「youthful」指「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-07"
     },
@@ -1044,11 +960,9 @@ export default {
       "masked": "The redesign gives the website a more ____ feel.",
       "options": [
         "youth-mcq-07",
-        "youth-mcq-06",
-        "youth-mcq-08",
         "youth-mcq-05",
-        "youth-mcq-09",
-        "youth-mcq-04"
+        "youth-mcq-20",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youthful」指「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」。",
       "sentenceIndex": 16,
@@ -1057,12 +971,10 @@ export default {
         "youthful"
       ],
       "optionReasons": {
-        "youth-mcq-07": "本句指「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。",
-        "youth-mcq-08": "「外表、行為或風格中呈現出的青春感和年輕活力」與本句語境不同。",
-        "youth-mcq-05": "「某件事物尚未成熟、仍處於剛起步的發展初期」與本句語境不同。",
-        "youth-mcq-09": "「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」與本句語境不同。",
-        "youth-mcq-04": "「多名個別青年／年輕人」與本句語境不同。"
+        "youth-mcq-07": "本句的「youthful」指「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-07"
     },
@@ -1074,11 +986,9 @@ export default {
       "masked": "Her ____ gave the campaign a fresh energy.",
       "options": [
         "youth-mcq-08",
-        "youth-mcq-07",
-        "youth-mcq-09",
-        "youth-mcq-06",
-        "youth-mcq-10",
-        "youth-mcq-05"
+        "youth-mcq-05",
+        "youth-mcq-19",
+        "youth-mcq-20"
       ],
       "explanation": "本句的「youthfulness」指「外表、行為或風格中呈現出的青春感和年輕活力」。",
       "sentenceIndex": 17,
@@ -1087,12 +997,10 @@ export default {
         "youthfulness"
       ],
       "optionReasons": {
-        "youth-mcq-08": "本句指「外表、行為或風格中呈現出的青春感和年輕活力」。",
-        "youth-mcq-07": "「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」與本句語境不同。",
-        "youth-mcq-09": "「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」與本句語境不同。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。",
-        "youth-mcq-10": "「為青少年而設的體育活動、訓練及競賽」與本句語境不同。",
-        "youth-mcq-05": "「某件事物尚未成熟、仍處於剛起步的發展初期」與本句語境不同。"
+        "youth-mcq-08": "本句的「youthfulness」指「外表、行為或風格中呈現出的青春感和年輕活力」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-08"
     },
@@ -1104,11 +1012,9 @@ export default {
       "masked": "The design aims to preserve a sense of ____.",
       "options": [
         "youth-mcq-08",
-        "youth-mcq-07",
-        "youth-mcq-09",
-        "youth-mcq-06",
-        "youth-mcq-10",
-        "youth-mcq-05"
+        "youth-mcq-05",
+        "youth-mcq-20",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youthfulness」指「外表、行為或風格中呈現出的青春感和年輕活力」。",
       "sentenceIndex": 18,
@@ -1117,12 +1023,10 @@ export default {
         "youthfulness"
       ],
       "optionReasons": {
-        "youth-mcq-08": "本句指「外表、行為或風格中呈現出的青春感和年輕活力」。",
-        "youth-mcq-07": "「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」與本句語境不同。",
-        "youth-mcq-09": "「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」與本句語境不同。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。",
-        "youth-mcq-10": "「為青少年而設的體育活動、訓練及競賽」與本句語境不同。",
-        "youth-mcq-05": "「某件事物尚未成熟、仍處於剛起步的發展初期」與本句語境不同。"
+        "youth-mcq-08": "本句的「youthfulness」指「外表、行為或風格中呈現出的青春感和年輕活力」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-08"
     },
@@ -1134,11 +1038,8 @@ export default {
       "masked": "The coach has a strong interest in ____.",
       "options": [
         "youth-mcq-09",
-        "youth-mcq-08",
-        "youth-mcq-10",
-        "youth-mcq-07",
-        "youth-mcq-11",
-        "youth-mcq-06"
+        "youth-mcq-03",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth development」指「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」。",
       "sentenceIndex": 19,
@@ -1147,12 +1048,9 @@ export default {
         "youth development"
       ],
       "optionReasons": {
-        "youth-mcq-09": "本句指「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」。",
-        "youth-mcq-08": "「外表、行為或風格中呈現出的青春感和年輕活力」與本句語境不同。",
-        "youth-mcq-10": "「為青少年而設的體育活動、訓練及競賽」與本句語境不同。",
-        "youth-mcq-07": "「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」與本句語境不同。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。"
+        "youth-mcq-09": "本句的「youth development」指「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」。",
+        "youth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-09"
     },
@@ -1164,11 +1062,8 @@ export default {
       "masked": "Sport can support long-term ____ development.",
       "options": [
         "youth-mcq-09",
-        "youth-mcq-08",
-        "youth-mcq-10",
-        "youth-mcq-07",
-        "youth-mcq-11",
-        "youth-mcq-06"
+        "youth-mcq-17",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth」指「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」。",
       "sentenceIndex": 20,
@@ -1177,12 +1072,9 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-09": "本句指「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」。",
-        "youth-mcq-08": "「外表、行為或風格中呈現出的青春感和年輕活力」與本句語境不同。",
-        "youth-mcq-10": "「為青少年而設的體育活動、訓練及競賽」與本句語境不同。",
-        "youth-mcq-07": "「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」與本句語境不同。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。",
-        "youth-mcq-06": "「與年輕相關的朝氣、活力、新鮮感或青春感」與本句語境不同。"
+        "youth-mcq-09": "本句的「youth」指「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」。",
+        "youth-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-09"
     },
@@ -1194,11 +1086,9 @@ export default {
       "masked": "She has worked in ____ for ten years.",
       "options": [
         "youth-mcq-10",
-        "youth-mcq-09",
-        "youth-mcq-11",
-        "youth-mcq-08",
-        "youth-mcq-12",
-        "youth-mcq-07"
+        "youth-mcq-05",
+        "youth-mcq-01",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth sport」指「為青少年而設的體育活動、訓練及競賽」。",
       "sentenceIndex": 21,
@@ -1207,12 +1097,10 @@ export default {
         "youth sport"
       ],
       "optionReasons": {
-        "youth-mcq-10": "本句指「為青少年而設的體育活動、訓練及競賽」。",
-        "youth-mcq-09": "「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」與本句語境不同。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。",
-        "youth-mcq-08": "「外表、行為或風格中呈現出的青春感和年輕活力」與本句語境不同。",
-        "youth-mcq-12": "「主要由青少年或年輕運動員組成的隊伍」與本句語境不同。",
-        "youth-mcq-07": "「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」與本句語境不同。"
+        "youth-mcq-10": "本句的「youth sport」指「為青少年而設的體育活動、訓練及競賽」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-10"
     },
@@ -1224,11 +1112,9 @@ export default {
       "masked": "Good coaching is essential in ____ sport.",
       "options": [
         "youth-mcq-10",
-        "youth-mcq-09",
-        "youth-mcq-11",
-        "youth-mcq-08",
-        "youth-mcq-12",
-        "youth-mcq-07"
+        "youth-mcq-05",
+        "youth-mcq-03",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth」指「為青少年而設的體育活動、訓練及競賽」。",
       "sentenceIndex": 22,
@@ -1237,12 +1123,10 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-10": "本句指「為青少年而設的體育活動、訓練及競賽」。",
-        "youth-mcq-09": "「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」與本句語境不同。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。",
-        "youth-mcq-08": "「外表、行為或風格中呈現出的青春感和年輕活力」與本句語境不同。",
-        "youth-mcq-12": "「主要由青少年或年輕運動員組成的隊伍」與本句語境不同。",
-        "youth-mcq-07": "「外表、行為、精神或風格具有年輕、活潑、有朝氣特徵的」與本句語境不同。"
+        "youth-mcq-10": "本句的「youth」指「為青少年而設的體育活動、訓練及競賽」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-10"
     },
@@ -1254,11 +1138,8 @@ export default {
       "masked": "A ____ needs appropriate training and recovery.",
       "options": [
         "youth-mcq-11",
-        "youth-mcq-10",
-        "youth-mcq-12",
-        "youth-mcq-09",
-        "youth-mcq-13",
-        "youth-mcq-08"
+        "youth-mcq-17",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth athlete」指「正處於青少年年齡階段的運動員」。",
       "sentenceIndex": 23,
@@ -1267,12 +1148,9 @@ export default {
         "youth athlete"
       ],
       "optionReasons": {
-        "youth-mcq-11": "本句指「正處於青少年年齡階段的運動員」。",
-        "youth-mcq-10": "「為青少年而設的體育活動、訓練及競賽」與本句語境不同。",
-        "youth-mcq-12": "「主要由青少年或年輕運動員組成的隊伍」與本句語境不同。",
-        "youth-mcq-09": "「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」與本句語境不同。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
-        "youth-mcq-08": "「外表、行為或風格中呈現出的青春感和年輕活力」與本句語境不同。"
+        "youth-mcq-11": "本句的「youth athlete」指「正處於青少年年齡階段的運動員」。",
+        "youth-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-11"
     },
@@ -1284,11 +1162,8 @@ export default {
       "masked": "The programme supports talented ____ athletes.",
       "options": [
         "youth-mcq-11",
-        "youth-mcq-10",
-        "youth-mcq-12",
-        "youth-mcq-09",
-        "youth-mcq-13",
-        "youth-mcq-08"
+        "youth-mcq-17",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth」指「正處於青少年年齡階段的運動員」。",
       "sentenceIndex": 24,
@@ -1297,12 +1172,9 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-11": "本句指「正處於青少年年齡階段的運動員」。",
-        "youth-mcq-10": "「為青少年而設的體育活動、訓練及競賽」與本句語境不同。",
-        "youth-mcq-12": "「主要由青少年或年輕運動員組成的隊伍」與本句語境不同。",
-        "youth-mcq-09": "「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」與本句語境不同。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
-        "youth-mcq-08": "「外表、行為或風格中呈現出的青春感和年輕活力」與本句語境不同。"
+        "youth-mcq-11": "本句的「youth」指「正處於青少年年齡階段的運動員」。",
+        "youth-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-11"
     },
@@ -1314,11 +1186,8 @@ export default {
       "masked": "He began coaching the club’s ____.",
       "options": [
         "youth-mcq-12",
-        "youth-mcq-11",
-        "youth-mcq-13",
-        "youth-mcq-10",
-        "youth-mcq-14",
-        "youth-mcq-09"
+        "youth-mcq-05",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth team」指「主要由青少年或年輕運動員組成的隊伍」。",
       "sentenceIndex": 25,
@@ -1327,12 +1196,9 @@ export default {
         "youth team"
       ],
       "optionReasons": {
-        "youth-mcq-12": "本句指「主要由青少年或年輕運動員組成的隊伍」。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
-        "youth-mcq-10": "「為青少年而設的體育活動、訓練及競賽」與本句語境不同。",
-        "youth-mcq-14": "「專門支援青少年成長、教育或生活需要的人員」與本句語境不同。",
-        "youth-mcq-09": "「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」與本句語境不同。"
+        "youth-mcq-12": "本句的「youth team」指「主要由青少年或年輕運動員組成的隊伍」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-12"
     },
@@ -1344,11 +1210,8 @@ export default {
       "masked": "Several players progressed from the ____ team to the senior squad.",
       "options": [
         "youth-mcq-12",
-        "youth-mcq-11",
-        "youth-mcq-13",
-        "youth-mcq-10",
-        "youth-mcq-14",
-        "youth-mcq-09"
+        "youth-mcq-05",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth」指「主要由青少年或年輕運動員組成的隊伍」。",
       "sentenceIndex": 26,
@@ -1357,12 +1220,9 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-12": "本句指「主要由青少年或年輕運動員組成的隊伍」。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
-        "youth-mcq-10": "「為青少年而設的體育活動、訓練及競賽」與本句語境不同。",
-        "youth-mcq-14": "「專門支援青少年成長、教育或生活需要的人員」與本句語境不同。",
-        "youth-mcq-09": "「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」與本句語境不同。"
+        "youth-mcq-12": "本句的「youth」指「主要由青少年或年輕運動員組成的隊伍」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-12"
     },
@@ -1374,11 +1234,8 @@ export default {
       "masked": "The local ____ runs sports activities every weekend.",
       "options": [
         "youth-mcq-12",
-        "youth-mcq-11",
-        "youth-mcq-13",
-        "youth-mcq-10",
-        "youth-mcq-14",
-        "youth-mcq-09"
+        "youth-mcq-05",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth club」指「主要由青少年或年輕運動員組成的隊伍」。",
       "sentenceIndex": 27,
@@ -1387,12 +1244,9 @@ export default {
         "youth club"
       ],
       "optionReasons": {
-        "youth-mcq-12": "本句指「主要由青少年或年輕運動員組成的隊伍」。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
-        "youth-mcq-10": "「為青少年而設的體育活動、訓練及競賽」與本句語境不同。",
-        "youth-mcq-14": "「專門支援青少年成長、教育或生活需要的人員」與本句語境不同。",
-        "youth-mcq-09": "「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」與本句語境不同。"
+        "youth-mcq-12": "本句的「youth club」指「主要由青少年或年輕運動員組成的隊伍」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-12"
     },
@@ -1404,11 +1258,8 @@ export default {
       "masked": "She volunteered at a ____ club.",
       "options": [
         "youth-mcq-12",
-        "youth-mcq-11",
-        "youth-mcq-13",
-        "youth-mcq-10",
-        "youth-mcq-14",
-        "youth-mcq-09"
+        "youth-mcq-05",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth」指「主要由青少年或年輕運動員組成的隊伍」。",
       "sentenceIndex": 28,
@@ -1417,12 +1268,9 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-12": "本句指「主要由青少年或年輕運動員組成的隊伍」。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
-        "youth-mcq-10": "「為青少年而設的體育活動、訓練及競賽」與本句語境不同。",
-        "youth-mcq-14": "「專門支援青少年成長、教育或生活需要的人員」與本句語境不同。",
-        "youth-mcq-09": "「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」與本句語境不同。"
+        "youth-mcq-12": "本句的「youth」指「主要由青少年或年輕運動員組成的隊伍」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-12"
     },
@@ -1434,11 +1282,8 @@ export default {
       "masked": "The new ____ includes a sports hall.",
       "options": [
         "youth-mcq-12",
-        "youth-mcq-11",
-        "youth-mcq-13",
-        "youth-mcq-10",
-        "youth-mcq-14",
-        "youth-mcq-09"
+        "youth-mcq-05",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth centre」指「主要由青少年或年輕運動員組成的隊伍」。",
       "sentenceIndex": 29,
@@ -1447,12 +1292,9 @@ export default {
         "youth centre"
       ],
       "optionReasons": {
-        "youth-mcq-12": "本句指「主要由青少年或年輕運動員組成的隊伍」。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
-        "youth-mcq-10": "「為青少年而設的體育活動、訓練及競賽」與本句語境不同。",
-        "youth-mcq-14": "「專門支援青少年成長、教育或生活需要的人員」與本句語境不同。",
-        "youth-mcq-09": "「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」與本句語境不同。"
+        "youth-mcq-12": "本句的「youth centre」指「主要由青少年或年輕運動員組成的隊伍」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-12"
     },
@@ -1464,11 +1306,8 @@ export default {
       "masked": "The ____ centre offers mentoring and training.",
       "options": [
         "youth-mcq-12",
-        "youth-mcq-11",
-        "youth-mcq-13",
-        "youth-mcq-10",
-        "youth-mcq-14",
-        "youth-mcq-09"
+        "youth-mcq-05",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth」指「主要由青少年或年輕運動員組成的隊伍」。",
       "sentenceIndex": 30,
@@ -1477,12 +1316,9 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-12": "本句指「主要由青少年或年輕運動員組成的隊伍」。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
-        "youth-mcq-10": "「為青少年而設的體育活動、訓練及競賽」與本句語境不同。",
-        "youth-mcq-14": "「專門支援青少年成長、教育或生活需要的人員」與本句語境不同。",
-        "youth-mcq-09": "「透過教育、訓練和支援促進青少年能力、品格、健康及社會成長的過程」與本句語境不同。"
+        "youth-mcq-12": "本句的「youth」指「主要由青少年或年輕運動員組成的隊伍」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-12"
     },
@@ -1494,11 +1330,7 @@ export default {
       "masked": "He has experience in ____.",
       "options": [
         "youth-mcq-13",
-        "youth-mcq-12",
-        "youth-mcq-14",
-        "youth-mcq-11",
-        "youth-mcq-15",
-        "youth-mcq-10"
+        "youth-mcq-21"
       ],
       "explanation": "本句的「youth work」指「透過社區、教育、輔導和活動支援青少年發展的專業工作」。",
       "sentenceIndex": 31,
@@ -1507,12 +1339,8 @@ export default {
         "youth work"
       ],
       "optionReasons": {
-        "youth-mcq-13": "本句指「透過社區、教育、輔導和活動支援青少年發展的專業工作」。",
-        "youth-mcq-12": "「主要由青少年或年輕運動員組成的隊伍」與本句語境不同。",
-        "youth-mcq-14": "「專門支援青少年成長、教育或生活需要的人員」與本句語境不同。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。",
-        "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。",
-        "youth-mcq-10": "「為青少年而設的體育活動、訓練及競賽」與本句語境不同。"
+        "youth-mcq-13": "本句的「youth work」指「透過社區、教育、輔導和活動支援青少年發展的專業工作」。",
+        "youth-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-13"
     },
@@ -1524,11 +1352,7 @@ export default {
       "masked": "____ work often combines education, mentoring and community support.",
       "options": [
         "youth-mcq-13",
-        "youth-mcq-12",
-        "youth-mcq-14",
-        "youth-mcq-11",
-        "youth-mcq-15",
-        "youth-mcq-10"
+        "youth-mcq-21"
       ],
       "explanation": "本句的「Youth」指「透過社區、教育、輔導和活動支援青少年發展的專業工作」。",
       "sentenceIndex": 32,
@@ -1537,12 +1361,8 @@ export default {
         "Youth"
       ],
       "optionReasons": {
-        "youth-mcq-13": "本句指「透過社區、教育、輔導和活動支援青少年發展的專業工作」。",
-        "youth-mcq-12": "「主要由青少年或年輕運動員組成的隊伍」與本句語境不同。",
-        "youth-mcq-14": "「專門支援青少年成長、教育或生活需要的人員」與本句語境不同。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。",
-        "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。",
-        "youth-mcq-10": "「為青少年而設的體育活動、訓練及競賽」與本句語境不同。"
+        "youth-mcq-13": "本句的「Youth」指「透過社區、教育、輔導和活動支援青少年發展的專業工作」。",
+        "youth-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-13"
     },
@@ -1554,11 +1374,8 @@ export default {
       "masked": "The ____ helped students plan their next steps.",
       "options": [
         "youth-mcq-14",
-        "youth-mcq-13",
-        "youth-mcq-15",
-        "youth-mcq-12",
-        "youth-mcq-16",
-        "youth-mcq-11"
+        "youth-mcq-03",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth worker」指「專門支援青少年成長、教育或生活需要的人員」。",
       "sentenceIndex": 33,
@@ -1567,12 +1384,9 @@ export default {
         "youth worker"
       ],
       "optionReasons": {
-        "youth-mcq-14": "本句指「專門支援青少年成長、教育或生活需要的人員」。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
-        "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。",
-        "youth-mcq-12": "「主要由青少年或年輕運動員組成的隊伍」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。"
+        "youth-mcq-14": "本句的「youth worker」指「專門支援青少年成長、教育或生活需要的人員」。",
+        "youth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-14"
     },
@@ -1584,11 +1398,8 @@ export default {
       "masked": "____ workers often support vulnerable young people.",
       "options": [
         "youth-mcq-14",
-        "youth-mcq-13",
-        "youth-mcq-15",
-        "youth-mcq-12",
-        "youth-mcq-16",
-        "youth-mcq-11"
+        "youth-mcq-03",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「Youth」指「專門支援青少年成長、教育或生活需要的人員」。",
       "sentenceIndex": 34,
@@ -1597,12 +1408,9 @@ export default {
         "Youth"
       ],
       "optionReasons": {
-        "youth-mcq-14": "本句指「專門支援青少年成長、教育或生活需要的人員」。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
-        "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。",
-        "youth-mcq-12": "「主要由青少年或年輕運動員組成的隊伍」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。"
+        "youth-mcq-14": "本句的「Youth」指「專門支援青少年成長、教育或生活需要的人員」。",
+        "youth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-14"
     },
@@ -1614,11 +1422,8 @@ export default {
       "masked": "The Foundation launched a new ____.",
       "options": [
         "youth-mcq-14",
-        "youth-mcq-13",
-        "youth-mcq-15",
-        "youth-mcq-12",
-        "youth-mcq-16",
-        "youth-mcq-11"
+        "youth-mcq-03",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth programme」指「專門支援青少年成長、教育或生活需要的人員」。",
       "sentenceIndex": 35,
@@ -1627,12 +1432,9 @@ export default {
         "youth programme"
       ],
       "optionReasons": {
-        "youth-mcq-14": "本句指「專門支援青少年成長、教育或生活需要的人員」。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
-        "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。",
-        "youth-mcq-12": "「主要由青少年或年輕運動員組成的隊伍」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。"
+        "youth-mcq-14": "本句的「youth programme」指「專門支援青少年成長、教育或生活需要的人員」。",
+        "youth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-14"
     },
@@ -1644,11 +1446,8 @@ export default {
       "masked": "The ____ programme combines sport and mentoring.",
       "options": [
         "youth-mcq-14",
-        "youth-mcq-13",
-        "youth-mcq-15",
-        "youth-mcq-12",
-        "youth-mcq-16",
-        "youth-mcq-11"
+        "youth-mcq-03",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth」指「專門支援青少年成長、教育或生活需要的人員」。",
       "sentenceIndex": 36,
@@ -1657,12 +1456,9 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-14": "本句指「專門支援青少年成長、教育或生活需要的人員」。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
-        "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。",
-        "youth-mcq-12": "「主要由青少年或年輕運動員組成的隊伍」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。"
+        "youth-mcq-14": "本句的「youth」指「專門支援青少年成長、教育或生活需要的人員」。",
+        "youth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-14"
     },
@@ -1674,11 +1470,9 @@ export default {
       "masked": "The council provides ____ across the district.",
       "options": [
         "youth-pdf-001",
-        "youth-mcq-13",
-        "youth-mcq-15",
-        "youth-mcq-12",
-        "youth-mcq-16",
-        "youth-mcq-11"
+        "youth-mcq-05",
+        "youth-mcq-03",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth services」指「為青少年提供教育、健康、就業、輔導、活動等支援的公共／社區服務」。",
       "sentenceIndex": 37,
@@ -1687,12 +1481,10 @@ export default {
         "youth services"
       ],
       "optionReasons": {
-        "youth-pdf-001": "本句指「為青少年提供教育、健康、就業、輔導、活動等支援的公共／社區服務」。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
-        "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。",
-        "youth-mcq-12": "「主要由青少年或年輕運動員組成的隊伍」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。"
+        "youth-pdf-001": "本句的「youth services」指「為青少年提供教育、健康、就業、輔導、活動等支援的公共／社區服務」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-pdf-001"
     },
@@ -1704,11 +1496,9 @@ export default {
       "masked": "Funding for ____ services has increased.",
       "options": [
         "youth-pdf-001",
-        "youth-mcq-13",
-        "youth-mcq-15",
-        "youth-mcq-12",
-        "youth-mcq-16",
-        "youth-mcq-11"
+        "youth-mcq-05",
+        "youth-mcq-03",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth」指「為青少年提供教育、健康、就業、輔導、活動等支援的公共／社區服務」。",
       "sentenceIndex": 38,
@@ -1717,12 +1507,10 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-pdf-001": "本句指「為青少年提供教育、健康、就業、輔導、活動等支援的公共／社區服務」。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
-        "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。",
-        "youth-mcq-12": "「主要由青少年或年輕運動員組成的隊伍」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。",
-        "youth-mcq-11": "「正處於青少年年齡階段的運動員」與本句語境不同。"
+        "youth-pdf-001": "本句的「youth」指「為青少年提供教育、健康、就業、輔導、活動等支援的公共／社區服務」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-pdf-001"
     },
@@ -1734,11 +1522,7 @@ export default {
       "masked": "The organisation expanded its ____ work.",
       "options": [
         "youth-mcq-15",
-        "youth-mcq-14",
-        "youth-mcq-16",
-        "youth-mcq-13",
-        "youth-mcq-17",
-        "youth-mcq-12"
+        "youth-mcq-01"
       ],
       "explanation": "本句的「youth outreach」指「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」。",
       "sentenceIndex": 39,
@@ -1747,12 +1531,8 @@ export default {
         "youth outreach"
       ],
       "optionReasons": {
-        "youth-mcq-15": "本句指「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」。",
-        "youth-mcq-14": "「專門支援青少年成長、教育或生活需要的人員」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
-        "youth-mcq-17": "「年輕人共享的流行文化、價值觀、時尚及生活方式」與本句語境不同。",
-        "youth-mcq-12": "「主要由青少年或年輕運動員組成的隊伍」與本句語境不同。"
+        "youth-mcq-15": "本句的「youth outreach」指「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」。",
+        "youth-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-15"
     },
@@ -1764,11 +1544,7 @@ export default {
       "masked": "____ outreach helps identify promising athletes.",
       "options": [
         "youth-mcq-15",
-        "youth-mcq-14",
-        "youth-mcq-16",
-        "youth-mcq-13",
-        "youth-mcq-17",
-        "youth-mcq-12"
+        "youth-mcq-03"
       ],
       "explanation": "本句的「Youth」指「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」。",
       "sentenceIndex": 40,
@@ -1777,12 +1553,8 @@ export default {
         "Youth"
       ],
       "optionReasons": {
-        "youth-mcq-15": "本句指「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」。",
-        "youth-mcq-14": "「專門支援青少年成長、教育或生活需要的人員」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。",
-        "youth-mcq-17": "「年輕人共享的流行文化、價值觀、時尚及生活方式」與本句語境不同。",
-        "youth-mcq-12": "「主要由青少年或年輕運動員組成的隊伍」與本句語境不同。"
+        "youth-mcq-15": "本句的「Youth」指「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」。",
+        "youth-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-15"
     },
@@ -1794,11 +1566,9 @@ export default {
       "masked": "The programme aims to increase ____ in sport.",
       "options": [
         "youth-mcq-16",
-        "youth-mcq-15",
-        "youth-mcq-17",
-        "youth-mcq-14",
-        "youth-mcq-18",
-        "youth-mcq-13"
+        "youth-mcq-05",
+        "youth-mcq-03",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth engagement」指「青少年主動參與活動、組織、社區或決策的程度／過程」。",
       "sentenceIndex": 41,
@@ -1807,12 +1577,10 @@ export default {
         "youth engagement"
       ],
       "optionReasons": {
-        "youth-mcq-16": "本句指「青少年主動參與活動、組織、社區或決策的程度／過程」。",
-        "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。",
-        "youth-mcq-17": "「年輕人共享的流行文化、價值觀、時尚及生活方式」與本句語境不同。",
-        "youth-mcq-14": "「專門支援青少年成長、教育或生活需要的人員」與本句語境不同。",
-        "youth-mcq-18": "「以青少年或年輕消費者為主要對象的市場」與本句語境不同。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。"
+        "youth-mcq-16": "本句的「youth engagement」指「青少年主動參與活動、組織、社區或決策的程度／過程」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-16"
     },
@@ -1824,11 +1592,9 @@ export default {
       "masked": "____ engagement is central to the project.",
       "options": [
         "youth-mcq-16",
-        "youth-mcq-15",
-        "youth-mcq-17",
-        "youth-mcq-14",
-        "youth-mcq-18",
-        "youth-mcq-13"
+        "youth-mcq-05",
+        "youth-mcq-03",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「Youth」指「青少年主動參與活動、組織、社區或決策的程度／過程」。",
       "sentenceIndex": 42,
@@ -1837,12 +1603,10 @@ export default {
         "Youth"
       ],
       "optionReasons": {
-        "youth-mcq-16": "本句指「青少年主動參與活動、組織、社區或決策的程度／過程」。",
-        "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。",
-        "youth-mcq-17": "「年輕人共享的流行文化、價值觀、時尚及生活方式」與本句語境不同。",
-        "youth-mcq-14": "「專門支援青少年成長、教育或生活需要的人員」與本句語境不同。",
-        "youth-mcq-18": "「以青少年或年輕消費者為主要對象的市場」與本句語境不同。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。"
+        "youth-mcq-16": "本句的「Youth」指「青少年主動參與活動、組織、社區或決策的程度／過程」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-16"
     },
@@ -1854,11 +1618,9 @@ export default {
       "masked": "The camp focuses on ____.",
       "options": [
         "youth-mcq-16",
-        "youth-mcq-15",
-        "youth-mcq-17",
-        "youth-mcq-14",
-        "youth-mcq-18",
-        "youth-mcq-13"
+        "youth-mcq-05",
+        "youth-mcq-03",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth leadership」指「青少年主動參與活動、組織、社區或決策的程度／過程」。",
       "sentenceIndex": 43,
@@ -1867,12 +1629,10 @@ export default {
         "youth leadership"
       ],
       "optionReasons": {
-        "youth-mcq-16": "本句指「青少年主動參與活動、組織、社區或決策的程度／過程」。",
-        "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。",
-        "youth-mcq-17": "「年輕人共享的流行文化、價值觀、時尚及生活方式」與本句語境不同。",
-        "youth-mcq-14": "「專門支援青少年成長、教育或生活需要的人員」與本句語境不同。",
-        "youth-mcq-18": "「以青少年或年輕消費者為主要對象的市場」與本句語境不同。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。"
+        "youth-mcq-16": "本句的「youth leadership」指「青少年主動參與活動、組織、社區或決策的程度／過程」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-16"
     },
@@ -1884,11 +1644,9 @@ export default {
       "masked": "____ leadership programmes help young people build confidence.",
       "options": [
         "youth-mcq-16",
-        "youth-mcq-15",
-        "youth-mcq-17",
-        "youth-mcq-14",
-        "youth-mcq-18",
-        "youth-mcq-13"
+        "youth-mcq-05",
+        "youth-mcq-03",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「Youth」指「青少年主動參與活動、組織、社區或決策的程度／過程」。",
       "sentenceIndex": 44,
@@ -1897,12 +1655,10 @@ export default {
         "Youth"
       ],
       "optionReasons": {
-        "youth-mcq-16": "本句指「青少年主動參與活動、組織、社區或決策的程度／過程」。",
-        "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。",
-        "youth-mcq-17": "「年輕人共享的流行文化、價值觀、時尚及生活方式」與本句語境不同。",
-        "youth-mcq-14": "「專門支援青少年成長、教育或生活需要的人員」與本句語境不同。",
-        "youth-mcq-18": "「以青少年或年輕消費者為主要對象的市場」與本句語境不同。",
-        "youth-mcq-13": "「透過社區、教育、輔導和活動支援青少年發展的專業工作」與本句語境不同。"
+        "youth-mcq-16": "本句的「Youth」指「青少年主動參與活動、組織、社區或決策的程度／過程」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-16"
     },
@@ -1914,11 +1670,8 @@ export default {
       "masked": "Music has always played an important role in ____.",
       "options": [
         "youth-mcq-17",
-        "youth-mcq-16",
-        "youth-mcq-18",
-        "youth-mcq-15",
-        "youth-mcq-19",
-        "youth-mcq-14"
+        "youth-mcq-09",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth culture」指「年輕人共享的流行文化、價值觀、時尚及生活方式」。",
       "sentenceIndex": 45,
@@ -1927,12 +1680,9 @@ export default {
         "youth culture"
       ],
       "optionReasons": {
-        "youth-mcq-17": "本句指「年輕人共享的流行文化、價值觀、時尚及生活方式」。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。",
-        "youth-mcq-18": "「以青少年或年輕消費者為主要對象的市場」與本句語境不同。",
-        "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。",
-        "youth-mcq-19": "「青年人口中沒有工作而正在尋找工作的情況／比例」與本句語境不同。",
-        "youth-mcq-14": "「專門支援青少年成長、教育或生活需要的人員」與本句語境不同。"
+        "youth-mcq-17": "本句的「youth culture」指「年輕人共享的流行文化、價值觀、時尚及生活方式」。",
+        "youth-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-17"
     },
@@ -1944,11 +1694,9 @@ export default {
       "masked": "The brand tried to connect with ____ culture.",
       "options": [
         "youth-mcq-17",
-        "youth-mcq-16",
-        "youth-mcq-18",
-        "youth-mcq-15",
+        "youth-mcq-20",
         "youth-mcq-19",
-        "youth-mcq-14"
+        "youth-mcq-05"
       ],
       "explanation": "本句的「youth」指「年輕人共享的流行文化、價值觀、時尚及生活方式」。",
       "sentenceIndex": 46,
@@ -1957,12 +1705,10 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-17": "本句指「年輕人共享的流行文化、價值觀、時尚及生活方式」。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。",
-        "youth-mcq-18": "「以青少年或年輕消費者為主要對象的市場」與本句語境不同。",
-        "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。",
-        "youth-mcq-19": "「青年人口中沒有工作而正在尋找工作的情況／比例」與本句語境不同。",
-        "youth-mcq-14": "「專門支援青少年成長、教育或生活需要的人員」與本句語境不同。"
+        "youth-mcq-17": "本句的「youth」指「年輕人共享的流行文化、價值觀、時尚及生活方式」。",
+        "youth-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-17"
     },
@@ -1974,11 +1720,8 @@ export default {
       "masked": "The company is targeting the ____.",
       "options": [
         "youth-mcq-18",
-        "youth-mcq-17",
-        "youth-mcq-19",
-        "youth-mcq-16",
-        "youth-mcq-20",
-        "youth-mcq-15"
+        "youth-mcq-05",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth market」指「以青少年或年輕消費者為主要對象的市場」。",
       "sentenceIndex": 47,
@@ -1987,12 +1730,9 @@ export default {
         "youth market"
       ],
       "optionReasons": {
-        "youth-mcq-18": "本句指「以青少年或年輕消費者為主要對象的市場」。",
-        "youth-mcq-17": "「年輕人共享的流行文化、價值觀、時尚及生活方式」與本句語境不同。",
-        "youth-mcq-19": "「青年人口中沒有工作而正在尋找工作的情況／比例」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。",
-        "youth-mcq-20": "「專門處理青少年違法、處分、復康和支援的司法體系」與本句語境不同。",
-        "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。"
+        "youth-mcq-18": "本句的「youth market」指「以青少年或年輕消費者為主要對象的市場」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-18"
     },
@@ -2004,11 +1744,8 @@ export default {
       "masked": "The product became popular in the ____ market.",
       "options": [
         "youth-mcq-18",
-        "youth-mcq-17",
-        "youth-mcq-19",
-        "youth-mcq-16",
-        "youth-mcq-20",
-        "youth-mcq-15"
+        "youth-mcq-05",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth」指「以青少年或年輕消費者為主要對象的市場」。",
       "sentenceIndex": 48,
@@ -2017,12 +1754,9 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-18": "本句指「以青少年或年輕消費者為主要對象的市場」。",
-        "youth-mcq-17": "「年輕人共享的流行文化、價值觀、時尚及生活方式」與本句語境不同。",
-        "youth-mcq-19": "「青年人口中沒有工作而正在尋找工作的情況／比例」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。",
-        "youth-mcq-20": "「專門處理青少年違法、處分、復康和支援的司法體系」與本句語境不同。",
-        "youth-mcq-15": "「主動接觸青少年並提供資訊、活動、支援或發展機會的工作」與本句語境不同。"
+        "youth-mcq-18": "本句的「youth」指「以青少年或年輕消費者為主要對象的市場」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-18"
     },
@@ -2034,10 +1768,8 @@ export default {
       "masked": "The government introduced measures to reduce ____.",
       "options": [
         "youth-mcq-19",
-        "youth-mcq-18",
-        "youth-mcq-20",
-        "youth-mcq-17",
-        "youth-mcq-21",
+        "youth-mcq-05",
+        "youth-mcq-07",
         "youth-mcq-16"
       ],
       "explanation": "本句的「youth unemployment」指「青年人口中沒有工作而正在尋找工作的情況／比例」。",
@@ -2047,12 +1779,10 @@ export default {
         "youth unemployment"
       ],
       "optionReasons": {
-        "youth-mcq-19": "本句指「青年人口中沒有工作而正在尋找工作的情況／比例」。",
-        "youth-mcq-18": "「以青少年或年輕消費者為主要對象的市場」與本句語境不同。",
-        "youth-mcq-20": "「專門處理青少年違法、處分、復康和支援的司法體系」與本句語境不同。",
-        "youth-mcq-17": "「年輕人共享的流行文化、價值觀、時尚及生活方式」與本句語境不同。",
-        "youth-mcq-21": "「傳統上以年輕旅客為主要對象的較相宜住宿設施」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。"
+        "youth-mcq-19": "本句的「youth unemployment」指「青年人口中沒有工作而正在尋找工作的情況／比例」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-19"
     },
@@ -2064,10 +1794,8 @@ export default {
       "masked": "____ unemployment remains a serious economic issue.",
       "options": [
         "youth-mcq-19",
-        "youth-mcq-18",
-        "youth-mcq-20",
+        "youth-mcq-05",
         "youth-mcq-17",
-        "youth-mcq-21",
         "youth-mcq-16"
       ],
       "explanation": "本句的「Youth」指「青年人口中沒有工作而正在尋找工作的情況／比例」。",
@@ -2077,12 +1805,10 @@ export default {
         "Youth"
       ],
       "optionReasons": {
-        "youth-mcq-19": "本句指「青年人口中沒有工作而正在尋找工作的情況／比例」。",
-        "youth-mcq-18": "「以青少年或年輕消費者為主要對象的市場」與本句語境不同。",
-        "youth-mcq-20": "「專門處理青少年違法、處分、復康和支援的司法體系」與本句語境不同。",
-        "youth-mcq-17": "「年輕人共享的流行文化、價值觀、時尚及生活方式」與本句語境不同。",
-        "youth-mcq-21": "「傳統上以年輕旅客為主要對象的較相宜住宿設施」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。"
+        "youth-mcq-19": "本句的「Youth」指「青年人口中沒有工作而正在尋找工作的情況／比例」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-19"
     },
@@ -2094,11 +1820,9 @@ export default {
       "masked": "The programme aims to reduce ____.",
       "options": [
         "youth-mcq-20",
-        "youth-mcq-19",
-        "youth-mcq-21",
-        "youth-mcq-18",
-        "youth-mcq-17",
-        "youth-mcq-16"
+        "youth-mcq-07",
+        "youth-mcq-05",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth crime」指「專門處理青少年違法、處分、復康和支援的司法體系」。",
       "sentenceIndex": 51,
@@ -2107,12 +1831,10 @@ export default {
         "youth crime"
       ],
       "optionReasons": {
-        "youth-mcq-20": "本句指「專門處理青少年違法、處分、復康和支援的司法體系」。",
-        "youth-mcq-19": "「青年人口中沒有工作而正在尋找工作的情況／比例」與本句語境不同。",
-        "youth-mcq-21": "「傳統上以年輕旅客為主要對象的較相宜住宿設施」與本句語境不同。",
-        "youth-mcq-18": "「以青少年或年輕消費者為主要對象的市場」與本句語境不同。",
-        "youth-mcq-17": "「年輕人共享的流行文化、價值觀、時尚及生活方式」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。"
+        "youth-mcq-20": "本句的「youth crime」指「專門處理青少年違法、處分、復康和支援的司法體系」。",
+        "youth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-20"
     },
@@ -2124,11 +1846,9 @@ export default {
       "masked": "Community sport can help address ____ crime.",
       "options": [
         "youth-mcq-20",
-        "youth-mcq-19",
+        "youth-mcq-05",
         "youth-mcq-21",
-        "youth-mcq-18",
-        "youth-mcq-17",
-        "youth-mcq-16"
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth」指「專門處理青少年違法、處分、復康和支援的司法體系」。",
       "sentenceIndex": 52,
@@ -2137,12 +1857,10 @@ export default {
         "youth"
       ],
       "optionReasons": {
-        "youth-mcq-20": "本句指「專門處理青少年違法、處分、復康和支援的司法體系」。",
-        "youth-mcq-19": "「青年人口中沒有工作而正在尋找工作的情況／比例」與本句語境不同。",
-        "youth-mcq-21": "「傳統上以年輕旅客為主要對象的較相宜住宿設施」與本句語境不同。",
-        "youth-mcq-18": "「以青少年或年輕消費者為主要對象的市場」與本句語境不同。",
-        "youth-mcq-17": "「年輕人共享的流行文化、價值觀、時尚及生活方式」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。"
+        "youth-mcq-20": "本句的「youth」指「專門處理青少年違法、處分、復康和支援的司法體系」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-20"
     },
@@ -2154,11 +1872,9 @@ export default {
       "masked": "She works in the ____ system.",
       "options": [
         "youth-mcq-20",
-        "youth-mcq-19",
         "youth-mcq-21",
-        "youth-mcq-18",
-        "youth-mcq-17",
-        "youth-mcq-16"
+        "youth-mcq-05",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth justice」指「專門處理青少年違法、處分、復康和支援的司法體系」。",
       "sentenceIndex": 53,
@@ -2167,12 +1883,10 @@ export default {
         "youth justice"
       ],
       "optionReasons": {
-        "youth-mcq-20": "本句指「專門處理青少年違法、處分、復康和支援的司法體系」。",
-        "youth-mcq-19": "「青年人口中沒有工作而正在尋找工作的情況／比例」與本句語境不同。",
-        "youth-mcq-21": "「傳統上以年輕旅客為主要對象的較相宜住宿設施」與本句語境不同。",
-        "youth-mcq-18": "「以青少年或年輕消費者為主要對象的市場」與本句語境不同。",
-        "youth-mcq-17": "「年輕人共享的流行文化、價值觀、時尚及生活方式」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。"
+        "youth-mcq-20": "本句的「youth justice」指「專門處理青少年違法、處分、復康和支援的司法體系」。",
+        "youth-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-20"
     },
@@ -2184,11 +1898,9 @@ export default {
       "masked": "____ justice focuses on offences committed by young people.",
       "options": [
         "youth-mcq-20",
-        "youth-mcq-19",
         "youth-mcq-21",
-        "youth-mcq-18",
-        "youth-mcq-17",
-        "youth-mcq-16"
+        "youth-mcq-05",
+        "youth-mcq-19"
       ],
       "explanation": "本句的「Youth」指「專門處理青少年違法、處分、復康和支援的司法體系」。",
       "sentenceIndex": 54,
@@ -2197,12 +1909,10 @@ export default {
         "Youth"
       ],
       "optionReasons": {
-        "youth-mcq-20": "本句指「專門處理青少年違法、處分、復康和支援的司法體系」。",
-        "youth-mcq-19": "「青年人口中沒有工作而正在尋找工作的情況／比例」與本句語境不同。",
-        "youth-mcq-21": "「傳統上以年輕旅客為主要對象的較相宜住宿設施」與本句語境不同。",
-        "youth-mcq-18": "「以青少年或年輕消費者為主要對象的市場」與本句語境不同。",
-        "youth-mcq-17": "「年輕人共享的流行文化、價值觀、時尚及生活方式」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。"
+        "youth-mcq-20": "本句的「Youth」指「專門處理青少年違法、處分、復康和支援的司法體系」。",
+        "youth-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-20"
     },
@@ -2214,11 +1924,9 @@ export default {
       "masked": "We stayed in a ____ near the station.",
       "options": [
         "youth-mcq-21",
+        "youth-mcq-05",
         "youth-mcq-20",
-        "youth-mcq-19",
-        "youth-mcq-18",
-        "youth-mcq-17",
-        "youth-mcq-16"
+        "youth-mcq-19"
       ],
       "explanation": "本句的「youth hostel」指「傳統上以年輕旅客為主要對象的較相宜住宿設施」。",
       "sentenceIndex": 55,
@@ -2227,12 +1935,10 @@ export default {
         "youth hostel"
       ],
       "optionReasons": {
-        "youth-mcq-21": "本句指「傳統上以年輕旅客為主要對象的較相宜住宿設施」。",
-        "youth-mcq-20": "「專門處理青少年違法、處分、復康和支援的司法體系」與本句語境不同。",
-        "youth-mcq-19": "「青年人口中沒有工作而正在尋找工作的情況／比例」與本句語境不同。",
-        "youth-mcq-18": "「以青少年或年輕消費者為主要對象的市場」與本句語境不同。",
-        "youth-mcq-17": "「年輕人共享的流行文化、價值觀、時尚及生活方式」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。"
+        "youth-mcq-21": "本句的「youth hostel」指「傳統上以年輕旅客為主要對象的較相宜住宿設施」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-21"
     },
@@ -2244,11 +1950,9 @@ export default {
       "masked": "____ hostels usually provide relatively affordable accommodation.",
       "options": [
         "youth-mcq-21",
+        "youth-mcq-05",
         "youth-mcq-20",
-        "youth-mcq-19",
-        "youth-mcq-18",
-        "youth-mcq-17",
-        "youth-mcq-16"
+        "youth-mcq-19"
       ],
       "explanation": "本句的「Youth」指「傳統上以年輕旅客為主要對象的較相宜住宿設施」。",
       "sentenceIndex": 56,
@@ -2257,12 +1961,10 @@ export default {
         "Youth"
       ],
       "optionReasons": {
-        "youth-mcq-21": "本句指「傳統上以年輕旅客為主要對象的較相宜住宿設施」。",
-        "youth-mcq-20": "「專門處理青少年違法、處分、復康和支援的司法體系」與本句語境不同。",
-        "youth-mcq-19": "「青年人口中沒有工作而正在尋找工作的情況／比例」與本句語境不同。",
-        "youth-mcq-18": "「以青少年或年輕消費者為主要對象的市場」與本句語境不同。",
-        "youth-mcq-17": "「年輕人共享的流行文化、價值觀、時尚及生活方式」與本句語境不同。",
-        "youth-mcq-16": "「青少年主動參與活動、組織、社區或決策的程度／過程」與本句語境不同。"
+        "youth-mcq-21": "本句的「Youth」指「傳統上以年輕旅客為主要對象的較相宜住宿設施」。",
+        "youth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "youth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "youth-mcq-21"
     }
@@ -2274,5 +1976,7 @@ export default {
     "sha256": "4305c9247eee1e8fd83ba0018d5705f25d322ec07dfdb21d4f312e00721ba1ff",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

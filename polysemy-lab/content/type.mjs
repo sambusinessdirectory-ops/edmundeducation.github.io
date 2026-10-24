@@ -610,7 +610,7 @@ export default {
     },
     {
       "id": "type-mcq-28",
-      "title": "表示打字；用鍵盤輸入文字",
+      "title": "打字；用鍵盤輸入文字",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示打字；用鍵盤輸入文字",
@@ -632,7 +632,7 @@ export default {
     },
     {
       "id": "type-mcq-29",
-      "title": "表示典型人物；某類人",
+      "title": "典型人物；某類人",
       "form": "19. type — stereotypical kind of person",
       "en": "19. type — stereotypical kind of person",
       "zh": "表示典型人物；某類人",
@@ -654,7 +654,7 @@ export default {
     },
     {
       "id": "type-mcq-30",
-      "title": "表示型號；類型；樣式",
+      "title": "型號；類型；樣式",
       "form": "20. type — model or design category",
       "en": "20. type — model or design category",
       "zh": "表示型號；類型；樣式",
@@ -676,7 +676,7 @@ export default {
     },
     {
       "id": "type-mcq-31",
-      "title": "表示刻板印象",
+      "title": "刻板印象",
       "form": "29. stereotype",
       "en": "29. stereotype",
       "zh": "表示刻板印象",
@@ -706,11 +706,9 @@ export default {
       "masked": "I usually ____ my notes on a laptop.",
       "options": [
         "type-mcq-28",
-        "type-mcq-27",
-        "type-mcq-29",
-        "type-mcq-26",
-        "type-mcq-30",
-        "type-mcq-25"
+        "type-mcq-23",
+        "type-mcq-25",
+        "type-mcq-31"
       ],
       "explanation": "本句的「type」指「表示打字；用鍵盤輸入文字」。",
       "sentenceIndex": 0,
@@ -719,12 +717,10 @@ export default {
         "type"
       ],
       "optionReasons": {
-        "type-mcq-28": "本句指「表示打字；用鍵盤輸入文字」。",
-        "type-mcq-27": "「持續不停地打字」是「type away」的用法，與本句語境不同。",
-        "type-mcq-29": "「表示典型人物；某類人」是「19. type — stereotypical kind of person」的用法，與本句語境不同。",
-        "type-mcq-26": "「不是自己喜歡或偏好的類型」是「not my type」的用法，與本句語境不同。",
-        "type-mcq-30": "「表示型號；類型；樣式」是「20. type — model or design category」的用法，與本句語境不同。",
-        "type-mcq-25": "「是那種很可能會做某事的人」是「the type to do something」的用法，與本句語境不同。"
+        "type-mcq-28": "本句的「type」指「表示打字；用鍵盤輸入文字」。",
+        "type-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-28"
     },
@@ -736,11 +732,9 @@ export default {
       "masked": "She can ____ very quickly.",
       "options": [
         "type-mcq-28",
-        "type-mcq-27",
-        "type-mcq-29",
+        "type-mcq-12",
         "type-mcq-26",
-        "type-mcq-30",
-        "type-mcq-25"
+        "type-mcq-13"
       ],
       "explanation": "本句的「type」指「表示打字；用鍵盤輸入文字」。",
       "sentenceIndex": 1,
@@ -749,12 +743,10 @@ export default {
         "type"
       ],
       "optionReasons": {
-        "type-mcq-28": "本句指「表示打字；用鍵盤輸入文字」。",
-        "type-mcq-27": "「持續不停地打字」是「type away」的用法，與本句語境不同。",
-        "type-mcq-29": "「表示典型人物；某類人」是「19. type — stereotypical kind of person」的用法，與本句語境不同。",
-        "type-mcq-26": "「不是自己喜歡或偏好的類型」是「not my type」的用法，與本句語境不同。",
-        "type-mcq-30": "「表示型號；類型；樣式」是「20. type — model or design category」的用法，與本句語境不同。",
-        "type-mcq-25": "「是那種很可能會做某事的人」是「the type to do something」的用法，與本句語境不同。"
+        "type-mcq-28": "本句的「type」指「表示打字；用鍵盤輸入文字」。",
+        "type-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-28"
     },
@@ -766,11 +758,9 @@ export default {
       "masked": "What ____ do you like?",
       "options": [
         "type-mcq-01",
-        "type-mcq-02",
-        "type-mcq-03",
-        "type-mcq-04",
-        "type-mcq-05",
-        "type-mcq-06"
+        "type-mcq-09",
+        "type-mcq-20",
+        "type-mcq-25"
       ],
       "explanation": "本句的「type of music」指「具有共同特徵的一類人或事物；種類／類型」。",
       "sentenceIndex": 2,
@@ -779,12 +769,10 @@ export default {
         "type of music"
       ],
       "optionReasons": {
-        "type-mcq-01": "本句指「具有共同特徵的一類人或事物；種類／類型」。",
-        "type-mcq-02": "「具有某種性格或行為特徵的一類人」是「type of person」的用法，與本句語境不同。",
-        "type-mcq-03": "「某人喜歡、偏好或覺得有吸引力的類型」是「someone’s type」的用法，與本句語境不同。",
-        "type-mcq-04": "「分類系統中的類別／型別」是「type — formal classification」的用法，與本句語境不同。",
-        "type-mcq-05": "「血液的分類；血型」是「blood type」的用法，與本句語境不同。",
-        "type-mcq-06": "「印刷用的字樣、鉛字或字體」是「type — printing」的用法，與本句語境不同。"
+        "type-mcq-01": "本句的「type of music」指「具有共同特徵的一類人或事物；種類／類型」。",
+        "type-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-01"
     },
@@ -796,11 +784,9 @@ export default {
       "masked": "This is a common ____.",
       "options": [
         "type-mcq-01",
-        "type-mcq-02",
-        "type-mcq-03",
-        "type-mcq-04",
-        "type-mcq-05",
-        "type-mcq-06"
+        "type-mcq-06",
+        "type-mcq-19",
+        "type-mcq-18"
       ],
       "explanation": "本句的「type of problem」指「具有共同特徵的一類人或事物；種類／類型」。",
       "sentenceIndex": 3,
@@ -809,12 +795,10 @@ export default {
         "type of problem"
       ],
       "optionReasons": {
-        "type-mcq-01": "本句指「具有共同特徵的一類人或事物；種類／類型」。",
-        "type-mcq-02": "「具有某種性格或行為特徵的一類人」是「type of person」的用法，與本句語境不同。",
-        "type-mcq-03": "「某人喜歡、偏好或覺得有吸引力的類型」是「someone’s type」的用法，與本句語境不同。",
-        "type-mcq-04": "「分類系統中的類別／型別」是「type — formal classification」的用法，與本句語境不同。",
-        "type-mcq-05": "「血液的分類；血型」是「blood type」的用法，與本句語境不同。",
-        "type-mcq-06": "「印刷用的字樣、鉛字或字體」是「type — printing」的用法，與本句語境不同。"
+        "type-mcq-01": "本句的「type of problem」指「具有共同特徵的一類人或事物；種類／類型」。",
+        "type-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-01"
     },
@@ -826,11 +810,9 @@ export default {
       "masked": "She is the ____ who plans everything carefully.",
       "options": [
         "type-mcq-02",
-        "type-mcq-01",
-        "type-mcq-03",
-        "type-mcq-04",
-        "type-mcq-05",
-        "type-mcq-06"
+        "type-mcq-18",
+        "type-mcq-12",
+        "type-mcq-31"
       ],
       "explanation": "本句的「type of person」指「具有某種性格或行為特徵的一類人」。",
       "sentenceIndex": 4,
@@ -839,12 +821,10 @@ export default {
         "type of person"
       ],
       "optionReasons": {
-        "type-mcq-02": "本句指「具有某種性格或行為特徵的一類人」。",
-        "type-mcq-01": "「具有共同特徵的一類人或事物；種類／類型」是「type — kind/category」的用法，與本句語境不同。",
-        "type-mcq-03": "「某人喜歡、偏好或覺得有吸引力的類型」是「someone’s type」的用法，與本句語境不同。",
-        "type-mcq-04": "「分類系統中的類別／型別」是「type — formal classification」的用法，與本句語境不同。",
-        "type-mcq-05": "「血液的分類；血型」是「blood type」的用法，與本句語境不同。",
-        "type-mcq-06": "「印刷用的字樣、鉛字或字體」是「type — printing」的用法，與本句語境不同。"
+        "type-mcq-02": "本句的「type of person」指「具有某種性格或行為特徵的一類人」。",
+        "type-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-02"
     },
@@ -856,11 +836,9 @@ export default {
       "masked": "He is not the ____ to give up easily.",
       "options": [
         "type-mcq-02",
-        "type-mcq-01",
-        "type-mcq-03",
-        "type-mcq-04",
-        "type-mcq-05",
-        "type-mcq-06"
+        "type-mcq-07",
+        "type-mcq-31",
+        "type-mcq-12"
       ],
       "explanation": "本句的「type」指「具有某種性格或行為特徵的一類人」。",
       "sentenceIndex": 5,
@@ -869,12 +847,10 @@ export default {
         "type"
       ],
       "optionReasons": {
-        "type-mcq-02": "本句指「具有某種性格或行為特徵的一類人」。",
-        "type-mcq-01": "「具有共同特徵的一類人或事物；種類／類型」是「type — kind/category」的用法，與本句語境不同。",
-        "type-mcq-03": "「某人喜歡、偏好或覺得有吸引力的類型」是「someone’s type」的用法，與本句語境不同。",
-        "type-mcq-04": "「分類系統中的類別／型別」是「type — formal classification」的用法，與本句語境不同。",
-        "type-mcq-05": "「血液的分類；血型」是「blood type」的用法，與本句語境不同。",
-        "type-mcq-06": "「印刷用的字樣、鉛字或字體」是「type — printing」的用法，與本句語境不同。"
+        "type-mcq-02": "本句的「type」指「具有某種性格或行為特徵的一類人」。",
+        "type-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-02"
     },
@@ -886,11 +862,9 @@ export default {
       "masked": "He’s not really ____.",
       "options": [
         "type-mcq-03",
-        "type-mcq-02",
-        "type-mcq-04",
-        "type-mcq-01",
-        "type-mcq-05",
-        "type-mcq-06"
+        "type-mcq-18",
+        "type-mcq-09",
+        "type-mcq-07"
       ],
       "explanation": "本句的「my type」指「某人喜歡、偏好或覺得有吸引力的類型」。",
       "sentenceIndex": 6,
@@ -899,12 +873,10 @@ export default {
         "my type"
       ],
       "optionReasons": {
-        "type-mcq-03": "本句指「某人喜歡、偏好或覺得有吸引力的類型」。",
-        "type-mcq-02": "「具有某種性格或行為特徵的一類人」是「type of person」的用法，與本句語境不同。",
-        "type-mcq-04": "「分類系統中的類別／型別」是「type — formal classification」的用法，與本句語境不同。",
-        "type-mcq-01": "「具有共同特徵的一類人或事物；種類／類型」是「type — kind/category」的用法，與本句語境不同。",
-        "type-mcq-05": "「血液的分類；血型」是「blood type」的用法，與本句語境不同。",
-        "type-mcq-06": "「印刷用的字樣、鉛字或字體」是「type — printing」的用法，與本句語境不同。"
+        "type-mcq-03": "本句的「my type」指「某人喜歡、偏好或覺得有吸引力的類型」。",
+        "type-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-03"
     },
@@ -916,11 +888,9 @@ export default {
       "masked": "What kind of person is ____?",
       "options": [
         "type-mcq-03",
-        "type-mcq-02",
-        "type-mcq-04",
-        "type-mcq-01",
-        "type-mcq-05",
-        "type-mcq-06"
+        "type-mcq-20",
+        "type-mcq-09",
+        "type-mcq-31"
       ],
       "explanation": "本句的「your type」指「某人喜歡、偏好或覺得有吸引力的類型」。",
       "sentenceIndex": 7,
@@ -929,12 +899,10 @@ export default {
         "your type"
       ],
       "optionReasons": {
-        "type-mcq-03": "本句指「某人喜歡、偏好或覺得有吸引力的類型」。",
-        "type-mcq-02": "「具有某種性格或行為特徵的一類人」是「type of person」的用法，與本句語境不同。",
-        "type-mcq-04": "「分類系統中的類別／型別」是「type — formal classification」的用法，與本句語境不同。",
-        "type-mcq-01": "「具有共同特徵的一類人或事物；種類／類型」是「type — kind/category」的用法，與本句語境不同。",
-        "type-mcq-05": "「血液的分類；血型」是「blood type」的用法，與本句語境不同。",
-        "type-mcq-06": "「印刷用的字樣、鉛字或字體」是「type — printing」的用法，與本句語境不同。"
+        "type-mcq-03": "本句的「your type」指「某人喜歡、偏好或覺得有吸引力的類型」。",
+        "type-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-03"
     },
@@ -946,11 +914,9 @@ export default {
       "masked": "Blood is divided into different ____.",
       "options": [
         "type-mcq-04",
-        "type-mcq-03",
-        "type-mcq-05",
-        "type-mcq-02",
-        "type-mcq-06",
-        "type-mcq-01"
+        "type-mcq-22",
+        "type-mcq-19",
+        "type-mcq-27"
       ],
       "explanation": "本句的「types」指「分類系統中的類別／型別」。",
       "sentenceIndex": 8,
@@ -959,12 +925,10 @@ export default {
         "types"
       ],
       "optionReasons": {
-        "type-mcq-04": "本句指「分類系統中的類別／型別」。",
-        "type-mcq-03": "「某人喜歡、偏好或覺得有吸引力的類型」是「someone’s type」的用法，與本句語境不同。",
-        "type-mcq-05": "「血液的分類；血型」是「blood type」的用法，與本句語境不同。",
-        "type-mcq-02": "「具有某種性格或行為特徵的一類人」是「type of person」的用法，與本句語境不同。",
-        "type-mcq-06": "「印刷用的字樣、鉛字或字體」是「type — printing」的用法，與本句語境不同。",
-        "type-mcq-01": "「具有共同特徵的一類人或事物；種類／類型」是「type — kind/category」的用法，與本句語境不同。"
+        "type-mcq-04": "本句的「types」指「分類系統中的類別／型別」。",
+        "type-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-04"
     },
@@ -976,11 +940,9 @@ export default {
       "masked": "The disease has several ____.",
       "options": [
         "type-mcq-04",
-        "type-mcq-03",
-        "type-mcq-05",
-        "type-mcq-02",
-        "type-mcq-06",
-        "type-mcq-01"
+        "type-mcq-22",
+        "type-mcq-31",
+        "type-mcq-19"
       ],
       "explanation": "本句的「types」指「分類系統中的類別／型別」。",
       "sentenceIndex": 9,
@@ -989,12 +951,10 @@ export default {
         "types"
       ],
       "optionReasons": {
-        "type-mcq-04": "本句指「分類系統中的類別／型別」。",
-        "type-mcq-03": "「某人喜歡、偏好或覺得有吸引力的類型」是「someone’s type」的用法，與本句語境不同。",
-        "type-mcq-05": "「血液的分類；血型」是「blood type」的用法，與本句語境不同。",
-        "type-mcq-02": "「具有某種性格或行為特徵的一類人」是「type of person」的用法，與本句語境不同。",
-        "type-mcq-06": "「印刷用的字樣、鉛字或字體」是「type — printing」的用法，與本句語境不同。",
-        "type-mcq-01": "「具有共同特徵的一類人或事物；種類／類型」是「type — kind/category」的用法，與本句語境不同。"
+        "type-mcq-04": "本句的「types」指「分類系統中的類別／型別」。",
+        "type-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-04"
     },
@@ -1006,11 +966,9 @@ export default {
       "masked": "Do you know your ____?",
       "options": [
         "type-mcq-05",
-        "type-mcq-04",
-        "type-mcq-06",
-        "type-mcq-03",
-        "type-mcq-07",
-        "type-mcq-02"
+        "type-mcq-18",
+        "type-mcq-22",
+        "type-mcq-07"
       ],
       "explanation": "本句的「blood type」指「血液的分類；血型」。",
       "sentenceIndex": 10,
@@ -1019,12 +977,10 @@ export default {
         "blood type"
       ],
       "optionReasons": {
-        "type-mcq-05": "本句指「血液的分類；血型」。",
-        "type-mcq-04": "「分類系統中的類別／型別」是「type — formal classification」的用法，與本句語境不同。",
-        "type-mcq-06": "「印刷用的字樣、鉛字或字體」是「type — printing」的用法，與本句語境不同。",
-        "type-mcq-03": "「某人喜歡、偏好或覺得有吸引力的類型」是「someone’s type」的用法，與本句語境不同。",
-        "type-mcq-07": "「以大字／小字／粗體字印刷」是「in large/small/bold type」的用法，與本句語境不同。",
-        "type-mcq-02": "「具有某種性格或行為特徵的一類人」是「type of person」的用法，與本句語境不同。"
+        "type-mcq-05": "本句的「blood type」指「血液的分類；血型」。",
+        "type-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-05"
     },
@@ -1036,11 +992,9 @@ export default {
       "masked": "Her ____ is O positive.",
       "options": [
         "type-mcq-05",
-        "type-mcq-04",
-        "type-mcq-06",
-        "type-mcq-03",
-        "type-mcq-07",
-        "type-mcq-02"
+        "type-mcq-08",
+        "type-mcq-25",
+        "type-mcq-31"
       ],
       "explanation": "本句的「blood type」指「血液的分類；血型」。",
       "sentenceIndex": 11,
@@ -1049,12 +1003,10 @@ export default {
         "blood type"
       ],
       "optionReasons": {
-        "type-mcq-05": "本句指「血液的分類；血型」。",
-        "type-mcq-04": "「分類系統中的類別／型別」是「type — formal classification」的用法，與本句語境不同。",
-        "type-mcq-06": "「印刷用的字樣、鉛字或字體」是「type — printing」的用法，與本句語境不同。",
-        "type-mcq-03": "「某人喜歡、偏好或覺得有吸引力的類型」是「someone’s type」的用法，與本句語境不同。",
-        "type-mcq-07": "「以大字／小字／粗體字印刷」是「in large/small/bold type」的用法，與本句語境不同。",
-        "type-mcq-02": "「具有某種性格或行為特徵的一類人」是「type of person」的用法，與本句語境不同。"
+        "type-mcq-05": "本句的「blood type」指「血液的分類；血型」。",
+        "type-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-05"
     },
@@ -1066,11 +1018,9 @@ export default {
       "masked": "The text was printed in small ____.",
       "options": [
         "type-mcq-06",
+        "type-mcq-09",
         "type-mcq-05",
-        "type-mcq-07",
-        "type-mcq-04",
-        "type-mcq-08",
-        "type-mcq-03"
+        "type-mcq-24"
       ],
       "explanation": "本句的「type」指「印刷用的字樣、鉛字或字體」。",
       "sentenceIndex": 12,
@@ -1079,12 +1029,10 @@ export default {
         "type"
       ],
       "optionReasons": {
-        "type-mcq-06": "本句指「印刷用的字樣、鉛字或字體」。",
-        "type-mcq-05": "「血液的分類；血型」是「blood type」的用法，與本句語境不同。",
-        "type-mcq-07": "「以大字／小字／粗體字印刷」是「in large/small/bold type」的用法，與本句語境不同。",
-        "type-mcq-04": "「分類系統中的類別／型別」是「type — formal classification」的用法，與本句語境不同。",
-        "type-mcq-08": "「使用鍵盤輸入文字；打字／鍵入」是「type — keyboard verb」的用法，與本句語境不同。",
-        "type-mcq-03": "「某人喜歡、偏好或覺得有吸引力的類型」是「someone’s type」的用法，與本句語境不同。"
+        "type-mcq-06": "本句的「type」指「印刷用的字樣、鉛字或字體」。",
+        "type-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-06"
     },
@@ -1096,11 +1044,9 @@ export default {
       "masked": "The warning appears in bold ____.",
       "options": [
         "type-mcq-06",
-        "type-mcq-05",
-        "type-mcq-07",
-        "type-mcq-04",
-        "type-mcq-08",
-        "type-mcq-03"
+        "type-mcq-09",
+        "type-mcq-13",
+        "type-mcq-01"
       ],
       "explanation": "本句的「type」指「印刷用的字樣、鉛字或字體」。",
       "sentenceIndex": 13,
@@ -1109,12 +1055,10 @@ export default {
         "type"
       ],
       "optionReasons": {
-        "type-mcq-06": "本句指「印刷用的字樣、鉛字或字體」。",
-        "type-mcq-05": "「血液的分類；血型」是「blood type」的用法，與本句語境不同。",
-        "type-mcq-07": "「以大字／小字／粗體字印刷」是「in large/small/bold type」的用法，與本句語境不同。",
-        "type-mcq-04": "「分類系統中的類別／型別」是「type — formal classification」的用法，與本句語境不同。",
-        "type-mcq-08": "「使用鍵盤輸入文字；打字／鍵入」是「type — keyboard verb」的用法，與本句語境不同。",
-        "type-mcq-03": "「某人喜歡、偏好或覺得有吸引力的類型」是「someone’s type」的用法，與本句語境不同。"
+        "type-mcq-06": "本句的「type」指「印刷用的字樣、鉛字或字體」。",
+        "type-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-06"
     },
@@ -1127,10 +1071,8 @@ export default {
       "options": [
         "type-mcq-06",
         "type-mcq-05",
-        "type-mcq-07",
-        "type-mcq-04",
-        "type-mcq-08",
-        "type-mcq-03"
+        "type-mcq-15",
+        "type-mcq-19"
       ],
       "explanation": "本句的「type」指「印刷用的字樣、鉛字或字體」。",
       "sentenceIndex": 14,
@@ -1139,12 +1081,10 @@ export default {
         "type"
       ],
       "optionReasons": {
-        "type-mcq-06": "本句指「印刷用的字樣、鉛字或字體」。",
-        "type-mcq-05": "「血液的分類；血型」是「blood type」的用法，與本句語境不同。",
-        "type-mcq-07": "「以大字／小字／粗體字印刷」是「in large/small/bold type」的用法，與本句語境不同。",
-        "type-mcq-04": "「分類系統中的類別／型別」是「type — formal classification」的用法，與本句語境不同。",
-        "type-mcq-08": "「使用鍵盤輸入文字；打字／鍵入」是「type — keyboard verb」的用法，與本句語境不同。",
-        "type-mcq-03": "「某人喜歡、偏好或覺得有吸引力的類型」是「someone’s type」的用法，與本句語境不同。"
+        "type-mcq-06": "本句的「type」指「印刷用的字樣、鉛字或字體」。",
+        "type-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-06"
     },
@@ -1156,11 +1096,9 @@ export default {
       "masked": "This ____ is difficult to read.",
       "options": [
         "type-mcq-06",
-        "type-mcq-05",
-        "type-mcq-07",
-        "type-mcq-04",
-        "type-mcq-08",
-        "type-mcq-03"
+        "type-mcq-29",
+        "type-mcq-19",
+        "type-mcq-25"
       ],
       "explanation": "本句的「type」指「印刷用的字樣、鉛字或字體」。",
       "sentenceIndex": 15,
@@ -1169,12 +1107,10 @@ export default {
         "type"
       ],
       "optionReasons": {
-        "type-mcq-06": "本句指「印刷用的字樣、鉛字或字體」。",
-        "type-mcq-05": "「血液的分類；血型」是「blood type」的用法，與本句語境不同。",
-        "type-mcq-07": "「以大字／小字／粗體字印刷」是「in large/small/bold type」的用法，與本句語境不同。",
-        "type-mcq-04": "「分類系統中的類別／型別」是「type — formal classification」的用法，與本句語境不同。",
-        "type-mcq-08": "「使用鍵盤輸入文字；打字／鍵入」是「type — keyboard verb」的用法，與本句語境不同。",
-        "type-mcq-03": "「某人喜歡、偏好或覺得有吸引力的類型」是「someone’s type」的用法，與本句語境不同。"
+        "type-mcq-06": "本句的「type」指「印刷用的字樣、鉛字或字體」。",
+        "type-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-06"
     },
@@ -1186,11 +1122,9 @@ export default {
       "masked": "The instructions were printed in ____.",
       "options": [
         "type-mcq-07",
-        "type-mcq-06",
-        "type-mcq-08",
-        "type-mcq-05",
-        "type-mcq-09",
-        "type-mcq-04"
+        "type-mcq-16",
+        "type-mcq-03",
+        "type-mcq-19"
       ],
       "explanation": "本句的「large type」指「以大字／小字／粗體字印刷」。",
       "sentenceIndex": 16,
@@ -1199,12 +1133,10 @@ export default {
         "large type"
       ],
       "optionReasons": {
-        "type-mcq-07": "本句指「以大字／小字／粗體字印刷」。",
-        "type-mcq-06": "「印刷用的字樣、鉛字或字體」是「type — printing」的用法，與本句語境不同。",
-        "type-mcq-08": "「使用鍵盤輸入文字；打字／鍵入」是「type — keyboard verb」的用法，與本句語境不同。",
-        "type-mcq-05": "「血液的分類；血型」是「blood type」的用法，與本句語境不同。",
-        "type-mcq-09": "「把資料透過鍵盤輸入系統」是「type something in」的用法，與本句語境不同。",
-        "type-mcq-04": "「分類系統中的類別／型別」是「type — formal classification」的用法，與本句語境不同。"
+        "type-mcq-07": "本句的「large type」指「以大字／小字／粗體字印刷」。",
+        "type-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-07"
     },
@@ -1216,11 +1148,9 @@ export default {
       "masked": "Important information appears in ____.",
       "options": [
         "type-mcq-07",
-        "type-mcq-06",
-        "type-mcq-08",
+        "type-mcq-25",
         "type-mcq-05",
-        "type-mcq-09",
-        "type-mcq-04"
+        "type-mcq-24"
       ],
       "explanation": "本句的「bold type」指「以大字／小字／粗體字印刷」。",
       "sentenceIndex": 17,
@@ -1229,12 +1159,10 @@ export default {
         "bold type"
       ],
       "optionReasons": {
-        "type-mcq-07": "本句指「以大字／小字／粗體字印刷」。",
-        "type-mcq-06": "「印刷用的字樣、鉛字或字體」是「type — printing」的用法，與本句語境不同。",
-        "type-mcq-08": "「使用鍵盤輸入文字；打字／鍵入」是「type — keyboard verb」的用法，與本句語境不同。",
-        "type-mcq-05": "「血液的分類；血型」是「blood type」的用法，與本句語境不同。",
-        "type-mcq-09": "「把資料透過鍵盤輸入系統」是「type something in」的用法，與本句語境不同。",
-        "type-mcq-04": "「分類系統中的類別／型別」是「type — formal classification」的用法，與本句語境不同。"
+        "type-mcq-07": "本句的「bold type」指「以大字／小字／粗體字印刷」。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-07"
     },
@@ -1246,11 +1174,9 @@ export default {
       "masked": "Please ____ here.",
       "options": [
         "type-mcq-08",
-        "type-mcq-07",
-        "type-mcq-09",
-        "type-mcq-06",
-        "type-mcq-10",
-        "type-mcq-05"
+        "type-mcq-24",
+        "type-mcq-03",
+        "type-mcq-31"
       ],
       "explanation": "本句的「type your name」指「使用鍵盤輸入文字；打字／鍵入」。",
       "sentenceIndex": 18,
@@ -1259,12 +1185,10 @@ export default {
         "type your name"
       ],
       "optionReasons": {
-        "type-mcq-08": "本句指「使用鍵盤輸入文字；打字／鍵入」。",
-        "type-mcq-07": "「以大字／小字／粗體字印刷」是「in large/small/bold type」的用法，與本句語境不同。",
-        "type-mcq-09": "「把資料透過鍵盤輸入系統」是「type something in」的用法，與本句語境不同。",
-        "type-mcq-06": "「印刷用的字樣、鉛字或字體」是「type — printing」的用法，與本句語境不同。",
-        "type-mcq-10": "「把手寫稿、草稿等整理並打成正式文字」是「type up」的用法，與本句語境不同。",
-        "type-mcq-05": "「血液的分類；血型」是「blood type」的用法，與本句語境不同。"
+        "type-mcq-08": "本句的「type your name」指「使用鍵盤輸入文字；打字／鍵入」。",
+        "type-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-08"
     },
@@ -1276,11 +1200,9 @@ export default {
       "masked": "He ____ in one evening.",
       "options": [
         "type-mcq-08",
-        "type-mcq-07",
-        "type-mcq-09",
-        "type-mcq-06",
-        "type-mcq-10",
-        "type-mcq-05"
+        "type-mcq-30",
+        "type-mcq-13",
+        "type-mcq-25"
       ],
       "explanation": "本句的「typed the report」指「使用鍵盤輸入文字；打字／鍵入」。",
       "sentenceIndex": 19,
@@ -1289,12 +1211,10 @@ export default {
         "typed the report"
       ],
       "optionReasons": {
-        "type-mcq-08": "本句指「使用鍵盤輸入文字；打字／鍵入」。",
-        "type-mcq-07": "「以大字／小字／粗體字印刷」是「in large/small/bold type」的用法，與本句語境不同。",
-        "type-mcq-09": "「把資料透過鍵盤輸入系統」是「type something in」的用法，與本句語境不同。",
-        "type-mcq-06": "「印刷用的字樣、鉛字或字體」是「type — printing」的用法，與本句語境不同。",
-        "type-mcq-10": "「把手寫稿、草稿等整理並打成正式文字」是「type up」的用法，與本句語境不同。",
-        "type-mcq-05": "「血液的分類；血型」是「blood type」的用法，與本句語境不同。"
+        "type-mcq-08": "本句的「typed the report」指「使用鍵盤輸入文字；打字／鍵入」。",
+        "type-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-08"
     },
@@ -1306,11 +1226,9 @@ export default {
       "masked": "____ your password.",
       "options": [
         "type-mcq-09",
-        "type-mcq-08",
-        "type-mcq-10",
-        "type-mcq-07",
-        "type-mcq-11",
-        "type-mcq-06"
+        "type-mcq-01",
+        "type-mcq-21",
+        "type-mcq-12"
       ],
       "explanation": "本句的「Type in」指「把資料透過鍵盤輸入系統」。",
       "sentenceIndex": 20,
@@ -1319,12 +1237,10 @@ export default {
         "Type in"
       ],
       "optionReasons": {
-        "type-mcq-09": "本句指「把資料透過鍵盤輸入系統」。",
-        "type-mcq-08": "「使用鍵盤輸入文字；打字／鍵入」是「type — keyboard verb」的用法，與本句語境不同。",
-        "type-mcq-10": "「把手寫稿、草稿等整理並打成正式文字」是「type up」的用法，與本句語境不同。",
-        "type-mcq-07": "「以大字／小字／粗體字印刷」是「in large/small/bold type」的用法，與本句語境不同。",
-        "type-mcq-11": "「把某物鑑定、歸入某類」是「type — classify」的用法，與本句語境不同。",
-        "type-mcq-06": "「印刷用的字樣、鉛字或字體」是「type — printing」的用法，與本句語境不同。"
+        "type-mcq-09": "本句的「Type in」指「把資料透過鍵盤輸入系統」。",
+        "type-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-09"
     },
@@ -1336,11 +1252,9 @@ export default {
       "masked": "I ____ the address incorrectly.",
       "options": [
         "type-mcq-09",
-        "type-mcq-08",
-        "type-mcq-10",
-        "type-mcq-07",
-        "type-mcq-11",
-        "type-mcq-06"
+        "type-mcq-13",
+        "type-mcq-22",
+        "type-mcq-02"
       ],
       "explanation": "本句的「typed in」指「把資料透過鍵盤輸入系統」。",
       "sentenceIndex": 21,
@@ -1349,12 +1263,10 @@ export default {
         "typed in"
       ],
       "optionReasons": {
-        "type-mcq-09": "本句指「把資料透過鍵盤輸入系統」。",
-        "type-mcq-08": "「使用鍵盤輸入文字；打字／鍵入」是「type — keyboard verb」的用法，與本句語境不同。",
-        "type-mcq-10": "「把手寫稿、草稿等整理並打成正式文字」是「type up」的用法，與本句語境不同。",
-        "type-mcq-07": "「以大字／小字／粗體字印刷」是「in large/small/bold type」的用法，與本句語境不同。",
-        "type-mcq-11": "「把某物鑑定、歸入某類」是「type — classify」的用法，與本句語境不同。",
-        "type-mcq-06": "「印刷用的字樣、鉛字或字體」是「type — printing」的用法，與本句語境不同。"
+        "type-mcq-09": "本句的「typed in」指「把資料透過鍵盤輸入系統」。",
+        "type-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-09"
     },
@@ -1366,11 +1278,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "type-mcq-10",
-        "type-mcq-09",
         "type-mcq-11",
-        "type-mcq-08",
-        "type-mcq-12",
-        "type-mcq-07"
+        "type-mcq-30",
+        "type-mcq-31"
       ],
       "explanation": "本句的「type up my notes」指「把手寫稿、草稿等整理並打成正式文字」。",
       "sentenceIndex": 22,
@@ -1379,12 +1289,10 @@ export default {
         "type up my notes"
       ],
       "optionReasons": {
-        "type-mcq-10": "本句指「把手寫稿、草稿等整理並打成正式文字」。",
-        "type-mcq-09": "「把資料透過鍵盤輸入系統」是「type something in」的用法，與本句語境不同。",
-        "type-mcq-11": "「把某物鑑定、歸入某類」是「type — classify」的用法，與本句語境不同。",
-        "type-mcq-08": "「使用鍵盤輸入文字；打字／鍵入」是「type — keyboard verb」的用法，與本句語境不同。",
-        "type-mcq-12": "「判定血型的檢測／血型鑑定」是「blood typing」的用法，與本句語境不同。",
-        "type-mcq-07": "「以大字／小字／粗體字印刷」是「in large/small/bold type」的用法，與本句語境不同。"
+        "type-mcq-10": "本句的「type up my notes」指「把手寫稿、草稿等整理並打成正式文字」。",
+        "type-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-10"
     },
@@ -1396,11 +1304,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "type-mcq-10",
-        "type-mcq-09",
         "type-mcq-11",
-        "type-mcq-08",
-        "type-mcq-12",
-        "type-mcq-07"
+        "type-mcq-26",
+        "type-mcq-31"
       ],
       "explanation": "本句的「typed up the interview transcript」指「把手寫稿、草稿等整理並打成正式文字」。",
       "sentenceIndex": 23,
@@ -1409,12 +1315,10 @@ export default {
         "typed up the interview transcript"
       ],
       "optionReasons": {
-        "type-mcq-10": "本句指「把手寫稿、草稿等整理並打成正式文字」。",
-        "type-mcq-09": "「把資料透過鍵盤輸入系統」是「type something in」的用法，與本句語境不同。",
-        "type-mcq-11": "「把某物鑑定、歸入某類」是「type — classify」的用法，與本句語境不同。",
-        "type-mcq-08": "「使用鍵盤輸入文字；打字／鍵入」是「type — keyboard verb」的用法，與本句語境不同。",
-        "type-mcq-12": "「判定血型的檢測／血型鑑定」是「blood typing」的用法，與本句語境不同。",
-        "type-mcq-07": "「以大字／小字／粗體字印刷」是「in large/small/bold type」的用法，與本句語境不同。"
+        "type-mcq-10": "本句的「typed up the interview transcript」指「把手寫稿、草稿等整理並打成正式文字」。",
+        "type-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-10"
     },
@@ -1426,11 +1330,9 @@ export default {
       "masked": "The samples were ____ according to their characteristics.",
       "options": [
         "type-mcq-11",
-        "type-mcq-10",
-        "type-mcq-12",
-        "type-mcq-09",
-        "type-mcq-13",
-        "type-mcq-08"
+        "type-mcq-15",
+        "type-mcq-07",
+        "type-mcq-20"
       ],
       "explanation": "本句的「typed」指「把某物鑑定、歸入某類」。",
       "sentenceIndex": 24,
@@ -1439,12 +1341,10 @@ export default {
         "typed"
       ],
       "optionReasons": {
-        "type-mcq-11": "本句指「把某物鑑定、歸入某類」。",
-        "type-mcq-10": "「把手寫稿、草稿等整理並打成正式文字」是「type up」的用法，與本句語境不同。",
-        "type-mcq-12": "「判定血型的檢測／血型鑑定」是「blood typing」的用法，與本句語境不同。",
-        "type-mcq-09": "「把資料透過鍵盤輸入系統」是「type something in」的用法，與本句語境不同。",
-        "type-mcq-13": "「移植等用途的組織分型／配型」是「tissue typing」的用法，與本句語境不同。",
-        "type-mcq-08": "「使用鍵盤輸入文字；打字／鍵入」是「type — keyboard verb」的用法，與本句語境不同。"
+        "type-mcq-11": "本句的「typed」指「把某物鑑定、歸入某類」。",
+        "type-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-11"
     },
@@ -1456,11 +1356,9 @@ export default {
       "masked": "The bacteria were ____ in the laboratory.",
       "options": [
         "type-mcq-11",
-        "type-mcq-10",
-        "type-mcq-12",
-        "type-mcq-09",
-        "type-mcq-13",
-        "type-mcq-08"
+        "type-mcq-19",
+        "type-mcq-16",
+        "type-mcq-27"
       ],
       "explanation": "本句的「typed」指「把某物鑑定、歸入某類」。",
       "sentenceIndex": 25,
@@ -1469,12 +1367,10 @@ export default {
         "typed"
       ],
       "optionReasons": {
-        "type-mcq-11": "本句指「把某物鑑定、歸入某類」。",
-        "type-mcq-10": "「把手寫稿、草稿等整理並打成正式文字」是「type up」的用法，與本句語境不同。",
-        "type-mcq-12": "「判定血型的檢測／血型鑑定」是「blood typing」的用法，與本句語境不同。",
-        "type-mcq-09": "「把資料透過鍵盤輸入系統」是「type something in」的用法，與本句語境不同。",
-        "type-mcq-13": "「移植等用途的組織分型／配型」是「tissue typing」的用法，與本句語境不同。",
-        "type-mcq-08": "「使用鍵盤輸入文字；打字／鍵入」是「type — keyboard verb」的用法，與本句語境不同。"
+        "type-mcq-11": "本句的「typed」指「把某物鑑定、歸入某類」。",
+        "type-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-11"
     },
@@ -1486,11 +1382,9 @@ export default {
       "masked": "The hospital carried out ____.",
       "options": [
         "type-mcq-12",
-        "type-mcq-11",
-        "type-mcq-13",
-        "type-mcq-10",
-        "type-mcq-14",
-        "type-mcq-09"
+        "type-mcq-18",
+        "type-mcq-31",
+        "type-mcq-07"
       ],
       "explanation": "本句的「blood typing」指「判定血型的檢測／血型鑑定」。",
       "sentenceIndex": 26,
@@ -1499,12 +1393,10 @@ export default {
         "blood typing"
       ],
       "optionReasons": {
-        "type-mcq-12": "本句指「判定血型的檢測／血型鑑定」。",
-        "type-mcq-11": "「把某物鑑定、歸入某類」是「type — classify」的用法，與本句語境不同。",
-        "type-mcq-13": "「移植等用途的組織分型／配型」是「tissue typing」的用法，與本句語境不同。",
-        "type-mcq-10": "「把手寫稿、草稿等整理並打成正式文字」是「type up」的用法，與本句語境不同。",
-        "type-mcq-14": "「程式中規定資料值種類的型別」是「data type」的用法，與本句語境不同。",
-        "type-mcq-09": "「把資料透過鍵盤輸入系統」是「type something in」的用法，與本句語境不同。"
+        "type-mcq-12": "本句的「blood typing」指「判定血型的檢測／血型鑑定」。",
+        "type-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-12"
     },
@@ -1516,11 +1408,9 @@ export default {
       "masked": "____ is important before certain transfusions.",
       "options": [
         "type-mcq-12",
-        "type-mcq-11",
-        "type-mcq-13",
-        "type-mcq-10",
-        "type-mcq-14",
-        "type-mcq-09"
+        "type-mcq-07",
+        "type-mcq-25",
+        "type-mcq-19"
       ],
       "explanation": "本句的「Blood typing」指「判定血型的檢測／血型鑑定」。",
       "sentenceIndex": 27,
@@ -1529,12 +1419,10 @@ export default {
         "Blood typing"
       ],
       "optionReasons": {
-        "type-mcq-12": "本句指「判定血型的檢測／血型鑑定」。",
-        "type-mcq-11": "「把某物鑑定、歸入某類」是「type — classify」的用法，與本句語境不同。",
-        "type-mcq-13": "「移植等用途的組織分型／配型」是「tissue typing」的用法，與本句語境不同。",
-        "type-mcq-10": "「把手寫稿、草稿等整理並打成正式文字」是「type up」的用法，與本句語境不同。",
-        "type-mcq-14": "「程式中規定資料值種類的型別」是「data type」的用法，與本句語境不同。",
-        "type-mcq-09": "「把資料透過鍵盤輸入系統」是「type something in」的用法，與本句語境不同。"
+        "type-mcq-12": "本句的「Blood typing」指「判定血型的檢測／血型鑑定」。",
+        "type-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-12"
     },
@@ -1546,11 +1434,9 @@ export default {
       "masked": "____ was carried out before the transplant.",
       "options": [
         "type-mcq-13",
-        "type-mcq-12",
-        "type-mcq-14",
-        "type-mcq-11",
-        "type-mcq-15",
-        "type-mcq-10"
+        "type-mcq-20",
+        "type-mcq-31",
+        "type-mcq-06"
       ],
       "explanation": "本句的「Tissue typing」指「移植等用途的組織分型／配型」。",
       "sentenceIndex": 28,
@@ -1559,12 +1445,10 @@ export default {
         "Tissue typing"
       ],
       "optionReasons": {
-        "type-mcq-13": "本句指「移植等用途的組織分型／配型」。",
-        "type-mcq-12": "「判定血型的檢測／血型鑑定」是「blood typing」的用法，與本句語境不同。",
-        "type-mcq-14": "「程式中規定資料值種類的型別」是「data type」的用法，與本句語境不同。",
-        "type-mcq-11": "「把某物鑑定、歸入某類」是「type — classify」的用法，與本句語境不同。",
-        "type-mcq-15": "「程式語言用來管理及檢查資料型別的系統」是「type system」的用法，與本句語境不同。",
-        "type-mcq-10": "「把手寫稿、草稿等整理並打成正式文字」是「type up」的用法，與本句語境不同。"
+        "type-mcq-13": "本句的「Tissue typing」指「移植等用途的組織分型／配型」。",
+        "type-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-13"
     },
@@ -1576,11 +1460,9 @@ export default {
       "masked": "Good ____ can improve transplant matching.",
       "options": [
         "type-mcq-13",
-        "type-mcq-12",
-        "type-mcq-14",
-        "type-mcq-11",
-        "type-mcq-15",
-        "type-mcq-10"
+        "type-mcq-19",
+        "type-mcq-31",
+        "type-mcq-11"
       ],
       "explanation": "本句的「tissue typing」指「移植等用途的組織分型／配型」。",
       "sentenceIndex": 29,
@@ -1589,12 +1471,10 @@ export default {
         "tissue typing"
       ],
       "optionReasons": {
-        "type-mcq-13": "本句指「移植等用途的組織分型／配型」。",
-        "type-mcq-12": "「判定血型的檢測／血型鑑定」是「blood typing」的用法，與本句語境不同。",
-        "type-mcq-14": "「程式中規定資料值種類的型別」是「data type」的用法，與本句語境不同。",
-        "type-mcq-11": "「把某物鑑定、歸入某類」是「type — classify」的用法，與本句語境不同。",
-        "type-mcq-15": "「程式語言用來管理及檢查資料型別的系統」是「type system」的用法，與本句語境不同。",
-        "type-mcq-10": "「把手寫稿、草稿等整理並打成正式文字」是「type up」的用法，與本句語境不同。"
+        "type-mcq-13": "本句的「tissue typing」指「移植等用途的組織分型／配型」。",
+        "type-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-13"
     },
@@ -1606,11 +1486,9 @@ export default {
       "masked": "An integer is a common ____.",
       "options": [
         "type-mcq-14",
-        "type-mcq-13",
-        "type-mcq-15",
-        "type-mcq-12",
-        "type-mcq-16",
-        "type-mcq-11"
+        "type-mcq-07",
+        "type-mcq-27",
+        "type-mcq-25"
       ],
       "explanation": "本句的「data type」指「程式中規定資料值種類的型別」。",
       "sentenceIndex": 30,
@@ -1619,12 +1497,10 @@ export default {
         "data type"
       ],
       "optionReasons": {
-        "type-mcq-14": "本句指「程式中規定資料值種類的型別」。",
-        "type-mcq-13": "「移植等用途的組織分型／配型」是「tissue typing」的用法，與本句語境不同。",
-        "type-mcq-15": "「程式語言用來管理及檢查資料型別的系統」是「type system」的用法，與本句語境不同。",
-        "type-mcq-12": "「判定血型的檢測／血型鑑定」是「blood typing」的用法，與本句語境不同。",
-        "type-mcq-16": "「因資料型別不相容造成的程式錯誤」是「type error」的用法，與本句語境不同。",
-        "type-mcq-11": "「把某物鑑定、歸入某類」是「type — classify」的用法，與本句語境不同。"
+        "type-mcq-14": "本句的「data type」指「程式中規定資料值種類的型別」。",
+        "type-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-14"
     },
@@ -1636,11 +1512,9 @@ export default {
       "masked": "The variable has the wrong ____.",
       "options": [
         "type-mcq-14",
-        "type-mcq-13",
-        "type-mcq-15",
-        "type-mcq-12",
-        "type-mcq-16",
-        "type-mcq-11"
+        "type-mcq-20",
+        "type-mcq-22",
+        "type-mcq-25"
       ],
       "explanation": "本句的「type」指「程式中規定資料值種類的型別」。",
       "sentenceIndex": 31,
@@ -1649,12 +1523,10 @@ export default {
         "type"
       ],
       "optionReasons": {
-        "type-mcq-14": "本句指「程式中規定資料值種類的型別」。",
-        "type-mcq-13": "「移植等用途的組織分型／配型」是「tissue typing」的用法，與本句語境不同。",
-        "type-mcq-15": "「程式語言用來管理及檢查資料型別的系統」是「type system」的用法，與本句語境不同。",
-        "type-mcq-12": "「判定血型的檢測／血型鑑定」是「blood typing」的用法，與本句語境不同。",
-        "type-mcq-16": "「因資料型別不相容造成的程式錯誤」是「type error」的用法，與本句語境不同。",
-        "type-mcq-11": "「把某物鑑定、歸入某類」是「type — classify」的用法，與本句語境不同。"
+        "type-mcq-14": "本句的「type」指「程式中規定資料值種類的型別」。",
+        "type-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-14"
     },
@@ -1666,11 +1538,9 @@ export default {
       "masked": "The language has a strict ____.",
       "options": [
         "type-mcq-15",
-        "type-mcq-14",
-        "type-mcq-16",
-        "type-mcq-13",
-        "type-mcq-17",
-        "type-mcq-12"
+        "type-mcq-11",
+        "type-mcq-22",
+        "type-mcq-20"
       ],
       "explanation": "本句的「type system」指「程式語言用來管理及檢查資料型別的系統」。",
       "sentenceIndex": 32,
@@ -1679,12 +1549,10 @@ export default {
         "type system"
       ],
       "optionReasons": {
-        "type-mcq-15": "本句指「程式語言用來管理及檢查資料型別的系統」。",
-        "type-mcq-14": "「程式中規定資料值種類的型別」是「data type」的用法，與本句語境不同。",
-        "type-mcq-16": "「因資料型別不相容造成的程式錯誤」是「type error」的用法，與本句語境不同。",
-        "type-mcq-13": "「移植等用途的組織分型／配型」是「tissue typing」的用法，與本句語境不同。",
-        "type-mcq-17": "「打字；技術語境也可指分類／分型」是「typing」的用法，與本句語境不同。",
-        "type-mcq-12": "「判定血型的檢測／血型鑑定」是「blood typing」的用法，與本句語境不同。"
+        "type-mcq-15": "本句的「type system」指「程式語言用來管理及檢查資料型別的系統」。",
+        "type-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-15"
     },
@@ -1696,11 +1564,9 @@ export default {
       "masked": "A good ____ can prevent some errors.",
       "options": [
         "type-mcq-15",
-        "type-mcq-14",
-        "type-mcq-16",
-        "type-mcq-13",
-        "type-mcq-17",
-        "type-mcq-12"
+        "type-mcq-25",
+        "type-mcq-18",
+        "type-mcq-11"
       ],
       "explanation": "本句的「type system」指「程式語言用來管理及檢查資料型別的系統」。",
       "sentenceIndex": 33,
@@ -1709,12 +1575,10 @@ export default {
         "type system"
       ],
       "optionReasons": {
-        "type-mcq-15": "本句指「程式語言用來管理及檢查資料型別的系統」。",
-        "type-mcq-14": "「程式中規定資料值種類的型別」是「data type」的用法，與本句語境不同。",
-        "type-mcq-16": "「因資料型別不相容造成的程式錯誤」是「type error」的用法，與本句語境不同。",
-        "type-mcq-13": "「移植等用途的組織分型／配型」是「tissue typing」的用法，與本句語境不同。",
-        "type-mcq-17": "「打字；技術語境也可指分類／分型」是「typing」的用法，與本句語境不同。",
-        "type-mcq-12": "「判定血型的檢測／血型鑑定」是「blood typing」的用法，與本句語境不同。"
+        "type-mcq-15": "本句的「type system」指「程式語言用來管理及檢查資料型別的系統」。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-15"
     },
@@ -1726,11 +1590,9 @@ export default {
       "masked": "The program produced a ____.",
       "options": [
         "type-mcq-16",
-        "type-mcq-15",
-        "type-mcq-17",
-        "type-mcq-14",
-        "type-mcq-18",
-        "type-mcq-13"
+        "type-mcq-27",
+        "type-mcq-25",
+        "type-mcq-06"
       ],
       "explanation": "本句的「type error」指「因資料型別不相容造成的程式錯誤」。",
       "sentenceIndex": 34,
@@ -1739,12 +1601,10 @@ export default {
         "type error"
       ],
       "optionReasons": {
-        "type-mcq-16": "本句指「因資料型別不相容造成的程式錯誤」。",
-        "type-mcq-15": "「程式語言用來管理及檢查資料型別的系統」是「type system」的用法，與本句語境不同。",
-        "type-mcq-17": "「打字；技術語境也可指分類／分型」是「typing」的用法，與本句語境不同。",
-        "type-mcq-14": "「程式中規定資料值種類的型別」是「data type」的用法，與本句語境不同。",
-        "type-mcq-18": "「打字員；擅長打字的人」是「typist」的用法，與本句語境不同。",
-        "type-mcq-13": "「移植等用途的組織分型／配型」是「tissue typing」的用法，與本句語境不同。"
+        "type-mcq-16": "本句的「type error」指「因資料型別不相容造成的程式錯誤」。",
+        "type-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-16"
     },
@@ -1756,11 +1616,9 @@ export default {
       "masked": "Static checking can catch some ____ early.",
       "options": [
         "type-mcq-16",
-        "type-mcq-15",
-        "type-mcq-17",
-        "type-mcq-14",
-        "type-mcq-18",
-        "type-mcq-13"
+        "type-mcq-02",
+        "type-mcq-07",
+        "type-mcq-18"
       ],
       "explanation": "本句的「type errors」指「因資料型別不相容造成的程式錯誤」。",
       "sentenceIndex": 35,
@@ -1769,12 +1627,10 @@ export default {
         "type errors"
       ],
       "optionReasons": {
-        "type-mcq-16": "本句指「因資料型別不相容造成的程式錯誤」。",
-        "type-mcq-15": "「程式語言用來管理及檢查資料型別的系統」是「type system」的用法，與本句語境不同。",
-        "type-mcq-17": "「打字；技術語境也可指分類／分型」是「typing」的用法，與本句語境不同。",
-        "type-mcq-14": "「程式中規定資料值種類的型別」是「data type」的用法，與本句語境不同。",
-        "type-mcq-18": "「打字員；擅長打字的人」是「typist」的用法，與本句語境不同。",
-        "type-mcq-13": "「移植等用途的組織分型／配型」是「tissue typing」的用法，與本句語境不同。"
+        "type-mcq-16": "本句的「type errors」指「因資料型別不相容造成的程式錯誤」。",
+        "type-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-16"
     },
@@ -1786,11 +1642,9 @@ export default {
       "masked": "He plays the quiet intellectual ____.",
       "options": [
         "type-mcq-29",
-        "type-mcq-28",
-        "type-mcq-30",
-        "type-mcq-27",
-        "type-mcq-31",
-        "type-mcq-26"
+        "type-mcq-08",
+        "type-mcq-06",
+        "type-mcq-31"
       ],
       "explanation": "本句的「type」指「表示典型人物；某類人」。",
       "sentenceIndex": 36,
@@ -1799,12 +1653,10 @@ export default {
         "type"
       ],
       "optionReasons": {
-        "type-mcq-29": "本句指「表示典型人物；某類人」。",
-        "type-mcq-28": "「表示打字；用鍵盤輸入文字」是「Passage meaning」的用法，與本句語境不同。",
-        "type-mcq-30": "「表示型號；類型；樣式」是「20. type — model or design category」的用法，與本句語境不同。",
-        "type-mcq-27": "「持續不停地打字」是「type away」的用法，與本句語境不同。",
-        "type-mcq-31": "「表示刻板印象」是「29. stereotype」的用法，與本句語境不同。",
-        "type-mcq-26": "「不是自己喜歡或偏好的類型」是「not my type」的用法，與本句語境不同。"
+        "type-mcq-29": "本句的「type」指「表示典型人物；某類人」。",
+        "type-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-29"
     },
@@ -1816,11 +1668,9 @@ export default {
       "masked": "She doesn’t fit the usual executive ____.",
       "options": [
         "type-mcq-29",
-        "type-mcq-28",
-        "type-mcq-30",
-        "type-mcq-27",
-        "type-mcq-31",
-        "type-mcq-26"
+        "type-mcq-06",
+        "type-mcq-20",
+        "type-mcq-10"
       ],
       "explanation": "本句的「type」指「表示典型人物；某類人」。",
       "sentenceIndex": 37,
@@ -1829,12 +1679,10 @@ export default {
         "type"
       ],
       "optionReasons": {
-        "type-mcq-29": "本句指「表示典型人物；某類人」。",
-        "type-mcq-28": "「表示打字；用鍵盤輸入文字」是「Passage meaning」的用法，與本句語境不同。",
-        "type-mcq-30": "「表示型號；類型；樣式」是「20. type — model or design category」的用法，與本句語境不同。",
-        "type-mcq-27": "「持續不停地打字」是「type away」的用法，與本句語境不同。",
-        "type-mcq-31": "「表示刻板印象」是「29. stereotype」的用法，與本句語境不同。",
-        "type-mcq-26": "「不是自己喜歡或偏好的類型」是「not my type」的用法，與本句語境不同。"
+        "type-mcq-29": "本句的「type」指「表示典型人物；某類人」。",
+        "type-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-29"
     },
@@ -1846,11 +1694,9 @@ export default {
       "masked": "This ____ is more efficient.",
       "options": [
         "type-mcq-30",
-        "type-mcq-29",
-        "type-mcq-31",
-        "type-mcq-28",
         "type-mcq-27",
-        "type-mcq-26"
+        "type-mcq-25",
+        "type-mcq-07"
       ],
       "explanation": "本句的「type of engine」指「表示型號；類型；樣式」。",
       "sentenceIndex": 38,
@@ -1859,12 +1705,10 @@ export default {
         "type of engine"
       ],
       "optionReasons": {
-        "type-mcq-30": "本句指「表示型號；類型；樣式」。",
-        "type-mcq-29": "「表示典型人物；某類人」是「19. type — stereotypical kind of person」的用法，與本句語境不同。",
-        "type-mcq-31": "「表示刻板印象」是「29. stereotype」的用法，與本句語境不同。",
-        "type-mcq-28": "「表示打字；用鍵盤輸入文字」是「Passage meaning」的用法，與本句語境不同。",
-        "type-mcq-27": "「持續不停地打字」是「type away」的用法，與本句語境不同。",
-        "type-mcq-26": "「不是自己喜歡或偏好的類型」是「not my type」的用法，與本句語境不同。"
+        "type-mcq-30": "本句的「type of engine」指「表示型號；類型；樣式」。",
+        "type-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-30"
     },
@@ -1876,11 +1720,9 @@ export default {
       "masked": "They tested several ____.",
       "options": [
         "type-mcq-30",
-        "type-mcq-29",
-        "type-mcq-31",
-        "type-mcq-28",
-        "type-mcq-27",
-        "type-mcq-26"
+        "type-mcq-08",
+        "type-mcq-07",
+        "type-mcq-25"
       ],
       "explanation": "本句的「types of material」指「表示型號；類型；樣式」。",
       "sentenceIndex": 39,
@@ -1889,12 +1731,10 @@ export default {
         "types of material"
       ],
       "optionReasons": {
-        "type-mcq-30": "本句指「表示型號；類型；樣式」。",
-        "type-mcq-29": "「表示典型人物；某類人」是「19. type — stereotypical kind of person」的用法，與本句語境不同。",
-        "type-mcq-31": "「表示刻板印象」是「29. stereotype」的用法，與本句語境不同。",
-        "type-mcq-28": "「表示打字；用鍵盤輸入文字」是「Passage meaning」的用法，與本句語境不同。",
-        "type-mcq-27": "「持續不停地打字」是「type away」的用法，與本句語境不同。",
-        "type-mcq-26": "「不是自己喜歡或偏好的類型」是「not my type」的用法，與本句語境不同。"
+        "type-mcq-30": "本句的「types of material」指「表示型號；類型；樣式」。",
+        "type-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-30"
     },
@@ -1906,11 +1746,9 @@ export default {
       "masked": "She once worked as a ____.",
       "options": [
         "type-mcq-18",
-        "type-mcq-17",
-        "type-mcq-19",
-        "type-mcq-16",
-        "type-mcq-20",
-        "type-mcq-15"
+        "type-mcq-12",
+        "type-mcq-03",
+        "type-mcq-25"
       ],
       "explanation": "本句的「typist」指「打字員；擅長打字的人」。",
       "sentenceIndex": 40,
@@ -1919,12 +1757,10 @@ export default {
         "typist"
       ],
       "optionReasons": {
-        "type-mcq-18": "本句指「打字員；擅長打字的人」。",
-        "type-mcq-17": "「打字；技術語境也可指分類／分型」是「typing」的用法，與本句語境不同。",
-        "type-mcq-19": "「用鍵盤打出來的」是「typed」的用法，與本句語境不同。",
-        "type-mcq-16": "「因資料型別不相容造成的程式錯誤」是「type error」的用法，與本句語境不同。",
-        "type-mcq-20": "「用按鍵直接在紙上打字的打字機」是「typewriter」的用法，與本句語境不同。",
-        "type-mcq-15": "「程式語言用來管理及檢查資料型別的系統」是「type system」的用法，與本句語境不同。"
+        "type-mcq-18": "本句的「typist」指「打字員；擅長打字的人」。",
+        "type-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-18"
     },
@@ -1936,11 +1772,9 @@ export default {
       "masked": "He is a very accurate ____.",
       "options": [
         "type-mcq-18",
-        "type-mcq-17",
-        "type-mcq-19",
-        "type-mcq-16",
-        "type-mcq-20",
-        "type-mcq-15"
+        "type-mcq-30",
+        "type-mcq-02",
+        "type-mcq-31"
       ],
       "explanation": "本句的「typist」指「打字員；擅長打字的人」。",
       "sentenceIndex": 41,
@@ -1949,12 +1783,10 @@ export default {
         "typist"
       ],
       "optionReasons": {
-        "type-mcq-18": "本句指「打字員；擅長打字的人」。",
-        "type-mcq-17": "「打字；技術語境也可指分類／分型」是「typing」的用法，與本句語境不同。",
-        "type-mcq-19": "「用鍵盤打出來的」是「typed」的用法，與本句語境不同。",
-        "type-mcq-16": "「因資料型別不相容造成的程式錯誤」是「type error」的用法，與本句語境不同。",
-        "type-mcq-20": "「用按鍵直接在紙上打字的打字機」是「typewriter」的用法，與本句語境不同。",
-        "type-mcq-15": "「程式語言用來管理及檢查資料型別的系統」是「type system」的用法，與本句語境不同。"
+        "type-mcq-18": "本句的「typist」指「打字員；擅長打字的人」。",
+        "type-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-18"
     },
@@ -1966,11 +1798,9 @@ export default {
       "masked": "Please submit a ____.",
       "options": [
         "type-mcq-19",
-        "type-mcq-18",
-        "type-mcq-20",
-        "type-mcq-17",
-        "type-mcq-21",
-        "type-mcq-16"
+        "type-mcq-13",
+        "type-mcq-14",
+        "type-mcq-25"
       ],
       "explanation": "本句的「typed copy」指「用鍵盤打出來的」。",
       "sentenceIndex": 42,
@@ -1979,12 +1809,10 @@ export default {
         "typed copy"
       ],
       "optionReasons": {
-        "type-mcq-19": "本句指「用鍵盤打出來的」。",
-        "type-mcq-18": "「打字員；擅長打字的人」是「typist」的用法，與本句語境不同。",
-        "type-mcq-20": "「用按鍵直接在紙上打字的打字機」是「typewriter」的用法，與本句語境不同。",
-        "type-mcq-17": "「打字；技術語境也可指分類／分型」是「typing」的用法，與本句語境不同。",
-        "type-mcq-21": "「字母、字符的視覺設計；字體／字型」是「typeface」的用法，與本句語境不同。",
-        "type-mcq-16": "「因資料型別不相容造成的程式錯誤」是「type error」的用法，與本句語境不同。"
+        "type-mcq-19": "本句的「typed copy」指「用鍵盤打出來的」。",
+        "type-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-19"
     },
@@ -1996,11 +1824,9 @@ export default {
       "masked": "She handed in a ____.",
       "options": [
         "type-mcq-19",
-        "type-mcq-18",
-        "type-mcq-20",
-        "type-mcq-17",
-        "type-mcq-21",
-        "type-mcq-16"
+        "type-mcq-07",
+        "type-mcq-12",
+        "type-mcq-26"
       ],
       "explanation": "本句的「typed document」指「用鍵盤打出來的」。",
       "sentenceIndex": 43,
@@ -2009,12 +1835,10 @@ export default {
         "typed document"
       ],
       "optionReasons": {
-        "type-mcq-19": "本句指「用鍵盤打出來的」。",
-        "type-mcq-18": "「打字員；擅長打字的人」是「typist」的用法，與本句語境不同。",
-        "type-mcq-20": "「用按鍵直接在紙上打字的打字機」是「typewriter」的用法，與本句語境不同。",
-        "type-mcq-17": "「打字；技術語境也可指分類／分型」是「typing」的用法，與本句語境不同。",
-        "type-mcq-21": "「字母、字符的視覺設計；字體／字型」是「typeface」的用法，與本句語境不同。",
-        "type-mcq-16": "「因資料型別不相容造成的程式錯誤」是「type error」的用法，與本句語境不同。"
+        "type-mcq-19": "本句的「typed document」指「用鍵盤打出來的」。",
+        "type-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-19"
     },
@@ -2026,11 +1850,9 @@ export default {
       "masked": "The letter was written on an old ____.",
       "options": [
         "type-mcq-20",
-        "type-mcq-19",
-        "type-mcq-21",
-        "type-mcq-18",
-        "type-mcq-22",
-        "type-mcq-17"
+        "type-mcq-16",
+        "type-mcq-12",
+        "type-mcq-31"
       ],
       "explanation": "本句的「typewriter」指「用按鍵直接在紙上打字的打字機」。",
       "sentenceIndex": 44,
@@ -2039,12 +1861,10 @@ export default {
         "typewriter"
       ],
       "optionReasons": {
-        "type-mcq-20": "本句指「用按鍵直接在紙上打字的打字機」。",
-        "type-mcq-19": "「用鍵盤打出來的」是「typed」的用法，與本句語境不同。",
-        "type-mcq-21": "「字母、字符的視覺設計；字體／字型」是「typeface」的用法，與本句語境不同。",
-        "type-mcq-18": "「打字員；擅長打字的人」是「typist」的用法，與本句語境不同。",
-        "type-mcq-22": "「字體選擇、排列與版面設計；排版」是「typography」的用法，與本句語境不同。",
-        "type-mcq-17": "「打字；技術語境也可指分類／分型」是「typing」的用法，與本句語境不同。"
+        "type-mcq-20": "本句的「typewriter」指「用按鍵直接在紙上打字的打字機」。",
+        "type-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-20"
     },
@@ -2056,11 +1876,9 @@ export default {
       "masked": "Computers largely replaced the ____.",
       "options": [
         "type-mcq-20",
-        "type-mcq-19",
-        "type-mcq-21",
-        "type-mcq-18",
-        "type-mcq-22",
-        "type-mcq-17"
+        "type-mcq-12",
+        "type-mcq-13",
+        "type-mcq-26"
       ],
       "explanation": "本句的「typewriter」指「用按鍵直接在紙上打字的打字機」。",
       "sentenceIndex": 45,
@@ -2069,12 +1887,10 @@ export default {
         "typewriter"
       ],
       "optionReasons": {
-        "type-mcq-20": "本句指「用按鍵直接在紙上打字的打字機」。",
-        "type-mcq-19": "「用鍵盤打出來的」是「typed」的用法，與本句語境不同。",
-        "type-mcq-21": "「字母、字符的視覺設計；字體／字型」是「typeface」的用法，與本句語境不同。",
-        "type-mcq-18": "「打字員；擅長打字的人」是「typist」的用法，與本句語境不同。",
-        "type-mcq-22": "「字體選擇、排列與版面設計；排版」是「typography」的用法，與本句語境不同。",
-        "type-mcq-17": "「打字；技術語境也可指分類／分型」是「typing」的用法，與本句語境不同。"
+        "type-mcq-20": "本句的「typewriter」指「用按鍵直接在紙上打字的打字機」。",
+        "type-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-20"
     },
@@ -2086,11 +1902,9 @@ export default {
       "masked": "The designer chose a simple ____.",
       "options": [
         "type-mcq-21",
-        "type-mcq-20",
-        "type-mcq-22",
         "type-mcq-19",
-        "type-mcq-23",
-        "type-mcq-18"
+        "type-mcq-31",
+        "type-mcq-11"
       ],
       "explanation": "本句的「typeface」指「字母、字符的視覺設計；字體／字型」。",
       "sentenceIndex": 46,
@@ -2099,12 +1913,10 @@ export default {
         "typeface"
       ],
       "optionReasons": {
-        "type-mcq-21": "本句指「字母、字符的視覺設計；字體／字型」。",
-        "type-mcq-20": "「用按鍵直接在紙上打字的打字機」是「typewriter」的用法，與本句語境不同。",
-        "type-mcq-22": "「字體選擇、排列與版面設計；排版」是「typography」的用法，與本句語境不同。",
-        "type-mcq-19": "「用鍵盤打出來的」是「typed」的用法，與本句語境不同。",
-        "type-mcq-23": "「具有某一類事物通常特徵的；典型的」是「typical」的用法，與本句語境不同。",
-        "type-mcq-18": "「打字員；擅長打字的人」是「typist」的用法，與本句語境不同。"
+        "type-mcq-21": "本句的「typeface」指「字母、字符的視覺設計；字體／字型」。",
+        "type-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-21"
     },
@@ -2116,11 +1928,9 @@ export default {
       "masked": "This ____ is easy to read.",
       "options": [
         "type-mcq-21",
-        "type-mcq-20",
-        "type-mcq-22",
-        "type-mcq-19",
-        "type-mcq-23",
-        "type-mcq-18"
+        "type-mcq-31",
+        "type-mcq-09",
+        "type-mcq-02"
       ],
       "explanation": "本句的「typeface」指「字母、字符的視覺設計；字體／字型」。",
       "sentenceIndex": 47,
@@ -2129,12 +1939,10 @@ export default {
         "typeface"
       ],
       "optionReasons": {
-        "type-mcq-21": "本句指「字母、字符的視覺設計；字體／字型」。",
-        "type-mcq-20": "「用按鍵直接在紙上打字的打字機」是「typewriter」的用法，與本句語境不同。",
-        "type-mcq-22": "「字體選擇、排列與版面設計；排版」是「typography」的用法，與本句語境不同。",
-        "type-mcq-19": "「用鍵盤打出來的」是「typed」的用法，與本句語境不同。",
-        "type-mcq-23": "「具有某一類事物通常特徵的；典型的」是「typical」的用法，與本句語境不同。",
-        "type-mcq-18": "「打字員；擅長打字的人」是「typist」的用法，與本句語境不同。"
+        "type-mcq-21": "本句的「typeface」指「字母、字符的視覺設計；字體／字型」。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-21"
     },
@@ -2146,11 +1954,9 @@ export default {
       "masked": "Good ____ improves readability.",
       "options": [
         "type-mcq-22",
-        "type-mcq-21",
-        "type-mcq-23",
-        "type-mcq-20",
-        "type-mcq-24",
-        "type-mcq-19"
+        "type-mcq-13",
+        "type-mcq-11",
+        "type-mcq-16"
       ],
       "explanation": "本句的「typography」指「字體選擇、排列與版面設計；排版」。",
       "sentenceIndex": 48,
@@ -2159,12 +1965,10 @@ export default {
         "typography"
       ],
       "optionReasons": {
-        "type-mcq-22": "本句指「字體選擇、排列與版面設計；排版」。",
-        "type-mcq-21": "「字母、字符的視覺設計；字體／字型」是「typeface」的用法，與本句語境不同。",
-        "type-mcq-23": "「具有某一類事物通常特徵的；典型的」是「typical」的用法，與本句語境不同。",
-        "type-mcq-20": "「用按鍵直接在紙上打字的打字機」是「typewriter」的用法，與本句語境不同。",
-        "type-mcq-24": "「不符合一般典型特徵的；非典型的」是「atypical」的用法，與本句語境不同。",
-        "type-mcq-19": "「用鍵盤打出來的」是「typed」的用法，與本句語境不同。"
+        "type-mcq-22": "本句的「typography」指「字體選擇、排列與版面設計；排版」。",
+        "type-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-22"
     },
@@ -2176,11 +1980,9 @@ export default {
       "masked": "She studied graphic design and ____.",
       "options": [
         "type-mcq-22",
-        "type-mcq-21",
         "type-mcq-23",
-        "type-mcq-20",
-        "type-mcq-24",
-        "type-mcq-19"
+        "type-mcq-09",
+        "type-mcq-11"
       ],
       "explanation": "本句的「typography」指「字體選擇、排列與版面設計；排版」。",
       "sentenceIndex": 49,
@@ -2189,12 +1991,10 @@ export default {
         "typography"
       ],
       "optionReasons": {
-        "type-mcq-22": "本句指「字體選擇、排列與版面設計；排版」。",
-        "type-mcq-21": "「字母、字符的視覺設計；字體／字型」是「typeface」的用法，與本句語境不同。",
-        "type-mcq-23": "「具有某一類事物通常特徵的；典型的」是「typical」的用法，與本句語境不同。",
-        "type-mcq-20": "「用按鍵直接在紙上打字的打字機」是「typewriter」的用法，與本句語境不同。",
-        "type-mcq-24": "「不符合一般典型特徵的；非典型的」是「atypical」的用法，與本句語境不同。",
-        "type-mcq-19": "「用鍵盤打出來的」是「typed」的用法，與本句語境不同。"
+        "type-mcq-22": "本句的「typography」指「字體選擇、排列與版面設計；排版」。",
+        "type-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-22"
     },
@@ -2207,10 +2007,8 @@ export default {
       "options": [
         "type-mcq-23",
         "type-mcq-22",
-        "type-mcq-24",
-        "type-mcq-21",
-        "type-mcq-25",
-        "type-mcq-20"
+        "type-mcq-18",
+        "type-mcq-25"
       ],
       "explanation": "本句的「typical example」指「具有某一類事物通常特徵的；典型的」。",
       "sentenceIndex": 50,
@@ -2219,12 +2017,10 @@ export default {
         "typical example"
       ],
       "optionReasons": {
-        "type-mcq-23": "本句指「具有某一類事物通常特徵的；典型的」。",
-        "type-mcq-22": "「字體選擇、排列與版面設計；排版」是「typography」的用法，與本句語境不同。",
-        "type-mcq-24": "「不符合一般典型特徵的；非典型的」是「atypical」的用法，與本句語境不同。",
-        "type-mcq-21": "「字母、字符的視覺設計；字體／字型」是「typeface」的用法，與本句語境不同。",
-        "type-mcq-25": "「是那種很可能會做某事的人」是「the type to do something」的用法，與本句語境不同。",
-        "type-mcq-20": "「用按鍵直接在紙上打字的打字機」是「typewriter」的用法，與本句語境不同。"
+        "type-mcq-23": "本句的「typical example」指「具有某一類事物通常特徵的；典型的」。",
+        "type-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-23"
     },
@@ -2236,11 +2032,9 @@ export default {
       "masked": "This weather is ____ the season.",
       "options": [
         "type-mcq-23",
-        "type-mcq-22",
-        "type-mcq-24",
-        "type-mcq-21",
+        "type-mcq-28",
         "type-mcq-25",
-        "type-mcq-20"
+        "type-mcq-07"
       ],
       "explanation": "本句的「typical of」指「具有某一類事物通常特徵的；典型的」。",
       "sentenceIndex": 51,
@@ -2249,12 +2043,10 @@ export default {
         "typical of"
       ],
       "optionReasons": {
-        "type-mcq-23": "本句指「具有某一類事物通常特徵的；典型的」。",
-        "type-mcq-22": "「字體選擇、排列與版面設計；排版」是「typography」的用法，與本句語境不同。",
-        "type-mcq-24": "「不符合一般典型特徵的；非典型的」是「atypical」的用法，與本句語境不同。",
-        "type-mcq-21": "「字母、字符的視覺設計；字體／字型」是「typeface」的用法，與本句語境不同。",
-        "type-mcq-25": "「是那種很可能會做某事的人」是「the type to do something」的用法，與本句語境不同。",
-        "type-mcq-20": "「用按鍵直接在紙上打字的打字機」是「typewriter」的用法，與本句語境不同。"
+        "type-mcq-23": "本句的「typical of」指「具有某一類事物通常特徵的；典型的」。",
+        "type-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-23"
     },
@@ -2266,11 +2058,9 @@ export default {
       "masked": "The result was ____.",
       "options": [
         "type-mcq-24",
-        "type-mcq-23",
-        "type-mcq-25",
-        "type-mcq-22",
-        "type-mcq-26",
-        "type-mcq-21"
+        "type-mcq-11",
+        "type-mcq-28",
+        "type-mcq-06"
       ],
       "explanation": "本句的「atypical」指「不符合一般典型特徵的；非典型的」。",
       "sentenceIndex": 52,
@@ -2279,12 +2069,10 @@ export default {
         "atypical"
       ],
       "optionReasons": {
-        "type-mcq-24": "本句指「不符合一般典型特徵的；非典型的」。",
-        "type-mcq-23": "「具有某一類事物通常特徵的；典型的」是「typical」的用法，與本句語境不同。",
-        "type-mcq-25": "「是那種很可能會做某事的人」是「the type to do something」的用法，與本句語境不同。",
-        "type-mcq-22": "「字體選擇、排列與版面設計；排版」是「typography」的用法，與本句語境不同。",
-        "type-mcq-26": "「不是自己喜歡或偏好的類型」是「not my type」的用法，與本句語境不同。",
-        "type-mcq-21": "「字母、字符的視覺設計；字體／字型」是「typeface」的用法，與本句語境不同。"
+        "type-mcq-24": "本句的「atypical」指「不符合一般典型特徵的；非典型的」。",
+        "type-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-24"
     },
@@ -2296,11 +2084,9 @@ export default {
       "masked": "Her symptoms were ____.",
       "options": [
         "type-mcq-24",
-        "type-mcq-23",
+        "type-mcq-28",
         "type-mcq-25",
-        "type-mcq-22",
-        "type-mcq-26",
-        "type-mcq-21"
+        "type-mcq-07"
       ],
       "explanation": "本句的「atypical」指「不符合一般典型特徵的；非典型的」。",
       "sentenceIndex": 53,
@@ -2309,12 +2095,10 @@ export default {
         "atypical"
       ],
       "optionReasons": {
-        "type-mcq-24": "本句指「不符合一般典型特徵的；非典型的」。",
-        "type-mcq-23": "「具有某一類事物通常特徵的；典型的」是「typical」的用法，與本句語境不同。",
-        "type-mcq-25": "「是那種很可能會做某事的人」是「the type to do something」的用法，與本句語境不同。",
-        "type-mcq-22": "「字體選擇、排列與版面設計；排版」是「typography」的用法，與本句語境不同。",
-        "type-mcq-26": "「不是自己喜歡或偏好的類型」是「not my type」的用法，與本句語境不同。",
-        "type-mcq-21": "「字母、字符的視覺設計；字體／字型」是「typeface」的用法，與本句語境不同。"
+        "type-mcq-24": "本句的「atypical」指「不符合一般典型特徵的；非典型的」。",
+        "type-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-24"
     },
@@ -2326,11 +2110,9 @@ export default {
       "masked": "The film challenges gender ____.",
       "options": [
         "type-mcq-31",
-        "type-mcq-30",
-        "type-mcq-29",
-        "type-mcq-28",
-        "type-mcq-27",
-        "type-mcq-26"
+        "type-mcq-04",
+        "type-mcq-02",
+        "type-mcq-19"
       ],
       "explanation": "本句的「stereotypes」指「表示刻板印象」。",
       "sentenceIndex": 54,
@@ -2339,12 +2121,10 @@ export default {
         "stereotypes"
       ],
       "optionReasons": {
-        "type-mcq-31": "本句指「表示刻板印象」。",
-        "type-mcq-30": "「表示型號；類型；樣式」是「20. type — model or design category」的用法，與本句語境不同。",
-        "type-mcq-29": "「表示典型人物；某類人」是「19. type — stereotypical kind of person」的用法，與本句語境不同。",
-        "type-mcq-28": "「表示打字；用鍵盤輸入文字」是「Passage meaning」的用法，與本句語境不同。",
-        "type-mcq-27": "「持續不停地打字」是「type away」的用法，與本句語境不同。",
-        "type-mcq-26": "「不是自己喜歡或偏好的類型」是「not my type」的用法，與本句語境不同。"
+        "type-mcq-31": "本句的「stereotypes」指「表示刻板印象」。",
+        "type-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-31"
     },
@@ -2356,11 +2136,9 @@ export default {
       "masked": "We should avoid judging people by ____.",
       "options": [
         "type-mcq-31",
-        "type-mcq-30",
-        "type-mcq-29",
-        "type-mcq-28",
-        "type-mcq-27",
-        "type-mcq-26"
+        "type-mcq-20",
+        "type-mcq-05",
+        "type-mcq-10"
       ],
       "explanation": "本句的「stereotypes」指「表示刻板印象」。",
       "sentenceIndex": 55,
@@ -2369,12 +2147,10 @@ export default {
         "stereotypes"
       ],
       "optionReasons": {
-        "type-mcq-31": "本句指「表示刻板印象」。",
-        "type-mcq-30": "「表示型號；類型；樣式」是「20. type — model or design category」的用法，與本句語境不同。",
-        "type-mcq-29": "「表示典型人物；某類人」是「19. type — stereotypical kind of person」的用法，與本句語境不同。",
-        "type-mcq-28": "「表示打字；用鍵盤輸入文字」是「Passage meaning」的用法，與本句語境不同。",
-        "type-mcq-27": "「持續不停地打字」是「type away」的用法，與本句語境不同。",
-        "type-mcq-26": "「不是自己喜歡或偏好的類型」是「not my type」的用法，與本句語境不同。"
+        "type-mcq-31": "本句的「stereotypes」指「表示刻板印象」。",
+        "type-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-31"
     },
@@ -2386,11 +2162,9 @@ export default {
       "masked": "A fountain pen is a ____.",
       "options": [
         "type-mcq-25",
-        "type-mcq-24",
-        "type-mcq-26",
-        "type-mcq-23",
-        "type-mcq-27",
-        "type-mcq-22"
+        "type-mcq-04",
+        "type-mcq-28",
+        "type-mcq-31"
       ],
       "explanation": "本句的「type of writing instrument」指「是那種很可能會做某事的人」。",
       "sentenceIndex": 56,
@@ -2399,12 +2173,10 @@ export default {
         "type of writing instrument"
       ],
       "optionReasons": {
-        "type-mcq-25": "本句指「是那種很可能會做某事的人」。",
-        "type-mcq-24": "「不符合一般典型特徵的；非典型的」是「atypical」的用法，與本句語境不同。",
-        "type-mcq-26": "「不是自己喜歡或偏好的類型」是「not my type」的用法，與本句語境不同。",
-        "type-mcq-23": "「具有某一類事物通常特徵的；典型的」是「typical」的用法，與本句語境不同。",
-        "type-mcq-27": "「持續不停地打字」是「type away」的用法，與本句語境不同。",
-        "type-mcq-22": "「字體選擇、排列與版面設計；排版」是「typography」的用法，與本句語境不同。"
+        "type-mcq-25": "本句的「type of writing instrument」指「是那種很可能會做某事的人」。",
+        "type-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-25"
     },
@@ -2416,11 +2188,9 @@ export default {
       "masked": "This is a ____.",
       "options": [
         "type-mcq-25",
-        "type-mcq-24",
-        "type-mcq-26",
         "type-mcq-23",
-        "type-mcq-27",
-        "type-mcq-22"
+        "type-mcq-15",
+        "type-mcq-13"
       ],
       "explanation": "本句的「type of metal」指「是那種很可能會做某事的人」。",
       "sentenceIndex": 57,
@@ -2429,12 +2199,10 @@ export default {
         "type of metal"
       ],
       "optionReasons": {
-        "type-mcq-25": "本句指「是那種很可能會做某事的人」。",
-        "type-mcq-24": "「不符合一般典型特徵的；非典型的」是「atypical」的用法，與本句語境不同。",
-        "type-mcq-26": "「不是自己喜歡或偏好的類型」是「not my type」的用法，與本句語境不同。",
-        "type-mcq-23": "「具有某一類事物通常特徵的；典型的」是「typical」的用法，與本句語境不同。",
-        "type-mcq-27": "「持續不停地打字」是「type away」的用法，與本句語境不同。",
-        "type-mcq-22": "「字體選擇、排列與版面設計；排版」是「typography」的用法，與本句語境不同。"
+        "type-mcq-25": "本句的「type of metal」指「是那種很可能會做某事的人」。",
+        "type-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-25"
     },
@@ -2446,11 +2214,9 @@ export default {
       "masked": "She is not ____.",
       "options": [
         "type-mcq-25",
-        "type-mcq-24",
-        "type-mcq-26",
-        "type-mcq-23",
-        "type-mcq-27",
-        "type-mcq-22"
+        "type-mcq-07",
+        "type-mcq-05",
+        "type-mcq-10"
       ],
       "explanation": "本句的「the type to complain」指「是那種很可能會做某事的人」。",
       "sentenceIndex": 58,
@@ -2459,12 +2225,10 @@ export default {
         "the type to complain"
       ],
       "optionReasons": {
-        "type-mcq-25": "本句指「是那種很可能會做某事的人」。",
-        "type-mcq-24": "「不符合一般典型特徵的；非典型的」是「atypical」的用法，與本句語境不同。",
-        "type-mcq-26": "「不是自己喜歡或偏好的類型」是「not my type」的用法，與本句語境不同。",
-        "type-mcq-23": "「具有某一類事物通常特徵的；典型的」是「typical」的用法，與本句語境不同。",
-        "type-mcq-27": "「持續不停地打字」是「type away」的用法，與本句語境不同。",
-        "type-mcq-22": "「字體選擇、排列與版面設計；排版」是「typography」的用法，與本句語境不同。"
+        "type-mcq-25": "本句的「the type to complain」指「是那種很可能會做某事的人」。",
+        "type-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-25"
     },
@@ -2476,11 +2240,9 @@ export default {
       "masked": "He is ____.",
       "options": [
         "type-mcq-25",
-        "type-mcq-24",
-        "type-mcq-26",
-        "type-mcq-23",
-        "type-mcq-27",
-        "type-mcq-22"
+        "type-mcq-21",
+        "type-mcq-30",
+        "type-mcq-11"
       ],
       "explanation": "本句的「the type to arrive early」指「是那種很可能會做某事的人」。",
       "sentenceIndex": 59,
@@ -2489,12 +2251,10 @@ export default {
         "the type to arrive early"
       ],
       "optionReasons": {
-        "type-mcq-25": "本句指「是那種很可能會做某事的人」。",
-        "type-mcq-24": "「不符合一般典型特徵的；非典型的」是「atypical」的用法，與本句語境不同。",
-        "type-mcq-26": "「不是自己喜歡或偏好的類型」是「not my type」的用法，與本句語境不同。",
-        "type-mcq-23": "「具有某一類事物通常特徵的；典型的」是「typical」的用法，與本句語境不同。",
-        "type-mcq-27": "「持續不停地打字」是「type away」的用法，與本句語境不同。",
-        "type-mcq-22": "「字體選擇、排列與版面設計；排版」是「typography」的用法，與本句語境不同。"
+        "type-mcq-25": "本句的「the type to arrive early」指「是那種很可能會做某事的人」。",
+        "type-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-25"
     },
@@ -2506,11 +2266,9 @@ export default {
       "masked": "He’s nice, but he’s ____.",
       "options": [
         "type-mcq-26",
+        "type-mcq-09",
         "type-mcq-25",
-        "type-mcq-27",
-        "type-mcq-24",
-        "type-mcq-28",
-        "type-mcq-23"
+        "type-mcq-20"
       ],
       "explanation": "本句的「not my type」指「不是自己喜歡或偏好的類型」。",
       "sentenceIndex": 60,
@@ -2519,12 +2277,10 @@ export default {
         "not my type"
       ],
       "optionReasons": {
-        "type-mcq-26": "本句指「不是自己喜歡或偏好的類型」。",
-        "type-mcq-25": "「是那種很可能會做某事的人」是「the type to do something」的用法，與本句語境不同。",
-        "type-mcq-27": "「持續不停地打字」是「type away」的用法，與本句語境不同。",
-        "type-mcq-24": "「不符合一般典型特徵的；非典型的」是「atypical」的用法，與本句語境不同。",
-        "type-mcq-28": "「表示打字；用鍵盤輸入文字」是「Passage meaning」的用法，與本句語境不同。",
-        "type-mcq-23": "「具有某一類事物通常特徵的；典型的」是「typical」的用法，與本句語境不同。"
+        "type-mcq-26": "本句的「not my type」指「不是自己喜歡或偏好的類型」。",
+        "type-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-26"
     },
@@ -2536,11 +2292,9 @@ export default {
       "masked": "That style is ____.",
       "options": [
         "type-mcq-26",
-        "type-mcq-25",
-        "type-mcq-27",
-        "type-mcq-24",
-        "type-mcq-28",
-        "type-mcq-23"
+        "type-mcq-07",
+        "type-mcq-19",
+        "type-mcq-18"
       ],
       "explanation": "本句的「not really my type」指「不是自己喜歡或偏好的類型」。",
       "sentenceIndex": 61,
@@ -2549,12 +2303,10 @@ export default {
         "not really my type"
       ],
       "optionReasons": {
-        "type-mcq-26": "本句指「不是自己喜歡或偏好的類型」。",
-        "type-mcq-25": "「是那種很可能會做某事的人」是「the type to do something」的用法，與本句語境不同。",
-        "type-mcq-27": "「持續不停地打字」是「type away」的用法，與本句語境不同。",
-        "type-mcq-24": "「不符合一般典型特徵的；非典型的」是「atypical」的用法，與本句語境不同。",
-        "type-mcq-28": "「表示打字；用鍵盤輸入文字」是「Passage meaning」的用法，與本句語境不同。",
-        "type-mcq-23": "「具有某一類事物通常特徵的；典型的」是「typical」的用法，與本句語境不同。"
+        "type-mcq-26": "本句的「not really my type」指「不是自己喜歡或偏好的類型」。",
+        "type-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-26"
     },
@@ -2566,11 +2318,9 @@ export default {
       "masked": "She sat at her desk ____.",
       "options": [
         "type-mcq-27",
-        "type-mcq-26",
-        "type-mcq-28",
-        "type-mcq-25",
-        "type-mcq-29",
-        "type-mcq-24"
+        "type-mcq-02",
+        "type-mcq-13",
+        "type-mcq-09"
       ],
       "explanation": "本句的「typing away」指「持續不停地打字」。",
       "sentenceIndex": 62,
@@ -2579,12 +2329,10 @@ export default {
         "typing away"
       ],
       "optionReasons": {
-        "type-mcq-27": "本句指「持續不停地打字」。",
-        "type-mcq-26": "「不是自己喜歡或偏好的類型」是「not my type」的用法，與本句語境不同。",
-        "type-mcq-28": "「表示打字；用鍵盤輸入文字」是「Passage meaning」的用法，與本句語境不同。",
-        "type-mcq-25": "「是那種很可能會做某事的人」是「the type to do something」的用法，與本句語境不同。",
-        "type-mcq-29": "「表示典型人物；某類人」是「19. type — stereotypical kind of person」的用法，與本句語境不同。",
-        "type-mcq-24": "「不符合一般典型特徵的；非典型的」是「atypical」的用法，與本句語境不同。"
+        "type-mcq-27": "本句的「typing away」指「持續不停地打字」。",
+        "type-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-27"
     },
@@ -2596,11 +2344,9 @@ export default {
       "masked": "He was ____ on his laptop.",
       "options": [
         "type-mcq-27",
-        "type-mcq-26",
-        "type-mcq-28",
-        "type-mcq-25",
         "type-mcq-29",
-        "type-mcq-24"
+        "type-mcq-31",
+        "type-mcq-09"
       ],
       "explanation": "本句的「typing away」指「持續不停地打字」。",
       "sentenceIndex": 63,
@@ -2609,12 +2355,10 @@ export default {
         "typing away"
       ],
       "optionReasons": {
-        "type-mcq-27": "本句指「持續不停地打字」。",
-        "type-mcq-26": "「不是自己喜歡或偏好的類型」是「not my type」的用法，與本句語境不同。",
-        "type-mcq-28": "「表示打字；用鍵盤輸入文字」是「Passage meaning」的用法，與本句語境不同。",
-        "type-mcq-25": "「是那種很可能會做某事的人」是「the type to do something」的用法，與本句語境不同。",
-        "type-mcq-29": "「表示典型人物；某類人」是「19. type — stereotypical kind of person」的用法，與本句語境不同。",
-        "type-mcq-24": "「不符合一般典型特徵的；非典型的」是「atypical」的用法，與本句語境不同。"
+        "type-mcq-27": "本句的「typing away」指「持續不停地打字」。",
+        "type-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "type-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "type-mcq-27"
     }
@@ -2626,5 +2370,7 @@ export default {
     "sha256": "360486e0f0c2be059825aba2e51a416be68cfaf84fc563617dfad7b262b83dad",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

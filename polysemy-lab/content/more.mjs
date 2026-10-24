@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "more-mcq-01",
-      "title": "表示某種性質或方式的程度高於另一比較對象",
+      "title": "某種性質或方式的程度高於另一比較對象",
       "form": "more + adjective/adverb + than",
       "en": "more + adjective/adverb + than",
       "zh": "表示某種性質或方式的程度高於另一比較對象",
@@ -497,11 +497,8 @@ export default {
       "masked": "He became much ____.",
       "options": [
         "more-mcq-01",
-        "more-mcq-02",
-        "more-mcq-03",
-        "more-mcq-04",
-        "more-mcq-05",
-        "more-mcq-06"
+        "more-mcq-19",
+        "more-mcq-17"
       ],
       "explanation": "本句的「more lively than people expected」指「表示某種性質或方式的程度高於另一比較對象」。",
       "sentenceIndex": 0,
@@ -510,12 +507,9 @@ export default {
         "more lively than people expected"
       ],
       "optionReasons": {
-        "more-mcq-01": "本句指「表示某種性質或方式的程度高於另一比較對象」。",
-        "more-mcq-02": "「強調比較差距很大；更加……得多」與本句語境不同。",
-        "more-mcq-03": "「所包含的內容／作用超越該名詞的範圍；不只是……」與本句語境不同。",
-        "more-mcq-04": "「可數人／事物的數量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。"
+        "more-mcq-01": "本句的「more lively than people expected」指「表示某種性質或方式的程度高於另一比較對象」。",
+        "more-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-01"
     },
@@ -527,11 +521,8 @@ export default {
       "masked": "The second lesson was ____ the first.",
       "options": [
         "more-mcq-01",
-        "more-mcq-02",
-        "more-mcq-03",
-        "more-mcq-04",
-        "more-mcq-05",
-        "more-mcq-06"
+        "more-mcq-18",
+        "more-mcq-17"
       ],
       "explanation": "本句的「more interesting than」指「表示某種性質或方式的程度高於另一比較對象」。",
       "sentenceIndex": 1,
@@ -540,12 +531,9 @@ export default {
         "more interesting than"
       ],
       "optionReasons": {
-        "more-mcq-01": "本句指「表示某種性質或方式的程度高於另一比較對象」。",
-        "more-mcq-02": "「強調比較差距很大；更加……得多」與本句語境不同。",
-        "more-mcq-03": "「所包含的內容／作用超越該名詞的範圍；不只是……」與本句語境不同。",
-        "more-mcq-04": "「可數人／事物的數量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。"
+        "more-mcq-01": "本句的「more interesting than」指「表示某種性質或方式的程度高於另一比較對象」。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-01"
     },
@@ -557,11 +545,8 @@ export default {
       "masked": "She explained the idea ____ I could.",
       "options": [
         "more-mcq-01",
-        "more-mcq-02",
-        "more-mcq-03",
-        "more-mcq-04",
-        "more-mcq-05",
-        "more-mcq-06"
+        "more-mcq-18",
+        "more-mcq-17"
       ],
       "explanation": "本句的「more clearly than」指「表示某種性質或方式的程度高於另一比較對象」。",
       "sentenceIndex": 2,
@@ -570,12 +555,9 @@ export default {
         "more clearly than"
       ],
       "optionReasons": {
-        "more-mcq-01": "本句指「表示某種性質或方式的程度高於另一比較對象」。",
-        "more-mcq-02": "「強調比較差距很大；更加……得多」與本句語境不同。",
-        "more-mcq-03": "「所包含的內容／作用超越該名詞的範圍；不只是……」與本句語境不同。",
-        "more-mcq-04": "「可數人／事物的數量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。"
+        "more-mcq-01": "本句的「more clearly than」指「表示某種性質或方式的程度高於另一比較對象」。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-01"
     },
@@ -587,11 +569,9 @@ export default {
       "masked": "The class was ____ than I expected.",
       "options": [
         "more-mcq-02",
-        "more-mcq-01",
-        "more-mcq-03",
-        "more-mcq-04",
-        "more-mcq-05",
-        "more-mcq-06"
+        "more-mcq-13",
+        "more-mcq-21",
+        "more-mcq-17"
       ],
       "explanation": "本句的「much more enjoyable」指「強調比較差距很大；更加……得多」。",
       "sentenceIndex": 3,
@@ -600,12 +580,10 @@ export default {
         "much more enjoyable"
       ],
       "optionReasons": {
-        "more-mcq-02": "本句指「強調比較差距很大；更加……得多」。",
-        "more-mcq-01": "「表示某種性質或方式的程度高於另一比較對象」與本句語境不同。",
-        "more-mcq-03": "「所包含的內容／作用超越該名詞的範圍；不只是……」與本句語境不同。",
-        "more-mcq-04": "「可數人／事物的數量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。"
+        "more-mcq-02": "本句的「much more enjoyable」指「強調比較差距很大；更加……得多」。",
+        "more-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-02"
     },
@@ -617,11 +595,9 @@ export default {
       "masked": "He spoke ____ after a few months.",
       "options": [
         "more-mcq-02",
-        "more-mcq-01",
-        "more-mcq-03",
-        "more-mcq-04",
-        "more-mcq-05",
-        "more-mcq-06"
+        "more-mcq-13",
+        "more-mcq-18",
+        "more-mcq-17"
       ],
       "explanation": "本句的「far more confidently」指「強調比較差距很大；更加……得多」。",
       "sentenceIndex": 4,
@@ -630,12 +606,10 @@ export default {
         "far more confidently"
       ],
       "optionReasons": {
-        "more-mcq-02": "本句指「強調比較差距很大；更加……得多」。",
-        "more-mcq-01": "「表示某種性質或方式的程度高於另一比較對象」與本句語境不同。",
-        "more-mcq-03": "「所包含的內容／作用超越該名詞的範圍；不只是……」與本句語境不同。",
-        "more-mcq-04": "「可數人／事物的數量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。"
+        "more-mcq-02": "本句的「far more confidently」指「強調比較差距很大；更加……得多」。",
+        "more-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-02"
     },
@@ -648,10 +622,8 @@ export default {
       "options": [
         "more-mcq-03",
         "more-mcq-02",
-        "more-mcq-04",
-        "more-mcq-01",
-        "more-mcq-05",
-        "more-mcq-06"
+        "more-mcq-18",
+        "more-mcq-17"
       ],
       "explanation": "本句的「more than history」指「所包含的內容／作用超越該名詞的範圍；不只是……」。",
       "sentenceIndex": 5,
@@ -660,12 +632,10 @@ export default {
         "more than history"
       ],
       "optionReasons": {
-        "more-mcq-03": "本句指「所包含的內容／作用超越該名詞的範圍；不只是……」。",
-        "more-mcq-02": "「強調比較差距很大；更加……得多」與本句語境不同。",
-        "more-mcq-04": "「可數人／事物的數量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-01": "「表示某種性質或方式的程度高於另一比較對象」與本句語境不同。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。"
+        "more-mcq-03": "本句的「more than history」指「所包含的內容／作用超越該名詞的範圍；不只是……」。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-03"
     },
@@ -678,10 +648,8 @@ export default {
       "options": [
         "more-mcq-03",
         "more-mcq-02",
-        "more-mcq-04",
-        "more-mcq-01",
-        "more-mcq-05",
-        "more-mcq-06"
+        "more-mcq-18",
+        "more-mcq-17"
       ],
       "explanation": "本句的「more than grammar」指「所包含的內容／作用超越該名詞的範圍；不只是……」。",
       "sentenceIndex": 6,
@@ -690,12 +658,10 @@ export default {
         "more than grammar"
       ],
       "optionReasons": {
-        "more-mcq-03": "本句指「所包含的內容／作用超越該名詞的範圍；不只是……」。",
-        "more-mcq-02": "「強調比較差距很大；更加……得多」與本句語境不同。",
-        "more-mcq-04": "「可數人／事物的數量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-01": "「表示某種性質或方式的程度高於另一比較對象」與本句語境不同。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。"
+        "more-mcq-03": "本句的「more than grammar」指「所包含的內容／作用超越該名詞的範圍；不只是……」。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-03"
     },
@@ -707,11 +673,9 @@ export default {
       "masked": "A good teacher gives students ____.",
       "options": [
         "more-mcq-03",
-        "more-mcq-02",
-        "more-mcq-04",
-        "more-mcq-01",
+        "more-mcq-17",
         "more-mcq-05",
-        "more-mcq-06"
+        "more-mcq-18"
       ],
       "explanation": "本句的「more than information」指「所包含的內容／作用超越該名詞的範圍；不只是……」。",
       "sentenceIndex": 7,
@@ -720,12 +684,10 @@ export default {
         "more than information"
       ],
       "optionReasons": {
-        "more-mcq-03": "本句指「所包含的內容／作用超越該名詞的範圍；不只是……」。",
-        "more-mcq-02": "「強調比較差距很大；更加……得多」與本句語境不同。",
-        "more-mcq-04": "「可數人／事物的數量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-01": "「表示某種性質或方式的程度高於另一比較對象」與本句語境不同。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。"
+        "more-mcq-03": "本句的「more than information」指「所包含的內容／作用超越該名詞的範圍；不只是……」。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-03"
     },
@@ -737,11 +699,8 @@ export default {
       "masked": "We need ____.",
       "options": [
         "more-mcq-04",
-        "more-mcq-03",
-        "more-mcq-05",
-        "more-mcq-02",
-        "more-mcq-06",
-        "more-mcq-01"
+        "more-mcq-21",
+        "more-mcq-17"
       ],
       "explanation": "本句的「more examples」指「可數人／事物的數量比原有或比較對象更多」。",
       "sentenceIndex": 8,
@@ -750,12 +709,9 @@ export default {
         "more examples"
       ],
       "optionReasons": {
-        "more-mcq-04": "本句指「可數人／事物的數量比原有或比較對象更多」。",
-        "more-mcq-03": "「所包含的內容／作用超越該名詞的範圍；不只是……」與本句語境不同。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-02": "「強調比較差距很大；更加……得多」與本句語境不同。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。",
-        "more-mcq-01": "「表示某種性質或方式的程度高於另一比較對象」與本句語境不同。"
+        "more-mcq-04": "本句的「more examples」指「可數人／事物的數量比原有或比較對象更多」。",
+        "more-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-04"
     },
@@ -767,11 +723,8 @@ export default {
       "masked": "____ students asked questions after the teacher encouraged them.",
       "options": [
         "more-mcq-04",
-        "more-mcq-03",
-        "more-mcq-05",
-        "more-mcq-02",
-        "more-mcq-06",
-        "more-mcq-01"
+        "more-mcq-17",
+        "more-mcq-19"
       ],
       "explanation": "本句的「More」指「可數人／事物的數量比原有或比較對象更多」。",
       "sentenceIndex": 9,
@@ -780,12 +733,9 @@ export default {
         "More"
       ],
       "optionReasons": {
-        "more-mcq-04": "本句指「可數人／事物的數量比原有或比較對象更多」。",
-        "more-mcq-03": "「所包含的內容／作用超越該名詞的範圍；不只是……」與本句語境不同。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-02": "「強調比較差距很大；更加……得多」與本句語境不同。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。",
-        "more-mcq-01": "「表示某種性質或方式的程度高於另一比較對象」與本句語境不同。"
+        "more-mcq-04": "本句的「More」指「可數人／事物的數量比原有或比較對象更多」。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-04"
     },
@@ -797,11 +747,9 @@ export default {
       "masked": "Students need ____ to think.",
       "options": [
         "more-mcq-05",
-        "more-mcq-04",
-        "more-mcq-06",
-        "more-mcq-03",
-        "more-mcq-07",
-        "more-mcq-02"
+        "more-mcq-17",
+        "more-mcq-10",
+        "more-mcq-19"
       ],
       "explanation": "本句的「more time」指「某種不可數事物的量比原有或比較對象更多」。",
       "sentenceIndex": 10,
@@ -810,12 +758,10 @@ export default {
         "more time"
       ],
       "optionReasons": {
-        "more-mcq-05": "本句指「某種不可數事物的量比原有或比較對象更多」。",
-        "more-mcq-04": "「可數人／事物的數量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。",
-        "more-mcq-03": "「所包含的內容／作用超越該名詞的範圍；不只是……」與本句語境不同。",
-        "more-mcq-07": "「在現有數量之外再增加指定數量」與本句語境不同。",
-        "more-mcq-02": "「強調比較差距很大；更加……得多」與本句語境不同。"
+        "more-mcq-05": "本句的「more time」指「某種不可數事物的量比原有或比較對象更多」。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-05"
     },
@@ -827,11 +773,9 @@ export default {
       "masked": "The essay needs ____.",
       "options": [
         "more-mcq-05",
-        "more-mcq-04",
-        "more-mcq-06",
+        "more-mcq-21",
         "more-mcq-03",
-        "more-mcq-07",
-        "more-mcq-02"
+        "more-mcq-17"
       ],
       "explanation": "本句的「more detail」指「某種不可數事物的量比原有或比較對象更多」。",
       "sentenceIndex": 11,
@@ -840,12 +784,10 @@ export default {
         "more detail"
       ],
       "optionReasons": {
-        "more-mcq-05": "本句指「某種不可數事物的量比原有或比較對象更多」。",
-        "more-mcq-04": "「可數人／事物的數量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。",
-        "more-mcq-03": "「所包含的內容／作用超越該名詞的範圍；不只是……」與本句語境不同。",
-        "more-mcq-07": "「在現有數量之外再增加指定數量」與本句語境不同。",
-        "more-mcq-02": "「強調比較差距很大；更加……得多」與本句語境不同。"
+        "more-mcq-05": "本句的「more detail」指「某種不可數事物的量比原有或比較對象更多」。",
+        "more-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-05"
     },
@@ -857,11 +799,9 @@ export default {
       "masked": "Would you like ____?",
       "options": [
         "more-mcq-06",
-        "more-mcq-05",
-        "more-mcq-07",
-        "more-mcq-04",
-        "more-mcq-08",
-        "more-mcq-03"
+        "more-mcq-18",
+        "more-mcq-17",
+        "more-mcq-02"
       ],
       "explanation": "本句的「more」指「代替已知事物，表示額外／較大的數量」。",
       "sentenceIndex": 12,
@@ -870,12 +810,10 @@ export default {
         "more"
       ],
       "optionReasons": {
-        "more-mcq-06": "本句指「代替已知事物，表示額外／較大的數量」。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-07": "「在現有數量之外再增加指定數量」與本句語境不同。",
-        "more-mcq-04": "「可數人／事物的數量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-08": "「某個行為、感受或狀態的程度增加」與本句語境不同。",
-        "more-mcq-03": "「所包含的內容／作用超越該名詞的範圍；不只是……」與本句語境不同。"
+        "more-mcq-06": "本句的「more」指「代替已知事物，表示額外／較大的數量」。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-06"
     },
@@ -887,11 +825,9 @@ export default {
       "masked": "I’ve learned a lot, but I want to learn ____.",
       "options": [
         "more-mcq-06",
-        "more-mcq-05",
-        "more-mcq-07",
-        "more-mcq-04",
-        "more-mcq-08",
-        "more-mcq-03"
+        "more-mcq-17",
+        "more-mcq-18",
+        "more-mcq-02"
       ],
       "explanation": "本句的「more」指「代替已知事物，表示額外／較大的數量」。",
       "sentenceIndex": 13,
@@ -900,12 +836,10 @@ export default {
         "more"
       ],
       "optionReasons": {
-        "more-mcq-06": "本句指「代替已知事物，表示額外／較大的數量」。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-07": "「在現有數量之外再增加指定數量」與本句語境不同。",
-        "more-mcq-04": "「可數人／事物的數量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-08": "「某個行為、感受或狀態的程度增加」與本句語境不同。",
-        "more-mcq-03": "「所包含的內容／作用超越該名詞的範圍；不只是……」與本句語境不同。"
+        "more-mcq-06": "本句的「more」指「代替已知事物，表示額外／較大的數量」。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-06"
     },
@@ -917,11 +851,9 @@ export default {
       "masked": "Would you like ____ tea?",
       "options": [
         "more-mcq-07",
-        "more-mcq-06",
-        "more-mcq-08",
-        "more-mcq-05",
-        "more-mcq-09",
-        "more-mcq-04"
+        "more-mcq-17",
+        "more-mcq-02",
+        "more-mcq-19"
       ],
       "explanation": "本句的「some more」指「在現有數量之外再增加指定數量」。",
       "sentenceIndex": 14,
@@ -930,12 +862,10 @@ export default {
         "some more"
       ],
       "optionReasons": {
-        "more-mcq-07": "本句指「在現有數量之外再增加指定數量」。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。",
-        "more-mcq-08": "「某個行為、感受或狀態的程度增加」與本句語境不同。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-09": "「數量、時間或程度超出指定界線」與本句語境不同。",
-        "more-mcq-04": "「可數人／事物的數量比原有或比較對象更多」與本句語境不同。"
+        "more-mcq-07": "本句的「some more」指「在現有數量之外再增加指定數量」。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-07"
     },
@@ -947,11 +877,9 @@ export default {
       "masked": "Do you have ____ questions?",
       "options": [
         "more-mcq-07",
-        "more-mcq-06",
-        "more-mcq-08",
-        "more-mcq-05",
-        "more-mcq-09",
-        "more-mcq-04"
+        "more-mcq-17",
+        "more-mcq-02",
+        "more-mcq-19"
       ],
       "explanation": "本句的「any more」指「在現有數量之外再增加指定數量」。",
       "sentenceIndex": 15,
@@ -960,12 +888,10 @@ export default {
         "any more"
       ],
       "optionReasons": {
-        "more-mcq-07": "本句指「在現有數量之外再增加指定數量」。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。",
-        "more-mcq-08": "「某個行為、感受或狀態的程度增加」與本句語境不同。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-09": "「數量、時間或程度超出指定界線」與本句語境不同。",
-        "more-mcq-04": "「可數人／事物的數量比原有或比較對象更多」與本句語境不同。"
+        "more-mcq-07": "本句的「any more」指「在現有數量之外再增加指定數量」。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-07"
     },
@@ -977,11 +903,9 @@ export default {
       "masked": "Let me ask ____.",
       "options": [
         "more-mcq-07",
-        "more-mcq-06",
-        "more-mcq-08",
-        "more-mcq-05",
-        "more-mcq-09",
-        "more-mcq-04"
+        "more-mcq-17",
+        "more-mcq-02",
+        "more-mcq-19"
       ],
       "explanation": "本句的「one more question」指「在現有數量之外再增加指定數量」。",
       "sentenceIndex": 16,
@@ -990,12 +914,10 @@ export default {
         "one more question"
       ],
       "optionReasons": {
-        "more-mcq-07": "本句指「在現有數量之外再增加指定數量」。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。",
-        "more-mcq-08": "「某個行為、感受或狀態的程度增加」與本句語境不同。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-09": "「數量、時間或程度超出指定界線」與本句語境不同。",
-        "more-mcq-04": "「可數人／事物的數量比原有或比較對象更多」與本句語境不同。"
+        "more-mcq-07": "本句的「one more question」指「在現有數量之外再增加指定數量」。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-07"
     },
@@ -1007,11 +929,9 @@ export default {
       "masked": "We need ____.",
       "options": [
         "more-mcq-07",
-        "more-mcq-06",
-        "more-mcq-08",
-        "more-mcq-05",
-        "more-mcq-09",
-        "more-mcq-04"
+        "more-mcq-17",
+        "more-mcq-02",
+        "more-mcq-19"
       ],
       "explanation": "本句的「two more chairs」指「在現有數量之外再增加指定數量」。",
       "sentenceIndex": 17,
@@ -1020,12 +940,10 @@ export default {
         "two more chairs"
       ],
       "optionReasons": {
-        "more-mcq-07": "本句指「在現有數量之外再增加指定數量」。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。",
-        "more-mcq-08": "「某個行為、感受或狀態的程度增加」與本句語境不同。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。",
-        "more-mcq-09": "「數量、時間或程度超出指定界線」與本句語境不同。",
-        "more-mcq-04": "「可數人／事物的數量比原有或比較對象更多」與本句語境不同。"
+        "more-mcq-07": "本句的「two more chairs」指「在現有數量之外再增加指定數量」。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-07"
     },
@@ -1037,11 +955,9 @@ export default {
       "masked": "You need to think ____.",
       "options": [
         "more-mcq-08",
-        "more-mcq-07",
-        "more-mcq-09",
-        "more-mcq-06",
-        "more-mcq-10",
-        "more-mcq-05"
+        "more-mcq-18",
+        "more-mcq-17",
+        "more-mcq-02"
       ],
       "explanation": "本句的「more」指「某個行為、感受或狀態的程度增加」。",
       "sentenceIndex": 18,
@@ -1050,12 +966,10 @@ export default {
         "more"
       ],
       "optionReasons": {
-        "more-mcq-08": "本句指「某個行為、感受或狀態的程度增加」。",
-        "more-mcq-07": "「在現有數量之外再增加指定數量」與本句語境不同。",
-        "more-mcq-09": "「數量、時間或程度超出指定界線」與本句語境不同。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。",
-        "more-mcq-10": "「程度明顯超出該形容詞所表示的最低標準；非常／完全」與本句語境不同。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。"
+        "more-mcq-08": "本句的「more」指「某個行為、感受或狀態的程度增加」。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-08"
     },
@@ -1067,11 +981,9 @@ export default {
       "masked": "As I grew older, I appreciated his teaching ____.",
       "options": [
         "more-mcq-08",
-        "more-mcq-07",
-        "more-mcq-09",
-        "more-mcq-06",
-        "more-mcq-10",
-        "more-mcq-05"
+        "more-mcq-18",
+        "more-mcq-17",
+        "more-mcq-02"
       ],
       "explanation": "本句的「more」指「某個行為、感受或狀態的程度增加」。",
       "sentenceIndex": 19,
@@ -1080,12 +992,10 @@ export default {
         "more"
       ],
       "optionReasons": {
-        "more-mcq-08": "本句指「某個行為、感受或狀態的程度增加」。",
-        "more-mcq-07": "「在現有數量之外再增加指定數量」與本句語境不同。",
-        "more-mcq-09": "「數量、時間或程度超出指定界線」與本句語境不同。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。",
-        "more-mcq-10": "「程度明顯超出該形容詞所表示的最低標準；非常／完全」與本句語境不同。",
-        "more-mcq-05": "「某種不可數事物的量比原有或比較對象更多」與本句語境不同。"
+        "more-mcq-08": "本句的「more」指「某個行為、感受或狀態的程度增加」。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-08"
     },
@@ -1097,11 +1007,9 @@ export default {
       "masked": "He taught me for ____.",
       "options": [
         "more-mcq-09",
-        "more-mcq-08",
-        "more-mcq-10",
-        "more-mcq-07",
-        "more-mcq-11",
-        "more-mcq-06"
+        "more-mcq-18",
+        "more-mcq-02",
+        "more-mcq-17"
       ],
       "explanation": "本句的「more than two years」指「數量、時間或程度超出指定界線」。",
       "sentenceIndex": 20,
@@ -1110,12 +1018,10 @@ export default {
         "more than two years"
       ],
       "optionReasons": {
-        "more-mcq-09": "本句指「數量、時間或程度超出指定界線」。",
-        "more-mcq-08": "「某個行為、感受或狀態的程度增加」與本句語境不同。",
-        "more-mcq-10": "「程度明顯超出該形容詞所表示的最低標準；非常／完全」與本句語境不同。",
-        "more-mcq-07": "「在現有數量之外再增加指定數量」與本句語境不同。",
-        "more-mcq-11": "「數量／程度不只是足夠，而是明顯超出所需」與本句語境不同。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。"
+        "more-mcq-09": "本句的「more than two years」指「數量、時間或程度超出指定界線」。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-09"
     },
@@ -1127,11 +1033,9 @@ export default {
       "masked": "____ than fifty students attended the event.",
       "options": [
         "more-mcq-09",
-        "more-mcq-08",
-        "more-mcq-10",
-        "more-mcq-07",
-        "more-mcq-11",
-        "more-mcq-06"
+        "more-mcq-18",
+        "more-mcq-17",
+        "more-mcq-02"
       ],
       "explanation": "本句的「More」指「數量、時間或程度超出指定界線」。",
       "sentenceIndex": 21,
@@ -1140,12 +1044,10 @@ export default {
         "More"
       ],
       "optionReasons": {
-        "more-mcq-09": "本句指「數量、時間或程度超出指定界線」。",
-        "more-mcq-08": "「某個行為、感受或狀態的程度增加」與本句語境不同。",
-        "more-mcq-10": "「程度明顯超出該形容詞所表示的最低標準；非常／完全」與本句語境不同。",
-        "more-mcq-07": "「在現有數量之外再增加指定數量」與本句語境不同。",
-        "more-mcq-11": "「數量／程度不只是足夠，而是明顯超出所需」與本句語境不同。",
-        "more-mcq-06": "「代替已知事物，表示額外／較大的數量」與本句語境不同。"
+        "more-mcq-09": "本句的「More」指「數量、時間或程度超出指定界線」。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-09"
     },
@@ -1157,11 +1059,9 @@ export default {
       "masked": "I was ____ to help.",
       "options": [
         "more-mcq-10",
-        "more-mcq-09",
-        "more-mcq-11",
-        "more-mcq-08",
-        "more-mcq-12",
-        "more-mcq-07"
+        "more-mcq-21",
+        "more-mcq-05",
+        "more-mcq-17"
       ],
       "explanation": "本句的「more than happy」指「程度明顯超出該形容詞所表示的最低標準；非常／完全」。",
       "sentenceIndex": 22,
@@ -1170,12 +1070,10 @@ export default {
         "more than happy"
       ],
       "optionReasons": {
-        "more-mcq-10": "本句指「程度明顯超出該形容詞所表示的最低標準；非常／完全」。",
-        "more-mcq-09": "「數量、時間或程度超出指定界線」與本句語境不同。",
-        "more-mcq-11": "「數量／程度不只是足夠，而是明顯超出所需」與本句語境不同。",
-        "more-mcq-08": "「某個行為、感受或狀態的程度增加」與本句語境不同。",
-        "more-mcq-12": "「強調數量有限；最多只有／僅僅」與本句語境不同。",
-        "more-mcq-07": "「在現有數量之外再增加指定數量」與本句語境不同。"
+        "more-mcq-10": "本句的「more than happy」指「程度明顯超出該形容詞所表示的最低標準；非常／完全」。",
+        "more-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-10"
     },
@@ -1187,11 +1085,9 @@ export default {
       "masked": "The teacher was ____ of handling the class.",
       "options": [
         "more-mcq-10",
-        "more-mcq-09",
-        "more-mcq-11",
-        "more-mcq-08",
-        "more-mcq-12",
-        "more-mcq-07"
+        "more-mcq-02",
+        "more-mcq-17",
+        "more-mcq-21"
       ],
       "explanation": "本句的「more than capable」指「程度明顯超出該形容詞所表示的最低標準；非常／完全」。",
       "sentenceIndex": 23,
@@ -1200,12 +1096,10 @@ export default {
         "more than capable"
       ],
       "optionReasons": {
-        "more-mcq-10": "本句指「程度明顯超出該形容詞所表示的最低標準；非常／完全」。",
-        "more-mcq-09": "「數量、時間或程度超出指定界線」與本句語境不同。",
-        "more-mcq-11": "「數量／程度不只是足夠，而是明顯超出所需」與本句語境不同。",
-        "more-mcq-08": "「某個行為、感受或狀態的程度增加」與本句語境不同。",
-        "more-mcq-12": "「強調數量有限；最多只有／僅僅」與本句語境不同。",
-        "more-mcq-07": "「在現有數量之外再增加指定數量」與本句語境不同。"
+        "more-mcq-10": "本句的「more than capable」指「程度明顯超出該形容詞所表示的最低標準；非常／完全」。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-10"
     },
@@ -1217,11 +1111,9 @@ export default {
       "masked": "We have ____.",
       "options": [
         "more-mcq-11",
-        "more-mcq-10",
-        "more-mcq-12",
-        "more-mcq-09",
-        "more-mcq-13",
-        "more-mcq-08"
+        "more-mcq-02",
+        "more-mcq-17",
+        "more-mcq-21"
       ],
       "explanation": "本句的「more than enough time」指「數量／程度不只是足夠，而是明顯超出所需」。",
       "sentenceIndex": 24,
@@ -1230,12 +1122,10 @@ export default {
         "more than enough time"
       ],
       "optionReasons": {
-        "more-mcq-11": "本句指「數量／程度不只是足夠，而是明顯超出所需」。",
-        "more-mcq-10": "「程度明顯超出該形容詞所表示的最低標準；非常／完全」與本句語境不同。",
-        "more-mcq-12": "「強調數量有限；最多只有／僅僅」與本句語境不同。",
-        "more-mcq-09": "「數量、時間或程度超出指定界線」與本句語境不同。",
-        "more-mcq-13": "「客觀表示數量的最高上限不超過指定數字」與本句語境不同。",
-        "more-mcq-08": "「某個行為、感受或狀態的程度增加」與本句語境不同。"
+        "more-mcq-11": "本句的「more than enough time」指「數量／程度不只是足夠，而是明顯超出所需」。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-11"
     },
@@ -1247,11 +1137,9 @@ export default {
       "masked": "There is ____ than enough evidence to support the conclusion.",
       "options": [
         "more-mcq-11",
-        "more-mcq-10",
-        "more-mcq-12",
-        "more-mcq-09",
-        "more-mcq-13",
-        "more-mcq-08"
+        "more-mcq-21",
+        "more-mcq-17",
+        "more-mcq-02"
       ],
       "explanation": "本句的「more」指「數量／程度不只是足夠，而是明顯超出所需」。",
       "sentenceIndex": 25,
@@ -1260,12 +1148,10 @@ export default {
         "more"
       ],
       "optionReasons": {
-        "more-mcq-11": "本句指「數量／程度不只是足夠，而是明顯超出所需」。",
-        "more-mcq-10": "「程度明顯超出該形容詞所表示的最低標準；非常／完全」與本句語境不同。",
-        "more-mcq-12": "「強調數量有限；最多只有／僅僅」與本句語境不同。",
-        "more-mcq-09": "「數量、時間或程度超出指定界線」與本句語境不同。",
-        "more-mcq-13": "「客觀表示數量的最高上限不超過指定數字」與本句語境不同。",
-        "more-mcq-08": "「某個行為、感受或狀態的程度增加」與本句語境不同。"
+        "more-mcq-11": "本句的「more」指「數量／程度不只是足夠，而是明顯超出所需」。",
+        "more-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-11"
     },
@@ -1277,11 +1163,8 @@ export default {
       "masked": "The explanation took ____.",
       "options": [
         "more-mcq-12",
-        "more-mcq-11",
-        "more-mcq-13",
-        "more-mcq-10",
-        "more-mcq-14",
-        "more-mcq-09"
+        "more-mcq-17",
+        "more-mcq-18"
       ],
       "explanation": "本句的「no more than five minutes」指「強調數量有限；最多只有／僅僅」。",
       "sentenceIndex": 26,
@@ -1290,12 +1173,9 @@ export default {
         "no more than five minutes"
       ],
       "optionReasons": {
-        "more-mcq-12": "本句指「強調數量有限；最多只有／僅僅」。",
-        "more-mcq-11": "「數量／程度不只是足夠，而是明顯超出所需」與本句語境不同。",
-        "more-mcq-13": "「客觀表示數量的最高上限不超過指定數字」與本句語境不同。",
-        "more-mcq-10": "「程度明顯超出該形容詞所表示的最低標準；非常／完全」與本句語境不同。",
-        "more-mcq-14": "「數量或程度隨時間持續增加；越來越……」與本句語境不同。",
-        "more-mcq-09": "「數量、時間或程度超出指定界線」與本句語境不同。"
+        "more-mcq-12": "本句的「no more than five minutes」指「強調數量有限；最多只有／僅僅」。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-12"
     },
@@ -1307,11 +1187,8 @@ export default {
       "masked": "There were no ____ than ten students in the room.",
       "options": [
         "more-mcq-12",
-        "more-mcq-11",
-        "more-mcq-13",
-        "more-mcq-10",
-        "more-mcq-14",
-        "more-mcq-09"
+        "more-mcq-17",
+        "more-mcq-18"
       ],
       "explanation": "本句的「more」指「強調數量有限；最多只有／僅僅」。",
       "sentenceIndex": 27,
@@ -1320,12 +1197,9 @@ export default {
         "more"
       ],
       "optionReasons": {
-        "more-mcq-12": "本句指「強調數量有限；最多只有／僅僅」。",
-        "more-mcq-11": "「數量／程度不只是足夠，而是明顯超出所需」與本句語境不同。",
-        "more-mcq-13": "「客觀表示數量的最高上限不超過指定數字」與本句語境不同。",
-        "more-mcq-10": "「程度明顯超出該形容詞所表示的最低標準；非常／完全」與本句語境不同。",
-        "more-mcq-14": "「數量或程度隨時間持續增加；越來越……」與本句語境不同。",
-        "more-mcq-09": "「數量、時間或程度超出指定界線」與本句語境不同。"
+        "more-mcq-12": "本句的「more」指「強調數量有限；最多只有／僅僅」。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-12"
     },
@@ -1337,11 +1211,9 @@ export default {
       "masked": "Your answer should be ____.",
       "options": [
         "more-mcq-13",
-        "more-mcq-12",
-        "more-mcq-14",
-        "more-mcq-11",
-        "more-mcq-15",
-        "more-mcq-10"
+        "more-mcq-02",
+        "more-mcq-17",
+        "more-mcq-18"
       ],
       "explanation": "本句的「not more than 200 words」指「客觀表示數量的最高上限不超過指定數字」。",
       "sentenceIndex": 28,
@@ -1350,12 +1222,10 @@ export default {
         "not more than 200 words"
       ],
       "optionReasons": {
-        "more-mcq-13": "本句指「客觀表示數量的最高上限不超過指定數字」。",
-        "more-mcq-12": "「強調數量有限；最多只有／僅僅」與本句語境不同。",
-        "more-mcq-14": "「數量或程度隨時間持續增加；越來越……」與本句語境不同。",
-        "more-mcq-11": "「數量／程度不只是足夠，而是明顯超出所需」與本句語境不同。",
-        "more-mcq-15": "「一項數量／程度增加時，另一項也相應變化」與本句語境不同。",
-        "more-mcq-10": "「程度明顯超出該形容詞所表示的最低標準；非常／完全」與本句語境不同。"
+        "more-mcq-13": "本句的「not more than 200 words」指「客觀表示數量的最高上限不超過指定數字」。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-13"
     },
@@ -1367,11 +1237,9 @@ export default {
       "masked": "The journey takes not ____ than an hour.",
       "options": [
         "more-mcq-13",
-        "more-mcq-12",
-        "more-mcq-14",
-        "more-mcq-11",
-        "more-mcq-15",
-        "more-mcq-10"
+        "more-mcq-17",
+        "more-mcq-19",
+        "more-mcq-02"
       ],
       "explanation": "本句的「more」指「客觀表示數量的最高上限不超過指定數字」。",
       "sentenceIndex": 29,
@@ -1380,12 +1248,10 @@ export default {
         "more"
       ],
       "optionReasons": {
-        "more-mcq-13": "本句指「客觀表示數量的最高上限不超過指定數字」。",
-        "more-mcq-12": "「強調數量有限；最多只有／僅僅」與本句語境不同。",
-        "more-mcq-14": "「數量或程度隨時間持續增加；越來越……」與本句語境不同。",
-        "more-mcq-11": "「數量／程度不只是足夠，而是明顯超出所需」與本句語境不同。",
-        "more-mcq-15": "「一項數量／程度增加時，另一項也相應變化」與本句語境不同。",
-        "more-mcq-10": "「程度明顯超出該形容詞所表示的最低標準；非常／完全」與本句語境不同。"
+        "more-mcq-13": "本句的「more」指「客觀表示數量的最高上限不超過指定數字」。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-13"
     },
@@ -1397,11 +1263,9 @@ export default {
       "masked": "The lessons became ____.",
       "options": [
         "more-mcq-14",
-        "more-mcq-13",
-        "more-mcq-15",
-        "more-mcq-12",
-        "more-mcq-16",
-        "more-mcq-11"
+        "more-mcq-18",
+        "more-mcq-17",
+        "more-mcq-02"
       ],
       "explanation": "本句的「more and more interesting」指「數量或程度隨時間持續增加；越來越……」。",
       "sentenceIndex": 30,
@@ -1410,12 +1274,10 @@ export default {
         "more and more interesting"
       ],
       "optionReasons": {
-        "more-mcq-14": "本句指「數量或程度隨時間持續增加；越來越……」。",
-        "more-mcq-13": "「客觀表示數量的最高上限不超過指定數字」與本句語境不同。",
-        "more-mcq-15": "「一項數量／程度增加時，另一項也相應變化」與本句語境不同。",
-        "more-mcq-12": "「強調數量有限；最多只有／僅僅」與本句語境不同。",
-        "more-mcq-16": "「某物額外／較大的部分或數量」與本句語境不同。",
-        "more-mcq-11": "「數量／程度不只是足夠，而是明顯超出所需」與本句語境不同。"
+        "more-mcq-14": "本句的「more and more interesting」指「數量或程度隨時間持續增加；越來越……」。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-14"
     },
@@ -1427,11 +1289,9 @@ export default {
       "masked": "____ and more students began asking questions.",
       "options": [
         "more-mcq-14",
-        "more-mcq-13",
-        "more-mcq-15",
-        "more-mcq-12",
-        "more-mcq-16",
-        "more-mcq-11"
+        "more-mcq-17",
+        "more-mcq-18",
+        "more-mcq-02"
       ],
       "explanation": "本句的「More」指「數量或程度隨時間持續增加；越來越……」。",
       "sentenceIndex": 31,
@@ -1440,12 +1300,10 @@ export default {
         "More"
       ],
       "optionReasons": {
-        "more-mcq-14": "本句指「數量或程度隨時間持續增加；越來越……」。",
-        "more-mcq-13": "「客觀表示數量的最高上限不超過指定數字」與本句語境不同。",
-        "more-mcq-15": "「一項數量／程度增加時，另一項也相應變化」與本句語境不同。",
-        "more-mcq-12": "「強調數量有限；最多只有／僅僅」與本句語境不同。",
-        "more-mcq-16": "「某物額外／較大的部分或數量」與本句語境不同。",
-        "more-mcq-11": "「數量／程度不只是足夠，而是明顯超出所需」與本句語境不同。"
+        "more-mcq-14": "本句的「More」指「數量或程度隨時間持續增加；越來越……」。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-14"
     },
@@ -1457,11 +1315,9 @@ export default {
       "masked": "____ you practise, the more confident you become.",
       "options": [
         "more-mcq-15",
-        "more-mcq-14",
-        "more-mcq-16",
-        "more-mcq-13",
         "more-mcq-17",
-        "more-mcq-12"
+        "more-mcq-18",
+        "more-mcq-02"
       ],
       "explanation": "本句的「The more」指「一項數量／程度增加時，另一項也相應變化」。",
       "sentenceIndex": 32,
@@ -1470,12 +1326,10 @@ export default {
         "The more"
       ],
       "optionReasons": {
-        "more-mcq-15": "本句指「一項數量／程度增加時，另一項也相應變化」。",
-        "more-mcq-14": "「數量或程度隨時間持續增加；越來越……」與本句語境不同。",
-        "more-mcq-16": "「某物額外／較大的部分或數量」與本句語境不同。",
-        "more-mcq-13": "「客觀表示數量的最高上限不超過指定數字」與本句語境不同。",
-        "more-mcq-17": "「某人／物更具有 A 的特徵；與其說 B，不如說 A」與本句語境不同。",
-        "more-mcq-12": "「強調數量有限；最多只有／僅僅」與本句語境不同。"
+        "more-mcq-15": "本句的「The more」指「一項數量／程度增加時，另一項也相應變化」。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-15"
     },
@@ -1487,11 +1341,9 @@ export default {
       "masked": "The ____ questions he asked, the more we learned.",
       "options": [
         "more-mcq-15",
-        "more-mcq-14",
-        "more-mcq-16",
-        "more-mcq-13",
         "more-mcq-17",
-        "more-mcq-12"
+        "more-mcq-18",
+        "more-mcq-02"
       ],
       "explanation": "本句的「more」指「一項數量／程度增加時，另一項也相應變化」。",
       "sentenceIndex": 33,
@@ -1500,12 +1352,10 @@ export default {
         "more"
       ],
       "optionReasons": {
-        "more-mcq-15": "本句指「一項數量／程度增加時，另一項也相應變化」。",
-        "more-mcq-14": "「數量或程度隨時間持續增加；越來越……」與本句語境不同。",
-        "more-mcq-16": "「某物額外／較大的部分或數量」與本句語境不同。",
-        "more-mcq-13": "「客觀表示數量的最高上限不超過指定數字」與本句語境不同。",
-        "more-mcq-17": "「某人／物更具有 A 的特徵；與其說 B，不如說 A」與本句語境不同。",
-        "more-mcq-12": "「強調數量有限；最多只有／僅僅」與本句語境不同。"
+        "more-mcq-15": "本句的「more」指「一項數量／程度增加時，另一項也相應變化」。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-15"
     },
@@ -1517,11 +1367,9 @@ export default {
       "masked": "I want to see ____.",
       "options": [
         "more-mcq-16",
-        "more-mcq-15",
         "more-mcq-17",
-        "more-mcq-14",
-        "more-mcq-18",
-        "more-mcq-13"
+        "more-mcq-21",
+        "more-mcq-02"
       ],
       "explanation": "本句的「more of the city」指「某物額外／較大的部分或數量」。",
       "sentenceIndex": 34,
@@ -1530,12 +1378,10 @@ export default {
         "more of the city"
       ],
       "optionReasons": {
-        "more-mcq-16": "本句指「某物額外／較大的部分或數量」。",
-        "more-mcq-15": "「一項數量／程度增加時，另一項也相應變化」與本句語境不同。",
-        "more-mcq-17": "「某人／物更具有 A 的特徵；與其說 B，不如說 A」與本句語境不同。",
-        "more-mcq-14": "「數量或程度隨時間持續增加；越來越……」與本句語境不同。",
-        "more-mcq-18": "「再一次／又一次」與本句語境不同。",
-        "more-mcq-13": "「客觀表示數量的最高上限不超過指定數字」與本句語境不同。"
+        "more-mcq-16": "本句的「more of the city」指「某物額外／較大的部分或數量」。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-16"
     },
@@ -1547,11 +1393,9 @@ export default {
       "masked": "The lesson became ____ than a lecture.",
       "options": [
         "more-mcq-16",
-        "more-mcq-15",
+        "more-mcq-21",
         "more-mcq-17",
-        "more-mcq-14",
-        "more-mcq-18",
-        "more-mcq-13"
+        "more-mcq-02"
       ],
       "explanation": "本句的「more of a discussion」指「某物額外／較大的部分或數量」。",
       "sentenceIndex": 35,
@@ -1560,12 +1404,10 @@ export default {
         "more of a discussion"
       ],
       "optionReasons": {
-        "more-mcq-16": "本句指「某物額外／較大的部分或數量」。",
-        "more-mcq-15": "「一項數量／程度增加時，另一項也相應變化」與本句語境不同。",
-        "more-mcq-17": "「某人／物更具有 A 的特徵；與其說 B，不如說 A」與本句語境不同。",
-        "more-mcq-14": "「數量或程度隨時間持續增加；越來越……」與本句語境不同。",
-        "more-mcq-18": "「再一次／又一次」與本句語境不同。",
-        "more-mcq-13": "「客觀表示數量的最高上限不超過指定數字」與本句語境不同。"
+        "more-mcq-16": "本句的「more of a discussion」指「某物額外／較大的部分或數量」。",
+        "more-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-16"
     },
@@ -1577,11 +1419,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "more-mcq-17",
-        "more-mcq-16",
+        "more-mcq-08",
         "more-mcq-18",
-        "more-mcq-15",
-        "more-mcq-19",
-        "more-mcq-14"
+        "more-mcq-02"
       ],
       "explanation": "本句的「more of a mentor than a lecturer」指「某人／物更具有 A 的特徵；與其說 B，不如說 A」。",
       "sentenceIndex": 36,
@@ -1590,12 +1430,10 @@ export default {
         "more of a mentor than a lecturer"
       ],
       "optionReasons": {
-        "more-mcq-17": "本句指「某人／物更具有 A 的特徵；與其說 B，不如說 A」。",
-        "more-mcq-16": "「某物額外／較大的部分或數量」與本句語境不同。",
-        "more-mcq-18": "「再一次／又一次」與本句語境不同。",
-        "more-mcq-15": "「一項數量／程度增加時，另一項也相應變化」與本句語境不同。",
-        "more-mcq-19": "「在已有資訊上再加入一項更進一步的論點；而且」與本句語境不同。",
-        "more-mcq-14": "「數量或程度隨時間持續增加；越來越……」與本句語境不同。"
+        "more-mcq-17": "本句的「more of a mentor than a lecturer」指「某人／物更具有 A 的特徵；與其說 B，不如說 A」。",
+        "more-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-17"
     },
@@ -1608,10 +1446,8 @@ export default {
       "options": [
         "more-mcq-17",
         "more-mcq-16",
-        "more-mcq-18",
-        "more-mcq-15",
-        "more-mcq-19",
-        "more-mcq-14"
+        "more-mcq-21",
+        "more-mcq-02"
       ],
       "explanation": "本句的「more」指「某人／物更具有 A 的特徵；與其說 B，不如說 A」。",
       "sentenceIndex": 37,
@@ -1620,12 +1456,10 @@ export default {
         "more"
       ],
       "optionReasons": {
-        "more-mcq-17": "本句指「某人／物更具有 A 的特徵；與其說 B，不如說 A」。",
-        "more-mcq-16": "「某物額外／較大的部分或數量」與本句語境不同。",
-        "more-mcq-18": "「再一次／又一次」與本句語境不同。",
-        "more-mcq-15": "「一項數量／程度增加時，另一項也相應變化」與本句語境不同。",
-        "more-mcq-19": "「在已有資訊上再加入一項更進一步的論點；而且」與本句語境不同。",
-        "more-mcq-14": "「數量或程度隨時間持續增加；越來越……」與本句語境不同。"
+        "more-mcq-17": "本句的「more」指「某人／物更具有 A 的特徵；與其說 B，不如說 A」。",
+        "more-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-17"
     },
@@ -1637,11 +1471,8 @@ export default {
       "masked": "Please explain the idea ____.",
       "options": [
         "more-mcq-18",
-        "more-mcq-17",
-        "more-mcq-19",
-        "more-mcq-16",
-        "more-mcq-20",
-        "more-mcq-15"
+        "more-mcq-01",
+        "more-mcq-17"
       ],
       "explanation": "本句的「once more」指「再一次／又一次」。",
       "sentenceIndex": 38,
@@ -1650,12 +1481,9 @@ export default {
         "once more"
       ],
       "optionReasons": {
-        "more-mcq-18": "本句指「再一次／又一次」。",
-        "more-mcq-17": "「某人／物更具有 A 的特徵；與其說 B，不如說 A」與本句語境不同。",
-        "more-mcq-19": "「在已有資訊上再加入一項更進一步的論點；而且」與本句語境不同。",
-        "more-mcq-16": "「某物額外／較大的部分或數量」與本句語境不同。",
-        "more-mcq-20": "「數量上大約如此，或程度上大致如此」與本句語境不同。",
-        "more-mcq-15": "「一項數量／程度增加時，另一項也相應變化」與本句語境不同。"
+        "more-mcq-18": "本句的「once more」指「再一次／又一次」。",
+        "more-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-18"
     },
@@ -1667,11 +1495,9 @@ export default {
       "masked": "He read the question once ____ before answering.",
       "options": [
         "more-mcq-18",
-        "more-mcq-17",
-        "more-mcq-19",
-        "more-mcq-16",
-        "more-mcq-20",
-        "more-mcq-15"
+        "more-mcq-05",
+        "more-mcq-03",
+        "more-mcq-17"
       ],
       "explanation": "本句的「more」指「再一次／又一次」。",
       "sentenceIndex": 39,
@@ -1680,12 +1506,10 @@ export default {
         "more"
       ],
       "optionReasons": {
-        "more-mcq-18": "本句指「再一次／又一次」。",
-        "more-mcq-17": "「某人／物更具有 A 的特徵；與其說 B，不如說 A」與本句語境不同。",
-        "more-mcq-19": "「在已有資訊上再加入一項更進一步的論點；而且」與本句語境不同。",
-        "more-mcq-16": "「某物額外／較大的部分或數量」與本句語境不同。",
-        "more-mcq-20": "「數量上大約如此，或程度上大致如此」與本句語境不同。",
-        "more-mcq-15": "「一項數量／程度增加時，另一項也相應變化」與本句語境不同。"
+        "more-mcq-18": "本句的「more」指「再一次／又一次」。",
+        "more-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-18"
     },
@@ -1697,11 +1521,9 @@ export default {
       "masked": "He explained history clearly. ____, he made it enjoyable.",
       "options": [
         "more-mcq-19",
-        "more-mcq-18",
-        "more-mcq-20",
+        "more-mcq-13",
         "more-mcq-17",
-        "more-mcq-21",
-        "more-mcq-16"
+        "more-mcq-02"
       ],
       "explanation": "本句的「What’s more」指「在已有資訊上再加入一項更進一步的論點；而且」。",
       "sentenceIndex": 40,
@@ -1710,12 +1532,10 @@ export default {
         "What’s more"
       ],
       "optionReasons": {
-        "more-mcq-19": "本句指「在已有資訊上再加入一項更進一步的論點；而且」。",
-        "more-mcq-18": "「再一次／又一次」與本句語境不同。",
-        "more-mcq-20": "「數量上大約如此，或程度上大致如此」與本句語境不同。",
-        "more-mcq-17": "「某人／物更具有 A 的特徵；與其說 B，不如說 A」與本句語境不同。",
-        "more-mcq-21": "「過去存在的狀態現在已經停止；不再」與本句語境不同。",
-        "more-mcq-16": "「某物額外／較大的部分或數量」與本句語境不同。"
+        "more-mcq-19": "本句的「What’s more」指「在已有資訊上再加入一項更進一步的論點；而且」。",
+        "more-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-19"
     },
@@ -1727,11 +1547,9 @@ export default {
       "masked": "The method is simple and, what’s ____, inexpensive.",
       "options": [
         "more-mcq-19",
-        "more-mcq-18",
-        "more-mcq-20",
         "more-mcq-17",
-        "more-mcq-21",
-        "more-mcq-16"
+        "more-mcq-09",
+        "more-mcq-02"
       ],
       "explanation": "本句的「more」指「在已有資訊上再加入一項更進一步的論點；而且」。",
       "sentenceIndex": 41,
@@ -1740,12 +1558,10 @@ export default {
         "more"
       ],
       "optionReasons": {
-        "more-mcq-19": "本句指「在已有資訊上再加入一項更進一步的論點；而且」。",
-        "more-mcq-18": "「再一次／又一次」與本句語境不同。",
-        "more-mcq-20": "「數量上大約如此，或程度上大致如此」與本句語境不同。",
-        "more-mcq-17": "「某人／物更具有 A 的特徵；與其說 B，不如說 A」與本句語境不同。",
-        "more-mcq-21": "「過去存在的狀態現在已經停止；不再」與本句語境不同。",
-        "more-mcq-16": "「某物額外／較大的部分或數量」與本句語境不同。"
+        "more-mcq-19": "本句的「more」指「在已有資訊上再加入一項更進一步的論點；而且」。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-19"
     },
@@ -1757,11 +1573,9 @@ export default {
       "masked": "The lesson lasted ____ an hour.",
       "options": [
         "more-mcq-20",
-        "more-mcq-19",
         "more-mcq-21",
-        "more-mcq-18",
         "more-mcq-17",
-        "more-mcq-16"
+        "more-mcq-02"
       ],
       "explanation": "本句的「more or less」指「數量上大約如此，或程度上大致如此」。",
       "sentenceIndex": 44,
@@ -1770,12 +1584,10 @@ export default {
         "more or less"
       ],
       "optionReasons": {
-        "more-mcq-20": "本句指「數量上大約如此，或程度上大致如此」。",
-        "more-mcq-19": "「在已有資訊上再加入一項更進一步的論點；而且」與本句語境不同。",
-        "more-mcq-21": "「過去存在的狀態現在已經停止；不再」與本句語境不同。",
-        "more-mcq-18": "「再一次／又一次」與本句語境不同。",
-        "more-mcq-17": "「某人／物更具有 A 的特徵；與其說 B，不如說 A」與本句語境不同。",
-        "more-mcq-16": "「某物額外／較大的部分或數量」與本句語境不同。"
+        "more-mcq-20": "本句的「more or less」指「數量上大約如此，或程度上大致如此」。",
+        "more-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-20"
     },
@@ -1787,11 +1599,9 @@ export default {
       "masked": "I ____ understood his point.",
       "options": [
         "more-mcq-20",
-        "more-mcq-19",
-        "more-mcq-21",
-        "more-mcq-18",
         "more-mcq-17",
-        "more-mcq-16"
+        "more-mcq-18",
+        "more-mcq-02"
       ],
       "explanation": "本句的「more or less」指「數量上大約如此，或程度上大致如此」。",
       "sentenceIndex": 45,
@@ -1800,12 +1610,10 @@ export default {
         "more or less"
       ],
       "optionReasons": {
-        "more-mcq-20": "本句指「數量上大約如此，或程度上大致如此」。",
-        "more-mcq-19": "「在已有資訊上再加入一項更進一步的論點；而且」與本句語境不同。",
-        "more-mcq-21": "「過去存在的狀態現在已經停止；不再」與本句語境不同。",
-        "more-mcq-18": "「再一次／又一次」與本句語境不同。",
-        "more-mcq-17": "「某人／物更具有 A 的特徵；與其說 B，不如說 A」與本句語境不同。",
-        "more-mcq-16": "「某物額外／較大的部分或數量」與本句語境不同。"
+        "more-mcq-20": "本句的「more or less」指「數量上大約如此，或程度上大致如此」。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-20"
     },
@@ -1817,11 +1625,9 @@ export default {
       "masked": "I don’t study that way ____.",
       "options": [
         "more-mcq-21",
-        "more-mcq-20",
-        "more-mcq-19",
-        "more-mcq-18",
-        "more-mcq-17",
-        "more-mcq-16"
+        "more-mcq-15",
+        "more-mcq-02",
+        "more-mcq-17"
       ],
       "explanation": "本句的「any more」指「過去存在的狀態現在已經停止；不再」。",
       "sentenceIndex": 46,
@@ -1830,12 +1636,10 @@ export default {
         "any more"
       ],
       "optionReasons": {
-        "more-mcq-21": "本句指「過去存在的狀態現在已經停止；不再」。",
-        "more-mcq-20": "「數量上大約如此，或程度上大致如此」與本句語境不同。",
-        "more-mcq-19": "「在已有資訊上再加入一項更進一步的論點；而且」與本句語境不同。",
-        "more-mcq-18": "「再一次／又一次」與本句語境不同。",
-        "more-mcq-17": "「某人／物更具有 A 的特徵；與其說 B，不如說 A」與本句語境不同。",
-        "more-mcq-16": "「某物額外／較大的部分或數量」與本句語境不同。"
+        "more-mcq-21": "本句的「any more」指「過去存在的狀態現在已經停止；不再」。",
+        "more-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-21"
     },
@@ -1847,11 +1651,9 @@ export default {
       "masked": "He doesn’t teach there ____.",
       "options": [
         "more-mcq-21",
-        "more-mcq-20",
-        "more-mcq-19",
-        "more-mcq-18",
-        "more-mcq-17",
-        "more-mcq-16"
+        "more-mcq-05",
+        "more-mcq-03",
+        "more-mcq-17"
       ],
       "explanation": "本句的「anymore」指「過去存在的狀態現在已經停止；不再」。",
       "sentenceIndex": 47,
@@ -1860,12 +1662,10 @@ export default {
         "anymore"
       ],
       "optionReasons": {
-        "more-mcq-21": "本句指「過去存在的狀態現在已經停止；不再」。",
-        "more-mcq-20": "「數量上大約如此，或程度上大致如此」與本句語境不同。",
-        "more-mcq-19": "「在已有資訊上再加入一項更進一步的論點；而且」與本句語境不同。",
-        "more-mcq-18": "「再一次／又一次」與本句語境不同。",
-        "more-mcq-17": "「某人／物更具有 A 的特徵；與其說 B，不如說 A」與本句語境不同。",
-        "more-mcq-16": "「某物額外／較大的部分或數量」與本句語境不同。"
+        "more-mcq-21": "本句的「anymore」指「過去存在的狀態現在已經停止；不再」。",
+        "more-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "more-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "more-mcq-21"
     }
@@ -1877,5 +1677,7 @@ export default {
     "sha256": "3a65a5eaa40e4744b04243962bf2c70d7d3e8bf9f0de753f3c77376ed87fbd42",
     "pages": 21
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

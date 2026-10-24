@@ -212,16 +212,6 @@ export default {
       "note": "來源詞義：按名字；知道名字",
       "examples": [
         [
-          "Consumers often pay more for a famous name.",
-          "消費者往往願意為知名品牌多付錢。",
-          "按名字；知道名字"
-        ],
-        [
-          "It's a respected name in the industry.",
-          "它是業內很受尊重的知名品牌／名稱。",
-          "按名字；知道名字"
-        ],
-        [
           "The teacher knew every student by name.",
           "老師知道每位學生的名字。",
           "按名字；知道名字"
@@ -569,7 +559,7 @@ export default {
     },
     {
       "id": "name-mcq-28",
-      "title": "表示家族身份、通常由家庭成員共享的姓名部分",
+      "title": "家族身份、通常由家庭成員共享的姓名部分",
       "form": "3. family name / surname — 姓氏",
       "en": "3. family name / surname — 姓氏",
       "zh": "表示家族身份、通常由家庭成員共享的姓名部分",
@@ -676,6 +666,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "name-reviewed-1cfaac3a19",
+      "title": "因知名度和聲譽而有價值的品牌或商業名稱",
+      "form": "name · source section 13",
+      "en": "因知名度和聲譽而有價值的品牌或商業名稱",
+      "zh": "因知名度和聲譽而有價值的品牌或商業名稱",
+      "note": "對照原始教材第 13 節及例句核實。",
+      "examples": [
+        [
+          "Consumers often pay more for a famous name.",
+          "消費者往往願意為知名品牌多付錢。",
+          "因知名度和聲譽而有價值的品牌或商業名稱"
+        ],
+        [
+          "It's a respected name in the industry.",
+          "它是業內很受尊重的知名品牌／名稱。",
+          "因知名度和聲譽而有價值的品牌或商業名稱"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -687,11 +699,9 @@ export default {
       "masked": "He never treated history as a dry subject full of ____ and dates.",
       "options": [
         "name-mcq-27",
-        "name-mcq-26",
         "name-mcq-28",
-        "name-mcq-25",
-        "name-mcq-29",
-        "name-mcq-24"
+        "name-mcq-19",
+        "name-mcq-10"
       ],
       "explanation": "本句的「names」指「用來識別某個人的字詞或稱呼」。",
       "sentenceIndex": 0,
@@ -700,12 +710,10 @@ export default {
         "names"
       ],
       "optionReasons": {
-        "name-mcq-27": "本句指「用來識別某個人的字詞或稱呼」。",
-        "name-mcq-26": "「同名的人／物」是「namesake」的用法，與本句語境不同。",
-        "name-mcq-28": "「表示家族身份、通常由家庭成員共享的姓名部分」是「3. family name / surname — 姓氏」的用法，與本句語境不同。",
-        "name-mcq-25": "「無名的」是「nameless」的用法，與本句語境不同。",
-        "name-mcq-29": "「某人、家庭或機構在別人心目中的聲譽和形象」是「9. name（名聲；聲譽） — 名聲；聲譽」的用法，與本句語境不同。",
-        "name-mcq-24": "「洗脫嫌疑」是「clear someone's name」的用法，與本句語境不同。"
+        "name-mcq-27": "本句的「names」指「用來識別某個人的字詞或稱呼」。",
+        "name-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-27"
     },
@@ -717,11 +725,9 @@ export default {
       "masked": "I can't remember his ____.",
       "options": [
         "name-mcq-27",
-        "name-mcq-26",
-        "name-mcq-28",
-        "name-mcq-25",
-        "name-mcq-29",
-        "name-mcq-24"
+        "name-mcq-21",
+        "name-mcq-09",
+        "name-mcq-20"
       ],
       "explanation": "本句的「name」指「用來識別某個人的字詞或稱呼」。",
       "sentenceIndex": 1,
@@ -730,12 +736,10 @@ export default {
         "name"
       ],
       "optionReasons": {
-        "name-mcq-27": "本句指「用來識別某個人的字詞或稱呼」。",
-        "name-mcq-26": "「同名的人／物」是「namesake」的用法，與本句語境不同。",
-        "name-mcq-28": "「表示家族身份、通常由家庭成員共享的姓名部分」是「3. family name / surname — 姓氏」的用法，與本句語境不同。",
-        "name-mcq-25": "「無名的」是「nameless」的用法，與本句語境不同。",
-        "name-mcq-29": "「某人、家庭或機構在別人心目中的聲譽和形象」是「9. name（名聲；聲譽） — 名聲；聲譽」的用法，與本句語境不同。",
-        "name-mcq-24": "「洗脫嫌疑」是「clear someone's name」的用法，與本句語境不同。"
+        "name-mcq-27": "本句的「name」指「用來識別某個人的字詞或稱呼」。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-27"
     },
@@ -747,11 +751,9 @@ export default {
       "masked": "Please write your ____ at the top of the page.",
       "options": [
         "name-mcq-27",
-        "name-mcq-26",
-        "name-mcq-28",
-        "name-mcq-25",
-        "name-mcq-29",
-        "name-mcq-24"
+        "name-mcq-07",
+        "name-mcq-31",
+        "name-mcq-20"
       ],
       "explanation": "本句的「name」指「用來識別某個人的字詞或稱呼」。",
       "sentenceIndex": 2,
@@ -760,12 +762,10 @@ export default {
         "name"
       ],
       "optionReasons": {
-        "name-mcq-27": "本句指「用來識別某個人的字詞或稱呼」。",
-        "name-mcq-26": "「同名的人／物」是「namesake」的用法，與本句語境不同。",
-        "name-mcq-28": "「表示家族身份、通常由家庭成員共享的姓名部分」是「3. family name / surname — 姓氏」的用法，與本句語境不同。",
-        "name-mcq-25": "「無名的」是「nameless」的用法，與本句語境不同。",
-        "name-mcq-29": "「某人、家庭或機構在別人心目中的聲譽和形象」是「9. name（名聲；聲譽） — 名聲；聲譽」的用法，與本句語境不同。",
-        "name-mcq-24": "「洗脫嫌疑」是「clear someone's name」的用法，與本句語境不同。"
+        "name-mcq-27": "本句的「name」指「用來識別某個人的字詞或稱呼」。",
+        "name-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-27"
     },
@@ -777,11 +777,9 @@ export default {
       "masked": "What's your ____?",
       "options": [
         "name-pdf-001",
-        "name-mcq-02",
-        "name-mcq-03",
-        "name-mcq-04",
-        "name-mcq-05",
-        "name-mcq-06"
+        "name-mcq-24",
+        "name-mcq-21",
+        "name-mcq-19"
       ],
       "explanation": "本句的「first name」指「個人名字中用來區分家庭成員的部分，通常不是姓氏」。",
       "sentenceIndex": 3,
@@ -790,12 +788,10 @@ export default {
         "first name"
       ],
       "optionReasons": {
-        "name-pdf-001": "本句指「個人名字中用來區分家庭成員的部分，通常不是姓氏」。",
-        "name-mcq-02": "「姓氏」是「surname」的用法，與本句語境不同。",
-        "name-mcq-03": "「全名」是「full name」的用法，與本句語境不同。",
-        "name-mcq-04": "「名稱」是「name (thing/place)」的用法，與本句語境不同。",
-        "name-mcq-05": "「品牌名稱」是「brand name」的用法，與本句語境不同。",
-        "name-mcq-06": "「地名」是「place name」的用法，與本句語境不同。"
+        "name-pdf-001": "本句的「first name」指「個人名字中用來區分家庭成員的部分，通常不是姓氏」。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-pdf-001"
     },
@@ -807,11 +803,9 @@ export default {
       "masked": "Please enter your ____ and surname.",
       "options": [
         "name-pdf-001",
-        "name-mcq-02",
-        "name-mcq-03",
-        "name-mcq-04",
-        "name-mcq-05",
-        "name-mcq-06"
+        "name-mcq-24",
+        "name-mcq-21",
+        "name-mcq-19"
       ],
       "explanation": "本句的「given name」指「個人名字中用來區分家庭成員的部分，通常不是姓氏」。",
       "sentenceIndex": 4,
@@ -820,12 +814,10 @@ export default {
         "given name"
       ],
       "optionReasons": {
-        "name-pdf-001": "本句指「個人名字中用來區分家庭成員的部分，通常不是姓氏」。",
-        "name-mcq-02": "「姓氏」是「surname」的用法，與本句語境不同。",
-        "name-mcq-03": "「全名」是「full name」的用法，與本句語境不同。",
-        "name-mcq-04": "「名稱」是「name (thing/place)」的用法，與本句語境不同。",
-        "name-mcq-05": "「品牌名稱」是「brand name」的用法，與本句語境不同。",
-        "name-mcq-06": "「地名」是「place name」的用法，與本句語境不同。"
+        "name-pdf-001": "本句的「given name」指「個人名字中用來區分家庭成員的部分，通常不是姓氏」。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-pdf-001"
     },
@@ -837,11 +829,9 @@ export default {
       "masked": "Chan is his ____.",
       "options": [
         "name-mcq-28",
+        "name-mcq-19",
         "name-mcq-27",
-        "name-mcq-29",
-        "name-mcq-26",
-        "name-mcq-30",
-        "name-mcq-25"
+        "name-mcq-20"
       ],
       "explanation": "本句的「family name」指「表示家族身份、通常由家庭成員共享的姓名部分」。",
       "sentenceIndex": 5,
@@ -850,12 +840,10 @@ export default {
         "family name"
       ],
       "optionReasons": {
-        "name-mcq-28": "本句指「表示家族身份、通常由家庭成員共享的姓名部分」。",
-        "name-mcq-27": "「用來識別某個人的字詞或稱呼」是「1. name（人的名字） — 名字；姓名」的用法，與本句語境不同。",
-        "name-mcq-29": "「某人、家庭或機構在別人心目中的聲譽和形象」是「9. name（名聲；聲譽） — 名聲；聲譽」的用法，與本句語境不同。",
-        "name-mcq-26": "「同名的人／物」是「namesake」的用法，與本句語境不同。",
-        "name-mcq-30": "「正式指定或宣布某人擔任某個角色或職位」是「20. name a person as / name someone to a position — 指定；任命」的用法，與本句語境不同。",
-        "name-mcq-25": "「無名的」是「nameless」的用法，與本句語境不同。"
+        "name-mcq-28": "本句的「family name」指「表示家族身份、通常由家庭成員共享的姓名部分」。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-28"
     },
@@ -867,11 +855,9 @@ export default {
       "masked": "Please write your ____ in capital letters.",
       "options": [
         "name-mcq-28",
-        "name-mcq-27",
-        "name-mcq-29",
-        "name-mcq-26",
-        "name-mcq-30",
-        "name-mcq-25"
+        "name-mcq-20",
+        "name-mcq-21",
+        "name-mcq-27"
       ],
       "explanation": "本句的「surname」指「表示家族身份、通常由家庭成員共享的姓名部分」。",
       "sentenceIndex": 6,
@@ -880,12 +866,10 @@ export default {
         "surname"
       ],
       "optionReasons": {
-        "name-mcq-28": "本句指「表示家族身份、通常由家庭成員共享的姓名部分」。",
-        "name-mcq-27": "「用來識別某個人的字詞或稱呼」是「1. name（人的名字） — 名字；姓名」的用法，與本句語境不同。",
-        "name-mcq-29": "「某人、家庭或機構在別人心目中的聲譽和形象」是「9. name（名聲；聲譽） — 名聲；聲譽」的用法，與本句語境不同。",
-        "name-mcq-26": "「同名的人／物」是「namesake」的用法，與本句語境不同。",
-        "name-mcq-30": "「正式指定或宣布某人擔任某個角色或職位」是「20. name a person as / name someone to a position — 指定；任命」的用法，與本句語境不同。",
-        "name-mcq-25": "「無名的」是「nameless」的用法，與本句語境不同。"
+        "name-mcq-28": "本句的「surname」指「表示家族身份、通常由家庭成員共享的姓名部分」。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-28"
     },
@@ -897,11 +881,9 @@ export default {
       "masked": "Please give me your ____.",
       "options": [
         "name-mcq-03",
-        "name-mcq-02",
-        "name-mcq-04",
-        "name-mcq-01",
-        "name-mcq-05",
-        "name-mcq-06"
+        "name-mcq-20",
+        "name-mcq-29",
+        "name-mcq-24"
       ],
       "explanation": "本句的「full name」指「全名」。",
       "sentenceIndex": 7,
@@ -910,12 +892,10 @@ export default {
         "full name"
       ],
       "optionReasons": {
-        "name-mcq-03": "本句指「全名」。",
-        "name-mcq-02": "「姓氏」是「surname」的用法，與本句語境不同。",
-        "name-mcq-04": "「名稱」是「name (thing/place)」的用法，與本句語境不同。",
-        "name-mcq-01": "「名字；姓名」是「name (person)」的用法，與本句語境不同。",
-        "name-mcq-05": "「品牌名稱」是「brand name」的用法，與本句語境不同。",
-        "name-mcq-06": "「地名」是「place name」的用法，與本句語境不同。"
+        "name-mcq-03": "本句的「full name」指「全名」。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-03"
     },
@@ -927,11 +907,9 @@ export default {
       "masked": "His ____ appears on the certificate.",
       "options": [
         "name-mcq-03",
-        "name-mcq-02",
-        "name-mcq-04",
-        "name-mcq-01",
-        "name-mcq-05",
-        "name-mcq-06"
+        "name-mcq-30",
+        "name-mcq-21",
+        "name-mcq-27"
       ],
       "explanation": "本句的「full name」指「全名」。",
       "sentenceIndex": 8,
@@ -940,12 +918,10 @@ export default {
         "full name"
       ],
       "optionReasons": {
-        "name-mcq-03": "本句指「全名」。",
-        "name-mcq-02": "「姓氏」是「surname」的用法，與本句語境不同。",
-        "name-mcq-04": "「名稱」是「name (thing/place)」的用法，與本句語境不同。",
-        "name-mcq-01": "「名字；姓名」是「name (person)」的用法，與本句語境不同。",
-        "name-mcq-05": "「品牌名稱」是「brand name」的用法，與本句語境不同。",
-        "name-mcq-06": "「地名」是「place name」的用法，與本句語境不同。"
+        "name-mcq-03": "本句的「full name」指「全名」。",
+        "name-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-03"
     },
@@ -957,11 +933,9 @@ export default {
       "masked": "What's the ____ of this street?",
       "options": [
         "name-mcq-27",
-        "name-mcq-26",
-        "name-mcq-28",
-        "name-mcq-25",
-        "name-mcq-29",
-        "name-mcq-24"
+        "name-mcq-11",
+        "name-mcq-24",
+        "name-mcq-19"
       ],
       "explanation": "本句的「name」指「用來識別某個人的字詞或稱呼」。",
       "sentenceIndex": 9,
@@ -970,12 +944,10 @@ export default {
         "name"
       ],
       "optionReasons": {
-        "name-mcq-27": "本句指「用來識別某個人的字詞或稱呼」。",
-        "name-mcq-26": "「同名的人／物」是「namesake」的用法，與本句語境不同。",
-        "name-mcq-28": "「表示家族身份、通常由家庭成員共享的姓名部分」是「3. family name / surname — 姓氏」的用法，與本句語境不同。",
-        "name-mcq-25": "「無名的」是「nameless」的用法，與本句語境不同。",
-        "name-mcq-29": "「某人、家庭或機構在別人心目中的聲譽和形象」是「9. name（名聲；聲譽） — 名聲；聲譽」的用法，與本句語境不同。",
-        "name-mcq-24": "「洗脫嫌疑」是「clear someone's name」的用法，與本句語境不同。"
+        "name-mcq-27": "本句的「name」指「用來識別某個人的字詞或稱呼」。",
+        "name-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-27"
     },
@@ -987,11 +959,9 @@ export default {
       "masked": "The restaurant changed its ____ last year.",
       "options": [
         "name-mcq-27",
-        "name-mcq-26",
-        "name-mcq-28",
-        "name-mcq-25",
-        "name-mcq-29",
-        "name-mcq-24"
+        "name-mcq-09",
+        "name-mcq-30",
+        "name-mcq-21"
       ],
       "explanation": "本句的「name」指「用來識別某個人的字詞或稱呼」。",
       "sentenceIndex": 10,
@@ -1000,12 +970,10 @@ export default {
         "name"
       ],
       "optionReasons": {
-        "name-mcq-27": "本句指「用來識別某個人的字詞或稱呼」。",
-        "name-mcq-26": "「同名的人／物」是「namesake」的用法，與本句語境不同。",
-        "name-mcq-28": "「表示家族身份、通常由家庭成員共享的姓名部分」是「3. family name / surname — 姓氏」的用法，與本句語境不同。",
-        "name-mcq-25": "「無名的」是「nameless」的用法，與本句語境不同。",
-        "name-mcq-29": "「某人、家庭或機構在別人心目中的聲譽和形象」是「9. name（名聲；聲譽） — 名聲；聲譽」的用法，與本句語境不同。",
-        "name-mcq-24": "「洗脫嫌疑」是「clear someone's name」的用法，與本句語境不同。"
+        "name-mcq-27": "本句的「name」指「用來識別某個人的字詞或稱呼」。",
+        "name-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-27"
     },
@@ -1017,11 +985,9 @@ export default {
       "masked": "I don't remember the ____.",
       "options": [
         "name-mcq-05",
-        "name-mcq-04",
-        "name-mcq-06",
-        "name-mcq-03",
-        "name-mcq-07",
-        "name-mcq-02"
+        "name-mcq-30",
+        "name-mcq-21",
+        "name-mcq-20"
       ],
       "explanation": "本句的「brand name」指「品牌名稱」。",
       "sentenceIndex": 11,
@@ -1030,12 +996,10 @@ export default {
         "brand name"
       ],
       "optionReasons": {
-        "name-mcq-05": "本句指「品牌名稱」。",
-        "name-mcq-04": "「名稱」是「name (thing/place)」的用法，與本句語境不同。",
-        "name-mcq-06": "「地名」是「place name」的用法，與本句語境不同。",
-        "name-mcq-03": "「全名」是「full name」的用法，與本句語境不同。",
-        "name-mcq-07": "「藝名」是「stage name」的用法，與本句語境不同。",
-        "name-mcq-02": "「姓氏」是「surname」的用法，與本句語境不同。"
+        "name-mcq-05": "本句的「brand name」指「品牌名稱」。",
+        "name-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-05"
     },
@@ -1047,11 +1011,9 @@ export default {
       "masked": "The company changed its ____.",
       "options": [
         "name-mcq-05",
-        "name-mcq-04",
-        "name-mcq-06",
-        "name-mcq-03",
-        "name-mcq-07",
-        "name-mcq-02"
+        "name-mcq-30",
+        "name-mcq-20",
+        "name-mcq-21"
       ],
       "explanation": "本句的「brand name」指「品牌名稱」。",
       "sentenceIndex": 12,
@@ -1060,12 +1022,10 @@ export default {
         "brand name"
       ],
       "optionReasons": {
-        "name-mcq-05": "本句指「品牌名稱」。",
-        "name-mcq-04": "「名稱」是「name (thing/place)」的用法，與本句語境不同。",
-        "name-mcq-06": "「地名」是「place name」的用法，與本句語境不同。",
-        "name-mcq-03": "「全名」是「full name」的用法，與本句語境不同。",
-        "name-mcq-07": "「藝名」是「stage name」的用法，與本句語境不同。",
-        "name-mcq-02": "「姓氏」是「surname」的用法，與本句語境不同。"
+        "name-mcq-05": "本句的「brand name」指「品牌名稱」。",
+        "name-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-05"
     },
@@ -1077,11 +1037,9 @@ export default {
       "masked": "Many ____ have interesting histories.",
       "options": [
         "name-mcq-06",
-        "name-mcq-05",
-        "name-mcq-07",
-        "name-mcq-04",
-        "name-mcq-08",
-        "name-mcq-03"
+        "name-mcq-29",
+        "name-mcq-27",
+        "name-mcq-24"
       ],
       "explanation": "本句的「place names」指「地名」。",
       "sentenceIndex": 13,
@@ -1090,12 +1048,10 @@ export default {
         "place names"
       ],
       "optionReasons": {
-        "name-mcq-06": "本句指「地名」。",
-        "name-mcq-05": "「品牌名稱」是「brand name」的用法，與本句語境不同。",
-        "name-mcq-07": "「藝名」是「stage name」的用法，與本句語境不同。",
-        "name-mcq-04": "「名稱」是「name (thing/place)」的用法，與本句語境不同。",
-        "name-mcq-08": "「名聲；聲譽」是「name (reputation)」的用法，與本句語境不同。",
-        "name-mcq-03": "「全名」是「full name」的用法，與本句語境不同。"
+        "name-mcq-06": "本句的「place names」指「地名」。",
+        "name-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-06"
     },
@@ -1107,11 +1063,9 @@ export default {
       "masked": "I always find this ____ difficult to pronounce.",
       "options": [
         "name-mcq-06",
-        "name-mcq-05",
-        "name-mcq-07",
-        "name-mcq-04",
-        "name-mcq-08",
-        "name-mcq-03"
+        "name-mcq-19",
+        "name-mcq-27",
+        "name-mcq-20"
       ],
       "explanation": "本句的「place name」指「地名」。",
       "sentenceIndex": 14,
@@ -1120,12 +1074,10 @@ export default {
         "place name"
       ],
       "optionReasons": {
-        "name-mcq-06": "本句指「地名」。",
-        "name-mcq-05": "「品牌名稱」是「brand name」的用法，與本句語境不同。",
-        "name-mcq-07": "「藝名」是「stage name」的用法，與本句語境不同。",
-        "name-mcq-04": "「名稱」是「name (thing/place)」的用法，與本句語境不同。",
-        "name-mcq-08": "「名聲；聲譽」是「name (reputation)」的用法，與本句語境不同。",
-        "name-mcq-03": "「全名」是「full name」的用法，與本句語境不同。"
+        "name-mcq-06": "本句的「place name」指「地名」。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-06"
     },
@@ -1137,11 +1089,9 @@ export default {
       "masked": "The singer performs under a ____.",
       "options": [
         "name-mcq-07",
-        "name-mcq-06",
-        "name-mcq-08",
-        "name-mcq-05",
-        "name-mcq-09",
-        "name-mcq-04"
+        "name-mcq-31",
+        "name-mcq-27",
+        "name-mcq-24"
       ],
       "explanation": "本句的「stage name」指「藝名」。",
       "sentenceIndex": 15,
@@ -1150,12 +1100,10 @@ export default {
         "stage name"
       ],
       "optionReasons": {
-        "name-mcq-07": "本句指「藝名」。",
-        "name-mcq-06": "「地名」是「place name」的用法，與本句語境不同。",
-        "name-mcq-08": "「名聲；聲譽」是「name (reputation)」的用法，與本句語境不同。",
-        "name-mcq-05": "「品牌名稱」是「brand name」的用法，與本句語境不同。",
-        "name-mcq-09": "「好名聲」是「good name」的用法，與本句語境不同。",
-        "name-mcq-04": "「名稱」是「name (thing/place)」的用法，與本句語境不同。"
+        "name-mcq-07": "本句的「stage name」指「藝名」。",
+        "name-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-07"
     },
@@ -1167,11 +1115,9 @@ export default {
       "masked": "The author wrote under a ____.",
       "options": [
         "name-mcq-07",
-        "name-mcq-06",
-        "name-mcq-08",
-        "name-mcq-05",
-        "name-mcq-09",
-        "name-mcq-04"
+        "name-mcq-20",
+        "name-mcq-19",
+        "name-mcq-30"
       ],
       "explanation": "本句的「pen name」指「藝名」。",
       "sentenceIndex": 16,
@@ -1180,12 +1126,10 @@ export default {
         "pen name"
       ],
       "optionReasons": {
-        "name-mcq-07": "本句指「藝名」。",
-        "name-mcq-06": "「地名」是「place name」的用法，與本句語境不同。",
-        "name-mcq-08": "「名聲；聲譽」是「name (reputation)」的用法，與本句語境不同。",
-        "name-mcq-05": "「品牌名稱」是「brand name」的用法，與本句語境不同。",
-        "name-mcq-09": "「好名聲」是「good name」的用法，與本句語境不同。",
-        "name-mcq-04": "「名稱」是「name (thing/place)」的用法，與本句語境不同。"
+        "name-mcq-07": "本句的「pen name」指「藝名」。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-07"
     },
@@ -1197,11 +1141,9 @@ export default {
       "masked": "The company has a good ____ in the industry.",
       "options": [
         "name-mcq-29",
-        "name-mcq-28",
-        "name-mcq-30",
-        "name-mcq-27",
-        "name-mcq-31",
-        "name-mcq-26"
+        "name-mcq-05",
+        "name-mcq-21",
+        "name-mcq-10"
       ],
       "explanation": "本句的「name」指「某人、家庭或機構在別人心目中的聲譽和形象」。",
       "sentenceIndex": 17,
@@ -1210,12 +1152,10 @@ export default {
         "name"
       ],
       "optionReasons": {
-        "name-mcq-29": "本句指「某人、家庭或機構在別人心目中的聲譽和形象」。",
-        "name-mcq-28": "「表示家族身份、通常由家庭成員共享的姓名部分」是「3. family name / surname — 姓氏」的用法，與本句語境不同。",
-        "name-mcq-30": "「正式指定或宣布某人擔任某個角色或職位」是「20. name a person as / name someone to a position — 指定；任命」的用法，與本句語境不同。",
-        "name-mcq-27": "「用來識別某個人的字詞或稱呼」是「1. name（人的名字） — 名字；姓名」的用法，與本句語境不同。",
-        "name-mcq-31": "「公開說某人的壞話，令其聲譽受到嚴重損害」是「27. drag someone's name through the mud — 敗壞某人名聲」的用法，與本句語境不同。",
-        "name-mcq-26": "「同名的人／物」是「namesake」的用法，與本句語境不同。"
+        "name-mcq-29": "本句的「name」指「某人、家庭或機構在別人心目中的聲譽和形象」。",
+        "name-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-29"
     },
@@ -1227,11 +1167,9 @@ export default {
       "masked": "He worked hard to protect his family's ____.",
       "options": [
         "name-mcq-29",
-        "name-mcq-28",
-        "name-mcq-30",
-        "name-mcq-27",
-        "name-mcq-31",
-        "name-mcq-26"
+        "name-mcq-12",
+        "name-mcq-20",
+        "name-mcq-19"
       ],
       "explanation": "本句的「name」指「某人、家庭或機構在別人心目中的聲譽和形象」。",
       "sentenceIndex": 18,
@@ -1240,12 +1178,10 @@ export default {
         "name"
       ],
       "optionReasons": {
-        "name-mcq-29": "本句指「某人、家庭或機構在別人心目中的聲譽和形象」。",
-        "name-mcq-28": "「表示家族身份、通常由家庭成員共享的姓名部分」是「3. family name / surname — 姓氏」的用法，與本句語境不同。",
-        "name-mcq-30": "「正式指定或宣布某人擔任某個角色或職位」是「20. name a person as / name someone to a position — 指定；任命」的用法，與本句語境不同。",
-        "name-mcq-27": "「用來識別某個人的字詞或稱呼」是「1. name（人的名字） — 名字；姓名」的用法，與本句語境不同。",
-        "name-mcq-31": "「公開說某人的壞話，令其聲譽受到嚴重損害」是「27. drag someone's name through the mud — 敗壞某人名聲」的用法，與本句語境不同。",
-        "name-mcq-26": "「同名的人／物」是「namesake」的用法，與本句語境不同。"
+        "name-mcq-29": "本句的「name」指「某人、家庭或機構在別人心目中的聲譽和形象」。",
+        "name-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-29"
     },
@@ -1257,11 +1193,9 @@ export default {
       "masked": "The school has a ____.",
       "options": [
         "name-mcq-09",
-        "name-mcq-08",
-        "name-mcq-10",
-        "name-mcq-07",
-        "name-mcq-11",
-        "name-mcq-06"
+        "name-mcq-19",
+        "name-mcq-27",
+        "name-mcq-24"
       ],
       "explanation": "本句的「good name」指「好名聲」。",
       "sentenceIndex": 19,
@@ -1270,12 +1204,10 @@ export default {
         "good name"
       ],
       "optionReasons": {
-        "name-mcq-09": "本句指「好名聲」。",
-        "name-mcq-08": "「名聲；聲譽」是「name (reputation)」的用法，與本句語境不同。",
-        "name-mcq-10": "「闖出名堂」是「make a name for yourself」的用法，與本句語境不同。",
-        "name-mcq-07": "「藝名」是「stage name」的用法，與本句語境不同。",
-        "name-mcq-11": "「大人物；知名人士」是「a big name」的用法，與本句語境不同。",
-        "name-mcq-06": "「地名」是「place name」的用法，與本句語境不同。"
+        "name-mcq-09": "本句的「good name」指「好名聲」。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-09"
     },
@@ -1287,11 +1219,9 @@ export default {
       "masked": "The scandal gave the company a ____.",
       "options": [
         "name-mcq-09",
-        "name-mcq-08",
-        "name-mcq-10",
-        "name-mcq-07",
-        "name-mcq-11",
-        "name-mcq-06"
+        "name-mcq-19",
+        "name-mcq-27",
+        "name-mcq-24"
       ],
       "explanation": "本句的「bad name」指「好名聲」。",
       "sentenceIndex": 20,
@@ -1300,12 +1230,10 @@ export default {
         "bad name"
       ],
       "optionReasons": {
-        "name-mcq-09": "本句指「好名聲」。",
-        "name-mcq-08": "「名聲；聲譽」是「name (reputation)」的用法，與本句語境不同。",
-        "name-mcq-10": "「闖出名堂」是「make a name for yourself」的用法，與本句語境不同。",
-        "name-mcq-07": "「藝名」是「stage name」的用法，與本句語境不同。",
-        "name-mcq-11": "「大人物；知名人士」是「a big name」的用法，與本句語境不同。",
-        "name-mcq-06": "「地名」是「place name」的用法，與本句語境不同。"
+        "name-mcq-09": "本句的「bad name」指「好名聲」。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-09"
     },
@@ -1317,11 +1245,9 @@ export default {
       "masked": "She ____ as a designer.",
       "options": [
         "name-mcq-10",
-        "name-mcq-09",
-        "name-mcq-11",
-        "name-mcq-08",
-        "name-mcq-12",
-        "name-mcq-07"
+        "name-mcq-21",
+        "name-mcq-30",
+        "name-mcq-24"
       ],
       "explanation": "本句的「made a name for herself」指「闖出名堂」。",
       "sentenceIndex": 21,
@@ -1330,12 +1256,10 @@ export default {
         "made a name for herself"
       ],
       "optionReasons": {
-        "name-mcq-10": "本句指「闖出名堂」。",
-        "name-mcq-09": "「好名聲」是「good name」的用法，與本句語境不同。",
-        "name-mcq-11": "「大人物；知名人士」是「a big name」的用法，與本句語境不同。",
-        "name-mcq-08": "「名聲；聲譽」是「name (reputation)」的用法，與本句語境不同。",
-        "name-mcq-12": "「按名字；知道名字」是「by name」的用法，與本句語境不同。",
-        "name-mcq-07": "「藝名」是「stage name」的用法，與本句語境不同。"
+        "name-mcq-10": "本句的「made a name for herself」指「闖出名堂」。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-10"
     },
@@ -1347,11 +1271,9 @@ export default {
       "masked": "He hopes to ____ in the industry.",
       "options": [
         "name-mcq-10",
-        "name-mcq-09",
-        "name-mcq-11",
-        "name-mcq-08",
-        "name-mcq-12",
-        "name-mcq-07"
+        "name-mcq-31",
+        "name-mcq-27",
+        "name-mcq-24"
       ],
       "explanation": "本句的「make a name for himself」指「闖出名堂」。",
       "sentenceIndex": 22,
@@ -1360,12 +1282,10 @@ export default {
         "make a name for himself"
       ],
       "optionReasons": {
-        "name-mcq-10": "本句指「闖出名堂」。",
-        "name-mcq-09": "「好名聲」是「good name」的用法，與本句語境不同。",
-        "name-mcq-11": "「大人物；知名人士」是「a big name」的用法，與本句語境不同。",
-        "name-mcq-08": "「名聲；聲譽」是「name (reputation)」的用法，與本句語境不同。",
-        "name-mcq-12": "「按名字；知道名字」是「by name」的用法，與本句語境不同。",
-        "name-mcq-07": "「藝名」是「stage name」的用法，與本句語境不同。"
+        "name-mcq-10": "本句的「make a name for himself」指「闖出名堂」。",
+        "name-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-10"
     },
@@ -1377,11 +1297,9 @@ export default {
       "masked": "She is a ____ in fashion.",
       "options": [
         "name-mcq-11",
-        "name-mcq-10",
-        "name-mcq-12",
-        "name-mcq-09",
-        "name-mcq-13",
-        "name-mcq-08"
+        "name-mcq-19",
+        "name-mcq-21",
+        "name-mcq-27"
       ],
       "explanation": "本句的「big name」指「大人物；知名人士」。",
       "sentenceIndex": 23,
@@ -1390,12 +1308,10 @@ export default {
         "big name"
       ],
       "optionReasons": {
-        "name-mcq-11": "本句指「大人物；知名人士」。",
-        "name-mcq-10": "「闖出名堂」是「make a name for yourself」的用法，與本句語境不同。",
-        "name-mcq-12": "「按名字；知道名字」是「by name」的用法，與本句語境不同。",
-        "name-mcq-09": "「好名聲」是「good name」的用法，與本句語境不同。",
-        "name-mcq-13": "「以某人名義」是「in someone's name」的用法，與本句語境不同。",
-        "name-mcq-08": "「名聲；聲譽」是「name (reputation)」的用法，與本句語境不同。"
+        "name-mcq-11": "本句的「big name」指「大人物；知名人士」。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-11"
     },
@@ -1407,11 +1323,9 @@ export default {
       "masked": "Several ____ attended the event.",
       "options": [
         "name-mcq-11",
-        "name-mcq-10",
-        "name-mcq-12",
-        "name-mcq-09",
-        "name-mcq-13",
-        "name-mcq-08"
+        "name-mcq-19",
+        "name-mcq-21",
+        "name-mcq-24"
       ],
       "explanation": "本句的「big names」指「大人物；知名人士」。",
       "sentenceIndex": 24,
@@ -1420,74 +1334,68 @@ export default {
         "big names"
       ],
       "optionReasons": {
-        "name-mcq-11": "本句指「大人物；知名人士」。",
-        "name-mcq-10": "「闖出名堂」是「make a name for yourself」的用法，與本句語境不同。",
-        "name-mcq-12": "「按名字；知道名字」是「by name」的用法，與本句語境不同。",
-        "name-mcq-09": "「好名聲」是「good name」的用法，與本句語境不同。",
-        "name-mcq-13": "「以某人名義」是「in someone's name」的用法，與本句語境不同。",
-        "name-mcq-08": "「名聲；聲譽」是「name (reputation)」的用法，與本句語境不同。"
+        "name-mcq-11": "本句的「big names」指「大人物；知名人士」。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-11"
     },
     {
       "id": "name-13-0",
-      "sense": "name-mcq-12",
+      "sense": "name-reviewed-1cfaac3a19",
       "en": "Consumers often pay more for a famous name.",
       "zh": "消費者往往願意為知名品牌多付錢。",
       "masked": "Consumers often pay more for a famous ____.",
       "options": [
-        "name-mcq-12",
-        "name-mcq-11",
-        "name-mcq-13",
-        "name-mcq-10",
-        "name-mcq-14",
-        "name-mcq-09"
+        "name-reviewed-1cfaac3a19",
+        "name-mcq-30",
+        "name-mcq-24",
+        "name-mcq-20"
       ],
-      "explanation": "本句的「name」指「按名字；知道名字」。",
+      "explanation": "對照完整句子：「消費者往往願意為知名品牌多付錢。」。這裡的「name」表示「因知名度和聲譽而有價值的品牌或商業名稱」。",
       "sentenceIndex": 25,
       "sourcePractice": 1,
       "targets": [
         "name"
       ],
       "optionReasons": {
-        "name-mcq-12": "本句指「按名字；知道名字」。",
-        "name-mcq-11": "「大人物；知名人士」是「a big name」的用法，與本句語境不同。",
-        "name-mcq-13": "「以某人名義」是「in someone's name」的用法，與本句語境不同。",
-        "name-mcq-10": "「闖出名堂」是「make a name for yourself」的用法，與本句語境不同。",
-        "name-mcq-14": "「以 X 之名」是「in the name of X」的用法，與本句語境不同。",
-        "name-mcq-09": "「好名聲」是「good name」的用法，與本句語境不同。"
+        "name-reviewed-1cfaac3a19": "對照完整句子：「消費者往往願意為知名品牌多付錢。」。這裡的「name」表示「因知名度和聲譽而有價值的品牌或商業名稱」。",
+        "name-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "name-mcq-12"
+      "correctOption": "name-reviewed-1cfaac3a19",
+      "previousCorrectOption": "name-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "name-13-1",
-      "sense": "name-mcq-12",
+      "sense": "name-reviewed-1cfaac3a19",
       "en": "It's a respected name in the industry.",
       "zh": "它是業內很受尊重的知名品牌／名稱。",
       "masked": "It's a respected ____ in the industry.",
       "options": [
-        "name-mcq-12",
-        "name-mcq-11",
-        "name-mcq-13",
-        "name-mcq-10",
-        "name-mcq-14",
-        "name-mcq-09"
+        "name-reviewed-1cfaac3a19",
+        "name-mcq-20",
+        "name-mcq-24",
+        "name-mcq-19"
       ],
-      "explanation": "本句的「name」指「按名字；知道名字」。",
+      "explanation": "對照完整句子：「它是業內很受尊重的知名品牌／名稱。」。這裡的「name」表示「因知名度和聲譽而有價值的品牌或商業名稱」。",
       "sentenceIndex": 26,
       "sourcePractice": 2,
       "targets": [
         "name"
       ],
       "optionReasons": {
-        "name-mcq-12": "本句指「按名字；知道名字」。",
-        "name-mcq-11": "「大人物；知名人士」是「a big name」的用法，與本句語境不同。",
-        "name-mcq-13": "「以某人名義」是「in someone's name」的用法，與本句語境不同。",
-        "name-mcq-10": "「闖出名堂」是「make a name for yourself」的用法，與本句語境不同。",
-        "name-mcq-14": "「以 X 之名」是「in the name of X」的用法，與本句語境不同。",
-        "name-mcq-09": "「好名聲」是「good name」的用法，與本句語境不同。"
+        "name-reviewed-1cfaac3a19": "對照完整句子：「它是業內很受尊重的知名品牌／名稱。」。這裡的「name」表示「因知名度和聲譽而有價值的品牌或商業名稱」。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "name-mcq-12"
+      "correctOption": "name-reviewed-1cfaac3a19",
+      "previousCorrectOption": "name-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "name-14-0",
@@ -1497,11 +1405,9 @@ export default {
       "masked": "The teacher knew every student ____.",
       "options": [
         "name-mcq-12",
-        "name-mcq-11",
-        "name-mcq-13",
-        "name-mcq-10",
-        "name-mcq-14",
-        "name-mcq-09"
+        "name-mcq-31",
+        "name-mcq-20",
+        "name-mcq-19"
       ],
       "explanation": "本句的「by name」指「按名字；知道名字」。",
       "sentenceIndex": 27,
@@ -1510,12 +1416,10 @@ export default {
         "by name"
       ],
       "optionReasons": {
-        "name-mcq-12": "本句指「按名字；知道名字」。",
-        "name-mcq-11": "「大人物；知名人士」是「a big name」的用法，與本句語境不同。",
-        "name-mcq-13": "「以某人名義」是「in someone's name」的用法，與本句語境不同。",
-        "name-mcq-10": "「闖出名堂」是「make a name for yourself」的用法，與本句語境不同。",
-        "name-mcq-14": "「以 X 之名」是「in the name of X」的用法，與本句語境不同。",
-        "name-mcq-09": "「好名聲」是「good name」的用法，與本句語境不同。"
+        "name-mcq-12": "本句的「by name」指「按名字；知道名字」。",
+        "name-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-12"
     },
@@ -1527,11 +1431,9 @@ export default {
       "masked": "I know him ____, but we've never met.",
       "options": [
         "name-mcq-12",
-        "name-mcq-11",
-        "name-mcq-13",
-        "name-mcq-10",
-        "name-mcq-14",
-        "name-mcq-09"
+        "name-mcq-24",
+        "name-mcq-29",
+        "name-mcq-20"
       ],
       "explanation": "本句的「by name」指「按名字；知道名字」。",
       "sentenceIndex": 28,
@@ -1540,12 +1442,10 @@ export default {
         "by name"
       ],
       "optionReasons": {
-        "name-mcq-12": "本句指「按名字；知道名字」。",
-        "name-mcq-11": "「大人物；知名人士」是「a big name」的用法，與本句語境不同。",
-        "name-mcq-13": "「以某人名義」是「in someone's name」的用法，與本句語境不同。",
-        "name-mcq-10": "「闖出名堂」是「make a name for yourself」的用法，與本句語境不同。",
-        "name-mcq-14": "「以 X 之名」是「in the name of X」的用法，與本句語境不同。",
-        "name-mcq-09": "「好名聲」是「good name」的用法，與本句語境不同。"
+        "name-mcq-12": "本句的「by name」指「按名字；知道名字」。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-12"
     },
@@ -1557,11 +1457,9 @@ export default {
       "masked": "The account is ____.",
       "options": [
         "name-mcq-13",
-        "name-mcq-12",
-        "name-mcq-14",
-        "name-mcq-11",
-        "name-mcq-15",
-        "name-mcq-10"
+        "name-mcq-24",
+        "name-mcq-21",
+        "name-mcq-20"
       ],
       "explanation": "本句的「in her name」指「以某人名義」。",
       "sentenceIndex": 29,
@@ -1570,12 +1468,10 @@ export default {
         "in her name"
       ],
       "optionReasons": {
-        "name-mcq-13": "本句指「以某人名義」。",
-        "name-mcq-12": "「按名字；知道名字」是「by name」的用法，與本句語境不同。",
-        "name-mcq-14": "「以 X 之名」是「in the name of X」的用法，與本句語境不同。",
-        "name-mcq-11": "「大人物；知名人士」是「a big name」的用法，與本句語境不同。",
-        "name-mcq-15": "「給某人命名」是「name someone」的用法，與本句語境不同。",
-        "name-mcq-10": "「闖出名堂」是「make a name for yourself」的用法，與本句語境不同。"
+        "name-mcq-13": "本句的「in her name」指「以某人名義」。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-13"
     },
@@ -1587,11 +1483,9 @@ export default {
       "masked": "The booking was made ____.",
       "options": [
         "name-mcq-13",
-        "name-mcq-12",
-        "name-mcq-14",
-        "name-mcq-11",
-        "name-mcq-15",
-        "name-mcq-10"
+        "name-mcq-19",
+        "name-mcq-21",
+        "name-mcq-27"
       ],
       "explanation": "本句的「in my name」指「以某人名義」。",
       "sentenceIndex": 30,
@@ -1600,12 +1494,10 @@ export default {
         "in my name"
       ],
       "optionReasons": {
-        "name-mcq-13": "本句指「以某人名義」。",
-        "name-mcq-12": "「按名字；知道名字」是「by name」的用法，與本句語境不同。",
-        "name-mcq-14": "「以 X 之名」是「in the name of X」的用法，與本句語境不同。",
-        "name-mcq-11": "「大人物；知名人士」是「a big name」的用法，與本句語境不同。",
-        "name-mcq-15": "「給某人命名」是「name someone」的用法，與本句語境不同。",
-        "name-mcq-10": "「闖出名堂」是「make a name for yourself」的用法，與本句語境不同。"
+        "name-mcq-13": "本句的「in my name」指「以某人名義」。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-13"
     },
@@ -1617,11 +1509,9 @@ export default {
       "masked": "They claimed to act ____.",
       "options": [
         "name-mcq-14",
-        "name-mcq-13",
-        "name-mcq-15",
-        "name-mcq-12",
-        "name-mcq-16",
-        "name-mcq-11"
+        "name-mcq-19",
+        "name-mcq-29",
+        "name-mcq-27"
       ],
       "explanation": "本句的「in the name of justice」指「以 X 之名」。",
       "sentenceIndex": 31,
@@ -1630,12 +1520,10 @@ export default {
         "in the name of justice"
       ],
       "optionReasons": {
-        "name-mcq-14": "本句指「以 X 之名」。",
-        "name-mcq-13": "「以某人名義」是「in someone's name」的用法，與本句語境不同。",
-        "name-mcq-15": "「給某人命名」是「name someone」的用法，與本句語境不同。",
-        "name-mcq-12": "「按名字；知道名字」是「by name」的用法，與本句語境不同。",
-        "name-mcq-16": "「以 Y 命名 X」是「name X after Y」的用法，與本句語境不同。",
-        "name-mcq-11": "「大人物；知名人士」是「a big name」的用法，與本句語境不同。"
+        "name-mcq-14": "本句的「in the name of justice」指「以 X 之名」。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-14"
     },
@@ -1647,11 +1535,9 @@ export default {
       "masked": "A lot has been done ____.",
       "options": [
         "name-mcq-14",
-        "name-mcq-13",
-        "name-mcq-15",
-        "name-mcq-12",
-        "name-mcq-16",
-        "name-mcq-11"
+        "name-mcq-31",
+        "name-mcq-24",
+        "name-mcq-20"
       ],
       "explanation": "本句的「in the name of progress」指「以 X 之名」。",
       "sentenceIndex": 32,
@@ -1660,12 +1546,10 @@ export default {
         "in the name of progress"
       ],
       "optionReasons": {
-        "name-mcq-14": "本句指「以 X 之名」。",
-        "name-mcq-13": "「以某人名義」是「in someone's name」的用法，與本句語境不同。",
-        "name-mcq-15": "「給某人命名」是「name someone」的用法，與本句語境不同。",
-        "name-mcq-12": "「按名字；知道名字」是「by name」的用法，與本句語境不同。",
-        "name-mcq-16": "「以 Y 命名 X」是「name X after Y」的用法，與本句語境不同。",
-        "name-mcq-11": "「大人物；知名人士」是「a big name」的用法，與本句語境不同。"
+        "name-mcq-14": "本句的「in the name of progress」指「以 X 之名」。",
+        "name-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-14"
     },
@@ -1677,11 +1561,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "name-mcq-15",
-        "name-mcq-14",
-        "name-mcq-16",
-        "name-mcq-13",
-        "name-mcq-17",
-        "name-mcq-12"
+        "name-mcq-20",
+        "name-mcq-27",
+        "name-mcq-19"
       ],
       "explanation": "本句的「named the baby Leo」指「給某人命名」。",
       "sentenceIndex": 33,
@@ -1690,12 +1572,10 @@ export default {
         "named the baby Leo"
       ],
       "optionReasons": {
-        "name-mcq-15": "本句指「給某人命名」。",
-        "name-mcq-14": "「以 X 之名」是「in the name of X」的用法，與本句語境不同。",
-        "name-mcq-16": "「以 Y 命名 X」是「name X after Y」的用法，與本句語境不同。",
-        "name-mcq-13": "「以某人名義」是「in someone's name」的用法，與本句語境不同。",
-        "name-mcq-17": "「說出 X 的名稱」是「name X」的用法，與本句語境不同。",
-        "name-mcq-12": "「按名字；知道名字」是「by name」的用法，與本句語境不同。"
+        "name-mcq-15": "本句的「named the baby Leo」指「給某人命名」。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-15"
     },
@@ -1707,11 +1587,9 @@ export default {
       "masked": "The new school was ____ a local teacher.",
       "options": [
         "name-mcq-15",
-        "name-mcq-14",
-        "name-mcq-16",
-        "name-mcq-13",
-        "name-mcq-17",
-        "name-mcq-12"
+        "name-mcq-27",
+        "name-mcq-21",
+        "name-mcq-24"
       ],
       "explanation": "本句的「named after」指「給某人命名」。",
       "sentenceIndex": 34,
@@ -1720,12 +1598,10 @@ export default {
         "named after"
       ],
       "optionReasons": {
-        "name-mcq-15": "本句指「給某人命名」。",
-        "name-mcq-14": "「以 X 之名」是「in the name of X」的用法，與本句語境不同。",
-        "name-mcq-16": "「以 Y 命名 X」是「name X after Y」的用法，與本句語境不同。",
-        "name-mcq-13": "「以某人名義」是「in someone's name」的用法，與本句語境不同。",
-        "name-mcq-17": "「說出 X 的名稱」是「name X」的用法，與本句語境不同。",
-        "name-mcq-12": "「按名字；知道名字」是「by name」的用法，與本句語境不同。"
+        "name-mcq-15": "本句的「named after」指「給某人命名」。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-15"
     },
@@ -1737,11 +1613,9 @@ export default {
       "masked": "The street was ____ a famous writer.",
       "options": [
         "name-mcq-15",
-        "name-mcq-14",
-        "name-mcq-16",
-        "name-mcq-13",
-        "name-mcq-17",
-        "name-mcq-12"
+        "name-mcq-21",
+        "name-mcq-27",
+        "name-mcq-24"
       ],
       "explanation": "本句的「named after」指「給某人命名」。",
       "sentenceIndex": 35,
@@ -1750,12 +1624,10 @@ export default {
         "named after"
       ],
       "optionReasons": {
-        "name-mcq-15": "本句指「給某人命名」。",
-        "name-mcq-14": "「以 X 之名」是「in the name of X」的用法，與本句語境不同。",
-        "name-mcq-16": "「以 Y 命名 X」是「name X after Y」的用法，與本句語境不同。",
-        "name-mcq-13": "「以某人名義」是「in someone's name」的用法，與本句語境不同。",
-        "name-mcq-17": "「說出 X 的名稱」是「name X」的用法，與本句語境不同。",
-        "name-mcq-12": "「按名字；知道名字」是「by name」的用法，與本句語境不同。"
+        "name-mcq-15": "本句的「named after」指「給某人命名」。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-15"
     },
@@ -1767,11 +1639,9 @@ export default {
       "masked": "They ____ his grandfather.",
       "options": [
         "name-mcq-15",
-        "name-mcq-14",
-        "name-mcq-16",
-        "name-mcq-13",
-        "name-mcq-17",
-        "name-mcq-12"
+        "name-mcq-20",
+        "name-mcq-21",
+        "name-mcq-19"
       ],
       "explanation": "本句的「named their son after」指「給某人命名」。",
       "sentenceIndex": 36,
@@ -1780,12 +1650,10 @@ export default {
         "named their son after"
       ],
       "optionReasons": {
-        "name-mcq-15": "本句指「給某人命名」。",
-        "name-mcq-14": "「以 X 之名」是「in the name of X」的用法，與本句語境不同。",
-        "name-mcq-16": "「以 Y 命名 X」是「name X after Y」的用法，與本句語境不同。",
-        "name-mcq-13": "「以某人名義」是「in someone's name」的用法，與本句語境不同。",
-        "name-mcq-17": "「說出 X 的名稱」是「name X」的用法，與本句語境不同。",
-        "name-mcq-12": "「按名字；知道名字」是「by name」的用法，與本句語境不同。"
+        "name-mcq-15": "本句的「named their son after」指「給某人命名」。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-15"
     },
@@ -1797,11 +1665,9 @@ export default {
       "masked": "Can you ____ on the map?",
       "options": [
         "name-mcq-15",
-        "name-mcq-14",
-        "name-mcq-16",
-        "name-mcq-13",
-        "name-mcq-17",
-        "name-mcq-12"
+        "name-mcq-24",
+        "name-mcq-19",
+        "name-mcq-21"
       ],
       "explanation": "本句的「name all the countries」指「給某人命名」。",
       "sentenceIndex": 37,
@@ -1810,12 +1676,10 @@ export default {
         "name all the countries"
       ],
       "optionReasons": {
-        "name-mcq-15": "本句指「給某人命名」。",
-        "name-mcq-14": "「以 X 之名」是「in the name of X」的用法，與本句語境不同。",
-        "name-mcq-16": "「以 Y 命名 X」是「name X after Y」的用法，與本句語境不同。",
-        "name-mcq-13": "「以某人名義」是「in someone's name」的用法，與本句語境不同。",
-        "name-mcq-17": "「說出 X 的名稱」是「name X」的用法，與本句語境不同。",
-        "name-mcq-12": "「按名字；知道名字」是「by name」的用法，與本句語境不同。"
+        "name-mcq-15": "本句的「name all the countries」指「給某人命名」。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-15"
     },
@@ -1827,11 +1691,9 @@ export default {
       "masked": "She couldn't ____ she had seen.",
       "options": [
         "name-mcq-15",
-        "name-mcq-14",
-        "name-mcq-16",
-        "name-mcq-13",
-        "name-mcq-17",
-        "name-mcq-12"
+        "name-mcq-27",
+        "name-mcq-20",
+        "name-mcq-24"
       ],
       "explanation": "本句的「name the person」指「給某人命名」。",
       "sentenceIndex": 38,
@@ -1840,12 +1702,10 @@ export default {
         "name the person"
       ],
       "optionReasons": {
-        "name-mcq-15": "本句指「給某人命名」。",
-        "name-mcq-14": "「以 X 之名」是「in the name of X」的用法，與本句語境不同。",
-        "name-mcq-16": "「以 Y 命名 X」是「name X after Y」的用法，與本句語境不同。",
-        "name-mcq-13": "「以某人名義」是「in someone's name」的用法，與本句語境不同。",
-        "name-mcq-17": "「說出 X 的名稱」是「name X」的用法，與本句語境不同。",
-        "name-mcq-12": "「按名字；知道名字」是「by name」的用法，與本句語境不同。"
+        "name-mcq-15": "本句的「name the person」指「給某人命名」。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-15"
     },
@@ -1857,11 +1717,9 @@ export default {
       "masked": "She was ____ of the team.",
       "options": [
         "name-mcq-30",
-        "name-mcq-29",
-        "name-mcq-31",
-        "name-mcq-28",
-        "name-mcq-27",
-        "name-mcq-26"
+        "name-mcq-21",
+        "name-mcq-23",
+        "name-mcq-12"
       ],
       "explanation": "本句的「named captain」指「正式指定或宣布某人擔任某個角色或職位」。",
       "sentenceIndex": 39,
@@ -1870,12 +1728,10 @@ export default {
         "named captain"
       ],
       "optionReasons": {
-        "name-mcq-30": "本句指「正式指定或宣布某人擔任某個角色或職位」。",
-        "name-mcq-29": "「某人、家庭或機構在別人心目中的聲譽和形象」是「9. name（名聲；聲譽） — 名聲；聲譽」的用法，與本句語境不同。",
-        "name-mcq-31": "「公開說某人的壞話，令其聲譽受到嚴重損害」是「27. drag someone's name through the mud — 敗壞某人名聲」的用法，與本句語境不同。",
-        "name-mcq-28": "「表示家族身份、通常由家庭成員共享的姓名部分」是「3. family name / surname — 姓氏」的用法，與本句語境不同。",
-        "name-mcq-27": "「用來識別某個人的字詞或稱呼」是「1. name（人的名字） — 名字；姓名」的用法，與本句語境不同。",
-        "name-mcq-26": "「同名的人／物」是「namesake」的用法，與本句語境不同。"
+        "name-mcq-30": "本句的「named captain」指「正式指定或宣布某人擔任某個角色或職位」。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-30"
     },
@@ -1887,11 +1743,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "name-mcq-30",
-        "name-mcq-29",
-        "name-mcq-31",
-        "name-mcq-28",
-        "name-mcq-27",
-        "name-mcq-26"
+        "name-mcq-03",
+        "name-mcq-21",
+        "name-mcq-24"
       ],
       "explanation": "本句的「named him as its new director」指「正式指定或宣布某人擔任某個角色或職位」。",
       "sentenceIndex": 40,
@@ -1900,12 +1754,10 @@ export default {
         "named him as its new director"
       ],
       "optionReasons": {
-        "name-mcq-30": "本句指「正式指定或宣布某人擔任某個角色或職位」。",
-        "name-mcq-29": "「某人、家庭或機構在別人心目中的聲譽和形象」是「9. name（名聲；聲譽） — 名聲；聲譽」的用法，與本句語境不同。",
-        "name-mcq-31": "「公開說某人的壞話，令其聲譽受到嚴重損害」是「27. drag someone's name through the mud — 敗壞某人名聲」的用法，與本句語境不同。",
-        "name-mcq-28": "「表示家族身份、通常由家庭成員共享的姓名部分」是「3. family name / surname — 姓氏」的用法，與本句語境不同。",
-        "name-mcq-27": "「用來識別某個人的字詞或稱呼」是「1. name（人的名字） — 名字；姓名」的用法，與本句語境不同。",
-        "name-mcq-26": "「同名的人／物」是「namesake」的用法，與本句語境不同。"
+        "name-mcq-30": "本句的「named him as its new director」指「正式指定或宣布某人擔任某個角色或職位」。",
+        "name-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-30"
     },
@@ -1917,11 +1769,9 @@ export default {
       "masked": "The judges will ____ tomorrow.",
       "options": [
         "name-mcq-19",
-        "name-mcq-18",
-        "name-mcq-20",
-        "name-mcq-17",
-        "name-mcq-21",
-        "name-mcq-16"
+        "name-mcq-24",
+        "name-mcq-15",
+        "name-mcq-21"
       ],
       "explanation": "本句的「name the winner」指「公布／選出勝出者」。",
       "sentenceIndex": 41,
@@ -1930,12 +1780,10 @@ export default {
         "name the winner"
       ],
       "optionReasons": {
-        "name-mcq-19": "本句指「公布／選出勝出者」。",
-        "name-mcq-18": "「任命／指定為 X」是「name someone as X」的用法，與本句語境不同。",
-        "name-mcq-20": "「定出日期」是「name a date」的用法，與本句語境不同。",
-        "name-mcq-17": "「說出 X 的名稱」是「name X」的用法，與本句語境不同。",
-        "name-mcq-21": "「開價」是「name a price」的用法，與本句語境不同。",
-        "name-mcq-16": "「以 Y 命名 X」是「name X after Y」的用法，與本句語境不同。"
+        "name-mcq-19": "本句的「name the winner」指「公布／選出勝出者」。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-19"
     },
@@ -1947,11 +1795,9 @@ export default {
       "masked": "The party has not yet ____.",
       "options": [
         "name-mcq-19",
-        "name-mcq-18",
-        "name-mcq-20",
-        "name-mcq-17",
-        "name-mcq-21",
-        "name-mcq-16"
+        "name-mcq-26",
+        "name-mcq-29",
+        "name-mcq-21"
       ],
       "explanation": "本句的「named a candidate」指「公布／選出勝出者」。",
       "sentenceIndex": 42,
@@ -1960,12 +1806,10 @@ export default {
         "named a candidate"
       ],
       "optionReasons": {
-        "name-mcq-19": "本句指「公布／選出勝出者」。",
-        "name-mcq-18": "「任命／指定為 X」是「name someone as X」的用法，與本句語境不同。",
-        "name-mcq-20": "「定出日期」是「name a date」的用法，與本句語境不同。",
-        "name-mcq-17": "「說出 X 的名稱」是「name X」的用法，與本句語境不同。",
-        "name-mcq-21": "「開價」是「name a price」的用法，與本句語境不同。",
-        "name-mcq-16": "「以 Y 命名 X」是「name X after Y」的用法，與本句語境不同。"
+        "name-mcq-19": "本句的「named a candidate」指「公布／選出勝出者」。",
+        "name-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-19"
     },
@@ -1977,11 +1821,9 @@ export default {
       "masked": "They haven't ____ for the meeting.",
       "options": [
         "name-mcq-20",
-        "name-mcq-19",
+        "name-pdf-001",
         "name-mcq-21",
-        "name-mcq-18",
-        "name-mcq-22",
-        "name-mcq-17"
+        "name-mcq-05"
       ],
       "explanation": "本句的「named a date」指「定出日期」。",
       "sentenceIndex": 43,
@@ -1990,12 +1832,10 @@ export default {
         "named a date"
       ],
       "optionReasons": {
-        "name-mcq-20": "本句指「定出日期」。",
-        "name-mcq-19": "「公布／選出勝出者」是「name a winner」的用法，與本句語境不同。",
-        "name-mcq-21": "「開價」是「name a price」的用法，與本句語境不同。",
-        "name-mcq-18": "「任命／指定為 X」是「name someone as X」的用法，與本句語境不同。",
-        "name-mcq-22": "「點名」是「name names」的用法，與本句語境不同。",
-        "name-mcq-17": "「說出 X 的名稱」是「name X」的用法，與本句語境不同。"
+        "name-mcq-20": "本句的「named a date」指「定出日期」。",
+        "name-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-20"
     },
@@ -2007,11 +1847,9 @@ export default {
       "masked": "Just ____, and I'll be there.",
       "options": [
         "name-mcq-20",
-        "name-mcq-19",
-        "name-mcq-21",
-        "name-mcq-18",
-        "name-mcq-22",
-        "name-mcq-17"
+        "name-mcq-12",
+        "name-mcq-27",
+        "name-mcq-23"
       ],
       "explanation": "本句的「name the time」指「定出日期」。",
       "sentenceIndex": 44,
@@ -2020,12 +1858,10 @@ export default {
         "name the time"
       ],
       "optionReasons": {
-        "name-mcq-20": "本句指「定出日期」。",
-        "name-mcq-19": "「公布／選出勝出者」是「name a winner」的用法，與本句語境不同。",
-        "name-mcq-21": "「開價」是「name a price」的用法，與本句語境不同。",
-        "name-mcq-18": "「任命／指定為 X」是「name someone as X」的用法，與本句語境不同。",
-        "name-mcq-22": "「點名」是「name names」的用法，與本句語境不同。",
-        "name-mcq-17": "「說出 X 的名稱」是「name X」的用法，與本句語境不同。"
+        "name-mcq-20": "本句的「name the time」指「定出日期」。",
+        "name-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-20"
     },
@@ -2037,11 +1873,9 @@ export default {
       "masked": "____.",
       "options": [
         "name-mcq-21",
+        "name-mcq-13",
         "name-mcq-20",
-        "name-mcq-22",
-        "name-mcq-19",
-        "name-mcq-23",
-        "name-mcq-18"
+        "name-mcq-19"
       ],
       "explanation": "本句的「Name your price」指「開價」。",
       "sentenceIndex": 45,
@@ -2050,12 +1884,10 @@ export default {
         "Name your price"
       ],
       "optionReasons": {
-        "name-mcq-21": "本句指「開價」。",
-        "name-mcq-20": "「定出日期」是「name a date」的用法，與本句語境不同。",
-        "name-mcq-22": "「點名」是「name names」的用法，與本句語境不同。",
-        "name-mcq-19": "「公布／選出勝出者」是「name a winner」的用法，與本句語境不同。",
-        "name-mcq-23": "「點名批評」是「name and shame」的用法，與本句語境不同。",
-        "name-mcq-18": "「任命／指定為 X」是「name someone as X」的用法，與本句語境不同。"
+        "name-mcq-21": "本句的「Name your price」指「開價」。",
+        "name-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-21"
     },
@@ -2067,11 +1899,9 @@ export default {
       "masked": "He refused to ____.",
       "options": [
         "name-mcq-21",
-        "name-mcq-20",
-        "name-mcq-22",
-        "name-mcq-19",
-        "name-mcq-23",
-        "name-mcq-18"
+        "name-mcq-28",
+        "name-mcq-10",
+        "name-mcq-12"
       ],
       "explanation": "本句的「name a price」指「開價」。",
       "sentenceIndex": 46,
@@ -2080,12 +1910,10 @@ export default {
         "name a price"
       ],
       "optionReasons": {
-        "name-mcq-21": "本句指「開價」。",
-        "name-mcq-20": "「定出日期」是「name a date」的用法，與本句語境不同。",
-        "name-mcq-22": "「點名」是「name names」的用法，與本句語境不同。",
-        "name-mcq-19": "「公布／選出勝出者」是「name a winner」的用法，與本句語境不同。",
-        "name-mcq-23": "「點名批評」是「name and shame」的用法，與本句語境不同。",
-        "name-mcq-18": "「任命／指定為 X」是「name someone as X」的用法，與本句語境不同。"
+        "name-mcq-21": "本句的「name a price」指「開價」。",
+        "name-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-21"
     },
@@ -2097,9 +1925,7 @@ export default {
       "masked": "He refused to ____.",
       "options": [
         "name-mcq-22",
-        "name-mcq-21",
-        "name-mcq-23",
-        "name-mcq-20",
+        "name-mcq-27",
         "name-mcq-24",
         "name-mcq-19"
       ],
@@ -2110,12 +1936,10 @@ export default {
         "name names"
       ],
       "optionReasons": {
-        "name-mcq-22": "本句指「點名」。",
-        "name-mcq-21": "「開價」是「name a price」的用法，與本句語境不同。",
-        "name-mcq-23": "「點名批評」是「name and shame」的用法，與本句語境不同。",
-        "name-mcq-20": "「定出日期」是「name a date」的用法，與本句語境不同。",
-        "name-mcq-24": "「洗脫嫌疑」是「clear someone's name」的用法，與本句語境不同。",
-        "name-mcq-19": "「公布／選出勝出者」是「name a winner」的用法，與本句語境不同。"
+        "name-mcq-22": "本句的「name names」指「點名」。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-22"
     },
@@ -2127,11 +1951,9 @@ export default {
       "masked": "The report described the problem without ____.",
       "options": [
         "name-mcq-22",
-        "name-mcq-21",
-        "name-mcq-23",
-        "name-mcq-20",
-        "name-mcq-24",
-        "name-mcq-19"
+        "name-mcq-31",
+        "name-mcq-27",
+        "name-mcq-24"
       ],
       "explanation": "本句的「naming names」指「點名」。",
       "sentenceIndex": 48,
@@ -2140,12 +1962,10 @@ export default {
         "naming names"
       ],
       "optionReasons": {
-        "name-mcq-22": "本句指「點名」。",
-        "name-mcq-21": "「開價」是「name a price」的用法，與本句語境不同。",
-        "name-mcq-23": "「點名批評」是「name and shame」的用法，與本句語境不同。",
-        "name-mcq-20": "「定出日期」是「name a date」的用法，與本句語境不同。",
-        "name-mcq-24": "「洗脫嫌疑」是「clear someone's name」的用法，與本句語境不同。",
-        "name-mcq-19": "「公布／選出勝出者」是「name a winner」的用法，與本句語境不同。"
+        "name-mcq-22": "本句的「naming names」指「點名」。",
+        "name-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-22"
     },
@@ -2157,10 +1977,8 @@ export default {
       "masked": "The campaign plans to ____ companies that break the rules.",
       "options": [
         "name-mcq-23",
-        "name-mcq-22",
-        "name-mcq-24",
         "name-mcq-21",
-        "name-mcq-25",
+        "name-mcq-30",
         "name-mcq-20"
       ],
       "explanation": "本句的「name and shame」指「點名批評」。",
@@ -2170,12 +1988,10 @@ export default {
         "name and shame"
       ],
       "optionReasons": {
-        "name-mcq-23": "本句指「點名批評」。",
-        "name-mcq-22": "「點名」是「name names」的用法，與本句語境不同。",
-        "name-mcq-24": "「洗脫嫌疑」是「clear someone's name」的用法，與本句語境不同。",
-        "name-mcq-21": "「開價」是「name a price」的用法，與本句語境不同。",
-        "name-mcq-25": "「無名的」是「nameless」的用法，與本句語境不同。",
-        "name-mcq-20": "「定出日期」是「name a date」的用法，與本句語境不同。"
+        "name-mcq-23": "本句的「name and shame」指「點名批評」。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-23"
     },
@@ -2187,11 +2003,9 @@ export default {
       "masked": "Some newspapers regularly ____ offenders.",
       "options": [
         "name-mcq-23",
-        "name-mcq-22",
-        "name-mcq-24",
-        "name-mcq-21",
-        "name-mcq-25",
-        "name-mcq-20"
+        "name-mcq-30",
+        "name-mcq-20",
+        "name-mcq-27"
       ],
       "explanation": "本句的「name and shame」指「點名批評」。",
       "sentenceIndex": 50,
@@ -2200,12 +2014,10 @@ export default {
         "name and shame"
       ],
       "optionReasons": {
-        "name-mcq-23": "本句指「點名批評」。",
-        "name-mcq-22": "「點名」是「name names」的用法，與本句語境不同。",
-        "name-mcq-24": "「洗脫嫌疑」是「clear someone's name」的用法，與本句語境不同。",
-        "name-mcq-21": "「開價」是「name a price」的用法，與本句語境不同。",
-        "name-mcq-25": "「無名的」是「nameless」的用法，與本句語境不同。",
-        "name-mcq-20": "「定出日期」是「name a date」的用法，與本句語境不同。"
+        "name-mcq-23": "本句的「name and shame」指「點名批評」。",
+        "name-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-23"
     },
@@ -2217,11 +2029,9 @@ export default {
       "masked": "He fought to ____.",
       "options": [
         "name-mcq-24",
-        "name-mcq-23",
-        "name-mcq-25",
-        "name-mcq-22",
-        "name-mcq-26",
-        "name-mcq-21"
+        "name-mcq-31",
+        "name-mcq-19",
+        "name-mcq-20"
       ],
       "explanation": "本句的「clear his name」指「洗脫嫌疑」。",
       "sentenceIndex": 51,
@@ -2230,12 +2040,10 @@ export default {
         "clear his name"
       ],
       "optionReasons": {
-        "name-mcq-24": "本句指「洗脫嫌疑」。",
-        "name-mcq-23": "「點名批評」是「name and shame」的用法，與本句語境不同。",
-        "name-mcq-25": "「無名的」是「nameless」的用法，與本句語境不同。",
-        "name-mcq-22": "「點名」是「name names」的用法，與本句語境不同。",
-        "name-mcq-26": "「同名的人／物」是「namesake」的用法，與本句語境不同。",
-        "name-mcq-21": "「開價」是「name a price」的用法，與本句語境不同。"
+        "name-mcq-24": "本句的「clear his name」指「洗脫嫌疑」。",
+        "name-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-24"
     },
@@ -2247,11 +2055,9 @@ export default {
       "masked": "New evidence finally ____.",
       "options": [
         "name-mcq-24",
-        "name-mcq-23",
-        "name-mcq-25",
-        "name-mcq-22",
-        "name-mcq-26",
-        "name-mcq-21"
+        "name-pdf-001",
+        "name-mcq-10",
+        "name-reviewed-1cfaac3a19"
       ],
       "explanation": "本句的「cleared her name」指「洗脫嫌疑」。",
       "sentenceIndex": 52,
@@ -2260,12 +2066,10 @@ export default {
         "cleared her name"
       ],
       "optionReasons": {
-        "name-mcq-24": "本句指「洗脫嫌疑」。",
-        "name-mcq-23": "「點名批評」是「name and shame」的用法，與本句語境不同。",
-        "name-mcq-25": "「無名的」是「nameless」的用法，與本句語境不同。",
-        "name-mcq-22": "「點名」是「name names」的用法，與本句語境不同。",
-        "name-mcq-26": "「同名的人／物」是「namesake」的用法，與本句語境不同。",
-        "name-mcq-21": "「開價」是「name a price」的用法，與本句語境不同。"
+        "name-mcq-24": "本句的「cleared her name」指「洗脫嫌疑」。",
+        "name-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "name-reviewed-1cfaac3a19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-24"
     },
@@ -2277,11 +2081,9 @@ export default {
       "masked": "He accused them of ____.",
       "options": [
         "name-mcq-31",
-        "name-mcq-30",
-        "name-mcq-29",
-        "name-mcq-28",
-        "name-mcq-27",
-        "name-mcq-26"
+        "name-mcq-24",
+        "name-mcq-14",
+        "name-mcq-20"
       ],
       "explanation": "本句的「dragging his name through the mud」指「公開說某人的壞話，令其聲譽受到嚴重損害」。",
       "sentenceIndex": 53,
@@ -2290,12 +2092,10 @@ export default {
         "dragging his name through the mud"
       ],
       "optionReasons": {
-        "name-mcq-31": "本句指「公開說某人的壞話，令其聲譽受到嚴重損害」。",
-        "name-mcq-30": "「正式指定或宣布某人擔任某個角色或職位」是「20. name a person as / name someone to a position — 指定；任命」的用法，與本句語境不同。",
-        "name-mcq-29": "「某人、家庭或機構在別人心目中的聲譽和形象」是「9. name（名聲；聲譽） — 名聲；聲譽」的用法，與本句語境不同。",
-        "name-mcq-28": "「表示家族身份、通常由家庭成員共享的姓名部分」是「3. family name / surname — 姓氏」的用法，與本句語境不同。",
-        "name-mcq-27": "「用來識別某個人的字詞或稱呼」是「1. name（人的名字） — 名字；姓名」的用法，與本句語境不同。",
-        "name-mcq-26": "「同名的人／物」是「namesake」的用法，與本句語境不同。"
+        "name-mcq-31": "本句的「dragging his name through the mud」指「公開說某人的壞話，令其聲譽受到嚴重損害」。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-31"
     },
@@ -2307,11 +2107,9 @@ export default {
       "masked": "The false story ____.",
       "options": [
         "name-mcq-31",
-        "name-mcq-30",
-        "name-mcq-29",
-        "name-mcq-28",
-        "name-mcq-27",
-        "name-mcq-26"
+        "name-mcq-07",
+        "name-mcq-20",
+        "name-mcq-27"
       ],
       "explanation": "本句的「dragged her name through the mud」指「公開說某人的壞話，令其聲譽受到嚴重損害」。",
       "sentenceIndex": 54,
@@ -2320,12 +2118,10 @@ export default {
         "dragged her name through the mud"
       ],
       "optionReasons": {
-        "name-mcq-31": "本句指「公開說某人的壞話，令其聲譽受到嚴重損害」。",
-        "name-mcq-30": "「正式指定或宣布某人擔任某個角色或職位」是「20. name a person as / name someone to a position — 指定；任命」的用法，與本句語境不同。",
-        "name-mcq-29": "「某人、家庭或機構在別人心目中的聲譽和形象」是「9. name（名聲；聲譽） — 名聲；聲譽」的用法，與本句語境不同。",
-        "name-mcq-28": "「表示家族身份、通常由家庭成員共享的姓名部分」是「3. family name / surname — 姓氏」的用法，與本句語境不同。",
-        "name-mcq-27": "「用來識別某個人的字詞或稱呼」是「1. name（人的名字） — 名字；姓名」的用法，與本句語境不同。",
-        "name-mcq-26": "「同名的人／物」是「namesake」的用法，與本句語境不同。"
+        "name-mcq-31": "本句的「dragged her name through the mud」指「公開說某人的壞話，令其聲譽受到嚴重損害」。",
+        "name-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-31"
     },
@@ -2337,11 +2133,9 @@ export default {
       "masked": "A ____ soldier was buried there.",
       "options": [
         "name-mcq-25",
-        "name-mcq-24",
-        "name-mcq-26",
-        "name-mcq-23",
+        "name-mcq-31",
         "name-mcq-27",
-        "name-mcq-22"
+        "name-mcq-24"
       ],
       "explanation": "本句的「nameless」指「無名的」。",
       "sentenceIndex": 55,
@@ -2350,12 +2144,10 @@ export default {
         "nameless"
       ],
       "optionReasons": {
-        "name-mcq-25": "本句指「無名的」。",
-        "name-mcq-24": "「洗脫嫌疑」是「clear someone's name」的用法，與本句語境不同。",
-        "name-mcq-26": "「同名的人／物」是「namesake」的用法，與本句語境不同。",
-        "name-mcq-23": "「點名批評」是「name and shame」的用法，與本句語境不同。",
-        "name-mcq-27": "「用來識別某個人的字詞或稱呼」是「1. name（人的名字） — 名字；姓名」的用法，與本句語境不同。",
-        "name-mcq-22": "「點名」是「name names」的用法，與本句語境不同。"
+        "name-mcq-25": "本句的「nameless」指「無名的」。",
+        "name-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-25"
     },
@@ -2368,10 +2160,8 @@ export default {
       "options": [
         "name-mcq-25",
         "name-mcq-24",
-        "name-mcq-26",
-        "name-mcq-23",
-        "name-mcq-27",
-        "name-mcq-22"
+        "name-mcq-19",
+        "name-mcq-20"
       ],
       "explanation": "本句的「nameless fear」指「無名的」。",
       "sentenceIndex": 56,
@@ -2380,12 +2170,10 @@ export default {
         "nameless fear"
       ],
       "optionReasons": {
-        "name-mcq-25": "本句指「無名的」。",
-        "name-mcq-24": "「洗脫嫌疑」是「clear someone's name」的用法，與本句語境不同。",
-        "name-mcq-26": "「同名的人／物」是「namesake」的用法，與本句語境不同。",
-        "name-mcq-23": "「點名批評」是「name and shame」的用法，與本句語境不同。",
-        "name-mcq-27": "「用來識別某個人的字詞或稱呼」是「1. name（人的名字） — 名字；姓名」的用法，與本句語境不同。",
-        "name-mcq-22": "「點名」是「name names」的用法，與本句語境不同。"
+        "name-mcq-25": "本句的「nameless fear」指「無名的」。",
+        "name-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-25"
     },
@@ -2397,11 +2185,9 @@ export default {
       "masked": "He was named after his grandfather and is his ____.",
       "options": [
         "name-mcq-26",
-        "name-mcq-25",
         "name-mcq-27",
-        "name-mcq-24",
-        "name-mcq-28",
-        "name-mcq-23"
+        "name-mcq-20",
+        "name-mcq-31"
       ],
       "explanation": "本句的「namesake」指「同名的人／物」。",
       "sentenceIndex": 57,
@@ -2410,12 +2196,10 @@ export default {
         "namesake"
       ],
       "optionReasons": {
-        "name-mcq-26": "本句指「同名的人／物」。",
-        "name-mcq-25": "「無名的」是「nameless」的用法，與本句語境不同。",
-        "name-mcq-27": "「用來識別某個人的字詞或稱呼」是「1. name（人的名字） — 名字；姓名」的用法，與本句語境不同。",
-        "name-mcq-24": "「洗脫嫌疑」是「clear someone's name」的用法，與本句語境不同。",
-        "name-mcq-28": "「表示家族身份、通常由家庭成員共享的姓名部分」是「3. family name / surname — 姓氏」的用法，與本句語境不同。",
-        "name-mcq-23": "「點名批評」是「name and shame」的用法，與本句語境不同。"
+        "name-mcq-26": "本句的「namesake」指「同名的人／物」。",
+        "name-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-26"
     },
@@ -2427,11 +2211,9 @@ export default {
       "masked": "The town and its ____ share the same name.",
       "options": [
         "name-mcq-26",
-        "name-mcq-25",
-        "name-mcq-27",
-        "name-mcq-24",
-        "name-mcq-28",
-        "name-mcq-23"
+        "name-mcq-20",
+        "name-mcq-21",
+        "name-mcq-19"
       ],
       "explanation": "本句的「namesake river」指「同名的人／物」。",
       "sentenceIndex": 58,
@@ -2440,12 +2222,10 @@ export default {
         "namesake river"
       ],
       "optionReasons": {
-        "name-mcq-26": "本句指「同名的人／物」。",
-        "name-mcq-25": "「無名的」是「nameless」的用法，與本句語境不同。",
-        "name-mcq-27": "「用來識別某個人的字詞或稱呼」是「1. name（人的名字） — 名字；姓名」的用法，與本句語境不同。",
-        "name-mcq-24": "「洗脫嫌疑」是「clear someone's name」的用法，與本句語境不同。",
-        "name-mcq-28": "「表示家族身份、通常由家庭成員共享的姓名部分」是「3. family name / surname — 姓氏」的用法，與本句語境不同。",
-        "name-mcq-23": "「點名批評」是「name and shame」的用法，與本句語境不同。"
+        "name-mcq-26": "本句的「namesake river」指「同名的人／物」。",
+        "name-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "name-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "name-mcq-26"
     }
@@ -2457,5 +2237,7 @@ export default {
     "sha256": "bfe41d3e411ea5084e59e5478d93d99b3ec7a0adc913e226974c78dd79508fd2",
     "pages": 22
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

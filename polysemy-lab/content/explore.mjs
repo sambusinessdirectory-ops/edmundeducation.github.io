@@ -435,7 +435,7 @@ export default {
     },
     {
       "id": "explore-mcq-22",
-      "title": "表示探索；進一步接觸；深入了解",
+      "title": "探索；進一步接觸；深入了解",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示探索；進一步接觸；深入了解",
@@ -457,7 +457,7 @@ export default {
     },
     {
       "id": "explore-mcq-23",
-      "title": "表示探查；手術探查",
+      "title": "探查；手術探查",
       "form": "11. explore — examine internally during surgery",
       "en": "11. explore — examine internally during surgery",
       "zh": "表示探查；手術探查",
@@ -487,11 +487,9 @@ export default {
       "masked": "The book made me want to ____ more philosophical fiction.",
       "options": [
         "explore-mcq-22",
-        "explore-mcq-21",
+        "explore-mcq-11",
         "explore-mcq-23",
-        "explore-mcq-20",
-        "explore-mcq-19",
-        "explore-mcq-18"
+        "explore-mcq-08"
       ],
       "explanation": "本句的「explore」指「表示探索；進一步接觸；深入了解」。",
       "sentenceIndex": 0,
@@ -500,12 +498,10 @@ export default {
         "explore"
       ],
       "optionReasons": {
-        "explore-mcq-22": "本句指「表示探索；進一步接觸；深入了解」。",
-        "explore-mcq-21": "「開拓新的領域、方法或創作方向」是「explore new territory — figurative」的用法，與本句語境不同。",
-        "explore-mcq-23": "「表示探查；手術探查」是「11. explore — examine internally during surgery」的用法，與本句語境不同。",
-        "explore-mcq-20": "「探索新的地區」是「explore new territory — literal」的用法，與本句語境不同。",
-        "explore-mcq-19": "「研究／考慮某件事是否可行」是「explore the possibility of」的用法，與本句語境不同。",
-        "explore-mcq-18": "「對某事作更深入的研究或探討」是「explore further」的用法，與本句語境不同。"
+        "explore-mcq-22": "本句的「explore」指「表示探索；進一步接觸；深入了解」。",
+        "explore-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-22"
     },
@@ -517,11 +513,9 @@ export default {
       "masked": "She started to ____ other writers in the same genre.",
       "options": [
         "explore-mcq-22",
-        "explore-mcq-21",
+        "explore-mcq-06",
         "explore-mcq-23",
-        "explore-mcq-20",
-        "explore-mcq-19",
-        "explore-mcq-18"
+        "explore-mcq-08"
       ],
       "explanation": "本句的「explore」指「表示探索；進一步接觸；深入了解」。",
       "sentenceIndex": 1,
@@ -530,12 +524,10 @@ export default {
         "explore"
       ],
       "optionReasons": {
-        "explore-mcq-22": "本句指「表示探索；進一步接觸；深入了解」。",
-        "explore-mcq-21": "「開拓新的領域、方法或創作方向」是「explore new territory — figurative」的用法，與本句語境不同。",
-        "explore-mcq-23": "「表示探查；手術探查」是「11. explore — examine internally during surgery」的用法，與本句語境不同。",
-        "explore-mcq-20": "「探索新的地區」是「explore new territory — literal」的用法，與本句語境不同。",
-        "explore-mcq-19": "「研究／考慮某件事是否可行」是「explore the possibility of」的用法，與本句語境不同。",
-        "explore-mcq-18": "「對某事作更深入的研究或探討」是「explore further」的用法，與本句語境不同。"
+        "explore-mcq-22": "本句的「explore」指「表示探索；進一步接觸；深入了解」。",
+        "explore-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-22"
     },
@@ -547,11 +539,8 @@ export default {
       "masked": "We spent the afternoon ____.",
       "options": [
         "explore-mcq-01",
-        "explore-mcq-02",
-        "explore-mcq-03",
-        "explore-mcq-04",
-        "explore-mcq-05",
-        "explore-mcq-06"
+        "explore-mcq-09",
+        "explore-mcq-03"
       ],
       "explanation": "本句的「exploring the old town」指「走訪、調查陌生地方以了解其中情況；探索／探險」。",
       "sentenceIndex": 2,
@@ -560,12 +549,9 @@ export default {
         "exploring the old town"
       ],
       "optionReasons": {
-        "explore-mcq-01": "本句指「走訪、調查陌生地方以了解其中情況；探索／探險」。",
-        "explore-mcq-02": "「對未知或少人了解的地方進行探索」是「explore — unknown area」的用法，與本句語境不同。",
-        "explore-mcq-03": "「對主題、問題或概念進行深入探討」是「explore — subject」的用法，與本句語境不同。",
-        "explore-mcq-04": "「從不同角度研究或討論某議題／主題」是「explore an issue/question/theme」的用法，與本句語境不同。",
-        "explore-mcq-05": "「研究、考慮不同選項或可能性」是「explore options/possibilities」的用法，與本句語境不同。",
-        "explore-mcq-06": "「尋找並研究其他可行方案」是「explore alternatives」的用法，與本句語境不同。"
+        "explore-mcq-01": "本句的「exploring the old town」指「走訪、調查陌生地方以了解其中情況；探索／探險」。",
+        "explore-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-01"
     },
@@ -577,11 +563,8 @@ export default {
       "masked": "They ____ on foot.",
       "options": [
         "explore-mcq-01",
-        "explore-mcq-02",
-        "explore-mcq-03",
-        "explore-mcq-04",
         "explore-mcq-05",
-        "explore-mcq-06"
+        "explore-mcq-03"
       ],
       "explanation": "本句的「explored the island」指「走訪、調查陌生地方以了解其中情況；探索／探險」。",
       "sentenceIndex": 3,
@@ -590,12 +573,9 @@ export default {
         "explored the island"
       ],
       "optionReasons": {
-        "explore-mcq-01": "本句指「走訪、調查陌生地方以了解其中情況；探索／探險」。",
-        "explore-mcq-02": "「對未知或少人了解的地方進行探索」是「explore — unknown area」的用法，與本句語境不同。",
-        "explore-mcq-03": "「對主題、問題或概念進行深入探討」是「explore — subject」的用法，與本句語境不同。",
-        "explore-mcq-04": "「從不同角度研究或討論某議題／主題」是「explore an issue/question/theme」的用法，與本句語境不同。",
-        "explore-mcq-05": "「研究、考慮不同選項或可能性」是「explore options/possibilities」的用法，與本句語境不同。",
-        "explore-mcq-06": "「尋找並研究其他可行方案」是「explore alternatives」的用法，與本句語境不同。"
+        "explore-mcq-01": "本句的「explored the island」指「走訪、調查陌生地方以了解其中情況；探索／探險」。",
+        "explore-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-01"
     },
@@ -607,11 +587,9 @@ export default {
       "masked": "Early sailors ____.",
       "options": [
         "explore-mcq-02",
-        "explore-mcq-01",
-        "explore-mcq-03",
         "explore-mcq-04",
-        "explore-mcq-05",
-        "explore-mcq-06"
+        "explore-mcq-23",
+        "explore-mcq-08"
       ],
       "explanation": "本句的「explored unknown coastlines」指「對未知或少人了解的地方進行探索」。",
       "sentenceIndex": 4,
@@ -620,12 +598,10 @@ export default {
         "explored unknown coastlines"
       ],
       "optionReasons": {
-        "explore-mcq-02": "本句指「對未知或少人了解的地方進行探索」。",
-        "explore-mcq-01": "「走訪、調查陌生地方以了解其中情況；探索／探險」是「explore — place」的用法，與本句語境不同。",
-        "explore-mcq-03": "「對主題、問題或概念進行深入探討」是「explore — subject」的用法，與本句語境不同。",
-        "explore-mcq-04": "「從不同角度研究或討論某議題／主題」是「explore an issue/question/theme」的用法，與本句語境不同。",
-        "explore-mcq-05": "「研究、考慮不同選項或可能性」是「explore options/possibilities」的用法，與本句語境不同。",
-        "explore-mcq-06": "「尋找並研究其他可行方案」是「explore alternatives」的用法，與本句語境不同。"
+        "explore-mcq-02": "本句的「explored unknown coastlines」指「對未知或少人了解的地方進行探索」。",
+        "explore-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-02"
     },
@@ -637,11 +613,9 @@ export default {
       "masked": "Scientists continue to ____.",
       "options": [
         "explore-mcq-02",
-        "explore-mcq-01",
-        "explore-mcq-03",
-        "explore-mcq-04",
         "explore-mcq-05",
-        "explore-mcq-06"
+        "explore-mcq-23",
+        "explore-mcq-08"
       ],
       "explanation": "本句的「explore the deep ocean」指「對未知或少人了解的地方進行探索」。",
       "sentenceIndex": 5,
@@ -650,12 +624,10 @@ export default {
         "explore the deep ocean"
       ],
       "optionReasons": {
-        "explore-mcq-02": "本句指「對未知或少人了解的地方進行探索」。",
-        "explore-mcq-01": "「走訪、調查陌生地方以了解其中情況；探索／探險」是「explore — place」的用法，與本句語境不同。",
-        "explore-mcq-03": "「對主題、問題或概念進行深入探討」是「explore — subject」的用法，與本句語境不同。",
-        "explore-mcq-04": "「從不同角度研究或討論某議題／主題」是「explore an issue/question/theme」的用法，與本句語境不同。",
-        "explore-mcq-05": "「研究、考慮不同選項或可能性」是「explore options/possibilities」的用法，與本句語境不同。",
-        "explore-mcq-06": "「尋找並研究其他可行方案」是「explore alternatives」的用法，與本句語境不同。"
+        "explore-mcq-02": "本句的「explore the deep ocean」指「對未知或少人了解的地方進行探索」。",
+        "explore-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-02"
     },
@@ -667,11 +639,9 @@ export default {
       "masked": "The book ____.",
       "options": [
         "explore-mcq-03",
-        "explore-mcq-02",
-        "explore-mcq-04",
-        "explore-mcq-01",
-        "explore-mcq-05",
-        "explore-mcq-06"
+        "explore-mcq-11",
+        "explore-mcq-23",
+        "explore-mcq-20"
       ],
       "explanation": "本句的「explores the meaning of regret」指「對主題、問題或概念進行深入探討」。",
       "sentenceIndex": 6,
@@ -680,12 +650,10 @@ export default {
         "explores the meaning of regret"
       ],
       "optionReasons": {
-        "explore-mcq-03": "本句指「對主題、問題或概念進行深入探討」。",
-        "explore-mcq-02": "「對未知或少人了解的地方進行探索」是「explore — unknown area」的用法，與本句語境不同。",
-        "explore-mcq-04": "「從不同角度研究或討論某議題／主題」是「explore an issue/question/theme」的用法，與本句語境不同。",
-        "explore-mcq-01": "「走訪、調查陌生地方以了解其中情況；探索／探險」是「explore — place」的用法，與本句語境不同。",
-        "explore-mcq-05": "「研究、考慮不同選項或可能性」是「explore options/possibilities」的用法，與本句語境不同。",
-        "explore-mcq-06": "「尋找並研究其他可行方案」是「explore alternatives」的用法，與本句語境不同。"
+        "explore-mcq-03": "本句的「explores the meaning of regret」指「對主題、問題或概念進行深入探討」。",
+        "explore-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-03"
     },
@@ -697,11 +665,9 @@ export default {
       "masked": "The course ____.",
       "options": [
         "explore-mcq-03",
-        "explore-mcq-02",
-        "explore-mcq-04",
-        "explore-mcq-01",
-        "explore-mcq-05",
-        "explore-mcq-06"
+        "explore-mcq-11",
+        "explore-mcq-23",
+        "explore-mcq-15"
       ],
       "explanation": "本句的「explores questions of identity」指「對主題、問題或概念進行深入探討」。",
       "sentenceIndex": 7,
@@ -710,12 +676,10 @@ export default {
         "explores questions of identity"
       ],
       "optionReasons": {
-        "explore-mcq-03": "本句指「對主題、問題或概念進行深入探討」。",
-        "explore-mcq-02": "「對未知或少人了解的地方進行探索」是「explore — unknown area」的用法，與本句語境不同。",
-        "explore-mcq-04": "「從不同角度研究或討論某議題／主題」是「explore an issue/question/theme」的用法，與本句語境不同。",
-        "explore-mcq-01": "「走訪、調查陌生地方以了解其中情況；探索／探險」是「explore — place」的用法，與本句語境不同。",
-        "explore-mcq-05": "「研究、考慮不同選項或可能性」是「explore options/possibilities」的用法，與本句語境不同。",
-        "explore-mcq-06": "「尋找並研究其他可行方案」是「explore alternatives」的用法，與本句語境不同。"
+        "explore-mcq-03": "本句的「explores questions of identity」指「對主題、問題或概念進行深入探討」。",
+        "explore-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-03"
     },
@@ -727,11 +691,8 @@ export default {
       "masked": "The film ____.",
       "options": [
         "explore-mcq-04",
-        "explore-mcq-03",
-        "explore-mcq-05",
-        "explore-mcq-02",
-        "explore-mcq-06",
-        "explore-mcq-01"
+        "explore-mcq-01",
+        "explore-mcq-08"
       ],
       "explanation": "本句的「explores the theme of loss」指「從不同角度研究或討論某議題／主題」。",
       "sentenceIndex": 8,
@@ -740,12 +701,9 @@ export default {
         "explores the theme of loss"
       ],
       "optionReasons": {
-        "explore-mcq-04": "本句指「從不同角度研究或討論某議題／主題」。",
-        "explore-mcq-03": "「對主題、問題或概念進行深入探討」是「explore — subject」的用法，與本句語境不同。",
-        "explore-mcq-05": "「研究、考慮不同選項或可能性」是「explore options/possibilities」的用法，與本句語境不同。",
-        "explore-mcq-02": "「對未知或少人了解的地方進行探索」是「explore — unknown area」的用法，與本句語境不同。",
-        "explore-mcq-06": "「尋找並研究其他可行方案」是「explore alternatives」的用法，與本句語境不同。",
-        "explore-mcq-01": "「走訪、調查陌生地方以了解其中情況；探索／探險」是「explore — place」的用法，與本句語境不同。"
+        "explore-mcq-04": "本句的「explores the theme of loss」指「從不同角度研究或討論某議題／主題」。",
+        "explore-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-04"
     },
@@ -757,11 +715,9 @@ export default {
       "masked": "The article ____.",
       "options": [
         "explore-mcq-04",
-        "explore-mcq-03",
-        "explore-mcq-05",
         "explore-mcq-02",
-        "explore-mcq-06",
-        "explore-mcq-01"
+        "explore-mcq-23",
+        "explore-mcq-08"
       ],
       "explanation": "本句的「explores several ethical questions」指「從不同角度研究或討論某議題／主題」。",
       "sentenceIndex": 9,
@@ -770,12 +726,10 @@ export default {
         "explores several ethical questions"
       ],
       "optionReasons": {
-        "explore-mcq-04": "本句指「從不同角度研究或討論某議題／主題」。",
-        "explore-mcq-03": "「對主題、問題或概念進行深入探討」是「explore — subject」的用法，與本句語境不同。",
-        "explore-mcq-05": "「研究、考慮不同選項或可能性」是「explore options/possibilities」的用法，與本句語境不同。",
-        "explore-mcq-02": "「對未知或少人了解的地方進行探索」是「explore — unknown area」的用法，與本句語境不同。",
-        "explore-mcq-06": "「尋找並研究其他可行方案」是「explore alternatives」的用法，與本句語境不同。",
-        "explore-mcq-01": "「走訪、調查陌生地方以了解其中情況；探索／探險」是「explore — place」的用法，與本句語境不同。"
+        "explore-mcq-04": "本句的「explores several ethical questions」指「從不同角度研究或討論某議題／主題」。",
+        "explore-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-04"
     },
@@ -787,11 +741,8 @@ export default {
       "masked": "We are ____.",
       "options": [
         "explore-mcq-05",
-        "explore-mcq-04",
-        "explore-mcq-06",
-        "explore-mcq-03",
-        "explore-mcq-07",
-        "explore-mcq-02"
+        "explore-mcq-01",
+        "explore-mcq-08"
       ],
       "explanation": "本句的「exploring several options」指「研究、考慮不同選項或可能性」。",
       "sentenceIndex": 10,
@@ -800,12 +751,9 @@ export default {
         "exploring several options"
       ],
       "optionReasons": {
-        "explore-mcq-05": "本句指「研究、考慮不同選項或可能性」。",
-        "explore-mcq-04": "「從不同角度研究或討論某議題／主題」是「explore an issue/question/theme」的用法，與本句語境不同。",
-        "explore-mcq-06": "「尋找並研究其他可行方案」是「explore alternatives」的用法，與本句語境不同。",
-        "explore-mcq-03": "「對主題、問題或概念進行深入探討」是「explore — subject」的用法，與本句語境不同。",
-        "explore-mcq-07": "「透過接觸、嘗試而深入了解某領域」是「explore — experience/discover more」的用法，與本句語境不同。",
-        "explore-mcq-02": "「對未知或少人了解的地方進行探索」是「explore — unknown area」的用法，與本句語境不同。"
+        "explore-mcq-05": "本句的「exploring several options」指「研究、考慮不同選項或可能性」。",
+        "explore-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-05"
     },
@@ -817,11 +765,9 @@ export default {
       "masked": "She wanted to ____ of studying abroad.",
       "options": [
         "explore-mcq-05",
-        "explore-mcq-04",
-        "explore-mcq-06",
-        "explore-mcq-03",
-        "explore-mcq-07",
-        "explore-mcq-02"
+        "explore-mcq-08",
+        "explore-mcq-15",
+        "explore-mcq-23"
       ],
       "explanation": "本句的「explore the possibility」指「研究、考慮不同選項或可能性」。",
       "sentenceIndex": 11,
@@ -830,12 +776,10 @@ export default {
         "explore the possibility"
       ],
       "optionReasons": {
-        "explore-mcq-05": "本句指「研究、考慮不同選項或可能性」。",
-        "explore-mcq-04": "「從不同角度研究或討論某議題／主題」是「explore an issue/question/theme」的用法，與本句語境不同。",
-        "explore-mcq-06": "「尋找並研究其他可行方案」是「explore alternatives」的用法，與本句語境不同。",
-        "explore-mcq-03": "「對主題、問題或概念進行深入探討」是「explore — subject」的用法，與本句語境不同。",
-        "explore-mcq-07": "「透過接觸、嘗試而深入了解某領域」是「explore — experience/discover more」的用法，與本句語境不同。",
-        "explore-mcq-02": "「對未知或少人了解的地方進行探索」是「explore — unknown area」的用法，與本句語境不同。"
+        "explore-mcq-05": "本句的「explore the possibility」指「研究、考慮不同選項或可能性」。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-05"
     },
@@ -847,11 +791,9 @@ export default {
       "masked": "The team is ____.",
       "options": [
         "explore-mcq-06",
-        "explore-mcq-05",
-        "explore-mcq-07",
-        "explore-mcq-04",
-        "explore-mcq-08",
-        "explore-mcq-03"
+        "explore-mcq-23",
+        "explore-mcq-20",
+        "explore-mcq-07"
       ],
       "explanation": "本句的「exploring alternatives」指「尋找並研究其他可行方案」。",
       "sentenceIndex": 12,
@@ -860,12 +802,10 @@ export default {
         "exploring alternatives"
       ],
       "optionReasons": {
-        "explore-mcq-06": "本句指「尋找並研究其他可行方案」。",
-        "explore-mcq-05": "「研究、考慮不同選項或可能性」是「explore options/possibilities」的用法，與本句語境不同。",
-        "explore-mcq-07": "「透過接觸、嘗試而深入了解某領域」是「explore — experience/discover more」的用法，與本句語境不同。",
-        "explore-mcq-04": "「從不同角度研究或討論某議題／主題」是「explore an issue/question/theme」的用法，與本句語境不同。",
-        "explore-mcq-08": "「在作品中探討某種思想、情感或經驗」是「explore — literary/artistic」的用法，與本句語境不同。",
-        "explore-mcq-03": "「對主題、問題或概念進行深入探討」是「explore — subject」的用法，與本句語境不同。"
+        "explore-mcq-06": "本句的「exploring alternatives」指「尋找並研究其他可行方案」。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-06"
     },
@@ -877,11 +817,9 @@ export default {
       "masked": "We should ____ of solving the problem.",
       "options": [
         "explore-mcq-06",
-        "explore-mcq-05",
+        "explore-mcq-20",
         "explore-mcq-07",
-        "explore-mcq-04",
-        "explore-mcq-08",
-        "explore-mcq-03"
+        "explore-mcq-08"
       ],
       "explanation": "本句的「explore other ways」指「尋找並研究其他可行方案」。",
       "sentenceIndex": 13,
@@ -890,12 +828,10 @@ export default {
         "explore other ways"
       ],
       "optionReasons": {
-        "explore-mcq-06": "本句指「尋找並研究其他可行方案」。",
-        "explore-mcq-05": "「研究、考慮不同選項或可能性」是「explore options/possibilities」的用法，與本句語境不同。",
-        "explore-mcq-07": "「透過接觸、嘗試而深入了解某領域」是「explore — experience/discover more」的用法，與本句語境不同。",
-        "explore-mcq-04": "「從不同角度研究或討論某議題／主題」是「explore an issue/question/theme」的用法，與本句語境不同。",
-        "explore-mcq-08": "「在作品中探討某種思想、情感或經驗」是「explore — literary/artistic」的用法，與本句語境不同。",
-        "explore-mcq-03": "「對主題、問題或概念進行深入探討」是「explore — subject」的用法，與本句語境不同。"
+        "explore-mcq-06": "本句的「explore other ways」指「尋找並研究其他可行方案」。",
+        "explore-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-06"
     },
@@ -907,11 +843,9 @@ export default {
       "masked": "I want to ____.",
       "options": [
         "explore-mcq-07",
-        "explore-mcq-06",
-        "explore-mcq-08",
-        "explore-mcq-05",
-        "explore-mcq-09",
-        "explore-mcq-04"
+        "explore-mcq-20",
+        "explore-mcq-11",
+        "explore-mcq-08"
       ],
       "explanation": "本句的「explore more contemporary fiction」指「透過接觸、嘗試而深入了解某領域」。",
       "sentenceIndex": 14,
@@ -920,12 +854,10 @@ export default {
         "explore more contemporary fiction"
       ],
       "optionReasons": {
-        "explore-mcq-07": "本句指「透過接觸、嘗試而深入了解某領域」。",
-        "explore-mcq-06": "「尋找並研究其他可行方案」是「explore alternatives」的用法，與本句語境不同。",
-        "explore-mcq-08": "「在作品中探討某種思想、情感或經驗」是「explore — literary/artistic」的用法，與本句語境不同。",
-        "explore-mcq-05": "「研究、考慮不同選項或可能性」是「explore options/possibilities」的用法，與本句語境不同。",
-        "explore-mcq-09": "「為取得更多知識而研究某現象／方法」是「explore — scientific」的用法，與本句語境不同。",
-        "explore-mcq-04": "「從不同角度研究或討論某議題／主題」是「explore an issue/question/theme」的用法，與本句語境不同。"
+        "explore-mcq-07": "本句的「explore more contemporary fiction」指「透過接觸、嘗試而深入了解某領域」。",
+        "explore-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-07"
     },
@@ -937,10 +869,8 @@ export default {
       "masked": "She began ____.",
       "options": [
         "explore-mcq-07",
-        "explore-mcq-06",
+        "explore-mcq-16",
         "explore-mcq-08",
-        "explore-mcq-05",
-        "explore-mcq-09",
         "explore-mcq-04"
       ],
       "explanation": "本句的「exploring different styles of music」指「透過接觸、嘗試而深入了解某領域」。",
@@ -950,12 +880,10 @@ export default {
         "exploring different styles of music"
       ],
       "optionReasons": {
-        "explore-mcq-07": "本句指「透過接觸、嘗試而深入了解某領域」。",
-        "explore-mcq-06": "「尋找並研究其他可行方案」是「explore alternatives」的用法，與本句語境不同。",
-        "explore-mcq-08": "「在作品中探討某種思想、情感或經驗」是「explore — literary/artistic」的用法，與本句語境不同。",
-        "explore-mcq-05": "「研究、考慮不同選項或可能性」是「explore options/possibilities」的用法，與本句語境不同。",
-        "explore-mcq-09": "「為取得更多知識而研究某現象／方法」是「explore — scientific」的用法，與本句語境不同。",
-        "explore-mcq-04": "「從不同角度研究或討論某議題／主題」是「explore an issue/question/theme」的用法，與本句語境不同。"
+        "explore-mcq-07": "本句的「exploring different styles of music」指「透過接觸、嘗試而深入了解某領域」。",
+        "explore-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-07"
     },
@@ -968,10 +896,8 @@ export default {
       "options": [
         "explore-mcq-08",
         "explore-mcq-07",
-        "explore-mcq-09",
         "explore-mcq-06",
-        "explore-mcq-10",
-        "explore-mcq-05"
+        "explore-mcq-16"
       ],
       "explanation": "本句的「explores grief and memory」指「在作品中探討某種思想、情感或經驗」。",
       "sentenceIndex": 16,
@@ -980,12 +906,10 @@ export default {
         "explores grief and memory"
       ],
       "optionReasons": {
-        "explore-mcq-08": "本句指「在作品中探討某種思想、情感或經驗」。",
-        "explore-mcq-07": "「透過接觸、嘗試而深入了解某領域」是「explore — experience/discover more」的用法，與本句語境不同。",
-        "explore-mcq-09": "「為取得更多知識而研究某現象／方法」是「explore — scientific」的用法，與本句語境不同。",
-        "explore-mcq-06": "「尋找並研究其他可行方案」是「explore alternatives」的用法，與本句語境不同。",
-        "explore-mcq-10": "「在手術等情境中探查身體某部位」是「explore — medical」的用法，與本句語境不同。",
-        "explore-mcq-05": "「研究、考慮不同選項或可能性」是「explore options/possibilities」的用法，與本句語境不同。"
+        "explore-mcq-08": "本句的「explores grief and memory」指「在作品中探討某種思想、情感或經驗」。",
+        "explore-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-08"
     },
@@ -997,11 +921,9 @@ export default {
       "masked": "The artist ____ in her work.",
       "options": [
         "explore-mcq-08",
+        "explore-mcq-11",
         "explore-mcq-07",
-        "explore-mcq-09",
-        "explore-mcq-06",
-        "explore-mcq-10",
-        "explore-mcq-05"
+        "explore-mcq-15"
       ],
       "explanation": "本句的「explores ideas of identity」指「在作品中探討某種思想、情感或經驗」。",
       "sentenceIndex": 17,
@@ -1010,12 +932,10 @@ export default {
         "explores ideas of identity"
       ],
       "optionReasons": {
-        "explore-mcq-08": "本句指「在作品中探討某種思想、情感或經驗」。",
-        "explore-mcq-07": "「透過接觸、嘗試而深入了解某領域」是「explore — experience/discover more」的用法，與本句語境不同。",
-        "explore-mcq-09": "「為取得更多知識而研究某現象／方法」是「explore — scientific」的用法，與本句語境不同。",
-        "explore-mcq-06": "「尋找並研究其他可行方案」是「explore alternatives」的用法，與本句語境不同。",
-        "explore-mcq-10": "「在手術等情境中探查身體某部位」是「explore — medical」的用法，與本句語境不同。",
-        "explore-mcq-05": "「研究、考慮不同選項或可能性」是「explore options/possibilities」的用法，與本句語境不同。"
+        "explore-mcq-08": "本句的「explores ideas of identity」指「在作品中探討某種思想、情感或經驗」。",
+        "explore-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-08"
     },
@@ -1027,11 +947,8 @@ export default {
       "masked": "Researchers are ____.",
       "options": [
         "explore-mcq-09",
-        "explore-mcq-08",
-        "explore-mcq-10",
-        "explore-mcq-07",
-        "explore-mcq-11",
-        "explore-mcq-06"
+        "explore-mcq-01",
+        "explore-mcq-08"
       ],
       "explanation": "本句的「exploring new treatments」指「為取得更多知識而研究某現象／方法」。",
       "sentenceIndex": 18,
@@ -1040,12 +957,9 @@ export default {
         "exploring new treatments"
       ],
       "optionReasons": {
-        "explore-mcq-09": "本句指「為取得更多知識而研究某現象／方法」。",
-        "explore-mcq-08": "「在作品中探討某種思想、情感或經驗」是「explore — literary/artistic」的用法，與本句語境不同。",
-        "explore-mcq-10": "「在手術等情境中探查身體某部位」是「explore — medical」的用法，與本句語境不同。",
-        "explore-mcq-07": "「透過接觸、嘗試而深入了解某領域」是「explore — experience/discover more」的用法，與本句語境不同。",
-        "explore-mcq-11": "「瀏覽、查看並研究資料、功能或內容」是「explore — data/software」的用法，與本句語境不同。",
-        "explore-mcq-06": "「尋找並研究其他可行方案」是「explore alternatives」的用法，與本句語境不同。"
+        "explore-mcq-09": "本句的「exploring new treatments」指「為取得更多知識而研究某現象／方法」。",
+        "explore-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-09"
     },
@@ -1057,11 +971,8 @@ export default {
       "masked": "The study ____ between sleep and memory.",
       "options": [
         "explore-mcq-09",
-        "explore-mcq-08",
-        "explore-mcq-10",
-        "explore-mcq-07",
-        "explore-mcq-11",
-        "explore-mcq-06"
+        "explore-mcq-01",
+        "explore-mcq-08"
       ],
       "explanation": "本句的「explores the relationship」指「為取得更多知識而研究某現象／方法」。",
       "sentenceIndex": 19,
@@ -1070,12 +981,9 @@ export default {
         "explores the relationship"
       ],
       "optionReasons": {
-        "explore-mcq-09": "本句指「為取得更多知識而研究某現象／方法」。",
-        "explore-mcq-08": "「在作品中探討某種思想、情感或經驗」是「explore — literary/artistic」的用法，與本句語境不同。",
-        "explore-mcq-10": "「在手術等情境中探查身體某部位」是「explore — medical」的用法，與本句語境不同。",
-        "explore-mcq-07": "「透過接觸、嘗試而深入了解某領域」是「explore — experience/discover more」的用法，與本句語境不同。",
-        "explore-mcq-11": "「瀏覽、查看並研究資料、功能或內容」是「explore — data/software」的用法，與本句語境不同。",
-        "explore-mcq-06": "「尋找並研究其他可行方案」是「explore alternatives」的用法，與本句語境不同。"
+        "explore-mcq-09": "本句的「explores the relationship」指「為取得更多知識而研究某現象／方法」。",
+        "explore-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-09"
     },
@@ -1087,11 +995,9 @@ export default {
       "masked": "Surgeons ____ for further damage.",
       "options": [
         "explore-mcq-23",
-        "explore-mcq-22",
-        "explore-mcq-21",
-        "explore-mcq-20",
         "explore-mcq-19",
-        "explore-mcq-18"
+        "explore-mcq-07",
+        "explore-mcq-15"
       ],
       "explanation": "本句的「explored the wound」指「表示探查；手術探查」。",
       "sentenceIndex": 20,
@@ -1100,12 +1006,10 @@ export default {
         "explored the wound"
       ],
       "optionReasons": {
-        "explore-mcq-23": "本句指「表示探查；手術探查」。",
-        "explore-mcq-22": "「表示探索；進一步接觸；深入了解」是「Passage meaning」的用法，與本句語境不同。",
-        "explore-mcq-21": "「開拓新的領域、方法或創作方向」是「explore new territory — figurative」的用法，與本句語境不同。",
-        "explore-mcq-20": "「探索新的地區」是「explore new territory — literal」的用法，與本句語境不同。",
-        "explore-mcq-19": "「研究／考慮某件事是否可行」是「explore the possibility of」的用法，與本句語境不同。",
-        "explore-mcq-18": "「對某事作更深入的研究或探討」是「explore further」的用法，與本句語境不同。"
+        "explore-mcq-23": "本句的「explored the wound」指「表示探查；手術探查」。",
+        "explore-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-23"
     },
@@ -1117,11 +1021,9 @@ export default {
       "masked": "An operation was performed to ____.",
       "options": [
         "explore-mcq-23",
-        "explore-mcq-22",
-        "explore-mcq-21",
-        "explore-mcq-20",
-        "explore-mcq-19",
-        "explore-mcq-18"
+        "explore-mcq-05",
+        "explore-mcq-07",
+        "explore-mcq-15"
       ],
       "explanation": "本句的「explore the abdomen」指「表示探查；手術探查」。",
       "sentenceIndex": 21,
@@ -1130,12 +1032,10 @@ export default {
         "explore the abdomen"
       ],
       "optionReasons": {
-        "explore-mcq-23": "本句指「表示探查；手術探查」。",
-        "explore-mcq-22": "「表示探索；進一步接觸；深入了解」是「Passage meaning」的用法，與本句語境不同。",
-        "explore-mcq-21": "「開拓新的領域、方法或創作方向」是「explore new territory — figurative」的用法，與本句語境不同。",
-        "explore-mcq-20": "「探索新的地區」是「explore new territory — literal」的用法，與本句語境不同。",
-        "explore-mcq-19": "「研究／考慮某件事是否可行」是「explore the possibility of」的用法，與本句語境不同。",
-        "explore-mcq-18": "「對某事作更深入的研究或探討」是「explore further」的用法，與本句語境不同。"
+        "explore-mcq-23": "本句的「explore the abdomen」指「表示探查；手術探查」。",
+        "explore-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-23"
     },
@@ -1147,11 +1047,9 @@ export default {
       "masked": "Users can ____ in the dashboard.",
       "options": [
         "explore-mcq-11",
-        "explore-mcq-10",
-        "explore-mcq-12",
-        "explore-mcq-09",
-        "explore-mcq-13",
-        "explore-mcq-08"
+        "explore-mcq-03",
+        "explore-mcq-15",
+        "explore-mcq-23"
       ],
       "explanation": "本句的「explore the data」指「瀏覽、查看並研究資料、功能或內容」。",
       "sentenceIndex": 22,
@@ -1160,12 +1058,10 @@ export default {
         "explore the data"
       ],
       "optionReasons": {
-        "explore-mcq-11": "本句指「瀏覽、查看並研究資料、功能或內容」。",
-        "explore-mcq-10": "「在手術等情境中探查身體某部位」是「explore — medical」的用法，與本句語境不同。",
-        "explore-mcq-12": "「對外太空進行研究與探索」是「space exploration」的用法，與本句語境不同。",
-        "explore-mcq-09": "「為取得更多知識而研究某現象／方法」是「explore — scientific」的用法，與本句語境不同。",
-        "explore-mcq-13": "「對未知地方進行探索／探險」是「exploration — place」的用法，與本句語境不同。",
-        "explore-mcq-08": "「在作品中探討某種思想、情感或經驗」是「explore — literary/artistic」的用法，與本句語境不同。"
+        "explore-mcq-11": "本句的「explore the data」指「瀏覽、查看並研究資料、功能或內容」。",
+        "explore-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-11"
     },
@@ -1177,11 +1073,9 @@ export default {
       "masked": "The tool lets you ____.",
       "options": [
         "explore-mcq-11",
-        "explore-mcq-10",
-        "explore-mcq-12",
-        "explore-mcq-09",
-        "explore-mcq-13",
-        "explore-mcq-08"
+        "explore-mcq-07",
+        "explore-mcq-08",
+        "explore-mcq-20"
       ],
       "explanation": "本句的「explore different scenarios」指「瀏覽、查看並研究資料、功能或內容」。",
       "sentenceIndex": 23,
@@ -1190,12 +1084,10 @@ export default {
         "explore different scenarios"
       ],
       "optionReasons": {
-        "explore-mcq-11": "本句指「瀏覽、查看並研究資料、功能或內容」。",
-        "explore-mcq-10": "「在手術等情境中探查身體某部位」是「explore — medical」的用法，與本句語境不同。",
-        "explore-mcq-12": "「對外太空進行研究與探索」是「space exploration」的用法，與本句語境不同。",
-        "explore-mcq-09": "「為取得更多知識而研究某現象／方法」是「explore — scientific」的用法，與本句語境不同。",
-        "explore-mcq-13": "「對未知地方進行探索／探險」是「exploration — place」的用法，與本句語境不同。",
-        "explore-mcq-08": "「在作品中探討某種思想、情感或經驗」是「explore — literary/artistic」的用法，與本句語境不同。"
+        "explore-mcq-11": "本句的「explore different scenarios」指「瀏覽、查看並研究資料、功能或內容」。",
+        "explore-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-11"
     },
@@ -1207,11 +1099,9 @@ export default {
       "masked": "Open the folder in ____.",
       "options": [
         "explore-mcq-11",
-        "explore-mcq-10",
-        "explore-mcq-12",
-        "explore-mcq-09",
-        "explore-mcq-13",
-        "explore-mcq-08"
+        "explore-mcq-02",
+        "explore-mcq-08",
+        "explore-mcq-23"
       ],
       "explanation": "本句的「File Explorer」指「瀏覽、查看並研究資料、功能或內容」。",
       "sentenceIndex": 24,
@@ -1220,12 +1110,10 @@ export default {
         "File Explorer"
       ],
       "optionReasons": {
-        "explore-mcq-11": "本句指「瀏覽、查看並研究資料、功能或內容」。",
-        "explore-mcq-10": "「在手術等情境中探查身體某部位」是「explore — medical」的用法，與本句語境不同。",
-        "explore-mcq-12": "「對外太空進行研究與探索」是「space exploration」的用法，與本句語境不同。",
-        "explore-mcq-09": "「為取得更多知識而研究某現象／方法」是「explore — scientific」的用法，與本句語境不同。",
-        "explore-mcq-13": "「對未知地方進行探索／探險」是「exploration — place」的用法，與本句語境不同。",
-        "explore-mcq-08": "「在作品中探討某種思想、情感或經驗」是「explore — literary/artistic」的用法，與本句語境不同。"
+        "explore-mcq-11": "本句的「File Explorer」指「瀏覽、查看並研究資料、功能或內容」。",
+        "explore-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-11"
     },
@@ -1237,10 +1125,8 @@ export default {
       "masked": "Use the ____ to locate the document.",
       "options": [
         "explore-mcq-11",
-        "explore-mcq-10",
-        "explore-mcq-12",
-        "explore-mcq-09",
-        "explore-mcq-13",
+        "explore-mcq-07",
+        "explore-mcq-20",
         "explore-mcq-08"
       ],
       "explanation": "本句的「file explorer」指「瀏覽、查看並研究資料、功能或內容」。",
@@ -1250,12 +1136,10 @@ export default {
         "file explorer"
       ],
       "optionReasons": {
-        "explore-mcq-11": "本句指「瀏覽、查看並研究資料、功能或內容」。",
-        "explore-mcq-10": "「在手術等情境中探查身體某部位」是「explore — medical」的用法，與本句語境不同。",
-        "explore-mcq-12": "「對外太空進行研究與探索」是「space exploration」的用法，與本句語境不同。",
-        "explore-mcq-09": "「為取得更多知識而研究某現象／方法」是「explore — scientific」的用法，與本句語境不同。",
-        "explore-mcq-13": "「對未知地方進行探索／探險」是「exploration — place」的用法，與本句語境不同。",
-        "explore-mcq-08": "「在作品中探討某種思想、情感或經驗」是「explore — literary/artistic」的用法，與本句語境不同。"
+        "explore-mcq-11": "本句的「file explorer」指「瀏覽、查看並研究資料、功能或內容」。",
+        "explore-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-11"
     },
@@ -1267,11 +1151,9 @@ export default {
       "masked": "The country invested in ____.",
       "options": [
         "explore-mcq-12",
-        "explore-mcq-11",
-        "explore-mcq-13",
-        "explore-mcq-10",
-        "explore-mcq-14",
-        "explore-mcq-09"
+        "explore-mcq-07",
+        "explore-mcq-23",
+        "explore-mcq-08"
       ],
       "explanation": "本句的「space exploration」指「對外太空進行研究與探索」。",
       "sentenceIndex": 26,
@@ -1280,12 +1162,10 @@ export default {
         "space exploration"
       ],
       "optionReasons": {
-        "explore-mcq-12": "本句指「對外太空進行研究與探索」。",
-        "explore-mcq-11": "「瀏覽、查看並研究資料、功能或內容」是「explore — data/software」的用法，與本句語境不同。",
-        "explore-mcq-13": "「對未知地方進行探索／探險」是「exploration — place」的用法，與本句語境不同。",
-        "explore-mcq-10": "「在手術等情境中探查身體某部位」是「explore — medical」的用法，與本句語境不同。",
-        "explore-mcq-14": "「對概念、問題或可能性的深入探討」是「exploration — ideas」的用法，與本句語境不同。",
-        "explore-mcq-09": "「為取得更多知識而研究某現象／方法」是「explore — scientific」的用法，與本句語境不同。"
+        "explore-mcq-12": "本句的「space exploration」指「對外太空進行研究與探索」。",
+        "explore-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-12"
     },
@@ -1297,11 +1177,9 @@ export default {
       "masked": "Robots play an important role in ____.",
       "options": [
         "explore-mcq-12",
-        "explore-mcq-11",
-        "explore-mcq-13",
-        "explore-mcq-10",
-        "explore-mcq-14",
-        "explore-mcq-09"
+        "explore-mcq-07",
+        "explore-mcq-08",
+        "explore-mcq-23"
       ],
       "explanation": "本句的「space exploration」指「對外太空進行研究與探索」。",
       "sentenceIndex": 27,
@@ -1310,12 +1188,10 @@ export default {
         "space exploration"
       ],
       "optionReasons": {
-        "explore-mcq-12": "本句指「對外太空進行研究與探索」。",
-        "explore-mcq-11": "「瀏覽、查看並研究資料、功能或內容」是「explore — data/software」的用法，與本句語境不同。",
-        "explore-mcq-13": "「對未知地方進行探索／探險」是「exploration — place」的用法，與本句語境不同。",
-        "explore-mcq-10": "「在手術等情境中探查身體某部位」是「explore — medical」的用法，與本句語境不同。",
-        "explore-mcq-14": "「對概念、問題或可能性的深入探討」是「exploration — ideas」的用法，與本句語境不同。",
-        "explore-mcq-09": "「為取得更多知識而研究某現象／方法」是「explore — scientific」的用法，與本句語境不同。"
+        "explore-mcq-12": "本句的「space exploration」指「對外太空進行研究與探索」。",
+        "explore-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-12"
     },
@@ -1327,11 +1203,9 @@ export default {
       "masked": "The ____ crossed the desert.",
       "options": [
         "explore-mcq-15",
-        "explore-mcq-14",
-        "explore-mcq-16",
-        "explore-mcq-13",
-        "explore-mcq-17",
-        "explore-mcq-12"
+        "explore-mcq-11",
+        "explore-mcq-07",
+        "explore-mcq-23"
       ],
       "explanation": "本句的「explorer」指「前往陌生地方探索的探險家／探索者」。",
       "sentenceIndex": 28,
@@ -1340,12 +1214,10 @@ export default {
         "explorer"
       ],
       "optionReasons": {
-        "explore-mcq-15": "本句指「前往陌生地方探索的探險家／探索者」。",
-        "explore-mcq-14": "「對概念、問題或可能性的深入探討」是「exploration — ideas」的用法，與本句語境不同。",
-        "explore-mcq-16": "「以初步調查、發現可能性為目的的；探索性的」是「exploratory」的用法，與本句語境不同。",
-        "explore-mcq-13": "「對未知地方進行探索／探險」是「exploration — place」的用法，與本句語境不同。",
-        "explore-mcq-17": "「用來初步了解問題、找出方向的探索性研究」是「exploratory research」的用法，與本句語境不同。",
-        "explore-mcq-12": "「對外太空進行研究與探索」是「space exploration」的用法，與本句語境不同。"
+        "explore-mcq-15": "本句的「explorer」指「前往陌生地方探索的探險家／探索者」。",
+        "explore-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-15"
     },
@@ -1357,11 +1229,9 @@ export default {
       "masked": "Early ____ mapped the coastline.",
       "options": [
         "explore-mcq-15",
-        "explore-mcq-14",
-        "explore-mcq-16",
-        "explore-mcq-13",
-        "explore-mcq-17",
-        "explore-mcq-12"
+        "explore-mcq-19",
+        "explore-mcq-07",
+        "explore-mcq-08"
       ],
       "explanation": "本句的「explorers」指「前往陌生地方探索的探險家／探索者」。",
       "sentenceIndex": 29,
@@ -1370,12 +1240,10 @@ export default {
         "explorers"
       ],
       "optionReasons": {
-        "explore-mcq-15": "本句指「前往陌生地方探索的探險家／探索者」。",
-        "explore-mcq-14": "「對概念、問題或可能性的深入探討」是「exploration — ideas」的用法，與本句語境不同。",
-        "explore-mcq-16": "「以初步調查、發現可能性為目的的；探索性的」是「exploratory」的用法，與本句語境不同。",
-        "explore-mcq-13": "「對未知地方進行探索／探險」是「exploration — place」的用法，與本句語境不同。",
-        "explore-mcq-17": "「用來初步了解問題、找出方向的探索性研究」是「exploratory research」的用法，與本句語境不同。",
-        "explore-mcq-12": "「對外太空進行研究與探索」是「space exploration」的用法，與本句語境不同。"
+        "explore-mcq-15": "本句的「explorers」指「前往陌生地方探索的探險家／探索者」。",
+        "explore-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-15"
     },
@@ -1387,11 +1255,9 @@ export default {
       "masked": "They held ____.",
       "options": [
         "explore-mcq-16",
-        "explore-mcq-15",
-        "explore-mcq-17",
-        "explore-mcq-14",
-        "explore-mcq-18",
-        "explore-mcq-13"
+        "explore-mcq-07",
+        "explore-mcq-06",
+        "explore-mcq-08"
       ],
       "explanation": "本句的「exploratory talks」指「以初步調查、發現可能性為目的的；探索性的」。",
       "sentenceIndex": 30,
@@ -1400,12 +1266,10 @@ export default {
         "exploratory talks"
       ],
       "optionReasons": {
-        "explore-mcq-16": "本句指「以初步調查、發現可能性為目的的；探索性的」。",
-        "explore-mcq-15": "「前往陌生地方探索的探險家／探索者」是「explorer」的用法，與本句語境不同。",
-        "explore-mcq-17": "「用來初步了解問題、找出方向的探索性研究」是「exploratory research」的用法，與本句語境不同。",
-        "explore-mcq-14": "「對概念、問題或可能性的深入探討」是「exploration — ideas」的用法，與本句語境不同。",
-        "explore-mcq-18": "「對某事作更深入的研究或探討」是「explore further」的用法，與本句語境不同。",
-        "explore-mcq-13": "「對未知地方進行探索／探險」是「exploration — place」的用法，與本句語境不同。"
+        "explore-mcq-16": "本句的「exploratory talks」指「以初步調查、發現可能性為目的的；探索性的」。",
+        "explore-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-16"
     },
@@ -1417,11 +1281,9 @@ export default {
       "masked": "The researchers conducted an ____.",
       "options": [
         "explore-mcq-16",
-        "explore-mcq-15",
-        "explore-mcq-17",
-        "explore-mcq-14",
-        "explore-mcq-18",
-        "explore-mcq-13"
+        "explore-mcq-19",
+        "explore-mcq-07",
+        "explore-mcq-08"
       ],
       "explanation": "本句的「exploratory study」指「以初步調查、發現可能性為目的的；探索性的」。",
       "sentenceIndex": 31,
@@ -1430,12 +1292,10 @@ export default {
         "exploratory study"
       ],
       "optionReasons": {
-        "explore-mcq-16": "本句指「以初步調查、發現可能性為目的的；探索性的」。",
-        "explore-mcq-15": "「前往陌生地方探索的探險家／探索者」是「explorer」的用法，與本句語境不同。",
-        "explore-mcq-17": "「用來初步了解問題、找出方向的探索性研究」是「exploratory research」的用法，與本句語境不同。",
-        "explore-mcq-14": "「對概念、問題或可能性的深入探討」是「exploration — ideas」的用法，與本句語境不同。",
-        "explore-mcq-18": "「對某事作更深入的研究或探討」是「explore further」的用法，與本句語境不同。",
-        "explore-mcq-13": "「對未知地方進行探索／探險」是「exploration — place」的用法，與本句語境不同。"
+        "explore-mcq-16": "本句的「exploratory study」指「以初步調查、發現可能性為目的的；探索性的」。",
+        "explore-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-16"
     },
@@ -1447,11 +1307,8 @@ export default {
       "masked": "The project began with ____.",
       "options": [
         "explore-mcq-17",
-        "explore-mcq-16",
-        "explore-mcq-18",
-        "explore-mcq-15",
-        "explore-mcq-19",
-        "explore-mcq-14"
+        "explore-mcq-08",
+        "explore-mcq-23"
       ],
       "explanation": "本句的「exploratory research」指「用來初步了解問題、找出方向的探索性研究」。",
       "sentenceIndex": 32,
@@ -1460,12 +1317,9 @@ export default {
         "exploratory research"
       ],
       "optionReasons": {
-        "explore-mcq-17": "本句指「用來初步了解問題、找出方向的探索性研究」。",
-        "explore-mcq-16": "「以初步調查、發現可能性為目的的；探索性的」是「exploratory」的用法，與本句語境不同。",
-        "explore-mcq-18": "「對某事作更深入的研究或探討」是「explore further」的用法，與本句語境不同。",
-        "explore-mcq-15": "「前往陌生地方探索的探險家／探索者」是「explorer」的用法，與本句語境不同。",
-        "explore-mcq-19": "「研究／考慮某件事是否可行」是「explore the possibility of」的用法，與本句語境不同。",
-        "explore-mcq-14": "「對概念、問題或可能性的深入探討」是「exploration — ideas」的用法，與本句語境不同。"
+        "explore-mcq-17": "本句的「exploratory research」指「用來初步了解問題、找出方向的探索性研究」。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-17"
     },
@@ -1477,11 +1331,8 @@ export default {
       "masked": "____ can help identify important questions.",
       "options": [
         "explore-mcq-17",
-        "explore-mcq-16",
-        "explore-mcq-18",
-        "explore-mcq-15",
-        "explore-mcq-19",
-        "explore-mcq-14"
+        "explore-mcq-23",
+        "explore-mcq-08"
       ],
       "explanation": "本句的「Exploratory research」指「用來初步了解問題、找出方向的探索性研究」。",
       "sentenceIndex": 33,
@@ -1490,12 +1341,9 @@ export default {
         "Exploratory research"
       ],
       "optionReasons": {
-        "explore-mcq-17": "本句指「用來初步了解問題、找出方向的探索性研究」。",
-        "explore-mcq-16": "「以初步調查、發現可能性為目的的；探索性的」是「exploratory」的用法，與本句語境不同。",
-        "explore-mcq-18": "「對某事作更深入的研究或探討」是「explore further」的用法，與本句語境不同。",
-        "explore-mcq-15": "「前往陌生地方探索的探險家／探索者」是「explorer」的用法，與本句語境不同。",
-        "explore-mcq-19": "「研究／考慮某件事是否可行」是「explore the possibility of」的用法，與本句語境不同。",
-        "explore-mcq-14": "「對概念、問題或可能性的深入探討」是「exploration — ideas」的用法，與本句語境不同。"
+        "explore-mcq-17": "本句的「Exploratory research」指「用來初步了解問題、找出方向的探索性研究」。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-17"
     },
@@ -1507,11 +1355,7 @@ export default {
       "masked": "This issue deserves to be ____.",
       "options": [
         "explore-mcq-18",
-        "explore-mcq-17",
-        "explore-mcq-19",
-        "explore-mcq-16",
-        "explore-mcq-20",
-        "explore-mcq-15"
+        "explore-mcq-16"
       ],
       "explanation": "本句的「explored further」指「對某事作更深入的研究或探討」。",
       "sentenceIndex": 34,
@@ -1520,12 +1364,8 @@ export default {
         "explored further"
       ],
       "optionReasons": {
-        "explore-mcq-18": "本句指「對某事作更深入的研究或探討」。",
-        "explore-mcq-17": "「用來初步了解問題、找出方向的探索性研究」是「exploratory research」的用法，與本句語境不同。",
-        "explore-mcq-19": "「研究／考慮某件事是否可行」是「explore the possibility of」的用法，與本句語境不同。",
-        "explore-mcq-16": "「以初步調查、發現可能性為目的的；探索性的」是「exploratory」的用法，與本句語境不同。",
-        "explore-mcq-20": "「探索新的地區」是「explore new territory — literal」的用法，與本句語境不同。",
-        "explore-mcq-15": "「前往陌生地方探索的探險家／探索者」是「explorer」的用法，與本句語境不同。"
+        "explore-mcq-18": "本句的「explored further」指「對某事作更深入的研究或探討」。",
+        "explore-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-18"
     },
@@ -1537,11 +1377,8 @@ export default {
       "masked": "I would like to ____.",
       "options": [
         "explore-mcq-18",
-        "explore-mcq-17",
-        "explore-mcq-19",
-        "explore-mcq-16",
         "explore-mcq-20",
-        "explore-mcq-15"
+        "explore-mcq-23"
       ],
       "explanation": "本句的「explore the idea further」指「對某事作更深入的研究或探討」。",
       "sentenceIndex": 35,
@@ -1550,12 +1387,9 @@ export default {
         "explore the idea further"
       ],
       "optionReasons": {
-        "explore-mcq-18": "本句指「對某事作更深入的研究或探討」。",
-        "explore-mcq-17": "「用來初步了解問題、找出方向的探索性研究」是「exploratory research」的用法，與本句語境不同。",
-        "explore-mcq-19": "「研究／考慮某件事是否可行」是「explore the possibility of」的用法，與本句語境不同。",
-        "explore-mcq-16": "「以初步調查、發現可能性為目的的；探索性的」是「exploratory」的用法，與本句語境不同。",
-        "explore-mcq-20": "「探索新的地區」是「explore new territory — literal」的用法，與本句語境不同。",
-        "explore-mcq-15": "「前往陌生地方探索的探險家／探索者」是「explorer」的用法，與本句語境不同。"
+        "explore-mcq-18": "本句的「explore the idea further」指「對某事作更深入的研究或探討」。",
+        "explore-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-18"
     },
@@ -1567,11 +1401,9 @@ export default {
       "masked": "They are ____ overseas.",
       "options": [
         "explore-mcq-19",
-        "explore-mcq-18",
-        "explore-mcq-20",
-        "explore-mcq-17",
-        "explore-mcq-21",
-        "explore-mcq-16"
+        "explore-mcq-16",
+        "explore-mcq-07",
+        "explore-mcq-08"
       ],
       "explanation": "本句的「exploring the possibility of expanding」指「研究／考慮某件事是否可行」。",
       "sentenceIndex": 36,
@@ -1580,12 +1412,10 @@ export default {
         "exploring the possibility of expanding"
       ],
       "optionReasons": {
-        "explore-mcq-19": "本句指「研究／考慮某件事是否可行」。",
-        "explore-mcq-18": "「對某事作更深入的研究或探討」是「explore further」的用法，與本句語境不同。",
-        "explore-mcq-20": "「探索新的地區」是「explore new territory — literal」的用法，與本句語境不同。",
-        "explore-mcq-17": "「用來初步了解問題、找出方向的探索性研究」是「exploratory research」的用法，與本句語境不同。",
-        "explore-mcq-21": "「開拓新的領域、方法或創作方向」是「explore new territory — figurative」的用法，與本句語境不同。",
-        "explore-mcq-16": "「以初步調查、發現可能性為目的的；探索性的」是「exploratory」的用法，與本句語境不同。"
+        "explore-mcq-19": "本句的「exploring the possibility of expanding」指「研究／考慮某件事是否可行」。",
+        "explore-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-19"
     },
@@ -1597,11 +1427,8 @@ export default {
       "masked": "We should ____.",
       "options": [
         "explore-mcq-19",
-        "explore-mcq-18",
-        "explore-mcq-20",
-        "explore-mcq-17",
-        "explore-mcq-21",
-        "explore-mcq-16"
+        "explore-mcq-01",
+        "explore-mcq-08"
       ],
       "explanation": "本句的「explore the possibility of working together」指「研究／考慮某件事是否可行」。",
       "sentenceIndex": 37,
@@ -1610,12 +1437,9 @@ export default {
         "explore the possibility of working together"
       ],
       "optionReasons": {
-        "explore-mcq-19": "本句指「研究／考慮某件事是否可行」。",
-        "explore-mcq-18": "「對某事作更深入的研究或探討」是「explore further」的用法，與本句語境不同。",
-        "explore-mcq-20": "「探索新的地區」是「explore new territory — literal」的用法，與本句語境不同。",
-        "explore-mcq-17": "「用來初步了解問題、找出方向的探索性研究」是「exploratory research」的用法，與本句語境不同。",
-        "explore-mcq-21": "「開拓新的領域、方法或創作方向」是「explore new territory — figurative」的用法，與本句語境不同。",
-        "explore-mcq-16": "「以初步調查、發現可能性為目的的；探索性的」是「exploratory」的用法，與本句語境不同。"
+        "explore-mcq-19": "本句的「explore the possibility of working together」指「研究／考慮某件事是否可行」。",
+        "explore-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-19"
     },
@@ -1627,11 +1451,9 @@ export default {
       "masked": "The research team is ____.",
       "options": [
         "explore-mcq-20",
-        "explore-mcq-19",
-        "explore-mcq-21",
-        "explore-mcq-18",
-        "explore-mcq-22",
-        "explore-mcq-17"
+        "explore-mcq-04",
+        "explore-mcq-07",
+        "explore-mcq-23"
       ],
       "explanation": "本句的「exploring new territory」指「探索新的地區」。",
       "sentenceIndex": 38,
@@ -1640,12 +1462,10 @@ export default {
         "exploring new territory"
       ],
       "optionReasons": {
-        "explore-mcq-20": "本句指「探索新的地區」。",
-        "explore-mcq-19": "「研究／考慮某件事是否可行」是「explore the possibility of」的用法，與本句語境不同。",
-        "explore-mcq-21": "「開拓新的領域、方法或創作方向」是「explore new territory — figurative」的用法，與本句語境不同。",
-        "explore-mcq-18": "「對某事作更深入的研究或探討」是「explore further」的用法，與本句語境不同。",
-        "explore-mcq-22": "「表示探索；進一步接觸；深入了解」是「Passage meaning」的用法，與本句語境不同。",
-        "explore-mcq-17": "「用來初步了解問題、找出方向的探索性研究」是「exploratory research」的用法，與本句語境不同。"
+        "explore-mcq-20": "本句的「exploring new territory」指「探索新的地區」。",
+        "explore-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-20"
     },
@@ -1657,11 +1477,9 @@ export default {
       "masked": "The writer began to ____ in her later work.",
       "options": [
         "explore-mcq-20",
-        "explore-mcq-19",
-        "explore-mcq-21",
-        "explore-mcq-18",
-        "explore-mcq-22",
-        "explore-mcq-17"
+        "explore-mcq-04",
+        "explore-mcq-07",
+        "explore-mcq-23"
       ],
       "explanation": "本句的「explore new territory」指「探索新的地區」。",
       "sentenceIndex": 39,
@@ -1670,12 +1488,10 @@ export default {
         "explore new territory"
       ],
       "optionReasons": {
-        "explore-mcq-20": "本句指「探索新的地區」。",
-        "explore-mcq-19": "「研究／考慮某件事是否可行」是「explore the possibility of」的用法，與本句語境不同。",
-        "explore-mcq-21": "「開拓新的領域、方法或創作方向」是「explore new territory — figurative」的用法，與本句語境不同。",
-        "explore-mcq-18": "「對某事作更深入的研究或探討」是「explore further」的用法，與本句語境不同。",
-        "explore-mcq-22": "「表示探索；進一步接觸；深入了解」是「Passage meaning」的用法，與本句語境不同。",
-        "explore-mcq-17": "「用來初步了解問題、找出方向的探索性研究」是「exploratory research」的用法，與本句語境不同。"
+        "explore-mcq-20": "本句的「explore new territory」指「探索新的地區」。",
+        "explore-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explore-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explore-mcq-20"
     }
@@ -1687,5 +1503,7 @@ export default {
     "sha256": "04d3cd13304ed04b213294745e7d53d8a3df92e7bf686ec230f9721055901fe2",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

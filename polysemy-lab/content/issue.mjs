@@ -1836,11 +1836,9 @@ export default {
       "masked": "____ is whether our present rule is proportionate.",
       "options": [
         "issue-mcq-01",
-        "issue-mcq-02",
-        "issue-mcq-03",
-        "issue-mcq-04",
-        "issue-mcq-06",
-        "issue-mcq-08"
+        "issue-mcq-50",
+        "issue-pdf-001",
+        "issue-mcq-46"
       ],
       "explanation": "本句的「At issue」指「正在爭議／討論的」。",
       "sentenceIndex": 0,
@@ -1849,12 +1847,10 @@ export default {
         "At issue"
       ],
       "optionReasons": {
-        "issue-mcq-01": "本句指「正在爭議／討論的」。",
-        "issue-mcq-02": "「關鍵問題」與本句語境不同。",
-        "issue-mcq-03": "「問題；議題；事項」與本句語境不同。",
-        "issue-mcq-04": "「主要問題」與本句語境不同。",
-        "issue-mcq-06": "「核心問題」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。"
+        "issue-mcq-01": "本句的「At issue」指「正在爭議／討論的」。",
+        "issue-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-01"
     },
@@ -1866,11 +1862,9 @@ export default {
       "masked": "The amount of the refund is not ____; the question is whether the customer qualifies for one at all.",
       "options": [
         "issue-mcq-01",
-        "issue-mcq-02",
-        "issue-mcq-03",
-        "issue-mcq-04",
-        "issue-mcq-06",
-        "issue-mcq-08"
+        "issue-mcq-68",
+        "issue-mcq-39",
+        "issue-mcq-07"
       ],
       "explanation": "本句的「at issue」指「正在爭議／討論的」。",
       "sentenceIndex": 1,
@@ -1879,12 +1873,10 @@ export default {
         "at issue"
       ],
       "optionReasons": {
-        "issue-mcq-01": "本句指「正在爭議／討論的」。",
-        "issue-mcq-02": "「關鍵問題」與本句語境不同。",
-        "issue-mcq-03": "「問題；議題；事項」與本句語境不同。",
-        "issue-mcq-04": "「主要問題」與本句語境不同。",
-        "issue-mcq-06": "「核心問題」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。"
+        "issue-mcq-01": "本句的「at issue」指「正在爭議／討論的」。",
+        "issue-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-01"
     },
@@ -1896,11 +1888,9 @@ export default {
       "masked": "Several principles are at ____ in the dispute.",
       "options": [
         "issue-mcq-01",
-        "issue-mcq-02",
-        "issue-mcq-03",
         "issue-mcq-04",
-        "issue-mcq-06",
-        "issue-mcq-08"
+        "issue-mcq-66",
+        "issue-mcq-69"
       ],
       "explanation": "本句的「issue」指「正在爭議／討論的」。",
       "sentenceIndex": 2,
@@ -1909,12 +1899,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-01": "本句指「正在爭議／討論的」。",
-        "issue-mcq-02": "「關鍵問題」與本句語境不同。",
-        "issue-mcq-03": "「問題；議題；事項」與本句語境不同。",
-        "issue-mcq-04": "「主要問題」與本句語境不同。",
-        "issue-mcq-06": "「核心問題」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。"
+        "issue-mcq-01": "本句的「issue」指「正在爭議／討論的」。",
+        "issue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-01"
     },
@@ -1926,11 +1914,9 @@ export default {
       "masked": "The main ____ is customer trust.",
       "options": [
         "issue-mcq-02",
-        "issue-mcq-01",
-        "issue-mcq-03",
-        "issue-mcq-04",
-        "issue-mcq-06",
-        "issue-mcq-08"
+        "issue-pdf-005",
+        "issue-mcq-37",
+        "issue-mcq-28"
       ],
       "explanation": "本句的「issue at stake」指「關鍵問題」。",
       "sentenceIndex": 3,
@@ -1939,12 +1925,10 @@ export default {
         "issue at stake"
       ],
       "optionReasons": {
-        "issue-mcq-02": "本句指「關鍵問題」。",
-        "issue-mcq-01": "「正在爭議／討論的」與本句語境不同。",
-        "issue-mcq-03": "「問題；議題；事項」與本句語境不同。",
-        "issue-mcq-04": "「主要問題」與本句語境不同。",
-        "issue-mcq-06": "「核心問題」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。"
+        "issue-mcq-02": "本句的「issue at stake」指「關鍵問題」。",
+        "issue-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-02"
     },
@@ -1956,11 +1940,9 @@ export default {
       "masked": "The legal ____ at stake concerns liability.",
       "options": [
         "issue-mcq-02",
-        "issue-mcq-01",
-        "issue-mcq-03",
-        "issue-mcq-04",
-        "issue-mcq-06",
-        "issue-mcq-08"
+        "issue-mcq-69",
+        "issue-mcq-53",
+        "issue-mcq-44"
       ],
       "explanation": "本句的「issue」指「關鍵問題」。",
       "sentenceIndex": 4,
@@ -1969,12 +1951,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-02": "本句指「關鍵問題」。",
-        "issue-mcq-01": "「正在爭議／討論的」與本句語境不同。",
-        "issue-mcq-03": "「問題；議題；事項」與本句語境不同。",
-        "issue-mcq-04": "「主要問題」與本句語境不同。",
-        "issue-mcq-06": "「核心問題」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。"
+        "issue-mcq-02": "本句的「issue」指「關鍵問題」。",
+        "issue-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-02"
     },
@@ -1986,11 +1966,9 @@ export default {
       "masked": "The meeting discussed several ____.",
       "options": [
         "issue-mcq-03",
-        "issue-mcq-02",
-        "issue-mcq-04",
-        "issue-mcq-01",
-        "issue-mcq-06",
-        "issue-mcq-08"
+        "issue-mcq-53",
+        "issue-mcq-40",
+        "issue-mcq-67"
       ],
       "explanation": "本句的「issues」指「問題；議題；事項」。",
       "sentenceIndex": 5,
@@ -1999,12 +1977,10 @@ export default {
         "issues"
       ],
       "optionReasons": {
-        "issue-mcq-03": "本句指「問題；議題；事項」。",
-        "issue-mcq-02": "「關鍵問題」與本句語境不同。",
-        "issue-mcq-04": "「主要問題」與本句語境不同。",
-        "issue-mcq-01": "「正在爭議／討論的」與本句語境不同。",
-        "issue-mcq-06": "「核心問題」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。"
+        "issue-mcq-03": "本句的「issues」指「問題；議題；事項」。",
+        "issue-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-03"
     },
@@ -2016,11 +1992,9 @@ export default {
       "masked": "Customer trust is an important ____.",
       "options": [
         "issue-mcq-03",
-        "issue-mcq-02",
-        "issue-mcq-04",
-        "issue-mcq-01",
-        "issue-mcq-06",
-        "issue-mcq-08"
+        "issue-mcq-61",
+        "issue-mcq-57",
+        "issue-mcq-38"
       ],
       "explanation": "本句的「issue」指「問題；議題；事項」。",
       "sentenceIndex": 6,
@@ -2029,12 +2003,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-03": "本句指「問題；議題；事項」。",
-        "issue-mcq-02": "「關鍵問題」與本句語境不同。",
-        "issue-mcq-04": "「主要問題」與本句語境不同。",
-        "issue-mcq-01": "「正在爭議／討論的」與本句語境不同。",
-        "issue-mcq-06": "「核心問題」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。"
+        "issue-mcq-03": "本句的「issue」指「問題；議題；事項」。",
+        "issue-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-03"
     },
@@ -2046,11 +2018,9 @@ export default {
       "masked": "The ____ is whether the policy is fair.",
       "options": [
         "issue-mcq-04",
-        "issue-mcq-03",
-        "issue-mcq-05",
-        "issue-mcq-06",
-        "issue-mcq-01",
-        "issue-mcq-08"
+        "issue-pdf-004",
+        "issue-mcq-72",
+        "issue-mcq-43"
       ],
       "explanation": "本句的「main issue」指「主要問題」。",
       "sentenceIndex": 7,
@@ -2059,12 +2029,10 @@ export default {
         "main issue"
       ],
       "optionReasons": {
-        "issue-mcq-04": "本句指「主要問題」。",
-        "issue-mcq-03": "「問題；議題；事項」與本句語境不同。",
-        "issue-mcq-05": "「關鍵問題」與本句語境不同。",
-        "issue-mcq-06": "「核心問題」與本句語境不同。",
-        "issue-mcq-01": "「正在爭議／討論的」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。"
+        "issue-mcq-04": "本句的「main issue」指「主要問題」。",
+        "issue-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-04"
     },
@@ -2076,11 +2044,9 @@ export default {
       "masked": "Let's return to the main ____.",
       "options": [
         "issue-mcq-04",
-        "issue-mcq-03",
-        "issue-mcq-05",
-        "issue-mcq-06",
-        "issue-mcq-01",
-        "issue-mcq-08"
+        "issue-pdf-006",
+        "issue-mcq-65",
+        "issue-mcq-54"
       ],
       "explanation": "本句的「issue」指「主要問題」。",
       "sentenceIndex": 8,
@@ -2089,12 +2055,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-04": "本句指「主要問題」。",
-        "issue-mcq-03": "「問題；議題；事項」與本句語境不同。",
-        "issue-mcq-05": "「關鍵問題」與本句語境不同。",
-        "issue-mcq-06": "「核心問題」與本句語境不同。",
-        "issue-mcq-01": "「正在爭議／討論的」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。"
+        "issue-mcq-04": "本句的「issue」指「主要問題」。",
+        "issue-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-04"
     },
@@ -2106,11 +2070,9 @@ export default {
       "masked": "Cost is a ____.",
       "options": [
         "issue-mcq-05",
-        "issue-mcq-04",
-        "issue-mcq-06",
-        "issue-mcq-03",
-        "issue-mcq-08",
-        "issue-mcq-01"
+        "issue-mcq-71",
+        "issue-mcq-61",
+        "issue-mcq-62"
       ],
       "explanation": "本句的「key issue」指「關鍵問題」。",
       "sentenceIndex": 9,
@@ -2119,12 +2081,10 @@ export default {
         "key issue"
       ],
       "optionReasons": {
-        "issue-mcq-05": "本句指「關鍵問題」。",
-        "issue-mcq-04": "「主要問題」與本句語境不同。",
-        "issue-mcq-06": "「核心問題」與本句語境不同。",
-        "issue-mcq-03": "「問題；議題；事項」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。",
-        "issue-mcq-01": "「正在爭議／討論的」與本句語境不同。"
+        "issue-mcq-05": "本句的「key issue」指「關鍵問題」。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-05"
     },
@@ -2136,11 +2096,9 @@ export default {
       "masked": "One key ____ is how returns will be inspected.",
       "options": [
         "issue-mcq-05",
-        "issue-mcq-04",
-        "issue-mcq-06",
-        "issue-mcq-03",
-        "issue-mcq-08",
-        "issue-mcq-01"
+        "issue-mcq-47",
+        "issue-pdf-006",
+        "issue-mcq-53"
       ],
       "explanation": "本句的「issue」指「關鍵問題」。",
       "sentenceIndex": 10,
@@ -2149,12 +2107,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-05": "本句指「關鍵問題」。",
-        "issue-mcq-04": "「主要問題」與本句語境不同。",
-        "issue-mcq-06": "「核心問題」與本句語境不同。",
-        "issue-mcq-03": "「問題；議題；事項」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。",
-        "issue-mcq-01": "「正在爭議／討論的」與本句語境不同。"
+        "issue-mcq-05": "本句的「issue」指「關鍵問題」。",
+        "issue-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-05"
     },
@@ -2166,11 +2122,9 @@ export default {
       "masked": "Fairness is the ____ in the debate.",
       "options": [
         "issue-mcq-06",
-        "issue-mcq-05",
-        "issue-mcq-04",
-        "issue-mcq-08",
-        "issue-mcq-03",
-        "issue-mcq-09"
+        "issue-mcq-72",
+        "issue-pdf-005",
+        "issue-mcq-62"
       ],
       "explanation": "本句的「central issue」指「核心問題」。",
       "sentenceIndex": 11,
@@ -2179,12 +2133,10 @@ export default {
         "central issue"
       ],
       "optionReasons": {
-        "issue-mcq-06": "本句指「核心問題」。",
-        "issue-mcq-05": "「關鍵問題」與本句語境不同。",
-        "issue-mcq-04": "「主要問題」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。",
-        "issue-mcq-03": "「問題；議題；事項」與本句語境不同。",
-        "issue-mcq-09": "「真正問題」與本句語境不同。"
+        "issue-mcq-06": "本句的「central issue」指「核心問題」。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-06"
     },
@@ -2196,11 +2148,9 @@ export default {
       "masked": "The central ____ remains unresolved.",
       "options": [
         "issue-mcq-06",
-        "issue-mcq-05",
-        "issue-mcq-04",
-        "issue-mcq-08",
-        "issue-mcq-03",
-        "issue-mcq-09"
+        "issue-mcq-59",
+        "issue-mcq-54",
+        "issue-mcq-39"
       ],
       "explanation": "本句的「issue」指「核心問題」。",
       "sentenceIndex": 12,
@@ -2209,12 +2159,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-06": "本句指「核心問題」。",
-        "issue-mcq-05": "「關鍵問題」與本句語境不同。",
-        "issue-mcq-04": "「主要問題」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。",
-        "issue-mcq-03": "「問題；議題；事項」與本句語境不同。",
-        "issue-mcq-09": "「真正問題」與本句語境不同。"
+        "issue-mcq-06": "本句的「issue」指「核心問題」。",
+        "issue-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-06"
     },
@@ -2226,11 +2174,9 @@ export default {
       "masked": "The ____ is customer confidence.",
       "options": [
         "issue-mcq-07",
-        "issue-mcq-08",
-        "issue-mcq-05",
-        "issue-mcq-09",
-        "issue-mcq-04",
-        "issue-mcq-10"
+        "issue-mcq-46",
+        "issue-mcq-66",
+        "issue-mcq-38"
       ],
       "explanation": "本句的「core issue」指「核心問題」。",
       "sentenceIndex": 13,
@@ -2239,12 +2185,10 @@ export default {
         "core issue"
       ],
       "optionReasons": {
-        "issue-mcq-07": "本句指「核心問題」。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。",
-        "issue-mcq-05": "「關鍵問題」與本句語境不同。",
-        "issue-mcq-09": "「真正問題」與本句語境不同。",
-        "issue-mcq-04": "「主要問題」與本句語境不同。",
-        "issue-mcq-10": "「問題；困難」與本句語境不同。"
+        "issue-mcq-07": "本句的「core issue」指「核心問題」。",
+        "issue-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-07"
     },
@@ -2256,11 +2200,9 @@ export default {
       "masked": "We need to identify the core ____ before changing the policy.",
       "options": [
         "issue-mcq-07",
-        "issue-mcq-08",
-        "issue-mcq-05",
-        "issue-mcq-09",
-        "issue-mcq-04",
-        "issue-mcq-10"
+        "issue-mcq-38",
+        "issue-mcq-73",
+        "issue-mcq-63"
       ],
       "explanation": "本句的「issue」指「核心問題」。",
       "sentenceIndex": 14,
@@ -2269,12 +2211,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-07": "本句指「核心問題」。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。",
-        "issue-mcq-05": "「關鍵問題」與本句語境不同。",
-        "issue-mcq-09": "「真正問題」與本句語境不同。",
-        "issue-mcq-04": "「主要問題」與本句語境不同。",
-        "issue-mcq-10": "「問題；困難」與本句語境不同。"
+        "issue-mcq-07": "本句的「issue」指「核心問題」。",
+        "issue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-07"
     },
@@ -2286,11 +2226,9 @@ export default {
       "masked": "The complaint revealed an ____ with the size guide.",
       "options": [
         "issue-mcq-08",
-        "issue-mcq-07",
-        "issue-mcq-09",
-        "issue-mcq-10",
-        "issue-mcq-05",
-        "issue-mcq-11"
+        "issue-mcq-57",
+        "issue-mcq-55",
+        "issue-pdf-004"
       ],
       "explanation": "本句的「underlying issue」指「根本問題」。",
       "sentenceIndex": 15,
@@ -2299,12 +2237,10 @@ export default {
         "underlying issue"
       ],
       "optionReasons": {
-        "issue-mcq-08": "本句指「根本問題」。",
-        "issue-mcq-07": "「核心問題」與本句語境不同。",
-        "issue-mcq-09": "「真正問題」與本句語境不同。",
-        "issue-mcq-10": "「問題；困難」與本句語境不同。",
-        "issue-mcq-05": "「關鍵問題」與本句語境不同。",
-        "issue-mcq-11": "「技術問題」與本句語境不同。"
+        "issue-mcq-08": "本句的「underlying issue」指「根本問題」。",
+        "issue-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-08"
     },
@@ -2316,11 +2252,9 @@ export default {
       "masked": "Refunds alone will not fix the underlying ____.",
       "options": [
         "issue-mcq-08",
-        "issue-mcq-07",
-        "issue-mcq-09",
-        "issue-mcq-10",
-        "issue-mcq-05",
-        "issue-mcq-11"
+        "issue-mcq-71",
+        "issue-pdf-002",
+        "issue-mcq-43"
       ],
       "explanation": "本句的「issue」指「根本問題」。",
       "sentenceIndex": 16,
@@ -2329,12 +2263,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-08": "本句指「根本問題」。",
-        "issue-mcq-07": "「核心問題」與本句語境不同。",
-        "issue-mcq-09": "「真正問題」與本句語境不同。",
-        "issue-mcq-10": "「問題；困難」與本句語境不同。",
-        "issue-mcq-05": "「關鍵問題」與本句語境不同。",
-        "issue-mcq-11": "「技術問題」與本句語境不同。"
+        "issue-mcq-08": "本句的「issue」指「根本問題」。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-08"
     },
@@ -2346,11 +2278,9 @@ export default {
       "masked": "The ____ is not cost but trust.",
       "options": [
         "issue-mcq-09",
-        "issue-mcq-08",
-        "issue-mcq-10",
-        "issue-mcq-07",
-        "issue-mcq-11",
-        "issue-mcq-12"
+        "issue-mcq-36",
+        "issue-mcq-39",
+        "issue-mcq-73"
       ],
       "explanation": "本句的「real issue」指「真正問題」。",
       "sentenceIndex": 17,
@@ -2359,12 +2289,10 @@ export default {
         "real issue"
       ],
       "optionReasons": {
-        "issue-mcq-09": "本句指「真正問題」。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。",
-        "issue-mcq-10": "「問題；困難」與本句語境不同。",
-        "issue-mcq-07": "「核心問題」與本句語境不同。",
-        "issue-mcq-11": "「技術問題」與本句語境不同。",
-        "issue-mcq-12": "「品質問題」與本句語境不同。"
+        "issue-mcq-09": "本句的「real issue」指「真正問題」。",
+        "issue-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-09"
     },
@@ -2376,11 +2304,9 @@ export default {
       "masked": "Don't let a minor complaint distract us from the real ____.",
       "options": [
         "issue-mcq-09",
-        "issue-mcq-08",
-        "issue-mcq-10",
-        "issue-mcq-07",
-        "issue-mcq-11",
-        "issue-mcq-12"
+        "issue-mcq-47",
+        "issue-mcq-72",
+        "issue-mcq-39"
       ],
       "explanation": "本句的「issue」指「真正問題」。",
       "sentenceIndex": 18,
@@ -2389,12 +2315,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-09": "本句指「真正問題」。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。",
-        "issue-mcq-10": "「問題；困難」與本句語境不同。",
-        "issue-mcq-07": "「核心問題」與本句語境不同。",
-        "issue-mcq-11": "「技術問題」與本句語境不同。",
-        "issue-mcq-12": "「品質問題」與本句語境不同。"
+        "issue-mcq-09": "本句的「issue」指「真正問題」。",
+        "issue-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-09"
     },
@@ -2406,11 +2330,9 @@ export default {
       "masked": "We have an ____.",
       "options": [
         "issue-mcq-10",
-        "issue-mcq-09",
-        "issue-mcq-11",
-        "issue-mcq-08",
-        "issue-mcq-12",
-        "issue-mcq-07"
+        "issue-mcq-59",
+        "issue-mcq-34",
+        "issue-mcq-71"
       ],
       "explanation": "本句的「issue with the payment system」指「問題；困難」。",
       "sentenceIndex": 19,
@@ -2419,12 +2341,10 @@ export default {
         "issue with the payment system"
       ],
       "optionReasons": {
-        "issue-mcq-10": "本句指「問題；困難」。",
-        "issue-mcq-09": "「真正問題」與本句語境不同。",
-        "issue-mcq-11": "「技術問題」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。",
-        "issue-mcq-12": "「品質問題」與本句語境不同。",
-        "issue-mcq-07": "「核心問題」與本句語境不同。"
+        "issue-mcq-10": "本句的「issue with the payment system」指「問題；困難」。",
+        "issue-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-10"
     },
@@ -2436,11 +2356,9 @@ export default {
       "masked": "The customer reported a sizing ____.",
       "options": [
         "issue-mcq-10",
-        "issue-mcq-09",
-        "issue-mcq-11",
-        "issue-mcq-08",
-        "issue-mcq-12",
-        "issue-mcq-07"
+        "issue-mcq-51",
+        "issue-pdf-002",
+        "issue-mcq-71"
       ],
       "explanation": "本句的「issue」指「問題；困難」。",
       "sentenceIndex": 20,
@@ -2449,12 +2367,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-10": "本句指「問題；困難」。",
-        "issue-mcq-09": "「真正問題」與本句語境不同。",
-        "issue-mcq-11": "「技術問題」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。",
-        "issue-mcq-12": "「品質問題」與本句語境不同。",
-        "issue-mcq-07": "「核心問題」與本句語境不同。"
+        "issue-mcq-10": "本句的「issue」指「問題；困難」。",
+        "issue-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-10"
     },
@@ -2466,11 +2382,9 @@ export default {
       "masked": "The website is unavailable because of a ____.",
       "options": [
         "issue-mcq-11",
-        "issue-mcq-10",
-        "issue-mcq-12",
-        "issue-mcq-09",
-        "issue-mcq-13",
-        "issue-mcq-08"
+        "issue-mcq-54",
+        "issue-mcq-34",
+        "issue-mcq-38"
       ],
       "explanation": "本句的「technical issue」指「技術問題」。",
       "sentenceIndex": 21,
@@ -2479,12 +2393,10 @@ export default {
         "technical issue"
       ],
       "optionReasons": {
-        "issue-mcq-11": "本句指「技術問題」。",
-        "issue-mcq-10": "「問題；困難」與本句語境不同。",
-        "issue-mcq-12": "「品質問題」與本句語境不同。",
-        "issue-mcq-09": "「真正問題」與本句語境不同。",
-        "issue-mcq-13": "「送貨問題」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。"
+        "issue-mcq-11": "本句的「technical issue」指「技術問題」。",
+        "issue-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-11"
     },
@@ -2496,11 +2408,9 @@ export default {
       "masked": "IT resolved the ____ quickly.",
       "options": [
         "issue-mcq-11",
-        "issue-mcq-10",
-        "issue-mcq-12",
-        "issue-mcq-09",
-        "issue-mcq-13",
-        "issue-mcq-08"
+        "issue-mcq-55",
+        "issue-mcq-70",
+        "issue-pdf-004"
       ],
       "explanation": "本句的「issue」指「技術問題」。",
       "sentenceIndex": 22,
@@ -2509,12 +2419,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-11": "本句指「技術問題」。",
-        "issue-mcq-10": "「問題；困難」與本句語境不同。",
-        "issue-mcq-12": "「品質問題」與本句語境不同。",
-        "issue-mcq-09": "「真正問題」與本句語境不同。",
-        "issue-mcq-13": "「送貨問題」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。"
+        "issue-mcq-11": "本句的「issue」指「技術問題」。",
+        "issue-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-11"
     },
@@ -2526,11 +2434,9 @@ export default {
       "masked": "The complaint became a ____.",
       "options": [
         "issue-mcq-11",
-        "issue-mcq-10",
-        "issue-mcq-12",
-        "issue-mcq-09",
-        "issue-mcq-13",
-        "issue-mcq-08"
+        "issue-mcq-75",
+        "issue-mcq-59",
+        "issue-mcq-72"
       ],
       "explanation": "本句的「customer-service issue」指「技術問題」。",
       "sentenceIndex": 23,
@@ -2539,12 +2445,10 @@ export default {
         "customer-service issue"
       ],
       "optionReasons": {
-        "issue-mcq-11": "本句指「技術問題」。",
-        "issue-mcq-10": "「問題；困難」與本句語境不同。",
-        "issue-mcq-12": "「品質問題」與本句語境不同。",
-        "issue-mcq-09": "「真正問題」與本句語境不同。",
-        "issue-mcq-13": "「送貨問題」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。"
+        "issue-mcq-11": "本句的「customer-service issue」指「技術問題」。",
+        "issue-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-11"
     },
@@ -2556,11 +2460,9 @@ export default {
       "masked": "Staff should escalate serious customer-service ____.",
       "options": [
         "issue-mcq-11",
-        "issue-mcq-10",
-        "issue-mcq-12",
-        "issue-mcq-09",
-        "issue-mcq-13",
-        "issue-mcq-08"
+        "issue-mcq-42",
+        "issue-mcq-73",
+        "issue-mcq-37"
       ],
       "explanation": "本句的「issues」指「技術問題」。",
       "sentenceIndex": 24,
@@ -2569,12 +2471,10 @@ export default {
         "issues"
       ],
       "optionReasons": {
-        "issue-mcq-11": "本句指「技術問題」。",
-        "issue-mcq-10": "「問題；困難」與本句語境不同。",
-        "issue-mcq-12": "「品質問題」與本句語境不同。",
-        "issue-mcq-09": "「真正問題」與本句語境不同。",
-        "issue-mcq-13": "「送貨問題」與本句語境不同。",
-        "issue-mcq-08": "「根本問題」與本句語境不同。"
+        "issue-mcq-11": "本句的「issues」指「技術問題」。",
+        "issue-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-11"
     },
@@ -2586,11 +2486,9 @@ export default {
       "masked": "The defective zip suggests a ____.",
       "options": [
         "issue-mcq-12",
-        "issue-mcq-11",
-        "issue-mcq-13",
-        "issue-mcq-10",
-        "issue-mcq-14",
-        "issue-mcq-09"
+        "issue-mcq-69",
+        "issue-mcq-37",
+        "issue-mcq-39"
       ],
       "explanation": "本句的「quality issue」指「品質問題」。",
       "sentenceIndex": 25,
@@ -2599,12 +2497,10 @@ export default {
         "quality issue"
       ],
       "optionReasons": {
-        "issue-mcq-12": "本句指「品質問題」。",
-        "issue-mcq-11": "「技術問題」與本句語境不同。",
-        "issue-mcq-13": "「送貨問題」與本句語境不同。",
-        "issue-mcq-10": "「問題；困難」與本句語境不同。",
-        "issue-mcq-14": "「社會議題」與本句語境不同。",
-        "issue-mcq-09": "「真正問題」與本句語境不同。"
+        "issue-mcq-12": "本句的「quality issue」指「品質問題」。",
+        "issue-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-12"
     },
@@ -2616,11 +2512,9 @@ export default {
       "masked": "Repeated returns may reveal a quality ____.",
       "options": [
         "issue-mcq-12",
-        "issue-mcq-11",
-        "issue-mcq-13",
-        "issue-mcq-10",
-        "issue-mcq-14",
-        "issue-mcq-09"
+        "issue-mcq-48",
+        "issue-mcq-73",
+        "issue-mcq-62"
       ],
       "explanation": "本句的「issue」指「品質問題」。",
       "sentenceIndex": 26,
@@ -2629,12 +2523,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-12": "本句指「品質問題」。",
-        "issue-mcq-11": "「技術問題」與本句語境不同。",
-        "issue-mcq-13": "「送貨問題」與本句語境不同。",
-        "issue-mcq-10": "「問題；困難」與本句語境不同。",
-        "issue-mcq-14": "「社會議題」與本句語境不同。",
-        "issue-mcq-09": "「真正問題」與本句語境不同。"
+        "issue-mcq-12": "本句的「issue」指「品質問題」。",
+        "issue-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-12"
     },
@@ -2646,11 +2538,9 @@ export default {
       "masked": "The refund was caused by a ____.",
       "options": [
         "issue-mcq-13",
-        "issue-mcq-12",
-        "issue-mcq-14",
-        "issue-mcq-11",
-        "issue-mcq-15",
-        "issue-mcq-10"
+        "issue-mcq-47",
+        "issue-mcq-40",
+        "issue-mcq-73"
       ],
       "explanation": "本句的「delivery issue」指「送貨問題」。",
       "sentenceIndex": 27,
@@ -2659,12 +2549,10 @@ export default {
         "delivery issue"
       ],
       "optionReasons": {
-        "issue-mcq-13": "本句指「送貨問題」。",
-        "issue-mcq-12": "「品質問題」與本句語境不同。",
-        "issue-mcq-14": "「社會議題」與本句語境不同。",
-        "issue-mcq-11": "「技術問題」與本句語境不同。",
-        "issue-mcq-15": "「環境議題」與本句語境不同。",
-        "issue-mcq-10": "「問題；困難」與本句語境不同。"
+        "issue-mcq-13": "本句的「delivery issue」指「送貨問題」。",
+        "issue-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-13"
     },
@@ -2676,11 +2564,9 @@ export default {
       "masked": "Customers should report delivery ____ promptly.",
       "options": [
         "issue-mcq-13",
-        "issue-mcq-12",
-        "issue-mcq-14",
-        "issue-mcq-11",
-        "issue-mcq-15",
-        "issue-mcq-10"
+        "issue-pdf-005",
+        "issue-pdf-002",
+        "issue-mcq-28"
       ],
       "explanation": "本句的「issues」指「送貨問題」。",
       "sentenceIndex": 28,
@@ -2689,12 +2575,10 @@ export default {
         "issues"
       ],
       "optionReasons": {
-        "issue-mcq-13": "本句指「送貨問題」。",
-        "issue-mcq-12": "「品質問題」與本句語境不同。",
-        "issue-mcq-14": "「社會議題」與本句語境不同。",
-        "issue-mcq-11": "「技術問題」與本句語境不同。",
-        "issue-mcq-15": "「環境議題」與本句語境不同。",
-        "issue-mcq-10": "「問題；困難」與本句語境不同。"
+        "issue-mcq-13": "本句的「issues」指「送貨問題」。",
+        "issue-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-13"
     },
@@ -2706,11 +2590,9 @@ export default {
       "masked": "Housing affordability is a major ____.",
       "options": [
         "issue-mcq-14",
-        "issue-mcq-13",
-        "issue-mcq-15",
-        "issue-mcq-12",
-        "issue-mcq-16",
-        "issue-mcq-11"
+        "issue-mcq-72",
+        "issue-mcq-54",
+        "issue-pdf-003"
       ],
       "explanation": "本句的「social issue」指「社會議題」。",
       "sentenceIndex": 29,
@@ -2719,12 +2601,10 @@ export default {
         "social issue"
       ],
       "optionReasons": {
-        "issue-mcq-14": "本句指「社會議題」。",
-        "issue-mcq-13": "「送貨問題」與本句語境不同。",
-        "issue-mcq-15": "「環境議題」與本句語境不同。",
-        "issue-mcq-12": "「品質問題」與本句語境不同。",
-        "issue-mcq-16": "「倫理問題」與本句語境不同。",
-        "issue-mcq-11": "「技術問題」與本句語境不同。"
+        "issue-mcq-14": "本句的「social issue」指「社會議題」。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-14"
     },
@@ -2736,11 +2616,9 @@ export default {
       "masked": "The campaign focused on several social ____.",
       "options": [
         "issue-mcq-14",
-        "issue-mcq-13",
-        "issue-mcq-15",
-        "issue-mcq-12",
-        "issue-mcq-16",
-        "issue-mcq-11"
+        "issue-mcq-42",
+        "issue-mcq-33",
+        "issue-pdf-004"
       ],
       "explanation": "本句的「issues」指「社會議題」。",
       "sentenceIndex": 30,
@@ -2749,12 +2627,10 @@ export default {
         "issues"
       ],
       "optionReasons": {
-        "issue-mcq-14": "本句指「社會議題」。",
-        "issue-mcq-13": "「送貨問題」與本句語境不同。",
-        "issue-mcq-15": "「環境議題」與本句語境不同。",
-        "issue-mcq-12": "「品質問題」與本句語境不同。",
-        "issue-mcq-16": "「倫理問題」與本句語境不同。",
-        "issue-mcq-11": "「技術問題」與本句語境不同。"
+        "issue-mcq-14": "本句的「issues」指「社會議題」。",
+        "issue-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-14"
     },
@@ -2766,11 +2642,9 @@ export default {
       "masked": "Waste is an important ____.",
       "options": [
         "issue-mcq-15",
-        "issue-mcq-14",
-        "issue-mcq-16",
-        "issue-mcq-13",
-        "issue-mcq-17",
-        "issue-mcq-12"
+        "issue-mcq-70",
+        "issue-mcq-65",
+        "issue-mcq-28"
       ],
       "explanation": "本句的「environmental issue」指「環境議題」。",
       "sentenceIndex": 31,
@@ -2779,12 +2653,10 @@ export default {
         "environmental issue"
       ],
       "optionReasons": {
-        "issue-mcq-15": "本句指「環境議題」。",
-        "issue-mcq-14": "「社會議題」與本句語境不同。",
-        "issue-mcq-16": "「倫理問題」與本句語境不同。",
-        "issue-mcq-13": "「送貨問題」與本句語境不同。",
-        "issue-mcq-17": "「政策議題」與本句語境不同。",
-        "issue-mcq-12": "「品質問題」與本句語境不同。"
+        "issue-mcq-15": "本句的「environmental issue」指「環境議題」。",
+        "issue-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-15"
     },
@@ -2796,11 +2668,9 @@ export default {
       "masked": "The report discusses environmental ____ facing the industry.",
       "options": [
         "issue-mcq-15",
-        "issue-mcq-14",
-        "issue-mcq-16",
-        "issue-mcq-13",
-        "issue-mcq-17",
-        "issue-mcq-12"
+        "issue-mcq-68",
+        "issue-mcq-46",
+        "issue-mcq-72"
       ],
       "explanation": "本句的「issues」指「環境議題」。",
       "sentenceIndex": 32,
@@ -2809,12 +2679,10 @@ export default {
         "issues"
       ],
       "optionReasons": {
-        "issue-mcq-15": "本句指「環境議題」。",
-        "issue-mcq-14": "「社會議題」與本句語境不同。",
-        "issue-mcq-16": "「倫理問題」與本句語境不同。",
-        "issue-mcq-13": "「送貨問題」與本句語境不同。",
-        "issue-mcq-17": "「政策議題」與本句語境不同。",
-        "issue-mcq-12": "「品質問題」與本句語境不同。"
+        "issue-mcq-15": "本句的「issues」指「環境議題」。",
+        "issue-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-15"
     },
@@ -2826,11 +2694,9 @@ export default {
       "masked": "The practice raises an ____.",
       "options": [
         "issue-mcq-16",
-        "issue-mcq-15",
-        "issue-mcq-17",
-        "issue-mcq-14",
-        "issue-mcq-18",
-        "issue-mcq-13"
+        "issue-mcq-39",
+        "issue-mcq-42",
+        "issue-pdf-002"
       ],
       "explanation": "本句的「ethical issue」指「倫理問題」。",
       "sentenceIndex": 33,
@@ -2839,12 +2705,10 @@ export default {
         "ethical issue"
       ],
       "optionReasons": {
-        "issue-mcq-16": "本句指「倫理問題」。",
-        "issue-mcq-15": "「環境議題」與本句語境不同。",
-        "issue-mcq-17": "「政策議題」與本句語境不同。",
-        "issue-mcq-14": "「社會議題」與本句語境不同。",
-        "issue-mcq-18": "「X 這個問題」與本句語境不同。",
-        "issue-mcq-13": "「送貨問題」與本句語境不同。"
+        "issue-mcq-16": "本句的「ethical issue」指「倫理問題」。",
+        "issue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-16"
     },
@@ -2856,11 +2720,9 @@ export default {
       "masked": "Data collection creates several ethical ____.",
       "options": [
         "issue-mcq-16",
-        "issue-mcq-15",
-        "issue-mcq-17",
-        "issue-mcq-14",
-        "issue-mcq-18",
-        "issue-mcq-13"
+        "issue-mcq-63",
+        "issue-mcq-37",
+        "issue-mcq-70"
       ],
       "explanation": "本句的「issues」指「倫理問題」。",
       "sentenceIndex": 34,
@@ -2869,12 +2731,10 @@ export default {
         "issues"
       ],
       "optionReasons": {
-        "issue-mcq-16": "本句指「倫理問題」。",
-        "issue-mcq-15": "「環境議題」與本句語境不同。",
-        "issue-mcq-17": "「政策議題」與本句語境不同。",
-        "issue-mcq-14": "「社會議題」與本句語境不同。",
-        "issue-mcq-18": "「X 這個問題」與本句語境不同。",
-        "issue-mcq-13": "「送貨問題」與本句語境不同。"
+        "issue-mcq-16": "本句的「issues」指「倫理問題」。",
+        "issue-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-16"
     },
@@ -2886,11 +2746,9 @@ export default {
       "masked": "Returns have become a ____ for management.",
       "options": [
         "issue-mcq-17",
-        "issue-mcq-16",
-        "issue-mcq-18",
-        "issue-mcq-15",
-        "issue-mcq-19",
-        "issue-mcq-14"
+        "issue-mcq-56",
+        "issue-mcq-54",
+        "issue-pdf-006"
       ],
       "explanation": "本句的「policy issue」指「政策議題」。",
       "sentenceIndex": 35,
@@ -2899,12 +2757,10 @@ export default {
         "policy issue"
       ],
       "optionReasons": {
-        "issue-mcq-17": "本句指「政策議題」。",
-        "issue-mcq-16": "「倫理問題」與本句語境不同。",
-        "issue-mcq-18": "「X 這個問題」與本句語境不同。",
-        "issue-mcq-15": "「環境議題」與本句語境不同。",
-        "issue-mcq-19": "「公平問題」與本句語境不同。",
-        "issue-mcq-14": "「社會議題」與本句語境不同。"
+        "issue-mcq-17": "本句的「policy issue」指「政策議題」。",
+        "issue-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-17"
     },
@@ -2916,11 +2772,9 @@ export default {
       "masked": "The letter raises a broader policy ____.",
       "options": [
         "issue-mcq-17",
-        "issue-mcq-16",
-        "issue-mcq-18",
-        "issue-mcq-15",
-        "issue-mcq-19",
-        "issue-mcq-14"
+        "issue-mcq-67",
+        "issue-mcq-69",
+        "issue-mcq-38"
       ],
       "explanation": "本句的「issue」指「政策議題」。",
       "sentenceIndex": 36,
@@ -2929,12 +2783,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-17": "本句指「政策議題」。",
-        "issue-mcq-16": "「倫理問題」與本句語境不同。",
-        "issue-mcq-18": "「X 這個問題」與本句語境不同。",
-        "issue-mcq-15": "「環境議題」與本句語境不同。",
-        "issue-mcq-19": "「公平問題」與本句語境不同。",
-        "issue-mcq-14": "「社會議題」與本句語境不同。"
+        "issue-mcq-17": "本句的「issue」指「政策議題」。",
+        "issue-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-17"
     },
@@ -2946,11 +2798,9 @@ export default {
       "masked": "The report discusses ____.",
       "options": [
         "issue-mcq-18",
-        "issue-mcq-17",
-        "issue-mcq-19",
-        "issue-mcq-16",
-        "issue-mcq-20",
-        "issue-mcq-15"
+        "issue-mcq-64",
+        "issue-mcq-36",
+        "issue-pdf-004"
       ],
       "explanation": "本句的「the issue of fairness」指「X 這個問題」。",
       "sentenceIndex": 37,
@@ -2959,12 +2809,10 @@ export default {
         "the issue of fairness"
       ],
       "optionReasons": {
-        "issue-mcq-18": "本句指「X 這個問題」。",
-        "issue-mcq-17": "「政策議題」與本句語境不同。",
-        "issue-mcq-19": "「公平問題」與本句語境不同。",
-        "issue-mcq-16": "「倫理問題」與本句語境不同。",
-        "issue-mcq-20": "「原則問題」與本句語境不同。",
-        "issue-mcq-15": "「環境議題」與本句語境不同。"
+        "issue-mcq-18": "本句的「the issue of fairness」指「X 這個問題」。",
+        "issue-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-18"
     },
@@ -2976,11 +2824,9 @@ export default {
       "masked": "We need to address the ____ of return abuse.",
       "options": [
         "issue-mcq-18",
-        "issue-mcq-17",
-        "issue-mcq-19",
-        "issue-mcq-16",
-        "issue-mcq-20",
-        "issue-mcq-15"
+        "issue-mcq-46",
+        "issue-mcq-49",
+        "issue-mcq-55"
       ],
       "explanation": "本句的「issue」指「X 這個問題」。",
       "sentenceIndex": 38,
@@ -2989,12 +2835,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-18": "本句指「X 這個問題」。",
-        "issue-mcq-17": "「政策議題」與本句語境不同。",
-        "issue-mcq-19": "「公平問題」與本句語境不同。",
-        "issue-mcq-16": "「倫理問題」與本句語境不同。",
-        "issue-mcq-20": "「原則問題」與本句語境不同。",
-        "issue-mcq-15": "「環境議題」與本句語境不同。"
+        "issue-mcq-18": "本句的「issue」指「X 這個問題」。",
+        "issue-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-18"
     },
@@ -3006,11 +2850,9 @@ export default {
       "masked": "This raises an ____.",
       "options": [
         "issue-mcq-19",
-        "issue-mcq-18",
-        "issue-mcq-20",
-        "issue-mcq-17",
-        "issue-mcq-21",
-        "issue-mcq-16"
+        "issue-mcq-66",
+        "issue-mcq-57",
+        "issue-mcq-72"
       ],
       "explanation": "本句的「issue of fairness」指「公平問題」。",
       "sentenceIndex": 39,
@@ -3019,12 +2861,10 @@ export default {
         "issue of fairness"
       ],
       "optionReasons": {
-        "issue-mcq-19": "本句指「公平問題」。",
-        "issue-mcq-18": "「X 這個問題」與本句語境不同。",
-        "issue-mcq-20": "「原則問題」與本句語境不同。",
-        "issue-mcq-17": "「政策議題」與本句語境不同。",
-        "issue-mcq-21": "「提出問題」與本句語境不同。",
-        "issue-mcq-16": "「倫理問題」與本句語境不同。"
+        "issue-mcq-19": "本句的「issue of fairness」指「公平問題」。",
+        "issue-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-19"
     },
@@ -3036,11 +2876,9 @@ export default {
       "masked": "The dispute is partly an ____ of fairness.",
       "options": [
         "issue-mcq-19",
-        "issue-mcq-18",
-        "issue-mcq-20",
-        "issue-mcq-17",
-        "issue-mcq-21",
-        "issue-mcq-16"
+        "issue-mcq-59",
+        "issue-mcq-69",
+        "issue-mcq-56"
       ],
       "explanation": "本句的「issue」指「公平問題」。",
       "sentenceIndex": 40,
@@ -3049,12 +2887,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-19": "本句指「公平問題」。",
-        "issue-mcq-18": "「X 這個問題」與本句語境不同。",
-        "issue-mcq-20": "「原則問題」與本句語境不同。",
-        "issue-mcq-17": "「政策議題」與本句語境不同。",
-        "issue-mcq-21": "「提出問題」與本句語境不同。",
-        "issue-mcq-16": "「倫理問題」與本句語境不同。"
+        "issue-mcq-19": "本句的「issue」指「公平問題」。",
+        "issue-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-19"
     },
@@ -3066,11 +2902,9 @@ export default {
       "masked": "For her, it was an ____.",
       "options": [
         "issue-mcq-20",
-        "issue-mcq-19",
-        "issue-mcq-21",
-        "issue-mcq-18",
-        "issue-mcq-22",
-        "issue-mcq-17"
+        "issue-mcq-63",
+        "issue-mcq-37",
+        "issue-mcq-72"
       ],
       "explanation": "本句的「issue of principle」指「原則問題」。",
       "sentenceIndex": 41,
@@ -3079,12 +2913,10 @@ export default {
         "issue of principle"
       ],
       "optionReasons": {
-        "issue-mcq-20": "本句指「原則問題」。",
-        "issue-mcq-19": "「公平問題」與本句語境不同。",
-        "issue-mcq-21": "「提出問題」與本句語境不同。",
-        "issue-mcq-18": "「X 這個問題」與本句語境不同。",
-        "issue-mcq-22": "「處理／正視問題」與本句語境不同。",
-        "issue-mcq-17": "「政策議題」與本句語境不同。"
+        "issue-mcq-20": "本句的「issue of principle」指「原則問題」。",
+        "issue-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-20"
     },
@@ -3096,11 +2928,9 @@ export default {
       "masked": "The amount was small, but the dispute became an ____ of principle.",
       "options": [
         "issue-mcq-20",
-        "issue-mcq-19",
-        "issue-mcq-21",
-        "issue-mcq-18",
-        "issue-mcq-22",
-        "issue-mcq-17"
+        "issue-pdf-004",
+        "issue-mcq-69",
+        "issue-mcq-43"
       ],
       "explanation": "本句的「issue」指「原則問題」。",
       "sentenceIndex": 42,
@@ -3109,12 +2939,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-20": "本句指「原則問題」。",
-        "issue-mcq-19": "「公平問題」與本句語境不同。",
-        "issue-mcq-21": "「提出問題」與本句語境不同。",
-        "issue-mcq-18": "「X 這個問題」與本句語境不同。",
-        "issue-mcq-22": "「處理／正視問題」與本句語境不同。",
-        "issue-mcq-17": "「政策議題」與本句語境不同。"
+        "issue-mcq-20": "本句的「issue」指「原則問題」。",
+        "issue-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-20"
     },
@@ -3126,11 +2954,9 @@ export default {
       "masked": "Chris ____ of fairness.",
       "options": [
         "issue-mcq-21",
-        "issue-mcq-20",
-        "issue-mcq-22",
-        "issue-mcq-19",
-        "issue-mcq-23",
-        "issue-mcq-18"
+        "issue-mcq-33",
+        "issue-mcq-55",
+        "issue-mcq-38"
       ],
       "explanation": "本句的「raises the issue」指「提出問題」。",
       "sentenceIndex": 43,
@@ -3139,12 +2965,10 @@ export default {
         "raises the issue"
       ],
       "optionReasons": {
-        "issue-mcq-21": "本句指「提出問題」。",
-        "issue-mcq-20": "「原則問題」與本句語境不同。",
-        "issue-mcq-22": "「處理／正視問題」與本句語境不同。",
-        "issue-mcq-19": "「公平問題」與本句語境不同。",
-        "issue-mcq-23": "「解決問題」與本句語境不同。",
-        "issue-mcq-18": "「X 這個問題」與本句語境不同。"
+        "issue-mcq-21": "本句的「raises the issue」指「提出問題」。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-21"
     },
@@ -3156,11 +2980,9 @@ export default {
       "masked": "Several employees raised the same ____.",
       "options": [
         "issue-mcq-21",
-        "issue-mcq-20",
-        "issue-mcq-22",
-        "issue-mcq-19",
-        "issue-mcq-23",
-        "issue-mcq-18"
+        "issue-mcq-75",
+        "issue-mcq-33",
+        "issue-mcq-72"
       ],
       "explanation": "本句的「issue」指「提出問題」。",
       "sentenceIndex": 44,
@@ -3169,12 +2991,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-21": "本句指「提出問題」。",
-        "issue-mcq-20": "「原則問題」與本句語境不同。",
-        "issue-mcq-22": "「處理／正視問題」與本句語境不同。",
-        "issue-mcq-19": "「公平問題」與本句語境不同。",
-        "issue-mcq-23": "「解決問題」與本句語境不同。",
-        "issue-mcq-18": "「X 這個問題」與本句語境不同。"
+        "issue-mcq-21": "本句的「issue」指「提出問題」。",
+        "issue-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-21"
     },
@@ -3186,11 +3006,9 @@ export default {
       "masked": "The revised policy would ____.",
       "options": [
         "issue-mcq-22",
-        "issue-mcq-21",
-        "issue-mcq-23",
-        "issue-mcq-20",
-        "issue-mcq-24",
-        "issue-mcq-19"
+        "issue-mcq-47",
+        "issue-mcq-44",
+        "issue-pdf-002"
       ],
       "explanation": "本句的「address the issue」指「處理／正視問題」。",
       "sentenceIndex": 45,
@@ -3199,12 +3017,10 @@ export default {
         "address the issue"
       ],
       "optionReasons": {
-        "issue-mcq-22": "本句指「處理／正視問題」。",
-        "issue-mcq-21": "「提出問題」與本句語境不同。",
-        "issue-mcq-23": "「解決問題」與本句語境不同。",
-        "issue-mcq-20": "「原則問題」與本句語境不同。",
-        "issue-mcq-24": "「處理問題」與本句語境不同。",
-        "issue-mcq-19": "「公平問題」與本句語境不同。"
+        "issue-mcq-22": "本句的「address the issue」指「處理／正視問題」。",
+        "issue-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-22"
     },
@@ -3216,11 +3032,9 @@ export default {
       "masked": "The exchange policy could ____.",
       "options": [
         "issue-mcq-23",
-        "issue-mcq-22",
-        "issue-mcq-24",
-        "issue-mcq-21",
-        "issue-mcq-25",
-        "issue-mcq-20"
+        "issue-mcq-37",
+        "issue-mcq-65",
+        "issue-mcq-70"
       ],
       "explanation": "本句的「resolve the issue」指「解決問題」。",
       "sentenceIndex": 46,
@@ -3229,12 +3043,10 @@ export default {
         "resolve the issue"
       ],
       "optionReasons": {
-        "issue-mcq-23": "本句指「解決問題」。",
-        "issue-mcq-22": "「處理／正視問題」與本句語境不同。",
-        "issue-mcq-24": "「處理問題」與本句語境不同。",
-        "issue-mcq-21": "「提出問題」與本句語境不同。",
-        "issue-mcq-25": "「識別問題」與本句語境不同。",
-        "issue-mcq-20": "「原則問題」與本句語境不同。"
+        "issue-mcq-23": "本句的「resolve the issue」指「解決問題」。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-23"
     },
@@ -3246,11 +3058,9 @@ export default {
       "masked": "Staff need authority to ____.",
       "options": [
         "issue-mcq-24",
-        "issue-mcq-23",
-        "issue-mcq-25",
-        "issue-mcq-22",
-        "issue-mcq-26",
-        "issue-mcq-21"
+        "issue-mcq-56",
+        "issue-mcq-55",
+        "issue-mcq-28"
       ],
       "explanation": "本句的「deal with minor issues」指「處理問題」。",
       "sentenceIndex": 47,
@@ -3259,12 +3069,10 @@ export default {
         "deal with minor issues"
       ],
       "optionReasons": {
-        "issue-mcq-24": "本句指「處理問題」。",
-        "issue-mcq-23": "「解決問題」與本句語境不同。",
-        "issue-mcq-25": "「識別問題」與本句語境不同。",
-        "issue-mcq-22": "「處理／正視問題」與本句語境不同。",
-        "issue-mcq-26": "「標記問題」與本句語境不同。",
-        "issue-mcq-21": "「提出問題」與本句語境不同。"
+        "issue-mcq-24": "本句的「deal with minor issues」指「處理問題」。",
+        "issue-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-24"
     },
@@ -3276,11 +3084,9 @@ export default {
       "masked": "The pilot may help ____ in the new process.",
       "options": [
         "issue-mcq-25",
-        "issue-mcq-24",
-        "issue-mcq-26",
-        "issue-mcq-23",
-        "issue-mcq-27",
-        "issue-mcq-22"
+        "issue-mcq-66",
+        "issue-mcq-33",
+        "issue-mcq-60"
       ],
       "explanation": "本句的「identify issues」指「識別問題」。",
       "sentenceIndex": 48,
@@ -3289,12 +3095,10 @@ export default {
         "identify issues"
       ],
       "optionReasons": {
-        "issue-mcq-25": "本句指「識別問題」。",
-        "issue-mcq-24": "「處理問題」與本句語境不同。",
-        "issue-mcq-26": "「標記問題」與本句語境不同。",
-        "issue-mcq-23": "「解決問題」與本句語境不同。",
-        "issue-mcq-27": "「把 X 當成大問題」與本句語境不同。",
-        "issue-mcq-22": "「處理／正視問題」與本句語境不同。"
+        "issue-mcq-25": "本句的「identify issues」指「識別問題」。",
+        "issue-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-25"
     },
@@ -3306,11 +3110,9 @@ export default {
       "masked": "Warehouse staff should ____ with returned goods.",
       "options": [
         "issue-mcq-26",
-        "issue-mcq-25",
-        "issue-mcq-27",
-        "issue-mcq-24",
-        "issue-mcq-28",
-        "issue-mcq-23"
+        "issue-mcq-72",
+        "issue-pdf-003",
+        "issue-mcq-34"
       ],
       "explanation": "本句的「flag any issue」指「標記問題」。",
       "sentenceIndex": 49,
@@ -3319,12 +3121,10 @@ export default {
         "flag any issue"
       ],
       "optionReasons": {
-        "issue-mcq-26": "本句指「標記問題」。",
-        "issue-mcq-25": "「識別問題」與本句語境不同。",
-        "issue-mcq-27": "「把 X 當成大問題」與本句語境不同。",
-        "issue-mcq-24": "「處理問題」與本句語境不同。",
-        "issue-mcq-28": "「不同意／反駁 X」與本句語境不同。",
-        "issue-mcq-23": "「解決問題」與本句語境不同。"
+        "issue-mcq-26": "本句的「flag any issue」指「標記問題」。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-26"
     },
@@ -3336,11 +3136,9 @@ export default {
       "masked": "The system flagged a potential ____.",
       "options": [
         "issue-mcq-26",
-        "issue-mcq-25",
-        "issue-mcq-27",
-        "issue-mcq-24",
-        "issue-mcq-28",
-        "issue-mcq-23"
+        "issue-mcq-72",
+        "issue-mcq-70",
+        "issue-mcq-75"
       ],
       "explanation": "本句的「issue」指「標記問題」。",
       "sentenceIndex": 50,
@@ -3349,12 +3147,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-26": "本句指「標記問題」。",
-        "issue-mcq-25": "「識別問題」與本句語境不同。",
-        "issue-mcq-27": "「把 X 當成大問題」與本句語境不同。",
-        "issue-mcq-24": "「處理問題」與本句語境不同。",
-        "issue-mcq-28": "「不同意／反駁 X」與本句語境不同。",
-        "issue-mcq-23": "「解決問題」與本句語境不同。"
+        "issue-mcq-26": "本句的「issue」指「標記問題」。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-26"
     },
@@ -3366,11 +3162,9 @@ export default {
       "masked": "She decided not to ____.",
       "options": [
         "issue-mcq-27",
-        "issue-mcq-26",
-        "issue-mcq-28",
-        "issue-mcq-25",
-        "issue-mcq-29",
-        "issue-mcq-24"
+        "issue-mcq-36",
+        "issue-mcq-45",
+        "issue-mcq-72"
       ],
       "explanation": "本句的「make an issue of the small delay」指「把 X 當成大問題」。",
       "sentenceIndex": 51,
@@ -3379,12 +3173,10 @@ export default {
         "make an issue of the small delay"
       ],
       "optionReasons": {
-        "issue-mcq-27": "本句指「把 X 當成大問題」。",
-        "issue-mcq-26": "「標記問題」與本句語境不同。",
-        "issue-mcq-28": "「不同意／反駁 X」與本句語境不同。",
-        "issue-mcq-25": "「識別問題」與本句語境不同。",
-        "issue-mcq-29": "「對 X 有問題／不滿」與本句語境不同。",
-        "issue-mcq-24": "「處理問題」與本句語境不同。"
+        "issue-mcq-27": "本句的「make an issue of the small delay」指「把 X 當成大問題」。",
+        "issue-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-27"
     },
@@ -3396,11 +3188,9 @@ export default {
       "masked": "The customer made an ____ of the missing tag.",
       "options": [
         "issue-mcq-27",
-        "issue-mcq-26",
-        "issue-mcq-28",
-        "issue-mcq-25",
-        "issue-mcq-29",
-        "issue-mcq-24"
+        "issue-mcq-72",
+        "issue-mcq-69",
+        "issue-mcq-62"
       ],
       "explanation": "本句的「issue」指「把 X 當成大問題」。",
       "sentenceIndex": 52,
@@ -3409,12 +3199,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-27": "本句指「把 X 當成大問題」。",
-        "issue-mcq-26": "「標記問題」與本句語境不同。",
-        "issue-mcq-28": "「不同意／反駁 X」與本句語境不同。",
-        "issue-mcq-25": "「識別問題」與本句語境不同。",
-        "issue-mcq-29": "「對 X 有問題／不滿」與本句語境不同。",
-        "issue-mcq-24": "「處理問題」與本句語境不同。"
+        "issue-mcq-27": "本句的「issue」指「把 X 當成大問題」。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-27"
     },
@@ -3426,11 +3214,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "issue-mcq-27",
-        "issue-mcq-26",
-        "issue-mcq-28",
-        "issue-mcq-25",
-        "issue-mcq-29",
-        "issue-mcq-24"
+        "issue-mcq-49",
+        "issue-mcq-67",
+        "issue-mcq-34"
       ],
       "explanation": "本句的「make a big issue of it」指「把 X 當成大問題」。",
       "sentenceIndex": 53,
@@ -3439,12 +3225,10 @@ export default {
         "make a big issue of it"
       ],
       "optionReasons": {
-        "issue-mcq-27": "本句指「把 X 當成大問題」。",
-        "issue-mcq-26": "「標記問題」與本句語境不同。",
-        "issue-mcq-28": "「不同意／反駁 X」與本句語境不同。",
-        "issue-mcq-25": "「識別問題」與本句語境不同。",
-        "issue-mcq-29": "「對 X 有問題／不滿」與本句語境不同。",
-        "issue-mcq-24": "「處理問題」與本句語境不同。"
+        "issue-mcq-27": "本句的「make a big issue of it」指「把 X 當成大問題」。",
+        "issue-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-27"
     },
@@ -3456,11 +3240,9 @@ export default {
       "masked": "The customer made a big ____ of a minor colour difference.",
       "options": [
         "issue-mcq-27",
-        "issue-mcq-26",
-        "issue-mcq-28",
-        "issue-mcq-25",
-        "issue-mcq-29",
-        "issue-mcq-24"
+        "issue-mcq-49",
+        "issue-pdf-006",
+        "issue-mcq-71"
       ],
       "explanation": "本句的「issue」指「把 X 當成大問題」。",
       "sentenceIndex": 54,
@@ -3469,12 +3251,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-27": "本句指「把 X 當成大問題」。",
-        "issue-mcq-26": "「標記問題」與本句語境不同。",
-        "issue-mcq-28": "「不同意／反駁 X」與本句語境不同。",
-        "issue-mcq-25": "「識別問題」與本句語境不同。",
-        "issue-mcq-29": "「對 X 有問題／不滿」與本句語境不同。",
-        "issue-mcq-24": "「處理問題」與本句語境不同。"
+        "issue-mcq-27": "本句的「issue」指「把 X 當成大問題」。",
+        "issue-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-27"
     },
@@ -3486,11 +3266,9 @@ export default {
       "masked": "I ____ that all returns are abusive.",
       "options": [
         "issue-mcq-28",
-        "issue-mcq-27",
-        "issue-mcq-29",
-        "issue-mcq-26",
-        "issue-mcq-30",
-        "issue-mcq-25"
+        "issue-mcq-12",
+        "issue-pdf-006",
+        "issue-mcq-56"
       ],
       "explanation": "本句的「take issue with the claim」指「不同意／反駁 X」。",
       "sentenceIndex": 55,
@@ -3499,12 +3277,10 @@ export default {
         "take issue with the claim"
       ],
       "optionReasons": {
-        "issue-mcq-28": "本句指「不同意／反駁 X」。",
-        "issue-mcq-27": "「把 X 當成大問題」與本句語境不同。",
-        "issue-mcq-29": "「對 X 有問題／不滿」與本句語境不同。",
-        "issue-mcq-26": "「標記問題」與本句語境不同。",
-        "issue-mcq-30": "「有心理／人際問題」與本句語境不同。",
-        "issue-mcq-25": "「識別問題」與本句語境不同。"
+        "issue-mcq-28": "本句的「take issue with the claim」指「不同意／反駁 X」。",
+        "issue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-28"
     },
@@ -3516,11 +3292,9 @@ export default {
       "masked": "Several managers took ____ with the proposal.",
       "options": [
         "issue-mcq-28",
-        "issue-mcq-27",
-        "issue-mcq-29",
-        "issue-mcq-26",
-        "issue-mcq-30",
-        "issue-mcq-25"
+        "issue-mcq-08",
+        "issue-mcq-75",
+        "issue-mcq-43"
       ],
       "explanation": "本句的「issue」指「不同意／反駁 X」。",
       "sentenceIndex": 56,
@@ -3529,12 +3303,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-28": "本句指「不同意／反駁 X」。",
-        "issue-mcq-27": "「把 X 當成大問題」與本句語境不同。",
-        "issue-mcq-29": "「對 X 有問題／不滿」與本句語境不同。",
-        "issue-mcq-26": "「標記問題」與本句語境不同。",
-        "issue-mcq-30": "「有心理／人際問題」與本句語境不同。",
-        "issue-mcq-25": "「識別問題」與本句語境不同。"
+        "issue-mcq-28": "本句的「issue」指「不同意／反駁 X」。",
+        "issue-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-28"
     },
@@ -3546,11 +3318,9 @@ export default {
       "masked": "She took ____ with his assumption.",
       "options": [
         "issue-mcq-28",
-        "issue-mcq-27",
-        "issue-mcq-29",
-        "issue-mcq-26",
-        "issue-mcq-30",
-        "issue-mcq-25"
+        "issue-mcq-63",
+        "issue-mcq-25",
+        "issue-mcq-71"
       ],
       "explanation": "本句的「issue」指「不同意／反駁 X」。",
       "sentenceIndex": 57,
@@ -3559,12 +3329,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-28": "本句指「不同意／反駁 X」。",
-        "issue-mcq-27": "「把 X 當成大問題」與本句語境不同。",
-        "issue-mcq-29": "「對 X 有問題／不滿」與本句語境不同。",
-        "issue-mcq-26": "「標記問題」與本句語境不同。",
-        "issue-mcq-30": "「有心理／人際問題」與本句語境不同。",
-        "issue-mcq-25": "「識別問題」與本句語境不同。"
+        "issue-mcq-28": "本句的「issue」指「不同意／反駁 X」。",
+        "issue-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-28"
     },
@@ -3576,11 +3344,9 @@ export default {
       "masked": "I take ____ with the idea that strict rules are always fair.",
       "options": [
         "issue-mcq-28",
-        "issue-mcq-27",
-        "issue-mcq-29",
-        "issue-mcq-26",
-        "issue-mcq-30",
-        "issue-mcq-25"
+        "issue-mcq-38",
+        "issue-mcq-04",
+        "issue-mcq-43"
       ],
       "explanation": "本句的「issue」指「不同意／反駁 X」。",
       "sentenceIndex": 58,
@@ -3589,12 +3355,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-28": "本句指「不同意／反駁 X」。",
-        "issue-mcq-27": "「把 X 當成大問題」與本句語境不同。",
-        "issue-mcq-29": "「對 X 有問題／不滿」與本句語境不同。",
-        "issue-mcq-26": "「標記問題」與本句語境不同。",
-        "issue-mcq-30": "「有心理／人際問題」與本句語境不同。",
-        "issue-mcq-25": "「識別問題」與本句語境不同。"
+        "issue-mcq-28": "本句的「issue」指「不同意／反駁 X」。",
+        "issue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-28"
     },
@@ -3606,11 +3370,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "issue-mcq-29",
-        "issue-mcq-28",
-        "issue-mcq-30",
-        "issue-mcq-27",
-        "issue-mcq-31",
-        "issue-mcq-26"
+        "issue-mcq-71",
+        "issue-mcq-55",
+        "issue-mcq-36"
       ],
       "explanation": "本句的「have an issue with the current policy」指「對 X 有問題／不滿」。",
       "sentenceIndex": 59,
@@ -3619,12 +3381,10 @@ export default {
         "have an issue with the current policy"
       ],
       "optionReasons": {
-        "issue-mcq-29": "本句指「對 X 有問題／不滿」。",
-        "issue-mcq-28": "「不同意／反駁 X」與本句語境不同。",
-        "issue-mcq-30": "「有心理／人際問題」與本句語境不同。",
-        "issue-mcq-27": "「把 X 當成大問題」與本句語境不同。",
-        "issue-mcq-31": "「信任問題」與本句語境不同。",
-        "issue-mcq-26": "「標記問題」與本句語境不同。"
+        "issue-mcq-29": "本句的「have an issue with the current policy」指「對 X 有問題／不滿」。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-29"
     },
@@ -3636,11 +3396,9 @@ export default {
       "masked": "Customers have an ____ with the lack of flexibility.",
       "options": [
         "issue-mcq-29",
-        "issue-mcq-28",
-        "issue-mcq-30",
-        "issue-mcq-27",
-        "issue-mcq-31",
-        "issue-mcq-26"
+        "issue-mcq-71",
+        "issue-mcq-51",
+        "issue-mcq-70"
       ],
       "explanation": "本句的「issue」指「對 X 有問題／不滿」。",
       "sentenceIndex": 60,
@@ -3649,12 +3407,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-29": "本句指「對 X 有問題／不滿」。",
-        "issue-mcq-28": "「不同意／反駁 X」與本句語境不同。",
-        "issue-mcq-30": "「有心理／人際問題」與本句語境不同。",
-        "issue-mcq-27": "「把 X 當成大問題」與本句語境不同。",
-        "issue-mcq-31": "「信任問題」與本句語境不同。",
-        "issue-mcq-26": "「標記問題」與本句語境不同。"
+        "issue-mcq-29": "本句的「issue」指「對 X 有問題／不滿」。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-29"
     },
@@ -3666,11 +3422,9 @@ export default {
       "masked": "Do you ____?",
       "options": [
         "issue-mcq-29",
-        "issue-mcq-28",
-        "issue-mcq-30",
-        "issue-mcq-27",
-        "issue-mcq-31",
-        "issue-mcq-26"
+        "issue-mcq-56",
+        "issue-mcq-47",
+        "issue-mcq-40"
       ],
       "explanation": "本句的「have an issue with me」指「對 X 有問題／不滿」。",
       "sentenceIndex": 61,
@@ -3679,12 +3433,10 @@ export default {
         "have an issue with me"
       ],
       "optionReasons": {
-        "issue-mcq-29": "本句指「對 X 有問題／不滿」。",
-        "issue-mcq-28": "「不同意／反駁 X」與本句語境不同。",
-        "issue-mcq-30": "「有心理／人際問題」與本句語境不同。",
-        "issue-mcq-27": "「把 X 當成大問題」與本句語境不同。",
-        "issue-mcq-31": "「信任問題」與本句語境不同。",
-        "issue-mcq-26": "「標記問題」與本句語境不同。"
+        "issue-mcq-29": "本句的「have an issue with me」指「對 X 有問題／不滿」。",
+        "issue-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-29"
     },
@@ -3696,11 +3448,9 @@ export default {
       "masked": "She has no ____ with the staff; her complaint concerns the policy.",
       "options": [
         "issue-mcq-29",
-        "issue-mcq-28",
-        "issue-mcq-30",
-        "issue-mcq-27",
-        "issue-mcq-31",
-        "issue-mcq-26"
+        "issue-mcq-56",
+        "issue-mcq-71",
+        "issue-mcq-47"
       ],
       "explanation": "本句的「issue」指「對 X 有問題／不滿」。",
       "sentenceIndex": 62,
@@ -3709,12 +3459,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-29": "本句指「對 X 有問題／不滿」。",
-        "issue-mcq-28": "「不同意／反駁 X」與本句語境不同。",
-        "issue-mcq-30": "「有心理／人際問題」與本句語境不同。",
-        "issue-mcq-27": "「把 X 當成大問題」與本句語境不同。",
-        "issue-mcq-31": "「信任問題」與本句語境不同。",
-        "issue-mcq-26": "「標記問題」與本句語境不同。"
+        "issue-mcq-29": "本句的「issue」指「對 X 有問題／不滿」。",
+        "issue-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-29"
     },
@@ -3726,11 +3474,9 @@ export default {
       "masked": "He clearly ____.",
       "options": [
         "issue-mcq-30",
-        "issue-mcq-29",
-        "issue-mcq-31",
-        "issue-mcq-28",
-        "issue-mcq-32",
-        "issue-mcq-27"
+        "issue-mcq-70",
+        "issue-mcq-48",
+        "issue-mcq-73"
       ],
       "explanation": "本句的「has issues with trust」指「有心理／人際問題」。",
       "sentenceIndex": 63,
@@ -3739,12 +3485,10 @@ export default {
         "has issues with trust"
       ],
       "optionReasons": {
-        "issue-mcq-30": "本句指「有心理／人際問題」。",
-        "issue-mcq-29": "「對 X 有問題／不滿」與本句語境不同。",
-        "issue-mcq-31": "「信任問題」與本句語境不同。",
-        "issue-mcq-28": "「不同意／反駁 X」與本句語境不同。",
-        "issue-mcq-32": "「法律爭點」與本句語境不同。",
-        "issue-mcq-27": "「把 X 當成大問題」與本句語境不同。"
+        "issue-mcq-30": "本句的「has issues with trust」指「有心理／人際問題」。",
+        "issue-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-30"
     },
@@ -3756,11 +3500,9 @@ export default {
       "masked": "Saying someone “has ____” can sound dismissive.",
       "options": [
         "issue-mcq-30",
-        "issue-mcq-29",
-        "issue-mcq-31",
-        "issue-mcq-28",
-        "issue-mcq-32",
-        "issue-mcq-27"
+        "issue-mcq-55",
+        "issue-mcq-40",
+        "issue-mcq-68"
       ],
       "explanation": "本句的「issues」指「有心理／人際問題」。",
       "sentenceIndex": 64,
@@ -3769,12 +3511,10 @@ export default {
         "issues"
       ],
       "optionReasons": {
-        "issue-mcq-30": "本句指「有心理／人際問題」。",
-        "issue-mcq-29": "「對 X 有問題／不滿」與本句語境不同。",
-        "issue-mcq-31": "「信任問題」與本句語境不同。",
-        "issue-mcq-28": "「不同意／反駁 X」與本句語境不同。",
-        "issue-mcq-32": "「法律爭點」與本句語境不同。",
-        "issue-mcq-27": "「把 X 當成大問題」與本句語境不同。"
+        "issue-mcq-30": "本句的「issues」指「有心理／人際問題」。",
+        "issue-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-30"
     },
@@ -3786,11 +3526,9 @@ export default {
       "masked": "Past experiences left him with ____.",
       "options": [
         "issue-mcq-31",
-        "issue-mcq-30",
-        "issue-mcq-32",
-        "issue-mcq-29",
-        "issue-mcq-28",
-        "issue-mcq-34"
+        "issue-mcq-54",
+        "issue-mcq-33",
+        "issue-mcq-56"
       ],
       "explanation": "本句的「trust issues」指「信任問題」。",
       "sentenceIndex": 65,
@@ -3799,12 +3537,10 @@ export default {
         "trust issues"
       ],
       "optionReasons": {
-        "issue-mcq-31": "本句指「信任問題」。",
-        "issue-mcq-30": "「有心理／人際問題」與本句語境不同。",
-        "issue-mcq-32": "「法律爭點」與本句語境不同。",
-        "issue-mcq-29": "「對 X 有問題／不滿」與本句語境不同。",
-        "issue-mcq-28": "「不同意／反駁 X」與本句語境不同。",
-        "issue-mcq-34": "「事實爭點」與本句語境不同。"
+        "issue-mcq-31": "本句的「trust issues」指「信任問題」。",
+        "issue-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-31"
     },
@@ -3816,11 +3552,9 @@ export default {
       "masked": "Workplace conflict can create trust ____ between colleagues.",
       "options": [
         "issue-mcq-31",
-        "issue-mcq-30",
-        "issue-mcq-32",
-        "issue-mcq-29",
-        "issue-mcq-28",
-        "issue-mcq-34"
+        "issue-mcq-73",
+        "issue-mcq-45",
+        "issue-mcq-28"
       ],
       "explanation": "本句的「issues」指「信任問題」。",
       "sentenceIndex": 66,
@@ -3829,12 +3563,10 @@ export default {
         "issues"
       ],
       "optionReasons": {
-        "issue-mcq-31": "本句指「信任問題」。",
-        "issue-mcq-30": "「有心理／人際問題」與本句語境不同。",
-        "issue-mcq-32": "「法律爭點」與本句語境不同。",
-        "issue-mcq-29": "「對 X 有問題／不滿」與本句語境不同。",
-        "issue-mcq-28": "「不同意／反駁 X」與本句語境不同。",
-        "issue-mcq-34": "「事實爭點」與本句語境不同。"
+        "issue-mcq-31": "本句的「issues」指「信任問題」。",
+        "issue-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-31"
     },
@@ -3846,11 +3578,9 @@ export default {
       "masked": "The case raises an important ____.",
       "options": [
         "issue-pdf-001",
-        "issue-mcq-31",
-        "issue-mcq-30",
-        "issue-mcq-34",
-        "issue-mcq-29",
-        "issue-mcq-35"
+        "issue-mcq-37",
+        "issue-mcq-71",
+        "issue-mcq-62"
       ],
       "explanation": "本句的「legal issue」指「需要依法律規則作出判斷的問題」。",
       "sentenceIndex": 67,
@@ -3859,12 +3589,10 @@ export default {
         "legal issue"
       ],
       "optionReasons": {
-        "issue-pdf-001": "本句指「需要依法律規則作出判斷的問題」。",
-        "issue-mcq-31": "「信任問題」與本句語境不同。",
-        "issue-mcq-30": "「有心理／人際問題」與本句語境不同。",
-        "issue-mcq-34": "「事實爭點」與本句語境不同。",
-        "issue-mcq-29": "「對 X 有問題／不滿」與本句語境不同。",
-        "issue-mcq-35": "「一期刊物」與本句語境不同。"
+        "issue-pdf-001": "本句的「legal issue」指「需要依法律規則作出判斷的問題」。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-pdf-001"
     },
@@ -3876,11 +3604,9 @@ export default {
       "masked": "Consumer rights may create legal ____ for the retailer.",
       "options": [
         "issue-pdf-001",
-        "issue-mcq-31",
-        "issue-mcq-30",
-        "issue-mcq-34",
-        "issue-mcq-29",
-        "issue-mcq-35"
+        "issue-mcq-62",
+        "issue-mcq-37",
+        "issue-mcq-63"
       ],
       "explanation": "本句的「issues」指「需要依法律規則作出判斷的問題」。",
       "sentenceIndex": 68,
@@ -3889,12 +3615,10 @@ export default {
         "issues"
       ],
       "optionReasons": {
-        "issue-pdf-001": "本句指「需要依法律規則作出判斷的問題」。",
-        "issue-mcq-31": "「信任問題」與本句語境不同。",
-        "issue-mcq-30": "「有心理／人際問題」與本句語境不同。",
-        "issue-mcq-34": "「事實爭點」與本句語境不同。",
-        "issue-mcq-29": "「對 X 有問題／不滿」與本句語境不同。",
-        "issue-mcq-35": "「一期刊物」與本句語境不同。"
+        "issue-pdf-001": "本句的「issues」指「需要依法律規則作出判斷的問題」。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-pdf-001"
     },
@@ -3906,11 +3630,9 @@ export default {
       "masked": "The appeal concerns an ____.",
       "options": [
         "issue-mcq-33",
-        "issue-mcq-34",
-        "issue-mcq-31",
-        "issue-mcq-35",
-        "issue-mcq-30",
-        "issue-mcq-36"
+        "issue-mcq-60",
+        "issue-mcq-69",
+        "issue-mcq-56"
       ],
       "explanation": "本句的「issue of law」指「法律爭點」。",
       "sentenceIndex": 69,
@@ -3919,12 +3641,10 @@ export default {
         "issue of law"
       ],
       "optionReasons": {
-        "issue-mcq-33": "本句指「法律爭點」。",
-        "issue-mcq-34": "「事實爭點」與本句語境不同。",
-        "issue-mcq-31": "「信任問題」與本句語境不同。",
-        "issue-mcq-35": "「一期刊物」與本句語境不同。",
-        "issue-mcq-30": "「有心理／人際問題」與本句語境不同。",
-        "issue-mcq-36": "「本期」與本句語境不同。"
+        "issue-mcq-33": "本句的「issue of law」指「法律爭點」。",
+        "issue-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-33"
     },
@@ -3936,11 +3656,9 @@ export default {
       "masked": "The court must determine the legal ____.",
       "options": [
         "issue-mcq-33",
-        "issue-mcq-34",
-        "issue-mcq-31",
-        "issue-mcq-35",
-        "issue-mcq-30",
-        "issue-mcq-36"
+        "issue-mcq-56",
+        "issue-mcq-12",
+        "issue-mcq-71"
       ],
       "explanation": "本句的「issue」指「法律爭點」。",
       "sentenceIndex": 70,
@@ -3949,12 +3667,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-33": "本句指「法律爭點」。",
-        "issue-mcq-34": "「事實爭點」與本句語境不同。",
-        "issue-mcq-31": "「信任問題」與本句語境不同。",
-        "issue-mcq-35": "「一期刊物」與本句語境不同。",
-        "issue-mcq-30": "「有心理／人際問題」與本句語境不同。",
-        "issue-mcq-36": "「本期」與本句語境不同。"
+        "issue-mcq-33": "本句的「issue」指「法律爭點」。",
+        "issue-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-33"
     },
@@ -3966,11 +3682,9 @@ export default {
       "masked": "Whether the item was worn is an ____.",
       "options": [
         "issue-mcq-34",
-        "issue-mcq-33",
-        "issue-mcq-35",
-        "issue-mcq-36",
-        "issue-mcq-31",
-        "issue-mcq-37"
+        "issue-mcq-50",
+        "issue-mcq-22",
+        "issue-mcq-60"
       ],
       "explanation": "本句的「issue of fact」指「事實爭點」。",
       "sentenceIndex": 71,
@@ -3979,12 +3693,10 @@ export default {
         "issue of fact"
       ],
       "optionReasons": {
-        "issue-mcq-34": "本句指「事實爭點」。",
-        "issue-mcq-33": "「法律爭點」與本句語境不同。",
-        "issue-mcq-35": "「一期刊物」與本句語境不同。",
-        "issue-mcq-36": "「本期」與本句語境不同。",
-        "issue-mcq-31": "「信任問題」與本句語境不同。",
-        "issue-mcq-37": "「最新一期」與本句語境不同。"
+        "issue-mcq-34": "本句的「issue of fact」指「事實爭點」。",
+        "issue-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-34"
     },
@@ -3996,11 +3708,9 @@ export default {
       "masked": "The parties disagreed on several ____ of fact.",
       "options": [
         "issue-mcq-34",
-        "issue-mcq-33",
-        "issue-mcq-35",
-        "issue-mcq-36",
-        "issue-mcq-31",
-        "issue-mcq-37"
+        "issue-mcq-64",
+        "issue-mcq-25",
+        "issue-mcq-72"
       ],
       "explanation": "本句的「issues」指「事實爭點」。",
       "sentenceIndex": 72,
@@ -4009,12 +3719,10 @@ export default {
         "issues"
       ],
       "optionReasons": {
-        "issue-mcq-34": "本句指「事實爭點」。",
-        "issue-mcq-33": "「法律爭點」與本句語境不同。",
-        "issue-mcq-35": "「一期刊物」與本句語境不同。",
-        "issue-mcq-36": "「本期」與本句語境不同。",
-        "issue-mcq-31": "「信任問題」與本句語境不同。",
-        "issue-mcq-37": "「最新一期」與本句語境不同。"
+        "issue-mcq-34": "本句的「issues」指「事實爭點」。",
+        "issue-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-34"
     },
@@ -4026,11 +3734,9 @@ export default {
       "masked": "The judgment identified the main ____.",
       "options": [
         "issue-mcq-34",
-        "issue-mcq-33",
-        "issue-mcq-35",
-        "issue-mcq-36",
-        "issue-mcq-31",
-        "issue-mcq-37"
+        "issue-mcq-27",
+        "issue-mcq-68",
+        "issue-mcq-15"
       ],
       "explanation": "本句的「issues before the court」指「事實爭點」。",
       "sentenceIndex": 73,
@@ -4039,12 +3745,10 @@ export default {
         "issues before the court"
       ],
       "optionReasons": {
-        "issue-mcq-34": "本句指「事實爭點」。",
-        "issue-mcq-33": "「法律爭點」與本句語境不同。",
-        "issue-mcq-35": "「一期刊物」與本句語境不同。",
-        "issue-mcq-36": "「本期」與本句語境不同。",
-        "issue-mcq-31": "「信任問題」與本句語境不同。",
-        "issue-mcq-37": "「最新一期」與本句語境不同。"
+        "issue-mcq-34": "本句的「issues before the court」指「事實爭點」。",
+        "issue-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-34"
     },
@@ -4056,11 +3760,9 @@ export default {
       "masked": "Not every background fact is an ____ requiring determination.",
       "options": [
         "issue-mcq-34",
-        "issue-mcq-33",
-        "issue-mcq-35",
-        "issue-mcq-36",
-        "issue-mcq-31",
-        "issue-mcq-37"
+        "issue-mcq-61",
+        "issue-mcq-18",
+        "issue-mcq-28"
       ],
       "explanation": "本句的「issue」指「事實爭點」。",
       "sentenceIndex": 74,
@@ -4069,12 +3771,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-34": "本句指「事實爭點」。",
-        "issue-mcq-33": "「法律爭點」與本句語境不同。",
-        "issue-mcq-35": "「一期刊物」與本句語境不同。",
-        "issue-mcq-36": "「本期」與本句語境不同。",
-        "issue-mcq-31": "「信任問題」與本句語境不同。",
-        "issue-mcq-37": "「最新一期」與本句語境不同。"
+        "issue-mcq-34": "本句的「issue」指「事實爭點」。",
+        "issue-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-34"
     },
@@ -4086,11 +3786,9 @@ export default {
       "masked": "I bought the latest ____.",
       "options": [
         "issue-pdf-002",
-        "issue-mcq-34",
-        "issue-mcq-36",
+        "issue-mcq-18",
         "issue-mcq-33",
-        "issue-mcq-37",
-        "issue-mcq-38"
+        "issue-mcq-42"
       ],
       "explanation": "本句的「issue of the magazine」指「報紙、雜誌、期刊等定期出版物中的其中一期」。",
       "sentenceIndex": 75,
@@ -4099,12 +3797,10 @@ export default {
         "issue of the magazine"
       ],
       "optionReasons": {
-        "issue-pdf-002": "本句指「報紙、雜誌、期刊等定期出版物中的其中一期」。",
-        "issue-mcq-34": "「事實爭點」與本句語境不同。",
-        "issue-mcq-36": "「本期」與本句語境不同。",
-        "issue-mcq-33": "「法律爭點」與本句語境不同。",
-        "issue-mcq-37": "「最新一期」與本句語境不同。",
-        "issue-mcq-38": "「舊期刊物」與本句語境不同。"
+        "issue-pdf-002": "本句的「issue of the magazine」指「報紙、雜誌、期刊等定期出版物中的其中一期」。",
+        "issue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-pdf-002"
     },
@@ -4116,11 +3812,9 @@ export default {
       "masked": "The article appeared in the September ____.",
       "options": [
         "issue-pdf-002",
-        "issue-mcq-34",
-        "issue-mcq-36",
-        "issue-mcq-33",
-        "issue-mcq-37",
-        "issue-mcq-38"
+        "issue-mcq-59",
+        "issue-mcq-19",
+        "issue-mcq-01"
       ],
       "explanation": "本句的「issue」指「報紙、雜誌、期刊等定期出版物中的其中一期」。",
       "sentenceIndex": 76,
@@ -4129,12 +3823,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-pdf-002": "本句指「報紙、雜誌、期刊等定期出版物中的其中一期」。",
-        "issue-mcq-34": "「事實爭點」與本句語境不同。",
-        "issue-mcq-36": "「本期」與本句語境不同。",
-        "issue-mcq-33": "「法律爭點」與本句語境不同。",
-        "issue-mcq-37": "「最新一期」與本句語境不同。",
-        "issue-mcq-38": "「舊期刊物」與本句語境不同。"
+        "issue-pdf-002": "本句的「issue」指「報紙、雜誌、期刊等定期出版物中的其中一期」。",
+        "issue-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-pdf-002"
     },
@@ -4146,11 +3838,9 @@ export default {
       "masked": "The article appears in the ____.",
       "options": [
         "issue-mcq-36",
-        "issue-mcq-35",
-        "issue-mcq-37",
-        "issue-mcq-34",
-        "issue-mcq-38",
-        "issue-mcq-33"
+        "issue-mcq-67",
+        "issue-mcq-01",
+        "issue-mcq-57"
       ],
       "explanation": "本句的「current issue」指「本期」。",
       "sentenceIndex": 77,
@@ -4159,12 +3849,10 @@ export default {
         "current issue"
       ],
       "optionReasons": {
-        "issue-mcq-36": "本句指「本期」。",
-        "issue-mcq-35": "「一期刊物」與本句語境不同。",
-        "issue-mcq-37": "「最新一期」與本句語境不同。",
-        "issue-mcq-34": "「事實爭點」與本句語境不同。",
-        "issue-mcq-38": "「舊期刊物」與本句語境不同。",
-        "issue-mcq-33": "「法律爭點」與本句語境不同。"
+        "issue-mcq-36": "本句的「current issue」指「本期」。",
+        "issue-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-36"
     },
@@ -4176,11 +3864,9 @@ export default {
       "masked": "The current ____ focuses on online retail.",
       "options": [
         "issue-mcq-36",
-        "issue-mcq-35",
-        "issue-mcq-37",
         "issue-mcq-34",
-        "issue-mcq-38",
-        "issue-mcq-33"
+        "issue-mcq-64",
+        "issue-mcq-20"
       ],
       "explanation": "本句的「issue」指「本期」。",
       "sentenceIndex": 78,
@@ -4189,12 +3875,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-36": "本句指「本期」。",
-        "issue-mcq-35": "「一期刊物」與本句語境不同。",
-        "issue-mcq-37": "「最新一期」與本句語境不同。",
-        "issue-mcq-34": "「事實爭點」與本句語境不同。",
-        "issue-mcq-38": "「舊期刊物」與本句語境不同。",
-        "issue-mcq-33": "「法律爭點」與本句語境不同。"
+        "issue-mcq-36": "本句的「issue」指「本期」。",
+        "issue-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-36"
     },
@@ -4206,11 +3890,9 @@ export default {
       "masked": "Have you seen the ____?",
       "options": [
         "issue-mcq-37",
-        "issue-mcq-36",
-        "issue-mcq-38",
-        "issue-mcq-35",
-        "issue-mcq-39",
-        "issue-mcq-34"
+        "issue-mcq-71",
+        "issue-mcq-47",
+        "issue-mcq-46"
       ],
       "explanation": "本句的「latest issue」指「最新一期」。",
       "sentenceIndex": 79,
@@ -4219,12 +3901,10 @@ export default {
         "latest issue"
       ],
       "optionReasons": {
-        "issue-mcq-37": "本句指「最新一期」。",
-        "issue-mcq-36": "「本期」與本句語境不同。",
-        "issue-mcq-38": "「舊期刊物」與本句語境不同。",
-        "issue-mcq-35": "「一期刊物」與本句語境不同。",
-        "issue-mcq-39": "「特刊／專號」與本句語境不同。",
-        "issue-mcq-34": "「事實爭點」與本句語境不同。"
+        "issue-mcq-37": "本句的「latest issue」指「最新一期」。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-37"
     },
@@ -4236,11 +3916,9 @@ export default {
       "masked": "The latest ____ contains a special report.",
       "options": [
         "issue-mcq-37",
-        "issue-mcq-36",
-        "issue-mcq-38",
-        "issue-mcq-35",
-        "issue-mcq-39",
-        "issue-mcq-34"
+        "issue-mcq-65",
+        "issue-mcq-09",
+        "issue-mcq-56"
       ],
       "explanation": "本句的「issue」指「最新一期」。",
       "sentenceIndex": 80,
@@ -4249,12 +3927,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-37": "本句指「最新一期」。",
-        "issue-mcq-36": "「本期」與本句語境不同。",
-        "issue-mcq-38": "「舊期刊物」與本句語境不同。",
-        "issue-mcq-35": "「一期刊物」與本句語境不同。",
-        "issue-mcq-39": "「特刊／專號」與本句語境不同。",
-        "issue-mcq-34": "「事實爭點」與本句語境不同。"
+        "issue-mcq-37": "本句的「issue」指「最新一期」。",
+        "issue-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-37"
     },
@@ -4266,11 +3942,9 @@ export default {
       "masked": "The library keeps ____ of the journal.",
       "options": [
         "issue-mcq-38",
-        "issue-mcq-37",
-        "issue-mcq-39",
-        "issue-mcq-36",
-        "issue-mcq-40",
-        "issue-mcq-35"
+        "issue-pdf-001",
+        "issue-pdf-003",
+        "issue-mcq-56"
       ],
       "explanation": "本句的「back issues」指「舊期刊物」。",
       "sentenceIndex": 81,
@@ -4279,12 +3953,10 @@ export default {
         "back issues"
       ],
       "optionReasons": {
-        "issue-mcq-38": "本句指「舊期刊物」。",
-        "issue-mcq-37": "「最新一期」與本句語境不同。",
-        "issue-mcq-39": "「特刊／專號」與本句語境不同。",
-        "issue-mcq-36": "「本期」與本句語境不同。",
-        "issue-mcq-40": "「期號」與本句語境不同。",
-        "issue-mcq-35": "「一期刊物」與本句語境不同。"
+        "issue-mcq-38": "本句的「back issues」指「舊期刊物」。",
+        "issue-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-38"
     },
@@ -4296,11 +3968,9 @@ export default {
       "masked": "You can order back ____ online.",
       "options": [
         "issue-mcq-38",
-        "issue-mcq-37",
-        "issue-mcq-39",
-        "issue-mcq-36",
-        "issue-mcq-40",
-        "issue-mcq-35"
+        "issue-mcq-70",
+        "issue-mcq-18",
+        "issue-mcq-66"
       ],
       "explanation": "本句的「issues」指「舊期刊物」。",
       "sentenceIndex": 82,
@@ -4309,12 +3979,10 @@ export default {
         "issues"
       ],
       "optionReasons": {
-        "issue-mcq-38": "本句指「舊期刊物」。",
-        "issue-mcq-37": "「最新一期」與本句語境不同。",
-        "issue-mcq-39": "「特刊／專號」與本句語境不同。",
-        "issue-mcq-36": "「本期」與本句語境不同。",
-        "issue-mcq-40": "「期號」與本句語境不同。",
-        "issue-mcq-35": "「一期刊物」與本句語境不同。"
+        "issue-mcq-38": "本句的「issues」指「舊期刊物」。",
+        "issue-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-38"
     },
@@ -4326,11 +3994,9 @@ export default {
       "masked": "The journal published a ____ on consumer behaviour.",
       "options": [
         "issue-mcq-39",
-        "issue-mcq-38",
-        "issue-mcq-40",
-        "issue-mcq-37",
-        "issue-mcq-41",
-        "issue-mcq-36"
+        "issue-mcq-60",
+        "issue-mcq-34",
+        "issue-mcq-08"
       ],
       "explanation": "本句的「special issue」指「特刊／專號」。",
       "sentenceIndex": 83,
@@ -4339,12 +4005,10 @@ export default {
         "special issue"
       ],
       "optionReasons": {
-        "issue-mcq-39": "本句指「特刊／專號」。",
-        "issue-mcq-38": "「舊期刊物」與本句語境不同。",
-        "issue-mcq-40": "「期號」與本句語境不同。",
-        "issue-mcq-37": "「最新一期」與本句語境不同。",
-        "issue-mcq-41": "「發出；簽發」與本句語境不同。",
-        "issue-mcq-36": "「本期」與本句語境不同。"
+        "issue-mcq-39": "本句的「special issue」指「特刊／專號」。",
+        "issue-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-39"
     },
@@ -4356,11 +4020,9 @@ export default {
       "masked": "This special ____ focuses entirely on sustainability.",
       "options": [
         "issue-mcq-39",
-        "issue-mcq-38",
-        "issue-mcq-40",
-        "issue-mcq-37",
-        "issue-mcq-41",
-        "issue-mcq-36"
+        "issue-mcq-08",
+        "issue-mcq-15",
+        "issue-mcq-68"
       ],
       "explanation": "本句的「issue」指「特刊／專號」。",
       "sentenceIndex": 84,
@@ -4369,12 +4031,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-39": "本句指「特刊／專號」。",
-        "issue-mcq-38": "「舊期刊物」與本句語境不同。",
-        "issue-mcq-40": "「期號」與本句語境不同。",
-        "issue-mcq-37": "「最新一期」與本句語境不同。",
-        "issue-mcq-41": "「發出；簽發」與本句語境不同。",
-        "issue-mcq-36": "「本期」與本句語境不同。"
+        "issue-mcq-39": "本句的「issue」指「特刊／專號」。",
+        "issue-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-39"
     },
@@ -4386,11 +4046,9 @@ export default {
       "masked": "Check the volume and ____.",
       "options": [
         "issue-mcq-40",
-        "issue-mcq-39",
-        "issue-mcq-41",
-        "issue-mcq-38",
-        "issue-mcq-42",
-        "issue-mcq-37"
+        "issue-mcq-70",
+        "issue-mcq-67",
+        "issue-mcq-03"
       ],
       "explanation": "本句的「issue number」指「期號」。",
       "sentenceIndex": 85,
@@ -4399,12 +4057,10 @@ export default {
         "issue number"
       ],
       "optionReasons": {
-        "issue-mcq-40": "本句指「期號」。",
-        "issue-mcq-39": "「特刊／專號」與本句語境不同。",
-        "issue-mcq-41": "「發出；簽發」與本句語境不同。",
-        "issue-mcq-38": "「舊期刊物」與本句語境不同。",
-        "issue-mcq-42": "「發表聲明」與本句語境不同。",
-        "issue-mcq-37": "「最新一期」與本句語境不同。"
+        "issue-mcq-40": "本句的「issue number」指「期號」。",
+        "issue-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-40"
     },
@@ -4416,11 +4072,9 @@ export default {
       "masked": "The article appeared in ____ 4.",
       "options": [
         "issue-mcq-40",
-        "issue-mcq-39",
-        "issue-mcq-41",
-        "issue-mcq-38",
-        "issue-mcq-42",
-        "issue-mcq-37"
+        "issue-mcq-29",
+        "issue-mcq-61",
+        "issue-pdf-004"
       ],
       "explanation": "本句的「issue」指「期號」。",
       "sentenceIndex": 86,
@@ -4429,12 +4083,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-40": "本句指「期號」。",
-        "issue-mcq-39": "「特刊／專號」與本句語境不同。",
-        "issue-mcq-41": "「發出；簽發」與本句語境不同。",
-        "issue-mcq-38": "「舊期刊物」與本句語境不同。",
-        "issue-mcq-42": "「發表聲明」與本句語境不同。",
-        "issue-mcq-37": "「最新一期」與本句語境不同。"
+        "issue-mcq-40": "本句的「issue」指「期號」。",
+        "issue-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-40"
     },
@@ -4446,11 +4098,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "issue-pdf-003",
-        "issue-mcq-40",
-        "issue-mcq-42",
-        "issue-mcq-39",
-        "issue-mcq-43",
-        "issue-mcq-38"
+        "issue-mcq-33",
+        "issue-mcq-26",
+        "issue-mcq-28"
       ],
       "explanation": "本句的「issued a statement」指「由有權力的機構／人士正式發出、提供或公布 X」。",
       "sentenceIndex": 87,
@@ -4459,12 +4109,10 @@ export default {
         "issued a statement"
       ],
       "optionReasons": {
-        "issue-pdf-003": "本句指「由有權力的機構／人士正式發出、提供或公布 X」。",
-        "issue-mcq-40": "「期號」與本句語境不同。",
-        "issue-mcq-42": "「發表聲明」與本句語境不同。",
-        "issue-mcq-39": "「特刊／專號」與本句語境不同。",
-        "issue-mcq-43": "「發出警告」與本句語境不同。",
-        "issue-mcq-38": "「舊期刊物」與本句語境不同。"
+        "issue-pdf-003": "本句的「issued a statement」指「由有權力的機構／人士正式發出、提供或公布 X」。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-pdf-003"
     },
@@ -4476,11 +4124,9 @@ export default {
       "masked": "Staff were ____ new instructions.",
       "options": [
         "issue-pdf-003",
-        "issue-mcq-40",
-        "issue-mcq-42",
+        "issue-mcq-06",
         "issue-mcq-39",
-        "issue-mcq-43",
-        "issue-mcq-38"
+        "issue-mcq-37"
       ],
       "explanation": "本句的「issued」指「由有權力的機構／人士正式發出、提供或公布 X」。",
       "sentenceIndex": 88,
@@ -4489,12 +4135,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-pdf-003": "本句指「由有權力的機構／人士正式發出、提供或公布 X」。",
-        "issue-mcq-40": "「期號」與本句語境不同。",
-        "issue-mcq-42": "「發表聲明」與本句語境不同。",
-        "issue-mcq-39": "「特刊／專號」與本句語境不同。",
-        "issue-mcq-43": "「發出警告」與本句語境不同。",
-        "issue-mcq-38": "「舊期刊物」與本句語境不同。"
+        "issue-pdf-003": "本句的「issued」指「由有權力的機構／人士正式發出、提供或公布 X」。",
+        "issue-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-pdf-003"
     },
@@ -4506,10 +4150,8 @@ export default {
       "masked": "The retailer ____ explaining the new policy.",
       "options": [
         "issue-mcq-42",
-        "issue-mcq-41",
-        "issue-mcq-43",
-        "issue-mcq-40",
-        "issue-mcq-44",
+        "issue-mcq-37",
+        "issue-mcq-26",
         "issue-mcq-39"
       ],
       "explanation": "本句的「issued a statement」指「發表聲明」。",
@@ -4519,12 +4161,10 @@ export default {
         "issued a statement"
       ],
       "optionReasons": {
-        "issue-mcq-42": "本句指「發表聲明」。",
-        "issue-mcq-41": "「發出；簽發」與本句語境不同。",
-        "issue-mcq-43": "「發出警告」與本句語境不同。",
-        "issue-mcq-40": "「期號」與本句語境不同。",
-        "issue-mcq-44": "「發出命令」與本句語境不同。",
-        "issue-mcq-39": "「特刊／專號」與本句語境不同。"
+        "issue-mcq-42": "本句的「issued a statement」指「發表聲明」。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-42"
     },
@@ -4536,11 +4176,9 @@ export default {
       "masked": "Management ____ a public statement.",
       "options": [
         "issue-mcq-42",
-        "issue-mcq-41",
-        "issue-mcq-43",
-        "issue-mcq-40",
-        "issue-mcq-44",
-        "issue-mcq-39"
+        "issue-mcq-37",
+        "issue-mcq-39",
+        "issue-mcq-15"
       ],
       "explanation": "本句的「issued」指「發表聲明」。",
       "sentenceIndex": 90,
@@ -4549,12 +4187,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-42": "本句指「發表聲明」。",
-        "issue-mcq-41": "「發出；簽發」與本句語境不同。",
-        "issue-mcq-43": "「發出警告」與本句語境不同。",
-        "issue-mcq-40": "「期號」與本句語境不同。",
-        "issue-mcq-44": "「發出命令」與本句語境不同。",
-        "issue-mcq-39": "「特刊／專號」與本句語境不同。"
+        "issue-mcq-42": "本句的「issued」指「發表聲明」。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-42"
     },
@@ -4566,11 +4202,9 @@ export default {
       "masked": "The company ____ about fraudulent return requests.",
       "options": [
         "issue-mcq-43",
-        "issue-mcq-42",
-        "issue-mcq-44",
-        "issue-mcq-41",
-        "issue-mcq-45",
-        "issue-mcq-40"
+        "issue-mcq-29",
+        "issue-mcq-62",
+        "issue-mcq-01"
       ],
       "explanation": "本句的「issued a warning」指「發出警告」。",
       "sentenceIndex": 91,
@@ -4579,12 +4213,10 @@ export default {
         "issued a warning"
       ],
       "optionReasons": {
-        "issue-mcq-43": "本句指「發出警告」。",
-        "issue-mcq-42": "「發表聲明」與本句語境不同。",
-        "issue-mcq-44": "「發出命令」與本句語境不同。",
-        "issue-mcq-41": "「發出；簽發」與本句語境不同。",
-        "issue-mcq-45": "「發出指示」與本句語境不同。",
-        "issue-mcq-40": "「期號」與本句語境不同。"
+        "issue-mcq-43": "本句的「issued a warning」指「發出警告」。",
+        "issue-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-43"
     },
@@ -4596,11 +4228,9 @@ export default {
       "masked": "Authorities ____ a safety warning.",
       "options": [
         "issue-mcq-43",
-        "issue-mcq-42",
-        "issue-mcq-44",
-        "issue-mcq-41",
-        "issue-mcq-45",
-        "issue-mcq-40"
+        "issue-mcq-18",
+        "issue-mcq-28",
+        "issue-pdf-004"
       ],
       "explanation": "本句的「issued」指「發出警告」。",
       "sentenceIndex": 92,
@@ -4609,12 +4239,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-43": "本句指「發出警告」。",
-        "issue-mcq-42": "「發表聲明」與本句語境不同。",
-        "issue-mcq-44": "「發出命令」與本句語境不同。",
-        "issue-mcq-41": "「發出；簽發」與本句語境不同。",
-        "issue-mcq-45": "「發出指示」與本句語境不同。",
-        "issue-mcq-40": "「期號」與本句語境不同。"
+        "issue-mcq-43": "本句的「issued」指「發出警告」。",
+        "issue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-43"
     },
@@ -4626,11 +4254,9 @@ export default {
       "masked": "The manager ____ to stop the shipment.",
       "options": [
         "issue-mcq-44",
-        "issue-mcq-43",
-        "issue-mcq-45",
-        "issue-mcq-42",
-        "issue-mcq-46",
-        "issue-mcq-41"
+        "issue-mcq-27",
+        "issue-mcq-72",
+        "issue-mcq-38"
       ],
       "explanation": "本句的「issued an order」指「發出命令」。",
       "sentenceIndex": 93,
@@ -4639,12 +4265,10 @@ export default {
         "issued an order"
       ],
       "optionReasons": {
-        "issue-mcq-44": "本句指「發出命令」。",
-        "issue-mcq-43": "「發出警告」與本句語境不同。",
-        "issue-mcq-45": "「發出指示」與本句語境不同。",
-        "issue-mcq-42": "「發表聲明」與本句語境不同。",
-        "issue-mcq-46": "「發出通知」與本句語境不同。",
-        "issue-mcq-41": "「發出；簽發」與本句語境不同。"
+        "issue-mcq-44": "本句的「issued an order」指「發出命令」。",
+        "issue-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-44"
     },
@@ -4656,11 +4280,9 @@ export default {
       "masked": "The court ____ an order.",
       "options": [
         "issue-mcq-44",
-        "issue-mcq-43",
-        "issue-mcq-45",
-        "issue-mcq-42",
-        "issue-mcq-46",
-        "issue-mcq-41"
+        "issue-mcq-05",
+        "issue-mcq-01",
+        "issue-mcq-62"
       ],
       "explanation": "本句的「issued」指「發出命令」。",
       "sentenceIndex": 94,
@@ -4669,12 +4291,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-44": "本句指「發出命令」。",
-        "issue-mcq-43": "「發出警告」與本句語境不同。",
-        "issue-mcq-45": "「發出指示」與本句語境不同。",
-        "issue-mcq-42": "「發表聲明」與本句語境不同。",
-        "issue-mcq-46": "「發出通知」與本句語境不同。",
-        "issue-mcq-41": "「發出；簽發」與本句語境不同。"
+        "issue-mcq-44": "本句的「issued」指「發出命令」。",
+        "issue-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-44"
     },
@@ -4686,11 +4306,9 @@ export default {
       "masked": "Management ____ to warehouse staff.",
       "options": [
         "issue-mcq-45",
-        "issue-mcq-44",
-        "issue-mcq-46",
-        "issue-mcq-43",
-        "issue-mcq-47",
-        "issue-mcq-42"
+        "issue-mcq-28",
+        "issue-mcq-73",
+        "issue-mcq-62"
       ],
       "explanation": "本句的「issued instructions」指「發出指示」。",
       "sentenceIndex": 95,
@@ -4699,12 +4317,10 @@ export default {
         "issued instructions"
       ],
       "optionReasons": {
-        "issue-mcq-45": "本句指「發出指示」。",
-        "issue-mcq-44": "「發出命令」與本句語境不同。",
-        "issue-mcq-46": "「發出通知」與本句語境不同。",
-        "issue-mcq-43": "「發出警告」與本句語境不同。",
-        "issue-mcq-47": "「簽發護照」與本句語境不同。",
-        "issue-mcq-42": "「發表聲明」與本句語境不同。"
+        "issue-mcq-45": "本句的「issued instructions」指「發出指示」。",
+        "issue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-45"
     },
@@ -4716,11 +4332,9 @@ export default {
       "masked": "Clear instructions were ____ before the pilot.",
       "options": [
         "issue-mcq-45",
-        "issue-mcq-44",
-        "issue-mcq-46",
-        "issue-mcq-43",
-        "issue-mcq-47",
-        "issue-mcq-42"
+        "issue-mcq-23",
+        "issue-mcq-36",
+        "issue-mcq-71"
       ],
       "explanation": "本句的「issued」指「發出指示」。",
       "sentenceIndex": 96,
@@ -4729,12 +4343,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-45": "本句指「發出指示」。",
-        "issue-mcq-44": "「發出命令」與本句語境不同。",
-        "issue-mcq-46": "「發出通知」與本句語境不同。",
-        "issue-mcq-43": "「發出警告」與本句語境不同。",
-        "issue-mcq-47": "「簽發護照」與本句語境不同。",
-        "issue-mcq-42": "「發表聲明」與本句語境不同。"
+        "issue-mcq-45": "本句的「issued」指「發出指示」。",
+        "issue-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-45"
     },
@@ -4746,11 +4358,9 @@ export default {
       "masked": "The company ____ to customers.",
       "options": [
         "issue-mcq-46",
-        "issue-mcq-45",
-        "issue-mcq-47",
-        "issue-mcq-44",
-        "issue-mcq-48",
-        "issue-mcq-43"
+        "issue-mcq-09",
+        "issue-mcq-39",
+        "issue-pdf-004"
       ],
       "explanation": "本句的「issued a notice」指「發出通知」。",
       "sentenceIndex": 97,
@@ -4759,12 +4369,10 @@ export default {
         "issued a notice"
       ],
       "optionReasons": {
-        "issue-mcq-46": "本句指「發出通知」。",
-        "issue-mcq-45": "「發出指示」與本句語境不同。",
-        "issue-mcq-47": "「簽發護照」與本句語境不同。",
-        "issue-mcq-44": "「發出命令」與本句語境不同。",
-        "issue-mcq-48": "「簽發簽證」與本句語境不同。",
-        "issue-mcq-43": "「發出警告」與本句語境不同。"
+        "issue-mcq-46": "本句的「issued a notice」指「發出通知」。",
+        "issue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-46"
     },
@@ -4776,11 +4384,9 @@ export default {
       "masked": "A written notice was ____.",
       "options": [
         "issue-mcq-46",
-        "issue-mcq-45",
-        "issue-mcq-47",
-        "issue-mcq-44",
-        "issue-mcq-48",
-        "issue-mcq-43"
+        "issue-mcq-71",
+        "issue-mcq-02",
+        "issue-mcq-01"
       ],
       "explanation": "本句的「issued」指「發出通知」。",
       "sentenceIndex": 98,
@@ -4789,12 +4395,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-46": "本句指「發出通知」。",
-        "issue-mcq-45": "「發出指示」與本句語境不同。",
-        "issue-mcq-47": "「簽發護照」與本句語境不同。",
-        "issue-mcq-44": "「發出命令」與本句語境不同。",
-        "issue-mcq-48": "「簽發簽證」與本句語境不同。",
-        "issue-mcq-43": "「發出警告」與本句語境不同。"
+        "issue-mcq-46": "本句的「issued」指「發出通知」。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-46"
     },
@@ -4806,11 +4410,9 @@ export default {
       "masked": "The passport was ____.",
       "options": [
         "issue-mcq-47",
-        "issue-mcq-46",
-        "issue-mcq-48",
-        "issue-mcq-45",
-        "issue-mcq-49",
-        "issue-mcq-44"
+        "issue-pdf-002",
+        "issue-mcq-24",
+        "issue-mcq-73"
       ],
       "explanation": "本句的「issued last year」指「簽發護照」。",
       "sentenceIndex": 99,
@@ -4819,12 +4421,10 @@ export default {
         "issued last year"
       ],
       "optionReasons": {
-        "issue-mcq-47": "本句指「簽發護照」。",
-        "issue-mcq-46": "「發出通知」與本句語境不同。",
-        "issue-mcq-48": "「簽發簽證」與本句語境不同。",
-        "issue-mcq-45": "「發出指示」與本句語境不同。",
-        "issue-mcq-49": "「簽發牌照」與本句語境不同。",
-        "issue-mcq-44": "「發出命令」與本句語境不同。"
+        "issue-mcq-47": "本句的「issued last year」指「簽發護照」。",
+        "issue-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-47"
     },
@@ -4836,11 +4436,9 @@ export default {
       "masked": "Passports are ____ by the relevant authority.",
       "options": [
         "issue-mcq-47",
-        "issue-mcq-46",
-        "issue-mcq-48",
-        "issue-mcq-45",
-        "issue-mcq-49",
-        "issue-mcq-44"
+        "issue-mcq-62",
+        "issue-mcq-01",
+        "issue-mcq-19"
       ],
       "explanation": "本句的「issued」指「簽發護照」。",
       "sentenceIndex": 100,
@@ -4849,12 +4447,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-47": "本句指「簽發護照」。",
-        "issue-mcq-46": "「發出通知」與本句語境不同。",
-        "issue-mcq-48": "「簽發簽證」與本句語境不同。",
-        "issue-mcq-45": "「發出指示」與本句語境不同。",
-        "issue-mcq-49": "「簽發牌照」與本句語境不同。",
-        "issue-mcq-44": "「發出命令」與本句語境不同。"
+        "issue-mcq-47": "本句的「issued」指「簽發護照」。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-47"
     },
@@ -4866,11 +4462,9 @@ export default {
       "masked": "The embassy ____.",
       "options": [
         "issue-mcq-48",
-        "issue-mcq-47",
-        "issue-mcq-49",
-        "issue-mcq-46",
-        "issue-mcq-50",
-        "issue-mcq-45"
+        "issue-pdf-004",
+        "issue-mcq-72",
+        "issue-mcq-13"
       ],
       "explanation": "本句的「issued the visa」指「簽發簽證」。",
       "sentenceIndex": 101,
@@ -4879,12 +4473,10 @@ export default {
         "issued the visa"
       ],
       "optionReasons": {
-        "issue-mcq-48": "本句指「簽發簽證」。",
-        "issue-mcq-47": "「簽發護照」與本句語境不同。",
-        "issue-mcq-49": "「簽發牌照」與本句語境不同。",
-        "issue-mcq-46": "「發出通知」與本句語境不同。",
-        "issue-mcq-50": "「頒發／簽發證書」與本句語境不同。",
-        "issue-mcq-45": "「發出指示」與本句語境不同。"
+        "issue-mcq-48": "本句的「issued the visa」指「簽發簽證」。",
+        "issue-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-48"
     },
@@ -4896,11 +4488,9 @@ export default {
       "masked": "The visa has not yet been ____.",
       "options": [
         "issue-mcq-48",
-        "issue-mcq-47",
-        "issue-mcq-49",
-        "issue-mcq-46",
-        "issue-mcq-50",
-        "issue-mcq-45"
+        "issue-mcq-30",
+        "issue-mcq-72",
+        "issue-mcq-34"
       ],
       "explanation": "本句的「issued」指「簽發簽證」。",
       "sentenceIndex": 102,
@@ -4909,12 +4499,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-48": "本句指「簽發簽證」。",
-        "issue-mcq-47": "「簽發護照」與本句語境不同。",
-        "issue-mcq-49": "「簽發牌照」與本句語境不同。",
-        "issue-mcq-46": "「發出通知」與本句語境不同。",
-        "issue-mcq-50": "「頒發／簽發證書」與本句語境不同。",
-        "issue-mcq-45": "「發出指示」與本句語境不同。"
+        "issue-mcq-48": "本句的「issued」指「簽發簽證」。",
+        "issue-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-48"
     },
@@ -4926,11 +4514,9 @@ export default {
       "masked": "The authority ____.",
       "options": [
         "issue-mcq-49",
-        "issue-mcq-48",
-        "issue-mcq-50",
-        "issue-mcq-47",
-        "issue-mcq-51",
-        "issue-mcq-46"
+        "issue-mcq-15",
+        "issue-mcq-20",
+        "issue-mcq-37"
       ],
       "explanation": "本句的「issued a licence」指「簽發牌照」。",
       "sentenceIndex": 103,
@@ -4939,12 +4525,10 @@ export default {
         "issued a licence"
       ],
       "optionReasons": {
-        "issue-mcq-49": "本句指「簽發牌照」。",
-        "issue-mcq-48": "「簽發簽證」與本句語境不同。",
-        "issue-mcq-50": "「頒發／簽發證書」與本句語境不同。",
-        "issue-mcq-47": "「簽發護照」與本句語境不同。",
-        "issue-mcq-51": "「發卡」與本句語境不同。",
-        "issue-mcq-46": "「發出通知」與本句語境不同。"
+        "issue-mcq-49": "本句的「issued a licence」指「簽發牌照」。",
+        "issue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-49"
     },
@@ -4956,11 +4540,9 @@ export default {
       "masked": "Licences are ____ annually.",
       "options": [
         "issue-mcq-49",
-        "issue-mcq-48",
-        "issue-mcq-50",
-        "issue-mcq-47",
-        "issue-mcq-51",
-        "issue-mcq-46"
+        "issue-mcq-70",
+        "issue-mcq-06",
+        "issue-mcq-62"
       ],
       "explanation": "本句的「issued」指「簽發牌照」。",
       "sentenceIndex": 104,
@@ -4969,12 +4551,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-49": "本句指「簽發牌照」。",
-        "issue-mcq-48": "「簽發簽證」與本句語境不同。",
-        "issue-mcq-50": "「頒發／簽發證書」與本句語境不同。",
-        "issue-mcq-47": "「簽發護照」與本句語境不同。",
-        "issue-mcq-51": "「發卡」與本句語境不同。",
-        "issue-mcq-46": "「發出通知」與本句語境不同。"
+        "issue-mcq-49": "本句的「issued」指「簽發牌照」。",
+        "issue-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-49"
     },
@@ -4986,11 +4566,9 @@ export default {
       "masked": "The organisation ____ after the training.",
       "options": [
         "issue-mcq-50",
-        "issue-mcq-49",
-        "issue-mcq-51",
-        "issue-mcq-48",
-        "issue-mcq-52",
-        "issue-mcq-47"
+        "issue-mcq-31",
+        "issue-mcq-17",
+        "issue-mcq-71"
       ],
       "explanation": "本句的「issued a certificate」指「頒發／簽發證書」。",
       "sentenceIndex": 105,
@@ -4999,12 +4577,10 @@ export default {
         "issued a certificate"
       ],
       "optionReasons": {
-        "issue-mcq-50": "本句指「頒發／簽發證書」。",
-        "issue-mcq-49": "「簽發牌照」與本句語境不同。",
-        "issue-mcq-51": "「發卡」與本句語境不同。",
-        "issue-mcq-48": "「簽發簽證」與本句語境不同。",
-        "issue-mcq-52": "「簽發票證／開罰單」與本句語境不同。",
-        "issue-mcq-47": "「簽發護照」與本句語境不同。"
+        "issue-mcq-50": "本句的「issued a certificate」指「頒發／簽發證書」。",
+        "issue-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-50"
     },
@@ -5016,11 +4592,9 @@ export default {
       "masked": "A replacement certificate can be ____.",
       "options": [
         "issue-mcq-50",
-        "issue-mcq-49",
-        "issue-mcq-51",
-        "issue-mcq-48",
-        "issue-mcq-52",
-        "issue-mcq-47"
+        "issue-pdf-004",
+        "issue-pdf-001",
+        "issue-mcq-15"
       ],
       "explanation": "本句的「issued」指「頒發／簽發證書」。",
       "sentenceIndex": 106,
@@ -5029,12 +4603,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-50": "本句指「頒發／簽發證書」。",
-        "issue-mcq-49": "「簽發牌照」與本句語境不同。",
-        "issue-mcq-51": "「發卡」與本句語境不同。",
-        "issue-mcq-48": "「簽發簽證」與本句語境不同。",
-        "issue-mcq-52": "「簽發票證／開罰單」與本句語境不同。",
-        "issue-mcq-47": "「簽發護照」與本句語境不同。"
+        "issue-mcq-50": "本句的「issued」指「頒發／簽發證書」。",
+        "issue-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-50"
     },
@@ -5046,11 +4618,9 @@ export default {
       "masked": "The bank ____.",
       "options": [
         "issue-mcq-51",
-        "issue-mcq-50",
-        "issue-mcq-52",
-        "issue-mcq-49",
-        "issue-mcq-53",
-        "issue-mcq-48"
+        "issue-mcq-07",
+        "issue-pdf-002",
+        "issue-mcq-17"
       ],
       "explanation": "本句的「issued a new card」指「發卡」。",
       "sentenceIndex": 107,
@@ -5059,12 +4629,10 @@ export default {
         "issued a new card"
       ],
       "optionReasons": {
-        "issue-mcq-51": "本句指「發卡」。",
-        "issue-mcq-50": "「頒發／簽發證書」與本句語境不同。",
-        "issue-mcq-52": "「簽發票證／開罰單」與本句語境不同。",
-        "issue-mcq-49": "「簽發牌照」與本句語境不同。",
-        "issue-mcq-53": "「發放退款」與本句語境不同。",
-        "issue-mcq-48": "「簽發簽證」與本句語境不同。"
+        "issue-mcq-51": "本句的「issued a new card」指「發卡」。",
+        "issue-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-51"
     },
@@ -5076,11 +4644,9 @@ export default {
       "masked": "Replacement cards are ____ automatically.",
       "options": [
         "issue-mcq-51",
-        "issue-mcq-50",
-        "issue-mcq-52",
-        "issue-mcq-49",
-        "issue-mcq-53",
-        "issue-mcq-48"
+        "issue-mcq-02",
+        "issue-mcq-36",
+        "issue-mcq-62"
       ],
       "explanation": "本句的「issued」指「發卡」。",
       "sentenceIndex": 108,
@@ -5089,12 +4655,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-51": "本句指「發卡」。",
-        "issue-mcq-50": "「頒發／簽發證書」與本句語境不同。",
-        "issue-mcq-52": "「簽發票證／開罰單」與本句語境不同。",
-        "issue-mcq-49": "「簽發牌照」與本句語境不同。",
-        "issue-mcq-53": "「發放退款」與本句語境不同。",
-        "issue-mcq-48": "「簽發簽證」與本句語境不同。"
+        "issue-mcq-51": "本句的「issued」指「發卡」。",
+        "issue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-51"
     },
@@ -5106,11 +4670,9 @@ export default {
       "masked": "Refunds should be ____.",
       "options": [
         "issue-mcq-53",
-        "issue-mcq-52",
-        "issue-mcq-54",
-        "issue-mcq-51",
-        "issue-mcq-55",
-        "issue-mcq-50"
+        "issue-mcq-71",
+        "issue-mcq-07",
+        "issue-mcq-38"
       ],
       "explanation": "本句的「issued only after inspection」指「發放退款」。",
       "sentenceIndex": 109,
@@ -5119,12 +4681,10 @@ export default {
         "issued only after inspection"
       ],
       "optionReasons": {
-        "issue-mcq-53": "本句指「發放退款」。",
-        "issue-mcq-52": "「簽發票證／開罰單」與本句語境不同。",
-        "issue-mcq-54": "「發放購物額」與本句語境不同。",
-        "issue-mcq-51": "「發卡」與本句語境不同。",
-        "issue-mcq-55": "「發放款項」與本句語境不同。",
-        "issue-mcq-50": "「頒發／簽發證書」與本句語境不同。"
+        "issue-mcq-53": "本句的「issued only after inspection」指「發放退款」。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-53"
     },
@@ -5136,11 +4696,9 @@ export default {
       "masked": "The company ____ a full refund.",
       "options": [
         "issue-mcq-53",
-        "issue-mcq-52",
-        "issue-mcq-54",
-        "issue-mcq-51",
-        "issue-mcq-55",
-        "issue-mcq-50"
+        "issue-mcq-12",
+        "issue-mcq-17",
+        "issue-mcq-33"
       ],
       "explanation": "本句的「issued」指「發放退款」。",
       "sentenceIndex": 110,
@@ -5149,12 +4707,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-53": "本句指「發放退款」。",
-        "issue-mcq-52": "「簽發票證／開罰單」與本句語境不同。",
-        "issue-mcq-54": "「發放購物額」與本句語境不同。",
-        "issue-mcq-51": "「發卡」與本句語境不同。",
-        "issue-mcq-55": "「發放款項」與本句語境不同。",
-        "issue-mcq-50": "「頒發／簽發證書」與本句語境不同。"
+        "issue-mcq-53": "本句的「issued」指「發放退款」。",
+        "issue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-53"
     },
@@ -5166,11 +4722,9 @@ export default {
       "masked": "The retailer may ____ instead of a cash refund.",
       "options": [
         "issue-mcq-54",
-        "issue-mcq-53",
-        "issue-mcq-55",
-        "issue-mcq-52",
-        "issue-mcq-56",
-        "issue-mcq-51"
+        "issue-mcq-72",
+        "issue-mcq-17",
+        "issue-mcq-22"
       ],
       "explanation": "本句的「issue store credit」指「發放購物額」。",
       "sentenceIndex": 111,
@@ -5179,12 +4733,10 @@ export default {
         "issue store credit"
       ],
       "optionReasons": {
-        "issue-mcq-54": "本句指「發放購物額」。",
-        "issue-mcq-53": "「發放退款」與本句語境不同。",
-        "issue-mcq-55": "「發放款項」與本句語境不同。",
-        "issue-mcq-52": "「簽發票證／開罰單」與本句語境不同。",
-        "issue-mcq-56": "「配發設備」與本句語境不同。",
-        "issue-mcq-51": "「發卡」與本句語境不同。"
+        "issue-mcq-54": "本句的「issue store credit」指「發放購物額」。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-54"
     },
@@ -5196,11 +4748,9 @@ export default {
       "masked": "Store credit was ____ immediately.",
       "options": [
         "issue-mcq-54",
-        "issue-mcq-53",
-        "issue-mcq-55",
-        "issue-mcq-52",
-        "issue-mcq-56",
-        "issue-mcq-51"
+        "issue-mcq-62",
+        "issue-mcq-11",
+        "issue-mcq-71"
       ],
       "explanation": "本句的「issued」指「發放購物額」。",
       "sentenceIndex": 112,
@@ -5209,12 +4759,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-54": "本句指「發放購物額」。",
-        "issue-mcq-53": "「發放退款」與本句語境不同。",
-        "issue-mcq-55": "「發放款項」與本句語境不同。",
-        "issue-mcq-52": "「簽發票證／開罰單」與本句語境不同。",
-        "issue-mcq-56": "「配發設備」與本句語境不同。",
-        "issue-mcq-51": "「發卡」與本句語境不同。"
+        "issue-mcq-54": "本句的「issued」指「發放購物額」。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-54"
     },
@@ -5226,11 +4774,9 @@ export default {
       "masked": "Payment will be ____.",
       "options": [
         "issue-mcq-55",
-        "issue-mcq-54",
-        "issue-mcq-56",
-        "issue-mcq-53",
-        "issue-mcq-57",
-        "issue-mcq-52"
+        "issue-mcq-71",
+        "issue-mcq-01",
+        "issue-mcq-29"
       ],
       "explanation": "本句的「issued within five working days」指「發放款項」。",
       "sentenceIndex": 113,
@@ -5239,12 +4785,10 @@ export default {
         "issued within five working days"
       ],
       "optionReasons": {
-        "issue-mcq-55": "本句指「發放款項」。",
-        "issue-mcq-54": "「發放購物額」與本句語境不同。",
-        "issue-mcq-56": "「配發設備」與本句語境不同。",
-        "issue-mcq-53": "「發放退款」與本句語境不同。",
-        "issue-mcq-57": "「制式／標準配發的」與本句語境不同。",
-        "issue-mcq-52": "「簽發票證／開罰單」與本句語境不同。"
+        "issue-mcq-55": "本句的「issued within five working days」指「發放款項」。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-55"
     },
@@ -5256,11 +4800,9 @@ export default {
       "masked": "The company ____ compensation payments.",
       "options": [
         "issue-mcq-55",
-        "issue-mcq-54",
-        "issue-mcq-56",
-        "issue-mcq-53",
-        "issue-mcq-57",
-        "issue-mcq-52"
+        "issue-mcq-28",
+        "issue-mcq-62",
+        "issue-mcq-30"
       ],
       "explanation": "本句的「issued」指「發放款項」。",
       "sentenceIndex": 114,
@@ -5269,12 +4811,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-55": "本句指「發放款項」。",
-        "issue-mcq-54": "「發放購物額」與本句語境不同。",
-        "issue-mcq-56": "「配發設備」與本句語境不同。",
-        "issue-mcq-53": "「發放退款」與本句語境不同。",
-        "issue-mcq-57": "「制式／標準配發的」與本句語境不同。",
-        "issue-mcq-52": "「簽發票證／開罰單」與本句語境不同。"
+        "issue-mcq-55": "本句的「issued」指「發放款項」。",
+        "issue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-55"
     },
@@ -5286,11 +4826,9 @@ export default {
       "masked": "Staff were ____.",
       "options": [
         "issue-mcq-56",
-        "issue-mcq-55",
-        "issue-mcq-57",
-        "issue-mcq-54",
-        "issue-mcq-58",
-        "issue-mcq-53"
+        "issue-mcq-02",
+        "issue-mcq-40",
+        "issue-mcq-34"
       ],
       "explanation": "本句的「issued uniforms」指「配發設備」。",
       "sentenceIndex": 115,
@@ -5299,12 +4837,10 @@ export default {
         "issued uniforms"
       ],
       "optionReasons": {
-        "issue-mcq-56": "本句指「配發設備」。",
-        "issue-mcq-55": "「發放款項」與本句語境不同。",
-        "issue-mcq-57": "「制式／標準配發的」與本句語境不同。",
-        "issue-mcq-54": "「發放購物額」與本句語境不同。",
-        "issue-mcq-58": "「發行股份」與本句語境不同。",
-        "issue-mcq-53": "「發放退款」與本句語境不同。"
+        "issue-mcq-56": "本句的「issued uniforms」指「配發設備」。",
+        "issue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-56"
     },
@@ -5316,11 +4852,9 @@ export default {
       "masked": "The warehouse ____ protective equipment to workers.",
       "options": [
         "issue-mcq-56",
-        "issue-mcq-55",
-        "issue-mcq-57",
-        "issue-mcq-54",
-        "issue-mcq-58",
-        "issue-mcq-53"
+        "issue-mcq-09",
+        "issue-mcq-33",
+        "issue-mcq-38"
       ],
       "explanation": "本句的「issued」指「配發設備」。",
       "sentenceIndex": 116,
@@ -5329,12 +4863,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-56": "本句指「配發設備」。",
-        "issue-mcq-55": "「發放款項」與本句語境不同。",
-        "issue-mcq-57": "「制式／標準配發的」與本句語境不同。",
-        "issue-mcq-54": "「發放購物額」與本句語境不同。",
-        "issue-mcq-58": "「發行股份」與本句語境不同。",
-        "issue-mcq-53": "「發放退款」與本句語境不同。"
+        "issue-mcq-56": "本句的「issued」指「配發設備」。",
+        "issue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-56"
     },
@@ -5346,11 +4878,9 @@ export default {
       "masked": "The boots are ____.",
       "options": [
         "issue-mcq-57",
-        "issue-mcq-56",
-        "issue-mcq-58",
-        "issue-mcq-55",
-        "issue-mcq-59",
-        "issue-mcq-54"
+        "issue-mcq-37",
+        "issue-mcq-12",
+        "issue-mcq-34"
       ],
       "explanation": "本句的「standard issue」指「制式／標準配發的」。",
       "sentenceIndex": 117,
@@ -5359,12 +4889,10 @@ export default {
         "standard issue"
       ],
       "optionReasons": {
-        "issue-mcq-57": "本句指「制式／標準配發的」。",
-        "issue-mcq-56": "「配發設備」與本句語境不同。",
-        "issue-mcq-58": "「發行股份」與本句語境不同。",
-        "issue-mcq-55": "「發放款項」與本句語境不同。",
-        "issue-mcq-59": "「股份發行」與本句語境不同。",
-        "issue-mcq-54": "「發放購物額」與本句語境不同。"
+        "issue-mcq-57": "本句的「standard issue」指「制式／標準配發的」。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-57"
     },
@@ -5376,11 +4904,9 @@ export default {
       "masked": "Standard-____ equipment is supplied routinely to personnel.",
       "options": [
         "issue-mcq-57",
-        "issue-mcq-56",
-        "issue-mcq-58",
-        "issue-mcq-55",
-        "issue-mcq-59",
-        "issue-mcq-54"
+        "issue-pdf-002",
+        "issue-pdf-004",
+        "issue-mcq-05"
       ],
       "explanation": "本句的「issue」指「制式／標準配發的」。",
       "sentenceIndex": 118,
@@ -5389,12 +4915,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-57": "本句指「制式／標準配發的」。",
-        "issue-mcq-56": "「配發設備」與本句語境不同。",
-        "issue-mcq-58": "「發行股份」與本句語境不同。",
-        "issue-mcq-55": "「發放款項」與本句語境不同。",
-        "issue-mcq-59": "「股份發行」與本句語境不同。",
-        "issue-mcq-54": "「發放購物額」與本句語境不同。"
+        "issue-mcq-57": "本句的「issue」指「制式／標準配發的」。",
+        "issue-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-57"
     },
@@ -5406,11 +4930,9 @@ export default {
       "masked": "New employees are ____ equipment on their first day.",
       "options": [
         "issue-mcq-56",
-        "issue-mcq-55",
-        "issue-mcq-57",
-        "issue-mcq-54",
-        "issue-mcq-58",
-        "issue-mcq-53"
+        "issue-mcq-33",
+        "issue-mcq-23",
+        "issue-mcq-72"
       ],
       "explanation": "本句的「issued」指「配發設備」。",
       "sentenceIndex": 119,
@@ -5419,12 +4941,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-56": "本句指「配發設備」。",
-        "issue-mcq-55": "「發放款項」與本句語境不同。",
-        "issue-mcq-57": "「制式／標準配發的」與本句語境不同。",
-        "issue-mcq-54": "「發放購物額」與本句語境不同。",
-        "issue-mcq-58": "「發行股份」與本句語境不同。",
-        "issue-mcq-53": "「發放退款」與本句語境不同。"
+        "issue-mcq-56": "本句的「issued」指「配發設備」。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-56"
     },
@@ -5436,11 +4956,9 @@ export default {
       "masked": "All ____ equipment must be returned.",
       "options": [
         "issue-mcq-56",
-        "issue-mcq-55",
-        "issue-mcq-57",
-        "issue-mcq-54",
-        "issue-mcq-58",
-        "issue-mcq-53"
+        "issue-mcq-08",
+        "issue-mcq-33",
+        "issue-mcq-62"
       ],
       "explanation": "本句的「issued」指「配發設備」。",
       "sentenceIndex": 120,
@@ -5449,12 +4967,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-56": "本句指「配發設備」。",
-        "issue-mcq-55": "「發放款項」與本句語境不同。",
-        "issue-mcq-57": "「制式／標準配發的」與本句語境不同。",
-        "issue-mcq-54": "「發放購物額」與本句語境不同。",
-        "issue-mcq-58": "「發行股份」與本句語境不同。",
-        "issue-mcq-53": "「發放退款」與本句語境不同。"
+        "issue-mcq-56": "本句的「issued」指「配發設備」。",
+        "issue-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-56"
     },
@@ -5466,11 +4982,9 @@ export default {
       "masked": "The company plans to ____.",
       "options": [
         "issue-pdf-004",
-        "issue-mcq-57",
-        "issue-mcq-59",
-        "issue-mcq-56",
-        "issue-mcq-60",
-        "issue-mcq-55"
+        "issue-mcq-07",
+        "issue-mcq-61",
+        "issue-mcq-50"
       ],
       "explanation": "本句的「issue new shares」指「公司正式創設／提供股份供投資者持有或購買」。",
       "sentenceIndex": 121,
@@ -5479,12 +4993,10 @@ export default {
         "issue new shares"
       ],
       "optionReasons": {
-        "issue-pdf-004": "本句指「公司正式創設／提供股份供投資者持有或購買」。",
-        "issue-mcq-57": "「制式／標準配發的」與本句語境不同。",
-        "issue-mcq-59": "「股份發行」與本句語境不同。",
-        "issue-mcq-56": "「配發設備」與本句語境不同。",
-        "issue-mcq-60": "「債券發行」與本句語境不同。",
-        "issue-mcq-55": "「發放款項」與本句語境不同。"
+        "issue-pdf-004": "本句的「issue new shares」指「公司正式創設／提供股份供投資者持有或購買」。",
+        "issue-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-pdf-004"
     },
@@ -5496,11 +5008,9 @@ export default {
       "masked": "Shares were ____ to investors.",
       "options": [
         "issue-pdf-004",
-        "issue-mcq-57",
-        "issue-mcq-59",
-        "issue-mcq-56",
-        "issue-mcq-60",
-        "issue-mcq-55"
+        "issue-mcq-38",
+        "issue-mcq-72",
+        "issue-mcq-33"
       ],
       "explanation": "本句的「issued」指「公司正式創設／提供股份供投資者持有或購買」。",
       "sentenceIndex": 122,
@@ -5509,12 +5019,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-pdf-004": "本句指「公司正式創設／提供股份供投資者持有或購買」。",
-        "issue-mcq-57": "「制式／標準配發的」與本句語境不同。",
-        "issue-mcq-59": "「股份發行」與本句語境不同。",
-        "issue-mcq-56": "「配發設備」與本句語境不同。",
-        "issue-mcq-60": "「債券發行」與本句語境不同。",
-        "issue-mcq-55": "「發放款項」與本句語境不同。"
+        "issue-pdf-004": "本句的「issued」指「公司正式創設／提供股份供投資者持有或購買」。",
+        "issue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-pdf-004"
     },
@@ -5526,11 +5034,9 @@ export default {
       "masked": "The company raised capital through a ____.",
       "options": [
         "issue-mcq-59",
-        "issue-mcq-58",
-        "issue-mcq-60",
-        "issue-mcq-57",
-        "issue-mcq-61",
-        "issue-mcq-56"
+        "issue-mcq-16",
+        "issue-mcq-72",
+        "issue-mcq-38"
       ],
       "explanation": "本句的「share issue」指「股份發行」。",
       "sentenceIndex": 123,
@@ -5539,12 +5045,10 @@ export default {
         "share issue"
       ],
       "optionReasons": {
-        "issue-mcq-59": "本句指「股份發行」。",
-        "issue-mcq-58": "「發行股份」與本句語境不同。",
-        "issue-mcq-60": "「債券發行」與本句語境不同。",
-        "issue-mcq-57": "「制式／標準配發的」與本句語境不同。",
-        "issue-mcq-61": "「發行債券」與本句語境不同。",
-        "issue-mcq-56": "「配發設備」與本句語境不同。"
+        "issue-mcq-59": "本句的「share issue」指「股份發行」。",
+        "issue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-59"
     },
@@ -5556,11 +5060,9 @@ export default {
       "masked": "The share ____ increased the number of shares outstanding.",
       "options": [
         "issue-mcq-59",
-        "issue-mcq-58",
-        "issue-mcq-60",
-        "issue-mcq-57",
-        "issue-mcq-61",
-        "issue-mcq-56"
+        "issue-mcq-26",
+        "issue-mcq-71",
+        "issue-mcq-33"
       ],
       "explanation": "本句的「issue」指「股份發行」。",
       "sentenceIndex": 124,
@@ -5569,12 +5071,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-59": "本句指「股份發行」。",
-        "issue-mcq-58": "「發行股份」與本句語境不同。",
-        "issue-mcq-60": "「債券發行」與本句語境不同。",
-        "issue-mcq-57": "「制式／標準配發的」與本句語境不同。",
-        "issue-mcq-61": "「發行債券」與本句語境不同。",
-        "issue-mcq-56": "「配發設備」與本句語境不同。"
+        "issue-mcq-59": "本句的「issue」指「股份發行」。",
+        "issue-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-59"
     },
@@ -5586,11 +5086,9 @@ export default {
       "masked": "Investors subscribed to the ____.",
       "options": [
         "issue-mcq-60",
-        "issue-mcq-59",
-        "issue-mcq-61",
-        "issue-mcq-58",
-        "issue-mcq-62",
-        "issue-mcq-57"
+        "issue-mcq-31",
+        "issue-mcq-33",
+        "issue-pdf-002"
       ],
       "explanation": "本句的「new issue」指「債券發行」。",
       "sentenceIndex": 125,
@@ -5599,12 +5097,10 @@ export default {
         "new issue"
       ],
       "optionReasons": {
-        "issue-mcq-60": "本句指「債券發行」。",
-        "issue-mcq-59": "「股份發行」與本句語境不同。",
-        "issue-mcq-61": "「發行債券」與本句語境不同。",
-        "issue-mcq-58": "「發行股份」與本句語境不同。",
-        "issue-mcq-62": "「供股」與本句語境不同。",
-        "issue-mcq-57": "「制式／標準配發的」與本句語境不同。"
+        "issue-mcq-60": "本句的「new issue」指「債券發行」。",
+        "issue-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-60"
     },
@@ -5616,11 +5112,9 @@ export default {
       "masked": "The new ____ raised additional capital.",
       "options": [
         "issue-mcq-60",
-        "issue-mcq-59",
-        "issue-mcq-61",
-        "issue-mcq-58",
-        "issue-mcq-62",
-        "issue-mcq-57"
+        "issue-mcq-08",
+        "issue-mcq-15",
+        "issue-mcq-28"
       ],
       "explanation": "本句的「issue」指「債券發行」。",
       "sentenceIndex": 126,
@@ -5629,12 +5123,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-60": "本句指「債券發行」。",
-        "issue-mcq-59": "「股份發行」與本句語境不同。",
-        "issue-mcq-61": "「發行債券」與本句語境不同。",
-        "issue-mcq-58": "「發行股份」與本句語境不同。",
-        "issue-mcq-62": "「供股」與本句語境不同。",
-        "issue-mcq-57": "「制式／標準配發的」與本句語境不同。"
+        "issue-mcq-60": "本句的「issue」指「債券發行」。",
+        "issue-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-60"
     },
@@ -5646,11 +5138,9 @@ export default {
       "masked": "The company financed the project through a ____.",
       "options": [
         "issue-mcq-60",
-        "issue-mcq-59",
-        "issue-mcq-61",
-        "issue-mcq-58",
-        "issue-mcq-62",
-        "issue-mcq-57"
+        "issue-mcq-23",
+        "issue-mcq-39",
+        "issue-mcq-71"
       ],
       "explanation": "本句的「bond issue」指「債券發行」。",
       "sentenceIndex": 127,
@@ -5659,12 +5149,10 @@ export default {
         "bond issue"
       ],
       "optionReasons": {
-        "issue-mcq-60": "本句指「債券發行」。",
-        "issue-mcq-59": "「股份發行」與本句語境不同。",
-        "issue-mcq-61": "「發行債券」與本句語境不同。",
-        "issue-mcq-58": "「發行股份」與本句語境不同。",
-        "issue-mcq-62": "「供股」與本句語境不同。",
-        "issue-mcq-57": "「制式／標準配發的」與本句語境不同。"
+        "issue-mcq-60": "本句的「bond issue」指「債券發行」。",
+        "issue-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-60"
     },
@@ -5676,11 +5164,9 @@ export default {
       "masked": "Demand for the bond ____ was strong.",
       "options": [
         "issue-mcq-60",
-        "issue-mcq-59",
-        "issue-mcq-61",
-        "issue-mcq-58",
-        "issue-mcq-62",
-        "issue-mcq-57"
+        "issue-mcq-01",
+        "issue-mcq-19",
+        "issue-mcq-39"
       ],
       "explanation": "本句的「issue」指「債券發行」。",
       "sentenceIndex": 128,
@@ -5689,12 +5175,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-60": "本句指「債券發行」。",
-        "issue-mcq-59": "「股份發行」與本句語境不同。",
-        "issue-mcq-61": "「發行債券」與本句語境不同。",
-        "issue-mcq-58": "「發行股份」與本句語境不同。",
-        "issue-mcq-62": "「供股」與本句語境不同。",
-        "issue-mcq-57": "「制式／標準配發的」與本句語境不同。"
+        "issue-mcq-60": "本句的「issue」指「債券發行」。",
+        "issue-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-60"
     },
@@ -5706,11 +5190,9 @@ export default {
       "masked": "The company ____ to finance expansion.",
       "options": [
         "issue-mcq-61",
-        "issue-mcq-60",
-        "issue-mcq-62",
-        "issue-mcq-59",
-        "issue-mcq-63",
-        "issue-mcq-58"
+        "issue-mcq-34",
+        "issue-mcq-36",
+        "issue-mcq-11"
       ],
       "explanation": "本句的「issued bonds」指「發行債券」。",
       "sentenceIndex": 129,
@@ -5719,12 +5201,10 @@ export default {
         "issued bonds"
       ],
       "optionReasons": {
-        "issue-mcq-61": "本句指「發行債券」。",
-        "issue-mcq-60": "「債券發行」與本句語境不同。",
-        "issue-mcq-62": "「供股」與本句語境不同。",
-        "issue-mcq-59": "「股份發行」與本句語境不同。",
-        "issue-mcq-63": "「發行價」與本句語境不同。",
-        "issue-mcq-58": "「發行股份」與本句語境不同。"
+        "issue-mcq-61": "本句的「issued bonds」指「發行債券」。",
+        "issue-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-61"
     },
@@ -5736,11 +5216,9 @@ export default {
       "masked": "Governments may also ____ bonds.",
       "options": [
         "issue-mcq-61",
-        "issue-mcq-60",
-        "issue-mcq-62",
-        "issue-mcq-59",
-        "issue-mcq-63",
-        "issue-mcq-58"
+        "issue-mcq-29",
+        "issue-mcq-38",
+        "issue-mcq-71"
       ],
       "explanation": "本句的「issue」指「發行債券」。",
       "sentenceIndex": 130,
@@ -5749,12 +5227,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-61": "本句指「發行債券」。",
-        "issue-mcq-60": "「債券發行」與本句語境不同。",
-        "issue-mcq-62": "「供股」與本句語境不同。",
-        "issue-mcq-59": "「股份發行」與本句語境不同。",
-        "issue-mcq-63": "「發行價」與本句語境不同。",
-        "issue-mcq-58": "「發行股份」與本句語境不同。"
+        "issue-mcq-61": "本句的「issue」指「發行債券」。",
+        "issue-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-61"
     },
@@ -5766,11 +5242,9 @@ export default {
       "masked": "The company announced a ____.",
       "options": [
         "issue-mcq-62",
-        "issue-mcq-61",
-        "issue-mcq-63",
-        "issue-mcq-60",
-        "issue-mcq-64",
-        "issue-mcq-59"
+        "issue-mcq-42",
+        "issue-mcq-40",
+        "issue-mcq-04"
       ],
       "explanation": "本句的「rights issue」指「供股」。",
       "sentenceIndex": 131,
@@ -5779,12 +5253,10 @@ export default {
         "rights issue"
       ],
       "optionReasons": {
-        "issue-mcq-62": "本句指「供股」。",
-        "issue-mcq-61": "「發行債券」與本句語境不同。",
-        "issue-mcq-63": "「發行價」與本句語境不同。",
-        "issue-mcq-60": "「債券發行」與本句語境不同。",
-        "issue-mcq-64": "「發行；簽發」與本句語境不同。",
-        "issue-mcq-59": "「股份發行」與本句語境不同。"
+        "issue-mcq-62": "本句的「rights issue」指「供股」。",
+        "issue-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-62"
     },
@@ -5796,11 +5268,9 @@ export default {
       "masked": "A rights ____ gives existing shareholders rights to subscribe for additional shares under stated terms.",
       "options": [
         "issue-mcq-62",
-        "issue-mcq-61",
-        "issue-mcq-63",
-        "issue-mcq-60",
-        "issue-mcq-64",
-        "issue-mcq-59"
+        "issue-mcq-02",
+        "issue-mcq-46",
+        "issue-mcq-36"
       ],
       "explanation": "本句的「issue」指「供股」。",
       "sentenceIndex": 132,
@@ -5809,12 +5279,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-62": "本句指「供股」。",
-        "issue-mcq-61": "「發行債券」與本句語境不同。",
-        "issue-mcq-63": "「發行價」與本句語境不同。",
-        "issue-mcq-60": "「債券發行」與本句語境不同。",
-        "issue-mcq-64": "「發行；簽發」與本句語境不同。",
-        "issue-mcq-59": "「股份發行」與本句語境不同。"
+        "issue-mcq-62": "本句的「issue」指「供股」。",
+        "issue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-62"
     },
@@ -5826,11 +5294,9 @@ export default {
       "masked": "The shares were sold at an ____ of $10.",
       "options": [
         "issue-mcq-63",
+        "issue-mcq-19",
         "issue-mcq-62",
-        "issue-mcq-64",
-        "issue-mcq-61",
-        "issue-mcq-65",
-        "issue-mcq-60"
+        "issue-mcq-39"
       ],
       "explanation": "本句的「issue price」指「發行價」。",
       "sentenceIndex": 133,
@@ -5839,12 +5305,10 @@ export default {
         "issue price"
       ],
       "optionReasons": {
-        "issue-mcq-63": "本句指「發行價」。",
-        "issue-mcq-62": "「供股」與本句語境不同。",
-        "issue-mcq-64": "「發行；簽發」與本句語境不同。",
-        "issue-mcq-61": "「發行債券」與本句語境不同。",
-        "issue-mcq-65": "「發行人／簽發機構」與本句語境不同。",
-        "issue-mcq-60": "「債券發行」與本句語境不同。"
+        "issue-mcq-63": "本句的「issue price」指「發行價」。",
+        "issue-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-63"
     },
@@ -5856,11 +5320,9 @@ export default {
       "masked": "The market price later fell below the ____ price.",
       "options": [
         "issue-mcq-63",
-        "issue-mcq-62",
-        "issue-mcq-64",
-        "issue-mcq-61",
-        "issue-mcq-65",
-        "issue-mcq-60"
+        "issue-mcq-08",
+        "issue-mcq-38",
+        "issue-mcq-01"
       ],
       "explanation": "本句的「issue」指「發行價」。",
       "sentenceIndex": 134,
@@ -5869,12 +5331,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-63": "本句指「發行價」。",
-        "issue-mcq-62": "「供股」與本句語境不同。",
-        "issue-mcq-64": "「發行；簽發」與本句語境不同。",
-        "issue-mcq-61": "「發行債券」與本句語境不同。",
-        "issue-mcq-65": "「發行人／簽發機構」與本句語境不同。",
-        "issue-mcq-60": "「債券發行」與本句語境不同。"
+        "issue-mcq-63": "本句的「issue」指「發行價」。",
+        "issue-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-63"
     },
@@ -5886,11 +5346,9 @@ export default {
       "masked": "Passport ____ may take several weeks.",
       "options": [
         "issue-pdf-005",
-        "issue-mcq-63",
-        "issue-mcq-65",
-        "issue-mcq-62",
-        "issue-mcq-66",
-        "issue-mcq-61"
+        "issue-mcq-27",
+        "issue-mcq-36",
+        "issue-mcq-72"
       ],
       "explanation": "本句的「issuance」指「正式簽發文件、發行證券或發出某物的過程」。",
       "sentenceIndex": 135,
@@ -5899,12 +5357,10 @@ export default {
         "issuance"
       ],
       "optionReasons": {
-        "issue-pdf-005": "本句指「正式簽發文件、發行證券或發出某物的過程」。",
-        "issue-mcq-63": "「發行價」與本句語境不同。",
-        "issue-mcq-65": "「發行人／簽發機構」與本句語境不同。",
-        "issue-mcq-62": "「供股」與本句語境不同。",
-        "issue-mcq-66": "「發卡機構」與本句語境不同。",
-        "issue-mcq-61": "「發行債券」與本句語境不同。"
+        "issue-pdf-005": "本句的「issuance」指「正式簽發文件、發行證券或發出某物的過程」。",
+        "issue-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-pdf-005"
     },
@@ -5916,11 +5372,9 @@ export default {
       "masked": "The company approved the ____ of new shares.",
       "options": [
         "issue-pdf-005",
-        "issue-mcq-63",
-        "issue-mcq-65",
-        "issue-mcq-62",
-        "issue-mcq-66",
-        "issue-mcq-61"
+        "issue-mcq-02",
+        "issue-mcq-37",
+        "issue-mcq-62"
       ],
       "explanation": "本句的「issuance」指「正式簽發文件、發行證券或發出某物的過程」。",
       "sentenceIndex": 136,
@@ -5929,12 +5383,10 @@ export default {
         "issuance"
       ],
       "optionReasons": {
-        "issue-pdf-005": "本句指「正式簽發文件、發行證券或發出某物的過程」。",
-        "issue-mcq-63": "「發行價」與本句語境不同。",
-        "issue-mcq-65": "「發行人／簽發機構」與本句語境不同。",
-        "issue-mcq-62": "「供股」與本句語境不同。",
-        "issue-mcq-66": "「發卡機構」與本句語境不同。",
-        "issue-mcq-61": "「發行債券」與本句語境不同。"
+        "issue-pdf-005": "本句的「issuance」指「正式簽發文件、發行證券或發出某物的過程」。",
+        "issue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-pdf-005"
     },
@@ -5946,11 +5398,9 @@ export default {
       "masked": "The bank advises companies on ____.",
       "options": [
         "issue-mcq-64",
-        "issue-mcq-63",
-        "issue-mcq-65",
-        "issue-mcq-62",
-        "issue-mcq-66",
-        "issue-mcq-61"
+        "issue-mcq-12",
+        "issue-mcq-70",
+        "issue-mcq-36"
       ],
       "explanation": "本句的「securities issuance」指「發行；簽發」。",
       "sentenceIndex": 137,
@@ -5959,12 +5409,10 @@ export default {
         "securities issuance"
       ],
       "optionReasons": {
-        "issue-mcq-64": "本句指「發行；簽發」。",
-        "issue-mcq-63": "「發行價」與本句語境不同。",
-        "issue-mcq-65": "「發行人／簽發機構」與本句語境不同。",
-        "issue-mcq-62": "「供股」與本句語境不同。",
-        "issue-mcq-66": "「發卡機構」與本句語境不同。",
-        "issue-mcq-61": "「發行債券」與本句語境不同。"
+        "issue-mcq-64": "本句的「securities issuance」指「發行；簽發」。",
+        "issue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-64"
     },
@@ -5976,11 +5424,9 @@ export default {
       "masked": "____ costs affect financing decisions.",
       "options": [
         "issue-mcq-64",
-        "issue-mcq-63",
-        "issue-mcq-65",
-        "issue-mcq-62",
-        "issue-mcq-66",
-        "issue-mcq-61"
+        "issue-mcq-23",
+        "issue-mcq-34",
+        "issue-mcq-71"
       ],
       "explanation": "本句的「Issuance」指「發行；簽發」。",
       "sentenceIndex": 138,
@@ -5989,12 +5435,10 @@ export default {
         "Issuance"
       ],
       "optionReasons": {
-        "issue-mcq-64": "本句指「發行；簽發」。",
-        "issue-mcq-63": "「發行價」與本句語境不同。",
-        "issue-mcq-65": "「發行人／簽發機構」與本句語境不同。",
-        "issue-mcq-62": "「供股」與本句語境不同。",
-        "issue-mcq-66": "「發卡機構」與本句語境不同。",
-        "issue-mcq-61": "「發行債券」與本句語境不同。"
+        "issue-mcq-64": "本句的「Issuance」指「發行；簽發」。",
+        "issue-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-64"
     },
@@ -6006,11 +5450,9 @@ export default {
       "masked": "Digital identity checks speed up ____.",
       "options": [
         "issue-mcq-64",
-        "issue-mcq-63",
-        "issue-mcq-65",
-        "issue-mcq-62",
-        "issue-mcq-66",
-        "issue-mcq-61"
+        "issue-mcq-09",
+        "issue-mcq-71",
+        "issue-mcq-38"
       ],
       "explanation": "本句的「card issuance」指「發行；簽發」。",
       "sentenceIndex": 139,
@@ -6019,12 +5461,10 @@ export default {
         "card issuance"
       ],
       "optionReasons": {
-        "issue-mcq-64": "本句指「發行；簽發」。",
-        "issue-mcq-63": "「發行價」與本句語境不同。",
-        "issue-mcq-65": "「發行人／簽發機構」與本句語境不同。",
-        "issue-mcq-62": "「供股」與本句語境不同。",
-        "issue-mcq-66": "「發卡機構」與本句語境不同。",
-        "issue-mcq-61": "「發行債券」與本句語境不同。"
+        "issue-mcq-64": "本句的「card issuance」指「發行；簽發」。",
+        "issue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-64"
     },
@@ -6036,11 +5476,9 @@ export default {
       "masked": "Card ____ may be subject to approval.",
       "options": [
         "issue-mcq-64",
-        "issue-mcq-63",
-        "issue-mcq-65",
-        "issue-mcq-62",
-        "issue-mcq-66",
-        "issue-mcq-61"
+        "issue-mcq-03",
+        "issue-mcq-37",
+        "issue-mcq-34"
       ],
       "explanation": "本句的「issuance」指「發行；簽發」。",
       "sentenceIndex": 140,
@@ -6049,12 +5487,10 @@ export default {
         "issuance"
       ],
       "optionReasons": {
-        "issue-mcq-64": "本句指「發行；簽發」。",
-        "issue-mcq-63": "「發行價」與本句語境不同。",
-        "issue-mcq-65": "「發行人／簽發機構」與本句語境不同。",
-        "issue-mcq-62": "「供股」與本句語境不同。",
-        "issue-mcq-66": "「發卡機構」與本句語境不同。",
-        "issue-mcq-61": "「發行債券」與本句語境不同。"
+        "issue-mcq-64": "本句的「issuance」指「發行；簽發」。",
+        "issue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-64"
     },
@@ -6066,11 +5502,9 @@ export default {
       "masked": "The company is the ____.",
       "options": [
         "issue-mcq-65",
-        "issue-mcq-64",
-        "issue-mcq-66",
-        "issue-mcq-63",
-        "issue-mcq-67",
-        "issue-mcq-62"
+        "issue-mcq-08",
+        "issue-mcq-70",
+        "issue-mcq-39"
       ],
       "explanation": "本句的「issuer of the bonds」指「發行人／簽發機構」。",
       "sentenceIndex": 141,
@@ -6079,12 +5513,10 @@ export default {
         "issuer of the bonds"
       ],
       "optionReasons": {
-        "issue-mcq-65": "本句指「發行人／簽發機構」。",
-        "issue-mcq-64": "「發行；簽發」與本句語境不同。",
-        "issue-mcq-66": "「發卡機構」與本句語境不同。",
-        "issue-mcq-63": "「發行價」與本句語境不同。",
-        "issue-mcq-67": "「債券發行人」與本句語境不同。",
-        "issue-mcq-62": "「供股」與本句語境不同。"
+        "issue-mcq-65": "本句的「issuer of the bonds」指「發行人／簽發機構」。",
+        "issue-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-65"
     },
@@ -6096,11 +5528,9 @@ export default {
       "masked": "Contact the card ____ if the card is lost.",
       "options": [
         "issue-mcq-65",
-        "issue-mcq-64",
-        "issue-mcq-66",
-        "issue-mcq-63",
-        "issue-mcq-67",
-        "issue-mcq-62"
+        "issue-mcq-22",
+        "issue-mcq-62",
+        "issue-mcq-34"
       ],
       "explanation": "本句的「issuer」指「發行人／簽發機構」。",
       "sentenceIndex": 142,
@@ -6109,12 +5539,10 @@ export default {
         "issuer"
       ],
       "optionReasons": {
-        "issue-mcq-65": "本句指「發行人／簽發機構」。",
-        "issue-mcq-64": "「發行；簽發」與本句語境不同。",
-        "issue-mcq-66": "「發卡機構」與本句語境不同。",
-        "issue-mcq-63": "「發行價」與本句語境不同。",
-        "issue-mcq-67": "「債券發行人」與本句語境不同。",
-        "issue-mcq-62": "「供股」與本句語境不同。"
+        "issue-mcq-65": "本句的「issuer」指「發行人／簽發機構」。",
+        "issue-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-65"
     },
@@ -6126,11 +5554,9 @@ export default {
       "masked": "The ____ approved the transaction.",
       "options": [
         "issue-mcq-66",
-        "issue-mcq-65",
-        "issue-mcq-67",
-        "issue-mcq-64",
-        "issue-mcq-68",
-        "issue-mcq-63"
+        "issue-mcq-17",
+        "issue-mcq-28",
+        "issue-mcq-33"
       ],
       "explanation": "本句的「card issuer」指「發卡機構」。",
       "sentenceIndex": 143,
@@ -6139,12 +5565,10 @@ export default {
         "card issuer"
       ],
       "optionReasons": {
-        "issue-mcq-66": "本句指「發卡機構」。",
-        "issue-mcq-65": "「發行人／簽發機構」與本句語境不同。",
-        "issue-mcq-67": "「債券發行人」與本句語境不同。",
-        "issue-mcq-64": "「發行；簽發」與本句語境不同。",
-        "issue-mcq-68": "「重新發行／簽發」與本句語境不同。",
-        "issue-mcq-63": "「發行價」與本句語境不同。"
+        "issue-mcq-66": "本句的「card issuer」指「發卡機構」。",
+        "issue-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-66"
     },
@@ -6156,11 +5580,9 @@ export default {
       "masked": "Contact your card ____ for assistance.",
       "options": [
         "issue-mcq-66",
-        "issue-mcq-65",
-        "issue-mcq-67",
-        "issue-mcq-64",
-        "issue-mcq-68",
-        "issue-mcq-63"
+        "issue-mcq-38",
+        "issue-mcq-16",
+        "issue-mcq-73"
       ],
       "explanation": "本句的「issuer」指「發卡機構」。",
       "sentenceIndex": 144,
@@ -6169,12 +5591,10 @@ export default {
         "issuer"
       ],
       "optionReasons": {
-        "issue-mcq-66": "本句指「發卡機構」。",
-        "issue-mcq-65": "「發行人／簽發機構」與本句語境不同。",
-        "issue-mcq-67": "「債券發行人」與本句語境不同。",
-        "issue-mcq-64": "「發行；簽發」與本句語境不同。",
-        "issue-mcq-68": "「重新發行／簽發」與本句語境不同。",
-        "issue-mcq-63": "「發行價」與本句語境不同。"
+        "issue-mcq-66": "本句的「issuer」指「發卡機構」。",
+        "issue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-66"
     },
@@ -6186,11 +5606,9 @@ export default {
       "masked": "The ____ must repay principal according to the bond terms.",
       "options": [
         "issue-mcq-67",
-        "issue-mcq-66",
-        "issue-mcq-68",
-        "issue-mcq-65",
-        "issue-mcq-69",
-        "issue-mcq-64"
+        "issue-mcq-29",
+        "issue-mcq-34",
+        "issue-mcq-62"
       ],
       "explanation": "本句的「bond issuer」指「債券發行人」。",
       "sentenceIndex": 145,
@@ -6199,12 +5617,10 @@ export default {
         "bond issuer"
       ],
       "optionReasons": {
-        "issue-mcq-67": "本句指「債券發行人」。",
-        "issue-mcq-66": "「發卡機構」與本句語境不同。",
-        "issue-mcq-68": "「重新發行／簽發」與本句語境不同。",
-        "issue-mcq-65": "「發行人／簽發機構」與本句語境不同。",
-        "issue-mcq-69": "「再版／重發版本」與本句語境不同。",
-        "issue-mcq-64": "「發行；簽發」與本句語境不同。"
+        "issue-mcq-67": "本句的「bond issuer」指「債券發行人」。",
+        "issue-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-67"
     },
@@ -6216,11 +5632,9 @@ export default {
       "masked": "Investors assess the ____'s creditworthiness.",
       "options": [
         "issue-mcq-67",
-        "issue-mcq-66",
-        "issue-mcq-68",
-        "issue-mcq-65",
-        "issue-mcq-69",
-        "issue-mcq-64"
+        "issue-mcq-09",
+        "issue-mcq-37",
+        "issue-mcq-33"
       ],
       "explanation": "本句的「issuer」指「債券發行人」。",
       "sentenceIndex": 146,
@@ -6229,12 +5643,10 @@ export default {
         "issuer"
       ],
       "optionReasons": {
-        "issue-mcq-67": "本句指「債券發行人」。",
-        "issue-mcq-66": "「發卡機構」與本句語境不同。",
-        "issue-mcq-68": "「重新發行／簽發」與本句語境不同。",
-        "issue-mcq-65": "「發行人／簽發機構」與本句語境不同。",
-        "issue-mcq-69": "「再版／重發版本」與本句語境不同。",
-        "issue-mcq-64": "「發行；簽發」與本句語境不同。"
+        "issue-mcq-67": "本句的「issuer」指「債券發行人」。",
+        "issue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-67"
     },
@@ -6246,11 +5658,9 @@ export default {
       "masked": "The airline ____.",
       "options": [
         "issue-mcq-68",
-        "issue-mcq-67",
-        "issue-mcq-69",
-        "issue-mcq-66",
-        "issue-mcq-70",
-        "issue-mcq-65"
+        "issue-mcq-10",
+        "issue-mcq-62",
+        "issue-mcq-70"
       ],
       "explanation": "本句的「reissued the ticket」指「重新發行／簽發」。",
       "sentenceIndex": 147,
@@ -6259,12 +5669,10 @@ export default {
         "reissued the ticket"
       ],
       "optionReasons": {
-        "issue-mcq-68": "本句指「重新發行／簽發」。",
-        "issue-mcq-67": "「債券發行人」與本句語境不同。",
-        "issue-mcq-69": "「再版／重發版本」與本句語境不同。",
-        "issue-mcq-66": "「發卡機構」與本句語境不同。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。",
-        "issue-mcq-65": "「發行人／簽發機構」與本句語境不同。"
+        "issue-mcq-68": "本句的「reissued the ticket」指「重新發行／簽發」。",
+        "issue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-68"
     },
@@ -6276,11 +5684,9 @@ export default {
       "masked": "The certificate was ____.",
       "options": [
         "issue-mcq-68",
-        "issue-mcq-67",
-        "issue-mcq-69",
-        "issue-mcq-66",
-        "issue-mcq-70",
-        "issue-mcq-65"
+        "issue-mcq-27",
+        "issue-mcq-36",
+        "issue-mcq-01"
       ],
       "explanation": "本句的「reissued with the correct name」指「重新發行／簽發」。",
       "sentenceIndex": 148,
@@ -6289,12 +5695,10 @@ export default {
         "reissued with the correct name"
       ],
       "optionReasons": {
-        "issue-mcq-68": "本句指「重新發行／簽發」。",
-        "issue-mcq-67": "「債券發行人」與本句語境不同。",
-        "issue-mcq-69": "「再版／重發版本」與本句語境不同。",
-        "issue-mcq-66": "「發卡機構」與本句語境不同。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。",
-        "issue-mcq-65": "「發行人／簽發機構」與本句語境不同。"
+        "issue-mcq-68": "本句的「reissued with the correct name」指「重新發行／簽發」。",
+        "issue-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-68"
     },
@@ -6306,11 +5710,9 @@ export default {
       "masked": "The album was ____ on vinyl.",
       "options": [
         "issue-mcq-69",
-        "issue-mcq-68",
-        "issue-mcq-70",
-        "issue-mcq-67",
-        "issue-mcq-71",
-        "issue-mcq-66"
+        "issue-mcq-15",
+        "issue-mcq-72",
+        "issue-mcq-24"
       ],
       "explanation": "本句的「reissued」指「再版／重發版本」。",
       "sentenceIndex": 149,
@@ -6319,12 +5721,10 @@ export default {
         "reissued"
       ],
       "optionReasons": {
-        "issue-mcq-69": "本句指「再版／重發版本」。",
-        "issue-mcq-68": "「重新發行／簽發」與本句語境不同。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。",
-        "issue-mcq-67": "「債券發行人」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-66": "「發卡機構」與本句語境不同。"
+        "issue-mcq-69": "本句的「reissued」指「再版／重發版本」。",
+        "issue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-69"
     },
@@ -6336,11 +5736,9 @@ export default {
       "masked": "This edition is a ____ of the original recording.",
       "options": [
         "issue-mcq-69",
-        "issue-mcq-68",
-        "issue-mcq-70",
-        "issue-mcq-67",
-        "issue-mcq-71",
-        "issue-mcq-66"
+        "issue-mcq-11",
+        "issue-mcq-38",
+        "issue-mcq-72"
       ],
       "explanation": "本句的「reissue」指「再版／重發版本」。",
       "sentenceIndex": 150,
@@ -6349,12 +5747,10 @@ export default {
         "reissue"
       ],
       "optionReasons": {
-        "issue-mcq-69": "本句指「再版／重發版本」。",
-        "issue-mcq-68": "「重新發行／簽發」與本句語境不同。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。",
-        "issue-mcq-67": "「債券發行人」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-66": "「發卡機構」與本句語境不同。"
+        "issue-mcq-69": "本句的「reissue」指「再版／重發版本」。",
+        "issue-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-69"
     },
@@ -6366,11 +5762,9 @@ export default {
       "masked": "Smoke ____.",
       "options": [
         "issue-mcq-70",
-        "issue-mcq-69",
-        "issue-mcq-71",
-        "issue-mcq-68",
-        "issue-mcq-72",
-        "issue-mcq-67"
+        "issue-mcq-39",
+        "issue-mcq-13",
+        "issue-mcq-66"
       ],
       "explanation": "本句的「issued from the doorway」指「從……流出／傳出」。",
       "sentenceIndex": 151,
@@ -6379,12 +5773,10 @@ export default {
         "issued from the doorway"
       ],
       "optionReasons": {
-        "issue-mcq-70": "本句指「從……流出／傳出」。",
-        "issue-mcq-69": "「再版／重發版本」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-68": "「重新發行／簽發」與本句語境不同。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-67": "「債券發行人」與本句語境不同。"
+        "issue-mcq-70": "本句的「issued from the doorway」指「從……流出／傳出」。",
+        "issue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-70"
     },
@@ -6396,11 +5788,9 @@ export default {
       "masked": "A strange sound ____ from the machine.",
       "options": [
         "issue-mcq-70",
-        "issue-mcq-69",
-        "issue-mcq-71",
-        "issue-mcq-68",
-        "issue-mcq-72",
-        "issue-mcq-67"
+        "issue-mcq-15",
+        "issue-mcq-39",
+        "issue-mcq-23"
       ],
       "explanation": "本句的「issued」指「從……流出／傳出」。",
       "sentenceIndex": 152,
@@ -6409,12 +5799,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-70": "本句指「從……流出／傳出」。",
-        "issue-mcq-69": "「再版／重發版本」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-68": "「重新發行／簽發」與本句語境不同。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-67": "「債券發行人」與本句語境不同。"
+        "issue-mcq-70": "本句的「issued」指「從……流出／傳出」。",
+        "issue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-70"
     },
@@ -6426,11 +5814,9 @@ export default {
       "masked": "Water ____.",
       "options": [
         "issue-mcq-70",
-        "issue-mcq-69",
-        "issue-mcq-71",
-        "issue-mcq-68",
-        "issue-mcq-72",
-        "issue-mcq-67"
+        "issue-mcq-04",
+        "issue-mcq-50",
+        "issue-mcq-36"
       ],
       "explanation": "本句的「issues from the rock」指「從……流出／傳出」。",
       "sentenceIndex": 153,
@@ -6439,12 +5825,10 @@ export default {
         "issues from the rock"
       ],
       "optionReasons": {
-        "issue-mcq-70": "本句指「從……流出／傳出」。",
-        "issue-mcq-69": "「再版／重發版本」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-68": "「重新發行／簽發」與本句語境不同。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-67": "「債券發行人」與本句語境不同。"
+        "issue-mcq-70": "本句的「issues from the rock」指「從……流出／傳出」。",
+        "issue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-70"
     },
@@ -6456,11 +5840,9 @@ export default {
       "masked": "A stream ____ from the hillside.",
       "options": [
         "issue-mcq-70",
+        "issue-mcq-65",
         "issue-mcq-69",
-        "issue-mcq-71",
-        "issue-mcq-68",
-        "issue-mcq-72",
-        "issue-mcq-67"
+        "issue-mcq-31"
       ],
       "explanation": "本句的「issues」指「從……流出／傳出」。",
       "sentenceIndex": 154,
@@ -6469,12 +5851,10 @@ export default {
         "issues"
       ],
       "optionReasons": {
-        "issue-mcq-70": "本句指「從……流出／傳出」。",
-        "issue-mcq-69": "「再版／重發版本」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-68": "「重新發行／簽發」與本句語境不同。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-67": "「債券發行人」與本句語境不同。"
+        "issue-mcq-70": "本句的「issues」指「從……流出／傳出」。",
+        "issue-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-70"
     },
@@ -6486,11 +5866,9 @@ export default {
       "masked": "A cry ____.",
       "options": [
         "issue-mcq-70",
-        "issue-mcq-69",
-        "issue-mcq-71",
-        "issue-mcq-68",
-        "issue-mcq-72",
-        "issue-mcq-67"
+        "issue-mcq-28",
+        "issue-mcq-26",
+        "issue-mcq-01"
       ],
       "explanation": "本句的「issued from the room」指「從……流出／傳出」。",
       "sentenceIndex": 155,
@@ -6499,12 +5877,10 @@ export default {
         "issued from the room"
       ],
       "optionReasons": {
-        "issue-mcq-70": "本句指「從……流出／傳出」。",
-        "issue-mcq-69": "「再版／重發版本」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-68": "「重新發行／簽發」與本句語境不同。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-67": "「債券發行人」與本句語境不同。"
+        "issue-mcq-70": "本句的「issued from the room」指「從……流出／傳出」。",
+        "issue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-70"
     },
@@ -6517,10 +5893,8 @@ export default {
       "options": [
         "issue-mcq-70",
         "issue-mcq-69",
-        "issue-mcq-71",
-        "issue-mcq-68",
-        "issue-mcq-72",
-        "issue-mcq-67"
+        "issue-mcq-37",
+        "issue-mcq-33"
       ],
       "explanation": "本句的「issued」指「從……流出／傳出」。",
       "sentenceIndex": 156,
@@ -6529,12 +5903,10 @@ export default {
         "issued"
       ],
       "optionReasons": {
-        "issue-mcq-70": "本句指「從……流出／傳出」。",
-        "issue-mcq-69": "「再版／重發版本」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-68": "「重新發行／簽發」與本句語境不同。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-67": "「債券發行人」與本句語境不同。"
+        "issue-mcq-70": "本句的「issued」指「從……流出／傳出」。",
+        "issue-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-70"
     },
@@ -6546,11 +5918,9 @@ export default {
       "masked": "The estate passed to his surviving ____.",
       "options": [
         "issue-mcq-71",
-        "issue-mcq-70",
-        "issue-mcq-72",
-        "issue-mcq-69",
-        "issue-mcq-73",
-        "issue-mcq-68"
+        "issue-mcq-33",
+        "issue-mcq-50",
+        "issue-mcq-09"
       ],
       "explanation": "本句的「issue」指「後代；子嗣」。",
       "sentenceIndex": 157,
@@ -6559,12 +5929,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-71": "本句指「後代；子嗣」。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-69": "「再版／重發版本」與本句語境不同。",
-        "issue-mcq-73": "「尚存後代」與本句語境不同。",
-        "issue-mcq-68": "「重新發行／簽發」與本句語境不同。"
+        "issue-mcq-71": "本句的「issue」指「後代；子嗣」。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-71"
     },
@@ -6576,11 +5944,9 @@ export default {
       "masked": "Legal documents may use “____” to mean descendants.",
       "options": [
         "issue-mcq-71",
-        "issue-mcq-70",
-        "issue-mcq-72",
-        "issue-mcq-69",
-        "issue-mcq-73",
-        "issue-mcq-68"
+        "issue-mcq-46",
+        "issue-mcq-17",
+        "issue-pdf-004"
       ],
       "explanation": "本句的「issue」指「後代；子嗣」。",
       "sentenceIndex": 158,
@@ -6589,12 +5955,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-71": "本句指「後代；子嗣」。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-69": "「再版／重發版本」與本句語境不同。",
-        "issue-mcq-73": "「尚存後代」與本句語境不同。",
-        "issue-mcq-68": "「重新發行／簽發」與本句語境不同。"
+        "issue-mcq-71": "本句的「issue」指「後代；子嗣」。",
+        "issue-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-71"
     },
@@ -6606,11 +5970,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "issue-mcq-72",
-        "issue-mcq-71",
-        "issue-mcq-73",
-        "issue-mcq-70",
-        "issue-mcq-74",
-        "issue-mcq-69"
+        "issue-mcq-06",
+        "issue-mcq-65",
+        "issue-mcq-46"
       ],
       "explanation": "本句的「died without issue」指「無後代而死」。",
       "sentenceIndex": 159,
@@ -6619,12 +5981,10 @@ export default {
         "died without issue"
       ],
       "optionReasons": {
-        "issue-mcq-72": "本句指「無後代而死」。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-73": "「尚存後代」與本句語境不同。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。",
-        "issue-mcq-74": "「簽發／發行日期」與本句語境不同。",
-        "issue-mcq-69": "「再版／重發版本」與本句語境不同。"
+        "issue-mcq-72": "本句的「died without issue」指「無後代而死」。",
+        "issue-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-72"
     },
@@ -6636,11 +5996,9 @@ export default {
       "masked": "The property was to pass elsewhere if she died without ____.",
       "options": [
         "issue-mcq-72",
-        "issue-mcq-71",
-        "issue-mcq-73",
-        "issue-mcq-70",
-        "issue-mcq-74",
-        "issue-mcq-69"
+        "issue-mcq-03",
+        "issue-mcq-66",
+        "issue-mcq-28"
       ],
       "explanation": "本句的「issue」指「無後代而死」。",
       "sentenceIndex": 160,
@@ -6649,12 +6007,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-72": "本句指「無後代而死」。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-73": "「尚存後代」與本句語境不同。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。",
-        "issue-mcq-74": "「簽發／發行日期」與本句語境不同。",
-        "issue-mcq-69": "「再版／重發版本」與本句語境不同。"
+        "issue-mcq-72": "本句的「issue」指「無後代而死」。",
+        "issue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-72"
     },
@@ -6666,11 +6022,9 @@ export default {
       "masked": "The trust provides for the beneficiary's ____.",
       "options": [
         "issue-mcq-73",
-        "issue-mcq-72",
-        "issue-mcq-74",
-        "issue-mcq-71",
-        "issue-mcq-75",
-        "issue-mcq-70"
+        "issue-mcq-51",
+        "issue-mcq-05",
+        "issue-mcq-37"
       ],
       "explanation": "本句的「surviving issue」指「尚存後代」。",
       "sentenceIndex": 161,
@@ -6679,12 +6033,10 @@ export default {
         "surviving issue"
       ],
       "optionReasons": {
-        "issue-mcq-73": "本句指「尚存後代」。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-74": "「簽發／發行日期」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-75": "「簽發日期」與本句語境不同。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。"
+        "issue-mcq-73": "本句的「surviving issue」指「尚存後代」。",
+        "issue-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-73"
     },
@@ -6696,11 +6048,9 @@ export default {
       "masked": "____” is much more formal than “children” or “descendants.",
       "options": [
         "issue-mcq-73",
-        "issue-mcq-72",
-        "issue-mcq-74",
-        "issue-mcq-71",
-        "issue-mcq-75",
-        "issue-mcq-70"
+        "issue-pdf-003",
+        "issue-mcq-68",
+        "issue-mcq-29"
       ],
       "explanation": "本句的「Issue」指「尚存後代」。",
       "sentenceIndex": 162,
@@ -6709,12 +6059,10 @@ export default {
         "Issue"
       ],
       "optionReasons": {
-        "issue-mcq-73": "本句指「尚存後代」。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-74": "「簽發／發行日期」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-75": "「簽發日期」與本句語境不同。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。"
+        "issue-mcq-73": "本句的「Issue」指「尚存後代」。",
+        "issue-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-73"
     },
@@ -6726,11 +6074,9 @@ export default {
       "masked": "Check the passport's ____.",
       "options": [
         "issue-pdf-006",
-        "issue-mcq-73",
-        "issue-mcq-75",
-        "issue-mcq-72",
-        "issue-mcq-71",
-        "issue-mcq-70"
+        "issue-mcq-62",
+        "issue-mcq-27",
+        "issue-mcq-15"
       ],
       "explanation": "本句的「issue date」指「文件、卡、證券等正式發出的日期」。",
       "sentenceIndex": 163,
@@ -6739,12 +6085,10 @@ export default {
         "issue date"
       ],
       "optionReasons": {
-        "issue-pdf-006": "本句指「文件、卡、證券等正式發出的日期」。",
-        "issue-mcq-73": "「尚存後代」與本句語境不同。",
-        "issue-mcq-75": "「簽發日期」與本句語境不同。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。"
+        "issue-pdf-006": "本句的「issue date」指「文件、卡、證券等正式發出的日期」。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-pdf-006"
     },
@@ -6756,11 +6100,9 @@ export default {
       "masked": "The bond's ____ date is printed on the document.",
       "options": [
         "issue-pdf-006",
-        "issue-mcq-73",
-        "issue-mcq-75",
-        "issue-mcq-72",
-        "issue-mcq-71",
-        "issue-mcq-70"
+        "issue-mcq-10",
+        "issue-mcq-33",
+        "issue-mcq-62"
       ],
       "explanation": "本句的「issue」指「文件、卡、證券等正式發出的日期」。",
       "sentenceIndex": 164,
@@ -6769,12 +6111,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-pdf-006": "本句指「文件、卡、證券等正式發出的日期」。",
-        "issue-mcq-73": "「尚存後代」與本句語境不同。",
-        "issue-mcq-75": "「簽發日期」與本句語境不同。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。"
+        "issue-pdf-006": "本句的「issue」指「文件、卡、證券等正式發出的日期」。",
+        "issue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-pdf-006"
     },
@@ -6786,11 +6126,9 @@ export default {
       "masked": "Enter the ____.",
       "options": [
         "issue-mcq-75",
-        "issue-mcq-74",
-        "issue-mcq-73",
-        "issue-mcq-72",
-        "issue-mcq-71",
-        "issue-mcq-70"
+        "issue-mcq-16",
+        "issue-mcq-62",
+        "issue-mcq-71"
       ],
       "explanation": "本句的「date of issue」指「簽發日期」。",
       "sentenceIndex": 165,
@@ -6799,12 +6137,10 @@ export default {
         "date of issue"
       ],
       "optionReasons": {
-        "issue-mcq-75": "本句指「簽發日期」。",
-        "issue-mcq-74": "「簽發／發行日期」與本句語境不同。",
-        "issue-mcq-73": "「尚存後代」與本句語境不同。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。"
+        "issue-mcq-75": "本句的「date of issue」指「簽發日期」。",
+        "issue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-75"
     },
@@ -6816,11 +6152,9 @@ export default {
       "masked": "The date of ____ differs from the expiry date.",
       "options": [
         "issue-mcq-75",
-        "issue-mcq-74",
-        "issue-mcq-73",
-        "issue-mcq-72",
-        "issue-mcq-71",
-        "issue-mcq-70"
+        "issue-mcq-17",
+        "issue-pdf-001",
+        "issue-mcq-39"
       ],
       "explanation": "本句的「issue」指「簽發日期」。",
       "sentenceIndex": 166,
@@ -6829,12 +6163,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-75": "本句指「簽發日期」。",
-        "issue-mcq-74": "「簽發／發行日期」與本句語境不同。",
-        "issue-mcq-73": "「尚存後代」與本句語境不同。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。"
+        "issue-mcq-75": "本句的「issue」指「簽發日期」。",
+        "issue-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-75"
     },
@@ -6846,10 +6178,8 @@ export default {
       "masked": "The ____ begins on Monday.",
       "options": [
         "issue-mcq-75",
-        "issue-mcq-74",
-        "issue-mcq-73",
-        "issue-mcq-72",
         "issue-mcq-71",
+        "issue-mcq-27",
         "issue-mcq-70"
       ],
       "explanation": "本句的「issue of uniforms」指「簽發日期」。",
@@ -6859,12 +6189,10 @@ export default {
         "issue of uniforms"
       ],
       "optionReasons": {
-        "issue-mcq-75": "本句指「簽發日期」。",
-        "issue-mcq-74": "「簽發／發行日期」與本句語境不同。",
-        "issue-mcq-73": "「尚存後代」與本句語境不同。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。"
+        "issue-mcq-75": "本句的「issue of uniforms」指「簽發日期」。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-75"
     },
@@ -6876,11 +6204,9 @@ export default {
       "masked": "Equipment ____ is recorded electronically.",
       "options": [
         "issue-mcq-75",
-        "issue-mcq-74",
-        "issue-mcq-73",
-        "issue-mcq-72",
+        "issue-mcq-28",
         "issue-mcq-71",
-        "issue-mcq-70"
+        "issue-mcq-17"
       ],
       "explanation": "本句的「issue」指「簽發日期」。",
       "sentenceIndex": 168,
@@ -6889,12 +6215,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-75": "本句指「簽發日期」。",
-        "issue-mcq-74": "「簽發／發行日期」與本句語境不同。",
-        "issue-mcq-73": "「尚存後代」與本句語境不同。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。"
+        "issue-mcq-75": "本句的「issue」指「簽發日期」。",
+        "issue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-75"
     },
@@ -6906,11 +6230,9 @@ export default {
       "masked": "The ____ caused concern.",
       "options": [
         "issue-mcq-75",
-        "issue-mcq-74",
-        "issue-mcq-73",
-        "issue-mcq-72",
         "issue-mcq-71",
-        "issue-mcq-70"
+        "issue-mcq-04",
+        "issue-mcq-34"
       ],
       "explanation": "本句的「issue of the warning」指「簽發日期」。",
       "sentenceIndex": 169,
@@ -6919,12 +6241,10 @@ export default {
         "issue of the warning"
       ],
       "optionReasons": {
-        "issue-mcq-75": "本句指「簽發日期」。",
-        "issue-mcq-74": "「簽發／發行日期」與本句語境不同。",
-        "issue-mcq-73": "「尚存後代」與本句語境不同。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。"
+        "issue-mcq-75": "本句的「issue of the warning」指「簽發日期」。",
+        "issue-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-75"
     },
@@ -6936,11 +6256,9 @@ export default {
       "masked": "The ____ of new guidance was welcomed.",
       "options": [
         "issue-mcq-75",
-        "issue-mcq-74",
-        "issue-mcq-73",
-        "issue-mcq-72",
-        "issue-mcq-71",
-        "issue-mcq-70"
+        "issue-mcq-08",
+        "issue-mcq-33",
+        "issue-pdf-004"
       ],
       "explanation": "本句的「issue」指「簽發日期」。",
       "sentenceIndex": 170,
@@ -6949,12 +6267,10 @@ export default {
         "issue"
       ],
       "optionReasons": {
-        "issue-mcq-75": "本句指「簽發日期」。",
-        "issue-mcq-74": "「簽發／發行日期」與本句語境不同。",
-        "issue-mcq-73": "「尚存後代」與本句語境不同。",
-        "issue-mcq-72": "「無後代而死」與本句語境不同。",
-        "issue-mcq-71": "「後代；子嗣」與本句語境不同。",
-        "issue-mcq-70": "「從……流出／傳出」與本句語境不同。"
+        "issue-mcq-75": "本句的「issue」指「簽發日期」。",
+        "issue-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "issue-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "issue-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "issue-mcq-75"
     }
@@ -6966,5 +6282,7 @@ export default {
     "sha256": "5b03c2889afc5330d8d060d95588dbc2ae88274f1420e962fc79610d765f2b26",
     "pages": 58
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

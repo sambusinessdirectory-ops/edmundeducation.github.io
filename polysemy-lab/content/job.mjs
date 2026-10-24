@@ -569,11 +569,8 @@ export default {
       "masked": "She has a busy ____.",
       "options": [
         "job-mcq-01",
-        "job-mcq-02",
-        "job-mcq-03",
-        "job-mcq-04",
-        "job-mcq-05",
-        "job-mcq-06"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「某人受聘擔任並通常藉此賺取收入的一個工作職位」。",
       "sentenceIndex": 0,
@@ -582,12 +579,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-01": "本句指「某人受聘擔任並通常藉此賺取收入的一個工作職位」。",
-        "job-mcq-02": "「一項需要完成的具體工作、任務或差事」是「job — task」的用法，與本句語境不同。",
-        "job-mcq-03": "「為完成、修理、製作或處理某事而進行的一整項工作」是「job — practical work」的用法，與本句語境不同。",
-        "job-mcq-04": "「在完成某項工作時表現良好／欠佳」是「do a good/bad job」的用法，與本句語境不同。",
-        "job-mcq-05": "「某人／某物被要求或預期完成的主要職責、作用或功能」是「job — function」的用法，與本句語境不同。",
-        "job-mcq-06": "「按角色或職位安排屬於某人負責的事情」是「job — responsibility」的用法，與本句語境不同。"
+        "job-mcq-01": "本句的「job」指「某人受聘擔任並通常藉此賺取收入的一個工作職位」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-01"
     },
@@ -599,11 +593,8 @@ export default {
       "masked": "He got a ____ at a local bank.",
       "options": [
         "job-mcq-01",
-        "job-mcq-02",
-        "job-mcq-03",
-        "job-mcq-04",
-        "job-mcq-05",
-        "job-mcq-06"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「某人受聘擔任並通常藉此賺取收入的一個工作職位」。",
       "sentenceIndex": 1,
@@ -612,12 +603,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-01": "本句指「某人受聘擔任並通常藉此賺取收入的一個工作職位」。",
-        "job-mcq-02": "「一項需要完成的具體工作、任務或差事」是「job — task」的用法，與本句語境不同。",
-        "job-mcq-03": "「為完成、修理、製作或處理某事而進行的一整項工作」是「job — practical work」的用法，與本句語境不同。",
-        "job-mcq-04": "「在完成某項工作時表現良好／欠佳」是「do a good/bad job」的用法，與本句語境不同。",
-        "job-mcq-05": "「某人／某物被要求或預期完成的主要職責、作用或功能」是「job — function」的用法，與本句語境不同。",
-        "job-mcq-06": "「按角色或職位安排屬於某人負責的事情」是「job — responsibility」的用法，與本句語境不同。"
+        "job-mcq-01": "本句的「job」指「某人受聘擔任並通常藉此賺取收入的一個工作職位」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-01"
     },
@@ -629,11 +617,8 @@ export default {
       "masked": "She left her old ____ last month.",
       "options": [
         "job-mcq-01",
-        "job-mcq-02",
-        "job-mcq-03",
-        "job-mcq-04",
-        "job-mcq-05",
-        "job-mcq-06"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「某人受聘擔任並通常藉此賺取收入的一個工作職位」。",
       "sentenceIndex": 2,
@@ -642,12 +627,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-01": "本句指「某人受聘擔任並通常藉此賺取收入的一個工作職位」。",
-        "job-mcq-02": "「一項需要完成的具體工作、任務或差事」是「job — task」的用法，與本句語境不同。",
-        "job-mcq-03": "「為完成、修理、製作或處理某事而進行的一整項工作」是「job — practical work」的用法，與本句語境不同。",
-        "job-mcq-04": "「在完成某項工作時表現良好／欠佳」是「do a good/bad job」的用法，與本句語境不同。",
-        "job-mcq-05": "「某人／某物被要求或預期完成的主要職責、作用或功能」是「job — function」的用法，與本句語境不同。",
-        "job-mcq-06": "「按角色或職位安排屬於某人負責的事情」是「job — responsibility」的用法，與本句語境不同。"
+        "job-mcq-01": "本句的「job」指「某人受聘擔任並通常藉此賺取收入的一個工作職位」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-01"
     },
@@ -659,11 +641,8 @@ export default {
       "masked": "I have a few ____ to do around the house.",
       "options": [
         "job-mcq-02",
-        "job-mcq-01",
-        "job-mcq-03",
-        "job-mcq-04",
-        "job-mcq-05",
-        "job-mcq-06"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「jobs」指「一項需要完成的具體工作、任務或差事」。",
       "sentenceIndex": 3,
@@ -672,12 +651,9 @@ export default {
         "jobs"
       ],
       "optionReasons": {
-        "job-mcq-02": "本句指「一項需要完成的具體工作、任務或差事」。",
-        "job-mcq-01": "「某人受聘擔任並通常藉此賺取收入的一個工作職位」是「job — employment」的用法，與本句語境不同。",
-        "job-mcq-03": "「為完成、修理、製作或處理某事而進行的一整項工作」是「job — practical work」的用法，與本句語境不同。",
-        "job-mcq-04": "「在完成某項工作時表現良好／欠佳」是「do a good/bad job」的用法，與本句語境不同。",
-        "job-mcq-05": "「某人／某物被要求或預期完成的主要職責、作用或功能」是「job — function」的用法，與本句語境不同。",
-        "job-mcq-06": "「按角色或職位安排屬於某人負責的事情」是「job — responsibility」的用法，與本句語境不同。"
+        "job-mcq-02": "本句的「jobs」指「一項需要完成的具體工作、任務或差事」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-02"
     },
@@ -689,11 +665,8 @@ export default {
       "masked": "Cleaning the garden is a big ____.",
       "options": [
         "job-mcq-02",
-        "job-mcq-01",
-        "job-mcq-03",
-        "job-mcq-04",
-        "job-mcq-05",
-        "job-mcq-06"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「一項需要完成的具體工作、任務或差事」。",
       "sentenceIndex": 4,
@@ -702,12 +675,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-02": "本句指「一項需要完成的具體工作、任務或差事」。",
-        "job-mcq-01": "「某人受聘擔任並通常藉此賺取收入的一個工作職位」是「job — employment」的用法，與本句語境不同。",
-        "job-mcq-03": "「為完成、修理、製作或處理某事而進行的一整項工作」是「job — practical work」的用法，與本句語境不同。",
-        "job-mcq-04": "「在完成某項工作時表現良好／欠佳」是「do a good/bad job」的用法，與本句語境不同。",
-        "job-mcq-05": "「某人／某物被要求或預期完成的主要職責、作用或功能」是「job — function」的用法，與本句語境不同。",
-        "job-mcq-06": "「按角色或職位安排屬於某人負責的事情」是「job — responsibility」的用法，與本句語境不同。"
+        "job-mcq-02": "本句的「job」指「一項需要完成的具體工作、任務或差事」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-02"
     },
@@ -719,11 +689,7 @@ export default {
       "masked": "Repairing the roof will be a difficult ____.",
       "options": [
         "job-mcq-03",
-        "job-mcq-02",
-        "job-mcq-04",
-        "job-mcq-01",
-        "job-mcq-05",
-        "job-mcq-06"
+        "job-mcq-09"
       ],
       "explanation": "本句的「job」指「為完成、修理、製作或處理某事而進行的一整項工作」。",
       "sentenceIndex": 5,
@@ -732,12 +698,8 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-03": "本句指「為完成、修理、製作或處理某事而進行的一整項工作」。",
-        "job-mcq-02": "「一項需要完成的具體工作、任務或差事」是「job — task」的用法，與本句語境不同。",
-        "job-mcq-04": "「在完成某項工作時表現良好／欠佳」是「do a good/bad job」的用法，與本句語境不同。",
-        "job-mcq-01": "「某人受聘擔任並通常藉此賺取收入的一個工作職位」是「job — employment」的用法，與本句語境不同。",
-        "job-mcq-05": "「某人／某物被要求或預期完成的主要職責、作用或功能」是「job — function」的用法，與本句語境不同。",
-        "job-mcq-06": "「按角色或職位安排屬於某人負責的事情」是「job — responsibility」的用法，與本句語境不同。"
+        "job-mcq-03": "本句的「job」指「為完成、修理、製作或處理某事而進行的一整項工作」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-03"
     },
@@ -749,11 +711,7 @@ export default {
       "masked": "They did a good ____ of repainting the room.",
       "options": [
         "job-mcq-03",
-        "job-mcq-02",
-        "job-mcq-04",
-        "job-mcq-01",
-        "job-mcq-05",
-        "job-mcq-06"
+        "job-mcq-09"
       ],
       "explanation": "本句的「job」指「為完成、修理、製作或處理某事而進行的一整項工作」。",
       "sentenceIndex": 6,
@@ -762,12 +720,8 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-03": "本句指「為完成、修理、製作或處理某事而進行的一整項工作」。",
-        "job-mcq-02": "「一項需要完成的具體工作、任務或差事」是「job — task」的用法，與本句語境不同。",
-        "job-mcq-04": "「在完成某項工作時表現良好／欠佳」是「do a good/bad job」的用法，與本句語境不同。",
-        "job-mcq-01": "「某人受聘擔任並通常藉此賺取收入的一個工作職位」是「job — employment」的用法，與本句語境不同。",
-        "job-mcq-05": "「某人／某物被要求或預期完成的主要職責、作用或功能」是「job — function」的用法，與本句語境不同。",
-        "job-mcq-06": "「按角色或職位安排屬於某人負責的事情」是「job — responsibility」的用法，與本句語境不同。"
+        "job-mcq-03": "本句的「job」指「為完成、修理、製作或處理某事而進行的一整項工作」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-03"
     },
@@ -779,11 +733,8 @@ export default {
       "masked": "She did a ____ of organising the plants.",
       "options": [
         "job-mcq-04",
-        "job-mcq-03",
-        "job-mcq-05",
-        "job-mcq-02",
-        "job-mcq-06",
-        "job-mcq-01"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「good job」指「在完成某項工作時表現良好／欠佳」。",
       "sentenceIndex": 7,
@@ -792,12 +743,9 @@ export default {
         "good job"
       ],
       "optionReasons": {
-        "job-mcq-04": "本句指「在完成某項工作時表現良好／欠佳」。",
-        "job-mcq-03": "「為完成、修理、製作或處理某事而進行的一整項工作」是「job — practical work」的用法，與本句語境不同。",
-        "job-mcq-05": "「某人／某物被要求或預期完成的主要職責、作用或功能」是「job — function」的用法，與本句語境不同。",
-        "job-mcq-02": "「一項需要完成的具體工作、任務或差事」是「job — task」的用法，與本句語境不同。",
-        "job-mcq-06": "「按角色或職位安排屬於某人負責的事情」是「job — responsibility」的用法，與本句語境不同。",
-        "job-mcq-01": "「某人受聘擔任並通常藉此賺取收入的一個工作職位」是「job — employment」的用法，與本句語境不同。"
+        "job-mcq-04": "本句的「good job」指「在完成某項工作時表現良好／欠佳」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-04"
     },
@@ -809,11 +757,8 @@ export default {
       "masked": "They did a poor ____ of explaining the rules.",
       "options": [
         "job-mcq-04",
-        "job-mcq-03",
-        "job-mcq-05",
-        "job-mcq-02",
-        "job-mcq-06",
-        "job-mcq-01"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「在完成某項工作時表現良好／欠佳」。",
       "sentenceIndex": 8,
@@ -822,12 +767,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-04": "本句指「在完成某項工作時表現良好／欠佳」。",
-        "job-mcq-03": "「為完成、修理、製作或處理某事而進行的一整項工作」是「job — practical work」的用法，與本句語境不同。",
-        "job-mcq-05": "「某人／某物被要求或預期完成的主要職責、作用或功能」是「job — function」的用法，與本句語境不同。",
-        "job-mcq-02": "「一項需要完成的具體工作、任務或差事」是「job — task」的用法，與本句語境不同。",
-        "job-mcq-06": "「按角色或職位安排屬於某人負責的事情」是「job — responsibility」的用法，與本句語境不同。",
-        "job-mcq-01": "「某人受聘擔任並通常藉此賺取收入的一個工作職位」是「job — employment」的用法，與本句語境不同。"
+        "job-mcq-04": "本句的「job」指「在完成某項工作時表現良好／欠佳」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-04"
     },
@@ -839,11 +781,8 @@ export default {
       "masked": "It is the roots’ ____ to absorb water.",
       "options": [
         "job-mcq-05",
-        "job-mcq-04",
-        "job-mcq-06",
-        "job-mcq-03",
-        "job-mcq-07",
-        "job-mcq-02"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「某人／某物被要求或預期完成的主要職責、作用或功能」。",
       "sentenceIndex": 9,
@@ -852,12 +791,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-05": "本句指「某人／某物被要求或預期完成的主要職責、作用或功能」。",
-        "job-mcq-04": "「在完成某項工作時表現良好／欠佳」是「do a good/bad job」的用法，與本句語境不同。",
-        "job-mcq-06": "「按角色或職位安排屬於某人負責的事情」是「job — responsibility」的用法，與本句語境不同。",
-        "job-mcq-03": "「為完成、修理、製作或處理某事而進行的一整項工作」是「job — practical work」的用法，與本句語境不同。",
-        "job-mcq-07": "「某項實際工作完成後的成果及其品質」是「job — result/workmanship」的用法，與本句語境不同。",
-        "job-mcq-02": "「一項需要完成的具體工作、任務或差事」是「job — task」的用法，與本句語境不同。"
+        "job-mcq-05": "本句的「job」指「某人／某物被要求或預期完成的主要職責、作用或功能」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-05"
     },
@@ -869,11 +805,8 @@ export default {
       "masked": "My ____ is to make sure everyone understands the plan.",
       "options": [
         "job-mcq-05",
-        "job-mcq-04",
-        "job-mcq-06",
-        "job-mcq-03",
-        "job-mcq-07",
-        "job-mcq-02"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「某人／某物被要求或預期完成的主要職責、作用或功能」。",
       "sentenceIndex": 10,
@@ -882,12 +815,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-05": "本句指「某人／某物被要求或預期完成的主要職責、作用或功能」。",
-        "job-mcq-04": "「在完成某項工作時表現良好／欠佳」是「do a good/bad job」的用法，與本句語境不同。",
-        "job-mcq-06": "「按角色或職位安排屬於某人負責的事情」是「job — responsibility」的用法，與本句語境不同。",
-        "job-mcq-03": "「為完成、修理、製作或處理某事而進行的一整項工作」是「job — practical work」的用法，與本句語境不同。",
-        "job-mcq-07": "「某項實際工作完成後的成果及其品質」是「job — result/workmanship」的用法，與本句語境不同。",
-        "job-mcq-02": "「一項需要完成的具體工作、任務或差事」是「job — task」的用法，與本句語境不同。"
+        "job-mcq-05": "本句的「job」指「某人／某物被要求或預期完成的主要職責、作用或功能」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-05"
     },
@@ -899,11 +829,7 @@ export default {
       "masked": "It’s not my ____ to make that decision.",
       "options": [
         "job-mcq-06",
-        "job-mcq-05",
-        "job-mcq-07",
-        "job-mcq-04",
-        "job-mcq-08",
-        "job-mcq-03"
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「按角色或職位安排屬於某人負責的事情」。",
       "sentenceIndex": 11,
@@ -912,12 +838,8 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-06": "本句指「按角色或職位安排屬於某人負責的事情」。",
-        "job-mcq-05": "「某人／某物被要求或預期完成的主要職責、作用或功能」是「job — function」的用法，與本句語境不同。",
-        "job-mcq-07": "「某項實際工作完成後的成果及其品質」是「job — result/workmanship」的用法，與本句語境不同。",
-        "job-mcq-04": "「在完成某項工作時表現良好／欠佳」是「do a good/bad job」的用法，與本句語境不同。",
-        "job-mcq-08": "「交由電腦、伺服器、打印機等系統執行的一組指定工作」是「job — computing」的用法，與本句語境不同。",
-        "job-mcq-03": "「為完成、修理、製作或處理某事而進行的一整項工作」是「job — practical work」的用法，與本句語境不同。"
+        "job-mcq-06": "本句的「job」指「按角色或職位安排屬於某人負責的事情」。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-06"
     },
@@ -929,11 +851,7 @@ export default {
       "masked": "As team leader, it’s her ____ to solve problems.",
       "options": [
         "job-mcq-06",
-        "job-mcq-05",
-        "job-mcq-07",
-        "job-mcq-04",
-        "job-mcq-08",
-        "job-mcq-03"
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「按角色或職位安排屬於某人負責的事情」。",
       "sentenceIndex": 12,
@@ -942,12 +860,8 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-06": "本句指「按角色或職位安排屬於某人負責的事情」。",
-        "job-mcq-05": "「某人／某物被要求或預期完成的主要職責、作用或功能」是「job — function」的用法，與本句語境不同。",
-        "job-mcq-07": "「某項實際工作完成後的成果及其品質」是「job — result/workmanship」的用法，與本句語境不同。",
-        "job-mcq-04": "「在完成某項工作時表現良好／欠佳」是「do a good/bad job」的用法，與本句語境不同。",
-        "job-mcq-08": "「交由電腦、伺服器、打印機等系統執行的一組指定工作」是「job — computing」的用法，與本句語境不同。",
-        "job-mcq-03": "「為完成、修理、製作或處理某事而進行的一整項工作」是「job — practical work」的用法，與本句語境不同。"
+        "job-mcq-06": "本句的「job」指「按角色或職位安排屬於某人負責的事情」。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-06"
     },
@@ -959,11 +873,8 @@ export default {
       "masked": "That’s a very professional ____.",
       "options": [
         "job-mcq-07",
-        "job-mcq-06",
-        "job-mcq-08",
-        "job-mcq-05",
-        "job-mcq-09",
-        "job-mcq-04"
+        "job-pdf-001",
+        "job-mcq-09"
       ],
       "explanation": "本句的「job」指「某項實際工作完成後的成果及其品質」。",
       "sentenceIndex": 13,
@@ -972,12 +883,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-07": "本句指「某項實際工作完成後的成果及其品質」。",
-        "job-mcq-06": "「按角色或職位安排屬於某人負責的事情」是「job — responsibility」的用法，與本句語境不同。",
-        "job-mcq-08": "「交由電腦、伺服器、打印機等系統執行的一組指定工作」是「job — computing」的用法，與本句語境不同。",
-        "job-mcq-05": "「某人／某物被要求或預期完成的主要職責、作用或功能」是「job — function」的用法，與本句語境不同。",
-        "job-mcq-09": "「一次有計劃的犯罪活動，尤其偷竊／搶劫」是「job — crime」的用法，與本句語境不同。",
-        "job-mcq-04": "「在完成某項工作時表現良好／欠佳」是「do a good/bad job」的用法，與本句語境不同。"
+        "job-mcq-07": "本句的「job」指「某項實際工作完成後的成果及其品質」。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-07"
     },
@@ -989,11 +897,8 @@ export default {
       "masked": "The paint ____ looks excellent.",
       "options": [
         "job-mcq-07",
-        "job-mcq-06",
-        "job-mcq-08",
-        "job-mcq-05",
-        "job-mcq-09",
-        "job-mcq-04"
+        "job-pdf-001",
+        "job-mcq-09"
       ],
       "explanation": "本句的「job」指「某項實際工作完成後的成果及其品質」。",
       "sentenceIndex": 14,
@@ -1002,12 +907,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-07": "本句指「某項實際工作完成後的成果及其品質」。",
-        "job-mcq-06": "「按角色或職位安排屬於某人負責的事情」是「job — responsibility」的用法，與本句語境不同。",
-        "job-mcq-08": "「交由電腦、伺服器、打印機等系統執行的一組指定工作」是「job — computing」的用法，與本句語境不同。",
-        "job-mcq-05": "「某人／某物被要求或預期完成的主要職責、作用或功能」是「job — function」的用法，與本句語境不同。",
-        "job-mcq-09": "「一次有計劃的犯罪活動，尤其偷竊／搶劫」是「job — crime」的用法，與本句語境不同。",
-        "job-mcq-04": "「在完成某項工作時表現良好／欠佳」是「do a good/bad job」的用法，與本句語境不同。"
+        "job-mcq-07": "本句的「job」指「某項實際工作完成後的成果及其品質」。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-07"
     },
@@ -1019,11 +921,7 @@ export default {
       "masked": "The printer has three ____ waiting in the queue.",
       "options": [
         "job-mcq-08",
-        "job-mcq-07",
-        "job-mcq-09",
-        "job-mcq-06",
-        "job-mcq-10",
-        "job-mcq-05"
+        "job-mcq-09"
       ],
       "explanation": "本句的「jobs」指「交由電腦、伺服器、打印機等系統執行的一組指定工作」。",
       "sentenceIndex": 15,
@@ -1032,12 +930,8 @@ export default {
         "jobs"
       ],
       "optionReasons": {
-        "job-mcq-08": "本句指「交由電腦、伺服器、打印機等系統執行的一組指定工作」。",
-        "job-mcq-07": "「某項實際工作完成後的成果及其品質」是「job — result/workmanship」的用法，與本句語境不同。",
-        "job-mcq-09": "「一次有計劃的犯罪活動，尤其偷竊／搶劫」是「job — crime」的用法，與本句語境不同。",
-        "job-mcq-06": "「按角色或職位安排屬於某人負責的事情」是「job — responsibility」的用法，與本句語境不同。",
-        "job-mcq-10": "「鼻部整形手術的非正式說法」是「nose job」的用法，與本句語境不同。",
-        "job-mcq-05": "「某人／某物被要求或預期完成的主要職責、作用或功能」是「job — function」的用法，與本句語境不同。"
+        "job-mcq-08": "本句的「jobs」指「交由電腦、伺服器、打印機等系統執行的一組指定工作」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-08"
     },
@@ -1049,11 +943,7 @@ export default {
       "masked": "The server runs the backup ____ every night.",
       "options": [
         "job-mcq-08",
-        "job-mcq-07",
-        "job-mcq-09",
-        "job-mcq-06",
-        "job-mcq-10",
-        "job-mcq-05"
+        "job-mcq-09"
       ],
       "explanation": "本句的「job」指「交由電腦、伺服器、打印機等系統執行的一組指定工作」。",
       "sentenceIndex": 16,
@@ -1062,12 +952,8 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-08": "本句指「交由電腦、伺服器、打印機等系統執行的一組指定工作」。",
-        "job-mcq-07": "「某項實際工作完成後的成果及其品質」是「job — result/workmanship」的用法，與本句語境不同。",
-        "job-mcq-09": "「一次有計劃的犯罪活動，尤其偷竊／搶劫」是「job — crime」的用法，與本句語境不同。",
-        "job-mcq-06": "「按角色或職位安排屬於某人負責的事情」是「job — responsibility」的用法，與本句語境不同。",
-        "job-mcq-10": "「鼻部整形手術的非正式說法」是「nose job」的用法，與本句語境不同。",
-        "job-mcq-05": "「某人／某物被要求或預期完成的主要職責、作用或功能」是「job — function」的用法，與本句語境不同。"
+        "job-mcq-08": "本句的「job」指「交由電腦、伺服器、打印機等系統執行的一組指定工作」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-08"
     },
@@ -1079,11 +965,7 @@ export default {
       "masked": "The thieves planned the ____ carefully.",
       "options": [
         "job-mcq-09",
-        "job-mcq-08",
-        "job-mcq-10",
-        "job-mcq-07",
-        "job-mcq-11",
-        "job-mcq-06"
+        "job-mcq-08"
       ],
       "explanation": "本句的「job」指「一次有計劃的犯罪活動，尤其偷竊／搶劫」。",
       "sentenceIndex": 17,
@@ -1092,12 +974,8 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-09": "本句指「一次有計劃的犯罪活動，尤其偷竊／搶劫」。",
-        "job-mcq-08": "「交由電腦、伺服器、打印機等系統執行的一組指定工作」是「job — computing」的用法，與本句語境不同。",
-        "job-mcq-10": "「鼻部整形手術的非正式說法」是「nose job」的用法，與本句語境不同。",
-        "job-mcq-07": "「某項實際工作完成後的成果及其品質」是「job — result/workmanship」的用法，與本句語境不同。",
-        "job-mcq-11": "「僱主評估求職者是否適合職位的面談」是「job interview」的用法，與本句語境不同。",
-        "job-mcq-06": "「按角色或職位安排屬於某人負責的事情」是「job — responsibility」的用法，與本句語境不同。"
+        "job-mcq-09": "本句的「job」指「一次有計劃的犯罪活動，尤其偷竊／搶劫」。",
+        "job-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-09"
     },
@@ -1109,11 +987,8 @@ export default {
       "masked": "The police believed the same group had carried out several similar ____.",
       "options": [
         "job-mcq-09",
-        "job-mcq-08",
-        "job-mcq-10",
-        "job-mcq-07",
-        "job-mcq-11",
-        "job-mcq-06"
+        "job-mcq-21",
+        "job-pdf-001"
       ],
       "explanation": "本句的「jobs」指「一次有計劃的犯罪活動，尤其偷竊／搶劫」。",
       "sentenceIndex": 18,
@@ -1122,12 +997,9 @@ export default {
         "jobs"
       ],
       "optionReasons": {
-        "job-mcq-09": "本句指「一次有計劃的犯罪活動，尤其偷竊／搶劫」。",
-        "job-mcq-08": "「交由電腦、伺服器、打印機等系統執行的一組指定工作」是「job — computing」的用法，與本句語境不同。",
-        "job-mcq-10": "「鼻部整形手術的非正式說法」是「nose job」的用法，與本句語境不同。",
-        "job-mcq-07": "「某項實際工作完成後的成果及其品質」是「job — result/workmanship」的用法，與本句語境不同。",
-        "job-mcq-11": "「僱主評估求職者是否適合職位的面談」是「job interview」的用法，與本句語境不同。",
-        "job-mcq-06": "「按角色或職位安排屬於某人負責的事情」是「job — responsibility」的用法，與本句語境不同。"
+        "job-mcq-09": "本句的「jobs」指「一次有計劃的犯罪活動，尤其偷竊／搶劫」。",
+        "job-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-09"
     },
@@ -1139,11 +1011,8 @@ export default {
       "masked": "He had a ____ several years ago.",
       "options": [
         "job-pdf-001",
-        "job-mcq-09",
-        "job-mcq-11",
-        "job-mcq-08",
-        "job-mcq-12",
-        "job-mcq-07"
+        "job-mcq-07",
+        "job-mcq-09"
       ],
       "explanation": "本句的「nose job」指「對某身體部位進行的手術／美容處理」。",
       "sentenceIndex": 19,
@@ -1152,12 +1021,9 @@ export default {
         "nose job"
       ],
       "optionReasons": {
-        "job-pdf-001": "本句指「對某身體部位進行的手術／美容處理」。",
-        "job-mcq-09": "「一次有計劃的犯罪活動，尤其偷竊／搶劫」是「job — crime」的用法，與本句語境不同。",
-        "job-mcq-11": "「僱主評估求職者是否適合職位的面談」是「job interview」的用法，與本句語境不同。",
-        "job-mcq-08": "「交由電腦、伺服器、打印機等系統執行的一組指定工作」是「job — computing」的用法，與本句語境不同。",
-        "job-mcq-12": "「僱主正式邀請某人擔任某職位」是「job offer」的用法，與本句語境不同。",
-        "job-mcq-07": "「某項實際工作完成後的成果及其品質」是「job — result/workmanship」的用法，與本句語境不同。"
+        "job-pdf-001": "本句的「nose job」指「對某身體部位進行的手術／美容處理」。",
+        "job-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-pdf-001"
     },
@@ -1169,11 +1035,8 @@ export default {
       "masked": "The phrase ‘nose ____’ is informal.",
       "options": [
         "job-pdf-001",
-        "job-mcq-09",
-        "job-mcq-11",
-        "job-mcq-08",
-        "job-mcq-12",
-        "job-mcq-07"
+        "job-mcq-18",
+        "job-mcq-09"
       ],
       "explanation": "本句的「job」指「對某身體部位進行的手術／美容處理」。",
       "sentenceIndex": 20,
@@ -1182,12 +1045,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-pdf-001": "本句指「對某身體部位進行的手術／美容處理」。",
-        "job-mcq-09": "「一次有計劃的犯罪活動，尤其偷竊／搶劫」是「job — crime」的用法，與本句語境不同。",
-        "job-mcq-11": "「僱主評估求職者是否適合職位的面談」是「job interview」的用法，與本句語境不同。",
-        "job-mcq-08": "「交由電腦、伺服器、打印機等系統執行的一組指定工作」是「job — computing」的用法，與本句語境不同。",
-        "job-mcq-12": "「僱主正式邀請某人擔任某職位」是「job offer」的用法，與本句語境不同。",
-        "job-mcq-07": "「某項實際工作完成後的成果及其品質」是「job — result/workmanship」的用法，與本句語境不同。"
+        "job-pdf-001": "本句的「job」指「對某身體部位進行的手術／美容處理」。",
+        "job-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-pdf-001"
     },
@@ -1199,11 +1059,8 @@ export default {
       "masked": "She has a ____ tomorrow.",
       "options": [
         "job-mcq-11",
-        "job-mcq-10",
-        "job-mcq-12",
         "job-mcq-09",
-        "job-mcq-13",
-        "job-mcq-08"
+        "job-pdf-001"
       ],
       "explanation": "本句的「job interview」指「僱主評估求職者是否適合職位的面談」。",
       "sentenceIndex": 21,
@@ -1212,12 +1069,9 @@ export default {
         "job interview"
       ],
       "optionReasons": {
-        "job-mcq-11": "本句指「僱主評估求職者是否適合職位的面談」。",
-        "job-mcq-10": "「鼻部整形手術的非正式說法」是「nose job」的用法，與本句語境不同。",
-        "job-mcq-12": "「僱主正式邀請某人擔任某職位」是「job offer」的用法，與本句語境不同。",
-        "job-mcq-09": "「一次有計劃的犯罪活動，尤其偷竊／搶劫」是「job — crime」的用法，與本句語境不同。",
-        "job-mcq-13": "「為申請某個職位而提交的求職資料／申請」是「job application」的用法，與本句語境不同。",
-        "job-mcq-08": "「交由電腦、伺服器、打印機等系統執行的一組指定工作」是「job — computing」的用法，與本句語境不同。"
+        "job-mcq-11": "本句的「job interview」指「僱主評估求職者是否適合職位的面談」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-11"
     },
@@ -1229,11 +1083,8 @@ export default {
       "masked": "Prepare some questions before the ____ interview.",
       "options": [
         "job-mcq-11",
-        "job-mcq-10",
-        "job-mcq-12",
         "job-mcq-09",
-        "job-mcq-13",
-        "job-mcq-08"
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「僱主評估求職者是否適合職位的面談」。",
       "sentenceIndex": 22,
@@ -1242,12 +1093,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-11": "本句指「僱主評估求職者是否適合職位的面談」。",
-        "job-mcq-10": "「鼻部整形手術的非正式說法」是「nose job」的用法，與本句語境不同。",
-        "job-mcq-12": "「僱主正式邀請某人擔任某職位」是「job offer」的用法，與本句語境不同。",
-        "job-mcq-09": "「一次有計劃的犯罪活動，尤其偷竊／搶劫」是「job — crime」的用法，與本句語境不同。",
-        "job-mcq-13": "「為申請某個職位而提交的求職資料／申請」是「job application」的用法，與本句語境不同。",
-        "job-mcq-08": "「交由電腦、伺服器、打印機等系統執行的一組指定工作」是「job — computing」的用法，與本句語境不同。"
+        "job-mcq-11": "本句的「job」指「僱主評估求職者是否適合職位的面談」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-11"
     },
@@ -1259,11 +1107,8 @@ export default {
       "masked": "She received a ____ from another company.",
       "options": [
         "job-mcq-12",
-        "job-mcq-11",
-        "job-mcq-13",
-        "job-mcq-10",
-        "job-mcq-14",
-        "job-mcq-09"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job offer」指「僱主正式邀請某人擔任某職位」。",
       "sentenceIndex": 23,
@@ -1272,12 +1117,9 @@ export default {
         "job offer"
       ],
       "optionReasons": {
-        "job-mcq-12": "本句指「僱主正式邀請某人擔任某職位」。",
-        "job-mcq-11": "「僱主評估求職者是否適合職位的面談」是「job interview」的用法，與本句語境不同。",
-        "job-mcq-13": "「為申請某個職位而提交的求職資料／申請」是「job application」的用法，與本句語境不同。",
-        "job-mcq-10": "「鼻部整形手術的非正式說法」是「nose job」的用法，與本句語境不同。",
-        "job-mcq-14": "「列明職位職責、內容及要求的說明」是「job description」的用法，與本句語境不同。",
-        "job-mcq-09": "「一次有計劃的犯罪活動，尤其偷竊／搶劫」是「job — crime」的用法，與本句語境不同。"
+        "job-mcq-12": "本句的「job offer」指「僱主正式邀請某人擔任某職位」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-12"
     },
@@ -1289,11 +1131,8 @@ export default {
       "masked": "He accepted the ____ offer immediately.",
       "options": [
         "job-mcq-12",
-        "job-mcq-11",
-        "job-mcq-13",
-        "job-mcq-10",
-        "job-mcq-14",
-        "job-mcq-09"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「僱主正式邀請某人擔任某職位」。",
       "sentenceIndex": 24,
@@ -1302,12 +1141,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-12": "本句指「僱主正式邀請某人擔任某職位」。",
-        "job-mcq-11": "「僱主評估求職者是否適合職位的面談」是「job interview」的用法，與本句語境不同。",
-        "job-mcq-13": "「為申請某個職位而提交的求職資料／申請」是「job application」的用法，與本句語境不同。",
-        "job-mcq-10": "「鼻部整形手術的非正式說法」是「nose job」的用法，與本句語境不同。",
-        "job-mcq-14": "「列明職位職責、內容及要求的說明」是「job description」的用法，與本句語境不同。",
-        "job-mcq-09": "「一次有計劃的犯罪活動，尤其偷竊／搶劫」是「job — crime」的用法，與本句語境不同。"
+        "job-mcq-12": "本句的「job」指「僱主正式邀請某人擔任某職位」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-12"
     },
@@ -1319,11 +1155,8 @@ export default {
       "masked": "I submitted my ____ online.",
       "options": [
         "job-mcq-13",
-        "job-mcq-12",
-        "job-mcq-14",
-        "job-mcq-11",
-        "job-mcq-15",
-        "job-mcq-10"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job application」指「為申請某個職位而提交的求職資料／申請」。",
       "sentenceIndex": 25,
@@ -1332,12 +1165,9 @@ export default {
         "job application"
       ],
       "optionReasons": {
-        "job-mcq-13": "本句指「為申請某個職位而提交的求職資料／申請」。",
-        "job-mcq-12": "「僱主正式邀請某人擔任某職位」是「job offer」的用法，與本句語境不同。",
-        "job-mcq-14": "「列明職位職責、內容及要求的說明」是「job description」的用法，與本句語境不同。",
-        "job-mcq-11": "「僱主評估求職者是否適合職位的面談」是「job interview」的用法，與本句語境不同。",
-        "job-mcq-15": "「某個工作職位的正式名稱；職稱」是「job title」的用法，與本句語境不同。",
-        "job-mcq-10": "「鼻部整形手術的非正式說法」是「nose job」的用法，與本句語境不同。"
+        "job-mcq-13": "本句的「job application」指「為申請某個職位而提交的求職資料／申請」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-13"
     },
@@ -1349,11 +1179,8 @@ export default {
       "masked": "The company received hundreds of ____ applications.",
       "options": [
         "job-mcq-13",
-        "job-mcq-12",
-        "job-mcq-14",
-        "job-mcq-11",
-        "job-mcq-15",
-        "job-mcq-10"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「為申請某個職位而提交的求職資料／申請」。",
       "sentenceIndex": 26,
@@ -1362,12 +1189,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-13": "本句指「為申請某個職位而提交的求職資料／申請」。",
-        "job-mcq-12": "「僱主正式邀請某人擔任某職位」是「job offer」的用法，與本句語境不同。",
-        "job-mcq-14": "「列明職位職責、內容及要求的說明」是「job description」的用法，與本句語境不同。",
-        "job-mcq-11": "「僱主評估求職者是否適合職位的面談」是「job interview」的用法，與本句語境不同。",
-        "job-mcq-15": "「某個工作職位的正式名稱；職稱」是「job title」的用法，與本句語境不同。",
-        "job-mcq-10": "「鼻部整形手術的非正式說法」是「nose job」的用法，與本句語境不同。"
+        "job-mcq-13": "本句的「job」指「為申請某個職位而提交的求職資料／申請」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-13"
     },
@@ -1379,11 +1203,8 @@ export default {
       "masked": "Read the ____ carefully before applying.",
       "options": [
         "job-mcq-14",
-        "job-mcq-13",
-        "job-mcq-15",
-        "job-mcq-12",
-        "job-mcq-16",
-        "job-mcq-11"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job description」指「列明職位職責、內容及要求的說明」。",
       "sentenceIndex": 27,
@@ -1392,12 +1213,9 @@ export default {
         "job description"
       ],
       "optionReasons": {
-        "job-mcq-14": "本句指「列明職位職責、內容及要求的說明」。",
-        "job-mcq-13": "「為申請某個職位而提交的求職資料／申請」是「job application」的用法，與本句語境不同。",
-        "job-mcq-15": "「某個工作職位的正式名稱；職稱」是「job title」的用法，與本句語境不同。",
-        "job-mcq-12": "「僱主正式邀請某人擔任某職位」是「job offer」的用法，與本句語境不同。",
-        "job-mcq-16": "「公司希望招聘人選填補的空缺職位」是「job vacancy/opening」的用法，與本句語境不同。",
-        "job-mcq-11": "「僱主評估求職者是否適合職位的面談」是「job interview」的用法，與本句語境不同。"
+        "job-mcq-14": "本句的「job description」指「列明職位職責、內容及要求的說明」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-14"
     },
@@ -1409,11 +1227,8 @@ export default {
       "masked": "Her responsibilities have changed, but the ____ description has not.",
       "options": [
         "job-mcq-14",
-        "job-mcq-13",
-        "job-mcq-15",
-        "job-mcq-12",
-        "job-mcq-16",
-        "job-mcq-11"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「列明職位職責、內容及要求的說明」。",
       "sentenceIndex": 28,
@@ -1422,12 +1237,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-14": "本句指「列明職位職責、內容及要求的說明」。",
-        "job-mcq-13": "「為申請某個職位而提交的求職資料／申請」是「job application」的用法，與本句語境不同。",
-        "job-mcq-15": "「某個工作職位的正式名稱；職稱」是「job title」的用法，與本句語境不同。",
-        "job-mcq-12": "「僱主正式邀請某人擔任某職位」是「job offer」的用法，與本句語境不同。",
-        "job-mcq-16": "「公司希望招聘人選填補的空缺職位」是「job vacancy/opening」的用法，與本句語境不同。",
-        "job-mcq-11": "「僱主評估求職者是否適合職位的面談」是「job interview」的用法，與本句語境不同。"
+        "job-mcq-14": "本句的「job」指「列明職位職責、內容及要求的說明」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-14"
     },
@@ -1439,11 +1251,8 @@ export default {
       "masked": "What is your official ____?",
       "options": [
         "job-mcq-15",
-        "job-mcq-14",
-        "job-mcq-16",
-        "job-mcq-13",
-        "job-mcq-17",
-        "job-mcq-12"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job title」指「某個工作職位的正式名稱；職稱」。",
       "sentenceIndex": 29,
@@ -1452,12 +1261,9 @@ export default {
         "job title"
       ],
       "optionReasons": {
-        "job-mcq-15": "本句指「某個工作職位的正式名稱；職稱」。",
-        "job-mcq-14": "「列明職位職責、內容及要求的說明」是「job description」的用法，與本句語境不同。",
-        "job-mcq-16": "「公司希望招聘人選填補的空缺職位」是「job vacancy/opening」的用法，與本句語境不同。",
-        "job-mcq-13": "「為申請某個職位而提交的求職資料／申請」是「job application」的用法，與本句語境不同。",
-        "job-mcq-17": "「工作職位與求職者之間供求的整體就業情況」是「job market」的用法，與本句語境不同。",
-        "job-mcq-12": "「僱主正式邀請某人擔任某職位」是「job offer」的用法，與本句語境不同。"
+        "job-mcq-15": "本句的「job title」指「某個工作職位的正式名稱；職稱」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-15"
     },
@@ -1469,11 +1275,8 @@ export default {
       "masked": "Her ____ title is project manager.",
       "options": [
         "job-mcq-15",
-        "job-mcq-14",
-        "job-mcq-16",
-        "job-mcq-13",
-        "job-mcq-17",
-        "job-mcq-12"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「某個工作職位的正式名稱；職稱」。",
       "sentenceIndex": 30,
@@ -1482,12 +1285,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-15": "本句指「某個工作職位的正式名稱；職稱」。",
-        "job-mcq-14": "「列明職位職責、內容及要求的說明」是「job description」的用法，與本句語境不同。",
-        "job-mcq-16": "「公司希望招聘人選填補的空缺職位」是「job vacancy/opening」的用法，與本句語境不同。",
-        "job-mcq-13": "「為申請某個職位而提交的求職資料／申請」是「job application」的用法，與本句語境不同。",
-        "job-mcq-17": "「工作職位與求職者之間供求的整體就業情況」是「job market」的用法，與本句語境不同。",
-        "job-mcq-12": "「僱主正式邀請某人擔任某職位」是「job offer」的用法，與本句語境不同。"
+        "job-mcq-15": "本句的「job」指「某個工作職位的正式名稱；職稱」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-15"
     },
@@ -1499,11 +1299,8 @@ export default {
       "masked": "The company currently has several ____.",
       "options": [
         "job-mcq-16",
-        "job-mcq-15",
-        "job-mcq-17",
-        "job-mcq-14",
-        "job-mcq-18",
-        "job-mcq-13"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job vacancies」指「公司希望招聘人選填補的空缺職位」。",
       "sentenceIndex": 31,
@@ -1512,12 +1309,9 @@ export default {
         "job vacancies"
       ],
       "optionReasons": {
-        "job-mcq-16": "本句指「公司希望招聘人選填補的空缺職位」。",
-        "job-mcq-15": "「某個工作職位的正式名稱；職稱」是「job title」的用法，與本句語境不同。",
-        "job-mcq-17": "「工作職位與求職者之間供求的整體就業情況」是「job market」的用法，與本句語境不同。",
-        "job-mcq-14": "「列明職位職責、內容及要求的說明」是「job description」的用法，與本句語境不同。",
-        "job-mcq-18": "「一個人能持續保有目前工作的穩定程度」是「job security」的用法，與本句語境不同。",
-        "job-mcq-13": "「為申請某個職位而提交的求職資料／申請」是「job application」的用法，與本句語境不同。"
+        "job-mcq-16": "本句的「job vacancies」指「公司希望招聘人選填補的空缺職位」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-16"
     },
@@ -1529,11 +1323,8 @@ export default {
       "masked": "I saw the ____ opening on the company website.",
       "options": [
         "job-mcq-16",
-        "job-mcq-15",
-        "job-mcq-17",
-        "job-mcq-14",
-        "job-mcq-18",
-        "job-mcq-13"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「公司希望招聘人選填補的空缺職位」。",
       "sentenceIndex": 32,
@@ -1542,12 +1333,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-16": "本句指「公司希望招聘人選填補的空缺職位」。",
-        "job-mcq-15": "「某個工作職位的正式名稱；職稱」是「job title」的用法，與本句語境不同。",
-        "job-mcq-17": "「工作職位與求職者之間供求的整體就業情況」是「job market」的用法，與本句語境不同。",
-        "job-mcq-14": "「列明職位職責、內容及要求的說明」是「job description」的用法，與本句語境不同。",
-        "job-mcq-18": "「一個人能持續保有目前工作的穩定程度」是「job security」的用法，與本句語境不同。",
-        "job-mcq-13": "「為申請某個職位而提交的求職資料／申請」是「job application」的用法，與本句語境不同。"
+        "job-mcq-16": "本句的「job」指「公司希望招聘人選填補的空缺職位」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-16"
     },
@@ -1559,11 +1347,8 @@ export default {
       "masked": "Graduates are entering a competitive ____.",
       "options": [
         "job-mcq-17",
-        "job-mcq-16",
-        "job-mcq-18",
-        "job-mcq-15",
-        "job-mcq-19",
-        "job-mcq-14"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job market」指「工作職位與求職者之間供求的整體就業情況」。",
       "sentenceIndex": 33,
@@ -1572,12 +1357,9 @@ export default {
         "job market"
       ],
       "optionReasons": {
-        "job-mcq-17": "本句指「工作職位與求職者之間供求的整體就業情況」。",
-        "job-mcq-16": "「公司希望招聘人選填補的空缺職位」是「job vacancy/opening」的用法，與本句語境不同。",
-        "job-mcq-18": "「一個人能持續保有目前工作的穩定程度」是「job security」的用法，與本句語境不同。",
-        "job-mcq-15": "「某個工作職位的正式名稱；職稱」是「job title」的用法，與本句語境不同。",
-        "job-mcq-19": "「一個人對自己的工作經驗感到滿意的程度」是「job satisfaction」的用法，與本句語境不同。",
-        "job-mcq-14": "「列明職位職責、內容及要求的說明」是「job description」的用法，與本句語境不同。"
+        "job-mcq-17": "本句的「job market」指「工作職位與求職者之間供求的整體就業情況」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-17"
     },
@@ -1589,11 +1371,8 @@ export default {
       "masked": "The ____ market improved during the year.",
       "options": [
         "job-mcq-17",
-        "job-mcq-16",
-        "job-mcq-18",
-        "job-mcq-15",
-        "job-mcq-19",
-        "job-mcq-14"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「工作職位與求職者之間供求的整體就業情況」。",
       "sentenceIndex": 34,
@@ -1602,12 +1381,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-17": "本句指「工作職位與求職者之間供求的整體就業情況」。",
-        "job-mcq-16": "「公司希望招聘人選填補的空缺職位」是「job vacancy/opening」的用法，與本句語境不同。",
-        "job-mcq-18": "「一個人能持續保有目前工作的穩定程度」是「job security」的用法，與本句語境不同。",
-        "job-mcq-15": "「某個工作職位的正式名稱；職稱」是「job title」的用法，與本句語境不同。",
-        "job-mcq-19": "「一個人對自己的工作經驗感到滿意的程度」是「job satisfaction」的用法，與本句語境不同。",
-        "job-mcq-14": "「列明職位職責、內容及要求的說明」是「job description」的用法，與本句語境不同。"
+        "job-mcq-17": "本句的「job」指「工作職位與求職者之間供求的整體就業情況」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-17"
     },
@@ -1619,11 +1395,8 @@ export default {
       "masked": "Many employees are worried about ____.",
       "options": [
         "job-mcq-18",
-        "job-mcq-17",
-        "job-mcq-19",
-        "job-mcq-16",
-        "job-mcq-20",
-        "job-mcq-15"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job security」指「一個人能持續保有目前工作的穩定程度」。",
       "sentenceIndex": 35,
@@ -1632,12 +1405,9 @@ export default {
         "job security"
       ],
       "optionReasons": {
-        "job-mcq-18": "本句指「一個人能持續保有目前工作的穩定程度」。",
-        "job-mcq-17": "「工作職位與求職者之間供求的整體就業情況」是「job market」的用法，與本句語境不同。",
-        "job-mcq-19": "「一個人對自己的工作經驗感到滿意的程度」是「job satisfaction」的用法，與本句語境不同。",
-        "job-mcq-16": "「公司希望招聘人選填補的空缺職位」是「job vacancy/opening」的用法，與本句語境不同。",
-        "job-mcq-20": "「正在尋找受薪工作的人」是「job seeker」的用法，與本句語境不同。",
-        "job-mcq-15": "「某個工作職位的正式名稱；職稱」是「job title」的用法，與本句語境不同。"
+        "job-mcq-18": "本句的「job security」指「一個人能持續保有目前工作的穩定程度」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-18"
     },
@@ -1649,11 +1419,8 @@ export default {
       "masked": "A permanent contract may offer greater ____ security.",
       "options": [
         "job-mcq-18",
-        "job-mcq-17",
-        "job-mcq-19",
-        "job-mcq-16",
-        "job-mcq-20",
-        "job-mcq-15"
+        "job-pdf-001",
+        "job-mcq-09"
       ],
       "explanation": "本句的「job」指「一個人能持續保有目前工作的穩定程度」。",
       "sentenceIndex": 36,
@@ -1662,12 +1429,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-18": "本句指「一個人能持續保有目前工作的穩定程度」。",
-        "job-mcq-17": "「工作職位與求職者之間供求的整體就業情況」是「job market」的用法，與本句語境不同。",
-        "job-mcq-19": "「一個人對自己的工作經驗感到滿意的程度」是「job satisfaction」的用法，與本句語境不同。",
-        "job-mcq-16": "「公司希望招聘人選填補的空缺職位」是「job vacancy/opening」的用法，與本句語境不同。",
-        "job-mcq-20": "「正在尋找受薪工作的人」是「job seeker」的用法，與本句語境不同。",
-        "job-mcq-15": "「某個工作職位的正式名稱；職稱」是「job title」的用法，與本句語境不同。"
+        "job-mcq-18": "本句的「job」指「一個人能持續保有目前工作的穩定程度」。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-18"
     },
@@ -1679,11 +1443,8 @@ export default {
       "masked": "Flexible hours can improve ____.",
       "options": [
         "job-mcq-19",
-        "job-mcq-18",
-        "job-mcq-20",
-        "job-mcq-17",
-        "job-mcq-21",
-        "job-mcq-16"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job satisfaction」指「一個人對自己的工作經驗感到滿意的程度」。",
       "sentenceIndex": 37,
@@ -1692,12 +1453,9 @@ export default {
         "job satisfaction"
       ],
       "optionReasons": {
-        "job-mcq-19": "本句指「一個人對自己的工作經驗感到滿意的程度」。",
-        "job-mcq-18": "「一個人能持續保有目前工作的穩定程度」是「job security」的用法，與本句語境不同。",
-        "job-mcq-20": "「正在尋找受薪工作的人」是「job seeker」的用法，與本句語境不同。",
-        "job-mcq-17": "「工作職位與求職者之間供求的整體就業情況」是「job market」的用法，與本句語境不同。",
-        "job-mcq-21": "「目前沒有受薪工作、處於失業狀態的」是「jobless」的用法，與本句語境不同。",
-        "job-mcq-16": "「公司希望招聘人選填補的空缺職位」是「job vacancy/opening」的用法，與本句語境不同。"
+        "job-mcq-19": "本句的「job satisfaction」指「一個人對自己的工作經驗感到滿意的程度」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-19"
     },
@@ -1709,11 +1467,8 @@ export default {
       "masked": "She values ____ satisfaction more than a high salary.",
       "options": [
         "job-mcq-19",
-        "job-mcq-18",
-        "job-mcq-20",
-        "job-mcq-17",
-        "job-mcq-21",
-        "job-mcq-16"
+        "job-pdf-001",
+        "job-mcq-09"
       ],
       "explanation": "本句的「job」指「一個人對自己的工作經驗感到滿意的程度」。",
       "sentenceIndex": 38,
@@ -1722,12 +1477,9 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-19": "本句指「一個人對自己的工作經驗感到滿意的程度」。",
-        "job-mcq-18": "「一個人能持續保有目前工作的穩定程度」是「job security」的用法，與本句語境不同。",
-        "job-mcq-20": "「正在尋找受薪工作的人」是「job seeker」的用法，與本句語境不同。",
-        "job-mcq-17": "「工作職位與求職者之間供求的整體就業情況」是「job market」的用法，與本句語境不同。",
-        "job-mcq-21": "「目前沒有受薪工作、處於失業狀態的」是「jobless」的用法，與本句語境不同。",
-        "job-mcq-16": "「公司希望招聘人選填補的空缺職位」是「job vacancy/opening」的用法，與本句語境不同。"
+        "job-mcq-19": "本句的「job」指「一個人對自己的工作經驗感到滿意的程度」。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-19"
     },
@@ -1739,11 +1491,8 @@ export default {
       "masked": "The programme provides training for ____.",
       "options": [
         "job-mcq-20",
-        "job-mcq-19",
-        "job-mcq-21",
-        "job-mcq-18",
-        "job-mcq-22",
-        "job-mcq-17"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「job seekers」指「正在尋找受薪工作的人」。",
       "sentenceIndex": 39,
@@ -1752,12 +1501,9 @@ export default {
         "job seekers"
       ],
       "optionReasons": {
-        "job-mcq-20": "本句指「正在尋找受薪工作的人」。",
-        "job-mcq-19": "「一個人對自己的工作經驗感到滿意的程度」是「job satisfaction」的用法，與本句語境不同。",
-        "job-mcq-21": "「目前沒有受薪工作、處於失業狀態的」是「jobless」的用法，與本句語境不同。",
-        "job-mcq-18": "「一個人能持續保有目前工作的穩定程度」是「job security」的用法，與本句語境不同。",
-        "job-mcq-22": "「沒有工作的狀態或某群體的失業現象」是「joblessness」的用法，與本句語境不同。",
-        "job-mcq-17": "「工作職位與求職者之間供求的整體就業情況」是「job market」的用法，與本句語境不同。"
+        "job-mcq-20": "本句的「job seekers」指「正在尋找受薪工作的人」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-20"
     },
@@ -1769,11 +1515,8 @@ export default {
       "masked": "____ seekers can upload their CVs online.",
       "options": [
         "job-mcq-20",
-        "job-mcq-19",
-        "job-mcq-21",
-        "job-mcq-18",
-        "job-mcq-22",
-        "job-mcq-17"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「Job」指「正在尋找受薪工作的人」。",
       "sentenceIndex": 40,
@@ -1782,12 +1525,9 @@ export default {
         "Job"
       ],
       "optionReasons": {
-        "job-mcq-20": "本句指「正在尋找受薪工作的人」。",
-        "job-mcq-19": "「一個人對自己的工作經驗感到滿意的程度」是「job satisfaction」的用法，與本句語境不同。",
-        "job-mcq-21": "「目前沒有受薪工作、處於失業狀態的」是「jobless」的用法，與本句語境不同。",
-        "job-mcq-18": "「一個人能持續保有目前工作的穩定程度」是「job security」的用法，與本句語境不同。",
-        "job-mcq-22": "「沒有工作的狀態或某群體的失業現象」是「joblessness」的用法，與本句語境不同。",
-        "job-mcq-17": "「工作職位與求職者之間供求的整體就業情況」是「job market」的用法，與本句語境不同。"
+        "job-mcq-20": "本句的「Job」指「正在尋找受薪工作的人」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-20"
     },
@@ -1799,11 +1539,8 @@ export default {
       "masked": "He was ____ for several months.",
       "options": [
         "job-mcq-21",
-        "job-mcq-20",
-        "job-mcq-22",
-        "job-mcq-19",
-        "job-mcq-23",
-        "job-mcq-18"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「jobless」指「目前沒有受薪工作、處於失業狀態的」。",
       "sentenceIndex": 41,
@@ -1812,12 +1549,9 @@ export default {
         "jobless"
       ],
       "optionReasons": {
-        "job-mcq-21": "本句指「目前沒有受薪工作、處於失業狀態的」。",
-        "job-mcq-20": "「正在尋找受薪工作的人」是「job seeker」的用法，與本句語境不同。",
-        "job-mcq-22": "「沒有工作的狀態或某群體的失業現象」是「joblessness」的用法，與本句語境不同。",
-        "job-mcq-19": "「一個人對自己的工作經驗感到滿意的程度」是「job satisfaction」的用法，與本句語境不同。",
-        "job-mcq-23": "「小型、零散、通常短時間完成的工作／雜務」是「odd job」的用法，與本句語境不同。",
-        "job-mcq-18": "「一個人能持續保有目前工作的穩定程度」是「job security」的用法，與本句語境不同。"
+        "job-mcq-21": "本句的「jobless」指「目前沒有受薪工作、處於失業狀態的」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-21"
     },
@@ -1829,11 +1563,8 @@ export default {
       "masked": "The programme helps ____ young people find work.",
       "options": [
         "job-mcq-21",
-        "job-mcq-20",
-        "job-mcq-22",
-        "job-mcq-19",
-        "job-mcq-23",
-        "job-mcq-18"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「jobless」指「目前沒有受薪工作、處於失業狀態的」。",
       "sentenceIndex": 42,
@@ -1842,12 +1573,9 @@ export default {
         "jobless"
       ],
       "optionReasons": {
-        "job-mcq-21": "本句指「目前沒有受薪工作、處於失業狀態的」。",
-        "job-mcq-20": "「正在尋找受薪工作的人」是「job seeker」的用法，與本句語境不同。",
-        "job-mcq-22": "「沒有工作的狀態或某群體的失業現象」是「joblessness」的用法，與本句語境不同。",
-        "job-mcq-19": "「一個人對自己的工作經驗感到滿意的程度」是「job satisfaction」的用法，與本句語境不同。",
-        "job-mcq-23": "「小型、零散、通常短時間完成的工作／雜務」是「odd job」的用法，與本句語境不同。",
-        "job-mcq-18": "「一個人能持續保有目前工作的穩定程度」是「job security」的用法，與本句語境不同。"
+        "job-mcq-21": "本句的「jobless」指「目前沒有受薪工作、處於失業狀態的」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-21"
     },
@@ -1859,11 +1587,8 @@ export default {
       "masked": "Long-term ____ can create financial pressure.",
       "options": [
         "job-mcq-22",
-        "job-mcq-21",
-        "job-mcq-23",
-        "job-mcq-20",
-        "job-mcq-24",
-        "job-mcq-19"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「joblessness」指「沒有工作的狀態或某群體的失業現象」。",
       "sentenceIndex": 43,
@@ -1872,12 +1597,9 @@ export default {
         "joblessness"
       ],
       "optionReasons": {
-        "job-mcq-22": "本句指「沒有工作的狀態或某群體的失業現象」。",
-        "job-mcq-21": "「目前沒有受薪工作、處於失業狀態的」是「jobless」的用法，與本句語境不同。",
-        "job-mcq-23": "「小型、零散、通常短時間完成的工作／雜務」是「odd job」的用法，與本句語境不同。",
-        "job-mcq-20": "「正在尋找受薪工作的人」是「job seeker」的用法，與本句語境不同。",
-        "job-mcq-24": "「非常符合某人興趣、目標或理想的工作」是「dream job」的用法，與本句語境不同。",
-        "job-mcq-19": "「一個人對自己的工作經驗感到滿意的程度」是「job satisfaction」的用法，與本句語境不同。"
+        "job-mcq-22": "本句的「joblessness」指「沒有工作的狀態或某群體的失業現象」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-22"
     },
@@ -1889,11 +1611,8 @@ export default {
       "masked": "The policy aims to reduce youth ____.",
       "options": [
         "job-mcq-22",
-        "job-mcq-21",
-        "job-mcq-23",
-        "job-mcq-20",
-        "job-mcq-24",
-        "job-mcq-19"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「joblessness」指「沒有工作的狀態或某群體的失業現象」。",
       "sentenceIndex": 44,
@@ -1902,12 +1621,9 @@ export default {
         "joblessness"
       ],
       "optionReasons": {
-        "job-mcq-22": "本句指「沒有工作的狀態或某群體的失業現象」。",
-        "job-mcq-21": "「目前沒有受薪工作、處於失業狀態的」是「jobless」的用法，與本句語境不同。",
-        "job-mcq-23": "「小型、零散、通常短時間完成的工作／雜務」是「odd job」的用法，與本句語境不同。",
-        "job-mcq-20": "「正在尋找受薪工作的人」是「job seeker」的用法，與本句語境不同。",
-        "job-mcq-24": "「非常符合某人興趣、目標或理想的工作」是「dream job」的用法，與本句語境不同。",
-        "job-mcq-19": "「一個人對自己的工作經驗感到滿意的程度」是「job satisfaction」的用法，與本句語境不同。"
+        "job-mcq-22": "本句的「joblessness」指「沒有工作的狀態或某群體的失業現象」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-22"
     },
@@ -1919,11 +1635,8 @@ export default {
       "masked": "He earns extra money doing ____.",
       "options": [
         "job-mcq-23",
-        "job-mcq-22",
-        "job-mcq-24",
-        "job-mcq-21",
-        "job-mcq-20",
-        "job-mcq-19"
+        "job-mcq-09",
+        "job-pdf-001"
       ],
       "explanation": "本句的「odd jobs」指「小型、零散、通常短時間完成的工作／雜務」。",
       "sentenceIndex": 45,
@@ -1932,12 +1645,9 @@ export default {
         "odd jobs"
       ],
       "optionReasons": {
-        "job-mcq-23": "本句指「小型、零散、通常短時間完成的工作／雜務」。",
-        "job-mcq-22": "「沒有工作的狀態或某群體的失業現象」是「joblessness」的用法，與本句語境不同。",
-        "job-mcq-24": "「非常符合某人興趣、目標或理想的工作」是「dream job」的用法，與本句語境不同。",
-        "job-mcq-21": "「目前沒有受薪工作、處於失業狀態的」是「jobless」的用法，與本句語境不同。",
-        "job-mcq-20": "「正在尋找受薪工作的人」是「job seeker」的用法，與本句語境不同。",
-        "job-mcq-19": "「一個人對自己的工作經驗感到滿意的程度」是「job satisfaction」的用法，與本句語境不同。"
+        "job-mcq-23": "本句的「odd jobs」指「小型、零散、通常短時間完成的工作／雜務」。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-23"
     },
@@ -1949,11 +1659,8 @@ export default {
       "masked": "There are a few odd ____ to finish in the garden.",
       "options": [
         "job-mcq-23",
-        "job-mcq-22",
-        "job-mcq-24",
-        "job-mcq-21",
-        "job-mcq-20",
-        "job-mcq-19"
+        "job-pdf-001",
+        "job-mcq-09"
       ],
       "explanation": "本句的「jobs」指「小型、零散、通常短時間完成的工作／雜務」。",
       "sentenceIndex": 46,
@@ -1962,12 +1669,9 @@ export default {
         "jobs"
       ],
       "optionReasons": {
-        "job-mcq-23": "本句指「小型、零散、通常短時間完成的工作／雜務」。",
-        "job-mcq-22": "「沒有工作的狀態或某群體的失業現象」是「joblessness」的用法，與本句語境不同。",
-        "job-mcq-24": "「非常符合某人興趣、目標或理想的工作」是「dream job」的用法，與本句語境不同。",
-        "job-mcq-21": "「目前沒有受薪工作、處於失業狀態的」是「jobless」的用法，與本句語境不同。",
-        "job-mcq-20": "「正在尋找受薪工作的人」是「job seeker」的用法，與本句語境不同。",
-        "job-mcq-19": "「一個人對自己的工作經驗感到滿意的程度」是「job satisfaction」的用法，與本句語境不同。"
+        "job-mcq-23": "本句的「jobs」指「小型、零散、通常短時間完成的工作／雜務」。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "job-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-23"
     },
@@ -1979,11 +1683,7 @@ export default {
       "masked": "She is looking for a ____.",
       "options": [
         "job-mcq-24",
-        "job-mcq-23",
-        "job-mcq-22",
-        "job-mcq-21",
-        "job-mcq-20",
-        "job-mcq-19"
+        "job-pdf-001"
       ],
       "explanation": "本句的「part-time job」指「非常符合某人興趣、目標或理想的工作」。",
       "sentenceIndex": 47,
@@ -1992,12 +1692,8 @@ export default {
         "part-time job"
       ],
       "optionReasons": {
-        "job-mcq-24": "本句指「非常符合某人興趣、目標或理想的工作」。",
-        "job-mcq-23": "「小型、零散、通常短時間完成的工作／雜務」是「odd job」的用法，與本句語境不同。",
-        "job-mcq-22": "「沒有工作的狀態或某群體的失業現象」是「joblessness」的用法，與本句語境不同。",
-        "job-mcq-21": "「目前沒有受薪工作、處於失業狀態的」是「jobless」的用法，與本句語境不同。",
-        "job-mcq-20": "「正在尋找受薪工作的人」是「job seeker」的用法，與本句語境不同。",
-        "job-mcq-19": "「一個人對自己的工作經驗感到滿意的程度」是「job satisfaction」的用法，與本句語境不同。"
+        "job-mcq-24": "本句的「part-time job」指「非常符合某人興趣、目標或理想的工作」。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-24"
     },
@@ -2009,11 +1705,7 @@ export default {
       "masked": "He finally found a full-time ____.",
       "options": [
         "job-mcq-24",
-        "job-mcq-23",
-        "job-mcq-22",
-        "job-mcq-21",
-        "job-mcq-20",
-        "job-mcq-19"
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「非常符合某人興趣、目標或理想的工作」。",
       "sentenceIndex": 48,
@@ -2022,12 +1714,8 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-24": "本句指「非常符合某人興趣、目標或理想的工作」。",
-        "job-mcq-23": "「小型、零散、通常短時間完成的工作／雜務」是「odd job」的用法，與本句語境不同。",
-        "job-mcq-22": "「沒有工作的狀態或某群體的失業現象」是「joblessness」的用法，與本句語境不同。",
-        "job-mcq-21": "「目前沒有受薪工作、處於失業狀態的」是「jobless」的用法，與本句語境不同。",
-        "job-mcq-20": "「正在尋找受薪工作的人」是「job seeker」的用法，與本句語境不同。",
-        "job-mcq-19": "「一個人對自己的工作經驗感到滿意的程度」是「job satisfaction」的用法，與本句語境不同。"
+        "job-mcq-24": "本句的「job」指「非常符合某人興趣、目標或理想的工作」。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-24"
     },
@@ -2039,11 +1727,7 @@ export default {
       "masked": "She finally got her ____.",
       "options": [
         "job-mcq-24",
-        "job-mcq-23",
-        "job-mcq-22",
-        "job-mcq-21",
-        "job-mcq-20",
-        "job-mcq-19"
+        "job-pdf-001"
       ],
       "explanation": "本句的「dream job」指「非常符合某人興趣、目標或理想的工作」。",
       "sentenceIndex": 49,
@@ -2052,12 +1736,8 @@ export default {
         "dream job"
       ],
       "optionReasons": {
-        "job-mcq-24": "本句指「非常符合某人興趣、目標或理想的工作」。",
-        "job-mcq-23": "「小型、零散、通常短時間完成的工作／雜務」是「odd job」的用法，與本句語境不同。",
-        "job-mcq-22": "「沒有工作的狀態或某群體的失業現象」是「joblessness」的用法，與本句語境不同。",
-        "job-mcq-21": "「目前沒有受薪工作、處於失業狀態的」是「jobless」的用法，與本句語境不同。",
-        "job-mcq-20": "「正在尋找受薪工作的人」是「job seeker」的用法，與本句語境不同。",
-        "job-mcq-19": "「一個人對自己的工作經驗感到滿意的程度」是「job satisfaction」的用法，與本句語境不同。"
+        "job-mcq-24": "本句的「dream job」指「非常符合某人興趣、目標或理想的工作」。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-24"
     },
@@ -2069,11 +1749,7 @@ export default {
       "masked": "For him, working with animals would be a dream ____.",
       "options": [
         "job-mcq-24",
-        "job-mcq-23",
-        "job-mcq-22",
-        "job-mcq-21",
-        "job-mcq-20",
-        "job-mcq-19"
+        "job-pdf-001"
       ],
       "explanation": "本句的「job」指「非常符合某人興趣、目標或理想的工作」。",
       "sentenceIndex": 50,
@@ -2082,12 +1758,8 @@ export default {
         "job"
       ],
       "optionReasons": {
-        "job-mcq-24": "本句指「非常符合某人興趣、目標或理想的工作」。",
-        "job-mcq-23": "「小型、零散、通常短時間完成的工作／雜務」是「odd job」的用法，與本句語境不同。",
-        "job-mcq-22": "「沒有工作的狀態或某群體的失業現象」是「joblessness」的用法，與本句語境不同。",
-        "job-mcq-21": "「目前沒有受薪工作、處於失業狀態的」是「jobless」的用法，與本句語境不同。",
-        "job-mcq-20": "「正在尋找受薪工作的人」是「job seeker」的用法，與本句語境不同。",
-        "job-mcq-19": "「一個人對自己的工作經驗感到滿意的程度」是「job satisfaction」的用法，與本句語境不同。"
+        "job-mcq-24": "本句的「job」指「非常符合某人興趣、目標或理想的工作」。",
+        "job-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "job-mcq-24"
     }
@@ -2099,5 +1771,7 @@ export default {
     "sha256": "fa6b645c41453c13fe0648210915b23a4d5bc6407732452afe58f767d16dcd42",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

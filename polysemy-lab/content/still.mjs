@@ -349,11 +349,9 @@ export default {
       "masked": "She ____ works at the same company.",
       "options": [
         "still-mcq-01",
-        "still-mcq-02",
-        "still-mcq-03",
-        "still-mcq-04",
+        "still-mcq-12",
         "still-mcq-05",
-        "still-mcq-06"
+        "still-mcq-10"
       ],
       "explanation": "本句的「still」指「某個較早已存在的狀態到現在／當時仍然持續，尚未改變或結束」。",
       "sentenceIndex": 0,
@@ -362,12 +360,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-01": "本句指「某個較早已存在的狀態到現在／當時仍然持續，尚未改變或結束」。",
-        "still-mcq-02": "「即使存在可能令結果改變的因素，原本的狀態、行動或看法依然成立」是「still — despite that」的用法，與本句語境不同。",
-        "still-mcq-03": "「在已有比較程度上再進一步增加；更加……」是「still + comparative」的用法，與本句語境不同。",
-        "still-mcq-04": "「身體或物件停留在原位置，沒有明顯移動」是「still — not moving」的用法，與本句語境不同。",
-        "still-mcq-05": "「水面或空氣沒有明顯流動、波動或風的」是「still water/air」的用法，與本句語境不同。",
-        "still-mcq-06": "「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」是「still — quiet/calm」的用法，與本句語境不同。"
+        "still-mcq-01": "本句的「still」指「某個較早已存在的狀態到現在／當時仍然持續，尚未改變或結束」。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-01"
     },
@@ -379,11 +375,9 @@ export default {
       "masked": "The café was ____ open when we arrived.",
       "options": [
         "still-mcq-01",
-        "still-mcq-02",
-        "still-mcq-03",
-        "still-mcq-04",
         "still-mcq-05",
-        "still-mcq-06"
+        "still-mcq-15",
+        "still-mcq-10"
       ],
       "explanation": "本句的「still」指「某個較早已存在的狀態到現在／當時仍然持續，尚未改變或結束」。",
       "sentenceIndex": 1,
@@ -392,12 +386,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-01": "本句指「某個較早已存在的狀態到現在／當時仍然持續，尚未改變或結束」。",
-        "still-mcq-02": "「即使存在可能令結果改變的因素，原本的狀態、行動或看法依然成立」是「still — despite that」的用法，與本句語境不同。",
-        "still-mcq-03": "「在已有比較程度上再進一步增加；更加……」是「still + comparative」的用法，與本句語境不同。",
-        "still-mcq-04": "「身體或物件停留在原位置，沒有明顯移動」是「still — not moving」的用法，與本句語境不同。",
-        "still-mcq-05": "「水面或空氣沒有明顯流動、波動或風的」是「still water/air」的用法，與本句語境不同。",
-        "still-mcq-06": "「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」是「still — quiet/calm」的用法，與本句語境不同。"
+        "still-mcq-01": "本句的「still」指「某個較早已存在的狀態到現在／當時仍然持續，尚未改變或結束」。",
+        "still-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-01"
     },
@@ -409,11 +401,9 @@ export default {
       "masked": "The ad mentioned practical features, so it ____ felt believable.",
       "options": [
         "still-mcq-02",
-        "still-mcq-01",
-        "still-mcq-03",
-        "still-mcq-04",
-        "still-mcq-05",
-        "still-mcq-06"
+        "still-mcq-07",
+        "still-mcq-12",
+        "still-mcq-03"
       ],
       "explanation": "本句的「still」指「即使存在可能令結果改變的因素，原本的狀態、行動或看法依然成立」。",
       "sentenceIndex": 2,
@@ -422,12 +412,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-02": "本句指「即使存在可能令結果改變的因素，原本的狀態、行動或看法依然成立」。",
-        "still-mcq-01": "「某個較早已存在的狀態到現在／當時仍然持續，尚未改變或結束」是「still — continuing」的用法，與本句語境不同。",
-        "still-mcq-03": "「在已有比較程度上再進一步增加；更加……」是「still + comparative」的用法，與本句語境不同。",
-        "still-mcq-04": "「身體或物件停留在原位置，沒有明顯移動」是「still — not moving」的用法，與本句語境不同。",
-        "still-mcq-05": "「水面或空氣沒有明顯流動、波動或風的」是「still water/air」的用法，與本句語境不同。",
-        "still-mcq-06": "「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」是「still — quiet/calm」的用法，與本句語境不同。"
+        "still-mcq-02": "本句的「still」指「即使存在可能令結果改變的因素，原本的狀態、行動或看法依然成立」。",
+        "still-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-02"
     },
@@ -439,11 +427,9 @@ export default {
       "masked": "The headphones are expensive, but I ____ think they are good value.",
       "options": [
         "still-mcq-02",
-        "still-mcq-01",
+        "still-mcq-12",
         "still-mcq-03",
-        "still-mcq-04",
-        "still-mcq-05",
-        "still-mcq-06"
+        "still-mcq-07"
       ],
       "explanation": "本句的「still」指「即使存在可能令結果改變的因素，原本的狀態、行動或看法依然成立」。",
       "sentenceIndex": 3,
@@ -452,12 +438,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-02": "本句指「即使存在可能令結果改變的因素，原本的狀態、行動或看法依然成立」。",
-        "still-mcq-01": "「某個較早已存在的狀態到現在／當時仍然持續，尚未改變或結束」是「still — continuing」的用法，與本句語境不同。",
-        "still-mcq-03": "「在已有比較程度上再進一步增加；更加……」是「still + comparative」的用法，與本句語境不同。",
-        "still-mcq-04": "「身體或物件停留在原位置，沒有明顯移動」是「still — not moving」的用法，與本句語境不同。",
-        "still-mcq-05": "「水面或空氣沒有明顯流動、波動或風的」是「still water/air」的用法，與本句語境不同。",
-        "still-mcq-06": "「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」是「still — quiet/calm」的用法，與本句語境不同。"
+        "still-mcq-02": "本句的「still」指「即使存在可能令結果改變的因素，原本的狀態、行動或看法依然成立」。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-02"
     },
@@ -469,11 +453,9 @@ export default {
       "masked": "She was exhausted, but she ____ finished the report.",
       "options": [
         "still-mcq-02",
-        "still-mcq-01",
         "still-mcq-03",
-        "still-mcq-04",
-        "still-mcq-05",
-        "still-mcq-06"
+        "still-mcq-07",
+        "still-mcq-12"
       ],
       "explanation": "本句的「still」指「即使存在可能令結果改變的因素，原本的狀態、行動或看法依然成立」。",
       "sentenceIndex": 4,
@@ -482,12 +464,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-02": "本句指「即使存在可能令結果改變的因素，原本的狀態、行動或看法依然成立」。",
-        "still-mcq-01": "「某個較早已存在的狀態到現在／當時仍然持續，尚未改變或結束」是「still — continuing」的用法，與本句語境不同。",
-        "still-mcq-03": "「在已有比較程度上再進一步增加；更加……」是「still + comparative」的用法，與本句語境不同。",
-        "still-mcq-04": "「身體或物件停留在原位置，沒有明顯移動」是「still — not moving」的用法，與本句語境不同。",
-        "still-mcq-05": "「水面或空氣沒有明顯流動、波動或風的」是「still water/air」的用法，與本句語境不同。",
-        "still-mcq-06": "「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」是「still — quiet/calm」的用法，與本句語境不同。"
+        "still-mcq-02": "本句的「still」指「即使存在可能令結果改變的因素，原本的狀態、行動或看法依然成立」。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-02"
     },
@@ -499,11 +479,9 @@ export default {
       "masked": "The newer model is ____ better.",
       "options": [
         "still-mcq-03",
-        "still-mcq-02",
-        "still-mcq-04",
-        "still-mcq-01",
-        "still-mcq-05",
-        "still-mcq-06"
+        "still-mcq-12",
+        "still-mcq-10",
+        "still-mcq-14"
       ],
       "explanation": "本句的「still」指「在已有比較程度上再進一步增加；更加……」。",
       "sentenceIndex": 5,
@@ -512,12 +490,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-03": "本句指「在已有比較程度上再進一步增加；更加……」。",
-        "still-mcq-02": "「即使存在可能令結果改變的因素，原本的狀態、行動或看法依然成立」是「still — despite that」的用法，與本句語境不同。",
-        "still-mcq-04": "「身體或物件停留在原位置，沒有明顯移動」是「still — not moving」的用法，與本句語境不同。",
-        "still-mcq-01": "「某個較早已存在的狀態到現在／當時仍然持續，尚未改變或結束」是「still — continuing」的用法，與本句語境不同。",
-        "still-mcq-05": "「水面或空氣沒有明顯流動、波動或風的」是「still water/air」的用法，與本句語境不同。",
-        "still-mcq-06": "「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」是「still — quiet/calm」的用法，與本句語境不同。"
+        "still-mcq-03": "本句的「still」指「在已有比較程度上再進一步增加；更加……」。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-03"
     },
@@ -529,11 +505,9 @@ export default {
       "masked": "The second option is cheaper and ____ more practical.",
       "options": [
         "still-mcq-03",
-        "still-mcq-02",
-        "still-mcq-04",
-        "still-mcq-01",
-        "still-mcq-05",
-        "still-mcq-06"
+        "still-mcq-12",
+        "still-mcq-06",
+        "still-mcq-09"
       ],
       "explanation": "本句的「still」指「在已有比較程度上再進一步增加；更加……」。",
       "sentenceIndex": 6,
@@ -542,12 +516,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-03": "本句指「在已有比較程度上再進一步增加；更加……」。",
-        "still-mcq-02": "「即使存在可能令結果改變的因素，原本的狀態、行動或看法依然成立」是「still — despite that」的用法，與本句語境不同。",
-        "still-mcq-04": "「身體或物件停留在原位置，沒有明顯移動」是「still — not moving」的用法，與本句語境不同。",
-        "still-mcq-01": "「某個較早已存在的狀態到現在／當時仍然持續，尚未改變或結束」是「still — continuing」的用法，與本句語境不同。",
-        "still-mcq-05": "「水面或空氣沒有明顯流動、波動或風的」是「still water/air」的用法，與本句語境不同。",
-        "still-mcq-06": "「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」是「still — quiet/calm」的用法，與本句語境不同。"
+        "still-mcq-03": "本句的「still」指「在已有比較程度上再進一步增加；更加……」。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-03"
     },
@@ -559,11 +531,9 @@ export default {
       "masked": "Please keep ____ while I take the photo.",
       "options": [
         "still-mcq-04",
+        "still-mcq-09",
         "still-mcq-03",
-        "still-mcq-05",
-        "still-mcq-02",
-        "still-mcq-06",
-        "still-mcq-01"
+        "still-mcq-12"
       ],
       "explanation": "本句的「still」指「身體或物件停留在原位置，沒有明顯移動」。",
       "sentenceIndex": 7,
@@ -572,12 +542,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-04": "本句指「身體或物件停留在原位置，沒有明顯移動」。",
-        "still-mcq-03": "「在已有比較程度上再進一步增加；更加……」是「still + comparative」的用法，與本句語境不同。",
-        "still-mcq-05": "「水面或空氣沒有明顯流動、波動或風的」是「still water/air」的用法，與本句語境不同。",
-        "still-mcq-02": "「即使存在可能令結果改變的因素，原本的狀態、行動或看法依然成立」是「still — despite that」的用法，與本句語境不同。",
-        "still-mcq-06": "「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」是「still — quiet/calm」的用法，與本句語境不同。",
-        "still-mcq-01": "「某個較早已存在的狀態到現在／當時仍然持續，尚未改變或結束」是「still — continuing」的用法，與本句語境不同。"
+        "still-mcq-04": "本句的「still」指「身體或物件停留在原位置，沒有明顯移動」。",
+        "still-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-04"
     },
@@ -589,11 +557,9 @@ export default {
       "masked": "The animal stood completely ____.",
       "options": [
         "still-mcq-04",
-        "still-mcq-03",
-        "still-mcq-05",
-        "still-mcq-02",
-        "still-mcq-06",
-        "still-mcq-01"
+        "still-mcq-12",
+        "still-mcq-09",
+        "still-mcq-03"
       ],
       "explanation": "本句的「still」指「身體或物件停留在原位置，沒有明顯移動」。",
       "sentenceIndex": 8,
@@ -602,12 +568,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-04": "本句指「身體或物件停留在原位置，沒有明顯移動」。",
-        "still-mcq-03": "「在已有比較程度上再進一步增加；更加……」是「still + comparative」的用法，與本句語境不同。",
-        "still-mcq-05": "「水面或空氣沒有明顯流動、波動或風的」是「still water/air」的用法，與本句語境不同。",
-        "still-mcq-02": "「即使存在可能令結果改變的因素，原本的狀態、行動或看法依然成立」是「still — despite that」的用法，與本句語境不同。",
-        "still-mcq-06": "「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」是「still — quiet/calm」的用法，與本句語境不同。",
-        "still-mcq-01": "「某個較早已存在的狀態到現在／當時仍然持續，尚未改變或結束」是「still — continuing」的用法，與本句語境不同。"
+        "still-mcq-04": "本句的「still」指「身體或物件停留在原位置，沒有明顯移動」。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-04"
     },
@@ -619,11 +583,9 @@ export default {
       "masked": "The lake was perfectly ____.",
       "options": [
         "still-mcq-05",
-        "still-mcq-04",
-        "still-mcq-06",
+        "still-mcq-01",
         "still-mcq-03",
-        "still-mcq-07",
-        "still-mcq-02"
+        "still-mcq-15"
       ],
       "explanation": "本句的「still」指「水面或空氣沒有明顯流動、波動或風的」。",
       "sentenceIndex": 9,
@@ -632,12 +594,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-05": "本句指「水面或空氣沒有明顯流動、波動或風的」。",
-        "still-mcq-04": "「身體或物件停留在原位置，沒有明顯移動」是「still — not moving」的用法，與本句語境不同。",
-        "still-mcq-06": "「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」是「still — quiet/calm」的用法，與本句語境不同。",
-        "still-mcq-03": "「在已有比較程度上再進一步增加；更加……」是「still + comparative」的用法，與本句語境不同。",
-        "still-mcq-07": "「沒有碳酸氣泡的飲用水」是「still water — beverage」的用法，與本句語境不同。",
-        "still-mcq-02": "「即使存在可能令結果改變的因素，原本的狀態、行動或看法依然成立」是「still — despite that」的用法，與本句語境不同。"
+        "still-mcq-05": "本句的「still」指「水面或空氣沒有明顯流動、波動或風的」。",
+        "still-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-05"
     },
@@ -649,11 +609,9 @@ export default {
       "masked": "The air was hot and ____.",
       "options": [
         "still-mcq-05",
-        "still-mcq-04",
-        "still-mcq-06",
-        "still-mcq-03",
-        "still-mcq-07",
-        "still-mcq-02"
+        "still-mcq-01",
+        "still-mcq-15",
+        "still-mcq-09"
       ],
       "explanation": "本句的「still」指「水面或空氣沒有明顯流動、波動或風的」。",
       "sentenceIndex": 10,
@@ -662,12 +620,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-05": "本句指「水面或空氣沒有明顯流動、波動或風的」。",
-        "still-mcq-04": "「身體或物件停留在原位置，沒有明顯移動」是「still — not moving」的用法，與本句語境不同。",
-        "still-mcq-06": "「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」是「still — quiet/calm」的用法，與本句語境不同。",
-        "still-mcq-03": "「在已有比較程度上再進一步增加；更加……」是「still + comparative」的用法，與本句語境不同。",
-        "still-mcq-07": "「沒有碳酸氣泡的飲用水」是「still water — beverage」的用法，與本句語境不同。",
-        "still-mcq-02": "「即使存在可能令結果改變的因素，原本的狀態、行動或看法依然成立」是「still — despite that」的用法，與本句語境不同。"
+        "still-mcq-05": "本句的「still」指「水面或空氣沒有明顯流動、波動或風的」。",
+        "still-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-05"
     },
@@ -679,11 +635,9 @@ export default {
       "masked": "The house was completely ____ in the middle of the night.",
       "options": [
         "still-mcq-06",
-        "still-mcq-05",
-        "still-mcq-07",
-        "still-mcq-04",
-        "still-mcq-08",
-        "still-mcq-03"
+        "still-mcq-15",
+        "still-mcq-03",
+        "still-mcq-12"
       ],
       "explanation": "本句的「still」指「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」。",
       "sentenceIndex": 11,
@@ -692,12 +646,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-06": "本句指「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」。",
-        "still-mcq-05": "「水面或空氣沒有明顯流動、波動或風的」是「still water/air」的用法，與本句語境不同。",
-        "still-mcq-07": "「沒有碳酸氣泡的飲用水」是「still water — beverage」的用法，與本句語境不同。",
-        "still-mcq-04": "「身體或物件停留在原位置，沒有明顯移動」是「still — not moving」的用法，與本句語境不同。",
-        "still-mcq-08": "「不會連續移動、與影片／動畫相對的單一靜態影像」是「still image」的用法，與本句語境不同。",
-        "still-mcq-03": "「在已有比較程度上再進一步增加；更加……」是「still + comparative」的用法，與本句語境不同。"
+        "still-mcq-06": "本句的「still」指「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」。",
+        "still-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-06"
     },
@@ -709,11 +661,9 @@ export default {
       "masked": "For a moment, everything became ____.",
       "options": [
         "still-mcq-06",
-        "still-mcq-05",
-        "still-mcq-07",
-        "still-mcq-04",
-        "still-mcq-08",
-        "still-mcq-03"
+        "still-mcq-03",
+        "still-mcq-15",
+        "still-mcq-12"
       ],
       "explanation": "本句的「still」指「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」。",
       "sentenceIndex": 12,
@@ -722,12 +672,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-06": "本句指「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」。",
-        "still-mcq-05": "「水面或空氣沒有明顯流動、波動或風的」是「still water/air」的用法，與本句語境不同。",
-        "still-mcq-07": "「沒有碳酸氣泡的飲用水」是「still water — beverage」的用法，與本句語境不同。",
-        "still-mcq-04": "「身體或物件停留在原位置，沒有明顯移動」是「still — not moving」的用法，與本句語境不同。",
-        "still-mcq-08": "「不會連續移動、與影片／動畫相對的單一靜態影像」是「still image」的用法，與本句語境不同。",
-        "still-mcq-03": "「在已有比較程度上再進一步增加；更加……」是「still + comparative」的用法，與本句語境不同。"
+        "still-mcq-06": "本句的「still」指「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-06"
     },
@@ -739,11 +687,9 @@ export default {
       "masked": "Would you like sparkling or ____ water?",
       "options": [
         "still-mcq-07",
-        "still-mcq-06",
+        "still-mcq-01",
         "still-mcq-08",
-        "still-mcq-05",
-        "still-mcq-09",
-        "still-mcq-04"
+        "still-mcq-03"
       ],
       "explanation": "本句的「still」指「沒有碳酸氣泡的飲用水」。",
       "sentenceIndex": 13,
@@ -752,12 +698,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-07": "本句指「沒有碳酸氣泡的飲用水」。",
-        "still-mcq-06": "「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」是「still — quiet/calm」的用法，與本句語境不同。",
-        "still-mcq-08": "「不會連續移動、與影片／動畫相對的單一靜態影像」是「still image」的用法，與本句語境不同。",
-        "still-mcq-05": "「水面或空氣沒有明顯流動、波動或風的」是「still water/air」的用法，與本句語境不同。",
-        "still-mcq-09": "「從影片或電影中取得的一張靜態畫面／劇照」是「a still — film/photo」的用法，與本句語境不同。",
-        "still-mcq-04": "「身體或物件停留在原位置，沒有明顯移動」是「still — not moving」的用法，與本句語境不同。"
+        "still-mcq-07": "本句的「still」指「沒有碳酸氣泡的飲用水」。",
+        "still-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-07"
     },
@@ -769,11 +713,9 @@ export default {
       "masked": "I ordered a bottle of ____ mineral water.",
       "options": [
         "still-mcq-07",
-        "still-mcq-06",
         "still-mcq-08",
-        "still-mcq-05",
-        "still-mcq-09",
-        "still-mcq-04"
+        "still-mcq-01",
+        "still-mcq-03"
       ],
       "explanation": "本句的「still」指「沒有碳酸氣泡的飲用水」。",
       "sentenceIndex": 14,
@@ -782,12 +724,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-07": "本句指「沒有碳酸氣泡的飲用水」。",
-        "still-mcq-06": "「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」是「still — quiet/calm」的用法，與本句語境不同。",
-        "still-mcq-08": "「不會連續移動、與影片／動畫相對的單一靜態影像」是「still image」的用法，與本句語境不同。",
-        "still-mcq-05": "「水面或空氣沒有明顯流動、波動或風的」是「still water/air」的用法，與本句語境不同。",
-        "still-mcq-09": "「從影片或電影中取得的一張靜態畫面／劇照」是「a still — film/photo」的用法，與本句語境不同。",
-        "still-mcq-04": "「身體或物件停留在原位置，沒有明顯移動」是「still — not moving」的用法，與本句語境不同。"
+        "still-mcq-07": "本句的「still」指「沒有碳酸氣泡的飲用水」。",
+        "still-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-07"
     },
@@ -799,11 +739,9 @@ export default {
       "masked": "The report included several ____ from the video.",
       "options": [
         "still-mcq-08",
-        "still-mcq-07",
-        "still-mcq-09",
-        "still-mcq-06",
-        "still-mcq-10",
-        "still-mcq-05"
+        "still-mcq-15",
+        "still-mcq-12",
+        "still-mcq-03"
       ],
       "explanation": "本句的「still images」指「不會連續移動、與影片／動畫相對的單一靜態影像」。",
       "sentenceIndex": 15,
@@ -812,12 +750,10 @@ export default {
         "still images"
       ],
       "optionReasons": {
-        "still-mcq-08": "本句指「不會連續移動、與影片／動畫相對的單一靜態影像」。",
-        "still-mcq-07": "「沒有碳酸氣泡的飲用水」是「still water — beverage」的用法，與本句語境不同。",
-        "still-mcq-09": "「從影片或電影中取得的一張靜態畫面／劇照」是「a still — film/photo」的用法，與本句語境不同。",
-        "still-mcq-06": "「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」是「still — quiet/calm」的用法，與本句語境不同。",
-        "still-mcq-10": "「以水果、花、器物等靜止物件為主要題材的藝術作品」是「still life」的用法，與本句語境不同。",
-        "still-mcq-05": "「水面或空氣沒有明顯流動、波動或風的」是「still water/air」的用法，與本句語境不同。"
+        "still-mcq-08": "本句的「still images」指「不會連續移動、與影片／動畫相對的單一靜態影像」。",
+        "still-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-08"
     },
@@ -829,11 +765,9 @@ export default {
       "masked": "The website uses both video and ____.",
       "options": [
         "still-mcq-08",
+        "still-mcq-12",
         "still-mcq-07",
-        "still-mcq-09",
-        "still-mcq-06",
-        "still-mcq-10",
-        "still-mcq-05"
+        "still-mcq-15"
       ],
       "explanation": "本句的「still photographs」指「不會連續移動、與影片／動畫相對的單一靜態影像」。",
       "sentenceIndex": 16,
@@ -842,12 +776,10 @@ export default {
         "still photographs"
       ],
       "optionReasons": {
-        "still-mcq-08": "本句指「不會連續移動、與影片／動畫相對的單一靜態影像」。",
-        "still-mcq-07": "「沒有碳酸氣泡的飲用水」是「still water — beverage」的用法，與本句語境不同。",
-        "still-mcq-09": "「從影片或電影中取得的一張靜態畫面／劇照」是「a still — film/photo」的用法，與本句語境不同。",
-        "still-mcq-06": "「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」是「still — quiet/calm」的用法，與本句語境不同。",
-        "still-mcq-10": "「以水果、花、器物等靜止物件為主要題材的藝術作品」是「still life」的用法，與本句語境不同。",
-        "still-mcq-05": "「水面或空氣沒有明顯流動、波動或風的」是「still water/air」的用法，與本句語境不同。"
+        "still-mcq-08": "本句的「still photographs」指「不會連續移動、與影片／動畫相對的單一靜態影像」。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-08"
     },
@@ -859,11 +791,9 @@ export default {
       "masked": "The magazine published several ____ from the film.",
       "options": [
         "still-mcq-09",
-        "still-mcq-08",
-        "still-mcq-10",
+        "still-mcq-15",
         "still-mcq-07",
-        "still-mcq-11",
-        "still-mcq-06"
+        "still-mcq-12"
       ],
       "explanation": "本句的「stills」指「從影片或電影中取得的一張靜態畫面／劇照」。",
       "sentenceIndex": 17,
@@ -872,12 +802,10 @@ export default {
         "stills"
       ],
       "optionReasons": {
-        "still-mcq-09": "本句指「從影片或電影中取得的一張靜態畫面／劇照」。",
-        "still-mcq-08": "「不會連續移動、與影片／動畫相對的單一靜態影像」是「still image」的用法，與本句語境不同。",
-        "still-mcq-10": "「以水果、花、器物等靜止物件為主要題材的藝術作品」是「still life」的用法，與本句語境不同。",
-        "still-mcq-07": "「沒有碳酸氣泡的飲用水」是「still water — beverage」的用法，與本句語境不同。",
-        "still-mcq-11": "「令原本有動作、聲音或情緒波動的人／事物平靜或停止」是「still — verb」的用法，與本句語境不同。",
-        "still-mcq-06": "「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」是「still — quiet/calm」的用法，與本句語境不同。"
+        "still-mcq-09": "本句的「stills」指「從影片或電影中取得的一張靜態畫面／劇照」。",
+        "still-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-09"
     },
@@ -889,11 +817,9 @@ export default {
       "masked": "This ____ shows the actor standing by the window.",
       "options": [
         "still-mcq-09",
-        "still-mcq-08",
-        "still-mcq-10",
-        "still-mcq-07",
-        "still-mcq-11",
-        "still-mcq-06"
+        "still-mcq-15",
+        "still-mcq-03",
+        "still-mcq-07"
       ],
       "explanation": "本句的「still」指「從影片或電影中取得的一張靜態畫面／劇照」。",
       "sentenceIndex": 18,
@@ -902,12 +828,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-09": "本句指「從影片或電影中取得的一張靜態畫面／劇照」。",
-        "still-mcq-08": "「不會連續移動、與影片／動畫相對的單一靜態影像」是「still image」的用法，與本句語境不同。",
-        "still-mcq-10": "「以水果、花、器物等靜止物件為主要題材的藝術作品」是「still life」的用法，與本句語境不同。",
-        "still-mcq-07": "「沒有碳酸氣泡的飲用水」是「still water — beverage」的用法，與本句語境不同。",
-        "still-mcq-11": "「令原本有動作、聲音或情緒波動的人／事物平靜或停止」是「still — verb」的用法，與本句語境不同。",
-        "still-mcq-06": "「幾乎沒有聲音、活動或擾動，呈現寂靜平和的」是「still — quiet/calm」的用法，與本句語境不同。"
+        "still-mcq-09": "本句的「still」指「從影片或電影中取得的一張靜態畫面／劇照」。",
+        "still-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-09"
     },
@@ -919,11 +843,9 @@ export default {
       "masked": "She painted a ____ of flowers and fruit.",
       "options": [
         "still-mcq-10",
-        "still-mcq-09",
-        "still-mcq-11",
-        "still-mcq-08",
         "still-mcq-12",
-        "still-mcq-07"
+        "still-mcq-01",
+        "still-mcq-15"
       ],
       "explanation": "本句的「still life」指「以水果、花、器物等靜止物件為主要題材的藝術作品」。",
       "sentenceIndex": 19,
@@ -932,12 +854,10 @@ export default {
         "still life"
       ],
       "optionReasons": {
-        "still-mcq-10": "本句指「以水果、花、器物等靜止物件為主要題材的藝術作品」。",
-        "still-mcq-09": "「從影片或電影中取得的一張靜態畫面／劇照」是「a still — film/photo」的用法，與本句語境不同。",
-        "still-mcq-11": "「令原本有動作、聲音或情緒波動的人／事物平靜或停止」是「still — verb」的用法，與本句語境不同。",
-        "still-mcq-08": "「不會連續移動、與影片／動畫相對的單一靜態影像」是「still image」的用法，與本句語境不同。",
-        "still-mcq-12": "「使恐懼、疑慮或不安逐漸平息」是「still fears/concerns」的用法，與本句語境不同。",
-        "still-mcq-07": "「沒有碳酸氣泡的飲用水」是「still water — beverage」的用法，與本句語境不同。"
+        "still-mcq-10": "本句的「still life」指「以水果、花、器物等靜止物件為主要題材的藝術作品」。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-10"
     },
@@ -949,11 +869,9 @@ export default {
       "masked": "The exhibition includes several seventeenth-century ____.",
       "options": [
         "still-mcq-10",
-        "still-mcq-09",
-        "still-mcq-11",
-        "still-mcq-08",
+        "still-mcq-13",
         "still-mcq-12",
-        "still-mcq-07"
+        "still-mcq-15"
       ],
       "explanation": "本句的「still lifes」指「以水果、花、器物等靜止物件為主要題材的藝術作品」。",
       "sentenceIndex": 20,
@@ -962,12 +880,10 @@ export default {
         "still lifes"
       ],
       "optionReasons": {
-        "still-mcq-10": "本句指「以水果、花、器物等靜止物件為主要題材的藝術作品」。",
-        "still-mcq-09": "「從影片或電影中取得的一張靜態畫面／劇照」是「a still — film/photo」的用法，與本句語境不同。",
-        "still-mcq-11": "「令原本有動作、聲音或情緒波動的人／事物平靜或停止」是「still — verb」的用法，與本句語境不同。",
-        "still-mcq-08": "「不會連續移動、與影片／動畫相對的單一靜態影像」是「still image」的用法，與本句語境不同。",
-        "still-mcq-12": "「使恐懼、疑慮或不安逐漸平息」是「still fears/concerns」的用法，與本句語境不同。",
-        "still-mcq-07": "「沒有碳酸氣泡的飲用水」是「still water — beverage」的用法，與本句語境不同。"
+        "still-mcq-10": "本句的「still lifes」指「以水果、花、器物等靜止物件為主要題材的藝術作品」。",
+        "still-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-10"
     },
@@ -979,11 +895,9 @@ export default {
       "masked": "She took a deep breath to ____ her nerves.",
       "options": [
         "still-mcq-11",
-        "still-mcq-10",
-        "still-mcq-12",
-        "still-mcq-09",
-        "still-mcq-13",
-        "still-mcq-08"
+        "still-mcq-15",
+        "still-mcq-03",
+        "still-mcq-07"
       ],
       "explanation": "本句的「still」指「令原本有動作、聲音或情緒波動的人／事物平靜或停止」。",
       "sentenceIndex": 21,
@@ -992,12 +906,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-11": "本句指「令原本有動作、聲音或情緒波動的人／事物平靜或停止」。",
-        "still-mcq-10": "「以水果、花、器物等靜止物件為主要題材的藝術作品」是「still life」的用法，與本句語境不同。",
-        "still-mcq-12": "「使恐懼、疑慮或不安逐漸平息」是「still fears/concerns」的用法，與本句語境不同。",
-        "still-mcq-09": "「從影片或電影中取得的一張靜態畫面／劇照」是「a still — film/photo」的用法，與本句語境不同。",
-        "still-mcq-13": "「完全或近乎沒有動作、移動或波動的狀態」是「stillness — physical」的用法，與本句語境不同。",
-        "still-mcq-08": "「不會連續移動、與影片／動畫相對的單一靜態影像」是「still image」的用法，與本句語境不同。"
+        "still-mcq-11": "本句的「still」指「令原本有動作、聲音或情緒波動的人／事物平靜或停止」。",
+        "still-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-11"
     },
@@ -1009,11 +921,9 @@ export default {
       "masked": "The teacher raised her hand to ____ the class.",
       "options": [
         "still-mcq-11",
-        "still-mcq-10",
-        "still-mcq-12",
-        "still-mcq-09",
-        "still-mcq-13",
-        "still-mcq-08"
+        "still-mcq-03",
+        "still-mcq-07",
+        "still-mcq-15"
       ],
       "explanation": "本句的「still」指「令原本有動作、聲音或情緒波動的人／事物平靜或停止」。",
       "sentenceIndex": 22,
@@ -1022,12 +932,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-11": "本句指「令原本有動作、聲音或情緒波動的人／事物平靜或停止」。",
-        "still-mcq-10": "「以水果、花、器物等靜止物件為主要題材的藝術作品」是「still life」的用法，與本句語境不同。",
-        "still-mcq-12": "「使恐懼、疑慮或不安逐漸平息」是「still fears/concerns」的用法，與本句語境不同。",
-        "still-mcq-09": "「從影片或電影中取得的一張靜態畫面／劇照」是「a still — film/photo」的用法，與本句語境不同。",
-        "still-mcq-13": "「完全或近乎沒有動作、移動或波動的狀態」是「stillness — physical」的用法，與本句語境不同。",
-        "still-mcq-08": "「不會連續移動、與影片／動畫相對的單一靜態影像」是「still image」的用法，與本句語境不同。"
+        "still-mcq-11": "本句的「still」指「令原本有動作、聲音或情緒波動的人／事物平靜或停止」。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-11"
     },
@@ -1039,11 +947,9 @@ export default {
       "masked": "The explanation helped ____ her fears.",
       "options": [
         "still-mcq-12",
-        "still-mcq-11",
         "still-mcq-13",
-        "still-mcq-10",
-        "still-mcq-14",
-        "still-mcq-09"
+        "still-mcq-09",
+        "still-mcq-03"
       ],
       "explanation": "本句的「still」指「使恐懼、疑慮或不安逐漸平息」。",
       "sentenceIndex": 23,
@@ -1052,12 +958,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-12": "本句指「使恐懼、疑慮或不安逐漸平息」。",
-        "still-mcq-11": "「令原本有動作、聲音或情緒波動的人／事物平靜或停止」是「still — verb」的用法，與本句語境不同。",
-        "still-mcq-13": "「完全或近乎沒有動作、移動或波動的狀態」是「stillness — physical」的用法，與本句語境不同。",
-        "still-mcq-10": "「以水果、花、器物等靜止物件為主要題材的藝術作品」是「still life」的用法，與本句語境不同。",
-        "still-mcq-14": "「缺乏聲音、活動和擾動所形成的寧靜狀態」是「stillness — calmness」的用法，與本句語境不同。",
-        "still-mcq-09": "「從影片或電影中取得的一張靜態畫面／劇照」是「a still — film/photo」的用法，與本句語境不同。"
+        "still-mcq-12": "本句的「still」指「使恐懼、疑慮或不安逐漸平息」。",
+        "still-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-12"
     },
@@ -1069,10 +973,8 @@ export default {
       "masked": "The new evidence did little to ____ public concern.",
       "options": [
         "still-mcq-12",
-        "still-mcq-11",
-        "still-mcq-13",
-        "still-mcq-10",
-        "still-mcq-14",
+        "still-mcq-01",
+        "still-mcq-03",
         "still-mcq-09"
       ],
       "explanation": "本句的「still」指「使恐懼、疑慮或不安逐漸平息」。",
@@ -1082,12 +984,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-12": "本句指「使恐懼、疑慮或不安逐漸平息」。",
-        "still-mcq-11": "「令原本有動作、聲音或情緒波動的人／事物平靜或停止」是「still — verb」的用法，與本句語境不同。",
-        "still-mcq-13": "「完全或近乎沒有動作、移動或波動的狀態」是「stillness — physical」的用法，與本句語境不同。",
-        "still-mcq-10": "「以水果、花、器物等靜止物件為主要題材的藝術作品」是「still life」的用法，與本句語境不同。",
-        "still-mcq-14": "「缺乏聲音、活動和擾動所形成的寧靜狀態」是「stillness — calmness」的用法，與本句語境不同。",
-        "still-mcq-09": "「從影片或電影中取得的一張靜態畫面／劇照」是「a still — film/photo」的用法，與本句語境不同。"
+        "still-mcq-12": "本句的「still」指「使恐懼、疑慮或不安逐漸平息」。",
+        "still-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-12"
     },
@@ -1100,10 +1000,8 @@ export default {
       "options": [
         "still-mcq-13",
         "still-mcq-12",
-        "still-mcq-14",
-        "still-mcq-11",
         "still-mcq-15",
-        "still-mcq-10"
+        "still-mcq-03"
       ],
       "explanation": "本句的「stillness」指「完全或近乎沒有動作、移動或波動的狀態」。",
       "sentenceIndex": 25,
@@ -1112,12 +1010,10 @@ export default {
         "stillness"
       ],
       "optionReasons": {
-        "still-mcq-13": "本句指「完全或近乎沒有動作、移動或波動的狀態」。",
-        "still-mcq-12": "「使恐懼、疑慮或不安逐漸平息」是「still fears/concerns」的用法，與本句語境不同。",
-        "still-mcq-14": "「缺乏聲音、活動和擾動所形成的寧靜狀態」是「stillness — calmness」的用法，與本句語境不同。",
-        "still-mcq-11": "「令原本有動作、聲音或情緒波動的人／事物平靜或停止」是「still — verb」的用法，與本句語境不同。",
-        "still-mcq-15": "「用加熱和冷凝方式進行液體蒸餾的設備」是「a still — equipment」的用法，與本句語境不同。",
-        "still-mcq-10": "「以水果、花、器物等靜止物件為主要題材的藝術作品」是「still life」的用法，與本句語境不同。"
+        "still-mcq-13": "本句的「stillness」指「完全或近乎沒有動作、移動或波動的狀態」。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-13"
     },
@@ -1130,10 +1026,8 @@ export default {
       "options": [
         "still-mcq-13",
         "still-mcq-12",
-        "still-mcq-14",
-        "still-mcq-11",
         "still-mcq-15",
-        "still-mcq-10"
+        "still-mcq-03"
       ],
       "explanation": "本句的「stillness」指「完全或近乎沒有動作、移動或波動的狀態」。",
       "sentenceIndex": 26,
@@ -1142,12 +1036,10 @@ export default {
         "stillness"
       ],
       "optionReasons": {
-        "still-mcq-13": "本句指「完全或近乎沒有動作、移動或波動的狀態」。",
-        "still-mcq-12": "「使恐懼、疑慮或不安逐漸平息」是「still fears/concerns」的用法，與本句語境不同。",
-        "still-mcq-14": "「缺乏聲音、活動和擾動所形成的寧靜狀態」是「stillness — calmness」的用法，與本句語境不同。",
-        "still-mcq-11": "「令原本有動作、聲音或情緒波動的人／事物平靜或停止」是「still — verb」的用法，與本句語境不同。",
-        "still-mcq-15": "「用加熱和冷凝方式進行液體蒸餾的設備」是「a still — equipment」的用法，與本句語境不同。",
-        "still-mcq-10": "「以水果、花、器物等靜止物件為主要題材的藝術作品」是「still life」的用法，與本句語境不同。"
+        "still-mcq-13": "本句的「stillness」指「完全或近乎沒有動作、移動或波動的狀態」。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-13"
     },
@@ -1159,11 +1051,9 @@ export default {
       "masked": "She enjoyed the ____ of the early morning.",
       "options": [
         "still-mcq-14",
-        "still-mcq-13",
-        "still-mcq-15",
+        "still-mcq-03",
         "still-mcq-12",
-        "still-mcq-11",
-        "still-mcq-10"
+        "still-mcq-15"
       ],
       "explanation": "本句的「stillness」指「缺乏聲音、活動和擾動所形成的寧靜狀態」。",
       "sentenceIndex": 27,
@@ -1172,12 +1062,10 @@ export default {
         "stillness"
       ],
       "optionReasons": {
-        "still-mcq-14": "本句指「缺乏聲音、活動和擾動所形成的寧靜狀態」。",
-        "still-mcq-13": "「完全或近乎沒有動作、移動或波動的狀態」是「stillness — physical」的用法，與本句語境不同。",
-        "still-mcq-15": "「用加熱和冷凝方式進行液體蒸餾的設備」是「a still — equipment」的用法，與本句語境不同。",
-        "still-mcq-12": "「使恐懼、疑慮或不安逐漸平息」是「still fears/concerns」的用法，與本句語境不同。",
-        "still-mcq-11": "「令原本有動作、聲音或情緒波動的人／事物平靜或停止」是「still — verb」的用法，與本句語境不同。",
-        "still-mcq-10": "「以水果、花、器物等靜止物件為主要題材的藝術作品」是「still life」的用法，與本句語境不同。"
+        "still-mcq-14": "本句的「stillness」指「缺乏聲音、活動和擾動所形成的寧靜狀態」。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-14"
     },
@@ -1189,11 +1077,9 @@ export default {
       "masked": "The headphones created a sense of ____.",
       "options": [
         "still-mcq-14",
-        "still-mcq-13",
         "still-mcq-15",
         "still-mcq-12",
-        "still-mcq-11",
-        "still-mcq-10"
+        "still-mcq-03"
       ],
       "explanation": "本句的「stillness」指「缺乏聲音、活動和擾動所形成的寧靜狀態」。",
       "sentenceIndex": 28,
@@ -1202,12 +1088,10 @@ export default {
         "stillness"
       ],
       "optionReasons": {
-        "still-mcq-14": "本句指「缺乏聲音、活動和擾動所形成的寧靜狀態」。",
-        "still-mcq-13": "「完全或近乎沒有動作、移動或波動的狀態」是「stillness — physical」的用法，與本句語境不同。",
-        "still-mcq-15": "「用加熱和冷凝方式進行液體蒸餾的設備」是「a still — equipment」的用法，與本句語境不同。",
-        "still-mcq-12": "「使恐懼、疑慮或不安逐漸平息」是「still fears/concerns」的用法，與本句語境不同。",
-        "still-mcq-11": "「令原本有動作、聲音或情緒波動的人／事物平靜或停止」是「still — verb」的用法，與本句語境不同。",
-        "still-mcq-10": "「以水果、花、器物等靜止物件為主要題材的藝術作品」是「still life」的用法，與本句語境不同。"
+        "still-mcq-14": "本句的「stillness」指「缺乏聲音、活動和擾動所形成的寧靜狀態」。",
+        "still-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-14"
     },
@@ -1219,11 +1103,9 @@ export default {
       "masked": "The di____ery uses a traditional copper still.",
       "options": [
         "still-mcq-15",
-        "still-mcq-14",
-        "still-mcq-13",
-        "still-mcq-12",
         "still-mcq-11",
-        "still-mcq-10"
+        "still-mcq-07",
+        "still-mcq-08"
       ],
       "explanation": "本句的「still」指「用加熱和冷凝方式進行液體蒸餾的設備」。",
       "sentenceIndex": 29,
@@ -1232,12 +1114,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-15": "本句指「用加熱和冷凝方式進行液體蒸餾的設備」。",
-        "still-mcq-14": "「缺乏聲音、活動和擾動所形成的寧靜狀態」是「stillness — calmness」的用法，與本句語境不同。",
-        "still-mcq-13": "「完全或近乎沒有動作、移動或波動的狀態」是「stillness — physical」的用法，與本句語境不同。",
-        "still-mcq-12": "「使恐懼、疑慮或不安逐漸平息」是「still fears/concerns」的用法，與本句語境不同。",
-        "still-mcq-11": "「令原本有動作、聲音或情緒波動的人／事物平靜或停止」是「still — verb」的用法，與本句語境不同。",
-        "still-mcq-10": "「以水果、花、器物等靜止物件為主要題材的藝術作品」是「still life」的用法，與本句語境不同。"
+        "still-mcq-15": "本句的「still」指「用加熱和冷凝方式進行液體蒸餾的設備」。",
+        "still-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-15"
     },
@@ -1249,9 +1129,7 @@ export default {
       "masked": "The liquid is heated inside the ____.",
       "options": [
         "still-mcq-15",
-        "still-mcq-14",
-        "still-mcq-13",
-        "still-mcq-12",
+        "still-mcq-08",
         "still-mcq-11",
         "still-mcq-10"
       ],
@@ -1262,12 +1140,10 @@ export default {
         "still"
       ],
       "optionReasons": {
-        "still-mcq-15": "本句指「用加熱和冷凝方式進行液體蒸餾的設備」。",
-        "still-mcq-14": "「缺乏聲音、活動和擾動所形成的寧靜狀態」是「stillness — calmness」的用法，與本句語境不同。",
-        "still-mcq-13": "「完全或近乎沒有動作、移動或波動的狀態」是「stillness — physical」的用法，與本句語境不同。",
-        "still-mcq-12": "「使恐懼、疑慮或不安逐漸平息」是「still fears/concerns」的用法，與本句語境不同。",
-        "still-mcq-11": "「令原本有動作、聲音或情緒波動的人／事物平靜或停止」是「still — verb」的用法，與本句語境不同。",
-        "still-mcq-10": "「以水果、花、器物等靜止物件為主要題材的藝術作品」是「still life」的用法，與本句語境不同。"
+        "still-mcq-15": "本句的「still」指「用加熱和冷凝方式進行液體蒸餾的設備」。",
+        "still-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "still-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "still-mcq-15"
     }
@@ -1279,5 +1155,7 @@ export default {
     "sha256": "ec461392c681a3054e19e4344a90b625bfeb405871512f6ec7e318c065b39f11",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

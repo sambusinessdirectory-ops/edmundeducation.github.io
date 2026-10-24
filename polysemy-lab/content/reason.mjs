@@ -545,11 +545,9 @@ export default {
       "masked": "Another ____ it worked so well was that it sold more than a product.",
       "options": [
         "reason-mcq-01",
-        "reason-mcq-02",
-        "reason-mcq-03",
-        "reason-mcq-04",
-        "reason-mcq-05",
-        "reason-mcq-06"
+        "reason-mcq-13",
+        "reason-mcq-20",
+        "reason-mcq-14"
       ],
       "explanation": "本句的「reason」指「用來解釋某件事為甚麼發生或某種結果為甚麼出現的原因」。",
       "sentenceIndex": 0,
@@ -558,12 +556,10 @@ export default {
         "reason"
       ],
       "optionReasons": {
-        "reason-mcq-01": "本句指「用來解釋某件事為甚麼發生或某種結果為甚麼出現的原因」。",
-        "reason-mcq-02": "「用來解釋某件事情為甚麼會發生的原因」是「reason why…」的用法，與本句語境不同。",
-        "reason-mcq-03": "「足以支持或合理化某項行動／判斷的依據」是「reason to do something」的用法，與本句語境不同。",
-        "reason-mcq-04": "「促使某人作出某項選擇或行動的考慮／動機」是「reason — motive」的用法，與本句語境不同。",
-        "reason-mcq-05": "「用來證明某項行為、決定或看法合理的依據」是「reason — justification」的用法，與本句語境不同。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。"
+        "reason-mcq-01": "本句的「reason」指「用來解釋某件事為甚麼發生或某種結果為甚麼出現的原因」。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-01"
     },
@@ -575,11 +571,9 @@ export default {
       "masked": "The main ____ the delay was bad weather.",
       "options": [
         "reason-mcq-01",
-        "reason-mcq-02",
-        "reason-mcq-03",
-        "reason-mcq-04",
-        "reason-mcq-05",
-        "reason-mcq-06"
+        "reason-mcq-18",
+        "reason-mcq-15",
+        "reason-mcq-04"
       ],
       "explanation": "本句的「reason for」指「用來解釋某件事為甚麼發生或某種結果為甚麼出現的原因」。",
       "sentenceIndex": 1,
@@ -588,12 +582,10 @@ export default {
         "reason for"
       ],
       "optionReasons": {
-        "reason-mcq-01": "本句指「用來解釋某件事為甚麼發生或某種結果為甚麼出現的原因」。",
-        "reason-mcq-02": "「用來解釋某件事情為甚麼會發生的原因」是「reason why…」的用法，與本句語境不同。",
-        "reason-mcq-03": "「足以支持或合理化某項行動／判斷的依據」是「reason to do something」的用法，與本句語境不同。",
-        "reason-mcq-04": "「促使某人作出某項選擇或行動的考慮／動機」是「reason — motive」的用法，與本句語境不同。",
-        "reason-mcq-05": "「用來證明某項行為、決定或看法合理的依據」是「reason — justification」的用法，與本句語境不同。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。"
+        "reason-mcq-01": "本句的「reason for」指「用來解釋某件事為甚麼發生或某種結果為甚麼出現的原因」。",
+        "reason-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-01"
     },
@@ -605,11 +597,9 @@ export default {
       "masked": "There are several ____ the product’s success.",
       "options": [
         "reason-mcq-01",
-        "reason-mcq-02",
-        "reason-mcq-03",
-        "reason-mcq-04",
-        "reason-mcq-05",
-        "reason-mcq-06"
+        "reason-mcq-13",
+        "reason-mcq-19",
+        "reason-mcq-20"
       ],
       "explanation": "本句的「reasons for」指「用來解釋某件事為甚麼發生或某種結果為甚麼出現的原因」。",
       "sentenceIndex": 2,
@@ -618,12 +608,10 @@ export default {
         "reasons for"
       ],
       "optionReasons": {
-        "reason-mcq-01": "本句指「用來解釋某件事為甚麼發生或某種結果為甚麼出現的原因」。",
-        "reason-mcq-02": "「用來解釋某件事情為甚麼會發生的原因」是「reason why…」的用法，與本句語境不同。",
-        "reason-mcq-03": "「足以支持或合理化某項行動／判斷的依據」是「reason to do something」的用法，與本句語境不同。",
-        "reason-mcq-04": "「促使某人作出某項選擇或行動的考慮／動機」是「reason — motive」的用法，與本句語境不同。",
-        "reason-mcq-05": "「用來證明某項行為、決定或看法合理的依據」是「reason — justification」的用法，與本句語境不同。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。"
+        "reason-mcq-01": "本句的「reasons for」指「用來解釋某件事為甚麼發生或某種結果為甚麼出現的原因」。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-01"
     },
@@ -635,11 +623,9 @@ export default {
       "masked": "The ____ the advertisement worked was its simplicity.",
       "options": [
         "reason-mcq-02",
-        "reason-mcq-01",
-        "reason-mcq-03",
-        "reason-mcq-04",
-        "reason-mcq-05",
-        "reason-mcq-06"
+        "reason-mcq-18",
+        "reason-mcq-09",
+        "reason-mcq-12"
       ],
       "explanation": "本句的「reason why」指「用來解釋某件事情為甚麼會發生的原因」。",
       "sentenceIndex": 0,
@@ -648,12 +634,10 @@ export default {
         "reason why"
       ],
       "optionReasons": {
-        "reason-mcq-02": "本句指「用來解釋某件事情為甚麼會發生的原因」。",
-        "reason-mcq-01": "「用來解釋某件事為甚麼發生或某種結果為甚麼出現的原因」是「reason for an event/result」的用法，與本句語境不同。",
-        "reason-mcq-03": "「足以支持或合理化某項行動／判斷的依據」是「reason to do something」的用法，與本句語境不同。",
-        "reason-mcq-04": "「促使某人作出某項選擇或行動的考慮／動機」是「reason — motive」的用法，與本句語境不同。",
-        "reason-mcq-05": "「用來證明某項行為、決定或看法合理的依據」是「reason — justification」的用法，與本句語境不同。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。"
+        "reason-mcq-02": "本句的「reason why」指「用來解釋某件事情為甚麼會發生的原因」。",
+        "reason-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-02"
     },
@@ -665,11 +649,9 @@ export default {
       "masked": "Nobody knows the ____ the system failed.",
       "options": [
         "reason-mcq-02",
-        "reason-mcq-01",
-        "reason-mcq-03",
-        "reason-mcq-04",
-        "reason-mcq-05",
-        "reason-mcq-06"
+        "reason-mcq-19",
+        "reason-mcq-06",
+        "reason-mcq-04"
       ],
       "explanation": "本句的「reason why」指「用來解釋某件事情為甚麼會發生的原因」。",
       "sentenceIndex": 1,
@@ -678,12 +660,10 @@ export default {
         "reason why"
       ],
       "optionReasons": {
-        "reason-mcq-02": "本句指「用來解釋某件事情為甚麼會發生的原因」。",
-        "reason-mcq-01": "「用來解釋某件事為甚麼發生或某種結果為甚麼出現的原因」是「reason for an event/result」的用法，與本句語境不同。",
-        "reason-mcq-03": "「足以支持或合理化某項行動／判斷的依據」是「reason to do something」的用法，與本句語境不同。",
-        "reason-mcq-04": "「促使某人作出某項選擇或行動的考慮／動機」是「reason — motive」的用法，與本句語境不同。",
-        "reason-mcq-05": "「用來證明某項行為、決定或看法合理的依據」是「reason — justification」的用法，與本句語境不同。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。"
+        "reason-mcq-02": "本句的「reason why」指「用來解釋某件事情為甚麼會發生的原因」。",
+        "reason-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-02"
     },
@@ -695,11 +675,9 @@ export default {
       "masked": "There is no ____ panic.",
       "options": [
         "reason-mcq-03",
-        "reason-mcq-02",
-        "reason-mcq-04",
         "reason-mcq-01",
-        "reason-mcq-05",
-        "reason-mcq-06"
+        "reason-mcq-13",
+        "reason-mcq-11"
       ],
       "explanation": "本句的「reason to」指「足以支持或合理化某項行動／判斷的依據」。",
       "sentenceIndex": 0,
@@ -708,12 +686,10 @@ export default {
         "reason to"
       ],
       "optionReasons": {
-        "reason-mcq-03": "本句指「足以支持或合理化某項行動／判斷的依據」。",
-        "reason-mcq-02": "「用來解釋某件事情為甚麼會發生的原因」是「reason why…」的用法，與本句語境不同。",
-        "reason-mcq-04": "「促使某人作出某項選擇或行動的考慮／動機」是「reason — motive」的用法，與本句語境不同。",
-        "reason-mcq-01": "「用來解釋某件事為甚麼發生或某種結果為甚麼出現的原因」是「reason for an event/result」的用法，與本句語境不同。",
-        "reason-mcq-05": "「用來證明某項行為、決定或看法合理的依據」是「reason — justification」的用法，與本句語境不同。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。"
+        "reason-mcq-03": "本句的「reason to」指「足以支持或合理化某項行動／判斷的依據」。",
+        "reason-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-03"
     },
@@ -725,11 +701,9 @@ export default {
       "masked": "We have good ____ believe the data is accurate.",
       "options": [
         "reason-mcq-03",
-        "reason-mcq-02",
-        "reason-mcq-04",
-        "reason-mcq-01",
-        "reason-mcq-05",
-        "reason-mcq-06"
+        "reason-mcq-16",
+        "reason-mcq-11",
+        "reason-mcq-13"
       ],
       "explanation": "本句的「reason to」指「足以支持或合理化某項行動／判斷的依據」。",
       "sentenceIndex": 1,
@@ -738,12 +712,10 @@ export default {
         "reason to"
       ],
       "optionReasons": {
-        "reason-mcq-03": "本句指「足以支持或合理化某項行動／判斷的依據」。",
-        "reason-mcq-02": "「用來解釋某件事情為甚麼會發生的原因」是「reason why…」的用法，與本句語境不同。",
-        "reason-mcq-04": "「促使某人作出某項選擇或行動的考慮／動機」是「reason — motive」的用法，與本句語境不同。",
-        "reason-mcq-01": "「用來解釋某件事為甚麼發生或某種結果為甚麼出現的原因」是「reason for an event/result」的用法，與本句語境不同。",
-        "reason-mcq-05": "「用來證明某項行為、決定或看法合理的依據」是「reason — justification」的用法，與本句語境不同。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。"
+        "reason-mcq-03": "本句的「reason to」指「足以支持或合理化某項行動／判斷的依據」。",
+        "reason-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-03"
     },
@@ -755,11 +727,9 @@ export default {
       "masked": "What was your ____ for leaving the job?",
       "options": [
         "reason-mcq-04",
-        "reason-mcq-03",
-        "reason-mcq-05",
+        "reason-mcq-10",
         "reason-mcq-02",
-        "reason-mcq-06",
-        "reason-mcq-01"
+        "reason-mcq-20"
       ],
       "explanation": "本句的「reason」指「促使某人作出某項選擇或行動的考慮／動機」。",
       "sentenceIndex": 0,
@@ -768,12 +738,10 @@ export default {
         "reason"
       ],
       "optionReasons": {
-        "reason-mcq-04": "本句指「促使某人作出某項選擇或行動的考慮／動機」。",
-        "reason-mcq-03": "「足以支持或合理化某項行動／判斷的依據」是「reason to do something」的用法，與本句語境不同。",
-        "reason-mcq-05": "「用來證明某項行為、決定或看法合理的依據」是「reason — justification」的用法，與本句語境不同。",
-        "reason-mcq-02": "「用來解釋某件事情為甚麼會發生的原因」是「reason why…」的用法，與本句語境不同。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。",
-        "reason-mcq-01": "「用來解釋某件事為甚麼發生或某種結果為甚麼出現的原因」是「reason for an event/result」的用法，與本句語境不同。"
+        "reason-mcq-04": "本句的「reason」指「促使某人作出某項選擇或行動的考慮／動機」。",
+        "reason-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-04"
     },
@@ -785,11 +753,9 @@ export default {
       "masked": "She had a personal ____ for refusing the offer.",
       "options": [
         "reason-mcq-04",
-        "reason-mcq-03",
-        "reason-mcq-05",
-        "reason-mcq-02",
-        "reason-mcq-06",
-        "reason-mcq-01"
+        "reason-mcq-10",
+        "reason-mcq-16",
+        "reason-mcq-20"
       ],
       "explanation": "本句的「reason」指「促使某人作出某項選擇或行動的考慮／動機」。",
       "sentenceIndex": 1,
@@ -798,12 +764,10 @@ export default {
         "reason"
       ],
       "optionReasons": {
-        "reason-mcq-04": "本句指「促使某人作出某項選擇或行動的考慮／動機」。",
-        "reason-mcq-03": "「足以支持或合理化某項行動／判斷的依據」是「reason to do something」的用法，與本句語境不同。",
-        "reason-mcq-05": "「用來證明某項行為、決定或看法合理的依據」是「reason — justification」的用法，與本句語境不同。",
-        "reason-mcq-02": "「用來解釋某件事情為甚麼會發生的原因」是「reason why…」的用法，與本句語境不同。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。",
-        "reason-mcq-01": "「用來解釋某件事為甚麼發生或某種結果為甚麼出現的原因」是「reason for an event/result」的用法，與本句語境不同。"
+        "reason-mcq-04": "本句的「reason」指「促使某人作出某項選擇或行動的考慮／動機」。",
+        "reason-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-04"
     },
@@ -815,11 +779,9 @@ export default {
       "masked": "You need a good ____ for cancelling the meeting.",
       "options": [
         "reason-mcq-05",
-        "reason-mcq-04",
-        "reason-mcq-06",
-        "reason-mcq-03",
-        "reason-mcq-07",
-        "reason-mcq-02"
+        "reason-mcq-13",
+        "reason-mcq-11",
+        "reason-mcq-17"
       ],
       "explanation": "本句的「reason」指「用來證明某項行為、決定或看法合理的依據」。",
       "sentenceIndex": 0,
@@ -828,12 +790,10 @@ export default {
         "reason"
       ],
       "optionReasons": {
-        "reason-mcq-05": "本句指「用來證明某項行為、決定或看法合理的依據」。",
-        "reason-mcq-04": "「促使某人作出某項選擇或行動的考慮／動機」是「reason — motive」的用法，與本句語境不同。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。",
-        "reason-mcq-03": "「足以支持或合理化某項行動／判斷的依據」是「reason to do something」的用法，與本句語境不同。",
-        "reason-mcq-07": "「根據事實或證據進行邏輯思考並得出結論」是「reason — verb」的用法，與本句語境不同。",
-        "reason-mcq-02": "「用來解釋某件事情為甚麼會發生的原因」是「reason why…」的用法，與本句語境不同。"
+        "reason-mcq-05": "本句的「reason」指「用來證明某項行為、決定或看法合理的依據」。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-05"
     },
@@ -845,11 +805,9 @@ export default {
       "masked": "There is no ____ for treating customers that way.",
       "options": [
         "reason-mcq-05",
-        "reason-mcq-04",
-        "reason-mcq-06",
-        "reason-mcq-03",
-        "reason-mcq-07",
-        "reason-mcq-02"
+        "reason-mcq-13",
+        "reason-mcq-11",
+        "reason-mcq-17"
       ],
       "explanation": "本句的「reason」指「用來證明某項行為、決定或看法合理的依據」。",
       "sentenceIndex": 1,
@@ -858,12 +816,10 @@ export default {
         "reason"
       ],
       "optionReasons": {
-        "reason-mcq-05": "本句指「用來證明某項行為、決定或看法合理的依據」。",
-        "reason-mcq-04": "「促使某人作出某項選擇或行動的考慮／動機」是「reason — motive」的用法，與本句語境不同。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。",
-        "reason-mcq-03": "「足以支持或合理化某項行動／判斷的依據」是「reason to do something」的用法，與本句語境不同。",
-        "reason-mcq-07": "「根據事實或證據進行邏輯思考並得出結論」是「reason — verb」的用法，與本句語境不同。",
-        "reason-mcq-02": "「用來解釋某件事情為甚麼會發生的原因」是「reason why…」的用法，與本句語境不同。"
+        "reason-mcq-05": "本句的「reason」指「用來證明某項行為、決定或看法合理的依據」。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-05"
     },
@@ -875,11 +831,9 @@ export default {
       "masked": "People should use ____ rather than emotion when evaluating the evidence.",
       "options": [
         "reason-mcq-06",
-        "reason-mcq-05",
-        "reason-mcq-07",
-        "reason-mcq-04",
-        "reason-mcq-08",
-        "reason-mcq-03"
+        "reason-mcq-17",
+        "reason-mcq-15",
+        "reason-mcq-04"
       ],
       "explanation": "本句的「reason」指「根據邏輯和證據思考、判斷並得出結論的能力」。",
       "sentenceIndex": 0,
@@ -888,12 +842,10 @@ export default {
         "reason"
       ],
       "optionReasons": {
-        "reason-mcq-06": "本句指「根據邏輯和證據思考、判斷並得出結論的能力」。",
-        "reason-mcq-05": "「用來證明某項行為、決定或看法合理的依據」是「reason — justification」的用法，與本句語境不同。",
-        "reason-mcq-07": "「根據事實或證據進行邏輯思考並得出結論」是「reason — verb」的用法，與本句語境不同。",
-        "reason-mcq-04": "「促使某人作出某項選擇或行動的考慮／動機」是「reason — motive」的用法，與本句語境不同。",
-        "reason-mcq-08": "「透過理性解釋和論點來勸說某人」是「reason with someone」的用法，與本句語境不同。",
-        "reason-mcq-03": "「足以支持或合理化某項行動／判斷的依據」是「reason to do something」的用法，與本句語境不同。"
+        "reason-mcq-06": "本句的「reason」指「根據邏輯和證據思考、判斷並得出結論的能力」。",
+        "reason-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-06"
     },
@@ -905,11 +857,9 @@ export default {
       "masked": "Fear can sometimes overcome ____.",
       "options": [
         "reason-mcq-06",
-        "reason-mcq-05",
-        "reason-mcq-07",
-        "reason-mcq-04",
-        "reason-mcq-08",
-        "reason-mcq-03"
+        "reason-mcq-17",
+        "reason-mcq-14",
+        "reason-mcq-11"
       ],
       "explanation": "本句的「reason」指「根據邏輯和證據思考、判斷並得出結論的能力」。",
       "sentenceIndex": 1,
@@ -918,12 +868,10 @@ export default {
         "reason"
       ],
       "optionReasons": {
-        "reason-mcq-06": "本句指「根據邏輯和證據思考、判斷並得出結論的能力」。",
-        "reason-mcq-05": "「用來證明某項行為、決定或看法合理的依據」是「reason — justification」的用法，與本句語境不同。",
-        "reason-mcq-07": "「根據事實或證據進行邏輯思考並得出結論」是「reason — verb」的用法，與本句語境不同。",
-        "reason-mcq-04": "「促使某人作出某項選擇或行動的考慮／動機」是「reason — motive」的用法，與本句語境不同。",
-        "reason-mcq-08": "「透過理性解釋和論點來勸說某人」是「reason with someone」的用法，與本句語境不同。",
-        "reason-mcq-03": "「足以支持或合理化某項行動／判斷的依據」是「reason to do something」的用法，與本句語境不同。"
+        "reason-mcq-06": "本句的「reason」指「根據邏輯和證據思考、判斷並得出結論的能力」。",
+        "reason-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-06"
     },
@@ -935,11 +883,9 @@ export default {
       "masked": "We can ____ from the evidence that the fault began earlier.",
       "options": [
         "reason-mcq-07",
-        "reason-mcq-06",
-        "reason-mcq-08",
-        "reason-mcq-05",
-        "reason-mcq-09",
-        "reason-mcq-04"
+        "reason-mcq-17",
+        "reason-mcq-19",
+        "reason-mcq-12"
       ],
       "explanation": "本句的「reason」指「根據事實或證據進行邏輯思考並得出結論」。",
       "sentenceIndex": 0,
@@ -948,12 +894,10 @@ export default {
         "reason"
       ],
       "optionReasons": {
-        "reason-mcq-07": "本句指「根據事實或證據進行邏輯思考並得出結論」。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。",
-        "reason-mcq-08": "「透過理性解釋和論點來勸說某人」是「reason with someone」的用法，與本句語境不同。",
-        "reason-mcq-05": "「用來證明某項行為、決定或看法合理的依據」是「reason — justification」的用法，與本句語境不同。",
-        "reason-mcq-09": "「從資料或證據一步步得出結論的推理過程／能力」是「reasoning」的用法，與本句語境不同。",
-        "reason-mcq-04": "「促使某人作出某項選擇或行動的考慮／動機」是「reason — motive」的用法，與本句語境不同。"
+        "reason-mcq-07": "本句的「reason」指「根據事實或證據進行邏輯思考並得出結論」。",
+        "reason-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-07"
     },
@@ -965,11 +909,9 @@ export default {
       "masked": "She ____ that the café would be less busy in the afternoon.",
       "options": [
         "reason-mcq-07",
-        "reason-mcq-06",
-        "reason-mcq-08",
-        "reason-mcq-05",
-        "reason-mcq-09",
-        "reason-mcq-04"
+        "reason-mcq-02",
+        "reason-mcq-19",
+        "reason-mcq-12"
       ],
       "explanation": "本句的「reasoned」指「根據事實或證據進行邏輯思考並得出結論」。",
       "sentenceIndex": 1,
@@ -978,12 +920,10 @@ export default {
         "reasoned"
       ],
       "optionReasons": {
-        "reason-mcq-07": "本句指「根據事實或證據進行邏輯思考並得出結論」。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。",
-        "reason-mcq-08": "「透過理性解釋和論點來勸說某人」是「reason with someone」的用法，與本句語境不同。",
-        "reason-mcq-05": "「用來證明某項行為、決定或看法合理的依據」是「reason — justification」的用法，與本句語境不同。",
-        "reason-mcq-09": "「從資料或證據一步步得出結論的推理過程／能力」是「reasoning」的用法，與本句語境不同。",
-        "reason-mcq-04": "「促使某人作出某項選擇或行動的考慮／動機」是「reason — motive」的用法，與本句語境不同。"
+        "reason-mcq-07": "本句的「reasoned」指「根據事實或證據進行邏輯思考並得出結論」。",
+        "reason-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-07"
     },
@@ -995,11 +935,9 @@ export default {
       "masked": "He ____ lower prices would attract more customers.",
       "options": [
         "reason-mcq-22",
-        "reason-mcq-21",
-        "reason-mcq-20",
         "reason-mcq-19",
-        "reason-mcq-18",
-        "reason-mcq-17"
+        "reason-mcq-08",
+        "reason-mcq-13"
       ],
       "explanation": "本句的「reasoned that」指「根據邏輯和已知資料得出某個判斷」。",
       "sentenceIndex": 0,
@@ -1008,12 +946,10 @@ export default {
         "reasoned that"
       ],
       "optionReasons": {
-        "reason-mcq-22": "本句指「根據邏輯和已知資料得出某個判斷」。",
-        "reason-mcq-21": "「完全看不出規律、邏輯或合理解釋」是「no rhyme or reason」的用法，與本句語境不同。",
-        "reason-mcq-20": "「根據一般邏輯或常識，事情自然應該如此」是「stand to reason」的用法，與本句語境不同。",
-        "reason-mcq-19": "「在公平、合理、不過分的界限之內」是「within reason」的用法，與本句語境不同。",
-        "reason-mcq-18": "「某種反應或判斷有充分而合理的根據」是「with good reason」的用法，與本句語境不同。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。"
+        "reason-mcq-22": "本句的「reasoned that」指「根據邏輯和已知資料得出某個判斷」。",
+        "reason-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-22"
     },
@@ -1025,11 +961,9 @@ export default {
       "masked": "They ____ the problem must be caused by the software.",
       "options": [
         "reason-mcq-22",
-        "reason-mcq-21",
-        "reason-mcq-20",
-        "reason-mcq-19",
-        "reason-mcq-18",
-        "reason-mcq-17"
+        "reason-mcq-17",
+        "reason-mcq-11",
+        "reason-mcq-13"
       ],
       "explanation": "本句的「reasoned that」指「根據邏輯和已知資料得出某個判斷」。",
       "sentenceIndex": 1,
@@ -1038,12 +972,10 @@ export default {
         "reasoned that"
       ],
       "optionReasons": {
-        "reason-mcq-22": "本句指「根據邏輯和已知資料得出某個判斷」。",
-        "reason-mcq-21": "「完全看不出規律、邏輯或合理解釋」是「no rhyme or reason」的用法，與本句語境不同。",
-        "reason-mcq-20": "「根據一般邏輯或常識，事情自然應該如此」是「stand to reason」的用法，與本句語境不同。",
-        "reason-mcq-19": "「在公平、合理、不過分的界限之內」是「within reason」的用法，與本句語境不同。",
-        "reason-mcq-18": "「某種反應或判斷有充分而合理的根據」是「with good reason」的用法，與本句語境不同。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。"
+        "reason-mcq-22": "本句的「reasoned that」指「根據邏輯和已知資料得出某個判斷」。",
+        "reason-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-22"
     },
@@ -1055,11 +987,9 @@ export default {
       "masked": "I tried to ____ him, but he was too angry to listen.",
       "options": [
         "reason-mcq-08",
-        "reason-mcq-07",
-        "reason-mcq-09",
-        "reason-mcq-06",
-        "reason-mcq-10",
-        "reason-mcq-05"
+        "reason-mcq-12",
+        "reason-mcq-20",
+        "reason-mcq-03"
       ],
       "explanation": "本句的「reason with」指「透過理性解釋和論點來勸說某人」。",
       "sentenceIndex": 0,
@@ -1068,12 +998,10 @@ export default {
         "reason with"
       ],
       "optionReasons": {
-        "reason-mcq-08": "本句指「透過理性解釋和論點來勸說某人」。",
-        "reason-mcq-07": "「根據事實或證據進行邏輯思考並得出結論」是「reason — verb」的用法，與本句語境不同。",
-        "reason-mcq-09": "「從資料或證據一步步得出結論的推理過程／能力」是「reasoning」的用法，與本句語境不同。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。",
-        "reason-mcq-10": "「符合常理、公平並有充分理據，不過分的」是「reasonable — fair/sensible」的用法，與本句語境不同。",
-        "reason-mcq-05": "「用來證明某項行為、決定或看法合理的依據」是「reason — justification」的用法，與本句語境不同。"
+        "reason-mcq-08": "本句的「reason with」指「透過理性解釋和論點來勸說某人」。",
+        "reason-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-08"
     },
@@ -1085,11 +1013,9 @@ export default {
       "masked": "She calmly ____ the customer.",
       "options": [
         "reason-mcq-08",
-        "reason-mcq-07",
-        "reason-mcq-09",
-        "reason-mcq-06",
-        "reason-mcq-10",
-        "reason-mcq-05"
+        "reason-mcq-22",
+        "reason-mcq-13",
+        "reason-mcq-11"
       ],
       "explanation": "本句的「reasoned with」指「透過理性解釋和論點來勸說某人」。",
       "sentenceIndex": 1,
@@ -1098,12 +1024,10 @@ export default {
         "reasoned with"
       ],
       "optionReasons": {
-        "reason-mcq-08": "本句指「透過理性解釋和論點來勸說某人」。",
-        "reason-mcq-07": "「根據事實或證據進行邏輯思考並得出結論」是「reason — verb」的用法，與本句語境不同。",
-        "reason-mcq-09": "「從資料或證據一步步得出結論的推理過程／能力」是「reasoning」的用法，與本句語境不同。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。",
-        "reason-mcq-10": "「符合常理、公平並有充分理據，不過分的」是「reasonable — fair/sensible」的用法，與本句語境不同。",
-        "reason-mcq-05": "「用來證明某項行為、決定或看法合理的依據」是「reason — justification」的用法，與本句語境不同。"
+        "reason-mcq-08": "本句的「reasoned with」指「透過理性解釋和論點來勸說某人」。",
+        "reason-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-08"
     },
@@ -1115,11 +1039,9 @@ export default {
       "masked": "I understand your ____, but I disagree with the conclusion.",
       "options": [
         "reason-mcq-09",
-        "reason-mcq-08",
-        "reason-mcq-10",
-        "reason-mcq-07",
-        "reason-mcq-11",
-        "reason-mcq-06"
+        "reason-mcq-17",
+        "reason-mcq-14",
+        "reason-mcq-13"
       ],
       "explanation": "本句的「reasoning」指「從資料或證據一步步得出結論的推理過程／能力」。",
       "sentenceIndex": 0,
@@ -1128,12 +1050,10 @@ export default {
         "reasoning"
       ],
       "optionReasons": {
-        "reason-mcq-09": "本句指「從資料或證據一步步得出結論的推理過程／能力」。",
-        "reason-mcq-08": "「透過理性解釋和論點來勸說某人」是「reason with someone」的用法，與本句語境不同。",
-        "reason-mcq-10": "「符合常理、公平並有充分理據，不過分的」是「reasonable — fair/sensible」的用法，與本句語境不同。",
-        "reason-mcq-07": "「根據事實或證據進行邏輯思考並得出結論」是「reason — verb」的用法，與本句語境不同。",
-        "reason-mcq-11": "「與一般水平相比不過高、可以接受的」是「reasonable — price/cost」的用法，與本句語境不同。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。"
+        "reason-mcq-09": "本句的「reasoning」指「從資料或證據一步步得出結論的推理過程／能力」。",
+        "reason-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-09"
     },
@@ -1145,11 +1065,9 @@ export default {
       "masked": "Her ____ was clear and well supported by evidence.",
       "options": [
         "reason-mcq-09",
-        "reason-mcq-08",
-        "reason-mcq-10",
-        "reason-mcq-07",
+        "reason-mcq-17",
         "reason-mcq-11",
-        "reason-mcq-06"
+        "reason-mcq-14"
       ],
       "explanation": "本句的「reasoning」指「從資料或證據一步步得出結論的推理過程／能力」。",
       "sentenceIndex": 1,
@@ -1158,12 +1076,10 @@ export default {
         "reasoning"
       ],
       "optionReasons": {
-        "reason-mcq-09": "本句指「從資料或證據一步步得出結論的推理過程／能力」。",
-        "reason-mcq-08": "「透過理性解釋和論點來勸說某人」是「reason with someone」的用法，與本句語境不同。",
-        "reason-mcq-10": "「符合常理、公平並有充分理據，不過分的」是「reasonable — fair/sensible」的用法，與本句語境不同。",
-        "reason-mcq-07": "「根據事實或證據進行邏輯思考並得出結論」是「reason — verb」的用法，與本句語境不同。",
-        "reason-mcq-11": "「與一般水平相比不過高、可以接受的」是「reasonable — price/cost」的用法，與本句語境不同。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。"
+        "reason-mcq-09": "本句的「reasoning」指「從資料或證據一步步得出結論的推理過程／能力」。",
+        "reason-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-09"
     },
@@ -1175,11 +1091,9 @@ export default {
       "masked": "The test measures verbal and numerical ____.",
       "options": [
         "reason-pdf-001",
-        "reason-mcq-08",
-        "reason-mcq-10",
-        "reason-mcq-07",
+        "reason-mcq-17",
         "reason-mcq-11",
-        "reason-mcq-06"
+        "reason-mcq-13"
       ],
       "explanation": "本句的「reasoning」指「分析資料、建立邏輯關係並作出合理判斷的能力」。",
       "sentenceIndex": 0,
@@ -1188,12 +1102,10 @@ export default {
         "reasoning"
       ],
       "optionReasons": {
-        "reason-pdf-001": "本句指「分析資料、建立邏輯關係並作出合理判斷的能力」。",
-        "reason-mcq-08": "「透過理性解釋和論點來勸說某人」是「reason with someone」的用法，與本句語境不同。",
-        "reason-mcq-10": "「符合常理、公平並有充分理據，不過分的」是「reasonable — fair/sensible」的用法，與本句語境不同。",
-        "reason-mcq-07": "「根據事實或證據進行邏輯思考並得出結論」是「reason — verb」的用法，與本句語境不同。",
-        "reason-mcq-11": "「與一般水平相比不過高、可以接受的」是「reasonable — price/cost」的用法，與本句語境不同。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。"
+        "reason-pdf-001": "本句的「reasoning」指「分析資料、建立邏輯關係並作出合理判斷的能力」。",
+        "reason-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-pdf-001"
     },
@@ -1205,11 +1117,9 @@ export default {
       "masked": "Logical ____ is important in problem-solving.",
       "options": [
         "reason-pdf-001",
-        "reason-mcq-08",
-        "reason-mcq-10",
-        "reason-mcq-07",
         "reason-mcq-11",
-        "reason-mcq-06"
+        "reason-mcq-17",
+        "reason-mcq-13"
       ],
       "explanation": "本句的「reasoning」指「分析資料、建立邏輯關係並作出合理判斷的能力」。",
       "sentenceIndex": 1,
@@ -1218,12 +1128,10 @@ export default {
         "reasoning"
       ],
       "optionReasons": {
-        "reason-pdf-001": "本句指「分析資料、建立邏輯關係並作出合理判斷的能力」。",
-        "reason-mcq-08": "「透過理性解釋和論點來勸說某人」是「reason with someone」的用法，與本句語境不同。",
-        "reason-mcq-10": "「符合常理、公平並有充分理據，不過分的」是「reasonable — fair/sensible」的用法，與本句語境不同。",
-        "reason-mcq-07": "「根據事實或證據進行邏輯思考並得出結論」是「reason — verb」的用法，與本句語境不同。",
-        "reason-mcq-11": "「與一般水平相比不過高、可以接受的」是「reasonable — price/cost」的用法，與本句語境不同。",
-        "reason-mcq-06": "「根據邏輯和證據思考、判斷並得出結論的能力」是「reason — rational faculty」的用法，與本句語境不同。"
+        "reason-pdf-001": "本句的「reasoning」指「分析資料、建立邏輯關係並作出合理判斷的能力」。",
+        "reason-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-pdf-001"
     },
@@ -1235,11 +1143,9 @@ export default {
       "masked": "That seems like a ____ decision.",
       "options": [
         "reason-mcq-10",
-        "reason-mcq-09",
-        "reason-mcq-11",
-        "reason-mcq-08",
-        "reason-mcq-12",
-        "reason-mcq-07"
+        "reason-mcq-02",
+        "reason-mcq-04",
+        "reason-mcq-13"
       ],
       "explanation": "本句的「reasonable」指「符合常理、公平並有充分理據，不過分的」。",
       "sentenceIndex": 0,
@@ -1248,12 +1154,10 @@ export default {
         "reasonable"
       ],
       "optionReasons": {
-        "reason-mcq-10": "本句指「符合常理、公平並有充分理據，不過分的」。",
-        "reason-mcq-09": "「從資料或證據一步步得出結論的推理過程／能力」是「reasoning」的用法，與本句語境不同。",
-        "reason-mcq-11": "「與一般水平相比不過高、可以接受的」是「reasonable — price/cost」的用法，與本句語境不同。",
-        "reason-mcq-08": "「透過理性解釋和論點來勸說某人」是「reason with someone」的用法，與本句語境不同。",
-        "reason-mcq-12": "「水準或程度相當可以接受，但不一定非常出色的」是「reasonable — quality/amount」的用法，與本句語境不同。",
-        "reason-mcq-07": "「根據事實或證據進行邏輯思考並得出結論」是「reason — verb」的用法，與本句語境不同。"
+        "reason-mcq-10": "本句的「reasonable」指「符合常理、公平並有充分理據，不過分的」。",
+        "reason-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-10"
     },
@@ -1265,11 +1169,9 @@ export default {
       "masked": "The customer made a ____ request.",
       "options": [
         "reason-mcq-10",
-        "reason-mcq-09",
-        "reason-mcq-11",
-        "reason-mcq-08",
-        "reason-mcq-12",
-        "reason-mcq-07"
+        "reason-mcq-02",
+        "reason-mcq-04",
+        "reason-mcq-13"
       ],
       "explanation": "本句的「reasonable」指「符合常理、公平並有充分理據，不過分的」。",
       "sentenceIndex": 1,
@@ -1278,12 +1180,10 @@ export default {
         "reasonable"
       ],
       "optionReasons": {
-        "reason-mcq-10": "本句指「符合常理、公平並有充分理據，不過分的」。",
-        "reason-mcq-09": "「從資料或證據一步步得出結論的推理過程／能力」是「reasoning」的用法，與本句語境不同。",
-        "reason-mcq-11": "「與一般水平相比不過高、可以接受的」是「reasonable — price/cost」的用法，與本句語境不同。",
-        "reason-mcq-08": "「透過理性解釋和論點來勸說某人」是「reason with someone」的用法，與本句語境不同。",
-        "reason-mcq-12": "「水準或程度相當可以接受，但不一定非常出色的」是「reasonable — quality/amount」的用法，與本句語境不同。",
-        "reason-mcq-07": "「根據事實或證據進行邏輯思考並得出結論」是「reason — verb」的用法，與本句語境不同。"
+        "reason-mcq-10": "本句的「reasonable」指「符合常理、公平並有充分理據，不過分的」。",
+        "reason-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-10"
     },
@@ -1295,11 +1195,9 @@ export default {
       "masked": "The headphones are available at a ____ price.",
       "options": [
         "reason-mcq-11",
-        "reason-mcq-10",
-        "reason-mcq-12",
-        "reason-mcq-09",
-        "reason-mcq-13",
-        "reason-mcq-08"
+        "reason-mcq-17",
+        "reason-mcq-03",
+        "reason-mcq-13"
       ],
       "explanation": "本句的「reasonable」指「與一般水平相比不過高、可以接受的」。",
       "sentenceIndex": 0,
@@ -1308,12 +1206,10 @@ export default {
         "reasonable"
       ],
       "optionReasons": {
-        "reason-mcq-11": "本句指「與一般水平相比不過高、可以接受的」。",
-        "reason-mcq-10": "「符合常理、公平並有充分理據，不過分的」是「reasonable — fair/sensible」的用法，與本句語境不同。",
-        "reason-mcq-12": "「水準或程度相當可以接受，但不一定非常出色的」是「reasonable — quality/amount」的用法，與本句語境不同。",
-        "reason-mcq-09": "「從資料或證據一步步得出結論的推理過程／能力」是「reasoning」的用法，與本句語境不同。",
-        "reason-mcq-13": "「程度達到相當／頗為，但並非極端」是「reasonably — degree」的用法，與本句語境不同。",
-        "reason-mcq-08": "「透過理性解釋和論點來勸說某人」是「reason with someone」的用法，與本句語境不同。"
+        "reason-mcq-11": "本句的「reasonable」指「與一般水平相比不過高、可以接受的」。",
+        "reason-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-11"
     },
@@ -1325,11 +1221,9 @@ export default {
       "masked": "We found a hotel at a ____ cost.",
       "options": [
         "reason-mcq-11",
-        "reason-mcq-10",
-        "reason-mcq-12",
-        "reason-mcq-09",
-        "reason-mcq-13",
-        "reason-mcq-08"
+        "reason-mcq-02",
+        "reason-mcq-04",
+        "reason-mcq-13"
       ],
       "explanation": "本句的「reasonable」指「與一般水平相比不過高、可以接受的」。",
       "sentenceIndex": 1,
@@ -1338,12 +1232,10 @@ export default {
         "reasonable"
       ],
       "optionReasons": {
-        "reason-mcq-11": "本句指「與一般水平相比不過高、可以接受的」。",
-        "reason-mcq-10": "「符合常理、公平並有充分理據，不過分的」是「reasonable — fair/sensible」的用法，與本句語境不同。",
-        "reason-mcq-12": "「水準或程度相當可以接受，但不一定非常出色的」是「reasonable — quality/amount」的用法，與本句語境不同。",
-        "reason-mcq-09": "「從資料或證據一步步得出結論的推理過程／能力」是「reasoning」的用法，與本句語境不同。",
-        "reason-mcq-13": "「程度達到相當／頗為，但並非極端」是「reasonably — degree」的用法，與本句語境不同。",
-        "reason-mcq-08": "「透過理性解釋和論點來勸說某人」是「reason with someone」的用法，與本句語境不同。"
+        "reason-mcq-11": "本句的「reasonable」指「與一般水平相比不過高、可以接受的」。",
+        "reason-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-11"
     },
@@ -1355,11 +1247,9 @@ export default {
       "masked": "The hotel offers a ____ level of comfort.",
       "options": [
         "reason-mcq-12",
-        "reason-mcq-11",
-        "reason-mcq-13",
-        "reason-mcq-10",
-        "reason-mcq-14",
-        "reason-mcq-09"
+        "reason-mcq-03",
+        "reason-mcq-08",
+        "reason-mcq-20"
       ],
       "explanation": "本句的「reasonable」指「水準或程度相當可以接受，但不一定非常出色的」。",
       "sentenceIndex": 0,
@@ -1368,12 +1258,10 @@ export default {
         "reasonable"
       ],
       "optionReasons": {
-        "reason-mcq-12": "本句指「水準或程度相當可以接受，但不一定非常出色的」。",
-        "reason-mcq-11": "「與一般水平相比不過高、可以接受的」是「reasonable — price/cost」的用法，與本句語境不同。",
-        "reason-mcq-13": "「程度達到相當／頗為，但並非極端」是「reasonably — degree」的用法，與本句語境不同。",
-        "reason-mcq-10": "「符合常理、公平並有充分理據，不過分的」是「reasonable — fair/sensible」的用法，與本句語境不同。",
-        "reason-mcq-14": "「按公平、理性或符合常理的方式」是「reasonably — sensibly」的用法，與本句語境不同。",
-        "reason-mcq-09": "「從資料或證據一步步得出結論的推理過程／能力」是「reasoning」的用法，與本句語境不同。"
+        "reason-mcq-12": "本句的「reasonable」指「水準或程度相當可以接受，但不一定非常出色的」。",
+        "reason-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-12"
     },
@@ -1385,11 +1273,9 @@ export default {
       "masked": "He has a ____ knowledge of French.",
       "options": [
         "reason-mcq-12",
-        "reason-mcq-11",
-        "reason-mcq-13",
-        "reason-mcq-10",
-        "reason-mcq-14",
-        "reason-mcq-09"
+        "reason-mcq-19",
+        "reason-mcq-17",
+        "reason-mcq-06"
       ],
       "explanation": "本句的「reasonable」指「水準或程度相當可以接受，但不一定非常出色的」。",
       "sentenceIndex": 1,
@@ -1398,12 +1284,10 @@ export default {
         "reasonable"
       ],
       "optionReasons": {
-        "reason-mcq-12": "本句指「水準或程度相當可以接受，但不一定非常出色的」。",
-        "reason-mcq-11": "「與一般水平相比不過高、可以接受的」是「reasonable — price/cost」的用法，與本句語境不同。",
-        "reason-mcq-13": "「程度達到相當／頗為，但並非極端」是「reasonably — degree」的用法，與本句語境不同。",
-        "reason-mcq-10": "「符合常理、公平並有充分理據，不過分的」是「reasonable — fair/sensible」的用法，與本句語境不同。",
-        "reason-mcq-14": "「按公平、理性或符合常理的方式」是「reasonably — sensibly」的用法，與本句語境不同。",
-        "reason-mcq-09": "「從資料或證據一步步得出結論的推理過程／能力」是「reasoning」的用法，與本句語境不同。"
+        "reason-mcq-12": "本句的「reasonable」指「水準或程度相當可以接受，但不一定非常出色的」。",
+        "reason-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-12"
     },
@@ -1415,11 +1299,9 @@ export default {
       "masked": "The café was ____ quiet.",
       "options": [
         "reason-mcq-13",
-        "reason-mcq-12",
+        "reason-mcq-01",
         "reason-mcq-14",
-        "reason-mcq-11",
-        "reason-mcq-15",
-        "reason-mcq-10"
+        "reason-mcq-22"
       ],
       "explanation": "本句的「reasonably」指「程度達到相當／頗為，但並非極端」。",
       "sentenceIndex": 0,
@@ -1428,12 +1310,10 @@ export default {
         "reasonably"
       ],
       "optionReasons": {
-        "reason-mcq-13": "本句指「程度達到相當／頗為，但並非極端」。",
-        "reason-mcq-12": "「水準或程度相當可以接受，但不一定非常出色的」是「reasonable — quality/amount」的用法，與本句語境不同。",
-        "reason-mcq-14": "「按公平、理性或符合常理的方式」是「reasonably — sensibly」的用法，與本句語境不同。",
-        "reason-mcq-11": "「與一般水平相比不過高、可以接受的」是「reasonable — price/cost」的用法，與本句語境不同。",
-        "reason-mcq-15": "「不符合常理、公平或可接受程度，過分或難以接受的」是「unreasonable」的用法，與本句語境不同。",
-        "reason-mcq-10": "「符合常理、公平並有充分理據，不過分的」是「reasonable — fair/sensible」的用法，與本句語境不同。"
+        "reason-mcq-13": "本句的「reasonably」指「程度達到相當／頗為，但並非極端」。",
+        "reason-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-13"
     },
@@ -1445,11 +1325,9 @@ export default {
       "masked": "The product is ____ priced.",
       "options": [
         "reason-mcq-13",
-        "reason-mcq-12",
+        "reason-mcq-02",
         "reason-mcq-14",
-        "reason-mcq-11",
-        "reason-mcq-15",
-        "reason-mcq-10"
+        "reason-mcq-04"
       ],
       "explanation": "本句的「reasonably」指「程度達到相當／頗為，但並非極端」。",
       "sentenceIndex": 1,
@@ -1458,12 +1336,10 @@ export default {
         "reasonably"
       ],
       "optionReasons": {
-        "reason-mcq-13": "本句指「程度達到相當／頗為，但並非極端」。",
-        "reason-mcq-12": "「水準或程度相當可以接受，但不一定非常出色的」是「reasonable — quality/amount」的用法，與本句語境不同。",
-        "reason-mcq-14": "「按公平、理性或符合常理的方式」是「reasonably — sensibly」的用法，與本句語境不同。",
-        "reason-mcq-11": "「與一般水平相比不過高、可以接受的」是「reasonable — price/cost」的用法，與本句語境不同。",
-        "reason-mcq-15": "「不符合常理、公平或可接受程度，過分或難以接受的」是「unreasonable」的用法，與本句語境不同。",
-        "reason-mcq-10": "「符合常理、公平並有充分理據，不過分的」是「reasonable — fair/sensible」的用法，與本句語境不同。"
+        "reason-mcq-13": "本句的「reasonably」指「程度達到相當／頗為，但並非極端」。",
+        "reason-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-13"
     },
@@ -1475,11 +1351,9 @@ export default {
       "masked": "He responded ____ to the complaint.",
       "options": [
         "reason-mcq-14",
+        "reason-mcq-17",
         "reason-mcq-13",
-        "reason-mcq-15",
-        "reason-mcq-12",
-        "reason-mcq-16",
-        "reason-mcq-11"
+        "reason-mcq-07"
       ],
       "explanation": "本句的「reasonably」指「按公平、理性或符合常理的方式」。",
       "sentenceIndex": 0,
@@ -1488,12 +1362,10 @@ export default {
         "reasonably"
       ],
       "optionReasons": {
-        "reason-mcq-14": "本句指「按公平、理性或符合常理的方式」。",
-        "reason-mcq-13": "「程度達到相當／頗為，但並非極端」是「reasonably — degree」的用法，與本句語境不同。",
-        "reason-mcq-15": "「不符合常理、公平或可接受程度，過分或難以接受的」是「unreasonable」的用法，與本句語境不同。",
-        "reason-mcq-12": "「水準或程度相當可以接受，但不一定非常出色的」是「reasonable — quality/amount」的用法，與本句語境不同。",
-        "reason-mcq-16": "「存在某個原因，但說話者不知道或沒有說明」是「for some reason」的用法，與本句語境不同。",
-        "reason-mcq-11": "「與一般水平相比不過高、可以接受的」是「reasonable — price/cost」的用法，與本句語境不同。"
+        "reason-mcq-14": "本句的「reasonably」指「按公平、理性或符合常理的方式」。",
+        "reason-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-14"
     },
@@ -1505,11 +1377,9 @@ export default {
       "masked": "We cannot ____ expect the team to finish today.",
       "options": [
         "reason-mcq-14",
-        "reason-mcq-13",
-        "reason-mcq-15",
-        "reason-mcq-12",
         "reason-mcq-16",
-        "reason-mcq-11"
+        "reason-mcq-13",
+        "reason-mcq-04"
       ],
       "explanation": "本句的「reasonably」指「按公平、理性或符合常理的方式」。",
       "sentenceIndex": 1,
@@ -1518,12 +1388,10 @@ export default {
         "reasonably"
       ],
       "optionReasons": {
-        "reason-mcq-14": "本句指「按公平、理性或符合常理的方式」。",
-        "reason-mcq-13": "「程度達到相當／頗為，但並非極端」是「reasonably — degree」的用法，與本句語境不同。",
-        "reason-mcq-15": "「不符合常理、公平或可接受程度，過分或難以接受的」是「unreasonable」的用法，與本句語境不同。",
-        "reason-mcq-12": "「水準或程度相當可以接受，但不一定非常出色的」是「reasonable — quality/amount」的用法，與本句語境不同。",
-        "reason-mcq-16": "「存在某個原因，但說話者不知道或沒有說明」是「for some reason」的用法，與本句語境不同。",
-        "reason-mcq-11": "「與一般水平相比不過高、可以接受的」是「reasonable — price/cost」的用法，與本句語境不同。"
+        "reason-mcq-14": "本句的「reasonably」指「按公平、理性或符合常理的方式」。",
+        "reason-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-14"
     },
@@ -1535,11 +1403,9 @@ export default {
       "masked": "The customer’s demand was ____.",
       "options": [
         "reason-mcq-15",
-        "reason-mcq-14",
-        "reason-mcq-16",
-        "reason-mcq-13",
-        "reason-mcq-17",
-        "reason-mcq-12"
+        "reason-mcq-06",
+        "reason-mcq-02",
+        "reason-mcq-04"
       ],
       "explanation": "本句的「unreasonable」指「不符合常理、公平或可接受程度，過分或難以接受的」。",
       "sentenceIndex": 0,
@@ -1548,12 +1414,10 @@ export default {
         "unreasonable"
       ],
       "optionReasons": {
-        "reason-mcq-15": "本句指「不符合常理、公平或可接受程度，過分或難以接受的」。",
-        "reason-mcq-14": "「按公平、理性或符合常理的方式」是「reasonably — sensibly」的用法，與本句語境不同。",
-        "reason-mcq-16": "「存在某個原因，但說話者不知道或沒有說明」是「for some reason」的用法，與本句語境不同。",
-        "reason-mcq-13": "「程度達到相當／頗為，但並非極端」是「reasonably — degree」的用法，與本句語境不同。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。",
-        "reason-mcq-12": "「水準或程度相當可以接受，但不一定非常出色的」是「reasonable — quality/amount」的用法，與本句語境不同。"
+        "reason-mcq-15": "本句的「unreasonable」指「不符合常理、公平或可接受程度，過分或難以接受的」。",
+        "reason-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-15"
     },
@@ -1565,11 +1429,9 @@ export default {
       "masked": "Don’t be ____—we simply don’t have enough time.",
       "options": [
         "reason-mcq-15",
-        "reason-mcq-14",
-        "reason-mcq-16",
-        "reason-mcq-13",
-        "reason-mcq-17",
-        "reason-mcq-12"
+        "reason-mcq-01",
+        "reason-mcq-06",
+        "reason-mcq-04"
       ],
       "explanation": "本句的「unreasonable」指「不符合常理、公平或可接受程度，過分或難以接受的」。",
       "sentenceIndex": 1,
@@ -1578,12 +1440,10 @@ export default {
         "unreasonable"
       ],
       "optionReasons": {
-        "reason-mcq-15": "本句指「不符合常理、公平或可接受程度，過分或難以接受的」。",
-        "reason-mcq-14": "「按公平、理性或符合常理的方式」是「reasonably — sensibly」的用法，與本句語境不同。",
-        "reason-mcq-16": "「存在某個原因，但說話者不知道或沒有說明」是「for some reason」的用法，與本句語境不同。",
-        "reason-mcq-13": "「程度達到相當／頗為，但並非極端」是「reasonably — degree」的用法，與本句語境不同。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。",
-        "reason-mcq-12": "「水準或程度相當可以接受，但不一定非常出色的」是「reasonable — quality/amount」的用法，與本句語境不同。"
+        "reason-mcq-15": "本句的「unreasonable」指「不符合常理、公平或可接受程度，過分或難以接受的」。",
+        "reason-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-15"
     },
@@ -1595,11 +1455,9 @@ export default {
       "masked": "The restaurant charged an ____ price.",
       "options": [
         "reason-mcq-15",
-        "reason-mcq-14",
-        "reason-mcq-16",
-        "reason-mcq-13",
-        "reason-mcq-17",
-        "reason-mcq-12"
+        "reason-mcq-06",
+        "reason-mcq-04",
+        "reason-mcq-02"
       ],
       "explanation": "本句的「unreasonable」指「不符合常理、公平或可接受程度，過分或難以接受的」。",
       "sentenceIndex": 0,
@@ -1608,12 +1466,10 @@ export default {
         "unreasonable"
       ],
       "optionReasons": {
-        "reason-mcq-15": "本句指「不符合常理、公平或可接受程度，過分或難以接受的」。",
-        "reason-mcq-14": "「按公平、理性或符合常理的方式」是「reasonably — sensibly」的用法，與本句語境不同。",
-        "reason-mcq-16": "「存在某個原因，但說話者不知道或沒有說明」是「for some reason」的用法，與本句語境不同。",
-        "reason-mcq-13": "「程度達到相當／頗為，但並非極端」是「reasonably — degree」的用法，與本句語境不同。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。",
-        "reason-mcq-12": "「水準或程度相當可以接受，但不一定非常出色的」是「reasonable — quality/amount」的用法，與本句語境不同。"
+        "reason-mcq-15": "本句的「unreasonable」指「不符合常理、公平或可接受程度，過分或難以接受的」。",
+        "reason-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-15"
     },
@@ -1625,11 +1481,8 @@ export default {
       "masked": "Customers should not face ____ delays.",
       "options": [
         "reason-mcq-15",
-        "reason-mcq-14",
         "reason-mcq-16",
-        "reason-mcq-13",
-        "reason-mcq-17",
-        "reason-mcq-12"
+        "reason-mcq-22"
       ],
       "explanation": "本句的「unreasonable」指「不符合常理、公平或可接受程度，過分或難以接受的」。",
       "sentenceIndex": 1,
@@ -1638,12 +1491,9 @@ export default {
         "unreasonable"
       ],
       "optionReasons": {
-        "reason-mcq-15": "本句指「不符合常理、公平或可接受程度，過分或難以接受的」。",
-        "reason-mcq-14": "「按公平、理性或符合常理的方式」是「reasonably — sensibly」的用法，與本句語境不同。",
-        "reason-mcq-16": "「存在某個原因，但說話者不知道或沒有說明」是「for some reason」的用法，與本句語境不同。",
-        "reason-mcq-13": "「程度達到相當／頗為，但並非極端」是「reasonably — degree」的用法，與本句語境不同。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。",
-        "reason-mcq-12": "「水準或程度相當可以接受，但不一定非常出色的」是「reasonable — quality/amount」的用法，與本句語境不同。"
+        "reason-mcq-15": "本句的「unreasonable」指「不符合常理、公平或可接受程度，過分或難以接受的」。",
+        "reason-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-15"
     },
@@ -1655,11 +1505,9 @@ export default {
       "masked": "The service was ____ expensive.",
       "options": [
         "reason-mcq-15",
-        "reason-mcq-14",
-        "reason-mcq-16",
-        "reason-mcq-13",
+        "reason-mcq-06",
         "reason-mcq-17",
-        "reason-mcq-12"
+        "reason-mcq-04"
       ],
       "explanation": "本句的「unreasonably」指「不符合常理、公平或可接受程度，過分或難以接受的」。",
       "sentenceIndex": 0,
@@ -1668,12 +1516,10 @@ export default {
         "unreasonably"
       ],
       "optionReasons": {
-        "reason-mcq-15": "本句指「不符合常理、公平或可接受程度，過分或難以接受的」。",
-        "reason-mcq-14": "「按公平、理性或符合常理的方式」是「reasonably — sensibly」的用法，與本句語境不同。",
-        "reason-mcq-16": "「存在某個原因，但說話者不知道或沒有說明」是「for some reason」的用法，與本句語境不同。",
-        "reason-mcq-13": "「程度達到相當／頗為，但並非極端」是「reasonably — degree」的用法，與本句語境不同。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。",
-        "reason-mcq-12": "「水準或程度相當可以接受，但不一定非常出色的」是「reasonable — quality/amount」的用法，與本句語境不同。"
+        "reason-mcq-15": "本句的「unreasonably」指「不符合常理、公平或可接受程度，過分或難以接受的」。",
+        "reason-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-15"
     },
@@ -1685,11 +1531,8 @@ export default {
       "masked": "He was ____ angry about a minor mistake.",
       "options": [
         "reason-mcq-15",
-        "reason-mcq-14",
-        "reason-mcq-16",
-        "reason-mcq-13",
-        "reason-mcq-17",
-        "reason-mcq-12"
+        "reason-mcq-22",
+        "reason-mcq-02"
       ],
       "explanation": "本句的「unreasonably」指「不符合常理、公平或可接受程度，過分或難以接受的」。",
       "sentenceIndex": 1,
@@ -1698,12 +1541,9 @@ export default {
         "unreasonably"
       ],
       "optionReasons": {
-        "reason-mcq-15": "本句指「不符合常理、公平或可接受程度，過分或難以接受的」。",
-        "reason-mcq-14": "「按公平、理性或符合常理的方式」是「reasonably — sensibly」的用法，與本句語境不同。",
-        "reason-mcq-16": "「存在某個原因，但說話者不知道或沒有說明」是「for some reason」的用法，與本句語境不同。",
-        "reason-mcq-13": "「程度達到相當／頗為，但並非極端」是「reasonably — degree」的用法，與本句語境不同。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。",
-        "reason-mcq-12": "「水準或程度相當可以接受，但不一定非常出色的」是「reasonable — quality/amount」的用法，與本句語境不同。"
+        "reason-mcq-15": "本句的「unreasonably」指「不符合常理、公平或可接受程度，過分或難以接受的」。",
+        "reason-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-15"
     },
@@ -1715,11 +1555,9 @@ export default {
       "masked": "For some ____, the app keeps closing.",
       "options": [
         "reason-mcq-16",
-        "reason-mcq-15",
-        "reason-mcq-17",
-        "reason-mcq-14",
-        "reason-mcq-18",
-        "reason-mcq-13"
+        "reason-mcq-20",
+        "reason-mcq-10",
+        "reason-mcq-03"
       ],
       "explanation": "本句的「reason」指「存在某個原因，但說話者不知道或沒有說明」。",
       "sentenceIndex": 0,
@@ -1728,12 +1566,10 @@ export default {
         "reason"
       ],
       "optionReasons": {
-        "reason-mcq-16": "本句指「存在某個原因，但說話者不知道或沒有說明」。",
-        "reason-mcq-15": "「不符合常理、公平或可接受程度，過分或難以接受的」是「unreasonable」的用法，與本句語境不同。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。",
-        "reason-mcq-14": "「按公平、理性或符合常理的方式」是「reasonably — sensibly」的用法，與本句語境不同。",
-        "reason-mcq-18": "「某種反應或判斷有充分而合理的根據」是「with good reason」的用法，與本句語境不同。",
-        "reason-mcq-13": "「程度達到相當／頗為，但並非極端」是「reasonably — degree」的用法，與本句語境不同。"
+        "reason-mcq-16": "本句的「reason」指「存在某個原因，但說話者不知道或沒有說明」。",
+        "reason-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-16"
     },
@@ -1746,10 +1582,8 @@ export default {
       "options": [
         "reason-mcq-16",
         "reason-mcq-15",
-        "reason-mcq-17",
-        "reason-mcq-14",
         "reason-mcq-18",
-        "reason-mcq-13"
+        "reason-mcq-04"
       ],
       "explanation": "本句的「reason」指「存在某個原因，但說話者不知道或沒有說明」。",
       "sentenceIndex": 1,
@@ -1758,12 +1592,10 @@ export default {
         "reason"
       ],
       "optionReasons": {
-        "reason-mcq-16": "本句指「存在某個原因，但說話者不知道或沒有說明」。",
-        "reason-mcq-15": "「不符合常理、公平或可接受程度，過分或難以接受的」是「unreasonable」的用法，與本句語境不同。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。",
-        "reason-mcq-14": "「按公平、理性或符合常理的方式」是「reasonably — sensibly」的用法，與本句語境不同。",
-        "reason-mcq-18": "「某種反應或判斷有充分而合理的根據」是「with good reason」的用法，與本句語境不同。",
-        "reason-mcq-13": "「程度達到相當／頗為，但並非極端」是「reasonably — degree」的用法，與本句語境不同。"
+        "reason-mcq-16": "本句的「reason」指「存在某個原因，但說話者不知道或沒有說明」。",
+        "reason-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-16"
     },
@@ -1775,11 +1607,9 @@ export default {
       "masked": "The machine stopped for no apparent ____.",
       "options": [
         "reason-mcq-17",
-        "reason-mcq-16",
-        "reason-mcq-18",
-        "reason-mcq-15",
-        "reason-mcq-19",
-        "reason-mcq-14"
+        "reason-pdf-001",
+        "reason-mcq-13",
+        "reason-mcq-11"
       ],
       "explanation": "本句的「reason」指「從目前可見情況看，沒有明顯可解釋的原因」。",
       "sentenceIndex": 0,
@@ -1788,12 +1618,10 @@ export default {
         "reason"
       ],
       "optionReasons": {
-        "reason-mcq-17": "本句指「從目前可見情況看，沒有明顯可解釋的原因」。",
-        "reason-mcq-16": "「存在某個原因，但說話者不知道或沒有說明」是「for some reason」的用法，與本句語境不同。",
-        "reason-mcq-18": "「某種反應或判斷有充分而合理的根據」是「with good reason」的用法，與本句語境不同。",
-        "reason-mcq-15": "「不符合常理、公平或可接受程度，過分或難以接受的」是「unreasonable」的用法，與本句語境不同。",
-        "reason-mcq-19": "「在公平、合理、不過分的界限之內」是「within reason」的用法，與本句語境不同。",
-        "reason-mcq-14": "「按公平、理性或符合常理的方式」是「reasonably — sensibly」的用法，與本句語境不同。"
+        "reason-mcq-17": "本句的「reason」指「從目前可見情況看，沒有明顯可解釋的原因」。",
+        "reason-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-17"
     },
@@ -1805,11 +1633,9 @@ export default {
       "masked": "He suddenly laughed for no apparent ____.",
       "options": [
         "reason-mcq-17",
-        "reason-mcq-16",
-        "reason-mcq-18",
-        "reason-mcq-15",
-        "reason-mcq-19",
-        "reason-mcq-14"
+        "reason-pdf-001",
+        "reason-mcq-14",
+        "reason-mcq-11"
       ],
       "explanation": "本句的「reason」指「從目前可見情況看，沒有明顯可解釋的原因」。",
       "sentenceIndex": 1,
@@ -1818,12 +1644,10 @@ export default {
         "reason"
       ],
       "optionReasons": {
-        "reason-mcq-17": "本句指「從目前可見情況看，沒有明顯可解釋的原因」。",
-        "reason-mcq-16": "「存在某個原因，但說話者不知道或沒有說明」是「for some reason」的用法，與本句語境不同。",
-        "reason-mcq-18": "「某種反應或判斷有充分而合理的根據」是「with good reason」的用法，與本句語境不同。",
-        "reason-mcq-15": "「不符合常理、公平或可接受程度，過分或難以接受的」是「unreasonable」的用法，與本句語境不同。",
-        "reason-mcq-19": "「在公平、合理、不過分的界限之內」是「within reason」的用法，與本句語境不同。",
-        "reason-mcq-14": "「按公平、理性或符合常理的方式」是「reasonably — sensibly」的用法，與本句語境不同。"
+        "reason-mcq-17": "本句的「reason」指「從目前可見情況看，沒有明顯可解釋的原因」。",
+        "reason-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-17"
     },
@@ -1835,11 +1659,9 @@ export default {
       "masked": "Customers were concerned, and ____.",
       "options": [
         "reason-mcq-18",
-        "reason-mcq-17",
-        "reason-mcq-19",
-        "reason-mcq-16",
-        "reason-mcq-20",
-        "reason-mcq-15"
+        "reason-mcq-02",
+        "reason-mcq-12",
+        "reason-mcq-04"
       ],
       "explanation": "本句的「with good reason」指「某種反應或判斷有充分而合理的根據」。",
       "sentenceIndex": 0,
@@ -1848,12 +1670,10 @@ export default {
         "with good reason"
       ],
       "optionReasons": {
-        "reason-mcq-18": "本句指「某種反應或判斷有充分而合理的根據」。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。",
-        "reason-mcq-19": "「在公平、合理、不過分的界限之內」是「within reason」的用法，與本句語境不同。",
-        "reason-mcq-16": "「存在某個原因，但說話者不知道或沒有說明」是「for some reason」的用法，與本句語境不同。",
-        "reason-mcq-20": "「根據一般邏輯或常識，事情自然應該如此」是「stand to reason」的用法，與本句語境不同。",
-        "reason-mcq-15": "「不符合常理、公平或可接受程度，過分或難以接受的」是「unreasonable」的用法，與本句語境不同。"
+        "reason-mcq-18": "本句的「with good reason」指「某種反應或判斷有充分而合理的根據」。",
+        "reason-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-18"
     },
@@ -1865,11 +1685,9 @@ export default {
       "masked": "The area is famous for its food, ____.",
       "options": [
         "reason-mcq-18",
-        "reason-mcq-17",
-        "reason-mcq-19",
-        "reason-mcq-16",
-        "reason-mcq-20",
-        "reason-mcq-15"
+        "reason-mcq-01",
+        "reason-mcq-13",
+        "reason-mcq-04"
       ],
       "explanation": "本句的「with good reason」指「某種反應或判斷有充分而合理的根據」。",
       "sentenceIndex": 1,
@@ -1878,12 +1696,10 @@ export default {
         "with good reason"
       ],
       "optionReasons": {
-        "reason-mcq-18": "本句指「某種反應或判斷有充分而合理的根據」。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。",
-        "reason-mcq-19": "「在公平、合理、不過分的界限之內」是「within reason」的用法，與本句語境不同。",
-        "reason-mcq-16": "「存在某個原因，但說話者不知道或沒有說明」是「for some reason」的用法，與本句語境不同。",
-        "reason-mcq-20": "「根據一般邏輯或常識，事情自然應該如此」是「stand to reason」的用法，與本句語境不同。",
-        "reason-mcq-15": "「不符合常理、公平或可接受程度，過分或難以接受的」是「unreasonable」的用法，與本句語境不同。"
+        "reason-mcq-18": "本句的「with good reason」指「某種反應或判斷有充分而合理的根據」。",
+        "reason-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-18"
     },
@@ -1895,11 +1711,9 @@ export default {
       "masked": "You can choose any restaurant, ____.",
       "options": [
         "reason-mcq-19",
-        "reason-mcq-18",
-        "reason-mcq-20",
         "reason-mcq-17",
-        "reason-mcq-21",
-        "reason-mcq-16"
+        "reason-mcq-06",
+        "reason-mcq-13"
       ],
       "explanation": "本句的「within reason」指「在公平、合理、不過分的界限之內」。",
       "sentenceIndex": 0,
@@ -1908,12 +1722,10 @@ export default {
         "within reason"
       ],
       "optionReasons": {
-        "reason-mcq-19": "本句指「在公平、合理、不過分的界限之內」。",
-        "reason-mcq-18": "「某種反應或判斷有充分而合理的根據」是「with good reason」的用法，與本句語境不同。",
-        "reason-mcq-20": "「根據一般邏輯或常識，事情自然應該如此」是「stand to reason」的用法，與本句語境不同。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。",
-        "reason-mcq-21": "「完全看不出規律、邏輯或合理解釋」是「no rhyme or reason」的用法，與本句語境不同。",
-        "reason-mcq-16": "「存在某個原因，但說話者不知道或沒有說明」是「for some reason」的用法，與本句語境不同。"
+        "reason-mcq-19": "本句的「within reason」指「在公平、合理、不過分的界限之內」。",
+        "reason-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-19"
     },
@@ -1925,11 +1737,9 @@ export default {
       "masked": "We’re willing to adjust the schedule ____.",
       "options": [
         "reason-mcq-19",
-        "reason-mcq-18",
-        "reason-mcq-20",
+        "reason-mcq-13",
         "reason-mcq-17",
-        "reason-mcq-21",
-        "reason-mcq-16"
+        "reason-mcq-06"
       ],
       "explanation": "本句的「within reason」指「在公平、合理、不過分的界限之內」。",
       "sentenceIndex": 1,
@@ -1938,12 +1748,10 @@ export default {
         "within reason"
       ],
       "optionReasons": {
-        "reason-mcq-19": "本句指「在公平、合理、不過分的界限之內」。",
-        "reason-mcq-18": "「某種反應或判斷有充分而合理的根據」是「with good reason」的用法，與本句語境不同。",
-        "reason-mcq-20": "「根據一般邏輯或常識，事情自然應該如此」是「stand to reason」的用法，與本句語境不同。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。",
-        "reason-mcq-21": "「完全看不出規律、邏輯或合理解釋」是「no rhyme or reason」的用法，與本句語境不同。",
-        "reason-mcq-16": "「存在某個原因，但說話者不知道或沒有說明」是「for some reason」的用法，與本句語境不同。"
+        "reason-mcq-19": "本句的「within reason」指「在公平、合理、不過分的界限之內」。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-19"
     },
@@ -1955,11 +1763,9 @@ export default {
       "masked": "It ____ that a quieter environment helps concentration.",
       "options": [
         "reason-mcq-20",
-        "reason-mcq-19",
-        "reason-mcq-21",
-        "reason-mcq-18",
-        "reason-mcq-22",
-        "reason-mcq-17"
+        "reason-mcq-04",
+        "reason-mcq-02",
+        "reason-mcq-13"
       ],
       "explanation": "本句的「stands to reason」指「根據一般邏輯或常識，事情自然應該如此」。",
       "sentenceIndex": 0,
@@ -1968,12 +1774,10 @@ export default {
         "stands to reason"
       ],
       "optionReasons": {
-        "reason-mcq-20": "本句指「根據一般邏輯或常識，事情自然應該如此」。",
-        "reason-mcq-19": "「在公平、合理、不過分的界限之內」是「within reason」的用法，與本句語境不同。",
-        "reason-mcq-21": "「完全看不出規律、邏輯或合理解釋」是「no rhyme or reason」的用法，與本句語境不同。",
-        "reason-mcq-18": "「某種反應或判斷有充分而合理的根據」是「with good reason」的用法，與本句語境不同。",
-        "reason-mcq-22": "「根據邏輯和已知資料得出某個判斷」是「8. reason that + clause（經過思考後判斷） — 推斷；認為」的用法，與本句語境不同。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。"
+        "reason-mcq-20": "本句的「stands to reason」指「根據一般邏輯或常識，事情自然應該如此」。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-20"
     },
@@ -1985,11 +1789,9 @@ export default {
       "masked": "It ____ that higher demand can increase prices.",
       "options": [
         "reason-mcq-20",
-        "reason-mcq-19",
-        "reason-mcq-21",
-        "reason-mcq-18",
-        "reason-mcq-22",
-        "reason-mcq-17"
+        "reason-mcq-04",
+        "reason-mcq-02",
+        "reason-mcq-13"
       ],
       "explanation": "本句的「stands to reason」指「根據一般邏輯或常識，事情自然應該如此」。",
       "sentenceIndex": 1,
@@ -1998,12 +1800,10 @@ export default {
         "stands to reason"
       ],
       "optionReasons": {
-        "reason-mcq-20": "本句指「根據一般邏輯或常識，事情自然應該如此」。",
-        "reason-mcq-19": "「在公平、合理、不過分的界限之內」是「within reason」的用法，與本句語境不同。",
-        "reason-mcq-21": "「完全看不出規律、邏輯或合理解釋」是「no rhyme or reason」的用法，與本句語境不同。",
-        "reason-mcq-18": "「某種反應或判斷有充分而合理的根據」是「with good reason」的用法，與本句語境不同。",
-        "reason-mcq-22": "「根據邏輯和已知資料得出某個判斷」是「8. reason that + clause（經過思考後判斷） — 推斷；認為」的用法，與本句語境不同。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。"
+        "reason-mcq-20": "本句的「stands to reason」指「根據一般邏輯或常識，事情自然應該如此」。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-20"
     },
@@ -2015,11 +1815,9 @@ export default {
       "masked": "There seems to be no ____ to the filing system.",
       "options": [
         "reason-mcq-21",
-        "reason-mcq-20",
-        "reason-mcq-22",
-        "reason-mcq-19",
-        "reason-mcq-18",
-        "reason-mcq-17"
+        "reason-mcq-11",
+        "reason-mcq-13",
+        "reason-mcq-04"
       ],
       "explanation": "本句的「rhyme or reason」指「完全看不出規律、邏輯或合理解釋」。",
       "sentenceIndex": 0,
@@ -2028,12 +1826,10 @@ export default {
         "rhyme or reason"
       ],
       "optionReasons": {
-        "reason-mcq-21": "本句指「完全看不出規律、邏輯或合理解釋」。",
-        "reason-mcq-20": "「根據一般邏輯或常識，事情自然應該如此」是「stand to reason」的用法，與本句語境不同。",
-        "reason-mcq-22": "「根據邏輯和已知資料得出某個判斷」是「8. reason that + clause（經過思考後判斷） — 推斷；認為」的用法，與本句語境不同。",
-        "reason-mcq-19": "「在公平、合理、不過分的界限之內」是「within reason」的用法，與本句語境不同。",
-        "reason-mcq-18": "「某種反應或判斷有充分而合理的根據」是「with good reason」的用法，與本句語境不同。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。"
+        "reason-mcq-21": "本句的「rhyme or reason」指「完全看不出規律、邏輯或合理解釋」。",
+        "reason-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-21"
     },
@@ -2045,11 +1841,9 @@ export default {
       "masked": "The changes were made without any ____.",
       "options": [
         "reason-mcq-21",
-        "reason-mcq-20",
-        "reason-mcq-22",
-        "reason-mcq-19",
-        "reason-mcq-18",
-        "reason-mcq-17"
+        "reason-mcq-13",
+        "reason-mcq-11",
+        "reason-mcq-04"
       ],
       "explanation": "本句的「rhyme or reason」指「完全看不出規律、邏輯或合理解釋」。",
       "sentenceIndex": 1,
@@ -2058,12 +1852,10 @@ export default {
         "rhyme or reason"
       ],
       "optionReasons": {
-        "reason-mcq-21": "本句指「完全看不出規律、邏輯或合理解釋」。",
-        "reason-mcq-20": "「根據一般邏輯或常識，事情自然應該如此」是「stand to reason」的用法，與本句語境不同。",
-        "reason-mcq-22": "「根據邏輯和已知資料得出某個判斷」是「8. reason that + clause（經過思考後判斷） — 推斷；認為」的用法，與本句語境不同。",
-        "reason-mcq-19": "「在公平、合理、不過分的界限之內」是「within reason」的用法，與本句語境不同。",
-        "reason-mcq-18": "「某種反應或判斷有充分而合理的根據」是「with good reason」的用法，與本句語境不同。",
-        "reason-mcq-17": "「從目前可見情況看，沒有明顯可解釋的原因」是「for no apparent reason」的用法，與本句語境不同。"
+        "reason-mcq-21": "本句的「rhyme or reason」指「完全看不出規律、邏輯或合理解釋」。",
+        "reason-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reason-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reason-mcq-21"
     }
@@ -2076,5 +1868,7 @@ export default {
     "pages": 17,
     "sha256": "a0552057e5aba4f2c8aa4d706b18b8f183f438496c224460911770cd5548f43d"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

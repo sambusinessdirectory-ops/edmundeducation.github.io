@@ -809,11 +809,6 @@ export default {
           "She founded the company in 2018.",
           "她在 2018 年創立了這家公司。",
           "創立公司"
-        ],
-        [
-          "The university was founded in 1890.",
-          "這所大學創立於 1890 年。",
-          "創立公司"
         ]
       ],
       "options": [],
@@ -1663,6 +1658,23 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "foundation-reviewed-3032fcc537",
+      "title": "創辦學校／大學／機構",
+      "form": "foundation · source section 42",
+      "en": "創辦學校／大學／機構",
+      "zh": "創辦學校／大學／機構",
+      "note": "對照原始教材第 42 節及例句核實。",
+      "examples": [
+        [
+          "The university was founded in 1890.",
+          "這所大學創立於 1890 年。",
+          "創辦學校／大學／機構"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1674,11 +1686,9 @@ export default {
       "masked": "Trust is the ____.",
       "options": [
         "foundation-mcq-01",
-        "foundation-mcq-02",
-        "foundation-mcq-04",
-        "foundation-mcq-05",
-        "foundation-mcq-06",
-        "foundation-mcq-07"
+        "foundation-mcq-59",
+        "foundation-mcq-65",
+        "foundation-mcq-42"
       ],
       "explanation": "本句的「foundation of effective teamwork」指「基礎；根基」。",
       "sentenceIndex": 0,
@@ -1687,12 +1697,10 @@ export default {
         "foundation of effective teamwork"
       ],
       "optionReasons": {
-        "foundation-mcq-01": "本句指「基礎；根基」。",
-        "foundation-mcq-02": "「X 的基礎」與本句語境不同。",
-        "foundation-mcq-04": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。"
+        "foundation-mcq-01": "本句的「foundation of effective teamwork」指「基礎；根基」。",
+        "foundation-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-01"
     },
@@ -1704,11 +1712,9 @@ export default {
       "masked": "Clear communication provides a strong ____.",
       "options": [
         "foundation-mcq-01",
-        "foundation-mcq-02",
-        "foundation-mcq-04",
-        "foundation-mcq-05",
-        "foundation-mcq-06",
-        "foundation-mcq-07"
+        "foundation-pdf-004",
+        "foundation-mcq-37",
+        "foundation-reviewed-3032fcc537"
       ],
       "explanation": "本句的「foundation for cooperation」指「基礎；根基」。",
       "sentenceIndex": 1,
@@ -1717,12 +1723,10 @@ export default {
         "foundation for cooperation"
       ],
       "optionReasons": {
-        "foundation-mcq-01": "本句指「基礎；根基」。",
-        "foundation-mcq-02": "「X 的基礎」與本句語境不同。",
-        "foundation-mcq-04": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。"
+        "foundation-mcq-01": "本句的「foundation for cooperation」指「基礎；根基」。",
+        "foundation-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "foundation-reviewed-3032fcc537": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-01"
     },
@@ -1734,11 +1738,9 @@ export default {
       "masked": "Mutual respect is a ____ of a healthy workplace.",
       "options": [
         "foundation-mcq-01",
-        "foundation-mcq-02",
-        "foundation-mcq-04",
-        "foundation-mcq-05",
-        "foundation-mcq-06",
-        "foundation-mcq-07"
+        "foundation-reviewed-3032fcc537",
+        "foundation-mcq-65",
+        "foundation-pdf-005"
       ],
       "explanation": "本句的「foundation」指「基礎；根基」。",
       "sentenceIndex": 2,
@@ -1747,12 +1749,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-01": "本句指「基礎；根基」。",
-        "foundation-mcq-02": "「X 的基礎」與本句語境不同。",
-        "foundation-mcq-04": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。"
+        "foundation-mcq-01": "本句的「foundation」指「基礎；根基」。",
+        "foundation-reviewed-3032fcc537": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-01"
     },
@@ -1764,11 +1764,9 @@ export default {
       "masked": "Trust is the ____.",
       "options": [
         "foundation-mcq-02",
-        "foundation-mcq-01",
-        "foundation-mcq-04",
-        "foundation-mcq-05",
-        "foundation-mcq-06",
-        "foundation-mcq-07"
+        "foundation-mcq-48",
+        "foundation-pdf-002",
+        "foundation-pdf-003"
       ],
       "explanation": "本句的「foundation of good leadership」指「X 的基礎」。",
       "sentenceIndex": 3,
@@ -1777,12 +1775,10 @@ export default {
         "foundation of good leadership"
       ],
       "optionReasons": {
-        "foundation-mcq-02": "本句指「X 的基礎」。",
-        "foundation-mcq-01": "「基礎；根基」與本句語境不同。",
-        "foundation-mcq-04": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。"
+        "foundation-mcq-02": "本句的「foundation of good leadership」指「X 的基礎」。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-02"
     },
@@ -1794,11 +1790,9 @@ export default {
       "masked": "Accurate information is the ____ of sound decision-making.",
       "options": [
         "foundation-mcq-02",
-        "foundation-mcq-01",
-        "foundation-mcq-04",
-        "foundation-mcq-05",
-        "foundation-mcq-06",
-        "foundation-mcq-07"
+        "foundation-mcq-37",
+        "foundation-mcq-39",
+        "foundation-mcq-34"
       ],
       "explanation": "本句的「foundation」指「X 的基礎」。",
       "sentenceIndex": 4,
@@ -1807,12 +1801,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-02": "本句指「X 的基礎」。",
-        "foundation-mcq-01": "「基礎；根基」與本句語境不同。",
-        "foundation-mcq-04": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。"
+        "foundation-mcq-02": "本句的「foundation」指「X 的基礎」。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-02"
     },
@@ -1824,11 +1816,9 @@ export default {
       "masked": "Training provides a ____.",
       "options": [
         "foundation-mcq-03",
-        "foundation-mcq-04",
-        "foundation-mcq-01",
-        "foundation-mcq-05",
-        "foundation-mcq-06",
-        "foundation-mcq-07"
+        "foundation-pdf-001",
+        "foundation-mcq-34",
+        "foundation-mcq-38"
       ],
       "explanation": "本句的「foundation for future development」指「X 的基礎」。",
       "sentenceIndex": 5,
@@ -1837,12 +1827,10 @@ export default {
         "foundation for future development"
       ],
       "optionReasons": {
-        "foundation-mcq-03": "本句指「X 的基礎」。",
-        "foundation-mcq-04": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-01": "「基礎；根基」與本句語境不同。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。"
+        "foundation-mcq-03": "本句的「foundation for future development」指「X 的基礎」。",
+        "foundation-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-03"
     },
@@ -1854,11 +1842,9 @@ export default {
       "masked": "Early trust created a ____ for later cooperation.",
       "options": [
         "foundation-mcq-03",
-        "foundation-mcq-04",
-        "foundation-mcq-01",
-        "foundation-mcq-05",
-        "foundation-mcq-06",
-        "foundation-mcq-07"
+        "foundation-mcq-48",
+        "foundation-mcq-57",
+        "foundation-mcq-32"
       ],
       "explanation": "本句的「foundation」指「X 的基礎」。",
       "sentenceIndex": 6,
@@ -1867,12 +1853,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-03": "本句指「X 的基礎」。",
-        "foundation-mcq-04": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-01": "「基礎；根基」與本句語境不同。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。"
+        "foundation-mcq-03": "本句的「foundation」指「X 的基礎」。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-03"
     },
@@ -1884,11 +1868,9 @@ export default {
       "masked": "Shared objectives ____.",
       "options": [
         "foundation-mcq-04",
-        "foundation-mcq-03",
-        "foundation-mcq-05",
-        "foundation-mcq-06",
-        "foundation-mcq-01",
-        "foundation-mcq-07"
+        "foundation-mcq-67",
+        "foundation-mcq-39",
+        "foundation-mcq-58"
       ],
       "explanation": "本句的「provide a foundation for effective teamwork」指「為……奠定基礎」。",
       "sentenceIndex": 7,
@@ -1897,12 +1879,10 @@ export default {
         "provide a foundation for effective teamwork"
       ],
       "optionReasons": {
-        "foundation-mcq-04": "本句指「為……奠定基礎」。",
-        "foundation-mcq-03": "「X 的基礎」與本句語境不同。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-01": "「基礎；根基」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。"
+        "foundation-mcq-04": "本句的「provide a foundation for effective teamwork」指「為……奠定基礎」。",
+        "foundation-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-04"
     },
@@ -1914,11 +1894,9 @@ export default {
       "masked": "Basic literacy provides a ____ for further learning.",
       "options": [
         "foundation-mcq-04",
-        "foundation-mcq-03",
-        "foundation-mcq-05",
-        "foundation-mcq-06",
-        "foundation-mcq-01",
-        "foundation-mcq-07"
+        "foundation-mcq-67",
+        "foundation-mcq-71",
+        "foundation-pdf-002"
       ],
       "explanation": "本句的「foundation」指「為……奠定基礎」。",
       "sentenceIndex": 8,
@@ -1927,12 +1905,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-04": "本句指「為……奠定基礎」。",
-        "foundation-mcq-03": "「X 的基礎」與本句語境不同。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-01": "「基礎；根基」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。"
+        "foundation-mcq-04": "本句的「foundation」指「為……奠定基礎」。",
+        "foundation-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-04"
     },
@@ -1944,11 +1920,9 @@ export default {
       "masked": "Trust and accountability ____.",
       "options": [
         "foundation-mcq-04",
-        "foundation-mcq-03",
-        "foundation-mcq-05",
-        "foundation-mcq-06",
-        "foundation-mcq-01",
-        "foundation-mcq-07"
+        "foundation-mcq-70",
+        "foundation-pdf-002",
+        "foundation-mcq-58"
       ],
       "explanation": "本句的「form the foundation of the relationship」指「為……奠定基礎」。",
       "sentenceIndex": 9,
@@ -1957,12 +1931,10 @@ export default {
         "form the foundation of the relationship"
       ],
       "optionReasons": {
-        "foundation-mcq-04": "本句指「為……奠定基礎」。",
-        "foundation-mcq-03": "「X 的基礎」與本句語境不同。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-01": "「基礎；根基」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。"
+        "foundation-mcq-04": "本句的「form the foundation of the relationship」指「為……奠定基礎」。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-04"
     },
@@ -1974,11 +1946,9 @@ export default {
       "masked": "These principles form the ____ of the system.",
       "options": [
         "foundation-mcq-04",
-        "foundation-mcq-03",
-        "foundation-mcq-05",
-        "foundation-mcq-06",
-        "foundation-mcq-01",
-        "foundation-mcq-07"
+        "foundation-mcq-70",
+        "foundation-mcq-40",
+        "foundation-pdf-004"
       ],
       "explanation": "本句的「foundation」指「為……奠定基礎」。",
       "sentenceIndex": 10,
@@ -1987,12 +1957,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-04": "本句指「為……奠定基礎」。",
-        "foundation-mcq-03": "「X 的基礎」與本句語境不同。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-01": "「基礎；根基」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。"
+        "foundation-mcq-04": "本句的「foundation」指「為……奠定基礎」。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-04"
     },
@@ -2004,11 +1972,9 @@ export default {
       "masked": "The research ____.",
       "options": [
         "foundation-mcq-04",
-        "foundation-mcq-03",
-        "foundation-mcq-05",
-        "foundation-mcq-06",
-        "foundation-mcq-01",
-        "foundation-mcq-07"
+        "foundation-mcq-32",
+        "foundation-mcq-34",
+        "foundation-mcq-38"
       ],
       "explanation": "本句的「served as the foundation for later work」指「為……奠定基礎」。",
       "sentenceIndex": 11,
@@ -2017,12 +1983,10 @@ export default {
         "served as the foundation for later work"
       ],
       "optionReasons": {
-        "foundation-mcq-04": "本句指「為……奠定基礎」。",
-        "foundation-mcq-03": "「X 的基礎」與本句語境不同。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-01": "「基礎；根基」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。"
+        "foundation-mcq-04": "本句的「served as the foundation for later work」指「為……奠定基礎」。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-04"
     },
@@ -2034,11 +1998,9 @@ export default {
       "masked": "The agreement serves as a ____ for closer cooperation.",
       "options": [
         "foundation-mcq-04",
-        "foundation-mcq-03",
-        "foundation-mcq-05",
-        "foundation-mcq-06",
-        "foundation-mcq-01",
-        "foundation-mcq-07"
+        "foundation-mcq-58",
+        "foundation-mcq-65",
+        "foundation-mcq-36"
       ],
       "explanation": "本句的「foundation」指「為……奠定基礎」。",
       "sentenceIndex": 12,
@@ -2047,12 +2009,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-04": "本句指「為……奠定基礎」。",
-        "foundation-mcq-03": "「X 的基礎」與本句語境不同。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-01": "「基礎；根基」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。"
+        "foundation-mcq-04": "本句的「foundation」指「為……奠定基礎」。",
+        "foundation-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-04"
     },
@@ -2064,11 +2024,9 @@ export default {
       "masked": "Good communication creates a ____ for teamwork.",
       "options": [
         "foundation-mcq-05",
-        "foundation-mcq-04",
-        "foundation-mcq-06",
-        "foundation-mcq-03",
-        "foundation-mcq-07",
-        "foundation-mcq-08"
+        "foundation-mcq-58",
+        "foundation-mcq-38",
+        "foundation-mcq-67"
       ],
       "explanation": "本句的「strong foundation」指「穩固基礎」。",
       "sentenceIndex": 13,
@@ -2077,12 +2035,10 @@ export default {
         "strong foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-05": "本句指「穩固基礎」。",
-        "foundation-mcq-04": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-03": "「X 的基礎」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。",
-        "foundation-mcq-08": "「薄弱基礎」與本句語境不同。"
+        "foundation-mcq-05": "本句的「strong foundation」指「穩固基礎」。",
+        "foundation-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-05"
     },
@@ -2094,11 +2050,9 @@ export default {
       "masked": "Students need a strong ____ in mathematics.",
       "options": [
         "foundation-mcq-05",
-        "foundation-mcq-04",
-        "foundation-mcq-06",
-        "foundation-mcq-03",
-        "foundation-mcq-07",
-        "foundation-mcq-08"
+        "foundation-mcq-34",
+        "foundation-mcq-35",
+        "foundation-pdf-005"
       ],
       "explanation": "本句的「foundation」指「穩固基礎」。",
       "sentenceIndex": 14,
@@ -2107,12 +2061,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-05": "本句指「穩固基礎」。",
-        "foundation-mcq-04": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-03": "「X 的基礎」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。",
-        "foundation-mcq-08": "「薄弱基礎」與本句語境不同。"
+        "foundation-mcq-05": "本句的「foundation」指「穩固基礎」。",
+        "foundation-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-05"
     },
@@ -2124,11 +2076,9 @@ export default {
       "masked": "The course gives students a ____ in business English.",
       "options": [
         "foundation-mcq-06",
-        "foundation-mcq-05",
-        "foundation-mcq-07",
-        "foundation-mcq-04",
-        "foundation-mcq-08",
-        "foundation-mcq-03"
+        "foundation-mcq-48",
+        "foundation-mcq-39",
+        "foundation-mcq-37"
       ],
       "explanation": "本句的「solid foundation」指「扎實基礎」。",
       "sentenceIndex": 15,
@@ -2137,12 +2087,10 @@ export default {
         "solid foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-06": "本句指「扎實基礎」。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。",
-        "foundation-mcq-04": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-08": "「薄弱基礎」與本句語境不同。",
-        "foundation-mcq-03": "「X 的基礎」與本句語境不同。"
+        "foundation-mcq-06": "本句的「solid foundation」指「扎實基礎」。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-06"
     },
@@ -2154,11 +2102,9 @@ export default {
       "masked": "Their friendship was built on a solid ____ of trust.",
       "options": [
         "foundation-mcq-06",
-        "foundation-mcq-05",
-        "foundation-mcq-07",
-        "foundation-mcq-04",
-        "foundation-mcq-08",
-        "foundation-mcq-03"
+        "foundation-pdf-005",
+        "foundation-mcq-40",
+        "foundation-mcq-48"
       ],
       "explanation": "本句的「foundation」指「扎實基礎」。",
       "sentenceIndex": 16,
@@ -2167,12 +2113,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-06": "本句指「扎實基礎」。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。",
-        "foundation-mcq-04": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-08": "「薄弱基礎」與本句語境不同。",
-        "foundation-mcq-03": "「X 的基礎」與本句語境不同。"
+        "foundation-mcq-06": "本句的「foundation」指「扎實基礎」。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-06"
     },
@@ -2184,11 +2128,9 @@ export default {
       "masked": "The partnership rests on a ____.",
       "options": [
         "foundation-mcq-07",
-        "foundation-mcq-06",
-        "foundation-mcq-08",
-        "foundation-mcq-05",
-        "foundation-mcq-09",
-        "foundation-mcq-04"
+        "foundation-mcq-58",
+        "foundation-mcq-39",
+        "foundation-mcq-35"
       ],
       "explanation": "本句的「firm foundation」指「堅實基礎」。",
       "sentenceIndex": 17,
@@ -2197,12 +2139,10 @@ export default {
         "firm foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-07": "本句指「堅實基礎」。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-08": "「薄弱基礎」與本句語境不同。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。",
-        "foundation-mcq-09": "「不穩固根基」與本句語境不同。",
-        "foundation-mcq-04": "「為……奠定基礎」與本句語境不同。"
+        "foundation-mcq-07": "本句的「firm foundation」指「堅實基礎」。",
+        "foundation-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-07"
     },
@@ -2214,11 +2154,9 @@ export default {
       "masked": "Evidence gives the argument a firm ____.",
       "options": [
         "foundation-mcq-07",
-        "foundation-mcq-06",
-        "foundation-mcq-08",
-        "foundation-mcq-05",
-        "foundation-mcq-09",
-        "foundation-mcq-04"
+        "foundation-mcq-44",
+        "foundation-mcq-59",
+        "foundation-mcq-41"
       ],
       "explanation": "本句的「foundation」指「堅實基礎」。",
       "sentenceIndex": 18,
@@ -2227,12 +2165,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-07": "本句指「堅實基礎」。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-08": "「薄弱基礎」與本句語境不同。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。",
-        "foundation-mcq-09": "「不穩固根基」與本句語境不同。",
-        "foundation-mcq-04": "「為……奠定基礎」與本句語境不同。"
+        "foundation-mcq-07": "本句的「foundation」指「堅實基礎」。",
+        "foundation-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-07"
     },
@@ -2244,11 +2180,9 @@ export default {
       "masked": "The project began with a ____.",
       "options": [
         "foundation-mcq-08",
-        "foundation-mcq-07",
-        "foundation-mcq-09",
-        "foundation-mcq-06",
-        "foundation-mcq-10",
-        "foundation-mcq-05"
+        "foundation-pdf-001",
+        "foundation-mcq-59",
+        "foundation-mcq-34"
       ],
       "explanation": "本句的「weak foundation」指「薄弱基礎」。",
       "sentenceIndex": 19,
@@ -2257,12 +2191,10 @@ export default {
         "weak foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-08": "本句指「薄弱基礎」。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。",
-        "foundation-mcq-09": "「不穩固根基」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-10": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。"
+        "foundation-mcq-08": "本句的「weak foundation」指「薄弱基礎」。",
+        "foundation-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-08"
     },
@@ -2274,11 +2206,9 @@ export default {
       "masked": "A strategy built on unreliable data has a weak ____.",
       "options": [
         "foundation-mcq-08",
-        "foundation-mcq-07",
-        "foundation-mcq-09",
-        "foundation-mcq-06",
-        "foundation-mcq-10",
-        "foundation-mcq-05"
+        "foundation-pdf-003",
+        "foundation-mcq-70",
+        "foundation-pdf-002"
       ],
       "explanation": "本句的「foundation」指「薄弱基礎」。",
       "sentenceIndex": 20,
@@ -2287,12 +2217,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-08": "本句指「薄弱基礎」。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。",
-        "foundation-mcq-09": "「不穩固根基」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。",
-        "foundation-mcq-10": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-05": "「穩固基礎」與本句語境不同。"
+        "foundation-mcq-08": "本句的「foundation」指「薄弱基礎」。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-08"
     },
@@ -2304,11 +2232,9 @@ export default {
       "masked": "Their agreement rested on a ____.",
       "options": [
         "foundation-mcq-09",
-        "foundation-mcq-08",
-        "foundation-mcq-10",
-        "foundation-mcq-07",
-        "foundation-mcq-11",
-        "foundation-mcq-06"
+        "foundation-mcq-57",
+        "foundation-mcq-38",
+        "foundation-mcq-34"
       ],
       "explanation": "本句的「shaky foundation」指「不穩固根基」。",
       "sentenceIndex": 21,
@@ -2317,12 +2243,10 @@ export default {
         "shaky foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-09": "本句指「不穩固根基」。",
-        "foundation-mcq-08": "「薄弱基礎」與本句語境不同。",
-        "foundation-mcq-10": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。",
-        "foundation-mcq-11": "「奠定多方面基礎」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。"
+        "foundation-mcq-09": "本句的「shaky foundation」指「不穩固根基」。",
+        "foundation-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-09"
     },
@@ -2334,11 +2258,9 @@ export default {
       "masked": "The conclusion has a shaky ____ because the evidence is limited.",
       "options": [
         "foundation-mcq-09",
-        "foundation-mcq-08",
-        "foundation-mcq-10",
-        "foundation-mcq-07",
-        "foundation-mcq-11",
-        "foundation-mcq-06"
+        "foundation-mcq-35",
+        "foundation-pdf-004",
+        "foundation-mcq-65"
       ],
       "explanation": "本句的「foundation」指「不穩固根基」。",
       "sentenceIndex": 22,
@@ -2347,12 +2269,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-09": "本句指「不穩固根基」。",
-        "foundation-mcq-08": "「薄弱基礎」與本句語境不同。",
-        "foundation-mcq-10": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。",
-        "foundation-mcq-11": "「奠定多方面基礎」與本句語境不同。",
-        "foundation-mcq-06": "「扎實基礎」與本句語境不同。"
+        "foundation-mcq-09": "本句的「foundation」指「不穩固根基」。",
+        "foundation-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-09"
     },
@@ -2364,11 +2284,9 @@ export default {
       "masked": "Clear roles ____.",
       "options": [
         "foundation-mcq-10",
-        "foundation-mcq-09",
-        "foundation-mcq-11",
-        "foundation-mcq-08",
-        "foundation-mcq-12",
-        "foundation-mcq-07"
+        "foundation-mcq-36",
+        "foundation-pdf-005",
+        "foundation-mcq-70"
       ],
       "explanation": "本句的「lay the foundation for effective cooperation」指「為……奠定基礎」。",
       "sentenceIndex": 23,
@@ -2377,12 +2295,10 @@ export default {
         "lay the foundation for effective cooperation"
       ],
       "optionReasons": {
-        "foundation-mcq-10": "本句指「為……奠定基礎」。",
-        "foundation-mcq-09": "「不穩固根基」與本句語境不同。",
-        "foundation-mcq-11": "「奠定多方面基礎」與本句語境不同。",
-        "foundation-mcq-08": "「薄弱基礎」與本句語境不同。",
-        "foundation-mcq-12": "「建立基礎」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。"
+        "foundation-mcq-10": "本句的「lay the foundation for effective cooperation」指「為……奠定基礎」。",
+        "foundation-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-10"
     },
@@ -2394,11 +2310,9 @@ export default {
       "masked": "Early education lays the ____ for later learning.",
       "options": [
         "foundation-mcq-10",
-        "foundation-mcq-09",
-        "foundation-mcq-11",
-        "foundation-mcq-08",
-        "foundation-mcq-12",
-        "foundation-mcq-07"
+        "foundation-mcq-36",
+        "foundation-mcq-65",
+        "foundation-mcq-32"
       ],
       "explanation": "本句的「foundation」指「為……奠定基礎」。",
       "sentenceIndex": 24,
@@ -2407,12 +2321,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-10": "本句指「為……奠定基礎」。",
-        "foundation-mcq-09": "「不穩固根基」與本句語境不同。",
-        "foundation-mcq-11": "「奠定多方面基礎」與本句語境不同。",
-        "foundation-mcq-08": "「薄弱基礎」與本句語境不同。",
-        "foundation-mcq-12": "「建立基礎」與本句語境不同。",
-        "foundation-mcq-07": "「堅實基礎」與本句語境不同。"
+        "foundation-mcq-10": "本句的「foundation」指「為……奠定基礎」。",
+        "foundation-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-10"
     },
@@ -2424,11 +2336,9 @@ export default {
       "masked": "The reforms ____.",
       "options": [
         "foundation-mcq-11",
-        "foundation-mcq-10",
-        "foundation-mcq-12",
-        "foundation-mcq-09",
-        "foundation-mcq-13",
-        "foundation-mcq-08"
+        "foundation-mcq-34",
+        "foundation-mcq-57",
+        "foundation-pdf-004"
       ],
       "explanation": "本句的「laid the foundations for future growth」指「奠定多方面基礎」。",
       "sentenceIndex": 25,
@@ -2437,12 +2347,10 @@ export default {
         "laid the foundations for future growth"
       ],
       "optionReasons": {
-        "foundation-mcq-11": "本句指「奠定多方面基礎」。",
-        "foundation-mcq-10": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-12": "「建立基礎」與本句語境不同。",
-        "foundation-mcq-09": "「不穩固根基」與本句語境不同。",
-        "foundation-mcq-13": "「在基礎上發展」與本句語境不同。",
-        "foundation-mcq-08": "「薄弱基礎」與本句語境不同。"
+        "foundation-mcq-11": "本句的「laid the foundations for future growth」指「奠定多方面基礎」。",
+        "foundation-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-11"
     },
@@ -2454,11 +2362,9 @@ export default {
       "masked": "The first meetings laid the ____ for a strong partnership.",
       "options": [
         "foundation-mcq-11",
-        "foundation-mcq-10",
-        "foundation-mcq-12",
-        "foundation-mcq-09",
-        "foundation-mcq-13",
-        "foundation-mcq-08"
+        "foundation-mcq-37",
+        "foundation-reviewed-3032fcc537",
+        "foundation-mcq-44"
       ],
       "explanation": "本句的「foundations」指「奠定多方面基礎」。",
       "sentenceIndex": 26,
@@ -2467,12 +2373,10 @@ export default {
         "foundations"
       ],
       "optionReasons": {
-        "foundation-mcq-11": "本句指「奠定多方面基礎」。",
-        "foundation-mcq-10": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-12": "「建立基礎」與本句語境不同。",
-        "foundation-mcq-09": "「不穩固根基」與本句語境不同。",
-        "foundation-mcq-13": "「在基礎上發展」與本句語境不同。",
-        "foundation-mcq-08": "「薄弱基礎」與本句語境不同。"
+        "foundation-mcq-11": "本句的「foundations」指「奠定多方面基礎」。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "foundation-reviewed-3032fcc537": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-11"
     },
@@ -2484,11 +2388,9 @@ export default {
       "masked": "Teams need time to ____.",
       "options": [
         "foundation-mcq-12",
-        "foundation-mcq-11",
-        "foundation-mcq-13",
-        "foundation-mcq-10",
-        "foundation-mcq-14",
-        "foundation-mcq-09"
+        "foundation-pdf-003",
+        "foundation-mcq-42",
+        "foundation-mcq-70"
       ],
       "explanation": "本句的「build a foundation of trust」指「建立基礎」。",
       "sentenceIndex": 27,
@@ -2497,12 +2399,10 @@ export default {
         "build a foundation of trust"
       ],
       "optionReasons": {
-        "foundation-mcq-12": "本句指「建立基礎」。",
-        "foundation-mcq-11": "「奠定多方面基礎」與本句語境不同。",
-        "foundation-mcq-13": "「在基礎上發展」與本句語境不同。",
-        "foundation-mcq-10": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-14": "「學科基礎」與本句語境不同。",
-        "foundation-mcq-09": "「不穩固根基」與本句語境不同。"
+        "foundation-mcq-12": "本句的「build a foundation of trust」指「建立基礎」。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-12"
     },
@@ -2514,11 +2414,9 @@ export default {
       "masked": "The course helps learners build a strong vocabulary ____.",
       "options": [
         "foundation-mcq-12",
-        "foundation-mcq-11",
-        "foundation-mcq-13",
-        "foundation-mcq-10",
-        "foundation-mcq-14",
-        "foundation-mcq-09"
+        "foundation-mcq-59",
+        "foundation-mcq-70",
+        "foundation-reviewed-3032fcc537"
       ],
       "explanation": "本句的「foundation」指「建立基礎」。",
       "sentenceIndex": 28,
@@ -2527,12 +2425,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-12": "本句指「建立基礎」。",
-        "foundation-mcq-11": "「奠定多方面基礎」與本句語境不同。",
-        "foundation-mcq-13": "「在基礎上發展」與本句語境不同。",
-        "foundation-mcq-10": "「為……奠定基礎」與本句語境不同。",
-        "foundation-mcq-14": "「學科基礎」與本句語境不同。",
-        "foundation-mcq-09": "「不穩固根基」與本句語境不同。"
+        "foundation-mcq-12": "本句的「foundation」指「建立基礎」。",
+        "foundation-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "foundation-reviewed-3032fcc537": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-12"
     },
@@ -2544,11 +2440,9 @@ export default {
       "masked": "The second phase ____.",
       "options": [
         "foundation-mcq-13",
-        "foundation-mcq-12",
-        "foundation-mcq-14",
-        "foundation-mcq-11",
-        "foundation-mcq-15",
-        "foundation-mcq-10"
+        "foundation-mcq-36",
+        "foundation-pdf-003",
+        "foundation-mcq-65"
       ],
       "explanation": "本句的「builds on the foundation established earlier」指「在基礎上發展」。",
       "sentenceIndex": 29,
@@ -2557,12 +2451,10 @@ export default {
         "builds on the foundation established earlier"
       ],
       "optionReasons": {
-        "foundation-mcq-13": "本句指「在基礎上發展」。",
-        "foundation-mcq-12": "「建立基礎」與本句語境不同。",
-        "foundation-mcq-14": "「學科基礎」與本句語境不同。",
-        "foundation-mcq-11": "「奠定多方面基礎」與本句語境不同。",
-        "foundation-mcq-15": "「基礎知識」與本句語境不同。",
-        "foundation-mcq-10": "「為……奠定基礎」與本句語境不同。"
+        "foundation-mcq-13": "本句的「builds on the foundation established earlier」指「在基礎上發展」。",
+        "foundation-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-13"
     },
@@ -2574,11 +2466,9 @@ export default {
       "masked": "Advanced courses build on a ____ of basic knowledge.",
       "options": [
         "foundation-mcq-13",
-        "foundation-mcq-12",
-        "foundation-mcq-14",
-        "foundation-mcq-11",
-        "foundation-mcq-15",
-        "foundation-mcq-10"
+        "foundation-mcq-40",
+        "foundation-mcq-32",
+        "foundation-mcq-57"
       ],
       "explanation": "本句的「foundation」指「在基礎上發展」。",
       "sentenceIndex": 30,
@@ -2587,12 +2477,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-13": "本句指「在基礎上發展」。",
-        "foundation-mcq-12": "「建立基礎」與本句語境不同。",
-        "foundation-mcq-14": "「學科基礎」與本句語境不同。",
-        "foundation-mcq-11": "「奠定多方面基礎」與本句語境不同。",
-        "foundation-mcq-15": "「基礎知識」與本句語境不同。",
-        "foundation-mcq-10": "「為……奠定基礎」與本句語境不同。"
+        "foundation-mcq-13": "本句的「foundation」指「在基礎上發展」。",
+        "foundation-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-13"
     },
@@ -2604,11 +2492,9 @@ export default {
       "masked": "Students need a good ____.",
       "options": [
         "foundation-mcq-14",
-        "foundation-mcq-13",
-        "foundation-mcq-15",
-        "foundation-mcq-12",
-        "foundation-mcq-16",
-        "foundation-mcq-11"
+        "foundation-pdf-002",
+        "foundation-mcq-34",
+        "foundation-mcq-58"
       ],
       "explanation": "本句的「foundation in English grammar」指「學科基礎」。",
       "sentenceIndex": 31,
@@ -2617,12 +2503,10 @@ export default {
         "foundation in English grammar"
       ],
       "optionReasons": {
-        "foundation-mcq-14": "本句指「學科基礎」。",
-        "foundation-mcq-13": "「在基礎上發展」與本句語境不同。",
-        "foundation-mcq-15": "「基礎知識」與本句語境不同。",
-        "foundation-mcq-12": "「建立基礎」與本句語境不同。",
-        "foundation-mcq-16": "「基礎技能」與本句語境不同。",
-        "foundation-mcq-11": "「奠定多方面基礎」與本句語境不同。"
+        "foundation-mcq-14": "本句的「foundation in English grammar」指「學科基礎」。",
+        "foundation-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-14"
     },
@@ -2634,11 +2518,9 @@ export default {
       "masked": "She has a strong ____ in statistics.",
       "options": [
         "foundation-mcq-14",
-        "foundation-mcq-13",
-        "foundation-mcq-15",
-        "foundation-mcq-12",
-        "foundation-mcq-16",
-        "foundation-mcq-11"
+        "foundation-mcq-37",
+        "foundation-pdf-005",
+        "foundation-mcq-46"
       ],
       "explanation": "本句的「foundation」指「學科基礎」。",
       "sentenceIndex": 32,
@@ -2647,12 +2529,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-14": "本句指「學科基礎」。",
-        "foundation-mcq-13": "「在基礎上發展」與本句語境不同。",
-        "foundation-mcq-15": "「基礎知識」與本句語境不同。",
-        "foundation-mcq-12": "「建立基礎」與本句語境不同。",
-        "foundation-mcq-16": "「基礎技能」與本句語境不同。",
-        "foundation-mcq-11": "「奠定多方面基礎」與本句語境不同。"
+        "foundation-mcq-14": "本句的「foundation」指「學科基礎」。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-14"
     },
@@ -2664,11 +2544,9 @@ export default {
       "masked": "The module provides ____ for later courses.",
       "options": [
         "foundation-mcq-15",
-        "foundation-mcq-14",
-        "foundation-mcq-16",
-        "foundation-mcq-13",
-        "foundation-mcq-17",
-        "foundation-mcq-12"
+        "foundation-mcq-39",
+        "foundation-mcq-44",
+        "foundation-mcq-41"
       ],
       "explanation": "本句的「foundation knowledge」指「基礎知識」。",
       "sentenceIndex": 33,
@@ -2677,12 +2555,10 @@ export default {
         "foundation knowledge"
       ],
       "optionReasons": {
-        "foundation-mcq-15": "本句指「基礎知識」。",
-        "foundation-mcq-14": "「學科基礎」與本句語境不同。",
-        "foundation-mcq-16": "「基礎技能」與本句語境不同。",
-        "foundation-mcq-13": "「在基礎上發展」與本句語境不同。",
-        "foundation-mcq-17": "「理論基礎」與本句語境不同。",
-        "foundation-mcq-12": "「建立基礎」與本句語境不同。"
+        "foundation-mcq-15": "本句的「foundation knowledge」指「基礎知識」。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-15"
     },
@@ -2694,11 +2570,9 @@ export default {
       "masked": "____ knowledge should be secure before advanced topics are introduced.",
       "options": [
         "foundation-mcq-15",
-        "foundation-mcq-14",
-        "foundation-mcq-16",
-        "foundation-mcq-13",
-        "foundation-mcq-17",
-        "foundation-mcq-12"
+        "foundation-mcq-42",
+        "foundation-mcq-48",
+        "foundation-mcq-35"
       ],
       "explanation": "本句的「Foundation」指「基礎知識」。",
       "sentenceIndex": 34,
@@ -2707,12 +2581,10 @@ export default {
         "Foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-15": "本句指「基礎知識」。",
-        "foundation-mcq-14": "「學科基礎」與本句語境不同。",
-        "foundation-mcq-16": "「基礎技能」與本句語境不同。",
-        "foundation-mcq-13": "「在基礎上發展」與本句語境不同。",
-        "foundation-mcq-17": "「理論基礎」與本句語境不同。",
-        "foundation-mcq-12": "「建立基礎」與本句語境不同。"
+        "foundation-mcq-15": "本句的「Foundation」指「基礎知識」。",
+        "foundation-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-15"
     },
@@ -2724,11 +2596,9 @@ export default {
       "masked": "Reading and numeracy are important ____.",
       "options": [
         "foundation-mcq-16",
-        "foundation-mcq-15",
-        "foundation-mcq-17",
-        "foundation-mcq-14",
-        "foundation-mcq-18",
-        "foundation-mcq-13"
+        "foundation-mcq-36",
+        "foundation-mcq-59",
+        "foundation-mcq-71"
       ],
       "explanation": "本句的「foundation skills」指「基礎技能」。",
       "sentenceIndex": 35,
@@ -2737,12 +2607,10 @@ export default {
         "foundation skills"
       ],
       "optionReasons": {
-        "foundation-mcq-16": "本句指「基礎技能」。",
-        "foundation-mcq-15": "「基礎知識」與本句語境不同。",
-        "foundation-mcq-17": "「理論基礎」與本句語境不同。",
-        "foundation-mcq-14": "「學科基礎」與本句語境不同。",
-        "foundation-mcq-18": "「科學基礎」與本句語境不同。",
-        "foundation-mcq-13": "「在基礎上發展」與本句語境不同。"
+        "foundation-mcq-16": "本句的「foundation skills」指「基礎技能」。",
+        "foundation-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-16"
     },
@@ -2754,11 +2622,9 @@ export default {
       "masked": "The programme develops ____ skills needed for employment.",
       "options": [
         "foundation-mcq-16",
-        "foundation-mcq-15",
-        "foundation-mcq-17",
-        "foundation-mcq-14",
-        "foundation-mcq-18",
-        "foundation-mcq-13"
+        "foundation-mcq-67",
+        "foundation-mcq-35",
+        "foundation-mcq-59"
       ],
       "explanation": "本句的「foundation」指「基礎技能」。",
       "sentenceIndex": 36,
@@ -2767,12 +2633,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-16": "本句指「基礎技能」。",
-        "foundation-mcq-15": "「基礎知識」與本句語境不同。",
-        "foundation-mcq-17": "「理論基礎」與本句語境不同。",
-        "foundation-mcq-14": "「學科基礎」與本句語境不同。",
-        "foundation-mcq-18": "「科學基礎」與本句語境不同。",
-        "foundation-mcq-13": "「在基礎上發展」與本句語境不同。"
+        "foundation-mcq-16": "本句的「foundation」指「基礎技能」。",
+        "foundation-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-16"
     },
@@ -2784,11 +2648,9 @@ export default {
       "masked": "The research has a strong ____.",
       "options": [
         "foundation-mcq-17",
-        "foundation-mcq-16",
-        "foundation-mcq-18",
-        "foundation-mcq-15",
-        "foundation-mcq-19",
-        "foundation-mcq-14"
+        "foundation-mcq-67",
+        "foundation-mcq-42",
+        "foundation-mcq-58"
       ],
       "explanation": "本句的「theoretical foundation」指「理論基礎」。",
       "sentenceIndex": 37,
@@ -2797,12 +2659,10 @@ export default {
         "theoretical foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-17": "本句指「理論基礎」。",
-        "foundation-mcq-16": "「基礎技能」與本句語境不同。",
-        "foundation-mcq-18": "「科學基礎」與本句語境不同。",
-        "foundation-mcq-15": "「基礎知識」與本句語境不同。",
-        "foundation-mcq-19": "「法律基礎」與本句語境不同。",
-        "foundation-mcq-14": "「學科基礎」與本句語境不同。"
+        "foundation-mcq-17": "本句的「theoretical foundation」指「理論基礎」。",
+        "foundation-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-17"
     },
@@ -2814,11 +2674,9 @@ export default {
       "masked": "The model lacks a clear theoretical ____.",
       "options": [
         "foundation-mcq-17",
-        "foundation-mcq-16",
-        "foundation-mcq-18",
-        "foundation-mcq-15",
-        "foundation-mcq-19",
-        "foundation-mcq-14"
+        "foundation-mcq-58",
+        "foundation-mcq-71",
+        "foundation-mcq-35"
       ],
       "explanation": "本句的「foundation」指「理論基礎」。",
       "sentenceIndex": 38,
@@ -2827,12 +2685,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-17": "本句指「理論基礎」。",
-        "foundation-mcq-16": "「基礎技能」與本句語境不同。",
-        "foundation-mcq-18": "「科學基礎」與本句語境不同。",
-        "foundation-mcq-15": "「基礎知識」與本句語境不同。",
-        "foundation-mcq-19": "「法律基礎」與本句語境不同。",
-        "foundation-mcq-14": "「學科基礎」與本句語境不同。"
+        "foundation-mcq-17": "本句的「foundation」指「理論基礎」。",
+        "foundation-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-17"
     },
@@ -2844,11 +2700,9 @@ export default {
       "masked": "The claim has little ____.",
       "options": [
         "foundation-mcq-18",
-        "foundation-mcq-17",
-        "foundation-mcq-19",
-        "foundation-mcq-16",
-        "foundation-mcq-20",
-        "foundation-mcq-15"
+        "foundation-mcq-48",
+        "foundation-mcq-42",
+        "foundation-mcq-59"
       ],
       "explanation": "本句的「scientific foundation」指「科學基礎」。",
       "sentenceIndex": 39,
@@ -2857,12 +2711,10 @@ export default {
         "scientific foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-18": "本句指「科學基礎」。",
-        "foundation-mcq-17": "「理論基礎」與本句語境不同。",
-        "foundation-mcq-19": "「法律基礎」與本句語境不同。",
-        "foundation-mcq-16": "「基礎技能」與本句語境不同。",
-        "foundation-mcq-20": "「道德基礎」與本句語境不同。",
-        "foundation-mcq-15": "「基礎知識」與本句語境不同。"
+        "foundation-mcq-18": "本句的「scientific foundation」指「科學基礎」。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-18"
     },
@@ -2874,11 +2726,9 @@ export default {
       "masked": "The policy should rest on a sound scientific ____.",
       "options": [
         "foundation-mcq-18",
-        "foundation-mcq-17",
-        "foundation-mcq-19",
-        "foundation-mcq-16",
-        "foundation-mcq-20",
-        "foundation-mcq-15"
+        "foundation-mcq-36",
+        "foundation-mcq-71",
+        "foundation-pdf-005"
       ],
       "explanation": "本句的「foundation」指「科學基礎」。",
       "sentenceIndex": 40,
@@ -2887,12 +2737,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-18": "本句指「科學基礎」。",
-        "foundation-mcq-17": "「理論基礎」與本句語境不同。",
-        "foundation-mcq-19": "「法律基礎」與本句語境不同。",
-        "foundation-mcq-16": "「基礎技能」與本句語境不同。",
-        "foundation-mcq-20": "「道德基礎」與本句語境不同。",
-        "foundation-mcq-15": "「基礎知識」與本句語境不同。"
+        "foundation-mcq-18": "本句的「foundation」指「科學基礎」。",
+        "foundation-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-18"
     },
@@ -2904,11 +2752,9 @@ export default {
       "masked": "The regulation has a clear ____.",
       "options": [
         "foundation-mcq-19",
-        "foundation-mcq-18",
-        "foundation-mcq-20",
-        "foundation-mcq-17",
-        "foundation-mcq-21",
-        "foundation-mcq-16"
+        "foundation-mcq-71",
+        "foundation-mcq-35",
+        "foundation-mcq-37"
       ],
       "explanation": "本句的「legal foundation」指「法律基礎」。",
       "sentenceIndex": 41,
@@ -2917,12 +2763,10 @@ export default {
         "legal foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-19": "本句指「法律基礎」。",
-        "foundation-mcq-18": "「科學基礎」與本句語境不同。",
-        "foundation-mcq-20": "「道德基礎」與本句語境不同。",
-        "foundation-mcq-17": "「理論基礎」與本句語境不同。",
-        "foundation-mcq-21": "「地基」與本句語境不同。",
-        "foundation-mcq-16": "「基礎技能」與本句語境不同。"
+        "foundation-mcq-19": "本句的「legal foundation」指「法律基礎」。",
+        "foundation-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-19"
     },
@@ -2934,11 +2778,9 @@ export default {
       "masked": "The challenge questioned the legal ____ of the decision.",
       "options": [
         "foundation-mcq-19",
-        "foundation-mcq-18",
-        "foundation-mcq-20",
-        "foundation-mcq-17",
-        "foundation-mcq-21",
-        "foundation-mcq-16"
+        "foundation-mcq-36",
+        "foundation-mcq-70",
+        "foundation-pdf-003"
       ],
       "explanation": "本句的「foundation」指「法律基礎」。",
       "sentenceIndex": 42,
@@ -2947,12 +2789,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-19": "本句指「法律基礎」。",
-        "foundation-mcq-18": "「科學基礎」與本句語境不同。",
-        "foundation-mcq-20": "「道德基礎」與本句語境不同。",
-        "foundation-mcq-17": "「理論基礎」與本句語境不同。",
-        "foundation-mcq-21": "「地基」與本句語境不同。",
-        "foundation-mcq-16": "「基礎技能」與本句語境不同。"
+        "foundation-mcq-19": "本句的「foundation」指「法律基礎」。",
+        "foundation-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-19"
     },
@@ -2964,11 +2804,9 @@ export default {
       "masked": "Trust has a moral as well as practical ____.",
       "options": [
         "foundation-mcq-20",
-        "foundation-mcq-19",
-        "foundation-mcq-21",
-        "foundation-mcq-18",
-        "foundation-mcq-22",
-        "foundation-mcq-17"
+        "foundation-mcq-58",
+        "foundation-mcq-40",
+        "foundation-mcq-48"
       ],
       "explanation": "本句的「foundation」指「道德基礎」。",
       "sentenceIndex": 43,
@@ -2977,12 +2815,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-20": "本句指「道德基礎」。",
-        "foundation-mcq-19": "「法律基礎」與本句語境不同。",
-        "foundation-mcq-21": "「地基」與本句語境不同。",
-        "foundation-mcq-18": "「科學基礎」與本句語境不同。",
-        "foundation-mcq-22": "「建築地基」與本句語境不同。",
-        "foundation-mcq-17": "「理論基礎」與本句語境不同。"
+        "foundation-mcq-20": "本句的「foundation」指「道德基礎」。",
+        "foundation-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-20"
     },
@@ -2994,11 +2830,9 @@ export default {
       "masked": "The argument rests on a particular moral ____.",
       "options": [
         "foundation-mcq-20",
-        "foundation-mcq-19",
-        "foundation-mcq-21",
-        "foundation-mcq-18",
-        "foundation-mcq-22",
-        "foundation-mcq-17"
+        "foundation-mcq-41",
+        "foundation-pdf-003",
+        "foundation-mcq-46"
       ],
       "explanation": "本句的「foundation」指「道德基礎」。",
       "sentenceIndex": 44,
@@ -3007,12 +2841,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-20": "本句指「道德基礎」。",
-        "foundation-mcq-19": "「法律基礎」與本句語境不同。",
-        "foundation-mcq-21": "「地基」與本句語境不同。",
-        "foundation-mcq-18": "「科學基礎」與本句語境不同。",
-        "foundation-mcq-22": "「建築地基」與本句語境不同。",
-        "foundation-mcq-17": "「理論基礎」與本句語境不同。"
+        "foundation-mcq-20": "本句的「foundation」指「道德基礎」。",
+        "foundation-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-20"
     },
@@ -3024,11 +2856,9 @@ export default {
       "masked": "Workers poured concrete for the ____.",
       "options": [
         "foundation-mcq-21",
-        "foundation-mcq-20",
-        "foundation-mcq-22",
-        "foundation-mcq-19",
-        "foundation-mcq-23",
-        "foundation-mcq-18"
+        "foundation-mcq-59",
+        "foundation-mcq-42",
+        "foundation-mcq-67"
       ],
       "explanation": "本句的「foundation」指「地基」。",
       "sentenceIndex": 45,
@@ -3037,12 +2867,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-21": "本句指「地基」。",
-        "foundation-mcq-20": "「道德基礎」與本句語境不同。",
-        "foundation-mcq-22": "「建築地基」與本句語境不同。",
-        "foundation-mcq-19": "「法律基礎」與本句語境不同。",
-        "foundation-mcq-23": "「混凝土地基」與本句語境不同。",
-        "foundation-mcq-18": "「科學基礎」與本句語境不同。"
+        "foundation-mcq-21": "本句的「foundation」指「地基」。",
+        "foundation-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-21"
     },
@@ -3054,11 +2882,9 @@ export default {
       "masked": "The building has deep ____.",
       "options": [
         "foundation-mcq-21",
-        "foundation-mcq-20",
-        "foundation-mcq-22",
-        "foundation-mcq-19",
-        "foundation-mcq-23",
-        "foundation-mcq-18"
+        "foundation-mcq-57",
+        "foundation-mcq-32",
+        "foundation-pdf-001"
       ],
       "explanation": "本句的「foundations」指「地基」。",
       "sentenceIndex": 46,
@@ -3067,12 +2893,10 @@ export default {
         "foundations"
       ],
       "optionReasons": {
-        "foundation-mcq-21": "本句指「地基」。",
-        "foundation-mcq-20": "「道德基礎」與本句語境不同。",
-        "foundation-mcq-22": "「建築地基」與本句語境不同。",
-        "foundation-mcq-19": "「法律基礎」與本句語境不同。",
-        "foundation-mcq-23": "「混凝土地基」與本句語境不同。",
-        "foundation-mcq-18": "「科學基礎」與本句語境不同。"
+        "foundation-mcq-21": "本句的「foundations」指「地基」。",
+        "foundation-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-21"
     },
@@ -3084,11 +2908,9 @@ export default {
       "masked": "Engineers inspected the ____.",
       "options": [
         "foundation-mcq-22",
-        "foundation-mcq-21",
-        "foundation-mcq-23",
-        "foundation-mcq-20",
-        "foundation-mcq-24",
-        "foundation-mcq-19"
+        "foundation-mcq-57",
+        "foundation-mcq-48",
+        "foundation-pdf-004"
       ],
       "explanation": "本句的「building foundations」指「建築地基」。",
       "sentenceIndex": 47,
@@ -3097,12 +2919,10 @@ export default {
         "building foundations"
       ],
       "optionReasons": {
-        "foundation-mcq-22": "本句指「建築地基」。",
-        "foundation-mcq-21": "「地基」與本句語境不同。",
-        "foundation-mcq-23": "「混凝土地基」與本句語境不同。",
-        "foundation-mcq-20": "「道德基礎」與本句語境不同。",
-        "foundation-mcq-24": "「地基牆」與本句語境不同。",
-        "foundation-mcq-19": "「法律基礎」與本句語境不同。"
+        "foundation-mcq-22": "本句的「building foundations」指「建築地基」。",
+        "foundation-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-22"
     },
@@ -3114,11 +2934,9 @@ export default {
       "masked": "Weak ____ can cause structural problems.",
       "options": [
         "foundation-mcq-22",
-        "foundation-mcq-21",
-        "foundation-mcq-23",
-        "foundation-mcq-20",
-        "foundation-mcq-24",
-        "foundation-mcq-19"
+        "foundation-mcq-71",
+        "foundation-reviewed-3032fcc537",
+        "foundation-mcq-65"
       ],
       "explanation": "本句的「foundations」指「建築地基」。",
       "sentenceIndex": 48,
@@ -3127,12 +2945,10 @@ export default {
         "foundations"
       ],
       "optionReasons": {
-        "foundation-mcq-22": "本句指「建築地基」。",
-        "foundation-mcq-21": "「地基」與本句語境不同。",
-        "foundation-mcq-23": "「混凝土地基」與本句語境不同。",
-        "foundation-mcq-20": "「道德基礎」與本句語境不同。",
-        "foundation-mcq-24": "「地基牆」與本句語境不同。",
-        "foundation-mcq-19": "「法律基礎」與本句語境不同。"
+        "foundation-mcq-22": "本句的「foundations」指「建築地基」。",
+        "foundation-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "foundation-reviewed-3032fcc537": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-22"
     },
@@ -3144,11 +2960,9 @@ export default {
       "masked": "The house rests on a ____.",
       "options": [
         "foundation-mcq-23",
-        "foundation-mcq-22",
-        "foundation-mcq-24",
-        "foundation-mcq-21",
-        "foundation-mcq-25",
-        "foundation-mcq-20"
+        "foundation-pdf-005",
+        "foundation-mcq-44",
+        "foundation-mcq-39"
       ],
       "explanation": "本句的「concrete foundation」指「混凝土地基」。",
       "sentenceIndex": 49,
@@ -3157,12 +2971,10 @@ export default {
         "concrete foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-23": "本句指「混凝土地基」。",
-        "foundation-mcq-22": "「建築地基」與本句語境不同。",
-        "foundation-mcq-24": "「地基牆」與本句語境不同。",
-        "foundation-mcq-21": "「地基」與本句語境不同。",
-        "foundation-mcq-25": "「基礎底板」與本句語境不同。",
-        "foundation-mcq-20": "「道德基礎」與本句語境不同。"
+        "foundation-mcq-23": "本句的「concrete foundation」指「混凝土地基」。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-23"
     },
@@ -3174,11 +2986,9 @@ export default {
       "masked": "The ____ must be strong enough to carry the load.",
       "options": [
         "foundation-mcq-23",
-        "foundation-mcq-22",
-        "foundation-mcq-24",
-        "foundation-mcq-21",
-        "foundation-mcq-25",
-        "foundation-mcq-20"
+        "foundation-mcq-34",
+        "foundation-mcq-67",
+        "foundation-mcq-46"
       ],
       "explanation": "本句的「foundation」指「混凝土地基」。",
       "sentenceIndex": 50,
@@ -3187,12 +2997,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-23": "本句指「混凝土地基」。",
-        "foundation-mcq-22": "「建築地基」與本句語境不同。",
-        "foundation-mcq-24": "「地基牆」與本句語境不同。",
-        "foundation-mcq-21": "「地基」與本句語境不同。",
-        "foundation-mcq-25": "「基礎底板」與本句語境不同。",
-        "foundation-mcq-20": "「道德基礎」與本句語境不同。"
+        "foundation-mcq-23": "本句的「foundation」指「混凝土地基」。",
+        "foundation-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-23"
     },
@@ -3204,11 +3012,9 @@ export default {
       "masked": "Cracks appeared in the ____.",
       "options": [
         "foundation-mcq-24",
-        "foundation-mcq-23",
-        "foundation-mcq-25",
-        "foundation-mcq-22",
-        "foundation-mcq-26",
-        "foundation-mcq-21"
+        "foundation-mcq-67",
+        "foundation-mcq-44",
+        "foundation-pdf-004"
       ],
       "explanation": "本句的「foundation wall」指「地基牆」。",
       "sentenceIndex": 51,
@@ -3217,12 +3023,10 @@ export default {
         "foundation wall"
       ],
       "optionReasons": {
-        "foundation-mcq-24": "本句指「地基牆」。",
-        "foundation-mcq-23": "「混凝土地基」與本句語境不同。",
-        "foundation-mcq-25": "「基礎底板」與本句語境不同。",
-        "foundation-mcq-22": "「建築地基」與本句語境不同。",
-        "foundation-mcq-26": "「淺基礎」與本句語境不同。",
-        "foundation-mcq-21": "「地基」與本句語境不同。"
+        "foundation-mcq-24": "本句的「foundation wall」指「地基牆」。",
+        "foundation-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-24"
     },
@@ -3234,11 +3038,9 @@ export default {
       "masked": "Water was entering through the ____ walls.",
       "options": [
         "foundation-mcq-24",
-        "foundation-mcq-23",
-        "foundation-mcq-25",
-        "foundation-mcq-22",
-        "foundation-mcq-26",
-        "foundation-mcq-21"
+        "foundation-mcq-34",
+        "foundation-mcq-70",
+        "foundation-mcq-44"
       ],
       "explanation": "本句的「foundation」指「地基牆」。",
       "sentenceIndex": 52,
@@ -3247,12 +3049,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-24": "本句指「地基牆」。",
-        "foundation-mcq-23": "「混凝土地基」與本句語境不同。",
-        "foundation-mcq-25": "「基礎底板」與本句語境不同。",
-        "foundation-mcq-22": "「建築地基」與本句語境不同。",
-        "foundation-mcq-26": "「淺基礎」與本句語境不同。",
-        "foundation-mcq-21": "「地基」與本句語境不同。"
+        "foundation-mcq-24": "本句的「foundation」指「地基牆」。",
+        "foundation-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-24"
     },
@@ -3264,11 +3064,9 @@ export default {
       "masked": "The building uses a concrete ____.",
       "options": [
         "foundation-mcq-25",
-        "foundation-mcq-24",
-        "foundation-mcq-26",
-        "foundation-mcq-23",
-        "foundation-mcq-27",
-        "foundation-mcq-22"
+        "foundation-mcq-42",
+        "foundation-pdf-003",
+        "foundation-mcq-34"
       ],
       "explanation": "本句的「foundation slab」指「基礎底板」。",
       "sentenceIndex": 53,
@@ -3277,12 +3075,10 @@ export default {
         "foundation slab"
       ],
       "optionReasons": {
-        "foundation-mcq-25": "本句指「基礎底板」。",
-        "foundation-mcq-24": "「地基牆」與本句語境不同。",
-        "foundation-mcq-26": "「淺基礎」與本句語境不同。",
-        "foundation-mcq-23": "「混凝土地基」與本句語境不同。",
-        "foundation-mcq-27": "「深基礎」與本句語境不同。",
-        "foundation-mcq-22": "「建築地基」與本句語境不同。"
+        "foundation-mcq-25": "本句的「foundation slab」指「基礎底板」。",
+        "foundation-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-25"
     },
@@ -3294,11 +3090,9 @@ export default {
       "masked": "Smaller buildings may use ____.",
       "options": [
         "foundation-mcq-26",
-        "foundation-mcq-25",
-        "foundation-mcq-27",
-        "foundation-mcq-24",
-        "foundation-mcq-28",
-        "foundation-mcq-23"
+        "foundation-mcq-32",
+        "foundation-mcq-41",
+        "foundation-mcq-48"
       ],
       "explanation": "本句的「shallow foundations」指「淺基礎」。",
       "sentenceIndex": 54,
@@ -3307,12 +3101,10 @@ export default {
         "shallow foundations"
       ],
       "optionReasons": {
-        "foundation-mcq-26": "本句指「淺基礎」。",
-        "foundation-mcq-25": "「基礎底板」與本句語境不同。",
-        "foundation-mcq-27": "「深基礎」與本句語境不同。",
-        "foundation-mcq-24": "「地基牆」與本句語境不同。",
-        "foundation-mcq-28": "「地基沉降」與本句語境不同。",
-        "foundation-mcq-23": "「混凝土地基」與本句語境不同。"
+        "foundation-mcq-26": "本句的「shallow foundations」指「淺基礎」。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-26"
     },
@@ -3324,11 +3116,9 @@ export default {
       "masked": "Soil conditions determine whether a shallow ____ is suitable.",
       "options": [
         "foundation-mcq-26",
-        "foundation-mcq-25",
-        "foundation-mcq-27",
-        "foundation-mcq-24",
-        "foundation-mcq-28",
-        "foundation-mcq-23"
+        "foundation-mcq-44",
+        "foundation-mcq-71",
+        "foundation-mcq-67"
       ],
       "explanation": "本句的「foundation」指「淺基礎」。",
       "sentenceIndex": 55,
@@ -3337,12 +3127,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-26": "本句指「淺基礎」。",
-        "foundation-mcq-25": "「基礎底板」與本句語境不同。",
-        "foundation-mcq-27": "「深基礎」與本句語境不同。",
-        "foundation-mcq-24": "「地基牆」與本句語境不同。",
-        "foundation-mcq-28": "「地基沉降」與本句語境不同。",
-        "foundation-mcq-23": "「混凝土地基」與本句語境不同。"
+        "foundation-mcq-26": "本句的「foundation」指「淺基礎」。",
+        "foundation-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-26"
     },
@@ -3354,11 +3142,9 @@ export default {
       "masked": "Tall buildings often require ____.",
       "options": [
         "foundation-mcq-27",
-        "foundation-mcq-26",
-        "foundation-mcq-28",
-        "foundation-mcq-25",
-        "foundation-mcq-29",
-        "foundation-mcq-24"
+        "foundation-reviewed-3032fcc537",
+        "foundation-mcq-70",
+        "foundation-mcq-59"
       ],
       "explanation": "本句的「deep foundations」指「深基礎」。",
       "sentenceIndex": 56,
@@ -3367,12 +3153,10 @@ export default {
         "deep foundations"
       ],
       "optionReasons": {
-        "foundation-mcq-27": "本句指「深基礎」。",
-        "foundation-mcq-26": "「淺基礎」與本句語境不同。",
-        "foundation-mcq-28": "「地基沉降」與本句語境不同。",
-        "foundation-mcq-25": "「基礎底板」與本句語境不同。",
-        "foundation-mcq-29": "「地基失效」與本句語境不同。",
-        "foundation-mcq-24": "「地基牆」與本句語境不同。"
+        "foundation-mcq-27": "本句的「deep foundations」指「深基礎」。",
+        "foundation-reviewed-3032fcc537": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-27"
     },
@@ -3384,11 +3168,9 @@ export default {
       "masked": "Piles can form part of a deep-____ system.",
       "options": [
         "foundation-mcq-27",
-        "foundation-mcq-26",
-        "foundation-mcq-28",
-        "foundation-mcq-25",
-        "foundation-mcq-29",
-        "foundation-mcq-24"
+        "foundation-pdf-001",
+        "foundation-mcq-46",
+        "foundation-mcq-65"
       ],
       "explanation": "本句的「foundation」指「深基礎」。",
       "sentenceIndex": 57,
@@ -3397,12 +3179,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-27": "本句指「深基礎」。",
-        "foundation-mcq-26": "「淺基礎」與本句語境不同。",
-        "foundation-mcq-28": "「地基沉降」與本句語境不同。",
-        "foundation-mcq-25": "「基礎底板」與本句語境不同。",
-        "foundation-mcq-29": "「地基失效」與本句語境不同。",
-        "foundation-mcq-24": "「地基牆」與本句語境不同。"
+        "foundation-mcq-27": "本句的「foundation」指「深基礎」。",
+        "foundation-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-27"
     },
@@ -3414,11 +3194,9 @@ export default {
       "masked": "Uneven ____ caused cracks in the wall.",
       "options": [
         "foundation-mcq-28",
-        "foundation-mcq-27",
-        "foundation-mcq-29",
-        "foundation-mcq-26",
-        "foundation-mcq-30",
-        "foundation-mcq-25"
+        "foundation-mcq-38",
+        "foundation-pdf-004",
+        "foundation-mcq-34"
       ],
       "explanation": "本句的「foundation settlement」指「地基沉降」。",
       "sentenceIndex": 58,
@@ -3427,12 +3205,10 @@ export default {
         "foundation settlement"
       ],
       "optionReasons": {
-        "foundation-mcq-28": "本句指「地基沉降」。",
-        "foundation-mcq-27": "「深基礎」與本句語境不同。",
-        "foundation-mcq-29": "「地基失效」與本句語境不同。",
-        "foundation-mcq-26": "「淺基礎」與本句語境不同。",
-        "foundation-mcq-30": "「奠基石」與本句語境不同。",
-        "foundation-mcq-25": "「基礎底板」與本句語境不同。"
+        "foundation-mcq-28": "本句的「foundation settlement」指「地基沉降」。",
+        "foundation-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-28"
     },
@@ -3444,11 +3220,9 @@ export default {
       "masked": "Poor soil conditions can lead to ____.",
       "options": [
         "foundation-mcq-29",
-        "foundation-mcq-28",
-        "foundation-mcq-30",
-        "foundation-mcq-27",
-        "foundation-mcq-31",
-        "foundation-mcq-26"
+        "foundation-mcq-40",
+        "foundation-mcq-48",
+        "foundation-pdf-005"
       ],
       "explanation": "本句的「foundation failure」指「地基失效」。",
       "sentenceIndex": 59,
@@ -3457,12 +3231,10 @@ export default {
         "foundation failure"
       ],
       "optionReasons": {
-        "foundation-mcq-29": "本句指「地基失效」。",
-        "foundation-mcq-28": "「地基沉降」與本句語境不同。",
-        "foundation-mcq-30": "「奠基石」與本句語境不同。",
-        "foundation-mcq-27": "「深基礎」與本句語境不同。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。",
-        "foundation-mcq-26": "「淺基礎」與本句語境不同。"
+        "foundation-mcq-29": "本句的「foundation failure」指「地基失效」。",
+        "foundation-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-29"
     },
@@ -3474,11 +3246,9 @@ export default {
       "masked": "____ failure can threaten the entire structure.",
       "options": [
         "foundation-mcq-29",
-        "foundation-mcq-28",
-        "foundation-mcq-30",
-        "foundation-mcq-27",
-        "foundation-mcq-31",
-        "foundation-mcq-26"
+        "foundation-mcq-37",
+        "foundation-mcq-48",
+        "foundation-pdf-004"
       ],
       "explanation": "本句的「Foundation」指「地基失效」。",
       "sentenceIndex": 60,
@@ -3487,12 +3257,10 @@ export default {
         "Foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-29": "本句指「地基失效」。",
-        "foundation-mcq-28": "「地基沉降」與本句語境不同。",
-        "foundation-mcq-30": "「奠基石」與本句語境不同。",
-        "foundation-mcq-27": "「深基礎」與本句語境不同。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。",
-        "foundation-mcq-26": "「淺基礎」與本句語境不同。"
+        "foundation-mcq-29": "本句的「Foundation」指「地基失效」。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-29"
     },
@@ -3504,11 +3272,9 @@ export default {
       "masked": "The mayor laid the ____ of the new hospital.",
       "options": [
         "foundation-mcq-30",
-        "foundation-mcq-29",
-        "foundation-mcq-31",
-        "foundation-mcq-28",
-        "foundation-mcq-32",
-        "foundation-mcq-27"
+        "foundation-mcq-46",
+        "foundation-pdf-004",
+        "foundation-mcq-44"
       ],
       "explanation": "本句的「foundation stone」指「奠基石」。",
       "sentenceIndex": 61,
@@ -3517,12 +3283,10 @@ export default {
         "foundation stone"
       ],
       "optionReasons": {
-        "foundation-mcq-30": "本句指「奠基石」。",
-        "foundation-mcq-29": "「地基失效」與本句語境不同。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。",
-        "foundation-mcq-28": "「地基沉降」與本句語境不同。",
-        "foundation-mcq-32": "「從根本上動搖 X」與本句語境不同。",
-        "foundation-mcq-27": "「深基礎」與本句語境不同。"
+        "foundation-mcq-30": "本句的「foundation stone」指「奠基石」。",
+        "foundation-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-30"
     },
@@ -3534,11 +3298,9 @@ export default {
       "masked": "The date was engraved on the ____ stone.",
       "options": [
         "foundation-mcq-30",
-        "foundation-mcq-29",
-        "foundation-mcq-31",
-        "foundation-mcq-28",
         "foundation-mcq-32",
-        "foundation-mcq-27"
+        "foundation-mcq-35",
+        "foundation-mcq-42"
       ],
       "explanation": "本句的「foundation」指「奠基石」。",
       "sentenceIndex": 62,
@@ -3547,12 +3309,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-30": "本句指「奠基石」。",
-        "foundation-mcq-29": "「地基失效」與本句語境不同。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。",
-        "foundation-mcq-28": "「地基沉降」與本句語境不同。",
-        "foundation-mcq-32": "「從根本上動搖 X」與本句語境不同。",
-        "foundation-mcq-27": "「深基礎」與本句語境不同。"
+        "foundation-mcq-30": "本句的「foundation」指「奠基石」。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-30"
     },
@@ -3564,11 +3324,9 @@ export default {
       "masked": "The ____ stone was laid in 1920.",
       "options": [
         "foundation-mcq-31",
-        "foundation-mcq-30",
-        "foundation-mcq-32",
-        "foundation-mcq-29",
-        "foundation-mcq-33",
-        "foundation-mcq-28"
+        "foundation-mcq-44",
+        "foundation-mcq-71",
+        "foundation-mcq-41"
       ],
       "explanation": "本句的「foundation」指「奠基」。",
       "sentenceIndex": 63,
@@ -3577,12 +3335,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-31": "本句指「奠基」。",
-        "foundation-mcq-30": "「奠基石」與本句語境不同。",
-        "foundation-mcq-32": "「從根本上動搖 X」與本句語境不同。",
-        "foundation-mcq-29": "「地基失效」與本句語境不同。",
-        "foundation-mcq-33": "「創立；建立」與本句語境不同。",
-        "foundation-mcq-28": "「地基沉降」與本句語境不同。"
+        "foundation-mcq-31": "本句的「foundation」指「奠基」。",
+        "foundation-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-31"
     },
@@ -3594,11 +3350,9 @@ export default {
       "masked": "Officials attended a ceremony to lay the ____ stone.",
       "options": [
         "foundation-mcq-31",
-        "foundation-mcq-30",
-        "foundation-mcq-32",
-        "foundation-mcq-29",
-        "foundation-mcq-33",
-        "foundation-mcq-28"
+        "foundation-pdf-004",
+        "foundation-mcq-41",
+        "foundation-mcq-37"
       ],
       "explanation": "本句的「foundation」指「奠基」。",
       "sentenceIndex": 64,
@@ -3607,12 +3361,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-31": "本句指「奠基」。",
-        "foundation-mcq-30": "「奠基石」與本句語境不同。",
-        "foundation-mcq-32": "「從根本上動搖 X」與本句語境不同。",
-        "foundation-mcq-29": "「地基失效」與本句語境不同。",
-        "foundation-mcq-33": "「創立；建立」與本句語境不同。",
-        "foundation-mcq-28": "「地基沉降」與本句語境不同。"
+        "foundation-mcq-31": "本句的「foundation」指「奠基」。",
+        "foundation-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-31"
     },
@@ -3624,11 +3376,9 @@ export default {
       "masked": "Education is a ____.",
       "options": [
         "foundation-mcq-30",
-        "foundation-mcq-29",
-        "foundation-mcq-31",
-        "foundation-mcq-28",
-        "foundation-mcq-32",
-        "foundation-mcq-27"
+        "foundation-mcq-37",
+        "foundation-mcq-67",
+        "foundation-mcq-48"
       ],
       "explanation": "本句的「foundation stone of social development」指「奠基石」。",
       "sentenceIndex": 65,
@@ -3637,12 +3387,10 @@ export default {
         "foundation stone of social development"
       ],
       "optionReasons": {
-        "foundation-mcq-30": "本句指「奠基石」。",
-        "foundation-mcq-29": "「地基失效」與本句語境不同。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。",
-        "foundation-mcq-28": "「地基沉降」與本句語境不同。",
-        "foundation-mcq-32": "「從根本上動搖 X」與本句語境不同。",
-        "foundation-mcq-27": "「深基礎」與本句語境不同。"
+        "foundation-mcq-30": "本句的「foundation stone of social development」指「奠基石」。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-30"
     },
@@ -3654,11 +3402,9 @@ export default {
       "masked": "Trust became the ____ stone of their partnership.",
       "options": [
         "foundation-mcq-30",
-        "foundation-mcq-29",
-        "foundation-mcq-31",
-        "foundation-mcq-28",
-        "foundation-mcq-32",
-        "foundation-mcq-27"
+        "foundation-mcq-70",
+        "foundation-mcq-38",
+        "foundation-pdf-003"
       ],
       "explanation": "本句的「foundation」指「奠基石」。",
       "sentenceIndex": 66,
@@ -3667,12 +3413,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-30": "本句指「奠基石」。",
-        "foundation-mcq-29": "「地基失效」與本句語境不同。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。",
-        "foundation-mcq-28": "「地基沉降」與本句語境不同。",
-        "foundation-mcq-32": "「從根本上動搖 X」與本句語境不同。",
-        "foundation-mcq-27": "「深基礎」與本句語境不同。"
+        "foundation-mcq-30": "本句的「foundation」指「奠基石」。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-30"
     },
@@ -3684,11 +3428,9 @@ export default {
       "masked": "The scandal ____.",
       "options": [
         "foundation-mcq-32",
-        "foundation-mcq-31",
-        "foundation-mcq-33",
-        "foundation-mcq-30",
-        "foundation-mcq-34",
-        "foundation-mcq-29"
+        "foundation-mcq-68",
+        "foundation-mcq-40",
+        "foundation-mcq-50"
       ],
       "explanation": "本句的「shook the organisation to its foundations」指「從根本上動搖 X」。",
       "sentenceIndex": 67,
@@ -3697,12 +3439,10 @@ export default {
         "shook the organisation to its foundations"
       ],
       "optionReasons": {
-        "foundation-mcq-32": "本句指「從根本上動搖 X」。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。",
-        "foundation-mcq-33": "「創立；建立」與本句語境不同。",
-        "foundation-mcq-30": "「奠基石」與本句語境不同。",
-        "foundation-mcq-34": "「自成立以來」與本句語境不同。",
-        "foundation-mcq-29": "「地基失效」與本句語境不同。"
+        "foundation-mcq-32": "本句的「shook the organisation to its foundations」指「從根本上動搖 X」。",
+        "foundation-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-32"
     },
@@ -3714,11 +3454,9 @@ export default {
       "masked": "The discovery shook the theory to its ____.",
       "options": [
         "foundation-mcq-32",
-        "foundation-mcq-31",
-        "foundation-mcq-33",
-        "foundation-mcq-30",
-        "foundation-mcq-34",
-        "foundation-mcq-29"
+        "foundation-mcq-28",
+        "foundation-mcq-65",
+        "foundation-reviewed-3032fcc537"
       ],
       "explanation": "本句的「foundations」指「從根本上動搖 X」。",
       "sentenceIndex": 68,
@@ -3727,12 +3465,10 @@ export default {
         "foundations"
       ],
       "optionReasons": {
-        "foundation-mcq-32": "本句指「從根本上動搖 X」。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。",
-        "foundation-mcq-33": "「創立；建立」與本句語境不同。",
-        "foundation-mcq-30": "「奠基石」與本句語境不同。",
-        "foundation-mcq-34": "「自成立以來」與本句語境不同。",
-        "foundation-mcq-29": "「地基失效」與本句語境不同。"
+        "foundation-mcq-32": "本句的「foundations」指「從根本上動搖 X」。",
+        "foundation-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "foundation-reviewed-3032fcc537": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-32"
     },
@@ -3744,11 +3480,9 @@ export default {
       "masked": "The crisis ____.",
       "options": [
         "foundation-mcq-32",
-        "foundation-mcq-31",
-        "foundation-mcq-33",
-        "foundation-mcq-30",
-        "foundation-mcq-34",
-        "foundation-mcq-29"
+        "foundation-mcq-61",
+        "foundation-mcq-23",
+        "foundation-mcq-65"
       ],
       "explanation": "本句的「rocked the company to its foundations」指「從根本上動搖 X」。",
       "sentenceIndex": 69,
@@ -3757,12 +3491,10 @@ export default {
         "rocked the company to its foundations"
       ],
       "optionReasons": {
-        "foundation-mcq-32": "本句指「從根本上動搖 X」。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。",
-        "foundation-mcq-33": "「創立；建立」與本句語境不同。",
-        "foundation-mcq-30": "「奠基石」與本句語境不同。",
-        "foundation-mcq-34": "「自成立以來」與本句語境不同。",
-        "foundation-mcq-29": "「地基失效」與本句語境不同。"
+        "foundation-mcq-32": "本句的「rocked the company to its foundations」指「從根本上動搖 X」。",
+        "foundation-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-32"
     },
@@ -3774,11 +3506,9 @@ export default {
       "masked": "The allegations rocked the institution to its ____.",
       "options": [
         "foundation-mcq-32",
+        "foundation-mcq-37",
         "foundation-mcq-31",
-        "foundation-mcq-33",
-        "foundation-mcq-30",
-        "foundation-mcq-34",
-        "foundation-mcq-29"
+        "foundation-mcq-65"
       ],
       "explanation": "本句的「foundations」指「從根本上動搖 X」。",
       "sentenceIndex": 70,
@@ -3787,12 +3517,10 @@ export default {
         "foundations"
       ],
       "optionReasons": {
-        "foundation-mcq-32": "本句指「從根本上動搖 X」。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。",
-        "foundation-mcq-33": "「創立；建立」與本句語境不同。",
-        "foundation-mcq-30": "「奠基石」與本句語境不同。",
-        "foundation-mcq-34": "「自成立以來」與本句語境不同。",
-        "foundation-mcq-29": "「地基失效」與本句語境不同。"
+        "foundation-mcq-32": "本句的「foundations」指「從根本上動搖 X」。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-32"
     },
@@ -3804,11 +3532,9 @@ export default {
       "masked": "Dishonesty ____.",
       "options": [
         "foundation-mcq-32",
-        "foundation-mcq-31",
-        "foundation-mcq-33",
-        "foundation-mcq-30",
-        "foundation-mcq-34",
-        "foundation-mcq-29"
+        "foundation-mcq-06",
+        "foundation-mcq-69",
+        "foundation-mcq-34"
       ],
       "explanation": "本句的「undermines the foundations of trust」指「從根本上動搖 X」。",
       "sentenceIndex": 71,
@@ -3817,12 +3543,10 @@ export default {
         "undermines the foundations of trust"
       ],
       "optionReasons": {
-        "foundation-mcq-32": "本句指「從根本上動搖 X」。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。",
-        "foundation-mcq-33": "「創立；建立」與本句語境不同。",
-        "foundation-mcq-30": "「奠基石」與本句語境不同。",
-        "foundation-mcq-34": "「自成立以來」與本句語境不同。",
-        "foundation-mcq-29": "「地基失效」與本句語境不同。"
+        "foundation-mcq-32": "本句的「undermines the foundations of trust」指「從根本上動搖 X」。",
+        "foundation-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-32"
     },
@@ -3834,11 +3558,9 @@ export default {
       "masked": "Constant conflict can undermine the ____ of cooperation.",
       "options": [
         "foundation-mcq-32",
-        "foundation-mcq-31",
-        "foundation-mcq-33",
-        "foundation-mcq-30",
-        "foundation-mcq-34",
-        "foundation-mcq-29"
+        "foundation-mcq-50",
+        "foundation-mcq-06",
+        "foundation-mcq-36"
       ],
       "explanation": "本句的「foundations」指「從根本上動搖 X」。",
       "sentenceIndex": 72,
@@ -3847,12 +3569,10 @@ export default {
         "foundations"
       ],
       "optionReasons": {
-        "foundation-mcq-32": "本句指「從根本上動搖 X」。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。",
-        "foundation-mcq-33": "「創立；建立」與本句語境不同。",
-        "foundation-mcq-30": "「奠基石」與本句語境不同。",
-        "foundation-mcq-34": "「自成立以來」與本句語境不同。",
-        "foundation-mcq-29": "「地基失效」與本句語境不同。"
+        "foundation-mcq-32": "本句的「foundations」指「從根本上動搖 X」。",
+        "foundation-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-32"
     },
@@ -3864,11 +3584,9 @@ export default {
       "masked": "The city grew rapidly after its ____.",
       "options": [
         "foundation-pdf-001",
-        "foundation-mcq-32",
-        "foundation-mcq-34",
-        "foundation-mcq-31",
-        "foundation-mcq-35",
-        "foundation-mcq-30"
+        "foundation-mcq-62",
+        "foundation-pdf-005",
+        "foundation-mcq-48"
       ],
       "explanation": "本句的「foundation」指「某城市、機構、制度等首次被正式建立的事件／過程」。",
       "sentenceIndex": 73,
@@ -3877,12 +3595,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-pdf-001": "本句指「某城市、機構、制度等首次被正式建立的事件／過程」。",
-        "foundation-mcq-32": "「從根本上動搖 X」與本句語境不同。",
-        "foundation-mcq-34": "「自成立以來」與本句語境不同。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。",
-        "foundation-mcq-35": "「創立公司」與本句語境不同。",
-        "foundation-mcq-30": "「奠基石」與本句語境不同。"
+        "foundation-pdf-001": "本句的「foundation」指「某城市、機構、制度等首次被正式建立的事件／過程」。",
+        "foundation-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-pdf-001"
     },
@@ -3894,11 +3610,9 @@ export default {
       "masked": "The organisation celebrated the anniversary of its ____.",
       "options": [
         "foundation-pdf-001",
-        "foundation-mcq-32",
-        "foundation-mcq-34",
-        "foundation-mcq-31",
-        "foundation-mcq-35",
-        "foundation-mcq-30"
+        "foundation-mcq-08",
+        "foundation-mcq-55",
+        "foundation-pdf-005"
       ],
       "explanation": "本句的「foundation」指「某城市、機構、制度等首次被正式建立的事件／過程」。",
       "sentenceIndex": 74,
@@ -3907,12 +3621,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-pdf-001": "本句指「某城市、機構、制度等首次被正式建立的事件／過程」。",
-        "foundation-mcq-32": "「從根本上動搖 X」與本句語境不同。",
-        "foundation-mcq-34": "「自成立以來」與本句語境不同。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。",
-        "foundation-mcq-35": "「創立公司」與本句語境不同。",
-        "foundation-mcq-30": "「奠基石」與本句語境不同。"
+        "foundation-pdf-001": "本句的「foundation」指「某城市、機構、制度等首次被正式建立的事件／過程」。",
+        "foundation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-pdf-001"
     },
@@ -3924,11 +3636,9 @@ export default {
       "masked": "The company has expanded greatly ____.",
       "options": [
         "foundation-mcq-34",
-        "foundation-mcq-33",
-        "foundation-mcq-35",
-        "foundation-mcq-32",
-        "foundation-mcq-36",
-        "foundation-mcq-31"
+        "foundation-mcq-68",
+        "foundation-mcq-39",
+        "foundation-mcq-55"
       ],
       "explanation": "本句的「since its foundation」指「自成立以來」。",
       "sentenceIndex": 75,
@@ -3937,12 +3647,10 @@ export default {
         "since its foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-34": "本句指「自成立以來」。",
-        "foundation-mcq-33": "「創立；建立」與本句語境不同。",
-        "foundation-mcq-35": "「創立公司」與本句語境不同。",
-        "foundation-mcq-32": "「從根本上動搖 X」與本句語境不同。",
-        "foundation-mcq-36": "「創立於 2010 年」與本句語境不同。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。"
+        "foundation-mcq-34": "本句的「since its foundation」指「自成立以來」。",
+        "foundation-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-34"
     },
@@ -3954,11 +3662,9 @@ export default {
       "masked": "The museum has changed considerably since its ____.",
       "options": [
         "foundation-mcq-34",
-        "foundation-mcq-33",
-        "foundation-mcq-35",
-        "foundation-mcq-32",
-        "foundation-mcq-36",
-        "foundation-mcq-31"
+        "foundation-mcq-05",
+        "foundation-mcq-54",
+        "foundation-mcq-23"
       ],
       "explanation": "本句的「foundation」指「自成立以來」。",
       "sentenceIndex": 76,
@@ -3967,12 +3673,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-34": "本句指「自成立以來」。",
-        "foundation-mcq-33": "「創立；建立」與本句語境不同。",
-        "foundation-mcq-35": "「創立公司」與本句語境不同。",
-        "foundation-mcq-32": "「從根本上動搖 X」與本句語境不同。",
-        "foundation-mcq-36": "「創立於 2010 年」與本句語境不同。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。"
+        "foundation-mcq-34": "本句的「foundation」指「自成立以來」。",
+        "foundation-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-34"
     },
@@ -3984,11 +3688,9 @@ export default {
       "masked": "The exact ____ is uncertain.",
       "options": [
         "foundation-mcq-34",
-        "foundation-mcq-33",
-        "foundation-mcq-35",
-        "foundation-mcq-32",
-        "foundation-mcq-36",
-        "foundation-mcq-31"
+        "foundation-mcq-60",
+        "foundation-pdf-005",
+        "foundation-mcq-65"
       ],
       "explanation": "本句的「date of foundation」指「自成立以來」。",
       "sentenceIndex": 77,
@@ -3997,12 +3699,10 @@ export default {
         "date of foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-34": "本句指「自成立以來」。",
-        "foundation-mcq-33": "「創立；建立」與本句語境不同。",
-        "foundation-mcq-35": "「創立公司」與本句語境不同。",
-        "foundation-mcq-32": "「從根本上動搖 X」與本句語境不同。",
-        "foundation-mcq-36": "「創立於 2010 年」與本句語境不同。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。"
+        "foundation-mcq-34": "本句的「date of foundation」指「自成立以來」。",
+        "foundation-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-34"
     },
@@ -4014,11 +3714,9 @@ export default {
       "masked": "Records from the ____ of the institution survive.",
       "options": [
         "foundation-mcq-34",
-        "foundation-mcq-33",
-        "foundation-mcq-35",
-        "foundation-mcq-32",
-        "foundation-mcq-36",
-        "foundation-mcq-31"
+        "foundation-mcq-25",
+        "foundation-pdf-005",
+        "foundation-mcq-39"
       ],
       "explanation": "本句的「foundation」指「自成立以來」。",
       "sentenceIndex": 78,
@@ -4027,12 +3725,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-34": "本句指「自成立以來」。",
-        "foundation-mcq-33": "「創立；建立」與本句語境不同。",
-        "foundation-mcq-35": "「創立公司」與本句語境不同。",
-        "foundation-mcq-32": "「從根本上動搖 X」與本句語境不同。",
-        "foundation-mcq-36": "「創立於 2010 年」與本句語境不同。",
-        "foundation-mcq-31": "「奠基」與本句語境不同。"
+        "foundation-mcq-34": "本句的「foundation」指「自成立以來」。",
+        "foundation-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-34"
     },
@@ -4044,11 +3740,9 @@ export default {
       "masked": "She ____ in 2018.",
       "options": [
         "foundation-mcq-35",
-        "foundation-mcq-34",
-        "foundation-mcq-36",
-        "foundation-mcq-33",
-        "foundation-mcq-37",
-        "foundation-mcq-32"
+        "foundation-pdf-003",
+        "foundation-mcq-26",
+        "foundation-mcq-67"
       ],
       "explanation": "本句的「founded the company」指「創立公司」。",
       "sentenceIndex": 79,
@@ -4057,44 +3751,40 @@ export default {
         "founded the company"
       ],
       "optionReasons": {
-        "foundation-mcq-35": "本句指「創立公司」。",
-        "foundation-mcq-34": "「自成立以來」與本句語境不同。",
-        "foundation-mcq-36": "「創立於 2010 年」與本句語境不同。",
-        "foundation-mcq-33": "「創立；建立」與本句語境不同。",
-        "foundation-mcq-37": "「建立在信任上」與本句語境不同。",
-        "foundation-mcq-32": "「從根本上動搖 X」與本句語境不同。"
+        "foundation-mcq-35": "本句的「founded the company」指「創立公司」。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-35"
     },
     {
       "id": "foundation-42-0",
-      "sense": "foundation-mcq-35",
+      "sense": "foundation-reviewed-3032fcc537",
       "en": "The university was founded in 1890.",
       "zh": "這所大學創立於 1890 年。",
       "masked": "The university was ____.",
       "options": [
-        "foundation-mcq-35",
-        "foundation-mcq-34",
-        "foundation-mcq-36",
-        "foundation-mcq-33",
-        "foundation-mcq-37",
-        "foundation-mcq-32"
+        "foundation-reviewed-3032fcc537",
+        "foundation-mcq-52",
+        "foundation-mcq-06",
+        "foundation-mcq-37"
       ],
-      "explanation": "本句的「founded in 1890」指「創立公司」。",
+      "explanation": "對照完整句子：「這所大學創立於 1890 年。」。這裡的「founded in 1890」表示「創辦學校／大學／機構」。",
       "sentenceIndex": 80,
       "sourcePractice": 1,
       "targets": [
         "founded in 1890"
       ],
       "optionReasons": {
-        "foundation-mcq-35": "本句指「創立公司」。",
-        "foundation-mcq-34": "「自成立以來」與本句語境不同。",
-        "foundation-mcq-36": "「創立於 2010 年」與本句語境不同。",
-        "foundation-mcq-33": "「創立；建立」與本句語境不同。",
-        "foundation-mcq-37": "「建立在信任上」與本句語境不同。",
-        "foundation-mcq-32": "「從根本上動搖 X」與本句語境不同。"
+        "foundation-reviewed-3032fcc537": "對照完整句子：「這所大學創立於 1890 年。」。這裡的「founded in 1890」表示「創辦學校／大學／機構」。",
+        "foundation-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "foundation-mcq-35"
+      "correctOption": "foundation-reviewed-3032fcc537",
+      "previousCorrectOption": "foundation-mcq-35",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "foundation-43-0",
@@ -4104,11 +3794,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "foundation-mcq-36",
-        "foundation-mcq-35",
-        "foundation-mcq-37",
-        "foundation-mcq-34",
-        "foundation-mcq-38",
-        "foundation-mcq-33"
+        "foundation-mcq-24",
+        "foundation-mcq-57",
+        "foundation-pdf-003"
       ],
       "explanation": "本句的「was founded in 2005」指「創立於 2010 年」。",
       "sentenceIndex": 81,
@@ -4117,12 +3805,10 @@ export default {
         "was founded in 2005"
       ],
       "optionReasons": {
-        "foundation-mcq-36": "本句指「創立於 2010 年」。",
-        "foundation-mcq-35": "「創立公司」與本句語境不同。",
-        "foundation-mcq-37": "「建立在信任上」與本句語境不同。",
-        "foundation-mcq-34": "「自成立以來」與本句語境不同。",
-        "foundation-mcq-38": "「創辦人」與本句語境不同。",
-        "foundation-mcq-33": "「創立；建立」與本句語境不同。"
+        "foundation-mcq-36": "本句的「was founded in 2005」指「創立於 2010 年」。",
+        "foundation-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-36"
     },
@@ -4134,11 +3820,9 @@ export default {
       "masked": "Effective teamwork is ____.",
       "options": [
         "foundation-mcq-37",
-        "foundation-mcq-36",
-        "foundation-mcq-38",
-        "foundation-mcq-35",
-        "foundation-mcq-39",
-        "foundation-mcq-34"
+        "foundation-mcq-69",
+        "foundation-mcq-52",
+        "foundation-mcq-46"
       ],
       "explanation": "本句的「founded on trust」指「建立在信任上」。",
       "sentenceIndex": 82,
@@ -4147,12 +3831,10 @@ export default {
         "founded on trust"
       ],
       "optionReasons": {
-        "foundation-mcq-37": "本句指「建立在信任上」。",
-        "foundation-mcq-36": "「創立於 2010 年」與本句語境不同。",
-        "foundation-mcq-38": "「創辦人」與本句語境不同。",
-        "foundation-mcq-35": "「創立公司」與本句語境不同。",
-        "foundation-mcq-39": "「共同創辦人」與本句語境不同。",
-        "foundation-mcq-34": "「自成立以來」與本句語境不同。"
+        "foundation-mcq-37": "本句的「founded on trust」指「建立在信任上」。",
+        "foundation-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-37"
     },
@@ -4164,11 +3846,9 @@ export default {
       "masked": "The claim is ____.",
       "options": [
         "foundation-mcq-37",
-        "foundation-mcq-36",
-        "foundation-mcq-38",
-        "foundation-mcq-35",
-        "foundation-mcq-39",
-        "foundation-mcq-34"
+        "foundation-mcq-71",
+        "foundation-mcq-19",
+        "foundation-reviewed-3032fcc537"
       ],
       "explanation": "本句的「founded on solid evidence」指「建立在信任上」。",
       "sentenceIndex": 83,
@@ -4177,12 +3857,10 @@ export default {
         "founded on solid evidence"
       ],
       "optionReasons": {
-        "foundation-mcq-37": "本句指「建立在信任上」。",
-        "foundation-mcq-36": "「創立於 2010 年」與本句語境不同。",
-        "foundation-mcq-38": "「創辦人」與本句語境不同。",
-        "foundation-mcq-35": "「創立公司」與本句語境不同。",
-        "foundation-mcq-39": "「共同創辦人」與本句語境不同。",
-        "foundation-mcq-34": "「自成立以來」與本句語境不同。"
+        "foundation-mcq-37": "本句的「founded on solid evidence」指「建立在信任上」。",
+        "foundation-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "foundation-reviewed-3032fcc537": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-37"
     },
@@ -4194,11 +3872,9 @@ export default {
       "masked": "Their partnership was ____.",
       "options": [
         "foundation-mcq-37",
-        "foundation-mcq-36",
-        "foundation-mcq-38",
-        "foundation-mcq-35",
-        "foundation-mcq-39",
-        "foundation-mcq-34"
+        "foundation-mcq-02",
+        "foundation-reviewed-3032fcc537",
+        "foundation-pdf-003"
       ],
       "explanation": "本句的「founded on mutual respect」指「建立在信任上」。",
       "sentenceIndex": 84,
@@ -4207,12 +3883,10 @@ export default {
         "founded on mutual respect"
       ],
       "optionReasons": {
-        "foundation-mcq-37": "本句指「建立在信任上」。",
-        "foundation-mcq-36": "「創立於 2010 年」與本句語境不同。",
-        "foundation-mcq-38": "「創辦人」與本句語境不同。",
-        "foundation-mcq-35": "「創立公司」與本句語境不同。",
-        "foundation-mcq-39": "「共同創辦人」與本句語境不同。",
-        "foundation-mcq-34": "「自成立以來」與本句語境不同。"
+        "foundation-mcq-37": "本句的「founded on mutual respect」指「建立在信任上」。",
+        "foundation-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "foundation-reviewed-3032fcc537": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-37"
     },
@@ -4224,11 +3898,9 @@ export default {
       "masked": "She is the ____.",
       "options": [
         "foundation-pdf-002",
-        "foundation-mcq-37",
-        "foundation-mcq-39",
-        "foundation-mcq-36",
-        "foundation-mcq-40",
-        "foundation-mcq-35"
+        "foundation-mcq-05",
+        "foundation-mcq-48",
+        "foundation-mcq-55"
       ],
       "explanation": "本句的「founder of the company」指「創立公司、機構、組織、運動等的人」。",
       "sentenceIndex": 85,
@@ -4237,12 +3909,10 @@ export default {
         "founder of the company"
       ],
       "optionReasons": {
-        "foundation-pdf-002": "本句指「創立公司、機構、組織、運動等的人」。",
-        "foundation-mcq-37": "「建立在信任上」與本句語境不同。",
-        "foundation-mcq-39": "「共同創辦人」與本句語境不同。",
-        "foundation-mcq-36": "「創立於 2010 年」與本句語境不同。",
-        "foundation-mcq-40": "「創立；創建」與本句語境不同。",
-        "foundation-mcq-35": "「創立公司」與本句語境不同。"
+        "foundation-pdf-002": "本句的「founder of the company」指「創立公司、機構、組織、運動等的人」。",
+        "foundation-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-pdf-002"
     },
@@ -4254,11 +3924,9 @@ export default {
       "masked": "The ____ stepped down as CEO.",
       "options": [
         "foundation-mcq-38",
-        "foundation-mcq-37",
-        "foundation-mcq-39",
-        "foundation-mcq-36",
-        "foundation-mcq-40",
-        "foundation-mcq-35"
+        "foundation-mcq-30",
+        "foundation-mcq-70",
+        "foundation-mcq-57"
       ],
       "explanation": "本句的「company founder」指「創辦人」。",
       "sentenceIndex": 86,
@@ -4267,12 +3935,10 @@ export default {
         "company founder"
       ],
       "optionReasons": {
-        "foundation-mcq-38": "本句指「創辦人」。",
-        "foundation-mcq-37": "「建立在信任上」與本句語境不同。",
-        "foundation-mcq-39": "「共同創辦人」與本句語境不同。",
-        "foundation-mcq-36": "「創立於 2010 年」與本句語境不同。",
-        "foundation-mcq-40": "「創立；創建」與本句語境不同。",
-        "foundation-mcq-35": "「創立公司」與本句語境不同。"
+        "foundation-mcq-38": "本句的「company founder」指「創辦人」。",
+        "foundation-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-38"
     },
@@ -4284,11 +3950,9 @@ export default {
       "masked": "She is a ____ of the start-up.",
       "options": [
         "foundation-mcq-39",
-        "foundation-mcq-38",
-        "foundation-mcq-40",
-        "foundation-mcq-37",
-        "foundation-mcq-41",
-        "foundation-mcq-36"
+        "foundation-pdf-003",
+        "foundation-mcq-24",
+        "foundation-mcq-67"
       ],
       "explanation": "本句的「co-founder」指「共同創辦人」。",
       "sentenceIndex": 87,
@@ -4297,12 +3961,10 @@ export default {
         "co-founder"
       ],
       "optionReasons": {
-        "foundation-mcq-39": "本句指「共同創辦人」。",
-        "foundation-mcq-38": "「創辦人」與本句語境不同。",
-        "foundation-mcq-40": "「創立；創建」與本句語境不同。",
-        "foundation-mcq-37": "「建立在信任上」與本句語境不同。",
-        "foundation-mcq-41": "「創始成員」與本句語境不同。",
-        "foundation-mcq-36": "「創立於 2010 年」與本句語境不同。"
+        "foundation-mcq-39": "本句的「co-founder」指「共同創辦人」。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-39"
     },
@@ -4314,11 +3976,9 @@ export default {
       "masked": "He serves as ____.",
       "options": [
         "foundation-mcq-39",
-        "foundation-mcq-38",
-        "foundation-mcq-40",
-        "foundation-mcq-37",
-        "foundation-mcq-41",
-        "foundation-mcq-36"
+        "foundation-mcq-57",
+        "foundation-mcq-32",
+        "foundation-mcq-54"
       ],
       "explanation": "本句的「founder and CEO」指「共同創辦人」。",
       "sentenceIndex": 88,
@@ -4327,12 +3987,10 @@ export default {
         "founder and CEO"
       ],
       "optionReasons": {
-        "foundation-mcq-39": "本句指「共同創辦人」。",
-        "foundation-mcq-38": "「創辦人」與本句語境不同。",
-        "foundation-mcq-40": "「創立；創建」與本句語境不同。",
-        "foundation-mcq-37": "「建立在信任上」與本句語境不同。",
-        "foundation-mcq-41": "「創始成員」與本句語境不同。",
-        "foundation-mcq-36": "「創立於 2010 年」與本句語境不同。"
+        "foundation-mcq-39": "本句的「founder and CEO」指「共同創辦人」。",
+        "foundation-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-39"
     },
@@ -4344,11 +4002,9 @@ export default {
       "masked": "She was involved in the ____.",
       "options": [
         "foundation-mcq-40",
-        "foundation-mcq-39",
-        "foundation-mcq-41",
-        "foundation-mcq-38",
-        "foundation-mcq-42",
-        "foundation-mcq-37"
+        "foundation-mcq-60",
+        "foundation-mcq-57",
+        "foundation-mcq-48"
       ],
       "explanation": "本句的「founding of the organisation」指「創立；創建」。",
       "sentenceIndex": 89,
@@ -4357,12 +4013,10 @@ export default {
         "founding of the organisation"
       ],
       "optionReasons": {
-        "foundation-mcq-40": "本句指「創立；創建」。",
-        "foundation-mcq-39": "「共同創辦人」與本句語境不同。",
-        "foundation-mcq-41": "「創始成員」與本句語境不同。",
-        "foundation-mcq-38": "「創辦人」與本句語境不同。",
-        "foundation-mcq-42": "「創辦合夥人」與本句語境不同。",
-        "foundation-mcq-37": "「建立在信任上」與本句語境不同。"
+        "foundation-mcq-40": "本句的「founding of the organisation」指「創立；創建」。",
+        "foundation-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-40"
     },
@@ -4374,11 +4028,9 @@ export default {
       "masked": "He was a ____ of the association.",
       "options": [
         "foundation-mcq-41",
-        "foundation-mcq-40",
-        "foundation-mcq-42",
-        "foundation-mcq-39",
-        "foundation-mcq-43",
-        "foundation-mcq-38"
+        "foundation-mcq-25",
+        "foundation-mcq-54",
+        "foundation-mcq-37"
       ],
       "explanation": "本句的「founding member」指「創始成員」。",
       "sentenceIndex": 90,
@@ -4387,12 +4039,10 @@ export default {
         "founding member"
       ],
       "optionReasons": {
-        "foundation-mcq-41": "本句指「創始成員」。",
-        "foundation-mcq-40": "「創立；創建」與本句語境不同。",
-        "foundation-mcq-42": "「創辦合夥人」與本句語境不同。",
-        "foundation-mcq-39": "「共同創辦人」與本句語境不同。",
-        "foundation-mcq-43": "「創立／基本原則」與本句語境不同。",
-        "foundation-mcq-38": "「創辦人」與本句語境不同。"
+        "foundation-mcq-41": "本句的「founding member」指「創始成員」。",
+        "foundation-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-41"
     },
@@ -4404,11 +4054,9 @@ export default {
       "masked": "She is a ____ of the firm.",
       "options": [
         "foundation-mcq-42",
-        "foundation-mcq-41",
-        "foundation-mcq-43",
-        "foundation-mcq-40",
-        "foundation-mcq-44",
-        "foundation-mcq-39"
+        "foundation-mcq-08",
+        "foundation-mcq-65",
+        "foundation-mcq-37"
       ],
       "explanation": "本句的「founding partner」指「創辦合夥人」。",
       "sentenceIndex": 91,
@@ -4417,12 +4065,10 @@ export default {
         "founding partner"
       ],
       "optionReasons": {
-        "foundation-mcq-42": "本句指「創辦合夥人」。",
-        "foundation-mcq-41": "「創始成員」與本句語境不同。",
-        "foundation-mcq-43": "「創立／基本原則」與本句語境不同。",
-        "foundation-mcq-40": "「創立；創建」與本句語境不同。",
-        "foundation-mcq-44": "「創立文件」與本句語境不同。",
-        "foundation-mcq-39": "「共同創辦人」與本句語境不同。"
+        "foundation-mcq-42": "本句的「founding partner」指「創辦合夥人」。",
+        "foundation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-42"
     },
@@ -4434,11 +4080,9 @@ export default {
       "masked": "Fairness is one of the organisation's ____.",
       "options": [
         "foundation-mcq-43",
-        "foundation-mcq-42",
-        "foundation-mcq-44",
-        "foundation-mcq-41",
-        "foundation-mcq-45",
-        "foundation-mcq-40"
+        "foundation-pdf-005",
+        "foundation-mcq-71",
+        "foundation-mcq-65"
       ],
       "explanation": "本句的「founding principles」指「創立／基本原則」。",
       "sentenceIndex": 92,
@@ -4447,12 +4091,10 @@ export default {
         "founding principles"
       ],
       "optionReasons": {
-        "foundation-mcq-43": "本句指「創立／基本原則」。",
-        "foundation-mcq-42": "「創辦合夥人」與本句語境不同。",
-        "foundation-mcq-44": "「創立文件」與本句語境不同。",
-        "foundation-mcq-41": "「創始成員」與本句語境不同。",
-        "foundation-mcq-45": "「有充分根據的」與本句語境不同。",
-        "foundation-mcq-40": "「創立；創建」與本句語境不同。"
+        "foundation-mcq-43": "本句的「founding principles」指「創立／基本原則」。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-43"
     },
@@ -4464,11 +4106,9 @@ export default {
       "masked": "The charter is a ____ of the organisation.",
       "options": [
         "foundation-mcq-44",
-        "foundation-mcq-43",
-        "foundation-mcq-45",
-        "foundation-mcq-42",
-        "foundation-mcq-46",
-        "foundation-mcq-41"
+        "foundation-mcq-08",
+        "foundation-mcq-23",
+        "foundation-mcq-32"
       ],
       "explanation": "本句的「founding document」指「創立文件」。",
       "sentenceIndex": 93,
@@ -4477,12 +4117,10 @@ export default {
         "founding document"
       ],
       "optionReasons": {
-        "foundation-mcq-44": "本句指「創立文件」。",
-        "foundation-mcq-43": "「創立／基本原則」與本句語境不同。",
-        "foundation-mcq-45": "「有充分根據的」與本句語境不同。",
-        "foundation-mcq-42": "「創辦合夥人」與本句語境不同。",
-        "foundation-mcq-46": "「有根據的憂慮」與本句語境不同。",
-        "foundation-mcq-41": "「創始成員」與本句語境不同。"
+        "foundation-mcq-44": "本句的「founding document」指「創立文件」。",
+        "foundation-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-44"
     },
@@ -4494,11 +4132,9 @@ export default {
       "masked": "Their concerns were ____.",
       "options": [
         "foundation-pdf-003",
-        "foundation-mcq-44",
-        "foundation-mcq-46",
-        "foundation-mcq-43",
-        "foundation-mcq-47",
-        "foundation-mcq-42"
+        "foundation-mcq-01",
+        "foundation-mcq-57",
+        "foundation-mcq-40"
       ],
       "explanation": "本句的「well-founded」指「有可靠事實、證據或理由支持的」。",
       "sentenceIndex": 94,
@@ -4507,12 +4143,10 @@ export default {
         "well-founded"
       ],
       "optionReasons": {
-        "foundation-pdf-003": "本句指「有可靠事實、證據或理由支持的」。",
-        "foundation-mcq-44": "「創立文件」與本句語境不同。",
-        "foundation-mcq-46": "「有根據的憂慮」與本句語境不同。",
-        "foundation-mcq-43": "「創立／基本原則」與本句語境不同。",
-        "foundation-mcq-47": "「無根據的」與本句語境不同。",
-        "foundation-mcq-42": "「創辦合夥人」與本句語境不同。"
+        "foundation-pdf-003": "本句的「well-founded」指「有可靠事實、證據或理由支持的」。",
+        "foundation-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-pdf-003"
     },
@@ -4524,11 +4158,9 @@ export default {
       "masked": "There are ____ about safety.",
       "options": [
         "foundation-mcq-46",
-        "foundation-mcq-45",
-        "foundation-mcq-47",
-        "foundation-mcq-44",
-        "foundation-mcq-48",
-        "foundation-mcq-43"
+        "foundation-mcq-62",
+        "foundation-mcq-59",
+        "foundation-mcq-39"
       ],
       "explanation": "本句的「well-founded concerns」指「有根據的憂慮」。",
       "sentenceIndex": 95,
@@ -4537,12 +4169,10 @@ export default {
         "well-founded concerns"
       ],
       "optionReasons": {
-        "foundation-mcq-46": "本句指「有根據的憂慮」。",
-        "foundation-mcq-45": "「有充分根據的」與本句語境不同。",
-        "foundation-mcq-47": "「無根據的」與本句語境不同。",
-        "foundation-mcq-44": "「創立文件」與本句語境不同。",
-        "foundation-mcq-48": "「無根據指控」與本句語境不同。",
-        "foundation-mcq-43": "「創立／基本原則」與本句語境不同。"
+        "foundation-mcq-46": "本句的「well-founded concerns」指「有根據的憂慮」。",
+        "foundation-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-46"
     },
@@ -4554,11 +4184,9 @@ export default {
       "masked": "The allegation was ____.",
       "options": [
         "foundation-pdf-004",
-        "foundation-mcq-46",
-        "foundation-mcq-48",
-        "foundation-mcq-45",
-        "foundation-mcq-49",
-        "foundation-mcq-44"
+        "foundation-mcq-68",
+        "foundation-mcq-57",
+        "foundation-mcq-53"
       ],
       "explanation": "本句的「unfounded」指「缺乏事實、證據或合理理由支持的」。",
       "sentenceIndex": 96,
@@ -4567,12 +4195,10 @@ export default {
         "unfounded"
       ],
       "optionReasons": {
-        "foundation-pdf-004": "本句指「缺乏事實、證據或合理理由支持的」。",
-        "foundation-mcq-46": "「有根據的憂慮」與本句語境不同。",
-        "foundation-mcq-48": "「無根據指控」與本句語境不同。",
-        "foundation-mcq-45": "「有充分根據的」與本句語境不同。",
-        "foundation-mcq-49": "「基金會」與本句語境不同。",
-        "foundation-mcq-44": "「創立文件」與本句語境不同。"
+        "foundation-pdf-004": "本句的「unfounded」指「缺乏事實、證據或合理理由支持的」。",
+        "foundation-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-pdf-004"
     },
@@ -4584,11 +4210,9 @@ export default {
       "masked": "The company rejected the ____.",
       "options": [
         "foundation-mcq-48",
-        "foundation-mcq-47",
-        "foundation-mcq-49",
-        "foundation-mcq-46",
-        "foundation-mcq-50",
-        "foundation-mcq-45"
+        "foundation-mcq-41",
+        "foundation-mcq-30",
+        "foundation-mcq-65"
       ],
       "explanation": "本句的「unfounded allegations」指「無根據指控」。",
       "sentenceIndex": 97,
@@ -4597,12 +4221,10 @@ export default {
         "unfounded allegations"
       ],
       "optionReasons": {
-        "foundation-mcq-48": "本句指「無根據指控」。",
-        "foundation-mcq-47": "「無根據的」與本句語境不同。",
-        "foundation-mcq-49": "「基金會」與本句語境不同。",
-        "foundation-mcq-46": "「有根據的憂慮」與本句語境不同。",
-        "foundation-mcq-50": "「慈善基金會」與本句語境不同。",
-        "foundation-mcq-45": "「有充分根據的」與本句語境不同。"
+        "foundation-mcq-48": "本句的「unfounded allegations」指「無根據指控」。",
+        "foundation-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-48"
     },
@@ -4614,11 +4236,9 @@ export default {
       "masked": "The ____ funds medical research.",
       "options": [
         "foundation-mcq-49",
-        "foundation-mcq-48",
-        "foundation-mcq-50",
-        "foundation-mcq-47",
-        "foundation-mcq-51",
-        "foundation-mcq-46"
+        "foundation-mcq-58",
+        "foundation-mcq-32",
+        "foundation-mcq-38"
       ],
       "explanation": "本句的「foundation」指「基金會」。",
       "sentenceIndex": 98,
@@ -4627,12 +4247,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-49": "本句指「基金會」。",
-        "foundation-mcq-48": "「無根據指控」與本句語境不同。",
-        "foundation-mcq-50": "「慈善基金會」與本句語境不同。",
-        "foundation-mcq-47": "「無根據的」與本句語境不同。",
-        "foundation-mcq-51": "「私人基金會」與本句語境不同。",
-        "foundation-mcq-46": "「有根據的憂慮」與本句語境不同。"
+        "foundation-mcq-49": "本句的「foundation」指「基金會」。",
+        "foundation-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-49"
     },
@@ -4644,10 +4262,8 @@ export default {
       "masked": "She works for a charitable ____.",
       "options": [
         "foundation-mcq-49",
-        "foundation-mcq-48",
-        "foundation-mcq-50",
-        "foundation-mcq-47",
-        "foundation-mcq-51",
+        "foundation-mcq-44",
+        "foundation-mcq-37",
         "foundation-mcq-46"
       ],
       "explanation": "本句的「foundation」指「基金會」。",
@@ -4657,12 +4273,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-49": "本句指「基金會」。",
-        "foundation-mcq-48": "「無根據指控」與本句語境不同。",
-        "foundation-mcq-50": "「慈善基金會」與本句語境不同。",
-        "foundation-mcq-47": "「無根據的」與本句語境不同。",
-        "foundation-mcq-51": "「私人基金會」與本句語境不同。",
-        "foundation-mcq-46": "「有根據的憂慮」與本句語境不同。"
+        "foundation-mcq-49": "本句的「foundation」指「基金會」。",
+        "foundation-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-49"
     },
@@ -4674,11 +4288,9 @@ export default {
       "masked": "The family established a ____.",
       "options": [
         "foundation-mcq-50",
-        "foundation-mcq-49",
-        "foundation-mcq-51",
+        "foundation-pdf-002",
         "foundation-mcq-48",
-        "foundation-mcq-52",
-        "foundation-mcq-47"
+        "foundation-mcq-57"
       ],
       "explanation": "本句的「charitable foundation」指「慈善基金會」。",
       "sentenceIndex": 100,
@@ -4687,12 +4299,10 @@ export default {
         "charitable foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-50": "本句指「慈善基金會」。",
-        "foundation-mcq-49": "「基金會」與本句語境不同。",
-        "foundation-mcq-51": "「私人基金會」與本句語境不同。",
-        "foundation-mcq-48": "「無根據指控」與本句語境不同。",
-        "foundation-mcq-52": "「家族基金會」與本句語境不同。",
-        "foundation-mcq-47": "「無根據的」與本句語境不同。"
+        "foundation-mcq-50": "本句的「charitable foundation」指「慈善基金會」。",
+        "foundation-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-50"
     },
@@ -4704,11 +4314,9 @@ export default {
       "masked": "The ____ supports disadvantaged students.",
       "options": [
         "foundation-mcq-50",
-        "foundation-mcq-49",
-        "foundation-mcq-51",
-        "foundation-mcq-48",
-        "foundation-mcq-52",
-        "foundation-mcq-47"
+        "foundation-mcq-44",
+        "foundation-mcq-70",
+        "foundation-pdf-004"
       ],
       "explanation": "本句的「foundation」指「慈善基金會」。",
       "sentenceIndex": 101,
@@ -4717,12 +4325,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-50": "本句指「慈善基金會」。",
-        "foundation-mcq-49": "「基金會」與本句語境不同。",
-        "foundation-mcq-51": "「私人基金會」與本句語境不同。",
-        "foundation-mcq-48": "「無根據指控」與本句語境不同。",
-        "foundation-mcq-52": "「家族基金會」與本句語境不同。",
-        "foundation-mcq-47": "「無根據的」與本句語境不同。"
+        "foundation-mcq-50": "本句的「foundation」指「慈善基金會」。",
+        "foundation-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-50"
     },
@@ -4734,11 +4340,9 @@ export default {
       "masked": "The programme receives support from a ____.",
       "options": [
         "foundation-mcq-51",
-        "foundation-mcq-50",
-        "foundation-mcq-52",
-        "foundation-mcq-49",
-        "foundation-mcq-53",
-        "foundation-mcq-48"
+        "foundation-mcq-65",
+        "foundation-reviewed-3032fcc537",
+        "foundation-mcq-67"
       ],
       "explanation": "本句的「private foundation」指「私人基金會」。",
       "sentenceIndex": 102,
@@ -4747,12 +4351,10 @@ export default {
         "private foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-51": "本句指「私人基金會」。",
-        "foundation-mcq-50": "「慈善基金會」與本句語境不同。",
-        "foundation-mcq-52": "「家族基金會」與本句語境不同。",
-        "foundation-mcq-49": "「基金會」與本句語境不同。",
-        "foundation-mcq-53": "「研究基金會」與本句語境不同。",
-        "foundation-mcq-48": "「無根據指控」與本句語境不同。"
+        "foundation-mcq-51": "本句的「private foundation」指「私人基金會」。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "foundation-reviewed-3032fcc537": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-51"
     },
@@ -4764,11 +4366,9 @@ export default {
       "masked": "Private ____ may provide grants to other organisations.",
       "options": [
         "foundation-mcq-51",
-        "foundation-mcq-50",
-        "foundation-mcq-52",
-        "foundation-mcq-49",
-        "foundation-mcq-53",
-        "foundation-mcq-48"
+        "foundation-mcq-44",
+        "foundation-mcq-37",
+        "foundation-mcq-65"
       ],
       "explanation": "本句的「foundations」指「私人基金會」。",
       "sentenceIndex": 103,
@@ -4777,12 +4377,10 @@ export default {
         "foundations"
       ],
       "optionReasons": {
-        "foundation-mcq-51": "本句指「私人基金會」。",
-        "foundation-mcq-50": "「慈善基金會」與本句語境不同。",
-        "foundation-mcq-52": "「家族基金會」與本句語境不同。",
-        "foundation-mcq-49": "「基金會」與本句語境不同。",
-        "foundation-mcq-53": "「研究基金會」與本句語境不同。",
-        "foundation-mcq-48": "「無根據指控」與本句語境不同。"
+        "foundation-mcq-51": "本句的「foundations」指「私人基金會」。",
+        "foundation-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-51"
     },
@@ -4794,11 +4392,9 @@ export default {
       "masked": "The project was funded by a ____.",
       "options": [
         "foundation-mcq-52",
-        "foundation-mcq-51",
-        "foundation-mcq-53",
-        "foundation-mcq-50",
-        "foundation-mcq-54",
-        "foundation-mcq-49"
+        "foundation-mcq-70",
+        "foundation-mcq-36",
+        "foundation-mcq-58"
       ],
       "explanation": "本句的「family foundation」指「家族基金會」。",
       "sentenceIndex": 104,
@@ -4807,12 +4403,10 @@ export default {
         "family foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-52": "本句指「家族基金會」。",
-        "foundation-mcq-51": "「私人基金會」與本句語境不同。",
-        "foundation-mcq-53": "「研究基金會」與本句語境不同。",
-        "foundation-mcq-50": "「慈善基金會」與本句語境不同。",
-        "foundation-mcq-54": "「基金會資助」與本句語境不同。",
-        "foundation-mcq-49": "「基金會」與本句語境不同。"
+        "foundation-mcq-52": "本句的「family foundation」指「家族基金會」。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-52"
     },
@@ -4824,11 +4418,9 @@ export default {
       "masked": "The family ____ supports arts education.",
       "options": [
         "foundation-mcq-52",
-        "foundation-mcq-51",
-        "foundation-mcq-53",
-        "foundation-mcq-50",
-        "foundation-mcq-54",
-        "foundation-mcq-49"
+        "foundation-mcq-59",
+        "foundation-mcq-41",
+        "foundation-pdf-004"
       ],
       "explanation": "本句的「foundation」指「家族基金會」。",
       "sentenceIndex": 105,
@@ -4837,12 +4429,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-52": "本句指「家族基金會」。",
-        "foundation-mcq-51": "「私人基金會」與本句語境不同。",
-        "foundation-mcq-53": "「研究基金會」與本句語境不同。",
-        "foundation-mcq-50": "「慈善基金會」與本句語境不同。",
-        "foundation-mcq-54": "「基金會資助」與本句語境不同。",
-        "foundation-mcq-49": "「基金會」與本句語境不同。"
+        "foundation-mcq-52": "本句的「foundation」指「家族基金會」。",
+        "foundation-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-52"
     },
@@ -4854,11 +4444,9 @@ export default {
       "masked": "A medical ____ financed the study.",
       "options": [
         "foundation-mcq-53",
-        "foundation-mcq-52",
-        "foundation-mcq-54",
-        "foundation-mcq-51",
-        "foundation-mcq-55",
-        "foundation-mcq-50"
+        "foundation-mcq-39",
+        "foundation-mcq-37",
+        "foundation-mcq-48"
       ],
       "explanation": "本句的「research foundation」指「研究基金會」。",
       "sentenceIndex": 106,
@@ -4867,12 +4455,10 @@ export default {
         "research foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-53": "本句指「研究基金會」。",
-        "foundation-mcq-52": "「家族基金會」與本句語境不同。",
-        "foundation-mcq-54": "「基金會資助」與本句語境不同。",
-        "foundation-mcq-51": "「私人基金會」與本句語境不同。",
-        "foundation-mcq-55": "「基金會撥款」與本句語境不同。",
-        "foundation-mcq-50": "「慈善基金會」與本句語境不同。"
+        "foundation-mcq-53": "本句的「research foundation」指「研究基金會」。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-53"
     },
@@ -4884,11 +4470,9 @@ export default {
       "masked": "The ____ awards research grants.",
       "options": [
         "foundation-mcq-53",
-        "foundation-mcq-52",
-        "foundation-mcq-54",
-        "foundation-mcq-51",
-        "foundation-mcq-55",
-        "foundation-mcq-50"
+        "foundation-pdf-003",
+        "foundation-mcq-44",
+        "foundation-mcq-41"
       ],
       "explanation": "本句的「foundation」指「研究基金會」。",
       "sentenceIndex": 107,
@@ -4897,12 +4481,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-53": "本句指「研究基金會」。",
-        "foundation-mcq-52": "「家族基金會」與本句語境不同。",
-        "foundation-mcq-54": "「基金會資助」與本句語境不同。",
-        "foundation-mcq-51": "「私人基金會」與本句語境不同。",
-        "foundation-mcq-55": "「基金會撥款」與本句語境不同。",
-        "foundation-mcq-50": "「慈善基金會」與本句語境不同。"
+        "foundation-mcq-53": "本句的「foundation」指「研究基金會」。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-53"
     },
@@ -4914,11 +4496,9 @@ export default {
       "masked": "The organisation is primarily a ____.",
       "options": [
         "foundation-mcq-53",
-        "foundation-mcq-52",
-        "foundation-mcq-54",
-        "foundation-mcq-51",
-        "foundation-mcq-55",
-        "foundation-mcq-50"
+        "foundation-pdf-004",
+        "foundation-mcq-35",
+        "foundation-mcq-58"
       ],
       "explanation": "本句的「grant-making foundation」指「研究基金會」。",
       "sentenceIndex": 108,
@@ -4927,12 +4507,10 @@ export default {
         "grant-making foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-53": "本句指「研究基金會」。",
-        "foundation-mcq-52": "「家族基金會」與本句語境不同。",
-        "foundation-mcq-54": "「基金會資助」與本句語境不同。",
-        "foundation-mcq-51": "「私人基金會」與本句語境不同。",
-        "foundation-mcq-55": "「基金會撥款」與本句語境不同。",
-        "foundation-mcq-50": "「慈善基金會」與本句語境不同。"
+        "foundation-mcq-53": "本句的「grant-making foundation」指「研究基金會」。",
+        "foundation-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-53"
     },
@@ -4944,11 +4522,9 @@ export default {
       "masked": "Grant-making ____ support external projects.",
       "options": [
         "foundation-mcq-53",
-        "foundation-mcq-52",
-        "foundation-mcq-54",
-        "foundation-mcq-51",
-        "foundation-mcq-55",
-        "foundation-mcq-50"
+        "foundation-mcq-32",
+        "foundation-mcq-58",
+        "foundation-pdf-004"
       ],
       "explanation": "本句的「foundations」指「研究基金會」。",
       "sentenceIndex": 109,
@@ -4957,12 +4533,10 @@ export default {
         "foundations"
       ],
       "optionReasons": {
-        "foundation-mcq-53": "本句指「研究基金會」。",
-        "foundation-mcq-52": "「家族基金會」與本句語境不同。",
-        "foundation-mcq-54": "「基金會資助」與本句語境不同。",
-        "foundation-mcq-51": "「私人基金會」與本句語境不同。",
-        "foundation-mcq-55": "「基金會撥款」與本句語境不同。",
-        "foundation-mcq-50": "「慈善基金會」與本句語境不同。"
+        "foundation-mcq-53": "本句的「foundations」指「研究基金會」。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-53"
     },
@@ -4974,11 +4548,9 @@ export default {
       "masked": "The entrepreneur ____ to support education.",
       "options": [
         "foundation-mcq-53",
-        "foundation-mcq-52",
-        "foundation-mcq-54",
-        "foundation-mcq-51",
-        "foundation-mcq-55",
-        "foundation-mcq-50"
+        "foundation-mcq-46",
+        "foundation-mcq-32",
+        "foundation-pdf-003"
       ],
       "explanation": "本句的「established a foundation」指「研究基金會」。",
       "sentenceIndex": 110,
@@ -4987,12 +4559,10 @@ export default {
         "established a foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-53": "本句指「研究基金會」。",
-        "foundation-mcq-52": "「家族基金會」與本句語境不同。",
-        "foundation-mcq-54": "「基金會資助」與本句語境不同。",
-        "foundation-mcq-51": "「私人基金會」與本句語境不同。",
-        "foundation-mcq-55": "「基金會撥款」與本句語境不同。",
-        "foundation-mcq-50": "「慈善基金會」與本句語境不同。"
+        "foundation-mcq-53": "本句的「established a foundation」指「研究基金會」。",
+        "foundation-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-53"
     },
@@ -5004,11 +4574,9 @@ export default {
       "masked": "The ____ was established in memory of her parents.",
       "options": [
         "foundation-mcq-53",
-        "foundation-mcq-52",
-        "foundation-mcq-54",
-        "foundation-mcq-51",
-        "foundation-mcq-55",
-        "foundation-mcq-50"
+        "foundation-mcq-38",
+        "foundation-mcq-34",
+        "foundation-mcq-70"
       ],
       "explanation": "本句的「foundation」指「研究基金會」。",
       "sentenceIndex": 111,
@@ -5017,12 +4585,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-53": "本句指「研究基金會」。",
-        "foundation-mcq-52": "「家族基金會」與本句語境不同。",
-        "foundation-mcq-54": "「基金會資助」與本句語境不同。",
-        "foundation-mcq-51": "「私人基金會」與本句語境不同。",
-        "foundation-mcq-55": "「基金會撥款」與本句語境不同。",
-        "foundation-mcq-50": "「慈善基金會」與本句語境不同。"
+        "foundation-mcq-53": "本句的「foundation」指「研究基金會」。",
+        "foundation-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-53"
     },
@@ -5034,11 +4600,9 @@ export default {
       "masked": "The research depends partly on ____.",
       "options": [
         "foundation-mcq-54",
-        "foundation-mcq-53",
-        "foundation-mcq-55",
-        "foundation-mcq-52",
-        "foundation-mcq-56",
-        "foundation-mcq-51"
+        "foundation-mcq-39",
+        "foundation-pdf-001",
+        "foundation-mcq-34"
       ],
       "explanation": "本句的「foundation funding」指「基金會資助」。",
       "sentenceIndex": 112,
@@ -5047,12 +4611,10 @@ export default {
         "foundation funding"
       ],
       "optionReasons": {
-        "foundation-mcq-54": "本句指「基金會資助」。",
-        "foundation-mcq-53": "「研究基金會」與本句語境不同。",
-        "foundation-mcq-55": "「基金會撥款」與本句語境不同。",
-        "foundation-mcq-52": "「家族基金會」與本句語境不同。",
-        "foundation-mcq-56": "「粉底」與本句語境不同。",
-        "foundation-mcq-51": "「私人基金會」與本句語境不同。"
+        "foundation-mcq-54": "本句的「foundation funding」指「基金會資助」。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-54"
     },
@@ -5064,11 +4626,9 @@ export default {
       "masked": "____ funding supported the first phase.",
       "options": [
         "foundation-mcq-54",
-        "foundation-mcq-53",
-        "foundation-mcq-55",
-        "foundation-mcq-52",
-        "foundation-mcq-56",
-        "foundation-mcq-51"
+        "foundation-mcq-39",
+        "foundation-pdf-001",
+        "foundation-mcq-46"
       ],
       "explanation": "本句的「Foundation」指「基金會資助」。",
       "sentenceIndex": 113,
@@ -5077,12 +4637,10 @@ export default {
         "Foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-54": "本句指「基金會資助」。",
-        "foundation-mcq-53": "「研究基金會」與本句語境不同。",
-        "foundation-mcq-55": "「基金會撥款」與本句語境不同。",
-        "foundation-mcq-52": "「家族基金會」與本句語境不同。",
-        "foundation-mcq-56": "「粉底」與本句語境不同。",
-        "foundation-mcq-51": "「私人基金會」與本句語境不同。"
+        "foundation-mcq-54": "本句的「Foundation」指「基金會資助」。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-54"
     },
@@ -5094,11 +4652,9 @@ export default {
       "masked": "The charity received a ____.",
       "options": [
         "foundation-mcq-55",
-        "foundation-mcq-54",
-        "foundation-mcq-56",
-        "foundation-mcq-53",
-        "foundation-mcq-57",
-        "foundation-mcq-52"
+        "foundation-pdf-002",
+        "foundation-mcq-58",
+        "foundation-mcq-32"
       ],
       "explanation": "本句的「foundation grant」指「基金會撥款」。",
       "sentenceIndex": 114,
@@ -5107,12 +4663,10 @@ export default {
         "foundation grant"
       ],
       "optionReasons": {
-        "foundation-mcq-55": "本句指「基金會撥款」。",
-        "foundation-mcq-54": "「基金會資助」與本句語境不同。",
-        "foundation-mcq-56": "「粉底」與本句語境不同。",
-        "foundation-mcq-53": "「研究基金會」與本句語境不同。",
-        "foundation-mcq-57": "「粉底液」與本句語境不同。",
-        "foundation-mcq-52": "「家族基金會」與本句語境不同。"
+        "foundation-mcq-55": "本句的「foundation grant」指「基金會撥款」。",
+        "foundation-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-55"
     },
@@ -5124,11 +4678,9 @@ export default {
       "masked": "She applied ____ before doing the rest of her makeup.",
       "options": [
         "foundation-pdf-005",
+        "foundation-mcq-18",
         "foundation-mcq-55",
-        "foundation-mcq-57",
-        "foundation-mcq-54",
-        "foundation-mcq-58",
-        "foundation-mcq-53"
+        "foundation-mcq-65"
       ],
       "explanation": "本句的「foundation」指「塗在臉上以均勻膚色、遮蓋瑕疵並作為底妝的化妝品」。",
       "sentenceIndex": 115,
@@ -5137,12 +4689,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-pdf-005": "本句指「塗在臉上以均勻膚色、遮蓋瑕疵並作為底妝的化妝品」。",
-        "foundation-mcq-55": "「基金會撥款」與本句語境不同。",
-        "foundation-mcq-57": "「粉底液」與本句語境不同。",
-        "foundation-mcq-54": "「基金會資助」與本句語境不同。",
-        "foundation-mcq-58": "「粉狀粉底」與本句語境不同。",
-        "foundation-mcq-53": "「研究基金會」與本句語境不同。"
+        "foundation-pdf-005": "本句的「foundation」指「塗在臉上以均勻膚色、遮蓋瑕疵並作為底妝的化妝品」。",
+        "foundation-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-pdf-005"
     },
@@ -5154,11 +4704,9 @@ export default {
       "masked": "This ____ provides light coverage.",
       "options": [
         "foundation-pdf-005",
-        "foundation-mcq-55",
-        "foundation-mcq-57",
-        "foundation-mcq-54",
-        "foundation-mcq-58",
-        "foundation-mcq-53"
+        "foundation-pdf-004",
+        "foundation-mcq-70",
+        "foundation-mcq-32"
       ],
       "explanation": "本句的「foundation」指「塗在臉上以均勻膚色、遮蓋瑕疵並作為底妝的化妝品」。",
       "sentenceIndex": 116,
@@ -5167,12 +4715,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-pdf-005": "本句指「塗在臉上以均勻膚色、遮蓋瑕疵並作為底妝的化妝品」。",
-        "foundation-mcq-55": "「基金會撥款」與本句語境不同。",
-        "foundation-mcq-57": "「粉底液」與本句語境不同。",
-        "foundation-mcq-54": "「基金會資助」與本句語境不同。",
-        "foundation-mcq-58": "「粉狀粉底」與本句語境不同。",
-        "foundation-mcq-53": "「研究基金會」與本句語境不同。"
+        "foundation-pdf-005": "本句的「foundation」指「塗在臉上以均勻膚色、遮蓋瑕疵並作為底妝的化妝品」。",
+        "foundation-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-pdf-005"
     },
@@ -5184,11 +4730,9 @@ export default {
       "masked": "She prefers ____.",
       "options": [
         "foundation-mcq-57",
-        "foundation-mcq-56",
-        "foundation-mcq-58",
-        "foundation-mcq-55",
-        "foundation-mcq-59",
-        "foundation-mcq-54"
+        "foundation-mcq-39",
+        "foundation-mcq-53",
+        "foundation-mcq-37"
       ],
       "explanation": "本句的「liquid foundation」指「粉底液」。",
       "sentenceIndex": 117,
@@ -5197,12 +4741,10 @@ export default {
         "liquid foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-57": "本句指「粉底液」。",
-        "foundation-mcq-56": "「粉底」與本句語境不同。",
-        "foundation-mcq-58": "「粉狀粉底」與本句語境不同。",
-        "foundation-mcq-55": "「基金會撥款」與本句語境不同。",
-        "foundation-mcq-59": "「粉底色號」與本句語境不同。",
-        "foundation-mcq-54": "「基金會資助」與本句語境不同。"
+        "foundation-mcq-57": "本句的「liquid foundation」指「粉底液」。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-57"
     },
@@ -5214,11 +4756,9 @@ export default {
       "masked": "Apply a small amount of liquid ____ evenly.",
       "options": [
         "foundation-mcq-57",
-        "foundation-mcq-56",
-        "foundation-mcq-58",
+        "foundation-mcq-05",
         "foundation-mcq-55",
-        "foundation-mcq-59",
-        "foundation-mcq-54"
+        "foundation-pdf-003"
       ],
       "explanation": "本句的「foundation」指「粉底液」。",
       "sentenceIndex": 118,
@@ -5227,12 +4767,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-57": "本句指「粉底液」。",
-        "foundation-mcq-56": "「粉底」與本句語境不同。",
-        "foundation-mcq-58": "「粉狀粉底」與本句語境不同。",
-        "foundation-mcq-55": "「基金會撥款」與本句語境不同。",
-        "foundation-mcq-59": "「粉底色號」與本句語境不同。",
-        "foundation-mcq-54": "「基金會資助」與本句語境不同。"
+        "foundation-mcq-57": "本句的「foundation」指「粉底液」。",
+        "foundation-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-57"
     },
@@ -5244,11 +4782,9 @@ export default {
       "masked": "Powder ____ can provide a matte finish.",
       "options": [
         "foundation-mcq-58",
-        "foundation-mcq-57",
-        "foundation-mcq-59",
-        "foundation-mcq-56",
-        "foundation-mcq-60",
-        "foundation-mcq-55"
+        "foundation-mcq-62",
+        "foundation-mcq-67",
+        "foundation-mcq-70"
       ],
       "explanation": "本句的「foundation」指「粉狀粉底」。",
       "sentenceIndex": 119,
@@ -5257,12 +4793,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-58": "本句指「粉狀粉底」。",
-        "foundation-mcq-57": "「粉底液」與本句語境不同。",
-        "foundation-mcq-59": "「粉底色號」與本句語境不同。",
-        "foundation-mcq-56": "「粉底」與本句語境不同。",
-        "foundation-mcq-60": "「基礎／預備課程」與本句語境不同。",
-        "foundation-mcq-55": "「基金會撥款」與本句語境不同。"
+        "foundation-mcq-58": "本句的「foundation」指「粉狀粉底」。",
+        "foundation-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-58"
     },
@@ -5274,11 +4808,9 @@ export default {
       "masked": "She uses powder ____ for quick touch-ups.",
       "options": [
         "foundation-mcq-58",
-        "foundation-mcq-57",
-        "foundation-mcq-59",
-        "foundation-mcq-56",
-        "foundation-mcq-60",
-        "foundation-mcq-55"
+        "foundation-mcq-39",
+        "foundation-mcq-05",
+        "foundation-mcq-70"
       ],
       "explanation": "本句的「foundation」指「粉狀粉底」。",
       "sentenceIndex": 120,
@@ -5287,12 +4819,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-58": "本句指「粉狀粉底」。",
-        "foundation-mcq-57": "「粉底液」與本句語境不同。",
-        "foundation-mcq-59": "「粉底色號」與本句語境不同。",
-        "foundation-mcq-56": "「粉底」與本句語境不同。",
-        "foundation-mcq-60": "「基礎／預備課程」與本句語境不同。",
-        "foundation-mcq-55": "「基金會撥款」與本句語境不同。"
+        "foundation-mcq-58": "本句的「foundation」指「粉狀粉底」。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-58"
     },
@@ -5304,11 +4834,9 @@ export default {
       "masked": "Choose a ____ that matches your skin tone.",
       "options": [
         "foundation-mcq-59",
-        "foundation-mcq-58",
-        "foundation-mcq-60",
-        "foundation-mcq-57",
-        "foundation-mcq-61",
-        "foundation-mcq-56"
+        "foundation-mcq-48",
+        "foundation-mcq-28",
+        "foundation-pdf-002"
       ],
       "explanation": "本句的「foundation shade」指「粉底色號」。",
       "sentenceIndex": 121,
@@ -5317,12 +4845,10 @@ export default {
         "foundation shade"
       ],
       "optionReasons": {
-        "foundation-mcq-59": "本句指「粉底色號」。",
-        "foundation-mcq-58": "「粉狀粉底」與本句語境不同。",
-        "foundation-mcq-60": "「基礎／預備課程」與本句語境不同。",
-        "foundation-mcq-57": "「粉底液」與本句語境不同。",
-        "foundation-mcq-61": "「基礎／銜接課程」與本句語境不同。",
-        "foundation-mcq-56": "「粉底」與本句語境不同。"
+        "foundation-mcq-59": "本句的「foundation shade」指「粉底色號」。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-59"
     },
@@ -5334,11 +4860,9 @@ export default {
       "masked": "The brand offers many ____ shades.",
       "options": [
         "foundation-mcq-59",
-        "foundation-mcq-58",
-        "foundation-mcq-60",
-        "foundation-mcq-57",
-        "foundation-mcq-61",
-        "foundation-mcq-56"
+        "foundation-mcq-65",
+        "foundation-mcq-53",
+        "foundation-pdf-003"
       ],
       "explanation": "本句的「foundation」指「粉底色號」。",
       "sentenceIndex": 122,
@@ -5347,12 +4871,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-59": "本句指「粉底色號」。",
-        "foundation-mcq-58": "「粉狀粉底」與本句語境不同。",
-        "foundation-mcq-60": "「基礎／預備課程」與本句語境不同。",
-        "foundation-mcq-57": "「粉底液」與本句語境不同。",
-        "foundation-mcq-61": "「基礎／銜接課程」與本句語境不同。",
-        "foundation-mcq-56": "「粉底」與本句語境不同。"
+        "foundation-mcq-59": "本句的「foundation」指「粉底色號」。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-59"
     },
@@ -5364,11 +4886,9 @@ export default {
       "masked": "This product offers medium ____.",
       "options": [
         "foundation-mcq-59",
-        "foundation-mcq-58",
-        "foundation-mcq-60",
-        "foundation-mcq-57",
-        "foundation-mcq-61",
-        "foundation-mcq-56"
+        "foundation-mcq-15",
+        "foundation-mcq-44",
+        "foundation-mcq-32"
       ],
       "explanation": "本句的「foundation coverage」指「粉底色號」。",
       "sentenceIndex": 123,
@@ -5377,12 +4897,10 @@ export default {
         "foundation coverage"
       ],
       "optionReasons": {
-        "foundation-mcq-59": "本句指「粉底色號」。",
-        "foundation-mcq-58": "「粉狀粉底」與本句語境不同。",
-        "foundation-mcq-60": "「基礎／預備課程」與本句語境不同。",
-        "foundation-mcq-57": "「粉底液」與本句語境不同。",
-        "foundation-mcq-61": "「基礎／銜接課程」與本句語境不同。",
-        "foundation-mcq-56": "「粉底」與本句語境不同。"
+        "foundation-mcq-59": "本句的「foundation coverage」指「粉底色號」。",
+        "foundation-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-59"
     },
@@ -5394,11 +4912,9 @@ export default {
       "masked": "Full-coverage ____ hides more visible unevenness.",
       "options": [
         "foundation-mcq-59",
-        "foundation-mcq-58",
-        "foundation-mcq-60",
-        "foundation-mcq-57",
-        "foundation-mcq-61",
-        "foundation-mcq-56"
+        "foundation-mcq-15",
+        "foundation-mcq-55",
+        "foundation-mcq-40"
       ],
       "explanation": "本句的「foundation」指「粉底色號」。",
       "sentenceIndex": 124,
@@ -5407,12 +4923,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-59": "本句指「粉底色號」。",
-        "foundation-mcq-58": "「粉狀粉底」與本句語境不同。",
-        "foundation-mcq-60": "「基礎／預備課程」與本句語境不同。",
-        "foundation-mcq-57": "「粉底液」與本句語境不同。",
-        "foundation-mcq-61": "「基礎／銜接課程」與本句語境不同。",
-        "foundation-mcq-56": "「粉底」與本句語境不同。"
+        "foundation-mcq-59": "本句的「foundation」指「粉底色號」。",
+        "foundation-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-59"
     },
@@ -5424,11 +4938,9 @@ export default {
       "masked": "She completed a ____ before starting the degree.",
       "options": [
         "foundation-mcq-60",
-        "foundation-mcq-59",
-        "foundation-mcq-61",
-        "foundation-mcq-58",
-        "foundation-mcq-62",
-        "foundation-mcq-57"
+        "foundation-mcq-39",
+        "foundation-pdf-002",
+        "foundation-mcq-34"
       ],
       "explanation": "本句的「foundation course」指「基礎／預備課程」。",
       "sentenceIndex": 125,
@@ -5437,12 +4949,10 @@ export default {
         "foundation course"
       ],
       "optionReasons": {
-        "foundation-mcq-60": "本句指「基礎／預備課程」。",
-        "foundation-mcq-59": "「粉底色號」與本句語境不同。",
-        "foundation-mcq-61": "「基礎／銜接課程」與本句語境不同。",
-        "foundation-mcq-58": "「粉狀粉底」與本句語境不同。",
-        "foundation-mcq-62": "「基礎年」與本句語境不同。",
-        "foundation-mcq-57": "「粉底液」與本句語境不同。"
+        "foundation-mcq-60": "本句的「foundation course」指「基礎／預備課程」。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-60"
     },
@@ -5455,10 +4965,8 @@ export default {
       "options": [
         "foundation-mcq-60",
         "foundation-mcq-59",
-        "foundation-mcq-61",
-        "foundation-mcq-58",
-        "foundation-mcq-62",
-        "foundation-mcq-57"
+        "foundation-mcq-67",
+        "foundation-mcq-39"
       ],
       "explanation": "本句的「foundation」指「基礎／預備課程」。",
       "sentenceIndex": 126,
@@ -5467,12 +4975,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-60": "本句指「基礎／預備課程」。",
-        "foundation-mcq-59": "「粉底色號」與本句語境不同。",
-        "foundation-mcq-61": "「基礎／銜接課程」與本句語境不同。",
-        "foundation-mcq-58": "「粉狀粉底」與本句語境不同。",
-        "foundation-mcq-62": "「基礎年」與本句語境不同。",
-        "foundation-mcq-57": "「粉底液」與本句語境不同。"
+        "foundation-mcq-60": "本句的「foundation」指「基礎／預備課程」。",
+        "foundation-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-60"
     },
@@ -5484,11 +4990,9 @@ export default {
       "masked": "International students may enter through a ____.",
       "options": [
         "foundation-mcq-61",
-        "foundation-mcq-60",
-        "foundation-mcq-62",
-        "foundation-mcq-59",
-        "foundation-mcq-63",
-        "foundation-mcq-58"
+        "foundation-mcq-70",
+        "foundation-pdf-005",
+        "foundation-pdf-002"
       ],
       "explanation": "本句的「foundation programme」指「基礎／銜接課程」。",
       "sentenceIndex": 127,
@@ -5497,12 +5001,10 @@ export default {
         "foundation programme"
       ],
       "optionReasons": {
-        "foundation-mcq-61": "本句指「基礎／銜接課程」。",
-        "foundation-mcq-60": "「基礎／預備課程」與本句語境不同。",
-        "foundation-mcq-62": "「基礎年」與本句語境不同。",
-        "foundation-mcq-59": "「粉底色號」與本句語境不同。",
-        "foundation-mcq-63": "「基礎學位」與本句語境不同。",
-        "foundation-mcq-58": "「粉狀粉底」與本句語境不同。"
+        "foundation-mcq-61": "本句的「foundation programme」指「基礎／銜接課程」。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-61"
     },
@@ -5514,11 +5016,9 @@ export default {
       "masked": "He entered engineering through a ____.",
       "options": [
         "foundation-mcq-62",
-        "foundation-mcq-61",
-        "foundation-mcq-63",
-        "foundation-mcq-60",
-        "foundation-mcq-64",
-        "foundation-mcq-59"
+        "foundation-mcq-42",
+        "foundation-mcq-44",
+        "foundation-mcq-48"
       ],
       "explanation": "本句的「foundation year」指「基礎年」。",
       "sentenceIndex": 128,
@@ -5527,12 +5027,10 @@ export default {
         "foundation year"
       ],
       "optionReasons": {
-        "foundation-mcq-62": "本句指「基礎年」。",
-        "foundation-mcq-61": "「基礎／銜接課程」與本句語境不同。",
-        "foundation-mcq-63": "「基礎學位」與本句語境不同。",
-        "foundation-mcq-60": "「基礎／預備課程」與本句語境不同。",
-        "foundation-mcq-64": "「基礎階段」與本句語境不同。",
-        "foundation-mcq-59": "「粉底色號」與本句語境不同。"
+        "foundation-mcq-62": "本句的「foundation year」指「基礎年」。",
+        "foundation-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-62"
     },
@@ -5544,11 +5042,9 @@ export default {
       "masked": "A ____ year can prepare students who do not yet meet standard entry requirements.",
       "options": [
         "foundation-mcq-62",
-        "foundation-mcq-61",
-        "foundation-mcq-63",
-        "foundation-mcq-60",
-        "foundation-mcq-64",
-        "foundation-mcq-59"
+        "foundation-mcq-37",
+        "foundation-mcq-39",
+        "foundation-mcq-70"
       ],
       "explanation": "本句的「foundation」指「基礎年」。",
       "sentenceIndex": 129,
@@ -5557,12 +5053,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-62": "本句指「基礎年」。",
-        "foundation-mcq-61": "「基礎／銜接課程」與本句語境不同。",
-        "foundation-mcq-63": "「基礎學位」與本句語境不同。",
-        "foundation-mcq-60": "「基礎／預備課程」與本句語境不同。",
-        "foundation-mcq-64": "「基礎階段」與本句語境不同。",
-        "foundation-mcq-59": "「粉底色號」與本句語境不同。"
+        "foundation-mcq-62": "本句的「foundation」指「基礎年」。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-62"
     },
@@ -5574,11 +5068,9 @@ export default {
       "masked": "She completed a ____ in business.",
       "options": [
         "foundation-mcq-63",
-        "foundation-mcq-62",
-        "foundation-mcq-64",
-        "foundation-mcq-61",
-        "foundation-mcq-65",
-        "foundation-mcq-60"
+        "foundation-mcq-59",
+        "foundation-mcq-32",
+        "foundation-pdf-001"
       ],
       "explanation": "本句的「foundation degree」指「基礎學位」。",
       "sentenceIndex": 130,
@@ -5587,12 +5079,10 @@ export default {
         "foundation degree"
       ],
       "optionReasons": {
-        "foundation-mcq-63": "本句指「基礎學位」。",
-        "foundation-mcq-62": "「基礎年」與本句語境不同。",
-        "foundation-mcq-64": "「基礎階段」與本句語境不同。",
-        "foundation-mcq-61": "「基礎／銜接課程」與本句語境不同。",
-        "foundation-mcq-65": "「塑形／支撐內衣」與本句語境不同。",
-        "foundation-mcq-60": "「基礎／預備課程」與本句語境不同。"
+        "foundation-mcq-63": "本句的「foundation degree」指「基礎學位」。",
+        "foundation-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-63"
     },
@@ -5604,11 +5094,9 @@ export default {
       "masked": "A ____ degree is a specific qualification and is not the same as a foundation year.",
       "options": [
         "foundation-mcq-63",
-        "foundation-mcq-62",
-        "foundation-mcq-64",
-        "foundation-mcq-61",
-        "foundation-mcq-65",
-        "foundation-mcq-60"
+        "foundation-mcq-39",
+        "foundation-mcq-70",
+        "foundation-mcq-37"
       ],
       "explanation": "本句的「foundation」指「基礎學位」。",
       "sentenceIndex": 131,
@@ -5617,12 +5105,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-63": "本句指「基礎學位」。",
-        "foundation-mcq-62": "「基礎年」與本句語境不同。",
-        "foundation-mcq-64": "「基礎階段」與本句語境不同。",
-        "foundation-mcq-61": "「基礎／銜接課程」與本句語境不同。",
-        "foundation-mcq-65": "「塑形／支撐內衣」與本句語境不同。",
-        "foundation-mcq-60": "「基礎／預備課程」與本句語境不同。"
+        "foundation-mcq-63": "本句的「foundation」指「基礎學位」。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-63"
     },
@@ -5634,11 +5120,9 @@ export default {
       "masked": "Children develop basic skills during the ____.",
       "options": [
         "foundation-mcq-64",
-        "foundation-mcq-63",
-        "foundation-mcq-65",
-        "foundation-mcq-62",
-        "foundation-mcq-66",
-        "foundation-mcq-61"
+        "foundation-mcq-71",
+        "foundation-mcq-44",
+        "foundation-pdf-005"
       ],
       "explanation": "本句的「foundation stage」指「基礎階段」。",
       "sentenceIndex": 132,
@@ -5647,12 +5131,10 @@ export default {
         "foundation stage"
       ],
       "optionReasons": {
-        "foundation-mcq-64": "本句指「基礎階段」。",
-        "foundation-mcq-63": "「基礎學位」與本句語境不同。",
-        "foundation-mcq-65": "「塑形／支撐內衣」與本句語境不同。",
-        "foundation-mcq-62": "「基礎年」與本句語境不同。",
-        "foundation-mcq-66": "「基礎性的；奠基性的」與本句語境不同。",
-        "foundation-mcq-61": "「基礎／銜接課程」與本句語境不同。"
+        "foundation-mcq-64": "本句的「foundation stage」指「基礎階段」。",
+        "foundation-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-64"
     },
@@ -5664,11 +5146,9 @@ export default {
       "masked": "The exact meaning of “____ stage” depends on the education system.",
       "options": [
         "foundation-mcq-64",
-        "foundation-mcq-63",
+        "foundation-pdf-005",
         "foundation-mcq-65",
-        "foundation-mcq-62",
-        "foundation-mcq-66",
-        "foundation-mcq-61"
+        "foundation-mcq-32"
       ],
       "explanation": "本句的「foundation」指「基礎階段」。",
       "sentenceIndex": 133,
@@ -5677,12 +5157,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-64": "本句指「基礎階段」。",
-        "foundation-mcq-63": "「基礎學位」與本句語境不同。",
-        "foundation-mcq-65": "「塑形／支撐內衣」與本句語境不同。",
-        "foundation-mcq-62": "「基礎年」與本句語境不同。",
-        "foundation-mcq-66": "「基礎性的；奠基性的」與本句語境不同。",
-        "foundation-mcq-61": "「基礎／銜接課程」與本句語境不同。"
+        "foundation-mcq-64": "本句的「foundation」指「基礎階段」。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-64"
     },
@@ -5694,11 +5172,9 @@ export default {
       "masked": "The costume required a structured ____.",
       "options": [
         "foundation-mcq-65",
-        "foundation-mcq-64",
-        "foundation-mcq-66",
-        "foundation-mcq-63",
-        "foundation-mcq-67",
-        "foundation-mcq-62"
+        "foundation-mcq-06",
+        "foundation-mcq-35",
+        "foundation-mcq-32"
       ],
       "explanation": "本句的「foundation garment」指「塑形／支撐內衣」。",
       "sentenceIndex": 134,
@@ -5707,12 +5183,10 @@ export default {
         "foundation garment"
       ],
       "optionReasons": {
-        "foundation-mcq-65": "本句指「塑形／支撐內衣」。",
-        "foundation-mcq-64": "「基礎階段」與本句語境不同。",
-        "foundation-mcq-66": "「基礎性的；奠基性的」與本句語境不同。",
-        "foundation-mcq-63": "「基礎學位」與本句語境不同。",
-        "foundation-mcq-67": "「根本原則」與本句語境不同。",
-        "foundation-mcq-62": "「基礎年」與本句語境不同。"
+        "foundation-mcq-65": "本句的「foundation garment」指「塑形／支撐內衣」。",
+        "foundation-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-65"
     },
@@ -5724,11 +5198,9 @@ export default {
       "masked": "____ garments shape or support the body under clothing.",
       "options": [
         "foundation-mcq-65",
-        "foundation-mcq-64",
-        "foundation-mcq-66",
-        "foundation-mcq-63",
-        "foundation-mcq-67",
-        "foundation-mcq-62"
+        "foundation-mcq-48",
+        "foundation-mcq-44",
+        "foundation-mcq-42"
       ],
       "explanation": "本句的「Foundation」指「塑形／支撐內衣」。",
       "sentenceIndex": 135,
@@ -5737,12 +5209,10 @@ export default {
         "Foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-65": "本句指「塑形／支撐內衣」。",
-        "foundation-mcq-64": "「基礎階段」與本句語境不同。",
-        "foundation-mcq-66": "「基礎性的；奠基性的」與本句語境不同。",
-        "foundation-mcq-63": "「基礎學位」與本句語境不同。",
-        "foundation-mcq-67": "「根本原則」與本句語境不同。",
-        "foundation-mcq-62": "「基礎年」與本句語境不同。"
+        "foundation-mcq-65": "本句的「Foundation」指「塑形／支撐內衣」。",
+        "foundation-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-65"
     },
@@ -5754,11 +5224,9 @@ export default {
       "masked": "Trust is ____.",
       "options": [
         "foundation-pdf-006",
-        "foundation-mcq-65",
-        "foundation-mcq-67",
-        "foundation-mcq-64",
-        "foundation-mcq-68",
-        "foundation-mcq-63"
+        "foundation-mcq-41",
+        "foundation-mcq-42",
+        "foundation-mcq-57"
       ],
       "explanation": "本句的「foundational to effective teamwork」指「其他知識、制度或能力建立其上的基本而重要的」。",
       "sentenceIndex": 136,
@@ -5767,12 +5235,10 @@ export default {
         "foundational to effective teamwork"
       ],
       "optionReasons": {
-        "foundation-pdf-006": "本句指「其他知識、制度或能力建立其上的基本而重要的」。",
-        "foundation-mcq-65": "「塑形／支撐內衣」與本句語境不同。",
-        "foundation-mcq-67": "「根本原則」與本句語境不同。",
-        "foundation-mcq-64": "「基礎階段」與本句語境不同。",
-        "foundation-mcq-68": "「基礎性知識」與本句語境不同。",
-        "foundation-mcq-63": "「基礎學位」與本句語境不同。"
+        "foundation-pdf-006": "本句的「foundational to effective teamwork」指「其他知識、制度或能力建立其上的基本而重要的」。",
+        "foundation-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-pdf-006"
     },
@@ -5784,11 +5250,9 @@ export default {
       "masked": "Reading is a ____ skill.",
       "options": [
         "foundation-pdf-006",
-        "foundation-mcq-65",
-        "foundation-mcq-67",
-        "foundation-mcq-64",
-        "foundation-mcq-68",
-        "foundation-mcq-63"
+        "foundation-mcq-39",
+        "foundation-mcq-71",
+        "foundation-mcq-41"
       ],
       "explanation": "本句的「foundational」指「其他知識、制度或能力建立其上的基本而重要的」。",
       "sentenceIndex": 137,
@@ -5797,12 +5261,10 @@ export default {
         "foundational"
       ],
       "optionReasons": {
-        "foundation-pdf-006": "本句指「其他知識、制度或能力建立其上的基本而重要的」。",
-        "foundation-mcq-65": "「塑形／支撐內衣」與本句語境不同。",
-        "foundation-mcq-67": "「根本原則」與本句語境不同。",
-        "foundation-mcq-64": "「基礎階段」與本句語境不同。",
-        "foundation-mcq-68": "「基礎性知識」與本句語境不同。",
-        "foundation-mcq-63": "「基礎學位」與本句語境不同。"
+        "foundation-pdf-006": "本句的「foundational」指「其他知識、制度或能力建立其上的基本而重要的」。",
+        "foundation-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-pdf-006"
     },
@@ -5814,11 +5276,9 @@ export default {
       "masked": "Fairness is a ____ of the system.",
       "options": [
         "foundation-mcq-67",
-        "foundation-mcq-66",
-        "foundation-mcq-68",
-        "foundation-mcq-65",
-        "foundation-mcq-69",
-        "foundation-mcq-64"
+        "foundation-mcq-38",
+        "foundation-mcq-05",
+        "foundation-mcq-59"
       ],
       "explanation": "本句的「foundational principle」指「根本原則」。",
       "sentenceIndex": 138,
@@ -5827,12 +5287,10 @@ export default {
         "foundational principle"
       ],
       "optionReasons": {
-        "foundation-mcq-67": "本句指「根本原則」。",
-        "foundation-mcq-66": "「基礎性的；奠基性的」與本句語境不同。",
-        "foundation-mcq-68": "「基礎性知識」與本句語境不同。",
-        "foundation-mcq-65": "「塑形／支撐內衣」與本句語境不同。",
-        "foundation-mcq-69": "「奠基性工作」與本句語境不同。",
-        "foundation-mcq-64": "「基礎階段」與本句語境不同。"
+        "foundation-mcq-67": "本句的「foundational principle」指「根本原則」。",
+        "foundation-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-67"
     },
@@ -5844,11 +5302,9 @@ export default {
       "masked": "These ____ principles guide decision-making.",
       "options": [
         "foundation-mcq-67",
-        "foundation-mcq-66",
-        "foundation-mcq-68",
-        "foundation-mcq-65",
-        "foundation-mcq-69",
-        "foundation-mcq-64"
+        "foundation-mcq-31",
+        "foundation-mcq-35",
+        "foundation-pdf-004"
       ],
       "explanation": "本句的「foundational」指「根本原則」。",
       "sentenceIndex": 139,
@@ -5857,12 +5313,10 @@ export default {
         "foundational"
       ],
       "optionReasons": {
-        "foundation-mcq-67": "本句指「根本原則」。",
-        "foundation-mcq-66": "「基礎性的；奠基性的」與本句語境不同。",
-        "foundation-mcq-68": "「基礎性知識」與本句語境不同。",
-        "foundation-mcq-65": "「塑形／支撐內衣」與本句語境不同。",
-        "foundation-mcq-69": "「奠基性工作」與本句語境不同。",
-        "foundation-mcq-64": "「基礎階段」與本句語境不同。"
+        "foundation-mcq-67": "本句的「foundational」指「根本原則」。",
+        "foundation-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-67"
     },
@@ -5874,11 +5328,9 @@ export default {
       "masked": "Students first need ____.",
       "options": [
         "foundation-mcq-68",
-        "foundation-mcq-67",
-        "foundation-mcq-69",
-        "foundation-mcq-66",
-        "foundation-mcq-70",
-        "foundation-mcq-65"
+        "foundation-mcq-37",
+        "foundation-mcq-35",
+        "foundation-mcq-46"
       ],
       "explanation": "本句的「foundational knowledge」指「基礎性知識」。",
       "sentenceIndex": 140,
@@ -5887,12 +5339,10 @@ export default {
         "foundational knowledge"
       ],
       "optionReasons": {
-        "foundation-mcq-68": "本句指「基礎性知識」。",
-        "foundation-mcq-67": "「根本原則」與本句語境不同。",
-        "foundation-mcq-69": "「奠基性工作」與本句語境不同。",
-        "foundation-mcq-66": "「基礎性的；奠基性的」與本句語境不同。",
-        "foundation-mcq-70": "「毫無根據」與本句語境不同。",
-        "foundation-mcq-65": "「塑形／支撐內衣」與本句語境不同。"
+        "foundation-mcq-68": "本句的「foundational knowledge」指「基礎性知識」。",
+        "foundation-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-68"
     },
@@ -5904,10 +5354,8 @@ export default {
       "masked": "Advanced analysis depends on ____ knowledge.",
       "options": [
         "foundation-mcq-68",
-        "foundation-mcq-67",
-        "foundation-mcq-69",
-        "foundation-mcq-66",
-        "foundation-mcq-70",
+        "foundation-pdf-003",
+        "foundation-pdf-002",
         "foundation-mcq-65"
       ],
       "explanation": "本句的「foundational」指「基礎性知識」。",
@@ -5917,12 +5365,10 @@ export default {
         "foundational"
       ],
       "optionReasons": {
-        "foundation-mcq-68": "本句指「基礎性知識」。",
-        "foundation-mcq-67": "「根本原則」與本句語境不同。",
-        "foundation-mcq-69": "「奠基性工作」與本句語境不同。",
-        "foundation-mcq-66": "「基礎性的；奠基性的」與本句語境不同。",
-        "foundation-mcq-70": "「毫無根據」與本句語境不同。",
-        "foundation-mcq-65": "「塑形／支撐內衣」與本句語境不同。"
+        "foundation-mcq-68": "本句的「foundational」指「基礎性知識」。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-68"
     },
@@ -5934,11 +5380,9 @@ export default {
       "masked": "Her early studies were ____.",
       "options": [
         "foundation-mcq-69",
-        "foundation-mcq-68",
-        "foundation-mcq-70",
-        "foundation-mcq-67",
-        "foundation-mcq-71",
-        "foundation-mcq-66"
+        "foundation-pdf-003",
+        "foundation-mcq-58",
+        "foundation-mcq-36"
       ],
       "explanation": "本句的「foundational to later research」指「奠基性工作」。",
       "sentenceIndex": 142,
@@ -5947,12 +5391,10 @@ export default {
         "foundational to later research"
       ],
       "optionReasons": {
-        "foundation-mcq-69": "本句指「奠基性工作」。",
-        "foundation-mcq-68": "「基礎性知識」與本句語境不同。",
-        "foundation-mcq-70": "「毫無根據」與本句語境不同。",
-        "foundation-mcq-67": "「根本原則」與本句語境不同。",
-        "foundation-mcq-71": "「沒有事實根據」與本句語境不同。",
-        "foundation-mcq-66": "「基礎性的；奠基性的」與本句語境不同。"
+        "foundation-mcq-69": "本句的「foundational to later research」指「奠基性工作」。",
+        "foundation-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-69"
     },
@@ -5964,11 +5406,9 @@ export default {
       "masked": "The paper became a ____ work in the field.",
       "options": [
         "foundation-mcq-69",
-        "foundation-mcq-68",
-        "foundation-mcq-70",
-        "foundation-mcq-67",
-        "foundation-mcq-71",
-        "foundation-mcq-66"
+        "foundation-pdf-005",
+        "foundation-mcq-42",
+        "foundation-mcq-34"
       ],
       "explanation": "本句的「foundational」指「奠基性工作」。",
       "sentenceIndex": 143,
@@ -5977,12 +5417,10 @@ export default {
         "foundational"
       ],
       "optionReasons": {
-        "foundation-mcq-69": "本句指「奠基性工作」。",
-        "foundation-mcq-68": "「基礎性知識」與本句語境不同。",
-        "foundation-mcq-70": "「毫無根據」與本句語境不同。",
-        "foundation-mcq-67": "「根本原則」與本句語境不同。",
-        "foundation-mcq-71": "「沒有事實根據」與本句語境不同。",
-        "foundation-mcq-66": "「基礎性的；奠基性的」與本句語境不同。"
+        "foundation-mcq-69": "本句的「foundational」指「奠基性工作」。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-69"
     },
@@ -5994,11 +5432,9 @@ export default {
       "masked": "The accusation was ____.",
       "options": [
         "foundation-mcq-70",
-        "foundation-mcq-69",
-        "foundation-mcq-71",
-        "foundation-mcq-68",
-        "foundation-mcq-67",
-        "foundation-mcq-66"
+        "foundation-mcq-63",
+        "foundation-reviewed-3032fcc537",
+        "foundation-mcq-65"
       ],
       "explanation": "本句的「without foundation」指「毫無根據」。",
       "sentenceIndex": 144,
@@ -6007,12 +5443,10 @@ export default {
         "without foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-70": "本句指「毫無根據」。",
-        "foundation-mcq-69": "「奠基性工作」與本句語境不同。",
-        "foundation-mcq-71": "「沒有事實根據」與本句語境不同。",
-        "foundation-mcq-68": "「基礎性知識」與本句語境不同。",
-        "foundation-mcq-67": "「根本原則」與本句語境不同。",
-        "foundation-mcq-66": "「基礎性的；奠基性的」與本句語境不同。"
+        "foundation-mcq-70": "本句的「without foundation」指「毫無根據」。",
+        "foundation-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "foundation-reviewed-3032fcc537": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-70"
     },
@@ -6024,11 +5458,9 @@ export default {
       "masked": "His concerns were not entirely without ____.",
       "options": [
         "foundation-mcq-70",
-        "foundation-mcq-69",
-        "foundation-mcq-71",
-        "foundation-mcq-68",
-        "foundation-mcq-67",
-        "foundation-mcq-66"
+        "foundation-mcq-27",
+        "foundation-mcq-42",
+        "foundation-mcq-58"
       ],
       "explanation": "本句的「foundation」指「毫無根據」。",
       "sentenceIndex": 145,
@@ -6037,12 +5469,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-70": "本句指「毫無根據」。",
-        "foundation-mcq-69": "「奠基性工作」與本句語境不同。",
-        "foundation-mcq-71": "「沒有事實根據」與本句語境不同。",
-        "foundation-mcq-68": "「基礎性知識」與本句語境不同。",
-        "foundation-mcq-67": "「根本原則」與本句語境不同。",
-        "foundation-mcq-66": "「基礎性的；奠基性的」與本句語境不同。"
+        "foundation-mcq-70": "本句的「foundation」指「毫無根據」。",
+        "foundation-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-70"
     },
@@ -6054,11 +5484,9 @@ export default {
       "masked": "The rumour ____.",
       "options": [
         "foundation-mcq-71",
-        "foundation-mcq-70",
-        "foundation-mcq-69",
-        "foundation-mcq-68",
-        "foundation-mcq-67",
-        "foundation-mcq-66"
+        "foundation-mcq-49",
+        "foundation-pdf-005",
+        "foundation-reviewed-3032fcc537"
       ],
       "explanation": "本句的「has no foundation in fact」指「沒有事實根據」。",
       "sentenceIndex": 146,
@@ -6067,12 +5495,10 @@ export default {
         "has no foundation in fact"
       ],
       "optionReasons": {
-        "foundation-mcq-71": "本句指「沒有事實根據」。",
-        "foundation-mcq-70": "「毫無根據」與本句語境不同。",
-        "foundation-mcq-69": "「奠基性工作」與本句語境不同。",
-        "foundation-mcq-68": "「基礎性知識」與本句語境不同。",
-        "foundation-mcq-67": "「根本原則」與本句語境不同。",
-        "foundation-mcq-66": "「基礎性的；奠基性的」與本句語境不同。"
+        "foundation-mcq-71": "本句的「has no foundation in fact」指「沒有事實根據」。",
+        "foundation-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "foundation-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "foundation-reviewed-3032fcc537": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-71"
     },
@@ -6084,11 +5510,9 @@ export default {
       "masked": "The allegation appears to have little ____ in evidence.",
       "options": [
         "foundation-mcq-71",
-        "foundation-mcq-70",
-        "foundation-mcq-69",
-        "foundation-mcq-68",
-        "foundation-mcq-67",
-        "foundation-mcq-66"
+        "foundation-mcq-15",
+        "foundation-mcq-41",
+        "foundation-mcq-65"
       ],
       "explanation": "本句的「foundation」指「沒有事實根據」。",
       "sentenceIndex": 147,
@@ -6097,12 +5521,10 @@ export default {
         "foundation"
       ],
       "optionReasons": {
-        "foundation-mcq-71": "本句指「沒有事實根據」。",
-        "foundation-mcq-70": "「毫無根據」與本句語境不同。",
-        "foundation-mcq-69": "「奠基性工作」與本句語境不同。",
-        "foundation-mcq-68": "「基礎性知識」與本句語境不同。",
-        "foundation-mcq-67": "「根本原則」與本句語境不同。",
-        "foundation-mcq-66": "「基礎性的；奠基性的」與本句語境不同。"
+        "foundation-mcq-71": "本句的「foundation」指「沒有事實根據」。",
+        "foundation-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "foundation-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "foundation-mcq-71"
     }
@@ -6114,5 +5536,7 @@ export default {
     "sha256": "21d5875b4cae248207b579231f781bfd056330e65626bc1ed54e3e32fbc995cb",
     "pages": 56
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

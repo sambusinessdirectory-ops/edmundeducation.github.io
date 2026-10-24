@@ -822,11 +822,9 @@ export default {
       "masked": "The next it ____ a jungle.",
       "options": [
         "turn-mcq-01",
-        "turn-mcq-02",
-        "turn-mcq-03",
-        "turn-mcq-04",
-        "turn-mcq-05",
-        "turn-mcq-06"
+        "turn-mcq-20",
+        "turn-mcq-22",
+        "turn-mcq-34"
       ],
       "explanation": "本句的「turns into」指「由一種事物／狀態轉變成另一種」。",
       "sentenceIndex": 0,
@@ -835,12 +833,10 @@ export default {
         "turns into"
       ],
       "optionReasons": {
-        "turn-mcq-01": "本句指「由一種事物／狀態轉變成另一種」。",
-        "turn-mcq-02": "「改變移動方向或面向」是「turn — direction」的用法，與本句語境不同。",
-        "turn-mcq-03": "「繞著中心／軸旋轉或使某物旋轉」是「turn — rotate」的用法，與本句語境不同。",
-        "turn-mcq-04": "「改變面向／方向，使其朝相反方向」是「turn around」的用法，與本句語境不同。",
-        "turn-mcq-05": "「改變物件的朝向、正反面或位置」是「turn — flip/orient」的用法，與本句語境不同。",
-        "turn-mcq-06": "「進入另一種狀態或性質」是「turn + adjective」的用法，與本句語境不同。"
+        "turn-mcq-01": "本句的「turns into」指「由一種事物／狀態轉變成另一種」。",
+        "turn-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-01"
     },
@@ -852,11 +848,9 @@ export default {
       "masked": "The caterpillar ____ a butterfly.",
       "options": [
         "turn-mcq-01",
-        "turn-mcq-02",
-        "turn-mcq-03",
-        "turn-mcq-04",
-        "turn-mcq-05",
-        "turn-mcq-06"
+        "turn-mcq-23",
+        "turn-mcq-18",
+        "turn-mcq-35"
       ],
       "explanation": "本句的「turned into」指「由一種事物／狀態轉變成另一種」。",
       "sentenceIndex": 1,
@@ -865,12 +859,10 @@ export default {
         "turned into"
       ],
       "optionReasons": {
-        "turn-mcq-01": "本句指「由一種事物／狀態轉變成另一種」。",
-        "turn-mcq-02": "「改變移動方向或面向」是「turn — direction」的用法，與本句語境不同。",
-        "turn-mcq-03": "「繞著中心／軸旋轉或使某物旋轉」是「turn — rotate」的用法，與本句語境不同。",
-        "turn-mcq-04": "「改變面向／方向，使其朝相反方向」是「turn around」的用法，與本句語境不同。",
-        "turn-mcq-05": "「改變物件的朝向、正反面或位置」是「turn — flip/orient」的用法，與本句語境不同。",
-        "turn-mcq-06": "「進入另一種狀態或性質」是「turn + adjective」的用法，與本句語境不同。"
+        "turn-mcq-01": "本句的「turned into」指「由一種事物／狀態轉變成另一種」。",
+        "turn-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-01"
     },
@@ -882,11 +874,9 @@ export default {
       "masked": "The discussion ____ an argument.",
       "options": [
         "turn-mcq-01",
-        "turn-mcq-02",
-        "turn-mcq-03",
-        "turn-mcq-04",
-        "turn-mcq-05",
-        "turn-mcq-06"
+        "turn-mcq-29",
+        "turn-mcq-07",
+        "turn-mcq-23"
       ],
       "explanation": "本句的「turned into」指「由一種事物／狀態轉變成另一種」。",
       "sentenceIndex": 2,
@@ -895,12 +885,10 @@ export default {
         "turned into"
       ],
       "optionReasons": {
-        "turn-mcq-01": "本句指「由一種事物／狀態轉變成另一種」。",
-        "turn-mcq-02": "「改變移動方向或面向」是「turn — direction」的用法，與本句語境不同。",
-        "turn-mcq-03": "「繞著中心／軸旋轉或使某物旋轉」是「turn — rotate」的用法，與本句語境不同。",
-        "turn-mcq-04": "「改變面向／方向，使其朝相反方向」是「turn around」的用法，與本句語境不同。",
-        "turn-mcq-05": "「改變物件的朝向、正反面或位置」是「turn — flip/orient」的用法，與本句語境不同。",
-        "turn-mcq-06": "「進入另一種狀態或性質」是「turn + adjective」的用法，與本句語境不同。"
+        "turn-mcq-01": "本句的「turned into」指「由一種事物／狀態轉變成另一種」。",
+        "turn-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-01"
     },
@@ -912,11 +900,9 @@ export default {
       "masked": "____ left at the corner.",
       "options": [
         "turn-mcq-02",
-        "turn-mcq-01",
-        "turn-mcq-03",
-        "turn-mcq-04",
-        "turn-mcq-05",
-        "turn-mcq-06"
+        "turn-mcq-14",
+        "turn-mcq-18",
+        "turn-mcq-15"
       ],
       "explanation": "本句的「Turn」指「改變移動方向或面向」。",
       "sentenceIndex": 3,
@@ -925,12 +911,10 @@ export default {
         "Turn"
       ],
       "optionReasons": {
-        "turn-mcq-02": "本句指「改變移動方向或面向」。",
-        "turn-mcq-01": "「由一種事物／狀態轉變成另一種」是「turn into」的用法，與本句語境不同。",
-        "turn-mcq-03": "「繞著中心／軸旋轉或使某物旋轉」是「turn — rotate」的用法，與本句語境不同。",
-        "turn-mcq-04": "「改變面向／方向，使其朝相反方向」是「turn around」的用法，與本句語境不同。",
-        "turn-mcq-05": "「改變物件的朝向、正反面或位置」是「turn — flip/orient」的用法，與本句語境不同。",
-        "turn-mcq-06": "「進入另一種狀態或性質」是「turn + adjective」的用法，與本句語境不同。"
+        "turn-mcq-02": "本句的「Turn」指「改變移動方向或面向」。",
+        "turn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-02"
     },
@@ -942,11 +926,9 @@ export default {
       "masked": "The car ____ sharply.",
       "options": [
         "turn-mcq-02",
-        "turn-mcq-01",
-        "turn-mcq-03",
-        "turn-mcq-04",
-        "turn-mcq-05",
-        "turn-mcq-06"
+        "turn-mcq-35",
+        "turn-mcq-34",
+        "turn-mcq-24"
       ],
       "explanation": "本句的「turned」指「改變移動方向或面向」。",
       "sentenceIndex": 4,
@@ -955,12 +937,10 @@ export default {
         "turned"
       ],
       "optionReasons": {
-        "turn-mcq-02": "本句指「改變移動方向或面向」。",
-        "turn-mcq-01": "「由一種事物／狀態轉變成另一種」是「turn into」的用法，與本句語境不同。",
-        "turn-mcq-03": "「繞著中心／軸旋轉或使某物旋轉」是「turn — rotate」的用法，與本句語境不同。",
-        "turn-mcq-04": "「改變面向／方向，使其朝相反方向」是「turn around」的用法，與本句語境不同。",
-        "turn-mcq-05": "「改變物件的朝向、正反面或位置」是「turn — flip/orient」的用法，與本句語境不同。",
-        "turn-mcq-06": "「進入另一種狀態或性質」是「turn + adjective」的用法，與本句語境不同。"
+        "turn-mcq-02": "本句的「turned」指「改變移動方向或面向」。",
+        "turn-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-02"
     },
@@ -972,11 +952,9 @@ export default {
       "masked": "____ the handle slowly.",
       "options": [
         "turn-mcq-03",
-        "turn-mcq-02",
         "turn-mcq-04",
-        "turn-mcq-01",
-        "turn-mcq-05",
-        "turn-mcq-06"
+        "turn-mcq-21",
+        "turn-mcq-18"
       ],
       "explanation": "本句的「Turn」指「繞著中心／軸旋轉或使某物旋轉」。",
       "sentenceIndex": 5,
@@ -985,12 +963,10 @@ export default {
         "Turn"
       ],
       "optionReasons": {
-        "turn-mcq-03": "本句指「繞著中心／軸旋轉或使某物旋轉」。",
-        "turn-mcq-02": "「改變移動方向或面向」是「turn — direction」的用法，與本句語境不同。",
-        "turn-mcq-04": "「改變面向／方向，使其朝相反方向」是「turn around」的用法，與本句語境不同。",
-        "turn-mcq-01": "「由一種事物／狀態轉變成另一種」是「turn into」的用法，與本句語境不同。",
-        "turn-mcq-05": "「改變物件的朝向、正反面或位置」是「turn — flip/orient」的用法，與本句語境不同。",
-        "turn-mcq-06": "「進入另一種狀態或性質」是「turn + adjective」的用法，與本句語境不同。"
+        "turn-mcq-03": "本句的「Turn」指「繞著中心／軸旋轉或使某物旋轉」。",
+        "turn-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-03"
     },
@@ -1002,11 +978,9 @@ export default {
       "masked": "The wheels are ____.",
       "options": [
         "turn-mcq-03",
-        "turn-mcq-02",
-        "turn-mcq-04",
-        "turn-mcq-01",
-        "turn-mcq-05",
-        "turn-mcq-06"
+        "turn-mcq-17",
+        "turn-mcq-20",
+        "turn-mcq-31"
       ],
       "explanation": "本句的「turning」指「繞著中心／軸旋轉或使某物旋轉」。",
       "sentenceIndex": 6,
@@ -1015,12 +989,10 @@ export default {
         "turning"
       ],
       "optionReasons": {
-        "turn-mcq-03": "本句指「繞著中心／軸旋轉或使某物旋轉」。",
-        "turn-mcq-02": "「改變移動方向或面向」是「turn — direction」的用法，與本句語境不同。",
-        "turn-mcq-04": "「改變面向／方向，使其朝相反方向」是「turn around」的用法，與本句語境不同。",
-        "turn-mcq-01": "「由一種事物／狀態轉變成另一種」是「turn into」的用法，與本句語境不同。",
-        "turn-mcq-05": "「改變物件的朝向、正反面或位置」是「turn — flip/orient」的用法，與本句語境不同。",
-        "turn-mcq-06": "「進入另一種狀態或性質」是「turn + adjective」的用法，與本句語境不同。"
+        "turn-mcq-03": "本句的「turning」指「繞著中心／軸旋轉或使某物旋轉」。",
+        "turn-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-03"
     },
@@ -1032,11 +1004,9 @@ export default {
       "masked": "She ____ and smiled.",
       "options": [
         "turn-mcq-04",
-        "turn-mcq-03",
-        "turn-mcq-05",
-        "turn-mcq-02",
-        "turn-mcq-06",
-        "turn-mcq-01"
+        "turn-mcq-22",
+        "turn-mcq-11",
+        "turn-mcq-34"
       ],
       "explanation": "本句的「turned around」指「改變面向／方向，使其朝相反方向」。",
       "sentenceIndex": 7,
@@ -1045,12 +1015,10 @@ export default {
         "turned around"
       ],
       "optionReasons": {
-        "turn-mcq-04": "本句指「改變面向／方向，使其朝相反方向」。",
-        "turn-mcq-03": "「繞著中心／軸旋轉或使某物旋轉」是「turn — rotate」的用法，與本句語境不同。",
-        "turn-mcq-05": "「改變物件的朝向、正反面或位置」是「turn — flip/orient」的用法，與本句語境不同。",
-        "turn-mcq-02": "「改變移動方向或面向」是「turn — direction」的用法，與本句語境不同。",
-        "turn-mcq-06": "「進入另一種狀態或性質」是「turn + adjective」的用法，與本句語境不同。",
-        "turn-mcq-01": "「由一種事物／狀態轉變成另一種」是「turn into」的用法，與本句語境不同。"
+        "turn-mcq-04": "本句的「turned around」指「改變面向／方向，使其朝相反方向」。",
+        "turn-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-04"
     },
@@ -1062,11 +1030,9 @@ export default {
       "masked": "The driver ____.",
       "options": [
         "turn-mcq-04",
-        "turn-mcq-03",
-        "turn-mcq-05",
-        "turn-mcq-02",
-        "turn-mcq-06",
-        "turn-mcq-01"
+        "turn-mcq-30",
+        "turn-mcq-10",
+        "turn-mcq-24"
       ],
       "explanation": "本句的「turned the car around」指「改變面向／方向，使其朝相反方向」。",
       "sentenceIndex": 8,
@@ -1075,12 +1041,10 @@ export default {
         "turned the car around"
       ],
       "optionReasons": {
-        "turn-mcq-04": "本句指「改變面向／方向，使其朝相反方向」。",
-        "turn-mcq-03": "「繞著中心／軸旋轉或使某物旋轉」是「turn — rotate」的用法，與本句語境不同。",
-        "turn-mcq-05": "「改變物件的朝向、正反面或位置」是「turn — flip/orient」的用法，與本句語境不同。",
-        "turn-mcq-02": "「改變移動方向或面向」是「turn — direction」的用法，與本句語境不同。",
-        "turn-mcq-06": "「進入另一種狀態或性質」是「turn + adjective」的用法，與本句語境不同。",
-        "turn-mcq-01": "「由一種事物／狀態轉變成另一種」是「turn into」的用法，與本句語境不同。"
+        "turn-mcq-04": "本句的「turned the car around」指「改變面向／方向，使其朝相反方向」。",
+        "turn-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-04"
     },
@@ -1092,11 +1056,9 @@ export default {
       "masked": "____ the page.",
       "options": [
         "turn-mcq-05",
-        "turn-mcq-04",
-        "turn-mcq-06",
         "turn-mcq-03",
-        "turn-mcq-07",
-        "turn-mcq-02"
+        "turn-mcq-23",
+        "turn-mcq-07"
       ],
       "explanation": "本句的「Turn」指「改變物件的朝向、正反面或位置」。",
       "sentenceIndex": 9,
@@ -1105,12 +1067,10 @@ export default {
         "Turn"
       ],
       "optionReasons": {
-        "turn-mcq-05": "本句指「改變物件的朝向、正反面或位置」。",
-        "turn-mcq-04": "「改變面向／方向，使其朝相反方向」是「turn around」的用法，與本句語境不同。",
-        "turn-mcq-06": "「進入另一種狀態或性質」是「turn + adjective」的用法，與本句語境不同。",
-        "turn-mcq-03": "「繞著中心／軸旋轉或使某物旋轉」是「turn — rotate」的用法，與本句語境不同。",
-        "turn-mcq-07": "「到達某個年齡」是「turn + age」的用法，與本句語境不同。",
-        "turn-mcq-02": "「改變移動方向或面向」是「turn — direction」的用法，與本句語境不同。"
+        "turn-mcq-05": "本句的「Turn」指「改變物件的朝向、正反面或位置」。",
+        "turn-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-05"
     },
@@ -1122,11 +1082,9 @@ export default {
       "masked": "She ____ the card over.",
       "options": [
         "turn-mcq-05",
-        "turn-mcq-04",
-        "turn-mcq-06",
-        "turn-mcq-03",
-        "turn-mcq-07",
-        "turn-mcq-02"
+        "turn-mcq-24",
+        "turn-mcq-30",
+        "turn-mcq-03"
       ],
       "explanation": "本句的「turned」指「改變物件的朝向、正反面或位置」。",
       "sentenceIndex": 10,
@@ -1135,12 +1093,10 @@ export default {
         "turned"
       ],
       "optionReasons": {
-        "turn-mcq-05": "本句指「改變物件的朝向、正反面或位置」。",
-        "turn-mcq-04": "「改變面向／方向，使其朝相反方向」是「turn around」的用法，與本句語境不同。",
-        "turn-mcq-06": "「進入另一種狀態或性質」是「turn + adjective」的用法，與本句語境不同。",
-        "turn-mcq-03": "「繞著中心／軸旋轉或使某物旋轉」是「turn — rotate」的用法，與本句語境不同。",
-        "turn-mcq-07": "「到達某個年齡」是「turn + age」的用法，與本句語境不同。",
-        "turn-mcq-02": "「改變移動方向或面向」是「turn — direction」的用法，與本句語境不同。"
+        "turn-mcq-05": "本句的「turned」指「改變物件的朝向、正反面或位置」。",
+        "turn-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-05"
     },
@@ -1152,11 +1108,9 @@ export default {
       "masked": "The sky ____ dark.",
       "options": [
         "turn-mcq-06",
-        "turn-mcq-05",
-        "turn-mcq-07",
-        "turn-mcq-04",
-        "turn-mcq-08",
-        "turn-mcq-03"
+        "turn-mcq-20",
+        "turn-mcq-16",
+        "turn-mcq-35"
       ],
       "explanation": "本句的「turned」指「進入另一種狀態或性質」。",
       "sentenceIndex": 11,
@@ -1165,12 +1119,10 @@ export default {
         "turned"
       ],
       "optionReasons": {
-        "turn-mcq-06": "本句指「進入另一種狀態或性質」。",
-        "turn-mcq-05": "「改變物件的朝向、正反面或位置」是「turn — flip/orient」的用法，與本句語境不同。",
-        "turn-mcq-07": "「到達某個年齡」是「turn + age」的用法，與本句語境不同。",
-        "turn-mcq-04": "「改變面向／方向，使其朝相反方向」是「turn around」的用法，與本句語境不同。",
-        "turn-mcq-08": "「使 X 轉變成 Y 的狀態、角色或形式」是「turn X into Y」的用法，與本句語境不同。",
-        "turn-mcq-03": "「繞著中心／軸旋轉或使某物旋轉」是「turn — rotate」的用法，與本句語境不同。"
+        "turn-mcq-06": "本句的「turned」指「進入另一種狀態或性質」。",
+        "turn-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-06"
     },
@@ -1182,11 +1134,9 @@ export default {
       "masked": "Her face ____ red.",
       "options": [
         "turn-mcq-06",
-        "turn-mcq-05",
-        "turn-mcq-07",
-        "turn-mcq-04",
-        "turn-mcq-08",
-        "turn-mcq-03"
+        "turn-mcq-10",
+        "turn-mcq-25",
+        "turn-mcq-16"
       ],
       "explanation": "本句的「turned」指「進入另一種狀態或性質」。",
       "sentenceIndex": 12,
@@ -1195,12 +1145,10 @@ export default {
         "turned"
       ],
       "optionReasons": {
-        "turn-mcq-06": "本句指「進入另一種狀態或性質」。",
-        "turn-mcq-05": "「改變物件的朝向、正反面或位置」是「turn — flip/orient」的用法，與本句語境不同。",
-        "turn-mcq-07": "「到達某個年齡」是「turn + age」的用法，與本句語境不同。",
-        "turn-mcq-04": "「改變面向／方向，使其朝相反方向」是「turn around」的用法，與本句語境不同。",
-        "turn-mcq-08": "「使 X 轉變成 Y 的狀態、角色或形式」是「turn X into Y」的用法，與本句語境不同。",
-        "turn-mcq-03": "「繞著中心／軸旋轉或使某物旋轉」是「turn — rotate」的用法，與本句語境不同。"
+        "turn-mcq-06": "本句的「turned」指「進入另一種狀態或性質」。",
+        "turn-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-06"
     },
@@ -1212,11 +1160,9 @@ export default {
       "masked": "Leo ____ this year.",
       "options": [
         "turn-mcq-07",
-        "turn-mcq-06",
-        "turn-mcq-08",
-        "turn-mcq-05",
-        "turn-mcq-09",
-        "turn-mcq-04"
+        "turn-mcq-14",
+        "turn-mcq-04",
+        "turn-mcq-12"
       ],
       "explanation": "本句的「turned eight」指「到達某個年齡」。",
       "sentenceIndex": 13,
@@ -1225,12 +1171,10 @@ export default {
         "turned eight"
       ],
       "optionReasons": {
-        "turn-mcq-07": "本句指「到達某個年齡」。",
-        "turn-mcq-06": "「進入另一種狀態或性質」是「turn + adjective」的用法，與本句語境不同。",
-        "turn-mcq-08": "「使 X 轉變成 Y 的狀態、角色或形式」是「turn X into Y」的用法，與本句語境不同。",
-        "turn-mcq-05": "「改變物件的朝向、正反面或位置」是「turn — flip/orient」的用法，與本句語境不同。",
-        "turn-mcq-09": "「把身體、目光或注意力改向另一目標」是「turn to/toward」的用法，與本句語境不同。",
-        "turn-mcq-04": "「改變面向／方向，使其朝相反方向」是「turn around」的用法，與本句語境不同。"
+        "turn-mcq-07": "本句的「turned eight」指「到達某個年齡」。",
+        "turn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-07"
     },
@@ -1242,11 +1186,9 @@ export default {
       "masked": "She ____ next month.",
       "options": [
         "turn-mcq-07",
-        "turn-mcq-06",
-        "turn-mcq-08",
-        "turn-mcq-05",
-        "turn-mcq-09",
-        "turn-mcq-04"
+        "turn-mcq-20",
+        "turn-mcq-13",
+        "turn-mcq-17"
       ],
       "explanation": "本句的「turns sixty」指「到達某個年齡」。",
       "sentenceIndex": 14,
@@ -1255,12 +1197,10 @@ export default {
         "turns sixty"
       ],
       "optionReasons": {
-        "turn-mcq-07": "本句指「到達某個年齡」。",
-        "turn-mcq-06": "「進入另一種狀態或性質」是「turn + adjective」的用法，與本句語境不同。",
-        "turn-mcq-08": "「使 X 轉變成 Y 的狀態、角色或形式」是「turn X into Y」的用法，與本句語境不同。",
-        "turn-mcq-05": "「改變物件的朝向、正反面或位置」是「turn — flip/orient」的用法，與本句語境不同。",
-        "turn-mcq-09": "「把身體、目光或注意力改向另一目標」是「turn to/toward」的用法，與本句語境不同。",
-        "turn-mcq-04": "「改變面向／方向，使其朝相反方向」是「turn around」的用法，與本句語境不同。"
+        "turn-mcq-07": "本句的「turns sixty」指「到達某個年齡」。",
+        "turn-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-07"
     },
@@ -1272,11 +1212,9 @@ export default {
       "masked": "The rain ____ the road muddy.",
       "options": [
         "turn-mcq-08",
-        "turn-mcq-07",
-        "turn-mcq-09",
-        "turn-mcq-06",
+        "turn-mcq-21",
         "turn-mcq-10",
-        "turn-mcq-05"
+        "turn-mcq-14"
       ],
       "explanation": "本句的「turned」指「使 X 轉變成 Y 的狀態、角色或形式」。",
       "sentenceIndex": 15,
@@ -1285,12 +1223,10 @@ export default {
         "turned"
       ],
       "optionReasons": {
-        "turn-mcq-08": "本句指「使 X 轉變成 Y 的狀態、角色或形式」。",
-        "turn-mcq-07": "「到達某個年齡」是「turn + age」的用法，與本句語境不同。",
-        "turn-mcq-09": "「把身體、目光或注意力改向另一目標」是「turn to/toward」的用法，與本句語境不同。",
-        "turn-mcq-06": "「進入另一種狀態或性質」是「turn + adjective」的用法，與本句語境不同。",
-        "turn-mcq-10": "「在需要幫助、建議或支持時求助／依靠某人」是「turn to someone」的用法，與本句語境不同。",
-        "turn-mcq-05": "「改變物件的朝向、正反面或位置」是「turn — flip/orient」的用法，與本句語境不同。"
+        "turn-mcq-08": "本句的「turned」指「使 X 轉變成 Y 的狀態、角色或形式」。",
+        "turn-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-08"
     },
@@ -1302,11 +1238,9 @@ export default {
       "masked": "The experience ____ him into a more patient person.",
       "options": [
         "turn-mcq-08",
+        "turn-mcq-22",
         "turn-mcq-07",
-        "turn-mcq-09",
-        "turn-mcq-06",
-        "turn-mcq-10",
-        "turn-mcq-05"
+        "turn-mcq-16"
       ],
       "explanation": "本句的「turned」指「使 X 轉變成 Y 的狀態、角色或形式」。",
       "sentenceIndex": 16,
@@ -1315,12 +1249,10 @@ export default {
         "turned"
       ],
       "optionReasons": {
-        "turn-mcq-08": "本句指「使 X 轉變成 Y 的狀態、角色或形式」。",
-        "turn-mcq-07": "「到達某個年齡」是「turn + age」的用法，與本句語境不同。",
-        "turn-mcq-09": "「把身體、目光或注意力改向另一目標」是「turn to/toward」的用法，與本句語境不同。",
-        "turn-mcq-06": "「進入另一種狀態或性質」是「turn + adjective」的用法，與本句語境不同。",
-        "turn-mcq-10": "「在需要幫助、建議或支持時求助／依靠某人」是「turn to someone」的用法，與本句語境不同。",
-        "turn-mcq-05": "「改變物件的朝向、正反面或位置」是「turn — flip/orient」的用法，與本句語境不同。"
+        "turn-mcq-08": "本句的「turned」指「使 X 轉變成 Y 的狀態、角色或形式」。",
+        "turn-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-08"
     },
@@ -1332,11 +1264,9 @@ export default {
       "masked": "She ____ to look at him.",
       "options": [
         "turn-mcq-09",
-        "turn-mcq-08",
-        "turn-mcq-10",
-        "turn-mcq-07",
-        "turn-mcq-11",
-        "turn-mcq-06"
+        "turn-mcq-24",
+        "turn-mcq-13",
+        "turn-mcq-03"
       ],
       "explanation": "本句的「turned」指「把身體、目光或注意力改向另一目標」。",
       "sentenceIndex": 17,
@@ -1345,12 +1275,10 @@ export default {
         "turned"
       ],
       "optionReasons": {
-        "turn-mcq-09": "本句指「把身體、目光或注意力改向另一目標」。",
-        "turn-mcq-08": "「使 X 轉變成 Y 的狀態、角色或形式」是「turn X into Y」的用法，與本句語境不同。",
-        "turn-mcq-10": "「在需要幫助、建議或支持時求助／依靠某人」是「turn to someone」的用法，與本句語境不同。",
-        "turn-mcq-07": "「到達某個年齡」是「turn + age」的用法，與本句語境不同。",
-        "turn-mcq-11": "「從原主題轉而處理另一主題」是「turn to a topic」的用法，與本句語境不同。",
-        "turn-mcq-06": "「進入另一種狀態或性質」是「turn + adjective」的用法，與本句語境不同。"
+        "turn-mcq-09": "本句的「turned」指「把身體、目光或注意力改向另一目標」。",
+        "turn-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-09"
     },
@@ -1362,11 +1290,9 @@ export default {
       "masked": "He ____ the next problem.",
       "options": [
         "turn-mcq-09",
-        "turn-mcq-08",
-        "turn-mcq-10",
-        "turn-mcq-07",
-        "turn-mcq-11",
-        "turn-mcq-06"
+        "turn-mcq-12",
+        "turn-mcq-14",
+        "turn-mcq-34"
       ],
       "explanation": "本句的「turned his attention to」指「把身體、目光或注意力改向另一目標」。",
       "sentenceIndex": 18,
@@ -1375,12 +1301,10 @@ export default {
         "turned his attention to"
       ],
       "optionReasons": {
-        "turn-mcq-09": "本句指「把身體、目光或注意力改向另一目標」。",
-        "turn-mcq-08": "「使 X 轉變成 Y 的狀態、角色或形式」是「turn X into Y」的用法，與本句語境不同。",
-        "turn-mcq-10": "「在需要幫助、建議或支持時求助／依靠某人」是「turn to someone」的用法，與本句語境不同。",
-        "turn-mcq-07": "「到達某個年齡」是「turn + age」的用法，與本句語境不同。",
-        "turn-mcq-11": "「從原主題轉而處理另一主題」是「turn to a topic」的用法，與本句語境不同。",
-        "turn-mcq-06": "「進入另一種狀態或性質」是「turn + adjective」的用法，與本句語境不同。"
+        "turn-mcq-09": "本句的「turned his attention to」指「把身體、目光或注意力改向另一目標」。",
+        "turn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-09"
     },
@@ -1392,11 +1316,9 @@ export default {
       "masked": "She ____ her family for help.",
       "options": [
         "turn-mcq-10",
-        "turn-mcq-09",
-        "turn-mcq-11",
-        "turn-mcq-08",
-        "turn-mcq-12",
-        "turn-mcq-07"
+        "turn-mcq-15",
+        "turn-mcq-21",
+        "turn-mcq-04"
       ],
       "explanation": "本句的「turned to」指「在需要幫助、建議或支持時求助／依靠某人」。",
       "sentenceIndex": 19,
@@ -1405,12 +1327,10 @@ export default {
         "turned to"
       ],
       "optionReasons": {
-        "turn-mcq-10": "本句指「在需要幫助、建議或支持時求助／依靠某人」。",
-        "turn-mcq-09": "「把身體、目光或注意力改向另一目標」是「turn to/toward」的用法，與本句語境不同。",
-        "turn-mcq-11": "「從原主題轉而處理另一主題」是「turn to a topic」的用法，與本句語境不同。",
-        "turn-mcq-08": "「使 X 轉變成 Y 的狀態、角色或形式」是「turn X into Y」的用法，與本句語境不同。",
-        "turn-mcq-12": "「從支持／中立轉為反對或敵對」是「turn against」的用法，與本句語境不同。",
-        "turn-mcq-07": "「到達某個年齡」是「turn + age」的用法，與本句語境不同。"
+        "turn-mcq-10": "本句的「turned to」指「在需要幫助、建議或支持時求助／依靠某人」。",
+        "turn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-10"
     },
@@ -1422,11 +1342,9 @@ export default {
       "masked": "Many people ____ friends for advice.",
       "options": [
         "turn-mcq-10",
-        "turn-mcq-09",
-        "turn-mcq-11",
-        "turn-mcq-08",
-        "turn-mcq-12",
-        "turn-mcq-07"
+        "turn-mcq-21",
+        "turn-mcq-35",
+        "turn-mcq-30"
       ],
       "explanation": "本句的「turn to」指「在需要幫助、建議或支持時求助／依靠某人」。",
       "sentenceIndex": 20,
@@ -1435,12 +1353,10 @@ export default {
         "turn to"
       ],
       "optionReasons": {
-        "turn-mcq-10": "本句指「在需要幫助、建議或支持時求助／依靠某人」。",
-        "turn-mcq-09": "「把身體、目光或注意力改向另一目標」是「turn to/toward」的用法，與本句語境不同。",
-        "turn-mcq-11": "「從原主題轉而處理另一主題」是「turn to a topic」的用法，與本句語境不同。",
-        "turn-mcq-08": "「使 X 轉變成 Y 的狀態、角色或形式」是「turn X into Y」的用法，與本句語境不同。",
-        "turn-mcq-12": "「從支持／中立轉為反對或敵對」是「turn against」的用法，與本句語境不同。",
-        "turn-mcq-07": "「到達某個年齡」是「turn + age」的用法，與本句語境不同。"
+        "turn-mcq-10": "本句的「turn to」指「在需要幫助、建議或支持時求助／依靠某人」。",
+        "turn-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-10"
     },
@@ -1452,11 +1368,9 @@ export default {
       "masked": "Let’s ____ the next question.",
       "options": [
         "turn-mcq-11",
-        "turn-mcq-10",
-        "turn-mcq-12",
-        "turn-mcq-09",
-        "turn-mcq-13",
-        "turn-mcq-08"
+        "turn-mcq-22",
+        "turn-mcq-29",
+        "turn-pdf-001"
       ],
       "explanation": "本句的「turn to」指「從原主題轉而處理另一主題」。",
       "sentenceIndex": 21,
@@ -1465,12 +1379,10 @@ export default {
         "turn to"
       ],
       "optionReasons": {
-        "turn-mcq-11": "本句指「從原主題轉而處理另一主題」。",
-        "turn-mcq-10": "「在需要幫助、建議或支持時求助／依靠某人」是「turn to someone」的用法，與本句語境不同。",
-        "turn-mcq-12": "「從支持／中立轉為反對或敵對」是「turn against」的用法，與本句語境不同。",
-        "turn-mcq-09": "「把身體、目光或注意力改向另一目標」是「turn to/toward」的用法，與本句語境不同。",
-        "turn-mcq-13": "「啟動設備／電源」是「turn on」的用法，與本句語境不同。",
-        "turn-mcq-08": "「使 X 轉變成 Y 的狀態、角色或形式」是「turn X into Y」的用法，與本句語境不同。"
+        "turn-mcq-11": "本句的「turn to」指「從原主題轉而處理另一主題」。",
+        "turn-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "turn-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-11"
     },
@@ -1482,11 +1394,9 @@ export default {
       "masked": "The report now ____ education.",
       "options": [
         "turn-mcq-11",
+        "turn-mcq-17",
         "turn-mcq-10",
-        "turn-mcq-12",
-        "turn-mcq-09",
-        "turn-mcq-13",
-        "turn-mcq-08"
+        "turn-mcq-18"
       ],
       "explanation": "本句的「turns to」指「從原主題轉而處理另一主題」。",
       "sentenceIndex": 22,
@@ -1495,12 +1405,10 @@ export default {
         "turns to"
       ],
       "optionReasons": {
-        "turn-mcq-11": "本句指「從原主題轉而處理另一主題」。",
-        "turn-mcq-10": "「在需要幫助、建議或支持時求助／依靠某人」是「turn to someone」的用法，與本句語境不同。",
-        "turn-mcq-12": "「從支持／中立轉為反對或敵對」是「turn against」的用法，與本句語境不同。",
-        "turn-mcq-09": "「把身體、目光或注意力改向另一目標」是「turn to/toward」的用法，與本句語境不同。",
-        "turn-mcq-13": "「啟動設備／電源」是「turn on」的用法，與本句語境不同。",
-        "turn-mcq-08": "「使 X 轉變成 Y 的狀態、角色或形式」是「turn X into Y」的用法，與本句語境不同。"
+        "turn-mcq-11": "本句的「turns to」指「從原主題轉而處理另一主題」。",
+        "turn-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-11"
     },
@@ -1512,11 +1420,9 @@ export default {
       "masked": "Public opinion ____ against the plan.",
       "options": [
         "turn-pdf-001",
-        "turn-mcq-11",
+        "turn-mcq-19",
         "turn-mcq-13",
-        "turn-mcq-10",
-        "turn-mcq-14",
-        "turn-mcq-09"
+        "turn-mcq-11"
       ],
       "explanation": "本句的「turned」指「態度、支持或立場發生改變」。",
       "sentenceIndex": 23,
@@ -1525,12 +1431,10 @@ export default {
         "turned"
       ],
       "optionReasons": {
-        "turn-pdf-001": "本句指「態度、支持或立場發生改變」。",
-        "turn-mcq-11": "「從原主題轉而處理另一主題」是「turn to a topic」的用法，與本句語境不同。",
-        "turn-mcq-13": "「啟動設備／電源」是「turn on」的用法，與本句語境不同。",
-        "turn-mcq-10": "「在需要幫助、建議或支持時求助／依靠某人」是「turn to someone」的用法，與本句語境不同。",
-        "turn-mcq-14": "「關閉設備／電源」是「turn off」的用法，與本句語境不同。",
-        "turn-mcq-09": "「把身體、目光或注意力改向另一目標」是「turn to/toward」的用法，與本句語境不同。"
+        "turn-pdf-001": "本句的「turned」指「態度、支持或立場發生改變」。",
+        "turn-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-pdf-001"
     },
@@ -1542,11 +1446,9 @@ export default {
       "masked": "He eventually ____ in favour of the idea.",
       "options": [
         "turn-pdf-001",
-        "turn-mcq-11",
-        "turn-mcq-13",
-        "turn-mcq-10",
-        "turn-mcq-14",
-        "turn-mcq-09"
+        "turn-mcq-19",
+        "turn-mcq-35",
+        "turn-mcq-23"
       ],
       "explanation": "本句的「turned」指「態度、支持或立場發生改變」。",
       "sentenceIndex": 24,
@@ -1555,12 +1457,10 @@ export default {
         "turned"
       ],
       "optionReasons": {
-        "turn-pdf-001": "本句指「態度、支持或立場發生改變」。",
-        "turn-mcq-11": "「從原主題轉而處理另一主題」是「turn to a topic」的用法，與本句語境不同。",
-        "turn-mcq-13": "「啟動設備／電源」是「turn on」的用法，與本句語境不同。",
-        "turn-mcq-10": "「在需要幫助、建議或支持時求助／依靠某人」是「turn to someone」的用法，與本句語境不同。",
-        "turn-mcq-14": "「關閉設備／電源」是「turn off」的用法，與本句語境不同。",
-        "turn-mcq-09": "「把身體、目光或注意力改向另一目標」是「turn to/toward」的用法，與本句語境不同。"
+        "turn-pdf-001": "本句的「turned」指「態度、支持或立場發生改變」。",
+        "turn-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-pdf-001"
     },
@@ -1572,11 +1472,9 @@ export default {
       "masked": "Some supporters ____ him.",
       "options": [
         "turn-mcq-12",
-        "turn-mcq-11",
-        "turn-mcq-13",
-        "turn-mcq-10",
-        "turn-mcq-14",
-        "turn-mcq-09"
+        "turn-mcq-35",
+        "turn-mcq-24",
+        "turn-mcq-14"
       ],
       "explanation": "本句的「turned against」指「從支持／中立轉為反對或敵對」。",
       "sentenceIndex": 25,
@@ -1585,12 +1483,10 @@ export default {
         "turned against"
       ],
       "optionReasons": {
-        "turn-mcq-12": "本句指「從支持／中立轉為反對或敵對」。",
-        "turn-mcq-11": "「從原主題轉而處理另一主題」是「turn to a topic」的用法，與本句語境不同。",
-        "turn-mcq-13": "「啟動設備／電源」是「turn on」的用法，與本句語境不同。",
-        "turn-mcq-10": "「在需要幫助、建議或支持時求助／依靠某人」是「turn to someone」的用法，與本句語境不同。",
-        "turn-mcq-14": "「關閉設備／電源」是「turn off」的用法，與本句語境不同。",
-        "turn-mcq-09": "「把身體、目光或注意力改向另一目標」是「turn to/toward」的用法，與本句語境不同。"
+        "turn-mcq-12": "本句的「turned against」指「從支持／中立轉為反對或敵對」。",
+        "turn-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-12"
     },
@@ -1602,11 +1498,9 @@ export default {
       "masked": "The friends eventually ____ each other.",
       "options": [
         "turn-mcq-12",
-        "turn-mcq-11",
-        "turn-mcq-13",
-        "turn-mcq-10",
-        "turn-mcq-14",
-        "turn-mcq-09"
+        "turn-mcq-18",
+        "turn-mcq-15",
+        "turn-mcq-07"
       ],
       "explanation": "本句的「turned against」指「從支持／中立轉為反對或敵對」。",
       "sentenceIndex": 26,
@@ -1615,12 +1509,10 @@ export default {
         "turned against"
       ],
       "optionReasons": {
-        "turn-mcq-12": "本句指「從支持／中立轉為反對或敵對」。",
-        "turn-mcq-11": "「從原主題轉而處理另一主題」是「turn to a topic」的用法，與本句語境不同。",
-        "turn-mcq-13": "「啟動設備／電源」是「turn on」的用法，與本句語境不同。",
-        "turn-mcq-10": "「在需要幫助、建議或支持時求助／依靠某人」是「turn to someone」的用法，與本句語境不同。",
-        "turn-mcq-14": "「關閉設備／電源」是「turn off」的用法，與本句語境不同。",
-        "turn-mcq-09": "「把身體、目光或注意力改向另一目標」是「turn to/toward」的用法，與本句語境不同。"
+        "turn-mcq-12": "本句的「turned against」指「從支持／中立轉為反對或敵對」。",
+        "turn-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-12"
     },
@@ -1632,11 +1524,9 @@ export default {
       "masked": "They ____ the old factory into apartments.",
       "options": [
         "turn-mcq-33",
-        "turn-mcq-32",
-        "turn-mcq-34",
-        "turn-mcq-31",
-        "turn-mcq-35",
-        "turn-mcq-30"
+        "turn-mcq-12",
+        "turn-mcq-20",
+        "turn-mcq-35"
       ],
       "explanation": "本句的「turned」指「改變用途、功能或形式，使 X 成為 Y」。",
       "sentenceIndex": 27,
@@ -1645,12 +1535,10 @@ export default {
         "turned"
       ],
       "optionReasons": {
-        "turn-mcq-33": "本句指「改變用途、功能或形式，使 X 成為 Y」。",
-        "turn-mcq-32": "「員工離職並被替換的頻率／比例」是「turnover — staff」的用法，與本句語境不同。",
-        "turn-mcq-34": "「走一小段路／繞一圈；較舊式或文學」是「33. turn = short walk/activity（走一圈／一段活動） — 短途走動；一圈」的用法，與本句語境不同。",
-        "turn-mcq-31": "「公司一段時間內的總銷售收入」是「turnover — business」的用法，與本句語境不同。",
-        "turn-mcq-35": "「娛樂節目中的一段表演／一位表演者的節目」是「34. turn = performance/item in a show（表演節目） — 表演；節目」的用法，與本句語境不同。",
-        "turn-mcq-30": "「活動／選舉中實際參與的人數或比例」是「turnout」的用法，與本句語境不同。"
+        "turn-mcq-33": "本句的「turned」指「改變用途、功能或形式，使 X 成為 Y」。",
+        "turn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-33"
     },
@@ -1662,11 +1550,9 @@ export default {
       "masked": "The room was ____ a classroom.",
       "options": [
         "turn-mcq-33",
-        "turn-mcq-32",
-        "turn-mcq-34",
         "turn-mcq-31",
-        "turn-mcq-35",
-        "turn-mcq-30"
+        "turn-mcq-20",
+        "turn-mcq-15"
       ],
       "explanation": "本句的「turned into」指「改變用途、功能或形式，使 X 成為 Y」。",
       "sentenceIndex": 28,
@@ -1675,12 +1561,10 @@ export default {
         "turned into"
       ],
       "optionReasons": {
-        "turn-mcq-33": "本句指「改變用途、功能或形式，使 X 成為 Y」。",
-        "turn-mcq-32": "「員工離職並被替換的頻率／比例」是「turnover — staff」的用法，與本句語境不同。",
-        "turn-mcq-34": "「走一小段路／繞一圈；較舊式或文學」是「33. turn = short walk/activity（走一圈／一段活動） — 短途走動；一圈」的用法，與本句語境不同。",
-        "turn-mcq-31": "「公司一段時間內的總銷售收入」是「turnover — business」的用法，與本句語境不同。",
-        "turn-mcq-35": "「娛樂節目中的一段表演／一位表演者的節目」是「34. turn = performance/item in a show（表演節目） — 表演；節目」的用法，與本句語境不同。",
-        "turn-mcq-30": "「活動／選舉中實際參與的人數或比例」是「turnout」的用法，與本句語境不同。"
+        "turn-mcq-33": "本句的「turned into」指「改變用途、功能或形式，使 X 成為 Y」。",
+        "turn-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-33"
     },
@@ -1692,11 +1576,9 @@ export default {
       "masked": "____ the light.",
       "options": [
         "turn-mcq-13",
-        "turn-mcq-12",
-        "turn-mcq-14",
-        "turn-mcq-11",
-        "turn-mcq-15",
-        "turn-mcq-10"
+        "turn-mcq-10",
+        "turn-mcq-03",
+        "turn-mcq-01"
       ],
       "explanation": "本句的「Turn on」指「啟動設備／電源」。",
       "sentenceIndex": 29,
@@ -1705,12 +1587,10 @@ export default {
         "Turn on"
       ],
       "optionReasons": {
-        "turn-mcq-13": "本句指「啟動設備／電源」。",
-        "turn-mcq-12": "「從支持／中立轉為反對或敵對」是「turn against」的用法，與本句語境不同。",
-        "turn-mcq-14": "「關閉設備／電源」是「turn off」的用法，與本句語境不同。",
-        "turn-mcq-11": "「從原主題轉而處理另一主題」是「turn to a topic」的用法，與本句語境不同。",
-        "turn-mcq-15": "「把音量、溫度或強度降低」是「turn down — level」的用法，與本句語境不同。",
-        "turn-mcq-10": "「在需要幫助、建議或支持時求助／依靠某人」是「turn to someone」的用法，與本句語境不同。"
+        "turn-mcq-13": "本句的「Turn on」指「啟動設備／電源」。",
+        "turn-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-13"
     },
@@ -1722,11 +1602,9 @@ export default {
       "masked": "She ____ the computer.",
       "options": [
         "turn-mcq-13",
-        "turn-mcq-12",
-        "turn-mcq-14",
         "turn-mcq-11",
-        "turn-mcq-15",
-        "turn-mcq-10"
+        "turn-mcq-35",
+        "turn-mcq-04"
       ],
       "explanation": "本句的「turned on」指「啟動設備／電源」。",
       "sentenceIndex": 30,
@@ -1735,12 +1613,10 @@ export default {
         "turned on"
       ],
       "optionReasons": {
-        "turn-mcq-13": "本句指「啟動設備／電源」。",
-        "turn-mcq-12": "「從支持／中立轉為反對或敵對」是「turn against」的用法，與本句語境不同。",
-        "turn-mcq-14": "「關閉設備／電源」是「turn off」的用法，與本句語境不同。",
-        "turn-mcq-11": "「從原主題轉而處理另一主題」是「turn to a topic」的用法，與本句語境不同。",
-        "turn-mcq-15": "「把音量、溫度或強度降低」是「turn down — level」的用法，與本句語境不同。",
-        "turn-mcq-10": "「在需要幫助、建議或支持時求助／依靠某人」是「turn to someone」的用法，與本句語境不同。"
+        "turn-mcq-13": "本句的「turned on」指「啟動設備／電源」。",
+        "turn-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-13"
     },
@@ -1752,11 +1628,9 @@ export default {
       "masked": "Please ____ the television.",
       "options": [
         "turn-mcq-14",
-        "turn-mcq-13",
-        "turn-mcq-15",
-        "turn-mcq-12",
-        "turn-mcq-16",
-        "turn-mcq-11"
+        "turn-pdf-001",
+        "turn-mcq-31",
+        "turn-mcq-34"
       ],
       "explanation": "本句的「turn off」指「關閉設備／電源」。",
       "sentenceIndex": 31,
@@ -1765,12 +1639,10 @@ export default {
         "turn off"
       ],
       "optionReasons": {
-        "turn-mcq-14": "本句指「關閉設備／電源」。",
-        "turn-mcq-13": "「啟動設備／電源」是「turn on」的用法，與本句語境不同。",
-        "turn-mcq-15": "「把音量、溫度或強度降低」是「turn down — level」的用法，與本句語境不同。",
-        "turn-mcq-12": "「從支持／中立轉為反對或敵對」是「turn against」的用法，與本句語境不同。",
-        "turn-mcq-16": "「拒絕提議、邀請或申請」是「turn down — reject」的用法，與本句語境不同。",
-        "turn-mcq-11": "「從原主題轉而處理另一主題」是「turn to a topic」的用法，與本句語境不同。"
+        "turn-mcq-14": "本句的「turn off」指「關閉設備／電源」。",
+        "turn-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-14"
     },
@@ -1782,11 +1654,9 @@ export default {
       "masked": "He ____ the engine.",
       "options": [
         "turn-mcq-14",
-        "turn-mcq-13",
-        "turn-mcq-15",
         "turn-mcq-12",
-        "turn-mcq-16",
-        "turn-mcq-11"
+        "turn-mcq-28",
+        "turn-mcq-19"
       ],
       "explanation": "本句的「turned off」指「關閉設備／電源」。",
       "sentenceIndex": 32,
@@ -1795,12 +1665,10 @@ export default {
         "turned off"
       ],
       "optionReasons": {
-        "turn-mcq-14": "本句指「關閉設備／電源」。",
-        "turn-mcq-13": "「啟動設備／電源」是「turn on」的用法，與本句語境不同。",
-        "turn-mcq-15": "「把音量、溫度或強度降低」是「turn down — level」的用法，與本句語境不同。",
-        "turn-mcq-12": "「從支持／中立轉為反對或敵對」是「turn against」的用法，與本句語境不同。",
-        "turn-mcq-16": "「拒絕提議、邀請或申請」是「turn down — reject」的用法，與本句語境不同。",
-        "turn-mcq-11": "「從原主題轉而處理另一主題」是「turn to a topic」的用法，與本句語境不同。"
+        "turn-mcq-14": "本句的「turned off」指「關閉設備／電源」。",
+        "turn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-14"
     },
@@ -1812,11 +1680,9 @@ export default {
       "masked": "Can you ____ the music?",
       "options": [
         "turn-mcq-15",
-        "turn-mcq-14",
-        "turn-mcq-16",
-        "turn-mcq-13",
-        "turn-mcq-17",
-        "turn-mcq-12"
+        "turn-mcq-11",
+        "turn-mcq-12",
+        "turn-mcq-26"
       ],
       "explanation": "本句的「turn down」指「把音量、溫度或強度降低」。",
       "sentenceIndex": 33,
@@ -1825,12 +1691,10 @@ export default {
         "turn down"
       ],
       "optionReasons": {
-        "turn-mcq-15": "本句指「把音量、溫度或強度降低」。",
-        "turn-mcq-14": "「關閉設備／電源」是「turn off」的用法，與本句語境不同。",
-        "turn-mcq-16": "「拒絕提議、邀請或申請」是「turn down — reject」的用法，與本句語境不同。",
-        "turn-mcq-13": "「啟動設備／電源」是「turn on」的用法，與本句語境不同。",
-        "turn-mcq-17": "「把音量、溫度或強度提高」是「turn up — level」的用法，與本句語境不同。",
-        "turn-mcq-12": "「從支持／中立轉為反對或敵對」是「turn against」的用法，與本句語境不同。"
+        "turn-mcq-15": "本句的「turn down」指「把音量、溫度或強度降低」。",
+        "turn-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-15"
     },
@@ -1842,11 +1706,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "turn-mcq-15",
-        "turn-mcq-14",
-        "turn-mcq-16",
-        "turn-mcq-13",
-        "turn-mcq-17",
-        "turn-mcq-12"
+        "turn-mcq-11",
+        "turn-mcq-10",
+        "turn-mcq-23"
       ],
       "explanation": "本句的「turned the heating down」指「把音量、溫度或強度降低」。",
       "sentenceIndex": 34,
@@ -1855,12 +1717,10 @@ export default {
         "turned the heating down"
       ],
       "optionReasons": {
-        "turn-mcq-15": "本句指「把音量、溫度或強度降低」。",
-        "turn-mcq-14": "「關閉設備／電源」是「turn off」的用法，與本句語境不同。",
-        "turn-mcq-16": "「拒絕提議、邀請或申請」是「turn down — reject」的用法，與本句語境不同。",
-        "turn-mcq-13": "「啟動設備／電源」是「turn on」的用法，與本句語境不同。",
-        "turn-mcq-17": "「把音量、溫度或強度提高」是「turn up — level」的用法，與本句語境不同。",
-        "turn-mcq-12": "「從支持／中立轉為反對或敵對」是「turn against」的用法，與本句語境不同。"
+        "turn-mcq-15": "本句的「turned the heating down」指「把音量、溫度或強度降低」。",
+        "turn-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-15"
     },
@@ -1872,11 +1732,9 @@ export default {
       "masked": "She ____ the offer.",
       "options": [
         "turn-mcq-16",
-        "turn-mcq-15",
-        "turn-mcq-17",
-        "turn-mcq-14",
-        "turn-mcq-18",
-        "turn-mcq-13"
+        "turn-mcq-09",
+        "turn-mcq-25",
+        "turn-mcq-24"
       ],
       "explanation": "本句的「turned down」指「拒絕提議、邀請或申請」。",
       "sentenceIndex": 35,
@@ -1885,12 +1743,10 @@ export default {
         "turned down"
       ],
       "optionReasons": {
-        "turn-mcq-16": "本句指「拒絕提議、邀請或申請」。",
-        "turn-mcq-15": "「把音量、溫度或強度降低」是「turn down — level」的用法，與本句語境不同。",
-        "turn-mcq-17": "「把音量、溫度或強度提高」是「turn up — level」的用法，與本句語境不同。",
-        "turn-mcq-14": "「關閉設備／電源」是「turn off」的用法，與本句語境不同。",
-        "turn-mcq-18": "「最終／意外地出現或到場」是「turn up — appear」的用法，與本句語境不同。",
-        "turn-mcq-13": "「啟動設備／電源」是「turn on」的用法，與本句語境不同。"
+        "turn-mcq-16": "本句的「turned down」指「拒絕提議、邀請或申請」。",
+        "turn-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-16"
     },
@@ -1902,11 +1758,9 @@ export default {
       "masked": "He ____ the invitation.",
       "options": [
         "turn-mcq-16",
-        "turn-mcq-15",
-        "turn-mcq-17",
-        "turn-mcq-14",
-        "turn-mcq-18",
-        "turn-mcq-13"
+        "turn-mcq-05",
+        "turn-mcq-35",
+        "turn-mcq-24"
       ],
       "explanation": "本句的「turned down」指「拒絕提議、邀請或申請」。",
       "sentenceIndex": 36,
@@ -1915,12 +1769,10 @@ export default {
         "turned down"
       ],
       "optionReasons": {
-        "turn-mcq-16": "本句指「拒絕提議、邀請或申請」。",
-        "turn-mcq-15": "「把音量、溫度或強度降低」是「turn down — level」的用法，與本句語境不同。",
-        "turn-mcq-17": "「把音量、溫度或強度提高」是「turn up — level」的用法，與本句語境不同。",
-        "turn-mcq-14": "「關閉設備／電源」是「turn off」的用法，與本句語境不同。",
-        "turn-mcq-18": "「最終／意外地出現或到場」是「turn up — appear」的用法，與本句語境不同。",
-        "turn-mcq-13": "「啟動設備／電源」是「turn on」的用法，與本句語境不同。"
+        "turn-mcq-16": "本句的「turned down」指「拒絕提議、邀請或申請」。",
+        "turn-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-16"
     },
@@ -1932,11 +1784,9 @@ export default {
       "masked": "____ the volume.",
       "options": [
         "turn-mcq-17",
-        "turn-mcq-16",
-        "turn-mcq-18",
-        "turn-mcq-15",
-        "turn-mcq-19",
-        "turn-mcq-14"
+        "turn-mcq-01",
+        "turn-mcq-10",
+        "turn-mcq-29"
       ],
       "explanation": "本句的「Turn up」指「把音量、溫度或強度提高」。",
       "sentenceIndex": 37,
@@ -1945,12 +1795,10 @@ export default {
         "Turn up"
       ],
       "optionReasons": {
-        "turn-mcq-17": "本句指「把音量、溫度或強度提高」。",
-        "turn-mcq-16": "「拒絕提議、邀請或申請」是「turn down — reject」的用法，與本句語境不同。",
-        "turn-mcq-18": "「最終／意外地出現或到場」是「turn up — appear」的用法，與本句語境不同。",
-        "turn-mcq-15": "「把音量、溫度或強度降低」是「turn down — level」的用法，與本句語境不同。",
-        "turn-mcq-19": "「轉開方向；或拒絕某人進入／接受服務」是「turn away」的用法，與本句語境不同。",
-        "turn-mcq-14": "「關閉設備／電源」是「turn off」的用法，與本句語境不同。"
+        "turn-mcq-17": "本句的「Turn up」指「把音量、溫度或強度提高」。",
+        "turn-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-17"
     },
@@ -1962,11 +1810,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "turn-mcq-17",
-        "turn-mcq-16",
-        "turn-mcq-18",
-        "turn-mcq-15",
-        "turn-mcq-19",
-        "turn-mcq-14"
+        "turn-mcq-29",
+        "turn-mcq-22",
+        "turn-mcq-24"
       ],
       "explanation": "本句的「turned the heat up」指「把音量、溫度或強度提高」。",
       "sentenceIndex": 38,
@@ -1975,12 +1821,10 @@ export default {
         "turned the heat up"
       ],
       "optionReasons": {
-        "turn-mcq-17": "本句指「把音量、溫度或強度提高」。",
-        "turn-mcq-16": "「拒絕提議、邀請或申請」是「turn down — reject」的用法，與本句語境不同。",
-        "turn-mcq-18": "「最終／意外地出現或到場」是「turn up — appear」的用法，與本句語境不同。",
-        "turn-mcq-15": "「把音量、溫度或強度降低」是「turn down — level」的用法，與本句語境不同。",
-        "turn-mcq-19": "「轉開方向；或拒絕某人進入／接受服務」是「turn away」的用法，與本句語境不同。",
-        "turn-mcq-14": "「關閉設備／電源」是「turn off」的用法，與本句語境不同。"
+        "turn-mcq-17": "本句的「turned the heat up」指「把音量、溫度或強度提高」。",
+        "turn-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-17"
     },
@@ -1992,11 +1836,9 @@ export default {
       "masked": "He ____ late.",
       "options": [
         "turn-mcq-18",
-        "turn-mcq-17",
-        "turn-mcq-19",
-        "turn-mcq-16",
-        "turn-mcq-20",
-        "turn-mcq-15"
+        "turn-mcq-04",
+        "turn-mcq-34",
+        "turn-mcq-12"
       ],
       "explanation": "本句的「turned up」指「最終／意外地出現或到場」。",
       "sentenceIndex": 39,
@@ -2005,12 +1847,10 @@ export default {
         "turned up"
       ],
       "optionReasons": {
-        "turn-mcq-18": "本句指「最終／意外地出現或到場」。",
-        "turn-mcq-17": "「把音量、溫度或強度提高」是「turn up — level」的用法，與本句語境不同。",
-        "turn-mcq-19": "「轉開方向；或拒絕某人進入／接受服務」是「turn away」的用法，與本句語境不同。",
-        "turn-mcq-16": "「拒絕提議、邀請或申請」是「turn down — reject」的用法，與本句語境不同。",
-        "turn-mcq-20": "「折返原來方向；亦可比喻回頭」是「turn back」的用法，與本句語境不同。",
-        "turn-mcq-15": "「把音量、溫度或強度降低」是「turn down — level」的用法，與本句語境不同。"
+        "turn-mcq-18": "本句的「turned up」指「最終／意外地出現或到場」。",
+        "turn-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-18"
     },
@@ -2022,11 +1862,9 @@ export default {
       "masked": "My keys finally ____.",
       "options": [
         "turn-mcq-18",
-        "turn-mcq-17",
-        "turn-mcq-19",
-        "turn-mcq-16",
-        "turn-mcq-20",
-        "turn-mcq-15"
+        "turn-mcq-10",
+        "turn-mcq-35",
+        "turn-mcq-08"
       ],
       "explanation": "本句的「turned up」指「最終／意外地出現或到場」。",
       "sentenceIndex": 40,
@@ -2035,12 +1873,10 @@ export default {
         "turned up"
       ],
       "optionReasons": {
-        "turn-mcq-18": "本句指「最終／意外地出現或到場」。",
-        "turn-mcq-17": "「把音量、溫度或強度提高」是「turn up — level」的用法，與本句語境不同。",
-        "turn-mcq-19": "「轉開方向；或拒絕某人進入／接受服務」是「turn away」的用法，與本句語境不同。",
-        "turn-mcq-16": "「拒絕提議、邀請或申請」是「turn down — reject」的用法，與本句語境不同。",
-        "turn-mcq-20": "「折返原來方向；亦可比喻回頭」是「turn back」的用法，與本句語境不同。",
-        "turn-mcq-15": "「把音量、溫度或強度降低」是「turn down — level」的用法，與本句語境不同。"
+        "turn-mcq-18": "本句的「turned up」指「最終／意外地出現或到場」。",
+        "turn-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-18"
     },
@@ -2052,11 +1888,9 @@ export default {
       "masked": "She ____ from the window.",
       "options": [
         "turn-mcq-19",
-        "turn-mcq-18",
-        "turn-mcq-20",
-        "turn-mcq-17",
-        "turn-mcq-21",
-        "turn-mcq-16"
+        "turn-mcq-35",
+        "turn-mcq-14",
+        "turn-mcq-30"
       ],
       "explanation": "本句的「turned away」指「轉開方向；或拒絕某人進入／接受服務」。",
       "sentenceIndex": 41,
@@ -2065,12 +1899,10 @@ export default {
         "turned away"
       ],
       "optionReasons": {
-        "turn-mcq-19": "本句指「轉開方向；或拒絕某人進入／接受服務」。",
-        "turn-mcq-18": "「最終／意外地出現或到場」是「turn up — appear」的用法，與本句語境不同。",
-        "turn-mcq-20": "「折返原來方向；亦可比喻回頭」是「turn back」的用法，與本句語境不同。",
-        "turn-mcq-17": "「把音量、溫度或強度提高」是「turn up — level」的用法，與本句語境不同。",
-        "turn-mcq-21": "「把某物翻到另一面」是「turn over」的用法，與本句語境不同。",
-        "turn-mcq-16": "「拒絕提議、邀請或申請」是「turn down — reject」的用法，與本句語境不同。"
+        "turn-mcq-19": "本句的「turned away」指「轉開方向；或拒絕某人進入／接受服務」。",
+        "turn-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-19"
     },
@@ -2082,11 +1914,9 @@ export default {
       "masked": "Several people were ____ at the door.",
       "options": [
         "turn-mcq-19",
-        "turn-mcq-18",
-        "turn-mcq-20",
-        "turn-mcq-17",
-        "turn-mcq-21",
-        "turn-mcq-16"
+        "turn-mcq-34",
+        "turn-mcq-24",
+        "turn-pdf-001"
       ],
       "explanation": "本句的「turned away」指「轉開方向；或拒絕某人進入／接受服務」。",
       "sentenceIndex": 42,
@@ -2095,12 +1925,10 @@ export default {
         "turned away"
       ],
       "optionReasons": {
-        "turn-mcq-19": "本句指「轉開方向；或拒絕某人進入／接受服務」。",
-        "turn-mcq-18": "「最終／意外地出現或到場」是「turn up — appear」的用法，與本句語境不同。",
-        "turn-mcq-20": "「折返原來方向；亦可比喻回頭」是「turn back」的用法，與本句語境不同。",
-        "turn-mcq-17": "「把音量、溫度或強度提高」是「turn up — level」的用法，與本句語境不同。",
-        "turn-mcq-21": "「把某物翻到另一面」是「turn over」的用法，與本句語境不同。",
-        "turn-mcq-16": "「拒絕提議、邀請或申請」是「turn down — reject」的用法，與本句語境不同。"
+        "turn-mcq-19": "本句的「turned away」指「轉開方向；或拒絕某人進入／接受服務」。",
+        "turn-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "turn-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-19"
     },
@@ -2112,11 +1940,9 @@ export default {
       "masked": "It started raining, so we ____.",
       "options": [
         "turn-mcq-20",
-        "turn-mcq-19",
         "turn-mcq-21",
-        "turn-mcq-18",
-        "turn-mcq-22",
-        "turn-mcq-17"
+        "turn-mcq-34",
+        "turn-mcq-31"
       ],
       "explanation": "本句的「turned back」指「折返原來方向；亦可比喻回頭」。",
       "sentenceIndex": 43,
@@ -2125,12 +1951,10 @@ export default {
         "turned back"
       ],
       "optionReasons": {
-        "turn-mcq-20": "本句指「折返原來方向；亦可比喻回頭」。",
-        "turn-mcq-19": "「轉開方向；或拒絕某人進入／接受服務」是「turn away」的用法，與本句語境不同。",
-        "turn-mcq-21": "「把某物翻到另一面」是「turn over」的用法，與本句語境不同。",
-        "turn-mcq-18": "「最終／意外地出現或到場」是「turn up — appear」的用法，與本句語境不同。",
-        "turn-mcq-22": "「按次序輪到某人行動／參與的機會」是「turn — noun chance」的用法，與本句語境不同。",
-        "turn-mcq-17": "「把音量、溫度或強度提高」是「turn up — level」的用法，與本句語境不同。"
+        "turn-mcq-20": "本句的「turned back」指「折返原來方向；亦可比喻回頭」。",
+        "turn-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-20"
     },
@@ -2142,11 +1966,9 @@ export default {
       "masked": "There is no ____ now.",
       "options": [
         "turn-mcq-20",
-        "turn-mcq-19",
-        "turn-mcq-21",
         "turn-mcq-18",
-        "turn-mcq-22",
-        "turn-mcq-17"
+        "turn-mcq-31",
+        "turn-mcq-13"
       ],
       "explanation": "本句的「turning back」指「折返原來方向；亦可比喻回頭」。",
       "sentenceIndex": 44,
@@ -2155,12 +1977,10 @@ export default {
         "turning back"
       ],
       "optionReasons": {
-        "turn-mcq-20": "本句指「折返原來方向；亦可比喻回頭」。",
-        "turn-mcq-19": "「轉開方向；或拒絕某人進入／接受服務」是「turn away」的用法，與本句語境不同。",
-        "turn-mcq-21": "「把某物翻到另一面」是「turn over」的用法，與本句語境不同。",
-        "turn-mcq-18": "「最終／意外地出現或到場」是「turn up — appear」的用法，與本句語境不同。",
-        "turn-mcq-22": "「按次序輪到某人行動／參與的機會」是「turn — noun chance」的用法，與本句語境不同。",
-        "turn-mcq-17": "「把音量、溫度或強度提高」是「turn up — level」的用法，與本句語境不同。"
+        "turn-mcq-20": "本句的「turning back」指「折返原來方向；亦可比喻回頭」。",
+        "turn-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-20"
     },
@@ -2172,11 +1992,9 @@ export default {
       "masked": "____ the paper.",
       "options": [
         "turn-mcq-21",
-        "turn-mcq-20",
-        "turn-mcq-22",
-        "turn-mcq-19",
-        "turn-mcq-23",
-        "turn-mcq-18"
+        "turn-mcq-35",
+        "turn-mcq-04",
+        "turn-mcq-24"
       ],
       "explanation": "本句的「Turn over」指「把某物翻到另一面」。",
       "sentenceIndex": 45,
@@ -2185,12 +2003,10 @@ export default {
         "Turn over"
       ],
       "optionReasons": {
-        "turn-mcq-21": "本句指「把某物翻到另一面」。",
-        "turn-mcq-20": "「折返原來方向；亦可比喻回頭」是「turn back」的用法，與本句語境不同。",
-        "turn-mcq-22": "「按次序輪到某人行動／參與的機會」是「turn — noun chance」的用法，與本句語境不同。",
-        "turn-mcq-19": "「轉開方向；或拒絕某人進入／接受服務」是「turn away」的用法，與本句語境不同。",
-        "turn-mcq-23": "「按順序輪流做某事」是「take turns」的用法，與本句語境不同。",
-        "turn-mcq-18": "「最終／意外地出現或到場」是「turn up — appear」的用法，與本句語境不同。"
+        "turn-mcq-21": "本句的「Turn over」指「把某物翻到另一面」。",
+        "turn-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-21"
     },
@@ -2202,11 +2018,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "turn-mcq-21",
-        "turn-mcq-20",
-        "turn-mcq-22",
+        "turn-mcq-03",
         "turn-mcq-19",
-        "turn-mcq-23",
-        "turn-mcq-18"
+        "turn-mcq-23"
       ],
       "explanation": "本句的「turned the pancake over」指「把某物翻到另一面」。",
       "sentenceIndex": 46,
@@ -2215,12 +2029,10 @@ export default {
         "turned the pancake over"
       ],
       "optionReasons": {
-        "turn-mcq-21": "本句指「把某物翻到另一面」。",
-        "turn-mcq-20": "「折返原來方向；亦可比喻回頭」是「turn back」的用法，與本句語境不同。",
-        "turn-mcq-22": "「按次序輪到某人行動／參與的機會」是「turn — noun chance」的用法，與本句語境不同。",
-        "turn-mcq-19": "「轉開方向；或拒絕某人進入／接受服務」是「turn away」的用法，與本句語境不同。",
-        "turn-mcq-23": "「按順序輪流做某事」是「take turns」的用法，與本句語境不同。",
-        "turn-mcq-18": "「最終／意外地出現或到場」是「turn up — appear」的用法，與本句語境不同。"
+        "turn-mcq-21": "本句的「turned the pancake over」指「把某物翻到另一面」。",
+        "turn-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-21"
     },
@@ -2232,11 +2044,9 @@ export default {
       "masked": "The company has an annual ____ of $5 million.",
       "options": [
         "turn-mcq-31",
-        "turn-mcq-30",
-        "turn-mcq-32",
-        "turn-mcq-29",
-        "turn-mcq-33",
-        "turn-mcq-28"
+        "turn-mcq-18",
+        "turn-mcq-27",
+        "turn-mcq-07"
       ],
       "explanation": "本句的「turnover」指「公司一段時間內的總銷售收入」。",
       "sentenceIndex": 47,
@@ -2245,12 +2055,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turn-mcq-31": "本句指「公司一段時間內的總銷售收入」。",
-        "turn-mcq-30": "「活動／選舉中實際參與的人數或比例」是「turnout」的用法，與本句語境不同。",
-        "turn-mcq-32": "「員工離職並被替換的頻率／比例」是「turnover — staff」的用法，與本句語境不同。",
-        "turn-mcq-29": "「某件事後情況開始朝明顯不同方向發展的關鍵點」是「turning point」的用法，與本句語境不同。",
-        "turn-mcq-33": "「改變用途、功能或形式，使 X 成為 Y」是「14. turn = convert/change function（轉換用途） — 改造成；轉作」的用法，與本句語境不同。",
-        "turn-mcq-28": "「情況開始明顯改善／惡化」是「take a turn for better/worse」的用法，與本句語境不同。"
+        "turn-mcq-31": "本句的「turnover」指「公司一段時間內的總銷售收入」。",
+        "turn-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-31"
     },
@@ -2262,11 +2070,9 @@ export default {
       "masked": "Sales ____ increased.",
       "options": [
         "turn-mcq-31",
-        "turn-mcq-30",
-        "turn-mcq-32",
-        "turn-mcq-29",
-        "turn-mcq-33",
-        "turn-mcq-28"
+        "turn-mcq-03",
+        "turn-mcq-09",
+        "turn-mcq-12"
       ],
       "explanation": "本句的「turnover」指「公司一段時間內的總銷售收入」。",
       "sentenceIndex": 48,
@@ -2275,12 +2081,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turn-mcq-31": "本句指「公司一段時間內的總銷售收入」。",
-        "turn-mcq-30": "「活動／選舉中實際參與的人數或比例」是「turnout」的用法，與本句語境不同。",
-        "turn-mcq-32": "「員工離職並被替換的頻率／比例」是「turnover — staff」的用法，與本句語境不同。",
-        "turn-mcq-29": "「某件事後情況開始朝明顯不同方向發展的關鍵點」是「turning point」的用法，與本句語境不同。",
-        "turn-mcq-33": "「改變用途、功能或形式，使 X 成為 Y」是「14. turn = convert/change function（轉換用途） — 改造成；轉作」的用法，與本句語境不同。",
-        "turn-mcq-28": "「情況開始明顯改善／惡化」是「take a turn for better/worse」的用法，與本句語境不同。"
+        "turn-mcq-31": "本句的「turnover」指「公司一段時間內的總銷售收入」。",
+        "turn-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-31"
     },
@@ -2292,11 +2096,9 @@ export default {
       "masked": "The company has high staff ____.",
       "options": [
         "turn-mcq-32",
-        "turn-mcq-31",
-        "turn-mcq-33",
-        "turn-mcq-30",
-        "turn-mcq-34",
-        "turn-mcq-29"
+        "turn-mcq-18",
+        "turn-mcq-17",
+        "turn-mcq-03"
       ],
       "explanation": "本句的「turnover」指「員工離職並被替換的頻率／比例」。",
       "sentenceIndex": 49,
@@ -2305,12 +2107,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turn-mcq-32": "本句指「員工離職並被替換的頻率／比例」。",
-        "turn-mcq-31": "「公司一段時間內的總銷售收入」是「turnover — business」的用法，與本句語境不同。",
-        "turn-mcq-33": "「改變用途、功能或形式，使 X 成為 Y」是「14. turn = convert/change function（轉換用途） — 改造成；轉作」的用法，與本句語境不同。",
-        "turn-mcq-30": "「活動／選舉中實際參與的人數或比例」是「turnout」的用法，與本句語境不同。",
-        "turn-mcq-34": "「走一小段路／繞一圈；較舊式或文學」是「33. turn = short walk/activity（走一圈／一段活動） — 短途走動；一圈」的用法，與本句語境不同。",
-        "turn-mcq-29": "「某件事後情況開始朝明顯不同方向發展的關鍵點」是「turning point」的用法，與本句語境不同。"
+        "turn-mcq-32": "本句的「turnover」指「員工離職並被替換的頻率／比例」。",
+        "turn-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-32"
     },
@@ -2322,11 +2122,9 @@ export default {
       "masked": "Low ____ can improve team stability.",
       "options": [
         "turn-mcq-32",
-        "turn-mcq-31",
-        "turn-mcq-33",
-        "turn-mcq-30",
-        "turn-mcq-34",
-        "turn-mcq-29"
+        "turn-mcq-16",
+        "turn-mcq-07",
+        "turn-mcq-18"
       ],
       "explanation": "本句的「turnover」指「員工離職並被替換的頻率／比例」。",
       "sentenceIndex": 50,
@@ -2335,12 +2133,10 @@ export default {
         "turnover"
       ],
       "optionReasons": {
-        "turn-mcq-32": "本句指「員工離職並被替換的頻率／比例」。",
-        "turn-mcq-31": "「公司一段時間內的總銷售收入」是「turnover — business」的用法，與本句語境不同。",
-        "turn-mcq-33": "「改變用途、功能或形式，使 X 成為 Y」是「14. turn = convert/change function（轉換用途） — 改造成；轉作」的用法，與本句語境不同。",
-        "turn-mcq-30": "「活動／選舉中實際參與的人數或比例」是「turnout」的用法，與本句語境不同。",
-        "turn-mcq-34": "「走一小段路／繞一圈；較舊式或文學」是「33. turn = short walk/activity（走一圈／一段活動） — 短途走動；一圈」的用法，與本句語境不同。",
-        "turn-mcq-29": "「某件事後情況開始朝明顯不同方向發展的關鍵點」是「turning point」的用法，與本句語境不同。"
+        "turn-mcq-32": "本句的「turnover」指「員工離職並被替換的頻率／比例」。",
+        "turn-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-32"
     },
@@ -2352,11 +2148,9 @@ export default {
       "masked": "It’s your ____.",
       "options": [
         "turn-mcq-22",
-        "turn-mcq-21",
-        "turn-mcq-23",
-        "turn-mcq-20",
-        "turn-mcq-24",
-        "turn-mcq-19"
+        "turn-mcq-04",
+        "turn-mcq-17",
+        "turn-mcq-06"
       ],
       "explanation": "本句的「turn」指「按次序輪到某人行動／參與的機會」。",
       "sentenceIndex": 51,
@@ -2365,12 +2159,10 @@ export default {
         "turn"
       ],
       "optionReasons": {
-        "turn-mcq-22": "本句指「按次序輪到某人行動／參與的機會」。",
-        "turn-mcq-21": "「把某物翻到另一面」是「turn over」的用法，與本句語境不同。",
-        "turn-mcq-23": "「按順序輪流做某事」是「take turns」的用法，與本句語境不同。",
-        "turn-mcq-20": "「折返原來方向；亦可比喻回頭」是「turn back」的用法，與本句語境不同。",
-        "turn-mcq-24": "「依次；或繼而造成下一結果」是「in turn」的用法，與本句語境不同。",
-        "turn-mcq-19": "「轉開方向；或拒絕某人進入／接受服務」是「turn away」的用法，與本句語境不同。"
+        "turn-mcq-22": "本句的「turn」指「按次序輪到某人行動／參與的機會」。",
+        "turn-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-22"
     },
@@ -2382,11 +2174,9 @@ export default {
       "masked": "Wait for your ____.",
       "options": [
         "turn-mcq-22",
-        "turn-mcq-21",
-        "turn-mcq-23",
-        "turn-mcq-20",
-        "turn-mcq-24",
-        "turn-mcq-19"
+        "turn-mcq-27",
+        "turn-mcq-16",
+        "turn-mcq-11"
       ],
       "explanation": "本句的「turn」指「按次序輪到某人行動／參與的機會」。",
       "sentenceIndex": 52,
@@ -2395,12 +2185,10 @@ export default {
         "turn"
       ],
       "optionReasons": {
-        "turn-mcq-22": "本句指「按次序輪到某人行動／參與的機會」。",
-        "turn-mcq-21": "「把某物翻到另一面」是「turn over」的用法，與本句語境不同。",
-        "turn-mcq-23": "「按順序輪流做某事」是「take turns」的用法，與本句語境不同。",
-        "turn-mcq-20": "「折返原來方向；亦可比喻回頭」是「turn back」的用法，與本句語境不同。",
-        "turn-mcq-24": "「依次；或繼而造成下一結果」是「in turn」的用法，與本句語境不同。",
-        "turn-mcq-19": "「轉開方向；或拒絕某人進入／接受服務」是「turn away」的用法，與本句語境不同。"
+        "turn-mcq-22": "本句的「turn」指「按次序輪到某人行動／參與的機會」。",
+        "turn-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-22"
     },
@@ -2412,11 +2200,9 @@ export default {
       "masked": "The children ____ using the toy.",
       "options": [
         "turn-mcq-23",
-        "turn-mcq-22",
-        "turn-mcq-24",
-        "turn-mcq-21",
-        "turn-mcq-25",
-        "turn-mcq-20"
+        "turn-mcq-29",
+        "turn-mcq-15",
+        "turn-mcq-11"
       ],
       "explanation": "本句的「took turns」指「按順序輪流做某事」。",
       "sentenceIndex": 53,
@@ -2425,12 +2211,10 @@ export default {
         "took turns"
       ],
       "optionReasons": {
-        "turn-mcq-23": "本句指「按順序輪流做某事」。",
-        "turn-mcq-22": "「按次序輪到某人行動／參與的機會」是「turn — noun chance」的用法，與本句語境不同。",
-        "turn-mcq-24": "「依次；或繼而造成下一結果」是「in turn」的用法，與本句語境不同。",
-        "turn-mcq-21": "「把某物翻到另一面」是「turn over」的用法，與本句語境不同。",
-        "turn-mcq-25": "「道路／路線改變方向的位置」是「turn — bend」的用法，與本句語境不同。",
-        "turn-mcq-20": "「折返原來方向；亦可比喻回頭」是「turn back」的用法，與本句語境不同。"
+        "turn-mcq-23": "本句的「took turns」指「按順序輪流做某事」。",
+        "turn-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-23"
     },
@@ -2442,11 +2226,9 @@ export default {
       "masked": "We ____ cooking.",
       "options": [
         "turn-mcq-23",
-        "turn-mcq-22",
-        "turn-mcq-24",
-        "turn-mcq-21",
-        "turn-mcq-25",
-        "turn-mcq-20"
+        "turn-mcq-09",
+        "turn-mcq-18",
+        "turn-mcq-35"
       ],
       "explanation": "本句的「take turns」指「按順序輪流做某事」。",
       "sentenceIndex": 54,
@@ -2455,12 +2237,10 @@ export default {
         "take turns"
       ],
       "optionReasons": {
-        "turn-mcq-23": "本句指「按順序輪流做某事」。",
-        "turn-mcq-22": "「按次序輪到某人行動／參與的機會」是「turn — noun chance」的用法，與本句語境不同。",
-        "turn-mcq-24": "「依次；或繼而造成下一結果」是「in turn」的用法，與本句語境不同。",
-        "turn-mcq-21": "「把某物翻到另一面」是「turn over」的用法，與本句語境不同。",
-        "turn-mcq-25": "「道路／路線改變方向的位置」是「turn — bend」的用法，與本句語境不同。",
-        "turn-mcq-20": "「折返原來方向；亦可比喻回頭」是「turn back」的用法，與本句語境不同。"
+        "turn-mcq-23": "本句的「take turns」指「按順序輪流做某事」。",
+        "turn-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-23"
     },
@@ -2472,11 +2252,9 @@ export default {
       "masked": "Each student spoke ____.",
       "options": [
         "turn-mcq-24",
-        "turn-mcq-23",
-        "turn-mcq-25",
-        "turn-mcq-22",
-        "turn-mcq-26",
-        "turn-mcq-21"
+        "turn-mcq-17",
+        "turn-mcq-18",
+        "turn-mcq-29"
       ],
       "explanation": "本句的「in turn」指「依次；或繼而造成下一結果」。",
       "sentenceIndex": 55,
@@ -2485,12 +2263,10 @@ export default {
         "in turn"
       ],
       "optionReasons": {
-        "turn-mcq-24": "本句指「依次；或繼而造成下一結果」。",
-        "turn-mcq-23": "「按順序輪流做某事」是「take turns」的用法，與本句語境不同。",
-        "turn-mcq-25": "「道路／路線改變方向的位置」是「turn — bend」的用法，與本句語境不同。",
-        "turn-mcq-22": "「按次序輪到某人行動／參與的機會」是「turn — noun chance」的用法，與本句語境不同。",
-        "turn-mcq-26": "「故事、情況或事件發展方向的改變」是「turn — development」的用法，與本句語境不同。",
-        "turn-mcq-21": "「把某物翻到另一面」是「turn over」的用法，與本句語境不同。"
+        "turn-mcq-24": "本句的「in turn」指「依次；或繼而造成下一結果」。",
+        "turn-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-24"
     },
@@ -2502,11 +2278,9 @@ export default {
       "masked": "Stress affects sleep, which ____ affects concentration.",
       "options": [
         "turn-mcq-24",
-        "turn-mcq-23",
-        "turn-mcq-25",
-        "turn-mcq-22",
-        "turn-mcq-26",
-        "turn-mcq-21"
+        "turn-mcq-20",
+        "turn-mcq-11",
+        "turn-mcq-18"
       ],
       "explanation": "本句的「in turn」指「依次；或繼而造成下一結果」。",
       "sentenceIndex": 56,
@@ -2515,12 +2289,10 @@ export default {
         "in turn"
       ],
       "optionReasons": {
-        "turn-mcq-24": "本句指「依次；或繼而造成下一結果」。",
-        "turn-mcq-23": "「按順序輪流做某事」是「take turns」的用法，與本句語境不同。",
-        "turn-mcq-25": "「道路／路線改變方向的位置」是「turn — bend」的用法，與本句語境不同。",
-        "turn-mcq-22": "「按次序輪到某人行動／參與的機會」是「turn — noun chance」的用法，與本句語境不同。",
-        "turn-mcq-26": "「故事、情況或事件發展方向的改變」是「turn — development」的用法，與本句語境不同。",
-        "turn-mcq-21": "「把某物翻到另一面」是「turn over」的用法，與本句語境不同。"
+        "turn-mcq-24": "本句的「in turn」指「依次；或繼而造成下一結果」。",
+        "turn-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-24"
     },
@@ -2532,11 +2304,9 @@ export default {
       "masked": "Take the next ____ on the left.",
       "options": [
         "turn-mcq-25",
-        "turn-mcq-24",
-        "turn-mcq-26",
-        "turn-mcq-23",
-        "turn-mcq-27",
-        "turn-mcq-22"
+        "turn-mcq-10",
+        "turn-mcq-06",
+        "turn-mcq-03"
       ],
       "explanation": "本句的「turn」指「道路／路線改變方向的位置」。",
       "sentenceIndex": 57,
@@ -2545,12 +2315,10 @@ export default {
         "turn"
       ],
       "optionReasons": {
-        "turn-mcq-25": "本句指「道路／路線改變方向的位置」。",
-        "turn-mcq-24": "「依次；或繼而造成下一結果」是「in turn」的用法，與本句語境不同。",
-        "turn-mcq-26": "「故事、情況或事件發展方向的改變」是「turn — development」的用法，與本句語境不同。",
-        "turn-mcq-23": "「按順序輪流做某事」是「take turns」的用法，與本句語境不同。",
-        "turn-mcq-27": "「一連串事情發展方向的變化」是「turn of events」的用法，與本句語境不同。",
-        "turn-mcq-22": "「按次序輪到某人行動／參與的機會」是「turn — noun chance」的用法，與本句語境不同。"
+        "turn-mcq-25": "本句的「turn」指「道路／路線改變方向的位置」。",
+        "turn-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-25"
     },
@@ -2562,11 +2330,9 @@ export default {
       "masked": "The road has several sharp ____.",
       "options": [
         "turn-mcq-25",
-        "turn-mcq-24",
-        "turn-mcq-26",
-        "turn-mcq-23",
-        "turn-mcq-27",
-        "turn-mcq-22"
+        "turn-mcq-30",
+        "turn-mcq-10",
+        "turn-mcq-06"
       ],
       "explanation": "本句的「turns」指「道路／路線改變方向的位置」。",
       "sentenceIndex": 58,
@@ -2575,12 +2341,10 @@ export default {
         "turns"
       ],
       "optionReasons": {
-        "turn-mcq-25": "本句指「道路／路線改變方向的位置」。",
-        "turn-mcq-24": "「依次；或繼而造成下一結果」是「in turn」的用法，與本句語境不同。",
-        "turn-mcq-26": "「故事、情況或事件發展方向的改變」是「turn — development」的用法，與本句語境不同。",
-        "turn-mcq-23": "「按順序輪流做某事」是「take turns」的用法，與本句語境不同。",
-        "turn-mcq-27": "「一連串事情發展方向的變化」是「turn of events」的用法，與本句語境不同。",
-        "turn-mcq-22": "「按次序輪到某人行動／參與的機會」是「turn — noun chance」的用法，與本句語境不同。"
+        "turn-mcq-25": "本句的「turns」指「道路／路線改變方向的位置」。",
+        "turn-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-25"
     },
@@ -2592,11 +2356,9 @@ export default {
       "masked": "The story took an unexpected ____.",
       "options": [
         "turn-mcq-26",
-        "turn-mcq-25",
-        "turn-mcq-27",
-        "turn-mcq-24",
-        "turn-mcq-28",
-        "turn-mcq-23"
+        "turn-mcq-11",
+        "turn-mcq-34",
+        "turn-mcq-18"
       ],
       "explanation": "本句的「turn」指「故事、情況或事件發展方向的改變」。",
       "sentenceIndex": 59,
@@ -2605,12 +2367,10 @@ export default {
         "turn"
       ],
       "optionReasons": {
-        "turn-mcq-26": "本句指「故事、情況或事件發展方向的改變」。",
-        "turn-mcq-25": "「道路／路線改變方向的位置」是「turn — bend」的用法，與本句語境不同。",
-        "turn-mcq-27": "「一連串事情發展方向的變化」是「turn of events」的用法，與本句語境不同。",
-        "turn-mcq-24": "「依次；或繼而造成下一結果」是「in turn」的用法，與本句語境不同。",
-        "turn-mcq-28": "「情況開始明顯改善／惡化」是「take a turn for better/worse」的用法，與本句語境不同。",
-        "turn-mcq-23": "「按順序輪流做某事」是「take turns」的用法，與本句語境不同。"
+        "turn-mcq-26": "本句的「turn」指「故事、情況或事件發展方向的改變」。",
+        "turn-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-26"
     },
@@ -2622,11 +2382,9 @@ export default {
       "masked": "Events took a serious ____.",
       "options": [
         "turn-mcq-26",
-        "turn-mcq-25",
-        "turn-mcq-27",
-        "turn-mcq-24",
-        "turn-mcq-28",
-        "turn-mcq-23"
+        "turn-mcq-23",
+        "turn-mcq-16",
+        "turn-mcq-21"
       ],
       "explanation": "本句的「turn」指「故事、情況或事件發展方向的改變」。",
       "sentenceIndex": 60,
@@ -2635,12 +2393,10 @@ export default {
         "turn"
       ],
       "optionReasons": {
-        "turn-mcq-26": "本句指「故事、情況或事件發展方向的改變」。",
-        "turn-mcq-25": "「道路／路線改變方向的位置」是「turn — bend」的用法，與本句語境不同。",
-        "turn-mcq-27": "「一連串事情發展方向的變化」是「turn of events」的用法，與本句語境不同。",
-        "turn-mcq-24": "「依次；或繼而造成下一結果」是「in turn」的用法，與本句語境不同。",
-        "turn-mcq-28": "「情況開始明顯改善／惡化」是「take a turn for better/worse」的用法，與本句語境不同。",
-        "turn-mcq-23": "「按順序輪流做某事」是「take turns」的用法，與本句語境不同。"
+        "turn-mcq-26": "本句的「turn」指「故事、情況或事件發展方向的改變」。",
+        "turn-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-26"
     },
@@ -2652,11 +2408,9 @@ export default {
       "masked": "Nobody expected this ____.",
       "options": [
         "turn-mcq-27",
-        "turn-mcq-26",
-        "turn-mcq-28",
-        "turn-mcq-25",
-        "turn-mcq-29",
-        "turn-mcq-24"
+        "turn-mcq-03",
+        "turn-mcq-35",
+        "turn-mcq-14"
       ],
       "explanation": "本句的「turn of events」指「一連串事情發展方向的變化」。",
       "sentenceIndex": 61,
@@ -2665,12 +2419,10 @@ export default {
         "turn of events"
       ],
       "optionReasons": {
-        "turn-mcq-27": "本句指「一連串事情發展方向的變化」。",
-        "turn-mcq-26": "「故事、情況或事件發展方向的改變」是「turn — development」的用法，與本句語境不同。",
-        "turn-mcq-28": "「情況開始明顯改善／惡化」是「take a turn for better/worse」的用法，與本句語境不同。",
-        "turn-mcq-25": "「道路／路線改變方向的位置」是「turn — bend」的用法，與本句語境不同。",
-        "turn-mcq-29": "「某件事後情況開始朝明顯不同方向發展的關鍵點」是「turning point」的用法，與本句語境不同。",
-        "turn-mcq-24": "「依次；或繼而造成下一結果」是「in turn」的用法，與本句語境不同。"
+        "turn-mcq-27": "本句的「turn of events」指「一連串事情發展方向的變化」。",
+        "turn-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-27"
     },
@@ -2682,11 +2434,9 @@ export default {
       "masked": "It was a surprising ____.",
       "options": [
         "turn-mcq-27",
-        "turn-mcq-26",
-        "turn-mcq-28",
-        "turn-mcq-25",
-        "turn-mcq-29",
-        "turn-mcq-24"
+        "turn-mcq-06",
+        "turn-mcq-13",
+        "turn-mcq-23"
       ],
       "explanation": "本句的「turn of events」指「一連串事情發展方向的變化」。",
       "sentenceIndex": 62,
@@ -2695,12 +2445,10 @@ export default {
         "turn of events"
       ],
       "optionReasons": {
-        "turn-mcq-27": "本句指「一連串事情發展方向的變化」。",
-        "turn-mcq-26": "「故事、情況或事件發展方向的改變」是「turn — development」的用法，與本句語境不同。",
-        "turn-mcq-28": "「情況開始明顯改善／惡化」是「take a turn for better/worse」的用法，與本句語境不同。",
-        "turn-mcq-25": "「道路／路線改變方向的位置」是「turn — bend」的用法，與本句語境不同。",
-        "turn-mcq-29": "「某件事後情況開始朝明顯不同方向發展的關鍵點」是「turning point」的用法，與本句語境不同。",
-        "turn-mcq-24": "「依次；或繼而造成下一結果」是「in turn」的用法，與本句語境不同。"
+        "turn-mcq-27": "本句的「turn of events」指「一連串事情發展方向的變化」。",
+        "turn-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-27"
     },
@@ -2712,11 +2460,9 @@ export default {
       "masked": "The weather ____.",
       "options": [
         "turn-mcq-28",
-        "turn-mcq-27",
-        "turn-mcq-29",
-        "turn-mcq-26",
-        "turn-mcq-30",
-        "turn-mcq-25"
+        "turn-mcq-14",
+        "turn-mcq-20",
+        "turn-mcq-23"
       ],
       "explanation": "本句的「took a turn for the worse」指「情況開始明顯改善／惡化」。",
       "sentenceIndex": 63,
@@ -2725,12 +2471,10 @@ export default {
         "took a turn for the worse"
       ],
       "optionReasons": {
-        "turn-mcq-28": "本句指「情況開始明顯改善／惡化」。",
-        "turn-mcq-27": "「一連串事情發展方向的變化」是「turn of events」的用法，與本句語境不同。",
-        "turn-mcq-29": "「某件事後情況開始朝明顯不同方向發展的關鍵點」是「turning point」的用法，與本句語境不同。",
-        "turn-mcq-26": "「故事、情況或事件發展方向的改變」是「turn — development」的用法，與本句語境不同。",
-        "turn-mcq-30": "「活動／選舉中實際參與的人數或比例」是「turnout」的用法，與本句語境不同。",
-        "turn-mcq-25": "「道路／路線改變方向的位置」是「turn — bend」的用法，與本句語境不同。"
+        "turn-mcq-28": "本句的「took a turn for the worse」指「情況開始明顯改善／惡化」。",
+        "turn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-28"
     },
@@ -2742,11 +2486,9 @@ export default {
       "masked": "Things finally ____.",
       "options": [
         "turn-mcq-28",
-        "turn-mcq-27",
-        "turn-mcq-29",
-        "turn-mcq-26",
-        "turn-mcq-30",
-        "turn-mcq-25"
+        "turn-mcq-18",
+        "turn-mcq-10",
+        "turn-mcq-16"
       ],
       "explanation": "本句的「took a turn for the better」指「情況開始明顯改善／惡化」。",
       "sentenceIndex": 64,
@@ -2755,12 +2497,10 @@ export default {
         "took a turn for the better"
       ],
       "optionReasons": {
-        "turn-mcq-28": "本句指「情況開始明顯改善／惡化」。",
-        "turn-mcq-27": "「一連串事情發展方向的變化」是「turn of events」的用法，與本句語境不同。",
-        "turn-mcq-29": "「某件事後情況開始朝明顯不同方向發展的關鍵點」是「turning point」的用法，與本句語境不同。",
-        "turn-mcq-26": "「故事、情況或事件發展方向的改變」是「turn — development」的用法，與本句語境不同。",
-        "turn-mcq-30": "「活動／選舉中實際參與的人數或比例」是「turnout」的用法，與本句語境不同。",
-        "turn-mcq-25": "「道路／路線改變方向的位置」是「turn — bend」的用法，與本句語境不同。"
+        "turn-mcq-28": "本句的「took a turn for the better」指「情況開始明顯改善／惡化」。",
+        "turn-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-28"
     },
@@ -2772,10 +2512,8 @@ export default {
       "masked": "They took a ____ around the garden.",
       "options": [
         "turn-mcq-34",
+        "turn-mcq-21",
         "turn-mcq-33",
-        "turn-mcq-35",
-        "turn-mcq-32",
-        "turn-mcq-31",
         "turn-mcq-30"
       ],
       "explanation": "本句的「turn」指「走一小段路／繞一圈；較舊式或文學」。",
@@ -2785,12 +2523,10 @@ export default {
         "turn"
       ],
       "optionReasons": {
-        "turn-mcq-34": "本句指「走一小段路／繞一圈；較舊式或文學」。",
-        "turn-mcq-33": "「改變用途、功能或形式，使 X 成為 Y」是「14. turn = convert/change function（轉換用途） — 改造成；轉作」的用法，與本句語境不同。",
-        "turn-mcq-35": "「娛樂節目中的一段表演／一位表演者的節目」是「34. turn = performance/item in a show（表演節目） — 表演；節目」的用法，與本句語境不同。",
-        "turn-mcq-32": "「員工離職並被替換的頻率／比例」是「turnover — staff」的用法，與本句語境不同。",
-        "turn-mcq-31": "「公司一段時間內的總銷售收入」是「turnover — business」的用法，與本句語境不同。",
-        "turn-mcq-30": "「活動／選舉中實際參與的人數或比例」是「turnout」的用法，與本句語境不同。"
+        "turn-mcq-34": "本句的「turn」指「走一小段路／繞一圈；較舊式或文學」。",
+        "turn-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-34"
     },
@@ -2802,11 +2538,9 @@ export default {
       "masked": "Let’s take a short ____ outside.",
       "options": [
         "turn-mcq-34",
-        "turn-mcq-33",
-        "turn-mcq-35",
-        "turn-mcq-32",
-        "turn-mcq-31",
-        "turn-mcq-30"
+        "turn-mcq-27",
+        "turn-mcq-07",
+        "turn-mcq-22"
       ],
       "explanation": "本句的「turn」指「走一小段路／繞一圈；較舊式或文學」。",
       "sentenceIndex": 66,
@@ -2815,12 +2549,10 @@ export default {
         "turn"
       ],
       "optionReasons": {
-        "turn-mcq-34": "本句指「走一小段路／繞一圈；較舊式或文學」。",
-        "turn-mcq-33": "「改變用途、功能或形式，使 X 成為 Y」是「14. turn = convert/change function（轉換用途） — 改造成；轉作」的用法，與本句語境不同。",
-        "turn-mcq-35": "「娛樂節目中的一段表演／一位表演者的節目」是「34. turn = performance/item in a show（表演節目） — 表演；節目」的用法，與本句語境不同。",
-        "turn-mcq-32": "「員工離職並被替換的頻率／比例」是「turnover — staff」的用法，與本句語境不同。",
-        "turn-mcq-31": "「公司一段時間內的總銷售收入」是「turnover — business」的用法，與本句語境不同。",
-        "turn-mcq-30": "「活動／選舉中實際參與的人數或比例」是「turnout」的用法，與本句語境不同。"
+        "turn-mcq-34": "本句的「turn」指「走一小段路／繞一圈；較舊式或文學」。",
+        "turn-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-34"
     },
@@ -2832,11 +2564,9 @@ export default {
       "masked": "He performed a comedy ____.",
       "options": [
         "turn-mcq-35",
-        "turn-mcq-34",
-        "turn-mcq-33",
-        "turn-mcq-32",
-        "turn-mcq-31",
-        "turn-mcq-30"
+        "turn-mcq-03",
+        "turn-mcq-02",
+        "turn-mcq-21"
       ],
       "explanation": "本句的「turn」指「娛樂節目中的一段表演／一位表演者的節目」。",
       "sentenceIndex": 67,
@@ -2845,12 +2575,10 @@ export default {
         "turn"
       ],
       "optionReasons": {
-        "turn-mcq-35": "本句指「娛樂節目中的一段表演／一位表演者的節目」。",
-        "turn-mcq-34": "「走一小段路／繞一圈；較舊式或文學」是「33. turn = short walk/activity（走一圈／一段活動） — 短途走動；一圈」的用法，與本句語境不同。",
-        "turn-mcq-33": "「改變用途、功能或形式，使 X 成為 Y」是「14. turn = convert/change function（轉換用途） — 改造成；轉作」的用法，與本句語境不同。",
-        "turn-mcq-32": "「員工離職並被替換的頻率／比例」是「turnover — staff」的用法，與本句語境不同。",
-        "turn-mcq-31": "「公司一段時間內的總銷售收入」是「turnover — business」的用法，與本句語境不同。",
-        "turn-mcq-30": "「活動／選舉中實際參與的人數或比例」是「turnout」的用法，與本句語境不同。"
+        "turn-mcq-35": "本句的「turn」指「娛樂節目中的一段表演／一位表演者的節目」。",
+        "turn-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-35"
     },
@@ -2862,11 +2590,9 @@ export default {
       "masked": "The next ____ was a singer.",
       "options": [
         "turn-mcq-35",
-        "turn-mcq-34",
-        "turn-mcq-33",
-        "turn-mcq-32",
-        "turn-mcq-31",
-        "turn-mcq-30"
+        "turn-mcq-04",
+        "turn-mcq-10",
+        "turn-mcq-24"
       ],
       "explanation": "本句的「turn」指「娛樂節目中的一段表演／一位表演者的節目」。",
       "sentenceIndex": 68,
@@ -2875,12 +2601,10 @@ export default {
         "turn"
       ],
       "optionReasons": {
-        "turn-mcq-35": "本句指「娛樂節目中的一段表演／一位表演者的節目」。",
-        "turn-mcq-34": "「走一小段路／繞一圈；較舊式或文學」是「33. turn = short walk/activity（走一圈／一段活動） — 短途走動；一圈」的用法，與本句語境不同。",
-        "turn-mcq-33": "「改變用途、功能或形式，使 X 成為 Y」是「14. turn = convert/change function（轉換用途） — 改造成；轉作」的用法，與本句語境不同。",
-        "turn-mcq-32": "「員工離職並被替換的頻率／比例」是「turnover — staff」的用法，與本句語境不同。",
-        "turn-mcq-31": "「公司一段時間內的總銷售收入」是「turnover — business」的用法，與本句語境不同。",
-        "turn-mcq-30": "「活動／選舉中實際參與的人數或比例」是「turnout」的用法，與本句語境不同。"
+        "turn-mcq-35": "本句的「turn」指「娛樂節目中的一段表演／一位表演者的節目」。",
+        "turn-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-35"
     },
@@ -2892,11 +2616,9 @@ export default {
       "masked": "There was a large ____ at the event.",
       "options": [
         "turn-mcq-30",
-        "turn-mcq-29",
-        "turn-mcq-31",
-        "turn-mcq-28",
-        "turn-mcq-32",
-        "turn-mcq-27"
+        "turn-mcq-08",
+        "turn-mcq-19",
+        "turn-mcq-18"
       ],
       "explanation": "本句的「turnout」指「活動／選舉中實際參與的人數或比例」。",
       "sentenceIndex": 69,
@@ -2905,12 +2627,10 @@ export default {
         "turnout"
       ],
       "optionReasons": {
-        "turn-mcq-30": "本句指「活動／選舉中實際參與的人數或比例」。",
-        "turn-mcq-29": "「某件事後情況開始朝明顯不同方向發展的關鍵點」是「turning point」的用法，與本句語境不同。",
-        "turn-mcq-31": "「公司一段時間內的總銷售收入」是「turnover — business」的用法，與本句語境不同。",
-        "turn-mcq-28": "「情況開始明顯改善／惡化」是「take a turn for better/worse」的用法，與本句語境不同。",
-        "turn-mcq-32": "「員工離職並被替換的頻率／比例」是「turnover — staff」的用法，與本句語境不同。",
-        "turn-mcq-27": "「一連串事情發展方向的變化」是「turn of events」的用法，與本句語境不同。"
+        "turn-mcq-30": "本句的「turnout」指「活動／選舉中實際參與的人數或比例」。",
+        "turn-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-30"
     },
@@ -2922,11 +2642,9 @@ export default {
       "masked": "Voter ____ was high.",
       "options": [
         "turn-mcq-30",
-        "turn-mcq-29",
-        "turn-mcq-31",
-        "turn-mcq-28",
-        "turn-mcq-32",
-        "turn-mcq-27"
+        "turn-mcq-15",
+        "turn-mcq-21",
+        "turn-mcq-26"
       ],
       "explanation": "本句的「turnout」指「活動／選舉中實際參與的人數或比例」。",
       "sentenceIndex": 70,
@@ -2935,12 +2653,10 @@ export default {
         "turnout"
       ],
       "optionReasons": {
-        "turn-mcq-30": "本句指「活動／選舉中實際參與的人數或比例」。",
-        "turn-mcq-29": "「某件事後情況開始朝明顯不同方向發展的關鍵點」是「turning point」的用法，與本句語境不同。",
-        "turn-mcq-31": "「公司一段時間內的總銷售收入」是「turnover — business」的用法，與本句語境不同。",
-        "turn-mcq-28": "「情況開始明顯改善／惡化」是「take a turn for better/worse」的用法，與本句語境不同。",
-        "turn-mcq-32": "「員工離職並被替換的頻率／比例」是「turnover — staff」的用法，與本句語境不同。",
-        "turn-mcq-27": "「一連串事情發展方向的變化」是「turn of events」的用法，與本句語境不同。"
+        "turn-mcq-30": "本句的「turnout」指「活動／選舉中實際參與的人數或比例」。",
+        "turn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-30"
     },
@@ -2952,11 +2668,9 @@ export default {
       "masked": "Take the first ____ on the right.",
       "options": [
         "turn-mcq-29",
-        "turn-mcq-28",
-        "turn-mcq-30",
-        "turn-mcq-27",
-        "turn-mcq-31",
-        "turn-mcq-26"
+        "turn-mcq-22",
+        "turn-mcq-24",
+        "turn-mcq-33"
       ],
       "explanation": "本句的「turning」指「某件事後情況開始朝明顯不同方向發展的關鍵點」。",
       "sentenceIndex": 71,
@@ -2965,12 +2679,10 @@ export default {
         "turning"
       ],
       "optionReasons": {
-        "turn-mcq-29": "本句指「某件事後情況開始朝明顯不同方向發展的關鍵點」。",
-        "turn-mcq-28": "「情況開始明顯改善／惡化」是「take a turn for better/worse」的用法，與本句語境不同。",
-        "turn-mcq-30": "「活動／選舉中實際參與的人數或比例」是「turnout」的用法，與本句語境不同。",
-        "turn-mcq-27": "「一連串事情發展方向的變化」是「turn of events」的用法，與本句語境不同。",
-        "turn-mcq-31": "「公司一段時間內的總銷售收入」是「turnover — business」的用法，與本句語境不同。",
-        "turn-mcq-26": "「故事、情況或事件發展方向的改變」是「turn — development」的用法，與本句語境不同。"
+        "turn-mcq-29": "本句的「turning」指「某件事後情況開始朝明顯不同方向發展的關鍵點」。",
+        "turn-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-29"
     },
@@ -2982,11 +2694,9 @@ export default {
       "masked": "That decision marked a major ____.",
       "options": [
         "turn-mcq-29",
-        "turn-mcq-28",
-        "turn-mcq-30",
-        "turn-mcq-27",
-        "turn-mcq-31",
-        "turn-mcq-26"
+        "turn-mcq-15",
+        "turn-mcq-07",
+        "turn-mcq-11"
       ],
       "explanation": "本句的「turning point」指「某件事後情況開始朝明顯不同方向發展的關鍵點」。",
       "sentenceIndex": 72,
@@ -2995,12 +2705,10 @@ export default {
         "turning point"
       ],
       "optionReasons": {
-        "turn-mcq-29": "本句指「某件事後情況開始朝明顯不同方向發展的關鍵點」。",
-        "turn-mcq-28": "「情況開始明顯改善／惡化」是「take a turn for better/worse」的用法，與本句語境不同。",
-        "turn-mcq-30": "「活動／選舉中實際參與的人數或比例」是「turnout」的用法，與本句語境不同。",
-        "turn-mcq-27": "「一連串事情發展方向的變化」是「turn of events」的用法，與本句語境不同。",
-        "turn-mcq-31": "「公司一段時間內的總銷售收入」是「turnover — business」的用法，與本句語境不同。",
-        "turn-mcq-26": "「故事、情況或事件發展方向的改變」是「turn — development」的用法，與本句語境不同。"
+        "turn-mcq-29": "本句的「turning point」指「某件事後情況開始朝明顯不同方向發展的關鍵點」。",
+        "turn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-29"
     },
@@ -3012,11 +2720,9 @@ export default {
       "masked": "The meeting was a ____ in their relationship.",
       "options": [
         "turn-mcq-29",
-        "turn-mcq-28",
-        "turn-mcq-30",
-        "turn-mcq-27",
-        "turn-mcq-31",
-        "turn-mcq-26"
+        "turn-mcq-33",
+        "turn-mcq-14",
+        "turn-mcq-17"
       ],
       "explanation": "本句的「turning point」指「某件事後情況開始朝明顯不同方向發展的關鍵點」。",
       "sentenceIndex": 73,
@@ -3025,12 +2731,10 @@ export default {
         "turning point"
       ],
       "optionReasons": {
-        "turn-mcq-29": "本句指「某件事後情況開始朝明顯不同方向發展的關鍵點」。",
-        "turn-mcq-28": "「情況開始明顯改善／惡化」是「take a turn for better/worse」的用法，與本句語境不同。",
-        "turn-mcq-30": "「活動／選舉中實際參與的人數或比例」是「turnout」的用法，與本句語境不同。",
-        "turn-mcq-27": "「一連串事情發展方向的變化」是「turn of events」的用法，與本句語境不同。",
-        "turn-mcq-31": "「公司一段時間內的總銷售收入」是「turnover — business」的用法，與本句語境不同。",
-        "turn-mcq-26": "「故事、情況或事件發展方向的改變」是「turn — development」的用法，與本句語境不同。"
+        "turn-mcq-29": "本句的「turning point」指「某件事後情況開始朝明顯不同方向發展的關鍵點」。",
+        "turn-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-29"
     },
@@ -3042,11 +2746,9 @@ export default {
       "masked": "The discovery became a major ____.",
       "options": [
         "turn-mcq-29",
-        "turn-mcq-28",
-        "turn-mcq-30",
-        "turn-mcq-27",
-        "turn-mcq-31",
-        "turn-mcq-26"
+        "turn-mcq-14",
+        "turn-mcq-34",
+        "turn-mcq-23"
       ],
       "explanation": "本句的「turning point」指「某件事後情況開始朝明顯不同方向發展的關鍵點」。",
       "sentenceIndex": 74,
@@ -3055,12 +2757,10 @@ export default {
         "turning point"
       ],
       "optionReasons": {
-        "turn-mcq-29": "本句指「某件事後情況開始朝明顯不同方向發展的關鍵點」。",
-        "turn-mcq-28": "「情況開始明顯改善／惡化」是「take a turn for better/worse」的用法，與本句語境不同。",
-        "turn-mcq-30": "「活動／選舉中實際參與的人數或比例」是「turnout」的用法，與本句語境不同。",
-        "turn-mcq-27": "「一連串事情發展方向的變化」是「turn of events」的用法，與本句語境不同。",
-        "turn-mcq-31": "「公司一段時間內的總銷售收入」是「turnover — business」的用法，與本句語境不同。",
-        "turn-mcq-26": "「故事、情況或事件發展方向的改變」是「turn — development」的用法，與本句語境不同。"
+        "turn-mcq-29": "本句的「turning point」指「某件事後情況開始朝明顯不同方向發展的關鍵點」。",
+        "turn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "turn-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "turn-mcq-29"
     }
@@ -3072,5 +2772,7 @@ export default {
     "sha256": "f66ba8cc64f5e74af72e834c01101aca1f9270f1ee1302bbe3dac151337c83f9",
     "pages": 25
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

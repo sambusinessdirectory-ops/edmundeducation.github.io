@@ -460,11 +460,7 @@ export default {
       "masked": "Coaches, medical staff and ____ must support one another.",
       "options": [
         "administrator-mcq-01",
-        "administrator-mcq-02",
-        "administrator-mcq-03",
-        "administrator-mcq-04",
-        "administrator-mcq-05",
-        "administrator-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「administrators」指「負責機構、部門或計劃的行政安排、文件、協調、程序和日常運作的人」。",
       "sentenceIndex": 0,
@@ -473,12 +469,8 @@ export default {
         "administrators"
       ],
       "optionReasons": {
-        "administrator-mcq-01": "本句指「負責機構、部門或計劃的行政安排、文件、協調、程序和日常運作的人」。",
-        "administrator-mcq-02": "「擁有較高系統權限，負責設定、維護、保安或管理電腦系統及平台的人或帳戶」與本句語境不同。",
-        "administrator-mcq-03": "「在網站、論壇、群組或網上社群中擁有較高管理權限的人」與本句語境不同。",
-        "administrator-mcq-04": "「經法律程序委任，負責管理、清算及分配死者遺產的人」與本句語境不同。",
-        "administrator-mcq-05": "「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」與本句語境不同。",
-        "administrator-mcq-06": "「正式負責管理、運作或執行某個制度、計劃或機構」與本句語境不同。"
+        "administrator-mcq-01": "本句的「administrators」指「負責機構、部門或計劃的行政安排、文件、協調、程序和日常運作的人」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-01"
     },
@@ -490,11 +482,7 @@ export default {
       "masked": "The programme ____ arranged accommodation for the visiting athletes.",
       "options": [
         "administrator-mcq-01",
-        "administrator-mcq-02",
-        "administrator-mcq-03",
-        "administrator-mcq-04",
-        "administrator-mcq-05",
-        "administrator-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「administrator」指「負責機構、部門或計劃的行政安排、文件、協調、程序和日常運作的人」。",
       "sentenceIndex": 1,
@@ -503,12 +491,8 @@ export default {
         "administrator"
       ],
       "optionReasons": {
-        "administrator-mcq-01": "本句指「負責機構、部門或計劃的行政安排、文件、協調、程序和日常運作的人」。",
-        "administrator-mcq-02": "「擁有較高系統權限，負責設定、維護、保安或管理電腦系統及平台的人或帳戶」與本句語境不同。",
-        "administrator-mcq-03": "「在網站、論壇、群組或網上社群中擁有較高管理權限的人」與本句語境不同。",
-        "administrator-mcq-04": "「經法律程序委任，負責管理、清算及分配死者遺產的人」與本句語境不同。",
-        "administrator-mcq-05": "「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」與本句語境不同。",
-        "administrator-mcq-06": "「正式負責管理、運作或執行某個制度、計劃或機構」與本句語境不同。"
+        "administrator-mcq-01": "本句的「administrator」指「負責機構、部門或計劃的行政安排、文件、協調、程序和日常運作的人」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-01"
     },
@@ -520,11 +504,7 @@ export default {
       "masked": "Please contact the ____ if you need to change your registration.",
       "options": [
         "administrator-mcq-01",
-        "administrator-mcq-02",
-        "administrator-mcq-03",
-        "administrator-mcq-04",
-        "administrator-mcq-05",
-        "administrator-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「administrator」指「負責機構、部門或計劃的行政安排、文件、協調、程序和日常運作的人」。",
       "sentenceIndex": 2,
@@ -533,12 +513,8 @@ export default {
         "administrator"
       ],
       "optionReasons": {
-        "administrator-mcq-01": "本句指「負責機構、部門或計劃的行政安排、文件、協調、程序和日常運作的人」。",
-        "administrator-mcq-02": "「擁有較高系統權限，負責設定、維護、保安或管理電腦系統及平台的人或帳戶」與本句語境不同。",
-        "administrator-mcq-03": "「在網站、論壇、群組或網上社群中擁有較高管理權限的人」與本句語境不同。",
-        "administrator-mcq-04": "「經法律程序委任，負責管理、清算及分配死者遺產的人」與本句語境不同。",
-        "administrator-mcq-05": "「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」與本句語境不同。",
-        "administrator-mcq-06": "「正式負責管理、運作或執行某個制度、計劃或機構」與本句語境不同。"
+        "administrator-mcq-01": "本句的「administrator」指「負責機構、部門或計劃的行政安排、文件、協調、程序和日常運作的人」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-01"
     },
@@ -550,11 +526,8 @@ export default {
       "masked": "Contact the system ____ if you cannot access the network.",
       "options": [
         "administrator-mcq-02",
-        "administrator-mcq-01",
-        "administrator-mcq-03",
-        "administrator-mcq-04",
-        "administrator-mcq-05",
-        "administrator-mcq-06"
+        "administrator-mcq-16",
+        "administrator-mcq-13"
       ],
       "explanation": "本句的「administrator」指「擁有較高系統權限，負責設定、維護、保安或管理電腦系統及平台的人或帳戶」。",
       "sentenceIndex": 3,
@@ -563,12 +536,9 @@ export default {
         "administrator"
       ],
       "optionReasons": {
-        "administrator-mcq-02": "本句指「擁有較高系統權限，負責設定、維護、保安或管理電腦系統及平台的人或帳戶」。",
-        "administrator-mcq-01": "「負責機構、部門或計劃的行政安排、文件、協調、程序和日常運作的人」與本句語境不同。",
-        "administrator-mcq-03": "「在網站、論壇、群組或網上社群中擁有較高管理權限的人」與本句語境不同。",
-        "administrator-mcq-04": "「經法律程序委任，負責管理、清算及分配死者遺產的人」與本句語境不同。",
-        "administrator-mcq-05": "「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」與本句語境不同。",
-        "administrator-mcq-06": "「正式負責管理、運作或執行某個制度、計劃或機構」與本句語境不同。"
+        "administrator-mcq-02": "本句的「administrator」指「擁有較高系統權限，負責設定、維護、保安或管理電腦系統及平台的人或帳戶」。",
+        "administrator-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "administrator-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-02"
     },
@@ -580,11 +550,8 @@ export default {
       "masked": "Only an ____ can change these security settings.",
       "options": [
         "administrator-mcq-02",
-        "administrator-mcq-01",
-        "administrator-mcq-03",
-        "administrator-mcq-04",
-        "administrator-mcq-05",
-        "administrator-mcq-06"
+        "administrator-mcq-12",
+        "administrator-mcq-13"
       ],
       "explanation": "本句的「administrator」指「擁有較高系統權限，負責設定、維護、保安或管理電腦系統及平台的人或帳戶」。",
       "sentenceIndex": 4,
@@ -593,12 +560,9 @@ export default {
         "administrator"
       ],
       "optionReasons": {
-        "administrator-mcq-02": "本句指「擁有較高系統權限，負責設定、維護、保安或管理電腦系統及平台的人或帳戶」。",
-        "administrator-mcq-01": "「負責機構、部門或計劃的行政安排、文件、協調、程序和日常運作的人」與本句語境不同。",
-        "administrator-mcq-03": "「在網站、論壇、群組或網上社群中擁有較高管理權限的人」與本句語境不同。",
-        "administrator-mcq-04": "「經法律程序委任，負責管理、清算及分配死者遺產的人」與本句語境不同。",
-        "administrator-mcq-05": "「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」與本句語境不同。",
-        "administrator-mcq-06": "「正式負責管理、運作或執行某個制度、計劃或機構」與本句語境不同。"
+        "administrator-mcq-02": "本句的「administrator」指「擁有較高系統權限，負責設定、維護、保安或管理電腦系統及平台的人或帳戶」。",
+        "administrator-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "administrator-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-02"
     },
@@ -610,11 +574,8 @@ export default {
       "masked": "Ask the group ____ to approve your request.",
       "options": [
         "administrator-mcq-03",
-        "administrator-mcq-02",
-        "administrator-mcq-04",
-        "administrator-mcq-01",
-        "administrator-mcq-05",
-        "administrator-mcq-06"
+        "administrator-mcq-16",
+        "administrator-mcq-13"
       ],
       "explanation": "本句的「administrator」指「在網站、論壇、群組或網上社群中擁有較高管理權限的人」。",
       "sentenceIndex": 5,
@@ -623,12 +584,9 @@ export default {
         "administrator"
       ],
       "optionReasons": {
-        "administrator-mcq-03": "本句指「在網站、論壇、群組或網上社群中擁有較高管理權限的人」。",
-        "administrator-mcq-02": "「擁有較高系統權限，負責設定、維護、保安或管理電腦系統及平台的人或帳戶」與本句語境不同。",
-        "administrator-mcq-04": "「經法律程序委任，負責管理、清算及分配死者遺產的人」與本句語境不同。",
-        "administrator-mcq-01": "「負責機構、部門或計劃的行政安排、文件、協調、程序和日常運作的人」與本句語境不同。",
-        "administrator-mcq-05": "「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」與本句語境不同。",
-        "administrator-mcq-06": "「正式負責管理、運作或執行某個制度、計劃或機構」與本句語境不同。"
+        "administrator-mcq-03": "本句的「administrator」指「在網站、論壇、群組或網上社群中擁有較高管理權限的人」。",
+        "administrator-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "administrator-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-03"
     },
@@ -640,11 +598,8 @@ export default {
       "masked": "The forum ____ removed the account.",
       "options": [
         "administrator-mcq-03",
-        "administrator-mcq-02",
-        "administrator-mcq-04",
-        "administrator-mcq-01",
-        "administrator-mcq-05",
-        "administrator-mcq-06"
+        "administrator-mcq-13",
+        "administrator-mcq-12"
       ],
       "explanation": "本句的「administrator」指「在網站、論壇、群組或網上社群中擁有較高管理權限的人」。",
       "sentenceIndex": 6,
@@ -653,12 +608,9 @@ export default {
         "administrator"
       ],
       "optionReasons": {
-        "administrator-mcq-03": "本句指「在網站、論壇、群組或網上社群中擁有較高管理權限的人」。",
-        "administrator-mcq-02": "「擁有較高系統權限，負責設定、維護、保安或管理電腦系統及平台的人或帳戶」與本句語境不同。",
-        "administrator-mcq-04": "「經法律程序委任，負責管理、清算及分配死者遺產的人」與本句語境不同。",
-        "administrator-mcq-01": "「負責機構、部門或計劃的行政安排、文件、協調、程序和日常運作的人」與本句語境不同。",
-        "administrator-mcq-05": "「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」與本句語境不同。",
-        "administrator-mcq-06": "「正式負責管理、運作或執行某個制度、計劃或機構」與本句語境不同。"
+        "administrator-mcq-03": "本句的「administrator」指「在網站、論壇、群組或網上社群中擁有較高管理權限的人」。",
+        "administrator-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "administrator-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-03"
     },
@@ -670,11 +622,8 @@ export default {
       "masked": "The court appointed an ____ to manage the estate.",
       "options": [
         "administrator-mcq-04",
-        "administrator-mcq-03",
-        "administrator-mcq-05",
-        "administrator-mcq-02",
-        "administrator-mcq-06",
-        "administrator-mcq-01"
+        "administrator-mcq-16",
+        "administrator-mcq-13"
       ],
       "explanation": "本句的「administrator」指「經法律程序委任，負責管理、清算及分配死者遺產的人」。",
       "sentenceIndex": 7,
@@ -683,12 +632,9 @@ export default {
         "administrator"
       ],
       "optionReasons": {
-        "administrator-mcq-04": "本句指「經法律程序委任，負責管理、清算及分配死者遺產的人」。",
-        "administrator-mcq-03": "「在網站、論壇、群組或網上社群中擁有較高管理權限的人」與本句語境不同。",
-        "administrator-mcq-05": "「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」與本句語境不同。",
-        "administrator-mcq-02": "「擁有較高系統權限，負責設定、維護、保安或管理電腦系統及平台的人或帳戶」與本句語境不同。",
-        "administrator-mcq-06": "「正式負責管理、運作或執行某個制度、計劃或機構」與本句語境不同。",
-        "administrator-mcq-01": "「負責機構、部門或計劃的行政安排、文件、協調、程序和日常運作的人」與本句語境不同。"
+        "administrator-mcq-04": "本句的「administrator」指「經法律程序委任，負責管理、清算及分配死者遺產的人」。",
+        "administrator-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "administrator-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-04"
     },
@@ -700,11 +646,8 @@ export default {
       "masked": "The ____ paid the debts before distributing the remaining assets.",
       "options": [
         "administrator-mcq-04",
-        "administrator-mcq-03",
-        "administrator-mcq-05",
-        "administrator-mcq-02",
-        "administrator-mcq-06",
-        "administrator-mcq-01"
+        "administrator-mcq-12",
+        "administrator-mcq-13"
       ],
       "explanation": "本句的「administrator」指「經法律程序委任，負責管理、清算及分配死者遺產的人」。",
       "sentenceIndex": 8,
@@ -713,12 +656,9 @@ export default {
         "administrator"
       ],
       "optionReasons": {
-        "administrator-mcq-04": "本句指「經法律程序委任，負責管理、清算及分配死者遺產的人」。",
-        "administrator-mcq-03": "「在網站、論壇、群組或網上社群中擁有較高管理權限的人」與本句語境不同。",
-        "administrator-mcq-05": "「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」與本句語境不同。",
-        "administrator-mcq-02": "「擁有較高系統權限，負責設定、維護、保安或管理電腦系統及平台的人或帳戶」與本句語境不同。",
-        "administrator-mcq-06": "「正式負責管理、運作或執行某個制度、計劃或機構」與本句語境不同。",
-        "administrator-mcq-01": "「負責機構、部門或計劃的行政安排、文件、協調、程序和日常運作的人」與本句語境不同。"
+        "administrator-mcq-04": "本句的「administrator」指「經法律程序委任，負責管理、清算及分配死者遺產的人」。",
+        "administrator-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "administrator-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-04"
     },
@@ -730,11 +670,7 @@ export default {
       "masked": "An ____ was appointed after the company encountered serious financial difficulties.",
       "options": [
         "administrator-mcq-05",
-        "administrator-mcq-04",
-        "administrator-mcq-06",
-        "administrator-mcq-03",
-        "administrator-mcq-07",
-        "administrator-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「administrator」指「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」。",
       "sentenceIndex": 9,
@@ -743,12 +679,8 @@ export default {
         "administrator"
       ],
       "optionReasons": {
-        "administrator-mcq-05": "本句指「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」。",
-        "administrator-mcq-04": "「經法律程序委任，負責管理、清算及分配死者遺產的人」與本句語境不同。",
-        "administrator-mcq-06": "「正式負責管理、運作或執行某個制度、計劃或機構」與本句語境不同。",
-        "administrator-mcq-03": "「在網站、論壇、群組或網上社群中擁有較高管理權限的人」與本句語境不同。",
-        "administrator-mcq-07": "「按專業程序給予或施用藥物、治療或醫療處置」與本句語境不同。",
-        "administrator-mcq-02": "「擁有較高系統權限，負責設定、維護、保安或管理電腦系統及平台的人或帳戶」與本句語境不同。"
+        "administrator-mcq-05": "本句的「administrator」指「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-05"
     },
@@ -760,11 +692,7 @@ export default {
       "masked": "The ____ examined whether the business could be rescued.",
       "options": [
         "administrator-mcq-05",
-        "administrator-mcq-04",
-        "administrator-mcq-06",
-        "administrator-mcq-03",
-        "administrator-mcq-07",
-        "administrator-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「administrator」指「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」。",
       "sentenceIndex": 10,
@@ -773,12 +701,8 @@ export default {
         "administrator"
       ],
       "optionReasons": {
-        "administrator-mcq-05": "本句指「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」。",
-        "administrator-mcq-04": "「經法律程序委任，負責管理、清算及分配死者遺產的人」與本句語境不同。",
-        "administrator-mcq-06": "「正式負責管理、運作或執行某個制度、計劃或機構」與本句語境不同。",
-        "administrator-mcq-03": "「在網站、論壇、群組或網上社群中擁有較高管理權限的人」與本句語境不同。",
-        "administrator-mcq-07": "「按專業程序給予或施用藥物、治療或醫療處置」與本句語境不同。",
-        "administrator-mcq-02": "「擁有較高系統權限，負責設定、維護、保安或管理電腦系統及平台的人或帳戶」與本句語境不同。"
+        "administrator-mcq-05": "本句的「administrator」指「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-05"
     },
@@ -790,11 +714,7 @@ export default {
       "masked": "The department ____ the scholarship programme.",
       "options": [
         "administrator-mcq-06",
-        "administrator-mcq-05",
-        "administrator-mcq-07",
-        "administrator-mcq-04",
-        "administrator-mcq-08",
-        "administrator-mcq-03"
+        "administrator-mcq-07"
       ],
       "explanation": "本句的「administers」指「正式負責管理、運作或執行某個制度、計劃或機構」。",
       "sentenceIndex": 11,
@@ -803,12 +723,8 @@ export default {
         "administers"
       ],
       "optionReasons": {
-        "administrator-mcq-06": "本句指「正式負責管理、運作或執行某個制度、計劃或機構」。",
-        "administrator-mcq-05": "「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」與本句語境不同。",
-        "administrator-mcq-07": "「按專業程序給予或施用藥物、治療或醫療處置」與本句語境不同。",
-        "administrator-mcq-04": "「經法律程序委任，負責管理、清算及分配死者遺產的人」與本句語境不同。",
-        "administrator-mcq-08": "「按正式程序主持、施行或執行測試、宣誓、措施等」與本句語境不同。",
-        "administrator-mcq-03": "「在網站、論壇、群組或網上社群中擁有較高管理權限的人」與本句語境不同。"
+        "administrator-mcq-06": "本句的「administers」指「正式負責管理、運作或執行某個制度、計劃或機構」。",
+        "administrator-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-06"
     },
@@ -820,11 +736,7 @@ export default {
       "masked": "The scheme is ____ by the local authority.",
       "options": [
         "administrator-mcq-06",
-        "administrator-mcq-05",
-        "administrator-mcq-07",
-        "administrator-mcq-04",
-        "administrator-mcq-08",
-        "administrator-mcq-03"
+        "administrator-mcq-07"
       ],
       "explanation": "本句的「administered」指「正式負責管理、運作或執行某個制度、計劃或機構」。",
       "sentenceIndex": 12,
@@ -833,12 +745,8 @@ export default {
         "administered"
       ],
       "optionReasons": {
-        "administrator-mcq-06": "本句指「正式負責管理、運作或執行某個制度、計劃或機構」。",
-        "administrator-mcq-05": "「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」與本句語境不同。",
-        "administrator-mcq-07": "「按專業程序給予或施用藥物、治療或醫療處置」與本句語境不同。",
-        "administrator-mcq-04": "「經法律程序委任，負責管理、清算及分配死者遺產的人」與本句語境不同。",
-        "administrator-mcq-08": "「按正式程序主持、施行或執行測試、宣誓、措施等」與本句語境不同。",
-        "administrator-mcq-03": "「在網站、論壇、群組或網上社群中擁有較高管理權限的人」與本句語境不同。"
+        "administrator-mcq-06": "本句的「administered」指「正式負責管理、運作或執行某個制度、計劃或機構」。",
+        "administrator-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-06"
     },
@@ -850,11 +758,7 @@ export default {
       "masked": "The nurse ____ the medication.",
       "options": [
         "administrator-mcq-07",
-        "administrator-mcq-06",
-        "administrator-mcq-08",
-        "administrator-mcq-05",
-        "administrator-mcq-09",
-        "administrator-mcq-04"
+        "administrator-mcq-06"
       ],
       "explanation": "本句的「administered」指「按專業程序給予或施用藥物、治療或醫療處置」。",
       "sentenceIndex": 13,
@@ -863,12 +767,8 @@ export default {
         "administered"
       ],
       "optionReasons": {
-        "administrator-mcq-07": "本句指「按專業程序給予或施用藥物、治療或醫療處置」。",
-        "administrator-mcq-06": "「正式負責管理、運作或執行某個制度、計劃或機構」與本句語境不同。",
-        "administrator-mcq-08": "「按正式程序主持、施行或執行測試、宣誓、措施等」與本句語境不同。",
-        "administrator-mcq-05": "「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」與本句語境不同。",
-        "administrator-mcq-09": "「機構、計劃或活動的行政管理、協調和運作工作」與本句語境不同。",
-        "administrator-mcq-04": "「經法律程序委任，負責管理、清算及分配死者遺產的人」與本句語境不同。"
+        "administrator-mcq-07": "本句的「administered」指「按專業程序給予或施用藥物、治療或醫療處置」。",
+        "administrator-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-07"
     },
@@ -880,11 +780,7 @@ export default {
       "masked": "Oxygen was ____ immediately.",
       "options": [
         "administrator-mcq-07",
-        "administrator-mcq-06",
-        "administrator-mcq-08",
-        "administrator-mcq-05",
-        "administrator-mcq-09",
-        "administrator-mcq-04"
+        "administrator-mcq-06"
       ],
       "explanation": "本句的「administered」指「按專業程序給予或施用藥物、治療或醫療處置」。",
       "sentenceIndex": 14,
@@ -893,12 +789,8 @@ export default {
         "administered"
       ],
       "optionReasons": {
-        "administrator-mcq-07": "本句指「按專業程序給予或施用藥物、治療或醫療處置」。",
-        "administrator-mcq-06": "「正式負責管理、運作或執行某個制度、計劃或機構」與本句語境不同。",
-        "administrator-mcq-08": "「按正式程序主持、施行或執行測試、宣誓、措施等」與本句語境不同。",
-        "administrator-mcq-05": "「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」與本句語境不同。",
-        "administrator-mcq-09": "「機構、計劃或活動的行政管理、協調和運作工作」與本句語境不同。",
-        "administrator-mcq-04": "「經法律程序委任，負責管理、清算及分配死者遺產的人」與本句語境不同。"
+        "administrator-mcq-07": "本句的「administered」指「按專業程序給予或施用藥物、治療或醫療處置」。",
+        "administrator-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-07"
     },
@@ -910,11 +802,7 @@ export default {
       "masked": "The test was ____ under controlled conditions.",
       "options": [
         "administrator-mcq-08",
-        "administrator-mcq-07",
-        "administrator-mcq-09",
-        "administrator-mcq-06",
-        "administrator-mcq-10",
-        "administrator-mcq-05"
+        "administrator-mcq-09"
       ],
       "explanation": "本句的「administered」指「按正式程序主持、施行或執行測試、宣誓、措施等」。",
       "sentenceIndex": 15,
@@ -923,12 +811,8 @@ export default {
         "administered"
       ],
       "optionReasons": {
-        "administrator-mcq-08": "本句指「按正式程序主持、施行或執行測試、宣誓、措施等」。",
-        "administrator-mcq-07": "「按專業程序給予或施用藥物、治療或醫療處置」與本句語境不同。",
-        "administrator-mcq-09": "「機構、計劃或活動的行政管理、協調和運作工作」與本句語境不同。",
-        "administrator-mcq-06": "「正式負責管理、運作或執行某個制度、計劃或機構」與本句語境不同。",
-        "administrator-mcq-10": "「共同負責管理某個機構的行政領導層／管理當局」與本句語境不同。",
-        "administrator-mcq-05": "「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」與本句語境不同。"
+        "administrator-mcq-08": "本句的「administered」指「按正式程序主持、施行或執行測試、宣誓、措施等」。",
+        "administrator-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-08"
     },
@@ -940,11 +824,7 @@ export default {
       "masked": "The judge ____ the oath.",
       "options": [
         "administrator-mcq-08",
-        "administrator-mcq-07",
-        "administrator-mcq-09",
-        "administrator-mcq-06",
-        "administrator-mcq-10",
-        "administrator-mcq-05"
+        "administrator-mcq-09"
       ],
       "explanation": "本句的「administered」指「按正式程序主持、施行或執行測試、宣誓、措施等」。",
       "sentenceIndex": 16,
@@ -953,12 +833,8 @@ export default {
         "administered"
       ],
       "optionReasons": {
-        "administrator-mcq-08": "本句指「按正式程序主持、施行或執行測試、宣誓、措施等」。",
-        "administrator-mcq-07": "「按專業程序給予或施用藥物、治療或醫療處置」與本句語境不同。",
-        "administrator-mcq-09": "「機構、計劃或活動的行政管理、協調和運作工作」與本句語境不同。",
-        "administrator-mcq-06": "「正式負責管理、運作或執行某個制度、計劃或機構」與本句語境不同。",
-        "administrator-mcq-10": "「共同負責管理某個機構的行政領導層／管理當局」與本句語境不同。",
-        "administrator-mcq-05": "「在企業重整或無力償債程序中，被正式委任接管和管理公司的專業人士」與本句語境不同。"
+        "administrator-mcq-08": "本句的「administered」指「按正式程序主持、施行或執行測試、宣誓、措施等」。",
+        "administrator-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-08"
     },
@@ -970,11 +846,7 @@ export default {
       "masked": "She works in sports ____.",
       "options": [
         "administrator-mcq-09",
-        "administrator-mcq-08",
-        "administrator-mcq-10",
-        "administrator-mcq-07",
-        "administrator-mcq-11",
-        "administrator-mcq-06"
+        "administrator-mcq-08"
       ],
       "explanation": "本句的「administration」指「機構、計劃或活動的行政管理、協調和運作工作」。",
       "sentenceIndex": 17,
@@ -983,12 +855,8 @@ export default {
         "administration"
       ],
       "optionReasons": {
-        "administrator-mcq-09": "本句指「機構、計劃或活動的行政管理、協調和運作工作」。",
-        "administrator-mcq-08": "「按正式程序主持、施行或執行測試、宣誓、措施等」與本句語境不同。",
-        "administrator-mcq-10": "「共同負責管理某個機構的行政領導層／管理當局」與本句語境不同。",
-        "administrator-mcq-07": "「按專業程序給予或施用藥物、治療或醫療處置」與本句語境不同。",
-        "administrator-mcq-11": "「負責某地區或公共體系管治及行政工作的官方機構」與本句語境不同。",
-        "administrator-mcq-06": "「正式負責管理、運作或執行某個制度、計劃或機構」與本句語境不同。"
+        "administrator-mcq-09": "本句的「administration」指「機構、計劃或活動的行政管理、協調和運作工作」。",
+        "administrator-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-09"
     },
@@ -1000,11 +868,7 @@ export default {
       "masked": "Good ____ is essential for a successful competition.",
       "options": [
         "administrator-mcq-09",
-        "administrator-mcq-08",
-        "administrator-mcq-10",
-        "administrator-mcq-07",
-        "administrator-mcq-11",
-        "administrator-mcq-06"
+        "administrator-mcq-08"
       ],
       "explanation": "本句的「administration」指「機構、計劃或活動的行政管理、協調和運作工作」。",
       "sentenceIndex": 18,
@@ -1013,12 +877,8 @@ export default {
         "administration"
       ],
       "optionReasons": {
-        "administrator-mcq-09": "本句指「機構、計劃或活動的行政管理、協調和運作工作」。",
-        "administrator-mcq-08": "「按正式程序主持、施行或執行測試、宣誓、措施等」與本句語境不同。",
-        "administrator-mcq-10": "「共同負責管理某個機構的行政領導層／管理當局」與本句語境不同。",
-        "administrator-mcq-07": "「按專業程序給予或施用藥物、治療或醫療處置」與本句語境不同。",
-        "administrator-mcq-11": "「負責某地區或公共體系管治及行政工作的官方機構」與本句語境不同。",
-        "administrator-mcq-06": "「正式負責管理、運作或執行某個制度、計劃或機構」與本句語境不同。"
+        "administrator-mcq-09": "本句的「administration」指「機構、計劃或活動的行政管理、協調和運作工作」。",
+        "administrator-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-09"
     },
@@ -1030,10 +890,6 @@ export default {
       "masked": "The university ____ approved the proposal.",
       "options": [
         "administrator-mcq-10",
-        "administrator-mcq-09",
-        "administrator-mcq-11",
-        "administrator-mcq-08",
-        "administrator-mcq-12",
         "administrator-mcq-07"
       ],
       "explanation": "本句的「administration」指「共同負責管理某個機構的行政領導層／管理當局」。",
@@ -1043,12 +899,8 @@ export default {
         "administration"
       ],
       "optionReasons": {
-        "administrator-mcq-10": "本句指「共同負責管理某個機構的行政領導層／管理當局」。",
-        "administrator-mcq-09": "「機構、計劃或活動的行政管理、協調和運作工作」與本句語境不同。",
-        "administrator-mcq-11": "「負責某地區或公共體系管治及行政工作的官方機構」與本句語境不同。",
-        "administrator-mcq-08": "「按正式程序主持、施行或執行測試、宣誓、措施等」與本句語境不同。",
-        "administrator-mcq-12": "「由某位政治領袖領導的一屆政府及其主要行政團隊」與本句語境不同。",
-        "administrator-mcq-07": "「按專業程序給予或施用藥物、治療或醫療處置」與本句語境不同。"
+        "administrator-mcq-10": "本句的「administration」指「共同負責管理某個機構的行政領導層／管理當局」。",
+        "administrator-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-10"
     },
@@ -1060,10 +912,6 @@ export default {
       "masked": "Students met with the school ____.",
       "options": [
         "administrator-mcq-10",
-        "administrator-mcq-09",
-        "administrator-mcq-11",
-        "administrator-mcq-08",
-        "administrator-mcq-12",
         "administrator-mcq-07"
       ],
       "explanation": "本句的「administration」指「共同負責管理某個機構的行政領導層／管理當局」。",
@@ -1073,12 +921,8 @@ export default {
         "administration"
       ],
       "optionReasons": {
-        "administrator-mcq-10": "本句指「共同負責管理某個機構的行政領導層／管理當局」。",
-        "administrator-mcq-09": "「機構、計劃或活動的行政管理、協調和運作工作」與本句語境不同。",
-        "administrator-mcq-11": "「負責某地區或公共體系管治及行政工作的官方機構」與本句語境不同。",
-        "administrator-mcq-08": "「按正式程序主持、施行或執行測試、宣誓、措施等」與本句語境不同。",
-        "administrator-mcq-12": "「由某位政治領袖領導的一屆政府及其主要行政團隊」與本句語境不同。",
-        "administrator-mcq-07": "「按專業程序給予或施用藥物、治療或醫療處置」與本句語境不同。"
+        "administrator-mcq-10": "本句的「administration」指「共同負責管理某個機構的行政領導層／管理當局」。",
+        "administrator-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-10"
     },
@@ -1090,11 +934,8 @@ export default {
       "masked": "The local ____ introduced new transport rules.",
       "options": [
         "administrator-mcq-11",
-        "administrator-mcq-10",
-        "administrator-mcq-12",
-        "administrator-mcq-09",
-        "administrator-mcq-13",
-        "administrator-mcq-08"
+        "administrator-mcq-03",
+        "administrator-mcq-13"
       ],
       "explanation": "本句的「administration」指「負責某地區或公共體系管治及行政工作的官方機構」。",
       "sentenceIndex": 21,
@@ -1103,12 +944,9 @@ export default {
         "administration"
       ],
       "optionReasons": {
-        "administrator-mcq-11": "本句指「負責某地區或公共體系管治及行政工作的官方機構」。",
-        "administrator-mcq-10": "「共同負責管理某個機構的行政領導層／管理當局」與本句語境不同。",
-        "administrator-mcq-12": "「由某位政治領袖領導的一屆政府及其主要行政團隊」與本句語境不同。",
-        "administrator-mcq-09": "「機構、計劃或活動的行政管理、協調和運作工作」與本句語境不同。",
-        "administrator-mcq-13": "「正式給予藥物、治療或其他醫療處置的行為」與本句語境不同。",
-        "administrator-mcq-08": "「按正式程序主持、施行或執行測試、宣誓、措施等」與本句語境不同。"
+        "administrator-mcq-11": "本句的「administration」指「負責某地區或公共體系管治及行政工作的官方機構」。",
+        "administrator-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "administrator-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-11"
     },
@@ -1120,11 +958,8 @@ export default {
       "masked": "The regional ____ is responsible for public services.",
       "options": [
         "administrator-mcq-11",
-        "administrator-mcq-10",
-        "administrator-mcq-12",
-        "administrator-mcq-09",
-        "administrator-mcq-13",
-        "administrator-mcq-08"
+        "administrator-mcq-03",
+        "administrator-mcq-13"
       ],
       "explanation": "本句的「administration」指「負責某地區或公共體系管治及行政工作的官方機構」。",
       "sentenceIndex": 22,
@@ -1133,12 +968,9 @@ export default {
         "administration"
       ],
       "optionReasons": {
-        "administrator-mcq-11": "本句指「負責某地區或公共體系管治及行政工作的官方機構」。",
-        "administrator-mcq-10": "「共同負責管理某個機構的行政領導層／管理當局」與本句語境不同。",
-        "administrator-mcq-12": "「由某位政治領袖領導的一屆政府及其主要行政團隊」與本句語境不同。",
-        "administrator-mcq-09": "「機構、計劃或活動的行政管理、協調和運作工作」與本句語境不同。",
-        "administrator-mcq-13": "「正式給予藥物、治療或其他醫療處置的行為」與本句語境不同。",
-        "administrator-mcq-08": "「按正式程序主持、施行或執行測試、宣誓、措施等」與本句語境不同。"
+        "administrator-mcq-11": "本句的「administration」指「負責某地區或公共體系管治及行政工作的官方機構」。",
+        "administrator-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "administrator-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-11"
     },
@@ -1150,11 +982,8 @@ export default {
       "masked": "The new ____ announced changes to the policy.",
       "options": [
         "administrator-mcq-12",
-        "administrator-mcq-11",
-        "administrator-mcq-13",
-        "administrator-mcq-10",
-        "administrator-mcq-14",
-        "administrator-mcq-09"
+        "administrator-mcq-03",
+        "administrator-mcq-13"
       ],
       "explanation": "本句的「administration」指「由某位政治領袖領導的一屆政府及其主要行政團隊」。",
       "sentenceIndex": 23,
@@ -1163,12 +992,9 @@ export default {
         "administration"
       ],
       "optionReasons": {
-        "administrator-mcq-12": "本句指「由某位政治領袖領導的一屆政府及其主要行政團隊」。",
-        "administrator-mcq-11": "「負責某地區或公共體系管治及行政工作的官方機構」與本句語境不同。",
-        "administrator-mcq-13": "「正式給予藥物、治療或其他醫療處置的行為」與本句語境不同。",
-        "administrator-mcq-10": "「共同負責管理某個機構的行政領導層／管理當局」與本句語境不同。",
-        "administrator-mcq-14": "「與組織、程序、文件、協調及日常管理有關的」與本句語境不同。",
-        "administrator-mcq-09": "「機構、計劃或活動的行政管理、協調和運作工作」與本句語境不同。"
+        "administrator-mcq-12": "本句的「administration」指「由某位政治領袖領導的一屆政府及其主要行政團隊」。",
+        "administrator-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "administrator-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-12"
     },
@@ -1180,11 +1006,8 @@ export default {
       "masked": "The programme began during the previous ____.",
       "options": [
         "administrator-mcq-12",
-        "administrator-mcq-11",
-        "administrator-mcq-13",
-        "administrator-mcq-10",
-        "administrator-mcq-14",
-        "administrator-mcq-09"
+        "administrator-mcq-04",
+        "administrator-mcq-13"
       ],
       "explanation": "本句的「administration」指「由某位政治領袖領導的一屆政府及其主要行政團隊」。",
       "sentenceIndex": 24,
@@ -1193,12 +1016,9 @@ export default {
         "administration"
       ],
       "optionReasons": {
-        "administrator-mcq-12": "本句指「由某位政治領袖領導的一屆政府及其主要行政團隊」。",
-        "administrator-mcq-11": "「負責某地區或公共體系管治及行政工作的官方機構」與本句語境不同。",
-        "administrator-mcq-13": "「正式給予藥物、治療或其他醫療處置的行為」與本句語境不同。",
-        "administrator-mcq-10": "「共同負責管理某個機構的行政領導層／管理當局」與本句語境不同。",
-        "administrator-mcq-14": "「與組織、程序、文件、協調及日常管理有關的」與本句語境不同。",
-        "administrator-mcq-09": "「機構、計劃或活動的行政管理、協調和運作工作」與本句語境不同。"
+        "administrator-mcq-12": "本句的「administration」指「由某位政治領袖領導的一屆政府及其主要行政團隊」。",
+        "administrator-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "administrator-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-12"
     },
@@ -1210,11 +1030,8 @@ export default {
       "masked": "The drug requires careful ____.",
       "options": [
         "administrator-mcq-13",
-        "administrator-mcq-12",
-        "administrator-mcq-14",
-        "administrator-mcq-11",
-        "administrator-mcq-15",
-        "administrator-mcq-10"
+        "administrator-mcq-03",
+        "administrator-mcq-16"
       ],
       "explanation": "本句的「administration」指「正式給予藥物、治療或其他醫療處置的行為」。",
       "sentenceIndex": 25,
@@ -1223,12 +1040,9 @@ export default {
         "administration"
       ],
       "optionReasons": {
-        "administrator-mcq-13": "本句指「正式給予藥物、治療或其他醫療處置的行為」。",
-        "administrator-mcq-12": "「由某位政治領袖領導的一屆政府及其主要行政團隊」與本句語境不同。",
-        "administrator-mcq-14": "「與組織、程序、文件、協調及日常管理有關的」與本句語境不同。",
-        "administrator-mcq-11": "「負責某地區或公共體系管治及行政工作的官方機構」與本句語境不同。",
-        "administrator-mcq-15": "「在行政安排、制度或管理層面上」與本句語境不同。",
-        "administrator-mcq-10": "「共同負責管理某個機構的行政領導層／管理當局」與本句語境不同。"
+        "administrator-mcq-13": "本句的「administration」指「正式給予藥物、治療或其他醫療處置的行為」。",
+        "administrator-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "administrator-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-13"
     },
@@ -1240,11 +1054,8 @@ export default {
       "masked": "The nurse recorded the time of medication ____.",
       "options": [
         "administrator-mcq-13",
-        "administrator-mcq-12",
-        "administrator-mcq-14",
-        "administrator-mcq-11",
-        "administrator-mcq-15",
-        "administrator-mcq-10"
+        "administrator-mcq-02",
+        "administrator-mcq-16"
       ],
       "explanation": "本句的「administration」指「正式給予藥物、治療或其他醫療處置的行為」。",
       "sentenceIndex": 26,
@@ -1253,12 +1064,9 @@ export default {
         "administration"
       ],
       "optionReasons": {
-        "administrator-mcq-13": "本句指「正式給予藥物、治療或其他醫療處置的行為」。",
-        "administrator-mcq-12": "「由某位政治領袖領導的一屆政府及其主要行政團隊」與本句語境不同。",
-        "administrator-mcq-14": "「與組織、程序、文件、協調及日常管理有關的」與本句語境不同。",
-        "administrator-mcq-11": "「負責某地區或公共體系管治及行政工作的官方機構」與本句語境不同。",
-        "administrator-mcq-15": "「在行政安排、制度或管理層面上」與本句語境不同。",
-        "administrator-mcq-10": "「共同負責管理某個機構的行政領導層／管理當局」與本句語境不同。"
+        "administrator-mcq-13": "本句的「administration」指「正式給予藥物、治療或其他醫療處置的行為」。",
+        "administrator-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "administrator-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-13"
     },
@@ -1270,11 +1078,8 @@ export default {
       "masked": "She handles the team’s ____ work.",
       "options": [
         "administrator-mcq-14",
-        "administrator-mcq-13",
-        "administrator-mcq-15",
-        "administrator-mcq-12",
         "administrator-mcq-16",
-        "administrator-mcq-11"
+        "administrator-mcq-13"
       ],
       "explanation": "本句的「administrative」指「與組織、程序、文件、協調及日常管理有關的」。",
       "sentenceIndex": 27,
@@ -1283,12 +1088,9 @@ export default {
         "administrative"
       ],
       "optionReasons": {
-        "administrator-mcq-14": "本句指「與組織、程序、文件、協調及日常管理有關的」。",
-        "administrator-mcq-13": "「正式給予藥物、治療或其他醫療處置的行為」與本句語境不同。",
-        "administrator-mcq-15": "「在行政安排、制度或管理層面上」與本句語境不同。",
-        "administrator-mcq-12": "「由某位政治領袖領導的一屆政府及其主要行政團隊」與本句語境不同。",
-        "administrator-mcq-16": "「行政工作／行政事務」與本句語境不同。",
-        "administrator-mcq-11": "「負責某地區或公共體系管治及行政工作的官方機構」與本句語境不同。"
+        "administrator-mcq-14": "本句的「administrative」指「與組織、程序、文件、協調及日常管理有關的」。",
+        "administrator-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "administrator-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-14"
     },
@@ -1300,11 +1102,8 @@ export default {
       "masked": "The role includes several ____ duties.",
       "options": [
         "administrator-mcq-14",
-        "administrator-mcq-13",
-        "administrator-mcq-15",
-        "administrator-mcq-12",
         "administrator-mcq-16",
-        "administrator-mcq-11"
+        "administrator-mcq-13"
       ],
       "explanation": "本句的「administrative」指「與組織、程序、文件、協調及日常管理有關的」。",
       "sentenceIndex": 28,
@@ -1313,12 +1112,9 @@ export default {
         "administrative"
       ],
       "optionReasons": {
-        "administrator-mcq-14": "本句指「與組織、程序、文件、協調及日常管理有關的」。",
-        "administrator-mcq-13": "「正式給予藥物、治療或其他醫療處置的行為」與本句語境不同。",
-        "administrator-mcq-15": "「在行政安排、制度或管理層面上」與本句語境不同。",
-        "administrator-mcq-12": "「由某位政治領袖領導的一屆政府及其主要行政團隊」與本句語境不同。",
-        "administrator-mcq-16": "「行政工作／行政事務」與本句語境不同。",
-        "administrator-mcq-11": "「負責某地區或公共體系管治及行政工作的官方機構」與本句語境不同。"
+        "administrator-mcq-14": "本句的「administrative」指「與組織、程序、文件、協調及日常管理有關的」。",
+        "administrator-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "administrator-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-14"
     },
@@ -1330,11 +1126,7 @@ export default {
       "masked": "The delay was caused by an ____ error.",
       "options": [
         "administrator-pdf-001",
-        "administrator-mcq-13",
-        "administrator-mcq-15",
-        "administrator-mcq-12",
-        "administrator-mcq-16",
-        "administrator-mcq-11"
+        "administrator-mcq-16"
       ],
       "explanation": "本句的「administrative」指「與正式程序、紀錄、審批或內部管理有關，而非事情本身的實質內容」。",
       "sentenceIndex": 29,
@@ -1343,12 +1135,8 @@ export default {
         "administrative"
       ],
       "optionReasons": {
-        "administrator-pdf-001": "本句指「與正式程序、紀錄、審批或內部管理有關，而非事情本身的實質內容」。",
-        "administrator-mcq-13": "「正式給予藥物、治療或其他醫療處置的行為」與本句語境不同。",
-        "administrator-mcq-15": "「在行政安排、制度或管理層面上」與本句語境不同。",
-        "administrator-mcq-12": "「由某位政治領袖領導的一屆政府及其主要行政團隊」與本句語境不同。",
-        "administrator-mcq-16": "「行政工作／行政事務」與本句語境不同。",
-        "administrator-mcq-11": "「負責某地區或公共體系管治及行政工作的官方機構」與本句語境不同。"
+        "administrator-pdf-001": "本句的「administrative」指「與正式程序、紀錄、審批或內部管理有關，而非事情本身的實質內容」。",
+        "administrator-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-pdf-001"
     },
@@ -1360,11 +1148,7 @@ export default {
       "masked": "The application was rejected for ____ reasons.",
       "options": [
         "administrator-pdf-001",
-        "administrator-mcq-13",
-        "administrator-mcq-15",
-        "administrator-mcq-12",
-        "administrator-mcq-16",
-        "administrator-mcq-11"
+        "administrator-mcq-16"
       ],
       "explanation": "本句的「administrative」指「與正式程序、紀錄、審批或內部管理有關，而非事情本身的實質內容」。",
       "sentenceIndex": 30,
@@ -1373,12 +1157,8 @@ export default {
         "administrative"
       ],
       "optionReasons": {
-        "administrator-pdf-001": "本句指「與正式程序、紀錄、審批或內部管理有關，而非事情本身的實質內容」。",
-        "administrator-mcq-13": "「正式給予藥物、治療或其他醫療處置的行為」與本句語境不同。",
-        "administrator-mcq-15": "「在行政安排、制度或管理層面上」與本句語境不同。",
-        "administrator-mcq-12": "「由某位政治領袖領導的一屆政府及其主要行政團隊」與本句語境不同。",
-        "administrator-mcq-16": "「行政工作／行政事務」與本句語境不同。",
-        "administrator-mcq-11": "「負責某地區或公共體系管治及行政工作的官方機構」與本句語境不同。"
+        "administrator-pdf-001": "本句的「administrative」指「與正式程序、紀錄、審批或內部管理有關，而非事情本身的實質內容」。",
+        "administrator-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-pdf-001"
     },
@@ -1390,11 +1170,7 @@ export default {
       "masked": "The two departments are separate ____.",
       "options": [
         "administrator-mcq-15",
-        "administrator-mcq-14",
-        "administrator-mcq-16",
-        "administrator-mcq-13",
-        "administrator-mcq-17",
-        "administrator-mcq-12"
+        "administrator-mcq-07"
       ],
       "explanation": "本句的「administratively」指「在行政安排、制度或管理層面上」。",
       "sentenceIndex": 31,
@@ -1403,12 +1179,8 @@ export default {
         "administratively"
       ],
       "optionReasons": {
-        "administrator-mcq-15": "本句指「在行政安排、制度或管理層面上」。",
-        "administrator-mcq-14": "「與組織、程序、文件、協調及日常管理有關的」與本句語境不同。",
-        "administrator-mcq-16": "「行政工作／行政事務」與本句語境不同。",
-        "administrator-mcq-13": "「正式給予藥物、治療或其他醫療處置的行為」與本句語境不同。",
-        "administrator-mcq-17": "「管理員／行政人員，尤其常見於網上及電腦語境」與本句語境不同。",
-        "administrator-mcq-12": "「由某位政治領袖領導的一屆政府及其主要行政團隊」與本句語境不同。"
+        "administrator-mcq-15": "本句的「administratively」指「在行政安排、制度或管理層面上」。",
+        "administrator-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-15"
     },
@@ -1420,11 +1192,7 @@ export default {
       "masked": "The change would be difficult to implement ____.",
       "options": [
         "administrator-mcq-15",
-        "administrator-mcq-14",
-        "administrator-mcq-16",
-        "administrator-mcq-13",
-        "administrator-mcq-17",
-        "administrator-mcq-12"
+        "administrator-mcq-07"
       ],
       "explanation": "本句的「administratively」指「在行政安排、制度或管理層面上」。",
       "sentenceIndex": 32,
@@ -1433,12 +1201,8 @@ export default {
         "administratively"
       ],
       "optionReasons": {
-        "administrator-mcq-15": "本句指「在行政安排、制度或管理層面上」。",
-        "administrator-mcq-14": "「與組織、程序、文件、協調及日常管理有關的」與本句語境不同。",
-        "administrator-mcq-16": "「行政工作／行政事務」與本句語境不同。",
-        "administrator-mcq-13": "「正式給予藥物、治療或其他醫療處置的行為」與本句語境不同。",
-        "administrator-mcq-17": "「管理員／行政人員，尤其常見於網上及電腦語境」與本句語境不同。",
-        "administrator-mcq-12": "「由某位政治領袖領導的一屆政府及其主要行政團隊」與本句語境不同。"
+        "administrator-mcq-15": "本句的「administratively」指「在行政安排、制度或管理層面上」。",
+        "administrator-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-15"
     },
@@ -1450,10 +1214,7 @@ export default {
       "masked": "I need to finish some ____ before lunch.",
       "options": [
         "administrator-mcq-16",
-        "administrator-mcq-15",
-        "administrator-mcq-17",
         "administrator-mcq-14",
-        "administrator-mcq-18",
         "administrator-mcq-13"
       ],
       "explanation": "本句的「admin」指「行政工作／行政事務」。",
@@ -1463,12 +1224,9 @@ export default {
         "admin"
       ],
       "optionReasons": {
-        "administrator-mcq-16": "本句指「行政工作／行政事務」。",
-        "administrator-mcq-15": "「在行政安排、制度或管理層面上」與本句語境不同。",
-        "administrator-mcq-17": "「管理員／行政人員，尤其常見於網上及電腦語境」與本句語境不同。",
-        "administrator-mcq-14": "「與組織、程序、文件、協調及日常管理有關的」與本句語境不同。",
-        "administrator-mcq-18": "「政府及公共服務的組織、管理與運作；公共行政」與本句語境不同。",
-        "administrator-mcq-13": "「正式給予藥物、治療或其他醫療處置的行為」與本句語境不同。"
+        "administrator-mcq-16": "本句的「admin」指「行政工作／行政事務」。",
+        "administrator-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "administrator-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-16"
     },
@@ -1480,10 +1238,7 @@ export default {
       "masked": "Most of my morning was spent on ____.",
       "options": [
         "administrator-mcq-16",
-        "administrator-mcq-15",
-        "administrator-mcq-17",
-        "administrator-mcq-14",
-        "administrator-mcq-18",
+        "administrator-mcq-03",
         "administrator-mcq-13"
       ],
       "explanation": "本句的「admin」指「行政工作／行政事務」。",
@@ -1493,12 +1248,9 @@ export default {
         "admin"
       ],
       "optionReasons": {
-        "administrator-mcq-16": "本句指「行政工作／行政事務」。",
-        "administrator-mcq-15": "「在行政安排、制度或管理層面上」與本句語境不同。",
-        "administrator-mcq-17": "「管理員／行政人員，尤其常見於網上及電腦語境」與本句語境不同。",
-        "administrator-mcq-14": "「與組織、程序、文件、協調及日常管理有關的」與本句語境不同。",
-        "administrator-mcq-18": "「政府及公共服務的組織、管理與運作；公共行政」與本句語境不同。",
-        "administrator-mcq-13": "「正式給予藥物、治療或其他醫療處置的行為」與本句語境不同。"
+        "administrator-mcq-16": "本句的「admin」指「行政工作／行政事務」。",
+        "administrator-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "administrator-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-16"
     },
@@ -1510,11 +1262,7 @@ export default {
       "masked": "Ask the group ____ to add you.",
       "options": [
         "administrator-mcq-17",
-        "administrator-mcq-16",
-        "administrator-mcq-18",
-        "administrator-mcq-15",
-        "administrator-mcq-19",
-        "administrator-mcq-14"
+        "administrator-mcq-13"
       ],
       "explanation": "本句的「admin」指「管理員／行政人員，尤其常見於網上及電腦語境」。",
       "sentenceIndex": 35,
@@ -1523,12 +1271,8 @@ export default {
         "admin"
       ],
       "optionReasons": {
-        "administrator-mcq-17": "本句指「管理員／行政人員，尤其常見於網上及電腦語境」。",
-        "administrator-mcq-16": "「行政工作／行政事務」與本句語境不同。",
-        "administrator-mcq-18": "「政府及公共服務的組織、管理與運作；公共行政」與本句語境不同。",
-        "administrator-mcq-15": "「在行政安排、制度或管理層面上」與本句語境不同。",
-        "administrator-mcq-19": "「企業及商業組織的管理；工商管理」與本句語境不同。",
-        "administrator-mcq-14": "「與組織、程序、文件、協調及日常管理有關的」與本句語境不同。"
+        "administrator-mcq-17": "本句的「admin」指「管理員／行政人員，尤其常見於網上及電腦語境」。",
+        "administrator-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-17"
     },
@@ -1540,11 +1284,7 @@ export default {
       "masked": "Only an ____ can change the account permissions.",
       "options": [
         "administrator-mcq-17",
-        "administrator-mcq-16",
-        "administrator-mcq-18",
-        "administrator-mcq-15",
-        "administrator-mcq-19",
-        "administrator-mcq-14"
+        "administrator-mcq-13"
       ],
       "explanation": "本句的「admin」指「管理員／行政人員，尤其常見於網上及電腦語境」。",
       "sentenceIndex": 36,
@@ -1553,12 +1293,8 @@ export default {
         "admin"
       ],
       "optionReasons": {
-        "administrator-mcq-17": "本句指「管理員／行政人員，尤其常見於網上及電腦語境」。",
-        "administrator-mcq-16": "「行政工作／行政事務」與本句語境不同。",
-        "administrator-mcq-18": "「政府及公共服務的組織、管理與運作；公共行政」與本句語境不同。",
-        "administrator-mcq-15": "「在行政安排、制度或管理層面上」與本句語境不同。",
-        "administrator-mcq-19": "「企業及商業組織的管理；工商管理」與本句語境不同。",
-        "administrator-mcq-14": "「與組織、程序、文件、協調及日常管理有關的」與本句語境不同。"
+        "administrator-mcq-17": "本句的「admin」指「管理員／行政人員，尤其常見於網上及電腦語境」。",
+        "administrator-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "administrator-mcq-17"
     }
@@ -1570,5 +1306,12 @@ export default {
     "sha256": "baf503bdd886b9d4e2a77ae87c4fa5e1c1467b511603231ebb44bf95efcca26f",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

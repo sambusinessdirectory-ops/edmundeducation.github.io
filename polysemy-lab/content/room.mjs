@@ -482,11 +482,9 @@ export default {
       "masked": "The living ____ becomes a space station.",
       "options": [
         "room-mcq-01",
-        "room-mcq-02",
-        "room-mcq-03",
-        "room-mcq-04",
-        "room-mcq-05",
-        "room-mcq-06"
+        "room-mcq-09",
+        "room-mcq-16",
+        "room-mcq-15"
       ],
       "explanation": "本句的「room」指「建築物內由牆壁分隔、供居住、工作或其他活動使用的空間」。",
       "sentenceIndex": 0,
@@ -495,12 +493,10 @@ export default {
         "room"
       ],
       "optionReasons": {
-        "room-mcq-01": "本句指「建築物內由牆壁分隔、供居住、工作或其他活動使用的空間」。",
-        "room-mcq-02": "「家中主要供人休息、交談和共同活動的客廳」是「living room」的用法，與本句語境不同。",
-        "room-mcq-03": "「可供人／物佔用、移動或放置東西的空間」是「room — available space」的用法，與本句語境不同。",
-        "room-mcq-04": "「可容納某人／某物的空間或容量」是「room for + noun」的用法，與本句語境不同。",
-        "room-mcq-05": "「有足夠實際空間進行某項活動」是「room to + verb — physical」的用法，與本句語境不同。",
-        "room-mcq-06": "「移動／重新安排以騰出空間」是「make room」的用法，與本句語境不同。"
+        "room-mcq-01": "本句的「room」指「建築物內由牆壁分隔、供居住、工作或其他活動使用的空間」。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-01"
     },
@@ -512,11 +508,9 @@ export default {
       "masked": "She went into the next ____.",
       "options": [
         "room-mcq-01",
-        "room-mcq-02",
-        "room-mcq-03",
-        "room-mcq-04",
-        "room-mcq-05",
-        "room-mcq-06"
+        "room-mcq-12",
+        "room-mcq-16",
+        "room-mcq-13"
       ],
       "explanation": "本句的「room」指「建築物內由牆壁分隔、供居住、工作或其他活動使用的空間」。",
       "sentenceIndex": 1,
@@ -525,12 +519,10 @@ export default {
         "room"
       ],
       "optionReasons": {
-        "room-mcq-01": "本句指「建築物內由牆壁分隔、供居住、工作或其他活動使用的空間」。",
-        "room-mcq-02": "「家中主要供人休息、交談和共同活動的客廳」是「living room」的用法，與本句語境不同。",
-        "room-mcq-03": "「可供人／物佔用、移動或放置東西的空間」是「room — available space」的用法，與本句語境不同。",
-        "room-mcq-04": "「可容納某人／某物的空間或容量」是「room for + noun」的用法，與本句語境不同。",
-        "room-mcq-05": "「有足夠實際空間進行某項活動」是「room to + verb — physical」的用法，與本句語境不同。",
-        "room-mcq-06": "「移動／重新安排以騰出空間」是「make room」的用法，與本句語境不同。"
+        "room-mcq-01": "本句的「room」指「建築物內由牆壁分隔、供居住、工作或其他活動使用的空間」。",
+        "room-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-01"
     },
@@ -542,11 +534,9 @@ export default {
       "masked": "The house has four ____ upstairs.",
       "options": [
         "room-mcq-01",
-        "room-mcq-02",
-        "room-mcq-03",
-        "room-mcq-04",
-        "room-mcq-05",
-        "room-mcq-06"
+        "room-mcq-09",
+        "room-mcq-15",
+        "room-mcq-16"
       ],
       "explanation": "本句的「rooms」指「建築物內由牆壁分隔、供居住、工作或其他活動使用的空間」。",
       "sentenceIndex": 2,
@@ -555,12 +545,10 @@ export default {
         "rooms"
       ],
       "optionReasons": {
-        "room-mcq-01": "本句指「建築物內由牆壁分隔、供居住、工作或其他活動使用的空間」。",
-        "room-mcq-02": "「家中主要供人休息、交談和共同活動的客廳」是「living room」的用法，與本句語境不同。",
-        "room-mcq-03": "「可供人／物佔用、移動或放置東西的空間」是「room — available space」的用法，與本句語境不同。",
-        "room-mcq-04": "「可容納某人／某物的空間或容量」是「room for + noun」的用法，與本句語境不同。",
-        "room-mcq-05": "「有足夠實際空間進行某項活動」是「room to + verb — physical」的用法，與本句語境不同。",
-        "room-mcq-06": "「移動／重新安排以騰出空間」是「make room」的用法，與本句語境不同。"
+        "room-mcq-01": "本句的「rooms」指「建築物內由牆壁分隔、供居住、工作或其他活動使用的空間」。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-01"
     },
@@ -572,11 +560,9 @@ export default {
       "masked": "The children were playing in the ____.",
       "options": [
         "room-mcq-02",
-        "room-mcq-01",
-        "room-mcq-03",
-        "room-mcq-04",
-        "room-mcq-05",
-        "room-mcq-06"
+        "room-mcq-07",
+        "room-mcq-09",
+        "room-mcq-19"
       ],
       "explanation": "本句的「living room」指「家中主要供人休息、交談和共同活動的客廳」。",
       "sentenceIndex": 3,
@@ -585,12 +571,10 @@ export default {
         "living room"
       ],
       "optionReasons": {
-        "room-mcq-02": "本句指「家中主要供人休息、交談和共同活動的客廳」。",
-        "room-mcq-01": "「建築物內由牆壁分隔、供居住、工作或其他活動使用的空間」是「room — part of building」的用法，與本句語境不同。",
-        "room-mcq-03": "「可供人／物佔用、移動或放置東西的空間」是「room — available space」的用法，與本句語境不同。",
-        "room-mcq-04": "「可容納某人／某物的空間或容量」是「room for + noun」的用法，與本句語境不同。",
-        "room-mcq-05": "「有足夠實際空間進行某項活動」是「room to + verb — physical」的用法，與本句語境不同。",
-        "room-mcq-06": "「移動／重新安排以騰出空間」是「make room」的用法，與本句語境不同。"
+        "room-mcq-02": "本句的「living room」指「家中主要供人休息、交談和共同活動的客廳」。",
+        "room-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-02"
     },
@@ -602,11 +586,9 @@ export default {
       "masked": "We sat in the ____ and talked.",
       "options": [
         "room-mcq-02",
-        "room-mcq-01",
-        "room-mcq-03",
-        "room-mcq-04",
-        "room-mcq-05",
-        "room-mcq-06"
+        "room-mcq-07",
+        "room-mcq-08",
+        "room-mcq-13"
       ],
       "explanation": "本句的「living room」指「家中主要供人休息、交談和共同活動的客廳」。",
       "sentenceIndex": 4,
@@ -615,12 +597,10 @@ export default {
         "living room"
       ],
       "optionReasons": {
-        "room-mcq-02": "本句指「家中主要供人休息、交談和共同活動的客廳」。",
-        "room-mcq-01": "「建築物內由牆壁分隔、供居住、工作或其他活動使用的空間」是「room — part of building」的用法，與本句語境不同。",
-        "room-mcq-03": "「可供人／物佔用、移動或放置東西的空間」是「room — available space」的用法，與本句語境不同。",
-        "room-mcq-04": "「可容納某人／某物的空間或容量」是「room for + noun」的用法，與本句語境不同。",
-        "room-mcq-05": "「有足夠實際空間進行某項活動」是「room to + verb — physical」的用法，與本句語境不同。",
-        "room-mcq-06": "「移動／重新安排以騰出空間」是「make room」的用法，與本句語境不同。"
+        "room-mcq-02": "本句的「living room」指「家中主要供人休息、交談和共同活動的客廳」。",
+        "room-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-02"
     },
@@ -632,11 +612,9 @@ export default {
       "masked": "Her ____ is upstairs.",
       "options": [
         "room-mcq-19",
-        "room-mcq-18",
-        "room-mcq-17",
-        "room-mcq-16",
-        "room-mcq-15",
-        "room-mcq-14"
+        "room-mcq-11",
+        "room-mcq-09",
+        "room-mcq-02"
       ],
       "explanation": "本句的「bedroom」指「用 room 與用途結合，表示某種特定功能的房間」。",
       "sentenceIndex": 5,
@@ -645,12 +623,10 @@ export default {
         "bedroom"
       ],
       "optionReasons": {
-        "room-mcq-19": "本句指「用 room 與用途結合，表示某種特定功能的房間」。",
-        "room-mcq-18": "「某地方／物件內部空間寬敞的程度或感覺」是「roominess」的用法，與本句語境不同。",
-        "room-mcq-17": "「內部有很多可用空間、寬敞的」是「roomy」的用法，與本句語境不同。",
-        "room-mcq-16": "「與某人同房或共用住宿；主要見於美式英語」是「room — verb」的用法，與本句語境不同。",
-        "room-mcq-15": "「酒店把食物／服務送到客人房間的服務」是「room service」的用法，與本句語境不同。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。"
+        "room-mcq-19": "本句的「bedroom」指「用 room 與用途結合，表示某種特定功能的房間」。",
+        "room-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-19"
     },
@@ -662,11 +638,9 @@ export default {
       "masked": "Dinner is ready in the ____.",
       "options": [
         "room-mcq-19",
-        "room-mcq-18",
-        "room-mcq-17",
-        "room-mcq-16",
-        "room-mcq-15",
-        "room-mcq-14"
+        "room-pdf-001",
+        "room-mcq-08",
+        "room-mcq-02"
       ],
       "explanation": "本句的「dining room」指「用 room 與用途結合，表示某種特定功能的房間」。",
       "sentenceIndex": 6,
@@ -675,12 +649,10 @@ export default {
         "dining room"
       ],
       "optionReasons": {
-        "room-mcq-19": "本句指「用 room 與用途結合，表示某種特定功能的房間」。",
-        "room-mcq-18": "「某地方／物件內部空間寬敞的程度或感覺」是「roominess」的用法，與本句語境不同。",
-        "room-mcq-17": "「內部有很多可用空間、寬敞的」是「roomy」的用法，與本句語境不同。",
-        "room-mcq-16": "「與某人同房或共用住宿；主要見於美式英語」是「room — verb」的用法，與本句語境不同。",
-        "room-mcq-15": "「酒店把食物／服務送到客人房間的服務」是「room service」的用法，與本句語境不同。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。"
+        "room-mcq-19": "本句的「dining room」指「用 room 與用途結合，表示某種特定功能的房間」。",
+        "room-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-19"
     },
@@ -692,11 +664,9 @@ export default {
       "masked": "There isn’t enough ____ for another chair.",
       "options": [
         "room-mcq-03",
-        "room-mcq-02",
-        "room-mcq-04",
-        "room-mcq-01",
-        "room-mcq-05",
-        "room-mcq-06"
+        "room-mcq-09",
+        "room-mcq-16",
+        "room-mcq-13"
       ],
       "explanation": "本句的「room」指「可供人／物佔用、移動或放置東西的空間」。",
       "sentenceIndex": 7,
@@ -705,12 +675,10 @@ export default {
         "room"
       ],
       "optionReasons": {
-        "room-mcq-03": "本句指「可供人／物佔用、移動或放置東西的空間」。",
-        "room-mcq-02": "「家中主要供人休息、交談和共同活動的客廳」是「living room」的用法，與本句語境不同。",
-        "room-mcq-04": "「可容納某人／某物的空間或容量」是「room for + noun」的用法，與本句語境不同。",
-        "room-mcq-01": "「建築物內由牆壁分隔、供居住、工作或其他活動使用的空間」是「room — part of building」的用法，與本句語境不同。",
-        "room-mcq-05": "「有足夠實際空間進行某項活動」是「room to + verb — physical」的用法，與本句語境不同。",
-        "room-mcq-06": "「移動／重新安排以騰出空間」是「make room」的用法，與本句語境不同。"
+        "room-mcq-03": "本句的「room」指「可供人／物佔用、移動或放置東西的空間」。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-03"
     },
@@ -722,11 +690,9 @@ export default {
       "masked": "Move over and make some ____.",
       "options": [
         "room-mcq-03",
-        "room-mcq-02",
-        "room-mcq-04",
-        "room-mcq-01",
-        "room-mcq-05",
-        "room-mcq-06"
+        "room-mcq-16",
+        "room-mcq-08",
+        "room-mcq-13"
       ],
       "explanation": "本句的「room」指「可供人／物佔用、移動或放置東西的空間」。",
       "sentenceIndex": 8,
@@ -735,12 +701,10 @@ export default {
         "room"
       ],
       "optionReasons": {
-        "room-mcq-03": "本句指「可供人／物佔用、移動或放置東西的空間」。",
-        "room-mcq-02": "「家中主要供人休息、交談和共同活動的客廳」是「living room」的用法，與本句語境不同。",
-        "room-mcq-04": "「可容納某人／某物的空間或容量」是「room for + noun」的用法，與本句語境不同。",
-        "room-mcq-01": "「建築物內由牆壁分隔、供居住、工作或其他活動使用的空間」是「room — part of building」的用法，與本句語境不同。",
-        "room-mcq-05": "「有足夠實際空間進行某項活動」是「room to + verb — physical」的用法，與本句語境不同。",
-        "room-mcq-06": "「移動／重新安排以騰出空間」是「make room」的用法，與本句語境不同。"
+        "room-mcq-03": "本句的「room」指「可供人／物佔用、移動或放置東西的空間」。",
+        "room-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-03"
     },
@@ -752,11 +716,9 @@ export default {
       "masked": "Is there ____ one more person?",
       "options": [
         "room-mcq-04",
-        "room-mcq-03",
-        "room-mcq-05",
         "room-mcq-02",
-        "room-mcq-06",
-        "room-mcq-01"
+        "room-pdf-001",
+        "room-mcq-09"
       ],
       "explanation": "本句的「room for」指「可容納某人／某物的空間或容量」。",
       "sentenceIndex": 9,
@@ -765,12 +727,10 @@ export default {
         "room for"
       ],
       "optionReasons": {
-        "room-mcq-04": "本句指「可容納某人／某物的空間或容量」。",
-        "room-mcq-03": "「可供人／物佔用、移動或放置東西的空間」是「room — available space」的用法，與本句語境不同。",
-        "room-mcq-05": "「有足夠實際空間進行某項活動」是「room to + verb — physical」的用法，與本句語境不同。",
-        "room-mcq-02": "「家中主要供人休息、交談和共同活動的客廳」是「living room」的用法，與本句語境不同。",
-        "room-mcq-06": "「移動／重新安排以騰出空間」是「make room」的用法，與本句語境不同。",
-        "room-mcq-01": "「建築物內由牆壁分隔、供居住、工作或其他活動使用的空間」是「room — part of building」的用法，與本句語境不同。"
+        "room-mcq-04": "本句的「room for」指「可容納某人／某物的空間或容量」。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "room-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-04"
     },
@@ -782,11 +742,9 @@ export default {
       "masked": "The bag has enough ____ a laptop.",
       "options": [
         "room-mcq-04",
-        "room-mcq-03",
-        "room-mcq-05",
-        "room-mcq-02",
-        "room-mcq-06",
-        "room-mcq-01"
+        "room-pdf-001",
+        "room-mcq-09",
+        "room-mcq-02"
       ],
       "explanation": "本句的「room for」指「可容納某人／某物的空間或容量」。",
       "sentenceIndex": 10,
@@ -795,12 +753,10 @@ export default {
         "room for"
       ],
       "optionReasons": {
-        "room-mcq-04": "本句指「可容納某人／某物的空間或容量」。",
-        "room-mcq-03": "「可供人／物佔用、移動或放置東西的空間」是「room — available space」的用法，與本句語境不同。",
-        "room-mcq-05": "「有足夠實際空間進行某項活動」是「room to + verb — physical」的用法，與本句語境不同。",
-        "room-mcq-02": "「家中主要供人休息、交談和共同活動的客廳」是「living room」的用法，與本句語境不同。",
-        "room-mcq-06": "「移動／重新安排以騰出空間」是「make room」的用法，與本句語境不同。",
-        "room-mcq-01": "「建築物內由牆壁分隔、供居住、工作或其他活動使用的空間」是「room — part of building」的用法，與本句語境不同。"
+        "room-mcq-04": "本句的「room for」指「可容納某人／某物的空間或容量」。",
+        "room-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-04"
     },
@@ -812,11 +768,9 @@ export default {
       "masked": "There is barely enough ____.",
       "options": [
         "room-mcq-05",
-        "room-mcq-04",
-        "room-mcq-06",
-        "room-mcq-03",
-        "room-mcq-07",
-        "room-mcq-02"
+        "room-mcq-16",
+        "room-mcq-08",
+        "room-mcq-13"
       ],
       "explanation": "本句的「room to move」指「有足夠實際空間進行某項活動」。",
       "sentenceIndex": 11,
@@ -825,12 +779,10 @@ export default {
         "room to move"
       ],
       "optionReasons": {
-        "room-mcq-05": "本句指「有足夠實際空間進行某項活動」。",
-        "room-mcq-04": "「可容納某人／某物的空間或容量」是「room for + noun」的用法，與本句語境不同。",
-        "room-mcq-06": "「移動／重新安排以騰出空間」是「make room」的用法，與本句語境不同。",
-        "room-mcq-03": "「可供人／物佔用、移動或放置東西的空間」是「room — available space」的用法，與本句語境不同。",
-        "room-mcq-07": "「不把空間完全用盡，預留一部分」是「leave room」的用法，與本句語境不同。",
-        "room-mcq-02": "「家中主要供人休息、交談和共同活動的客廳」是「living room」的用法，與本句語境不同。"
+        "room-mcq-05": "本句的「room to move」指「有足夠實際空間進行某項活動」。",
+        "room-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-05"
     },
@@ -842,11 +794,9 @@ export default {
       "masked": "The children need more ____.",
       "options": [
         "room-mcq-05",
-        "room-mcq-04",
-        "room-mcq-06",
-        "room-mcq-03",
-        "room-mcq-07",
-        "room-mcq-02"
+        "room-mcq-08",
+        "room-pdf-001",
+        "room-mcq-19"
       ],
       "explanation": "本句的「room to play」指「有足夠實際空間進行某項活動」。",
       "sentenceIndex": 12,
@@ -855,12 +805,10 @@ export default {
         "room to play"
       ],
       "optionReasons": {
-        "room-mcq-05": "本句指「有足夠實際空間進行某項活動」。",
-        "room-mcq-04": "「可容納某人／某物的空間或容量」是「room for + noun」的用法，與本句語境不同。",
-        "room-mcq-06": "「移動／重新安排以騰出空間」是「make room」的用法，與本句語境不同。",
-        "room-mcq-03": "「可供人／物佔用、移動或放置東西的空間」是「room — available space」的用法，與本句語境不同。",
-        "room-mcq-07": "「不把空間完全用盡，預留一部分」是「leave room」的用法，與本句語境不同。",
-        "room-mcq-02": "「家中主要供人休息、交談和共同活動的客廳」是「living room」的用法，與本句語境不同。"
+        "room-mcq-05": "本句的「room to play」指「有足夠實際空間進行某項活動」。",
+        "room-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "room-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-05"
     },
@@ -872,11 +820,9 @@ export default {
       "masked": "Can you ____ for Leo?",
       "options": [
         "room-mcq-06",
-        "room-mcq-05",
-        "room-mcq-07",
-        "room-mcq-04",
-        "room-mcq-08",
-        "room-mcq-03"
+        "room-mcq-09",
+        "room-mcq-16",
+        "room-mcq-15"
       ],
       "explanation": "本句的「make room」指「移動／重新安排以騰出空間」。",
       "sentenceIndex": 13,
@@ -885,12 +831,10 @@ export default {
         "make room"
       ],
       "optionReasons": {
-        "room-mcq-06": "本句指「移動／重新安排以騰出空間」。",
-        "room-mcq-05": "「有足夠實際空間進行某項活動」是「room to + verb — physical」的用法，與本句語境不同。",
-        "room-mcq-07": "「不把空間完全用盡，預留一部分」是「leave room」的用法，與本句語境不同。",
-        "room-mcq-04": "「可容納某人／某物的空間或容量」是「room for + noun」的用法，與本句語境不同。",
-        "room-mcq-08": "「某件事仍可發展、改變、改善或容許某種可能的餘地」是「room — figurative capacity」的用法，與本句語境不同。",
-        "room-mcq-03": "「可供人／物佔用、移動或放置東西的空間」是「room — available space」的用法，與本句語境不同。"
+        "room-mcq-06": "本句的「make room」指「移動／重新安排以騰出空間」。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-06"
     },
@@ -902,11 +846,9 @@ export default {
       "masked": "We moved the table to ____ for the children.",
       "options": [
         "room-mcq-06",
-        "room-mcq-05",
-        "room-mcq-07",
-        "room-mcq-04",
-        "room-mcq-08",
-        "room-mcq-03"
+        "room-mcq-12",
+        "room-mcq-16",
+        "room-mcq-19"
       ],
       "explanation": "本句的「make room」指「移動／重新安排以騰出空間」。",
       "sentenceIndex": 14,
@@ -915,12 +857,10 @@ export default {
         "make room"
       ],
       "optionReasons": {
-        "room-mcq-06": "本句指「移動／重新安排以騰出空間」。",
-        "room-mcq-05": "「有足夠實際空間進行某項活動」是「room to + verb — physical」的用法，與本句語境不同。",
-        "room-mcq-07": "「不把空間完全用盡，預留一部分」是「leave room」的用法，與本句語境不同。",
-        "room-mcq-04": "「可容納某人／某物的空間或容量」是「room for + noun」的用法，與本句語境不同。",
-        "room-mcq-08": "「某件事仍可發展、改變、改善或容許某種可能的餘地」是「room — figurative capacity」的用法，與本句語境不同。",
-        "room-mcq-03": "「可供人／物佔用、移動或放置東西的空間」是「room — available space」的用法，與本句語境不同。"
+        "room-mcq-06": "本句的「make room」指「移動／重新安排以騰出空間」。",
+        "room-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-06"
     },
@@ -932,11 +872,9 @@ export default {
       "masked": "Leave some ____ for dessert.",
       "options": [
         "room-mcq-07",
-        "room-mcq-06",
+        "room-mcq-16",
         "room-mcq-08",
-        "room-mcq-05",
-        "room-mcq-09",
-        "room-mcq-04"
+        "room-mcq-19"
       ],
       "explanation": "本句的「room」指「不把空間完全用盡，預留一部分」。",
       "sentenceIndex": 15,
@@ -945,12 +883,10 @@ export default {
         "room"
       ],
       "optionReasons": {
-        "room-mcq-07": "本句指「不把空間完全用盡，預留一部分」。",
-        "room-mcq-06": "「移動／重新安排以騰出空間」是「make room」的用法，與本句語境不同。",
-        "room-mcq-08": "「某件事仍可發展、改變、改善或容許某種可能的餘地」是「room — figurative capacity」的用法，與本句語境不同。",
-        "room-mcq-05": "「有足夠實際空間進行某項活動」是「room to + verb — physical」的用法，與本句語境不同。",
-        "room-mcq-09": "「目前仍未達最好水平，尚有進一步改善的可能」是「room for improvement」的用法，與本句語境不同。",
-        "room-mcq-04": "「可容納某人／某物的空間或容量」是「room for + noun」的用法，與本句語境不同。"
+        "room-mcq-07": "本句的「room」指「不把空間完全用盡，預留一部分」。",
+        "room-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-07"
     },
@@ -962,11 +898,9 @@ export default {
       "masked": "Make sure you ____ at the top of the page.",
       "options": [
         "room-mcq-07",
-        "room-mcq-06",
-        "room-mcq-08",
-        "room-mcq-05",
-        "room-mcq-09",
-        "room-mcq-04"
+        "room-mcq-02",
+        "room-pdf-001",
+        "room-mcq-09"
       ],
       "explanation": "本句的「leave room」指「不把空間完全用盡，預留一部分」。",
       "sentenceIndex": 16,
@@ -975,12 +909,10 @@ export default {
         "leave room"
       ],
       "optionReasons": {
-        "room-mcq-07": "本句指「不把空間完全用盡，預留一部分」。",
-        "room-mcq-06": "「移動／重新安排以騰出空間」是「make room」的用法，與本句語境不同。",
-        "room-mcq-08": "「某件事仍可發展、改變、改善或容許某種可能的餘地」是「room — figurative capacity」的用法，與本句語境不同。",
-        "room-mcq-05": "「有足夠實際空間進行某項活動」是「room to + verb — physical」的用法，與本句語境不同。",
-        "room-mcq-09": "「目前仍未達最好水平，尚有進一步改善的可能」是「room for improvement」的用法，與本句語境不同。",
-        "room-mcq-04": "「可容納某人／某物的空間或容量」是「room for + noun」的用法，與本句語境不同。"
+        "room-mcq-07": "本句的「leave room」指「不把空間完全用盡，預留一部分」。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "room-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-07"
     },
@@ -992,11 +924,9 @@ export default {
       "masked": "There is still ____.",
       "options": [
         "room-mcq-08",
-        "room-mcq-07",
-        "room-mcq-09",
-        "room-mcq-06",
-        "room-mcq-10",
-        "room-mcq-05"
+        "room-mcq-19",
+        "room-mcq-17",
+        "room-mcq-02"
       ],
       "explanation": "本句的「room for improvement」指「某件事仍可發展、改變、改善或容許某種可能的餘地」。",
       "sentenceIndex": 17,
@@ -1005,12 +935,10 @@ export default {
         "room for improvement"
       ],
       "optionReasons": {
-        "room-mcq-08": "本句指「某件事仍可發展、改變、改善或容許某種可能的餘地」。",
-        "room-mcq-07": "「不把空間完全用盡，預留一部分」是「leave room」的用法，與本句語境不同。",
-        "room-mcq-09": "「目前仍未達最好水平，尚有進一步改善的可能」是「room for improvement」的用法，與本句語境不同。",
-        "room-mcq-06": "「移動／重新安排以騰出空間」是「make room」的用法，與本句語境不同。",
-        "room-mcq-10": "「仍有進一步成長、擴展或發展的空間」是「room to grow」的用法，與本句語境不同。",
-        "room-mcq-05": "「有足夠實際空間進行某項活動」是「room to + verb — physical」的用法，與本句語境不同。"
+        "room-mcq-08": "本句的「room for improvement」指「某件事仍可發展、改變、改善或容許某種可能的餘地」。",
+        "room-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-08"
     },
@@ -1022,11 +950,9 @@ export default {
       "masked": "The plan leaves ____.",
       "options": [
         "room-mcq-08",
-        "room-mcq-07",
-        "room-mcq-09",
-        "room-mcq-06",
-        "room-mcq-10",
-        "room-mcq-05"
+        "room-mcq-13",
+        "room-mcq-17",
+        "room-pdf-001"
       ],
       "explanation": "本句的「room for change」指「某件事仍可發展、改變、改善或容許某種可能的餘地」。",
       "sentenceIndex": 18,
@@ -1035,12 +961,10 @@ export default {
         "room for change"
       ],
       "optionReasons": {
-        "room-mcq-08": "本句指「某件事仍可發展、改變、改善或容許某種可能的餘地」。",
-        "room-mcq-07": "「不把空間完全用盡，預留一部分」是「leave room」的用法，與本句語境不同。",
-        "room-mcq-09": "「目前仍未達最好水平，尚有進一步改善的可能」是「room for improvement」的用法，與本句語境不同。",
-        "room-mcq-06": "「移動／重新安排以騰出空間」是「make room」的用法，與本句語境不同。",
-        "room-mcq-10": "「仍有進一步成長、擴展或發展的空間」是「room to grow」的用法，與本句語境不同。",
-        "room-mcq-05": "「有足夠實際空間進行某項活動」是「room to + verb — physical」的用法，與本句語境不同。"
+        "room-mcq-08": "本句的「room for change」指「某件事仍可發展、改變、改善或容許某種可能的餘地」。",
+        "room-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "room-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-08"
     },
@@ -1052,11 +976,9 @@ export default {
       "masked": "Your work is good, but there is ____.",
       "options": [
         "room-mcq-09",
-        "room-mcq-08",
-        "room-mcq-10",
-        "room-mcq-07",
-        "room-mcq-11",
-        "room-mcq-06"
+        "room-mcq-19",
+        "room-mcq-01",
+        "room-mcq-16"
       ],
       "explanation": "本句的「room for improvement」指「目前仍未達最好水平，尚有進一步改善的可能」。",
       "sentenceIndex": 19,
@@ -1065,12 +987,10 @@ export default {
         "room for improvement"
       ],
       "optionReasons": {
-        "room-mcq-09": "本句指「目前仍未達最好水平，尚有進一步改善的可能」。",
-        "room-mcq-08": "「某件事仍可發展、改變、改善或容許某種可能的餘地」是「room — figurative capacity」的用法，與本句語境不同。",
-        "room-mcq-10": "「仍有進一步成長、擴展或發展的空間」是「room to grow」的用法，與本句語境不同。",
-        "room-mcq-07": "「不把空間完全用盡，預留一部分」是「leave room」的用法，與本句語境不同。",
-        "room-mcq-11": "「幾乎沒有容許某行為、情況或錯誤發生的餘地」是「no/little room for X」的用法，與本句語境不同。",
-        "room-mcq-06": "「移動／重新安排以騰出空間」是「make room」的用法，與本句語境不同。"
+        "room-mcq-09": "本句的「room for improvement」指「目前仍未達最好水平，尚有進一步改善的可能」。",
+        "room-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-09"
     },
@@ -1082,11 +1002,9 @@ export default {
       "masked": "The system still has plenty of ____.",
       "options": [
         "room-mcq-09",
-        "room-mcq-08",
-        "room-mcq-10",
-        "room-mcq-07",
-        "room-mcq-11",
-        "room-mcq-06"
+        "room-mcq-01",
+        "room-mcq-13",
+        "room-pdf-001"
       ],
       "explanation": "本句的「room for improvement」指「目前仍未達最好水平，尚有進一步改善的可能」。",
       "sentenceIndex": 20,
@@ -1095,12 +1013,10 @@ export default {
         "room for improvement"
       ],
       "optionReasons": {
-        "room-mcq-09": "本句指「目前仍未達最好水平，尚有進一步改善的可能」。",
-        "room-mcq-08": "「某件事仍可發展、改變、改善或容許某種可能的餘地」是「room — figurative capacity」的用法，與本句語境不同。",
-        "room-mcq-10": "「仍有進一步成長、擴展或發展的空間」是「room to grow」的用法，與本句語境不同。",
-        "room-mcq-07": "「不把空間完全用盡，預留一部分」是「leave room」的用法，與本句語境不同。",
-        "room-mcq-11": "「幾乎沒有容許某行為、情況或錯誤發生的餘地」是「no/little room for X」的用法，與本句語境不同。",
-        "room-mcq-06": "「移動／重新安排以騰出空間」是「make room」的用法，與本句語境不同。"
+        "room-mcq-09": "本句的「room for improvement」指「目前仍未達最好水平，尚有進一步改善的可能」。",
+        "room-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "room-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-09"
     },
@@ -1112,11 +1028,9 @@ export default {
       "masked": "Young employees need ____.",
       "options": [
         "room-mcq-10",
-        "room-mcq-09",
-        "room-mcq-11",
-        "room-mcq-08",
-        "room-mcq-12",
-        "room-mcq-07"
+        "room-pdf-001",
+        "room-mcq-02",
+        "room-mcq-13"
       ],
       "explanation": "本句的「room to grow」指「仍有進一步成長、擴展或發展的空間」。",
       "sentenceIndex": 21,
@@ -1125,12 +1039,10 @@ export default {
         "room to grow"
       ],
       "optionReasons": {
-        "room-mcq-10": "本句指「仍有進一步成長、擴展或發展的空間」。",
-        "room-mcq-09": "「目前仍未達最好水平，尚有進一步改善的可能」是「room for improvement」的用法，與本句語境不同。",
-        "room-mcq-11": "「幾乎沒有容許某行為、情況或錯誤發生的餘地」是「no/little room for X」的用法，與本句語境不同。",
-        "room-mcq-08": "「某件事仍可發展、改變、改善或容許某種可能的餘地」是「room — figurative capacity」的用法，與本句語境不同。",
-        "room-mcq-12": "「結論仍有未完全確定、值得懷疑的可能」是「room for doubt」的用法，與本句語境不同。",
-        "room-mcq-07": "「不把空間完全用盡，預留一部分」是「leave room」的用法，與本句語境不同。"
+        "room-mcq-10": "本句的「room to grow」指「仍有進一步成長、擴展或發展的空間」。",
+        "room-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-10"
     },
@@ -1142,11 +1054,9 @@ export default {
       "masked": "The business still has ____.",
       "options": [
         "room-mcq-10",
-        "room-mcq-09",
-        "room-mcq-11",
-        "room-mcq-08",
-        "room-mcq-12",
-        "room-mcq-07"
+        "room-pdf-001",
+        "room-mcq-02",
+        "room-mcq-13"
       ],
       "explanation": "本句的「room to grow」指「仍有進一步成長、擴展或發展的空間」。",
       "sentenceIndex": 22,
@@ -1155,12 +1065,10 @@ export default {
         "room to grow"
       ],
       "optionReasons": {
-        "room-mcq-10": "本句指「仍有進一步成長、擴展或發展的空間」。",
-        "room-mcq-09": "「目前仍未達最好水平，尚有進一步改善的可能」是「room for improvement」的用法，與本句語境不同。",
-        "room-mcq-11": "「幾乎沒有容許某行為、情況或錯誤發生的餘地」是「no/little room for X」的用法，與本句語境不同。",
-        "room-mcq-08": "「某件事仍可發展、改變、改善或容許某種可能的餘地」是「room — figurative capacity」的用法，與本句語境不同。",
-        "room-mcq-12": "「結論仍有未完全確定、值得懷疑的可能」是「room for doubt」的用法，與本句語境不同。",
-        "room-mcq-07": "「不把空間完全用盡，預留一部分」是「leave room」的用法，與本句語境不同。"
+        "room-mcq-10": "本句的「room to grow」指「仍有進一步成長、擴展或發展的空間」。",
+        "room-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-10"
     },
@@ -1172,11 +1080,9 @@ export default {
       "masked": "There is no ____ dishonesty.",
       "options": [
         "room-mcq-11",
-        "room-mcq-10",
-        "room-mcq-12",
+        "room-mcq-14",
         "room-mcq-09",
-        "room-mcq-13",
-        "room-mcq-08"
+        "room-mcq-02"
       ],
       "explanation": "本句的「room for」指「幾乎沒有容許某行為、情況或錯誤發生的餘地」。",
       "sentenceIndex": 23,
@@ -1185,12 +1091,10 @@ export default {
         "room for"
       ],
       "optionReasons": {
-        "room-mcq-11": "本句指「幾乎沒有容許某行為、情況或錯誤發生的餘地」。",
-        "room-mcq-10": "「仍有進一步成長、擴展或發展的空間」是「room to grow」的用法，與本句語境不同。",
-        "room-mcq-12": "「結論仍有未完全確定、值得懷疑的可能」是「room for doubt」的用法，與本句語境不同。",
-        "room-mcq-09": "「目前仍未達最好水平，尚有進一步改善的可能」是「room for improvement」的用法，與本句語境不同。",
-        "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。",
-        "room-mcq-08": "「某件事仍可發展、改變、改善或容許某種可能的餘地」是「room — figurative capacity」的用法，與本句語境不同。"
+        "room-mcq-11": "本句的「room for」指「幾乎沒有容許某行為、情況或錯誤發生的餘地」。",
+        "room-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-11"
     },
@@ -1202,11 +1106,9 @@ export default {
       "masked": "There is little ____.",
       "options": [
         "room-mcq-11",
-        "room-mcq-10",
-        "room-mcq-12",
-        "room-mcq-09",
-        "room-mcq-13",
-        "room-mcq-08"
+        "room-mcq-14",
+        "room-mcq-02",
+        "room-mcq-12"
       ],
       "explanation": "本句的「room for error」指「幾乎沒有容許某行為、情況或錯誤發生的餘地」。",
       "sentenceIndex": 24,
@@ -1215,12 +1117,10 @@ export default {
         "room for error"
       ],
       "optionReasons": {
-        "room-mcq-11": "本句指「幾乎沒有容許某行為、情況或錯誤發生的餘地」。",
-        "room-mcq-10": "「仍有進一步成長、擴展或發展的空間」是「room to grow」的用法，與本句語境不同。",
-        "room-mcq-12": "「結論仍有未完全確定、值得懷疑的可能」是「room for doubt」的用法，與本句語境不同。",
-        "room-mcq-09": "「目前仍未達最好水平，尚有進一步改善的可能」是「room for improvement」的用法，與本句語境不同。",
-        "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。",
-        "room-mcq-08": "「某件事仍可發展、改變、改善或容許某種可能的餘地」是「room — figurative capacity」的用法，與本句語境不同。"
+        "room-mcq-11": "本句的「room for error」指「幾乎沒有容許某行為、情況或錯誤發生的餘地」。",
+        "room-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-11"
     },
@@ -1232,11 +1132,9 @@ export default {
       "masked": "The evidence leaves little ____.",
       "options": [
         "room-mcq-12",
-        "room-mcq-11",
-        "room-mcq-13",
-        "room-mcq-10",
-        "room-mcq-14",
-        "room-mcq-09"
+        "room-mcq-18",
+        "room-mcq-02",
+        "room-mcq-15"
       ],
       "explanation": "本句的「room for doubt」指「結論仍有未完全確定、值得懷疑的可能」。",
       "sentenceIndex": 25,
@@ -1245,12 +1143,10 @@ export default {
         "room for doubt"
       ],
       "optionReasons": {
-        "room-mcq-12": "本句指「結論仍有未完全確定、值得懷疑的可能」。",
-        "room-mcq-11": "「幾乎沒有容許某行為、情況或錯誤發生的餘地」是「no/little room for X」的用法，與本句語境不同。",
-        "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。",
-        "room-mcq-10": "「仍有進一步成長、擴展或發展的空間」是「room to grow」的用法，與本句語境不同。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。",
-        "room-mcq-09": "「目前仍未達最好水平，尚有進一步改善的可能」是「room for improvement」的用法，與本句語境不同。"
+        "room-mcq-12": "本句的「room for doubt」指「結論仍有未完全確定、值得懷疑的可能」。",
+        "room-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-12"
     },
@@ -1262,11 +1158,9 @@ export default {
       "masked": "There is still some ____.",
       "options": [
         "room-mcq-12",
-        "room-mcq-11",
-        "room-mcq-13",
-        "room-mcq-10",
         "room-mcq-14",
-        "room-mcq-09"
+        "room-mcq-17",
+        "room-mcq-02"
       ],
       "explanation": "本句的「room for doubt」指「結論仍有未完全確定、值得懷疑的可能」。",
       "sentenceIndex": 26,
@@ -1275,12 +1169,10 @@ export default {
         "room for doubt"
       ],
       "optionReasons": {
-        "room-mcq-12": "本句指「結論仍有未完全確定、值得懷疑的可能」。",
-        "room-mcq-11": "「幾乎沒有容許某行為、情況或錯誤發生的餘地」是「no/little room for X」的用法，與本句語境不同。",
-        "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。",
-        "room-mcq-10": "「仍有進一步成長、擴展或發展的空間」是「room to grow」的用法，與本句語境不同。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。",
-        "room-mcq-09": "「目前仍未達最好水平，尚有進一步改善的可能」是「room for improvement」的用法，與本句語境不同。"
+        "room-mcq-12": "本句的「room for doubt」指「結論仍有未完全確定、值得懷疑的可能」。",
+        "room-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-12"
     },
@@ -1292,11 +1184,9 @@ export default {
       "masked": "The whole ____ laughed.",
       "options": [
         "room-mcq-13",
-        "room-mcq-12",
-        "room-mcq-14",
-        "room-mcq-11",
-        "room-mcq-15",
-        "room-mcq-10"
+        "room-mcq-09",
+        "room-pdf-001",
+        "room-mcq-02"
       ],
       "explanation": "本句的「room」指「以房間代指其中的一群人」。",
       "sentenceIndex": 27,
@@ -1305,12 +1195,10 @@ export default {
         "room"
       ],
       "optionReasons": {
-        "room-mcq-13": "本句指「以房間代指其中的一群人」。",
-        "room-mcq-12": "「結論仍有未完全確定、值得懷疑的可能」是「room for doubt」的用法，與本句語境不同。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。",
-        "room-mcq-11": "「幾乎沒有容許某行為、情況或錯誤發生的餘地」是「no/little room for X」的用法，與本句語境不同。",
-        "room-mcq-15": "「酒店把食物／服務送到客人房間的服務」是「room service」的用法，與本句語境不同。",
-        "room-mcq-10": "「仍有進一步成長、擴展或發展的空間」是「room to grow」的用法，與本句語境不同。"
+        "room-mcq-13": "本句的「room」指「以房間代指其中的一群人」。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "room-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-13"
     },
@@ -1322,11 +1210,9 @@ export default {
       "masked": "She looked around the ____ before speaking.",
       "options": [
         "room-mcq-13",
-        "room-mcq-12",
-        "room-mcq-14",
-        "room-mcq-11",
-        "room-mcq-15",
-        "room-mcq-10"
+        "room-mcq-02",
+        "room-mcq-08",
+        "room-pdf-001"
       ],
       "explanation": "本句的「room」指「以房間代指其中的一群人」。",
       "sentenceIndex": 28,
@@ -1335,12 +1221,10 @@ export default {
         "room"
       ],
       "optionReasons": {
-        "room-mcq-13": "本句指「以房間代指其中的一群人」。",
-        "room-mcq-12": "「結論仍有未完全確定、值得懷疑的可能」是「room for doubt」的用法，與本句語境不同。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。",
-        "room-mcq-11": "「幾乎沒有容許某行為、情況或錯誤發生的餘地」是「no/little room for X」的用法，與本句語境不同。",
-        "room-mcq-15": "「酒店把食物／服務送到客人房間的服務」是「room service」的用法，與本句語境不同。",
-        "room-mcq-10": "「仍有進一步成長、擴展或發展的空間」是「room to grow」的用法，與本句語境不同。"
+        "room-mcq-13": "本句的「room」指「以房間代指其中的一群人」。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "room-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-13"
     },
@@ -1352,11 +1236,9 @@ export default {
       "masked": "She rents a ____ near the university.",
       "options": [
         "room-mcq-14",
-        "room-mcq-13",
-        "room-mcq-15",
-        "room-mcq-12",
-        "room-mcq-16",
-        "room-mcq-11"
+        "room-mcq-09",
+        "room-mcq-11",
+        "room-mcq-02"
       ],
       "explanation": "本句的「room」指「可供住宿、租住或酒店入住的一個房間」。",
       "sentenceIndex": 29,
@@ -1365,12 +1247,10 @@ export default {
         "room"
       ],
       "optionReasons": {
-        "room-mcq-14": "本句指「可供住宿、租住或酒店入住的一個房間」。",
-        "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。",
-        "room-mcq-15": "「酒店把食物／服務送到客人房間的服務」是「room service」的用法，與本句語境不同。",
-        "room-mcq-12": "「結論仍有未完全確定、值得懷疑的可能」是「room for doubt」的用法，與本句語境不同。",
-        "room-mcq-16": "「與某人同房或共用住宿；主要見於美式英語」是「room — verb」的用法，與本句語境不同。",
-        "room-mcq-11": "「幾乎沒有容許某行為、情況或錯誤發生的餘地」是「no/little room for X」的用法，與本句語境不同。"
+        "room-mcq-14": "本句的「room」指「可供住宿、租住或酒店入住的一個房間」。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-14"
     },
@@ -1382,11 +1262,9 @@ export default {
       "masked": "Do you have any ____ available tonight?",
       "options": [
         "room-mcq-14",
-        "room-mcq-13",
-        "room-mcq-15",
-        "room-mcq-12",
-        "room-mcq-16",
-        "room-mcq-11"
+        "room-mcq-11",
+        "room-mcq-09",
+        "room-mcq-02"
       ],
       "explanation": "本句的「rooms」指「可供住宿、租住或酒店入住的一個房間」。",
       "sentenceIndex": 30,
@@ -1395,12 +1273,10 @@ export default {
         "rooms"
       ],
       "optionReasons": {
-        "room-mcq-14": "本句指「可供住宿、租住或酒店入住的一個房間」。",
-        "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。",
-        "room-mcq-15": "「酒店把食物／服務送到客人房間的服務」是「room service」的用法，與本句語境不同。",
-        "room-mcq-12": "「結論仍有未完全確定、值得懷疑的可能」是「room for doubt」的用法，與本句語境不同。",
-        "room-mcq-16": "「與某人同房或共用住宿；主要見於美式英語」是「room — verb」的用法，與本句語境不同。",
-        "room-mcq-11": "「幾乎沒有容許某行為、情況或錯誤發生的餘地」是「no/little room for X」的用法，與本句語境不同。"
+        "room-mcq-14": "本句的「rooms」指「可供住宿、租住或酒店入住的一個房間」。",
+        "room-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-14"
     },
@@ -1412,11 +1288,9 @@ export default {
       "masked": "We booked a ____ for two nights.",
       "options": [
         "room-pdf-001",
-        "room-mcq-14",
-        "room-mcq-16",
-        "room-mcq-13",
-        "room-mcq-17",
-        "room-mcq-12"
+        "room-mcq-07",
+        "room-mcq-19",
+        "room-mcq-08"
       ],
       "explanation": "本句的「room」指「酒店／旅館中供客人住宿的一個單位」。",
       "sentenceIndex": 31,
@@ -1425,12 +1299,10 @@ export default {
         "room"
       ],
       "optionReasons": {
-        "room-pdf-001": "本句指「酒店／旅館中供客人住宿的一個單位」。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。",
-        "room-mcq-16": "「與某人同房或共用住宿；主要見於美式英語」是「room — verb」的用法，與本句語境不同。",
-        "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。",
-        "room-mcq-17": "「內部有很多可用空間、寬敞的」是「roomy」的用法，與本句語境不同。",
-        "room-mcq-12": "「結論仍有未完全確定、值得懷疑的可能」是「room for doubt」的用法，與本句語境不同。"
+        "room-pdf-001": "本句的「room」指「酒店／旅館中供客人住宿的一個單位」。",
+        "room-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-pdf-001"
     },
@@ -1442,11 +1314,9 @@ export default {
       "masked": "The ____ has a view of the sea.",
       "options": [
         "room-pdf-001",
-        "room-mcq-14",
-        "room-mcq-16",
-        "room-mcq-13",
-        "room-mcq-17",
-        "room-mcq-12"
+        "room-mcq-09",
+        "room-mcq-19",
+        "room-mcq-07"
       ],
       "explanation": "本句的「room」指「酒店／旅館中供客人住宿的一個單位」。",
       "sentenceIndex": 32,
@@ -1455,12 +1325,10 @@ export default {
         "room"
       ],
       "optionReasons": {
-        "room-pdf-001": "本句指「酒店／旅館中供客人住宿的一個單位」。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。",
-        "room-mcq-16": "「與某人同房或共用住宿；主要見於美式英語」是「room — verb」的用法，與本句語境不同。",
-        "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。",
-        "room-mcq-17": "「內部有很多可用空間、寬敞的」是「roomy」的用法，與本句語境不同。",
-        "room-mcq-12": "「結論仍有未完全確定、值得懷疑的可能」是「room for doubt」的用法，與本句語境不同。"
+        "room-pdf-001": "本句的「room」指「酒店／旅館中供客人住宿的一個單位」。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-pdf-001"
     },
@@ -1472,11 +1340,9 @@ export default {
       "masked": "We ordered dinner from ____.",
       "options": [
         "room-mcq-15",
-        "room-mcq-14",
-        "room-mcq-16",
-        "room-mcq-13",
-        "room-mcq-17",
-        "room-mcq-12"
+        "room-mcq-09",
+        "room-mcq-11",
+        "room-mcq-16"
       ],
       "explanation": "本句的「room service」指「酒店把食物／服務送到客人房間的服務」。",
       "sentenceIndex": 33,
@@ -1485,12 +1351,10 @@ export default {
         "room service"
       ],
       "optionReasons": {
-        "room-mcq-15": "本句指「酒店把食物／服務送到客人房間的服務」。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。",
-        "room-mcq-16": "「與某人同房或共用住宿；主要見於美式英語」是「room — verb」的用法，與本句語境不同。",
-        "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。",
-        "room-mcq-17": "「內部有很多可用空間、寬敞的」是「roomy」的用法，與本句語境不同。",
-        "room-mcq-12": "「結論仍有未完全確定、值得懷疑的可能」是「room for doubt」的用法，與本句語境不同。"
+        "room-mcq-15": "本句的「room service」指「酒店把食物／服務送到客人房間的服務」。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-15"
     },
@@ -1502,11 +1366,9 @@ export default {
       "masked": "The hotel offers twenty-four-hour ____.",
       "options": [
         "room-mcq-15",
-        "room-mcq-14",
-        "room-mcq-16",
-        "room-mcq-13",
-        "room-mcq-17",
-        "room-mcq-12"
+        "room-mcq-11",
+        "room-mcq-09",
+        "room-mcq-02"
       ],
       "explanation": "本句的「room service」指「酒店把食物／服務送到客人房間的服務」。",
       "sentenceIndex": 34,
@@ -1515,12 +1377,10 @@ export default {
         "room service"
       ],
       "optionReasons": {
-        "room-mcq-15": "本句指「酒店把食物／服務送到客人房間的服務」。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。",
-        "room-mcq-16": "「與某人同房或共用住宿；主要見於美式英語」是「room — verb」的用法，與本句語境不同。",
-        "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。",
-        "room-mcq-17": "「內部有很多可用空間、寬敞的」是「roomy」的用法，與本句語境不同。",
-        "room-mcq-12": "「結論仍有未完全確定、值得懷疑的可能」是「room for doubt」的用法，與本句語境不同。"
+        "room-mcq-15": "本句的「room service」指「酒店把食物／服務送到客人房間的服務」。",
+        "room-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-15"
     },
@@ -1532,10 +1392,7 @@ export default {
       "masked": "He is looking for a ____ in the city centre.",
       "options": [
         "room-pdf-002",
-        "room-mcq-15",
-        "room-mcq-17",
-        "room-mcq-14",
-        "room-mcq-18",
+        "room-mcq-12",
         "room-mcq-13"
       ],
       "explanation": "本句的「room」指「在共住住宅中供一個人居住的獨立空間」。",
@@ -1545,12 +1402,9 @@ export default {
         "room"
       ],
       "optionReasons": {
-        "room-pdf-002": "本句指「在共住住宅中供一個人居住的獨立空間」。",
-        "room-mcq-15": "「酒店把食物／服務送到客人房間的服務」是「room service」的用法，與本句語境不同。",
-        "room-mcq-17": "「內部有很多可用空間、寬敞的」是「roomy」的用法，與本句語境不同。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。",
-        "room-mcq-18": "「某地方／物件內部空間寬敞的程度或感覺」是「roominess」的用法，與本句語境不同。",
-        "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。"
+        "room-pdf-002": "本句的「room」指「在共住住宅中供一個人居住的獨立空間」。",
+        "room-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-pdf-002"
     },
@@ -1562,10 +1416,7 @@ export default {
       "masked": "The rent includes a private ____ and shared kitchen.",
       "options": [
         "room-pdf-002",
-        "room-mcq-15",
-        "room-mcq-17",
-        "room-mcq-14",
-        "room-mcq-18",
+        "room-mcq-12",
         "room-mcq-13"
       ],
       "explanation": "本句的「room」指「在共住住宅中供一個人居住的獨立空間」。",
@@ -1575,12 +1426,9 @@ export default {
         "room"
       ],
       "optionReasons": {
-        "room-pdf-002": "本句指「在共住住宅中供一個人居住的獨立空間」。",
-        "room-mcq-15": "「酒店把食物／服務送到客人房間的服務」是「room service」的用法，與本句語境不同。",
-        "room-mcq-17": "「內部有很多可用空間、寬敞的」是「roomy」的用法，與本句語境不同。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。",
-        "room-mcq-18": "「某地方／物件內部空間寬敞的程度或感覺」是「roominess」的用法，與本句語境不同。",
-        "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。"
+        "room-pdf-002": "本句的「room」指「在共住住宅中供一個人居住的獨立空間」。",
+        "room-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-pdf-002"
     },
@@ -1592,11 +1440,9 @@ export default {
       "masked": "I ____ him at university.",
       "options": [
         "room-mcq-16",
-        "room-mcq-15",
-        "room-mcq-17",
-        "room-mcq-14",
-        "room-mcq-18",
-        "room-mcq-13"
+        "room-mcq-05",
+        "room-mcq-08",
+        "room-mcq-15"
       ],
       "explanation": "本句的「roomed with」指「與某人同房或共用住宿；主要見於美式英語」。",
       "sentenceIndex": 37,
@@ -1605,12 +1451,10 @@ export default {
         "roomed with"
       ],
       "optionReasons": {
-        "room-mcq-16": "本句指「與某人同房或共用住宿；主要見於美式英語」。",
-        "room-mcq-15": "「酒店把食物／服務送到客人房間的服務」是「room service」的用法，與本句語境不同。",
-        "room-mcq-17": "「內部有很多可用空間、寬敞的」是「roomy」的用法，與本句語境不同。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。",
-        "room-mcq-18": "「某地方／物件內部空間寬敞的程度或感覺」是「roominess」的用法，與本句語境不同。",
-        "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。"
+        "room-mcq-16": "本句的「roomed with」指「與某人同房或共用住宿；主要見於美式英語」。",
+        "room-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-16"
     },
@@ -1622,10 +1466,8 @@ export default {
       "masked": "She ____ two other students.",
       "options": [
         "room-mcq-16",
-        "room-mcq-15",
-        "room-mcq-17",
-        "room-mcq-14",
-        "room-mcq-18",
+        "room-mcq-03",
+        "room-mcq-09",
         "room-mcq-13"
       ],
       "explanation": "本句的「rooms with」指「與某人同房或共用住宿；主要見於美式英語」。",
@@ -1635,12 +1477,10 @@ export default {
         "rooms with"
       ],
       "optionReasons": {
-        "room-mcq-16": "本句指「與某人同房或共用住宿；主要見於美式英語」。",
-        "room-mcq-15": "「酒店把食物／服務送到客人房間的服務」是「room service」的用法，與本句語境不同。",
-        "room-mcq-17": "「內部有很多可用空間、寬敞的」是「roomy」的用法，與本句語境不同。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。",
-        "room-mcq-18": "「某地方／物件內部空間寬敞的程度或感覺」是「roominess」的用法，與本句語境不同。",
-        "room-mcq-13": "「以房間代指其中的一群人」是「room — occupants」的用法，與本句語境不同。"
+        "room-mcq-16": "本句的「rooms with」指「與某人同房或共用住宿；主要見於美式英語」。",
+        "room-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-16"
     },
@@ -1653,10 +1493,8 @@ export default {
       "options": [
         "room-mcq-17",
         "room-mcq-16",
-        "room-mcq-18",
-        "room-mcq-15",
-        "room-mcq-19",
-        "room-mcq-14"
+        "room-mcq-09",
+        "room-mcq-19"
       ],
       "explanation": "本句的「roomy」指「內部有很多可用空間、寬敞的」。",
       "sentenceIndex": 39,
@@ -1665,12 +1503,10 @@ export default {
         "roomy"
       ],
       "optionReasons": {
-        "room-mcq-17": "本句指「內部有很多可用空間、寬敞的」。",
-        "room-mcq-16": "「與某人同房或共用住宿；主要見於美式英語」是「room — verb」的用法，與本句語境不同。",
-        "room-mcq-18": "「某地方／物件內部空間寬敞的程度或感覺」是「roominess」的用法，與本句語境不同。",
-        "room-mcq-15": "「酒店把食物／服務送到客人房間的服務」是「room service」的用法，與本句語境不同。",
-        "room-mcq-19": "「用 room 與用途結合，表示某種特定功能的房間」是「3. bedroom / bathroom / dining room etc.（不同用途的房間） — 睡房／浴室／飯廳」的用法，與本句語境不同。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。"
+        "room-mcq-17": "本句的「roomy」指「內部有很多可用空間、寬敞的」。",
+        "room-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-17"
     },
@@ -1682,11 +1518,9 @@ export default {
       "masked": "They moved into a ____ apartment.",
       "options": [
         "room-mcq-17",
-        "room-mcq-16",
-        "room-mcq-18",
-        "room-mcq-15",
-        "room-mcq-19",
-        "room-mcq-14"
+        "room-mcq-12",
+        "room-pdf-001",
+        "room-mcq-02"
       ],
       "explanation": "本句的「roomy」指「內部有很多可用空間、寬敞的」。",
       "sentenceIndex": 40,
@@ -1695,12 +1529,10 @@ export default {
         "roomy"
       ],
       "optionReasons": {
-        "room-mcq-17": "本句指「內部有很多可用空間、寬敞的」。",
-        "room-mcq-16": "「與某人同房或共用住宿；主要見於美式英語」是「room — verb」的用法，與本句語境不同。",
-        "room-mcq-18": "「某地方／物件內部空間寬敞的程度或感覺」是「roominess」的用法，與本句語境不同。",
-        "room-mcq-15": "「酒店把食物／服務送到客人房間的服務」是「room service」的用法，與本句語境不同。",
-        "room-mcq-19": "「用 room 與用途結合，表示某種特定功能的房間」是「3. bedroom / bathroom / dining room etc.（不同用途的房間） — 睡房／浴室／飯廳」的用法，與本句語境不同。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。"
+        "room-mcq-17": "本句的「roomy」指「內部有很多可用空間、寬敞的」。",
+        "room-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "room-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-17"
     },
@@ -1712,11 +1544,9 @@ export default {
       "masked": "I like the ____ of the car.",
       "options": [
         "room-mcq-18",
-        "room-mcq-17",
-        "room-mcq-19",
-        "room-mcq-16",
-        "room-mcq-15",
-        "room-mcq-14"
+        "room-pdf-001",
+        "room-mcq-02",
+        "room-mcq-09"
       ],
       "explanation": "本句的「roominess」指「某地方／物件內部空間寬敞的程度或感覺」。",
       "sentenceIndex": 41,
@@ -1725,12 +1555,10 @@ export default {
         "roominess"
       ],
       "optionReasons": {
-        "room-mcq-18": "本句指「某地方／物件內部空間寬敞的程度或感覺」。",
-        "room-mcq-17": "「內部有很多可用空間、寬敞的」是「roomy」的用法，與本句語境不同。",
-        "room-mcq-19": "「用 room 與用途結合，表示某種特定功能的房間」是「3. bedroom / bathroom / dining room etc.（不同用途的房間） — 睡房／浴室／飯廳」的用法，與本句語境不同。",
-        "room-mcq-16": "「與某人同房或共用住宿；主要見於美式英語」是「room — verb」的用法，與本句語境不同。",
-        "room-mcq-15": "「酒店把食物／服務送到客人房間的服務」是「room service」的用法，與本句語境不同。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。"
+        "room-mcq-18": "本句的「roominess」指「某地方／物件內部空間寬敞的程度或感覺」。",
+        "room-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-18"
     },
@@ -1742,11 +1570,9 @@ export default {
       "masked": "Large windows add to the ____ of the apartment.",
       "options": [
         "room-mcq-18",
-        "room-mcq-17",
-        "room-mcq-19",
-        "room-mcq-16",
-        "room-mcq-15",
-        "room-mcq-14"
+        "room-mcq-02",
+        "room-mcq-12",
+        "room-pdf-001"
       ],
       "explanation": "本句的「roominess」指「某地方／物件內部空間寬敞的程度或感覺」。",
       "sentenceIndex": 42,
@@ -1755,12 +1581,10 @@ export default {
         "roominess"
       ],
       "optionReasons": {
-        "room-mcq-18": "本句指「某地方／物件內部空間寬敞的程度或感覺」。",
-        "room-mcq-17": "「內部有很多可用空間、寬敞的」是「roomy」的用法，與本句語境不同。",
-        "room-mcq-19": "「用 room 與用途結合，表示某種特定功能的房間」是「3. bedroom / bathroom / dining room etc.（不同用途的房間） — 睡房／浴室／飯廳」的用法，與本句語境不同。",
-        "room-mcq-16": "「與某人同房或共用住宿；主要見於美式英語」是「room — verb」的用法，與本句語境不同。",
-        "room-mcq-15": "「酒店把食物／服務送到客人房間的服務」是「room service」的用法，與本句語境不同。",
-        "room-mcq-14": "「可供住宿、租住或酒店入住的一個房間」是「room — accommodation」的用法，與本句語境不同。"
+        "room-mcq-18": "本句的「roominess」指「某地方／物件內部空間寬敞的程度或感覺」。",
+        "room-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "room-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "room-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "room-mcq-18"
     }
@@ -1772,5 +1596,7 @@ export default {
     "sha256": "a46b46437f20a09c4f42a6c38858eb063d24556a7c5d601b18112bf4a5e59349",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

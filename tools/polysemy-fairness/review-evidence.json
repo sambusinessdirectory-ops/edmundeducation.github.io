@@ -1,0 +1,3602 @@
+[
+  {
+    "module": "channel",
+    "qid": "channel-79-0",
+    "old": "展現／模仿某人的風格",
+    "title": "引導人流",
+    "en": "Staff channelled visitors towards the main entrance.",
+    "heading": "# 79. channel people / crowds — 引導人流",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "channel",
+    "qid": "channel-79-1",
+    "old": "展現／模仿某人的風格",
+    "title": "引導人流",
+    "en": "Barriers channel the crowd into separate queues.",
+    "heading": "# 79. channel people / crowds — 引導人流",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "better",
+    "qid": "better-01-0",
+    "old": "更好的橋",
+    "title": "品質、效果、表現或適合程度比另一個更高的",
+    "en": "We can build a better one.",
+    "heading": "# 1. better（比較級：更好的） — 更好的；較佳的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "better",
+    "qid": "better-01-1",
+    "old": "更好的橋",
+    "title": "品質、效果、表現或適合程度比另一個更高的",
+    "en": "This design is better than the previous one.",
+    "heading": "# 1. better（比較級：更好的） — 更好的；較佳的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "better",
+    "qid": "better-01-2",
+    "old": "更好的橋",
+    "title": "品質、效果、表現或適合程度比另一個更高的",
+    "en": "We need a better solution to the problem.",
+    "heading": "# 1. better（比較級：更好的） — 更好的；較佳的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "date",
+    "qid": "date-36-0",
+    "old": "日期",
+    "title": "海棗樹所結的甜味果實，通常呈啡色，可鮮食或乾製",
+    "en": "She added chopped dates to the cake.",
+    "heading": "# 36. date（椰棗） — 椰棗；海棗果實",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "date",
+    "qid": "date-36-1",
+    "old": "日期",
+    "title": "海棗樹所結的甜味果實，通常呈啡色，可鮮食或乾製",
+    "en": "Dates are naturally very sweet.",
+    "heading": "# 36. date（椰棗） — 椰棗；海棗果實",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "pause",
+    "qid": "pause-08-0",
+    "old": "音樂中的停頓／延長記號；較專門",
+    "title": "值得深思；令人停下思考",
+    "en": "The results should give us pause for thought.",
+    "heading": "# 8. pause for thought = reason to stop and think（固定表達） — 值得深思；令人停下思考",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "courtesy",
+    "qid": "courtesy-14-0",
+    "old": "承蒙……允許／協助",
+    "title": "多虧／拜……所賜",
+    "en": "We spent three hours at the airport, courtesy of a delayed flight.",
+    "heading": "# 14. courtesy of X = because of X, often ironically（多虧／拜……所賜）",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "courtesy",
+    "qid": "courtesy-14-1",
+    "old": "承蒙……允許／協助",
+    "title": "多虧／拜……所賜",
+    "en": "My shoes are soaked, courtesy of the rain.",
+    "heading": "# 14. courtesy of X = because of X, often ironically（多虧／拜……所賜）",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "dependence",
+    "qid": "dependence-61-0",
+    "old": "文法上不能獨立構成完整句意、需依附其他子句的從屬子句",
+    "title": "依存成分",
+    "en": "The noun acts as the head, and the modifier as its dependent.",
+    "heading": "## 61. dependent = grammatical element governed by another — 依存成分",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "quick",
+    "qid": "quick-31-0",
+    "old": "能在短時間內、以較低難度取得明顯成果的行動",
+    "title": "加快動作，不要拖延",
+    "en": "Be quick! We’re late.",
+    "heading": "# 31. be quick!（快點！） — 快；趕快",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "quick",
+    "qid": "quick-31-1",
+    "old": "能在短時間內、以較低難度取得明顯成果的行動",
+    "title": "加快動作，不要拖延",
+    "en": "You’ll have to be quick.",
+    "heading": "# 31. be quick!（快點！） — 快；趕快",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "perform",
+    "qid": "perform-12-0",
+    "old": "把歌曲、戲劇或其他藝術作品實際呈現給觀眾",
+    "title": "頂尖表現者",
+    "en": "The company rewards its top performers.",
+    "heading": "# 12. top performer — 頂尖表現者",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "perform",
+    "qid": "perform-12-1",
+    "old": "把歌曲、戲劇或其他藝術作品實際呈現給觀眾",
+    "title": "頂尖表現者",
+    "en": "She was the top performer in the squad.",
+    "heading": "# 12. top performer — 頂尖表現者",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "perform",
+    "qid": "perform-26-0",
+    "old": "呈現給觀眾看的音樂、戲劇、舞蹈等正式演出",
+    "title": "績效評估",
+    "en": "The organisation uses a formal performance appraisal system.",
+    "heading": "# 26. performance appraisal — 績效評估",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "perform",
+    "qid": "perform-26-1",
+    "old": "呈現給觀眾看的音樂、戲劇、舞蹈等正式演出",
+    "title": "績效評估",
+    "en": "Performance appraisals are conducted twice a year.",
+    "heading": "# 26. performance appraisal — 績效評估",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "perform",
+    "qid": "perform-32-0",
+    "old": "按合約或法律要求實際履行已承擔的義務",
+    "title": "現場演出",
+    "en": "The song sounds different in a live performance.",
+    "heading": "# 32. live performance — 現場演出",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "perform",
+    "qid": "perform-32-1",
+    "old": "按合約或法律要求實際履行已承擔的義務",
+    "title": "現場演出",
+    "en": "The venue hosts live performances every weekend.",
+    "heading": "# 32. live performance — 現場演出",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "perform",
+    "qid": "perform-35-0",
+    "old": "按正式或傳統程序主持並完成某項儀式",
+    "title": "表現中的；運作中的",
+    "en": "The best-performing department received an award.",
+    "heading": "# 35. performing — currently functioning/achieving — 表現中的；運作中的",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "perform",
+    "qid": "perform-35-1",
+    "old": "按正式或傳統程序主持並完成某項儀式",
+    "title": "表現中的；運作中的",
+    "en": "Poorly performing systems were replaced.",
+    "heading": "# 35. performing — currently functioning/achieving — 表現中的；運作中的",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "screen",
+    "qid": "screen-19-0",
+    "old": "在網絡平台上代替真名顯示的名稱",
+    "title": "螢幕保護程式",
+    "en": "The computer automatically starts the screensaver.",
+    "heading": "# 19. screensaver = 螢幕保護程式",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "screen",
+    "qid": "screen-19-1",
+    "old": "在網絡平台上代替真名顯示的名稱",
+    "title": "螢幕保護程式",
+    "en": "She changed the screensaver image.",
+    "heading": "# 19. screensaver = 螢幕保護程式",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "anything",
+    "qid": "anything-17-0",
+    "old": "或其他相關／同類事物；之類的",
+    "title": "程度非常強烈",
+    "en": "It was raining like anything.",
+    "heading": "17. like anything = 非常地；拼命地（BrE informal）",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "anything",
+    "qid": "anything-17-1",
+    "old": "或其他相關／同類事物；之類的",
+    "title": "程度非常強烈",
+    "en": "She was working like anything to finish on time.",
+    "heading": "17. like anything = 非常地；拼命地（BrE informal）",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "responsibility",
+    "qid": "responsibility-18-0",
+    "old": "責任感",
+    "title": "因職位而獲得的管理、決定或監督義務",
+    "en": "With promotion comes greater responsibility.",
+    "heading": "# 18. responsibility（權責；管理權） — 權責；管理責任",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "responsibility",
+    "qid": "responsibility-18-1",
+    "old": "責任感",
+    "title": "因職位而獲得的管理、決定或監督義務",
+    "en": "She was given more responsibility at work.",
+    "heading": "# 18. responsibility（權責；管理權） — 權責；管理責任",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "damage",
+    "qid": "damage-47-0",
+    "old": "嚴重不利指控",
+    "title": "造成負面影響的批評",
+    "en": "The organisation faced damaging criticism.",
+    "heading": "# 47. damaging criticism — 造成負面影響的批評",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "damage",
+    "qid": "damage-47-1",
+    "old": "嚴重不利指控",
+    "title": "造成負面影響的批評",
+    "en": "Public criticism proved damaging to morale.",
+    "heading": "# 47. damaging criticism — 造成負面影響的批評",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "damage",
+    "qid": "damage-48-0",
+    "old": "嚴重不利指控",
+    "title": "具破壞性的披露／揭露",
+    "en": "The newspaper published a damaging disclosure.",
+    "heading": "# 48. damaging disclosure / revelation — 具破壞性的披露／揭露",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "damage",
+    "qid": "damage-48-1",
+    "old": "嚴重不利指控",
+    "title": "具破壞性的披露／揭露",
+    "en": "The revelation was highly damaging to the organisation's reputation.",
+    "heading": "# 48. damaging disclosure / revelation — 具破壞性的披露／揭露",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "damage",
+    "qid": "damage-86-0",
+    "old": "傷害輸出",
+    "title": "損毀數據／檔案／系統",
+    "en": "Malware can damage files.",
+    "heading": "# 86. damage data/files/system — 損毀數據／檔案／系統",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "damage",
+    "qid": "damage-86-1",
+    "old": "傷害輸出",
+    "title": "損毀數據／檔案／系統",
+    "en": "Sudden power loss may damage the system.",
+    "heading": "# 86. damage data/files/system — 損毀數據／檔案／系統",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "damage",
+    "qid": "damage-87-0",
+    "old": "傷害輸出",
+    "title": "損毀檔案",
+    "en": "The backup contained several damaged files.",
+    "heading": "# 87. damaged/corrupted file — 損毀檔案",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "damage",
+    "qid": "damage-87-1",
+    "old": "傷害輸出",
+    "title": "損毀檔案",
+    "en": "A damaged file may be unreadable.",
+    "heading": "# 87. damaged/corrupted file — 損毀檔案",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "top",
+    "qid": "top-10-0",
+    "old": "某物最高、最上面的位置或部分",
+    "title": "在質素、能力、聲譽或表現方面屬於最高水平的",
+    "en": "She is one of the country's top athletes.",
+    "heading": "# 10. top（最優秀的） — 頂尖的；最出色的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "top",
+    "qid": "top-10-1",
+    "old": "某物最高、最上面的位置或部分",
+    "title": "在質素、能力、聲譽或表現方面屬於最高水平的",
+    "en": "He studied at a top university.",
+    "heading": "# 10. top（最優秀的） — 頂尖的；最出色的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "concern",
+    "qid": "concern-19-0",
+    "old": "值得關注／令人擔憂的",
+    "title": "關懷；關心",
+    "en": "Her concern for the students was obvious.",
+    "heading": "# 19. concern = caring interest（關懷） — 關懷；關心",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "concern",
+    "qid": "concern-21-0",
+    "old": "值得關注／令人擔憂的",
+    "title": "漠不關心",
+    "en": "His lack of concern for other customers was obvious.",
+    "heading": "# 21. lack of concern = indifference / failure to care（漠不關心）",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "concern",
+    "qid": "concern-49-0",
+    "old": "參與／涉及；正式、較低頻",
+    "title": "所有有關各方",
+    "en": "The agreement must be acceptable to all parties concerned.",
+    "heading": "# 49. all parties concerned = all involved parties（所有有關各方）",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "concern",
+    "qid": "concern-72-0",
+    "old": "企業具備持續經營能力／按持續經營基礎編製",
+    "title": "關注領域",
+    "en": "Staffing remains an area of concern.",
+    "heading": "# 72. area of concern = area/problem needing attention（關注領域）",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "earn",
+    "qid": "earn-10-0",
+    "old": "工作以抵償自己的食宿／證明自己值得被供養",
+    "title": "賺取／累積積分、里數、獎賞",
+    "en": "Customers earn points on every purchase.",
+    "heading": "# 10. earn points / miles / rewards（獎勵制度） — 賺取／累積積分、里數、獎賞",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "earn",
+    "qid": "earn-10-1",
+    "old": "工作以抵償自己的食宿／證明自己值得被供養",
+    "title": "賺取／累積積分、里數、獎賞",
+    "en": "You can earn airline miles by using the card.",
+    "heading": "# 10. earn points / miles / rewards（獎勵制度） — 賺取／累積積分、里數、獎賞",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "perspective",
+    "qid": "perspective-08-0",
+    "old": "從某個觀察位置看到的視角／透視關係",
+    "title": "背景；整體脈絡",
+    "en": "The documentary places the event in historical perspective.",
+    "heading": "# 8. perspective = broader historical/social context（脈絡） — 背景；整體脈絡",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "perspective",
+    "qid": "perspective-08-1",
+    "old": "從某個觀察位置看到的視角／透視關係",
+    "title": "背景；整體脈絡",
+    "en": "Looking at the data over twenty years gives us better perspective.",
+    "heading": "# 8. perspective = broader historical/social context（脈絡） — 背景；整體脈絡",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "light",
+    "qid": "light-36-0",
+    "old": "鑑於；考慮到",
+    "title": "在有光線照射的情況下",
+    "en": "The colour looks different in natural light.",
+    "heading": "# 36. in the light — 在光線下",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "light",
+    "qid": "light-36-1",
+    "old": "鑑於；考慮到",
+    "title": "在有光線照射的情況下",
+    "en": "Hold the photograph up to the light.",
+    "heading": "# 36. in the light — 在光線下",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "print",
+    "qid": "print-17-0",
+    "old": "打印機",
+    "title": "從事商業印刷工作的人或公司",
+    "en": "The book was produced by a local printer.",
+    "heading": "# 17. printer（印刷商／印刷工） — 印刷商；印刷從業者",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "print",
+    "qid": "print-17-1",
+    "old": "打印機",
+    "title": "從事商業印刷工作的人或公司",
+    "en": "The publisher sent the final files to the printer.",
+    "heading": "# 17. printer（印刷商／印刷工） — 印刷商；印刷從業者",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "plain",
+    "qid": "plain-13-0",
+    "old": "樸素衣服",
+    "title": "不穿制服、穿普通日常衣服的狀態，尤其指警員",
+    "en": "The officer was wearing plain clothes.",
+    "heading": "# 13. plain clothes（便衣） — 便服；非制服",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "plain",
+    "qid": "plain-13-1",
+    "old": "樸素衣服",
+    "title": "不穿制服、穿普通日常衣服的狀態，尤其指警員",
+    "en": "A plain-clothes officer followed the suspect.",
+    "heading": "# 13. plain clothes（便衣） — 便服；非制服",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "think",
+    "qid": "think-23-0",
+    "old": "再次考慮後改變或修正原先決定",
+    "title": "花時間認真考慮某件事",
+    "en": "Give the idea some thought before deciding.",
+    "heading": "# 23. give something some thought — 考慮一下某事",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "think",
+    "qid": "think-23-1",
+    "old": "再次考慮後改變或修正原先決定",
+    "title": "花時間認真考慮某件事",
+    "en": "I need to give your suggestion more thought.",
+    "heading": "# 23. give something some thought — 考慮一下某事",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "magical",
+    "qid": "magical-05-0",
+    "old": "被期望能一次解決複雜問題的單一萬能方法",
+    "title": "被想像為能以超自然方式改變現實的力量",
+    "en": "She used magic to open the door.",
+    "heading": "## 5. magic = supernatural power — 魔法；魔力",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "magical",
+    "qid": "magical-31-0",
+    "old": "特別擅長令事情成功的本領",
+    "title": "像魔法般的科技效果",
+    "en": "The app does a bit of digital magic behind the scenes.",
+    "heading": "## 31. magic = seemingly effortless technological effect — 像魔法般的科技效果",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "magical",
+    "qid": "magical-49-0",
+    "old": "特別擅長令事情成功的本領",
+    "title": "難以言喻的魅力；奇妙效果",
+    "en": "The performance had real magic.",
+    "heading": "## 49. magic = special creative quality — 難以言喻的魅力；奇妙效果",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "magical",
+    "qid": "magical-72-0",
+    "old": "表演魔術技巧和幻術的人",
+    "title": "高手；奇才",
+    "en": "He is a magician with numbers.",
+    "heading": "## 72. magician = person exceptionally skilled at transforming/handling something — 高手；奇才",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "phone",
+    "qid": "phone-02-0",
+    "old": "表示聲音、發聲或收音裝置的構詞成分",
+    "title": "可攜帶、透過流動網絡進行通訊的電話裝置",
+    "en": "I put my phone aside.",
+    "heading": "## 2. phone = mobile phone — 手機；流動電話",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "phone",
+    "qid": "phone-02-1",
+    "old": "表示聲音、發聲或收音裝置的構詞成分",
+    "title": "可攜帶、透過流動網絡進行通訊的電話裝置",
+    "en": "She checked her phone on the bus.",
+    "heading": "## 2. phone = mobile phone — 手機；流動電話",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "clock",
+    "qid": "clock-11-0",
+    "old": "讓時間倒流",
+    "title": "把時鐘撥快／撥慢",
+    "en": "Remember to put the clocks back this weekend.",
+    "heading": "# 11. put / turn the clocks forward or back — 把時鐘撥快／撥慢",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "clock",
+    "qid": "clock-11-1",
+    "old": "讓時間倒流",
+    "title": "把時鐘撥快／撥慢",
+    "en": "We put the clocks forward by one hour.",
+    "heading": "# 11. put / turn the clocks forward or back — 把時鐘撥快／撥慢",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "clock",
+    "qid": "clock-13-0",
+    "old": "測得 X 速度",
+    "title": "測量並記錄某人用了 X 時間",
+    "en": "The runner was clocked at 11 seconds.",
+    "heading": "# 13. clock someone at X seconds — 計出某人用了 X 秒",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "clock",
+    "qid": "clock-13-1",
+    "old": "測得 X 速度",
+    "title": "測量並記錄某人用了 X 時間",
+    "en": "I clocked her at just under a minute.",
+    "heading": "# 13. clock someone at X seconds — 計出某人用了 X 秒",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "fancy",
+    "qid": "fancy-06-0",
+    "old": "對某物的喜愛、偏好或興趣",
+    "title": "自己想像或認定自己具有某種身分、能力或特質",
+    "en": "He fancies himself as a writer.",
+    "heading": "# 6. fancy yourself as something（自我想像／自認） — 自認為；自命為",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "fancy",
+    "qid": "fancy-06-1",
+    "old": "對某物的喜愛、偏好或興趣",
+    "title": "自己想像或認定自己具有某種身分、能力或特質",
+    "en": "She fancies herself quite an expert.",
+    "heading": "# 6. fancy yourself as something（自我想像／自認） — 自認為；自命為",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "foundation",
+    "qid": "foundation-42-0",
+    "old": "創立公司",
+    "title": "創辦學校／大學／機構",
+    "en": "The university was founded in 1890.",
+    "heading": "# 42. found a school/university/institution — 創辦學校／大學／機構",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "cover",
+    "qid": "cover-25-0",
+    "old": "買回資產以結束沽空倉位；回補",
+    "title": "入場費；最低消費性收費",
+    "en": "There is a $20 cover charge after 9 p.m.",
+    "heading": "# 25. cover charge = entrance/service charge（娛樂場所） — 入場費；最低消費性收費",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "become",
+    "qid": "become-14-0",
+    "old": "某種衣著、顏色或風格很適合／很襯某人",
+    "title": "表示某人／某事之後的命運、結果或去向",
+    "en": "No one knows what became of the missing document.",
+    "heading": "# 14. become of someone/something（某人／某事後來的結果） — 後來怎樣",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "become",
+    "qid": "become-14-1",
+    "old": "某種衣著、顏色或風格很適合／很襯某人",
+    "title": "表示某人／某事之後的命運、結果或去向",
+    "en": "I often wonder what became of my old classmates.",
+    "heading": "# 14. become of someone/something（某人／某事後來的結果） — 後來怎樣",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "aside",
+    "qid": "aside-28-0",
+    "old": "專門預留一段時間給某項活動",
+    "title": "特別保留給某用途、群體或類別的一部分資源／合約",
+    "en": "Part of the contract is reserved as a small-business set-aside.",
+    "heading": "## 28. set-aside = 預留份額；保留項目",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "aside",
+    "qid": "aside-28-1",
+    "old": "專門預留一段時間給某項活動",
+    "title": "特別保留給某用途、群體或類別的一部分資源／合約",
+    "en": "The programme includes a set-aside for local suppliers.",
+    "heading": "## 28. set-aside = 預留份額；保留項目",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "turnover",
+    "qid": "turnover-10-0",
+    "old": "因失誤等令己方失去球權、由對手取得球權",
+    "title": "更替；周轉",
+    "en": "The building has a high turnover of tenants.",
+    "heading": "# 10. turnover = general replacement/renewal cycle（一般） — 更替；周轉",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "turnover",
+    "qid": "turnover-10-1",
+    "old": "因失誤等令己方失去球權、由對手取得球權",
+    "title": "更替；周轉",
+    "en": "There is constant turnover among volunteers.",
+    "heading": "# 10. turnover = general replacement/renewal cycle（一般） — 更替；周轉",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "push",
+    "qid": "push-54-0",
+    "old": "擺布／欺負",
+    "title": "把……擱在一旁；忽視",
+    "en": "She pushed her doubts aside and continued.",
+    "heading": "# 54. push something/someone aside — 把……擱在一旁；忽視",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "push",
+    "qid": "push-54-1",
+    "old": "擺布／欺負",
+    "title": "把……擱在一旁；忽視",
+    "en": "Quieter members should not be pushed aside.",
+    "heading": "# 54. push something/someone aside — 把……擱在一旁；忽視",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "push",
+    "qid": "push-84-0",
+    "old": "到真正關鍵時刻",
+    "title": "推送到分支",
+    "en": "She pushed the commit to the main branch.",
+    "heading": "# 84. push to a branch — 推送到分支",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "push",
+    "qid": "push-84-1",
+    "old": "到真正關鍵時刻",
+    "title": "推送到分支",
+    "en": "Push your changes to a feature branch first.",
+    "heading": "# 84. push to a branch — 推送到分支",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "creative",
+    "qid": "creative-01-0",
+    "old": "有創意的人",
+    "title": "擅長產生新穎、富想像力或原創想法的",
+    "en": "I think he will grow into a very creative person.",
+    "heading": "# 1. creative（人：有創意的） — 有創意的；有創造力的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "creative",
+    "qid": "creative-01-1",
+    "old": "有創意的人",
+    "title": "擅長產生新穎、富想像力或原創想法的",
+    "en": "She is one of the most creative people I know.",
+    "heading": "# 1. creative（人：有創意的） — 有創意的；有創造力的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "creative",
+    "qid": "creative-01-2",
+    "old": "有創意的人",
+    "title": "擅長產生新穎、富想像力或原創想法的",
+    "en": "Leo is extremely creative when he plays.",
+    "heading": "# 1. creative（人：有創意的） — 有創意的；有創造力的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "creative",
+    "qid": "creative-15-0",
+    "old": "創造；創作",
+    "title": "使新事物出現的過程或行為",
+    "en": "The creation of the new system took several years.",
+    "heading": "# 15. creation（創造；創作） — 創造；創作",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "creative",
+    "qid": "creative-15-1",
+    "old": "創造；創作",
+    "title": "使新事物出現的過程或行為",
+    "en": "The project focuses on the creation of new jobs.",
+    "heading": "# 15. creation（創造；創作） — 創造；創作",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "less",
+    "qid": "less-09-0",
+    "old": "委婉表示某性質明顯不足；談不上……",
+    "title": "並沒有比較少；同樣具有某種性質",
+    "en": "The second painting is no less beautiful.",
+    "heading": "# 9. no less + adjective/adverb = 同樣……；絲毫不遜色",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "less",
+    "qid": "less-09-1",
+    "old": "委婉表示某性質明顯不足；談不上……",
+    "title": "並沒有比較少；同樣具有某種性質",
+    "en": "Her later work is no less important.",
+    "heading": "# 9. no less + adjective/adverb = 同樣……；絲毫不遜色",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "department",
+    "qid": "department-47-0",
+    "old": "不是我負責／擅長的範疇",
+    "title": "在某方面",
+    "en": "The proposal is strong in the creativity department but weak on cost control.",
+    "heading": "# 47. in the ... department — 在某方面",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "department",
+    "qid": "department-47-1",
+    "old": "不是我負責／擅長的範疇",
+    "title": "在某方面",
+    "en": "He's not lacking in the confidence department.",
+    "heading": "# 47. in the ... department — 在某方面",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "fabric",
+    "qid": "fabric-86-0",
+    "old": "預製工法",
+    "title": "布料描述",
+    "en": "Product pages should contain accurate fabric descriptions.",
+    "heading": "# 86. fabric description — 布料描述",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "fabric",
+    "qid": "fabric-86-1",
+    "old": "預製工法",
+    "title": "布料描述",
+    "en": "Soft fabric” alone may be too vague.",
+    "heading": "# 86. fabric description — 布料描述",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "fabric",
+    "qid": "fabric-87-0",
+    "old": "預製工法",
+    "title": "布料資料",
+    "en": "Better fabric information may reduce avoidable returns.",
+    "heading": "# 87. fabric information — 布料資料",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "ground",
+    "qid": "ground-08-0",
+    "old": "電路中與大地或參考電位連接的接地點／系統",
+    "title": "磨碎",
+    "en": "I bought freshly ground coffee.",
+    "heading": "# 8. ground = grind into small particles（動詞，過去分詞形式） — 磨碎",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "ground",
+    "qid": "ground-08-1",
+    "old": "電路中與大地或參考電位連接的接地點／系統",
+    "title": "磨碎",
+    "en": "The spices were finely ground.",
+    "heading": "# 8. ground = grind into small particles（動詞，過去分詞形式） — 磨碎",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "behind",
+    "qid": "behind-09-0",
+    "old": "欠款",
+    "title": "未能按時完成、支付或處理 X",
+    "en": "I'm behind on my work.",
+    "heading": "# 9. behind on something — 欠着；未完成",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "behind",
+    "qid": "behind-09-1",
+    "old": "欠款",
+    "title": "未能按時完成、支付或處理 X",
+    "en": "He is behind on his payments.",
+    "heading": "# 9. behind on something — 欠着；未完成",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "behind",
+    "qid": "behind-11-0",
+    "old": "工作進度落後",
+    "title": "比預定或預期時間遲",
+    "en": "We're running five minutes behind.",
+    "heading": "# 11. behind（晚於；落後於某時間點） — 遲於",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "behind",
+    "qid": "behind-11-1",
+    "old": "工作進度落後",
+    "title": "比預定或預期時間遲",
+    "en": "The train is ten minutes behind.",
+    "heading": "# 11. behind（晚於；落後於某時間點） — 遲於",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "pursue",
+    "qid": "pursue-26-0",
+    "old": "智性追求",
+    "title": "藝術／創意活動",
+    "en": "She devoted more time to creative pursuits.",
+    "heading": "# 26. artistic / creative pursuit — 藝術／創意活動",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "pursue",
+    "qid": "pursue-26-1",
+    "old": "智性追求",
+    "title": "藝術／創意活動",
+    "en": "Artistic pursuits can provide a sense of fulfilment.",
+    "heading": "# 26. artistic / creative pursuit — 藝術／創意活動",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "pursue",
+    "qid": "pursue-58-0",
+    "old": "追趕／追捕某人",
+    "title": "積極向某人示愛，希望與對方建立戀愛關係",
+    "en": "He pursued her romantically for several months.",
+    "heading": "# 58. pursue someone = seek a romantic relationship — 追求某人",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "pursue",
+    "qid": "pursue-58-1",
+    "old": "追趕／追捕某人",
+    "title": "積極向某人示愛，希望與對方建立戀愛關係",
+    "en": "She made it clear that she did not want to be pursued.",
+    "heading": "# 58. pursue someone = seek a romantic relationship — 追求某人",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "see",
+    "qid": "see-22-0",
+    "old": "根據已知事實引出結果；既然／鑑於",
+    "title": "看見；視覺活動",
+    "en": "Seeing clearly is difficult in the fog.",
+    "heading": "22. seeing = act/ability of seeing（視覺／觀 看） — 看見；視覺活動",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "see",
+    "qid": "see-22-1",
+    "old": "根據已知事實引出結果；既然／鑑於",
+    "title": "看見；視覺活動",
+    "en": "Seeing is believing.",
+    "heading": "22. seeing = act/ability of seeing（視覺／觀 看） — 看見；視覺活動",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "glass",
+    "qid": "glass-08-0",
+    "old": "玻璃器皿",
+    "title": "安裝或使用在某物上的玻璃片或玻璃表面",
+    "en": "The picture is protected by glass.",
+    "heading": "# 8. glass（玻璃片／玻璃表面） — 玻璃片；玻璃面",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "glass",
+    "qid": "glass-08-1",
+    "old": "玻璃器皿",
+    "title": "安裝或使用在某物上的玻璃片或玻璃表面",
+    "en": "There was a crack in the glass.",
+    "heading": "# 8. glass（玻璃片／玻璃表面） — 玻璃片；玻璃面",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "name",
+    "qid": "name-13-0",
+    "old": "按名字；知道名字",
+    "title": "因知名度和聲譽而有價值的品牌或商業名稱",
+    "en": "Consumers often pay more for a famous name.",
+    "heading": "# 13. name（知名品牌／名牌） — 名牌；知名品牌",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "name",
+    "qid": "name-13-1",
+    "old": "按名字；知道名字",
+    "title": "因知名度和聲譽而有價值的品牌或商業名稱",
+    "en": "It's a respected name in the industry.",
+    "heading": "# 13. name（知名品牌／名牌） — 名牌；知名品牌",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "voice",
+    "qid": "voice-21-0",
+    "old": "說話者不直接出現在畫面中時播放的旁白錄音",
+    "title": "語音／聲紋識別",
+    "en": "The phone uses voice recognition.",
+    "heading": "# 21. voice recognition = 語音／聲紋識別",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "voice",
+    "qid": "voice-21-1",
+    "old": "說話者不直接出現在畫面中時播放的旁白錄音",
+    "title": "語音／聲紋識別",
+    "en": "Voice recognition software can identify spoken commands.",
+    "heading": "# 21. voice recognition = 語音／聲紋識別",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "squeeze",
+    "qid": "squeeze-08-0",
+    "old": "空間、時間等只剛剛足夠；非常擠迫／勉強",
+    "title": "一擠；一捏；一握",
+    "en": "Give the bottle a gentle squeeze.",
+    "heading": "# 8. a squeeze = act of pressing tightly（名詞） — 一擠；一捏；一握",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "squeeze",
+    "qid": "squeeze-08-1",
+    "old": "空間、時間等只剛剛足夠；非常擠迫／勉強",
+    "title": "一擠；一捏；一握",
+    "en": "She gave my hand a squeeze.",
+    "heading": "# 8. a squeeze = act of pressing tightly（名詞） — 一擠；一捏；一握",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "squeeze",
+    "qid": "squeeze-15-0",
+    "old": "向某人施壓以取得金錢、資訊或讓步",
+    "title": "壓縮；縮減",
+    "en": "Competition has squeezed profit margins.",
+    "heading": "# 15. squeeze = reduce the amount/margin available（壓縮） — 壓縮；縮減",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "squeeze",
+    "qid": "squeeze-15-1",
+    "old": "向某人施壓以取得金錢、資訊或讓步",
+    "title": "壓縮；縮減",
+    "en": "The project was squeezed by a limited budget.",
+    "heading": "# 15. squeeze = reduce the amount/margin available（壓縮） — 壓縮；縮減",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "assignment",
+    "qid": "assignment-12-0",
+    "old": "正在執行任務",
+    "title": "某人被正式安排到某個職位、地點或工作崗位的安排",
+    "en": "His next assignment will be in Singapore.",
+    "heading": "# 12. assignment（派任；調任） — 派任；工作地點／職務安排",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "assignment",
+    "qid": "assignment-12-1",
+    "old": "正在執行任務",
+    "title": "某人被正式安排到某個職位、地點或工作崗位的安排",
+    "en": "She accepted an overseas assignment.",
+    "heading": "# 12. assignment（派任；調任） — 派任；工作地點／職務安排",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "assignment",
+    "qid": "assignment-21-0",
+    "old": "編配代碼",
+    "title": "正式給某個對象一個識別用的數字、代碼或名稱",
+    "en": "Each applicant is assigned a number.",
+    "heading": "# 21. assign a number / code / label — 編配號碼／代碼／標籤",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "assignment",
+    "qid": "assignment-21-1",
+    "old": "編配代碼",
+    "title": "正式給某個對象一個識別用的數字、代碼或名稱",
+    "en": "The system automatically assigns a code to each file.",
+    "heading": "# 21. assign a number / code / label — 編配號碼／代碼／標籤",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "neat",
+    "qid": "neat-12-0",
+    "old": "很酷／很不錯",
+    "title": "酒類不加水、冰塊、汽水或其他飲料直接飲用的",
+    "en": "He ordered the whisky neat.",
+    "heading": "# 12. neat（飲品：純飲、不加冰或其他東西） — 純飲的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "neat",
+    "qid": "neat-12-1",
+    "old": "很酷／很不錯",
+    "title": "酒類不加水、冰塊、汽水或其他飲料直接飲用的",
+    "en": "She prefers brandy neat.",
+    "heading": "# 12. neat（飲品：純飲、不加冰或其他東西） — 純飲的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "neat",
+    "qid": "neat-13-0",
+    "old": "很酷／很不錯",
+    "title": "未經稀釋、混合或添加其他物質的",
+    "en": "Do not use the chemical neat on your skin.",
+    "heading": "# 13. neat（液體／化學品：未稀釋的） — 純的；未稀釋的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "neat",
+    "qid": "neat-13-1",
+    "old": "很酷／很不錯",
+    "title": "未經稀釋、混合或添加其他物質的",
+    "en": "The solution should not be applied neat.",
+    "heading": "# 13. neat（液體／化學品：未稀釋的） — 純的；未稀釋的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "worth",
+    "qid": "worth-05-0",
+    "old": "某人／某物所具有的價值、用處或重要性",
+    "title": "某事值得投入某種注意、研究、努力或討論",
+    "en": "The idea is worth consideration.",
+    "heading": "# 5. be worth + noun = 值得某種付出／考慮",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "worth",
+    "qid": "worth-05-1",
+    "old": "某人／某物所具有的價值、用處或重要性",
+    "title": "某事值得投入某種注意、研究、努力或討論",
+    "en": "The issue is worth further discussion.",
+    "heading": "# 5. be worth + noun = 值得某種付出／考慮",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "sandwich",
+    "qid": "sandwich-11-0",
+    "old": "適合製作三文治的切片麵包／方包",
+    "title": "夾心餅乾",
+    "en": "The children ate chocolate sandwich biscuits.",
+    "heading": "# 11. sandwich biscuit = 夾心餅乾",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "soar",
+    "qid": "soar-10-0",
+    "old": "利用上升氣流進行的滑翔飛行；專門",
+    "title": "激增",
+    "en": "Applications soared after the programme became popular.",
+    "heading": "# 10. soar = rise rapidly in number/quantity（數量） — 激增",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "soar",
+    "qid": "soar-10-1",
+    "old": "利用上升氣流進行的滑翔飛行；專門",
+    "title": "激增",
+    "en": "Visitor numbers have soared.",
+    "heading": "# 10. soar = rise rapidly in number/quantity（數量） — 激增",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "form",
+    "qid": "form-10-0",
+    "old": "藝術形式",
+    "title": "一個字、動詞或語言單位在特定文法功能下所呈現的形式",
+    "en": "Went” is the past form of “go.",
+    "heading": "# 10. form（語法形式） — 詞形；形式",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "form",
+    "qid": "form-10-1",
+    "old": "藝術形式",
+    "title": "一個字、動詞或語言單位在特定文法功能下所呈現的形式",
+    "en": "Use the correct verb form.",
+    "heading": "# 10. form（語法形式） — 詞形；形式",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "form",
+    "qid": "form-25-0",
+    "old": "形成",
+    "title": "人、車輛、飛機或球員等按特定方式排列形成的隊形",
+    "en": "The planes flew in formation.",
+    "heading": "# 25. formation（隊形；編隊） — 隊形；編隊",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "form",
+    "qid": "form-25-1",
+    "old": "形成",
+    "title": "人、車輛、飛機或球員等按特定方式排列形成的隊形",
+    "en": "The team changed its formation in the second half.",
+    "heading": "# 25. formation（隊形；編隊） — 隊形；編隊",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "piece",
+    "qid": "piece-20-0",
+    "old": "沒有破損；人則指安全無恙",
+    "title": "分裂成很多碎片；完全破碎",
+    "en": "The glass fell and broke to pieces.",
+    "heading": "# 20. to pieces = 成碎片；徹底地",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "piece",
+    "qid": "piece-20-1",
+    "old": "沒有破損；人則指安全無恙",
+    "title": "分裂成很多碎片；完全破碎",
+    "en": "The old paper was falling to pieces.",
+    "heading": "# 20. to pieces = 成碎片；徹底地",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "distribution",
+    "qid": "distribution-17-0",
+    "old": "電影發行",
+    "title": "負責把電影推向戲院、平台和市場的公司",
+    "en": "The distributor released the film internationally.",
+    "heading": "# 17. film distributor — 電影發行商",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "distribution",
+    "qid": "distribution-17-1",
+    "old": "電影發行",
+    "title": "負責把電影推向戲院、平台和市場的公司",
+    "en": "Independent filmmakers often need to find a distributor.",
+    "heading": "# 17. film distributor — 電影發行商",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "strength",
+    "qid": "strength-16-0",
+    "old": "材料抵抗被拉伸至斷裂的能力",
+    "title": "結構強度",
+    "en": "The bridge was checked for structural strength.",
+    "heading": "# 16. structural strength — 結構強度",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "strength",
+    "qid": "strength-16-1",
+    "old": "材料抵抗被拉伸至斷裂的能力",
+    "title": "結構強度",
+    "en": "The redesign improved the structural strength of the frame.",
+    "heading": "# 16. structural strength — 結構強度",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "strength",
+    "qid": "strength-23-0",
+    "old": "一種貨幣相對其他貨幣具有較高價值或較強匯率表現",
+    "title": "市場強勢",
+    "en": "Technology shares contributed to overall market strength.",
+    "heading": "# 23. market strength — 市場強勢",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "strength",
+    "qid": "strength-23-1",
+    "old": "一種貨幣相對其他貨幣具有較高價值或較強匯率表現",
+    "title": "市場強勢",
+    "en": "The rally showed broad market strength.",
+    "heading": "# 23. market strength — 市場強勢",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "strength",
+    "qid": "strength-41-0",
+    "old": "因某項表現、證據、推薦或有利因素而採取行動／作決定",
+    "title": "靠力量；憑純粹力量",
+    "en": "He moved the object by sheer strength.",
+    "heading": "# 41. by strength of / by sheer strength — 靠力量；憑純粹力量",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "strength",
+    "qid": "strength-41-1",
+    "old": "因某項表現、證據、推薦或有利因素而採取行動／作決定",
+    "title": "靠力量；憑純粹力量",
+    "en": "The athlete powered through the final metres on strength alone.",
+    "heading": "# 41. by strength of / by sheer strength — 靠力量；憑純粹力量",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "performance",
+    "qid": "performance-31-0",
+    "old": "表演者",
+    "title": "在某方面取得某種水平成果的人、公司、投資或產品",
+    "en": "She is one of the team's top performers.",
+    "heading": "# 31. performer（表現者） — 表現……的人／事物",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "performance",
+    "qid": "performance-31-1",
+    "old": "表演者",
+    "title": "在某方面取得某種水平成果的人、公司、投資或產品",
+    "en": "This investment has been a strong performer.",
+    "heading": "# 31. performer（表現者） — 表現……的人／事物",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "open",
+    "qid": "open-04-0",
+    "old": "睜開眼睛",
+    "title": "把嘴巴張開",
+    "en": "Open your mouth and say “ah”.",
+    "heading": "# 4. open your mouth — 張開嘴巴",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "open",
+    "qid": "open-04-1",
+    "old": "睜開眼睛",
+    "title": "把嘴巴張開",
+    "en": "The baby opened his mouth for another spoonful.",
+    "heading": "# 4. open your mouth — 張開嘴巴",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "source",
+    "qid": "source-59-0",
+    "old": "提供事實、資料、證據或消息的人／文件／網站等",
+    "title": "找到並取得所需資訊／資料",
+    "en": "Journalists source information from interviews and documents.",
+    "heading": "## 59. source information = 搜集／取得資訊",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "source",
+    "qid": "source-59-1",
+    "old": "提供事實、資料、證據或消息的人／文件／網站等",
+    "title": "找到並取得所需資訊／資料",
+    "en": "The team sourced data from public records.",
+    "heading": "## 59. source information = 搜集／取得資訊",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "glance",
+    "qid": "glance-07-0",
+    "old": "物體以斜角擦撞表面後偏轉",
+    "title": "回頭看一眼",
+    "en": "She glanced back before leaving.",
+    "heading": "# 7. glance back = look back briefly（回頭一瞥） — 回頭看一眼",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "some",
+    "qid": "some-10-0",
+    "old": "一段未明確指定長度的時間",
+    "title": "把一個群體分成不同未指明部分",
+    "en": "Some are red, and some are yellow.",
+    "heading": "# 10. some...some... = 有些……有些……",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "some",
+    "qid": "some-10-1",
+    "old": "一段未明確指定長度的時間",
+    "title": "把一個群體分成不同未指明部分",
+    "en": "Some people relax by reading; some prefer exercise.",
+    "heading": "# 10. some...some... = 有些……有些……",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "proportion",
+    "qid": "proportion-75-0",
+    "old": "樣本比例",
+    "title": "相稱的投入／努力",
+    "en": "Minor cases should require only proportionate effort.",
+    "heading": "# 75. proportionate effort — 相稱的投入／努力",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "proportion",
+    "qid": "proportion-81-0",
+    "old": "母體比例",
+    "title": "收入／成本／銷售的佔比",
+    "en": "Returns account for a small proportion of total sales.",
+    "heading": "# 81. proportion of revenue/cost/sales — 收入／成本／銷售的佔比",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "proportion",
+    "qid": "proportion-81-1",
+    "old": "母體比例",
+    "title": "收入／成本／銷售的佔比",
+    "en": "Delivery costs represent a growing proportion of expenses.",
+    "heading": "# 81. proportion of revenue/cost/sales — 收入／成本／銷售的佔比",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "sink",
+    "qid": "sink-07-0",
+    "old": "逐漸陷入某種較低落、困難或負面的狀態",
+    "title": "向下進入柔軟、鬆散或可吸收的物質中",
+    "en": "The rainwater slowly sank into the dry soil.",
+    "heading": "# 7. sink = be absorbed into a substance（吸收／滲入） — 滲入；吸進",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "sink",
+    "qid": "sink-07-1",
+    "old": "逐漸陷入某種較低落、困難或負面的狀態",
+    "title": "向下進入柔軟、鬆散或可吸收的物質中",
+    "en": "Her feet sank into the soft sand.",
+    "heading": "# 7. sink = be absorbed into a substance（吸收／滲入） — 滲入；吸進",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "cushion",
+    "qid": "cushion-09-0",
+    "old": "降低撞擊／跌落產生的力量",
+    "title": "緩衝墊",
+    "en": "The packaging contains a foam cushion.",
+    "heading": "## 9. cushion = soft layer/pad protecting against pressure, rubbing or impact（緩衝墊）",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "appropriate",
+    "qid": "appropriate-22-0",
+    "old": "在特定文化背景中合宜／合適的",
+    "title": "法律上適當",
+    "en": "The court considered the appropriate remedy.",
+    "heading": "# 22. appropriate = legally/procedurally suitable（法律上適當）",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "pass",
+    "qid": "pass-40-0",
+    "old": "短暫、不持久的",
+    "title": "委婉指死亡",
+    "en": "We were saddened by his passing.",
+    "heading": "# 40. passing = death（去世；死亡） — 離世",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "pass",
+    "qid": "pass-40-1",
+    "old": "短暫、不持久的",
+    "title": "委婉指死亡",
+    "en": "Her passing affected the whole family.",
+    "heading": "# 40. passing = death（去世；死亡） — 離世",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "late",
+    "qid": "late-24-0",
+    "old": "即使做得較遲，也比完全不做更好",
+    "title": "到這麼後期；事到如今",
+    "en": "It would be difficult to change the design at this late stage.",
+    "heading": "24. at this late stage = 到這麼後期；事到如今",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "late",
+    "qid": "late-24-1",
+    "old": "即使做得較遲，也比完全不做更好",
+    "title": "到這麼後期；事到如今",
+    "en": "At this late stage, cancellation would be expensive.",
+    "heading": "24. at this late stage = 到這麼後期；事到如今",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "particular",
+    "qid": "particular-11-0",
+    "old": "X 特有的",
+    "title": "涉及具體細節，而不是籠統概括",
+    "en": "Please give particular details of what happened.",
+    "heading": "# 11. particular（詳細的；精確指定的） — 具體的；詳細的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "particular",
+    "qid": "particular-11-1",
+    "old": "X 特有的",
+    "title": "涉及具體細節，而不是籠統概括",
+    "en": "The report was very particular in its description.",
+    "heading": "# 11. particular（詳細的；精確指定的） — 具體的；詳細的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "cost",
+    "qid": "cost-19-0",
+    "old": "維持日常生活所需支付的整體費用",
+    "title": "人工成本／生產成本／營運成本",
+    "en": "Higher energy prices increased production costs.",
+    "heading": "# 19. labour cost / production cost / operating cost = 人工成本／生產成本／營運成本",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "cost",
+    "qid": "cost-19-1",
+    "old": "維持日常生活所需支付的整體費用",
+    "title": "人工成本／生產成本／營運成本",
+    "en": "The company is trying to reduce operating costs.",
+    "heading": "# 19. labour cost / production cost / operating cost = 人工成本／生產成本／營運成本",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "sentimental",
+    "qid": "sentimental-06-0",
+    "old": "與感傷主義／強調情感與感受的文學傳統有關；專門",
+    "title": "浪漫化的；感情化的",
+    "en": "He has a rather sentimental view of village life.",
+    "heading": "# 6. sentimental = romanticized or emotionally idealized（理想化） — 浪漫化的；感情化的",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "sentimental",
+    "qid": "sentimental-06-1",
+    "old": "與感傷主義／強調情感與感受的文學傳統有關；專門",
+    "title": "浪漫化的；感情化的",
+    "en": "The book avoids a sentimental picture of childhood.",
+    "heading": "# 6. sentimental = romanticized or emotionally idealized（理想化） — 浪漫化的；感情化的",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "transparent",
+    "qid": "transparent-58-0",
+    "old": "容易識破的藉口",
+    "title": "坦率、不隱藏想法的人",
+    "en": "She is unusually transparent about her feelings.",
+    "heading": "# 58. transparent person = open/easy to read — 坦率、不隱藏想法的人",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "transparent",
+    "qid": "transparent-58-1",
+    "old": "容易識破的藉口",
+    "title": "坦率、不隱藏想法的人",
+    "en": "His reactions are so transparent that everyone knows when he disagrees.",
+    "heading": "# 58. transparent person = open/easy to read — 坦率、不隱藏想法的人",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "transparent",
+    "qid": "transparent-61-0",
+    "old": "公開透明地",
+    "title": "明顯到很容易看穿或判斷",
+    "en": "The claim is transparently false.",
+    "heading": "# 61. transparently = obviously — 明顯地；顯然地",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "transparent",
+    "qid": "transparent-61-1",
+    "old": "公開透明地",
+    "title": "明顯到很容易看穿或判斷",
+    "en": "His explanation was transparently self-serving.",
+    "heading": "# 61. transparently = obviously — 明顯地；顯然地",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "contest",
+    "qid": "contest-15-0",
+    "old": "一面倒的比賽",
+    "title": "勢均力敵的較量",
+    "en": "It was an evenly matched contest.",
+    "heading": "# 15. evenly matched contest — 勢均力敵的較量",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "contest",
+    "qid": "contest-15-1",
+    "old": "一面倒的比賽",
+    "title": "勢均力敵的較量",
+    "en": "Neither team dominated the contest.",
+    "heading": "# 15. evenly matched contest — 勢均力敵的較量",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "contest",
+    "qid": "contest-46-0",
+    "old": "爭議所有權",
+    "title": "質疑管轄權／權限",
+    "en": "The defendant contested the court's jurisdiction.",
+    "heading": "# 46. contest jurisdiction / authority — 質疑管轄權／權限",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "contest",
+    "qid": "contest-46-1",
+    "old": "爭議所有權",
+    "title": "質疑管轄權／權限",
+    "en": "The agency's authority was contested.",
+    "heading": "# 46. contest jurisdiction / authority — 質疑管轄權／權限",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "message",
+    "qid": "message-22-0",
+    "old": "信使；傳訊者",
+    "title": "用來傳送即時訊息的數碼通訊程式或服務",
+    "en": "They spoke through an online messenger.",
+    "heading": "# 22. messenger（通訊程式／服務） — 即時通訊工具",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "message",
+    "qid": "message-22-1",
+    "old": "信使；傳訊者",
+    "title": "用來傳送即時訊息的數碼通訊程式或服務",
+    "en": "The messenger supports voice calls and file sharing.",
+    "heading": "# 22. messenger（通訊程式／服務） — 即時通訊工具",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "back",
+    "qid": "back-53-0",
+    "old": "主要方法失敗時退而依靠後備資源",
+    "title": "後退；或退回較安全／次選方案",
+    "en": "The crowd fell back.",
+    "heading": "# 53. fall back（後退／退回） — 後退；撤回",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "back",
+    "qid": "back-53-1",
+    "old": "主要方法失敗時退而依靠後備資源",
+    "title": "後退；或退回較安全／次選方案",
+    "en": "If the main plan fails, we can fall back on the backup.",
+    "heading": "# 53. fall back（後退／退回） — 後退；撤回",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "aim",
+    "qid": "aim-37-0",
+    "old": "瞄準武器",
+    "title": "把武器、相機、光線等對準某一特定方向或目標",
+    "en": "He aimed the camera carefully.",
+    "heading": "# 37. aim a weapon — 瞄準武器",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "aim",
+    "qid": "aim-37-1",
+    "old": "瞄準武器",
+    "title": "把武器、相機、光線等對準某一特定方向或目標",
+    "en": "The officer aimed the weapon at the target.",
+    "heading": "# 37. aim a weapon — 瞄準武器",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "mechanics",
+    "qid": "mechanics-32-0",
+    "old": "用來減輕焦慮或心理衝突的無意識心理反應方式",
+    "title": "透過供求、價格及競爭等因素調節資源和市場行為的運作方式",
+    "en": "Prices are influenced by the market mechanism.",
+    "heading": "# 32. market mechanism — 市場機制",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "afford",
+    "qid": "afford-06-0",
+    "old": "有足夠可用時間去做某事",
+    "title": "有條件等；承受得起等待",
+    "en": "We can afford to wait until next month.",
+    "heading": "# 6. can afford to wait / delay = 有條件等；承受得起等待",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "afford",
+    "qid": "afford-06-1",
+    "old": "有足夠可用時間去做某事",
+    "title": "有條件等；承受得起等待",
+    "en": "Small businesses often cannot afford to wait for payment.",
+    "heading": "# 6. can afford to wait / delay = 有條件等；承受得起等待",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "clash",
+    "qid": "clash-35-0",
+    "old": "顏色不協調",
+    "title": "金屬鏗鏘碰撞聲",
+    "en": "A loud metallic clash came from the workshop.",
+    "heading": "# 35. metallic clash — 金屬鏗鏘碰撞聲",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "clash",
+    "qid": "clash-35-1",
+    "old": "顏色不協調",
+    "title": "金屬鏗鏘碰撞聲",
+    "en": "The door closed with a metallic clash.",
+    "heading": "# 35. metallic clash — 金屬鏗鏘碰撞聲",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "long",
+    "qid": "long-46-0",
+    "old": "成功可能性很低但仍可能值得嘗試的事情",
+    "title": "遠遠沒有達到某種狀態",
+    "en": "I’m not perfect—not by a long shot.",
+    "heading": "# 46. not by a long shot（遠遠不是） — 絕對還不是；差得遠",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "long",
+    "qid": "long-46-1",
+    "old": "成功可能性很低但仍可能值得嘗試的事情",
+    "title": "遠遠沒有達到某種狀態",
+    "en": "The project isn’t finished, not by a long shot.",
+    "heading": "# 46. not by a long shot（遠遠不是） — 絕對還不是；差得遠",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "long",
+    "qid": "long-47-0",
+    "old": "對某人／某事產生強烈而持續的渴望",
+    "title": "很低的勝算",
+    "en": "She succeeded despite the long odds.",
+    "heading": "# 47. long odds（機會很低） — 很低的勝算",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "long",
+    "qid": "long-47-1",
+    "old": "對某人／某事產生強烈而持續的渴望",
+    "title": "很低的勝算",
+    "en": "They faced long odds.",
+    "heading": "# 47. long odds（機會很低） — 很低的勝算",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "meet",
+    "qid": "meet-31-0",
+    "old": "遇到能力足以與自己抗衡、旗鼓相當的人",
+    "title": "委婉、宗教式或幽默地指死亡",
+    "en": "The phrase meet your maker is a euphemistic way of referring to death.",
+    "heading": "# 31. meet your maker（死亡；委婉／幽默） — 去世；見造物主",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "meet",
+    "qid": "meet-31-1",
+    "old": "遇到能力足以與自己抗衡、旗鼓相當的人",
+    "title": "委婉、宗教式或幽默地指死亡",
+    "en": "In the story, the villain finally meets his maker.",
+    "heading": "# 31. meet your maker（死亡；委婉／幽默） — 去世；見造物主",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "speaker",
+    "qid": "speaker-18-0",
+    "old": "講者備註",
+    "title": "電話透過外置揚聲器播放通話聲音，而不是只從聽筒輸出",
+    "en": "Put the call on speaker.",
+    "heading": "# 18. speaker（電話／裝置的免提揚聲器） — 免提；揚聲器模式",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "speaker",
+    "qid": "speaker-18-1",
+    "old": "講者備註",
+    "title": "電話透過外置揚聲器播放通話聲音，而不是只從聽筒輸出",
+    "en": "You're on speaker, so everyone can hear you.",
+    "heading": "# 18. speaker（電話／裝置的免提揚聲器） — 免提；揚聲器模式",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "benefit",
+    "qid": "benefit-04-0",
+    "old": "對某人／某事產生好處，使其受惠",
+    "title": "X 所帶來的正面效果／優點",
+    "en": "The benefit of a small bakery is personal service.",
+    "heading": "# 4. benefit of + noun / benefit of doing = ……的好處",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "benefit",
+    "qid": "benefit-04-1",
+    "old": "對某人／某事產生好處，使其受惠",
+    "title": "X 所帶來的正面效果／優點",
+    "en": "One benefit of buying locally is freshness.",
+    "heading": "# 4. benefit of + noun / benefit of doing = ……的好處",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "budge",
+    "qid": "budge-03-0",
+    "old": "數字、價格、比率或情況從原有狀態出現些微變化；屬於",
+    "title": "改變；有所變動",
+    "en": "The price has hardly budged all year.",
+    "heading": "# 3. budge = change in level, amount, price, etc.（數值／情況） — 改變；有所變動",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "budge",
+    "qid": "budge-03-1",
+    "old": "數字、價格、比率或情況從原有狀態出現些微變化；屬於",
+    "title": "改變；有所變動",
+    "en": "Despite the exercise, the number on the scale barely budged.",
+    "heading": "# 3. budge = change in level, amount, price, etc.（數值／情況） — 改變；有所變動",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "critical",
+    "qid": "critical-44-0",
+    "old": "物質液相和氣相性質界線消失的臨界狀態",
+    "title": "導數為零或不存在、可能出現極值等重要行為的點",
+    "en": "Find the critical points of the function.",
+    "heading": "## 44. critical point = 臨界點；駐點相關點",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "critical",
+    "qid": "critical-44-1",
+    "old": "物質液相和氣相性質界線消失的臨界狀態",
+    "title": "導數為零或不存在、可能出現極值等重要行為的點",
+    "en": "A critical point occurs where the derivative is zero or undefined.",
+    "heading": "## 44. critical point = 臨界點；駐點相關點",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "erase",
+    "qid": "erase-07-0",
+    "old": "消除傷害",
+    "title": "移除已錄製的聲音或影像內容",
+    "en": "The old recording was accidentally erased.",
+    "heading": "# 7. erase（錄音／影像：抹去記錄） — 抹除；清除",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "erase",
+    "qid": "erase-07-1",
+    "old": "消除傷害",
+    "title": "移除已錄製的聲音或影像內容",
+    "en": "Be careful not to erase the footage.",
+    "heading": "# 7. erase（錄音／影像：抹去記錄） — 抹除；清除",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "exhibition",
+    "qid": "exhibition-12-0",
+    "old": "給藥、施藥；已過時，不納入現代核心",
+    "title": "展示；展出",
+    "en": "The annual technology exhibit attracted thousands of visitors.",
+    "heading": "# 12. exhibit = public showing/show/display（名詞，一般） — 展示；展出",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "court",
+    "qid": "court-05-0",
+    "old": "法院內進行的正式法律程序",
+    "title": "法庭；審訊室",
+    "en": "Everyone stood as the judge entered the court.",
+    "heading": "5. court = courtroom / room where proceedings take place — 法庭；審訊室",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "calculate",
+    "qid": "calculate-91-0",
+    "old": "只求近似結果的粗略計算",
+    "title": "盤算；權衡",
+    "en": "The decision was based on political calculation.",
+    "heading": "## 91. calculation = deliberate weighing of advantage and consequence（盤算；權衡）",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "choose",
+    "qid": "choose-08-0",
+    "old": "有意識地決定不採取某個行動",
+    "title": "斟酌用詞；慎選措辭",
+    "en": "Choose your words carefully.",
+    "heading": "# 8. choose your words = 斟酌用詞；慎選措辭",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "choose",
+    "qid": "choose-08-1",
+    "old": "有意識地決定不採取某個行動",
+    "title": "斟酌用詞；慎選措辭",
+    "en": "She chose her words carefully before responding.",
+    "heading": "# 8. choose your words = 斟酌用詞；慎選措辭",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "choose",
+    "qid": "choose-09-0",
+    "old": "有意識地決定不採取某個行動",
+    "title": "選擇適當時機",
+    "en": "He chose the right moment to raise the issue.",
+    "heading": "# 9. choose one’s moment/time = 選擇適當時機",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "choose",
+    "qid": "choose-09-1",
+    "old": "有意識地決定不採取某個行動",
+    "title": "選擇適當時機",
+    "en": "Choose your time carefully.",
+    "heading": "# 9. choose one’s moment/time = 選擇適當時機",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "jump",
+    "qid": "jump-32-0",
+    "old": "跳遠",
+    "title": "數值或程度突然明顯改變，尤其上升",
+    "en": "There was a sudden jump in temperature.",
+    "heading": "# 32. jump（突然變化／躍升） — 急變；躍升",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "jump",
+    "qid": "jump-32-1",
+    "old": "跳遠",
+    "title": "數值或程度突然明顯改變，尤其上升",
+    "en": "We saw a large jump in demand.",
+    "heading": "# 32. jump（突然變化／躍升） — 急變；躍升",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "effort",
+    "qid": "effort-17-0",
+    "old": "費力地",
+    "title": "不需要明顯的力量、時間或心力",
+    "en": "The door opened without effort.",
+    "heading": "# 17. without effort — 毫不費力地",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "effort",
+    "qid": "effort-17-1",
+    "old": "費力地",
+    "title": "不需要明顯的力量、時間或心力",
+    "en": "Real teamwork does not happen without effort.",
+    "heading": "# 17. without effort — 毫不費力地",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "book",
+    "qid": "book-09-0",
+    "old": "完全按照正式規則、程序或規定行事",
+    "title": "已正式記錄、登記或列入某個機構的紀錄中",
+    "en": "The law has been on the books for decades.",
+    "heading": "# 9. on the books（正式記錄／現行） — 記錄在案；正式存在",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "book",
+    "qid": "book-09-1",
+    "old": "完全按照正式規則、程序或規定行事",
+    "title": "已正式記錄、登記或列入某個機構的紀錄中",
+    "en": "The company still has hundreds of employees on its books.",
+    "heading": "# 9. on the books（正式記錄／現行） — 記錄在案；正式存在",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "complete",
+    "qid": "complete-14-0",
+    "old": "補充最後欠缺的資訊，使全貌清楚",
+    "title": "補足陣容",
+    "en": "The new defender completes the squad.",
+    "heading": "# 14. complete a team/line-up = provide the final needed member（人員） — 補足陣容",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "complete",
+    "qid": "complete-67-0",
+    "old": "物業交易正式完成成交／交收的階段",
+    "title": "資料完整",
+    "en": "The analysis requires complete data.",
+    "heading": "# 67. complete data = all required data present（資料） — 資料完整",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "complete",
+    "qid": "complete-85-0",
+    "old": "某些教育制度中的未完成／暫緩評分成績",
+    "title": "不完整句",
+    "en": "‘Because I was tired’ may be treated as an incomplete sentence in traditional classroom grammar.",
+    "heading": "# 85. incomplete sentence = fragment / unfinished grammatical unit（文法） — 不完整句",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "decline",
+    "qid": "decline-14-0",
+    "old": "經濟衰退",
+    "title": "權力、影響力、重要性或地位逐漸減弱",
+    "en": "The organisation's influence began to decline.",
+    "heading": "# 14. decline（權力／影響力衰落） — 衰退；衰落",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "decline",
+    "qid": "decline-14-1",
+    "old": "經濟衰退",
+    "title": "權力、影響力、重要性或地位逐漸減弱",
+    "en": "The empire declined over several centuries.",
+    "heading": "# 14. decline（權力／影響力衰落） — 衰退；衰落",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "situation",
+    "qid": "situation-16-0",
+    "old": "情況改變",
+    "title": "某人當時所處的生活、工作或人際條件",
+    "en": "I wouldn't want to be in his situation.",
+    "heading": "# 16. situation（處境；個人所處狀態） — 處境",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "situation",
+    "qid": "situation-16-1",
+    "old": "情況改變",
+    "title": "某人當時所處的生活、工作或人際條件",
+    "en": "Try to see the problem from her situation.",
+    "heading": "# 16. situation（處境；個人所處狀態） — 處境",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "grow",
+    "qid": "grow-41-0",
+    "old": "經濟產出／活動規模隨時間增加",
+    "title": "人口增長",
+    "en": "The city has experienced rapid population growth.",
+    "heading": "# 41. population growth（人口增長） — 人口增長",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "grow",
+    "qid": "grow-41-1",
+    "old": "經濟產出／活動規模隨時間增加",
+    "title": "人口增長",
+    "en": "Population growth has slowed.",
+    "heading": "# 41. population growth（人口增長） — 人口增長",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "grow",
+    "qid": "grow-42-0",
+    "old": "身體上長出的異常組織／腫塊",
+    "title": "生物體尺寸、細胞、組織或成熟度增加的過程",
+    "en": "Plants need light for healthy growth.",
+    "heading": "# 42. growth = biological growth（生長） — 生長；發育",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "grow",
+    "qid": "grow-42-1",
+    "old": "身體上長出的異常組織／腫塊",
+    "title": "生物體尺寸、細胞、組織或成熟度增加的過程",
+    "en": "Nutrition affects childhood growth.",
+    "heading": "# 42. growth = biological growth（生長） — 生長；發育",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "produce",
+    "qid": "produce-22-0",
+    "old": "音樂製作人",
+    "title": "通常負責作品較高層次的資金、商業或整體製作管理的人",
+    "en": "He served as executive producer on the series.",
+    "heading": "# 22. executive producer — 執行製作人／行政監製",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "produce",
+    "qid": "produce-22-1",
+    "old": "音樂製作人",
+    "title": "通常負責作品較高層次的資金、商業或整體製作管理的人",
+    "en": "The executive producer helped secure funding.",
+    "heading": "# 22. executive producer — 執行製作人／行政監製",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "produce",
+    "qid": "produce-29-0",
+    "old": "生產；製作",
+    "title": "被製作並呈現出來的戲劇、電影或其他表演作品",
+    "en": "We saw a wonderful production of Hamlet.",
+    "heading": "# 29. production（作品；舞台製作） — 製作作品；演出",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "produce",
+    "qid": "produce-29-1",
+    "old": "生產；製作",
+    "title": "被製作並呈現出來的戲劇、電影或其他表演作品",
+    "en": "The theatre's latest production received excellent reviews.",
+    "heading": "# 29. production（作品；舞台製作） — 製作作品；演出",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "sleeve",
+    "qid": "sleeve-57-0",
+    "old": "有保護套的電纜",
+    "title": "左袖／右袖",
+    "en": "There is a stain on the left sleeve.",
+    "heading": "# 57. left sleeve / right sleeve — 左袖／右袖",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "sleeve",
+    "qid": "sleeve-57-1",
+    "old": "有保護套的電纜",
+    "title": "左袖／右袖",
+    "en": "The right sleeve is slightly twisted.",
+    "heading": "# 57. left sleeve / right sleeve — 左袖／右袖",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "sleeve",
+    "qid": "sleeve-60-0",
+    "old": "有保護套的電纜",
+    "title": "袖山",
+    "en": "The sleeve cap must fit the armhole correctly.",
+    "heading": "# 60. sleeve head / sleeve cap — 袖山",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "sleeve",
+    "qid": "sleeve-60-1",
+    "old": "有保護套的電纜",
+    "title": "袖山",
+    "en": "Changes to the sleeve cap can affect shoulder fit.",
+    "heading": "# 60. sleeve head / sleeve cap — 袖山",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "crack",
+    "qid": "crack-20-0",
+    "old": "說笑話",
+    "title": "擊垮；使招供",
+    "en": "The long questioning finally cracked him.",
+    "heading": "# 20. crack（使人崩潰；突破心理防線） — 擊垮；使招供",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "crack",
+    "qid": "crack-20-1",
+    "old": "說笑話",
+    "title": "擊垮；使招供",
+    "en": "Investigators hoped the pressure would crack the suspect.",
+    "heading": "# 20. crack（使人崩潰；突破心理防線） — 擊垮；使招供",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "contribute",
+    "qid": "contribute-25-0",
+    "old": "投稿",
+    "title": "某個因素對結果形成所起的部分作用",
+    "en": "The report examined stress's contribution to poor performance.",
+    "heading": "# 25. contribution（促成作用） — 促成作用；影響",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "contribute",
+    "qid": "contribute-25-1",
+    "old": "投稿",
+    "title": "某個因素對結果形成所起的部分作用",
+    "en": "Several factors made a contribution to the decline.",
+    "heading": "# 25. contribution（促成作用） — 促成作用；影響",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "correct",
+    "qid": "correct-35-0",
+    "old": "不正確的",
+    "title": "錯誤地",
+    "en": "The figures were incorrectly recorded.",
+    "heading": "# 35. incorrectly — 錯誤地",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "correct",
+    "qid": "correct-35-1",
+    "old": "不正確的",
+    "title": "錯誤地",
+    "en": "She was incorrectly identified as the person responsible.",
+    "heading": "# 35. incorrectly — 錯誤地",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "work",
+    "qid": "work-24-0",
+    "old": "巧妙與現場人士互動，以取得注意、支持或良好反應",
+    "title": "努力；致力",
+    "en": "They worked for years to improve the product.",
+    "heading": "24. work = make efforts toward a goal（為目 標努力） — 努力；致力",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "work",
+    "qid": "work-24-1",
+    "old": "巧妙與現場人士互動，以取得注意、支持或良好反應",
+    "title": "努力；致力",
+    "en": "We need to work together to solve the problem.",
+    "heading": "24. work = make efforts toward a goal（為目 標努力） — 努力；致力",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "stomach",
+    "qid": "stomach-20-0",
+    "old": "令人反胃的",
+    "title": "膽量；承受力",
+    "en": "He didn't have the stomach to continue.",
+    "heading": "# 20. stomach（勇氣／心理承受力） — 膽量；承受力",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "stomach",
+    "qid": "stomach-20-1",
+    "old": "令人反胃的",
+    "title": "膽量；承受力",
+    "en": "It takes some stomach to face that kind of criticism.",
+    "heading": "# 20. stomach（勇氣／心理承受力） — 膽量；承受力",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "little",
+    "qid": "little-22-0",
+    "old": "非常；相當",
+    "title": "很少地；幾乎不",
+    "en": "He little understood how serious the problem was.",
+    "heading": "# 22. little（adverb：不多；幾乎不） — 很少地；幾乎不",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "little",
+    "qid": "little-22-1",
+    "old": "非常；相當",
+    "title": "很少地；幾乎不",
+    "en": "She little expected to see him there.",
+    "heading": "# 22. little（adverb：不多；幾乎不） — 很少地；幾乎不",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "flatter",
+    "qid": "flatter-38-0",
+    "old": "因別人的讚賞、重視、邀請或關注而感到受寵若驚",
+    "title": "因受奉承而被哄去做某事",
+    "en": "He was flattered into agreeing.",
+    "heading": "## 38. be flattered into doing something = 因受奉承而被哄去做某事",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "flatter",
+    "qid": "flatter-38-1",
+    "old": "因別人的讚賞、重視、邀請或關注而感到受寵若驚",
+    "title": "因受奉承而被哄去做某事",
+    "en": "She was flattered into taking on more work.",
+    "heading": "## 38. be flattered into doing something = 因受奉承而被哄去做某事",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "defend",
+    "qid": "defend-03-0",
+    "old": "自衛；保護自己",
+    "title": "防止受到",
+    "en": "The shield helped defend him from flying debris.",
+    "heading": "# 3. defend someone from something = protect them from harm（防止受到）",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "defend",
+    "qid": "defend-07-0",
+    "old": "面對批評時提出理由支持／維護某個做法、立場或決定",
+    "title": "守住；防守",
+    "en": "The unit was ordered to defend the position.",
+    "heading": "# 7. defend a position = prevent an enemy taking it（陣地） — 守住；防守",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "defend",
+    "qid": "defend-09-0",
+    "old": "為自己的行為辯解／辯護",
+    "title": "防禦；保衛",
+    "en": "The city strengthened its defences.",
+    "heading": "# 9. defence/defense = protection against attack（防衛） — 防禦；保衛",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "defend",
+    "qid": "defend-53-0",
+    "old": "向考官答辯並以理據支持自己的研究",
+    "title": "保護棋子／格位",
+    "en": "The knight defends the pawn.",
+    "heading": "# 53. defend a piece/square = prevent its capture/control（棋類） — 保護棋子／格位",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "card",
+    "qid": "card-24-0",
+    "old": "查驗年齡證件",
+    "title": "在運動比賽中向球員出示警告或罰離場用的牌",
+    "en": "The referee carded the defender.",
+    "heading": "# 24. card someone（sports） — 向球員出示黃／紅牌",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "card",
+    "qid": "card-24-1",
+    "old": "查驗年齡證件",
+    "title": "在運動比賽中向球員出示警告或罰離場用的牌",
+    "en": "He was carded for a late tackle.",
+    "heading": "# 24. card someone（sports） — 向球員出示黃／紅牌",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "fire",
+    "qid": "fire-28-0",
+    "old": "火爆的；激烈的",
+    "title": "像火一樣的，尤其指顏色、熱度或外觀",
+    "en": "The sky turned a fiery orange.",
+    "heading": "# 28. fiery（像火般的；火紅的） — 火紅的；熾熱的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "fire",
+    "qid": "fire-28-1",
+    "old": "火爆的；激烈的",
+    "title": "像火一樣的，尤其指顏色、熱度或外觀",
+    "en": "Lava glowed fiery red.",
+    "heading": "# 28. fiery（像火般的；火紅的） — 火紅的；熾熱的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "charge",
+    "qid": "charge-48-0",
+    "old": "為爆破目的放置的一定量炸藥",
+    "title": "裝填",
+    "en": "The weapon was charged with powder.",
+    "heading": "## 48. charge = load with ammunition/explosive — 裝填",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "charge",
+    "qid": "charge-62-0",
+    "old": "為電池／電動車補充電能的過程",
+    "title": "帶球撞人／進攻撞人",
+    "en": "The referee called a charging foul.",
+    "heading": "## 62. charging = offensive foul caused by running into a defender — 帶球撞人／進攻撞人",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "charge",
+    "qid": "charge-62-1",
+    "old": "為電池／電動車補充電能的過程",
+    "title": "帶球撞人／進攻撞人",
+    "en": "Charging occurs when an offensive player illegally runs into a defender.",
+    "heading": "## 62. charging = offensive foul caused by running into a defender — 帶球撞人／進攻撞人",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "charge",
+    "qid": "charge-90-0",
+    "old": "為電池／電動車補充電能的過程",
+    "title": "收費；計費",
+    "en": "The company changed its charging structure.",
+    "heading": "## 90. charging = the act/system of imposing fees — 收費；計費",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "charge",
+    "qid": "charge-90-1",
+    "old": "為電池／電動車補充電能的過程",
+    "title": "收費；計費",
+    "en": "Road charging can reduce congestion.",
+    "heading": "## 90. charging = the act/system of imposing fees — 收費；計費",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "rule",
+    "qid": "rule-82-0",
+    "old": "X 超棒／最強",
+    "title": "遊戲／比賽規則",
+    "en": "Players must know the rules of the game.",
+    "heading": "# 82. rules of a game — 遊戲／比賽規則",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "rule",
+    "qid": "rule-82-1",
+    "old": "X 超棒／最強",
+    "title": "遊戲／比賽規則",
+    "en": "The referee applies the rules.",
+    "heading": "# 82. rules of a game — 遊戲／比賽規則",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "policy",
+    "qid": "policy-120-0",
+    "old": "放寬／收緊政策要求",
+    "title": "違反規定",
+    "en": "That is against company policy.",
+    "heading": "# 120. against policy = 違反規定",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "standard",
+    "qid": "standard-14-0",
+    "old": "標準型號／版本",
+    "title": "直立支架；旗杆",
+    "en": "The lamp was mounted on a tall standard.",
+    "heading": "# 14. standard = upright support / vertical object（旗杆等直立物） — 直立支架；旗杆",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "standard",
+    "qid": "standard-14-1",
+    "old": "標準型號／版本",
+    "title": "直立支架；旗杆",
+    "en": "The flag was fixed to a metal standard.",
+    "heading": "# 14. standard = upright support / vertical object（旗杆等直立物） — 直立支架；旗杆",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "order",
+    "qid": "order-36-0",
+    "old": "社會秩序",
+    "title": "生物分類中位於 class 與 family 之間的一個主要分類層級",
+    "en": "Primates are an order of mammals.",
+    "heading": "# 36. order（生物分類：目） — 目",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "order",
+    "qid": "order-36-1",
+    "old": "社會秩序",
+    "title": "生物分類中位於 class 與 family 之間的一個主要分類層級",
+    "en": "Cats belong to the order Carnivora.",
+    "heading": "# 36. order（生物分類：目） — 目",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "order",
+    "qid": "order-37-0",
+    "old": "由有權力的人發出的正式指示，要求別人做某事",
+    "title": "按共同宗教規則生活和工作的正式宗教團體",
+    "en": "He joined a religious order.",
+    "heading": "# 37. order（宗教修會） — 修會；宗教團體",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "order",
+    "qid": "order-37-1",
+    "old": "由有權力的人發出的正式指示，要求別人做某事",
+    "title": "按共同宗教規則生活和工作的正式宗教團體",
+    "en": "The order was founded centuries ago.",
+    "heading": "# 37. order（宗教修會） — 修會；宗教團體",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "get",
+    "qid": "get-15-0",
+    "old": "因事件而進入某種被動／結果狀態",
+    "title": "某人的東西遭受某個通常不希望發生的動作",
+    "en": "He got his wallet stolen.",
+    "heading": "# 15. get + object + past participle（遭遇某事） — 遭到；被……",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "get",
+    "qid": "get-15-1",
+    "old": "因事件而進入某種被動／結果狀態",
+    "title": "某人的東西遭受某個通常不希望發生的動作",
+    "en": "She got her bag damaged on the flight.",
+    "heading": "# 15. get + object + past participle（遭遇某事） — 遭到；被……",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "get",
+    "qid": "get-19-0",
+    "old": "替某人取得、買來或拿來某物",
+    "title": "成功找到、抓到或聯絡到某人",
+    "en": "The police finally got the suspect.",
+    "heading": "# 19. get + someone/something（抓到／找到／聯絡到） — 找到；抓到；聯絡上",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "get",
+    "qid": "get-19-1",
+    "old": "替某人取得、買來或拿來某物",
+    "title": "成功找到、抓到或聯絡到某人",
+    "en": "I couldn’t get him on the phone.",
+    "heading": "# 19. get + someone/something（抓到／找到／聯絡到） — 找到；抓到；聯絡上",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "deep",
+    "qid": "deep-12-0",
+    "old": "憂慮程度很高、深感擔心",
+    "title": "非常失望",
+    "en": "She was deeply disappointed.",
+    "heading": "# 12. deeply disappointed（極度失望） — 非常失望",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "deep",
+    "qid": "deep-12-1",
+    "old": "憂慮程度很高、深感擔心",
+    "title": "非常失望",
+    "en": "I was deeply disappointed by the result.",
+    "heading": "# 12. deeply disappointed（極度失望） — 非常失望",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "number",
+    "qid": "number-16-0",
+    "old": "給人／物加上號碼作排列或識別",
+    "title": "尺碼號數；型號",
+    "en": "What shoe number do you wear?",
+    "heading": "# 16. number = size code in some systems — 尺碼號數；型號",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "number",
+    "qid": "number-16-1",
+    "old": "給人／物加上號碼作排列或識別",
+    "title": "尺碼號數；型號",
+    "en": "This model comes in several numbered sizes.",
+    "heading": "# 16. number = size code in some systems — 尺碼號數；型號",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "number",
+    "qid": "number-19-0",
+    "old": "排名第一；最重要／首要的",
+    "title": "把 X 算作 Y 之中的一員",
+    "en": "She numbers several famous writers among her friends.",
+    "heading": "# 19. number among = 把……列為；屬於……之一",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "number",
+    "qid": "number-19-1",
+    "old": "排名第一；最重要／首要的",
+    "title": "把 X 算作 Y 之中的一員",
+    "en": "The city numbers many historic buildings among its attractions.",
+    "heading": "# 19. number among = 把……列為；屬於……之一",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "time",
+    "qid": "time-09-0",
+    "old": "活動／事情）",
+    "title": "……的時間",
+    "en": "It’s time for lunch.",
+    "heading": "9. time for + activity/event（活動／事情） — ……的時間",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "time",
+    "qid": "time-09-1",
+    "old": "活動／事情）",
+    "title": "……的時間",
+    "en": "We still have time for one more question.",
+    "heading": "9. time for + activity/event（活動／事情） — ……的時間",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "time",
+    "qid": "time-16-0",
+    "old": "動作／活動）",
+    "title": "計時",
+    "en": "The coach timed each runner.",
+    "heading": "16. time + action/event（測量某動作／活動所需時間） — 計時",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "time",
+    "qid": "time-16-1",
+    "old": "動作／活動）",
+    "title": "計時",
+    "en": "I timed the journey, and it took 35 minutes.",
+    "heading": "16. time + action/event（測量某動作／活動所需時間） — 計時",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "time",
+    "qid": "time-17-0",
+    "old": "事件／行動）",
+    "title": "安排時間；選定時機",
+    "en": "They timed the announcement carefully.",
+    "heading": "17. time + action/event（安排某事發生的時間） — 安排時間；選定時機",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "time",
+    "qid": "time-17-1",
+    "old": "事件／行動）",
+    "title": "安排時間；選定時機",
+    "en": "The launch was timed for the holiday season.",
+    "heading": "17. time + action/event（安排某事發生的時間） — 安排時間；選定時機",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "angle",
+    "qid": "angle-08-0",
+    "old": "45 度角",
+    "title": "以某個具體角度排列或傾斜",
+    "en": "Cut the branch at a 45-degree angle.",
+    "heading": "# 8. at a 45-degree angle — 以 45 度角",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "angle",
+    "qid": "angle-08-1",
+    "old": "45 度角",
+    "title": "以某個具體角度排列或傾斜",
+    "en": "The roof slopes at a steep angle.",
+    "heading": "# 8. at a 45-degree angle — 以 45 度角",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "angle",
+    "qid": "angle-09-0",
+    "old": "鏡頭角度",
+    "title": "觀看或拍攝某人／某物時所處的方向或位置",
+    "en": "The view looks better from this angle.",
+    "heading": "# 9. angle（觀看／拍攝角度） — 視角；拍攝角度",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "angle",
+    "qid": "angle-09-1",
+    "old": "鏡頭角度",
+    "title": "觀看或拍攝某人／某物時所處的方向或位置",
+    "en": "The photographer changed the camera angle.",
+    "heading": "# 9. angle（觀看／拍攝角度） — 視角；拍攝角度",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "suffer",
+    "qid": "suffer-29-0",
+    "old": "出現下降",
+    "title": "面對短缺",
+    "en": "The region suffered severe food shortages.",
+    "heading": "# 29. suffer a shortage — 面對短缺",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "suffer",
+    "qid": "suffer-29-1",
+    "old": "出現下降",
+    "title": "面對短缺",
+    "en": "Hospitals suffered shortages of essential supplies.",
+    "heading": "# 29. suffer a shortage — 面對短缺",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "throw",
+    "qid": "throw-07-0",
+    "old": "快速而直接地把目光、問題等投向某人",
+    "title": "揮出；打出；做出",
+    "en": "He threw a punch.",
+    "heading": "# 7. throw = perform a physical action forcefully（動作） — 揮出；打出；做出",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "throw",
+    "qid": "throw-07-1",
+    "old": "快速而直接地把目光、問題等投向某人",
+    "title": "揮出；打出；做出",
+    "en": "She threw her arms around him.",
+    "heading": "# 7. throw = perform a physical action forcefully（動作） — 揮出；打出；做出",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "letter",
+    "qid": "letter-56-0",
+    "old": "無法投遞或退回的郵件",
+    "title": "形同虛設的規定",
+    "en": "The rule has become a dead letter.",
+    "heading": "## 56. dead letter = rule/law/agreement that formally exists but is no longer effective（形同虛設 的規定）",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "roast",
+    "qid": "roast-40-0",
+    "old": "咖啡烘焙師／烘焙公司",
+    "title": "吐槽／調侃大會",
+    "en": "They held a roast for the retiring manager.",
+    "heading": "## 40. roast = event where a person is humorously insulted/teased publicly（吐槽／調侃大會）",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "overhead",
+    "qid": "overhead-12-0",
+    "old": "架空電線／電纜",
+    "title": "橋式起重機／高架起重機",
+    "en": "An overhead crane moved the heavy equipment across the factory.",
+    "heading": "# 12. overhead crane（工程） — 橋式起重機／高架起重機",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "overhead",
+    "qid": "overhead-14-0",
+    "old": "從上方俯拍的鏡頭",
+    "title": "投影機／高映機",
+    "en": "The teacher used an overhead projector.",
+    "heading": "# 14. overhead projector = 投影機／高映機",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "burst",
+    "qid": "burst-14-0",
+    "old": "自豪極了",
+    "title": "某種情緒非常強烈，彷彿多得要滿溢出來",
+    "en": "She was bursting with excitement before the trip.",
+    "heading": "# 14. be bursting with emotion — 充滿強烈情緒",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "burst",
+    "qid": "burst-14-1",
+    "old": "自豪極了",
+    "title": "某種情緒非常強烈，彷彿多得要滿溢出來",
+    "en": "He was bursting with pride after seeing his son's performance.",
+    "heading": "# 14. be bursting with emotion — 充滿強烈情緒",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "burst",
+    "qid": "burst-18-0",
+    "old": "擠得／塞得滿滿的",
+    "title": "非常急着要上廁所",
+    "en": "I'm bursting for the toilet.",
+    "heading": "# 18. bursting for the toilet / bursting to go — 急得不得了，要上廁所",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "burst",
+    "qid": "burst-18-1",
+    "old": "擠得／塞得滿滿的",
+    "title": "非常急着要上廁所",
+    "en": "The child said he was bursting to go.",
+    "heading": "# 18. bursting for the toilet / bursting to go — 急得不得了，要上廁所",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "every",
+    "qid": "every-20-0",
+    "old": "每隔一段時間；偶爾",
+    "title": "四面八方；亂七八糟各個方向",
+    "en": "People were moving every which way.",
+    "heading": "# 20. every which way（口語，尤其 AmE） — 四面八方；亂七八糟各個方向",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "every",
+    "qid": "every-20-1",
+    "old": "每隔一段時間；偶爾",
+    "title": "四面八方；亂七八糟各個方向",
+    "en": "The branches were growing every which way.",
+    "heading": "# 20. every which way（口語，尤其 AmE） — 四面八方；亂七八糟各個方向",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "hold",
+    "qid": "hold-36-0",
+    "old": "延誤／搶劫",
+    "title": "在時間、壓力或檢驗下仍保持有效、完整或可信",
+    "en": "The old bridge has held up well.",
+    "heading": "# 36. hold up（經得起考驗；保持良好） — 維持得不錯",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "hold",
+    "qid": "hold-36-1",
+    "old": "延誤／搶劫",
+    "title": "在時間、壓力或檢驗下仍保持有效、完整或可信",
+    "en": "His argument doesn't hold up under close examination.",
+    "heading": "# 36. hold up（經得起考驗；保持良好） — 維持得不錯",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "brief",
+    "qid": "brief-49-0",
+    "old": "簡報；說明會",
+    "title": "向團隊交代任務／資訊",
+    "en": "The project manager briefed the team on its responsibilities.",
+    "heading": "# 49. brief a team — 向團隊交代任務／資訊",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "brief",
+    "qid": "brief-49-1",
+    "old": "簡報；說明會",
+    "title": "向團隊交代任務／資訊",
+    "en": "Brief the team before they begin.",
+    "heading": "# 49. brief a team — 向團隊交代任務／資訊",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "pace",
+    "qid": "pace-12-0",
+    "old": "「恕我不同意／儘管某人的看法」；罕見專門用法",
+    "title": "用步數量距離",
+    "en": "He paced out the length of the room.",
+    "heading": "# 12. pace out / pace off = measure by walking steps（片語） — 用步數量距離",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "pace",
+    "qid": "pace-12-1",
+    "old": "「恕我不同意／儘管某人的看法」；罕見專門用法",
+    "title": "用步數量距離",
+    "en": "She paced off twenty metres.",
+    "heading": "# 12. pace out / pace off = measure by walking steps（片語） — 用步數量距離",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "okay",
+    "qid": "okay-07-0",
+    "old": "感覺還可以",
+    "title": "品質、表現或情況可以接受，但不算特別好",
+    "en": "The film was okay, but I wouldn't watch it again.",
+    "heading": "# 7. okay（可以接受的；尚可的） — 還可以的；過得去的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "okay",
+    "qid": "okay-07-1",
+    "old": "感覺還可以",
+    "title": "品質、表現或情況可以接受，但不算特別好",
+    "en": "The food was okay, nothing special.",
+    "heading": "# 7. okay（可以接受的；尚可的） — 還可以的；過得去的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "apologise",
+    "qid": "apologise-22-0",
+    "old": "帶歉意的微笑",
+    "title": "聽起來／看起來很抱歉",
+    "en": "He sounded apologetic on the phone.",
+    "heading": "# 22. sound / look apologetic — 聽起來／看起來很抱歉",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "apologise",
+    "qid": "apologise-22-1",
+    "old": "帶歉意的微笑",
+    "title": "聽起來／看起來很抱歉",
+    "en": "She looked apologetic after realizing her mistake.",
+    "heading": "# 22. sound / look apologetic — 聽起來／看起來很抱歉",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "mood",
+    "qid": "mood-15-0",
+    "old": "情緒反覆的人",
+    "title": "顯得陰沉、不開心或難以接近的",
+    "en": "She sat quietly looking moody.",
+    "heading": "# 15. moody（悶悶不樂的） — 情緒低落的；陰沉的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "mood",
+    "qid": "mood-15-1",
+    "old": "情緒反覆的人",
+    "title": "顯得陰沉、不開心或難以接近的",
+    "en": "He became moody and withdrawn after the argument.",
+    "heading": "# 15. moody（悶悶不樂的） — 情緒低落的；陰沉的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "original",
+    "qid": "original-09-0",
+    "old": "作品最初創作、錄製或發表時的語言／版本",
+    "title": "被複製或改編所依據的原始作品／文件／物件",
+    "en": "The gallery displayed both the copy and the original.",
+    "heading": "# 9. original = noun, original work/version — 原作；原稿；原件",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "original",
+    "qid": "original-09-1",
+    "old": "作品最初創作、錄製或發表時的語言／版本",
+    "title": "被複製或改編所依據的原始作品／文件／物件",
+    "en": "Please send us the original, not a photocopy.",
+    "heading": "# 9. original = noun, original work/version — 原作；原稿；原件",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "win",
+    "qid": "win-37-0",
+    "old": "連續多次取得勝利的一段時期",
+    "title": "一組能反覆帶來成功的做法／因素",
+    "en": "The company seems to have found a winning formula.",
+    "heading": "# 37. winning formula（成功方程式／方法） — 成功方法",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "win",
+    "qid": "win-37-1",
+    "old": "連續多次取得勝利的一段時期",
+    "title": "一組能反覆帶來成功的做法／因素",
+    "en": "Good service and fair prices proved to be a winning formula.",
+    "heading": "# 37. winning formula（成功方程式／方法） — 成功方法",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "control",
+    "qid": "control-23-0",
+    "old": "受控／對照實驗",
+    "title": "溫度、光線、濕度等條件受到刻意調節的環境",
+    "en": "The plants were grown in a controlled environment.",
+    "heading": "# 23. controlled environment — 受控環境",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "control",
+    "qid": "control-23-1",
+    "old": "受控／對照實驗",
+    "title": "溫度、光線、濕度等條件受到刻意調節的環境",
+    "en": "Temperature is kept constant in a controlled environment.",
+    "heading": "# 23. controlled environment — 受控環境",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "file",
+    "qid": "file-21-0",
+    "old": "收好歸檔",
+    "title": "向法院、政府、機構等正式提交文件或申請，使其成為正式紀錄",
+    "en": "She filed a complaint.",
+    "heading": "# 21. file（verb：正式提交） — 提交；呈交",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "file",
+    "qid": "file-21-1",
+    "old": "收好歸檔",
+    "title": "向法院、政府、機構等正式提交文件或申請，使其成為正式紀錄",
+    "en": "The lawyer filed the documents with the court.",
+    "heading": "# 21. file（verb：正式提交） — 提交；呈交",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "file",
+    "qid": "file-31-0",
+    "old": "歸檔／申報文件",
+    "title": "用來分類、保存和尋找文件的組織方法",
+    "en": "The office needs a better filing system.",
+    "heading": "# 31. filing system — 歸檔系統",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "file",
+    "qid": "file-31-1",
+    "old": "歸檔／申報文件",
+    "title": "用來分類、保存和尋找文件的組織方法",
+    "en": "Our digital filing system is easy to use.",
+    "heading": "# 31. filing system — 歸檔系統",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "deadline",
+    "qid": "deadline-24-0",
+    "old": "截稿期限",
+    "title": "在電腦或實時系統中，某項運算必須完成的最遲時間",
+    "en": "The task must finish before its processing deadline.",
+    "heading": "# 24. deadline（電腦／實時系統：必須完成的最後時間） — 時限；截止時間",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "deadline",
+    "qid": "deadline-24-1",
+    "old": "截稿期限",
+    "title": "在電腦或實時系統中，某項運算必須完成的最遲時間",
+    "en": "Missing a real-time deadline can cause system failure.",
+    "heading": "# 24. deadline（電腦／實時系統：必須完成的最後時間） — 時限；截止時間",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "power",
+    "qid": "power-26-0",
+    "old": "由電力／機械動力驅動的",
+    "title": "用來開啟／關閉設備電源的按鈕",
+    "en": "Press the power button to turn the device on.",
+    "heading": "# 26. power button（電源按鈕） — 電源鍵",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "power",
+    "qid": "power-26-1",
+    "old": "由電力／機械動力驅動的",
+    "title": "用來開啟／關閉設備電源的按鈕",
+    "en": "The power button is on the side.",
+    "heading": "# 26. power button（電源按鈕） — 電源鍵",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "attend",
+    "qid": "attend-04-0",
+    "old": "出席婚禮",
+    "title": "到場參與某個正式或社交場合",
+    "en": "We attended the wedding last weekend.",
+    "heading": "# 4. attend a ceremony / wedding / funeral — 出席正式場合",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "attend",
+    "qid": "attend-04-1",
+    "old": "出席婚禮",
+    "title": "到場參與某個正式或社交場合",
+    "en": "Many former students attended his funeral.",
+    "heading": "# 4. attend a ceremony / wedding / funeral — 出席正式場合",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "attend",
+    "qid": "attend-14-0",
+    "old": "伴隨風險",
+    "title": "與某件主要事情同時出現、由它伴隨產生的",
+    "en": "Rapid growth brings attendant problems.",
+    "heading": "# 14. attendant problems / risks / costs — 伴隨而來的問題／風險／成本",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "attend",
+    "qid": "attend-14-1",
+    "old": "伴隨風險",
+    "title": "與某件主要事情同時出現、由它伴隨產生的",
+    "en": "The plan has several attendant risks.",
+    "heading": "# 14. attendant problems / risks / costs — 伴隨而來的問題／風險／成本",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "mistake",
+    "qid": "mistake-23-0",
+    "old": "很多人容易犯／經常出現的錯誤",
+    "title": "重蹈覆轍",
+    "en": "Don’t repeat the same mistake.",
+    "heading": "# 23. repeat the same mistake（重犯同樣錯誤） — 重蹈覆轍",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "mistake",
+    "qid": "mistake-23-1",
+    "old": "很多人容易犯／經常出現的錯誤",
+    "title": "重蹈覆轍",
+    "en": "He kept making the same mistake.",
+    "heading": "# 23. repeat the same mistake（重犯同樣錯誤） — 重蹈覆轍",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "dry",
+    "qid": "dry-18-0",
+    "old": "少雨期",
+    "title": "比喻某方面長時間沒有成果、成功或進展的時期",
+    "en": "The striker ended a long scoring dry spell.",
+    "heading": "# 18. dry spell（figurative：低潮期） — 一段沒有成果的時期",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "dry",
+    "qid": "dry-18-1",
+    "old": "少雨期",
+    "title": "比喻某方面長時間沒有成果、成功或進展的時期",
+    "en": "The writer went through a creative dry spell.",
+    "heading": "# 18. dry spell（figurative：低潮期） — 一段沒有成果的時期",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "ahead",
+    "qid": "ahead-05-0",
+    "old": "提前計劃",
+    "title": "比實際需要或事件發生時間更早",
+    "en": "It's a good idea to plan ahead.",
+    "heading": "# 5. ahead（較早；提前） — 事先；提前",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "ahead",
+    "qid": "ahead-05-1",
+    "old": "提前計劃",
+    "title": "比實際需要或事件發生時間更早",
+    "en": "We booked the tickets several months ahead.",
+    "heading": "# 5. ahead（較早；提前） — 事先；提前",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "use",
+    "qid": "use-13-0",
+    "old": "過去有某個習慣或狀態，而現在通常已經不同",
+    "title": "能提供實際幫助或價值",
+    "en": "I hope this guide will be of use to you.",
+    "heading": "# 13. be of use to + person（對某人） — 對……有用／有幫助",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "use",
+    "qid": "use-13-1",
+    "old": "過去有某個習慣或狀態，而現在通常已經不同",
+    "title": "能提供實際幫助或價值",
+    "en": "The information may be of use to researchers.",
+    "heading": "# 13. be of use to + person（對某人） — 對……有用／有幫助",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "early",
+    "qid": "early-12-0",
+    "old": "今天較早時",
+    "title": "發生時間比原先預測更早",
+    "en": "The meeting ended earlier than expected.",
+    "heading": "# 12. earlier than expected — 比預期早",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "early",
+    "qid": "early-12-1",
+    "old": "今天較早時",
+    "title": "發生時間比原先預測更早",
+    "en": "She recovered earlier than expected.",
+    "heading": "# 12. earlier than expected — 比預期早",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "early",
+    "qid": "early-24-0",
+    "old": "早開始；提早出發",
+    "title": "比通常或原定時間更早發生",
+    "en": "We had an early lunch.",
+    "heading": "# 24. early（提前發生） — 提早發生的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "early",
+    "qid": "early-24-1",
+    "old": "早開始；提早出發",
+    "title": "比通常或原定時間更早發生",
+    "en": "The team made an early start.",
+    "heading": "# 24. early（提前發生） — 提早發生的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "drink",
+    "qid": "drink-12-0",
+    "old": "適合人類直接飲用的水",
+    "title": "用來喝水或其他飲品的玻璃杯",
+    "en": "She placed a drinking glass beside the plate.",
+    "heading": "# 12. drinking glass = 飲水杯；玻璃杯",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "drink",
+    "qid": "drink-12-1",
+    "old": "適合人類直接飲用的水",
+    "title": "用來喝水或其他飲品的玻璃杯",
+    "en": "The cabinet contains several drinking glasses.",
+    "heading": "# 12. drinking glass = 飲水杯；玻璃杯",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "adventure",
+    "qid": "adventure-10-0",
+    "old": "愛冒險的人",
+    "title": "願意嘗試新事物、探索未知或接受一定風險的",
+    "en": "Leo is naturally very adventurous.",
+    "heading": "# 10. adventurous（人） — 愛冒險的；有冒險精神的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "adventure",
+    "qid": "adventure-10-1",
+    "old": "愛冒險的人",
+    "title": "願意嘗試新事物、探索未知或接受一定風險的",
+    "en": "She has always been an adventurous traveller.",
+    "heading": "# 10. adventurous（人） — 愛冒險的；有冒險精神的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "adventure",
+    "qid": "adventure-11-0",
+    "old": "大膽決定",
+    "title": "帶有新奇、挑戰或風險的",
+    "en": "They planned an adventurous trip through the mountains.",
+    "heading": "# 11. adventurous（活動／計劃） — 大膽的；刺激的；富冒險性的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "adventure",
+    "qid": "adventure-11-1",
+    "old": "大膽決定",
+    "title": "帶有新奇、挑戰或風險的",
+    "en": "It was an adventurous decision, but it worked.",
+    "heading": "# 11. adventurous（活動／計劃） — 大膽的；刺激的；富冒險性的",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "adventure",
+    "qid": "adventure-15-0",
+    "old": "冒險；奇遇",
+    "title": "冒險進入或前往未知、陌生或可能有風險的地方",
+    "en": "Few travellers adventured into the remote valley.",
+    "heading": "# 15. adventure（verb） — 冒險進入；大膽前往",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "adventure",
+    "qid": "adventure-15-1",
+    "old": "冒險；奇遇",
+    "title": "冒險進入或前往未知、陌生或可能有風險的地方",
+    "en": "They adventured beyond the familiar route.",
+    "heading": "# 15. adventure（verb） — 冒險進入；大膽前往",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "lightning",
+    "qid": "lightning-09-0",
+    "old": "避雷針",
+    "title": "容易吸引大量批評、憤怒或爭議的人或事物",
+    "en": "The proposal became a lightning rod for criticism.",
+    "heading": "# 9. lightning rod（figurative, especially AmE） — 引發爭議或批評的焦點",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "lightning",
+    "qid": "lightning-09-1",
+    "old": "避雷針",
+    "title": "容易吸引大量批評、憤怒或爭議的人或事物",
+    "en": "He has become a lightning rod for public anger.",
+    "heading": "# 9. lightning rod（figurative, especially AmE） — 引發爭議或批評的焦點",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "fit",
+    "qid": "fit-24-0",
+    "old": "個體在特定環境中留下後代的相對成功程度",
+    "title": "體能；健康狀況",
+    "en": "Regular exercise improves fitness.",
+    "heading": "## 24. fitness = physical health/ability — 體能；健康狀況",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "fit",
+    "qid": "fit-24-1",
+    "old": "個體在特定環境中留下後代的相對成功程度",
+    "title": "體能；健康狀況",
+    "en": "The test assesses physical fitness.",
+    "heading": "## 24. fitness = physical health/ability — 體能；健康狀況",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "fit",
+    "qid": "fit-36-0",
+    "old": "用來連接、固定或安裝設備的小型零件",
+    "title": "試身；試穿；量身",
+    "en": "She has a dress fitting tomorrow.",
+    "heading": "## 36. fitting = 試身；試穿；量身",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "fit",
+    "qid": "fit-36-1",
+    "old": "用來連接、固定或安裝設備的小型零件",
+    "title": "試身；試穿；量身",
+    "en": "The final fitting took thirty minutes.",
+    "heading": "## 36. fitting = 試身；試穿；量身",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "echo",
+    "qid": "echo-04-0",
+    "old": "重複、模仿或再次發出相似聲音",
+    "title": "某空間充滿某種聲音的回響",
+    "en": "The hall echoed with laughter.",
+    "heading": "# 4. echo with a sound（充滿回響） — 回蕩著……",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "echo",
+    "qid": "echo-04-1",
+    "old": "重複、模仿或再次發出相似聲音",
+    "title": "某空間充滿某種聲音的回響",
+    "en": "The room echoed with applause.",
+    "heading": "# 4. echo with a sound（充滿回響） — 回蕩著……",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "echo",
+    "qid": "echo-15-0",
+    "old": "相同觀點反覆被重複和強化、外部不同意見很少進入的環境",
+    "title": "聲音容易被反覆反射的空間",
+    "en": "The empty hall felt like an echo chamber.",
+    "heading": "# 15. echo chamber = literal acoustic space（回音室） — 產生強回聲的空間",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "echo",
+    "qid": "echo-15-1",
+    "old": "相同觀點反覆被重複和強化、外部不同意見很少進入的環境",
+    "title": "聲音容易被反覆反射的空間",
+    "en": "The room acted as an echo chamber.",
+    "heading": "# 15. echo chamber = literal acoustic space（回音室） — 產生強回聲的空間",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "echo",
+    "qid": "echo-17-0",
+    "old": "充滿明顯回聲／聲音不斷回蕩的",
+    "title": "呼應；重複",
+    "en": "He made an echoing argument about fairness.",
+    "heading": "# 17. echoing = repeating/reinforcing an idea（呼應的） — 呼應；重複",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "echo",
+    "qid": "echo-17-1",
+    "old": "充滿明顯回聲／聲音不斷回蕩的",
+    "title": "呼應；重複",
+    "en": "The article contained echoing themes from the earlier work.",
+    "heading": "# 17. echoing = repeating/reinforcing an idea（呼應的） — 呼應；重複",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "target",
+    "qid": "target-47-0",
+    "old": "被特別挑選作攻擊、批評、欺詐等的對象",
+    "title": "靶；目標物",
+    "en": "The arrow hit the target.",
+    "heading": "## 47. target = object/mark aimed at in shooting, archery, darts, etc.（靶；目標物）",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "target",
+    "qid": "target-107-0",
+    "old": "被特別挑選作攻擊、批評、欺詐等的對象",
+    "title": "天文觀測目標",
+    "en": "The telescope moved to the next target.",
+    "heading": "## 107. target = selected star/galaxy/object for observation（天文觀測目標）",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "knot",
+    "qid": "knot-20-0",
+    "old": "木節",
+    "title": "航海及航空常用速度單位，相當於每小時一海里",
+    "en": "The ship was travelling at twenty knots.",
+    "heading": "# 20. knot（航海／航空速度單位） — 節",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "knot",
+    "qid": "knot-20-1",
+    "old": "木節",
+    "title": "航海及航空常用速度單位，相當於每小時一海里",
+    "en": "The wind speed reached forty knots.",
+    "heading": "# 20. knot（航海／航空速度單位） — 節",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "big",
+    "qid": "big-37-0",
+    "old": "程度非常大／嚴重；或取得重大成功",
+    "title": "高度成功、知名或重要的職業／娛樂層次",
+    "en": "She finally reached the big time.",
+    "heading": "# 37. the big time（頂級成功層次） — 成名；一流舞台",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "big",
+    "qid": "big-37-1",
+    "old": "程度非常大／嚴重；或取得重大成功",
+    "title": "高度成功、知名或重要的職業／娛樂層次",
+    "en": "He dreams of making it to the big time.",
+    "heading": "# 37. the big time（頂級成功層次） — 成名；一流舞台",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "house",
+    "qid": "house-04-0",
+    "old": "房子；住宅",
+    "title": "某些國家議會制度中的一個議院或立法機構",
+    "en": "The bill passed the House.",
+    "heading": "# 4. house（議院） — 議院；議會",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "house",
+    "qid": "house-04-1",
+    "old": "房子；住宅",
+    "title": "某些國家議會制度中的一個議院或立法機構",
+    "en": "Members returned to the House for the debate.",
+    "heading": "# 4. house（議院） — 議院；議會",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "house",
+    "qid": "house-06-0",
+    "old": "房子；住宅",
+    "title": "某些行業中的公司、商號或機構，尤其常見於出版、時裝、設計等領域",
+    "en": "She works for a major publishing house.",
+    "heading": "# 6. house（機構／公司，尤其出版、時裝等） — 公司；機構",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "house",
+    "qid": "house-06-1",
+    "old": "房子；住宅",
+    "title": "某些行業中的公司、商號或機構，尤其常見於出版、時裝、設計等領域",
+    "en": "The fashion house launched a new collection.",
+    "heading": "# 6. house（機構／公司，尤其出版、時裝等） — 公司；機構",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "serve",
+    "qid": "serve-14-0",
+    "old": "一人份／一份食物",
+    "title": "正式通知",
+    "en": "The company served notice that the agreement would end.",
+    "heading": "# 14. serve notice = formally inform（固定正式用法） — 正式通知",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "introduce",
+    "qid": "introduce-80-0",
+    "old": "向第三者介紹某人的介紹信",
+    "title": "引入；推出",
+    "en": "The introduction of online booking reduced waiting times.",
+    "heading": "# 80. the introduction of X = the act of bringing X into use/existence（引入；推出）",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "can",
+    "qid": "can-25-0",
+    "old": "金錢不足，或某行動的代價／後果太高而不能承受",
+    "title": "情感上無法忍受某件事",
+    "en": "I can’t bear to see her upset.",
+    "heading": "# 25. can’t bear（無法忍受） — 受不了",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "can",
+    "qid": "can-25-1",
+    "old": "金錢不足，或某行動的代價／後果太高而不能承受",
+    "title": "情感上無法忍受某件事",
+    "en": "He can’t bear the thought of leaving.",
+    "heading": "# 25. can’t bear（無法忍受） — 受不了",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "mother",
+    "qid": "mother-18-0",
+    "old": "一個人的母親的母親；外婆／母系祖母",
+    "title": "與母親血緣／家庭一方有關",
+    "en": "There are many teachers on my maternal side.",
+    "heading": "# 18. maternal side（母系一方） — 母親那邊的家族",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "mother",
+    "qid": "mother-18-1",
+    "old": "一個人的母親的母親；外婆／母系祖母",
+    "title": "與母親血緣／家庭一方有關",
+    "en": "The tradition comes from her maternal side.",
+    "heading": "# 18. maternal side（母系一方） — 母親那邊的家族",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "clip",
+    "qid": "clip-04-0",
+    "old": "用夾子／扣件把東西固定在另一物件上",
+    "title": "萬字夾；迴紋針",
+    "en": "Use a paper clip to keep the pages together.",
+    "heading": "# 4. paper clip = 萬字夾；迴紋針",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "clip",
+    "qid": "clip-04-1",
+    "old": "用夾子／扣件把東西固定在另一物件上",
+    "title": "萬字夾；迴紋針",
+    "en": "There were several paper clips on the desk.",
+    "heading": "# 4. paper clip = 萬字夾；迴紋針",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "clip",
+    "qid": "clip-05-0",
+    "old": "用夾子／扣件把東西固定在另一物件上",
+    "title": "髮夾",
+    "en": "She put her hair up with a hair clip.",
+    "heading": "# 5. hair clip = 髮夾",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "clip",
+    "qid": "clip-05-1",
+    "old": "用夾子／扣件把東西固定在另一物件上",
+    "title": "髮夾",
+    "en": "The hair clip matched her dress.",
+    "heading": "# 5. hair clip = 髮夾",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "burden",
+    "qid": "burden-02-0",
+    "old": "令某人承擔額外的困難、責任、成本或憂慮",
+    "title": "負擔；重擔",
+    "en": "The practice places an unfair burden on businesses.",
+    "heading": "# 2. burden = difficult responsibility, problem, cost, or worry（負擔） — 負擔；重擔",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "burden",
+    "qid": "burden-02-1",
+    "old": "令某人承擔額外的困難、責任、成本或憂慮",
+    "title": "負擔；重擔",
+    "en": "Caring for everything alone became a heavy burden.",
+    "heading": "# 2. burden = difficult responsibility, problem, cost, or worry（負擔） — 負擔；重擔",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "burden",
+    "qid": "burden-02-2",
+    "old": "令某人承擔額外的困難、責任、成本或憂慮",
+    "title": "負擔；重擔",
+    "en": "The additional costs created a financial burden for the family.",
+    "heading": "# 2. burden = difficult responsibility, problem, cost, or worry（負擔） — 負擔；重擔",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "burden",
+    "qid": "burden-09-0",
+    "old": "令某人承擔額外的困難、責任、成本或憂慮",
+    "title": "把重物加在其身上，使其負重",
+    "en": "The animals were heavily burdened with supplies.",
+    "heading": "# 9. burden = verb: load physically（使負重） — 裝載重物；使負重",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "burden",
+    "qid": "burden-12-0",
+    "old": "用來載重或拉東西的役畜",
+    "title": "承擔負擔／責任",
+    "en": "Customers should not have to bear the burden of the company’s mistakes.",
+    "heading": "# 12. bear/carry the burden = 承擔負擔／責任",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "burden",
+    "qid": "burden-12-1",
+    "old": "用來載重或拉東西的役畜",
+    "title": "承擔負擔／責任",
+    "en": "She carried the emotional burden for years.",
+    "heading": "# 12. bear/carry the burden = 承擔負擔／責任",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "burden",
+    "qid": "burden-13-0",
+    "old": "用來載重或拉東西的役畜",
+    "title": "分擔負擔",
+    "en": "The costs should be shared so that one group does not carry the entire burden.",
+    "heading": "# 13. share the burden = 分擔負擔",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "burden",
+    "qid": "burden-14-0",
+    "old": "用來載重或拉東西的役畜",
+    "title": "減輕負擔",
+    "en": "Automation can reduce the administrative burden.",
+    "heading": "# 14. ease/lighten/reduce the burden = 減輕負擔",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "home",
+    "qid": "home-01-0",
+    "old": "一個人平日居住和生活的房屋／住所",
+    "title": "回家；到家；在家",
+    "en": "I often got home feeling exhausted.",
+    "heading": "1. home = to/at one’s residence（副詞） — 回家；到家；在家",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "home",
+    "qid": "home-01-1",
+    "old": "一個人平日居住和生活的房屋／住所",
+    "title": "回家；到家；在家",
+    "en": "What time did you get home?",
+    "heading": "1. home = to/at one’s residence（副詞） — 回家；到家；在家",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "home",
+    "qid": "home-01-2",
+    "old": "一個人平日居住和生活的房屋／住所",
+    "title": "回家；到家；在家",
+    "en": "She stayed home all weekend.",
+    "heading": "1. home = to/at one’s residence（副詞） — 回家；到家；在家",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "shop",
+    "qid": "shop-31-0",
+    "old": "告發某人",
+    "title": "尋找／比較選項",
+    "en": "They are shopping for a new supplier.",
+    "heading": "# 31. shopping（比較選擇的行為 beyond retail） — 尋找／比較選項",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "shop",
+    "qid": "shop-31-1",
+    "old": "告發某人",
+    "title": "尋找／比較選項",
+    "en": "The company is shopping around for financing.",
+    "heading": "# 31. shopping（比較選擇的行為 beyond retail） — 尋找／比較選項",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "reflection",
+    "qid": "reflection-18-0",
+    "old": "帶有沉思性質或善於深入思考的",
+    "title": "能有效反射光線的",
+    "en": "The building uses highly reflective glass.",
+    "heading": "# 18. reflective surface/material — 反光表面／反射材料",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "reflection",
+    "qid": "reflection-18-1",
+    "old": "帶有沉思性質或善於深入思考的",
+    "title": "能有效反射光線的",
+    "en": "Reflective materials improve visibility at night.",
+    "heading": "# 18. reflective surface/material — 反光表面／反射材料",
+    "reason": "explicit-definition"
+  },
+  {
+    "module": "race",
+    "qid": "race-25-0",
+    "old": "以非常快的速度完成、閱讀或處理某件事",
+    "title": "品系；種類",
+    "en": "The text refers to an ancient race of horses.",
+    "heading": "# 25. race = breed/lineage of animals（品種／血統；較舊／專門） — 品系；種類",
+    "reason": "explicit-heading"
+  },
+  {
+    "module": "race",
+    "qid": "race-25-1",
+    "old": "以非常快的速度完成、閱讀或處理某件事",
+    "title": "品系；種類",
+    "en": "The species developed into several distinct local races.",
+    "heading": "# 25. race = breed/lineage of animals（品種／血統；較舊／專門） — 品系；種類",
+    "reason": "explicit-heading"
+  }
+]

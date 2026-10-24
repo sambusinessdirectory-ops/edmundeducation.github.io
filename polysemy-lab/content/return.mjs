@@ -1663,11 +1663,9 @@ export default {
       "masked": "Customers should be allowed to ____ defective items.",
       "options": [
         "return-mcq-01",
-        "return-mcq-02",
-        "return-mcq-03",
-        "return-mcq-04",
-        "return-mcq-05",
-        "return-mcq-06"
+        "return-mcq-62",
+        "return-mcq-31",
+        "return-mcq-44"
       ],
       "explanation": "本句的「return」指「退貨；退回商品 retail」。",
       "sentenceIndex": 0,
@@ -1676,12 +1674,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-01": "本句指「退貨；退回商品 retail」。",
-        "return-mcq-02": "「退回貨品 retail」與本句語境不同。",
-        "return-mcq-03": "「退貨退款 retail outcome」與本句語境不同。",
-        "return-mcq-04": "「退貨換貨 retail outcome」與本句語境不同。",
-        "return-mcq-05": "「一宗退貨 retail noun」與本句語境不同。",
-        "return-mcq-06": "「處理退貨 retail operations」與本句語境不同。"
+        "return-mcq-01": "本句的「return」指「退貨；退回商品 retail」。",
+        "return-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-01"
     },
@@ -1693,11 +1689,9 @@ export default {
       "masked": "She ____ the dress because the zip was broken.",
       "options": [
         "return-mcq-01",
-        "return-mcq-02",
-        "return-mcq-03",
-        "return-mcq-04",
-        "return-mcq-05",
-        "return-mcq-06"
+        "return-mcq-33",
+        "return-mcq-43",
+        "return-mcq-64"
       ],
       "explanation": "本句的「returned」指「退貨；退回商品 retail」。",
       "sentenceIndex": 1,
@@ -1706,12 +1700,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-01": "本句指「退貨；退回商品 retail」。",
-        "return-mcq-02": "「退回貨品 retail」與本句語境不同。",
-        "return-mcq-03": "「退貨退款 retail outcome」與本句語境不同。",
-        "return-mcq-04": "「退貨換貨 retail outcome」與本句語境不同。",
-        "return-mcq-05": "「一宗退貨 retail noun」與本句語境不同。",
-        "return-mcq-06": "「處理退貨 retail operations」與本句語境不同。"
+        "return-mcq-01": "本句的「returned」指「退貨；退回商品 retail」。",
+        "return-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-01"
     },
@@ -1723,11 +1715,9 @@ export default {
       "masked": "The store allows customers to ____ unwanted goods within fourteen days.",
       "options": [
         "return-mcq-01",
-        "return-mcq-02",
-        "return-mcq-03",
-        "return-mcq-04",
-        "return-mcq-05",
-        "return-mcq-06"
+        "return-mcq-58",
+        "return-mcq-34",
+        "return-mcq-64"
       ],
       "explanation": "本句的「return」指「退貨；退回商品 retail」。",
       "sentenceIndex": 2,
@@ -1736,12 +1726,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-01": "本句指「退貨；退回商品 retail」。",
-        "return-mcq-02": "「退回貨品 retail」與本句語境不同。",
-        "return-mcq-03": "「退貨退款 retail outcome」與本句語境不同。",
-        "return-mcq-04": "「退貨換貨 retail outcome」與本句語境不同。",
-        "return-mcq-05": "「一宗退貨 retail noun」與本句語境不同。",
-        "return-mcq-06": "「處理退貨 retail operations」與本句語境不同。"
+        "return-mcq-01": "本句的「return」指「退貨；退回商品 retail」。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-01"
     },
@@ -1753,11 +1741,9 @@ export default {
       "masked": "She ____ the blouse for a refund.",
       "options": [
         "return-mcq-03",
-        "return-mcq-02",
-        "return-mcq-04",
-        "return-mcq-01",
-        "return-mcq-05",
-        "return-mcq-06"
+        "return-mcq-72",
+        "return-mcq-73",
+        "return-mcq-33"
       ],
       "explanation": "本句的「returned」指「退貨退款 retail outcome」。",
       "sentenceIndex": 3,
@@ -1766,12 +1752,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-03": "本句指「退貨退款 retail outcome」。",
-        "return-mcq-02": "「退回貨品 retail」與本句語境不同。",
-        "return-mcq-04": "「退貨換貨 retail outcome」與本句語境不同。",
-        "return-mcq-01": "「退貨；退回商品 retail」與本句語境不同。",
-        "return-mcq-05": "「一宗退貨 retail noun」與本句語境不同。",
-        "return-mcq-06": "「處理退貨 retail operations」與本句語境不同。"
+        "return-mcq-03": "本句的「returned」指「退貨退款 retail outcome」。",
+        "return-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-03"
     },
@@ -1783,11 +1767,9 @@ export default {
       "masked": "Defective items may be ____ for a full refund.",
       "options": [
         "return-mcq-03",
-        "return-mcq-02",
-        "return-mcq-04",
-        "return-mcq-01",
-        "return-mcq-05",
-        "return-mcq-06"
+        "return-mcq-34",
+        "return-mcq-58",
+        "return-mcq-62"
       ],
       "explanation": "本句的「returned」指「退貨退款 retail outcome」。",
       "sentenceIndex": 4,
@@ -1796,12 +1778,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-03": "本句指「退貨退款 retail outcome」。",
-        "return-mcq-02": "「退回貨品 retail」與本句語境不同。",
-        "return-mcq-04": "「退貨換貨 retail outcome」與本句語境不同。",
-        "return-mcq-01": "「退貨；退回商品 retail」與本句語境不同。",
-        "return-mcq-05": "「一宗退貨 retail noun」與本句語境不同。",
-        "return-mcq-06": "「處理退貨 retail operations」與本句語境不同。"
+        "return-mcq-03": "本句的「returned」指「退貨退款 retail outcome」。",
+        "return-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-03"
     },
@@ -1813,11 +1793,9 @@ export default {
       "masked": "The customer ____ the shoes for an exchange.",
       "options": [
         "return-mcq-04",
-        "return-mcq-03",
-        "return-mcq-05",
-        "return-mcq-02",
-        "return-mcq-06",
-        "return-mcq-01"
+        "return-mcq-57",
+        "return-mcq-58",
+        "return-mcq-71"
       ],
       "explanation": "本句的「returned」指「退貨換貨 retail outcome」。",
       "sentenceIndex": 5,
@@ -1826,12 +1804,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-04": "本句指「退貨換貨 retail outcome」。",
-        "return-mcq-03": "「退貨退款 retail outcome」與本句語境不同。",
-        "return-mcq-05": "「一宗退貨 retail noun」與本句語境不同。",
-        "return-mcq-02": "「退回貨品 retail」與本句語境不同。",
-        "return-mcq-06": "「處理退貨 retail operations」與本句語境不同。",
-        "return-mcq-01": "「退貨；退回商品 retail」與本句語境不同。"
+        "return-mcq-04": "本句的「returned」指「退貨換貨 retail outcome」。",
+        "return-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-04"
     },
@@ -1843,11 +1819,9 @@ export default {
       "masked": "You may ____ the item for a different size.",
       "options": [
         "return-mcq-04",
-        "return-mcq-03",
-        "return-mcq-05",
-        "return-mcq-02",
-        "return-mcq-06",
-        "return-mcq-01"
+        "return-mcq-60",
+        "return-mcq-52",
+        "return-pdf-plain-061"
       ],
       "explanation": "本句的「return」指「退貨換貨 retail outcome」。",
       "sentenceIndex": 6,
@@ -1856,12 +1830,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-04": "本句指「退貨換貨 retail outcome」。",
-        "return-mcq-03": "「退貨退款 retail outcome」與本句語境不同。",
-        "return-mcq-05": "「一宗退貨 retail noun」與本句語境不同。",
-        "return-mcq-02": "「退回貨品 retail」與本句語境不同。",
-        "return-mcq-06": "「處理退貨 retail operations」與本句語境不同。",
-        "return-mcq-01": "「退貨；退回商品 retail」與本句語境不同。"
+        "return-mcq-04": "本句的「return」指「退貨換貨 retail outcome」。",
+        "return-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "return-pdf-plain-061": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-04"
     },
@@ -1873,11 +1845,9 @@ export default {
       "masked": "Customers must ____ the goods in their original condition.",
       "options": [
         "return-mcq-02",
-        "return-mcq-01",
-        "return-mcq-03",
-        "return-mcq-04",
-        "return-mcq-05",
-        "return-mcq-06"
+        "return-mcq-73",
+        "return-mcq-43",
+        "return-mcq-32"
       ],
       "explanation": "本句的「return」指「退回貨品 retail」。",
       "sentenceIndex": 7,
@@ -1886,12 +1856,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-02": "本句指「退回貨品 retail」。",
-        "return-mcq-01": "「退貨；退回商品 retail」與本句語境不同。",
-        "return-mcq-03": "「退貨退款 retail outcome」與本句語境不同。",
-        "return-mcq-04": "「退貨換貨 retail outcome」與本句語境不同。",
-        "return-mcq-05": "「一宗退貨 retail noun」與本句語境不同。",
-        "return-mcq-06": "「處理退貨 retail operations」與本句語境不同。"
+        "return-mcq-02": "本句的「return」指「退回貨品 retail」。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-02"
     },
@@ -1903,11 +1871,9 @@ export default {
       "masked": "____ merchandise is inspected before a refund is issued.",
       "options": [
         "return-mcq-02",
-        "return-mcq-01",
-        "return-mcq-03",
-        "return-mcq-04",
-        "return-mcq-05",
-        "return-mcq-06"
+        "return-mcq-61",
+        "return-mcq-78",
+        "return-mcq-79"
       ],
       "explanation": "本句的「Returned」指「退回貨品 retail」。",
       "sentenceIndex": 8,
@@ -1916,12 +1882,10 @@ export default {
         "Returned"
       ],
       "optionReasons": {
-        "return-mcq-02": "本句指「退回貨品 retail」。",
-        "return-mcq-01": "「退貨；退回商品 retail」與本句語境不同。",
-        "return-mcq-03": "「退貨退款 retail outcome」與本句語境不同。",
-        "return-mcq-04": "「退貨換貨 retail outcome」與本句語境不同。",
-        "return-mcq-05": "「一宗退貨 retail noun」與本句語境不同。",
-        "return-mcq-06": "「處理退貨 retail operations」與本句語境不同。"
+        "return-mcq-02": "本句的「Returned」指「退回貨品 retail」。",
+        "return-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-02"
     },
@@ -1933,11 +1897,9 @@ export default {
       "masked": "Staff should process ____ consistently.",
       "options": [
         "return-mcq-06",
-        "return-mcq-05",
-        "return-mcq-07",
-        "return-mcq-04",
-        "return-mcq-08",
-        "return-mcq-03"
+        "return-mcq-54",
+        "return-mcq-58",
+        "return-mcq-38"
       ],
       "explanation": "本句的「returns」指「處理退貨 retail operations」。",
       "sentenceIndex": 11,
@@ -1946,12 +1908,10 @@ export default {
         "returns"
       ],
       "optionReasons": {
-        "return-mcq-06": "本句指「處理退貨 retail operations」。",
-        "return-mcq-05": "「一宗退貨 retail noun」與本句語境不同。",
-        "return-mcq-07": "「接受退貨 policy」與本句語境不同。",
-        "return-mcq-04": "「退貨換貨 retail outcome」與本句語境不同。",
-        "return-mcq-08": "「拒絕退貨 policy」與本句語境不同。",
-        "return-mcq-03": "「退貨退款 retail outcome」與本句語境不同。"
+        "return-mcq-06": "本句的「returns」指「處理退貨 retail operations」。",
+        "return-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-06"
     },
@@ -1963,11 +1923,9 @@ export default {
       "masked": "The system automatically processes simple ____.",
       "options": [
         "return-mcq-06",
-        "return-mcq-05",
-        "return-mcq-07",
-        "return-mcq-04",
-        "return-mcq-08",
-        "return-mcq-03"
+        "return-mcq-38",
+        "return-mcq-66",
+        "return-mcq-58"
       ],
       "explanation": "本句的「returns」指「處理退貨 retail operations」。",
       "sentenceIndex": 12,
@@ -1976,12 +1934,10 @@ export default {
         "returns"
       ],
       "optionReasons": {
-        "return-mcq-06": "本句指「處理退貨 retail operations」。",
-        "return-mcq-05": "「一宗退貨 retail noun」與本句語境不同。",
-        "return-mcq-07": "「接受退貨 policy」與本句語境不同。",
-        "return-mcq-04": "「退貨換貨 retail outcome」與本句語境不同。",
-        "return-mcq-08": "「拒絕退貨 policy」與本句語境不同。",
-        "return-mcq-03": "「退貨退款 retail outcome」與本句語境不同。"
+        "return-mcq-06": "本句的「returns」指「處理退貨 retail operations」。",
+        "return-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-06"
     },
@@ -1993,11 +1949,9 @@ export default {
       "masked": "The store will accept the ____ if the tags are still attached.",
       "options": [
         "return-mcq-07",
-        "return-mcq-06",
-        "return-mcq-08",
-        "return-mcq-05",
-        "return-mcq-09",
-        "return-mcq-04"
+        "return-mcq-41",
+        "return-mcq-73",
+        "return-mcq-31"
       ],
       "explanation": "本句的「return」指「接受退貨 policy」。",
       "sentenceIndex": 13,
@@ -2006,12 +1960,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-07": "本句指「接受退貨 policy」。",
-        "return-mcq-06": "「處理退貨 retail operations」與本句語境不同。",
-        "return-mcq-08": "「拒絕退貨 policy」與本句語境不同。",
-        "return-mcq-05": "「一宗退貨 retail noun」與本句語境不同。",
-        "return-mcq-09": "「開始退貨程序 process」與本句語境不同。",
-        "return-mcq-04": "「退貨換貨 retail outcome」與本句語境不同。"
+        "return-mcq-07": "本句的「return」指「接受退貨 policy」。",
+        "return-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-07"
     },
@@ -2023,11 +1975,9 @@ export default {
       "masked": "We cannot accept ____ on hygiene-sensitive products.",
       "options": [
         "return-mcq-07",
-        "return-mcq-06",
-        "return-mcq-08",
-        "return-mcq-05",
-        "return-mcq-09",
-        "return-mcq-04"
+        "return-mcq-75",
+        "return-mcq-78",
+        "return-mcq-44"
       ],
       "explanation": "本句的「returns」指「接受退貨 policy」。",
       "sentenceIndex": 14,
@@ -2036,12 +1986,10 @@ export default {
         "returns"
       ],
       "optionReasons": {
-        "return-mcq-07": "本句指「接受退貨 policy」。",
-        "return-mcq-06": "「處理退貨 retail operations」與本句語境不同。",
-        "return-mcq-08": "「拒絕退貨 policy」與本句語境不同。",
-        "return-mcq-05": "「一宗退貨 retail noun」與本句語境不同。",
-        "return-mcq-09": "「開始退貨程序 process」與本句語境不同。",
-        "return-mcq-04": "「退貨換貨 retail outcome」與本句語境不同。"
+        "return-mcq-07": "本句的「returns」指「接受退貨 policy」。",
+        "return-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-07"
     },
@@ -2053,11 +2001,9 @@ export default {
       "masked": "Customers can initiate a ____ online.",
       "options": [
         "return-mcq-09",
-        "return-mcq-08",
-        "return-mcq-10",
-        "return-mcq-07",
-        "return-mcq-11",
-        "return-mcq-06"
+        "return-mcq-49",
+        "return-mcq-62",
+        "return-mcq-44"
       ],
       "explanation": "本句的「return」指「開始退貨程序 process」。",
       "sentenceIndex": 17,
@@ -2066,12 +2012,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-09": "本句指「開始退貨程序 process」。",
-        "return-mcq-08": "「拒絕退貨 policy」與本句語境不同。",
-        "return-mcq-10": "「退貨申請 passage」與本句語境不同。",
-        "return-mcq-07": "「接受退貨 policy」與本句語境不同。",
-        "return-mcq-11": "「符合退貨資格 passage」與本句語境不同。",
-        "return-mcq-06": "「處理退貨 retail operations」與本句語境不同。"
+        "return-mcq-09": "本句的「return」指「開始退貨程序 process」。",
+        "return-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-09"
     },
@@ -2083,11 +2027,9 @@ export default {
       "masked": "Enter your order number to start a ____.",
       "options": [
         "return-mcq-09",
-        "return-mcq-08",
-        "return-mcq-10",
-        "return-mcq-07",
-        "return-mcq-11",
-        "return-mcq-06"
+        "return-mcq-73",
+        "return-mcq-38",
+        "return-mcq-60"
       ],
       "explanation": "本句的「return」指「開始退貨程序 process」。",
       "sentenceIndex": 18,
@@ -2096,12 +2038,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-09": "本句指「開始退貨程序 process」。",
-        "return-mcq-08": "「拒絕退貨 policy」與本句語境不同。",
-        "return-mcq-10": "「退貨申請 passage」與本句語境不同。",
-        "return-mcq-07": "「接受退貨 policy」與本句語境不同。",
-        "return-mcq-11": "「符合退貨資格 passage」與本句語境不同。",
-        "return-mcq-06": "「處理退貨 retail operations」與本句語境不同。"
+        "return-mcq-09": "本句的「return」指「開始退貨程序 process」。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-09"
     },
@@ -2113,11 +2053,9 @@ export default {
       "masked": "Every ____ request should require an order number and a reason.",
       "options": [
         "return-mcq-10",
-        "return-mcq-09",
-        "return-mcq-11",
-        "return-mcq-08",
-        "return-mcq-12",
-        "return-mcq-07"
+        "return-mcq-58",
+        "return-mcq-47",
+        "return-mcq-32"
       ],
       "explanation": "本句的「return」指「退貨申請 passage」。",
       "sentenceIndex": 19,
@@ -2126,12 +2064,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-10": "本句指「退貨申請 passage」。",
-        "return-mcq-09": "「開始退貨程序 process」與本句語境不同。",
-        "return-mcq-11": "「符合退貨資格 passage」與本句語境不同。",
-        "return-mcq-08": "「拒絕退貨 policy」與本句語境不同。",
-        "return-mcq-12": "「退貨資格 policy」與本句語境不同。",
-        "return-mcq-07": "「接受退貨 policy」與本句語境不同。"
+        "return-mcq-10": "本句的「return」指「退貨申請 passage」。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-10"
     },
@@ -2143,11 +2079,9 @@ export default {
       "masked": "The ____ request was approved after staff reviewed the photos.",
       "options": [
         "return-mcq-10",
-        "return-mcq-09",
-        "return-mcq-11",
-        "return-mcq-08",
-        "return-mcq-12",
-        "return-mcq-07"
+        "return-mcq-55",
+        "return-mcq-34",
+        "return-mcq-58"
       ],
       "explanation": "本句的「return」指「退貨申請 passage」。",
       "sentenceIndex": 20,
@@ -2156,12 +2090,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-10": "本句指「退貨申請 passage」。",
-        "return-mcq-09": "「開始退貨程序 process」與本句語境不同。",
-        "return-mcq-11": "「符合退貨資格 passage」與本句語境不同。",
-        "return-mcq-08": "「拒絕退貨 policy」與本句語境不同。",
-        "return-mcq-12": "「退貨資格 policy」與本句語境不同。",
-        "return-mcq-07": "「接受退貨 policy」與本句語境不同。"
+        "return-mcq-10": "本句的「return」指「退貨申請 passage」。",
+        "return-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-10"
     },
@@ -2173,11 +2105,9 @@ export default {
       "masked": "Once the tag is removed, the item would no longer qualify for ____.",
       "options": [
         "return-mcq-11",
-        "return-mcq-10",
-        "return-mcq-12",
-        "return-mcq-09",
-        "return-mcq-13",
-        "return-mcq-08"
+        "return-mcq-61",
+        "return-mcq-73",
+        "return-mcq-75"
       ],
       "explanation": "本句的「return」指「符合退貨資格 passage」。",
       "sentenceIndex": 21,
@@ -2186,12 +2116,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-11": "本句指「符合退貨資格 passage」。",
-        "return-mcq-10": "「退貨申請 passage」與本句語境不同。",
-        "return-mcq-12": "「退貨資格 policy」與本句語境不同。",
-        "return-mcq-09": "「開始退貨程序 process」與本句語境不同。",
-        "return-mcq-13": "「可退貨／可退回的 eligibility」與本句語境不同。",
-        "return-mcq-08": "「拒絕退貨 policy」與本句語境不同。"
+        "return-mcq-11": "本句的「return」指「符合退貨資格 passage」。",
+        "return-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-11"
     },
@@ -2203,11 +2131,9 @@ export default {
       "masked": "Worn items do not qualify for ____.",
       "options": [
         "return-mcq-11",
-        "return-mcq-10",
-        "return-mcq-12",
-        "return-mcq-09",
-        "return-mcq-13",
-        "return-mcq-08"
+        "return-mcq-43",
+        "return-mcq-76",
+        "return-mcq-34"
       ],
       "explanation": "本句的「return」指「符合退貨資格 passage」。",
       "sentenceIndex": 22,
@@ -2216,12 +2142,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-11": "本句指「符合退貨資格 passage」。",
-        "return-mcq-10": "「退貨申請 passage」與本句語境不同。",
-        "return-mcq-12": "「退貨資格 policy」與本句語境不同。",
-        "return-mcq-09": "「開始退貨程序 process」與本句語境不同。",
-        "return-mcq-13": "「可退貨／可退回的 eligibility」與本句語境不同。",
-        "return-mcq-08": "「拒絕退貨 policy」與本句語境不同。"
+        "return-mcq-11": "本句的「return」指「符合退貨資格 passage」。",
+        "return-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-11"
     },
@@ -2233,11 +2157,9 @@ export default {
       "masked": "The website clearly explains ____ eligibility.",
       "options": [
         "return-mcq-12",
-        "return-mcq-11",
-        "return-mcq-13",
-        "return-mcq-10",
-        "return-mcq-14",
-        "return-mcq-09"
+        "return-mcq-58",
+        "return-mcq-79",
+        "return-mcq-76"
       ],
       "explanation": "本句的「return」指「退貨資格 policy」。",
       "sentenceIndex": 25,
@@ -2246,12 +2168,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-12": "本句指「退貨資格 policy」。",
-        "return-mcq-11": "「符合退貨資格 passage」與本句語境不同。",
-        "return-mcq-13": "「可退貨／可退回的 eligibility」與本句語境不同。",
-        "return-mcq-10": "「退貨申請 passage」與本句語境不同。",
-        "return-mcq-14": "「不可退貨的 passage」與本句語境不同。",
-        "return-mcq-09": "「開始退貨程序 process」與本句語境不同。"
+        "return-mcq-12": "本句的「return」指「退貨資格 policy」。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-12"
     },
@@ -2263,11 +2183,9 @@ export default {
       "masked": "Condition and purchase date determine ____ eligibility.",
       "options": [
         "return-mcq-12",
-        "return-mcq-11",
-        "return-mcq-13",
-        "return-mcq-10",
-        "return-mcq-14",
-        "return-mcq-09"
+        "return-mcq-52",
+        "return-mcq-32",
+        "return-mcq-64"
       ],
       "explanation": "本句的「return」指「退貨資格 policy」。",
       "sentenceIndex": 26,
@@ -2276,12 +2194,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-12": "本句指「退貨資格 policy」。",
-        "return-mcq-11": "「符合退貨資格 passage」與本句語境不同。",
-        "return-mcq-13": "「可退貨／可退回的 eligibility」與本句語境不同。",
-        "return-mcq-10": "「退貨申請 passage」與本句語境不同。",
-        "return-mcq-14": "「不可退貨的 passage」與本句語境不同。",
-        "return-mcq-09": "「開始退貨程序 process」與本句語境不同。"
+        "return-mcq-12": "本句的「return」指「退貨資格 policy」。",
+        "return-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-12"
     },
@@ -2293,11 +2209,9 @@ export default {
       "masked": "Hygiene-sensitive goods should remain non-____.",
       "options": [
         "return-mcq-14",
-        "return-mcq-13",
-        "return-mcq-15",
-        "return-mcq-12",
-        "return-mcq-16",
-        "return-mcq-11"
+        "return-mcq-74",
+        "return-mcq-78",
+        "return-mcq-44"
       ],
       "explanation": "本句的「returnable」指「不可退貨的 passage」。",
       "sentenceIndex": 29,
@@ -2306,12 +2220,10 @@ export default {
         "returnable"
       ],
       "optionReasons": {
-        "return-mcq-14": "本句指「不可退貨的 passage」。",
-        "return-mcq-13": "「可退貨／可退回的 eligibility」與本句語境不同。",
-        "return-mcq-15": "「可退回重用的樽 reuse」與本句語境不同。",
-        "return-mcq-12": "「退貨資格 policy」與本句語境不同。",
-        "return-mcq-16": "「退貨政策 retail」與本句語境不同。",
-        "return-mcq-11": "「符合退貨資格 passage」與本句語境不同。"
+        "return-mcq-14": "本句的「returnable」指「不可退貨的 passage」。",
+        "return-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-14"
     },
@@ -2323,11 +2235,9 @@ export default {
       "masked": "Earrings are non-____ for hygiene reasons.",
       "options": [
         "return-mcq-14",
-        "return-mcq-13",
-        "return-mcq-15",
-        "return-mcq-12",
-        "return-mcq-16",
-        "return-mcq-11"
+        "return-mcq-55",
+        "return-mcq-71",
+        "return-mcq-58"
       ],
       "explanation": "本句的「returnable」指「不可退貨的 passage」。",
       "sentenceIndex": 30,
@@ -2336,12 +2246,10 @@ export default {
         "returnable"
       ],
       "optionReasons": {
-        "return-mcq-14": "本句指「不可退貨的 passage」。",
-        "return-mcq-13": "「可退貨／可退回的 eligibility」與本句語境不同。",
-        "return-mcq-15": "「可退回重用的樽 reuse」與本句語境不同。",
-        "return-mcq-12": "「退貨資格 policy」與本句語境不同。",
-        "return-mcq-16": "「退貨政策 retail」與本句語境不同。",
-        "return-mcq-11": "「符合退貨資格 passage」與本句語境不同。"
+        "return-mcq-14": "本句的「returnable」指「不可退貨的 passage」。",
+        "return-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-14"
     },
@@ -2353,11 +2261,9 @@ export default {
       "masked": "The company needs a clearer ____ policy.",
       "options": [
         "return-mcq-16",
-        "return-mcq-15",
-        "return-mcq-17",
-        "return-mcq-14",
-        "return-mcq-18",
-        "return-mcq-13"
+        "return-mcq-77",
+        "return-mcq-31",
+        "return-mcq-59"
       ],
       "explanation": "本句的「return」指「退貨政策 retail」。",
       "sentenceIndex": 33,
@@ -2366,12 +2272,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-16": "本句指「退貨政策 retail」。",
-        "return-mcq-15": "「可退回重用的樽 reuse」與本句語境不同。",
-        "return-mcq-17": "「退貨政策 BrE/business」與本句語境不同。",
-        "return-mcq-14": "「不可退貨的 passage」與本句語境不同。",
-        "return-mcq-18": "「可退貨期限 retail」與本句語境不同。",
-        "return-mcq-13": "「可退貨／可退回的 eligibility」與本句語境不同。"
+        "return-mcq-16": "本句的「return」指「退貨政策 retail」。",
+        "return-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-16"
     },
@@ -2383,11 +2287,9 @@ export default {
       "masked": "Read the ____ policy before buying final-sale items.",
       "options": [
         "return-mcq-16",
-        "return-mcq-15",
-        "return-mcq-17",
-        "return-mcq-14",
-        "return-mcq-18",
-        "return-mcq-13"
+        "return-mcq-75",
+        "return-mcq-61",
+        "return-mcq-43"
       ],
       "explanation": "本句的「return」指「退貨政策 retail」。",
       "sentenceIndex": 34,
@@ -2396,12 +2298,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-16": "本句指「退貨政策 retail」。",
-        "return-mcq-15": "「可退回重用的樽 reuse」與本句語境不同。",
-        "return-mcq-17": "「退貨政策 BrE/business」與本句語境不同。",
-        "return-mcq-14": "「不可退貨的 passage」與本句語境不同。",
-        "return-mcq-18": "「可退貨期限 retail」與本句語境不同。",
-        "return-mcq-13": "「可退貨／可退回的 eligibility」與本句語境不同。"
+        "return-mcq-16": "本句的「return」指「退貨政策 retail」。",
+        "return-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-16"
     },
@@ -2413,11 +2313,9 @@ export default {
       "masked": "The retailer revised its ____ policy.",
       "options": [
         "return-mcq-17",
-        "return-mcq-16",
-        "return-mcq-18",
-        "return-mcq-15",
-        "return-mcq-19",
-        "return-mcq-14"
+        "return-mcq-72",
+        "return-mcq-33",
+        "return-mcq-62"
       ],
       "explanation": "本句的「returns」指「退貨政策 BrE/business」。",
       "sentenceIndex": 35,
@@ -2426,12 +2324,10 @@ export default {
         "returns"
       ],
       "optionReasons": {
-        "return-mcq-17": "本句指「退貨政策 BrE/business」。",
-        "return-mcq-16": "「退貨政策 retail」與本句語境不同。",
-        "return-mcq-18": "「可退貨期限 retail」與本句語境不同。",
-        "return-mcq-15": "「可退回重用的樽 reuse」與本句語境不同。",
-        "return-mcq-19": "「退貨期 retail」與本句語境不同。",
-        "return-mcq-14": "「不可退貨的 passage」與本句語境不同。"
+        "return-mcq-17": "本句的「returns」指「退貨政策 BrE/business」。",
+        "return-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-17"
     },
@@ -2443,11 +2339,9 @@ export default {
       "masked": "A flexible ____ policy can increase customer confidence.",
       "options": [
         "return-mcq-17",
-        "return-mcq-16",
-        "return-mcq-18",
-        "return-mcq-15",
-        "return-mcq-19",
-        "return-mcq-14"
+        "return-mcq-69",
+        "return-mcq-79",
+        "return-mcq-59"
       ],
       "explanation": "本句的「returns」指「退貨政策 BrE/business」。",
       "sentenceIndex": 36,
@@ -2456,12 +2350,10 @@ export default {
         "returns"
       ],
       "optionReasons": {
-        "return-mcq-17": "本句指「退貨政策 BrE/business」。",
-        "return-mcq-16": "「退貨政策 retail」與本句語境不同。",
-        "return-mcq-18": "「可退貨期限 retail」與本句語境不同。",
-        "return-mcq-15": "「可退回重用的樽 reuse」與本句語境不同。",
-        "return-mcq-19": "「退貨期 retail」與本句語境不同。",
-        "return-mcq-14": "「不可退貨的 passage」與本句語境不同。"
+        "return-mcq-17": "本句的「returns」指「退貨政策 BrE/business」。",
+        "return-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-17"
     },
@@ -2473,11 +2365,9 @@ export default {
       "masked": "The ____ window is fourteen days.",
       "options": [
         "return-mcq-18",
-        "return-mcq-17",
-        "return-mcq-19",
-        "return-mcq-16",
-        "return-mcq-20",
-        "return-mcq-15"
+        "return-mcq-60",
+        "return-mcq-44",
+        "return-mcq-58"
       ],
       "explanation": "本句的「return」指「可退貨期限 retail」。",
       "sentenceIndex": 37,
@@ -2486,12 +2376,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-18": "本句指「可退貨期限 retail」。",
-        "return-mcq-17": "「退貨政策 BrE/business」與本句語境不同。",
-        "return-mcq-19": "「退貨期 retail」與本句語境不同。",
-        "return-mcq-16": "「退貨政策 retail」與本句語境不同。",
-        "return-mcq-20": "「退貨郵費 passage」與本句語境不同。",
-        "return-mcq-15": "「可退回重用的樽 reuse」與本句語境不同。"
+        "return-mcq-18": "本句的「return」指「可退貨期限 retail」。",
+        "return-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-18"
     },
@@ -2503,11 +2391,9 @@ export default {
       "masked": "The item was sent back after the ____ window had closed.",
       "options": [
         "return-mcq-18",
-        "return-mcq-17",
-        "return-mcq-19",
-        "return-mcq-16",
-        "return-mcq-20",
-        "return-mcq-15"
+        "return-mcq-52",
+        "return-pdf-plain-064",
+        "return-mcq-48"
       ],
       "explanation": "本句的「return」指「可退貨期限 retail」。",
       "sentenceIndex": 38,
@@ -2516,12 +2402,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-18": "本句指「可退貨期限 retail」。",
-        "return-mcq-17": "「退貨政策 BrE/business」與本句語境不同。",
-        "return-mcq-19": "「退貨期 retail」與本句語境不同。",
-        "return-mcq-16": "「退貨政策 retail」與本句語境不同。",
-        "return-mcq-20": "「退貨郵費 passage」與本句語境不同。",
-        "return-mcq-15": "「可退回重用的樽 reuse」與本句語境不同。"
+        "return-mcq-18": "本句的「return」指「可退貨期限 retail」。",
+        "return-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "return-pdf-plain-064": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-18"
     },
@@ -2533,11 +2417,9 @@ export default {
       "masked": "The retailer shortened the ____ period.",
       "options": [
         "return-mcq-19",
-        "return-mcq-18",
-        "return-mcq-20",
-        "return-mcq-17",
-        "return-mcq-21",
-        "return-mcq-16"
+        "return-pdf-plain-064",
+        "return-mcq-66",
+        "return-mcq-42"
       ],
       "explanation": "本句的「return」指「退貨期 retail」。",
       "sentenceIndex": 39,
@@ -2546,12 +2428,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-19": "本句指「退貨期 retail」。",
-        "return-mcq-18": "「可退貨期限 retail」與本句語境不同。",
-        "return-mcq-20": "「退貨郵費 passage」與本句語境不同。",
-        "return-mcq-17": "「退貨政策 BrE/business」與本句語境不同。",
-        "return-mcq-21": "「退貨運費 logistics」與本句語境不同。",
-        "return-mcq-16": "「退貨政策 retail」與本句語境不同。"
+        "return-mcq-19": "本句的「return」指「退貨期 retail」。",
+        "return-pdf-plain-064": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-19"
     },
@@ -2563,11 +2443,9 @@ export default {
       "masked": "Customers should know the ____ period before payment.",
       "options": [
         "return-mcq-19",
-        "return-mcq-18",
-        "return-mcq-20",
-        "return-mcq-17",
-        "return-mcq-21",
-        "return-mcq-16"
+        "return-mcq-62",
+        "return-mcq-74",
+        "return-mcq-44"
       ],
       "explanation": "本句的「return」指「退貨期 retail」。",
       "sentenceIndex": 40,
@@ -2576,12 +2454,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-19": "本句指「退貨期 retail」。",
-        "return-mcq-18": "「可退貨期限 retail」與本句語境不同。",
-        "return-mcq-20": "「退貨郵費 passage」與本句語境不同。",
-        "return-mcq-17": "「退貨政策 BrE/business」與本句語境不同。",
-        "return-mcq-21": "「退貨運費 logistics」與本句語境不同。",
-        "return-mcq-16": "「退貨政策 retail」與本句語境不同。"
+        "return-mcq-19": "本句的「return」指「退貨期 retail」。",
+        "return-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-19"
     },
@@ -2593,11 +2469,9 @@ export default {
       "masked": "Customers could pay ____ postage for ordinary exchanges.",
       "options": [
         "return-mcq-20",
-        "return-mcq-19",
-        "return-mcq-21",
-        "return-mcq-18",
-        "return-mcq-22",
-        "return-mcq-17"
+        "return-mcq-58",
+        "return-mcq-77",
+        "return-mcq-34"
       ],
       "explanation": "本句的「return」指「退貨郵費 passage」。",
       "sentenceIndex": 41,
@@ -2606,12 +2480,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-20": "本句指「退貨郵費 passage」。",
-        "return-mcq-19": "「退貨期 retail」與本句語境不同。",
-        "return-mcq-21": "「退貨運費 logistics」與本句語境不同。",
-        "return-mcq-18": "「可退貨期限 retail」與本句語境不同。",
-        "return-mcq-22": "「退貨標籤 logistics」與本句語境不同。",
-        "return-mcq-17": "「退貨政策 BrE/business」與本句語境不同。"
+        "return-mcq-20": "本句的「return」指「退貨郵費 passage」。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-20"
     },
@@ -2623,11 +2495,9 @@ export default {
       "masked": "The company covers ____ postage for defective goods.",
       "options": [
         "return-mcq-20",
-        "return-mcq-19",
-        "return-mcq-21",
-        "return-mcq-18",
-        "return-mcq-22",
-        "return-mcq-17"
+        "return-mcq-44",
+        "return-mcq-32",
+        "return-mcq-60"
       ],
       "explanation": "本句的「return」指「退貨郵費 passage」。",
       "sentenceIndex": 42,
@@ -2636,12 +2506,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-20": "本句指「退貨郵費 passage」。",
-        "return-mcq-19": "「退貨期 retail」與本句語境不同。",
-        "return-mcq-21": "「退貨運費 logistics」與本句語境不同。",
-        "return-mcq-18": "「可退貨期限 retail」與本句語境不同。",
-        "return-mcq-22": "「退貨標籤 logistics」與本句語境不同。",
-        "return-mcq-17": "「退貨政策 BrE/business」與本句語境不同。"
+        "return-mcq-20": "本句的「return」指「退貨郵費 passage」。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-20"
     },
@@ -2653,11 +2521,9 @@ export default {
       "masked": "Free ____ shipping is available for faulty items.",
       "options": [
         "return-mcq-21",
-        "return-mcq-20",
-        "return-mcq-22",
-        "return-mcq-19",
-        "return-mcq-23",
-        "return-mcq-18"
+        "return-mcq-69",
+        "return-mcq-43",
+        "return-mcq-31"
       ],
       "explanation": "本句的「return」指「退貨運費 logistics」。",
       "sentenceIndex": 43,
@@ -2666,12 +2532,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-21": "本句指「退貨運費 logistics」。",
-        "return-mcq-20": "「退貨郵費 passage」與本句語境不同。",
-        "return-mcq-22": "「退貨標籤 logistics」與本句語境不同。",
-        "return-mcq-19": "「退貨期 retail」與本句語境不同。",
-        "return-mcq-23": "「退貨率 passage」與本句語境不同。",
-        "return-mcq-18": "「可退貨期限 retail」與本句語境不同。"
+        "return-mcq-21": "本句的「return」指「退貨運費 logistics」。",
+        "return-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-21"
     },
@@ -2683,11 +2547,9 @@ export default {
       "masked": "____ shipping costs can be expensive for international orders.",
       "options": [
         "return-mcq-21",
-        "return-mcq-20",
-        "return-mcq-22",
-        "return-mcq-19",
-        "return-mcq-23",
-        "return-mcq-18"
+        "return-mcq-70",
+        "return-mcq-58",
+        "return-mcq-44"
       ],
       "explanation": "本句的「Return」指「退貨運費 logistics」。",
       "sentenceIndex": 44,
@@ -2696,12 +2558,10 @@ export default {
         "Return"
       ],
       "optionReasons": {
-        "return-mcq-21": "本句指「退貨運費 logistics」。",
-        "return-mcq-20": "「退貨郵費 passage」與本句語境不同。",
-        "return-mcq-22": "「退貨標籤 logistics」與本句語境不同。",
-        "return-mcq-19": "「退貨期 retail」與本句語境不同。",
-        "return-mcq-23": "「退貨率 passage」與本句語境不同。",
-        "return-mcq-18": "「可退貨期限 retail」與本句語境不同。"
+        "return-mcq-21": "本句的「Return」指「退貨運費 logistics」。",
+        "return-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-21"
     },
@@ -2713,11 +2573,9 @@ export default {
       "masked": "Print the ____ label and attach it to the parcel.",
       "options": [
         "return-mcq-22",
-        "return-mcq-21",
-        "return-mcq-23",
-        "return-mcq-20",
-        "return-mcq-24",
-        "return-mcq-19"
+        "return-mcq-38",
+        "return-mcq-78",
+        "return-mcq-48"
       ],
       "explanation": "本句的「return」指「退貨標籤 logistics」。",
       "sentenceIndex": 45,
@@ -2726,12 +2584,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-22": "本句指「退貨標籤 logistics」。",
-        "return-mcq-21": "「退貨運費 logistics」與本句語境不同。",
-        "return-mcq-23": "「退貨率 passage」與本句語境不同。",
-        "return-mcq-20": "「退貨郵費 passage」與本句語境不同。",
-        "return-mcq-24": "「退貨模式 passage」與本句語境不同。",
-        "return-mcq-19": "「退貨期 retail」與本句語境不同。"
+        "return-mcq-22": "本句的「return」指「退貨標籤 logistics」。",
+        "return-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-22"
     },
@@ -2743,11 +2599,9 @@ export default {
       "masked": "The email included a prepaid ____ label.",
       "options": [
         "return-mcq-22",
-        "return-mcq-21",
-        "return-mcq-23",
-        "return-mcq-20",
-        "return-mcq-24",
-        "return-mcq-19"
+        "return-mcq-33",
+        "return-mcq-40",
+        "return-mcq-58"
       ],
       "explanation": "本句的「return」指「退貨標籤 logistics」。",
       "sentenceIndex": 46,
@@ -2756,12 +2610,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-22": "本句指「退貨標籤 logistics」。",
-        "return-mcq-21": "「退貨運費 logistics」與本句語境不同。",
-        "return-mcq-23": "「退貨率 passage」與本句語境不同。",
-        "return-mcq-20": "「退貨郵費 passage」與本句語境不同。",
-        "return-mcq-24": "「退貨模式 passage」與本句語境不同。",
-        "return-mcq-19": "「退貨期 retail」與本句語境不同。"
+        "return-mcq-22": "本句的「return」指「退貨標籤 logistics」。",
+        "return-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-22"
     },
@@ -2773,11 +2625,9 @@ export default {
       "masked": "After the pilot, we can review complaint volume, repeat purchases and ____ rates.",
       "options": [
         "return-mcq-23",
-        "return-mcq-22",
-        "return-mcq-24",
-        "return-mcq-21",
-        "return-mcq-25",
-        "return-mcq-20"
+        "return-mcq-79",
+        "return-mcq-74",
+        "return-mcq-61"
       ],
       "explanation": "本句的「return」指「退貨率 passage」。",
       "sentenceIndex": 47,
@@ -2786,12 +2636,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-23": "本句指「退貨率 passage」。",
-        "return-mcq-22": "「退貨標籤 logistics」與本句語境不同。",
-        "return-mcq-24": "「退貨模式 passage」與本句語境不同。",
-        "return-mcq-21": "「退貨運費 logistics」與本句語境不同。",
-        "return-mcq-25": "「免費退貨 retail」與本句語境不同。",
-        "return-mcq-20": "「退貨郵費 passage」與本句語境不同。"
+        "return-mcq-23": "本句的「return」指「退貨率 passage」。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-23"
     },
@@ -2803,11 +2651,9 @@ export default {
       "masked": "Poor sizing information can increase the ____ rate.",
       "options": [
         "return-mcq-23",
-        "return-mcq-22",
-        "return-mcq-24",
-        "return-mcq-21",
-        "return-mcq-25",
-        "return-mcq-20"
+        "return-mcq-79",
+        "return-mcq-28",
+        "return-mcq-78"
       ],
       "explanation": "本句的「return」指「退貨率 passage」。",
       "sentenceIndex": 48,
@@ -2816,12 +2662,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-23": "本句指「退貨率 passage」。",
-        "return-mcq-22": "「退貨標籤 logistics」與本句語境不同。",
-        "return-mcq-24": "「退貨模式 passage」與本句語境不同。",
-        "return-mcq-21": "「退貨運費 logistics」與本句語境不同。",
-        "return-mcq-25": "「免費退貨 retail」與本句語境不同。",
-        "return-mcq-20": "「退貨郵費 passage」與本句語境不同。"
+        "return-mcq-23": "本句的「return」指「退貨率 passage」。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-23"
     },
@@ -2833,11 +2677,9 @@ export default {
       "masked": "Unusual ____ patterns should be flagged for review.",
       "options": [
         "return-mcq-24",
-        "return-mcq-23",
-        "return-mcq-25",
-        "return-mcq-22",
-        "return-mcq-26",
-        "return-mcq-21"
+        "return-mcq-42",
+        "return-mcq-54",
+        "return-mcq-44"
       ],
       "explanation": "本句的「return」指「退貨模式 passage」。",
       "sentenceIndex": 51,
@@ -2846,12 +2688,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-24": "本句指「退貨模式 passage」。",
-        "return-mcq-23": "「退貨率 passage」與本句語境不同。",
-        "return-mcq-25": "「免費退貨 retail」與本句語境不同。",
-        "return-mcq-22": "「退貨標籤 logistics」與本句語境不同。",
-        "return-mcq-26": "「返回 X movement」與本句語境不同。",
-        "return-mcq-21": "「退貨運費 logistics」與本句語境不同。"
+        "return-mcq-24": "本句的「return」指「退貨模式 passage」。",
+        "return-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-24"
     },
@@ -2863,11 +2703,9 @@ export default {
       "masked": "The system detects repeated ____ patterns.",
       "options": [
         "return-mcq-24",
-        "return-mcq-23",
-        "return-mcq-25",
-        "return-mcq-22",
-        "return-mcq-26",
-        "return-mcq-21"
+        "return-mcq-71",
+        "return-mcq-58",
+        "return-mcq-32"
       ],
       "explanation": "本句的「return」指「退貨模式 passage」。",
       "sentenceIndex": 52,
@@ -2876,12 +2714,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-24": "本句指「退貨模式 passage」。",
-        "return-mcq-23": "「退貨率 passage」與本句語境不同。",
-        "return-mcq-25": "「免費退貨 retail」與本句語境不同。",
-        "return-mcq-22": "「退貨標籤 logistics」與本句語境不同。",
-        "return-mcq-26": "「返回 X movement」與本句語境不同。",
-        "return-mcq-21": "「退貨運費 logistics」與本句語境不同。"
+        "return-mcq-24": "本句的「return」指「退貨模式 passage」。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-24"
     },
@@ -2893,11 +2729,9 @@ export default {
       "masked": "The retailer offers free ____.",
       "options": [
         "return-mcq-25",
-        "return-mcq-24",
-        "return-mcq-26",
-        "return-mcq-23",
-        "return-mcq-27",
-        "return-mcq-22"
+        "return-mcq-70",
+        "return-mcq-78",
+        "return-mcq-62"
       ],
       "explanation": "本句的「returns」指「免費退貨 retail」。",
       "sentenceIndex": 53,
@@ -2906,12 +2740,10 @@ export default {
         "returns"
       ],
       "optionReasons": {
-        "return-mcq-25": "本句指「免費退貨 retail」。",
-        "return-mcq-24": "「退貨模式 passage」與本句語境不同。",
-        "return-mcq-26": "「返回 X movement」與本句語境不同。",
-        "return-mcq-23": "「退貨率 passage」與本句語境不同。",
-        "return-mcq-27": "「從 X 回來 movement」與本句語境不同。",
-        "return-mcq-22": "「退貨標籤 logistics」與本句語境不同。"
+        "return-mcq-25": "本句的「returns」指「免費退貨 retail」。",
+        "return-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-25"
     },
@@ -2923,11 +2755,9 @@ export default {
       "masked": "Free ____ may increase customer confidence but also increase costs.",
       "options": [
         "return-mcq-25",
-        "return-mcq-24",
-        "return-mcq-26",
-        "return-mcq-23",
-        "return-mcq-27",
-        "return-mcq-22"
+        "return-mcq-68",
+        "return-mcq-73",
+        "return-mcq-60"
       ],
       "explanation": "本句的「returns」指「免費退貨 retail」。",
       "sentenceIndex": 54,
@@ -2936,12 +2766,10 @@ export default {
         "returns"
       ],
       "optionReasons": {
-        "return-mcq-25": "本句指「免費退貨 retail」。",
-        "return-mcq-24": "「退貨模式 passage」與本句語境不同。",
-        "return-mcq-26": "「返回 X movement」與本句語境不同。",
-        "return-mcq-23": "「退貨率 passage」與本句語境不同。",
-        "return-mcq-27": "「從 X 回來 movement」與本句語境不同。",
-        "return-mcq-22": "「退貨標籤 logistics」與本句語境不同。"
+        "return-mcq-25": "本句的「returns」指「免費退貨 retail」。",
+        "return-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-25"
     },
@@ -2953,11 +2781,9 @@ export default {
       "masked": "The company is reviewing its free-____ policy.",
       "options": [
         "return-mcq-25",
-        "return-mcq-24",
-        "return-mcq-26",
-        "return-mcq-23",
-        "return-mcq-27",
-        "return-mcq-22"
+        "return-mcq-55",
+        "return-mcq-64",
+        "return-mcq-73"
       ],
       "explanation": "本句的「return」指「免費退貨 retail」。",
       "sentenceIndex": 55,
@@ -2966,12 +2792,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-25": "本句指「免費退貨 retail」。",
-        "return-mcq-24": "「退貨模式 passage」與本句語境不同。",
-        "return-mcq-26": "「返回 X movement」與本句語境不同。",
-        "return-mcq-23": "「退貨率 passage」與本句語境不同。",
-        "return-mcq-27": "「從 X 回來 movement」與本句語境不同。",
-        "return-mcq-22": "「退貨標籤 logistics」與本句語境不同。"
+        "return-mcq-25": "本句的「return」指「免費退貨 retail」。",
+        "return-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-25"
     },
@@ -2983,11 +2807,9 @@ export default {
       "masked": "A free-____ policy may affect ordering behaviour.",
       "options": [
         "return-mcq-25",
-        "return-mcq-24",
-        "return-mcq-26",
-        "return-mcq-23",
-        "return-mcq-27",
-        "return-mcq-22"
+        "return-mcq-75",
+        "return-mcq-78",
+        "return-mcq-61"
       ],
       "explanation": "本句的「return」指「免費退貨 retail」。",
       "sentenceIndex": 56,
@@ -2996,12 +2818,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-25": "本句指「免費退貨 retail」。",
-        "return-mcq-24": "「退貨模式 passage」與本句語境不同。",
-        "return-mcq-26": "「返回 X movement」與本句語境不同。",
-        "return-mcq-23": "「退貨率 passage」與本句語境不同。",
-        "return-mcq-27": "「從 X 回來 movement」與本句語境不同。",
-        "return-mcq-22": "「退貨標籤 logistics」與本句語境不同。"
+        "return-mcq-25": "本句的「return」指「免費退貨 retail」。",
+        "return-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-25"
     },
@@ -3013,11 +2833,9 @@ export default {
       "masked": "He ____ home after the meeting.",
       "options": [
         "return-mcq-28",
-        "return-mcq-27",
-        "return-mcq-29",
-        "return-mcq-26",
-        "return-mcq-30",
-        "return-mcq-25"
+        "return-mcq-64",
+        "return-mcq-34",
+        "return-mcq-12"
       ],
       "explanation": "本句的「returned」指「回家 movement」。",
       "sentenceIndex": 61,
@@ -3026,12 +2844,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-28": "本句指「回家 movement」。",
-        "return-mcq-27": "「從 X 回來 movement」與本句語境不同。",
-        "return-mcq-29": "「再次出現 recurrence」與本句語境不同。",
-        "return-mcq-26": "「返回 X movement」與本句語境不同。",
-        "return-mcq-30": "「的回歸 recurrence」與本句語境不同。",
-        "return-mcq-25": "「免費退貨 retail」與本句語境不同。"
+        "return-mcq-28": "本句的「returned」指「回家 movement」。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-28"
     },
@@ -3043,11 +2859,9 @@ export default {
       "masked": "Many travellers ____ home early.",
       "options": [
         "return-mcq-28",
-        "return-mcq-27",
-        "return-mcq-29",
-        "return-mcq-26",
-        "return-mcq-30",
-        "return-mcq-25"
+        "return-mcq-61",
+        "return-mcq-11",
+        "return-mcq-79"
       ],
       "explanation": "本句的「returned」指「回家 movement」。",
       "sentenceIndex": 62,
@@ -3056,12 +2870,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-28": "本句指「回家 movement」。",
-        "return-mcq-27": "「從 X 回來 movement」與本句語境不同。",
-        "return-mcq-29": "「再次出現 recurrence」與本句語境不同。",
-        "return-mcq-26": "「返回 X movement」與本句語境不同。",
-        "return-mcq-30": "「的回歸 recurrence」與本句語境不同。",
-        "return-mcq-25": "「免費退貨 retail」與本句語境不同。"
+        "return-mcq-28": "本句的「returned」指「回家 movement」。",
+        "return-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-28"
     },
@@ -3073,11 +2885,9 @@ export default {
       "masked": "Sales gradually ____ to normal.",
       "options": [
         "return-mcq-31",
-        "return-mcq-30",
-        "return-mcq-32",
-        "return-mcq-29",
-        "return-mcq-33",
-        "return-mcq-28"
+        "return-mcq-04",
+        "return-mcq-44",
+        "return-mcq-77"
       ],
       "explanation": "本句的「returned」指「恢復正常 state」。",
       "sentenceIndex": 71,
@@ -3086,12 +2896,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-31": "本句指「恢復正常 state」。",
-        "return-mcq-30": "「的回歸 recurrence」與本句語境不同。",
-        "return-mcq-32": "「恢復水準 performance」與本句語境不同。",
-        "return-mcq-29": "「再次出現 recurrence」與本句語境不同。",
-        "return-mcq-33": "「復工 activity」與本句語境不同。",
-        "return-mcq-28": "「回家 movement」與本句語境不同。"
+        "return-mcq-31": "本句的「returned」指「恢復正常 state」。",
+        "return-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-31"
     },
@@ -3103,11 +2911,9 @@ export default {
       "masked": "Operations should ____ to normal tomorrow.",
       "options": [
         "return-mcq-31",
-        "return-mcq-30",
-        "return-mcq-32",
-        "return-mcq-29",
-        "return-mcq-33",
-        "return-mcq-28"
+        "return-mcq-04",
+        "return-mcq-61",
+        "return-mcq-38"
       ],
       "explanation": "本句的「return」指「恢復正常 state」。",
       "sentenceIndex": 72,
@@ -3116,12 +2922,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-31": "本句指「恢復正常 state」。",
-        "return-mcq-30": "「的回歸 recurrence」與本句語境不同。",
-        "return-mcq-32": "「恢復水準 performance」與本句語境不同。",
-        "return-mcq-29": "「再次出現 recurrence」與本句語境不同。",
-        "return-mcq-33": "「復工 activity」與本句語境不同。",
-        "return-mcq-28": "「回家 movement」與本句語境不同。"
+        "return-mcq-31": "本句的「return」指「恢復正常 state」。",
+        "return-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-31"
     },
@@ -3133,11 +2937,9 @@ export default {
       "masked": "The team finally ____ to form.",
       "options": [
         "return-mcq-32",
-        "return-mcq-31",
-        "return-mcq-33",
-        "return-mcq-30",
-        "return-mcq-34",
-        "return-mcq-29"
+        "return-mcq-80",
+        "return-mcq-07",
+        "return-mcq-62"
       ],
       "explanation": "本句的「returned」指「恢復水準 performance」。",
       "sentenceIndex": 73,
@@ -3146,12 +2948,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-32": "本句指「恢復水準 performance」。",
-        "return-mcq-31": "「恢復正常 state」與本句語境不同。",
-        "return-mcq-33": "「復工 activity」與本句語境不同。",
-        "return-mcq-30": "「的回歸 recurrence」與本句語境不同。",
-        "return-mcq-34": "「恢復服務 operation」與本句語境不同。",
-        "return-mcq-29": "「再次出現 recurrence」與本句語境不同。"
+        "return-mcq-32": "本句的「returned」指「恢復水準 performance」。",
+        "return-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-32"
     },
@@ -3163,11 +2963,9 @@ export default {
       "masked": "Sales ____ to form after a weak quarter.",
       "options": [
         "return-mcq-32",
-        "return-mcq-31",
-        "return-mcq-33",
-        "return-mcq-30",
-        "return-mcq-34",
-        "return-mcq-29"
+        "return-mcq-54",
+        "return-mcq-48",
+        "return-pdf-plain-061"
       ],
       "explanation": "本句的「returned」指「恢復水準 performance」。",
       "sentenceIndex": 74,
@@ -3176,12 +2974,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-32": "本句指「恢復水準 performance」。",
-        "return-mcq-31": "「恢復正常 state」與本句語境不同。",
-        "return-mcq-33": "「復工 activity」與本句語境不同。",
-        "return-mcq-30": "「的回歸 recurrence」與本句語境不同。",
-        "return-mcq-34": "「恢復服務 operation」與本句語境不同。",
-        "return-mcq-29": "「再次出現 recurrence」與本句語境不同。"
+        "return-mcq-32": "本句的「returned」指「恢復水準 performance」。",
+        "return-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "return-pdf-plain-061": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-32"
     },
@@ -3193,11 +2989,9 @@ export default {
       "masked": "She ____ to work after the holiday.",
       "options": [
         "return-mcq-33",
-        "return-mcq-32",
-        "return-mcq-34",
-        "return-mcq-31",
-        "return-mcq-35",
-        "return-mcq-30"
+        "return-mcq-70",
+        "return-mcq-06",
+        "return-mcq-64"
       ],
       "explanation": "本句的「returned」指「復工 activity」。",
       "sentenceIndex": 77,
@@ -3206,12 +3000,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-33": "本句指「復工 activity」。",
-        "return-mcq-32": "「恢復水準 performance」與本句語境不同。",
-        "return-mcq-34": "「恢復服務 operation」與本句語境不同。",
-        "return-mcq-31": "「恢復正常 state」與本句語境不同。",
-        "return-mcq-35": "「歸還某物 give back」與本句語境不同。",
-        "return-mcq-30": "「的回歸 recurrence」與本句語境不同。"
+        "return-mcq-33": "本句的「returned」指「復工 activity」。",
+        "return-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-33"
     },
@@ -3223,11 +3015,9 @@ export default {
       "masked": "Employees ____ to work after the disruption ended.",
       "options": [
         "return-mcq-33",
-        "return-mcq-32",
-        "return-mcq-34",
-        "return-mcq-31",
-        "return-mcq-35",
-        "return-mcq-30"
+        "return-mcq-57",
+        "return-mcq-43",
+        "return-mcq-09"
       ],
       "explanation": "本句的「returned」指「復工 activity」。",
       "sentenceIndex": 78,
@@ -3236,12 +3026,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-33": "本句指「復工 activity」。",
-        "return-mcq-32": "「恢復水準 performance」與本句語境不同。",
-        "return-mcq-34": "「恢復服務 operation」與本句語境不同。",
-        "return-mcq-31": "「恢復正常 state」與本句語境不同。",
-        "return-mcq-35": "「歸還某物 give back」與本句語境不同。",
-        "return-mcq-30": "「的回歸 recurrence」與本句語境不同。"
+        "return-mcq-33": "本句的「returned」指「復工 activity」。",
+        "return-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-33"
     },
@@ -3253,11 +3041,9 @@ export default {
       "masked": "The repaired machine ____ to service.",
       "options": [
         "return-mcq-34",
-        "return-mcq-33",
-        "return-mcq-35",
-        "return-mcq-32",
-        "return-mcq-36",
-        "return-mcq-31"
+        "return-mcq-25",
+        "return-pdf-plain-064",
+        "return-mcq-71"
       ],
       "explanation": "本句的「returned」指「恢復服務 operation」。",
       "sentenceIndex": 79,
@@ -3266,12 +3052,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-34": "本句指「恢復服務 operation」。",
-        "return-mcq-33": "「復工 activity」與本句語境不同。",
-        "return-mcq-35": "「歸還某物 give back」與本句語境不同。",
-        "return-mcq-32": "「恢復水準 performance」與本句語境不同。",
-        "return-mcq-36": "「歸還設備 possession」與本句語境不同。",
-        "return-mcq-31": "「恢復正常 state」與本句語境不同。"
+        "return-mcq-34": "本句的「returned」指「恢復服務 operation」。",
+        "return-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "return-pdf-plain-064": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-34"
     },
@@ -3283,11 +3067,9 @@ export default {
       "masked": "The train ____ to service after inspection.",
       "options": [
         "return-mcq-34",
-        "return-mcq-33",
-        "return-mcq-35",
-        "return-mcq-32",
-        "return-mcq-36",
-        "return-mcq-31"
+        "return-mcq-22",
+        "return-mcq-62",
+        "return-mcq-28"
       ],
       "explanation": "本句的「returned」指「恢復服務 operation」。",
       "sentenceIndex": 80,
@@ -3296,12 +3078,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-34": "本句指「恢復服務 operation」。",
-        "return-mcq-33": "「復工 activity」與本句語境不同。",
-        "return-mcq-35": "「歸還某物 give back」與本句語境不同。",
-        "return-mcq-32": "「恢復水準 performance」與本句語境不同。",
-        "return-mcq-36": "「歸還設備 possession」與本句語境不同。",
-        "return-mcq-31": "「恢復正常 state」與本句語境不同。"
+        "return-mcq-34": "本句的「returned」指「恢復服務 operation」。",
+        "return-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-34"
     },
@@ -3313,11 +3093,9 @@ export default {
       "masked": "The parcel was marked “____ to Sender.",
       "options": [
         "return-mcq-37",
-        "return-mcq-36",
-        "return-mcq-38",
-        "return-mcq-35",
-        "return-mcq-39",
-        "return-mcq-34"
+        "return-mcq-79",
+        "return-mcq-32",
+        "return-mcq-59"
       ],
       "explanation": "本句的「Return」指「退回寄件人 post」。",
       "sentenceIndex": 87,
@@ -3326,12 +3104,10 @@ export default {
         "Return"
       ],
       "optionReasons": {
-        "return-mcq-37": "本句指「退回寄件人 post」。",
-        "return-mcq-36": "「歸還設備 possession」與本句語境不同。",
-        "return-mcq-38": "「回郵／寄件人地址 post」與本句語境不同。",
-        "return-mcq-35": "「歸還某物 give back」與本句語境不同。",
-        "return-mcq-39": "「回電話 response」與本句語境不同。",
-        "return-mcq-34": "「恢復服務 operation」與本句語境不同。"
+        "return-mcq-37": "本句的「Return」指「退回寄件人 post」。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-37"
     },
@@ -3343,11 +3119,9 @@ export default {
       "masked": "Undeliverable mail is often ____ to the sender.",
       "options": [
         "return-mcq-37",
-        "return-mcq-36",
-        "return-mcq-38",
-        "return-mcq-35",
-        "return-mcq-39",
-        "return-mcq-34"
+        "return-mcq-64",
+        "return-mcq-62",
+        "return-mcq-31"
       ],
       "explanation": "本句的「returned」指「退回寄件人 post」。",
       "sentenceIndex": 88,
@@ -3356,12 +3130,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-37": "本句指「退回寄件人 post」。",
-        "return-mcq-36": "「歸還設備 possession」與本句語境不同。",
-        "return-mcq-38": "「回郵／寄件人地址 post」與本句語境不同。",
-        "return-mcq-35": "「歸還某物 give back」與本句語境不同。",
-        "return-mcq-39": "「回電話 response」與本句語境不同。",
-        "return-mcq-34": "「恢復服務 operation」與本句語境不同。"
+        "return-mcq-37": "本句的「returned」指「退回寄件人 post」。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-37"
     },
@@ -3373,11 +3145,9 @@ export default {
       "masked": "Write your ____ address on the envelope.",
       "options": [
         "return-mcq-38",
-        "return-mcq-37",
-        "return-mcq-39",
-        "return-mcq-36",
-        "return-mcq-40",
-        "return-mcq-35"
+        "return-mcq-34",
+        "return-mcq-10",
+        "return-mcq-64"
       ],
       "explanation": "本句的「return」指「回郵／寄件人地址 post」。",
       "sentenceIndex": 89,
@@ -3386,12 +3156,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-38": "本句指「回郵／寄件人地址 post」。",
-        "return-mcq-37": "「退回寄件人 post」與本句語境不同。",
-        "return-mcq-39": "「回電話 response」與本句語境不同。",
-        "return-mcq-36": "「歸還設備 possession」與本句語境不同。",
-        "return-mcq-40": "「回以微笑 reciprocity」與本句語境不同。",
-        "return-mcq-35": "「歸還某物 give back」與本句語境不同。"
+        "return-mcq-38": "本句的「return」指「回郵／寄件人地址 post」。",
+        "return-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-38"
     },
@@ -3403,11 +3171,9 @@ export default {
       "masked": "The parcel had no ____ address.",
       "options": [
         "return-mcq-38",
-        "return-mcq-37",
-        "return-mcq-39",
-        "return-mcq-36",
-        "return-mcq-40",
-        "return-mcq-35"
+        "return-mcq-17",
+        "return-mcq-33",
+        "return-mcq-71"
       ],
       "explanation": "本句的「return」指「回郵／寄件人地址 post」。",
       "sentenceIndex": 90,
@@ -3416,12 +3182,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-38": "本句指「回郵／寄件人地址 post」。",
-        "return-mcq-37": "「退回寄件人 post」與本句語境不同。",
-        "return-mcq-39": "「回電話 response」與本句語境不同。",
-        "return-mcq-36": "「歸還設備 possession」與本句語境不同。",
-        "return-mcq-40": "「回以微笑 reciprocity」與本句語境不同。",
-        "return-mcq-35": "「歸還某物 give back」與本句語境不同。"
+        "return-mcq-38": "本句的「return」指「回郵／寄件人地址 post」。",
+        "return-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-38"
     },
@@ -3433,11 +3197,9 @@ export default {
       "masked": "I'll ____ your call this afternoon.",
       "options": [
         "return-mcq-39",
-        "return-mcq-38",
-        "return-mcq-40",
-        "return-mcq-37",
-        "return-mcq-41",
-        "return-mcq-36"
+        "return-mcq-58",
+        "return-mcq-20",
+        "return-mcq-32"
       ],
       "explanation": "本句的「return」指「回電話 response」。",
       "sentenceIndex": 91,
@@ -3446,12 +3208,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-39": "本句指「回電話 response」。",
-        "return-mcq-38": "「回郵／寄件人地址 post」與本句語境不同。",
-        "return-mcq-40": "「回以微笑 reciprocity」與本句語境不同。",
-        "return-mcq-37": "「退回寄件人 post」與本句語境不同。",
-        "return-mcq-41": "「回應問候 reciprocity」與本句語境不同。",
-        "return-mcq-36": "「歸還設備 possession」與本句語境不同。"
+        "return-mcq-39": "本句的「return」指「回電話 response」。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-39"
     },
@@ -3463,11 +3223,9 @@ export default {
       "masked": "She never ____ my call.",
       "options": [
         "return-mcq-39",
-        "return-mcq-38",
-        "return-mcq-40",
-        "return-mcq-37",
-        "return-mcq-41",
-        "return-mcq-36"
+        "return-mcq-64",
+        "return-mcq-14",
+        "return-mcq-79"
       ],
       "explanation": "本句的「returned」指「回電話 response」。",
       "sentenceIndex": 92,
@@ -3476,12 +3234,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-39": "本句指「回電話 response」。",
-        "return-mcq-38": "「回郵／寄件人地址 post」與本句語境不同。",
-        "return-mcq-40": "「回以微笑 reciprocity」與本句語境不同。",
-        "return-mcq-37": "「退回寄件人 post」與本句語境不同。",
-        "return-mcq-41": "「回應問候 reciprocity」與本句語境不同。",
-        "return-mcq-36": "「歸還設備 possession」與本句語境不同。"
+        "return-mcq-39": "本句的「returned」指「回電話 response」。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-39"
     },
@@ -3493,11 +3249,9 @@ export default {
       "masked": "She smiled, and he ____ the smile.",
       "options": [
         "return-mcq-40",
-        "return-mcq-39",
-        "return-mcq-41",
-        "return-mcq-38",
-        "return-mcq-42",
-        "return-mcq-37"
+        "return-mcq-64",
+        "return-mcq-25",
+        "return-mcq-61"
       ],
       "explanation": "本句的「returned」指「回以微笑 reciprocity」。",
       "sentenceIndex": 95,
@@ -3506,12 +3260,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-40": "本句指「回以微笑 reciprocity」。",
-        "return-mcq-39": "「回電話 response」與本句語境不同。",
-        "return-mcq-41": "「回應問候 reciprocity」與本句語境不同。",
-        "return-mcq-38": "「回郵／寄件人地址 post」與本句語境不同。",
-        "return-mcq-42": "「回敬讚美 reciprocity」與本句語境不同。",
-        "return-mcq-37": "「退回寄件人 post」與本句語境不同。"
+        "return-mcq-40": "本句的「returned」指「回以微笑 reciprocity」。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-40"
     },
@@ -3523,11 +3275,9 @@ export default {
       "masked": "The customer ____ her smile.",
       "options": [
         "return-mcq-40",
-        "return-mcq-39",
-        "return-mcq-41",
-        "return-mcq-38",
-        "return-mcq-42",
-        "return-mcq-37"
+        "return-mcq-06",
+        "return-mcq-64",
+        "return-mcq-78"
       ],
       "explanation": "本句的「returned」指「回以微笑 reciprocity」。",
       "sentenceIndex": 96,
@@ -3536,12 +3286,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-40": "本句指「回以微笑 reciprocity」。",
-        "return-mcq-39": "「回電話 response」與本句語境不同。",
-        "return-mcq-41": "「回應問候 reciprocity」與本句語境不同。",
-        "return-mcq-38": "「回郵／寄件人地址 post」與本句語境不同。",
-        "return-mcq-42": "「回敬讚美 reciprocity」與本句語境不同。",
-        "return-mcq-37": "「退回寄件人 post」與本句語境不同。"
+        "return-mcq-40": "本句的「returned」指「回以微笑 reciprocity」。",
+        "return-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-40"
     },
@@ -3553,11 +3301,9 @@ export default {
       "masked": "He nodded and ____ the greeting.",
       "options": [
         "return-mcq-41",
-        "return-mcq-40",
-        "return-mcq-42",
-        "return-mcq-39",
-        "return-mcq-43",
-        "return-mcq-38"
+        "return-mcq-06",
+        "return-mcq-78",
+        "return-mcq-62"
       ],
       "explanation": "本句的「returned」指「回應問候 reciprocity」。",
       "sentenceIndex": 97,
@@ -3566,12 +3312,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-41": "本句指「回應問候 reciprocity」。",
-        "return-mcq-40": "「回以微笑 reciprocity」與本句語境不同。",
-        "return-mcq-42": "「回敬讚美 reciprocity」與本句語境不同。",
-        "return-mcq-39": "「回電話 response」與本句語境不同。",
-        "return-mcq-43": "「還人情 reciprocity」與本句語境不同。",
-        "return-mcq-38": "「回郵／寄件人地址 post」與本句語境不同。"
+        "return-mcq-41": "本句的「returned」指「回應問候 reciprocity」。",
+        "return-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-41"
     },
@@ -3583,11 +3327,9 @@ export default {
       "masked": "She politely ____ his greeting.",
       "options": [
         "return-mcq-41",
-        "return-mcq-40",
-        "return-mcq-42",
-        "return-mcq-39",
-        "return-mcq-43",
-        "return-mcq-38"
+        "return-mcq-21",
+        "return-mcq-59",
+        "return-mcq-34"
       ],
       "explanation": "本句的「returned」指「回應問候 reciprocity」。",
       "sentenceIndex": 98,
@@ -3596,12 +3338,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-41": "本句指「回應問候 reciprocity」。",
-        "return-mcq-40": "「回以微笑 reciprocity」與本句語境不同。",
-        "return-mcq-42": "「回敬讚美 reciprocity」與本句語境不同。",
-        "return-mcq-39": "「回電話 response」與本句語境不同。",
-        "return-mcq-43": "「還人情 reciprocity」與本句語境不同。",
-        "return-mcq-38": "「回郵／寄件人地址 post」與本句語境不同。"
+        "return-mcq-41": "本句的「returned」指「回應問候 reciprocity」。",
+        "return-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-41"
     },
@@ -3613,11 +3353,9 @@ export default {
       "masked": "She ____ the compliment.",
       "options": [
         "return-mcq-42",
-        "return-mcq-41",
-        "return-mcq-43",
-        "return-mcq-40",
         "return-mcq-44",
-        "return-mcq-39"
+        "return-mcq-19",
+        "return-mcq-79"
       ],
       "explanation": "本句的「returned」指「回敬讚美 reciprocity」。",
       "sentenceIndex": 99,
@@ -3626,12 +3364,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-42": "本句指「回敬讚美 reciprocity」。",
-        "return-mcq-41": "「回應問候 reciprocity」與本句語境不同。",
-        "return-mcq-43": "「還人情 reciprocity」與本句語境不同。",
-        "return-mcq-40": "「回以微笑 reciprocity」與本句語境不同。",
-        "return-mcq-44": "「還擊 retaliation」與本句語境不同。",
-        "return-mcq-39": "「回電話 response」與本句語境不同。"
+        "return-mcq-42": "本句的「returned」指「回敬讚美 reciprocity」。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-42"
     },
@@ -3643,11 +3379,9 @@ export default {
       "masked": "He praised her work, and she ____ the compliment.",
       "options": [
         "return-mcq-42",
-        "return-mcq-41",
-        "return-mcq-43",
-        "return-mcq-40",
         "return-mcq-44",
-        "return-mcq-39"
+        "return-mcq-20",
+        "return-mcq-73"
       ],
       "explanation": "本句的「returned」指「回敬讚美 reciprocity」。",
       "sentenceIndex": 100,
@@ -3656,12 +3390,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-42": "本句指「回敬讚美 reciprocity」。",
-        "return-mcq-41": "「回應問候 reciprocity」與本句語境不同。",
-        "return-mcq-43": "「還人情 reciprocity」與本句語境不同。",
-        "return-mcq-40": "「回以微笑 reciprocity」與本句語境不同。",
-        "return-mcq-44": "「還擊 retaliation」與本句語境不同。",
-        "return-mcq-39": "「回電話 response」與本句語境不同。"
+        "return-mcq-42": "本句的「returned」指「回敬讚美 reciprocity」。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-42"
     },
@@ -3673,11 +3405,9 @@ export default {
       "masked": "She helped me last week, so I wanted to ____ the favour.",
       "options": [
         "return-mcq-43",
-        "return-mcq-42",
-        "return-mcq-44",
-        "return-mcq-41",
-        "return-mcq-45",
-        "return-mcq-40"
+        "return-mcq-21",
+        "return-mcq-48",
+        "return-mcq-52"
       ],
       "explanation": "本句的「return」指「還人情 reciprocity」。",
       "sentenceIndex": 101,
@@ -3686,12 +3416,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-43": "本句指「還人情 reciprocity」。",
-        "return-mcq-42": "「回敬讚美 reciprocity」與本句語境不同。",
-        "return-mcq-44": "「還擊 retaliation」與本句語境不同。",
-        "return-mcq-41": "「回應問候 reciprocity」與本句語境不同。",
-        "return-mcq-45": "「作為回報 reciprocity」與本句語境不同。",
-        "return-mcq-40": "「回以微笑 reciprocity」與本句語境不同。"
+        "return-mcq-43": "本句的「return」指「還人情 reciprocity」。",
+        "return-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-43"
     },
@@ -3703,11 +3431,9 @@ export default {
       "masked": "I'll ____ the favour someday.",
       "options": [
         "return-mcq-43",
-        "return-mcq-42",
-        "return-mcq-44",
-        "return-mcq-41",
-        "return-mcq-45",
-        "return-mcq-40"
+        "return-mcq-58",
+        "return-mcq-21",
+        "return-mcq-37"
       ],
       "explanation": "本句的「return」指「還人情 reciprocity」。",
       "sentenceIndex": 102,
@@ -3716,12 +3442,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-43": "本句指「還人情 reciprocity」。",
-        "return-mcq-42": "「回敬讚美 reciprocity」與本句語境不同。",
-        "return-mcq-44": "「還擊 retaliation」與本句語境不同。",
-        "return-mcq-41": "「回應問候 reciprocity」與本句語境不同。",
-        "return-mcq-45": "「作為回報 reciprocity」與本句語境不同。",
-        "return-mcq-40": "「回以微笑 reciprocity」與本句語境不同。"
+        "return-mcq-43": "本句的「return」指「還人情 reciprocity」。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-43"
     },
@@ -3733,11 +3457,9 @@ export default {
       "masked": "The guards ____ fire.",
       "options": [
         "return-mcq-44",
-        "return-mcq-43",
-        "return-mcq-45",
-        "return-mcq-42",
-        "return-mcq-46",
-        "return-mcq-41"
+        "return-mcq-03",
+        "return-mcq-52",
+        "return-mcq-71"
       ],
       "explanation": "本句的「returned」指「還擊 retaliation」。",
       "sentenceIndex": 103,
@@ -3746,12 +3468,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-44": "本句指「還擊 retaliation」。",
-        "return-mcq-43": "「還人情 reciprocity」與本句語境不同。",
-        "return-mcq-45": "「作為回報 reciprocity」與本句語境不同。",
-        "return-mcq-42": "「回敬讚美 reciprocity」與本句語境不同。",
-        "return-mcq-46": "「作為 X 的交換／回報 exchange」與本句語境不同。",
-        "return-mcq-41": "「回應問候 reciprocity」與本句語境不同。"
+        "return-mcq-44": "本句的「returned」指「還擊 retaliation」。",
+        "return-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-44"
     },
@@ -3763,11 +3483,9 @@ export default {
       "masked": "The ____ journey took three hours.",
       "options": [
         "return-mcq-47",
-        "return-mcq-46",
-        "return-mcq-48",
-        "return-mcq-45",
-        "return-mcq-49",
-        "return-mcq-44"
+        "return-mcq-04",
+        "return-mcq-59",
+        "return-mcq-71"
       ],
       "explanation": "本句的「return」指「回程 travel」。",
       "sentenceIndex": 112,
@@ -3776,12 +3494,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-47": "本句指「回程 travel」。",
-        "return-mcq-46": "「作為 X 的交換／回報 exchange」與本句語境不同。",
-        "return-mcq-48": "「回程航班 travel」與本句語境不同。",
-        "return-mcq-45": "「作為回報 reciprocity」與本句語境不同。",
-        "return-mcq-49": "「來回票 BrE travel」與本句語境不同。",
-        "return-mcq-44": "「還擊 retaliation」與本句語境不同。"
+        "return-mcq-47": "本句的「return」指「回程 travel」。",
+        "return-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-47"
     },
@@ -3793,11 +3509,9 @@ export default {
       "masked": "Traffic was heavier on the ____ journey.",
       "options": [
         "return-mcq-47",
-        "return-mcq-46",
-        "return-mcq-48",
-        "return-mcq-45",
-        "return-mcq-49",
-        "return-mcq-44"
+        "return-mcq-23",
+        "return-mcq-71",
+        "return-mcq-62"
       ],
       "explanation": "本句的「return」指「回程 travel」。",
       "sentenceIndex": 113,
@@ -3806,12 +3520,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-47": "本句指「回程 travel」。",
-        "return-mcq-46": "「作為 X 的交換／回報 exchange」與本句語境不同。",
-        "return-mcq-48": "「回程航班 travel」與本句語境不同。",
-        "return-mcq-45": "「作為回報 reciprocity」與本句語境不同。",
-        "return-mcq-49": "「來回票 BrE travel」與本句語境不同。",
-        "return-mcq-44": "「還擊 retaliation」與本句語境不同。"
+        "return-mcq-47": "本句的「return」指「回程 travel」。",
+        "return-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-47"
     },
@@ -3823,11 +3535,9 @@ export default {
       "masked": "Our ____ flight leaves on Sunday.",
       "options": [
         "return-mcq-48",
-        "return-mcq-47",
-        "return-mcq-49",
-        "return-mcq-46",
-        "return-mcq-50",
-        "return-mcq-45"
+        "return-mcq-11",
+        "return-mcq-43",
+        "return-mcq-79"
       ],
       "explanation": "本句的「return」指「回程航班 travel」。",
       "sentenceIndex": 114,
@@ -3836,12 +3546,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-48": "本句指「回程航班 travel」。",
-        "return-mcq-47": "「回程 travel」與本句語境不同。",
-        "return-mcq-49": "「來回票 BrE travel」與本句語境不同。",
-        "return-mcq-46": "「作為 X 的交換／回報 exchange」與本句語境不同。",
-        "return-mcq-50": "「來回票 BrE shorthand」與本句語境不同。",
-        "return-mcq-45": "「作為回報 reciprocity」與本句語境不同。"
+        "return-mcq-48": "本句的「return」指「回程航班 travel」。",
+        "return-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-48"
     },
@@ -3853,11 +3561,9 @@ export default {
       "masked": "She changed the date of her ____ flight.",
       "options": [
         "return-mcq-48",
-        "return-mcq-47",
-        "return-mcq-49",
-        "return-mcq-46",
-        "return-mcq-50",
-        "return-mcq-45"
+        "return-mcq-62",
+        "return-mcq-04",
+        "return-mcq-71"
       ],
       "explanation": "本句的「return」指「回程航班 travel」。",
       "sentenceIndex": 115,
@@ -3866,12 +3572,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-48": "本句指「回程航班 travel」。",
-        "return-mcq-47": "「回程 travel」與本句語境不同。",
-        "return-mcq-49": "「來回票 BrE travel」與本句語境不同。",
-        "return-mcq-46": "「作為 X 的交換／回報 exchange」與本句語境不同。",
-        "return-mcq-50": "「來回票 BrE shorthand」與本句語境不同。",
-        "return-mcq-45": "「作為回報 reciprocity」與本句語境不同。"
+        "return-mcq-48": "本句的「return」指「回程航班 travel」。",
+        "return-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-48"
     },
@@ -3883,11 +3587,9 @@ export default {
       "masked": "I'd like a ____ ticket to London.",
       "options": [
         "return-mcq-49",
-        "return-mcq-48",
-        "return-mcq-50",
-        "return-mcq-47",
-        "return-mcq-51",
-        "return-mcq-46"
+        "return-mcq-44",
+        "return-mcq-17",
+        "return-mcq-32"
       ],
       "explanation": "本句的「return」指「來回票 BrE travel」。",
       "sentenceIndex": 116,
@@ -3896,12 +3598,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-49": "本句指「來回票 BrE travel」。",
-        "return-mcq-48": "「回程航班 travel」與本句語境不同。",
-        "return-mcq-50": "「來回票 BrE shorthand」與本句語境不同。",
-        "return-mcq-47": "「回程 travel」與本句語境不同。",
-        "return-mcq-51": "「回訪 reciprocal visit」與本句語境不同。",
-        "return-mcq-46": "「作為 X 的交換／回報 exchange」與本句語境不同。"
+        "return-mcq-49": "本句的「return」指「來回票 BrE travel」。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-49"
     },
@@ -3913,11 +3613,9 @@ export default {
       "masked": "A ____ ticket was cheaper than buying two singles.",
       "options": [
         "return-mcq-49",
-        "return-mcq-48",
-        "return-mcq-50",
-        "return-mcq-47",
-        "return-mcq-51",
-        "return-mcq-46"
+        "return-mcq-06",
+        "return-mcq-62",
+        "return-mcq-73"
       ],
       "explanation": "本句的「return」指「來回票 BrE travel」。",
       "sentenceIndex": 117,
@@ -3926,12 +3624,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-49": "本句指「來回票 BrE travel」。",
-        "return-mcq-48": "「回程航班 travel」與本句語境不同。",
-        "return-mcq-50": "「來回票 BrE shorthand」與本句語境不同。",
-        "return-mcq-47": "「回程 travel」與本句語境不同。",
-        "return-mcq-51": "「回訪 reciprocal visit」與本句語境不同。",
-        "return-mcq-46": "「作為 X 的交換／回報 exchange」與本句語境不同。"
+        "return-mcq-49": "本句的「return」指「來回票 BrE travel」。",
+        "return-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-49"
     },
@@ -3943,11 +3639,9 @@ export default {
       "masked": "Single or ____?",
       "options": [
         "return-pdf-plain-061",
-        "return-mcq-04",
-        "return-mcq-06",
-        "return-mcq-03",
-        "return-mcq-07",
-        "return-mcq-02"
+        "return-mcq-10",
+        "return-mcq-31",
+        "return-mcq-79"
       ],
       "explanation": "本句的「return」指「來回票；往返車票」。",
       "sentenceIndex": 118,
@@ -3956,12 +3650,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-pdf-plain-061": "本句指「來回票；往返車票」。",
-        "return-mcq-04": "「退貨換貨 retail outcome」與本句語境不同。",
-        "return-mcq-06": "「處理退貨 retail operations」與本句語境不同。",
-        "return-mcq-03": "「退貨退款 retail outcome」與本句語境不同。",
-        "return-mcq-07": "「接受退貨 policy」與本句語境不同。",
-        "return-mcq-02": "「退回貨品 retail」與本句語境不同。"
+        "return-pdf-plain-061": "本句的「return」指「來回票；往返車票」。",
+        "return-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-pdf-plain-061"
     },
@@ -3973,11 +3665,9 @@ export default {
       "masked": "Two ____ to Brighton, please.",
       "options": [
         "return-pdf-plain-061",
-        "return-mcq-04",
-        "return-mcq-06",
-        "return-mcq-03",
         "return-mcq-07",
-        "return-mcq-02"
+        "return-mcq-79",
+        "return-mcq-71"
       ],
       "explanation": "本句的「returns」指「來回票；往返車票」。",
       "sentenceIndex": 119,
@@ -3986,12 +3676,10 @@ export default {
         "returns"
       ],
       "optionReasons": {
-        "return-pdf-plain-061": "本句指「來回票；往返車票」。",
-        "return-mcq-04": "「退貨換貨 retail outcome」與本句語境不同。",
-        "return-mcq-06": "「處理退貨 retail operations」與本句語境不同。",
-        "return-mcq-03": "「退貨退款 retail outcome」與本句語境不同。",
-        "return-mcq-07": "「接受退貨 policy」與本句語境不同。",
-        "return-mcq-02": "「退回貨品 retail」與本句語境不同。"
+        "return-pdf-plain-061": "本句的「returns」指「來回票；往返車票」。",
+        "return-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-pdf-plain-061"
     },
@@ -4003,11 +3691,9 @@ export default {
       "masked": "The client made a ____ visit the following month.",
       "options": [
         "return-mcq-51",
-        "return-mcq-50",
-        "return-mcq-52",
-        "return-mcq-49",
-        "return-mcq-53",
-        "return-mcq-48"
+        "return-mcq-59",
+        "return-mcq-79",
+        "return-mcq-22"
       ],
       "explanation": "本句的「return」指「回訪 reciprocal visit」。",
       "sentenceIndex": 120,
@@ -4016,12 +3702,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-51": "本句指「回訪 reciprocal visit」。",
-        "return-mcq-50": "「來回票 BrE shorthand」與本句語境不同。",
-        "return-mcq-52": "「次回合比賽 sport」與本句語境不同。",
-        "return-mcq-49": "「來回票 BrE travel」與本句語境不同。",
-        "return-mcq-53": "「回報；收益 investment」與本句語境不同。",
-        "return-mcq-48": "「回程航班 travel」與本句語境不同。"
+        "return-mcq-51": "本句的「return」指「回訪 reciprocal visit」。",
+        "return-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-51"
     },
@@ -4033,11 +3717,9 @@ export default {
       "masked": "We hope to arrange a ____ visit next year.",
       "options": [
         "return-mcq-51",
-        "return-mcq-50",
-        "return-mcq-52",
-        "return-mcq-49",
-        "return-mcq-53",
-        "return-mcq-48"
+        "return-mcq-04",
+        "return-mcq-32",
+        "return-mcq-44"
       ],
       "explanation": "本句的「return」指「回訪 reciprocal visit」。",
       "sentenceIndex": 121,
@@ -4046,12 +3728,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-51": "本句指「回訪 reciprocal visit」。",
-        "return-mcq-50": "「來回票 BrE shorthand」與本句語境不同。",
-        "return-mcq-52": "「次回合比賽 sport」與本句語境不同。",
-        "return-mcq-49": "「來回票 BrE travel」與本句語境不同。",
-        "return-mcq-53": "「回報；收益 investment」與本句語境不同。",
-        "return-mcq-48": "「回程航班 travel」與本句語境不同。"
+        "return-mcq-51": "本句的「return」指「回訪 reciprocal visit」。",
+        "return-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-51"
     },
@@ -4063,11 +3743,9 @@ export default {
       "masked": "The ____ match will be played next week.",
       "options": [
         "return-mcq-52",
-        "return-mcq-51",
-        "return-mcq-53",
-        "return-mcq-50",
-        "return-mcq-54",
-        "return-mcq-49"
+        "return-mcq-61",
+        "return-mcq-43",
+        "return-mcq-32"
       ],
       "explanation": "本句的「return」指「次回合比賽 sport」。",
       "sentenceIndex": 122,
@@ -4076,12 +3754,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-52": "本句指「次回合比賽 sport」。",
-        "return-mcq-51": "「回訪 reciprocal visit」與本句語境不同。",
-        "return-mcq-53": "「回報；收益 investment」與本句語境不同。",
-        "return-mcq-50": "「來回票 BrE shorthand」與本句語境不同。",
-        "return-mcq-54": "「投資回報 finance」與本句語境不同。",
-        "return-mcq-49": "「來回票 BrE travel」與本句語境不同。"
+        "return-mcq-52": "本句的「return」指「次回合比賽 sport」。",
+        "return-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-52"
     },
@@ -4093,11 +3769,9 @@ export default {
       "masked": "They won the ____ leg 2–0.",
       "options": [
         "return-mcq-52",
-        "return-mcq-51",
-        "return-mcq-53",
-        "return-mcq-50",
-        "return-mcq-54",
-        "return-mcq-49"
+        "return-mcq-14",
+        "return-mcq-71",
+        "return-mcq-44"
       ],
       "explanation": "本句的「return」指「次回合比賽 sport」。",
       "sentenceIndex": 123,
@@ -4106,12 +3780,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-52": "本句指「次回合比賽 sport」。",
-        "return-mcq-51": "「回訪 reciprocal visit」與本句語境不同。",
-        "return-mcq-53": "「回報；收益 investment」與本句語境不同。",
-        "return-mcq-50": "「來回票 BrE shorthand」與本句語境不同。",
-        "return-mcq-54": "「投資回報 finance」與本句語境不同。",
-        "return-mcq-49": "「來回票 BrE travel」與本句語境不同。"
+        "return-mcq-52": "本句的「return」指「次回合比賽 sport」。",
+        "return-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-52"
     },
@@ -4123,11 +3795,9 @@ export default {
       "masked": "Investors want a reasonable ____.",
       "options": [
         "return-pdf-plain-064",
-        "return-mcq-57",
-        "return-mcq-59",
-        "return-mcq-56",
-        "return-mcq-60",
-        "return-mcq-55"
+        "return-mcq-17",
+        "return-mcq-33",
+        "return-mcq-73"
       ],
       "explanation": "本句的「return」指「投資所得的回報或收益」。",
       "sentenceIndex": 124,
@@ -4136,12 +3806,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-pdf-plain-064": "本句指「投資所得的回報或收益」。",
-        "return-mcq-57": "「總回報 finance」與本句語境不同。",
-        "return-mcq-59": "「報酬遞減 economics」與本句語境不同。",
-        "return-mcq-56": "「年度回報 finance」與本句語境不同。",
-        "return-mcq-60": "「回報遞減點 economics」與本句語境不同。",
-        "return-mcq-55": "「回報率 finance」與本句語境不同。"
+        "return-pdf-plain-064": "本句的「return」指「投資所得的回報或收益」。",
+        "return-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-pdf-plain-064"
     },
@@ -4153,11 +3821,9 @@ export default {
       "masked": "The investment produced a strong ____.",
       "options": [
         "return-pdf-plain-064",
-        "return-mcq-57",
-        "return-mcq-59",
-        "return-mcq-56",
-        "return-mcq-60",
-        "return-mcq-55"
+        "return-mcq-25",
+        "return-mcq-64",
+        "return-mcq-32"
       ],
       "explanation": "本句的「return」指「投資所得的回報或收益」。",
       "sentenceIndex": 125,
@@ -4166,12 +3832,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-pdf-plain-064": "本句指「投資所得的回報或收益」。",
-        "return-mcq-57": "「總回報 finance」與本句語境不同。",
-        "return-mcq-59": "「報酬遞減 economics」與本句語境不同。",
-        "return-mcq-56": "「年度回報 finance」與本句語境不同。",
-        "return-mcq-60": "「回報遞減點 economics」與本句語境不同。",
-        "return-mcq-55": "「回報率 finance」與本句語境不同。"
+        "return-pdf-plain-064": "本句的「return」指「投資所得的回報或收益」。",
+        "return-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-pdf-plain-064"
     },
@@ -4183,11 +3847,9 @@ export default {
       "masked": "The project produced a strong ____ on investment.",
       "options": [
         "return-mcq-54",
-        "return-mcq-53",
-        "return-mcq-55",
-        "return-mcq-52",
-        "return-mcq-56",
-        "return-mcq-51"
+        "return-mcq-22",
+        "return-mcq-64",
+        "return-mcq-43"
       ],
       "explanation": "本句的「return」指「投資回報 finance」。",
       "sentenceIndex": 126,
@@ -4196,12 +3858,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-54": "本句指「投資回報 finance」。",
-        "return-mcq-53": "「回報；收益 investment」與本句語境不同。",
-        "return-mcq-55": "「回報率 finance」與本句語境不同。",
-        "return-mcq-52": "「次回合比賽 sport」與本句語境不同。",
-        "return-mcq-56": "「年度回報 finance」與本句語境不同。",
-        "return-mcq-51": "「回訪 reciprocal visit」與本句語境不同。"
+        "return-mcq-54": "本句的「return」指「投資回報 finance」。",
+        "return-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-54"
     },
@@ -4213,11 +3873,9 @@ export default {
       "masked": "The investment has an annual rate of ____ of 5%.",
       "options": [
         "return-mcq-55",
-        "return-mcq-54",
-        "return-mcq-56",
-        "return-mcq-53",
-        "return-mcq-57",
-        "return-mcq-52"
+        "return-mcq-17",
+        "return-mcq-79",
+        "return-mcq-78"
       ],
       "explanation": "本句的「return」指「回報率 finance」。",
       "sentenceIndex": 127,
@@ -4226,12 +3884,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-55": "本句指「回報率 finance」。",
-        "return-mcq-54": "「投資回報 finance」與本句語境不同。",
-        "return-mcq-56": "「年度回報 finance」與本句語境不同。",
-        "return-mcq-53": "「回報；收益 investment」與本句語境不同。",
-        "return-mcq-57": "「總回報 finance」與本句語境不同。",
-        "return-mcq-52": "「次回合比賽 sport」與本句語境不同。"
+        "return-mcq-55": "本句的「return」指「回報率 finance」。",
+        "return-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-55"
     },
@@ -4243,11 +3899,9 @@ export default {
       "masked": "Higher expected ____ often come with different levels of risk.",
       "options": [
         "return-mcq-55",
-        "return-mcq-54",
-        "return-mcq-56",
-        "return-mcq-53",
-        "return-mcq-57",
-        "return-mcq-52"
+        "return-mcq-79",
+        "return-mcq-19",
+        "return-mcq-78"
       ],
       "explanation": "本句的「returns」指「回報率 finance」。",
       "sentenceIndex": 128,
@@ -4256,12 +3910,10 @@ export default {
         "returns"
       ],
       "optionReasons": {
-        "return-mcq-55": "本句指「回報率 finance」。",
-        "return-mcq-54": "「投資回報 finance」與本句語境不同。",
-        "return-mcq-56": "「年度回報 finance」與本句語境不同。",
-        "return-mcq-53": "「回報；收益 investment」與本句語境不同。",
-        "return-mcq-57": "「總回報 finance」與本句語境不同。",
-        "return-mcq-52": "「次回合比賽 sport」與本句語境不同。"
+        "return-mcq-55": "本句的「returns」指「回報率 finance」。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-55"
     },
@@ -4273,11 +3925,9 @@ export default {
       "masked": "The fund reported a positive annual ____.",
       "options": [
         "return-mcq-56",
-        "return-mcq-55",
-        "return-mcq-57",
-        "return-mcq-54",
-        "return-mcq-58",
-        "return-mcq-53"
+        "return-mcq-19",
+        "return-mcq-34",
+        "return-mcq-64"
       ],
       "explanation": "本句的「return」指「年度回報 finance」。",
       "sentenceIndex": 129,
@@ -4286,12 +3936,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-56": "本句指「年度回報 finance」。",
-        "return-mcq-55": "「回報率 finance」與本句語境不同。",
-        "return-mcq-57": "「總回報 finance」與本句語境不同。",
-        "return-mcq-54": "「投資回報 finance」與本句語境不同。",
-        "return-mcq-58": "「錄得／產生盈利 business」與本句語境不同。",
-        "return-mcq-53": "「回報；收益 investment」與本句語境不同。"
+        "return-mcq-56": "本句的「return」指「年度回報 finance」。",
+        "return-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-56"
     },
@@ -4303,11 +3951,9 @@ export default {
       "masked": "Compare annual ____ over several years rather than one period alone.",
       "options": [
         "return-mcq-56",
-        "return-mcq-55",
-        "return-mcq-57",
-        "return-mcq-54",
-        "return-mcq-58",
-        "return-mcq-53"
+        "return-mcq-11",
+        "return-mcq-71",
+        "return-mcq-58"
       ],
       "explanation": "本句的「returns」指「年度回報 finance」。",
       "sentenceIndex": 130,
@@ -4316,12 +3962,10 @@ export default {
         "returns"
       ],
       "optionReasons": {
-        "return-mcq-56": "本句指「年度回報 finance」。",
-        "return-mcq-55": "「回報率 finance」與本句語境不同。",
-        "return-mcq-57": "「總回報 finance」與本句語境不同。",
-        "return-mcq-54": "「投資回報 finance」與本句語境不同。",
-        "return-mcq-58": "「錄得／產生盈利 business」與本句語境不同。",
-        "return-mcq-53": "「回報；收益 investment」與本句語境不同。"
+        "return-mcq-56": "本句的「returns」指「年度回報 finance」。",
+        "return-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-56"
     },
@@ -4333,11 +3977,9 @@ export default {
       "masked": "Total ____ includes both price changes and relevant distributions.",
       "options": [
         "return-mcq-57",
-        "return-mcq-56",
+        "return-mcq-14",
         "return-mcq-58",
-        "return-mcq-55",
-        "return-mcq-59",
-        "return-mcq-54"
+        "return-mcq-31"
       ],
       "explanation": "本句的「return」指「總回報 finance」。",
       "sentenceIndex": 131,
@@ -4346,12 +3988,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-57": "本句指「總回報 finance」。",
-        "return-mcq-56": "「年度回報 finance」與本句語境不同。",
-        "return-mcq-58": "「錄得／產生盈利 business」與本句語境不同。",
-        "return-mcq-55": "「回報率 finance」與本句語境不同。",
-        "return-mcq-59": "「報酬遞減 economics」與本句語境不同。",
-        "return-mcq-54": "「投資回報 finance」與本句語境不同。"
+        "return-mcq-57": "本句的「return」指「總回報 finance」。",
+        "return-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-57"
     },
@@ -4363,11 +4003,9 @@ export default {
       "masked": "Investors often compare total ____ rather than price movement alone.",
       "options": [
         "return-mcq-57",
-        "return-mcq-56",
-        "return-mcq-58",
-        "return-mcq-55",
-        "return-mcq-59",
-        "return-mcq-54"
+        "return-mcq-32",
+        "return-mcq-17",
+        "return-mcq-73"
       ],
       "explanation": "本句的「return」指「總回報 finance」。",
       "sentenceIndex": 132,
@@ -4376,12 +4014,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-57": "本句指「總回報 finance」。",
-        "return-mcq-56": "「年度回報 finance」與本句語境不同。",
-        "return-mcq-58": "「錄得／產生盈利 business」與本句語境不同。",
-        "return-mcq-55": "「回報率 finance」與本句語境不同。",
-        "return-mcq-59": "「報酬遞減 economics」與本句語境不同。",
-        "return-mcq-54": "「投資回報 finance」與本句語境不同。"
+        "return-mcq-57": "本句的「return」指「總回報 finance」。",
+        "return-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-57"
     },
@@ -4393,11 +4029,9 @@ export default {
       "masked": "The new division finally ____ a profit.",
       "options": [
         "return-mcq-58",
-        "return-mcq-57",
-        "return-mcq-59",
-        "return-mcq-56",
-        "return-mcq-60",
-        "return-mcq-55"
+        "return-mcq-70",
+        "return-mcq-32",
+        "return-mcq-44"
       ],
       "explanation": "本句的「returned」指「錄得／產生盈利 business」。",
       "sentenceIndex": 133,
@@ -4406,12 +4040,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-58": "本句指「錄得／產生盈利 business」。",
-        "return-mcq-57": "「總回報 finance」與本句語境不同。",
-        "return-mcq-59": "「報酬遞減 economics」與本句語境不同。",
-        "return-mcq-56": "「年度回報 finance」與本句語境不同。",
-        "return-mcq-60": "「回報遞減點 economics」與本句語境不同。",
-        "return-mcq-55": "「回報率 finance」與本句語境不同。"
+        "return-mcq-58": "本句的「returned」指「錄得／產生盈利 business」。",
+        "return-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-58"
     },
@@ -4423,11 +4055,9 @@ export default {
       "masked": "The investment has yet to ____ a profit.",
       "options": [
         "return-mcq-58",
-        "return-mcq-57",
-        "return-mcq-59",
-        "return-mcq-56",
-        "return-mcq-60",
-        "return-mcq-55"
+        "return-mcq-73",
+        "return-mcq-70",
+        "return-mcq-12"
       ],
       "explanation": "本句的「return」指「錄得／產生盈利 business」。",
       "sentenceIndex": 134,
@@ -4436,12 +4066,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-58": "本句指「錄得／產生盈利 business」。",
-        "return-mcq-57": "「總回報 finance」與本句語境不同。",
-        "return-mcq-59": "「報酬遞減 economics」與本句語境不同。",
-        "return-mcq-56": "「年度回報 finance」與本句語境不同。",
-        "return-mcq-60": "「回報遞減點 economics」與本句語境不同。",
-        "return-mcq-55": "「回報率 finance」與本句語境不同。"
+        "return-mcq-58": "本句的「return」指「錄得／產生盈利 business」。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-58"
     },
@@ -4453,11 +4081,9 @@ export default {
       "masked": "Adding more workers may eventually produce diminishing ____.",
       "options": [
         "return-mcq-59",
-        "return-mcq-58",
-        "return-mcq-60",
-        "return-mcq-57",
-        "return-mcq-61",
-        "return-mcq-56"
+        "return-mcq-21",
+        "return-mcq-40",
+        "return-mcq-32"
       ],
       "explanation": "本句的「returns」指「報酬遞減 economics」。",
       "sentenceIndex": 135,
@@ -4466,12 +4092,10 @@ export default {
         "returns"
       ],
       "optionReasons": {
-        "return-mcq-59": "本句指「報酬遞減 economics」。",
-        "return-mcq-58": "「錄得／產生盈利 business」與本句語境不同。",
-        "return-mcq-60": "「回報遞減點 economics」與本句語境不同。",
-        "return-mcq-57": "「總回報 finance」與本句語境不同。",
-        "return-mcq-61": "「報稅表／申報 tax」與本句語境不同。",
-        "return-mcq-56": "「年度回報 finance」與本句語境不同。"
+        "return-mcq-59": "本句的「returns」指「報酬遞減 economics」。",
+        "return-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-59"
     },
@@ -4483,11 +4107,9 @@ export default {
       "masked": "More meetings can reach a point of diminishing ____.",
       "options": [
         "return-mcq-59",
-        "return-mcq-58",
-        "return-mcq-60",
-        "return-mcq-57",
-        "return-mcq-61",
-        "return-mcq-56"
+        "return-mcq-42",
+        "return-mcq-23",
+        "return-mcq-34"
       ],
       "explanation": "本句的「returns」指「報酬遞減 economics」。",
       "sentenceIndex": 136,
@@ -4496,12 +4118,10 @@ export default {
         "returns"
       ],
       "optionReasons": {
-        "return-mcq-59": "本句指「報酬遞減 economics」。",
-        "return-mcq-58": "「錄得／產生盈利 business」與本句語境不同。",
-        "return-mcq-60": "「回報遞減點 economics」與本句語境不同。",
-        "return-mcq-57": "「總回報 finance」與本句語境不同。",
-        "return-mcq-61": "「報稅表／申報 tax」與本句語境不同。",
-        "return-mcq-56": "「年度回報 finance」與本句語境不同。"
+        "return-mcq-59": "本句的「returns」指「報酬遞減 economics」。",
+        "return-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-59"
     },
@@ -4513,11 +4133,9 @@ export default {
       "masked": "Beyond a certain point, extra advertising reaches the point of diminishing ____.",
       "options": [
         "return-mcq-60",
-        "return-mcq-59",
-        "return-mcq-61",
-        "return-mcq-58",
-        "return-mcq-62",
-        "return-mcq-57"
+        "return-mcq-32",
+        "return-mcq-06",
+        "return-mcq-73"
       ],
       "explanation": "本句的「returns」指「回報遞減點 economics」。",
       "sentenceIndex": 137,
@@ -4526,12 +4144,10 @@ export default {
         "returns"
       ],
       "optionReasons": {
-        "return-mcq-60": "本句指「回報遞減點 economics」。",
-        "return-mcq-59": "「報酬遞減 economics」與本句語境不同。",
-        "return-mcq-61": "「報稅表／申報 tax」與本句語境不同。",
-        "return-mcq-58": "「錄得／產生盈利 business」與本句語境不同。",
-        "return-mcq-62": "「報稅 tax」與本句語境不同。",
-        "return-mcq-57": "「總回報 finance」與本句語境不同。"
+        "return-mcq-60": "本句的「returns」指「回報遞減點 economics」。",
+        "return-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-60"
     },
@@ -4543,11 +4159,9 @@ export default {
       "masked": "Longer meetings may eventually reach a point of diminishing ____.",
       "options": [
         "return-mcq-60",
-        "return-mcq-59",
-        "return-mcq-61",
-        "return-mcq-58",
-        "return-mcq-62",
-        "return-mcq-57"
+        "return-mcq-73",
+        "return-mcq-71",
+        "return-mcq-21"
       ],
       "explanation": "本句的「returns」指「回報遞減點 economics」。",
       "sentenceIndex": 138,
@@ -4556,12 +4170,10 @@ export default {
         "returns"
       ],
       "optionReasons": {
-        "return-mcq-60": "本句指「回報遞減點 economics」。",
-        "return-mcq-59": "「報酬遞減 economics」與本句語境不同。",
-        "return-mcq-61": "「報稅表／申報 tax」與本句語境不同。",
-        "return-mcq-58": "「錄得／產生盈利 business」與本句語境不同。",
-        "return-mcq-62": "「報稅 tax」與本句語境不同。",
-        "return-mcq-57": "「總回報 finance」與本句語境不同。"
+        "return-mcq-60": "本句的「returns」指「回報遞減點 economics」。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-60"
     },
@@ -4573,11 +4185,9 @@ export default {
       "masked": "She submitted her tax ____.",
       "options": [
         "return-mcq-61",
-        "return-mcq-60",
-        "return-mcq-62",
-        "return-mcq-59",
-        "return-mcq-63",
-        "return-mcq-58"
+        "return-mcq-52",
+        "return-mcq-76",
+        "return-mcq-21"
       ],
       "explanation": "本句的「return」指「報稅表／申報 tax」。",
       "sentenceIndex": 139,
@@ -4586,12 +4196,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-61": "本句指「報稅表／申報 tax」。",
-        "return-mcq-60": "「回報遞減點 economics」與本句語境不同。",
-        "return-mcq-62": "「報稅 tax」與本句語境不同。",
-        "return-mcq-59": "「報酬遞減 economics」與本句語境不同。",
-        "return-mcq-63": "「統計／申報資料 administration」與本句語境不同。",
-        "return-mcq-58": "「錄得／產生盈利 business」與本句語境不同。"
+        "return-mcq-61": "本句的「return」指「報稅表／申報 tax」。",
+        "return-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-61"
     },
@@ -4603,10 +4211,8 @@ export default {
       "masked": "The deadline for filing the tax ____ is approaching.",
       "options": [
         "return-mcq-61",
-        "return-mcq-60",
-        "return-mcq-62",
-        "return-mcq-59",
-        "return-mcq-63",
+        "return-mcq-20",
+        "return-mcq-38",
         "return-mcq-58"
       ],
       "explanation": "本句的「return」指「報稅表／申報 tax」。",
@@ -4616,12 +4222,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-61": "本句指「報稅表／申報 tax」。",
-        "return-mcq-60": "「回報遞減點 economics」與本句語境不同。",
-        "return-mcq-62": "「報稅 tax」與本句語境不同。",
-        "return-mcq-59": "「報酬遞減 economics」與本句語境不同。",
-        "return-mcq-63": "「統計／申報資料 administration」與本句語境不同。",
-        "return-mcq-58": "「錄得／產生盈利 business」與本句語境不同。"
+        "return-mcq-61": "本句的「return」指「報稅表／申報 tax」。",
+        "return-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-61"
     },
@@ -4633,11 +4237,9 @@ export default {
       "masked": "Some taxpayers must file a tax ____ annually.",
       "options": [
         "return-mcq-62",
-        "return-mcq-61",
-        "return-mcq-63",
-        "return-mcq-60",
-        "return-mcq-64",
-        "return-mcq-59"
+        "return-mcq-01",
+        "return-mcq-71",
+        "return-mcq-58"
       ],
       "explanation": "本句的「return」指「報稅 tax」。",
       "sentenceIndex": 141,
@@ -4646,12 +4248,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-62": "本句指「報稅 tax」。",
-        "return-mcq-61": "「報稅表／申報 tax」與本句語境不同。",
-        "return-mcq-63": "「統計／申報資料 administration」與本句語境不同。",
-        "return-mcq-60": "「回報遞減點 economics」與本句語境不同。",
-        "return-mcq-64": "「作出裁決 law」與本句語境不同。",
-        "return-mcq-59": "「報酬遞減 economics」與本句語境不同。"
+        "return-mcq-62": "本句的「return」指「報稅 tax」。",
+        "return-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-62"
     },
@@ -4663,11 +4263,9 @@ export default {
       "masked": "He filed the ____ electronically.",
       "options": [
         "return-mcq-62",
-        "return-mcq-61",
-        "return-mcq-63",
-        "return-mcq-60",
-        "return-mcq-64",
-        "return-mcq-59"
+        "return-mcq-18",
+        "return-mcq-44",
+        "return-mcq-40"
       ],
       "explanation": "本句的「return」指「報稅 tax」。",
       "sentenceIndex": 142,
@@ -4676,12 +4274,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-62": "本句指「報稅 tax」。",
-        "return-mcq-61": "「報稅表／申報 tax」與本句語境不同。",
-        "return-mcq-63": "「統計／申報資料 administration」與本句語境不同。",
-        "return-mcq-60": "「回報遞減點 economics」與本句語境不同。",
-        "return-mcq-64": "「作出裁決 law」與本句語境不同。",
-        "return-mcq-59": "「報酬遞減 economics」與本句語境不同。"
+        "return-mcq-62": "本句的「return」指「報稅 tax」。",
+        "return-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-62"
     },
@@ -4693,11 +4289,9 @@ export default {
       "masked": "The jury ____ a verdict.",
       "options": [
         "return-mcq-64",
-        "return-mcq-63",
-        "return-mcq-65",
-        "return-mcq-62",
-        "return-mcq-66",
-        "return-mcq-61"
+        "return-mcq-71",
+        "return-mcq-12",
+        "return-mcq-72"
       ],
       "explanation": "本句的「returned」指「作出裁決 law」。",
       "sentenceIndex": 145,
@@ -4706,12 +4300,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-64": "本句指「作出裁決 law」。",
-        "return-mcq-63": "「統計／申報資料 administration」與本句語境不同。",
-        "return-mcq-65": "「回擊球 sport」與本句語境不同。",
-        "return-mcq-62": "「報稅 tax」與本句語境不同。",
-        "return-mcq-66": "「接發球回擊 sport」與本句語境不同。",
-        "return-mcq-61": "「報稅表／申報 tax」與本句語境不同。"
+        "return-mcq-64": "本句的「returned」指「作出裁決 law」。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-64"
     },
@@ -4723,11 +4315,9 @@ export default {
       "masked": "A verdict was ____ after several hours of deliberation.",
       "options": [
         "return-mcq-64",
-        "return-mcq-63",
-        "return-mcq-65",
-        "return-mcq-62",
-        "return-mcq-66",
-        "return-mcq-61"
+        "return-mcq-71",
+        "return-pdf-plain-064",
+        "return-mcq-42"
       ],
       "explanation": "本句的「returned」指「作出裁決 law」。",
       "sentenceIndex": 146,
@@ -4736,12 +4326,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-64": "本句指「作出裁決 law」。",
-        "return-mcq-63": "「統計／申報資料 administration」與本句語境不同。",
-        "return-mcq-65": "「回擊球 sport」與本句語境不同。",
-        "return-mcq-62": "「報稅 tax」與本句語境不同。",
-        "return-mcq-66": "「接發球回擊 sport」與本句語境不同。",
-        "return-mcq-61": "「報稅表／申報 tax」與本句語境不同。"
+        "return-mcq-64": "本句的「returned」指「作出裁決 law」。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "return-pdf-plain-064": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-64"
     },
@@ -4753,11 +4341,9 @@ export default {
       "masked": "She ____ the ball down the line.",
       "options": [
         "return-mcq-65",
-        "return-mcq-64",
-        "return-mcq-66",
-        "return-mcq-63",
-        "return-mcq-67",
-        "return-mcq-62"
+        "return-mcq-34",
+        "return-mcq-11",
+        "return-mcq-79"
       ],
       "explanation": "本句的「returned」指「回擊球 sport」。",
       "sentenceIndex": 147,
@@ -4766,12 +4352,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-65": "本句指「回擊球 sport」。",
-        "return-mcq-64": "「作出裁決 law」與本句語境不同。",
-        "return-mcq-66": "「接發球回擊 sport」與本句語境不同。",
-        "return-mcq-63": "「統計／申報資料 administration」與本句語境不同。",
-        "return-mcq-67": "「回球 sport」與本句語境不同。",
-        "return-mcq-62": "「報稅 tax」與本句語境不同。"
+        "return-mcq-65": "本句的「returned」指「回擊球 sport」。",
+        "return-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-65"
     },
@@ -4783,11 +4367,9 @@ export default {
       "masked": "He ____ the serve easily.",
       "options": [
         "return-mcq-65",
-        "return-mcq-64",
-        "return-mcq-66",
-        "return-mcq-63",
-        "return-mcq-67",
-        "return-mcq-62"
+        "return-mcq-73",
+        "return-mcq-58",
+        "return-mcq-16"
       ],
       "explanation": "本句的「returned」指「回擊球 sport」。",
       "sentenceIndex": 148,
@@ -4796,12 +4378,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-65": "本句指「回擊球 sport」。",
-        "return-mcq-64": "「作出裁決 law」與本句語境不同。",
-        "return-mcq-66": "「接發球回擊 sport」與本句語境不同。",
-        "return-mcq-63": "「統計／申報資料 administration」與本句語境不同。",
-        "return-mcq-67": "「回球 sport」與本句語境不同。",
-        "return-mcq-62": "「報稅 tax」與本句語境不同。"
+        "return-mcq-65": "本句的「returned」指「回擊球 sport」。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-65"
     },
@@ -4813,11 +4393,9 @@ export default {
       "masked": "She is excellent at ____ serve.",
       "options": [
         "return-mcq-66",
-        "return-mcq-65",
-        "return-mcq-67",
+        "return-mcq-04",
         "return-mcq-64",
-        "return-mcq-68",
-        "return-mcq-63"
+        "return-mcq-61"
       ],
       "explanation": "本句的「returning」指「接發球回擊 sport」。",
       "sentenceIndex": 149,
@@ -4826,12 +4404,10 @@ export default {
         "returning"
       ],
       "optionReasons": {
-        "return-mcq-66": "本句指「接發球回擊 sport」。",
-        "return-mcq-65": "「回擊球 sport」與本句語境不同。",
-        "return-mcq-67": "「回球 sport」與本句語境不同。",
-        "return-mcq-64": "「作出裁決 law」與本句語境不同。",
-        "return-mcq-68": "「開球回攻 sport」與本句語境不同。",
-        "return-mcq-63": "「統計／申報資料 administration」與本句語境不同。"
+        "return-mcq-66": "本句的「returning」指「接發球回擊 sport」。",
+        "return-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-66"
     },
@@ -4843,11 +4419,9 @@ export default {
       "masked": "The player failed to ____ the serve.",
       "options": [
         "return-mcq-66",
-        "return-mcq-65",
-        "return-mcq-67",
-        "return-mcq-64",
-        "return-mcq-68",
-        "return-mcq-63"
+        "return-mcq-78",
+        "return-mcq-09",
+        "return-mcq-59"
       ],
       "explanation": "本句的「return」指「接發球回擊 sport」。",
       "sentenceIndex": 150,
@@ -4856,12 +4430,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-66": "本句指「接發球回擊 sport」。",
-        "return-mcq-65": "「回擊球 sport」與本句語境不同。",
-        "return-mcq-67": "「回球 sport」與本句語境不同。",
-        "return-mcq-64": "「作出裁決 law」與本句語境不同。",
-        "return-mcq-68": "「開球回攻 sport」與本句語境不同。",
-        "return-mcq-63": "「統計／申報資料 administration」與本句語境不同。"
+        "return-mcq-66": "本句的「return」指「接發球回擊 sport」。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-66"
     },
@@ -4873,11 +4445,9 @@ export default {
       "masked": "Her ____ of serve is one of her strengths.",
       "options": [
         "return-mcq-66",
-        "return-mcq-65",
-        "return-mcq-67",
-        "return-mcq-64",
-        "return-mcq-68",
-        "return-mcq-63"
+        "return-mcq-78",
+        "return-mcq-16",
+        "return-mcq-73"
       ],
       "explanation": "本句的「return」指「接發球回擊 sport」。",
       "sentenceIndex": 153,
@@ -4886,12 +4456,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-66": "本句指「接發球回擊 sport」。",
-        "return-mcq-65": "「回擊球 sport」與本句語境不同。",
-        "return-mcq-67": "「回球 sport」與本句語境不同。",
-        "return-mcq-64": "「作出裁決 law」與本句語境不同。",
-        "return-mcq-68": "「開球回攻 sport」與本句語境不同。",
-        "return-mcq-63": "「統計／申報資料 administration」與本句語境不同。"
+        "return-mcq-66": "本句的「return」指「接發球回擊 sport」。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-66"
     },
@@ -4903,11 +4471,9 @@ export default {
       "masked": "Good serve ____ requires anticipation.",
       "options": [
         "return-mcq-66",
-        "return-mcq-65",
-        "return-mcq-67",
+        "return-mcq-21",
         "return-mcq-64",
-        "return-mcq-68",
-        "return-mcq-63"
+        "return-mcq-31"
       ],
       "explanation": "本句的「return」指「接發球回擊 sport」。",
       "sentenceIndex": 154,
@@ -4916,12 +4482,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-66": "本句指「接發球回擊 sport」。",
-        "return-mcq-65": "「回擊球 sport」與本句語境不同。",
-        "return-mcq-67": "「回球 sport」與本句語境不同。",
-        "return-mcq-64": "「作出裁決 law」與本句語境不同。",
-        "return-mcq-68": "「開球回攻 sport」與本句語境不同。",
-        "return-mcq-63": "「統計／申報資料 administration」與本句語境不同。"
+        "return-mcq-66": "本句的「return」指「接發球回擊 sport」。",
+        "return-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-66"
     },
@@ -4933,11 +4497,9 @@ export default {
       "masked": "The kick ____ gained thirty yards.",
       "options": [
         "return-mcq-68",
-        "return-mcq-67",
-        "return-mcq-69",
-        "return-mcq-66",
-        "return-mcq-65",
-        "return-mcq-71"
+        "return-mcq-25",
+        "return-mcq-44",
+        "return-mcq-33"
       ],
       "explanation": "本句的「return」指「開球回攻 sport」。",
       "sentenceIndex": 157,
@@ -4946,12 +4508,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-68": "本句指「開球回攻 sport」。",
-        "return-mcq-67": "「回球 sport」與本句語境不同。",
-        "return-mcq-69": "「回傳值 programming」與本句語境不同。",
-        "return-mcq-66": "「接發球回擊 sport」與本句語境不同。",
-        "return-mcq-65": "「回擊球 sport」與本句語境不同。",
-        "return-mcq-71": "「敘述 programming」與本句語境不同。"
+        "return-mcq-68": "本句的「return」指「開球回攻 sport」。",
+        "return-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-68"
     },
@@ -4963,11 +4523,9 @@ export default {
       "masked": "He works as a ____ specialist.",
       "options": [
         "return-mcq-68",
-        "return-mcq-67",
-        "return-mcq-69",
-        "return-mcq-66",
-        "return-mcq-65",
-        "return-mcq-71"
+        "return-mcq-20",
+        "return-mcq-62",
+        "return-mcq-79"
       ],
       "explanation": "本句的「return」指「開球回攻 sport」。",
       "sentenceIndex": 158,
@@ -4976,12 +4534,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-68": "本句指「開球回攻 sport」。",
-        "return-mcq-67": "「回球 sport」與本句語境不同。",
-        "return-mcq-69": "「回傳值 programming」與本句語境不同。",
-        "return-mcq-66": "「接發球回擊 sport」與本句語境不同。",
-        "return-mcq-65": "「回擊球 sport」與本句語境不同。",
-        "return-mcq-71": "「敘述 programming」與本句語境不同。"
+        "return-mcq-68": "本句的「return」指「開球回攻 sport」。",
+        "return-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-68"
     },
@@ -4993,11 +4549,9 @@ export default {
       "masked": "The function ____ a value.",
       "options": [
         "return-mcq-69",
-        "return-mcq-68",
-        "return-mcq-67",
-        "return-mcq-71",
-        "return-mcq-66",
-        "return-mcq-72"
+        "return-mcq-19",
+        "return-mcq-44",
+        "return-mcq-62"
       ],
       "explanation": "本句的「returns」指「回傳值 programming」。",
       "sentenceIndex": 159,
@@ -5006,12 +4560,10 @@ export default {
         "returns"
       ],
       "optionReasons": {
-        "return-mcq-69": "本句指「回傳值 programming」。",
-        "return-mcq-68": "「開球回攻 sport」與本句語境不同。",
-        "return-mcq-67": "「回球 sport」與本句語境不同。",
-        "return-mcq-71": "「敘述 programming」與本句語境不同。",
-        "return-mcq-66": "「接發球回擊 sport」與本句語境不同。",
-        "return-mcq-72": "「回傳碼 programming」與本句語境不同。"
+        "return-mcq-69": "本句的「returns」指「回傳值 programming」。",
+        "return-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-69"
     },
@@ -5023,11 +4575,9 @@ export default {
       "masked": "If the input is invalid, the function ____ an error code.",
       "options": [
         "return-mcq-69",
-        "return-mcq-68",
-        "return-mcq-67",
-        "return-mcq-71",
-        "return-mcq-66",
-        "return-mcq-72"
+        "return-mcq-34",
+        "return-mcq-16",
+        "return-mcq-58"
       ],
       "explanation": "本句的「returns」指「回傳值 programming」。",
       "sentenceIndex": 160,
@@ -5036,12 +4586,10 @@ export default {
         "returns"
       ],
       "optionReasons": {
-        "return-mcq-69": "本句指「回傳值 programming」。",
-        "return-mcq-68": "「開球回攻 sport」與本句語境不同。",
-        "return-mcq-67": "「回球 sport」與本句語境不同。",
-        "return-mcq-71": "「敘述 programming」與本句語境不同。",
-        "return-mcq-66": "「接發球回擊 sport」與本句語境不同。",
-        "return-mcq-72": "「回傳碼 programming」與本句語境不同。"
+        "return-mcq-69": "本句的「returns」指「回傳值 programming」。",
+        "return-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-69"
     },
@@ -5053,11 +4601,9 @@ export default {
       "masked": "Store the ____ value in a variable.",
       "options": [
         "return-mcq-70",
-        "return-mcq-71",
-        "return-mcq-68",
-        "return-mcq-72",
-        "return-mcq-67",
-        "return-mcq-73"
+        "return-mcq-23",
+        "return-mcq-31",
+        "return-mcq-43"
       ],
       "explanation": "本句的「return」指「回傳值 programming」。",
       "sentenceIndex": 161,
@@ -5066,12 +4612,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-70": "本句指「回傳值 programming」。",
-        "return-mcq-71": "「敘述 programming」與本句語境不同。",
-        "return-mcq-68": "「開球回攻 sport」與本句語境不同。",
-        "return-mcq-72": "「回傳碼 programming」與本句語境不同。",
-        "return-mcq-67": "「回球 sport」與本句語境不同。",
-        "return-mcq-73": "「鍵 keyboard」與本句語境不同。"
+        "return-mcq-70": "本句的「return」指「回傳值 programming」。",
+        "return-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-70"
     },
@@ -5083,11 +4627,9 @@ export default {
       "masked": "The ____ value indicates whether the operation succeeded.",
       "options": [
         "return-mcq-70",
-        "return-mcq-71",
-        "return-mcq-68",
-        "return-mcq-72",
-        "return-mcq-67",
-        "return-mcq-73"
+        "return-mcq-73",
+        "return-mcq-34",
+        "return-mcq-03"
       ],
       "explanation": "本句的「return」指「回傳值 programming」。",
       "sentenceIndex": 162,
@@ -5096,12 +4638,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-70": "本句指「回傳值 programming」。",
-        "return-mcq-71": "「敘述 programming」與本句語境不同。",
-        "return-mcq-68": "「開球回攻 sport」與本句語境不同。",
-        "return-mcq-72": "「回傳碼 programming」與本句語境不同。",
-        "return-mcq-67": "「回球 sport」與本句語境不同。",
-        "return-mcq-73": "「鍵 keyboard」與本句語境不同。"
+        "return-mcq-70": "本句的「return」指「回傳值 programming」。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-70"
     },
@@ -5113,11 +4653,9 @@ export default {
       "masked": "The function ends with a ____ statement.",
       "options": [
         "return-mcq-71",
-        "return-mcq-70",
-        "return-mcq-72",
-        "return-mcq-73",
-        "return-mcq-68",
-        "return-mcq-74"
+        "return-mcq-64",
+        "return-mcq-78",
+        "return-mcq-68"
       ],
       "explanation": "本句的「return」指「敘述 programming」。",
       "sentenceIndex": 163,
@@ -5126,12 +4664,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-71": "本句指「敘述 programming」。",
-        "return-mcq-70": "「回傳值 programming」與本句語境不同。",
-        "return-mcq-72": "「回傳碼 programming」與本句語境不同。",
-        "return-mcq-73": "「鍵 keyboard」與本句語境不同。",
-        "return-mcq-68": "「開球回攻 sport」與本句語境不同。",
-        "return-mcq-74": "「回車 computing」與本句語境不同。"
+        "return-mcq-71": "本句的「return」指「敘述 programming」。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-71"
     },
@@ -5143,11 +4679,9 @@ export default {
       "masked": "A ____ statement can send a result back to the caller.",
       "options": [
         "return-mcq-71",
-        "return-mcq-70",
-        "return-mcq-72",
-        "return-mcq-73",
-        "return-mcq-68",
-        "return-mcq-74"
+        "return-mcq-19",
+        "return-mcq-54",
+        "return-mcq-66"
       ],
       "explanation": "本句的「return」指「敘述 programming」。",
       "sentenceIndex": 164,
@@ -5156,12 +4690,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-71": "本句指「敘述 programming」。",
-        "return-mcq-70": "「回傳值 programming」與本句語境不同。",
-        "return-mcq-72": "「回傳碼 programming」與本句語境不同。",
-        "return-mcq-73": "「鍵 keyboard」與本句語境不同。",
-        "return-mcq-68": "「開球回攻 sport」與本句語境不同。",
-        "return-mcq-74": "「回車 computing」與本句語境不同。"
+        "return-mcq-71": "本句的「return」指「敘述 programming」。",
+        "return-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-71"
     },
@@ -5173,11 +4705,9 @@ export default {
       "masked": "The program ____ a non-zero return code.",
       "options": [
         "return-mcq-72",
-        "return-mcq-71",
-        "return-mcq-73",
-        "return-mcq-70",
-        "return-mcq-74",
-        "return-mcq-75"
+        "return-mcq-44",
+        "return-mcq-31",
+        "return-mcq-59"
       ],
       "explanation": "本句的「returned」指「回傳碼 programming」。",
       "sentenceIndex": 165,
@@ -5186,12 +4716,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-72": "本句指「回傳碼 programming」。",
-        "return-mcq-71": "「敘述 programming」與本句語境不同。",
-        "return-mcq-73": "「鍵 keyboard」與本句語境不同。",
-        "return-mcq-70": "「回傳值 programming」與本句語境不同。",
-        "return-mcq-74": "「回車 computing」與本句語境不同。",
-        "return-mcq-75": "「回執 post」與本句語境不同。"
+        "return-mcq-72": "本句的「returned」指「回傳碼 programming」。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-72"
     },
@@ -5203,11 +4731,9 @@ export default {
       "masked": "The ____ code helps indicate the result of an operation.",
       "options": [
         "return-mcq-72",
-        "return-mcq-71",
-        "return-mcq-73",
-        "return-mcq-70",
-        "return-mcq-74",
-        "return-mcq-75"
+        "return-mcq-14",
+        "return-mcq-61",
+        "return-mcq-64"
       ],
       "explanation": "本句的「return」指「回傳碼 programming」。",
       "sentenceIndex": 166,
@@ -5216,12 +4742,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-72": "本句指「回傳碼 programming」。",
-        "return-mcq-71": "「敘述 programming」與本句語境不同。",
-        "return-mcq-73": "「鍵 keyboard」與本句語境不同。",
-        "return-mcq-70": "「回傳值 programming」與本句語境不同。",
-        "return-mcq-74": "「回車 computing」與本句語境不同。",
-        "return-mcq-75": "「回執 post」與本句語境不同。"
+        "return-mcq-72": "本句的「return」指「回傳碼 programming」。",
+        "return-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-72"
     },
@@ -5233,11 +4757,9 @@ export default {
       "masked": "Press the ____ key.",
       "options": [
         "return-mcq-73",
-        "return-mcq-72",
-        "return-mcq-74",
-        "return-mcq-71",
-        "return-mcq-75",
-        "return-mcq-70"
+        "return-mcq-17",
+        "return-mcq-54",
+        "return-mcq-33"
       ],
       "explanation": "本句的「Return」指「鍵 keyboard」。",
       "sentenceIndex": 167,
@@ -5246,12 +4768,10 @@ export default {
         "Return"
       ],
       "optionReasons": {
-        "return-mcq-73": "本句指「鍵 keyboard」。",
-        "return-mcq-72": "「回傳碼 programming」與本句語境不同。",
-        "return-mcq-74": "「回車 computing」與本句語境不同。",
-        "return-mcq-71": "「敘述 programming」與本句語境不同。",
-        "return-mcq-75": "「回執 post」與本句語境不同。",
-        "return-mcq-70": "「回傳值 programming」與本句語境不同。"
+        "return-mcq-73": "本句的「Return」指「鍵 keyboard」。",
+        "return-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-73"
     },
@@ -5263,11 +4783,9 @@ export default {
       "masked": "On many keyboards, ____ and Enter perform similar functions in common applications.",
       "options": [
         "return-mcq-73",
-        "return-mcq-72",
-        "return-mcq-74",
-        "return-mcq-71",
-        "return-mcq-75",
-        "return-mcq-70"
+        "return-mcq-37",
+        "return-mcq-11",
+        "return-mcq-68"
       ],
       "explanation": "本句的「Return」指「鍵 keyboard」。",
       "sentenceIndex": 168,
@@ -5276,12 +4794,10 @@ export default {
         "Return"
       ],
       "optionReasons": {
-        "return-mcq-73": "本句指「鍵 keyboard」。",
-        "return-mcq-72": "「回傳碼 programming」與本句語境不同。",
-        "return-mcq-74": "「回車 computing」與本句語境不同。",
-        "return-mcq-71": "「敘述 programming」與本句語境不同。",
-        "return-mcq-75": "「回執 post」與本句語境不同。",
-        "return-mcq-70": "「回傳值 programming」與本句語境不同。"
+        "return-mcq-73": "本句的「Return」指「鍵 keyboard」。",
+        "return-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-73"
     },
@@ -5293,11 +4809,9 @@ export default {
       "masked": "The file contains carriage-____ characters.",
       "options": [
         "return-mcq-74",
-        "return-mcq-73",
-        "return-mcq-75",
-        "return-mcq-72",
-        "return-mcq-76",
-        "return-mcq-71"
+        "return-mcq-79",
+        "return-mcq-78",
+        "return-mcq-43"
       ],
       "explanation": "本句的「return」指「回車 computing」。",
       "sentenceIndex": 169,
@@ -5306,12 +4820,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-74": "本句指「回車 computing」。",
-        "return-mcq-73": "「鍵 keyboard」與本句語境不同。",
-        "return-mcq-75": "「回執 post」與本句語境不同。",
-        "return-mcq-72": "「回傳碼 programming」與本句語境不同。",
-        "return-mcq-76": "「無法回頭的臨界點 idiom」與本句語境不同。",
-        "return-mcq-71": "「敘述 programming」與本句語境不同。"
+        "return-mcq-74": "本句的「return」指「回車 computing」。",
+        "return-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-74"
     },
@@ -5323,11 +4835,9 @@ export default {
       "masked": "Carriage ____” originally comes from typewriter mechanics.",
       "options": [
         "return-mcq-74",
-        "return-mcq-73",
-        "return-mcq-75",
-        "return-mcq-72",
-        "return-mcq-76",
-        "return-mcq-71"
+        "return-mcq-78",
+        "return-mcq-43",
+        "return-mcq-17"
       ],
       "explanation": "本句的「return」指「回車 computing」。",
       "sentenceIndex": 170,
@@ -5336,12 +4846,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-74": "本句指「回車 computing」。",
-        "return-mcq-73": "「鍵 keyboard」與本句語境不同。",
-        "return-mcq-75": "「回執 post」與本句語境不同。",
-        "return-mcq-72": "「回傳碼 programming」與本句語境不同。",
-        "return-mcq-76": "「無法回頭的臨界點 idiom」與本句語境不同。",
-        "return-mcq-71": "「敘述 programming」與本句語境不同。"
+        "return-mcq-74": "本句的「return」指「回車 computing」。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-74"
     },
@@ -5353,11 +4861,9 @@ export default {
       "masked": "The letter was sent with a ____ receipt.",
       "options": [
         "return-mcq-75",
-        "return-mcq-74",
-        "return-mcq-76",
-        "return-mcq-73",
-        "return-mcq-77",
-        "return-mcq-72"
+        "return-mcq-64",
+        "return-mcq-78",
+        "return-mcq-71"
       ],
       "explanation": "本句的「return」指「回執 post」。",
       "sentenceIndex": 171,
@@ -5366,12 +4872,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-75": "本句指「回執 post」。",
-        "return-mcq-74": "「回車 computing」與本句語境不同。",
-        "return-mcq-76": "「無法回頭的臨界點 idiom」與本句語境不同。",
-        "return-mcq-73": "「鍵 keyboard」與本句語境不同。",
-        "return-mcq-77": "「回到話題 discourse」與本句語境不同。",
-        "return-mcq-72": "「回傳碼 programming」與本句語境不同。"
+        "return-mcq-75": "本句的「return」指「回執 post」。",
+        "return-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-75"
     },
@@ -5383,11 +4887,9 @@ export default {
       "masked": "The ____ receipt confirms delivery.",
       "options": [
         "return-mcq-75",
-        "return-mcq-74",
-        "return-mcq-76",
-        "return-mcq-73",
-        "return-mcq-77",
-        "return-mcq-72"
+        "return-mcq-16",
+        "return-mcq-34",
+        "return-mcq-61"
       ],
       "explanation": "本句的「return」指「回執 post」。",
       "sentenceIndex": 172,
@@ -5396,12 +4898,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-75": "本句指「回執 post」。",
-        "return-mcq-74": "「回車 computing」與本句語境不同。",
-        "return-mcq-76": "「無法回頭的臨界點 idiom」與本句語境不同。",
-        "return-mcq-73": "「鍵 keyboard」與本句語境不同。",
-        "return-mcq-77": "「回到話題 discourse」與本句語境不同。",
-        "return-mcq-72": "「回傳碼 programming」與本句語境不同。"
+        "return-mcq-75": "本句的「return」指「回執 post」。",
+        "return-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-75"
     },
@@ -5413,11 +4913,9 @@ export default {
       "masked": "The project had passed the point of no ____.",
       "options": [
         "return-mcq-76",
-        "return-mcq-75",
-        "return-mcq-77",
-        "return-mcq-74",
-        "return-mcq-78",
-        "return-mcq-73"
+        "return-mcq-44",
+        "return-mcq-61",
+        "return-mcq-12"
       ],
       "explanation": "本句的「return」指「無法回頭的臨界點 idiom」。",
       "sentenceIndex": 173,
@@ -5426,12 +4924,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-76": "本句指「無法回頭的臨界點 idiom」。",
-        "return-mcq-75": "「回執 post」與本句語境不同。",
-        "return-mcq-77": "「回到話題 discourse」與本句語境不同。",
-        "return-mcq-74": "「回車 computing」與本句語境不同。",
-        "return-mcq-78": "「使恢復正常 causative」與本句語境不同。",
-        "return-mcq-73": "「鍵 keyboard」與本句語境不同。"
+        "return-mcq-76": "本句的「return」指「無法回頭的臨界點 idiom」。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-76"
     },
@@ -5443,11 +4939,9 @@ export default {
       "masked": "Once production begins, the decision may reach a point of no ____.",
       "options": [
         "return-mcq-76",
-        "return-mcq-75",
-        "return-mcq-77",
-        "return-mcq-74",
-        "return-mcq-78",
-        "return-mcq-73"
+        "return-mcq-17",
+        "return-mcq-31",
+        "return-mcq-44"
       ],
       "explanation": "本句的「return」指「無法回頭的臨界點 idiom」。",
       "sentenceIndex": 174,
@@ -5456,12 +4950,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-76": "本句指「無法回頭的臨界點 idiom」。",
-        "return-mcq-75": "「回執 post」與本句語境不同。",
-        "return-mcq-77": "「回到話題 discourse」與本句語境不同。",
-        "return-mcq-74": "「回車 computing」與本句語境不同。",
-        "return-mcq-78": "「使恢復正常 causative」與本句語境不同。",
-        "return-mcq-73": "「鍵 keyboard」與本句語境不同。"
+        "return-mcq-76": "本句的「return」指「無法回頭的臨界點 idiom」。",
+        "return-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-76"
     },
@@ -5473,11 +4965,9 @@ export default {
       "masked": "Let's ____ to the main issue.",
       "options": [
         "return-mcq-77",
-        "return-mcq-76",
-        "return-mcq-78",
-        "return-mcq-75",
-        "return-mcq-79",
-        "return-mcq-74"
+        "return-mcq-22",
+        "return-mcq-34",
+        "return-mcq-61"
       ],
       "explanation": "本句的「return」指「回到話題 discourse」。",
       "sentenceIndex": 175,
@@ -5486,12 +4976,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-77": "本句指「回到話題 discourse」。",
-        "return-mcq-76": "「無法回頭的臨界點 idiom」與本句語境不同。",
-        "return-mcq-78": "「使恢復正常 causative」與本句語境不同。",
-        "return-mcq-75": "「回執 post」與本句語境不同。",
-        "return-mcq-79": "「症狀復發 recurrence」與本句語境不同。",
-        "return-mcq-74": "「回車 computing」與本句語境不同。"
+        "return-mcq-77": "本句的「return」指「回到話題 discourse」。",
+        "return-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-77"
     },
@@ -5503,11 +4991,9 @@ export default {
       "masked": "The report later ____ to the question of customer trust.",
       "options": [
         "return-mcq-77",
-        "return-mcq-76",
-        "return-mcq-78",
-        "return-mcq-75",
-        "return-mcq-79",
-        "return-mcq-74"
+        "return-mcq-25",
+        "return-mcq-44",
+        "return-mcq-73"
       ],
       "explanation": "本句的「returns」指「回到話題 discourse」。",
       "sentenceIndex": 176,
@@ -5516,12 +5002,10 @@ export default {
         "returns"
       ],
       "optionReasons": {
-        "return-mcq-77": "本句指「回到話題 discourse」。",
-        "return-mcq-76": "「無法回頭的臨界點 idiom」與本句語境不同。",
-        "return-mcq-78": "「使恢復正常 causative」與本句語境不同。",
-        "return-mcq-75": "「回執 post」與本句語境不同。",
-        "return-mcq-79": "「症狀復發 recurrence」與本句語境不同。",
-        "return-mcq-74": "「回車 computing」與本句語境不同。"
+        "return-mcq-77": "本句的「returns」指「回到話題 discourse」。",
+        "return-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-77"
     },
@@ -5533,11 +5017,9 @@ export default {
       "masked": "The repair ____ the machine to normal operation.",
       "options": [
         "return-mcq-78",
-        "return-mcq-77",
-        "return-mcq-79",
-        "return-mcq-76",
-        "return-mcq-80",
-        "return-mcq-75"
+        "return-mcq-55",
+        "return-mcq-14",
+        "return-mcq-43"
       ],
       "explanation": "本句的「returned」指「使恢復正常 causative」。",
       "sentenceIndex": 179,
@@ -5546,12 +5028,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-78": "本句指「使恢復正常 causative」。",
-        "return-mcq-77": "「回到話題 discourse」與本句語境不同。",
-        "return-mcq-79": "「症狀復發 recurrence」與本句語境不同。",
-        "return-mcq-76": "「無法回頭的臨界點 idiom」與本句語境不同。",
-        "return-mcq-80": "「回頭客 repeat business」與本句語境不同。",
-        "return-mcq-75": "「回執 post」與本句語境不同。"
+        "return-mcq-78": "本句的「returned」指「使恢復正常 causative」。",
+        "return-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-78"
     },
@@ -5563,11 +5043,9 @@ export default {
       "masked": "The intervention ____ the system to a stable state.",
       "options": [
         "return-mcq-78",
-        "return-mcq-77",
-        "return-mcq-79",
-        "return-mcq-76",
-        "return-mcq-80",
-        "return-mcq-75"
+        "return-mcq-37",
+        "return-mcq-07",
+        "return-mcq-71"
       ],
       "explanation": "本句的「returned」指「使恢復正常 causative」。",
       "sentenceIndex": 180,
@@ -5576,12 +5054,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-78": "本句指「使恢復正常 causative」。",
-        "return-mcq-77": "「回到話題 discourse」與本句語境不同。",
-        "return-mcq-79": "「症狀復發 recurrence」與本句語境不同。",
-        "return-mcq-76": "「無法回頭的臨界點 idiom」與本句語境不同。",
-        "return-mcq-80": "「回頭客 repeat business」與本句語境不同。",
-        "return-mcq-75": "「回執 post」與本句語境不同。"
+        "return-mcq-78": "本句的「returned」指「使恢復正常 causative」。",
+        "return-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-78"
     },
@@ -5593,11 +5069,9 @@ export default {
       "masked": "There was a ____ of symptoms.",
       "options": [
         "return-mcq-79",
-        "return-mcq-78",
-        "return-mcq-80",
-        "return-mcq-77",
-        "return-mcq-76",
-        "return-mcq-75"
+        "return-mcq-74",
+        "return-mcq-10",
+        "return-mcq-62"
       ],
       "explanation": "本句的「return」指「症狀復發 recurrence」。",
       "sentenceIndex": 183,
@@ -5606,12 +5080,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-79": "本句指「症狀復發 recurrence」。",
-        "return-mcq-78": "「使恢復正常 causative」與本句語境不同。",
-        "return-mcq-80": "「回頭客 repeat business」與本句語境不同。",
-        "return-mcq-77": "「回到話題 discourse」與本句語境不同。",
-        "return-mcq-76": "「無法回頭的臨界點 idiom」與本句語境不同。",
-        "return-mcq-75": "「回執 post」與本句語境不同。"
+        "return-mcq-79": "本句的「return」指「症狀復發 recurrence」。",
+        "return-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-79"
     },
@@ -5623,11 +5095,9 @@ export default {
       "masked": "The ____ of the problem surprised the team.",
       "options": [
         "return-mcq-79",
-        "return-mcq-78",
-        "return-mcq-80",
         "return-mcq-77",
-        "return-mcq-76",
-        "return-mcq-75"
+        "return-mcq-21",
+        "return-mcq-71"
       ],
       "explanation": "本句的「return」指「症狀復發 recurrence」。",
       "sentenceIndex": 184,
@@ -5636,12 +5106,10 @@ export default {
         "return"
       ],
       "optionReasons": {
-        "return-mcq-79": "本句指「症狀復發 recurrence」。",
-        "return-mcq-78": "「使恢復正常 causative」與本句語境不同。",
-        "return-mcq-80": "「回頭客 repeat business」與本句語境不同。",
-        "return-mcq-77": "「回到話題 discourse」與本句語境不同。",
-        "return-mcq-76": "「無法回頭的臨界點 idiom」與本句語境不同。",
-        "return-mcq-75": "「回執 post」與本句語境不同。"
+        "return-mcq-79": "本句的「return」指「症狀復發 recurrence」。",
+        "return-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-79"
     },
@@ -5653,11 +5121,9 @@ export default {
       "masked": "A fair policy can encourage ____ customers.",
       "options": [
         "return-mcq-80",
-        "return-mcq-79",
+        "return-mcq-14",
         "return-mcq-78",
-        "return-mcq-77",
-        "return-mcq-76",
-        "return-mcq-75"
+        "return-mcq-44"
       ],
       "explanation": "本句的「returning」指「回頭客 repeat business」。",
       "sentenceIndex": 187,
@@ -5666,12 +5132,10 @@ export default {
         "returning"
       ],
       "optionReasons": {
-        "return-mcq-80": "本句指「回頭客 repeat business」。",
-        "return-mcq-79": "「症狀復發 recurrence」與本句語境不同。",
-        "return-mcq-78": "「使恢復正常 causative」與本句語境不同。",
-        "return-mcq-77": "「回到話題 discourse」與本句語境不同。",
-        "return-mcq-76": "「無法回頭的臨界點 idiom」與本句語境不同。",
-        "return-mcq-75": "「回執 post」與本句語境不同。"
+        "return-mcq-80": "本句的「returning」指「回頭客 repeat business」。",
+        "return-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-80"
     },
@@ -5683,11 +5147,9 @@ export default {
       "masked": "____ customers often have greater familiarity with the brand.",
       "options": [
         "return-mcq-80",
-        "return-mcq-79",
-        "return-mcq-78",
-        "return-mcq-77",
-        "return-mcq-76",
-        "return-mcq-75"
+        "return-mcq-16",
+        "return-mcq-73",
+        "return-mcq-43"
       ],
       "explanation": "本句的「Returning」指「回頭客 repeat business」。",
       "sentenceIndex": 188,
@@ -5696,12 +5158,10 @@ export default {
         "Returning"
       ],
       "optionReasons": {
-        "return-mcq-80": "本句指「回頭客 repeat business」。",
-        "return-mcq-79": "「症狀復發 recurrence」與本句語境不同。",
-        "return-mcq-78": "「使恢復正常 causative」與本句語境不同。",
-        "return-mcq-77": "「回到話題 discourse」與本句語境不同。",
-        "return-mcq-76": "「無法回頭的臨界點 idiom」與本句語境不同。",
-        "return-mcq-75": "「回執 post」與本句語境不同。"
+        "return-mcq-80": "本句的「Returning」指「回頭客 repeat business」。",
+        "return-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-80"
     },
@@ -5713,11 +5173,9 @@ export default {
       "masked": "The customer ____ the dress.",
       "options": [
         "return-mcq-80",
-        "return-mcq-79",
-        "return-mcq-78",
-        "return-mcq-77",
-        "return-mcq-76",
-        "return-mcq-75"
+        "return-mcq-22",
+        "return-mcq-43",
+        "return-mcq-32"
       ],
       "explanation": "本句的「returned」指「回頭客 repeat business」。",
       "sentenceIndex": 189,
@@ -5726,12 +5184,10 @@ export default {
         "returned"
       ],
       "optionReasons": {
-        "return-mcq-80": "本句指「回頭客 repeat business」。",
-        "return-mcq-79": "「症狀復發 recurrence」與本句語境不同。",
-        "return-mcq-78": "「使恢復正常 causative」與本句語境不同。",
-        "return-mcq-77": "「回到話題 discourse」與本句語境不同。",
-        "return-mcq-76": "「無法回頭的臨界點 idiom」與本句語境不同。",
-        "return-mcq-75": "「回執 post」與本句語境不同。"
+        "return-mcq-80": "本句的「returned」指「回頭客 repeat business」。",
+        "return-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "return-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "return-mcq-80"
     }
@@ -5743,5 +5199,7 @@ export default {
     "sha256": "5c3285474ad710ad5e78b5b97144b6112d240288a7fba3bdc6d979104f6354f4",
     "pages": 76
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

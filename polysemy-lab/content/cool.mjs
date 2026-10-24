@@ -267,11 +267,8 @@ export default {
       "masked": "The evening air was ____.",
       "options": [
         "cool-mcq-01",
-        "cool-mcq-02",
-        "cool-mcq-03",
         "cool-mcq-04",
-        "cool-mcq-05",
-        "cool-mcq-06"
+        "cool-mcq-02"
       ],
       "explanation": "本句的「cool」指「溫度較低、帶涼意但通常不是很冷的」。",
       "sentenceIndex": 0,
@@ -280,12 +277,9 @@ export default {
         "cool"
       ],
       "optionReasons": {
-        "cool-mcq-01": "本句指「溫度較低、帶涼意但通常不是很冷的」。",
-        "cool-mcq-02": "「面對壓力或困難時仍然冷靜、沉着並能清楚思考的」與本句語境不同。",
-        "cool-mcq-03": "「態度或關係缺乏熱情、親近感或友善的；冷淡的」與本句語境不同。",
-        "cool-mcq-04": "「非正式地表示有型、吸引、令人欣賞或很不錯的」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。"
+        "cool-mcq-01": "本句的「cool」指「溫度較低、帶涼意但通常不是很冷的」。",
+        "cool-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-01"
     },
@@ -297,11 +291,9 @@ export default {
       "masked": "Keep the medicine in a ____ place.",
       "options": [
         "cool-mcq-01",
-        "cool-mcq-02",
-        "cool-mcq-03",
-        "cool-mcq-04",
-        "cool-mcq-05",
-        "cool-mcq-06"
+        "cool-mcq-08",
+        "cool-mcq-09",
+        "cool-mcq-07"
       ],
       "explanation": "本句的「cool」指「溫度較低、帶涼意但通常不是很冷的」。",
       "sentenceIndex": 1,
@@ -310,12 +302,10 @@ export default {
         "cool"
       ],
       "optionReasons": {
-        "cool-mcq-01": "本句指「溫度較低、帶涼意但通常不是很冷的」。",
-        "cool-mcq-02": "「面對壓力或困難時仍然冷靜、沉着並能清楚思考的」與本句語境不同。",
-        "cool-mcq-03": "「態度或關係缺乏熱情、親近感或友善的；冷淡的」與本句語境不同。",
-        "cool-mcq-04": "「非正式地表示有型、吸引、令人欣賞或很不錯的」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。"
+        "cool-mcq-01": "本句的「cool」指「溫度較低、帶涼意但通常不是很冷的」。",
+        "cool-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-01"
     },
@@ -327,11 +317,8 @@ export default {
       "masked": "He taught me how to keep a ____.",
       "options": [
         "cool-mcq-02",
-        "cool-mcq-01",
-        "cool-mcq-03",
-        "cool-mcq-04",
-        "cool-mcq-05",
-        "cool-mcq-06"
+        "cool-pdf-001",
+        "cool-mcq-04"
       ],
       "explanation": "本句的「cool head」指「面對壓力或困難時仍然冷靜、沉着並能清楚思考的」。",
       "sentenceIndex": 2,
@@ -340,12 +327,9 @@ export default {
         "cool head"
       ],
       "optionReasons": {
-        "cool-mcq-02": "本句指「面對壓力或困難時仍然冷靜、沉着並能清楚思考的」。",
-        "cool-mcq-01": "「溫度較低、帶涼意但通常不是很冷的」與本句語境不同。",
-        "cool-mcq-03": "「態度或關係缺乏熱情、親近感或友善的；冷淡的」與本句語境不同。",
-        "cool-mcq-04": "「非正式地表示有型、吸引、令人欣賞或很不錯的」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。"
+        "cool-mcq-02": "本句的「cool head」指「面對壓力或困難時仍然冷靜、沉着並能清楚思考的」。",
+        "cool-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-02"
     },
@@ -357,11 +341,8 @@ export default {
       "masked": "She stayed ____ during the emergency.",
       "options": [
         "cool-mcq-02",
-        "cool-mcq-01",
-        "cool-mcq-03",
         "cool-mcq-04",
-        "cool-mcq-05",
-        "cool-mcq-06"
+        "cool-pdf-001"
       ],
       "explanation": "本句的「cool」指「面對壓力或困難時仍然冷靜、沉着並能清楚思考的」。",
       "sentenceIndex": 3,
@@ -370,12 +351,9 @@ export default {
         "cool"
       ],
       "optionReasons": {
-        "cool-mcq-02": "本句指「面對壓力或困難時仍然冷靜、沉着並能清楚思考的」。",
-        "cool-mcq-01": "「溫度較低、帶涼意但通常不是很冷的」與本句語境不同。",
-        "cool-mcq-03": "「態度或關係缺乏熱情、親近感或友善的；冷淡的」與本句語境不同。",
-        "cool-mcq-04": "「非正式地表示有型、吸引、令人欣賞或很不錯的」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。"
+        "cool-mcq-02": "本句的「cool」指「面對壓力或困難時仍然冷靜、沉着並能清楚思考的」。",
+        "cool-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cool-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-02"
     },
@@ -387,11 +365,8 @@ export default {
       "masked": "Try to remain ____ and think clearly.",
       "options": [
         "cool-mcq-02",
-        "cool-mcq-01",
-        "cool-mcq-03",
         "cool-mcq-04",
-        "cool-mcq-05",
-        "cool-mcq-06"
+        "cool-pdf-001"
       ],
       "explanation": "本句的「cool」指「面對壓力或困難時仍然冷靜、沉着並能清楚思考的」。",
       "sentenceIndex": 4,
@@ -400,12 +375,9 @@ export default {
         "cool"
       ],
       "optionReasons": {
-        "cool-mcq-02": "本句指「面對壓力或困難時仍然冷靜、沉着並能清楚思考的」。",
-        "cool-mcq-01": "「溫度較低、帶涼意但通常不是很冷的」與本句語境不同。",
-        "cool-mcq-03": "「態度或關係缺乏熱情、親近感或友善的；冷淡的」與本句語境不同。",
-        "cool-mcq-04": "「非正式地表示有型、吸引、令人欣賞或很不錯的」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。"
+        "cool-mcq-02": "本句的「cool」指「面對壓力或困難時仍然冷靜、沉着並能清楚思考的」。",
+        "cool-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cool-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-02"
     },
@@ -417,10 +389,7 @@ export default {
       "masked": "Her response was polite but ____.",
       "options": [
         "cool-mcq-03",
-        "cool-mcq-02",
-        "cool-mcq-04",
-        "cool-mcq-01",
-        "cool-mcq-05",
+        "cool-mcq-08",
         "cool-mcq-06"
       ],
       "explanation": "本句的「cool」指「態度或關係缺乏熱情、親近感或友善的；冷淡的」。",
@@ -430,12 +399,9 @@ export default {
         "cool"
       ],
       "optionReasons": {
-        "cool-mcq-03": "本句指「態度或關係缺乏熱情、親近感或友善的；冷淡的」。",
-        "cool-mcq-02": "「面對壓力或困難時仍然冷靜、沉着並能清楚思考的」與本句語境不同。",
-        "cool-mcq-04": "「非正式地表示有型、吸引、令人欣賞或很不錯的」與本句語境不同。",
-        "cool-mcq-01": "「溫度較低、帶涼意但通常不是很冷的」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。"
+        "cool-mcq-03": "本句的「cool」指「態度或關係缺乏熱情、親近感或友善的；冷淡的」。",
+        "cool-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-03"
     },
@@ -447,9 +413,6 @@ export default {
       "masked": "Relations between them became ____ after the disagreement.",
       "options": [
         "cool-mcq-03",
-        "cool-mcq-02",
-        "cool-mcq-04",
-        "cool-mcq-01",
         "cool-mcq-05",
         "cool-mcq-06"
       ],
@@ -460,12 +423,9 @@ export default {
         "cool"
       ],
       "optionReasons": {
-        "cool-mcq-03": "本句指「態度或關係缺乏熱情、親近感或友善的；冷淡的」。",
-        "cool-mcq-02": "「面對壓力或困難時仍然冷靜、沉着並能清楚思考的」與本句語境不同。",
-        "cool-mcq-04": "「非正式地表示有型、吸引、令人欣賞或很不錯的」與本句語境不同。",
-        "cool-mcq-01": "「溫度較低、帶涼意但通常不是很冷的」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。"
+        "cool-mcq-03": "本句的「cool」指「態度或關係缺乏熱情、親近感或友善的；冷淡的」。",
+        "cool-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-03"
     },
@@ -478,10 +438,7 @@ export default {
       "options": [
         "cool-mcq-04",
         "cool-mcq-03",
-        "cool-mcq-05",
-        "cool-mcq-02",
-        "cool-mcq-06",
-        "cool-mcq-01"
+        "cool-mcq-06"
       ],
       "explanation": "本句的「cool」指「非正式地表示有型、吸引、令人欣賞或很不錯的」。",
       "sentenceIndex": 7,
@@ -490,12 +447,9 @@ export default {
         "cool"
       ],
       "optionReasons": {
-        "cool-mcq-04": "本句指「非正式地表示有型、吸引、令人欣賞或很不錯的」。",
-        "cool-mcq-03": "「態度或關係缺乏熱情、親近感或友善的；冷淡的」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。",
-        "cool-mcq-02": "「面對壓力或困難時仍然冷靜、沉着並能清楚思考的」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。",
-        "cool-mcq-01": "「溫度較低、帶涼意但通常不是很冷的」與本句語境不同。"
+        "cool-mcq-04": "本句的「cool」指「非正式地表示有型、吸引、令人欣賞或很不錯的」。",
+        "cool-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-04"
     },
@@ -507,10 +461,7 @@ export default {
       "masked": "That’s a ____ idea.",
       "options": [
         "cool-mcq-04",
-        "cool-mcq-03",
-        "cool-mcq-05",
-        "cool-mcq-02",
-        "cool-mcq-06",
+        "cool-mcq-09",
         "cool-mcq-01"
       ],
       "explanation": "本句的「cool」指「非正式地表示有型、吸引、令人欣賞或很不錯的」。",
@@ -520,12 +471,9 @@ export default {
         "cool"
       ],
       "optionReasons": {
-        "cool-mcq-04": "本句指「非正式地表示有型、吸引、令人欣賞或很不錯的」。",
-        "cool-mcq-03": "「態度或關係缺乏熱情、親近感或友善的；冷淡的」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。",
-        "cool-mcq-02": "「面對壓力或困難時仍然冷靜、沉着並能清楚思考的」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。",
-        "cool-mcq-01": "「溫度較低、帶涼意但通常不是很冷的」與本句語境不同。"
+        "cool-mcq-04": "本句的「cool」指「非正式地表示有型、吸引、令人欣賞或很不錯的」。",
+        "cool-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-04"
     },
@@ -537,11 +485,8 @@ export default {
       "masked": "Is six o’clock okay?” > “Yeah, that’s ____.",
       "options": [
         "cool-mcq-05",
-        "cool-mcq-04",
-        "cool-mcq-06",
         "cool-mcq-03",
-        "cool-mcq-07",
-        "cool-mcq-02"
+        "cool-mcq-06"
       ],
       "explanation": "本句的「cool」指「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」。",
       "sentenceIndex": 9,
@@ -550,12 +495,9 @@ export default {
         "cool"
       ],
       "optionReasons": {
-        "cool-mcq-05": "本句指「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」。",
-        "cool-mcq-04": "「非正式地表示有型、吸引、令人欣賞或很不錯的」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。",
-        "cool-mcq-03": "「態度或關係缺乏熱情、親近感或友善的；冷淡的」與本句語境不同。",
-        "cool-mcq-07": "「情緒、衝突、興趣或熱情的強度降低」與本句語境不同。",
-        "cool-mcq-02": "「面對壓力或困難時仍然冷靜、沉着並能清楚思考的」與本句語境不同。"
+        "cool-mcq-05": "本句的「cool」指「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」。",
+        "cool-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-05"
     },
@@ -567,11 +509,9 @@ export default {
       "masked": "I’m ____ with that.",
       "options": [
         "cool-mcq-05",
-        "cool-mcq-04",
-        "cool-mcq-06",
-        "cool-mcq-03",
+        "cool-mcq-02",
         "cool-mcq-07",
-        "cool-mcq-02"
+        "cool-mcq-06"
       ],
       "explanation": "本句的「cool」指「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」。",
       "sentenceIndex": 10,
@@ -580,12 +520,10 @@ export default {
         "cool"
       ],
       "optionReasons": {
-        "cool-mcq-05": "本句指「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」。",
-        "cool-mcq-04": "「非正式地表示有型、吸引、令人欣賞或很不錯的」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。",
-        "cool-mcq-03": "「態度或關係缺乏熱情、親近感或友善的；冷淡的」與本句語境不同。",
-        "cool-mcq-07": "「情緒、衝突、興趣或熱情的強度降低」與本句語境不同。",
-        "cool-mcq-02": "「面對壓力或困難時仍然冷靜、沉着並能清楚思考的」與本句語境不同。"
+        "cool-mcq-05": "本句的「cool」指「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」。",
+        "cool-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-05"
     },
@@ -597,11 +535,8 @@ export default {
       "masked": "Let the soup ____ before you eat it.",
       "options": [
         "cool-pdf-001",
-        "cool-mcq-05",
-        "cool-mcq-07",
         "cool-mcq-04",
-        "cool-mcq-08",
-        "cool-mcq-03"
+        "cool-mcq-09"
       ],
       "explanation": "本句的「cool」指「溫度降低，變得比較涼」。",
       "sentenceIndex": 11,
@@ -610,12 +545,9 @@ export default {
         "cool"
       ],
       "optionReasons": {
-        "cool-pdf-001": "本句指「溫度降低，變得比較涼」。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。",
-        "cool-mcq-07": "「情緒、衝突、興趣或熱情的強度降低」與本句語境不同。",
-        "cool-mcq-04": "「非正式地表示有型、吸引、令人欣賞或很不錯的」與本句語境不同。",
-        "cool-mcq-08": "「非正式地強調一筆相當大的金額」與本句語境不同。",
-        "cool-mcq-03": "「態度或關係缺乏熱情、親近感或友善的；冷淡的」與本句語境不同。"
+        "cool-pdf-001": "本句的「cool」指「溫度降低，變得比較涼」。",
+        "cool-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-pdf-001"
     },
@@ -627,11 +559,8 @@ export default {
       "masked": "The metal ____ quickly.",
       "options": [
         "cool-pdf-001",
-        "cool-mcq-05",
-        "cool-mcq-07",
-        "cool-mcq-04",
-        "cool-mcq-08",
-        "cool-mcq-03"
+        "cool-mcq-09",
+        "cool-mcq-04"
       ],
       "explanation": "本句的「cooled」指「溫度降低，變得比較涼」。",
       "sentenceIndex": 12,
@@ -640,12 +569,9 @@ export default {
         "cooled"
       ],
       "optionReasons": {
-        "cool-pdf-001": "本句指「溫度降低，變得比較涼」。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。",
-        "cool-mcq-07": "「情緒、衝突、興趣或熱情的強度降低」與本句語境不同。",
-        "cool-mcq-04": "「非正式地表示有型、吸引、令人欣賞或很不錯的」與本句語境不同。",
-        "cool-mcq-08": "「非正式地強調一筆相當大的金額」與本句語境不同。",
-        "cool-mcq-03": "「態度或關係缺乏熱情、親近感或友善的；冷淡的」與本句語境不同。"
+        "cool-pdf-001": "本句的「cooled」指「溫度降低，變得比較涼」。",
+        "cool-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-pdf-001"
     },
@@ -659,9 +585,7 @@ export default {
         "cool-mcq-06",
         "cool-mcq-05",
         "cool-mcq-07",
-        "cool-mcq-04",
-        "cool-mcq-08",
-        "cool-mcq-03"
+        "cool-mcq-09"
       ],
       "explanation": "本句的「cool」指「變涼或使某物冷卻」。",
       "sentenceIndex": 13,
@@ -670,12 +594,10 @@ export default {
         "cool"
       ],
       "optionReasons": {
-        "cool-mcq-06": "本句指「變涼或使某物冷卻」。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。",
-        "cool-mcq-07": "「情緒、衝突、興趣或熱情的強度降低」與本句語境不同。",
-        "cool-mcq-04": "「非正式地表示有型、吸引、令人欣賞或很不錯的」與本句語境不同。",
-        "cool-mcq-08": "「非正式地強調一筆相當大的金額」與本句語境不同。",
-        "cool-mcq-03": "「態度或關係缺乏熱情、親近感或友善的；冷淡的」與本句語境不同。"
+        "cool-mcq-06": "本句的「cool」指「變涼或使某物冷卻」。",
+        "cool-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-06"
     },
@@ -689,9 +611,7 @@ export default {
         "cool-mcq-06",
         "cool-mcq-05",
         "cool-mcq-07",
-        "cool-mcq-04",
-        "cool-mcq-08",
-        "cool-mcq-03"
+        "cool-mcq-02"
       ],
       "explanation": "本句的「cool」指「變涼或使某物冷卻」。",
       "sentenceIndex": 14,
@@ -700,12 +620,10 @@ export default {
         "cool"
       ],
       "optionReasons": {
-        "cool-mcq-06": "本句指「變涼或使某物冷卻」。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。",
-        "cool-mcq-07": "「情緒、衝突、興趣或熱情的強度降低」與本句語境不同。",
-        "cool-mcq-04": "「非正式地表示有型、吸引、令人欣賞或很不錯的」與本句語境不同。",
-        "cool-mcq-08": "「非正式地強調一筆相當大的金額」與本句語境不同。",
-        "cool-mcq-03": "「態度或關係缺乏熱情、親近感或友善的；冷淡的」與本句語境不同。"
+        "cool-mcq-06": "本句的「cool」指「變涼或使某物冷卻」。",
+        "cool-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-06"
     },
@@ -717,11 +635,9 @@ export default {
       "masked": "Their anger gradually ____.",
       "options": [
         "cool-mcq-07",
-        "cool-mcq-06",
-        "cool-mcq-08",
         "cool-mcq-05",
-        "cool-mcq-09",
-        "cool-mcq-04"
+        "cool-mcq-06",
+        "cool-mcq-09"
       ],
       "explanation": "本句的「cooled」指「情緒、衝突、興趣或熱情的強度降低」。",
       "sentenceIndex": 15,
@@ -730,12 +646,10 @@ export default {
         "cooled"
       ],
       "optionReasons": {
-        "cool-mcq-07": "本句指「情緒、衝突、興趣或熱情的強度降低」。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。",
-        "cool-mcq-08": "「非正式地強調一筆相當大的金額」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。",
-        "cool-mcq-09": "「冷靜地；亦可指冷淡地」與本句語境不同。",
-        "cool-mcq-04": "「非正式地表示有型、吸引、令人欣賞或很不錯的」與本句語境不同。"
+        "cool-mcq-07": "本句的「cooled」指「情緒、衝突、興趣或熱情的強度降低」。",
+        "cool-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-07"
     },
@@ -747,11 +661,9 @@ export default {
       "masked": "Interest in the product has ____.",
       "options": [
         "cool-mcq-07",
-        "cool-mcq-06",
-        "cool-mcq-08",
         "cool-mcq-05",
-        "cool-mcq-09",
-        "cool-mcq-04"
+        "cool-mcq-06",
+        "cool-mcq-02"
       ],
       "explanation": "本句的「cooled」指「情緒、衝突、興趣或熱情的強度降低」。",
       "sentenceIndex": 16,
@@ -760,12 +672,10 @@ export default {
         "cooled"
       ],
       "optionReasons": {
-        "cool-mcq-07": "本句指「情緒、衝突、興趣或熱情的強度降低」。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。",
-        "cool-mcq-08": "「非正式地強調一筆相當大的金額」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。",
-        "cool-mcq-09": "「冷靜地；亦可指冷淡地」與本句語境不同。",
-        "cool-mcq-04": "「非正式地表示有型、吸引、令人欣賞或很不錯的」與本句語境不同。"
+        "cool-mcq-07": "本句的「cooled」指「情緒、衝突、興趣或熱情的強度降低」。",
+        "cool-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-07"
     },
@@ -777,11 +687,8 @@ export default {
       "masked": "The house sold for a ____ two million dollars.",
       "options": [
         "cool-mcq-08",
-        "cool-mcq-07",
-        "cool-mcq-09",
-        "cool-mcq-06",
-        "cool-mcq-10",
-        "cool-mcq-05"
+        "cool-mcq-01",
+        "cool-mcq-03"
       ],
       "explanation": "本句的「cool」指「非正式地強調一筆相當大的金額」。",
       "sentenceIndex": 17,
@@ -790,12 +697,9 @@ export default {
         "cool"
       ],
       "optionReasons": {
-        "cool-mcq-08": "本句指「非正式地強調一筆相當大的金額」。",
-        "cool-mcq-07": "「情緒、衝突、興趣或熱情的強度降低」與本句語境不同。",
-        "cool-mcq-09": "「冷靜地；亦可指冷淡地」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。",
-        "cool-mcq-10": "「涼意、冷靜或冷淡狀態，依語境而定」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。"
+        "cool-mcq-08": "本句的「cool」指「非正式地強調一筆相當大的金額」。",
+        "cool-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-08"
     },
@@ -807,11 +711,9 @@ export default {
       "masked": "He earned a ____ hundred thousand from the deal.",
       "options": [
         "cool-mcq-08",
-        "cool-mcq-07",
-        "cool-mcq-09",
-        "cool-mcq-06",
-        "cool-mcq-10",
-        "cool-mcq-05"
+        "cool-mcq-02",
+        "cool-mcq-01",
+        "cool-mcq-07"
       ],
       "explanation": "本句的「cool」指「非正式地強調一筆相當大的金額」。",
       "sentenceIndex": 18,
@@ -820,12 +722,10 @@ export default {
         "cool"
       ],
       "optionReasons": {
-        "cool-mcq-08": "本句指「非正式地強調一筆相當大的金額」。",
-        "cool-mcq-07": "「情緒、衝突、興趣或熱情的強度降低」與本句語境不同。",
-        "cool-mcq-09": "「冷靜地；亦可指冷淡地」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。",
-        "cool-mcq-10": "「涼意、冷靜或冷淡狀態，依語境而定」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。"
+        "cool-mcq-08": "本句的「cool」指「非正式地強調一筆相當大的金額」。",
+        "cool-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-08"
     },
@@ -838,10 +738,7 @@ export default {
       "options": [
         "cool-mcq-09",
         "cool-mcq-08",
-        "cool-mcq-10",
-        "cool-mcq-07",
-        "cool-mcq-06",
-        "cool-mcq-05"
+        "cool-pdf-001"
       ],
       "explanation": "本句的「coolly」指「冷靜地；亦可指冷淡地」。",
       "sentenceIndex": 19,
@@ -850,12 +747,9 @@ export default {
         "coolly"
       ],
       "optionReasons": {
-        "cool-mcq-09": "本句指「冷靜地；亦可指冷淡地」。",
-        "cool-mcq-08": "「非正式地強調一筆相當大的金額」與本句語境不同。",
-        "cool-mcq-10": "「涼意、冷靜或冷淡狀態，依語境而定」與本句語境不同。",
-        "cool-mcq-07": "「情緒、衝突、興趣或熱情的強度降低」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。"
+        "cool-mcq-09": "本句的「coolly」指「冷靜地；亦可指冷淡地」。",
+        "cool-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cool-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-09"
     },
@@ -867,11 +761,9 @@ export default {
       "masked": "He greeted me ____.",
       "options": [
         "cool-mcq-09",
-        "cool-mcq-08",
-        "cool-mcq-10",
+        "cool-mcq-05",
         "cool-mcq-07",
-        "cool-mcq-06",
-        "cool-mcq-05"
+        "cool-mcq-01"
       ],
       "explanation": "本句的「coolly」指「冷靜地；亦可指冷淡地」。",
       "sentenceIndex": 20,
@@ -880,12 +772,10 @@ export default {
         "coolly"
       ],
       "optionReasons": {
-        "cool-mcq-09": "本句指「冷靜地；亦可指冷淡地」。",
-        "cool-mcq-08": "「非正式地強調一筆相當大的金額」與本句語境不同。",
-        "cool-mcq-10": "「涼意、冷靜或冷淡狀態，依語境而定」與本句語境不同。",
-        "cool-mcq-07": "「情緒、衝突、興趣或熱情的強度降低」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。"
+        "cool-mcq-09": "本句的「coolly」指「冷靜地；亦可指冷淡地」。",
+        "cool-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-09"
     },
@@ -897,11 +787,8 @@ export default {
       "masked": "The ____ of the evening was refreshing.",
       "options": [
         "cool-mcq-10",
-        "cool-mcq-09",
-        "cool-mcq-08",
         "cool-mcq-07",
-        "cool-mcq-06",
-        "cool-mcq-05"
+        "cool-mcq-08"
       ],
       "explanation": "本句的「coolness」指「涼意、冷靜或冷淡狀態，依語境而定」。",
       "sentenceIndex": 21,
@@ -910,12 +797,9 @@ export default {
         "coolness"
       ],
       "optionReasons": {
-        "cool-mcq-10": "本句指「涼意、冷靜或冷淡狀態，依語境而定」。",
-        "cool-mcq-09": "「冷靜地；亦可指冷淡地」與本句語境不同。",
-        "cool-mcq-08": "「非正式地強調一筆相當大的金額」與本句語境不同。",
-        "cool-mcq-07": "「情緒、衝突、興趣或熱情的強度降低」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。"
+        "cool-mcq-10": "本句的「coolness」指「涼意、冷靜或冷淡狀態，依語境而定」。",
+        "cool-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-10"
     },
@@ -927,11 +811,8 @@ export default {
       "masked": "Her ____ under pressure impressed everyone.",
       "options": [
         "cool-mcq-10",
-        "cool-mcq-09",
         "cool-mcq-08",
-        "cool-mcq-07",
-        "cool-mcq-06",
-        "cool-mcq-05"
+        "cool-mcq-07"
       ],
       "explanation": "本句的「coolness」指「涼意、冷靜或冷淡狀態，依語境而定」。",
       "sentenceIndex": 22,
@@ -940,12 +821,9 @@ export default {
         "coolness"
       ],
       "optionReasons": {
-        "cool-mcq-10": "本句指「涼意、冷靜或冷淡狀態，依語境而定」。",
-        "cool-mcq-09": "「冷靜地；亦可指冷淡地」與本句語境不同。",
-        "cool-mcq-08": "「非正式地強調一筆相當大的金額」與本句語境不同。",
-        "cool-mcq-07": "「情緒、衝突、興趣或熱情的強度降低」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。"
+        "cool-mcq-10": "本句的「coolness」指「涼意、冷靜或冷淡狀態，依語境而定」。",
+        "cool-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cool-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-10"
     },
@@ -957,11 +835,8 @@ export default {
       "masked": "There was a noticeable ____ between them.",
       "options": [
         "cool-mcq-10",
-        "cool-mcq-09",
-        "cool-mcq-08",
-        "cool-mcq-07",
-        "cool-mcq-06",
-        "cool-mcq-05"
+        "cool-mcq-04",
+        "cool-pdf-001"
       ],
       "explanation": "本句的「coolness」指「涼意、冷靜或冷淡狀態，依語境而定」。",
       "sentenceIndex": 23,
@@ -970,12 +845,9 @@ export default {
         "coolness"
       ],
       "optionReasons": {
-        "cool-mcq-10": "本句指「涼意、冷靜或冷淡狀態，依語境而定」。",
-        "cool-mcq-09": "「冷靜地；亦可指冷淡地」與本句語境不同。",
-        "cool-mcq-08": "「非正式地強調一筆相當大的金額」與本句語境不同。",
-        "cool-mcq-07": "「情緒、衝突、興趣或熱情的強度降低」與本句語境不同。",
-        "cool-mcq-06": "「變涼或使某物冷卻」與本句語境不同。",
-        "cool-mcq-05": "「非正式地表示可以、沒問題、可接受；與 positive-social 義相關」與本句語境不同。"
+        "cool-mcq-10": "本句的「coolness」指「涼意、冷靜或冷淡狀態，依語境而定」。",
+        "cool-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cool-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cool-mcq-10"
     }
@@ -987,5 +859,7 @@ export default {
     "sha256": "eae79cb9f960a55ab12e4e835d22b0d198b797c9d6011d32cbc5be445c63ec10",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

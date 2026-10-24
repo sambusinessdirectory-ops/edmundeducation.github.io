@@ -338,11 +338,7 @@ export default {
       "masked": "Chickenpox is highly ____.",
       "options": [
         "contagious-mcq-01",
-        "contagious-mcq-02",
-        "contagious-mcq-03",
-        "contagious-mcq-04",
-        "contagious-mcq-05",
-        "contagious-mcq-06"
+        "contagious-mcq-07"
       ],
       "explanation": "本句的「contagious」指「傳染性的疾病」。",
       "sentenceIndex": 0,
@@ -351,12 +347,8 @@ export default {
         "contagious"
       ],
       "optionReasons": {
-        "contagious-mcq-01": "本句指「傳染性的疾病」。",
-        "contagious-mcq-02": "「具傳染性的感染」是「contagious infection」的用法，與本句語境不同。",
-        "contagious-mcq-03": "「高度傳染性的」是「highly contagious」的用法，與本句語境不同。",
-        "contagious-mcq-04": "「有感染力的熱情」是「contagious enthusiasm」的用法，與本句語境不同。",
-        "contagious-mcq-05": "「有感染力的笑聲」是「contagious laughter」的用法，與本句語境不同。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。"
+        "contagious-mcq-01": "本句的「contagious」指「傳染性的疾病」。",
+        "contagious-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-01"
     },
@@ -368,11 +360,7 @@ export default {
       "masked": "The illness is most ____ during the first few days.",
       "options": [
         "contagious-mcq-01",
-        "contagious-mcq-02",
-        "contagious-mcq-03",
-        "contagious-mcq-04",
-        "contagious-mcq-05",
-        "contagious-mcq-06"
+        "contagious-mcq-04"
       ],
       "explanation": "本句的「contagious」指「傳染性的疾病」。",
       "sentenceIndex": 1,
@@ -381,12 +369,8 @@ export default {
         "contagious"
       ],
       "optionReasons": {
-        "contagious-mcq-01": "本句指「傳染性的疾病」。",
-        "contagious-mcq-02": "「具傳染性的感染」是「contagious infection」的用法，與本句語境不同。",
-        "contagious-mcq-03": "「高度傳染性的」是「highly contagious」的用法，與本句語境不同。",
-        "contagious-mcq-04": "「有感染力的熱情」是「contagious enthusiasm」的用法，與本句語境不同。",
-        "contagious-mcq-05": "「有感染力的笑聲」是「contagious laughter」的用法，與本句語境不同。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。"
+        "contagious-mcq-01": "本句的「contagious」指「傳染性的疾病」。",
+        "contagious-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-01"
     },
@@ -398,11 +382,7 @@ export default {
       "masked": "The hospital has special procedures for patients with ____.",
       "options": [
         "contagious-mcq-02",
-        "contagious-mcq-01",
-        "contagious-mcq-03",
-        "contagious-mcq-04",
-        "contagious-mcq-05",
-        "contagious-mcq-06"
+        "contagious-mcq-14"
       ],
       "explanation": "本句的「contagious diseases」指「具傳染性的感染」。",
       "sentenceIndex": 2,
@@ -411,12 +391,8 @@ export default {
         "contagious diseases"
       ],
       "optionReasons": {
-        "contagious-mcq-02": "本句指「具傳染性的感染」。",
-        "contagious-mcq-01": "「傳染性的疾病」是「contagious disease」的用法，與本句語境不同。",
-        "contagious-mcq-03": "「高度傳染性的」是「highly contagious」的用法，與本句語境不同。",
-        "contagious-mcq-04": "「有感染力的熱情」是「contagious enthusiasm」的用法，與本句語境不同。",
-        "contagious-mcq-05": "「有感染力的笑聲」是「contagious laughter」的用法，與本句語境不同。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。"
+        "contagious-mcq-02": "本句的「contagious diseases」指「具傳染性的感染」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-02"
     },
@@ -428,11 +404,7 @@ export default {
       "masked": "Doctors suspected that she had a ____.",
       "options": [
         "contagious-mcq-02",
-        "contagious-mcq-01",
-        "contagious-mcq-03",
-        "contagious-mcq-04",
-        "contagious-mcq-05",
-        "contagious-mcq-06"
+        "contagious-mcq-14"
       ],
       "explanation": "本句的「contagious infection」指「具傳染性的感染」。",
       "sentenceIndex": 3,
@@ -441,12 +413,8 @@ export default {
         "contagious infection"
       ],
       "optionReasons": {
-        "contagious-mcq-02": "本句指「具傳染性的感染」。",
-        "contagious-mcq-01": "「傳染性的疾病」是「contagious disease」的用法，與本句語境不同。",
-        "contagious-mcq-03": "「高度傳染性的」是「highly contagious」的用法，與本句語境不同。",
-        "contagious-mcq-04": "「有感染力的熱情」是「contagious enthusiasm」的用法，與本句語境不同。",
-        "contagious-mcq-05": "「有感染力的笑聲」是「contagious laughter」的用法，與本句語境不同。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。"
+        "contagious-mcq-02": "本句的「contagious infection」指「具傳染性的感染」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-02"
     },
@@ -458,11 +426,8 @@ export default {
       "masked": "The virus is ____.",
       "options": [
         "contagious-mcq-03",
-        "contagious-mcq-02",
-        "contagious-mcq-04",
-        "contagious-mcq-01",
-        "contagious-mcq-05",
-        "contagious-mcq-06"
+        "contagious-mcq-14",
+        "contagious-mcq-05"
       ],
       "explanation": "本句的「highly contagious」指「高度傳染性的」。",
       "sentenceIndex": 4,
@@ -471,12 +436,9 @@ export default {
         "highly contagious"
       ],
       "optionReasons": {
-        "contagious-mcq-03": "本句指「高度傳染性的」。",
-        "contagious-mcq-02": "「具傳染性的感染」是「contagious infection」的用法，與本句語境不同。",
-        "contagious-mcq-04": "「有感染力的熱情」是「contagious enthusiasm」的用法，與本句語境不同。",
-        "contagious-mcq-01": "「傳染性的疾病」是「contagious disease」的用法，與本句語境不同。",
-        "contagious-mcq-05": "「有感染力的笑聲」是「contagious laughter」的用法，與本句語境不同。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。"
+        "contagious-mcq-03": "本句的「highly contagious」指「高度傳染性的」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-03"
     },
@@ -488,11 +450,8 @@ export default {
       "masked": "Because the disease is ____, patients are advised to stay at home.",
       "options": [
         "contagious-mcq-03",
-        "contagious-mcq-02",
-        "contagious-mcq-04",
-        "contagious-mcq-01",
         "contagious-mcq-05",
-        "contagious-mcq-06"
+        "contagious-mcq-14"
       ],
       "explanation": "本句的「highly contagious」指「高度傳染性的」。",
       "sentenceIndex": 5,
@@ -501,12 +460,9 @@ export default {
         "highly contagious"
       ],
       "optionReasons": {
-        "contagious-mcq-03": "本句指「高度傳染性的」。",
-        "contagious-mcq-02": "「具傳染性的感染」是「contagious infection」的用法，與本句語境不同。",
-        "contagious-mcq-04": "「有感染力的熱情」是「contagious enthusiasm」的用法，與本句語境不同。",
-        "contagious-mcq-01": "「傳染性的疾病」是「contagious disease」的用法，與本句語境不同。",
-        "contagious-mcq-05": "「有感染力的笑聲」是「contagious laughter」的用法，與本句語境不同。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。"
+        "contagious-mcq-03": "本句的「highly contagious」指「高度傳染性的」。",
+        "contagious-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-03"
     },
@@ -518,11 +474,8 @@ export default {
       "masked": "His enthusiasm is genuinely ____.",
       "options": [
         "contagious-mcq-04",
-        "contagious-mcq-03",
-        "contagious-mcq-05",
-        "contagious-mcq-02",
-        "contagious-mcq-06",
-        "contagious-mcq-01"
+        "contagious-mcq-14",
+        "contagious-mcq-13"
       ],
       "explanation": "本句的「contagious」指「有感染力的熱情」。",
       "sentenceIndex": 6,
@@ -531,12 +484,9 @@ export default {
         "contagious"
       ],
       "optionReasons": {
-        "contagious-mcq-04": "本句指「有感染力的熱情」。",
-        "contagious-mcq-03": "「高度傳染性的」是「highly contagious」的用法，與本句語境不同。",
-        "contagious-mcq-05": "「有感染力的笑聲」是「contagious laughter」的用法，與本句語境不同。",
-        "contagious-mcq-02": "「具傳染性的感染」是「contagious infection」的用法，與本句語境不同。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。",
-        "contagious-mcq-01": "「傳染性的疾病」是「contagious disease」的用法，與本句語境不同。"
+        "contagious-mcq-04": "本句的「contagious」指「有感染力的熱情」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-04"
     },
@@ -548,11 +498,8 @@ export default {
       "masked": "Her excitement was ____, and soon everyone was smiling.",
       "options": [
         "contagious-mcq-04",
-        "contagious-mcq-03",
-        "contagious-mcq-05",
-        "contagious-mcq-02",
-        "contagious-mcq-06",
-        "contagious-mcq-01"
+        "contagious-mcq-14",
+        "contagious-mcq-13"
       ],
       "explanation": "本句的「contagious」指「有感染力的熱情」。",
       "sentenceIndex": 7,
@@ -561,12 +508,9 @@ export default {
         "contagious"
       ],
       "optionReasons": {
-        "contagious-mcq-04": "本句指「有感染力的熱情」。",
-        "contagious-mcq-03": "「高度傳染性的」是「highly contagious」的用法，與本句語境不同。",
-        "contagious-mcq-05": "「有感染力的笑聲」是「contagious laughter」的用法，與本句語境不同。",
-        "contagious-mcq-02": "「具傳染性的感染」是「contagious infection」的用法，與本句語境不同。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。",
-        "contagious-mcq-01": "「傳染性的疾病」是「contagious disease」的用法，與本句語境不同。"
+        "contagious-mcq-04": "本句的「contagious」指「有感染力的熱情」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-04"
     },
@@ -578,11 +522,8 @@ export default {
       "masked": "His optimism is ____.",
       "options": [
         "contagious-mcq-04",
-        "contagious-mcq-03",
-        "contagious-mcq-05",
-        "contagious-mcq-02",
-        "contagious-mcq-06",
-        "contagious-mcq-01"
+        "contagious-mcq-14",
+        "contagious-mcq-03"
       ],
       "explanation": "本句的「contagious」指「有感染力的熱情」。",
       "sentenceIndex": 8,
@@ -591,12 +532,9 @@ export default {
         "contagious"
       ],
       "optionReasons": {
-        "contagious-mcq-04": "本句指「有感染力的熱情」。",
-        "contagious-mcq-03": "「高度傳染性的」是「highly contagious」的用法，與本句語境不同。",
-        "contagious-mcq-05": "「有感染力的笑聲」是「contagious laughter」的用法，與本句語境不同。",
-        "contagious-mcq-02": "「具傳染性的感染」是「contagious infection」的用法，與本句語境不同。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。",
-        "contagious-mcq-01": "「傳染性的疾病」是「contagious disease」的用法，與本句語境不同。"
+        "contagious-mcq-04": "本句的「contagious」指「有感染力的熱情」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-04"
     },
@@ -608,11 +546,8 @@ export default {
       "masked": "Her ____ made everyone else start laughing.",
       "options": [
         "contagious-mcq-05",
-        "contagious-mcq-04",
-        "contagious-mcq-06",
-        "contagious-mcq-03",
-        "contagious-mcq-07",
-        "contagious-mcq-02"
+        "contagious-mcq-14",
+        "contagious-mcq-13"
       ],
       "explanation": "本句的「contagious laughter」指「有感染力的笑聲」。",
       "sentenceIndex": 9,
@@ -621,12 +556,9 @@ export default {
         "contagious laughter"
       ],
       "optionReasons": {
-        "contagious-mcq-05": "本句指「有感染力的笑聲」。",
-        "contagious-mcq-04": "「有感染力的熱情」是「contagious enthusiasm」的用法，與本句語境不同。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。",
-        "contagious-mcq-03": "「高度傳染性的」是「highly contagious」的用法，與本句語境不同。",
-        "contagious-mcq-07": "「有感染力的活力」是「contagious energy」的用法，與本句語境不同。",
-        "contagious-mcq-02": "「具傳染性的感染」是「contagious infection」的用法，與本句語境不同。"
+        "contagious-mcq-05": "本句的「contagious laughter」指「有感染力的笑聲」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-05"
     },
@@ -638,11 +570,8 @@ export default {
       "masked": "The child's ____ filled the room.",
       "options": [
         "contagious-mcq-05",
-        "contagious-mcq-04",
-        "contagious-mcq-06",
-        "contagious-mcq-03",
-        "contagious-mcq-07",
-        "contagious-mcq-02"
+        "contagious-mcq-14",
+        "contagious-mcq-13"
       ],
       "explanation": "本句的「contagious laughter」指「有感染力的笑聲」。",
       "sentenceIndex": 10,
@@ -651,12 +580,9 @@ export default {
         "contagious laughter"
       ],
       "optionReasons": {
-        "contagious-mcq-05": "本句指「有感染力的笑聲」。",
-        "contagious-mcq-04": "「有感染力的熱情」是「contagious enthusiasm」的用法，與本句語境不同。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。",
-        "contagious-mcq-03": "「高度傳染性的」是「highly contagious」的用法，與本句語境不同。",
-        "contagious-mcq-07": "「有感染力的活力」是「contagious energy」的用法，與本句語境不同。",
-        "contagious-mcq-02": "「具傳染性的感染」是「contagious infection」的用法，與本句語境不同。"
+        "contagious-mcq-05": "本句的「contagious laughter」指「有感染力的笑聲」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-05"
     },
@@ -668,10 +594,7 @@ export default {
       "masked": "He has a warm, ____.",
       "options": [
         "contagious-mcq-06",
-        "contagious-mcq-05",
-        "contagious-mcq-07",
-        "contagious-mcq-04",
-        "contagious-mcq-08",
+        "contagious-mcq-14",
         "contagious-mcq-03"
       ],
       "explanation": "本句的「contagious smile」指「有感染力的笑容」。",
@@ -681,12 +604,9 @@ export default {
         "contagious smile"
       ],
       "optionReasons": {
-        "contagious-mcq-06": "本句指「有感染力的笑容」。",
-        "contagious-mcq-05": "「有感染力的笑聲」是「contagious laughter」的用法，與本句語境不同。",
-        "contagious-mcq-07": "「有感染力的活力」是「contagious energy」的用法，與本句語境不同。",
-        "contagious-mcq-04": "「有感染力的熱情」是「contagious enthusiasm」的用法，與本句語境不同。",
-        "contagious-mcq-08": "「有感染力的情緒」是「contagious mood」的用法，與本句語境不同。",
-        "contagious-mcq-03": "「高度傳染性的」是「highly contagious」的用法，與本句語境不同。"
+        "contagious-mcq-06": "本句的「contagious smile」指「有感染力的笑容」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-06"
     },
@@ -698,11 +618,8 @@ export default {
       "masked": "Her ____ immediately lifted the mood.",
       "options": [
         "contagious-mcq-06",
-        "contagious-mcq-05",
-        "contagious-mcq-07",
-        "contagious-mcq-04",
-        "contagious-mcq-08",
-        "contagious-mcq-03"
+        "contagious-mcq-14",
+        "contagious-mcq-13"
       ],
       "explanation": "本句的「contagious smile」指「有感染力的笑容」。",
       "sentenceIndex": 12,
@@ -711,12 +628,9 @@ export default {
         "contagious smile"
       ],
       "optionReasons": {
-        "contagious-mcq-06": "本句指「有感染力的笑容」。",
-        "contagious-mcq-05": "「有感染力的笑聲」是「contagious laughter」的用法，與本句語境不同。",
-        "contagious-mcq-07": "「有感染力的活力」是「contagious energy」的用法，與本句語境不同。",
-        "contagious-mcq-04": "「有感染力的熱情」是「contagious enthusiasm」的用法，與本句語境不同。",
-        "contagious-mcq-08": "「有感染力的情緒」是「contagious mood」的用法，與本句語境不同。",
-        "contagious-mcq-03": "「高度傳染性的」是「highly contagious」的用法，與本句語境不同。"
+        "contagious-mcq-06": "本句的「contagious smile」指「有感染力的笑容」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-06"
     },
@@ -728,11 +642,8 @@ export default {
       "masked": "Leo's ____ makes even ordinary activities seem exciting.",
       "options": [
         "contagious-mcq-04",
-        "contagious-mcq-03",
-        "contagious-mcq-05",
-        "contagious-mcq-02",
-        "contagious-mcq-06",
-        "contagious-mcq-01"
+        "contagious-mcq-14",
+        "contagious-mcq-03"
       ],
       "explanation": "本句的「contagious enthusiasm」指「有感染力的熱情」。",
       "sentenceIndex": 13,
@@ -741,12 +652,9 @@ export default {
         "contagious enthusiasm"
       ],
       "optionReasons": {
-        "contagious-mcq-04": "本句指「有感染力的熱情」。",
-        "contagious-mcq-03": "「高度傳染性的」是「highly contagious」的用法，與本句語境不同。",
-        "contagious-mcq-05": "「有感染力的笑聲」是「contagious laughter」的用法，與本句語境不同。",
-        "contagious-mcq-02": "「具傳染性的感染」是「contagious infection」的用法，與本句語境不同。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。",
-        "contagious-mcq-01": "「傳染性的疾病」是「contagious disease」的用法，與本句語境不同。"
+        "contagious-mcq-04": "本句的「contagious enthusiasm」指「有感染力的熱情」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-04"
     },
@@ -758,11 +666,8 @@ export default {
       "masked": "Her ____ encouraged the whole team.",
       "options": [
         "contagious-mcq-04",
-        "contagious-mcq-03",
-        "contagious-mcq-05",
-        "contagious-mcq-02",
-        "contagious-mcq-06",
-        "contagious-mcq-01"
+        "contagious-mcq-14",
+        "contagious-mcq-13"
       ],
       "explanation": "本句的「contagious enthusiasm」指「有感染力的熱情」。",
       "sentenceIndex": 14,
@@ -771,12 +676,9 @@ export default {
         "contagious enthusiasm"
       ],
       "optionReasons": {
-        "contagious-mcq-04": "本句指「有感染力的熱情」。",
-        "contagious-mcq-03": "「高度傳染性的」是「highly contagious」的用法，與本句語境不同。",
-        "contagious-mcq-05": "「有感染力的笑聲」是「contagious laughter」的用法，與本句語境不同。",
-        "contagious-mcq-02": "「具傳染性的感染」是「contagious infection」的用法，與本句語境不同。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。",
-        "contagious-mcq-01": "「傳染性的疾病」是「contagious disease」的用法，與本句語境不同。"
+        "contagious-mcq-04": "本句的「contagious enthusiasm」指「有感染力的熱情」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-04"
     },
@@ -788,11 +690,8 @@ export default {
       "masked": "The performer brought a ____ to the stage.",
       "options": [
         "contagious-mcq-07",
-        "contagious-mcq-06",
-        "contagious-mcq-08",
-        "contagious-mcq-05",
-        "contagious-mcq-09",
-        "contagious-mcq-04"
+        "contagious-mcq-14",
+        "contagious-mcq-13"
       ],
       "explanation": "本句的「contagious energy」指「有感染力的活力」。",
       "sentenceIndex": 15,
@@ -801,12 +700,9 @@ export default {
         "contagious energy"
       ],
       "optionReasons": {
-        "contagious-mcq-07": "本句指「有感染力的活力」。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。",
-        "contagious-mcq-08": "「有感染力的情緒」是「contagious mood」的用法，與本句語境不同。",
-        "contagious-mcq-05": "「有感染力的笑聲」是「contagious laughter」的用法，與本句語境不同。",
-        "contagious-mcq-09": "「有感染力地」是「contagiously」的用法，與本句語境不同。",
-        "contagious-mcq-04": "「有感染力的熱情」是「contagious enthusiasm」的用法，與本句語境不同。"
+        "contagious-mcq-07": "本句的「contagious energy」指「有感染力的活力」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-07"
     },
@@ -818,11 +714,8 @@ export default {
       "masked": "His ____ kept the group motivated.",
       "options": [
         "contagious-mcq-07",
-        "contagious-mcq-06",
-        "contagious-mcq-08",
-        "contagious-mcq-05",
-        "contagious-mcq-09",
-        "contagious-mcq-04"
+        "contagious-mcq-14",
+        "contagious-mcq-03"
       ],
       "explanation": "本句的「contagious energy」指「有感染力的活力」。",
       "sentenceIndex": 16,
@@ -831,12 +724,9 @@ export default {
         "contagious energy"
       ],
       "optionReasons": {
-        "contagious-mcq-07": "本句指「有感染力的活力」。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。",
-        "contagious-mcq-08": "「有感染力的情緒」是「contagious mood」的用法，與本句語境不同。",
-        "contagious-mcq-05": "「有感染力的笑聲」是「contagious laughter」的用法，與本句語境不同。",
-        "contagious-mcq-09": "「有感染力地」是「contagiously」的用法，與本句語境不同。",
-        "contagious-mcq-04": "「有感染力的熱情」是「contagious enthusiasm」的用法，與本句語境不同。"
+        "contagious-mcq-07": "本句的「contagious energy」指「有感染力的活力」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-07"
     },
@@ -848,11 +738,8 @@ export default {
       "masked": "The crowd's excitement created a ____.",
       "options": [
         "contagious-mcq-08",
-        "contagious-mcq-07",
-        "contagious-mcq-09",
-        "contagious-mcq-06",
-        "contagious-mcq-10",
-        "contagious-mcq-05"
+        "contagious-mcq-14",
+        "contagious-mcq-13"
       ],
       "explanation": "本句的「contagious mood」指「有感染力的情緒」。",
       "sentenceIndex": 17,
@@ -861,12 +748,9 @@ export default {
         "contagious mood"
       ],
       "optionReasons": {
-        "contagious-mcq-08": "本句指「有感染力的情緒」。",
-        "contagious-mcq-07": "「有感染力的活力」是「contagious energy」的用法，與本句語境不同。",
-        "contagious-mcq-09": "「有感染力地」是「contagiously」的用法，與本句語境不同。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。",
-        "contagious-mcq-10": "「傳染性；感染力」是「contagiousness」的用法，與本句語境不同。",
-        "contagious-mcq-05": "「有感染力的笑聲」是「contagious laughter」的用法，與本句語境不同。"
+        "contagious-mcq-08": "本句的「contagious mood」指「有感染力的情緒」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-08"
     },
@@ -878,11 +762,8 @@ export default {
       "masked": "The celebration had a ____.",
       "options": [
         "contagious-mcq-08",
-        "contagious-mcq-07",
-        "contagious-mcq-09",
-        "contagious-mcq-06",
-        "contagious-mcq-10",
-        "contagious-mcq-05"
+        "contagious-mcq-14",
+        "contagious-mcq-03"
       ],
       "explanation": "本句的「contagious sense of joy」指「有感染力的情緒」。",
       "sentenceIndex": 18,
@@ -891,12 +772,9 @@ export default {
         "contagious sense of joy"
       ],
       "optionReasons": {
-        "contagious-mcq-08": "本句指「有感染力的情緒」。",
-        "contagious-mcq-07": "「有感染力的活力」是「contagious energy」的用法，與本句語境不同。",
-        "contagious-mcq-09": "「有感染力地」是「contagiously」的用法，與本句語境不同。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。",
-        "contagious-mcq-10": "「傳染性；感染力」是「contagiousness」的用法，與本句語境不同。",
-        "contagious-mcq-05": "「有感染力的笑聲」是「contagious laughter」的用法，與本句語境不同。"
+        "contagious-mcq-08": "本句的「contagious sense of joy」指「有感染力的情緒」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-08"
     },
@@ -908,11 +786,8 @@ export default {
       "masked": "The measures were introduced to prevent ____.",
       "options": [
         "contagious-mcq-14",
-        "contagious-mcq-13",
-        "contagious-mcq-15",
-        "contagious-mcq-12",
-        "contagious-mcq-11",
-        "contagious-mcq-10"
+        "contagious-mcq-07",
+        "contagious-mcq-13"
       ],
       "explanation": "本句的「contagion」指「疾病由一個人傳給另一個人的過程或現象」。",
       "sentenceIndex": 19,
@@ -921,12 +796,9 @@ export default {
         "contagion"
       ],
       "optionReasons": {
-        "contagious-mcq-14": "本句指「疾病由一個人傳給另一個人的過程或現象」。",
-        "contagious-mcq-13": "「不具傳染性的」是「non-contagious」的用法，與本句語境不同。",
-        "contagious-mcq-15": "「某種情緒、行為或影響像傳染一樣在人群中蔓延」是「11. contagion（figurative） — 情緒、行為或影響的蔓延」的用法，與本句語境不同。",
-        "contagious-mcq-12": "「情緒感染」是「emotional contagion」的用法，與本句語境不同。",
-        "contagious-mcq-11": "「傳染；感染」是「contagion」的用法，與本句語境不同。",
-        "contagious-mcq-10": "「傳染性；感染力」是「contagiousness」的用法，與本句語境不同。"
+        "contagious-mcq-14": "本句的「contagion」指「疾病由一個人傳給另一個人的過程或現象」。",
+        "contagious-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-14"
     },
@@ -938,11 +810,8 @@ export default {
       "masked": "Health officials were concerned about the risk of ____.",
       "options": [
         "contagious-mcq-14",
-        "contagious-mcq-13",
-        "contagious-mcq-15",
-        "contagious-mcq-12",
-        "contagious-mcq-11",
-        "contagious-mcq-10"
+        "contagious-mcq-06",
+        "contagious-mcq-13"
       ],
       "explanation": "本句的「contagion」指「疾病由一個人傳給另一個人的過程或現象」。",
       "sentenceIndex": 20,
@@ -951,12 +820,9 @@ export default {
         "contagion"
       ],
       "optionReasons": {
-        "contagious-mcq-14": "本句指「疾病由一個人傳給另一個人的過程或現象」。",
-        "contagious-mcq-13": "「不具傳染性的」是「non-contagious」的用法，與本句語境不同。",
-        "contagious-mcq-15": "「某種情緒、行為或影響像傳染一樣在人群中蔓延」是「11. contagion（figurative） — 情緒、行為或影響的蔓延」的用法，與本句語境不同。",
-        "contagious-mcq-12": "「情緒感染」是「emotional contagion」的用法，與本句語境不同。",
-        "contagious-mcq-11": "「傳染；感染」是「contagion」的用法，與本句語境不同。",
-        "contagious-mcq-10": "「傳染性；感染力」是「contagiousness」的用法，與本句語境不同。"
+        "contagious-mcq-14": "本句的「contagion」指「疾病由一個人傳給另一個人的過程或現象」。",
+        "contagious-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-14"
     },
@@ -968,11 +834,7 @@ export default {
       "masked": "Fear spread through the crowd by emotional ____.",
       "options": [
         "contagious-mcq-15",
-        "contagious-mcq-14",
-        "contagious-mcq-13",
-        "contagious-mcq-12",
-        "contagious-mcq-11",
-        "contagious-mcq-10"
+        "contagious-mcq-04"
       ],
       "explanation": "本句的「contagion」指「某種情緒、行為或影響像傳染一樣在人群中蔓延」。",
       "sentenceIndex": 21,
@@ -981,12 +843,8 @@ export default {
         "contagion"
       ],
       "optionReasons": {
-        "contagious-mcq-15": "本句指「某種情緒、行為或影響像傳染一樣在人群中蔓延」。",
-        "contagious-mcq-14": "「疾病由一個人傳給另一個人的過程或現象」是「10. contagion（疾病的傳播） — 傳染；感染」的用法，與本句語境不同。",
-        "contagious-mcq-13": "「不具傳染性的」是「non-contagious」的用法，與本句語境不同。",
-        "contagious-mcq-12": "「情緒感染」是「emotional contagion」的用法，與本句語境不同。",
-        "contagious-mcq-11": "「傳染；感染」是「contagion」的用法，與本句語境不同。",
-        "contagious-mcq-10": "「傳染性；感染力」是「contagiousness」的用法，與本句語境不同。"
+        "contagious-mcq-15": "本句的「contagion」指「某種情緒、行為或影響像傳染一樣在人群中蔓延」。",
+        "contagious-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-15"
     },
@@ -998,11 +856,7 @@ export default {
       "masked": "Social scientists study how behaviour spreads through ____.",
       "options": [
         "contagious-mcq-15",
-        "contagious-mcq-14",
-        "contagious-mcq-13",
-        "contagious-mcq-12",
-        "contagious-mcq-11",
-        "contagious-mcq-10"
+        "contagious-mcq-05"
       ],
       "explanation": "本句的「contagion」指「某種情緒、行為或影響像傳染一樣在人群中蔓延」。",
       "sentenceIndex": 22,
@@ -1011,12 +865,8 @@ export default {
         "contagion"
       ],
       "optionReasons": {
-        "contagious-mcq-15": "本句指「某種情緒、行為或影響像傳染一樣在人群中蔓延」。",
-        "contagious-mcq-14": "「疾病由一個人傳給另一個人的過程或現象」是「10. contagion（疾病的傳播） — 傳染；感染」的用法，與本句語境不同。",
-        "contagious-mcq-13": "「不具傳染性的」是「non-contagious」的用法，與本句語境不同。",
-        "contagious-mcq-12": "「情緒感染」是「emotional contagion」的用法，與本句語境不同。",
-        "contagious-mcq-11": "「傳染；感染」是「contagion」的用法，與本句語境不同。",
-        "contagious-mcq-10": "「傳染性；感染力」是「contagiousness」的用法，與本句語境不同。"
+        "contagious-mcq-15": "本句的「contagion」指「某種情緒、行為或影響像傳染一樣在人群中蔓延」。",
+        "contagious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-15"
     },
@@ -1028,11 +878,7 @@ export default {
       "masked": "She laughed ____.",
       "options": [
         "contagious-mcq-09",
-        "contagious-mcq-08",
-        "contagious-mcq-10",
-        "contagious-mcq-07",
-        "contagious-mcq-11",
-        "contagious-mcq-06"
+        "contagious-mcq-14"
       ],
       "explanation": "本句的「contagiously」指「有感染力地」。",
       "sentenceIndex": 23,
@@ -1041,12 +887,8 @@ export default {
         "contagiously"
       ],
       "optionReasons": {
-        "contagious-mcq-09": "本句指「有感染力地」。",
-        "contagious-mcq-08": "「有感染力的情緒」是「contagious mood」的用法，與本句語境不同。",
-        "contagious-mcq-10": "「傳染性；感染力」是「contagiousness」的用法，與本句語境不同。",
-        "contagious-mcq-07": "「有感染力的活力」是「contagious energy」的用法，與本句語境不同。",
-        "contagious-mcq-11": "「傳染；感染」是「contagion」的用法，與本句語境不同。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。"
+        "contagious-mcq-09": "本句的「contagiously」指「有感染力地」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-09"
     },
@@ -1058,11 +900,7 @@ export default {
       "masked": "He spoke ____ about his love of science.",
       "options": [
         "contagious-mcq-09",
-        "contagious-mcq-08",
-        "contagious-mcq-10",
-        "contagious-mcq-07",
-        "contagious-mcq-11",
-        "contagious-mcq-06"
+        "contagious-mcq-14"
       ],
       "explanation": "本句的「contagiously」指「有感染力地」。",
       "sentenceIndex": 24,
@@ -1071,12 +909,8 @@ export default {
         "contagiously"
       ],
       "optionReasons": {
-        "contagious-mcq-09": "本句指「有感染力地」。",
-        "contagious-mcq-08": "「有感染力的情緒」是「contagious mood」的用法，與本句語境不同。",
-        "contagious-mcq-10": "「傳染性；感染力」是「contagiousness」的用法，與本句語境不同。",
-        "contagious-mcq-07": "「有感染力的活力」是「contagious energy」的用法，與本句語境不同。",
-        "contagious-mcq-11": "「傳染；感染」是「contagion」的用法，與本句語境不同。",
-        "contagious-mcq-06": "「有感染力的笑容」是「contagious smile」的用法，與本句語境不同。"
+        "contagious-mcq-09": "本句的「contagiously」指「有感染力地」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-09"
     },
@@ -1088,11 +922,7 @@ export default {
       "masked": "Scientists are studying the ____ of the virus.",
       "options": [
         "contagious-mcq-10",
-        "contagious-mcq-09",
-        "contagious-mcq-11",
-        "contagious-mcq-08",
-        "contagious-mcq-12",
-        "contagious-mcq-07"
+        "contagious-mcq-14"
       ],
       "explanation": "本句的「contagiousness」指「傳染性；感染力」。",
       "sentenceIndex": 25,
@@ -1101,12 +931,8 @@ export default {
         "contagiousness"
       ],
       "optionReasons": {
-        "contagious-mcq-10": "本句指「傳染性；感染力」。",
-        "contagious-mcq-09": "「有感染力地」是「contagiously」的用法，與本句語境不同。",
-        "contagious-mcq-11": "「傳染；感染」是「contagion」的用法，與本句語境不同。",
-        "contagious-mcq-08": "「有感染力的情緒」是「contagious mood」的用法，與本句語境不同。",
-        "contagious-mcq-12": "「情緒感染」是「emotional contagion」的用法，與本句語境不同。",
-        "contagious-mcq-07": "「有感染力的活力」是「contagious energy」的用法，與本句語境不同。"
+        "contagious-mcq-10": "本句的「contagiousness」指「傳染性；感染力」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-10"
     },
@@ -1118,11 +944,7 @@ export default {
       "masked": "The ____ of her laughter made the whole group smile.",
       "options": [
         "contagious-mcq-10",
-        "contagious-mcq-09",
-        "contagious-mcq-11",
-        "contagious-mcq-08",
-        "contagious-mcq-12",
-        "contagious-mcq-07"
+        "contagious-mcq-14"
       ],
       "explanation": "本句的「contagiousness」指「傳染性；感染力」。",
       "sentenceIndex": 26,
@@ -1131,12 +953,8 @@ export default {
         "contagiousness"
       ],
       "optionReasons": {
-        "contagious-mcq-10": "本句指「傳染性；感染力」。",
-        "contagious-mcq-09": "「有感染力地」是「contagiously」的用法，與本句語境不同。",
-        "contagious-mcq-11": "「傳染；感染」是「contagion」的用法，與本句語境不同。",
-        "contagious-mcq-08": "「有感染力的情緒」是「contagious mood」的用法，與本句語境不同。",
-        "contagious-mcq-12": "「情緒感染」是「emotional contagion」的用法，與本句語境不同。",
-        "contagious-mcq-07": "「有感染力的活力」是「contagious energy」的用法，與本句語境不同。"
+        "contagious-mcq-10": "本句的「contagiousness」指「傳染性；感染力」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-10"
     },
@@ -1148,11 +966,8 @@ export default {
       "masked": "The condition is ____.",
       "options": [
         "contagious-mcq-13",
-        "contagious-mcq-12",
         "contagious-mcq-14",
-        "contagious-mcq-11",
-        "contagious-mcq-15",
-        "contagious-mcq-10"
+        "contagious-mcq-07"
       ],
       "explanation": "本句的「non-contagious」指「不具傳染性的」。",
       "sentenceIndex": 27,
@@ -1161,12 +976,9 @@ export default {
         "non-contagious"
       ],
       "optionReasons": {
-        "contagious-mcq-13": "本句指「不具傳染性的」。",
-        "contagious-mcq-12": "「情緒感染」是「emotional contagion」的用法，與本句語境不同。",
-        "contagious-mcq-14": "「疾病由一個人傳給另一個人的過程或現象」是「10. contagion（疾病的傳播） — 傳染；感染」的用法，與本句語境不同。",
-        "contagious-mcq-11": "「傳染；感染」是「contagion」的用法，與本句語境不同。",
-        "contagious-mcq-15": "「某種情緒、行為或影響像傳染一樣在人群中蔓延」是「11. contagion（figurative） — 情緒、行為或影響的蔓延」的用法，與本句語境不同。",
-        "contagious-mcq-10": "「傳染性；感染力」是「contagiousness」的用法，與本句語境不同。"
+        "contagious-mcq-13": "本句的「non-contagious」指「不具傳染性的」。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-13"
     },
@@ -1178,11 +990,8 @@ export default {
       "masked": "The doctor reassured us that the rash was ____.",
       "options": [
         "contagious-mcq-13",
-        "contagious-mcq-12",
-        "contagious-mcq-14",
-        "contagious-mcq-11",
-        "contagious-mcq-15",
-        "contagious-mcq-10"
+        "contagious-mcq-07",
+        "contagious-mcq-14"
       ],
       "explanation": "本句的「non-contagious」指「不具傳染性的」。",
       "sentenceIndex": 28,
@@ -1191,12 +1000,9 @@ export default {
         "non-contagious"
       ],
       "optionReasons": {
-        "contagious-mcq-13": "本句指「不具傳染性的」。",
-        "contagious-mcq-12": "「情緒感染」是「emotional contagion」的用法，與本句語境不同。",
-        "contagious-mcq-14": "「疾病由一個人傳給另一個人的過程或現象」是「10. contagion（疾病的傳播） — 傳染；感染」的用法，與本句語境不同。",
-        "contagious-mcq-11": "「傳染；感染」是「contagion」的用法，與本句語境不同。",
-        "contagious-mcq-15": "「某種情緒、行為或影響像傳染一樣在人群中蔓延」是「11. contagion（figurative） — 情緒、行為或影響的蔓延」的用法，與本句語境不同。",
-        "contagious-mcq-10": "「傳染性；感染力」是「contagiousness」的用法，與本句語境不同。"
+        "contagious-mcq-13": "本句的「non-contagious」指「不具傳染性的」。",
+        "contagious-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "contagious-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contagious-mcq-13"
     }
@@ -1208,5 +1014,7 @@ export default {
     "sha256": "581123afc2309c51064c91fa17a2c8a0be3a2a55b10389835caaf9a7fb7cc496",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

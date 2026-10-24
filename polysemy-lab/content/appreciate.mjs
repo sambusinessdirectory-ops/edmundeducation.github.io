@@ -306,11 +306,8 @@ export default {
       "masked": "Over time, I came to ____ it more.",
       "options": [
         "appreciate-mcq-01",
-        "appreciate-mcq-02",
-        "appreciate-mcq-03",
         "appreciate-mcq-04",
-        "appreciate-mcq-05",
-        "appreciate-mcq-06"
+        "appreciate-mcq-08"
       ],
       "explanation": "本句的「appreciate」指「理解某事物的優點、美感或價值，並因此欣賞／重視它」。",
       "sentenceIndex": 0,
@@ -319,12 +316,9 @@ export default {
         "appreciate"
       ],
       "optionReasons": {
-        "appreciate-mcq-01": "本句指「理解某事物的優點、美感或價值，並因此欣賞／重視它」。",
-        "appreciate-mcq-02": "「充分理解某件事的重要性、難度、影響或意義」與本句語境不同。",
-        "appreciate-mcq-03": "「對別人的幫助、善意、努力或支持感到感激」與本句語境不同。",
-        "appreciate-mcq-04": "「以禮貌方式表示希望得到某物／某項行動」與本句語境不同。",
-        "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。"
+        "appreciate-mcq-01": "本句的「appreciate」指「理解某事物的優點、美感或價值，並因此欣賞／重視它」。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-01"
     },
@@ -336,11 +330,8 @@ export default {
       "masked": "You need time to ____ the subtle colours in the painting.",
       "options": [
         "appreciate-mcq-01",
-        "appreciate-mcq-02",
-        "appreciate-mcq-03",
         "appreciate-mcq-04",
-        "appreciate-mcq-05",
-        "appreciate-mcq-06"
+        "appreciate-mcq-03"
       ],
       "explanation": "本句的「appreciate」指「理解某事物的優點、美感或價值，並因此欣賞／重視它」。",
       "sentenceIndex": 1,
@@ -349,12 +340,9 @@ export default {
         "appreciate"
       ],
       "optionReasons": {
-        "appreciate-mcq-01": "本句指「理解某事物的優點、美感或價值，並因此欣賞／重視它」。",
-        "appreciate-mcq-02": "「充分理解某件事的重要性、難度、影響或意義」與本句語境不同。",
-        "appreciate-mcq-03": "「對別人的幫助、善意、努力或支持感到感激」與本句語境不同。",
-        "appreciate-mcq-04": "「以禮貌方式表示希望得到某物／某項行動」與本句語境不同。",
-        "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。"
+        "appreciate-mcq-01": "本句的「appreciate」指「理解某事物的優點、美感或價值，並因此欣賞／重視它」。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-01"
     },
@@ -366,11 +354,8 @@ export default {
       "masked": "She has learned to ____ classical music.",
       "options": [
         "appreciate-mcq-01",
-        "appreciate-mcq-02",
-        "appreciate-mcq-03",
         "appreciate-mcq-04",
-        "appreciate-mcq-05",
-        "appreciate-mcq-06"
+        "appreciate-mcq-10"
       ],
       "explanation": "本句的「appreciate」指「理解某事物的優點、美感或價值，並因此欣賞／重視它」。",
       "sentenceIndex": 2,
@@ -379,12 +364,9 @@ export default {
         "appreciate"
       ],
       "optionReasons": {
-        "appreciate-mcq-01": "本句指「理解某事物的優點、美感或價值，並因此欣賞／重視它」。",
-        "appreciate-mcq-02": "「充分理解某件事的重要性、難度、影響或意義」與本句語境不同。",
-        "appreciate-mcq-03": "「對別人的幫助、善意、努力或支持感到感激」與本句語境不同。",
-        "appreciate-mcq-04": "「以禮貌方式表示希望得到某物／某項行動」與本句語境不同。",
-        "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。"
+        "appreciate-mcq-01": "本句的「appreciate」指「理解某事物的優點、美感或價值，並因此欣賞／重視它」。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-01"
     },
@@ -396,11 +378,9 @@ export default {
       "masked": "I ____ how difficult the decision was.",
       "options": [
         "appreciate-mcq-02",
-        "appreciate-mcq-01",
-        "appreciate-mcq-03",
         "appreciate-mcq-04",
-        "appreciate-mcq-05",
-        "appreciate-mcq-06"
+        "appreciate-mcq-06",
+        "appreciate-mcq-10"
       ],
       "explanation": "本句的「appreciate」指「充分理解某件事的重要性、難度、影響或意義」。",
       "sentenceIndex": 3,
@@ -409,12 +389,10 @@ export default {
         "appreciate"
       ],
       "optionReasons": {
-        "appreciate-mcq-02": "本句指「充分理解某件事的重要性、難度、影響或意義」。",
-        "appreciate-mcq-01": "「理解某事物的優點、美感或價值，並因此欣賞／重視它」與本句語境不同。",
-        "appreciate-mcq-03": "「對別人的幫助、善意、努力或支持感到感激」與本句語境不同。",
-        "appreciate-mcq-04": "「以禮貌方式表示希望得到某物／某項行動」與本句語境不同。",
-        "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。"
+        "appreciate-mcq-02": "本句的「appreciate」指「充分理解某件事的重要性、難度、影響或意義」。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-02"
     },
@@ -426,11 +404,9 @@ export default {
       "masked": "We need to ____ the importance of time.",
       "options": [
         "appreciate-mcq-02",
-        "appreciate-mcq-01",
-        "appreciate-mcq-03",
+        "appreciate-mcq-06",
         "appreciate-mcq-04",
-        "appreciate-mcq-05",
-        "appreciate-mcq-06"
+        "appreciate-mcq-12"
       ],
       "explanation": "本句的「appreciate」指「充分理解某件事的重要性、難度、影響或意義」。",
       "sentenceIndex": 4,
@@ -439,12 +415,10 @@ export default {
         "appreciate"
       ],
       "optionReasons": {
-        "appreciate-mcq-02": "本句指「充分理解某件事的重要性、難度、影響或意義」。",
-        "appreciate-mcq-01": "「理解某事物的優點、美感或價值，並因此欣賞／重視它」與本句語境不同。",
-        "appreciate-mcq-03": "「對別人的幫助、善意、努力或支持感到感激」與本句語境不同。",
-        "appreciate-mcq-04": "「以禮貌方式表示希望得到某物／某項行動」與本句語境不同。",
-        "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。"
+        "appreciate-mcq-02": "本句的「appreciate」指「充分理解某件事的重要性、難度、影響或意義」。",
+        "appreciate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-02"
     },
@@ -456,10 +430,8 @@ export default {
       "masked": "He did not fully ____ the risk.",
       "options": [
         "appreciate-pdf-001",
-        "appreciate-mcq-01",
-        "appreciate-mcq-03",
         "appreciate-mcq-04",
-        "appreciate-mcq-05",
+        "appreciate-mcq-08",
         "appreciate-mcq-06"
       ],
       "explanation": "本句的「appreciate」指「對某情況的性質、影響或後果有充分認識」。",
@@ -469,12 +441,10 @@ export default {
         "appreciate"
       ],
       "optionReasons": {
-        "appreciate-pdf-001": "本句指「對某情況的性質、影響或後果有充分認識」。",
-        "appreciate-mcq-01": "「理解某事物的優點、美感或價值，並因此欣賞／重視它」與本句語境不同。",
-        "appreciate-mcq-03": "「對別人的幫助、善意、努力或支持感到感激」與本句語境不同。",
-        "appreciate-mcq-04": "「以禮貌方式表示希望得到某物／某項行動」與本句語境不同。",
-        "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。"
+        "appreciate-pdf-001": "本句的「appreciate」指「對某情況的性質、影響或後果有充分認識」。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-pdf-001"
     },
@@ -486,11 +456,9 @@ export default {
       "masked": "She ____ the challenges involved.",
       "options": [
         "appreciate-pdf-001",
-        "appreciate-mcq-01",
-        "appreciate-mcq-03",
-        "appreciate-mcq-04",
-        "appreciate-mcq-05",
-        "appreciate-mcq-06"
+        "appreciate-mcq-08",
+        "appreciate-mcq-06",
+        "appreciate-mcq-04"
       ],
       "explanation": "本句的「appreciates」指「對某情況的性質、影響或後果有充分認識」。",
       "sentenceIndex": 6,
@@ -499,12 +467,10 @@ export default {
         "appreciates"
       ],
       "optionReasons": {
-        "appreciate-pdf-001": "本句指「對某情況的性質、影響或後果有充分認識」。",
-        "appreciate-mcq-01": "「理解某事物的優點、美感或價值，並因此欣賞／重視它」與本句語境不同。",
-        "appreciate-mcq-03": "「對別人的幫助、善意、努力或支持感到感激」與本句語境不同。",
-        "appreciate-mcq-04": "「以禮貌方式表示希望得到某物／某項行動」與本句語境不同。",
-        "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。"
+        "appreciate-pdf-001": "本句的「appreciates」指「對某情況的性質、影響或後果有充分認識」。",
+        "appreciate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-pdf-001"
     },
@@ -516,11 +482,9 @@ export default {
       "masked": "I really ____ your help.",
       "options": [
         "appreciate-mcq-03",
-        "appreciate-mcq-02",
-        "appreciate-mcq-04",
-        "appreciate-mcq-01",
-        "appreciate-mcq-05",
-        "appreciate-mcq-06"
+        "appreciate-mcq-09",
+        "appreciate-pdf-001",
+        "appreciate-mcq-04"
       ],
       "explanation": "本句的「appreciate」指「對別人的幫助、善意、努力或支持感到感激」。",
       "sentenceIndex": 7,
@@ -529,12 +493,10 @@ export default {
         "appreciate"
       ],
       "optionReasons": {
-        "appreciate-mcq-03": "本句指「對別人的幫助、善意、努力或支持感到感激」。",
-        "appreciate-mcq-02": "「充分理解某件事的重要性、難度、影響或意義」與本句語境不同。",
-        "appreciate-mcq-04": "「以禮貌方式表示希望得到某物／某項行動」與本句語境不同。",
-        "appreciate-mcq-01": "「理解某事物的優點、美感或價值，並因此欣賞／重視它」與本句語境不同。",
-        "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。"
+        "appreciate-mcq-03": "本句的「appreciate」指「對別人的幫助、善意、努力或支持感到感激」。",
+        "appreciate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "appreciate-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-03"
     },
@@ -546,10 +508,8 @@ export default {
       "masked": "She ____ his kindness.",
       "options": [
         "appreciate-mcq-03",
-        "appreciate-mcq-02",
+        "appreciate-pdf-001",
         "appreciate-mcq-04",
-        "appreciate-mcq-01",
-        "appreciate-mcq-05",
         "appreciate-mcq-06"
       ],
       "explanation": "本句的「appreciated」指「對別人的幫助、善意、努力或支持感到感激」。",
@@ -559,12 +519,10 @@ export default {
         "appreciated"
       ],
       "optionReasons": {
-        "appreciate-mcq-03": "本句指「對別人的幫助、善意、努力或支持感到感激」。",
-        "appreciate-mcq-02": "「充分理解某件事的重要性、難度、影響或意義」與本句語境不同。",
-        "appreciate-mcq-04": "「以禮貌方式表示希望得到某物／某項行動」與本句語境不同。",
-        "appreciate-mcq-01": "「理解某事物的優點、美感或價值，並因此欣賞／重視它」與本句語境不同。",
-        "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。"
+        "appreciate-mcq-03": "本句的「appreciated」指「對別人的幫助、善意、努力或支持感到感激」。",
+        "appreciate-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-03"
     },
@@ -576,11 +534,9 @@ export default {
       "masked": "We would ____ your feedback.",
       "options": [
         "appreciate-mcq-04",
-        "appreciate-mcq-03",
-        "appreciate-mcq-05",
-        "appreciate-mcq-02",
-        "appreciate-mcq-06",
-        "appreciate-mcq-01"
+        "appreciate-mcq-11",
+        "appreciate-mcq-12",
+        "appreciate-mcq-02"
       ],
       "explanation": "本句的「appreciate」指「以禮貌方式表示希望得到某物／某項行動」。",
       "sentenceIndex": 11,
@@ -589,12 +545,10 @@ export default {
         "appreciate"
       ],
       "optionReasons": {
-        "appreciate-mcq-04": "本句指「以禮貌方式表示希望得到某物／某項行動」。",
-        "appreciate-mcq-03": "「對別人的幫助、善意、努力或支持感到感激」與本句語境不同。",
-        "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。",
-        "appreciate-mcq-02": "「充分理解某件事的重要性、難度、影響或意義」與本句語境不同。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。",
-        "appreciate-mcq-01": "「理解某事物的優點、美感或價值，並因此欣賞／重視它」與本句語境不同。"
+        "appreciate-mcq-04": "本句的「appreciate」指「以禮貌方式表示希望得到某物／某項行動」。",
+        "appreciate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-04"
     },
@@ -606,11 +560,8 @@ export default {
       "masked": "I’d ____ hearing your thoughts.",
       "options": [
         "appreciate-mcq-04",
-        "appreciate-mcq-03",
-        "appreciate-mcq-05",
-        "appreciate-mcq-02",
-        "appreciate-mcq-06",
-        "appreciate-mcq-01"
+        "appreciate-mcq-07",
+        "appreciate-mcq-10"
       ],
       "explanation": "本句的「appreciate」指「以禮貌方式表示希望得到某物／某項行動」。",
       "sentenceIndex": 12,
@@ -619,12 +570,9 @@ export default {
         "appreciate"
       ],
       "optionReasons": {
-        "appreciate-mcq-04": "本句指「以禮貌方式表示希望得到某物／某項行動」。",
-        "appreciate-mcq-03": "「對別人的幫助、善意、努力或支持感到感激」與本句語境不同。",
-        "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。",
-        "appreciate-mcq-02": "「充分理解某件事的重要性、難度、影響或意義」與本句語境不同。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。",
-        "appreciate-mcq-01": "「理解某事物的優點、美感或價值，並因此欣賞／重視它」與本句語境不同。"
+        "appreciate-mcq-04": "本句的「appreciate」指「以禮貌方式表示希望得到某物／某項行動」。",
+        "appreciate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-04"
     },
@@ -636,11 +584,9 @@ export default {
       "masked": "She really ____ good design.",
       "options": [
         "appreciate-mcq-05",
-        "appreciate-mcq-04",
-        "appreciate-mcq-06",
         "appreciate-mcq-03",
-        "appreciate-mcq-07",
-        "appreciate-mcq-02"
+        "appreciate-mcq-09",
+        "appreciate-mcq-04"
       ],
       "explanation": "本句的「appreciates」指「因理解某事物的好處或品質而珍視它」。",
       "sentenceIndex": 13,
@@ -649,12 +595,10 @@ export default {
         "appreciates"
       ],
       "optionReasons": {
-        "appreciate-mcq-05": "本句指「因理解某事物的好處或品質而珍視它」。",
-        "appreciate-mcq-04": "「以禮貌方式表示希望得到某物／某項行動」與本句語境不同。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。",
-        "appreciate-mcq-03": "「對別人的幫助、善意、努力或支持感到感激」與本句語境不同。",
-        "appreciate-mcq-07": "「對某事物價值、美感或意義的理解與欣賞」與本句語境不同。",
-        "appreciate-mcq-02": "「充分理解某件事的重要性、難度、影響或意義」與本句語境不同。"
+        "appreciate-mcq-05": "本句的「appreciates」指「因理解某事物的好處或品質而珍視它」。",
+        "appreciate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-05"
     },
@@ -666,11 +610,9 @@ export default {
       "masked": "He ____ quiet places.",
       "options": [
         "appreciate-mcq-05",
-        "appreciate-mcq-04",
-        "appreciate-mcq-06",
-        "appreciate-mcq-03",
-        "appreciate-mcq-07",
-        "appreciate-mcq-02"
+        "appreciate-mcq-08",
+        "appreciate-mcq-09",
+        "appreciate-mcq-04"
       ],
       "explanation": "本句的「appreciates」指「因理解某事物的好處或品質而珍視它」。",
       "sentenceIndex": 14,
@@ -679,12 +621,10 @@ export default {
         "appreciates"
       ],
       "optionReasons": {
-        "appreciate-mcq-05": "本句指「因理解某事物的好處或品質而珍視它」。",
-        "appreciate-mcq-04": "「以禮貌方式表示希望得到某物／某項行動」與本句語境不同。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。",
-        "appreciate-mcq-03": "「對別人的幫助、善意、努力或支持感到感激」與本句語境不同。",
-        "appreciate-mcq-07": "「對某事物價值、美感或意義的理解與欣賞」與本句語境不同。",
-        "appreciate-mcq-02": "「充分理解某件事的重要性、難度、影響或意義」與本句語境不同。"
+        "appreciate-mcq-05": "本句的「appreciates」指「因理解某事物的好處或品質而珍視它」。",
+        "appreciate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-05"
     },
@@ -696,11 +636,9 @@ export default {
       "masked": "The property ____ significantly over ten years.",
       "options": [
         "appreciate-mcq-06",
-        "appreciate-mcq-05",
-        "appreciate-mcq-07",
-        "appreciate-mcq-04",
-        "appreciate-mcq-08",
-        "appreciate-mcq-03"
+        "appreciate-mcq-02",
+        "appreciate-mcq-12",
+        "appreciate-mcq-04"
       ],
       "explanation": "本句的「appreciated」指「資產、貨幣等的市場價值上升」。",
       "sentenceIndex": 15,
@@ -709,12 +647,10 @@ export default {
         "appreciated"
       ],
       "optionReasons": {
-        "appreciate-mcq-06": "本句指「資產、貨幣等的市場價值上升」。",
-        "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。",
-        "appreciate-mcq-07": "「對某事物價值、美感或意義的理解與欣賞」與本句語境不同。",
-        "appreciate-mcq-04": "「以禮貌方式表示希望得到某物／某項行動」與本句語境不同。",
-        "appreciate-mcq-08": "「對別人幫助、支持或善意的感激／謝意」與本句語境不同。",
-        "appreciate-mcq-03": "「對別人的幫助、善意、努力或支持感到感激」與本句語境不同。"
+        "appreciate-mcq-06": "本句的「appreciated」指「資產、貨幣等的市場價值上升」。",
+        "appreciate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-06"
     },
@@ -726,11 +662,9 @@ export default {
       "masked": "The currency ____ against the dollar.",
       "options": [
         "appreciate-mcq-06",
-        "appreciate-mcq-05",
-        "appreciate-mcq-07",
-        "appreciate-mcq-04",
+        "appreciate-mcq-02",
         "appreciate-mcq-08",
-        "appreciate-mcq-03"
+        "appreciate-mcq-04"
       ],
       "explanation": "本句的「appreciated」指「資產、貨幣等的市場價值上升」。",
       "sentenceIndex": 16,
@@ -739,12 +673,10 @@ export default {
         "appreciated"
       ],
       "optionReasons": {
-        "appreciate-mcq-06": "本句指「資產、貨幣等的市場價值上升」。",
-        "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。",
-        "appreciate-mcq-07": "「對某事物價值、美感或意義的理解與欣賞」與本句語境不同。",
-        "appreciate-mcq-04": "「以禮貌方式表示希望得到某物／某項行動」與本句語境不同。",
-        "appreciate-mcq-08": "「對別人幫助、支持或善意的感激／謝意」與本句語境不同。",
-        "appreciate-mcq-03": "「對別人的幫助、善意、努力或支持感到感激」與本句語境不同。"
+        "appreciate-mcq-06": "本句的「appreciated」指「資產、貨幣等的市場價值上升」。",
+        "appreciate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-06"
     },
@@ -756,11 +688,8 @@ export default {
       "masked": "She developed a deeper ____ of Monet’s work.",
       "options": [
         "appreciate-mcq-07",
-        "appreciate-mcq-06",
-        "appreciate-mcq-08",
-        "appreciate-mcq-05",
-        "appreciate-mcq-09",
-        "appreciate-mcq-04"
+        "appreciate-mcq-04",
+        "appreciate-mcq-08"
       ],
       "explanation": "本句的「appreciation」指「對某事物價值、美感或意義的理解與欣賞」。",
       "sentenceIndex": 17,
@@ -769,12 +698,9 @@ export default {
         "appreciation"
       ],
       "optionReasons": {
-        "appreciate-mcq-07": "本句指「對某事物價值、美感或意義的理解與欣賞」。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。",
-        "appreciate-mcq-08": "「對別人幫助、支持或善意的感激／謝意」與本句語境不同。",
-        "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。",
-        "appreciate-mcq-09": "「資產或貨幣價值上升的過程／幅度」與本句語境不同。",
-        "appreciate-mcq-04": "「以禮貌方式表示希望得到某物／某項行動」與本句語境不同。"
+        "appreciate-mcq-07": "本句的「appreciation」指「對某事物價值、美感或意義的理解與欣賞」。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-07"
     },
@@ -786,11 +712,8 @@ export default {
       "masked": "The course helped students develop an ____ of art.",
       "options": [
         "appreciate-mcq-07",
-        "appreciate-mcq-06",
-        "appreciate-mcq-08",
-        "appreciate-mcq-05",
-        "appreciate-mcq-09",
-        "appreciate-mcq-04"
+        "appreciate-mcq-04",
+        "appreciate-mcq-08"
       ],
       "explanation": "本句的「appreciation」指「對某事物價值、美感或意義的理解與欣賞」。",
       "sentenceIndex": 18,
@@ -799,12 +722,9 @@ export default {
         "appreciation"
       ],
       "optionReasons": {
-        "appreciate-mcq-07": "本句指「對某事物價值、美感或意義的理解與欣賞」。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。",
-        "appreciate-mcq-08": "「對別人幫助、支持或善意的感激／謝意」與本句語境不同。",
-        "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。",
-        "appreciate-mcq-09": "「資產或貨幣價值上升的過程／幅度」與本句語境不同。",
-        "appreciate-mcq-04": "「以禮貌方式表示希望得到某物／某項行動」與本句語境不同。"
+        "appreciate-mcq-07": "本句的「appreciation」指「對某事物價值、美感或意義的理解與欣賞」。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-07"
     },
@@ -816,11 +736,9 @@ export default {
       "masked": "She expressed her ____ for their support.",
       "options": [
         "appreciate-mcq-08",
-        "appreciate-mcq-07",
-        "appreciate-mcq-09",
+        "appreciate-pdf-001",
         "appreciate-mcq-06",
-        "appreciate-mcq-10",
-        "appreciate-mcq-05"
+        "appreciate-mcq-04"
       ],
       "explanation": "本句的「appreciation」指「對別人幫助、支持或善意的感激／謝意」。",
       "sentenceIndex": 19,
@@ -829,12 +747,10 @@ export default {
         "appreciation"
       ],
       "optionReasons": {
-        "appreciate-mcq-08": "本句指「對別人幫助、支持或善意的感激／謝意」。",
-        "appreciate-mcq-07": "「對某事物價值、美感或意義的理解與欣賞」與本句語境不同。",
-        "appreciate-mcq-09": "「資產或貨幣價值上升的過程／幅度」與本句語境不同。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。",
-        "appreciate-mcq-10": "「對幫助、善意或支持感到感激的」與本句語境不同。",
-        "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。"
+        "appreciate-mcq-08": "本句的「appreciation」指「對別人幫助、支持或善意的感激／謝意」。",
+        "appreciate-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-08"
     },
@@ -846,11 +762,9 @@ export default {
       "masked": "Please accept this gift as a token of our ____.",
       "options": [
         "appreciate-mcq-08",
-        "appreciate-mcq-07",
-        "appreciate-mcq-09",
+        "appreciate-pdf-001",
         "appreciate-mcq-06",
-        "appreciate-mcq-10",
-        "appreciate-mcq-05"
+        "appreciate-mcq-04"
       ],
       "explanation": "本句的「appreciation」指「對別人幫助、支持或善意的感激／謝意」。",
       "sentenceIndex": 20,
@@ -859,12 +773,10 @@ export default {
         "appreciation"
       ],
       "optionReasons": {
-        "appreciate-mcq-08": "本句指「對別人幫助、支持或善意的感激／謝意」。",
-        "appreciate-mcq-07": "「對某事物價值、美感或意義的理解與欣賞」與本句語境不同。",
-        "appreciate-mcq-09": "「資產或貨幣價值上升的過程／幅度」與本句語境不同。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。",
-        "appreciate-mcq-10": "「對幫助、善意或支持感到感激的」與本句語境不同。",
-        "appreciate-mcq-05": "「因理解某事物的好處或品質而珍視它」與本句語境不同。"
+        "appreciate-mcq-08": "本句的「appreciation」指「對別人幫助、支持或善意的感激／謝意」。",
+        "appreciate-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-08"
     },
@@ -877,10 +789,8 @@ export default {
       "options": [
         "appreciate-mcq-09",
         "appreciate-mcq-08",
-        "appreciate-mcq-10",
-        "appreciate-mcq-07",
-        "appreciate-mcq-11",
-        "appreciate-mcq-06"
+        "appreciate-pdf-001",
+        "appreciate-mcq-04"
       ],
       "explanation": "本句的「appreciation」指「資產或貨幣價值上升的過程／幅度」。",
       "sentenceIndex": 21,
@@ -889,12 +799,10 @@ export default {
         "appreciation"
       ],
       "optionReasons": {
-        "appreciate-mcq-09": "本句指「資產或貨幣價值上升的過程／幅度」。",
-        "appreciate-mcq-08": "「對別人幫助、支持或善意的感激／謝意」與本句語境不同。",
-        "appreciate-mcq-10": "「對幫助、善意或支持感到感激的」與本句語境不同。",
-        "appreciate-mcq-07": "「對某事物價值、美感或意義的理解與欣賞」與本句語境不同。",
-        "appreciate-mcq-11": "「能辨識並重視某事物品質、價值或美感的」與本句語境不同。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。"
+        "appreciate-mcq-09": "本句的「appreciation」指「資產或貨幣價值上升的過程／幅度」。",
+        "appreciate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "appreciate-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-09"
     },
@@ -906,11 +814,9 @@ export default {
       "masked": "House-price ____ slowed last year.",
       "options": [
         "appreciate-mcq-09",
-        "appreciate-mcq-08",
         "appreciate-mcq-10",
-        "appreciate-mcq-07",
-        "appreciate-mcq-11",
-        "appreciate-mcq-06"
+        "appreciate-mcq-04",
+        "appreciate-mcq-05"
       ],
       "explanation": "本句的「appreciation」指「資產或貨幣價值上升的過程／幅度」。",
       "sentenceIndex": 22,
@@ -919,12 +825,10 @@ export default {
         "appreciation"
       ],
       "optionReasons": {
-        "appreciate-mcq-09": "本句指「資產或貨幣價值上升的過程／幅度」。",
-        "appreciate-mcq-08": "「對別人幫助、支持或善意的感激／謝意」與本句語境不同。",
-        "appreciate-mcq-10": "「對幫助、善意或支持感到感激的」與本句語境不同。",
-        "appreciate-mcq-07": "「對某事物價值、美感或意義的理解與欣賞」與本句語境不同。",
-        "appreciate-mcq-11": "「能辨識並重視某事物品質、價值或美感的」與本句語境不同。",
-        "appreciate-mcq-06": "「資產、貨幣等的市場價值上升」與本句語境不同。"
+        "appreciate-mcq-09": "本句的「appreciation」指「資產或貨幣價值上升的過程／幅度」。",
+        "appreciate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-09"
     },
@@ -936,11 +840,9 @@ export default {
       "masked": "She was very ____ of the help.",
       "options": [
         "appreciate-mcq-10",
-        "appreciate-mcq-09",
-        "appreciate-mcq-11",
-        "appreciate-mcq-08",
-        "appreciate-mcq-12",
-        "appreciate-mcq-07"
+        "appreciate-pdf-001",
+        "appreciate-mcq-04",
+        "appreciate-mcq-06"
       ],
       "explanation": "本句的「appreciative」指「對幫助、善意或支持感到感激的」。",
       "sentenceIndex": 23,
@@ -949,12 +851,10 @@ export default {
         "appreciative"
       ],
       "optionReasons": {
-        "appreciate-mcq-10": "本句指「對幫助、善意或支持感到感激的」。",
-        "appreciate-mcq-09": "「資產或貨幣價值上升的過程／幅度」與本句語境不同。",
-        "appreciate-mcq-11": "「能辨識並重視某事物品質、價值或美感的」與本句語境不同。",
-        "appreciate-mcq-08": "「對別人幫助、支持或善意的感激／謝意」與本句語境不同。",
-        "appreciate-mcq-12": "「以感激、賞識或欣賞的態度」與本句語境不同。",
-        "appreciate-mcq-07": "「對某事物價值、美感或意義的理解與欣賞」與本句語境不同。"
+        "appreciate-mcq-10": "本句的「appreciative」指「對幫助、善意或支持感到感激的」。",
+        "appreciate-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-10"
     },
@@ -967,10 +867,8 @@ export default {
       "options": [
         "appreciate-mcq-10",
         "appreciate-mcq-09",
-        "appreciate-mcq-11",
-        "appreciate-mcq-08",
-        "appreciate-mcq-12",
-        "appreciate-mcq-07"
+        "appreciate-mcq-05",
+        "appreciate-mcq-04"
       ],
       "explanation": "本句的「appreciative」指「對幫助、善意或支持感到感激的」。",
       "sentenceIndex": 24,
@@ -979,12 +877,10 @@ export default {
         "appreciative"
       ],
       "optionReasons": {
-        "appreciate-mcq-10": "本句指「對幫助、善意或支持感到感激的」。",
-        "appreciate-mcq-09": "「資產或貨幣價值上升的過程／幅度」與本句語境不同。",
-        "appreciate-mcq-11": "「能辨識並重視某事物品質、價值或美感的」與本句語境不同。",
-        "appreciate-mcq-08": "「對別人幫助、支持或善意的感激／謝意」與本句語境不同。",
-        "appreciate-mcq-12": "「以感激、賞識或欣賞的態度」與本句語境不同。",
-        "appreciate-mcq-07": "「對某事物價值、美感或意義的理解與欣賞」與本句語境不同。"
+        "appreciate-mcq-10": "本句的「appreciative」指「對幫助、善意或支持感到感激的」。",
+        "appreciate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-10"
     },
@@ -996,11 +892,9 @@ export default {
       "masked": "He is an ____.",
       "options": [
         "appreciate-mcq-11",
-        "appreciate-mcq-10",
-        "appreciate-mcq-12",
-        "appreciate-mcq-09",
+        "appreciate-mcq-04",
         "appreciate-mcq-08",
-        "appreciate-mcq-07"
+        "appreciate-mcq-02"
       ],
       "explanation": "本句的「appreciative listener」指「能辨識並重視某事物品質、價值或美感的」。",
       "sentenceIndex": 25,
@@ -1009,12 +903,10 @@ export default {
         "appreciative listener"
       ],
       "optionReasons": {
-        "appreciate-mcq-11": "本句指「能辨識並重視某事物品質、價值或美感的」。",
-        "appreciate-mcq-10": "「對幫助、善意或支持感到感激的」與本句語境不同。",
-        "appreciate-mcq-12": "「以感激、賞識或欣賞的態度」與本句語境不同。",
-        "appreciate-mcq-09": "「資產或貨幣價值上升的過程／幅度」與本句語境不同。",
-        "appreciate-mcq-08": "「對別人幫助、支持或善意的感激／謝意」與本句語境不同。",
-        "appreciate-mcq-07": "「對某事物價值、美感或意義的理解與欣賞」與本句語境不同。"
+        "appreciate-mcq-11": "本句的「appreciative listener」指「能辨識並重視某事物品質、價值或美感的」。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-11"
     },
@@ -1026,11 +918,9 @@ export default {
       "masked": "The exhibition attracted an ____ audience.",
       "options": [
         "appreciate-mcq-11",
-        "appreciate-mcq-10",
-        "appreciate-mcq-12",
-        "appreciate-mcq-09",
-        "appreciate-mcq-08",
-        "appreciate-mcq-07"
+        "appreciate-mcq-04",
+        "appreciate-mcq-03",
+        "appreciate-mcq-02"
       ],
       "explanation": "本句的「appreciative」指「能辨識並重視某事物品質、價值或美感的」。",
       "sentenceIndex": 26,
@@ -1039,12 +929,10 @@ export default {
         "appreciative"
       ],
       "optionReasons": {
-        "appreciate-mcq-11": "本句指「能辨識並重視某事物品質、價值或美感的」。",
-        "appreciate-mcq-10": "「對幫助、善意或支持感到感激的」與本句語境不同。",
-        "appreciate-mcq-12": "「以感激、賞識或欣賞的態度」與本句語境不同。",
-        "appreciate-mcq-09": "「資產或貨幣價值上升的過程／幅度」與本句語境不同。",
-        "appreciate-mcq-08": "「對別人幫助、支持或善意的感激／謝意」與本句語境不同。",
-        "appreciate-mcq-07": "「對某事物價值、美感或意義的理解與欣賞」與本句語境不同。"
+        "appreciate-mcq-11": "本句的「appreciative」指「能辨識並重視某事物品質、價值或美感的」。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-11"
     },
@@ -1056,11 +944,9 @@ export default {
       "masked": "She smiled ____.",
       "options": [
         "appreciate-mcq-12",
-        "appreciate-mcq-11",
-        "appreciate-mcq-10",
-        "appreciate-mcq-09",
-        "appreciate-mcq-08",
-        "appreciate-mcq-07"
+        "appreciate-mcq-05",
+        "appreciate-mcq-04",
+        "appreciate-mcq-06"
       ],
       "explanation": "本句的「appreciatively」指「以感激、賞識或欣賞的態度」。",
       "sentenceIndex": 27,
@@ -1069,12 +955,10 @@ export default {
         "appreciatively"
       ],
       "optionReasons": {
-        "appreciate-mcq-12": "本句指「以感激、賞識或欣賞的態度」。",
-        "appreciate-mcq-11": "「能辨識並重視某事物品質、價值或美感的」與本句語境不同。",
-        "appreciate-mcq-10": "「對幫助、善意或支持感到感激的」與本句語境不同。",
-        "appreciate-mcq-09": "「資產或貨幣價值上升的過程／幅度」與本句語境不同。",
-        "appreciate-mcq-08": "「對別人幫助、支持或善意的感激／謝意」與本句語境不同。",
-        "appreciate-mcq-07": "「對某事物價值、美感或意義的理解與欣賞」與本句語境不同。"
+        "appreciate-mcq-12": "本句的「appreciatively」指「以感激、賞識或欣賞的態度」。",
+        "appreciate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-12"
     },
@@ -1086,11 +970,9 @@ export default {
       "masked": "He nodded ____ at the painting.",
       "options": [
         "appreciate-mcq-12",
-        "appreciate-mcq-11",
-        "appreciate-mcq-10",
-        "appreciate-mcq-09",
-        "appreciate-mcq-08",
-        "appreciate-mcq-07"
+        "appreciate-mcq-04",
+        "appreciate-mcq-05",
+        "appreciate-mcq-06"
       ],
       "explanation": "本句的「appreciatively」指「以感激、賞識或欣賞的態度」。",
       "sentenceIndex": 28,
@@ -1099,12 +981,10 @@ export default {
         "appreciatively"
       ],
       "optionReasons": {
-        "appreciate-mcq-12": "本句指「以感激、賞識或欣賞的態度」。",
-        "appreciate-mcq-11": "「能辨識並重視某事物品質、價值或美感的」與本句語境不同。",
-        "appreciate-mcq-10": "「對幫助、善意或支持感到感激的」與本句語境不同。",
-        "appreciate-mcq-09": "「資產或貨幣價值上升的過程／幅度」與本句語境不同。",
-        "appreciate-mcq-08": "「對別人幫助、支持或善意的感激／謝意」與本句語境不同。",
-        "appreciate-mcq-07": "「對某事物價值、美感或意義的理解與欣賞」與本句語境不同。"
+        "appreciate-mcq-12": "本句的「appreciatively」指「以感激、賞識或欣賞的態度」。",
+        "appreciate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "appreciate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appreciate-mcq-12"
     }
@@ -1116,5 +996,7 @@ export default {
     "sha256": "58c3cacb0b30332a5c18ea921690722bf95111fb88297f5691c690810b85b241",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

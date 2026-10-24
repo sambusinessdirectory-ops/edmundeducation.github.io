@@ -491,11 +491,9 @@ export default {
       "masked": "She kept the album on a ____ in her room.",
       "options": [
         "shelf-mcq-01",
-        "shelf-mcq-02",
-        "shelf-mcq-03",
-        "shelf-mcq-04",
-        "shelf-mcq-05",
-        "shelf-mcq-06"
+        "shelf-mcq-16",
+        "shelf-mcq-18",
+        "shelf-mcq-11"
       ],
       "explanation": "本句的「shelf」指「架子；層架」。",
       "sentenceIndex": 0,
@@ -504,12 +502,10 @@ export default {
         "shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-01": "本句指「架子；層架」。",
-        "shelf-mcq-02": "「多個架子／層架」與本句語境不同。",
-        "shelf-mcq-03": "「書架」與本句語境不同。",
-        "shelf-mcq-04": "「最上層架」與本句語境不同。",
-        "shelf-mcq-05": "「從架上拿下 X」與本句語境不同。",
-        "shelf-mcq-06": "「把 X 放上架」與本句語境不同。"
+        "shelf-mcq-01": "本句的「shelf」指「架子；層架」。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-01"
     },
@@ -521,11 +517,9 @@ export default {
       "masked": "The books are on the top ____.",
       "options": [
         "shelf-mcq-01",
-        "shelf-mcq-02",
-        "shelf-mcq-03",
-        "shelf-mcq-04",
-        "shelf-mcq-05",
-        "shelf-mcq-06"
+        "shelf-mcq-13",
+        "shelf-mcq-18",
+        "shelf-mcq-12"
       ],
       "explanation": "本句的「shelf」指「架子；層架」。",
       "sentenceIndex": 1,
@@ -534,12 +528,10 @@ export default {
         "shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-01": "本句指「架子；層架」。",
-        "shelf-mcq-02": "「多個架子／層架」與本句語境不同。",
-        "shelf-mcq-03": "「書架」與本句語境不同。",
-        "shelf-mcq-04": "「最上層架」與本句語境不同。",
-        "shelf-mcq-05": "「從架上拿下 X」與本句語境不同。",
-        "shelf-mcq-06": "「把 X 放上架」與本句語境不同。"
+        "shelf-mcq-01": "本句的「shelf」指「架子；層架」。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-01"
     },
@@ -551,11 +543,9 @@ export default {
       "masked": "I put the photo frame on a ____.",
       "options": [
         "shelf-mcq-01",
-        "shelf-mcq-02",
-        "shelf-mcq-03",
-        "shelf-mcq-04",
-        "shelf-mcq-05",
-        "shelf-mcq-06"
+        "shelf-mcq-21",
+        "shelf-mcq-16",
+        "shelf-mcq-10"
       ],
       "explanation": "本句的「shelf」指「架子；層架」。",
       "sentenceIndex": 2,
@@ -564,12 +554,10 @@ export default {
         "shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-01": "本句指「架子；層架」。",
-        "shelf-mcq-02": "「多個架子／層架」與本句語境不同。",
-        "shelf-mcq-03": "「書架」與本句語境不同。",
-        "shelf-mcq-04": "「最上層架」與本句語境不同。",
-        "shelf-mcq-05": "「從架上拿下 X」與本句語境不同。",
-        "shelf-mcq-06": "「把 X 放上架」與本句語境不同。"
+        "shelf-mcq-01": "本句的「shelf」指「架子；層架」。",
+        "shelf-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-01"
     },
@@ -581,11 +569,9 @@ export default {
       "masked": "The shop has several ____ of books.",
       "options": [
         "shelf-mcq-02",
-        "shelf-mcq-01",
-        "shelf-mcq-03",
-        "shelf-mcq-04",
-        "shelf-mcq-05",
-        "shelf-mcq-06"
+        "shelf-mcq-18",
+        "shelf-mcq-16",
+        "shelf-mcq-10"
       ],
       "explanation": "本句的「shelves」指「多個架子／層架」。",
       "sentenceIndex": 3,
@@ -594,12 +580,10 @@ export default {
         "shelves"
       ],
       "optionReasons": {
-        "shelf-mcq-02": "本句指「多個架子／層架」。",
-        "shelf-mcq-01": "「架子；層架」與本句語境不同。",
-        "shelf-mcq-03": "「書架」與本句語境不同。",
-        "shelf-mcq-04": "「最上層架」與本句語境不同。",
-        "shelf-mcq-05": "「從架上拿下 X」與本句語境不同。",
-        "shelf-mcq-06": "「把 X 放上架」與本句語境不同。"
+        "shelf-mcq-02": "本句的「shelves」指「多個架子／層架」。",
+        "shelf-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-02"
     },
@@ -611,11 +595,9 @@ export default {
       "masked": "The ____ were full of old photographs.",
       "options": [
         "shelf-mcq-02",
-        "shelf-mcq-01",
-        "shelf-mcq-03",
-        "shelf-mcq-04",
-        "shelf-mcq-05",
-        "shelf-mcq-06"
+        "shelf-mcq-11",
+        "shelf-mcq-10",
+        "shelf-mcq-16"
       ],
       "explanation": "本句的「shelves」指「多個架子／層架」。",
       "sentenceIndex": 4,
@@ -624,12 +606,10 @@ export default {
         "shelves"
       ],
       "optionReasons": {
-        "shelf-mcq-02": "本句指「多個架子／層架」。",
-        "shelf-mcq-01": "「架子；層架」與本句語境不同。",
-        "shelf-mcq-03": "「書架」與本句語境不同。",
-        "shelf-mcq-04": "「最上層架」與本句語境不同。",
-        "shelf-mcq-05": "「從架上拿下 X」與本句語境不同。",
-        "shelf-mcq-06": "「把 X 放上架」與本句語境不同。"
+        "shelf-mcq-02": "本句的「shelves」指「多個架子／層架」。",
+        "shelf-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-02"
     },
@@ -641,11 +621,9 @@ export default {
       "masked": "The album was next to some books on the ____.",
       "options": [
         "shelf-mcq-03",
-        "shelf-mcq-02",
-        "shelf-mcq-04",
-        "shelf-mcq-01",
-        "shelf-mcq-05",
-        "shelf-mcq-06"
+        "shelf-mcq-18",
+        "shelf-mcq-13",
+        "shelf-mcq-10"
       ],
       "explanation": "本句的「bookshelf」指「書架」。",
       "sentenceIndex": 5,
@@ -654,12 +632,10 @@ export default {
         "bookshelf"
       ],
       "optionReasons": {
-        "shelf-mcq-03": "本句指「書架」。",
-        "shelf-mcq-02": "「多個架子／層架」與本句語境不同。",
-        "shelf-mcq-04": "「最上層架」與本句語境不同。",
-        "shelf-mcq-01": "「架子；層架」與本句語境不同。",
-        "shelf-mcq-05": "「從架上拿下 X」與本句語境不同。",
-        "shelf-mcq-06": "「把 X 放上架」與本句語境不同。"
+        "shelf-mcq-03": "本句的「bookshelf」指「書架」。",
+        "shelf-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-03"
     },
@@ -671,11 +647,9 @@ export default {
       "masked": "She has a large ____ in her bedroom.",
       "options": [
         "shelf-mcq-03",
-        "shelf-mcq-02",
-        "shelf-mcq-04",
-        "shelf-mcq-01",
-        "shelf-mcq-05",
-        "shelf-mcq-06"
+        "shelf-mcq-12",
+        "shelf-mcq-21",
+        "shelf-mcq-13"
       ],
       "explanation": "本句的「bookshelf」指「書架」。",
       "sentenceIndex": 6,
@@ -684,12 +658,10 @@ export default {
         "bookshelf"
       ],
       "optionReasons": {
-        "shelf-mcq-03": "本句指「書架」。",
-        "shelf-mcq-02": "「多個架子／層架」與本句語境不同。",
-        "shelf-mcq-04": "「最上層架」與本句語境不同。",
-        "shelf-mcq-01": "「架子；層架」與本句語境不同。",
-        "shelf-mcq-05": "「從架上拿下 X」與本句語境不同。",
-        "shelf-mcq-06": "「把 X 放上架」與本句語境不同。"
+        "shelf-mcq-03": "本句的「bookshelf」指「書架」。",
+        "shelf-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-03"
     },
@@ -701,11 +673,9 @@ export default {
       "masked": "The box is on the ____.",
       "options": [
         "shelf-mcq-04",
-        "shelf-mcq-03",
-        "shelf-mcq-05",
-        "shelf-mcq-02",
-        "shelf-mcq-06",
-        "shelf-mcq-01"
+        "shelf-mcq-13",
+        "shelf-mcq-16",
+        "shelf-mcq-19"
       ],
       "explanation": "本句的「top shelf」指「最上層架」。",
       "sentenceIndex": 7,
@@ -714,12 +684,10 @@ export default {
         "top shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-04": "本句指「最上層架」。",
-        "shelf-mcq-03": "「書架」與本句語境不同。",
-        "shelf-mcq-05": "「從架上拿下 X」與本句語境不同。",
-        "shelf-mcq-02": "「多個架子／層架」與本句語境不同。",
-        "shelf-mcq-06": "「把 X 放上架」與本句語境不同。",
-        "shelf-mcq-01": "「架子；層架」與本句語境不同。"
+        "shelf-mcq-04": "本句的「top shelf」指「最上層架」。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-04"
     },
@@ -731,11 +699,9 @@ export default {
       "masked": "Put the heavy books on the ____.",
       "options": [
         "shelf-mcq-04",
-        "shelf-mcq-03",
-        "shelf-mcq-05",
-        "shelf-mcq-02",
-        "shelf-mcq-06",
-        "shelf-mcq-01"
+        "shelf-mcq-13",
+        "shelf-mcq-11",
+        "shelf-mcq-18"
       ],
       "explanation": "本句的「bottom shelf」指「最上層架」。",
       "sentenceIndex": 8,
@@ -744,12 +710,10 @@ export default {
         "bottom shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-04": "本句指「最上層架」。",
-        "shelf-mcq-03": "「書架」與本句語境不同。",
-        "shelf-mcq-05": "「從架上拿下 X」與本句語境不同。",
-        "shelf-mcq-02": "「多個架子／層架」與本句語境不同。",
-        "shelf-mcq-06": "「把 X 放上架」與本句語境不同。",
-        "shelf-mcq-01": "「架子；層架」與本句語境不同。"
+        "shelf-mcq-04": "本句的「bottom shelf」指「最上層架」。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-04"
     },
@@ -761,11 +725,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "shelf-mcq-05",
-        "shelf-mcq-04",
-        "shelf-mcq-06",
-        "shelf-mcq-03",
-        "shelf-mcq-07",
-        "shelf-mcq-02"
+        "shelf-mcq-19",
+        "shelf-mcq-12",
+        "shelf-mcq-13"
       ],
       "explanation": "本句的「took the album off the shelf」指「從架上拿下 X」。",
       "sentenceIndex": 9,
@@ -774,12 +736,10 @@ export default {
         "took the album off the shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-05": "本句指「從架上拿下 X」。",
-        "shelf-mcq-04": "「最上層架」與本句語境不同。",
-        "shelf-mcq-06": "「把 X 放上架」與本句語境不同。",
-        "shelf-mcq-03": "「書架」與本句語境不同。",
-        "shelf-mcq-07": "「岩架」與本句語境不同。",
-        "shelf-mcq-02": "「多個架子／層架」與本句語境不同。"
+        "shelf-mcq-05": "本句的「took the album off the shelf」指「從架上拿下 X」。",
+        "shelf-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-05"
     },
@@ -791,11 +751,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "shelf-mcq-05",
-        "shelf-mcq-04",
-        "shelf-mcq-06",
-        "shelf-mcq-03",
-        "shelf-mcq-07",
-        "shelf-mcq-02"
+        "shelf-mcq-10",
+        "shelf-mcq-21",
+        "shelf-mcq-16"
       ],
       "explanation": "本句的「took a book off the shelf」指「從架上拿下 X」。",
       "sentenceIndex": 10,
@@ -804,12 +762,10 @@ export default {
         "took a book off the shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-05": "本句指「從架上拿下 X」。",
-        "shelf-mcq-04": "「最上層架」與本句語境不同。",
-        "shelf-mcq-06": "「把 X 放上架」與本句語境不同。",
-        "shelf-mcq-03": "「書架」與本句語境不同。",
-        "shelf-mcq-07": "「岩架」與本句語境不同。",
-        "shelf-mcq-02": "「多個架子／層架」與本句語境不同。"
+        "shelf-mcq-05": "本句的「took a book off the shelf」指「從架上拿下 X」。",
+        "shelf-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-05"
     },
@@ -821,11 +777,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "shelf-mcq-06",
-        "shelf-mcq-05",
-        "shelf-mcq-07",
-        "shelf-mcq-04",
-        "shelf-mcq-08",
-        "shelf-mcq-03"
+        "shelf-mcq-21",
+        "shelf-mcq-13",
+        "shelf-mcq-11"
       ],
       "explanation": "本句的「put the box on the shelf」指「把 X 放上架」。",
       "sentenceIndex": 11,
@@ -834,12 +788,10 @@ export default {
         "put the box on the shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-06": "本句指「把 X 放上架」。",
-        "shelf-mcq-05": "「從架上拿下 X」與本句語境不同。",
-        "shelf-mcq-07": "「岩架」與本句語境不同。",
-        "shelf-mcq-04": "「最上層架」與本句語境不同。",
-        "shelf-mcq-08": "「大陸架」與本句語境不同。",
-        "shelf-mcq-03": "「書架」與本句語境不同。"
+        "shelf-mcq-06": "本句的「put the box on the shelf」指「把 X 放上架」。",
+        "shelf-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-06"
     },
@@ -851,11 +803,9 @@ export default {
       "masked": "Put the album back ____ when you're finished.",
       "options": [
         "shelf-mcq-06",
-        "shelf-mcq-05",
-        "shelf-mcq-07",
-        "shelf-mcq-04",
-        "shelf-mcq-08",
-        "shelf-mcq-03"
+        "shelf-mcq-12",
+        "shelf-mcq-18",
+        "shelf-mcq-13"
       ],
       "explanation": "本句的「on the shelf」指「把 X 放上架」。",
       "sentenceIndex": 12,
@@ -864,12 +814,10 @@ export default {
         "on the shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-06": "本句指「把 X 放上架」。",
-        "shelf-mcq-05": "「從架上拿下 X」與本句語境不同。",
-        "shelf-mcq-07": "「岩架」與本句語境不同。",
-        "shelf-mcq-04": "「最上層架」與本句語境不同。",
-        "shelf-mcq-08": "「大陸架」與本句語境不同。",
-        "shelf-mcq-03": "「書架」與本句語境不同。"
+        "shelf-mcq-06": "本句的「on the shelf」指「把 X 放上架」。",
+        "shelf-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-06"
     },
@@ -881,11 +829,9 @@ export default {
       "masked": "The climber rested on a narrow rock ____.",
       "options": [
         "shelf-mcq-01",
-        "shelf-mcq-02",
-        "shelf-mcq-03",
-        "shelf-mcq-04",
-        "shelf-mcq-05",
-        "shelf-mcq-06"
+        "shelf-mcq-10",
+        "shelf-mcq-21",
+        "shelf-mcq-16"
       ],
       "explanation": "本句的「shelf」指「架子；層架」。",
       "sentenceIndex": 13,
@@ -894,12 +840,10 @@ export default {
         "shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-01": "本句指「架子；層架」。",
-        "shelf-mcq-02": "「多個架子／層架」與本句語境不同。",
-        "shelf-mcq-03": "「書架」與本句語境不同。",
-        "shelf-mcq-04": "「最上層架」與本句語境不同。",
-        "shelf-mcq-05": "「從架上拿下 X」與本句語境不同。",
-        "shelf-mcq-06": "「把 X 放上架」與本句語境不同。"
+        "shelf-mcq-01": "本句的「shelf」指「架子；層架」。",
+        "shelf-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-01"
     },
@@ -911,11 +855,9 @@ export default {
       "masked": "A small ____ of rock projected from the cliff.",
       "options": [
         "shelf-mcq-01",
-        "shelf-mcq-02",
-        "shelf-mcq-03",
-        "shelf-mcq-04",
-        "shelf-mcq-05",
-        "shelf-mcq-06"
+        "shelf-mcq-21",
+        "shelf-mcq-13",
+        "shelf-mcq-16"
       ],
       "explanation": "本句的「shelf」指「架子；層架」。",
       "sentenceIndex": 14,
@@ -924,12 +866,10 @@ export default {
         "shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-01": "本句指「架子；層架」。",
-        "shelf-mcq-02": "「多個架子／層架」與本句語境不同。",
-        "shelf-mcq-03": "「書架」與本句語境不同。",
-        "shelf-mcq-04": "「最上層架」與本句語境不同。",
-        "shelf-mcq-05": "「從架上拿下 X」與本句語境不同。",
-        "shelf-mcq-06": "「把 X 放上架」與本句語境不同。"
+        "shelf-mcq-01": "本句的「shelf」指「架子；層架」。",
+        "shelf-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-01"
     },
@@ -941,11 +881,9 @@ export default {
       "masked": "The sea is relatively shallow over the ____.",
       "options": [
         "shelf-mcq-08",
-        "shelf-mcq-07",
-        "shelf-mcq-09",
-        "shelf-mcq-06",
-        "shelf-mcq-10",
-        "shelf-mcq-05"
+        "shelf-mcq-21",
+        "shelf-mcq-13",
+        "shelf-mcq-16"
       ],
       "explanation": "本句的「continental shelf」指「大陸架」。",
       "sentenceIndex": 15,
@@ -954,12 +892,10 @@ export default {
         "continental shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-08": "本句指「大陸架」。",
-        "shelf-mcq-07": "「岩架」與本句語境不同。",
-        "shelf-mcq-09": "「冰架」與本句語境不同。",
-        "shelf-mcq-06": "「把 X 放上架」與本句語境不同。",
-        "shelf-mcq-10": "「保存期限」與本句語境不同。",
-        "shelf-mcq-05": "「從架上拿下 X」與本句語境不同。"
+        "shelf-mcq-08": "本句的「continental shelf」指「大陸架」。",
+        "shelf-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-08"
     },
@@ -971,11 +907,9 @@ export default {
       "masked": "Oil deposits can be found beneath the ____.",
       "options": [
         "shelf-mcq-08",
-        "shelf-mcq-07",
-        "shelf-mcq-09",
-        "shelf-mcq-06",
-        "shelf-mcq-10",
-        "shelf-mcq-05"
+        "shelf-mcq-21",
+        "shelf-mcq-11",
+        "shelf-mcq-12"
       ],
       "explanation": "本句的「continental shelf」指「大陸架」。",
       "sentenceIndex": 16,
@@ -984,12 +918,10 @@ export default {
         "continental shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-08": "本句指「大陸架」。",
-        "shelf-mcq-07": "「岩架」與本句語境不同。",
-        "shelf-mcq-09": "「冰架」與本句語境不同。",
-        "shelf-mcq-06": "「把 X 放上架」與本句語境不同。",
-        "shelf-mcq-10": "「保存期限」與本句語境不同。",
-        "shelf-mcq-05": "「從架上拿下 X」與本句語境不同。"
+        "shelf-mcq-08": "本句的「continental shelf」指「大陸架」。",
+        "shelf-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-08"
     },
@@ -1001,11 +933,9 @@ export default {
       "masked": "Scientists are monitoring the Antarctic ____.",
       "options": [
         "shelf-mcq-09",
-        "shelf-mcq-08",
-        "shelf-mcq-10",
-        "shelf-mcq-07",
         "shelf-mcq-11",
-        "shelf-mcq-06"
+        "shelf-mcq-21",
+        "shelf-mcq-10"
       ],
       "explanation": "本句的「ice shelf」指「冰架」。",
       "sentenceIndex": 17,
@@ -1014,12 +944,10 @@ export default {
         "ice shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-09": "本句指「冰架」。",
-        "shelf-mcq-08": "「大陸架」與本句語境不同。",
-        "shelf-mcq-10": "「保存期限」與本句語境不同。",
-        "shelf-mcq-07": "「岩架」與本句語境不同。",
-        "shelf-mcq-11": "「有效期／流行期」與本句語境不同。",
-        "shelf-mcq-06": "「把 X 放上架」與本句語境不同。"
+        "shelf-mcq-09": "本句的「ice shelf」指「冰架」。",
+        "shelf-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-09"
     },
@@ -1031,11 +959,9 @@ export default {
       "masked": "Part of the ____ broke away.",
       "options": [
         "shelf-mcq-09",
-        "shelf-mcq-08",
-        "shelf-mcq-10",
-        "shelf-mcq-07",
-        "shelf-mcq-11",
-        "shelf-mcq-06"
+        "shelf-mcq-16",
+        "shelf-mcq-21",
+        "shelf-mcq-10"
       ],
       "explanation": "本句的「ice shelf」指「冰架」。",
       "sentenceIndex": 18,
@@ -1044,12 +970,10 @@ export default {
         "ice shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-09": "本句指「冰架」。",
-        "shelf-mcq-08": "「大陸架」與本句語境不同。",
-        "shelf-mcq-10": "「保存期限」與本句語境不同。",
-        "shelf-mcq-07": "「岩架」與本句語境不同。",
-        "shelf-mcq-11": "「有效期／流行期」與本句語境不同。",
-        "shelf-mcq-06": "「把 X 放上架」與本句語境不同。"
+        "shelf-mcq-09": "本句的「ice shelf」指「冰架」。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-09"
     },
@@ -1061,11 +985,9 @@ export default {
       "masked": "Fresh milk has a short ____.",
       "options": [
         "shelf-mcq-10",
-        "shelf-mcq-09",
-        "shelf-mcq-11",
-        "shelf-mcq-08",
-        "shelf-mcq-12",
-        "shelf-mcq-07"
+        "shelf-mcq-04",
+        "shelf-mcq-19",
+        "shelf-mcq-13"
       ],
       "explanation": "本句的「shelf life」指「保存期限」。",
       "sentenceIndex": 19,
@@ -1074,12 +996,10 @@ export default {
         "shelf life"
       ],
       "optionReasons": {
-        "shelf-mcq-10": "本句指「保存期限」。",
-        "shelf-mcq-09": "「冰架」與本句語境不同。",
-        "shelf-mcq-11": "「有效期／流行期」與本句語境不同。",
-        "shelf-mcq-08": "「大陸架」與本句語境不同。",
-        "shelf-mcq-12": "「可常溫保存的」與本句語境不同。",
-        "shelf-mcq-07": "「岩架」與本句語境不同。"
+        "shelf-mcq-10": "本句的「shelf life」指「保存期限」。",
+        "shelf-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-10"
     },
@@ -1091,11 +1011,9 @@ export default {
       "masked": "Packaging can extend a product's ____.",
       "options": [
         "shelf-mcq-10",
-        "shelf-mcq-09",
-        "shelf-mcq-11",
-        "shelf-mcq-08",
-        "shelf-mcq-12",
-        "shelf-mcq-07"
+        "shelf-mcq-17",
+        "shelf-mcq-18",
+        "shelf-mcq-16"
       ],
       "explanation": "本句的「shelf life」指「保存期限」。",
       "sentenceIndex": 20,
@@ -1104,12 +1022,10 @@ export default {
         "shelf life"
       ],
       "optionReasons": {
-        "shelf-mcq-10": "本句指「保存期限」。",
-        "shelf-mcq-09": "「冰架」與本句語境不同。",
-        "shelf-mcq-11": "「有效期／流行期」與本句語境不同。",
-        "shelf-mcq-08": "「大陸架」與本句語境不同。",
-        "shelf-mcq-12": "「可常溫保存的」與本句語境不同。",
-        "shelf-mcq-07": "「岩架」與本句語境不同。"
+        "shelf-mcq-10": "本句的「shelf life」指「保存期限」。",
+        "shelf-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-10"
     },
@@ -1121,11 +1037,9 @@ export default {
       "masked": "Some technology products have a very short ____.",
       "options": [
         "shelf-mcq-11",
-        "shelf-mcq-10",
-        "shelf-mcq-12",
-        "shelf-mcq-09",
-        "shelf-mcq-13",
-        "shelf-mcq-08"
+        "shelf-mcq-14",
+        "shelf-mcq-19",
+        "shelf-mcq-12"
       ],
       "explanation": "本句的「shelf life」指「有效期／流行期」。",
       "sentenceIndex": 21,
@@ -1134,12 +1048,10 @@ export default {
         "shelf life"
       ],
       "optionReasons": {
-        "shelf-mcq-11": "本句指「有效期／流行期」。",
-        "shelf-mcq-10": "「保存期限」與本句語境不同。",
-        "shelf-mcq-12": "「可常溫保存的」與本句語境不同。",
-        "shelf-mcq-09": "「冰架」與本句語境不同。",
-        "shelf-mcq-13": "「現成的」與本句語境不同。",
-        "shelf-mcq-08": "「大陸架」與本句語境不同。"
+        "shelf-mcq-11": "本句的「shelf life」指「有效期／流行期」。",
+        "shelf-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-11"
     },
@@ -1151,11 +1063,9 @@ export default {
       "masked": "Online trends often have a short ____.",
       "options": [
         "shelf-mcq-11",
-        "shelf-mcq-10",
-        "shelf-mcq-12",
-        "shelf-mcq-09",
+        "shelf-mcq-05",
         "shelf-mcq-13",
-        "shelf-mcq-08"
+        "shelf-mcq-19"
       ],
       "explanation": "本句的「shelf life」指「有效期／流行期」。",
       "sentenceIndex": 22,
@@ -1164,12 +1074,10 @@ export default {
         "shelf life"
       ],
       "optionReasons": {
-        "shelf-mcq-11": "本句指「有效期／流行期」。",
-        "shelf-mcq-10": "「保存期限」與本句語境不同。",
-        "shelf-mcq-12": "「可常溫保存的」與本句語境不同。",
-        "shelf-mcq-09": "「冰架」與本句語境不同。",
-        "shelf-mcq-13": "「現成的」與本句語境不同。",
-        "shelf-mcq-08": "「大陸架」與本句語境不同。"
+        "shelf-mcq-11": "本句的「shelf life」指「有效期／流行期」。",
+        "shelf-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-11"
     },
@@ -1181,11 +1089,9 @@ export default {
       "masked": "These drinks are ____.",
       "options": [
         "shelf-mcq-12",
-        "shelf-mcq-11",
-        "shelf-mcq-13",
-        "shelf-mcq-10",
-        "shelf-mcq-14",
-        "shelf-mcq-09"
+        "shelf-mcq-20",
+        "shelf-mcq-18",
+        "shelf-mcq-11"
       ],
       "explanation": "本句的「shelf-stable」指「可常溫保存的」。",
       "sentenceIndex": 23,
@@ -1194,12 +1100,10 @@ export default {
         "shelf-stable"
       ],
       "optionReasons": {
-        "shelf-mcq-12": "本句指「可常溫保存的」。",
-        "shelf-mcq-11": "「有效期／流行期」與本句語境不同。",
-        "shelf-mcq-13": "「現成的」與本句語境不同。",
-        "shelf-mcq-10": "「保存期限」與本句語境不同。",
-        "shelf-mcq-14": "「上架出售」與本句語境不同。",
-        "shelf-mcq-09": "「冰架」與本句語境不同。"
+        "shelf-mcq-12": "本句的「shelf-stable」指「可常溫保存的」。",
+        "shelf-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-12"
     },
@@ -1211,11 +1115,9 @@ export default {
       "masked": "____ does not need refrigeration before opening.",
       "options": [
         "shelf-mcq-12",
-        "shelf-mcq-11",
+        "shelf-mcq-05",
         "shelf-mcq-13",
-        "shelf-mcq-10",
-        "shelf-mcq-14",
-        "shelf-mcq-09"
+        "shelf-mcq-21"
       ],
       "explanation": "本句的「Shelf-stable food」指「可常溫保存的」。",
       "sentenceIndex": 24,
@@ -1224,12 +1126,10 @@ export default {
         "Shelf-stable food"
       ],
       "optionReasons": {
-        "shelf-mcq-12": "本句指「可常溫保存的」。",
-        "shelf-mcq-11": "「有效期／流行期」與本句語境不同。",
-        "shelf-mcq-13": "「現成的」與本句語境不同。",
-        "shelf-mcq-10": "「保存期限」與本句語境不同。",
-        "shelf-mcq-14": "「上架出售」與本句語境不同。",
-        "shelf-mcq-09": "「冰架」與本句語境不同。"
+        "shelf-mcq-12": "本句的「Shelf-stable food」指「可常溫保存的」。",
+        "shelf-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-12"
     },
@@ -1241,11 +1141,9 @@ export default {
       "masked": "We bought an ____.",
       "options": [
         "shelf-mcq-13",
+        "shelf-mcq-19",
         "shelf-mcq-12",
-        "shelf-mcq-14",
-        "shelf-mcq-11",
-        "shelf-mcq-15",
-        "shelf-mcq-10"
+        "shelf-mcq-16"
       ],
       "explanation": "本句的「off-the-shelf software package」指「現成的」。",
       "sentenceIndex": 25,
@@ -1254,12 +1152,10 @@ export default {
         "off-the-shelf software package"
       ],
       "optionReasons": {
-        "shelf-mcq-13": "本句指「現成的」。",
-        "shelf-mcq-12": "「可常溫保存的」與本句語境不同。",
-        "shelf-mcq-14": "「上架出售」與本句語境不同。",
-        "shelf-mcq-11": "「有效期／流行期」與本句語境不同。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。",
-        "shelf-mcq-10": "「保存期限」與本句語境不同。"
+        "shelf-mcq-13": "本句的「off-the-shelf software package」指「現成的」。",
+        "shelf-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-13"
     },
@@ -1271,11 +1167,9 @@ export default {
       "masked": "An ____ was cheaper than building one from scratch.",
       "options": [
         "shelf-mcq-13",
-        "shelf-mcq-12",
-        "shelf-mcq-14",
         "shelf-mcq-11",
-        "shelf-mcq-15",
-        "shelf-mcq-10"
+        "shelf-mcq-09",
+        "shelf-mcq-19"
       ],
       "explanation": "本句的「off-the-shelf solution」指「現成的」。",
       "sentenceIndex": 26,
@@ -1284,12 +1178,10 @@ export default {
         "off-the-shelf solution"
       ],
       "optionReasons": {
-        "shelf-mcq-13": "本句指「現成的」。",
-        "shelf-mcq-12": "「可常溫保存的」與本句語境不同。",
-        "shelf-mcq-14": "「上架出售」與本句語境不同。",
-        "shelf-mcq-11": "「有效期／流行期」與本句語境不同。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。",
-        "shelf-mcq-10": "「保存期限」與本句語境不同。"
+        "shelf-mcq-13": "本句的「off-the-shelf solution」指「現成的」。",
+        "shelf-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-13"
     },
@@ -1301,11 +1193,9 @@ export default {
       "masked": "The equipment can be bought ____.",
       "options": [
         "shelf-mcq-13",
-        "shelf-mcq-12",
         "shelf-mcq-14",
-        "shelf-mcq-11",
-        "shelf-mcq-15",
-        "shelf-mcq-10"
+        "shelf-mcq-16",
+        "shelf-mcq-19"
       ],
       "explanation": "本句的「off the shelf」指「現成的」。",
       "sentenceIndex": 27,
@@ -1314,12 +1204,10 @@ export default {
         "off the shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-13": "本句指「現成的」。",
-        "shelf-mcq-12": "「可常溫保存的」與本句語境不同。",
-        "shelf-mcq-14": "「上架出售」與本句語境不同。",
-        "shelf-mcq-11": "「有效期／流行期」與本句語境不同。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。",
-        "shelf-mcq-10": "「保存期限」與本句語境不同。"
+        "shelf-mcq-13": "本句的「off the shelf」指「現成的」。",
+        "shelf-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-13"
     },
@@ -1331,11 +1219,9 @@ export default {
       "masked": "We chose a system available ____.",
       "options": [
         "shelf-mcq-13",
-        "shelf-mcq-12",
-        "shelf-mcq-14",
+        "shelf-mcq-01",
         "shelf-mcq-11",
-        "shelf-mcq-15",
-        "shelf-mcq-10"
+        "shelf-mcq-16"
       ],
       "explanation": "本句的「off the shelf」指「現成的」。",
       "sentenceIndex": 28,
@@ -1344,12 +1230,10 @@ export default {
         "off the shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-13": "本句指「現成的」。",
-        "shelf-mcq-12": "「可常溫保存的」與本句語境不同。",
-        "shelf-mcq-14": "「上架出售」與本句語境不同。",
-        "shelf-mcq-11": "「有效期／流行期」與本句語境不同。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。",
-        "shelf-mcq-10": "「保存期限」與本句語境不同。"
+        "shelf-mcq-13": "本句的「off the shelf」指「現成的」。",
+        "shelf-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-13"
     },
@@ -1361,11 +1245,9 @@ export default {
       "masked": "The new product will be ____ next month.",
       "options": [
         "shelf-mcq-14",
-        "shelf-mcq-13",
-        "shelf-mcq-15",
-        "shelf-mcq-12",
         "shelf-mcq-16",
-        "shelf-mcq-11"
+        "shelf-mcq-10",
+        "shelf-mcq-18"
       ],
       "explanation": "本句的「on the shelves」指「上架出售」。",
       "sentenceIndex": 29,
@@ -1374,12 +1256,10 @@ export default {
         "on the shelves"
       ],
       "optionReasons": {
-        "shelf-mcq-14": "本句指「上架出售」。",
-        "shelf-mcq-13": "「現成的」與本句語境不同。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。",
-        "shelf-mcq-12": "「可常溫保存的」與本句語境不同。",
-        "shelf-mcq-16": "「搶購一空」與本句語境不同。",
-        "shelf-mcq-11": "「有效期／流行期」與本句語境不同。"
+        "shelf-mcq-14": "本句的「on the shelves」指「上架出售」。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-14"
     },
@@ -1391,11 +1271,9 @@ export default {
       "masked": "The book appeared ____ this week.",
       "options": [
         "shelf-mcq-14",
-        "shelf-mcq-13",
-        "shelf-mcq-15",
-        "shelf-mcq-12",
+        "shelf-mcq-21",
         "shelf-mcq-16",
-        "shelf-mcq-11"
+        "shelf-mcq-10"
       ],
       "explanation": "本句的「on store shelves」指「上架出售」。",
       "sentenceIndex": 30,
@@ -1404,12 +1282,10 @@ export default {
         "on store shelves"
       ],
       "optionReasons": {
-        "shelf-mcq-14": "本句指「上架出售」。",
-        "shelf-mcq-13": "「現成的」與本句語境不同。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。",
-        "shelf-mcq-12": "「可常溫保存的」與本句語境不同。",
-        "shelf-mcq-16": "「搶購一空」與本句語境不同。",
-        "shelf-mcq-11": "「有效期／流行期」與本句語境不同。"
+        "shelf-mcq-14": "本句的「on store shelves」指「上架出售」。",
+        "shelf-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-14"
     },
@@ -1421,11 +1297,9 @@ export default {
       "masked": "The new book ____ next week.",
       "options": [
         "shelf-mcq-15",
-        "shelf-mcq-14",
-        "shelf-mcq-16",
+        "shelf-mcq-21",
         "shelf-mcq-13",
-        "shelf-mcq-17",
-        "shelf-mcq-12"
+        "shelf-mcq-10"
       ],
       "explanation": "本句的「hits the shelves」指「正式上架」。",
       "sentenceIndex": 31,
@@ -1434,12 +1308,10 @@ export default {
         "hits the shelves"
       ],
       "optionReasons": {
-        "shelf-mcq-15": "本句指「正式上架」。",
-        "shelf-mcq-14": "「上架出售」與本句語境不同。",
-        "shelf-mcq-16": "「搶購一空」與本句語境不同。",
-        "shelf-mcq-13": "「現成的」與本句語境不同。",
-        "shelf-mcq-17": "「把書放上架」與本句語境不同。",
-        "shelf-mcq-12": "「可常溫保存的」與本句語境不同。"
+        "shelf-mcq-15": "本句的「hits the shelves」指「正式上架」。",
+        "shelf-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-15"
     },
@@ -1451,11 +1323,9 @@ export default {
       "masked": "The product ____ in June.",
       "options": [
         "shelf-mcq-15",
-        "shelf-mcq-14",
+        "shelf-mcq-11",
         "shelf-mcq-16",
-        "shelf-mcq-13",
-        "shelf-mcq-17",
-        "shelf-mcq-12"
+        "shelf-mcq-13"
       ],
       "explanation": "本句的「hit the shelves」指「正式上架」。",
       "sentenceIndex": 32,
@@ -1464,12 +1334,10 @@ export default {
         "hit the shelves"
       ],
       "optionReasons": {
-        "shelf-mcq-15": "本句指「正式上架」。",
-        "shelf-mcq-14": "「上架出售」與本句語境不同。",
-        "shelf-mcq-16": "「搶購一空」與本句語境不同。",
-        "shelf-mcq-13": "「現成的」與本句語境不同。",
-        "shelf-mcq-17": "「把書放上架」與本句語境不同。",
-        "shelf-mcq-12": "「可常溫保存的」與本句語境不同。"
+        "shelf-mcq-15": "本句的「hit the shelves」指「正式上架」。",
+        "shelf-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-15"
     },
@@ -1481,11 +1349,9 @@ export default {
       "masked": "The new toys ____.",
       "options": [
         "shelf-mcq-16",
-        "shelf-mcq-15",
-        "shelf-mcq-17",
         "shelf-mcq-14",
-        "shelf-mcq-18",
-        "shelf-mcq-13"
+        "shelf-mcq-11",
+        "shelf-mcq-10"
       ],
       "explanation": "本句的「flew off the shelves」指「搶購一空」。",
       "sentenceIndex": 33,
@@ -1494,12 +1360,10 @@ export default {
         "flew off the shelves"
       ],
       "optionReasons": {
-        "shelf-mcq-16": "本句指「搶購一空」。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。",
-        "shelf-mcq-17": "「把書放上架」與本句語境不同。",
-        "shelf-mcq-14": "「上架出售」與本句語境不同。",
-        "shelf-mcq-18": "「擱置計劃」與本句語境不同。",
-        "shelf-mcq-13": "「現成的」與本句語境不同。"
+        "shelf-mcq-16": "本句的「flew off the shelves」指「搶購一空」。",
+        "shelf-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-16"
     },
@@ -1511,11 +1375,9 @@ export default {
       "masked": "The book has been ____.",
       "options": [
         "shelf-mcq-16",
-        "shelf-mcq-15",
         "shelf-mcq-17",
-        "shelf-mcq-14",
-        "shelf-mcq-18",
-        "shelf-mcq-13"
+        "shelf-mcq-21",
+        "shelf-mcq-11"
       ],
       "explanation": "本句的「flying off the shelves」指「搶購一空」。",
       "sentenceIndex": 34,
@@ -1524,12 +1386,10 @@ export default {
         "flying off the shelves"
       ],
       "optionReasons": {
-        "shelf-mcq-16": "本句指「搶購一空」。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。",
-        "shelf-mcq-17": "「把書放上架」與本句語境不同。",
-        "shelf-mcq-14": "「上架出售」與本句語境不同。",
-        "shelf-mcq-18": "「擱置計劃」與本句語境不同。",
-        "shelf-mcq-13": "「現成的」與本句語境不同。"
+        "shelf-mcq-16": "本句的「flying off the shelves」指「搶購一空」。",
+        "shelf-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-16"
     },
@@ -1541,11 +1401,9 @@ export default {
       "masked": "She ____ alphabetically.",
       "options": [
         "shelf-mcq-17",
-        "shelf-mcq-16",
-        "shelf-mcq-18",
-        "shelf-mcq-15",
-        "shelf-mcq-19",
-        "shelf-mcq-14"
+        "shelf-mcq-21",
+        "shelf-mcq-11",
+        "shelf-mcq-12"
       ],
       "explanation": "本句的「shelved the books」指「把書放上架」。",
       "sentenceIndex": 35,
@@ -1554,12 +1412,10 @@ export default {
         "shelved the books"
       ],
       "optionReasons": {
-        "shelf-mcq-17": "本句指「把書放上架」。",
-        "shelf-mcq-16": "「搶購一空」與本句語境不同。",
-        "shelf-mcq-18": "「擱置計劃」與本句語境不同。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。",
-        "shelf-mcq-19": "「被擱置」與本句語境不同。",
-        "shelf-mcq-14": "「上架出售」與本句語境不同。"
+        "shelf-mcq-17": "本句的「shelved the books」指「把書放上架」。",
+        "shelf-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-17"
     },
@@ -1571,11 +1427,9 @@ export default {
       "masked": "The librarian ____.",
       "options": [
         "shelf-mcq-17",
-        "shelf-mcq-16",
+        "shelf-mcq-13",
         "shelf-mcq-18",
-        "shelf-mcq-15",
-        "shelf-mcq-19",
-        "shelf-mcq-14"
+        "shelf-mcq-12"
       ],
       "explanation": "本句的「shelved the returned books」指「把書放上架」。",
       "sentenceIndex": 36,
@@ -1584,12 +1438,10 @@ export default {
         "shelved the returned books"
       ],
       "optionReasons": {
-        "shelf-mcq-17": "本句指「把書放上架」。",
-        "shelf-mcq-16": "「搶購一空」與本句語境不同。",
-        "shelf-mcq-18": "「擱置計劃」與本句語境不同。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。",
-        "shelf-mcq-19": "「被擱置」與本句語境不同。",
-        "shelf-mcq-14": "「上架出售」與本句語境不同。"
+        "shelf-mcq-17": "本句的「shelved the returned books」指「把書放上架」。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-17"
     },
@@ -1601,11 +1453,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "shelf-mcq-18",
-        "shelf-mcq-17",
-        "shelf-mcq-19",
-        "shelf-mcq-16",
-        "shelf-mcq-20",
-        "shelf-mcq-15"
+        "shelf-mcq-06",
+        "shelf-mcq-13",
+        "shelf-mcq-12"
       ],
       "explanation": "本句的「shelved the plan」指「擱置計劃」。",
       "sentenceIndex": 37,
@@ -1614,12 +1464,10 @@ export default {
         "shelved the plan"
       ],
       "optionReasons": {
-        "shelf-mcq-18": "本句指「擱置計劃」。",
-        "shelf-mcq-17": "「把書放上架」與本句語境不同。",
-        "shelf-mcq-19": "「被擱置」與本句語境不同。",
-        "shelf-mcq-16": "「搶購一空」與本句語境不同。",
-        "shelf-mcq-20": "「層架系統」與本句語境不同。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。"
+        "shelf-mcq-18": "本句的「shelved the plan」指「擱置計劃」。",
+        "shelf-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-18"
     },
@@ -1631,11 +1479,9 @@ export default {
       "masked": "They decided to ____ until next year.",
       "options": [
         "shelf-mcq-18",
-        "shelf-mcq-17",
-        "shelf-mcq-19",
-        "shelf-mcq-16",
-        "shelf-mcq-20",
-        "shelf-mcq-15"
+        "shelf-mcq-10",
+        "shelf-mcq-09",
+        "shelf-mcq-16"
       ],
       "explanation": "本句的「shelve the project」指「擱置計劃」。",
       "sentenceIndex": 38,
@@ -1644,12 +1490,10 @@ export default {
         "shelve the project"
       ],
       "optionReasons": {
-        "shelf-mcq-18": "本句指「擱置計劃」。",
-        "shelf-mcq-17": "「把書放上架」與本句語境不同。",
-        "shelf-mcq-19": "「被擱置」與本句語境不同。",
-        "shelf-mcq-16": "「搶購一空」與本句語境不同。",
-        "shelf-mcq-20": "「層架系統」與本句語境不同。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。"
+        "shelf-mcq-18": "本句的「shelve the project」指「擱置計劃」。",
+        "shelf-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-18"
     },
@@ -1661,11 +1505,9 @@ export default {
       "masked": "The proposal was ____ after the meeting.",
       "options": [
         "shelf-mcq-19",
-        "shelf-mcq-18",
-        "shelf-mcq-20",
-        "shelf-mcq-17",
-        "shelf-mcq-16",
-        "shelf-mcq-15"
+        "shelf-mcq-14",
+        "shelf-mcq-13",
+        "shelf-mcq-12"
       ],
       "explanation": "本句的「shelved」指「被擱置」。",
       "sentenceIndex": 39,
@@ -1674,12 +1516,10 @@ export default {
         "shelved"
       ],
       "optionReasons": {
-        "shelf-mcq-19": "本句指「被擱置」。",
-        "shelf-mcq-18": "「擱置計劃」與本句語境不同。",
-        "shelf-mcq-20": "「層架系統」與本句語境不同。",
-        "shelf-mcq-17": "「把書放上架」與本句語境不同。",
-        "shelf-mcq-16": "「搶購一空」與本句語境不同。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。"
+        "shelf-mcq-19": "本句的「shelved」指「被擱置」。",
+        "shelf-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-19"
     },
@@ -1691,11 +1531,9 @@ export default {
       "masked": "The film project was ____ for several years.",
       "options": [
         "shelf-mcq-19",
-        "shelf-mcq-18",
-        "shelf-mcq-20",
-        "shelf-mcq-17",
-        "shelf-mcq-16",
-        "shelf-mcq-15"
+        "shelf-mcq-03",
+        "shelf-mcq-11",
+        "shelf-mcq-16"
       ],
       "explanation": "本句的「shelved」指「被擱置」。",
       "sentenceIndex": 40,
@@ -1704,12 +1542,10 @@ export default {
         "shelved"
       ],
       "optionReasons": {
-        "shelf-mcq-19": "本句指「被擱置」。",
-        "shelf-mcq-18": "「擱置計劃」與本句語境不同。",
-        "shelf-mcq-20": "「層架系統」與本句語境不同。",
-        "shelf-mcq-17": "「把書放上架」與本句語境不同。",
-        "shelf-mcq-16": "「搶購一空」與本句語境不同。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。"
+        "shelf-mcq-19": "本句的「shelved」指「被擱置」。",
+        "shelf-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-19"
     },
@@ -1721,11 +1557,9 @@ export default {
       "masked": "We installed new ____ in the study.",
       "options": [
         "shelf-mcq-20",
-        "shelf-mcq-19",
-        "shelf-mcq-18",
-        "shelf-mcq-17",
+        "shelf-mcq-21",
         "shelf-mcq-16",
-        "shelf-mcq-15"
+        "shelf-mcq-10"
       ],
       "explanation": "本句的「shelving」指「層架系統」。",
       "sentenceIndex": 41,
@@ -1734,12 +1568,10 @@ export default {
         "shelving"
       ],
       "optionReasons": {
-        "shelf-mcq-20": "本句指「層架系統」。",
-        "shelf-mcq-19": "「被擱置」與本句語境不同。",
-        "shelf-mcq-18": "「擱置計劃」與本句語境不同。",
-        "shelf-mcq-17": "「把書放上架」與本句語境不同。",
-        "shelf-mcq-16": "「搶購一空」與本句語境不同。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。"
+        "shelf-mcq-20": "本句的「shelving」指「層架系統」。",
+        "shelf-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-20"
     },
@@ -1751,11 +1583,9 @@ export default {
       "masked": "Adjustable ____ makes the cupboard more useful.",
       "options": [
         "shelf-mcq-20",
-        "shelf-mcq-19",
-        "shelf-mcq-18",
-        "shelf-mcq-17",
+        "shelf-mcq-10",
         "shelf-mcq-16",
-        "shelf-mcq-15"
+        "shelf-mcq-13"
       ],
       "explanation": "本句的「shelving」指「層架系統」。",
       "sentenceIndex": 42,
@@ -1764,12 +1594,10 @@ export default {
         "shelving"
       ],
       "optionReasons": {
-        "shelf-mcq-20": "本句指「層架系統」。",
-        "shelf-mcq-19": "「被擱置」與本句語境不同。",
-        "shelf-mcq-18": "「擱置計劃」與本句語境不同。",
-        "shelf-mcq-17": "「把書放上架」與本句語境不同。",
-        "shelf-mcq-16": "「搶購一空」與本句語境不同。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。"
+        "shelf-mcq-20": "本句的「shelving」指「層架系統」。",
+        "shelf-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-20"
     },
@@ -1781,11 +1609,9 @@ export default {
       "masked": "The idea stayed ____ for years.",
       "options": [
         "shelf-mcq-21",
-        "shelf-mcq-20",
-        "shelf-mcq-18",
-        "shelf-mcq-17",
+        "shelf-mcq-02",
         "shelf-mcq-16",
-        "shelf-mcq-15"
+        "shelf-mcq-11"
       ],
       "explanation": "本句的「on the shelf」指「被擱置」。",
       "sentenceIndex": 43,
@@ -1794,12 +1620,10 @@ export default {
         "on the shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-21": "本句指「被擱置」。",
-        "shelf-mcq-20": "「層架系統」與本句語境不同。",
-        "shelf-mcq-18": "「擱置計劃」與本句語境不同。",
-        "shelf-mcq-17": "「把書放上架」與本句語境不同。",
-        "shelf-mcq-16": "「搶購一空」與本句語境不同。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。"
+        "shelf-mcq-21": "本句的「on the shelf」指「被擱置」。",
+        "shelf-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-21"
     },
@@ -1811,11 +1635,9 @@ export default {
       "masked": "Several completed projects were left ____.",
       "options": [
         "shelf-mcq-21",
-        "shelf-mcq-20",
-        "shelf-mcq-18",
-        "shelf-mcq-17",
         "shelf-mcq-16",
-        "shelf-mcq-15"
+        "shelf-mcq-03",
+        "shelf-mcq-11"
       ],
       "explanation": "本句的「on the shelf」指「被擱置」。",
       "sentenceIndex": 44,
@@ -1824,12 +1646,10 @@ export default {
         "on the shelf"
       ],
       "optionReasons": {
-        "shelf-mcq-21": "本句指「被擱置」。",
-        "shelf-mcq-20": "「層架系統」與本句語境不同。",
-        "shelf-mcq-18": "「擱置計劃」與本句語境不同。",
-        "shelf-mcq-17": "「把書放上架」與本句語境不同。",
-        "shelf-mcq-16": "「搶購一空」與本句語境不同。",
-        "shelf-mcq-15": "「正式上架」與本句語境不同。"
+        "shelf-mcq-21": "本句的「on the shelf」指「被擱置」。",
+        "shelf-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shelf-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shelf-mcq-21"
     }
@@ -1841,5 +1661,7 @@ export default {
     "sha256": "a3eda4f6754764ff3217b8961fd71b5ffe92ce2195c624c64a6d81f1467f9c06",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -537,16 +537,6 @@ export default {
           "Universities support intellectual pursuits beyond immediate commercial value.",
           "大學支持不一定具有即時商業價值的學術／智性追求。",
           "智性追求"
-        ],
-        [
-          "She devoted more time to creative pursuits.",
-          "她投入更多時間於創意活動。",
-          "智性追求"
-        ],
-        [
-          "Artistic pursuits can provide a sense of fulfilment.",
-          "藝術活動可以帶來滿足感。",
-          "智性追求"
         ]
       ],
       "options": [],
@@ -1027,16 +1017,6 @@ export default {
           "Several vehicles joined the pursuit.",
           "數輛車加入了追捕行動。",
           "追趕／追捕某人"
-        ],
-        [
-          "He pursued her romantically for several months.",
-          "他追求她好幾個月。",
-          "追趕／追捕某人"
-        ],
-        [
-          "She made it clear that she did not want to be pursued.",
-          "她清楚表示不希望對方繼續追求她。",
-          "追趕／追捕某人"
         ]
       ],
       "options": [],
@@ -1455,6 +1435,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "pursue-reviewed-0c9a25c6e5",
+      "title": "藝術／創意活動",
+      "form": "pursue · source section 26",
+      "en": "藝術／創意活動",
+      "zh": "藝術／創意活動",
+      "note": "對照原始教材第 26 節及例句核實。",
+      "examples": [
+        [
+          "She devoted more time to creative pursuits.",
+          "她投入更多時間於創意活動。",
+          "藝術／創意活動"
+        ],
+        [
+          "Artistic pursuits can provide a sense of fulfilment.",
+          "藝術活動可以帶來滿足感。",
+          "藝術／創意活動"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "pursue-reviewed-a0fcd3245f",
+      "title": "積極向某人示愛，希望與對方建立戀愛關係",
+      "form": "pursue · source section 58",
+      "en": "積極向某人示愛，希望與對方建立戀愛關係",
+      "zh": "積極向某人示愛，希望與對方建立戀愛關係",
+      "note": "對照原始教材第 58 節及例句核實。",
+      "examples": [
+        [
+          "He pursued her romantically for several months.",
+          "他追求她好幾個月。",
+          "積極向某人示愛，希望與對方建立戀愛關係"
+        ],
+        [
+          "She made it clear that she did not want to be pursued.",
+          "她清楚表示不希望對方繼續追求她。",
+          "積極向某人示愛，希望與對方建立戀愛關係"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1466,11 +1490,9 @@ export default {
       "masked": "People may defend pride rather than ____.",
       "options": [
         "pursue-mcq-01",
-        "pursue-mcq-02",
-        "pursue-mcq-03",
-        "pursue-mcq-04",
-        "pursue-mcq-05",
-        "pursue-mcq-06"
+        "pursue-mcq-21",
+        "pursue-mcq-39",
+        "pursue-mcq-19"
       ],
       "explanation": "本句的「pursue results」指「追求目標」。",
       "sentenceIndex": 0,
@@ -1479,12 +1501,10 @@ export default {
         "pursue results"
       ],
       "optionReasons": {
-        "pursue-mcq-01": "本句指「追求目標」。",
-        "pursue-mcq-02": "「追求目的」與本句語境不同。",
-        "pursue-mcq-03": "「追求具體目標」與本句語境不同。",
-        "pursue-mcq-04": "「追求成果」與本句語境不同。",
-        "pursue-mcq-05": "「追求成功」與本句語境不同。",
-        "pursue-mcq-06": "「追求卓越」與本句語境不同。"
+        "pursue-mcq-01": "本句的「pursue results」指「追求目標」。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-01"
     },
@@ -1496,11 +1516,9 @@ export default {
       "masked": "The team should ____.",
       "options": [
         "pursue-mcq-01",
-        "pursue-mcq-02",
-        "pursue-mcq-03",
-        "pursue-mcq-04",
-        "pursue-mcq-05",
-        "pursue-mcq-06"
+        "pursue-reviewed-a0fcd3245f",
+        "pursue-mcq-15",
+        "pursue-mcq-40"
       ],
       "explanation": "本句的「pursue a common objective」指「追求目標」。",
       "sentenceIndex": 1,
@@ -1509,12 +1527,10 @@ export default {
         "pursue a common objective"
       ],
       "optionReasons": {
-        "pursue-mcq-01": "本句指「追求目標」。",
-        "pursue-mcq-02": "「追求目的」與本句語境不同。",
-        "pursue-mcq-03": "「追求具體目標」與本句語境不同。",
-        "pursue-mcq-04": "「追求成果」與本句語境不同。",
-        "pursue-mcq-05": "「追求成功」與本句語境不同。",
-        "pursue-mcq-06": "「追求卓越」與本句語境不同。"
+        "pursue-mcq-01": "本句的「pursue a common objective」指「追求目標」。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-01"
     },
@@ -1526,11 +1542,9 @@ export default {
       "masked": "Different departments may ____ different aims.",
       "options": [
         "pursue-mcq-01",
-        "pursue-mcq-02",
-        "pursue-mcq-03",
-        "pursue-mcq-04",
-        "pursue-mcq-05",
-        "pursue-mcq-06"
+        "pursue-mcq-15",
+        "pursue-mcq-40",
+        "pursue-mcq-28"
       ],
       "explanation": "本句的「pursue」指「追求目標」。",
       "sentenceIndex": 2,
@@ -1539,12 +1553,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-01": "本句指「追求目標」。",
-        "pursue-mcq-02": "「追求目的」與本句語境不同。",
-        "pursue-mcq-03": "「追求具體目標」與本句語境不同。",
-        "pursue-mcq-04": "「追求成果」與本句語境不同。",
-        "pursue-mcq-05": "「追求成功」與本句語境不同。",
-        "pursue-mcq-06": "「追求卓越」與本句語境不同。"
+        "pursue-mcq-01": "本句的「pursue」指「追求目標」。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-01"
     },
@@ -1556,11 +1568,9 @@ export default {
       "masked": "Good leaders focus on ____, not protecting their egos.",
       "options": [
         "pursue-mcq-04",
-        "pursue-mcq-03",
-        "pursue-mcq-05",
-        "pursue-mcq-02",
-        "pursue-mcq-06",
-        "pursue-mcq-01"
+        "pursue-mcq-23",
+        "pursue-mcq-21",
+        "pursue-mcq-31"
       ],
       "explanation": "本句的「pursuing results」指「追求成果」。",
       "sentenceIndex": 3,
@@ -1569,12 +1579,10 @@ export default {
         "pursuing results"
       ],
       "optionReasons": {
-        "pursue-mcq-04": "本句指「追求成果」。",
-        "pursue-mcq-03": "「追求具體目標」與本句語境不同。",
-        "pursue-mcq-05": "「追求成功」與本句語境不同。",
-        "pursue-mcq-02": "「追求目的」與本句語境不同。",
-        "pursue-mcq-06": "「追求卓越」與本句語境不同。",
-        "pursue-mcq-01": "「追求目標」與本句語境不同。"
+        "pursue-mcq-04": "本句的「pursuing results」指「追求成果」。",
+        "pursue-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-04"
     },
@@ -1586,11 +1594,9 @@ export default {
       "masked": "Teams should ____ results that support the organisation's overall objective.",
       "options": [
         "pursue-mcq-04",
-        "pursue-mcq-03",
-        "pursue-mcq-05",
-        "pursue-mcq-02",
-        "pursue-mcq-06",
-        "pursue-mcq-01"
+        "pursue-mcq-40",
+        "pursue-mcq-18",
+        "pursue-mcq-20"
       ],
       "explanation": "本句的「pursue」指「追求成果」。",
       "sentenceIndex": 4,
@@ -1599,12 +1605,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-04": "本句指「追求成果」。",
-        "pursue-mcq-03": "「追求具體目標」與本句語境不同。",
-        "pursue-mcq-05": "「追求成功」與本句語境不同。",
-        "pursue-mcq-02": "「追求目的」與本句語境不同。",
-        "pursue-mcq-06": "「追求卓越」與本句語境不同。",
-        "pursue-mcq-01": "「追求目標」與本句語境不同。"
+        "pursue-mcq-04": "本句的「pursue」指「追求成果」。",
+        "pursue-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-04"
     },
@@ -1616,11 +1620,9 @@ export default {
       "masked": "She has spent years ____ in her field.",
       "options": [
         "pursue-mcq-05",
-        "pursue-mcq-04",
-        "pursue-mcq-06",
-        "pursue-mcq-03",
-        "pursue-mcq-07",
-        "pursue-mcq-02"
+        "pursue-reviewed-a0fcd3245f",
+        "pursue-mcq-28",
+        "pursue-mcq-38"
       ],
       "explanation": "本句的「pursuing success」指「追求成功」。",
       "sentenceIndex": 5,
@@ -1629,12 +1631,10 @@ export default {
         "pursuing success"
       ],
       "optionReasons": {
-        "pursue-mcq-05": "本句指「追求成功」。",
-        "pursue-mcq-04": "「追求成果」與本句語境不同。",
-        "pursue-mcq-06": "「追求卓越」與本句語境不同。",
-        "pursue-mcq-03": "「追求具體目標」與本句語境不同。",
-        "pursue-mcq-07": "「追求幸福」與本句語境不同。",
-        "pursue-mcq-02": "「追求目的」與本句語境不同。"
+        "pursue-mcq-05": "本句的「pursuing success」指「追求成功」。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-05"
     },
@@ -1646,11 +1646,9 @@ export default {
       "masked": "Success should not be ____ at any cost.",
       "options": [
         "pursue-mcq-05",
-        "pursue-mcq-04",
-        "pursue-mcq-06",
-        "pursue-mcq-03",
-        "pursue-mcq-07",
-        "pursue-mcq-02"
+        "pursue-mcq-26",
+        "pursue-mcq-19",
+        "pursue-mcq-16"
       ],
       "explanation": "本句的「pursued」指「追求成功」。",
       "sentenceIndex": 6,
@@ -1659,12 +1657,10 @@ export default {
         "pursued"
       ],
       "optionReasons": {
-        "pursue-mcq-05": "本句指「追求成功」。",
-        "pursue-mcq-04": "「追求成果」與本句語境不同。",
-        "pursue-mcq-06": "「追求卓越」與本句語境不同。",
-        "pursue-mcq-03": "「追求具體目標」與本句語境不同。",
-        "pursue-mcq-07": "「追求幸福」與本句語境不同。",
-        "pursue-mcq-02": "「追求目的」與本句語境不同。"
+        "pursue-mcq-05": "本句的「pursued」指「追求成功」。",
+        "pursue-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-05"
     },
@@ -1676,11 +1672,9 @@ export default {
       "masked": "The organisation encourages employees to ____.",
       "options": [
         "pursue-mcq-06",
-        "pursue-mcq-05",
-        "pursue-mcq-07",
-        "pursue-mcq-04",
-        "pursue-mcq-08",
-        "pursue-mcq-03"
+        "pursue-mcq-18",
+        "pursue-mcq-15",
+        "pursue-mcq-40"
       ],
       "explanation": "本句的「pursue excellence」指「追求卓越」。",
       "sentenceIndex": 7,
@@ -1689,12 +1683,10 @@ export default {
         "pursue excellence"
       ],
       "optionReasons": {
-        "pursue-mcq-06": "本句指「追求卓越」。",
-        "pursue-mcq-05": "「追求成功」與本句語境不同。",
-        "pursue-mcq-07": "「追求幸福」與本句語境不同。",
-        "pursue-mcq-04": "「追求成果」與本句語境不同。",
-        "pursue-mcq-08": "「追尋夢想」與本句語境不同。",
-        "pursue-mcq-03": "「追求具體目標」與本句語境不同。"
+        "pursue-mcq-06": "本句的「pursue excellence」指「追求卓越」。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-06"
     },
@@ -1706,11 +1698,9 @@ export default {
       "masked": "____ excellence does not require perfection.",
       "options": [
         "pursue-mcq-06",
-        "pursue-mcq-05",
-        "pursue-mcq-07",
-        "pursue-mcq-04",
-        "pursue-mcq-08",
-        "pursue-mcq-03"
+        "pursue-mcq-28",
+        "pursue-mcq-31",
+        "pursue-mcq-16"
       ],
       "explanation": "本句的「Pursuing」指「追求卓越」。",
       "sentenceIndex": 8,
@@ -1719,12 +1709,10 @@ export default {
         "Pursuing"
       ],
       "optionReasons": {
-        "pursue-mcq-06": "本句指「追求卓越」。",
-        "pursue-mcq-05": "「追求成功」與本句語境不同。",
-        "pursue-mcq-07": "「追求幸福」與本句語境不同。",
-        "pursue-mcq-04": "「追求成果」與本句語境不同。",
-        "pursue-mcq-08": "「追尋夢想」與本句語境不同。",
-        "pursue-mcq-03": "「追求具體目標」與本句語境不同。"
+        "pursue-mcq-06": "本句的「Pursuing」指「追求卓越」。",
+        "pursue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-06"
     },
@@ -1736,11 +1724,9 @@ export default {
       "masked": "People ____ happiness in different ways.",
       "options": [
         "pursue-mcq-07",
-        "pursue-mcq-06",
-        "pursue-mcq-08",
-        "pursue-mcq-05",
-        "pursue-mcq-09",
-        "pursue-mcq-04"
+        "pursue-mcq-17",
+        "pursue-mcq-38",
+        "pursue-mcq-39"
       ],
       "explanation": "本句的「pursue」指「追求幸福」。",
       "sentenceIndex": 9,
@@ -1749,12 +1735,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-07": "本句指「追求幸福」。",
-        "pursue-mcq-06": "「追求卓越」與本句語境不同。",
-        "pursue-mcq-08": "「追尋夢想」與本句語境不同。",
-        "pursue-mcq-05": "「追求成功」與本句語境不同。",
-        "pursue-mcq-09": "「追求抱負」與本句語境不同。",
-        "pursue-mcq-04": "「追求成果」與本句語境不同。"
+        "pursue-mcq-07": "本句的「pursue」指「追求幸福」。",
+        "pursue-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-07"
     },
@@ -1766,11 +1750,9 @@ export default {
       "masked": "Wealth is only one possible means of ____ happiness.",
       "options": [
         "pursue-mcq-07",
-        "pursue-mcq-06",
-        "pursue-mcq-08",
-        "pursue-mcq-05",
-        "pursue-mcq-09",
-        "pursue-mcq-04"
+        "pursue-mcq-16",
+        "pursue-mcq-21",
+        "pursue-mcq-31"
       ],
       "explanation": "本句的「pursuing」指「追求幸福」。",
       "sentenceIndex": 10,
@@ -1779,12 +1761,10 @@ export default {
         "pursuing"
       ],
       "optionReasons": {
-        "pursue-mcq-07": "本句指「追求幸福」。",
-        "pursue-mcq-06": "「追求卓越」與本句語境不同。",
-        "pursue-mcq-08": "「追尋夢想」與本句語境不同。",
-        "pursue-mcq-05": "「追求成功」與本句語境不同。",
-        "pursue-mcq-09": "「追求抱負」與本句語境不同。",
-        "pursue-mcq-04": "「追求成果」與本句語境不同。"
+        "pursue-mcq-07": "本句的「pursuing」指「追求幸福」。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-07"
     },
@@ -1796,11 +1776,9 @@ export default {
       "masked": "She left her job to ____ of becoming a writer.",
       "options": [
         "pursue-mcq-08",
-        "pursue-mcq-07",
-        "pursue-mcq-09",
-        "pursue-mcq-06",
-        "pursue-mcq-10",
-        "pursue-mcq-05"
+        "pursue-mcq-35",
+        "pursue-mcq-41",
+        "pursue-mcq-19"
       ],
       "explanation": "本句的「pursue her dream」指「追尋夢想」。",
       "sentenceIndex": 11,
@@ -1809,12 +1787,10 @@ export default {
         "pursue her dream"
       ],
       "optionReasons": {
-        "pursue-mcq-08": "本句指「追尋夢想」。",
-        "pursue-mcq-07": "「追求幸福」與本句語境不同。",
-        "pursue-mcq-09": "「追求抱負」與本句語境不同。",
-        "pursue-mcq-06": "「追求卓越」與本句語境不同。",
-        "pursue-mcq-10": "「爭取／尋求機會」與本句語境不同。",
-        "pursue-mcq-05": "「追求成功」與本句語境不同。"
+        "pursue-mcq-08": "本句的「pursue her dream」指「追尋夢想」。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-08"
     },
@@ -1826,11 +1802,9 @@ export default {
       "masked": "Young people should be encouraged to ____ their dreams realistically.",
       "options": [
         "pursue-mcq-08",
-        "pursue-mcq-07",
-        "pursue-mcq-09",
-        "pursue-mcq-06",
-        "pursue-mcq-10",
-        "pursue-mcq-05"
+        "pursue-mcq-38",
+        "pursue-mcq-16",
+        "pursue-mcq-20"
       ],
       "explanation": "本句的「pursue」指「追尋夢想」。",
       "sentenceIndex": 12,
@@ -1839,12 +1813,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-08": "本句指「追尋夢想」。",
-        "pursue-mcq-07": "「追求幸福」與本句語境不同。",
-        "pursue-mcq-09": "「追求抱負」與本句語境不同。",
-        "pursue-mcq-06": "「追求卓越」與本句語境不同。",
-        "pursue-mcq-10": "「爭取／尋求機會」與本句語境不同。",
-        "pursue-mcq-05": "「追求成功」與本句語境不同。"
+        "pursue-mcq-08": "本句的「pursue」指「追尋夢想」。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-08"
     },
@@ -1856,11 +1828,9 @@ export default {
       "masked": "He moved abroad to ____.",
       "options": [
         "pursue-mcq-09",
-        "pursue-mcq-08",
-        "pursue-mcq-10",
-        "pursue-mcq-07",
-        "pursue-mcq-11",
-        "pursue-mcq-06"
+        "pursue-mcq-31",
+        "pursue-mcq-38",
+        "pursue-mcq-21"
       ],
       "explanation": "本句的「pursue his ambitions」指「追求抱負」。",
       "sentenceIndex": 13,
@@ -1869,12 +1839,10 @@ export default {
         "pursue his ambitions"
       ],
       "optionReasons": {
-        "pursue-mcq-09": "本句指「追求抱負」。",
-        "pursue-mcq-08": "「追尋夢想」與本句語境不同。",
-        "pursue-mcq-10": "「爭取／尋求機會」與本句語境不同。",
-        "pursue-mcq-07": "「追求幸福」與本句語境不同。",
-        "pursue-mcq-11": "「追求增長」與本句語境不同。",
-        "pursue-mcq-06": "「追求卓越」與本句語境不同。"
+        "pursue-mcq-09": "本句的「pursue his ambitions」指「追求抱負」。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-09"
     },
@@ -1886,11 +1854,9 @@ export default {
       "masked": "She ____ her ambition to become a surgeon.",
       "options": [
         "pursue-mcq-09",
-        "pursue-mcq-08",
-        "pursue-mcq-10",
-        "pursue-mcq-07",
-        "pursue-mcq-11",
-        "pursue-mcq-06"
+        "pursue-mcq-23",
+        "pursue-mcq-16",
+        "pursue-reviewed-0c9a25c6e5"
       ],
       "explanation": "本句的「pursued」指「追求抱負」。",
       "sentenceIndex": 14,
@@ -1899,12 +1865,10 @@ export default {
         "pursued"
       ],
       "optionReasons": {
-        "pursue-mcq-09": "本句指「追求抱負」。",
-        "pursue-mcq-08": "「追尋夢想」與本句語境不同。",
-        "pursue-mcq-10": "「爭取／尋求機會」與本句語境不同。",
-        "pursue-mcq-07": "「追求幸福」與本句語境不同。",
-        "pursue-mcq-11": "「追求增長」與本句語境不同。",
-        "pursue-mcq-06": "「追求卓越」與本句語境不同。"
+        "pursue-mcq-09": "本句的「pursued」指「追求抱負」。",
+        "pursue-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-09"
     },
@@ -1916,11 +1880,9 @@ export default {
       "masked": "The company decided to ____ overseas.",
       "options": [
         "pursue-mcq-10",
-        "pursue-mcq-09",
-        "pursue-mcq-11",
-        "pursue-mcq-08",
-        "pursue-mcq-12",
-        "pursue-mcq-07"
+        "pursue-reviewed-a0fcd3245f",
+        "pursue-mcq-45",
+        "pursue-mcq-18"
       ],
       "explanation": "本句的「pursue new opportunities」指「爭取／尋求機會」。",
       "sentenceIndex": 15,
@@ -1929,12 +1891,10 @@ export default {
         "pursue new opportunities"
       ],
       "optionReasons": {
-        "pursue-mcq-10": "本句指「爭取／尋求機會」。",
-        "pursue-mcq-09": "「追求抱負」與本句語境不同。",
-        "pursue-mcq-11": "「追求增長」與本句語境不同。",
-        "pursue-mcq-08": "「追尋夢想」與本句語境不同。",
-        "pursue-mcq-12": "「追求盈利」與本句語境不同。",
-        "pursue-mcq-07": "「追求幸福」與本句語境不同。"
+        "pursue-mcq-10": "本句的「pursue new opportunities」指「爭取／尋求機會」。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-10"
     },
@@ -1946,11 +1906,9 @@ export default {
       "masked": "She left the organisation to ____ another opportunity.",
       "options": [
         "pursue-mcq-10",
-        "pursue-mcq-09",
-        "pursue-mcq-11",
-        "pursue-mcq-08",
-        "pursue-mcq-12",
-        "pursue-mcq-07"
+        "pursue-mcq-38",
+        "pursue-mcq-20",
+        "pursue-mcq-47"
       ],
       "explanation": "本句的「pursue」指「爭取／尋求機會」。",
       "sentenceIndex": 16,
@@ -1959,12 +1917,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-10": "本句指「爭取／尋求機會」。",
-        "pursue-mcq-09": "「追求抱負」與本句語境不同。",
-        "pursue-mcq-11": "「追求增長」與本句語境不同。",
-        "pursue-mcq-08": "「追尋夢想」與本句語境不同。",
-        "pursue-mcq-12": "「追求盈利」與本句語境不同。",
-        "pursue-mcq-07": "「追求幸福」與本句語境不同。"
+        "pursue-mcq-10": "本句的「pursue」指「爭取／尋求機會」。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-10"
     },
@@ -1976,11 +1932,9 @@ export default {
       "masked": "The company is ____.",
       "options": [
         "pursue-mcq-11",
-        "pursue-mcq-10",
-        "pursue-mcq-12",
-        "pursue-mcq-09",
-        "pursue-mcq-13",
-        "pursue-mcq-08"
+        "pursue-mcq-35",
+        "pursue-mcq-41",
+        "pursue-mcq-38"
       ],
       "explanation": "本句的「pursuing rapid growth」指「追求增長」。",
       "sentenceIndex": 17,
@@ -1989,12 +1943,10 @@ export default {
         "pursuing rapid growth"
       ],
       "optionReasons": {
-        "pursue-mcq-11": "本句指「追求增長」。",
-        "pursue-mcq-10": "「爭取／尋求機會」與本句語境不同。",
-        "pursue-mcq-12": "「追求盈利」與本句語境不同。",
-        "pursue-mcq-09": "「追求抱負」與本句語境不同。",
-        "pursue-mcq-13": "「追求權力」與本句語境不同。",
-        "pursue-mcq-08": "「追尋夢想」與本句語境不同。"
+        "pursue-mcq-11": "本句的「pursuing rapid growth」指「追求增長」。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-11"
     },
@@ -2006,11 +1958,9 @@ export default {
       "masked": "Growth should not be ____ at the expense of quality.",
       "options": [
         "pursue-mcq-11",
-        "pursue-mcq-10",
-        "pursue-mcq-12",
-        "pursue-mcq-09",
-        "pursue-mcq-13",
-        "pursue-mcq-08"
+        "pursue-mcq-20",
+        "pursue-mcq-40",
+        "pursue-mcq-26"
       ],
       "explanation": "本句的「pursued」指「追求增長」。",
       "sentenceIndex": 18,
@@ -2019,12 +1969,10 @@ export default {
         "pursued"
       ],
       "optionReasons": {
-        "pursue-mcq-11": "本句指「追求增長」。",
-        "pursue-mcq-10": "「爭取／尋求機會」與本句語境不同。",
-        "pursue-mcq-12": "「追求盈利」與本句語境不同。",
-        "pursue-mcq-09": "「追求抱負」與本句語境不同。",
-        "pursue-mcq-13": "「追求權力」與本句語境不同。",
-        "pursue-mcq-08": "「追尋夢想」與本句語境不同。"
+        "pursue-mcq-11": "本句的「pursued」指「追求增長」。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-11"
     },
@@ -2036,11 +1984,9 @@ export default {
       "masked": "Businesses naturally ____, but they also face legal and social responsibilities.",
       "options": [
         "pursue-mcq-12",
-        "pursue-mcq-11",
-        "pursue-mcq-13",
-        "pursue-mcq-10",
-        "pursue-mcq-14",
-        "pursue-mcq-09"
+        "pursue-mcq-38",
+        "pursue-mcq-26",
+        "pursue-mcq-15"
       ],
       "explanation": "本句的「pursue profit」指「追求盈利」。",
       "sentenceIndex": 19,
@@ -2049,12 +1995,10 @@ export default {
         "pursue profit"
       ],
       "optionReasons": {
-        "pursue-mcq-12": "本句指「追求盈利」。",
-        "pursue-mcq-11": "「追求增長」與本句語境不同。",
-        "pursue-mcq-13": "「追求權力」與本句語境不同。",
-        "pursue-mcq-10": "「爭取／尋求機會」與本句語境不同。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。",
-        "pursue-mcq-09": "「追求抱負」與本句語境不同。"
+        "pursue-mcq-12": "本句的「pursue profit」指「追求盈利」。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-12"
     },
@@ -2066,11 +2010,9 @@ export default {
       "masked": "The company was criticised for ____ profit too aggressively.",
       "options": [
         "pursue-mcq-12",
-        "pursue-mcq-11",
-        "pursue-mcq-13",
-        "pursue-mcq-10",
-        "pursue-mcq-14",
-        "pursue-mcq-09"
+        "pursue-mcq-35",
+        "pursue-mcq-15",
+        "pursue-reviewed-a0fcd3245f"
       ],
       "explanation": "本句的「pursuing」指「追求盈利」。",
       "sentenceIndex": 20,
@@ -2079,12 +2021,10 @@ export default {
         "pursuing"
       ],
       "optionReasons": {
-        "pursue-mcq-12": "本句指「追求盈利」。",
-        "pursue-mcq-11": "「追求增長」與本句語境不同。",
-        "pursue-mcq-13": "「追求權力」與本句語境不同。",
-        "pursue-mcq-10": "「爭取／尋求機會」與本句語境不同。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。",
-        "pursue-mcq-09": "「追求抱負」與本句語境不同。"
+        "pursue-mcq-12": "本句的「pursuing」指「追求盈利」。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-12"
     },
@@ -2096,11 +2036,9 @@ export default {
       "masked": "The firm is free to ____ within the law.",
       "options": [
         "pursue-mcq-12",
-        "pursue-mcq-11",
-        "pursue-mcq-13",
-        "pursue-mcq-10",
-        "pursue-mcq-14",
-        "pursue-mcq-09"
+        "pursue-mcq-38",
+        "pursue-mcq-40",
+        "pursue-reviewed-a0fcd3245f"
       ],
       "explanation": "本句的「pursue its commercial interests」指「追求盈利」。",
       "sentenceIndex": 21,
@@ -2109,12 +2047,10 @@ export default {
         "pursue its commercial interests"
       ],
       "optionReasons": {
-        "pursue-mcq-12": "本句指「追求盈利」。",
-        "pursue-mcq-11": "「追求增長」與本句語境不同。",
-        "pursue-mcq-13": "「追求權力」與本句語境不同。",
-        "pursue-mcq-10": "「爭取／尋求機會」與本句語境不同。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。",
-        "pursue-mcq-09": "「追求抱負」與本句語境不同。"
+        "pursue-mcq-12": "本句的「pursue its commercial interests」指「追求盈利」。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-12"
     },
@@ -2126,11 +2062,9 @@ export default {
       "masked": "Public bodies may have different priorities from companies ____ commercial interests.",
       "options": [
         "pursue-mcq-12",
-        "pursue-mcq-11",
-        "pursue-mcq-13",
-        "pursue-mcq-10",
-        "pursue-mcq-14",
-        "pursue-mcq-09"
+        "pursue-mcq-21",
+        "pursue-mcq-35",
+        "pursue-mcq-15"
       ],
       "explanation": "本句的「pursuing」指「追求盈利」。",
       "sentenceIndex": 22,
@@ -2139,12 +2073,10 @@ export default {
         "pursuing"
       ],
       "optionReasons": {
-        "pursue-mcq-12": "本句指「追求盈利」。",
-        "pursue-mcq-11": "「追求增長」與本句語境不同。",
-        "pursue-mcq-13": "「追求權力」與本句語境不同。",
-        "pursue-mcq-10": "「爭取／尋求機會」與本句語境不同。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。",
-        "pursue-mcq-09": "「追求抱負」與本句語境不同。"
+        "pursue-mcq-12": "本句的「pursuing」指「追求盈利」。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-12"
     },
@@ -2156,11 +2088,9 @@ export default {
       "masked": "Some people ____ power for its own sake.",
       "options": [
         "pursue-mcq-13",
-        "pursue-mcq-12",
-        "pursue-mcq-14",
-        "pursue-mcq-11",
-        "pursue-mcq-15",
-        "pursue-mcq-10"
+        "pursue-mcq-28",
+        "pursue-reviewed-0c9a25c6e5",
+        "pursue-mcq-15"
       ],
       "explanation": "本句的「pursue」指「追求權力」。",
       "sentenceIndex": 23,
@@ -2169,12 +2099,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-13": "本句指「追求權力」。",
-        "pursue-mcq-12": "「追求盈利」與本句語境不同。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。",
-        "pursue-mcq-11": "「追求增長」與本句語境不同。",
-        "pursue-mcq-15": "「投身專業」與本句語境不同。",
-        "pursue-mcq-10": "「爭取／尋求機會」與本句語境不同。"
+        "pursue-mcq-13": "本句的「pursue」指「追求權力」。",
+        "pursue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-13"
     },
@@ -2186,11 +2114,9 @@ export default {
       "masked": "The discussion became less productive when individuals began ____ influence rather than solutions.",
       "options": [
         "pursue-mcq-13",
-        "pursue-mcq-12",
-        "pursue-mcq-14",
-        "pursue-mcq-11",
-        "pursue-mcq-15",
-        "pursue-mcq-10"
+        "pursue-mcq-39",
+        "pursue-mcq-20",
+        "pursue-mcq-23"
       ],
       "explanation": "本句的「pursuing」指「追求權力」。",
       "sentenceIndex": 24,
@@ -2199,12 +2125,10 @@ export default {
         "pursuing"
       ],
       "optionReasons": {
-        "pursue-mcq-13": "本句指「追求權力」。",
-        "pursue-mcq-12": "「追求盈利」與本句語境不同。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。",
-        "pursue-mcq-11": "「追求增長」與本句語境不同。",
-        "pursue-mcq-15": "「投身專業」與本句語境不同。",
-        "pursue-mcq-10": "「爭取／尋求機會」與本句語境不同。"
+        "pursue-mcq-13": "本句的「pursuing」指「追求權力」。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-13"
     },
@@ -2216,11 +2140,9 @@ export default {
       "masked": "She wants to ____.",
       "options": [
         "pursue-mcq-14",
-        "pursue-mcq-13",
-        "pursue-mcq-15",
-        "pursue-mcq-12",
-        "pursue-mcq-16",
-        "pursue-mcq-11"
+        "pursue-mcq-28",
+        "pursue-reviewed-0c9a25c6e5",
+        "pursue-mcq-16"
       ],
       "explanation": "本句的「pursue a career in finance」指「從事／追求職業生涯」。",
       "sentenceIndex": 25,
@@ -2229,12 +2151,10 @@ export default {
         "pursue a career in finance"
       ],
       "optionReasons": {
-        "pursue-mcq-14": "本句指「從事／追求職業生涯」。",
-        "pursue-mcq-13": "「追求權力」與本句語境不同。",
-        "pursue-mcq-15": "「投身專業」與本句語境不同。",
-        "pursue-mcq-12": "「追求盈利」與本句語境不同。",
-        "pursue-mcq-16": "「修讀學位」與本句語境不同。",
-        "pursue-mcq-11": "「追求增長」與本句語境不同。"
+        "pursue-mcq-14": "本句的「pursue a career in finance」指「從事／追求職業生涯」。",
+        "pursue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-14"
     },
@@ -2246,11 +2166,9 @@ export default {
       "masked": "He decided to ____ a career in education.",
       "options": [
         "pursue-mcq-14",
-        "pursue-mcq-13",
-        "pursue-mcq-15",
-        "pursue-mcq-12",
-        "pursue-mcq-16",
-        "pursue-mcq-11"
+        "pursue-mcq-41",
+        "pursue-reviewed-a0fcd3245f",
+        "pursue-mcq-20"
       ],
       "explanation": "本句的「pursue」指「從事／追求職業生涯」。",
       "sentenceIndex": 26,
@@ -2259,12 +2177,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-14": "本句指「從事／追求職業生涯」。",
-        "pursue-mcq-13": "「追求權力」與本句語境不同。",
-        "pursue-mcq-15": "「投身專業」與本句語境不同。",
-        "pursue-mcq-12": "「追求盈利」與本句語境不同。",
-        "pursue-mcq-16": "「修讀學位」與本句語境不同。",
-        "pursue-mcq-11": "「追求增長」與本句語境不同。"
+        "pursue-mcq-14": "本句的「pursue」指「從事／追求職業生涯」。",
+        "pursue-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-14"
     },
@@ -2276,11 +2192,9 @@ export default {
       "masked": "She chose to ____.",
       "options": [
         "pursue-mcq-15",
-        "pursue-mcq-14",
-        "pursue-mcq-16",
-        "pursue-mcq-13",
-        "pursue-mcq-17",
-        "pursue-mcq-12"
+        "pursue-mcq-52",
+        "pursue-mcq-31",
+        "pursue-mcq-17"
       ],
       "explanation": "本句的「pursue the legal profession」指「投身專業」。",
       "sentenceIndex": 27,
@@ -2289,12 +2203,10 @@ export default {
         "pursue the legal profession"
       ],
       "optionReasons": {
-        "pursue-mcq-15": "本句指「投身專業」。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。",
-        "pursue-mcq-16": "「修讀學位」與本句語境不同。",
-        "pursue-mcq-13": "「追求權力」與本句語境不同。",
-        "pursue-mcq-17": "「繼續深造」與本句語境不同。",
-        "pursue-mcq-12": "「追求盈利」與本句語境不同。"
+        "pursue-mcq-15": "本句的「pursue the legal profession」指「投身專業」。",
+        "pursue-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-15"
     },
@@ -2306,11 +2218,9 @@ export default {
       "masked": "Professional qualifications may be needed to ____ certain professions.",
       "options": [
         "pursue-mcq-15",
-        "pursue-mcq-14",
-        "pursue-mcq-16",
-        "pursue-mcq-13",
-        "pursue-mcq-17",
-        "pursue-mcq-12"
+        "pursue-mcq-59",
+        "pursue-mcq-21",
+        "pursue-mcq-27"
       ],
       "explanation": "本句的「pursue」指「投身專業」。",
       "sentenceIndex": 28,
@@ -2319,12 +2229,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-15": "本句指「投身專業」。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。",
-        "pursue-mcq-16": "「修讀學位」與本句語境不同。",
-        "pursue-mcq-13": "「追求權力」與本句語境不同。",
-        "pursue-mcq-17": "「繼續深造」與本句語境不同。",
-        "pursue-mcq-12": "「追求盈利」與本句語境不同。"
+        "pursue-mcq-15": "本句的「pursue」指「投身專業」。",
+        "pursue-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-15"
     },
@@ -2336,11 +2244,9 @@ export default {
       "masked": "He left business to ____.",
       "options": [
         "pursue-mcq-15",
-        "pursue-mcq-14",
-        "pursue-mcq-16",
-        "pursue-mcq-13",
-        "pursue-mcq-17",
-        "pursue-mcq-12"
+        "pursue-mcq-38",
+        "pursue-mcq-54",
+        "pursue-mcq-30"
       ],
       "explanation": "本句的「pursue a vocation in teaching」指「投身專業」。",
       "sentenceIndex": 29,
@@ -2349,12 +2255,10 @@ export default {
         "pursue a vocation in teaching"
       ],
       "optionReasons": {
-        "pursue-mcq-15": "本句指「投身專業」。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。",
-        "pursue-mcq-16": "「修讀學位」與本句語境不同。",
-        "pursue-mcq-13": "「追求權力」與本句語境不同。",
-        "pursue-mcq-17": "「繼續深造」與本句語境不同。",
-        "pursue-mcq-12": "「追求盈利」與本句語境不同。"
+        "pursue-mcq-15": "本句的「pursue a vocation in teaching」指「投身專業」。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-15"
     },
@@ -2366,11 +2270,9 @@ export default {
       "masked": "Some people ____ a vocation because they feel a strong sense of purpose.",
       "options": [
         "pursue-mcq-15",
-        "pursue-mcq-14",
-        "pursue-mcq-16",
-        "pursue-mcq-13",
-        "pursue-mcq-17",
-        "pursue-mcq-12"
+        "pursue-mcq-55",
+        "pursue-mcq-34",
+        "pursue-mcq-40"
       ],
       "explanation": "本句的「pursue」指「投身專業」。",
       "sentenceIndex": 30,
@@ -2379,12 +2281,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-15": "本句指「投身專業」。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。",
-        "pursue-mcq-16": "「修讀學位」與本句語境不同。",
-        "pursue-mcq-13": "「追求權力」與本句語境不同。",
-        "pursue-mcq-17": "「繼續深造」與本句語境不同。",
-        "pursue-mcq-12": "「追求盈利」與本句語境不同。"
+        "pursue-mcq-15": "本句的「pursue」指「投身專業」。",
+        "pursue-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-15"
     },
@@ -2396,11 +2296,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "pursue-mcq-16",
-        "pursue-mcq-15",
-        "pursue-mcq-17",
-        "pursue-mcq-14",
-        "pursue-mcq-18",
-        "pursue-mcq-13"
+        "pursue-mcq-42",
+        "pursue-mcq-39",
+        "pursue-mcq-17"
       ],
       "explanation": "本句的「pursuing a master's degree」指「修讀學位」。",
       "sentenceIndex": 31,
@@ -2409,12 +2307,10 @@ export default {
         "pursuing a master's degree"
       ],
       "optionReasons": {
-        "pursue-mcq-16": "本句指「修讀學位」。",
-        "pursue-mcq-15": "「投身專業」與本句語境不同。",
-        "pursue-mcq-17": "「繼續深造」與本句語境不同。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。",
-        "pursue-mcq-18": "「發展興趣」與本句語境不同。",
-        "pursue-mcq-13": "「追求權力」與本句語境不同。"
+        "pursue-mcq-16": "本句的「pursuing a master's degree」指「修讀學位」。",
+        "pursue-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-16"
     },
@@ -2426,11 +2322,9 @@ export default {
       "masked": "He moved overseas to ____ a degree in engineering.",
       "options": [
         "pursue-mcq-16",
-        "pursue-mcq-15",
-        "pursue-mcq-17",
-        "pursue-mcq-14",
-        "pursue-mcq-18",
-        "pursue-mcq-13"
+        "pursue-mcq-43",
+        "pursue-mcq-56",
+        "pursue-mcq-34"
       ],
       "explanation": "本句的「pursue」指「修讀學位」。",
       "sentenceIndex": 32,
@@ -2439,12 +2333,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-16": "本句指「修讀學位」。",
-        "pursue-mcq-15": "「投身專業」與本句語境不同。",
-        "pursue-mcq-17": "「繼續深造」與本句語境不同。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。",
-        "pursue-mcq-18": "「發展興趣」與本句語境不同。",
-        "pursue-mcq-13": "「追求權力」與本句語境不同。"
+        "pursue-mcq-16": "本句的「pursue」指「修讀學位」。",
+        "pursue-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-16"
     },
@@ -2456,11 +2348,9 @@ export default {
       "masked": "Many graduates choose to ____.",
       "options": [
         "pursue-mcq-17",
-        "pursue-mcq-16",
-        "pursue-mcq-18",
-        "pursue-mcq-15",
-        "pursue-mcq-19",
-        "pursue-mcq-14"
+        "pursue-mcq-06",
+        "pursue-reviewed-0c9a25c6e5",
+        "pursue-mcq-31"
       ],
       "explanation": "本句的「pursue further study」指「繼續深造」。",
       "sentenceIndex": 33,
@@ -2469,12 +2359,10 @@ export default {
         "pursue further study"
       ],
       "optionReasons": {
-        "pursue-mcq-17": "本句指「繼續深造」。",
-        "pursue-mcq-16": "「修讀學位」與本句語境不同。",
-        "pursue-mcq-18": "「發展興趣」與本句語境不同。",
-        "pursue-mcq-15": "「投身專業」與本句語境不同。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。"
+        "pursue-mcq-17": "本句的「pursue further study」指「繼續深造」。",
+        "pursue-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-17"
     },
@@ -2486,11 +2374,9 @@ export default {
       "masked": "She left work temporarily to ____ further education.",
       "options": [
         "pursue-mcq-17",
-        "pursue-mcq-16",
-        "pursue-mcq-18",
-        "pursue-mcq-15",
-        "pursue-mcq-19",
-        "pursue-mcq-14"
+        "pursue-reviewed-0c9a25c6e5",
+        "pursue-mcq-52",
+        "pursue-mcq-19"
       ],
       "explanation": "本句的「pursue」指「繼續深造」。",
       "sentenceIndex": 34,
@@ -2499,12 +2385,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-17": "本句指「繼續深造」。",
-        "pursue-mcq-16": "「修讀學位」與本句語境不同。",
-        "pursue-mcq-18": "「發展興趣」與本句語境不同。",
-        "pursue-mcq-15": "「投身專業」與本句語境不同。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。"
+        "pursue-mcq-17": "本句的「pursue」指「繼續深造」。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-17"
     },
@@ -2516,11 +2400,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "pursue-mcq-17",
-        "pursue-mcq-16",
-        "pursue-mcq-18",
-        "pursue-mcq-15",
-        "pursue-mcq-19",
-        "pursue-mcq-14"
+        "pursue-mcq-04",
+        "pursue-mcq-34",
+        "pursue-mcq-38"
       ],
       "explanation": "本句的「pursued his studies in economics」指「繼續深造」。",
       "sentenceIndex": 35,
@@ -2529,12 +2411,10 @@ export default {
         "pursued his studies in economics"
       ],
       "optionReasons": {
-        "pursue-mcq-17": "本句指「繼續深造」。",
-        "pursue-mcq-16": "「修讀學位」與本句語境不同。",
-        "pursue-mcq-18": "「發展興趣」與本句語境不同。",
-        "pursue-mcq-15": "「投身專業」與本句語境不同。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。"
+        "pursue-mcq-17": "本句的「pursued his studies in economics」指「繼續深造」。",
+        "pursue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-17"
     },
@@ -2546,11 +2426,9 @@ export default {
       "masked": "She went abroad to ____ advanced studies.",
       "options": [
         "pursue-mcq-17",
-        "pursue-mcq-16",
-        "pursue-mcq-18",
-        "pursue-mcq-15",
-        "pursue-mcq-19",
-        "pursue-mcq-14"
+        "pursue-mcq-48",
+        "pursue-mcq-31",
+        "pursue-reviewed-a0fcd3245f"
       ],
       "explanation": "本句的「pursue」指「繼續深造」。",
       "sentenceIndex": 36,
@@ -2559,12 +2437,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-17": "本句指「繼續深造」。",
-        "pursue-mcq-16": "「修讀學位」與本句語境不同。",
-        "pursue-mcq-18": "「發展興趣」與本句語境不同。",
-        "pursue-mcq-15": "「投身專業」與本句語境不同。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。"
+        "pursue-mcq-17": "本句的「pursue」指「繼續深造」。",
+        "pursue-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-17"
     },
@@ -2576,11 +2452,9 @@ export default {
       "masked": "Financial support allows more students to ____.",
       "options": [
         "pursue-mcq-17",
-        "pursue-mcq-16",
-        "pursue-mcq-18",
-        "pursue-mcq-15",
-        "pursue-mcq-19",
-        "pursue-mcq-14"
+        "pursue-mcq-36",
+        "pursue-mcq-31",
+        "pursue-mcq-21"
       ],
       "explanation": "本句的「pursue higher education」指「繼續深造」。",
       "sentenceIndex": 37,
@@ -2589,12 +2463,10 @@ export default {
         "pursue higher education"
       ],
       "optionReasons": {
-        "pursue-mcq-17": "本句指「繼續深造」。",
-        "pursue-mcq-16": "「修讀學位」與本句語境不同。",
-        "pursue-mcq-18": "「發展興趣」與本句語境不同。",
-        "pursue-mcq-15": "「投身專業」與本句語境不同。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。"
+        "pursue-mcq-17": "本句的「pursue higher education」指「繼續深造」。",
+        "pursue-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-17"
     },
@@ -2606,11 +2478,9 @@ export default {
       "masked": "She continued to ____ her education while working.",
       "options": [
         "pursue-mcq-17",
-        "pursue-mcq-16",
-        "pursue-mcq-18",
-        "pursue-mcq-15",
-        "pursue-mcq-19",
-        "pursue-mcq-14"
+        "pursue-mcq-29",
+        "pursue-mcq-59",
+        "pursue-mcq-21"
       ],
       "explanation": "本句的「pursue」指「繼續深造」。",
       "sentenceIndex": 38,
@@ -2619,12 +2489,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-17": "本句指「繼續深造」。",
-        "pursue-mcq-16": "「修讀學位」與本句語境不同。",
-        "pursue-mcq-18": "「發展興趣」與本句語境不同。",
-        "pursue-mcq-15": "「投身專業」與本句語境不同。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。",
-        "pursue-mcq-14": "「從事／追求職業生涯」與本句語境不同。"
+        "pursue-mcq-17": "本句的「pursue」指「繼續深造」。",
+        "pursue-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-17"
     },
@@ -2636,11 +2504,9 @@ export default {
       "masked": "He uses weekends to ____.",
       "options": [
         "pursue-mcq-18",
-        "pursue-mcq-17",
-        "pursue-mcq-19",
-        "pursue-mcq-16",
-        "pursue-mcq-20",
-        "pursue-mcq-15"
+        "pursue-mcq-01",
+        "pursue-mcq-34",
+        "pursue-mcq-38"
       ],
       "explanation": "本句的「pursue his interest in photography」指「發展興趣」。",
       "sentenceIndex": 39,
@@ -2649,12 +2515,10 @@ export default {
         "pursue his interest in photography"
       ],
       "optionReasons": {
-        "pursue-mcq-18": "本句指「發展興趣」。",
-        "pursue-mcq-17": "「繼續深造」與本句語境不同。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。",
-        "pursue-mcq-16": "「修讀學位」與本句語境不同。",
-        "pursue-mcq-20": "「活動；嗜好」與本句語境不同。",
-        "pursue-mcq-15": "「投身專業」與本句語境不同。"
+        "pursue-mcq-18": "本句的「pursue his interest in photography」指「發展興趣」。",
+        "pursue-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-18"
     },
@@ -2666,11 +2530,9 @@ export default {
       "masked": "Retirement gave her more time to ____ personal interests.",
       "options": [
         "pursue-mcq-18",
-        "pursue-mcq-17",
-        "pursue-mcq-19",
-        "pursue-mcq-16",
-        "pursue-mcq-20",
-        "pursue-mcq-15"
+        "pursue-mcq-38",
+        "pursue-mcq-53",
+        "pursue-reviewed-0c9a25c6e5"
       ],
       "explanation": "本句的「pursue」指「發展興趣」。",
       "sentenceIndex": 40,
@@ -2679,12 +2541,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-18": "本句指「發展興趣」。",
-        "pursue-mcq-17": "「繼續深造」與本句語境不同。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。",
-        "pursue-mcq-16": "「修讀學位」與本句語境不同。",
-        "pursue-mcq-20": "「活動；嗜好」與本句語境不同。",
-        "pursue-mcq-15": "「投身專業」與本句語境不同。"
+        "pursue-mcq-18": "本句的「pursue」指「發展興趣」。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-18"
     },
@@ -2696,11 +2556,9 @@ export default {
       "masked": "She ____ several hobbies outside work.",
       "options": [
         "pursue-mcq-19",
-        "pursue-mcq-18",
-        "pursue-mcq-20",
-        "pursue-mcq-17",
-        "pursue-mcq-21",
-        "pursue-mcq-16"
+        "pursue-mcq-13",
+        "pursue-mcq-27",
+        "pursue-mcq-18"
       ],
       "explanation": "本句的「pursues」指「從事嗜好」。",
       "sentenceIndex": 41,
@@ -2709,12 +2567,10 @@ export default {
         "pursues"
       ],
       "optionReasons": {
-        "pursue-mcq-19": "本句指「從事嗜好」。",
-        "pursue-mcq-18": "「發展興趣」與本句語境不同。",
-        "pursue-mcq-20": "「活動；嗜好」與本句語境不同。",
-        "pursue-mcq-17": "「繼續深造」與本句語境不同。",
-        "pursue-mcq-21": "「休閒活動」與本句語境不同。",
-        "pursue-mcq-16": "「修讀學位」與本句語境不同。"
+        "pursue-mcq-19": "本句的「pursues」指「從事嗜好」。",
+        "pursue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-19"
     },
@@ -2726,11 +2582,9 @@ export default {
       "masked": "People often ____ hobbies for enjoyment rather than achievement.",
       "options": [
         "pursue-mcq-19",
-        "pursue-mcq-18",
-        "pursue-mcq-20",
-        "pursue-mcq-17",
-        "pursue-mcq-21",
-        "pursue-mcq-16"
+        "pursue-reviewed-0c9a25c6e5",
+        "pursue-mcq-27",
+        "pursue-mcq-58"
       ],
       "explanation": "本句的「pursue」指「從事嗜好」。",
       "sentenceIndex": 42,
@@ -2739,12 +2593,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-19": "本句指「從事嗜好」。",
-        "pursue-mcq-18": "「發展興趣」與本句語境不同。",
-        "pursue-mcq-20": "「活動；嗜好」與本句語境不同。",
-        "pursue-mcq-17": "「繼續深造」與本句語境不同。",
-        "pursue-mcq-21": "「休閒活動」與本句語境不同。",
-        "pursue-mcq-16": "「修讀學位」與本句語境不同。"
+        "pursue-mcq-19": "本句的「pursue」指「從事嗜好」。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-19"
     },
@@ -2756,11 +2608,9 @@ export default {
       "masked": "Participants may ____ recreational activities in the afternoon.",
       "options": [
         "pursue-mcq-20",
-        "pursue-mcq-19",
-        "pursue-mcq-21",
-        "pursue-mcq-18",
-        "pursue-mcq-22",
-        "pursue-mcq-17"
+        "pursue-mcq-35",
+        "pursue-mcq-14",
+        "pursue-mcq-18"
       ],
       "explanation": "本句的「pursue」指「活動；嗜好」。",
       "sentenceIndex": 43,
@@ -2769,12 +2619,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-20": "本句指「活動；嗜好」。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。",
-        "pursue-mcq-21": "「休閒活動」與本句語境不同。",
-        "pursue-mcq-18": "「發展興趣」與本句語境不同。",
-        "pursue-mcq-22": "「智性追求」與本句語境不同。",
-        "pursue-mcq-17": "「繼續深造」與本句語境不同。"
+        "pursue-mcq-20": "本句的「pursue」指「活動；嗜好」。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-20"
     },
@@ -2786,11 +2634,9 @@ export default {
       "masked": "He was free to ____ his own activities.",
       "options": [
         "pursue-mcq-20",
-        "pursue-mcq-19",
-        "pursue-mcq-21",
-        "pursue-mcq-18",
-        "pursue-mcq-22",
-        "pursue-mcq-17"
+        "pursue-mcq-12",
+        "pursue-mcq-33",
+        "pursue-mcq-10"
       ],
       "explanation": "本句的「pursue」指「活動；嗜好」。",
       "sentenceIndex": 44,
@@ -2799,12 +2645,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-20": "本句指「活動；嗜好」。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。",
-        "pursue-mcq-21": "「休閒活動」與本句語境不同。",
-        "pursue-mcq-18": "「發展興趣」與本句語境不同。",
-        "pursue-mcq-22": "「智性追求」與本句語境不同。",
-        "pursue-mcq-17": "「繼續深造」與本句語境不同。"
+        "pursue-mcq-20": "本句的「pursue」指「活動；嗜好」。",
+        "pursue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-20"
     },
@@ -2816,11 +2660,9 @@ export default {
       "masked": "Reading is one of her favourite ____.",
       "options": [
         "pursue-mcq-20",
-        "pursue-mcq-19",
-        "pursue-mcq-21",
-        "pursue-mcq-18",
-        "pursue-mcq-22",
-        "pursue-mcq-17"
+        "pursue-mcq-45",
+        "pursue-mcq-26",
+        "pursue-reviewed-a0fcd3245f"
       ],
       "explanation": "本句的「pursuits」指「活動；嗜好」。",
       "sentenceIndex": 45,
@@ -2829,12 +2671,10 @@ export default {
         "pursuits"
       ],
       "optionReasons": {
-        "pursue-mcq-20": "本句指「活動；嗜好」。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。",
-        "pursue-mcq-21": "「休閒活動」與本句語境不同。",
-        "pursue-mcq-18": "「發展興趣」與本句語境不同。",
-        "pursue-mcq-22": "「智性追求」與本句語境不同。",
-        "pursue-mcq-17": "「繼續深造」與本句語境不同。"
+        "pursue-mcq-20": "本句的「pursuits」指「活動；嗜好」。",
+        "pursue-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-20"
     },
@@ -2846,11 +2686,9 @@ export default {
       "masked": "Outdoor ____ include hiking and climbing.",
       "options": [
         "pursue-mcq-20",
-        "pursue-mcq-19",
-        "pursue-mcq-21",
-        "pursue-mcq-18",
-        "pursue-mcq-22",
-        "pursue-mcq-17"
+        "pursue-mcq-10",
+        "pursue-mcq-01",
+        "pursue-reviewed-a0fcd3245f"
       ],
       "explanation": "本句的「pursuits」指「活動；嗜好」。",
       "sentenceIndex": 46,
@@ -2859,12 +2697,10 @@ export default {
         "pursuits"
       ],
       "optionReasons": {
-        "pursue-mcq-20": "本句指「活動；嗜好」。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。",
-        "pursue-mcq-21": "「休閒活動」與本句語境不同。",
-        "pursue-mcq-18": "「發展興趣」與本句語境不同。",
-        "pursue-mcq-22": "「智性追求」與本句語境不同。",
-        "pursue-mcq-17": "「繼續深造」與本句語境不同。"
+        "pursue-mcq-20": "本句的「pursuits」指「活動；嗜好」。",
+        "pursue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-20"
     },
@@ -2876,11 +2712,9 @@ export default {
       "masked": "Gardening is a popular ____.",
       "options": [
         "pursue-mcq-21",
-        "pursue-mcq-20",
+        "pursue-mcq-26",
         "pursue-mcq-22",
-        "pursue-mcq-19",
-        "pursue-mcq-23",
-        "pursue-mcq-18"
+        "pursue-mcq-44"
       ],
       "explanation": "本句的「leisure pursuit」指「休閒活動」。",
       "sentenceIndex": 47,
@@ -2889,12 +2723,10 @@ export default {
         "leisure pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-21": "本句指「休閒活動」。",
-        "pursue-mcq-20": "「活動；嗜好」與本句語境不同。",
-        "pursue-mcq-22": "「智性追求」與本句語境不同。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。",
-        "pursue-mcq-23": "「從事／繼續研究」與本句語境不同。",
-        "pursue-mcq-18": "「發展興趣」與本句語境不同。"
+        "pursue-mcq-21": "本句的「leisure pursuit」指「休閒活動」。",
+        "pursue-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-21"
     },
@@ -2906,11 +2738,9 @@ export default {
       "masked": "The centre offers facilities for various leisure ____.",
       "options": [
         "pursue-mcq-21",
-        "pursue-mcq-20",
-        "pursue-mcq-22",
-        "pursue-mcq-19",
-        "pursue-mcq-23",
-        "pursue-mcq-18"
+        "pursue-mcq-27",
+        "pursue-mcq-01",
+        "pursue-mcq-34"
       ],
       "explanation": "本句的「pursuits」指「休閒活動」。",
       "sentenceIndex": 48,
@@ -2919,12 +2749,10 @@ export default {
         "pursuits"
       ],
       "optionReasons": {
-        "pursue-mcq-21": "本句指「休閒活動」。",
-        "pursue-mcq-20": "「活動；嗜好」與本句語境不同。",
-        "pursue-mcq-22": "「智性追求」與本句語境不同。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。",
-        "pursue-mcq-23": "「從事／繼續研究」與本句語境不同。",
-        "pursue-mcq-18": "「發展興趣」與本句語境不同。"
+        "pursue-mcq-21": "本句的「pursuits」指「休閒活動」。",
+        "pursue-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-21"
     },
@@ -2936,11 +2764,9 @@ export default {
       "masked": "Philosophy was one of his main ____.",
       "options": [
         "pursue-mcq-22",
-        "pursue-mcq-21",
-        "pursue-mcq-23",
         "pursue-mcq-20",
-        "pursue-mcq-24",
-        "pursue-mcq-19"
+        "pursue-mcq-31",
+        "pursue-reviewed-a0fcd3245f"
       ],
       "explanation": "本句的「intellectual pursuits」指「智性追求」。",
       "sentenceIndex": 49,
@@ -2949,12 +2775,10 @@ export default {
         "intellectual pursuits"
       ],
       "optionReasons": {
-        "pursue-mcq-22": "本句指「智性追求」。",
-        "pursue-mcq-21": "「休閒活動」與本句語境不同。",
-        "pursue-mcq-23": "「從事／繼續研究」與本句語境不同。",
-        "pursue-mcq-20": "「活動；嗜好」與本句語境不同。",
-        "pursue-mcq-24": "「追求知識」與本句語境不同。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。"
+        "pursue-mcq-22": "本句的「intellectual pursuits」指「智性追求」。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-22"
     },
@@ -2966,11 +2790,9 @@ export default {
       "masked": "Universities support intellectual ____ beyond immediate commercial value.",
       "options": [
         "pursue-mcq-22",
-        "pursue-mcq-21",
-        "pursue-mcq-23",
-        "pursue-mcq-20",
-        "pursue-mcq-24",
-        "pursue-mcq-19"
+        "pursue-mcq-19",
+        "pursue-mcq-18",
+        "pursue-mcq-35"
       ],
       "explanation": "本句的「pursuits」指「智性追求」。",
       "sentenceIndex": 50,
@@ -2979,74 +2801,68 @@ export default {
         "pursuits"
       ],
       "optionReasons": {
-        "pursue-mcq-22": "本句指「智性追求」。",
-        "pursue-mcq-21": "「休閒活動」與本句語境不同。",
-        "pursue-mcq-23": "「從事／繼續研究」與本句語境不同。",
-        "pursue-mcq-20": "「活動；嗜好」與本句語境不同。",
-        "pursue-mcq-24": "「追求知識」與本句語境不同。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。"
+        "pursue-mcq-22": "本句的「pursuits」指「智性追求」。",
+        "pursue-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-22"
     },
     {
       "id": "pursue-26-0",
-      "sense": "pursue-mcq-22",
+      "sense": "pursue-reviewed-0c9a25c6e5",
       "en": "She devoted more time to creative pursuits.",
       "zh": "她投入更多時間於創意活動。",
       "masked": "She devoted more time to ____.",
       "options": [
-        "pursue-mcq-22",
-        "pursue-mcq-21",
+        "pursue-reviewed-0c9a25c6e5",
         "pursue-mcq-23",
-        "pursue-mcq-20",
-        "pursue-mcq-24",
-        "pursue-mcq-19"
+        "pursue-mcq-36",
+        "pursue-mcq-39"
       ],
-      "explanation": "本句的「creative pursuits」指「智性追求」。",
+      "explanation": "對照完整句子：「她投入更多時間於創意活動。」。這裡的「creative pursuits」表示「藝術／創意活動」。",
       "sentenceIndex": 51,
       "sourcePractice": 1,
       "targets": [
         "creative pursuits"
       ],
       "optionReasons": {
-        "pursue-mcq-22": "本句指「智性追求」。",
-        "pursue-mcq-21": "「休閒活動」與本句語境不同。",
-        "pursue-mcq-23": "「從事／繼續研究」與本句語境不同。",
-        "pursue-mcq-20": "「活動；嗜好」與本句語境不同。",
-        "pursue-mcq-24": "「追求知識」與本句語境不同。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。"
+        "pursue-reviewed-0c9a25c6e5": "對照完整句子：「她投入更多時間於創意活動。」。這裡的「creative pursuits」表示「藝術／創意活動」。",
+        "pursue-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "pursue-mcq-22"
+      "correctOption": "pursue-reviewed-0c9a25c6e5",
+      "previousCorrectOption": "pursue-mcq-22",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "pursue-26-1",
-      "sense": "pursue-mcq-22",
+      "sense": "pursue-reviewed-0c9a25c6e5",
       "en": "Artistic pursuits can provide a sense of fulfilment.",
       "zh": "藝術活動可以帶來滿足感。",
       "masked": "Artistic ____ can provide a sense of fulfilment.",
       "options": [
-        "pursue-mcq-22",
-        "pursue-mcq-21",
-        "pursue-mcq-23",
-        "pursue-mcq-20",
-        "pursue-mcq-24",
+        "pursue-reviewed-0c9a25c6e5",
+        "pursue-mcq-40",
+        "pursue-mcq-45",
         "pursue-mcq-19"
       ],
-      "explanation": "本句的「pursuits」指「智性追求」。",
+      "explanation": "對照完整句子：「藝術活動可以帶來滿足感。」。這裡的「pursuits」表示「藝術／創意活動」。",
       "sentenceIndex": 52,
       "sourcePractice": 2,
       "targets": [
         "pursuits"
       ],
       "optionReasons": {
-        "pursue-mcq-22": "本句指「智性追求」。",
-        "pursue-mcq-21": "「休閒活動」與本句語境不同。",
-        "pursue-mcq-23": "「從事／繼續研究」與本句語境不同。",
-        "pursue-mcq-20": "「活動；嗜好」與本句語境不同。",
-        "pursue-mcq-24": "「追求知識」與本句語境不同。",
-        "pursue-mcq-19": "「從事嗜好」與本句語境不同。"
+        "pursue-reviewed-0c9a25c6e5": "對照完整句子：「藝術活動可以帶來滿足感。」。這裡的「pursuits」表示「藝術／創意活動」。",
+        "pursue-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "pursue-mcq-22"
+      "correctOption": "pursue-reviewed-0c9a25c6e5",
+      "previousCorrectOption": "pursue-mcq-22",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "pursue-27-0",
@@ -3056,11 +2872,9 @@ export default {
       "masked": "She decided to ____.",
       "options": [
         "pursue-mcq-23",
-        "pursue-mcq-22",
-        "pursue-mcq-24",
-        "pursue-mcq-21",
-        "pursue-mcq-25",
-        "pursue-mcq-20"
+        "pursue-mcq-04",
+        "pursue-mcq-31",
+        "pursue-mcq-47"
       ],
       "explanation": "本句的「pursue research in renewable energy」指「從事／繼續研究」。",
       "sentenceIndex": 53,
@@ -3069,12 +2883,10 @@ export default {
         "pursue research in renewable energy"
       ],
       "optionReasons": {
-        "pursue-mcq-23": "本句指「從事／繼續研究」。",
-        "pursue-mcq-22": "「智性追求」與本句語境不同。",
-        "pursue-mcq-24": "「追求知識」與本句語境不同。",
-        "pursue-mcq-21": "「休閒活動」與本句語境不同。",
-        "pursue-mcq-25": "「對知識的追求」與本句語境不同。",
-        "pursue-mcq-20": "「活動；嗜好」與本句語境不同。"
+        "pursue-mcq-23": "本句的「pursue research in renewable energy」指「從事／繼續研究」。",
+        "pursue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-23"
     },
@@ -3086,11 +2898,9 @@ export default {
       "masked": "The university provides funding to ____ further research.",
       "options": [
         "pursue-mcq-23",
-        "pursue-mcq-22",
-        "pursue-mcq-24",
-        "pursue-mcq-21",
-        "pursue-mcq-25",
-        "pursue-mcq-20"
+        "pursue-reviewed-0c9a25c6e5",
+        "pursue-mcq-16",
+        "pursue-mcq-24"
       ],
       "explanation": "本句的「pursue」指「從事／繼續研究」。",
       "sentenceIndex": 54,
@@ -3099,12 +2909,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-23": "本句指「從事／繼續研究」。",
-        "pursue-mcq-22": "「智性追求」與本句語境不同。",
-        "pursue-mcq-24": "「追求知識」與本句語境不同。",
-        "pursue-mcq-21": "「休閒活動」與本句語境不同。",
-        "pursue-mcq-25": "「對知識的追求」與本句語境不同。",
-        "pursue-mcq-20": "「活動；嗜好」與本句語境不同。"
+        "pursue-mcq-23": "本句的「pursue」指「從事／繼續研究」。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-23"
     },
@@ -3116,11 +2924,9 @@ export default {
       "masked": "Universities exist partly to ____.",
       "options": [
         "pursue-mcq-24",
-        "pursue-mcq-23",
-        "pursue-mcq-25",
-        "pursue-mcq-22",
-        "pursue-mcq-26",
-        "pursue-mcq-21"
+        "pursue-mcq-21",
+        "pursue-mcq-15",
+        "pursue-mcq-39"
       ],
       "explanation": "本句的「pursue knowledge」指「追求知識」。",
       "sentenceIndex": 55,
@@ -3129,12 +2935,10 @@ export default {
         "pursue knowledge"
       ],
       "optionReasons": {
-        "pursue-mcq-24": "本句指「追求知識」。",
-        "pursue-mcq-23": "「從事／繼續研究」與本句語境不同。",
-        "pursue-mcq-25": "「對知識的追求」與本句語境不同。",
-        "pursue-mcq-22": "「智性追求」與本句語境不同。",
-        "pursue-mcq-26": "「繼續探究問題」與本句語境不同。",
-        "pursue-mcq-21": "「休閒活動」與本句語境不同。"
+        "pursue-mcq-24": "本句的「pursue knowledge」指「追求知識」。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-24"
     },
@@ -3146,11 +2950,9 @@ export default {
       "masked": "Scientific inquiry involves the ____ of knowledge.",
       "options": [
         "pursue-mcq-24",
-        "pursue-mcq-23",
-        "pursue-mcq-25",
-        "pursue-mcq-22",
-        "pursue-mcq-26",
-        "pursue-mcq-21"
+        "pursue-reviewed-0c9a25c6e5",
+        "pursue-mcq-15",
+        "pursue-mcq-26"
       ],
       "explanation": "本句的「pursuit」指「追求知識」。",
       "sentenceIndex": 56,
@@ -3159,12 +2961,10 @@ export default {
         "pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-24": "本句指「追求知識」。",
-        "pursue-mcq-23": "「從事／繼續研究」與本句語境不同。",
-        "pursue-mcq-25": "「對知識的追求」與本句語境不同。",
-        "pursue-mcq-22": "「智性追求」與本句語境不同。",
-        "pursue-mcq-26": "「繼續探究問題」與本句語境不同。",
-        "pursue-mcq-21": "「休閒活動」與本句語境不同。"
+        "pursue-mcq-24": "本句的「pursuit」指「追求知識」。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-24"
     },
@@ -3176,11 +2976,9 @@ export default {
       "masked": "Curiosity drives the ____.",
       "options": [
         "pursue-mcq-25",
-        "pursue-mcq-24",
-        "pursue-mcq-26",
-        "pursue-mcq-23",
-        "pursue-mcq-27",
-        "pursue-mcq-22"
+        "pursue-mcq-21",
+        "pursue-mcq-35",
+        "pursue-mcq-18"
       ],
       "explanation": "本句的「pursuit of knowledge」指「對知識的追求」。",
       "sentenceIndex": 57,
@@ -3189,12 +2987,10 @@ export default {
         "pursuit of knowledge"
       ],
       "optionReasons": {
-        "pursue-mcq-25": "本句指「對知識的追求」。",
-        "pursue-mcq-24": "「追求知識」與本句語境不同。",
-        "pursue-mcq-26": "「繼續探究問題」與本句語境不同。",
-        "pursue-mcq-23": "「從事／繼續研究」與本句語境不同。",
-        "pursue-mcq-27": "「沿調查方向追查」與本句語境不同。",
-        "pursue-mcq-22": "「智性追求」與本句語境不同。"
+        "pursue-mcq-25": "本句的「pursuit of knowledge」指「對知識的追求」。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-25"
     },
@@ -3206,11 +3002,9 @@ export default {
       "masked": "The ____ of knowledge can lead researchers into unexpected areas.",
       "options": [
         "pursue-mcq-25",
-        "pursue-mcq-24",
-        "pursue-mcq-26",
+        "pursue-mcq-15",
         "pursue-mcq-23",
-        "pursue-mcq-27",
-        "pursue-mcq-22"
+        "pursue-reviewed-a0fcd3245f"
       ],
       "explanation": "本句的「pursuit」指「對知識的追求」。",
       "sentenceIndex": 58,
@@ -3219,12 +3013,10 @@ export default {
         "pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-25": "本句指「對知識的追求」。",
-        "pursue-mcq-24": "「追求知識」與本句語境不同。",
-        "pursue-mcq-26": "「繼續探究問題」與本句語境不同。",
-        "pursue-mcq-23": "「從事／繼續研究」與本句語境不同。",
-        "pursue-mcq-27": "「沿調查方向追查」與本句語境不同。",
-        "pursue-mcq-22": "「智性追求」與本句語境不同。"
+        "pursue-mcq-25": "本句的「pursuit」指「對知識的追求」。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-25"
     },
@@ -3236,11 +3028,9 @@ export default {
       "masked": "The researchers decided to ____.",
       "options": [
         "pursue-mcq-26",
-        "pursue-mcq-25",
-        "pursue-mcq-27",
-        "pursue-mcq-24",
-        "pursue-mcq-28",
-        "pursue-mcq-23"
+        "pursue-mcq-33",
+        "pursue-mcq-09",
+        "pursue-reviewed-0c9a25c6e5"
       ],
       "explanation": "本句的「pursue the question further」指「繼續探究問題」。",
       "sentenceIndex": 59,
@@ -3249,12 +3039,10 @@ export default {
         "pursue the question further"
       ],
       "optionReasons": {
-        "pursue-mcq-26": "本句指「繼續探究問題」。",
-        "pursue-mcq-25": "「對知識的追求」與本句語境不同。",
-        "pursue-mcq-27": "「沿調查方向追查」與本句語境不同。",
-        "pursue-mcq-24": "「追求知識」與本句語境不同。",
-        "pursue-mcq-28": "「繼續調查」與本句語境不同。",
-        "pursue-mcq-23": "「從事／繼續研究」與本句語境不同。"
+        "pursue-mcq-26": "本句的「pursue the question further」指「繼續探究問題」。",
+        "pursue-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-26"
     },
@@ -3266,11 +3054,9 @@ export default {
       "masked": "We do not have enough evidence to ____ that question yet.",
       "options": [
         "pursue-mcq-26",
-        "pursue-mcq-25",
-        "pursue-mcq-27",
-        "pursue-mcq-24",
-        "pursue-mcq-28",
-        "pursue-mcq-23"
+        "pursue-mcq-42",
+        "pursue-mcq-31",
+        "pursue-mcq-15"
       ],
       "explanation": "本句的「pursue」指「繼續探究問題」。",
       "sentenceIndex": 60,
@@ -3279,12 +3065,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-26": "本句指「繼續探究問題」。",
-        "pursue-mcq-25": "「對知識的追求」與本句語境不同。",
-        "pursue-mcq-27": "「沿調查方向追查」與本句語境不同。",
-        "pursue-mcq-24": "「追求知識」與本句語境不同。",
-        "pursue-mcq-28": "「繼續調查」與本句語境不同。",
-        "pursue-mcq-23": "「從事／繼續研究」與本句語境不同。"
+        "pursue-mcq-26": "本句的「pursue」指「繼續探究問題」。",
+        "pursue-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-26"
     },
@@ -3296,11 +3080,9 @@ export default {
       "masked": "The investigation is ____.",
       "options": [
         "pursue-mcq-27",
-        "pursue-mcq-26",
-        "pursue-mcq-28",
-        "pursue-mcq-25",
-        "pursue-mcq-29",
-        "pursue-mcq-24"
+        "pursue-mcq-40",
+        "pursue-mcq-23",
+        "pursue-reviewed-0c9a25c6e5"
       ],
       "explanation": "本句的「pursuing several lines of inquiry」指「沿調查方向追查」。",
       "sentenceIndex": 61,
@@ -3309,12 +3091,10 @@ export default {
         "pursuing several lines of inquiry"
       ],
       "optionReasons": {
-        "pursue-mcq-27": "本句指「沿調查方向追查」。",
-        "pursue-mcq-26": "「繼續探究問題」與本句語境不同。",
-        "pursue-mcq-28": "「繼續調查」與本句語境不同。",
-        "pursue-mcq-25": "「對知識的追求」與本句語境不同。",
-        "pursue-mcq-29": "「追查線索」與本句語境不同。",
-        "pursue-mcq-24": "「追求知識」與本句語境不同。"
+        "pursue-mcq-27": "本句的「pursuing several lines of inquiry」指「沿調查方向追查」。",
+        "pursue-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-27"
     },
@@ -3326,11 +3106,9 @@ export default {
       "masked": "The evidence suggested a new line of inquiry worth ____.",
       "options": [
         "pursue-mcq-27",
-        "pursue-mcq-26",
-        "pursue-mcq-28",
-        "pursue-mcq-25",
-        "pursue-mcq-29",
-        "pursue-mcq-24"
+        "pursue-mcq-10",
+        "pursue-mcq-19",
+        "pursue-mcq-31"
       ],
       "explanation": "本句的「pursuing」指「沿調查方向追查」。",
       "sentenceIndex": 62,
@@ -3339,12 +3117,10 @@ export default {
         "pursuing"
       ],
       "optionReasons": {
-        "pursue-mcq-27": "本句指「沿調查方向追查」。",
-        "pursue-mcq-26": "「繼續探究問題」與本句語境不同。",
-        "pursue-mcq-28": "「繼續調查」與本句語境不同。",
-        "pursue-mcq-25": "「對知識的追求」與本句語境不同。",
-        "pursue-mcq-29": "「追查線索」與本句語境不同。",
-        "pursue-mcq-24": "「追求知識」與本句語境不同。"
+        "pursue-mcq-27": "本句的「pursuing」指「沿調查方向追查」。",
+        "pursue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-27"
     },
@@ -3356,11 +3132,9 @@ export default {
       "masked": "The committee decided to ____.",
       "options": [
         "pursue-mcq-28",
-        "pursue-mcq-27",
-        "pursue-mcq-29",
-        "pursue-mcq-26",
-        "pursue-mcq-30",
-        "pursue-mcq-25"
+        "pursue-mcq-14",
+        "pursue-mcq-57",
+        "pursue-reviewed-0c9a25c6e5"
       ],
       "explanation": "本句的「pursue an inquiry into the matter」指「繼續調查」。",
       "sentenceIndex": 63,
@@ -3369,12 +3143,10 @@ export default {
         "pursue an inquiry into the matter"
       ],
       "optionReasons": {
-        "pursue-mcq-28": "本句指「繼續調查」。",
-        "pursue-mcq-27": "「沿調查方向追查」與本句語境不同。",
-        "pursue-mcq-29": "「追查線索」與本句語境不同。",
-        "pursue-mcq-26": "「繼續探究問題」與本句語境不同。",
-        "pursue-mcq-30": "「進一步跟進／追究」與本句語境不同。",
-        "pursue-mcq-25": "「對知識的追求」與本句語境不同。"
+        "pursue-mcq-28": "本句的「pursue an inquiry into the matter」指「繼續調查」。",
+        "pursue-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-28"
     },
@@ -3386,11 +3158,9 @@ export default {
       "masked": "Further inquiries are being ____.",
       "options": [
         "pursue-mcq-28",
-        "pursue-mcq-27",
-        "pursue-mcq-29",
-        "pursue-mcq-26",
-        "pursue-mcq-30",
-        "pursue-mcq-25"
+        "pursue-mcq-48",
+        "pursue-mcq-20",
+        "pursue-mcq-38"
       ],
       "explanation": "本句的「pursued」指「繼續調查」。",
       "sentenceIndex": 64,
@@ -3399,12 +3169,10 @@ export default {
         "pursued"
       ],
       "optionReasons": {
-        "pursue-mcq-28": "本句指「繼續調查」。",
-        "pursue-mcq-27": "「沿調查方向追查」與本句語境不同。",
-        "pursue-mcq-29": "「追查線索」與本句語境不同。",
-        "pursue-mcq-26": "「繼續探究問題」與本句語境不同。",
-        "pursue-mcq-30": "「進一步跟進／追究」與本句語境不同。",
-        "pursue-mcq-25": "「對知識的追求」與本句語境不同。"
+        "pursue-mcq-28": "本句的「pursued」指「繼續調查」。",
+        "pursue-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-28"
     },
@@ -3416,11 +3184,9 @@ export default {
       "masked": "Police decided to ____.",
       "options": [
         "pursue-mcq-28",
-        "pursue-mcq-27",
-        "pursue-mcq-29",
-        "pursue-mcq-26",
-        "pursue-mcq-30",
-        "pursue-mcq-25"
+        "pursue-mcq-08",
+        "pursue-mcq-38",
+        "pursue-mcq-15"
       ],
       "explanation": "本句的「pursue the investigation」指「繼續調查」。",
       "sentenceIndex": 65,
@@ -3429,12 +3195,10 @@ export default {
         "pursue the investigation"
       ],
       "optionReasons": {
-        "pursue-mcq-28": "本句指「繼續調查」。",
-        "pursue-mcq-27": "「沿調查方向追查」與本句語境不同。",
-        "pursue-mcq-29": "「追查線索」與本句語境不同。",
-        "pursue-mcq-26": "「繼續探究問題」與本句語境不同。",
-        "pursue-mcq-30": "「進一步跟進／追究」與本句語境不同。",
-        "pursue-mcq-25": "「對知識的追求」與本句語境不同。"
+        "pursue-mcq-28": "本句的「pursue the investigation」指「繼續調查」。",
+        "pursue-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-28"
     },
@@ -3446,11 +3210,9 @@ export default {
       "masked": "The regulator is ____ an investigation into the company's conduct.",
       "options": [
         "pursue-mcq-28",
-        "pursue-mcq-27",
-        "pursue-mcq-29",
-        "pursue-mcq-26",
-        "pursue-mcq-30",
-        "pursue-mcq-25"
+        "pursue-mcq-46",
+        "pursue-mcq-16",
+        "pursue-mcq-31"
       ],
       "explanation": "本句的「pursuing」指「繼續調查」。",
       "sentenceIndex": 66,
@@ -3459,12 +3221,10 @@ export default {
         "pursuing"
       ],
       "optionReasons": {
-        "pursue-mcq-28": "本句指「繼續調查」。",
-        "pursue-mcq-27": "「沿調查方向追查」與本句語境不同。",
-        "pursue-mcq-29": "「追查線索」與本句語境不同。",
-        "pursue-mcq-26": "「繼續探究問題」與本句語境不同。",
-        "pursue-mcq-30": "「進一步跟進／追究」與本句語境不同。",
-        "pursue-mcq-25": "「對知識的追求」與本句語境不同。"
+        "pursue-mcq-28": "本句的「pursuing」指「繼續調查」。",
+        "pursue-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-28"
     },
@@ -3476,11 +3236,9 @@ export default {
       "masked": "Detectives are ____.",
       "options": [
         "pursue-mcq-29",
-        "pursue-mcq-28",
-        "pursue-mcq-30",
-        "pursue-mcq-27",
-        "pursue-mcq-31",
-        "pursue-mcq-26"
+        "pursue-mcq-21",
+        "pursue-mcq-35",
+        "pursue-mcq-10"
       ],
       "explanation": "本句的「pursuing several leads」指「追查線索」。",
       "sentenceIndex": 67,
@@ -3489,12 +3247,10 @@ export default {
         "pursuing several leads"
       ],
       "optionReasons": {
-        "pursue-mcq-29": "本句指「追查線索」。",
-        "pursue-mcq-28": "「繼續調查」與本句語境不同。",
-        "pursue-mcq-30": "「進一步跟進／追究」與本句語境不同。",
-        "pursue-mcq-27": "「沿調查方向追查」與本句語境不同。",
-        "pursue-mcq-31": "「採取法律行動」與本句語境不同。",
-        "pursue-mcq-26": "「繼續探究問題」與本句語境不同。"
+        "pursue-mcq-29": "本句的「pursuing several leads」指「追查線索」。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-29"
     },
@@ -3506,11 +3262,9 @@ export default {
       "masked": "One promising lead was ____ further.",
       "options": [
         "pursue-mcq-29",
-        "pursue-mcq-28",
-        "pursue-mcq-30",
-        "pursue-mcq-27",
-        "pursue-mcq-31",
-        "pursue-mcq-26"
+        "pursue-mcq-26",
+        "pursue-mcq-21",
+        "pursue-reviewed-a0fcd3245f"
       ],
       "explanation": "本句的「pursued」指「追查線索」。",
       "sentenceIndex": 68,
@@ -3519,12 +3273,10 @@ export default {
         "pursued"
       ],
       "optionReasons": {
-        "pursue-mcq-29": "本句指「追查線索」。",
-        "pursue-mcq-28": "「繼續調查」與本句語境不同。",
-        "pursue-mcq-30": "「進一步跟進／追究」與本句語境不同。",
-        "pursue-mcq-27": "「沿調查方向追查」與本句語境不同。",
-        "pursue-mcq-31": "「採取法律行動」與本句語境不同。",
-        "pursue-mcq-26": "「繼續探究問題」與本句語境不同。"
+        "pursue-mcq-29": "本句的「pursued」指「追查線索」。",
+        "pursue-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-29"
     },
@@ -3536,11 +3288,9 @@ export default {
       "masked": "We decided not to ____.",
       "options": [
         "pursue-mcq-30",
-        "pursue-mcq-29",
-        "pursue-mcq-31",
-        "pursue-mcq-28",
-        "pursue-mcq-32",
-        "pursue-mcq-27"
+        "pursue-mcq-34",
+        "pursue-mcq-21",
+        "pursue-mcq-39"
       ],
       "explanation": "本句的「pursue the matter further」指「進一步跟進／追究」。",
       "sentenceIndex": 69,
@@ -3549,12 +3299,10 @@ export default {
         "pursue the matter further"
       ],
       "optionReasons": {
-        "pursue-mcq-30": "本句指「進一步跟進／追究」。",
-        "pursue-mcq-29": "「追查線索」與本句語境不同。",
-        "pursue-mcq-31": "「採取法律行動」與本句語境不同。",
-        "pursue-mcq-28": "「繼續調查」與本句語境不同。",
-        "pursue-mcq-32": "「追討／繼續索償」與本句語境不同。",
-        "pursue-mcq-27": "「沿調查方向追查」與本句語境不同。"
+        "pursue-mcq-30": "本句的「pursue the matter further」指「進一步跟進／追究」。",
+        "pursue-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-30"
     },
@@ -3566,11 +3314,9 @@ export default {
       "masked": "If the problem continues, management will ____ the issue.",
       "options": [
         "pursue-mcq-30",
-        "pursue-mcq-29",
-        "pursue-mcq-31",
-        "pursue-mcq-28",
-        "pursue-mcq-32",
-        "pursue-mcq-27"
+        "pursue-mcq-37",
+        "pursue-mcq-16",
+        "pursue-mcq-41"
       ],
       "explanation": "本句的「pursue」指「進一步跟進／追究」。",
       "sentenceIndex": 70,
@@ -3579,12 +3325,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-30": "本句指「進一步跟進／追究」。",
-        "pursue-mcq-29": "「追查線索」與本句語境不同。",
-        "pursue-mcq-31": "「採取法律行動」與本句語境不同。",
-        "pursue-mcq-28": "「繼續調查」與本句語境不同。",
-        "pursue-mcq-32": "「追討／繼續索償」與本句語境不同。",
-        "pursue-mcq-27": "「沿調查方向追查」與本句語境不同。"
+        "pursue-mcq-30": "本句的「pursue」指「進一步跟進／追究」。",
+        "pursue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-30"
     },
@@ -3596,11 +3340,9 @@ export default {
       "masked": "The company may ____.",
       "options": [
         "pursue-mcq-31",
-        "pursue-mcq-30",
-        "pursue-mcq-32",
-        "pursue-mcq-29",
-        "pursue-mcq-33",
-        "pursue-mcq-28"
+        "pursue-mcq-23",
+        "pursue-mcq-59",
+        "pursue-mcq-33"
       ],
       "explanation": "本句的「pursue legal action」指「採取法律行動」。",
       "sentenceIndex": 71,
@@ -3609,12 +3351,10 @@ export default {
         "pursue legal action"
       ],
       "optionReasons": {
-        "pursue-mcq-31": "本句指「採取法律行動」。",
-        "pursue-mcq-30": "「進一步跟進／追究」與本句語境不同。",
-        "pursue-mcq-32": "「追討／繼續索償」與本句語境不同。",
-        "pursue-mcq-29": "「追查線索」與本句語境不同。",
-        "pursue-mcq-33": "「追討賠償」與本句語境不同。",
-        "pursue-mcq-28": "「繼續調查」與本句語境不同。"
+        "pursue-mcq-31": "本句的「pursue legal action」指「採取法律行動」。",
+        "pursue-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-31"
     },
@@ -3626,10 +3366,8 @@ export default {
       "masked": "She decided not to ____ legal action against the employer.",
       "options": [
         "pursue-mcq-31",
-        "pursue-mcq-30",
-        "pursue-mcq-32",
-        "pursue-mcq-29",
-        "pursue-mcq-33",
+        "pursue-mcq-08",
+        "pursue-mcq-09",
         "pursue-mcq-28"
       ],
       "explanation": "本句的「pursue」指「採取法律行動」。",
@@ -3639,12 +3377,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-31": "本句指「採取法律行動」。",
-        "pursue-mcq-30": "「進一步跟進／追究」與本句語境不同。",
-        "pursue-mcq-32": "「追討／繼續索償」與本句語境不同。",
-        "pursue-mcq-29": "「追查線索」與本句語境不同。",
-        "pursue-mcq-33": "「追討賠償」與本句語境不同。",
-        "pursue-mcq-28": "「繼續調查」與本句語境不同。"
+        "pursue-mcq-31": "本句的「pursue」指「採取法律行動」。",
+        "pursue-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-31"
     },
@@ -3656,11 +3392,9 @@ export default {
       "masked": "The customer decided to ____.",
       "options": [
         "pursue-mcq-32",
-        "pursue-mcq-31",
-        "pursue-mcq-33",
-        "pursue-mcq-30",
-        "pursue-mcq-34",
-        "pursue-mcq-29"
+        "pursue-mcq-18",
+        "pursue-mcq-38",
+        "pursue-mcq-37"
       ],
       "explanation": "本句的「pursue a compensation claim」指「追討／繼續索償」。",
       "sentenceIndex": 73,
@@ -3669,12 +3403,10 @@ export default {
         "pursue a compensation claim"
       ],
       "optionReasons": {
-        "pursue-mcq-32": "本句指「追討／繼續索償」。",
-        "pursue-mcq-31": "「採取法律行動」與本句語境不同。",
-        "pursue-mcq-33": "「追討賠償」與本句語境不同。",
-        "pursue-mcq-30": "「進一步跟進／追究」與本句語境不同。",
-        "pursue-mcq-34": "「尋求補救」與本句語境不同。",
-        "pursue-mcq-29": "「追查線索」與本句語境不同。"
+        "pursue-mcq-32": "本句的「pursue a compensation claim」指「追討／繼續索償」。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-32"
     },
@@ -3686,11 +3418,9 @@ export default {
       "masked": "The insurer advised her not to ____ the claim.",
       "options": [
         "pursue-mcq-32",
-        "pursue-mcq-31",
-        "pursue-mcq-33",
-        "pursue-mcq-30",
-        "pursue-mcq-34",
-        "pursue-mcq-29"
+        "pursue-mcq-39",
+        "pursue-mcq-19",
+        "pursue-mcq-10"
       ],
       "explanation": "本句的「pursue」指「追討／繼續索償」。",
       "sentenceIndex": 74,
@@ -3699,12 +3429,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-32": "本句指「追討／繼續索償」。",
-        "pursue-mcq-31": "「採取法律行動」與本句語境不同。",
-        "pursue-mcq-33": "「追討賠償」與本句語境不同。",
-        "pursue-mcq-30": "「進一步跟進／追究」與本句語境不同。",
-        "pursue-mcq-34": "「尋求補救」與本句語境不同。",
-        "pursue-mcq-29": "「追查線索」與本句語境不同。"
+        "pursue-mcq-32": "本句的「pursue」指「追討／繼續索償」。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-32"
     },
@@ -3716,11 +3444,9 @@ export default {
       "masked": "The company may ____ for breach of contract.",
       "options": [
         "pursue-mcq-33",
-        "pursue-mcq-32",
-        "pursue-mcq-34",
+        "pursue-mcq-23",
         "pursue-mcq-31",
-        "pursue-mcq-35",
-        "pursue-mcq-30"
+        "pursue-mcq-21"
       ],
       "explanation": "本句的「pursue damages」指「追討賠償」。",
       "sentenceIndex": 75,
@@ -3729,12 +3455,10 @@ export default {
         "pursue damages"
       ],
       "optionReasons": {
-        "pursue-mcq-33": "本句指「追討賠償」。",
-        "pursue-mcq-32": "「追討／繼續索償」與本句語境不同。",
-        "pursue-mcq-34": "「尋求補救」與本句語境不同。",
-        "pursue-mcq-31": "「採取法律行動」與本句語境不同。",
-        "pursue-mcq-35": "「繼續談判」與本句語境不同。",
-        "pursue-mcq-30": "「進一步跟進／追究」與本句語境不同。"
+        "pursue-mcq-33": "本句的「pursue damages」指「追討賠償」。",
+        "pursue-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-33"
     },
@@ -3746,11 +3470,9 @@ export default {
       "masked": "The claimant ____ damages through the courts.",
       "options": [
         "pursue-mcq-33",
-        "pursue-mcq-32",
-        "pursue-mcq-34",
-        "pursue-mcq-31",
         "pursue-mcq-35",
-        "pursue-mcq-30"
+        "pursue-mcq-38",
+        "pursue-mcq-16"
       ],
       "explanation": "本句的「pursued」指「追討賠償」。",
       "sentenceIndex": 76,
@@ -3759,12 +3481,10 @@ export default {
         "pursued"
       ],
       "optionReasons": {
-        "pursue-mcq-33": "本句指「追討賠償」。",
-        "pursue-mcq-32": "「追討／繼續索償」與本句語境不同。",
-        "pursue-mcq-34": "「尋求補救」與本句語境不同。",
-        "pursue-mcq-31": "「採取法律行動」與本句語境不同。",
-        "pursue-mcq-35": "「繼續談判」與本句語境不同。",
-        "pursue-mcq-30": "「進一步跟進／追究」與本句語境不同。"
+        "pursue-mcq-33": "本句的「pursued」指「追討賠償」。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-33"
     },
@@ -3776,11 +3496,9 @@ export default {
       "masked": "Employees may ____ if internal procedures fail.",
       "options": [
         "pursue-mcq-34",
-        "pursue-mcq-33",
-        "pursue-mcq-35",
-        "pursue-mcq-32",
-        "pursue-mcq-36",
-        "pursue-mcq-31"
+        "pursue-mcq-40",
+        "pursue-mcq-20",
+        "pursue-mcq-17"
       ],
       "explanation": "本句的「pursue a legal remedy」指「尋求補救」。",
       "sentenceIndex": 77,
@@ -3789,12 +3507,10 @@ export default {
         "pursue a legal remedy"
       ],
       "optionReasons": {
-        "pursue-mcq-34": "本句指「尋求補救」。",
-        "pursue-mcq-33": "「追討賠償」與本句語境不同。",
-        "pursue-mcq-35": "「繼續談判」與本句語境不同。",
-        "pursue-mcq-32": "「追討／繼續索償」與本句語境不同。",
-        "pursue-mcq-36": "「追求和平」與本句語境不同。",
-        "pursue-mcq-31": "「採取法律行動」與本句語境不同。"
+        "pursue-mcq-34": "本句的「pursue a legal remedy」指「尋求補救」。",
+        "pursue-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-34"
     },
@@ -3806,11 +3522,9 @@ export default {
       "masked": "Several remedies may be available to ____.",
       "options": [
         "pursue-mcq-34",
-        "pursue-mcq-33",
-        "pursue-mcq-35",
-        "pursue-mcq-32",
-        "pursue-mcq-36",
-        "pursue-mcq-31"
+        "pursue-mcq-47",
+        "pursue-mcq-41",
+        "pursue-mcq-18"
       ],
       "explanation": "本句的「pursue」指「尋求補救」。",
       "sentenceIndex": 78,
@@ -3819,12 +3533,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-34": "本句指「尋求補救」。",
-        "pursue-mcq-33": "「追討賠償」與本句語境不同。",
-        "pursue-mcq-35": "「繼續談判」與本句語境不同。",
-        "pursue-mcq-32": "「追討／繼續索償」與本句語境不同。",
-        "pursue-mcq-36": "「追求和平」與本句語境不同。",
-        "pursue-mcq-31": "「採取法律行動」與本句語境不同。"
+        "pursue-mcq-34": "本句的「pursue」指「尋求補救」。",
+        "pursue-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-34"
     },
@@ -3836,11 +3548,9 @@ export default {
       "masked": "The authorities decided not to ____.",
       "options": [
         "pursue-mcq-34",
-        "pursue-mcq-33",
-        "pursue-mcq-35",
-        "pursue-mcq-32",
-        "pursue-mcq-36",
-        "pursue-mcq-31"
+        "pursue-mcq-44",
+        "pursue-mcq-20",
+        "pursue-mcq-35"
       ],
       "explanation": "本句的「pursue the case」指「尋求補救」。",
       "sentenceIndex": 79,
@@ -3849,12 +3559,10 @@ export default {
         "pursue the case"
       ],
       "optionReasons": {
-        "pursue-mcq-34": "本句指「尋求補救」。",
-        "pursue-mcq-33": "「追討賠償」與本句語境不同。",
-        "pursue-mcq-35": "「繼續談判」與本句語境不同。",
-        "pursue-mcq-32": "「追討／繼續索償」與本句語境不同。",
-        "pursue-mcq-36": "「追求和平」與本句語境不同。",
-        "pursue-mcq-31": "「採取法律行動」與本句語境不同。"
+        "pursue-mcq-34": "本句的「pursue the case」指「尋求補救」。",
+        "pursue-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-34"
     },
@@ -3866,11 +3574,9 @@ export default {
       "masked": "The lawyer advised the client that the case was worth ____.",
       "options": [
         "pursue-mcq-34",
-        "pursue-mcq-33",
-        "pursue-mcq-35",
-        "pursue-mcq-32",
-        "pursue-mcq-36",
-        "pursue-mcq-31"
+        "pursue-mcq-40",
+        "pursue-mcq-21",
+        "pursue-mcq-47"
       ],
       "explanation": "本句的「pursuing」指「尋求補救」。",
       "sentenceIndex": 80,
@@ -3879,12 +3585,10 @@ export default {
         "pursuing"
       ],
       "optionReasons": {
-        "pursue-mcq-34": "本句指「尋求補救」。",
-        "pursue-mcq-33": "「追討賠償」與本句語境不同。",
-        "pursue-mcq-35": "「繼續談判」與本句語境不同。",
-        "pursue-mcq-32": "「追討／繼續索償」與本句語境不同。",
-        "pursue-mcq-36": "「追求和平」與本句語境不同。",
-        "pursue-mcq-31": "「採取法律行動」與本句語境不同。"
+        "pursue-mcq-34": "本句的「pursuing」指「尋求補救」。",
+        "pursue-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-34"
     },
@@ -3896,11 +3600,9 @@ export default {
       "masked": "Both sides agreed to ____.",
       "options": [
         "pursue-mcq-35",
-        "pursue-mcq-34",
-        "pursue-mcq-36",
+        "pursue-mcq-41",
         "pursue-mcq-33",
-        "pursue-mcq-37",
-        "pursue-mcq-32"
+        "pursue-mcq-52"
       ],
       "explanation": "本句的「pursue negotiations」指「繼續談判」。",
       "sentenceIndex": 81,
@@ -3909,12 +3611,10 @@ export default {
         "pursue negotiations"
       ],
       "optionReasons": {
-        "pursue-mcq-35": "本句指「繼續談判」。",
-        "pursue-mcq-34": "「尋求補救」與本句語境不同。",
-        "pursue-mcq-36": "「追求和平」與本句語境不同。",
-        "pursue-mcq-33": "「追討賠償」與本句語境不同。",
-        "pursue-mcq-37": "「尋求合作」與本句語境不同。",
-        "pursue-mcq-32": "「追討／繼續索償」與本句語境不同。"
+        "pursue-mcq-35": "本句的「pursue negotiations」指「繼續談判」。",
+        "pursue-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-35"
     },
@@ -3926,11 +3626,9 @@ export default {
       "masked": "The company is ____ negotiations with several investors.",
       "options": [
         "pursue-mcq-35",
-        "pursue-mcq-34",
-        "pursue-mcq-36",
-        "pursue-mcq-33",
-        "pursue-mcq-37",
-        "pursue-mcq-32"
+        "pursue-mcq-39",
+        "pursue-mcq-07",
+        "pursue-mcq-10"
       ],
       "explanation": "本句的「pursuing」指「繼續談判」。",
       "sentenceIndex": 82,
@@ -3939,12 +3637,10 @@ export default {
         "pursuing"
       ],
       "optionReasons": {
-        "pursue-mcq-35": "本句指「繼續談判」。",
-        "pursue-mcq-34": "「尋求補救」與本句語境不同。",
-        "pursue-mcq-36": "「追求和平」與本句語境不同。",
-        "pursue-mcq-33": "「追討賠償」與本句語境不同。",
-        "pursue-mcq-37": "「尋求合作」與本句語境不同。",
-        "pursue-mcq-32": "「追討／繼續索償」與本句語境不同。"
+        "pursue-mcq-35": "本句的「pursuing」指「繼續談判」。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-35"
     },
@@ -3956,11 +3652,9 @@ export default {
       "masked": "The parties agreed to ____.",
       "options": [
         "pursue-mcq-35",
-        "pursue-mcq-34",
-        "pursue-mcq-36",
-        "pursue-mcq-33",
-        "pursue-mcq-37",
-        "pursue-mcq-32"
+        "pursue-reviewed-0c9a25c6e5",
+        "pursue-mcq-50",
+        "pursue-mcq-40"
       ],
       "explanation": "本句的「pursue further talks」指「繼續談判」。",
       "sentenceIndex": 83,
@@ -3969,12 +3663,10 @@ export default {
         "pursue further talks"
       ],
       "optionReasons": {
-        "pursue-mcq-35": "本句指「繼續談判」。",
-        "pursue-mcq-34": "「尋求補救」與本句語境不同。",
-        "pursue-mcq-36": "「追求和平」與本句語境不同。",
-        "pursue-mcq-33": "「追討賠償」與本句語境不同。",
-        "pursue-mcq-37": "「尋求合作」與本句語境不同。",
-        "pursue-mcq-32": "「追討／繼續索償」與本句語境不同。"
+        "pursue-mcq-35": "本句的「pursue further talks」指「繼續談判」。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-35"
     },
@@ -3986,11 +3678,9 @@ export default {
       "masked": "Informal talks were ____ before formal negotiations began.",
       "options": [
         "pursue-mcq-35",
-        "pursue-mcq-34",
-        "pursue-mcq-36",
-        "pursue-mcq-33",
-        "pursue-mcq-37",
-        "pursue-mcq-32"
+        "pursue-mcq-42",
+        "pursue-mcq-15",
+        "pursue-mcq-21"
       ],
       "explanation": "本句的「pursued」指「繼續談判」。",
       "sentenceIndex": 84,
@@ -3999,12 +3689,10 @@ export default {
         "pursued"
       ],
       "optionReasons": {
-        "pursue-mcq-35": "本句指「繼續談判」。",
-        "pursue-mcq-34": "「尋求補救」與本句語境不同。",
-        "pursue-mcq-36": "「追求和平」與本句語境不同。",
-        "pursue-mcq-33": "「追討賠償」與本句語境不同。",
-        "pursue-mcq-37": "「尋求合作」與本句語境不同。",
-        "pursue-mcq-32": "「追討／繼續索償」與本句語境不同。"
+        "pursue-mcq-35": "本句的「pursued」指「繼續談判」。",
+        "pursue-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-35"
     },
@@ -4016,11 +3704,9 @@ export default {
       "masked": "Both sides committed to ____.",
       "options": [
         "pursue-mcq-36",
-        "pursue-mcq-35",
-        "pursue-mcq-37",
-        "pursue-mcq-34",
-        "pursue-mcq-38",
-        "pursue-mcq-33"
+        "pursue-mcq-20",
+        "pursue-mcq-39",
+        "pursue-reviewed-a0fcd3245f"
       ],
       "explanation": "本句的「pursuing peace」指「追求和平」。",
       "sentenceIndex": 85,
@@ -4029,12 +3715,10 @@ export default {
         "pursuing peace"
       ],
       "optionReasons": {
-        "pursue-mcq-36": "本句指「追求和平」。",
-        "pursue-mcq-35": "「繼續談判」與本句語境不同。",
-        "pursue-mcq-37": "「尋求合作」與本句語境不同。",
-        "pursue-mcq-34": "「尋求補救」與本句語境不同。",
-        "pursue-mcq-38": "「奉行／推行政策」與本句語境不同。",
-        "pursue-mcq-33": "「追討賠償」與本句語境不同。"
+        "pursue-mcq-36": "本句的「pursuing peace」指「追求和平」。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-36"
     },
@@ -4046,11 +3730,9 @@ export default {
       "masked": "Diplomacy remains one way to ____ a peaceful settlement.",
       "options": [
         "pursue-mcq-36",
-        "pursue-mcq-35",
-        "pursue-mcq-37",
-        "pursue-mcq-34",
-        "pursue-mcq-38",
-        "pursue-mcq-33"
+        "pursue-mcq-23",
+        "pursue-mcq-31",
+        "pursue-mcq-20"
       ],
       "explanation": "本句的「pursue」指「追求和平」。",
       "sentenceIndex": 86,
@@ -4059,12 +3741,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-36": "本句指「追求和平」。",
-        "pursue-mcq-35": "「繼續談判」與本句語境不同。",
-        "pursue-mcq-37": "「尋求合作」與本句語境不同。",
-        "pursue-mcq-34": "「尋求補救」與本句語境不同。",
-        "pursue-mcq-38": "「奉行／推行政策」與本句語境不同。",
-        "pursue-mcq-33": "「追討賠償」與本句語境不同。"
+        "pursue-mcq-36": "本句的「pursue」指「追求和平」。",
+        "pursue-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-36"
     },
@@ -4076,11 +3756,9 @@ export default {
       "masked": "The departments agreed to ____.",
       "options": [
         "pursue-mcq-37",
-        "pursue-mcq-36",
-        "pursue-mcq-38",
-        "pursue-mcq-35",
-        "pursue-mcq-39",
-        "pursue-mcq-34"
+        "pursue-mcq-43",
+        "pursue-mcq-44",
+        "pursue-mcq-31"
       ],
       "explanation": "本句的「pursue closer cooperation」指「尋求合作」。",
       "sentenceIndex": 87,
@@ -4089,12 +3767,10 @@ export default {
         "pursue closer cooperation"
       ],
       "optionReasons": {
-        "pursue-mcq-37": "本句指「尋求合作」。",
-        "pursue-mcq-36": "「追求和平」與本句語境不同。",
-        "pursue-mcq-38": "「奉行／推行政策」與本句語境不同。",
-        "pursue-mcq-35": "「繼續談判」與本句語境不同。",
-        "pursue-mcq-39": "「採取策略」與本句語境不同。",
-        "pursue-mcq-34": "「尋求補救」與本句語境不同。"
+        "pursue-mcq-37": "本句的「pursue closer cooperation」指「尋求合作」。",
+        "pursue-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-37"
     },
@@ -4106,11 +3782,9 @@ export default {
       "masked": "The organisation is ____ partnerships with universities.",
       "options": [
         "pursue-mcq-37",
-        "pursue-mcq-36",
-        "pursue-mcq-38",
-        "pursue-mcq-35",
-        "pursue-mcq-39",
-        "pursue-mcq-34"
+        "pursue-mcq-31",
+        "pursue-mcq-46",
+        "pursue-mcq-18"
       ],
       "explanation": "本句的「pursuing」指「尋求合作」。",
       "sentenceIndex": 88,
@@ -4119,12 +3793,10 @@ export default {
         "pursuing"
       ],
       "optionReasons": {
-        "pursue-mcq-37": "本句指「尋求合作」。",
-        "pursue-mcq-36": "「追求和平」與本句語境不同。",
-        "pursue-mcq-38": "「奉行／推行政策」與本句語境不同。",
-        "pursue-mcq-35": "「繼續談判」與本句語境不同。",
-        "pursue-mcq-39": "「採取策略」與本句語境不同。",
-        "pursue-mcq-34": "「尋求補救」與本句語境不同。"
+        "pursue-mcq-37": "本句的「pursuing」指「尋求合作」。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-37"
     },
@@ -4136,11 +3808,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "pursue-mcq-38",
-        "pursue-mcq-37",
-        "pursue-mcq-39",
         "pursue-mcq-36",
         "pursue-mcq-40",
-        "pursue-mcq-35"
+        "pursue-reviewed-a0fcd3245f"
       ],
       "explanation": "本句的「pursued a policy of rapid expansion」指「奉行／推行政策」。",
       "sentenceIndex": 89,
@@ -4149,12 +3819,10 @@ export default {
         "pursued a policy of rapid expansion"
       ],
       "optionReasons": {
-        "pursue-mcq-38": "本句指「奉行／推行政策」。",
-        "pursue-mcq-37": "「尋求合作」與本句語境不同。",
-        "pursue-mcq-39": "「採取策略」與本句語境不同。",
-        "pursue-mcq-36": "「追求和平」與本句語境不同。",
-        "pursue-mcq-40": "「採取方法」與本句語境不同。",
-        "pursue-mcq-35": "「繼續談判」與本句語境不同。"
+        "pursue-mcq-38": "本句的「pursued a policy of rapid expansion」指「奉行／推行政策」。",
+        "pursue-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-38"
     },
@@ -4166,11 +3834,9 @@ export default {
       "masked": "Management ____ a cautious policy.",
       "options": [
         "pursue-mcq-38",
-        "pursue-mcq-37",
-        "pursue-mcq-39",
-        "pursue-mcq-36",
-        "pursue-mcq-40",
-        "pursue-mcq-35"
+        "pursue-mcq-12",
+        "pursue-reviewed-a0fcd3245f",
+        "pursue-mcq-34"
       ],
       "explanation": "本句的「pursued」指「奉行／推行政策」。",
       "sentenceIndex": 90,
@@ -4179,12 +3845,10 @@ export default {
         "pursued"
       ],
       "optionReasons": {
-        "pursue-mcq-38": "本句指「奉行／推行政策」。",
-        "pursue-mcq-37": "「尋求合作」與本句語境不同。",
-        "pursue-mcq-39": "「採取策略」與本句語境不同。",
-        "pursue-mcq-36": "「追求和平」與本句語境不同。",
-        "pursue-mcq-40": "「採取方法」與本句語境不同。",
-        "pursue-mcq-35": "「繼續談判」與本句語境不同。"
+        "pursue-mcq-38": "本句的「pursued」指「奉行／推行政策」。",
+        "pursue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-38"
     },
@@ -4196,11 +3860,9 @@ export default {
       "masked": "The firm ____.",
       "options": [
         "pursue-mcq-39",
-        "pursue-mcq-38",
-        "pursue-mcq-40",
-        "pursue-mcq-37",
-        "pursue-mcq-41",
-        "pursue-mcq-36"
+        "pursue-mcq-12",
+        "pursue-mcq-20",
+        "pursue-mcq-47"
       ],
       "explanation": "本句的「pursued an aggressive growth strategy」指「採取策略」。",
       "sentenceIndex": 91,
@@ -4209,12 +3871,10 @@ export default {
         "pursued an aggressive growth strategy"
       ],
       "optionReasons": {
-        "pursue-mcq-39": "本句指「採取策略」。",
-        "pursue-mcq-38": "「奉行／推行政策」與本句語境不同。",
-        "pursue-mcq-40": "「採取方法」與本句語境不同。",
-        "pursue-mcq-37": "「尋求合作」與本句語境不同。",
-        "pursue-mcq-41": "「採取行動方針」與本句語境不同。",
-        "pursue-mcq-36": "「追求和平」與本句語境不同。"
+        "pursue-mcq-39": "本句的「pursued an aggressive growth strategy」指「採取策略」。",
+        "pursue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-39"
     },
@@ -4226,11 +3886,9 @@ export default {
       "masked": "The team decided to ____ a different strategy.",
       "options": [
         "pursue-mcq-39",
-        "pursue-mcq-38",
-        "pursue-mcq-40",
-        "pursue-mcq-37",
-        "pursue-mcq-41",
-        "pursue-mcq-36"
+        "pursue-mcq-43",
+        "pursue-mcq-07",
+        "pursue-mcq-34"
       ],
       "explanation": "本句的「pursue」指「採取策略」。",
       "sentenceIndex": 92,
@@ -4239,12 +3897,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-39": "本句指「採取策略」。",
-        "pursue-mcq-38": "「奉行／推行政策」與本句語境不同。",
-        "pursue-mcq-40": "「採取方法」與本句語境不同。",
-        "pursue-mcq-37": "「尋求合作」與本句語境不同。",
-        "pursue-mcq-41": "「採取行動方針」與本句語境不同。",
-        "pursue-mcq-36": "「追求和平」與本句語境不同。"
+        "pursue-mcq-39": "本句的「pursue」指「採取策略」。",
+        "pursue-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-39"
     },
@@ -4256,11 +3912,9 @@ export default {
       "masked": "The organisation is ____.",
       "options": [
         "pursue-mcq-40",
-        "pursue-mcq-39",
-        "pursue-mcq-41",
-        "pursue-mcq-38",
-        "pursue-mcq-42",
-        "pursue-mcq-37"
+        "pursue-mcq-36",
+        "pursue-reviewed-a0fcd3245f",
+        "pursue-mcq-17"
       ],
       "explanation": "本句的「pursuing a more collaborative approach」指「採取方法」。",
       "sentenceIndex": 93,
@@ -4269,12 +3923,10 @@ export default {
         "pursuing a more collaborative approach"
       ],
       "optionReasons": {
-        "pursue-mcq-40": "本句指「採取方法」。",
-        "pursue-mcq-39": "「採取策略」與本句語境不同。",
-        "pursue-mcq-41": "「採取行動方針」與本句語境不同。",
-        "pursue-mcq-38": "「奉行／推行政策」與本句語境不同。",
-        "pursue-mcq-42": "「追趕／追捕某人」與本句語境不同。",
-        "pursue-mcq-37": "「尋求合作」與本句語境不同。"
+        "pursue-mcq-40": "本句的「pursuing a more collaborative approach」指「採取方法」。",
+        "pursue-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-40"
     },
@@ -4286,11 +3938,9 @@ export default {
       "masked": "We decided not to ____ that approach.",
       "options": [
         "pursue-mcq-40",
-        "pursue-mcq-39",
-        "pursue-mcq-41",
-        "pursue-mcq-38",
-        "pursue-mcq-42",
-        "pursue-mcq-37"
+        "pursue-mcq-07",
+        "pursue-mcq-35",
+        "pursue-mcq-18"
       ],
       "explanation": "本句的「pursue」指「採取方法」。",
       "sentenceIndex": 94,
@@ -4299,12 +3949,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-40": "本句指「採取方法」。",
-        "pursue-mcq-39": "「採取策略」與本句語境不同。",
-        "pursue-mcq-41": "「採取行動方針」與本句語境不同。",
-        "pursue-mcq-38": "「奉行／推行政策」與本句語境不同。",
-        "pursue-mcq-42": "「追趕／追捕某人」與本句語境不同。",
-        "pursue-mcq-37": "「尋求合作」與本句語境不同。"
+        "pursue-mcq-40": "本句的「pursue」指「採取方法」。",
+        "pursue-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-40"
     },
@@ -4316,11 +3964,9 @@ export default {
       "masked": "Management chose to ____.",
       "options": [
         "pursue-mcq-41",
-        "pursue-mcq-40",
-        "pursue-mcq-42",
-        "pursue-mcq-39",
         "pursue-mcq-43",
-        "pursue-mcq-38"
+        "pursue-mcq-13",
+        "pursue-mcq-35"
       ],
       "explanation": "本句的「pursue a different course of action」指「採取行動方針」。",
       "sentenceIndex": 95,
@@ -4329,12 +3975,10 @@ export default {
         "pursue a different course of action"
       ],
       "optionReasons": {
-        "pursue-mcq-41": "本句指「採取行動方針」。",
-        "pursue-mcq-40": "「採取方法」與本句語境不同。",
-        "pursue-mcq-42": "「追趕／追捕某人」與本句語境不同。",
-        "pursue-mcq-39": "「採取策略」與本句語境不同。",
-        "pursue-mcq-43": "「追捕疑犯」與本句語境不同。",
-        "pursue-mcq-38": "「奉行／推行政策」與本句語境不同。"
+        "pursue-mcq-41": "本句的「pursue a different course of action」指「採取行動方針」。",
+        "pursue-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-41"
     },
@@ -4346,11 +3990,9 @@ export default {
       "masked": "Before ____ this course of action, consider the risks.",
       "options": [
         "pursue-mcq-41",
-        "pursue-mcq-40",
-        "pursue-mcq-42",
-        "pursue-mcq-39",
-        "pursue-mcq-43",
-        "pursue-mcq-38"
+        "pursue-mcq-44",
+        "pursue-mcq-27",
+        "pursue-mcq-08"
       ],
       "explanation": "本句的「pursuing」指「採取行動方針」。",
       "sentenceIndex": 96,
@@ -4359,12 +4001,10 @@ export default {
         "pursuing"
       ],
       "optionReasons": {
-        "pursue-mcq-41": "本句指「採取行動方針」。",
-        "pursue-mcq-40": "「採取方法」與本句語境不同。",
-        "pursue-mcq-42": "「追趕／追捕某人」與本句語境不同。",
-        "pursue-mcq-39": "「採取策略」與本句語境不同。",
-        "pursue-mcq-43": "「追捕疑犯」與本句語境不同。",
-        "pursue-mcq-38": "「奉行／推行政策」與本句語境不同。"
+        "pursue-mcq-41": "本句的「pursuing」指「採取行動方針」。",
+        "pursue-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-41"
     },
@@ -4377,10 +4017,8 @@ export default {
       "options": [
         "pursue-mcq-42",
         "pursue-mcq-41",
-        "pursue-mcq-43",
-        "pursue-mcq-40",
-        "pursue-mcq-44",
-        "pursue-mcq-39"
+        "pursue-reviewed-0c9a25c6e5",
+        "pursue-mcq-37"
       ],
       "explanation": "本句的「pursued the suspect」指「追趕／追捕某人」。",
       "sentenceIndex": 97,
@@ -4389,12 +4027,10 @@ export default {
         "pursued the suspect"
       ],
       "optionReasons": {
-        "pursue-mcq-42": "本句指「追趕／追捕某人」。",
-        "pursue-mcq-41": "「採取行動方針」與本句語境不同。",
-        "pursue-mcq-43": "「追捕疑犯」與本句語境不同。",
-        "pursue-mcq-40": "「採取方法」與本句語境不同。",
-        "pursue-mcq-44": "「追截車輛」與本句語境不同。",
-        "pursue-mcq-39": "「採取策略」與本句語境不同。"
+        "pursue-mcq-42": "本句的「pursued the suspect」指「追趕／追捕某人」。",
+        "pursue-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-42"
     },
@@ -4406,11 +4042,9 @@ export default {
       "masked": "The dog ____ the rabbit across the field.",
       "options": [
         "pursue-mcq-42",
-        "pursue-mcq-41",
-        "pursue-mcq-43",
-        "pursue-mcq-40",
-        "pursue-mcq-44",
-        "pursue-mcq-39"
+        "pursue-mcq-19",
+        "pursue-mcq-37",
+        "pursue-mcq-38"
       ],
       "explanation": "本句的「pursued」指「追趕／追捕某人」。",
       "sentenceIndex": 98,
@@ -4419,12 +4053,10 @@ export default {
         "pursued"
       ],
       "optionReasons": {
-        "pursue-mcq-42": "本句指「追趕／追捕某人」。",
-        "pursue-mcq-41": "「採取行動方針」與本句語境不同。",
-        "pursue-mcq-43": "「追捕疑犯」與本句語境不同。",
-        "pursue-mcq-40": "「採取方法」與本句語境不同。",
-        "pursue-mcq-44": "「追截車輛」與本句語境不同。",
-        "pursue-mcq-39": "「採取策略」與本句語境不同。"
+        "pursue-mcq-42": "本句的「pursued」指「追趕／追捕某人」。",
+        "pursue-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-42"
     },
@@ -4436,11 +4068,9 @@ export default {
       "masked": "Officers ____.",
       "options": [
         "pursue-mcq-43",
-        "pursue-mcq-42",
-        "pursue-mcq-44",
-        "pursue-mcq-41",
-        "pursue-mcq-45",
-        "pursue-mcq-40"
+        "pursue-mcq-15",
+        "pursue-mcq-17",
+        "pursue-mcq-10"
       ],
       "explanation": "本句的「pursued the suspect on foot」指「追捕疑犯」。",
       "sentenceIndex": 99,
@@ -4449,12 +4079,10 @@ export default {
         "pursued the suspect on foot"
       ],
       "optionReasons": {
-        "pursue-mcq-43": "本句指「追捕疑犯」。",
-        "pursue-mcq-42": "「追趕／追捕某人」與本句語境不同。",
-        "pursue-mcq-44": "「追截車輛」與本句語境不同。",
-        "pursue-mcq-41": "「採取行動方針」與本句語境不同。",
-        "pursue-mcq-45": "「追捕獵物」與本句語境不同。",
-        "pursue-mcq-40": "「採取方法」與本句語境不同。"
+        "pursue-mcq-43": "本句的「pursued the suspect on foot」指「追捕疑犯」。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-43"
     },
@@ -4466,11 +4094,9 @@ export default {
       "masked": "The suspect was ____ through several streets.",
       "options": [
         "pursue-mcq-43",
-        "pursue-mcq-42",
-        "pursue-mcq-44",
-        "pursue-mcq-41",
-        "pursue-mcq-45",
-        "pursue-mcq-40"
+        "pursue-mcq-10",
+        "pursue-mcq-23",
+        "pursue-mcq-16"
       ],
       "explanation": "本句的「pursued」指「追捕疑犯」。",
       "sentenceIndex": 100,
@@ -4479,12 +4105,10 @@ export default {
         "pursued"
       ],
       "optionReasons": {
-        "pursue-mcq-43": "本句指「追捕疑犯」。",
-        "pursue-mcq-42": "「追趕／追捕某人」與本句語境不同。",
-        "pursue-mcq-44": "「追截車輛」與本句語境不同。",
-        "pursue-mcq-41": "「採取行動方針」與本句語境不同。",
-        "pursue-mcq-45": "「追捕獵物」與本句語境不同。",
-        "pursue-mcq-40": "「採取方法」與本句語境不同。"
+        "pursue-mcq-43": "本句的「pursued」指「追捕疑犯」。",
+        "pursue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-43"
     },
@@ -4496,11 +4120,9 @@ export default {
       "masked": "Police ____.",
       "options": [
         "pursue-mcq-44",
-        "pursue-mcq-43",
-        "pursue-mcq-45",
-        "pursue-mcq-42",
-        "pursue-mcq-46",
-        "pursue-mcq-41"
+        "pursue-mcq-37",
+        "pursue-mcq-39",
+        "pursue-mcq-35"
       ],
       "explanation": "本句的「pursued the stolen car」指「追截車輛」。",
       "sentenceIndex": 101,
@@ -4509,12 +4131,10 @@ export default {
         "pursued the stolen car"
       ],
       "optionReasons": {
-        "pursue-mcq-44": "本句指「追截車輛」。",
-        "pursue-mcq-43": "「追捕疑犯」與本句語境不同。",
-        "pursue-mcq-45": "「追捕獵物」與本句語境不同。",
-        "pursue-mcq-42": "「追趕／追捕某人」與本句語境不同。",
-        "pursue-mcq-46": "「追趕；追捕」與本句語境不同。",
-        "pursue-mcq-41": "「採取行動方針」與本句語境不同。"
+        "pursue-mcq-44": "本句的「pursued the stolen car」指「追截車輛」。",
+        "pursue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-44"
     },
@@ -4526,11 +4146,9 @@ export default {
       "masked": "Officers stopped ____ the vehicle because of safety concerns.",
       "options": [
         "pursue-mcq-44",
-        "pursue-mcq-43",
-        "pursue-mcq-45",
-        "pursue-mcq-42",
-        "pursue-mcq-46",
-        "pursue-mcq-41"
+        "pursue-mcq-17",
+        "pursue-mcq-19",
+        "pursue-mcq-38"
       ],
       "explanation": "本句的「pursuing」指「追截車輛」。",
       "sentenceIndex": 102,
@@ -4539,12 +4157,10 @@ export default {
         "pursuing"
       ],
       "optionReasons": {
-        "pursue-mcq-44": "本句指「追截車輛」。",
-        "pursue-mcq-43": "「追捕疑犯」與本句語境不同。",
-        "pursue-mcq-45": "「追捕獵物」與本句語境不同。",
-        "pursue-mcq-42": "「追趕／追捕某人」與本句語境不同。",
-        "pursue-mcq-46": "「追趕；追捕」與本句語境不同。",
-        "pursue-mcq-41": "「採取行動方針」與本句語境不同。"
+        "pursue-mcq-44": "本句的「pursuing」指「追截車輛」。",
+        "pursue-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-44"
     },
@@ -4556,11 +4172,9 @@ export default {
       "masked": "The forces ____.",
       "options": [
         "pursue-mcq-45",
-        "pursue-mcq-44",
-        "pursue-mcq-46",
-        "pursue-mcq-43",
-        "pursue-mcq-47",
-        "pursue-mcq-42"
+        "pursue-mcq-17",
+        "pursue-mcq-16",
+        "pursue-mcq-41"
       ],
       "explanation": "本句的「pursued the retreating enemy」指「追捕獵物」。",
       "sentenceIndex": 103,
@@ -4569,12 +4183,10 @@ export default {
         "pursued the retreating enemy"
       ],
       "optionReasons": {
-        "pursue-mcq-45": "本句指「追捕獵物」。",
-        "pursue-mcq-44": "「追截車輛」與本句語境不同。",
-        "pursue-mcq-46": "「追趕；追捕」與本句語境不同。",
-        "pursue-mcq-43": "「追捕疑犯」與本句語境不同。",
-        "pursue-mcq-47": "「展開追捕」與本句語境不同。",
-        "pursue-mcq-42": "「追趕／追捕某人」與本句語境不同。"
+        "pursue-mcq-45": "本句的「pursued the retreating enemy」指「追捕獵物」。",
+        "pursue-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-45"
     },
@@ -4586,11 +4198,9 @@ export default {
       "masked": "They were ordered not to ____ beyond the border.",
       "options": [
         "pursue-mcq-45",
-        "pursue-mcq-44",
-        "pursue-mcq-46",
-        "pursue-mcq-43",
-        "pursue-mcq-47",
-        "pursue-mcq-42"
+        "pursue-mcq-40",
+        "pursue-mcq-23",
+        "pursue-mcq-19"
       ],
       "explanation": "本句的「pursue」指「追捕獵物」。",
       "sentenceIndex": 104,
@@ -4599,12 +4209,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-45": "本句指「追捕獵物」。",
-        "pursue-mcq-44": "「追截車輛」與本句語境不同。",
-        "pursue-mcq-46": "「追趕；追捕」與本句語境不同。",
-        "pursue-mcq-43": "「追捕疑犯」與本句語境不同。",
-        "pursue-mcq-47": "「展開追捕」與本句語境不同。",
-        "pursue-mcq-42": "「追趕／追捕某人」與本句語境不同。"
+        "pursue-mcq-45": "本句的「pursue」指「追捕獵物」。",
+        "pursue-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-45"
     },
@@ -4616,11 +4224,9 @@ export default {
       "masked": "Cheetahs ____.",
       "options": [
         "pursue-mcq-45",
-        "pursue-mcq-44",
-        "pursue-mcq-46",
-        "pursue-mcq-43",
-        "pursue-mcq-47",
-        "pursue-mcq-42"
+        "pursue-mcq-37",
+        "pursue-reviewed-0c9a25c6e5",
+        "pursue-mcq-26"
       ],
       "explanation": "本句的「pursue prey at high speed」指「追捕獵物」。",
       "sentenceIndex": 105,
@@ -4629,12 +4235,10 @@ export default {
         "pursue prey at high speed"
       ],
       "optionReasons": {
-        "pursue-mcq-45": "本句指「追捕獵物」。",
-        "pursue-mcq-44": "「追截車輛」與本句語境不同。",
-        "pursue-mcq-46": "「追趕；追捕」與本句語境不同。",
-        "pursue-mcq-43": "「追捕疑犯」與本句語境不同。",
-        "pursue-mcq-47": "「展開追捕」與本句語境不同。",
-        "pursue-mcq-42": "「追趕／追捕某人」與本句語境不同。"
+        "pursue-mcq-45": "本句的「pursue prey at high speed」指「追捕獵物」。",
+        "pursue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-45"
     },
@@ -4646,11 +4250,9 @@ export default {
       "masked": "The predator ____ its prey across open ground.",
       "options": [
         "pursue-mcq-45",
-        "pursue-mcq-44",
-        "pursue-mcq-46",
-        "pursue-mcq-43",
-        "pursue-mcq-47",
-        "pursue-mcq-42"
+        "pursue-reviewed-a0fcd3245f",
+        "pursue-mcq-40",
+        "pursue-mcq-35"
       ],
       "explanation": "本句的「pursued」指「追捕獵物」。",
       "sentenceIndex": 106,
@@ -4659,12 +4261,10 @@ export default {
         "pursued"
       ],
       "optionReasons": {
-        "pursue-mcq-45": "本句指「追捕獵物」。",
-        "pursue-mcq-44": "「追截車輛」與本句語境不同。",
-        "pursue-mcq-46": "「追趕；追捕」與本句語境不同。",
-        "pursue-mcq-43": "「追捕疑犯」與本句語境不同。",
-        "pursue-mcq-47": "「展開追捕」與本句語境不同。",
-        "pursue-mcq-42": "「追趕／追捕某人」與本句語境不同。"
+        "pursue-mcq-45": "本句的「pursued」指「追捕獵物」。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-45"
     },
@@ -4676,11 +4276,9 @@ export default {
       "masked": "The suspect escaped after a long ____.",
       "options": [
         "pursue-mcq-46",
-        "pursue-mcq-45",
-        "pursue-mcq-47",
-        "pursue-mcq-44",
-        "pursue-mcq-48",
-        "pursue-mcq-43"
+        "pursue-reviewed-0c9a25c6e5",
+        "pursue-mcq-28",
+        "pursue-mcq-41"
       ],
       "explanation": "本句的「pursuit」指「追趕；追捕」。",
       "sentenceIndex": 107,
@@ -4689,12 +4287,10 @@ export default {
         "pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-46": "本句指「追趕；追捕」。",
-        "pursue-mcq-45": "「追捕獵物」與本句語境不同。",
-        "pursue-mcq-47": "「展開追捕」與本句語境不同。",
-        "pursue-mcq-44": "「追截車輛」與本句語境不同。",
-        "pursue-mcq-48": "「緊追不捨」與本句語境不同。",
-        "pursue-mcq-43": "「追捕疑犯」與本句語境不同。"
+        "pursue-mcq-46": "本句的「pursuit」指「追趕；追捕」。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-46"
     },
@@ -4706,11 +4302,9 @@ export default {
       "masked": "Police gave ____.",
       "options": [
         "pursue-mcq-46",
-        "pursue-mcq-45",
-        "pursue-mcq-47",
-        "pursue-mcq-44",
-        "pursue-mcq-48",
-        "pursue-mcq-43"
+        "pursue-mcq-21",
+        "pursue-mcq-10",
+        "pursue-mcq-35"
       ],
       "explanation": "本句的「pursuit」指「追趕；追捕」。",
       "sentenceIndex": 108,
@@ -4719,12 +4313,10 @@ export default {
         "pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-46": "本句指「追趕；追捕」。",
-        "pursue-mcq-45": "「追捕獵物」與本句語境不同。",
-        "pursue-mcq-47": "「展開追捕」與本句語境不同。",
-        "pursue-mcq-44": "「追截車輛」與本句語境不同。",
-        "pursue-mcq-48": "「緊追不捨」與本句語境不同。",
-        "pursue-mcq-43": "「追捕疑犯」與本句語境不同。"
+        "pursue-mcq-46": "本句的「pursuit」指「追趕；追捕」。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-46"
     },
@@ -4736,11 +4328,9 @@ export default {
       "masked": "Officers ran after the suspect ____.",
       "options": [
         "pursue-mcq-42",
-        "pursue-mcq-41",
-        "pursue-mcq-43",
-        "pursue-mcq-40",
-        "pursue-mcq-44",
-        "pursue-mcq-39"
+        "pursue-mcq-35",
+        "pursue-mcq-39",
+        "pursue-mcq-38"
       ],
       "explanation": "本句的「in pursuit」指「追趕／追捕某人」。",
       "sentenceIndex": 109,
@@ -4749,12 +4339,10 @@ export default {
         "in pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-42": "本句指「追趕／追捕某人」。",
-        "pursue-mcq-41": "「採取行動方針」與本句語境不同。",
-        "pursue-mcq-43": "「追捕疑犯」與本句語境不同。",
-        "pursue-mcq-40": "「採取方法」與本句語境不同。",
-        "pursue-mcq-44": "「追截車輛」與本句語境不同。",
-        "pursue-mcq-39": "「採取策略」與本句語境不同。"
+        "pursue-mcq-42": "本句的「in pursuit」指「追趕／追捕某人」。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-42"
     },
@@ -4766,11 +4354,9 @@ export default {
       "masked": "Several vehicles joined the ____.",
       "options": [
         "pursue-mcq-42",
-        "pursue-mcq-41",
-        "pursue-mcq-43",
-        "pursue-mcq-40",
-        "pursue-mcq-44",
-        "pursue-mcq-39"
+        "pursue-mcq-10",
+        "pursue-mcq-31",
+        "pursue-mcq-21"
       ],
       "explanation": "本句的「pursuit」指「追趕／追捕某人」。",
       "sentenceIndex": 110,
@@ -4779,12 +4365,10 @@ export default {
         "pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-42": "本句指「追趕／追捕某人」。",
-        "pursue-mcq-41": "「採取行動方針」與本句語境不同。",
-        "pursue-mcq-43": "「追捕疑犯」與本句語境不同。",
-        "pursue-mcq-40": "「採取方法」與本句語境不同。",
-        "pursue-mcq-44": "「追截車輛」與本句語境不同。",
-        "pursue-mcq-39": "「採取策略」與本句語境不同。"
+        "pursue-mcq-42": "本句的「pursuit」指「追趕／追捕某人」。",
+        "pursue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-42"
     },
@@ -4796,11 +4380,9 @@ export default {
       "masked": "The officers ____ immediately.",
       "options": [
         "pursue-mcq-47",
-        "pursue-mcq-46",
-        "pursue-mcq-48",
-        "pursue-mcq-45",
-        "pursue-mcq-49",
-        "pursue-mcq-44"
+        "pursue-mcq-23",
+        "pursue-mcq-10",
+        "pursue-mcq-20"
       ],
       "explanation": "本句的「gave pursuit」指「展開追捕」。",
       "sentenceIndex": 111,
@@ -4809,12 +4391,10 @@ export default {
         "gave pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-47": "本句指「展開追捕」。",
-        "pursue-mcq-46": "「追趕；追捕」與本句語境不同。",
-        "pursue-mcq-48": "「緊追不捨」與本句語境不同。",
-        "pursue-mcq-45": "「追捕獵物」與本句語境不同。",
-        "pursue-mcq-49": "「追求某人」與本句語境不同。",
-        "pursue-mcq-44": "「追截車輛」與本句語境不同。"
+        "pursue-mcq-47": "本句的「gave pursuit」指「展開追捕」。",
+        "pursue-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-47"
     },
@@ -4826,11 +4406,9 @@ export default {
       "masked": "The thief ran, and two guards gave ____.",
       "options": [
         "pursue-mcq-47",
-        "pursue-mcq-46",
-        "pursue-mcq-48",
-        "pursue-mcq-45",
-        "pursue-mcq-49",
-        "pursue-mcq-44"
+        "pursue-mcq-28",
+        "pursue-mcq-15",
+        "pursue-mcq-16"
       ],
       "explanation": "本句的「pursuit」指「展開追捕」。",
       "sentenceIndex": 112,
@@ -4839,12 +4417,10 @@ export default {
         "pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-47": "本句指「展開追捕」。",
-        "pursue-mcq-46": "「追趕；追捕」與本句語境不同。",
-        "pursue-mcq-48": "「緊追不捨」與本句語境不同。",
-        "pursue-mcq-45": "「追捕獵物」與本句語境不同。",
-        "pursue-mcq-49": "「追求某人」與本句語境不同。",
-        "pursue-mcq-44": "「追截車輛」與本句語境不同。"
+        "pursue-mcq-47": "本句的「pursuit」指「展開追捕」。",
+        "pursue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-47"
     },
@@ -4856,11 +4432,9 @@ export default {
       "masked": "Police were in ____ of the vehicle.",
       "options": [
         "pursue-mcq-48",
-        "pursue-mcq-47",
-        "pursue-mcq-49",
-        "pursue-mcq-46",
-        "pursue-mcq-50",
-        "pursue-mcq-45"
+        "pursue-mcq-18",
+        "pursue-reviewed-0c9a25c6e5",
+        "pursue-mcq-15"
       ],
       "explanation": "本句的「hot pursuit」指「緊追不捨」。",
       "sentenceIndex": 113,
@@ -4869,12 +4443,10 @@ export default {
         "hot pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-48": "本句指「緊追不捨」。",
-        "pursue-mcq-47": "「展開追捕」與本句語境不同。",
-        "pursue-mcq-49": "「追求某人」與本句語境不同。",
-        "pursue-mcq-46": "「追趕；追捕」與本句語境不同。",
-        "pursue-mcq-50": "「為追求 X」與本句語境不同。",
-        "pursue-mcq-45": "「追捕獵物」與本句語境不同。"
+        "pursue-mcq-48": "本句的「hot pursuit」指「緊追不捨」。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-48"
     },
@@ -4886,11 +4458,9 @@ export default {
       "masked": "The dog ran after the rabbit in hot ____.",
       "options": [
         "pursue-mcq-48",
-        "pursue-mcq-47",
-        "pursue-mcq-49",
-        "pursue-mcq-46",
-        "pursue-mcq-50",
-        "pursue-mcq-45"
+        "pursue-mcq-38",
+        "pursue-mcq-31",
+        "pursue-mcq-19"
       ],
       "explanation": "本句的「pursuit」指「緊追不捨」。",
       "sentenceIndex": 114,
@@ -4899,74 +4469,68 @@ export default {
         "pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-48": "本句指「緊追不捨」。",
-        "pursue-mcq-47": "「展開追捕」與本句語境不同。",
-        "pursue-mcq-49": "「追求某人」與本句語境不同。",
-        "pursue-mcq-46": "「追趕；追捕」與本句語境不同。",
-        "pursue-mcq-50": "「為追求 X」與本句語境不同。",
-        "pursue-mcq-45": "「追捕獵物」與本句語境不同。"
+        "pursue-mcq-48": "本句的「pursuit」指「緊追不捨」。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-48"
     },
     {
       "id": "pursue-58-0",
-      "sense": "pursue-mcq-42",
+      "sense": "pursue-reviewed-a0fcd3245f",
       "en": "He pursued her romantically for several months.",
       "zh": "他追求她好幾個月。",
       "masked": "He ____ for several months.",
       "options": [
-        "pursue-mcq-42",
-        "pursue-mcq-41",
-        "pursue-mcq-43",
-        "pursue-mcq-40",
+        "pursue-reviewed-a0fcd3245f",
+        "pursue-mcq-09",
         "pursue-mcq-44",
-        "pursue-mcq-39"
+        "pursue-mcq-08"
       ],
-      "explanation": "本句的「pursued her romantically」指「追趕／追捕某人」。",
+      "explanation": "對照完整句子：「他追求她好幾個月。」。這裡的「pursued her romantically」表示「積極向某人示愛，希望與對方建立戀愛關係」。",
       "sentenceIndex": 115,
       "sourcePractice": 1,
       "targets": [
         "pursued her romantically"
       ],
       "optionReasons": {
-        "pursue-mcq-42": "本句指「追趕／追捕某人」。",
-        "pursue-mcq-41": "「採取行動方針」與本句語境不同。",
-        "pursue-mcq-43": "「追捕疑犯」與本句語境不同。",
-        "pursue-mcq-40": "「採取方法」與本句語境不同。",
-        "pursue-mcq-44": "「追截車輛」與本句語境不同。",
-        "pursue-mcq-39": "「採取策略」與本句語境不同。"
+        "pursue-reviewed-a0fcd3245f": "對照完整句子：「他追求她好幾個月。」。這裡的「pursued her romantically」表示「積極向某人示愛，希望與對方建立戀愛關係」。",
+        "pursue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "pursue-mcq-42"
+      "correctOption": "pursue-reviewed-a0fcd3245f",
+      "previousCorrectOption": "pursue-mcq-42",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "pursue-58-1",
-      "sense": "pursue-mcq-42",
+      "sense": "pursue-reviewed-a0fcd3245f",
       "en": "She made it clear that she did not want to be pursued.",
       "zh": "她清楚表示不希望對方繼續追求她。",
       "masked": "She made it clear that she did not want to be ____.",
       "options": [
-        "pursue-mcq-42",
-        "pursue-mcq-41",
-        "pursue-mcq-43",
-        "pursue-mcq-40",
-        "pursue-mcq-44",
-        "pursue-mcq-39"
+        "pursue-reviewed-a0fcd3245f",
+        "pursue-mcq-13",
+        "pursue-mcq-18",
+        "pursue-mcq-08"
       ],
-      "explanation": "本句的「pursued」指「追趕／追捕某人」。",
+      "explanation": "對照完整句子：「她清楚表示不希望對方繼續追求她。」。這裡的「pursued」表示「積極向某人示愛，希望與對方建立戀愛關係」。",
       "sentenceIndex": 116,
       "sourcePractice": 2,
       "targets": [
         "pursued"
       ],
       "optionReasons": {
-        "pursue-mcq-42": "本句指「追趕／追捕某人」。",
-        "pursue-mcq-41": "「採取行動方針」與本句語境不同。",
-        "pursue-mcq-43": "「追捕疑犯」與本句語境不同。",
-        "pursue-mcq-40": "「採取方法」與本句語境不同。",
-        "pursue-mcq-44": "「追截車輛」與本句語境不同。",
-        "pursue-mcq-39": "「採取策略」與本句語境不同。"
+        "pursue-reviewed-a0fcd3245f": "對照完整句子：「她清楚表示不希望對方繼續追求她。」。這裡的「pursued」表示「積極向某人示愛，希望與對方建立戀愛關係」。",
+        "pursue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "pursue-mcq-42"
+      "correctOption": "pursue-reviewed-a0fcd3245f",
+      "previousCorrectOption": "pursue-mcq-42",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "pursue-59-0",
@@ -4976,11 +4540,9 @@ export default {
       "masked": "His romantic ____ was not welcomed.",
       "options": [
         "pursue-mcq-50",
-        "pursue-mcq-49",
-        "pursue-mcq-51",
-        "pursue-mcq-48",
-        "pursue-mcq-52",
-        "pursue-mcq-47"
+        "pursue-mcq-35",
+        "pursue-mcq-18",
+        "pursue-mcq-39"
       ],
       "explanation": "本句的「pursuit」指「為追求 X」。",
       "sentenceIndex": 117,
@@ -4989,12 +4551,10 @@ export default {
         "pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-50": "本句指「為追求 X」。",
-        "pursue-mcq-49": "「追求某人」與本句語境不同。",
-        "pursue-mcq-51": "「對卓越的追求」與本句語境不同。",
-        "pursue-mcq-48": "「緊追不捨」與本句語境不同。",
-        "pursue-mcq-52": "「對盈利的追求」與本句語境不同。",
-        "pursue-mcq-47": "「展開追捕」與本句語境不同。"
+        "pursue-mcq-50": "本句的「pursuit」指「為追求 X」。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-50"
     },
@@ -5006,11 +4566,9 @@ export default {
       "masked": "Romantic ____ should respect the other person's boundaries.",
       "options": [
         "pursue-mcq-50",
-        "pursue-mcq-49",
-        "pursue-mcq-51",
-        "pursue-mcq-48",
-        "pursue-mcq-52",
-        "pursue-mcq-47"
+        "pursue-mcq-23",
+        "pursue-mcq-21",
+        "pursue-mcq-18"
       ],
       "explanation": "本句的「pursuit」指「為追求 X」。",
       "sentenceIndex": 118,
@@ -5019,12 +4577,10 @@ export default {
         "pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-50": "本句指「為追求 X」。",
-        "pursue-mcq-49": "「追求某人」與本句語境不同。",
-        "pursue-mcq-51": "「對卓越的追求」與本句語境不同。",
-        "pursue-mcq-48": "「緊追不捨」與本句語境不同。",
-        "pursue-mcq-52": "「對盈利的追求」與本句語境不同。",
-        "pursue-mcq-47": "「展開追捕」與本句語境不同。"
+        "pursue-mcq-50": "本句的「pursuit」指「為追求 X」。",
+        "pursue-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-50"
     },
@@ -5036,11 +4592,9 @@ export default {
       "masked": "The organisation changed its structure ____.",
       "options": [
         "pursue-mcq-50",
-        "pursue-mcq-49",
-        "pursue-mcq-51",
-        "pursue-mcq-48",
-        "pursue-mcq-52",
-        "pursue-mcq-47"
+        "pursue-mcq-16",
+        "pursue-mcq-15",
+        "pursue-mcq-38"
       ],
       "explanation": "本句的「in pursuit of greater efficiency」指「為追求 X」。",
       "sentenceIndex": 119,
@@ -5049,12 +4603,10 @@ export default {
         "in pursuit of greater efficiency"
       ],
       "optionReasons": {
-        "pursue-mcq-50": "本句指「為追求 X」。",
-        "pursue-mcq-49": "「追求某人」與本句語境不同。",
-        "pursue-mcq-51": "「對卓越的追求」與本句語境不同。",
-        "pursue-mcq-48": "「緊追不捨」與本句語境不同。",
-        "pursue-mcq-52": "「對盈利的追求」與本句語境不同。",
-        "pursue-mcq-47": "「展開追捕」與本句語境不同。"
+        "pursue-mcq-50": "本句的「in pursuit of greater efficiency」指「為追求 X」。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-50"
     },
@@ -5066,11 +4618,9 @@ export default {
       "masked": "She moved overseas in ____ of better opportunities.",
       "options": [
         "pursue-mcq-50",
-        "pursue-mcq-49",
-        "pursue-mcq-51",
-        "pursue-mcq-48",
-        "pursue-mcq-52",
-        "pursue-mcq-47"
+        "pursue-reviewed-a0fcd3245f",
+        "pursue-mcq-23",
+        "pursue-mcq-41"
       ],
       "explanation": "本句的「pursuit」指「為追求 X」。",
       "sentenceIndex": 120,
@@ -5079,12 +4629,10 @@ export default {
         "pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-50": "本句指「為追求 X」。",
-        "pursue-mcq-49": "「追求某人」與本句語境不同。",
-        "pursue-mcq-51": "「對卓越的追求」與本句語境不同。",
-        "pursue-mcq-48": "「緊追不捨」與本句語境不同。",
-        "pursue-mcq-52": "「對盈利的追求」與本句語境不同。",
-        "pursue-mcq-47": "「展開追捕」與本句語境不同。"
+        "pursue-mcq-50": "本句的「pursuit」指「為追求 X」。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-50"
     },
@@ -5096,11 +4644,9 @@ export default {
       "masked": "The team continuously improves ____.",
       "options": [
         "pursue-mcq-06",
-        "pursue-mcq-05",
-        "pursue-mcq-07",
-        "pursue-mcq-04",
-        "pursue-mcq-08",
-        "pursue-mcq-03"
+        "pursue-mcq-20",
+        "pursue-mcq-26",
+        "pursue-mcq-31"
       ],
       "explanation": "本句的「in pursuit of excellence」指「追求卓越」。",
       "sentenceIndex": 121,
@@ -5109,12 +4655,10 @@ export default {
         "in pursuit of excellence"
       ],
       "optionReasons": {
-        "pursue-mcq-06": "本句指「追求卓越」。",
-        "pursue-mcq-05": "「追求成功」與本句語境不同。",
-        "pursue-mcq-07": "「追求幸福」與本句語境不同。",
-        "pursue-mcq-04": "「追求成果」與本句語境不同。",
-        "pursue-mcq-08": "「追尋夢想」與本句語境不同。",
-        "pursue-mcq-03": "「追求具體目標」與本句語境不同。"
+        "pursue-mcq-06": "本句的「in pursuit of excellence」指「追求卓越」。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-06"
     },
@@ -5126,11 +4670,9 @@ export default {
       "masked": "In ____ of excellence, managers should not create unrealistic pressure.",
       "options": [
         "pursue-mcq-06",
-        "pursue-mcq-05",
-        "pursue-mcq-07",
-        "pursue-mcq-04",
-        "pursue-mcq-08",
-        "pursue-mcq-03"
+        "pursue-mcq-15",
+        "pursue-mcq-17",
+        "pursue-reviewed-a0fcd3245f"
       ],
       "explanation": "本句的「pursuit」指「追求卓越」。",
       "sentenceIndex": 122,
@@ -5139,12 +4681,10 @@ export default {
         "pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-06": "本句指「追求卓越」。",
-        "pursue-mcq-05": "「追求成功」與本句語境不同。",
-        "pursue-mcq-07": "「追求幸福」與本句語境不同。",
-        "pursue-mcq-04": "「追求成果」與本句語境不同。",
-        "pursue-mcq-08": "「追尋夢想」與本句語境不同。",
-        "pursue-mcq-03": "「追求具體目標」與本句語境不同。"
+        "pursue-mcq-06": "本句的「pursuit」指「追求卓越」。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-06"
     },
@@ -5156,11 +4696,9 @@ export default {
       "masked": "Ethical standards should not be abandoned ____.",
       "options": [
         "pursue-mcq-52",
-        "pursue-mcq-51",
-        "pursue-mcq-53",
-        "pursue-mcq-50",
-        "pursue-mcq-54",
-        "pursue-mcq-49"
+        "pursue-mcq-41",
+        "pursue-mcq-26",
+        "pursue-mcq-18"
       ],
       "explanation": "本句的「in pursuit of profit」指「對盈利的追求」。",
       "sentenceIndex": 123,
@@ -5169,12 +4707,10 @@ export default {
         "in pursuit of profit"
       ],
       "optionReasons": {
-        "pursue-mcq-52": "本句指「對盈利的追求」。",
-        "pursue-mcq-51": "「對卓越的追求」與本句語境不同。",
-        "pursue-mcq-53": "「對地位的追求」與本句語境不同。",
-        "pursue-mcq-50": "「為追求 X」與本句語境不同。",
-        "pursue-mcq-54": "「積極追求」與本句語境不同。",
-        "pursue-mcq-49": "「追求某人」與本句語境不同。"
+        "pursue-mcq-52": "本句的「in pursuit of profit」指「對盈利的追求」。",
+        "pursue-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-52"
     },
@@ -5186,11 +4722,9 @@ export default {
       "masked": "The firm expanded aggressively in ____ of higher profits.",
       "options": [
         "pursue-mcq-52",
-        "pursue-mcq-51",
-        "pursue-mcq-53",
-        "pursue-mcq-50",
-        "pursue-mcq-54",
-        "pursue-mcq-49"
+        "pursue-mcq-18",
+        "pursue-reviewed-0c9a25c6e5",
+        "pursue-reviewed-a0fcd3245f"
       ],
       "explanation": "本句的「pursuit」指「對盈利的追求」。",
       "sentenceIndex": 124,
@@ -5199,12 +4733,10 @@ export default {
         "pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-52": "本句指「對盈利的追求」。",
-        "pursue-mcq-51": "「對卓越的追求」與本句語境不同。",
-        "pursue-mcq-53": "「對地位的追求」與本句語境不同。",
-        "pursue-mcq-50": "「為追求 X」與本句語境不同。",
-        "pursue-mcq-54": "「積極追求」與本句語境不同。",
-        "pursue-mcq-49": "「追求某人」與本句語境不同。"
+        "pursue-mcq-52": "本句的「pursuit」指「對盈利的追求」。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-52"
     },
@@ -5216,11 +4748,9 @@ export default {
       "masked": "People make different choices ____.",
       "options": [
         "pursue-mcq-07",
-        "pursue-mcq-06",
-        "pursue-mcq-08",
-        "pursue-mcq-05",
-        "pursue-mcq-09",
-        "pursue-mcq-04"
+        "pursue-mcq-17",
+        "pursue-mcq-38",
+        "pursue-mcq-19"
       ],
       "explanation": "本句的「in pursuit of happiness」指「追求幸福」。",
       "sentenceIndex": 125,
@@ -5229,12 +4759,10 @@ export default {
         "in pursuit of happiness"
       ],
       "optionReasons": {
-        "pursue-mcq-07": "本句指「追求幸福」。",
-        "pursue-mcq-06": "「追求卓越」與本句語境不同。",
-        "pursue-mcq-08": "「追尋夢想」與本句語境不同。",
-        "pursue-mcq-05": "「追求成功」與本句語境不同。",
-        "pursue-mcq-09": "「追求抱負」與本句語境不同。",
-        "pursue-mcq-04": "「追求成果」與本句語境不同。"
+        "pursue-mcq-07": "本句的「in pursuit of happiness」指「追求幸福」。",
+        "pursue-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-07"
     },
@@ -5246,11 +4774,9 @@ export default {
       "masked": "Material wealth is only one possible path in the ____ of happiness.",
       "options": [
         "pursue-mcq-07",
-        "pursue-mcq-06",
-        "pursue-mcq-08",
-        "pursue-mcq-05",
-        "pursue-mcq-09",
-        "pursue-mcq-04"
+        "pursue-mcq-28",
+        "pursue-mcq-39",
+        "pursue-mcq-16"
       ],
       "explanation": "本句的「pursuit」指「追求幸福」。",
       "sentenceIndex": 126,
@@ -5259,12 +4785,10 @@ export default {
         "pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-07": "本句指「追求幸福」。",
-        "pursue-mcq-06": "「追求卓越」與本句語境不同。",
-        "pursue-mcq-08": "「追尋夢想」與本句語境不同。",
-        "pursue-mcq-05": "「追求成功」與本句語境不同。",
-        "pursue-mcq-09": "「追求抱負」與本句語境不同。",
-        "pursue-mcq-04": "「追求成果」與本句語境不同。"
+        "pursue-mcq-07": "本句的「pursuit」指「追求幸福」。",
+        "pursue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-07"
     },
@@ -5276,11 +4800,9 @@ export default {
       "masked": "The ____ damaged cooperation.",
       "options": [
         "pursue-mcq-52",
-        "pursue-mcq-51",
-        "pursue-mcq-53",
-        "pursue-mcq-50",
-        "pursue-mcq-54",
-        "pursue-mcq-49"
+        "pursue-mcq-15",
+        "pursue-mcq-39",
+        "pursue-mcq-38"
       ],
       "explanation": "本句的「pursuit of power」指「對盈利的追求」。",
       "sentenceIndex": 127,
@@ -5289,12 +4811,10 @@ export default {
         "pursuit of power"
       ],
       "optionReasons": {
-        "pursue-mcq-52": "本句指「對盈利的追求」。",
-        "pursue-mcq-51": "「對卓越的追求」與本句語境不同。",
-        "pursue-mcq-53": "「對地位的追求」與本句語境不同。",
-        "pursue-mcq-50": "「為追求 X」與本句語境不同。",
-        "pursue-mcq-54": "「積極追求」與本句語境不同。",
-        "pursue-mcq-49": "「追求某人」與本句語境不同。"
+        "pursue-mcq-52": "本句的「pursuit of power」指「對盈利的追求」。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-52"
     },
@@ -5306,11 +4826,9 @@ export default {
       "masked": "The meeting should not become a vehicle for the ____ of personal power.",
       "options": [
         "pursue-mcq-52",
-        "pursue-mcq-51",
-        "pursue-mcq-53",
-        "pursue-mcq-50",
-        "pursue-mcq-54",
-        "pursue-mcq-49"
+        "pursue-mcq-21",
+        "pursue-mcq-35",
+        "pursue-mcq-41"
       ],
       "explanation": "本句的「pursuit」指「對盈利的追求」。",
       "sentenceIndex": 128,
@@ -5319,12 +4837,10 @@ export default {
         "pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-52": "本句指「對盈利的追求」。",
-        "pursue-mcq-51": "「對卓越的追求」與本句語境不同。",
-        "pursue-mcq-53": "「對地位的追求」與本句語境不同。",
-        "pursue-mcq-50": "「為追求 X」與本句語境不同。",
-        "pursue-mcq-54": "「積極追求」與本句語境不同。",
-        "pursue-mcq-49": "「追求某人」與本句語境不同。"
+        "pursue-mcq-52": "本句的「pursuit」指「對盈利的追求」。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-52"
     },
@@ -5336,11 +4852,9 @@ export default {
       "masked": "The ____ can shape people's choices.",
       "options": [
         "pursue-mcq-53",
-        "pursue-mcq-52",
-        "pursue-mcq-54",
-        "pursue-mcq-51",
-        "pursue-mcq-55",
-        "pursue-mcq-50"
+        "pursue-mcq-31",
+        "pursue-mcq-35",
+        "pursue-mcq-21"
       ],
       "explanation": "本句的「pursuit of wealth」指「對地位的追求」。",
       "sentenceIndex": 129,
@@ -5349,12 +4863,10 @@ export default {
         "pursuit of wealth"
       ],
       "optionReasons": {
-        "pursue-mcq-53": "本句指「對地位的追求」。",
-        "pursue-mcq-52": "「對盈利的追求」與本句語境不同。",
-        "pursue-mcq-54": "「積極追求」與本句語境不同。",
-        "pursue-mcq-51": "「對卓越的追求」與本句語境不同。",
-        "pursue-mcq-55": "「大力追求」與本句語境不同。",
-        "pursue-mcq-50": "「為追求 X」與本句語境不同。"
+        "pursue-mcq-53": "本句的「pursuit of wealth」指「對地位的追求」。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-53"
     },
@@ -5366,11 +4878,9 @@ export default {
       "masked": "Wealth is not everyone's primary ____.",
       "options": [
         "pursue-mcq-53",
-        "pursue-mcq-52",
-        "pursue-mcq-54",
-        "pursue-mcq-51",
-        "pursue-mcq-55",
-        "pursue-mcq-50"
+        "pursue-mcq-15",
+        "pursue-mcq-39",
+        "pursue-mcq-35"
       ],
       "explanation": "本句的「pursuit」指「對地位的追求」。",
       "sentenceIndex": 130,
@@ -5379,12 +4889,10 @@ export default {
         "pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-53": "本句指「對地位的追求」。",
-        "pursue-mcq-52": "「對盈利的追求」與本句語境不同。",
-        "pursue-mcq-54": "「積極追求」與本句語境不同。",
-        "pursue-mcq-51": "「對卓越的追求」與本句語境不同。",
-        "pursue-mcq-55": "「大力追求」與本句語境不同。",
-        "pursue-mcq-50": "「為追求 X」與本句語境不同。"
+        "pursue-mcq-53": "本句的「pursuit」指「對地位的追求」。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-53"
     },
@@ -5396,11 +4904,9 @@ export default {
       "masked": "The ____ can create unnecessary competition.",
       "options": [
         "pursue-mcq-53",
-        "pursue-mcq-52",
-        "pursue-mcq-54",
-        "pursue-mcq-51",
-        "pursue-mcq-55",
-        "pursue-mcq-50"
+        "pursue-reviewed-a0fcd3245f",
+        "pursue-mcq-28",
+        "pursue-reviewed-0c9a25c6e5"
       ],
       "explanation": "本句的「pursuit of status」指「對地位的追求」。",
       "sentenceIndex": 131,
@@ -5409,12 +4915,10 @@ export default {
         "pursuit of status"
       ],
       "optionReasons": {
-        "pursue-mcq-53": "本句指「對地位的追求」。",
-        "pursue-mcq-52": "「對盈利的追求」與本句語境不同。",
-        "pursue-mcq-54": "「積極追求」與本句語境不同。",
-        "pursue-mcq-51": "「對卓越的追求」與本句語境不同。",
-        "pursue-mcq-55": "「大力追求」與本句語境不同。",
-        "pursue-mcq-50": "「為追求 X」與本句語境不同。"
+        "pursue-mcq-53": "本句的「pursuit of status」指「對地位的追求」。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-53"
     },
@@ -5426,11 +4930,9 @@ export default {
       "masked": "Status ____ may distract teams from collective goals.",
       "options": [
         "pursue-mcq-53",
-        "pursue-mcq-52",
-        "pursue-mcq-54",
-        "pursue-mcq-51",
-        "pursue-mcq-55",
-        "pursue-mcq-50"
+        "pursue-reviewed-0c9a25c6e5",
+        "pursue-mcq-39",
+        "pursue-reviewed-a0fcd3245f"
       ],
       "explanation": "本句的「pursuit」指「對地位的追求」。",
       "sentenceIndex": 132,
@@ -5439,12 +4941,10 @@ export default {
         "pursuit"
       ],
       "optionReasons": {
-        "pursue-mcq-53": "本句指「對地位的追求」。",
-        "pursue-mcq-52": "「對盈利的追求」與本句語境不同。",
-        "pursue-mcq-54": "「積極追求」與本句語境不同。",
-        "pursue-mcq-51": "「對卓越的追求」與本句語境不同。",
-        "pursue-mcq-55": "「大力追求」與本句語境不同。",
-        "pursue-mcq-50": "「為追求 X」與本句語境不同。"
+        "pursue-mcq-53": "本句的「pursuit」指「對地位的追求」。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-53"
     },
@@ -5456,11 +4956,9 @@ export default {
       "masked": "The company is ____.",
       "options": [
         "pursue-mcq-54",
-        "pursue-mcq-53",
-        "pursue-mcq-55",
-        "pursue-mcq-52",
-        "pursue-mcq-56",
-        "pursue-mcq-51"
+        "pursue-mcq-21",
+        "pursue-mcq-28",
+        "pursue-mcq-16"
       ],
       "explanation": "本句的「actively pursuing new clients」指「積極追求」。",
       "sentenceIndex": 133,
@@ -5469,12 +4967,10 @@ export default {
         "actively pursuing new clients"
       ],
       "optionReasons": {
-        "pursue-mcq-54": "本句指「積極追求」。",
-        "pursue-mcq-53": "「對地位的追求」與本句語境不同。",
-        "pursue-mcq-55": "「大力追求」與本句語境不同。",
-        "pursue-mcq-52": "「對盈利的追求」與本句語境不同。",
-        "pursue-mcq-56": "「進取地追求」與本句語境不同。",
-        "pursue-mcq-51": "「對卓越的追求」與本句語境不同。"
+        "pursue-mcq-54": "本句的「actively pursuing new clients」指「積極追求」。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-54"
     },
@@ -5486,11 +4982,9 @@ export default {
       "masked": "Management should actively ____ solutions rather than wait for problems to disappear.",
       "options": [
         "pursue-mcq-54",
-        "pursue-mcq-53",
-        "pursue-mcq-55",
-        "pursue-mcq-52",
-        "pursue-mcq-56",
-        "pursue-mcq-51"
+        "pursue-mcq-20",
+        "pursue-mcq-28",
+        "pursue-mcq-39"
       ],
       "explanation": "本句的「pursue」指「積極追求」。",
       "sentenceIndex": 134,
@@ -5499,12 +4993,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-54": "本句指「積極追求」。",
-        "pursue-mcq-53": "「對地位的追求」與本句語境不同。",
-        "pursue-mcq-55": "「大力追求」與本句語境不同。",
-        "pursue-mcq-52": "「對盈利的追求」與本句語境不同。",
-        "pursue-mcq-56": "「進取地追求」與本句語境不同。",
-        "pursue-mcq-51": "「對卓越的追求」與本句語境不同。"
+        "pursue-mcq-54": "本句的「pursue」指「積極追求」。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-54"
     },
@@ -5516,11 +5008,9 @@ export default {
       "masked": "The organisation ____.",
       "options": [
         "pursue-mcq-55",
-        "pursue-mcq-54",
-        "pursue-mcq-56",
-        "pursue-mcq-53",
-        "pursue-mcq-57",
-        "pursue-mcq-52"
+        "pursue-reviewed-a0fcd3245f",
+        "pursue-mcq-17",
+        "pursue-mcq-41"
       ],
       "explanation": "本句的「vigorously pursued its legal rights」指「大力追求」。",
       "sentenceIndex": 135,
@@ -5529,12 +5019,10 @@ export default {
         "vigorously pursued its legal rights"
       ],
       "optionReasons": {
-        "pursue-mcq-55": "本句指「大力追求」。",
-        "pursue-mcq-54": "「積極追求」與本句語境不同。",
-        "pursue-mcq-56": "「進取地追求」與本句語境不同。",
-        "pursue-mcq-53": "「對地位的追求」與本句語境不同。",
-        "pursue-mcq-57": "「進一步追究／發展」與本句語境不同。",
-        "pursue-mcq-52": "「對盈利的追求」與本句語境不同。"
+        "pursue-mcq-55": "本句的「vigorously pursued its legal rights」指「大力追求」。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-55"
     },
@@ -5546,11 +5034,9 @@ export default {
       "masked": "She vigorously ____ the opportunity.",
       "options": [
         "pursue-mcq-55",
-        "pursue-mcq-54",
-        "pursue-mcq-56",
-        "pursue-mcq-53",
-        "pursue-mcq-57",
-        "pursue-mcq-52"
+        "pursue-mcq-17",
+        "pursue-mcq-15",
+        "pursue-mcq-31"
       ],
       "explanation": "本句的「pursued」指「大力追求」。",
       "sentenceIndex": 136,
@@ -5559,12 +5045,10 @@ export default {
         "pursued"
       ],
       "optionReasons": {
-        "pursue-mcq-55": "本句指「大力追求」。",
-        "pursue-mcq-54": "「積極追求」與本句語境不同。",
-        "pursue-mcq-56": "「進取地追求」與本句語境不同。",
-        "pursue-mcq-53": "「對地位的追求」與本句語境不同。",
-        "pursue-mcq-57": "「進一步追究／發展」與本句語境不同。",
-        "pursue-mcq-52": "「對盈利的追求」與本句語境不同。"
+        "pursue-mcq-55": "本句的「pursued」指「大力追求」。",
+        "pursue-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-55"
     },
@@ -5576,11 +5060,9 @@ export default {
       "masked": "The firm is ____.",
       "options": [
         "pursue-mcq-56",
-        "pursue-mcq-55",
-        "pursue-mcq-57",
-        "pursue-mcq-54",
-        "pursue-mcq-58",
-        "pursue-mcq-53"
+        "pursue-mcq-16",
+        "pursue-mcq-26",
+        "pursue-mcq-15"
       ],
       "explanation": "本句的「aggressively pursuing market growth」指「進取地追求」。",
       "sentenceIndex": 137,
@@ -5589,12 +5071,10 @@ export default {
         "aggressively pursuing market growth"
       ],
       "optionReasons": {
-        "pursue-mcq-56": "本句指「進取地追求」。",
-        "pursue-mcq-55": "「大力追求」與本句語境不同。",
-        "pursue-mcq-57": "「進一步追究／發展」與本句語境不同。",
-        "pursue-mcq-54": "「積極追求」與本句語境不同。",
-        "pursue-mcq-58": "「值得繼續追求」與本句語境不同。",
-        "pursue-mcq-53": "「對地位的追求」與本句語境不同。"
+        "pursue-mcq-56": "本句的「aggressively pursuing market growth」指「進取地追求」。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-56"
     },
@@ -5606,11 +5086,9 @@ export default {
       "masked": "Aggressively ____ short-term targets can create long-term problems.",
       "options": [
         "pursue-mcq-56",
-        "pursue-mcq-55",
-        "pursue-mcq-57",
-        "pursue-mcq-54",
-        "pursue-mcq-58",
-        "pursue-mcq-53"
+        "pursue-mcq-20",
+        "pursue-mcq-28",
+        "pursue-mcq-38"
       ],
       "explanation": "本句的「pursuing」指「進取地追求」。",
       "sentenceIndex": 138,
@@ -5619,12 +5097,10 @@ export default {
         "pursuing"
       ],
       "optionReasons": {
-        "pursue-mcq-56": "本句指「進取地追求」。",
-        "pursue-mcq-55": "「大力追求」與本句語境不同。",
-        "pursue-mcq-57": "「進一步追究／發展」與本句語境不同。",
-        "pursue-mcq-54": "「積極追求」與本句語境不同。",
-        "pursue-mcq-58": "「值得繼續追求」與本句語境不同。",
-        "pursue-mcq-53": "「對地位的追求」與本句語境不同。"
+        "pursue-mcq-56": "本句的「pursuing」指「進取地追求」。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-56"
     },
@@ -5636,11 +5112,9 @@ export default {
       "masked": "I don't think we need to ____.",
       "options": [
         "pursue-mcq-57",
-        "pursue-mcq-56",
-        "pursue-mcq-58",
-        "pursue-mcq-55",
-        "pursue-mcq-59",
-        "pursue-mcq-54"
+        "pursue-mcq-39",
+        "pursue-mcq-28",
+        "pursue-mcq-20"
       ],
       "explanation": "本句的「pursue this further」指「進一步追究／發展」。",
       "sentenceIndex": 139,
@@ -5649,12 +5123,10 @@ export default {
         "pursue this further"
       ],
       "optionReasons": {
-        "pursue-mcq-57": "本句指「進一步追究／發展」。",
-        "pursue-mcq-56": "「進取地追求」與本句語境不同。",
-        "pursue-mcq-58": "「值得繼續追求」與本句語境不同。",
-        "pursue-mcq-55": "「大力追求」與本句語境不同。",
-        "pursue-mcq-59": "「追趕者／追求者」與本句語境不同。",
-        "pursue-mcq-54": "「積極追求」與本句語境不同。"
+        "pursue-mcq-57": "本句的「pursue this further」指「進一步追究／發展」。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-57"
     },
@@ -5666,11 +5138,9 @@ export default {
       "masked": "The idea is worth ____ further.",
       "options": [
         "pursue-mcq-57",
-        "pursue-mcq-56",
-        "pursue-mcq-58",
-        "pursue-mcq-55",
-        "pursue-mcq-59",
-        "pursue-mcq-54"
+        "pursue-mcq-21",
+        "pursue-mcq-38",
+        "pursue-mcq-37"
       ],
       "explanation": "本句的「pursuing」指「進一步追究／發展」。",
       "sentenceIndex": 140,
@@ -5679,12 +5149,10 @@ export default {
         "pursuing"
       ],
       "optionReasons": {
-        "pursue-mcq-57": "本句指「進一步追究／發展」。",
-        "pursue-mcq-56": "「進取地追求」與本句語境不同。",
-        "pursue-mcq-58": "「值得繼續追求」與本句語境不同。",
-        "pursue-mcq-55": "「大力追求」與本句語境不同。",
-        "pursue-mcq-59": "「追趕者／追求者」與本句語境不同。",
-        "pursue-mcq-54": "「積極追求」與本句語境不同。"
+        "pursue-mcq-57": "本句的「pursuing」指「進一步追究／發展」。",
+        "pursue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-57"
     },
@@ -5696,11 +5164,9 @@ export default {
       "masked": "This option is ____.",
       "options": [
         "pursue-mcq-58",
-        "pursue-mcq-57",
-        "pursue-mcq-59",
-        "pursue-mcq-56",
-        "pursue-mcq-60",
-        "pursue-mcq-55"
+        "pursue-mcq-38",
+        "pursue-reviewed-a0fcd3245f",
+        "pursue-mcq-41"
       ],
       "explanation": "本句的「worth pursuing」指「值得繼續追求」。",
       "sentenceIndex": 141,
@@ -5709,12 +5175,10 @@ export default {
         "worth pursuing"
       ],
       "optionReasons": {
-        "pursue-mcq-58": "本句指「值得繼續追求」。",
-        "pursue-mcq-57": "「進一步追究／發展」與本句語境不同。",
-        "pursue-mcq-59": "「追趕者／追求者」與本句語境不同。",
-        "pursue-mcq-56": "「進取地追求」與本句語境不同。",
-        "pursue-mcq-60": "「可以繼續追求的」與本句語境不同。",
-        "pursue-mcq-55": "「大力追求」與本句語境不同。"
+        "pursue-mcq-58": "本句的「worth pursuing」指「值得繼續追求」。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-a0fcd3245f": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-58"
     },
@@ -5726,11 +5190,9 @@ export default {
       "masked": "Not every opportunity is worth ____.",
       "options": [
         "pursue-mcq-58",
-        "pursue-mcq-57",
-        "pursue-mcq-59",
-        "pursue-mcq-56",
-        "pursue-mcq-60",
-        "pursue-mcq-55"
+        "pursue-mcq-38",
+        "pursue-reviewed-0c9a25c6e5",
+        "pursue-mcq-16"
       ],
       "explanation": "本句的「pursuing」指「值得繼續追求」。",
       "sentenceIndex": 142,
@@ -5739,12 +5201,10 @@ export default {
         "pursuing"
       ],
       "optionReasons": {
-        "pursue-mcq-58": "本句指「值得繼續追求」。",
-        "pursue-mcq-57": "「進一步追究／發展」與本句語境不同。",
-        "pursue-mcq-59": "「追趕者／追求者」與本句語境不同。",
-        "pursue-mcq-56": "「進取地追求」與本句語境不同。",
-        "pursue-mcq-60": "「可以繼續追求的」與本句語境不同。",
-        "pursue-mcq-55": "「大力追求」與本句語境不同。"
+        "pursue-mcq-58": "本句的「pursuing」指「值得繼續追求」。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pursue-reviewed-0c9a25c6e5": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-58"
     },
@@ -5756,11 +5216,9 @@ export default {
       "masked": "The company decided ____.",
       "options": [
         "pursue-mcq-59",
-        "pursue-mcq-58",
-        "pursue-mcq-60",
-        "pursue-mcq-57",
-        "pursue-mcq-56",
-        "pursue-mcq-55"
+        "pursue-mcq-41",
+        "pursue-mcq-16",
+        "pursue-mcq-18"
       ],
       "explanation": "本句的「not to pursue the complaint」指「追趕者／追求者」。",
       "sentenceIndex": 143,
@@ -5769,12 +5227,10 @@ export default {
         "not to pursue the complaint"
       ],
       "optionReasons": {
-        "pursue-mcq-59": "本句指「追趕者／追求者」。",
-        "pursue-mcq-58": "「值得繼續追求」與本句語境不同。",
-        "pursue-mcq-60": "「可以繼續追求的」與本句語境不同。",
-        "pursue-mcq-57": "「進一步追究／發展」與本句語境不同。",
-        "pursue-mcq-56": "「進取地追求」與本句語境不同。",
-        "pursue-mcq-55": "「大力追求」與本句語境不同。"
+        "pursue-mcq-59": "本句的「not to pursue the complaint」指「追趕者／追求者」。",
+        "pursue-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-59"
     },
@@ -5786,11 +5242,9 @@ export default {
       "masked": "They chose not to ____ the opportunity.",
       "options": [
         "pursue-mcq-59",
-        "pursue-mcq-58",
-        "pursue-mcq-60",
-        "pursue-mcq-57",
-        "pursue-mcq-56",
-        "pursue-mcq-55"
+        "pursue-mcq-20",
+        "pursue-mcq-18",
+        "pursue-mcq-16"
       ],
       "explanation": "本句的「pursue」指「追趕者／追求者」。",
       "sentenceIndex": 144,
@@ -5799,12 +5253,10 @@ export default {
         "pursue"
       ],
       "optionReasons": {
-        "pursue-mcq-59": "本句指「追趕者／追求者」。",
-        "pursue-mcq-58": "「值得繼續追求」與本句語境不同。",
-        "pursue-mcq-60": "「可以繼續追求的」與本句語境不同。",
-        "pursue-mcq-57": "「進一步追究／發展」與本句語境不同。",
-        "pursue-mcq-56": "「進取地追求」與本句語境不同。",
-        "pursue-mcq-55": "「大力追求」與本句語境不同。"
+        "pursue-mcq-59": "本句的「pursue」指「追趕者／追求者」。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-59"
     },
@@ -5816,11 +5268,9 @@ export default {
       "masked": "The lawyer considered whether the claim was legally ____.",
       "options": [
         "pursue-mcq-60",
-        "pursue-mcq-59",
-        "pursue-mcq-58",
-        "pursue-mcq-57",
-        "pursue-mcq-56",
-        "pursue-mcq-55"
+        "pursue-mcq-38",
+        "pursue-mcq-20",
+        "pursue-mcq-39"
       ],
       "explanation": "本句的「pursuable」指「可以繼續追求的」。",
       "sentenceIndex": 145,
@@ -5829,12 +5279,10 @@ export default {
         "pursuable"
       ],
       "optionReasons": {
-        "pursue-mcq-60": "本句指「可以繼續追求的」。",
-        "pursue-mcq-59": "「追趕者／追求者」與本句語境不同。",
-        "pursue-mcq-58": "「值得繼續追求」與本句語境不同。",
-        "pursue-mcq-57": "「進一步追究／發展」與本句語境不同。",
-        "pursue-mcq-56": "「進取地追求」與本句語境不同。",
-        "pursue-mcq-55": "「大力追求」與本句語境不同。"
+        "pursue-mcq-60": "本句的「pursuable」指「可以繼續追求的」。",
+        "pursue-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-60"
     },
@@ -5846,11 +5294,9 @@ export default {
       "masked": "Several ____ options remained.",
       "options": [
         "pursue-mcq-60",
-        "pursue-mcq-59",
-        "pursue-mcq-58",
-        "pursue-mcq-57",
-        "pursue-mcq-56",
-        "pursue-mcq-55"
+        "pursue-mcq-41",
+        "pursue-mcq-15",
+        "pursue-mcq-18"
       ],
       "explanation": "本句的「pursuable」指「可以繼續追求的」。",
       "sentenceIndex": 146,
@@ -5859,12 +5305,10 @@ export default {
         "pursuable"
       ],
       "optionReasons": {
-        "pursue-mcq-60": "本句指「可以繼續追求的」。",
-        "pursue-mcq-59": "「追趕者／追求者」與本句語境不同。",
-        "pursue-mcq-58": "「值得繼續追求」與本句語境不同。",
-        "pursue-mcq-57": "「進一步追究／發展」與本句語境不同。",
-        "pursue-mcq-56": "「進取地追求」與本句語境不同。",
-        "pursue-mcq-55": "「大力追求」與本句語境不同。"
+        "pursue-mcq-60": "本句的「pursuable」指「可以繼續追求的」。",
+        "pursue-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pursue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pursue-mcq-60"
     }
@@ -5876,5 +5320,7 @@ export default {
     "sha256": "354ffc24adcebb08a4a9d64e3089c7d1e1748e2eca0541aa4fb044e1cf1b39fa",
     "pages": 48
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

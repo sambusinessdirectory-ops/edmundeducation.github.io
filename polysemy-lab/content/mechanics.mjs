@@ -503,11 +503,6 @@ export default {
           "Denial can function as a defence mechanism.",
           "否認可以成為一種心理防衛機制。",
           "用來減輕焦慮或心理衝突的無意識心理反應方式"
-        ],
-        [
-          "Prices are influenced by the market mechanism.",
-          "價格受到市場機制影響。",
-          "用來減輕焦慮或心理衝突的無意識心理反應方式"
         ]
       ],
       "options": [],
@@ -563,6 +558,23 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "mechanics-reviewed-aa15753cc9",
+      "title": "透過供求、價格及競爭等因素調節資源和市場行為的運作方式",
+      "form": "mechanics · source section 32",
+      "en": "透過供求、價格及競爭等因素調節資源和市場行為的運作方式",
+      "zh": "透過供求、價格及競爭等因素調節資源和市場行為的運作方式",
+      "note": "對照原始教材第 32 節及例句核實。",
+      "examples": [
+        [
+          "Prices are influenced by the market mechanism.",
+          "價格受到市場機制影響。",
+          "透過供求、價格及競爭等因素調節資源和市場行為的運作方式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -574,11 +586,9 @@ export default {
       "masked": "Students study ____ as part of physics.",
       "options": [
         "mechanics-mcq-01",
-        "mechanics-mcq-02",
-        "mechanics-mcq-03",
-        "mechanics-mcq-04",
-        "mechanics-mcq-05",
-        "mechanics-mcq-06"
+        "mechanics-mcq-18",
+        "mechanics-mcq-15",
+        "mechanics-mcq-20"
       ],
       "explanation": "本句的「mechanics」指「研究物體受力、運動及相關物理規律的力學分支」。",
       "sentenceIndex": 0,
@@ -587,12 +597,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-01": "本句指「研究物體受力、運動及相關物理規律的力學分支」。",
-        "mechanics-mcq-02": "「用經典物理定律研究一般物體受力及運動的理論體系」與本句語境不同。",
-        "mechanics-mcq-03": "「研究原子及次原子尺度物理行為的量子力學理論」與本句語境不同。",
-        "mechanics-mcq-04": "「研究液體與氣體運動和受力的流體力學」與本句語境不同。",
-        "mechanics-mcq-05": "「身體完成動作時各部位的姿勢、移動、發力及協調方式」與本句語境不同。",
-        "mechanics-mcq-06": "「跑步時身體姿勢、落腳、步態和發力協調的整體方式」與本句語境不同。"
+        "mechanics-mcq-01": "本句的「mechanics」指「研究物體受力、運動及相關物理規律的力學分支」。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-01"
     },
@@ -604,11 +612,9 @@ export default {
       "masked": "The course introduces the basic principles of ____.",
       "options": [
         "mechanics-mcq-01",
-        "mechanics-mcq-02",
-        "mechanics-mcq-03",
-        "mechanics-mcq-04",
-        "mechanics-mcq-05",
-        "mechanics-mcq-06"
+        "mechanics-mcq-18",
+        "mechanics-mcq-15",
+        "mechanics-mcq-20"
       ],
       "explanation": "本句的「mechanics」指「研究物體受力、運動及相關物理規律的力學分支」。",
       "sentenceIndex": 1,
@@ -617,12 +623,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-01": "本句指「研究物體受力、運動及相關物理規律的力學分支」。",
-        "mechanics-mcq-02": "「用經典物理定律研究一般物體受力及運動的理論體系」與本句語境不同。",
-        "mechanics-mcq-03": "「研究原子及次原子尺度物理行為的量子力學理論」與本句語境不同。",
-        "mechanics-mcq-04": "「研究液體與氣體運動和受力的流體力學」與本句語境不同。",
-        "mechanics-mcq-05": "「身體完成動作時各部位的姿勢、移動、發力及協調方式」與本句語境不同。",
-        "mechanics-mcq-06": "「跑步時身體姿勢、落腳、步態和發力協調的整體方式」與本句語境不同。"
+        "mechanics-mcq-01": "本句的「mechanics」指「研究物體受力、運動及相關物理規律的力學分支」。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-01"
     },
@@ -634,11 +638,9 @@ export default {
       "masked": "The motion can be explained using ____.",
       "options": [
         "mechanics-mcq-02",
-        "mechanics-mcq-01",
-        "mechanics-mcq-03",
-        "mechanics-mcq-04",
-        "mechanics-mcq-05",
-        "mechanics-mcq-06"
+        "mechanics-mcq-14",
+        "mechanics-mcq-15",
+        "mechanics-mcq-18"
       ],
       "explanation": "本句的「classical mechanics」指「用經典物理定律研究一般物體受力及運動的理論體系」。",
       "sentenceIndex": 2,
@@ -647,12 +649,10 @@ export default {
         "classical mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-02": "本句指「用經典物理定律研究一般物體受力及運動的理論體系」。",
-        "mechanics-mcq-01": "「研究物體受力、運動及相關物理規律的力學分支」與本句語境不同。",
-        "mechanics-mcq-03": "「研究原子及次原子尺度物理行為的量子力學理論」與本句語境不同。",
-        "mechanics-mcq-04": "「研究液體與氣體運動和受力的流體力學」與本句語境不同。",
-        "mechanics-mcq-05": "「身體完成動作時各部位的姿勢、移動、發力及協調方式」與本句語境不同。",
-        "mechanics-mcq-06": "「跑步時身體姿勢、落腳、步態和發力協調的整體方式」與本句語境不同。"
+        "mechanics-mcq-02": "本句的「classical mechanics」指「用經典物理定律研究一般物體受力及運動的理論體系」。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-02"
     },
@@ -664,11 +664,9 @@ export default {
       "masked": "Classical ____ works well for many everyday physical systems.",
       "options": [
         "mechanics-mcq-02",
-        "mechanics-mcq-01",
-        "mechanics-mcq-03",
-        "mechanics-mcq-04",
-        "mechanics-mcq-05",
-        "mechanics-mcq-06"
+        "mechanics-mcq-18",
+        "mechanics-mcq-15",
+        "mechanics-mcq-14"
       ],
       "explanation": "本句的「mechanics」指「用經典物理定律研究一般物體受力及運動的理論體系」。",
       "sentenceIndex": 3,
@@ -677,12 +675,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-02": "本句指「用經典物理定律研究一般物體受力及運動的理論體系」。",
-        "mechanics-mcq-01": "「研究物體受力、運動及相關物理規律的力學分支」與本句語境不同。",
-        "mechanics-mcq-03": "「研究原子及次原子尺度物理行為的量子力學理論」與本句語境不同。",
-        "mechanics-mcq-04": "「研究液體與氣體運動和受力的流體力學」與本句語境不同。",
-        "mechanics-mcq-05": "「身體完成動作時各部位的姿勢、移動、發力及協調方式」與本句語境不同。",
-        "mechanics-mcq-06": "「跑步時身體姿勢、落腳、步態和發力協調的整體方式」與本句語境不同。"
+        "mechanics-mcq-02": "本句的「mechanics」指「用經典物理定律研究一般物體受力及運動的理論體系」。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-02"
     },
@@ -694,11 +690,9 @@ export default {
       "masked": "Quantum ____ describes behaviour at the atomic level.",
       "options": [
         "mechanics-mcq-03",
-        "mechanics-mcq-02",
-        "mechanics-mcq-04",
-        "mechanics-mcq-01",
-        "mechanics-mcq-05",
-        "mechanics-mcq-06"
+        "mechanics-mcq-15",
+        "mechanics-mcq-20",
+        "mechanics-mcq-14"
       ],
       "explanation": "本句的「mechanics」指「研究原子及次原子尺度物理行為的量子力學理論」。",
       "sentenceIndex": 4,
@@ -707,12 +701,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-03": "本句指「研究原子及次原子尺度物理行為的量子力學理論」。",
-        "mechanics-mcq-02": "「用經典物理定律研究一般物體受力及運動的理論體系」與本句語境不同。",
-        "mechanics-mcq-04": "「研究液體與氣體運動和受力的流體力學」與本句語境不同。",
-        "mechanics-mcq-01": "「研究物體受力、運動及相關物理規律的力學分支」與本句語境不同。",
-        "mechanics-mcq-05": "「身體完成動作時各部位的姿勢、移動、發力及協調方式」與本句語境不同。",
-        "mechanics-mcq-06": "「跑步時身體姿勢、落腳、步態和發力協調的整體方式」與本句語境不同。"
+        "mechanics-mcq-03": "本句的「mechanics」指「研究原子及次原子尺度物理行為的量子力學理論」。",
+        "mechanics-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-03"
     },
@@ -724,11 +716,9 @@ export default {
       "masked": "The theory is based on quantum ____.",
       "options": [
         "mechanics-mcq-03",
-        "mechanics-mcq-02",
-        "mechanics-mcq-04",
-        "mechanics-mcq-01",
-        "mechanics-mcq-05",
-        "mechanics-mcq-06"
+        "mechanics-mcq-18",
+        "mechanics-mcq-14",
+        "mechanics-mcq-10"
       ],
       "explanation": "本句的「mechanics」指「研究原子及次原子尺度物理行為的量子力學理論」。",
       "sentenceIndex": 5,
@@ -737,12 +727,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-03": "本句指「研究原子及次原子尺度物理行為的量子力學理論」。",
-        "mechanics-mcq-02": "「用經典物理定律研究一般物體受力及運動的理論體系」與本句語境不同。",
-        "mechanics-mcq-04": "「研究液體與氣體運動和受力的流體力學」與本句語境不同。",
-        "mechanics-mcq-01": "「研究物體受力、運動及相關物理規律的力學分支」與本句語境不同。",
-        "mechanics-mcq-05": "「身體完成動作時各部位的姿勢、移動、發力及協調方式」與本句語境不同。",
-        "mechanics-mcq-06": "「跑步時身體姿勢、落腳、步態和發力協調的整體方式」與本句語境不同。"
+        "mechanics-mcq-03": "本句的「mechanics」指「研究原子及次原子尺度物理行為的量子力學理論」。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-03"
     },
@@ -754,11 +742,9 @@ export default {
       "masked": "Engineers use ____ to study airflow.",
       "options": [
         "mechanics-mcq-04",
-        "mechanics-mcq-03",
-        "mechanics-mcq-05",
-        "mechanics-mcq-02",
-        "mechanics-mcq-06",
-        "mechanics-mcq-01"
+        "mechanics-mcq-20",
+        "mechanics-mcq-18",
+        "mechanics-mcq-24"
       ],
       "explanation": "本句的「fluid mechanics」指「研究液體與氣體運動和受力的流體力學」。",
       "sentenceIndex": 6,
@@ -767,12 +753,10 @@ export default {
         "fluid mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-04": "本句指「研究液體與氣體運動和受力的流體力學」。",
-        "mechanics-mcq-03": "「研究原子及次原子尺度物理行為的量子力學理論」與本句語境不同。",
-        "mechanics-mcq-05": "「身體完成動作時各部位的姿勢、移動、發力及協調方式」與本句語境不同。",
-        "mechanics-mcq-02": "「用經典物理定律研究一般物體受力及運動的理論體系」與本句語境不同。",
-        "mechanics-mcq-06": "「跑步時身體姿勢、落腳、步態和發力協調的整體方式」與本句語境不同。",
-        "mechanics-mcq-01": "「研究物體受力、運動及相關物理規律的力學分支」與本句語境不同。"
+        "mechanics-mcq-04": "本句的「fluid mechanics」指「研究液體與氣體運動和受力的流體力學」。",
+        "mechanics-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-04"
     },
@@ -784,11 +768,9 @@ export default {
       "masked": "Fluid ____ is important in aircraft design.",
       "options": [
         "mechanics-mcq-04",
-        "mechanics-mcq-03",
-        "mechanics-mcq-05",
-        "mechanics-mcq-02",
-        "mechanics-mcq-06",
-        "mechanics-mcq-01"
+        "mechanics-mcq-20",
+        "mechanics-mcq-24",
+        "mechanics-mcq-14"
       ],
       "explanation": "本句的「mechanics」指「研究液體與氣體運動和受力的流體力學」。",
       "sentenceIndex": 7,
@@ -797,12 +779,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-04": "本句指「研究液體與氣體運動和受力的流體力學」。",
-        "mechanics-mcq-03": "「研究原子及次原子尺度物理行為的量子力學理論」與本句語境不同。",
-        "mechanics-mcq-05": "「身體完成動作時各部位的姿勢、移動、發力及協調方式」與本句語境不同。",
-        "mechanics-mcq-02": "「用經典物理定律研究一般物體受力及運動的理論體系」與本句語境不同。",
-        "mechanics-mcq-06": "「跑步時身體姿勢、落腳、步態和發力協調的整體方式」與本句語境不同。",
-        "mechanics-mcq-01": "「研究物體受力、運動及相關物理規律的力學分支」與本句語境不同。"
+        "mechanics-mcq-04": "本句的「mechanics」指「研究液體與氣體運動和受力的流體力學」。",
+        "mechanics-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-04"
     },
@@ -814,11 +794,9 @@ export default {
       "masked": "The programme focused on mobility and acceleration ____.",
       "options": [
         "mechanics-mcq-05",
-        "mechanics-mcq-04",
-        "mechanics-mcq-06",
-        "mechanics-mcq-03",
-        "mechanics-mcq-07",
-        "mechanics-mcq-02"
+        "mechanics-mcq-21",
+        "mechanics-mcq-18",
+        "mechanics-mcq-24"
       ],
       "explanation": "本句的「mechanics」指「身體完成動作時各部位的姿勢、移動、發力及協調方式」。",
       "sentenceIndex": 8,
@@ -827,12 +805,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-05": "本句指「身體完成動作時各部位的姿勢、移動、發力及協調方式」。",
-        "mechanics-mcq-04": "「研究液體與氣體運動和受力的流體力學」與本句語境不同。",
-        "mechanics-mcq-06": "「跑步時身體姿勢、落腳、步態和發力協調的整體方式」與本句語境不同。",
-        "mechanics-mcq-03": "「研究原子及次原子尺度物理行為的量子力學理論」與本句語境不同。",
-        "mechanics-mcq-07": "「加速階段中身體姿勢、步伐、發力方向及協調的技術模式」與本句語境不同。",
-        "mechanics-mcq-02": "「用經典物理定律研究一般物體受力及運動的理論體系」與本句語境不同。"
+        "mechanics-mcq-05": "本句的「mechanics」指「身體完成動作時各部位的姿勢、移動、發力及協調方式」。",
+        "mechanics-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-05"
     },
@@ -844,11 +820,9 @@ export default {
       "masked": "Poor running ____ can increase unnecessary loading.",
       "options": [
         "mechanics-mcq-05",
-        "mechanics-mcq-04",
-        "mechanics-mcq-06",
-        "mechanics-mcq-03",
-        "mechanics-mcq-07",
-        "mechanics-mcq-02"
+        "mechanics-mcq-18",
+        "mechanics-mcq-16",
+        "mechanics-mcq-14"
       ],
       "explanation": "本句的「mechanics」指「身體完成動作時各部位的姿勢、移動、發力及協調方式」。",
       "sentenceIndex": 9,
@@ -857,12 +831,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-05": "本句指「身體完成動作時各部位的姿勢、移動、發力及協調方式」。",
-        "mechanics-mcq-04": "「研究液體與氣體運動和受力的流體力學」與本句語境不同。",
-        "mechanics-mcq-06": "「跑步時身體姿勢、落腳、步態和發力協調的整體方式」與本句語境不同。",
-        "mechanics-mcq-03": "「研究原子及次原子尺度物理行為的量子力學理論」與本句語境不同。",
-        "mechanics-mcq-07": "「加速階段中身體姿勢、步伐、發力方向及協調的技術模式」與本句語境不同。",
-        "mechanics-mcq-02": "「用經典物理定律研究一般物體受力及運動的理論體系」與本句語境不同。"
+        "mechanics-mcq-05": "本句的「mechanics」指「身體完成動作時各部位的姿勢、移動、發力及協調方式」。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-05"
     },
@@ -874,11 +846,9 @@ export default {
       "masked": "The coach analysed her jumping ____.",
       "options": [
         "mechanics-mcq-05",
-        "mechanics-mcq-04",
-        "mechanics-mcq-06",
-        "mechanics-mcq-03",
-        "mechanics-mcq-07",
-        "mechanics-mcq-02"
+        "mechanics-mcq-21",
+        "mechanics-mcq-18",
+        "mechanics-mcq-14"
       ],
       "explanation": "本句的「mechanics」指「身體完成動作時各部位的姿勢、移動、發力及協調方式」。",
       "sentenceIndex": 10,
@@ -887,12 +857,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-05": "本句指「身體完成動作時各部位的姿勢、移動、發力及協調方式」。",
-        "mechanics-mcq-04": "「研究液體與氣體運動和受力的流體力學」與本句語境不同。",
-        "mechanics-mcq-06": "「跑步時身體姿勢、落腳、步態和發力協調的整體方式」與本句語境不同。",
-        "mechanics-mcq-03": "「研究原子及次原子尺度物理行為的量子力學理論」與本句語境不同。",
-        "mechanics-mcq-07": "「加速階段中身體姿勢、步伐、發力方向及協調的技術模式」與本句語境不同。",
-        "mechanics-mcq-02": "「用經典物理定律研究一般物體受力及運動的理論體系」與本句語境不同。"
+        "mechanics-mcq-05": "本句的「mechanics」指「身體完成動作時各部位的姿勢、移動、發力及協調方式」。",
+        "mechanics-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-05"
     },
@@ -904,11 +872,9 @@ export default {
       "masked": "The physiotherapist assessed his ____.",
       "options": [
         "mechanics-mcq-06",
-        "mechanics-mcq-05",
-        "mechanics-mcq-07",
-        "mechanics-mcq-04",
-        "mechanics-mcq-08",
-        "mechanics-mcq-03"
+        "mechanics-mcq-17",
+        "mechanics-mcq-24",
+        "mechanics-mcq-14"
       ],
       "explanation": "本句的「running mechanics」指「跑步時身體姿勢、落腳、步態和發力協調的整體方式」。",
       "sentenceIndex": 11,
@@ -917,12 +883,10 @@ export default {
         "running mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-06": "本句指「跑步時身體姿勢、落腳、步態和發力協調的整體方式」。",
-        "mechanics-mcq-05": "「身體完成動作時各部位的姿勢、移動、發力及協調方式」與本句語境不同。",
-        "mechanics-mcq-07": "「加速階段中身體姿勢、步伐、發力方向及協調的技術模式」與本句語境不同。",
-        "mechanics-mcq-04": "「研究液體與氣體運動和受力的流體力學」與本句語境不同。",
-        "mechanics-mcq-08": "「身體在站立、移動或施力時所採用的姿勢和動作方式」與本句語境不同。",
-        "mechanics-mcq-03": "「研究原子及次原子尺度物理行為的量子力學理論」與本句語境不同。"
+        "mechanics-mcq-06": "本句的「running mechanics」指「跑步時身體姿勢、落腳、步態和發力協調的整體方式」。",
+        "mechanics-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-06"
     },
@@ -934,11 +898,9 @@ export default {
       "masked": "Efficient running ____ can reduce wasted movement.",
       "options": [
         "mechanics-mcq-06",
-        "mechanics-mcq-05",
-        "mechanics-mcq-07",
-        "mechanics-mcq-04",
-        "mechanics-mcq-08",
-        "mechanics-mcq-03"
+        "mechanics-mcq-19",
+        "mechanics-mcq-18",
+        "mechanics-mcq-24"
       ],
       "explanation": "本句的「mechanics」指「跑步時身體姿勢、落腳、步態和發力協調的整體方式」。",
       "sentenceIndex": 12,
@@ -947,12 +909,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-06": "本句指「跑步時身體姿勢、落腳、步態和發力協調的整體方式」。",
-        "mechanics-mcq-05": "「身體完成動作時各部位的姿勢、移動、發力及協調方式」與本句語境不同。",
-        "mechanics-mcq-07": "「加速階段中身體姿勢、步伐、發力方向及協調的技術模式」與本句語境不同。",
-        "mechanics-mcq-04": "「研究液體與氣體運動和受力的流體力學」與本句語境不同。",
-        "mechanics-mcq-08": "「身體在站立、移動或施力時所採用的姿勢和動作方式」與本句語境不同。",
-        "mechanics-mcq-03": "「研究原子及次原子尺度物理行為的量子力學理論」與本句語境不同。"
+        "mechanics-mcq-06": "本句的「mechanics」指「跑步時身體姿勢、落腳、步態和發力協調的整體方式」。",
+        "mechanics-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-06"
     },
@@ -964,11 +924,9 @@ export default {
       "masked": "The coach adjusted the athlete’s ____.",
       "options": [
         "mechanics-mcq-07",
-        "mechanics-mcq-06",
-        "mechanics-mcq-08",
-        "mechanics-mcq-05",
-        "mechanics-mcq-09",
-        "mechanics-mcq-04"
+        "mechanics-mcq-24",
+        "mechanics-mcq-14",
+        "mechanics-mcq-10"
       ],
       "explanation": "本句的「acceleration mechanics」指「加速階段中身體姿勢、步伐、發力方向及協調的技術模式」。",
       "sentenceIndex": 13,
@@ -977,12 +935,10 @@ export default {
         "acceleration mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-07": "本句指「加速階段中身體姿勢、步伐、發力方向及協調的技術模式」。",
-        "mechanics-mcq-06": "「跑步時身體姿勢、落腳、步態和發力協調的整體方式」與本句語境不同。",
-        "mechanics-mcq-08": "「身體在站立、移動或施力時所採用的姿勢和動作方式」與本句語境不同。",
-        "mechanics-mcq-05": "「身體完成動作時各部位的姿勢、移動、發力及協調方式」與本句語境不同。",
-        "mechanics-mcq-09": "「利用力學原理研究人體／生物受力和運動方式的學科」與本句語境不同。",
-        "mechanics-mcq-04": "「研究液體與氣體運動和受力的流體力學」與本句語境不同。"
+        "mechanics-mcq-07": "本句的「acceleration mechanics」指「加速階段中身體姿勢、步伐、發力方向及協調的技術模式」。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-07"
     },
@@ -994,11 +950,9 @@ export default {
       "masked": "Good acceleration ____ help a sprinter apply force effectively.",
       "options": [
         "mechanics-mcq-07",
-        "mechanics-mcq-06",
-        "mechanics-mcq-08",
-        "mechanics-mcq-05",
-        "mechanics-mcq-09",
-        "mechanics-mcq-04"
+        "mechanics-mcq-24",
+        "mechanics-mcq-18",
+        "mechanics-mcq-10"
       ],
       "explanation": "本句的「mechanics」指「加速階段中身體姿勢、步伐、發力方向及協調的技術模式」。",
       "sentenceIndex": 14,
@@ -1007,12 +961,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-07": "本句指「加速階段中身體姿勢、步伐、發力方向及協調的技術模式」。",
-        "mechanics-mcq-06": "「跑步時身體姿勢、落腳、步態和發力協調的整體方式」與本句語境不同。",
-        "mechanics-mcq-08": "「身體在站立、移動或施力時所採用的姿勢和動作方式」與本句語境不同。",
-        "mechanics-mcq-05": "「身體完成動作時各部位的姿勢、移動、發力及協調方式」與本句語境不同。",
-        "mechanics-mcq-09": "「利用力學原理研究人體／生物受力和運動方式的學科」與本句語境不同。",
-        "mechanics-mcq-04": "「研究液體與氣體運動和受力的流體力學」與本句語境不同。"
+        "mechanics-mcq-07": "本句的「mechanics」指「加速階段中身體姿勢、步伐、發力方向及協調的技術模式」。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-07"
     },
@@ -1024,11 +976,9 @@ export default {
       "masked": "Good ____ can reduce strain when lifting.",
       "options": [
         "mechanics-mcq-08",
-        "mechanics-mcq-07",
-        "mechanics-mcq-09",
-        "mechanics-mcq-06",
-        "mechanics-mcq-10",
-        "mechanics-mcq-05"
+        "mechanics-mcq-19",
+        "mechanics-mcq-18",
+        "mechanics-reviewed-aa15753cc9"
       ],
       "explanation": "本句的「body mechanics」指「身體在站立、移動或施力時所採用的姿勢和動作方式」。",
       "sentenceIndex": 15,
@@ -1037,12 +987,10 @@ export default {
         "body mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-08": "本句指「身體在站立、移動或施力時所採用的姿勢和動作方式」。",
-        "mechanics-mcq-07": "「加速階段中身體姿勢、步伐、發力方向及協調的技術模式」與本句語境不同。",
-        "mechanics-mcq-09": "「利用力學原理研究人體／生物受力和運動方式的學科」與本句語境不同。",
-        "mechanics-mcq-06": "「跑步時身體姿勢、落腳、步態和發力協調的整體方式」與本句語境不同。",
-        "mechanics-mcq-10": "「某事物各部分實際如何互相作用並運作的機制」與本句語境不同。",
-        "mechanics-mcq-05": "「身體完成動作時各部位的姿勢、移動、發力及協調方式」與本句語境不同。"
+        "mechanics-mcq-08": "本句的「body mechanics」指「身體在站立、移動或施力時所採用的姿勢和動作方式」。",
+        "mechanics-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-reviewed-aa15753cc9": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-08"
     },
@@ -1054,11 +1002,9 @@ export default {
       "masked": "Nurses are trained in safe body ____.",
       "options": [
         "mechanics-mcq-08",
-        "mechanics-mcq-07",
-        "mechanics-mcq-09",
-        "mechanics-mcq-06",
         "mechanics-mcq-10",
-        "mechanics-mcq-05"
+        "mechanics-mcq-18",
+        "mechanics-mcq-14"
       ],
       "explanation": "本句的「mechanics」指「身體在站立、移動或施力時所採用的姿勢和動作方式」。",
       "sentenceIndex": 16,
@@ -1067,12 +1013,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-08": "本句指「身體在站立、移動或施力時所採用的姿勢和動作方式」。",
-        "mechanics-mcq-07": "「加速階段中身體姿勢、步伐、發力方向及協調的技術模式」與本句語境不同。",
-        "mechanics-mcq-09": "「利用力學原理研究人體／生物受力和運動方式的學科」與本句語境不同。",
-        "mechanics-mcq-06": "「跑步時身體姿勢、落腳、步態和發力協調的整體方式」與本句語境不同。",
-        "mechanics-mcq-10": "「某事物各部分實際如何互相作用並運作的機制」與本句語境不同。",
-        "mechanics-mcq-05": "「身體完成動作時各部位的姿勢、移動、發力及協調方式」與本句語境不同。"
+        "mechanics-mcq-08": "本句的「mechanics」指「身體在站立、移動或施力時所採用的姿勢和動作方式」。",
+        "mechanics-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-08"
     },
@@ -1084,11 +1028,9 @@ export default {
       "masked": "Sports scientists use ____ to analyse sprinting.",
       "options": [
         "mechanics-mcq-09",
-        "mechanics-mcq-08",
-        "mechanics-mcq-10",
-        "mechanics-mcq-07",
-        "mechanics-mcq-11",
-        "mechanics-mcq-06"
+        "mechanics-mcq-15",
+        "mechanics-mcq-14",
+        "mechanics-mcq-20"
       ],
       "explanation": "本句的「biomechanics」指「利用力學原理研究人體／生物受力和運動方式的學科」。",
       "sentenceIndex": 17,
@@ -1097,12 +1039,10 @@ export default {
         "biomechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-09": "本句指「利用力學原理研究人體／生物受力和運動方式的學科」。",
-        "mechanics-mcq-08": "「身體在站立、移動或施力時所採用的姿勢和動作方式」與本句語境不同。",
-        "mechanics-mcq-10": "「某事物各部分實際如何互相作用並運作的機制」與本句語境不同。",
-        "mechanics-mcq-07": "「加速階段中身體姿勢、步伐、發力方向及協調的技術模式」與本句語境不同。",
-        "mechanics-mcq-11": "「讓某項計劃或程序真正運行時涉及的具體步驟和安排」與本句語境不同。",
-        "mechanics-mcq-06": "「跑步時身體姿勢、落腳、步態和發力協調的整體方式」與本句語境不同。"
+        "mechanics-mcq-09": "本句的「biomechanics」指「利用力學原理研究人體／生物受力和運動方式的學科」。",
+        "mechanics-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-09"
     },
@@ -1114,11 +1054,9 @@ export default {
       "masked": "I understand the general idea, but not the ____ of the system.",
       "options": [
         "mechanics-mcq-10",
-        "mechanics-mcq-09",
-        "mechanics-mcq-11",
         "mechanics-mcq-08",
-        "mechanics-mcq-12",
-        "mechanics-mcq-07"
+        "mechanics-mcq-14",
+        "mechanics-mcq-23"
       ],
       "explanation": "本句的「mechanics」指「某事物各部分實際如何互相作用並運作的機制」。",
       "sentenceIndex": 18,
@@ -1127,12 +1065,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-10": "本句指「某事物各部分實際如何互相作用並運作的機制」。",
-        "mechanics-mcq-09": "「利用力學原理研究人體／生物受力和運動方式的學科」與本句語境不同。",
-        "mechanics-mcq-11": "「讓某項計劃或程序真正運行時涉及的具體步驟和安排」與本句語境不同。",
-        "mechanics-mcq-08": "「身體在站立、移動或施力時所採用的姿勢和動作方式」與本句語境不同。",
-        "mechanics-mcq-12": "「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」與本句語境不同。",
-        "mechanics-mcq-07": "「加速階段中身體姿勢、步伐、發力方向及協調的技術模式」與本句語境不同。"
+        "mechanics-mcq-10": "本句的「mechanics」指「某事物各部分實際如何互相作用並運作的機制」。",
+        "mechanics-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-10"
     },
@@ -1144,11 +1080,9 @@ export default {
       "masked": "The article explains the ____ of online advertising.",
       "options": [
         "mechanics-mcq-10",
-        "mechanics-mcq-09",
-        "mechanics-mcq-11",
-        "mechanics-mcq-08",
-        "mechanics-mcq-12",
-        "mechanics-mcq-07"
+        "mechanics-mcq-24",
+        "mechanics-mcq-18",
+        "mechanics-mcq-06"
       ],
       "explanation": "本句的「mechanics」指「某事物各部分實際如何互相作用並運作的機制」。",
       "sentenceIndex": 19,
@@ -1157,12 +1091,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-10": "本句指「某事物各部分實際如何互相作用並運作的機制」。",
-        "mechanics-mcq-09": "「利用力學原理研究人體／生物受力和運動方式的學科」與本句語境不同。",
-        "mechanics-mcq-11": "「讓某項計劃或程序真正運行時涉及的具體步驟和安排」與本句語境不同。",
-        "mechanics-mcq-08": "「身體在站立、移動或施力時所採用的姿勢和動作方式」與本句語境不同。",
-        "mechanics-mcq-12": "「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」與本句語境不同。",
-        "mechanics-mcq-07": "「加速階段中身體姿勢、步伐、發力方向及協調的技術模式」與本句語境不同。"
+        "mechanics-mcq-10": "本句的「mechanics」指「某事物各部分實際如何互相作用並運作的機制」。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-10"
     },
@@ -1174,11 +1106,9 @@ export default {
       "masked": "We agree on the plan; now we need to work out the ____.",
       "options": [
         "mechanics-mcq-11",
-        "mechanics-mcq-10",
-        "mechanics-mcq-12",
-        "mechanics-mcq-09",
-        "mechanics-mcq-13",
-        "mechanics-mcq-08"
+        "mechanics-mcq-18",
+        "mechanics-mcq-24",
+        "mechanics-mcq-20"
       ],
       "explanation": "本句的「mechanics」指「讓某項計劃或程序真正運行時涉及的具體步驟和安排」。",
       "sentenceIndex": 20,
@@ -1187,12 +1117,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-11": "本句指「讓某項計劃或程序真正運行時涉及的具體步驟和安排」。",
-        "mechanics-mcq-10": "「某事物各部分實際如何互相作用並運作的機制」與本句語境不同。",
-        "mechanics-mcq-12": "「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」與本句語境不同。",
-        "mechanics-mcq-09": "「利用力學原理研究人體／生物受力和運動方式的學科」與本句語境不同。",
-        "mechanics-mcq-13": "「遊戲中的一項具體玩法規則或互動系統」與本句語境不同。",
-        "mechanics-mcq-08": "「身體在站立、移動或施力時所採用的姿勢和動作方式」與本句語境不同。"
+        "mechanics-mcq-11": "本句的「mechanics」指「讓某項計劃或程序真正運行時涉及的具體步驟和安排」。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-11"
     },
@@ -1204,11 +1132,9 @@ export default {
       "masked": "The legal team handled the ____ of the transfer.",
       "options": [
         "mechanics-mcq-11",
-        "mechanics-mcq-10",
-        "mechanics-mcq-12",
-        "mechanics-mcq-09",
-        "mechanics-mcq-13",
-        "mechanics-mcq-08"
+        "mechanics-mcq-24",
+        "mechanics-mcq-18",
+        "mechanics-mcq-14"
       ],
       "explanation": "本句的「mechanics」指「讓某項計劃或程序真正運行時涉及的具體步驟和安排」。",
       "sentenceIndex": 21,
@@ -1217,12 +1143,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-11": "本句指「讓某項計劃或程序真正運行時涉及的具體步驟和安排」。",
-        "mechanics-mcq-10": "「某事物各部分實際如何互相作用並運作的機制」與本句語境不同。",
-        "mechanics-mcq-12": "「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」與本句語境不同。",
-        "mechanics-mcq-09": "「利用力學原理研究人體／生物受力和運動方式的學科」與本句語境不同。",
-        "mechanics-mcq-13": "「遊戲中的一項具體玩法規則或互動系統」與本句語境不同。",
-        "mechanics-mcq-08": "「身體在站立、移動或施力時所採用的姿勢和動作方式」與本句語境不同。"
+        "mechanics-mcq-11": "本句的「mechanics」指「讓某項計劃或程序真正運行時涉及的具體步驟和安排」。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-11"
     },
@@ -1234,11 +1158,9 @@ export default {
       "masked": "She understood the strategy but not the ____ of implementation.",
       "options": [
         "mechanics-mcq-11",
-        "mechanics-mcq-10",
-        "mechanics-mcq-12",
-        "mechanics-mcq-09",
-        "mechanics-mcq-13",
-        "mechanics-mcq-08"
+        "mechanics-mcq-24",
+        "mechanics-mcq-18",
+        "mechanics-mcq-20"
       ],
       "explanation": "本句的「mechanics」指「讓某項計劃或程序真正運行時涉及的具體步驟和安排」。",
       "sentenceIndex": 22,
@@ -1247,12 +1169,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-11": "本句指「讓某項計劃或程序真正運行時涉及的具體步驟和安排」。",
-        "mechanics-mcq-10": "「某事物各部分實際如何互相作用並運作的機制」與本句語境不同。",
-        "mechanics-mcq-12": "「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」與本句語境不同。",
-        "mechanics-mcq-09": "「利用力學原理研究人體／生物受力和運動方式的學科」與本句語境不同。",
-        "mechanics-mcq-13": "「遊戲中的一項具體玩法規則或互動系統」與本句語境不同。",
-        "mechanics-mcq-08": "「身體在站立、移動或施力時所採用的姿勢和動作方式」與本句語境不同。"
+        "mechanics-mcq-11": "本句的「mechanics」指「讓某項計劃或程序真正運行時涉及的具體步驟和安排」。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-11"
     },
@@ -1264,11 +1184,9 @@ export default {
       "masked": "Before launching the programme, we need to understand its ____.",
       "options": [
         "mechanics-mcq-11",
-        "mechanics-mcq-10",
-        "mechanics-mcq-12",
-        "mechanics-mcq-09",
-        "mechanics-mcq-13",
-        "mechanics-mcq-08"
+        "mechanics-mcq-24",
+        "mechanics-mcq-18",
+        "mechanics-mcq-14"
       ],
       "explanation": "本句的「mechanics」指「讓某項計劃或程序真正運行時涉及的具體步驟和安排」。",
       "sentenceIndex": 23,
@@ -1277,12 +1195,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-11": "本句指「讓某項計劃或程序真正運行時涉及的具體步驟和安排」。",
-        "mechanics-mcq-10": "「某事物各部分實際如何互相作用並運作的機制」與本句語境不同。",
-        "mechanics-mcq-12": "「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」與本句語境不同。",
-        "mechanics-mcq-09": "「利用力學原理研究人體／生物受力和運動方式的學科」與本句語境不同。",
-        "mechanics-mcq-13": "「遊戲中的一項具體玩法規則或互動系統」與本句語境不同。",
-        "mechanics-mcq-08": "「身體在站立、移動或施力時所採用的姿勢和動作方式」與本句語境不同。"
+        "mechanics-mcq-11": "本句的「mechanics」指「讓某項計劃或程序真正運行時涉及的具體步驟和安排」。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-11"
     },
@@ -1294,11 +1210,9 @@ export default {
       "masked": "The game has simple but addictive ____.",
       "options": [
         "mechanics-mcq-12",
-        "mechanics-mcq-11",
-        "mechanics-mcq-13",
-        "mechanics-mcq-10",
-        "mechanics-mcq-14",
-        "mechanics-mcq-09"
+        "mechanics-mcq-06",
+        "mechanics-mcq-03",
+        "mechanics-mcq-18"
       ],
       "explanation": "本句的「mechanics」指「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」。",
       "sentenceIndex": 24,
@@ -1307,12 +1221,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-12": "本句指「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」。",
-        "mechanics-mcq-11": "「讓某項計劃或程序真正運行時涉及的具體步驟和安排」與本句語境不同。",
-        "mechanics-mcq-13": "「遊戲中的一項具體玩法規則或互動系統」與本句語境不同。",
-        "mechanics-mcq-10": "「某事物各部分實際如何互相作用並運作的機制」與本句語境不同。",
-        "mechanics-mcq-14": "「拼寫、標點、大小寫等正式書寫規範」與本句語境不同。",
-        "mechanics-mcq-09": "「利用力學原理研究人體／生物受力和運動方式的學科」與本句語境不同。"
+        "mechanics-mcq-12": "本句的「mechanics」指「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」。",
+        "mechanics-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-12"
     },
@@ -1324,11 +1236,9 @@ export default {
       "masked": "Players need time to learn the combat ____.",
       "options": [
         "mechanics-mcq-12",
-        "mechanics-mcq-11",
-        "mechanics-mcq-13",
-        "mechanics-mcq-10",
-        "mechanics-mcq-14",
-        "mechanics-mcq-09"
+        "mechanics-mcq-18",
+        "mechanics-mcq-03",
+        "mechanics-mcq-06"
       ],
       "explanation": "本句的「mechanics」指「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」。",
       "sentenceIndex": 25,
@@ -1337,12 +1247,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-12": "本句指「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」。",
-        "mechanics-mcq-11": "「讓某項計劃或程序真正運行時涉及的具體步驟和安排」與本句語境不同。",
-        "mechanics-mcq-13": "「遊戲中的一項具體玩法規則或互動系統」與本句語境不同。",
-        "mechanics-mcq-10": "「某事物各部分實際如何互相作用並運作的機制」與本句語境不同。",
-        "mechanics-mcq-14": "「拼寫、標點、大小寫等正式書寫規範」與本句語境不同。",
-        "mechanics-mcq-09": "「利用力學原理研究人體／生物受力和運動方式的學科」與本句語境不同。"
+        "mechanics-mcq-12": "本句的「mechanics」指「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-12"
     },
@@ -1354,11 +1262,9 @@ export default {
       "masked": "Dodging is an important combat ____.",
       "options": [
         "mechanics-mcq-13",
-        "mechanics-mcq-12",
-        "mechanics-mcq-14",
-        "mechanics-mcq-11",
-        "mechanics-mcq-15",
-        "mechanics-mcq-10"
+        "mechanics-mcq-24",
+        "mechanics-reviewed-aa15753cc9",
+        "mechanics-mcq-18"
       ],
       "explanation": "本句的「mechanic」指「遊戲中的一項具體玩法規則或互動系統」。",
       "sentenceIndex": 26,
@@ -1367,12 +1273,10 @@ export default {
         "mechanic"
       ],
       "optionReasons": {
-        "mechanics-mcq-13": "本句指「遊戲中的一項具體玩法規則或互動系統」。",
-        "mechanics-mcq-12": "「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」與本句語境不同。",
-        "mechanics-mcq-14": "「拼寫、標點、大小寫等正式書寫規範」與本句語境不同。",
-        "mechanics-mcq-11": "「讓某項計劃或程序真正運行時涉及的具體步驟和安排」與本句語境不同。",
-        "mechanics-mcq-15": "「專門維修、保養或檢查機械／車輛的人」與本句語境不同。",
-        "mechanics-mcq-10": "「某事物各部分實際如何互相作用並運作的機制」與本句語境不同。"
+        "mechanics-mcq-13": "本句的「mechanic」指「遊戲中的一項具體玩法規則或互動系統」。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mechanics-reviewed-aa15753cc9": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-13"
     },
@@ -1384,11 +1288,9 @@ export default {
       "masked": "The essay has good ideas but weak writing ____.",
       "options": [
         "mechanics-mcq-14",
-        "mechanics-mcq-13",
         "mechanics-mcq-15",
-        "mechanics-mcq-12",
-        "mechanics-mcq-16",
-        "mechanics-mcq-11"
+        "mechanics-mcq-02",
+        "mechanics-mcq-08"
       ],
       "explanation": "本句的「mechanics」指「拼寫、標點、大小寫等正式書寫規範」。",
       "sentenceIndex": 27,
@@ -1397,12 +1299,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-14": "本句指「拼寫、標點、大小寫等正式書寫規範」。",
-        "mechanics-mcq-13": "「遊戲中的一項具體玩法規則或互動系統」與本句語境不同。",
-        "mechanics-mcq-15": "「專門維修、保養或檢查機械／車輛的人」與本句語境不同。",
-        "mechanics-mcq-12": "「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」與本句語境不同。",
-        "mechanics-mcq-16": "「與機器、機件或物理裝置有關的」與本句語境不同。",
-        "mechanics-mcq-11": "「讓某項計劃或程序真正運行時涉及的具體步驟和安排」與本句語境不同。"
+        "mechanics-mcq-14": "本句的「mechanics」指「拼寫、標點、大小寫等正式書寫規範」。",
+        "mechanics-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-14"
     },
@@ -1414,11 +1314,9 @@ export default {
       "masked": "Teachers assess grammar, organization and ____.",
       "options": [
         "mechanics-mcq-14",
-        "mechanics-mcq-13",
-        "mechanics-mcq-15",
-        "mechanics-mcq-12",
-        "mechanics-mcq-16",
-        "mechanics-mcq-11"
+        "mechanics-mcq-22",
+        "mechanics-mcq-23",
+        "mechanics-mcq-09"
       ],
       "explanation": "本句的「mechanics」指「拼寫、標點、大小寫等正式書寫規範」。",
       "sentenceIndex": 28,
@@ -1427,12 +1325,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-14": "本句指「拼寫、標點、大小寫等正式書寫規範」。",
-        "mechanics-mcq-13": "「遊戲中的一項具體玩法規則或互動系統」與本句語境不同。",
-        "mechanics-mcq-15": "「專門維修、保養或檢查機械／車輛的人」與本句語境不同。",
-        "mechanics-mcq-12": "「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」與本句語境不同。",
-        "mechanics-mcq-16": "「與機器、機件或物理裝置有關的」與本句語境不同。",
-        "mechanics-mcq-11": "「讓某項計劃或程序真正運行時涉及的具體步驟和安排」與本句語境不同。"
+        "mechanics-mcq-14": "本句的「mechanics」指「拼寫、標點、大小寫等正式書寫規範」。",
+        "mechanics-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-14"
     },
@@ -1444,11 +1340,9 @@ export default {
       "masked": "The ____ repaired the car.",
       "options": [
         "mechanics-mcq-15",
-        "mechanics-mcq-14",
-        "mechanics-mcq-16",
-        "mechanics-mcq-13",
-        "mechanics-mcq-17",
-        "mechanics-mcq-12"
+        "mechanics-mcq-24",
+        "mechanics-mcq-02",
+        "mechanics-mcq-18"
       ],
       "explanation": "本句的「mechanic」指「專門維修、保養或檢查機械／車輛的人」。",
       "sentenceIndex": 29,
@@ -1457,12 +1351,10 @@ export default {
         "mechanic"
       ],
       "optionReasons": {
-        "mechanics-mcq-15": "本句指「專門維修、保養或檢查機械／車輛的人」。",
-        "mechanics-mcq-14": "「拼寫、標點、大小寫等正式書寫規範」與本句語境不同。",
-        "mechanics-mcq-16": "「與機器、機件或物理裝置有關的」與本句語境不同。",
-        "mechanics-mcq-13": "「遊戲中的一項具體玩法規則或互動系統」與本句語境不同。",
-        "mechanics-mcq-17": "「像機器一樣自動、重複而缺乏主動思考的」與本句語境不同。",
-        "mechanics-mcq-12": "「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」與本句語境不同。"
+        "mechanics-mcq-15": "本句的「mechanic」指「專門維修、保養或檢查機械／車輛的人」。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-15"
     },
@@ -1475,10 +1367,8 @@ export default {
       "options": [
         "mechanics-mcq-15",
         "mechanics-mcq-14",
-        "mechanics-mcq-16",
-        "mechanics-mcq-13",
-        "mechanics-mcq-17",
-        "mechanics-mcq-12"
+        "mechanics-mcq-03",
+        "mechanics-mcq-22"
       ],
       "explanation": "本句的「mechanics」指「專門維修、保養或檢查機械／車輛的人」。",
       "sentenceIndex": 30,
@@ -1487,12 +1377,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-15": "本句指「專門維修、保養或檢查機械／車輛的人」。",
-        "mechanics-mcq-14": "「拼寫、標點、大小寫等正式書寫規範」與本句語境不同。",
-        "mechanics-mcq-16": "「與機器、機件或物理裝置有關的」與本句語境不同。",
-        "mechanics-mcq-13": "「遊戲中的一項具體玩法規則或互動系統」與本句語境不同。",
-        "mechanics-mcq-17": "「像機器一樣自動、重複而缺乏主動思考的」與本句語境不同。",
-        "mechanics-mcq-12": "「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」與本句語境不同。"
+        "mechanics-mcq-15": "本句的「mechanics」指「專門維修、保養或檢查機械／車輛的人」。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-15"
     },
@@ -1504,11 +1392,9 @@ export default {
       "masked": "The ____ replaced the damaged parts.",
       "options": [
         "mechanics-mcq-15",
-        "mechanics-mcq-14",
-        "mechanics-mcq-16",
-        "mechanics-mcq-13",
-        "mechanics-mcq-17",
-        "mechanics-mcq-12"
+        "mechanics-mcq-24",
+        "mechanics-mcq-22",
+        "mechanics-mcq-18"
       ],
       "explanation": "本句的「mechanics」指「專門維修、保養或檢查機械／車輛的人」。",
       "sentenceIndex": 31,
@@ -1517,12 +1403,10 @@ export default {
         "mechanics"
       ],
       "optionReasons": {
-        "mechanics-mcq-15": "本句指「專門維修、保養或檢查機械／車輛的人」。",
-        "mechanics-mcq-14": "「拼寫、標點、大小寫等正式書寫規範」與本句語境不同。",
-        "mechanics-mcq-16": "「與機器、機件或物理裝置有關的」與本句語境不同。",
-        "mechanics-mcq-13": "「遊戲中的一項具體玩法規則或互動系統」與本句語境不同。",
-        "mechanics-mcq-17": "「像機器一樣自動、重複而缺乏主動思考的」與本句語境不同。",
-        "mechanics-mcq-12": "「決定玩家如何操作、互動、得分及推進遊戲的規則和系統」與本句語境不同。"
+        "mechanics-mcq-15": "本句的「mechanics」指「專門維修、保養或檢查機械／車輛的人」。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-15"
     },
@@ -1534,11 +1418,9 @@ export default {
       "masked": "The problem was caused by a ____ failure.",
       "options": [
         "mechanics-mcq-16",
-        "mechanics-mcq-15",
-        "mechanics-mcq-17",
-        "mechanics-mcq-14",
-        "mechanics-mcq-18",
-        "mechanics-mcq-13"
+        "mechanics-mcq-06",
+        "mechanics-mcq-04",
+        "mechanics-mcq-20"
       ],
       "explanation": "本句的「mechanical」指「與機器、機件或物理裝置有關的」。",
       "sentenceIndex": 32,
@@ -1547,12 +1429,10 @@ export default {
         "mechanical"
       ],
       "optionReasons": {
-        "mechanics-mcq-16": "本句指「與機器、機件或物理裝置有關的」。",
-        "mechanics-mcq-15": "「專門維修、保養或檢查機械／車輛的人」與本句語境不同。",
-        "mechanics-mcq-17": "「像機器一樣自動、重複而缺乏主動思考的」與本句語境不同。",
-        "mechanics-mcq-14": "「拼寫、標點、大小寫等正式書寫規範」與本句語境不同。",
-        "mechanics-mcq-18": "「過於僵硬、公式化而缺乏自然感或情緒的」與本句語境不同。",
-        "mechanics-mcq-13": "「遊戲中的一項具體玩法規則或互動系統」與本句語境不同。"
+        "mechanics-mcq-16": "本句的「mechanical」指「與機器、機件或物理裝置有關的」。",
+        "mechanics-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-16"
     },
@@ -1564,11 +1444,9 @@ export default {
       "masked": "The race car stopped because of a ____.",
       "options": [
         "mechanics-mcq-16",
-        "mechanics-mcq-15",
-        "mechanics-mcq-17",
-        "mechanics-mcq-14",
-        "mechanics-mcq-18",
-        "mechanics-mcq-13"
+        "mechanics-mcq-06",
+        "mechanics-mcq-20",
+        "mechanics-mcq-14"
       ],
       "explanation": "本句的「mechanical failure」指「與機器、機件或物理裝置有關的」。",
       "sentenceIndex": 33,
@@ -1577,12 +1455,10 @@ export default {
         "mechanical failure"
       ],
       "optionReasons": {
-        "mechanics-mcq-16": "本句指「與機器、機件或物理裝置有關的」。",
-        "mechanics-mcq-15": "「專門維修、保養或檢查機械／車輛的人」與本句語境不同。",
-        "mechanics-mcq-17": "「像機器一樣自動、重複而缺乏主動思考的」與本句語境不同。",
-        "mechanics-mcq-14": "「拼寫、標點、大小寫等正式書寫規範」與本句語境不同。",
-        "mechanics-mcq-18": "「過於僵硬、公式化而缺乏自然感或情緒的」與本句語境不同。",
-        "mechanics-mcq-13": "「遊戲中的一項具體玩法規則或互動系統」與本句語境不同。"
+        "mechanics-mcq-16": "本句的「mechanical failure」指「與機器、機件或物理裝置有關的」。",
+        "mechanics-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-16"
     },
@@ -1594,11 +1470,9 @@ export default {
       "masked": "He studied ____ at university.",
       "options": [
         "mechanics-mcq-16",
-        "mechanics-mcq-15",
-        "mechanics-mcq-17",
+        "mechanics-mcq-08",
         "mechanics-mcq-14",
-        "mechanics-mcq-18",
-        "mechanics-mcq-13"
+        "mechanics-mcq-18"
       ],
       "explanation": "本句的「mechanical engineering」指「與機器、機件或物理裝置有關的」。",
       "sentenceIndex": 34,
@@ -1607,12 +1481,10 @@ export default {
         "mechanical engineering"
       ],
       "optionReasons": {
-        "mechanics-mcq-16": "本句指「與機器、機件或物理裝置有關的」。",
-        "mechanics-mcq-15": "「專門維修、保養或檢查機械／車輛的人」與本句語境不同。",
-        "mechanics-mcq-17": "「像機器一樣自動、重複而缺乏主動思考的」與本句語境不同。",
-        "mechanics-mcq-14": "「拼寫、標點、大小寫等正式書寫規範」與本句語境不同。",
-        "mechanics-mcq-18": "「過於僵硬、公式化而缺乏自然感或情緒的」與本句語境不同。",
-        "mechanics-mcq-13": "「遊戲中的一項具體玩法規則或互動系統」與本句語境不同。"
+        "mechanics-mcq-16": "本句的「mechanical engineering」指「與機器、機件或物理裝置有關的」。",
+        "mechanics-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-16"
     },
@@ -1624,11 +1496,9 @@ export default {
       "masked": "The watch uses a ____ movement.",
       "options": [
         "mechanics-pdf-001",
-        "mechanics-mcq-15",
-        "mechanics-mcq-17",
-        "mechanics-mcq-14",
-        "mechanics-mcq-18",
-        "mechanics-mcq-13"
+        "mechanics-mcq-08",
+        "mechanics-mcq-20",
+        "mechanics-mcq-18"
       ],
       "explanation": "本句的「mechanical」指「主要依靠物理機件、齒輪、彈簧等機械結構運作的」。",
       "sentenceIndex": 35,
@@ -1637,12 +1507,10 @@ export default {
         "mechanical"
       ],
       "optionReasons": {
-        "mechanics-pdf-001": "本句指「主要依靠物理機件、齒輪、彈簧等機械結構運作的」。",
-        "mechanics-mcq-15": "「專門維修、保養或檢查機械／車輛的人」與本句語境不同。",
-        "mechanics-mcq-17": "「像機器一樣自動、重複而缺乏主動思考的」與本句語境不同。",
-        "mechanics-mcq-14": "「拼寫、標點、大小寫等正式書寫規範」與本句語境不同。",
-        "mechanics-mcq-18": "「過於僵硬、公式化而缺乏自然感或情緒的」與本句語境不同。",
-        "mechanics-mcq-13": "「遊戲中的一項具體玩法規則或互動系統」與本句語境不同。"
+        "mechanics-pdf-001": "本句的「mechanical」指「主要依靠物理機件、齒輪、彈簧等機械結構運作的」。",
+        "mechanics-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-pdf-001"
     },
@@ -1654,11 +1522,9 @@ export default {
       "masked": "His movements became almost ____ after hours of repetition.",
       "options": [
         "mechanics-mcq-17",
-        "mechanics-mcq-16",
-        "mechanics-mcq-18",
-        "mechanics-mcq-15",
-        "mechanics-mcq-19",
-        "mechanics-mcq-14"
+        "mechanics-mcq-14",
+        "mechanics-reviewed-aa15753cc9",
+        "mechanics-mcq-24"
       ],
       "explanation": "本句的「mechanical」指「像機器一樣自動、重複而缺乏主動思考的」。",
       "sentenceIndex": 36,
@@ -1667,12 +1533,10 @@ export default {
         "mechanical"
       ],
       "optionReasons": {
-        "mechanics-mcq-17": "本句指「像機器一樣自動、重複而缺乏主動思考的」。",
-        "mechanics-mcq-16": "「與機器、機件或物理裝置有關的」與本句語境不同。",
-        "mechanics-mcq-18": "「過於僵硬、公式化而缺乏自然感或情緒的」與本句語境不同。",
-        "mechanics-mcq-15": "「專門維修、保養或檢查機械／車輛的人」與本句語境不同。",
-        "mechanics-mcq-19": "「由多個部件組成並產生某種功能的機械裝置」與本句語境不同。",
-        "mechanics-mcq-14": "「拼寫、標點、大小寫等正式書寫規範」與本句語境不同。"
+        "mechanics-mcq-17": "本句的「mechanical」指「像機器一樣自動、重複而缺乏主動思考的」。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mechanics-reviewed-aa15753cc9": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-17"
     },
@@ -1684,11 +1548,9 @@ export default {
       "masked": "The performance was technically accurate but rather ____.",
       "options": [
         "mechanics-mcq-18",
-        "mechanics-mcq-17",
-        "mechanics-mcq-19",
-        "mechanics-mcq-16",
-        "mechanics-mcq-20",
-        "mechanics-mcq-15"
+        "mechanics-mcq-05",
+        "mechanics-mcq-11",
+        "mechanics-mcq-01"
       ],
       "explanation": "本句的「mechanical」指「過於僵硬、公式化而缺乏自然感或情緒的」。",
       "sentenceIndex": 37,
@@ -1697,12 +1559,10 @@ export default {
         "mechanical"
       ],
       "optionReasons": {
-        "mechanics-mcq-18": "本句指「過於僵硬、公式化而缺乏自然感或情緒的」。",
-        "mechanics-mcq-17": "「像機器一樣自動、重複而缺乏主動思考的」與本句語境不同。",
-        "mechanics-mcq-19": "「由多個部件組成並產生某種功能的機械裝置」與本句語境不同。",
-        "mechanics-mcq-16": "「與機器、機件或物理裝置有關的」與本句語境不同。",
-        "mechanics-mcq-20": "「解釋某種現象如何產生、各因素如何互相作用的一套過程」與本句語境不同。",
-        "mechanics-mcq-15": "「專門維修、保養或檢查機械／車輛的人」與本句語境不同。"
+        "mechanics-mcq-18": "本句的「mechanical」指「過於僵硬、公式化而缺乏自然感或情緒的」。",
+        "mechanics-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-18"
     },
@@ -1714,11 +1574,9 @@ export default {
       "masked": "He ____ repeated the instructions.",
       "options": [
         "mechanics-pdf-002",
-        "mechanics-mcq-17",
-        "mechanics-mcq-19",
-        "mechanics-mcq-16",
-        "mechanics-mcq-20",
-        "mechanics-mcq-15"
+        "mechanics-mcq-06",
+        "mechanics-mcq-14",
+        "mechanics-reviewed-aa15753cc9"
       ],
       "explanation": "本句的「mechanically」指「像機器一樣自動、僵化或缺乏思考地」。",
       "sentenceIndex": 39,
@@ -1727,12 +1585,10 @@ export default {
         "mechanically"
       ],
       "optionReasons": {
-        "mechanics-pdf-002": "本句指「像機器一樣自動、僵化或缺乏思考地」。",
-        "mechanics-mcq-17": "「像機器一樣自動、重複而缺乏主動思考的」與本句語境不同。",
-        "mechanics-mcq-19": "「由多個部件組成並產生某種功能的機械裝置」與本句語境不同。",
-        "mechanics-mcq-16": "「與機器、機件或物理裝置有關的」與本句語境不同。",
-        "mechanics-mcq-20": "「解釋某種現象如何產生、各因素如何互相作用的一套過程」與本句語境不同。",
-        "mechanics-mcq-15": "「專門維修、保養或檢查機械／車輛的人」與本句語境不同。"
+        "mechanics-pdf-002": "本句的「mechanically」指「像機器一樣自動、僵化或缺乏思考地」。",
+        "mechanics-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mechanics-reviewed-aa15753cc9": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-pdf-002"
     },
@@ -1744,11 +1600,9 @@ export default {
       "masked": "The locking ____ is damaged.",
       "options": [
         "mechanics-mcq-19",
-        "mechanics-mcq-18",
-        "mechanics-mcq-20",
-        "mechanics-mcq-17",
-        "mechanics-mcq-21",
-        "mechanics-mcq-16"
+        "mechanics-mcq-08",
+        "mechanics-mcq-01",
+        "mechanics-mcq-18"
       ],
       "explanation": "本句的「mechanism」指「由多個部件組成並產生某種功能的機械裝置」。",
       "sentenceIndex": 40,
@@ -1757,12 +1611,10 @@ export default {
         "mechanism"
       ],
       "optionReasons": {
-        "mechanics-mcq-19": "本句指「由多個部件組成並產生某種功能的機械裝置」。",
-        "mechanics-mcq-18": "「過於僵硬、公式化而缺乏自然感或情緒的」與本句語境不同。",
-        "mechanics-mcq-20": "「解釋某種現象如何產生、各因素如何互相作用的一套過程」與本句語境不同。",
-        "mechanics-mcq-17": "「像機器一樣自動、重複而缺乏主動思考的」與本句語境不同。",
-        "mechanics-mcq-21": "「為達到某種目的而建立的一套制度、程序或運作方式」與本句語境不同。",
-        "mechanics-mcq-16": "「與機器、機件或物理裝置有關的」與本句語境不同。"
+        "mechanics-mcq-19": "本句的「mechanism」指「由多個部件組成並產生某種功能的機械裝置」。",
+        "mechanics-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-19"
     },
@@ -1774,11 +1626,9 @@ export default {
       "masked": "Researchers are studying the biological ____ behind recovery.",
       "options": [
         "mechanics-mcq-20",
-        "mechanics-mcq-19",
-        "mechanics-mcq-21",
-        "mechanics-mcq-18",
-        "mechanics-mcq-22",
-        "mechanics-mcq-17"
+        "mechanics-mcq-24",
+        "mechanics-mcq-01",
+        "mechanics-mcq-14"
       ],
       "explanation": "本句的「mechanism」指「解釋某種現象如何產生、各因素如何互相作用的一套過程」。",
       "sentenceIndex": 41,
@@ -1787,12 +1637,10 @@ export default {
         "mechanism"
       ],
       "optionReasons": {
-        "mechanics-mcq-20": "本句指「解釋某種現象如何產生、各因素如何互相作用的一套過程」。",
-        "mechanics-mcq-19": "「由多個部件組成並產生某種功能的機械裝置」與本句語境不同。",
-        "mechanics-mcq-21": "「為達到某種目的而建立的一套制度、程序或運作方式」與本句語境不同。",
-        "mechanics-mcq-18": "「過於僵硬、公式化而缺乏自然感或情緒的」與本句語境不同。",
-        "mechanics-mcq-22": "「導致身體組織受傷的力量、動作及事件過程」與本句語境不同。",
-        "mechanics-mcq-17": "「像機器一樣自動、重複而缺乏主動思考的」與本句語境不同。"
+        "mechanics-mcq-20": "本句的「mechanism」指「解釋某種現象如何產生、各因素如何互相作用的一套過程」。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-20"
     },
@@ -1804,11 +1652,9 @@ export default {
       "masked": "The medical team examined the ____.",
       "options": [
         "mechanics-mcq-22",
-        "mechanics-mcq-21",
-        "mechanics-mcq-23",
-        "mechanics-mcq-20",
         "mechanics-mcq-24",
-        "mechanics-mcq-19"
+        "mechanics-mcq-14",
+        "mechanics-mcq-15"
       ],
       "explanation": "本句的「mechanism of injury」指「導致身體組織受傷的力量、動作及事件過程」。",
       "sentenceIndex": 42,
@@ -1817,12 +1663,10 @@ export default {
         "mechanism of injury"
       ],
       "optionReasons": {
-        "mechanics-mcq-22": "本句指「導致身體組織受傷的力量、動作及事件過程」。",
-        "mechanics-mcq-21": "「為達到某種目的而建立的一套制度、程序或運作方式」與本句語境不同。",
-        "mechanics-mcq-23": "「人面對壓力或困難時用來調整和應付的心理／行為方式」與本句語境不同。",
-        "mechanics-mcq-20": "「解釋某種現象如何產生、各因素如何互相作用的一套過程」與本句語境不同。",
-        "mechanics-mcq-24": "「用來減輕焦慮或心理衝突的無意識心理反應方式」與本句語境不同。",
-        "mechanics-mcq-19": "「由多個部件組成並產生某種功能的機械裝置」與本句語境不同。"
+        "mechanics-mcq-22": "本句的「mechanism of injury」指「導致身體組織受傷的力量、動作及事件過程」。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-22"
     },
@@ -1834,11 +1678,9 @@ export default {
       "masked": "Exercise became an important ____ for her.",
       "options": [
         "mechanics-mcq-23",
-        "mechanics-mcq-22",
-        "mechanics-mcq-24",
-        "mechanics-mcq-21",
-        "mechanics-mcq-25",
-        "mechanics-mcq-20"
+        "mechanics-mcq-17",
+        "mechanics-mcq-20",
+        "mechanics-mcq-14"
       ],
       "explanation": "本句的「coping mechanism」指「人面對壓力或困難時用來調整和應付的心理／行為方式」。",
       "sentenceIndex": 43,
@@ -1847,12 +1689,10 @@ export default {
         "coping mechanism"
       ],
       "optionReasons": {
-        "mechanics-mcq-23": "本句指「人面對壓力或困難時用來調整和應付的心理／行為方式」。",
-        "mechanics-mcq-22": "「導致身體組織受傷的力量、動作及事件過程」與本句語境不同。",
-        "mechanics-mcq-24": "「用來減輕焦慮或心理衝突的無意識心理反應方式」與本句語境不同。",
-        "mechanics-mcq-21": "「為達到某種目的而建立的一套制度、程序或運作方式」與本句語境不同。",
-        "mechanics-mcq-25": "「把複雜現象視為固定機械式因果運作，有時過度簡化的」與本句語境不同。",
-        "mechanics-mcq-20": "「解釋某種現象如何產生、各因素如何互相作用的一套過程」與本句語境不同。"
+        "mechanics-mcq-23": "本句的「coping mechanism」指「人面對壓力或困難時用來調整和應付的心理／行為方式」。",
+        "mechanics-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-23"
     },
@@ -1864,11 +1704,9 @@ export default {
       "masked": "Denial can function as a ____.",
       "options": [
         "mechanics-mcq-24",
-        "mechanics-mcq-23",
-        "mechanics-mcq-25",
-        "mechanics-mcq-22",
-        "mechanics-mcq-21",
-        "mechanics-mcq-20"
+        "mechanics-mcq-10",
+        "mechanics-mcq-06",
+        "mechanics-mcq-17"
       ],
       "explanation": "本句的「defence mechanism」指「用來減輕焦慮或心理衝突的無意識心理反應方式」。",
       "sentenceIndex": 44,
@@ -1877,12 +1715,10 @@ export default {
         "defence mechanism"
       ],
       "optionReasons": {
-        "mechanics-mcq-24": "本句指「用來減輕焦慮或心理衝突的無意識心理反應方式」。",
-        "mechanics-mcq-23": "「人面對壓力或困難時用來調整和應付的心理／行為方式」與本句語境不同。",
-        "mechanics-mcq-25": "「把複雜現象視為固定機械式因果運作，有時過度簡化的」與本句語境不同。",
-        "mechanics-mcq-22": "「導致身體組織受傷的力量、動作及事件過程」與本句語境不同。",
-        "mechanics-mcq-21": "「為達到某種目的而建立的一套制度、程序或運作方式」與本句語境不同。",
-        "mechanics-mcq-20": "「解釋某種現象如何產生、各因素如何互相作用的一套過程」與本句語境不同。"
+        "mechanics-mcq-24": "本句的「defence mechanism」指「用來減輕焦慮或心理衝突的無意識心理反應方式」。",
+        "mechanics-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-24"
     },
@@ -1894,11 +1730,9 @@ export default {
       "masked": "The organisation needs a clear feedback ____.",
       "options": [
         "mechanics-mcq-21",
-        "mechanics-mcq-20",
-        "mechanics-mcq-22",
-        "mechanics-mcq-19",
         "mechanics-mcq-23",
-        "mechanics-mcq-18"
+        "mechanics-mcq-06",
+        "mechanics-mcq-14"
       ],
       "explanation": "本句的「mechanism」指「為達到某種目的而建立的一套制度、程序或運作方式」。",
       "sentenceIndex": 45,
@@ -1907,44 +1741,40 @@ export default {
         "mechanism"
       ],
       "optionReasons": {
-        "mechanics-mcq-21": "本句指「為達到某種目的而建立的一套制度、程序或運作方式」。",
-        "mechanics-mcq-20": "「解釋某種現象如何產生、各因素如何互相作用的一套過程」與本句語境不同。",
-        "mechanics-mcq-22": "「導致身體組織受傷的力量、動作及事件過程」與本句語境不同。",
-        "mechanics-mcq-19": "「由多個部件組成並產生某種功能的機械裝置」與本句語境不同。",
-        "mechanics-mcq-23": "「人面對壓力或困難時用來調整和應付的心理／行為方式」與本句語境不同。",
-        "mechanics-mcq-18": "「過於僵硬、公式化而缺乏自然感或情緒的」與本句語境不同。"
+        "mechanics-mcq-21": "本句的「mechanism」指「為達到某種目的而建立的一套制度、程序或運作方式」。",
+        "mechanics-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-21"
     },
     {
       "id": "mechanics-32-0",
-      "sense": "mechanics-mcq-24",
+      "sense": "mechanics-reviewed-aa15753cc9",
       "en": "Prices are influenced by the market mechanism.",
       "zh": "價格受到市場機制影響。",
       "masked": "Prices are influenced by the ____.",
       "options": [
-        "mechanics-mcq-24",
-        "mechanics-mcq-23",
-        "mechanics-mcq-25",
-        "mechanics-mcq-22",
-        "mechanics-mcq-21",
-        "mechanics-mcq-20"
+        "mechanics-reviewed-aa15753cc9",
+        "mechanics-mcq-12",
+        "mechanics-mcq-08",
+        "mechanics-mcq-24"
       ],
-      "explanation": "本句的「market mechanism」指「用來減輕焦慮或心理衝突的無意識心理反應方式」。",
+      "explanation": "對照完整句子：「價格受到市場機制影響。」。這裡的「market mechanism」表示「透過供求、價格及競爭等因素調節資源和市場行為的運作方式」。",
       "sentenceIndex": 46,
       "sourcePractice": 64,
       "targets": [
         "market mechanism"
       ],
       "optionReasons": {
-        "mechanics-mcq-24": "本句指「用來減輕焦慮或心理衝突的無意識心理反應方式」。",
-        "mechanics-mcq-23": "「人面對壓力或困難時用來調整和應付的心理／行為方式」與本句語境不同。",
-        "mechanics-mcq-25": "「把複雜現象視為固定機械式因果運作，有時過度簡化的」與本句語境不同。",
-        "mechanics-mcq-22": "「導致身體組織受傷的力量、動作及事件過程」與本句語境不同。",
-        "mechanics-mcq-21": "「為達到某種目的而建立的一套制度、程序或運作方式」與本句語境不同。",
-        "mechanics-mcq-20": "「解釋某種現象如何產生、各因素如何互相作用的一套過程」與本句語境不同。"
+        "mechanics-reviewed-aa15753cc9": "對照完整句子：「價格受到市場機制影響。」。這裡的「market mechanism」表示「透過供求、價格及競爭等因素調節資源和市場行為的運作方式」。",
+        "mechanics-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "mechanics-mcq-24"
+      "correctOption": "mechanics-reviewed-aa15753cc9",
+      "previousCorrectOption": "mechanics-mcq-24",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "mechanics-34-0",
@@ -1955,10 +1785,8 @@ export default {
       "options": [
         "mechanics-mcq-25",
         "mechanics-mcq-24",
-        "mechanics-mcq-23",
-        "mechanics-mcq-22",
-        "mechanics-mcq-21",
-        "mechanics-mcq-20"
+        "mechanics-mcq-14",
+        "mechanics-mcq-03"
       ],
       "explanation": "本句的「mechanistic」指「把複雜現象視為固定機械式因果運作，有時過度簡化的」。",
       "sentenceIndex": 47,
@@ -1967,12 +1795,10 @@ export default {
         "mechanistic"
       ],
       "optionReasons": {
-        "mechanics-mcq-25": "本句指「把複雜現象視為固定機械式因果運作，有時過度簡化的」。",
-        "mechanics-mcq-24": "「用來減輕焦慮或心理衝突的無意識心理反應方式」與本句語境不同。",
-        "mechanics-mcq-23": "「人面對壓力或困難時用來調整和應付的心理／行為方式」與本句語境不同。",
-        "mechanics-mcq-22": "「導致身體組織受傷的力量、動作及事件過程」與本句語境不同。",
-        "mechanics-mcq-21": "「為達到某種目的而建立的一套制度、程序或運作方式」與本句語境不同。",
-        "mechanics-mcq-20": "「解釋某種現象如何產生、各因素如何互相作用的一套過程」與本句語境不同。"
+        "mechanics-mcq-25": "本句的「mechanistic」指「把複雜現象視為固定機械式因果運作，有時過度簡化的」。",
+        "mechanics-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mechanics-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mechanics-mcq-25"
     }
@@ -1984,5 +1810,7 @@ export default {
     "sha256": "6671c9b889b4f017453fede204d936ac79b69aa31c52d9e414cb67fd402089b1",
     "pages": 27
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

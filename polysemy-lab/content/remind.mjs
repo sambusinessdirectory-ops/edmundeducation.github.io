@@ -198,7 +198,7 @@ export default {
     },
     {
       "id": "remind-mcq-09",
-      "title": "表示對方已被提醒過，再犯可能有後果；語用上接近警告",
+      "title": "對方已被提醒過，再犯可能有後果；語用上接近警告",
       "form": "Don’t make me remind you again",
       "en": "Don’t make me remind you again",
       "zh": "表示對方已被提醒過，再犯可能有後果；語用上接近警告",
@@ -512,11 +512,8 @@ export default {
       "masked": "The painting would ____.",
       "options": [
         "remind-mcq-01",
-        "remind-mcq-02",
-        "remind-mcq-03",
-        "remind-mcq-04",
-        "remind-mcq-05",
-        "remind-mcq-06"
+        "remind-mcq-11",
+        "remind-mcq-05"
       ],
       "explanation": "本句的「remind me to slow down」指「令某人記得應該完成某個動作」。",
       "sentenceIndex": 0,
@@ -525,12 +522,9 @@ export default {
         "remind me to slow down"
       ],
       "optionReasons": {
-        "remind-mcq-01": "本句指「令某人記得應該完成某個動作」。",
-        "remind-mcq-02": "「令某人重新注意／記起某個已知事實」是「remind someone that...」的用法，與本句語境不同。",
-        "remind-mcq-03": "「提醒某人不要忘記某項安排、責任或事情」是「remind someone about X」的用法，與本句語境不同。",
-        "remind-mcq-04": "「因相似、聯想或記憶關係而令某人想起 X」是「remind someone of X」的用法，與本句語境不同。",
-        "remind-mcq-05": "「因某個外在刺激而重新想起 X」是「be reminded of X」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。"
+        "remind-mcq-01": "本句的「remind me to slow down」指「令某人記得應該完成某個動作」。",
+        "remind-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-01"
     },
@@ -542,11 +536,8 @@ export default {
       "masked": "Please ____ the museum tomorrow.",
       "options": [
         "remind-mcq-01",
-        "remind-mcq-02",
-        "remind-mcq-03",
-        "remind-mcq-04",
         "remind-mcq-05",
-        "remind-mcq-06"
+        "remind-mcq-07"
       ],
       "explanation": "本句的「remind me to call」指「令某人記得應該完成某個動作」。",
       "sentenceIndex": 1,
@@ -555,12 +546,9 @@ export default {
         "remind me to call"
       ],
       "optionReasons": {
-        "remind-mcq-01": "本句指「令某人記得應該完成某個動作」。",
-        "remind-mcq-02": "「令某人重新注意／記起某個已知事實」是「remind someone that...」的用法，與本句語境不同。",
-        "remind-mcq-03": "「提醒某人不要忘記某項安排、責任或事情」是「remind someone about X」的用法，與本句語境不同。",
-        "remind-mcq-04": "「因相似、聯想或記憶關係而令某人想起 X」是「remind someone of X」的用法，與本句語境不同。",
-        "remind-mcq-05": "「因某個外在刺激而重新想起 X」是「be reminded of X」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。"
+        "remind-mcq-01": "本句的「remind me to call」指「令某人記得應該完成某個動作」。",
+        "remind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-01"
     },
@@ -572,11 +560,8 @@ export default {
       "masked": "She ____ him to bring the tickets.",
       "options": [
         "remind-mcq-01",
-        "remind-mcq-02",
-        "remind-mcq-03",
-        "remind-mcq-04",
-        "remind-mcq-05",
-        "remind-mcq-06"
+        "remind-mcq-07",
+        "remind-mcq-05"
       ],
       "explanation": "本句的「reminded」指「令某人記得應該完成某個動作」。",
       "sentenceIndex": 2,
@@ -585,12 +570,9 @@ export default {
         "reminded"
       ],
       "optionReasons": {
-        "remind-mcq-01": "本句指「令某人記得應該完成某個動作」。",
-        "remind-mcq-02": "「令某人重新注意／記起某個已知事實」是「remind someone that...」的用法，與本句語境不同。",
-        "remind-mcq-03": "「提醒某人不要忘記某項安排、責任或事情」是「remind someone about X」的用法，與本句語境不同。",
-        "remind-mcq-04": "「因相似、聯想或記憶關係而令某人想起 X」是「remind someone of X」的用法，與本句語境不同。",
-        "remind-mcq-05": "「因某個外在刺激而重新想起 X」是「be reminded of X」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。"
+        "remind-mcq-01": "本句的「reminded」指「令某人記得應該完成某個動作」。",
+        "remind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-01"
     },
@@ -602,11 +584,8 @@ export default {
       "masked": "She ____ the museum closes at six.",
       "options": [
         "remind-mcq-02",
-        "remind-mcq-01",
-        "remind-mcq-03",
-        "remind-mcq-04",
-        "remind-mcq-05",
-        "remind-mcq-06"
+        "remind-mcq-11",
+        "remind-mcq-08"
       ],
       "explanation": "本句的「reminded me that」指「令某人重新注意／記起某個已知事實」。",
       "sentenceIndex": 3,
@@ -615,12 +594,9 @@ export default {
         "reminded me that"
       ],
       "optionReasons": {
-        "remind-mcq-02": "本句指「令某人重新注意／記起某個已知事實」。",
-        "remind-mcq-01": "「令某人記得應該完成某個動作」是「remind someone to do」的用法，與本句語境不同。",
-        "remind-mcq-03": "「提醒某人不要忘記某項安排、責任或事情」是「remind someone about X」的用法，與本句語境不同。",
-        "remind-mcq-04": "「因相似、聯想或記憶關係而令某人想起 X」是「remind someone of X」的用法，與本句語境不同。",
-        "remind-mcq-05": "「因某個外在刺激而重新想起 X」是「be reminded of X」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。"
+        "remind-mcq-02": "本句的「reminded me that」指「令某人重新注意／記起某個已知事實」。",
+        "remind-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-02"
     },
@@ -632,11 +608,7 @@ export default {
       "masked": "Let me ____ you that this is the original.",
       "options": [
         "remind-mcq-02",
-        "remind-mcq-01",
-        "remind-mcq-03",
-        "remind-mcq-04",
-        "remind-mcq-05",
-        "remind-mcq-06"
+        "remind-mcq-09"
       ],
       "explanation": "本句的「remind」指「令某人重新注意／記起某個已知事實」。",
       "sentenceIndex": 4,
@@ -645,12 +617,8 @@ export default {
         "remind"
       ],
       "optionReasons": {
-        "remind-mcq-02": "本句指「令某人重新注意／記起某個已知事實」。",
-        "remind-mcq-01": "「令某人記得應該完成某個動作」是「remind someone to do」的用法，與本句語境不同。",
-        "remind-mcq-03": "「提醒某人不要忘記某項安排、責任或事情」是「remind someone about X」的用法，與本句語境不同。",
-        "remind-mcq-04": "「因相似、聯想或記憶關係而令某人想起 X」是「remind someone of X」的用法，與本句語境不同。",
-        "remind-mcq-05": "「因某個外在刺激而重新想起 X」是「be reminded of X」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。"
+        "remind-mcq-02": "本句的「remind」指「令某人重新注意／記起某個已知事實」。",
+        "remind-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-02"
     },
@@ -662,11 +630,8 @@ export default {
       "masked": "Please ____ the exhibition.",
       "options": [
         "remind-mcq-03",
-        "remind-mcq-02",
-        "remind-mcq-04",
-        "remind-mcq-01",
         "remind-mcq-05",
-        "remind-mcq-06"
+        "remind-mcq-13"
       ],
       "explanation": "本句的「remind me about」指「提醒某人不要忘記某項安排、責任或事情」。",
       "sentenceIndex": 5,
@@ -675,12 +640,9 @@ export default {
         "remind me about"
       ],
       "optionReasons": {
-        "remind-mcq-03": "本句指「提醒某人不要忘記某項安排、責任或事情」。",
-        "remind-mcq-02": "「令某人重新注意／記起某個已知事實」是「remind someone that...」的用法，與本句語境不同。",
-        "remind-mcq-04": "「因相似、聯想或記憶關係而令某人想起 X」是「remind someone of X」的用法，與本句語境不同。",
-        "remind-mcq-01": "「令某人記得應該完成某個動作」是「remind someone to do」的用法，與本句語境不同。",
-        "remind-mcq-05": "「因某個外在刺激而重新想起 X」是「be reminded of X」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。"
+        "remind-mcq-03": "本句的「remind me about」指「提醒某人不要忘記某項安排、責任或事情」。",
+        "remind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-03"
     },
@@ -692,11 +654,8 @@ export default {
       "masked": "He ____ her about the appointment.",
       "options": [
         "remind-mcq-03",
-        "remind-mcq-02",
-        "remind-mcq-04",
-        "remind-mcq-01",
-        "remind-mcq-05",
-        "remind-mcq-06"
+        "remind-mcq-18",
+        "remind-mcq-20"
       ],
       "explanation": "本句的「reminded」指「提醒某人不要忘記某項安排、責任或事情」。",
       "sentenceIndex": 6,
@@ -705,12 +664,9 @@ export default {
         "reminded"
       ],
       "optionReasons": {
-        "remind-mcq-03": "本句指「提醒某人不要忘記某項安排、責任或事情」。",
-        "remind-mcq-02": "「令某人重新注意／記起某個已知事實」是「remind someone that...」的用法，與本句語境不同。",
-        "remind-mcq-04": "「因相似、聯想或記憶關係而令某人想起 X」是「remind someone of X」的用法，與本句語境不同。",
-        "remind-mcq-01": "「令某人記得應該完成某個動作」是「remind someone to do」的用法，與本句語境不同。",
-        "remind-mcq-05": "「因某個外在刺激而重新想起 X」是「be reminded of X」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。"
+        "remind-mcq-03": "本句的「reminded」指「提醒某人不要忘記某項安排、責任或事情」。",
+        "remind-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-03"
     },
@@ -722,11 +678,8 @@ export default {
       "masked": "The colours ____ Monet’s garden.",
       "options": [
         "remind-mcq-04",
-        "remind-mcq-03",
-        "remind-mcq-05",
-        "remind-mcq-02",
-        "remind-mcq-06",
-        "remind-mcq-01"
+        "remind-mcq-16",
+        "remind-mcq-10"
       ],
       "explanation": "本句的「remind me of」指「因相似、聯想或記憶關係而令某人想起 X」。",
       "sentenceIndex": 7,
@@ -735,12 +688,9 @@ export default {
         "remind me of"
       ],
       "optionReasons": {
-        "remind-mcq-04": "本句指「因相似、聯想或記憶關係而令某人想起 X」。",
-        "remind-mcq-03": "「提醒某人不要忘記某項安排、責任或事情」是「remind someone about X」的用法，與本句語境不同。",
-        "remind-mcq-05": "「因某個外在刺激而重新想起 X」是「be reminded of X」的用法，與本句語境不同。",
-        "remind-mcq-02": "「令某人重新注意／記起某個已知事實」是「remind someone that...」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。",
-        "remind-mcq-01": "「令某人記得應該完成某個動作」是「remind someone to do」的用法，與本句語境不同。"
+        "remind-mcq-04": "本句的「remind me of」指「因相似、聯想或記憶關係而令某人想起 X」。",
+        "remind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-04"
     },
@@ -752,11 +702,8 @@ export default {
       "masked": "That song ____ me of my childhood.",
       "options": [
         "remind-mcq-04",
-        "remind-mcq-03",
-        "remind-mcq-05",
-        "remind-mcq-02",
-        "remind-mcq-06",
-        "remind-mcq-01"
+        "remind-mcq-09",
+        "remind-mcq-10"
       ],
       "explanation": "本句的「reminds」指「因相似、聯想或記憶關係而令某人想起 X」。",
       "sentenceIndex": 8,
@@ -765,12 +712,9 @@ export default {
         "reminds"
       ],
       "optionReasons": {
-        "remind-mcq-04": "本句指「因相似、聯想或記憶關係而令某人想起 X」。",
-        "remind-mcq-03": "「提醒某人不要忘記某項安排、責任或事情」是「remind someone about X」的用法，與本句語境不同。",
-        "remind-mcq-05": "「因某個外在刺激而重新想起 X」是「be reminded of X」的用法，與本句語境不同。",
-        "remind-mcq-02": "「令某人重新注意／記起某個已知事實」是「remind someone that...」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。",
-        "remind-mcq-01": "「令某人記得應該完成某個動作」是「remind someone to do」的用法，與本句語境不同。"
+        "remind-mcq-04": "本句的「reminds」指「因相似、聯想或記憶關係而令某人想起 X」。",
+        "remind-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-04"
     },
@@ -782,11 +726,8 @@ export default {
       "masked": "You ____ your sister.",
       "options": [
         "remind-mcq-04",
-        "remind-mcq-03",
-        "remind-mcq-05",
-        "remind-mcq-02",
-        "remind-mcq-06",
-        "remind-mcq-01"
+        "remind-mcq-09",
+        "remind-mcq-10"
       ],
       "explanation": "本句的「remind me of」指「因相似、聯想或記憶關係而令某人想起 X」。",
       "sentenceIndex": 9,
@@ -795,12 +736,9 @@ export default {
         "remind me of"
       ],
       "optionReasons": {
-        "remind-mcq-04": "本句指「因相似、聯想或記憶關係而令某人想起 X」。",
-        "remind-mcq-03": "「提醒某人不要忘記某項安排、責任或事情」是「remind someone about X」的用法，與本句語境不同。",
-        "remind-mcq-05": "「因某個外在刺激而重新想起 X」是「be reminded of X」的用法，與本句語境不同。",
-        "remind-mcq-02": "「令某人重新注意／記起某個已知事實」是「remind someone that...」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。",
-        "remind-mcq-01": "「令某人記得應該完成某個動作」是「remind someone to do」的用法，與本句語境不同。"
+        "remind-mcq-04": "本句的「remind me of」指「因相似、聯想或記憶關係而令某人想起 X」。",
+        "remind-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-04"
     },
@@ -812,11 +750,8 @@ export default {
       "masked": "His style ____ me of an older painter.",
       "options": [
         "remind-mcq-04",
-        "remind-mcq-03",
-        "remind-mcq-05",
-        "remind-mcq-02",
-        "remind-mcq-06",
-        "remind-mcq-01"
+        "remind-mcq-10",
+        "remind-mcq-11"
       ],
       "explanation": "本句的「reminds」指「因相似、聯想或記憶關係而令某人想起 X」。",
       "sentenceIndex": 10,
@@ -825,12 +760,9 @@ export default {
         "reminds"
       ],
       "optionReasons": {
-        "remind-mcq-04": "本句指「因相似、聯想或記憶關係而令某人想起 X」。",
-        "remind-mcq-03": "「提醒某人不要忘記某項安排、責任或事情」是「remind someone about X」的用法，與本句語境不同。",
-        "remind-mcq-05": "「因某個外在刺激而重新想起 X」是「be reminded of X」的用法，與本句語境不同。",
-        "remind-mcq-02": "「令某人重新注意／記起某個已知事實」是「remind someone that...」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。",
-        "remind-mcq-01": "「令某人記得應該完成某個動作」是「remind someone to do」的用法，與本句語境不同。"
+        "remind-mcq-04": "本句的「reminds」指「因相似、聯想或記憶關係而令某人想起 X」。",
+        "remind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-04"
     },
@@ -842,11 +774,8 @@ export default {
       "masked": "I was ____ my school days.",
       "options": [
         "remind-mcq-05",
-        "remind-mcq-04",
-        "remind-mcq-06",
         "remind-mcq-03",
-        "remind-mcq-07",
-        "remind-mcq-02"
+        "remind-mcq-13"
       ],
       "explanation": "本句的「reminded of」指「因某個外在刺激而重新想起 X」。",
       "sentenceIndex": 11,
@@ -855,12 +784,9 @@ export default {
         "reminded of"
       ],
       "optionReasons": {
-        "remind-mcq-05": "本句指「因某個外在刺激而重新想起 X」。",
-        "remind-mcq-04": "「因相似、聯想或記憶關係而令某人想起 X」是「remind someone of X」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。",
-        "remind-mcq-03": "「提醒某人不要忘記某項安排、責任或事情」是「remind someone about X」的用法，與本句語境不同。",
-        "remind-mcq-07": "「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」是「remind firmly」的用法，與本句語境不同。",
-        "remind-mcq-02": "「令某人重新注意／記起某個已知事實」是「remind someone that...」的用法，與本句語境不同。"
+        "remind-mcq-05": "本句的「reminded of」指「因某個外在刺激而重新想起 X」。",
+        "remind-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-05"
     },
@@ -872,11 +798,8 @@ export default {
       "masked": "Looking at the painting, she was ____ of home.",
       "options": [
         "remind-mcq-05",
-        "remind-mcq-04",
-        "remind-mcq-06",
-        "remind-mcq-03",
-        "remind-mcq-07",
-        "remind-mcq-02"
+        "remind-mcq-01",
+        "remind-mcq-07"
       ],
       "explanation": "本句的「reminded」指「因某個外在刺激而重新想起 X」。",
       "sentenceIndex": 12,
@@ -885,12 +808,9 @@ export default {
         "reminded"
       ],
       "optionReasons": {
-        "remind-mcq-05": "本句指「因某個外在刺激而重新想起 X」。",
-        "remind-mcq-04": "「因相似、聯想或記憶關係而令某人想起 X」是「remind someone of X」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。",
-        "remind-mcq-03": "「提醒某人不要忘記某項安排、責任或事情」是「remind someone about X」的用法，與本句語境不同。",
-        "remind-mcq-07": "「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」是「remind firmly」的用法，與本句語境不同。",
-        "remind-mcq-02": "「令某人重新注意／記起某個已知事實」是「remind someone that...」的用法，與本句語境不同。"
+        "remind-mcq-05": "本句的「reminded」指「因某個外在刺激而重新想起 X」。",
+        "remind-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-05"
     },
@@ -902,11 +822,8 @@ export default {
       "masked": "The notice ____ not to touch the paintings.",
       "options": [
         "remind-mcq-19",
-        "remind-mcq-18",
         "remind-mcq-20",
-        "remind-mcq-17",
-        "remind-mcq-16",
-        "remind-mcq-15"
+        "remind-mcq-09"
       ],
       "explanation": "本句的「reminds visitors」指「把規則、責任、事實或重點再次帶回某人的注意力」。",
       "sentenceIndex": 13,
@@ -915,12 +832,9 @@ export default {
         "reminds visitors"
       ],
       "optionReasons": {
-        "remind-mcq-19": "本句指「把規則、責任、事實或重點再次帶回某人的注意力」。",
-        "remind-mcq-18": "「以強烈或痛苦方式令人重新意識到某個事實／風險」是「stark/painful reminder」的用法，與本句語境不同。",
-        "remind-mcq-20": "「持續讓人記住／想起某事的人、物或情況」是「24. constant reminder = 持續提醒；不斷讓人想起的事物」的用法，與本句語境不同。",
-        "remind-mcq-17": "「重新使人意識到危險、風險或後果的警示式提醒」是「reminder — warning-like」的用法，與本句語境不同。",
-        "remind-mcq-16": "「提醒期限、義務、安排或待辦事項的通知」是「reminder — notice」的用法，與本句語境不同。",
-        "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。"
+        "remind-mcq-19": "本句的「reminds visitors」指「把規則、責任、事實或重點再次帶回某人的注意力」。",
+        "remind-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-19"
     },
@@ -932,11 +846,8 @@ export default {
       "masked": "The teacher ____ the class of the rules.",
       "options": [
         "remind-mcq-19",
-        "remind-mcq-18",
         "remind-mcq-20",
-        "remind-mcq-17",
-        "remind-mcq-16",
-        "remind-mcq-15"
+        "remind-mcq-09"
       ],
       "explanation": "本句的「reminded」指「把規則、責任、事實或重點再次帶回某人的注意力」。",
       "sentenceIndex": 14,
@@ -945,12 +856,9 @@ export default {
         "reminded"
       ],
       "optionReasons": {
-        "remind-mcq-19": "本句指「把規則、責任、事實或重點再次帶回某人的注意力」。",
-        "remind-mcq-18": "「以強烈或痛苦方式令人重新意識到某個事實／風險」是「stark/painful reminder」的用法，與本句語境不同。",
-        "remind-mcq-20": "「持續讓人記住／想起某事的人、物或情況」是「24. constant reminder = 持續提醒；不斷讓人想起的事物」的用法，與本句語境不同。",
-        "remind-mcq-17": "「重新使人意識到危險、風險或後果的警示式提醒」是「reminder — warning-like」的用法，與本句語境不同。",
-        "remind-mcq-16": "「提醒期限、義務、安排或待辦事項的通知」是「reminder — notice」的用法，與本句語境不同。",
-        "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。"
+        "remind-mcq-19": "本句的「reminded」指「把規則、責任、事實或重點再次帶回某人的注意力」。",
+        "remind-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-19"
     },
@@ -962,11 +870,8 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "remind-mcq-06",
-        "remind-mcq-05",
-        "remind-mcq-07",
-        "remind-mcq-04",
-        "remind-mcq-08",
-        "remind-mcq-03"
+        "remind-mcq-20",
+        "remind-mcq-09"
       ],
       "explanation": "本句的「reminded staff of their responsibilities」指「令某人再次意識到自己應履行的責任／義務」。",
       "sentenceIndex": 15,
@@ -975,12 +880,9 @@ export default {
         "reminded staff of their responsibilities"
       ],
       "optionReasons": {
-        "remind-mcq-06": "本句指「令某人再次意識到自己應履行的責任／義務」。",
-        "remind-mcq-05": "「因某個外在刺激而重新想起 X」是「be reminded of X」的用法，與本句語境不同。",
-        "remind-mcq-07": "「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」是「remind firmly」的用法，與本句語境不同。",
-        "remind-mcq-04": "「因相似、聯想或記憶關係而令某人想起 X」是「remind someone of X」的用法，與本句語境不同。",
-        "remind-mcq-08": "「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」是「Do I need to remind you...?」的用法，與本句語境不同。",
-        "remind-mcq-03": "「提醒某人不要忘記某項安排、責任或事情」是「remind someone about X」的用法，與本句語境不同。"
+        "remind-mcq-06": "本句的「reminded staff of their responsibilities」指「令某人再次意識到自己應履行的責任／義務」。",
+        "remind-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-06"
     },
@@ -992,11 +894,8 @@ export default {
       "masked": "He was ____ of his duty to report the problem.",
       "options": [
         "remind-mcq-06",
-        "remind-mcq-05",
-        "remind-mcq-07",
-        "remind-mcq-04",
-        "remind-mcq-08",
-        "remind-mcq-03"
+        "remind-mcq-20",
+        "remind-mcq-09"
       ],
       "explanation": "本句的「reminded」指「令某人再次意識到自己應履行的責任／義務」。",
       "sentenceIndex": 16,
@@ -1005,12 +904,9 @@ export default {
         "reminded"
       ],
       "optionReasons": {
-        "remind-mcq-06": "本句指「令某人再次意識到自己應履行的責任／義務」。",
-        "remind-mcq-05": "「因某個外在刺激而重新想起 X」是「be reminded of X」的用法，與本句語境不同。",
-        "remind-mcq-07": "「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」是「remind firmly」的用法，與本句語境不同。",
-        "remind-mcq-04": "「因相似、聯想或記憶關係而令某人想起 X」是「remind someone of X」的用法，與本句語境不同。",
-        "remind-mcq-08": "「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」是「Do I need to remind you...?」的用法，與本句語境不同。",
-        "remind-mcq-03": "「提醒某人不要忘記某項安排、責任或事情」是「remind someone about X」的用法，與本句語境不同。"
+        "remind-mcq-06": "本句的「reminded」指「令某人再次意識到自己應履行的責任／義務」。",
+        "remind-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-06"
     },
@@ -1022,11 +918,8 @@ export default {
       "masked": "She ____ that the deadline had already passed.",
       "options": [
         "remind-mcq-07",
-        "remind-mcq-06",
-        "remind-mcq-08",
-        "remind-mcq-05",
-        "remind-mcq-09",
-        "remind-mcq-04"
+        "remind-mcq-20",
+        "remind-mcq-13"
       ],
       "explanation": "本句的「reminded him firmly」指「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」。",
       "sentenceIndex": 17,
@@ -1035,12 +928,9 @@ export default {
         "reminded him firmly"
       ],
       "optionReasons": {
-        "remind-mcq-07": "本句指「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。",
-        "remind-mcq-08": "「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」是「Do I need to remind you...?」的用法，與本句語境不同。",
-        "remind-mcq-05": "「因某個外在刺激而重新想起 X」是「be reminded of X」的用法，與本句語境不同。",
-        "remind-mcq-09": "「表示對方已被提醒過，再犯可能有後果；語用上接近警告」是「Don’t make me remind you again」的用法，與本句語境不同。",
-        "remind-mcq-04": "「因相似、聯想或記憶關係而令某人想起 X」是「remind someone of X」的用法，與本句語境不同。"
+        "remind-mcq-07": "本句的「reminded him firmly」指「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」。",
+        "remind-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-07"
     },
@@ -1052,11 +942,8 @@ export default {
       "masked": "The supervisor ____ everyone that repeated lateness would not be accepted.",
       "options": [
         "remind-mcq-07",
-        "remind-mcq-06",
-        "remind-mcq-08",
         "remind-mcq-05",
-        "remind-mcq-09",
-        "remind-mcq-04"
+        "remind-mcq-13"
       ],
       "explanation": "本句的「reminded」指「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」。",
       "sentenceIndex": 18,
@@ -1065,12 +952,9 @@ export default {
         "reminded"
       ],
       "optionReasons": {
-        "remind-mcq-07": "本句指「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。",
-        "remind-mcq-08": "「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」是「Do I need to remind you...?」的用法，與本句語境不同。",
-        "remind-mcq-05": "「因某個外在刺激而重新想起 X」是「be reminded of X」的用法，與本句語境不同。",
-        "remind-mcq-09": "「表示對方已被提醒過，再犯可能有後果；語用上接近警告」是「Don’t make me remind you again」的用法，與本句語境不同。",
-        "remind-mcq-04": "「因相似、聯想或記憶關係而令某人想起 X」是「remind someone of X」的用法，與本句語境不同。"
+        "remind-mcq-07": "本句的「reminded」指「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」。",
+        "remind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-07"
     },
@@ -1082,11 +966,8 @@ export default {
       "masked": "____ what happened last time?",
       "options": [
         "remind-mcq-08",
-        "remind-mcq-07",
-        "remind-mcq-09",
-        "remind-mcq-06",
-        "remind-mcq-10",
-        "remind-mcq-05"
+        "remind-mcq-15",
+        "remind-mcq-11"
       ],
       "explanation": "本句的「Do I need to remind you」指「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」。",
       "sentenceIndex": 19,
@@ -1095,12 +976,9 @@ export default {
         "Do I need to remind you"
       ],
       "optionReasons": {
-        "remind-mcq-08": "本句指「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」。",
-        "remind-mcq-07": "「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」是「remind firmly」的用法，與本句語境不同。",
-        "remind-mcq-09": "「表示對方已被提醒過，再犯可能有後果；語用上接近警告」是「Don’t make me remind you again」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。",
-        "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。",
-        "remind-mcq-05": "「因某個外在刺激而重新想起 X」是「be reminded of X」的用法，與本句語境不同。"
+        "remind-mcq-08": "本句的「Do I need to remind you」指「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」。",
+        "remind-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-08"
     },
@@ -1112,11 +990,8 @@ export default {
       "masked": "Need I ____ you that this is your responsibility?",
       "options": [
         "remind-mcq-08",
-        "remind-mcq-07",
-        "remind-mcq-09",
-        "remind-mcq-06",
-        "remind-mcq-10",
-        "remind-mcq-05"
+        "remind-mcq-15",
+        "remind-mcq-11"
       ],
       "explanation": "本句的「remind」指「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」。",
       "sentenceIndex": 20,
@@ -1125,12 +1000,9 @@ export default {
         "remind"
       ],
       "optionReasons": {
-        "remind-mcq-08": "本句指「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」。",
-        "remind-mcq-07": "「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」是「remind firmly」的用法，與本句語境不同。",
-        "remind-mcq-09": "「表示對方已被提醒過，再犯可能有後果；語用上接近警告」是「Don’t make me remind you again」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。",
-        "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。",
-        "remind-mcq-05": "「因某個外在刺激而重新想起 X」是「be reminded of X」的用法，與本句語境不同。"
+        "remind-mcq-08": "本句的「remind」指「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」。",
+        "remind-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-08"
     },
@@ -1142,11 +1014,8 @@ export default {
       "masked": "____ about the deadline.",
       "options": [
         "remind-mcq-09",
-        "remind-mcq-08",
-        "remind-mcq-10",
-        "remind-mcq-07",
-        "remind-mcq-11",
-        "remind-mcq-06"
+        "remind-mcq-04",
+        "remind-mcq-13"
       ],
       "explanation": "本句的「Don’t make me remind you again」指「表示對方已被提醒過，再犯可能有後果；語用上接近警告」。",
       "sentenceIndex": 21,
@@ -1155,12 +1024,9 @@ export default {
         "Don’t make me remind you again"
       ],
       "optionReasons": {
-        "remind-mcq-09": "本句指「表示對方已被提醒過，再犯可能有後果；語用上接近警告」。",
-        "remind-mcq-08": "「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」是「Do I need to remind you...?」的用法，與本句語境不同。",
-        "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。",
-        "remind-mcq-07": "「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」是「remind firmly」的用法，與本句語境不同。",
-        "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。"
+        "remind-mcq-09": "本句的「Don’t make me remind you again」指「表示對方已被提醒過，再犯可能有後果；語用上接近警告」。",
+        "remind-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-09"
     },
@@ -1172,11 +1038,8 @@ export default {
       "masked": "Don’t make me ____ you again to follow the rules.",
       "options": [
         "remind-mcq-09",
-        "remind-mcq-08",
-        "remind-mcq-10",
-        "remind-mcq-07",
-        "remind-mcq-11",
-        "remind-mcq-06"
+        "remind-mcq-01",
+        "remind-mcq-05"
       ],
       "explanation": "本句的「remind」指「表示對方已被提醒過，再犯可能有後果；語用上接近警告」。",
       "sentenceIndex": 22,
@@ -1185,12 +1048,9 @@ export default {
         "remind"
       ],
       "optionReasons": {
-        "remind-mcq-09": "本句指「表示對方已被提醒過，再犯可能有後果；語用上接近警告」。",
-        "remind-mcq-08": "「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」是「Do I need to remind you...?」的用法，與本句語境不同。",
-        "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。",
-        "remind-mcq-07": "「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」是「remind firmly」的用法，與本句語境不同。",
-        "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。"
+        "remind-mcq-09": "本句的「remind」指「表示對方已被提醒過，再犯可能有後果；語用上接近警告」。",
+        "remind-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-09"
     },
@@ -1202,11 +1062,8 @@ export default {
       "masked": "Don’t let me have to ____ you again.",
       "options": [
         "remind-mcq-09",
-        "remind-mcq-08",
-        "remind-mcq-10",
-        "remind-mcq-07",
-        "remind-mcq-11",
-        "remind-mcq-06"
+        "remind-mcq-05",
+        "remind-mcq-01"
       ],
       "explanation": "本句的「remind」指「表示對方已被提醒過，再犯可能有後果；語用上接近警告」。",
       "sentenceIndex": 23,
@@ -1215,12 +1072,9 @@ export default {
         "remind"
       ],
       "optionReasons": {
-        "remind-mcq-09": "本句指「表示對方已被提醒過，再犯可能有後果；語用上接近警告」。",
-        "remind-mcq-08": "「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」是「Do I need to remind you...?」的用法，與本句語境不同。",
-        "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。",
-        "remind-mcq-07": "「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」是「remind firmly」的用法，與本句語境不同。",
-        "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。"
+        "remind-mcq-09": "本句的「remind」指「表示對方已被提醒過，再犯可能有後果；語用上接近警告」。",
+        "remind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-09"
     },
@@ -1232,11 +1086,8 @@ export default {
       "masked": "Don’t let me ____ you again about your responsibilities.",
       "options": [
         "remind-mcq-09",
-        "remind-mcq-08",
-        "remind-mcq-10",
-        "remind-mcq-07",
-        "remind-mcq-11",
-        "remind-mcq-06"
+        "remind-mcq-15",
+        "remind-mcq-13"
       ],
       "explanation": "本句的「remind」指「表示對方已被提醒過，再犯可能有後果；語用上接近警告」。",
       "sentenceIndex": 24,
@@ -1245,12 +1096,9 @@ export default {
         "remind"
       ],
       "optionReasons": {
-        "remind-mcq-09": "本句指「表示對方已被提醒過，再犯可能有後果；語用上接近警告」。",
-        "remind-mcq-08": "「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」是「Do I need to remind you...?」的用法，與本句語境不同。",
-        "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。",
-        "remind-mcq-07": "「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」是「remind firmly」的用法，與本句語境不同。",
-        "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。",
-        "remind-mcq-06": "「令某人再次意識到自己應履行的責任／義務」是「remind someone of duty/responsibility」的用法，與本句語境不同。"
+        "remind-mcq-09": "本句的「remind」指「表示對方已被提醒過，再犯可能有後果；語用上接近警告」。",
+        "remind-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-09"
     },
@@ -1262,11 +1110,8 @@ export default {
       "masked": "____ that you agreed to these terms.",
       "options": [
         "remind-mcq-10",
-        "remind-mcq-09",
-        "remind-mcq-11",
-        "remind-mcq-08",
-        "remind-mcq-12",
-        "remind-mcq-07"
+        "remind-mcq-15",
+        "remind-mcq-11"
       ],
       "explanation": "本句的「Let me remind you」指「再次指出一個對方應該知道的重要事實」。",
       "sentenceIndex": 25,
@@ -1275,12 +1120,9 @@ export default {
         "Let me remind you"
       ],
       "optionReasons": {
-        "remind-mcq-10": "本句指「再次指出一個對方應該知道的重要事實」。",
-        "remind-mcq-09": "「表示對方已被提醒過，再犯可能有後果；語用上接近警告」是「Don’t make me remind you again」的用法，與本句語境不同。",
-        "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。",
-        "remind-mcq-08": "「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」是「Do I need to remind you...?」的用法，與本句語境不同。",
-        "remind-mcq-12": "「令某人重新意識到某行為的風險／不良後果」是「remind someone of consequences」的用法，與本句語境不同。",
-        "remind-mcq-07": "「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」是「remind firmly」的用法，與本句語境不同。"
+        "remind-mcq-10": "本句的「Let me remind you」指「再次指出一個對方應該知道的重要事實」。",
+        "remind-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-10"
     },
@@ -1292,11 +1134,8 @@ export default {
       "masked": "Let me ____ you who made the final decision.",
       "options": [
         "remind-mcq-10",
-        "remind-mcq-09",
-        "remind-mcq-11",
-        "remind-mcq-08",
-        "remind-mcq-12",
-        "remind-mcq-07"
+        "remind-mcq-15",
+        "remind-mcq-16"
       ],
       "explanation": "本句的「remind」指「再次指出一個對方應該知道的重要事實」。",
       "sentenceIndex": 26,
@@ -1305,12 +1144,9 @@ export default {
         "remind"
       ],
       "optionReasons": {
-        "remind-mcq-10": "本句指「再次指出一個對方應該知道的重要事實」。",
-        "remind-mcq-09": "「表示對方已被提醒過，再犯可能有後果；語用上接近警告」是「Don’t make me remind you again」的用法，與本句語境不同。",
-        "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。",
-        "remind-mcq-08": "「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」是「Do I need to remind you...?」的用法，與本句語境不同。",
-        "remind-mcq-12": "「令某人重新意識到某行為的風險／不良後果」是「remind someone of consequences」的用法，與本句語境不同。",
-        "remind-mcq-07": "「用較嚴厲語氣再次把規則、責任或後果帶回對方注意力」是「remind firmly」的用法，與本句語境不同。"
+        "remind-mcq-10": "本句的「remind」指「再次指出一個對方應該知道的重要事實」。",
+        "remind-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-10"
     },
@@ -1322,11 +1158,8 @@ export default {
       "masked": "I must ____ you that photography is not allowed.",
       "options": [
         "remind-mcq-11",
-        "remind-mcq-10",
-        "remind-mcq-12",
-        "remind-mcq-09",
-        "remind-mcq-13",
-        "remind-mcq-08"
+        "remind-mcq-14",
+        "remind-mcq-18"
       ],
       "explanation": "本句的「remind」指「正式、嚴肅地重申規則、責任或後果」。",
       "sentenceIndex": 27,
@@ -1335,12 +1168,9 @@ export default {
         "remind"
       ],
       "optionReasons": {
-        "remind-mcq-11": "本句指「正式、嚴肅地重申規則、責任或後果」。",
-        "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。",
-        "remind-mcq-12": "「令某人重新意識到某行為的風險／不良後果」是「remind someone of consequences」的用法，與本句語境不同。",
-        "remind-mcq-09": "「表示對方已被提醒過，再犯可能有後果；語用上接近警告」是「Don’t make me remind you again」的用法，與本句語境不同。",
-        "remind-mcq-13": "「主動使自己記得某個行動、觀念或事實」是「remind oneself」的用法，與本句語境不同。",
-        "remind-mcq-08": "「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」是「Do I need to remind you...?」的用法，與本句語境不同。"
+        "remind-mcq-11": "本句的「remind」指「正式、嚴肅地重申規則、責任或後果」。",
+        "remind-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-11"
     },
@@ -1352,11 +1182,9 @@ export default {
       "masked": "I must ____ you of the consequences of breaking the agreement.",
       "options": [
         "remind-mcq-11",
-        "remind-mcq-10",
-        "remind-mcq-12",
-        "remind-mcq-09",
-        "remind-mcq-13",
-        "remind-mcq-08"
+        "remind-mcq-14",
+        "remind-mcq-05",
+        "remind-mcq-10"
       ],
       "explanation": "本句的「remind」指「正式、嚴肅地重申規則、責任或後果」。",
       "sentenceIndex": 28,
@@ -1365,12 +1193,10 @@ export default {
         "remind"
       ],
       "optionReasons": {
-        "remind-mcq-11": "本句指「正式、嚴肅地重申規則、責任或後果」。",
-        "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。",
-        "remind-mcq-12": "「令某人重新意識到某行為的風險／不良後果」是「remind someone of consequences」的用法，與本句語境不同。",
-        "remind-mcq-09": "「表示對方已被提醒過，再犯可能有後果；語用上接近警告」是「Don’t make me remind you again」的用法，與本句語境不同。",
-        "remind-mcq-13": "「主動使自己記得某個行動、觀念或事實」是「remind oneself」的用法，與本句語境不同。",
-        "remind-mcq-08": "「認為對方本應知道／記得，因此帶責備或警告語氣地提醒」是「Do I need to remind you...?」的用法，與本句語境不同。"
+        "remind-mcq-11": "本句的「remind」指「正式、嚴肅地重申規則、責任或後果」。",
+        "remind-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-11"
     },
@@ -1382,11 +1208,9 @@ export default {
       "masked": "He ____ them of the consequences of ignoring the rule.",
       "options": [
         "remind-mcq-12",
-        "remind-mcq-11",
-        "remind-mcq-13",
-        "remind-mcq-10",
-        "remind-mcq-14",
-        "remind-mcq-09"
+        "remind-mcq-20",
+        "remind-mcq-16",
+        "remind-mcq-13"
       ],
       "explanation": "本句的「reminded」指「令某人重新意識到某行為的風險／不良後果」。",
       "sentenceIndex": 29,
@@ -1395,12 +1219,10 @@ export default {
         "reminded"
       ],
       "optionReasons": {
-        "remind-mcq-12": "本句指「令某人重新意識到某行為的風險／不良後果」。",
-        "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。",
-        "remind-mcq-13": "「主動使自己記得某個行動、觀念或事實」是「remind oneself」的用法，與本句語境不同。",
-        "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。",
-        "remind-mcq-14": "「幫助某人記得事情的訊息、提示或工具」是「reminder — aid」的用法，與本句語境不同。",
-        "remind-mcq-09": "「表示對方已被提醒過，再犯可能有後果；語用上接近警告」是「Don’t make me remind you again」的用法，與本句語境不同。"
+        "remind-mcq-12": "本句的「reminded」指「令某人重新意識到某行為的風險／不良後果」。",
+        "remind-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-12"
     },
@@ -1412,11 +1234,9 @@ export default {
       "masked": "The notice ____ users of the risks involved.",
       "options": [
         "remind-mcq-12",
-        "remind-mcq-11",
-        "remind-mcq-13",
-        "remind-mcq-10",
-        "remind-mcq-14",
-        "remind-mcq-09"
+        "remind-mcq-20",
+        "remind-mcq-16",
+        "remind-mcq-13"
       ],
       "explanation": "本句的「reminds」指「令某人重新意識到某行為的風險／不良後果」。",
       "sentenceIndex": 30,
@@ -1425,12 +1245,10 @@ export default {
         "reminds"
       ],
       "optionReasons": {
-        "remind-mcq-12": "本句指「令某人重新意識到某行為的風險／不良後果」。",
-        "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。",
-        "remind-mcq-13": "「主動使自己記得某個行動、觀念或事實」是「remind oneself」的用法，與本句語境不同。",
-        "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。",
-        "remind-mcq-14": "「幫助某人記得事情的訊息、提示或工具」是「reminder — aid」的用法，與本句語境不同。",
-        "remind-mcq-09": "「表示對方已被提醒過，再犯可能有後果；語用上接近警告」是「Don’t make me remind you again」的用法，與本句語境不同。"
+        "remind-mcq-12": "本句的「reminds」指「令某人重新意識到某行為的風險／不良後果」。",
+        "remind-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-12"
     },
@@ -1442,11 +1260,9 @@ export default {
       "masked": "The experience ____ him who he was.",
       "options": [
         "remind-mcq-12",
-        "remind-mcq-11",
-        "remind-mcq-13",
-        "remind-mcq-10",
-        "remind-mcq-14",
-        "remind-mcq-09"
+        "remind-mcq-20",
+        "remind-mcq-16",
+        "remind-mcq-13"
       ],
       "explanation": "本句的「reminded」指「令某人重新意識到某行為的風險／不良後果」。",
       "sentenceIndex": 31,
@@ -1455,12 +1271,10 @@ export default {
         "reminded"
       ],
       "optionReasons": {
-        "remind-mcq-12": "本句指「令某人重新意識到某行為的風險／不良後果」。",
-        "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。",
-        "remind-mcq-13": "「主動使自己記得某個行動、觀念或事實」是「remind oneself」的用法，與本句語境不同。",
-        "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。",
-        "remind-mcq-14": "「幫助某人記得事情的訊息、提示或工具」是「reminder — aid」的用法，與本句語境不同。",
-        "remind-mcq-09": "「表示對方已被提醒過，再犯可能有後果；語用上接近警告」是「Don’t make me remind you again」的用法，與本句語境不同。"
+        "remind-mcq-12": "本句的「reminded」指「令某人重新意識到某行為的風險／不良後果」。",
+        "remind-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-12"
     },
@@ -1472,11 +1286,9 @@ export default {
       "masked": "The defeat ____ the team where they stood.",
       "options": [
         "remind-mcq-12",
-        "remind-mcq-11",
-        "remind-mcq-13",
-        "remind-mcq-10",
-        "remind-mcq-14",
-        "remind-mcq-09"
+        "remind-mcq-16",
+        "remind-mcq-20",
+        "remind-mcq-13"
       ],
       "explanation": "本句的「reminded」指「令某人重新意識到某行為的風險／不良後果」。",
       "sentenceIndex": 32,
@@ -1485,12 +1297,10 @@ export default {
         "reminded"
       ],
       "optionReasons": {
-        "remind-mcq-12": "本句指「令某人重新意識到某行為的風險／不良後果」。",
-        "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。",
-        "remind-mcq-13": "「主動使自己記得某個行動、觀念或事實」是「remind oneself」的用法，與本句語境不同。",
-        "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。",
-        "remind-mcq-14": "「幫助某人記得事情的訊息、提示或工具」是「reminder — aid」的用法，與本句語境不同。",
-        "remind-mcq-09": "「表示對方已被提醒過，再犯可能有後果；語用上接近警告」是「Don’t make me remind you again」的用法，與本句語境不同。"
+        "remind-mcq-12": "本句的「reminded」指「令某人重新意識到某行為的風險／不良後果」。",
+        "remind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-12"
     },
@@ -1502,11 +1312,8 @@ export default {
       "masked": "I had to ____ to slow down.",
       "options": [
         "remind-mcq-13",
-        "remind-mcq-12",
-        "remind-mcq-14",
-        "remind-mcq-11",
-        "remind-mcq-15",
-        "remind-mcq-10"
+        "remind-mcq-05",
+        "remind-mcq-16"
       ],
       "explanation": "本句的「remind myself」指「主動使自己記得某個行動、觀念或事實」。",
       "sentenceIndex": 33,
@@ -1515,12 +1322,9 @@ export default {
         "remind myself"
       ],
       "optionReasons": {
-        "remind-mcq-13": "本句指「主動使自己記得某個行動、觀念或事實」。",
-        "remind-mcq-12": "「令某人重新意識到某行為的風險／不良後果」是「remind someone of consequences」的用法，與本句語境不同。",
-        "remind-mcq-14": "「幫助某人記得事情的訊息、提示或工具」是「reminder — aid」的用法，與本句語境不同。",
-        "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。",
-        "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。",
-        "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。"
+        "remind-mcq-13": "本句的「remind myself」指「主動使自己記得某個行動、觀念或事實」。",
+        "remind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-13"
     },
@@ -1532,11 +1336,8 @@ export default {
       "masked": "She ____ herself that mistakes are normal.",
       "options": [
         "remind-mcq-13",
-        "remind-mcq-12",
-        "remind-mcq-14",
-        "remind-mcq-11",
-        "remind-mcq-15",
-        "remind-mcq-10"
+        "remind-mcq-17",
+        "remind-mcq-15"
       ],
       "explanation": "本句的「reminded」指「主動使自己記得某個行動、觀念或事實」。",
       "sentenceIndex": 34,
@@ -1545,12 +1346,9 @@ export default {
         "reminded"
       ],
       "optionReasons": {
-        "remind-mcq-13": "本句指「主動使自己記得某個行動、觀念或事實」。",
-        "remind-mcq-12": "「令某人重新意識到某行為的風險／不良後果」是「remind someone of consequences」的用法，與本句語境不同。",
-        "remind-mcq-14": "「幫助某人記得事情的訊息、提示或工具」是「reminder — aid」的用法，與本句語境不同。",
-        "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。",
-        "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。",
-        "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。"
+        "remind-mcq-13": "本句的「reminded」指「主動使自己記得某個行動、觀念或事實」。",
+        "remind-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-13"
     },
@@ -1562,11 +1360,7 @@ export default {
       "masked": "The painting reminded me ____.",
       "options": [
         "remind-pdf-001",
-        "remind-mcq-12",
-        "remind-mcq-14",
-        "remind-mcq-11",
-        "remind-mcq-15",
-        "remind-mcq-10"
+        "remind-mcq-09"
       ],
       "explanation": "本句的「how much I enjoy quiet spaces」指「讓某人重新想起某個原因、方式、事實或感受」。",
       "sentenceIndex": 35,
@@ -1575,12 +1369,8 @@ export default {
         "how much I enjoy quiet spaces"
       ],
       "optionReasons": {
-        "remind-pdf-001": "本句指「讓某人重新想起某個原因、方式、事實或感受」。",
-        "remind-mcq-12": "「令某人重新意識到某行為的風險／不良後果」是「remind someone of consequences」的用法，與本句語境不同。",
-        "remind-mcq-14": "「幫助某人記得事情的訊息、提示或工具」是「reminder — aid」的用法，與本句語境不同。",
-        "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。",
-        "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。",
-        "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。"
+        "remind-pdf-001": "本句的「how much I enjoy quiet spaces」指「讓某人重新想起某個原因、方式、事實或感受」。",
+        "remind-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-pdf-001"
     },
@@ -1592,11 +1382,7 @@ export default {
       "masked": "The trip ____ her why she loved the city.",
       "options": [
         "remind-pdf-001",
-        "remind-mcq-12",
-        "remind-mcq-14",
-        "remind-mcq-11",
-        "remind-mcq-15",
-        "remind-mcq-10"
+        "remind-mcq-07"
       ],
       "explanation": "本句的「reminded」指「讓某人重新想起某個原因、方式、事實或感受」。",
       "sentenceIndex": 36,
@@ -1605,12 +1391,8 @@ export default {
         "reminded"
       ],
       "optionReasons": {
-        "remind-pdf-001": "本句指「讓某人重新想起某個原因、方式、事實或感受」。",
-        "remind-mcq-12": "「令某人重新意識到某行為的風險／不良後果」是「remind someone of consequences」的用法，與本句語境不同。",
-        "remind-mcq-14": "「幫助某人記得事情的訊息、提示或工具」是「reminder — aid」的用法，與本句語境不同。",
-        "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。",
-        "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。",
-        "remind-mcq-10": "「再次指出一個對方應該知道的重要事實」是「Let me remind you...」的用法，與本句語境不同。"
+        "remind-pdf-001": "本句的「reminded」指「讓某人重新想起某個原因、方式、事實或感受」。",
+        "remind-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-pdf-001"
     },
@@ -1622,11 +1404,8 @@ export default {
       "masked": "I set a ____ on my phone.",
       "options": [
         "remind-mcq-14",
-        "remind-mcq-13",
-        "remind-mcq-15",
-        "remind-mcq-12",
-        "remind-mcq-16",
-        "remind-mcq-11"
+        "remind-mcq-07",
+        "remind-mcq-05"
       ],
       "explanation": "本句的「reminder」指「幫助某人記得事情的訊息、提示或工具」。",
       "sentenceIndex": 37,
@@ -1635,12 +1414,9 @@ export default {
         "reminder"
       ],
       "optionReasons": {
-        "remind-mcq-14": "本句指「幫助某人記得事情的訊息、提示或工具」。",
-        "remind-mcq-13": "「主動使自己記得某個行動、觀念或事實」是「remind oneself」的用法，與本句語境不同。",
-        "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。",
-        "remind-mcq-12": "「令某人重新意識到某行為的風險／不良後果」是「remind someone of consequences」的用法，與本句語境不同。",
-        "remind-mcq-16": "「提醒期限、義務、安排或待辦事項的通知」是「reminder — notice」的用法，與本句語境不同。",
-        "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。"
+        "remind-mcq-14": "本句的「reminder」指「幫助某人記得事情的訊息、提示或工具」。",
+        "remind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-14"
     },
@@ -1652,11 +1428,8 @@ export default {
       "masked": "The calendar sends me a ____ before the event.",
       "options": [
         "remind-mcq-14",
-        "remind-mcq-13",
-        "remind-mcq-15",
-        "remind-mcq-12",
-        "remind-mcq-16",
-        "remind-mcq-11"
+        "remind-mcq-07",
+        "remind-mcq-05"
       ],
       "explanation": "本句的「reminder」指「幫助某人記得事情的訊息、提示或工具」。",
       "sentenceIndex": 38,
@@ -1665,12 +1438,9 @@ export default {
         "reminder"
       ],
       "optionReasons": {
-        "remind-mcq-14": "本句指「幫助某人記得事情的訊息、提示或工具」。",
-        "remind-mcq-13": "「主動使自己記得某個行動、觀念或事實」是「remind oneself」的用法，與本句語境不同。",
-        "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。",
-        "remind-mcq-12": "「令某人重新意識到某行為的風險／不良後果」是「remind someone of consequences」的用法，與本句語境不同。",
-        "remind-mcq-16": "「提醒期限、義務、安排或待辦事項的通知」是「reminder — notice」的用法，與本句語境不同。",
-        "remind-mcq-11": "「正式、嚴肅地重申規則、責任或後果」是「I must remind you...」的用法，與本句語境不同。"
+        "remind-mcq-14": "本句的「reminder」指「幫助某人記得事情的訊息、提示或工具」。",
+        "remind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-14"
     },
@@ -1682,11 +1452,8 @@ export default {
       "masked": "The old photograph is a ____ of our trip.",
       "options": [
         "remind-mcq-15",
-        "remind-mcq-14",
         "remind-mcq-16",
-        "remind-mcq-13",
-        "remind-mcq-17",
-        "remind-mcq-12"
+        "remind-mcq-10"
       ],
       "explanation": "本句的「reminder」指「會令人回想起某人、地方或經歷的事物」。",
       "sentenceIndex": 39,
@@ -1695,12 +1462,9 @@ export default {
         "reminder"
       ],
       "optionReasons": {
-        "remind-mcq-15": "本句指「會令人回想起某人、地方或經歷的事物」。",
-        "remind-mcq-14": "「幫助某人記得事情的訊息、提示或工具」是「reminder — aid」的用法，與本句語境不同。",
-        "remind-mcq-16": "「提醒期限、義務、安排或待辦事項的通知」是「reminder — notice」的用法，與本句語境不同。",
-        "remind-mcq-13": "「主動使自己記得某個行動、觀念或事實」是「remind oneself」的用法，與本句語境不同。",
-        "remind-mcq-17": "「重新使人意識到危險、風險或後果的警示式提醒」是「reminder — warning-like」的用法，與本句語境不同。",
-        "remind-mcq-12": "「令某人重新意識到某行為的風險／不良後果」是「remind someone of consequences」的用法，與本句語境不同。"
+        "remind-mcq-15": "本句的「reminder」指「會令人回想起某人、地方或經歷的事物」。",
+        "remind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-15"
     },
@@ -1712,11 +1476,8 @@ export default {
       "masked": "The painting serves as a ____ of calmer times.",
       "options": [
         "remind-mcq-15",
-        "remind-mcq-14",
         "remind-mcq-16",
-        "remind-mcq-13",
-        "remind-mcq-17",
-        "remind-mcq-12"
+        "remind-mcq-13"
       ],
       "explanation": "本句的「reminder」指「會令人回想起某人、地方或經歷的事物」。",
       "sentenceIndex": 40,
@@ -1725,12 +1486,9 @@ export default {
         "reminder"
       ],
       "optionReasons": {
-        "remind-mcq-15": "本句指「會令人回想起某人、地方或經歷的事物」。",
-        "remind-mcq-14": "「幫助某人記得事情的訊息、提示或工具」是「reminder — aid」的用法，與本句語境不同。",
-        "remind-mcq-16": "「提醒期限、義務、安排或待辦事項的通知」是「reminder — notice」的用法，與本句語境不同。",
-        "remind-mcq-13": "「主動使自己記得某個行動、觀念或事實」是「remind oneself」的用法，與本句語境不同。",
-        "remind-mcq-17": "「重新使人意識到危險、風險或後果的警示式提醒」是「reminder — warning-like」的用法，與本句語境不同。",
-        "remind-mcq-12": "「令某人重新意識到某行為的風險／不良後果」是「remind someone of consequences」的用法，與本句語境不同。"
+        "remind-mcq-15": "本句的「reminder」指「會令人回想起某人、地方或經歷的事物」。",
+        "remind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-15"
     },
@@ -1742,10 +1500,7 @@ export default {
       "masked": "This is a ____ that payment is due tomorrow.",
       "options": [
         "remind-mcq-16",
-        "remind-mcq-15",
-        "remind-mcq-17",
-        "remind-mcq-14",
-        "remind-mcq-18",
+        "remind-mcq-05",
         "remind-mcq-13"
       ],
       "explanation": "本句的「reminder」指「提醒期限、義務、安排或待辦事項的通知」。",
@@ -1755,12 +1510,9 @@ export default {
         "reminder"
       ],
       "optionReasons": {
-        "remind-mcq-16": "本句指「提醒期限、義務、安排或待辦事項的通知」。",
-        "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。",
-        "remind-mcq-17": "「重新使人意識到危險、風險或後果的警示式提醒」是「reminder — warning-like」的用法，與本句語境不同。",
-        "remind-mcq-14": "「幫助某人記得事情的訊息、提示或工具」是「reminder — aid」的用法，與本句語境不同。",
-        "remind-mcq-18": "「以強烈或痛苦方式令人重新意識到某個事實／風險」是「stark/painful reminder」的用法，與本句語境不同。",
-        "remind-mcq-13": "「主動使自己記得某個行動、觀念或事實」是「remind oneself」的用法，與本句語境不同。"
+        "remind-mcq-16": "本句的「reminder」指「提醒期限、義務、安排或待辦事項的通知」。",
+        "remind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-16"
     },
@@ -1772,11 +1524,8 @@ export default {
       "masked": "The school sent a ____ about the deadline.",
       "options": [
         "remind-mcq-16",
-        "remind-mcq-15",
-        "remind-mcq-17",
-        "remind-mcq-14",
-        "remind-mcq-18",
-        "remind-mcq-13"
+        "remind-mcq-13",
+        "remind-mcq-04"
       ],
       "explanation": "本句的「reminder」指「提醒期限、義務、安排或待辦事項的通知」。",
       "sentenceIndex": 42,
@@ -1785,12 +1534,9 @@ export default {
         "reminder"
       ],
       "optionReasons": {
-        "remind-mcq-16": "本句指「提醒期限、義務、安排或待辦事項的通知」。",
-        "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。",
-        "remind-mcq-17": "「重新使人意識到危險、風險或後果的警示式提醒」是「reminder — warning-like」的用法，與本句語境不同。",
-        "remind-mcq-14": "「幫助某人記得事情的訊息、提示或工具」是「reminder — aid」的用法，與本句語境不同。",
-        "remind-mcq-18": "「以強烈或痛苦方式令人重新意識到某個事實／風險」是「stark/painful reminder」的用法，與本句語境不同。",
-        "remind-mcq-13": "「主動使自己記得某個行動、觀念或事實」是「remind oneself」的用法，與本句語境不同。"
+        "remind-mcq-16": "本句的「reminder」指「提醒期限、義務、安排或待辦事項的通知」。",
+        "remind-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-16"
     },
@@ -1802,11 +1548,8 @@ export default {
       "masked": "The sign serves as a ____ that the area can be dangerous.",
       "options": [
         "remind-mcq-17",
-        "remind-mcq-16",
-        "remind-mcq-18",
-        "remind-mcq-15",
-        "remind-mcq-19",
-        "remind-mcq-14"
+        "remind-mcq-13",
+        "remind-mcq-15"
       ],
       "explanation": "本句的「reminder」指「重新使人意識到危險、風險或後果的警示式提醒」。",
       "sentenceIndex": 43,
@@ -1815,12 +1558,9 @@ export default {
         "reminder"
       ],
       "optionReasons": {
-        "remind-mcq-17": "本句指「重新使人意識到危險、風險或後果的警示式提醒」。",
-        "remind-mcq-16": "「提醒期限、義務、安排或待辦事項的通知」是「reminder — notice」的用法，與本句語境不同。",
-        "remind-mcq-18": "「以強烈或痛苦方式令人重新意識到某個事實／風險」是「stark/painful reminder」的用法，與本句語境不同。",
-        "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。",
-        "remind-mcq-19": "「把規則、責任、事實或重點再次帶回某人的注意力」是「7. remind = bring a rule/duty/fact back to someone’s attention — 再次提醒；重申」的用法，與本句語境不同。",
-        "remind-mcq-14": "「幫助某人記得事情的訊息、提示或工具」是「reminder — aid」的用法，與本句語境不同。"
+        "remind-mcq-17": "本句的「reminder」指「重新使人意識到危險、風險或後果的警示式提醒」。",
+        "remind-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-17"
     },
@@ -1832,11 +1572,8 @@ export default {
       "masked": "The accident was a painful ____ of the risks involved.",
       "options": [
         "remind-mcq-17",
-        "remind-mcq-16",
-        "remind-mcq-18",
-        "remind-mcq-15",
-        "remind-mcq-19",
-        "remind-mcq-14"
+        "remind-mcq-04",
+        "remind-mcq-13"
       ],
       "explanation": "本句的「reminder」指「重新使人意識到危險、風險或後果的警示式提醒」。",
       "sentenceIndex": 44,
@@ -1845,12 +1582,9 @@ export default {
         "reminder"
       ],
       "optionReasons": {
-        "remind-mcq-17": "本句指「重新使人意識到危險、風險或後果的警示式提醒」。",
-        "remind-mcq-16": "「提醒期限、義務、安排或待辦事項的通知」是「reminder — notice」的用法，與本句語境不同。",
-        "remind-mcq-18": "「以強烈或痛苦方式令人重新意識到某個事實／風險」是「stark/painful reminder」的用法，與本句語境不同。",
-        "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。",
-        "remind-mcq-19": "「把規則、責任、事實或重點再次帶回某人的注意力」是「7. remind = bring a rule/duty/fact back to someone’s attention — 再次提醒；重申」的用法，與本句語境不同。",
-        "remind-mcq-14": "「幫助某人記得事情的訊息、提示或工具」是「reminder — aid」的用法，與本句語境不同。"
+        "remind-mcq-17": "本句的「reminder」指「重新使人意識到危險、風險或後果的警示式提醒」。",
+        "remind-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-17"
     },
@@ -1862,11 +1596,8 @@ export default {
       "masked": "The damage was a ____ of how fragile the painting was.",
       "options": [
         "remind-mcq-18",
-        "remind-mcq-17",
-        "remind-mcq-19",
-        "remind-mcq-16",
-        "remind-mcq-20",
-        "remind-mcq-15"
+        "remind-mcq-03",
+        "remind-mcq-20"
       ],
       "explanation": "本句的「stark reminder」指「以強烈或痛苦方式令人重新意識到某個事實／風險」。",
       "sentenceIndex": 45,
@@ -1875,12 +1606,9 @@ export default {
         "stark reminder"
       ],
       "optionReasons": {
-        "remind-mcq-18": "本句指「以強烈或痛苦方式令人重新意識到某個事實／風險」。",
-        "remind-mcq-17": "「重新使人意識到危險、風險或後果的警示式提醒」是「reminder — warning-like」的用法，與本句語境不同。",
-        "remind-mcq-19": "「把規則、責任、事實或重點再次帶回某人的注意力」是「7. remind = bring a rule/duty/fact back to someone’s attention — 再次提醒；重申」的用法，與本句語境不同。",
-        "remind-mcq-16": "「提醒期限、義務、安排或待辦事項的通知」是「reminder — notice」的用法，與本句語境不同。",
-        "remind-mcq-20": "「持續讓人記住／想起某事的人、物或情況」是「24. constant reminder = 持續提醒；不斷讓人想起的事物」的用法，與本句語境不同。",
-        "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。"
+        "remind-mcq-18": "本句的「stark reminder」指「以強烈或痛苦方式令人重新意識到某個事實／風險」。",
+        "remind-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-18"
     },
@@ -1892,11 +1620,8 @@ export default {
       "masked": "The event was a sobering ____ of the importance of preparation.",
       "options": [
         "remind-mcq-18",
-        "remind-mcq-17",
-        "remind-mcq-19",
-        "remind-mcq-16",
-        "remind-mcq-20",
-        "remind-mcq-15"
+        "remind-mcq-03",
+        "remind-mcq-20"
       ],
       "explanation": "本句的「reminder」指「以強烈或痛苦方式令人重新意識到某個事實／風險」。",
       "sentenceIndex": 46,
@@ -1905,12 +1630,9 @@ export default {
         "reminder"
       ],
       "optionReasons": {
-        "remind-mcq-18": "本句指「以強烈或痛苦方式令人重新意識到某個事實／風險」。",
-        "remind-mcq-17": "「重新使人意識到危險、風險或後果的警示式提醒」是「reminder — warning-like」的用法，與本句語境不同。",
-        "remind-mcq-19": "「把規則、責任、事實或重點再次帶回某人的注意力」是「7. remind = bring a rule/duty/fact back to someone’s attention — 再次提醒；重申」的用法，與本句語境不同。",
-        "remind-mcq-16": "「提醒期限、義務、安排或待辦事項的通知」是「reminder — notice」的用法，與本句語境不同。",
-        "remind-mcq-20": "「持續讓人記住／想起某事的人、物或情況」是「24. constant reminder = 持續提醒；不斷讓人想起的事物」的用法，與本句語境不同。",
-        "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。"
+        "remind-mcq-18": "本句的「reminder」指「以強烈或痛苦方式令人重新意識到某個事實／風險」。",
+        "remind-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-18"
     },
@@ -1922,11 +1644,9 @@ export default {
       "masked": "The scar was a ____ of the accident.",
       "options": [
         "remind-mcq-20",
-        "remind-mcq-19",
-        "remind-mcq-18",
-        "remind-mcq-17",
+        "remind-mcq-12",
         "remind-mcq-16",
-        "remind-mcq-15"
+        "remind-mcq-13"
       ],
       "explanation": "本句的「constant reminder」指「持續讓人記住／想起某事的人、物或情況」。",
       "sentenceIndex": 47,
@@ -1935,12 +1655,10 @@ export default {
         "constant reminder"
       ],
       "optionReasons": {
-        "remind-mcq-20": "本句指「持續讓人記住／想起某事的人、物或情況」。",
-        "remind-mcq-19": "「把規則、責任、事實或重點再次帶回某人的注意力」是「7. remind = bring a rule/duty/fact back to someone’s attention — 再次提醒；重申」的用法，與本句語境不同。",
-        "remind-mcq-18": "「以強烈或痛苦方式令人重新意識到某個事實／風險」是「stark/painful reminder」的用法，與本句語境不同。",
-        "remind-mcq-17": "「重新使人意識到危險、風險或後果的警示式提醒」是「reminder — warning-like」的用法，與本句語境不同。",
-        "remind-mcq-16": "「提醒期限、義務、安排或待辦事項的通知」是「reminder — notice」的用法，與本句語境不同。",
-        "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。"
+        "remind-mcq-20": "本句的「constant reminder」指「持續讓人記住／想起某事的人、物或情況」。",
+        "remind-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-20"
     },
@@ -1952,11 +1670,8 @@ export default {
       "masked": "The painting became a constant ____ to slow down.",
       "options": [
         "remind-mcq-20",
-        "remind-mcq-19",
-        "remind-mcq-18",
-        "remind-mcq-17",
-        "remind-mcq-16",
-        "remind-mcq-15"
+        "remind-mcq-07",
+        "remind-mcq-18"
       ],
       "explanation": "本句的「reminder」指「持續讓人記住／想起某事的人、物或情況」。",
       "sentenceIndex": 48,
@@ -1965,12 +1680,9 @@ export default {
         "reminder"
       ],
       "optionReasons": {
-        "remind-mcq-20": "本句指「持續讓人記住／想起某事的人、物或情況」。",
-        "remind-mcq-19": "「把規則、責任、事實或重點再次帶回某人的注意力」是「7. remind = bring a rule/duty/fact back to someone’s attention — 再次提醒；重申」的用法，與本句語境不同。",
-        "remind-mcq-18": "「以強烈或痛苦方式令人重新意識到某個事實／風險」是「stark/painful reminder」的用法，與本句語境不同。",
-        "remind-mcq-17": "「重新使人意識到危險、風險或後果的警示式提醒」是「reminder — warning-like」的用法，與本句語境不同。",
-        "remind-mcq-16": "「提醒期限、義務、安排或待辦事項的通知」是「reminder — notice」的用法，與本句語境不同。",
-        "remind-mcq-15": "「會令人回想起某人、地方或經歷的事物」是「reminder — association」的用法，與本句語境不同。"
+        "remind-mcq-20": "本句的「reminder」指「持續讓人記住／想起某事的人、物或情況」。",
+        "remind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "remind-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remind-mcq-20"
     }
@@ -1982,5 +1694,7 @@ export default {
     "sha256": "ca2285d06e691ec32777d2a1bea54cfca8ebd8246511c9505b4be8989acdbefc",
     "pages": 23
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

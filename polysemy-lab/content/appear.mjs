@@ -663,7 +663,7 @@ export default {
     },
     {
       "id": "appear-mcq-29",
-      "title": "表示到場；現身",
+      "title": "到場；現身",
       "form": "35. appear = present oneself formally（到場／露面） — 到場；現身",
       "en": "35. appear = present oneself formally（到場／露面） — 到場；現身",
       "zh": "表示到場；現身",
@@ -847,11 +847,9 @@ export default {
       "masked": "A message ____ on the screen.",
       "options": [
         "appear-mcq-01",
-        "appear-mcq-02",
-        "appear-mcq-03",
-        "appear-mcq-04",
-        "appear-mcq-05",
-        "appear-mcq-06"
+        "appear-mcq-14",
+        "appear-mcq-17",
+        "appear-pdf-003"
       ],
       "explanation": "本句的「appeared」指「原本看不到／不存在於視線中的東西變得可見」。",
       "sentenceIndex": 0,
@@ -860,12 +858,10 @@ export default {
         "appeared"
       ],
       "optionReasons": {
-        "appear-mcq-01": "本句指「原本看不到／不存在於視線中的東西變得可見」。",
-        "appear-mcq-02": "「某人／某物快速由不可見／未注意到變得可見」是「appear suddenly」的用法，與本句語境不同。",
-        "appear-mcq-03": "「沒有明顯原因、準備或預兆地突然出現」是「appear out of nowhere」的用法，與本句語境不同。",
-        "appear-mcq-04": "「某種現象、問題、模式或狀態開始存在／可以察覺」是「appear — arise」的用法，與本句語境不同。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。"
+        "appear-mcq-01": "本句的「appeared」指「原本看不到／不存在於視線中的東西變得可見」。",
+        "appear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-01"
     },
@@ -877,11 +873,9 @@ export default {
       "masked": "A figure suddenly ____ at the door.",
       "options": [
         "appear-mcq-01",
-        "appear-mcq-02",
-        "appear-mcq-03",
-        "appear-mcq-04",
-        "appear-mcq-05",
-        "appear-mcq-06"
+        "appear-mcq-24",
+        "appear-pdf-001",
+        "appear-pdf-004"
       ],
       "explanation": "本句的「appeared」指「原本看不到／不存在於視線中的東西變得可見」。",
       "sentenceIndex": 1,
@@ -890,12 +884,10 @@ export default {
         "appeared"
       ],
       "optionReasons": {
-        "appear-mcq-01": "本句指「原本看不到／不存在於視線中的東西變得可見」。",
-        "appear-mcq-02": "「某人／某物快速由不可見／未注意到變得可見」是「appear suddenly」的用法，與本句語境不同。",
-        "appear-mcq-03": "「沒有明顯原因、準備或預兆地突然出現」是「appear out of nowhere」的用法，與本句語境不同。",
-        "appear-mcq-04": "「某種現象、問題、模式或狀態開始存在／可以察覺」是「appear — arise」的用法，與本句語境不同。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。"
+        "appear-mcq-01": "本句的「appeared」指「原本看不到／不存在於視線中的東西變得可見」。",
+        "appear-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-01"
     },
@@ -907,11 +899,9 @@ export default {
       "masked": "A problem suddenly ____.",
       "options": [
         "appear-mcq-02",
-        "appear-mcq-01",
-        "appear-mcq-03",
-        "appear-mcq-04",
-        "appear-mcq-05",
-        "appear-mcq-06"
+        "appear-mcq-29",
+        "appear-mcq-15",
+        "appear-mcq-30"
       ],
       "explanation": "本句的「appeared」指「某人／某物快速由不可見／未注意到變得可見」。",
       "sentenceIndex": 2,
@@ -920,12 +910,10 @@ export default {
         "appeared"
       ],
       "optionReasons": {
-        "appear-mcq-02": "本句指「某人／某物快速由不可見／未注意到變得可見」。",
-        "appear-mcq-01": "「原本看不到／不存在於視線中的東西變得可見」是「appear — become visible」的用法，與本句語境不同。",
-        "appear-mcq-03": "「沒有明顯原因、準備或預兆地突然出現」是「appear out of nowhere」的用法，與本句語境不同。",
-        "appear-mcq-04": "「某種現象、問題、模式或狀態開始存在／可以察覺」是「appear — arise」的用法，與本句語境不同。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。"
+        "appear-mcq-02": "本句的「appeared」指「某人／某物快速由不可見／未注意到變得可見」。",
+        "appear-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-02"
     },
@@ -937,11 +925,9 @@ export default {
       "masked": "A new icon ____ on the screen.",
       "options": [
         "appear-mcq-02",
-        "appear-mcq-01",
-        "appear-mcq-03",
+        "appear-mcq-30",
         "appear-mcq-04",
-        "appear-mcq-05",
-        "appear-mcq-06"
+        "appear-mcq-31"
       ],
       "explanation": "本句的「appeared」指「某人／某物快速由不可見／未注意到變得可見」。",
       "sentenceIndex": 3,
@@ -950,12 +936,10 @@ export default {
         "appeared"
       ],
       "optionReasons": {
-        "appear-mcq-02": "本句指「某人／某物快速由不可見／未注意到變得可見」。",
-        "appear-mcq-01": "「原本看不到／不存在於視線中的東西變得可見」是「appear — become visible」的用法，與本句語境不同。",
-        "appear-mcq-03": "「沒有明顯原因、準備或預兆地突然出現」是「appear out of nowhere」的用法，與本句語境不同。",
-        "appear-mcq-04": "「某種現象、問題、模式或狀態開始存在／可以察覺」是「appear — arise」的用法，與本句語境不同。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。"
+        "appear-mcq-02": "本句的「appeared」指「某人／某物快速由不可見／未注意到變得可見」。",
+        "appear-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-02"
     },
@@ -967,11 +951,9 @@ export default {
       "masked": "Confidence does not ____.",
       "options": [
         "appear-mcq-03",
-        "appear-mcq-02",
-        "appear-mcq-04",
-        "appear-mcq-01",
-        "appear-mcq-05",
-        "appear-mcq-06"
+        "appear-mcq-09",
+        "appear-mcq-22",
+        "appear-mcq-28"
       ],
       "explanation": "本句的「appear out of nowhere」指「沒有明顯原因、準備或預兆地突然出現」。",
       "sentenceIndex": 4,
@@ -980,12 +962,10 @@ export default {
         "appear out of nowhere"
       ],
       "optionReasons": {
-        "appear-mcq-03": "本句指「沒有明顯原因、準備或預兆地突然出現」。",
-        "appear-mcq-02": "「某人／某物快速由不可見／未注意到變得可見」是「appear suddenly」的用法，與本句語境不同。",
-        "appear-mcq-04": "「某種現象、問題、模式或狀態開始存在／可以察覺」是「appear — arise」的用法，與本句語境不同。",
-        "appear-mcq-01": "「原本看不到／不存在於視線中的東西變得可見」是「appear — become visible」的用法，與本句語境不同。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。"
+        "appear-mcq-03": "本句的「appear out of nowhere」指「沒有明顯原因、準備或預兆地突然出現」。",
+        "appear-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-03"
     },
@@ -997,11 +977,9 @@ export default {
       "masked": "The solution seemed to ____.",
       "options": [
         "appear-mcq-03",
-        "appear-mcq-02",
-        "appear-mcq-04",
-        "appear-mcq-01",
-        "appear-mcq-05",
-        "appear-mcq-06"
+        "appear-mcq-11",
+        "appear-pdf-002",
+        "appear-mcq-28"
       ],
       "explanation": "本句的「appear from nowhere」指「沒有明顯原因、準備或預兆地突然出現」。",
       "sentenceIndex": 5,
@@ -1010,12 +988,10 @@ export default {
         "appear from nowhere"
       ],
       "optionReasons": {
-        "appear-mcq-03": "本句指「沒有明顯原因、準備或預兆地突然出現」。",
-        "appear-mcq-02": "「某人／某物快速由不可見／未注意到變得可見」是「appear suddenly」的用法，與本句語境不同。",
-        "appear-mcq-04": "「某種現象、問題、模式或狀態開始存在／可以察覺」是「appear — arise」的用法，與本句語境不同。",
-        "appear-mcq-01": "「原本看不到／不存在於視線中的東西變得可見」是「appear — become visible」的用法，與本句語境不同。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。"
+        "appear-mcq-03": "本句的「appear from nowhere」指「沒有明顯原因、準備或預兆地突然出現」。",
+        "appear-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-03"
     },
@@ -1027,11 +1003,9 @@ export default {
       "masked": "New problems ____ as the project developed.",
       "options": [
         "appear-mcq-04",
-        "appear-mcq-03",
-        "appear-mcq-05",
-        "appear-mcq-02",
-        "appear-mcq-06",
-        "appear-mcq-01"
+        "appear-mcq-31",
+        "appear-mcq-17",
+        "appear-mcq-18"
       ],
       "explanation": "本句的「appeared」指「某種現象、問題、模式或狀態開始存在／可以察覺」。",
       "sentenceIndex": 6,
@@ -1040,12 +1014,10 @@ export default {
         "appeared"
       ],
       "optionReasons": {
-        "appear-mcq-04": "本句指「某種現象、問題、模式或狀態開始存在／可以察覺」。",
-        "appear-mcq-03": "「沒有明顯原因、準備或預兆地突然出現」是「appear out of nowhere」的用法，與本句語境不同。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。",
-        "appear-mcq-02": "「某人／某物快速由不可見／未注意到變得可見」是「appear suddenly」的用法，與本句語境不同。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。",
-        "appear-mcq-01": "「原本看不到／不存在於視線中的東西變得可見」是「appear — become visible」的用法，與本句語境不同。"
+        "appear-mcq-04": "本句的「appeared」指「某種現象、問題、模式或狀態開始存在／可以察覺」。",
+        "appear-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-04"
     },
@@ -1057,11 +1029,9 @@ export default {
       "masked": "A pattern began to ____ in the data.",
       "options": [
         "appear-mcq-04",
-        "appear-mcq-03",
-        "appear-mcq-05",
-        "appear-mcq-02",
-        "appear-mcq-06",
-        "appear-mcq-01"
+        "appear-pdf-004",
+        "appear-mcq-32",
+        "appear-mcq-21"
       ],
       "explanation": "本句的「appear」指「某種現象、問題、模式或狀態開始存在／可以察覺」。",
       "sentenceIndex": 7,
@@ -1070,12 +1040,10 @@ export default {
         "appear"
       ],
       "optionReasons": {
-        "appear-mcq-04": "本句指「某種現象、問題、模式或狀態開始存在／可以察覺」。",
-        "appear-mcq-03": "「沒有明顯原因、準備或預兆地突然出現」是「appear out of nowhere」的用法，與本句語境不同。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。",
-        "appear-mcq-02": "「某人／某物快速由不可見／未注意到變得可見」是「appear suddenly」的用法，與本句語境不同。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。",
-        "appear-mcq-01": "「原本看不到／不存在於視線中的東西變得可見」是「appear — become visible」的用法，與本句語境不同。"
+        "appear-mcq-04": "本句的「appear」指「某種現象、問題、模式或狀態開始存在／可以察覺」。",
+        "appear-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-04"
     },
@@ -1087,11 +1055,9 @@ export default {
       "masked": "Small improvements began to ____.",
       "options": [
         "appear-mcq-05",
-        "appear-mcq-04",
-        "appear-mcq-06",
-        "appear-mcq-03",
-        "appear-mcq-07",
-        "appear-mcq-02"
+        "appear-mcq-21",
+        "appear-pdf-002",
+        "appear-mcq-13"
       ],
       "explanation": "本句的「appear」指「原本不明顯的特徵／跡象開始變得可察覺」。",
       "sentenceIndex": 8,
@@ -1100,12 +1066,10 @@ export default {
         "appear"
       ],
       "optionReasons": {
-        "appear-mcq-05": "本句指「原本不明顯的特徵／跡象開始變得可察覺」。",
-        "appear-mcq-04": "「某種現象、問題、模式或狀態開始存在／可以察覺」是「appear — arise」的用法，與本句語境不同。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。",
-        "appear-mcq-03": "「沒有明顯原因、準備或預兆地突然出現」是「appear out of nowhere」的用法，與本句語境不同。",
-        "appear-mcq-07": "「根據現有跡象，看來某人／某物屬於某種狀態」是「appear to be」的用法，與本句語境不同。",
-        "appear-mcq-02": "「某人／某物快速由不可見／未注意到變得可見」是「appear suddenly」的用法，與本句語境不同。"
+        "appear-mcq-05": "本句的「appear」指「原本不明顯的特徵／跡象開始變得可察覺」。",
+        "appear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-05"
     },
@@ -1117,11 +1081,9 @@ export default {
       "masked": "Signs of confidence started to ____.",
       "options": [
         "appear-mcq-05",
-        "appear-mcq-04",
-        "appear-mcq-06",
-        "appear-mcq-03",
-        "appear-mcq-07",
-        "appear-mcq-02"
+        "appear-mcq-08",
+        "appear-mcq-10",
+        "appear-pdf-004"
       ],
       "explanation": "本句的「appear」指「原本不明顯的特徵／跡象開始變得可察覺」。",
       "sentenceIndex": 9,
@@ -1130,12 +1092,10 @@ export default {
         "appear"
       ],
       "optionReasons": {
-        "appear-mcq-05": "本句指「原本不明顯的特徵／跡象開始變得可察覺」。",
-        "appear-mcq-04": "「某種現象、問題、模式或狀態開始存在／可以察覺」是「appear — arise」的用法，與本句語境不同。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。",
-        "appear-mcq-03": "「沒有明顯原因、準備或預兆地突然出現」是「appear out of nowhere」的用法，與本句語境不同。",
-        "appear-mcq-07": "「根據現有跡象，看來某人／某物屬於某種狀態」是「appear to be」的用法，與本句語境不同。",
-        "appear-mcq-02": "「某人／某物快速由不可見／未注意到變得可見」是「appear suddenly」的用法，與本句語境不同。"
+        "appear-mcq-05": "本句的「appear」指「原本不明顯的特徵／跡象開始變得可察覺」。",
+        "appear-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-05"
     },
@@ -1147,11 +1107,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "appear-mcq-06",
-        "appear-mcq-05",
-        "appear-mcq-07",
-        "appear-mcq-04",
-        "appear-mcq-08",
-        "appear-mcq-03"
+        "appear-pdf-004",
+        "appear-mcq-25",
+        "appear-pdf-002"
       ],
       "explanation": "本句的「appeared calm」指「根據可見／可知跡象，看來處於某種狀態」。",
       "sentenceIndex": 10,
@@ -1160,12 +1118,10 @@ export default {
         "appeared calm"
       ],
       "optionReasons": {
-        "appear-mcq-06": "本句指「根據可見／可知跡象，看來處於某種狀態」。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。",
-        "appear-mcq-07": "「根據現有跡象，看來某人／某物屬於某種狀態」是「appear to be」的用法，與本句語境不同。",
-        "appear-mcq-04": "「某種現象、問題、模式或狀態開始存在／可以察覺」是「appear — arise」的用法，與本句語境不同。",
-        "appear-mcq-08": "「根據現有資訊，看來某個動作／情況是真的」是「appear to + verb」的用法，與本句語境不同。",
-        "appear-mcq-03": "「沒有明顯原因、準備或預兆地突然出現」是「appear out of nowhere」的用法，與本句語境不同。"
+        "appear-mcq-06": "本句的「appeared calm」指「根據可見／可知跡象，看來處於某種狀態」。",
+        "appear-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-06"
     },
@@ -1177,11 +1133,9 @@ export default {
       "masked": "The task ____.",
       "options": [
         "appear-mcq-06",
-        "appear-mcq-05",
-        "appear-mcq-07",
-        "appear-mcq-04",
-        "appear-mcq-08",
-        "appear-mcq-03"
+        "appear-mcq-13",
+        "appear-mcq-20",
+        "appear-mcq-16"
       ],
       "explanation": "本句的「appears difficult」指「根據可見／可知跡象，看來處於某種狀態」。",
       "sentenceIndex": 11,
@@ -1190,12 +1144,10 @@ export default {
         "appears difficult"
       ],
       "optionReasons": {
-        "appear-mcq-06": "本句指「根據可見／可知跡象，看來處於某種狀態」。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。",
-        "appear-mcq-07": "「根據現有跡象，看來某人／某物屬於某種狀態」是「appear to be」的用法，與本句語境不同。",
-        "appear-mcq-04": "「某種現象、問題、模式或狀態開始存在／可以察覺」是「appear — arise」的用法，與本句語境不同。",
-        "appear-mcq-08": "「根據現有資訊，看來某個動作／情況是真的」是「appear to + verb」的用法，與本句語境不同。",
-        "appear-mcq-03": "「沒有明顯原因、準備或預兆地突然出現」是「appear out of nowhere」的用法，與本句語境不同。"
+        "appear-mcq-06": "本句的「appears difficult」指「根據可見／可知跡象，看來處於某種狀態」。",
+        "appear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-06"
     },
@@ -1207,11 +1159,9 @@ export default {
       "masked": "The audience ____.",
       "options": [
         "appear-mcq-07",
-        "appear-mcq-06",
-        "appear-mcq-08",
-        "appear-mcq-05",
-        "appear-mcq-09",
-        "appear-mcq-04"
+        "appear-pdf-001",
+        "appear-mcq-28",
+        "appear-mcq-17"
       ],
       "explanation": "本句的「appeared to be interested」指「根據現有跡象，看來某人／某物屬於某種狀態」。",
       "sentenceIndex": 12,
@@ -1220,12 +1170,10 @@ export default {
         "appeared to be interested"
       ],
       "optionReasons": {
-        "appear-mcq-07": "本句指「根據現有跡象，看來某人／某物屬於某種狀態」。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。",
-        "appear-mcq-08": "「根據現有資訊，看來某個動作／情況是真的」是「appear to + verb」的用法，與本句語境不同。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。",
-        "appear-mcq-09": "「根據目前證據／跡象，某件事似乎為真」是「it appears that」的用法，與本句語境不同。",
-        "appear-mcq-04": "「某種現象、問題、模式或狀態開始存在／可以察覺」是「appear — arise」的用法，與本句語境不同。"
+        "appear-mcq-07": "本句的「appeared to be interested」指「根據現有跡象，看來某人／某物屬於某種狀態」。",
+        "appear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-07"
     },
@@ -1237,11 +1185,9 @@ export default {
       "masked": "The problem ____.",
       "options": [
         "appear-mcq-07",
-        "appear-mcq-06",
-        "appear-mcq-08",
-        "appear-mcq-05",
-        "appear-mcq-09",
-        "appear-mcq-04"
+        "appear-mcq-15",
+        "appear-mcq-28",
+        "appear-mcq-17"
       ],
       "explanation": "本句的「appears to be minor」指「根據現有跡象，看來某人／某物屬於某種狀態」。",
       "sentenceIndex": 13,
@@ -1250,12 +1196,10 @@ export default {
         "appears to be minor"
       ],
       "optionReasons": {
-        "appear-mcq-07": "本句指「根據現有跡象，看來某人／某物屬於某種狀態」。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。",
-        "appear-mcq-08": "「根據現有資訊，看來某個動作／情況是真的」是「appear to + verb」的用法，與本句語境不同。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。",
-        "appear-mcq-09": "「根據目前證據／跡象，某件事似乎為真」是「it appears that」的用法，與本句語境不同。",
-        "appear-mcq-04": "「某種現象、問題、模式或狀態開始存在／可以察覺」是「appear — arise」的用法，與本句語境不同。"
+        "appear-mcq-07": "本句的「appears to be minor」指「根據現有跡象，看來某人／某物屬於某種狀態」。",
+        "appear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-07"
     },
@@ -1267,11 +1211,9 @@ export default {
       "masked": "She ____ the question.",
       "options": [
         "appear-mcq-08",
-        "appear-mcq-07",
-        "appear-mcq-09",
-        "appear-mcq-06",
-        "appear-mcq-10",
-        "appear-mcq-05"
+        "appear-mcq-02",
+        "appear-pdf-003",
+        "appear-mcq-27"
       ],
       "explanation": "本句的「appeared to understand」指「根據現有資訊，看來某個動作／情況是真的」。",
       "sentenceIndex": 14,
@@ -1280,12 +1222,10 @@ export default {
         "appeared to understand"
       ],
       "optionReasons": {
-        "appear-mcq-08": "本句指「根據現有資訊，看來某個動作／情況是真的」。",
-        "appear-mcq-07": "「根據現有跡象，看來某人／某物屬於某種狀態」是「appear to be」的用法，與本句語境不同。",
-        "appear-mcq-09": "「根據目前證據／跡象，某件事似乎為真」是「it appears that」的用法，與本句語境不同。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。",
-        "appear-mcq-10": "「到某處並被人看到／注意到；現身」是「appear at a place/event」的用法，與本句語境不同。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。"
+        "appear-mcq-08": "本句的「appeared to understand」指「根據現有資訊，看來某個動作／情況是真的」。",
+        "appear-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-08"
     },
@@ -1297,11 +1237,9 @@ export default {
       "masked": "The system ____ normally.",
       "options": [
         "appear-mcq-08",
-        "appear-mcq-07",
-        "appear-mcq-09",
-        "appear-mcq-06",
-        "appear-mcq-10",
-        "appear-mcq-05"
+        "appear-pdf-003",
+        "appear-mcq-05",
+        "appear-pdf-004"
       ],
       "explanation": "本句的「appears to work」指「根據現有資訊，看來某個動作／情況是真的」。",
       "sentenceIndex": 15,
@@ -1310,12 +1248,10 @@ export default {
         "appears to work"
       ],
       "optionReasons": {
-        "appear-mcq-08": "本句指「根據現有資訊，看來某個動作／情況是真的」。",
-        "appear-mcq-07": "「根據現有跡象，看來某人／某物屬於某種狀態」是「appear to be」的用法，與本句語境不同。",
-        "appear-mcq-09": "「根據目前證據／跡象，某件事似乎為真」是「it appears that」的用法，與本句語境不同。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。",
-        "appear-mcq-10": "「到某處並被人看到／注意到；現身」是「appear at a place/event」的用法，與本句語境不同。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。"
+        "appear-mcq-08": "本句的「appears to work」指「根據現有資訊，看來某個動作／情況是真的」。",
+        "appear-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-08"
     },
@@ -1327,11 +1263,9 @@ export default {
       "masked": "It ____ the presentation went well.",
       "options": [
         "appear-mcq-09",
-        "appear-mcq-08",
-        "appear-mcq-10",
-        "appear-mcq-07",
-        "appear-mcq-11",
-        "appear-mcq-06"
+        "appear-mcq-12",
+        "appear-mcq-17",
+        "appear-mcq-14"
       ],
       "explanation": "本句的「appears that」指「根據目前證據／跡象，某件事似乎為真」。",
       "sentenceIndex": 16,
@@ -1340,12 +1274,10 @@ export default {
         "appears that"
       ],
       "optionReasons": {
-        "appear-mcq-09": "本句指「根據目前證據／跡象，某件事似乎為真」。",
-        "appear-mcq-08": "「根據現有資訊，看來某個動作／情況是真的」是「appear to + verb」的用法，與本句語境不同。",
-        "appear-mcq-10": "「到某處並被人看到／注意到；現身」是「appear at a place/event」的用法，與本句語境不同。",
-        "appear-mcq-07": "「根據現有跡象，看來某人／某物屬於某種狀態」是「appear to be」的用法，與本句語境不同。",
-        "appear-mcq-11": "「在公眾可以看到的場合公開露面」是「appear in public」的用法，與本句語境不同。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。"
+        "appear-mcq-09": "本句的「appears that」指「根據目前證據／跡象，某件事似乎為真」。",
+        "appear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-09"
     },
@@ -1357,11 +1289,9 @@ export default {
       "masked": "It ____ we have enough time.",
       "options": [
         "appear-mcq-09",
-        "appear-mcq-08",
-        "appear-mcq-10",
-        "appear-mcq-07",
-        "appear-mcq-11",
-        "appear-mcq-06"
+        "appear-mcq-29",
+        "appear-mcq-02",
+        "appear-mcq-15"
       ],
       "explanation": "本句的「appears that」指「根據目前證據／跡象，某件事似乎為真」。",
       "sentenceIndex": 17,
@@ -1370,12 +1300,10 @@ export default {
         "appears that"
       ],
       "optionReasons": {
-        "appear-mcq-09": "本句指「根據目前證據／跡象，某件事似乎為真」。",
-        "appear-mcq-08": "「根據現有資訊，看來某個動作／情況是真的」是「appear to + verb」的用法，與本句語境不同。",
-        "appear-mcq-10": "「到某處並被人看到／注意到；現身」是「appear at a place/event」的用法，與本句語境不同。",
-        "appear-mcq-07": "「根據現有跡象，看來某人／某物屬於某種狀態」是「appear to be」的用法，與本句語境不同。",
-        "appear-mcq-11": "「在公眾可以看到的場合公開露面」是「appear in public」的用法，與本句語境不同。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。"
+        "appear-mcq-09": "本句的「appears that」指「根據目前證據／跡象，某件事似乎為真」。",
+        "appear-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-09"
     },
@@ -1387,11 +1315,9 @@ export default {
       "masked": "The plan ____ so far.",
       "options": [
         "appear-mcq-26",
-        "appear-mcq-25",
-        "appear-mcq-27",
         "appear-mcq-24",
         "appear-mcq-28",
-        "appear-mcq-23"
+        "appear-mcq-17"
       ],
       "explanation": "本句的「appears successful」指「根據整體證據形成印象，不一定只是視覺外觀」。",
       "sentenceIndex": 18,
@@ -1400,12 +1326,10 @@ export default {
         "appears successful"
       ],
       "optionReasons": {
-        "appear-mcq-26": "本句指「根據整體證據形成印象，不一定只是視覺外觀」。",
-        "appear-mcq-25": "「以嘉賓／非固定角色身份短暫出現」是「guest appearance」的用法，與本句語境不同。",
-        "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。",
-        "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。",
-        "appear-mcq-28": "「隨過程發展，新的特徵／問題／差異逐漸可見」是「34. appear = emerge in a sequence/process（開始出現） — 浮現；產生」的用法，與本句語境不同。",
-        "appear-mcq-23": "「由可見／存在狀態變成看不到、不存在或無法找到」是「disappear」的用法，與本句語境不同。"
+        "appear-mcq-26": "本句的「appears successful」指「根據整體證據形成印象，不一定只是視覺外觀」。",
+        "appear-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-26"
     },
@@ -1417,11 +1341,9 @@ export default {
       "masked": "There ____ a problem.",
       "options": [
         "appear-mcq-26",
-        "appear-mcq-25",
-        "appear-mcq-27",
-        "appear-mcq-24",
-        "appear-mcq-28",
-        "appear-mcq-23"
+        "appear-pdf-002",
+        "appear-mcq-14",
+        "appear-mcq-02"
       ],
       "explanation": "本句的「appears to be」指「根據整體證據形成印象，不一定只是視覺外觀」。",
       "sentenceIndex": 19,
@@ -1430,12 +1352,10 @@ export default {
         "appears to be"
       ],
       "optionReasons": {
-        "appear-mcq-26": "本句指「根據整體證據形成印象，不一定只是視覺外觀」。",
-        "appear-mcq-25": "「以嘉賓／非固定角色身份短暫出現」是「guest appearance」的用法，與本句語境不同。",
-        "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。",
-        "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。",
-        "appear-mcq-28": "「隨過程發展，新的特徵／問題／差異逐漸可見」是「34. appear = emerge in a sequence/process（開始出現） — 浮現；產生」的用法，與本句語境不同。",
-        "appear-mcq-23": "「由可見／存在狀態變成看不到、不存在或無法找到」是「disappear」的用法，與本句語境不同。"
+        "appear-mcq-26": "本句的「appears to be」指「根據整體證據形成印象，不一定只是視覺外觀」。",
+        "appear-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-26"
     },
@@ -1447,11 +1367,9 @@ export default {
       "masked": "He finally ____ at the meeting.",
       "options": [
         "appear-mcq-10",
-        "appear-mcq-09",
-        "appear-mcq-11",
-        "appear-mcq-08",
-        "appear-mcq-12",
-        "appear-mcq-07"
+        "appear-mcq-15",
+        "appear-mcq-17",
+        "appear-mcq-31"
       ],
       "explanation": "本句的「appeared」指「到某處並被人看到／注意到；現身」。",
       "sentenceIndex": 20,
@@ -1460,12 +1378,10 @@ export default {
         "appeared"
       ],
       "optionReasons": {
-        "appear-mcq-10": "本句指「到某處並被人看到／注意到；現身」。",
-        "appear-mcq-09": "「根據目前證據／跡象，某件事似乎為真」是「it appears that」的用法，與本句語境不同。",
-        "appear-mcq-11": "「在公眾可以看到的場合公開露面」是「appear in public」的用法，與本句語境不同。",
-        "appear-mcq-08": "「根據現有資訊，看來某個動作／情況是真的」是「appear to + verb」的用法，與本句語境不同。",
-        "appear-mcq-12": "「到場並讓人看見，常暗示短暫／值得注意的露面」是「make an appearance」的用法，與本句語境不同。",
-        "appear-mcq-07": "「根據現有跡象，看來某人／某物屬於某種狀態」是「appear to be」的用法，與本句語境不同。"
+        "appear-mcq-10": "本句的「appeared」指「到某處並被人看到／注意到；現身」。",
+        "appear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-10"
     },
@@ -1477,11 +1393,9 @@ export default {
       "masked": "She did not ____ at the event.",
       "options": [
         "appear-mcq-10",
-        "appear-mcq-09",
-        "appear-mcq-11",
-        "appear-mcq-08",
-        "appear-mcq-12",
-        "appear-mcq-07"
+        "appear-mcq-15",
+        "appear-mcq-17",
+        "appear-mcq-31"
       ],
       "explanation": "本句的「appear」指「到某處並被人看到／注意到；現身」。",
       "sentenceIndex": 21,
@@ -1490,12 +1404,10 @@ export default {
         "appear"
       ],
       "optionReasons": {
-        "appear-mcq-10": "本句指「到某處並被人看到／注意到；現身」。",
-        "appear-mcq-09": "「根據目前證據／跡象，某件事似乎為真」是「it appears that」的用法，與本句語境不同。",
-        "appear-mcq-11": "「在公眾可以看到的場合公開露面」是「appear in public」的用法，與本句語境不同。",
-        "appear-mcq-08": "「根據現有資訊，看來某個動作／情況是真的」是「appear to + verb」的用法，與本句語境不同。",
-        "appear-mcq-12": "「到場並讓人看見，常暗示短暫／值得注意的露面」是「make an appearance」的用法，與本句語境不同。",
-        "appear-mcq-07": "「根據現有跡象，看來某人／某物屬於某種狀態」是「appear to be」的用法，與本句語境不同。"
+        "appear-mcq-10": "本句的「appear」指「到某處並被人看到／注意到；現身」。",
+        "appear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-10"
     },
@@ -1507,11 +1419,9 @@ export default {
       "masked": "She rarely ____.",
       "options": [
         "appear-mcq-11",
-        "appear-mcq-10",
-        "appear-mcq-12",
-        "appear-mcq-09",
         "appear-mcq-13",
-        "appear-mcq-08"
+        "appear-pdf-003",
+        "appear-mcq-28"
       ],
       "explanation": "本句的「appears in public」指「在公眾可以看到的場合公開露面」。",
       "sentenceIndex": 22,
@@ -1520,12 +1430,10 @@ export default {
         "appears in public"
       ],
       "optionReasons": {
-        "appear-mcq-11": "本句指「在公眾可以看到的場合公開露面」。",
-        "appear-mcq-10": "「到某處並被人看到／注意到；現身」是「appear at a place/event」的用法，與本句語境不同。",
-        "appear-mcq-12": "「到場並讓人看見，常暗示短暫／值得注意的露面」是「make an appearance」的用法，與本句語境不同。",
-        "appear-mcq-09": "「根據目前證據／跡象，某件事似乎為真」是「it appears that」的用法，與本句語境不同。",
-        "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。",
-        "appear-mcq-08": "「根據現有資訊，看來某個動作／情況是真的」是「appear to + verb」的用法，與本句語境不同。"
+        "appear-mcq-11": "本句的「appears in public」指「在公眾可以看到的場合公開露面」。",
+        "appear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-11"
     },
@@ -1537,11 +1445,9 @@ export default {
       "masked": "He ____ for the first time after the event.",
       "options": [
         "appear-mcq-11",
-        "appear-mcq-10",
-        "appear-mcq-12",
-        "appear-mcq-09",
-        "appear-mcq-13",
-        "appear-mcq-08"
+        "appear-mcq-16",
+        "appear-mcq-17",
+        "appear-mcq-28"
       ],
       "explanation": "本句的「appeared in public」指「在公眾可以看到的場合公開露面」。",
       "sentenceIndex": 23,
@@ -1550,12 +1456,10 @@ export default {
         "appeared in public"
       ],
       "optionReasons": {
-        "appear-mcq-11": "本句指「在公眾可以看到的場合公開露面」。",
-        "appear-mcq-10": "「到某處並被人看到／注意到；現身」是「appear at a place/event」的用法，與本句語境不同。",
-        "appear-mcq-12": "「到場並讓人看見，常暗示短暫／值得注意的露面」是「make an appearance」的用法，與本句語境不同。",
-        "appear-mcq-09": "「根據目前證據／跡象，某件事似乎為真」是「it appears that」的用法，與本句語境不同。",
-        "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。",
-        "appear-mcq-08": "「根據現有資訊，看來某個動作／情況是真的」是「appear to + verb」的用法，與本句語境不同。"
+        "appear-mcq-11": "本句的「appeared in public」指「在公眾可以看到的場合公開露面」。",
+        "appear-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-11"
     },
@@ -1567,11 +1471,9 @@ export default {
       "masked": "The manager ____ at the event.",
       "options": [
         "appear-mcq-12",
-        "appear-mcq-11",
-        "appear-mcq-13",
-        "appear-mcq-10",
-        "appear-mcq-14",
-        "appear-mcq-09"
+        "appear-mcq-17",
+        "appear-mcq-31",
+        "appear-mcq-14"
       ],
       "explanation": "本句的「made an appearance」指「到場並讓人看見，常暗示短暫／值得注意的露面」。",
       "sentenceIndex": 24,
@@ -1580,12 +1482,10 @@ export default {
         "made an appearance"
       ],
       "optionReasons": {
-        "appear-mcq-12": "本句指「到場並讓人看見，常暗示短暫／值得注意的露面」。",
-        "appear-mcq-11": "「在公眾可以看到的場合公開露面」是「appear in public」的用法，與本句語境不同。",
-        "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。",
-        "appear-mcq-10": "「到某處並被人看到／注意到；現身」是「appear at a place/event」的用法，與本句語境不同。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
-        "appear-mcq-09": "「根據目前證據／跡象，某件事似乎為真」是「it appears that」的用法，與本句語境不同。"
+        "appear-mcq-12": "本句的「made an appearance」指「到場並讓人看見，常暗示短暫／值得注意的露面」。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-12"
     },
@@ -1597,11 +1497,9 @@ export default {
       "masked": "She made a brief ____ at the reception.",
       "options": [
         "appear-mcq-12",
-        "appear-mcq-11",
-        "appear-mcq-13",
-        "appear-mcq-10",
-        "appear-mcq-14",
-        "appear-mcq-09"
+        "appear-mcq-15",
+        "appear-mcq-17",
+        "appear-mcq-31"
       ],
       "explanation": "本句的「appearance」指「到場並讓人看見，常暗示短暫／值得注意的露面」。",
       "sentenceIndex": 25,
@@ -1610,12 +1508,10 @@ export default {
         "appearance"
       ],
       "optionReasons": {
-        "appear-mcq-12": "本句指「到場並讓人看見，常暗示短暫／值得注意的露面」。",
-        "appear-mcq-11": "「在公眾可以看到的場合公開露面」是「appear in public」的用法，與本句語境不同。",
-        "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。",
-        "appear-mcq-10": "「到某處並被人看到／注意到；現身」是「appear at a place/event」的用法，與本句語境不同。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
-        "appear-mcq-09": "「根據目前證據／跡象，某件事似乎為真」是「it appears that」的用法，與本句語境不同。"
+        "appear-mcq-12": "本句的「appearance」指「到場並讓人看見，常暗示短暫／值得注意的露面」。",
+        "appear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-12"
     },
@@ -1627,11 +1523,9 @@ export default {
       "masked": "She ____ a television programme.",
       "options": [
         "appear-mcq-13",
-        "appear-mcq-12",
-        "appear-mcq-14",
-        "appear-mcq-11",
-        "appear-mcq-15",
-        "appear-mcq-10"
+        "appear-mcq-18",
+        "appear-mcq-16",
+        "appear-mcq-23"
       ],
       "explanation": "本句的「appeared in」指「作為演員、嘉賓或參與者出現在作品／節目中」。",
       "sentenceIndex": 26,
@@ -1640,12 +1534,10 @@ export default {
         "appeared in"
       ],
       "optionReasons": {
-        "appear-mcq-13": "本句指「作為演員、嘉賓或參與者出現在作品／節目中」。",
-        "appear-mcq-12": "「到場並讓人看見，常暗示短暫／值得注意的露面」是「make an appearance」的用法，與本句語境不同。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
-        "appear-mcq-11": "「在公眾可以看到的場合公開露面」是「appear in public」的用法，與本句語境不同。",
-        "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。",
-        "appear-mcq-10": "「到某處並被人看到／注意到；現身」是「appear at a place/event」的用法，與本句語境不同。"
+        "appear-mcq-13": "本句的「appeared in」指「作為演員、嘉賓或參與者出現在作品／節目中」。",
+        "appear-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-13"
     },
@@ -1657,11 +1549,9 @@ export default {
       "masked": "He ____ several films.",
       "options": [
         "appear-mcq-13",
-        "appear-mcq-12",
-        "appear-mcq-14",
-        "appear-mcq-11",
-        "appear-mcq-15",
-        "appear-mcq-10"
+        "appear-pdf-003",
+        "appear-mcq-32",
+        "appear-mcq-28"
       ],
       "explanation": "本句的「appeared in」指「作為演員、嘉賓或參與者出現在作品／節目中」。",
       "sentenceIndex": 27,
@@ -1670,12 +1560,10 @@ export default {
         "appeared in"
       ],
       "optionReasons": {
-        "appear-mcq-13": "本句指「作為演員、嘉賓或參與者出現在作品／節目中」。",
-        "appear-mcq-12": "「到場並讓人看見，常暗示短暫／值得注意的露面」是「make an appearance」的用法，與本句語境不同。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
-        "appear-mcq-11": "「在公眾可以看到的場合公開露面」是「appear in public」的用法，與本句語境不同。",
-        "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。",
-        "appear-mcq-10": "「到某處並被人看到／注意到；現身」是「appear at a place/event」的用法，與本句語境不同。"
+        "appear-mcq-13": "本句的「appeared in」指「作為演員、嘉賓或參與者出現在作品／節目中」。",
+        "appear-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-13"
     },
@@ -1687,11 +1575,9 @@ export default {
       "masked": "She ____ to discuss the project.",
       "options": [
         "appear-mcq-13",
-        "appear-mcq-12",
-        "appear-mcq-14",
-        "appear-mcq-11",
-        "appear-mcq-15",
-        "appear-mcq-10"
+        "appear-mcq-01",
+        "appear-pdf-001",
+        "appear-pdf-003"
       ],
       "explanation": "本句的「appeared on television」指「作為演員、嘉賓或參與者出現在作品／節目中」。",
       "sentenceIndex": 28,
@@ -1700,12 +1586,10 @@ export default {
         "appeared on television"
       ],
       "optionReasons": {
-        "appear-mcq-13": "本句指「作為演員、嘉賓或參與者出現在作品／節目中」。",
-        "appear-mcq-12": "「到場並讓人看見，常暗示短暫／值得注意的露面」是「make an appearance」的用法，與本句語境不同。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
-        "appear-mcq-11": "「在公眾可以看到的場合公開露面」是「appear in public」的用法，與本句語境不同。",
-        "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。",
-        "appear-mcq-10": "「到某處並被人看到／注意到；現身」是「appear at a place/event」的用法，與本句語境不同。"
+        "appear-mcq-13": "本句的「appeared on television」指「作為演員、嘉賓或參與者出現在作品／節目中」。",
+        "appear-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-13"
     },
@@ -1717,11 +1601,9 @@ export default {
       "masked": "He regularly ____ radio programmes.",
       "options": [
         "appear-mcq-13",
-        "appear-mcq-12",
-        "appear-mcq-14",
-        "appear-mcq-11",
-        "appear-mcq-15",
-        "appear-mcq-10"
+        "appear-mcq-21",
+        "appear-pdf-001",
+        "appear-mcq-23"
       ],
       "explanation": "本句的「appears on」指「作為演員、嘉賓或參與者出現在作品／節目中」。",
       "sentenceIndex": 29,
@@ -1730,12 +1612,10 @@ export default {
         "appears on"
       ],
       "optionReasons": {
-        "appear-mcq-13": "本句指「作為演員、嘉賓或參與者出現在作品／節目中」。",
-        "appear-mcq-12": "「到場並讓人看見，常暗示短暫／值得注意的露面」是「make an appearance」的用法，與本句語境不同。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
-        "appear-mcq-11": "「在公眾可以看到的場合公開露面」是「appear in public」的用法，與本句語境不同。",
-        "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。",
-        "appear-mcq-10": "「到某處並被人看到／注意到；現身」是「appear at a place/event」的用法，與本句語境不同。"
+        "appear-mcq-13": "本句的「appears on」指「作為演員、嘉賓或參與者出現在作品／節目中」。",
+        "appear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-13"
     },
@@ -1747,11 +1627,9 @@ export default {
       "masked": "She ____ the lead character.",
       "options": [
         "appear-mcq-14",
-        "appear-mcq-13",
-        "appear-mcq-15",
-        "appear-mcq-12",
-        "appear-mcq-16",
-        "appear-mcq-11"
+        "appear-mcq-21",
+        "appear-mcq-27",
+        "appear-mcq-09"
       ],
       "explanation": "本句的「appeared as」指「以某個角色、身份或功能出現」。",
       "sentenceIndex": 30,
@@ -1760,12 +1638,10 @@ export default {
         "appeared as"
       ],
       "optionReasons": {
-        "appear-mcq-14": "本句指「以某個角色、身份或功能出現」。",
-        "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。",
-        "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。",
-        "appear-mcq-12": "「到場並讓人看見，常暗示短暫／值得注意的露面」是「make an appearance」的用法，與本句語境不同。",
-        "appear-mcq-16": "「某個文字、圖像、名稱或資料顯示／列於某處」是「appear on screen/list/page」的用法，與本句語境不同。",
-        "appear-mcq-11": "「在公眾可以看到的場合公開露面」是「appear in public」的用法，與本句語境不同。"
+        "appear-mcq-14": "本句的「appeared as」指「以某個角色、身份或功能出現」。",
+        "appear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-14"
     },
@@ -1777,11 +1653,9 @@ export default {
       "masked": "He ____ as a guest speaker.",
       "options": [
         "appear-mcq-14",
-        "appear-mcq-13",
-        "appear-mcq-15",
-        "appear-mcq-12",
-        "appear-mcq-16",
-        "appear-mcq-11"
+        "appear-mcq-23",
+        "appear-mcq-26",
+        "appear-mcq-21"
       ],
       "explanation": "本句的「appeared」指「以某個角色、身份或功能出現」。",
       "sentenceIndex": 31,
@@ -1790,12 +1664,10 @@ export default {
         "appeared"
       ],
       "optionReasons": {
-        "appear-mcq-14": "本句指「以某個角色、身份或功能出現」。",
-        "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。",
-        "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。",
-        "appear-mcq-12": "「到場並讓人看見，常暗示短暫／值得注意的露面」是「make an appearance」的用法，與本句語境不同。",
-        "appear-mcq-16": "「某個文字、圖像、名稱或資料顯示／列於某處」是「appear on screen/list/page」的用法，與本句語境不同。",
-        "appear-mcq-11": "「在公眾可以看到的場合公開露面」是「appear in public」的用法，與本句語境不同。"
+        "appear-mcq-14": "本句的「appeared」指「以某個角色、身份或功能出現」。",
+        "appear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-14"
     },
@@ -1807,11 +1679,9 @@ export default {
       "masked": "The article ____ a business magazine.",
       "options": [
         "appear-mcq-15",
-        "appear-mcq-14",
-        "appear-mcq-16",
-        "appear-mcq-13",
         "appear-mcq-17",
-        "appear-mcq-12"
+        "appear-mcq-04",
+        "appear-mcq-18"
       ],
       "explanation": "本句的「appeared in」指「某篇作品／文章被出版、刊登或發布」。",
       "sentenceIndex": 32,
@@ -1820,12 +1690,10 @@ export default {
         "appeared in"
       ],
       "optionReasons": {
-        "appear-mcq-15": "本句指「某篇作品／文章被出版、刊登或發布」。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
-        "appear-mcq-16": "「某個文字、圖像、名稱或資料顯示／列於某處」是「appear on screen/list/page」的用法，與本句語境不同。",
-        "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。",
-        "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。",
-        "appear-mcq-12": "「到場並讓人看見，常暗示短暫／值得注意的露面」是「make an appearance」的用法，與本句語境不同。"
+        "appear-mcq-15": "本句的「appeared in」指「某篇作品／文章被出版、刊登或發布」。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-15"
     },
@@ -1837,11 +1705,9 @@ export default {
       "masked": "The report first ____ online.",
       "options": [
         "appear-mcq-15",
-        "appear-mcq-14",
-        "appear-mcq-16",
-        "appear-mcq-13",
-        "appear-mcq-17",
-        "appear-mcq-12"
+        "appear-mcq-18",
+        "appear-mcq-29",
+        "appear-mcq-23"
       ],
       "explanation": "本句的「appeared」指「某篇作品／文章被出版、刊登或發布」。",
       "sentenceIndex": 33,
@@ -1850,12 +1716,10 @@ export default {
         "appeared"
       ],
       "optionReasons": {
-        "appear-mcq-15": "本句指「某篇作品／文章被出版、刊登或發布」。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
-        "appear-mcq-16": "「某個文字、圖像、名稱或資料顯示／列於某處」是「appear on screen/list/page」的用法，與本句語境不同。",
-        "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。",
-        "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。",
-        "appear-mcq-12": "「到場並讓人看見，常暗示短暫／值得注意的露面」是「make an appearance」的用法，與本句語境不同。"
+        "appear-mcq-15": "本句的「appeared」指「某篇作品／文章被出版、刊登或發布」。",
+        "appear-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-15"
     },
@@ -1867,11 +1731,9 @@ export default {
       "masked": "Her name ____ the list.",
       "options": [
         "appear-pdf-001",
-        "appear-mcq-14",
-        "appear-mcq-16",
-        "appear-mcq-13",
-        "appear-mcq-17",
-        "appear-mcq-12"
+        "appear-mcq-27",
+        "appear-mcq-25",
+        "appear-mcq-23"
       ],
       "explanation": "本句的「appears on」指「某項內容被寫入／顯示在文件、名單、頁面等地方」。",
       "sentenceIndex": 34,
@@ -1880,12 +1742,10 @@ export default {
         "appears on"
       ],
       "optionReasons": {
-        "appear-pdf-001": "本句指「某項內容被寫入／顯示在文件、名單、頁面等地方」。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
-        "appear-mcq-16": "「某個文字、圖像、名稱或資料顯示／列於某處」是「appear on screen/list/page」的用法，與本句語境不同。",
-        "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。",
-        "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。",
-        "appear-mcq-12": "「到場並讓人看見，常暗示短暫／值得注意的露面」是「make an appearance」的用法，與本句語境不同。"
+        "appear-pdf-001": "本句的「appears on」指「某項內容被寫入／顯示在文件、名單、頁面等地方」。",
+        "appear-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-pdf-001"
     },
@@ -1897,11 +1757,9 @@ export default {
       "masked": "The figure ____ the report.",
       "options": [
         "appear-pdf-001",
+        "appear-mcq-02",
         "appear-mcq-14",
-        "appear-mcq-16",
-        "appear-mcq-13",
-        "appear-mcq-17",
-        "appear-mcq-12"
+        "appear-mcq-27"
       ],
       "explanation": "本句的「appears in」指「某項內容被寫入／顯示在文件、名單、頁面等地方」。",
       "sentenceIndex": 35,
@@ -1910,12 +1768,10 @@ export default {
         "appears in"
       ],
       "optionReasons": {
-        "appear-pdf-001": "本句指「某項內容被寫入／顯示在文件、名單、頁面等地方」。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
-        "appear-mcq-16": "「某個文字、圖像、名稱或資料顯示／列於某處」是「appear on screen/list/page」的用法，與本句語境不同。",
-        "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。",
-        "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。",
-        "appear-mcq-12": "「到場並讓人看見，常暗示短暫／值得注意的露面」是「make an appearance」的用法，與本句語境不同。"
+        "appear-pdf-001": "本句的「appears in」指「某項內容被寫入／顯示在文件、名單、頁面等地方」。",
+        "appear-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-pdf-001"
     },
@@ -1927,11 +1783,9 @@ export default {
       "masked": "A warning ____.",
       "options": [
         "appear-mcq-16",
-        "appear-mcq-15",
-        "appear-mcq-17",
-        "appear-mcq-14",
-        "appear-mcq-18",
-        "appear-mcq-13"
+        "appear-mcq-20",
+        "appear-mcq-23",
+        "appear-mcq-21"
       ],
       "explanation": "本句的「appeared on the screen」指「某個文字、圖像、名稱或資料顯示／列於某處」。",
       "sentenceIndex": 36,
@@ -1940,12 +1794,10 @@ export default {
         "appeared on the screen"
       ],
       "optionReasons": {
-        "appear-mcq-16": "本句指「某個文字、圖像、名稱或資料顯示／列於某處」。",
-        "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。",
-        "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
-        "appear-mcq-18": "「某人／某物從外表看起來的樣子」是「appearance — physical」的用法，與本句語境不同。",
-        "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。"
+        "appear-mcq-16": "本句的「appeared on the screen」指「某個文字、圖像、名稱或資料顯示／列於某處」。",
+        "appear-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-16"
     },
@@ -1957,11 +1809,9 @@ export default {
       "masked": "The title ____.",
       "options": [
         "appear-mcq-16",
-        "appear-mcq-15",
-        "appear-mcq-17",
-        "appear-mcq-14",
-        "appear-mcq-18",
-        "appear-mcq-13"
+        "appear-pdf-004",
+        "appear-mcq-04",
+        "appear-mcq-11"
       ],
       "explanation": "本句的「appears at the top of the page」指「某個文字、圖像、名稱或資料顯示／列於某處」。",
       "sentenceIndex": 37,
@@ -1970,12 +1820,10 @@ export default {
         "appears at the top of the page"
       ],
       "optionReasons": {
-        "appear-mcq-16": "本句指「某個文字、圖像、名稱或資料顯示／列於某處」。",
-        "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。",
-        "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
-        "appear-mcq-18": "「某人／某物從外表看起來的樣子」是「appearance — physical」的用法，與本句語境不同。",
-        "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。"
+        "appear-mcq-16": "本句的「appears at the top of the page」指「某個文字、圖像、名稱或資料顯示／列於某處」。",
+        "appear-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-16"
     },
@@ -1987,11 +1835,9 @@ export default {
       "masked": "The company ____ the list.",
       "options": [
         "appear-pdf-002",
-        "appear-mcq-15",
-        "appear-mcq-17",
-        "appear-mcq-14",
-        "appear-mcq-18",
-        "appear-mcq-13"
+        "appear-pdf-003",
+        "appear-mcq-25",
+        "appear-mcq-02"
       ],
       "explanation": "本句的「appears on」指「某個名稱、詞、項目等實際存在於文字／清單內」。",
       "sentenceIndex": 38,
@@ -2000,12 +1846,10 @@ export default {
         "appears on"
       ],
       "optionReasons": {
-        "appear-pdf-002": "本句指「某個名稱、詞、項目等實際存在於文字／清單內」。",
-        "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。",
-        "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
-        "appear-mcq-18": "「某人／某物從外表看起來的樣子」是「appearance — physical」的用法，與本句語境不同。",
-        "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。"
+        "appear-pdf-002": "本句的「appears on」指「某個名稱、詞、項目等實際存在於文字／清單內」。",
+        "appear-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-pdf-002"
     },
@@ -2017,11 +1861,9 @@ export default {
       "masked": "The word ____ several times in the passage.",
       "options": [
         "appear-pdf-002",
-        "appear-mcq-15",
-        "appear-mcq-17",
-        "appear-mcq-14",
-        "appear-mcq-18",
-        "appear-mcq-13"
+        "appear-mcq-28",
+        "appear-mcq-27",
+        "appear-mcq-17"
       ],
       "explanation": "本句的「appears」指「某個名稱、詞、項目等實際存在於文字／清單內」。",
       "sentenceIndex": 39,
@@ -2030,12 +1872,10 @@ export default {
         "appears"
       ],
       "optionReasons": {
-        "appear-pdf-002": "本句指「某個名稱、詞、項目等實際存在於文字／清單內」。",
-        "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。",
-        "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。",
-        "appear-mcq-18": "「某人／某物從外表看起來的樣子」是「appearance — physical」的用法，與本句語境不同。",
-        "appear-mcq-13": "「作為演員、嘉賓或參與者出現在作品／節目中」是「appear in a film/show」的用法，與本句語境不同。"
+        "appear-pdf-002": "本句的「appears」指「某個名稱、詞、項目等實際存在於文字／清單內」。",
+        "appear-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-pdf-002"
     },
@@ -2047,11 +1887,9 @@ export default {
       "masked": "He must ____ tomorrow.",
       "options": [
         "appear-mcq-17",
-        "appear-mcq-16",
-        "appear-mcq-18",
-        "appear-mcq-15",
         "appear-mcq-19",
-        "appear-mcq-14"
+        "appear-mcq-05",
+        "appear-mcq-31"
       ],
       "explanation": "本句的「appear in court」指「正式到法院參與司法程序」。",
       "sentenceIndex": 40,
@@ -2060,12 +1898,10 @@ export default {
         "appear in court"
       ],
       "optionReasons": {
-        "appear-mcq-17": "本句指「正式到法院參與司法程序」。",
-        "appear-mcq-16": "「某個文字、圖像、名稱或資料顯示／列於某處」是「appear on screen/list/page」的用法，與本句語境不同。",
-        "appear-mcq-18": "「某人／某物從外表看起來的樣子」是「appearance — physical」的用法，與本句語境不同。",
-        "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。",
-        "appear-mcq-19": "「某人／某物出現、到場或被看見這件事」是「appearance — act of appearing」的用法，與本句語境不同。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。"
+        "appear-mcq-17": "本句的「appear in court」指「正式到法院參與司法程序」。",
+        "appear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-17"
     },
@@ -2077,11 +1913,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "appear-mcq-17",
-        "appear-mcq-16",
-        "appear-mcq-18",
-        "appear-mcq-15",
-        "appear-mcq-19",
-        "appear-mcq-14"
+        "appear-mcq-02",
+        "appear-pdf-003",
+        "appear-mcq-30"
       ],
       "explanation": "本句的「appeared before the judge」指「正式到法院參與司法程序」。",
       "sentenceIndex": 41,
@@ -2090,12 +1924,10 @@ export default {
         "appeared before the judge"
       ],
       "optionReasons": {
-        "appear-mcq-17": "本句指「正式到法院參與司法程序」。",
-        "appear-mcq-16": "「某個文字、圖像、名稱或資料顯示／列於某處」是「appear on screen/list/page」的用法，與本句語境不同。",
-        "appear-mcq-18": "「某人／某物從外表看起來的樣子」是「appearance — physical」的用法，與本句語境不同。",
-        "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。",
-        "appear-mcq-19": "「某人／某物出現、到場或被看見這件事」是「appearance — act of appearing」的用法，與本句語境不同。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。"
+        "appear-mcq-17": "本句的「appeared before the judge」指「正式到法院參與司法程序」。",
+        "appear-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-17"
     },
@@ -2107,11 +1939,9 @@ export default {
       "masked": "The lawyer ____ the defendant.",
       "options": [
         "appear-mcq-17",
-        "appear-mcq-16",
         "appear-mcq-18",
-        "appear-mcq-15",
-        "appear-mcq-19",
-        "appear-mcq-14"
+        "appear-mcq-03",
+        "appear-mcq-09"
       ],
       "explanation": "本句的「appeared for」指「正式到法院參與司法程序」。",
       "sentenceIndex": 42,
@@ -2120,12 +1950,10 @@ export default {
         "appeared for"
       ],
       "optionReasons": {
-        "appear-mcq-17": "本句指「正式到法院參與司法程序」。",
-        "appear-mcq-16": "「某個文字、圖像、名稱或資料顯示／列於某處」是「appear on screen/list/page」的用法，與本句語境不同。",
-        "appear-mcq-18": "「某人／某物從外表看起來的樣子」是「appearance — physical」的用法，與本句語境不同。",
-        "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。",
-        "appear-mcq-19": "「某人／某物出現、到場或被看見這件事」是「appearance — act of appearing」的用法，與本句語境不同。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。"
+        "appear-mcq-17": "本句的「appeared for」指「正式到法院參與司法程序」。",
+        "appear-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-17"
     },
@@ -2137,11 +1965,9 @@ export default {
       "masked": "Counsel ____ on behalf of the company.",
       "options": [
         "appear-mcq-17",
-        "appear-mcq-16",
+        "appear-mcq-03",
         "appear-mcq-18",
-        "appear-mcq-15",
-        "appear-mcq-19",
-        "appear-mcq-14"
+        "appear-mcq-09"
       ],
       "explanation": "本句的「appeared」指「正式到法院參與司法程序」。",
       "sentenceIndex": 43,
@@ -2150,12 +1976,10 @@ export default {
         "appeared"
       ],
       "optionReasons": {
-        "appear-mcq-17": "本句指「正式到法院參與司法程序」。",
-        "appear-mcq-16": "「某個文字、圖像、名稱或資料顯示／列於某處」是「appear on screen/list/page」的用法，與本句語境不同。",
-        "appear-mcq-18": "「某人／某物從外表看起來的樣子」是「appearance — physical」的用法，與本句語境不同。",
-        "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。",
-        "appear-mcq-19": "「某人／某物出現、到場或被看見這件事」是「appearance — act of appearing」的用法，與本句語境不同。",
-        "appear-mcq-14": "「以某個角色、身份或功能出現」是「appear as + role」的用法，與本句語境不同。"
+        "appear-mcq-17": "本句的「appeared」指「正式到法院參與司法程序」。",
+        "appear-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-17"
     },
@@ -2167,11 +1991,9 @@ export default {
       "masked": "You shouldn’t judge people by their ____.",
       "options": [
         "appear-mcq-18",
-        "appear-mcq-17",
-        "appear-mcq-19",
-        "appear-mcq-16",
-        "appear-mcq-20",
-        "appear-mcq-15"
+        "appear-mcq-15",
+        "appear-mcq-09",
+        "appear-mcq-25"
       ],
       "explanation": "本句的「appearance」指「某人／某物從外表看起來的樣子」。",
       "sentenceIndex": 44,
@@ -2180,12 +2002,10 @@ export default {
         "appearance"
       ],
       "optionReasons": {
-        "appear-mcq-18": "本句指「某人／某物從外表看起來的樣子」。",
-        "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。",
-        "appear-mcq-19": "「某人／某物出現、到場或被看見這件事」是「appearance — act of appearing」的用法，與本句語境不同。",
-        "appear-mcq-16": "「某個文字、圖像、名稱或資料顯示／列於某處」是「appear on screen/list/page」的用法，與本句語境不同。",
-        "appear-mcq-20": "「某人／某事表面呈現出的情況，不一定等於真實」是「appearance — outward impression」的用法，與本句語境不同。",
-        "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。"
+        "appear-mcq-18": "本句的「appearance」指「某人／某物從外表看起來的樣子」。",
+        "appear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-18"
     },
@@ -2197,11 +2017,9 @@ export default {
       "masked": "Her ____ changed over time.",
       "options": [
         "appear-mcq-18",
-        "appear-mcq-17",
-        "appear-mcq-19",
-        "appear-mcq-16",
-        "appear-mcq-20",
-        "appear-mcq-15"
+        "appear-mcq-03",
+        "appear-pdf-003",
+        "appear-pdf-002"
       ],
       "explanation": "本句的「appearance」指「某人／某物從外表看起來的樣子」。",
       "sentenceIndex": 45,
@@ -2210,12 +2028,10 @@ export default {
         "appearance"
       ],
       "optionReasons": {
-        "appear-mcq-18": "本句指「某人／某物從外表看起來的樣子」。",
-        "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。",
-        "appear-mcq-19": "「某人／某物出現、到場或被看見這件事」是「appearance — act of appearing」的用法，與本句語境不同。",
-        "appear-mcq-16": "「某個文字、圖像、名稱或資料顯示／列於某處」是「appear on screen/list/page」的用法，與本句語境不同。",
-        "appear-mcq-20": "「某人／某事表面呈現出的情況，不一定等於真實」是「appearance — outward impression」的用法，與本句語境不同。",
-        "appear-mcq-15": "「某篇作品／文章被出版、刊登或發布」是「appear in a publication」的用法，與本句語境不同。"
+        "appear-mcq-18": "本句的「appearance」指「某人／某物從外表看起來的樣子」。",
+        "appear-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-18"
     },
@@ -2227,11 +2043,9 @@ export default {
       "masked": "His sudden ____ surprised everyone.",
       "options": [
         "appear-mcq-19",
-        "appear-mcq-18",
-        "appear-mcq-20",
+        "appear-mcq-31",
         "appear-mcq-17",
-        "appear-mcq-21",
-        "appear-mcq-16"
+        "appear-mcq-05"
       ],
       "explanation": "本句的「appearance」指「某人／某物出現、到場或被看見這件事」。",
       "sentenceIndex": 46,
@@ -2240,12 +2054,10 @@ export default {
         "appearance"
       ],
       "optionReasons": {
-        "appear-mcq-19": "本句指「某人／某物出現、到場或被看見這件事」。",
-        "appear-mcq-18": "「某人／某物從外表看起來的樣子」是「appearance — physical」的用法，與本句語境不同。",
-        "appear-mcq-20": "「某人／某事表面呈現出的情況，不一定等於真實」是「appearance — outward impression」的用法，與本句語境不同。",
-        "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。",
-        "appear-mcq-21": "「為了令外界看來正常／體面而做某事」是「for appearances’ sake」的用法，與本句語境不同。",
-        "appear-mcq-16": "「某個文字、圖像、名稱或資料顯示／列於某處」是「appear on screen/list/page」的用法，與本句語境不同。"
+        "appear-mcq-19": "本句的「appearance」指「某人／某物出現、到場或被看見這件事」。",
+        "appear-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-19"
     },
@@ -2257,11 +2069,9 @@ export default {
       "masked": "She made several public ____.",
       "options": [
         "appear-mcq-19",
-        "appear-mcq-18",
-        "appear-mcq-20",
-        "appear-mcq-17",
-        "appear-mcq-21",
-        "appear-mcq-16"
+        "appear-mcq-31",
+        "appear-pdf-002",
+        "appear-mcq-05"
       ],
       "explanation": "本句的「appearances」指「某人／某物出現、到場或被看見這件事」。",
       "sentenceIndex": 47,
@@ -2270,12 +2080,10 @@ export default {
         "appearances"
       ],
       "optionReasons": {
-        "appear-mcq-19": "本句指「某人／某物出現、到場或被看見這件事」。",
-        "appear-mcq-18": "「某人／某物從外表看起來的樣子」是「appearance — physical」的用法，與本句語境不同。",
-        "appear-mcq-20": "「某人／某事表面呈現出的情況，不一定等於真實」是「appearance — outward impression」的用法，與本句語境不同。",
-        "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。",
-        "appear-mcq-21": "「為了令外界看來正常／體面而做某事」是「for appearances’ sake」的用法，與本句語境不同。",
-        "appear-mcq-16": "「某個文字、圖像、名稱或資料顯示／列於某處」是「appear on screen/list/page」的用法，與本句語境不同。"
+        "appear-mcq-19": "本句的「appearances」指「某人／某物出現、到場或被看見這件事」。",
+        "appear-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-19"
     },
@@ -2287,11 +2095,9 @@ export default {
       "masked": "____ can be misleading.",
       "options": [
         "appear-mcq-20",
-        "appear-mcq-19",
         "appear-mcq-21",
-        "appear-mcq-18",
-        "appear-mcq-22",
-        "appear-mcq-17"
+        "appear-pdf-003",
+        "appear-mcq-05"
       ],
       "explanation": "本句的「Appearances」指「某人／某事表面呈現出的情況，不一定等於真實」。",
       "sentenceIndex": 48,
@@ -2300,12 +2106,10 @@ export default {
         "Appearances"
       ],
       "optionReasons": {
-        "appear-mcq-20": "本句指「某人／某事表面呈現出的情況，不一定等於真實」。",
-        "appear-mcq-19": "「某人／某物出現、到場或被看見這件事」是「appearance — act of appearing」的用法，與本句語境不同。",
-        "appear-mcq-21": "「為了令外界看來正常／體面而做某事」是「for appearances’ sake」的用法，與本句語境不同。",
-        "appear-mcq-18": "「某人／某物從外表看起來的樣子」是「appearance — physical」的用法，與本句語境不同。",
-        "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。",
-        "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。"
+        "appear-mcq-20": "本句的「Appearances」指「某人／某事表面呈現出的情況，不一定等於真實」。",
+        "appear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-20"
     },
@@ -2317,11 +2121,9 @@ export default {
       "masked": "Despite ____, she was very nervous.",
       "options": [
         "appear-mcq-20",
-        "appear-mcq-19",
         "appear-mcq-21",
-        "appear-mcq-18",
-        "appear-mcq-22",
-        "appear-mcq-17"
+        "appear-pdf-003",
+        "appear-mcq-05"
       ],
       "explanation": "本句的「appearances」指「某人／某事表面呈現出的情況，不一定等於真實」。",
       "sentenceIndex": 49,
@@ -2330,12 +2132,10 @@ export default {
         "appearances"
       ],
       "optionReasons": {
-        "appear-mcq-20": "本句指「某人／某事表面呈現出的情況，不一定等於真實」。",
-        "appear-mcq-19": "「某人／某物出現、到場或被看見這件事」是「appearance — act of appearing」的用法，與本句語境不同。",
-        "appear-mcq-21": "「為了令外界看來正常／體面而做某事」是「for appearances’ sake」的用法，與本句語境不同。",
-        "appear-mcq-18": "「某人／某物從外表看起來的樣子」是「appearance — physical」的用法，與本句語境不同。",
-        "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。",
-        "appear-mcq-17": "「正式到法院參與司法程序」是「appear in court」的用法，與本句語境不同。"
+        "appear-mcq-20": "本句的「appearances」指「某人／某事表面呈現出的情況，不一定等於真實」。",
+        "appear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-20"
     },
@@ -2347,11 +2147,9 @@ export default {
       "masked": "He attended only ____.",
       "options": [
         "appear-mcq-21",
-        "appear-mcq-20",
-        "appear-mcq-22",
-        "appear-mcq-19",
-        "appear-mcq-23",
-        "appear-mcq-18"
+        "appear-mcq-16",
+        "appear-mcq-30",
+        "appear-mcq-28"
       ],
       "explanation": "本句的「for appearances’ sake」指「為了令外界看來正常／體面而做某事」。",
       "sentenceIndex": 50,
@@ -2360,12 +2158,10 @@ export default {
         "for appearances’ sake"
       ],
       "optionReasons": {
-        "appear-mcq-21": "本句指「為了令外界看來正常／體面而做某事」。",
-        "appear-mcq-20": "「某人／某事表面呈現出的情況，不一定等於真實」是「appearance — outward impression」的用法，與本句語境不同。",
-        "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。",
-        "appear-mcq-19": "「某人／某物出現、到場或被看見這件事」是「appearance — act of appearing」的用法，與本句語境不同。",
-        "appear-mcq-23": "「由可見／存在狀態變成看不到、不存在或無法找到」是「disappear」的用法，與本句語境不同。",
-        "appear-mcq-18": "「某人／某物從外表看起來的樣子」是「appearance — physical」的用法，與本句語境不同。"
+        "appear-mcq-21": "本句的「for appearances’ sake」指「為了令外界看來正常／體面而做某事」。",
+        "appear-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-21"
     },
@@ -2377,11 +2173,9 @@ export default {
       "masked": "They kept the arrangement ____.",
       "options": [
         "appear-mcq-21",
-        "appear-mcq-20",
-        "appear-mcq-22",
-        "appear-mcq-19",
-        "appear-mcq-23",
-        "appear-mcq-18"
+        "appear-mcq-09",
+        "appear-mcq-02",
+        "appear-mcq-24"
       ],
       "explanation": "本句的「for appearances’ sake」指「為了令外界看來正常／體面而做某事」。",
       "sentenceIndex": 51,
@@ -2390,12 +2184,10 @@ export default {
         "for appearances’ sake"
       ],
       "optionReasons": {
-        "appear-mcq-21": "本句指「為了令外界看來正常／體面而做某事」。",
-        "appear-mcq-20": "「某人／某事表面呈現出的情況，不一定等於真實」是「appearance — outward impression」的用法，與本句語境不同。",
-        "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。",
-        "appear-mcq-19": "「某人／某物出現、到場或被看見這件事」是「appearance — act of appearing」的用法，與本句語境不同。",
-        "appear-mcq-23": "「由可見／存在狀態變成看不到、不存在或無法找到」是「disappear」的用法，與本句語境不同。",
-        "appear-mcq-18": "「某人／某物從外表看起來的樣子」是「appearance — physical」的用法，與本句語境不同。"
+        "appear-mcq-21": "本句的「for appearances’ sake」指「為了令外界看來正常／體面而做某事」。",
+        "appear-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-21"
     },
@@ -2407,11 +2199,9 @@ export default {
       "masked": "They tried to ____.",
       "options": [
         "appear-mcq-22",
-        "appear-mcq-21",
-        "appear-mcq-23",
-        "appear-mcq-20",
         "appear-mcq-24",
-        "appear-mcq-19"
+        "appear-mcq-15",
+        "appear-mcq-02"
       ],
       "explanation": "本句的「keep up appearances」指「即使真實情況不好，仍努力維持正常／成功的表面形象」。",
       "sentenceIndex": 52,
@@ -2420,12 +2210,10 @@ export default {
         "keep up appearances"
       ],
       "optionReasons": {
-        "appear-mcq-22": "本句指「即使真實情況不好，仍努力維持正常／成功的表面形象」。",
-        "appear-mcq-21": "「為了令外界看來正常／體面而做某事」是「for appearances’ sake」的用法，與本句語境不同。",
-        "appear-mcq-23": "「由可見／存在狀態變成看不到、不存在或無法找到」是「disappear」的用法，與本句語境不同。",
-        "appear-mcq-20": "「某人／某事表面呈現出的情況，不一定等於真實」是「appearance — outward impression」的用法，與本句語境不同。",
-        "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。",
-        "appear-mcq-19": "「某人／某物出現、到場或被看見這件事」是「appearance — act of appearing」的用法，與本句語境不同。"
+        "appear-mcq-22": "本句的「keep up appearances」指「即使真實情況不好，仍努力維持正常／成功的表面形象」。",
+        "appear-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-22"
     },
@@ -2437,11 +2225,9 @@ export default {
       "masked": "She smiled to ____.",
       "options": [
         "appear-mcq-22",
-        "appear-mcq-21",
-        "appear-mcq-23",
-        "appear-mcq-20",
-        "appear-mcq-24",
-        "appear-mcq-19"
+        "appear-mcq-03",
+        "appear-mcq-02",
+        "appear-mcq-15"
       ],
       "explanation": "本句的「keep up appearances」指「即使真實情況不好，仍努力維持正常／成功的表面形象」。",
       "sentenceIndex": 53,
@@ -2450,12 +2236,10 @@ export default {
         "keep up appearances"
       ],
       "optionReasons": {
-        "appear-mcq-22": "本句指「即使真實情況不好，仍努力維持正常／成功的表面形象」。",
-        "appear-mcq-21": "「為了令外界看來正常／體面而做某事」是「for appearances’ sake」的用法，與本句語境不同。",
-        "appear-mcq-23": "「由可見／存在狀態變成看不到、不存在或無法找到」是「disappear」的用法，與本句語境不同。",
-        "appear-mcq-20": "「某人／某事表面呈現出的情況，不一定等於真實」是「appearance — outward impression」的用法，與本句語境不同。",
-        "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。",
-        "appear-mcq-19": "「某人／某物出現、到場或被看見這件事」是「appearance — act of appearing」的用法，與本句語境不同。"
+        "appear-mcq-22": "本句的「keep up appearances」指「即使真實情況不好，仍努力維持正常／成功的表面形象」。",
+        "appear-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-22"
     },
@@ -2467,11 +2251,9 @@ export default {
       "masked": "His calm ____ hid his anxiety.",
       "options": [
         "appear-mcq-27",
-        "appear-mcq-26",
-        "appear-mcq-28",
-        "appear-mcq-25",
-        "appear-mcq-29",
-        "appear-mcq-24"
+        "appear-mcq-16",
+        "appear-mcq-13",
+        "appear-mcq-02"
       ],
       "explanation": "本句的「outward appearance」指「從外部可以觀察到的樣子／印象」。",
       "sentenceIndex": 54,
@@ -2480,12 +2262,10 @@ export default {
         "outward appearance"
       ],
       "optionReasons": {
-        "appear-mcq-27": "本句指「從外部可以觀察到的樣子／印象」。",
-        "appear-mcq-26": "「根據整體證據形成印象，不一定只是視覺外觀」是「10. appear = seem from evidence rather than direct visual appearance（據情況看） — 看來；」的用法，與本句語境不同。",
-        "appear-mcq-28": "「隨過程發展，新的特徵／問題／差異逐漸可見」是「34. appear = emerge in a sequence/process（開始出現） — 浮現；產生」的用法，與本句語境不同。",
-        "appear-mcq-25": "「以嘉賓／非固定角色身份短暫出現」是「guest appearance」的用法，與本句語境不同。",
-        "appear-mcq-29": "「表示到場；現身」是「35. appear = present oneself formally（到場／露面） — 到場；現身」的用法，與本句語境不同。",
-        "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。"
+        "appear-mcq-27": "本句的「outward appearance」指「從外部可以觀察到的樣子／印象」。",
+        "appear-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-27"
     },
@@ -2497,11 +2277,9 @@ export default {
       "masked": "Outward ____ does not always reflect reality.",
       "options": [
         "appear-mcq-27",
-        "appear-mcq-26",
+        "appear-pdf-002",
         "appear-mcq-28",
-        "appear-mcq-25",
-        "appear-mcq-29",
-        "appear-mcq-24"
+        "appear-pdf-004"
       ],
       "explanation": "本句的「appearance」指「從外部可以觀察到的樣子／印象」。",
       "sentenceIndex": 55,
@@ -2510,12 +2288,10 @@ export default {
         "appearance"
       ],
       "optionReasons": {
-        "appear-mcq-27": "本句指「從外部可以觀察到的樣子／印象」。",
-        "appear-mcq-26": "「根據整體證據形成印象，不一定只是視覺外觀」是「10. appear = seem from evidence rather than direct visual appearance（據情況看） — 看來；」的用法，與本句語境不同。",
-        "appear-mcq-28": "「隨過程發展，新的特徵／問題／差異逐漸可見」是「34. appear = emerge in a sequence/process（開始出現） — 浮現；產生」的用法，與本句語境不同。",
-        "appear-mcq-25": "「以嘉賓／非固定角色身份短暫出現」是「guest appearance」的用法，與本句語境不同。",
-        "appear-mcq-29": "「表示到場；現身」是「35. appear = present oneself formally（到場／露面） — 到場；現身」的用法，與本句語境不同。",
-        "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。"
+        "appear-mcq-27": "本句的「appearance」指「從外部可以觀察到的樣子／印象」。",
+        "appear-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-27"
     },
@@ -2527,11 +2303,9 @@ export default {
       "masked": "The nervousness gradually ____.",
       "options": [
         "appear-mcq-23",
-        "appear-mcq-22",
-        "appear-mcq-24",
-        "appear-mcq-21",
-        "appear-mcq-25",
-        "appear-mcq-20"
+        "appear-pdf-004",
+        "appear-mcq-09",
+        "appear-mcq-25"
       ],
       "explanation": "本句的「disappeared」指「由可見／存在狀態變成看不到、不存在或無法找到」。",
       "sentenceIndex": 56,
@@ -2540,12 +2314,10 @@ export default {
         "disappeared"
       ],
       "optionReasons": {
-        "appear-mcq-23": "本句指「由可見／存在狀態變成看不到、不存在或無法找到」。",
-        "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。",
-        "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。",
-        "appear-mcq-21": "「為了令外界看來正常／體面而做某事」是「for appearances’ sake」的用法，與本句語境不同。",
-        "appear-mcq-25": "「以嘉賓／非固定角色身份短暫出現」是「guest appearance」的用法，與本句語境不同。",
-        "appear-mcq-20": "「某人／某事表面呈現出的情況，不一定等於真實」是「appearance — outward impression」的用法，與本句語境不同。"
+        "appear-mcq-23": "本句的「disappeared」指「由可見／存在狀態變成看不到、不存在或無法找到」。",
+        "appear-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-23"
     },
@@ -2557,11 +2329,9 @@ export default {
       "masked": "The message ____ from the screen.",
       "options": [
         "appear-mcq-23",
-        "appear-mcq-22",
         "appear-mcq-24",
-        "appear-mcq-21",
-        "appear-mcq-25",
-        "appear-mcq-20"
+        "appear-mcq-15",
+        "appear-pdf-004"
       ],
       "explanation": "本句的「disappeared」指「由可見／存在狀態變成看不到、不存在或無法找到」。",
       "sentenceIndex": 57,
@@ -2570,12 +2340,10 @@ export default {
         "disappeared"
       ],
       "optionReasons": {
-        "appear-mcq-23": "本句指「由可見／存在狀態變成看不到、不存在或無法找到」。",
-        "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。",
-        "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。",
-        "appear-mcq-21": "「為了令外界看來正常／體面而做某事」是「for appearances’ sake」的用法，與本句語境不同。",
-        "appear-mcq-25": "「以嘉賓／非固定角色身份短暫出現」是「guest appearance」的用法，與本句語境不同。",
-        "appear-mcq-20": "「某人／某事表面呈現出的情況，不一定等於真實」是「appearance — outward impression」的用法，與本句語境不同。"
+        "appear-mcq-23": "本句的「disappeared」指「由可見／存在狀態變成看不到、不存在或無法找到」。",
+        "appear-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-23"
     },
@@ -2587,11 +2355,9 @@ export default {
       "masked": "The sudden ____ of the file was strange.",
       "options": [
         "appear-pdf-003",
-        "appear-mcq-22",
-        "appear-mcq-24",
-        "appear-mcq-21",
-        "appear-mcq-25",
-        "appear-mcq-20"
+        "appear-mcq-18",
+        "appear-mcq-05",
+        "appear-mcq-31"
       ],
       "explanation": "本句的「disappearance」指「消失／失蹤這件事或狀態」。",
       "sentenceIndex": 58,
@@ -2600,12 +2366,10 @@ export default {
         "disappearance"
       ],
       "optionReasons": {
-        "appear-pdf-003": "本句指「消失／失蹤這件事或狀態」。",
-        "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。",
-        "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。",
-        "appear-mcq-21": "「為了令外界看來正常／體面而做某事」是「for appearances’ sake」的用法，與本句語境不同。",
-        "appear-mcq-25": "「以嘉賓／非固定角色身份短暫出現」是「guest appearance」的用法，與本句語境不同。",
-        "appear-mcq-20": "「某人／某事表面呈現出的情況，不一定等於真實」是「appearance — outward impression」的用法，與本句語境不同。"
+        "appear-pdf-003": "本句的「disappearance」指「消失／失蹤這件事或狀態」。",
+        "appear-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-pdf-003"
     },
@@ -2617,11 +2381,9 @@ export default {
       "masked": "Police investigated the person’s ____.",
       "options": [
         "appear-pdf-003",
-        "appear-mcq-22",
-        "appear-mcq-24",
-        "appear-mcq-21",
-        "appear-mcq-25",
-        "appear-mcq-20"
+        "appear-mcq-31",
+        "appear-mcq-12",
+        "appear-mcq-21"
       ],
       "explanation": "本句的「disappearance」指「消失／失蹤這件事或狀態」。",
       "sentenceIndex": 59,
@@ -2630,12 +2392,10 @@ export default {
         "disappearance"
       ],
       "optionReasons": {
-        "appear-pdf-003": "本句指「消失／失蹤這件事或狀態」。",
-        "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。",
-        "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。",
-        "appear-mcq-21": "「為了令外界看來正常／體面而做某事」是「for appearances’ sake」的用法，與本句語境不同。",
-        "appear-mcq-25": "「以嘉賓／非固定角色身份短暫出現」是「guest appearance」的用法，與本句語境不同。",
-        "appear-mcq-20": "「某人／某事表面呈現出的情況，不一定等於真實」是「appearance — outward impression」的用法，與本句語境不同。"
+        "appear-pdf-003": "本句的「disappearance」指「消失／失蹤這件事或狀態」。",
+        "appear-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-pdf-003"
     },
@@ -2647,11 +2407,9 @@ export default {
       "masked": "The problem ____ later.",
       "options": [
         "appear-mcq-24",
-        "appear-mcq-23",
-        "appear-mcq-25",
-        "appear-mcq-22",
         "appear-mcq-26",
-        "appear-mcq-21"
+        "appear-mcq-21",
+        "appear-mcq-02"
       ],
       "explanation": "本句的「reappeared」指「在消失／離開後再次出現」。",
       "sentenceIndex": 60,
@@ -2660,12 +2418,10 @@ export default {
         "reappeared"
       ],
       "optionReasons": {
-        "appear-mcq-24": "本句指「在消失／離開後再次出現」。",
-        "appear-mcq-23": "「由可見／存在狀態變成看不到、不存在或無法找到」是「disappear」的用法，與本句語境不同。",
-        "appear-mcq-25": "「以嘉賓／非固定角色身份短暫出現」是「guest appearance」的用法，與本句語境不同。",
-        "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。",
-        "appear-mcq-26": "「根據整體證據形成印象，不一定只是視覺外觀」是「10. appear = seem from evidence rather than direct visual appearance（據情況看） — 看來；」的用法，與本句語境不同。",
-        "appear-mcq-21": "「為了令外界看來正常／體面而做某事」是「for appearances’ sake」的用法，與本句語境不同。"
+        "appear-mcq-24": "本句的「reappeared」指「在消失／離開後再次出現」。",
+        "appear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-24"
     },
@@ -2677,11 +2433,9 @@ export default {
       "masked": "The icon ____ after the restart.",
       "options": [
         "appear-mcq-24",
-        "appear-mcq-23",
-        "appear-mcq-25",
+        "appear-mcq-31",
         "appear-mcq-22",
-        "appear-mcq-26",
-        "appear-mcq-21"
+        "appear-mcq-02"
       ],
       "explanation": "本句的「reappeared」指「在消失／離開後再次出現」。",
       "sentenceIndex": 61,
@@ -2690,12 +2444,10 @@ export default {
         "reappeared"
       ],
       "optionReasons": {
-        "appear-mcq-24": "本句指「在消失／離開後再次出現」。",
-        "appear-mcq-23": "「由可見／存在狀態變成看不到、不存在或無法找到」是「disappear」的用法，與本句語境不同。",
-        "appear-mcq-25": "「以嘉賓／非固定角色身份短暫出現」是「guest appearance」的用法，與本句語境不同。",
-        "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。",
-        "appear-mcq-26": "「根據整體證據形成印象，不一定只是視覺外觀」是「10. appear = seem from evidence rather than direct visual appearance（據情況看） — 看來；」的用法，與本句語境不同。",
-        "appear-mcq-21": "「為了令外界看來正常／體面而做某事」是「for appearances’ sake」的用法，與本句語境不同。"
+        "appear-mcq-24": "本句的「reappeared」指「在消失／離開後再次出現」。",
+        "appear-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-24"
     },
@@ -2707,11 +2459,9 @@ export default {
       "masked": "She made her first ____ for the team.",
       "options": [
         "appear-pdf-004",
-        "appear-mcq-24",
-        "appear-mcq-26",
-        "appear-mcq-23",
-        "appear-mcq-27",
-        "appear-mcq-22"
+        "appear-mcq-28",
+        "appear-mcq-10",
+        "appear-pdf-003"
       ],
       "explanation": "本句的「appearance」指「某人在比賽、節目、表演等正式出場／參與一次」。",
       "sentenceIndex": 62,
@@ -2720,12 +2470,10 @@ export default {
         "appearance"
       ],
       "optionReasons": {
-        "appear-pdf-004": "本句指「某人在比賽、節目、表演等正式出場／參與一次」。",
-        "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。",
-        "appear-mcq-26": "「根據整體證據形成印象，不一定只是視覺外觀」是「10. appear = seem from evidence rather than direct visual appearance（據情況看） — 看來；」的用法，與本句語境不同。",
-        "appear-mcq-23": "「由可見／存在狀態變成看不到、不存在或無法找到」是「disappear」的用法，與本句語境不同。",
-        "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。",
-        "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。"
+        "appear-pdf-004": "本句的「appearance」指「某人在比賽、節目、表演等正式出場／參與一次」。",
+        "appear-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-pdf-004"
     },
@@ -2737,11 +2485,9 @@ export default {
       "masked": "The actor made a guest ____.",
       "options": [
         "appear-pdf-004",
-        "appear-mcq-24",
-        "appear-mcq-26",
-        "appear-mcq-23",
-        "appear-mcq-27",
-        "appear-mcq-22"
+        "appear-mcq-06",
+        "appear-mcq-10",
+        "appear-mcq-15"
       ],
       "explanation": "本句的「appearance」指「某人在比賽、節目、表演等正式出場／參與一次」。",
       "sentenceIndex": 63,
@@ -2750,12 +2496,10 @@ export default {
         "appearance"
       ],
       "optionReasons": {
-        "appear-pdf-004": "本句指「某人在比賽、節目、表演等正式出場／參與一次」。",
-        "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。",
-        "appear-mcq-26": "「根據整體證據形成印象，不一定只是視覺外觀」是「10. appear = seem from evidence rather than direct visual appearance（據情況看） — 看來；」的用法，與本句語境不同。",
-        "appear-mcq-23": "「由可見／存在狀態變成看不到、不存在或無法找到」是「disappear」的用法，與本句語境不同。",
-        "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。",
-        "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。"
+        "appear-pdf-004": "本句的「appearance」指「某人在比賽、節目、表演等正式出場／參與一次」。",
+        "appear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-pdf-004"
     },
@@ -2767,11 +2511,9 @@ export default {
       "masked": "She made a ____ in the series.",
       "options": [
         "appear-mcq-25",
-        "appear-mcq-24",
-        "appear-mcq-26",
-        "appear-mcq-23",
-        "appear-mcq-27",
-        "appear-mcq-22"
+        "appear-mcq-30",
+        "appear-mcq-17",
+        "appear-mcq-21"
       ],
       "explanation": "本句的「guest appearance」指「以嘉賓／非固定角色身份短暫出現」。",
       "sentenceIndex": 64,
@@ -2780,12 +2522,10 @@ export default {
         "guest appearance"
       ],
       "optionReasons": {
-        "appear-mcq-25": "本句指「以嘉賓／非固定角色身份短暫出現」。",
-        "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。",
-        "appear-mcq-26": "「根據整體證據形成印象，不一定只是視覺外觀」是「10. appear = seem from evidence rather than direct visual appearance（據情況看） — 看來；」的用法，與本句語境不同。",
-        "appear-mcq-23": "「由可見／存在狀態變成看不到、不存在或無法找到」是「disappear」的用法，與本句語境不同。",
-        "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。",
-        "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。"
+        "appear-mcq-25": "本句的「guest appearance」指「以嘉賓／非固定角色身份短暫出現」。",
+        "appear-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-25"
     },
@@ -2797,11 +2537,9 @@ export default {
       "masked": "The singer made a surprise ____.",
       "options": [
         "appear-mcq-25",
-        "appear-mcq-24",
-        "appear-mcq-26",
-        "appear-mcq-23",
-        "appear-mcq-27",
-        "appear-mcq-22"
+        "appear-mcq-22",
+        "appear-mcq-28",
+        "appear-mcq-09"
       ],
       "explanation": "本句的「guest appearance」指「以嘉賓／非固定角色身份短暫出現」。",
       "sentenceIndex": 65,
@@ -2810,12 +2548,10 @@ export default {
         "guest appearance"
       ],
       "optionReasons": {
-        "appear-mcq-25": "本句指「以嘉賓／非固定角色身份短暫出現」。",
-        "appear-mcq-24": "「在消失／離開後再次出現」是「reappear」的用法，與本句語境不同。",
-        "appear-mcq-26": "「根據整體證據形成印象，不一定只是視覺外觀」是「10. appear = seem from evidence rather than direct visual appearance（據情況看） — 看來；」的用法，與本句語境不同。",
-        "appear-mcq-23": "「由可見／存在狀態變成看不到、不存在或無法找到」是「disappear」的用法，與本句語境不同。",
-        "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。",
-        "appear-mcq-22": "「即使真實情況不好，仍努力維持正常／成功的表面形象」是「keep up appearances」的用法，與本句語境不同。"
+        "appear-mcq-25": "本句的「guest appearance」指「以嘉賓／非固定角色身份短暫出現」。",
+        "appear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-25"
     },
@@ -2827,11 +2563,9 @@ export default {
       "masked": "Cracks began to ____.",
       "options": [
         "appear-mcq-28",
-        "appear-mcq-27",
-        "appear-mcq-29",
-        "appear-mcq-26",
-        "appear-mcq-30",
-        "appear-mcq-25"
+        "appear-mcq-32",
+        "appear-pdf-004",
+        "appear-pdf-002"
       ],
       "explanation": "本句的「appear」指「隨過程發展，新的特徵／問題／差異逐漸可見」。",
       "sentenceIndex": 66,
@@ -2840,12 +2574,10 @@ export default {
         "appear"
       ],
       "optionReasons": {
-        "appear-mcq-28": "本句指「隨過程發展，新的特徵／問題／差異逐漸可見」。",
-        "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。",
-        "appear-mcq-29": "「表示到場；現身」是「35. appear = present oneself formally（到場／露面） — 到場；現身」的用法，與本句語境不同。",
-        "appear-mcq-26": "「根據整體證據形成印象，不一定只是視覺外觀」是「10. appear = seem from evidence rather than direct visual appearance（據情況看） — 看來；」的用法，與本句語境不同。",
-        "appear-mcq-30": "「描述表面印象，不保證這就是客觀真實狀況」是「37. appear + adjective vs be + adjective（看來是 vs 實際是） — 表象與事實」的用法，與本句語境不同。",
-        "appear-mcq-25": "「以嘉賓／非固定角色身份短暫出現」是「guest appearance」的用法，與本句語境不同。"
+        "appear-mcq-28": "本句的「appear」指「隨過程發展，新的特徵／問題／差異逐漸可見」。",
+        "appear-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-28"
     },
@@ -2857,11 +2589,9 @@ export default {
       "masked": "Differences slowly ____ between the two versions.",
       "options": [
         "appear-mcq-28",
-        "appear-mcq-27",
-        "appear-mcq-29",
-        "appear-mcq-26",
-        "appear-mcq-30",
-        "appear-mcq-25"
+        "appear-mcq-13",
+        "appear-mcq-20",
+        "appear-mcq-31"
       ],
       "explanation": "本句的「appeared」指「隨過程發展，新的特徵／問題／差異逐漸可見」。",
       "sentenceIndex": 67,
@@ -2870,12 +2600,10 @@ export default {
         "appeared"
       ],
       "optionReasons": {
-        "appear-mcq-28": "本句指「隨過程發展，新的特徵／問題／差異逐漸可見」。",
-        "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。",
-        "appear-mcq-29": "「表示到場；現身」是「35. appear = present oneself formally（到場／露面） — 到場；現身」的用法，與本句語境不同。",
-        "appear-mcq-26": "「根據整體證據形成印象，不一定只是視覺外觀」是「10. appear = seem from evidence rather than direct visual appearance（據情況看） — 看來；」的用法，與本句語境不同。",
-        "appear-mcq-30": "「描述表面印象，不保證這就是客觀真實狀況」是「37. appear + adjective vs be + adjective（看來是 vs 實際是） — 表象與事實」的用法，與本句語境不同。",
-        "appear-mcq-25": "「以嘉賓／非固定角色身份短暫出現」是「guest appearance」的用法，與本句語境不同。"
+        "appear-mcq-28": "本句的「appeared」指「隨過程發展，新的特徵／問題／差異逐漸可見」。",
+        "appear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-28"
     },
@@ -2887,11 +2615,9 @@ export default {
       "masked": "All participants were expected to ____ at nine.",
       "options": [
         "appear-mcq-29",
-        "appear-mcq-28",
-        "appear-mcq-30",
-        "appear-mcq-27",
-        "appear-mcq-31",
-        "appear-mcq-26"
+        "appear-pdf-003",
+        "appear-mcq-16",
+        "appear-mcq-21"
       ],
       "explanation": "本句的「appear」指「表示到場；現身」。",
       "sentenceIndex": 68,
@@ -2900,12 +2626,10 @@ export default {
         "appear"
       ],
       "optionReasons": {
-        "appear-mcq-29": "本句指「表示到場；現身」。",
-        "appear-mcq-28": "「隨過程發展，新的特徵／問題／差異逐漸可見」是「34. appear = emerge in a sequence/process（開始出現） — 浮現；產生」的用法，與本句語境不同。",
-        "appear-mcq-30": "「描述表面印象，不保證這就是客觀真實狀況」是「37. appear + adjective vs be + adjective（看來是 vs 實際是） — 表象與事實」的用法，與本句語境不同。",
-        "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。",
-        "appear-mcq-31": "「根據目前證據判斷某結果似乎可能／不太可能」是「38. appear likely/unlikely（看來可能／不太可能） — 看來有／沒有可能」的用法，與本句語境不同。",
-        "appear-mcq-26": "「根據整體證據形成印象，不一定只是視覺外觀」是「10. appear = seem from evidence rather than direct visual appearance（據情況看） — 看來；」的用法，與本句語境不同。"
+        "appear-mcq-29": "本句的「appear」指「表示到場；現身」。",
+        "appear-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-29"
     },
@@ -2917,11 +2641,9 @@ export default {
       "masked": "He failed to ____.",
       "options": [
         "appear-mcq-29",
-        "appear-mcq-28",
-        "appear-mcq-30",
         "appear-mcq-27",
-        "appear-mcq-31",
-        "appear-mcq-26"
+        "appear-pdf-001",
+        "appear-pdf-003"
       ],
       "explanation": "本句的「appear」指「表示到場；現身」。",
       "sentenceIndex": 69,
@@ -2930,12 +2652,10 @@ export default {
         "appear"
       ],
       "optionReasons": {
-        "appear-mcq-29": "本句指「表示到場；現身」。",
-        "appear-mcq-28": "「隨過程發展，新的特徵／問題／差異逐漸可見」是「34. appear = emerge in a sequence/process（開始出現） — 浮現；產生」的用法，與本句語境不同。",
-        "appear-mcq-30": "「描述表面印象，不保證這就是客觀真實狀況」是「37. appear + adjective vs be + adjective（看來是 vs 實際是） — 表象與事實」的用法，與本句語境不同。",
-        "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。",
-        "appear-mcq-31": "「根據目前證據判斷某結果似乎可能／不太可能」是「38. appear likely/unlikely（看來可能／不太可能） — 看來有／沒有可能」的用法，與本句語境不同。",
-        "appear-mcq-26": "「根據整體證據形成印象，不一定只是視覺外觀」是「10. appear = seem from evidence rather than direct visual appearance（據情況看） — 看來；」的用法，與本句語境不同。"
+        "appear-mcq-29": "本句的「appear」指「表示到場；現身」。",
+        "appear-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-29"
     },
@@ -2947,11 +2667,9 @@ export default {
       "masked": "It ____ that she was nervous.",
       "options": [
         "appear-mcq-07",
-        "appear-mcq-06",
-        "appear-mcq-08",
-        "appear-mcq-05",
-        "appear-mcq-09",
-        "appear-mcq-04"
+        "appear-mcq-15",
+        "appear-mcq-17",
+        "appear-mcq-28"
       ],
       "explanation": "本句的「appeared to me」指「根據現有跡象，看來某人／某物屬於某種狀態」。",
       "sentenceIndex": 70,
@@ -2960,12 +2678,10 @@ export default {
         "appeared to me"
       ],
       "optionReasons": {
-        "appear-mcq-07": "本句指「根據現有跡象，看來某人／某物屬於某種狀態」。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。",
-        "appear-mcq-08": "「根據現有資訊，看來某個動作／情況是真的」是「appear to + verb」的用法，與本句語境不同。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。",
-        "appear-mcq-09": "「根據目前證據／跡象，某件事似乎為真」是「it appears that」的用法，與本句語境不同。",
-        "appear-mcq-04": "「某種現象、問題、模式或狀態開始存在／可以察覺」是「appear — arise」的用法，與本句語境不同。"
+        "appear-mcq-07": "本句的「appeared to me」指「根據現有跡象，看來某人／某物屬於某種狀態」。",
+        "appear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-07"
     },
@@ -2977,11 +2693,9 @@ export default {
       "masked": "The solution ____ reasonable to everyone.",
       "options": [
         "appear-mcq-07",
-        "appear-mcq-06",
-        "appear-mcq-08",
-        "appear-mcq-05",
-        "appear-mcq-09",
-        "appear-mcq-04"
+        "appear-mcq-15",
+        "appear-mcq-28",
+        "appear-mcq-17"
       ],
       "explanation": "本句的「appeared」指「根據現有跡象，看來某人／某物屬於某種狀態」。",
       "sentenceIndex": 71,
@@ -2990,12 +2704,10 @@ export default {
         "appeared"
       ],
       "optionReasons": {
-        "appear-mcq-07": "本句指「根據現有跡象，看來某人／某物屬於某種狀態」。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。",
-        "appear-mcq-08": "「根據現有資訊，看來某個動作／情況是真的」是「appear to + verb」的用法，與本句語境不同。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。",
-        "appear-mcq-09": "「根據目前證據／跡象，某件事似乎為真」是「it appears that」的用法，與本句語境不同。",
-        "appear-mcq-04": "「某種現象、問題、模式或狀態開始存在／可以察覺」是「appear — arise」的用法，與本句語境不同。"
+        "appear-mcq-07": "本句的「appeared」指「根據現有跡象，看來某人／某物屬於某種狀態」。",
+        "appear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-07"
     },
@@ -3007,11 +2719,9 @@ export default {
       "masked": "She ____, but she was nervous inside.",
       "options": [
         "appear-mcq-30",
+        "appear-mcq-02",
         "appear-mcq-29",
-        "appear-mcq-31",
-        "appear-mcq-28",
-        "appear-mcq-32",
-        "appear-mcq-27"
+        "appear-mcq-15"
       ],
       "explanation": "本句的「appeared confident」指「描述表面印象，不保證這就是客觀真實狀況」。",
       "sentenceIndex": 72,
@@ -3020,12 +2730,10 @@ export default {
         "appeared confident"
       ],
       "optionReasons": {
-        "appear-mcq-30": "本句指「描述表面印象，不保證這就是客觀真實狀況」。",
-        "appear-mcq-29": "「表示到場；現身」是「35. appear = present oneself formally（到場／露面） — 到場；現身」的用法，與本句語境不同。",
-        "appear-mcq-31": "「根據目前證據判斷某結果似乎可能／不太可能」是「38. appear likely/unlikely（看來可能／不太可能） — 看來有／沒有可能」的用法，與本句語境不同。",
-        "appear-mcq-28": "「隨過程發展，新的特徵／問題／差異逐漸可見」是「34. appear = emerge in a sequence/process（開始出現） — 浮現；產生」的用法，與本句語境不同。",
-        "appear-mcq-32": "「根據表面／證據形成暫時判斷」是「39. appear possible/impossible（看來可能／不可能） — 似乎可行／不可行」的用法，與本句語境不同。",
-        "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。"
+        "appear-mcq-30": "本句的「appeared confident」指「描述表面印象，不保證這就是客觀真實狀況」。",
+        "appear-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-30"
     },
@@ -3037,11 +2745,9 @@ export default {
       "masked": "The task ____, but it was difficult.",
       "options": [
         "appear-mcq-30",
-        "appear-mcq-29",
-        "appear-mcq-31",
-        "appear-mcq-28",
-        "appear-mcq-32",
-        "appear-mcq-27"
+        "appear-mcq-17",
+        "appear-pdf-001",
+        "appear-mcq-02"
       ],
       "explanation": "本句的「appeared simple」指「描述表面印象，不保證這就是客觀真實狀況」。",
       "sentenceIndex": 73,
@@ -3050,12 +2756,10 @@ export default {
         "appeared simple"
       ],
       "optionReasons": {
-        "appear-mcq-30": "本句指「描述表面印象，不保證這就是客觀真實狀況」。",
-        "appear-mcq-29": "「表示到場；現身」是「35. appear = present oneself formally（到場／露面） — 到場；現身」的用法，與本句語境不同。",
-        "appear-mcq-31": "「根據目前證據判斷某結果似乎可能／不太可能」是「38. appear likely/unlikely（看來可能／不太可能） — 看來有／沒有可能」的用法，與本句語境不同。",
-        "appear-mcq-28": "「隨過程發展，新的特徵／問題／差異逐漸可見」是「34. appear = emerge in a sequence/process（開始出現） — 浮現；產生」的用法，與本句語境不同。",
-        "appear-mcq-32": "「根據表面／證據形成暫時判斷」是「39. appear possible/impossible（看來可能／不可能） — 似乎可行／不可行」的用法，與本句語境不同。",
-        "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。"
+        "appear-mcq-30": "本句的「appeared simple」指「描述表面印象，不保證這就是客觀真實狀況」。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-30"
     },
@@ -3067,11 +2771,9 @@ export default {
       "masked": "The plan ____.",
       "options": [
         "appear-mcq-31",
-        "appear-mcq-30",
-        "appear-mcq-32",
+        "appear-mcq-22",
         "appear-mcq-29",
-        "appear-mcq-28",
-        "appear-mcq-27"
+        "appear-mcq-05"
       ],
       "explanation": "本句的「appears likely to succeed」指「根據目前證據判斷某結果似乎可能／不太可能」。",
       "sentenceIndex": 74,
@@ -3080,12 +2782,10 @@ export default {
         "appears likely to succeed"
       ],
       "optionReasons": {
-        "appear-mcq-31": "本句指「根據目前證據判斷某結果似乎可能／不太可能」。",
-        "appear-mcq-30": "「描述表面印象，不保證這就是客觀真實狀況」是「37. appear + adjective vs be + adjective（看來是 vs 實際是） — 表象與事實」的用法，與本句語境不同。",
-        "appear-mcq-32": "「根據表面／證據形成暫時判斷」是「39. appear possible/impossible（看來可能／不可能） — 似乎可行／不可行」的用法，與本句語境不同。",
-        "appear-mcq-29": "「表示到場；現身」是「35. appear = present oneself formally（到場／露面） — 到場；現身」的用法，與本句語境不同。",
-        "appear-mcq-28": "「隨過程發展，新的特徵／問題／差異逐漸可見」是「34. appear = emerge in a sequence/process（開始出現） — 浮現；產生」的用法，與本句語境不同。",
-        "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。"
+        "appear-mcq-31": "本句的「appears likely to succeed」指「根據目前證據判斷某結果似乎可能／不太可能」。",
+        "appear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-31"
     },
@@ -3097,11 +2797,9 @@ export default {
       "masked": "A delay now ____.",
       "options": [
         "appear-mcq-31",
-        "appear-mcq-30",
-        "appear-mcq-32",
-        "appear-mcq-29",
-        "appear-mcq-28",
-        "appear-mcq-27"
+        "appear-mcq-05",
+        "appear-mcq-15",
+        "appear-mcq-11"
       ],
       "explanation": "本句的「appears unlikely」指「根據目前證據判斷某結果似乎可能／不太可能」。",
       "sentenceIndex": 75,
@@ -3110,12 +2808,10 @@ export default {
         "appears unlikely"
       ],
       "optionReasons": {
-        "appear-mcq-31": "本句指「根據目前證據判斷某結果似乎可能／不太可能」。",
-        "appear-mcq-30": "「描述表面印象，不保證這就是客觀真實狀況」是「37. appear + adjective vs be + adjective（看來是 vs 實際是） — 表象與事實」的用法，與本句語境不同。",
-        "appear-mcq-32": "「根據表面／證據形成暫時判斷」是「39. appear possible/impossible（看來可能／不可能） — 似乎可行／不可行」的用法，與本句語境不同。",
-        "appear-mcq-29": "「表示到場；現身」是「35. appear = present oneself formally（到場／露面） — 到場；現身」的用法，與本句語境不同。",
-        "appear-mcq-28": "「隨過程發展，新的特徵／問題／差異逐漸可見」是「34. appear = emerge in a sequence/process（開始出現） — 浮現；產生」的用法，與本句語境不同。",
-        "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。"
+        "appear-mcq-31": "本句的「appears unlikely」指「根據目前證據判斷某結果似乎可能／不太可能」。",
+        "appear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-31"
     },
@@ -3127,11 +2823,9 @@ export default {
       "masked": "The target ____.",
       "options": [
         "appear-mcq-32",
-        "appear-mcq-31",
-        "appear-mcq-30",
-        "appear-mcq-29",
-        "appear-mcq-28",
-        "appear-mcq-27"
+        "appear-pdf-004",
+        "appear-mcq-05",
+        "appear-mcq-24"
       ],
       "explanation": "本句的「appears achievable」指「根據表面／證據形成暫時判斷」。",
       "sentenceIndex": 76,
@@ -3140,12 +2834,10 @@ export default {
         "appears achievable"
       ],
       "optionReasons": {
-        "appear-mcq-32": "本句指「根據表面／證據形成暫時判斷」。",
-        "appear-mcq-31": "「根據目前證據判斷某結果似乎可能／不太可能」是「38. appear likely/unlikely（看來可能／不太可能） — 看來有／沒有可能」的用法，與本句語境不同。",
-        "appear-mcq-30": "「描述表面印象，不保證這就是客觀真實狀況」是「37. appear + adjective vs be + adjective（看來是 vs 實際是） — 表象與事實」的用法，與本句語境不同。",
-        "appear-mcq-29": "「表示到場；現身」是「35. appear = present oneself formally（到場／露面） — 到場；現身」的用法，與本句語境不同。",
-        "appear-mcq-28": "「隨過程發展，新的特徵／問題／差異逐漸可見」是「34. appear = emerge in a sequence/process（開始出現） — 浮現；產生」的用法，與本句語境不同。",
-        "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。"
+        "appear-mcq-32": "本句的「appears achievable」指「根據表面／證據形成暫時判斷」。",
+        "appear-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-32"
     },
@@ -3157,11 +2849,9 @@ export default {
       "masked": "At first, the task ____.",
       "options": [
         "appear-mcq-32",
-        "appear-mcq-31",
-        "appear-mcq-30",
-        "appear-mcq-29",
-        "appear-mcq-28",
-        "appear-mcq-27"
+        "appear-mcq-15",
+        "appear-mcq-02",
+        "appear-pdf-003"
       ],
       "explanation": "本句的「appeared impossible」指「根據表面／證據形成暫時判斷」。",
       "sentenceIndex": 77,
@@ -3170,12 +2860,10 @@ export default {
         "appeared impossible"
       ],
       "optionReasons": {
-        "appear-mcq-32": "本句指「根據表面／證據形成暫時判斷」。",
-        "appear-mcq-31": "「根據目前證據判斷某結果似乎可能／不太可能」是「38. appear likely/unlikely（看來可能／不太可能） — 看來有／沒有可能」的用法，與本句語境不同。",
-        "appear-mcq-30": "「描述表面印象，不保證這就是客觀真實狀況」是「37. appear + adjective vs be + adjective（看來是 vs 實際是） — 表象與事實」的用法，與本句語境不同。",
-        "appear-mcq-29": "「表示到場；現身」是「35. appear = present oneself formally（到場／露面） — 到場；現身」的用法，與本句語境不同。",
-        "appear-mcq-28": "「隨過程發展，新的特徵／問題／差異逐漸可見」是「34. appear = emerge in a sequence/process（開始出現） — 浮現；產生」的用法，與本句語境不同。",
-        "appear-mcq-27": "「從外部可以觀察到的樣子／印象」是「28. outward appearance（外在表象） — 外表；表面情況」的用法，與本句語境不同。"
+        "appear-mcq-32": "本句的「appeared impossible」指「根據表面／證據形成暫時判斷」。",
+        "appear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "appear-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-32"
     },
@@ -3187,11 +2875,9 @@ export default {
       "masked": "Confidence does not ____.",
       "options": [
         "appear-mcq-03",
-        "appear-mcq-02",
-        "appear-mcq-04",
-        "appear-mcq-01",
-        "appear-mcq-05",
-        "appear-mcq-06"
+        "appear-mcq-21",
+        "appear-mcq-12",
+        "appear-mcq-28"
       ],
       "explanation": "本句的「appear out of thin air」指「沒有明顯原因、準備或預兆地突然出現」。",
       "sentenceIndex": 78,
@@ -3200,12 +2886,10 @@ export default {
         "appear out of thin air"
       ],
       "optionReasons": {
-        "appear-mcq-03": "本句指「沒有明顯原因、準備或預兆地突然出現」。",
-        "appear-mcq-02": "「某人／某物快速由不可見／未注意到變得可見」是「appear suddenly」的用法，與本句語境不同。",
-        "appear-mcq-04": "「某種現象、問題、模式或狀態開始存在／可以察覺」是「appear — arise」的用法，與本句語境不同。",
-        "appear-mcq-01": "「原本看不到／不存在於視線中的東西變得可見」是「appear — become visible」的用法，與本句語境不同。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。"
+        "appear-mcq-03": "本句的「appear out of thin air」指「沒有明顯原因、準備或預兆地突然出現」。",
+        "appear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-03"
     },
@@ -3217,11 +2901,9 @@ export default {
       "masked": "The solution didn’t just ____.",
       "options": [
         "appear-mcq-03",
-        "appear-mcq-02",
-        "appear-mcq-04",
-        "appear-mcq-01",
-        "appear-mcq-05",
-        "appear-mcq-06"
+        "appear-mcq-09",
+        "appear-mcq-12",
+        "appear-mcq-17"
       ],
       "explanation": "本句的「appear out of thin air」指「沒有明顯原因、準備或預兆地突然出現」。",
       "sentenceIndex": 79,
@@ -3230,12 +2912,10 @@ export default {
         "appear out of thin air"
       ],
       "optionReasons": {
-        "appear-mcq-03": "本句指「沒有明顯原因、準備或預兆地突然出現」。",
-        "appear-mcq-02": "「某人／某物快速由不可見／未注意到變得可見」是「appear suddenly」的用法，與本句語境不同。",
-        "appear-mcq-04": "「某種現象、問題、模式或狀態開始存在／可以察覺」是「appear — arise」的用法，與本句語境不同。",
-        "appear-mcq-01": "「原本看不到／不存在於視線中的東西變得可見」是「appear — become visible」的用法，與本句語境不同。",
-        "appear-mcq-05": "「原本不明顯的特徵／跡象開始變得可察覺」是「appear — become noticeable」的用法，與本句語境不同。",
-        "appear-mcq-06": "「根據可見／可知跡象，看來處於某種狀態」是「appear — seem」的用法，與本句語境不同。"
+        "appear-mcq-03": "本句的「appear out of thin air」指「沒有明顯原因、準備或預兆地突然出現」。",
+        "appear-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "appear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appear-mcq-03"
     }
@@ -3247,5 +2927,7 @@ export default {
     "sha256": "c0a8feb5703e0059116ad2e21c87a605bdd89a07143faea536f5327563f6ea1e",
     "pages": 31
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

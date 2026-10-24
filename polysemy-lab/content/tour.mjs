@@ -185,11 +185,7 @@ export default {
       "masked": "We joined a short snorkeling ____ near the coast.",
       "options": [
         "tour-mcq-01",
-        "tour-mcq-02",
-        "tour-mcq-03",
-        "tour-mcq-04",
-        "tour-mcq-05",
-        "tour-mcq-06"
+        "tour-mcq-07"
       ],
       "explanation": "本句的「tour」指「按安排好的路線、時間或活動內容進行的遊覽、參觀或體驗行程」。",
       "sentenceIndex": 0,
@@ -198,12 +194,8 @@ export default {
         "tour"
       ],
       "optionReasons": {
-        "tour-mcq-01": "本句指「按安排好的路線、時間或活動內容進行的遊覽、參觀或體驗行程」。",
-        "tour-mcq-02": "「在一段時間內依次遊覽多個地方的旅行；與」與本句語境不同。",
-        "tour-mcq-03": "「義相關」與本句語境不同。",
-        "tour-mcq-04": "「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」與本句語境不同。",
-        "tour-mcq-05": "「到某地多處參觀、周遊或遊覽」與本句語境不同。",
-        "tour-mcq-06": "「在多個地方依次巡演、演講或進行職業活動」與本句語境不同。"
+        "tour-mcq-01": "本句的「tour」指「按安排好的路線、時間或活動內容進行的遊覽、參觀或體驗行程」。",
+        "tour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tour-mcq-01"
     },
@@ -215,11 +207,7 @@ export default {
       "masked": "We took a guided ____ of the old city.",
       "options": [
         "tour-mcq-01",
-        "tour-mcq-02",
-        "tour-mcq-03",
-        "tour-mcq-04",
-        "tour-mcq-05",
-        "tour-mcq-06"
+        "tour-mcq-07"
       ],
       "explanation": "本句的「tour」指「按安排好的路線、時間或活動內容進行的遊覽、參觀或體驗行程」。",
       "sentenceIndex": 1,
@@ -228,12 +216,8 @@ export default {
         "tour"
       ],
       "optionReasons": {
-        "tour-mcq-01": "本句指「按安排好的路線、時間或活動內容進行的遊覽、參觀或體驗行程」。",
-        "tour-mcq-02": "「在一段時間內依次遊覽多個地方的旅行；與」與本句語境不同。",
-        "tour-mcq-03": "「義相關」與本句語境不同。",
-        "tour-mcq-04": "「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」與本句語境不同。",
-        "tour-mcq-05": "「到某地多處參觀、周遊或遊覽」與本句語境不同。",
-        "tour-mcq-06": "「在多個地方依次巡演、演講或進行職業活動」與本句語境不同。"
+        "tour-mcq-01": "本句的「tour」指「按安排好的路線、時間或活動內容進行的遊覽、參觀或體驗行程」。",
+        "tour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tour-mcq-01"
     },
@@ -245,11 +229,7 @@ export default {
       "masked": "The museum offers a one-hour ____.",
       "options": [
         "tour-mcq-01",
-        "tour-mcq-02",
-        "tour-mcq-03",
-        "tour-mcq-04",
-        "tour-mcq-05",
-        "tour-mcq-06"
+        "tour-mcq-07"
       ],
       "explanation": "本句的「tour」指「按安排好的路線、時間或活動內容進行的遊覽、參觀或體驗行程」。",
       "sentenceIndex": 2,
@@ -258,12 +238,8 @@ export default {
         "tour"
       ],
       "optionReasons": {
-        "tour-mcq-01": "本句指「按安排好的路線、時間或活動內容進行的遊覽、參觀或體驗行程」。",
-        "tour-mcq-02": "「在一段時間內依次遊覽多個地方的旅行；與」與本句語境不同。",
-        "tour-mcq-03": "「義相關」與本句語境不同。",
-        "tour-mcq-04": "「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」與本句語境不同。",
-        "tour-mcq-05": "「到某地多處參觀、周遊或遊覽」與本句語境不同。",
-        "tour-mcq-06": "「在多個地方依次巡演、演講或進行職業活動」與本句語境不同。"
+        "tour-mcq-01": "本句的「tour」指「按安排好的路線、時間或活動內容進行的遊覽、參觀或體驗行程」。",
+        "tour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tour-mcq-01"
     },
@@ -275,11 +251,7 @@ export default {
       "masked": "They went on a ____ of northern Italy.",
       "options": [
         "tour-mcq-02",
-        "tour-mcq-01",
-        "tour-mcq-03",
-        "tour-mcq-04",
-        "tour-mcq-05",
-        "tour-mcq-06"
+        "tour-mcq-07"
       ],
       "explanation": "本句的「tour」指「在一段時間內依次遊覽多個地方的旅行；與」。",
       "sentenceIndex": 3,
@@ -288,12 +260,8 @@ export default {
         "tour"
       ],
       "optionReasons": {
-        "tour-mcq-02": "本句指「在一段時間內依次遊覽多個地方的旅行；與」。",
-        "tour-mcq-01": "「按安排好的路線、時間或活動內容進行的遊覽、參觀或體驗行程」與本句語境不同。",
-        "tour-mcq-03": "「義相關」與本句語境不同。",
-        "tour-mcq-04": "「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」與本句語境不同。",
-        "tour-mcq-05": "「到某地多處參觀、周遊或遊覽」與本句語境不同。",
-        "tour-mcq-06": "「在多個地方依次巡演、演講或進行職業活動」與本句語境不同。"
+        "tour-mcq-02": "本句的「tour」指「在一段時間內依次遊覽多個地方的旅行；與」。",
+        "tour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tour-mcq-02"
     },
@@ -305,11 +273,7 @@ export default {
       "masked": "The group completed a ten-day ____ of the region.",
       "options": [
         "tour-mcq-02",
-        "tour-mcq-01",
-        "tour-mcq-03",
-        "tour-mcq-04",
-        "tour-mcq-05",
-        "tour-mcq-06"
+        "tour-mcq-07"
       ],
       "explanation": "本句的「tour」指「在一段時間內依次遊覽多個地方的旅行；與」。",
       "sentenceIndex": 4,
@@ -318,12 +282,8 @@ export default {
         "tour"
       ],
       "optionReasons": {
-        "tour-mcq-02": "本句指「在一段時間內依次遊覽多個地方的旅行；與」。",
-        "tour-mcq-01": "「按安排好的路線、時間或活動內容進行的遊覽、參觀或體驗行程」與本句語境不同。",
-        "tour-mcq-03": "「義相關」與本句語境不同。",
-        "tour-mcq-04": "「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」與本句語境不同。",
-        "tour-mcq-05": "「到某地多處參觀、周遊或遊覽」與本句語境不同。",
-        "tour-mcq-06": "「在多個地方依次巡演、演講或進行職業活動」與本句語境不同。"
+        "tour-mcq-02": "本句的「tour」指「在一段時間內依次遊覽多個地方的旅行；與」。",
+        "tour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tour-mcq-02"
     },
@@ -335,11 +295,7 @@ export default {
       "masked": "The band is going on ____ next month.",
       "options": [
         "tour-mcq-04",
-        "tour-mcq-03",
-        "tour-mcq-05",
-        "tour-mcq-02",
-        "tour-mcq-06",
-        "tour-mcq-01"
+        "tour-mcq-05"
       ],
       "explanation": "本句的「tour」指「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」。",
       "sentenceIndex": 5,
@@ -348,12 +304,8 @@ export default {
         "tour"
       ],
       "optionReasons": {
-        "tour-mcq-04": "本句指「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」。",
-        "tour-mcq-03": "「義相關」與本句語境不同。",
-        "tour-mcq-05": "「到某地多處參觀、周遊或遊覽」與本句語境不同。",
-        "tour-mcq-02": "「在一段時間內依次遊覽多個地方的旅行；與」與本句語境不同。",
-        "tour-mcq-06": "「在多個地方依次巡演、演講或進行職業活動」與本句語境不同。",
-        "tour-mcq-01": "「按安排好的路線、時間或活動內容進行的遊覽、參觀或體驗行程」與本句語境不同。"
+        "tour-mcq-04": "本句的「tour」指「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」。",
+        "tour-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tour-mcq-04"
     },
@@ -365,11 +317,7 @@ export default {
       "masked": "The singer ended her world ____ in Tokyo.",
       "options": [
         "tour-mcq-04",
-        "tour-mcq-03",
-        "tour-mcq-05",
-        "tour-mcq-02",
-        "tour-mcq-06",
-        "tour-mcq-01"
+        "tour-mcq-05"
       ],
       "explanation": "本句的「tour」指「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」。",
       "sentenceIndex": 6,
@@ -378,12 +326,8 @@ export default {
         "tour"
       ],
       "optionReasons": {
-        "tour-mcq-04": "本句指「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」。",
-        "tour-mcq-03": "「義相關」與本句語境不同。",
-        "tour-mcq-05": "「到某地多處參觀、周遊或遊覽」與本句語境不同。",
-        "tour-mcq-02": "「在一段時間內依次遊覽多個地方的旅行；與」與本句語境不同。",
-        "tour-mcq-06": "「在多個地方依次巡演、演講或進行職業活動」與本句語境不同。",
-        "tour-mcq-01": "「按安排好的路線、時間或活動內容進行的遊覽、參觀或體驗行程」與本句語境不同。"
+        "tour-mcq-04": "本句的「tour」指「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」。",
+        "tour-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tour-mcq-04"
     },
@@ -395,11 +339,7 @@ export default {
       "masked": "We ____ the island by bus.",
       "options": [
         "tour-mcq-05",
-        "tour-mcq-04",
-        "tour-mcq-06",
-        "tour-mcq-03",
-        "tour-mcq-07",
-        "tour-mcq-02"
+        "tour-mcq-06"
       ],
       "explanation": "本句的「toured」指「到某地多處參觀、周遊或遊覽」。",
       "sentenceIndex": 9,
@@ -408,12 +348,8 @@ export default {
         "toured"
       ],
       "optionReasons": {
-        "tour-mcq-05": "本句指「到某地多處參觀、周遊或遊覽」。",
-        "tour-mcq-04": "「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」與本句語境不同。",
-        "tour-mcq-06": "「在多個地方依次巡演、演講或進行職業活動」與本句語境不同。",
-        "tour-mcq-03": "「義相關」與本句語境不同。",
-        "tour-mcq-07": "「為休閒、觀光或度假而前往某地的人；遊客」與本句語境不同。",
-        "tour-mcq-02": "「在一段時間內依次遊覽多個地方的旅行；與」與本句語境不同。"
+        "tour-mcq-05": "本句的「toured」指「到某地多處參觀、周遊或遊覽」。",
+        "tour-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tour-mcq-05"
     },
@@ -425,11 +361,7 @@ export default {
       "masked": "They spent two weeks ____ Europe.",
       "options": [
         "tour-mcq-05",
-        "tour-mcq-04",
-        "tour-mcq-06",
-        "tour-mcq-03",
-        "tour-mcq-07",
-        "tour-mcq-02"
+        "tour-mcq-04"
       ],
       "explanation": "本句的「touring」指「到某地多處參觀、周遊或遊覽」。",
       "sentenceIndex": 10,
@@ -438,12 +370,8 @@ export default {
         "touring"
       ],
       "optionReasons": {
-        "tour-mcq-05": "本句指「到某地多處參觀、周遊或遊覽」。",
-        "tour-mcq-04": "「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」與本句語境不同。",
-        "tour-mcq-06": "「在多個地方依次巡演、演講或進行職業活動」與本句語境不同。",
-        "tour-mcq-03": "「義相關」與本句語境不同。",
-        "tour-mcq-07": "「為休閒、觀光或度假而前往某地的人；遊客」與本句語境不同。",
-        "tour-mcq-02": "「在一段時間內依次遊覽多個地方的旅行；與」與本句語境不同。"
+        "tour-mcq-05": "本句的「touring」指「到某地多處參觀、周遊或遊覽」。",
+        "tour-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tour-mcq-05"
     },
@@ -455,11 +383,7 @@ export default {
       "masked": "The band ____ Asia last year.",
       "options": [
         "tour-mcq-06",
-        "tour-mcq-05",
-        "tour-mcq-07",
-        "tour-mcq-04",
-        "tour-mcq-08",
-        "tour-mcq-03"
+        "tour-mcq-05"
       ],
       "explanation": "本句的「toured」指「在多個地方依次巡演、演講或進行職業活動」。",
       "sentenceIndex": 11,
@@ -468,12 +392,8 @@ export default {
         "toured"
       ],
       "optionReasons": {
-        "tour-mcq-06": "本句指「在多個地方依次巡演、演講或進行職業活動」。",
-        "tour-mcq-05": "「到某地多處參觀、周遊或遊覽」與本句語境不同。",
-        "tour-mcq-07": "「為休閒、觀光或度假而前往某地的人；遊客」與本句語境不同。",
-        "tour-mcq-04": "「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」與本句語境不同。",
-        "tour-mcq-08": "「休閒觀光旅行的活動及相關產業；旅遊／旅遊業」與本句語境不同。",
-        "tour-mcq-03": "「義相關」與本句語境不同。"
+        "tour-mcq-06": "本句的「toured」指「在多個地方依次巡演、演講或進行職業活動」。",
+        "tour-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tour-mcq-06"
     },
@@ -485,11 +405,7 @@ export default {
       "masked": "The show will ____ internationally.",
       "options": [
         "tour-mcq-06",
-        "tour-mcq-05",
-        "tour-mcq-07",
-        "tour-mcq-04",
-        "tour-mcq-08",
-        "tour-mcq-03"
+        "tour-mcq-07"
       ],
       "explanation": "本句的「tour」指「在多個地方依次巡演、演講或進行職業活動」。",
       "sentenceIndex": 12,
@@ -498,12 +414,8 @@ export default {
         "tour"
       ],
       "optionReasons": {
-        "tour-mcq-06": "本句指「在多個地方依次巡演、演講或進行職業活動」。",
-        "tour-mcq-05": "「到某地多處參觀、周遊或遊覽」與本句語境不同。",
-        "tour-mcq-07": "「為休閒、觀光或度假而前往某地的人；遊客」與本句語境不同。",
-        "tour-mcq-04": "「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」與本句語境不同。",
-        "tour-mcq-08": "「休閒觀光旅行的活動及相關產業；旅遊／旅遊業」與本句語境不同。",
-        "tour-mcq-03": "「義相關」與本句語境不同。"
+        "tour-mcq-06": "本句的「tour」指「在多個地方依次巡演、演講或進行職業活動」。",
+        "tour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tour-mcq-06"
     },
@@ -515,11 +427,7 @@ export default {
       "masked": "The beach attracts many ____.",
       "options": [
         "tour-mcq-07",
-        "tour-mcq-06",
-        "tour-mcq-08",
-        "tour-mcq-05",
-        "tour-mcq-04",
-        "tour-mcq-03"
+        "tour-mcq-06"
       ],
       "explanation": "本句的「tourists」指「為休閒、觀光或度假而前往某地的人；遊客」。",
       "sentenceIndex": 13,
@@ -528,12 +436,8 @@ export default {
         "tourists"
       ],
       "optionReasons": {
-        "tour-mcq-07": "本句指「為休閒、觀光或度假而前往某地的人；遊客」。",
-        "tour-mcq-06": "「在多個地方依次巡演、演講或進行職業活動」與本句語境不同。",
-        "tour-mcq-08": "「休閒觀光旅行的活動及相關產業；旅遊／旅遊業」與本句語境不同。",
-        "tour-mcq-05": "「到某地多處參觀、周遊或遊覽」與本句語境不同。",
-        "tour-mcq-04": "「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」與本句語境不同。",
-        "tour-mcq-03": "「義相關」與本句語境不同。"
+        "tour-mcq-07": "本句的「tourists」指「為休閒、觀光或度假而前往某地的人；遊客」。",
+        "tour-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tour-mcq-07"
     },
@@ -545,11 +449,7 @@ export default {
       "masked": "The town is popular with foreign ____.",
       "options": [
         "tour-mcq-07",
-        "tour-mcq-06",
-        "tour-mcq-08",
-        "tour-mcq-05",
-        "tour-mcq-04",
-        "tour-mcq-03"
+        "tour-mcq-06"
       ],
       "explanation": "本句的「tourists」指「為休閒、觀光或度假而前往某地的人；遊客」。",
       "sentenceIndex": 14,
@@ -558,12 +458,8 @@ export default {
         "tourists"
       ],
       "optionReasons": {
-        "tour-mcq-07": "本句指「為休閒、觀光或度假而前往某地的人；遊客」。",
-        "tour-mcq-06": "「在多個地方依次巡演、演講或進行職業活動」與本句語境不同。",
-        "tour-mcq-08": "「休閒觀光旅行的活動及相關產業；旅遊／旅遊業」與本句語境不同。",
-        "tour-mcq-05": "「到某地多處參觀、周遊或遊覽」與本句語境不同。",
-        "tour-mcq-04": "「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」與本句語境不同。",
-        "tour-mcq-03": "「義相關」與本句語境不同。"
+        "tour-mcq-07": "本句的「tourists」指「為休閒、觀光或度假而前往某地的人；遊客」。",
+        "tour-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tour-mcq-07"
     },
@@ -575,11 +471,7 @@ export default {
       "masked": "The island depends heavily on ____.",
       "options": [
         "tour-mcq-08",
-        "tour-mcq-07",
-        "tour-mcq-06",
-        "tour-mcq-05",
-        "tour-mcq-04",
-        "tour-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「tourism」指「休閒觀光旅行的活動及相關產業；旅遊／旅遊業」。",
       "sentenceIndex": 15,
@@ -588,12 +480,8 @@ export default {
         "tourism"
       ],
       "optionReasons": {
-        "tour-mcq-08": "本句指「休閒觀光旅行的活動及相關產業；旅遊／旅遊業」。",
-        "tour-mcq-07": "「為休閒、觀光或度假而前往某地的人；遊客」與本句語境不同。",
-        "tour-mcq-06": "「在多個地方依次巡演、演講或進行職業活動」與本句語境不同。",
-        "tour-mcq-05": "「到某地多處參觀、周遊或遊覽」與本句語境不同。",
-        "tour-mcq-04": "「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」與本句語境不同。",
-        "tour-mcq-03": "「義相關」與本句語境不同。"
+        "tour-mcq-08": "本句的「tourism」指「休閒觀光旅行的活動及相關產業；旅遊／旅遊業」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tour-mcq-08"
     },
@@ -605,11 +493,7 @@ export default {
       "masked": "Eco-____ has grown in the region.",
       "options": [
         "tour-mcq-08",
-        "tour-mcq-07",
-        "tour-mcq-06",
-        "tour-mcq-05",
-        "tour-mcq-04",
-        "tour-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「tourism」指「休閒觀光旅行的活動及相關產業；旅遊／旅遊業」。",
       "sentenceIndex": 16,
@@ -618,12 +502,8 @@ export default {
         "tourism"
       ],
       "optionReasons": {
-        "tour-mcq-08": "本句指「休閒觀光旅行的活動及相關產業；旅遊／旅遊業」。",
-        "tour-mcq-07": "「為休閒、觀光或度假而前往某地的人；遊客」與本句語境不同。",
-        "tour-mcq-06": "「在多個地方依次巡演、演講或進行職業活動」與本句語境不同。",
-        "tour-mcq-05": "「到某地多處參觀、周遊或遊覽」與本句語境不同。",
-        "tour-mcq-04": "「表演者、球隊、講者等在不同地方依次舉行活動的一系列巡迴行程」與本句語境不同。",
-        "tour-mcq-03": "「義相關」與本句語境不同。"
+        "tour-mcq-08": "本句的「tourism」指「休閒觀光旅行的活動及相關產業；旅遊／旅遊業」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tour-mcq-08"
     }
@@ -635,5 +515,12 @@ export default {
     "sha256": "b85467b6630993c21b8109185673a158f61689ca7ce1ee3538d4195700a29bca",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

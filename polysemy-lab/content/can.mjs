@@ -122,7 +122,7 @@ export default {
     },
     {
       "id": "can-mcq-06",
-      "title": "表示某種性質或狀態有時可能出現，而非一定如此",
+      "title": "某種性質或狀態有時可能出現，而非一定如此",
       "form": "can be",
       "en": "can be",
       "zh": "表示某種性質或狀態有時可能出現，而非一定如此",
@@ -220,7 +220,7 @@ export default {
     },
     {
       "id": "can-mcq-10",
-      "title": "表示某個選項／安排在目前情況下可行",
+      "title": "某個選項／安排在目前情況下可行",
       "form": "can — option",
       "en": "can — option",
       "zh": "表示某個選項／安排在目前情況下可行",
@@ -390,16 +390,6 @@ export default {
       "zh": "金錢不足，或某行動的代價／後果太高而不能承受",
       "note": "來源詞義：金錢不足，或某行動的代價／後果太高而不能承受",
       "examples": [
-        [
-          "I can’t bear to see her upset.",
-          "我不忍心／受不了看見她難過。",
-          "金錢不足，或某行動的代價／後果太高而不能承受"
-        ],
-        [
-          "He can’t bear the thought of leaving.",
-          "他無法忍受想到要離開。",
-          "金錢不足，或某行動的代價／後果太高而不能承受"
-        ],
         [
           "I can’t afford a new car.",
           "我買不起新車。",
@@ -678,7 +668,7 @@ export default {
     },
     {
       "id": "can-mcq-29",
-      "title": "表示說話者允許對方做某事",
+      "title": "說話者允許對方做某事",
       "form": "12. You can…（你可以……） — 給予許可",
       "en": "12. You can…（你可以……） — 給予許可",
       "zh": "表示說話者允許對方做某事",
@@ -700,7 +690,7 @@ export default {
     },
     {
       "id": "can-mcq-30",
-      "title": "表示某人／某物在某些情況下具有某種傾向或特徵",
+      "title": "某人／某物在某些情況下具有某種傾向或特徵",
       "form": "16. can = general characteristic / tendency（有時會） — 會；可能會",
       "en": "16. can = general characteristic / tendency（有時會） — 會；可能會",
       "zh": "表示某人／某物在某些情況下具有某種傾向或特徵",
@@ -895,6 +885,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "can-reviewed-ca9202f170",
+      "title": "情感上無法忍受某件事",
+      "form": "can · source section 25",
+      "en": "情感上無法忍受某件事",
+      "zh": "情感上無法忍受某件事",
+      "note": "對照原始教材第 25 節及例句核實。",
+      "examples": [
+        [
+          "I can’t bear to see her upset.",
+          "我不忍心／受不了看見她難過。",
+          "情感上無法忍受某件事"
+        ],
+        [
+          "He can’t bear the thought of leaving.",
+          "他無法忍受想到要離開。",
+          "情感上無法忍受某件事"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -906,11 +918,9 @@ export default {
       "masked": "She ____ very well.",
       "options": [
         "can-mcq-01",
-        "can-mcq-02",
-        "can-mcq-03",
-        "can-mcq-04",
-        "can-mcq-05",
-        "can-mcq-06"
+        "can-mcq-34",
+        "can-mcq-21",
+        "can-mcq-09"
       ],
       "explanation": "本句的「can swim」指「具備完成某項動作所需的身體、智力或技能能力」。",
       "sentenceIndex": 0,
@@ -919,12 +929,10 @@ export default {
         "can swim"
       ],
       "optionReasons": {
-        "can-mcq-01": "本句指「具備完成某項動作所需的身體、智力或技能能力」。",
-        "can-mcq-02": "「已掌握某項技能，知道怎樣進行」是「can — learned skill」的用法，與本句語境不同。",
-        "can-mcq-03": "「時間、情況或機會允許某件事發生」是「can — opportunity」的用法，與本句語境不同。",
-        "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。"
+        "can-mcq-01": "本句的「can swim」指「具備完成某項動作所需的身體、智力或技能能力」。",
+        "can-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-01"
     },
@@ -936,11 +944,9 @@ export default {
       "masked": "I ____ this bag.",
       "options": [
         "can-mcq-01",
-        "can-mcq-02",
-        "can-mcq-03",
-        "can-mcq-04",
-        "can-mcq-05",
-        "can-mcq-06"
+        "can-reviewed-ca9202f170",
+        "can-mcq-27",
+        "can-mcq-23"
       ],
       "explanation": "本句的「can carry」指「具備完成某項動作所需的身體、智力或技能能力」。",
       "sentenceIndex": 1,
@@ -949,12 +955,10 @@ export default {
         "can carry"
       ],
       "optionReasons": {
-        "can-mcq-01": "本句指「具備完成某項動作所需的身體、智力或技能能力」。",
-        "can-mcq-02": "「已掌握某項技能，知道怎樣進行」是「can — learned skill」的用法，與本句語境不同。",
-        "can-mcq-03": "「時間、情況或機會允許某件事發生」是「can — opportunity」的用法，與本句語境不同。",
-        "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。"
+        "can-mcq-01": "本句的「can carry」指「具備完成某項動作所需的身體、智力或技能能力」。",
+        "can-reviewed-ca9202f170": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-01"
     },
@@ -966,11 +970,9 @@ export default {
       "masked": "He ____ three languages.",
       "options": [
         "can-mcq-02",
-        "can-mcq-01",
-        "can-mcq-03",
-        "can-mcq-04",
-        "can-mcq-05",
-        "can-mcq-06"
+        "can-reviewed-ca9202f170",
+        "can-mcq-22",
+        "can-mcq-24"
       ],
       "explanation": "本句的「can speak」指「已掌握某項技能，知道怎樣進行」。",
       "sentenceIndex": 2,
@@ -979,12 +981,10 @@ export default {
         "can speak"
       ],
       "optionReasons": {
-        "can-mcq-02": "本句指「已掌握某項技能，知道怎樣進行」。",
-        "can-mcq-01": "「具備完成某項動作所需的身體、智力或技能能力」是「can — ability」的用法，與本句語境不同。",
-        "can-mcq-03": "「時間、情況或機會允許某件事發生」是「can — opportunity」的用法，與本句語境不同。",
-        "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。"
+        "can-mcq-02": "本句的「can speak」指「已掌握某項技能，知道怎樣進行」。",
+        "can-reviewed-ca9202f170": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-02"
     },
@@ -996,11 +996,9 @@ export default {
       "masked": "____ you drive?",
       "options": [
         "can-mcq-02",
-        "can-mcq-01",
-        "can-mcq-03",
-        "can-mcq-04",
-        "can-mcq-05",
-        "can-mcq-06"
+        "can-reviewed-ca9202f170",
+        "can-mcq-25",
+        "can-mcq-20"
       ],
       "explanation": "本句的「Can」指「已掌握某項技能，知道怎樣進行」。",
       "sentenceIndex": 3,
@@ -1009,12 +1007,10 @@ export default {
         "Can"
       ],
       "optionReasons": {
-        "can-mcq-02": "本句指「已掌握某項技能，知道怎樣進行」。",
-        "can-mcq-01": "「具備完成某項動作所需的身體、智力或技能能力」是「can — ability」的用法，與本句語境不同。",
-        "can-mcq-03": "「時間、情況或機會允許某件事發生」是「can — opportunity」的用法，與本句語境不同。",
-        "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。"
+        "can-mcq-02": "本句的「Can」指「已掌握某項技能，知道怎樣進行」。",
+        "can-reviewed-ca9202f170": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-02"
     },
@@ -1026,11 +1022,9 @@ export default {
       "masked": "She ____ short distances.",
       "options": [
         "can-pdf-001",
-        "can-mcq-01",
-        "can-mcq-03",
-        "can-mcq-04",
-        "can-mcq-05",
-        "can-mcq-06"
+        "can-mcq-16",
+        "can-mcq-27",
+        "can-mcq-31"
       ],
       "explanation": "本句的「can walk」指「身體條件允許進行某項行動」。",
       "sentenceIndex": 4,
@@ -1039,12 +1033,10 @@ export default {
         "can walk"
       ],
       "optionReasons": {
-        "can-pdf-001": "本句指「身體條件允許進行某項行動」。",
-        "can-mcq-01": "「具備完成某項動作所需的身體、智力或技能能力」是「can — ability」的用法，與本句語境不同。",
-        "can-mcq-03": "「時間、情況或機會允許某件事發生」是「can — opportunity」的用法，與本句語境不同。",
-        "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。"
+        "can-pdf-001": "本句的「can walk」指「身體條件允許進行某項行動」。",
+        "can-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-pdf-001"
     },
@@ -1056,11 +1048,9 @@ export default {
       "masked": "I ____’t lift this box.",
       "options": [
         "can-pdf-001",
-        "can-mcq-01",
-        "can-mcq-03",
-        "can-mcq-04",
-        "can-mcq-05",
-        "can-mcq-06"
+        "can-mcq-22",
+        "can-mcq-35",
+        "can-mcq-30"
       ],
       "explanation": "本句的「can」指「身體條件允許進行某項行動」。",
       "sentenceIndex": 5,
@@ -1069,12 +1059,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-pdf-001": "本句指「身體條件允許進行某項行動」。",
-        "can-mcq-01": "「具備完成某項動作所需的身體、智力或技能能力」是「can — ability」的用法，與本句語境不同。",
-        "can-mcq-03": "「時間、情況或機會允許某件事發生」是「can — opportunity」的用法，與本句語境不同。",
-        "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。"
+        "can-pdf-001": "本句的「can」指「身體條件允許進行某項行動」。",
+        "can-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-pdf-001"
     },
@@ -1086,11 +1074,9 @@ export default {
       "masked": "I ____ the main idea.",
       "options": [
         "can-mcq-28",
-        "can-mcq-27",
-        "can-mcq-29",
-        "can-mcq-26",
-        "can-mcq-30",
-        "can-mcq-25"
+        "can-mcq-13",
+        "can-mcq-35",
+        "can-mcq-27"
       ],
       "explanation": "本句的「can understand」指「認知、記憶或理解能力足以完成某事」。",
       "sentenceIndex": 6,
@@ -1099,12 +1085,10 @@ export default {
         "can understand"
       ],
       "optionReasons": {
-        "can-mcq-28": "本句指「認知、記憶或理解能力足以完成某事」。",
-        "can-mcq-27": "「一個會引發多個互相關聯、棘手問題的複雜情況」是「can of worms」的用法，與本句語境不同。",
-        "can-mcq-29": "「表示說話者允許對方做某事」是「12. You can…（你可以……） — 給予許可」的用法，與本句語境不同。",
-        "can-mcq-26": "「電影／節目等已完成拍攝或錄製」是「in the can」的用法，與本句語境不同。",
-        "can-mcq-30": "「表示某人／某物在某些情況下具有某種傾向或特徵」是「16. can = general characteristic / tendency（有時會） — 會；可能會」的用法，與本句語境不同。",
-        "can-mcq-25": "「非正式俚語：廁所」是「the can」的用法，與本句語境不同。"
+        "can-mcq-28": "本句的「can understand」指「認知、記憶或理解能力足以完成某事」。",
+        "can-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-28"
     },
@@ -1116,11 +1100,9 @@ export default {
       "masked": "____ you remember his name?",
       "options": [
         "can-mcq-28",
-        "can-mcq-27",
-        "can-mcq-29",
-        "can-mcq-26",
-        "can-mcq-30",
-        "can-mcq-25"
+        "can-mcq-34",
+        "can-mcq-18",
+        "can-mcq-06"
       ],
       "explanation": "本句的「Can」指「認知、記憶或理解能力足以完成某事」。",
       "sentenceIndex": 7,
@@ -1129,12 +1111,10 @@ export default {
         "Can"
       ],
       "optionReasons": {
-        "can-mcq-28": "本句指「認知、記憶或理解能力足以完成某事」。",
-        "can-mcq-27": "「一個會引發多個互相關聯、棘手問題的複雜情況」是「can of worms」的用法，與本句語境不同。",
-        "can-mcq-29": "「表示說話者允許對方做某事」是「12. You can…（你可以……） — 給予許可」的用法，與本句語境不同。",
-        "can-mcq-26": "「電影／節目等已完成拍攝或錄製」是「in the can」的用法，與本句語境不同。",
-        "can-mcq-30": "「表示某人／某物在某些情況下具有某種傾向或特徵」是「16. can = general characteristic / tendency（有時會） — 會；可能會」的用法，與本句語境不同。",
-        "can-mcq-25": "「非正式俚語：廁所」是「the can」的用法，與本句語境不同。"
+        "can-mcq-28": "本句的「Can」指「認知、記憶或理解能力足以完成某事」。",
+        "can-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-28"
     },
@@ -1146,11 +1126,9 @@ export default {
       "masked": "I want to learn from her ____.",
       "options": [
         "can-mcq-03",
-        "can-mcq-02",
-        "can-mcq-04",
-        "can-mcq-01",
-        "can-mcq-05",
-        "can-mcq-06"
+        "can-mcq-24",
+        "can-mcq-30",
+        "can-mcq-21"
       ],
       "explanation": "本句的「while I can」指「時間、情況或機會允許某件事發生」。",
       "sentenceIndex": 8,
@@ -1159,12 +1137,10 @@ export default {
         "while I can"
       ],
       "optionReasons": {
-        "can-mcq-03": "本句指「時間、情況或機會允許某件事發生」。",
-        "can-mcq-02": "「已掌握某項技能，知道怎樣進行」是「can — learned skill」的用法，與本句語境不同。",
-        "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。",
-        "can-mcq-01": "「具備完成某項動作所需的身體、智力或技能能力」是「can — ability」的用法，與本句語境不同。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。"
+        "can-mcq-03": "本句的「while I can」指「時間、情況或機會允許某件事發生」。",
+        "can-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-03"
     },
@@ -1176,11 +1152,9 @@ export default {
       "masked": "Visit your family ____.",
       "options": [
         "can-mcq-03",
-        "can-mcq-02",
-        "can-mcq-04",
-        "can-mcq-01",
-        "can-mcq-05",
-        "can-mcq-06"
+        "can-mcq-24",
+        "can-mcq-30",
+        "can-mcq-02"
       ],
       "explanation": "本句的「when you can」指「時間、情況或機會允許某件事發生」。",
       "sentenceIndex": 9,
@@ -1189,12 +1163,10 @@ export default {
         "when you can"
       ],
       "optionReasons": {
-        "can-mcq-03": "本句指「時間、情況或機會允許某件事發生」。",
-        "can-mcq-02": "「已掌握某項技能，知道怎樣進行」是「can — learned skill」的用法，與本句語境不同。",
-        "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。",
-        "can-mcq-01": "「具備完成某項動作所需的身體、智力或技能能力」是「can — ability」的用法，與本句語境不同。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。"
+        "can-mcq-03": "本句的「when you can」指「時間、情況或機會允許某件事發生」。",
+        "can-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-03"
     },
@@ -1206,11 +1178,9 @@ export default {
       "masked": "Call me when you ____.",
       "options": [
         "can-mcq-03",
-        "can-mcq-02",
-        "can-mcq-04",
-        "can-mcq-01",
-        "can-mcq-05",
-        "can-mcq-06"
+        "can-pdf-002",
+        "can-mcq-11",
+        "can-mcq-25"
       ],
       "explanation": "本句的「can」指「時間、情況或機會允許某件事發生」。",
       "sentenceIndex": 10,
@@ -1219,12 +1189,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-03": "本句指「時間、情況或機會允許某件事發生」。",
-        "can-mcq-02": "「已掌握某項技能，知道怎樣進行」是「can — learned skill」的用法，與本句語境不同。",
-        "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。",
-        "can-mcq-01": "「具備完成某項動作所需的身體、智力或技能能力」是「can — ability」的用法，與本句語境不同。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。"
+        "can-mcq-03": "本句的「can」指「時間、情況或機會允許某件事發生」。",
+        "can-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-03"
     },
@@ -1236,11 +1204,9 @@ export default {
       "masked": "Enjoy the time together ____.",
       "options": [
         "can-mcq-04",
-        "can-mcq-03",
-        "can-mcq-05",
-        "can-mcq-02",
-        "can-mcq-06",
-        "can-mcq-01"
+        "can-mcq-34",
+        "can-mcq-20",
+        "can-mcq-27"
       ],
       "explanation": "本句的「while you can」指「趁能力、時間或機會尚未消失之前」。",
       "sentenceIndex": 11,
@@ -1249,12 +1215,10 @@ export default {
         "while you can"
       ],
       "optionReasons": {
-        "can-mcq-04": "本句指「趁能力、時間或機會尚未消失之前」。",
-        "can-mcq-03": "「時間、情況或機會允許某件事發生」是「can — opportunity」的用法，與本句語境不同。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
-        "can-mcq-02": "「已掌握某項技能，知道怎樣進行」是「can — learned skill」的用法，與本句語境不同。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。",
-        "can-mcq-01": "「具備完成某項動作所需的身體、智力或技能能力」是「can — ability」的用法，與本句語境不同。"
+        "can-mcq-04": "本句的「while you can」指「趁能力、時間或機會尚未消失之前」。",
+        "can-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-04"
     },
@@ -1266,11 +1230,9 @@ export default {
       "masked": "Ask questions while you ____.",
       "options": [
         "can-mcq-04",
-        "can-mcq-03",
-        "can-mcq-05",
-        "can-mcq-02",
-        "can-mcq-06",
-        "can-mcq-01"
+        "can-mcq-23",
+        "can-mcq-22",
+        "can-mcq-27"
       ],
       "explanation": "本句的「can」指「趁能力、時間或機會尚未消失之前」。",
       "sentenceIndex": 12,
@@ -1279,12 +1241,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-04": "本句指「趁能力、時間或機會尚未消失之前」。",
-        "can-mcq-03": "「時間、情況或機會允許某件事發生」是「can — opportunity」的用法，與本句語境不同。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
-        "can-mcq-02": "「已掌握某項技能，知道怎樣進行」是「can — learned skill」的用法，與本句語境不同。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。",
-        "can-mcq-01": "「具備完成某項動作所需的身體、智力或技能能力」是「can — ability」的用法，與本句語境不同。"
+        "can-mcq-04": "本句的「can」指「趁能力、時間或機會尚未消失之前」。",
+        "can-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-04"
     },
@@ -1296,11 +1256,9 @@ export default {
       "masked": "Life ____.",
       "options": [
         "can-mcq-05",
-        "can-mcq-04",
-        "can-mcq-06",
-        "can-mcq-03",
-        "can-mcq-07",
-        "can-mcq-02"
+        "can-mcq-23",
+        "can-mcq-17",
+        "can-mcq-35"
       ],
       "explanation": "本句的「can be difficult」指「某件事情在一般情況下有可能發生／成立」。",
       "sentenceIndex": 13,
@@ -1309,12 +1267,10 @@ export default {
         "can be difficult"
       ],
       "optionReasons": {
-        "can-mcq-05": "本句指「某件事情在一般情況下有可能發生／成立」。",
-        "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。",
-        "can-mcq-03": "「時間、情況或機會允許某件事發生」是「can — opportunity」的用法，與本句語境不同。",
-        "can-mcq-07": "「某人獲准進行某項行動」是「can — permission」的用法，與本句語境不同。",
-        "can-mcq-02": "「已掌握某項技能，知道怎樣進行」是「can — learned skill」的用法，與本句語境不同。"
+        "can-mcq-05": "本句的「can be difficult」指「某件事情在一般情況下有可能發生／成立」。",
+        "can-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-05"
     },
@@ -1326,11 +1282,9 @@ export default {
       "masked": "Small actions ____ a big difference.",
       "options": [
         "can-mcq-05",
-        "can-mcq-04",
-        "can-mcq-06",
-        "can-mcq-03",
-        "can-mcq-07",
-        "can-mcq-02"
+        "can-mcq-12",
+        "can-mcq-02",
+        "can-mcq-35"
       ],
       "explanation": "本句的「can make」指「某件事情在一般情況下有可能發生／成立」。",
       "sentenceIndex": 14,
@@ -1339,12 +1293,10 @@ export default {
         "can make"
       ],
       "optionReasons": {
-        "can-mcq-05": "本句指「某件事情在一般情況下有可能發生／成立」。",
-        "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。",
-        "can-mcq-03": "「時間、情況或機會允許某件事發生」是「can — opportunity」的用法，與本句語境不同。",
-        "can-mcq-07": "「某人獲准進行某項行動」是「can — permission」的用法，與本句語境不同。",
-        "can-mcq-02": "「已掌握某項技能，知道怎樣進行」是「can — learned skill」的用法，與本句語境不同。"
+        "can-mcq-05": "本句的「can make」指「某件事情在一般情況下有可能發生／成立」。",
+        "can-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-05"
     },
@@ -1356,11 +1308,9 @@ export default {
       "masked": "Older people ____.",
       "options": [
         "can-mcq-06",
-        "can-mcq-05",
-        "can-mcq-07",
-        "can-mcq-04",
-        "can-mcq-08",
-        "can-mcq-03"
+        "can-mcq-29",
+        "can-mcq-26",
+        "can-mcq-34"
       ],
       "explanation": "本句的「can be very active」指「表示某種性質或狀態有時可能出現，而非一定如此」。",
       "sentenceIndex": 15,
@@ -1369,12 +1319,10 @@ export default {
         "can be very active"
       ],
       "optionReasons": {
-        "can-mcq-06": "本句指「表示某種性質或狀態有時可能出現，而非一定如此」。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
-        "can-mcq-07": "「某人獲准進行某項行動」是「can — permission」的用法，與本句語境不同。",
-        "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。",
-        "can-mcq-08": "「非正式而常見地請求許可」是「Can I…?」的用法，與本句語境不同。",
-        "can-mcq-03": "「時間、情況或機會允許某件事發生」是「can — opportunity」的用法，與本句語境不同。"
+        "can-mcq-06": "本句的「can be very active」指「表示某種性質或狀態有時可能出現，而非一定如此」。",
+        "can-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-06"
     },
@@ -1386,11 +1334,9 @@ export default {
       "masked": "This job ____ be stressful.",
       "options": [
         "can-mcq-06",
-        "can-mcq-05",
-        "can-mcq-07",
-        "can-mcq-04",
-        "can-mcq-08",
-        "can-mcq-03"
+        "can-mcq-01",
+        "can-mcq-22",
+        "can-mcq-35"
       ],
       "explanation": "本句的「can」指「表示某種性質或狀態有時可能出現，而非一定如此」。",
       "sentenceIndex": 16,
@@ -1399,12 +1345,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-06": "本句指「表示某種性質或狀態有時可能出現，而非一定如此」。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
-        "can-mcq-07": "「某人獲准進行某項行動」是「can — permission」的用法，與本句語境不同。",
-        "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。",
-        "can-mcq-08": "「非正式而常見地請求許可」是「Can I…?」的用法，與本句語境不同。",
-        "can-mcq-03": "「時間、情況或機會允許某件事發生」是「can — opportunity」的用法，與本句語境不同。"
+        "can-mcq-06": "本句的「can」指「表示某種性質或狀態有時可能出現，而非一定如此」。",
+        "can-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-06"
     },
@@ -1416,11 +1360,9 @@ export default {
       "masked": "Mistakes ____.",
       "options": [
         "can-mcq-06",
-        "can-mcq-05",
-        "can-mcq-07",
-        "can-mcq-04",
-        "can-mcq-08",
-        "can-mcq-03"
+        "can-mcq-28",
+        "can-pdf-001",
+        "can-mcq-34"
       ],
       "explanation": "本句的「can happen」指「表示某種性質或狀態有時可能出現，而非一定如此」。",
       "sentenceIndex": 17,
@@ -1429,12 +1371,10 @@ export default {
         "can happen"
       ],
       "optionReasons": {
-        "can-mcq-06": "本句指「表示某種性質或狀態有時可能出現，而非一定如此」。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
-        "can-mcq-07": "「某人獲准進行某項行動」是「can — permission」的用法，與本句語境不同。",
-        "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。",
-        "can-mcq-08": "「非正式而常見地請求許可」是「Can I…?」的用法，與本句語境不同。",
-        "can-mcq-03": "「時間、情況或機會允許某件事發生」是「can — opportunity」的用法，與本句語境不同。"
+        "can-mcq-06": "本句的「can happen」指「表示某種性質或狀態有時可能出現，而非一定如此」。",
+        "can-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "can-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-06"
     },
@@ -1446,11 +1386,9 @@ export default {
       "masked": "Unexpected problems ____ occur.",
       "options": [
         "can-mcq-06",
-        "can-mcq-05",
-        "can-mcq-07",
-        "can-mcq-04",
-        "can-mcq-08",
-        "can-mcq-03"
+        "can-mcq-10",
+        "can-mcq-34",
+        "can-mcq-12"
       ],
       "explanation": "本句的「can」指「表示某種性質或狀態有時可能出現，而非一定如此」。",
       "sentenceIndex": 18,
@@ -1459,12 +1397,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-06": "本句指「表示某種性質或狀態有時可能出現，而非一定如此」。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
-        "can-mcq-07": "「某人獲准進行某項行動」是「can — permission」的用法，與本句語境不同。",
-        "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。",
-        "can-mcq-08": "「非正式而常見地請求許可」是「Can I…?」的用法，與本句語境不同。",
-        "can-mcq-03": "「時間、情況或機會允許某件事發生」是「can — opportunity」的用法，與本句語境不同。"
+        "can-mcq-06": "本句的「can」指「表示某種性質或狀態有時可能出現，而非一定如此」。",
+        "can-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-06"
     },
@@ -1476,11 +1412,9 @@ export default {
       "masked": "You ____ now.",
       "options": [
         "can-mcq-07",
-        "can-mcq-06",
-        "can-mcq-08",
-        "can-mcq-05",
-        "can-mcq-09",
-        "can-mcq-04"
+        "can-mcq-18",
+        "can-mcq-33",
+        "can-mcq-21"
       ],
       "explanation": "本句的「can leave」指「某人獲准進行某項行動」。",
       "sentenceIndex": 19,
@@ -1489,12 +1423,10 @@ export default {
         "can leave"
       ],
       "optionReasons": {
-        "can-mcq-07": "本句指「某人獲准進行某項行動」。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。",
-        "can-mcq-08": "「非正式而常見地請求許可」是「Can I…?」的用法，與本句語境不同。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
-        "can-mcq-09": "「禮貌地要求某人替自己做某件事」是「Can you…? — request」的用法，與本句語境不同。",
-        "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。"
+        "can-mcq-07": "本句的「can leave」指「某人獲准進行某項行動」。",
+        "can-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-07"
     },
@@ -1506,11 +1438,9 @@ export default {
       "masked": "____ I use your phone?",
       "options": [
         "can-mcq-07",
-        "can-mcq-06",
-        "can-mcq-08",
-        "can-mcq-05",
-        "can-mcq-09",
-        "can-mcq-04"
+        "can-mcq-35",
+        "can-mcq-20",
+        "can-mcq-36"
       ],
       "explanation": "本句的「Can」指「某人獲准進行某項行動」。",
       "sentenceIndex": 20,
@@ -1519,12 +1449,10 @@ export default {
         "Can"
       ],
       "optionReasons": {
-        "can-mcq-07": "本句指「某人獲准進行某項行動」。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。",
-        "can-mcq-08": "「非正式而常見地請求許可」是「Can I…?」的用法，與本句語境不同。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。",
-        "can-mcq-09": "「禮貌地要求某人替自己做某件事」是「Can you…? — request」的用法，與本句語境不同。",
-        "can-mcq-04": "「趁能力、時間或機會尚未消失之前」是「while I can」的用法，與本句語境不同。"
+        "can-mcq-07": "本句的「Can」指「某人獲准進行某項行動」。",
+        "can-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-07"
     },
@@ -1536,11 +1464,9 @@ export default {
       "masked": "____",
       "options": [
         "can-mcq-08",
-        "can-mcq-07",
-        "can-mcq-09",
-        "can-mcq-06",
-        "can-mcq-10",
-        "can-mcq-05"
+        "can-mcq-26",
+        "can-mcq-30",
+        "can-mcq-22"
       ],
       "explanation": "本句的「Can I sit here?」指「非正式而常見地請求許可」。",
       "sentenceIndex": 21,
@@ -1549,12 +1475,10 @@ export default {
         "Can I sit here?"
       ],
       "optionReasons": {
-        "can-mcq-08": "本句指「非正式而常見地請求許可」。",
-        "can-mcq-07": "「某人獲准進行某項行動」是「can — permission」的用法，與本句語境不同。",
-        "can-mcq-09": "「禮貌地要求某人替自己做某件事」是「Can you…? — request」的用法，與本句語境不同。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。",
-        "can-mcq-10": "「表示某個選項／安排在目前情況下可行」是「can — option」的用法，與本句語境不同。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。"
+        "can-mcq-08": "本句的「Can I sit here?」指「非正式而常見地請求許可」。",
+        "can-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-08"
     },
@@ -1566,11 +1490,9 @@ export default {
       "masked": "____ I ask you something?",
       "options": [
         "can-mcq-08",
-        "can-mcq-07",
-        "can-mcq-09",
-        "can-mcq-06",
-        "can-mcq-10",
-        "can-mcq-05"
+        "can-mcq-02",
+        "can-reviewed-ca9202f170",
+        "can-mcq-27"
       ],
       "explanation": "本句的「Can」指「非正式而常見地請求許可」。",
       "sentenceIndex": 22,
@@ -1579,12 +1501,10 @@ export default {
         "Can"
       ],
       "optionReasons": {
-        "can-mcq-08": "本句指「非正式而常見地請求許可」。",
-        "can-mcq-07": "「某人獲准進行某項行動」是「can — permission」的用法，與本句語境不同。",
-        "can-mcq-09": "「禮貌地要求某人替自己做某件事」是「Can you…? — request」的用法，與本句語境不同。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。",
-        "can-mcq-10": "「表示某個選項／安排在目前情況下可行」是「can — option」的用法，與本句語境不同。",
-        "can-mcq-05": "「某件事情在一般情況下有可能發生／成立」是「can — possibility」的用法，與本句語境不同。"
+        "can-mcq-08": "本句的「Can」指「非正式而常見地請求許可」。",
+        "can-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "can-reviewed-ca9202f170": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-08"
     },
@@ -1596,11 +1516,9 @@ export default {
       "masked": "You ____ now.",
       "options": [
         "can-mcq-29",
-        "can-mcq-28",
-        "can-mcq-30",
-        "can-mcq-27",
-        "can-mcq-31",
-        "can-mcq-26"
+        "can-mcq-23",
+        "can-mcq-18",
+        "can-mcq-22"
       ],
       "explanation": "本句的「can go home」指「表示說話者允許對方做某事」。",
       "sentenceIndex": 23,
@@ -1609,12 +1527,10 @@ export default {
         "can go home"
       ],
       "optionReasons": {
-        "can-mcq-29": "本句指「表示說話者允許對方做某事」。",
-        "can-mcq-28": "「認知、記憶或理解能力足以完成某事」是「4. can = mentally/intellectually able to（理解／思考能力上能） — 能夠」的用法，與本句語境不同。",
-        "can-mcq-30": "「表示某人／某物在某些情況下具有某種傾向或特徵」是「16. can = general characteristic / tendency（有時會） — 會；可能會」的用法，與本句語境不同。",
-        "can-mcq-27": "「一個會引發多個互相關聯、棘手問題的複雜情況」是「can of worms」的用法，與本句語境不同。",
-        "can-mcq-31": "「根據一般規律／經驗，某結果有可能出現」是「17. can = theoretical/general possibility（一般可能性） — 有可能」的用法，與本句語境不同。",
-        "can-mcq-26": "「電影／節目等已完成拍攝或錄製」是「in the can」的用法，與本句語境不同。"
+        "can-mcq-29": "本句的「can go home」指「表示說話者允許對方做某事」。",
+        "can-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-29"
     },
@@ -1626,10 +1542,8 @@ export default {
       "masked": "You ____ use my desk.",
       "options": [
         "can-mcq-29",
-        "can-mcq-28",
+        "can-mcq-17",
         "can-mcq-30",
-        "can-mcq-27",
-        "can-mcq-31",
         "can-mcq-26"
       ],
       "explanation": "本句的「can」指「表示說話者允許對方做某事」。",
@@ -1639,12 +1553,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-29": "本句指「表示說話者允許對方做某事」。",
-        "can-mcq-28": "「認知、記憶或理解能力足以完成某事」是「4. can = mentally/intellectually able to（理解／思考能力上能） — 能夠」的用法，與本句語境不同。",
-        "can-mcq-30": "「表示某人／某物在某些情況下具有某種傾向或特徵」是「16. can = general characteristic / tendency（有時會） — 會；可能會」的用法，與本句語境不同。",
-        "can-mcq-27": "「一個會引發多個互相關聯、棘手問題的複雜情況」是「can of worms」的用法，與本句語境不同。",
-        "can-mcq-31": "「根據一般規律／經驗，某結果有可能出現」是「17. can = theoretical/general possibility（一般可能性） — 有可能」的用法，與本句語境不同。",
-        "can-mcq-26": "「電影／節目等已完成拍攝或錄製」是「in the can」的用法，與本句語境不同。"
+        "can-mcq-29": "本句的「can」指「表示說話者允許對方做某事」。",
+        "can-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-29"
     },
@@ -1656,11 +1568,9 @@ export default {
       "masked": "____",
       "options": [
         "can-mcq-09",
-        "can-mcq-08",
+        "can-mcq-31",
         "can-mcq-10",
-        "can-mcq-07",
-        "can-mcq-11",
-        "can-mcq-06"
+        "can-mcq-36"
       ],
       "explanation": "本句的「Can you help me?」指「禮貌地要求某人替自己做某件事」。",
       "sentenceIndex": 25,
@@ -1669,12 +1579,10 @@ export default {
         "Can you help me?"
       ],
       "optionReasons": {
-        "can-mcq-09": "本句指「禮貌地要求某人替自己做某件事」。",
-        "can-mcq-08": "「非正式而常見地請求許可」是「Can I…?」的用法，與本句語境不同。",
-        "can-mcq-10": "「表示某個選項／安排在目前情況下可行」是「can — option」的用法，與本句語境不同。",
-        "can-mcq-07": "「某人獲准進行某項行動」是「can — permission」的用法，與本句語境不同。",
-        "can-mcq-11": "「缺乏完成某項行動所需的能力」是「can’t — inability」的用法，與本句語境不同。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。"
+        "can-mcq-09": "本句的「Can you help me?」指「禮貌地要求某人替自己做某件事」。",
+        "can-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-09"
     },
@@ -1686,11 +1594,9 @@ export default {
       "masked": "____ you open the window?",
       "options": [
         "can-mcq-09",
-        "can-mcq-08",
-        "can-mcq-10",
-        "can-mcq-07",
-        "can-mcq-11",
-        "can-mcq-06"
+        "can-mcq-26",
+        "can-mcq-31",
+        "can-mcq-21"
       ],
       "explanation": "本句的「Can」指「禮貌地要求某人替自己做某件事」。",
       "sentenceIndex": 26,
@@ -1699,12 +1605,10 @@ export default {
         "Can"
       ],
       "optionReasons": {
-        "can-mcq-09": "本句指「禮貌地要求某人替自己做某件事」。",
-        "can-mcq-08": "「非正式而常見地請求許可」是「Can I…?」的用法，與本句語境不同。",
-        "can-mcq-10": "「表示某個選項／安排在目前情況下可行」是「can — option」的用法，與本句語境不同。",
-        "can-mcq-07": "「某人獲准進行某項行動」是「can — permission」的用法，與本句語境不同。",
-        "can-mcq-11": "「缺乏完成某項行動所需的能力」是「can’t — inability」的用法，與本句語境不同。",
-        "can-mcq-06": "「表示某種性質或狀態有時可能出現，而非一定如此」是「can be」的用法，與本句語境不同。"
+        "can-mcq-09": "本句的「Can」指「禮貌地要求某人替自己做某件事」。",
+        "can-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-09"
     },
@@ -1716,11 +1620,9 @@ export default {
       "masked": "We ____ if you prefer.",
       "options": [
         "can-pdf-002",
-        "can-mcq-09",
-        "can-mcq-11",
-        "can-mcq-08",
-        "can-mcq-12",
-        "can-mcq-07"
+        "can-mcq-28",
+        "can-mcq-13",
+        "can-mcq-08"
       ],
       "explanation": "本句的「can meet tomorrow」指「提出一個可行選項、建議或安排」。",
       "sentenceIndex": 27,
@@ -1729,12 +1631,10 @@ export default {
         "can meet tomorrow"
       ],
       "optionReasons": {
-        "can-pdf-002": "本句指「提出一個可行選項、建議或安排」。",
-        "can-mcq-09": "「禮貌地要求某人替自己做某件事」是「Can you…? — request」的用法，與本句語境不同。",
-        "can-mcq-11": "「缺乏完成某項行動所需的能力」是「can’t — inability」的用法，與本句語境不同。",
-        "can-mcq-08": "「非正式而常見地請求許可」是「Can I…?」的用法，與本句語境不同。",
-        "can-mcq-12": "「規則、權限或他人不允許某行動」是「can’t — prohibition」的用法，與本句語境不同。",
-        "can-mcq-07": "「某人獲准進行某項行動」是「can — permission」的用法，與本句語境不同。"
+        "can-pdf-002": "本句的「can meet tomorrow」指「提出一個可行選項、建議或安排」。",
+        "can-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-pdf-002"
     },
@@ -1746,11 +1646,9 @@ export default {
       "masked": "You ____ try asking her directly.",
       "options": [
         "can-pdf-002",
-        "can-mcq-09",
-        "can-mcq-11",
-        "can-mcq-08",
-        "can-mcq-12",
-        "can-mcq-07"
+        "can-mcq-27",
+        "can-mcq-03",
+        "can-mcq-28"
       ],
       "explanation": "本句的「can」指「提出一個可行選項、建議或安排」。",
       "sentenceIndex": 28,
@@ -1759,12 +1657,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-pdf-002": "本句指「提出一個可行選項、建議或安排」。",
-        "can-mcq-09": "「禮貌地要求某人替自己做某件事」是「Can you…? — request」的用法，與本句語境不同。",
-        "can-mcq-11": "「缺乏完成某項行動所需的能力」是「can’t — inability」的用法，與本句語境不同。",
-        "can-mcq-08": "「非正式而常見地請求許可」是「Can I…?」的用法，與本句語境不同。",
-        "can-mcq-12": "「規則、權限或他人不允許某行動」是「can’t — prohibition」的用法，與本句語境不同。",
-        "can-mcq-07": "「某人獲准進行某項行動」是「can — permission」的用法，與本句語境不同。"
+        "can-pdf-002": "本句的「can」指「提出一個可行選項、建議或安排」。",
+        "can-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-pdf-002"
     },
@@ -1776,11 +1672,9 @@ export default {
       "masked": "You ____.",
       "options": [
         "can-mcq-10",
-        "can-mcq-09",
-        "can-mcq-11",
-        "can-mcq-08",
-        "can-mcq-12",
-        "can-mcq-07"
+        "can-mcq-20",
+        "can-mcq-31",
+        "can-mcq-29"
       ],
       "explanation": "本句的「can take the bus or walk」指「表示某個選項／安排在目前情況下可行」。",
       "sentenceIndex": 29,
@@ -1789,12 +1683,10 @@ export default {
         "can take the bus or walk"
       ],
       "optionReasons": {
-        "can-mcq-10": "本句指「表示某個選項／安排在目前情況下可行」。",
-        "can-mcq-09": "「禮貌地要求某人替自己做某件事」是「Can you…? — request」的用法，與本句語境不同。",
-        "can-mcq-11": "「缺乏完成某項行動所需的能力」是「can’t — inability」的用法，與本句語境不同。",
-        "can-mcq-08": "「非正式而常見地請求許可」是「Can I…?」的用法，與本句語境不同。",
-        "can-mcq-12": "「規則、權限或他人不允許某行動」是「can’t — prohibition」的用法，與本句語境不同。",
-        "can-mcq-07": "「某人獲准進行某項行動」是「can — permission」的用法，與本句語境不同。"
+        "can-mcq-10": "本句的「can take the bus or walk」指「表示某個選項／安排在目前情況下可行」。",
+        "can-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-10"
     },
@@ -1806,11 +1698,9 @@ export default {
       "masked": "We ____ stay here if you want.",
       "options": [
         "can-mcq-10",
-        "can-mcq-09",
-        "can-mcq-11",
-        "can-mcq-08",
-        "can-mcq-12",
-        "can-mcq-07"
+        "can-mcq-16",
+        "can-mcq-13",
+        "can-mcq-27"
       ],
       "explanation": "本句的「can」指「表示某個選項／安排在目前情況下可行」。",
       "sentenceIndex": 30,
@@ -1819,12 +1709,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-10": "本句指「表示某個選項／安排在目前情況下可行」。",
-        "can-mcq-09": "「禮貌地要求某人替自己做某件事」是「Can you…? — request」的用法，與本句語境不同。",
-        "can-mcq-11": "「缺乏完成某項行動所需的能力」是「can’t — inability」的用法，與本句語境不同。",
-        "can-mcq-08": "「非正式而常見地請求許可」是「Can I…?」的用法，與本句語境不同。",
-        "can-mcq-12": "「規則、權限或他人不允許某行動」是「can’t — prohibition」的用法，與本句語境不同。",
-        "can-mcq-07": "「某人獲准進行某項行動」是「can — permission」的用法，與本句語境不同。"
+        "can-mcq-10": "本句的「can」指「表示某個選項／安排在目前情況下可行」。",
+        "can-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-10"
     },
@@ -1836,10 +1724,8 @@ export default {
       "masked": "He ____ sometimes.",
       "options": [
         "can-mcq-30",
-        "can-mcq-29",
-        "can-mcq-31",
-        "can-mcq-28",
-        "can-mcq-32",
+        "can-mcq-06",
+        "can-mcq-20",
         "can-mcq-27"
       ],
       "explanation": "本句的「can be impatient」指「表示某人／某物在某些情況下具有某種傾向或特徵」。",
@@ -1849,12 +1735,10 @@ export default {
         "can be impatient"
       ],
       "optionReasons": {
-        "can-mcq-30": "本句指「表示某人／某物在某些情況下具有某種傾向或特徵」。",
-        "can-mcq-29": "「表示說話者允許對方做某事」是「12. You can…（你可以……） — 給予許可」的用法，與本句語境不同。",
-        "can-mcq-31": "「根據一般規律／經驗，某結果有可能出現」是「17. can = theoretical/general possibility（一般可能性） — 有可能」的用法，與本句語境不同。",
-        "can-mcq-28": "「認知、記憶或理解能力足以完成某事」是「4. can = mentally/intellectually able to（理解／思考能力上能） — 能夠」的用法，與本句語境不同。",
-        "can-mcq-32": "「具備感知／察覺某事的能力或當前條件」是「28. can tell / can see / can hear（能看出／聽出／判斷） — 能夠察覺」的用法，與本句語境不同。",
-        "can-mcq-27": "「一個會引發多個互相關聯、棘手問題的複雜情況」是「can of worms」的用法，與本句語境不同。"
+        "can-mcq-30": "本句的「can be impatient」指「表示某人／某物在某些情況下具有某種傾向或特徵」。",
+        "can-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-30"
     },
@@ -1866,11 +1750,9 @@ export default {
       "masked": "Children ____ be surprisingly wise.",
       "options": [
         "can-mcq-30",
-        "can-mcq-29",
-        "can-mcq-31",
-        "can-mcq-28",
-        "can-mcq-32",
-        "can-mcq-27"
+        "can-mcq-13",
+        "can-mcq-25",
+        "can-pdf-001"
       ],
       "explanation": "本句的「can」指「表示某人／某物在某些情況下具有某種傾向或特徵」。",
       "sentenceIndex": 32,
@@ -1879,12 +1761,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-30": "本句指「表示某人／某物在某些情況下具有某種傾向或特徵」。",
-        "can-mcq-29": "「表示說話者允許對方做某事」是「12. You can…（你可以……） — 給予許可」的用法，與本句語境不同。",
-        "can-mcq-31": "「根據一般規律／經驗，某結果有可能出現」是「17. can = theoretical/general possibility（一般可能性） — 有可能」的用法，與本句語境不同。",
-        "can-mcq-28": "「認知、記憶或理解能力足以完成某事」是「4. can = mentally/intellectually able to（理解／思考能力上能） — 能夠」的用法，與本句語境不同。",
-        "can-mcq-32": "「具備感知／察覺某事的能力或當前條件」是「28. can tell / can see / can hear（能看出／聽出／判斷） — 能夠察覺」的用法，與本句語境不同。",
-        "can-mcq-27": "「一個會引發多個互相關聯、棘手問題的複雜情況」是「can of worms」的用法，與本句語境不同。"
+        "can-mcq-30": "本句的「can」指「表示某人／某物在某些情況下具有某種傾向或特徵」。",
+        "can-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "can-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-30"
     },
@@ -1896,11 +1776,9 @@ export default {
       "masked": "Too much stress ____ sleep.",
       "options": [
         "can-mcq-31",
-        "can-mcq-30",
-        "can-mcq-32",
-        "can-mcq-29",
-        "can-mcq-33",
-        "can-mcq-28"
+        "can-mcq-11",
+        "can-mcq-36",
+        "can-mcq-30"
       ],
       "explanation": "本句的「can affect」指「根據一般規律／經驗，某結果有可能出現」。",
       "sentenceIndex": 33,
@@ -1909,12 +1787,10 @@ export default {
         "can affect"
       ],
       "optionReasons": {
-        "can-mcq-31": "本句指「根據一般規律／經驗，某結果有可能出現」。",
-        "can-mcq-30": "「表示某人／某物在某些情況下具有某種傾向或特徵」是「16. can = general characteristic / tendency（有時會） — 會；可能會」的用法，與本句語境不同。",
-        "can-mcq-32": "「具備感知／察覺某事的能力或當前條件」是「28. can tell / can see / can hear（能看出／聽出／判斷） — 能夠察覺」的用法，與本句語境不同。",
-        "can-mcq-29": "「表示說話者允許對方做某事」是「12. You can…（你可以……） — 給予許可」的用法，與本句語境不同。",
-        "can-mcq-33": "「具有完成目標所需能力／條件」是「29. can = achieve / manage（能做到） — 做得到」的用法，與本句語境不同。",
-        "can-mcq-28": "「認知、記憶或理解能力足以完成某事」是「4. can = mentally/intellectually able to（理解／思考能力上能） — 能夠」的用法，與本句語境不同。"
+        "can-mcq-31": "本句的「can affect」指「根據一般規律／經驗，某結果有可能出現」。",
+        "can-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-31"
     },
@@ -1926,11 +1802,9 @@ export default {
       "masked": "Kindness ____ change people.",
       "options": [
         "can-mcq-31",
-        "can-mcq-30",
-        "can-mcq-32",
         "can-mcq-29",
-        "can-mcq-33",
-        "can-mcq-28"
+        "can-mcq-32",
+        "can-mcq-35"
       ],
       "explanation": "本句的「can」指「根據一般規律／經驗，某結果有可能出現」。",
       "sentenceIndex": 34,
@@ -1939,12 +1813,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-31": "本句指「根據一般規律／經驗，某結果有可能出現」。",
-        "can-mcq-30": "「表示某人／某物在某些情況下具有某種傾向或特徵」是「16. can = general characteristic / tendency（有時會） — 會；可能會」的用法，與本句語境不同。",
-        "can-mcq-32": "「具備感知／察覺某事的能力或當前條件」是「28. can tell / can see / can hear（能看出／聽出／判斷） — 能夠察覺」的用法，與本句語境不同。",
-        "can-mcq-29": "「表示說話者允許對方做某事」是「12. You can…（你可以……） — 給予許可」的用法，與本句語境不同。",
-        "can-mcq-33": "「具有完成目標所需能力／條件」是「29. can = achieve / manage（能做到） — 做得到」的用法，與本句語境不同。",
-        "can-mcq-28": "「認知、記憶或理解能力足以完成某事」是「4. can = mentally/intellectually able to（理解／思考能力上能） — 能夠」的用法，與本句語境不同。"
+        "can-mcq-31": "本句的「can」指「根據一般規律／經驗，某結果有可能出現」。",
+        "can-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-31"
     },
@@ -1956,11 +1828,9 @@ export default {
       "masked": "I ____ it.",
       "options": [
         "can-mcq-11",
-        "can-mcq-10",
-        "can-mcq-12",
-        "can-mcq-09",
-        "can-mcq-13",
-        "can-mcq-08"
+        "can-mcq-30",
+        "can-mcq-36",
+        "can-mcq-14"
       ],
       "explanation": "本句的「can’t lift」指「缺乏完成某項行動所需的能力」。",
       "sentenceIndex": 35,
@@ -1969,12 +1839,10 @@ export default {
         "can’t lift"
       ],
       "optionReasons": {
-        "can-mcq-11": "本句指「缺乏完成某項行動所需的能力」。",
-        "can-mcq-10": "「表示某個選項／安排在目前情況下可行」是「can — option」的用法，與本句語境不同。",
-        "can-mcq-12": "「規則、權限或他人不允許某行動」是「can’t — prohibition」的用法，與本句語境不同。",
-        "can-mcq-09": "「禮貌地要求某人替自己做某件事」是「Can you…? — request」的用法，與本句語境不同。",
-        "can-mcq-13": "「根據證據判斷某件事不可能為真」是「can’t be」的用法，與本句語境不同。",
-        "can-mcq-08": "「非正式而常見地請求許可」是「Can I…?」的用法，與本句語境不同。"
+        "can-mcq-11": "本句的「can’t lift」指「缺乏完成某項行動所需的能力」。",
+        "can-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-11"
     },
@@ -1986,11 +1854,9 @@ export default {
       "masked": "She ____’t swim.",
       "options": [
         "can-mcq-11",
-        "can-mcq-10",
-        "can-mcq-12",
-        "can-mcq-09",
-        "can-mcq-13",
-        "can-mcq-08"
+        "can-mcq-23",
+        "can-mcq-29",
+        "can-mcq-22"
       ],
       "explanation": "本句的「can」指「缺乏完成某項行動所需的能力」。",
       "sentenceIndex": 36,
@@ -1999,12 +1865,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-11": "本句指「缺乏完成某項行動所需的能力」。",
-        "can-mcq-10": "「表示某個選項／安排在目前情況下可行」是「can — option」的用法，與本句語境不同。",
-        "can-mcq-12": "「規則、權限或他人不允許某行動」是「can’t — prohibition」的用法，與本句語境不同。",
-        "can-mcq-09": "「禮貌地要求某人替自己做某件事」是「Can you…? — request」的用法，與本句語境不同。",
-        "can-mcq-13": "「根據證據判斷某件事不可能為真」是「can’t be」的用法，與本句語境不同。",
-        "can-mcq-08": "「非正式而常見地請求許可」是「Can I…?」的用法，與本句語境不同。"
+        "can-mcq-11": "本句的「can」指「缺乏完成某項行動所需的能力」。",
+        "can-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-11"
     },
@@ -2016,11 +1880,9 @@ export default {
       "masked": "You ____.",
       "options": [
         "can-mcq-12",
-        "can-mcq-11",
-        "can-mcq-13",
-        "can-mcq-10",
-        "can-mcq-14",
-        "can-mcq-09"
+        "can-mcq-06",
+        "can-mcq-19",
+        "can-reviewed-ca9202f170"
       ],
       "explanation": "本句的「can’t park here」指「規則、權限或他人不允許某行動」。",
       "sentenceIndex": 37,
@@ -2029,12 +1891,10 @@ export default {
         "can’t park here"
       ],
       "optionReasons": {
-        "can-mcq-12": "本句指「規則、權限或他人不允許某行動」。",
-        "can-mcq-11": "「缺乏完成某項行動所需的能力」是「can’t — inability」的用法，與本句語境不同。",
-        "can-mcq-13": "「根據證據判斷某件事不可能為真」是「can’t be」的用法，與本句語境不同。",
-        "can-mcq-10": "「表示某個選項／安排在目前情況下可行」是「can — option」的用法，與本句語境不同。",
-        "can-mcq-14": "「推斷某件過去的事情不可能發生過」是「can’t have done」的用法，與本句語境不同。",
-        "can-mcq-09": "「禮貌地要求某人替自己做某件事」是「Can you…? — request」的用法，與本句語境不同。"
+        "can-mcq-12": "本句的「can’t park here」指「規則、權限或他人不允許某行動」。",
+        "can-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "can-reviewed-ca9202f170": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-12"
     },
@@ -2046,11 +1906,9 @@ export default {
       "masked": "Students ____’t use phones during the exam.",
       "options": [
         "can-mcq-12",
-        "can-mcq-11",
-        "can-mcq-13",
-        "can-mcq-10",
-        "can-mcq-14",
-        "can-mcq-09"
+        "can-mcq-20",
+        "can-mcq-27",
+        "can-mcq-25"
       ],
       "explanation": "本句的「can」指「規則、權限或他人不允許某行動」。",
       "sentenceIndex": 38,
@@ -2059,12 +1917,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-12": "本句指「規則、權限或他人不允許某行動」。",
-        "can-mcq-11": "「缺乏完成某項行動所需的能力」是「can’t — inability」的用法，與本句語境不同。",
-        "can-mcq-13": "「根據證據判斷某件事不可能為真」是「can’t be」的用法，與本句語境不同。",
-        "can-mcq-10": "「表示某個選項／安排在目前情況下可行」是「can — option」的用法，與本句語境不同。",
-        "can-mcq-14": "「推斷某件過去的事情不可能發生過」是「can’t have done」的用法，與本句語境不同。",
-        "can-mcq-09": "「禮貌地要求某人替自己做某件事」是「Can you…? — request」的用法，與本句語境不同。"
+        "can-mcq-12": "本句的「can」指「規則、權限或他人不允許某行動」。",
+        "can-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-12"
     },
@@ -2076,11 +1932,9 @@ export default {
       "masked": "That ____.",
       "options": [
         "can-mcq-13",
-        "can-mcq-12",
-        "can-mcq-14",
-        "can-mcq-11",
-        "can-mcq-15",
-        "can-mcq-10"
+        "can-mcq-34",
+        "can-mcq-29",
+        "can-mcq-26"
       ],
       "explanation": "本句的「can’t be true」指「根據證據判斷某件事不可能為真」。",
       "sentenceIndex": 39,
@@ -2089,12 +1943,10 @@ export default {
         "can’t be true"
       ],
       "optionReasons": {
-        "can-mcq-13": "本句指「根據證據判斷某件事不可能為真」。",
-        "can-mcq-12": "「規則、權限或他人不允許某行動」是「can’t — prohibition」的用法，與本句語境不同。",
-        "can-mcq-14": "「推斷某件過去的事情不可能發生過」是「can’t have done」的用法，與本句語境不同。",
-        "can-mcq-11": "「缺乏完成某項行動所需的能力」是「can’t — inability」的用法，與本句語境不同。",
-        "can-mcq-15": "「無法阻止自己產生某行動／反應；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "can-mcq-10": "「表示某個選項／安排在目前情況下可行」是「can — option」的用法，與本句語境不同。"
+        "can-mcq-13": "本句的「can’t be true」指「根據證據判斷某件事不可能為真」。",
+        "can-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-13"
     },
@@ -2106,11 +1958,9 @@ export default {
       "masked": "He ____’t be at home—his car is gone.",
       "options": [
         "can-mcq-13",
-        "can-mcq-12",
-        "can-mcq-14",
-        "can-mcq-11",
+        "can-mcq-01",
         "can-mcq-15",
-        "can-mcq-10"
+        "can-pdf-002"
       ],
       "explanation": "本句的「can」指「根據證據判斷某件事不可能為真」。",
       "sentenceIndex": 40,
@@ -2119,12 +1969,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-13": "本句指「根據證據判斷某件事不可能為真」。",
-        "can-mcq-12": "「規則、權限或他人不允許某行動」是「can’t — prohibition」的用法，與本句語境不同。",
-        "can-mcq-14": "「推斷某件過去的事情不可能發生過」是「can’t have done」的用法，與本句語境不同。",
-        "can-mcq-11": "「缺乏完成某項行動所需的能力」是「can’t — inability」的用法，與本句語境不同。",
-        "can-mcq-15": "「無法阻止自己產生某行動／反應；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "can-mcq-10": "「表示某個選項／安排在目前情況下可行」是「can — option」的用法，與本句語境不同。"
+        "can-mcq-13": "本句的「can」指「根據證據判斷某件事不可能為真」。",
+        "can-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "can-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-13"
     },
@@ -2136,11 +1984,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "can-mcq-14",
-        "can-mcq-13",
-        "can-mcq-15",
-        "can-mcq-12",
-        "can-mcq-16",
-        "can-mcq-11"
+        "can-mcq-23",
+        "can-mcq-01",
+        "can-mcq-21"
       ],
       "explanation": "本句的「can’t have forgotten」指「推斷某件過去的事情不可能發生過」。",
       "sentenceIndex": 41,
@@ -2149,12 +1995,10 @@ export default {
         "can’t have forgotten"
       ],
       "optionReasons": {
-        "can-mcq-14": "本句指「推斷某件過去的事情不可能發生過」。",
-        "can-mcq-13": "「根據證據判斷某件事不可能為真」是「can’t be」的用法，與本句語境不同。",
-        "can-mcq-15": "「無法阻止自己產生某行動／反應；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "can-mcq-12": "「規則、權限或他人不允許某行動」是「can’t — prohibition」的用法，與本句語境不同。",
-        "can-mcq-16": "「對某人／某物極度不喜歡或無法忍受」是「can’t stand」的用法，與本句語境不同。",
-        "can-mcq-11": "「缺乏完成某項行動所需的能力」是「can’t — inability」的用法，與本句語境不同。"
+        "can-mcq-14": "本句的「can’t have forgotten」指「推斷某件過去的事情不可能發生過」。",
+        "can-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-14"
     },
@@ -2166,11 +2010,9 @@ export default {
       "masked": "They ____’t have finished already.",
       "options": [
         "can-mcq-14",
-        "can-mcq-13",
-        "can-mcq-15",
-        "can-mcq-12",
-        "can-mcq-16",
-        "can-mcq-11"
+        "can-mcq-02",
+        "can-mcq-17",
+        "can-mcq-22"
       ],
       "explanation": "本句的「can」指「推斷某件過去的事情不可能發生過」。",
       "sentenceIndex": 42,
@@ -2179,12 +2021,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-14": "本句指「推斷某件過去的事情不可能發生過」。",
-        "can-mcq-13": "「根據證據判斷某件事不可能為真」是「can’t be」的用法，與本句語境不同。",
-        "can-mcq-15": "「無法阻止自己產生某行動／反應；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "can-mcq-12": "「規則、權限或他人不允許某行動」是「can’t — prohibition」的用法，與本句語境不同。",
-        "can-mcq-16": "「對某人／某物極度不喜歡或無法忍受」是「can’t stand」的用法，與本句語境不同。",
-        "can-mcq-11": "「缺乏完成某項行動所需的能力」是「can’t — inability」的用法，與本句語境不同。"
+        "can-mcq-14": "本句的「can」指「推斷某件過去的事情不可能發生過」。",
+        "can-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-14"
     },
@@ -2196,11 +2036,9 @@ export default {
       "masked": "I ____ when I see her.",
       "options": [
         "can-mcq-15",
-        "can-mcq-14",
-        "can-mcq-16",
-        "can-mcq-13",
-        "can-mcq-17",
-        "can-mcq-12"
+        "can-mcq-18",
+        "can-mcq-35",
+        "can-mcq-25"
       ],
       "explanation": "本句的「can’t help smiling」指「無法阻止自己產生某行動／反應；忍不住」。",
       "sentenceIndex": 43,
@@ -2209,12 +2047,10 @@ export default {
         "can’t help smiling"
       ],
       "optionReasons": {
-        "can-mcq-15": "本句指「無法阻止自己產生某行動／反應；忍不住」。",
-        "can-mcq-14": "「推斷某件過去的事情不可能發生過」是「can’t have done」的用法，與本句語境不同。",
-        "can-mcq-16": "「對某人／某物極度不喜歡或無法忍受」是「can’t stand」的用法，與本句語境不同。",
-        "can-mcq-13": "「根據證據判斷某件事不可能為真」是「can’t be」的用法，與本句語境不同。",
-        "can-mcq-17": "「金錢不足，或某行動的代價／後果太高而不能承受」是「can’t afford」的用法，與本句語境不同。",
-        "can-mcq-12": "「規則、權限或他人不允許某行動」是「can’t — prohibition」的用法，與本句語境不同。"
+        "can-mcq-15": "本句的「can’t help smiling」指「無法阻止自己產生某行動／反應；忍不住」。",
+        "can-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-15"
     },
@@ -2226,11 +2062,9 @@ export default {
       "masked": "She ____’t help laughing.",
       "options": [
         "can-mcq-15",
-        "can-mcq-14",
-        "can-mcq-16",
-        "can-mcq-13",
-        "can-mcq-17",
-        "can-mcq-12"
+        "can-mcq-18",
+        "can-mcq-22",
+        "can-mcq-33"
       ],
       "explanation": "本句的「couldn」指「無法阻止自己產生某行動／反應；忍不住」。",
       "sentenceIndex": 44,
@@ -2239,12 +2073,10 @@ export default {
         "couldn"
       ],
       "optionReasons": {
-        "can-mcq-15": "本句指「無法阻止自己產生某行動／反應；忍不住」。",
-        "can-mcq-14": "「推斷某件過去的事情不可能發生過」是「can’t have done」的用法，與本句語境不同。",
-        "can-mcq-16": "「對某人／某物極度不喜歡或無法忍受」是「can’t stand」的用法，與本句語境不同。",
-        "can-mcq-13": "「根據證據判斷某件事不可能為真」是「can’t be」的用法，與本句語境不同。",
-        "can-mcq-17": "「金錢不足，或某行動的代價／後果太高而不能承受」是「can’t afford」的用法，與本句語境不同。",
-        "can-mcq-12": "「規則、權限或他人不允許某行動」是「can’t — prohibition」的用法，與本句語境不同。"
+        "can-mcq-15": "本句的「couldn」指「無法阻止自己產生某行動／反應；忍不住」。",
+        "can-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-15"
     },
@@ -2256,11 +2088,9 @@ export default {
       "masked": "I ____ her.",
       "options": [
         "can-mcq-15",
-        "can-mcq-14",
-        "can-mcq-16",
-        "can-mcq-13",
-        "can-mcq-17",
-        "can-mcq-12"
+        "can-mcq-36",
+        "can-mcq-18",
+        "can-mcq-33"
       ],
       "explanation": "本句的「can’t help but admire」指「無法阻止自己產生某行動／反應；忍不住」。",
       "sentenceIndex": 45,
@@ -2269,12 +2099,10 @@ export default {
         "can’t help but admire"
       ],
       "optionReasons": {
-        "can-mcq-15": "本句指「無法阻止自己產生某行動／反應；忍不住」。",
-        "can-mcq-14": "「推斷某件過去的事情不可能發生過」是「can’t have done」的用法，與本句語境不同。",
-        "can-mcq-16": "「對某人／某物極度不喜歡或無法忍受」是「can’t stand」的用法，與本句語境不同。",
-        "can-mcq-13": "「根據證據判斷某件事不可能為真」是「can’t be」的用法，與本句語境不同。",
-        "can-mcq-17": "「金錢不足，或某行動的代價／後果太高而不能承受」是「can’t afford」的用法，與本句語境不同。",
-        "can-mcq-12": "「規則、權限或他人不允許某行動」是「can’t — prohibition」的用法，與本句語境不同。"
+        "can-mcq-15": "本句的「can’t help but admire」指「無法阻止自己產生某行動／反應；忍不住」。",
+        "can-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-15"
     },
@@ -2286,11 +2114,9 @@ export default {
       "masked": "You ____’t help but notice the difference.",
       "options": [
         "can-mcq-15",
-        "can-mcq-14",
-        "can-mcq-16",
-        "can-mcq-13",
-        "can-mcq-17",
-        "can-mcq-12"
+        "can-mcq-04",
+        "can-mcq-27",
+        "can-mcq-26"
       ],
       "explanation": "本句的「can」指「無法阻止自己產生某行動／反應；忍不住」。",
       "sentenceIndex": 46,
@@ -2299,12 +2125,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-15": "本句指「無法阻止自己產生某行動／反應；忍不住」。",
-        "can-mcq-14": "「推斷某件過去的事情不可能發生過」是「can’t have done」的用法，與本句語境不同。",
-        "can-mcq-16": "「對某人／某物極度不喜歡或無法忍受」是「can’t stand」的用法，與本句語境不同。",
-        "can-mcq-13": "「根據證據判斷某件事不可能為真」是「can’t be」的用法，與本句語境不同。",
-        "can-mcq-17": "「金錢不足，或某行動的代價／後果太高而不能承受」是「can’t afford」的用法，與本句語境不同。",
-        "can-mcq-12": "「規則、權限或他人不允許某行動」是「can’t — prohibition」的用法，與本句語境不同。"
+        "can-mcq-15": "本句的「can」指「無法阻止自己產生某行動／反應；忍不住」。",
+        "can-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-15"
     },
@@ -2316,11 +2140,9 @@ export default {
       "masked": "I ____ the noise.",
       "options": [
         "can-mcq-16",
-        "can-mcq-15",
-        "can-mcq-17",
-        "can-mcq-14",
-        "can-mcq-18",
-        "can-mcq-13"
+        "can-mcq-29",
+        "can-mcq-05",
+        "can-mcq-01"
       ],
       "explanation": "本句的「can’t stand」指「對某人／某物極度不喜歡或無法忍受」。",
       "sentenceIndex": 47,
@@ -2329,12 +2151,10 @@ export default {
         "can’t stand"
       ],
       "optionReasons": {
-        "can-mcq-16": "本句指「對某人／某物極度不喜歡或無法忍受」。",
-        "can-mcq-15": "「無法阻止自己產生某行動／反應；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "can-mcq-17": "「金錢不足，或某行動的代價／後果太高而不能承受」是「can’t afford」的用法，與本句語境不同。",
-        "can-mcq-14": "「推斷某件過去的事情不可能發生過」是「can’t have done」的用法，與本句語境不同。",
-        "can-mcq-18": "「非常期待某件事；迫不及待」是「can’t wait」的用法，與本句語境不同。",
-        "can-mcq-13": "「根據證據判斷某件事不可能為真」是「can’t be」的用法，與本句語境不同。"
+        "can-mcq-16": "本句的「can’t stand」指「對某人／某物極度不喜歡或無法忍受」。",
+        "can-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-16"
     },
@@ -2346,11 +2166,9 @@ export default {
       "masked": "She ____’t stand being ignored.",
       "options": [
         "can-mcq-16",
-        "can-mcq-15",
-        "can-mcq-17",
-        "can-mcq-14",
-        "can-mcq-18",
-        "can-mcq-13"
+        "can-mcq-36",
+        "can-mcq-01",
+        "can-mcq-10"
       ],
       "explanation": "本句的「can」指「對某人／某物極度不喜歡或無法忍受」。",
       "sentenceIndex": 48,
@@ -2359,74 +2177,68 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-16": "本句指「對某人／某物極度不喜歡或無法忍受」。",
-        "can-mcq-15": "「無法阻止自己產生某行動／反應；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "can-mcq-17": "「金錢不足，或某行動的代價／後果太高而不能承受」是「can’t afford」的用法，與本句語境不同。",
-        "can-mcq-14": "「推斷某件過去的事情不可能發生過」是「can’t have done」的用法，與本句語境不同。",
-        "can-mcq-18": "「非常期待某件事；迫不及待」是「can’t wait」的用法，與本句語境不同。",
-        "can-mcq-13": "「根據證據判斷某件事不可能為真」是「can’t be」的用法，與本句語境不同。"
+        "can-mcq-16": "本句的「can」指「對某人／某物極度不喜歡或無法忍受」。",
+        "can-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-16"
     },
     {
       "id": "can-25-0",
-      "sense": "can-mcq-17",
+      "sense": "can-reviewed-ca9202f170",
       "en": "I can’t bear to see her upset.",
       "zh": "我不忍心／受不了看見她難過。",
       "masked": "I ____ to see her upset.",
       "options": [
-        "can-mcq-17",
-        "can-mcq-16",
-        "can-mcq-18",
-        "can-mcq-15",
-        "can-mcq-19",
-        "can-mcq-14"
+        "can-reviewed-ca9202f170",
+        "can-mcq-30",
+        "can-mcq-01",
+        "can-mcq-21"
       ],
-      "explanation": "本句的「can’t bear」指「金錢不足，或某行動的代價／後果太高而不能承受」。",
+      "explanation": "對照完整句子：「我不忍心／受不了看見她難過。」。這裡的「can’t bear」表示「情感上無法忍受某件事」。",
       "sentenceIndex": 49,
       "sourcePractice": 50,
       "targets": [
         "can’t bear"
       ],
       "optionReasons": {
-        "can-mcq-17": "本句指「金錢不足，或某行動的代價／後果太高而不能承受」。",
-        "can-mcq-16": "「對某人／某物極度不喜歡或無法忍受」是「can’t stand」的用法，與本句語境不同。",
-        "can-mcq-18": "「非常期待某件事；迫不及待」是「can’t wait」的用法，與本句語境不同。",
-        "can-mcq-15": "「無法阻止自己產生某行動／反應；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "can-mcq-19": "「非正式表示自己能夠並願意完成某項要求」是「can do」的用法，與本句語境不同。",
-        "can-mcq-14": "「推斷某件過去的事情不可能發生過」是「can’t have done」的用法，與本句語境不同。"
+        "can-reviewed-ca9202f170": "對照完整句子：「我不忍心／受不了看見她難過。」。這裡的「can’t bear」表示「情感上無法忍受某件事」。",
+        "can-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "can-mcq-17"
+      "correctOption": "can-reviewed-ca9202f170",
+      "previousCorrectOption": "can-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "can-25-1",
-      "sense": "can-mcq-17",
+      "sense": "can-reviewed-ca9202f170",
       "en": "He can’t bear the thought of leaving.",
       "zh": "他無法忍受想到要離開。",
       "masked": "He ____’t bear the thought of leaving.",
       "options": [
-        "can-mcq-17",
-        "can-mcq-16",
-        "can-mcq-18",
-        "can-mcq-15",
-        "can-mcq-19",
-        "can-mcq-14"
+        "can-reviewed-ca9202f170",
+        "can-mcq-06",
+        "can-mcq-24",
+        "can-mcq-02"
       ],
-      "explanation": "本句的「can」指「金錢不足，或某行動的代價／後果太高而不能承受」。",
+      "explanation": "對照完整句子：「他無法忍受想到要離開。」。這裡的「can」表示「情感上無法忍受某件事」。",
       "sentenceIndex": 50,
       "sourcePractice": 51,
       "targets": [
         "can"
       ],
       "optionReasons": {
-        "can-mcq-17": "本句指「金錢不足，或某行動的代價／後果太高而不能承受」。",
-        "can-mcq-16": "「對某人／某物極度不喜歡或無法忍受」是「can’t stand」的用法，與本句語境不同。",
-        "can-mcq-18": "「非常期待某件事；迫不及待」是「can’t wait」的用法，與本句語境不同。",
-        "can-mcq-15": "「無法阻止自己產生某行動／反應；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "can-mcq-19": "「非正式表示自己能夠並願意完成某項要求」是「can do」的用法，與本句語境不同。",
-        "can-mcq-14": "「推斷某件過去的事情不可能發生過」是「can’t have done」的用法，與本句語境不同。"
+        "can-reviewed-ca9202f170": "對照完整句子：「他無法忍受想到要離開。」。這裡的「can」表示「情感上無法忍受某件事」。",
+        "can-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "can-mcq-17"
+      "correctOption": "can-reviewed-ca9202f170",
+      "previousCorrectOption": "can-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "can-26-0",
@@ -2436,11 +2248,9 @@ export default {
       "masked": "I ____ a new car.",
       "options": [
         "can-mcq-17",
-        "can-mcq-16",
-        "can-mcq-18",
-        "can-mcq-15",
         "can-mcq-19",
-        "can-mcq-14"
+        "can-mcq-14",
+        "can-mcq-29"
       ],
       "explanation": "本句的「can’t afford」指「金錢不足，或某行動的代價／後果太高而不能承受」。",
       "sentenceIndex": 51,
@@ -2449,12 +2259,10 @@ export default {
         "can’t afford"
       ],
       "optionReasons": {
-        "can-mcq-17": "本句指「金錢不足，或某行動的代價／後果太高而不能承受」。",
-        "can-mcq-16": "「對某人／某物極度不喜歡或無法忍受」是「can’t stand」的用法，與本句語境不同。",
-        "can-mcq-18": "「非常期待某件事；迫不及待」是「can’t wait」的用法，與本句語境不同。",
-        "can-mcq-15": "「無法阻止自己產生某行動／反應；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "can-mcq-19": "「非正式表示自己能夠並願意完成某項要求」是「can do」的用法，與本句語境不同。",
-        "can-mcq-14": "「推斷某件過去的事情不可能發生過」是「can’t have done」的用法，與本句語境不同。"
+        "can-mcq-17": "本句的「can’t afford」指「金錢不足，或某行動的代價／後果太高而不能承受」。",
+        "can-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-17"
     },
@@ -2466,11 +2274,9 @@ export default {
       "masked": "We ____’t afford to waste time.",
       "options": [
         "can-mcq-17",
-        "can-mcq-16",
-        "can-mcq-18",
-        "can-mcq-15",
-        "can-mcq-19",
-        "can-mcq-14"
+        "can-mcq-04",
+        "can-mcq-24",
+        "can-mcq-18"
       ],
       "explanation": "本句的「can」指「金錢不足，或某行動的代價／後果太高而不能承受」。",
       "sentenceIndex": 52,
@@ -2479,12 +2285,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-17": "本句指「金錢不足，或某行動的代價／後果太高而不能承受」。",
-        "can-mcq-16": "「對某人／某物極度不喜歡或無法忍受」是「can’t stand」的用法，與本句語境不同。",
-        "can-mcq-18": "「非常期待某件事；迫不及待」是「can’t wait」的用法，與本句語境不同。",
-        "can-mcq-15": "「無法阻止自己產生某行動／反應；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "can-mcq-19": "「非正式表示自己能夠並願意完成某項要求」是「can do」的用法，與本句語境不同。",
-        "can-mcq-14": "「推斷某件過去的事情不可能發生過」是「can’t have done」的用法，與本句語境不同。"
+        "can-mcq-17": "本句的「can」指「金錢不足，或某行動的代價／後果太高而不能承受」。",
+        "can-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-17"
     },
@@ -2496,11 +2300,9 @@ export default {
       "masked": "I ____ to see her.",
       "options": [
         "can-mcq-18",
-        "can-mcq-17",
-        "can-mcq-19",
-        "can-mcq-16",
-        "can-mcq-20",
-        "can-mcq-15"
+        "can-mcq-10",
+        "can-mcq-21",
+        "can-mcq-11"
       ],
       "explanation": "本句的「can’t wait」指「非常期待某件事；迫不及待」。",
       "sentenceIndex": 53,
@@ -2509,12 +2311,10 @@ export default {
         "can’t wait"
       ],
       "optionReasons": {
-        "can-mcq-18": "本句指「非常期待某件事；迫不及待」。",
-        "can-mcq-17": "「金錢不足，或某行動的代價／後果太高而不能承受」是「can’t afford」的用法，與本句語境不同。",
-        "can-mcq-19": "「非正式表示自己能夠並願意完成某項要求」是「can do」的用法，與本句語境不同。",
-        "can-mcq-16": "「對某人／某物極度不喜歡或無法忍受」是「can’t stand」的用法，與本句語境不同。",
-        "can-mcq-20": "「用金屬製成、用來盛裝食物／飲品等的容器」是「a can」的用法，與本句語境不同。",
-        "can-mcq-15": "「無法阻止自己產生某行動／反應；忍不住」是「can’t help doing」的用法，與本句語境不同。"
+        "can-mcq-18": "本句的「can’t wait」指「非常期待某件事；迫不及待」。",
+        "can-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-18"
     },
@@ -2527,10 +2327,8 @@ export default {
       "options": [
         "can-mcq-18",
         "can-mcq-17",
-        "can-mcq-19",
-        "can-mcq-16",
-        "can-mcq-20",
-        "can-mcq-15"
+        "can-mcq-22",
+        "can-mcq-26"
       ],
       "explanation": "本句的「can」指「非常期待某件事；迫不及待」。",
       "sentenceIndex": 54,
@@ -2539,12 +2337,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-18": "本句指「非常期待某件事；迫不及待」。",
-        "can-mcq-17": "「金錢不足，或某行動的代價／後果太高而不能承受」是「can’t afford」的用法，與本句語境不同。",
-        "can-mcq-19": "「非正式表示自己能夠並願意完成某項要求」是「can do」的用法，與本句語境不同。",
-        "can-mcq-16": "「對某人／某物極度不喜歡或無法忍受」是「can’t stand」的用法，與本句語境不同。",
-        "can-mcq-20": "「用金屬製成、用來盛裝食物／飲品等的容器」是「a can」的用法，與本句語境不同。",
-        "can-mcq-15": "「無法阻止自己產生某行動／反應；忍不住」是「can’t help doing」的用法，與本句語境不同。"
+        "can-mcq-18": "本句的「can」指「非常期待某件事；迫不及待」。",
+        "can-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-18"
     },
@@ -2556,11 +2352,9 @@ export default {
       "masked": "I ____ she is tired.",
       "options": [
         "can-mcq-32",
-        "can-mcq-31",
-        "can-mcq-33",
-        "can-mcq-30",
-        "can-mcq-34",
-        "can-mcq-29"
+        "can-mcq-36",
+        "can-mcq-06",
+        "can-mcq-25"
       ],
       "explanation": "本句的「can tell」指「具備感知／察覺某事的能力或當前條件」。",
       "sentenceIndex": 55,
@@ -2569,12 +2363,10 @@ export default {
         "can tell"
       ],
       "optionReasons": {
-        "can-mcq-32": "本句指「具備感知／察覺某事的能力或當前條件」。",
-        "can-mcq-31": "「根據一般規律／經驗，某結果有可能出現」是「17. can = theoretical/general possibility（一般可能性） — 有可能」的用法，與本句語境不同。",
-        "can-mcq-33": "「具有完成目標所需能力／條件」是「29. can = achieve / manage（能做到） — 做得到」的用法，與本句語境不同。",
-        "can-mcq-30": "「表示某人／某物在某些情況下具有某種傾向或特徵」是「16. can = general characteristic / tendency（有時會） — 會；可能會」的用法，與本句語境不同。",
-        "can-mcq-34": "「無法不做；正式表示某反應幾乎不可避免」是「31. cannot but + verb（不得不） — 不能不；只好」的用法，與本句語境不同。",
-        "can-mcq-29": "「表示說話者允許對方做某事」是「12. You can…（你可以……） — 給予許可」的用法，與本句語境不同。"
+        "can-mcq-32": "本句的「can tell」指「具備感知／察覺某事的能力或當前條件」。",
+        "can-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-32"
     },
@@ -2586,11 +2378,9 @@ export default {
       "masked": "I ____ hear someone outside.",
       "options": [
         "can-mcq-32",
-        "can-mcq-31",
-        "can-mcq-33",
-        "can-mcq-30",
-        "can-mcq-34",
-        "can-mcq-29"
+        "can-mcq-06",
+        "can-mcq-08",
+        "can-mcq-35"
       ],
       "explanation": "本句的「can」指「具備感知／察覺某事的能力或當前條件」。",
       "sentenceIndex": 56,
@@ -2599,12 +2389,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-32": "本句指「具備感知／察覺某事的能力或當前條件」。",
-        "can-mcq-31": "「根據一般規律／經驗，某結果有可能出現」是「17. can = theoretical/general possibility（一般可能性） — 有可能」的用法，與本句語境不同。",
-        "can-mcq-33": "「具有完成目標所需能力／條件」是「29. can = achieve / manage（能做到） — 做得到」的用法，與本句語境不同。",
-        "can-mcq-30": "「表示某人／某物在某些情況下具有某種傾向或特徵」是「16. can = general characteristic / tendency（有時會） — 會；可能會」的用法，與本句語境不同。",
-        "can-mcq-34": "「無法不做；正式表示某反應幾乎不可避免」是「31. cannot but + verb（不得不） — 不能不；只好」的用法，與本句語境不同。",
-        "can-mcq-29": "「表示說話者允許對方做某事」是「12. You can…（你可以……） — 給予許可」的用法，與本句語境不同。"
+        "can-mcq-32": "本句的「can」指「具備感知／察覺某事的能力或當前條件」。",
+        "can-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-32"
     },
@@ -2616,11 +2404,9 @@ export default {
       "masked": "You ____.",
       "options": [
         "can-mcq-33",
-        "can-mcq-32",
-        "can-mcq-34",
-        "can-mcq-31",
-        "can-mcq-35",
-        "can-mcq-30"
+        "can-mcq-25",
+        "can-mcq-12",
+        "can-mcq-22"
       ],
       "explanation": "本句的「can do it」指「具有完成目標所需能力／條件」。",
       "sentenceIndex": 57,
@@ -2629,12 +2415,10 @@ export default {
         "can do it"
       ],
       "optionReasons": {
-        "can-mcq-33": "本句指「具有完成目標所需能力／條件」。",
-        "can-mcq-32": "「具備感知／察覺某事的能力或當前條件」是「28. can tell / can see / can hear（能看出／聽出／判斷） — 能夠察覺」的用法，與本句語境不同。",
-        "can-mcq-34": "「無法不做；正式表示某反應幾乎不可避免」是「31. cannot but + verb（不得不） — 不能不；只好」的用法，與本句語境不同。",
-        "can-mcq-31": "「根據一般規律／經驗，某結果有可能出現」是「17. can = theoretical/general possibility（一般可能性） — 有可能」的用法，與本句語境不同。",
-        "can-mcq-35": "「以罐作為計量單位，指一整罐內容物」是「34. can = contents of one can（一罐的量） — 一罐份量」的用法，與本句語境不同。",
-        "can-mcq-30": "「表示某人／某物在某些情況下具有某種傾向或特徵」是「16. can = general characteristic / tendency（有時會） — 會；可能會」的用法，與本句語境不同。"
+        "can-mcq-33": "本句的「can do it」指「具有完成目標所需能力／條件」。",
+        "can-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-33"
     },
@@ -2646,11 +2430,9 @@ export default {
       "masked": "I think we ____ finish today.",
       "options": [
         "can-mcq-33",
-        "can-mcq-32",
-        "can-mcq-34",
-        "can-mcq-31",
-        "can-mcq-35",
-        "can-mcq-30"
+        "can-mcq-36",
+        "can-mcq-29",
+        "can-mcq-17"
       ],
       "explanation": "本句的「can」指「具有完成目標所需能力／條件」。",
       "sentenceIndex": 58,
@@ -2659,12 +2441,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-33": "本句指「具有完成目標所需能力／條件」。",
-        "can-mcq-32": "「具備感知／察覺某事的能力或當前條件」是「28. can tell / can see / can hear（能看出／聽出／判斷） — 能夠察覺」的用法，與本句語境不同。",
-        "can-mcq-34": "「無法不做；正式表示某反應幾乎不可避免」是「31. cannot but + verb（不得不） — 不能不；只好」的用法，與本句語境不同。",
-        "can-mcq-31": "「根據一般規律／經驗，某結果有可能出現」是「17. can = theoretical/general possibility（一般可能性） — 有可能」的用法，與本句語境不同。",
-        "can-mcq-35": "「以罐作為計量單位，指一整罐內容物」是「34. can = contents of one can（一罐的量） — 一罐份量」的用法，與本句語境不同。",
-        "can-mcq-30": "「表示某人／某物在某些情況下具有某種傾向或特徵」是「16. can = general characteristic / tendency（有時會） — 會；可能會」的用法，與本句語境不同。"
+        "can-mcq-33": "本句的「can」指「具有完成目標所需能力／條件」。",
+        "can-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-33"
     },
@@ -2676,11 +2456,9 @@ export default {
       "masked": "‘Can you send it today?’ ‘____’",
       "options": [
         "can-mcq-19",
-        "can-mcq-18",
-        "can-mcq-20",
-        "can-mcq-17",
-        "can-mcq-21",
-        "can-mcq-16"
+        "can-mcq-22",
+        "can-mcq-29",
+        "can-reviewed-ca9202f170"
       ],
       "explanation": "本句的「Can do.」指「非正式表示自己能夠並願意完成某項要求」。",
       "sentenceIndex": 59,
@@ -2689,12 +2467,10 @@ export default {
         "Can do."
       ],
       "optionReasons": {
-        "can-mcq-19": "本句指「非正式表示自己能夠並願意完成某項要求」。",
-        "can-mcq-18": "「非常期待某件事；迫不及待」是「can’t wait」的用法，與本句語境不同。",
-        "can-mcq-20": "「用金屬製成、用來盛裝食物／飲品等的容器」是「a can」的用法，與本句語境不同。",
-        "can-mcq-17": "「金錢不足，或某行動的代價／後果太高而不能承受」是「can’t afford」的用法，與本句語境不同。",
-        "can-mcq-21": "「把食物密封裝入罐中保存」是「can — preserve」的用法，與本句語境不同。",
-        "can-mcq-16": "「對某人／某物極度不喜歡或無法忍受」是「can’t stand」的用法，與本句語境不同。"
+        "can-mcq-19": "本句的「Can do.」指「非正式表示自己能夠並願意完成某項要求」。",
+        "can-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "can-reviewed-ca9202f170": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-19"
     },
@@ -2706,11 +2482,9 @@ export default {
       "masked": "‘Please call me later.’ ‘____ do.’",
       "options": [
         "can-mcq-19",
-        "can-mcq-18",
-        "can-mcq-20",
-        "can-mcq-17",
-        "can-mcq-21",
-        "can-mcq-16"
+        "can-mcq-16",
+        "can-mcq-35",
+        "can-mcq-31"
       ],
       "explanation": "本句的「Can」指「非正式表示自己能夠並願意完成某項要求」。",
       "sentenceIndex": 60,
@@ -2719,12 +2493,10 @@ export default {
         "Can"
       ],
       "optionReasons": {
-        "can-mcq-19": "本句指「非正式表示自己能夠並願意完成某項要求」。",
-        "can-mcq-18": "「非常期待某件事；迫不及待」是「can’t wait」的用法，與本句語境不同。",
-        "can-mcq-20": "「用金屬製成、用來盛裝食物／飲品等的容器」是「a can」的用法，與本句語境不同。",
-        "can-mcq-17": "「金錢不足，或某行動的代價／後果太高而不能承受」是「can’t afford」的用法，與本句語境不同。",
-        "can-mcq-21": "「把食物密封裝入罐中保存」是「can — preserve」的用法，與本句語境不同。",
-        "can-mcq-16": "「對某人／某物極度不喜歡或無法忍受」是「can’t stand」的用法，與本句語境不同。"
+        "can-mcq-19": "本句的「Can」指「非正式表示自己能夠並願意完成某項要求」。",
+        "can-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-19"
     },
@@ -2736,11 +2508,9 @@ export default {
       "masked": "We ____ her courage.",
       "options": [
         "can-mcq-34",
-        "can-mcq-33",
-        "can-mcq-35",
-        "can-mcq-32",
-        "can-mcq-36",
-        "can-mcq-31"
+        "can-mcq-21",
+        "can-mcq-14",
+        "can-mcq-33"
       ],
       "explanation": "本句的「cannot but admire」指「無法不做；正式表示某反應幾乎不可避免」。",
       "sentenceIndex": 61,
@@ -2749,12 +2519,10 @@ export default {
         "cannot but admire"
       ],
       "optionReasons": {
-        "can-mcq-34": "本句指「無法不做；正式表示某反應幾乎不可避免」。",
-        "can-mcq-33": "「具有完成目標所需能力／條件」是「29. can = achieve / manage（能做到） — 做得到」的用法，與本句語境不同。",
-        "can-mcq-35": "「以罐作為計量單位，指一整罐內容物」是「34. can = contents of one can（一罐的量） — 一罐份量」的用法，與本句語境不同。",
-        "can-mcq-32": "「具備感知／察覺某事的能力或當前條件」是「28. can tell / can see / can hear（能看出／聽出／判斷） — 能夠察覺」的用法，與本句語境不同。",
-        "can-mcq-36": "「暫時拖延問題，而不是徹底解決」是「43. kick the can down the road（把問題拖延） — 把問題延後處理」的用法，與本句語境不同。",
-        "can-mcq-31": "「根據一般規律／經驗，某結果有可能出現」是「17. can = theoretical/general possibility（一般可能性） — 有可能」的用法，與本句語境不同。"
+        "can-mcq-34": "本句的「cannot but admire」指「無法不做；正式表示某反應幾乎不可避免」。",
+        "can-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-34"
     },
@@ -2766,11 +2534,9 @@ export default {
       "masked": "I ____ but agree.",
       "options": [
         "can-mcq-34",
-        "can-mcq-33",
-        "can-mcq-35",
-        "can-mcq-32",
-        "can-mcq-36",
-        "can-mcq-31"
+        "can-mcq-18",
+        "can-mcq-26",
+        "can-mcq-04"
       ],
       "explanation": "本句的「cannot」指「無法不做；正式表示某反應幾乎不可避免」。",
       "sentenceIndex": 62,
@@ -2779,12 +2545,10 @@ export default {
         "cannot"
       ],
       "optionReasons": {
-        "can-mcq-34": "本句指「無法不做；正式表示某反應幾乎不可避免」。",
-        "can-mcq-33": "「具有完成目標所需能力／條件」是「29. can = achieve / manage（能做到） — 做得到」的用法，與本句語境不同。",
-        "can-mcq-35": "「以罐作為計量單位，指一整罐內容物」是「34. can = contents of one can（一罐的量） — 一罐份量」的用法，與本句語境不同。",
-        "can-mcq-32": "「具備感知／察覺某事的能力或當前條件」是「28. can tell / can see / can hear（能看出／聽出／判斷） — 能夠察覺」的用法，與本句語境不同。",
-        "can-mcq-36": "「暫時拖延問題，而不是徹底解決」是「43. kick the can down the road（把問題拖延） — 把問題延後處理」的用法，與本句語境不同。",
-        "can-mcq-31": "「根據一般規律／經驗，某結果有可能出現」是「17. can = theoretical/general possibility（一般可能性） — 有可能」的用法，與本句語境不同。"
+        "can-mcq-34": "本句的「cannot」指「無法不做；正式表示某反應幾乎不可避免」。",
+        "can-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-34"
     },
@@ -2796,11 +2560,9 @@ export default {
       "masked": "He opened a ____.",
       "options": [
         "can-mcq-20",
-        "can-mcq-19",
-        "can-mcq-21",
-        "can-mcq-18",
-        "can-mcq-22",
-        "can-mcq-17"
+        "can-mcq-07",
+        "can-mcq-13",
+        "can-mcq-36"
       ],
       "explanation": "本句的「can of soup」指「用金屬製成、用來盛裝食物／飲品等的容器」。",
       "sentenceIndex": 63,
@@ -2809,12 +2571,10 @@ export default {
         "can of soup"
       ],
       "optionReasons": {
-        "can-mcq-20": "本句指「用金屬製成、用來盛裝食物／飲品等的容器」。",
-        "can-mcq-19": "「非正式表示自己能夠並願意完成某項要求」是「can do」的用法，與本句語境不同。",
-        "can-mcq-21": "「把食物密封裝入罐中保存」是「can — preserve」的用法，與本句語境不同。",
-        "can-mcq-18": "「非常期待某件事；迫不及待」是「can’t wait」的用法，與本句語境不同。",
-        "can-mcq-22": "「經密封裝罐保存的食品」是「canned food」的用法，與本句語境不同。",
-        "can-mcq-17": "「金錢不足，或某行動的代價／後果太高而不能承受」是「can’t afford」的用法，與本句語境不同。"
+        "can-mcq-20": "本句的「can of soup」指「用金屬製成、用來盛裝食物／飲品等的容器」。",
+        "can-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-20"
     },
@@ -2826,11 +2586,9 @@ export default {
       "masked": "There are three ____ of beans.",
       "options": [
         "can-mcq-20",
-        "can-mcq-19",
-        "can-mcq-21",
-        "can-mcq-18",
-        "can-mcq-22",
-        "can-mcq-17"
+        "can-mcq-13",
+        "can-mcq-27",
+        "can-mcq-02"
       ],
       "explanation": "本句的「cans」指「用金屬製成、用來盛裝食物／飲品等的容器」。",
       "sentenceIndex": 64,
@@ -2839,12 +2597,10 @@ export default {
         "cans"
       ],
       "optionReasons": {
-        "can-mcq-20": "本句指「用金屬製成、用來盛裝食物／飲品等的容器」。",
-        "can-mcq-19": "「非正式表示自己能夠並願意完成某項要求」是「can do」的用法，與本句語境不同。",
-        "can-mcq-21": "「把食物密封裝入罐中保存」是「can — preserve」的用法，與本句語境不同。",
-        "can-mcq-18": "「非常期待某件事；迫不及待」是「can’t wait」的用法，與本句語境不同。",
-        "can-mcq-22": "「經密封裝罐保存的食品」是「canned food」的用法，與本句語境不同。",
-        "can-mcq-17": "「金錢不足，或某行動的代價／後果太高而不能承受」是「can’t afford」的用法，與本句語境不同。"
+        "can-mcq-20": "本句的「cans」指「用金屬製成、用來盛裝食物／飲品等的容器」。",
+        "can-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-20"
     },
@@ -2856,11 +2612,9 @@ export default {
       "masked": "She bought a ____.",
       "options": [
         "can-mcq-20",
-        "can-mcq-19",
-        "can-mcq-21",
-        "can-mcq-18",
-        "can-mcq-22",
-        "can-mcq-17"
+        "can-mcq-08",
+        "can-mcq-15",
+        "can-mcq-06"
       ],
       "explanation": "本句的「can of tomatoes」指「用金屬製成、用來盛裝食物／飲品等的容器」。",
       "sentenceIndex": 65,
@@ -2869,12 +2623,10 @@ export default {
         "can of tomatoes"
       ],
       "optionReasons": {
-        "can-mcq-20": "本句指「用金屬製成、用來盛裝食物／飲品等的容器」。",
-        "can-mcq-19": "「非正式表示自己能夠並願意完成某項要求」是「can do」的用法，與本句語境不同。",
-        "can-mcq-21": "「把食物密封裝入罐中保存」是「can — preserve」的用法，與本句語境不同。",
-        "can-mcq-18": "「非常期待某件事；迫不及待」是「can’t wait」的用法，與本句語境不同。",
-        "can-mcq-22": "「經密封裝罐保存的食品」是「canned food」的用法，與本句語境不同。",
-        "can-mcq-17": "「金錢不足，或某行動的代價／後果太高而不能承受」是「can’t afford」的用法，與本句語境不同。"
+        "can-mcq-20": "本句的「can of tomatoes」指「用金屬製成、用來盛裝食物／飲品等的容器」。",
+        "can-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-20"
     },
@@ -2886,11 +2638,9 @@ export default {
       "masked": "He drank a ____ of soda.",
       "options": [
         "can-mcq-20",
-        "can-mcq-19",
-        "can-mcq-21",
-        "can-mcq-18",
-        "can-mcq-22",
-        "can-mcq-17"
+        "can-mcq-08",
+        "can-mcq-16",
+        "can-mcq-31"
       ],
       "explanation": "本句的「can」指「用金屬製成、用來盛裝食物／飲品等的容器」。",
       "sentenceIndex": 66,
@@ -2899,12 +2649,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-20": "本句指「用金屬製成、用來盛裝食物／飲品等的容器」。",
-        "can-mcq-19": "「非正式表示自己能夠並願意完成某項要求」是「can do」的用法，與本句語境不同。",
-        "can-mcq-21": "「把食物密封裝入罐中保存」是「can — preserve」的用法，與本句語境不同。",
-        "can-mcq-18": "「非常期待某件事；迫不及待」是「can’t wait」的用法，與本句語境不同。",
-        "can-mcq-22": "「經密封裝罐保存的食品」是「canned food」的用法，與本句語境不同。",
-        "can-mcq-17": "「金錢不足，或某行動的代價／後果太高而不能承受」是「can’t afford」的用法，與本句語境不同。"
+        "can-mcq-20": "本句的「can」指「用金屬製成、用來盛裝食物／飲品等的容器」。",
+        "can-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-20"
     },
@@ -2917,10 +2665,8 @@ export default {
       "options": [
         "can-mcq-35",
         "can-mcq-34",
-        "can-mcq-36",
-        "can-mcq-33",
-        "can-mcq-32",
-        "can-mcq-31"
+        "can-mcq-01",
+        "can-mcq-09"
       ],
       "explanation": "本句的「can」指「以罐作為計量單位，指一整罐內容物」。",
       "sentenceIndex": 67,
@@ -2929,12 +2675,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-35": "本句指「以罐作為計量單位，指一整罐內容物」。",
-        "can-mcq-34": "「無法不做；正式表示某反應幾乎不可避免」是「31. cannot but + verb（不得不） — 不能不；只好」的用法，與本句語境不同。",
-        "can-mcq-36": "「暫時拖延問題，而不是徹底解決」是「43. kick the can down the road（把問題拖延） — 把問題延後處理」的用法，與本句語境不同。",
-        "can-mcq-33": "「具有完成目標所需能力／條件」是「29. can = achieve / manage（能做到） — 做得到」的用法，與本句語境不同。",
-        "can-mcq-32": "「具備感知／察覺某事的能力或當前條件」是「28. can tell / can see / can hear（能看出／聽出／判斷） — 能夠察覺」的用法，與本句語境不同。",
-        "can-mcq-31": "「根據一般規律／經驗，某結果有可能出現」是「17. can = theoretical/general possibility（一般可能性） — 有可能」的用法，與本句語境不同。"
+        "can-mcq-35": "本句的「can」指「以罐作為計量單位，指一整罐內容物」。",
+        "can-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-35"
     },
@@ -2946,11 +2690,9 @@ export default {
       "masked": "We used two ____ of beans.",
       "options": [
         "can-mcq-35",
-        "can-mcq-34",
-        "can-mcq-36",
-        "can-mcq-33",
+        "can-mcq-16",
         "can-mcq-32",
-        "can-mcq-31"
+        "can-mcq-19"
       ],
       "explanation": "本句的「cans」指「以罐作為計量單位，指一整罐內容物」。",
       "sentenceIndex": 68,
@@ -2959,12 +2701,10 @@ export default {
         "cans"
       ],
       "optionReasons": {
-        "can-mcq-35": "本句指「以罐作為計量單位，指一整罐內容物」。",
-        "can-mcq-34": "「無法不做；正式表示某反應幾乎不可避免」是「31. cannot but + verb（不得不） — 不能不；只好」的用法，與本句語境不同。",
-        "can-mcq-36": "「暫時拖延問題，而不是徹底解決」是「43. kick the can down the road（把問題拖延） — 把問題延後處理」的用法，與本句語境不同。",
-        "can-mcq-33": "「具有完成目標所需能力／條件」是「29. can = achieve / manage（能做到） — 做得到」的用法，與本句語境不同。",
-        "can-mcq-32": "「具備感知／察覺某事的能力或當前條件」是「28. can tell / can see / can hear（能看出／聽出／判斷） — 能夠察覺」的用法，與本句語境不同。",
-        "can-mcq-31": "「根據一般規律／經驗，某結果有可能出現」是「17. can = theoretical/general possibility（一般可能性） — 有可能」的用法，與本句語境不同。"
+        "can-mcq-35": "本句的「cans」指「以罐作為計量單位，指一整罐內容物」。",
+        "can-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-35"
     },
@@ -2976,11 +2716,9 @@ export default {
       "masked": "They ____ for the winter.",
       "options": [
         "can-mcq-21",
-        "can-mcq-20",
-        "can-mcq-22",
-        "can-mcq-19",
-        "can-mcq-23",
-        "can-mcq-18"
+        "can-mcq-28",
+        "can-mcq-17",
+        "can-mcq-25"
       ],
       "explanation": "本句的「can fruit」指「把食物密封裝入罐中保存」。",
       "sentenceIndex": 69,
@@ -2989,12 +2727,10 @@ export default {
         "can fruit"
       ],
       "optionReasons": {
-        "can-mcq-21": "本句指「把食物密封裝入罐中保存」。",
-        "can-mcq-20": "「用金屬製成、用來盛裝食物／飲品等的容器」是「a can」的用法，與本句語境不同。",
-        "can-mcq-22": "「經密封裝罐保存的食品」是「canned food」的用法，與本句語境不同。",
-        "can-mcq-19": "「非正式表示自己能夠並願意完成某項要求」是「can do」的用法，與本句語境不同。",
-        "can-mcq-23": "「非正式美式英語：解僱某人」是「can someone」的用法，與本句語境不同。",
-        "can-mcq-18": "「非常期待某件事；迫不及待」是「can’t wait」的用法，與本句語境不同。"
+        "can-mcq-21": "本句的「can fruit」指「把食物密封裝入罐中保存」。",
+        "can-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-21"
     },
@@ -3006,11 +2742,9 @@ export default {
       "masked": "The tomatoes are ____ locally.",
       "options": [
         "can-mcq-21",
-        "can-mcq-20",
-        "can-mcq-22",
-        "can-mcq-19",
-        "can-mcq-23",
-        "can-mcq-18"
+        "can-mcq-26",
+        "can-mcq-09",
+        "can-pdf-002"
       ],
       "explanation": "本句的「canned」指「把食物密封裝入罐中保存」。",
       "sentenceIndex": 70,
@@ -3019,12 +2753,10 @@ export default {
         "canned"
       ],
       "optionReasons": {
-        "can-mcq-21": "本句指「把食物密封裝入罐中保存」。",
-        "can-mcq-20": "「用金屬製成、用來盛裝食物／飲品等的容器」是「a can」的用法，與本句語境不同。",
-        "can-mcq-22": "「經密封裝罐保存的食品」是「canned food」的用法，與本句語境不同。",
-        "can-mcq-19": "「非正式表示自己能夠並願意完成某項要求」是「can do」的用法，與本句語境不同。",
-        "can-mcq-23": "「非正式美式英語：解僱某人」是「can someone」的用法，與本句語境不同。",
-        "can-mcq-18": "「非常期待某件事；迫不及待」是「can’t wait」的用法，與本句語境不同。"
+        "can-mcq-21": "本句的「canned」指「把食物密封裝入罐中保存」。",
+        "can-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "can-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-21"
     },
@@ -3036,11 +2768,9 @@ export default {
       "masked": "We keep some ____ at home.",
       "options": [
         "can-mcq-22",
-        "can-mcq-21",
-        "can-mcq-23",
-        "can-mcq-20",
-        "can-mcq-24",
-        "can-mcq-19"
+        "can-mcq-32",
+        "can-mcq-17",
+        "can-mcq-27"
       ],
       "explanation": "本句的「canned food」指「經密封裝罐保存的食品」。",
       "sentenceIndex": 71,
@@ -3049,12 +2779,10 @@ export default {
         "canned food"
       ],
       "optionReasons": {
-        "can-mcq-22": "本句指「經密封裝罐保存的食品」。",
-        "can-mcq-21": "「把食物密封裝入罐中保存」是「can — preserve」的用法，與本句語境不同。",
-        "can-mcq-23": "「非正式美式英語：解僱某人」是「can someone」的用法，與本句語境不同。",
-        "can-mcq-20": "「用金屬製成、用來盛裝食物／飲品等的容器」是「a can」的用法，與本句語境不同。",
-        "can-mcq-24": "「非正式：取消、停止或放棄某計劃／製作」是「can a project/show」的用法，與本句語境不同。",
-        "can-mcq-19": "「非正式表示自己能夠並願意完成某項要求」是「can do」的用法，與本句語境不同。"
+        "can-mcq-22": "本句的「canned food」指「經密封裝罐保存的食品」。",
+        "can-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-22"
     },
@@ -3066,11 +2794,9 @@ export default {
       "masked": "____ tomatoes are useful for cooking.",
       "options": [
         "can-mcq-22",
-        "can-mcq-21",
-        "can-mcq-23",
-        "can-mcq-20",
         "can-mcq-24",
-        "can-mcq-19"
+        "can-mcq-16",
+        "can-mcq-02"
       ],
       "explanation": "本句的「Canned」指「經密封裝罐保存的食品」。",
       "sentenceIndex": 72,
@@ -3079,12 +2805,10 @@ export default {
         "Canned"
       ],
       "optionReasons": {
-        "can-mcq-22": "本句指「經密封裝罐保存的食品」。",
-        "can-mcq-21": "「把食物密封裝入罐中保存」是「can — preserve」的用法，與本句語境不同。",
-        "can-mcq-23": "「非正式美式英語：解僱某人」是「can someone」的用法，與本句語境不同。",
-        "can-mcq-20": "「用金屬製成、用來盛裝食物／飲品等的容器」是「a can」的用法，與本句語境不同。",
-        "can-mcq-24": "「非正式：取消、停止或放棄某計劃／製作」是「can a project/show」的用法，與本句語境不同。",
-        "can-mcq-19": "「非正式表示自己能夠並願意完成某項要求」是「can do」的用法，與本句語境不同。"
+        "can-mcq-22": "本句的「Canned」指「經密封裝罐保存的食品」。",
+        "can-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-22"
     },
@@ -3096,11 +2820,9 @@ export default {
       "masked": "The machine sells ____.",
       "options": [
         "can-mcq-22",
-        "can-mcq-21",
-        "can-mcq-23",
-        "can-mcq-20",
         "can-mcq-24",
-        "can-mcq-19"
+        "can-mcq-03",
+        "can-mcq-30"
       ],
       "explanation": "本句的「canned drinks」指「經密封裝罐保存的食品」。",
       "sentenceIndex": 73,
@@ -3109,12 +2831,10 @@ export default {
         "canned drinks"
       ],
       "optionReasons": {
-        "can-mcq-22": "本句指「經密封裝罐保存的食品」。",
-        "can-mcq-21": "「把食物密封裝入罐中保存」是「can — preserve」的用法，與本句語境不同。",
-        "can-mcq-23": "「非正式美式英語：解僱某人」是「can someone」的用法，與本句語境不同。",
-        "can-mcq-20": "「用金屬製成、用來盛裝食物／飲品等的容器」是「a can」的用法，與本句語境不同。",
-        "can-mcq-24": "「非正式：取消、停止或放棄某計劃／製作」是「can a project/show」的用法，與本句語境不同。",
-        "can-mcq-19": "「非正式表示自己能夠並願意完成某項要求」是「can do」的用法，與本句語境不同。"
+        "can-mcq-22": "本句的「canned drinks」指「經密封裝罐保存的食品」。",
+        "can-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-22"
     },
@@ -3126,11 +2846,9 @@ export default {
       "masked": "____ coffee is popular in some countries.",
       "options": [
         "can-mcq-22",
-        "can-mcq-21",
-        "can-mcq-23",
-        "can-mcq-20",
-        "can-mcq-24",
-        "can-mcq-19"
+        "can-mcq-05",
+        "can-mcq-16",
+        "can-mcq-25"
       ],
       "explanation": "本句的「Canned」指「經密封裝罐保存的食品」。",
       "sentenceIndex": 74,
@@ -3139,12 +2857,10 @@ export default {
         "Canned"
       ],
       "optionReasons": {
-        "can-mcq-22": "本句指「經密封裝罐保存的食品」。",
-        "can-mcq-21": "「把食物密封裝入罐中保存」是「can — preserve」的用法，與本句語境不同。",
-        "can-mcq-23": "「非正式美式英語：解僱某人」是「can someone」的用法，與本句語境不同。",
-        "can-mcq-20": "「用金屬製成、用來盛裝食物／飲品等的容器」是「a can」的用法，與本句語境不同。",
-        "can-mcq-24": "「非正式：取消、停止或放棄某計劃／製作」是「can a project/show」的用法，與本句語境不同。",
-        "can-mcq-19": "「非正式表示自己能夠並願意完成某項要求」是「can do」的用法，與本句語境不同。"
+        "can-mcq-22": "本句的「Canned」指「經密封裝罐保存的食品」。",
+        "can-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-22"
     },
@@ -3156,11 +2872,9 @@ export default {
       "masked": "He was ____ after repeated mistakes.",
       "options": [
         "can-mcq-23",
-        "can-mcq-22",
-        "can-mcq-24",
-        "can-mcq-21",
-        "can-mcq-25",
-        "can-mcq-20"
+        "can-mcq-01",
+        "can-mcq-10",
+        "can-mcq-05"
       ],
       "explanation": "本句的「canned」指「非正式美式英語：解僱某人」。",
       "sentenceIndex": 75,
@@ -3169,12 +2883,10 @@ export default {
         "canned"
       ],
       "optionReasons": {
-        "can-mcq-23": "本句指「非正式美式英語：解僱某人」。",
-        "can-mcq-22": "「經密封裝罐保存的食品」是「canned food」的用法，與本句語境不同。",
-        "can-mcq-24": "「非正式：取消、停止或放棄某計劃／製作」是「can a project/show」的用法，與本句語境不同。",
-        "can-mcq-21": "「把食物密封裝入罐中保存」是「can — preserve」的用法，與本句語境不同。",
-        "can-mcq-25": "「非正式俚語：廁所」是「the can」的用法，與本句語境不同。",
-        "can-mcq-20": "「用金屬製成、用來盛裝食物／飲品等的容器」是「a can」的用法，與本句語境不同。"
+        "can-mcq-23": "本句的「canned」指「非正式美式英語：解僱某人」。",
+        "can-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-23"
     },
@@ -3186,11 +2898,9 @@ export default {
       "masked": "The company ____ several managers.",
       "options": [
         "can-mcq-23",
+        "can-mcq-17",
         "can-mcq-22",
-        "can-mcq-24",
-        "can-mcq-21",
-        "can-mcq-25",
-        "can-mcq-20"
+        "can-mcq-04"
       ],
       "explanation": "本句的「canned」指「非正式美式英語：解僱某人」。",
       "sentenceIndex": 76,
@@ -3199,12 +2909,10 @@ export default {
         "canned"
       ],
       "optionReasons": {
-        "can-mcq-23": "本句指「非正式美式英語：解僱某人」。",
-        "can-mcq-22": "「經密封裝罐保存的食品」是「canned food」的用法，與本句語境不同。",
-        "can-mcq-24": "「非正式：取消、停止或放棄某計劃／製作」是「can a project/show」的用法，與本句語境不同。",
-        "can-mcq-21": "「把食物密封裝入罐中保存」是「can — preserve」的用法，與本句語境不同。",
-        "can-mcq-25": "「非正式俚語：廁所」是「the can」的用法，與本句語境不同。",
-        "can-mcq-20": "「用金屬製成、用來盛裝食物／飲品等的容器」是「a can」的用法，與本句語境不同。"
+        "can-mcq-23": "本句的「canned」指「非正式美式英語：解僱某人」。",
+        "can-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-23"
     },
@@ -3216,11 +2924,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "can-mcq-24",
-        "can-mcq-23",
-        "can-mcq-25",
-        "can-mcq-22",
-        "can-mcq-26",
-        "can-mcq-21"
+        "can-mcq-16",
+        "can-mcq-27",
+        "can-mcq-05"
       ],
       "explanation": "本句的「canned the project」指「非正式：取消、停止或放棄某計劃／製作」。",
       "sentenceIndex": 77,
@@ -3229,12 +2935,10 @@ export default {
         "canned the project"
       ],
       "optionReasons": {
-        "can-mcq-24": "本句指「非正式：取消、停止或放棄某計劃／製作」。",
-        "can-mcq-23": "「非正式美式英語：解僱某人」是「can someone」的用法，與本句語境不同。",
-        "can-mcq-25": "「非正式俚語：廁所」是「the can」的用法，與本句語境不同。",
-        "can-mcq-22": "「經密封裝罐保存的食品」是「canned food」的用法，與本句語境不同。",
-        "can-mcq-26": "「電影／節目等已完成拍攝或錄製」是「in the can」的用法，與本句語境不同。",
-        "can-mcq-21": "「把食物密封裝入罐中保存」是「can — preserve」的用法，與本句語境不同。"
+        "can-mcq-24": "本句的「canned the project」指「非正式：取消、停止或放棄某計劃／製作」。",
+        "can-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-24"
     },
@@ -3246,10 +2950,8 @@ export default {
       "masked": "The show was ____ before production began.",
       "options": [
         "can-mcq-24",
-        "can-mcq-23",
-        "can-mcq-25",
-        "can-mcq-22",
-        "can-mcq-26",
+        "can-reviewed-ca9202f170",
+        "can-mcq-30",
         "can-mcq-21"
       ],
       "explanation": "本句的「canned」指「非正式：取消、停止或放棄某計劃／製作」。",
@@ -3259,12 +2961,10 @@ export default {
         "canned"
       ],
       "optionReasons": {
-        "can-mcq-24": "本句指「非正式：取消、停止或放棄某計劃／製作」。",
-        "can-mcq-23": "「非正式美式英語：解僱某人」是「can someone」的用法，與本句語境不同。",
-        "can-mcq-25": "「非正式俚語：廁所」是「the can」的用法，與本句語境不同。",
-        "can-mcq-22": "「經密封裝罐保存的食品」是「canned food」的用法，與本句語境不同。",
-        "can-mcq-26": "「電影／節目等已完成拍攝或錄製」是「in the can」的用法，與本句語境不同。",
-        "can-mcq-21": "「把食物密封裝入罐中保存」是「can — preserve」的用法，與本句語境不同。"
+        "can-mcq-24": "本句的「canned」指「非正式：取消、停止或放棄某計劃／製作」。",
+        "can-reviewed-ca9202f170": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-24"
     },
@@ -3276,11 +2976,9 @@ export default {
       "masked": "Where’s the ____?",
       "options": [
         "can-mcq-25",
-        "can-mcq-24",
-        "can-mcq-26",
-        "can-mcq-23",
-        "can-mcq-27",
-        "can-mcq-22"
+        "can-mcq-30",
+        "can-mcq-13",
+        "can-mcq-17"
       ],
       "explanation": "本句的「can」指「非正式俚語：廁所」。",
       "sentenceIndex": 79,
@@ -3289,12 +2987,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-25": "本句指「非正式俚語：廁所」。",
-        "can-mcq-24": "「非正式：取消、停止或放棄某計劃／製作」是「can a project/show」的用法，與本句語境不同。",
-        "can-mcq-26": "「電影／節目等已完成拍攝或錄製」是「in the can」的用法，與本句語境不同。",
-        "can-mcq-23": "「非正式美式英語：解僱某人」是「can someone」的用法，與本句語境不同。",
-        "can-mcq-27": "「一個會引發多個互相關聯、棘手問題的複雜情況」是「can of worms」的用法，與本句語境不同。",
-        "can-mcq-22": "「經密封裝罐保存的食品」是「canned food」的用法，與本句語境不同。"
+        "can-mcq-25": "本句的「can」指「非正式俚語：廁所」。",
+        "can-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-25"
     },
@@ -3306,11 +3002,9 @@ export default {
       "masked": "He went to the ____.",
       "options": [
         "can-mcq-25",
-        "can-mcq-24",
-        "can-mcq-26",
-        "can-mcq-23",
-        "can-mcq-27",
-        "can-mcq-22"
+        "can-mcq-20",
+        "can-mcq-35",
+        "can-reviewed-ca9202f170"
       ],
       "explanation": "本句的「can」指「非正式俚語：廁所」。",
       "sentenceIndex": 80,
@@ -3319,12 +3013,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-25": "本句指「非正式俚語：廁所」。",
-        "can-mcq-24": "「非正式：取消、停止或放棄某計劃／製作」是「can a project/show」的用法，與本句語境不同。",
-        "can-mcq-26": "「電影／節目等已完成拍攝或錄製」是「in the can」的用法，與本句語境不同。",
-        "can-mcq-23": "「非正式美式英語：解僱某人」是「can someone」的用法，與本句語境不同。",
-        "can-mcq-27": "「一個會引發多個互相關聯、棘手問題的複雜情況」是「can of worms」的用法，與本句語境不同。",
-        "can-mcq-22": "「經密封裝罐保存的食品」是「canned food」的用法，與本句語境不同。"
+        "can-mcq-25": "本句的「can」指「非正式俚語：廁所」。",
+        "can-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "can-reviewed-ca9202f170": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-25"
     },
@@ -3336,11 +3028,9 @@ export default {
       "masked": "The film is finally ____.",
       "options": [
         "can-mcq-26",
-        "can-mcq-25",
-        "can-mcq-27",
-        "can-mcq-24",
-        "can-mcq-28",
-        "can-mcq-23"
+        "can-mcq-18",
+        "can-mcq-31",
+        "can-mcq-25"
       ],
       "explanation": "本句的「in the can」指「電影／節目等已完成拍攝或錄製」。",
       "sentenceIndex": 81,
@@ -3349,12 +3039,10 @@ export default {
         "in the can"
       ],
       "optionReasons": {
-        "can-mcq-26": "本句指「電影／節目等已完成拍攝或錄製」。",
-        "can-mcq-25": "「非正式俚語：廁所」是「the can」的用法，與本句語境不同。",
-        "can-mcq-27": "「一個會引發多個互相關聯、棘手問題的複雜情況」是「can of worms」的用法，與本句語境不同。",
-        "can-mcq-24": "「非正式：取消、停止或放棄某計劃／製作」是「can a project/show」的用法，與本句語境不同。",
-        "can-mcq-28": "「認知、記憶或理解能力足以完成某事」是「4. can = mentally/intellectually able to（理解／思考能力上能） — 能夠」的用法，與本句語境不同。",
-        "can-mcq-23": "「非正式美式英語：解僱某人」是「can someone」的用法，與本句語境不同。"
+        "can-mcq-26": "本句的「in the can」指「電影／節目等已完成拍攝或錄製」。",
+        "can-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-26"
     },
@@ -3367,10 +3055,8 @@ export default {
       "options": [
         "can-mcq-26",
         "can-mcq-25",
-        "can-mcq-27",
-        "can-mcq-24",
-        "can-mcq-28",
-        "can-mcq-23"
+        "can-mcq-14",
+        "can-mcq-35"
       ],
       "explanation": "本句的「can」指「電影／節目等已完成拍攝或錄製」。",
       "sentenceIndex": 82,
@@ -3379,12 +3065,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-26": "本句指「電影／節目等已完成拍攝或錄製」。",
-        "can-mcq-25": "「非正式俚語：廁所」是「the can」的用法，與本句語境不同。",
-        "can-mcq-27": "「一個會引發多個互相關聯、棘手問題的複雜情況」是「can of worms」的用法，與本句語境不同。",
-        "can-mcq-24": "「非正式：取消、停止或放棄某計劃／製作」是「can a project/show」的用法，與本句語境不同。",
-        "can-mcq-28": "「認知、記憶或理解能力足以完成某事」是「4. can = mentally/intellectually able to（理解／思考能力上能） — 能夠」的用法，與本句語境不同。",
-        "can-mcq-23": "「非正式美式英語：解僱某人」是「can someone」的用法，與本句語境不同。"
+        "can-mcq-26": "本句的「can」指「電影／節目等已完成拍攝或錄製」。",
+        "can-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-26"
     },
@@ -3396,11 +3080,9 @@ export default {
       "masked": "That question opened a ____.",
       "options": [
         "can-mcq-27",
-        "can-mcq-26",
-        "can-mcq-28",
         "can-mcq-25",
-        "can-mcq-29",
-        "can-mcq-24"
+        "can-mcq-04",
+        "can-mcq-10"
       ],
       "explanation": "本句的「can of worms」指「一個會引發多個互相關聯、棘手問題的複雜情況」。",
       "sentenceIndex": 83,
@@ -3409,12 +3091,10 @@ export default {
         "can of worms"
       ],
       "optionReasons": {
-        "can-mcq-27": "本句指「一個會引發多個互相關聯、棘手問題的複雜情況」。",
-        "can-mcq-26": "「電影／節目等已完成拍攝或錄製」是「in the can」的用法，與本句語境不同。",
-        "can-mcq-28": "「認知、記憶或理解能力足以完成某事」是「4. can = mentally/intellectually able to（理解／思考能力上能） — 能夠」的用法，與本句語境不同。",
-        "can-mcq-25": "「非正式俚語：廁所」是「the can」的用法，與本句語境不同。",
-        "can-mcq-29": "「表示說話者允許對方做某事」是「12. You can…（你可以……） — 給予許可」的用法，與本句語境不同。",
-        "can-mcq-24": "「非正式：取消、停止或放棄某計劃／製作」是「can a project/show」的用法，與本句語境不同。"
+        "can-mcq-27": "本句的「can of worms」指「一個會引發多個互相關聯、棘手問題的複雜情況」。",
+        "can-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-27"
     },
@@ -3426,11 +3106,9 @@ export default {
       "masked": "Changing the rule could open a ____ of worms.",
       "options": [
         "can-mcq-27",
-        "can-mcq-26",
-        "can-mcq-28",
-        "can-mcq-25",
-        "can-mcq-29",
-        "can-mcq-24"
+        "can-mcq-22",
+        "can-mcq-10",
+        "can-mcq-26"
       ],
       "explanation": "本句的「can」指「一個會引發多個互相關聯、棘手問題的複雜情況」。",
       "sentenceIndex": 84,
@@ -3439,12 +3117,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-27": "本句指「一個會引發多個互相關聯、棘手問題的複雜情況」。",
-        "can-mcq-26": "「電影／節目等已完成拍攝或錄製」是「in the can」的用法，與本句語境不同。",
-        "can-mcq-28": "「認知、記憶或理解能力足以完成某事」是「4. can = mentally/intellectually able to（理解／思考能力上能） — 能夠」的用法，與本句語境不同。",
-        "can-mcq-25": "「非正式俚語：廁所」是「the can」的用法，與本句語境不同。",
-        "can-mcq-29": "「表示說話者允許對方做某事」是「12. You can…（你可以……） — 給予許可」的用法，與本句語境不同。",
-        "can-mcq-24": "「非正式：取消、停止或放棄某計劃／製作」是「can a project/show」的用法，與本句語境不同。"
+        "can-mcq-27": "本句的「can」指「一個會引發多個互相關聯、棘手問題的複雜情況」。",
+        "can-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-27"
     },
@@ -3456,11 +3132,9 @@ export default {
       "masked": "We can’t keep ____.",
       "options": [
         "can-mcq-36",
-        "can-mcq-35",
-        "can-mcq-34",
-        "can-mcq-33",
-        "can-mcq-32",
-        "can-mcq-31"
+        "can-mcq-08",
+        "can-mcq-15",
+        "can-mcq-13"
       ],
       "explanation": "本句的「kicking the can down the road」指「暫時拖延問題，而不是徹底解決」。",
       "sentenceIndex": 85,
@@ -3469,12 +3143,10 @@ export default {
         "kicking the can down the road"
       ],
       "optionReasons": {
-        "can-mcq-36": "本句指「暫時拖延問題，而不是徹底解決」。",
-        "can-mcq-35": "「以罐作為計量單位，指一整罐內容物」是「34. can = contents of one can（一罐的量） — 一罐份量」的用法，與本句語境不同。",
-        "can-mcq-34": "「無法不做；正式表示某反應幾乎不可避免」是「31. cannot but + verb（不得不） — 不能不；只好」的用法，與本句語境不同。",
-        "can-mcq-33": "「具有完成目標所需能力／條件」是「29. can = achieve / manage（能做到） — 做得到」的用法，與本句語境不同。",
-        "can-mcq-32": "「具備感知／察覺某事的能力或當前條件」是「28. can tell / can see / can hear（能看出／聽出／判斷） — 能夠察覺」的用法，與本句語境不同。",
-        "can-mcq-31": "「根據一般規律／經驗，某結果有可能出現」是「17. can = theoretical/general possibility（一般可能性） — 有可能」的用法，與本句語境不同。"
+        "can-mcq-36": "本句的「kicking the can down the road」指「暫時拖延問題，而不是徹底解決」。",
+        "can-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-36"
     },
@@ -3486,11 +3158,9 @@ export default {
       "masked": "The decision merely kicked the ____ down the road.",
       "options": [
         "can-mcq-36",
-        "can-mcq-35",
         "can-mcq-34",
-        "can-mcq-33",
-        "can-mcq-32",
-        "can-mcq-31"
+        "can-mcq-21",
+        "can-mcq-14"
       ],
       "explanation": "本句的「can」指「暫時拖延問題，而不是徹底解決」。",
       "sentenceIndex": 86,
@@ -3499,12 +3169,10 @@ export default {
         "can"
       ],
       "optionReasons": {
-        "can-mcq-36": "本句指「暫時拖延問題，而不是徹底解決」。",
-        "can-mcq-35": "「以罐作為計量單位，指一整罐內容物」是「34. can = contents of one can（一罐的量） — 一罐份量」的用法，與本句語境不同。",
-        "can-mcq-34": "「無法不做；正式表示某反應幾乎不可避免」是「31. cannot but + verb（不得不） — 不能不；只好」的用法，與本句語境不同。",
-        "can-mcq-33": "「具有完成目標所需能力／條件」是「29. can = achieve / manage（能做到） — 做得到」的用法，與本句語境不同。",
-        "can-mcq-32": "「具備感知／察覺某事的能力或當前條件」是「28. can tell / can see / can hear（能看出／聽出／判斷） — 能夠察覺」的用法，與本句語境不同。",
-        "can-mcq-31": "「根據一般規律／經驗，某結果有可能出現」是「17. can = theoretical/general possibility（一般可能性） — 有可能」的用法，與本句語境不同。"
+        "can-mcq-36": "本句的「can」指「暫時拖延問題，而不是徹底解決」。",
+        "can-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "can-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "can-mcq-36"
     }
@@ -3516,5 +3184,7 @@ export default {
     "sha256": "28363e57faccab663f68fbf3afc0e939316d4c3bf4495322bbe4d7acf5452124",
     "pages": 36
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

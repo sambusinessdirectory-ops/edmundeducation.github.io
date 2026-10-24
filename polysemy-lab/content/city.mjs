@@ -174,11 +174,7 @@ export default {
       "masked": "Old tram routes can tell you more about a ____ than a history textbook.",
       "options": [
         "city-mcq-01",
-        "city-mcq-02",
-        "city-mcq-03",
-        "city-mcq-04",
-        "city-mcq-05",
-        "city-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「city」指「人口集中、建築及道路密集，並具有完整公共、商業和社會設施的大型城市地區」。",
       "sentenceIndex": 0,
@@ -187,12 +183,8 @@ export default {
         "city"
       ],
       "optionReasons": {
-        "city-mcq-01": "本句指「人口集中、建築及道路密集，並具有完整公共、商業和社會設施的大型城市地區」。",
-        "city-mcq-02": "「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」與本句語境不同。",
-        "city-mcq-03": "「以整座城市作為整體來指生活在其中的居民和城市社群」與本句語境不同。",
-        "city-mcq-04": "「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」與本句語境不同。",
-        "city-mcq-05": "「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」與本句語境不同。",
-        "city-mcq-06": "「涉及、影響或遍及整座城市的」與本句語境不同。"
+        "city-mcq-01": "本句的「city」指「人口集中、建築及道路密集，並具有完整公共、商業和社會設施的大型城市地區」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "city-mcq-01"
     },
@@ -204,11 +196,7 @@ export default {
       "masked": "The ____ has changed dramatically over the past twenty years.",
       "options": [
         "city-mcq-01",
-        "city-mcq-02",
-        "city-mcq-03",
-        "city-mcq-04",
-        "city-mcq-05",
-        "city-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「city」指「人口集中、建築及道路密集，並具有完整公共、商業和社會設施的大型城市地區」。",
       "sentenceIndex": 1,
@@ -217,12 +205,8 @@ export default {
         "city"
       ],
       "optionReasons": {
-        "city-mcq-01": "本句指「人口集中、建築及道路密集，並具有完整公共、商業和社會設施的大型城市地區」。",
-        "city-mcq-02": "「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」與本句語境不同。",
-        "city-mcq-03": "「以整座城市作為整體來指生活在其中的居民和城市社群」與本句語境不同。",
-        "city-mcq-04": "「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」與本句語境不同。",
-        "city-mcq-05": "「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」與本句語境不同。",
-        "city-mcq-06": "「涉及、影響或遍及整座城市的」與本句語境不同。"
+        "city-mcq-01": "本句的「city」指「人口集中、建築及道路密集，並具有完整公共、商業和社會設施的大型城市地區」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "city-mcq-01"
     },
@@ -234,11 +218,7 @@ export default {
       "masked": "She prefers living in a busy ____.",
       "options": [
         "city-mcq-01",
-        "city-mcq-02",
-        "city-mcq-03",
-        "city-mcq-04",
-        "city-mcq-05",
-        "city-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「city」指「人口集中、建築及道路密集，並具有完整公共、商業和社會設施的大型城市地區」。",
       "sentenceIndex": 2,
@@ -247,12 +227,8 @@ export default {
         "city"
       ],
       "optionReasons": {
-        "city-mcq-01": "本句指「人口集中、建築及道路密集，並具有完整公共、商業和社會設施的大型城市地區」。",
-        "city-mcq-02": "「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」與本句語境不同。",
-        "city-mcq-03": "「以整座城市作為整體來指生活在其中的居民和城市社群」與本句語境不同。",
-        "city-mcq-04": "「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」與本句語境不同。",
-        "city-mcq-05": "「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」與本句語境不同。",
-        "city-mcq-06": "「涉及、影響或遍及整座城市的」與本句語境不同。"
+        "city-mcq-01": "本句的「city」指「人口集中、建築及道路密集，並具有完整公共、商業和社會設施的大型城市地區」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "city-mcq-01"
     },
@@ -264,11 +240,7 @@ export default {
       "masked": "The ____ plans to build a new public library.",
       "options": [
         "city-mcq-02",
-        "city-mcq-01",
-        "city-mcq-03",
-        "city-mcq-04",
-        "city-mcq-05",
-        "city-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「city」指「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」。",
       "sentenceIndex": 3,
@@ -277,12 +249,8 @@ export default {
         "city"
       ],
       "optionReasons": {
-        "city-mcq-02": "本句指「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」。",
-        "city-mcq-01": "「人口集中、建築及道路密集，並具有完整公共、商業和社會設施的大型城市地區」與本句語境不同。",
-        "city-mcq-03": "「以整座城市作為整體來指生活在其中的居民和城市社群」與本句語境不同。",
-        "city-mcq-04": "「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」與本句語境不同。",
-        "city-mcq-05": "「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」與本句語境不同。",
-        "city-mcq-06": "「涉及、影響或遍及整座城市的」與本句語境不同。"
+        "city-mcq-02": "本句的「city」指「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "city-mcq-02"
     },
@@ -294,11 +262,7 @@ export default {
       "masked": "The ____ has introduced new parking regulations.",
       "options": [
         "city-mcq-02",
-        "city-mcq-01",
-        "city-mcq-03",
-        "city-mcq-04",
-        "city-mcq-05",
-        "city-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「city」指「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」。",
       "sentenceIndex": 4,
@@ -307,12 +271,8 @@ export default {
         "city"
       ],
       "optionReasons": {
-        "city-mcq-02": "本句指「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」。",
-        "city-mcq-01": "「人口集中、建築及道路密集，並具有完整公共、商業和社會設施的大型城市地區」與本句語境不同。",
-        "city-mcq-03": "「以整座城市作為整體來指生活在其中的居民和城市社群」與本句語境不同。",
-        "city-mcq-04": "「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」與本句語境不同。",
-        "city-mcq-05": "「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」與本句語境不同。",
-        "city-mcq-06": "「涉及、影響或遍及整座城市的」與本句語境不同。"
+        "city-mcq-02": "本句的「city」指「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "city-mcq-02"
     },
@@ -324,11 +284,7 @@ export default {
       "masked": "The whole ____ celebrated the victory.",
       "options": [
         "city-mcq-03",
-        "city-mcq-02",
-        "city-mcq-04",
-        "city-mcq-01",
-        "city-mcq-05",
-        "city-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「city」指「以整座城市作為整體來指生活在其中的居民和城市社群」。",
       "sentenceIndex": 5,
@@ -337,12 +293,8 @@ export default {
         "city"
       ],
       "optionReasons": {
-        "city-mcq-03": "本句指「以整座城市作為整體來指生活在其中的居民和城市社群」。",
-        "city-mcq-02": "「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」與本句語境不同。",
-        "city-mcq-04": "「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」與本句語境不同。",
-        "city-mcq-01": "「人口集中、建築及道路密集，並具有完整公共、商業和社會設施的大型城市地區」與本句語境不同。",
-        "city-mcq-05": "「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」與本句語境不同。",
-        "city-mcq-06": "「涉及、影響或遍及整座城市的」與本句語境不同。"
+        "city-mcq-03": "本句的「city」指「以整座城市作為整體來指生活在其中的居民和城市社群」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "city-mcq-03"
     },
@@ -354,11 +306,7 @@ export default {
       "masked": "The tragedy shocked the entire ____.",
       "options": [
         "city-mcq-03",
-        "city-mcq-02",
-        "city-mcq-04",
-        "city-mcq-01",
-        "city-mcq-05",
-        "city-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「city」指「以整座城市作為整體來指生活在其中的居民和城市社群」。",
       "sentenceIndex": 6,
@@ -367,12 +315,8 @@ export default {
         "city"
       ],
       "optionReasons": {
-        "city-mcq-03": "本句指「以整座城市作為整體來指生活在其中的居民和城市社群」。",
-        "city-mcq-02": "「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」與本句語境不同。",
-        "city-mcq-04": "「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」與本句語境不同。",
-        "city-mcq-01": "「人口集中、建築及道路密集，並具有完整公共、商業和社會設施的大型城市地區」與本句語境不同。",
-        "city-mcq-05": "「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」與本句語境不同。",
-        "city-mcq-06": "「涉及、影響或遍及整座城市的」與本句語境不同。"
+        "city-mcq-03": "本句的「city」指「以整座城市作為整體來指生活在其中的居民和城市社群」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "city-mcq-03"
     },
@@ -384,11 +328,7 @@ export default {
       "masked": "The property lies just outside the ____ limits.",
       "options": [
         "city-mcq-04",
-        "city-mcq-03",
-        "city-mcq-05",
-        "city-mcq-02",
-        "city-mcq-06",
-        "city-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「city」指「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」。",
       "sentenceIndex": 7,
@@ -397,12 +337,8 @@ export default {
         "city"
       ],
       "optionReasons": {
-        "city-mcq-04": "本句指「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」。",
-        "city-mcq-03": "「以整座城市作為整體來指生活在其中的居民和城市社群」與本句語境不同。",
-        "city-mcq-05": "「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」與本句語境不同。",
-        "city-mcq-02": "「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」與本句語境不同。",
-        "city-mcq-06": "「涉及、影響或遍及整座城市的」與本句語境不同。",
-        "city-mcq-01": "「人口集中、建築及道路密集，並具有完整公共、商業和社會設施的大型城市地區」與本句語境不同。"
+        "city-mcq-04": "本句的「city」指「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "city-mcq-04"
     },
@@ -414,11 +350,7 @@ export default {
       "masked": "The ____ covers an area of more than 300 square kilometres.",
       "options": [
         "city-mcq-04",
-        "city-mcq-03",
-        "city-mcq-05",
-        "city-mcq-02",
-        "city-mcq-06",
-        "city-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「city」指「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」。",
       "sentenceIndex": 8,
@@ -427,12 +359,8 @@ export default {
         "city"
       ],
       "optionReasons": {
-        "city-mcq-04": "本句指「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」。",
-        "city-mcq-03": "「以整座城市作為整體來指生活在其中的居民和城市社群」與本句語境不同。",
-        "city-mcq-05": "「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」與本句語境不同。",
-        "city-mcq-02": "「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」與本句語境不同。",
-        "city-mcq-06": "「涉及、影響或遍及整座城市的」與本句語境不同。",
-        "city-mcq-01": "「人口集中、建築及道路密集，並具有完整公共、商業和社會設施的大型城市地區」與本句語境不同。"
+        "city-mcq-04": "本句的「city」指「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "city-mcq-04"
     },
@@ -444,11 +372,7 @@ export default {
       "masked": "He works in the ____.",
       "options": [
         "city-mcq-05",
-        "city-mcq-04",
-        "city-mcq-06",
-        "city-mcq-03",
-        "city-mcq-07",
-        "city-mcq-02"
+        "contrast-duration"
       ],
       "explanation": "本句的「City」指「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」。",
       "sentenceIndex": 9,
@@ -457,12 +381,8 @@ export default {
         "City"
       ],
       "optionReasons": {
-        "city-mcq-05": "本句指「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」。",
-        "city-mcq-04": "「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」與本句語境不同。",
-        "city-mcq-06": "「涉及、影響或遍及整座城市的」與本句語境不同。",
-        "city-mcq-03": "「以整座城市作為整體來指生活在其中的居民和城市社群」與本句語境不同。",
-        "city-mcq-07": "「位於大型城市較中心、人口密集的舊有城市地區」與本句語境不同。",
-        "city-mcq-02": "「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」與本句語境不同。"
+        "city-mcq-05": "本句的「City」指「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "city-mcq-05"
     },
@@ -474,11 +394,7 @@ export default {
       "masked": "Many financial firms are based in the ____.",
       "options": [
         "city-mcq-05",
-        "city-mcq-04",
-        "city-mcq-06",
-        "city-mcq-03",
-        "city-mcq-07",
-        "city-mcq-02"
+        "contrast-duration"
       ],
       "explanation": "本句的「City」指「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」。",
       "sentenceIndex": 10,
@@ -487,12 +403,8 @@ export default {
         "City"
       ],
       "optionReasons": {
-        "city-mcq-05": "本句指「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」。",
-        "city-mcq-04": "「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」與本句語境不同。",
-        "city-mcq-06": "「涉及、影響或遍及整座城市的」與本句語境不同。",
-        "city-mcq-03": "「以整座城市作為整體來指生活在其中的居民和城市社群」與本句語境不同。",
-        "city-mcq-07": "「位於大型城市較中心、人口密集的舊有城市地區」與本句語境不同。",
-        "city-mcq-02": "「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」與本句語境不同。"
+        "city-mcq-05": "本句的「City」指「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "city-mcq-05"
     },
@@ -504,11 +416,7 @@ export default {
       "masked": "The new policy will apply ____.",
       "options": [
         "city-mcq-06",
-        "city-mcq-05",
-        "city-mcq-07",
-        "city-mcq-04",
-        "city-mcq-03",
-        "city-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「citywide」指「涉及、影響或遍及整座城市的」。",
       "sentenceIndex": 11,
@@ -517,12 +425,8 @@ export default {
         "citywide"
       ],
       "optionReasons": {
-        "city-mcq-06": "本句指「涉及、影響或遍及整座城市的」。",
-        "city-mcq-05": "「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」與本句語境不同。",
-        "city-mcq-07": "「位於大型城市較中心、人口密集的舊有城市地區」與本句語境不同。",
-        "city-mcq-04": "「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」與本句語境不同。",
-        "city-mcq-03": "「以整座城市作為整體來指生活在其中的居民和城市社群」與本句語境不同。",
-        "city-mcq-02": "「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」與本句語境不同。"
+        "city-mcq-06": "本句的「citywide」指「涉及、影響或遍及整座城市的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "city-mcq-06"
     },
@@ -534,11 +438,7 @@ export default {
       "masked": "There was a ____ transport strike.",
       "options": [
         "city-mcq-06",
-        "city-mcq-05",
-        "city-mcq-07",
-        "city-mcq-04",
-        "city-mcq-03",
-        "city-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「citywide」指「涉及、影響或遍及整座城市的」。",
       "sentenceIndex": 12,
@@ -547,12 +447,8 @@ export default {
         "citywide"
       ],
       "optionReasons": {
-        "city-mcq-06": "本句指「涉及、影響或遍及整座城市的」。",
-        "city-mcq-05": "「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」與本句語境不同。",
-        "city-mcq-07": "「位於大型城市較中心、人口密集的舊有城市地區」與本句語境不同。",
-        "city-mcq-04": "「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」與本句語境不同。",
-        "city-mcq-03": "「以整座城市作為整體來指生活在其中的居民和城市社群」與本句語境不同。",
-        "city-mcq-02": "「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」與本句語境不同。"
+        "city-mcq-06": "本句的「citywide」指「涉及、影響或遍及整座城市的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "city-mcq-06"
     },
@@ -564,11 +460,7 @@ export default {
       "masked": "The programme supports ____ schools.",
       "options": [
         "city-mcq-07",
-        "city-mcq-06",
-        "city-mcq-05",
-        "city-mcq-04",
-        "city-mcq-03",
-        "city-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「inner-city」指「位於大型城市較中心、人口密集的舊有城市地區」。",
       "sentenceIndex": 13,
@@ -577,12 +469,8 @@ export default {
         "inner-city"
       ],
       "optionReasons": {
-        "city-mcq-07": "本句指「位於大型城市較中心、人口密集的舊有城市地區」。",
-        "city-mcq-06": "「涉及、影響或遍及整座城市的」與本句語境不同。",
-        "city-mcq-05": "「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」與本句語境不同。",
-        "city-mcq-04": "「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」與本句語境不同。",
-        "city-mcq-03": "「以整座城市作為整體來指生活在其中的居民和城市社群」與本句語境不同。",
-        "city-mcq-02": "「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」與本句語境不同。"
+        "city-mcq-07": "本句的「inner-city」指「位於大型城市較中心、人口密集的舊有城市地區」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "city-mcq-07"
     },
@@ -594,11 +482,7 @@ export default {
       "masked": "Housing costs have changed many ____ neighbourhoods.",
       "options": [
         "city-mcq-07",
-        "city-mcq-06",
-        "city-mcq-05",
-        "city-mcq-04",
-        "city-mcq-03",
-        "city-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「inner-city」指「位於大型城市較中心、人口密集的舊有城市地區」。",
       "sentenceIndex": 14,
@@ -607,12 +491,8 @@ export default {
         "inner-city"
       ],
       "optionReasons": {
-        "city-mcq-07": "本句指「位於大型城市較中心、人口密集的舊有城市地區」。",
-        "city-mcq-06": "「涉及、影響或遍及整座城市的」與本句語境不同。",
-        "city-mcq-05": "「在特定語境中指某座城市的歷史／金融核心區，例如倫敦金融城」與本句語境不同。",
-        "city-mcq-04": "「依法或行政上劃定、由市政府管轄的城市行政範圍；與一般城市義高度相關」與本句語境不同。",
-        "city-mcq-03": "「以整座城市作為整體來指生活在其中的居民和城市社群」與本句語境不同。",
-        "city-mcq-02": "「負責管理該城市公共服務、規劃及行政事務的市政府或市政機構」與本句語境不同。"
+        "city-mcq-07": "本句的「inner-city」指「位於大型城市較中心、人口密集的舊有城市地區」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "city-mcq-07"
     }
@@ -624,5 +504,16 @@ export default {
     "sha256": "51531ad43f576145e6b63a7276dc020d201ebfd4f4c2ccc72eac3346e2f590b8",
     "pages": 9
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    },
+    {
+      "id": "contrast-duration",
+      "title": "某件事持續的一段時間"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

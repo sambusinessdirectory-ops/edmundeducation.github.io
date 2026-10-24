@@ -665,16 +665,28 @@ export default {
           "He was worried that one of his partners would shop him.",
           "他擔心其中一名同伴會告發他。",
           "告發某人"
-        ],
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "shop-reviewed-ca0901f474",
+      "title": "尋找／比較選項",
+      "form": "shop · source section 31",
+      "en": "尋找／比較選項",
+      "zh": "尋找／比較選項",
+      "note": "對照原始教材第 31 節及例句核實。",
+      "examples": [
         [
           "They are shopping for a new supplier.",
           "他們正在物色新的供應商。",
-          "告發某人"
+          "尋找／比較選項"
         ],
         [
           "The company is shopping around for financing.",
           "公司正四處比較融資方案。",
-          "告發某人"
+          "尋找／比較選項"
         ]
       ],
       "options": [],
@@ -690,11 +702,9 @@ export default {
       "masked": "There's a small ____ near my house.",
       "options": [
         "shop-mcq-01",
-        "shop-mcq-02",
-        "shop-mcq-03",
-        "shop-mcq-04",
-        "shop-mcq-05",
-        "shop-mcq-06"
+        "shop-reviewed-ca0901f474",
+        "shop-mcq-08",
+        "shop-mcq-28"
       ],
       "explanation": "本句的「shop」指「商店；店舖」。",
       "sentenceIndex": 0,
@@ -703,12 +713,10 @@ export default {
         "shop"
       ],
       "optionReasons": {
-        "shop-mcq-01": "本句指「商店；店舖」。",
-        "shop-mcq-02": "「X 店／專門店」與本句語境不同。",
-        "shop-mcq-03": "「購物」與本句語境不同。",
-        "shop-mcq-04": "「選購 X」與本句語境不同。",
-        "shop-mcq-05": "「去購物／行街」與本句語境不同。",
-        "shop-mcq-06": "「買日用品／買餸」與本句語境不同。"
+        "shop-mcq-01": "本句的「shop」指「商店；店舖」。",
+        "shop-reviewed-ca0901f474": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-01"
     },
@@ -720,11 +728,9 @@ export default {
       "masked": "The ____ sells handmade gifts.",
       "options": [
         "shop-mcq-01",
-        "shop-mcq-02",
-        "shop-mcq-03",
-        "shop-mcq-04",
+        "shop-mcq-26",
         "shop-mcq-05",
-        "shop-mcq-06"
+        "shop-mcq-08"
       ],
       "explanation": "本句的「shop」指「商店；店舖」。",
       "sentenceIndex": 1,
@@ -733,12 +739,10 @@ export default {
         "shop"
       ],
       "optionReasons": {
-        "shop-mcq-01": "本句指「商店；店舖」。",
-        "shop-mcq-02": "「X 店／專門店」與本句語境不同。",
-        "shop-mcq-03": "「購物」與本句語境不同。",
-        "shop-mcq-04": "「選購 X」與本句語境不同。",
-        "shop-mcq-05": "「去購物／行街」與本句語境不同。",
-        "shop-mcq-06": "「買日用品／買餸」與本句語境不同。"
+        "shop-mcq-01": "本句的「shop」指「商店；店舖」。",
+        "shop-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-01"
     },
@@ -750,11 +754,9 @@ export default {
       "masked": "Most ____ close at nine.",
       "options": [
         "shop-mcq-01",
-        "shop-mcq-02",
-        "shop-mcq-03",
-        "shop-mcq-04",
-        "shop-mcq-05",
-        "shop-mcq-06"
+        "shop-mcq-26",
+        "shop-mcq-13",
+        "shop-mcq-10"
       ],
       "explanation": "本句的「shops」指「商店；店舖」。",
       "sentenceIndex": 2,
@@ -763,12 +765,10 @@ export default {
         "shops"
       ],
       "optionReasons": {
-        "shop-mcq-01": "本句指「商店；店舖」。",
-        "shop-mcq-02": "「X 店／專門店」與本句語境不同。",
-        "shop-mcq-03": "「購物」與本句語境不同。",
-        "shop-mcq-04": "「選購 X」與本句語境不同。",
-        "shop-mcq-05": "「去購物／行街」與本句語境不同。",
-        "shop-mcq-06": "「買日用品／買餸」與本句語境不同。"
+        "shop-mcq-01": "本句的「shops」指「商店；店舖」。",
+        "shop-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-01"
     },
@@ -780,11 +780,9 @@ export default {
       "masked": "We stopped at a ____.",
       "options": [
         "shop-mcq-02",
-        "shop-mcq-01",
-        "shop-mcq-03",
-        "shop-mcq-04",
-        "shop-mcq-05",
-        "shop-mcq-06"
+        "shop-mcq-15",
+        "shop-mcq-30",
+        "shop-mcq-09"
       ],
       "explanation": "本句的「gift shop」指「X 店／專門店」。",
       "sentenceIndex": 3,
@@ -793,12 +791,10 @@ export default {
         "gift shop"
       ],
       "optionReasons": {
-        "shop-mcq-02": "本句指「X 店／專門店」。",
-        "shop-mcq-01": "「商店；店舖」與本句語境不同。",
-        "shop-mcq-03": "「購物」與本句語境不同。",
-        "shop-mcq-04": "「選購 X」與本句語境不同。",
-        "shop-mcq-05": "「去購物／行街」與本句語境不同。",
-        "shop-mcq-06": "「買日用品／買餸」與本句語境不同。"
+        "shop-mcq-02": "本句的「gift shop」指「X 店／專門店」。",
+        "shop-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-02"
     },
@@ -810,11 +806,9 @@ export default {
       "masked": "She works in a ____.",
       "options": [
         "shop-mcq-02",
-        "shop-mcq-01",
-        "shop-mcq-03",
-        "shop-mcq-04",
-        "shop-mcq-05",
-        "shop-mcq-06"
+        "shop-mcq-19",
+        "shop-mcq-06",
+        "shop-mcq-22"
       ],
       "explanation": "本句的「flower shop」指「X 店／專門店」。",
       "sentenceIndex": 4,
@@ -823,12 +817,10 @@ export default {
         "flower shop"
       ],
       "optionReasons": {
-        "shop-mcq-02": "本句指「X 店／專門店」。",
-        "shop-mcq-01": "「商店；店舖」與本句語境不同。",
-        "shop-mcq-03": "「購物」與本句語境不同。",
-        "shop-mcq-04": "「選購 X」與本句語境不同。",
-        "shop-mcq-05": "「去購物／行街」與本句語境不同。",
-        "shop-mcq-06": "「買日用品／買餸」與本句語境不同。"
+        "shop-mcq-02": "本句的「flower shop」指「X 店／專門店」。",
+        "shop-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-02"
     },
@@ -840,11 +832,9 @@ export default {
       "masked": "We usually ____ at the weekend.",
       "options": [
         "shop-mcq-03",
-        "shop-mcq-02",
-        "shop-mcq-04",
-        "shop-mcq-01",
-        "shop-mcq-05",
-        "shop-mcq-06"
+        "shop-mcq-20",
+        "shop-mcq-23",
+        "shop-mcq-15"
       ],
       "explanation": "本句的「shop」指「購物」。",
       "sentenceIndex": 5,
@@ -853,12 +843,10 @@ export default {
         "shop"
       ],
       "optionReasons": {
-        "shop-mcq-03": "本句指「購物」。",
-        "shop-mcq-02": "「X 店／專門店」與本句語境不同。",
-        "shop-mcq-04": "「選購 X」與本句語境不同。",
-        "shop-mcq-01": "「商店；店舖」與本句語境不同。",
-        "shop-mcq-05": "「去購物／行街」與本句語境不同。",
-        "shop-mcq-06": "「買日用品／買餸」與本句語境不同。"
+        "shop-mcq-03": "本句的「shop」指「購物」。",
+        "shop-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-03"
     },
@@ -870,11 +858,9 @@ export default {
       "masked": "She prefers to ____ online.",
       "options": [
         "shop-mcq-03",
-        "shop-mcq-02",
-        "shop-mcq-04",
-        "shop-mcq-01",
-        "shop-mcq-05",
-        "shop-mcq-06"
+        "shop-mcq-24",
+        "shop-mcq-06",
+        "shop-mcq-22"
       ],
       "explanation": "本句的「shop」指「購物」。",
       "sentenceIndex": 6,
@@ -883,12 +869,10 @@ export default {
         "shop"
       ],
       "optionReasons": {
-        "shop-mcq-03": "本句指「購物」。",
-        "shop-mcq-02": "「X 店／專門店」與本句語境不同。",
-        "shop-mcq-04": "「選購 X」與本句語境不同。",
-        "shop-mcq-01": "「商店；店舖」與本句語境不同。",
-        "shop-mcq-05": "「去購物／行街」與本句語境不同。",
-        "shop-mcq-06": "「買日用品／買餸」與本句語境不同。"
+        "shop-mcq-03": "本句的「shop」指「購物」。",
+        "shop-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-03"
     },
@@ -900,11 +884,9 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "shop-mcq-04",
-        "shop-mcq-03",
-        "shop-mcq-05",
-        "shop-mcq-02",
+        "shop-mcq-23",
         "shop-mcq-06",
-        "shop-mcq-01"
+        "shop-mcq-22"
       ],
       "explanation": "本句的「shopping for a birthday gift」指「選購 X」。",
       "sentenceIndex": 7,
@@ -913,12 +895,10 @@ export default {
         "shopping for a birthday gift"
       ],
       "optionReasons": {
-        "shop-mcq-04": "本句指「選購 X」。",
-        "shop-mcq-03": "「購物」與本句語境不同。",
-        "shop-mcq-05": "「去購物／行街」與本句語境不同。",
-        "shop-mcq-02": "「X 店／專門店」與本句語境不同。",
-        "shop-mcq-06": "「買日用品／買餸」與本句語境不同。",
-        "shop-mcq-01": "「商店；店舖」與本句語境不同。"
+        "shop-mcq-04": "本句的「shopping for a birthday gift」指「選購 X」。",
+        "shop-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-04"
     },
@@ -930,11 +910,9 @@ export default {
       "masked": "They spent the afternoon ____.",
       "options": [
         "shop-mcq-04",
-        "shop-mcq-03",
-        "shop-mcq-05",
-        "shop-mcq-02",
-        "shop-mcq-06",
-        "shop-mcq-01"
+        "shop-mcq-28",
+        "shop-mcq-21",
+        "shop-mcq-30"
       ],
       "explanation": "本句的「shopping for clothes」指「選購 X」。",
       "sentenceIndex": 8,
@@ -943,12 +921,10 @@ export default {
         "shopping for clothes"
       ],
       "optionReasons": {
-        "shop-mcq-04": "本句指「選購 X」。",
-        "shop-mcq-03": "「購物」與本句語境不同。",
-        "shop-mcq-05": "「去購物／行街」與本句語境不同。",
-        "shop-mcq-02": "「X 店／專門店」與本句語境不同。",
-        "shop-mcq-06": "「買日用品／買餸」與本句語境不同。",
-        "shop-mcq-01": "「商店；店舖」與本句語境不同。"
+        "shop-mcq-04": "本句的「shopping for clothes」指「選購 X」。",
+        "shop-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-04"
     },
@@ -960,11 +936,9 @@ export default {
       "masked": "We're ____ this afternoon.",
       "options": [
         "shop-mcq-05",
-        "shop-mcq-04",
-        "shop-mcq-06",
-        "shop-mcq-03",
-        "shop-mcq-02",
-        "shop-mcq-08"
+        "shop-mcq-08",
+        "shop-mcq-18",
+        "shop-mcq-06"
       ],
       "explanation": "本句的「going shopping」指「去購物／行街」。",
       "sentenceIndex": 9,
@@ -973,12 +947,10 @@ export default {
         "going shopping"
       ],
       "optionReasons": {
-        "shop-mcq-05": "本句指「去購物／行街」。",
-        "shop-mcq-04": "「選購 X」與本句語境不同。",
-        "shop-mcq-06": "「買日用品／買餸」與本句語境不同。",
-        "shop-mcq-03": "「購物」與本句語境不同。",
-        "shop-mcq-02": "「X 店／專門店」與本句語境不同。",
-        "shop-mcq-08": "「買回來的東西」與本句語境不同。"
+        "shop-mcq-05": "本句的「going shopping」指「去購物／行街」。",
+        "shop-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-05"
     },
@@ -990,11 +962,9 @@ export default {
       "masked": "She went ____ for a present.",
       "options": [
         "shop-mcq-05",
-        "shop-mcq-04",
-        "shop-mcq-06",
-        "shop-mcq-03",
-        "shop-mcq-02",
-        "shop-mcq-08"
+        "shop-mcq-13",
+        "shop-mcq-23",
+        "shop-mcq-17"
       ],
       "explanation": "本句的「shopping」指「去購物／行街」。",
       "sentenceIndex": 10,
@@ -1003,12 +973,10 @@ export default {
         "shopping"
       ],
       "optionReasons": {
-        "shop-mcq-05": "本句指「去購物／行街」。",
-        "shop-mcq-04": "「選購 X」與本句語境不同。",
-        "shop-mcq-06": "「買日用品／買餸」與本句語境不同。",
-        "shop-mcq-03": "「購物」與本句語境不同。",
-        "shop-mcq-02": "「X 店／專門店」與本句語境不同。",
-        "shop-mcq-08": "「買回來的東西」與本句語境不同。"
+        "shop-mcq-05": "本句的「shopping」指「去購物／行街」。",
+        "shop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-05"
     },
@@ -1020,11 +988,9 @@ export default {
       "masked": "I need to ____ after work.",
       "options": [
         "shop-mcq-06",
+        "shop-mcq-24",
         "shop-mcq-05",
-        "shop-mcq-07",
-        "shop-mcq-04",
-        "shop-mcq-08",
-        "shop-mcq-09"
+        "shop-mcq-25"
       ],
       "explanation": "本句的「do the shopping」指「買日用品／買餸」。",
       "sentenceIndex": 11,
@@ -1033,12 +999,10 @@ export default {
         "do the shopping"
       ],
       "optionReasons": {
-        "shop-mcq-06": "本句指「買日用品／買餸」。",
-        "shop-mcq-05": "「去購物／行街」與本句語境不同。",
-        "shop-mcq-07": "「購物」與本句語境不同。",
-        "shop-mcq-04": "「選購 X」與本句語境不同。",
-        "shop-mcq-08": "「買回來的東西」與本句語境不同。",
-        "shop-mcq-09": "「購物袋」與本句語境不同。"
+        "shop-mcq-06": "本句的「do the shopping」指「買日用品／買餸」。",
+        "shop-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-06"
     },
@@ -1051,10 +1015,8 @@ export default {
       "options": [
         "shop-mcq-06",
         "shop-mcq-05",
-        "shop-mcq-07",
-        "shop-mcq-04",
-        "shop-mcq-08",
-        "shop-mcq-09"
+        "shop-reviewed-ca0901f474",
+        "shop-mcq-27"
       ],
       "explanation": "本句的「does the shopping」指「買日用品／買餸」。",
       "sentenceIndex": 12,
@@ -1063,12 +1025,10 @@ export default {
         "does the shopping"
       ],
       "optionReasons": {
-        "shop-mcq-06": "本句指「買日用品／買餸」。",
-        "shop-mcq-05": "「去購物／行街」與本句語境不同。",
-        "shop-mcq-07": "「購物」與本句語境不同。",
-        "shop-mcq-04": "「選購 X」與本句語境不同。",
-        "shop-mcq-08": "「買回來的東西」與本句語境不同。",
-        "shop-mcq-09": "「購物袋」與本句語境不同。"
+        "shop-mcq-06": "本句的「does the shopping」指「買日用品／買餸」。",
+        "shop-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "shop-reviewed-ca0901f474": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-06"
     },
@@ -1080,11 +1040,9 @@ export default {
       "masked": "Online ____ is convenient.",
       "options": [
         "shop-mcq-07",
-        "shop-mcq-06",
-        "shop-mcq-08",
-        "shop-mcq-05",
-        "shop-mcq-09",
-        "shop-mcq-04"
+        "shop-mcq-24",
+        "shop-mcq-27",
+        "shop-mcq-25"
       ],
       "explanation": "本句的「shopping」指「購物」。",
       "sentenceIndex": 13,
@@ -1093,12 +1051,10 @@ export default {
         "shopping"
       ],
       "optionReasons": {
-        "shop-mcq-07": "本句指「購物」。",
-        "shop-mcq-06": "「買日用品／買餸」與本句語境不同。",
-        "shop-mcq-08": "「買回來的東西」與本句語境不同。",
-        "shop-mcq-05": "「去購物／行街」與本句語境不同。",
-        "shop-mcq-09": "「購物袋」與本句語境不同。",
-        "shop-mcq-04": "「選購 X」與本句語境不同。"
+        "shop-mcq-07": "本句的「shopping」指「購物」。",
+        "shop-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-07"
     },
@@ -1111,10 +1067,8 @@ export default {
       "options": [
         "shop-mcq-07",
         "shop-mcq-06",
-        "shop-mcq-08",
-        "shop-mcq-05",
-        "shop-mcq-09",
-        "shop-mcq-04"
+        "shop-mcq-24",
+        "shop-reviewed-ca0901f474"
       ],
       "explanation": "本句的「shopping」指「購物」。",
       "sentenceIndex": 14,
@@ -1123,12 +1077,10 @@ export default {
         "shopping"
       ],
       "optionReasons": {
-        "shop-mcq-07": "本句指「購物」。",
-        "shop-mcq-06": "「買日用品／買餸」與本句語境不同。",
-        "shop-mcq-08": "「買回來的東西」與本句語境不同。",
-        "shop-mcq-05": "「去購物／行街」與本句語境不同。",
-        "shop-mcq-09": "「購物袋」與本句語境不同。",
-        "shop-mcq-04": "「選購 X」與本句語境不同。"
+        "shop-mcq-07": "本句的「shopping」指「購物」。",
+        "shop-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "shop-reviewed-ca0901f474": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-07"
     },
@@ -1140,11 +1092,9 @@ export default {
       "masked": "Can you help me carry the ____?",
       "options": [
         "shop-mcq-08",
+        "shop-reviewed-ca0901f474",
         "shop-mcq-07",
-        "shop-mcq-09",
-        "shop-mcq-06",
-        "shop-mcq-10",
-        "shop-mcq-05"
+        "shop-mcq-21"
       ],
       "explanation": "本句的「shopping」指「買回來的東西」。",
       "sentenceIndex": 15,
@@ -1153,12 +1103,10 @@ export default {
         "shopping"
       ],
       "optionReasons": {
-        "shop-mcq-08": "本句指「買回來的東西」。",
-        "shop-mcq-07": "「購物」與本句語境不同。",
-        "shop-mcq-09": "「購物袋」與本句語境不同。",
-        "shop-mcq-06": "「買日用品／買餸」與本句語境不同。",
-        "shop-mcq-10": "「購物清單」與本句語境不同。",
-        "shop-mcq-05": "「去購物／行街」與本句語境不同。"
+        "shop-mcq-08": "本句的「shopping」指「買回來的東西」。",
+        "shop-reviewed-ca0901f474": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-08"
     },
@@ -1171,10 +1119,8 @@ export default {
       "options": [
         "shop-mcq-08",
         "shop-mcq-07",
-        "shop-mcq-09",
-        "shop-mcq-06",
-        "shop-mcq-10",
-        "shop-mcq-05"
+        "shop-mcq-30",
+        "shop-mcq-27"
       ],
       "explanation": "本句的「shopping」指「買回來的東西」。",
       "sentenceIndex": 16,
@@ -1183,12 +1129,10 @@ export default {
         "shopping"
       ],
       "optionReasons": {
-        "shop-mcq-08": "本句指「買回來的東西」。",
-        "shop-mcq-07": "「購物」與本句語境不同。",
-        "shop-mcq-09": "「購物袋」與本句語境不同。",
-        "shop-mcq-06": "「買日用品／買餸」與本句語境不同。",
-        "shop-mcq-10": "「購物清單」與本句語境不同。",
-        "shop-mcq-05": "「去購物／行街」與本句語境不同。"
+        "shop-mcq-08": "本句的「shopping」指「買回來的東西」。",
+        "shop-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-08"
     },
@@ -1200,11 +1144,9 @@ export default {
       "masked": "A good gift should not just fill a ____.",
       "options": [
         "shop-mcq-09",
+        "shop-mcq-14",
         "shop-mcq-08",
-        "shop-mcq-10",
-        "shop-mcq-07",
-        "shop-mcq-11",
-        "shop-mcq-06"
+        "shop-mcq-18"
       ],
       "explanation": "本句的「shopping bag」指「購物袋」。",
       "sentenceIndex": 17,
@@ -1213,12 +1155,10 @@ export default {
         "shopping bag"
       ],
       "optionReasons": {
-        "shop-mcq-09": "本句指「購物袋」。",
-        "shop-mcq-08": "「買回來的東西」與本句語境不同。",
-        "shop-mcq-10": "「購物清單」與本句語境不同。",
-        "shop-mcq-07": "「購物」與本句語境不同。",
-        "shop-mcq-11": "「購物中心／商場」與本句語境不同。",
-        "shop-mcq-06": "「買日用品／買餸」與本句語境不同。"
+        "shop-mcq-09": "本句的「shopping bag」指「購物袋」。",
+        "shop-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-09"
     },
@@ -1230,11 +1170,9 @@ export default {
       "masked": "She carried two ____ home.",
       "options": [
         "shop-mcq-09",
-        "shop-mcq-08",
-        "shop-mcq-10",
-        "shop-mcq-07",
-        "shop-mcq-11",
-        "shop-mcq-06"
+        "shop-mcq-21",
+        "shop-reviewed-ca0901f474",
+        "shop-mcq-22"
       ],
       "explanation": "本句的「shopping bags」指「購物袋」。",
       "sentenceIndex": 18,
@@ -1243,12 +1181,10 @@ export default {
         "shopping bags"
       ],
       "optionReasons": {
-        "shop-mcq-09": "本句指「購物袋」。",
-        "shop-mcq-08": "「買回來的東西」與本句語境不同。",
-        "shop-mcq-10": "「購物清單」與本句語境不同。",
-        "shop-mcq-07": "「購物」與本句語境不同。",
-        "shop-mcq-11": "「購物中心／商場」與本句語境不同。",
-        "shop-mcq-06": "「買日用品／買餸」與本句語境不同。"
+        "shop-mcq-09": "本句的「shopping bags」指「購物袋」。",
+        "shop-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shop-reviewed-ca0901f474": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-09"
     },
@@ -1260,11 +1196,9 @@ export default {
       "masked": "I wrote a ____ before going out.",
       "options": [
         "shop-mcq-10",
-        "shop-mcq-09",
-        "shop-mcq-11",
-        "shop-mcq-08",
-        "shop-mcq-12",
-        "shop-mcq-07"
+        "shop-mcq-17",
+        "shop-mcq-15",
+        "shop-mcq-30"
       ],
       "explanation": "本句的「shopping list」指「購物清單」。",
       "sentenceIndex": 19,
@@ -1273,12 +1207,10 @@ export default {
         "shopping list"
       ],
       "optionReasons": {
-        "shop-mcq-10": "本句指「購物清單」。",
-        "shop-mcq-09": "「購物袋」與本句語境不同。",
-        "shop-mcq-11": "「購物中心／商場」與本句語境不同。",
-        "shop-mcq-08": "「買回來的東西」與本句語境不同。",
-        "shop-mcq-12": "「網上購物」與本句語境不同。",
-        "shop-mcq-07": "「購物」與本句語境不同。"
+        "shop-mcq-10": "本句的「shopping list」指「購物清單」。",
+        "shop-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-10"
     },
@@ -1290,11 +1222,9 @@ export default {
       "masked": "Milk is at the top of my ____.",
       "options": [
         "shop-mcq-10",
-        "shop-mcq-09",
-        "shop-mcq-11",
-        "shop-mcq-08",
-        "shop-mcq-12",
-        "shop-mcq-07"
+        "shop-mcq-21",
+        "shop-mcq-13",
+        "shop-mcq-26"
       ],
       "explanation": "本句的「shopping list」指「購物清單」。",
       "sentenceIndex": 20,
@@ -1303,12 +1233,10 @@ export default {
         "shopping list"
       ],
       "optionReasons": {
-        "shop-mcq-10": "本句指「購物清單」。",
-        "shop-mcq-09": "「購物袋」與本句語境不同。",
-        "shop-mcq-11": "「購物中心／商場」與本句語境不同。",
-        "shop-mcq-08": "「買回來的東西」與本句語境不同。",
-        "shop-mcq-12": "「網上購物」與本句語境不同。",
-        "shop-mcq-07": "「購物」與本句語境不同。"
+        "shop-mcq-10": "本句的「shopping list」指「購物清單」。",
+        "shop-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-10"
     },
@@ -1320,9 +1248,7 @@ export default {
       "masked": "We met at the ____.",
       "options": [
         "shop-mcq-11",
-        "shop-mcq-10",
-        "shop-mcq-12",
-        "shop-mcq-09",
+        "shop-mcq-24",
         "shop-mcq-13",
         "shop-mcq-08"
       ],
@@ -1333,12 +1259,10 @@ export default {
         "shopping centre"
       ],
       "optionReasons": {
-        "shop-mcq-11": "本句指「購物中心／商場」。",
-        "shop-mcq-10": "「購物清單」與本句語境不同。",
-        "shop-mcq-12": "「網上購物」與本句語境不同。",
-        "shop-mcq-09": "「購物袋」與本句語境不同。",
-        "shop-mcq-13": "「貨比三家」與本句語境不同。",
-        "shop-mcq-08": "「買回來的東西」與本句語境不同。"
+        "shop-mcq-11": "本句的「shopping centre」指「購物中心／商場」。",
+        "shop-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-11"
     },
@@ -1350,11 +1274,9 @@ export default {
       "masked": "The new ____ has hundreds of stores.",
       "options": [
         "shop-mcq-11",
-        "shop-mcq-10",
-        "shop-mcq-12",
-        "shop-mcq-09",
-        "shop-mcq-13",
-        "shop-mcq-08"
+        "shop-mcq-02",
+        "shop-mcq-25",
+        "shop-reviewed-ca0901f474"
       ],
       "explanation": "本句的「shopping mall」指「購物中心／商場」。",
       "sentenceIndex": 22,
@@ -1363,12 +1285,10 @@ export default {
         "shopping mall"
       ],
       "optionReasons": {
-        "shop-mcq-11": "本句指「購物中心／商場」。",
-        "shop-mcq-10": "「購物清單」與本句語境不同。",
-        "shop-mcq-12": "「網上購物」與本句語境不同。",
-        "shop-mcq-09": "「購物袋」與本句語境不同。",
-        "shop-mcq-13": "「貨比三家」與本句語境不同。",
-        "shop-mcq-08": "「買回來的東西」與本句語境不同。"
+        "shop-mcq-11": "本句的「shopping mall」指「購物中心／商場」。",
+        "shop-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shop-reviewed-ca0901f474": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-11"
     },
@@ -1380,11 +1300,9 @@ export default {
       "masked": "More people now ____.",
       "options": [
         "shop-mcq-12",
-        "shop-mcq-11",
-        "shop-mcq-13",
-        "shop-mcq-10",
-        "shop-mcq-14",
-        "shop-mcq-09"
+        "shop-mcq-28",
+        "shop-mcq-23",
+        "shop-mcq-25"
       ],
       "explanation": "本句的「shop online」指「網上購物」。",
       "sentenceIndex": 23,
@@ -1393,12 +1311,10 @@ export default {
         "shop online"
       ],
       "optionReasons": {
-        "shop-mcq-12": "本句指「網上購物」。",
-        "shop-mcq-11": "「購物中心／商場」與本句語境不同。",
-        "shop-mcq-13": "「貨比三家」與本句語境不同。",
-        "shop-mcq-10": "「購物清單」與本句語境不同。",
-        "shop-mcq-14": "「四處比較 X」與本句語境不同。",
-        "shop-mcq-09": "「購物袋」與本句語境不同。"
+        "shop-mcq-12": "本句的「shop online」指「網上購物」。",
+        "shop-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-12"
     },
@@ -1410,11 +1326,9 @@ export default {
       "masked": "I usually ____ for books.",
       "options": [
         "shop-mcq-12",
-        "shop-mcq-11",
         "shop-mcq-13",
-        "shop-mcq-10",
         "shop-mcq-14",
-        "shop-mcq-09"
+        "shop-mcq-23"
       ],
       "explanation": "本句的「shop online」指「網上購物」。",
       "sentenceIndex": 24,
@@ -1423,12 +1337,10 @@ export default {
         "shop online"
       ],
       "optionReasons": {
-        "shop-mcq-12": "本句指「網上購物」。",
-        "shop-mcq-11": "「購物中心／商場」與本句語境不同。",
-        "shop-mcq-13": "「貨比三家」與本句語境不同。",
-        "shop-mcq-10": "「購物清單」與本句語境不同。",
-        "shop-mcq-14": "「四處比較 X」與本句語境不同。",
-        "shop-mcq-09": "「購物袋」與本句語境不同。"
+        "shop-mcq-12": "本句的「shop online」指「網上購物」。",
+        "shop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-12"
     },
@@ -1440,11 +1352,9 @@ export default {
       "masked": "You should ____ before buying a laptop.",
       "options": [
         "shop-mcq-13",
-        "shop-mcq-12",
-        "shop-mcq-14",
-        "shop-mcq-11",
-        "shop-mcq-15",
-        "shop-mcq-10"
+        "shop-mcq-08",
+        "shop-mcq-04",
+        "shop-mcq-19"
       ],
       "explanation": "本句的「shop around」指「貨比三家」。",
       "sentenceIndex": 25,
@@ -1453,12 +1363,10 @@ export default {
         "shop around"
       ],
       "optionReasons": {
-        "shop-mcq-13": "本句指「貨比三家」。",
-        "shop-mcq-12": "「網上購物」與本句語境不同。",
-        "shop-mcq-14": "「四處比較 X」與本句語境不同。",
-        "shop-mcq-11": "「購物中心／商場」與本句語境不同。",
-        "shop-mcq-15": "「淨睇唔買／逛街」與本句語境不同。",
-        "shop-mcq-10": "「購物清單」與本句語境不同。"
+        "shop-mcq-13": "本句的「shop around」指「貨比三家」。",
+        "shop-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-13"
     },
@@ -1470,11 +1378,9 @@ export default {
       "masked": "We ____ for the best price.",
       "options": [
         "shop-mcq-13",
-        "shop-mcq-12",
-        "shop-mcq-14",
-        "shop-mcq-11",
-        "shop-mcq-15",
-        "shop-mcq-10"
+        "shop-mcq-06",
+        "shop-mcq-25",
+        "shop-mcq-03"
       ],
       "explanation": "本句的「shopped around」指「貨比三家」。",
       "sentenceIndex": 26,
@@ -1483,12 +1389,10 @@ export default {
         "shopped around"
       ],
       "optionReasons": {
-        "shop-mcq-13": "本句指「貨比三家」。",
-        "shop-mcq-12": "「網上購物」與本句語境不同。",
-        "shop-mcq-14": "「四處比較 X」與本句語境不同。",
-        "shop-mcq-11": "「購物中心／商場」與本句語境不同。",
-        "shop-mcq-15": "「淨睇唔買／逛街」與本句語境不同。",
-        "shop-mcq-10": "「購物清單」與本句語境不同。"
+        "shop-mcq-13": "本句的「shopped around」指「貨比三家」。",
+        "shop-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-13"
     },
@@ -1500,11 +1404,9 @@ export default {
       "masked": "They are ____.",
       "options": [
         "shop-mcq-14",
-        "shop-mcq-13",
-        "shop-mcq-15",
-        "shop-mcq-12",
-        "shop-mcq-16",
-        "shop-mcq-11"
+        "shop-mcq-06",
+        "shop-mcq-03",
+        "shop-mcq-25"
       ],
       "explanation": "本句的「shopping around for insurance」指「四處比較 X」。",
       "sentenceIndex": 27,
@@ -1513,12 +1415,10 @@ export default {
         "shopping around for insurance"
       ],
       "optionReasons": {
-        "shop-mcq-14": "本句指「四處比較 X」。",
-        "shop-mcq-13": "「貨比三家」與本句語境不同。",
-        "shop-mcq-15": "「淨睇唔買／逛街」與本句語境不同。",
-        "shop-mcq-12": "「網上購物」與本句語境不同。",
-        "shop-mcq-16": "「購物者」與本句語境不同。",
-        "shop-mcq-11": "「購物中心／商場」與本句語境不同。"
+        "shop-mcq-14": "本句的「shopping around for insurance」指「四處比較 X」。",
+        "shop-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-14"
     },
@@ -1530,11 +1430,9 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "shop-mcq-14",
-        "shop-mcq-13",
-        "shop-mcq-15",
-        "shop-mcq-12",
+        "shop-mcq-24",
         "shop-mcq-16",
-        "shop-mcq-11"
+        "shop-mcq-26"
       ],
       "explanation": "本句的「shopping around for a new phone」指「四處比較 X」。",
       "sentenceIndex": 28,
@@ -1543,12 +1441,10 @@ export default {
         "shopping around for a new phone"
       ],
       "optionReasons": {
-        "shop-mcq-14": "本句指「四處比較 X」。",
-        "shop-mcq-13": "「貨比三家」與本句語境不同。",
-        "shop-mcq-15": "「淨睇唔買／逛街」與本句語境不同。",
-        "shop-mcq-12": "「網上購物」與本句語境不同。",
-        "shop-mcq-16": "「購物者」與本句語境不同。",
-        "shop-mcq-11": "「購物中心／商場」與本句語境不同。"
+        "shop-mcq-14": "本句的「shopping around for a new phone」指「四處比較 X」。",
+        "shop-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-14"
     },
@@ -1560,11 +1456,9 @@ export default {
       "masked": "We spent an hour ____.",
       "options": [
         "shop-mcq-15",
-        "shop-mcq-14",
-        "shop-mcq-16",
+        "shop-mcq-10",
         "shop-mcq-13",
-        "shop-mcq-17",
-        "shop-mcq-12"
+        "shop-mcq-19"
       ],
       "explanation": "本句的「window-shopping」指「淨睇唔買／逛街」。",
       "sentenceIndex": 29,
@@ -1573,12 +1467,10 @@ export default {
         "window-shopping"
       ],
       "optionReasons": {
-        "shop-mcq-15": "本句指「淨睇唔買／逛街」。",
-        "shop-mcq-14": "「四處比較 X」與本句語境不同。",
-        "shop-mcq-16": "「購物者」與本句語境不同。",
-        "shop-mcq-13": "「貨比三家」與本句語境不同。",
-        "shop-mcq-17": "「店主；店東」與本句語境不同。",
-        "shop-mcq-12": "「網上購物」與本句語境不同。"
+        "shop-mcq-15": "本句的「window-shopping」指「淨睇唔買／逛街」。",
+        "shop-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-15"
     },
@@ -1590,10 +1482,8 @@ export default {
       "masked": "I like to ____ when I have time.",
       "options": [
         "shop-mcq-15",
-        "shop-mcq-14",
-        "shop-mcq-16",
-        "shop-mcq-13",
-        "shop-mcq-17",
+        "shop-mcq-24",
+        "shop-mcq-19",
         "shop-mcq-12"
       ],
       "explanation": "本句的「window-shop」指「淨睇唔買／逛街」。",
@@ -1603,12 +1493,10 @@ export default {
         "window-shop"
       ],
       "optionReasons": {
-        "shop-mcq-15": "本句指「淨睇唔買／逛街」。",
-        "shop-mcq-14": "「四處比較 X」與本句語境不同。",
-        "shop-mcq-16": "「購物者」與本句語境不同。",
-        "shop-mcq-13": "「貨比三家」與本句語境不同。",
-        "shop-mcq-17": "「店主；店東」與本句語境不同。",
-        "shop-mcq-12": "「網上購物」與本句語境不同。"
+        "shop-mcq-15": "本句的「window-shop」指「淨睇唔買／逛街」。",
+        "shop-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-15"
     },
@@ -1620,11 +1508,9 @@ export default {
       "masked": "The mall was crowded with ____.",
       "options": [
         "shop-mcq-16",
-        "shop-mcq-15",
-        "shop-mcq-17",
-        "shop-mcq-14",
-        "shop-mcq-18",
-        "shop-mcq-13"
+        "shop-mcq-26",
+        "shop-mcq-19",
+        "shop-mcq-28"
       ],
       "explanation": "本句的「shoppers」指「購物者」。",
       "sentenceIndex": 31,
@@ -1633,12 +1519,10 @@ export default {
         "shoppers"
       ],
       "optionReasons": {
-        "shop-mcq-16": "本句指「購物者」。",
-        "shop-mcq-15": "「淨睇唔買／逛街」與本句語境不同。",
-        "shop-mcq-17": "「店主；店東」與本句語境不同。",
-        "shop-mcq-14": "「四處比較 X」與本句語境不同。",
-        "shop-mcq-18": "「店員；售貨員」與本句語境不同。",
-        "shop-mcq-13": "「貨比三家」與本句語境不同。"
+        "shop-mcq-16": "本句的「shoppers」指「購物者」。",
+        "shop-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-16"
     },
@@ -1650,11 +1534,9 @@ export default {
       "masked": "Online ____ expect fast delivery.",
       "options": [
         "shop-mcq-16",
-        "shop-mcq-15",
-        "shop-mcq-17",
-        "shop-mcq-14",
-        "shop-mcq-18",
-        "shop-mcq-13"
+        "shop-mcq-28",
+        "shop-mcq-21",
+        "shop-mcq-23"
       ],
       "explanation": "本句的「shoppers」指「購物者」。",
       "sentenceIndex": 32,
@@ -1663,12 +1545,10 @@ export default {
         "shoppers"
       ],
       "optionReasons": {
-        "shop-mcq-16": "本句指「購物者」。",
-        "shop-mcq-15": "「淨睇唔買／逛街」與本句語境不同。",
-        "shop-mcq-17": "「店主；店東」與本句語境不同。",
-        "shop-mcq-14": "「四處比較 X」與本句語境不同。",
-        "shop-mcq-18": "「店員；售貨員」與本句語境不同。",
-        "shop-mcq-13": "「貨比三家」與本句語境不同。"
+        "shop-mcq-16": "本句的「shoppers」指「購物者」。",
+        "shop-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-16"
     },
@@ -1680,11 +1560,9 @@ export default {
       "masked": "The ____ knew all his regular customers.",
       "options": [
         "shop-mcq-17",
-        "shop-mcq-16",
-        "shop-mcq-18",
+        "shop-mcq-30",
         "shop-mcq-15",
-        "shop-mcq-19",
-        "shop-mcq-14"
+        "shop-mcq-27"
       ],
       "explanation": "本句的「shopkeeper」指「店主；店東」。",
       "sentenceIndex": 33,
@@ -1693,12 +1571,10 @@ export default {
         "shopkeeper"
       ],
       "optionReasons": {
-        "shop-mcq-17": "本句指「店主；店東」。",
-        "shop-mcq-16": "「購物者」與本句語境不同。",
-        "shop-mcq-18": "「店員；售貨員」與本句語境不同。",
-        "shop-mcq-15": "「淨睇唔買／逛街」與本句語境不同。",
-        "shop-mcq-19": "「櫥窗」與本句語境不同。",
-        "shop-mcq-14": "「四處比較 X」與本句語境不同。"
+        "shop-mcq-17": "本句的「shopkeeper」指「店主；店東」。",
+        "shop-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-17"
     },
@@ -1710,11 +1586,9 @@ export default {
       "masked": "The ____ closed the store early.",
       "options": [
         "shop-mcq-17",
-        "shop-mcq-16",
-        "shop-mcq-18",
-        "shop-mcq-15",
-        "shop-mcq-19",
-        "shop-mcq-14"
+        "shop-mcq-25",
+        "shop-mcq-28",
+        "shop-reviewed-ca0901f474"
       ],
       "explanation": "本句的「shopkeeper」指「店主；店東」。",
       "sentenceIndex": 34,
@@ -1723,12 +1597,10 @@ export default {
         "shopkeeper"
       ],
       "optionReasons": {
-        "shop-mcq-17": "本句指「店主；店東」。",
-        "shop-mcq-16": "「購物者」與本句語境不同。",
-        "shop-mcq-18": "「店員；售貨員」與本句語境不同。",
-        "shop-mcq-15": "「淨睇唔買／逛街」與本句語境不同。",
-        "shop-mcq-19": "「櫥窗」與本句語境不同。",
-        "shop-mcq-14": "「四處比較 X」與本句語境不同。"
+        "shop-mcq-17": "本句的「shopkeeper」指「店主；店東」。",
+        "shop-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shop-reviewed-ca0901f474": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-17"
     },
@@ -1740,11 +1612,9 @@ export default {
       "masked": "I asked the ____ for help.",
       "options": [
         "shop-mcq-18",
-        "shop-mcq-17",
-        "shop-mcq-19",
-        "shop-mcq-16",
-        "shop-mcq-20",
-        "shop-mcq-15"
+        "shop-mcq-30",
+        "shop-mcq-14",
+        "shop-mcq-03"
       ],
       "explanation": "本句的「shop assistant」指「店員；售貨員」。",
       "sentenceIndex": 35,
@@ -1753,12 +1623,10 @@ export default {
         "shop assistant"
       ],
       "optionReasons": {
-        "shop-mcq-18": "本句指「店員；售貨員」。",
-        "shop-mcq-17": "「店主；店東」與本句語境不同。",
-        "shop-mcq-19": "「櫥窗」與本句語境不同。",
-        "shop-mcq-16": "「購物者」與本句語境不同。",
-        "shop-mcq-20": "「店面；舖面」與本句語境不同。",
-        "shop-mcq-15": "「淨睇唔買／逛街」與本句語境不同。"
+        "shop-mcq-18": "本句的「shop assistant」指「店員；售貨員」。",
+        "shop-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-18"
     },
@@ -1770,11 +1638,9 @@ export default {
       "masked": "The ____ showed me another size.",
       "options": [
         "shop-mcq-18",
-        "shop-mcq-17",
-        "shop-mcq-19",
-        "shop-mcq-16",
-        "shop-mcq-20",
-        "shop-mcq-15"
+        "shop-mcq-25",
+        "shop-mcq-14",
+        "shop-mcq-22"
       ],
       "explanation": "本句的「shop assistant」指「店員；售貨員」。",
       "sentenceIndex": 36,
@@ -1783,12 +1649,10 @@ export default {
         "shop assistant"
       ],
       "optionReasons": {
-        "shop-mcq-18": "本句指「店員；售貨員」。",
-        "shop-mcq-17": "「店主；店東」與本句語境不同。",
-        "shop-mcq-19": "「櫥窗」與本句語境不同。",
-        "shop-mcq-16": "「購物者」與本句語境不同。",
-        "shop-mcq-20": "「店面；舖面」與本句語境不同。",
-        "shop-mcq-15": "「淨睇唔買／逛街」與本句語境不同。"
+        "shop-mcq-18": "本句的「shop assistant」指「店員；售貨員」。",
+        "shop-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-18"
     },
@@ -1800,11 +1664,9 @@ export default {
       "masked": "The dress was displayed in the ____.",
       "options": [
         "shop-mcq-19",
-        "shop-mcq-18",
-        "shop-mcq-20",
-        "shop-mcq-17",
-        "shop-mcq-21",
-        "shop-mcq-16"
+        "shop-mcq-12",
+        "shop-reviewed-ca0901f474",
+        "shop-mcq-08"
       ],
       "explanation": "本句的「shop window」指「櫥窗」。",
       "sentenceIndex": 37,
@@ -1813,12 +1675,10 @@ export default {
         "shop window"
       ],
       "optionReasons": {
-        "shop-mcq-19": "本句指「櫥窗」。",
-        "shop-mcq-18": "「店員；售貨員」與本句語境不同。",
-        "shop-mcq-20": "「店面；舖面」與本句語境不同。",
-        "shop-mcq-17": "「店主；店東」與本句語境不同。",
-        "shop-mcq-21": "「店面銷售區」與本句語境不同。",
-        "shop-mcq-16": "「購物者」與本句語境不同。"
+        "shop-mcq-19": "本句的「shop window」指「櫥窗」。",
+        "shop-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shop-reviewed-ca0901f474": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-19"
     },
@@ -1830,11 +1690,9 @@ export default {
       "masked": "She stopped to look at the ____.",
       "options": [
         "shop-mcq-19",
-        "shop-mcq-18",
-        "shop-mcq-20",
-        "shop-mcq-17",
-        "shop-mcq-21",
-        "shop-mcq-16"
+        "shop-mcq-23",
+        "shop-mcq-27",
+        "shop-reviewed-ca0901f474"
       ],
       "explanation": "本句的「shop window」指「櫥窗」。",
       "sentenceIndex": 38,
@@ -1843,12 +1701,10 @@ export default {
         "shop window"
       ],
       "optionReasons": {
-        "shop-mcq-19": "本句指「櫥窗」。",
-        "shop-mcq-18": "「店員；售貨員」與本句語境不同。",
-        "shop-mcq-20": "「店面；舖面」與本句語境不同。",
-        "shop-mcq-17": "「店主；店東」與本句語境不同。",
-        "shop-mcq-21": "「店面銷售區」與本句語境不同。",
-        "shop-mcq-16": "「購物者」與本句語境不同。"
+        "shop-mcq-19": "本句的「shop window」指「櫥窗」。",
+        "shop-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "shop-reviewed-ca0901f474": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-19"
     },
@@ -1860,11 +1716,9 @@ export default {
       "masked": "The old ____ was restored.",
       "options": [
         "shop-mcq-20",
-        "shop-mcq-19",
-        "shop-mcq-21",
-        "shop-mcq-18",
-        "shop-mcq-22",
-        "shop-mcq-17"
+        "shop-mcq-15",
+        "shop-mcq-08",
+        "shop-mcq-27"
       ],
       "explanation": "本句的「shopfront」指「店面；舖面」。",
       "sentenceIndex": 39,
@@ -1873,12 +1727,10 @@ export default {
         "shopfront"
       ],
       "optionReasons": {
-        "shop-mcq-20": "本句指「店面；舖面」。",
-        "shop-mcq-19": "「櫥窗」與本句語境不同。",
-        "shop-mcq-21": "「店面銷售區」與本句語境不同。",
-        "shop-mcq-18": "「店員；售貨員」與本句語境不同。",
-        "shop-mcq-22": "「生產現場」與本句語境不同。",
-        "shop-mcq-17": "「店主；店東」與本句語境不同。"
+        "shop-mcq-20": "本句的「shopfront」指「店面；舖面」。",
+        "shop-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-20"
     },
@@ -1890,11 +1742,9 @@ export default {
       "masked": "The colourful ____ attracted customers.",
       "options": [
         "shop-mcq-20",
-        "shop-mcq-19",
-        "shop-mcq-21",
-        "shop-mcq-18",
-        "shop-mcq-22",
-        "shop-mcq-17"
+        "shop-mcq-29",
+        "shop-reviewed-ca0901f474",
+        "shop-mcq-13"
       ],
       "explanation": "本句的「storefront」指「店面；舖面」。",
       "sentenceIndex": 40,
@@ -1903,12 +1753,10 @@ export default {
         "storefront"
       ],
       "optionReasons": {
-        "shop-mcq-20": "本句指「店面；舖面」。",
-        "shop-mcq-19": "「櫥窗」與本句語境不同。",
-        "shop-mcq-21": "「店面銷售區」與本句語境不同。",
-        "shop-mcq-18": "「店員；售貨員」與本句語境不同。",
-        "shop-mcq-22": "「生產現場」與本句語境不同。",
-        "shop-mcq-17": "「店主；店東」與本句語境不同。"
+        "shop-mcq-20": "本句的「storefront」指「店面；舖面」。",
+        "shop-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "shop-reviewed-ca0901f474": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-20"
     },
@@ -1920,11 +1768,9 @@ export default {
       "masked": "Staff are needed on the ____.",
       "options": [
         "shop-mcq-21",
-        "shop-mcq-20",
-        "shop-mcq-22",
-        "shop-mcq-19",
-        "shop-mcq-23",
-        "shop-mcq-18"
+        "shop-mcq-26",
+        "shop-mcq-29",
+        "shop-mcq-08"
       ],
       "explanation": "本句的「shop floor」指「店面銷售區」。",
       "sentenceIndex": 41,
@@ -1933,12 +1779,10 @@ export default {
         "shop floor"
       ],
       "optionReasons": {
-        "shop-mcq-21": "本句指「店面銷售區」。",
-        "shop-mcq-20": "「店面；舖面」與本句語境不同。",
-        "shop-mcq-22": "「生產現場」與本句語境不同。",
-        "shop-mcq-19": "「櫥窗」與本句語境不同。",
-        "shop-mcq-23": "「工場；維修間」與本句語境不同。",
-        "shop-mcq-18": "「店員；售貨員」與本句語境不同。"
+        "shop-mcq-21": "本句的「shop floor」指「店面銷售區」。",
+        "shop-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-21"
     },
@@ -1950,11 +1794,9 @@ export default {
       "masked": "Managers regularly speak to customers on the ____.",
       "options": [
         "shop-mcq-21",
-        "shop-mcq-20",
-        "shop-mcq-22",
-        "shop-mcq-19",
         "shop-mcq-23",
-        "shop-mcq-18"
+        "shop-mcq-16",
+        "shop-mcq-30"
       ],
       "explanation": "本句的「shop floor」指「店面銷售區」。",
       "sentenceIndex": 42,
@@ -1963,12 +1805,10 @@ export default {
         "shop floor"
       ],
       "optionReasons": {
-        "shop-mcq-21": "本句指「店面銷售區」。",
-        "shop-mcq-20": "「店面；舖面」與本句語境不同。",
-        "shop-mcq-22": "「生產現場」與本句語境不同。",
-        "shop-mcq-19": "「櫥窗」與本句語境不同。",
-        "shop-mcq-23": "「工場；維修間」與本句語境不同。",
-        "shop-mcq-18": "「店員；售貨員」與本句語境不同。"
+        "shop-mcq-21": "本句的「shop floor」指「店面銷售區」。",
+        "shop-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-21"
     },
@@ -1980,11 +1820,9 @@ export default {
       "masked": "Safety rules must be followed on the ____.",
       "options": [
         "shop-mcq-22",
-        "shop-mcq-21",
-        "shop-mcq-23",
-        "shop-mcq-20",
+        "shop-mcq-03",
         "shop-mcq-24",
-        "shop-mcq-19"
+        "shop-mcq-08"
       ],
       "explanation": "本句的「shop floor」指「生產現場」。",
       "sentenceIndex": 43,
@@ -1993,12 +1831,10 @@ export default {
         "shop floor"
       ],
       "optionReasons": {
-        "shop-mcq-22": "本句指「生產現場」。",
-        "shop-mcq-21": "「店面銷售區」與本句語境不同。",
-        "shop-mcq-23": "「工場；維修間」與本句語境不同。",
-        "shop-mcq-20": "「店面；舖面」與本句語境不同。",
-        "shop-mcq-24": "「維修店」與本句語境不同。",
-        "shop-mcq-19": "「櫥窗」與本句語境不同。"
+        "shop-mcq-22": "本句的「shop floor」指「生產現場」。",
+        "shop-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-22"
     },
@@ -2011,10 +1847,8 @@ export default {
       "options": [
         "shop-mcq-22",
         "shop-mcq-21",
-        "shop-mcq-23",
-        "shop-mcq-20",
-        "shop-mcq-24",
-        "shop-mcq-19"
+        "shop-mcq-14",
+        "shop-mcq-12"
       ],
       "explanation": "本句的「shop floor」指「生產現場」。",
       "sentenceIndex": 44,
@@ -2023,12 +1857,10 @@ export default {
         "shop floor"
       ],
       "optionReasons": {
-        "shop-mcq-22": "本句指「生產現場」。",
-        "shop-mcq-21": "「店面銷售區」與本句語境不同。",
-        "shop-mcq-23": "「工場；維修間」與本句語境不同。",
-        "shop-mcq-20": "「店面；舖面」與本句語境不同。",
-        "shop-mcq-24": "「維修店」與本句語境不同。",
-        "shop-mcq-19": "「櫥窗」與本句語境不同。"
+        "shop-mcq-22": "本句的「shop floor」指「生產現場」。",
+        "shop-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-22"
     },
@@ -2040,11 +1872,9 @@ export default {
       "masked": "The car is still in the repair ____.",
       "options": [
         "shop-mcq-23",
-        "shop-mcq-22",
-        "shop-mcq-24",
-        "shop-mcq-21",
-        "shop-mcq-25",
-        "shop-mcq-20"
+        "shop-mcq-15",
+        "shop-mcq-28",
+        "shop-reviewed-ca0901f474"
       ],
       "explanation": "本句的「shop」指「工場；維修間」。",
       "sentenceIndex": 45,
@@ -2053,12 +1883,10 @@ export default {
         "shop"
       ],
       "optionReasons": {
-        "shop-mcq-23": "本句指「工場；維修間」。",
-        "shop-mcq-22": "「生產現場」與本句語境不同。",
-        "shop-mcq-24": "「維修店」與本句語境不同。",
-        "shop-mcq-21": "「店面銷售區」與本句語境不同。",
-        "shop-mcq-25": "「一站式服務平台」與本句語境不同。",
-        "shop-mcq-20": "「店面；舖面」與本句語境不同。"
+        "shop-mcq-23": "本句的「shop」指「工場；維修間」。",
+        "shop-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shop-reviewed-ca0901f474": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-23"
     },
@@ -2070,11 +1898,9 @@ export default {
       "masked": "He works in a machine ____.",
       "options": [
         "shop-mcq-23",
-        "shop-mcq-22",
-        "shop-mcq-24",
-        "shop-mcq-21",
-        "shop-mcq-25",
-        "shop-mcq-20"
+        "shop-mcq-12",
+        "shop-mcq-14",
+        "shop-mcq-28"
       ],
       "explanation": "本句的「shop」指「工場；維修間」。",
       "sentenceIndex": 46,
@@ -2083,12 +1909,10 @@ export default {
         "shop"
       ],
       "optionReasons": {
-        "shop-mcq-23": "本句指「工場；維修間」。",
-        "shop-mcq-22": "「生產現場」與本句語境不同。",
-        "shop-mcq-24": "「維修店」與本句語境不同。",
-        "shop-mcq-21": "「店面銷售區」與本句語境不同。",
-        "shop-mcq-25": "「一站式服務平台」與本句語境不同。",
-        "shop-mcq-20": "「店面；舖面」與本句語境不同。"
+        "shop-mcq-23": "本句的「shop」指「工場；維修間」。",
+        "shop-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-23"
     },
@@ -2100,11 +1924,9 @@ export default {
       "masked": "I took the phone to a ____.",
       "options": [
         "shop-mcq-24",
-        "shop-mcq-23",
+        "shop-mcq-06",
         "shop-mcq-25",
-        "shop-mcq-22",
-        "shop-mcq-26",
-        "shop-mcq-21"
+        "shop-mcq-28"
       ],
       "explanation": "本句的「repair shop」指「維修店」。",
       "sentenceIndex": 47,
@@ -2113,12 +1935,10 @@ export default {
         "repair shop"
       ],
       "optionReasons": {
-        "shop-mcq-24": "本句指「維修店」。",
-        "shop-mcq-23": "「工場；維修間」與本句語境不同。",
-        "shop-mcq-25": "「一站式服務平台」與本句語境不同。",
-        "shop-mcq-22": "「生產現場」與本句語境不同。",
-        "shop-mcq-26": "「談工作」與本句語境不同。",
-        "shop-mcq-21": "「店面銷售區」與本句語境不同。"
+        "shop-mcq-24": "本句的「repair shop」指「維修店」。",
+        "shop-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-24"
     },
@@ -2130,11 +1950,9 @@ export default {
       "masked": "The bike ____ opens at ten.",
       "options": [
         "shop-mcq-24",
-        "shop-mcq-23",
-        "shop-mcq-25",
-        "shop-mcq-22",
-        "shop-mcq-26",
-        "shop-mcq-21"
+        "shop-mcq-04",
+        "shop-mcq-13",
+        "shop-mcq-25"
       ],
       "explanation": "本句的「repair shop」指「維修店」。",
       "sentenceIndex": 48,
@@ -2143,12 +1961,10 @@ export default {
         "repair shop"
       ],
       "optionReasons": {
-        "shop-mcq-24": "本句指「維修店」。",
-        "shop-mcq-23": "「工場；維修間」與本句語境不同。",
-        "shop-mcq-25": "「一站式服務平台」與本句語境不同。",
-        "shop-mcq-22": "「生產現場」與本句語境不同。",
-        "shop-mcq-26": "「談工作」與本句語境不同。",
-        "shop-mcq-21": "「店面銷售區」與本句語境不同。"
+        "shop-mcq-24": "本句的「repair shop」指「維修店」。",
+        "shop-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-24"
     },
@@ -2160,11 +1976,9 @@ export default {
       "masked": "The website is a ____ for travel information.",
       "options": [
         "shop-mcq-25",
-        "shop-mcq-24",
-        "shop-mcq-26",
         "shop-mcq-23",
-        "shop-mcq-27",
-        "shop-mcq-22"
+        "shop-mcq-30",
+        "shop-mcq-01"
       ],
       "explanation": "本句的「one-stop shop」指「一站式服務平台」。",
       "sentenceIndex": 49,
@@ -2173,12 +1987,10 @@ export default {
         "one-stop shop"
       ],
       "optionReasons": {
-        "shop-mcq-25": "本句指「一站式服務平台」。",
-        "shop-mcq-24": "「維修店」與本句語境不同。",
-        "shop-mcq-26": "「談工作」與本句語境不同。",
-        "shop-mcq-23": "「工場；維修間」與本句語境不同。",
-        "shop-mcq-27": "「開業／設立據點」與本句語境不同。",
-        "shop-mcq-22": "「生產現場」與本句語境不同。"
+        "shop-mcq-25": "本句的「one-stop shop」指「一站式服務平台」。",
+        "shop-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-25"
     },
@@ -2190,11 +2002,9 @@ export default {
       "masked": "The centre aims to be a ____ for small businesses.",
       "options": [
         "shop-mcq-25",
-        "shop-mcq-24",
-        "shop-mcq-26",
-        "shop-mcq-23",
-        "shop-mcq-27",
-        "shop-mcq-22"
+        "shop-mcq-28",
+        "shop-mcq-15",
+        "shop-mcq-20"
       ],
       "explanation": "本句的「one-stop shop」指「一站式服務平台」。",
       "sentenceIndex": 50,
@@ -2203,12 +2013,10 @@ export default {
         "one-stop shop"
       ],
       "optionReasons": {
-        "shop-mcq-25": "本句指「一站式服務平台」。",
-        "shop-mcq-24": "「維修店」與本句語境不同。",
-        "shop-mcq-26": "「談工作」與本句語境不同。",
-        "shop-mcq-23": "「工場；維修間」與本句語境不同。",
-        "shop-mcq-27": "「開業／設立據點」與本句語境不同。",
-        "shop-mcq-22": "「生產現場」與本句語境不同。"
+        "shop-mcq-25": "本句的「one-stop shop」指「一站式服務平台」。",
+        "shop-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-25"
     },
@@ -2220,11 +2028,9 @@ export default {
       "masked": "Let's not ____ during dinner.",
       "options": [
         "shop-mcq-26",
-        "shop-mcq-25",
-        "shop-mcq-27",
-        "shop-mcq-24",
-        "shop-mcq-28",
-        "shop-mcq-23"
+        "shop-mcq-05",
+        "shop-mcq-22",
+        "shop-mcq-02"
       ],
       "explanation": "本句的「talk shop」指「談工作」。",
       "sentenceIndex": 51,
@@ -2233,12 +2039,10 @@ export default {
         "talk shop"
       ],
       "optionReasons": {
-        "shop-mcq-26": "本句指「談工作」。",
-        "shop-mcq-25": "「一站式服務平台」與本句語境不同。",
-        "shop-mcq-27": "「開業／設立據點」與本句語境不同。",
-        "shop-mcq-24": "「維修店」與本句語境不同。",
-        "shop-mcq-28": "「關門停業」與本句語境不同。",
-        "shop-mcq-23": "「工場；維修間」與本句語境不同。"
+        "shop-mcq-26": "本句的「talk shop」指「談工作」。",
+        "shop-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-26"
     },
@@ -2250,11 +2054,9 @@ export default {
       "masked": "Whenever they meet, they end up ____.",
       "options": [
         "shop-mcq-26",
-        "shop-mcq-25",
-        "shop-mcq-27",
         "shop-mcq-24",
-        "shop-mcq-28",
-        "shop-mcq-23"
+        "shop-mcq-09",
+        "shop-mcq-08"
       ],
       "explanation": "本句的「talking shop」指「談工作」。",
       "sentenceIndex": 52,
@@ -2263,12 +2065,10 @@ export default {
         "talking shop"
       ],
       "optionReasons": {
-        "shop-mcq-26": "本句指「談工作」。",
-        "shop-mcq-25": "「一站式服務平台」與本句語境不同。",
-        "shop-mcq-27": "「開業／設立據點」與本句語境不同。",
-        "shop-mcq-24": "「維修店」與本句語境不同。",
-        "shop-mcq-28": "「關門停業」與本句語境不同。",
-        "shop-mcq-23": "「工場；維修間」與本句語境不同。"
+        "shop-mcq-26": "本句的「talking shop」指「談工作」。",
+        "shop-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-26"
     },
@@ -2280,11 +2080,9 @@ export default {
       "masked": "She ____ in a small neighbourhood.",
       "options": [
         "shop-mcq-27",
-        "shop-mcq-26",
-        "shop-mcq-28",
-        "shop-mcq-25",
-        "shop-mcq-29",
-        "shop-mcq-24"
+        "shop-mcq-10",
+        "shop-mcq-06",
+        "shop-mcq-20"
       ],
       "explanation": "本句的「set up shop」指「開業／設立據點」。",
       "sentenceIndex": 53,
@@ -2293,12 +2091,10 @@ export default {
         "set up shop"
       ],
       "optionReasons": {
-        "shop-mcq-27": "本句指「開業／設立據點」。",
-        "shop-mcq-26": "「談工作」與本句語境不同。",
-        "shop-mcq-28": "「關門停業」與本句語境不同。",
-        "shop-mcq-25": "「一站式服務平台」與本句語境不同。",
-        "shop-mcq-29": "「瘋狂購物」與本句語境不同。",
-        "shop-mcq-24": "「維修店」與本句語境不同。"
+        "shop-mcq-27": "本句的「set up shop」指「開業／設立據點」。",
+        "shop-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-27"
     },
@@ -2310,11 +2106,9 @@ export default {
       "masked": "The team ____ in the conference room for the week.",
       "options": [
         "shop-mcq-27",
-        "shop-mcq-26",
-        "shop-mcq-28",
-        "shop-mcq-25",
-        "shop-mcq-29",
-        "shop-mcq-24"
+        "shop-mcq-19",
+        "shop-mcq-10",
+        "shop-mcq-20"
       ],
       "explanation": "本句的「set up shop」指「開業／設立據點」。",
       "sentenceIndex": 54,
@@ -2323,12 +2117,10 @@ export default {
         "set up shop"
       ],
       "optionReasons": {
-        "shop-mcq-27": "本句指「開業／設立據點」。",
-        "shop-mcq-26": "「談工作」與本句語境不同。",
-        "shop-mcq-28": "「關門停業」與本句語境不同。",
-        "shop-mcq-25": "「一站式服務平台」與本句語境不同。",
-        "shop-mcq-29": "「瘋狂購物」與本句語境不同。",
-        "shop-mcq-24": "「維修店」與本句語境不同。"
+        "shop-mcq-27": "本句的「set up shop」指「開業／設立據點」。",
+        "shop-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-27"
     },
@@ -2340,11 +2132,9 @@ export default {
       "masked": "The family decided to ____ after thirty years.",
       "options": [
         "shop-mcq-28",
-        "shop-mcq-27",
-        "shop-mcq-29",
-        "shop-mcq-26",
-        "shop-mcq-30",
-        "shop-mcq-25"
+        "shop-mcq-10",
+        "shop-mcq-19",
+        "shop-mcq-08"
       ],
       "explanation": "本句的「shut up shop」指「關門停業」。",
       "sentenceIndex": 55,
@@ -2353,12 +2143,10 @@ export default {
         "shut up shop"
       ],
       "optionReasons": {
-        "shop-mcq-28": "本句指「關門停業」。",
-        "shop-mcq-27": "「開業／設立據點」與本句語境不同。",
-        "shop-mcq-29": "「瘋狂購物」與本句語境不同。",
-        "shop-mcq-26": "「談工作」與本句語境不同。",
-        "shop-mcq-30": "「告發某人」與本句語境不同。",
-        "shop-mcq-25": "「一站式服務平台」與本句語境不同。"
+        "shop-mcq-28": "本句的「shut up shop」指「關門停業」。",
+        "shop-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-28"
     },
@@ -2370,10 +2158,8 @@ export default {
       "masked": "We ____ early because of the storm.",
       "options": [
         "shop-mcq-28",
-        "shop-mcq-27",
-        "shop-mcq-29",
-        "shop-mcq-26",
-        "shop-mcq-30",
+        "shop-mcq-19",
+        "shop-mcq-17",
         "shop-mcq-25"
       ],
       "explanation": "本句的「shut up shop」指「關門停業」。",
@@ -2383,12 +2169,10 @@ export default {
         "shut up shop"
       ],
       "optionReasons": {
-        "shop-mcq-28": "本句指「關門停業」。",
-        "shop-mcq-27": "「開業／設立據點」與本句語境不同。",
-        "shop-mcq-29": "「瘋狂購物」與本句語境不同。",
-        "shop-mcq-26": "「談工作」與本句語境不同。",
-        "shop-mcq-30": "「告發某人」與本句語境不同。",
-        "shop-mcq-25": "「一站式服務平台」與本句語境不同。"
+        "shop-mcq-28": "本句的「shut up shop」指「關門停業」。",
+        "shop-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-28"
     },
@@ -2400,10 +2184,8 @@ export default {
       "masked": "They spent the weekend ____.",
       "options": [
         "shop-mcq-29",
-        "shop-mcq-28",
-        "shop-mcq-30",
-        "shop-mcq-27",
-        "shop-mcq-26",
+        "shop-mcq-23",
+        "shop-mcq-01",
         "shop-mcq-25"
       ],
       "explanation": "本句的「shopping till they dropped」指「瘋狂購物」。",
@@ -2413,12 +2195,10 @@ export default {
         "shopping till they dropped"
       ],
       "optionReasons": {
-        "shop-mcq-29": "本句指「瘋狂購物」。",
-        "shop-mcq-28": "「關門停業」與本句語境不同。",
-        "shop-mcq-30": "「告發某人」與本句語境不同。",
-        "shop-mcq-27": "「開業／設立據點」與本句語境不同。",
-        "shop-mcq-26": "「談工作」與本句語境不同。",
-        "shop-mcq-25": "「一站式服務平台」與本句語境不同。"
+        "shop-mcq-29": "本句的「shopping till they dropped」指「瘋狂購物」。",
+        "shop-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-29"
     },
@@ -2430,11 +2210,9 @@ export default {
       "masked": "The slogan encouraged visitors to ____.",
       "options": [
         "shop-mcq-29",
-        "shop-mcq-28",
-        "shop-mcq-30",
-        "shop-mcq-27",
-        "shop-mcq-26",
-        "shop-mcq-25"
+        "shop-reviewed-ca0901f474",
+        "shop-mcq-01",
+        "shop-mcq-08"
       ],
       "explanation": "本句的「shop till they drop」指「瘋狂購物」。",
       "sentenceIndex": 58,
@@ -2443,12 +2221,10 @@ export default {
         "shop till they drop"
       ],
       "optionReasons": {
-        "shop-mcq-29": "本句指「瘋狂購物」。",
-        "shop-mcq-28": "「關門停業」與本句語境不同。",
-        "shop-mcq-30": "「告發某人」與本句語境不同。",
-        "shop-mcq-27": "「開業／設立據點」與本句語境不同。",
-        "shop-mcq-26": "「談工作」與本句語境不同。",
-        "shop-mcq-25": "「一站式服務平台」與本句語境不同。"
+        "shop-mcq-29": "本句的「shop till they drop」指「瘋狂購物」。",
+        "shop-reviewed-ca0901f474": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-29"
     },
@@ -2460,11 +2236,9 @@ export default {
       "masked": "Someone ____.",
       "options": [
         "shop-mcq-30",
-        "shop-mcq-29",
-        "shop-mcq-28",
-        "shop-mcq-27",
-        "shop-mcq-26",
-        "shop-mcq-25"
+        "shop-mcq-19",
+        "shop-mcq-04",
+        "shop-mcq-08"
       ],
       "explanation": "本句的「shopped him to the police」指「告發某人」。",
       "sentenceIndex": 59,
@@ -2473,12 +2247,10 @@ export default {
         "shopped him to the police"
       ],
       "optionReasons": {
-        "shop-mcq-30": "本句指「告發某人」。",
-        "shop-mcq-29": "「瘋狂購物」與本句語境不同。",
-        "shop-mcq-28": "「關門停業」與本句語境不同。",
-        "shop-mcq-27": "「開業／設立據點」與本句語境不同。",
-        "shop-mcq-26": "「談工作」與本句語境不同。",
-        "shop-mcq-25": "「一站式服務平台」與本句語境不同。"
+        "shop-mcq-30": "本句的「shopped him to the police」指「告發某人」。",
+        "shop-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-30"
     },
@@ -2490,11 +2262,9 @@ export default {
       "masked": "He was worried that one of his partners would ____.",
       "options": [
         "shop-mcq-30",
-        "shop-mcq-29",
         "shop-mcq-28",
-        "shop-mcq-27",
-        "shop-mcq-26",
-        "shop-mcq-25"
+        "shop-mcq-11",
+        "shop-mcq-15"
       ],
       "explanation": "本句的「shop him」指「告發某人」。",
       "sentenceIndex": 60,
@@ -2503,74 +2273,68 @@ export default {
         "shop him"
       ],
       "optionReasons": {
-        "shop-mcq-30": "本句指「告發某人」。",
-        "shop-mcq-29": "「瘋狂購物」與本句語境不同。",
-        "shop-mcq-28": "「關門停業」與本句語境不同。",
-        "shop-mcq-27": "「開業／設立據點」與本句語境不同。",
-        "shop-mcq-26": "「談工作」與本句語境不同。",
-        "shop-mcq-25": "「一站式服務平台」與本句語境不同。"
+        "shop-mcq-30": "本句的「shop him」指「告發某人」。",
+        "shop-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shop-mcq-30"
     },
     {
       "id": "shop-31-0",
-      "sense": "shop-mcq-30",
+      "sense": "shop-reviewed-ca0901f474",
       "en": "They are shopping for a new supplier.",
       "zh": "他們正在物色新的供應商。",
       "masked": "They are ____.",
       "options": [
-        "shop-mcq-30",
-        "shop-mcq-29",
-        "shop-mcq-28",
-        "shop-mcq-27",
-        "shop-mcq-26",
-        "shop-mcq-25"
+        "shop-reviewed-ca0901f474",
+        "shop-mcq-17",
+        "shop-mcq-12",
+        "shop-mcq-06"
       ],
-      "explanation": "本句的「shopping for a new supplier」指「告發某人」。",
+      "explanation": "對照完整句子：「他們正在物色新的供應商。」。這裡的「shopping for a new supplier」表示「尋找／比較選項」。",
       "sentenceIndex": 61,
       "sourcePractice": 1,
       "targets": [
         "shopping for a new supplier"
       ],
       "optionReasons": {
-        "shop-mcq-30": "本句指「告發某人」。",
-        "shop-mcq-29": "「瘋狂購物」與本句語境不同。",
-        "shop-mcq-28": "「關門停業」與本句語境不同。",
-        "shop-mcq-27": "「開業／設立據點」與本句語境不同。",
-        "shop-mcq-26": "「談工作」與本句語境不同。",
-        "shop-mcq-25": "「一站式服務平台」與本句語境不同。"
+        "shop-reviewed-ca0901f474": "對照完整句子：「他們正在物色新的供應商。」。這裡的「shopping for a new supplier」表示「尋找／比較選項」。",
+        "shop-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "shop-mcq-30"
+      "correctOption": "shop-reviewed-ca0901f474",
+      "previousCorrectOption": "shop-mcq-30",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "shop-31-1",
-      "sense": "shop-mcq-30",
+      "sense": "shop-reviewed-ca0901f474",
       "en": "The company is shopping around for financing.",
       "zh": "公司正四處比較融資方案。",
       "masked": "The company is ____.",
       "options": [
-        "shop-mcq-30",
-        "shop-mcq-29",
-        "shop-mcq-28",
-        "shop-mcq-27",
-        "shop-mcq-26",
-        "shop-mcq-25"
+        "shop-reviewed-ca0901f474",
+        "shop-mcq-18",
+        "shop-mcq-25",
+        "shop-mcq-26"
       ],
-      "explanation": "本句的「shopping around for financing」指「告發某人」。",
+      "explanation": "對照完整句子：「公司正四處比較融資方案。」。這裡的「shopping around for financing」表示「尋找／比較選項」。",
       "sentenceIndex": 62,
       "sourcePractice": 2,
       "targets": [
         "shopping around for financing"
       ],
       "optionReasons": {
-        "shop-mcq-30": "本句指「告發某人」。",
-        "shop-mcq-29": "「瘋狂購物」與本句語境不同。",
-        "shop-mcq-28": "「關門停業」與本句語境不同。",
-        "shop-mcq-27": "「開業／設立據點」與本句語境不同。",
-        "shop-mcq-26": "「談工作」與本句語境不同。",
-        "shop-mcq-25": "「一站式服務平台」與本句語境不同。"
+        "shop-reviewed-ca0901f474": "對照完整句子：「公司正四處比較融資方案。」。這裡的「shopping around for financing」表示「尋找／比較選項」。",
+        "shop-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shop-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "shop-mcq-30"
+      "correctOption": "shop-reviewed-ca0901f474",
+      "previousCorrectOption": "shop-mcq-30",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     }
   ],
   "comparisons": [],
@@ -2580,5 +2344,7 @@ export default {
     "sha256": "a8fa532dc69250c30cf1e4da38354bd5616b35452d86e896cc427d147e9999c4",
     "pages": 24
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

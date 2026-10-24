@@ -177,7 +177,7 @@ export default {
     },
     {
       "id": "recess-mcq-09",
-      "title": "表示小息時",
+      "title": "小息時",
       "form": "Useful expression: during recess / at recess — 小息時",
       "en": "Useful expression: during recess / at recess — 小息時",
       "zh": "表示小息時",
@@ -199,7 +199,7 @@ export default {
     },
     {
       "id": "recess-mcq-10",
-      "title": "表示開始休會／暫停",
+      "title": "開始休會／暫停",
       "form": "Useful expression: go into recess — 開始休會／暫停",
       "en": "Useful expression: go into recess — 開始休會／暫停",
       "zh": "表示開始休會／暫停",
@@ -273,11 +273,9 @@ export default {
       "masked": "He shared his notes with me during ____.",
       "options": [
         "recess-mcq-01",
-        "recess-mcq-02",
-        "recess-mcq-03",
         "recess-mcq-04",
-        "recess-mcq-05",
-        "recess-mcq-06"
+        "recess-mcq-10",
+        "recess-mcq-08"
       ],
       "explanation": "本句的「recess」指「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」。",
       "sentenceIndex": 0,
@@ -286,12 +284,10 @@ export default {
         "recess"
       ],
       "optionReasons": {
-        "recess-mcq-01": "本句指「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」。",
-        "recess-mcq-02": "「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」是「recess — formal break」的用法，與本句語境不同。",
-        "recess-mcq-03": "「比周圍表面向內凹入、形成一個較深空間的部分」是「recess — indented space」的用法，與本句語境不同。",
-        "recess-mcq-04": "「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」是「recesses — hidden/deep parts」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。"
+        "recess-mcq-01": "本句的「recess」指「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」。",
+        "recess-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-01"
     },
@@ -303,11 +299,9 @@ export default {
       "masked": "The children went outside to play at ____.",
       "options": [
         "recess-mcq-01",
-        "recess-mcq-02",
-        "recess-mcq-03",
-        "recess-mcq-04",
-        "recess-mcq-05",
-        "recess-mcq-06"
+        "recess-pdf-002",
+        "recess-pdf-001",
+        "recess-mcq-08"
       ],
       "explanation": "本句的「recess」指「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」。",
       "sentenceIndex": 1,
@@ -316,12 +310,10 @@ export default {
         "recess"
       ],
       "optionReasons": {
-        "recess-mcq-01": "本句指「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」。",
-        "recess-mcq-02": "「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」是「recess — formal break」的用法，與本句語境不同。",
-        "recess-mcq-03": "「比周圍表面向內凹入、形成一個較深空間的部分」是「recess — indented space」的用法，與本句語境不同。",
-        "recess-mcq-04": "「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」是「recesses — hidden/deep parts」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。"
+        "recess-mcq-01": "本句的「recess」指「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」。",
+        "recess-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "recess-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-01"
     },
@@ -333,11 +325,9 @@ export default {
       "masked": "We usually ate our snacks during ____.",
       "options": [
         "recess-mcq-01",
-        "recess-mcq-02",
-        "recess-mcq-03",
-        "recess-mcq-04",
-        "recess-mcq-05",
-        "recess-mcq-06"
+        "recess-pdf-001",
+        "recess-pdf-002",
+        "recess-mcq-05"
       ],
       "explanation": "本句的「recess」指「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」。",
       "sentenceIndex": 2,
@@ -346,12 +336,10 @@ export default {
         "recess"
       ],
       "optionReasons": {
-        "recess-mcq-01": "本句指「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」。",
-        "recess-mcq-02": "「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」是「recess — formal break」的用法，與本句語境不同。",
-        "recess-mcq-03": "「比周圍表面向內凹入、形成一個較深空間的部分」是「recess — indented space」的用法，與本句語境不同。",
-        "recess-mcq-04": "「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」是「recesses — hidden/deep parts」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。"
+        "recess-mcq-01": "本句的「recess」指「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」。",
+        "recess-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "recess-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-01"
     },
@@ -363,11 +351,9 @@ export default {
       "masked": "The meeting went into ____ for thirty minutes.",
       "options": [
         "recess-mcq-02",
-        "recess-mcq-01",
-        "recess-mcq-03",
-        "recess-mcq-04",
-        "recess-mcq-05",
-        "recess-mcq-06"
+        "recess-mcq-08",
+        "recess-pdf-002",
+        "recess-pdf-001"
       ],
       "explanation": "本句的「recess」指「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」。",
       "sentenceIndex": 3,
@@ -376,12 +362,10 @@ export default {
         "recess"
       ],
       "optionReasons": {
-        "recess-mcq-02": "本句指「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」。",
-        "recess-mcq-01": "「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」是「recess — school break」的用法，與本句語境不同。",
-        "recess-mcq-03": "「比周圍表面向內凹入、形成一個較深空間的部分」是「recess — indented space」的用法，與本句語境不同。",
-        "recess-mcq-04": "「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」是「recesses — hidden/deep parts」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。"
+        "recess-mcq-02": "本句的「recess」指「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」。",
+        "recess-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "recess-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "recess-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-02"
     },
@@ -393,11 +377,8 @@ export default {
       "masked": "The judge called a short ____.",
       "options": [
         "recess-mcq-02",
-        "recess-mcq-01",
-        "recess-mcq-03",
         "recess-mcq-04",
-        "recess-mcq-05",
-        "recess-mcq-06"
+        "recess-mcq-08"
       ],
       "explanation": "本句的「recess」指「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」。",
       "sentenceIndex": 4,
@@ -406,12 +387,9 @@ export default {
         "recess"
       ],
       "optionReasons": {
-        "recess-mcq-02": "本句指「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」。",
-        "recess-mcq-01": "「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」是「recess — school break」的用法，與本句語境不同。",
-        "recess-mcq-03": "「比周圍表面向內凹入、形成一個較深空間的部分」是「recess — indented space」的用法，與本句語境不同。",
-        "recess-mcq-04": "「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」是「recesses — hidden/deep parts」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。"
+        "recess-mcq-02": "本句的「recess」指「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」。",
+        "recess-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-02"
     },
@@ -423,11 +401,9 @@ export default {
       "masked": "The shelves were built into a ____ in the wall.",
       "options": [
         "recess-mcq-03",
-        "recess-mcq-02",
-        "recess-mcq-04",
-        "recess-mcq-01",
-        "recess-mcq-05",
-        "recess-mcq-06"
+        "recess-mcq-09",
+        "recess-mcq-10",
+        "recess-mcq-08"
       ],
       "explanation": "本句的「recess」指「比周圍表面向內凹入、形成一個較深空間的部分」。",
       "sentenceIndex": 5,
@@ -436,12 +412,10 @@ export default {
         "recess"
       ],
       "optionReasons": {
-        "recess-mcq-03": "本句指「比周圍表面向內凹入、形成一個較深空間的部分」。",
-        "recess-mcq-02": "「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」是「recess — formal break」的用法，與本句語境不同。",
-        "recess-mcq-04": "「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」是「recesses — hidden/deep parts」的用法，與本句語境不同。",
-        "recess-mcq-01": "「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」是「recess — school break」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。"
+        "recess-mcq-03": "本句的「recess」指「比周圍表面向內凹入、形成一個較深空間的部分」。",
+        "recess-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-03"
     },
@@ -453,11 +427,9 @@ export default {
       "masked": "A small desk fitted neatly into the ____.",
       "options": [
         "recess-mcq-03",
-        "recess-mcq-02",
-        "recess-mcq-04",
-        "recess-mcq-01",
-        "recess-mcq-05",
-        "recess-mcq-06"
+        "recess-mcq-09",
+        "recess-mcq-10",
+        "recess-mcq-08"
       ],
       "explanation": "本句的「recess」指「比周圍表面向內凹入、形成一個較深空間的部分」。",
       "sentenceIndex": 6,
@@ -466,12 +438,10 @@ export default {
         "recess"
       ],
       "optionReasons": {
-        "recess-mcq-03": "本句指「比周圍表面向內凹入、形成一個較深空間的部分」。",
-        "recess-mcq-02": "「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」是「recess — formal break」的用法，與本句語境不同。",
-        "recess-mcq-04": "「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」是「recesses — hidden/deep parts」的用法，與本句語境不同。",
-        "recess-mcq-01": "「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」是「recess — school break」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。"
+        "recess-mcq-03": "本句的「recess」指「比周圍表面向內凹入、形成一個較深空間的部分」。",
+        "recess-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-03"
     },
@@ -483,11 +453,8 @@ export default {
       "masked": "The animal disappeared into the dark ____ of the cave.",
       "options": [
         "recess-mcq-04",
-        "recess-mcq-03",
-        "recess-mcq-05",
         "recess-mcq-02",
-        "recess-mcq-06",
-        "recess-mcq-01"
+        "recess-mcq-08"
       ],
       "explanation": "本句的「recesses」指「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」。",
       "sentenceIndex": 7,
@@ -496,12 +463,9 @@ export default {
         "recesses"
       ],
       "optionReasons": {
-        "recess-mcq-04": "本句指「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」。",
-        "recess-mcq-03": "「比周圍表面向內凹入、形成一個較深空間的部分」是「recess — indented space」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
-        "recess-mcq-02": "「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」是「recess — formal break」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。",
-        "recess-mcq-01": "「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」是「recess — school break」的用法，與本句語境不同。"
+        "recess-mcq-04": "本句的「recesses」指「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」。",
+        "recess-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-04"
     },
@@ -513,11 +477,9 @@ export default {
       "masked": "The documents were found in the hidden ____ of the cupboard.",
       "options": [
         "recess-mcq-04",
-        "recess-mcq-03",
-        "recess-mcq-05",
-        "recess-mcq-02",
-        "recess-mcq-06",
-        "recess-mcq-01"
+        "recess-mcq-09",
+        "recess-mcq-10",
+        "recess-mcq-08"
       ],
       "explanation": "本句的「recesses」指「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」。",
       "sentenceIndex": 8,
@@ -526,12 +488,10 @@ export default {
         "recesses"
       ],
       "optionReasons": {
-        "recess-mcq-04": "本句指「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」。",
-        "recess-mcq-03": "「比周圍表面向內凹入、形成一個較深空間的部分」是「recess — indented space」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
-        "recess-mcq-02": "「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」是「recess — formal break」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。",
-        "recess-mcq-01": "「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」是「recess — school break」的用法，與本句語境不同。"
+        "recess-mcq-04": "本句的「recesses」指「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」。",
+        "recess-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-04"
     },
@@ -543,11 +503,9 @@ export default {
       "masked": "The memory remained somewhere in the ____.",
       "options": [
         "recess-pdf-001",
-        "recess-mcq-03",
-        "recess-mcq-05",
         "recess-mcq-02",
-        "recess-mcq-06",
-        "recess-mcq-01"
+        "recess-mcq-07",
+        "recess-mcq-08"
       ],
       "explanation": "本句的「recesses of his mind」指「心靈、思想或記憶中深藏、不容易立即接觸到的部分」。",
       "sentenceIndex": 9,
@@ -556,12 +514,10 @@ export default {
         "recesses of his mind"
       ],
       "optionReasons": {
-        "recess-pdf-001": "本句指「心靈、思想或記憶中深藏、不容易立即接觸到的部分」。",
-        "recess-mcq-03": "「比周圍表面向內凹入、形成一個較深空間的部分」是「recess — indented space」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
-        "recess-mcq-02": "「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」是「recess — formal break」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。",
-        "recess-mcq-01": "「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」是「recess — school break」的用法，與本句語境不同。"
+        "recess-pdf-001": "本句的「recesses of his mind」指「心靈、思想或記憶中深藏、不容易立即接觸到的部分」。",
+        "recess-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-pdf-001"
     },
@@ -573,11 +529,9 @@ export default {
       "masked": "She searched the ____ for his name.",
       "options": [
         "recess-pdf-001",
-        "recess-mcq-03",
-        "recess-mcq-05",
-        "recess-mcq-02",
-        "recess-mcq-06",
-        "recess-mcq-01"
+        "recess-mcq-07",
+        "recess-mcq-01",
+        "recess-mcq-05"
       ],
       "explanation": "本句的「recesses of her memory」指「心靈、思想或記憶中深藏、不容易立即接觸到的部分」。",
       "sentenceIndex": 10,
@@ -586,12 +540,10 @@ export default {
         "recesses of her memory"
       ],
       "optionReasons": {
-        "recess-pdf-001": "本句指「心靈、思想或記憶中深藏、不容易立即接觸到的部分」。",
-        "recess-mcq-03": "「比周圍表面向內凹入、形成一個較深空間的部分」是「recess — indented space」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
-        "recess-mcq-02": "「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」是「recess — formal break」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。",
-        "recess-mcq-01": "「學校上課期間讓學生休息、玩耍或進食的一段短時間；小息／課間休息」是「recess — school break」的用法，與本句語境不同。"
+        "recess-pdf-001": "本句的「recesses of her memory」指「心靈、思想或記憶中深藏、不容易立即接觸到的部分」。",
+        "recess-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-pdf-001"
     },
@@ -604,10 +556,8 @@ export default {
       "options": [
         "recess-mcq-05",
         "recess-mcq-04",
-        "recess-mcq-06",
-        "recess-mcq-03",
-        "recess-mcq-07",
-        "recess-mcq-02"
+        "recess-mcq-08",
+        "recess-mcq-01"
       ],
       "explanation": "本句的「recessed」指「暫時停止正式程序，稍後再繼續」。",
       "sentenceIndex": 11,
@@ -616,12 +566,10 @@ export default {
         "recessed"
       ],
       "optionReasons": {
-        "recess-mcq-05": "本句指「暫時停止正式程序，稍後再繼續」。",
-        "recess-mcq-04": "「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」是「recesses — hidden/deep parts」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。",
-        "recess-mcq-03": "「比周圍表面向內凹入、形成一個較深空間的部分」是「recess — indented space」的用法，與本句語境不同。",
-        "recess-mcq-07": "「嵌入表面之內、向內凹進的」是「recessed」的用法，與本句語境不同。",
-        "recess-mcq-02": "「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」是「recess — formal break」的用法，與本句語境不同。"
+        "recess-mcq-05": "本句的「recessed」指「暫時停止正式程序，稍後再繼續」。",
+        "recess-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-05"
     },
@@ -633,11 +581,9 @@ export default {
       "masked": "The meeting ____ for lunch.",
       "options": [
         "recess-mcq-05",
-        "recess-mcq-04",
-        "recess-mcq-06",
-        "recess-mcq-03",
         "recess-mcq-07",
-        "recess-mcq-02"
+        "recess-mcq-08",
+        "recess-pdf-001"
       ],
       "explanation": "本句的「recessed」指「暫時停止正式程序，稍後再繼續」。",
       "sentenceIndex": 12,
@@ -646,12 +592,10 @@ export default {
         "recessed"
       ],
       "optionReasons": {
-        "recess-mcq-05": "本句指「暫時停止正式程序，稍後再繼續」。",
-        "recess-mcq-04": "「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」是「recesses — hidden/deep parts」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。",
-        "recess-mcq-03": "「比周圍表面向內凹入、形成一個較深空間的部分」是「recess — indented space」的用法，與本句語境不同。",
-        "recess-mcq-07": "「嵌入表面之內、向內凹進的」是「recessed」的用法，與本句語境不同。",
-        "recess-mcq-02": "「正式會議、聆訊、審訊等程序暫時停止、稍後再繼續的一段時間」是「recess — formal break」的用法，與本句語境不同。"
+        "recess-mcq-05": "本句的「recessed」指「暫時停止正式程序，稍後再繼續」。",
+        "recess-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "recess-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-05"
     },
@@ -663,11 +607,9 @@ export default {
       "masked": "The lights were ____ into the ceiling.",
       "options": [
         "recess-pdf-002",
-        "recess-mcq-05",
-        "recess-mcq-07",
-        "recess-mcq-04",
-        "recess-mcq-08",
-        "recess-mcq-03"
+        "recess-mcq-09",
+        "recess-mcq-10",
+        "recess-mcq-08"
       ],
       "explanation": "本句的「recessed」指「把某物設置得比周圍表面更深入／嵌入表面之內」。",
       "sentenceIndex": 13,
@@ -676,12 +618,10 @@ export default {
         "recessed"
       ],
       "optionReasons": {
-        "recess-pdf-002": "本句指「把某物設置得比周圍表面更深入／嵌入表面之內」。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
-        "recess-mcq-07": "「嵌入表面之內、向內凹進的」是「recessed」的用法，與本句語境不同。",
-        "recess-mcq-04": "「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」是「recesses — hidden/deep parts」的用法，與本句語境不同。",
-        "recess-mcq-08": "「遺傳學中的「隱性的」；相關詞但應視為獨立專門詞彙」是「recessive」的用法，與本句語境不同。",
-        "recess-mcq-03": "「比周圍表面向內凹入、形成一個較深空間的部分」是「recess — indented space」的用法，與本句語境不同。"
+        "recess-pdf-002": "本句的「recessed」指「把某物設置得比周圍表面更深入／嵌入表面之內」。",
+        "recess-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-pdf-002"
     },
@@ -694,10 +634,8 @@ export default {
       "options": [
         "recess-pdf-002",
         "recess-mcq-05",
-        "recess-mcq-07",
-        "recess-mcq-04",
-        "recess-mcq-08",
-        "recess-mcq-03"
+        "recess-mcq-01",
+        "recess-mcq-08"
       ],
       "explanation": "本句的「recessed」指「把某物設置得比周圍表面更深入／嵌入表面之內」。",
       "sentenceIndex": 14,
@@ -706,12 +644,10 @@ export default {
         "recessed"
       ],
       "optionReasons": {
-        "recess-pdf-002": "本句指「把某物設置得比周圍表面更深入／嵌入表面之內」。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
-        "recess-mcq-07": "「嵌入表面之內、向內凹進的」是「recessed」的用法，與本句語境不同。",
-        "recess-mcq-04": "「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」是「recesses — hidden/deep parts」的用法，與本句語境不同。",
-        "recess-mcq-08": "「遺傳學中的「隱性的」；相關詞但應視為獨立專門詞彙」是「recessive」的用法，與本句語境不同。",
-        "recess-mcq-03": "「比周圍表面向內凹入、形成一個較深空間的部分」是「recess — indented space」的用法，與本句語境不同。"
+        "recess-pdf-002": "本句的「recessed」指「把某物設置得比周圍表面更深入／嵌入表面之內」。",
+        "recess-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-pdf-002"
     },
@@ -723,11 +659,9 @@ export default {
       "masked": "The room has ____.",
       "options": [
         "recess-mcq-07",
-        "recess-mcq-06",
-        "recess-mcq-08",
-        "recess-mcq-05",
         "recess-mcq-09",
-        "recess-mcq-04"
+        "recess-pdf-001",
+        "recess-mcq-10"
       ],
       "explanation": "本句的「recessed lighting」指「嵌入表面之內、向內凹進的」。",
       "sentenceIndex": 15,
@@ -736,12 +670,10 @@ export default {
         "recessed lighting"
       ],
       "optionReasons": {
-        "recess-mcq-07": "本句指「嵌入表面之內、向內凹進的」。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。",
-        "recess-mcq-08": "「遺傳學中的「隱性的」；相關詞但應視為獨立專門詞彙」是「recessive」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
-        "recess-mcq-09": "「表示小息時」是「Useful expression: during recess / at recess — 小息時」的用法，與本句語境不同。",
-        "recess-mcq-04": "「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」是「recesses — hidden/deep parts」的用法，與本句語境不同。"
+        "recess-mcq-07": "本句的「recessed lighting」指「嵌入表面之內、向內凹進的」。",
+        "recess-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "recess-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-07"
     },
@@ -753,11 +685,9 @@ export default {
       "masked": "The cabinet has ____.",
       "options": [
         "recess-mcq-07",
-        "recess-mcq-06",
         "recess-mcq-08",
-        "recess-mcq-05",
-        "recess-mcq-09",
-        "recess-mcq-04"
+        "recess-pdf-001",
+        "recess-mcq-10"
       ],
       "explanation": "本句的「recessed handles」指「嵌入表面之內、向內凹進的」。",
       "sentenceIndex": 16,
@@ -766,12 +696,10 @@ export default {
         "recessed handles"
       ],
       "optionReasons": {
-        "recess-mcq-07": "本句指「嵌入表面之內、向內凹進的」。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。",
-        "recess-mcq-08": "「遺傳學中的「隱性的」；相關詞但應視為獨立專門詞彙」是「recessive」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。",
-        "recess-mcq-09": "「表示小息時」是「Useful expression: during recess / at recess — 小息時」的用法，與本句語境不同。",
-        "recess-mcq-04": "「某個地方隱蔽、深入或不容易看見的部分；與 inward-space義相關」是「recesses — hidden/deep parts」的用法，與本句語境不同。"
+        "recess-mcq-07": "本句的「recessed handles」指「嵌入表面之內、向內凹進的」。",
+        "recess-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "recess-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-07"
     },
@@ -783,11 +711,9 @@ export default {
       "masked": "The condition is caused by a ____ gene.",
       "options": [
         "recess-mcq-08",
-        "recess-mcq-07",
-        "recess-mcq-09",
-        "recess-mcq-06",
-        "recess-mcq-10",
-        "recess-mcq-05"
+        "recess-mcq-02",
+        "recess-pdf-002",
+        "recess-pdf-001"
       ],
       "explanation": "本句的「recessive」指「遺傳學中的「隱性的」；相關詞但應視為獨立專門詞彙」。",
       "sentenceIndex": 17,
@@ -796,12 +722,10 @@ export default {
         "recessive"
       ],
       "optionReasons": {
-        "recess-mcq-08": "本句指「遺傳學中的「隱性的」；相關詞但應視為獨立專門詞彙」。",
-        "recess-mcq-07": "「嵌入表面之內、向內凹進的」是「recessed」的用法，與本句語境不同。",
-        "recess-mcq-09": "「表示小息時」是「Useful expression: during recess / at recess — 小息時」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。",
-        "recess-mcq-10": "「表示開始休會／暫停」是「Useful expression: go into recess — 開始休會／暫停」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。"
+        "recess-mcq-08": "本句的「recessive」指「遺傳學中的「隱性的」；相關詞但應視為獨立專門詞彙」。",
+        "recess-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "recess-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "recess-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-08"
     },
@@ -813,11 +737,9 @@ export default {
       "masked": "The trait is ____ rather than dominant.",
       "options": [
         "recess-mcq-08",
-        "recess-mcq-07",
         "recess-mcq-09",
-        "recess-mcq-06",
         "recess-mcq-10",
-        "recess-mcq-05"
+        "recess-mcq-03"
       ],
       "explanation": "本句的「recessive」指「遺傳學中的「隱性的」；相關詞但應視為獨立專門詞彙」。",
       "sentenceIndex": 18,
@@ -826,12 +748,10 @@ export default {
         "recessive"
       ],
       "optionReasons": {
-        "recess-mcq-08": "本句指「遺傳學中的「隱性的」；相關詞但應視為獨立專門詞彙」。",
-        "recess-mcq-07": "「嵌入表面之內、向內凹進的」是「recessed」的用法，與本句語境不同。",
-        "recess-mcq-09": "「表示小息時」是「Useful expression: during recess / at recess — 小息時」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。",
-        "recess-mcq-10": "「表示開始休會／暫停」是「Useful expression: go into recess — 開始休會／暫停」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。"
+        "recess-mcq-08": "本句的「recessive」指「遺傳學中的「隱性的」；相關詞但應視為獨立專門詞彙」。",
+        "recess-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-08"
     },
@@ -843,11 +763,9 @@ export default {
       "masked": "We played outside ____.",
       "options": [
         "recess-mcq-09",
-        "recess-mcq-08",
-        "recess-mcq-10",
         "recess-mcq-07",
-        "recess-mcq-06",
-        "recess-mcq-05"
+        "recess-mcq-10",
+        "recess-pdf-001"
       ],
       "explanation": "本句的「during recess」指「表示小息時」。",
       "sentenceIndex": 19,
@@ -856,12 +774,10 @@ export default {
         "during recess"
       ],
       "optionReasons": {
-        "recess-mcq-09": "本句指「表示小息時」。",
-        "recess-mcq-08": "「遺傳學中的「隱性的」；相關詞但應視為獨立專門詞彙」是「recessive」的用法，與本句語境不同。",
-        "recess-mcq-10": "「表示開始休會／暫停」是「Useful expression: go into recess — 開始休會／暫停」的用法，與本句語境不同。",
-        "recess-mcq-07": "「嵌入表面之內、向內凹進的」是「recessed」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。"
+        "recess-mcq-09": "本句的「during recess」指「表示小息時」。",
+        "recess-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recess-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-09"
     },
@@ -873,11 +789,9 @@ export default {
       "masked": "I’ll speak to him ____.",
       "options": [
         "recess-mcq-09",
-        "recess-mcq-08",
+        "recess-pdf-002",
         "recess-mcq-10",
-        "recess-mcq-07",
-        "recess-mcq-06",
-        "recess-mcq-05"
+        "recess-mcq-08"
       ],
       "explanation": "本句的「at recess」指「表示小息時」。",
       "sentenceIndex": 20,
@@ -886,12 +800,10 @@ export default {
         "at recess"
       ],
       "optionReasons": {
-        "recess-mcq-09": "本句指「表示小息時」。",
-        "recess-mcq-08": "「遺傳學中的「隱性的」；相關詞但應視為獨立專門詞彙」是「recessive」的用法，與本句語境不同。",
-        "recess-mcq-10": "「表示開始休會／暫停」是「Useful expression: go into recess — 開始休會／暫停」的用法，與本句語境不同。",
-        "recess-mcq-07": "「嵌入表面之內、向內凹進的」是「recessed」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。"
+        "recess-mcq-09": "本句的「at recess」指「表示小息時」。",
+        "recess-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-09"
     },
@@ -903,11 +815,9 @@ export default {
       "masked": "The hearing went into ____ at noon.",
       "options": [
         "recess-mcq-10",
-        "recess-mcq-09",
+        "recess-mcq-04",
         "recess-mcq-08",
-        "recess-mcq-07",
-        "recess-mcq-06",
-        "recess-mcq-05"
+        "recess-mcq-09"
       ],
       "explanation": "本句的「recess」指「表示開始休會／暫停」。",
       "sentenceIndex": 21,
@@ -916,12 +826,10 @@ export default {
         "recess"
       ],
       "optionReasons": {
-        "recess-mcq-10": "本句指「表示開始休會／暫停」。",
-        "recess-mcq-09": "「表示小息時」是「Useful expression: during recess / at recess — 小息時」的用法，與本句語境不同。",
-        "recess-mcq-08": "「遺傳學中的「隱性的」；相關詞但應視為獨立專門詞彙」是「recessive」的用法，與本句語境不同。",
-        "recess-mcq-07": "「嵌入表面之內、向內凹進的」是「recessed」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。"
+        "recess-mcq-10": "本句的「recess」指「表示開始休會／暫停」。",
+        "recess-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-10"
     },
@@ -933,11 +841,9 @@ export default {
       "masked": "The meeting went into ____ for twenty minutes.",
       "options": [
         "recess-mcq-10",
+        "recess-pdf-002",
         "recess-mcq-09",
-        "recess-mcq-08",
-        "recess-mcq-07",
-        "recess-mcq-06",
-        "recess-mcq-05"
+        "recess-mcq-08"
       ],
       "explanation": "本句的「recess」指「表示開始休會／暫停」。",
       "sentenceIndex": 22,
@@ -946,12 +852,10 @@ export default {
         "recess"
       ],
       "optionReasons": {
-        "recess-mcq-10": "本句指「表示開始休會／暫停」。",
-        "recess-mcq-09": "「表示小息時」是「Useful expression: during recess / at recess — 小息時」的用法，與本句語境不同。",
-        "recess-mcq-08": "「遺傳學中的「隱性的」；相關詞但應視為獨立專門詞彙」是「recessive」的用法，與本句語境不同。",
-        "recess-mcq-07": "「嵌入表面之內、向內凹進的」是「recessed」的用法，與本句語境不同。",
-        "recess-mcq-06": "「把某物嵌入牆面、天花板或其他表面，使其不突出」是「recess — verb, set inward」的用法，與本句語境不同。",
-        "recess-mcq-05": "「暫時停止正式程序，稍後再繼續」是「recess — verb, suspend」的用法，與本句語境不同。"
+        "recess-mcq-10": "本句的「recess」指「表示開始休會／暫停」。",
+        "recess-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "recess-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recess-mcq-10"
     }
@@ -963,5 +867,7 @@ export default {
     "sha256": "4c863f170ab589a9953c05620d385e33c4048c323d5e2d8590c11dfe49160492",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

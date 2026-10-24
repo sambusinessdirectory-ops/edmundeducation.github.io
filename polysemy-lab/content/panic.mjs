@@ -163,11 +163,7 @@ export default {
       "masked": "A wave of ____ spread through the crowd.",
       "options": [
         "panic-mcq-01",
-        "panic-mcq-02",
-        "panic-mcq-03",
-        "panic-mcq-04",
-        "panic-mcq-05",
-        "panic-mcq-06"
+        "panic-mcq-05"
       ],
       "explanation": "本句的「panic」指「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」。",
       "sentenceIndex": 0,
@@ -176,12 +172,8 @@ export default {
         "panic"
       ],
       "optionReasons": {
-        "panic-mcq-01": "本句指「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」。",
-        "panic-mcq-02": "「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」與本句語境不同。",
-        "panic-mcq-03": "「令某人或動物突然陷入恐慌；與 verb sense 相同」與本句語境不同。",
-        "panic-mcq-04": "「群體因恐懼或不確定而產生的集體慌亂；屬於 noun sense」與本句語境不同。",
-        "panic-mcq-05": "「容易驚慌，或當下表現得非常慌亂的」與本句語境不同。",
-        "panic-mcq-06": "「因恐慌而作出的急速、非理性搶購／拋售行為」與本句語境不同。"
+        "panic-mcq-01": "本句的「panic」指「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」。",
+        "panic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "panic-mcq-01"
     },
@@ -193,11 +185,7 @@ export default {
       "masked": "She felt a sudden sense of ____.",
       "options": [
         "panic-mcq-01",
-        "panic-mcq-02",
-        "panic-mcq-03",
-        "panic-mcq-04",
-        "panic-mcq-05",
-        "panic-mcq-06"
+        "panic-mcq-05"
       ],
       "explanation": "本句的「panic」指「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」。",
       "sentenceIndex": 1,
@@ -206,12 +194,8 @@ export default {
         "panic"
       ],
       "optionReasons": {
-        "panic-mcq-01": "本句指「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」。",
-        "panic-mcq-02": "「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」與本句語境不同。",
-        "panic-mcq-03": "「令某人或動物突然陷入恐慌；與 verb sense 相同」與本句語境不同。",
-        "panic-mcq-04": "「群體因恐懼或不確定而產生的集體慌亂；屬於 noun sense」與本句語境不同。",
-        "panic-mcq-05": "「容易驚慌，或當下表現得非常慌亂的」與本句語境不同。",
-        "panic-mcq-06": "「因恐慌而作出的急速、非理性搶購／拋售行為」與本句語境不同。"
+        "panic-mcq-01": "本句的「panic」指「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」。",
+        "panic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "panic-mcq-01"
     },
@@ -223,11 +207,7 @@ export default {
       "masked": "It did not rush or ____.",
       "options": [
         "panic-mcq-02",
-        "panic-mcq-01",
-        "panic-mcq-03",
-        "panic-mcq-04",
-        "panic-mcq-05",
-        "panic-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「panic」指「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」。",
       "sentenceIndex": 2,
@@ -236,12 +216,8 @@ export default {
         "panic"
       ],
       "optionReasons": {
-        "panic-mcq-02": "本句指「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」。",
-        "panic-mcq-01": "「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」與本句語境不同。",
-        "panic-mcq-03": "「令某人或動物突然陷入恐慌；與 verb sense 相同」與本句語境不同。",
-        "panic-mcq-04": "「群體因恐懼或不確定而產生的集體慌亂；屬於 noun sense」與本句語境不同。",
-        "panic-mcq-05": "「容易驚慌，或當下表現得非常慌亂的」與本句語境不同。",
-        "panic-mcq-06": "「因恐慌而作出的急速、非理性搶購／拋售行為」與本句語境不同。"
+        "panic-mcq-02": "本句的「panic」指「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "panic-mcq-02"
     },
@@ -253,11 +229,7 @@ export default {
       "masked": "Don’t ____ if something goes wrong.",
       "options": [
         "panic-mcq-02",
-        "panic-mcq-01",
-        "panic-mcq-03",
-        "panic-mcq-04",
-        "panic-mcq-05",
-        "panic-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「panic」指「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」。",
       "sentenceIndex": 3,
@@ -266,12 +238,8 @@ export default {
         "panic"
       ],
       "optionReasons": {
-        "panic-mcq-02": "本句指「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」。",
-        "panic-mcq-01": "「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」與本句語境不同。",
-        "panic-mcq-03": "「令某人或動物突然陷入恐慌；與 verb sense 相同」與本句語境不同。",
-        "panic-mcq-04": "「群體因恐懼或不確定而產生的集體慌亂；屬於 noun sense」與本句語境不同。",
-        "panic-mcq-05": "「容易驚慌，或當下表現得非常慌亂的」與本句語境不同。",
-        "panic-mcq-06": "「因恐慌而作出的急速、非理性搶購／拋售行為」與本句語境不同。"
+        "panic-mcq-02": "本句的「panic」指「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "panic-mcq-02"
     },
@@ -283,11 +251,7 @@ export default {
       "masked": "He ____ when he could not find his passport.",
       "options": [
         "panic-mcq-02",
-        "panic-mcq-01",
-        "panic-mcq-03",
-        "panic-mcq-04",
-        "panic-mcq-05",
-        "panic-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「panicked」指「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」。",
       "sentenceIndex": 4,
@@ -296,12 +260,8 @@ export default {
         "panicked"
       ],
       "optionReasons": {
-        "panic-mcq-02": "本句指「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」。",
-        "panic-mcq-01": "「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」與本句語境不同。",
-        "panic-mcq-03": "「令某人或動物突然陷入恐慌；與 verb sense 相同」與本句語境不同。",
-        "panic-mcq-04": "「群體因恐懼或不確定而產生的集體慌亂；屬於 noun sense」與本句語境不同。",
-        "panic-mcq-05": "「容易驚慌，或當下表現得非常慌亂的」與本句語境不同。",
-        "panic-mcq-06": "「因恐慌而作出的急速、非理性搶購／拋售行為」與本句語境不同。"
+        "panic-mcq-02": "本句的「panicked」指「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "panic-mcq-02"
     },
@@ -313,11 +273,7 @@ export default {
       "masked": "The loud noise ____ the horses.",
       "options": [
         "panic-mcq-03",
-        "panic-mcq-02",
-        "panic-mcq-04",
-        "panic-mcq-01",
-        "panic-mcq-05",
-        "panic-mcq-06"
+        "panic-mcq-05"
       ],
       "explanation": "本句的「panicked」指「令某人或動物突然陷入恐慌；與 verb sense 相同」。",
       "sentenceIndex": 5,
@@ -326,12 +282,8 @@ export default {
         "panicked"
       ],
       "optionReasons": {
-        "panic-mcq-03": "本句指「令某人或動物突然陷入恐慌；與 verb sense 相同」。",
-        "panic-mcq-02": "「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」與本句語境不同。",
-        "panic-mcq-04": "「群體因恐懼或不確定而產生的集體慌亂；屬於 noun sense」與本句語境不同。",
-        "panic-mcq-01": "「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」與本句語境不同。",
-        "panic-mcq-05": "「容易驚慌，或當下表現得非常慌亂的」與本句語境不同。",
-        "panic-mcq-06": "「因恐慌而作出的急速、非理性搶購／拋售行為」與本句語境不同。"
+        "panic-mcq-03": "本句的「panicked」指「令某人或動物突然陷入恐慌；與 verb sense 相同」。",
+        "panic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "panic-mcq-03"
     },
@@ -343,11 +295,7 @@ export default {
       "masked": "The warning ____ some passengers.",
       "options": [
         "panic-mcq-03",
-        "panic-mcq-02",
-        "panic-mcq-04",
-        "panic-mcq-01",
-        "panic-mcq-05",
-        "panic-mcq-06"
+        "panic-mcq-05"
       ],
       "explanation": "本句的「panicked」指「令某人或動物突然陷入恐慌；與 verb sense 相同」。",
       "sentenceIndex": 6,
@@ -356,12 +304,8 @@ export default {
         "panicked"
       ],
       "optionReasons": {
-        "panic-mcq-03": "本句指「令某人或動物突然陷入恐慌；與 verb sense 相同」。",
-        "panic-mcq-02": "「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」與本句語境不同。",
-        "panic-mcq-04": "「群體因恐懼或不確定而產生的集體慌亂；屬於 noun sense」與本句語境不同。",
-        "panic-mcq-01": "「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」與本句語境不同。",
-        "panic-mcq-05": "「容易驚慌，或當下表現得非常慌亂的」與本句語境不同。",
-        "panic-mcq-06": "「因恐慌而作出的急速、非理性搶購／拋售行為」與本句語境不同。"
+        "panic-mcq-03": "本句的「panicked」指「令某人或動物突然陷入恐慌；與 verb sense 相同」。",
+        "panic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "panic-mcq-03"
     },
@@ -373,11 +317,7 @@ export default {
       "masked": "The rumour caused public ____.",
       "options": [
         "panic-pdf-001",
-        "panic-mcq-05",
-        "panic-mcq-04",
-        "panic-mcq-03",
-        "panic-mcq-02",
-        "panic-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「panic」指「大量人同時因恐懼或不確定而產生的集體慌亂」。",
       "sentenceIndex": 7,
@@ -386,12 +326,8 @@ export default {
         "panic"
       ],
       "optionReasons": {
-        "panic-pdf-001": "本句指「大量人同時因恐懼或不確定而產生的集體慌亂」。",
-        "panic-mcq-05": "「容易驚慌，或當下表現得非常慌亂的」與本句語境不同。",
-        "panic-mcq-04": "「群體因恐懼或不確定而產生的集體慌亂；屬於 noun sense」與本句語境不同。",
-        "panic-mcq-03": "「令某人或動物突然陷入恐慌；與 verb sense 相同」與本句語境不同。",
-        "panic-mcq-02": "「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」與本句語境不同。",
-        "panic-mcq-01": "「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」與本句語境不同。"
+        "panic-pdf-001": "本句的「panic」指「大量人同時因恐懼或不確定而產生的集體慌亂」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "panic-pdf-001"
     },
@@ -403,11 +339,7 @@ export default {
       "masked": "There was ____ in the market after the announcement.",
       "options": [
         "panic-pdf-001",
-        "panic-mcq-05",
-        "panic-mcq-04",
-        "panic-mcq-03",
-        "panic-mcq-02",
-        "panic-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「panic」指「大量人同時因恐懼或不確定而產生的集體慌亂」。",
       "sentenceIndex": 8,
@@ -416,12 +348,8 @@ export default {
         "panic"
       ],
       "optionReasons": {
-        "panic-pdf-001": "本句指「大量人同時因恐懼或不確定而產生的集體慌亂」。",
-        "panic-mcq-05": "「容易驚慌，或當下表現得非常慌亂的」與本句語境不同。",
-        "panic-mcq-04": "「群體因恐懼或不確定而產生的集體慌亂；屬於 noun sense」與本句語境不同。",
-        "panic-mcq-03": "「令某人或動物突然陷入恐慌；與 verb sense 相同」與本句語境不同。",
-        "panic-mcq-02": "「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」與本句語境不同。",
-        "panic-mcq-01": "「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」與本句語境不同。"
+        "panic-pdf-001": "本句的「panic」指「大量人同時因恐懼或不確定而產生的集體慌亂」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "panic-pdf-001"
     },
@@ -433,11 +361,7 @@ export default {
       "masked": "The shortage led to ____.",
       "options": [
         "panic-mcq-06",
-        "panic-mcq-05",
-        "panic-mcq-04",
-        "panic-mcq-03",
-        "panic-mcq-02",
-        "panic-mcq-01"
+        "panic-mcq-05"
       ],
       "explanation": "本句的「panic buying」指「因恐慌而作出的急速、非理性搶購／拋售行為」。",
       "sentenceIndex": 9,
@@ -446,12 +370,8 @@ export default {
         "panic buying"
       ],
       "optionReasons": {
-        "panic-mcq-06": "本句指「因恐慌而作出的急速、非理性搶購／拋售行為」。",
-        "panic-mcq-05": "「容易驚慌，或當下表現得非常慌亂的」與本句語境不同。",
-        "panic-mcq-04": "「群體因恐懼或不確定而產生的集體慌亂；屬於 noun sense」與本句語境不同。",
-        "panic-mcq-03": "「令某人或動物突然陷入恐慌；與 verb sense 相同」與本句語境不同。",
-        "panic-mcq-02": "「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」與本句語境不同。",
-        "panic-mcq-01": "「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」與本句語境不同。"
+        "panic-mcq-06": "本句的「panic buying」指「因恐慌而作出的急速、非理性搶購／拋售行為」。",
+        "panic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "panic-mcq-06"
     },
@@ -463,11 +383,7 @@ export default {
       "masked": "Investors engaged in ____.",
       "options": [
         "panic-mcq-06",
-        "panic-mcq-05",
-        "panic-mcq-04",
-        "panic-mcq-03",
-        "panic-mcq-02",
-        "panic-mcq-01"
+        "panic-mcq-05"
       ],
       "explanation": "本句的「panic selling」指「因恐慌而作出的急速、非理性搶購／拋售行為」。",
       "sentenceIndex": 10,
@@ -476,12 +392,8 @@ export default {
         "panic selling"
       ],
       "optionReasons": {
-        "panic-mcq-06": "本句指「因恐慌而作出的急速、非理性搶購／拋售行為」。",
-        "panic-mcq-05": "「容易驚慌，或當下表現得非常慌亂的」與本句語境不同。",
-        "panic-mcq-04": "「群體因恐懼或不確定而產生的集體慌亂；屬於 noun sense」與本句語境不同。",
-        "panic-mcq-03": "「令某人或動物突然陷入恐慌；與 verb sense 相同」與本句語境不同。",
-        "panic-mcq-02": "「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」與本句語境不同。",
-        "panic-mcq-01": "「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」與本句語境不同。"
+        "panic-mcq-06": "本句的「panic selling」指「因恐慌而作出的急速、非理性搶購／拋售行為」。",
+        "panic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "panic-mcq-06"
     },
@@ -493,10 +405,6 @@ export default {
       "masked": "She sounded ____ on the phone.",
       "options": [
         "panic-mcq-05",
-        "panic-mcq-04",
-        "panic-mcq-06",
-        "panic-mcq-03",
-        "panic-mcq-02",
         "panic-mcq-01"
       ],
       "explanation": "本句的「panicky」指「容易驚慌，或當下表現得非常慌亂的」。",
@@ -506,12 +414,8 @@ export default {
         "panicky"
       ],
       "optionReasons": {
-        "panic-mcq-05": "本句指「容易驚慌，或當下表現得非常慌亂的」。",
-        "panic-mcq-04": "「群體因恐懼或不確定而產生的集體慌亂；屬於 noun sense」與本句語境不同。",
-        "panic-mcq-06": "「因恐慌而作出的急速、非理性搶購／拋售行為」與本句語境不同。",
-        "panic-mcq-03": "「令某人或動物突然陷入恐慌；與 verb sense 相同」與本句語境不同。",
-        "panic-mcq-02": "「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」與本句語境不同。",
-        "panic-mcq-01": "「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」與本句語境不同。"
+        "panic-mcq-05": "本句的「panicky」指「容易驚慌，或當下表現得非常慌亂的」。",
+        "panic-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "panic-mcq-05"
     },
@@ -523,10 +427,6 @@ export default {
       "masked": "Try not to get ____.",
       "options": [
         "panic-mcq-05",
-        "panic-mcq-04",
-        "panic-mcq-06",
-        "panic-mcq-03",
-        "panic-mcq-02",
         "panic-mcq-01"
       ],
       "explanation": "本句的「panicky」指「容易驚慌，或當下表現得非常慌亂的」。",
@@ -536,12 +436,8 @@ export default {
         "panicky"
       ],
       "optionReasons": {
-        "panic-mcq-05": "本句指「容易驚慌，或當下表現得非常慌亂的」。",
-        "panic-mcq-04": "「群體因恐懼或不確定而產生的集體慌亂；屬於 noun sense」與本句語境不同。",
-        "panic-mcq-06": "「因恐慌而作出的急速、非理性搶購／拋售行為」與本句語境不同。",
-        "panic-mcq-03": "「令某人或動物突然陷入恐慌；與 verb sense 相同」與本句語境不同。",
-        "panic-mcq-02": "「因突然害怕、焦慮或壓力而失去冷靜並作出慌亂反應」與本句語境不同。",
-        "panic-mcq-01": "「突然而強烈的恐懼或焦慮，使人難以保持冷靜或理性」與本句語境不同。"
+        "panic-mcq-05": "本句的「panicky」指「容易驚慌，或當下表現得非常慌亂的」。",
+        "panic-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "panic-mcq-05"
     }
@@ -553,5 +449,12 @@ export default {
     "sha256": "d4703309c2017a08cd02c15fce6879ac5bea5381fbd496d266850bb8ef83c810",
     "pages": 8
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -409,11 +409,9 @@ export default {
       "masked": "I would like to leave this message with ____.",
       "options": [
         "fellow-mcq-01",
-        "fellow-mcq-02",
-        "fellow-mcq-03",
         "fellow-mcq-04",
-        "fellow-mcq-05",
-        "fellow-mcq-06"
+        "fellow-mcq-17",
+        "fellow-mcq-12"
       ],
       "explanation": "本句的「fellow students」指「與說話者／指定人士具有相同身份、職業或群體成員資格的其他人」。",
       "sentenceIndex": 0,
@@ -422,12 +420,10 @@ export default {
         "fellow students"
       ],
       "optionReasons": {
-        "fellow-mcq-01": "本句指「與說話者／指定人士具有相同身份、職業或群體成員資格的其他人」。",
-        "fellow-mcq-02": "「與說話者同樣具有學生身份的其他學生」與本句語境不同。",
-        "fellow-mcq-03": "「與自己屬於同一國家／公民共同體的其他公民」與本句語境不同。",
-        "fellow-mcq-04": "「與自己同樣正在旅途中的另一名旅客」與本句語境不同。",
-        "fellow-mcq-05": "「與自己具有相同經歷、處境或身份的人」與本句語境不同。",
-        "fellow-mcq-06": "「一個男人／人；語氣可親切、中性、老派或略帶距離」與本句語境不同。"
+        "fellow-mcq-01": "本句的「fellow students」指「與說話者／指定人士具有相同身份、職業或群體成員資格的其他人」。",
+        "fellow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-01"
     },
@@ -439,11 +435,9 @@ export default {
       "masked": "She discussed the problem with ____.",
       "options": [
         "fellow-mcq-01",
-        "fellow-mcq-02",
-        "fellow-mcq-03",
         "fellow-mcq-04",
-        "fellow-mcq-05",
-        "fellow-mcq-06"
+        "fellow-mcq-17",
+        "fellow-mcq-12"
       ],
       "explanation": "本句的「fellow teachers」指「與說話者／指定人士具有相同身份、職業或群體成員資格的其他人」。",
       "sentenceIndex": 1,
@@ -452,12 +446,10 @@ export default {
         "fellow teachers"
       ],
       "optionReasons": {
-        "fellow-mcq-01": "本句指「與說話者／指定人士具有相同身份、職業或群體成員資格的其他人」。",
-        "fellow-mcq-02": "「與說話者同樣具有學生身份的其他學生」與本句語境不同。",
-        "fellow-mcq-03": "「與自己屬於同一國家／公民共同體的其他公民」與本句語境不同。",
-        "fellow-mcq-04": "「與自己同樣正在旅途中的另一名旅客」與本句語境不同。",
-        "fellow-mcq-05": "「與自己具有相同經歷、處境或身份的人」與本句語境不同。",
-        "fellow-mcq-06": "「一個男人／人；語氣可親切、中性、老派或略帶距離」與本句語境不同。"
+        "fellow-mcq-01": "本句的「fellow teachers」指「與說話者／指定人士具有相同身份、職業或群體成員資格的其他人」。",
+        "fellow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-01"
     },
@@ -469,11 +461,7 @@ export default {
       "masked": "A ____ helped me with the assignment.",
       "options": [
         "fellow-mcq-02",
-        "fellow-mcq-01",
-        "fellow-mcq-03",
-        "fellow-mcq-04",
-        "fellow-mcq-05",
-        "fellow-mcq-06"
+        "fellow-mcq-14"
       ],
       "explanation": "本句的「fellow student」指「與說話者同樣具有學生身份的其他學生」。",
       "sentenceIndex": 2,
@@ -482,12 +470,8 @@ export default {
         "fellow student"
       ],
       "optionReasons": {
-        "fellow-mcq-02": "本句指「與說話者同樣具有學生身份的其他學生」。",
-        "fellow-mcq-01": "「與說話者／指定人士具有相同身份、職業或群體成員資格的其他人」與本句語境不同。",
-        "fellow-mcq-03": "「與自己屬於同一國家／公民共同體的其他公民」與本句語境不同。",
-        "fellow-mcq-04": "「與自己同樣正在旅途中的另一名旅客」與本句語境不同。",
-        "fellow-mcq-05": "「與自己具有相同經歷、處境或身份的人」與本句語境不同。",
-        "fellow-mcq-06": "「一個男人／人；語氣可親切、中性、老派或略帶距離」與本句語境不同。"
+        "fellow-mcq-02": "本句的「fellow student」指「與說話者同樣具有學生身份的其他學生」。",
+        "fellow-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-02"
     },
@@ -499,11 +483,7 @@ export default {
       "masked": "She shared the notes with ____ students.",
       "options": [
         "fellow-mcq-02",
-        "fellow-mcq-01",
-        "fellow-mcq-03",
-        "fellow-mcq-04",
-        "fellow-mcq-05",
-        "fellow-mcq-06"
+        "fellow-mcq-14"
       ],
       "explanation": "本句的「fellow」指「與說話者同樣具有學生身份的其他學生」。",
       "sentenceIndex": 3,
@@ -512,12 +492,8 @@ export default {
         "fellow"
       ],
       "optionReasons": {
-        "fellow-mcq-02": "本句指「與說話者同樣具有學生身份的其他學生」。",
-        "fellow-mcq-01": "「與說話者／指定人士具有相同身份、職業或群體成員資格的其他人」與本句語境不同。",
-        "fellow-mcq-03": "「與自己屬於同一國家／公民共同體的其他公民」與本句語境不同。",
-        "fellow-mcq-04": "「與自己同樣正在旅途中的另一名旅客」與本句語境不同。",
-        "fellow-mcq-05": "「與自己具有相同經歷、處境或身份的人」與本句語境不同。",
-        "fellow-mcq-06": "「一個男人／人；語氣可親切、中性、老派或略帶距離」與本句語境不同。"
+        "fellow-mcq-02": "本句的「fellow」指「與說話者同樣具有學生身份的其他學生」。",
+        "fellow-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-02"
     },
@@ -529,11 +505,7 @@ export default {
       "masked": "She addressed her ____.",
       "options": [
         "fellow-mcq-03",
-        "fellow-mcq-02",
-        "fellow-mcq-04",
-        "fellow-mcq-01",
-        "fellow-mcq-05",
-        "fellow-mcq-06"
+        "fellow-mcq-11"
       ],
       "explanation": "本句的「fellow citizens」指「與自己屬於同一國家／公民共同體的其他公民」。",
       "sentenceIndex": 10,
@@ -542,12 +514,8 @@ export default {
         "fellow citizens"
       ],
       "optionReasons": {
-        "fellow-mcq-03": "本句指「與自己屬於同一國家／公民共同體的其他公民」。",
-        "fellow-mcq-02": "「與說話者同樣具有學生身份的其他學生」與本句語境不同。",
-        "fellow-mcq-04": "「與自己同樣正在旅途中的另一名旅客」與本句語境不同。",
-        "fellow-mcq-01": "「與說話者／指定人士具有相同身份、職業或群體成員資格的其他人」與本句語境不同。",
-        "fellow-mcq-05": "「與自己具有相同經歷、處境或身份的人」與本句語境不同。",
-        "fellow-mcq-06": "「一個男人／人；語氣可親切、中性、老派或略帶距離」與本句語境不同。"
+        "fellow-mcq-03": "本句的「fellow citizens」指「與自己屬於同一國家／公民共同體的其他公民」。",
+        "fellow-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-03"
     },
@@ -559,11 +527,7 @@ export default {
       "masked": "We all have responsibilities toward our ____ citizens.",
       "options": [
         "fellow-mcq-03",
-        "fellow-mcq-02",
-        "fellow-mcq-04",
-        "fellow-mcq-01",
-        "fellow-mcq-05",
-        "fellow-mcq-06"
+        "fellow-mcq-08"
       ],
       "explanation": "本句的「fellow」指「與自己屬於同一國家／公民共同體的其他公民」。",
       "sentenceIndex": 11,
@@ -572,12 +536,8 @@ export default {
         "fellow"
       ],
       "optionReasons": {
-        "fellow-mcq-03": "本句指「與自己屬於同一國家／公民共同體的其他公民」。",
-        "fellow-mcq-02": "「與說話者同樣具有學生身份的其他學生」與本句語境不同。",
-        "fellow-mcq-04": "「與自己同樣正在旅途中的另一名旅客」與本句語境不同。",
-        "fellow-mcq-01": "「與說話者／指定人士具有相同身份、職業或群體成員資格的其他人」與本句語境不同。",
-        "fellow-mcq-05": "「與自己具有相同經歷、處境或身份的人」與本句語境不同。",
-        "fellow-mcq-06": "「一個男人／人；語氣可親切、中性、老派或略帶距離」與本句語境不同。"
+        "fellow-mcq-03": "本句的「fellow」指「與自己屬於同一國家／公民共同體的其他公民」。",
+        "fellow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-03"
     },
@@ -589,11 +549,9 @@ export default {
       "masked": "A ____ helped me carry my bag.",
       "options": [
         "fellow-mcq-04",
-        "fellow-mcq-03",
-        "fellow-mcq-05",
-        "fellow-mcq-02",
-        "fellow-mcq-06",
-        "fellow-mcq-01"
+        "fellow-mcq-14",
+        "fellow-mcq-12",
+        "fellow-mcq-13"
       ],
       "explanation": "本句的「fellow traveller」指「與自己同樣正在旅途中的另一名旅客」。",
       "sentenceIndex": 12,
@@ -602,12 +560,10 @@ export default {
         "fellow traveller"
       ],
       "optionReasons": {
-        "fellow-mcq-04": "本句指「與自己同樣正在旅途中的另一名旅客」。",
-        "fellow-mcq-03": "「與自己屬於同一國家／公民共同體的其他公民」與本句語境不同。",
-        "fellow-mcq-05": "「與自己具有相同經歷、處境或身份的人」與本句語境不同。",
-        "fellow-mcq-02": "「與說話者同樣具有學生身份的其他學生」與本句語境不同。",
-        "fellow-mcq-06": "「一個男人／人；語氣可親切、中性、老派或略帶距離」與本句語境不同。",
-        "fellow-mcq-01": "「與說話者／指定人士具有相同身份、職業或群體成員資格的其他人」與本句語境不同。"
+        "fellow-mcq-04": "本句的「fellow traveller」指「與自己同樣正在旅途中的另一名旅客」。",
+        "fellow-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-04"
     },
@@ -619,11 +575,8 @@ export default {
       "masked": "She started talking to a ____ traveller on the train.",
       "options": [
         "fellow-mcq-04",
-        "fellow-mcq-03",
-        "fellow-mcq-05",
-        "fellow-mcq-02",
-        "fellow-mcq-06",
-        "fellow-mcq-01"
+        "fellow-mcq-11",
+        "fellow-mcq-17"
       ],
       "explanation": "本句的「fellow」指「與自己同樣正在旅途中的另一名旅客」。",
       "sentenceIndex": 13,
@@ -632,12 +585,9 @@ export default {
         "fellow"
       ],
       "optionReasons": {
-        "fellow-mcq-04": "本句指「與自己同樣正在旅途中的另一名旅客」。",
-        "fellow-mcq-03": "「與自己屬於同一國家／公民共同體的其他公民」與本句語境不同。",
-        "fellow-mcq-05": "「與自己具有相同經歷、處境或身份的人」與本句語境不同。",
-        "fellow-mcq-02": "「與說話者同樣具有學生身份的其他學生」與本句語境不同。",
-        "fellow-mcq-06": "「一個男人／人；語氣可親切、中性、老派或略帶距離」與本句語境不同。",
-        "fellow-mcq-01": "「與說話者／指定人士具有相同身份、職業或群體成員資格的其他人」與本句語境不同。"
+        "fellow-mcq-04": "本句的「fellow」指「與自己同樣正在旅途中的另一名旅客」。",
+        "fellow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-04"
     },
@@ -649,11 +599,8 @@ export default {
       "masked": "We should treat every ____ with respect.",
       "options": [
         "fellow-mcq-07",
-        "fellow-mcq-06",
-        "fellow-mcq-08",
-        "fellow-mcq-05",
-        "fellow-mcq-09",
-        "fellow-mcq-04"
+        "fellow-mcq-12",
+        "fellow-mcq-17"
       ],
       "explanation": "本句的「fellow human being」指「與自己同樣身為人類的另一個人」。",
       "sentenceIndex": 34,
@@ -662,12 +609,9 @@ export default {
         "fellow human being"
       ],
       "optionReasons": {
-        "fellow-mcq-07": "本句指「與自己同樣身為人類的另一個人」。",
-        "fellow-mcq-06": "「一個男人／人；語氣可親切、中性、老派或略帶距離」與本句語境不同。",
-        "fellow-mcq-08": "「某些大學／學院中的正式高級學術或治理成員」與本句語境不同。",
-        "fellow-mcq-05": "「與自己具有相同經歷、處境或身份的人」與本句語境不同。",
-        "fellow-mcq-09": "「因資格／成就獲專業或學術團體授予的較高級會員身份」與本句語境不同。",
-        "fellow-mcq-04": "「與自己同樣正在旅途中的另一名旅客」與本句語境不同。"
+        "fellow-mcq-07": "本句的「fellow human being」指「與自己同樣身為人類的另一個人」。",
+        "fellow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-07"
     },
@@ -679,11 +623,8 @@ export default {
       "masked": "Compassion for ____ human beings matters.",
       "options": [
         "fellow-mcq-07",
-        "fellow-mcq-06",
-        "fellow-mcq-08",
-        "fellow-mcq-05",
-        "fellow-mcq-09",
-        "fellow-mcq-04"
+        "fellow-mcq-12",
+        "fellow-mcq-17"
       ],
       "explanation": "本句的「fellow」指「與自己同樣身為人類的另一個人」。",
       "sentenceIndex": 35,
@@ -692,12 +633,9 @@ export default {
         "fellow"
       ],
       "optionReasons": {
-        "fellow-mcq-07": "本句指「與自己同樣身為人類的另一個人」。",
-        "fellow-mcq-06": "「一個男人／人；語氣可親切、中性、老派或略帶距離」與本句語境不同。",
-        "fellow-mcq-08": "「某些大學／學院中的正式高級學術或治理成員」與本句語境不同。",
-        "fellow-mcq-05": "「與自己具有相同經歷、處境或身份的人」與本句語境不同。",
-        "fellow-mcq-09": "「因資格／成就獲專業或學術團體授予的較高級會員身份」與本句語境不同。",
-        "fellow-mcq-04": "「與自己同樣正在旅途中的另一名旅客」與本句語境不同。"
+        "fellow-mcq-07": "本句的「fellow」指「與自己同樣身為人類的另一個人」。",
+        "fellow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-07"
     },
@@ -709,11 +647,7 @@ export default {
       "masked": "She is a ____ of the college.",
       "options": [
         "fellow-mcq-08",
-        "fellow-mcq-07",
-        "fellow-mcq-09",
-        "fellow-mcq-06",
-        "fellow-mcq-10",
-        "fellow-mcq-05"
+        "fellow-mcq-03"
       ],
       "explanation": "本句的「Fellow」指「某些大學／學院中的正式高級學術或治理成員」。",
       "sentenceIndex": 38,
@@ -722,12 +656,8 @@ export default {
         "Fellow"
       ],
       "optionReasons": {
-        "fellow-mcq-08": "本句指「某些大學／學院中的正式高級學術或治理成員」。",
-        "fellow-mcq-07": "「與自己同樣身為人類的另一個人」與本句語境不同。",
-        "fellow-mcq-09": "「因資格／成就獲專業或學術團體授予的較高級會員身份」與本句語境不同。",
-        "fellow-mcq-06": "「一個男人／人；語氣可親切、中性、老派或略帶距離」與本句語境不同。",
-        "fellow-mcq-10": "「已完成較基礎醫學訓練、正在接受高階專科培訓的醫生」與本句語境不同。",
-        "fellow-mcq-05": "「與自己具有相同經歷、處境或身份的人」與本句語境不同。"
+        "fellow-mcq-08": "本句的「Fellow」指「某些大學／學院中的正式高級學術或治理成員」。",
+        "fellow-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-08"
     },
@@ -739,11 +669,7 @@ export default {
       "masked": "Several ____ attended the dinner.",
       "options": [
         "fellow-mcq-08",
-        "fellow-mcq-07",
-        "fellow-mcq-09",
-        "fellow-mcq-06",
-        "fellow-mcq-10",
-        "fellow-mcq-05"
+        "fellow-mcq-03"
       ],
       "explanation": "本句的「Fellows」指「某些大學／學院中的正式高級學術或治理成員」。",
       "sentenceIndex": 39,
@@ -752,12 +678,8 @@ export default {
         "Fellows"
       ],
       "optionReasons": {
-        "fellow-mcq-08": "本句指「某些大學／學院中的正式高級學術或治理成員」。",
-        "fellow-mcq-07": "「與自己同樣身為人類的另一個人」與本句語境不同。",
-        "fellow-mcq-09": "「因資格／成就獲專業或學術團體授予的較高級會員身份」與本句語境不同。",
-        "fellow-mcq-06": "「一個男人／人；語氣可親切、中性、老派或略帶距離」與本句語境不同。",
-        "fellow-mcq-10": "「已完成較基礎醫學訓練、正在接受高階專科培訓的醫生」與本句語境不同。",
-        "fellow-mcq-05": "「與自己具有相同經歷、處境或身份的人」與本句語境不同。"
+        "fellow-mcq-08": "本句的「Fellows」指「某些大學／學院中的正式高級學術或治理成員」。",
+        "fellow-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-08"
     },
@@ -769,11 +691,8 @@ export default {
       "masked": "She was elected a ____ of the society.",
       "options": [
         "fellow-pdf-001",
-        "fellow-mcq-18",
-        "fellow-mcq-17",
-        "fellow-mcq-16",
-        "fellow-mcq-15",
-        "fellow-mcq-14"
+        "fellow-mcq-04",
+        "fellow-mcq-17"
       ],
       "explanation": "本句的「Fellow」指「因資格、成就或選舉而獲某專業／學術團體授予的較高級會員身份」。",
       "sentenceIndex": 42,
@@ -782,12 +701,9 @@ export default {
         "Fellow"
       ],
       "optionReasons": {
-        "fellow-pdf-001": "本句指「因資格、成就或選舉而獲某專業／學術團體授予的較高級會員身份」。",
-        "fellow-mcq-18": "「未必正式加入某團體，但對其思想／目標抱同情或支持的人」與本句語境不同。",
-        "fellow-mcq-17": "「因共同處境而產生的同情、理解或團結感」與本句語境不同。",
-        "fellow-mcq-16": "「某專業／學術團體中的 Fellow 資格」與本句語境不同。",
-        "fellow-mcq-15": "「支持研究、進修或專業訓練的獎助／資助職位」與本句語境不同。",
-        "fellow-mcq-14": "「信徒之間的團契、相交或團體」與本句語境不同。"
+        "fellow-pdf-001": "本句的「Fellow」指「因資格、成就或選舉而獲某專業／學術團體授予的較高級會員身份」。",
+        "fellow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-pdf-001"
     },
@@ -799,11 +715,8 @@ export default {
       "masked": "Only a small number of members become ____.",
       "options": [
         "fellow-pdf-001",
-        "fellow-mcq-18",
-        "fellow-mcq-17",
-        "fellow-mcq-16",
-        "fellow-mcq-15",
-        "fellow-mcq-14"
+        "fellow-mcq-04",
+        "fellow-mcq-17"
       ],
       "explanation": "本句的「Fellows」指「因資格、成就或選舉而獲某專業／學術團體授予的較高級會員身份」。",
       "sentenceIndex": 43,
@@ -812,12 +725,9 @@ export default {
         "Fellows"
       ],
       "optionReasons": {
-        "fellow-pdf-001": "本句指「因資格、成就或選舉而獲某專業／學術團體授予的較高級會員身份」。",
-        "fellow-mcq-18": "「未必正式加入某團體，但對其思想／目標抱同情或支持的人」與本句語境不同。",
-        "fellow-mcq-17": "「因共同處境而產生的同情、理解或團結感」與本句語境不同。",
-        "fellow-mcq-16": "「某專業／學術團體中的 Fellow 資格」與本句語境不同。",
-        "fellow-mcq-15": "「支持研究、進修或專業訓練的獎助／資助職位」與本句語境不同。",
-        "fellow-mcq-14": "「信徒之間的團契、相交或團體」與本句語境不同。"
+        "fellow-pdf-001": "本句的「Fellows」指「因資格、成就或選舉而獲某專業／學術團體授予的較高級會員身份」。",
+        "fellow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-pdf-001"
     },
@@ -829,11 +739,8 @@ export default {
       "masked": "She works as a ____.",
       "options": [
         "fellow-mcq-11",
-        "fellow-mcq-10",
-        "fellow-mcq-12",
-        "fellow-mcq-09",
         "fellow-mcq-13",
-        "fellow-mcq-08"
+        "fellow-mcq-04"
       ],
       "explanation": "本句的「research fellow」指「主要從事研究工作的學術職位／研究人員」。",
       "sentenceIndex": 50,
@@ -842,12 +749,9 @@ export default {
         "research fellow"
       ],
       "optionReasons": {
-        "fellow-mcq-11": "本句指「主要從事研究工作的學術職位／研究人員」。",
-        "fellow-mcq-10": "「已完成較基礎醫學訓練、正在接受高階專科培訓的醫生」與本句語境不同。",
-        "fellow-mcq-12": "「完成博士學位後從事博士後研究的人」與本句語境不同。",
-        "fellow-mcq-09": "「因資格／成就獲專業或學術團體授予的較高級會員身份」與本句語境不同。",
-        "fellow-mcq-13": "「因共同身份、活動或信念而形成的友好伙伴關係」與本句語境不同。",
-        "fellow-mcq-08": "「某些大學／學院中的正式高級學術或治理成員」與本句語境不同。"
+        "fellow-mcq-11": "本句的「research fellow」指「主要從事研究工作的學術職位／研究人員」。",
+        "fellow-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-11"
     },
@@ -859,11 +763,8 @@ export default {
       "masked": "The university appointed three new research ____.",
       "options": [
         "fellow-mcq-11",
-        "fellow-mcq-10",
-        "fellow-mcq-12",
-        "fellow-mcq-09",
-        "fellow-mcq-13",
-        "fellow-mcq-08"
+        "fellow-mcq-17",
+        "fellow-mcq-04"
       ],
       "explanation": "本句的「fellows」指「主要從事研究工作的學術職位／研究人員」。",
       "sentenceIndex": 51,
@@ -872,12 +773,9 @@ export default {
         "fellows"
       ],
       "optionReasons": {
-        "fellow-mcq-11": "本句指「主要從事研究工作的學術職位／研究人員」。",
-        "fellow-mcq-10": "「已完成較基礎醫學訓練、正在接受高階專科培訓的醫生」與本句語境不同。",
-        "fellow-mcq-12": "「完成博士學位後從事博士後研究的人」與本句語境不同。",
-        "fellow-mcq-09": "「因資格／成就獲專業或學術團體授予的較高級會員身份」與本句語境不同。",
-        "fellow-mcq-13": "「因共同身份、活動或信念而形成的友好伙伴關係」與本句語境不同。",
-        "fellow-mcq-08": "「某些大學／學院中的正式高級學術或治理成員」與本句語境不同。"
+        "fellow-mcq-11": "本句的「fellows」指「主要從事研究工作的學術職位／研究人員」。",
+        "fellow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-11"
     },
@@ -889,11 +787,8 @@ export default {
       "masked": "He is a ____ in biology.",
       "options": [
         "fellow-mcq-12",
-        "fellow-mcq-11",
-        "fellow-mcq-13",
-        "fellow-mcq-10",
-        "fellow-mcq-14",
-        "fellow-mcq-09"
+        "fellow-mcq-18",
+        "fellow-mcq-03"
       ],
       "explanation": "本句的「postdoctoral fellow」指「完成博士學位後從事博士後研究的人」。",
       "sentenceIndex": 52,
@@ -902,12 +797,9 @@ export default {
         "postdoctoral fellow"
       ],
       "optionReasons": {
-        "fellow-mcq-12": "本句指「完成博士學位後從事博士後研究的人」。",
-        "fellow-mcq-11": "「主要從事研究工作的學術職位／研究人員」與本句語境不同。",
-        "fellow-mcq-13": "「因共同身份、活動或信念而形成的友好伙伴關係」與本句語境不同。",
-        "fellow-mcq-10": "「已完成較基礎醫學訓練、正在接受高階專科培訓的醫生」與本句語境不同。",
-        "fellow-mcq-14": "「信徒之間的團契、相交或團體」與本句語境不同。",
-        "fellow-mcq-09": "「因資格／成就獲專業或學術團體授予的較高級會員身份」與本句語境不同。"
+        "fellow-mcq-12": "本句的「postdoctoral fellow」指「完成博士學位後從事博士後研究的人」。",
+        "fellow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-12"
     },
@@ -919,11 +811,8 @@ export default {
       "masked": "Postdoctoral ____ often work on fixed-term research projects.",
       "options": [
         "fellow-mcq-12",
-        "fellow-mcq-11",
-        "fellow-mcq-13",
-        "fellow-mcq-10",
-        "fellow-mcq-14",
-        "fellow-mcq-09"
+        "fellow-mcq-07",
+        "fellow-mcq-17"
       ],
       "explanation": "本句的「fellows」指「完成博士學位後從事博士後研究的人」。",
       "sentenceIndex": 53,
@@ -932,12 +821,9 @@ export default {
         "fellows"
       ],
       "optionReasons": {
-        "fellow-mcq-12": "本句指「完成博士學位後從事博士後研究的人」。",
-        "fellow-mcq-11": "「主要從事研究工作的學術職位／研究人員」與本句語境不同。",
-        "fellow-mcq-13": "「因共同身份、活動或信念而形成的友好伙伴關係」與本句語境不同。",
-        "fellow-mcq-10": "「已完成較基礎醫學訓練、正在接受高階專科培訓的醫生」與本句語境不同。",
-        "fellow-mcq-14": "「信徒之間的團契、相交或團體」與本句語境不同。",
-        "fellow-mcq-09": "「因資格／成就獲專業或學術團體授予的較高級會員身份」與本句語境不同。"
+        "fellow-mcq-12": "本句的「fellows」指「完成博士學位後從事博士後研究的人」。",
+        "fellow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-12"
     },
@@ -949,11 +835,8 @@ export default {
       "masked": "They enjoyed warm ____ during the trip.",
       "options": [
         "fellow-mcq-13",
-        "fellow-mcq-12",
-        "fellow-mcq-14",
         "fellow-mcq-11",
-        "fellow-mcq-15",
-        "fellow-mcq-10"
+        "fellow-mcq-04"
       ],
       "explanation": "本句的「fellowship」指「因共同身份、活動或信念而形成的友好伙伴關係」。",
       "sentenceIndex": 60,
@@ -962,12 +845,9 @@ export default {
         "fellowship"
       ],
       "optionReasons": {
-        "fellow-mcq-13": "本句指「因共同身份、活動或信念而形成的友好伙伴關係」。",
-        "fellow-mcq-12": "「完成博士學位後從事博士後研究的人」與本句語境不同。",
-        "fellow-mcq-14": "「信徒之間的團契、相交或團體」與本句語境不同。",
-        "fellow-mcq-11": "「主要從事研究工作的學術職位／研究人員」與本句語境不同。",
-        "fellow-mcq-15": "「支持研究、進修或專業訓練的獎助／資助職位」與本句語境不同。",
-        "fellow-mcq-10": "「已完成較基礎醫學訓練、正在接受高階專科培訓的醫生」與本句語境不同。"
+        "fellow-mcq-13": "本句的「fellowship」指「因共同身份、活動或信念而形成的友好伙伴關係」。",
+        "fellow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-13"
     },
@@ -979,11 +859,8 @@ export default {
       "masked": "The group offered friendship and ____.",
       "options": [
         "fellow-mcq-13",
-        "fellow-mcq-12",
-        "fellow-mcq-14",
         "fellow-mcq-11",
-        "fellow-mcq-15",
-        "fellow-mcq-10"
+        "fellow-mcq-04"
       ],
       "explanation": "本句的「fellowship」指「因共同身份、活動或信念而形成的友好伙伴關係」。",
       "sentenceIndex": 61,
@@ -992,12 +869,9 @@ export default {
         "fellowship"
       ],
       "optionReasons": {
-        "fellow-mcq-13": "本句指「因共同身份、活動或信念而形成的友好伙伴關係」。",
-        "fellow-mcq-12": "「完成博士學位後從事博士後研究的人」與本句語境不同。",
-        "fellow-mcq-14": "「信徒之間的團契、相交或團體」與本句語境不同。",
-        "fellow-mcq-11": "「主要從事研究工作的學術職位／研究人員」與本句語境不同。",
-        "fellow-mcq-15": "「支持研究、進修或專業訓練的獎助／資助職位」與本句語境不同。",
-        "fellow-mcq-10": "「已完成較基礎醫學訓練、正在接受高階專科培訓的醫生」與本句語境不同。"
+        "fellow-mcq-13": "本句的「fellowship」指「因共同身份、活動或信念而形成的友好伙伴關係」。",
+        "fellow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-13"
     },
@@ -1009,11 +883,9 @@ export default {
       "masked": "They meet for prayer and ____.",
       "options": [
         "fellow-mcq-14",
-        "fellow-mcq-13",
-        "fellow-mcq-15",
+        "fellow-mcq-04",
         "fellow-mcq-12",
-        "fellow-mcq-16",
-        "fellow-mcq-11"
+        "fellow-mcq-13"
       ],
       "explanation": "本句的「fellowship」指「信徒之間的團契、相交或團體」。",
       "sentenceIndex": 64,
@@ -1022,12 +894,10 @@ export default {
         "fellowship"
       ],
       "optionReasons": {
-        "fellow-mcq-14": "本句指「信徒之間的團契、相交或團體」。",
-        "fellow-mcq-13": "「因共同身份、活動或信念而形成的友好伙伴關係」與本句語境不同。",
-        "fellow-mcq-15": "「支持研究、進修或專業訓練的獎助／資助職位」與本句語境不同。",
-        "fellow-mcq-12": "「完成博士學位後從事博士後研究的人」與本句語境不同。",
-        "fellow-mcq-16": "「某專業／學術團體中的 Fellow 資格」與本句語境不同。",
-        "fellow-mcq-11": "「主要從事研究工作的學術職位／研究人員」與本句語境不同。"
+        "fellow-mcq-14": "本句的「fellowship」指「信徒之間的團契、相交或團體」。",
+        "fellow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-14"
     },
@@ -1039,11 +909,7 @@ export default {
       "masked": "The church runs a youth ____.",
       "options": [
         "fellow-mcq-14",
-        "fellow-mcq-13",
-        "fellow-mcq-15",
-        "fellow-mcq-12",
-        "fellow-mcq-16",
-        "fellow-mcq-11"
+        "fellow-mcq-02"
       ],
       "explanation": "本句的「fellowship」指「信徒之間的團契、相交或團體」。",
       "sentenceIndex": 65,
@@ -1052,12 +918,8 @@ export default {
         "fellowship"
       ],
       "optionReasons": {
-        "fellow-mcq-14": "本句指「信徒之間的團契、相交或團體」。",
-        "fellow-mcq-13": "「因共同身份、活動或信念而形成的友好伙伴關係」與本句語境不同。",
-        "fellow-mcq-15": "「支持研究、進修或專業訓練的獎助／資助職位」與本句語境不同。",
-        "fellow-mcq-12": "「完成博士學位後從事博士後研究的人」與本句語境不同。",
-        "fellow-mcq-16": "「某專業／學術團體中的 Fellow 資格」與本句語境不同。",
-        "fellow-mcq-11": "「主要從事研究工作的學術職位／研究人員」與本句語境不同。"
+        "fellow-mcq-14": "本句的「fellowship」指「信徒之間的團契、相交或團體」。",
+        "fellow-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-14"
     },
@@ -1069,11 +931,7 @@ export default {
       "masked": "He applied for a ____.",
       "options": [
         "fellow-mcq-11",
-        "fellow-mcq-10",
-        "fellow-mcq-12",
-        "fellow-mcq-09",
-        "fellow-mcq-13",
-        "fellow-mcq-08"
+        "fellow-mcq-03"
       ],
       "explanation": "本句的「research fellowship」指「主要從事研究工作的學術職位／研究人員」。",
       "sentenceIndex": 70,
@@ -1082,12 +940,8 @@ export default {
         "research fellowship"
       ],
       "optionReasons": {
-        "fellow-mcq-11": "本句指「主要從事研究工作的學術職位／研究人員」。",
-        "fellow-mcq-10": "「已完成較基礎醫學訓練、正在接受高階專科培訓的醫生」與本句語境不同。",
-        "fellow-mcq-12": "「完成博士學位後從事博士後研究的人」與本句語境不同。",
-        "fellow-mcq-09": "「因資格／成就獲專業或學術團體授予的較高級會員身份」與本句語境不同。",
-        "fellow-mcq-13": "「因共同身份、活動或信念而形成的友好伙伴關係」與本句語境不同。",
-        "fellow-mcq-08": "「某些大學／學院中的正式高級學術或治理成員」與本句語境不同。"
+        "fellow-mcq-11": "本句的「research fellowship」指「主要從事研究工作的學術職位／研究人員」。",
+        "fellow-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-11"
     },
@@ -1099,11 +953,8 @@ export default {
       "masked": "The research ____ includes salary and travel funding.",
       "options": [
         "fellow-mcq-11",
-        "fellow-mcq-10",
-        "fellow-mcq-12",
-        "fellow-mcq-09",
-        "fellow-mcq-13",
-        "fellow-mcq-08"
+        "fellow-mcq-17",
+        "fellow-mcq-04"
       ],
       "explanation": "本句的「fellowship」指「主要從事研究工作的學術職位／研究人員」。",
       "sentenceIndex": 71,
@@ -1112,12 +963,9 @@ export default {
         "fellowship"
       ],
       "optionReasons": {
-        "fellow-mcq-11": "本句指「主要從事研究工作的學術職位／研究人員」。",
-        "fellow-mcq-10": "「已完成較基礎醫學訓練、正在接受高階專科培訓的醫生」與本句語境不同。",
-        "fellow-mcq-12": "「完成博士學位後從事博士後研究的人」與本句語境不同。",
-        "fellow-mcq-09": "「因資格／成就獲專業或學術團體授予的較高級會員身份」與本句語境不同。",
-        "fellow-mcq-13": "「因共同身份、活動或信念而形成的友好伙伴關係」與本句語境不同。",
-        "fellow-mcq-08": "「某些大學／學院中的正式高級學術或治理成員」與本句語境不同。"
+        "fellow-mcq-11": "本句的「fellowship」指「主要從事研究工作的學術職位／研究人員」。",
+        "fellow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-11"
     },
@@ -1129,11 +977,8 @@ export default {
       "masked": "She won a ____.",
       "options": [
         "fellow-mcq-12",
-        "fellow-mcq-11",
-        "fellow-mcq-13",
-        "fellow-mcq-10",
-        "fellow-mcq-14",
-        "fellow-mcq-09"
+        "fellow-mcq-18",
+        "fellow-mcq-04"
       ],
       "explanation": "本句的「postdoctoral fellowship」指「完成博士學位後從事博士後研究的人」。",
       "sentenceIndex": 72,
@@ -1142,12 +987,9 @@ export default {
         "postdoctoral fellowship"
       ],
       "optionReasons": {
-        "fellow-mcq-12": "本句指「完成博士學位後從事博士後研究的人」。",
-        "fellow-mcq-11": "「主要從事研究工作的學術職位／研究人員」與本句語境不同。",
-        "fellow-mcq-13": "「因共同身份、活動或信念而形成的友好伙伴關係」與本句語境不同。",
-        "fellow-mcq-10": "「已完成較基礎醫學訓練、正在接受高階專科培訓的醫生」與本句語境不同。",
-        "fellow-mcq-14": "「信徒之間的團契、相交或團體」與本句語境不同。",
-        "fellow-mcq-09": "「因資格／成就獲專業或學術團體授予的較高級會員身份」與本句語境不同。"
+        "fellow-mcq-12": "本句的「postdoctoral fellowship」指「完成博士學位後從事博士後研究的人」。",
+        "fellow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-12"
     },
@@ -1159,11 +1001,8 @@ export default {
       "masked": "The ____ supports early-career researchers.",
       "options": [
         "fellow-mcq-12",
-        "fellow-mcq-11",
-        "fellow-mcq-13",
-        "fellow-mcq-10",
-        "fellow-mcq-14",
-        "fellow-mcq-09"
+        "fellow-mcq-07",
+        "fellow-mcq-17"
       ],
       "explanation": "本句的「fellowship」指「完成博士學位後從事博士後研究的人」。",
       "sentenceIndex": 73,
@@ -1172,12 +1011,9 @@ export default {
         "fellowship"
       ],
       "optionReasons": {
-        "fellow-mcq-12": "本句指「完成博士學位後從事博士後研究的人」。",
-        "fellow-mcq-11": "「主要從事研究工作的學術職位／研究人員」與本句語境不同。",
-        "fellow-mcq-13": "「因共同身份、活動或信念而形成的友好伙伴關係」與本句語境不同。",
-        "fellow-mcq-10": "「已完成較基礎醫學訓練、正在接受高階專科培訓的醫生」與本句語境不同。",
-        "fellow-mcq-14": "「信徒之間的團契、相交或團體」與本句語境不同。",
-        "fellow-mcq-09": "「因資格／成就獲專業或學術團體授予的較高級會員身份」與本句語境不同。"
+        "fellow-mcq-12": "本句的「fellowship」指「完成博士學位後從事博士後研究的人」。",
+        "fellow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-12"
     },
@@ -1189,11 +1025,9 @@ export default {
       "masked": "Their shared experience created a sense of ____.",
       "options": [
         "fellow-mcq-17",
-        "fellow-mcq-16",
-        "fellow-mcq-18",
-        "fellow-mcq-15",
-        "fellow-mcq-19",
-        "fellow-mcq-14"
+        "fellow-mcq-12",
+        "fellow-mcq-04",
+        "fellow-mcq-01"
       ],
       "explanation": "本句的「fellow feeling」指「因共同處境而產生的同情、理解或團結感」。",
       "sentenceIndex": 78,
@@ -1202,12 +1036,10 @@ export default {
         "fellow feeling"
       ],
       "optionReasons": {
-        "fellow-mcq-17": "本句指「因共同處境而產生的同情、理解或團結感」。",
-        "fellow-mcq-16": "「某專業／學術團體中的 Fellow 資格」與本句語境不同。",
-        "fellow-mcq-18": "「未必正式加入某團體，但對其思想／目標抱同情或支持的人」與本句語境不同。",
-        "fellow-mcq-15": "「支持研究、進修或專業訓練的獎助／資助職位」與本句語境不同。",
-        "fellow-mcq-19": "「與自己屬於同一專業領域的其他人士」與本句語境不同。",
-        "fellow-mcq-14": "「信徒之間的團契、相交或團體」與本句語境不同。"
+        "fellow-mcq-17": "本句的「fellow feeling」指「因共同處境而產生的同情、理解或團結感」。",
+        "fellow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-17"
     },
@@ -1219,11 +1051,8 @@ export default {
       "masked": "The disaster produced strong ____ feeling among residents.",
       "options": [
         "fellow-mcq-17",
-        "fellow-mcq-16",
-        "fellow-mcq-18",
-        "fellow-mcq-15",
-        "fellow-mcq-19",
-        "fellow-mcq-14"
+        "fellow-mcq-11",
+        "fellow-mcq-04"
       ],
       "explanation": "本句的「fellow」指「因共同處境而產生的同情、理解或團結感」。",
       "sentenceIndex": 79,
@@ -1232,12 +1061,9 @@ export default {
         "fellow"
       ],
       "optionReasons": {
-        "fellow-mcq-17": "本句指「因共同處境而產生的同情、理解或團結感」。",
-        "fellow-mcq-16": "「某專業／學術團體中的 Fellow 資格」與本句語境不同。",
-        "fellow-mcq-18": "「未必正式加入某團體，但對其思想／目標抱同情或支持的人」與本句語境不同。",
-        "fellow-mcq-15": "「支持研究、進修或專業訓練的獎助／資助職位」與本句語境不同。",
-        "fellow-mcq-19": "「與自己屬於同一專業領域的其他人士」與本句語境不同。",
-        "fellow-mcq-14": "「信徒之間的團契、相交或團體」與本句語境不同。"
+        "fellow-mcq-17": "本句的「fellow」指「因共同處境而產生的同情、理解或團結感」。",
+        "fellow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-17"
     },
@@ -1249,11 +1075,8 @@ export default {
       "masked": "He was regarded as an intellectual ____ of the movement.",
       "options": [
         "fellow-mcq-18",
-        "fellow-mcq-17",
-        "fellow-mcq-19",
-        "fellow-mcq-16",
-        "fellow-mcq-15",
-        "fellow-mcq-14"
+        "fellow-mcq-12",
+        "fellow-mcq-04"
       ],
       "explanation": "本句的「fellow traveller」指「未必正式加入某團體，但對其思想／目標抱同情或支持的人」。",
       "sentenceIndex": 80,
@@ -1262,12 +1085,9 @@ export default {
         "fellow traveller"
       ],
       "optionReasons": {
-        "fellow-mcq-18": "本句指「未必正式加入某團體，但對其思想／目標抱同情或支持的人」。",
-        "fellow-mcq-17": "「因共同處境而產生的同情、理解或團結感」與本句語境不同。",
-        "fellow-mcq-19": "「與自己屬於同一專業領域的其他人士」與本句語境不同。",
-        "fellow-mcq-16": "「某專業／學術團體中的 Fellow 資格」與本句語境不同。",
-        "fellow-mcq-15": "「支持研究、進修或專業訓練的獎助／資助職位」與本句語境不同。",
-        "fellow-mcq-14": "「信徒之間的團契、相交或團體」與本句語境不同。"
+        "fellow-mcq-18": "本句的「fellow traveller」指「未必正式加入某團體，但對其思想／目標抱同情或支持的人」。",
+        "fellow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-18"
     },
@@ -1279,11 +1099,8 @@ export default {
       "masked": "The group attracted sympathisers and ____ travellers.",
       "options": [
         "fellow-mcq-18",
-        "fellow-mcq-17",
-        "fellow-mcq-19",
-        "fellow-mcq-16",
-        "fellow-mcq-15",
-        "fellow-mcq-14"
+        "fellow-mcq-12",
+        "fellow-mcq-04"
       ],
       "explanation": "本句的「fellow」指「未必正式加入某團體，但對其思想／目標抱同情或支持的人」。",
       "sentenceIndex": 81,
@@ -1292,12 +1109,9 @@ export default {
         "fellow"
       ],
       "optionReasons": {
-        "fellow-mcq-18": "本句指「未必正式加入某團體，但對其思想／目標抱同情或支持的人」。",
-        "fellow-mcq-17": "「因共同處境而產生的同情、理解或團結感」與本句語境不同。",
-        "fellow-mcq-19": "「與自己屬於同一專業領域的其他人士」與本句語境不同。",
-        "fellow-mcq-16": "「某專業／學術團體中的 Fellow 資格」與本句語境不同。",
-        "fellow-mcq-15": "「支持研究、進修或專業訓練的獎助／資助職位」與本句語境不同。",
-        "fellow-mcq-14": "「信徒之間的團契、相交或團體」與本句語境不同。"
+        "fellow-mcq-18": "本句的「fellow」指「未必正式加入某團體，但對其思想／目標抱同情或支持的人」。",
+        "fellow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-18"
     },
@@ -1309,11 +1123,8 @@ export default {
       "masked": "She discussed the case with ____.",
       "options": [
         "fellow-mcq-19",
-        "fellow-mcq-18",
         "fellow-mcq-17",
-        "fellow-mcq-16",
-        "fellow-mcq-15",
-        "fellow-mcq-14"
+        "fellow-mcq-12"
       ],
       "explanation": "本句的「fellow professionals」指「與自己屬於同一專業領域的其他人士」。",
       "sentenceIndex": 86,
@@ -1322,12 +1133,9 @@ export default {
         "fellow professionals"
       ],
       "optionReasons": {
-        "fellow-mcq-19": "本句指「與自己屬於同一專業領域的其他人士」。",
-        "fellow-mcq-18": "「未必正式加入某團體，但對其思想／目標抱同情或支持的人」與本句語境不同。",
-        "fellow-mcq-17": "「因共同處境而產生的同情、理解或團結感」與本句語境不同。",
-        "fellow-mcq-16": "「某專業／學術團體中的 Fellow 資格」與本句語境不同。",
-        "fellow-mcq-15": "「支持研究、進修或專業訓練的獎助／資助職位」與本句語境不同。",
-        "fellow-mcq-14": "「信徒之間的團契、相交或團體」與本句語境不同。"
+        "fellow-mcq-19": "本句的「fellow professionals」指「與自己屬於同一專業領域的其他人士」。",
+        "fellow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-19"
     },
@@ -1339,11 +1147,8 @@ export default {
       "masked": "____ professionals praised the research.",
       "options": [
         "fellow-mcq-19",
-        "fellow-mcq-18",
         "fellow-mcq-17",
-        "fellow-mcq-16",
-        "fellow-mcq-15",
-        "fellow-mcq-14"
+        "fellow-mcq-12"
       ],
       "explanation": "本句的「Fellow」指「與自己屬於同一專業領域的其他人士」。",
       "sentenceIndex": 87,
@@ -1352,12 +1157,9 @@ export default {
         "Fellow"
       ],
       "optionReasons": {
-        "fellow-mcq-19": "本句指「與自己屬於同一專業領域的其他人士」。",
-        "fellow-mcq-18": "「未必正式加入某團體，但對其思想／目標抱同情或支持的人」與本句語境不同。",
-        "fellow-mcq-17": "「因共同處境而產生的同情、理解或團結感」與本句語境不同。",
-        "fellow-mcq-16": "「某專業／學術團體中的 Fellow 資格」與本句語境不同。",
-        "fellow-mcq-15": "「支持研究、進修或專業訓練的獎助／資助職位」與本句語境不同。",
-        "fellow-mcq-14": "「信徒之間的團契、相交或團體」與本句語境不同。"
+        "fellow-mcq-19": "本句的「Fellow」指「與自己屬於同一專業領域的其他人士」。",
+        "fellow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fellow-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fellow-mcq-19"
     }
@@ -1369,5 +1171,7 @@ export default {
     "sha256": "dc90d8ef0aa228b888dedea59a0a7f3e7653b08a1c9f3e139eea950a19c6a99d",
     "pages": 39
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

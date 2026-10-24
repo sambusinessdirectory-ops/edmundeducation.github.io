@@ -345,11 +345,8 @@ export default {
       "masked": "The wall needs another coat of ____.",
       "options": [
         "paint-mcq-01",
-        "paint-mcq-02",
-        "paint-mcq-03",
-        "paint-mcq-04",
-        "paint-mcq-05",
-        "paint-mcq-06"
+        "paint-mcq-11",
+        "paint-mcq-04"
       ],
       "explanation": "本句的「paint」指「用來改變表面顏色或形成保護層的有色液體／物質」。",
       "sentenceIndex": 0,
@@ -358,12 +355,9 @@ export default {
         "paint"
       ],
       "optionReasons": {
-        "paint-mcq-01": "本句指「用來改變表面顏色或形成保護層的有色液體／物質」。",
-        "paint-mcq-02": "「把油漆／顏料塗在物件表面，使其變色或受保護」與本句語境不同。",
-        "paint-mcq-03": "「使用顏料創作圖畫」與本句語境不同。",
-        "paint-mcq-04": "「把某人、某物或場景透過繪畫呈現出來」與本句語境不同。",
-        "paint-mcq-05": "「用文字／言語把某人或某事生動描繪成某種形象」與本句語境不同。",
-        "paint-mcq-06": "「使用數碼繪圖工具在圖像上加顏色／筆觸」與本句語境不同。"
+        "paint-mcq-01": "本句的「paint」指「用來改變表面顏色或形成保護層的有色液體／物質」。",
+        "paint-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-01"
     },
@@ -375,11 +369,8 @@ export default {
       "masked": "The artist mixed blue and green ____.",
       "options": [
         "paint-mcq-01",
-        "paint-mcq-02",
-        "paint-mcq-03",
-        "paint-mcq-04",
-        "paint-mcq-05",
-        "paint-mcq-06"
+        "paint-mcq-11",
+        "paint-mcq-04"
       ],
       "explanation": "本句的「paint」指「用來改變表面顏色或形成保護層的有色液體／物質」。",
       "sentenceIndex": 1,
@@ -388,12 +379,9 @@ export default {
         "paint"
       ],
       "optionReasons": {
-        "paint-mcq-01": "本句指「用來改變表面顏色或形成保護層的有色液體／物質」。",
-        "paint-mcq-02": "「把油漆／顏料塗在物件表面，使其變色或受保護」與本句語境不同。",
-        "paint-mcq-03": "「使用顏料創作圖畫」與本句語境不同。",
-        "paint-mcq-04": "「把某人、某物或場景透過繪畫呈現出來」與本句語境不同。",
-        "paint-mcq-05": "「用文字／言語把某人或某事生動描繪成某種形象」與本句語境不同。",
-        "paint-mcq-06": "「使用數碼繪圖工具在圖像上加顏色／筆觸」與本句語境不同。"
+        "paint-mcq-01": "本句的「paint」指「用來改變表面顏色或形成保護層的有色液體／物質」。",
+        "paint-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-01"
     },
@@ -405,10 +393,7 @@ export default {
       "masked": "They ____ the room white.",
       "options": [
         "paint-mcq-02",
-        "paint-mcq-01",
-        "paint-mcq-03",
-        "paint-mcq-04",
-        "paint-mcq-05",
+        "paint-mcq-10",
         "paint-mcq-06"
       ],
       "explanation": "本句的「painted」指「把油漆／顏料塗在物件表面，使其變色或受保護」。",
@@ -418,12 +403,9 @@ export default {
         "painted"
       ],
       "optionReasons": {
-        "paint-mcq-02": "本句指「把油漆／顏料塗在物件表面，使其變色或受保護」。",
-        "paint-mcq-01": "「用來改變表面顏色或形成保護層的有色液體／物質」與本句語境不同。",
-        "paint-mcq-03": "「使用顏料創作圖畫」與本句語境不同。",
-        "paint-mcq-04": "「把某人、某物或場景透過繪畫呈現出來」與本句語境不同。",
-        "paint-mcq-05": "「用文字／言語把某人或某事生動描繪成某種形象」與本句語境不同。",
-        "paint-mcq-06": "「使用數碼繪圖工具在圖像上加顏色／筆觸」與本句語境不同。"
+        "paint-mcq-02": "本句的「painted」指「把油漆／顏料塗在物件表面，使其變色或受保護」。",
+        "paint-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-02"
     },
@@ -435,10 +417,7 @@ export default {
       "masked": "She ____ the door last weekend.",
       "options": [
         "paint-mcq-02",
-        "paint-mcq-01",
-        "paint-mcq-03",
-        "paint-mcq-04",
-        "paint-mcq-05",
+        "paint-mcq-10",
         "paint-mcq-06"
       ],
       "explanation": "本句的「painted」指「把油漆／顏料塗在物件表面，使其變色或受保護」。",
@@ -448,12 +427,9 @@ export default {
         "painted"
       ],
       "optionReasons": {
-        "paint-mcq-02": "本句指「把油漆／顏料塗在物件表面，使其變色或受保護」。",
-        "paint-mcq-01": "「用來改變表面顏色或形成保護層的有色液體／物質」與本句語境不同。",
-        "paint-mcq-03": "「使用顏料創作圖畫」與本句語境不同。",
-        "paint-mcq-04": "「把某人、某物或場景透過繪畫呈現出來」與本句語境不同。",
-        "paint-mcq-05": "「用文字／言語把某人或某事生動描繪成某種形象」與本句語境不同。",
-        "paint-mcq-06": "「使用數碼繪圖工具在圖像上加顏色／筆觸」與本句語境不同。"
+        "paint-mcq-02": "本句的「painted」指「把油漆／顏料塗在物件表面，使其變色或受保護」。",
+        "paint-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-02"
     },
@@ -465,11 +441,8 @@ export default {
       "masked": "Monet often ____ water and gardens.",
       "options": [
         "paint-mcq-03",
-        "paint-mcq-02",
-        "paint-mcq-04",
-        "paint-mcq-01",
-        "paint-mcq-05",
-        "paint-mcq-06"
+        "paint-mcq-11",
+        "paint-mcq-05"
       ],
       "explanation": "本句的「painted」指「使用顏料創作圖畫」。",
       "sentenceIndex": 4,
@@ -478,12 +451,9 @@ export default {
         "painted"
       ],
       "optionReasons": {
-        "paint-mcq-03": "本句指「使用顏料創作圖畫」。",
-        "paint-mcq-02": "「把油漆／顏料塗在物件表面，使其變色或受保護」與本句語境不同。",
-        "paint-mcq-04": "「把某人、某物或場景透過繪畫呈現出來」與本句語境不同。",
-        "paint-mcq-01": "「用來改變表面顏色或形成保護層的有色液體／物質」與本句語境不同。",
-        "paint-mcq-05": "「用文字／言語把某人或某事生動描繪成某種形象」與本句語境不同。",
-        "paint-mcq-06": "「使用數碼繪圖工具在圖像上加顏色／筆觸」與本句語境不同。"
+        "paint-mcq-03": "本句的「painted」指「使用顏料創作圖畫」。",
+        "paint-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-03"
     },
@@ -495,11 +465,8 @@ export default {
       "masked": "She likes to ____ landscapes.",
       "options": [
         "paint-mcq-03",
-        "paint-mcq-02",
-        "paint-mcq-04",
-        "paint-mcq-01",
-        "paint-mcq-05",
-        "paint-mcq-06"
+        "paint-mcq-09",
+        "paint-mcq-04"
       ],
       "explanation": "本句的「paint」指「使用顏料創作圖畫」。",
       "sentenceIndex": 5,
@@ -508,12 +475,9 @@ export default {
         "paint"
       ],
       "optionReasons": {
-        "paint-mcq-03": "本句指「使用顏料創作圖畫」。",
-        "paint-mcq-02": "「把油漆／顏料塗在物件表面，使其變色或受保護」與本句語境不同。",
-        "paint-mcq-04": "「把某人、某物或場景透過繪畫呈現出來」與本句語境不同。",
-        "paint-mcq-01": "「用來改變表面顏色或形成保護層的有色液體／物質」與本句語境不同。",
-        "paint-mcq-05": "「用文字／言語把某人或某事生動描繪成某種形象」與本句語境不同。",
-        "paint-mcq-06": "「使用數碼繪圖工具在圖像上加顏色／筆觸」與本句語境不同。"
+        "paint-mcq-03": "本句的「paint」指「使用顏料創作圖畫」。",
+        "paint-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-03"
     },
@@ -525,11 +489,9 @@ export default {
       "masked": "The artist ____ the garden at sunset.",
       "options": [
         "paint-mcq-04",
-        "paint-mcq-03",
-        "paint-mcq-05",
-        "paint-mcq-02",
-        "paint-mcq-06",
-        "paint-mcq-01"
+        "paint-mcq-07",
+        "paint-mcq-13",
+        "paint-mcq-06"
       ],
       "explanation": "本句的「painted」指「把某人、某物或場景透過繪畫呈現出來」。",
       "sentenceIndex": 6,
@@ -538,12 +500,10 @@ export default {
         "painted"
       ],
       "optionReasons": {
-        "paint-mcq-04": "本句指「把某人、某物或場景透過繪畫呈現出來」。",
-        "paint-mcq-03": "「使用顏料創作圖畫」與本句語境不同。",
-        "paint-mcq-05": "「用文字／言語把某人或某事生動描繪成某種形象」與本句語境不同。",
-        "paint-mcq-02": "「把油漆／顏料塗在物件表面，使其變色或受保護」與本句語境不同。",
-        "paint-mcq-06": "「使用數碼繪圖工具在圖像上加顏色／筆觸」與本句語境不同。",
-        "paint-mcq-01": "「用來改變表面顏色或形成保護層的有色液體／物質」與本句語境不同。"
+        "paint-mcq-04": "本句的「painted」指「把某人、某物或場景透過繪畫呈現出來」。",
+        "paint-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-04"
     },
@@ -555,11 +515,9 @@ export default {
       "masked": "She ____ the flowers in soft colours.",
       "options": [
         "paint-mcq-04",
-        "paint-mcq-03",
-        "paint-mcq-05",
-        "paint-mcq-02",
-        "paint-mcq-06",
-        "paint-mcq-01"
+        "paint-mcq-07",
+        "paint-mcq-13",
+        "paint-mcq-06"
       ],
       "explanation": "本句的「painted」指「把某人、某物或場景透過繪畫呈現出來」。",
       "sentenceIndex": 7,
@@ -568,12 +526,10 @@ export default {
         "painted"
       ],
       "optionReasons": {
-        "paint-mcq-04": "本句指「把某人、某物或場景透過繪畫呈現出來」。",
-        "paint-mcq-03": "「使用顏料創作圖畫」與本句語境不同。",
-        "paint-mcq-05": "「用文字／言語把某人或某事生動描繪成某種形象」與本句語境不同。",
-        "paint-mcq-02": "「把油漆／顏料塗在物件表面，使其變色或受保護」與本句語境不同。",
-        "paint-mcq-06": "「使用數碼繪圖工具在圖像上加顏色／筆觸」與本句語境不同。",
-        "paint-mcq-01": "「用來改變表面顏色或形成保護層的有色液體／物質」與本句語境不同。"
+        "paint-mcq-04": "本句的「painted」指「把某人、某物或場景透過繪畫呈現出來」。",
+        "paint-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-04"
     },
@@ -585,11 +541,8 @@ export default {
       "masked": "The writer ____ a vivid picture of city life.",
       "options": [
         "paint-mcq-05",
-        "paint-mcq-04",
-        "paint-mcq-06",
-        "paint-mcq-03",
-        "paint-mcq-07",
-        "paint-mcq-02"
+        "paint-mcq-11",
+        "paint-mcq-03"
       ],
       "explanation": "本句的「paints」指「用文字／言語把某人或某事生動描繪成某種形象」。",
       "sentenceIndex": 8,
@@ -598,12 +551,9 @@ export default {
         "paints"
       ],
       "optionReasons": {
-        "paint-mcq-05": "本句指「用文字／言語把某人或某事生動描繪成某種形象」。",
-        "paint-mcq-04": "「把某人、某物或場景透過繪畫呈現出來」與本句語境不同。",
-        "paint-mcq-06": "「使用數碼繪圖工具在圖像上加顏色／筆觸」與本句語境不同。",
-        "paint-mcq-03": "「使用顏料創作圖畫」與本句語境不同。",
-        "paint-mcq-07": "「一幅以顏料創作的藝術作品」與本句語境不同。",
-        "paint-mcq-02": "「把油漆／顏料塗在物件表面，使其變色或受保護」與本句語境不同。"
+        "paint-mcq-05": "本句的「paints」指「用文字／言語把某人或某事生動描繪成某種形象」。",
+        "paint-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-05"
     },
@@ -615,11 +565,8 @@ export default {
       "masked": "The article ____ him as a careful leader.",
       "options": [
         "paint-mcq-05",
-        "paint-mcq-04",
-        "paint-mcq-06",
-        "paint-mcq-03",
-        "paint-mcq-07",
-        "paint-mcq-02"
+        "paint-mcq-11",
+        "paint-mcq-03"
       ],
       "explanation": "本句的「paints」指「用文字／言語把某人或某事生動描繪成某種形象」。",
       "sentenceIndex": 9,
@@ -628,12 +575,9 @@ export default {
         "paints"
       ],
       "optionReasons": {
-        "paint-mcq-05": "本句指「用文字／言語把某人或某事生動描繪成某種形象」。",
-        "paint-mcq-04": "「把某人、某物或場景透過繪畫呈現出來」與本句語境不同。",
-        "paint-mcq-06": "「使用數碼繪圖工具在圖像上加顏色／筆觸」與本句語境不同。",
-        "paint-mcq-03": "「使用顏料創作圖畫」與本句語境不同。",
-        "paint-mcq-07": "「一幅以顏料創作的藝術作品」與本句語境不同。",
-        "paint-mcq-02": "「把油漆／顏料塗在物件表面，使其變色或受保護」與本句語境不同。"
+        "paint-mcq-05": "本句的「paints」指「用文字／言語把某人或某事生動描繪成某種形象」。",
+        "paint-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-05"
     },
@@ -645,11 +589,9 @@ export default {
       "masked": "Use the brush tool to ____ over the area.",
       "options": [
         "paint-mcq-06",
-        "paint-mcq-05",
-        "paint-mcq-07",
+        "paint-mcq-13",
         "paint-mcq-04",
-        "paint-mcq-08",
-        "paint-mcq-03"
+        "paint-mcq-07"
       ],
       "explanation": "本句的「paint」指「使用數碼繪圖工具在圖像上加顏色／筆觸」。",
       "sentenceIndex": 10,
@@ -658,12 +600,10 @@ export default {
         "paint"
       ],
       "optionReasons": {
-        "paint-mcq-06": "本句指「使用數碼繪圖工具在圖像上加顏色／筆觸」。",
-        "paint-mcq-05": "「用文字／言語把某人或某事生動描繪成某種形象」與本句語境不同。",
-        "paint-mcq-07": "「一幅以顏料創作的藝術作品」與本句語境不同。",
-        "paint-mcq-04": "「把某人、某物或場景透過繪畫呈現出來」與本句語境不同。",
-        "paint-mcq-08": "「使用顏料創作圖畫的藝術、技巧或活動」與本句語境不同。",
-        "paint-mcq-03": "「使用顏料創作圖畫」與本句語境不同。"
+        "paint-mcq-06": "本句的「paint」指「使用數碼繪圖工具在圖像上加顏色／筆觸」。",
+        "paint-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-06"
     },
@@ -675,11 +615,9 @@ export default {
       "masked": "The software lets users ____ directly on the image.",
       "options": [
         "paint-mcq-06",
-        "paint-mcq-05",
+        "paint-mcq-11",
         "paint-mcq-07",
-        "paint-mcq-04",
-        "paint-mcq-08",
-        "paint-mcq-03"
+        "paint-mcq-05"
       ],
       "explanation": "本句的「paint」指「使用數碼繪圖工具在圖像上加顏色／筆觸」。",
       "sentenceIndex": 11,
@@ -688,12 +626,10 @@ export default {
         "paint"
       ],
       "optionReasons": {
-        "paint-mcq-06": "本句指「使用數碼繪圖工具在圖像上加顏色／筆觸」。",
-        "paint-mcq-05": "「用文字／言語把某人或某事生動描繪成某種形象」與本句語境不同。",
-        "paint-mcq-07": "「一幅以顏料創作的藝術作品」與本句語境不同。",
-        "paint-mcq-04": "「把某人、某物或場景透過繪畫呈現出來」與本句語境不同。",
-        "paint-mcq-08": "「使用顏料創作圖畫的藝術、技巧或活動」與本句語境不同。",
-        "paint-mcq-03": "「使用顏料創作圖畫」與本句語境不同。"
+        "paint-mcq-06": "本句的「paint」指「使用數碼繪圖工具在圖像上加顏色／筆觸」。",
+        "paint-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-06"
     },
@@ -705,11 +641,9 @@ export default {
       "masked": "A ____ I would really love to have in my home…",
       "options": [
         "paint-mcq-07",
-        "paint-mcq-06",
-        "paint-mcq-08",
-        "paint-mcq-05",
-        "paint-mcq-09",
-        "paint-mcq-04"
+        "paint-mcq-11",
+        "paint-mcq-04",
+        "paint-mcq-06"
       ],
       "explanation": "本句的「painting」指「一幅以顏料創作的藝術作品」。",
       "sentenceIndex": 14,
@@ -718,12 +652,10 @@ export default {
         "painting"
       ],
       "optionReasons": {
-        "paint-mcq-07": "本句指「一幅以顏料創作的藝術作品」。",
-        "paint-mcq-06": "「使用數碼繪圖工具在圖像上加顏色／筆觸」與本句語境不同。",
-        "paint-mcq-08": "「使用顏料創作圖畫的藝術、技巧或活動」與本句語境不同。",
-        "paint-mcq-05": "「用文字／言語把某人或某事生動描繪成某種形象」與本句語境不同。",
-        "paint-mcq-09": "「在牆壁、建築或物件表面塗油漆的工作／過程」與本句語境不同。",
-        "paint-mcq-04": "「把某人、某物或場景透過繪畫呈現出來」與本句語境不同。"
+        "paint-mcq-07": "本句的「painting」指「一幅以顏料創作的藝術作品」。",
+        "paint-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-07"
     },
@@ -735,11 +667,9 @@ export default {
       "masked": "The museum owns several famous ____.",
       "options": [
         "paint-mcq-07",
-        "paint-mcq-06",
-        "paint-mcq-08",
-        "paint-mcq-05",
-        "paint-mcq-09",
-        "paint-mcq-04"
+        "paint-mcq-13",
+        "paint-mcq-04",
+        "paint-mcq-06"
       ],
       "explanation": "本句的「paintings」指「一幅以顏料創作的藝術作品」。",
       "sentenceIndex": 15,
@@ -748,12 +678,10 @@ export default {
         "paintings"
       ],
       "optionReasons": {
-        "paint-mcq-07": "本句指「一幅以顏料創作的藝術作品」。",
-        "paint-mcq-06": "「使用數碼繪圖工具在圖像上加顏色／筆觸」與本句語境不同。",
-        "paint-mcq-08": "「使用顏料創作圖畫的藝術、技巧或活動」與本句語境不同。",
-        "paint-mcq-05": "「用文字／言語把某人或某事生動描繪成某種形象」與本句語境不同。",
-        "paint-mcq-09": "「在牆壁、建築或物件表面塗油漆的工作／過程」與本句語境不同。",
-        "paint-mcq-04": "「把某人、某物或場景透過繪畫呈現出來」與本句語境不同。"
+        "paint-mcq-07": "本句的「paintings」指「一幅以顏料創作的藝術作品」。",
+        "paint-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-07"
     },
@@ -765,11 +693,9 @@ export default {
       "masked": "I did not know much about ____.",
       "options": [
         "paint-mcq-08",
-        "paint-mcq-07",
-        "paint-mcq-09",
-        "paint-mcq-06",
-        "paint-mcq-10",
-        "paint-mcq-05"
+        "paint-mcq-11",
+        "paint-mcq-05",
+        "paint-mcq-06"
       ],
       "explanation": "本句的「painting」指「使用顏料創作圖畫的藝術、技巧或活動」。",
       "sentenceIndex": 16,
@@ -778,12 +704,10 @@ export default {
         "painting"
       ],
       "optionReasons": {
-        "paint-mcq-08": "本句指「使用顏料創作圖畫的藝術、技巧或活動」。",
-        "paint-mcq-07": "「一幅以顏料創作的藝術作品」與本句語境不同。",
-        "paint-mcq-09": "「在牆壁、建築或物件表面塗油漆的工作／過程」與本句語境不同。",
-        "paint-mcq-06": "「使用數碼繪圖工具在圖像上加顏色／筆觸」與本句語境不同。",
-        "paint-mcq-10": "「以繪畫創作藝術作品的人」與本句語境不同。",
-        "paint-mcq-05": "「用文字／言語把某人或某事生動描繪成某種形象」與本句語境不同。"
+        "paint-mcq-08": "本句的「painting」指「使用顏料創作圖畫的藝術、技巧或活動」。",
+        "paint-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-08"
     },
@@ -795,11 +719,9 @@ export default {
       "masked": "She studied ____ at university.",
       "options": [
         "paint-mcq-08",
-        "paint-mcq-07",
-        "paint-mcq-09",
-        "paint-mcq-06",
-        "paint-mcq-10",
-        "paint-mcq-05"
+        "paint-mcq-11",
+        "paint-mcq-05",
+        "paint-mcq-06"
       ],
       "explanation": "本句的「painting」指「使用顏料創作圖畫的藝術、技巧或活動」。",
       "sentenceIndex": 17,
@@ -808,12 +730,10 @@ export default {
         "painting"
       ],
       "optionReasons": {
-        "paint-mcq-08": "本句指「使用顏料創作圖畫的藝術、技巧或活動」。",
-        "paint-mcq-07": "「一幅以顏料創作的藝術作品」與本句語境不同。",
-        "paint-mcq-09": "「在牆壁、建築或物件表面塗油漆的工作／過程」與本句語境不同。",
-        "paint-mcq-06": "「使用數碼繪圖工具在圖像上加顏色／筆觸」與本句語境不同。",
-        "paint-mcq-10": "「以繪畫創作藝術作品的人」與本句語境不同。",
-        "paint-mcq-05": "「用文字／言語把某人或某事生動描繪成某種形象」與本句語境不同。"
+        "paint-mcq-08": "本句的「painting」指「使用顏料創作圖畫的藝術、技巧或活動」。",
+        "paint-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-08"
     },
@@ -825,11 +745,8 @@ export default {
       "masked": "The house needs ____.",
       "options": [
         "paint-mcq-09",
-        "paint-mcq-08",
-        "paint-mcq-10",
-        "paint-mcq-07",
-        "paint-mcq-11",
-        "paint-mcq-06"
+        "paint-mcq-03",
+        "paint-mcq-04"
       ],
       "explanation": "本句的「painting」指「在牆壁、建築或物件表面塗油漆的工作／過程」。",
       "sentenceIndex": 18,
@@ -838,12 +755,9 @@ export default {
         "painting"
       ],
       "optionReasons": {
-        "paint-mcq-09": "本句指「在牆壁、建築或物件表面塗油漆的工作／過程」。",
-        "paint-mcq-08": "「使用顏料創作圖畫的藝術、技巧或活動」與本句語境不同。",
-        "paint-mcq-10": "「以繪畫創作藝術作品的人」與本句語境不同。",
-        "paint-mcq-07": "「一幅以顏料創作的藝術作品」與本句語境不同。",
-        "paint-mcq-11": "「以油漆牆壁、建築或物件為職業的人」與本句語境不同。",
-        "paint-mcq-06": "「使用數碼繪圖工具在圖像上加顏色／筆觸」與本句語境不同。"
+        "paint-mcq-09": "本句的「painting」指「在牆壁、建築或物件表面塗油漆的工作／過程」。",
+        "paint-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-09"
     },
@@ -855,11 +769,9 @@ export default {
       "masked": "____ the ceiling took all afternoon.",
       "options": [
         "paint-mcq-09",
-        "paint-mcq-08",
-        "paint-mcq-10",
         "paint-mcq-07",
-        "paint-mcq-11",
-        "paint-mcq-06"
+        "paint-mcq-06",
+        "paint-mcq-04"
       ],
       "explanation": "本句的「Painting」指「在牆壁、建築或物件表面塗油漆的工作／過程」。",
       "sentenceIndex": 19,
@@ -868,12 +780,10 @@ export default {
         "Painting"
       ],
       "optionReasons": {
-        "paint-mcq-09": "本句指「在牆壁、建築或物件表面塗油漆的工作／過程」。",
-        "paint-mcq-08": "「使用顏料創作圖畫的藝術、技巧或活動」與本句語境不同。",
-        "paint-mcq-10": "「以繪畫創作藝術作品的人」與本句語境不同。",
-        "paint-mcq-07": "「一幅以顏料創作的藝術作品」與本句語境不同。",
-        "paint-mcq-11": "「以油漆牆壁、建築或物件為職業的人」與本句語境不同。",
-        "paint-mcq-06": "「使用數碼繪圖工具在圖像上加顏色／筆觸」與本句語境不同。"
+        "paint-mcq-09": "本句的「Painting」指「在牆壁、建築或物件表面塗油漆的工作／過程」。",
+        "paint-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-09"
     },
@@ -885,11 +795,8 @@ export default {
       "masked": "Monet was a famous ____.",
       "options": [
         "paint-mcq-10",
-        "paint-mcq-09",
-        "paint-mcq-11",
-        "paint-mcq-08",
-        "paint-mcq-12",
-        "paint-mcq-07"
+        "paint-mcq-02",
+        "paint-mcq-06"
       ],
       "explanation": "本句的「painter」指「以繪畫創作藝術作品的人」。",
       "sentenceIndex": 20,
@@ -898,12 +805,9 @@ export default {
         "painter"
       ],
       "optionReasons": {
-        "paint-mcq-10": "本句指「以繪畫創作藝術作品的人」。",
-        "paint-mcq-09": "「在牆壁、建築或物件表面塗油漆的工作／過程」與本句語境不同。",
-        "paint-mcq-11": "「以油漆牆壁、建築或物件為職業的人」與本句語境不同。",
-        "paint-mcq-08": "「使用顏料創作圖畫的藝術、技巧或活動」與本句語境不同。",
-        "paint-mcq-12": "「已被塗上油漆／顏料，或由人手繪製的」與本句語境不同。",
-        "paint-mcq-07": "「一幅以顏料創作的藝術作品」與本句語境不同。"
+        "paint-mcq-10": "本句的「painter」指「以繪畫創作藝術作品的人」。",
+        "paint-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-10"
     },
@@ -916,10 +820,7 @@ export default {
       "options": [
         "paint-mcq-10",
         "paint-mcq-09",
-        "paint-mcq-11",
-        "paint-mcq-08",
-        "paint-mcq-12",
-        "paint-mcq-07"
+        "paint-mcq-06"
       ],
       "explanation": "本句的「painter」指「以繪畫創作藝術作品的人」。",
       "sentenceIndex": 21,
@@ -928,12 +829,9 @@ export default {
         "painter"
       ],
       "optionReasons": {
-        "paint-mcq-10": "本句指「以繪畫創作藝術作品的人」。",
-        "paint-mcq-09": "「在牆壁、建築或物件表面塗油漆的工作／過程」與本句語境不同。",
-        "paint-mcq-11": "「以油漆牆壁、建築或物件為職業的人」與本句語境不同。",
-        "paint-mcq-08": "「使用顏料創作圖畫的藝術、技巧或活動」與本句語境不同。",
-        "paint-mcq-12": "「已被塗上油漆／顏料，或由人手繪製的」與本句語境不同。",
-        "paint-mcq-07": "「一幅以顏料創作的藝術作品」與本句語境不同。"
+        "paint-mcq-10": "本句的「painter」指「以繪畫創作藝術作品的人」。",
+        "paint-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-10"
     },
@@ -945,11 +843,9 @@ export default {
       "masked": "We hired a ____ to repaint the living room.",
       "options": [
         "paint-mcq-11",
+        "paint-mcq-05",
         "paint-mcq-10",
-        "paint-mcq-12",
-        "paint-mcq-09",
-        "paint-mcq-13",
-        "paint-mcq-08"
+        "paint-mcq-06"
       ],
       "explanation": "本句的「painter」指「以油漆牆壁、建築或物件為職業的人」。",
       "sentenceIndex": 22,
@@ -958,12 +854,10 @@ export default {
         "painter"
       ],
       "optionReasons": {
-        "paint-mcq-11": "本句指「以油漆牆壁、建築或物件為職業的人」。",
-        "paint-mcq-10": "「以繪畫創作藝術作品的人」與本句語境不同。",
-        "paint-mcq-12": "「已被塗上油漆／顏料，或由人手繪製的」與本句語境不同。",
-        "paint-mcq-09": "「在牆壁、建築或物件表面塗油漆的工作／過程」與本句語境不同。",
-        "paint-mcq-13": "「車輛、建築或物件表面的油漆層／漆面狀況」與本句語境不同。",
-        "paint-mcq-08": "「使用顏料創作圖畫的藝術、技巧或活動」與本句語境不同。"
+        "paint-mcq-11": "本句的「painter」指「以油漆牆壁、建築或物件為職業的人」。",
+        "paint-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-11"
     },
@@ -975,11 +869,9 @@ export default {
       "masked": "The ____ finished the doors first.",
       "options": [
         "paint-mcq-11",
-        "paint-mcq-10",
-        "paint-mcq-12",
-        "paint-mcq-09",
-        "paint-mcq-13",
-        "paint-mcq-08"
+        "paint-mcq-04",
+        "paint-mcq-07",
+        "paint-mcq-06"
       ],
       "explanation": "本句的「painter」指「以油漆牆壁、建築或物件為職業的人」。",
       "sentenceIndex": 23,
@@ -988,12 +880,10 @@ export default {
         "painter"
       ],
       "optionReasons": {
-        "paint-mcq-11": "本句指「以油漆牆壁、建築或物件為職業的人」。",
-        "paint-mcq-10": "「以繪畫創作藝術作品的人」與本句語境不同。",
-        "paint-mcq-12": "「已被塗上油漆／顏料，或由人手繪製的」與本句語境不同。",
-        "paint-mcq-09": "「在牆壁、建築或物件表面塗油漆的工作／過程」與本句語境不同。",
-        "paint-mcq-13": "「車輛、建築或物件表面的油漆層／漆面狀況」與本句語境不同。",
-        "paint-mcq-08": "「使用顏料創作圖畫的藝術、技巧或活動」與本句語境不同。"
+        "paint-mcq-11": "本句的「painter」指「以油漆牆壁、建築或物件為職業的人」。",
+        "paint-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-11"
     },
@@ -1005,11 +895,9 @@ export default {
       "masked": "The walls are ____ blue.",
       "options": [
         "paint-mcq-12",
-        "paint-mcq-11",
-        "paint-mcq-13",
         "paint-mcq-10",
-        "paint-mcq-14",
-        "paint-mcq-09"
+        "paint-mcq-05",
+        "paint-mcq-06"
       ],
       "explanation": "本句的「painted」指「已被塗上油漆／顏料，或由人手繪製的」。",
       "sentenceIndex": 24,
@@ -1018,12 +906,10 @@ export default {
         "painted"
       ],
       "optionReasons": {
-        "paint-mcq-12": "本句指「已被塗上油漆／顏料，或由人手繪製的」。",
-        "paint-mcq-11": "「以油漆牆壁、建築或物件為職業的人」與本句語境不同。",
-        "paint-mcq-13": "「車輛、建築或物件表面的油漆層／漆面狀況」與本句語境不同。",
-        "paint-mcq-10": "「以繪畫創作藝術作品的人」與本句語境不同。",
-        "paint-mcq-14": "「以油作為媒介的繪畫顏料」與本句語境不同。",
-        "paint-mcq-09": "「在牆壁、建築或物件表面塗油漆的工作／過程」與本句語境不同。"
+        "paint-mcq-12": "本句的「painted」指「已被塗上油漆／顏料，或由人手繪製的」。",
+        "paint-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-12"
     },
@@ -1035,11 +921,8 @@ export default {
       "masked": "She bought a hand-____ box.",
       "options": [
         "paint-mcq-12",
-        "paint-mcq-11",
-        "paint-mcq-13",
-        "paint-mcq-10",
-        "paint-mcq-14",
-        "paint-mcq-09"
+        "paint-mcq-01",
+        "paint-mcq-04"
       ],
       "explanation": "本句的「painted」指「已被塗上油漆／顏料，或由人手繪製的」。",
       "sentenceIndex": 25,
@@ -1048,12 +931,9 @@ export default {
         "painted"
       ],
       "optionReasons": {
-        "paint-mcq-12": "本句指「已被塗上油漆／顏料，或由人手繪製的」。",
-        "paint-mcq-11": "「以油漆牆壁、建築或物件為職業的人」與本句語境不同。",
-        "paint-mcq-13": "「車輛、建築或物件表面的油漆層／漆面狀況」與本句語境不同。",
-        "paint-mcq-10": "「以繪畫創作藝術作品的人」與本句語境不同。",
-        "paint-mcq-14": "「以油作為媒介的繪畫顏料」與本句語境不同。",
-        "paint-mcq-09": "「在牆壁、建築或物件表面塗油漆的工作／過程」與本句語境不同。"
+        "paint-mcq-12": "本句的「painted」指「已被塗上油漆／顏料，或由人手繪製的」。",
+        "paint-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-12"
     },
@@ -1065,11 +945,9 @@ export default {
       "masked": "The car’s ____ was badly scratched.",
       "options": [
         "paint-mcq-13",
-        "paint-mcq-12",
-        "paint-mcq-14",
-        "paint-mcq-11",
-        "paint-mcq-15",
-        "paint-mcq-10"
+        "paint-mcq-08",
+        "paint-mcq-04",
+        "paint-mcq-06"
       ],
       "explanation": "本句的「paintwork」指「車輛、建築或物件表面的油漆層／漆面狀況」。",
       "sentenceIndex": 26,
@@ -1078,12 +956,10 @@ export default {
         "paintwork"
       ],
       "optionReasons": {
-        "paint-mcq-13": "本句指「車輛、建築或物件表面的油漆層／漆面狀況」。",
-        "paint-mcq-12": "「已被塗上油漆／顏料，或由人手繪製的」與本句語境不同。",
-        "paint-mcq-14": "「以油作為媒介的繪畫顏料」與本句語境不同。",
-        "paint-mcq-11": "「以油漆牆壁、建築或物件為職業的人」與本句語境不同。",
-        "paint-mcq-15": "「以噴霧方式施用的油漆／顏料」與本句語境不同。",
-        "paint-mcq-10": "「以繪畫創作藝術作品的人」與本句語境不同。"
+        "paint-mcq-13": "本句的「paintwork」指「車輛、建築或物件表面的油漆層／漆面狀況」。",
+        "paint-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-13"
     },
@@ -1095,11 +971,9 @@ export default {
       "masked": "The old ____ needs repair.",
       "options": [
         "paint-mcq-13",
-        "paint-mcq-12",
-        "paint-mcq-14",
-        "paint-mcq-11",
-        "paint-mcq-15",
-        "paint-mcq-10"
+        "paint-mcq-06",
+        "paint-mcq-04",
+        "paint-mcq-08"
       ],
       "explanation": "本句的「paintwork」指「車輛、建築或物件表面的油漆層／漆面狀況」。",
       "sentenceIndex": 27,
@@ -1108,12 +982,10 @@ export default {
         "paintwork"
       ],
       "optionReasons": {
-        "paint-mcq-13": "本句指「車輛、建築或物件表面的油漆層／漆面狀況」。",
-        "paint-mcq-12": "「已被塗上油漆／顏料，或由人手繪製的」與本句語境不同。",
-        "paint-mcq-14": "「以油作為媒介的繪畫顏料」與本句語境不同。",
-        "paint-mcq-11": "「以油漆牆壁、建築或物件為職業的人」與本句語境不同。",
-        "paint-mcq-15": "「以噴霧方式施用的油漆／顏料」與本句語境不同。",
-        "paint-mcq-10": "「以繪畫創作藝術作品的人」與本句語境不同。"
+        "paint-mcq-13": "本句的「paintwork」指「車輛、建築或物件表面的油漆層／漆面狀況」。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-13"
     },
@@ -1125,11 +997,7 @@ export default {
       "masked": "The artist works mainly in ____.",
       "options": [
         "paint-mcq-14",
-        "paint-mcq-13",
-        "paint-mcq-15",
-        "paint-mcq-12",
-        "paint-mcq-11",
-        "paint-mcq-10"
+        "paint-mcq-01"
       ],
       "explanation": "本句的「oil paint」指「以油作為媒介的繪畫顏料」。",
       "sentenceIndex": 28,
@@ -1138,12 +1006,8 @@ export default {
         "oil paint"
       ],
       "optionReasons": {
-        "paint-mcq-14": "本句指「以油作為媒介的繪畫顏料」。",
-        "paint-mcq-13": "「車輛、建築或物件表面的油漆層／漆面狀況」與本句語境不同。",
-        "paint-mcq-15": "「以噴霧方式施用的油漆／顏料」與本句語境不同。",
-        "paint-mcq-12": "「已被塗上油漆／顏料，或由人手繪製的」與本句語境不同。",
-        "paint-mcq-11": "「以油漆牆壁、建築或物件為職業的人」與本句語境不同。",
-        "paint-mcq-10": "「以繪畫創作藝術作品的人」與本句語境不同。"
+        "paint-mcq-14": "本句的「oil paint」指「以油作為媒介的繪畫顏料」。",
+        "paint-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-14"
     },
@@ -1155,11 +1019,7 @@ export default {
       "masked": "Oil ____ dries slowly.",
       "options": [
         "paint-mcq-14",
-        "paint-mcq-13",
-        "paint-mcq-15",
-        "paint-mcq-12",
-        "paint-mcq-11",
-        "paint-mcq-10"
+        "paint-mcq-01"
       ],
       "explanation": "本句的「paint」指「以油作為媒介的繪畫顏料」。",
       "sentenceIndex": 29,
@@ -1168,12 +1028,8 @@ export default {
         "paint"
       ],
       "optionReasons": {
-        "paint-mcq-14": "本句指「以油作為媒介的繪畫顏料」。",
-        "paint-mcq-13": "「車輛、建築或物件表面的油漆層／漆面狀況」與本句語境不同。",
-        "paint-mcq-15": "「以噴霧方式施用的油漆／顏料」與本句語境不同。",
-        "paint-mcq-12": "「已被塗上油漆／顏料，或由人手繪製的」與本句語境不同。",
-        "paint-mcq-11": "「以油漆牆壁、建築或物件為職業的人」與本句語境不同。",
-        "paint-mcq-10": "「以繪畫創作藝術作品的人」與本句語境不同。"
+        "paint-mcq-14": "本句的「paint」指「以油作為媒介的繪畫顏料」。",
+        "paint-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-14"
     },
@@ -1185,11 +1041,9 @@ export default {
       "masked": "The metal frame was covered with ____.",
       "options": [
         "paint-mcq-15",
-        "paint-mcq-14",
-        "paint-mcq-13",
-        "paint-mcq-12",
-        "paint-mcq-11",
-        "paint-mcq-10"
+        "paint-mcq-10",
+        "paint-mcq-05",
+        "paint-mcq-06"
       ],
       "explanation": "本句的「spray paint」指「以噴霧方式施用的油漆／顏料」。",
       "sentenceIndex": 30,
@@ -1198,12 +1052,10 @@ export default {
         "spray paint"
       ],
       "optionReasons": {
-        "paint-mcq-15": "本句指「以噴霧方式施用的油漆／顏料」。",
-        "paint-mcq-14": "「以油作為媒介的繪畫顏料」與本句語境不同。",
-        "paint-mcq-13": "「車輛、建築或物件表面的油漆層／漆面狀況」與本句語境不同。",
-        "paint-mcq-12": "「已被塗上油漆／顏料，或由人手繪製的」與本句語境不同。",
-        "paint-mcq-11": "「以油漆牆壁、建築或物件為職業的人」與本句語境不同。",
-        "paint-mcq-10": "「以繪畫創作藝術作品的人」與本句語境不同。"
+        "paint-mcq-15": "本句的「spray paint」指「以噴霧方式施用的油漆／顏料」。",
+        "paint-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-15"
     },
@@ -1215,11 +1067,9 @@ export default {
       "masked": "They used spray ____ on the sign.",
       "options": [
         "paint-mcq-15",
-        "paint-mcq-14",
-        "paint-mcq-13",
-        "paint-mcq-12",
-        "paint-mcq-11",
-        "paint-mcq-10"
+        "paint-mcq-05",
+        "paint-mcq-10",
+        "paint-mcq-06"
       ],
       "explanation": "本句的「paint」指「以噴霧方式施用的油漆／顏料」。",
       "sentenceIndex": 31,
@@ -1228,12 +1078,10 @@ export default {
         "paint"
       ],
       "optionReasons": {
-        "paint-mcq-15": "本句指「以噴霧方式施用的油漆／顏料」。",
-        "paint-mcq-14": "「以油作為媒介的繪畫顏料」與本句語境不同。",
-        "paint-mcq-13": "「車輛、建築或物件表面的油漆層／漆面狀況」與本句語境不同。",
-        "paint-mcq-12": "「已被塗上油漆／顏料，或由人手繪製的」與本句語境不同。",
-        "paint-mcq-11": "「以油漆牆壁、建築或物件為職業的人」與本句語境不同。",
-        "paint-mcq-10": "「以繪畫創作藝術作品的人」與本句語境不同。"
+        "paint-mcq-15": "本句的「paint」指「以噴霧方式施用的油漆／顏料」。",
+        "paint-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "paint-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paint-mcq-15"
     }
@@ -1245,5 +1093,7 @@ export default {
     "sha256": "d075134fd7e3315ba5284a595007bce7b6256d94f6214883203cfba5f22959c0",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

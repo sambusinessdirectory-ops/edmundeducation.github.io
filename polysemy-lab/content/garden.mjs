@@ -394,11 +394,7 @@ export default {
       "masked": "Her tiny ____ is both practical and beautiful.",
       "options": [
         "garden-mcq-01",
-        "garden-mcq-02",
-        "garden-mcq-03",
-        "garden-mcq-04",
-        "garden-mcq-05",
-        "garden-mcq-06"
+        "garden-mcq-17"
       ],
       "explanation": "本句的「garden」指「住宅附近／範圍內用來種植植物、休憩或活動的戶外空間」。",
       "sentenceIndex": 0,
@@ -407,12 +403,8 @@ export default {
         "garden"
       ],
       "optionReasons": {
-        "garden-mcq-01": "本句指「住宅附近／範圍內用來種植植物、休憩或活動的戶外空間」。",
-        "garden-mcq-02": "「經設計和栽種花草樹木，主要供觀賞／休憩的園地」與本句語境不同。",
-        "garden-mcq-03": "「經規劃、種植和維護，供公眾參觀或休憩的植物空間」與本句語境不同。",
-        "garden-mcq-04": "「有系統保存、展示植物並常兼具研究教育功能的植物園」與本句語境不同。",
-        "garden-mcq-05": "「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」與本句語境不同。",
-        "garden-mcq-06": "「設於建築物屋頂的植物種植／休憩空間」與本句語境不同。"
+        "garden-mcq-01": "本句的「garden」指「住宅附近／範圍內用來種植植物、休憩或活動的戶外空間」。",
+        "garden-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-01"
     },
@@ -424,11 +416,7 @@ export default {
       "masked": "They grow herbs and vegetables in the ____.",
       "options": [
         "garden-mcq-01",
-        "garden-mcq-02",
-        "garden-mcq-03",
-        "garden-mcq-04",
-        "garden-mcq-05",
-        "garden-mcq-06"
+        "garden-mcq-17"
       ],
       "explanation": "本句的「garden」指「住宅附近／範圍內用來種植植物、休憩或活動的戶外空間」。",
       "sentenceIndex": 1,
@@ -437,12 +425,8 @@ export default {
         "garden"
       ],
       "optionReasons": {
-        "garden-mcq-01": "本句指「住宅附近／範圍內用來種植植物、休憩或活動的戶外空間」。",
-        "garden-mcq-02": "「經設計和栽種花草樹木，主要供觀賞／休憩的園地」與本句語境不同。",
-        "garden-mcq-03": "「經規劃、種植和維護，供公眾參觀或休憩的植物空間」與本句語境不同。",
-        "garden-mcq-04": "「有系統保存、展示植物並常兼具研究教育功能的植物園」與本句語境不同。",
-        "garden-mcq-05": "「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」與本句語境不同。",
-        "garden-mcq-06": "「設於建築物屋頂的植物種植／休憩空間」與本句語境不同。"
+        "garden-mcq-01": "本句的「garden」指「住宅附近／範圍內用來種植植物、休憩或活動的戶外空間」。",
+        "garden-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-01"
     },
@@ -454,11 +438,7 @@ export default {
       "masked": "The children were playing in the back ____.",
       "options": [
         "garden-mcq-01",
-        "garden-mcq-02",
-        "garden-mcq-03",
-        "garden-mcq-04",
-        "garden-mcq-05",
-        "garden-mcq-06"
+        "garden-mcq-17"
       ],
       "explanation": "本句的「garden」指「住宅附近／範圍內用來種植植物、休憩或活動的戶外空間」。",
       "sentenceIndex": 2,
@@ -467,12 +447,8 @@ export default {
         "garden"
       ],
       "optionReasons": {
-        "garden-mcq-01": "本句指「住宅附近／範圍內用來種植植物、休憩或活動的戶外空間」。",
-        "garden-mcq-02": "「經設計和栽種花草樹木，主要供觀賞／休憩的園地」與本句語境不同。",
-        "garden-mcq-03": "「經規劃、種植和維護，供公眾參觀或休憩的植物空間」與本句語境不同。",
-        "garden-mcq-04": "「有系統保存、展示植物並常兼具研究教育功能的植物園」與本句語境不同。",
-        "garden-mcq-05": "「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」與本句語境不同。",
-        "garden-mcq-06": "「設於建築物屋頂的植物種植／休憩空間」與本句語境不同。"
+        "garden-mcq-01": "本句的「garden」指「住宅附近／範圍內用來種植植物、休憩或活動的戶外空間」。",
+        "garden-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-01"
     },
@@ -484,11 +460,9 @@ export default {
       "masked": "The hotel has a beautiful ____ full of roses.",
       "options": [
         "garden-mcq-02",
-        "garden-mcq-01",
-        "garden-mcq-03",
-        "garden-mcq-04",
-        "garden-mcq-05",
-        "garden-mcq-06"
+        "garden-mcq-16",
+        "garden-mcq-10",
+        "garden-mcq-15"
       ],
       "explanation": "本句的「garden」指「經設計和栽種花草樹木，主要供觀賞／休憩的園地」。",
       "sentenceIndex": 3,
@@ -497,12 +471,10 @@ export default {
         "garden"
       ],
       "optionReasons": {
-        "garden-mcq-02": "本句指「經設計和栽種花草樹木，主要供觀賞／休憩的園地」。",
-        "garden-mcq-01": "「住宅附近／範圍內用來種植植物、休憩或活動的戶外空間」與本句語境不同。",
-        "garden-mcq-03": "「經規劃、種植和維護，供公眾參觀或休憩的植物空間」與本句語境不同。",
-        "garden-mcq-04": "「有系統保存、展示植物並常兼具研究教育功能的植物園」與本句語境不同。",
-        "garden-mcq-05": "「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」與本句語境不同。",
-        "garden-mcq-06": "「設於建築物屋頂的植物種植／休憩空間」與本句語境不同。"
+        "garden-mcq-02": "本句的「garden」指「經設計和栽種花草樹木，主要供觀賞／休憩的園地」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-02"
     },
@@ -514,11 +486,9 @@ export default {
       "masked": "We walked through the formal ____.",
       "options": [
         "garden-mcq-02",
-        "garden-mcq-01",
-        "garden-mcq-03",
-        "garden-mcq-04",
-        "garden-mcq-05",
-        "garden-mcq-06"
+        "garden-mcq-16",
+        "garden-mcq-08",
+        "garden-mcq-15"
       ],
       "explanation": "本句的「garden」指「經設計和栽種花草樹木，主要供觀賞／休憩的園地」。",
       "sentenceIndex": 4,
@@ -527,12 +497,10 @@ export default {
         "garden"
       ],
       "optionReasons": {
-        "garden-mcq-02": "本句指「經設計和栽種花草樹木，主要供觀賞／休憩的園地」。",
-        "garden-mcq-01": "「住宅附近／範圍內用來種植植物、休憩或活動的戶外空間」與本句語境不同。",
-        "garden-mcq-03": "「經規劃、種植和維護，供公眾參觀或休憩的植物空間」與本句語境不同。",
-        "garden-mcq-04": "「有系統保存、展示植物並常兼具研究教育功能的植物園」與本句語境不同。",
-        "garden-mcq-05": "「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」與本句語境不同。",
-        "garden-mcq-06": "「設於建築物屋頂的植物種植／休憩空間」與本句語境不同。"
+        "garden-mcq-02": "本句的「garden」指「經設計和栽種花草樹木，主要供觀賞／休憩的園地」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-02"
     },
@@ -544,11 +512,8 @@ export default {
       "masked": "The city opened a new public ____.",
       "options": [
         "garden-mcq-03",
-        "garden-mcq-02",
-        "garden-mcq-04",
-        "garden-mcq-01",
-        "garden-mcq-05",
-        "garden-mcq-06"
+        "garden-mcq-13",
+        "garden-mcq-15"
       ],
       "explanation": "本句的「garden」指「經規劃、種植和維護，供公眾參觀或休憩的植物空間」。",
       "sentenceIndex": 5,
@@ -557,12 +522,9 @@ export default {
         "garden"
       ],
       "optionReasons": {
-        "garden-mcq-03": "本句指「經規劃、種植和維護，供公眾參觀或休憩的植物空間」。",
-        "garden-mcq-02": "「經設計和栽種花草樹木，主要供觀賞／休憩的園地」與本句語境不同。",
-        "garden-mcq-04": "「有系統保存、展示植物並常兼具研究教育功能的植物園」與本句語境不同。",
-        "garden-mcq-01": "「住宅附近／範圍內用來種植植物、休憩或活動的戶外空間」與本句語境不同。",
-        "garden-mcq-05": "「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」與本句語境不同。",
-        "garden-mcq-06": "「設於建築物屋頂的植物種植／休憩空間」與本句語境不同。"
+        "garden-mcq-03": "本句的「garden」指「經規劃、種植和維護，供公眾參觀或休憩的植物空間」。",
+        "garden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-03"
     },
@@ -574,11 +536,8 @@ export default {
       "masked": "Visitors can walk through the historic ____.",
       "options": [
         "garden-mcq-03",
-        "garden-mcq-02",
-        "garden-mcq-04",
-        "garden-mcq-01",
-        "garden-mcq-05",
-        "garden-mcq-06"
+        "garden-mcq-17",
+        "garden-mcq-15"
       ],
       "explanation": "本句的「gardens」指「經規劃、種植和維護，供公眾參觀或休憩的植物空間」。",
       "sentenceIndex": 6,
@@ -587,12 +546,9 @@ export default {
         "gardens"
       ],
       "optionReasons": {
-        "garden-mcq-03": "本句指「經規劃、種植和維護，供公眾參觀或休憩的植物空間」。",
-        "garden-mcq-02": "「經設計和栽種花草樹木，主要供觀賞／休憩的園地」與本句語境不同。",
-        "garden-mcq-04": "「有系統保存、展示植物並常兼具研究教育功能的植物園」與本句語境不同。",
-        "garden-mcq-01": "「住宅附近／範圍內用來種植植物、休憩或活動的戶外空間」與本句語境不同。",
-        "garden-mcq-05": "「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」與本句語境不同。",
-        "garden-mcq-06": "「設於建築物屋頂的植物種植／休憩空間」與本句語境不同。"
+        "garden-mcq-03": "本句的「gardens」指「經規劃、種植和維護，供公眾參觀或休憩的植物空間」。",
+        "garden-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-03"
     },
@@ -604,11 +560,9 @@ export default {
       "masked": "We spent the afternoon at the ____.",
       "options": [
         "garden-mcq-04",
-        "garden-mcq-03",
-        "garden-mcq-05",
+        "garden-mcq-15",
         "garden-mcq-02",
-        "garden-mcq-06",
-        "garden-mcq-01"
+        "garden-mcq-17"
       ],
       "explanation": "本句的「botanical garden」指「有系統保存、展示植物並常兼具研究教育功能的植物園」。",
       "sentenceIndex": 7,
@@ -617,12 +571,10 @@ export default {
         "botanical garden"
       ],
       "optionReasons": {
-        "garden-mcq-04": "本句指「有系統保存、展示植物並常兼具研究教育功能的植物園」。",
-        "garden-mcq-03": "「經規劃、種植和維護，供公眾參觀或休憩的植物空間」與本句語境不同。",
-        "garden-mcq-05": "「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」與本句語境不同。",
-        "garden-mcq-02": "「經設計和栽種花草樹木，主要供觀賞／休憩的園地」與本句語境不同。",
-        "garden-mcq-06": "「設於建築物屋頂的植物種植／休憩空間」與本句語境不同。",
-        "garden-mcq-01": "「住宅附近／範圍內用來種植植物、休憩或活動的戶外空間」與本句語境不同。"
+        "garden-mcq-04": "本句的「botanical garden」指「有系統保存、展示植物並常兼具研究教育功能的植物園」。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-04"
     },
@@ -634,11 +586,9 @@ export default {
       "masked": "The botanical ____ contains plants from many climates.",
       "options": [
         "garden-mcq-04",
-        "garden-mcq-03",
-        "garden-mcq-05",
+        "garden-mcq-15",
         "garden-mcq-02",
-        "garden-mcq-06",
-        "garden-mcq-01"
+        "garden-mcq-16"
       ],
       "explanation": "本句的「garden」指「有系統保存、展示植物並常兼具研究教育功能的植物園」。",
       "sentenceIndex": 8,
@@ -647,12 +597,10 @@ export default {
         "garden"
       ],
       "optionReasons": {
-        "garden-mcq-04": "本句指「有系統保存、展示植物並常兼具研究教育功能的植物園」。",
-        "garden-mcq-03": "「經規劃、種植和維護，供公眾參觀或休憩的植物空間」與本句語境不同。",
-        "garden-mcq-05": "「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」與本句語境不同。",
-        "garden-mcq-02": "「經設計和栽種花草樹木，主要供觀賞／休憩的園地」與本句語境不同。",
-        "garden-mcq-06": "「設於建築物屋頂的植物種植／休憩空間」與本句語境不同。",
-        "garden-mcq-01": "「住宅附近／範圍內用來種植植物、休憩或活動的戶外空間」與本句語境不同。"
+        "garden-mcq-04": "本句的「garden」指「有系統保存、展示植物並常兼具研究教育功能的植物園」。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-04"
     },
@@ -664,11 +612,9 @@ export default {
       "masked": "She grows herbs in a small ____.",
       "options": [
         "garden-mcq-05",
-        "garden-mcq-04",
-        "garden-mcq-06",
-        "garden-mcq-03",
-        "garden-mcq-07",
-        "garden-mcq-02"
+        "garden-mcq-16",
+        "garden-mcq-17",
+        "garden-mcq-11"
       ],
       "explanation": "本句的「kitchen garden」指「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」。",
       "sentenceIndex": 9,
@@ -677,12 +623,10 @@ export default {
         "kitchen garden"
       ],
       "optionReasons": {
-        "garden-mcq-05": "本句指「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」。",
-        "garden-mcq-04": "「有系統保存、展示植物並常兼具研究教育功能的植物園」與本句語境不同。",
-        "garden-mcq-06": "「設於建築物屋頂的植物種植／休憩空間」與本句語境不同。",
-        "garden-mcq-03": "「經規劃、種植和維護，供公眾參觀或休憩的植物空間」與本句語境不同。",
-        "garden-mcq-07": "「住宅周圍的戶外花園／院子，尤其有植物的部分」與本句語境不同。",
-        "garden-mcq-02": "「經設計和栽種花草樹木，主要供觀賞／休憩的園地」與本句語境不同。"
+        "garden-mcq-05": "本句的「kitchen garden」指「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-05"
     },
@@ -694,11 +638,9 @@ export default {
       "masked": "The kitchen ____ provides fresh vegetables for the family.",
       "options": [
         "garden-mcq-05",
-        "garden-mcq-04",
-        "garden-mcq-06",
-        "garden-mcq-03",
-        "garden-mcq-07",
-        "garden-mcq-02"
+        "garden-mcq-16",
+        "garden-mcq-17",
+        "garden-mcq-04"
       ],
       "explanation": "本句的「garden」指「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」。",
       "sentenceIndex": 10,
@@ -707,12 +649,10 @@ export default {
         "garden"
       ],
       "optionReasons": {
-        "garden-mcq-05": "本句指「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」。",
-        "garden-mcq-04": "「有系統保存、展示植物並常兼具研究教育功能的植物園」與本句語境不同。",
-        "garden-mcq-06": "「設於建築物屋頂的植物種植／休憩空間」與本句語境不同。",
-        "garden-mcq-03": "「經規劃、種植和維護，供公眾參觀或休憩的植物空間」與本句語境不同。",
-        "garden-mcq-07": "「住宅周圍的戶外花園／院子，尤其有植物的部分」與本句語境不同。",
-        "garden-mcq-02": "「經設計和栽種花草樹木，主要供觀賞／休憩的園地」與本句語境不同。"
+        "garden-mcq-05": "本句的「garden」指「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-05"
     },
@@ -724,11 +664,7 @@ export default {
       "masked": "Most of her plants are kept in a ____.",
       "options": [
         "garden-mcq-06",
-        "garden-mcq-05",
-        "garden-mcq-07",
-        "garden-mcq-04",
-        "garden-mcq-08",
-        "garden-mcq-03"
+        "garden-mcq-14"
       ],
       "explanation": "本句的「rooftop garden」指「設於建築物屋頂的植物種植／休憩空間」。",
       "sentenceIndex": 11,
@@ -737,12 +673,8 @@ export default {
         "rooftop garden"
       ],
       "optionReasons": {
-        "garden-mcq-06": "本句指「設於建築物屋頂的植物種植／休憩空間」。",
-        "garden-mcq-05": "「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」與本句語境不同。",
-        "garden-mcq-07": "「住宅周圍的戶外花園／院子，尤其有植物的部分」與本句語境不同。",
-        "garden-mcq-04": "「有系統保存、展示植物並常兼具研究教育功能的植物園」與本句語境不同。",
-        "garden-mcq-08": "「種植並照料植物；從事園藝」與本句語境不同。",
-        "garden-mcq-03": "「經規劃、種植和維護，供公眾參觀或休憩的植物空間」與本句語境不同。"
+        "garden-mcq-06": "本句的「rooftop garden」指「設於建築物屋頂的植物種植／休憩空間」。",
+        "garden-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-06"
     },
@@ -754,11 +686,8 @@ export default {
       "masked": "The building has a roof ____ for residents.",
       "options": [
         "garden-mcq-06",
-        "garden-mcq-05",
-        "garden-mcq-07",
-        "garden-mcq-04",
-        "garden-mcq-08",
-        "garden-mcq-03"
+        "garden-mcq-15",
+        "garden-mcq-17"
       ],
       "explanation": "本句的「garden」指「設於建築物屋頂的植物種植／休憩空間」。",
       "sentenceIndex": 12,
@@ -767,12 +696,9 @@ export default {
         "garden"
       ],
       "optionReasons": {
-        "garden-mcq-06": "本句指「設於建築物屋頂的植物種植／休憩空間」。",
-        "garden-mcq-05": "「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」與本句語境不同。",
-        "garden-mcq-07": "「住宅周圍的戶外花園／院子，尤其有植物的部分」與本句語境不同。",
-        "garden-mcq-04": "「有系統保存、展示植物並常兼具研究教育功能的植物園」與本句語境不同。",
-        "garden-mcq-08": "「種植並照料植物；從事園藝」與本句語境不同。",
-        "garden-mcq-03": "「經規劃、種植和維護，供公眾參觀或休憩的植物空間」與本句語境不同。"
+        "garden-mcq-06": "本句的「garden」指「設於建築物屋頂的植物種植／休憩空間」。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-06"
     },
@@ -784,11 +710,8 @@ export default {
       "masked": "The children are playing in the ____.” British English:",
       "options": [
         "garden-mcq-07",
-        "garden-mcq-06",
-        "garden-mcq-08",
-        "garden-mcq-05",
-        "garden-mcq-09",
-        "garden-mcq-04"
+        "garden-mcq-16",
+        "garden-mcq-02"
       ],
       "explanation": "本句的「garden」指「住宅周圍的戶外花園／院子，尤其有植物的部分」。",
       "sentenceIndex": 13,
@@ -797,12 +720,9 @@ export default {
         "garden"
       ],
       "optionReasons": {
-        "garden-mcq-07": "本句指「住宅周圍的戶外花園／院子，尤其有植物的部分」。",
-        "garden-mcq-06": "「設於建築物屋頂的植物種植／休憩空間」與本句語境不同。",
-        "garden-mcq-08": "「種植並照料植物；從事園藝」與本句語境不同。",
-        "garden-mcq-05": "「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」與本句語境不同。",
-        "garden-mcq-09": "「種植、照料花草蔬果及整理花園的活動」與本句語境不同。",
-        "garden-mcq-04": "「有系統保存、展示植物並常兼具研究教育功能的植物園」與本句語境不同。"
+        "garden-mcq-07": "本句的「garden」指「住宅周圍的戶外花園／院子，尤其有植物的部分」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-07"
     },
@@ -814,11 +734,8 @@ export default {
       "masked": "There is a shed at the end of the ____.",
       "options": [
         "garden-mcq-07",
-        "garden-mcq-06",
-        "garden-mcq-08",
-        "garden-mcq-05",
-        "garden-mcq-09",
-        "garden-mcq-04"
+        "garden-mcq-16",
+        "garden-mcq-02"
       ],
       "explanation": "本句的「garden」指「住宅周圍的戶外花園／院子，尤其有植物的部分」。",
       "sentenceIndex": 14,
@@ -827,12 +744,9 @@ export default {
         "garden"
       ],
       "optionReasons": {
-        "garden-mcq-07": "本句指「住宅周圍的戶外花園／院子，尤其有植物的部分」。",
-        "garden-mcq-06": "「設於建築物屋頂的植物種植／休憩空間」與本句語境不同。",
-        "garden-mcq-08": "「種植並照料植物；從事園藝」與本句語境不同。",
-        "garden-mcq-05": "「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」與本句語境不同。",
-        "garden-mcq-09": "「種植、照料花草蔬果及整理花園的活動」與本句語境不同。",
-        "garden-mcq-04": "「有系統保存、展示植物並常兼具研究教育功能的植物園」與本句語境不同。"
+        "garden-mcq-07": "本句的「garden」指「住宅周圍的戶外花園／院子，尤其有植物的部分」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-07"
     },
@@ -844,11 +758,9 @@ export default {
       "masked": "She loves to ____ at weekends.",
       "options": [
         "garden-mcq-08",
-        "garden-mcq-07",
-        "garden-mcq-09",
-        "garden-mcq-06",
-        "garden-mcq-10",
-        "garden-mcq-05"
+        "garden-mcq-15",
+        "garden-mcq-16",
+        "garden-mcq-02"
       ],
       "explanation": "本句的「garden」指「種植並照料植物；從事園藝」。",
       "sentenceIndex": 15,
@@ -857,12 +769,10 @@ export default {
         "garden"
       ],
       "optionReasons": {
-        "garden-mcq-08": "本句指「種植並照料植物；從事園藝」。",
-        "garden-mcq-07": "「住宅周圍的戶外花園／院子，尤其有植物的部分」與本句語境不同。",
-        "garden-mcq-09": "「種植、照料花草蔬果及整理花園的活動」與本句語境不同。",
-        "garden-mcq-06": "「設於建築物屋頂的植物種植／休憩空間」與本句語境不同。",
-        "garden-mcq-10": "「種植、照料植物的人；可指職業園丁或園藝愛好者」與本句語境不同。",
-        "garden-mcq-05": "「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」與本句語境不同。"
+        "garden-mcq-08": "本句的「garden」指「種植並照料植物；從事園藝」。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-08"
     },
@@ -874,11 +784,9 @@ export default {
       "masked": "He ____ whenever the weather is good.",
       "options": [
         "garden-mcq-08",
-        "garden-mcq-07",
-        "garden-mcq-09",
-        "garden-mcq-06",
-        "garden-mcq-10",
-        "garden-mcq-05"
+        "garden-mcq-16",
+        "garden-mcq-15",
+        "garden-mcq-17"
       ],
       "explanation": "本句的「gardens」指「種植並照料植物；從事園藝」。",
       "sentenceIndex": 16,
@@ -887,12 +795,10 @@ export default {
         "gardens"
       ],
       "optionReasons": {
-        "garden-mcq-08": "本句指「種植並照料植物；從事園藝」。",
-        "garden-mcq-07": "「住宅周圍的戶外花園／院子，尤其有植物的部分」與本句語境不同。",
-        "garden-mcq-09": "「種植、照料花草蔬果及整理花園的活動」與本句語境不同。",
-        "garden-mcq-06": "「設於建築物屋頂的植物種植／休憩空間」與本句語境不同。",
-        "garden-mcq-10": "「種植、照料植物的人；可指職業園丁或園藝愛好者」與本句語境不同。",
-        "garden-mcq-05": "「主要種植供家庭食用的蔬菜、香草、水果的小型園圃」與本句語境不同。"
+        "garden-mcq-08": "本句的「gardens」指「種植並照料植物；從事園藝」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-08"
     },
@@ -904,11 +810,9 @@ export default {
       "masked": "____ helps her relax.",
       "options": [
         "garden-mcq-09",
-        "garden-mcq-08",
-        "garden-mcq-10",
-        "garden-mcq-07",
-        "garden-mcq-11",
-        "garden-mcq-06"
+        "garden-mcq-16",
+        "garden-mcq-15",
+        "garden-mcq-04"
       ],
       "explanation": "本句的「Gardening」指「種植、照料花草蔬果及整理花園的活動」。",
       "sentenceIndex": 17,
@@ -917,12 +821,10 @@ export default {
         "Gardening"
       ],
       "optionReasons": {
-        "garden-mcq-09": "本句指「種植、照料花草蔬果及整理花園的活動」。",
-        "garden-mcq-08": "「種植並照料植物；從事園藝」與本句語境不同。",
-        "garden-mcq-10": "「種植、照料植物的人；可指職業園丁或園藝愛好者」與本句語境不同。",
-        "garden-mcq-07": "「住宅周圍的戶外花園／院子，尤其有植物的部分」與本句語境不同。",
-        "garden-mcq-11": "「售賣植物、花盆、泥土、工具等園藝用品的零售場所」與本句語境不同。",
-        "garden-mcq-06": "「設於建築物屋頂的植物種植／休憩空間」與本句語境不同。"
+        "garden-mcq-09": "本句的「Gardening」指「種植、照料花草蔬果及整理花園的活動」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-09"
     },
@@ -934,11 +836,9 @@ export default {
       "masked": "He took up ____ after retirement.",
       "options": [
         "garden-mcq-09",
-        "garden-mcq-08",
-        "garden-mcq-10",
-        "garden-mcq-07",
-        "garden-mcq-11",
-        "garden-mcq-06"
+        "garden-mcq-16",
+        "garden-mcq-15",
+        "garden-mcq-04"
       ],
       "explanation": "本句的「gardening」指「種植、照料花草蔬果及整理花園的活動」。",
       "sentenceIndex": 18,
@@ -947,12 +847,10 @@ export default {
         "gardening"
       ],
       "optionReasons": {
-        "garden-mcq-09": "本句指「種植、照料花草蔬果及整理花園的活動」。",
-        "garden-mcq-08": "「種植並照料植物；從事園藝」與本句語境不同。",
-        "garden-mcq-10": "「種植、照料植物的人；可指職業園丁或園藝愛好者」與本句語境不同。",
-        "garden-mcq-07": "「住宅周圍的戶外花園／院子，尤其有植物的部分」與本句語境不同。",
-        "garden-mcq-11": "「售賣植物、花盆、泥土、工具等園藝用品的零售場所」與本句語境不同。",
-        "garden-mcq-06": "「設於建築物屋頂的植物種植／休憩空間」與本句語境不同。"
+        "garden-mcq-09": "本句的「gardening」指「種植、照料花草蔬果及整理花園的活動」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-09"
     },
@@ -964,11 +862,9 @@ export default {
       "masked": "She is an experienced ____.",
       "options": [
         "garden-mcq-10",
-        "garden-mcq-09",
-        "garden-mcq-11",
-        "garden-mcq-08",
-        "garden-mcq-12",
-        "garden-mcq-07"
+        "garden-mcq-16",
+        "garden-mcq-15",
+        "garden-mcq-02"
       ],
       "explanation": "本句的「gardener」指「種植、照料植物的人；可指職業園丁或園藝愛好者」。",
       "sentenceIndex": 19,
@@ -977,12 +873,10 @@ export default {
         "gardener"
       ],
       "optionReasons": {
-        "garden-mcq-10": "本句指「種植、照料植物的人；可指職業園丁或園藝愛好者」。",
-        "garden-mcq-09": "「種植、照料花草蔬果及整理花園的活動」與本句語境不同。",
-        "garden-mcq-11": "「售賣植物、花盆、泥土、工具等園藝用品的零售場所」與本句語境不同。",
-        "garden-mcq-08": "「種植並照料植物；從事園藝」與本句語境不同。",
-        "garden-mcq-12": "「供花園、露台等戶外地方使用的家具」與本句語境不同。",
-        "garden-mcq-07": "「住宅周圍的戶外花園／院子，尤其有植物的部分」與本句語境不同。"
+        "garden-mcq-10": "本句的「gardener」指「種植、照料植物的人；可指職業園丁或園藝愛好者」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-10"
     },
@@ -994,11 +888,9 @@ export default {
       "masked": "The ____ trimmed the bushes.",
       "options": [
         "garden-mcq-10",
-        "garden-mcq-09",
-        "garden-mcq-11",
-        "garden-mcq-08",
-        "garden-mcq-12",
-        "garden-mcq-07"
+        "garden-mcq-16",
+        "garden-mcq-15",
+        "garden-mcq-02"
       ],
       "explanation": "本句的「gardener」指「種植、照料植物的人；可指職業園丁或園藝愛好者」。",
       "sentenceIndex": 20,
@@ -1007,12 +899,10 @@ export default {
         "gardener"
       ],
       "optionReasons": {
-        "garden-mcq-10": "本句指「種植、照料植物的人；可指職業園丁或園藝愛好者」。",
-        "garden-mcq-09": "「種植、照料花草蔬果及整理花園的活動」與本句語境不同。",
-        "garden-mcq-11": "「售賣植物、花盆、泥土、工具等園藝用品的零售場所」與本句語境不同。",
-        "garden-mcq-08": "「種植並照料植物；從事園藝」與本句語境不同。",
-        "garden-mcq-12": "「供花園、露台等戶外地方使用的家具」與本句語境不同。",
-        "garden-mcq-07": "「住宅周圍的戶外花園／院子，尤其有植物的部分」與本句語境不同。"
+        "garden-mcq-10": "本句的「gardener」指「種植、照料植物的人；可指職業園丁或園藝愛好者」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-10"
     },
@@ -1024,11 +914,9 @@ export default {
       "masked": "We bought soil and pots at the ____.",
       "options": [
         "garden-mcq-11",
-        "garden-mcq-10",
-        "garden-mcq-12",
-        "garden-mcq-09",
-        "garden-mcq-13",
-        "garden-mcq-08"
+        "garden-mcq-15",
+        "garden-mcq-16",
+        "garden-mcq-17"
       ],
       "explanation": "本句的「garden centre」指「售賣植物、花盆、泥土、工具等園藝用品的零售場所」。",
       "sentenceIndex": 21,
@@ -1037,12 +925,10 @@ export default {
         "garden centre"
       ],
       "optionReasons": {
-        "garden-mcq-11": "本句指「售賣植物、花盆、泥土、工具等園藝用品的零售場所」。",
-        "garden-mcq-10": "「種植、照料植物的人；可指職業園丁或園藝愛好者」與本句語境不同。",
-        "garden-mcq-12": "「供花園、露台等戶外地方使用的家具」與本句語境不同。",
-        "garden-mcq-09": "「種植、照料花草蔬果及整理花園的活動」與本句語境不同。",
-        "garden-mcq-13": "「花園內用來存放園藝工具、設備等的小型建築」與本句語境不同。",
-        "garden-mcq-08": "「種植並照料植物；從事園藝」與本句語境不同。"
+        "garden-mcq-11": "本句的「garden centre」指「售賣植物、花盆、泥土、工具等園藝用品的零售場所」。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-11"
     },
@@ -1054,11 +940,9 @@ export default {
       "masked": "The ____ centre sells plants, tools, and outdoor furniture.",
       "options": [
         "garden-mcq-11",
-        "garden-mcq-10",
-        "garden-mcq-12",
-        "garden-mcq-09",
-        "garden-mcq-13",
-        "garden-mcq-08"
+        "garden-mcq-15",
+        "garden-mcq-16",
+        "garden-mcq-02"
       ],
       "explanation": "本句的「garden」指「售賣植物、花盆、泥土、工具等園藝用品的零售場所」。",
       "sentenceIndex": 22,
@@ -1067,12 +951,10 @@ export default {
         "garden"
       ],
       "optionReasons": {
-        "garden-mcq-11": "本句指「售賣植物、花盆、泥土、工具等園藝用品的零售場所」。",
-        "garden-mcq-10": "「種植、照料植物的人；可指職業園丁或園藝愛好者」與本句語境不同。",
-        "garden-mcq-12": "「供花園、露台等戶外地方使用的家具」與本句語境不同。",
-        "garden-mcq-09": "「種植、照料花草蔬果及整理花園的活動」與本句語境不同。",
-        "garden-mcq-13": "「花園內用來存放園藝工具、設備等的小型建築」與本句語境不同。",
-        "garden-mcq-08": "「種植並照料植物；從事園藝」與本句語境不同。"
+        "garden-mcq-11": "本句的「garden」指「售賣植物、花盆、泥土、工具等園藝用品的零售場所」。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-11"
     },
@@ -1084,11 +966,9 @@ export default {
       "masked": "They bought new ____.",
       "options": [
         "garden-mcq-12",
-        "garden-mcq-11",
-        "garden-mcq-13",
+        "garden-mcq-16",
         "garden-mcq-10",
-        "garden-mcq-14",
-        "garden-mcq-09"
+        "garden-mcq-02"
       ],
       "explanation": "本句的「garden furniture」指「供花園、露台等戶外地方使用的家具」。",
       "sentenceIndex": 23,
@@ -1097,12 +977,10 @@ export default {
         "garden furniture"
       ],
       "optionReasons": {
-        "garden-mcq-12": "本句指「供花園、露台等戶外地方使用的家具」。",
-        "garden-mcq-11": "「售賣植物、花盆、泥土、工具等園藝用品的零售場所」與本句語境不同。",
-        "garden-mcq-13": "「花園內用來存放園藝工具、設備等的小型建築」與本句語境不同。",
-        "garden-mcq-10": "「種植、照料植物的人；可指職業園丁或園藝愛好者」與本句語境不同。",
-        "garden-mcq-14": "「在花園／草地舉行的戶外社交聚會」與本句語境不同。",
-        "garden-mcq-09": "「種植、照料花草蔬果及整理花園的活動」與本句語境不同。"
+        "garden-mcq-12": "本句的「garden furniture」指「供花園、露台等戶外地方使用的家具」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-12"
     },
@@ -1114,11 +992,9 @@ export default {
       "masked": "The ____ furniture is made from weather-resistant wood.",
       "options": [
         "garden-mcq-12",
-        "garden-mcq-11",
-        "garden-mcq-13",
+        "garden-mcq-16",
         "garden-mcq-10",
-        "garden-mcq-14",
-        "garden-mcq-09"
+        "garden-mcq-02"
       ],
       "explanation": "本句的「garden」指「供花園、露台等戶外地方使用的家具」。",
       "sentenceIndex": 24,
@@ -1127,12 +1003,10 @@ export default {
         "garden"
       ],
       "optionReasons": {
-        "garden-mcq-12": "本句指「供花園、露台等戶外地方使用的家具」。",
-        "garden-mcq-11": "「售賣植物、花盆、泥土、工具等園藝用品的零售場所」與本句語境不同。",
-        "garden-mcq-13": "「花園內用來存放園藝工具、設備等的小型建築」與本句語境不同。",
-        "garden-mcq-10": "「種植、照料植物的人；可指職業園丁或園藝愛好者」與本句語境不同。",
-        "garden-mcq-14": "「在花園／草地舉行的戶外社交聚會」與本句語境不同。",
-        "garden-mcq-09": "「種植、照料花草蔬果及整理花園的活動」與本句語境不同。"
+        "garden-mcq-12": "本句的「garden」指「供花園、露台等戶外地方使用的家具」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-12"
     },
@@ -1144,11 +1018,8 @@ export default {
       "masked": "The tools are kept in the ____.",
       "options": [
         "garden-mcq-13",
-        "garden-mcq-12",
-        "garden-mcq-14",
-        "garden-mcq-11",
         "garden-mcq-15",
-        "garden-mcq-10"
+        "garden-mcq-03"
       ],
       "explanation": "本句的「garden shed」指「花園內用來存放園藝工具、設備等的小型建築」。",
       "sentenceIndex": 25,
@@ -1157,12 +1028,9 @@ export default {
         "garden shed"
       ],
       "optionReasons": {
-        "garden-mcq-13": "本句指「花園內用來存放園藝工具、設備等的小型建築」。",
-        "garden-mcq-12": "「供花園、露台等戶外地方使用的家具」與本句語境不同。",
-        "garden-mcq-14": "「在花園／草地舉行的戶外社交聚會」與本句語境不同。",
-        "garden-mcq-11": "「售賣植物、花盆、泥土、工具等園藝用品的零售場所」與本句語境不同。",
-        "garden-mcq-15": "「酒吧／餐廳外供顧客飲食的戶外座位區」與本句語境不同。",
-        "garden-mcq-10": "「種植、照料植物的人；可指職業園丁或園藝愛好者」與本句語境不同。"
+        "garden-mcq-13": "本句的「garden shed」指「花園內用來存放園藝工具、設備等的小型建築」。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-13"
     },
@@ -1174,11 +1042,9 @@ export default {
       "masked": "He built a small ____ shed behind the house.",
       "options": [
         "garden-mcq-13",
-        "garden-mcq-12",
-        "garden-mcq-14",
-        "garden-mcq-11",
+        "garden-mcq-16",
         "garden-mcq-15",
-        "garden-mcq-10"
+        "garden-mcq-02"
       ],
       "explanation": "本句的「garden」指「花園內用來存放園藝工具、設備等的小型建築」。",
       "sentenceIndex": 26,
@@ -1187,12 +1053,10 @@ export default {
         "garden"
       ],
       "optionReasons": {
-        "garden-mcq-13": "本句指「花園內用來存放園藝工具、設備等的小型建築」。",
-        "garden-mcq-12": "「供花園、露台等戶外地方使用的家具」與本句語境不同。",
-        "garden-mcq-14": "「在花園／草地舉行的戶外社交聚會」與本句語境不同。",
-        "garden-mcq-11": "「售賣植物、花盆、泥土、工具等園藝用品的零售場所」與本句語境不同。",
-        "garden-mcq-15": "「酒吧／餐廳外供顧客飲食的戶外座位區」與本句語境不同。",
-        "garden-mcq-10": "「種植、照料植物的人；可指職業園丁或園藝愛好者」與本句語境不同。"
+        "garden-mcq-13": "本句的「garden」指「花園內用來存放園藝工具、設備等的小型建築」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-13"
     },
@@ -1204,11 +1068,9 @@ export default {
       "masked": "They held a ____ in the afternoon.",
       "options": [
         "garden-mcq-14",
-        "garden-mcq-13",
-        "garden-mcq-15",
-        "garden-mcq-12",
         "garden-mcq-16",
-        "garden-mcq-11"
+        "garden-mcq-08",
+        "garden-mcq-02"
       ],
       "explanation": "本句的「garden party」指「在花園／草地舉行的戶外社交聚會」。",
       "sentenceIndex": 27,
@@ -1217,12 +1079,10 @@ export default {
         "garden party"
       ],
       "optionReasons": {
-        "garden-mcq-14": "本句指「在花園／草地舉行的戶外社交聚會」。",
-        "garden-mcq-13": "「花園內用來存放園藝工具、設備等的小型建築」與本句語境不同。",
-        "garden-mcq-15": "「酒吧／餐廳外供顧客飲食的戶外座位區」與本句語境不同。",
-        "garden-mcq-12": "「供花園、露台等戶外地方使用的家具」與本句語境不同。",
-        "garden-mcq-16": "「普通、常見、沒有特別之處的」與本句語境不同。",
-        "garden-mcq-11": "「售賣植物、花盆、泥土、工具等園藝用品的零售場所」與本句語境不同。"
+        "garden-mcq-14": "本句的「garden party」指「在花園／草地舉行的戶外社交聚會」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-14"
     },
@@ -1234,11 +1094,7 @@ export default {
       "masked": "Guests gathered on the lawn for the ____ party.",
       "options": [
         "garden-mcq-14",
-        "garden-mcq-13",
-        "garden-mcq-15",
-        "garden-mcq-12",
-        "garden-mcq-16",
-        "garden-mcq-11"
+        "garden-mcq-03"
       ],
       "explanation": "本句的「garden」指「在花園／草地舉行的戶外社交聚會」。",
       "sentenceIndex": 28,
@@ -1247,12 +1103,8 @@ export default {
         "garden"
       ],
       "optionReasons": {
-        "garden-mcq-14": "本句指「在花園／草地舉行的戶外社交聚會」。",
-        "garden-mcq-13": "「花園內用來存放園藝工具、設備等的小型建築」與本句語境不同。",
-        "garden-mcq-15": "「酒吧／餐廳外供顧客飲食的戶外座位區」與本句語境不同。",
-        "garden-mcq-12": "「供花園、露台等戶外地方使用的家具」與本句語境不同。",
-        "garden-mcq-16": "「普通、常見、沒有特別之處的」與本句語境不同。",
-        "garden-mcq-11": "「售賣植物、花盆、泥土、工具等園藝用品的零售場所」與本句語境不同。"
+        "garden-mcq-14": "本句的「garden」指「在花園／草地舉行的戶外社交聚會」。",
+        "garden-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-14"
     },
@@ -1264,11 +1116,9 @@ export default {
       "masked": "We sat in the pub’s ____.",
       "options": [
         "garden-mcq-15",
-        "garden-mcq-14",
         "garden-mcq-16",
-        "garden-mcq-13",
-        "garden-mcq-17",
-        "garden-mcq-12"
+        "garden-mcq-08",
+        "garden-mcq-17"
       ],
       "explanation": "本句的「beer garden」指「酒吧／餐廳外供顧客飲食的戶外座位區」。",
       "sentenceIndex": 29,
@@ -1277,12 +1127,10 @@ export default {
         "beer garden"
       ],
       "optionReasons": {
-        "garden-mcq-15": "本句指「酒吧／餐廳外供顧客飲食的戶外座位區」。",
-        "garden-mcq-14": "「在花園／草地舉行的戶外社交聚會」與本句語境不同。",
-        "garden-mcq-16": "「普通、常見、沒有特別之處的」與本句語境不同。",
-        "garden-mcq-13": "「花園內用來存放園藝工具、設備等的小型建築」與本句語境不同。",
-        "garden-mcq-17": "「專名中的 Garden；未必仍指真正花園」與本句語境不同。",
-        "garden-mcq-12": "「供花園、露台等戶外地方使用的家具」與本句語境不同。"
+        "garden-mcq-15": "本句的「beer garden」指「酒吧／餐廳外供顧客飲食的戶外座位區」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-15"
     },
@@ -1294,11 +1142,9 @@ export default {
       "masked": "The beer ____ gets very busy in summer.",
       "options": [
         "garden-mcq-15",
-        "garden-mcq-14",
         "garden-mcq-16",
         "garden-mcq-13",
-        "garden-mcq-17",
-        "garden-mcq-12"
+        "garden-mcq-02"
       ],
       "explanation": "本句的「garden」指「酒吧／餐廳外供顧客飲食的戶外座位區」。",
       "sentenceIndex": 30,
@@ -1307,12 +1153,10 @@ export default {
         "garden"
       ],
       "optionReasons": {
-        "garden-mcq-15": "本句指「酒吧／餐廳外供顧客飲食的戶外座位區」。",
-        "garden-mcq-14": "「在花園／草地舉行的戶外社交聚會」與本句語境不同。",
-        "garden-mcq-16": "「普通、常見、沒有特別之處的」與本句語境不同。",
-        "garden-mcq-13": "「花園內用來存放園藝工具、設備等的小型建築」與本句語境不同。",
-        "garden-mcq-17": "「專名中的 Garden；未必仍指真正花園」與本句語境不同。",
-        "garden-mcq-12": "「供花園、露台等戶外地方使用的家具」與本句語境不同。"
+        "garden-mcq-15": "本句的「garden」指「酒吧／餐廳外供顧客飲食的戶外座位區」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-15"
     },
@@ -1324,11 +1168,9 @@ export default {
       "masked": "It was just a ____ mistake.",
       "options": [
         "garden-mcq-16",
-        "garden-mcq-15",
-        "garden-mcq-17",
-        "garden-mcq-14",
-        "garden-mcq-13",
-        "garden-mcq-12"
+        "garden-mcq-08",
+        "garden-mcq-12",
+        "garden-mcq-02"
       ],
       "explanation": "本句的「garden-variety」指「普通、常見、沒有特別之處的」。",
       "sentenceIndex": 31,
@@ -1337,12 +1179,10 @@ export default {
         "garden-variety"
       ],
       "optionReasons": {
-        "garden-mcq-16": "本句指「普通、常見、沒有特別之處的」。",
-        "garden-mcq-15": "「酒吧／餐廳外供顧客飲食的戶外座位區」與本句語境不同。",
-        "garden-mcq-17": "「專名中的 Garden；未必仍指真正花園」與本句語境不同。",
-        "garden-mcq-14": "「在花園／草地舉行的戶外社交聚會」與本句語境不同。",
-        "garden-mcq-13": "「花園內用來存放園藝工具、設備等的小型建築」與本句語境不同。",
-        "garden-mcq-12": "「供花園、露台等戶外地方使用的家具」與本句語境不同。"
+        "garden-mcq-16": "本句的「garden-variety」指「普通、常見、沒有特別之處的」。",
+        "garden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-16"
     },
@@ -1354,11 +1194,9 @@ export default {
       "masked": "The problem turned out to be a ____ software bug.",
       "options": [
         "garden-mcq-16",
-        "garden-mcq-15",
-        "garden-mcq-17",
         "garden-mcq-14",
-        "garden-mcq-13",
-        "garden-mcq-12"
+        "garden-mcq-11",
+        "garden-mcq-05"
       ],
       "explanation": "本句的「garden-variety」指「普通、常見、沒有特別之處的」。",
       "sentenceIndex": 32,
@@ -1367,12 +1205,10 @@ export default {
         "garden-variety"
       ],
       "optionReasons": {
-        "garden-mcq-16": "本句指「普通、常見、沒有特別之處的」。",
-        "garden-mcq-15": "「酒吧／餐廳外供顧客飲食的戶外座位區」與本句語境不同。",
-        "garden-mcq-17": "「專名中的 Garden；未必仍指真正花園」與本句語境不同。",
-        "garden-mcq-14": "「在花園／草地舉行的戶外社交聚會」與本句語境不同。",
-        "garden-mcq-13": "「花園內用來存放園藝工具、設備等的小型建築」與本句語境不同。",
-        "garden-mcq-12": "「供花園、露台等戶外地方使用的家具」與本句語境不同。"
+        "garden-mcq-16": "本句的「garden-variety」指「普通、常見、沒有特別之處的」。",
+        "garden-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-16"
     },
@@ -1386,9 +1222,7 @@ export default {
         "garden-mcq-17",
         "garden-mcq-16",
         "garden-mcq-15",
-        "garden-mcq-14",
-        "garden-mcq-13",
-        "garden-mcq-12"
+        "garden-mcq-04"
       ],
       "explanation": "本句的「Garden」指「專名中的 Garden；未必仍指真正花園」。",
       "sentenceIndex": 33,
@@ -1397,12 +1231,10 @@ export default {
         "Garden"
       ],
       "optionReasons": {
-        "garden-mcq-17": "本句指「專名中的 Garden；未必仍指真正花園」。",
-        "garden-mcq-16": "「普通、常見、沒有特別之處的」與本句語境不同。",
-        "garden-mcq-15": "「酒吧／餐廳外供顧客飲食的戶外座位區」與本句語境不同。",
-        "garden-mcq-14": "「在花園／草地舉行的戶外社交聚會」與本句語境不同。",
-        "garden-mcq-13": "「花園內用來存放園藝工具、設備等的小型建築」與本句語境不同。",
-        "garden-mcq-12": "「供花園、露台等戶外地方使用的家具」與本句語境不同。"
+        "garden-mcq-17": "本句的「Garden」指「專名中的 Garden；未必仍指真正花園」。",
+        "garden-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-17"
     },
@@ -1414,11 +1246,8 @@ export default {
       "masked": "Some place names retain ‘____’ even when the modern site is not a literal garden.",
       "options": [
         "garden-mcq-17",
-        "garden-mcq-16",
-        "garden-mcq-15",
-        "garden-mcq-14",
-        "garden-mcq-13",
-        "garden-mcq-12"
+        "garden-mcq-06",
+        "garden-mcq-15"
       ],
       "explanation": "本句的「Garden」指「專名中的 Garden；未必仍指真正花園」。",
       "sentenceIndex": 34,
@@ -1427,12 +1256,9 @@ export default {
         "Garden"
       ],
       "optionReasons": {
-        "garden-mcq-17": "本句指「專名中的 Garden；未必仍指真正花園」。",
-        "garden-mcq-16": "「普通、常見、沒有特別之處的」與本句語境不同。",
-        "garden-mcq-15": "「酒吧／餐廳外供顧客飲食的戶外座位區」與本句語境不同。",
-        "garden-mcq-14": "「在花園／草地舉行的戶外社交聚會」與本句語境不同。",
-        "garden-mcq-13": "「花園內用來存放園藝工具、設備等的小型建築」與本句語境不同。",
-        "garden-mcq-12": "「供花園、露台等戶外地方使用的家具」與本句語境不同。"
+        "garden-mcq-17": "本句的「Garden」指「專名中的 Garden；未必仍指真正花園」。",
+        "garden-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "garden-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "garden-mcq-17"
     }
@@ -1444,5 +1270,7 @@ export default {
     "sha256": "36cb65c19d7b59c07980419ed10f5ad461da1eb6c3fda5bd7e606eb5785f5689",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

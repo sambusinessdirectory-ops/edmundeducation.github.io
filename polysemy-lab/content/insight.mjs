@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "insight-mcq-07",
-      "title": "表示深入了解",
+      "title": "深入了解",
       "form": "Useful construction: gain insight into — 深入了解",
       "en": "Useful construction: gain insight into — 深入了解",
       "zh": "表示深入了解",
@@ -156,7 +156,7 @@ export default {
     },
     {
       "id": "insight-mcq-08",
-      "title": "表示提供洞察",
+      "title": "提供洞察",
       "form": "Useful construction: provide/offer insight into — 提供洞察",
       "en": "Useful construction: provide/offer insight into — 提供洞察",
       "zh": "表示提供洞察",
@@ -181,11 +181,7 @@ export default {
       "masked": "The book seems to combine knowledge with ____.",
       "options": [
         "insight-mcq-01",
-        "insight-mcq-02",
-        "insight-mcq-03",
-        "insight-mcq-04",
-        "insight-mcq-05",
-        "insight-mcq-06"
+        "insight-mcq-08"
       ],
       "explanation": "本句的「insight」指「不只是知道表面資訊，而是能深入理解事情背後的原因、結構或意義」。",
       "sentenceIndex": 0,
@@ -194,12 +190,8 @@ export default {
         "insight"
       ],
       "optionReasons": {
-        "insight-mcq-01": "本句指「不只是知道表面資訊，而是能深入理解事情背後的原因、結構或意義」。",
-        "insight-mcq-02": "「某一個能幫助人更深入理解問題的新發現、觀察或領悟」是「an insight = a particular new understanding or realization（具體領悟）」的用法，與本句語境不同。",
-        "insight-mcq-03": "「對某人的思想、動機、性格或行為有深入理解」是「insight into someone = understanding of thoughts/motives（人物）」的用法，與本句語境不同。",
-        "insight-mcq-04": "「突然看懂問題本質，或開始清楚理解自己／某個情況」是「insight = sudden realization in psychology/learning（心理／學習）」的用法，與本句語境不同。",
-        "insight-mcq-05": "「能顯示深入理解，或能令別人看清事情本質的」是「Related form: insightful」的用法，與本句語境不同。",
-        "insight-mcq-06": "「以有洞察力、深入而清晰的方式」是「Related form: insightfully」的用法，與本句語境不同。"
+        "insight-mcq-01": "本句的「insight」指「不只是知道表面資訊，而是能深入理解事情背後的原因、結構或意義」。",
+        "insight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insight-mcq-01"
     },
@@ -211,11 +203,7 @@ export default {
       "masked": "Her experience gave her valuable ____ into the problem.",
       "options": [
         "insight-mcq-01",
-        "insight-mcq-02",
-        "insight-mcq-03",
-        "insight-mcq-04",
-        "insight-mcq-05",
-        "insight-mcq-06"
+        "insight-mcq-08"
       ],
       "explanation": "本句的「insight」指「不只是知道表面資訊，而是能深入理解事情背後的原因、結構或意義」。",
       "sentenceIndex": 1,
@@ -224,12 +212,8 @@ export default {
         "insight"
       ],
       "optionReasons": {
-        "insight-mcq-01": "本句指「不只是知道表面資訊，而是能深入理解事情背後的原因、結構或意義」。",
-        "insight-mcq-02": "「某一個能幫助人更深入理解問題的新發現、觀察或領悟」是「an insight = a particular new understanding or realization（具體領悟）」的用法，與本句語境不同。",
-        "insight-mcq-03": "「對某人的思想、動機、性格或行為有深入理解」是「insight into someone = understanding of thoughts/motives（人物）」的用法，與本句語境不同。",
-        "insight-mcq-04": "「突然看懂問題本質，或開始清楚理解自己／某個情況」是「insight = sudden realization in psychology/learning（心理／學習）」的用法，與本句語境不同。",
-        "insight-mcq-05": "「能顯示深入理解，或能令別人看清事情本質的」是「Related form: insightful」的用法，與本句語境不同。",
-        "insight-mcq-06": "「以有洞察力、深入而清晰的方式」是「Related form: insightfully」的用法，與本句語境不同。"
+        "insight-mcq-01": "本句的「insight」指「不只是知道表面資訊，而是能深入理解事情背後的原因、結構或意義」。",
+        "insight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insight-mcq-01"
     },
@@ -241,11 +225,7 @@ export default {
       "masked": "The documentary offers real ____ into how the industry works.",
       "options": [
         "insight-mcq-01",
-        "insight-mcq-02",
-        "insight-mcq-03",
-        "insight-mcq-04",
-        "insight-mcq-05",
-        "insight-mcq-06"
+        "insight-mcq-08"
       ],
       "explanation": "本句的「insight」指「不只是知道表面資訊，而是能深入理解事情背後的原因、結構或意義」。",
       "sentenceIndex": 2,
@@ -254,12 +234,8 @@ export default {
         "insight"
       ],
       "optionReasons": {
-        "insight-mcq-01": "本句指「不只是知道表面資訊，而是能深入理解事情背後的原因、結構或意義」。",
-        "insight-mcq-02": "「某一個能幫助人更深入理解問題的新發現、觀察或領悟」是「an insight = a particular new understanding or realization（具體領悟）」的用法，與本句語境不同。",
-        "insight-mcq-03": "「對某人的思想、動機、性格或行為有深入理解」是「insight into someone = understanding of thoughts/motives（人物）」的用法，與本句語境不同。",
-        "insight-mcq-04": "「突然看懂問題本質，或開始清楚理解自己／某個情況」是「insight = sudden realization in psychology/learning（心理／學習）」的用法，與本句語境不同。",
-        "insight-mcq-05": "「能顯示深入理解，或能令別人看清事情本質的」是「Related form: insightful」的用法，與本句語境不同。",
-        "insight-mcq-06": "「以有洞察力、深入而清晰的方式」是「Related form: insightfully」的用法，與本句語境不同。"
+        "insight-mcq-01": "本句的「insight」指「不只是知道表面資訊，而是能深入理解事情背後的原因、結構或意義」。",
+        "insight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insight-mcq-01"
     },
@@ -271,11 +247,7 @@ export default {
       "masked": "The study produced several important ____.",
       "options": [
         "insight-mcq-02",
-        "insight-mcq-01",
-        "insight-mcq-03",
-        "insight-mcq-04",
-        "insight-mcq-05",
-        "insight-mcq-06"
+        "insight-mcq-08"
       ],
       "explanation": "本句的「insights」指「某一個能幫助人更深入理解問題的新發現、觀察或領悟」。",
       "sentenceIndex": 3,
@@ -284,12 +256,8 @@ export default {
         "insights"
       ],
       "optionReasons": {
-        "insight-mcq-02": "本句指「某一個能幫助人更深入理解問題的新發現、觀察或領悟」。",
-        "insight-mcq-01": "「不只是知道表面資訊，而是能深入理解事情背後的原因、結構或意義」是「insight = deep understanding（深入理解）」的用法，與本句語境不同。",
-        "insight-mcq-03": "「對某人的思想、動機、性格或行為有深入理解」是「insight into someone = understanding of thoughts/motives（人物）」的用法，與本句語境不同。",
-        "insight-mcq-04": "「突然看懂問題本質，或開始清楚理解自己／某個情況」是「insight = sudden realization in psychology/learning（心理／學習）」的用法，與本句語境不同。",
-        "insight-mcq-05": "「能顯示深入理解，或能令別人看清事情本質的」是「Related form: insightful」的用法，與本句語境不同。",
-        "insight-mcq-06": "「以有洞察力、深入而清晰的方式」是「Related form: insightfully」的用法，與本句語境不同。"
+        "insight-mcq-02": "本句的「insights」指「某一個能幫助人更深入理解問題的新發現、觀察或領悟」。",
+        "insight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insight-mcq-02"
     },
@@ -301,11 +269,7 @@ export default {
       "masked": "She shared an interesting ____ about human behaviour.",
       "options": [
         "insight-mcq-02",
-        "insight-mcq-01",
-        "insight-mcq-03",
-        "insight-mcq-04",
-        "insight-mcq-05",
-        "insight-mcq-06"
+        "insight-mcq-08"
       ],
       "explanation": "本句的「insight」指「某一個能幫助人更深入理解問題的新發現、觀察或領悟」。",
       "sentenceIndex": 4,
@@ -314,12 +278,8 @@ export default {
         "insight"
       ],
       "optionReasons": {
-        "insight-mcq-02": "本句指「某一個能幫助人更深入理解問題的新發現、觀察或領悟」。",
-        "insight-mcq-01": "「不只是知道表面資訊，而是能深入理解事情背後的原因、結構或意義」是「insight = deep understanding（深入理解）」的用法，與本句語境不同。",
-        "insight-mcq-03": "「對某人的思想、動機、性格或行為有深入理解」是「insight into someone = understanding of thoughts/motives（人物）」的用法，與本句語境不同。",
-        "insight-mcq-04": "「突然看懂問題本質，或開始清楚理解自己／某個情況」是「insight = sudden realization in psychology/learning（心理／學習）」的用法，與本句語境不同。",
-        "insight-mcq-05": "「能顯示深入理解，或能令別人看清事情本質的」是「Related form: insightful」的用法，與本句語境不同。",
-        "insight-mcq-06": "「以有洞察力、深入而清晰的方式」是「Related form: insightfully」的用法，與本句語境不同。"
+        "insight-mcq-02": "本句的「insight」指「某一個能幫助人更深入理解問題的新發現、觀察或領悟」。",
+        "insight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insight-mcq-02"
     },
@@ -331,11 +291,7 @@ export default {
       "masked": "The interview gave us ____ into her thinking.",
       "options": [
         "insight-mcq-03",
-        "insight-mcq-02",
-        "insight-mcq-04",
-        "insight-mcq-01",
-        "insight-mcq-05",
-        "insight-mcq-06"
+        "insight-mcq-08"
       ],
       "explanation": "本句的「insight」指「對某人的思想、動機、性格或行為有深入理解」。",
       "sentenceIndex": 5,
@@ -344,12 +300,8 @@ export default {
         "insight"
       ],
       "optionReasons": {
-        "insight-mcq-03": "本句指「對某人的思想、動機、性格或行為有深入理解」。",
-        "insight-mcq-02": "「某一個能幫助人更深入理解問題的新發現、觀察或領悟」是「an insight = a particular new understanding or realization（具體領悟）」的用法，與本句語境不同。",
-        "insight-mcq-04": "「突然看懂問題本質，或開始清楚理解自己／某個情況」是「insight = sudden realization in psychology/learning（心理／學習）」的用法，與本句語境不同。",
-        "insight-mcq-01": "「不只是知道表面資訊，而是能深入理解事情背後的原因、結構或意義」是「insight = deep understanding（深入理解）」的用法，與本句語境不同。",
-        "insight-mcq-05": "「能顯示深入理解，或能令別人看清事情本質的」是「Related form: insightful」的用法，與本句語境不同。",
-        "insight-mcq-06": "「以有洞察力、深入而清晰的方式」是「Related form: insightfully」的用法，與本句語境不同。"
+        "insight-mcq-03": "本句的「insight」指「對某人的思想、動機、性格或行為有深入理解」。",
+        "insight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insight-mcq-03"
     },
@@ -361,11 +313,7 @@ export default {
       "masked": "He has remarkable ____ into human behaviour.",
       "options": [
         "insight-mcq-03",
-        "insight-mcq-02",
-        "insight-mcq-04",
-        "insight-mcq-01",
-        "insight-mcq-05",
-        "insight-mcq-06"
+        "insight-mcq-08"
       ],
       "explanation": "本句的「insight」指「對某人的思想、動機、性格或行為有深入理解」。",
       "sentenceIndex": 6,
@@ -374,12 +322,8 @@ export default {
         "insight"
       ],
       "optionReasons": {
-        "insight-mcq-03": "本句指「對某人的思想、動機、性格或行為有深入理解」。",
-        "insight-mcq-02": "「某一個能幫助人更深入理解問題的新發現、觀察或領悟」是「an insight = a particular new understanding or realization（具體領悟）」的用法，與本句語境不同。",
-        "insight-mcq-04": "「突然看懂問題本質，或開始清楚理解自己／某個情況」是「insight = sudden realization in psychology/learning（心理／學習）」的用法，與本句語境不同。",
-        "insight-mcq-01": "「不只是知道表面資訊，而是能深入理解事情背後的原因、結構或意義」是「insight = deep understanding（深入理解）」的用法，與本句語境不同。",
-        "insight-mcq-05": "「能顯示深入理解，或能令別人看清事情本質的」是「Related form: insightful」的用法，與本句語境不同。",
-        "insight-mcq-06": "「以有洞察力、深入而清晰的方式」是「Related form: insightfully」的用法，與本句語境不同。"
+        "insight-mcq-03": "本句的「insight」指「對某人的思想、動機、性格或行為有深入理解」。",
+        "insight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insight-mcq-03"
     },
@@ -391,11 +335,7 @@ export default {
       "masked": "The solution came through a sudden ____.",
       "options": [
         "insight-mcq-04",
-        "insight-mcq-03",
-        "insight-mcq-05",
-        "insight-mcq-02",
-        "insight-mcq-06",
-        "insight-mcq-01"
+        "insight-mcq-08"
       ],
       "explanation": "本句的「insight」指「突然看懂問題本質，或開始清楚理解自己／某個情況」。",
       "sentenceIndex": 7,
@@ -404,12 +344,8 @@ export default {
         "insight"
       ],
       "optionReasons": {
-        "insight-mcq-04": "本句指「突然看懂問題本質，或開始清楚理解自己／某個情況」。",
-        "insight-mcq-03": "「對某人的思想、動機、性格或行為有深入理解」是「insight into someone = understanding of thoughts/motives（人物）」的用法，與本句語境不同。",
-        "insight-mcq-05": "「能顯示深入理解，或能令別人看清事情本質的」是「Related form: insightful」的用法，與本句語境不同。",
-        "insight-mcq-02": "「某一個能幫助人更深入理解問題的新發現、觀察或領悟」是「an insight = a particular new understanding or realization（具體領悟）」的用法，與本句語境不同。",
-        "insight-mcq-06": "「以有洞察力、深入而清晰的方式」是「Related form: insightfully」的用法，與本句語境不同。",
-        "insight-mcq-01": "「不只是知道表面資訊，而是能深入理解事情背後的原因、結構或意義」是「insight = deep understanding（深入理解）」的用法，與本句語境不同。"
+        "insight-mcq-04": "本句的「insight」指「突然看懂問題本質，或開始清楚理解自己／某個情況」。",
+        "insight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insight-mcq-04"
     },
@@ -421,11 +357,7 @@ export default {
       "masked": "The patient gained new ____ into his own behaviour.",
       "options": [
         "insight-mcq-04",
-        "insight-mcq-03",
-        "insight-mcq-05",
-        "insight-mcq-02",
-        "insight-mcq-06",
-        "insight-mcq-01"
+        "insight-mcq-08"
       ],
       "explanation": "本句的「insight」指「突然看懂問題本質，或開始清楚理解自己／某個情況」。",
       "sentenceIndex": 8,
@@ -434,12 +366,8 @@ export default {
         "insight"
       ],
       "optionReasons": {
-        "insight-mcq-04": "本句指「突然看懂問題本質，或開始清楚理解自己／某個情況」。",
-        "insight-mcq-03": "「對某人的思想、動機、性格或行為有深入理解」是「insight into someone = understanding of thoughts/motives（人物）」的用法，與本句語境不同。",
-        "insight-mcq-05": "「能顯示深入理解，或能令別人看清事情本質的」是「Related form: insightful」的用法，與本句語境不同。",
-        "insight-mcq-02": "「某一個能幫助人更深入理解問題的新發現、觀察或領悟」是「an insight = a particular new understanding or realization（具體領悟）」的用法，與本句語境不同。",
-        "insight-mcq-06": "「以有洞察力、深入而清晰的方式」是「Related form: insightfully」的用法，與本句語境不同。",
-        "insight-mcq-01": "「不只是知道表面資訊，而是能深入理解事情背後的原因、結構或意義」是「insight = deep understanding（深入理解）」的用法，與本句語境不同。"
+        "insight-mcq-04": "本句的「insight」指「突然看懂問題本質，或開始清楚理解自己／某個情況」。",
+        "insight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insight-mcq-04"
     },
@@ -451,11 +379,7 @@ export default {
       "masked": "She made an ____ comment.",
       "options": [
         "insight-mcq-05",
-        "insight-mcq-04",
-        "insight-mcq-06",
-        "insight-mcq-03",
-        "insight-mcq-07",
-        "insight-mcq-02"
+        "insight-mcq-08"
       ],
       "explanation": "本句的「insightful」指「能顯示深入理解，或能令別人看清事情本質的」。",
       "sentenceIndex": 9,
@@ -464,12 +388,8 @@ export default {
         "insightful"
       ],
       "optionReasons": {
-        "insight-mcq-05": "本句指「能顯示深入理解，或能令別人看清事情本質的」。",
-        "insight-mcq-04": "「突然看懂問題本質，或開始清楚理解自己／某個情況」是「insight = sudden realization in psychology/learning（心理／學習）」的用法，與本句語境不同。",
-        "insight-mcq-06": "「以有洞察力、深入而清晰的方式」是「Related form: insightfully」的用法，與本句語境不同。",
-        "insight-mcq-03": "「對某人的思想、動機、性格或行為有深入理解」是「insight into someone = understanding of thoughts/motives（人物）」的用法，與本句語境不同。",
-        "insight-mcq-07": "「表示深入了解」是「Useful construction: gain insight into — 深入了解」的用法，與本句語境不同。",
-        "insight-mcq-02": "「某一個能幫助人更深入理解問題的新發現、觀察或領悟」是「an insight = a particular new understanding or realization（具體領悟）」的用法，與本句語境不同。"
+        "insight-mcq-05": "本句的「insightful」指「能顯示深入理解，或能令別人看清事情本質的」。",
+        "insight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insight-mcq-05"
     },
@@ -481,11 +401,7 @@ export default {
       "masked": "The book is both readable and ____.",
       "options": [
         "insight-mcq-05",
-        "insight-mcq-04",
-        "insight-mcq-06",
-        "insight-mcq-03",
-        "insight-mcq-07",
-        "insight-mcq-02"
+        "insight-mcq-08"
       ],
       "explanation": "本句的「insightful」指「能顯示深入理解，或能令別人看清事情本質的」。",
       "sentenceIndex": 10,
@@ -494,12 +410,8 @@ export default {
         "insightful"
       ],
       "optionReasons": {
-        "insight-mcq-05": "本句指「能顯示深入理解，或能令別人看清事情本質的」。",
-        "insight-mcq-04": "「突然看懂問題本質，或開始清楚理解自己／某個情況」是「insight = sudden realization in psychology/learning（心理／學習）」的用法，與本句語境不同。",
-        "insight-mcq-06": "「以有洞察力、深入而清晰的方式」是「Related form: insightfully」的用法，與本句語境不同。",
-        "insight-mcq-03": "「對某人的思想、動機、性格或行為有深入理解」是「insight into someone = understanding of thoughts/motives（人物）」的用法，與本句語境不同。",
-        "insight-mcq-07": "「表示深入了解」是「Useful construction: gain insight into — 深入了解」的用法，與本句語境不同。",
-        "insight-mcq-02": "「某一個能幫助人更深入理解問題的新發現、觀察或領悟」是「an insight = a particular new understanding or realization（具體領悟）」的用法，與本句語境不同。"
+        "insight-mcq-05": "本句的「insightful」指「能顯示深入理解，或能令別人看清事情本質的」。",
+        "insight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insight-mcq-05"
     },
@@ -511,11 +423,7 @@ export default {
       "masked": "He wrote ____ about modern society.",
       "options": [
         "insight-mcq-06",
-        "insight-mcq-05",
-        "insight-mcq-07",
-        "insight-mcq-04",
-        "insight-mcq-08",
-        "insight-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「insightfully」指「以有洞察力、深入而清晰的方式」。",
       "sentenceIndex": 11,
@@ -524,12 +432,8 @@ export default {
         "insightfully"
       ],
       "optionReasons": {
-        "insight-mcq-06": "本句指「以有洞察力、深入而清晰的方式」。",
-        "insight-mcq-05": "「能顯示深入理解，或能令別人看清事情本質的」是「Related form: insightful」的用法，與本句語境不同。",
-        "insight-mcq-07": "「表示深入了解」是「Useful construction: gain insight into — 深入了解」的用法，與本句語境不同。",
-        "insight-mcq-04": "「突然看懂問題本質，或開始清楚理解自己／某個情況」是「insight = sudden realization in psychology/learning（心理／學習）」的用法，與本句語境不同。",
-        "insight-mcq-08": "「表示提供洞察」是「Useful construction: provide/offer insight into — 提供洞察」的用法，與本句語境不同。",
-        "insight-mcq-03": "「對某人的思想、動機、性格或行為有深入理解」是「insight into someone = understanding of thoughts/motives（人物）」的用法，與本句語境不同。"
+        "insight-mcq-06": "本句的「insightfully」指「以有洞察力、深入而清晰的方式」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insight-mcq-06"
     },
@@ -541,11 +445,7 @@ export default {
       "masked": "The course helped me gain ____ into the subject.",
       "options": [
         "insight-mcq-07",
-        "insight-mcq-06",
-        "insight-mcq-08",
-        "insight-mcq-05",
-        "insight-mcq-04",
-        "insight-mcq-03"
+        "insight-mcq-08"
       ],
       "explanation": "本句的「insight」指「表示深入了解」。",
       "sentenceIndex": 12,
@@ -554,12 +454,8 @@ export default {
         "insight"
       ],
       "optionReasons": {
-        "insight-mcq-07": "本句指「表示深入了解」。",
-        "insight-mcq-06": "「以有洞察力、深入而清晰的方式」是「Related form: insightfully」的用法，與本句語境不同。",
-        "insight-mcq-08": "「表示提供洞察」是「Useful construction: provide/offer insight into — 提供洞察」的用法，與本句語境不同。",
-        "insight-mcq-05": "「能顯示深入理解，或能令別人看清事情本質的」是「Related form: insightful」的用法，與本句語境不同。",
-        "insight-mcq-04": "「突然看懂問題本質，或開始清楚理解自己／某個情況」是「insight = sudden realization in psychology/learning（心理／學習）」的用法，與本句語境不同。",
-        "insight-mcq-03": "「對某人的思想、動機、性格或行為有深入理解」是「insight into someone = understanding of thoughts/motives（人物）」的用法，與本句語境不同。"
+        "insight-mcq-07": "本句的「insight」指「表示深入了解」。",
+        "insight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insight-mcq-07"
     },
@@ -571,11 +467,7 @@ export default {
       "masked": "The research offers ____ into consumer behaviour.",
       "options": [
         "insight-mcq-08",
-        "insight-mcq-07",
-        "insight-mcq-06",
-        "insight-mcq-05",
-        "insight-mcq-04",
-        "insight-mcq-03"
+        "insight-mcq-01"
       ],
       "explanation": "本句的「insight」指「表示提供洞察」。",
       "sentenceIndex": 13,
@@ -584,12 +476,8 @@ export default {
         "insight"
       ],
       "optionReasons": {
-        "insight-mcq-08": "本句指「表示提供洞察」。",
-        "insight-mcq-07": "「表示深入了解」是「Useful construction: gain insight into — 深入了解」的用法，與本句語境不同。",
-        "insight-mcq-06": "「以有洞察力、深入而清晰的方式」是「Related form: insightfully」的用法，與本句語境不同。",
-        "insight-mcq-05": "「能顯示深入理解，或能令別人看清事情本質的」是「Related form: insightful」的用法，與本句語境不同。",
-        "insight-mcq-04": "「突然看懂問題本質，或開始清楚理解自己／某個情況」是「insight = sudden realization in psychology/learning（心理／學習）」的用法，與本句語境不同。",
-        "insight-mcq-03": "「對某人的思想、動機、性格或行為有深入理解」是「insight into someone = understanding of thoughts/motives（人物）」的用法，與本句語境不同。"
+        "insight-mcq-08": "本句的「insight」指「表示提供洞察」。",
+        "insight-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insight-mcq-08"
     }
@@ -601,5 +489,12 @@ export default {
     "sha256": "e323f2d55716a89640e5abe56eb40ece6a84b5fe2271563a356aed9e980876b1",
     "pages": 9
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -361,11 +361,8 @@ export default {
       "masked": "He may become a designer, an ____, or something completely different.",
       "options": [
         "engineer-mcq-01",
-        "engineer-mcq-02",
-        "engineer-mcq-03",
-        "engineer-mcq-04",
-        "engineer-mcq-05",
-        "engineer-mcq-06"
+        "engineer-mcq-14",
+        "engineer-mcq-11"
       ],
       "explanation": "本句的「engineer」指「工程師」。",
       "sentenceIndex": 0,
@@ -374,12 +371,9 @@ export default {
         "engineer"
       ],
       "optionReasons": {
-        "engineer-mcq-01": "本句指「工程師」。",
-        "engineer-mcq-02": "「土木工程師」與本句語境不同。",
-        "engineer-mcq-03": "「結構工程師」與本句語境不同。",
-        "engineer-mcq-04": "「機械工程師」與本句語境不同。",
-        "engineer-mcq-05": "「電機／電氣工程師」與本句語境不同。",
-        "engineer-mcq-06": "「軟件工程師」與本句語境不同。"
+        "engineer-mcq-01": "本句的「engineer」指「工程師」。",
+        "engineer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-01"
     },
@@ -391,11 +385,8 @@ export default {
       "masked": "She works as an ____ for a technology company.",
       "options": [
         "engineer-mcq-01",
-        "engineer-mcq-02",
-        "engineer-mcq-03",
-        "engineer-mcq-04",
-        "engineer-mcq-05",
-        "engineer-mcq-06"
+        "engineer-mcq-11",
+        "engineer-pdf-001"
       ],
       "explanation": "本句的「engineer」指「工程師」。",
       "sentenceIndex": 1,
@@ -404,12 +395,9 @@ export default {
         "engineer"
       ],
       "optionReasons": {
-        "engineer-mcq-01": "本句指「工程師」。",
-        "engineer-mcq-02": "「土木工程師」與本句語境不同。",
-        "engineer-mcq-03": "「結構工程師」與本句語境不同。",
-        "engineer-mcq-04": "「機械工程師」與本句語境不同。",
-        "engineer-mcq-05": "「電機／電氣工程師」與本句語境不同。",
-        "engineer-mcq-06": "「軟件工程師」與本句語境不同。"
+        "engineer-mcq-01": "本句的「engineer」指「工程師」。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "engineer-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-01"
     },
@@ -421,11 +409,8 @@ export default {
       "masked": "A good ____ needs both technical knowledge and problem-solving skills.",
       "options": [
         "engineer-mcq-01",
-        "engineer-mcq-02",
-        "engineer-mcq-03",
-        "engineer-mcq-04",
-        "engineer-mcq-05",
-        "engineer-mcq-06"
+        "engineer-mcq-11",
+        "engineer-pdf-001"
       ],
       "explanation": "本句的「engineer」指「工程師」。",
       "sentenceIndex": 2,
@@ -434,12 +419,9 @@ export default {
         "engineer"
       ],
       "optionReasons": {
-        "engineer-mcq-01": "本句指「工程師」。",
-        "engineer-mcq-02": "「土木工程師」與本句語境不同。",
-        "engineer-mcq-03": "「結構工程師」與本句語境不同。",
-        "engineer-mcq-04": "「機械工程師」與本句語境不同。",
-        "engineer-mcq-05": "「電機／電氣工程師」與本句語境不同。",
-        "engineer-mcq-06": "「軟件工程師」與本句語境不同。"
+        "engineer-mcq-01": "本句的「engineer」指「工程師」。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "engineer-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-01"
     },
@@ -451,11 +433,8 @@ export default {
       "masked": "The bridge was designed by a team of ____.",
       "options": [
         "engineer-mcq-02",
-        "engineer-mcq-01",
-        "engineer-mcq-03",
-        "engineer-mcq-04",
-        "engineer-mcq-05",
-        "engineer-mcq-06"
+        "engineer-mcq-11",
+        "engineer-mcq-14"
       ],
       "explanation": "本句的「civil engineers」指「土木工程師」。",
       "sentenceIndex": 3,
@@ -464,12 +443,9 @@ export default {
         "civil engineers"
       ],
       "optionReasons": {
-        "engineer-mcq-02": "本句指「土木工程師」。",
-        "engineer-mcq-01": "「工程師」與本句語境不同。",
-        "engineer-mcq-03": "「結構工程師」與本句語境不同。",
-        "engineer-mcq-04": "「機械工程師」與本句語境不同。",
-        "engineer-mcq-05": "「電機／電氣工程師」與本句語境不同。",
-        "engineer-mcq-06": "「軟件工程師」與本句語境不同。"
+        "engineer-mcq-02": "本句的「civil engineers」指「土木工程師」。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-02"
     },
@@ -481,11 +457,8 @@ export default {
       "masked": "She wants to become a ____.",
       "options": [
         "engineer-mcq-02",
-        "engineer-mcq-01",
-        "engineer-mcq-03",
-        "engineer-mcq-04",
-        "engineer-mcq-05",
-        "engineer-mcq-06"
+        "engineer-mcq-11",
+        "engineer-mcq-14"
       ],
       "explanation": "本句的「civil engineer」指「土木工程師」。",
       "sentenceIndex": 4,
@@ -494,12 +467,9 @@ export default {
         "civil engineer"
       ],
       "optionReasons": {
-        "engineer-mcq-02": "本句指「土木工程師」。",
-        "engineer-mcq-01": "「工程師」與本句語境不同。",
-        "engineer-mcq-03": "「結構工程師」與本句語境不同。",
-        "engineer-mcq-04": "「機械工程師」與本句語境不同。",
-        "engineer-mcq-05": "「電機／電氣工程師」與本句語境不同。",
-        "engineer-mcq-06": "「軟件工程師」與本句語境不同。"
+        "engineer-mcq-02": "本句的「civil engineer」指「土木工程師」。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-02"
     },
@@ -511,11 +481,8 @@ export default {
       "masked": "A ____ checked whether the building was safe.",
       "options": [
         "engineer-mcq-03",
-        "engineer-mcq-02",
-        "engineer-mcq-04",
-        "engineer-mcq-01",
-        "engineer-mcq-05",
-        "engineer-mcq-06"
+        "engineer-mcq-11",
+        "engineer-pdf-001"
       ],
       "explanation": "本句的「structural engineer」指「結構工程師」。",
       "sentenceIndex": 5,
@@ -524,12 +491,9 @@ export default {
         "structural engineer"
       ],
       "optionReasons": {
-        "engineer-mcq-03": "本句指「結構工程師」。",
-        "engineer-mcq-02": "「土木工程師」與本句語境不同。",
-        "engineer-mcq-04": "「機械工程師」與本句語境不同。",
-        "engineer-mcq-01": "「工程師」與本句語境不同。",
-        "engineer-mcq-05": "「電機／電氣工程師」與本句語境不同。",
-        "engineer-mcq-06": "「軟件工程師」與本句語境不同。"
+        "engineer-mcq-03": "本句的「structural engineer」指「結構工程師」。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "engineer-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-03"
     },
@@ -541,11 +505,8 @@ export default {
       "masked": "The ____ calculated how much weight the bridge could support.",
       "options": [
         "engineer-mcq-03",
-        "engineer-mcq-02",
-        "engineer-mcq-04",
-        "engineer-mcq-01",
-        "engineer-mcq-05",
-        "engineer-mcq-06"
+        "engineer-mcq-11",
+        "engineer-pdf-001"
       ],
       "explanation": "本句的「structural engineer」指「結構工程師」。",
       "sentenceIndex": 6,
@@ -554,12 +515,9 @@ export default {
         "structural engineer"
       ],
       "optionReasons": {
-        "engineer-mcq-03": "本句指「結構工程師」。",
-        "engineer-mcq-02": "「土木工程師」與本句語境不同。",
-        "engineer-mcq-04": "「機械工程師」與本句語境不同。",
-        "engineer-mcq-01": "「工程師」與本句語境不同。",
-        "engineer-mcq-05": "「電機／電氣工程師」與本句語境不同。",
-        "engineer-mcq-06": "「軟件工程師」與本句語境不同。"
+        "engineer-mcq-03": "本句的「structural engineer」指「結構工程師」。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "engineer-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-03"
     },
@@ -571,11 +529,8 @@ export default {
       "masked": "He works as a ____.",
       "options": [
         "engineer-mcq-04",
-        "engineer-mcq-03",
-        "engineer-mcq-05",
-        "engineer-mcq-02",
-        "engineer-mcq-06",
-        "engineer-mcq-01"
+        "engineer-mcq-14",
+        "engineer-mcq-11"
       ],
       "explanation": "本句的「mechanical engineer」指「機械工程師」。",
       "sentenceIndex": 7,
@@ -584,12 +539,9 @@ export default {
         "mechanical engineer"
       ],
       "optionReasons": {
-        "engineer-mcq-04": "本句指「機械工程師」。",
-        "engineer-mcq-03": "「結構工程師」與本句語境不同。",
-        "engineer-mcq-05": "「電機／電氣工程師」與本句語境不同。",
-        "engineer-mcq-02": "「土木工程師」與本句語境不同。",
-        "engineer-mcq-06": "「軟件工程師」與本句語境不同。",
-        "engineer-mcq-01": "「工程師」與本句語境不同。"
+        "engineer-mcq-04": "本句的「mechanical engineer」指「機械工程師」。",
+        "engineer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-04"
     },
@@ -601,11 +553,8 @@ export default {
       "masked": "The ____ redesigned the cooling system.",
       "options": [
         "engineer-mcq-04",
-        "engineer-mcq-03",
-        "engineer-mcq-05",
-        "engineer-mcq-02",
-        "engineer-mcq-06",
-        "engineer-mcq-01"
+        "engineer-pdf-001",
+        "engineer-mcq-11"
       ],
       "explanation": "本句的「mechanical engineer」指「機械工程師」。",
       "sentenceIndex": 8,
@@ -614,12 +563,9 @@ export default {
         "mechanical engineer"
       ],
       "optionReasons": {
-        "engineer-mcq-04": "本句指「機械工程師」。",
-        "engineer-mcq-03": "「結構工程師」與本句語境不同。",
-        "engineer-mcq-05": "「電機／電氣工程師」與本句語境不同。",
-        "engineer-mcq-02": "「土木工程師」與本句語境不同。",
-        "engineer-mcq-06": "「軟件工程師」與本句語境不同。",
-        "engineer-mcq-01": "「工程師」與本句語境不同。"
+        "engineer-mcq-04": "本句的「mechanical engineer」指「機械工程師」。",
+        "engineer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-04"
     },
@@ -631,11 +577,8 @@ export default {
       "masked": "She is an ____.",
       "options": [
         "engineer-mcq-05",
-        "engineer-mcq-04",
-        "engineer-mcq-06",
-        "engineer-mcq-03",
-        "engineer-mcq-07",
-        "engineer-mcq-02"
+        "engineer-pdf-001",
+        "engineer-mcq-11"
       ],
       "explanation": "本句的「electrical engineer」指「電機／電氣工程師」。",
       "sentenceIndex": 9,
@@ -644,12 +587,9 @@ export default {
         "electrical engineer"
       ],
       "optionReasons": {
-        "engineer-mcq-05": "本句指「電機／電氣工程師」。",
-        "engineer-mcq-04": "「機械工程師」與本句語境不同。",
-        "engineer-mcq-06": "「軟件工程師」與本句語境不同。",
-        "engineer-mcq-03": "「結構工程師」與本句語境不同。",
-        "engineer-mcq-07": "「化學工程師」與本句語境不同。",
-        "engineer-mcq-02": "「土木工程師」與本句語境不同。"
+        "engineer-mcq-05": "本句的「electrical engineer」指「電機／電氣工程師」。",
+        "engineer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-05"
     },
@@ -661,11 +601,8 @@ export default {
       "masked": "The ____ worked on the power system.",
       "options": [
         "engineer-mcq-05",
-        "engineer-mcq-04",
-        "engineer-mcq-06",
-        "engineer-mcq-03",
-        "engineer-mcq-07",
-        "engineer-mcq-02"
+        "engineer-mcq-11",
+        "engineer-mcq-14"
       ],
       "explanation": "本句的「electrical engineers」指「電機／電氣工程師」。",
       "sentenceIndex": 10,
@@ -674,12 +611,9 @@ export default {
         "electrical engineers"
       ],
       "optionReasons": {
-        "engineer-mcq-05": "本句指「電機／電氣工程師」。",
-        "engineer-mcq-04": "「機械工程師」與本句語境不同。",
-        "engineer-mcq-06": "「軟件工程師」與本句語境不同。",
-        "engineer-mcq-03": "「結構工程師」與本句語境不同。",
-        "engineer-mcq-07": "「化學工程師」與本句語境不同。",
-        "engineer-mcq-02": "「土木工程師」與本句語境不同。"
+        "engineer-mcq-05": "本句的「electrical engineers」指「電機／電氣工程師」。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-05"
     },
@@ -691,11 +625,8 @@ export default {
       "masked": "He works as a ____.",
       "options": [
         "engineer-mcq-06",
-        "engineer-mcq-05",
-        "engineer-mcq-07",
-        "engineer-mcq-04",
-        "engineer-mcq-08",
-        "engineer-mcq-03"
+        "engineer-mcq-14",
+        "engineer-mcq-11"
       ],
       "explanation": "本句的「software engineer」指「軟件工程師」。",
       "sentenceIndex": 11,
@@ -704,12 +635,9 @@ export default {
         "software engineer"
       ],
       "optionReasons": {
-        "engineer-mcq-06": "本句指「軟件工程師」。",
-        "engineer-mcq-05": "「電機／電氣工程師」與本句語境不同。",
-        "engineer-mcq-07": "「化學工程師」與本句語境不同。",
-        "engineer-mcq-04": "「機械工程師」與本句語境不同。",
-        "engineer-mcq-08": "「工程學；工程技術」與本句語境不同。",
-        "engineer-mcq-03": "「結構工程師」與本句語境不同。"
+        "engineer-mcq-06": "本句的「software engineer」指「軟件工程師」。",
+        "engineer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-06"
     },
@@ -721,11 +649,8 @@ export default {
       "masked": "The company hired several ____ to build the new platform.",
       "options": [
         "engineer-mcq-06",
-        "engineer-mcq-05",
-        "engineer-mcq-07",
-        "engineer-mcq-04",
-        "engineer-mcq-08",
-        "engineer-mcq-03"
+        "engineer-pdf-001",
+        "engineer-mcq-11"
       ],
       "explanation": "本句的「software engineers」指「軟件工程師」。",
       "sentenceIndex": 12,
@@ -734,12 +659,9 @@ export default {
         "software engineers"
       ],
       "optionReasons": {
-        "engineer-mcq-06": "本句指「軟件工程師」。",
-        "engineer-mcq-05": "「電機／電氣工程師」與本句語境不同。",
-        "engineer-mcq-07": "「化學工程師」與本句語境不同。",
-        "engineer-mcq-04": "「機械工程師」與本句語境不同。",
-        "engineer-mcq-08": "「工程學；工程技術」與本句語境不同。",
-        "engineer-mcq-03": "「結構工程師」與本句語境不同。"
+        "engineer-mcq-06": "本句的「software engineers」指「軟件工程師」。",
+        "engineer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-06"
     },
@@ -751,11 +673,8 @@ export default {
       "masked": "She studied to become a ____.",
       "options": [
         "engineer-mcq-07",
-        "engineer-mcq-06",
-        "engineer-mcq-08",
-        "engineer-mcq-05",
-        "engineer-mcq-09",
-        "engineer-mcq-04"
+        "engineer-pdf-001",
+        "engineer-mcq-11"
       ],
       "explanation": "本句的「chemical engineer」指「化學工程師」。",
       "sentenceIndex": 13,
@@ -764,12 +683,9 @@ export default {
         "chemical engineer"
       ],
       "optionReasons": {
-        "engineer-mcq-07": "本句指「化學工程師」。",
-        "engineer-mcq-06": "「軟件工程師」與本句語境不同。",
-        "engineer-mcq-08": "「工程學；工程技術」與本句語境不同。",
-        "engineer-mcq-05": "「電機／電氣工程師」與本句語境不同。",
-        "engineer-mcq-09": "「工程項目」與本句語境不同。",
-        "engineer-mcq-04": "「機械工程師」與本句語境不同。"
+        "engineer-mcq-07": "本句的「chemical engineer」指「化學工程師」。",
+        "engineer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-07"
     },
@@ -781,11 +697,8 @@ export default {
       "masked": "____ often work on large-scale industrial processes.",
       "options": [
         "engineer-mcq-07",
-        "engineer-mcq-06",
-        "engineer-mcq-08",
-        "engineer-mcq-05",
-        "engineer-mcq-09",
-        "engineer-mcq-04"
+        "engineer-pdf-001",
+        "engineer-mcq-11"
       ],
       "explanation": "本句的「Chemical engineers」指「化學工程師」。",
       "sentenceIndex": 14,
@@ -794,12 +707,9 @@ export default {
         "Chemical engineers"
       ],
       "optionReasons": {
-        "engineer-mcq-07": "本句指「化學工程師」。",
-        "engineer-mcq-06": "「軟件工程師」與本句語境不同。",
-        "engineer-mcq-08": "「工程學；工程技術」與本句語境不同。",
-        "engineer-mcq-05": "「電機／電氣工程師」與本句語境不同。",
-        "engineer-mcq-09": "「工程項目」與本句語境不同。",
-        "engineer-mcq-04": "「機械工程師」與本句語境不同。"
+        "engineer-mcq-07": "本句的「Chemical engineers」指「化學工程師」。",
+        "engineer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-07"
     },
@@ -811,11 +721,8 @@ export default {
       "masked": "She studies ____ at university.",
       "options": [
         "engineer-mcq-08",
-        "engineer-mcq-07",
-        "engineer-mcq-09",
-        "engineer-mcq-06",
-        "engineer-mcq-10",
-        "engineer-mcq-05"
+        "engineer-mcq-14",
+        "engineer-mcq-11"
       ],
       "explanation": "本句的「engineering」指「工程學；工程技術」。",
       "sentenceIndex": 15,
@@ -824,12 +731,9 @@ export default {
         "engineering"
       ],
       "optionReasons": {
-        "engineer-mcq-08": "本句指「工程學；工程技術」。",
-        "engineer-mcq-07": "「化學工程師」與本句語境不同。",
-        "engineer-mcq-09": "「工程項目」與本句語境不同。",
-        "engineer-mcq-06": "「軟件工程師」與本句語境不同。",
-        "engineer-mcq-10": "「工程設計系統」與本句語境不同。",
-        "engineer-mcq-05": "「電機／電氣工程師」與本句語境不同。"
+        "engineer-mcq-08": "本句的「engineering」指「工程學；工程技術」。",
+        "engineer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-08"
     },
@@ -841,11 +745,8 @@ export default {
       "masked": "Modern ____ has transformed transport and communication.",
       "options": [
         "engineer-mcq-08",
-        "engineer-mcq-07",
-        "engineer-mcq-09",
-        "engineer-mcq-06",
-        "engineer-mcq-10",
-        "engineer-mcq-05"
+        "engineer-mcq-11",
+        "engineer-mcq-14"
       ],
       "explanation": "本句的「engineering」指「工程學；工程技術」。",
       "sentenceIndex": 16,
@@ -854,12 +755,9 @@ export default {
         "engineering"
       ],
       "optionReasons": {
-        "engineer-mcq-08": "本句指「工程學；工程技術」。",
-        "engineer-mcq-07": "「化學工程師」與本句語境不同。",
-        "engineer-mcq-09": "「工程項目」與本句語境不同。",
-        "engineer-mcq-06": "「軟件工程師」與本句語境不同。",
-        "engineer-mcq-10": "「工程設計系統」與本句語境不同。",
-        "engineer-mcq-05": "「電機／電氣工程師」與本句語境不同。"
+        "engineer-mcq-08": "本句的「engineering」指「工程學；工程技術」。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-08"
     },
@@ -871,11 +769,8 @@ export default {
       "masked": "The bridge is a major ____.",
       "options": [
         "engineer-mcq-09",
-        "engineer-mcq-08",
-        "engineer-mcq-10",
-        "engineer-mcq-07",
-        "engineer-mcq-11",
-        "engineer-mcq-06"
+        "engineer-pdf-001",
+        "engineer-mcq-11"
       ],
       "explanation": "本句的「engineering project」指「工程項目」。",
       "sentenceIndex": 17,
@@ -884,12 +779,9 @@ export default {
         "engineering project"
       ],
       "optionReasons": {
-        "engineer-mcq-09": "本句指「工程項目」。",
-        "engineer-mcq-08": "「工程學；工程技術」與本句語境不同。",
-        "engineer-mcq-10": "「工程設計系統」與本句語境不同。",
-        "engineer-mcq-07": "「化學工程師」與本句語境不同。",
-        "engineer-mcq-11": "「設計成能夠 X」與本句語境不同。",
-        "engineer-mcq-06": "「軟件工程師」與本句語境不同。"
+        "engineer-mcq-09": "本句的「engineering project」指「工程項目」。",
+        "engineer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-09"
     },
@@ -901,11 +793,8 @@ export default {
       "masked": "Students worked together on a small ____.",
       "options": [
         "engineer-mcq-09",
-        "engineer-mcq-08",
-        "engineer-mcq-10",
-        "engineer-mcq-07",
-        "engineer-mcq-11",
-        "engineer-mcq-06"
+        "engineer-pdf-001",
+        "engineer-mcq-11"
       ],
       "explanation": "本句的「engineering project」指「工程項目」。",
       "sentenceIndex": 18,
@@ -914,12 +803,9 @@ export default {
         "engineering project"
       ],
       "optionReasons": {
-        "engineer-mcq-09": "本句指「工程項目」。",
-        "engineer-mcq-08": "「工程學；工程技術」與本句語境不同。",
-        "engineer-mcq-10": "「工程設計系統」與本句語境不同。",
-        "engineer-mcq-07": "「化學工程師」與本句語境不同。",
-        "engineer-mcq-11": "「設計成能夠 X」與本句語境不同。",
-        "engineer-mcq-06": "「軟件工程師」與本句語境不同。"
+        "engineer-mcq-09": "本句的「engineering project」指「工程項目」。",
+        "engineer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-09"
     },
@@ -931,11 +817,7 @@ export default {
       "masked": "The system was carefully ____ for safety.",
       "options": [
         "engineer-mcq-10",
-        "engineer-mcq-09",
-        "engineer-mcq-11",
-        "engineer-mcq-08",
-        "engineer-mcq-12",
-        "engineer-mcq-07"
+        "engineer-mcq-14"
       ],
       "explanation": "本句的「engineered」指「工程設計系統」。",
       "sentenceIndex": 19,
@@ -944,12 +826,8 @@ export default {
         "engineered"
       ],
       "optionReasons": {
-        "engineer-mcq-10": "本句指「工程設計系統」。",
-        "engineer-mcq-09": "「工程項目」與本句語境不同。",
-        "engineer-mcq-11": "「設計成能夠 X」與本句語境不同。",
-        "engineer-mcq-08": "「工程學；工程技術」與本句語境不同。",
-        "engineer-mcq-12": "「工程設計材料」與本句語境不同。",
-        "engineer-mcq-07": "「化學工程師」與本句語境不同。"
+        "engineer-mcq-10": "本句的「engineered」指「工程設計系統」。",
+        "engineer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-10"
     },
@@ -961,11 +839,7 @@ export default {
       "masked": "The structure was ____.",
       "options": [
         "engineer-mcq-10",
-        "engineer-mcq-09",
-        "engineer-mcq-11",
-        "engineer-mcq-08",
-        "engineer-mcq-12",
-        "engineer-mcq-07"
+        "engineer-mcq-14"
       ],
       "explanation": "本句的「engineered to withstand strong winds」指「工程設計系統」。",
       "sentenceIndex": 20,
@@ -974,12 +848,8 @@ export default {
         "engineered to withstand strong winds"
       ],
       "optionReasons": {
-        "engineer-mcq-10": "本句指「工程設計系統」。",
-        "engineer-mcq-09": "「工程項目」與本句語境不同。",
-        "engineer-mcq-11": "「設計成能夠 X」與本句語境不同。",
-        "engineer-mcq-08": "「工程學；工程技術」與本句語境不同。",
-        "engineer-mcq-12": "「工程設計材料」與本句語境不同。",
-        "engineer-mcq-07": "「化學工程師」與本句語境不同。"
+        "engineer-mcq-10": "本句的「engineered to withstand strong winds」指「工程設計系統」。",
+        "engineer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-10"
     },
@@ -991,11 +861,8 @@ export default {
       "masked": "The material is ____.",
       "options": [
         "engineer-mcq-11",
-        "engineer-mcq-10",
-        "engineer-mcq-12",
-        "engineer-mcq-09",
-        "engineer-mcq-13",
-        "engineer-mcq-08"
+        "engineer-mcq-04",
+        "engineer-pdf-001"
       ],
       "explanation": "本句的「engineered to resist heat」指「設計成能夠 X」。",
       "sentenceIndex": 21,
@@ -1004,12 +871,9 @@ export default {
         "engineered to resist heat"
       ],
       "optionReasons": {
-        "engineer-mcq-11": "本句指「設計成能夠 X」。",
-        "engineer-mcq-10": "「工程設計系統」與本句語境不同。",
-        "engineer-mcq-12": "「工程設計材料」與本句語境不同。",
-        "engineer-mcq-09": "「工程項目」與本句語境不同。",
-        "engineer-mcq-13": "「策劃促成交易」與本句語境不同。",
-        "engineer-mcq-08": "「工程學；工程技術」與本句語境不同。"
+        "engineer-mcq-11": "本句的「engineered to resist heat」指「設計成能夠 X」。",
+        "engineer-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "engineer-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-11"
     },
@@ -1021,11 +885,8 @@ export default {
       "masked": "The device was ____.",
       "options": [
         "engineer-mcq-11",
-        "engineer-mcq-10",
-        "engineer-mcq-12",
-        "engineer-mcq-09",
-        "engineer-mcq-13",
-        "engineer-mcq-08"
+        "engineer-mcq-06",
+        "engineer-pdf-001"
       ],
       "explanation": "本句的「engineered to use less energy」指「設計成能夠 X」。",
       "sentenceIndex": 22,
@@ -1034,12 +895,9 @@ export default {
         "engineered to use less energy"
       ],
       "optionReasons": {
-        "engineer-mcq-11": "本句指「設計成能夠 X」。",
-        "engineer-mcq-10": "「工程設計系統」與本句語境不同。",
-        "engineer-mcq-12": "「工程設計材料」與本句語境不同。",
-        "engineer-mcq-09": "「工程項目」與本句語境不同。",
-        "engineer-mcq-13": "「策劃促成交易」與本句語境不同。",
-        "engineer-mcq-08": "「工程學；工程技術」與本句語境不同。"
+        "engineer-mcq-11": "本句的「engineered to use less energy」指「設計成能夠 X」。",
+        "engineer-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "engineer-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-11"
     },
@@ -1051,11 +909,7 @@ export default {
       "masked": "The floor is made from ____.",
       "options": [
         "engineer-mcq-12",
-        "engineer-mcq-11",
-        "engineer-mcq-13",
-        "engineer-mcq-10",
-        "engineer-mcq-14",
-        "engineer-mcq-09"
+        "engineer-mcq-14"
       ],
       "explanation": "本句的「engineered wood」指「工程設計材料」。",
       "sentenceIndex": 23,
@@ -1064,12 +918,8 @@ export default {
         "engineered wood"
       ],
       "optionReasons": {
-        "engineer-mcq-12": "本句指「工程設計材料」。",
-        "engineer-mcq-11": "「設計成能夠 X」與本句語境不同。",
-        "engineer-mcq-13": "「策劃促成交易」與本句語境不同。",
-        "engineer-mcq-10": "「工程設計系統」與本句語境不同。",
-        "engineer-mcq-14": "「策劃促成結果」與本句語境不同。",
-        "engineer-mcq-09": "「工程項目」與本句語境不同。"
+        "engineer-mcq-12": "本句的「engineered wood」指「工程設計材料」。",
+        "engineer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-12"
     },
@@ -1081,11 +931,7 @@ export default {
       "masked": "The company develops specially ____.",
       "options": [
         "engineer-mcq-12",
-        "engineer-mcq-11",
-        "engineer-mcq-13",
-        "engineer-mcq-10",
-        "engineer-mcq-14",
-        "engineer-mcq-09"
+        "engineer-pdf-001"
       ],
       "explanation": "本句的「engineered materials」指「工程設計材料」。",
       "sentenceIndex": 24,
@@ -1094,12 +940,8 @@ export default {
         "engineered materials"
       ],
       "optionReasons": {
-        "engineer-mcq-12": "本句指「工程設計材料」。",
-        "engineer-mcq-11": "「設計成能夠 X」與本句語境不同。",
-        "engineer-mcq-13": "「策劃促成交易」與本句語境不同。",
-        "engineer-mcq-10": "「工程設計系統」與本句語境不同。",
-        "engineer-mcq-14": "「策劃促成結果」與本句語境不同。",
-        "engineer-mcq-09": "「工程項目」與本句語境不同。"
+        "engineer-mcq-12": "本句的「engineered materials」指「工程設計材料」。",
+        "engineer-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-12"
     },
@@ -1111,11 +953,8 @@ export default {
       "masked": "He ____ between the two companies.",
       "options": [
         "engineer-mcq-14",
-        "engineer-mcq-13",
-        "engineer-mcq-15",
-        "engineer-mcq-12",
-        "engineer-mcq-11",
-        "engineer-mcq-10"
+        "engineer-mcq-06",
+        "engineer-mcq-11"
       ],
       "explanation": "本句的「engineered a deal」指「策劃促成結果」。",
       "sentenceIndex": 25,
@@ -1124,12 +963,9 @@ export default {
         "engineered a deal"
       ],
       "optionReasons": {
-        "engineer-mcq-14": "本句指「策劃促成結果」。",
-        "engineer-mcq-13": "「策劃促成交易」與本句語境不同。",
-        "engineer-mcq-15": "「逆向工程」與本句語境不同。",
-        "engineer-mcq-12": "「工程設計材料」與本句語境不同。",
-        "engineer-mcq-11": "「設計成能夠 X」與本句語境不同。",
-        "engineer-mcq-10": "「工程設計系統」與本句語境不同。"
+        "engineer-mcq-14": "本句的「engineered a deal」指「策劃促成結果」。",
+        "engineer-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-14"
     },
@@ -1141,10 +977,6 @@ export default {
       "masked": "She carefully ____ so that everyone would agree.",
       "options": [
         "engineer-mcq-14",
-        "engineer-mcq-13",
-        "engineer-mcq-15",
-        "engineer-mcq-12",
-        "engineer-mcq-11",
         "engineer-mcq-10"
       ],
       "explanation": "本句的「engineered the situation」指「策劃促成結果」。",
@@ -1154,12 +986,8 @@ export default {
         "engineered the situation"
       ],
       "optionReasons": {
-        "engineer-mcq-14": "本句指「策劃促成結果」。",
-        "engineer-mcq-13": "「策劃促成交易」與本句語境不同。",
-        "engineer-mcq-15": "「逆向工程」與本句語境不同。",
-        "engineer-mcq-12": "「工程設計材料」與本句語境不同。",
-        "engineer-mcq-11": "「設計成能夠 X」與本句語境不同。",
-        "engineer-mcq-10": "「工程設計系統」與本句語境不同。"
+        "engineer-mcq-14": "本句的「engineered the situation」指「策劃促成結果」。",
+        "engineer-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-14"
     },
@@ -1171,11 +999,8 @@ export default {
       "masked": "The coach ____ with a clever tactical change.",
       "options": [
         "engineer-pdf-001",
-        "engineer-mcq-13",
-        "engineer-mcq-15",
-        "engineer-mcq-12",
-        "engineer-mcq-11",
-        "engineer-mcq-10"
+        "engineer-mcq-01",
+        "engineer-mcq-11"
       ],
       "explanation": "本句的「engineered the team's victory」指「有意策劃並操控事情，使某個結果發生」。",
       "sentenceIndex": 27,
@@ -1184,12 +1009,9 @@ export default {
         "engineered the team's victory"
       ],
       "optionReasons": {
-        "engineer-pdf-001": "本句指「有意策劃並操控事情，使某個結果發生」。",
-        "engineer-mcq-13": "「策劃促成交易」與本句語境不同。",
-        "engineer-mcq-15": "「逆向工程」與本句語境不同。",
-        "engineer-mcq-12": "「工程設計材料」與本句語境不同。",
-        "engineer-mcq-11": "「設計成能夠 X」與本句語境不同。",
-        "engineer-mcq-10": "「工程設計系統」與本句語境不同。"
+        "engineer-pdf-001": "本句的「engineered the team's victory」指「有意策劃並操控事情，使某個結果發生」。",
+        "engineer-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-pdf-001"
     },
@@ -1201,11 +1023,8 @@ export default {
       "masked": "They were accused of ____ from the position.",
       "options": [
         "engineer-pdf-001",
-        "engineer-mcq-13",
-        "engineer-mcq-15",
-        "engineer-mcq-12",
-        "engineer-mcq-11",
-        "engineer-mcq-10"
+        "engineer-mcq-01",
+        "engineer-mcq-11"
       ],
       "explanation": "本句的「engineering his removal」指「有意策劃並操控事情，使某個結果發生」。",
       "sentenceIndex": 28,
@@ -1214,12 +1033,9 @@ export default {
         "engineering his removal"
       ],
       "optionReasons": {
-        "engineer-pdf-001": "本句指「有意策劃並操控事情，使某個結果發生」。",
-        "engineer-mcq-13": "「策劃促成交易」與本句語境不同。",
-        "engineer-mcq-15": "「逆向工程」與本句語境不同。",
-        "engineer-mcq-12": "「工程設計材料」與本句語境不同。",
-        "engineer-mcq-11": "「設計成能夠 X」與本句語境不同。",
-        "engineer-mcq-10": "「工程設計系統」與本句語境不同。"
+        "engineer-pdf-001": "本句的「engineering his removal」指「有意策劃並操控事情，使某個結果發生」。",
+        "engineer-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-pdf-001"
     },
@@ -1231,11 +1047,8 @@ export default {
       "masked": "The team used ____ to understand how the device worked.",
       "options": [
         "engineer-mcq-15",
-        "engineer-mcq-14",
-        "engineer-mcq-13",
-        "engineer-mcq-12",
         "engineer-mcq-11",
-        "engineer-mcq-10"
+        "engineer-mcq-14"
       ],
       "explanation": "本句的「reverse engineering」指「逆向工程」。",
       "sentenceIndex": 29,
@@ -1244,12 +1057,9 @@ export default {
         "reverse engineering"
       ],
       "optionReasons": {
-        "engineer-mcq-15": "本句指「逆向工程」。",
-        "engineer-mcq-14": "「策劃促成結果」與本句語境不同。",
-        "engineer-mcq-13": "「策劃促成交易」與本句語境不同。",
-        "engineer-mcq-12": "「工程設計材料」與本句語境不同。",
-        "engineer-mcq-11": "「設計成能夠 X」與本句語境不同。",
-        "engineer-mcq-10": "「工程設計系統」與本句語境不同。"
+        "engineer-mcq-15": "本句的「reverse engineering」指「逆向工程」。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-15"
     },
@@ -1261,11 +1071,8 @@ export default {
       "masked": "____ can reveal the structure of a complex system.",
       "options": [
         "engineer-mcq-15",
-        "engineer-mcq-14",
-        "engineer-mcq-13",
-        "engineer-mcq-12",
         "engineer-mcq-11",
-        "engineer-mcq-10"
+        "engineer-mcq-14"
       ],
       "explanation": "本句的「Reverse engineering」指「逆向工程」。",
       "sentenceIndex": 30,
@@ -1274,12 +1081,9 @@ export default {
         "Reverse engineering"
       ],
       "optionReasons": {
-        "engineer-mcq-15": "本句指「逆向工程」。",
-        "engineer-mcq-14": "「策劃促成結果」與本句語境不同。",
-        "engineer-mcq-13": "「策劃促成交易」與本句語境不同。",
-        "engineer-mcq-12": "「工程設計材料」與本句語境不同。",
-        "engineer-mcq-11": "「設計成能夠 X」與本句語境不同。",
-        "engineer-mcq-10": "「工程設計系統」與本句語境不同。"
+        "engineer-mcq-15": "本句的「Reverse engineering」指「逆向工程」。",
+        "engineer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "engineer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "engineer-mcq-15"
     }
@@ -1291,5 +1095,7 @@ export default {
     "sha256": "f22e8a0a0a5f0e3fb0dd9ca33f1abc996b5be2c60ee551fa8614608f603ea878",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -366,11 +366,9 @@ export default {
       "masked": "它並不花巧浮誇，也不咄咄逼人，更沒有____。",
       "options": [
         "full-mcq-01",
-        "full-mcq-02",
-        "full-mcq-03",
-        "full-mcq-04",
-        "full-mcq-05",
-        "full-mcq-06"
+        "full-mcq-15",
+        "full-mcq-14",
+        "full-mcq-04"
       ],
       "explanation": "本句的「full of」指「內含大量某種東西，以致整體明顯被它佔據」。",
       "sentenceIndex": 0,
@@ -379,12 +377,10 @@ export default {
         "full of"
       ],
       "optionReasons": {
-        "full-mcq-01": "本句指「內含大量某種東西，以致整體明顯被它佔據」。",
-        "full-mcq-02": "「容量或空間已被佔滿，沒有多少剩餘位置」是「full container/space」的用法，與本句語境不同。",
-        "full-mcq-03": "「已吃到足夠食物、沒有再進食需要」是「feel full」的用法，與本句語境不同。",
-        "full-mcq-04": "「時間已被安排佔滿，沒有剩餘空檔」是「full schedule」的用法，與本句語境不同。",
-        "full-mcq-05": "「數量、內容或時間完整，沒有缺少」是「full details/year」的用法，與本句語境不同。",
-        "full-mcq-06": "「達到能力、速度或程度的最高水平」是「full speed/production」的用法，與本句語境不同。"
+        "full-mcq-01": "本句的「full of」指「內含大量某種東西，以致整體明顯被它佔據」。",
+        "full-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-01"
     },
@@ -396,11 +392,9 @@ export default {
       "masked": "房間裡____。",
       "options": [
         "full-mcq-01",
-        "full-mcq-02",
-        "full-mcq-03",
-        "full-mcq-04",
-        "full-mcq-05",
-        "full-mcq-06"
+        "full-mcq-15",
+        "full-mcq-14",
+        "full-mcq-04"
       ],
       "explanation": "本句的「full of」指「內含大量某種東西，以致整體明顯被它佔據」。",
       "sentenceIndex": 1,
@@ -409,12 +403,10 @@ export default {
         "full of"
       ],
       "optionReasons": {
-        "full-mcq-01": "本句指「內含大量某種東西，以致整體明顯被它佔據」。",
-        "full-mcq-02": "「容量或空間已被佔滿，沒有多少剩餘位置」是「full container/space」的用法，與本句語境不同。",
-        "full-mcq-03": "「已吃到足夠食物、沒有再進食需要」是「feel full」的用法，與本句語境不同。",
-        "full-mcq-04": "「時間已被安排佔滿，沒有剩餘空檔」是「full schedule」的用法，與本句語境不同。",
-        "full-mcq-05": "「數量、內容或時間完整，沒有缺少」是「full details/year」的用法，與本句語境不同。",
-        "full-mcq-06": "「達到能力、速度或程度的最高水平」是「full speed/production」的用法，與本句語境不同。"
+        "full-mcq-01": "本句的「full of」指「內含大量某種東西，以致整體明顯被它佔據」。",
+        "full-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-01"
     },
@@ -426,11 +418,9 @@ export default {
       "masked": "這份報告____。",
       "options": [
         "full-mcq-01",
-        "full-mcq-02",
-        "full-mcq-03",
-        "full-mcq-04",
-        "full-mcq-05",
-        "full-mcq-06"
+        "full-mcq-06",
+        "full-mcq-14",
+        "full-mcq-04"
       ],
       "explanation": "本句的「full of」指「內含大量某種東西，以致整體明顯被它佔據」。",
       "sentenceIndex": 2,
@@ -439,12 +429,10 @@ export default {
         "full of"
       ],
       "optionReasons": {
-        "full-mcq-01": "本句指「內含大量某種東西，以致整體明顯被它佔據」。",
-        "full-mcq-02": "「容量或空間已被佔滿，沒有多少剩餘位置」是「full container/space」的用法，與本句語境不同。",
-        "full-mcq-03": "「已吃到足夠食物、沒有再進食需要」是「feel full」的用法，與本句語境不同。",
-        "full-mcq-04": "「時間已被安排佔滿，沒有剩餘空檔」是「full schedule」的用法，與本句語境不同。",
-        "full-mcq-05": "「數量、內容或時間完整，沒有缺少」是「full details/year」的用法，與本句語境不同。",
-        "full-mcq-06": "「達到能力、速度或程度的最高水平」是「full speed/production」的用法，與本句語境不同。"
+        "full-mcq-01": "本句的「full of」指「內含大量某種東西，以致整體明顯被它佔據」。",
+        "full-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-01"
     },
@@ -456,10 +444,8 @@ export default {
       "masked": "瓶子已經____。",
       "options": [
         "full-mcq-02",
-        "full-mcq-01",
-        "full-mcq-03",
-        "full-mcq-04",
-        "full-mcq-05",
+        "full-mcq-07",
+        "full-mcq-14",
         "full-mcq-06"
       ],
       "explanation": "本句的「full」指「容量或空間已被佔滿，沒有多少剩餘位置」。",
@@ -469,12 +455,10 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-02": "本句指「容量或空間已被佔滿，沒有多少剩餘位置」。",
-        "full-mcq-01": "「內含大量某種東西，以致整體明顯被它佔據」是「full of + content」的用法，與本句語境不同。",
-        "full-mcq-03": "「已吃到足夠食物、沒有再進食需要」是「feel full」的用法，與本句語境不同。",
-        "full-mcq-04": "「時間已被安排佔滿，沒有剩餘空檔」是「full schedule」的用法，與本句語境不同。",
-        "full-mcq-05": "「數量、內容或時間完整，沒有缺少」是「full details/year」的用法，與本句語境不同。",
-        "full-mcq-06": "「達到能力、速度或程度的最高水平」是「full speed/production」的用法，與本句語境不同。"
+        "full-mcq-02": "本句的「full」指「容量或空間已被佔滿，沒有多少剩餘位置」。",
+        "full-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-02"
     },
@@ -486,11 +470,9 @@ export default {
       "masked": "停車場已經____，所以我們要泊到其他地方。",
       "options": [
         "full-mcq-02",
-        "full-mcq-01",
-        "full-mcq-03",
-        "full-mcq-04",
-        "full-mcq-05",
-        "full-mcq-06"
+        "full-mcq-11",
+        "full-mcq-06",
+        "full-mcq-14"
       ],
       "explanation": "本句的「full」指「容量或空間已被佔滿，沒有多少剩餘位置」。",
       "sentenceIndex": 4,
@@ -499,12 +481,10 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-02": "本句指「容量或空間已被佔滿，沒有多少剩餘位置」。",
-        "full-mcq-01": "「內含大量某種東西，以致整體明顯被它佔據」是「full of + content」的用法，與本句語境不同。",
-        "full-mcq-03": "「已吃到足夠食物、沒有再進食需要」是「feel full」的用法，與本句語境不同。",
-        "full-mcq-04": "「時間已被安排佔滿，沒有剩餘空檔」是「full schedule」的用法，與本句語境不同。",
-        "full-mcq-05": "「數量、內容或時間完整，沒有缺少」是「full details/year」的用法，與本句語境不同。",
-        "full-mcq-06": "「達到能力、速度或程度的最高水平」是「full speed/production」的用法，與本句語境不同。"
+        "full-mcq-02": "本句的「full」指「容量或空間已被佔滿，沒有多少剩餘位置」。",
+        "full-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-02"
     },
@@ -516,11 +496,7 @@ export default {
       "masked": "我已經____。",
       "options": [
         "full-mcq-03",
-        "full-mcq-02",
-        "full-mcq-04",
-        "full-mcq-01",
-        "full-mcq-05",
-        "full-mcq-06"
+        "full-mcq-08"
       ],
       "explanation": "本句的「full」指「已吃到足夠食物、沒有再進食需要」。",
       "sentenceIndex": 5,
@@ -529,12 +505,8 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-03": "本句指「已吃到足夠食物、沒有再進食需要」。",
-        "full-mcq-02": "「容量或空間已被佔滿，沒有多少剩餘位置」是「full container/space」的用法，與本句語境不同。",
-        "full-mcq-04": "「時間已被安排佔滿，沒有剩餘空檔」是「full schedule」的用法，與本句語境不同。",
-        "full-mcq-01": "「內含大量某種東西，以致整體明顯被它佔據」是「full of + content」的用法，與本句語境不同。",
-        "full-mcq-05": "「數量、內容或時間完整，沒有缺少」是「full details/year」的用法，與本句語境不同。",
-        "full-mcq-06": "「達到能力、速度或程度的最高水平」是「full speed/production」的用法，與本句語境不同。"
+        "full-mcq-03": "本句的「full」指「已吃到足夠食物、沒有再進食需要」。",
+        "full-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-03"
     },
@@ -546,11 +518,7 @@ export default {
       "masked": "那頓飯份量很大，我幾個小時都覺得____。",
       "options": [
         "full-mcq-03",
-        "full-mcq-02",
-        "full-mcq-04",
-        "full-mcq-01",
-        "full-mcq-05",
-        "full-mcq-06"
+        "full-mcq-08"
       ],
       "explanation": "本句的「full」指「已吃到足夠食物、沒有再進食需要」。",
       "sentenceIndex": 6,
@@ -559,12 +527,8 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-03": "本句指「已吃到足夠食物、沒有再進食需要」。",
-        "full-mcq-02": "「容量或空間已被佔滿，沒有多少剩餘位置」是「full container/space」的用法，與本句語境不同。",
-        "full-mcq-04": "「時間已被安排佔滿，沒有剩餘空檔」是「full schedule」的用法，與本句語境不同。",
-        "full-mcq-01": "「內含大量某種東西，以致整體明顯被它佔據」是「full of + content」的用法，與本句語境不同。",
-        "full-mcq-05": "「數量、內容或時間完整，沒有缺少」是「full details/year」的用法，與本句語境不同。",
-        "full-mcq-06": "「達到能力、速度或程度的最高水平」是「full speed/production」的用法，與本句語境不同。"
+        "full-mcq-03": "本句的「full」指「已吃到足夠食物、沒有再進食需要」。",
+        "full-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-03"
     },
@@ -576,11 +540,9 @@ export default {
       "masked": "我今天下午的____。",
       "options": [
         "full-mcq-04",
-        "full-mcq-03",
-        "full-mcq-05",
-        "full-mcq-02",
-        "full-mcq-06",
-        "full-mcq-01"
+        "full-mcq-07",
+        "full-mcq-14",
+        "full-mcq-06"
       ],
       "explanation": "本句的「full」指「時間已被安排佔滿，沒有剩餘空檔」。",
       "sentenceIndex": 7,
@@ -589,12 +551,10 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-04": "本句指「時間已被安排佔滿，沒有剩餘空檔」。",
-        "full-mcq-03": "「已吃到足夠食物、沒有再進食需要」是「feel full」的用法，與本句語境不同。",
-        "full-mcq-05": "「數量、內容或時間完整，沒有缺少」是「full details/year」的用法，與本句語境不同。",
-        "full-mcq-02": "「容量或空間已被佔滿，沒有多少剩餘位置」是「full container/space」的用法，與本句語境不同。",
-        "full-mcq-06": "「達到能力、速度或程度的最高水平」是「full speed/production」的用法，與本句語境不同。",
-        "full-mcq-01": "「內含大量某種東西，以致整體明顯被它佔據」是「full of + content」的用法，與本句語境不同。"
+        "full-mcq-04": "本句的「full」指「時間已被安排佔滿，沒有剩餘空檔」。",
+        "full-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-04"
     },
@@ -606,11 +566,9 @@ export default {
       "masked": "醫生今天餘下時間的____。",
       "options": [
         "full-mcq-04",
-        "full-mcq-03",
-        "full-mcq-05",
-        "full-mcq-02",
         "full-mcq-06",
-        "full-mcq-01"
+        "full-mcq-07",
+        "full-mcq-14"
       ],
       "explanation": "本句的「full」指「時間已被安排佔滿，沒有剩餘空檔」。",
       "sentenceIndex": 8,
@@ -619,12 +577,10 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-04": "本句指「時間已被安排佔滿，沒有剩餘空檔」。",
-        "full-mcq-03": "「已吃到足夠食物、沒有再進食需要」是「feel full」的用法，與本句語境不同。",
-        "full-mcq-05": "「數量、內容或時間完整，沒有缺少」是「full details/year」的用法，與本句語境不同。",
-        "full-mcq-02": "「容量或空間已被佔滿，沒有多少剩餘位置」是「full container/space」的用法，與本句語境不同。",
-        "full-mcq-06": "「達到能力、速度或程度的最高水平」是「full speed/production」的用法，與本句語境不同。",
-        "full-mcq-01": "「內含大量某種東西，以致整體明顯被它佔據」是「full of + content」的用法，與本句語境不同。"
+        "full-mcq-04": "本句的「full」指「時間已被安排佔滿，沒有剩餘空檔」。",
+        "full-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-04"
     },
@@ -636,11 +592,8 @@ export default {
       "masked": "請把____告訴我。",
       "options": [
         "full-mcq-05",
-        "full-mcq-04",
-        "full-mcq-06",
-        "full-mcq-03",
-        "full-mcq-07",
-        "full-mcq-02"
+        "full-mcq-14",
+        "full-mcq-08"
       ],
       "explanation": "本句的「full」指「數量、內容或時間完整，沒有缺少」。",
       "sentenceIndex": 9,
@@ -649,12 +602,9 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-05": "本句指「數量、內容或時間完整，沒有缺少」。",
-        "full-mcq-04": "「時間已被安排佔滿，沒有剩餘空檔」是「full schedule」的用法，與本句語境不同。",
-        "full-mcq-06": "「達到能力、速度或程度的最高水平」是「full speed/production」的用法，與本句語境不同。",
-        "full-mcq-03": "「已吃到足夠食物、沒有再進食需要」是「feel full」的用法，與本句語境不同。",
-        "full-mcq-07": "「把全部注意力、支持或投入都給予某事」是「full attention/support」的用法，與本句語境不同。",
-        "full-mcq-02": "「容量或空間已被佔滿，沒有多少剩餘位置」是「full container/space」的用法，與本句語境不同。"
+        "full-mcq-05": "本句的「full」指「數量、內容或時間完整，沒有缺少」。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-05"
     },
@@ -666,11 +616,8 @@ export default {
       "masked": "這個專案用了____才完成。",
       "options": [
         "full-mcq-05",
-        "full-mcq-04",
-        "full-mcq-06",
-        "full-mcq-03",
-        "full-mcq-07",
-        "full-mcq-02"
+        "full-mcq-14",
+        "full-mcq-08"
       ],
       "explanation": "本句的「full」指「數量、內容或時間完整，沒有缺少」。",
       "sentenceIndex": 10,
@@ -679,12 +626,9 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-05": "本句指「數量、內容或時間完整，沒有缺少」。",
-        "full-mcq-04": "「時間已被安排佔滿，沒有剩餘空檔」是「full schedule」的用法，與本句語境不同。",
-        "full-mcq-06": "「達到能力、速度或程度的最高水平」是「full speed/production」的用法，與本句語境不同。",
-        "full-mcq-03": "「已吃到足夠食物、沒有再進食需要」是「feel full」的用法，與本句語境不同。",
-        "full-mcq-07": "「把全部注意力、支持或投入都給予某事」是「full attention/support」的用法，與本句語境不同。",
-        "full-mcq-02": "「容量或空間已被佔滿，沒有多少剩餘位置」是「full container/space」的用法，與本句語境不同。"
+        "full-mcq-05": "本句的「full」指「數量、內容或時間完整，沒有缺少」。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-05"
     },
@@ -696,11 +640,9 @@ export default {
       "masked": "風扇正以____運作。",
       "options": [
         "full-mcq-06",
-        "full-mcq-05",
-        "full-mcq-07",
+        "full-mcq-11",
         "full-mcq-04",
-        "full-mcq-08",
-        "full-mcq-03"
+        "full-mcq-14"
       ],
       "explanation": "本句的「full」指「達到能力、速度或程度的最高水平」。",
       "sentenceIndex": 11,
@@ -709,12 +651,10 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-06": "本句指「達到能力、速度或程度的最高水平」。",
-        "full-mcq-05": "「數量、內容或時間完整，沒有缺少」是「full details/year」的用法，與本句語境不同。",
-        "full-mcq-07": "「把全部注意力、支持或投入都給予某事」是「full attention/support」的用法，與本句語境不同。",
-        "full-mcq-04": "「時間已被安排佔滿，沒有剩餘空檔」是「full schedule」的用法，與本句語境不同。",
-        "full-mcq-08": "「聲音渾厚、飽滿而有力量感」是「full voice/sound」的用法，與本句語境不同。",
-        "full-mcq-03": "「已吃到足夠食物、沒有再進食需要」是「feel full」的用法，與本句語境不同。"
+        "full-mcq-06": "本句的「full」指「達到能力、速度或程度的最高水平」。",
+        "full-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-06"
     },
@@ -726,11 +666,9 @@ export default {
       "masked": "公司恢復到____。",
       "options": [
         "full-mcq-06",
-        "full-mcq-05",
-        "full-mcq-07",
-        "full-mcq-04",
-        "full-mcq-08",
-        "full-mcq-03"
+        "full-mcq-01",
+        "full-mcq-02",
+        "full-mcq-14"
       ],
       "explanation": "本句的「full」指「達到能力、速度或程度的最高水平」。",
       "sentenceIndex": 12,
@@ -739,12 +677,10 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-06": "本句指「達到能力、速度或程度的最高水平」。",
-        "full-mcq-05": "「數量、內容或時間完整，沒有缺少」是「full details/year」的用法，與本句語境不同。",
-        "full-mcq-07": "「把全部注意力、支持或投入都給予某事」是「full attention/support」的用法，與本句語境不同。",
-        "full-mcq-04": "「時間已被安排佔滿，沒有剩餘空檔」是「full schedule」的用法，與本句語境不同。",
-        "full-mcq-08": "「聲音渾厚、飽滿而有力量感」是「full voice/sound」的用法，與本句語境不同。",
-        "full-mcq-03": "「已吃到足夠食物、沒有再進食需要」是「feel full」的用法，與本句語境不同。"
+        "full-mcq-06": "本句的「full」指「達到能力、速度或程度的最高水平」。",
+        "full-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-06"
     },
@@ -756,11 +692,9 @@ export default {
       "masked": "這個問題需要我們____。",
       "options": [
         "full-mcq-07",
-        "full-mcq-06",
-        "full-mcq-08",
-        "full-mcq-05",
-        "full-mcq-09",
-        "full-mcq-04"
+        "full-mcq-04",
+        "full-mcq-14",
+        "full-mcq-15"
       ],
       "explanation": "本句的「full」指「把全部注意力、支持或投入都給予某事」。",
       "sentenceIndex": 13,
@@ -769,12 +703,10 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-07": "本句指「把全部注意力、支持或投入都給予某事」。",
-        "full-mcq-06": "「達到能力、速度或程度的最高水平」是「full speed/production」的用法，與本句語境不同。",
-        "full-mcq-08": "「聲音渾厚、飽滿而有力量感」是「full voice/sound」的用法，與本句語境不同。",
-        "full-mcq-05": "「數量、內容或時間完整，沒有缺少」是「full details/year」的用法，與本句語境不同。",
-        "full-mcq-09": "「數量、厚度或形狀較充足、顯得豐滿或濃密」是「full hair/lips/shape」的用法，與本句語境不同。",
-        "full-mcq-04": "「時間已被安排佔滿，沒有剩餘空檔」是「full schedule」的用法，與本句語境不同。"
+        "full-mcq-07": "本句的「full」指「把全部注意力、支持或投入都給予某事」。",
+        "full-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-07"
     },
@@ -786,11 +718,9 @@ export default {
       "masked": "我對這項提議____。",
       "options": [
         "full-mcq-07",
-        "full-mcq-06",
-        "full-mcq-08",
-        "full-mcq-05",
-        "full-mcq-09",
-        "full-mcq-04"
+        "full-mcq-15",
+        "full-mcq-04",
+        "full-mcq-14"
       ],
       "explanation": "本句的「full」指「把全部注意力、支持或投入都給予某事」。",
       "sentenceIndex": 14,
@@ -799,12 +729,10 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-07": "本句指「把全部注意力、支持或投入都給予某事」。",
-        "full-mcq-06": "「達到能力、速度或程度的最高水平」是「full speed/production」的用法，與本句語境不同。",
-        "full-mcq-08": "「聲音渾厚、飽滿而有力量感」是「full voice/sound」的用法，與本句語境不同。",
-        "full-mcq-05": "「數量、內容或時間完整，沒有缺少」是「full details/year」的用法，與本句語境不同。",
-        "full-mcq-09": "「數量、厚度或形狀較充足、顯得豐滿或濃密」是「full hair/lips/shape」的用法，與本句語境不同。",
-        "full-mcq-04": "「時間已被安排佔滿，沒有剩餘空檔」是「full schedule」的用法，與本句語境不同。"
+        "full-mcq-07": "本句的「full」指「把全部注意力、支持或投入都給予某事」。",
+        "full-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-07"
     },
@@ -816,11 +744,9 @@ export default {
       "masked": "她的聲音____。",
       "options": [
         "full-mcq-08",
-        "full-mcq-07",
-        "full-mcq-09",
-        "full-mcq-06",
-        "full-mcq-10",
-        "full-mcq-05"
+        "full-mcq-12",
+        "full-mcq-04",
+        "full-mcq-14"
       ],
       "explanation": "本句的「full」指「聲音渾厚、飽滿而有力量感」。",
       "sentenceIndex": 15,
@@ -829,12 +755,10 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-08": "本句指「聲音渾厚、飽滿而有力量感」。",
-        "full-mcq-07": "「把全部注意力、支持或投入都給予某事」是「full attention/support」的用法，與本句語境不同。",
-        "full-mcq-09": "「數量、厚度或形狀較充足、顯得豐滿或濃密」是「full hair/lips/shape」的用法，與本句語境不同。",
-        "full-mcq-06": "「達到能力、速度或程度的最高水平」是「full speed/production」的用法，與本句語境不同。",
-        "full-mcq-10": "「月面完整被照亮、看起來圓滿的狀態」是「full moon」的用法，與本句語境不同。",
-        "full-mcq-05": "「數量、內容或時間完整，沒有缺少」是「full details/year」的用法，與本句語境不同。"
+        "full-mcq-08": "本句的「full」指「聲音渾厚、飽滿而有力量感」。",
+        "full-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-08"
     },
@@ -846,11 +770,7 @@ export default {
       "masked": "這些揚聲器能發出____。",
       "options": [
         "full-mcq-08",
-        "full-mcq-07",
-        "full-mcq-09",
-        "full-mcq-06",
-        "full-mcq-10",
-        "full-mcq-05"
+        "full-mcq-03"
       ],
       "explanation": "本句的「full」指「聲音渾厚、飽滿而有力量感」。",
       "sentenceIndex": 16,
@@ -859,12 +779,8 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-08": "本句指「聲音渾厚、飽滿而有力量感」。",
-        "full-mcq-07": "「把全部注意力、支持或投入都給予某事」是「full attention/support」的用法，與本句語境不同。",
-        "full-mcq-09": "「數量、厚度或形狀較充足、顯得豐滿或濃密」是「full hair/lips/shape」的用法，與本句語境不同。",
-        "full-mcq-06": "「達到能力、速度或程度的最高水平」是「full speed/production」的用法，與本句語境不同。",
-        "full-mcq-10": "「月面完整被照亮、看起來圓滿的狀態」是「full moon」的用法，與本句語境不同。",
-        "full-mcq-05": "「數量、內容或時間完整，沒有缺少」是「full details/year」的用法，與本句語境不同。"
+        "full-mcq-08": "本句的「full」指「聲音渾厚、飽滿而有力量感」。",
+        "full-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-08"
     },
@@ -876,11 +792,8 @@ export default {
       "masked": "她的嘴唇____。",
       "options": [
         "full-mcq-09",
-        "full-mcq-08",
-        "full-mcq-10",
-        "full-mcq-07",
-        "full-mcq-11",
-        "full-mcq-06"
+        "full-mcq-04",
+        "full-mcq-14"
       ],
       "explanation": "本句的「full」指「數量、厚度或形狀較充足、顯得豐滿或濃密」。",
       "sentenceIndex": 17,
@@ -889,12 +802,9 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-09": "本句指「數量、厚度或形狀較充足、顯得豐滿或濃密」。",
-        "full-mcq-08": "「聲音渾厚、飽滿而有力量感」是「full voice/sound」的用法，與本句語境不同。",
-        "full-mcq-10": "「月面完整被照亮、看起來圓滿的狀態」是「full moon」的用法，與本句語境不同。",
-        "full-mcq-07": "「把全部注意力、支持或投入都給予某事」是「full attention/support」的用法，與本句語境不同。",
-        "full-mcq-11": "「正式而完整地擁有某身分或權利」是「full membership/status」的用法，與本句語境不同。",
-        "full-mcq-06": "「達到能力、速度或程度的最高水平」是「full speed/production」的用法，與本句語境不同。"
+        "full-mcq-09": "本句的「full」指「數量、厚度或形狀較充足、顯得豐滿或濃密」。",
+        "full-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-09"
     },
@@ -906,11 +816,8 @@ export default {
       "masked": "他有一頭____。",
       "options": [
         "full-mcq-09",
-        "full-mcq-08",
-        "full-mcq-10",
-        "full-mcq-07",
-        "full-mcq-11",
-        "full-mcq-06"
+        "full-mcq-04",
+        "full-mcq-14"
       ],
       "explanation": "本句的「full」指「數量、厚度或形狀較充足、顯得豐滿或濃密」。",
       "sentenceIndex": 18,
@@ -919,12 +826,9 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-09": "本句指「數量、厚度或形狀較充足、顯得豐滿或濃密」。",
-        "full-mcq-08": "「聲音渾厚、飽滿而有力量感」是「full voice/sound」的用法，與本句語境不同。",
-        "full-mcq-10": "「月面完整被照亮、看起來圓滿的狀態」是「full moon」的用法，與本句語境不同。",
-        "full-mcq-07": "「把全部注意力、支持或投入都給予某事」是「full attention/support」的用法，與本句語境不同。",
-        "full-mcq-11": "「正式而完整地擁有某身分或權利」是「full membership/status」的用法，與本句語境不同。",
-        "full-mcq-06": "「達到能力、速度或程度的最高水平」是「full speed/production」的用法，與本句語境不同。"
+        "full-mcq-09": "本句的「full」指「數量、厚度或形狀較充足、顯得豐滿或濃密」。",
+        "full-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-09"
     },
@@ -936,11 +840,9 @@ export default {
       "masked": "昨晚是____。",
       "options": [
         "full-mcq-10",
-        "full-mcq-09",
-        "full-mcq-11",
-        "full-mcq-08",
-        "full-mcq-12",
-        "full-mcq-07"
+        "full-mcq-14",
+        "full-mcq-06",
+        "full-mcq-02"
       ],
       "explanation": "本句的「full」指「月面完整被照亮、看起來圓滿的狀態」。",
       "sentenceIndex": 19,
@@ -949,12 +851,10 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-10": "本句指「月面完整被照亮、看起來圓滿的狀態」。",
-        "full-mcq-09": "「數量、厚度或形狀較充足、顯得豐滿或濃密」是「full hair/lips/shape」的用法，與本句語境不同。",
-        "full-mcq-11": "「正式而完整地擁有某身分或權利」是「full membership/status」的用法，與本句語境不同。",
-        "full-mcq-08": "「聲音渾厚、飽滿而有力量感」是「full voice/sound」的用法，與本句語境不同。",
-        "full-mcq-12": "「按完整正常工時或課時進行的」是「full-time」的用法，與本句語境不同。",
-        "full-mcq-07": "「把全部注意力、支持或投入都給予某事」是「full attention/support」的用法，與本句語境不同。"
+        "full-mcq-10": "本句的「full」指「月面完整被照亮、看起來圓滿的狀態」。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-10"
     },
@@ -966,11 +866,9 @@ export default {
       "masked": "在____之下，海灘看起來很漂亮。",
       "options": [
         "full-mcq-10",
-        "full-mcq-09",
-        "full-mcq-11",
-        "full-mcq-08",
-        "full-mcq-12",
-        "full-mcq-07"
+        "full-mcq-14",
+        "full-mcq-06",
+        "full-mcq-02"
       ],
       "explanation": "本句的「full」指「月面完整被照亮、看起來圓滿的狀態」。",
       "sentenceIndex": 20,
@@ -979,12 +877,10 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-10": "本句指「月面完整被照亮、看起來圓滿的狀態」。",
-        "full-mcq-09": "「數量、厚度或形狀較充足、顯得豐滿或濃密」是「full hair/lips/shape」的用法，與本句語境不同。",
-        "full-mcq-11": "「正式而完整地擁有某身分或權利」是「full membership/status」的用法，與本句語境不同。",
-        "full-mcq-08": "「聲音渾厚、飽滿而有力量感」是「full voice/sound」的用法，與本句語境不同。",
-        "full-mcq-12": "「按完整正常工時或課時進行的」是「full-time」的用法，與本句語境不同。",
-        "full-mcq-07": "「把全部注意力、支持或投入都給予某事」是「full attention/support」的用法，與本句語境不同。"
+        "full-mcq-10": "本句的「full」指「月面完整被照亮、看起來圓滿的狀態」。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-10"
     },
@@ -996,11 +892,9 @@ export default {
       "masked": "她成為協會的____。",
       "options": [
         "full-mcq-11",
-        "full-mcq-10",
-        "full-mcq-12",
-        "full-mcq-09",
-        "full-mcq-13",
-        "full-mcq-08"
+        "full-mcq-15",
+        "full-mcq-02",
+        "full-mcq-14"
       ],
       "explanation": "本句的「full」指「正式而完整地擁有某身分或權利」。",
       "sentenceIndex": 21,
@@ -1009,12 +903,10 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-11": "本句指「正式而完整地擁有某身分或權利」。",
-        "full-mcq-10": "「月面完整被照亮、看起來圓滿的狀態」是「full moon」的用法，與本句語境不同。",
-        "full-mcq-12": "「按完整正常工時或課時進行的」是「full-time」的用法，與本句語境不同。",
-        "full-mcq-09": "「數量、厚度或形狀較充足、顯得豐滿或濃密」是「full hair/lips/shape」的用法，與本句語境不同。",
-        "full-mcq-13": "「在程度上完全、沒有不足或保留地」是「fully」的用法，與本句語境不同。",
-        "full-mcq-08": "「聲音渾厚、飽滿而有力量感」是「full voice/sound」的用法，與本句語境不同。"
+        "full-mcq-11": "本句的「full」指「正式而完整地擁有某身分或權利」。",
+        "full-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-11"
     },
@@ -1026,11 +918,9 @@ export default {
       "masked": "他獲得了____。",
       "options": [
         "full-mcq-11",
-        "full-mcq-10",
-        "full-mcq-12",
-        "full-mcq-09",
-        "full-mcq-13",
-        "full-mcq-08"
+        "full-mcq-02",
+        "full-mcq-08",
+        "full-mcq-14"
       ],
       "explanation": "本句的「full」指「正式而完整地擁有某身分或權利」。",
       "sentenceIndex": 22,
@@ -1039,12 +929,10 @@ export default {
         "full"
       ],
       "optionReasons": {
-        "full-mcq-11": "本句指「正式而完整地擁有某身分或權利」。",
-        "full-mcq-10": "「月面完整被照亮、看起來圓滿的狀態」是「full moon」的用法，與本句語境不同。",
-        "full-mcq-12": "「按完整正常工時或課時進行的」是「full-time」的用法，與本句語境不同。",
-        "full-mcq-09": "「數量、厚度或形狀較充足、顯得豐滿或濃密」是「full hair/lips/shape」的用法，與本句語境不同。",
-        "full-mcq-13": "「在程度上完全、沒有不足或保留地」是「fully」的用法，與本句語境不同。",
-        "full-mcq-08": "「聲音渾厚、飽滿而有力量感」是「full voice/sound」的用法，與本句語境不同。"
+        "full-mcq-11": "本句的「full」指「正式而完整地擁有某身分或權利」。",
+        "full-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-11"
     },
@@ -1056,11 +944,9 @@ export default {
       "masked": "她有一份____工作。",
       "options": [
         "full-mcq-12",
-        "full-mcq-11",
-        "full-mcq-13",
-        "full-mcq-10",
         "full-mcq-14",
-        "full-mcq-09"
+        "full-mcq-06",
+        "full-mcq-02"
       ],
       "explanation": "本句的「full-time」指「按完整正常工時或課時進行的」。",
       "sentenceIndex": 23,
@@ -1069,12 +955,10 @@ export default {
         "full-time"
       ],
       "optionReasons": {
-        "full-mcq-12": "本句指「按完整正常工時或課時進行的」。",
-        "full-mcq-11": "「正式而完整地擁有某身分或權利」是「full membership/status」的用法，與本句語境不同。",
-        "full-mcq-13": "「在程度上完全、沒有不足或保留地」是「fully」的用法，與本句語境不同。",
-        "full-mcq-10": "「月面完整被照亮、看起來圓滿的狀態」是「full moon」的用法，與本句語境不同。",
-        "full-mcq-14": "「吃夠食物後產生的飽足感」是「fullness — food」的用法，與本句語境不同。",
-        "full-mcq-09": "「數量、厚度或形狀較充足、顯得豐滿或濃密」是「full hair/lips/shape」的用法，與本句語境不同。"
+        "full-mcq-12": "本句的「full-time」指「按完整正常工時或課時進行的」。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-12"
     },
@@ -1086,11 +970,9 @@ export default {
       "masked": "他是一名____。",
       "options": [
         "full-mcq-12",
-        "full-mcq-11",
-        "full-mcq-13",
-        "full-mcq-10",
         "full-mcq-14",
-        "full-mcq-09"
+        "full-mcq-15",
+        "full-mcq-02"
       ],
       "explanation": "本句的「full-time」指「按完整正常工時或課時進行的」。",
       "sentenceIndex": 24,
@@ -1099,12 +981,10 @@ export default {
         "full-time"
       ],
       "optionReasons": {
-        "full-mcq-12": "本句指「按完整正常工時或課時進行的」。",
-        "full-mcq-11": "「正式而完整地擁有某身分或權利」是「full membership/status」的用法，與本句語境不同。",
-        "full-mcq-13": "「在程度上完全、沒有不足或保留地」是「fully」的用法，與本句語境不同。",
-        "full-mcq-10": "「月面完整被照亮、看起來圓滿的狀態」是「full moon」的用法，與本句語境不同。",
-        "full-mcq-14": "「吃夠食物後產生的飽足感」是「fullness — food」的用法，與本句語境不同。",
-        "full-mcq-09": "「數量、厚度或形狀較充足、顯得豐滿或濃密」是「full hair/lips/shape」的用法，與本句語境不同。"
+        "full-mcq-12": "本句的「full-time」指「按完整正常工時或課時進行的」。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-12"
     },
@@ -1116,11 +996,8 @@ export default {
       "masked": "系統現在已經____。",
       "options": [
         "full-mcq-13",
-        "full-mcq-12",
-        "full-mcq-14",
-        "full-mcq-11",
-        "full-mcq-15",
-        "full-mcq-10"
+        "full-mcq-08",
+        "full-mcq-14"
       ],
       "explanation": "本句的「fully」指「在程度上完全、沒有不足或保留地」。",
       "sentenceIndex": 25,
@@ -1129,12 +1006,9 @@ export default {
         "fully"
       ],
       "optionReasons": {
-        "full-mcq-13": "本句指「在程度上完全、沒有不足或保留地」。",
-        "full-mcq-12": "「按完整正常工時或課時進行的」是「full-time」的用法，與本句語境不同。",
-        "full-mcq-14": "「吃夠食物後產生的飽足感」是「fullness — food」的用法，與本句語境不同。",
-        "full-mcq-11": "「正式而完整地擁有某身分或權利」是「full membership/status」的用法，與本句語境不同。",
-        "full-mcq-15": "「厚度、豐富程度或飽滿感的程度」是「fullness — richness」的用法，與本句語境不同。",
-        "full-mcq-10": "「月面完整被照亮、看起來圓滿的狀態」是「full moon」的用法，與本句語境不同。"
+        "full-mcq-13": "本句的「fully」指「在程度上完全、沒有不足或保留地」。",
+        "full-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-13"
     },
@@ -1146,11 +1020,8 @@ export default {
       "masked": "我____你的擔憂。",
       "options": [
         "full-mcq-13",
-        "full-mcq-12",
-        "full-mcq-14",
-        "full-mcq-11",
-        "full-mcq-15",
-        "full-mcq-10"
+        "full-mcq-08",
+        "full-mcq-14"
       ],
       "explanation": "本句的「fully」指「在程度上完全、沒有不足或保留地」。",
       "sentenceIndex": 26,
@@ -1159,12 +1030,9 @@ export default {
         "fully"
       ],
       "optionReasons": {
-        "full-mcq-13": "本句指「在程度上完全、沒有不足或保留地」。",
-        "full-mcq-12": "「按完整正常工時或課時進行的」是「full-time」的用法，與本句語境不同。",
-        "full-mcq-14": "「吃夠食物後產生的飽足感」是「fullness — food」的用法，與本句語境不同。",
-        "full-mcq-11": "「正式而完整地擁有某身分或權利」是「full membership/status」的用法，與本句語境不同。",
-        "full-mcq-15": "「厚度、豐富程度或飽滿感的程度」是「fullness — richness」的用法，與本句語境不同。",
-        "full-mcq-10": "「月面完整被照亮、看起來圓滿的狀態」是「full moon」的用法，與本句語境不同。"
+        "full-mcq-13": "本句的「fully」指「在程度上完全、沒有不足或保留地」。",
+        "full-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-13"
     },
@@ -1176,11 +1044,9 @@ export default {
       "masked": "這頓飯令我有很強的____。",
       "options": [
         "full-mcq-14",
-        "full-mcq-13",
-        "full-mcq-15",
-        "full-mcq-12",
-        "full-mcq-11",
-        "full-mcq-10"
+        "full-mcq-01",
+        "full-mcq-02",
+        "full-mcq-06"
       ],
       "explanation": "本句的「fullness」指「吃夠食物後產生的飽足感」。",
       "sentenceIndex": 27,
@@ -1189,12 +1055,10 @@ export default {
         "fullness"
       ],
       "optionReasons": {
-        "full-mcq-14": "本句指「吃夠食物後產生的飽足感」。",
-        "full-mcq-13": "「在程度上完全、沒有不足或保留地」是「fully」的用法，與本句語境不同。",
-        "full-mcq-15": "「厚度、豐富程度或飽滿感的程度」是「fullness — richness」的用法，與本句語境不同。",
-        "full-mcq-12": "「按完整正常工時或課時進行的」是「full-time」的用法，與本句語境不同。",
-        "full-mcq-11": "「正式而完整地擁有某身分或權利」是「full membership/status」的用法，與本句語境不同。",
-        "full-mcq-10": "「月面完整被照亮、看起來圓滿的狀態」是「full moon」的用法，與本句語境不同。"
+        "full-mcq-14": "本句的「fullness」指「吃夠食物後產生的飽足感」。",
+        "full-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-14"
     },
@@ -1206,11 +1070,9 @@ export default {
       "masked": "高纖維食物可以增加____。",
       "options": [
         "full-mcq-14",
-        "full-mcq-13",
-        "full-mcq-15",
-        "full-mcq-12",
-        "full-mcq-11",
-        "full-mcq-10"
+        "full-mcq-01",
+        "full-mcq-02",
+        "full-mcq-06"
       ],
       "explanation": "本句的「fullness」指「吃夠食物後產生的飽足感」。",
       "sentenceIndex": 28,
@@ -1219,12 +1081,10 @@ export default {
         "fullness"
       ],
       "optionReasons": {
-        "full-mcq-14": "本句指「吃夠食物後產生的飽足感」。",
-        "full-mcq-13": "「在程度上完全、沒有不足或保留地」是「fully」的用法，與本句語境不同。",
-        "full-mcq-15": "「厚度、豐富程度或飽滿感的程度」是「fullness — richness」的用法，與本句語境不同。",
-        "full-mcq-12": "「按完整正常工時或課時進行的」是「full-time」的用法，與本句語境不同。",
-        "full-mcq-11": "「正式而完整地擁有某身分或權利」是「full membership/status」的用法，與本句語境不同。",
-        "full-mcq-10": "「月面完整被照亮、看起來圓滿的狀態」是「full moon」的用法，與本句語境不同。"
+        "full-mcq-14": "本句的「fullness」指「吃夠食物後產生的飽足感」。",
+        "full-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-14"
     },
@@ -1236,11 +1096,9 @@ export default {
       "masked": "這個髮型令她的頭髮看起來更有____。",
       "options": [
         "full-mcq-15",
-        "full-mcq-14",
-        "full-mcq-13",
-        "full-mcq-12",
-        "full-mcq-11",
-        "full-mcq-10"
+        "full-mcq-07",
+        "full-mcq-02",
+        "full-mcq-14"
       ],
       "explanation": "本句的「fullness」指「厚度、豐富程度或飽滿感的程度」。",
       "sentenceIndex": 29,
@@ -1249,12 +1107,10 @@ export default {
         "fullness"
       ],
       "optionReasons": {
-        "full-mcq-15": "本句指「厚度、豐富程度或飽滿感的程度」。",
-        "full-mcq-14": "「吃夠食物後產生的飽足感」是「fullness — food」的用法，與本句語境不同。",
-        "full-mcq-13": "「在程度上完全、沒有不足或保留地」是「fully」的用法，與本句語境不同。",
-        "full-mcq-12": "「按完整正常工時或課時進行的」是「full-time」的用法，與本句語境不同。",
-        "full-mcq-11": "「正式而完整地擁有某身分或權利」是「full membership/status」的用法，與本句語境不同。",
-        "full-mcq-10": "「月面完整被照亮、看起來圓滿的狀態」是「full moon」的用法，與本句語境不同。"
+        "full-mcq-15": "本句的「fullness」指「厚度、豐富程度或飽滿感的程度」。",
+        "full-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-15"
     },
@@ -1266,11 +1122,9 @@ export default {
       "masked": "這件樂器的聲音具有很明顯的____。",
       "options": [
         "full-mcq-15",
-        "full-mcq-14",
-        "full-mcq-13",
-        "full-mcq-12",
         "full-mcq-11",
-        "full-mcq-10"
+        "full-mcq-02",
+        "full-mcq-14"
       ],
       "explanation": "本句的「fullness」指「厚度、豐富程度或飽滿感的程度」。",
       "sentenceIndex": 30,
@@ -1279,12 +1133,10 @@ export default {
         "fullness"
       ],
       "optionReasons": {
-        "full-mcq-15": "本句指「厚度、豐富程度或飽滿感的程度」。",
-        "full-mcq-14": "「吃夠食物後產生的飽足感」是「fullness — food」的用法，與本句語境不同。",
-        "full-mcq-13": "「在程度上完全、沒有不足或保留地」是「fully」的用法，與本句語境不同。",
-        "full-mcq-12": "「按完整正常工時或課時進行的」是「full-time」的用法，與本句語境不同。",
-        "full-mcq-11": "「正式而完整地擁有某身分或權利」是「full membership/status」的用法，與本句語境不同。",
-        "full-mcq-10": "「月面完整被照亮、看起來圓滿的狀態」是「full moon」的用法，與本句語境不同。"
+        "full-mcq-15": "本句的「fullness」指「厚度、豐富程度或飽滿感的程度」。",
+        "full-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "full-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "full-mcq-15"
     }
@@ -1294,5 +1146,7 @@ export default {
     "sha256": "f16e0cd9bf1e6eedad22e1d804038c88f255ba41fe4ad7c363b180c769adc5d0",
     "path": "manuals/full.pdf"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

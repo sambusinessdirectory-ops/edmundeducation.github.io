@@ -350,11 +350,9 @@ export default {
       "masked": "She is a bit like an old ____.",
       "options": [
         "tree-mcq-01",
-        "tree-mcq-02",
-        "tree-mcq-03",
-        "tree-mcq-04",
-        "tree-mcq-05",
-        "tree-mcq-06"
+        "tree-mcq-11",
+        "tree-mcq-08",
+        "tree-mcq-09"
       ],
       "explanation": "本句的「tree」指「有木質主幹和枝條、通常能生長多年的大型植物」。",
       "sentenceIndex": 0,
@@ -363,12 +361,10 @@ export default {
         "tree"
       ],
       "optionReasons": {
-        "tree-mcq-01": "本句指「有木質主幹和枝條、通常能生長多年的大型植物」。",
-        "tree-mcq-02": "「能提供遮蔭、庇護或休息空間的樹木」是「tree — shade/shelter context」的用法，與本句語境不同。",
-        "tree-mcq-03": "「在比喻／文學中象徵生命、成長、穩定、根基或長久」是「tree — symbolic use」的用法，與本句語境不同。",
-        "tree-mcq-04": "「用樹狀結構表示家族世代和親屬關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。"
+        "tree-mcq-01": "本句的「tree」指「有木質主幹和枝條、通常能生長多年的大型植物」。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-01"
     },
@@ -380,11 +376,9 @@ export default {
       "masked": "There is a large ____ outside the house.",
       "options": [
         "tree-mcq-01",
-        "tree-mcq-02",
-        "tree-mcq-03",
-        "tree-mcq-04",
-        "tree-mcq-05",
-        "tree-mcq-06"
+        "tree-mcq-08",
+        "tree-mcq-11",
+        "tree-mcq-02"
       ],
       "explanation": "本句的「tree」指「有木質主幹和枝條、通常能生長多年的大型植物」。",
       "sentenceIndex": 1,
@@ -393,12 +387,10 @@ export default {
         "tree"
       ],
       "optionReasons": {
-        "tree-mcq-01": "本句指「有木質主幹和枝條、通常能生長多年的大型植物」。",
-        "tree-mcq-02": "「能提供遮蔭、庇護或休息空間的樹木」是「tree — shade/shelter context」的用法，與本句語境不同。",
-        "tree-mcq-03": "「在比喻／文學中象徵生命、成長、穩定、根基或長久」是「tree — symbolic use」的用法，與本句語境不同。",
-        "tree-mcq-04": "「用樹狀結構表示家族世代和親屬關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。"
+        "tree-mcq-01": "本句的「tree」指「有木質主幹和枝條、通常能生長多年的大型植物」。",
+        "tree-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-01"
     },
@@ -410,11 +402,9 @@ export default {
       "masked": "The children sat under the ____.",
       "options": [
         "tree-mcq-01",
-        "tree-mcq-02",
-        "tree-mcq-03",
-        "tree-mcq-04",
-        "tree-mcq-05",
-        "tree-mcq-06"
+        "tree-mcq-08",
+        "tree-mcq-11",
+        "tree-mcq-09"
       ],
       "explanation": "本句的「tree」指「有木質主幹和枝條、通常能生長多年的大型植物」。",
       "sentenceIndex": 2,
@@ -423,12 +413,10 @@ export default {
         "tree"
       ],
       "optionReasons": {
-        "tree-mcq-01": "本句指「有木質主幹和枝條、通常能生長多年的大型植物」。",
-        "tree-mcq-02": "「能提供遮蔭、庇護或休息空間的樹木」是「tree — shade/shelter context」的用法，與本句語境不同。",
-        "tree-mcq-03": "「在比喻／文學中象徵生命、成長、穩定、根基或長久」是「tree — symbolic use」的用法，與本句語境不同。",
-        "tree-mcq-04": "「用樹狀結構表示家族世代和親屬關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。"
+        "tree-mcq-01": "本句的「tree」指「有木質主幹和枝條、通常能生長多年的大型植物」。",
+        "tree-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-01"
     },
@@ -440,11 +428,9 @@ export default {
       "masked": "We sat under a ____ for shade.",
       "options": [
         "tree-mcq-02",
-        "tree-mcq-01",
+        "tree-mcq-06",
         "tree-mcq-03",
-        "tree-mcq-04",
-        "tree-mcq-05",
-        "tree-mcq-06"
+        "tree-mcq-11"
       ],
       "explanation": "本句的「tree」指「能提供遮蔭、庇護或休息空間的樹木」。",
       "sentenceIndex": 3,
@@ -453,12 +439,10 @@ export default {
         "tree"
       ],
       "optionReasons": {
-        "tree-mcq-02": "本句指「能提供遮蔭、庇護或休息空間的樹木」。",
-        "tree-mcq-01": "「有木質主幹和枝條、通常能生長多年的大型植物」是「tree — literal plant」的用法，與本句語境不同。",
-        "tree-mcq-03": "「在比喻／文學中象徵生命、成長、穩定、根基或長久」是「tree — symbolic use」的用法，與本句語境不同。",
-        "tree-mcq-04": "「用樹狀結構表示家族世代和親屬關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。"
+        "tree-mcq-02": "本句的「tree」指「能提供遮蔭、庇護或休息空間的樹木」。",
+        "tree-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-02"
     },
@@ -470,11 +454,9 @@ export default {
       "masked": "The old ____ sheltered them from the sun.",
       "options": [
         "tree-mcq-02",
-        "tree-mcq-01",
         "tree-mcq-03",
-        "tree-mcq-04",
-        "tree-mcq-05",
-        "tree-mcq-06"
+        "tree-mcq-06",
+        "tree-mcq-11"
       ],
       "explanation": "本句的「tree」指「能提供遮蔭、庇護或休息空間的樹木」。",
       "sentenceIndex": 4,
@@ -483,12 +465,10 @@ export default {
         "tree"
       ],
       "optionReasons": {
-        "tree-mcq-02": "本句指「能提供遮蔭、庇護或休息空間的樹木」。",
-        "tree-mcq-01": "「有木質主幹和枝條、通常能生長多年的大型植物」是「tree — literal plant」的用法，與本句語境不同。",
-        "tree-mcq-03": "「在比喻／文學中象徵生命、成長、穩定、根基或長久」是「tree — symbolic use」的用法，與本句語境不同。",
-        "tree-mcq-04": "「用樹狀結構表示家族世代和親屬關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。"
+        "tree-mcq-02": "本句的「tree」指「能提供遮蔭、庇護或休息空間的樹木」。",
+        "tree-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-02"
     },
@@ -500,11 +480,9 @@ export default {
       "masked": "The ____ became a symbol of strength and endurance.",
       "options": [
         "tree-mcq-03",
-        "tree-mcq-02",
-        "tree-mcq-04",
-        "tree-mcq-01",
-        "tree-mcq-05",
-        "tree-mcq-06"
+        "tree-mcq-10",
+        "tree-mcq-11",
+        "tree-mcq-09"
       ],
       "explanation": "本句的「tree」指「在比喻／文學中象徵生命、成長、穩定、根基或長久」。",
       "sentenceIndex": 5,
@@ -513,12 +491,10 @@ export default {
         "tree"
       ],
       "optionReasons": {
-        "tree-mcq-03": "本句指「在比喻／文學中象徵生命、成長、穩定、根基或長久」。",
-        "tree-mcq-02": "「能提供遮蔭、庇護或休息空間的樹木」是「tree — shade/shelter context」的用法，與本句語境不同。",
-        "tree-mcq-04": "「用樹狀結構表示家族世代和親屬關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "tree-mcq-01": "「有木質主幹和枝條、通常能生長多年的大型植物」是「tree — literal plant」的用法，與本句語境不同。",
-        "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。"
+        "tree-mcq-03": "本句的「tree」指「在比喻／文學中象徵生命、成長、穩定、根基或長久」。",
+        "tree-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-03"
     },
@@ -530,11 +506,9 @@ export default {
       "masked": "In the story, the old ____ represents stability.",
       "options": [
         "tree-mcq-03",
-        "tree-mcq-02",
-        "tree-mcq-04",
-        "tree-mcq-01",
-        "tree-mcq-05",
-        "tree-mcq-06"
+        "tree-mcq-09",
+        "tree-mcq-10",
+        "tree-mcq-11"
       ],
       "explanation": "本句的「tree」指「在比喻／文學中象徵生命、成長、穩定、根基或長久」。",
       "sentenceIndex": 6,
@@ -543,12 +517,10 @@ export default {
         "tree"
       ],
       "optionReasons": {
-        "tree-mcq-03": "本句指「在比喻／文學中象徵生命、成長、穩定、根基或長久」。",
-        "tree-mcq-02": "「能提供遮蔭、庇護或休息空間的樹木」是「tree — shade/shelter context」的用法，與本句語境不同。",
-        "tree-mcq-04": "「用樹狀結構表示家族世代和親屬關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "tree-mcq-01": "「有木質主幹和枝條、通常能生長多年的大型植物」是「tree — literal plant」的用法，與本句語境不同。",
-        "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。"
+        "tree-mcq-03": "本句的「tree」指「在比喻／文學中象徵生命、成長、穩定、根基或長久」。",
+        "tree-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-03"
     },
@@ -560,11 +532,9 @@ export default {
       "masked": "She drew a ____.",
       "options": [
         "tree-mcq-04",
-        "tree-mcq-03",
-        "tree-mcq-05",
-        "tree-mcq-02",
-        "tree-mcq-06",
-        "tree-mcq-01"
+        "tree-mcq-01",
+        "tree-mcq-11",
+        "tree-mcq-09"
       ],
       "explanation": "本句的「family tree」指「用樹狀結構表示家族世代和親屬關係的圖表」。",
       "sentenceIndex": 7,
@@ -573,12 +543,10 @@ export default {
         "family tree"
       ],
       "optionReasons": {
-        "tree-mcq-04": "本句指「用樹狀結構表示家族世代和親屬關係的圖表」。",
-        "tree-mcq-03": "「在比喻／文學中象徵生命、成長、穩定、根基或長久」是「tree — symbolic use」的用法，與本句語境不同。",
-        "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。",
-        "tree-mcq-02": "「能提供遮蔭、庇護或休息空間的樹木」是「tree — shade/shelter context」的用法，與本句語境不同。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。",
-        "tree-mcq-01": "「有木質主幹和枝條、通常能生長多年的大型植物」是「tree — literal plant」的用法，與本句語境不同。"
+        "tree-mcq-04": "本句的「family tree」指「用樹狀結構表示家族世代和親屬關係的圖表」。",
+        "tree-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-04"
     },
@@ -591,10 +559,8 @@ export default {
       "options": [
         "tree-mcq-04",
         "tree-mcq-03",
-        "tree-mcq-05",
-        "tree-mcq-02",
-        "tree-mcq-06",
-        "tree-mcq-01"
+        "tree-pdf-001",
+        "tree-mcq-02"
       ],
       "explanation": "本句的「family tree」指「用樹狀結構表示家族世代和親屬關係的圖表」。",
       "sentenceIndex": 8,
@@ -603,12 +569,10 @@ export default {
         "family tree"
       ],
       "optionReasons": {
-        "tree-mcq-04": "本句指「用樹狀結構表示家族世代和親屬關係的圖表」。",
-        "tree-mcq-03": "「在比喻／文學中象徵生命、成長、穩定、根基或長久」是「tree — symbolic use」的用法，與本句語境不同。",
-        "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。",
-        "tree-mcq-02": "「能提供遮蔭、庇護或休息空間的樹木」是「tree — shade/shelter context」的用法，與本句語境不同。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。",
-        "tree-mcq-01": "「有木質主幹和枝條、通常能生長多年的大型植物」是「tree — literal plant」的用法，與本句語境不同。"
+        "tree-mcq-04": "本句的「family tree」指「用樹狀結構表示家族世代和親屬關係的圖表」。",
+        "tree-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tree-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-04"
     },
@@ -620,11 +584,9 @@ export default {
       "masked": "The team used a ____ to compare the options.",
       "options": [
         "tree-mcq-05",
-        "tree-mcq-04",
-        "tree-mcq-06",
         "tree-mcq-03",
-        "tree-mcq-07",
-        "tree-mcq-02"
+        "tree-mcq-02",
+        "tree-mcq-11"
       ],
       "explanation": "本句的「decision tree」指「用分支結構表示選擇和可能結果的圖表／模型」。",
       "sentenceIndex": 9,
@@ -633,12 +595,10 @@ export default {
         "decision tree"
       ],
       "optionReasons": {
-        "tree-mcq-05": "本句指「用分支結構表示選擇和可能結果的圖表／模型」。",
-        "tree-mcq-04": "「用樹狀結構表示家族世代和親屬關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。",
-        "tree-mcq-03": "「在比喻／文學中象徵生命、成長、穩定、根基或長久」是「tree — symbolic use」的用法，與本句語境不同。",
-        "tree-mcq-07": "「由一個起點向下分支形成多層級關係的結構」是「tree structure」的用法，與本句語境不同。",
-        "tree-mcq-02": "「能提供遮蔭、庇護或休息空間的樹木」是「tree — shade/shelter context」的用法，與本句語境不同。"
+        "tree-mcq-05": "本句的「decision tree」指「用分支結構表示選擇和可能結果的圖表／模型」。",
+        "tree-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-05"
     },
@@ -650,11 +610,8 @@ export default {
       "masked": "A ____ can show possible outcomes.",
       "options": [
         "tree-mcq-05",
-        "tree-mcq-04",
-        "tree-mcq-06",
-        "tree-mcq-03",
-        "tree-mcq-07",
-        "tree-mcq-02"
+        "tree-mcq-12",
+        "tree-mcq-11"
       ],
       "explanation": "本句的「decision tree」指「用分支結構表示選擇和可能結果的圖表／模型」。",
       "sentenceIndex": 10,
@@ -663,12 +620,9 @@ export default {
         "decision tree"
       ],
       "optionReasons": {
-        "tree-mcq-05": "本句指「用分支結構表示選擇和可能結果的圖表／模型」。",
-        "tree-mcq-04": "「用樹狀結構表示家族世代和親屬關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。",
-        "tree-mcq-03": "「在比喻／文學中象徵生命、成長、穩定、根基或長久」是「tree — symbolic use」的用法，與本句語境不同。",
-        "tree-mcq-07": "「由一個起點向下分支形成多層級關係的結構」是「tree structure」的用法，與本句語境不同。",
-        "tree-mcq-02": "「能提供遮蔭、庇護或休息空間的樹木」是「tree — shade/shelter context」的用法，與本句語境不同。"
+        "tree-mcq-05": "本句的「decision tree」指「用分支結構表示選擇和可能結果的圖表／模型」。",
+        "tree-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-05"
     },
@@ -680,11 +634,9 @@ export default {
       "masked": "The information is shown in a ____.",
       "options": [
         "tree-mcq-06",
-        "tree-mcq-05",
-        "tree-mcq-07",
-        "tree-mcq-04",
-        "tree-mcq-08",
-        "tree-mcq-03"
+        "tree-mcq-02",
+        "tree-mcq-03",
+        "tree-mcq-11"
       ],
       "explanation": "本句的「tree diagram」指「用主幹和分支方式展示層級、分類或可能性的圖表」。",
       "sentenceIndex": 11,
@@ -693,12 +645,10 @@ export default {
         "tree diagram"
       ],
       "optionReasons": {
-        "tree-mcq-06": "本句指「用主幹和分支方式展示層級、分類或可能性的圖表」。",
-        "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。",
-        "tree-mcq-07": "「由一個起點向下分支形成多層級關係的結構」是「tree structure」的用法，與本句語境不同。",
-        "tree-mcq-04": "「用樹狀結構表示家族世代和親屬關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "tree-mcq-08": "「由節點和分支構成的階層式資料結構」是「tree — computing」的用法，與本句語境不同。",
-        "tree-mcq-03": "「在比喻／文學中象徵生命、成長、穩定、根基或長久」是「tree — symbolic use」的用法，與本句語境不同。"
+        "tree-mcq-06": "本句的「tree diagram」指「用主幹和分支方式展示層級、分類或可能性的圖表」。",
+        "tree-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-06"
     },
@@ -710,11 +660,9 @@ export default {
       "masked": "Use a ____ to organize the categories.",
       "options": [
         "tree-mcq-06",
-        "tree-mcq-05",
-        "tree-mcq-07",
-        "tree-mcq-04",
-        "tree-mcq-08",
-        "tree-mcq-03"
+        "tree-mcq-03",
+        "tree-mcq-09",
+        "tree-mcq-11"
       ],
       "explanation": "本句的「tree diagram」指「用主幹和分支方式展示層級、分類或可能性的圖表」。",
       "sentenceIndex": 12,
@@ -723,12 +671,10 @@ export default {
         "tree diagram"
       ],
       "optionReasons": {
-        "tree-mcq-06": "本句指「用主幹和分支方式展示層級、分類或可能性的圖表」。",
-        "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。",
-        "tree-mcq-07": "「由一個起點向下分支形成多層級關係的結構」是「tree structure」的用法，與本句語境不同。",
-        "tree-mcq-04": "「用樹狀結構表示家族世代和親屬關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "tree-mcq-08": "「由節點和分支構成的階層式資料結構」是「tree — computing」的用法，與本句語境不同。",
-        "tree-mcq-03": "「在比喻／文學中象徵生命、成長、穩定、根基或長久」是「tree — symbolic use」的用法，與本句語境不同。"
+        "tree-mcq-06": "本句的「tree diagram」指「用主幹和分支方式展示層級、分類或可能性的圖表」。",
+        "tree-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-06"
     },
@@ -740,11 +686,9 @@ export default {
       "masked": "The folders are organized in a ____.",
       "options": [
         "tree-mcq-07",
-        "tree-mcq-06",
-        "tree-mcq-08",
-        "tree-mcq-05",
-        "tree-mcq-09",
-        "tree-mcq-04"
+        "tree-mcq-01",
+        "tree-mcq-02",
+        "tree-mcq-11"
       ],
       "explanation": "本句的「tree structure」指「由一個起點向下分支形成多層級關係的結構」。",
       "sentenceIndex": 13,
@@ -753,12 +697,10 @@ export default {
         "tree structure"
       ],
       "optionReasons": {
-        "tree-mcq-07": "本句指「由一個起點向下分支形成多層級關係的結構」。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。",
-        "tree-mcq-08": "「由節點和分支構成的階層式資料結構」是「tree — computing」的用法，與本句語境不同。",
-        "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。",
-        "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。",
-        "tree-mcq-04": "「用樹狀結構表示家族世代和親屬關係的圖表」是「family tree」的用法，與本句語境不同。"
+        "tree-mcq-07": "本句的「tree structure」指「由一個起點向下分支形成多層級關係的結構」。",
+        "tree-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-07"
     },
@@ -770,11 +712,9 @@ export default {
       "masked": "The website uses a ____ for navigation.",
       "options": [
         "tree-mcq-07",
-        "tree-mcq-06",
-        "tree-mcq-08",
-        "tree-mcq-05",
-        "tree-mcq-09",
-        "tree-mcq-04"
+        "tree-mcq-02",
+        "tree-mcq-01",
+        "tree-mcq-11"
       ],
       "explanation": "本句的「tree structure」指「由一個起點向下分支形成多層級關係的結構」。",
       "sentenceIndex": 14,
@@ -783,12 +723,10 @@ export default {
         "tree structure"
       ],
       "optionReasons": {
-        "tree-mcq-07": "本句指「由一個起點向下分支形成多層級關係的結構」。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。",
-        "tree-mcq-08": "「由節點和分支構成的階層式資料結構」是「tree — computing」的用法，與本句語境不同。",
-        "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。",
-        "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。",
-        "tree-mcq-04": "「用樹狀結構表示家族世代和親屬關係的圖表」是「family tree」的用法，與本句語境不同。"
+        "tree-mcq-07": "本句的「tree structure」指「由一個起點向下分支形成多層級關係的結構」。",
+        "tree-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-07"
     },
@@ -800,11 +738,9 @@ export default {
       "masked": "The program stores the data in a ____.",
       "options": [
         "tree-mcq-08",
-        "tree-mcq-07",
+        "tree-mcq-01",
         "tree-mcq-09",
-        "tree-mcq-06",
-        "tree-mcq-10",
-        "tree-mcq-05"
+        "tree-mcq-11"
       ],
       "explanation": "本句的「tree」指「由節點和分支構成的階層式資料結構」。",
       "sentenceIndex": 15,
@@ -813,12 +749,10 @@ export default {
         "tree"
       ],
       "optionReasons": {
-        "tree-mcq-08": "本句指「由節點和分支構成的階層式資料結構」。",
-        "tree-mcq-07": "「由一個起點向下分支形成多層級關係的結構」是「tree structure」的用法，與本句語境不同。",
-        "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。",
-        "tree-mcq-10": "「外形或結構像樹一樣具有主體和分支的」是「treelike」的用法，與本句語境不同。",
-        "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。"
+        "tree-mcq-08": "本句的「tree」指「由節點和分支構成的階層式資料結構」。",
+        "tree-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-08"
     },
@@ -830,11 +764,9 @@ export default {
       "masked": "Each node in the ____ may have several children.",
       "options": [
         "tree-mcq-08",
-        "tree-mcq-07",
         "tree-mcq-09",
-        "tree-mcq-06",
-        "tree-mcq-10",
-        "tree-mcq-05"
+        "tree-mcq-13",
+        "tree-mcq-11"
       ],
       "explanation": "本句的「tree」指「由節點和分支構成的階層式資料結構」。",
       "sentenceIndex": 16,
@@ -843,12 +775,10 @@ export default {
         "tree"
       ],
       "optionReasons": {
-        "tree-mcq-08": "本句指「由節點和分支構成的階層式資料結構」。",
-        "tree-mcq-07": "「由一個起點向下分支形成多層級關係的結構」是「tree structure」的用法，與本句語境不同。",
-        "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。",
-        "tree-mcq-10": "「外形或結構像樹一樣具有主體和分支的」是「treelike」的用法，與本句語境不同。",
-        "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。"
+        "tree-mcq-08": "本句的「tree」指「由節點和分支構成的階層式資料結構」。",
+        "tree-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-08"
     },
@@ -860,11 +790,9 @@ export default {
       "masked": "The bird landed on a ____.",
       "options": [
         "tree-pdf-001",
-        "tree-mcq-07",
         "tree-mcq-09",
-        "tree-mcq-06",
-        "tree-mcq-10",
-        "tree-mcq-05"
+        "tree-mcq-03",
+        "tree-mcq-04"
       ],
       "explanation": "本句的「branch of the tree」指「主幹和分支常被借用來表示層級、分類、發展或選擇」。",
       "sentenceIndex": 17,
@@ -873,12 +801,10 @@ export default {
         "branch of the tree"
       ],
       "optionReasons": {
-        "tree-pdf-001": "本句指「主幹和分支常被借用來表示層級、分類、發展或選擇」。",
-        "tree-mcq-07": "「由一個起點向下分支形成多層級關係的結構」是「tree structure」的用法，與本句語境不同。",
-        "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。",
-        "tree-mcq-10": "「外形或結構像樹一樣具有主體和分支的」是「treelike」的用法，與本句語境不同。",
-        "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。"
+        "tree-pdf-001": "本句的「branch of the tree」指「主幹和分支常被借用來表示層級、分類、發展或選擇」。",
+        "tree-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-pdf-001"
     },
@@ -890,11 +816,9 @@ export default {
       "masked": "Each branch of the decision ____ represents a choice.",
       "options": [
         "tree-pdf-001",
-        "tree-mcq-07",
+        "tree-mcq-04",
         "tree-mcq-09",
-        "tree-mcq-06",
-        "tree-mcq-10",
-        "tree-mcq-05"
+        "tree-mcq-03"
       ],
       "explanation": "本句的「tree」指「主幹和分支常被借用來表示層級、分類、發展或選擇」。",
       "sentenceIndex": 18,
@@ -903,12 +827,10 @@ export default {
         "tree"
       ],
       "optionReasons": {
-        "tree-pdf-001": "本句指「主幹和分支常被借用來表示層級、分類、發展或選擇」。",
-        "tree-mcq-07": "「由一個起點向下分支形成多層級關係的結構」是「tree structure」的用法，與本句語境不同。",
-        "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。",
-        "tree-mcq-10": "「外形或結構像樹一樣具有主體和分支的」是「treelike」的用法，與本句語境不同。",
-        "tree-mcq-05": "「用分支結構表示選擇和可能結果的圖表／模型」是「decision tree」的用法，與本句語境不同。"
+        "tree-pdf-001": "本句的「tree」指「主幹和分支常被借用來表示層級、分類、發展或選擇」。",
+        "tree-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-pdf-001"
     },
@@ -920,11 +842,9 @@ export default {
       "masked": "They walked along a ____ street.",
       "options": [
         "tree-mcq-09",
-        "tree-mcq-08",
-        "tree-mcq-10",
-        "tree-mcq-07",
-        "tree-mcq-11",
-        "tree-mcq-06"
+        "tree-pdf-001",
+        "tree-mcq-03",
+        "tree-mcq-04"
       ],
       "explanation": "本句的「tree-lined」指「道路／街道兩旁排列種有樹木的」。",
       "sentenceIndex": 19,
@@ -933,12 +853,10 @@ export default {
         "tree-lined"
       ],
       "optionReasons": {
-        "tree-mcq-09": "本句指「道路／街道兩旁排列種有樹木的」。",
-        "tree-mcq-08": "「由節點和分支構成的階層式資料結構」是「tree — computing」的用法，與本句語境不同。",
-        "tree-mcq-10": "「外形或結構像樹一樣具有主體和分支的」是「treelike」的用法，與本句語境不同。",
-        "tree-mcq-07": "「由一個起點向下分支形成多層級關係的結構」是「tree structure」的用法，與本句語境不同。",
-        "tree-mcq-11": "「建在樹上或由樹支撐的小屋／平台」是「treehouse」的用法，與本句語境不同。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。"
+        "tree-mcq-09": "本句的「tree-lined」指「道路／街道兩旁排列種有樹木的」。",
+        "tree-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-09"
     },
@@ -950,11 +868,9 @@ export default {
       "masked": "The neighbourhood has several ____ roads.",
       "options": [
         "tree-mcq-09",
-        "tree-mcq-08",
-        "tree-mcq-10",
-        "tree-mcq-07",
-        "tree-mcq-11",
-        "tree-mcq-06"
+        "tree-mcq-06",
+        "tree-mcq-03",
+        "tree-mcq-11"
       ],
       "explanation": "本句的「tree-lined」指「道路／街道兩旁排列種有樹木的」。",
       "sentenceIndex": 20,
@@ -963,12 +879,10 @@ export default {
         "tree-lined"
       ],
       "optionReasons": {
-        "tree-mcq-09": "本句指「道路／街道兩旁排列種有樹木的」。",
-        "tree-mcq-08": "「由節點和分支構成的階層式資料結構」是「tree — computing」的用法，與本句語境不同。",
-        "tree-mcq-10": "「外形或結構像樹一樣具有主體和分支的」是「treelike」的用法，與本句語境不同。",
-        "tree-mcq-07": "「由一個起點向下分支形成多層級關係的結構」是「tree structure」的用法，與本句語境不同。",
-        "tree-mcq-11": "「建在樹上或由樹支撐的小屋／平台」是「treehouse」的用法，與本句語境不同。",
-        "tree-mcq-06": "「用主幹和分支方式展示層級、分類或可能性的圖表」是「tree diagram」的用法，與本句語境不同。"
+        "tree-mcq-09": "本句的「tree-lined」指「道路／街道兩旁排列種有樹木的」。",
+        "tree-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-09"
     },
@@ -980,11 +894,9 @@ export default {
       "masked": "The coral has a ____ shape.",
       "options": [
         "tree-mcq-10",
+        "tree-mcq-03",
         "tree-mcq-09",
-        "tree-mcq-11",
-        "tree-mcq-08",
-        "tree-mcq-12",
-        "tree-mcq-07"
+        "tree-mcq-11"
       ],
       "explanation": "本句的「treelike」指「外形或結構像樹一樣具有主體和分支的」。",
       "sentenceIndex": 21,
@@ -993,12 +905,10 @@ export default {
         "treelike"
       ],
       "optionReasons": {
-        "tree-mcq-10": "本句指「外形或結構像樹一樣具有主體和分支的」。",
-        "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。",
-        "tree-mcq-11": "「建在樹上或由樹支撐的小屋／平台」是「treehouse」的用法，與本句語境不同。",
-        "tree-mcq-08": "「由節點和分支構成的階層式資料結構」是「tree — computing」的用法，與本句語境不同。",
-        "tree-mcq-12": "「因氣候、海拔等限制而形成的樹木正常生長界線」是「tree line」的用法，與本句語境不同。",
-        "tree-mcq-07": "「由一個起點向下分支形成多層級關係的結構」是「tree structure」的用法，與本句語境不同。"
+        "tree-mcq-10": "本句的「treelike」指「外形或結構像樹一樣具有主體和分支的」。",
+        "tree-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-10"
     },
@@ -1010,11 +920,9 @@ export default {
       "masked": "The network forms a ____ pattern.",
       "options": [
         "tree-mcq-10",
-        "tree-mcq-09",
-        "tree-mcq-11",
-        "tree-mcq-08",
-        "tree-mcq-12",
-        "tree-mcq-07"
+        "tree-mcq-03",
+        "tree-mcq-02",
+        "tree-mcq-11"
       ],
       "explanation": "本句的「treelike」指「外形或結構像樹一樣具有主體和分支的」。",
       "sentenceIndex": 22,
@@ -1023,12 +931,10 @@ export default {
         "treelike"
       ],
       "optionReasons": {
-        "tree-mcq-10": "本句指「外形或結構像樹一樣具有主體和分支的」。",
-        "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。",
-        "tree-mcq-11": "「建在樹上或由樹支撐的小屋／平台」是「treehouse」的用法，與本句語境不同。",
-        "tree-mcq-08": "「由節點和分支構成的階層式資料結構」是「tree — computing」的用法，與本句語境不同。",
-        "tree-mcq-12": "「因氣候、海拔等限制而形成的樹木正常生長界線」是「tree line」的用法，與本句語境不同。",
-        "tree-mcq-07": "「由一個起點向下分支形成多層級關係的結構」是「tree structure」的用法，與本句語境不同。"
+        "tree-mcq-10": "本句的「treelike」指「外形或結構像樹一樣具有主體和分支的」。",
+        "tree-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-10"
     },
@@ -1040,11 +946,9 @@ export default {
       "masked": "The children built a ____.",
       "options": [
         "tree-mcq-11",
-        "tree-mcq-10",
-        "tree-mcq-12",
-        "tree-mcq-09",
-        "tree-mcq-13",
-        "tree-mcq-08"
+        "tree-mcq-03",
+        "tree-mcq-05",
+        "tree-mcq-02"
       ],
       "explanation": "本句的「treehouse」指「建在樹上或由樹支撐的小屋／平台」。",
       "sentenceIndex": 23,
@@ -1053,12 +957,10 @@ export default {
         "treehouse"
       ],
       "optionReasons": {
-        "tree-mcq-11": "本句指「建在樹上或由樹支撐的小屋／平台」。",
-        "tree-mcq-10": "「外形或結構像樹一樣具有主體和分支的」是「treelike」的用法，與本句語境不同。",
-        "tree-mcq-12": "「因氣候、海拔等限制而形成的樹木正常生長界線」是「tree line」的用法，與本句語境不同。",
-        "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。",
-        "tree-mcq-13": "「樹幹橫切面上反映年度生長的環狀紋理」是「tree ring」的用法，與本句語境不同。",
-        "tree-mcq-08": "「由節點和分支構成的階層式資料結構」是「tree — computing」的用法，與本句語境不同。"
+        "tree-mcq-11": "本句的「treehouse」指「建在樹上或由樹支撐的小屋／平台」。",
+        "tree-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-11"
     },
@@ -1070,11 +972,9 @@ export default {
       "masked": "They spent the afternoon in the ____.",
       "options": [
         "tree-mcq-11",
-        "tree-mcq-10",
-        "tree-mcq-12",
-        "tree-mcq-09",
-        "tree-mcq-13",
-        "tree-mcq-08"
+        "tree-mcq-01",
+        "tree-mcq-05",
+        "tree-mcq-09"
       ],
       "explanation": "本句的「treehouse」指「建在樹上或由樹支撐的小屋／平台」。",
       "sentenceIndex": 24,
@@ -1083,12 +983,10 @@ export default {
         "treehouse"
       ],
       "optionReasons": {
-        "tree-mcq-11": "本句指「建在樹上或由樹支撐的小屋／平台」。",
-        "tree-mcq-10": "「外形或結構像樹一樣具有主體和分支的」是「treelike」的用法，與本句語境不同。",
-        "tree-mcq-12": "「因氣候、海拔等限制而形成的樹木正常生長界線」是「tree line」的用法，與本句語境不同。",
-        "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。",
-        "tree-mcq-13": "「樹幹橫切面上反映年度生長的環狀紋理」是「tree ring」的用法，與本句語境不同。",
-        "tree-mcq-08": "「由節點和分支構成的階層式資料結構」是「tree — computing」的用法，與本句語境不同。"
+        "tree-mcq-11": "本句的「treehouse」指「建在樹上或由樹支撐的小屋／平台」。",
+        "tree-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-11"
     },
@@ -1100,11 +998,8 @@ export default {
       "masked": "Few trees grow above the ____.",
       "options": [
         "tree-mcq-12",
-        "tree-mcq-11",
-        "tree-mcq-13",
-        "tree-mcq-10",
-        "tree-mcq-14",
-        "tree-mcq-09"
+        "tree-mcq-05",
+        "tree-mcq-11"
       ],
       "explanation": "本句的「tree line」指「因氣候、海拔等限制而形成的樹木正常生長界線」。",
       "sentenceIndex": 25,
@@ -1113,12 +1008,9 @@ export default {
         "tree line"
       ],
       "optionReasons": {
-        "tree-mcq-12": "本句指「因氣候、海拔等限制而形成的樹木正常生長界線」。",
-        "tree-mcq-11": "「建在樹上或由樹支撐的小屋／平台」是「treehouse」的用法，與本句語境不同。",
-        "tree-mcq-13": "「樹幹橫切面上反映年度生長的環狀紋理」是「tree ring」的用法，與本句語境不同。",
-        "tree-mcq-10": "「外形或結構像樹一樣具有主體和分支的」是「treelike」的用法，與本句語境不同。",
-        "tree-mcq-14": "「常用「根、主幹、分支」來表示來源、穩定、發展和關係網絡」是「15. rooted tree / branching tree metaphor（根基／分支比喻） — 有根基、分支的結構」的用法，與本句語境不同。",
-        "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。"
+        "tree-mcq-12": "本句的「tree line」指「因氣候、海拔等限制而形成的樹木正常生長界線」。",
+        "tree-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-12"
     },
@@ -1130,11 +1022,8 @@ export default {
       "masked": "The trail climbs beyond the ____.",
       "options": [
         "tree-mcq-12",
-        "tree-mcq-11",
-        "tree-mcq-13",
-        "tree-mcq-10",
-        "tree-mcq-14",
-        "tree-mcq-09"
+        "tree-mcq-05",
+        "tree-mcq-11"
       ],
       "explanation": "本句的「treeline」指「因氣候、海拔等限制而形成的樹木正常生長界線」。",
       "sentenceIndex": 26,
@@ -1143,12 +1032,9 @@ export default {
         "treeline"
       ],
       "optionReasons": {
-        "tree-mcq-12": "本句指「因氣候、海拔等限制而形成的樹木正常生長界線」。",
-        "tree-mcq-11": "「建在樹上或由樹支撐的小屋／平台」是「treehouse」的用法，與本句語境不同。",
-        "tree-mcq-13": "「樹幹橫切面上反映年度生長的環狀紋理」是「tree ring」的用法，與本句語境不同。",
-        "tree-mcq-10": "「外形或結構像樹一樣具有主體和分支的」是「treelike」的用法，與本句語境不同。",
-        "tree-mcq-14": "「常用「根、主幹、分支」來表示來源、穩定、發展和關係網絡」是「15. rooted tree / branching tree metaphor（根基／分支比喻） — 有根基、分支的結構」的用法，與本句語境不同。",
-        "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。"
+        "tree-mcq-12": "本句的「treeline」指「因氣候、海拔等限制而形成的樹木正常生長界線」。",
+        "tree-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-12"
     },
@@ -1160,11 +1046,9 @@ export default {
       "masked": "Scientists study ____ to estimate age.",
       "options": [
         "tree-mcq-13",
-        "tree-mcq-12",
-        "tree-mcq-14",
-        "tree-mcq-11",
-        "tree-mcq-10",
-        "tree-mcq-09"
+        "tree-mcq-05",
+        "tree-mcq-02",
+        "tree-mcq-11"
       ],
       "explanation": "本句的「tree rings」指「樹幹橫切面上反映年度生長的環狀紋理」。",
       "sentenceIndex": 27,
@@ -1173,12 +1057,10 @@ export default {
         "tree rings"
       ],
       "optionReasons": {
-        "tree-mcq-13": "本句指「樹幹橫切面上反映年度生長的環狀紋理」。",
-        "tree-mcq-12": "「因氣候、海拔等限制而形成的樹木正常生長界線」是「tree line」的用法，與本句語境不同。",
-        "tree-mcq-14": "「常用「根、主幹、分支」來表示來源、穩定、發展和關係網絡」是「15. rooted tree / branching tree metaphor（根基／分支比喻） — 有根基、分支的結構」的用法，與本句語境不同。",
-        "tree-mcq-11": "「建在樹上或由樹支撐的小屋／平台」是「treehouse」的用法，與本句語境不同。",
-        "tree-mcq-10": "「外形或結構像樹一樣具有主體和分支的」是「treelike」的用法，與本句語境不同。",
-        "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。"
+        "tree-mcq-13": "本句的「tree rings」指「樹幹橫切面上反映年度生長的環狀紋理」。",
+        "tree-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-13"
     },
@@ -1190,10 +1072,8 @@ export default {
       "masked": "Each ____ records part of the tree’s growth history.",
       "options": [
         "tree-mcq-13",
-        "tree-mcq-12",
-        "tree-mcq-14",
+        "tree-mcq-05",
         "tree-mcq-11",
-        "tree-mcq-10",
         "tree-mcq-09"
       ],
       "explanation": "本句的「tree ring」指「樹幹橫切面上反映年度生長的環狀紋理」。",
@@ -1203,12 +1083,10 @@ export default {
         "tree ring"
       ],
       "optionReasons": {
-        "tree-mcq-13": "本句指「樹幹橫切面上反映年度生長的環狀紋理」。",
-        "tree-mcq-12": "「因氣候、海拔等限制而形成的樹木正常生長界線」是「tree line」的用法，與本句語境不同。",
-        "tree-mcq-14": "「常用「根、主幹、分支」來表示來源、穩定、發展和關係網絡」是「15. rooted tree / branching tree metaphor（根基／分支比喻） — 有根基、分支的結構」的用法，與本句語境不同。",
-        "tree-mcq-11": "「建在樹上或由樹支撐的小屋／平台」是「treehouse」的用法，與本句語境不同。",
-        "tree-mcq-10": "「外形或結構像樹一樣具有主體和分支的」是「treelike」的用法，與本句語境不同。",
-        "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。"
+        "tree-mcq-13": "本句的「tree ring」指「樹幹橫切面上反映年度生長的環狀紋理」。",
+        "tree-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-13"
     },
@@ -1220,11 +1098,9 @@ export default {
       "masked": "The organization grew like a ____, with many branches.",
       "options": [
         "tree-mcq-14",
-        "tree-mcq-13",
-        "tree-mcq-12",
+        "tree-mcq-09",
         "tree-mcq-11",
-        "tree-mcq-10",
-        "tree-mcq-09"
+        "tree-mcq-13"
       ],
       "explanation": "本句的「tree」指「常用「根、主幹、分支」來表示來源、穩定、發展和關係網絡」。",
       "sentenceIndex": 29,
@@ -1233,12 +1109,10 @@ export default {
         "tree"
       ],
       "optionReasons": {
-        "tree-mcq-14": "本句指「常用「根、主幹、分支」來表示來源、穩定、發展和關係網絡」。",
-        "tree-mcq-13": "「樹幹橫切面上反映年度生長的環狀紋理」是「tree ring」的用法，與本句語境不同。",
-        "tree-mcq-12": "「因氣候、海拔等限制而形成的樹木正常生長界線」是「tree line」的用法，與本句語境不同。",
-        "tree-mcq-11": "「建在樹上或由樹支撐的小屋／平台」是「treehouse」的用法，與本句語境不同。",
-        "tree-mcq-10": "「外形或結構像樹一樣具有主體和分支的」是「treelike」的用法，與本句語境不同。",
-        "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。"
+        "tree-mcq-14": "本句的「tree」指「常用「根、主幹、分支」來表示來源、穩定、發展和關係網絡」。",
+        "tree-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-14"
     },
@@ -1250,11 +1124,9 @@ export default {
       "masked": "Her family history is represented as a ____ with deep roots.",
       "options": [
         "tree-mcq-14",
+        "tree-mcq-09",
         "tree-mcq-13",
-        "tree-mcq-12",
-        "tree-mcq-11",
-        "tree-mcq-10",
-        "tree-mcq-09"
+        "tree-mcq-11"
       ],
       "explanation": "本句的「tree」指「常用「根、主幹、分支」來表示來源、穩定、發展和關係網絡」。",
       "sentenceIndex": 30,
@@ -1263,12 +1135,10 @@ export default {
         "tree"
       ],
       "optionReasons": {
-        "tree-mcq-14": "本句指「常用「根、主幹、分支」來表示來源、穩定、發展和關係網絡」。",
-        "tree-mcq-13": "「樹幹橫切面上反映年度生長的環狀紋理」是「tree ring」的用法，與本句語境不同。",
-        "tree-mcq-12": "「因氣候、海拔等限制而形成的樹木正常生長界線」是「tree line」的用法，與本句語境不同。",
-        "tree-mcq-11": "「建在樹上或由樹支撐的小屋／平台」是「treehouse」的用法，與本句語境不同。",
-        "tree-mcq-10": "「外形或結構像樹一樣具有主體和分支的」是「treelike」的用法，與本句語境不同。",
-        "tree-mcq-09": "「道路／街道兩旁排列種有樹木的」是「tree-lined」的用法，與本句語境不同。"
+        "tree-mcq-14": "本句的「tree」指「常用「根、主幹、分支」來表示來源、穩定、發展和關係網絡」。",
+        "tree-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tree-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tree-mcq-14"
     }
@@ -1280,5 +1150,7 @@ export default {
     "sha256": "e8655bd693dc74dfc13a154e09b73195b5daa68c7265d862619b92407ab3b379",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

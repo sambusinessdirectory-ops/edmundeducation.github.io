@@ -481,11 +481,9 @@ export default {
       "masked": "It was like someone had ____ a mute button on the outside world.",
       "options": [
         "press-mcq-01",
-        "press-mcq-02",
-        "press-mcq-03",
-        "press-mcq-04",
-        "press-mcq-05",
-        "press-mcq-06"
+        "press-mcq-15",
+        "press-mcq-12",
+        "press-mcq-07"
       ],
       "explanation": "本句的「pressed」指「用手指或手向按鈕／按鍵施力，使某項功能啟動」。",
       "sentenceIndex": 0,
@@ -494,12 +492,10 @@ export default {
         "pressed"
       ],
       "optionReasons": {
-        "press-mcq-01": "本句指「用手指或手向按鈕／按鍵施力，使某項功能啟動」。",
-        "press-mcq-02": "「對某物施力，使它緊貼另一個表面」是「press something against something」的用法，與本句語境不同。",
-        "press-mcq-03": "「施加力量，使物件變平、緊密或被壓製成形」是「press something flat/together」的用法，與本句語境不同。",
-        "press-mcq-04": "「用熨燙方式把衣物皺褶弄平」是「press clothes」的用法，與本句語境不同。",
-        "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。"
+        "press-mcq-01": "本句的「pressed」指「用手指或手向按鈕／按鍵施力，使某項功能啟動」。",
+        "press-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-01"
     },
@@ -511,11 +507,9 @@ export default {
       "masked": "____ the green button to start the machine.",
       "options": [
         "press-mcq-01",
-        "press-mcq-02",
-        "press-mcq-03",
-        "press-mcq-04",
-        "press-mcq-05",
-        "press-mcq-06"
+        "press-mcq-17",
+        "press-mcq-13",
+        "press-pdf-001"
       ],
       "explanation": "本句的「Press」指「用手指或手向按鈕／按鍵施力，使某項功能啟動」。",
       "sentenceIndex": 1,
@@ -524,12 +518,10 @@ export default {
         "Press"
       ],
       "optionReasons": {
-        "press-mcq-01": "本句指「用手指或手向按鈕／按鍵施力，使某項功能啟動」。",
-        "press-mcq-02": "「對某物施力，使它緊貼另一個表面」是「press something against something」的用法，與本句語境不同。",
-        "press-mcq-03": "「施加力量，使物件變平、緊密或被壓製成形」是「press something flat/together」的用法，與本句語境不同。",
-        "press-mcq-04": "「用熨燙方式把衣物皺褶弄平」是「press clothes」的用法，與本句語境不同。",
-        "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。"
+        "press-mcq-01": "本句的「Press」指「用手指或手向按鈕／按鍵施力，使某項功能啟動」。",
+        "press-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "press-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-01"
     },
@@ -541,11 +533,9 @@ export default {
       "masked": "She ____ a key on the keyboard.",
       "options": [
         "press-mcq-01",
-        "press-mcq-02",
-        "press-mcq-03",
-        "press-mcq-04",
-        "press-mcq-05",
-        "press-mcq-06"
+        "press-mcq-08",
+        "press-mcq-07",
+        "press-mcq-13"
       ],
       "explanation": "本句的「pressed」指「用手指或手向按鈕／按鍵施力，使某項功能啟動」。",
       "sentenceIndex": 2,
@@ -554,12 +544,10 @@ export default {
         "pressed"
       ],
       "optionReasons": {
-        "press-mcq-01": "本句指「用手指或手向按鈕／按鍵施力，使某項功能啟動」。",
-        "press-mcq-02": "「對某物施力，使它緊貼另一個表面」是「press something against something」的用法，與本句語境不同。",
-        "press-mcq-03": "「施加力量，使物件變平、緊密或被壓製成形」是「press something flat/together」的用法，與本句語境不同。",
-        "press-mcq-04": "「用熨燙方式把衣物皺褶弄平」是「press clothes」的用法，與本句語境不同。",
-        "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。"
+        "press-mcq-01": "本句的「pressed」指「用手指或手向按鈕／按鍵施力，使某項功能啟動」。",
+        "press-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-01"
     },
@@ -571,11 +559,9 @@ export default {
       "masked": "She ____ her hand against the glass.",
       "options": [
         "press-mcq-02",
-        "press-mcq-01",
-        "press-mcq-03",
-        "press-mcq-04",
-        "press-mcq-05",
-        "press-mcq-06"
+        "press-mcq-07",
+        "press-pdf-001",
+        "press-mcq-04"
       ],
       "explanation": "本句的「pressed」指「對某物施力，使它緊貼另一個表面」。",
       "sentenceIndex": 3,
@@ -584,12 +570,10 @@ export default {
         "pressed"
       ],
       "optionReasons": {
-        "press-mcq-02": "本句指「對某物施力，使它緊貼另一個表面」。",
-        "press-mcq-01": "「用手指或手向按鈕／按鍵施力，使某項功能啟動」是「press a button/key」的用法，與本句語境不同。",
-        "press-mcq-03": "「施加力量，使物件變平、緊密或被壓製成形」是「press something flat/together」的用法，與本句語境不同。",
-        "press-mcq-04": "「用熨燙方式把衣物皺褶弄平」是「press clothes」的用法，與本句語境不同。",
-        "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。"
+        "press-mcq-02": "本句的「pressed」指「對某物施力，使它緊貼另一個表面」。",
+        "press-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "press-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-02"
     },
@@ -601,11 +585,9 @@ export default {
       "masked": "He ____ the cloth onto the wound.",
       "options": [
         "press-mcq-02",
-        "press-mcq-01",
-        "press-mcq-03",
-        "press-mcq-04",
-        "press-mcq-05",
-        "press-mcq-06"
+        "press-mcq-09",
+        "press-mcq-08",
+        "press-mcq-17"
       ],
       "explanation": "本句的「pressed」指「對某物施力，使它緊貼另一個表面」。",
       "sentenceIndex": 4,
@@ -614,12 +596,10 @@ export default {
         "pressed"
       ],
       "optionReasons": {
-        "press-mcq-02": "本句指「對某物施力，使它緊貼另一個表面」。",
-        "press-mcq-01": "「用手指或手向按鈕／按鍵施力，使某項功能啟動」是「press a button/key」的用法，與本句語境不同。",
-        "press-mcq-03": "「施加力量，使物件變平、緊密或被壓製成形」是「press something flat/together」的用法，與本句語境不同。",
-        "press-mcq-04": "「用熨燙方式把衣物皺褶弄平」是「press clothes」的用法，與本句語境不同。",
-        "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。"
+        "press-mcq-02": "本句的「pressed」指「對某物施力，使它緊貼另一個表面」。",
+        "press-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-02"
     },
@@ -631,11 +611,9 @@ export default {
       "masked": "____ the dough flat with your hands.",
       "options": [
         "press-mcq-03",
-        "press-mcq-02",
-        "press-mcq-04",
-        "press-mcq-01",
-        "press-mcq-05",
-        "press-mcq-06"
+        "press-mcq-15",
+        "press-mcq-06",
+        "press-mcq-10"
       ],
       "explanation": "本句的「Press」指「施加力量，使物件變平、緊密或被壓製成形」。",
       "sentenceIndex": 5,
@@ -644,12 +622,10 @@ export default {
         "Press"
       ],
       "optionReasons": {
-        "press-mcq-03": "本句指「施加力量，使物件變平、緊密或被壓製成形」。",
-        "press-mcq-02": "「對某物施力，使它緊貼另一個表面」是「press something against something」的用法，與本句語境不同。",
-        "press-mcq-04": "「用熨燙方式把衣物皺褶弄平」是「press clothes」的用法，與本句語境不同。",
-        "press-mcq-01": "「用手指或手向按鈕／按鍵施力，使某項功能啟動」是「press a button/key」的用法，與本句語境不同。",
-        "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。"
+        "press-mcq-03": "本句的「Press」指「施加力量，使物件變平、緊密或被壓製成形」。",
+        "press-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-03"
     },
@@ -661,11 +637,9 @@ export default {
       "masked": "The machine ____ the material into blocks.",
       "options": [
         "press-mcq-03",
-        "press-mcq-02",
-        "press-mcq-04",
-        "press-mcq-01",
-        "press-mcq-05",
-        "press-mcq-06"
+        "press-mcq-08",
+        "press-mcq-15",
+        "press-mcq-07"
       ],
       "explanation": "本句的「presses」指「施加力量，使物件變平、緊密或被壓製成形」。",
       "sentenceIndex": 6,
@@ -674,12 +648,10 @@ export default {
         "presses"
       ],
       "optionReasons": {
-        "press-mcq-03": "本句指「施加力量，使物件變平、緊密或被壓製成形」。",
-        "press-mcq-02": "「對某物施力，使它緊貼另一個表面」是「press something against something」的用法，與本句語境不同。",
-        "press-mcq-04": "「用熨燙方式把衣物皺褶弄平」是「press clothes」的用法，與本句語境不同。",
-        "press-mcq-01": "「用手指或手向按鈕／按鍵施力，使某項功能啟動」是「press a button/key」的用法，與本句語境不同。",
-        "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。"
+        "press-mcq-03": "本句的「presses」指「施加力量，使物件變平、緊密或被壓製成形」。",
+        "press-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-03"
     },
@@ -691,11 +663,9 @@ export default {
       "masked": "He ____ his shirt before the interview.",
       "options": [
         "press-mcq-04",
-        "press-mcq-03",
-        "press-mcq-05",
-        "press-mcq-02",
+        "press-mcq-18",
         "press-mcq-06",
-        "press-mcq-01"
+        "press-mcq-13"
       ],
       "explanation": "本句的「pressed」指「用熨燙方式把衣物皺褶弄平」。",
       "sentenceIndex": 7,
@@ -704,12 +674,10 @@ export default {
         "pressed"
       ],
       "optionReasons": {
-        "press-mcq-04": "本句指「用熨燙方式把衣物皺褶弄平」。",
-        "press-mcq-03": "「施加力量，使物件變平、緊密或被壓製成形」是「press something flat/together」的用法，與本句語境不同。",
-        "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。",
-        "press-mcq-02": "「對某物施力，使它緊貼另一個表面」是「press something against something」的用法，與本句語境不同。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。",
-        "press-mcq-01": "「用手指或手向按鈕／按鍵施力，使某項功能啟動」是「press a button/key」的用法，與本句語境不同。"
+        "press-mcq-04": "本句的「pressed」指「用熨燙方式把衣物皺褶弄平」。",
+        "press-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-04"
     },
@@ -721,11 +689,9 @@ export default {
       "masked": "The trousers had been carefully ____.",
       "options": [
         "press-mcq-04",
-        "press-mcq-03",
-        "press-mcq-05",
-        "press-mcq-02",
-        "press-mcq-06",
-        "press-mcq-01"
+        "press-mcq-10",
+        "press-mcq-11",
+        "press-mcq-06"
       ],
       "explanation": "本句的「pressed」指「用熨燙方式把衣物皺褶弄平」。",
       "sentenceIndex": 8,
@@ -734,12 +700,10 @@ export default {
         "pressed"
       ],
       "optionReasons": {
-        "press-mcq-04": "本句指「用熨燙方式把衣物皺褶弄平」。",
-        "press-mcq-03": "「施加力量，使物件變平、緊密或被壓製成形」是「press something flat/together」的用法，與本句語境不同。",
-        "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。",
-        "press-mcq-02": "「對某物施力，使它緊貼另一個表面」是「press something against something」的用法，與本句語境不同。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。",
-        "press-mcq-01": "「用手指或手向按鈕／按鍵施力，使某項功能啟動」是「press a button/key」的用法，與本句語境不同。"
+        "press-mcq-04": "本句的「pressed」指「用熨燙方式把衣物皺褶弄平」。",
+        "press-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-04"
     },
@@ -751,11 +715,9 @@ export default {
       "masked": "Reporters ____ the minister for an answer.",
       "options": [
         "press-mcq-05",
-        "press-mcq-04",
-        "press-mcq-06",
-        "press-mcq-03",
-        "press-mcq-07",
-        "press-mcq-02"
+        "press-mcq-13",
+        "press-mcq-09",
+        "press-mcq-04"
       ],
       "explanation": "本句的「pressed」指「持續或強烈地催促／施壓要求某人行動」。",
       "sentenceIndex": 9,
@@ -764,12 +726,10 @@ export default {
         "pressed"
       ],
       "optionReasons": {
-        "press-mcq-05": "本句指「持續或強烈地催促／施壓要求某人行動」。",
-        "press-mcq-04": "「用熨燙方式把衣物皺褶弄平」是「press clothes」的用法，與本句語境不同。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。",
-        "press-mcq-03": "「施加力量，使物件變平、緊密或被壓製成形」是「press something flat/together」的用法，與本句語境不同。",
-        "press-mcq-07": "「正式要求刑事司法程序追究涉嫌犯罪行為」是「press charges」的用法，與本句語境不同。",
-        "press-mcq-02": "「對某物施力，使它緊貼另一個表面」是「press something against something」的用法，與本句語境不同。"
+        "press-mcq-05": "本句的「pressed」指「持續或強烈地催促／施壓要求某人行動」。",
+        "press-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-05"
     },
@@ -781,11 +741,9 @@ export default {
       "masked": "The manager ____ the team to finish the work on time.",
       "options": [
         "press-mcq-05",
-        "press-mcq-04",
-        "press-mcq-06",
-        "press-mcq-03",
-        "press-mcq-07",
-        "press-mcq-02"
+        "press-mcq-09",
+        "press-mcq-13",
+        "press-mcq-04"
       ],
       "explanation": "本句的「pressed」指「持續或強烈地催促／施壓要求某人行動」。",
       "sentenceIndex": 10,
@@ -794,12 +752,10 @@ export default {
         "pressed"
       ],
       "optionReasons": {
-        "press-mcq-05": "本句指「持續或強烈地催促／施壓要求某人行動」。",
-        "press-mcq-04": "「用熨燙方式把衣物皺褶弄平」是「press clothes」的用法，與本句語境不同。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。",
-        "press-mcq-03": "「施加力量，使物件變平、緊密或被壓製成形」是「press something flat/together」的用法，與本句語境不同。",
-        "press-mcq-07": "「正式要求刑事司法程序追究涉嫌犯罪行為」是「press charges」的用法，與本句語境不同。",
-        "press-mcq-02": "「對某物施力，使它緊貼另一個表面」是「press something against something」的用法，與本句語境不同。"
+        "press-mcq-05": "本句的「pressed」指「持續或強烈地催促／施壓要求某人行動」。",
+        "press-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-05"
     },
@@ -811,11 +767,9 @@ export default {
       "masked": "She decided not to ____ the issue any further.",
       "options": [
         "press-mcq-06",
-        "press-mcq-05",
-        "press-mcq-07",
-        "press-mcq-04",
         "press-mcq-08",
-        "press-mcq-03"
+        "press-mcq-11",
+        "press-mcq-13"
       ],
       "explanation": "本句的「press」指「持續積極地提出、追究或推動某項主張」。",
       "sentenceIndex": 11,
@@ -824,12 +778,10 @@ export default {
         "press"
       ],
       "optionReasons": {
-        "press-mcq-06": "本句指「持續積極地提出、追究或推動某項主張」。",
-        "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。",
-        "press-mcq-07": "「正式要求刑事司法程序追究涉嫌犯罪行為」是「press charges」的用法，與本句語境不同。",
-        "press-mcq-04": "「用熨燙方式把衣物皺褶弄平」是「press clothes」的用法，與本句語境不同。",
-        "press-mcq-08": "「報章、記者及新聞機構整體／新聞媒體」是「the press」的用法，與本句語境不同。",
-        "press-mcq-03": "「施加力量，使物件變平、緊密或被壓製成形」是「press something flat/together」的用法，與本句語境不同。"
+        "press-mcq-06": "本句的「press」指「持續積極地提出、追究或推動某項主張」。",
+        "press-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-06"
     },
@@ -841,11 +793,9 @@ export default {
       "masked": "The lawyer ____ his argument strongly.",
       "options": [
         "press-mcq-06",
-        "press-mcq-05",
-        "press-mcq-07",
-        "press-mcq-04",
-        "press-mcq-08",
-        "press-mcq-03"
+        "press-mcq-12",
+        "press-mcq-11",
+        "press-mcq-02"
       ],
       "explanation": "本句的「pressed」指「持續積極地提出、追究或推動某項主張」。",
       "sentenceIndex": 12,
@@ -854,12 +804,10 @@ export default {
         "pressed"
       ],
       "optionReasons": {
-        "press-mcq-06": "本句指「持續積極地提出、追究或推動某項主張」。",
-        "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。",
-        "press-mcq-07": "「正式要求刑事司法程序追究涉嫌犯罪行為」是「press charges」的用法，與本句語境不同。",
-        "press-mcq-04": "「用熨燙方式把衣物皺褶弄平」是「press clothes」的用法，與本句語境不同。",
-        "press-mcq-08": "「報章、記者及新聞機構整體／新聞媒體」是「the press」的用法，與本句語境不同。",
-        "press-mcq-03": "「施加力量，使物件變平、緊密或被壓製成形」是「press something flat/together」的用法，與本句語境不同。"
+        "press-mcq-06": "本句的「pressed」指「持續積極地提出、追究或推動某項主張」。",
+        "press-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-06"
     },
@@ -871,10 +819,8 @@ export default {
       "masked": "The victim decided to ____.",
       "options": [
         "press-mcq-07",
-        "press-mcq-06",
-        "press-mcq-08",
-        "press-mcq-05",
-        "press-mcq-09",
+        "press-mcq-12",
+        "press-mcq-02",
         "press-mcq-04"
       ],
       "explanation": "本句的「press charges」指「正式要求刑事司法程序追究涉嫌犯罪行為」。",
@@ -884,12 +830,10 @@ export default {
         "press charges"
       ],
       "optionReasons": {
-        "press-mcq-07": "本句指「正式要求刑事司法程序追究涉嫌犯罪行為」。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。",
-        "press-mcq-08": "「報章、記者及新聞機構整體／新聞媒體」是「the press」的用法，與本句語境不同。",
-        "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。",
-        "press-mcq-09": "「用來大量印刷文字或圖像的機器」是「press — printing machine」的用法，與本句語境不同。",
-        "press-mcq-04": "「用熨燙方式把衣物皺褶弄平」是「press clothes」的用法，與本句語境不同。"
+        "press-mcq-07": "本句的「press charges」指「正式要求刑事司法程序追究涉嫌犯罪行為」。",
+        "press-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-07"
     },
@@ -901,11 +845,9 @@ export default {
       "masked": "She chose not to ____ after the incident.",
       "options": [
         "press-mcq-07",
-        "press-mcq-06",
-        "press-mcq-08",
-        "press-mcq-05",
-        "press-mcq-09",
-        "press-mcq-04"
+        "press-mcq-01",
+        "press-mcq-12",
+        "press-mcq-16"
       ],
       "explanation": "本句的「press charges」指「正式要求刑事司法程序追究涉嫌犯罪行為」。",
       "sentenceIndex": 14,
@@ -914,12 +856,10 @@ export default {
         "press charges"
       ],
       "optionReasons": {
-        "press-mcq-07": "本句指「正式要求刑事司法程序追究涉嫌犯罪行為」。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。",
-        "press-mcq-08": "「報章、記者及新聞機構整體／新聞媒體」是「the press」的用法，與本句語境不同。",
-        "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。",
-        "press-mcq-09": "「用來大量印刷文字或圖像的機器」是「press — printing machine」的用法，與本句語境不同。",
-        "press-mcq-04": "「用熨燙方式把衣物皺褶弄平」是「press clothes」的用法，與本句語境不同。"
+        "press-mcq-07": "本句的「press charges」指「正式要求刑事司法程序追究涉嫌犯罪行為」。",
+        "press-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-07"
     },
@@ -931,11 +871,9 @@ export default {
       "masked": "The story attracted a lot of attention from the ____.",
       "options": [
         "press-mcq-08",
-        "press-mcq-07",
-        "press-mcq-09",
-        "press-mcq-06",
-        "press-mcq-10",
-        "press-mcq-05"
+        "press-mcq-13",
+        "press-mcq-11",
+        "press-mcq-02"
       ],
       "explanation": "本句的「press」指「報章、記者及新聞機構整體／新聞媒體」。",
       "sentenceIndex": 15,
@@ -944,12 +882,10 @@ export default {
         "press"
       ],
       "optionReasons": {
-        "press-mcq-08": "本句指「報章、記者及新聞機構整體／新聞媒體」。",
-        "press-mcq-07": "「正式要求刑事司法程序追究涉嫌犯罪行為」是「press charges」的用法，與本句語境不同。",
-        "press-mcq-09": "「用來大量印刷文字或圖像的機器」是「press — printing machine」的用法，與本句語境不同。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。",
-        "press-mcq-10": "「負責出版書籍或學術作品的出版機構」是「press — publisher」的用法，與本句語境不同。",
-        "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。"
+        "press-mcq-08": "本句的「press」指「報章、記者及新聞機構整體／新聞媒體」。",
+        "press-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-08"
     },
@@ -961,11 +897,9 @@ export default {
       "masked": "The company refused to comment to the ____.",
       "options": [
         "press-mcq-08",
-        "press-mcq-07",
-        "press-mcq-09",
-        "press-mcq-06",
-        "press-mcq-10",
-        "press-mcq-05"
+        "press-mcq-15",
+        "press-mcq-04",
+        "press-mcq-01"
       ],
       "explanation": "本句的「press」指「報章、記者及新聞機構整體／新聞媒體」。",
       "sentenceIndex": 16,
@@ -974,12 +908,10 @@ export default {
         "press"
       ],
       "optionReasons": {
-        "press-mcq-08": "本句指「報章、記者及新聞機構整體／新聞媒體」。",
-        "press-mcq-07": "「正式要求刑事司法程序追究涉嫌犯罪行為」是「press charges」的用法，與本句語境不同。",
-        "press-mcq-09": "「用來大量印刷文字或圖像的機器」是「press — printing machine」的用法，與本句語境不同。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。",
-        "press-mcq-10": "「負責出版書籍或學術作品的出版機構」是「press — publisher」的用法，與本句語境不同。",
-        "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。"
+        "press-mcq-08": "本句的「press」指「報章、記者及新聞機構整體／新聞媒體」。",
+        "press-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-08"
     },
@@ -991,11 +923,9 @@ export default {
       "masked": "The ____ gathered outside the courthouse.",
       "options": [
         "press-pdf-001",
-        "press-mcq-07",
-        "press-mcq-09",
-        "press-mcq-06",
-        "press-mcq-10",
-        "press-mcq-05"
+        "press-mcq-15",
+        "press-mcq-02",
+        "press-mcq-11"
       ],
       "explanation": "本句的「press」指「在現場採訪或報道事件的記者群體」。",
       "sentenceIndex": 17,
@@ -1004,12 +934,10 @@ export default {
         "press"
       ],
       "optionReasons": {
-        "press-pdf-001": "本句指「在現場採訪或報道事件的記者群體」。",
-        "press-mcq-07": "「正式要求刑事司法程序追究涉嫌犯罪行為」是「press charges」的用法，與本句語境不同。",
-        "press-mcq-09": "「用來大量印刷文字或圖像的機器」是「press — printing machine」的用法，與本句語境不同。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。",
-        "press-mcq-10": "「負責出版書籍或學術作品的出版機構」是「press — publisher」的用法，與本句語境不同。",
-        "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。"
+        "press-pdf-001": "本句的「press」指「在現場採訪或報道事件的記者群體」。",
+        "press-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-pdf-001"
     },
@@ -1021,11 +949,9 @@ export default {
       "masked": "Security kept the ____ away from the entrance.",
       "options": [
         "press-pdf-001",
-        "press-mcq-07",
-        "press-mcq-09",
-        "press-mcq-06",
-        "press-mcq-10",
-        "press-mcq-05"
+        "press-mcq-11",
+        "press-mcq-13",
+        "press-mcq-06"
       ],
       "explanation": "本句的「press」指「在現場採訪或報道事件的記者群體」。",
       "sentenceIndex": 18,
@@ -1034,12 +960,10 @@ export default {
         "press"
       ],
       "optionReasons": {
-        "press-pdf-001": "本句指「在現場採訪或報道事件的記者群體」。",
-        "press-mcq-07": "「正式要求刑事司法程序追究涉嫌犯罪行為」是「press charges」的用法，與本句語境不同。",
-        "press-mcq-09": "「用來大量印刷文字或圖像的機器」是「press — printing machine」的用法，與本句語境不同。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。",
-        "press-mcq-10": "「負責出版書籍或學術作品的出版機構」是「press — publisher」的用法，與本句語境不同。",
-        "press-mcq-05": "「持續或強烈地催促／施壓要求某人行動」是「press someone」的用法，與本句語境不同。"
+        "press-pdf-001": "本句的「press」指「在現場採訪或報道事件的記者群體」。",
+        "press-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-pdf-001"
     },
@@ -1051,11 +975,9 @@ export default {
       "masked": "The newspaper uses a modern printing ____.",
       "options": [
         "press-mcq-09",
-        "press-mcq-08",
-        "press-mcq-10",
-        "press-mcq-07",
-        "press-mcq-11",
-        "press-mcq-06"
+        "press-mcq-04",
+        "press-mcq-02",
+        "press-mcq-15"
       ],
       "explanation": "本句的「press」指「用來大量印刷文字或圖像的機器」。",
       "sentenceIndex": 19,
@@ -1064,12 +986,10 @@ export default {
         "press"
       ],
       "optionReasons": {
-        "press-mcq-09": "本句指「用來大量印刷文字或圖像的機器」。",
-        "press-mcq-08": "「報章、記者及新聞機構整體／新聞媒體」是「the press」的用法，與本句語境不同。",
-        "press-mcq-10": "「負責出版書籍或學術作品的出版機構」是「press — publisher」的用法，與本句語境不同。",
-        "press-mcq-07": "「正式要求刑事司法程序追究涉嫌犯罪行為」是「press charges」的用法，與本句語境不同。",
-        "press-mcq-11": "「利用強大壓力來壓縮、塑形或加工材料的設備」是「press — industrial machine」的用法，與本句語境不同。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。"
+        "press-mcq-09": "本句的「press」指「用來大量印刷文字或圖像的機器」。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-09"
     },
@@ -1081,10 +1001,8 @@ export default {
       "masked": "The invention of the printing ____ transformed communication.",
       "options": [
         "press-mcq-09",
-        "press-mcq-08",
-        "press-mcq-10",
-        "press-mcq-07",
-        "press-mcq-11",
+        "press-mcq-20",
+        "press-mcq-13",
         "press-mcq-06"
       ],
       "explanation": "本句的「press」指「用來大量印刷文字或圖像的機器」。",
@@ -1094,12 +1012,10 @@ export default {
         "press"
       ],
       "optionReasons": {
-        "press-mcq-09": "本句指「用來大量印刷文字或圖像的機器」。",
-        "press-mcq-08": "「報章、記者及新聞機構整體／新聞媒體」是「the press」的用法，與本句語境不同。",
-        "press-mcq-10": "「負責出版書籍或學術作品的出版機構」是「press — publisher」的用法，與本句語境不同。",
-        "press-mcq-07": "「正式要求刑事司法程序追究涉嫌犯罪行為」是「press charges」的用法，與本句語境不同。",
-        "press-mcq-11": "「利用強大壓力來壓縮、塑形或加工材料的設備」是「press — industrial machine」的用法，與本句語境不同。",
-        "press-mcq-06": "「持續積極地提出、追究或推動某項主張」是「press an issue/point」的用法，與本句語境不同。"
+        "press-mcq-09": "本句的「press」指「用來大量印刷文字或圖像的機器」。",
+        "press-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-09"
     },
@@ -1111,11 +1027,9 @@ export default {
       "masked": "The book was published by a university ____.",
       "options": [
         "press-mcq-10",
-        "press-mcq-09",
-        "press-mcq-11",
-        "press-mcq-08",
-        "press-mcq-12",
-        "press-mcq-07"
+        "press-mcq-07",
+        "press-mcq-16",
+        "press-mcq-15"
       ],
       "explanation": "本句的「press」指「負責出版書籍或學術作品的出版機構」。",
       "sentenceIndex": 21,
@@ -1124,12 +1038,10 @@ export default {
         "press"
       ],
       "optionReasons": {
-        "press-mcq-10": "本句指「負責出版書籍或學術作品的出版機構」。",
-        "press-mcq-09": "「用來大量印刷文字或圖像的機器」是「press — printing machine」的用法，與本句語境不同。",
-        "press-mcq-11": "「利用強大壓力來壓縮、塑形或加工材料的設備」是「press — industrial machine」的用法，與本句語境不同。",
-        "press-mcq-08": "「報章、記者及新聞機構整體／新聞媒體」是「the press」的用法，與本句語境不同。",
-        "press-mcq-12": "「大量人緊密擠在一起所形成的擁擠狀態／人群」是「press — crowd」的用法，與本句語境不同。",
-        "press-mcq-07": "「正式要求刑事司法程序追究涉嫌犯罪行為」是「press charges」的用法，與本句語境不同。"
+        "press-mcq-10": "本句的「press」指「負責出版書籍或學術作品的出版機構」。",
+        "press-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-10"
     },
@@ -1141,10 +1053,8 @@ export default {
       "masked": "The manuscript was accepted by a major academic ____.",
       "options": [
         "press-mcq-10",
-        "press-mcq-09",
-        "press-mcq-11",
-        "press-mcq-08",
-        "press-mcq-12",
+        "press-mcq-02",
+        "press-mcq-19",
         "press-mcq-07"
       ],
       "explanation": "本句的「press」指「負責出版書籍或學術作品的出版機構」。",
@@ -1154,12 +1064,10 @@ export default {
         "press"
       ],
       "optionReasons": {
-        "press-mcq-10": "本句指「負責出版書籍或學術作品的出版機構」。",
-        "press-mcq-09": "「用來大量印刷文字或圖像的機器」是「press — printing machine」的用法，與本句語境不同。",
-        "press-mcq-11": "「利用強大壓力來壓縮、塑形或加工材料的設備」是「press — industrial machine」的用法，與本句語境不同。",
-        "press-mcq-08": "「報章、記者及新聞機構整體／新聞媒體」是「the press」的用法，與本句語境不同。",
-        "press-mcq-12": "「大量人緊密擠在一起所形成的擁擠狀態／人群」是「press — crowd」的用法，與本句語境不同。",
-        "press-mcq-07": "「正式要求刑事司法程序追究涉嫌犯罪行為」是「press charges」的用法，與本句語境不同。"
+        "press-mcq-10": "本句的「press」指「負責出版書籍或學術作品的出版機構」。",
+        "press-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-10"
     },
@@ -1171,11 +1079,9 @@ export default {
       "masked": "The metal is shaped using a hydraulic ____.",
       "options": [
         "press-mcq-11",
-        "press-mcq-10",
-        "press-mcq-12",
-        "press-mcq-09",
-        "press-mcq-13",
-        "press-mcq-08"
+        "press-mcq-15",
+        "press-mcq-04",
+        "press-mcq-10"
       ],
       "explanation": "本句的「press」指「利用強大壓力來壓縮、塑形或加工材料的設備」。",
       "sentenceIndex": 23,
@@ -1184,12 +1090,10 @@ export default {
         "press"
       ],
       "optionReasons": {
-        "press-mcq-11": "本句指「利用強大壓力來壓縮、塑形或加工材料的設備」。",
-        "press-mcq-10": "「負責出版書籍或學術作品的出版機構」是「press — publisher」的用法，與本句語境不同。",
-        "press-mcq-12": "「大量人緊密擠在一起所形成的擁擠狀態／人群」是「press — crowd」的用法，與本句語境不同。",
-        "press-mcq-09": "「用來大量印刷文字或圖像的機器」是「press — printing machine」的用法，與本句語境不同。",
-        "press-mcq-13": "「某種時間、金錢或資源不足，因而處於緊迫狀態」是「pressed for time/cash」的用法，與本句語境不同。",
-        "press-mcq-08": "「報章、記者及新聞機構整體／新聞媒體」是「the press」的用法，與本句語境不同。"
+        "press-mcq-11": "本句的「press」指「利用強大壓力來壓縮、塑形或加工材料的設備」。",
+        "press-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-11"
     },
@@ -1201,11 +1105,9 @@ export default {
       "masked": "The factory installed a new industrial ____.",
       "options": [
         "press-mcq-11",
-        "press-mcq-10",
-        "press-mcq-12",
-        "press-mcq-09",
-        "press-mcq-13",
-        "press-mcq-08"
+        "press-mcq-06",
+        "press-mcq-04",
+        "press-mcq-17"
       ],
       "explanation": "本句的「press」指「利用強大壓力來壓縮、塑形或加工材料的設備」。",
       "sentenceIndex": 24,
@@ -1214,12 +1116,10 @@ export default {
         "press"
       ],
       "optionReasons": {
-        "press-mcq-11": "本句指「利用強大壓力來壓縮、塑形或加工材料的設備」。",
-        "press-mcq-10": "「負責出版書籍或學術作品的出版機構」是「press — publisher」的用法，與本句語境不同。",
-        "press-mcq-12": "「大量人緊密擠在一起所形成的擁擠狀態／人群」是「press — crowd」的用法，與本句語境不同。",
-        "press-mcq-09": "「用來大量印刷文字或圖像的機器」是「press — printing machine」的用法，與本句語境不同。",
-        "press-mcq-13": "「某種時間、金錢或資源不足，因而處於緊迫狀態」是「pressed for time/cash」的用法，與本句語境不同。",
-        "press-mcq-08": "「報章、記者及新聞機構整體／新聞媒體」是「the press」的用法，與本句語境不同。"
+        "press-mcq-11": "本句的「press」指「利用強大壓力來壓縮、塑形或加工材料的設備」。",
+        "press-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-11"
     },
@@ -1231,11 +1131,9 @@ export default {
       "masked": "He struggled through the ____ of people.",
       "options": [
         "press-mcq-12",
-        "press-mcq-11",
-        "press-mcq-13",
-        "press-mcq-10",
-        "press-mcq-14",
-        "press-mcq-09"
+        "press-mcq-04",
+        "press-mcq-15",
+        "press-mcq-06"
       ],
       "explanation": "本句的「press」指「大量人緊密擠在一起所形成的擁擠狀態／人群」。",
       "sentenceIndex": 25,
@@ -1244,12 +1142,10 @@ export default {
         "press"
       ],
       "optionReasons": {
-        "press-mcq-12": "本句指「大量人緊密擠在一起所形成的擁擠狀態／人群」。",
-        "press-mcq-11": "「利用強大壓力來壓縮、塑形或加工材料的設備」是「press — industrial machine」的用法，與本句語境不同。",
-        "press-mcq-13": "「某種時間、金錢或資源不足，因而處於緊迫狀態」是「pressed for time/cash」的用法，與本句語境不同。",
-        "press-mcq-10": "「負責出版書籍或學術作品的出版機構」是「press — publisher」的用法，與本句語境不同。",
-        "press-mcq-14": "「因資源、時間或困難而承受很大壓力、處境艱難的」是「hard-pressed」的用法，與本句語境不同。",
-        "press-mcq-09": "「用來大量印刷文字或圖像的機器」是「press — printing machine」的用法，與本句語境不同。"
+        "press-mcq-12": "本句的「press」指「大量人緊密擠在一起所形成的擁擠狀態／人群」。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-12"
     },
@@ -1261,11 +1157,9 @@ export default {
       "masked": "She was caught in the ____ near the entrance.",
       "options": [
         "press-mcq-12",
-        "press-mcq-11",
-        "press-mcq-13",
-        "press-mcq-10",
-        "press-mcq-14",
-        "press-mcq-09"
+        "press-mcq-01",
+        "press-mcq-15",
+        "press-mcq-04"
       ],
       "explanation": "本句的「press」指「大量人緊密擠在一起所形成的擁擠狀態／人群」。",
       "sentenceIndex": 26,
@@ -1274,12 +1168,10 @@ export default {
         "press"
       ],
       "optionReasons": {
-        "press-mcq-12": "本句指「大量人緊密擠在一起所形成的擁擠狀態／人群」。",
-        "press-mcq-11": "「利用強大壓力來壓縮、塑形或加工材料的設備」是「press — industrial machine」的用法，與本句語境不同。",
-        "press-mcq-13": "「某種時間、金錢或資源不足，因而處於緊迫狀態」是「pressed for time/cash」的用法，與本句語境不同。",
-        "press-mcq-10": "「負責出版書籍或學術作品的出版機構」是「press — publisher」的用法，與本句語境不同。",
-        "press-mcq-14": "「因資源、時間或困難而承受很大壓力、處境艱難的」是「hard-pressed」的用法，與本句語境不同。",
-        "press-mcq-09": "「用來大量印刷文字或圖像的機器」是「press — printing machine」的用法，與本句語境不同。"
+        "press-mcq-12": "本句的「press」指「大量人緊密擠在一起所形成的擁擠狀態／人群」。",
+        "press-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-12"
     },
@@ -1291,11 +1183,9 @@ export default {
       "masked": "I’m a little ____ today.",
       "options": [
         "press-mcq-13",
-        "press-mcq-12",
-        "press-mcq-14",
-        "press-mcq-11",
-        "press-mcq-15",
-        "press-mcq-10"
+        "press-mcq-01",
+        "press-pdf-001",
+        "press-mcq-09"
       ],
       "explanation": "本句的「pressed for time」指「某種時間、金錢或資源不足，因而處於緊迫狀態」。",
       "sentenceIndex": 27,
@@ -1304,12 +1194,10 @@ export default {
         "pressed for time"
       ],
       "optionReasons": {
-        "press-mcq-13": "本句指「某種時間、金錢或資源不足，因而處於緊迫狀態」。",
-        "press-mcq-12": "「大量人緊密擠在一起所形成的擁擠狀態／人群」是「press — crowd」的用法，與本句語境不同。",
-        "press-mcq-14": "「因資源、時間或困難而承受很大壓力、處境艱難的」是「hard-pressed」的用法，與本句語境不同。",
-        "press-mcq-11": "「利用強大壓力來壓縮、塑形或加工材料的設備」是「press — industrial machine」的用法，與本句語境不同。",
-        "press-mcq-15": "「因重要性或時間限制而不能拖延、急需處理的」是「pressing」的用法，與本句語境不同。",
-        "press-mcq-10": "「負責出版書籍或學術作品的出版機構」是「press — publisher」的用法，與本句語境不同。"
+        "press-mcq-13": "本句的「pressed for time」指「某種時間、金錢或資源不足，因而處於緊迫狀態」。",
+        "press-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "press-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-13"
     },
@@ -1321,11 +1209,9 @@ export default {
       "masked": "The organization is ____.",
       "options": [
         "press-mcq-13",
-        "press-mcq-12",
-        "press-mcq-14",
-        "press-mcq-11",
-        "press-mcq-15",
-        "press-mcq-10"
+        "press-mcq-08",
+        "press-mcq-04",
+        "press-mcq-07"
       ],
       "explanation": "本句的「pressed for cash」指「某種時間、金錢或資源不足，因而處於緊迫狀態」。",
       "sentenceIndex": 28,
@@ -1334,12 +1220,10 @@ export default {
         "pressed for cash"
       ],
       "optionReasons": {
-        "press-mcq-13": "本句指「某種時間、金錢或資源不足，因而處於緊迫狀態」。",
-        "press-mcq-12": "「大量人緊密擠在一起所形成的擁擠狀態／人群」是「press — crowd」的用法，與本句語境不同。",
-        "press-mcq-14": "「因資源、時間或困難而承受很大壓力、處境艱難的」是「hard-pressed」的用法，與本句語境不同。",
-        "press-mcq-11": "「利用強大壓力來壓縮、塑形或加工材料的設備」是「press — industrial machine」的用法，與本句語境不同。",
-        "press-mcq-15": "「因重要性或時間限制而不能拖延、急需處理的」是「pressing」的用法，與本句語境不同。",
-        "press-mcq-10": "「負責出版書籍或學術作品的出版機構」是「press — publisher」的用法，與本句語境不同。"
+        "press-mcq-13": "本句的「pressed for cash」指「某種時間、金錢或資源不足，因而處於緊迫狀態」。",
+        "press-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-13"
     },
@@ -1351,11 +1235,9 @@ export default {
       "masked": "Small businesses are ____ to absorb the higher costs.",
       "options": [
         "press-mcq-14",
-        "press-mcq-13",
-        "press-mcq-15",
-        "press-mcq-12",
-        "press-mcq-16",
-        "press-mcq-11"
+        "press-pdf-001",
+        "press-mcq-07",
+        "press-mcq-04"
       ],
       "explanation": "本句的「hard-pressed」指「因資源、時間或困難而承受很大壓力、處境艱難的」。",
       "sentenceIndex": 29,
@@ -1364,12 +1246,10 @@ export default {
         "hard-pressed"
       ],
       "optionReasons": {
-        "press-mcq-14": "本句指「因資源、時間或困難而承受很大壓力、處境艱難的」。",
-        "press-mcq-13": "「某種時間、金錢或資源不足，因而處於緊迫狀態」是「pressed for time/cash」的用法，與本句語境不同。",
-        "press-mcq-15": "「因重要性或時間限制而不能拖延、急需處理的」是「pressing」的用法，與本句語境不同。",
-        "press-mcq-12": "「大量人緊密擠在一起所形成的擁擠狀態／人群」是「press — crowd」的用法，與本句語境不同。",
-        "press-mcq-16": "「施加在物體表面的力量或液體／氣體中的壓強」是「pressure — physical」的用法，與本句語境不同。",
-        "press-mcq-11": "「利用強大壓力來壓縮、塑形或加工材料的設備」是「press — industrial machine」的用法，與本句語境不同。"
+        "press-mcq-14": "本句的「hard-pressed」指「因資源、時間或困難而承受很大壓力、處境艱難的」。",
+        "press-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-14"
     },
@@ -1381,11 +1261,9 @@ export default {
       "masked": "The hospital staff are already ____.",
       "options": [
         "press-mcq-14",
-        "press-mcq-13",
-        "press-mcq-15",
-        "press-mcq-12",
-        "press-mcq-16",
-        "press-mcq-11"
+        "press-mcq-08",
+        "press-mcq-07",
+        "press-mcq-04"
       ],
       "explanation": "本句的「hard-pressed」指「因資源、時間或困難而承受很大壓力、處境艱難的」。",
       "sentenceIndex": 30,
@@ -1394,12 +1272,10 @@ export default {
         "hard-pressed"
       ],
       "optionReasons": {
-        "press-mcq-14": "本句指「因資源、時間或困難而承受很大壓力、處境艱難的」。",
-        "press-mcq-13": "「某種時間、金錢或資源不足，因而處於緊迫狀態」是「pressed for time/cash」的用法，與本句語境不同。",
-        "press-mcq-15": "「因重要性或時間限制而不能拖延、急需處理的」是「pressing」的用法，與本句語境不同。",
-        "press-mcq-12": "「大量人緊密擠在一起所形成的擁擠狀態／人群」是「press — crowd」的用法，與本句語境不同。",
-        "press-mcq-16": "「施加在物體表面的力量或液體／氣體中的壓強」是「pressure — physical」的用法，與本句語境不同。",
-        "press-mcq-11": "「利用強大壓力來壓縮、塑形或加工材料的設備」是「press — industrial machine」的用法，與本句語境不同。"
+        "press-mcq-14": "本句的「hard-pressed」指「因資源、時間或困難而承受很大壓力、處境艱難的」。",
+        "press-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-14"
     },
@@ -1411,11 +1287,9 @@ export default {
       "masked": "We have more ____ problems to deal with.",
       "options": [
         "press-mcq-15",
-        "press-mcq-14",
         "press-mcq-16",
-        "press-mcq-13",
-        "press-mcq-17",
-        "press-mcq-12"
+        "press-pdf-001",
+        "press-mcq-06"
       ],
       "explanation": "本句的「pressing」指「因重要性或時間限制而不能拖延、急需處理的」。",
       "sentenceIndex": 31,
@@ -1424,12 +1298,10 @@ export default {
         "pressing"
       ],
       "optionReasons": {
-        "press-mcq-15": "本句指「因重要性或時間限制而不能拖延、急需處理的」。",
-        "press-mcq-14": "「因資源、時間或困難而承受很大壓力、處境艱難的」是「hard-pressed」的用法，與本句語境不同。",
-        "press-mcq-16": "「施加在物體表面的力量或液體／氣體中的壓強」是「pressure — physical」的用法，與本句語境不同。",
-        "press-mcq-13": "「某種時間、金錢或資源不足，因而處於緊迫狀態」是「pressed for time/cash」的用法，與本句語境不同。",
-        "press-mcq-17": "「因責任、要求或困難而產生的心理負擔」是「pressure — psychological」的用法，與本句語境不同。",
-        "press-mcq-12": "「大量人緊密擠在一起所形成的擁擠狀態／人群」是「press — crowd」的用法，與本句語境不同。"
+        "press-mcq-15": "本句的「pressing」指「因重要性或時間限制而不能拖延、急需處理的」。",
+        "press-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "press-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-15"
     },
@@ -1441,11 +1313,9 @@ export default {
       "masked": "Housing is a ____ concern in the city.",
       "options": [
         "press-mcq-15",
-        "press-mcq-14",
-        "press-mcq-16",
-        "press-mcq-13",
-        "press-mcq-17",
-        "press-mcq-12"
+        "press-mcq-19",
+        "press-mcq-02",
+        "press-mcq-08"
       ],
       "explanation": "本句的「pressing」指「因重要性或時間限制而不能拖延、急需處理的」。",
       "sentenceIndex": 32,
@@ -1454,12 +1324,10 @@ export default {
         "pressing"
       ],
       "optionReasons": {
-        "press-mcq-15": "本句指「因重要性或時間限制而不能拖延、急需處理的」。",
-        "press-mcq-14": "「因資源、時間或困難而承受很大壓力、處境艱難的」是「hard-pressed」的用法，與本句語境不同。",
-        "press-mcq-16": "「施加在物體表面的力量或液體／氣體中的壓強」是「pressure — physical」的用法，與本句語境不同。",
-        "press-mcq-13": "「某種時間、金錢或資源不足，因而處於緊迫狀態」是「pressed for time/cash」的用法，與本句語境不同。",
-        "press-mcq-17": "「因責任、要求或困難而產生的心理負擔」是「pressure — psychological」的用法，與本句語境不同。",
-        "press-mcq-12": "「大量人緊密擠在一起所形成的擁擠狀態／人群」是「press — crowd」的用法，與本句語境不同。"
+        "press-mcq-15": "本句的「pressing」指「因重要性或時間限制而不能拖延、急需處理的」。",
+        "press-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-15"
     },
@@ -1471,11 +1339,9 @@ export default {
       "masked": "Apply gentle ____ to the wound.",
       "options": [
         "press-mcq-16",
-        "press-mcq-15",
-        "press-mcq-17",
-        "press-mcq-14",
-        "press-mcq-18",
-        "press-mcq-13"
+        "press-mcq-10",
+        "press-mcq-04",
+        "press-mcq-07"
       ],
       "explanation": "本句的「pressure」指「施加在物體表面的力量或液體／氣體中的壓強」。",
       "sentenceIndex": 33,
@@ -1484,12 +1350,10 @@ export default {
         "pressure"
       ],
       "optionReasons": {
-        "press-mcq-16": "本句指「施加在物體表面的力量或液體／氣體中的壓強」。",
-        "press-mcq-15": "「因重要性或時間限制而不能拖延、急需處理的」是「pressing」的用法，與本句語境不同。",
-        "press-mcq-17": "「因責任、要求或困難而產生的心理負擔」是「pressure — psychological」的用法，與本句語境不同。",
-        "press-mcq-14": "「因資源、時間或困難而承受很大壓力、處境艱難的」是「hard-pressed」的用法，與本句語境不同。",
-        "press-mcq-18": "「用要求、輿論或其他影響力迫使人／機構改變」是「pressure — influence」的用法，與本句語境不同。",
-        "press-mcq-13": "「某種時間、金錢或資源不足，因而處於緊迫狀態」是「pressed for time/cash」的用法，與本句語境不同。"
+        "press-mcq-16": "本句的「pressure」指「施加在物體表面的力量或液體／氣體中的壓強」。",
+        "press-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-16"
     },
@@ -1502,10 +1366,8 @@ export default {
       "options": [
         "press-mcq-16",
         "press-mcq-15",
-        "press-mcq-17",
-        "press-mcq-14",
-        "press-mcq-18",
-        "press-mcq-13"
+        "press-mcq-07",
+        "press-mcq-04"
       ],
       "explanation": "本句的「pressure」指「施加在物體表面的力量或液體／氣體中的壓強」。",
       "sentenceIndex": 34,
@@ -1514,12 +1376,10 @@ export default {
         "pressure"
       ],
       "optionReasons": {
-        "press-mcq-16": "本句指「施加在物體表面的力量或液體／氣體中的壓強」。",
-        "press-mcq-15": "「因重要性或時間限制而不能拖延、急需處理的」是「pressing」的用法，與本句語境不同。",
-        "press-mcq-17": "「因責任、要求或困難而產生的心理負擔」是「pressure — psychological」的用法，與本句語境不同。",
-        "press-mcq-14": "「因資源、時間或困難而承受很大壓力、處境艱難的」是「hard-pressed」的用法，與本句語境不同。",
-        "press-mcq-18": "「用要求、輿論或其他影響力迫使人／機構改變」是「pressure — influence」的用法，與本句語境不同。",
-        "press-mcq-13": "「某種時間、金錢或資源不足，因而處於緊迫狀態」是「pressed for time/cash」的用法，與本句語境不同。"
+        "press-mcq-16": "本句的「pressure」指「施加在物體表面的力量或液體／氣體中的壓強」。",
+        "press-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-16"
     },
@@ -1531,11 +1391,9 @@ export default {
       "masked": "She works well under ____.",
       "options": [
         "press-mcq-17",
-        "press-mcq-16",
-        "press-mcq-18",
-        "press-mcq-15",
         "press-mcq-19",
-        "press-mcq-14"
+        "press-mcq-04",
+        "press-mcq-01"
       ],
       "explanation": "本句的「pressure」指「因責任、要求或困難而產生的心理負擔」。",
       "sentenceIndex": 35,
@@ -1544,12 +1402,10 @@ export default {
         "pressure"
       ],
       "optionReasons": {
-        "press-mcq-17": "本句指「因責任、要求或困難而產生的心理負擔」。",
-        "press-mcq-16": "「施加在物體表面的力量或液體／氣體中的壓強」是「pressure — physical」的用法，與本句語境不同。",
-        "press-mcq-18": "「用要求、輿論或其他影響力迫使人／機構改變」是「pressure — influence」的用法，與本句語境不同。",
-        "press-mcq-15": "「因重要性或時間限制而不能拖延、急需處理的」是「pressing」的用法，與本句語境不同。",
-        "press-mcq-19": "「內部氣體或液體被維持在特定較高壓力狀態的」是「pressurized — physical」的用法，與本句語境不同。",
-        "press-mcq-14": "「因資源、時間或困難而承受很大壓力、處境艱難的」是「hard-pressed」的用法，與本句語境不同。"
+        "press-mcq-17": "本句的「pressure」指「因責任、要求或困難而產生的心理負擔」。",
+        "press-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-17"
     },
@@ -1562,10 +1418,8 @@ export default {
       "options": [
         "press-mcq-17",
         "press-mcq-16",
-        "press-mcq-18",
-        "press-mcq-15",
-        "press-mcq-19",
-        "press-mcq-14"
+        "press-mcq-09",
+        "press-pdf-001"
       ],
       "explanation": "本句的「pressure」指「因責任、要求或困難而產生的心理負擔」。",
       "sentenceIndex": 36,
@@ -1574,12 +1428,10 @@ export default {
         "pressure"
       ],
       "optionReasons": {
-        "press-mcq-17": "本句指「因責任、要求或困難而產生的心理負擔」。",
-        "press-mcq-16": "「施加在物體表面的力量或液體／氣體中的壓強」是「pressure — physical」的用法，與本句語境不同。",
-        "press-mcq-18": "「用要求、輿論或其他影響力迫使人／機構改變」是「pressure — influence」的用法，與本句語境不同。",
-        "press-mcq-15": "「因重要性或時間限制而不能拖延、急需處理的」是「pressing」的用法，與本句語境不同。",
-        "press-mcq-19": "「內部氣體或液體被維持在特定較高壓力狀態的」是「pressurized — physical」的用法，與本句語境不同。",
-        "press-mcq-14": "「因資源、時間或困難而承受很大壓力、處境艱難的」是「hard-pressed」的用法，與本句語境不同。"
+        "press-mcq-17": "本句的「pressure」指「因責任、要求或困難而產生的心理負擔」。",
+        "press-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "press-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-17"
     },
@@ -1591,11 +1443,9 @@ export default {
       "masked": "The company came under ____ to change its policy.",
       "options": [
         "press-mcq-18",
-        "press-mcq-17",
-        "press-mcq-19",
-        "press-mcq-16",
-        "press-mcq-20",
-        "press-mcq-15"
+        "press-mcq-06",
+        "press-mcq-04",
+        "press-mcq-09"
       ],
       "explanation": "本句的「pressure」指「用要求、輿論或其他影響力迫使人／機構改變」。",
       "sentenceIndex": 37,
@@ -1604,12 +1454,10 @@ export default {
         "pressure"
       ],
       "optionReasons": {
-        "press-mcq-18": "本句指「用要求、輿論或其他影響力迫使人／機構改變」。",
-        "press-mcq-17": "「因責任、要求或困難而產生的心理負擔」是「pressure — psychological」的用法，與本句語境不同。",
-        "press-mcq-19": "「內部氣體或液體被維持在特定較高壓力狀態的」是「pressurized — physical」的用法，與本句語境不同。",
-        "press-mcq-16": "「施加在物體表面的力量或液體／氣體中的壓強」是「pressure — physical」的用法，與本句語境不同。",
-        "press-mcq-20": "「用心理或社會壓力迫使某人作決定」是「pressurize someone」的用法，與本句語境不同。",
-        "press-mcq-15": "「因重要性或時間限制而不能拖延、急需處理的」是「pressing」的用法，與本句語境不同。"
+        "press-mcq-18": "本句的「pressure」指「用要求、輿論或其他影響力迫使人／機構改變」。",
+        "press-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-18"
     },
@@ -1621,11 +1469,9 @@ export default {
       "masked": "Public ____ led to a review of the decision.",
       "options": [
         "press-mcq-18",
-        "press-mcq-17",
-        "press-mcq-19",
-        "press-mcq-16",
-        "press-mcq-20",
-        "press-mcq-15"
+        "press-mcq-04",
+        "press-mcq-06",
+        "press-mcq-02"
       ],
       "explanation": "本句的「pressure」指「用要求、輿論或其他影響力迫使人／機構改變」。",
       "sentenceIndex": 38,
@@ -1634,12 +1480,10 @@ export default {
         "pressure"
       ],
       "optionReasons": {
-        "press-mcq-18": "本句指「用要求、輿論或其他影響力迫使人／機構改變」。",
-        "press-mcq-17": "「因責任、要求或困難而產生的心理負擔」是「pressure — psychological」的用法，與本句語境不同。",
-        "press-mcq-19": "「內部氣體或液體被維持在特定較高壓力狀態的」是「pressurized — physical」的用法，與本句語境不同。",
-        "press-mcq-16": "「施加在物體表面的力量或液體／氣體中的壓強」是「pressure — physical」的用法，與本句語境不同。",
-        "press-mcq-20": "「用心理或社會壓力迫使某人作決定」是「pressurize someone」的用法，與本句語境不同。",
-        "press-mcq-15": "「因重要性或時間限制而不能拖延、急需處理的」是「pressing」的用法，與本句語境不同。"
+        "press-mcq-18": "本句的「pressure」指「用要求、輿論或其他影響力迫使人／機構改變」。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-18"
     },
@@ -1651,10 +1495,8 @@ export default {
       "masked": "The aircraft cabin is ____.",
       "options": [
         "press-mcq-19",
-        "press-mcq-18",
-        "press-mcq-20",
-        "press-mcq-17",
-        "press-mcq-16",
+        "press-mcq-07",
+        "press-mcq-04",
         "press-mcq-15"
       ],
       "explanation": "本句的「pressurized」指「內部氣體或液體被維持在特定較高壓力狀態的」。",
@@ -1664,12 +1506,10 @@ export default {
         "pressurized"
       ],
       "optionReasons": {
-        "press-mcq-19": "本句指「內部氣體或液體被維持在特定較高壓力狀態的」。",
-        "press-mcq-18": "「用要求、輿論或其他影響力迫使人／機構改變」是「pressure — influence」的用法，與本句語境不同。",
-        "press-mcq-20": "「用心理或社會壓力迫使某人作決定」是「pressurize someone」的用法，與本句語境不同。",
-        "press-mcq-17": "「因責任、要求或困難而產生的心理負擔」是「pressure — psychological」的用法，與本句語境不同。",
-        "press-mcq-16": "「施加在物體表面的力量或液體／氣體中的壓強」是「pressure — physical」的用法，與本句語境不同。",
-        "press-mcq-15": "「因重要性或時間限制而不能拖延、急需處理的」是「pressing」的用法，與本句語境不同。"
+        "press-mcq-19": "本句的「pressurized」指「內部氣體或液體被維持在特定較高壓力狀態的」。",
+        "press-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-19"
     },
@@ -1681,11 +1521,9 @@ export default {
       "masked": "The liquid is stored in a ____ container.",
       "options": [
         "press-mcq-19",
-        "press-mcq-18",
-        "press-mcq-20",
-        "press-mcq-17",
-        "press-mcq-16",
-        "press-mcq-15"
+        "press-mcq-15",
+        "press-mcq-10",
+        "press-mcq-07"
       ],
       "explanation": "本句的「pressurized」指「內部氣體或液體被維持在特定較高壓力狀態的」。",
       "sentenceIndex": 40,
@@ -1694,12 +1532,10 @@ export default {
         "pressurized"
       ],
       "optionReasons": {
-        "press-mcq-19": "本句指「內部氣體或液體被維持在特定較高壓力狀態的」。",
-        "press-mcq-18": "「用要求、輿論或其他影響力迫使人／機構改變」是「pressure — influence」的用法，與本句語境不同。",
-        "press-mcq-20": "「用心理或社會壓力迫使某人作決定」是「pressurize someone」的用法，與本句語境不同。",
-        "press-mcq-17": "「因責任、要求或困難而產生的心理負擔」是「pressure — psychological」的用法，與本句語境不同。",
-        "press-mcq-16": "「施加在物體表面的力量或液體／氣體中的壓強」是「pressure — physical」的用法，與本句語境不同。",
-        "press-mcq-15": "「因重要性或時間限制而不能拖延、急需處理的」是「pressing」的用法，與本句語境不同。"
+        "press-mcq-19": "本句的「pressurized」指「內部氣體或液體被維持在特定較高壓力狀態的」。",
+        "press-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-19"
     },
@@ -1711,11 +1547,9 @@ export default {
       "masked": "They tried to ____ him into accepting the offer.",
       "options": [
         "press-mcq-20",
-        "press-mcq-19",
-        "press-mcq-18",
-        "press-mcq-17",
-        "press-mcq-16",
-        "press-mcq-15"
+        "press-mcq-04",
+        "press-mcq-09",
+        "press-mcq-06"
       ],
       "explanation": "本句的「pressurize」指「用心理或社會壓力迫使某人作決定」。",
       "sentenceIndex": 41,
@@ -1724,12 +1558,10 @@ export default {
         "pressurize"
       ],
       "optionReasons": {
-        "press-mcq-20": "本句指「用心理或社會壓力迫使某人作決定」。",
-        "press-mcq-19": "「內部氣體或液體被維持在特定較高壓力狀態的」是「pressurized — physical」的用法，與本句語境不同。",
-        "press-mcq-18": "「用要求、輿論或其他影響力迫使人／機構改變」是「pressure — influence」的用法，與本句語境不同。",
-        "press-mcq-17": "「因責任、要求或困難而產生的心理負擔」是「pressure — psychological」的用法，與本句語境不同。",
-        "press-mcq-16": "「施加在物體表面的力量或液體／氣體中的壓強」是「pressure — physical」的用法，與本句語境不同。",
-        "press-mcq-15": "「因重要性或時間限制而不能拖延、急需處理的」是「pressing」的用法，與本句語境不同。"
+        "press-mcq-20": "本句的「pressurize」指「用心理或社會壓力迫使某人作決定」。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-20"
     },
@@ -1741,11 +1573,9 @@ export default {
       "masked": "Don’t let anyone ____ you into making a quick decision.",
       "options": [
         "press-mcq-20",
-        "press-mcq-19",
-        "press-mcq-18",
-        "press-mcq-17",
-        "press-mcq-16",
-        "press-mcq-15"
+        "press-mcq-09",
+        "press-mcq-04",
+        "press-mcq-06"
       ],
       "explanation": "本句的「pressurize」指「用心理或社會壓力迫使某人作決定」。",
       "sentenceIndex": 42,
@@ -1754,12 +1584,10 @@ export default {
         "pressurize"
       ],
       "optionReasons": {
-        "press-mcq-20": "本句指「用心理或社會壓力迫使某人作決定」。",
-        "press-mcq-19": "「內部氣體或液體被維持在特定較高壓力狀態的」是「pressurized — physical」的用法，與本句語境不同。",
-        "press-mcq-18": "「用要求、輿論或其他影響力迫使人／機構改變」是「pressure — influence」的用法，與本句語境不同。",
-        "press-mcq-17": "「因責任、要求或困難而產生的心理負擔」是「pressure — psychological」的用法，與本句語境不同。",
-        "press-mcq-16": "「施加在物體表面的力量或液體／氣體中的壓強」是「pressure — physical」的用法，與本句語境不同。",
-        "press-mcq-15": "「因重要性或時間限制而不能拖延、急需處理的」是「pressing」的用法，與本句語境不同。"
+        "press-mcq-20": "本句的「pressurize」指「用心理或社會壓力迫使某人作決定」。",
+        "press-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "press-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "press-mcq-20"
     }
@@ -1771,5 +1599,7 @@ export default {
     "sha256": "991ba263ff45f31da5107c6ddeff01e3ffa56f0652cec851f9dfbb93195c8f3f",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

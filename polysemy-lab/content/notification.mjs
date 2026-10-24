@@ -640,11 +640,8 @@ export default {
       "masked": "The ____ on my phone were exploding.",
       "options": [
         "notification-mcq-01",
-        "notification-mcq-02",
-        "notification-mcq-03",
-        "notification-mcq-04",
-        "notification-mcq-05",
-        "notification-mcq-06"
+        "notification-mcq-27",
+        "notification-mcq-19"
       ],
       "explanation": "本句的「notifications」指「手機／應用程式自動顯示、告知使用者有新活動的提示」。",
       "sentenceIndex": 0,
@@ -653,12 +650,9 @@ export default {
         "notifications"
       ],
       "optionReasons": {
-        "notification-mcq-01": "本句指「手機／應用程式自動顯示、告知使用者有新活動的提示」。",
-        "notification-mcq-02": "「應用程式主動向裝置推送、即使程式未開啟也可顯示的通知」與本句語境不同。",
-        "notification-mcq-03": "「以小圓點／數字顯示未讀通知數量的視覺標記」與本句語境不同。",
-        "notification-mcq-04": "「暫時在螢幕上彈出的通知顯示形式」與本句語境不同。",
-        "notification-mcq-05": "「集中查看近期通知的系統介面」與本句語境不同。",
-        "notification-mcq-06": "「控制通知是否顯示、發聲、震動等的設定」與本句語境不同。"
+        "notification-mcq-01": "本句的「notifications」指「手機／應用程式自動顯示、告知使用者有新活動的提示」。",
+        "notification-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-01"
     },
@@ -670,11 +664,8 @@ export default {
       "masked": "I received a ____ that someone had commented on my post.",
       "options": [
         "notification-mcq-01",
-        "notification-mcq-02",
-        "notification-mcq-03",
-        "notification-mcq-04",
-        "notification-mcq-05",
-        "notification-mcq-06"
+        "notification-mcq-27",
+        "notification-mcq-23"
       ],
       "explanation": "本句的「notification」指「手機／應用程式自動顯示、告知使用者有新活動的提示」。",
       "sentenceIndex": 1,
@@ -683,12 +674,9 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-01": "本句指「手機／應用程式自動顯示、告知使用者有新活動的提示」。",
-        "notification-mcq-02": "「應用程式主動向裝置推送、即使程式未開啟也可顯示的通知」與本句語境不同。",
-        "notification-mcq-03": "「以小圓點／數字顯示未讀通知數量的視覺標記」與本句語境不同。",
-        "notification-mcq-04": "「暫時在螢幕上彈出的通知顯示形式」與本句語境不同。",
-        "notification-mcq-05": "「集中查看近期通知的系統介面」與本句語境不同。",
-        "notification-mcq-06": "「控制通知是否顯示、發聲、震動等的設定」與本句語境不同。"
+        "notification-mcq-01": "本句的「notification」指「手機／應用程式自動顯示、告知使用者有新活動的提示」。",
+        "notification-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-01"
     },
@@ -700,11 +688,8 @@ export default {
       "masked": "The app sent a ____.",
       "options": [
         "notification-mcq-02",
-        "notification-mcq-01",
-        "notification-mcq-03",
-        "notification-mcq-04",
-        "notification-mcq-05",
-        "notification-mcq-06"
+        "notification-mcq-18",
+        "notification-mcq-12"
       ],
       "explanation": "本句的「push notification」指「應用程式主動向裝置推送、即使程式未開啟也可顯示的通知」。",
       "sentenceIndex": 6,
@@ -713,12 +698,9 @@ export default {
         "push notification"
       ],
       "optionReasons": {
-        "notification-mcq-02": "本句指「應用程式主動向裝置推送、即使程式未開啟也可顯示的通知」。",
-        "notification-mcq-01": "「手機／應用程式自動顯示、告知使用者有新活動的提示」與本句語境不同。",
-        "notification-mcq-03": "「以小圓點／數字顯示未讀通知數量的視覺標記」與本句語境不同。",
-        "notification-mcq-04": "「暫時在螢幕上彈出的通知顯示形式」與本句語境不同。",
-        "notification-mcq-05": "「集中查看近期通知的系統介面」與本句語境不同。",
-        "notification-mcq-06": "「控制通知是否顯示、發聲、震動等的設定」與本句語境不同。"
+        "notification-mcq-02": "本句的「push notification」指「應用程式主動向裝置推送、即使程式未開啟也可顯示的通知」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-02"
     },
@@ -730,11 +712,8 @@ export default {
       "masked": "Push ____ can bring users back to an app.",
       "options": [
         "notification-mcq-02",
-        "notification-mcq-01",
-        "notification-mcq-03",
-        "notification-mcq-04",
-        "notification-mcq-05",
-        "notification-mcq-06"
+        "notification-mcq-18",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「notifications」指「應用程式主動向裝置推送、即使程式未開啟也可顯示的通知」。",
       "sentenceIndex": 7,
@@ -743,12 +722,9 @@ export default {
         "notifications"
       ],
       "optionReasons": {
-        "notification-mcq-02": "本句指「應用程式主動向裝置推送、即使程式未開啟也可顯示的通知」。",
-        "notification-mcq-01": "「手機／應用程式自動顯示、告知使用者有新活動的提示」與本句語境不同。",
-        "notification-mcq-03": "「以小圓點／數字顯示未讀通知數量的視覺標記」與本句語境不同。",
-        "notification-mcq-04": "「暫時在螢幕上彈出的通知顯示形式」與本句語境不同。",
-        "notification-mcq-05": "「集中查看近期通知的系統介面」與本句語境不同。",
-        "notification-mcq-06": "「控制通知是否顯示、發聲、震動等的設定」與本句語境不同。"
+        "notification-mcq-02": "本句的「notifications」指「應用程式主動向裝置推送、即使程式未開啟也可顯示的通知」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-02"
     },
@@ -760,11 +736,9 @@ export default {
       "masked": "A red ____ showed 27 unread messages.",
       "options": [
         "notification-mcq-03",
-        "notification-mcq-02",
-        "notification-mcq-04",
-        "notification-mcq-01",
-        "notification-mcq-05",
-        "notification-mcq-06"
+        "notification-mcq-18",
+        "notification-mcq-09",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「notification badge」指「以小圓點／數字顯示未讀通知數量的視覺標記」。",
       "sentenceIndex": 8,
@@ -773,12 +747,10 @@ export default {
         "notification badge"
       ],
       "optionReasons": {
-        "notification-mcq-03": "本句指「以小圓點／數字顯示未讀通知數量的視覺標記」。",
-        "notification-mcq-02": "「應用程式主動向裝置推送、即使程式未開啟也可顯示的通知」與本句語境不同。",
-        "notification-mcq-04": "「暫時在螢幕上彈出的通知顯示形式」與本句語境不同。",
-        "notification-mcq-01": "「手機／應用程式自動顯示、告知使用者有新活動的提示」與本句語境不同。",
-        "notification-mcq-05": "「集中查看近期通知的系統介面」與本句語境不同。",
-        "notification-mcq-06": "「控制通知是否顯示、發聲、震動等的設定」與本句語境不同。"
+        "notification-mcq-03": "本句的「notification badge」指「以小圓點／數字顯示未讀通知數量的視覺標記」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-03"
     },
@@ -790,11 +762,9 @@ export default {
       "masked": "She turned off ____ badges.",
       "options": [
         "notification-mcq-03",
-        "notification-mcq-02",
-        "notification-mcq-04",
-        "notification-mcq-01",
-        "notification-mcq-05",
-        "notification-mcq-06"
+        "notification-mcq-09",
+        "notification-mcq-18",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「notification」指「以小圓點／數字顯示未讀通知數量的視覺標記」。",
       "sentenceIndex": 9,
@@ -803,12 +773,10 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-03": "本句指「以小圓點／數字顯示未讀通知數量的視覺標記」。",
-        "notification-mcq-02": "「應用程式主動向裝置推送、即使程式未開啟也可顯示的通知」與本句語境不同。",
-        "notification-mcq-04": "「暫時在螢幕上彈出的通知顯示形式」與本句語境不同。",
-        "notification-mcq-01": "「手機／應用程式自動顯示、告知使用者有新活動的提示」與本句語境不同。",
-        "notification-mcq-05": "「集中查看近期通知的系統介面」與本句語境不同。",
-        "notification-mcq-06": "「控制通知是否顯示、發聲、震動等的設定」與本句語境不同。"
+        "notification-mcq-03": "本句的「notification」指「以小圓點／數字顯示未讀通知數量的視覺標記」。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-03"
     },
@@ -820,11 +788,9 @@ export default {
       "masked": "A ____ appeared at the top of the screen.",
       "options": [
         "notification-mcq-04",
-        "notification-mcq-03",
-        "notification-mcq-05",
-        "notification-mcq-02",
-        "notification-mcq-06",
-        "notification-mcq-01"
+        "notification-mcq-09",
+        "notification-mcq-18",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「notification banner」指「暫時在螢幕上彈出的通知顯示形式」。",
       "sentenceIndex": 10,
@@ -833,12 +799,10 @@ export default {
         "notification banner"
       ],
       "optionReasons": {
-        "notification-mcq-04": "本句指「暫時在螢幕上彈出的通知顯示形式」。",
-        "notification-mcq-03": "「以小圓點／數字顯示未讀通知數量的視覺標記」與本句語境不同。",
-        "notification-mcq-05": "「集中查看近期通知的系統介面」與本句語境不同。",
-        "notification-mcq-02": "「應用程式主動向裝置推送、即使程式未開啟也可顯示的通知」與本句語境不同。",
-        "notification-mcq-06": "「控制通知是否顯示、發聲、震動等的設定」與本句語境不同。",
-        "notification-mcq-01": "「手機／應用程式自動顯示、告知使用者有新活動的提示」與本句語境不同。"
+        "notification-mcq-04": "本句的「notification banner」指「暫時在螢幕上彈出的通知顯示形式」。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-04"
     },
@@ -850,11 +814,8 @@ export default {
       "masked": "Swipe down to open the ____.",
       "options": [
         "notification-mcq-05",
-        "notification-mcq-04",
-        "notification-mcq-06",
-        "notification-mcq-03",
-        "notification-mcq-07",
-        "notification-mcq-02"
+        "notification-mcq-18",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「notification centre」指「集中查看近期通知的系統介面」。",
       "sentenceIndex": 11,
@@ -863,12 +824,9 @@ export default {
         "notification centre"
       ],
       "optionReasons": {
-        "notification-mcq-05": "本句指「集中查看近期通知的系統介面」。",
-        "notification-mcq-04": "「暫時在螢幕上彈出的通知顯示形式」與本句語境不同。",
-        "notification-mcq-06": "「控制通知是否顯示、發聲、震動等的設定」與本句語境不同。",
-        "notification-mcq-03": "「以小圓點／數字顯示未讀通知數量的視覺標記」與本句語境不同。",
-        "notification-mcq-07": "「讓通知仍可到達，但停止聲音／震動提示」與本句語境不同。",
-        "notification-mcq-02": "「應用程式主動向裝置推送、即使程式未開啟也可顯示的通知」與本句語境不同。"
+        "notification-mcq-05": "本句的「notification centre」指「集中查看近期通知的系統介面」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-05"
     },
@@ -880,11 +838,8 @@ export default {
       "masked": "All recent alerts appear in the ____ centre.",
       "options": [
         "notification-mcq-05",
-        "notification-mcq-04",
-        "notification-mcq-06",
-        "notification-mcq-03",
-        "notification-mcq-07",
-        "notification-mcq-02"
+        "notification-mcq-18",
+        "notification-mcq-12"
       ],
       "explanation": "本句的「notification」指「集中查看近期通知的系統介面」。",
       "sentenceIndex": 12,
@@ -893,12 +848,9 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-05": "本句指「集中查看近期通知的系統介面」。",
-        "notification-mcq-04": "「暫時在螢幕上彈出的通知顯示形式」與本句語境不同。",
-        "notification-mcq-06": "「控制通知是否顯示、發聲、震動等的設定」與本句語境不同。",
-        "notification-mcq-03": "「以小圓點／數字顯示未讀通知數量的視覺標記」與本句語境不同。",
-        "notification-mcq-07": "「讓通知仍可到達，但停止聲音／震動提示」與本句語境不同。",
-        "notification-mcq-02": "「應用程式主動向裝置推送、即使程式未開啟也可顯示的通知」與本句語境不同。"
+        "notification-mcq-05": "本句的「notification」指「集中查看近期通知的系統介面」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-05"
     },
@@ -910,11 +862,9 @@ export default {
       "masked": "You can change your ____.",
       "options": [
         "notification-mcq-06",
-        "notification-mcq-05",
-        "notification-mcq-07",
-        "notification-mcq-04",
-        "notification-mcq-08",
-        "notification-mcq-03"
+        "notification-mcq-18",
+        "notification-mcq-09",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「notification settings」指「控制通知是否顯示、發聲、震動等的設定」。",
       "sentenceIndex": 13,
@@ -923,12 +873,10 @@ export default {
         "notification settings"
       ],
       "optionReasons": {
-        "notification-mcq-06": "本句指「控制通知是否顯示、發聲、震動等的設定」。",
-        "notification-mcq-05": "「集中查看近期通知的系統介面」與本句語境不同。",
-        "notification-mcq-07": "「讓通知仍可到達，但停止聲音／震動提示」與本句語境不同。",
-        "notification-mcq-04": "「暫時在螢幕上彈出的通知顯示形式」與本句語境不同。",
-        "notification-mcq-08": "「停止某應用程式／來源發送或顯示通知」與本句語境不同。",
-        "notification-mcq-03": "「以小圓點／數字顯示未讀通知數量的視覺標記」與本句語境不同。"
+        "notification-mcq-06": "本句的「notification settings」指「控制通知是否顯示、發聲、震動等的設定」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-06"
     },
@@ -940,11 +888,9 @@ export default {
       "masked": "She adjusted ____ settings to reduce distractions.",
       "options": [
         "notification-mcq-06",
-        "notification-mcq-05",
-        "notification-mcq-07",
-        "notification-mcq-04",
-        "notification-mcq-08",
-        "notification-mcq-03"
+        "notification-mcq-18",
+        "notification-mcq-09",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「notification」指「控制通知是否顯示、發聲、震動等的設定」。",
       "sentenceIndex": 14,
@@ -953,12 +899,10 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-06": "本句指「控制通知是否顯示、發聲、震動等的設定」。",
-        "notification-mcq-05": "「集中查看近期通知的系統介面」與本句語境不同。",
-        "notification-mcq-07": "「讓通知仍可到達，但停止聲音／震動提示」與本句語境不同。",
-        "notification-mcq-04": "「暫時在螢幕上彈出的通知顯示形式」與本句語境不同。",
-        "notification-mcq-08": "「停止某應用程式／來源發送或顯示通知」與本句語境不同。",
-        "notification-mcq-03": "「以小圓點／數字顯示未讀通知數量的視覺標記」與本句語境不同。"
+        "notification-mcq-06": "本句的「notification」指「控制通知是否顯示、發聲、震動等的設定」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-06"
     },
@@ -970,11 +914,8 @@ export default {
       "masked": "She ____ for the group chat.",
       "options": [
         "notification-mcq-07",
-        "notification-mcq-06",
-        "notification-mcq-08",
-        "notification-mcq-05",
-        "notification-mcq-09",
-        "notification-mcq-04"
+        "notification-mcq-18",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「muted notifications」指「讓通知仍可到達，但停止聲音／震動提示」。",
       "sentenceIndex": 19,
@@ -983,12 +924,9 @@ export default {
         "muted notifications"
       ],
       "optionReasons": {
-        "notification-mcq-07": "本句指「讓通知仍可到達，但停止聲音／震動提示」。",
-        "notification-mcq-06": "「控制通知是否顯示、發聲、震動等的設定」與本句語境不同。",
-        "notification-mcq-08": "「停止某應用程式／來源發送或顯示通知」與本句語境不同。",
-        "notification-mcq-05": "「集中查看近期通知的系統介面」與本句語境不同。",
-        "notification-mcq-09": "「作業系統／軟件產生的資訊提示」與本句語境不同。",
-        "notification-mcq-04": "「暫時在螢幕上彈出的通知顯示形式」與本句語境不同。"
+        "notification-mcq-07": "本句的「muted notifications」指「讓通知仍可到達，但停止聲音／震動提示」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-07"
     },
@@ -1000,11 +938,8 @@ export default {
       "masked": "You can mute ____ for one hour.",
       "options": [
         "notification-mcq-07",
-        "notification-mcq-06",
-        "notification-mcq-08",
-        "notification-mcq-05",
-        "notification-mcq-09",
-        "notification-mcq-04"
+        "notification-mcq-18",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「notifications」指「讓通知仍可到達，但停止聲音／震動提示」。",
       "sentenceIndex": 20,
@@ -1013,12 +948,9 @@ export default {
         "notifications"
       ],
       "optionReasons": {
-        "notification-mcq-07": "本句指「讓通知仍可到達，但停止聲音／震動提示」。",
-        "notification-mcq-06": "「控制通知是否顯示、發聲、震動等的設定」與本句語境不同。",
-        "notification-mcq-08": "「停止某應用程式／來源發送或顯示通知」與本句語境不同。",
-        "notification-mcq-05": "「集中查看近期通知的系統介面」與本句語境不同。",
-        "notification-mcq-09": "「作業系統／軟件產生的資訊提示」與本句語境不同。",
-        "notification-mcq-04": "「暫時在螢幕上彈出的通知顯示形式」與本句語境不同。"
+        "notification-mcq-07": "本句的「notifications」指「讓通知仍可到達，但停止聲音／震動提示」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-07"
     },
@@ -1030,11 +962,9 @@ export default {
       "masked": "A ____ appeared after the update.",
       "options": [
         "notification-mcq-09",
-        "notification-mcq-08",
-        "notification-mcq-10",
-        "notification-mcq-07",
-        "notification-mcq-11",
-        "notification-mcq-06"
+        "notification-mcq-23",
+        "notification-mcq-27",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「system notification」指「作業系統／軟件產生的資訊提示」。",
       "sentenceIndex": 33,
@@ -1043,12 +973,10 @@ export default {
         "system notification"
       ],
       "optionReasons": {
-        "notification-mcq-09": "本句指「作業系統／軟件產生的資訊提示」。",
-        "notification-mcq-08": "「停止某應用程式／來源發送或顯示通知」與本句語境不同。",
-        "notification-mcq-10": "「與登入、風險、異常活動等安全事件有關的通知」與本句語境不同。",
-        "notification-mcq-07": "「讓通知仍可到達，但停止聲音／震動提示」與本句語境不同。",
-        "notification-mcq-11": "「告知包裹即將／已經派送的通知」與本句語境不同。",
-        "notification-mcq-06": "「控制通知是否顯示、發聲、震動等的設定」與本句語境不同。"
+        "notification-mcq-09": "本句的「system notification」指「作業系統／軟件產生的資訊提示」。",
+        "notification-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-09"
     },
@@ -1060,11 +988,9 @@ export default {
       "masked": "System ____ may require immediate attention.",
       "options": [
         "notification-mcq-09",
-        "notification-mcq-08",
-        "notification-mcq-10",
-        "notification-mcq-07",
-        "notification-mcq-11",
-        "notification-mcq-06"
+        "notification-mcq-23",
+        "notification-mcq-18",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「notifications」指「作業系統／軟件產生的資訊提示」。",
       "sentenceIndex": 34,
@@ -1073,12 +999,10 @@ export default {
         "notifications"
       ],
       "optionReasons": {
-        "notification-mcq-09": "本句指「作業系統／軟件產生的資訊提示」。",
-        "notification-mcq-08": "「停止某應用程式／來源發送或顯示通知」與本句語境不同。",
-        "notification-mcq-10": "「與登入、風險、異常活動等安全事件有關的通知」與本句語境不同。",
-        "notification-mcq-07": "「讓通知仍可到達，但停止聲音／震動提示」與本句語境不同。",
-        "notification-mcq-11": "「告知包裹即將／已經派送的通知」與本句語境不同。",
-        "notification-mcq-06": "「控制通知是否顯示、發聲、震動等的設定」與本句語境不同。"
+        "notification-mcq-09": "本句的「notifications」指「作業系統／軟件產生的資訊提示」。",
+        "notification-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-09"
     },
@@ -1090,11 +1014,9 @@ export default {
       "masked": "She received a ____ about a new login.",
       "options": [
         "notification-mcq-10",
-        "notification-mcq-09",
-        "notification-mcq-11",
-        "notification-mcq-08",
-        "notification-mcq-12",
-        "notification-mcq-07"
+        "notification-mcq-18",
+        "notification-mcq-15",
+        "notification-mcq-09"
       ],
       "explanation": "本句的「security notification」指「與登入、風險、異常活動等安全事件有關的通知」。",
       "sentenceIndex": 35,
@@ -1103,12 +1025,10 @@ export default {
         "security notification"
       ],
       "optionReasons": {
-        "notification-mcq-10": "本句指「與登入、風險、異常活動等安全事件有關的通知」。",
-        "notification-mcq-09": "「作業系統／軟件產生的資訊提示」與本句語境不同。",
-        "notification-mcq-11": "「告知包裹即將／已經派送的通知」與本句語境不同。",
-        "notification-mcq-08": "「停止某應用程式／來源發送或顯示通知」與本句語境不同。",
-        "notification-mcq-12": "「告知付款／交易已發生的提示」與本句語境不同。",
-        "notification-mcq-07": "「讓通知仍可到達，但停止聲音／震動提示」與本句語境不同。"
+        "notification-mcq-10": "本句的「security notification」指「與登入、風險、異常活動等安全事件有關的通知」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-10"
     },
@@ -1120,11 +1040,9 @@ export default {
       "masked": "The service sent a ____ after detecting unusual activity.",
       "options": [
         "notification-mcq-10",
-        "notification-mcq-09",
-        "notification-mcq-11",
-        "notification-mcq-08",
-        "notification-mcq-12",
-        "notification-mcq-07"
+        "notification-mcq-18",
+        "notification-mcq-15",
+        "notification-mcq-09"
       ],
       "explanation": "本句的「notification」指「與登入、風險、異常活動等安全事件有關的通知」。",
       "sentenceIndex": 36,
@@ -1133,12 +1051,10 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-10": "本句指「與登入、風險、異常活動等安全事件有關的通知」。",
-        "notification-mcq-09": "「作業系統／軟件產生的資訊提示」與本句語境不同。",
-        "notification-mcq-11": "「告知包裹即將／已經派送的通知」與本句語境不同。",
-        "notification-mcq-08": "「停止某應用程式／來源發送或顯示通知」與本句語境不同。",
-        "notification-mcq-12": "「告知付款／交易已發生的提示」與本句語境不同。",
-        "notification-mcq-07": "「讓通知仍可到達，但停止聲音／震動提示」與本句語境不同。"
+        "notification-mcq-10": "本句的「notification」指「與登入、風險、異常活動等安全事件有關的通知」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-10"
     },
@@ -1150,11 +1066,8 @@ export default {
       "masked": "I received a ____ this morning.",
       "options": [
         "notification-mcq-11",
-        "notification-mcq-10",
-        "notification-mcq-12",
         "notification-mcq-09",
-        "notification-mcq-13",
-        "notification-mcq-08"
+        "notification-mcq-18"
       ],
       "explanation": "本句的「delivery notification」指「告知包裹即將／已經派送的通知」。",
       "sentenceIndex": 39,
@@ -1163,12 +1076,9 @@ export default {
         "delivery notification"
       ],
       "optionReasons": {
-        "notification-mcq-11": "本句指「告知包裹即將／已經派送的通知」。",
-        "notification-mcq-10": "「與登入、風險、異常活動等安全事件有關的通知」與本句語境不同。",
-        "notification-mcq-12": "「告知付款／交易已發生的提示」與本句語境不同。",
-        "notification-mcq-09": "「作業系統／軟件產生的資訊提示」與本句語境不同。",
-        "notification-mcq-13": "「以正式方式告知某項決定、變動、要求或事件」與本句語境不同。",
-        "notification-mcq-08": "「停止某應用程式／來源發送或顯示通知」與本句語境不同。"
+        "notification-mcq-11": "本句的「delivery notification」指「告知包裹即將／已經派送的通知」。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-11"
     },
@@ -1180,11 +1090,8 @@ export default {
       "masked": "The courier sends a ____ before delivery.",
       "options": [
         "notification-mcq-11",
-        "notification-mcq-10",
-        "notification-mcq-12",
-        "notification-mcq-09",
-        "notification-mcq-13",
-        "notification-mcq-08"
+        "notification-mcq-18",
+        "notification-mcq-09"
       ],
       "explanation": "本句的「notification」指「告知包裹即將／已經派送的通知」。",
       "sentenceIndex": 40,
@@ -1193,12 +1100,9 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-11": "本句指「告知包裹即將／已經派送的通知」。",
-        "notification-mcq-10": "「與登入、風險、異常活動等安全事件有關的通知」與本句語境不同。",
-        "notification-mcq-12": "「告知付款／交易已發生的提示」與本句語境不同。",
-        "notification-mcq-09": "「作業系統／軟件產生的資訊提示」與本句語境不同。",
-        "notification-mcq-13": "「以正式方式告知某項決定、變動、要求或事件」與本句語境不同。",
-        "notification-mcq-08": "「停止某應用程式／來源發送或顯示通知」與本句語境不同。"
+        "notification-mcq-11": "本句的「notification」指「告知包裹即將／已經派送的通知」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-11"
     },
@@ -1210,11 +1114,8 @@ export default {
       "masked": "She receives a ____ after every purchase.",
       "options": [
         "notification-mcq-12",
-        "notification-mcq-11",
-        "notification-mcq-13",
-        "notification-mcq-10",
-        "notification-mcq-14",
-        "notification-mcq-09"
+        "notification-mcq-18",
+        "notification-mcq-02"
       ],
       "explanation": "本句的「transaction notification」指「告知付款／交易已發生的提示」。",
       "sentenceIndex": 45,
@@ -1223,12 +1124,9 @@ export default {
         "transaction notification"
       ],
       "optionReasons": {
-        "notification-mcq-12": "本句指「告知付款／交易已發生的提示」。",
-        "notification-mcq-11": "「告知包裹即將／已經派送的通知」與本句語境不同。",
-        "notification-mcq-13": "「以正式方式告知某項決定、變動、要求或事件」與本句語境不同。",
-        "notification-mcq-10": "「與登入、風險、異常活動等安全事件有關的通知」與本句語境不同。",
-        "notification-mcq-14": "「以書面形式發出的正式通知」與本句語境不同。",
-        "notification-mcq-09": "「作業系統／軟件產生的資訊提示」與本句語境不同。"
+        "notification-mcq-12": "本句的「transaction notification」指「告知付款／交易已發生的提示」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-12"
     },
@@ -1240,11 +1138,8 @@ export default {
       "masked": "The ____ showed the amount and merchant.",
       "options": [
         "notification-mcq-12",
-        "notification-mcq-11",
-        "notification-mcq-13",
-        "notification-mcq-10",
-        "notification-mcq-14",
-        "notification-mcq-09"
+        "notification-mcq-27",
+        "notification-mcq-05"
       ],
       "explanation": "本句的「notification」指「告知付款／交易已發生的提示」。",
       "sentenceIndex": 46,
@@ -1253,12 +1148,9 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-12": "本句指「告知付款／交易已發生的提示」。",
-        "notification-mcq-11": "「告知包裹即將／已經派送的通知」與本句語境不同。",
-        "notification-mcq-13": "「以正式方式告知某項決定、變動、要求或事件」與本句語境不同。",
-        "notification-mcq-10": "「與登入、風險、異常活動等安全事件有關的通知」與本句語境不同。",
-        "notification-mcq-14": "「以書面形式發出的正式通知」與本句語境不同。",
-        "notification-mcq-09": "「作業系統／軟件產生的資訊提示」與本句語境不同。"
+        "notification-mcq-12": "本句的「notification」指「告知付款／交易已發生的提示」。",
+        "notification-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-12"
     },
@@ -1270,11 +1162,8 @@ export default {
       "masked": "Employees received formal ____ of the change.",
       "options": [
         "notification-mcq-13",
-        "notification-mcq-12",
-        "notification-mcq-14",
-        "notification-mcq-11",
-        "notification-mcq-15",
-        "notification-mcq-10"
+        "notification-mcq-22",
+        "notification-mcq-09"
       ],
       "explanation": "本句的「notification」指「以正式方式告知某項決定、變動、要求或事件」。",
       "sentenceIndex": 47,
@@ -1283,12 +1172,9 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-13": "本句指「以正式方式告知某項決定、變動、要求或事件」。",
-        "notification-mcq-12": "「告知付款／交易已發生的提示」與本句語境不同。",
-        "notification-mcq-14": "「以書面形式發出的正式通知」與本句語境不同。",
-        "notification-mcq-11": "「告知包裹即將／已經派送的通知」與本句語境不同。",
-        "notification-mcq-15": "「在事情發生前預先告知」與本句語境不同。",
-        "notification-mcq-10": "「與登入、風險、異常活動等安全事件有關的通知」與本句語境不同。"
+        "notification-mcq-13": "本句的「notification」指「以正式方式告知某項決定、變動、要求或事件」。",
+        "notification-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-13"
     },
@@ -1300,11 +1186,8 @@ export default {
       "masked": "Written ____ is required.",
       "options": [
         "notification-mcq-13",
-        "notification-mcq-12",
-        "notification-mcq-14",
-        "notification-mcq-11",
-        "notification-mcq-15",
-        "notification-mcq-10"
+        "notification-mcq-09",
+        "notification-mcq-03"
       ],
       "explanation": "本句的「notification」指「以正式方式告知某項決定、變動、要求或事件」。",
       "sentenceIndex": 48,
@@ -1313,12 +1196,9 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-13": "本句指「以正式方式告知某項決定、變動、要求或事件」。",
-        "notification-mcq-12": "「告知付款／交易已發生的提示」與本句語境不同。",
-        "notification-mcq-14": "「以書面形式發出的正式通知」與本句語境不同。",
-        "notification-mcq-11": "「告知包裹即將／已經派送的通知」與本句語境不同。",
-        "notification-mcq-15": "「在事情發生前預先告知」與本句語境不同。",
-        "notification-mcq-10": "「與登入、風險、異常活動等安全事件有關的通知」與本句語境不同。"
+        "notification-mcq-13": "本句的「notification」指「以正式方式告知某項決定、變動、要求或事件」。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-13"
     },
@@ -1330,11 +1210,7 @@ export default {
       "masked": "The tenant must provide ____.",
       "options": [
         "notification-mcq-14",
-        "notification-mcq-13",
-        "notification-mcq-15",
-        "notification-mcq-12",
-        "notification-mcq-16",
-        "notification-mcq-11"
+        "notification-mcq-01"
       ],
       "explanation": "本句的「written notification」指「以書面形式發出的正式通知」。",
       "sentenceIndex": 49,
@@ -1343,12 +1219,8 @@ export default {
         "written notification"
       ],
       "optionReasons": {
-        "notification-mcq-14": "本句指「以書面形式發出的正式通知」。",
-        "notification-mcq-13": "「以正式方式告知某項決定、變動、要求或事件」與本句語境不同。",
-        "notification-mcq-15": "「在事情發生前預先告知」與本句語境不同。",
-        "notification-mcq-12": "「告知付款／交易已發生的提示」與本句語境不同。",
-        "notification-mcq-16": "「按規定把某事件／交易向監管機構正式通報」與本句語境不同。",
-        "notification-mcq-11": "「告知包裹即將／已經派送的通知」與本句語境不同。"
+        "notification-mcq-14": "本句的「written notification」指「以書面形式發出的正式通知」。",
+        "notification-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-14"
     },
@@ -1360,11 +1232,7 @@ export default {
       "masked": "Written ____ was sent to all members.",
       "options": [
         "notification-mcq-14",
-        "notification-mcq-13",
-        "notification-mcq-15",
-        "notification-mcq-12",
-        "notification-mcq-16",
-        "notification-mcq-11"
+        "notification-mcq-01"
       ],
       "explanation": "本句的「notification」指「以書面形式發出的正式通知」。",
       "sentenceIndex": 50,
@@ -1373,12 +1241,8 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-14": "本句指「以書面形式發出的正式通知」。",
-        "notification-mcq-13": "「以正式方式告知某項決定、變動、要求或事件」與本句語境不同。",
-        "notification-mcq-15": "「在事情發生前預先告知」與本句語境不同。",
-        "notification-mcq-12": "「告知付款／交易已發生的提示」與本句語境不同。",
-        "notification-mcq-16": "「按規定把某事件／交易向監管機構正式通報」與本句語境不同。",
-        "notification-mcq-11": "「告知包裹即將／已經派送的通知」與本句語境不同。"
+        "notification-mcq-14": "本句的「notification」指「以書面形式發出的正式通知」。",
+        "notification-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-14"
     },
@@ -1390,11 +1254,9 @@ export default {
       "masked": "The change cannot be made without ____.",
       "options": [
         "notification-mcq-15",
-        "notification-mcq-14",
-        "notification-mcq-16",
-        "notification-mcq-13",
-        "notification-mcq-17",
-        "notification-mcq-12"
+        "notification-mcq-27",
+        "notification-mcq-03",
+        "notification-mcq-09"
       ],
       "explanation": "本句的「prior notification」指「在事情發生前預先告知」。",
       "sentenceIndex": 55,
@@ -1403,12 +1265,10 @@ export default {
         "prior notification"
       ],
       "optionReasons": {
-        "notification-mcq-15": "本句指「在事情發生前預先告知」。",
-        "notification-mcq-14": "「以書面形式發出的正式通知」與本句語境不同。",
-        "notification-mcq-16": "「按規定把某事件／交易向監管機構正式通報」與本句語境不同。",
-        "notification-mcq-13": "「以正式方式告知某項決定、變動、要求或事件」與本句語境不同。",
-        "notification-mcq-17": "「把疾病／個案正式呈報給有關當局」與本句語境不同。",
-        "notification-mcq-12": "「告知付款／交易已發生的提示」與本句語境不同。"
+        "notification-mcq-15": "本句的「prior notification」指「在事情發生前預先告知」。",
+        "notification-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-15"
     },
@@ -1420,11 +1280,9 @@ export default {
       "masked": "Prior ____ is required under the agreement.",
       "options": [
         "notification-mcq-15",
-        "notification-mcq-14",
-        "notification-mcq-16",
-        "notification-mcq-13",
-        "notification-mcq-17",
-        "notification-mcq-12"
+        "notification-mcq-27",
+        "notification-mcq-03",
+        "notification-mcq-09"
       ],
       "explanation": "本句的「notification」指「在事情發生前預先告知」。",
       "sentenceIndex": 56,
@@ -1433,12 +1291,10 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-15": "本句指「在事情發生前預先告知」。",
-        "notification-mcq-14": "「以書面形式發出的正式通知」與本句語境不同。",
-        "notification-mcq-16": "「按規定把某事件／交易向監管機構正式通報」與本句語境不同。",
-        "notification-mcq-13": "「以正式方式告知某項決定、變動、要求或事件」與本句語境不同。",
-        "notification-mcq-17": "「把疾病／個案正式呈報給有關當局」與本句語境不同。",
-        "notification-mcq-12": "「告知付款／交易已發生的提示」與本句語境不同。"
+        "notification-mcq-15": "本句的「notification」指「在事情發生前預先告知」。",
+        "notification-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-15"
     },
@@ -1450,11 +1306,8 @@ export default {
       "masked": "The contract requires ____ within seven days.",
       "options": [
         "notification-mcq-13",
-        "notification-mcq-12",
-        "notification-mcq-14",
-        "notification-mcq-11",
-        "notification-mcq-15",
-        "notification-mcq-10"
+        "notification-mcq-03",
+        "notification-mcq-09"
       ],
       "explanation": "本句的「notification」指「以正式方式告知某項決定、變動、要求或事件」。",
       "sentenceIndex": 59,
@@ -1463,12 +1316,9 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-13": "本句指「以正式方式告知某項決定、變動、要求或事件」。",
-        "notification-mcq-12": "「告知付款／交易已發生的提示」與本句語境不同。",
-        "notification-mcq-14": "「以書面形式發出的正式通知」與本句語境不同。",
-        "notification-mcq-11": "「告知包裹即將／已經派送的通知」與本句語境不同。",
-        "notification-mcq-15": "「在事情發生前預先告知」與本句語境不同。",
-        "notification-mcq-10": "「與登入、風險、異常活動等安全事件有關的通知」與本句語境不同。"
+        "notification-mcq-13": "本句的「notification」指「以正式方式告知某項決定、變動、要求或事件」。",
+        "notification-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-13"
     },
@@ -1480,11 +1330,8 @@ export default {
       "masked": "Failure to provide ____ may affect the claim.",
       "options": [
         "notification-mcq-13",
-        "notification-mcq-12",
-        "notification-mcq-14",
-        "notification-mcq-11",
-        "notification-mcq-15",
-        "notification-mcq-10"
+        "notification-mcq-19",
+        "notification-mcq-09"
       ],
       "explanation": "本句的「notification」指「以正式方式告知某項決定、變動、要求或事件」。",
       "sentenceIndex": 60,
@@ -1493,12 +1340,9 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-13": "本句指「以正式方式告知某項決定、變動、要求或事件」。",
-        "notification-mcq-12": "「告知付款／交易已發生的提示」與本句語境不同。",
-        "notification-mcq-14": "「以書面形式發出的正式通知」與本句語境不同。",
-        "notification-mcq-11": "「告知包裹即將／已經派送的通知」與本句語境不同。",
-        "notification-mcq-15": "「在事情發生前預先告知」與本句語境不同。",
-        "notification-mcq-10": "「與登入、風險、異常活動等安全事件有關的通知」與本句語境不同。"
+        "notification-mcq-13": "本句的「notification」指「以正式方式告知某項決定、變動、要求或事件」。",
+        "notification-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-13"
     },
@@ -1510,10 +1354,6 @@ export default {
       "masked": "The agreement contains a ____.",
       "options": [
         "notification-mcq-29",
-        "notification-mcq-28",
-        "notification-mcq-27",
-        "notification-mcq-26",
-        "notification-mcq-25",
         "notification-mcq-24"
       ],
       "explanation": "本句的「notification requirement」指「法律、合約或程序中要求作出通知的規定」。",
@@ -1523,12 +1363,8 @@ export default {
         "notification requirement"
       ],
       "optionReasons": {
-        "notification-mcq-29": "本句指「法律、合約或程序中要求作出通知的規定」。",
-        "notification-mcq-28": "「必須提前通知或可作出通知的規定時間」與本句語境不同。",
-        "notification-mcq-27": "「法律／規則要求必須被正式通報的」與本句語境不同。",
-        "notification-mcq-26": "「收到正式／系統通知」與本句語境不同。",
-        "notification-mcq-25": "「正式告知某人 X」與本句語境不同。",
-        "notification-mcq-24": "「把某項資訊正式／直接告知某人」與本句語境不同。"
+        "notification-mcq-29": "本句的「notification requirement」指「法律、合約或程序中要求作出通知的規定」。",
+        "notification-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-29"
     },
@@ -1540,11 +1376,7 @@ export default {
       "masked": "Failure to meet ____ requirements may cause delays.",
       "options": [
         "notification-mcq-29",
-        "notification-mcq-28",
-        "notification-mcq-27",
-        "notification-mcq-26",
-        "notification-mcq-25",
-        "notification-mcq-24"
+        "notification-mcq-12"
       ],
       "explanation": "本句的「notification」指「法律、合約或程序中要求作出通知的規定」。",
       "sentenceIndex": 62,
@@ -1553,12 +1385,8 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-29": "本句指「法律、合約或程序中要求作出通知的規定」。",
-        "notification-mcq-28": "「必須提前通知或可作出通知的規定時間」與本句語境不同。",
-        "notification-mcq-27": "「法律／規則要求必須被正式通報的」與本句語境不同。",
-        "notification-mcq-26": "「收到正式／系統通知」與本句語境不同。",
-        "notification-mcq-25": "「正式告知某人 X」與本句語境不同。",
-        "notification-mcq-24": "「把某項資訊正式／直接告知某人」與本句語境不同。"
+        "notification-mcq-29": "本句的「notification」指「法律、合約或程序中要求作出通知的規定」。",
+        "notification-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-29"
     },
@@ -1571,10 +1399,7 @@ export default {
       "options": [
         "notification-mcq-16",
         "notification-mcq-15",
-        "notification-mcq-17",
-        "notification-mcq-14",
-        "notification-mcq-18",
-        "notification-mcq-13"
+        "notification-mcq-07"
       ],
       "explanation": "本句的「regulatory notification」指「按規定把某事件／交易向監管機構正式通報」。",
       "sentenceIndex": 63,
@@ -1583,12 +1408,9 @@ export default {
         "regulatory notification"
       ],
       "optionReasons": {
-        "notification-mcq-16": "本句指「按規定把某事件／交易向監管機構正式通報」。",
-        "notification-mcq-15": "「在事情發生前預先告知」與本句語境不同。",
-        "notification-mcq-17": "「把疾病／個案正式呈報給有關當局」與本句語境不同。",
-        "notification-mcq-14": "「以書面形式發出的正式通知」與本句語境不同。",
-        "notification-mcq-18": "「法律／規例要求正式呈報的疾病」與本句語境不同。",
-        "notification-mcq-13": "「以正式方式告知某項決定、變動、要求或事件」與本句語境不同。"
+        "notification-mcq-16": "本句的「regulatory notification」指「按規定把某事件／交易向監管機構正式通報」。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-16"
     },
@@ -1601,10 +1423,8 @@ export default {
       "options": [
         "notification-mcq-16",
         "notification-mcq-15",
-        "notification-mcq-17",
-        "notification-mcq-14",
-        "notification-mcq-18",
-        "notification-mcq-13"
+        "notification-mcq-23",
+        "notification-mcq-09"
       ],
       "explanation": "本句的「notification」指「按規定把某事件／交易向監管機構正式通報」。",
       "sentenceIndex": 64,
@@ -1613,12 +1433,10 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-16": "本句指「按規定把某事件／交易向監管機構正式通報」。",
-        "notification-mcq-15": "「在事情發生前預先告知」與本句語境不同。",
-        "notification-mcq-17": "「把疾病／個案正式呈報給有關當局」與本句語境不同。",
-        "notification-mcq-14": "「以書面形式發出的正式通知」與本句語境不同。",
-        "notification-mcq-18": "「法律／規例要求正式呈報的疾病」與本句語境不同。",
-        "notification-mcq-13": "「以正式方式告知某項決定、變動、要求或事件」與本句語境不同。"
+        "notification-mcq-16": "本句的「notification」指「按規定把某事件／交易向監管機構正式通報」。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-16"
     },
@@ -1631,10 +1449,8 @@ export default {
       "options": [
         "notification-mcq-16",
         "notification-mcq-15",
-        "notification-mcq-17",
-        "notification-mcq-14",
-        "notification-mcq-18",
-        "notification-mcq-13"
+        "notification-mcq-23",
+        "notification-mcq-09"
       ],
       "explanation": "本句的「notification」指「按規定把某事件／交易向監管機構正式通報」。",
       "sentenceIndex": 65,
@@ -1643,12 +1459,10 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-16": "本句指「按規定把某事件／交易向監管機構正式通報」。",
-        "notification-mcq-15": "「在事情發生前預先告知」與本句語境不同。",
-        "notification-mcq-17": "「把疾病／個案正式呈報給有關當局」與本句語境不同。",
-        "notification-mcq-14": "「以書面形式發出的正式通知」與本句語境不同。",
-        "notification-mcq-18": "「法律／規例要求正式呈報的疾病」與本句語境不同。",
-        "notification-mcq-13": "「以正式方式告知某項決定、變動、要求或事件」與本句語境不同。"
+        "notification-mcq-16": "本句的「notification」指「按規定把某事件／交易向監管機構正式通報」。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-16"
     },
@@ -1660,11 +1474,8 @@ export default {
       "masked": "The disease requires official ____.",
       "options": [
         "notification-mcq-13",
-        "notification-mcq-12",
-        "notification-mcq-14",
-        "notification-mcq-11",
-        "notification-mcq-15",
-        "notification-mcq-10"
+        "notification-mcq-19",
+        "notification-mcq-09"
       ],
       "explanation": "本句的「notification」指「以正式方式告知某項決定、變動、要求或事件」。",
       "sentenceIndex": 72,
@@ -1673,12 +1484,9 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-13": "本句指「以正式方式告知某項決定、變動、要求或事件」。",
-        "notification-mcq-12": "「告知付款／交易已發生的提示」與本句語境不同。",
-        "notification-mcq-14": "「以書面形式發出的正式通知」與本句語境不同。",
-        "notification-mcq-11": "「告知包裹即將／已經派送的通知」與本句語境不同。",
-        "notification-mcq-15": "「在事情發生前預先告知」與本句語境不同。",
-        "notification-mcq-10": "「與登入、風險、異常活動等安全事件有關的通知」與本句語境不同。"
+        "notification-mcq-13": "本句的「notification」指「以正式方式告知某項決定、變動、要求或事件」。",
+        "notification-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-13"
     },
@@ -1690,11 +1498,8 @@ export default {
       "masked": "____ of confirmed cases is mandatory.",
       "options": [
         "notification-mcq-13",
-        "notification-mcq-12",
-        "notification-mcq-14",
-        "notification-mcq-11",
-        "notification-mcq-15",
-        "notification-mcq-10"
+        "notification-mcq-09",
+        "notification-mcq-03"
       ],
       "explanation": "本句的「Notification」指「以正式方式告知某項決定、變動、要求或事件」。",
       "sentenceIndex": 73,
@@ -1703,12 +1508,9 @@ export default {
         "Notification"
       ],
       "optionReasons": {
-        "notification-mcq-13": "本句指「以正式方式告知某項決定、變動、要求或事件」。",
-        "notification-mcq-12": "「告知付款／交易已發生的提示」與本句語境不同。",
-        "notification-mcq-14": "「以書面形式發出的正式通知」與本句語境不同。",
-        "notification-mcq-11": "「告知包裹即將／已經派送的通知」與本句語境不同。",
-        "notification-mcq-15": "「在事情發生前預先告知」與本句語境不同。",
-        "notification-mcq-10": "「與登入、風險、異常活動等安全事件有關的通知」與本句語境不同。"
+        "notification-mcq-13": "本句的「Notification」指「以正式方式告知某項決定、變動、要求或事件」。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-13"
     },
@@ -1720,10 +1522,7 @@ export default {
       "masked": "Doctors must report certain ____.",
       "options": [
         "notification-mcq-18",
-        "notification-mcq-17",
-        "notification-mcq-19",
-        "notification-mcq-16",
-        "notification-mcq-20",
+        "notification-mcq-07",
         "notification-mcq-15"
       ],
       "explanation": "本句的「notifiable diseases」指「法律／規例要求正式呈報的疾病」。",
@@ -1733,12 +1532,9 @@ export default {
         "notifiable diseases"
       ],
       "optionReasons": {
-        "notification-mcq-18": "本句指「法律／規例要求正式呈報的疾病」。",
-        "notification-mcq-17": "「把疾病／個案正式呈報給有關當局」與本句語境不同。",
-        "notification-mcq-19": "「緊急情況下向受影響人士發出的警報／通知」與本句語境不同。",
-        "notification-mcq-16": "「按規定把某事件／交易向監管機構正式通報」與本句語境不同。",
-        "notification-mcq-20": "「同時向大量人士發送的通知」與本句語境不同。",
-        "notification-mcq-15": "「在事情發生前預先告知」與本句語境不同。"
+        "notification-mcq-18": "本句的「notifiable diseases」指「法律／規例要求正式呈報的疾病」。",
+        "notification-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-18"
     },
@@ -1750,11 +1546,9 @@ export default {
       "masked": "Residents received an ____.",
       "options": [
         "notification-mcq-19",
+        "notification-mcq-09",
         "notification-mcq-18",
-        "notification-mcq-20",
-        "notification-mcq-17",
-        "notification-mcq-21",
-        "notification-mcq-16"
+        "notification-mcq-15"
       ],
       "explanation": "本句的「emergency notification」指「緊急情況下向受影響人士發出的警報／通知」。",
       "sentenceIndex": 77,
@@ -1763,12 +1557,10 @@ export default {
         "emergency notification"
       ],
       "optionReasons": {
-        "notification-mcq-19": "本句指「緊急情況下向受影響人士發出的警報／通知」。",
-        "notification-mcq-18": "「法律／規例要求正式呈報的疾病」與本句語境不同。",
-        "notification-mcq-20": "「同時向大量人士發送的通知」與本句語境不同。",
-        "notification-mcq-17": "「把疾病／個案正式呈報給有關當局」與本句語境不同。",
-        "notification-mcq-21": "「自動產生、管理和傳送通知的系統」與本句語境不同。",
-        "notification-mcq-16": "「按規定把某事件／交易向監管機構正式通報」與本句語境不同。"
+        "notification-mcq-19": "本句的「emergency notification」指「緊急情況下向受影響人士發出的警報／通知」。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-19"
     },
@@ -1780,11 +1572,9 @@ export default {
       "masked": "The emergency ____ warned people to leave the area.",
       "options": [
         "notification-mcq-19",
+        "notification-mcq-09",
         "notification-mcq-18",
-        "notification-mcq-20",
-        "notification-mcq-17",
-        "notification-mcq-21",
-        "notification-mcq-16"
+        "notification-mcq-15"
       ],
       "explanation": "本句的「notification」指「緊急情況下向受影響人士發出的警報／通知」。",
       "sentenceIndex": 78,
@@ -1793,12 +1583,10 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-19": "本句指「緊急情況下向受影響人士發出的警報／通知」。",
-        "notification-mcq-18": "「法律／規例要求正式呈報的疾病」與本句語境不同。",
-        "notification-mcq-20": "「同時向大量人士發送的通知」與本句語境不同。",
-        "notification-mcq-17": "「把疾病／個案正式呈報給有關當局」與本句語境不同。",
-        "notification-mcq-21": "「自動產生、管理和傳送通知的系統」與本句語境不同。",
-        "notification-mcq-16": "「按規定把某事件／交易向監管機構正式通報」與本句語境不同。"
+        "notification-mcq-19": "本句的「notification」指「緊急情況下向受影響人士發出的警報／通知」。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-19"
     },
@@ -1810,11 +1598,9 @@ export default {
       "masked": "The university uses a ____.",
       "options": [
         "notification-mcq-20",
-        "notification-mcq-19",
-        "notification-mcq-21",
         "notification-mcq-18",
-        "notification-mcq-22",
-        "notification-mcq-17"
+        "notification-mcq-09",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「mass notification system」指「同時向大量人士發送的通知」。",
       "sentenceIndex": 79,
@@ -1823,12 +1609,10 @@ export default {
         "mass notification system"
       ],
       "optionReasons": {
-        "notification-mcq-20": "本句指「同時向大量人士發送的通知」。",
-        "notification-mcq-19": "「緊急情況下向受影響人士發出的警報／通知」與本句語境不同。",
-        "notification-mcq-21": "「自動產生、管理和傳送通知的系統」與本句語境不同。",
-        "notification-mcq-18": "「法律／規例要求正式呈報的疾病」與本句語境不同。",
-        "notification-mcq-22": "「通知數量太多，令使用者難以處理或專注的狀態」與本句語境不同。",
-        "notification-mcq-17": "「把疾病／個案正式呈報給有關當局」與本句語境不同。"
+        "notification-mcq-20": "本句的「mass notification system」指「同時向大量人士發送的通知」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-20"
     },
@@ -1840,11 +1624,9 @@ export default {
       "masked": "Mass ____ can reach thousands of people at once.",
       "options": [
         "notification-mcq-20",
-        "notification-mcq-19",
-        "notification-mcq-21",
         "notification-mcq-18",
-        "notification-mcq-22",
-        "notification-mcq-17"
+        "notification-mcq-09",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「notifications」指「同時向大量人士發送的通知」。",
       "sentenceIndex": 80,
@@ -1853,12 +1635,10 @@ export default {
         "notifications"
       ],
       "optionReasons": {
-        "notification-mcq-20": "本句指「同時向大量人士發送的通知」。",
-        "notification-mcq-19": "「緊急情況下向受影響人士發出的警報／通知」與本句語境不同。",
-        "notification-mcq-21": "「自動產生、管理和傳送通知的系統」與本句語境不同。",
-        "notification-mcq-18": "「法律／規例要求正式呈報的疾病」與本句語境不同。",
-        "notification-mcq-22": "「通知數量太多，令使用者難以處理或專注的狀態」與本句語境不同。",
-        "notification-mcq-17": "「把疾病／個案正式呈報給有關當局」與本句語境不同。"
+        "notification-mcq-20": "本句的「notifications」指「同時向大量人士發送的通知」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-20"
     },
@@ -1870,11 +1650,7 @@ export default {
       "masked": "Please ____ if anything changes.",
       "options": [
         "notification-mcq-24",
-        "notification-mcq-23",
-        "notification-mcq-25",
-        "notification-mcq-22",
-        "notification-mcq-26",
-        "notification-mcq-21"
+        "notification-mcq-22"
       ],
       "explanation": "本句的「notify me」指「把某項資訊正式／直接告知某人」。",
       "sentenceIndex": 83,
@@ -1883,12 +1659,8 @@ export default {
         "notify me"
       ],
       "optionReasons": {
-        "notification-mcq-24": "本句指「把某項資訊正式／直接告知某人」。",
-        "notification-mcq-23": "「因長期收到大量通知而逐漸麻木、厭倦或忽略通知」與本句語境不同。",
-        "notification-mcq-25": "「正式告知某人 X」與本句語境不同。",
-        "notification-mcq-22": "「通知數量太多，令使用者難以處理或專注的狀態」與本句語境不同。",
-        "notification-mcq-26": "「收到正式／系統通知」與本句語境不同。",
-        "notification-mcq-21": "「自動產生、管理和傳送通知的系統」與本句語境不同。"
+        "notification-mcq-24": "本句的「notify me」指「把某項資訊正式／直接告知某人」。",
+        "notification-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-24"
     },
@@ -1900,11 +1672,7 @@ export default {
       "masked": "We will ____.",
       "options": [
         "notification-mcq-24",
-        "notification-mcq-23",
-        "notification-mcq-25",
-        "notification-mcq-22",
-        "notification-mcq-26",
-        "notification-mcq-21"
+        "notification-mcq-22"
       ],
       "explanation": "本句的「notify you of the result」指「把某項資訊正式／直接告知某人」。",
       "sentenceIndex": 84,
@@ -1913,12 +1681,8 @@ export default {
         "notify you of the result"
       ],
       "optionReasons": {
-        "notification-mcq-24": "本句指「把某項資訊正式／直接告知某人」。",
-        "notification-mcq-23": "「因長期收到大量通知而逐漸麻木、厭倦或忽略通知」與本句語境不同。",
-        "notification-mcq-25": "「正式告知某人 X」與本句語境不同。",
-        "notification-mcq-22": "「通知數量太多，令使用者難以處理或專注的狀態」與本句語境不同。",
-        "notification-mcq-26": "「收到正式／系統通知」與本句語境不同。",
-        "notification-mcq-21": "「自動產生、管理和傳送通知的系統」與本句語境不同。"
+        "notification-mcq-24": "本句的「notify you of the result」指「把某項資訊正式／直接告知某人」。",
+        "notification-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-24"
     },
@@ -1930,11 +1694,7 @@ export default {
       "masked": "Users were ____ the update.",
       "options": [
         "notification-mcq-24",
-        "notification-mcq-23",
-        "notification-mcq-25",
-        "notification-mcq-22",
-        "notification-mcq-26",
-        "notification-mcq-21"
+        "notification-mcq-23"
       ],
       "explanation": "本句的「notified about」指「把某項資訊正式／直接告知某人」。",
       "sentenceIndex": 85,
@@ -1943,12 +1703,8 @@ export default {
         "notified about"
       ],
       "optionReasons": {
-        "notification-mcq-24": "本句指「把某項資訊正式／直接告知某人」。",
-        "notification-mcq-23": "「因長期收到大量通知而逐漸麻木、厭倦或忽略通知」與本句語境不同。",
-        "notification-mcq-25": "「正式告知某人 X」與本句語境不同。",
-        "notification-mcq-22": "「通知數量太多，令使用者難以處理或專注的狀態」與本句語境不同。",
-        "notification-mcq-26": "「收到正式／系統通知」與本句語境不同。",
-        "notification-mcq-21": "「自動產生、管理和傳送通知的系統」與本句語境不同。"
+        "notification-mcq-24": "本句的「notified about」指「把某項資訊正式／直接告知某人」。",
+        "notification-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-24"
     },
@@ -1960,11 +1716,7 @@ export default {
       "masked": "They ____ the event had been cancelled.",
       "options": [
         "notification-mcq-24",
-        "notification-mcq-23",
-        "notification-mcq-25",
-        "notification-mcq-22",
-        "notification-mcq-26",
-        "notification-mcq-21"
+        "notification-mcq-28"
       ],
       "explanation": "本句的「notified us that」指「把某項資訊正式／直接告知某人」。",
       "sentenceIndex": 86,
@@ -1973,12 +1725,8 @@ export default {
         "notified us that"
       ],
       "optionReasons": {
-        "notification-mcq-24": "本句指「把某項資訊正式／直接告知某人」。",
-        "notification-mcq-23": "「因長期收到大量通知而逐漸麻木、厭倦或忽略通知」與本句語境不同。",
-        "notification-mcq-25": "「正式告知某人 X」與本句語境不同。",
-        "notification-mcq-22": "「通知數量太多，令使用者難以處理或專注的狀態」與本句語境不同。",
-        "notification-mcq-26": "「收到正式／系統通知」與本句語境不同。",
-        "notification-mcq-21": "「自動產生、管理和傳送通知的系統」與本句語境不同。"
+        "notification-mcq-24": "本句的「notified us that」指「把某項資訊正式／直接告知某人」。",
+        "notification-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-24"
     },
@@ -1990,11 +1738,7 @@ export default {
       "masked": "You will ____ when the order ships.",
       "options": [
         "notification-mcq-26",
-        "notification-mcq-25",
-        "notification-mcq-27",
-        "notification-mcq-24",
-        "notification-mcq-28",
-        "notification-mcq-23"
+        "notification-mcq-15"
       ],
       "explanation": "本句的「be notified」指「收到正式／系統通知」。",
       "sentenceIndex": 87,
@@ -2003,12 +1747,8 @@ export default {
         "be notified"
       ],
       "optionReasons": {
-        "notification-mcq-26": "本句指「收到正式／系統通知」。",
-        "notification-mcq-25": "「正式告知某人 X」與本句語境不同。",
-        "notification-mcq-27": "「法律／規則要求必須被正式通報的」與本句語境不同。",
-        "notification-mcq-24": "「把某項資訊正式／直接告知某人」與本句語境不同。",
-        "notification-mcq-28": "「必須提前通知或可作出通知的規定時間」與本句語境不同。",
-        "notification-mcq-23": "「因長期收到大量通知而逐漸麻木、厭倦或忽略通知」與本句語境不同。"
+        "notification-mcq-26": "本句的「be notified」指「收到正式／系統通知」。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-26"
     },
@@ -2020,11 +1760,7 @@ export default {
       "masked": "Staff were ____.",
       "options": [
         "notification-mcq-26",
-        "notification-mcq-25",
-        "notification-mcq-27",
-        "notification-mcq-24",
-        "notification-mcq-28",
-        "notification-mcq-23"
+        "notification-mcq-12"
       ],
       "explanation": "本句的「notified of the change」指「收到正式／系統通知」。",
       "sentenceIndex": 88,
@@ -2033,12 +1769,8 @@ export default {
         "notified of the change"
       ],
       "optionReasons": {
-        "notification-mcq-26": "本句指「收到正式／系統通知」。",
-        "notification-mcq-25": "「正式告知某人 X」與本句語境不同。",
-        "notification-mcq-27": "「法律／規則要求必須被正式通報的」與本句語境不同。",
-        "notification-mcq-24": "「把某項資訊正式／直接告知某人」與本句語境不同。",
-        "notification-mcq-28": "「必須提前通知或可作出通知的規定時間」與本句語境不同。",
-        "notification-mcq-23": "「因長期收到大量通知而逐漸麻木、厭倦或忽略通知」與本句語境不同。"
+        "notification-mcq-26": "本句的「notified of the change」指「收到正式／系統通知」。",
+        "notification-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-26"
     },
@@ -2050,11 +1782,7 @@ export default {
       "masked": "Please ____.",
       "options": [
         "notification-mcq-24",
-        "notification-mcq-23",
-        "notification-mcq-25",
-        "notification-mcq-22",
-        "notification-mcq-26",
-        "notification-mcq-21"
+        "notification-mcq-22"
       ],
       "explanation": "本句的「notify us in advance」指「把某項資訊正式／直接告知某人」。",
       "sentenceIndex": 89,
@@ -2063,12 +1791,8 @@ export default {
         "notify us in advance"
       ],
       "optionReasons": {
-        "notification-mcq-24": "本句指「把某項資訊正式／直接告知某人」。",
-        "notification-mcq-23": "「因長期收到大量通知而逐漸麻木、厭倦或忽略通知」與本句語境不同。",
-        "notification-mcq-25": "「正式告知某人 X」與本句語境不同。",
-        "notification-mcq-22": "「通知數量太多，令使用者難以處理或專注的狀態」與本句語境不同。",
-        "notification-mcq-26": "「收到正式／系統通知」與本句語境不同。",
-        "notification-mcq-21": "「自動產生、管理和傳送通知的系統」與本句語境不同。"
+        "notification-mcq-24": "本句的「notify us in advance」指「把某項資訊正式／直接告知某人」。",
+        "notification-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-24"
     },
@@ -2080,11 +1804,8 @@ export default {
       "masked": "The company upgraded its ____.",
       "options": [
         "notification-mcq-21",
-        "notification-mcq-20",
-        "notification-mcq-22",
-        "notification-mcq-19",
-        "notification-mcq-23",
-        "notification-mcq-18"
+        "notification-mcq-18",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「notification system」指「自動產生、管理和傳送通知的系統」。",
       "sentenceIndex": 92,
@@ -2093,12 +1814,9 @@ export default {
         "notification system"
       ],
       "optionReasons": {
-        "notification-mcq-21": "本句指「自動產生、管理和傳送通知的系統」。",
-        "notification-mcq-20": "「同時向大量人士發送的通知」與本句語境不同。",
-        "notification-mcq-22": "「通知數量太多，令使用者難以處理或專注的狀態」與本句語境不同。",
-        "notification-mcq-19": "「緊急情況下向受影響人士發出的警報／通知」與本句語境不同。",
-        "notification-mcq-23": "「因長期收到大量通知而逐漸麻木、厭倦或忽略通知」與本句語境不同。",
-        "notification-mcq-18": "「法律／規例要求正式呈報的疾病」與本句語境不同。"
+        "notification-mcq-21": "本句的「notification system」指「自動產生、管理和傳送通知的系統」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-21"
     },
@@ -2110,11 +1828,9 @@ export default {
       "masked": "She suffered from ____.",
       "options": [
         "notification-mcq-22",
-        "notification-mcq-21",
-        "notification-mcq-23",
-        "notification-mcq-20",
-        "notification-mcq-24",
-        "notification-mcq-19"
+        "notification-mcq-18",
+        "notification-mcq-09",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「notification overload」指「通知數量太多，令使用者難以處理或專注的狀態」。",
       "sentenceIndex": 109,
@@ -2123,12 +1839,10 @@ export default {
         "notification overload"
       ],
       "optionReasons": {
-        "notification-mcq-22": "本句指「通知數量太多，令使用者難以處理或專注的狀態」。",
-        "notification-mcq-21": "「自動產生、管理和傳送通知的系統」與本句語境不同。",
-        "notification-mcq-23": "「因長期收到大量通知而逐漸麻木、厭倦或忽略通知」與本句語境不同。",
-        "notification-mcq-20": "「同時向大量人士發送的通知」與本句語境不同。",
-        "notification-mcq-24": "「把某項資訊正式／直接告知某人」與本句語境不同。",
-        "notification-mcq-19": "「緊急情況下向受影響人士發出的警報／通知」與本句語境不同。"
+        "notification-mcq-22": "本句的「notification overload」指「通知數量太多，令使用者難以處理或專注的狀態」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-22"
     },
@@ -2140,11 +1854,9 @@ export default {
       "masked": "____ overload can reduce concentration.",
       "options": [
         "notification-mcq-22",
-        "notification-mcq-21",
-        "notification-mcq-23",
-        "notification-mcq-20",
-        "notification-mcq-24",
-        "notification-mcq-19"
+        "notification-mcq-18",
+        "notification-mcq-09",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「Notification」指「通知數量太多，令使用者難以處理或專注的狀態」。",
       "sentenceIndex": 110,
@@ -2153,12 +1865,10 @@ export default {
         "Notification"
       ],
       "optionReasons": {
-        "notification-mcq-22": "本句指「通知數量太多，令使用者難以處理或專注的狀態」。",
-        "notification-mcq-21": "「自動產生、管理和傳送通知的系統」與本句語境不同。",
-        "notification-mcq-23": "「因長期收到大量通知而逐漸麻木、厭倦或忽略通知」與本句語境不同。",
-        "notification-mcq-20": "「同時向大量人士發送的通知」與本句語境不同。",
-        "notification-mcq-24": "「把某項資訊正式／直接告知某人」與本句語境不同。",
-        "notification-mcq-19": "「緊急情況下向受影響人士發出的警報／通知」與本句語境不同。"
+        "notification-mcq-22": "本句的「Notification」指「通知數量太多，令使用者難以處理或專注的狀態」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-22"
     },
@@ -2170,11 +1880,9 @@ export default {
       "masked": "Too many alerts can cause ____.",
       "options": [
         "notification-mcq-23",
-        "notification-mcq-22",
-        "notification-mcq-24",
-        "notification-mcq-21",
-        "notification-mcq-25",
-        "notification-mcq-20"
+        "notification-mcq-18",
+        "notification-mcq-09",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「notification fatigue」指「因長期收到大量通知而逐漸麻木、厭倦或忽略通知」。",
       "sentenceIndex": 111,
@@ -2183,12 +1891,10 @@ export default {
         "notification fatigue"
       ],
       "optionReasons": {
-        "notification-mcq-23": "本句指「因長期收到大量通知而逐漸麻木、厭倦或忽略通知」。",
-        "notification-mcq-22": "「通知數量太多，令使用者難以處理或專注的狀態」與本句語境不同。",
-        "notification-mcq-24": "「把某項資訊正式／直接告知某人」與本句語境不同。",
-        "notification-mcq-21": "「自動產生、管理和傳送通知的系統」與本句語境不同。",
-        "notification-mcq-25": "「正式告知某人 X」與本句語境不同。",
-        "notification-mcq-20": "「同時向大量人士發送的通知」與本句語境不同。"
+        "notification-mcq-23": "本句的「notification fatigue」指「因長期收到大量通知而逐漸麻木、厭倦或忽略通知」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-23"
     },
@@ -2200,11 +1906,9 @@ export default {
       "masked": "____ fatigue can make users ignore important alerts.",
       "options": [
         "notification-mcq-23",
-        "notification-mcq-22",
-        "notification-mcq-24",
-        "notification-mcq-21",
-        "notification-mcq-25",
-        "notification-mcq-20"
+        "notification-mcq-18",
+        "notification-mcq-09",
+        "notification-mcq-15"
       ],
       "explanation": "本句的「Notification」指「因長期收到大量通知而逐漸麻木、厭倦或忽略通知」。",
       "sentenceIndex": 112,
@@ -2213,12 +1917,10 @@ export default {
         "Notification"
       ],
       "optionReasons": {
-        "notification-mcq-23": "本句指「因長期收到大量通知而逐漸麻木、厭倦或忽略通知」。",
-        "notification-mcq-22": "「通知數量太多，令使用者難以處理或專注的狀態」與本句語境不同。",
-        "notification-mcq-24": "「把某項資訊正式／直接告知某人」與本句語境不同。",
-        "notification-mcq-21": "「自動產生、管理和傳送通知的系統」與本句語境不同。",
-        "notification-mcq-25": "「正式告知某人 X」與本句語境不同。",
-        "notification-mcq-20": "「同時向大量人士發送的通知」與本句語境不同。"
+        "notification-mcq-23": "本句的「Notification」指「因長期收到大量通知而逐漸麻木、厭倦或忽略通知」。",
+        "notification-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-23"
     },
@@ -2230,11 +1932,9 @@ export default {
       "masked": "The disease is ____.",
       "options": [
         "notification-mcq-27",
-        "notification-mcq-26",
-        "notification-mcq-28",
-        "notification-mcq-25",
-        "notification-mcq-29",
-        "notification-mcq-24"
+        "notification-mcq-15",
+        "notification-mcq-09",
+        "notification-mcq-23"
       ],
       "explanation": "本句的「notifiable」指「法律／規則要求必須被正式通報的」。",
       "sentenceIndex": 147,
@@ -2243,12 +1943,10 @@ export default {
         "notifiable"
       ],
       "optionReasons": {
-        "notification-mcq-27": "本句指「法律／規則要求必須被正式通報的」。",
-        "notification-mcq-26": "「收到正式／系統通知」與本句語境不同。",
-        "notification-mcq-28": "「必須提前通知或可作出通知的規定時間」與本句語境不同。",
-        "notification-mcq-25": "「正式告知某人 X」與本句語境不同。",
-        "notification-mcq-29": "「法律、合約或程序中要求作出通知的規定」與本句語境不同。",
-        "notification-mcq-24": "「把某項資訊正式／直接告知某人」與本句語境不同。"
+        "notification-mcq-27": "本句的「notifiable」指「法律／規則要求必須被正式通報的」。",
+        "notification-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-27"
     },
@@ -2260,11 +1958,8 @@ export default {
       "masked": "The contract sets a thirty-day ____.",
       "options": [
         "notification-mcq-28",
-        "notification-mcq-27",
-        "notification-mcq-29",
-        "notification-mcq-26",
-        "notification-mcq-25",
-        "notification-mcq-24"
+        "notification-mcq-09",
+        "notification-mcq-13"
       ],
       "explanation": "本句的「notification period」指「必須提前通知或可作出通知的規定時間」。",
       "sentenceIndex": 152,
@@ -2273,12 +1968,9 @@ export default {
         "notification period"
       ],
       "optionReasons": {
-        "notification-mcq-28": "本句指「必須提前通知或可作出通知的規定時間」。",
-        "notification-mcq-27": "「法律／規則要求必須被正式通報的」與本句語境不同。",
-        "notification-mcq-29": "「法律、合約或程序中要求作出通知的規定」與本句語境不同。",
-        "notification-mcq-26": "「收到正式／系統通知」與本句語境不同。",
-        "notification-mcq-25": "「正式告知某人 X」與本句語境不同。",
-        "notification-mcq-24": "「把某項資訊正式／直接告知某人」與本句語境不同。"
+        "notification-mcq-28": "本句的「notification period」指「必須提前通知或可作出通知的規定時間」。",
+        "notification-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "notification-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-28"
     },
@@ -2290,10 +1982,6 @@ export default {
       "masked": "The ____ period must be observed.",
       "options": [
         "notification-mcq-28",
-        "notification-mcq-27",
-        "notification-mcq-29",
-        "notification-mcq-26",
-        "notification-mcq-25",
         "notification-mcq-24"
       ],
       "explanation": "本句的「notification」指「必須提前通知或可作出通知的規定時間」。",
@@ -2303,12 +1991,8 @@ export default {
         "notification"
       ],
       "optionReasons": {
-        "notification-mcq-28": "本句指「必須提前通知或可作出通知的規定時間」。",
-        "notification-mcq-27": "「法律／規則要求必須被正式通報的」與本句語境不同。",
-        "notification-mcq-29": "「法律、合約或程序中要求作出通知的規定」與本句語境不同。",
-        "notification-mcq-26": "「收到正式／系統通知」與本句語境不同。",
-        "notification-mcq-25": "「正式告知某人 X」與本句語境不同。",
-        "notification-mcq-24": "「把某項資訊正式／直接告知某人」與本句語境不同。"
+        "notification-mcq-28": "本句的「notification」指「必須提前通知或可作出通知的規定時間」。",
+        "notification-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "notification-mcq-28"
     }
@@ -2320,5 +2004,7 @@ export default {
     "sha256": "3b261552823bda383623efbc9a1691861a7826fb3a8f97c1f53e968ce7faedd6",
     "pages": 58
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

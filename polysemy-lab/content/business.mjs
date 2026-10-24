@@ -519,11 +519,9 @@ export default {
       "masked": "She has worked in ____ for many years.",
       "options": [
         "business-mcq-02",
-        "business-mcq-01",
-        "business-mcq-03",
-        "business-mcq-04",
-        "business-mcq-05",
-        "business-mcq-06"
+        "business-mcq-15",
+        "business-mcq-19",
+        "business-mcq-12"
       ],
       "explanation": "本句的「business」指「買賣、經營企業、提供商品／服務等商業活動整體」。",
       "sentenceIndex": 0,
@@ -532,12 +530,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-02": "本句指「買賣、經營企業、提供商品／服務等商業活動整體」。",
-        "business-mcq-01": "「向顧客提供商品／服務、通常以賺取收入為目的的一間商業機構」是「business — enterprise」的用法，與本句語境不同。",
-        "business-mcq-03": "「某一類商品／服務所形成的商業行業」是「business — sector」的用法，與本句語境不同。",
-        "business-mcq-04": "「與工作、公司、交易或職務相關的公事／業務」是「business — work matters」的用法，與本句語境不同。",
-        "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。",
-        "business-mcq-06": "「需要認真處理、完成或解決的事情」是「business — matter/task」的用法，與本句語境不同。"
+        "business-mcq-02": "本句的「business」指「買賣、經營企業、提供商品／服務等商業活動整體」。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-02"
     },
@@ -549,11 +545,9 @@ export default {
       "masked": "Trust is important in ____.",
       "options": [
         "business-mcq-02",
-        "business-mcq-01",
-        "business-mcq-03",
-        "business-mcq-04",
-        "business-mcq-05",
-        "business-mcq-06"
+        "business-mcq-13",
+        "business-mcq-15",
+        "business-mcq-12"
       ],
       "explanation": "本句的「business」指「買賣、經營企業、提供商品／服務等商業活動整體」。",
       "sentenceIndex": 1,
@@ -562,12 +556,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-02": "本句指「買賣、經營企業、提供商品／服務等商業活動整體」。",
-        "business-mcq-01": "「向顧客提供商品／服務、通常以賺取收入為目的的一間商業機構」是「business — enterprise」的用法，與本句語境不同。",
-        "business-mcq-03": "「某一類商品／服務所形成的商業行業」是「business — sector」的用法，與本句語境不同。",
-        "business-mcq-04": "「與工作、公司、交易或職務相關的公事／業務」是「business — work matters」的用法，與本句語境不同。",
-        "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。",
-        "business-mcq-06": "「需要認真處理、完成或解決的事情」是「business — matter/task」的用法，與本句語境不同。"
+        "business-mcq-02": "本句的「business」指「買賣、經營企業、提供商品／服務等商業活動整體」。",
+        "business-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-02"
     },
@@ -579,11 +571,9 @@ export default {
       "masked": "The restaurant ____ is highly competitive.",
       "options": [
         "business-mcq-03",
-        "business-mcq-02",
-        "business-mcq-04",
-        "business-mcq-01",
-        "business-mcq-05",
-        "business-mcq-06"
+        "business-mcq-13",
+        "business-mcq-15",
+        "business-mcq-16"
       ],
       "explanation": "本句的「business」指「某一類商品／服務所形成的商業行業」。",
       "sentenceIndex": 2,
@@ -592,12 +582,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-03": "本句指「某一類商品／服務所形成的商業行業」。",
-        "business-mcq-02": "「買賣、經營企業、提供商品／服務等商業活動整體」是「business — commerce」的用法，與本句語境不同。",
-        "business-mcq-04": "「與工作、公司、交易或職務相關的公事／業務」是「business — work matters」的用法，與本句語境不同。",
-        "business-mcq-01": "「向顧客提供商品／服務、通常以賺取收入為目的的一間商業機構」是「business — enterprise」的用法，與本句語境不同。",
-        "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。",
-        "business-mcq-06": "「需要認真處理、完成或解決的事情」是「business — matter/task」的用法，與本句語境不同。"
+        "business-mcq-03": "本句的「business」指「某一類商品／服務所形成的商業行業」。",
+        "business-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-03"
     },
@@ -609,11 +597,9 @@ export default {
       "masked": "He has worked in the music ____ for years.",
       "options": [
         "business-mcq-03",
-        "business-mcq-02",
-        "business-mcq-04",
-        "business-mcq-01",
-        "business-mcq-05",
-        "business-mcq-06"
+        "business-mcq-15",
+        "business-mcq-13",
+        "business-mcq-16"
       ],
       "explanation": "本句的「business」指「某一類商品／服務所形成的商業行業」。",
       "sentenceIndex": 3,
@@ -622,12 +608,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-03": "本句指「某一類商品／服務所形成的商業行業」。",
-        "business-mcq-02": "「買賣、經營企業、提供商品／服務等商業活動整體」是「business — commerce」的用法，與本句語境不同。",
-        "business-mcq-04": "「與工作、公司、交易或職務相關的公事／業務」是「business — work matters」的用法，與本句語境不同。",
-        "business-mcq-01": "「向顧客提供商品／服務、通常以賺取收入為目的的一間商業機構」是「business — enterprise」的用法，與本句語境不同。",
-        "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。",
-        "business-mcq-06": "「需要認真處理、完成或解決的事情」是「business — matter/task」的用法，與本句語境不同。"
+        "business-mcq-03": "本句的「business」指「某一類商品／服務所形成的商業行業」。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-03"
     },
@@ -639,11 +623,9 @@ export default {
       "masked": "I’m travelling to Tokyo on ____.",
       "options": [
         "business-mcq-04",
-        "business-mcq-03",
-        "business-mcq-05",
-        "business-mcq-02",
-        "business-mcq-06",
-        "business-mcq-01"
+        "business-mcq-14",
+        "business-mcq-15",
+        "business-mcq-16"
       ],
       "explanation": "本句的「business」指「與工作、公司、交易或職務相關的公事／業務」。",
       "sentenceIndex": 4,
@@ -652,12 +634,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-04": "本句指「與工作、公司、交易或職務相關的公事／業務」。",
-        "business-mcq-03": "「某一類商品／服務所形成的商業行業」是「business — sector」的用法，與本句語境不同。",
-        "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。",
-        "business-mcq-02": "「買賣、經營企業、提供商品／服務等商業活動整體」是「business — commerce」的用法，與本句語境不同。",
-        "business-mcq-06": "「需要認真處理、完成或解決的事情」是「business — matter/task」的用法，與本句語境不同。",
-        "business-mcq-01": "「向顧客提供商品／服務、通常以賺取收入為目的的一間商業機構」是「business — enterprise」的用法，與本句語境不同。"
+        "business-mcq-04": "本句的「business」指「與工作、公司、交易或職務相關的公事／業務」。",
+        "business-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-04"
     },
@@ -669,11 +649,9 @@ export default {
       "masked": "We have some ____ to discuss.",
       "options": [
         "business-mcq-04",
-        "business-mcq-03",
-        "business-mcq-05",
-        "business-mcq-02",
-        "business-mcq-06",
-        "business-mcq-01"
+        "business-mcq-14",
+        "business-mcq-15",
+        "business-mcq-16"
       ],
       "explanation": "本句的「business」指「與工作、公司、交易或職務相關的公事／業務」。",
       "sentenceIndex": 5,
@@ -682,12 +660,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-04": "本句指「與工作、公司、交易或職務相關的公事／業務」。",
-        "business-mcq-03": "「某一類商品／服務所形成的商業行業」是「business — sector」的用法，與本句語境不同。",
-        "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。",
-        "business-mcq-02": "「買賣、經營企業、提供商品／服務等商業活動整體」是「business — commerce」的用法，與本句語境不同。",
-        "business-mcq-06": "「需要認真處理、完成或解決的事情」是「business — matter/task」的用法，與本句語境不同。",
-        "business-mcq-01": "「向顧客提供商品／服務、通常以賺取收入為目的的一間商業機構」是「business — enterprise」的用法，與本句語境不同。"
+        "business-mcq-04": "本句的「business」指「與工作、公司、交易或職務相關的公事／業務」。",
+        "business-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-04"
     },
@@ -699,11 +675,9 @@ export default {
       "masked": "That is my ____, not yours.",
       "options": [
         "business-mcq-04",
-        "business-mcq-03",
-        "business-mcq-05",
-        "business-mcq-02",
-        "business-mcq-06",
-        "business-mcq-01"
+        "business-mcq-14",
+        "business-mcq-16",
+        "business-mcq-15"
       ],
       "explanation": "本句的「business」指「與工作、公司、交易或職務相關的公事／業務」。",
       "sentenceIndex": 6,
@@ -712,12 +686,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-04": "本句指「與工作、公司、交易或職務相關的公事／業務」。",
-        "business-mcq-03": "「某一類商品／服務所形成的商業行業」是「business — sector」的用法，與本句語境不同。",
-        "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。",
-        "business-mcq-02": "「買賣、經營企業、提供商品／服務等商業活動整體」是「business — commerce」的用法，與本句語境不同。",
-        "business-mcq-06": "「需要認真處理、完成或解決的事情」是「business — matter/task」的用法，與本句語境不同。",
-        "business-mcq-01": "「向顧客提供商品／服務、通常以賺取收入為目的的一間商業機構」是「business — enterprise」的用法，與本句語境不同。"
+        "business-mcq-04": "本句的「business」指「與工作、公司、交易或職務相關的公事／業務」。",
+        "business-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-04"
     },
@@ -729,11 +701,9 @@ export default {
       "masked": "What I do in my free time is my own ____.",
       "options": [
         "business-mcq-04",
-        "business-mcq-03",
-        "business-mcq-05",
-        "business-mcq-02",
-        "business-mcq-06",
-        "business-mcq-01"
+        "business-mcq-19",
+        "business-mcq-16",
+        "business-mcq-15"
       ],
       "explanation": "本句的「business」指「與工作、公司、交易或職務相關的公事／業務」。",
       "sentenceIndex": 7,
@@ -742,12 +712,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-04": "本句指「與工作、公司、交易或職務相關的公事／業務」。",
-        "business-mcq-03": "「某一類商品／服務所形成的商業行業」是「business — sector」的用法，與本句語境不同。",
-        "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。",
-        "business-mcq-02": "「買賣、經營企業、提供商品／服務等商業活動整體」是「business — commerce」的用法，與本句語境不同。",
-        "business-mcq-06": "「需要認真處理、完成或解決的事情」是「business — matter/task」的用法，與本句語境不同。",
-        "business-mcq-01": "「向顧客提供商品／服務、通常以賺取收入為目的的一間商業機構」是「business — enterprise」的用法，與本句語境不同。"
+        "business-mcq-04": "本句的「business」指「與工作、公司、交易或職務相關的公事／業務」。",
+        "business-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-04"
     },
@@ -759,11 +727,9 @@ export default {
       "masked": "Where I go is ____.",
       "options": [
         "business-mcq-15",
-        "business-mcq-14",
-        "business-mcq-16",
-        "business-mcq-13",
         "business-mcq-17",
-        "business-mcq-12"
+        "business-pdf-001",
+        "business-mcq-19"
       ],
       "explanation": "本句的「none of your business」指「某件事不屬於你的權限／關心範圍」。",
       "sentenceIndex": 8,
@@ -772,12 +738,10 @@ export default {
         "none of your business"
       ],
       "optionReasons": {
-        "business-mcq-15": "本句指「某件事不屬於你的權限／關心範圍」。",
-        "business-mcq-14": "「尚未完成、解決或處理的事情」是「unfinished business」的用法，與本句語境不同。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。",
-        "business-mcq-13": "「停止閒聊並開始處理主要事情」是「get down to business」的用法，與本句語境不同。",
-        "business-mcq-17": "「經營企業或專業從事商業活動的人」是「businessperson」的用法，與本句語境不同。",
-        "business-mcq-12": "「問題解決後恢復工作／運作」是「back in business」的用法，與本句語境不同。"
+        "business-mcq-15": "本句的「none of your business」指「某件事不屬於你的權限／關心範圍」。",
+        "business-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "business-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-15"
     },
@@ -789,11 +753,9 @@ export default {
       "masked": "How much I paid is none of his ____.",
       "options": [
         "business-mcq-15",
-        "business-mcq-14",
-        "business-mcq-16",
-        "business-mcq-13",
-        "business-mcq-17",
-        "business-mcq-12"
+        "business-mcq-04",
+        "business-mcq-19",
+        "business-mcq-10"
       ],
       "explanation": "本句的「business」指「某件事不屬於你的權限／關心範圍」。",
       "sentenceIndex": 9,
@@ -802,12 +764,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-15": "本句指「某件事不屬於你的權限／關心範圍」。",
-        "business-mcq-14": "「尚未完成、解決或處理的事情」是「unfinished business」的用法，與本句語境不同。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。",
-        "business-mcq-13": "「停止閒聊並開始處理主要事情」是「get down to business」的用法，與本句語境不同。",
-        "business-mcq-17": "「經營企業或專業從事商業活動的人」是「businessperson」的用法，與本句語境不同。",
-        "business-mcq-12": "「問題解決後恢復工作／運作」是「back in business」的用法，與本句語境不同。"
+        "business-mcq-15": "本句的「business」指「某件事不屬於你的權限／關心範圍」。",
+        "business-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-15"
     },
@@ -819,11 +779,9 @@ export default {
       "masked": "Why don’t you ____?",
       "options": [
         "business-pdf-001",
-        "business-mcq-05",
-        "business-mcq-07",
-        "business-mcq-04",
-        "business-mcq-08",
-        "business-mcq-03"
+        "business-mcq-17",
+        "business-mcq-16",
+        "business-mcq-15"
       ],
       "explanation": "本句的「mind your own business」指「不要干涉別人的私人事務」。",
       "sentenceIndex": 10,
@@ -832,12 +790,10 @@ export default {
         "mind your own business"
       ],
       "optionReasons": {
-        "business-pdf-001": "本句指「不要干涉別人的私人事務」。",
-        "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。",
-        "business-mcq-07": "「顧客交易所形成的營業活動／生意量」是「business — trade volume」的用法，與本句語境不同。",
-        "business-mcq-04": "「與工作、公司、交易或職務相關的公事／業務」是「business — work matters」的用法，與本句語境不同。",
-        "business-mcq-08": "「與某人／機構進行商業交易或合作」是「do business with」的用法，與本句語境不同。",
-        "business-mcq-03": "「某一類商品／服務所形成的商業行業」是「business — sector」的用法，與本句語境不同。"
+        "business-pdf-001": "本句的「mind your own business」指「不要干涉別人的私人事務」。",
+        "business-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-pdf-001"
     },
@@ -849,11 +805,9 @@ export default {
       "masked": "He told them to mind their own ____.",
       "options": [
         "business-pdf-001",
-        "business-mcq-05",
-        "business-mcq-07",
-        "business-mcq-04",
-        "business-mcq-08",
-        "business-mcq-03"
+        "business-mcq-14",
+        "business-mcq-11",
+        "business-mcq-16"
       ],
       "explanation": "本句的「business」指「不要干涉別人的私人事務」。",
       "sentenceIndex": 11,
@@ -862,12 +816,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-pdf-001": "本句指「不要干涉別人的私人事務」。",
-        "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。",
-        "business-mcq-07": "「顧客交易所形成的營業活動／生意量」是「business — trade volume」的用法，與本句語境不同。",
-        "business-mcq-04": "「與工作、公司、交易或職務相關的公事／業務」是「business — work matters」的用法，與本句語境不同。",
-        "business-mcq-08": "「與某人／機構進行商業交易或合作」是「do business with」的用法，與本句語境不同。",
-        "business-mcq-03": "「某一類商品／服務所形成的商業行業」是「business — sector」的用法，與本句語境不同。"
+        "business-pdf-001": "本句的「business」指「不要干涉別人的私人事務」。",
+        "business-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-pdf-001"
     },
@@ -879,11 +831,9 @@ export default {
       "masked": "Let’s get down to ____.",
       "options": [
         "business-mcq-06",
-        "business-mcq-05",
-        "business-mcq-07",
-        "business-mcq-04",
+        "business-mcq-20",
         "business-mcq-08",
-        "business-mcq-03"
+        "business-mcq-15"
       ],
       "explanation": "本句的「business」指「需要認真處理、完成或解決的事情」。",
       "sentenceIndex": 12,
@@ -892,12 +842,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-06": "本句指「需要認真處理、完成或解決的事情」。",
-        "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。",
-        "business-mcq-07": "「顧客交易所形成的營業活動／生意量」是「business — trade volume」的用法，與本句語境不同。",
-        "business-mcq-04": "「與工作、公司、交易或職務相關的公事／業務」是「business — work matters」的用法，與本句語境不同。",
-        "business-mcq-08": "「與某人／機構進行商業交易或合作」是「do business with」的用法，與本句語境不同。",
-        "business-mcq-03": "「某一類商品／服務所形成的商業行業」是「business — sector」的用法，與本句語境不同。"
+        "business-mcq-06": "本句的「business」指「需要認真處理、完成或解決的事情」。",
+        "business-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-06"
     },
@@ -909,11 +857,9 @@ export default {
       "masked": "We have unfinished ____.",
       "options": [
         "business-mcq-06",
-        "business-mcq-05",
-        "business-mcq-07",
-        "business-mcq-04",
-        "business-mcq-08",
-        "business-mcq-03"
+        "business-mcq-11",
+        "business-mcq-20",
+        "business-mcq-15"
       ],
       "explanation": "本句的「business」指「需要認真處理、完成或解決的事情」。",
       "sentenceIndex": 13,
@@ -922,12 +868,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-06": "本句指「需要認真處理、完成或解決的事情」。",
-        "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。",
-        "business-mcq-07": "「顧客交易所形成的營業活動／生意量」是「business — trade volume」的用法，與本句語境不同。",
-        "business-mcq-04": "「與工作、公司、交易或職務相關的公事／業務」是「business — work matters」的用法，與本句語境不同。",
-        "business-mcq-08": "「與某人／機構進行商業交易或合作」是「do business with」的用法，與本句語境不同。",
-        "business-mcq-03": "「某一類商品／服務所形成的商業行業」是「business — sector」的用法，與本句語境不同。"
+        "business-mcq-06": "本句的「business」指「需要認真處理、完成或解決的事情」。",
+        "business-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-06"
     },
@@ -939,11 +883,9 @@ export default {
       "masked": "After a few minutes of chatting, we got down to ____.",
       "options": [
         "business-mcq-13",
-        "business-mcq-12",
-        "business-mcq-14",
-        "business-mcq-11",
+        "business-mcq-07",
         "business-mcq-15",
-        "business-mcq-10"
+        "business-mcq-12"
       ],
       "explanation": "本句的「business」指「停止閒聊並開始處理主要事情」。",
       "sentenceIndex": 14,
@@ -952,12 +894,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-13": "本句指「停止閒聊並開始處理主要事情」。",
-        "business-mcq-12": "「問題解決後恢復工作／運作」是「back in business」的用法，與本句語境不同。",
-        "business-mcq-14": "「尚未完成、解決或處理的事情」是「unfinished business」的用法，與本句語境不同。",
-        "business-mcq-11": "「正在營業或從事商業經營」是「be in business」的用法，與本句語境不同。",
-        "business-mcq-15": "「某件事不屬於你的權限／關心範圍」是「none of your business」的用法，與本句語境不同。",
-        "business-mcq-10": "「因無法繼續經營而停止營業／倒閉」是「go out of business」的用法，與本句語境不同。"
+        "business-mcq-13": "本句的「business」指「停止閒聊並開始處理主要事情」。",
+        "business-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-13"
     },
@@ -969,11 +909,9 @@ export default {
       "masked": "Let’s get down to ____ and discuss the budget.",
       "options": [
         "business-mcq-13",
-        "business-mcq-12",
-        "business-mcq-14",
-        "business-mcq-11",
-        "business-mcq-15",
-        "business-mcq-10"
+        "business-mcq-04",
+        "business-mcq-02",
+        "business-mcq-15"
       ],
       "explanation": "本句的「business」指「停止閒聊並開始處理主要事情」。",
       "sentenceIndex": 15,
@@ -982,12 +920,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-13": "本句指「停止閒聊並開始處理主要事情」。",
-        "business-mcq-12": "「問題解決後恢復工作／運作」是「back in business」的用法，與本句語境不同。",
-        "business-mcq-14": "「尚未完成、解決或處理的事情」是「unfinished business」的用法，與本句語境不同。",
-        "business-mcq-11": "「正在營業或從事商業經營」是「be in business」的用法，與本句語境不同。",
-        "business-mcq-15": "「某件事不屬於你的權限／關心範圍」是「none of your business」的用法，與本句語境不同。",
-        "business-mcq-10": "「因無法繼續經營而停止營業／倒閉」是「go out of business」的用法，與本句語境不同。"
+        "business-mcq-13": "本句的「business」指「停止閒聊並開始處理主要事情」。",
+        "business-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-13"
     },
@@ -999,11 +935,9 @@ export default {
       "masked": "She returned because she had some ____.",
       "options": [
         "business-mcq-14",
-        "business-mcq-13",
-        "business-mcq-15",
-        "business-mcq-12",
-        "business-mcq-16",
-        "business-mcq-11"
+        "business-mcq-11",
+        "business-pdf-001",
+        "business-mcq-15"
       ],
       "explanation": "本句的「unfinished business」指「尚未完成、解決或處理的事情」。",
       "sentenceIndex": 16,
@@ -1012,12 +946,10 @@ export default {
         "unfinished business"
       ],
       "optionReasons": {
-        "business-mcq-14": "本句指「尚未完成、解決或處理的事情」。",
-        "business-mcq-13": "「停止閒聊並開始處理主要事情」是「get down to business」的用法，與本句語境不同。",
-        "business-mcq-15": "「某件事不屬於你的權限／關心範圍」是「none of your business」的用法，與本句語境不同。",
-        "business-mcq-12": "「問題解決後恢復工作／運作」是「back in business」的用法，與本句語境不同。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。",
-        "business-mcq-11": "「正在營業或從事商業經營」是「be in business」的用法，與本句語境不同。"
+        "business-mcq-14": "本句的「unfinished business」指「尚未完成、解決或處理的事情」。",
+        "business-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "business-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-14"
     },
@@ -1029,11 +961,9 @@ export default {
       "masked": "The disagreement left unfinished ____ between them.",
       "options": [
         "business-mcq-14",
-        "business-mcq-13",
+        "business-mcq-17",
         "business-mcq-15",
-        "business-mcq-12",
-        "business-mcq-16",
-        "business-mcq-11"
+        "business-mcq-16"
       ],
       "explanation": "本句的「business」指「尚未完成、解決或處理的事情」。",
       "sentenceIndex": 17,
@@ -1042,12 +972,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-14": "本句指「尚未完成、解決或處理的事情」。",
-        "business-mcq-13": "「停止閒聊並開始處理主要事情」是「get down to business」的用法，與本句語境不同。",
-        "business-mcq-15": "「某件事不屬於你的權限／關心範圍」是「none of your business」的用法，與本句語境不同。",
-        "business-mcq-12": "「問題解決後恢復工作／運作」是「back in business」的用法，與本句語境不同。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。",
-        "business-mcq-11": "「正在營業或從事商業經營」是「be in business」的用法，與本句語境不同。"
+        "business-mcq-14": "本句的「business」指「尚未完成、解決或處理的事情」。",
+        "business-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-14"
     },
@@ -1059,11 +987,9 @@ export default {
       "masked": "____ was slow this morning.",
       "options": [
         "business-mcq-07",
-        "business-mcq-06",
-        "business-mcq-08",
-        "business-mcq-05",
-        "business-mcq-09",
-        "business-mcq-04"
+        "business-pdf-001",
+        "business-mcq-12",
+        "business-mcq-15"
       ],
       "explanation": "本句的「Business」指「顧客交易所形成的營業活動／生意量」。",
       "sentenceIndex": 18,
@@ -1072,12 +998,10 @@ export default {
         "Business"
       ],
       "optionReasons": {
-        "business-mcq-07": "本句指「顧客交易所形成的營業活動／生意量」。",
-        "business-mcq-06": "「需要認真處理、完成或解決的事情」是「business — matter/task」的用法，與本句語境不同。",
-        "business-mcq-08": "「與某人／機構進行商業交易或合作」是「do business with」的用法，與本句語境不同。",
-        "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。",
-        "business-mcq-09": "「開始從事商業活動，尤其自己經營企業」是「go into business」的用法，與本句語境不同。",
-        "business-mcq-04": "「與工作、公司、交易或職務相關的公事／業務」是「business — work matters」的用法，與本句語境不同。"
+        "business-mcq-07": "本句的「Business」指「顧客交易所形成的營業活動／生意量」。",
+        "business-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-07"
     },
@@ -1089,11 +1013,9 @@ export default {
       "masked": "The bakery does a lot of ____ at lunchtime.",
       "options": [
         "business-mcq-07",
-        "business-mcq-06",
-        "business-mcq-08",
-        "business-mcq-05",
-        "business-mcq-09",
-        "business-mcq-04"
+        "business-pdf-001",
+        "business-mcq-12",
+        "business-mcq-13"
       ],
       "explanation": "本句的「business」指「顧客交易所形成的營業活動／生意量」。",
       "sentenceIndex": 19,
@@ -1102,12 +1024,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-07": "本句指「顧客交易所形成的營業活動／生意量」。",
-        "business-mcq-06": "「需要認真處理、完成或解決的事情」是「business — matter/task」的用法，與本句語境不同。",
-        "business-mcq-08": "「與某人／機構進行商業交易或合作」是「do business with」的用法，與本句語境不同。",
-        "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。",
-        "business-mcq-09": "「開始從事商業活動，尤其自己經營企業」是「go into business」的用法，與本句語境不同。",
-        "business-mcq-04": "「與工作、公司、交易或職務相關的公事／業務」是「business — work matters」的用法，與本句語境不同。"
+        "business-mcq-07": "本句的「business」指「顧客交易所形成的營業活動／生意量」。",
+        "business-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-07"
     },
@@ -1119,11 +1039,9 @@ export default {
       "masked": "The bakery does ____ with several local suppliers.",
       "options": [
         "business-mcq-08",
-        "business-mcq-07",
-        "business-mcq-09",
-        "business-mcq-06",
-        "business-mcq-10",
-        "business-mcq-05"
+        "business-mcq-15",
+        "business-mcq-14",
+        "business-mcq-20"
       ],
       "explanation": "本句的「business」指「與某人／機構進行商業交易或合作」。",
       "sentenceIndex": 20,
@@ -1132,12 +1050,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-08": "本句指「與某人／機構進行商業交易或合作」。",
-        "business-mcq-07": "「顧客交易所形成的營業活動／生意量」是「business — trade volume」的用法，與本句語境不同。",
-        "business-mcq-09": "「開始從事商業活動，尤其自己經營企業」是「go into business」的用法，與本句語境不同。",
-        "business-mcq-06": "「需要認真處理、完成或解決的事情」是「business — matter/task」的用法，與本句語境不同。",
-        "business-mcq-10": "「因無法繼續經營而停止營業／倒閉」是「go out of business」的用法，與本句語境不同。",
-        "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。"
+        "business-mcq-08": "本句的「business」指「與某人／機構進行商業交易或合作」。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-08"
     },
@@ -1149,11 +1065,9 @@ export default {
       "masked": "We no longer do ____ with that company.",
       "options": [
         "business-mcq-08",
-        "business-mcq-07",
-        "business-mcq-09",
-        "business-mcq-06",
-        "business-mcq-10",
-        "business-mcq-05"
+        "business-mcq-19",
+        "business-mcq-15",
+        "business-mcq-18"
       ],
       "explanation": "本句的「business」指「與某人／機構進行商業交易或合作」。",
       "sentenceIndex": 21,
@@ -1162,12 +1076,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-08": "本句指「與某人／機構進行商業交易或合作」。",
-        "business-mcq-07": "「顧客交易所形成的營業活動／生意量」是「business — trade volume」的用法，與本句語境不同。",
-        "business-mcq-09": "「開始從事商業活動，尤其自己經營企業」是「go into business」的用法，與本句語境不同。",
-        "business-mcq-06": "「需要認真處理、完成或解決的事情」是「business — matter/task」的用法，與本句語境不同。",
-        "business-mcq-10": "「因無法繼續經營而停止營業／倒閉」是「go out of business」的用法，與本句語境不同。",
-        "business-mcq-05": "「某人有權決定、處理或關心的私人事務」是「business — personal matter」的用法，與本句語境不同。"
+        "business-mcq-08": "本句的「business」指「與某人／機構進行商業交易或合作」。",
+        "business-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-08"
     },
@@ -1179,11 +1091,9 @@ export default {
       "masked": "She went into ____ after leaving university.",
       "options": [
         "business-mcq-09",
-        "business-mcq-08",
-        "business-mcq-10",
-        "business-mcq-07",
-        "business-mcq-11",
-        "business-mcq-06"
+        "business-mcq-15",
+        "business-mcq-19",
+        "business-pdf-001"
       ],
       "explanation": "本句的「business」指「開始從事商業活動，尤其自己經營企業」。",
       "sentenceIndex": 22,
@@ -1192,12 +1102,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-09": "本句指「開始從事商業活動，尤其自己經營企業」。",
-        "business-mcq-08": "「與某人／機構進行商業交易或合作」是「do business with」的用法，與本句語境不同。",
-        "business-mcq-10": "「因無法繼續經營而停止營業／倒閉」是「go out of business」的用法，與本句語境不同。",
-        "business-mcq-07": "「顧客交易所形成的營業活動／生意量」是「business — trade volume」的用法，與本句語境不同。",
-        "business-mcq-11": "「正在營業或從事商業經營」是「be in business」的用法，與本句語境不同。",
-        "business-mcq-06": "「需要認真處理、完成或解決的事情」是「business — matter/task」的用法，與本句語境不同。"
+        "business-mcq-09": "本句的「business」指「開始從事商業活動，尤其自己經營企業」。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "business-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-09"
     },
@@ -1209,11 +1117,9 @@ export default {
       "masked": "They went into ____ together.",
       "options": [
         "business-mcq-09",
-        "business-mcq-08",
-        "business-mcq-10",
-        "business-mcq-07",
-        "business-mcq-11",
-        "business-mcq-06"
+        "business-pdf-001",
+        "business-mcq-19",
+        "business-mcq-15"
       ],
       "explanation": "本句的「business」指「開始從事商業活動，尤其自己經營企業」。",
       "sentenceIndex": 23,
@@ -1222,12 +1128,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-09": "本句指「開始從事商業活動，尤其自己經營企業」。",
-        "business-mcq-08": "「與某人／機構進行商業交易或合作」是「do business with」的用法，與本句語境不同。",
-        "business-mcq-10": "「因無法繼續經營而停止營業／倒閉」是「go out of business」的用法，與本句語境不同。",
-        "business-mcq-07": "「顧客交易所形成的營業活動／生意量」是「business — trade volume」的用法，與本句語境不同。",
-        "business-mcq-11": "「正在營業或從事商業經營」是「be in business」的用法，與本句語境不同。",
-        "business-mcq-06": "「需要認真處理、完成或解決的事情」是「business — matter/task」的用法，與本句語境不同。"
+        "business-mcq-09": "本句的「business」指「開始從事商業活動，尤其自己經營企業」。",
+        "business-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-09"
     },
@@ -1239,11 +1143,9 @@ export default {
       "masked": "Several small shops went out of ____.",
       "options": [
         "business-mcq-10",
-        "business-mcq-09",
-        "business-mcq-11",
-        "business-mcq-08",
-        "business-mcq-12",
-        "business-mcq-07"
+        "business-pdf-001",
+        "business-mcq-19",
+        "business-mcq-16"
       ],
       "explanation": "本句的「business」指「因無法繼續經營而停止營業／倒閉」。",
       "sentenceIndex": 24,
@@ -1252,12 +1154,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-10": "本句指「因無法繼續經營而停止營業／倒閉」。",
-        "business-mcq-09": "「開始從事商業活動，尤其自己經營企業」是「go into business」的用法，與本句語境不同。",
-        "business-mcq-11": "「正在營業或從事商業經營」是「be in business」的用法，與本句語境不同。",
-        "business-mcq-08": "「與某人／機構進行商業交易或合作」是「do business with」的用法，與本句語境不同。",
-        "business-mcq-12": "「問題解決後恢復工作／運作」是「back in business」的用法，與本句語境不同。",
-        "business-mcq-07": "「顧客交易所形成的營業活動／生意量」是「business — trade volume」的用法，與本句語境不同。"
+        "business-mcq-10": "本句的「business」指「因無法繼續經營而停止營業／倒閉」。",
+        "business-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-10"
     },
@@ -1269,11 +1169,9 @@ export default {
       "masked": "The company nearly went out of ____ during the crisis.",
       "options": [
         "business-mcq-10",
-        "business-mcq-09",
-        "business-mcq-11",
-        "business-mcq-08",
-        "business-mcq-12",
-        "business-mcq-07"
+        "business-mcq-15",
+        "business-mcq-19",
+        "business-mcq-20"
       ],
       "explanation": "本句的「business」指「因無法繼續經營而停止營業／倒閉」。",
       "sentenceIndex": 25,
@@ -1282,12 +1180,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-10": "本句指「因無法繼續經營而停止營業／倒閉」。",
-        "business-mcq-09": "「開始從事商業活動，尤其自己經營企業」是「go into business」的用法，與本句語境不同。",
-        "business-mcq-11": "「正在營業或從事商業經營」是「be in business」的用法，與本句語境不同。",
-        "business-mcq-08": "「與某人／機構進行商業交易或合作」是「do business with」的用法，與本句語境不同。",
-        "business-mcq-12": "「問題解決後恢復工作／運作」是「back in business」的用法，與本句語境不同。",
-        "business-mcq-07": "「顧客交易所形成的營業活動／生意量」是「business — trade volume」的用法，與本句語境不同。"
+        "business-mcq-10": "本句的「business」指「因無法繼續經營而停止營業／倒閉」。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-10"
     },
@@ -1299,11 +1195,9 @@ export default {
       "masked": "The bakery has been ____ for ten years.",
       "options": [
         "business-mcq-11",
-        "business-mcq-10",
         "business-mcq-12",
-        "business-mcq-09",
         "business-mcq-13",
-        "business-mcq-08"
+        "business-mcq-15"
       ],
       "explanation": "本句的「in business」指「正在營業或從事商業經營」。",
       "sentenceIndex": 26,
@@ -1312,12 +1206,10 @@ export default {
         "in business"
       ],
       "optionReasons": {
-        "business-mcq-11": "本句指「正在營業或從事商業經營」。",
-        "business-mcq-10": "「因無法繼續經營而停止營業／倒閉」是「go out of business」的用法，與本句語境不同。",
-        "business-mcq-12": "「問題解決後恢復工作／運作」是「back in business」的用法，與本句語境不同。",
-        "business-mcq-09": "「開始從事商業活動，尤其自己經營企業」是「go into business」的用法，與本句語境不同。",
-        "business-mcq-13": "「停止閒聊並開始處理主要事情」是「get down to business」的用法，與本句語境不同。",
-        "business-mcq-08": "「與某人／機構進行商業交易或合作」是「do business with」的用法，與本句語境不同。"
+        "business-mcq-11": "本句的「in business」指「正在營業或從事商業經營」。",
+        "business-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-11"
     },
@@ -1329,11 +1221,9 @@ export default {
       "masked": "They have been in ____ since 2015.",
       "options": [
         "business-mcq-11",
-        "business-mcq-10",
-        "business-mcq-12",
-        "business-mcq-09",
         "business-mcq-13",
-        "business-mcq-08"
+        "business-pdf-001",
+        "business-mcq-15"
       ],
       "explanation": "本句的「business」指「正在營業或從事商業經營」。",
       "sentenceIndex": 27,
@@ -1342,12 +1232,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-11": "本句指「正在營業或從事商業經營」。",
-        "business-mcq-10": "「因無法繼續經營而停止營業／倒閉」是「go out of business」的用法，與本句語境不同。",
-        "business-mcq-12": "「問題解決後恢復工作／運作」是「back in business」的用法，與本句語境不同。",
-        "business-mcq-09": "「開始從事商業活動，尤其自己經營企業」是「go into business」的用法，與本句語境不同。",
-        "business-mcq-13": "「停止閒聊並開始處理主要事情」是「get down to business」的用法，與本句語境不同。",
-        "business-mcq-08": "「與某人／機構進行商業交易或合作」是「do business with」的用法，與本句語境不同。"
+        "business-mcq-11": "本句的「business」指「正在營業或從事商業經營」。",
+        "business-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "business-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-11"
     },
@@ -1359,11 +1247,9 @@ export default {
       "masked": "The oven is fixed, so we’re ____.",
       "options": [
         "business-mcq-12",
-        "business-mcq-11",
-        "business-mcq-13",
-        "business-mcq-10",
-        "business-mcq-14",
-        "business-mcq-09"
+        "business-mcq-08",
+        "business-mcq-15",
+        "business-mcq-16"
       ],
       "explanation": "本句的「back in business」指「問題解決後恢復工作／運作」。",
       "sentenceIndex": 28,
@@ -1372,12 +1258,10 @@ export default {
         "back in business"
       ],
       "optionReasons": {
-        "business-mcq-12": "本句指「問題解決後恢復工作／運作」。",
-        "business-mcq-11": "「正在營業或從事商業經營」是「be in business」的用法，與本句語境不同。",
-        "business-mcq-13": "「停止閒聊並開始處理主要事情」是「get down to business」的用法，與本句語境不同。",
-        "business-mcq-10": "「因無法繼續經營而停止營業／倒閉」是「go out of business」的用法，與本句語境不同。",
-        "business-mcq-14": "「尚未完成、解決或處理的事情」是「unfinished business」的用法，與本句語境不同。",
-        "business-mcq-09": "「開始從事商業活動，尤其自己經營企業」是「go into business」的用法，與本句語境不同。"
+        "business-mcq-12": "本句的「back in business」指「問題解決後恢復工作／運作」。",
+        "business-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-12"
     },
@@ -1389,11 +1273,9 @@ export default {
       "masked": "Once the system restarted, we were back in ____.",
       "options": [
         "business-mcq-12",
-        "business-mcq-11",
-        "business-mcq-13",
-        "business-mcq-10",
-        "business-mcq-14",
-        "business-mcq-09"
+        "business-mcq-02",
+        "business-pdf-002",
+        "business-mcq-19"
       ],
       "explanation": "本句的「business」指「問題解決後恢復工作／運作」。",
       "sentenceIndex": 29,
@@ -1402,12 +1284,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-12": "本句指「問題解決後恢復工作／運作」。",
-        "business-mcq-11": "「正在營業或從事商業經營」是「be in business」的用法，與本句語境不同。",
-        "business-mcq-13": "「停止閒聊並開始處理主要事情」是「get down to business」的用法，與本句語境不同。",
-        "business-mcq-10": "「因無法繼續經營而停止營業／倒閉」是「go out of business」的用法，與本句語境不同。",
-        "business-mcq-14": "「尚未完成、解決或處理的事情」是「unfinished business」的用法，與本句語境不同。",
-        "business-mcq-09": "「開始從事商業活動，尤其自己經營企業」是「go into business」的用法，與本句語境不同。"
+        "business-mcq-12": "本句的「business」指「問題解決後恢復工作／運作」。",
+        "business-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "business-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-12"
     },
@@ -1419,11 +1299,9 @@ export default {
       "masked": "When the manager arrived early, everyone knew she ____.",
       "options": [
         "business-mcq-16",
-        "business-mcq-15",
-        "business-mcq-17",
-        "business-mcq-14",
-        "business-mcq-18",
-        "business-mcq-13"
+        "business-mcq-11",
+        "business-mcq-12",
+        "business-mcq-15"
       ],
       "explanation": "本句的「meant business」指「對某事非常認真並打算採取實際行動」。",
       "sentenceIndex": 30,
@@ -1432,12 +1310,10 @@ export default {
         "meant business"
       ],
       "optionReasons": {
-        "business-mcq-16": "本句指「對某事非常認真並打算採取實際行動」。",
-        "business-mcq-15": "「某件事不屬於你的權限／關心範圍」是「none of your business」的用法，與本句語境不同。",
-        "business-mcq-17": "「經營企業或專業從事商業活動的人」是「businessperson」的用法，與本句語境不同。",
-        "business-mcq-14": "「尚未完成、解決或處理的事情」是「unfinished business」的用法，與本句語境不同。",
-        "business-mcq-18": "「做事直接、有條理、務實並集中於完成工作」是「businesslike」的用法，與本句語境不同。",
-        "business-mcq-13": "「停止閒聊並開始處理主要事情」是「get down to business」的用法，與本句語境不同。"
+        "business-mcq-16": "本句的「meant business」指「對某事非常認真並打算採取實際行動」。",
+        "business-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-16"
     },
@@ -1449,11 +1325,9 @@ export default {
       "masked": "His tone showed that he meant ____.",
       "options": [
         "business-mcq-16",
-        "business-mcq-15",
-        "business-mcq-17",
-        "business-mcq-14",
-        "business-mcq-18",
-        "business-mcq-13"
+        "business-mcq-10",
+        "business-mcq-19",
+        "business-pdf-001"
       ],
       "explanation": "本句的「business」指「對某事非常認真並打算採取實際行動」。",
       "sentenceIndex": 31,
@@ -1462,12 +1336,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-16": "本句指「對某事非常認真並打算採取實際行動」。",
-        "business-mcq-15": "「某件事不屬於你的權限／關心範圍」是「none of your business」的用法，與本句語境不同。",
-        "business-mcq-17": "「經營企業或專業從事商業活動的人」是「businessperson」的用法，與本句語境不同。",
-        "business-mcq-14": "「尚未完成、解決或處理的事情」是「unfinished business」的用法，與本句語境不同。",
-        "business-mcq-18": "「做事直接、有條理、務實並集中於完成工作」是「businesslike」的用法，與本句語境不同。",
-        "business-mcq-13": "「停止閒聊並開始處理主要事情」是「get down to business」的用法，與本句語境不同。"
+        "business-mcq-16": "本句的「business」指「對某事非常認真並打算採取實際行動」。",
+        "business-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "business-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-16"
     },
@@ -1479,11 +1351,9 @@ export default {
       "masked": "What’s all this ____ about moving the meeting?",
       "options": [
         "business-mcq-19",
-        "business-mcq-18",
-        "business-mcq-20",
-        "business-mcq-17",
-        "business-mcq-21",
-        "business-mcq-16"
+        "business-mcq-08",
+        "business-mcq-16",
+        "business-mcq-20"
       ],
       "explanation": "本句的「business」指「某個正在發生、令人困惑或需要處理的事情／情況」。",
       "sentenceIndex": 32,
@@ -1492,12 +1362,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-19": "本句指「某個正在發生、令人困惑或需要處理的事情／情況」。",
-        "business-mcq-18": "「做事直接、有條理、務實並集中於完成工作」是「businesslike」的用法，與本句語境不同。",
-        "business-mcq-20": "「某種工作、活動或行當，尤其當說話者評論其性質時」是「18. business = profession/occupation（較舊式／正式） — 職業；行當」的用法，與本句語境不同。",
-        "business-mcq-17": "「經營企業或專業從事商業活動的人」是「businessperson」的用法，與本句語境不同。",
-        "business-mcq-21": "「與公司、商業活動、工作或交易有關的」是「19. business + noun = 商業／工作相關的」的用法，與本句語境不同。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。"
+        "business-mcq-19": "本句的「business」指「某個正在發生、令人困惑或需要處理的事情／情況」。",
+        "business-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-19"
     },
@@ -1509,11 +1377,9 @@ export default {
       "masked": "I don’t understand this ____ with the missing files.",
       "options": [
         "business-mcq-19",
-        "business-mcq-18",
-        "business-mcq-20",
-        "business-mcq-17",
-        "business-mcq-21",
-        "business-mcq-16"
+        "business-mcq-15",
+        "business-mcq-16",
+        "business-mcq-21"
       ],
       "explanation": "本句的「business」指「某個正在發生、令人困惑或需要處理的事情／情況」。",
       "sentenceIndex": 33,
@@ -1522,12 +1388,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-19": "本句指「某個正在發生、令人困惑或需要處理的事情／情況」。",
-        "business-mcq-18": "「做事直接、有條理、務實並集中於完成工作」是「businesslike」的用法，與本句語境不同。",
-        "business-mcq-20": "「某種工作、活動或行當，尤其當說話者評論其性質時」是「18. business = profession/occupation（較舊式／正式） — 職業；行當」的用法，與本句語境不同。",
-        "business-mcq-17": "「經營企業或專業從事商業活動的人」是「businessperson」的用法，與本句語境不同。",
-        "business-mcq-21": "「與公司、商業活動、工作或交易有關的」是「19. business + noun = 商業／工作相關的」的用法，與本句語境不同。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。"
+        "business-mcq-19": "本句的「business」指「某個正在發生、令人困惑或需要處理的事情／情況」。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-19"
     },
@@ -1539,11 +1403,9 @@ export default {
       "masked": "Teaching is a demanding ____.",
       "options": [
         "business-mcq-20",
-        "business-mcq-19",
-        "business-mcq-21",
-        "business-mcq-18",
-        "business-mcq-17",
-        "business-mcq-16"
+        "business-mcq-14",
+        "business-mcq-11",
+        "business-mcq-15"
       ],
       "explanation": "本句的「business」指「某種工作、活動或行當，尤其當說話者評論其性質時」。",
       "sentenceIndex": 34,
@@ -1552,12 +1414,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-20": "本句指「某種工作、活動或行當，尤其當說話者評論其性質時」。",
-        "business-mcq-19": "「某個正在發生、令人困惑或需要處理的事情／情況」是「17. business = situation / affair, especially unpleasant activity（較非正式） — 那回事；那一套」的用法，與本句語境不同。",
-        "business-mcq-21": "「與公司、商業活動、工作或交易有關的」是「19. business + noun = 商業／工作相關的」的用法，與本句語境不同。",
-        "business-mcq-18": "「做事直接、有條理、務實並集中於完成工作」是「businesslike」的用法，與本句語境不同。",
-        "business-mcq-17": "「經營企業或專業從事商業活動的人」是「businessperson」的用法，與本句語境不同。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。"
+        "business-mcq-20": "本句的「business」指「某種工作、活動或行當，尤其當說話者評論其性質時」。",
+        "business-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-20"
     },
@@ -1569,11 +1429,9 @@ export default {
       "masked": "Running a restaurant is a difficult ____.",
       "options": [
         "business-mcq-20",
+        "business-mcq-15",
         "business-mcq-19",
-        "business-mcq-21",
-        "business-mcq-18",
-        "business-mcq-17",
-        "business-mcq-16"
+        "business-mcq-10"
       ],
       "explanation": "本句的「business」指「某種工作、活動或行當，尤其當說話者評論其性質時」。",
       "sentenceIndex": 35,
@@ -1582,12 +1440,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-20": "本句指「某種工作、活動或行當，尤其當說話者評論其性質時」。",
-        "business-mcq-19": "「某個正在發生、令人困惑或需要處理的事情／情況」是「17. business = situation / affair, especially unpleasant activity（較非正式） — 那回事；那一套」的用法，與本句語境不同。",
-        "business-mcq-21": "「與公司、商業活動、工作或交易有關的」是「19. business + noun = 商業／工作相關的」的用法，與本句語境不同。",
-        "business-mcq-18": "「做事直接、有條理、務實並集中於完成工作」是「businesslike」的用法，與本句語境不同。",
-        "business-mcq-17": "「經營企業或專業從事商業活動的人」是「businessperson」的用法，與本句語境不同。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。"
+        "business-mcq-20": "本句的「business」指「某種工作、活動或行當，尤其當說話者評論其性質時」。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-20"
     },
@@ -1599,10 +1455,8 @@ export default {
       "masked": "She is away on a ____.",
       "options": [
         "business-mcq-21",
-        "business-mcq-20",
-        "business-mcq-19",
-        "business-mcq-18",
-        "business-mcq-17",
+        "business-mcq-15",
+        "business-mcq-13",
         "business-mcq-16"
       ],
       "explanation": "本句的「business trip」指「與公司、商業活動、工作或交易有關的」。",
@@ -1612,12 +1466,10 @@ export default {
         "business trip"
       ],
       "optionReasons": {
-        "business-mcq-21": "本句指「與公司、商業活動、工作或交易有關的」。",
-        "business-mcq-20": "「某種工作、活動或行當，尤其當說話者評論其性質時」是「18. business = profession/occupation（較舊式／正式） — 職業；行當」的用法，與本句語境不同。",
-        "business-mcq-19": "「某個正在發生、令人困惑或需要處理的事情／情況」是「17. business = situation / affair, especially unpleasant activity（較非正式） — 那回事；那一套」的用法，與本句語境不同。",
-        "business-mcq-18": "「做事直接、有條理、務實並集中於完成工作」是「businesslike」的用法，與本句語境不同。",
-        "business-mcq-17": "「經營企業或專業從事商業活動的人」是「businessperson」的用法，與本句語境不同。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。"
+        "business-mcq-21": "本句的「business trip」指「與公司、商業活動、工作或交易有關的」。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-21"
     },
@@ -1629,10 +1481,8 @@ export default {
       "masked": "We exchanged ____ cards after the meeting.",
       "options": [
         "business-mcq-21",
-        "business-mcq-20",
-        "business-mcq-19",
-        "business-mcq-18",
-        "business-mcq-17",
+        "business-mcq-15",
+        "business-mcq-14",
         "business-mcq-16"
       ],
       "explanation": "本句的「business」指「與公司、商業活動、工作或交易有關的」。",
@@ -1642,12 +1492,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-mcq-21": "本句指「與公司、商業活動、工作或交易有關的」。",
-        "business-mcq-20": "「某種工作、活動或行當，尤其當說話者評論其性質時」是「18. business = profession/occupation（較舊式／正式） — 職業；行當」的用法，與本句語境不同。",
-        "business-mcq-19": "「某個正在發生、令人困惑或需要處理的事情／情況」是「17. business = situation / affair, especially unpleasant activity（較非正式） — 那回事；那一套」的用法，與本句語境不同。",
-        "business-mcq-18": "「做事直接、有條理、務實並集中於完成工作」是「businesslike」的用法，與本句語境不同。",
-        "business-mcq-17": "「經營企業或專業從事商業活動的人」是「businessperson」的用法，與本句語境不同。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。"
+        "business-mcq-21": "本句的「business」指「與公司、商業活動、工作或交易有關的」。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-21"
     },
@@ -1659,11 +1507,9 @@ export default {
       "masked": "Please call during ____.",
       "options": [
         "business-pdf-002",
-        "business-mcq-16",
-        "business-mcq-18",
-        "business-mcq-15",
-        "business-mcq-19",
-        "business-mcq-14"
+        "business-mcq-12",
+        "business-mcq-13",
+        "business-mcq-15"
       ],
       "explanation": "本句的「business hours」指「公司／商店正常對外營業或辦公的時間」。",
       "sentenceIndex": 38,
@@ -1672,12 +1518,10 @@ export default {
         "business hours"
       ],
       "optionReasons": {
-        "business-pdf-002": "本句指「公司／商店正常對外營業或辦公的時間」。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。",
-        "business-mcq-18": "「做事直接、有條理、務實並集中於完成工作」是「businesslike」的用法，與本句語境不同。",
-        "business-mcq-15": "「某件事不屬於你的權限／關心範圍」是「none of your business」的用法，與本句語境不同。",
-        "business-mcq-19": "「某個正在發生、令人困惑或需要處理的事情／情況」是「17. business = situation / affair, especially unpleasant activity（較非正式） — 那回事；那一套」的用法，與本句語境不同。",
-        "business-mcq-14": "「尚未完成、解決或處理的事情」是「unfinished business」的用法，與本句語境不同。"
+        "business-pdf-002": "本句的「business hours」指「公司／商店正常對外營業或辦公的時間」。",
+        "business-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-pdf-002"
     },
@@ -1689,11 +1533,9 @@ export default {
       "masked": "The bakery’s ____ hours are posted on the door.",
       "options": [
         "business-pdf-002",
-        "business-mcq-16",
-        "business-mcq-18",
         "business-mcq-15",
-        "business-mcq-19",
-        "business-mcq-14"
+        "business-mcq-14",
+        "business-mcq-16"
       ],
       "explanation": "本句的「business」指「公司／商店正常對外營業或辦公的時間」。",
       "sentenceIndex": 39,
@@ -1702,12 +1544,10 @@ export default {
         "business"
       ],
       "optionReasons": {
-        "business-pdf-002": "本句指「公司／商店正常對外營業或辦公的時間」。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。",
-        "business-mcq-18": "「做事直接、有條理、務實並集中於完成工作」是「businesslike」的用法，與本句語境不同。",
-        "business-mcq-15": "「某件事不屬於你的權限／關心範圍」是「none of your business」的用法，與本句語境不同。",
-        "business-mcq-19": "「某個正在發生、令人困惑或需要處理的事情／情況」是「17. business = situation / affair, especially unpleasant activity（較非正式） — 那回事；那一套」的用法，與本句語境不同。",
-        "business-mcq-14": "「尚未完成、解決或處理的事情」是「unfinished business」的用法，與本句語境不同。"
+        "business-pdf-002": "本句的「business」指「公司／商店正常對外營業或辦公的時間」。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-pdf-002"
     },
@@ -1719,11 +1559,9 @@ export default {
       "masked": "She is a successful ____.",
       "options": [
         "business-mcq-17",
-        "business-mcq-16",
-        "business-mcq-18",
         "business-mcq-15",
-        "business-mcq-19",
-        "business-mcq-14"
+        "business-mcq-06",
+        "business-pdf-001"
       ],
       "explanation": "本句的「businessperson」指「經營企業或專業從事商業活動的人」。",
       "sentenceIndex": 40,
@@ -1732,12 +1570,10 @@ export default {
         "businessperson"
       ],
       "optionReasons": {
-        "business-mcq-17": "本句指「經營企業或專業從事商業活動的人」。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。",
-        "business-mcq-18": "「做事直接、有條理、務實並集中於完成工作」是「businesslike」的用法，與本句語境不同。",
-        "business-mcq-15": "「某件事不屬於你的權限／關心範圍」是「none of your business」的用法，與本句語境不同。",
-        "business-mcq-19": "「某個正在發生、令人困惑或需要處理的事情／情況」是「17. business = situation / affair, especially unpleasant activity（較非正式） — 那回事；那一套」的用法，與本句語境不同。",
-        "business-mcq-14": "「尚未完成、解決或處理的事情」是「unfinished business」的用法，與本句語境不同。"
+        "business-mcq-17": "本句的「businessperson」指「經營企業或專業從事商業活動的人」。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "business-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-17"
     },
@@ -1749,11 +1585,9 @@ export default {
       "masked": "Local ____ supported the event.",
       "options": [
         "business-mcq-17",
-        "business-mcq-16",
-        "business-mcq-18",
-        "business-mcq-15",
+        "business-pdf-001",
         "business-mcq-19",
-        "business-mcq-14"
+        "business-mcq-15"
       ],
       "explanation": "本句的「businesspeople」指「經營企業或專業從事商業活動的人」。",
       "sentenceIndex": 41,
@@ -1762,12 +1596,10 @@ export default {
         "businesspeople"
       ],
       "optionReasons": {
-        "business-mcq-17": "本句指「經營企業或專業從事商業活動的人」。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。",
-        "business-mcq-18": "「做事直接、有條理、務實並集中於完成工作」是「businesslike」的用法，與本句語境不同。",
-        "business-mcq-15": "「某件事不屬於你的權限／關心範圍」是「none of your business」的用法，與本句語境不同。",
-        "business-mcq-19": "「某個正在發生、令人困惑或需要處理的事情／情況」是「17. business = situation / affair, especially unpleasant activity（較非正式） — 那回事；那一套」的用法，與本句語境不同。",
-        "business-mcq-14": "「尚未完成、解決或處理的事情」是「unfinished business」的用法，與本句語境不同。"
+        "business-mcq-17": "本句的「businesspeople」指「經營企業或專業從事商業活動的人」。",
+        "business-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-17"
     },
@@ -1779,11 +1611,9 @@ export default {
       "masked": "He became a successful ____.",
       "options": [
         "business-mcq-17",
-        "business-mcq-16",
-        "business-mcq-18",
+        "business-mcq-13",
         "business-mcq-15",
-        "business-mcq-19",
-        "business-mcq-14"
+        "business-pdf-001"
       ],
       "explanation": "本句的「businessman」指「經營企業或專業從事商業活動的人」。",
       "sentenceIndex": 42,
@@ -1792,12 +1622,10 @@ export default {
         "businessman"
       ],
       "optionReasons": {
-        "business-mcq-17": "本句指「經營企業或專業從事商業活動的人」。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。",
-        "business-mcq-18": "「做事直接、有條理、務實並集中於完成工作」是「businesslike」的用法，與本句語境不同。",
-        "business-mcq-15": "「某件事不屬於你的權限／關心範圍」是「none of your business」的用法，與本句語境不同。",
-        "business-mcq-19": "「某個正在發生、令人困惑或需要處理的事情／情況」是「17. business = situation / affair, especially unpleasant activity（較非正式） — 那回事；那一套」的用法，與本句語境不同。",
-        "business-mcq-14": "「尚未完成、解決或處理的事情」是「unfinished business」的用法，與本句語境不同。"
+        "business-mcq-17": "本句的「businessman」指「經營企業或專業從事商業活動的人」。",
+        "business-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-17"
     },
@@ -1809,11 +1637,9 @@ export default {
       "masked": "She is a well-known ____ in the city.",
       "options": [
         "business-mcq-17",
-        "business-mcq-16",
-        "business-mcq-18",
+        "business-mcq-14",
         "business-mcq-15",
-        "business-mcq-19",
-        "business-mcq-14"
+        "business-pdf-001"
       ],
       "explanation": "本句的「businesswoman」指「經營企業或專業從事商業活動的人」。",
       "sentenceIndex": 43,
@@ -1822,12 +1648,10 @@ export default {
         "businesswoman"
       ],
       "optionReasons": {
-        "business-mcq-17": "本句指「經營企業或專業從事商業活動的人」。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。",
-        "business-mcq-18": "「做事直接、有條理、務實並集中於完成工作」是「businesslike」的用法，與本句語境不同。",
-        "business-mcq-15": "「某件事不屬於你的權限／關心範圍」是「none of your business」的用法，與本句語境不同。",
-        "business-mcq-19": "「某個正在發生、令人困惑或需要處理的事情／情況」是「17. business = situation / affair, especially unpleasant activity（較非正式） — 那回事；那一套」的用法，與本句語境不同。",
-        "business-mcq-14": "「尚未完成、解決或處理的事情」是「unfinished business」的用法，與本句語境不同。"
+        "business-mcq-17": "本句的「businesswoman」指「經營企業或專業從事商業活動的人」。",
+        "business-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-17"
     },
@@ -1839,11 +1663,9 @@ export default {
       "masked": "She gave a short, ____ answer.",
       "options": [
         "business-mcq-18",
-        "business-mcq-17",
-        "business-mcq-19",
-        "business-mcq-16",
-        "business-mcq-20",
-        "business-mcq-15"
+        "business-mcq-15",
+        "business-mcq-08",
+        "business-mcq-19"
       ],
       "explanation": "本句的「businesslike」指「做事直接、有條理、務實並集中於完成工作」。",
       "sentenceIndex": 44,
@@ -1852,12 +1674,10 @@ export default {
         "businesslike"
       ],
       "optionReasons": {
-        "business-mcq-18": "本句指「做事直接、有條理、務實並集中於完成工作」。",
-        "business-mcq-17": "「經營企業或專業從事商業活動的人」是「businessperson」的用法，與本句語境不同。",
-        "business-mcq-19": "「某個正在發生、令人困惑或需要處理的事情／情況」是「17. business = situation / affair, especially unpleasant activity（較非正式） — 那回事；那一套」的用法，與本句語境不同。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。",
-        "business-mcq-20": "「某種工作、活動或行當，尤其當說話者評論其性質時」是「18. business = profession/occupation（較舊式／正式） — 職業；行當」的用法，與本句語境不同。",
-        "business-mcq-15": "「某件事不屬於你的權限／關心範圍」是「none of your business」的用法，與本句語境不同。"
+        "business-mcq-18": "本句的「businesslike」指「做事直接、有條理、務實並集中於完成工作」。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-18"
     },
@@ -1869,11 +1689,9 @@ export default {
       "masked": "The meeting was friendly but ____.",
       "options": [
         "business-mcq-18",
-        "business-mcq-17",
-        "business-mcq-19",
-        "business-mcq-16",
-        "business-mcq-20",
-        "business-mcq-15"
+        "business-mcq-08",
+        "business-mcq-15",
+        "business-mcq-19"
       ],
       "explanation": "本句的「businesslike」指「做事直接、有條理、務實並集中於完成工作」。",
       "sentenceIndex": 45,
@@ -1882,12 +1700,10 @@ export default {
         "businesslike"
       ],
       "optionReasons": {
-        "business-mcq-18": "本句指「做事直接、有條理、務實並集中於完成工作」。",
-        "business-mcq-17": "「經營企業或專業從事商業活動的人」是「businessperson」的用法，與本句語境不同。",
-        "business-mcq-19": "「某個正在發生、令人困惑或需要處理的事情／情況」是「17. business = situation / affair, especially unpleasant activity（較非正式） — 那回事；那一套」的用法，與本句語境不同。",
-        "business-mcq-16": "「對某事非常認真並打算採取實際行動」是「mean business」的用法，與本句語境不同。",
-        "business-mcq-20": "「某種工作、活動或行當，尤其當說話者評論其性質時」是「18. business = profession/occupation（較舊式／正式） — 職業；行當」的用法，與本句語境不同。",
-        "business-mcq-15": "「某件事不屬於你的權限／關心範圍」是「none of your business」的用法，與本句語境不同。"
+        "business-mcq-18": "本句的「businesslike」指「做事直接、有條理、務實並集中於完成工作」。",
+        "business-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "business-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "business-mcq-18"
     }
@@ -1899,5 +1715,7 @@ export default {
     "sha256": "dee53605b35cb39b2b35edd1600e167a43ae56e42241dc0a0b43adff246e8ea5",
     "pages": 23
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -367,11 +367,9 @@ export default {
       "masked": "Please ____ the boxes from the doorway.",
       "options": [
         "remove-mcq-01",
-        "remove-mcq-02",
-        "remove-mcq-03",
         "remove-mcq-04",
-        "remove-mcq-05",
-        "remove-mcq-06"
+        "remove-pdf-001",
+        "remove-mcq-17"
       ],
       "explanation": "本句的「remove」指「把某人／某物從原本位置拿走、搬走或移開」。",
       "sentenceIndex": 0,
@@ -380,12 +378,10 @@ export default {
         "remove"
       ],
       "optionReasons": {
-        "remove-mcq-01": "本句指「把某人／某物從原本位置拿走、搬走或移開」。",
-        "remove-mcq-02": "「使某個問題、障礙或不便不再存在」與本句語境不同。",
-        "remove-mcq-03": "「從身上脫下／摘下某物」與本句語境不同。",
-        "remove-mcq-04": "「使污垢、污漬或不需要的物質消失」與本句語境不同。",
-        "remove-mcq-05": "「取消／解除某項限制、條件或要求」與本句語境不同。",
-        "remove-mcq-06": "「取消某人的正式職權，使其不再任職」與本句語境不同。"
+        "remove-mcq-01": "本句的「remove」指「把某人／某物從原本位置拿走、搬走或移開」。",
+        "remove-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "remove-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-01"
     },
@@ -397,11 +393,9 @@ export default {
       "masked": "Workers ____ the damaged equipment.",
       "options": [
         "remove-mcq-01",
-        "remove-mcq-02",
+        "remove-pdf-001",
         "remove-mcq-03",
-        "remove-mcq-04",
-        "remove-mcq-05",
-        "remove-mcq-06"
+        "remove-mcq-04"
       ],
       "explanation": "本句的「removed」指「把某人／某物從原本位置拿走、搬走或移開」。",
       "sentenceIndex": 1,
@@ -410,12 +404,10 @@ export default {
         "removed"
       ],
       "optionReasons": {
-        "remove-mcq-01": "本句指「把某人／某物從原本位置拿走、搬走或移開」。",
-        "remove-mcq-02": "「使某個問題、障礙或不便不再存在」與本句語境不同。",
-        "remove-mcq-03": "「從身上脫下／摘下某物」與本句語境不同。",
-        "remove-mcq-04": "「使污垢、污漬或不需要的物質消失」與本句語境不同。",
-        "remove-mcq-05": "「取消／解除某項限制、條件或要求」與本句語境不同。",
-        "remove-mcq-06": "「取消某人的正式職權，使其不再任職」與本句語境不同。"
+        "remove-mcq-01": "本句的「removed」指「把某人／某物從原本位置拿走、搬走或移開」。",
+        "remove-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-01"
     },
@@ -427,11 +419,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "remove-mcq-03",
-        "remove-mcq-02",
-        "remove-mcq-04",
-        "remove-mcq-01",
-        "remove-mcq-05",
-        "remove-mcq-06"
+        "remove-pdf-001",
+        "remove-mcq-15",
+        "remove-mcq-04"
       ],
       "explanation": "本句的「remove your coat」指「從身上脫下／摘下某物」。",
       "sentenceIndex": 16,
@@ -440,12 +430,10 @@ export default {
         "remove your coat"
       ],
       "optionReasons": {
-        "remove-mcq-03": "本句指「從身上脫下／摘下某物」。",
-        "remove-mcq-02": "「使某個問題、障礙或不便不再存在」與本句語境不同。",
-        "remove-mcq-04": "「使污垢、污漬或不需要的物質消失」與本句語境不同。",
-        "remove-mcq-01": "「把某人／某物從原本位置拿走、搬走或移開」與本句語境不同。",
-        "remove-mcq-05": "「取消／解除某項限制、條件或要求」與本句語境不同。",
-        "remove-mcq-06": "「取消某人的正式職權，使其不再任職」與本句語境不同。"
+        "remove-mcq-03": "本句的「remove your coat」指「從身上脫下／摘下某物」。",
+        "remove-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-03"
     },
@@ -457,11 +445,9 @@ export default {
       "masked": "Patients may be asked to ____ jewellery before the scan.",
       "options": [
         "remove-mcq-03",
-        "remove-mcq-02",
+        "remove-mcq-06",
         "remove-mcq-04",
-        "remove-mcq-01",
-        "remove-mcq-05",
-        "remove-mcq-06"
+        "remove-mcq-13"
       ],
       "explanation": "本句的「remove」指「從身上脫下／摘下某物」。",
       "sentenceIndex": 17,
@@ -470,12 +456,10 @@ export default {
         "remove"
       ],
       "optionReasons": {
-        "remove-mcq-03": "本句指「從身上脫下／摘下某物」。",
-        "remove-mcq-02": "「使某個問題、障礙或不便不再存在」與本句語境不同。",
-        "remove-mcq-04": "「使污垢、污漬或不需要的物質消失」與本句語境不同。",
-        "remove-mcq-01": "「把某人／某物從原本位置拿走、搬走或移開」與本句語境不同。",
-        "remove-mcq-05": "「取消／解除某項限制、條件或要求」與本句語境不同。",
-        "remove-mcq-06": "「取消某人的正式職權，使其不再任職」與本句語境不同。"
+        "remove-mcq-03": "本句的「remove」指「從身上脫下／摘下某物」。",
+        "remove-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-03"
     },
@@ -487,11 +471,9 @@ export default {
       "masked": "This cleaner ____.",
       "options": [
         "remove-mcq-04",
-        "remove-mcq-03",
-        "remove-mcq-05",
-        "remove-mcq-02",
-        "remove-mcq-06",
-        "remove-mcq-01"
+        "remove-mcq-15",
+        "remove-mcq-01",
+        "remove-pdf-001"
       ],
       "explanation": "本句的「removes stains」指「使污垢、污漬或不需要的物質消失」。",
       "sentenceIndex": 24,
@@ -500,12 +482,10 @@ export default {
         "removes stains"
       ],
       "optionReasons": {
-        "remove-mcq-04": "本句指「使污垢、污漬或不需要的物質消失」。",
-        "remove-mcq-03": "「從身上脫下／摘下某物」與本句語境不同。",
-        "remove-mcq-05": "「取消／解除某項限制、條件或要求」與本句語境不同。",
-        "remove-mcq-02": "「使某個問題、障礙或不便不再存在」與本句語境不同。",
-        "remove-mcq-06": "「取消某人的正式職權，使其不再任職」與本句語境不同。",
-        "remove-mcq-01": "「把某人／某物從原本位置拿走、搬走或移開」與本句語境不同。"
+        "remove-mcq-04": "本句的「removes stains」指「使污垢、污漬或不需要的物質消失」。",
+        "remove-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "remove-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-04"
     },
@@ -517,11 +497,9 @@ export default {
       "masked": "Wash the surface to ____ dirt.",
       "options": [
         "remove-mcq-04",
-        "remove-mcq-03",
-        "remove-mcq-05",
-        "remove-mcq-02",
-        "remove-mcq-06",
-        "remove-mcq-01"
+        "remove-mcq-16",
+        "remove-pdf-001",
+        "remove-mcq-03"
       ],
       "explanation": "本句的「remove」指「使污垢、污漬或不需要的物質消失」。",
       "sentenceIndex": 25,
@@ -530,12 +508,10 @@ export default {
         "remove"
       ],
       "optionReasons": {
-        "remove-mcq-04": "本句指「使污垢、污漬或不需要的物質消失」。",
-        "remove-mcq-03": "「從身上脫下／摘下某物」與本句語境不同。",
-        "remove-mcq-05": "「取消／解除某項限制、條件或要求」與本句語境不同。",
-        "remove-mcq-02": "「使某個問題、障礙或不便不再存在」與本句語境不同。",
-        "remove-mcq-06": "「取消某人的正式職權，使其不再任職」與本句語境不同。",
-        "remove-mcq-01": "「把某人／某物從原本位置拿走、搬走或移開」與本句語境不同。"
+        "remove-mcq-04": "本句的「remove」指「使污垢、污漬或不需要的物質消失」。",
+        "remove-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "remove-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-04"
     },
@@ -547,10 +523,8 @@ export default {
       "masked": "The official was ____ from office.",
       "options": [
         "remove-mcq-06",
-        "remove-mcq-05",
-        "remove-mcq-07",
-        "remove-mcq-04",
-        "remove-mcq-08",
+        "remove-mcq-14",
+        "remove-pdf-001",
         "remove-mcq-03"
       ],
       "explanation": "本句的「removed」指「取消某人的正式職權，使其不再任職」。",
@@ -560,12 +534,10 @@ export default {
         "removed"
       ],
       "optionReasons": {
-        "remove-mcq-06": "本句指「取消某人的正式職權，使其不再任職」。",
-        "remove-mcq-05": "「取消／解除某項限制、條件或要求」與本句語境不同。",
-        "remove-mcq-07": "「把某人帶離／趕離某處」與本句語境不同。",
-        "remove-mcq-04": "「使污垢、污漬或不需要的物質消失」與本句語境不同。",
-        "remove-mcq-08": "「把某人／某項目從名單或群體中刪除／除名」與本句語境不同。",
-        "remove-mcq-03": "「從身上脫下／摘下某物」與本句語境不同。"
+        "remove-mcq-06": "本句的「removed」指「取消某人的正式職權，使其不再任職」。",
+        "remove-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remove-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-06"
     },
@@ -577,11 +549,9 @@ export default {
       "masked": "The constitution sets out procedures for ____ an official from office.",
       "options": [
         "remove-mcq-06",
-        "remove-mcq-05",
-        "remove-mcq-07",
-        "remove-mcq-04",
-        "remove-mcq-08",
-        "remove-mcq-03"
+        "remove-mcq-15",
+        "remove-mcq-14",
+        "remove-pdf-001"
       ],
       "explanation": "本句的「removing」指「取消某人的正式職權，使其不再任職」。",
       "sentenceIndex": 37,
@@ -590,12 +560,10 @@ export default {
         "removing"
       ],
       "optionReasons": {
-        "remove-mcq-06": "本句指「取消某人的正式職權，使其不再任職」。",
-        "remove-mcq-05": "「取消／解除某項限制、條件或要求」與本句語境不同。",
-        "remove-mcq-07": "「把某人帶離／趕離某處」與本句語境不同。",
-        "remove-mcq-04": "「使污垢、污漬或不需要的物質消失」與本句語境不同。",
-        "remove-mcq-08": "「把某人／某項目從名單或群體中刪除／除名」與本句語境不同。",
-        "remove-mcq-03": "「從身上脫下／摘下某物」與本句語境不同。"
+        "remove-mcq-06": "本句的「removing」指「取消某人的正式職權，使其不再任職」。",
+        "remove-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remove-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-06"
     },
@@ -607,11 +575,9 @@ export default {
       "masked": "Please ____ my name from the mailing list.",
       "options": [
         "remove-mcq-08",
-        "remove-mcq-07",
-        "remove-mcq-09",
-        "remove-mcq-06",
-        "remove-mcq-10",
-        "remove-mcq-05"
+        "remove-mcq-03",
+        "remove-mcq-15",
+        "remove-mcq-04"
       ],
       "explanation": "本句的「remove」指「把某人／某項目從名單或群體中刪除／除名」。",
       "sentenceIndex": 40,
@@ -620,12 +586,10 @@ export default {
         "remove"
       ],
       "optionReasons": {
-        "remove-mcq-08": "本句指「把某人／某項目從名單或群體中刪除／除名」。",
-        "remove-mcq-07": "「把某人帶離／趕離某處」與本句語境不同。",
-        "remove-mcq-09": "「從系統、畫面、檔案結構中移除或刪除內容」與本句語境不同。",
-        "remove-mcq-06": "「取消某人的正式職權，使其不再任職」與本句語境不同。",
-        "remove-mcq-10": "「透過手術／醫療程序把組織、器官、牙齒或異物取出」與本句語境不同。",
-        "remove-mcq-05": "「取消／解除某項限制、條件或要求」與本句語境不同。"
+        "remove-mcq-08": "本句的「remove」指「把某人／某項目從名單或群體中刪除／除名」。",
+        "remove-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-08"
     },
@@ -637,11 +601,9 @@ export default {
       "masked": "The company was ____ from the approved list.",
       "options": [
         "remove-mcq-08",
-        "remove-mcq-07",
-        "remove-mcq-09",
-        "remove-mcq-06",
-        "remove-mcq-10",
-        "remove-mcq-05"
+        "remove-mcq-04",
+        "remove-mcq-15",
+        "remove-mcq-03"
       ],
       "explanation": "本句的「removed」指「把某人／某項目從名單或群體中刪除／除名」。",
       "sentenceIndex": 41,
@@ -650,12 +612,10 @@ export default {
         "removed"
       ],
       "optionReasons": {
-        "remove-mcq-08": "本句指「把某人／某項目從名單或群體中刪除／除名」。",
-        "remove-mcq-07": "「把某人帶離／趕離某處」與本句語境不同。",
-        "remove-mcq-09": "「從系統、畫面、檔案結構中移除或刪除內容」與本句語境不同。",
-        "remove-mcq-06": "「取消某人的正式職權，使其不再任職」與本句語境不同。",
-        "remove-mcq-10": "「透過手術／醫療程序把組織、器官、牙齒或異物取出」與本句語境不同。",
-        "remove-mcq-05": "「取消／解除某項限制、條件或要求」與本句語境不同。"
+        "remove-mcq-08": "本句的「removed」指「把某人／某項目從名單或群體中刪除／除名」。",
+        "remove-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-08"
     },
@@ -667,11 +627,9 @@ export default {
       "masked": "The ____ of old equipment took several hours.",
       "options": [
         "remove-pdf-001",
-        "remove-mcq-10",
-        "remove-mcq-12",
-        "remove-mcq-09",
-        "remove-mcq-13",
-        "remove-mcq-08"
+        "remove-mcq-04",
+        "remove-mcq-03",
+        "remove-mcq-16"
       ],
       "explanation": "本句的「removal」指「remove 的名詞；具體中文隨語境變化」。",
       "sentenceIndex": 62,
@@ -680,12 +638,10 @@ export default {
         "removal"
       ],
       "optionReasons": {
-        "remove-pdf-001": "本句指「remove 的名詞；具體中文隨語境變化」。",
-        "remove-mcq-10": "「透過手術／醫療程序把組織、器官、牙齒或異物取出」與本句語境不同。",
-        "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。",
-        "remove-mcq-09": "「從系統、畫面、檔案結構中移除或刪除內容」與本句語境不同。",
-        "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
-        "remove-mcq-08": "「把某人／某項目從名單或群體中刪除／除名」與本句語境不同。"
+        "remove-pdf-001": "本句的「removal」指「remove 的名詞；具體中文隨語境變化」。",
+        "remove-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-pdf-001"
     },
@@ -697,11 +653,9 @@ export default {
       "masked": "Waste ____ is included in the service.",
       "options": [
         "remove-pdf-001",
-        "remove-mcq-10",
-        "remove-mcq-12",
-        "remove-mcq-09",
-        "remove-mcq-13",
-        "remove-mcq-08"
+        "remove-mcq-06",
+        "remove-mcq-14",
+        "remove-mcq-13"
       ],
       "explanation": "本句的「removal」指「remove 的名詞；具體中文隨語境變化」。",
       "sentenceIndex": 63,
@@ -710,12 +664,10 @@ export default {
         "removal"
       ],
       "optionReasons": {
-        "remove-pdf-001": "本句指「remove 的名詞；具體中文隨語境變化」。",
-        "remove-mcq-10": "「透過手術／醫療程序把組織、器官、牙齒或異物取出」與本句語境不同。",
-        "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。",
-        "remove-mcq-09": "「從系統、畫面、檔案結構中移除或刪除內容」與本句語境不同。",
-        "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
-        "remove-mcq-08": "「把某人／某項目從名單或群體中刪除／除名」與本句語境不同。"
+        "remove-pdf-001": "本句的「removal」指「remove 的名詞；具體中文隨語境變化」。",
+        "remove-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-pdf-001"
     },
@@ -727,11 +679,9 @@ export default {
       "masked": "Authorities ordered the child’s ____ from the unsafe home.",
       "options": [
         "remove-mcq-11",
-        "remove-mcq-10",
-        "remove-mcq-12",
-        "remove-mcq-09",
-        "remove-mcq-13",
-        "remove-mcq-08"
+        "remove-mcq-15",
+        "remove-mcq-16",
+        "remove-mcq-14"
       ],
       "explanation": "本句的「removal」指「把某物／某人移走、去除或撤去的行為／程序」。",
       "sentenceIndex": 78,
@@ -740,12 +690,10 @@ export default {
         "removal"
       ],
       "optionReasons": {
-        "remove-mcq-11": "本句指「把某物／某人移走、去除或撤去的行為／程序」。",
-        "remove-mcq-10": "「透過手術／醫療程序把組織、器官、牙齒或異物取出」與本句語境不同。",
-        "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。",
-        "remove-mcq-09": "「從系統、畫面、檔案結構中移除或刪除內容」與本句語境不同。",
-        "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
-        "remove-mcq-08": "「把某人／某項目從名單或群體中刪除／除名」與本句語境不同。"
+        "remove-mcq-11": "本句的「removal」指「把某物／某人移走、去除或撤去的行為／程序」。",
+        "remove-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-11"
     },
@@ -757,11 +705,9 @@ export default {
       "masked": "Emergency ____ may occur when immediate safety is at risk.",
       "options": [
         "remove-mcq-11",
-        "remove-mcq-10",
-        "remove-mcq-12",
-        "remove-mcq-09",
-        "remove-mcq-13",
-        "remove-mcq-08"
+        "remove-mcq-14",
+        "remove-pdf-001",
+        "remove-mcq-15"
       ],
       "explanation": "本句的「removal」指「把某物／某人移走、去除或撤去的行為／程序」。",
       "sentenceIndex": 79,
@@ -770,12 +716,10 @@ export default {
         "removal"
       ],
       "optionReasons": {
-        "remove-mcq-11": "本句指「把某物／某人移走、去除或撤去的行為／程序」。",
-        "remove-mcq-10": "「透過手術／醫療程序把組織、器官、牙齒或異物取出」與本句語境不同。",
-        "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。",
-        "remove-mcq-09": "「從系統、畫面、檔案結構中移除或刪除內容」與本句語境不同。",
-        "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
-        "remove-mcq-08": "「把某人／某項目從名單或群體中刪除／除名」與本句語境不同。"
+        "remove-mcq-11": "本句的「removal」指「把某物／某人移走、去除或撤去的行為／程序」。",
+        "remove-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remove-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-11"
     },
@@ -787,11 +731,9 @@ export default {
       "masked": "The person faced ____ under immigration law.",
       "options": [
         "remove-pdf-002",
-        "remove-mcq-10",
-        "remove-mcq-12",
-        "remove-mcq-09",
-        "remove-mcq-13",
-        "remove-mcq-08"
+        "remove-mcq-16",
+        "remove-mcq-03",
+        "remove-mcq-15"
       ],
       "explanation": "本句的「removal」指「依法要求／強制某人離開某司法管轄區」。",
       "sentenceIndex": 80,
@@ -800,12 +742,10 @@ export default {
         "removal"
       ],
       "optionReasons": {
-        "remove-pdf-002": "本句指「依法要求／強制某人離開某司法管轄區」。",
-        "remove-mcq-10": "「透過手術／醫療程序把組織、器官、牙齒或異物取出」與本句語境不同。",
-        "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。",
-        "remove-mcq-09": "「從系統、畫面、檔案結構中移除或刪除內容」與本句語境不同。",
-        "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
-        "remove-mcq-08": "「把某人／某項目從名單或群體中刪除／除名」與本句語境不同。"
+        "remove-pdf-002": "本句的「removal」指「依法要求／強制某人離開某司法管轄區」。",
+        "remove-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-pdf-002"
     },
@@ -817,11 +757,9 @@ export default {
       "masked": "A ____ order was issued.",
       "options": [
         "remove-pdf-002",
-        "remove-mcq-10",
-        "remove-mcq-12",
-        "remove-mcq-09",
-        "remove-mcq-13",
-        "remove-mcq-08"
+        "remove-mcq-15",
+        "remove-mcq-17",
+        "remove-mcq-13"
       ],
       "explanation": "本句的「removal」指「依法要求／強制某人離開某司法管轄區」。",
       "sentenceIndex": 81,
@@ -830,12 +768,10 @@ export default {
         "removal"
       ],
       "optionReasons": {
-        "remove-pdf-002": "本句指「依法要求／強制某人離開某司法管轄區」。",
-        "remove-mcq-10": "「透過手術／醫療程序把組織、器官、牙齒或異物取出」與本句語境不同。",
-        "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。",
-        "remove-mcq-09": "「從系統、畫面、檔案結構中移除或刪除內容」與本句語境不同。",
-        "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
-        "remove-mcq-08": "「把某人／某項目從名單或群體中刪除／除名」與本句語境不同。"
+        "remove-pdf-002": "本句的「removal」指「依法要求／強制某人離開某司法管轄區」。",
+        "remove-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-pdf-002"
     },
@@ -847,11 +783,9 @@ export default {
       "masked": "The battery is ____.",
       "options": [
         "remove-mcq-13",
-        "remove-mcq-12",
-        "remove-mcq-14",
-        "remove-mcq-11",
         "remove-mcq-15",
-        "remove-mcq-10"
+        "remove-pdf-002",
+        "remove-mcq-04"
       ],
       "explanation": "本句的「removable」指「可以被拆下、取出或移除的」。",
       "sentenceIndex": 83,
@@ -860,12 +794,10 @@ export default {
         "removable"
       ],
       "optionReasons": {
-        "remove-mcq-13": "本句指「可以被拆下、取出或移除的」。",
-        "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。",
-        "remove-mcq-14": "「在性質、經驗或情況上與某事相差很遠」與本句語境不同。",
-        "remove-mcq-11": "「把某物／某人移走、去除或撤去的行為／程序」與本句語境不同。",
-        "remove-mcq-15": "「在親屬世代上相隔一代」與本句語境不同。",
-        "remove-mcq-10": "「透過手術／醫療程序把組織、器官、牙齒或異物取出」與本句語境不同。"
+        "remove-mcq-13": "本句的「removable」指「可以被拆下、取出或移除的」。",
+        "remove-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "remove-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-13"
     },
@@ -877,11 +809,9 @@ export default {
       "masked": "The seat cover is ____ and washable.",
       "options": [
         "remove-mcq-13",
-        "remove-mcq-12",
-        "remove-mcq-14",
-        "remove-mcq-11",
         "remove-mcq-15",
-        "remove-mcq-10"
+        "remove-pdf-001",
+        "remove-mcq-16"
       ],
       "explanation": "本句的「removable」指「可以被拆下、取出或移除的」。",
       "sentenceIndex": 84,
@@ -890,12 +820,10 @@ export default {
         "removable"
       ],
       "optionReasons": {
-        "remove-mcq-13": "本句指「可以被拆下、取出或移除的」。",
-        "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。",
-        "remove-mcq-14": "「在性質、經驗或情況上與某事相差很遠」與本句語境不同。",
-        "remove-mcq-11": "「把某物／某人移走、去除或撤去的行為／程序」與本句語境不同。",
-        "remove-mcq-15": "「在親屬世代上相隔一代」與本句語境不同。",
-        "remove-mcq-10": "「透過手術／醫療程序把組織、器官、牙齒或異物取出」與本句語境不同。"
+        "remove-mcq-13": "本句的「removable」指「可以被拆下、取出或移除的」。",
+        "remove-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "remove-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-13"
     },
@@ -908,10 +836,8 @@ export default {
       "options": [
         "remove-mcq-14",
         "remove-mcq-13",
-        "remove-mcq-15",
-        "remove-mcq-12",
-        "remove-mcq-16",
-        "remove-mcq-11"
+        "remove-pdf-002",
+        "remove-mcq-16"
       ],
       "explanation": "本句的「removed from」指「在性質、經驗或情況上與某事相差很遠」。",
       "sentenceIndex": 89,
@@ -920,12 +846,10 @@ export default {
         "removed from"
       ],
       "optionReasons": {
-        "remove-mcq-14": "本句指「在性質、經驗或情況上與某事相差很遠」。",
-        "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
-        "remove-mcq-15": "「在親屬世代上相隔一代」與本句語境不同。",
-        "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。",
-        "remove-mcq-16": "「使某選項不再被考慮」與本句語境不同。",
-        "remove-mcq-11": "「把某物／某人移走、去除或撤去的行為／程序」與本句語境不同。"
+        "remove-mcq-14": "本句的「removed from」指「在性質、經驗或情況上與某事相差很遠」。",
+        "remove-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remove-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-14"
     },
@@ -937,11 +861,9 @@ export default {
       "masked": "His daily experience is far ____ from that of most drivers.",
       "options": [
         "remove-mcq-14",
+        "remove-mcq-03",
         "remove-mcq-13",
-        "remove-mcq-15",
-        "remove-mcq-12",
-        "remove-mcq-16",
-        "remove-mcq-11"
+        "remove-pdf-002"
       ],
       "explanation": "本句的「removed」指「在性質、經驗或情況上與某事相差很遠」。",
       "sentenceIndex": 90,
@@ -950,12 +872,10 @@ export default {
         "removed"
       ],
       "optionReasons": {
-        "remove-mcq-14": "本句指「在性質、經驗或情況上與某事相差很遠」。",
-        "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
-        "remove-mcq-15": "「在親屬世代上相隔一代」與本句語境不同。",
-        "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。",
-        "remove-mcq-16": "「使某選項不再被考慮」與本句語境不同。",
-        "remove-mcq-11": "「把某物／某人移走、去除或撤去的行為／程序」與本句語境不同。"
+        "remove-mcq-14": "本句的「removed」指「在性質、經驗或情況上與某事相差很遠」。",
+        "remove-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remove-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-14"
     },
@@ -967,11 +887,9 @@ export default {
       "masked": "She is my cousin once ____.",
       "options": [
         "remove-mcq-15",
-        "remove-mcq-14",
-        "remove-mcq-16",
         "remove-mcq-13",
-        "remove-mcq-17",
-        "remove-mcq-12"
+        "remove-pdf-001",
+        "remove-mcq-16"
       ],
       "explanation": "本句的「removed」指「在親屬世代上相隔一代」。",
       "sentenceIndex": 91,
@@ -980,12 +898,10 @@ export default {
         "removed"
       ],
       "optionReasons": {
-        "remove-mcq-15": "本句指「在親屬世代上相隔一代」。",
-        "remove-mcq-14": "「在性質、經驗或情況上與某事相差很遠」與本句語境不同。",
-        "remove-mcq-16": "「使某選項不再被考慮」與本句語境不同。",
-        "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
-        "remove-mcq-17": "「消除流程中令人麻煩、拖慢或阻礙行動的因素」與本句語境不同。",
-        "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。"
+        "remove-mcq-15": "本句的「removed」指「在親屬世代上相隔一代」。",
+        "remove-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remove-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-15"
     },
@@ -997,11 +913,9 @@ export default {
       "masked": "First cousins once ____ are one generation apart.",
       "options": [
         "remove-mcq-15",
-        "remove-mcq-14",
-        "remove-mcq-16",
-        "remove-mcq-13",
-        "remove-mcq-17",
-        "remove-mcq-12"
+        "remove-mcq-11",
+        "remove-mcq-03",
+        "remove-pdf-001"
       ],
       "explanation": "本句的「removed」指「在親屬世代上相隔一代」。",
       "sentenceIndex": 92,
@@ -1010,12 +924,10 @@ export default {
         "removed"
       ],
       "optionReasons": {
-        "remove-mcq-15": "本句指「在親屬世代上相隔一代」。",
-        "remove-mcq-14": "「在性質、經驗或情況上與某事相差很遠」與本句語境不同。",
-        "remove-mcq-16": "「使某選項不再被考慮」與本句語境不同。",
-        "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
-        "remove-mcq-17": "「消除流程中令人麻煩、拖慢或阻礙行動的因素」與本句語境不同。",
-        "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。"
+        "remove-mcq-15": "本句的「removed」指「在親屬世代上相隔一代」。",
+        "remove-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "remove-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-15"
     },
@@ -1027,11 +939,9 @@ export default {
       "masked": "The high cost ____ that model from consideration.",
       "options": [
         "remove-mcq-16",
-        "remove-mcq-15",
-        "remove-mcq-17",
-        "remove-mcq-14",
         "remove-mcq-13",
-        "remove-mcq-12"
+        "remove-pdf-002",
+        "remove-pdf-001"
       ],
       "explanation": "本句的「removed」指「使某選項不再被考慮」。",
       "sentenceIndex": 99,
@@ -1040,12 +950,10 @@ export default {
         "removed"
       ],
       "optionReasons": {
-        "remove-mcq-16": "本句指「使某選項不再被考慮」。",
-        "remove-mcq-15": "「在親屬世代上相隔一代」與本句語境不同。",
-        "remove-mcq-17": "「消除流程中令人麻煩、拖慢或阻礙行動的因素」與本句語境不同。",
-        "remove-mcq-14": "「在性質、經驗或情況上與某事相差很遠」與本句語境不同。",
-        "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
-        "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。"
+        "remove-mcq-16": "本句的「removed」指「使某選項不再被考慮」。",
+        "remove-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remove-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "remove-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-16"
     },
@@ -1057,11 +965,9 @@ export default {
       "masked": "Safety concerns ____ the proposal from consideration.",
       "options": [
         "remove-mcq-16",
-        "remove-mcq-15",
-        "remove-mcq-17",
-        "remove-mcq-14",
-        "remove-mcq-13",
-        "remove-mcq-12"
+        "remove-mcq-01",
+        "remove-pdf-001",
+        "remove-mcq-04"
       ],
       "explanation": "本句的「removed」指「使某選項不再被考慮」。",
       "sentenceIndex": 100,
@@ -1070,12 +976,10 @@ export default {
         "removed"
       ],
       "optionReasons": {
-        "remove-mcq-16": "本句指「使某選項不再被考慮」。",
-        "remove-mcq-15": "「在親屬世代上相隔一代」與本句語境不同。",
-        "remove-mcq-17": "「消除流程中令人麻煩、拖慢或阻礙行動的因素」與本句語境不同。",
-        "remove-mcq-14": "「在性質、經驗或情況上與某事相差很遠」與本句語境不同。",
-        "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
-        "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。"
+        "remove-mcq-16": "本句的「removed」指「使某選項不再被考慮」。",
+        "remove-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "remove-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-16"
     },
@@ -1088,10 +992,8 @@ export default {
       "options": [
         "remove-mcq-17",
         "remove-mcq-16",
-        "remove-mcq-15",
-        "remove-mcq-14",
-        "remove-mcq-13",
-        "remove-mcq-12"
+        "remove-pdf-002",
+        "remove-mcq-03"
       ],
       "explanation": "本句的「removes」指「消除流程中令人麻煩、拖慢或阻礙行動的因素」。",
       "sentenceIndex": 127,
@@ -1100,12 +1002,10 @@ export default {
         "removes"
       ],
       "optionReasons": {
-        "remove-mcq-17": "本句指「消除流程中令人麻煩、拖慢或阻礙行動的因素」。",
-        "remove-mcq-16": "「使某選項不再被考慮」與本句語境不同。",
-        "remove-mcq-15": "「在親屬世代上相隔一代」與本句語境不同。",
-        "remove-mcq-14": "「在性質、經驗或情況上與某事相差很遠」與本句語境不同。",
-        "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
-        "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。"
+        "remove-mcq-17": "本句的「removes」指「消除流程中令人麻煩、拖慢或阻礙行動的因素」。",
+        "remove-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "remove-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-17"
     },
@@ -1117,11 +1017,9 @@ export default {
       "masked": "Better charging infrastructure would ____ friction for EV users.",
       "options": [
         "remove-mcq-17",
-        "remove-mcq-16",
-        "remove-mcq-15",
+        "remove-pdf-001",
         "remove-mcq-14",
-        "remove-mcq-13",
-        "remove-mcq-12"
+        "remove-mcq-01"
       ],
       "explanation": "本句的「remove」指「消除流程中令人麻煩、拖慢或阻礙行動的因素」。",
       "sentenceIndex": 128,
@@ -1130,12 +1028,10 @@ export default {
         "remove"
       ],
       "optionReasons": {
-        "remove-mcq-17": "本句指「消除流程中令人麻煩、拖慢或阻礙行動的因素」。",
-        "remove-mcq-16": "「使某選項不再被考慮」與本句語境不同。",
-        "remove-mcq-15": "「在親屬世代上相隔一代」與本句語境不同。",
-        "remove-mcq-14": "「在性質、經驗或情況上與某事相差很遠」與本句語境不同。",
-        "remove-mcq-13": "「可以被拆下、取出或移除的」與本句語境不同。",
-        "remove-mcq-12": "「依入境法律要求／強制某人離境」與本句語境不同。"
+        "remove-mcq-17": "本句的「remove」指「消除流程中令人麻煩、拖慢或阻礙行動的因素」。",
+        "remove-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remove-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remove-mcq-17"
     }
@@ -1147,5 +1043,7 @@ export default {
     "sha256": "f9d62bd66505560f18bcece20db2337eb2053e5935752501a4101578f75ff5e0",
     "pages": 45
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

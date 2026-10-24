@@ -179,9 +179,6 @@ export default {
       "masked": "The sea turtle ____ through the water.",
       "options": [
         "glide-mcq-01",
-        "glide-mcq-02",
-        "glide-mcq-03",
-        "glide-mcq-04",
         "glide-mcq-05",
         "glide-mcq-06"
       ],
@@ -192,12 +189,9 @@ export default {
         "glided"
       ],
       "optionReasons": {
-        "glide-mcq-01": "本句指「平穩、流暢、安靜而幾乎不費力地連續移動」。",
-        "glide-mcq-02": "「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」與本句語境不同。",
-        "glide-mcq-03": "「從一個話題、狀態或活動自然、順暢地轉到另一個」與本句語境不同。",
-        "glide-mcq-04": "「一次流暢的滑行／滑翔動作」與本句語境不同。",
-        "glide-mcq-05": "「聲音或音高由一個位置平滑過渡到另一個；滑音」與本句語境不同。",
-        "glide-mcq-06": "「滑翔飛行活動，亦為 glide 的 -ing 形式」與本句語境不同。"
+        "glide-mcq-01": "本句的「glided」指「平穩、流暢、安靜而幾乎不費力地連續移動」。",
+        "glide-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "glide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glide-mcq-01"
     },
@@ -209,9 +203,6 @@ export default {
       "masked": "The swan ____ across the lake.",
       "options": [
         "glide-mcq-01",
-        "glide-mcq-02",
-        "glide-mcq-03",
-        "glide-mcq-04",
         "glide-mcq-05",
         "glide-mcq-06"
       ],
@@ -222,12 +213,9 @@ export default {
         "glided"
       ],
       "optionReasons": {
-        "glide-mcq-01": "本句指「平穩、流暢、安靜而幾乎不費力地連續移動」。",
-        "glide-mcq-02": "「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」與本句語境不同。",
-        "glide-mcq-03": "「從一個話題、狀態或活動自然、順暢地轉到另一個」與本句語境不同。",
-        "glide-mcq-04": "「一次流暢的滑行／滑翔動作」與本句語境不同。",
-        "glide-mcq-05": "「聲音或音高由一個位置平滑過渡到另一個；滑音」與本句語境不同。",
-        "glide-mcq-06": "「滑翔飛行活動，亦為 glide 的 -ing 形式」與本句語境不同。"
+        "glide-mcq-01": "本句的「glided」指「平穩、流暢、安靜而幾乎不費力地連續移動」。",
+        "glide-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "glide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glide-mcq-01"
     },
@@ -239,9 +227,6 @@ export default {
       "masked": "She ____ across the dance floor.",
       "options": [
         "glide-mcq-01",
-        "glide-mcq-02",
-        "glide-mcq-03",
-        "glide-mcq-04",
         "glide-mcq-05",
         "glide-mcq-06"
       ],
@@ -252,12 +237,9 @@ export default {
         "glided"
       ],
       "optionReasons": {
-        "glide-mcq-01": "本句指「平穩、流暢、安靜而幾乎不費力地連續移動」。",
-        "glide-mcq-02": "「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」與本句語境不同。",
-        "glide-mcq-03": "「從一個話題、狀態或活動自然、順暢地轉到另一個」與本句語境不同。",
-        "glide-mcq-04": "「一次流暢的滑行／滑翔動作」與本句語境不同。",
-        "glide-mcq-05": "「聲音或音高由一個位置平滑過渡到另一個；滑音」與本句語境不同。",
-        "glide-mcq-06": "「滑翔飛行活動，亦為 glide 的 -ing 形式」與本句語境不同。"
+        "glide-mcq-01": "本句的「glided」指「平穩、流暢、安靜而幾乎不費力地連續移動」。",
+        "glide-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "glide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glide-mcq-01"
     },
@@ -269,11 +251,8 @@ export default {
       "masked": "The eagle ____ above the valley.",
       "options": [
         "glide-mcq-02",
-        "glide-mcq-01",
         "glide-mcq-03",
-        "glide-mcq-04",
-        "glide-mcq-05",
-        "glide-mcq-06"
+        "glide-mcq-01"
       ],
       "explanation": "本句的「glided」指「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」。",
       "sentenceIndex": 3,
@@ -282,12 +261,9 @@ export default {
         "glided"
       ],
       "optionReasons": {
-        "glide-mcq-02": "本句指「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」。",
-        "glide-mcq-01": "「平穩、流暢、安靜而幾乎不費力地連續移動」與本句語境不同。",
-        "glide-mcq-03": "「從一個話題、狀態或活動自然、順暢地轉到另一個」與本句語境不同。",
-        "glide-mcq-04": "「一次流暢的滑行／滑翔動作」與本句語境不同。",
-        "glide-mcq-05": "「聲音或音高由一個位置平滑過渡到另一個；滑音」與本句語境不同。",
-        "glide-mcq-06": "「滑翔飛行活動，亦為 glide 的 -ing 形式」與本句語境不同。"
+        "glide-mcq-02": "本句的「glided」指「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」。",
+        "glide-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "glide-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glide-mcq-02"
     },
@@ -299,11 +275,8 @@ export default {
       "masked": "The aircraft ____ safely toward the runway.",
       "options": [
         "glide-mcq-02",
-        "glide-mcq-01",
         "glide-mcq-03",
-        "glide-mcq-04",
-        "glide-mcq-05",
-        "glide-mcq-06"
+        "glide-mcq-01"
       ],
       "explanation": "本句的「glided」指「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」。",
       "sentenceIndex": 4,
@@ -312,12 +285,9 @@ export default {
         "glided"
       ],
       "optionReasons": {
-        "glide-mcq-02": "本句指「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」。",
-        "glide-mcq-01": "「平穩、流暢、安靜而幾乎不費力地連續移動」與本句語境不同。",
-        "glide-mcq-03": "「從一個話題、狀態或活動自然、順暢地轉到另一個」與本句語境不同。",
-        "glide-mcq-04": "「一次流暢的滑行／滑翔動作」與本句語境不同。",
-        "glide-mcq-05": "「聲音或音高由一個位置平滑過渡到另一個；滑音」與本句語境不同。",
-        "glide-mcq-06": "「滑翔飛行活動，亦為 glide 的 -ing 形式」與本句語境不同。"
+        "glide-mcq-02": "本句的「glided」指「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」。",
+        "glide-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "glide-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glide-mcq-02"
     },
@@ -330,10 +300,7 @@ export default {
       "options": [
         "glide-mcq-03",
         "glide-mcq-02",
-        "glide-mcq-04",
-        "glide-mcq-01",
-        "glide-mcq-05",
-        "glide-mcq-06"
+        "glide-mcq-01"
       ],
       "explanation": "本句的「glided」指「從一個話題、狀態或活動自然、順暢地轉到另一個」。",
       "sentenceIndex": 5,
@@ -342,12 +309,9 @@ export default {
         "glided"
       ],
       "optionReasons": {
-        "glide-mcq-03": "本句指「從一個話題、狀態或活動自然、順暢地轉到另一個」。",
-        "glide-mcq-02": "「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」與本句語境不同。",
-        "glide-mcq-04": "「一次流暢的滑行／滑翔動作」與本句語境不同。",
-        "glide-mcq-01": "「平穩、流暢、安靜而幾乎不費力地連續移動」與本句語境不同。",
-        "glide-mcq-05": "「聲音或音高由一個位置平滑過渡到另一個；滑音」與本句語境不同。",
-        "glide-mcq-06": "「滑翔飛行活動，亦為 glide 的 -ing 形式」與本句語境不同。"
+        "glide-mcq-03": "本句的「glided」指「從一個話題、狀態或活動自然、順暢地轉到另一個」。",
+        "glide-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "glide-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glide-mcq-03"
     },
@@ -360,10 +324,7 @@ export default {
       "options": [
         "glide-mcq-03",
         "glide-mcq-02",
-        "glide-mcq-04",
-        "glide-mcq-01",
-        "glide-mcq-05",
-        "glide-mcq-06"
+        "glide-mcq-01"
       ],
       "explanation": "本句的「glided」指「從一個話題、狀態或活動自然、順暢地轉到另一個」。",
       "sentenceIndex": 6,
@@ -372,12 +333,9 @@ export default {
         "glided"
       ],
       "optionReasons": {
-        "glide-mcq-03": "本句指「從一個話題、狀態或活動自然、順暢地轉到另一個」。",
-        "glide-mcq-02": "「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」與本句語境不同。",
-        "glide-mcq-04": "「一次流暢的滑行／滑翔動作」與本句語境不同。",
-        "glide-mcq-01": "「平穩、流暢、安靜而幾乎不費力地連續移動」與本句語境不同。",
-        "glide-mcq-05": "「聲音或音高由一個位置平滑過渡到另一個；滑音」與本句語境不同。",
-        "glide-mcq-06": "「滑翔飛行活動，亦為 glide 的 -ing 形式」與本句語境不同。"
+        "glide-mcq-03": "本句的「glided」指「從一個話題、狀態或活動自然、順暢地轉到另一個」。",
+        "glide-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "glide-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glide-mcq-03"
     },
@@ -389,11 +347,7 @@ export default {
       "masked": "The brush ____ across the paper.",
       "options": [
         "glide-mcq-04",
-        "glide-mcq-03",
-        "glide-mcq-05",
-        "glide-mcq-02",
-        "glide-mcq-06",
-        "glide-mcq-01"
+        "glide-mcq-05"
       ],
       "explanation": "本句的「glided」指「一次流暢的滑行／滑翔動作」。",
       "sentenceIndex": 7,
@@ -402,12 +356,8 @@ export default {
         "glided"
       ],
       "optionReasons": {
-        "glide-mcq-04": "本句指「一次流暢的滑行／滑翔動作」。",
-        "glide-mcq-03": "「從一個話題、狀態或活動自然、順暢地轉到另一個」與本句語境不同。",
-        "glide-mcq-05": "「聲音或音高由一個位置平滑過渡到另一個；滑音」與本句語境不同。",
-        "glide-mcq-02": "「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」與本句語境不同。",
-        "glide-mcq-06": "「滑翔飛行活動，亦為 glide 的 -ing 形式」與本句語境不同。",
-        "glide-mcq-01": "「平穩、流暢、安靜而幾乎不費力地連續移動」與本句語境不同。"
+        "glide-mcq-04": "本句的「glided」指「一次流暢的滑行／滑翔動作」。",
+        "glide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glide-mcq-04"
     },
@@ -419,11 +369,7 @@ export default {
       "masked": "Her fingers ____ over the keys.",
       "options": [
         "glide-mcq-04",
-        "glide-mcq-03",
-        "glide-mcq-05",
-        "glide-mcq-02",
-        "glide-mcq-06",
-        "glide-mcq-01"
+        "glide-mcq-05"
       ],
       "explanation": "本句的「glided」指「一次流暢的滑行／滑翔動作」。",
       "sentenceIndex": 8,
@@ -432,12 +378,8 @@ export default {
         "glided"
       ],
       "optionReasons": {
-        "glide-mcq-04": "本句指「一次流暢的滑行／滑翔動作」。",
-        "glide-mcq-03": "「從一個話題、狀態或活動自然、順暢地轉到另一個」與本句語境不同。",
-        "glide-mcq-05": "「聲音或音高由一個位置平滑過渡到另一個；滑音」與本句語境不同。",
-        "glide-mcq-02": "「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」與本句語境不同。",
-        "glide-mcq-06": "「滑翔飛行活動，亦為 glide 的 -ing 形式」與本句語境不同。",
-        "glide-mcq-01": "「平穩、流暢、安靜而幾乎不費力地連續移動」與本句語境不同。"
+        "glide-mcq-04": "本句的「glided」指「一次流暢的滑行／滑翔動作」。",
+        "glide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glide-mcq-04"
     },
@@ -449,11 +391,8 @@ export default {
       "masked": "The vowel ends with a slight ____.",
       "options": [
         "glide-mcq-05",
-        "glide-mcq-04",
-        "glide-mcq-06",
-        "glide-mcq-03",
-        "glide-mcq-07",
-        "glide-mcq-02"
+        "glide-mcq-01",
+        "glide-mcq-06"
       ],
       "explanation": "本句的「glide」指「聲音或音高由一個位置平滑過渡到另一個；滑音」。",
       "sentenceIndex": 9,
@@ -462,12 +401,9 @@ export default {
         "glide"
       ],
       "optionReasons": {
-        "glide-mcq-05": "本句指「聲音或音高由一個位置平滑過渡到另一個；滑音」。",
-        "glide-mcq-04": "「一次流暢的滑行／滑翔動作」與本句語境不同。",
-        "glide-mcq-06": "「滑翔飛行活動，亦為 glide 的 -ing 形式」與本句語境不同。",
-        "glide-mcq-03": "「從一個話題、狀態或活動自然、順暢地轉到另一個」與本句語境不同。",
-        "glide-mcq-07": "「主要依靠氣流和升力飛行的滑翔機」與本句語境不同。",
-        "glide-mcq-02": "「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」與本句語境不同。"
+        "glide-mcq-05": "本句的「glide」指「聲音或音高由一個位置平滑過渡到另一個；滑音」。",
+        "glide-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "glide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glide-mcq-05"
     },
@@ -479,11 +415,7 @@ export default {
       "masked": "The singer used a smooth ____ between the two notes.",
       "options": [
         "glide-mcq-05",
-        "glide-mcq-04",
-        "glide-mcq-06",
-        "glide-mcq-03",
-        "glide-mcq-07",
-        "glide-mcq-02"
+        "glide-mcq-04"
       ],
       "explanation": "本句的「glide」指「聲音或音高由一個位置平滑過渡到另一個；滑音」。",
       "sentenceIndex": 10,
@@ -492,12 +424,8 @@ export default {
         "glide"
       ],
       "optionReasons": {
-        "glide-mcq-05": "本句指「聲音或音高由一個位置平滑過渡到另一個；滑音」。",
-        "glide-mcq-04": "「一次流暢的滑行／滑翔動作」與本句語境不同。",
-        "glide-mcq-06": "「滑翔飛行活動，亦為 glide 的 -ing 形式」與本句語境不同。",
-        "glide-mcq-03": "「從一個話題、狀態或活動自然、順暢地轉到另一個」與本句語境不同。",
-        "glide-mcq-07": "「主要依靠氣流和升力飛行的滑翔機」與本句語境不同。",
-        "glide-mcq-02": "「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」與本句語境不同。"
+        "glide-mcq-05": "本句的「glide」指「聲音或音高由一個位置平滑過渡到另一個；滑音」。",
+        "glide-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glide-mcq-05"
     },
@@ -509,11 +437,7 @@ export default {
       "masked": "The bird descended in a long ____.",
       "options": [
         "glide-mcq-04",
-        "glide-mcq-03",
-        "glide-mcq-05",
-        "glide-mcq-02",
-        "glide-mcq-06",
-        "glide-mcq-01"
+        "glide-mcq-05"
       ],
       "explanation": "本句的「glide」指「一次流暢的滑行／滑翔動作」。",
       "sentenceIndex": 11,
@@ -522,12 +446,8 @@ export default {
         "glide"
       ],
       "optionReasons": {
-        "glide-mcq-04": "本句指「一次流暢的滑行／滑翔動作」。",
-        "glide-mcq-03": "「從一個話題、狀態或活動自然、順暢地轉到另一個」與本句語境不同。",
-        "glide-mcq-05": "「聲音或音高由一個位置平滑過渡到另一個；滑音」與本句語境不同。",
-        "glide-mcq-02": "「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」與本句語境不同。",
-        "glide-mcq-06": "「滑翔飛行活動，亦為 glide 的 -ing 形式」與本句語境不同。",
-        "glide-mcq-01": "「平穩、流暢、安靜而幾乎不費力地連續移動」與本句語境不同。"
+        "glide-mcq-04": "本句的「glide」指「一次流暢的滑行／滑翔動作」。",
+        "glide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glide-mcq-04"
     },
@@ -539,11 +459,7 @@ export default {
       "masked": "The skater moved forward in a smooth ____.",
       "options": [
         "glide-mcq-04",
-        "glide-mcq-03",
-        "glide-mcq-05",
-        "glide-mcq-02",
-        "glide-mcq-06",
-        "glide-mcq-01"
+        "glide-mcq-05"
       ],
       "explanation": "本句的「glide」指「一次流暢的滑行／滑翔動作」。",
       "sentenceIndex": 12,
@@ -552,12 +468,8 @@ export default {
         "glide"
       ],
       "optionReasons": {
-        "glide-mcq-04": "本句指「一次流暢的滑行／滑翔動作」。",
-        "glide-mcq-03": "「從一個話題、狀態或活動自然、順暢地轉到另一個」與本句語境不同。",
-        "glide-mcq-05": "「聲音或音高由一個位置平滑過渡到另一個；滑音」與本句語境不同。",
-        "glide-mcq-02": "「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」與本句語境不同。",
-        "glide-mcq-06": "「滑翔飛行活動，亦為 glide 的 -ing 形式」與本句語境不同。",
-        "glide-mcq-01": "「平穩、流暢、安靜而幾乎不費力地連續移動」與本句語境不同。"
+        "glide-mcq-04": "本句的「glide」指「一次流暢的滑行／滑翔動作」。",
+        "glide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glide-mcq-04"
     },
@@ -569,11 +481,8 @@ export default {
       "masked": "He learned ____ during the summer.",
       "options": [
         "glide-mcq-06",
-        "glide-mcq-05",
-        "glide-mcq-07",
-        "glide-mcq-04",
-        "glide-mcq-03",
-        "glide-mcq-02"
+        "glide-mcq-01",
+        "glide-mcq-05"
       ],
       "explanation": "本句的「gliding」指「滑翔飛行活動，亦為 glide 的 -ing 形式」。",
       "sentenceIndex": 13,
@@ -582,12 +491,9 @@ export default {
         "gliding"
       ],
       "optionReasons": {
-        "glide-mcq-06": "本句指「滑翔飛行活動，亦為 glide 的 -ing 形式」。",
-        "glide-mcq-05": "「聲音或音高由一個位置平滑過渡到另一個；滑音」與本句語境不同。",
-        "glide-mcq-07": "「主要依靠氣流和升力飛行的滑翔機」與本句語境不同。",
-        "glide-mcq-04": "「一次流暢的滑行／滑翔動作」與本句語境不同。",
-        "glide-mcq-03": "「從一個話題、狀態或活動自然、順暢地轉到另一個」與本句語境不同。",
-        "glide-mcq-02": "「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」與本句語境不同。"
+        "glide-mcq-06": "本句的「gliding」指「滑翔飛行活動，亦為 glide 的 -ing 形式」。",
+        "glide-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "glide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glide-mcq-06"
     },
@@ -599,11 +505,8 @@ export default {
       "masked": "The ____ circled above the hills.",
       "options": [
         "glide-mcq-07",
-        "glide-mcq-06",
-        "glide-mcq-05",
-        "glide-mcq-04",
         "glide-mcq-03",
-        "glide-mcq-02"
+        "glide-mcq-01"
       ],
       "explanation": "本句的「glider」指「主要依靠氣流和升力飛行的滑翔機」。",
       "sentenceIndex": 14,
@@ -612,12 +515,9 @@ export default {
         "glider"
       ],
       "optionReasons": {
-        "glide-mcq-07": "本句指「主要依靠氣流和升力飛行的滑翔機」。",
-        "glide-mcq-06": "「滑翔飛行活動，亦為 glide 的 -ing 形式」與本句語境不同。",
-        "glide-mcq-05": "「聲音或音高由一個位置平滑過渡到另一個；滑音」與本句語境不同。",
-        "glide-mcq-04": "「一次流暢的滑行／滑翔動作」與本句語境不同。",
-        "glide-mcq-03": "「從一個話題、狀態或活動自然、順暢地轉到另一個」與本句語境不同。",
-        "glide-mcq-02": "「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」與本句語境不同。"
+        "glide-mcq-07": "本句的「glider」指「主要依靠氣流和升力飛行的滑翔機」。",
+        "glide-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "glide-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glide-mcq-07"
     },
@@ -629,11 +529,8 @@ export default {
       "masked": "She learned to fly a ____.",
       "options": [
         "glide-mcq-07",
-        "glide-mcq-06",
-        "glide-mcq-05",
-        "glide-mcq-04",
         "glide-mcq-03",
-        "glide-mcq-02"
+        "glide-mcq-01"
       ],
       "explanation": "本句的「glider」指「主要依靠氣流和升力飛行的滑翔機」。",
       "sentenceIndex": 15,
@@ -642,12 +539,9 @@ export default {
         "glider"
       ],
       "optionReasons": {
-        "glide-mcq-07": "本句指「主要依靠氣流和升力飛行的滑翔機」。",
-        "glide-mcq-06": "「滑翔飛行活動，亦為 glide 的 -ing 形式」與本句語境不同。",
-        "glide-mcq-05": "「聲音或音高由一個位置平滑過渡到另一個；滑音」與本句語境不同。",
-        "glide-mcq-04": "「一次流暢的滑行／滑翔動作」與本句語境不同。",
-        "glide-mcq-03": "「從一個話題、狀態或活動自然、順暢地轉到另一個」與本句語境不同。",
-        "glide-mcq-02": "「不靠持續推進力而利用氣流、速度或升力滑翔；屬於 smooth-」與本句語境不同。"
+        "glide-mcq-07": "本句的「glider」指「主要依靠氣流和升力飛行的滑翔機」。",
+        "glide-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "glide-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glide-mcq-07"
     }
@@ -659,5 +553,7 @@ export default {
     "sha256": "3ea46a386d62713df19619dfe554d42b2b6d77496e296e74e682b3e03a9c643e",
     "pages": 9
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

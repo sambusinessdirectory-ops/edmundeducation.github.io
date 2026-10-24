@@ -530,11 +530,9 @@ export default {
       "masked": "Good teachers need strong ____ as well as knowledge.",
       "options": [
         "judgement-mcq-01",
-        "judgement-mcq-02",
-        "judgement-mcq-03",
-        "judgement-mcq-04",
-        "judgement-mcq-05",
-        "judgement-mcq-06"
+        "judgement-mcq-21",
+        "judgement-mcq-18",
+        "judgement-mcq-22"
       ],
       "explanation": "本句的「judgement」指「根據情況、知識與經驗作出合理決定的能力；判斷力」。",
       "sentenceIndex": 0,
@@ -543,12 +541,10 @@ export default {
         "judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-01": "本句指「根據情況、知識與經驗作出合理決定的能力；判斷力」。",
-        "judgement-mcq-02": "「穩健、合理而可靠的判斷能力」與本句語境不同。",
-        "judgement-mcq-03": "「經過考量後形成的看法、評估或結論」與本句語境不同。",
-        "judgement-mcq-04": "「經分析後形成或作出一項判斷」與本句語境不同。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。"
+        "judgement-mcq-01": "本句的「judgement」指「根據情況、知識與經驗作出合理決定的能力；判斷力」。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-01"
     },
@@ -560,11 +556,9 @@ export default {
       "masked": "She showed excellent ____ when she changed her explanation for the class.",
       "options": [
         "judgement-mcq-01",
-        "judgement-mcq-02",
-        "judgement-mcq-03",
-        "judgement-mcq-04",
-        "judgement-mcq-05",
-        "judgement-mcq-06"
+        "judgement-mcq-21",
+        "judgement-mcq-18",
+        "judgement-mcq-22"
       ],
       "explanation": "本句的「judgement」指「根據情況、知識與經驗作出合理決定的能力；判斷力」。",
       "sentenceIndex": 1,
@@ -573,12 +567,10 @@ export default {
         "judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-01": "本句指「根據情況、知識與經驗作出合理決定的能力；判斷力」。",
-        "judgement-mcq-02": "「穩健、合理而可靠的判斷能力」與本句語境不同。",
-        "judgement-mcq-03": "「經過考量後形成的看法、評估或結論」與本句語境不同。",
-        "judgement-mcq-04": "「經分析後形成或作出一項判斷」與本句語境不同。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。"
+        "judgement-mcq-01": "本句的「judgement」指「根據情況、知識與經驗作出合理決定的能力；判斷力」。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-01"
     },
@@ -590,11 +582,9 @@ export default {
       "masked": "She has very good ____.",
       "options": [
         "judgement-mcq-01",
-        "judgement-mcq-02",
-        "judgement-mcq-03",
-        "judgement-mcq-04",
-        "judgement-mcq-05",
-        "judgement-mcq-06"
+        "judgement-mcq-18",
+        "judgement-mcq-21",
+        "judgement-mcq-22"
       ],
       "explanation": "本句的「judgement」指「根據情況、知識與經驗作出合理決定的能力；判斷力」。",
       "sentenceIndex": 2,
@@ -603,12 +593,10 @@ export default {
         "judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-01": "本句指「根據情況、知識與經驗作出合理決定的能力；判斷力」。",
-        "judgement-mcq-02": "「穩健、合理而可靠的判斷能力」與本句語境不同。",
-        "judgement-mcq-03": "「經過考量後形成的看法、評估或結論」與本句語境不同。",
-        "judgement-mcq-04": "「經分析後形成或作出一項判斷」與本句語境不同。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。"
+        "judgement-mcq-01": "本句的「judgement」指「根據情況、知識與經驗作出合理決定的能力；判斷力」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-01"
     },
@@ -620,11 +608,9 @@ export default {
       "masked": "The situation required calm ____.",
       "options": [
         "judgement-mcq-01",
-        "judgement-mcq-02",
-        "judgement-mcq-03",
-        "judgement-mcq-04",
-        "judgement-mcq-05",
-        "judgement-mcq-06"
+        "judgement-mcq-21",
+        "judgement-mcq-18",
+        "judgement-mcq-22"
       ],
       "explanation": "本句的「judgement」指「根據情況、知識與經驗作出合理決定的能力；判斷力」。",
       "sentenceIndex": 3,
@@ -633,12 +619,10 @@ export default {
         "judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-01": "本句指「根據情況、知識與經驗作出合理決定的能力；判斷力」。",
-        "judgement-mcq-02": "「穩健、合理而可靠的判斷能力」與本句語境不同。",
-        "judgement-mcq-03": "「經過考量後形成的看法、評估或結論」與本句語境不同。",
-        "judgement-mcq-04": "「經分析後形成或作出一項判斷」與本句語境不同。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。"
+        "judgement-mcq-01": "本句的「judgement」指「根據情況、知識與經驗作出合理決定的能力；判斷力」。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-01"
     },
@@ -650,11 +634,9 @@ export default {
       "masked": "He showed ____ under pressure.",
       "options": [
         "judgement-mcq-02",
-        "judgement-mcq-01",
-        "judgement-mcq-03",
-        "judgement-mcq-04",
-        "judgement-mcq-05",
-        "judgement-mcq-06"
+        "judgement-mcq-18",
+        "judgement-mcq-21",
+        "judgement-mcq-16"
       ],
       "explanation": "本句的「sound judgement」指「穩健、合理而可靠的判斷能力」。",
       "sentenceIndex": 4,
@@ -663,12 +645,10 @@ export default {
         "sound judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-02": "本句指「穩健、合理而可靠的判斷能力」。",
-        "judgement-mcq-01": "「根據情況、知識與經驗作出合理決定的能力；判斷力」與本句語境不同。",
-        "judgement-mcq-03": "「經過考量後形成的看法、評估或結論」與本句語境不同。",
-        "judgement-mcq-04": "「經分析後形成或作出一項判斷」與本句語境不同。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。"
+        "judgement-mcq-02": "本句的「sound judgement」指「穩健、合理而可靠的判斷能力」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-02"
     },
@@ -680,11 +660,9 @@ export default {
       "masked": "Good leaders need ____.",
       "options": [
         "judgement-mcq-02",
-        "judgement-mcq-01",
-        "judgement-mcq-03",
-        "judgement-mcq-04",
-        "judgement-mcq-05",
-        "judgement-mcq-06"
+        "judgement-mcq-16",
+        "judgement-mcq-18",
+        "judgement-mcq-21"
       ],
       "explanation": "本句的「good judgement」指「穩健、合理而可靠的判斷能力」。",
       "sentenceIndex": 5,
@@ -693,12 +671,10 @@ export default {
         "good judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-02": "本句指「穩健、合理而可靠的判斷能力」。",
-        "judgement-mcq-01": "「根據情況、知識與經驗作出合理決定的能力；判斷力」與本句語境不同。",
-        "judgement-mcq-03": "「經過考量後形成的看法、評估或結論」與本句語境不同。",
-        "judgement-mcq-04": "「經分析後形成或作出一項判斷」與本句語境不同。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。"
+        "judgement-mcq-02": "本句的「good judgement」指「穩健、合理而可靠的判斷能力」。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-02"
     },
@@ -710,11 +686,9 @@ export default {
       "masked": "In my ____, the plan is too risky.",
       "options": [
         "judgement-mcq-03",
-        "judgement-mcq-02",
-        "judgement-mcq-04",
-        "judgement-mcq-01",
-        "judgement-mcq-05",
-        "judgement-mcq-06"
+        "judgement-mcq-16",
+        "judgement-mcq-08",
+        "judgement-mcq-23"
       ],
       "explanation": "本句的「judgement」指「經過考量後形成的看法、評估或結論」。",
       "sentenceIndex": 6,
@@ -723,12 +697,10 @@ export default {
         "judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-03": "本句指「經過考量後形成的看法、評估或結論」。",
-        "judgement-mcq-02": "「穩健、合理而可靠的判斷能力」與本句語境不同。",
-        "judgement-mcq-04": "「經分析後形成或作出一項判斷」與本句語境不同。",
-        "judgement-mcq-01": "「根據情況、知識與經驗作出合理決定的能力；判斷力」與本句語境不同。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。"
+        "judgement-mcq-03": "本句的「judgement」指「經過考量後形成的看法、評估或結論」。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-03"
     },
@@ -740,11 +712,9 @@ export default {
       "masked": "We should not make a ____ before hearing both sides.",
       "options": [
         "judgement-mcq-03",
-        "judgement-mcq-02",
-        "judgement-mcq-04",
-        "judgement-mcq-01",
-        "judgement-mcq-05",
-        "judgement-mcq-06"
+        "judgement-mcq-16",
+        "judgement-mcq-23",
+        "judgement-mcq-07"
       ],
       "explanation": "本句的「judgement」指「經過考量後形成的看法、評估或結論」。",
       "sentenceIndex": 7,
@@ -753,12 +723,10 @@ export default {
         "judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-03": "本句指「經過考量後形成的看法、評估或結論」。",
-        "judgement-mcq-02": "「穩健、合理而可靠的判斷能力」與本句語境不同。",
-        "judgement-mcq-04": "「經分析後形成或作出一項判斷」與本句語境不同。",
-        "judgement-mcq-01": "「根據情況、知識與經驗作出合理決定的能力；判斷力」與本句語境不同。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。"
+        "judgement-mcq-03": "本句的「judgement」指「經過考量後形成的看法、評估或結論」。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-03"
     },
@@ -770,11 +738,9 @@ export default {
       "masked": "It is too early to ____.",
       "options": [
         "judgement-mcq-04",
-        "judgement-mcq-03",
         "judgement-mcq-05",
-        "judgement-mcq-02",
-        "judgement-mcq-06",
-        "judgement-mcq-01"
+        "judgement-mcq-16",
+        "judgement-mcq-18"
       ],
       "explanation": "本句的「make a judgement」指「經分析後形成或作出一項判斷」。",
       "sentenceIndex": 8,
@@ -783,12 +749,10 @@ export default {
         "make a judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-04": "本句指「經分析後形成或作出一項判斷」。",
-        "judgement-mcq-03": "「經過考量後形成的看法、評估或結論」與本句語境不同。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。",
-        "judgement-mcq-02": "「穩健、合理而可靠的判斷能力」與本句語境不同。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。",
-        "judgement-mcq-01": "「根據情況、知識與經驗作出合理決定的能力；判斷力」與本句語境不同。"
+        "judgement-mcq-04": "本句的「make a judgement」指「經分析後形成或作出一項判斷」。",
+        "judgement-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-04"
     },
@@ -800,11 +764,9 @@ export default {
       "masked": "Teachers often have to ____ in class.",
       "options": [
         "judgement-mcq-04",
-        "judgement-mcq-03",
-        "judgement-mcq-05",
-        "judgement-mcq-02",
-        "judgement-mcq-06",
-        "judgement-mcq-01"
+        "judgement-mcq-21",
+        "judgement-mcq-16",
+        "judgement-mcq-18"
       ],
       "explanation": "本句的「make quick judgements」指「經分析後形成或作出一項判斷」。",
       "sentenceIndex": 9,
@@ -813,12 +775,10 @@ export default {
         "make quick judgements"
       ],
       "optionReasons": {
-        "judgement-mcq-04": "本句指「經分析後形成或作出一項判斷」。",
-        "judgement-mcq-03": "「經過考量後形成的看法、評估或結論」與本句語境不同。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。",
-        "judgement-mcq-02": "「穩健、合理而可靠的判斷能力」與本句語境不同。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。",
-        "judgement-mcq-01": "「根據情況、知識與經驗作出合理決定的能力；判斷力」與本句語境不同。"
+        "judgement-mcq-04": "本句的「make quick judgements」指「經分析後形成或作出一項判斷」。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-04"
     },
@@ -830,11 +790,9 @@ export default {
       "masked": "My first ____ was wrong.",
       "options": [
         "judgement-mcq-05",
-        "judgement-mcq-04",
-        "judgement-mcq-06",
-        "judgement-mcq-03",
+        "judgement-mcq-18",
         "judgement-mcq-07",
-        "judgement-mcq-02"
+        "judgement-mcq-11"
       ],
       "explanation": "本句的「judgement of him」指「對某人的能力、性格或行為所作的評價」。",
       "sentenceIndex": 10,
@@ -843,12 +801,10 @@ export default {
         "judgement of him"
       ],
       "optionReasons": {
-        "judgement-mcq-05": "本句指「對某人的能力、性格或行為所作的評價」。",
-        "judgement-mcq-04": "「經分析後形成或作出一項判斷」與本句語境不同。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。",
-        "judgement-mcq-03": "「經過考量後形成的看法、評估或結論」與本句語境不同。",
-        "judgement-mcq-07": "「法院或法官作出的正式判決／裁決」與本句語境不同。",
-        "judgement-mcq-02": "「穩健、合理而可靠的判斷能力」與本句語境不同。"
+        "judgement-mcq-05": "本句的「judgement of him」指「對某人的能力、性格或行為所作的評價」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-05"
     },
@@ -860,11 +816,9 @@ export default {
       "masked": "We should avoid making unfair ____.",
       "options": [
         "judgement-mcq-05",
+        "judgement-mcq-18",
         "judgement-mcq-04",
-        "judgement-mcq-06",
-        "judgement-mcq-03",
-        "judgement-mcq-07",
-        "judgement-mcq-02"
+        "judgement-mcq-16"
       ],
       "explanation": "本句的「judgements about people」指「對某人的能力、性格或行為所作的評價」。",
       "sentenceIndex": 11,
@@ -873,12 +827,10 @@ export default {
         "judgements about people"
       ],
       "optionReasons": {
-        "judgement-mcq-05": "本句指「對某人的能力、性格或行為所作的評價」。",
-        "judgement-mcq-04": "「經分析後形成或作出一項判斷」與本句語境不同。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。",
-        "judgement-mcq-03": "「經過考量後形成的看法、評估或結論」與本句語境不同。",
-        "judgement-mcq-07": "「法院或法官作出的正式判決／裁決」與本句語境不同。",
-        "judgement-mcq-02": "「穩健、合理而可靠的判斷能力」與本句語境不同。"
+        "judgement-mcq-05": "本句的「judgements about people」指「對某人的能力、性格或行為所作的評價」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-05"
     },
@@ -890,11 +842,9 @@ export default {
       "masked": "It is easy to ____.",
       "options": [
         "judgement-mcq-06",
-        "judgement-mcq-05",
-        "judgement-mcq-07",
-        "judgement-mcq-04",
-        "judgement-mcq-08",
-        "judgement-mcq-03"
+        "judgement-mcq-16",
+        "judgement-mcq-18",
+        "judgement-mcq-07"
       ],
       "explanation": "本句的「pass judgement on others」指「對某人／某事下評論或評斷，常帶批判意味」。",
       "sentenceIndex": 12,
@@ -903,12 +853,10 @@ export default {
         "pass judgement on others"
       ],
       "optionReasons": {
-        "judgement-mcq-06": "本句指「對某人／某事下評論或評斷，常帶批判意味」。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。",
-        "judgement-mcq-07": "「法院或法官作出的正式判決／裁決」與本句語境不同。",
-        "judgement-mcq-04": "「經分析後形成或作出一項判斷」與本句語境不同。",
-        "judgement-mcq-08": "「對行為是否正確所作的評判／審判」與本句語境不同。",
-        "judgement-mcq-03": "「經過考量後形成的看法、評估或結論」與本句語境不同。"
+        "judgement-mcq-06": "本句的「pass judgement on others」指「對某人／某事下評論或評斷，常帶批判意味」。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-06"
     },
@@ -920,11 +868,9 @@ export default {
       "masked": "I don’t want to ____.",
       "options": [
         "judgement-mcq-06",
-        "judgement-mcq-05",
-        "judgement-mcq-07",
-        "judgement-mcq-04",
-        "judgement-mcq-08",
-        "judgement-mcq-03"
+        "judgement-mcq-16",
+        "judgement-mcq-18",
+        "judgement-mcq-07"
       ],
       "explanation": "本句的「pass judgement on her decision」指「對某人／某事下評論或評斷，常帶批判意味」。",
       "sentenceIndex": 13,
@@ -933,12 +879,10 @@ export default {
         "pass judgement on her decision"
       ],
       "optionReasons": {
-        "judgement-mcq-06": "本句指「對某人／某事下評論或評斷，常帶批判意味」。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。",
-        "judgement-mcq-07": "「法院或法官作出的正式判決／裁決」與本句語境不同。",
-        "judgement-mcq-04": "「經分析後形成或作出一項判斷」與本句語境不同。",
-        "judgement-mcq-08": "「對行為是否正確所作的評判／審判」與本句語境不同。",
-        "judgement-mcq-03": "「經過考量後形成的看法、評估或結論」與本句語境不同。"
+        "judgement-mcq-06": "本句的「pass judgement on her decision」指「對某人／某事下評論或評斷，常帶批判意味」。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-06"
     },
@@ -950,11 +894,9 @@ export default {
       "masked": "The court delivered its ____.",
       "options": [
         "judgement-mcq-07",
-        "judgement-mcq-06",
-        "judgement-mcq-08",
-        "judgement-mcq-05",
-        "judgement-mcq-09",
-        "judgement-mcq-04"
+        "judgement-mcq-23",
+        "judgement-mcq-14",
+        "judgement-mcq-16"
       ],
       "explanation": "本句的「judgement」指「法院或法官作出的正式判決／裁決」。",
       "sentenceIndex": 14,
@@ -963,12 +905,10 @@ export default {
         "judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-07": "本句指「法院或法官作出的正式判決／裁決」。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。",
-        "judgement-mcq-08": "「對行為是否正確所作的評判／審判」與本句語境不同。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。",
-        "judgement-mcq-09": "「沒有作出合理選擇；判斷不佳」與本句語境不同。",
-        "judgement-mcq-04": "「經分析後形成或作出一項判斷」與本句語境不同。"
+        "judgement-mcq-07": "本句的「judgement」指「法院或法官作出的正式判決／裁決」。",
+        "judgement-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-07"
     },
@@ -980,11 +920,9 @@ export default {
       "masked": "The final ____ was issued last week.",
       "options": [
         "judgement-mcq-07",
-        "judgement-mcq-06",
-        "judgement-mcq-08",
+        "judgement-mcq-18",
         "judgement-mcq-05",
-        "judgement-mcq-09",
-        "judgement-mcq-04"
+        "judgement-mcq-16"
       ],
       "explanation": "本句的「judgement」指「法院或法官作出的正式判決／裁決」。",
       "sentenceIndex": 15,
@@ -993,12 +931,10 @@ export default {
         "judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-07": "本句指「法院或法官作出的正式判決／裁決」。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。",
-        "judgement-mcq-08": "「對行為是否正確所作的評判／審判」與本句語境不同。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。",
-        "judgement-mcq-09": "「沒有作出合理選擇；判斷不佳」與本句語境不同。",
-        "judgement-mcq-04": "「經分析後形成或作出一項判斷」與本句語境不同。"
+        "judgement-mcq-07": "本句的「judgement」指「法院或法官作出的正式判決／裁決」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-07"
     },
@@ -1010,11 +946,9 @@ export default {
       "masked": "The court entered ____.",
       "options": [
         "judgement-mcq-07",
-        "judgement-mcq-06",
-        "judgement-mcq-08",
+        "judgement-mcq-18",
         "judgement-mcq-05",
-        "judgement-mcq-09",
-        "judgement-mcq-04"
+        "judgement-mcq-16"
       ],
       "explanation": "本句的「judgement against the company」指「法院或法官作出的正式判決／裁決」。",
       "sentenceIndex": 16,
@@ -1023,12 +957,10 @@ export default {
         "judgement against the company"
       ],
       "optionReasons": {
-        "judgement-mcq-07": "本句指「法院或法官作出的正式判決／裁決」。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。",
-        "judgement-mcq-08": "「對行為是否正確所作的評判／審判」與本句語境不同。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。",
-        "judgement-mcq-09": "「沒有作出合理選擇；判斷不佳」與本句語境不同。",
-        "judgement-mcq-04": "「經分析後形成或作出一項判斷」與本句語境不同。"
+        "judgement-mcq-07": "本句的「judgement against the company」指「法院或法官作出的正式判決／裁決」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-07"
     },
@@ -1040,11 +972,9 @@ export default {
       "masked": "The judge gave ____.",
       "options": [
         "judgement-mcq-07",
-        "judgement-mcq-06",
-        "judgement-mcq-08",
+        "judgement-mcq-18",
         "judgement-mcq-05",
-        "judgement-mcq-09",
-        "judgement-mcq-04"
+        "judgement-mcq-11"
       ],
       "explanation": "本句的「judgement in favour of the claimant」指「法院或法官作出的正式判決／裁決」。",
       "sentenceIndex": 17,
@@ -1053,12 +983,10 @@ export default {
         "judgement in favour of the claimant"
       ],
       "optionReasons": {
-        "judgement-mcq-07": "本句指「法院或法官作出的正式判決／裁決」。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。",
-        "judgement-mcq-08": "「對行為是否正確所作的評判／審判」與本句語境不同。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。",
-        "judgement-mcq-09": "「沒有作出合理選擇；判斷不佳」與本句語境不同。",
-        "judgement-mcq-04": "「經分析後形成或作出一項判斷」與本句語境不同。"
+        "judgement-mcq-07": "本句的「judgement in favour of the claimant」指「法院或法官作出的正式判決／裁決」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-07"
     },
@@ -1070,11 +998,9 @@ export default {
       "masked": "The story deals with themes of guilt and ____.",
       "options": [
         "judgement-mcq-08",
-        "judgement-mcq-07",
-        "judgement-mcq-09",
-        "judgement-mcq-06",
-        "judgement-mcq-10",
-        "judgement-mcq-05"
+        "judgement-mcq-18",
+        "judgement-mcq-19",
+        "judgement-mcq-16"
       ],
       "explanation": "本句的「judgement」指「對行為是否正確所作的評判／審判」。",
       "sentenceIndex": 18,
@@ -1083,12 +1009,10 @@ export default {
         "judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-08": "本句指「對行為是否正確所作的評判／審判」。",
-        "judgement-mcq-07": "「法院或法官作出的正式判決／裁決」與本句語境不同。",
-        "judgement-mcq-09": "「沒有作出合理選擇；判斷不佳」與本句語境不同。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。",
-        "judgement-mcq-10": "「一時失去良好判斷而作出錯誤選擇」與本句語境不同。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。"
+        "judgement-mcq-08": "本句的「judgement」指「對行為是否正確所作的評判／審判」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-08"
     },
@@ -1100,11 +1024,9 @@ export default {
       "masked": "He feared divine ____.",
       "options": [
         "judgement-mcq-08",
-        "judgement-mcq-07",
+        "judgement-mcq-18",
         "judgement-mcq-09",
-        "judgement-mcq-06",
-        "judgement-mcq-10",
-        "judgement-mcq-05"
+        "judgement-mcq-06"
       ],
       "explanation": "本句的「judgement」指「對行為是否正確所作的評判／審判」。",
       "sentenceIndex": 19,
@@ -1113,12 +1035,10 @@ export default {
         "judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-08": "本句指「對行為是否正確所作的評判／審判」。",
-        "judgement-mcq-07": "「法院或法官作出的正式判決／裁決」與本句語境不同。",
-        "judgement-mcq-09": "「沒有作出合理選擇；判斷不佳」與本句語境不同。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。",
-        "judgement-mcq-10": "「一時失去良好判斷而作出錯誤選擇」與本句語境不同。",
-        "judgement-mcq-05": "「對某人的能力、性格或行為所作的評價」與本句語境不同。"
+        "judgement-mcq-08": "本句的「judgement」指「對行為是否正確所作的評判／審判」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-08"
     },
@@ -1130,11 +1050,8 @@ export default {
       "masked": "It was an error of ____.",
       "options": [
         "judgement-mcq-09",
-        "judgement-mcq-08",
-        "judgement-mcq-10",
-        "judgement-mcq-07",
-        "judgement-mcq-11",
-        "judgement-mcq-06"
+        "judgement-mcq-05",
+        "judgement-mcq-18"
       ],
       "explanation": "本句的「poor judgement」指「沒有作出合理選擇；判斷不佳」。",
       "sentenceIndex": 22,
@@ -1143,12 +1060,9 @@ export default {
         "poor judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-09": "本句指「沒有作出合理選擇；判斷不佳」。",
-        "judgement-mcq-08": "「對行為是否正確所作的評判／審判」與本句語境不同。",
-        "judgement-mcq-10": "「一時失去良好判斷而作出錯誤選擇」與本句語境不同。",
-        "judgement-mcq-07": "「法院或法官作出的正式判決／裁決」與本句語境不同。",
-        "judgement-mcq-11": "「根據自己的分析與經驗自行判斷」與本句語境不同。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。"
+        "judgement-mcq-09": "本句的「poor judgement」指「沒有作出合理選擇；判斷不佳」。",
+        "judgement-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-09"
     },
@@ -1160,11 +1074,8 @@ export default {
       "masked": "His decision showed ____.",
       "options": [
         "judgement-mcq-09",
-        "judgement-mcq-08",
-        "judgement-mcq-10",
-        "judgement-mcq-07",
-        "judgement-mcq-11",
-        "judgement-mcq-06"
+        "judgement-mcq-05",
+        "judgement-mcq-18"
       ],
       "explanation": "本句的「bad judgement」指「沒有作出合理選擇；判斷不佳」。",
       "sentenceIndex": 23,
@@ -1173,12 +1084,9 @@ export default {
         "bad judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-09": "本句指「沒有作出合理選擇；判斷不佳」。",
-        "judgement-mcq-08": "「對行為是否正確所作的評判／審判」與本句語境不同。",
-        "judgement-mcq-10": "「一時失去良好判斷而作出錯誤選擇」與本句語境不同。",
-        "judgement-mcq-07": "「法院或法官作出的正式判決／裁決」與本句語境不同。",
-        "judgement-mcq-11": "「根據自己的分析與經驗自行判斷」與本句語境不同。",
-        "judgement-mcq-06": "「對某人／某事下評論或評斷，常帶批判意味」與本句語境不同。"
+        "judgement-mcq-09": "本句的「bad judgement」指「沒有作出合理選擇；判斷不佳」。",
+        "judgement-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-09"
     },
@@ -1190,11 +1098,9 @@ export default {
       "masked": "He described the mistake as a ____.",
       "options": [
         "judgement-mcq-10",
-        "judgement-mcq-09",
-        "judgement-mcq-11",
-        "judgement-mcq-08",
-        "judgement-mcq-12",
-        "judgement-mcq-07"
+        "judgement-mcq-05",
+        "judgement-mcq-18",
+        "judgement-mcq-16"
       ],
       "explanation": "本句的「lapse of judgement」指「一時失去良好判斷而作出錯誤選擇」。",
       "sentenceIndex": 24,
@@ -1203,12 +1109,10 @@ export default {
         "lapse of judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-10": "本句指「一時失去良好判斷而作出錯誤選擇」。",
-        "judgement-mcq-09": "「沒有作出合理選擇；判斷不佳」與本句語境不同。",
-        "judgement-mcq-11": "「根據自己的分析與經驗自行判斷」與本句語境不同。",
-        "judgement-mcq-08": "「對行為是否正確所作的評判／審判」與本句語境不同。",
-        "judgement-mcq-12": "「主動運用判斷能力作決定」與本句語境不同。",
-        "judgement-mcq-07": "「法院或法官作出的正式判決／裁決」與本句語境不同。"
+        "judgement-mcq-10": "本句的「lapse of judgement」指「一時失去良好判斷而作出錯誤選擇」。",
+        "judgement-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-10"
     },
@@ -1220,11 +1124,9 @@ export default {
       "masked": "One ____ can have serious consequences.",
       "options": [
         "judgement-mcq-10",
-        "judgement-mcq-09",
-        "judgement-mcq-11",
-        "judgement-mcq-08",
-        "judgement-mcq-12",
-        "judgement-mcq-07"
+        "judgement-mcq-05",
+        "judgement-mcq-18",
+        "judgement-mcq-16"
       ],
       "explanation": "本句的「lapse of judgement」指「一時失去良好判斷而作出錯誤選擇」。",
       "sentenceIndex": 25,
@@ -1233,12 +1135,10 @@ export default {
         "lapse of judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-10": "本句指「一時失去良好判斷而作出錯誤選擇」。",
-        "judgement-mcq-09": "「沒有作出合理選擇；判斷不佳」與本句語境不同。",
-        "judgement-mcq-11": "「根據自己的分析與經驗自行判斷」與本句語境不同。",
-        "judgement-mcq-08": "「對行為是否正確所作的評判／審判」與本句語境不同。",
-        "judgement-mcq-12": "「主動運用判斷能力作決定」與本句語境不同。",
-        "judgement-mcq-07": "「法院或法官作出的正式判決／裁決」與本句語境不同。"
+        "judgement-mcq-10": "本句的「lapse of judgement」指「一時失去良好判斷而作出錯誤選擇」。",
+        "judgement-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-10"
     },
@@ -1250,11 +1150,9 @@ export default {
       "masked": "Use your ____ if the situation changes.",
       "options": [
         "judgement-mcq-11",
-        "judgement-mcq-10",
-        "judgement-mcq-12",
-        "judgement-mcq-09",
-        "judgement-mcq-13",
-        "judgement-mcq-08"
+        "judgement-mcq-18",
+        "judgement-mcq-21",
+        "judgement-mcq-22"
       ],
       "explanation": "本句的「judgement」指「根據自己的分析與經驗自行判斷」。",
       "sentenceIndex": 26,
@@ -1263,12 +1161,10 @@ export default {
         "judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-11": "本句指「根據自己的分析與經驗自行判斷」。",
-        "judgement-mcq-10": "「一時失去良好判斷而作出錯誤選擇」與本句語境不同。",
-        "judgement-mcq-12": "「主動運用判斷能力作決定」與本句語境不同。",
-        "judgement-mcq-09": "「沒有作出合理選擇；判斷不佳」與本句語境不同。",
-        "judgement-mcq-13": "「使某人的判斷力受到干擾、變得不準確」與本句語境不同。",
-        "judgement-mcq-08": "「對行為是否正確所作的評判／審判」與本句語境不同。"
+        "judgement-mcq-11": "本句的「judgement」指「根據自己的分析與經驗自行判斷」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-11"
     },
@@ -1280,11 +1176,9 @@ export default {
       "masked": "Teachers often have to ____.",
       "options": [
         "judgement-mcq-11",
-        "judgement-mcq-10",
-        "judgement-mcq-12",
-        "judgement-mcq-09",
-        "judgement-mcq-13",
-        "judgement-mcq-08"
+        "judgement-mcq-21",
+        "judgement-mcq-18",
+        "judgement-mcq-22"
       ],
       "explanation": "本句的「use their judgement」指「根據自己的分析與經驗自行判斷」。",
       "sentenceIndex": 27,
@@ -1293,12 +1187,10 @@ export default {
         "use their judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-11": "本句指「根據自己的分析與經驗自行判斷」。",
-        "judgement-mcq-10": "「一時失去良好判斷而作出錯誤選擇」與本句語境不同。",
-        "judgement-mcq-12": "「主動運用判斷能力作決定」與本句語境不同。",
-        "judgement-mcq-09": "「沒有作出合理選擇；判斷不佳」與本句語境不同。",
-        "judgement-mcq-13": "「使某人的判斷力受到干擾、變得不準確」與本句語境不同。",
-        "judgement-mcq-08": "「對行為是否正確所作的評判／審判」與本句語境不同。"
+        "judgement-mcq-11": "本句的「use their judgement」指「根據自己的分析與經驗自行判斷」。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-11"
     },
@@ -1310,11 +1202,9 @@ export default {
       "masked": "Managers are expected to ____.",
       "options": [
         "judgement-mcq-12",
-        "judgement-mcq-11",
-        "judgement-mcq-13",
-        "judgement-mcq-10",
-        "judgement-mcq-14",
-        "judgement-mcq-09"
+        "judgement-mcq-18",
+        "judgement-mcq-08",
+        "judgement-mcq-22"
       ],
       "explanation": "本句的「exercise judgement」指「主動運用判斷能力作決定」。",
       "sentenceIndex": 28,
@@ -1323,12 +1213,10 @@ export default {
         "exercise judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-12": "本句指「主動運用判斷能力作決定」。",
-        "judgement-mcq-11": "「根據自己的分析與經驗自行判斷」與本句語境不同。",
-        "judgement-mcq-13": "「使某人的判斷力受到干擾、變得不準確」與本句語境不同。",
-        "judgement-mcq-10": "「一時失去良好判斷而作出錯誤選擇」與本句語境不同。",
-        "judgement-mcq-14": "「相信自己的判斷能力」與本句語境不同。",
-        "judgement-mcq-09": "「沒有作出合理選擇；判斷不佳」與本句語境不同。"
+        "judgement-mcq-12": "本句的「exercise judgement」指「主動運用判斷能力作決定」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-12"
     },
@@ -1340,11 +1228,9 @@ export default {
       "masked": "The role requires the ability to ____.",
       "options": [
         "judgement-mcq-12",
-        "judgement-mcq-11",
-        "judgement-mcq-13",
-        "judgement-mcq-10",
-        "judgement-mcq-14",
-        "judgement-mcq-09"
+        "judgement-mcq-18",
+        "judgement-mcq-08",
+        "judgement-mcq-22"
       ],
       "explanation": "本句的「exercise sound judgement」指「主動運用判斷能力作決定」。",
       "sentenceIndex": 29,
@@ -1353,12 +1239,10 @@ export default {
         "exercise sound judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-12": "本句指「主動運用判斷能力作決定」。",
-        "judgement-mcq-11": "「根據自己的分析與經驗自行判斷」與本句語境不同。",
-        "judgement-mcq-13": "「使某人的判斷力受到干擾、變得不準確」與本句語境不同。",
-        "judgement-mcq-10": "「一時失去良好判斷而作出錯誤選擇」與本句語境不同。",
-        "judgement-mcq-14": "「相信自己的判斷能力」與本句語境不同。",
-        "judgement-mcq-09": "「沒有作出合理選擇；判斷不佳」與本句語境不同。"
+        "judgement-mcq-12": "本句的「exercise sound judgement」指「主動運用判斷能力作決定」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-12"
     },
@@ -1370,11 +1254,9 @@ export default {
       "masked": "Anger can ____.",
       "options": [
         "judgement-mcq-13",
-        "judgement-mcq-12",
-        "judgement-mcq-14",
-        "judgement-mcq-11",
-        "judgement-mcq-15",
-        "judgement-mcq-10"
+        "judgement-mcq-21",
+        "judgement-mcq-18",
+        "judgement-mcq-16"
       ],
       "explanation": "本句的「cloud your judgement」指「使某人的判斷力受到干擾、變得不準確」。",
       "sentenceIndex": 30,
@@ -1383,12 +1265,10 @@ export default {
         "cloud your judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-13": "本句指「使某人的判斷力受到干擾、變得不準確」。",
-        "judgement-mcq-12": "「主動運用判斷能力作決定」與本句語境不同。",
-        "judgement-mcq-14": "「相信自己的判斷能力」與本句語境不同。",
-        "judgement-mcq-11": "「根據自己的分析與經驗自行判斷」與本句語境不同。",
-        "judgement-mcq-15": "「根據個人價值觀而非純客觀事實作出的判斷」與本句語境不同。",
-        "judgement-mcq-10": "「一時失去良好判斷而作出錯誤選擇」與本句語境不同。"
+        "judgement-mcq-13": "本句的「cloud your judgement」指「使某人的判斷力受到干擾、變得不準確」。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-13"
     },
@@ -1400,11 +1280,9 @@ export default {
       "masked": "Lack of sleep can ____.",
       "options": [
         "judgement-mcq-13",
-        "judgement-mcq-12",
-        "judgement-mcq-14",
-        "judgement-mcq-11",
-        "judgement-mcq-15",
-        "judgement-mcq-10"
+        "judgement-mcq-21",
+        "judgement-mcq-18",
+        "judgement-mcq-16"
       ],
       "explanation": "本句的「impair judgement」指「使某人的判斷力受到干擾、變得不準確」。",
       "sentenceIndex": 31,
@@ -1413,12 +1291,10 @@ export default {
         "impair judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-13": "本句指「使某人的判斷力受到干擾、變得不準確」。",
-        "judgement-mcq-12": "「主動運用判斷能力作決定」與本句語境不同。",
-        "judgement-mcq-14": "「相信自己的判斷能力」與本句語境不同。",
-        "judgement-mcq-11": "「根據自己的分析與經驗自行判斷」與本句語境不同。",
-        "judgement-mcq-15": "「根據個人價值觀而非純客觀事實作出的判斷」與本句語境不同。",
-        "judgement-mcq-10": "「一時失去良好判斷而作出錯誤選擇」與本句語境不同。"
+        "judgement-mcq-13": "本句的「impair judgement」指「使某人的判斷力受到干擾、變得不準確」。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-13"
     },
@@ -1430,11 +1306,9 @@ export default {
       "masked": "You need to ____.",
       "options": [
         "judgement-mcq-14",
-        "judgement-mcq-13",
-        "judgement-mcq-15",
-        "judgement-mcq-12",
-        "judgement-mcq-16",
-        "judgement-mcq-11"
+        "judgement-mcq-18",
+        "judgement-mcq-21",
+        "judgement-mcq-16"
       ],
       "explanation": "本句的「trust your judgement」指「相信自己的判斷能力」。",
       "sentenceIndex": 32,
@@ -1443,12 +1317,10 @@ export default {
         "trust your judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-14": "本句指「相信自己的判斷能力」。",
-        "judgement-mcq-13": "「使某人的判斷力受到干擾、變得不準確」與本句語境不同。",
-        "judgement-mcq-15": "「根據個人價值觀而非純客觀事實作出的判斷」與本句語境不同。",
-        "judgement-mcq-12": "「主動運用判斷能力作決定」與本句語境不同。",
-        "judgement-mcq-16": "「沒有明確唯一答案、需要自行權衡的決定」與本句語境不同。",
-        "judgement-mcq-11": "「根據自己的分析與經驗自行判斷」與本句語境不同。"
+        "judgement-mcq-14": "本句的「trust your judgement」指「相信自己的判斷能力」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-14"
     },
@@ -1460,11 +1332,9 @@ export default {
       "masked": "She learned to ____.",
       "options": [
         "judgement-mcq-14",
-        "judgement-mcq-13",
-        "judgement-mcq-15",
-        "judgement-mcq-12",
-        "judgement-mcq-16",
-        "judgement-mcq-11"
+        "judgement-mcq-18",
+        "judgement-mcq-21",
+        "judgement-mcq-22"
       ],
       "explanation": "本句的「trust her own judgement」指「相信自己的判斷能力」。",
       "sentenceIndex": 33,
@@ -1473,12 +1343,10 @@ export default {
         "trust her own judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-14": "本句指「相信自己的判斷能力」。",
-        "judgement-mcq-13": "「使某人的判斷力受到干擾、變得不準確」與本句語境不同。",
-        "judgement-mcq-15": "「根據個人價值觀而非純客觀事實作出的判斷」與本句語境不同。",
-        "judgement-mcq-12": "「主動運用判斷能力作決定」與本句語境不同。",
-        "judgement-mcq-16": "「沒有明確唯一答案、需要自行權衡的決定」與本句語境不同。",
-        "judgement-mcq-11": "「根據自己的分析與經驗自行判斷」與本句語境不同。"
+        "judgement-mcq-14": "本句的「trust her own judgement」指「相信自己的判斷能力」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-14"
     },
@@ -1490,11 +1358,9 @@ export default {
       "masked": "That statement contains a ____.",
       "options": [
         "judgement-mcq-15",
-        "judgement-mcq-14",
+        "judgement-mcq-18",
         "judgement-mcq-16",
-        "judgement-mcq-13",
-        "judgement-mcq-17",
-        "judgement-mcq-12"
+        "judgement-mcq-21"
       ],
       "explanation": "本句的「value judgement」指「根據個人價值觀而非純客觀事實作出的判斷」。",
       "sentenceIndex": 34,
@@ -1503,12 +1369,10 @@ export default {
         "value judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-15": "本句指「根據個人價值觀而非純客觀事實作出的判斷」。",
-        "judgement-mcq-14": "「相信自己的判斷能力」與本句語境不同。",
-        "judgement-mcq-16": "「沒有明確唯一答案、需要自行權衡的決定」與本句語境不同。",
-        "judgement-mcq-13": "「使某人的判斷力受到干擾、變得不準確」與本句語境不同。",
-        "judgement-mcq-17": "「在資訊不足下很快作出的草率判斷」與本句語境不同。",
-        "judgement-mcq-12": "「主動運用判斷能力作決定」與本句語境不同。"
+        "judgement-mcq-15": "本句的「value judgement」指「根據個人價值觀而非純客觀事實作出的判斷」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-15"
     },
@@ -1520,11 +1384,9 @@ export default {
       "masked": "Researchers try to distinguish evidence from ____.",
       "options": [
         "judgement-mcq-15",
-        "judgement-mcq-14",
+        "judgement-mcq-18",
         "judgement-mcq-16",
-        "judgement-mcq-13",
-        "judgement-mcq-17",
-        "judgement-mcq-12"
+        "judgement-mcq-21"
       ],
       "explanation": "本句的「value judgements」指「根據個人價值觀而非純客觀事實作出的判斷」。",
       "sentenceIndex": 35,
@@ -1533,12 +1395,10 @@ export default {
         "value judgements"
       ],
       "optionReasons": {
-        "judgement-mcq-15": "本句指「根據個人價值觀而非純客觀事實作出的判斷」。",
-        "judgement-mcq-14": "「相信自己的判斷能力」與本句語境不同。",
-        "judgement-mcq-16": "「沒有明確唯一答案、需要自行權衡的決定」與本句語境不同。",
-        "judgement-mcq-13": "「使某人的判斷力受到干擾、變得不準確」與本句語境不同。",
-        "judgement-mcq-17": "「在資訊不足下很快作出的草率判斷」與本句語境不同。",
-        "judgement-mcq-12": "「主動運用判斷能力作決定」與本句語境不同。"
+        "judgement-mcq-15": "本句的「value judgements」指「根據個人價值觀而非純客觀事實作出的判斷」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-15"
     },
@@ -1550,11 +1410,9 @@ export default {
       "masked": "Whether to continue was a ____.",
       "options": [
         "judgement-mcq-16",
-        "judgement-mcq-15",
-        "judgement-mcq-17",
-        "judgement-mcq-14",
+        "judgement-mcq-04",
         "judgement-mcq-18",
-        "judgement-mcq-13"
+        "judgement-mcq-06"
       ],
       "explanation": "本句的「judgement call」指「沒有明確唯一答案、需要自行權衡的決定」。",
       "sentenceIndex": 36,
@@ -1563,12 +1421,10 @@ export default {
         "judgement call"
       ],
       "optionReasons": {
-        "judgement-mcq-16": "本句指「沒有明確唯一答案、需要自行權衡的決定」。",
-        "judgement-mcq-15": "「根據個人價值觀而非純客觀事實作出的判斷」與本句語境不同。",
-        "judgement-mcq-17": "「在資訊不足下很快作出的草率判斷」與本句語境不同。",
-        "judgement-mcq-14": "「相信自己的判斷能力」與本句語境不同。",
-        "judgement-mcq-18": "「還未有足夠資料便急於下結論」與本句語境不同。",
-        "judgement-mcq-13": "「使某人的判斷力受到干擾、變得不準確」與本句語境不同。"
+        "judgement-mcq-16": "本句的「judgement call」指「沒有明確唯一答案、需要自行權衡的決定」。",
+        "judgement-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-16"
     },
@@ -1580,11 +1436,9 @@ export default {
       "masked": "Teachers often make ____ in real time.",
       "options": [
         "judgement-mcq-16",
-        "judgement-mcq-15",
-        "judgement-mcq-17",
-        "judgement-mcq-14",
-        "judgement-mcq-18",
-        "judgement-mcq-13"
+        "judgement-mcq-02",
+        "judgement-mcq-21",
+        "judgement-mcq-22"
       ],
       "explanation": "本句的「judgement calls」指「沒有明確唯一答案、需要自行權衡的決定」。",
       "sentenceIndex": 37,
@@ -1593,12 +1447,10 @@ export default {
         "judgement calls"
       ],
       "optionReasons": {
-        "judgement-mcq-16": "本句指「沒有明確唯一答案、需要自行權衡的決定」。",
-        "judgement-mcq-15": "「根據個人價值觀而非純客觀事實作出的判斷」與本句語境不同。",
-        "judgement-mcq-17": "「在資訊不足下很快作出的草率判斷」與本句語境不同。",
-        "judgement-mcq-14": "「相信自己的判斷能力」與本句語境不同。",
-        "judgement-mcq-18": "「還未有足夠資料便急於下結論」與本句語境不同。",
-        "judgement-mcq-13": "「使某人的判斷力受到干擾、變得不準確」與本句語境不同。"
+        "judgement-mcq-16": "本句的「judgement calls」指「沒有明確唯一答案、需要自行權衡的決定」。",
+        "judgement-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-16"
     },
@@ -1610,11 +1462,8 @@ export default {
       "masked": "Try not to make a ____.",
       "options": [
         "judgement-mcq-17",
-        "judgement-mcq-16",
-        "judgement-mcq-18",
-        "judgement-mcq-15",
-        "judgement-mcq-19",
-        "judgement-mcq-14"
+        "judgement-mcq-21",
+        "judgement-mcq-22"
       ],
       "explanation": "本句的「snap judgement」指「在資訊不足下很快作出的草率判斷」。",
       "sentenceIndex": 38,
@@ -1623,12 +1472,9 @@ export default {
         "snap judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-17": "本句指「在資訊不足下很快作出的草率判斷」。",
-        "judgement-mcq-16": "「沒有明確唯一答案、需要自行權衡的決定」與本句語境不同。",
-        "judgement-mcq-18": "「還未有足夠資料便急於下結論」與本句語境不同。",
-        "judgement-mcq-15": "「根據個人價值觀而非純客觀事實作出的判斷」與本句語境不同。",
-        "judgement-mcq-19": "「最後形成的判斷；法律語境中也可指最終判決」與本句語境不同。",
-        "judgement-mcq-14": "「相信自己的判斷能力」與本句語境不同。"
+        "judgement-mcq-17": "本句的「snap judgement」指「在資訊不足下很快作出的草率判斷」。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-17"
     },
@@ -1640,11 +1486,8 @@ export default {
       "masked": "Her first impression was only a ____.",
       "options": [
         "judgement-mcq-17",
-        "judgement-mcq-16",
-        "judgement-mcq-18",
-        "judgement-mcq-15",
-        "judgement-mcq-19",
-        "judgement-mcq-14"
+        "judgement-mcq-21",
+        "judgement-mcq-23"
       ],
       "explanation": "本句的「snap judgement」指「在資訊不足下很快作出的草率判斷」。",
       "sentenceIndex": 39,
@@ -1653,12 +1496,9 @@ export default {
         "snap judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-17": "本句指「在資訊不足下很快作出的草率判斷」。",
-        "judgement-mcq-16": "「沒有明確唯一答案、需要自行權衡的決定」與本句語境不同。",
-        "judgement-mcq-18": "「還未有足夠資料便急於下結論」與本句語境不同。",
-        "judgement-mcq-15": "「根據個人價值觀而非純客觀事實作出的判斷」與本句語境不同。",
-        "judgement-mcq-19": "「最後形成的判斷；法律語境中也可指最終判決」與本句語境不同。",
-        "judgement-mcq-14": "「相信自己的判斷能力」與本句語境不同。"
+        "judgement-mcq-17": "本句的「snap judgement」指「在資訊不足下很快作出的草率判斷」。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-17"
     },
@@ -1670,11 +1510,9 @@ export default {
       "masked": "We should not ____.",
       "options": [
         "judgement-mcq-18",
-        "judgement-mcq-17",
-        "judgement-mcq-19",
-        "judgement-mcq-16",
-        "judgement-mcq-20",
-        "judgement-mcq-15"
+        "judgement-mcq-09",
+        "judgement-mcq-22",
+        "judgement-mcq-21"
       ],
       "explanation": "本句的「rush to judgement」指「還未有足夠資料便急於下結論」。",
       "sentenceIndex": 40,
@@ -1683,12 +1521,10 @@ export default {
         "rush to judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-18": "本句指「還未有足夠資料便急於下結論」。",
-        "judgement-mcq-17": "「在資訊不足下很快作出的草率判斷」與本句語境不同。",
-        "judgement-mcq-19": "「最後形成的判斷；法律語境中也可指最終判決」與本句語境不同。",
-        "judgement-mcq-16": "「沒有明確唯一答案、需要自行權衡的決定」與本句語境不同。",
-        "judgement-mcq-20": "「判斷、評價；也可指擔任評審或作法律審理」與本句語境不同。",
-        "judgement-mcq-15": "「根據個人價值觀而非純客觀事實作出的判斷」與本句語境不同。"
+        "judgement-mcq-18": "本句的「rush to judgement」指「還未有足夠資料便急於下結論」。",
+        "judgement-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-18"
     },
@@ -1700,11 +1536,8 @@ export default {
       "masked": "The public was warned not to ____.",
       "options": [
         "judgement-mcq-18",
-        "judgement-mcq-17",
-        "judgement-mcq-19",
-        "judgement-mcq-16",
-        "judgement-mcq-20",
-        "judgement-mcq-15"
+        "judgement-mcq-09",
+        "judgement-mcq-05"
       ],
       "explanation": "本句的「rush to judgement」指「還未有足夠資料便急於下結論」。",
       "sentenceIndex": 41,
@@ -1713,12 +1546,9 @@ export default {
         "rush to judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-18": "本句指「還未有足夠資料便急於下結論」。",
-        "judgement-mcq-17": "「在資訊不足下很快作出的草率判斷」與本句語境不同。",
-        "judgement-mcq-19": "「最後形成的判斷；法律語境中也可指最終判決」與本句語境不同。",
-        "judgement-mcq-16": "「沒有明確唯一答案、需要自行權衡的決定」與本句語境不同。",
-        "judgement-mcq-20": "「判斷、評價；也可指擔任評審或作法律審理」與本句語境不同。",
-        "judgement-mcq-15": "「根據個人價值觀而非純客觀事實作出的判斷」與本句語境不同。"
+        "judgement-mcq-18": "本句的「rush to judgement」指「還未有足夠資料便急於下結論」。",
+        "judgement-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-18"
     },
@@ -1731,9 +1561,7 @@ export default {
       "options": [
         "judgement-mcq-19",
         "judgement-mcq-18",
-        "judgement-mcq-20",
-        "judgement-mcq-17",
-        "judgement-mcq-21",
+        "judgement-mcq-05",
         "judgement-mcq-16"
       ],
       "explanation": "本句的「final judgement」指「最後形成的判斷；法律語境中也可指最終判決」。",
@@ -1743,12 +1571,10 @@ export default {
         "final judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-19": "本句指「最後形成的判斷；法律語境中也可指最終判決」。",
-        "judgement-mcq-18": "「還未有足夠資料便急於下結論」與本句語境不同。",
-        "judgement-mcq-20": "「判斷、評價；也可指擔任評審或作法律審理」與本句語境不同。",
-        "judgement-mcq-17": "「在資訊不足下很快作出的草率判斷」與本句語境不同。",
-        "judgement-mcq-21": "「法官；比賽或評選活動中的評審」與本句語境不同。",
-        "judgement-mcq-16": "「沒有明確唯一答案、需要自行權衡的決定」與本句語境不同。"
+        "judgement-mcq-19": "本句的「final judgement」指「最後形成的判斷；法律語境中也可指最終判決」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-19"
     },
@@ -1761,9 +1587,7 @@ export default {
       "options": [
         "judgement-mcq-19",
         "judgement-mcq-18",
-        "judgement-mcq-20",
-        "judgement-mcq-17",
-        "judgement-mcq-21",
+        "judgement-mcq-05",
         "judgement-mcq-16"
       ],
       "explanation": "本句的「final judgement」指「最後形成的判斷；法律語境中也可指最終判決」。",
@@ -1773,12 +1597,10 @@ export default {
         "final judgement"
       ],
       "optionReasons": {
-        "judgement-mcq-19": "本句指「最後形成的判斷；法律語境中也可指最終判決」。",
-        "judgement-mcq-18": "「還未有足夠資料便急於下結論」與本句語境不同。",
-        "judgement-mcq-20": "「判斷、評價；也可指擔任評審或作法律審理」與本句語境不同。",
-        "judgement-mcq-17": "「在資訊不足下很快作出的草率判斷」與本句語境不同。",
-        "judgement-mcq-21": "「法官；比賽或評選活動中的評審」與本句語境不同。",
-        "judgement-mcq-16": "「沒有明確唯一答案、需要自行權衡的決定」與本句語境不同。"
+        "judgement-mcq-19": "本句的「final judgement」指「最後形成的判斷；法律語境中也可指最終判決」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-19"
     },
@@ -1790,11 +1612,9 @@ export default {
       "masked": "The ____ delivered the sentence.",
       "options": [
         "judgement-mcq-21",
-        "judgement-mcq-20",
-        "judgement-mcq-22",
-        "judgement-mcq-19",
-        "judgement-mcq-23",
-        "judgement-mcq-18"
+        "judgement-mcq-04",
+        "judgement-mcq-18",
+        "judgement-mcq-16"
       ],
       "explanation": "本句的「judge」指「法官；比賽或評選活動中的評審」。",
       "sentenceIndex": 44,
@@ -1803,12 +1623,10 @@ export default {
         "judge"
       ],
       "optionReasons": {
-        "judgement-mcq-21": "本句指「法官；比賽或評選活動中的評審」。",
-        "judgement-mcq-20": "「判斷、評價；也可指擔任評審或作法律審理」與本句語境不同。",
-        "judgement-mcq-22": "「過度容易對別人作負面評價、愛批判人的」與本句語境不同。",
-        "judgement-mcq-19": "「最後形成的判斷；法律語境中也可指最終判決」與本句語境不同。",
-        "judgement-mcq-23": "「不急於批評、責備或對他人作負面評斷的」與本句語境不同。",
-        "judgement-mcq-18": "「還未有足夠資料便急於下結論」與本句語境不同。"
+        "judgement-mcq-21": "本句的「judge」指「法官；比賽或評選活動中的評審」。",
+        "judgement-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-21"
     },
@@ -1820,11 +1638,9 @@ export default {
       "masked": "The ____ selected the winner.",
       "options": [
         "judgement-mcq-21",
-        "judgement-mcq-20",
-        "judgement-mcq-22",
-        "judgement-mcq-19",
-        "judgement-mcq-23",
-        "judgement-mcq-18"
+        "judgement-mcq-04",
+        "judgement-mcq-18",
+        "judgement-mcq-16"
       ],
       "explanation": "本句的「judges」指「法官；比賽或評選活動中的評審」。",
       "sentenceIndex": 45,
@@ -1833,12 +1649,10 @@ export default {
         "judges"
       ],
       "optionReasons": {
-        "judgement-mcq-21": "本句指「法官；比賽或評選活動中的評審」。",
-        "judgement-mcq-20": "「判斷、評價；也可指擔任評審或作法律審理」與本句語境不同。",
-        "judgement-mcq-22": "「過度容易對別人作負面評價、愛批判人的」與本句語境不同。",
-        "judgement-mcq-19": "「最後形成的判斷；法律語境中也可指最終判決」與本句語境不同。",
-        "judgement-mcq-23": "「不急於批評、責備或對他人作負面評斷的」與本句語境不同。",
-        "judgement-mcq-18": "「還未有足夠資料便急於下結論」與本句語境不同。"
+        "judgement-mcq-21": "本句的「judges」指「法官；比賽或評選活動中的評審」。",
+        "judgement-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-21"
     },
@@ -1850,11 +1664,9 @@ export default {
       "masked": "Try not to be so ____.",
       "options": [
         "judgement-mcq-22",
-        "judgement-mcq-21",
-        "judgement-mcq-23",
-        "judgement-mcq-20",
-        "judgement-mcq-19",
-        "judgement-mcq-18"
+        "judgement-mcq-16",
+        "judgement-mcq-18",
+        "judgement-mcq-10"
       ],
       "explanation": "本句的「judgemental」指「過度容易對別人作負面評價、愛批判人的」。",
       "sentenceIndex": 46,
@@ -1863,12 +1675,10 @@ export default {
         "judgemental"
       ],
       "optionReasons": {
-        "judgement-mcq-22": "本句指「過度容易對別人作負面評價、愛批判人的」。",
-        "judgement-mcq-21": "「法官；比賽或評選活動中的評審」與本句語境不同。",
-        "judgement-mcq-23": "「不急於批評、責備或對他人作負面評斷的」與本句語境不同。",
-        "judgement-mcq-20": "「判斷、評價；也可指擔任評審或作法律審理」與本句語境不同。",
-        "judgement-mcq-19": "「最後形成的判斷；法律語境中也可指最終判決」與本句語境不同。",
-        "judgement-mcq-18": "「還未有足夠資料便急於下結論」與本句語境不同。"
+        "judgement-mcq-22": "本句的「judgemental」指「過度容易對別人作負面評價、愛批判人的」。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-22"
     },
@@ -1880,11 +1690,9 @@ export default {
       "masked": "She listened without sounding ____.",
       "options": [
         "judgement-mcq-22",
-        "judgement-mcq-21",
-        "judgement-mcq-23",
-        "judgement-mcq-20",
-        "judgement-mcq-19",
-        "judgement-mcq-18"
+        "judgement-mcq-18",
+        "judgement-mcq-16",
+        "judgement-mcq-07"
       ],
       "explanation": "本句的「judgemental」指「過度容易對別人作負面評價、愛批判人的」。",
       "sentenceIndex": 47,
@@ -1893,12 +1701,10 @@ export default {
         "judgemental"
       ],
       "optionReasons": {
-        "judgement-mcq-22": "本句指「過度容易對別人作負面評價、愛批判人的」。",
-        "judgement-mcq-21": "「法官；比賽或評選活動中的評審」與本句語境不同。",
-        "judgement-mcq-23": "「不急於批評、責備或對他人作負面評斷的」與本句語境不同。",
-        "judgement-mcq-20": "「判斷、評價；也可指擔任評審或作法律審理」與本句語境不同。",
-        "judgement-mcq-19": "「最後形成的判斷；法律語境中也可指最終判決」與本句語境不同。",
-        "judgement-mcq-18": "「還未有足夠資料便急於下結論」與本句語境不同。"
+        "judgement-mcq-22": "本句的「judgemental」指「過度容易對別人作負面評價、愛批判人的」。",
+        "judgement-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-22"
     },
@@ -1910,11 +1716,9 @@ export default {
       "masked": "A counsellor should be ____.",
       "options": [
         "judgement-mcq-23",
-        "judgement-mcq-22",
-        "judgement-mcq-21",
-        "judgement-mcq-20",
-        "judgement-mcq-19",
-        "judgement-mcq-18"
+        "judgement-mcq-07",
+        "judgement-mcq-16",
+        "judgement-mcq-14"
       ],
       "explanation": "本句的「non-judgemental」指「不急於批評、責備或對他人作負面評斷的」。",
       "sentenceIndex": 48,
@@ -1923,12 +1727,10 @@ export default {
         "non-judgemental"
       ],
       "optionReasons": {
-        "judgement-mcq-23": "本句指「不急於批評、責備或對他人作負面評斷的」。",
-        "judgement-mcq-22": "「過度容易對別人作負面評價、愛批判人的」與本句語境不同。",
-        "judgement-mcq-21": "「法官；比賽或評選活動中的評審」與本句語境不同。",
-        "judgement-mcq-20": "「判斷、評價；也可指擔任評審或作法律審理」與本句語境不同。",
-        "judgement-mcq-19": "「最後形成的判斷；法律語境中也可指最終判決」與本句語境不同。",
-        "judgement-mcq-18": "「還未有足夠資料便急於下結論」與本句語境不同。"
+        "judgement-mcq-23": "本句的「non-judgemental」指「不急於批評、責備或對他人作負面評斷的」。",
+        "judgement-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-23"
     },
@@ -1940,11 +1742,9 @@ export default {
       "masked": "She created a ____.",
       "options": [
         "judgement-mcq-23",
-        "judgement-mcq-22",
-        "judgement-mcq-21",
-        "judgement-mcq-20",
-        "judgement-mcq-19",
-        "judgement-mcq-18"
+        "judgement-mcq-07",
+        "judgement-mcq-16",
+        "judgement-mcq-03"
       ],
       "explanation": "本句的「non-judgemental environment」指「不急於批評、責備或對他人作負面評斷的」。",
       "sentenceIndex": 49,
@@ -1953,12 +1753,10 @@ export default {
         "non-judgemental environment"
       ],
       "optionReasons": {
-        "judgement-mcq-23": "本句指「不急於批評、責備或對他人作負面評斷的」。",
-        "judgement-mcq-22": "「過度容易對別人作負面評價、愛批判人的」與本句語境不同。",
-        "judgement-mcq-21": "「法官；比賽或評選活動中的評審」與本句語境不同。",
-        "judgement-mcq-20": "「判斷、評價；也可指擔任評審或作法律審理」與本句語境不同。",
-        "judgement-mcq-19": "「最後形成的判斷；法律語境中也可指最終判決」與本句語境不同。",
-        "judgement-mcq-18": "「還未有足夠資料便急於下結論」與本句語境不同。"
+        "judgement-mcq-23": "本句的「non-judgemental environment」指「不急於批評、責備或對他人作負面評斷的」。",
+        "judgement-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "judgement-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "judgement-mcq-23"
     }
@@ -1970,5 +1768,7 @@ export default {
     "sha256": "cb6404f3c00bfde778d33cf7443c48f907975f00de35db7580548c05dba1e4ae",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

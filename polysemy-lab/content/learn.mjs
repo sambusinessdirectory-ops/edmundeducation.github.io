@@ -668,11 +668,9 @@ export default {
       "masked": "Children ____ quickly.",
       "options": [
         "learn-mcq-01",
-        "learn-mcq-02",
-        "learn-mcq-03",
-        "learn-mcq-04",
-        "learn-mcq-05",
-        "learn-mcq-06"
+        "learn-mcq-15",
+        "learn-mcq-14",
+        "learn-mcq-07"
       ],
       "explanation": "本句的「learn」指「透過學習、經驗、教導或觀察獲得新的知識／理解」。",
       "sentenceIndex": 0,
@@ -681,12 +679,10 @@ export default {
         "learn"
       ],
       "optionReasons": {
-        "learn-mcq-01": "本句指「透過學習、經驗、教導或觀察獲得新的知識／理解」。",
-        "learn-mcq-02": "「逐漸獲得並掌握某方面的知識／內容」是「learn something」的用法，與本句語境不同。",
-        "learn-mcq-03": "「經過練習、經驗或教導後取得做某事的能力」是「learn to do」的用法，與本句語境不同。",
-        "learn-mcq-04": "「學習並掌握進行某項工作的方式／方法」是「learn how to do」的用法，與本句語境不同。",
-        "learn-mcq-05": "「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」是「learn from someone」的用法，與本句語境不同。",
-        "learn-mcq-06": "「透過親身經歷改善之後的理解、判斷或做法」是「learn from experience」的用法，與本句語境不同。"
+        "learn-mcq-01": "本句的「learn」指「透過學習、經驗、教導或觀察獲得新的知識／理解」。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-01"
     },
@@ -698,11 +694,9 @@ export default {
       "masked": "We are ____ English.",
       "options": [
         "learn-mcq-01",
-        "learn-mcq-02",
-        "learn-mcq-03",
-        "learn-mcq-04",
-        "learn-mcq-05",
-        "learn-mcq-06"
+        "learn-mcq-15",
+        "learn-mcq-14",
+        "learn-mcq-07"
       ],
       "explanation": "本句的「learning」指「透過學習、經驗、教導或觀察獲得新的知識／理解」。",
       "sentenceIndex": 1,
@@ -711,12 +705,10 @@ export default {
         "learning"
       ],
       "optionReasons": {
-        "learn-mcq-01": "本句指「透過學習、經驗、教導或觀察獲得新的知識／理解」。",
-        "learn-mcq-02": "「逐漸獲得並掌握某方面的知識／內容」是「learn something」的用法，與本句語境不同。",
-        "learn-mcq-03": "「經過練習、經驗或教導後取得做某事的能力」是「learn to do」的用法，與本句語境不同。",
-        "learn-mcq-04": "「學習並掌握進行某項工作的方式／方法」是「learn how to do」的用法，與本句語境不同。",
-        "learn-mcq-05": "「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」是「learn from someone」的用法，與本句語境不同。",
-        "learn-mcq-06": "「透過親身經歷改善之後的理解、判斷或做法」是「learn from experience」的用法，與本句語境不同。"
+        "learn-mcq-01": "本句的「learning」指「透過學習、經驗、教導或觀察獲得新的知識／理解」。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-01"
     },
@@ -728,11 +720,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "learn-mcq-02",
-        "learn-mcq-01",
-        "learn-mcq-03",
-        "learn-mcq-04",
-        "learn-mcq-05",
-        "learn-mcq-06"
+        "learn-mcq-14",
+        "learn-mcq-22",
+        "learn-mcq-10"
       ],
       "explanation": "本句的「learning Spanish」指「逐漸獲得並掌握某方面的知識／內容」。",
       "sentenceIndex": 2,
@@ -741,12 +731,10 @@ export default {
         "learning Spanish"
       ],
       "optionReasons": {
-        "learn-mcq-02": "本句指「逐漸獲得並掌握某方面的知識／內容」。",
-        "learn-mcq-01": "「透過學習、經驗、教導或觀察獲得新的知識／理解」是「learn — acquire knowledge」的用法，與本句語境不同。",
-        "learn-mcq-03": "「經過練習、經驗或教導後取得做某事的能力」是「learn to do」的用法，與本句語境不同。",
-        "learn-mcq-04": "「學習並掌握進行某項工作的方式／方法」是「learn how to do」的用法，與本句語境不同。",
-        "learn-mcq-05": "「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」是「learn from someone」的用法，與本句語境不同。",
-        "learn-mcq-06": "「透過親身經歷改善之後的理解、判斷或做法」是「learn from experience」的用法，與本句語境不同。"
+        "learn-mcq-02": "本句的「learning Spanish」指「逐漸獲得並掌握某方面的知識／內容」。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-02"
     },
@@ -758,11 +746,9 @@ export default {
       "masked": "We ____ several new words today.",
       "options": [
         "learn-mcq-02",
-        "learn-mcq-01",
-        "learn-mcq-03",
-        "learn-mcq-04",
-        "learn-mcq-05",
-        "learn-mcq-06"
+        "learn-mcq-24",
+        "learn-mcq-14",
+        "learn-mcq-08"
       ],
       "explanation": "本句的「learned」指「逐漸獲得並掌握某方面的知識／內容」。",
       "sentenceIndex": 3,
@@ -771,12 +757,10 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-02": "本句指「逐漸獲得並掌握某方面的知識／內容」。",
-        "learn-mcq-01": "「透過學習、經驗、教導或觀察獲得新的知識／理解」是「learn — acquire knowledge」的用法，與本句語境不同。",
-        "learn-mcq-03": "「經過練習、經驗或教導後取得做某事的能力」是「learn to do」的用法，與本句語境不同。",
-        "learn-mcq-04": "「學習並掌握進行某項工作的方式／方法」是「learn how to do」的用法，與本句語境不同。",
-        "learn-mcq-05": "「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」是「learn from someone」的用法，與本句語境不同。",
-        "learn-mcq-06": "「透過親身經歷改善之後的理解、判斷或做法」是「learn from experience」的用法，與本句語境不同。"
+        "learn-mcq-02": "本句的「learned」指「逐漸獲得並掌握某方面的知識／內容」。",
+        "learn-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-02"
     },
@@ -788,11 +772,9 @@ export default {
       "masked": "She ____ when she was eighteen.",
       "options": [
         "learn-mcq-03",
-        "learn-mcq-02",
-        "learn-mcq-04",
-        "learn-mcq-01",
-        "learn-mcq-05",
-        "learn-mcq-06"
+        "learn-mcq-16",
+        "learn-mcq-09",
+        "learn-mcq-12"
       ],
       "explanation": "本句的「learned to drive」指「經過練習、經驗或教導後取得做某事的能力」。",
       "sentenceIndex": 4,
@@ -801,12 +783,10 @@ export default {
         "learned to drive"
       ],
       "optionReasons": {
-        "learn-mcq-03": "本句指「經過練習、經驗或教導後取得做某事的能力」。",
-        "learn-mcq-02": "「逐漸獲得並掌握某方面的知識／內容」是「learn something」的用法，與本句語境不同。",
-        "learn-mcq-04": "「學習並掌握進行某項工作的方式／方法」是「learn how to do」的用法，與本句語境不同。",
-        "learn-mcq-01": "「透過學習、經驗、教導或觀察獲得新的知識／理解」是「learn — acquire knowledge」的用法，與本句語境不同。",
-        "learn-mcq-05": "「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」是「learn from someone」的用法，與本句語境不同。",
-        "learn-mcq-06": "「透過親身經歷改善之後的理解、判斷或做法」是「learn from experience」的用法，與本句語境不同。"
+        "learn-mcq-03": "本句的「learned to drive」指「經過練習、經驗或教導後取得做某事的能力」。",
+        "learn-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-03"
     },
@@ -818,11 +798,9 @@ export default {
       "masked": "Children gradually ____.",
       "options": [
         "learn-mcq-03",
-        "learn-mcq-02",
-        "learn-mcq-04",
-        "learn-mcq-01",
-        "learn-mcq-05",
-        "learn-mcq-06"
+        "learn-mcq-14",
+        "learn-mcq-12",
+        "learn-mcq-16"
       ],
       "explanation": "本句的「learn to communicate」指「經過練習、經驗或教導後取得做某事的能力」。",
       "sentenceIndex": 5,
@@ -831,12 +809,10 @@ export default {
         "learn to communicate"
       ],
       "optionReasons": {
-        "learn-mcq-03": "本句指「經過練習、經驗或教導後取得做某事的能力」。",
-        "learn-mcq-02": "「逐漸獲得並掌握某方面的知識／內容」是「learn something」的用法，與本句語境不同。",
-        "learn-mcq-04": "「學習並掌握進行某項工作的方式／方法」是「learn how to do」的用法，與本句語境不同。",
-        "learn-mcq-01": "「透過學習、經驗、教導或觀察獲得新的知識／理解」是「learn — acquire knowledge」的用法，與本句語境不同。",
-        "learn-mcq-05": "「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」是「learn from someone」的用法，與本句語境不同。",
-        "learn-mcq-06": "「透過親身經歷改善之後的理解、判斷或做法」是「learn from experience」的用法，與本句語境不同。"
+        "learn-mcq-03": "本句的「learn to communicate」指「經過練習、經驗或教導後取得做某事的能力」。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-03"
     },
@@ -848,11 +824,9 @@ export default {
       "masked": "I want to ____.",
       "options": [
         "learn-mcq-04",
-        "learn-mcq-03",
-        "learn-mcq-05",
-        "learn-mcq-02",
-        "learn-mcq-06",
-        "learn-mcq-01"
+        "learn-mcq-12",
+        "learn-mcq-10",
+        "learn-mcq-14"
       ],
       "explanation": "本句的「learn how to cook」指「學習並掌握進行某項工作的方式／方法」。",
       "sentenceIndex": 6,
@@ -861,12 +835,10 @@ export default {
         "learn how to cook"
       ],
       "optionReasons": {
-        "learn-mcq-04": "本句指「學習並掌握進行某項工作的方式／方法」。",
-        "learn-mcq-03": "「經過練習、經驗或教導後取得做某事的能力」是「learn to do」的用法，與本句語境不同。",
-        "learn-mcq-05": "「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」是「learn from someone」的用法，與本句語境不同。",
-        "learn-mcq-02": "「逐漸獲得並掌握某方面的知識／內容」是「learn something」的用法，與本句語境不同。",
-        "learn-mcq-06": "「透過親身經歷改善之後的理解、判斷或做法」是「learn from experience」的用法，與本句語境不同。",
-        "learn-mcq-01": "「透過學習、經驗、教導或觀察獲得新的知識／理解」是「learn — acquire knowledge」的用法，與本句語境不同。"
+        "learn-mcq-04": "本句的「learn how to cook」指「學習並掌握進行某項工作的方式／方法」。",
+        "learn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-04"
     },
@@ -878,11 +850,9 @@ export default {
       "masked": "She ____ how to use the software.",
       "options": [
         "learn-mcq-04",
-        "learn-mcq-03",
-        "learn-mcq-05",
-        "learn-mcq-02",
-        "learn-mcq-06",
-        "learn-mcq-01"
+        "learn-mcq-14",
+        "learn-mcq-16",
+        "learn-mcq-26"
       ],
       "explanation": "本句的「learned」指「學習並掌握進行某項工作的方式／方法」。",
       "sentenceIndex": 7,
@@ -891,12 +861,10 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-04": "本句指「學習並掌握進行某項工作的方式／方法」。",
-        "learn-mcq-03": "「經過練習、經驗或教導後取得做某事的能力」是「learn to do」的用法，與本句語境不同。",
-        "learn-mcq-05": "「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」是「learn from someone」的用法，與本句語境不同。",
-        "learn-mcq-02": "「逐漸獲得並掌握某方面的知識／內容」是「learn something」的用法，與本句語境不同。",
-        "learn-mcq-06": "「透過親身經歷改善之後的理解、判斷或做法」是「learn from experience」的用法，與本句語境不同。",
-        "learn-mcq-01": "「透過學習、經驗、教導或觀察獲得新的知識／理解」是「learn — acquire knowledge」的用法，與本句語境不同。"
+        "learn-mcq-04": "本句的「learned」指「學習並掌握進行某項工作的方式／方法」。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-04"
     },
@@ -908,11 +876,9 @@ export default {
       "masked": "I want to ____ while I can.",
       "options": [
         "learn-mcq-05",
-        "learn-mcq-04",
-        "learn-mcq-06",
-        "learn-mcq-03",
         "learn-mcq-07",
-        "learn-mcq-02"
+        "learn-mcq-14",
+        "learn-mcq-16"
       ],
       "explanation": "本句的「learn from her」指「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」。",
       "sentenceIndex": 8,
@@ -921,12 +887,10 @@ export default {
         "learn from her"
       ],
       "optionReasons": {
-        "learn-mcq-05": "本句指「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」。",
-        "learn-mcq-04": "「學習並掌握進行某項工作的方式／方法」是「learn how to do」的用法，與本句語境不同。",
-        "learn-mcq-06": "「透過親身經歷改善之後的理解、判斷或做法」是「learn from experience」的用法，與本句語境不同。",
-        "learn-mcq-03": "「經過練習、經驗或教導後取得做某事的能力」是「learn to do」的用法，與本句語境不同。",
-        "learn-mcq-07": "「利用過去的錯誤改善未來行為／判斷」是「learn from mistakes」的用法，與本句語境不同。",
-        "learn-mcq-02": "「逐漸獲得並掌握某方面的知識／內容」是「learn something」的用法，與本句語境不同。"
+        "learn-mcq-05": "本句的「learn from her」指「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」。",
+        "learn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-05"
     },
@@ -938,11 +902,9 @@ export default {
       "masked": "Young people can ____.",
       "options": [
         "learn-mcq-05",
-        "learn-mcq-04",
-        "learn-mcq-06",
-        "learn-mcq-03",
-        "learn-mcq-07",
-        "learn-mcq-02"
+        "learn-mcq-24",
+        "learn-mcq-15",
+        "learn-mcq-25"
       ],
       "explanation": "本句的「learn a lot from older people」指「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」。",
       "sentenceIndex": 9,
@@ -951,12 +913,10 @@ export default {
         "learn a lot from older people"
       ],
       "optionReasons": {
-        "learn-mcq-05": "本句指「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」。",
-        "learn-mcq-04": "「學習並掌握進行某項工作的方式／方法」是「learn how to do」的用法，與本句語境不同。",
-        "learn-mcq-06": "「透過親身經歷改善之後的理解、判斷或做法」是「learn from experience」的用法，與本句語境不同。",
-        "learn-mcq-03": "「經過練習、經驗或教導後取得做某事的能力」是「learn to do」的用法，與本句語境不同。",
-        "learn-mcq-07": "「利用過去的錯誤改善未來行為／判斷」是「learn from mistakes」的用法，與本句語境不同。",
-        "learn-mcq-02": "「逐漸獲得並掌握某方面的知識／內容」是「learn something」的用法，與本句語境不同。"
+        "learn-mcq-05": "本句的「learn a lot from older people」指「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」。",
+        "learn-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-05"
     },
@@ -968,11 +928,9 @@ export default {
       "masked": "I ____ a lot from my first manager.",
       "options": [
         "learn-mcq-05",
-        "learn-mcq-04",
-        "learn-mcq-06",
-        "learn-mcq-03",
-        "learn-mcq-07",
-        "learn-mcq-02"
+        "learn-mcq-16",
+        "learn-mcq-24",
+        "learn-mcq-14"
       ],
       "explanation": "本句的「learned」指「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」。",
       "sentenceIndex": 10,
@@ -981,12 +939,10 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-05": "本句指「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」。",
-        "learn-mcq-04": "「學習並掌握進行某項工作的方式／方法」是「learn how to do」的用法，與本句語境不同。",
-        "learn-mcq-06": "「透過親身經歷改善之後的理解、判斷或做法」是「learn from experience」的用法，與本句語境不同。",
-        "learn-mcq-03": "「經過練習、經驗或教導後取得做某事的能力」是「learn to do」的用法，與本句語境不同。",
-        "learn-mcq-07": "「利用過去的錯誤改善未來行為／判斷」是「learn from mistakes」的用法，與本句語境不同。",
-        "learn-mcq-02": "「逐漸獲得並掌握某方面的知識／內容」是「learn something」的用法，與本句語境不同。"
+        "learn-mcq-05": "本句的「learned」指「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」。",
+        "learn-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-05"
     },
@@ -998,11 +954,9 @@ export default {
       "masked": "You ____.",
       "options": [
         "learn-mcq-06",
-        "learn-mcq-05",
-        "learn-mcq-07",
-        "learn-mcq-04",
-        "learn-mcq-08",
-        "learn-mcq-03"
+        "learn-mcq-14",
+        "learn-mcq-25",
+        "learn-mcq-15"
       ],
       "explanation": "本句的「learn from experience」指「透過親身經歷改善之後的理解、判斷或做法」。",
       "sentenceIndex": 11,
@@ -1011,12 +965,10 @@ export default {
         "learn from experience"
       ],
       "optionReasons": {
-        "learn-mcq-06": "本句指「透過親身經歷改善之後的理解、判斷或做法」。",
-        "learn-mcq-05": "「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」是「learn from someone」的用法，與本句語境不同。",
-        "learn-mcq-07": "「利用過去的錯誤改善未來行為／判斷」是「learn from mistakes」的用法，與本句語境不同。",
-        "learn-mcq-04": "「學習並掌握進行某項工作的方式／方法」是「learn how to do」的用法，與本句語境不同。",
-        "learn-mcq-08": "「經歷某事後理解一個重要道理／教訓」是「learn a lesson」的用法，與本句語境不同。",
-        "learn-mcq-03": "「經過練習、經驗或教導後取得做某事的能力」是「learn to do」的用法，與本句語境不同。"
+        "learn-mcq-06": "本句的「learn from experience」指「透過親身經歷改善之後的理解、判斷或做法」。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-06"
     },
@@ -1028,11 +980,8 @@ export default {
       "masked": "She ____ from years of working with people.",
       "options": [
         "learn-mcq-06",
-        "learn-mcq-05",
-        "learn-mcq-07",
-        "learn-mcq-04",
-        "learn-mcq-08",
-        "learn-mcq-03"
+        "learn-mcq-13",
+        "learn-mcq-25"
       ],
       "explanation": "本句的「learned」指「透過親身經歷改善之後的理解、判斷或做法」。",
       "sentenceIndex": 12,
@@ -1041,12 +990,9 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-06": "本句指「透過親身經歷改善之後的理解、判斷或做法」。",
-        "learn-mcq-05": "「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」是「learn from someone」的用法，與本句語境不同。",
-        "learn-mcq-07": "「利用過去的錯誤改善未來行為／判斷」是「learn from mistakes」的用法，與本句語境不同。",
-        "learn-mcq-04": "「學習並掌握進行某項工作的方式／方法」是「learn how to do」的用法，與本句語境不同。",
-        "learn-mcq-08": "「經歷某事後理解一個重要道理／教訓」是「learn a lesson」的用法，與本句語境不同。",
-        "learn-mcq-03": "「經過練習、經驗或教導後取得做某事的能力」是「learn to do」的用法，與本句語境不同。"
+        "learn-mcq-06": "本句的「learned」指「透過親身經歷改善之後的理解、判斷或做法」。",
+        "learn-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-06"
     },
@@ -1058,11 +1004,9 @@ export default {
       "masked": "We should ____.",
       "options": [
         "learn-mcq-07",
-        "learn-mcq-06",
-        "learn-mcq-08",
-        "learn-mcq-05",
-        "learn-mcq-09",
-        "learn-mcq-04"
+        "learn-mcq-13",
+        "learn-mcq-20",
+        "learn-mcq-10"
       ],
       "explanation": "本句的「learn from our mistakes」指「利用過去的錯誤改善未來行為／判斷」。",
       "sentenceIndex": 13,
@@ -1071,12 +1015,10 @@ export default {
         "learn from our mistakes"
       ],
       "optionReasons": {
-        "learn-mcq-07": "本句指「利用過去的錯誤改善未來行為／判斷」。",
-        "learn-mcq-06": "「透過親身經歷改善之後的理解、判斷或做法」是「learn from experience」的用法，與本句語境不同。",
-        "learn-mcq-08": "「經歷某事後理解一個重要道理／教訓」是「learn a lesson」的用法，與本句語境不同。",
-        "learn-mcq-05": "「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」是「learn from someone」的用法，與本句語境不同。",
-        "learn-mcq-09": "「因不好的結果而明白某行為不應重複」是「learn your lesson」的用法，與本句語境不同。",
-        "learn-mcq-04": "「學習並掌握進行某項工作的方式／方法」是「learn how to do」的用法，與本句語境不同。"
+        "learn-mcq-07": "本句的「learn from our mistakes」指「利用過去的錯誤改善未來行為／判斷」。",
+        "learn-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-07"
     },
@@ -1088,11 +1030,9 @@ export default {
       "masked": "He made a mistake but ____ from it.",
       "options": [
         "learn-mcq-07",
-        "learn-mcq-06",
         "learn-mcq-08",
-        "learn-mcq-05",
-        "learn-mcq-09",
-        "learn-mcq-04"
+        "learn-mcq-21",
+        "learn-mcq-14"
       ],
       "explanation": "本句的「learned」指「利用過去的錯誤改善未來行為／判斷」。",
       "sentenceIndex": 14,
@@ -1101,12 +1041,10 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-07": "本句指「利用過去的錯誤改善未來行為／判斷」。",
-        "learn-mcq-06": "「透過親身經歷改善之後的理解、判斷或做法」是「learn from experience」的用法，與本句語境不同。",
-        "learn-mcq-08": "「經歷某事後理解一個重要道理／教訓」是「learn a lesson」的用法，與本句語境不同。",
-        "learn-mcq-05": "「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」是「learn from someone」的用法，與本句語境不同。",
-        "learn-mcq-09": "「因不好的結果而明白某行為不應重複」是「learn your lesson」的用法，與本句語境不同。",
-        "learn-mcq-04": "「學習並掌握進行某項工作的方式／方法」是「learn how to do」的用法，與本句語境不同。"
+        "learn-mcq-07": "本句的「learned」指「利用過去的錯誤改善未來行為／判斷」。",
+        "learn-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-07"
     },
@@ -1118,11 +1056,9 @@ export default {
       "masked": "I ____ from the experience.",
       "options": [
         "learn-mcq-08",
-        "learn-mcq-07",
-        "learn-mcq-09",
-        "learn-mcq-06",
-        "learn-mcq-10",
-        "learn-mcq-05"
+        "learn-mcq-16",
+        "learn-mcq-12",
+        "learn-mcq-18"
       ],
       "explanation": "本句的「learned an important lesson」指「經歷某事後理解一個重要道理／教訓」。",
       "sentenceIndex": 15,
@@ -1131,12 +1067,10 @@ export default {
         "learned an important lesson"
       ],
       "optionReasons": {
-        "learn-mcq-08": "本句指「經歷某事後理解一個重要道理／教訓」。",
-        "learn-mcq-07": "「利用過去的錯誤改善未來行為／判斷」是「learn from mistakes」的用法，與本句語境不同。",
-        "learn-mcq-09": "「因不好的結果而明白某行為不應重複」是「learn your lesson」的用法，與本句語境不同。",
-        "learn-mcq-06": "「透過親身經歷改善之後的理解、判斷或做法」是「learn from experience」的用法，與本句語境不同。",
-        "learn-mcq-10": "「因親身經歷失敗、麻煩或痛苦後才明白某道理」是「learn the hard way」的用法，與本句語境不同。",
-        "learn-mcq-05": "「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」是「learn from someone」的用法，與本句語境不同。"
+        "learn-mcq-08": "本句的「learned an important lesson」指「經歷某事後理解一個重要道理／教訓」。",
+        "learn-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-08"
     },
@@ -1148,11 +1082,9 @@ export default {
       "masked": "She ____ a valuable lesson about trust.",
       "options": [
         "learn-mcq-08",
-        "learn-mcq-07",
-        "learn-mcq-09",
-        "learn-mcq-06",
-        "learn-mcq-10",
-        "learn-mcq-05"
+        "learn-mcq-18",
+        "learn-mcq-14",
+        "learn-mcq-15"
       ],
       "explanation": "本句的「learned」指「經歷某事後理解一個重要道理／教訓」。",
       "sentenceIndex": 16,
@@ -1161,12 +1093,10 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-08": "本句指「經歷某事後理解一個重要道理／教訓」。",
-        "learn-mcq-07": "「利用過去的錯誤改善未來行為／判斷」是「learn from mistakes」的用法，與本句語境不同。",
-        "learn-mcq-09": "「因不好的結果而明白某行為不應重複」是「learn your lesson」的用法，與本句語境不同。",
-        "learn-mcq-06": "「透過親身經歷改善之後的理解、判斷或做法」是「learn from experience」的用法，與本句語境不同。",
-        "learn-mcq-10": "「因親身經歷失敗、麻煩或痛苦後才明白某道理」是「learn the hard way」的用法，與本句語境不同。",
-        "learn-mcq-05": "「從某人的知識、經驗、做法或榜樣中獲得智慧／教訓」是「learn from someone」的用法，與本句語境不同。"
+        "learn-mcq-08": "本句的「learned」指「經歷某事後理解一個重要道理／教訓」。",
+        "learn-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-08"
     },
@@ -1178,11 +1108,9 @@ export default {
       "masked": "I forgot the deadline once, but I ____.",
       "options": [
         "learn-mcq-09",
-        "learn-mcq-08",
-        "learn-mcq-10",
-        "learn-mcq-07",
-        "learn-mcq-11",
-        "learn-mcq-06"
+        "learn-mcq-14",
+        "learn-mcq-12",
+        "learn-mcq-03"
       ],
       "explanation": "本句的「learned my lesson」指「因不好的結果而明白某行為不應重複」。",
       "sentenceIndex": 17,
@@ -1191,12 +1119,10 @@ export default {
         "learned my lesson"
       ],
       "optionReasons": {
-        "learn-mcq-09": "本句指「因不好的結果而明白某行為不應重複」。",
-        "learn-mcq-08": "「經歷某事後理解一個重要道理／教訓」是「learn a lesson」的用法，與本句語境不同。",
-        "learn-mcq-10": "「因親身經歷失敗、麻煩或痛苦後才明白某道理」是「learn the hard way」的用法，與本句語境不同。",
-        "learn-mcq-07": "「利用過去的錯誤改善未來行為／判斷」是「learn from mistakes」的用法，與本句語境不同。",
-        "learn-mcq-11": "「原本不知道，之後得知／發現某項資訊」是「learn — find out」的用法，與本句語境不同。",
-        "learn-mcq-06": "「透過親身經歷改善之後的理解、判斷或做法」是「learn from experience」的用法，與本句語境不同。"
+        "learn-mcq-09": "本句的「learned my lesson」指「因不好的結果而明白某行為不應重複」。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-09"
     },
@@ -1208,11 +1134,9 @@ export default {
       "masked": "Hopefully he has ____ his lesson.",
       "options": [
         "learn-mcq-09",
-        "learn-mcq-08",
-        "learn-mcq-10",
-        "learn-mcq-07",
-        "learn-mcq-11",
-        "learn-mcq-06"
+        "learn-mcq-15",
+        "learn-pdf-002",
+        "learn-mcq-14"
       ],
       "explanation": "本句的「learned」指「因不好的結果而明白某行為不應重複」。",
       "sentenceIndex": 18,
@@ -1221,12 +1145,10 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-09": "本句指「因不好的結果而明白某行為不應重複」。",
-        "learn-mcq-08": "「經歷某事後理解一個重要道理／教訓」是「learn a lesson」的用法，與本句語境不同。",
-        "learn-mcq-10": "「因親身經歷失敗、麻煩或痛苦後才明白某道理」是「learn the hard way」的用法，與本句語境不同。",
-        "learn-mcq-07": "「利用過去的錯誤改善未來行為／判斷」是「learn from mistakes」的用法，與本句語境不同。",
-        "learn-mcq-11": "「原本不知道，之後得知／發現某項資訊」是「learn — find out」的用法，與本句語境不同。",
-        "learn-mcq-06": "「透過親身經歷改善之後的理解、判斷或做法」是「learn from experience」的用法，與本句語境不同。"
+        "learn-mcq-09": "本句的「learned」指「因不好的結果而明白某行為不應重複」。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "learn-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-09"
     },
@@ -1238,11 +1160,9 @@ export default {
       "masked": "I ____ not to leave everything until the last minute.",
       "options": [
         "learn-mcq-10",
-        "learn-mcq-09",
-        "learn-mcq-11",
-        "learn-mcq-08",
-        "learn-mcq-12",
-        "learn-mcq-07"
+        "learn-pdf-002",
+        "learn-mcq-16",
+        "learn-mcq-24"
       ],
       "explanation": "本句的「learned the hard way」指「因親身經歷失敗、麻煩或痛苦後才明白某道理」。",
       "sentenceIndex": 19,
@@ -1251,12 +1171,10 @@ export default {
         "learned the hard way"
       ],
       "optionReasons": {
-        "learn-mcq-10": "本句指「因親身經歷失敗、麻煩或痛苦後才明白某道理」。",
-        "learn-mcq-09": "「因不好的結果而明白某行為不應重複」是「learn your lesson」的用法，與本句語境不同。",
-        "learn-mcq-11": "「原本不知道，之後得知／發現某項資訊」是「learn — find out」的用法，與本句語境不同。",
-        "learn-mcq-08": "「經歷某事後理解一個重要道理／教訓」是「learn a lesson」的用法，與本句語境不同。",
-        "learn-mcq-12": "「得知某個事實為真」是「learn that…」的用法，與本句語境不同。",
-        "learn-mcq-07": "「利用過去的錯誤改善未來行為／判斷」是「learn from mistakes」的用法，與本句語境不同。"
+        "learn-mcq-10": "本句的「learned the hard way」指「因親身經歷失敗、麻煩或痛苦後才明白某道理」。",
+        "learn-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-10"
     },
@@ -1268,11 +1186,9 @@ export default {
       "masked": "She ____ the hard way that trust takes time.",
       "options": [
         "learn-mcq-10",
-        "learn-mcq-09",
-        "learn-mcq-11",
-        "learn-mcq-08",
-        "learn-mcq-12",
-        "learn-mcq-07"
+        "learn-pdf-001",
+        "learn-mcq-14",
+        "learn-mcq-12"
       ],
       "explanation": "本句的「learned」指「因親身經歷失敗、麻煩或痛苦後才明白某道理」。",
       "sentenceIndex": 20,
@@ -1281,12 +1197,10 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-10": "本句指「因親身經歷失敗、麻煩或痛苦後才明白某道理」。",
-        "learn-mcq-09": "「因不好的結果而明白某行為不應重複」是「learn your lesson」的用法，與本句語境不同。",
-        "learn-mcq-11": "「原本不知道，之後得知／發現某項資訊」是「learn — find out」的用法，與本句語境不同。",
-        "learn-mcq-08": "「經歷某事後理解一個重要道理／教訓」是「learn a lesson」的用法，與本句語境不同。",
-        "learn-mcq-12": "「得知某個事實為真」是「learn that…」的用法，與本句語境不同。",
-        "learn-mcq-07": "「利用過去的錯誤改善未來行為／判斷」是「learn from mistakes」的用法，與本句語境不同。"
+        "learn-mcq-10": "本句的「learned」指「因親身經歷失敗、麻煩或痛苦後才明白某道理」。",
+        "learn-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-10"
     },
@@ -1298,11 +1212,9 @@ export default {
       "masked": "I was surprised to ____.",
       "options": [
         "learn-mcq-11",
-        "learn-mcq-10",
-        "learn-mcq-12",
-        "learn-mcq-09",
-        "learn-mcq-13",
-        "learn-mcq-08"
+        "learn-mcq-20",
+        "learn-mcq-07",
+        "learn-mcq-14"
       ],
       "explanation": "本句的「learn the truth」指「原本不知道，之後得知／發現某項資訊」。",
       "sentenceIndex": 21,
@@ -1311,12 +1223,10 @@ export default {
         "learn the truth"
       ],
       "optionReasons": {
-        "learn-mcq-11": "本句指「原本不知道，之後得知／發現某項資訊」。",
-        "learn-mcq-10": "「因親身經歷失敗、麻煩或痛苦後才明白某道理」是「learn the hard way」的用法，與本句語境不同。",
-        "learn-mcq-12": "「得知某個事實為真」是「learn that…」的用法，與本句語境不同。",
-        "learn-mcq-09": "「因不好的結果而明白某行為不應重複」是「learn your lesson」的用法，與本句語境不同。",
-        "learn-mcq-13": "「獲得關於某主題／事件的知識或資訊」是「learn about」的用法，與本句語境不同。",
-        "learn-mcq-08": "「經歷某事後理解一個重要道理／教訓」是「learn a lesson」的用法，與本句語境不同。"
+        "learn-mcq-11": "本句的「learn the truth」指「原本不知道，之後得知／發現某項資訊」。",
+        "learn-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-11"
     },
@@ -1328,11 +1238,9 @@ export default {
       "masked": "We later ____ the reason.",
       "options": [
         "learn-mcq-11",
-        "learn-mcq-10",
-        "learn-mcq-12",
-        "learn-mcq-09",
-        "learn-mcq-13",
-        "learn-mcq-08"
+        "learn-mcq-20",
+        "learn-mcq-07",
+        "learn-mcq-14"
       ],
       "explanation": "本句的「learned」指「原本不知道，之後得知／發現某項資訊」。",
       "sentenceIndex": 22,
@@ -1341,12 +1249,10 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-11": "本句指「原本不知道，之後得知／發現某項資訊」。",
-        "learn-mcq-10": "「因親身經歷失敗、麻煩或痛苦後才明白某道理」是「learn the hard way」的用法，與本句語境不同。",
-        "learn-mcq-12": "「得知某個事實為真」是「learn that…」的用法，與本句語境不同。",
-        "learn-mcq-09": "「因不好的結果而明白某行為不應重複」是「learn your lesson」的用法，與本句語境不同。",
-        "learn-mcq-13": "「獲得關於某主題／事件的知識或資訊」是「learn about」的用法，與本句語境不同。",
-        "learn-mcq-08": "「經歷某事後理解一個重要道理／教訓」是「learn a lesson」的用法，與本句語境不同。"
+        "learn-mcq-11": "本句的「learned」指「原本不知道，之後得知／發現某項資訊」。",
+        "learn-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-11"
     },
@@ -1358,11 +1264,9 @@ export default {
       "masked": "I ____ the meeting had been cancelled.",
       "options": [
         "learn-mcq-12",
-        "learn-mcq-11",
-        "learn-mcq-13",
-        "learn-mcq-10",
+        "learn-mcq-18",
         "learn-mcq-14",
-        "learn-mcq-09"
+        "learn-mcq-08"
       ],
       "explanation": "本句的「learned that」指「得知某個事實為真」。",
       "sentenceIndex": 23,
@@ -1371,12 +1275,10 @@ export default {
         "learned that"
       ],
       "optionReasons": {
-        "learn-mcq-12": "本句指「得知某個事實為真」。",
-        "learn-mcq-11": "「原本不知道，之後得知／發現某項資訊」是「learn — find out」的用法，與本句語境不同。",
-        "learn-mcq-13": "「獲得關於某主題／事件的知識或資訊」是「learn about」的用法，與本句語境不同。",
-        "learn-mcq-10": "「因親身經歷失敗、麻煩或痛苦後才明白某道理」是「learn the hard way」的用法，與本句語境不同。",
-        "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。",
-        "learn-mcq-09": "「因不好的結果而明白某行為不應重複」是「learn your lesson」的用法，與本句語境不同。"
+        "learn-mcq-12": "本句的「learned that」指「得知某個事實為真」。",
+        "learn-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-12"
     },
@@ -1388,11 +1290,9 @@ export default {
       "masked": "She was shocked to ____ that he had left.",
       "options": [
         "learn-mcq-12",
-        "learn-mcq-11",
-        "learn-mcq-13",
-        "learn-mcq-10",
-        "learn-mcq-14",
-        "learn-mcq-09"
+        "learn-mcq-18",
+        "learn-mcq-08",
+        "learn-mcq-16"
       ],
       "explanation": "本句的「learn」指「得知某個事實為真」。",
       "sentenceIndex": 24,
@@ -1401,12 +1301,10 @@ export default {
         "learn"
       ],
       "optionReasons": {
-        "learn-mcq-12": "本句指「得知某個事實為真」。",
-        "learn-mcq-11": "「原本不知道，之後得知／發現某項資訊」是「learn — find out」的用法，與本句語境不同。",
-        "learn-mcq-13": "「獲得關於某主題／事件的知識或資訊」是「learn about」的用法，與本句語境不同。",
-        "learn-mcq-10": "「因親身經歷失敗、麻煩或痛苦後才明白某道理」是「learn the hard way」的用法，與本句語境不同。",
-        "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。",
-        "learn-mcq-09": "「因不好的結果而明白某行為不應重複」是「learn your lesson」的用法，與本句語境不同。"
+        "learn-mcq-12": "本句的「learn」指「得知某個事實為真」。",
+        "learn-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-12"
     },
@@ -1418,11 +1316,9 @@ export default {
       "masked": "We ____ the history of the city.",
       "options": [
         "learn-mcq-13",
-        "learn-mcq-12",
-        "learn-mcq-14",
-        "learn-mcq-11",
-        "learn-mcq-15",
-        "learn-mcq-10"
+        "learn-mcq-04",
+        "learn-mcq-10",
+        "learn-mcq-24"
       ],
       "explanation": "本句的「learned about」指「獲得關於某主題／事件的知識或資訊」。",
       "sentenceIndex": 25,
@@ -1431,12 +1327,10 @@ export default {
         "learned about"
       ],
       "optionReasons": {
-        "learn-mcq-13": "本句指「獲得關於某主題／事件的知識或資訊」。",
-        "learn-mcq-12": "「得知某個事實為真」是「learn that…」的用法，與本句語境不同。",
-        "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。",
-        "learn-mcq-11": "「原本不知道，之後得知／發現某項資訊」是「learn — find out」的用法，與本句語境不同。",
-        "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。",
-        "learn-mcq-10": "「因親身經歷失敗、麻煩或痛苦後才明白某道理」是「learn the hard way」的用法，與本句語境不同。"
+        "learn-mcq-13": "本句的「learned about」指「獲得關於某主題／事件的知識或資訊」。",
+        "learn-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-13"
     },
@@ -1448,11 +1342,9 @@ export default {
       "masked": "I only ____ about the problem yesterday.",
       "options": [
         "learn-mcq-13",
-        "learn-mcq-12",
-        "learn-mcq-14",
-        "learn-mcq-11",
-        "learn-mcq-15",
-        "learn-mcq-10"
+        "learn-mcq-07",
+        "learn-mcq-08",
+        "learn-mcq-25"
       ],
       "explanation": "本句的「learned」指「獲得關於某主題／事件的知識或資訊」。",
       "sentenceIndex": 26,
@@ -1461,12 +1353,10 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-13": "本句指「獲得關於某主題／事件的知識或資訊」。",
-        "learn-mcq-12": "「得知某個事實為真」是「learn that…」的用法，與本句語境不同。",
-        "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。",
-        "learn-mcq-11": "「原本不知道，之後得知／發現某項資訊」是「learn — find out」的用法，與本句語境不同。",
-        "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。",
-        "learn-mcq-10": "「因親身經歷失敗、麻煩或痛苦後才明白某道理」是「learn the hard way」的用法，與本句語境不同。"
+        "learn-mcq-13": "本句的「learned」指「獲得關於某主題／事件的知識或資訊」。",
+        "learn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-13"
     },
@@ -1478,11 +1368,9 @@ export default {
       "masked": "We were sorry to ____.",
       "options": [
         "learn-mcq-14",
-        "learn-mcq-13",
-        "learn-mcq-15",
+        "learn-pdf-001",
         "learn-mcq-12",
-        "learn-mcq-16",
-        "learn-mcq-11"
+        "learn-mcq-15"
       ],
       "explanation": "本句的「learn of his death」指「較正式地表示得悉某事件／情況」。",
       "sentenceIndex": 27,
@@ -1491,12 +1379,10 @@ export default {
         "learn of his death"
       ],
       "optionReasons": {
-        "learn-mcq-14": "本句指「較正式地表示得悉某事件／情況」。",
-        "learn-mcq-13": "「獲得關於某主題／事件的知識或資訊」是「learn about」的用法，與本句語境不同。",
-        "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。",
-        "learn-mcq-12": "「得知某個事實為真」是「learn that…」的用法，與本句語境不同。",
-        "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。",
-        "learn-mcq-11": "「原本不知道，之後得知／發現某項資訊」是「learn — find out」的用法，與本句語境不同。"
+        "learn-mcq-14": "本句的「learn of his death」指「較正式地表示得悉某事件／情況」。",
+        "learn-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-14"
     },
@@ -1508,11 +1394,9 @@ export default {
       "masked": "She ____ of the decision through a colleague.",
       "options": [
         "learn-mcq-14",
-        "learn-mcq-13",
-        "learn-mcq-15",
-        "learn-mcq-12",
-        "learn-mcq-16",
-        "learn-mcq-11"
+        "learn-mcq-04",
+        "learn-mcq-26",
+        "learn-mcq-16"
       ],
       "explanation": "本句的「learned」指「較正式地表示得悉某事件／情況」。",
       "sentenceIndex": 28,
@@ -1521,12 +1405,10 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-14": "本句指「較正式地表示得悉某事件／情況」。",
-        "learn-mcq-13": "「獲得關於某主題／事件的知識或資訊」是「learn about」的用法，與本句語境不同。",
-        "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。",
-        "learn-mcq-12": "「得知某個事實為真」是「learn that…」的用法，與本句語境不同。",
-        "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。",
-        "learn-mcq-11": "「原本不知道，之後得知／發現某項資訊」是「learn — find out」的用法，與本句語境不同。"
+        "learn-mcq-14": "本句的「learned」指「較正式地表示得悉某事件／情況」。",
+        "learn-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-14"
     },
@@ -1538,11 +1420,9 @@ export default {
       "masked": "We later ____ the project had failed.",
       "options": [
         "learn-mcq-27",
-        "learn-mcq-26",
-        "learn-mcq-25",
-        "learn-mcq-24",
-        "learn-mcq-23",
-        "learn-mcq-22"
+        "learn-mcq-20",
+        "learn-mcq-14",
+        "learn-mcq-24"
       ],
       "explanation": "本句的「learned why」指「得到原本不知道的具體資訊」。",
       "sentenceIndex": 29,
@@ -1551,12 +1431,10 @@ export default {
         "learned why"
       ],
       "optionReasons": {
-        "learn-mcq-27": "本句指「得到原本不知道的具體資訊」。",
-        "learn-mcq-26": "「一生持續獲得新知識、技能和理解的過程」是「lifelong learning」的用法，與本句語境不同。",
-        "learn-mcq-25": "「掌握新技能／系統時的學習進程或上手難度」是「learning curve」的用法，與本句語境不同。",
-        "learn-mcq-24": "「刻意停止使用／相信過去已學會的習慣、觀念或行為」是「unlearn」的用法，與本句語境不同。",
-        "learn-mcq-23": "「擁有大量學術知識、博學的」是「learned — scholarly」的用法，與本句語境不同。",
-        "learn-mcq-22": "「透過環境、教育或經驗後天形成的」是「learned — acquired」的用法，與本句語境不同。"
+        "learn-mcq-27": "本句的「learned why」指「得到原本不知道的具體資訊」。",
+        "learn-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-27"
     },
@@ -1568,11 +1446,9 @@ export default {
       "masked": "She ____ where he was staying.",
       "options": [
         "learn-mcq-27",
-        "learn-mcq-26",
-        "learn-mcq-25",
-        "learn-mcq-24",
-        "learn-mcq-23",
-        "learn-mcq-22"
+        "learn-mcq-17",
+        "learn-mcq-14",
+        "learn-mcq-24"
       ],
       "explanation": "本句的「learned」指「得到原本不知道的具體資訊」。",
       "sentenceIndex": 30,
@@ -1581,12 +1457,10 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-27": "本句指「得到原本不知道的具體資訊」。",
-        "learn-mcq-26": "「一生持續獲得新知識、技能和理解的過程」是「lifelong learning」的用法，與本句語境不同。",
-        "learn-mcq-25": "「掌握新技能／系統時的學習進程或上手難度」是「learning curve」的用法，與本句語境不同。",
-        "learn-mcq-24": "「刻意停止使用／相信過去已學會的習慣、觀念或行為」是「unlearn」的用法，與本句語境不同。",
-        "learn-mcq-23": "「擁有大量學術知識、博學的」是「learned — scholarly」的用法，與本句語境不同。",
-        "learn-mcq-22": "「透過環境、教育或經驗後天形成的」是「learned — acquired」的用法，與本句語境不同。"
+        "learn-mcq-27": "本句的「learned」指「得到原本不知道的具體資訊」。",
+        "learn-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-27"
     },
@@ -1598,11 +1472,9 @@ export default {
       "masked": "We had to ____ for class.",
       "options": [
         "learn-mcq-15",
-        "learn-mcq-14",
-        "learn-mcq-16",
-        "learn-mcq-13",
         "learn-mcq-17",
-        "learn-mcq-12"
+        "learn-mcq-09",
+        "learn-mcq-14"
       ],
       "explanation": "本句的「learn the poem」指「把指定文字內容記住到能夠回想／背誦」。",
       "sentenceIndex": 31,
@@ -1611,12 +1483,10 @@ export default {
         "learn the poem"
       ],
       "optionReasons": {
-        "learn-mcq-15": "本句指「把指定文字內容記住到能夠回想／背誦」。",
-        "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。",
-        "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。",
-        "learn-mcq-13": "「獲得關於某主題／事件的知識或資訊」是「learn about」的用法，與本句語境不同。",
-        "learn-mcq-17": "「透過實際操作和親身經驗學習」是「learn by doing」的用法，與本句語境不同。",
-        "learn-mcq-12": "「得知某個事實為真」是「learn that…」的用法，與本句語境不同。"
+        "learn-mcq-15": "本句的「learn the poem」指「把指定文字內容記住到能夠回想／背誦」。",
+        "learn-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-15"
     },
@@ -1628,11 +1498,9 @@ export default {
       "masked": "Actors have to ____ their lines.",
       "options": [
         "learn-mcq-15",
+        "learn-pdf-002",
         "learn-mcq-14",
-        "learn-mcq-16",
-        "learn-mcq-13",
-        "learn-mcq-17",
-        "learn-mcq-12"
+        "learn-mcq-10"
       ],
       "explanation": "本句的「learn」指「把指定文字內容記住到能夠回想／背誦」。",
       "sentenceIndex": 32,
@@ -1641,12 +1509,10 @@ export default {
         "learn"
       ],
       "optionReasons": {
-        "learn-mcq-15": "本句指「把指定文字內容記住到能夠回想／背誦」。",
-        "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。",
-        "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。",
-        "learn-mcq-13": "「獲得關於某主題／事件的知識或資訊」是「learn about」的用法，與本句語境不同。",
-        "learn-mcq-17": "「透過實際操作和親身經驗學習」是「learn by doing」的用法，與本句語境不同。",
-        "learn-mcq-12": "「得知某個事實為真」是「learn that…」的用法，與本句語境不同。"
+        "learn-mcq-15": "本句的「learn」指「把指定文字內容記住到能夠回想／背誦」。",
+        "learn-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-15"
     },
@@ -1658,11 +1524,9 @@ export default {
       "masked": "We had to ____.",
       "options": [
         "learn-mcq-16",
-        "learn-mcq-15",
-        "learn-mcq-17",
-        "learn-mcq-14",
-        "learn-mcq-18",
-        "learn-mcq-13"
+        "learn-mcq-01",
+        "learn-mcq-24",
+        "learn-mcq-14"
       ],
       "explanation": "本句的「learn the poem by heart」指「完全把內容背熟、從記憶中說出來」。",
       "sentenceIndex": 33,
@@ -1671,12 +1535,10 @@ export default {
         "learn the poem by heart"
       ],
       "optionReasons": {
-        "learn-mcq-16": "本句指「完全把內容背熟、從記憶中說出來」。",
-        "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。",
-        "learn-mcq-17": "「透過實際操作和親身經驗學習」是「learn by doing」的用法，與本句語境不同。",
-        "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。",
-        "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。",
-        "learn-mcq-13": "「獲得關於某主題／事件的知識或資訊」是「learn about」的用法，與本句語境不同。"
+        "learn-mcq-16": "本句的「learn the poem by heart」指「完全把內容背熟、從記憶中說出來」。",
+        "learn-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-16"
     },
@@ -1688,11 +1550,9 @@ export default {
       "masked": "She ____ all her lines by heart.",
       "options": [
         "learn-mcq-16",
-        "learn-mcq-15",
-        "learn-mcq-17",
-        "learn-mcq-14",
-        "learn-mcq-18",
-        "learn-mcq-13"
+        "learn-mcq-03",
+        "learn-mcq-08",
+        "learn-mcq-12"
       ],
       "explanation": "本句的「learned」指「完全把內容背熟、從記憶中說出來」。",
       "sentenceIndex": 34,
@@ -1701,12 +1561,10 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-16": "本句指「完全把內容背熟、從記憶中說出來」。",
-        "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。",
-        "learn-mcq-17": "「透過實際操作和親身經驗學習」是「learn by doing」的用法，與本句語境不同。",
-        "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。",
-        "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。",
-        "learn-mcq-13": "「獲得關於某主題／事件的知識或資訊」是「learn about」的用法，與本句語境不同。"
+        "learn-mcq-16": "本句的「learned」指「完全把內容背熟、從記憶中說出來」。",
+        "learn-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-16"
     },
@@ -1718,10 +1576,8 @@ export default {
       "masked": "It takes time to ____.",
       "options": [
         "learn-pdf-001",
-        "learn-mcq-16",
-        "learn-mcq-18",
+        "learn-mcq-09",
         "learn-mcq-15",
-        "learn-mcq-19",
         "learn-mcq-14"
       ],
       "explanation": "本句的「learn a language」指「透過接觸、練習、學習等逐步獲得使用該語言的能力」。",
@@ -1731,12 +1587,10 @@ export default {
         "learn a language"
       ],
       "optionReasons": {
-        "learn-pdf-001": "本句指「透過接觸、練習、學習等逐步獲得使用該語言的能力」。",
-        "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。",
-        "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。",
-        "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。",
-        "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
-        "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。"
+        "learn-pdf-001": "本句的「learn a language」指「透過接觸、練習、學習等逐步獲得使用該語言的能力」。",
+        "learn-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-pdf-001"
     },
@@ -1748,11 +1602,9 @@ export default {
       "masked": "She ____ English as a child.",
       "options": [
         "learn-pdf-001",
-        "learn-mcq-16",
-        "learn-mcq-18",
+        "learn-mcq-09",
         "learn-mcq-15",
-        "learn-mcq-19",
-        "learn-mcq-14"
+        "learn-mcq-12"
       ],
       "explanation": "本句的「learned」指「透過接觸、練習、學習等逐步獲得使用該語言的能力」。",
       "sentenceIndex": 36,
@@ -1761,12 +1613,10 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-pdf-001": "本句指「透過接觸、練習、學習等逐步獲得使用該語言的能力」。",
-        "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。",
-        "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。",
-        "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。",
-        "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
-        "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。"
+        "learn-pdf-001": "本句的「learned」指「透過接觸、練習、學習等逐步獲得使用該語言的能力」。",
+        "learn-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-pdf-001"
     },
@@ -1778,10 +1628,8 @@ export default {
       "masked": "Anyone can ____ with practice.",
       "options": [
         "learn-pdf-002",
-        "learn-mcq-16",
-        "learn-mcq-18",
         "learn-mcq-15",
-        "learn-mcq-19",
+        "learn-mcq-12",
         "learn-mcq-14"
       ],
       "explanation": "本句的「learn this skill」指「透過練習／教導逐步取得某項能力」。",
@@ -1791,12 +1639,10 @@ export default {
         "learn this skill"
       ],
       "optionReasons": {
-        "learn-pdf-002": "本句指「透過練習／教導逐步取得某項能力」。",
-        "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。",
-        "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。",
-        "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。",
-        "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
-        "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。"
+        "learn-pdf-002": "本句的「learn this skill」指「透過練習／教導逐步取得某項能力」。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-pdf-002"
     },
@@ -1808,11 +1654,9 @@ export default {
       "masked": "She ____ basic cooking skills from her grandmother.",
       "options": [
         "learn-pdf-002",
+        "learn-mcq-12",
         "learn-mcq-16",
-        "learn-mcq-18",
-        "learn-mcq-15",
-        "learn-mcq-19",
-        "learn-mcq-14"
+        "learn-mcq-10"
       ],
       "explanation": "本句的「learned」指「透過練習／教導逐步取得某項能力」。",
       "sentenceIndex": 38,
@@ -1821,12 +1665,10 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-pdf-002": "本句指「透過練習／教導逐步取得某項能力」。",
-        "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。",
-        "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。",
-        "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。",
-        "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
-        "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。"
+        "learn-pdf-002": "本句的「learned」指「透過練習／教導逐步取得某項能力」。",
+        "learn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-pdf-002"
     },
@@ -1838,11 +1680,9 @@ export default {
       "masked": "Some people ____.",
       "options": [
         "learn-mcq-17",
-        "learn-mcq-16",
-        "learn-mcq-18",
-        "learn-mcq-15",
-        "learn-mcq-19",
-        "learn-mcq-14"
+        "learn-mcq-14",
+        "learn-mcq-09",
+        "learn-mcq-02"
       ],
       "explanation": "本句的「learn best by doing」指「透過實際操作和親身經驗學習」。",
       "sentenceIndex": 39,
@@ -1851,12 +1691,10 @@ export default {
         "learn best by doing"
       ],
       "optionReasons": {
-        "learn-mcq-17": "本句指「透過實際操作和親身經驗學習」。",
-        "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。",
-        "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。",
-        "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。",
-        "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
-        "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。"
+        "learn-mcq-17": "本句的「learn best by doing」指「透過實際操作和親身經驗學習」。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-17"
     },
@@ -1868,11 +1706,9 @@ export default {
       "masked": "I ____ the job by doing it.",
       "options": [
         "learn-mcq-17",
-        "learn-mcq-16",
-        "learn-mcq-18",
-        "learn-mcq-15",
-        "learn-mcq-19",
-        "learn-mcq-14"
+        "learn-mcq-11",
+        "learn-mcq-14",
+        "learn-mcq-24"
       ],
       "explanation": "本句的「learned」指「透過實際操作和親身經驗學習」。",
       "sentenceIndex": 40,
@@ -1881,12 +1717,10 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-17": "本句指「透過實際操作和親身經驗學習」。",
-        "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。",
-        "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。",
-        "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。",
-        "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
-        "learn-mcq-14": "「較正式地表示得悉某事件／情況」是「learn of」的用法，與本句語境不同。"
+        "learn-mcq-17": "本句的「learned」指「透過實際操作和親身經驗學習」。",
+        "learn-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-17"
     },
@@ -1898,10 +1732,8 @@ export default {
       "masked": "Children often ____.",
       "options": [
         "learn-mcq-18",
-        "learn-mcq-17",
-        "learn-mcq-19",
-        "learn-mcq-16",
-        "learn-mcq-20",
+        "learn-mcq-12",
+        "learn-mcq-08",
         "learn-mcq-15"
       ],
       "explanation": "本句的「learn by example」指「透過觀察並吸收別人的行為／榜樣來學習」。",
@@ -1911,12 +1743,10 @@ export default {
         "learn by example"
       ],
       "optionReasons": {
-        "learn-mcq-18": "本句指「透過觀察並吸收別人的行為／榜樣來學習」。",
-        "learn-mcq-17": "「透過實際操作和親身經驗學習」是「learn by doing」的用法，與本句語境不同。",
-        "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
-        "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。",
-        "learn-mcq-20": "「經教育／研究累積的學問、學識」是「learning — knowledge」的用法，與本句語境不同。",
-        "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。"
+        "learn-mcq-18": "本句的「learn by example」指「透過觀察並吸收別人的行為／榜樣來學習」。",
+        "learn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-18"
     },
@@ -1928,11 +1758,8 @@ export default {
       "masked": "I ____ kindness by watching my grandmother.",
       "options": [
         "learn-mcq-18",
-        "learn-mcq-17",
-        "learn-mcq-19",
-        "learn-mcq-16",
-        "learn-mcq-20",
-        "learn-mcq-15"
+        "learn-mcq-10",
+        "learn-mcq-13"
       ],
       "explanation": "本句的「learned」指「透過觀察並吸收別人的行為／榜樣來學習」。",
       "sentenceIndex": 42,
@@ -1941,12 +1768,9 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-18": "本句指「透過觀察並吸收別人的行為／榜樣來學習」。",
-        "learn-mcq-17": "「透過實際操作和親身經驗學習」是「learn by doing」的用法，與本句語境不同。",
-        "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
-        "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。",
-        "learn-mcq-20": "「經教育／研究累積的學問、學識」是「learning — knowledge」的用法，與本句語境不同。",
-        "learn-mcq-15": "「把指定文字內容記住到能夠回想／背誦」是「learn a poem/lines」的用法，與本句語境不同。"
+        "learn-mcq-18": "本句的「learned」指「透過觀察並吸收別人的行為／榜樣來學習」。",
+        "learn-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-18"
     },
@@ -1958,11 +1782,9 @@ export default {
       "masked": "____ takes time.",
       "options": [
         "learn-mcq-19",
-        "learn-mcq-18",
-        "learn-mcq-20",
-        "learn-mcq-17",
-        "learn-mcq-21",
-        "learn-mcq-16"
+        "learn-mcq-16",
+        "learn-mcq-04",
+        "learn-mcq-14"
       ],
       "explanation": "本句的「Learning」指「獲得知識、技能或理解的過程」。",
       "sentenceIndex": 43,
@@ -1971,12 +1793,10 @@ export default {
         "Learning"
       ],
       "optionReasons": {
-        "learn-mcq-19": "本句指「獲得知識、技能或理解的過程」。",
-        "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。",
-        "learn-mcq-20": "「經教育／研究累積的學問、學識」是「learning — knowledge」的用法，與本句語境不同。",
-        "learn-mcq-17": "「透過實際操作和親身經驗學習」是「learn by doing」的用法，與本句語境不同。",
-        "learn-mcq-21": "「正在學習某項知識／技能的人」是「learner」的用法，與本句語境不同。",
-        "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。"
+        "learn-mcq-19": "本句的「Learning」指「獲得知識、技能或理解的過程」。",
+        "learn-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-19"
     },
@@ -1988,11 +1808,9 @@ export default {
       "masked": "Technology has changed the way people ____.",
       "options": [
         "learn-mcq-19",
-        "learn-mcq-18",
-        "learn-mcq-20",
-        "learn-mcq-17",
-        "learn-mcq-21",
-        "learn-mcq-16"
+        "learn-mcq-14",
+        "learn-mcq-16",
+        "learn-mcq-04"
       ],
       "explanation": "本句的「learn」指「獲得知識、技能或理解的過程」。",
       "sentenceIndex": 44,
@@ -2001,12 +1819,10 @@ export default {
         "learn"
       ],
       "optionReasons": {
-        "learn-mcq-19": "本句指「獲得知識、技能或理解的過程」。",
-        "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。",
-        "learn-mcq-20": "「經教育／研究累積的學問、學識」是「learning — knowledge」的用法，與本句語境不同。",
-        "learn-mcq-17": "「透過實際操作和親身經驗學習」是「learn by doing」的用法，與本句語境不同。",
-        "learn-mcq-21": "「正在學習某項知識／技能的人」是「learner」的用法，與本句語境不同。",
-        "learn-mcq-16": "「完全把內容背熟、從記憶中說出來」是「learn by heart」的用法，與本句語境不同。"
+        "learn-mcq-19": "本句的「learn」指「獲得知識、技能或理解的過程」。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-19"
     },
@@ -2018,11 +1834,9 @@ export default {
       "masked": "He was respected for his ____.",
       "options": [
         "learn-mcq-20",
-        "learn-mcq-19",
-        "learn-mcq-21",
-        "learn-mcq-18",
-        "learn-mcq-22",
-        "learn-mcq-17"
+        "learn-mcq-16",
+        "learn-mcq-09",
+        "learn-mcq-14"
       ],
       "explanation": "本句的「learning」指「經教育／研究累積的學問、學識」。",
       "sentenceIndex": 45,
@@ -2031,12 +1845,10 @@ export default {
         "learning"
       ],
       "optionReasons": {
-        "learn-mcq-20": "本句指「經教育／研究累積的學問、學識」。",
-        "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
-        "learn-mcq-21": "「正在學習某項知識／技能的人」是「learner」的用法，與本句語境不同。",
-        "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。",
-        "learn-mcq-22": "「透過環境、教育或經驗後天形成的」是「learned — acquired」的用法，與本句語境不同。",
-        "learn-mcq-17": "「透過實際操作和親身經驗學習」是「learn by doing」的用法，與本句語境不同。"
+        "learn-mcq-20": "本句的「learning」指「經教育／研究累積的學問、學識」。",
+        "learn-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-20"
     },
@@ -2048,11 +1860,9 @@ export default {
       "masked": "The scholar was a person of great ____.",
       "options": [
         "learn-mcq-20",
-        "learn-mcq-19",
-        "learn-mcq-21",
-        "learn-mcq-18",
-        "learn-mcq-22",
-        "learn-mcq-17"
+        "learn-mcq-27",
+        "learn-mcq-07",
+        "learn-mcq-14"
       ],
       "explanation": "本句的「learning」指「經教育／研究累積的學問、學識」。",
       "sentenceIndex": 46,
@@ -2061,12 +1871,10 @@ export default {
         "learning"
       ],
       "optionReasons": {
-        "learn-mcq-20": "本句指「經教育／研究累積的學問、學識」。",
-        "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
-        "learn-mcq-21": "「正在學習某項知識／技能的人」是「learner」的用法，與本句語境不同。",
-        "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。",
-        "learn-mcq-22": "「透過環境、教育或經驗後天形成的」是「learned — acquired」的用法，與本句語境不同。",
-        "learn-mcq-17": "「透過實際操作和親身經驗學習」是「learn by doing」的用法，與本句語境不同。"
+        "learn-mcq-20": "本句的「learning」指「經教育／研究累積的學問、學識」。",
+        "learn-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-20"
     },
@@ -2078,11 +1886,9 @@ export default {
       "masked": "This book is designed for English ____.",
       "options": [
         "learn-mcq-21",
-        "learn-mcq-20",
-        "learn-mcq-22",
-        "learn-mcq-19",
-        "learn-mcq-23",
-        "learn-mcq-18"
+        "learn-mcq-16",
+        "learn-mcq-07",
+        "learn-mcq-10"
       ],
       "explanation": "本句的「learners」指「正在學習某項知識／技能的人」。",
       "sentenceIndex": 47,
@@ -2091,12 +1897,10 @@ export default {
         "learners"
       ],
       "optionReasons": {
-        "learn-mcq-21": "本句指「正在學習某項知識／技能的人」。",
-        "learn-mcq-20": "「經教育／研究累積的學問、學識」是「learning — knowledge」的用法，與本句語境不同。",
-        "learn-mcq-22": "「透過環境、教育或經驗後天形成的」是「learned — acquired」的用法，與本句語境不同。",
-        "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
-        "learn-mcq-23": "「擁有大量學術知識、博學的」是「learned — scholarly」的用法，與本句語境不同。",
-        "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。"
+        "learn-mcq-21": "本句的「learners」指「正在學習某項知識／技能的人」。",
+        "learn-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-21"
     },
@@ -2108,11 +1912,9 @@ export default {
       "masked": "She is a quick ____.",
       "options": [
         "learn-mcq-21",
-        "learn-mcq-20",
-        "learn-mcq-22",
-        "learn-mcq-19",
-        "learn-mcq-23",
-        "learn-mcq-18"
+        "learn-mcq-10",
+        "learn-mcq-07",
+        "learn-mcq-15"
       ],
       "explanation": "本句的「learner」指「正在學習某項知識／技能的人」。",
       "sentenceIndex": 48,
@@ -2121,12 +1923,10 @@ export default {
         "learner"
       ],
       "optionReasons": {
-        "learn-mcq-21": "本句指「正在學習某項知識／技能的人」。",
-        "learn-mcq-20": "「經教育／研究累積的學問、學識」是「learning — knowledge」的用法，與本句語境不同。",
-        "learn-mcq-22": "「透過環境、教育或經驗後天形成的」是「learned — acquired」的用法，與本句語境不同。",
-        "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
-        "learn-mcq-23": "「擁有大量學術知識、博學的」是「learned — scholarly」的用法，與本句語境不同。",
-        "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。"
+        "learn-mcq-21": "本句的「learner」指「正在學習某項知識／技能的人」。",
+        "learn-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-21"
     },
@@ -2138,11 +1938,9 @@ export default {
       "masked": "He is a ____.",
       "options": [
         "learn-mcq-21",
-        "learn-mcq-20",
-        "learn-mcq-22",
-        "learn-mcq-19",
-        "learn-mcq-23",
-        "learn-mcq-18"
+        "learn-mcq-06",
+        "learn-mcq-16",
+        "learn-mcq-14"
       ],
       "explanation": "本句的「quick learner」指「正在學習某項知識／技能的人」。",
       "sentenceIndex": 49,
@@ -2151,12 +1949,10 @@ export default {
         "quick learner"
       ],
       "optionReasons": {
-        "learn-mcq-21": "本句指「正在學習某項知識／技能的人」。",
-        "learn-mcq-20": "「經教育／研究累積的學問、學識」是「learning — knowledge」的用法，與本句語境不同。",
-        "learn-mcq-22": "「透過環境、教育或經驗後天形成的」是「learned — acquired」的用法，與本句語境不同。",
-        "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
-        "learn-mcq-23": "「擁有大量學術知識、博學的」是「learned — scholarly」的用法，與本句語境不同。",
-        "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。"
+        "learn-mcq-21": "本句的「quick learner」指「正在學習某項知識／技能的人」。",
+        "learn-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-21"
     },
@@ -2168,11 +1964,9 @@ export default {
       "masked": "Different ____ progress at different speeds.",
       "options": [
         "learn-mcq-21",
-        "learn-mcq-20",
-        "learn-mcq-22",
-        "learn-mcq-19",
-        "learn-mcq-23",
-        "learn-mcq-18"
+        "learn-mcq-10",
+        "learn-mcq-15",
+        "learn-mcq-07"
       ],
       "explanation": "本句的「learners」指「正在學習某項知識／技能的人」。",
       "sentenceIndex": 50,
@@ -2181,12 +1975,10 @@ export default {
         "learners"
       ],
       "optionReasons": {
-        "learn-mcq-21": "本句指「正在學習某項知識／技能的人」。",
-        "learn-mcq-20": "「經教育／研究累積的學問、學識」是「learning — knowledge」的用法，與本句語境不同。",
-        "learn-mcq-22": "「透過環境、教育或經驗後天形成的」是「learned — acquired」的用法，與本句語境不同。",
-        "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。",
-        "learn-mcq-23": "「擁有大量學術知識、博學的」是「learned — scholarly」的用法，與本句語境不同。",
-        "learn-mcq-18": "「透過觀察並吸收別人的行為／榜樣來學習」是「learn by example」的用法，與本句語境不同。"
+        "learn-mcq-21": "本句的「learners」指「正在學習某項知識／技能的人」。",
+        "learn-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-21"
     },
@@ -2198,11 +1990,9 @@ export default {
       "masked": "Fear can sometimes be a ____.",
       "options": [
         "learn-mcq-22",
-        "learn-mcq-21",
-        "learn-mcq-23",
-        "learn-mcq-20",
-        "learn-mcq-24",
-        "learn-mcq-19"
+        "learn-mcq-09",
+        "learn-mcq-02",
+        "learn-mcq-14"
       ],
       "explanation": "本句的「learned behaviour」指「透過環境、教育或經驗後天形成的」。",
       "sentenceIndex": 51,
@@ -2211,12 +2001,10 @@ export default {
         "learned behaviour"
       ],
       "optionReasons": {
-        "learn-mcq-22": "本句指「透過環境、教育或經驗後天形成的」。",
-        "learn-mcq-21": "「正在學習某項知識／技能的人」是「learner」的用法，與本句語境不同。",
-        "learn-mcq-23": "「擁有大量學術知識、博學的」是「learned — scholarly」的用法，與本句語境不同。",
-        "learn-mcq-20": "「經教育／研究累積的學問、學識」是「learning — knowledge」的用法，與本句語境不同。",
-        "learn-mcq-24": "「刻意停止使用／相信過去已學會的習慣、觀念或行為」是「unlearn」的用法，與本句語境不同。",
-        "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。"
+        "learn-mcq-22": "本句的「learned behaviour」指「透過環境、教育或經驗後天形成的」。",
+        "learn-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-22"
     },
@@ -2228,11 +2016,9 @@ export default {
       "masked": "Some habits are ____ rather than natural.",
       "options": [
         "learn-mcq-22",
-        "learn-mcq-21",
-        "learn-mcq-23",
-        "learn-mcq-20",
-        "learn-mcq-24",
-        "learn-mcq-19"
+        "learn-mcq-15",
+        "learn-mcq-12",
+        "learn-mcq-14"
       ],
       "explanation": "本句的「learned」指「透過環境、教育或經驗後天形成的」。",
       "sentenceIndex": 52,
@@ -2241,12 +2027,10 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-22": "本句指「透過環境、教育或經驗後天形成的」。",
-        "learn-mcq-21": "「正在學習某項知識／技能的人」是「learner」的用法，與本句語境不同。",
-        "learn-mcq-23": "「擁有大量學術知識、博學的」是「learned — scholarly」的用法，與本句語境不同。",
-        "learn-mcq-20": "「經教育／研究累積的學問、學識」是「learning — knowledge」的用法，與本句語境不同。",
-        "learn-mcq-24": "「刻意停止使用／相信過去已學會的習慣、觀念或行為」是「unlearn」的用法，與本句語境不同。",
-        "learn-mcq-19": "「獲得知識、技能或理解的過程」是「learning — process」的用法，與本句語境不同。"
+        "learn-mcq-22": "本句的「learned」指「透過環境、教育或經驗後天形成的」。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-22"
     },
@@ -2258,11 +2042,9 @@ export default {
       "masked": "He was a ____.",
       "options": [
         "learn-mcq-23",
-        "learn-mcq-22",
-        "learn-mcq-24",
-        "learn-mcq-21",
-        "learn-mcq-25",
-        "learn-mcq-20"
+        "learn-mcq-16",
+        "learn-mcq-08",
+        "learn-mcq-07"
       ],
       "explanation": "本句的「learned scholar」指「擁有大量學術知識、博學的」。",
       "sentenceIndex": 53,
@@ -2271,12 +2053,10 @@ export default {
         "learned scholar"
       ],
       "optionReasons": {
-        "learn-mcq-23": "本句指「擁有大量學術知識、博學的」。",
-        "learn-mcq-22": "「透過環境、教育或經驗後天形成的」是「learned — acquired」的用法，與本句語境不同。",
-        "learn-mcq-24": "「刻意停止使用／相信過去已學會的習慣、觀念或行為」是「unlearn」的用法，與本句語境不同。",
-        "learn-mcq-21": "「正在學習某項知識／技能的人」是「learner」的用法，與本句語境不同。",
-        "learn-mcq-25": "「掌握新技能／系統時的學習進程或上手難度」是「learning curve」的用法，與本句語境不同。",
-        "learn-mcq-20": "「經教育／研究累積的學問、學識」是「learning — knowledge」的用法，與本句語境不同。"
+        "learn-mcq-23": "本句的「learned scholar」指「擁有大量學術知識、博學的」。",
+        "learn-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-23"
     },
@@ -2288,11 +2068,9 @@ export default {
       "masked": "The book contains essays by several ____ writers.",
       "options": [
         "learn-mcq-23",
-        "learn-mcq-22",
-        "learn-mcq-24",
-        "learn-mcq-21",
-        "learn-mcq-25",
-        "learn-mcq-20"
+        "learn-mcq-14",
+        "learn-mcq-15",
+        "learn-mcq-06"
       ],
       "explanation": "本句的「learned」指「擁有大量學術知識、博學的」。",
       "sentenceIndex": 54,
@@ -2301,12 +2079,10 @@ export default {
         "learned"
       ],
       "optionReasons": {
-        "learn-mcq-23": "本句指「擁有大量學術知識、博學的」。",
-        "learn-mcq-22": "「透過環境、教育或經驗後天形成的」是「learned — acquired」的用法，與本句語境不同。",
-        "learn-mcq-24": "「刻意停止使用／相信過去已學會的習慣、觀念或行為」是「unlearn」的用法，與本句語境不同。",
-        "learn-mcq-21": "「正在學習某項知識／技能的人」是「learner」的用法，與本句語境不同。",
-        "learn-mcq-25": "「掌握新技能／系統時的學習進程或上手難度」是「learning curve」的用法，與本句語境不同。",
-        "learn-mcq-20": "「經教育／研究累積的學問、學識」是「learning — knowledge」的用法，與本句語境不同。"
+        "learn-mcq-23": "本句的「learned」指「擁有大量學術知識、博學的」。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-23"
     },
@@ -2318,11 +2094,9 @@ export default {
       "masked": "Sometimes we need to ____.",
       "options": [
         "learn-mcq-24",
-        "learn-mcq-23",
-        "learn-mcq-25",
-        "learn-mcq-22",
-        "learn-mcq-26",
-        "learn-mcq-21"
+        "learn-mcq-27",
+        "learn-mcq-14",
+        "learn-mcq-20"
       ],
       "explanation": "本句的「unlearn bad habits」指「刻意停止使用／相信過去已學會的習慣、觀念或行為」。",
       "sentenceIndex": 55,
@@ -2331,12 +2105,10 @@ export default {
         "unlearn bad habits"
       ],
       "optionReasons": {
-        "learn-mcq-24": "本句指「刻意停止使用／相信過去已學會的習慣、觀念或行為」。",
-        "learn-mcq-23": "「擁有大量學術知識、博學的」是「learned — scholarly」的用法，與本句語境不同。",
-        "learn-mcq-25": "「掌握新技能／系統時的學習進程或上手難度」是「learning curve」的用法，與本句語境不同。",
-        "learn-mcq-22": "「透過環境、教育或經驗後天形成的」是「learned — acquired」的用法，與本句語境不同。",
-        "learn-mcq-26": "「一生持續獲得新知識、技能和理解的過程」是「lifelong learning」的用法，與本句語境不同。",
-        "learn-mcq-21": "「正在學習某項知識／技能的人」是「learner」的用法，與本句語境不同。"
+        "learn-mcq-24": "本句的「unlearn bad habits」指「刻意停止使用／相信過去已學會的習慣、觀念或行為」。",
+        "learn-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-24"
     },
@@ -2348,11 +2120,9 @@ export default {
       "masked": "It can be difficult to ____ old assumptions.",
       "options": [
         "learn-mcq-24",
-        "learn-mcq-23",
-        "learn-mcq-25",
-        "learn-mcq-22",
-        "learn-mcq-26",
-        "learn-mcq-21"
+        "learn-mcq-27",
+        "learn-mcq-14",
+        "learn-mcq-20"
       ],
       "explanation": "本句的「unlearn」指「刻意停止使用／相信過去已學會的習慣、觀念或行為」。",
       "sentenceIndex": 56,
@@ -2361,12 +2131,10 @@ export default {
         "unlearn"
       ],
       "optionReasons": {
-        "learn-mcq-24": "本句指「刻意停止使用／相信過去已學會的習慣、觀念或行為」。",
-        "learn-mcq-23": "「擁有大量學術知識、博學的」是「learned — scholarly」的用法，與本句語境不同。",
-        "learn-mcq-25": "「掌握新技能／系統時的學習進程或上手難度」是「learning curve」的用法，與本句語境不同。",
-        "learn-mcq-22": "「透過環境、教育或經驗後天形成的」是「learned — acquired」的用法，與本句語境不同。",
-        "learn-mcq-26": "「一生持續獲得新知識、技能和理解的過程」是「lifelong learning」的用法，與本句語境不同。",
-        "learn-mcq-21": "「正在學習某項知識／技能的人」是「learner」的用法，與本句語境不同。"
+        "learn-mcq-24": "本句的「unlearn」指「刻意停止使用／相信過去已學會的習慣、觀念或行為」。",
+        "learn-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-24"
     },
@@ -2378,11 +2146,9 @@ export default {
       "masked": "The software has a steep ____.",
       "options": [
         "learn-mcq-25",
-        "learn-mcq-24",
-        "learn-mcq-26",
-        "learn-mcq-23",
-        "learn-mcq-27",
-        "learn-mcq-22"
+        "learn-mcq-11",
+        "learn-mcq-07",
+        "learn-mcq-14"
       ],
       "explanation": "本句的「learning curve」指「掌握新技能／系統時的學習進程或上手難度」。",
       "sentenceIndex": 57,
@@ -2391,12 +2157,10 @@ export default {
         "learning curve"
       ],
       "optionReasons": {
-        "learn-mcq-25": "本句指「掌握新技能／系統時的學習進程或上手難度」。",
-        "learn-mcq-24": "「刻意停止使用／相信過去已學會的習慣、觀念或行為」是「unlearn」的用法，與本句語境不同。",
-        "learn-mcq-26": "「一生持續獲得新知識、技能和理解的過程」是「lifelong learning」的用法，與本句語境不同。",
-        "learn-mcq-23": "「擁有大量學術知識、博學的」是「learned — scholarly」的用法，與本句語境不同。",
-        "learn-mcq-27": "「得到原本不知道的具體資訊」是「15. learn who/where/why/how（得知具體資訊） — 得知；弄清楚」的用法，與本句語境不同。",
-        "learn-mcq-22": "「透過環境、教育或經驗後天形成的」是「learned — acquired」的用法，與本句語境不同。"
+        "learn-mcq-25": "本句的「learning curve」指「掌握新技能／系統時的學習進程或上手難度」。",
+        "learn-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-25"
     },
@@ -2408,11 +2172,9 @@ export default {
       "masked": "There was a ____ curve when I started the job.",
       "options": [
         "learn-mcq-25",
-        "learn-mcq-24",
-        "learn-mcq-26",
-        "learn-mcq-23",
-        "learn-mcq-27",
-        "learn-mcq-22"
+        "learn-mcq-15",
+        "learn-mcq-09",
+        "learn-mcq-14"
       ],
       "explanation": "本句的「learning」指「掌握新技能／系統時的學習進程或上手難度」。",
       "sentenceIndex": 58,
@@ -2421,12 +2183,10 @@ export default {
         "learning"
       ],
       "optionReasons": {
-        "learn-mcq-25": "本句指「掌握新技能／系統時的學習進程或上手難度」。",
-        "learn-mcq-24": "「刻意停止使用／相信過去已學會的習慣、觀念或行為」是「unlearn」的用法，與本句語境不同。",
-        "learn-mcq-26": "「一生持續獲得新知識、技能和理解的過程」是「lifelong learning」的用法，與本句語境不同。",
-        "learn-mcq-23": "「擁有大量學術知識、博學的」是「learned — scholarly」的用法，與本句語境不同。",
-        "learn-mcq-27": "「得到原本不知道的具體資訊」是「15. learn who/where/why/how（得知具體資訊） — 得知；弄清楚」的用法，與本句語境不同。",
-        "learn-mcq-22": "「透過環境、教育或經驗後天形成的」是「learned — acquired」的用法，與本句語境不同。"
+        "learn-mcq-25": "本句的「learning」指「掌握新技能／系統時的學習進程或上手難度」。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-25"
     },
@@ -2438,11 +2198,9 @@ export default {
       "masked": "She believes in ____.",
       "options": [
         "learn-mcq-26",
-        "learn-mcq-25",
-        "learn-mcq-27",
-        "learn-mcq-24",
-        "learn-mcq-23",
-        "learn-mcq-22"
+        "learn-mcq-14",
+        "learn-mcq-04",
+        "learn-mcq-15"
       ],
       "explanation": "本句的「lifelong learning」指「一生持續獲得新知識、技能和理解的過程」。",
       "sentenceIndex": 59,
@@ -2451,12 +2209,10 @@ export default {
         "lifelong learning"
       ],
       "optionReasons": {
-        "learn-mcq-26": "本句指「一生持續獲得新知識、技能和理解的過程」。",
-        "learn-mcq-25": "「掌握新技能／系統時的學習進程或上手難度」是「learning curve」的用法，與本句語境不同。",
-        "learn-mcq-27": "「得到原本不知道的具體資訊」是「15. learn who/where/why/how（得知具體資訊） — 得知；弄清楚」的用法，與本句語境不同。",
-        "learn-mcq-24": "「刻意停止使用／相信過去已學會的習慣、觀念或行為」是「unlearn」的用法，與本句語境不同。",
-        "learn-mcq-23": "「擁有大量學術知識、博學的」是「learned — scholarly」的用法，與本句語境不同。",
-        "learn-mcq-22": "「透過環境、教育或經驗後天形成的」是「learned — acquired」的用法，與本句語境不同。"
+        "learn-mcq-26": "本句的「lifelong learning」指「一生持續獲得新知識、技能和理解的過程」。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-26"
     },
@@ -2468,11 +2224,9 @@ export default {
       "masked": "Reading is part of lifelong ____.",
       "options": [
         "learn-mcq-26",
-        "learn-mcq-25",
-        "learn-mcq-27",
-        "learn-mcq-24",
-        "learn-mcq-23",
-        "learn-mcq-22"
+        "learn-mcq-15",
+        "learn-mcq-14",
+        "learn-mcq-04"
       ],
       "explanation": "本句的「learning」指「一生持續獲得新知識、技能和理解的過程」。",
       "sentenceIndex": 60,
@@ -2481,12 +2235,10 @@ export default {
         "learning"
       ],
       "optionReasons": {
-        "learn-mcq-26": "本句指「一生持續獲得新知識、技能和理解的過程」。",
-        "learn-mcq-25": "「掌握新技能／系統時的學習進程或上手難度」是「learning curve」的用法，與本句語境不同。",
-        "learn-mcq-27": "「得到原本不知道的具體資訊」是「15. learn who/where/why/how（得知具體資訊） — 得知；弄清楚」的用法，與本句語境不同。",
-        "learn-mcq-24": "「刻意停止使用／相信過去已學會的習慣、觀念或行為」是「unlearn」的用法，與本句語境不同。",
-        "learn-mcq-23": "「擁有大量學術知識、博學的」是「learned — scholarly」的用法，與本句語境不同。",
-        "learn-mcq-22": "「透過環境、教育或經驗後天形成的」是「learned — acquired」的用法，與本句語境不同。"
+        "learn-mcq-26": "本句的「learning」指「一生持續獲得新知識、技能和理解的過程」。",
+        "learn-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "learn-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "learn-mcq-26"
     }
@@ -2498,5 +2250,7 @@ export default {
     "sha256": "acc7e78bf4fae7870be0d397cc4f2d96769b2303e781bbfaa1e26483a06d9cf5",
     "pages": 30
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

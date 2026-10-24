@@ -756,11 +756,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "wear-mcq-01",
-        "wear-mcq-02",
-        "wear-mcq-03",
-        "wear-mcq-04",
-        "wear-mcq-05",
-        "wear-mcq-06"
+        "wear-mcq-12",
+        "wear-mcq-17",
+        "wear-mcq-18"
       ],
       "explanation": "本句的「wearing a blue dress」指「穿着衣服」。",
       "sentenceIndex": 0,
@@ -769,12 +767,10 @@ export default {
         "wearing a blue dress"
       ],
       "optionReasons": {
-        "wear-mcq-01": "本句指「穿着衣服」。",
-        "wear-mcq-02": "「穿着鞋」是「wear shoes」的用法，與本句語境不同。",
-        "wear-mcq-03": "「戴眼鏡」是「wear glasses」的用法，與本句語境不同。",
-        "wear-mcq-04": "「戴首飾／手錶」是「wear jewellery/watch」的用法，與本句語境不同。",
-        "wear-mcq-05": "「化妝／用香水」是「wear make-up/perfume」的用法，與本句語境不同。",
-        "wear-mcq-06": "「留長髮」是「wear your hair long」的用法，與本句語境不同。"
+        "wear-mcq-01": "本句的「wearing a blue dress」指「穿着衣服」。",
+        "wear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-01"
     },
@@ -786,11 +782,9 @@ export default {
       "masked": "You should ____ for the walk.",
       "options": [
         "wear-mcq-01",
-        "wear-mcq-02",
-        "wear-mcq-03",
-        "wear-mcq-04",
         "wear-mcq-05",
-        "wear-mcq-06"
+        "wear-mcq-19",
+        "wear-mcq-04"
       ],
       "explanation": "本句的「wear comfortable shoes」指「穿着衣服」。",
       "sentenceIndex": 1,
@@ -799,12 +793,10 @@ export default {
         "wear comfortable shoes"
       ],
       "optionReasons": {
-        "wear-mcq-01": "本句指「穿着衣服」。",
-        "wear-mcq-02": "「穿着鞋」是「wear shoes」的用法，與本句語境不同。",
-        "wear-mcq-03": "「戴眼鏡」是「wear glasses」的用法，與本句語境不同。",
-        "wear-mcq-04": "「戴首飾／手錶」是「wear jewellery/watch」的用法，與本句語境不同。",
-        "wear-mcq-05": "「化妝／用香水」是「wear make-up/perfume」的用法，與本句語境不同。",
-        "wear-mcq-06": "「留長髮」是「wear your hair long」的用法，與本句語境不同。"
+        "wear-mcq-01": "本句的「wear comfortable shoes」指「穿着衣服」。",
+        "wear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-01"
     },
@@ -816,11 +808,9 @@ export default {
       "masked": "He ____ when he reads.",
       "options": [
         "wear-mcq-04",
-        "wear-mcq-03",
-        "wear-mcq-05",
-        "wear-mcq-02",
-        "wear-mcq-06",
-        "wear-mcq-01"
+        "wear-mcq-34",
+        "wear-mcq-24",
+        "wear-mcq-20"
       ],
       "explanation": "本句的「wears glasses」指「戴首飾／手錶」。",
       "sentenceIndex": 2,
@@ -829,12 +819,10 @@ export default {
         "wears glasses"
       ],
       "optionReasons": {
-        "wear-mcq-04": "本句指「戴首飾／手錶」。",
-        "wear-mcq-03": "「戴眼鏡」是「wear glasses」的用法，與本句語境不同。",
-        "wear-mcq-05": "「化妝／用香水」是「wear make-up/perfume」的用法，與本句語境不同。",
-        "wear-mcq-02": "「穿着鞋」是「wear shoes」的用法，與本句語境不同。",
-        "wear-mcq-06": "「留長髮」是「wear your hair long」的用法，與本句語境不同。",
-        "wear-mcq-01": "「穿着衣服」是「wear clothes」的用法，與本句語境不同。"
+        "wear-mcq-04": "本句的「wears glasses」指「戴首飾／手錶」。",
+        "wear-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-04"
     },
@@ -846,11 +834,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "wear-mcq-04",
-        "wear-mcq-03",
-        "wear-mcq-05",
-        "wear-mcq-02",
-        "wear-mcq-06",
-        "wear-mcq-01"
+        "wear-mcq-19",
+        "wear-pdf-001",
+        "wear-mcq-18"
       ],
       "explanation": "本句的「wearing a silver necklace」指「戴首飾／手錶」。",
       "sentenceIndex": 3,
@@ -859,12 +845,10 @@ export default {
         "wearing a silver necklace"
       ],
       "optionReasons": {
-        "wear-mcq-04": "本句指「戴首飾／手錶」。",
-        "wear-mcq-03": "「戴眼鏡」是「wear glasses」的用法，與本句語境不同。",
-        "wear-mcq-05": "「化妝／用香水」是「wear make-up/perfume」的用法，與本句語境不同。",
-        "wear-mcq-02": "「穿着鞋」是「wear shoes」的用法，與本句語境不同。",
-        "wear-mcq-06": "「留長髮」是「wear your hair long」的用法，與本句語境不同。",
-        "wear-mcq-01": "「穿着衣服」是「wear clothes」的用法，與本句語境不同。"
+        "wear-mcq-04": "本句的「wearing a silver necklace」指「戴首飾／手錶」。",
+        "wear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-04"
     },
@@ -876,11 +860,9 @@ export default {
       "masked": "She doesn't usually ____.",
       "options": [
         "wear-mcq-05",
-        "wear-mcq-04",
-        "wear-mcq-06",
-        "wear-mcq-03",
-        "wear-mcq-07",
-        "wear-mcq-02"
+        "wear-mcq-12",
+        "wear-pdf-001",
+        "wear-mcq-34"
       ],
       "explanation": "本句的「wear make-up」指「化妝／用香水」。",
       "sentenceIndex": 4,
@@ -889,12 +871,10 @@ export default {
         "wear make-up"
       ],
       "optionReasons": {
-        "wear-mcq-05": "本句指「化妝／用香水」。",
-        "wear-mcq-04": "「戴首飾／手錶」是「wear jewellery/watch」的用法，與本句語境不同。",
-        "wear-mcq-06": "「留長髮」是「wear your hair long」的用法，與本句語境不同。",
-        "wear-mcq-03": "「戴眼鏡」是「wear glasses」的用法，與本句語境不同。",
-        "wear-mcq-07": "「面帶微笑」是「wear a smile」的用法，與本句語境不同。",
-        "wear-mcq-02": "「穿着鞋」是「wear shoes」的用法，與本句語境不同。"
+        "wear-mcq-05": "本句的「wear make-up」指「化妝／用香水」。",
+        "wear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-05"
     },
@@ -906,11 +886,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "wear-mcq-05",
-        "wear-mcq-04",
-        "wear-mcq-06",
-        "wear-mcq-03",
-        "wear-mcq-07",
-        "wear-mcq-02"
+        "wear-mcq-23",
+        "wear-mcq-12",
+        "wear-mcq-22"
       ],
       "explanation": "本句的「wearing a strong perfume」指「化妝／用香水」。",
       "sentenceIndex": 5,
@@ -919,12 +897,10 @@ export default {
         "wearing a strong perfume"
       ],
       "optionReasons": {
-        "wear-mcq-05": "本句指「化妝／用香水」。",
-        "wear-mcq-04": "「戴首飾／手錶」是「wear jewellery/watch」的用法，與本句語境不同。",
-        "wear-mcq-06": "「留長髮」是「wear your hair long」的用法，與本句語境不同。",
-        "wear-mcq-03": "「戴眼鏡」是「wear glasses」的用法，與本句語境不同。",
-        "wear-mcq-07": "「面帶微笑」是「wear a smile」的用法，與本句語境不同。",
-        "wear-mcq-02": "「穿着鞋」是「wear shoes」的用法，與本句語境不同。"
+        "wear-mcq-05": "本句的「wearing a strong perfume」指「化妝／用香水」。",
+        "wear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-05"
     },
@@ -936,11 +912,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "wear-mcq-06",
-        "wear-mcq-05",
-        "wear-mcq-07",
+        "wear-mcq-25",
         "wear-mcq-04",
-        "wear-mcq-08",
-        "wear-mcq-03"
+        "wear-mcq-33"
       ],
       "explanation": "本句的「wears her hair long」指「留長髮」。",
       "sentenceIndex": 6,
@@ -949,12 +923,10 @@ export default {
         "wears her hair long"
       ],
       "optionReasons": {
-        "wear-mcq-06": "本句指「留長髮」。",
-        "wear-mcq-05": "「化妝／用香水」是「wear make-up/perfume」的用法，與本句語境不同。",
-        "wear-mcq-07": "「面帶微笑」是「wear a smile」的用法，與本句語境不同。",
-        "wear-mcq-04": "「戴首飾／手錶」是「wear jewellery/watch」的用法，與本句語境不同。",
-        "wear-mcq-08": "「面露困惑」是「wear a puzzled look」的用法，與本句語境不同。",
-        "wear-mcq-03": "「戴眼鏡」是「wear glasses」的用法，與本句語境不同。"
+        "wear-mcq-06": "本句的「wears her hair long」指「留長髮」。",
+        "wear-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-06"
     },
@@ -966,11 +938,9 @@ export default {
       "masked": "He usually ____.",
       "options": [
         "wear-mcq-06",
-        "wear-mcq-05",
-        "wear-mcq-07",
-        "wear-mcq-04",
-        "wear-mcq-08",
-        "wear-mcq-03"
+        "wear-mcq-26",
+        "wear-mcq-23",
+        "wear-mcq-24"
       ],
       "explanation": "本句的「wears his hair tied back」指「留長髮」。",
       "sentenceIndex": 7,
@@ -979,12 +949,10 @@ export default {
         "wears his hair tied back"
       ],
       "optionReasons": {
-        "wear-mcq-06": "本句指「留長髮」。",
-        "wear-mcq-05": "「化妝／用香水」是「wear make-up/perfume」的用法，與本句語境不同。",
-        "wear-mcq-07": "「面帶微笑」是「wear a smile」的用法，與本句語境不同。",
-        "wear-mcq-04": "「戴首飾／手錶」是「wear jewellery/watch」的用法，與本句語境不同。",
-        "wear-mcq-08": "「面露困惑」是「wear a puzzled look」的用法，與本句語境不同。",
-        "wear-mcq-03": "「戴眼鏡」是「wear glasses」的用法，與本句語境不同。"
+        "wear-mcq-06": "本句的「wears his hair tied back」指「留長髮」。",
+        "wear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-06"
     },
@@ -996,11 +964,9 @@ export default {
       "masked": "She ____ throughout the evening.",
       "options": [
         "wear-mcq-07",
-        "wear-mcq-06",
-        "wear-mcq-08",
+        "wear-mcq-20",
         "wear-mcq-05",
-        "wear-mcq-09",
-        "wear-mcq-04"
+        "wear-mcq-30"
       ],
       "explanation": "本句的「wore a warm smile」指「面帶微笑」。",
       "sentenceIndex": 8,
@@ -1009,12 +975,10 @@ export default {
         "wore a warm smile"
       ],
       "optionReasons": {
-        "wear-mcq-07": "本句指「面帶微笑」。",
-        "wear-mcq-06": "「留長髮」是「wear your hair long」的用法，與本句語境不同。",
-        "wear-mcq-08": "「面露困惑」是「wear a puzzled look」的用法，與本句語境不同。",
-        "wear-mcq-05": "「化妝／用香水」是「wear make-up/perfume」的用法，與本句語境不同。",
-        "wear-mcq-09": "「磨損」是「wear (material)」的用法，與本句語境不同。",
-        "wear-mcq-04": "「戴首飾／手錶」是「wear jewellery/watch」的用法，與本句語境不同。"
+        "wear-mcq-07": "本句的「wore a warm smile」指「面帶微笑」。",
+        "wear-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-07"
     },
@@ -1026,11 +990,9 @@ export default {
       "masked": "He ____ when he read the message.",
       "options": [
         "wear-mcq-07",
-        "wear-mcq-06",
-        "wear-mcq-08",
-        "wear-mcq-05",
-        "wear-mcq-09",
-        "wear-mcq-04"
+        "wear-mcq-34",
+        "wear-pdf-001",
+        "wear-mcq-16"
       ],
       "explanation": "本句的「wore a puzzled expression」指「面帶微笑」。",
       "sentenceIndex": 9,
@@ -1039,12 +1001,10 @@ export default {
         "wore a puzzled expression"
       ],
       "optionReasons": {
-        "wear-mcq-07": "本句指「面帶微笑」。",
-        "wear-mcq-06": "「留長髮」是「wear your hair long」的用法，與本句語境不同。",
-        "wear-mcq-08": "「面露困惑」是「wear a puzzled look」的用法，與本句語境不同。",
-        "wear-mcq-05": "「化妝／用香水」是「wear make-up/perfume」的用法，與本句語境不同。",
-        "wear-mcq-09": "「磨損」是「wear (material)」的用法，與本句語境不同。",
-        "wear-mcq-04": "「戴首飾／手錶」是「wear jewellery/watch」的用法，與本句語境不同。"
+        "wear-mcq-07": "本句的「wore a puzzled expression」指「面帶微笑」。",
+        "wear-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "wear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-07"
     },
@@ -1056,11 +1016,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "wear-mcq-33",
-        "wear-mcq-32",
-        "wear-mcq-34",
-        "wear-mcq-31",
-        "wear-mcq-35",
-        "wear-mcq-30"
+        "wear-mcq-11",
+        "wear-mcq-22",
+        "wear-mcq-01"
       ],
       "explanation": "本句的「wore a look of determination」指「臉上顯露出某種情緒或態度」。",
       "sentenceIndex": 10,
@@ -1069,12 +1027,10 @@ export default {
         "wore a look of determination"
       ],
       "optionReasons": {
-        "wear-mcq-33": "本句指「臉上顯露出某種情緒或態度」。",
-        "wear-mcq-32": "「穿戴者」是「wearer」的用法，與本句語境不同。",
-        "wear-mcq-34": "「持續呈現某種可見的外表、神情或氣質」是「7. wear a particular appearance/style — 呈現；帶有某種外在形象」的用法，與本句語境不同。",
-        "wear-mcq-31": "「穿戴式裝置」是「wearable (n.)」的用法，與本句語境不同。",
-        "wear-mcq-35": "「因長期使用、摩擦或時間而逐漸受損」是「8. wear（物件因使用而磨損） — 磨損；磨蝕」的用法，與本句語境不同。",
-        "wear-mcq-30": "「可穿戴的」是「wearable (adj.)」的用法，與本句語境不同。"
+        "wear-mcq-33": "本句的「wore a look of determination」指「臉上顯露出某種情緒或態度」。",
+        "wear-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-33"
     },
@@ -1086,11 +1042,9 @@ export default {
       "masked": "He ____ after hearing the result.",
       "options": [
         "wear-mcq-33",
-        "wear-mcq-32",
-        "wear-mcq-34",
-        "wear-mcq-31",
-        "wear-mcq-35",
-        "wear-mcq-30"
+        "wear-mcq-25",
+        "wear-mcq-07",
+        "wear-mcq-15"
       ],
       "explanation": "本句的「wore a look of disappointment」指「臉上顯露出某種情緒或態度」。",
       "sentenceIndex": 11,
@@ -1099,12 +1053,10 @@ export default {
         "wore a look of disappointment"
       ],
       "optionReasons": {
-        "wear-mcq-33": "本句指「臉上顯露出某種情緒或態度」。",
-        "wear-mcq-32": "「穿戴者」是「wearer」的用法，與本句語境不同。",
-        "wear-mcq-34": "「持續呈現某種可見的外表、神情或氣質」是「7. wear a particular appearance/style — 呈現；帶有某種外在形象」的用法，與本句語境不同。",
-        "wear-mcq-31": "「穿戴式裝置」是「wearable (n.)」的用法，與本句語境不同。",
-        "wear-mcq-35": "「因長期使用、摩擦或時間而逐漸受損」是「8. wear（物件因使用而磨損） — 磨損；磨蝕」的用法，與本句語境不同。",
-        "wear-mcq-30": "「可穿戴的」是「wearable (adj.)」的用法，與本句語境不同。"
+        "wear-mcq-33": "本句的「wore a look of disappointment」指「臉上顯露出某種情緒或態度」。",
+        "wear-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-33"
     },
@@ -1116,10 +1068,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "wear-mcq-34",
-        "wear-mcq-33",
-        "wear-mcq-35",
-        "wear-mcq-32",
-        "wear-mcq-36",
+        "wear-mcq-20",
+        "wear-mcq-17",
         "wear-mcq-31"
       ],
       "explanation": "本句的「wears his age well」指「持續呈現某種可見的外表、神情或氣質」。",
@@ -1129,12 +1079,10 @@ export default {
         "wears his age well"
       ],
       "optionReasons": {
-        "wear-mcq-34": "本句指「持續呈現某種可見的外表、神情或氣質」。",
-        "wear-mcq-33": "「臉上顯露出某種情緒或態度」是「6. wear a look of confidence/sadness etc. — 顯露某種神情」的用法，與本句語境不同。",
-        "wear-mcq-35": "「因長期使用、摩擦或時間而逐漸受損」是「8. wear（物件因使用而磨損） — 磨損；磨蝕」的用法，與本句語境不同。",
-        "wear-mcq-32": "「穿戴者」是「wearer」的用法，與本句語境不同。",
-        "wear-mcq-36": "「某一用途、場合或類別的衣服／穿戴物」是「26. -wear（某類服裝） — ……服裝」的用法，與本句語境不同。",
-        "wear-mcq-31": "「穿戴式裝置」是「wearable (n.)」的用法，與本句語境不同。"
+        "wear-mcq-34": "本句的「wears his age well」指「持續呈現某種可見的外表、神情或氣質」。",
+        "wear-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-34"
     },
@@ -1146,11 +1094,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "wear-mcq-34",
-        "wear-mcq-33",
-        "wear-mcq-35",
-        "wear-mcq-32",
-        "wear-mcq-36",
-        "wear-mcq-31"
+        "wear-mcq-19",
+        "wear-mcq-05",
+        "wear-mcq-12"
       ],
       "explanation": "本句的「wears confidence naturally」指「持續呈現某種可見的外表、神情或氣質」。",
       "sentenceIndex": 13,
@@ -1159,12 +1105,10 @@ export default {
         "wears confidence naturally"
       ],
       "optionReasons": {
-        "wear-mcq-34": "本句指「持續呈現某種可見的外表、神情或氣質」。",
-        "wear-mcq-33": "「臉上顯露出某種情緒或態度」是「6. wear a look of confidence/sadness etc. — 顯露某種神情」的用法，與本句語境不同。",
-        "wear-mcq-35": "「因長期使用、摩擦或時間而逐漸受損」是「8. wear（物件因使用而磨損） — 磨損；磨蝕」的用法，與本句語境不同。",
-        "wear-mcq-32": "「穿戴者」是「wearer」的用法，與本句語境不同。",
-        "wear-mcq-36": "「某一用途、場合或類別的衣服／穿戴物」是「26. -wear（某類服裝） — ……服裝」的用法，與本句語境不同。",
-        "wear-mcq-31": "「穿戴式裝置」是「wearable (n.)」的用法，與本句語境不同。"
+        "wear-mcq-34": "本句的「wears confidence naturally」指「持續呈現某種可見的外表、神情或氣質」。",
+        "wear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-34"
     },
@@ -1176,11 +1120,9 @@ export default {
       "masked": "The carpet has ____ badly near the door.",
       "options": [
         "wear-mcq-35",
-        "wear-mcq-34",
-        "wear-mcq-36",
-        "wear-mcq-33",
-        "wear-mcq-32",
-        "wear-mcq-31"
+        "wear-mcq-20",
+        "wear-mcq-05",
+        "wear-pdf-001"
       ],
       "explanation": "本句的「worn」指「因長期使用、摩擦或時間而逐漸受損」。",
       "sentenceIndex": 14,
@@ -1189,12 +1131,10 @@ export default {
         "worn"
       ],
       "optionReasons": {
-        "wear-mcq-35": "本句指「因長期使用、摩擦或時間而逐漸受損」。",
-        "wear-mcq-34": "「持續呈現某種可見的外表、神情或氣質」是「7. wear a particular appearance/style — 呈現；帶有某種外在形象」的用法，與本句語境不同。",
-        "wear-mcq-36": "「某一用途、場合或類別的衣服／穿戴物」是「26. -wear（某類服裝） — ……服裝」的用法，與本句語境不同。",
-        "wear-mcq-33": "「臉上顯露出某種情緒或態度」是「6. wear a look of confidence/sadness etc. — 顯露某種神情」的用法，與本句語境不同。",
-        "wear-mcq-32": "「穿戴者」是「wearer」的用法，與本句語境不同。",
-        "wear-mcq-31": "「穿戴式裝置」是「wearable (n.)」的用法，與本句語境不同。"
+        "wear-mcq-35": "本句的「worn」指「因長期使用、摩擦或時間而逐漸受損」。",
+        "wear-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wear-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-35"
     },
@@ -1206,11 +1146,9 @@ export default {
       "masked": "These tyres ____ quickly on rough roads.",
       "options": [
         "wear-mcq-35",
+        "wear-mcq-10",
         "wear-mcq-34",
-        "wear-mcq-36",
-        "wear-mcq-33",
-        "wear-mcq-32",
-        "wear-mcq-31"
+        "wear-mcq-22"
       ],
       "explanation": "本句的「wear」指「因長期使用、摩擦或時間而逐漸受損」。",
       "sentenceIndex": 15,
@@ -1219,12 +1157,10 @@ export default {
         "wear"
       ],
       "optionReasons": {
-        "wear-mcq-35": "本句指「因長期使用、摩擦或時間而逐漸受損」。",
-        "wear-mcq-34": "「持續呈現某種可見的外表、神情或氣質」是「7. wear a particular appearance/style — 呈現；帶有某種外在形象」的用法，與本句語境不同。",
-        "wear-mcq-36": "「某一用途、場合或類別的衣服／穿戴物」是「26. -wear（某類服裝） — ……服裝」的用法，與本句語境不同。",
-        "wear-mcq-33": "「臉上顯露出某種情緒或態度」是「6. wear a look of confidence/sadness etc. — 顯露某種神情」的用法，與本句語境不同。",
-        "wear-mcq-32": "「穿戴者」是「wearer」的用法，與本句語境不同。",
-        "wear-mcq-31": "「穿戴式裝置」是「wearable (n.)」的用法，與本句語境不同。"
+        "wear-mcq-35": "本句的「wear」指「因長期使用、摩擦或時間而逐漸受損」。",
+        "wear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-35"
     },
@@ -1236,11 +1172,9 @@ export default {
       "masked": "Years of footsteps had ____.",
       "options": [
         "wear-mcq-10",
-        "wear-mcq-09",
-        "wear-mcq-11",
-        "wear-mcq-08",
-        "wear-mcq-12",
-        "wear-mcq-07"
+        "wear-mcq-31",
+        "wear-mcq-33",
+        "wear-mcq-06"
       ],
       "explanation": "本句的「worn the stone smooth」指「把某物磨平／磨光」。",
       "sentenceIndex": 16,
@@ -1249,12 +1183,10 @@ export default {
         "worn the stone smooth"
       ],
       "optionReasons": {
-        "wear-mcq-10": "本句指「把某物磨平／磨光」。",
-        "wear-mcq-09": "「磨損」是「wear (material)」的用法，與本句語境不同。",
-        "wear-mcq-11": "「磨掉；侵蝕」是「wear away」的用法，與本句語境不同。",
-        "wear-mcq-08": "「面露困惑」是「wear a puzzled look」的用法，與本句語境不同。",
-        "wear-mcq-12": "「磨薄／磨低」是「wear something down」的用法，與本句語境不同。",
-        "wear-mcq-07": "「面帶微笑」是「wear a smile」的用法，與本句語境不同。"
+        "wear-mcq-10": "本句的「worn the stone smooth」指「把某物磨平／磨光」。",
+        "wear-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-10"
     },
@@ -1266,11 +1198,9 @@ export default {
       "masked": "Constant rubbing had ____.",
       "options": [
         "wear-mcq-10",
-        "wear-mcq-09",
-        "wear-mcq-11",
-        "wear-mcq-08",
-        "wear-mcq-12",
-        "wear-mcq-07"
+        "wear-mcq-17",
+        "wear-mcq-26",
+        "wear-mcq-23"
       ],
       "explanation": "本句的「worn the fabric thin」指「把某物磨平／磨光」。",
       "sentenceIndex": 17,
@@ -1279,12 +1209,10 @@ export default {
         "worn the fabric thin"
       ],
       "optionReasons": {
-        "wear-mcq-10": "本句指「把某物磨平／磨光」。",
-        "wear-mcq-09": "「磨損」是「wear (material)」的用法，與本句語境不同。",
-        "wear-mcq-11": "「磨掉；侵蝕」是「wear away」的用法，與本句語境不同。",
-        "wear-mcq-08": "「面露困惑」是「wear a puzzled look」的用法，與本句語境不同。",
-        "wear-mcq-12": "「磨薄／磨低」是「wear something down」的用法，與本句語境不同。",
-        "wear-mcq-07": "「面帶微笑」是「wear a smile」的用法，與本句語境不同。"
+        "wear-mcq-10": "本句的「worn the fabric thin」指「把某物磨平／磨光」。",
+        "wear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-10"
     },
@@ -1296,11 +1224,9 @@ export default {
       "masked": "The water slowly ____.",
       "options": [
         "wear-mcq-11",
-        "wear-mcq-10",
-        "wear-mcq-12",
-        "wear-mcq-09",
-        "wear-mcq-13",
-        "wear-mcq-08"
+        "wear-mcq-15",
+        "wear-mcq-34",
+        "wear-mcq-18"
       ],
       "explanation": "本句的「wore away the rock」指「磨掉；侵蝕」。",
       "sentenceIndex": 18,
@@ -1309,12 +1235,10 @@ export default {
         "wore away the rock"
       ],
       "optionReasons": {
-        "wear-mcq-11": "本句指「磨掉；侵蝕」。",
-        "wear-mcq-10": "「把某物磨平／磨光」是「wear something smooth」的用法，與本句語境不同。",
-        "wear-mcq-12": "「磨薄／磨低」是「wear something down」的用法，與本句語境不同。",
-        "wear-mcq-09": "「磨損」是「wear (material)」的用法，與本句語境不同。",
-        "wear-mcq-13": "「消磨某人」是「wear someone down」的用法，與本句語境不同。",
-        "wear-mcq-08": "「面露困惑」是「wear a puzzled look」的用法，與本句語境不同。"
+        "wear-mcq-11": "本句的「wore away the rock」指「磨掉；侵蝕」。",
+        "wear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-11"
     },
@@ -1326,11 +1250,9 @@ export default {
       "masked": "Years of use had ____ the writing on the sign.",
       "options": [
         "wear-mcq-11",
-        "wear-mcq-10",
-        "wear-mcq-12",
-        "wear-mcq-09",
-        "wear-mcq-13",
-        "wear-mcq-08"
+        "wear-mcq-30",
+        "wear-mcq-33",
+        "wear-mcq-17"
       ],
       "explanation": "本句的「worn away」指「磨掉；侵蝕」。",
       "sentenceIndex": 19,
@@ -1339,12 +1261,10 @@ export default {
         "worn away"
       ],
       "optionReasons": {
-        "wear-mcq-11": "本句指「磨掉；侵蝕」。",
-        "wear-mcq-10": "「把某物磨平／磨光」是「wear something smooth」的用法，與本句語境不同。",
-        "wear-mcq-12": "「磨薄／磨低」是「wear something down」的用法，與本句語境不同。",
-        "wear-mcq-09": "「磨損」是「wear (material)」的用法，與本句語境不同。",
-        "wear-mcq-13": "「消磨某人」是「wear someone down」的用法，與本句語境不同。",
-        "wear-mcq-08": "「面露困惑」是「wear a puzzled look」的用法，與本句語境不同。"
+        "wear-mcq-11": "本句的「worn away」指「磨掉；侵蝕」。",
+        "wear-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-11"
     },
@@ -1356,11 +1276,9 @@ export default {
       "masked": "Walking on the steps for years had ____.",
       "options": [
         "wear-mcq-12",
-        "wear-mcq-11",
-        "wear-mcq-13",
-        "wear-mcq-10",
-        "wear-mcq-14",
-        "wear-mcq-09"
+        "wear-mcq-31",
+        "wear-mcq-26",
+        "wear-mcq-04"
       ],
       "explanation": "本句的「worn them down」指「磨薄／磨低」。",
       "sentenceIndex": 20,
@@ -1369,12 +1287,10 @@ export default {
         "worn them down"
       ],
       "optionReasons": {
-        "wear-mcq-12": "本句指「磨薄／磨低」。",
-        "wear-mcq-11": "「磨掉；侵蝕」是「wear away」的用法，與本句語境不同。",
-        "wear-mcq-13": "「消磨某人」是「wear someone down」的用法，與本句語境不同。",
-        "wear-mcq-10": "「把某物磨平／磨光」是「wear something smooth」的用法，與本句語境不同。",
-        "wear-mcq-14": "「磨到某人讓步」是「wear someone down into agreeing」的用法，與本句語境不同。",
-        "wear-mcq-09": "「磨損」是「wear (material)」的用法，與本句語境不同。"
+        "wear-mcq-12": "本句的「worn them down」指「磨薄／磨低」。",
+        "wear-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-12"
     },
@@ -1386,11 +1302,9 @@ export default {
       "masked": "The constant friction ____ the surface.",
       "options": [
         "wear-mcq-12",
-        "wear-mcq-11",
-        "wear-mcq-13",
-        "wear-mcq-10",
-        "wear-mcq-14",
-        "wear-mcq-09"
+        "wear-mcq-31",
+        "wear-mcq-35",
+        "wear-mcq-26"
       ],
       "explanation": "本句的「wore down」指「磨薄／磨低」。",
       "sentenceIndex": 21,
@@ -1399,12 +1313,10 @@ export default {
         "wore down"
       ],
       "optionReasons": {
-        "wear-mcq-12": "本句指「磨薄／磨低」。",
-        "wear-mcq-11": "「磨掉；侵蝕」是「wear away」的用法，與本句語境不同。",
-        "wear-mcq-13": "「消磨某人」是「wear someone down」的用法，與本句語境不同。",
-        "wear-mcq-10": "「把某物磨平／磨光」是「wear something smooth」的用法，與本句語境不同。",
-        "wear-mcq-14": "「磨到某人讓步」是「wear someone down into agreeing」的用法，與本句語境不同。",
-        "wear-mcq-09": "「磨損」是「wear (material)」的用法，與本句語境不同。"
+        "wear-mcq-12": "本句的「wore down」指「磨薄／磨低」。",
+        "wear-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-12"
     },
@@ -1416,11 +1328,9 @@ export default {
       "masked": "Months of uncertainty slowly ____.",
       "options": [
         "wear-mcq-13",
-        "wear-mcq-12",
-        "wear-mcq-14",
-        "wear-mcq-11",
-        "wear-mcq-15",
-        "wear-mcq-10"
+        "wear-mcq-23",
+        "wear-mcq-07",
+        "wear-mcq-06"
       ],
       "explanation": "本句的「wore her down」指「消磨某人」。",
       "sentenceIndex": 22,
@@ -1429,12 +1339,10 @@ export default {
         "wore her down"
       ],
       "optionReasons": {
-        "wear-mcq-13": "本句指「消磨某人」。",
-        "wear-mcq-12": "「磨薄／磨低」是「wear something down」的用法，與本句語境不同。",
-        "wear-mcq-14": "「磨到某人讓步」是「wear someone down into agreeing」的用法，與本句語境不同。",
-        "wear-mcq-11": "「磨掉；侵蝕」是「wear away」的用法，與本句語境不同。",
-        "wear-mcq-15": "「穿破；用壞」是「wear out (object)」的用法，與本句語境不同。",
-        "wear-mcq-10": "「把某物磨平／磨光」是「wear something smooth」的用法，與本句語境不同。"
+        "wear-mcq-13": "本句的「wore her down」指「消磨某人」。",
+        "wear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-13"
     },
@@ -1446,11 +1354,9 @@ export default {
       "masked": "The constant arguments eventually ____.",
       "options": [
         "wear-mcq-13",
-        "wear-mcq-12",
-        "wear-mcq-14",
-        "wear-mcq-11",
-        "wear-mcq-15",
-        "wear-mcq-10"
+        "wear-mcq-22",
+        "wear-mcq-30",
+        "wear-mcq-34"
       ],
       "explanation": "本句的「wore him down」指「消磨某人」。",
       "sentenceIndex": 23,
@@ -1459,12 +1365,10 @@ export default {
         "wore him down"
       ],
       "optionReasons": {
-        "wear-mcq-13": "本句指「消磨某人」。",
-        "wear-mcq-12": "「磨薄／磨低」是「wear something down」的用法，與本句語境不同。",
-        "wear-mcq-14": "「磨到某人讓步」是「wear someone down into agreeing」的用法，與本句語境不同。",
-        "wear-mcq-11": "「磨掉；侵蝕」是「wear away」的用法，與本句語境不同。",
-        "wear-mcq-15": "「穿破；用壞」是「wear out (object)」的用法，與本句語境不同。",
-        "wear-mcq-10": "「把某物磨平／磨光」是「wear something smooth」的用法，與本句語境不同。"
+        "wear-mcq-13": "本句的「wore him down」指「消磨某人」。",
+        "wear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-13"
     },
@@ -1476,11 +1380,9 @@ export default {
       "masked": "The children kept asking until they finally ____.",
       "options": [
         "wear-mcq-14",
-        "wear-mcq-13",
-        "wear-mcq-15",
-        "wear-mcq-12",
-        "wear-mcq-16",
-        "wear-mcq-11"
+        "wear-mcq-30",
+        "wear-mcq-33",
+        "wear-mcq-24"
       ],
       "explanation": "本句的「wore their parents down」指「磨到某人讓步」。",
       "sentenceIndex": 24,
@@ -1489,12 +1391,10 @@ export default {
         "wore their parents down"
       ],
       "optionReasons": {
-        "wear-mcq-14": "本句指「磨到某人讓步」。",
-        "wear-mcq-13": "「消磨某人」是「wear someone down」的用法，與本句語境不同。",
-        "wear-mcq-15": "「穿破；用壞」是「wear out (object)」的用法，與本句語境不同。",
-        "wear-mcq-12": "「磨薄／磨低」是「wear something down」的用法，與本句語境不同。",
-        "wear-mcq-16": "「嚴重磨損的」是「worn out (object)」的用法，與本句語境不同。",
-        "wear-mcq-11": "「磨掉；侵蝕」是「wear away」的用法，與本句語境不同。"
+        "wear-mcq-14": "本句的「wore their parents down」指「磨到某人讓步」。",
+        "wear-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-14"
     },
@@ -1506,11 +1406,9 @@ export default {
       "masked": "He eventually ____ and I agreed to go.",
       "options": [
         "wear-mcq-14",
-        "wear-mcq-13",
-        "wear-mcq-15",
-        "wear-mcq-12",
-        "wear-mcq-16",
-        "wear-mcq-11"
+        "wear-mcq-35",
+        "wear-mcq-36",
+        "wear-mcq-07"
       ],
       "explanation": "本句的「wore me down」指「磨到某人讓步」。",
       "sentenceIndex": 25,
@@ -1519,12 +1417,10 @@ export default {
         "wore me down"
       ],
       "optionReasons": {
-        "wear-mcq-14": "本句指「磨到某人讓步」。",
-        "wear-mcq-13": "「消磨某人」是「wear someone down」的用法，與本句語境不同。",
-        "wear-mcq-15": "「穿破；用壞」是「wear out (object)」的用法，與本句語境不同。",
-        "wear-mcq-12": "「磨薄／磨低」是「wear something down」的用法，與本句語境不同。",
-        "wear-mcq-16": "「嚴重磨損的」是「worn out (object)」的用法，與本句語境不同。",
-        "wear-mcq-11": "「磨掉；侵蝕」是「wear away」的用法，與本句語境不同。"
+        "wear-mcq-14": "本句的「wore me down」指「磨到某人讓步」。",
+        "wear-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-14"
     },
@@ -1536,11 +1432,9 @@ export default {
       "masked": "I've ____ my favourite shoes.",
       "options": [
         "wear-mcq-15",
-        "wear-mcq-14",
-        "wear-mcq-16",
-        "wear-mcq-13",
-        "wear-mcq-17",
-        "wear-mcq-12"
+        "wear-mcq-05",
+        "wear-mcq-24",
+        "wear-mcq-16"
       ],
       "explanation": "本句的「worn out」指「穿破；用壞」。",
       "sentenceIndex": 26,
@@ -1549,12 +1443,10 @@ export default {
         "worn out"
       ],
       "optionReasons": {
-        "wear-mcq-15": "本句指「穿破；用壞」。",
-        "wear-mcq-14": "「磨到某人讓步」是「wear someone down into agreeing」的用法，與本句語境不同。",
-        "wear-mcq-16": "「嚴重磨損的」是「worn out (object)」的用法，與本句語境不同。",
-        "wear-mcq-13": "「消磨某人」是「wear someone down」的用法，與本句語境不同。",
-        "wear-mcq-17": "「把某人累壞」是「wear someone out」的用法，與本句語境不同。",
-        "wear-mcq-12": "「磨薄／磨低」是「wear something down」的用法，與本句語境不同。"
+        "wear-mcq-15": "本句的「worn out」指「穿破；用壞」。",
+        "wear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-15"
     },
@@ -1566,11 +1458,9 @@ export default {
       "masked": "The machine eventually ____ after years of use.",
       "options": [
         "wear-mcq-15",
-        "wear-mcq-14",
-        "wear-mcq-16",
-        "wear-mcq-13",
-        "wear-mcq-17",
-        "wear-mcq-12"
+        "wear-mcq-26",
+        "wear-mcq-34",
+        "wear-mcq-05"
       ],
       "explanation": "本句的「wore out」指「穿破；用壞」。",
       "sentenceIndex": 27,
@@ -1579,12 +1469,10 @@ export default {
         "wore out"
       ],
       "optionReasons": {
-        "wear-mcq-15": "本句指「穿破；用壞」。",
-        "wear-mcq-14": "「磨到某人讓步」是「wear someone down into agreeing」的用法，與本句語境不同。",
-        "wear-mcq-16": "「嚴重磨損的」是「worn out (object)」的用法，與本句語境不同。",
-        "wear-mcq-13": "「消磨某人」是「wear someone down」的用法，與本句語境不同。",
-        "wear-mcq-17": "「把某人累壞」是「wear someone out」的用法，與本句語境不同。",
-        "wear-mcq-12": "「磨薄／磨低」是「wear something down」的用法，與本句語境不同。"
+        "wear-mcq-15": "本句的「wore out」指「穿破；用壞」。",
+        "wear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-15"
     },
@@ -1596,11 +1484,9 @@ export default {
       "masked": "These shoes are completely ____.",
       "options": [
         "wear-mcq-16",
-        "wear-mcq-15",
-        "wear-mcq-17",
-        "wear-mcq-14",
-        "wear-mcq-18",
-        "wear-mcq-13"
+        "wear-mcq-30",
+        "wear-mcq-33",
+        "wear-mcq-19"
       ],
       "explanation": "本句的「worn out」指「嚴重磨損的」。",
       "sentenceIndex": 28,
@@ -1609,12 +1495,10 @@ export default {
         "worn out"
       ],
       "optionReasons": {
-        "wear-mcq-16": "本句指「嚴重磨損的」。",
-        "wear-mcq-15": "「穿破；用壞」是「wear out (object)」的用法，與本句語境不同。",
-        "wear-mcq-17": "「把某人累壞」是「wear someone out」的用法，與本句語境不同。",
-        "wear-mcq-14": "「磨到某人讓步」是「wear someone down into agreeing」的用法，與本句語境不同。",
-        "wear-mcq-18": "「筋疲力盡的」是「worn out (person)」的用法，與本句語境不同。",
-        "wear-mcq-13": "「消磨某人」是「wear someone down」的用法，與本句語境不同。"
+        "wear-mcq-16": "本句的「worn out」指「嚴重磨損的」。",
+        "wear-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-16"
     },
@@ -1626,11 +1510,9 @@ export default {
       "masked": "We replaced the ____ carpet.",
       "options": [
         "wear-mcq-16",
-        "wear-mcq-15",
-        "wear-mcq-17",
-        "wear-mcq-14",
-        "wear-mcq-18",
-        "wear-mcq-13"
+        "wear-mcq-23",
+        "wear-mcq-33",
+        "wear-mcq-24"
       ],
       "explanation": "本句的「worn-out」指「嚴重磨損的」。",
       "sentenceIndex": 29,
@@ -1639,12 +1521,10 @@ export default {
         "worn-out"
       ],
       "optionReasons": {
-        "wear-mcq-16": "本句指「嚴重磨損的」。",
-        "wear-mcq-15": "「穿破；用壞」是「wear out (object)」的用法，與本句語境不同。",
-        "wear-mcq-17": "「把某人累壞」是「wear someone out」的用法，與本句語境不同。",
-        "wear-mcq-14": "「磨到某人讓步」是「wear someone down into agreeing」的用法，與本句語境不同。",
-        "wear-mcq-18": "「筋疲力盡的」是「worn out (person)」的用法，與本句語境不同。",
-        "wear-mcq-13": "「消磨某人」是「wear someone down」的用法，與本句語境不同。"
+        "wear-mcq-16": "本句的「worn-out」指「嚴重磨損的」。",
+        "wear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-16"
     },
@@ -1656,11 +1536,9 @@ export default {
       "masked": "Some children are active in a way that ____.",
       "options": [
         "wear-mcq-17",
-        "wear-mcq-16",
-        "wear-mcq-18",
-        "wear-mcq-15",
-        "wear-mcq-19",
-        "wear-mcq-14"
+        "wear-pdf-001",
+        "wear-mcq-07",
+        "wear-mcq-10"
       ],
       "explanation": "本句的「wears people out」指「把某人累壞」。",
       "sentenceIndex": 30,
@@ -1669,12 +1547,10 @@ export default {
         "wears people out"
       ],
       "optionReasons": {
-        "wear-mcq-17": "本句指「把某人累壞」。",
-        "wear-mcq-16": "「嚴重磨損的」是「worn out (object)」的用法，與本句語境不同。",
-        "wear-mcq-18": "「筋疲力盡的」是「worn out (person)」的用法，與本句語境不同。",
-        "wear-mcq-15": "「穿破；用壞」是「wear out (object)」的用法，與本句語境不同。",
-        "wear-mcq-19": "「逐漸消退」是「wear off」的用法，與本句語境不同。",
-        "wear-mcq-14": "「磨到某人讓步」是「wear someone down into agreeing」的用法，與本句語境不同。"
+        "wear-mcq-17": "本句的「wears people out」指「把某人累壞」。",
+        "wear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-17"
     },
@@ -1686,11 +1562,9 @@ export default {
       "masked": "Looking after three young children all day really ____.",
       "options": [
         "wear-mcq-17",
-        "wear-mcq-16",
-        "wear-mcq-18",
-        "wear-mcq-15",
         "wear-mcq-19",
-        "wear-mcq-14"
+        "wear-mcq-24",
+        "wear-mcq-11"
       ],
       "explanation": "本句的「wore me out」指「把某人累壞」。",
       "sentenceIndex": 31,
@@ -1699,12 +1573,10 @@ export default {
         "wore me out"
       ],
       "optionReasons": {
-        "wear-mcq-17": "本句指「把某人累壞」。",
-        "wear-mcq-16": "「嚴重磨損的」是「worn out (object)」的用法，與本句語境不同。",
-        "wear-mcq-18": "「筋疲力盡的」是「worn out (person)」的用法，與本句語境不同。",
-        "wear-mcq-15": "「穿破；用壞」是「wear out (object)」的用法，與本句語境不同。",
-        "wear-mcq-19": "「逐漸消退」是「wear off」的用法，與本句語境不同。",
-        "wear-mcq-14": "「磨到某人讓步」是「wear someone down into agreeing」的用法，與本句語境不同。"
+        "wear-mcq-17": "本句的「wore me out」指「把某人累壞」。",
+        "wear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-17"
     },
@@ -1716,11 +1588,9 @@ export default {
       "masked": "The long journey ____.",
       "options": [
         "wear-mcq-17",
-        "wear-mcq-16",
-        "wear-mcq-18",
-        "wear-mcq-15",
-        "wear-mcq-19",
-        "wear-mcq-14"
+        "wear-mcq-05",
+        "wear-mcq-20",
+        "wear-mcq-04"
       ],
       "explanation": "本句的「wore everyone out」指「把某人累壞」。",
       "sentenceIndex": 32,
@@ -1729,12 +1599,10 @@ export default {
         "wore everyone out"
       ],
       "optionReasons": {
-        "wear-mcq-17": "本句指「把某人累壞」。",
-        "wear-mcq-16": "「嚴重磨損的」是「worn out (object)」的用法，與本句語境不同。",
-        "wear-mcq-18": "「筋疲力盡的」是「worn out (person)」的用法，與本句語境不同。",
-        "wear-mcq-15": "「穿破；用壞」是「wear out (object)」的用法，與本句語境不同。",
-        "wear-mcq-19": "「逐漸消退」是「wear off」的用法，與本句語境不同。",
-        "wear-mcq-14": "「磨到某人讓步」是「wear someone down into agreeing」的用法，與本句語境不同。"
+        "wear-mcq-17": "本句的「wore everyone out」指「把某人累壞」。",
+        "wear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-17"
     },
@@ -1746,11 +1614,9 @@ export default {
       "masked": "I'm completely ____ after work.",
       "options": [
         "wear-mcq-18",
-        "wear-mcq-17",
-        "wear-mcq-19",
-        "wear-mcq-16",
-        "wear-mcq-20",
-        "wear-mcq-15"
+        "wear-mcq-12",
+        "wear-mcq-24",
+        "wear-mcq-32"
       ],
       "explanation": "本句的「worn out」指「筋疲力盡的」。",
       "sentenceIndex": 33,
@@ -1759,12 +1625,10 @@ export default {
         "worn out"
       ],
       "optionReasons": {
-        "wear-mcq-18": "本句指「筋疲力盡的」。",
-        "wear-mcq-17": "「把某人累壞」是「wear someone out」的用法，與本句語境不同。",
-        "wear-mcq-19": "「逐漸消退」是「wear off」的用法，與本句語境不同。",
-        "wear-mcq-16": "「嚴重磨損的」是「worn out (object)」的用法，與本句語境不同。",
-        "wear-mcq-20": "「磨薄」是「wear thin (material)」的用法，與本句語境不同。",
-        "wear-mcq-15": "「穿破；用壞」是「wear out (object)」的用法，與本句語境不同。"
+        "wear-mcq-18": "本句的「worn out」指「筋疲力盡的」。",
+        "wear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-18"
     },
@@ -1776,11 +1640,9 @@ export default {
       "masked": "She looked ____ after caring for the baby all night.",
       "options": [
         "wear-mcq-18",
-        "wear-mcq-17",
-        "wear-mcq-19",
-        "wear-mcq-16",
+        "wear-mcq-07",
         "wear-mcq-20",
-        "wear-mcq-15"
+        "wear-mcq-33"
       ],
       "explanation": "本句的「worn out」指「筋疲力盡的」。",
       "sentenceIndex": 34,
@@ -1789,12 +1651,10 @@ export default {
         "worn out"
       ],
       "optionReasons": {
-        "wear-mcq-18": "本句指「筋疲力盡的」。",
-        "wear-mcq-17": "「把某人累壞」是「wear someone out」的用法，與本句語境不同。",
-        "wear-mcq-19": "「逐漸消退」是「wear off」的用法，與本句語境不同。",
-        "wear-mcq-16": "「嚴重磨損的」是「worn out (object)」的用法，與本句語境不同。",
-        "wear-mcq-20": "「磨薄」是「wear thin (material)」的用法，與本句語境不同。",
-        "wear-mcq-15": "「穿破；用壞」是「wear out (object)」的用法，與本句語境不同。"
+        "wear-mcq-18": "本句的「worn out」指「筋疲力盡的」。",
+        "wear-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-18"
     },
@@ -1806,11 +1666,9 @@ export default {
       "masked": "The painkiller is beginning to ____.",
       "options": [
         "wear-mcq-19",
-        "wear-mcq-18",
         "wear-mcq-20",
-        "wear-mcq-17",
-        "wear-mcq-21",
-        "wear-mcq-16"
+        "wear-mcq-36",
+        "wear-mcq-18"
       ],
       "explanation": "本句的「wear off」指「逐漸消退」。",
       "sentenceIndex": 35,
@@ -1819,12 +1677,10 @@ export default {
         "wear off"
       ],
       "optionReasons": {
-        "wear-mcq-19": "本句指「逐漸消退」。",
-        "wear-mcq-18": "「筋疲力盡的」是「worn out (person)」的用法，與本句語境不同。",
-        "wear-mcq-20": "「磨薄」是「wear thin (material)」的用法，與本句語境不同。",
-        "wear-mcq-17": "「把某人累壞」是「wear someone out」的用法，與本句語境不同。",
-        "wear-mcq-21": "「耐性逐漸耗盡」是「patience wears thin」的用法，與本句語境不同。",
-        "wear-mcq-16": "「嚴重磨損的」是「worn out (object)」的用法，與本句語境不同。"
+        "wear-mcq-19": "本句的「wear off」指「逐漸消退」。",
+        "wear-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-19"
     },
@@ -1836,11 +1692,9 @@ export default {
       "masked": "The excitement soon ____.",
       "options": [
         "wear-mcq-19",
-        "wear-mcq-18",
-        "wear-mcq-20",
-        "wear-mcq-17",
-        "wear-mcq-21",
-        "wear-mcq-16"
+        "wear-mcq-10",
+        "wear-mcq-24",
+        "wear-mcq-23"
       ],
       "explanation": "本句的「wore off」指「逐漸消退」。",
       "sentenceIndex": 36,
@@ -1849,12 +1703,10 @@ export default {
         "wore off"
       ],
       "optionReasons": {
-        "wear-mcq-19": "本句指「逐漸消退」。",
-        "wear-mcq-18": "「筋疲力盡的」是「worn out (person)」的用法，與本句語境不同。",
-        "wear-mcq-20": "「磨薄」是「wear thin (material)」的用法，與本句語境不同。",
-        "wear-mcq-17": "「把某人累壞」是「wear someone out」的用法，與本句語境不同。",
-        "wear-mcq-21": "「耐性逐漸耗盡」是「patience wears thin」的用法，與本句語境不同。",
-        "wear-mcq-16": "「嚴重磨損的」是「worn out (object)」的用法，與本句語境不同。"
+        "wear-mcq-19": "本句的「wore off」指「逐漸消退」。",
+        "wear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-19"
     },
@@ -1866,11 +1718,9 @@ export default {
       "masked": "The fabric has ____ at the elbows.",
       "options": [
         "wear-mcq-20",
+        "wear-mcq-30",
         "wear-mcq-19",
-        "wear-mcq-21",
-        "wear-mcq-18",
-        "wear-mcq-22",
-        "wear-mcq-17"
+        "wear-mcq-22"
       ],
       "explanation": "本句的「worn thin」指「磨薄」。",
       "sentenceIndex": 37,
@@ -1879,12 +1729,10 @@ export default {
         "worn thin"
       ],
       "optionReasons": {
-        "wear-mcq-20": "本句指「磨薄」。",
-        "wear-mcq-19": "「逐漸消退」是「wear off」的用法，與本句語境不同。",
-        "wear-mcq-21": "「耐性逐漸耗盡」是「patience wears thin」的用法，與本句語境不同。",
-        "wear-mcq-18": "「筋疲力盡的」是「worn out (person)」的用法，與本句語境不同。",
-        "wear-mcq-22": "「藉口愈來愈站不住腳」是「excuses wear thin」的用法，與本句語境不同。",
-        "wear-mcq-17": "「把某人累壞」是「wear someone out」的用法，與本句語境不同。"
+        "wear-mcq-20": "本句的「worn thin」指「磨薄」。",
+        "wear-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-20"
     },
@@ -1896,9 +1744,7 @@ export default {
       "masked": "The soles of his shoes were ____.",
       "options": [
         "wear-mcq-20",
-        "wear-mcq-19",
-        "wear-mcq-21",
-        "wear-mcq-18",
+        "wear-mcq-36",
         "wear-mcq-22",
         "wear-mcq-17"
       ],
@@ -1909,12 +1755,10 @@ export default {
         "wearing thin"
       ],
       "optionReasons": {
-        "wear-mcq-20": "本句指「磨薄」。",
-        "wear-mcq-19": "「逐漸消退」是「wear off」的用法，與本句語境不同。",
-        "wear-mcq-21": "「耐性逐漸耗盡」是「patience wears thin」的用法，與本句語境不同。",
-        "wear-mcq-18": "「筋疲力盡的」是「worn out (person)」的用法，與本句語境不同。",
-        "wear-mcq-22": "「藉口愈來愈站不住腳」是「excuses wear thin」的用法，與本句語境不同。",
-        "wear-mcq-17": "「把某人累壞」是「wear someone out」的用法，與本句語境不同。"
+        "wear-mcq-20": "本句的「wearing thin」指「磨薄」。",
+        "wear-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-20"
     },
@@ -1926,11 +1770,9 @@ export default {
       "masked": "My patience is beginning to ____.",
       "options": [
         "wear-mcq-22",
-        "wear-mcq-21",
-        "wear-mcq-23",
-        "wear-mcq-20",
-        "wear-mcq-24",
-        "wear-mcq-19"
+        "wear-mcq-36",
+        "wear-mcq-25",
+        "wear-mcq-06"
       ],
       "explanation": "本句的「wear thin」指「藉口愈來愈站不住腳」。",
       "sentenceIndex": 39,
@@ -1939,12 +1781,10 @@ export default {
         "wear thin"
       ],
       "optionReasons": {
-        "wear-mcq-22": "本句指「藉口愈來愈站不住腳」。",
-        "wear-mcq-21": "「耐性逐漸耗盡」是「patience wears thin」的用法，與本句語境不同。",
-        "wear-mcq-23": "「耐用；耐穿」是「wear well (object)」的用法，與本句語境不同。",
-        "wear-mcq-20": "「磨薄」是「wear thin (material)」的用法，與本句語境不同。",
-        "wear-mcq-24": "「保養得好；不顯老」是「wear well (person)」的用法，與本句語境不同。",
-        "wear-mcq-19": "「逐漸消退」是「wear off」的用法，與本句語境不同。"
+        "wear-mcq-22": "本句的「wear thin」指「藉口愈來愈站不住腳」。",
+        "wear-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-22"
     },
@@ -1956,11 +1796,9 @@ export default {
       "masked": "His excuses are ____.",
       "options": [
         "wear-mcq-22",
-        "wear-mcq-21",
-        "wear-mcq-23",
+        "wear-mcq-06",
         "wear-mcq-20",
-        "wear-mcq-24",
-        "wear-mcq-19"
+        "wear-mcq-18"
       ],
       "explanation": "本句的「wearing thin」指「藉口愈來愈站不住腳」。",
       "sentenceIndex": 40,
@@ -1969,12 +1807,10 @@ export default {
         "wearing thin"
       ],
       "optionReasons": {
-        "wear-mcq-22": "本句指「藉口愈來愈站不住腳」。",
-        "wear-mcq-21": "「耐性逐漸耗盡」是「patience wears thin」的用法，與本句語境不同。",
-        "wear-mcq-23": "「耐用；耐穿」是「wear well (object)」的用法，與本句語境不同。",
-        "wear-mcq-20": "「磨薄」是「wear thin (material)」的用法，與本句語境不同。",
-        "wear-mcq-24": "「保養得好；不顯老」是「wear well (person)」的用法，與本句語境不同。",
-        "wear-mcq-19": "「逐漸消退」是「wear off」的用法，與本句語境不同。"
+        "wear-mcq-22": "本句的「wearing thin」指「藉口愈來愈站不住腳」。",
+        "wear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-22"
     },
@@ -1986,11 +1822,9 @@ export default {
       "masked": "This material ____.",
       "options": [
         "wear-mcq-23",
-        "wear-mcq-22",
-        "wear-mcq-24",
-        "wear-mcq-21",
-        "wear-mcq-25",
-        "wear-mcq-20"
+        "wear-mcq-17",
+        "wear-mcq-05",
+        "wear-mcq-24"
       ],
       "explanation": "本句的「wears well」指「耐用；耐穿」。",
       "sentenceIndex": 41,
@@ -1999,12 +1833,10 @@ export default {
         "wears well"
       ],
       "optionReasons": {
-        "wear-mcq-23": "本句指「耐用；耐穿」。",
-        "wear-mcq-22": "「藉口愈來愈站不住腳」是「excuses wear thin」的用法，與本句語境不同。",
-        "wear-mcq-24": "「保養得好；不顯老」是「wear well (person)」的用法，與本句語境不同。",
-        "wear-mcq-21": "「耐性逐漸耗盡」是「patience wears thin」的用法，與本句語境不同。",
-        "wear-mcq-25": "「磨損；損耗」是「wear (noun)」的用法，與本句語境不同。",
-        "wear-mcq-20": "「磨薄」是「wear thin (material)」的用法，與本句語境不同。"
+        "wear-mcq-23": "本句的「wears well」指「耐用；耐穿」。",
+        "wear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-23"
     },
@@ -2016,11 +1848,9 @@ export default {
       "masked": "Good leather shoes usually ____.",
       "options": [
         "wear-mcq-23",
-        "wear-mcq-22",
-        "wear-mcq-24",
-        "wear-mcq-21",
-        "wear-mcq-25",
-        "wear-mcq-20"
+        "wear-mcq-35",
+        "wear-mcq-05",
+        "wear-mcq-34"
       ],
       "explanation": "本句的「wear well」指「耐用；耐穿」。",
       "sentenceIndex": 42,
@@ -2029,12 +1859,10 @@ export default {
         "wear well"
       ],
       "optionReasons": {
-        "wear-mcq-23": "本句指「耐用；耐穿」。",
-        "wear-mcq-22": "「藉口愈來愈站不住腳」是「excuses wear thin」的用法，與本句語境不同。",
-        "wear-mcq-24": "「保養得好；不顯老」是「wear well (person)」的用法，與本句語境不同。",
-        "wear-mcq-21": "「耐性逐漸耗盡」是「patience wears thin」的用法，與本句語境不同。",
-        "wear-mcq-25": "「磨損；損耗」是「wear (noun)」的用法，與本句語境不同。",
-        "wear-mcq-20": "「磨薄」是「wear thin (material)」的用法，與本句語境不同。"
+        "wear-mcq-23": "本句的「wear well」指「耐用；耐穿」。",
+        "wear-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-23"
     },
@@ -2046,11 +1874,9 @@ export default {
       "masked": "She has ____ and looks much younger than her age.",
       "options": [
         "wear-mcq-24",
-        "wear-mcq-23",
-        "wear-mcq-25",
-        "wear-mcq-22",
-        "wear-mcq-26",
-        "wear-mcq-21"
+        "wear-mcq-20",
+        "wear-mcq-32",
+        "wear-mcq-22"
       ],
       "explanation": "本句的「worn well」指「保養得好；不顯老」。",
       "sentenceIndex": 43,
@@ -2059,12 +1885,10 @@ export default {
         "worn well"
       ],
       "optionReasons": {
-        "wear-mcq-24": "本句指「保養得好；不顯老」。",
-        "wear-mcq-23": "「耐用；耐穿」是「wear well (object)」的用法，與本句語境不同。",
-        "wear-mcq-25": "「磨損；損耗」是「wear (noun)」的用法，與本句語境不同。",
-        "wear-mcq-22": "「藉口愈來愈站不住腳」是「excuses wear thin」的用法，與本句語境不同。",
-        "wear-mcq-26": "「日常損耗」是「wear and tear」的用法，與本句語境不同。",
-        "wear-mcq-21": "「耐性逐漸耗盡」是「patience wears thin」的用法，與本句語境不同。"
+        "wear-mcq-24": "本句的「worn well」指「保養得好；不顯老」。",
+        "wear-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-24"
     },
@@ -2076,11 +1900,9 @@ export default {
       "masked": "He has ____ over the years.",
       "options": [
         "wear-mcq-24",
-        "wear-mcq-23",
-        "wear-mcq-25",
-        "wear-mcq-22",
-        "wear-mcq-26",
-        "wear-mcq-21"
+        "wear-mcq-32",
+        "wear-mcq-34",
+        "wear-mcq-14"
       ],
       "explanation": "本句的「worn well」指「保養得好；不顯老」。",
       "sentenceIndex": 44,
@@ -2089,12 +1911,10 @@ export default {
         "worn well"
       ],
       "optionReasons": {
-        "wear-mcq-24": "本句指「保養得好；不顯老」。",
-        "wear-mcq-23": "「耐用；耐穿」是「wear well (object)」的用法，與本句語境不同。",
-        "wear-mcq-25": "「磨損；損耗」是「wear (noun)」的用法，與本句語境不同。",
-        "wear-mcq-22": "「藉口愈來愈站不住腳」是「excuses wear thin」的用法，與本句語境不同。",
-        "wear-mcq-26": "「日常損耗」是「wear and tear」的用法，與本句語境不同。",
-        "wear-mcq-21": "「耐性逐漸耗盡」是「patience wears thin」的用法，與本句語境不同。"
+        "wear-mcq-24": "本句的「worn well」指「保養得好；不顯老」。",
+        "wear-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-24"
     },
@@ -2106,11 +1926,9 @@ export default {
       "masked": "Cheap fabric often ____.",
       "options": [
         "wear-mcq-25",
-        "wear-mcq-24",
-        "wear-mcq-26",
-        "wear-mcq-23",
-        "wear-mcq-27",
-        "wear-mcq-22"
+        "wear-mcq-15",
+        "wear-mcq-07",
+        "wear-mcq-34"
       ],
       "explanation": "本句的「wears badly」指「磨損；損耗」。",
       "sentenceIndex": 45,
@@ -2119,12 +1937,10 @@ export default {
         "wears badly"
       ],
       "optionReasons": {
-        "wear-mcq-25": "本句指「磨損；損耗」。",
-        "wear-mcq-24": "「保養得好；不顯老」是「wear well (person)」的用法，與本句語境不同。",
-        "wear-mcq-26": "「日常損耗」是「wear and tear」的用法，與本句語境不同。",
-        "wear-mcq-23": "「耐用；耐穿」是「wear well (object)」的用法，與本句語境不同。",
-        "wear-mcq-27": "「運動服」是「sportswear」的用法，與本句語境不同。",
-        "wear-mcq-22": "「藉口愈來愈站不住腳」是「excuses wear thin」的用法，與本句語境不同。"
+        "wear-mcq-25": "本句的「wears badly」指「磨損；損耗」。",
+        "wear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-25"
     },
@@ -2136,11 +1952,9 @@ export default {
       "masked": "These shoes have ____ after only a few months.",
       "options": [
         "wear-mcq-25",
-        "wear-mcq-24",
-        "wear-mcq-26",
-        "wear-mcq-23",
-        "wear-mcq-27",
-        "wear-mcq-22"
+        "wear-mcq-33",
+        "wear-mcq-19",
+        "wear-mcq-32"
       ],
       "explanation": "本句的「worn badly」指「磨損；損耗」。",
       "sentenceIndex": 46,
@@ -2149,12 +1963,10 @@ export default {
         "worn badly"
       ],
       "optionReasons": {
-        "wear-mcq-25": "本句指「磨損；損耗」。",
-        "wear-mcq-24": "「保養得好；不顯老」是「wear well (person)」的用法，與本句語境不同。",
-        "wear-mcq-26": "「日常損耗」是「wear and tear」的用法，與本句語境不同。",
-        "wear-mcq-23": "「耐用；耐穿」是「wear well (object)」的用法，與本句語境不同。",
-        "wear-mcq-27": "「運動服」是「sportswear」的用法，與本句語境不同。",
-        "wear-mcq-22": "「藉口愈來愈站不住腳」是「excuses wear thin」的用法，與本句語境不同。"
+        "wear-mcq-25": "本句的「worn badly」指「磨損；損耗」。",
+        "wear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-25"
     },
@@ -2166,11 +1978,9 @@ export default {
       "masked": "The tyres showed signs of ____.",
       "options": [
         "wear-mcq-25",
-        "wear-mcq-24",
-        "wear-mcq-26",
-        "wear-mcq-23",
-        "wear-mcq-27",
-        "wear-mcq-22"
+        "wear-mcq-19",
+        "wear-mcq-04",
+        "wear-mcq-34"
       ],
       "explanation": "本句的「wear」指「磨損；損耗」。",
       "sentenceIndex": 47,
@@ -2179,12 +1989,10 @@ export default {
         "wear"
       ],
       "optionReasons": {
-        "wear-mcq-25": "本句指「磨損；損耗」。",
-        "wear-mcq-24": "「保養得好；不顯老」是「wear well (person)」的用法，與本句語境不同。",
-        "wear-mcq-26": "「日常損耗」是「wear and tear」的用法，與本句語境不同。",
-        "wear-mcq-23": "「耐用；耐穿」是「wear well (object)」的用法，與本句語境不同。",
-        "wear-mcq-27": "「運動服」是「sportswear」的用法，與本句語境不同。",
-        "wear-mcq-22": "「藉口愈來愈站不住腳」是「excuses wear thin」的用法，與本句語境不同。"
+        "wear-mcq-25": "本句的「wear」指「磨損；損耗」。",
+        "wear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-25"
     },
@@ -2196,11 +2004,9 @@ export default {
       "masked": "Regular maintenance can reduce ____ on the engine.",
       "options": [
         "wear-mcq-25",
-        "wear-mcq-24",
-        "wear-mcq-26",
-        "wear-mcq-23",
-        "wear-mcq-27",
-        "wear-mcq-22"
+        "wear-mcq-31",
+        "wear-mcq-07",
+        "wear-mcq-01"
       ],
       "explanation": "本句的「wear」指「磨損；損耗」。",
       "sentenceIndex": 48,
@@ -2209,12 +2015,10 @@ export default {
         "wear"
       ],
       "optionReasons": {
-        "wear-mcq-25": "本句指「磨損；損耗」。",
-        "wear-mcq-24": "「保養得好；不顯老」是「wear well (person)」的用法，與本句語境不同。",
-        "wear-mcq-26": "「日常損耗」是「wear and tear」的用法，與本句語境不同。",
-        "wear-mcq-23": "「耐用；耐穿」是「wear well (object)」的用法，與本句語境不同。",
-        "wear-mcq-27": "「運動服」是「sportswear」的用法，與本句語境不同。",
-        "wear-mcq-22": "「藉口愈來愈站不住腳」是「excuses wear thin」的用法，與本句語境不同。"
+        "wear-mcq-25": "本句的「wear」指「磨損；損耗」。",
+        "wear-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-25"
     },
@@ -2226,11 +2030,9 @@ export default {
       "masked": "The furniture has suffered a lot of ____.",
       "options": [
         "wear-mcq-26",
-        "wear-mcq-25",
-        "wear-mcq-27",
-        "wear-mcq-24",
-        "wear-mcq-28",
-        "wear-mcq-23"
+        "wear-mcq-05",
+        "wear-pdf-001",
+        "wear-mcq-20"
       ],
       "explanation": "本句的「wear and tear」指「日常損耗」。",
       "sentenceIndex": 49,
@@ -2239,12 +2041,10 @@ export default {
         "wear and tear"
       ],
       "optionReasons": {
-        "wear-mcq-26": "本句指「日常損耗」。",
-        "wear-mcq-25": "「磨損；損耗」是「wear (noun)」的用法，與本句語境不同。",
-        "wear-mcq-27": "「運動服」是「sportswear」的用法，與本句語境不同。",
-        "wear-mcq-24": "「保養得好；不顯老」是「wear well (person)」的用法，與本句語境不同。",
-        "wear-mcq-28": "「正式服裝」是「formal wear」的用法，與本句語境不同。",
-        "wear-mcq-23": "「耐用；耐穿」是「wear well (object)」的用法，與本句語境不同。"
+        "wear-mcq-26": "本句的「wear and tear」指「日常損耗」。",
+        "wear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-26"
     },
@@ -2256,11 +2056,9 @@ export default {
       "masked": "The landlord accepts normal ____.",
       "options": [
         "wear-mcq-26",
-        "wear-mcq-25",
-        "wear-mcq-27",
-        "wear-mcq-24",
-        "wear-mcq-28",
-        "wear-mcq-23"
+        "wear-mcq-31",
+        "wear-mcq-05",
+        "wear-mcq-22"
       ],
       "explanation": "本句的「wear and tear」指「日常損耗」。",
       "sentenceIndex": 50,
@@ -2269,12 +2067,10 @@ export default {
         "wear and tear"
       ],
       "optionReasons": {
-        "wear-mcq-26": "本句指「日常損耗」。",
-        "wear-mcq-25": "「磨損；損耗」是「wear (noun)」的用法，與本句語境不同。",
-        "wear-mcq-27": "「運動服」是「sportswear」的用法，與本句語境不同。",
-        "wear-mcq-24": "「保養得好；不顯老」是「wear well (person)」的用法，與本句語境不同。",
-        "wear-mcq-28": "「正式服裝」是「formal wear」的用法，與本句語境不同。",
-        "wear-mcq-23": "「耐用；耐穿」是「wear well (object)」的用法，與本句語境不同。"
+        "wear-mcq-26": "本句的「wear and tear」指「日常損耗」。",
+        "wear-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-26"
     },
@@ -2286,11 +2082,9 @@ export default {
       "masked": "The shop specializes in ____.",
       "options": [
         "wear-mcq-36",
-        "wear-mcq-35",
-        "wear-mcq-34",
-        "wear-mcq-33",
-        "wear-mcq-32",
-        "wear-mcq-31"
+        "wear-mcq-14",
+        "wear-mcq-07",
+        "wear-mcq-22"
       ],
       "explanation": "本句的「sportswear」指「某一用途、場合或類別的衣服／穿戴物」。",
       "sentenceIndex": 51,
@@ -2299,12 +2093,10 @@ export default {
         "sportswear"
       ],
       "optionReasons": {
-        "wear-mcq-36": "本句指「某一用途、場合或類別的衣服／穿戴物」。",
-        "wear-mcq-35": "「因長期使用、摩擦或時間而逐漸受損」是「8. wear（物件因使用而磨損） — 磨損；磨蝕」的用法，與本句語境不同。",
-        "wear-mcq-34": "「持續呈現某種可見的外表、神情或氣質」是「7. wear a particular appearance/style — 呈現；帶有某種外在形象」的用法，與本句語境不同。",
-        "wear-mcq-33": "「臉上顯露出某種情緒或態度」是「6. wear a look of confidence/sadness etc. — 顯露某種神情」的用法，與本句語境不同。",
-        "wear-mcq-32": "「穿戴者」是「wearer」的用法，與本句語境不同。",
-        "wear-mcq-31": "「穿戴式裝置」是「wearable (n.)」的用法，與本句語境不同。"
+        "wear-mcq-36": "本句的「sportswear」指「某一用途、場合或類別的衣服／穿戴物」。",
+        "wear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-36"
     },
@@ -2316,11 +2108,9 @@ export default {
       "masked": "Guests are expected to wear ____ in the evening.",
       "options": [
         "wear-mcq-36",
-        "wear-mcq-35",
-        "wear-mcq-34",
-        "wear-mcq-33",
-        "wear-mcq-32",
-        "wear-mcq-31"
+        "wear-mcq-05",
+        "wear-mcq-10",
+        "wear-mcq-06"
       ],
       "explanation": "本句的「formal wear」指「某一用途、場合或類別的衣服／穿戴物」。",
       "sentenceIndex": 52,
@@ -2329,12 +2119,10 @@ export default {
         "formal wear"
       ],
       "optionReasons": {
-        "wear-mcq-36": "本句指「某一用途、場合或類別的衣服／穿戴物」。",
-        "wear-mcq-35": "「因長期使用、摩擦或時間而逐漸受損」是「8. wear（物件因使用而磨損） — 磨損；磨蝕」的用法，與本句語境不同。",
-        "wear-mcq-34": "「持續呈現某種可見的外表、神情或氣質」是「7. wear a particular appearance/style — 呈現；帶有某種外在形象」的用法，與本句語境不同。",
-        "wear-mcq-33": "「臉上顯露出某種情緒或態度」是「6. wear a look of confidence/sadness etc. — 顯露某種神情」的用法，與本句語境不同。",
-        "wear-mcq-32": "「穿戴者」是「wearer」的用法，與本句語境不同。",
-        "wear-mcq-31": "「穿戴式裝置」是「wearable (n.)」的用法，與本句語境不同。"
+        "wear-mcq-36": "本句的「formal wear」指「某一用途、場合或類別的衣服／穿戴物」。",
+        "wear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-36"
     },
@@ -2346,11 +2134,9 @@ export default {
       "masked": "These trousers are designed for ____.",
       "options": [
         "wear-pdf-001",
-        "wear-mcq-27",
-        "wear-mcq-29",
-        "wear-mcq-26",
-        "wear-mcq-30",
-        "wear-mcq-25"
+        "wear-mcq-18",
+        "wear-mcq-12",
+        "wear-mcq-34"
       ],
       "explanation": "本句的「everyday wear」指「作某種用途穿着的衣服或服裝類別」。",
       "sentenceIndex": 53,
@@ -2359,12 +2145,10 @@ export default {
         "everyday wear"
       ],
       "optionReasons": {
-        "wear-pdf-001": "本句指「作某種用途穿着的衣服或服裝類別」。",
-        "wear-mcq-27": "「運動服」是「sportswear」的用法，與本句語境不同。",
-        "wear-mcq-29": "「鞋類」是「footwear」的用法，與本句語境不同。",
-        "wear-mcq-26": "「日常損耗」是「wear and tear」的用法，與本句語境不同。",
-        "wear-mcq-30": "「可穿戴的」是「wearable (adj.)」的用法，與本句語境不同。",
-        "wear-mcq-25": "「磨損；損耗」是「wear (noun)」的用法，與本句語境不同。"
+        "wear-pdf-001": "本句的「everyday wear」指「作某種用途穿着的衣服或服裝類別」。",
+        "wear-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-pdf-001"
     },
@@ -2376,11 +2160,9 @@ export default {
       "masked": "The shoes are comfortable enough for ____.",
       "options": [
         "wear-pdf-001",
-        "wear-mcq-27",
-        "wear-mcq-29",
-        "wear-mcq-26",
-        "wear-mcq-30",
-        "wear-mcq-25"
+        "wear-mcq-14",
+        "wear-mcq-05",
+        "wear-mcq-34"
       ],
       "explanation": "本句的「everyday wear」指「作某種用途穿着的衣服或服裝類別」。",
       "sentenceIndex": 54,
@@ -2389,12 +2171,10 @@ export default {
         "everyday wear"
       ],
       "optionReasons": {
-        "wear-pdf-001": "本句指「作某種用途穿着的衣服或服裝類別」。",
-        "wear-mcq-27": "「運動服」是「sportswear」的用法，與本句語境不同。",
-        "wear-mcq-29": "「鞋類」是「footwear」的用法，與本句語境不同。",
-        "wear-mcq-26": "「日常損耗」是「wear and tear」的用法，與本句語境不同。",
-        "wear-mcq-30": "「可穿戴的」是「wearable (adj.)」的用法，與本句語境不同。",
-        "wear-mcq-25": "「磨損；損耗」是「wear (noun)」的用法，與本句語境不同。"
+        "wear-pdf-001": "本句的「everyday wear」指「作某種用途穿着的衣服或服裝類別」。",
+        "wear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-pdf-001"
     },
@@ -2406,11 +2186,9 @@ export default {
       "masked": "The designer creates stylish but ____ clothes.",
       "options": [
         "wear-mcq-30",
-        "wear-mcq-29",
-        "wear-mcq-31",
-        "wear-mcq-28",
-        "wear-mcq-32",
-        "wear-mcq-27"
+        "wear-mcq-13",
+        "wear-mcq-26",
+        "wear-mcq-18"
       ],
       "explanation": "本句的「wearable」指「可穿戴的」。",
       "sentenceIndex": 55,
@@ -2419,12 +2197,10 @@ export default {
         "wearable"
       ],
       "optionReasons": {
-        "wear-mcq-30": "本句指「可穿戴的」。",
-        "wear-mcq-29": "「鞋類」是「footwear」的用法，與本句語境不同。",
-        "wear-mcq-31": "「穿戴式裝置」是「wearable (n.)」的用法，與本句語境不同。",
-        "wear-mcq-28": "「正式服裝」是「formal wear」的用法，與本句語境不同。",
-        "wear-mcq-32": "「穿戴者」是「wearer」的用法，與本句語境不同。",
-        "wear-mcq-27": "「運動服」是「sportswear」的用法，與本句語境不同。"
+        "wear-mcq-30": "本句的「wearable」指「可穿戴的」。",
+        "wear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-30"
     },
@@ -2436,11 +2212,9 @@ export default {
       "masked": "The device is small enough to be ____.",
       "options": [
         "wear-mcq-30",
-        "wear-mcq-29",
-        "wear-mcq-31",
-        "wear-mcq-28",
-        "wear-mcq-32",
-        "wear-mcq-27"
+        "wear-mcq-14",
+        "wear-mcq-26",
+        "wear-mcq-06"
       ],
       "explanation": "本句的「wearable」指「可穿戴的」。",
       "sentenceIndex": 56,
@@ -2449,12 +2223,10 @@ export default {
         "wearable"
       ],
       "optionReasons": {
-        "wear-mcq-30": "本句指「可穿戴的」。",
-        "wear-mcq-29": "「鞋類」是「footwear」的用法，與本句語境不同。",
-        "wear-mcq-31": "「穿戴式裝置」是「wearable (n.)」的用法，與本句語境不同。",
-        "wear-mcq-28": "「正式服裝」是「formal wear」的用法，與本句語境不同。",
-        "wear-mcq-32": "「穿戴者」是「wearer」的用法，與本句語境不同。",
-        "wear-mcq-27": "「運動服」是「sportswear」的用法，與本句語境不同。"
+        "wear-mcq-30": "本句的「wearable」指「可穿戴的」。",
+        "wear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-30"
     },
@@ -2466,11 +2238,9 @@ export default {
       "masked": "Smartwatches are among the most common ____.",
       "options": [
         "wear-mcq-31",
-        "wear-mcq-30",
-        "wear-mcq-32",
-        "wear-mcq-29",
-        "wear-mcq-33",
-        "wear-mcq-28"
+        "wear-mcq-24",
+        "wear-mcq-20",
+        "wear-mcq-18"
       ],
       "explanation": "本句的「wearables」指「穿戴式裝置」。",
       "sentenceIndex": 57,
@@ -2479,12 +2249,10 @@ export default {
         "wearables"
       ],
       "optionReasons": {
-        "wear-mcq-31": "本句指「穿戴式裝置」。",
-        "wear-mcq-30": "「可穿戴的」是「wearable (adj.)」的用法，與本句語境不同。",
-        "wear-mcq-32": "「穿戴者」是「wearer」的用法，與本句語境不同。",
-        "wear-mcq-29": "「鞋類」是「footwear」的用法，與本句語境不同。",
-        "wear-mcq-33": "「臉上顯露出某種情緒或態度」是「6. wear a look of confidence/sadness etc. — 顯露某種神情」的用法，與本句語境不同。",
-        "wear-mcq-28": "「正式服裝」是「formal wear」的用法，與本句語境不同。"
+        "wear-mcq-31": "本句的「wearables」指「穿戴式裝置」。",
+        "wear-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-31"
     },
@@ -2496,11 +2264,9 @@ export default {
       "masked": "Health ____ can track heart rate and physical activity.",
       "options": [
         "wear-mcq-31",
-        "wear-mcq-30",
-        "wear-mcq-32",
-        "wear-mcq-29",
         "wear-mcq-33",
-        "wear-mcq-28"
+        "wear-mcq-19",
+        "wear-mcq-22"
       ],
       "explanation": "本句的「wearables」指「穿戴式裝置」。",
       "sentenceIndex": 58,
@@ -2509,12 +2275,10 @@ export default {
         "wearables"
       ],
       "optionReasons": {
-        "wear-mcq-31": "本句指「穿戴式裝置」。",
-        "wear-mcq-30": "「可穿戴的」是「wearable (adj.)」的用法，與本句語境不同。",
-        "wear-mcq-32": "「穿戴者」是「wearer」的用法，與本句語境不同。",
-        "wear-mcq-29": "「鞋類」是「footwear」的用法，與本句語境不同。",
-        "wear-mcq-33": "「臉上顯露出某種情緒或態度」是「6. wear a look of confidence/sadness etc. — 顯露某種神情」的用法，與本句語境不同。",
-        "wear-mcq-28": "「正式服裝」是「formal wear」的用法，與本句語境不同。"
+        "wear-mcq-31": "本句的「wearables」指「穿戴式裝置」。",
+        "wear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-31"
     },
@@ -2526,11 +2290,9 @@ export default {
       "masked": "The helmet protects the ____ from head injuries.",
       "options": [
         "wear-mcq-32",
-        "wear-mcq-31",
-        "wear-mcq-33",
-        "wear-mcq-30",
-        "wear-mcq-34",
-        "wear-mcq-29"
+        "wear-mcq-17",
+        "wear-mcq-22",
+        "wear-mcq-07"
       ],
       "explanation": "本句的「wearer」指「穿戴者」。",
       "sentenceIndex": 59,
@@ -2539,12 +2301,10 @@ export default {
         "wearer"
       ],
       "optionReasons": {
-        "wear-mcq-32": "本句指「穿戴者」。",
-        "wear-mcq-31": "「穿戴式裝置」是「wearable (n.)」的用法，與本句語境不同。",
-        "wear-mcq-33": "「臉上顯露出某種情緒或態度」是「6. wear a look of confidence/sadness etc. — 顯露某種神情」的用法，與本句語境不同。",
-        "wear-mcq-30": "「可穿戴的」是「wearable (adj.)」的用法，與本句語境不同。",
-        "wear-mcq-34": "「持續呈現某種可見的外表、神情或氣質」是「7. wear a particular appearance/style — 呈現；帶有某種外在形象」的用法，與本句語境不同。",
-        "wear-mcq-29": "「鞋類」是「footwear」的用法，與本句語境不同。"
+        "wear-mcq-32": "本句的「wearer」指「穿戴者」。",
+        "wear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-32"
     },
@@ -2556,11 +2316,9 @@ export default {
       "masked": "The glasses automatically adjust to suit the ____.",
       "options": [
         "wear-mcq-32",
-        "wear-mcq-31",
-        "wear-mcq-33",
-        "wear-mcq-30",
-        "wear-mcq-34",
-        "wear-mcq-29"
+        "wear-mcq-06",
+        "wear-mcq-19",
+        "wear-mcq-11"
       ],
       "explanation": "本句的「wearer」指「穿戴者」。",
       "sentenceIndex": 60,
@@ -2569,12 +2327,10 @@ export default {
         "wearer"
       ],
       "optionReasons": {
-        "wear-mcq-32": "本句指「穿戴者」。",
-        "wear-mcq-31": "「穿戴式裝置」是「wearable (n.)」的用法，與本句語境不同。",
-        "wear-mcq-33": "「臉上顯露出某種情緒或態度」是「6. wear a look of confidence/sadness etc. — 顯露某種神情」的用法，與本句語境不同。",
-        "wear-mcq-30": "「可穿戴的」是「wearable (adj.)」的用法，與本句語境不同。",
-        "wear-mcq-34": "「持續呈現某種可見的外表、神情或氣質」是「7. wear a particular appearance/style — 呈現；帶有某種外在形象」的用法，與本句語境不同。",
-        "wear-mcq-29": "「鞋類」是「footwear」的用法，與本句語境不同。"
+        "wear-mcq-32": "本句的「wearer」指「穿戴者」。",
+        "wear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wear-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wear-mcq-32"
     }
@@ -2586,5 +2342,7 @@ export default {
     "sha256": "7823c4adf66f0d0933a5897cb7781e19b6de2b9daa9bca77295d9495f829822c",
     "pages": 24
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

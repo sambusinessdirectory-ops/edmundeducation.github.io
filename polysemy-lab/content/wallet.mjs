@@ -282,11 +282,7 @@ export default {
       "masked": "I had given people gifts like books, chocolates, and ____.",
       "options": [
         "wallet-mcq-01",
-        "wallet-mcq-02",
-        "wallet-mcq-03",
-        "wallet-mcq-04",
-        "wallet-mcq-05",
-        "wallet-mcq-06"
+        "wallet-mcq-11"
       ],
       "explanation": "本句的「wallets」指「銀包；錢包」。",
       "sentenceIndex": 0,
@@ -295,12 +291,8 @@ export default {
         "wallets"
       ],
       "optionReasons": {
-        "wallet-mcq-01": "本句指「銀包；錢包」。",
-        "wallet-mcq-02": "「皮銀包」與本句語境不同。",
-        "wallet-mcq-03": "「放現金／卡的銀包」與本句語境不同。",
-        "wallet-mcq-04": "「數碼／電子錢包」與本句語境不同。",
-        "wallet-mcq-05": "「手機錢包」與本句語境不同。",
-        "wallet-mcq-06": "「錢包應用程式」與本句語境不同。"
+        "wallet-mcq-01": "本句的「wallets」指「銀包；錢包」。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-01"
     },
@@ -312,11 +304,7 @@ export default {
       "masked": "He took his ____ out of his pocket.",
       "options": [
         "wallet-mcq-01",
-        "wallet-mcq-02",
-        "wallet-mcq-03",
-        "wallet-mcq-04",
-        "wallet-mcq-05",
-        "wallet-mcq-06"
+        "wallet-mcq-11"
       ],
       "explanation": "本句的「wallet」指「銀包；錢包」。",
       "sentenceIndex": 1,
@@ -325,12 +313,8 @@ export default {
         "wallet"
       ],
       "optionReasons": {
-        "wallet-mcq-01": "本句指「銀包；錢包」。",
-        "wallet-mcq-02": "「皮銀包」與本句語境不同。",
-        "wallet-mcq-03": "「放現金／卡的銀包」與本句語境不同。",
-        "wallet-mcq-04": "「數碼／電子錢包」與本句語境不同。",
-        "wallet-mcq-05": "「手機錢包」與本句語境不同。",
-        "wallet-mcq-06": "「錢包應用程式」與本句語境不同。"
+        "wallet-mcq-01": "本句的「wallet」指「銀包；錢包」。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-01"
     },
@@ -342,11 +326,7 @@ export default {
       "masked": "I left my ____ at home.",
       "options": [
         "wallet-mcq-01",
-        "wallet-mcq-02",
-        "wallet-mcq-03",
-        "wallet-mcq-04",
-        "wallet-mcq-05",
-        "wallet-mcq-06"
+        "wallet-mcq-11"
       ],
       "explanation": "本句的「wallet」指「銀包；錢包」。",
       "sentenceIndex": 2,
@@ -355,12 +335,8 @@ export default {
         "wallet"
       ],
       "optionReasons": {
-        "wallet-mcq-01": "本句指「銀包；錢包」。",
-        "wallet-mcq-02": "「皮銀包」與本句語境不同。",
-        "wallet-mcq-03": "「放現金／卡的銀包」與本句語境不同。",
-        "wallet-mcq-04": "「數碼／電子錢包」與本句語境不同。",
-        "wallet-mcq-05": "「手機錢包」與本句語境不同。",
-        "wallet-mcq-06": "「錢包應用程式」與本句語境不同。"
+        "wallet-mcq-01": "本句的「wallet」指「銀包；錢包」。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-01"
     },
@@ -372,11 +348,8 @@ export default {
       "masked": "She bought him a ____ for his birthday.",
       "options": [
         "wallet-mcq-02",
-        "wallet-mcq-01",
-        "wallet-mcq-03",
-        "wallet-mcq-04",
-        "wallet-mcq-05",
-        "wallet-mcq-06"
+        "wallet-mcq-11",
+        "wallet-mcq-10"
       ],
       "explanation": "本句的「leather wallet」指「皮銀包」。",
       "sentenceIndex": 3,
@@ -385,12 +358,9 @@ export default {
         "leather wallet"
       ],
       "optionReasons": {
-        "wallet-mcq-02": "本句指「皮銀包」。",
-        "wallet-mcq-01": "「銀包；錢包」與本句語境不同。",
-        "wallet-mcq-03": "「放現金／卡的銀包」與本句語境不同。",
-        "wallet-mcq-04": "「數碼／電子錢包」與本句語境不同。",
-        "wallet-mcq-05": "「手機錢包」與本句語境不同。",
-        "wallet-mcq-06": "「錢包應用程式」與本句語境不同。"
+        "wallet-mcq-02": "本句的「leather wallet」指「皮銀包」。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-02"
     },
@@ -402,11 +372,8 @@ export default {
       "masked": "The ____ lasted for years.",
       "options": [
         "wallet-mcq-02",
-        "wallet-mcq-01",
-        "wallet-mcq-03",
-        "wallet-mcq-04",
-        "wallet-mcq-05",
-        "wallet-mcq-06"
+        "wallet-mcq-10",
+        "wallet-mcq-11"
       ],
       "explanation": "本句的「leather wallet」指「皮銀包」。",
       "sentenceIndex": 4,
@@ -415,12 +382,9 @@ export default {
         "leather wallet"
       ],
       "optionReasons": {
-        "wallet-mcq-02": "本句指「皮銀包」。",
-        "wallet-mcq-01": "「銀包；錢包」與本句語境不同。",
-        "wallet-mcq-03": "「放現金／卡的銀包」與本句語境不同。",
-        "wallet-mcq-04": "「數碼／電子錢包」與本句語境不同。",
-        "wallet-mcq-05": "「手機錢包」與本句語境不同。",
-        "wallet-mcq-06": "「錢包應用程式」與本句語境不同。"
+        "wallet-mcq-02": "本句的「leather wallet」指「皮銀包」。",
+        "wallet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-02"
     },
@@ -432,11 +396,9 @@ export default {
       "masked": "My ____ contains several bank cards.",
       "options": [
         "wallet-mcq-03",
-        "wallet-mcq-02",
-        "wallet-mcq-04",
-        "wallet-mcq-01",
-        "wallet-mcq-05",
-        "wallet-mcq-06"
+        "wallet-mcq-11",
+        "wallet-mcq-10",
+        "wallet-mcq-04"
       ],
       "explanation": "本句的「wallet」指「放現金／卡的銀包」。",
       "sentenceIndex": 5,
@@ -445,12 +407,10 @@ export default {
         "wallet"
       ],
       "optionReasons": {
-        "wallet-mcq-03": "本句指「放現金／卡的銀包」。",
-        "wallet-mcq-02": "「皮銀包」與本句語境不同。",
-        "wallet-mcq-04": "「數碼／電子錢包」與本句語境不同。",
-        "wallet-mcq-01": "「銀包；錢包」與本句語境不同。",
-        "wallet-mcq-05": "「手機錢包」與本句語境不同。",
-        "wallet-mcq-06": "「錢包應用程式」與本句語境不同。"
+        "wallet-mcq-03": "本句的「wallet」指「放現金／卡的銀包」。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-03"
     },
@@ -462,10 +422,8 @@ export default {
       "masked": "He opened his ____ and took out some cash.",
       "options": [
         "wallet-mcq-03",
-        "wallet-mcq-02",
-        "wallet-mcq-04",
-        "wallet-mcq-01",
-        "wallet-mcq-05",
+        "wallet-mcq-10",
+        "wallet-mcq-11",
         "wallet-mcq-06"
       ],
       "explanation": "本句的「wallet」指「放現金／卡的銀包」。",
@@ -475,12 +433,10 @@ export default {
         "wallet"
       ],
       "optionReasons": {
-        "wallet-mcq-03": "本句指「放現金／卡的銀包」。",
-        "wallet-mcq-02": "「皮銀包」與本句語境不同。",
-        "wallet-mcq-04": "「數碼／電子錢包」與本句語境不同。",
-        "wallet-mcq-01": "「銀包；錢包」與本句語境不同。",
-        "wallet-mcq-05": "「手機錢包」與本句語境不同。",
-        "wallet-mcq-06": "「錢包應用程式」與本句語境不同。"
+        "wallet-mcq-03": "本句的「wallet」指「放現金／卡的銀包」。",
+        "wallet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-03"
     },
@@ -492,11 +448,9 @@ export default {
       "masked": "I added my bank card to my ____.",
       "options": [
         "wallet-mcq-04",
-        "wallet-mcq-03",
-        "wallet-mcq-05",
-        "wallet-mcq-02",
-        "wallet-mcq-06",
-        "wallet-mcq-01"
+        "wallet-mcq-11",
+        "wallet-mcq-12",
+        "wallet-mcq-10"
       ],
       "explanation": "本句的「digital wallet」指「數碼／電子錢包」。",
       "sentenceIndex": 7,
@@ -505,12 +459,10 @@ export default {
         "digital wallet"
       ],
       "optionReasons": {
-        "wallet-mcq-04": "本句指「數碼／電子錢包」。",
-        "wallet-mcq-03": "「放現金／卡的銀包」與本句語境不同。",
-        "wallet-mcq-05": "「手機錢包」與本句語境不同。",
-        "wallet-mcq-02": "「皮銀包」與本句語境不同。",
-        "wallet-mcq-06": "「錢包應用程式」與本句語境不同。",
-        "wallet-mcq-01": "「銀包；錢包」與本句語境不同。"
+        "wallet-mcq-04": "本句的「digital wallet」指「數碼／電子錢包」。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-04"
     },
@@ -522,11 +474,9 @@ export default {
       "masked": "You can pay using a ____ on your phone.",
       "options": [
         "wallet-mcq-04",
+        "wallet-mcq-11",
         "wallet-mcq-03",
-        "wallet-mcq-05",
-        "wallet-mcq-02",
-        "wallet-mcq-06",
-        "wallet-mcq-01"
+        "wallet-mcq-10"
       ],
       "explanation": "本句的「digital wallet」指「數碼／電子錢包」。",
       "sentenceIndex": 8,
@@ -535,12 +485,10 @@ export default {
         "digital wallet"
       ],
       "optionReasons": {
-        "wallet-mcq-04": "本句指「數碼／電子錢包」。",
-        "wallet-mcq-03": "「放現金／卡的銀包」與本句語境不同。",
-        "wallet-mcq-05": "「手機錢包」與本句語境不同。",
-        "wallet-mcq-02": "「皮銀包」與本句語境不同。",
-        "wallet-mcq-06": "「錢包應用程式」與本句語境不同。",
-        "wallet-mcq-01": "「銀包；錢包」與本句語境不同。"
+        "wallet-mcq-04": "本句的「digital wallet」指「數碼／電子錢包」。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-04"
     },
@@ -552,11 +500,9 @@ export default {
       "masked": "She paid through her ____.",
       "options": [
         "wallet-mcq-05",
-        "wallet-mcq-04",
-        "wallet-mcq-06",
-        "wallet-mcq-03",
-        "wallet-mcq-07",
-        "wallet-mcq-02"
+        "wallet-mcq-11",
+        "wallet-mcq-10",
+        "wallet-mcq-03"
       ],
       "explanation": "本句的「mobile wallet」指「手機錢包」。",
       "sentenceIndex": 9,
@@ -565,12 +511,10 @@ export default {
         "mobile wallet"
       ],
       "optionReasons": {
-        "wallet-mcq-05": "本句指「手機錢包」。",
-        "wallet-mcq-04": "「數碼／電子錢包」與本句語境不同。",
-        "wallet-mcq-06": "「錢包應用程式」與本句語境不同。",
-        "wallet-mcq-03": "「放現金／卡的銀包」與本句語境不同。",
-        "wallet-mcq-07": "「加密貨幣錢包」與本句語境不同。",
-        "wallet-mcq-02": "「皮銀包」與本句語境不同。"
+        "wallet-mcq-05": "本句的「mobile wallet」指「手機錢包」。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-05"
     },
@@ -582,11 +526,9 @@ export default {
       "masked": "Many people now use ____ instead of physical cards.",
       "options": [
         "wallet-mcq-05",
-        "wallet-mcq-04",
-        "wallet-mcq-06",
-        "wallet-mcq-03",
-        "wallet-mcq-07",
-        "wallet-mcq-02"
+        "wallet-mcq-11",
+        "wallet-mcq-12",
+        "wallet-mcq-10"
       ],
       "explanation": "本句的「mobile wallets」指「手機錢包」。",
       "sentenceIndex": 10,
@@ -595,12 +537,10 @@ export default {
         "mobile wallets"
       ],
       "optionReasons": {
-        "wallet-mcq-05": "本句指「手機錢包」。",
-        "wallet-mcq-04": "「數碼／電子錢包」與本句語境不同。",
-        "wallet-mcq-06": "「錢包應用程式」與本句語境不同。",
-        "wallet-mcq-03": "「放現金／卡的銀包」與本句語境不同。",
-        "wallet-mcq-07": "「加密貨幣錢包」與本句語境不同。",
-        "wallet-mcq-02": "「皮銀包」與本句語境不同。"
+        "wallet-mcq-05": "本句的「mobile wallets」指「手機錢包」。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-05"
     },
@@ -612,11 +552,9 @@ export default {
       "masked": "Open the ____ to show your boarding pass.",
       "options": [
         "wallet-mcq-06",
-        "wallet-mcq-05",
-        "wallet-mcq-07",
-        "wallet-mcq-04",
-        "wallet-mcq-08",
-        "wallet-mcq-03"
+        "wallet-mcq-11",
+        "wallet-mcq-12",
+        "wallet-mcq-10"
       ],
       "explanation": "本句的「wallet app」指「錢包應用程式」。",
       "sentenceIndex": 11,
@@ -625,12 +563,10 @@ export default {
         "wallet app"
       ],
       "optionReasons": {
-        "wallet-mcq-06": "本句指「錢包應用程式」。",
-        "wallet-mcq-05": "「手機錢包」與本句語境不同。",
-        "wallet-mcq-07": "「加密貨幣錢包」與本句語境不同。",
-        "wallet-mcq-04": "「數碼／電子錢包」與本句語境不同。",
-        "wallet-mcq-08": "「荷包；財力」與本句語境不同。",
-        "wallet-mcq-03": "「放現金／卡的銀包」與本句語境不同。"
+        "wallet-mcq-06": "本句的「wallet app」指「錢包應用程式」。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-06"
     },
@@ -642,11 +578,9 @@ export default {
       "masked": "The ticket is stored in my ____.",
       "options": [
         "wallet-mcq-06",
-        "wallet-mcq-05",
-        "wallet-mcq-07",
-        "wallet-mcq-04",
-        "wallet-mcq-08",
-        "wallet-mcq-03"
+        "wallet-mcq-11",
+        "wallet-mcq-03",
+        "wallet-mcq-10"
       ],
       "explanation": "本句的「wallet app」指「錢包應用程式」。",
       "sentenceIndex": 12,
@@ -655,12 +589,10 @@ export default {
         "wallet app"
       ],
       "optionReasons": {
-        "wallet-mcq-06": "本句指「錢包應用程式」。",
-        "wallet-mcq-05": "「手機錢包」與本句語境不同。",
-        "wallet-mcq-07": "「加密貨幣錢包」與本句語境不同。",
-        "wallet-mcq-04": "「數碼／電子錢包」與本句語境不同。",
-        "wallet-mcq-08": "「荷包；財力」與本句語境不同。",
-        "wallet-mcq-03": "「放現金／卡的銀包」與本句語境不同。"
+        "wallet-mcq-06": "本句的「wallet app」指「錢包應用程式」。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-06"
     },
@@ -672,11 +604,8 @@ export default {
       "masked": "He moved the assets to a private ____.",
       "options": [
         "wallet-mcq-07",
-        "wallet-mcq-06",
-        "wallet-mcq-08",
-        "wallet-mcq-05",
-        "wallet-mcq-09",
-        "wallet-mcq-04"
+        "wallet-mcq-10",
+        "wallet-mcq-12"
       ],
       "explanation": "本句的「crypto wallet」指「加密貨幣錢包」。",
       "sentenceIndex": 13,
@@ -685,12 +614,9 @@ export default {
         "crypto wallet"
       ],
       "optionReasons": {
-        "wallet-mcq-07": "本句指「加密貨幣錢包」。",
-        "wallet-mcq-06": "「錢包應用程式」與本句語境不同。",
-        "wallet-mcq-08": "「荷包；財力」與本句語境不同。",
-        "wallet-mcq-05": "「手機錢包」與本句語境不同。",
-        "wallet-mcq-09": "「傷荷包」與本句語境不同。",
-        "wallet-mcq-04": "「數碼／電子錢包」與本句語境不同。"
+        "wallet-mcq-07": "本句的「crypto wallet」指「加密貨幣錢包」。",
+        "wallet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-07"
     },
@@ -702,11 +628,8 @@ export default {
       "masked": "A ____ stores the credentials needed to access cryptocurrency.",
       "options": [
         "wallet-mcq-07",
-        "wallet-mcq-06",
-        "wallet-mcq-08",
-        "wallet-mcq-05",
-        "wallet-mcq-09",
-        "wallet-mcq-04"
+        "wallet-mcq-10",
+        "wallet-mcq-03"
       ],
       "explanation": "本句的「crypto wallet」指「加密貨幣錢包」。",
       "sentenceIndex": 14,
@@ -715,12 +638,9 @@ export default {
         "crypto wallet"
       ],
       "optionReasons": {
-        "wallet-mcq-07": "本句指「加密貨幣錢包」。",
-        "wallet-mcq-06": "「錢包應用程式」與本句語境不同。",
-        "wallet-mcq-08": "「荷包；財力」與本句語境不同。",
-        "wallet-mcq-05": "「手機錢包」與本句語境不同。",
-        "wallet-mcq-09": "「傷荷包」與本句語境不同。",
-        "wallet-mcq-04": "「數碼／電子錢包」與本句語境不同。"
+        "wallet-mcq-07": "本句的「crypto wallet」指「加密貨幣錢包」。",
+        "wallet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-07"
     },
@@ -732,11 +652,7 @@ export default {
       "masked": "Rising prices are hurting consumers' ____.",
       "options": [
         "wallet-mcq-01",
-        "wallet-mcq-02",
-        "wallet-mcq-03",
-        "wallet-mcq-04",
-        "wallet-mcq-05",
-        "wallet-mcq-06"
+        "wallet-mcq-11"
       ],
       "explanation": "本句的「wallets」指「銀包；錢包」。",
       "sentenceIndex": 15,
@@ -745,12 +661,8 @@ export default {
         "wallets"
       ],
       "optionReasons": {
-        "wallet-mcq-01": "本句指「銀包；錢包」。",
-        "wallet-mcq-02": "「皮銀包」與本句語境不同。",
-        "wallet-mcq-03": "「放現金／卡的銀包」與本句語境不同。",
-        "wallet-mcq-04": "「數碼／電子錢包」與本句語境不同。",
-        "wallet-mcq-05": "「手機錢包」與本句語境不同。",
-        "wallet-mcq-06": "「錢包應用程式」與本句語境不同。"
+        "wallet-mcq-01": "本句的「wallets」指「銀包；錢包」。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-01"
     },
@@ -762,11 +674,7 @@ export default {
       "masked": "The new fees will hit people's ____ hard.",
       "options": [
         "wallet-mcq-01",
-        "wallet-mcq-02",
-        "wallet-mcq-03",
-        "wallet-mcq-04",
-        "wallet-mcq-05",
-        "wallet-mcq-06"
+        "wallet-mcq-11"
       ],
       "explanation": "本句的「wallets」指「銀包；錢包」。",
       "sentenceIndex": 16,
@@ -775,12 +683,8 @@ export default {
         "wallets"
       ],
       "optionReasons": {
-        "wallet-mcq-01": "本句指「銀包；錢包」。",
-        "wallet-mcq-02": "「皮銀包」與本句語境不同。",
-        "wallet-mcq-03": "「放現金／卡的銀包」與本句語境不同。",
-        "wallet-mcq-04": "「數碼／電子錢包」與本句語境不同。",
-        "wallet-mcq-05": "「手機錢包」與本句語境不同。",
-        "wallet-mcq-06": "「錢包應用程式」與本句語境不同。"
+        "wallet-mcq-01": "本句的「wallets」指「銀包；錢包」。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-01"
     },
@@ -792,11 +696,9 @@ export default {
       "masked": "Fans were willing to ____ for the new product.",
       "options": [
         "wallet-mcq-10",
-        "wallet-mcq-09",
+        "wallet-mcq-03",
         "wallet-mcq-11",
-        "wallet-mcq-08",
-        "wallet-mcq-12",
-        "wallet-mcq-07"
+        "wallet-mcq-06"
       ],
       "explanation": "本句的「open their wallets」指「掏錢；慷慨解囊」。",
       "sentenceIndex": 17,
@@ -805,12 +707,10 @@ export default {
         "open their wallets"
       ],
       "optionReasons": {
-        "wallet-mcq-10": "本句指「掏錢；慷慨解囊」。",
-        "wallet-mcq-09": "「傷荷包」與本句語境不同。",
-        "wallet-mcq-11": "「用消費表態」與本句語境不同。",
-        "wallet-mcq-08": "「荷包；財力」與本句語境不同。",
-        "wallet-mcq-12": "「銀包大小的」與本句語境不同。",
-        "wallet-mcq-07": "「加密貨幣錢包」與本句語境不同。"
+        "wallet-mcq-10": "本句的「open their wallets」指「掏錢；慷慨解囊」。",
+        "wallet-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-10"
     },
@@ -822,11 +722,9 @@ export default {
       "masked": "The charity campaign encouraged people to ____.",
       "options": [
         "wallet-mcq-10",
-        "wallet-mcq-09",
+        "wallet-mcq-03",
         "wallet-mcq-11",
-        "wallet-mcq-08",
-        "wallet-mcq-12",
-        "wallet-mcq-07"
+        "wallet-mcq-04"
       ],
       "explanation": "本句的「open their wallets」指「掏錢；慷慨解囊」。",
       "sentenceIndex": 18,
@@ -835,12 +733,10 @@ export default {
         "open their wallets"
       ],
       "optionReasons": {
-        "wallet-mcq-10": "本句指「掏錢；慷慨解囊」。",
-        "wallet-mcq-09": "「傷荷包」與本句語境不同。",
-        "wallet-mcq-11": "「用消費表態」與本句語境不同。",
-        "wallet-mcq-08": "「荷包；財力」與本句語境不同。",
-        "wallet-mcq-12": "「銀包大小的」與本句語境不同。",
-        "wallet-mcq-07": "「加密貨幣錢包」與本句語境不同。"
+        "wallet-mcq-10": "本句的「open their wallets」指「掏錢；慷慨解囊」。",
+        "wallet-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-10"
     },
@@ -853,10 +749,8 @@ export default {
       "options": [
         "wallet-mcq-11",
         "wallet-mcq-10",
-        "wallet-mcq-12",
-        "wallet-mcq-09",
-        "wallet-mcq-08",
-        "wallet-mcq-07"
+        "wallet-mcq-04",
+        "wallet-mcq-03"
       ],
       "explanation": "本句的「vote with their wallets」指「用消費表態」。",
       "sentenceIndex": 19,
@@ -865,12 +759,10 @@ export default {
         "vote with their wallets"
       ],
       "optionReasons": {
-        "wallet-mcq-11": "本句指「用消費表態」。",
-        "wallet-mcq-10": "「掏錢；慷慨解囊」與本句語境不同。",
-        "wallet-mcq-12": "「銀包大小的」與本句語境不同。",
-        "wallet-mcq-09": "「傷荷包」與本句語境不同。",
-        "wallet-mcq-08": "「荷包；財力」與本句語境不同。",
-        "wallet-mcq-07": "「加密貨幣錢包」與本句語境不同。"
+        "wallet-mcq-11": "本句的「vote with their wallets」指「用消費表態」。",
+        "wallet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-11"
     },
@@ -882,11 +774,7 @@ export default {
       "masked": "People ____ and stopped buying the product.",
       "options": [
         "wallet-mcq-11",
-        "wallet-mcq-10",
-        "wallet-mcq-12",
-        "wallet-mcq-09",
-        "wallet-mcq-08",
-        "wallet-mcq-07"
+        "wallet-mcq-01"
       ],
       "explanation": "本句的「voted with their wallets」指「用消費表態」。",
       "sentenceIndex": 20,
@@ -895,12 +783,8 @@ export default {
         "voted with their wallets"
       ],
       "optionReasons": {
-        "wallet-mcq-11": "本句指「用消費表態」。",
-        "wallet-mcq-10": "「掏錢；慷慨解囊」與本句語境不同。",
-        "wallet-mcq-12": "「銀包大小的」與本句語境不同。",
-        "wallet-mcq-09": "「傷荷包」與本句語境不同。",
-        "wallet-mcq-08": "「荷包；財力」與本句語境不同。",
-        "wallet-mcq-07": "「加密貨幣錢包」與本句語境不同。"
+        "wallet-mcq-11": "本句的「voted with their wallets」指「用消費表態」。",
+        "wallet-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-11"
     },
@@ -914,9 +798,7 @@ export default {
         "wallet-mcq-12",
         "wallet-mcq-11",
         "wallet-mcq-10",
-        "wallet-mcq-09",
-        "wallet-mcq-08",
-        "wallet-mcq-07"
+        "wallet-mcq-05"
       ],
       "explanation": "本句的「wallet-sized photo」指「銀包大小的」。",
       "sentenceIndex": 21,
@@ -925,12 +807,10 @@ export default {
         "wallet-sized photo"
       ],
       "optionReasons": {
-        "wallet-mcq-12": "本句指「銀包大小的」。",
-        "wallet-mcq-11": "「用消費表態」與本句語境不同。",
-        "wallet-mcq-10": "「掏錢；慷慨解囊」與本句語境不同。",
-        "wallet-mcq-09": "「傷荷包」與本句語境不同。",
-        "wallet-mcq-08": "「荷包；財力」與本句語境不同。",
-        "wallet-mcq-07": "「加密貨幣錢包」與本句語境不同。"
+        "wallet-mcq-12": "本句的「wallet-sized photo」指「銀包大小的」。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-12"
     },
@@ -942,11 +822,9 @@ export default {
       "masked": "The card is ____.",
       "options": [
         "wallet-mcq-12",
-        "wallet-mcq-11",
         "wallet-mcq-10",
-        "wallet-mcq-09",
-        "wallet-mcq-08",
-        "wallet-mcq-07"
+        "wallet-mcq-11",
+        "wallet-mcq-04"
       ],
       "explanation": "本句的「wallet-sized」指「銀包大小的」。",
       "sentenceIndex": 22,
@@ -955,12 +833,10 @@ export default {
         "wallet-sized"
       ],
       "optionReasons": {
-        "wallet-mcq-12": "本句指「銀包大小的」。",
-        "wallet-mcq-11": "「用消費表態」與本句語境不同。",
-        "wallet-mcq-10": "「掏錢；慷慨解囊」與本句語境不同。",
-        "wallet-mcq-09": "「傷荷包」與本句語境不同。",
-        "wallet-mcq-08": "「荷包；財力」與本句語境不同。",
-        "wallet-mcq-07": "「加密貨幣錢包」與本句語境不同。"
+        "wallet-mcq-12": "本句的「wallet-sized」指「銀包大小的」。",
+        "wallet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-12"
     },
@@ -974,9 +850,7 @@ export default {
         "wallet-mcq-12",
         "wallet-mcq-11",
         "wallet-mcq-10",
-        "wallet-mcq-09",
-        "wallet-mcq-08",
-        "wallet-mcq-07"
+        "wallet-mcq-04"
       ],
       "explanation": "本句的「wallet」指「銀包大小的」。",
       "sentenceIndex": 23,
@@ -985,12 +859,10 @@ export default {
         "wallet"
       ],
       "optionReasons": {
-        "wallet-mcq-12": "本句指「銀包大小的」。",
-        "wallet-mcq-11": "「用消費表態」與本句語境不同。",
-        "wallet-mcq-10": "「掏錢；慷慨解囊」與本句語境不同。",
-        "wallet-mcq-09": "「傷荷包」與本句語境不同。",
-        "wallet-mcq-08": "「荷包；財力」與本句語境不同。",
-        "wallet-mcq-07": "「加密貨幣錢包」與本句語境不同。"
+        "wallet-mcq-12": "本句的「wallet」指「銀包大小的」。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-12"
     },
@@ -1004,9 +876,7 @@ export default {
         "wallet-mcq-12",
         "wallet-mcq-11",
         "wallet-mcq-10",
-        "wallet-mcq-09",
-        "wallet-mcq-08",
-        "wallet-mcq-07"
+        "wallet-mcq-05"
       ],
       "explanation": "本句的「wallet」指「銀包大小的」。",
       "sentenceIndex": 24,
@@ -1015,12 +885,10 @@ export default {
         "wallet"
       ],
       "optionReasons": {
-        "wallet-mcq-12": "本句指「銀包大小的」。",
-        "wallet-mcq-11": "「用消費表態」與本句語境不同。",
-        "wallet-mcq-10": "「掏錢；慷慨解囊」與本句語境不同。",
-        "wallet-mcq-09": "「傷荷包」與本句語境不同。",
-        "wallet-mcq-08": "「荷包；財力」與本句語境不同。",
-        "wallet-mcq-07": "「加密貨幣錢包」與本句語境不同。"
+        "wallet-mcq-12": "本句的「wallet」指「銀包大小的」。",
+        "wallet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wallet-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wallet-mcq-12"
     }
@@ -1032,5 +900,7 @@ export default {
     "sha256": "0a797f3ff93eac59eb97623ff741f1b713dcb86da1326f0a437b3ea888d3b296",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

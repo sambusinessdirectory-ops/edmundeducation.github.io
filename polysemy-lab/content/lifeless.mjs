@@ -175,11 +175,7 @@ export default {
       "masked": "The bird lay ____ on the ground.",
       "options": [
         "lifeless-mcq-01",
-        "lifeless-mcq-02",
-        "lifeless-mcq-03",
-        "lifeless-mcq-04",
-        "lifeless-mcq-05",
-        "lifeless-mcq-06"
+        "lifeless-mcq-05"
       ],
       "explanation": "本句的「lifeless」指「已經沒有生命或完全沒有生命跡象的」。",
       "sentenceIndex": 0,
@@ -188,12 +184,8 @@ export default {
         "lifeless"
       ],
       "optionReasons": {
-        "lifeless-mcq-01": "本句指「已經沒有生命或完全沒有生命跡象的」。",
-        "lifeless-mcq-02": "「缺乏活力、氣氛、溫度或動感；死氣沉沉的」是「lifeless — atmosphere/place」的用法，與本句語境不同。",
-        "lifeless-mcq-03": "「缺乏表情、精神或情緒；呆滯的、毫無神采的」是「lifeless — face/voice/person」的用法，與本句語境不同。",
-        "lifeless-mcq-04": "「缺乏感染力、自然感或活力的」是「lifeless — art/performance」的用法，與本句語境不同。",
-        "lifeless-mcq-05": "「毫無生氣地；呆滯地；無力地」是「lifelessly」的用法，與本句語境不同。",
-        "lifeless-mcq-06": "「缺乏生命、活力或氣氛的狀態」是「lifelessness」的用法，與本句語境不同。"
+        "lifeless-mcq-01": "本句的「lifeless」指「已經沒有生命或完全沒有生命跡象的」。",
+        "lifeless-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lifeless-mcq-01"
     },
@@ -205,11 +197,7 @@ export default {
       "masked": "His body was found ____.",
       "options": [
         "lifeless-mcq-01",
-        "lifeless-mcq-02",
-        "lifeless-mcq-03",
-        "lifeless-mcq-04",
-        "lifeless-mcq-05",
-        "lifeless-mcq-06"
+        "lifeless-mcq-05"
       ],
       "explanation": "本句的「lifeless」指「已經沒有生命或完全沒有生命跡象的」。",
       "sentenceIndex": 1,
@@ -218,12 +206,8 @@ export default {
         "lifeless"
       ],
       "optionReasons": {
-        "lifeless-mcq-01": "本句指「已經沒有生命或完全沒有生命跡象的」。",
-        "lifeless-mcq-02": "「缺乏活力、氣氛、溫度或動感；死氣沉沉的」是「lifeless — atmosphere/place」的用法，與本句語境不同。",
-        "lifeless-mcq-03": "「缺乏表情、精神或情緒；呆滯的、毫無神采的」是「lifeless — face/voice/person」的用法，與本句語境不同。",
-        "lifeless-mcq-04": "「缺乏感染力、自然感或活力的」是「lifeless — art/performance」的用法，與本句語境不同。",
-        "lifeless-mcq-05": "「毫無生氣地；呆滯地；無力地」是「lifelessly」的用法，與本句語境不同。",
-        "lifeless-mcq-06": "「缺乏生命、活力或氣氛的狀態」是「lifelessness」的用法，與本句語境不同。"
+        "lifeless-mcq-01": "本句的「lifeless」指「已經沒有生命或完全沒有生命跡象的」。",
+        "lifeless-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lifeless-mcq-01"
     },
@@ -235,11 +219,7 @@ export default {
       "masked": "The atmosphere is quiet but not ____.",
       "options": [
         "lifeless-mcq-02",
-        "lifeless-mcq-01",
-        "lifeless-mcq-03",
-        "lifeless-mcq-04",
-        "lifeless-mcq-05",
-        "lifeless-mcq-06"
+        "lifeless-mcq-05"
       ],
       "explanation": "本句的「lifeless」指「缺乏活力、氣氛、溫度或動感；死氣沉沉的」。",
       "sentenceIndex": 2,
@@ -248,12 +228,8 @@ export default {
         "lifeless"
       ],
       "optionReasons": {
-        "lifeless-mcq-02": "本句指「缺乏活力、氣氛、溫度或動感；死氣沉沉的」。",
-        "lifeless-mcq-01": "「已經沒有生命或完全沒有生命跡象的」是「lifeless — literally not alive」的用法，與本句語境不同。",
-        "lifeless-mcq-03": "「缺乏表情、精神或情緒；呆滯的、毫無神采的」是「lifeless — face/voice/person」的用法，與本句語境不同。",
-        "lifeless-mcq-04": "「缺乏感染力、自然感或活力的」是「lifeless — art/performance」的用法，與本句語境不同。",
-        "lifeless-mcq-05": "「毫無生氣地；呆滯地；無力地」是「lifelessly」的用法，與本句語境不同。",
-        "lifeless-mcq-06": "「缺乏生命、活力或氣氛的狀態」是「lifelessness」的用法，與本句語境不同。"
+        "lifeless-mcq-02": "本句的「lifeless」指「缺乏活力、氣氛、溫度或動感；死氣沉沉的」。",
+        "lifeless-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lifeless-mcq-02"
     },
@@ -265,11 +241,7 @@ export default {
       "masked": "The room felt cold and ____.",
       "options": [
         "lifeless-mcq-02",
-        "lifeless-mcq-01",
-        "lifeless-mcq-03",
-        "lifeless-mcq-04",
-        "lifeless-mcq-05",
-        "lifeless-mcq-06"
+        "lifeless-mcq-05"
       ],
       "explanation": "本句的「lifeless」指「缺乏活力、氣氛、溫度或動感；死氣沉沉的」。",
       "sentenceIndex": 3,
@@ -278,12 +250,8 @@ export default {
         "lifeless"
       ],
       "optionReasons": {
-        "lifeless-mcq-02": "本句指「缺乏活力、氣氛、溫度或動感；死氣沉沉的」。",
-        "lifeless-mcq-01": "「已經沒有生命或完全沒有生命跡象的」是「lifeless — literally not alive」的用法，與本句語境不同。",
-        "lifeless-mcq-03": "「缺乏表情、精神或情緒；呆滯的、毫無神采的」是「lifeless — face/voice/person」的用法，與本句語境不同。",
-        "lifeless-mcq-04": "「缺乏感染力、自然感或活力的」是「lifeless — art/performance」的用法，與本句語境不同。",
-        "lifeless-mcq-05": "「毫無生氣地；呆滯地；無力地」是「lifelessly」的用法，與本句語境不同。",
-        "lifeless-mcq-06": "「缺乏生命、活力或氣氛的狀態」是「lifelessness」的用法，與本句語境不同。"
+        "lifeless-mcq-02": "本句的「lifeless」指「缺乏活力、氣氛、溫度或動感；死氣沉沉的」。",
+        "lifeless-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lifeless-mcq-02"
     },
@@ -295,11 +263,7 @@ export default {
       "masked": "Without people, the square looked strangely ____.",
       "options": [
         "lifeless-mcq-02",
-        "lifeless-mcq-01",
-        "lifeless-mcq-03",
-        "lifeless-mcq-04",
-        "lifeless-mcq-05",
-        "lifeless-mcq-06"
+        "lifeless-mcq-05"
       ],
       "explanation": "本句的「lifeless」指「缺乏活力、氣氛、溫度或動感；死氣沉沉的」。",
       "sentenceIndex": 4,
@@ -308,12 +272,8 @@ export default {
         "lifeless"
       ],
       "optionReasons": {
-        "lifeless-mcq-02": "本句指「缺乏活力、氣氛、溫度或動感；死氣沉沉的」。",
-        "lifeless-mcq-01": "「已經沒有生命或完全沒有生命跡象的」是「lifeless — literally not alive」的用法，與本句語境不同。",
-        "lifeless-mcq-03": "「缺乏表情、精神或情緒；呆滯的、毫無神采的」是「lifeless — face/voice/person」的用法，與本句語境不同。",
-        "lifeless-mcq-04": "「缺乏感染力、自然感或活力的」是「lifeless — art/performance」的用法，與本句語境不同。",
-        "lifeless-mcq-05": "「毫無生氣地；呆滯地；無力地」是「lifelessly」的用法，與本句語境不同。",
-        "lifeless-mcq-06": "「缺乏生命、活力或氣氛的狀態」是「lifelessness」的用法，與本句語境不同。"
+        "lifeless-mcq-02": "本句的「lifeless」指「缺乏活力、氣氛、溫度或動感；死氣沉沉的」。",
+        "lifeless-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lifeless-mcq-02"
     },
@@ -325,11 +285,7 @@ export default {
       "masked": "His eyes looked ____.",
       "options": [
         "lifeless-pdf-001",
-        "lifeless-mcq-02",
-        "lifeless-mcq-04",
-        "lifeless-mcq-01",
-        "lifeless-mcq-05",
-        "lifeless-mcq-06"
+        "lifeless-mcq-05"
       ],
       "explanation": "本句的「lifeless」指「表情、眼神、聲音或動作缺乏情緒、精神或活力」。",
       "sentenceIndex": 5,
@@ -338,12 +294,8 @@ export default {
         "lifeless"
       ],
       "optionReasons": {
-        "lifeless-pdf-001": "本句指「表情、眼神、聲音或動作缺乏情緒、精神或活力」。",
-        "lifeless-mcq-02": "「缺乏活力、氣氛、溫度或動感；死氣沉沉的」是「lifeless — atmosphere/place」的用法，與本句語境不同。",
-        "lifeless-mcq-04": "「缺乏感染力、自然感或活力的」是「lifeless — art/performance」的用法，與本句語境不同。",
-        "lifeless-mcq-01": "「已經沒有生命或完全沒有生命跡象的」是「lifeless — literally not alive」的用法，與本句語境不同。",
-        "lifeless-mcq-05": "「毫無生氣地；呆滯地；無力地」是「lifelessly」的用法，與本句語境不同。",
-        "lifeless-mcq-06": "「缺乏生命、活力或氣氛的狀態」是「lifelessness」的用法，與本句語境不同。"
+        "lifeless-pdf-001": "本句的「lifeless」指「表情、眼神、聲音或動作缺乏情緒、精神或活力」。",
+        "lifeless-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lifeless-pdf-001"
     },
@@ -355,11 +307,7 @@ export default {
       "masked": "She spoke in a flat, ____ voice.",
       "options": [
         "lifeless-pdf-001",
-        "lifeless-mcq-02",
-        "lifeless-mcq-04",
-        "lifeless-mcq-01",
-        "lifeless-mcq-05",
-        "lifeless-mcq-06"
+        "lifeless-mcq-05"
       ],
       "explanation": "本句的「lifeless」指「表情、眼神、聲音或動作缺乏情緒、精神或活力」。",
       "sentenceIndex": 6,
@@ -368,12 +316,8 @@ export default {
         "lifeless"
       ],
       "optionReasons": {
-        "lifeless-pdf-001": "本句指「表情、眼神、聲音或動作缺乏情緒、精神或活力」。",
-        "lifeless-mcq-02": "「缺乏活力、氣氛、溫度或動感；死氣沉沉的」是「lifeless — atmosphere/place」的用法，與本句語境不同。",
-        "lifeless-mcq-04": "「缺乏感染力、自然感或活力的」是「lifeless — art/performance」的用法，與本句語境不同。",
-        "lifeless-mcq-01": "「已經沒有生命或完全沒有生命跡象的」是「lifeless — literally not alive」的用法，與本句語境不同。",
-        "lifeless-mcq-05": "「毫無生氣地；呆滯地；無力地」是「lifelessly」的用法，與本句語境不同。",
-        "lifeless-mcq-06": "「缺乏生命、活力或氣氛的狀態」是「lifelessness」的用法，與本句語境不同。"
+        "lifeless-pdf-001": "本句的「lifeless」指「表情、眼神、聲音或動作缺乏情緒、精神或活力」。",
+        "lifeless-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lifeless-pdf-001"
     },
@@ -385,11 +329,7 @@ export default {
       "masked": "The street looked completely ____ at midnight.",
       "options": [
         "lifeless-mcq-07",
-        "lifeless-mcq-06",
-        "lifeless-mcq-05",
-        "lifeless-mcq-04",
-        "lifeless-mcq-03",
-        "lifeless-mcq-02"
+        "lifeless-mcq-05"
       ],
       "explanation": "本句的「lifeless」指「沒有明顯活動、動作或生命跡象」。",
       "sentenceIndex": 7,
@@ -398,12 +338,8 @@ export default {
         "lifeless"
       ],
       "optionReasons": {
-        "lifeless-mcq-07": "本句指「沒有明顯活動、動作或生命跡象」。",
-        "lifeless-mcq-06": "「缺乏生命、活力或氣氛的狀態」是「lifelessness」的用法，與本句語境不同。",
-        "lifeless-mcq-05": "「毫無生氣地；呆滯地；無力地」是「lifelessly」的用法，與本句語境不同。",
-        "lifeless-mcq-04": "「缺乏感染力、自然感或活力的」是「lifeless — art/performance」的用法，與本句語境不同。",
-        "lifeless-mcq-03": "「缺乏表情、精神或情緒；呆滯的、毫無神采的」是「lifeless — face/voice/person」的用法，與本句語境不同。",
-        "lifeless-mcq-02": "「缺乏活力、氣氛、溫度或動感；死氣沉沉的」是「lifeless — atmosphere/place」的用法，與本句語境不同。"
+        "lifeless-mcq-07": "本句的「lifeless」指「沒有明顯活動、動作或生命跡象」。",
+        "lifeless-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lifeless-mcq-07"
     },
@@ -415,11 +351,7 @@ export default {
       "masked": "The landscape seemed dry and ____.",
       "options": [
         "lifeless-mcq-07",
-        "lifeless-mcq-06",
-        "lifeless-mcq-05",
-        "lifeless-mcq-04",
-        "lifeless-mcq-03",
-        "lifeless-mcq-02"
+        "lifeless-mcq-05"
       ],
       "explanation": "本句的「lifeless」指「沒有明顯活動、動作或生命跡象」。",
       "sentenceIndex": 8,
@@ -428,12 +360,8 @@ export default {
         "lifeless"
       ],
       "optionReasons": {
-        "lifeless-mcq-07": "本句指「沒有明顯活動、動作或生命跡象」。",
-        "lifeless-mcq-06": "「缺乏生命、活力或氣氛的狀態」是「lifelessness」的用法，與本句語境不同。",
-        "lifeless-mcq-05": "「毫無生氣地；呆滯地；無力地」是「lifelessly」的用法，與本句語境不同。",
-        "lifeless-mcq-04": "「缺乏感染力、自然感或活力的」是「lifeless — art/performance」的用法，與本句語境不同。",
-        "lifeless-mcq-03": "「缺乏表情、精神或情緒；呆滯的、毫無神采的」是「lifeless — face/voice/person」的用法，與本句語境不同。",
-        "lifeless-mcq-02": "「缺乏活力、氣氛、溫度或動感；死氣沉沉的」是「lifeless — atmosphere/place」的用法，與本句語境不同。"
+        "lifeless-mcq-07": "本句的「lifeless」指「沒有明顯活動、動作或生命跡象」。",
+        "lifeless-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lifeless-mcq-07"
     },
@@ -445,11 +373,7 @@ export default {
       "masked": "The performance was technically correct but ____.",
       "options": [
         "lifeless-mcq-04",
-        "lifeless-mcq-03",
-        "lifeless-mcq-05",
-        "lifeless-mcq-02",
-        "lifeless-mcq-06",
-        "lifeless-mcq-01"
+        "lifeless-mcq-05"
       ],
       "explanation": "本句的「lifeless」指「缺乏感染力、自然感或活力的」。",
       "sentenceIndex": 9,
@@ -458,12 +382,8 @@ export default {
         "lifeless"
       ],
       "optionReasons": {
-        "lifeless-mcq-04": "本句指「缺乏感染力、自然感或活力的」。",
-        "lifeless-mcq-03": "「缺乏表情、精神或情緒；呆滯的、毫無神采的」是「lifeless — face/voice/person」的用法，與本句語境不同。",
-        "lifeless-mcq-05": "「毫無生氣地；呆滯地；無力地」是「lifelessly」的用法，與本句語境不同。",
-        "lifeless-mcq-02": "「缺乏活力、氣氛、溫度或動感；死氣沉沉的」是「lifeless — atmosphere/place」的用法，與本句語境不同。",
-        "lifeless-mcq-06": "「缺乏生命、活力或氣氛的狀態」是「lifelessness」的用法，與本句語境不同。",
-        "lifeless-mcq-01": "「已經沒有生命或完全沒有生命跡象的」是「lifeless — literally not alive」的用法，與本句語境不同。"
+        "lifeless-mcq-04": "本句的「lifeless」指「缺乏感染力、自然感或活力的」。",
+        "lifeless-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lifeless-mcq-04"
     },
@@ -475,11 +395,7 @@ export default {
       "masked": "The dialogue felt ____.",
       "options": [
         "lifeless-mcq-04",
-        "lifeless-mcq-03",
-        "lifeless-mcq-05",
-        "lifeless-mcq-02",
-        "lifeless-mcq-06",
-        "lifeless-mcq-01"
+        "lifeless-mcq-05"
       ],
       "explanation": "本句的「lifeless」指「缺乏感染力、自然感或活力的」。",
       "sentenceIndex": 10,
@@ -488,12 +404,8 @@ export default {
         "lifeless"
       ],
       "optionReasons": {
-        "lifeless-mcq-04": "本句指「缺乏感染力、自然感或活力的」。",
-        "lifeless-mcq-03": "「缺乏表情、精神或情緒；呆滯的、毫無神采的」是「lifeless — face/voice/person」的用法，與本句語境不同。",
-        "lifeless-mcq-05": "「毫無生氣地；呆滯地；無力地」是「lifelessly」的用法，與本句語境不同。",
-        "lifeless-mcq-02": "「缺乏活力、氣氛、溫度或動感；死氣沉沉的」是「lifeless — atmosphere/place」的用法，與本句語境不同。",
-        "lifeless-mcq-06": "「缺乏生命、活力或氣氛的狀態」是「lifelessness」的用法，與本句語境不同。",
-        "lifeless-mcq-01": "「已經沒有生命或完全沒有生命跡象的」是「lifeless — literally not alive」的用法，與本句語境不同。"
+        "lifeless-mcq-04": "本句的「lifeless」指「缺乏感染力、自然感或活力的」。",
+        "lifeless-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lifeless-mcq-04"
     },
@@ -505,11 +417,7 @@ export default {
       "masked": "His arms hung ____ by his sides.",
       "options": [
         "lifeless-mcq-05",
-        "lifeless-mcq-04",
-        "lifeless-mcq-06",
-        "lifeless-mcq-03",
-        "lifeless-mcq-07",
-        "lifeless-mcq-02"
+        "lifeless-pdf-001"
       ],
       "explanation": "本句的「lifelessly」指「毫無生氣地；呆滯地；無力地」。",
       "sentenceIndex": 11,
@@ -518,12 +426,8 @@ export default {
         "lifelessly"
       ],
       "optionReasons": {
-        "lifeless-mcq-05": "本句指「毫無生氣地；呆滯地；無力地」。",
-        "lifeless-mcq-04": "「缺乏感染力、自然感或活力的」是「lifeless — art/performance」的用法，與本句語境不同。",
-        "lifeless-mcq-06": "「缺乏生命、活力或氣氛的狀態」是「lifelessness」的用法，與本句語境不同。",
-        "lifeless-mcq-03": "「缺乏表情、精神或情緒；呆滯的、毫無神采的」是「lifeless — face/voice/person」的用法，與本句語境不同。",
-        "lifeless-mcq-07": "「沒有明顯活動、動作或生命跡象」是「4. lifeless = lacking movement or activity（動態） — 靜止的；沒有活動的」的用法，與本句語境不同。",
-        "lifeless-mcq-02": "「缺乏活力、氣氛、溫度或動感；死氣沉沉的」是「lifeless — atmosphere/place」的用法，與本句語境不同。"
+        "lifeless-mcq-05": "本句的「lifelessly」指「毫無生氣地；呆滯地；無力地」。",
+        "lifeless-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lifeless-mcq-05"
     },
@@ -535,11 +439,7 @@ export default {
       "masked": "The ____ of the room made it uncomfortable.",
       "options": [
         "lifeless-mcq-06",
-        "lifeless-mcq-05",
-        "lifeless-mcq-07",
-        "lifeless-mcq-04",
-        "lifeless-mcq-03",
-        "lifeless-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「lifelessness」指「缺乏生命、活力或氣氛的狀態」。",
       "sentenceIndex": 12,
@@ -548,12 +448,8 @@ export default {
         "lifelessness"
       ],
       "optionReasons": {
-        "lifeless-mcq-06": "本句指「缺乏生命、活力或氣氛的狀態」。",
-        "lifeless-mcq-05": "「毫無生氣地；呆滯地；無力地」是「lifelessly」的用法，與本句語境不同。",
-        "lifeless-mcq-07": "「沒有明顯活動、動作或生命跡象」是「4. lifeless = lacking movement or activity（動態） — 靜止的；沒有活動的」的用法，與本句語境不同。",
-        "lifeless-mcq-04": "「缺乏感染力、自然感或活力的」是「lifeless — art/performance」的用法，與本句語境不同。",
-        "lifeless-mcq-03": "「缺乏表情、精神或情緒；呆滯的、毫無神采的」是「lifeless — face/voice/person」的用法，與本句語境不同。",
-        "lifeless-mcq-02": "「缺乏活力、氣氛、溫度或動感；死氣沉沉的」是「lifeless — atmosphere/place」的用法，與本句語境不同。"
+        "lifeless-mcq-06": "本句的「lifelessness」指「缺乏生命、活力或氣氛的狀態」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lifeless-mcq-06"
     }
@@ -565,5 +461,12 @@ export default {
     "sha256": "779841c0c48f45e94600c977db713f264c9706d78006c284ba440465fd5dca54",
     "pages": 7
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

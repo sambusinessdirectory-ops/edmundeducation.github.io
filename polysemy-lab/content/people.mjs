@@ -426,11 +426,9 @@ export default {
       "masked": "Only one ____ was waiting at the bus stop.",
       "options": [
         "people-mcq-01",
-        "people-mcq-02",
+        "people-mcq-17",
         "people-mcq-03",
-        "people-mcq-04",
-        "people-mcq-05",
-        "people-mcq-06"
+        "people-mcq-14"
       ],
       "explanation": "本句的「person」指「單獨的一名人類個體」。",
       "sentenceIndex": 0,
@@ -439,12 +437,10 @@ export default {
         "person"
       ],
       "optionReasons": {
-        "people-mcq-01": "本句指「單獨的一名人類個體」。",
-        "people-mcq-02": "「person 最常用的普通複數形式，表示多個人」是「people — plural persons」的用法，與本句語境不同。",
-        "people-mcq-03": "「泛指社會中的一般人們或大眾」是「people — general public」的用法，與本句語境不同。",
-        "people-mcq-04": "「居住於某個特定地方的一群居民」是「people — inhabitants」的用法，與本句語境不同。",
-        "people-mcq-05": "「具有共同民族、文化、歷史或身分的一個族群」是「a people」的用法，與本句語境不同。",
-        "people-mcq-06": "「多個彼此不同的民族或文化族群」是「peoples」的用法，與本句語境不同。"
+        "people-mcq-01": "本句的「person」指「單獨的一名人類個體」。",
+        "people-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-01"
     },
@@ -457,10 +453,8 @@ export default {
       "options": [
         "people-mcq-01",
         "people-mcq-02",
-        "people-mcq-03",
-        "people-mcq-04",
-        "people-mcq-05",
-        "people-mcq-06"
+        "people-mcq-12",
+        "people-mcq-13"
       ],
       "explanation": "本句的「person」指「單獨的一名人類個體」。",
       "sentenceIndex": 1,
@@ -469,12 +463,10 @@ export default {
         "person"
       ],
       "optionReasons": {
-        "people-mcq-01": "本句指「單獨的一名人類個體」。",
-        "people-mcq-02": "「person 最常用的普通複數形式，表示多個人」是「people — plural persons」的用法，與本句語境不同。",
-        "people-mcq-03": "「泛指社會中的一般人們或大眾」是「people — general public」的用法，與本句語境不同。",
-        "people-mcq-04": "「居住於某個特定地方的一群居民」是「people — inhabitants」的用法，與本句語境不同。",
-        "people-mcq-05": "「具有共同民族、文化、歷史或身分的一個族群」是「a people」的用法，與本句語境不同。",
-        "people-mcq-06": "「多個彼此不同的民族或文化族群」是「peoples」的用法，與本句語境不同。"
+        "people-mcq-01": "本句的「person」指「單獨的一名人類個體」。",
+        "people-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-01"
     },
@@ -486,11 +478,9 @@ export default {
       "masked": "The ad showed ordinary ____ in stressful places.",
       "options": [
         "people-mcq-02",
-        "people-mcq-01",
         "people-mcq-03",
-        "people-mcq-04",
-        "people-mcq-05",
-        "people-mcq-06"
+        "people-mcq-06",
+        "people-mcq-14"
       ],
       "explanation": "本句的「people」指「person 最常用的普通複數形式，表示多個人」。",
       "sentenceIndex": 2,
@@ -499,12 +489,10 @@ export default {
         "people"
       ],
       "optionReasons": {
-        "people-mcq-02": "本句指「person 最常用的普通複數形式，表示多個人」。",
-        "people-mcq-01": "「單獨的一名人類個體」是「person」的用法，與本句語境不同。",
-        "people-mcq-03": "「泛指社會中的一般人們或大眾」是「people — general public」的用法，與本句語境不同。",
-        "people-mcq-04": "「居住於某個特定地方的一群居民」是「people — inhabitants」的用法，與本句語境不同。",
-        "people-mcq-05": "「具有共同民族、文化、歷史或身分的一個族群」是「a people」的用法，與本句語境不同。",
-        "people-mcq-06": "「多個彼此不同的民族或文化族群」是「peoples」的用法，與本句語境不同。"
+        "people-mcq-02": "本句的「people」指「person 最常用的普通複數形式，表示多個人」。",
+        "people-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-02"
     },
@@ -516,11 +504,9 @@ export default {
       "masked": "Hundreds of ____ attended the event.",
       "options": [
         "people-mcq-02",
-        "people-mcq-01",
-        "people-mcq-03",
         "people-mcq-04",
-        "people-mcq-05",
-        "people-mcq-06"
+        "people-mcq-07",
+        "people-mcq-10"
       ],
       "explanation": "本句的「people」指「person 最常用的普通複數形式，表示多個人」。",
       "sentenceIndex": 3,
@@ -529,12 +515,10 @@ export default {
         "people"
       ],
       "optionReasons": {
-        "people-mcq-02": "本句指「person 最常用的普通複數形式，表示多個人」。",
-        "people-mcq-01": "「單獨的一名人類個體」是「person」的用法，與本句語境不同。",
-        "people-mcq-03": "「泛指社會中的一般人們或大眾」是「people — general public」的用法，與本句語境不同。",
-        "people-mcq-04": "「居住於某個特定地方的一群居民」是「people — inhabitants」的用法，與本句語境不同。",
-        "people-mcq-05": "「具有共同民族、文化、歷史或身分的一個族群」是「a people」的用法，與本句語境不同。",
-        "people-mcq-06": "「多個彼此不同的民族或文化族群」是「peoples」的用法，與本句語境不同。"
+        "people-mcq-02": "本句的「people」指「person 最常用的普通複數形式，表示多個人」。",
+        "people-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-02"
     },
@@ -546,11 +530,9 @@ export default {
       "masked": "Some ____ prefer working from home.",
       "options": [
         "people-mcq-02",
-        "people-mcq-01",
-        "people-mcq-03",
+        "people-mcq-18",
         "people-mcq-04",
-        "people-mcq-05",
-        "people-mcq-06"
+        "people-mcq-03"
       ],
       "explanation": "本句的「people」指「person 最常用的普通複數形式，表示多個人」。",
       "sentenceIndex": 4,
@@ -559,12 +541,10 @@ export default {
         "people"
       ],
       "optionReasons": {
-        "people-mcq-02": "本句指「person 最常用的普通複數形式，表示多個人」。",
-        "people-mcq-01": "「單獨的一名人類個體」是「person」的用法，與本句語境不同。",
-        "people-mcq-03": "「泛指社會中的一般人們或大眾」是「people — general public」的用法，與本句語境不同。",
-        "people-mcq-04": "「居住於某個特定地方的一群居民」是「people — inhabitants」的用法，與本句語境不同。",
-        "people-mcq-05": "「具有共同民族、文化、歷史或身分的一個族群」是「a people」的用法，與本句語境不同。",
-        "people-mcq-06": "「多個彼此不同的民族或文化族群」是「peoples」的用法，與本句語境不同。"
+        "people-mcq-02": "本句的「people」指「person 最常用的普通複數形式，表示多個人」。",
+        "people-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-02"
     },
@@ -576,11 +556,9 @@ export default {
       "masked": "____ are becoming more concerned about online privacy.",
       "options": [
         "people-mcq-03",
-        "people-mcq-02",
-        "people-mcq-04",
-        "people-mcq-01",
+        "people-mcq-16",
         "people-mcq-05",
-        "people-mcq-06"
+        "people-mcq-08"
       ],
       "explanation": "本句的「People」指「泛指社會中的一般人們或大眾」。",
       "sentenceIndex": 5,
@@ -589,12 +567,10 @@ export default {
         "People"
       ],
       "optionReasons": {
-        "people-mcq-03": "本句指「泛指社會中的一般人們或大眾」。",
-        "people-mcq-02": "「person 最常用的普通複數形式，表示多個人」是「people — plural persons」的用法，與本句語境不同。",
-        "people-mcq-04": "「居住於某個特定地方的一群居民」是「people — inhabitants」的用法，與本句語境不同。",
-        "people-mcq-01": "「單獨的一名人類個體」是「person」的用法，與本句語境不同。",
-        "people-mcq-05": "「具有共同民族、文化、歷史或身分的一個族群」是「a people」的用法，與本句語境不同。",
-        "people-mcq-06": "「多個彼此不同的民族或文化族群」是「peoples」的用法，與本句語境不同。"
+        "people-mcq-03": "本句的「People」指「泛指社會中的一般人們或大眾」。",
+        "people-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-03"
     },
@@ -606,11 +582,9 @@ export default {
       "masked": "The campaign was designed to encourage ____ to use public transport.",
       "options": [
         "people-mcq-03",
-        "people-mcq-02",
-        "people-mcq-04",
-        "people-mcq-01",
-        "people-mcq-05",
-        "people-mcq-06"
+        "people-mcq-12",
+        "people-mcq-18",
+        "people-mcq-04"
       ],
       "explanation": "本句的「people」指「泛指社會中的一般人們或大眾」。",
       "sentenceIndex": 6,
@@ -619,12 +593,10 @@ export default {
         "people"
       ],
       "optionReasons": {
-        "people-mcq-03": "本句指「泛指社會中的一般人們或大眾」。",
-        "people-mcq-02": "「person 最常用的普通複數形式，表示多個人」是「people — plural persons」的用法，與本句語境不同。",
-        "people-mcq-04": "「居住於某個特定地方的一群居民」是「people — inhabitants」的用法，與本句語境不同。",
-        "people-mcq-01": "「單獨的一名人類個體」是「person」的用法，與本句語境不同。",
-        "people-mcq-05": "「具有共同民族、文化、歷史或身分的一個族群」是「a people」的用法，與本句語境不同。",
-        "people-mcq-06": "「多個彼此不同的民族或文化族群」是「peoples」的用法，與本句語境不同。"
+        "people-mcq-03": "本句的「people」指「泛指社會中的一般人們或大眾」。",
+        "people-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-03"
     },
@@ -636,11 +608,9 @@ export default {
       "masked": "The ____ of the village welcomed the visitors.",
       "options": [
         "people-mcq-04",
-        "people-mcq-03",
-        "people-mcq-05",
-        "people-mcq-02",
-        "people-mcq-06",
-        "people-mcq-01"
+        "people-mcq-13",
+        "people-mcq-01",
+        "people-mcq-14"
       ],
       "explanation": "本句的「people」指「居住於某個特定地方的一群居民」。",
       "sentenceIndex": 7,
@@ -649,12 +619,10 @@ export default {
         "people"
       ],
       "optionReasons": {
-        "people-mcq-04": "本句指「居住於某個特定地方的一群居民」。",
-        "people-mcq-03": "「泛指社會中的一般人們或大眾」是「people — general public」的用法，與本句語境不同。",
-        "people-mcq-05": "「具有共同民族、文化、歷史或身分的一個族群」是「a people」的用法，與本句語境不同。",
-        "people-mcq-02": "「person 最常用的普通複數形式，表示多個人」是「people — plural persons」的用法，與本句語境不同。",
-        "people-mcq-06": "「多個彼此不同的民族或文化族群」是「peoples」的用法，與本句語境不同。",
-        "people-mcq-01": "「單獨的一名人類個體」是「person」的用法，與本句語境不同。"
+        "people-mcq-04": "本句的「people」指「居住於某個特定地方的一群居民」。",
+        "people-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-04"
     },
@@ -666,11 +634,9 @@ export default {
       "masked": "Local ____ opposed the proposed development.",
       "options": [
         "people-mcq-04",
-        "people-mcq-03",
-        "people-mcq-05",
-        "people-mcq-02",
-        "people-mcq-06",
-        "people-mcq-01"
+        "people-mcq-13",
+        "people-mcq-08",
+        "people-mcq-14"
       ],
       "explanation": "本句的「people」指「居住於某個特定地方的一群居民」。",
       "sentenceIndex": 8,
@@ -679,12 +645,10 @@ export default {
         "people"
       ],
       "optionReasons": {
-        "people-mcq-04": "本句指「居住於某個特定地方的一群居民」。",
-        "people-mcq-03": "「泛指社會中的一般人們或大眾」是「people — general public」的用法，與本句語境不同。",
-        "people-mcq-05": "「具有共同民族、文化、歷史或身分的一個族群」是「a people」的用法，與本句語境不同。",
-        "people-mcq-02": "「person 最常用的普通複數形式，表示多個人」是「people — plural persons」的用法，與本句語境不同。",
-        "people-mcq-06": "「多個彼此不同的民族或文化族群」是「peoples」的用法，與本句語境不同。",
-        "people-mcq-01": "「單獨的一名人類個體」是「person」的用法，與本句語境不同。"
+        "people-mcq-04": "本句的「people」指「居住於某個特定地方的一群居民」。",
+        "people-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-04"
     },
@@ -696,10 +660,8 @@ export default {
       "masked": "They are a ____ with a long cultural tradition.",
       "options": [
         "people-mcq-05",
-        "people-mcq-04",
-        "people-mcq-06",
-        "people-mcq-03",
-        "people-mcq-07",
+        "people-mcq-09",
+        "people-mcq-15",
         "people-mcq-02"
       ],
       "explanation": "本句的「people」指「具有共同民族、文化、歷史或身分的一個族群」。",
@@ -709,12 +671,10 @@ export default {
         "people"
       ],
       "optionReasons": {
-        "people-mcq-05": "本句指「具有共同民族、文化、歷史或身分的一個族群」。",
-        "people-mcq-04": "「居住於某個特定地方的一群居民」是「people — inhabitants」的用法，與本句語境不同。",
-        "people-mcq-06": "「多個彼此不同的民族或文化族群」是「peoples」的用法，與本句語境不同。",
-        "people-mcq-03": "「泛指社會中的一般人們或大眾」是「people — general public」的用法，與本句語境不同。",
-        "people-mcq-07": "「在正式、法律或行政語境中所指的多名個別人士」是「persons」的用法，與本句語境不同。",
-        "people-mcq-02": "「person 最常用的普通複數形式，表示多個人」是「people — plural persons」的用法，與本句語境不同。"
+        "people-mcq-05": "本句的「people」指「具有共同民族、文化、歷史或身分的一個族群」。",
+        "people-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-05"
     },
@@ -726,11 +686,9 @@ export default {
       "masked": "The constitution recognizes them as a distinct ____.",
       "options": [
         "people-mcq-05",
-        "people-mcq-04",
-        "people-mcq-06",
-        "people-mcq-03",
-        "people-mcq-07",
-        "people-mcq-02"
+        "people-mcq-01",
+        "people-mcq-09",
+        "people-mcq-18"
       ],
       "explanation": "本句的「people」指「具有共同民族、文化、歷史或身分的一個族群」。",
       "sentenceIndex": 10,
@@ -739,12 +697,10 @@ export default {
         "people"
       ],
       "optionReasons": {
-        "people-mcq-05": "本句指「具有共同民族、文化、歷史或身分的一個族群」。",
-        "people-mcq-04": "「居住於某個特定地方的一群居民」是「people — inhabitants」的用法，與本句語境不同。",
-        "people-mcq-06": "「多個彼此不同的民族或文化族群」是「peoples」的用法，與本句語境不同。",
-        "people-mcq-03": "「泛指社會中的一般人們或大眾」是「people — general public」的用法，與本句語境不同。",
-        "people-mcq-07": "「在正式、法律或行政語境中所指的多名個別人士」是「persons」的用法，與本句語境不同。",
-        "people-mcq-02": "「person 最常用的普通複數形式，表示多個人」是「people — plural persons」的用法，與本句語境不同。"
+        "people-mcq-05": "本句的「people」指「具有共同民族、文化、歷史或身分的一個族群」。",
+        "people-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-05"
     },
@@ -756,11 +712,9 @@ export default {
       "masked": "The region is home to many different ____.",
       "options": [
         "people-mcq-06",
-        "people-mcq-05",
-        "people-mcq-07",
-        "people-mcq-04",
-        "people-mcq-08",
-        "people-mcq-03"
+        "people-mcq-12",
+        "people-mcq-15",
+        "people-mcq-16"
       ],
       "explanation": "本句的「peoples」指「多個彼此不同的民族或文化族群」。",
       "sentenceIndex": 11,
@@ -769,12 +723,10 @@ export default {
         "peoples"
       ],
       "optionReasons": {
-        "people-mcq-06": "本句指「多個彼此不同的民族或文化族群」。",
-        "people-mcq-05": "「具有共同民族、文化、歷史或身分的一個族群」是「a people」的用法，與本句語境不同。",
-        "people-mcq-07": "「在正式、法律或行政語境中所指的多名個別人士」是「persons」的用法，與本句語境不同。",
-        "people-mcq-04": "「居住於某個特定地方的一群居民」是「people — inhabitants」的用法，與本句語境不同。",
-        "people-mcq-08": "「區分說話者、聽話者及其他對象的文法人稱」是「person — grammar」的用法，與本句語境不同。",
-        "people-mcq-03": "「泛指社會中的一般人們或大眾」是「people — general public」的用法，與本句語境不同。"
+        "people-mcq-06": "本句的「peoples」指「多個彼此不同的民族或文化族群」。",
+        "people-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-06"
     },
@@ -786,11 +738,9 @@ export default {
       "masked": "The museum explores the cultures of Indigenous ____.",
       "options": [
         "people-mcq-06",
-        "people-mcq-05",
         "people-mcq-07",
-        "people-mcq-04",
-        "people-mcq-08",
-        "people-mcq-03"
+        "people-mcq-15",
+        "people-mcq-18"
       ],
       "explanation": "本句的「peoples」指「多個彼此不同的民族或文化族群」。",
       "sentenceIndex": 12,
@@ -799,12 +749,10 @@ export default {
         "peoples"
       ],
       "optionReasons": {
-        "people-mcq-06": "本句指「多個彼此不同的民族或文化族群」。",
-        "people-mcq-05": "「具有共同民族、文化、歷史或身分的一個族群」是「a people」的用法，與本句語境不同。",
-        "people-mcq-07": "「在正式、法律或行政語境中所指的多名個別人士」是「persons」的用法，與本句語境不同。",
-        "people-mcq-04": "「居住於某個特定地方的一群居民」是「people — inhabitants」的用法，與本句語境不同。",
-        "people-mcq-08": "「區分說話者、聽話者及其他對象的文法人稱」是「person — grammar」的用法，與本句語境不同。",
-        "people-mcq-03": "「泛指社會中的一般人們或大眾」是「people — general public」的用法，與本句語境不同。"
+        "people-mcq-06": "本句的「peoples」指「多個彼此不同的民族或文化族群」。",
+        "people-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-06"
     },
@@ -816,11 +764,9 @@ export default {
       "masked": "Unauthorized ____ are not permitted to enter.",
       "options": [
         "people-mcq-07",
-        "people-mcq-06",
-        "people-mcq-08",
         "people-mcq-05",
-        "people-mcq-09",
-        "people-mcq-04"
+        "people-mcq-18",
+        "people-mcq-02"
       ],
       "explanation": "本句的「persons」指「在正式、法律或行政語境中所指的多名個別人士」。",
       "sentenceIndex": 13,
@@ -829,12 +775,10 @@ export default {
         "persons"
       ],
       "optionReasons": {
-        "people-mcq-07": "本句指「在正式、法律或行政語境中所指的多名個別人士」。",
-        "people-mcq-06": "「多個彼此不同的民族或文化族群」是「peoples」的用法，與本句語境不同。",
-        "people-mcq-08": "「區分說話者、聽話者及其他對象的文法人稱」是「person — grammar」的用法，與本句語境不同。",
-        "people-mcq-05": "「具有共同民族、文化、歷史或身分的一個族群」是「a people」的用法，與本句語境不同。",
-        "people-mcq-09": "「法律承認可享有權利並承擔義務的個人或組織實體」是「legal person」的用法，與本句語境不同。",
-        "people-mcq-04": "「居住於某個特定地方的一群居民」是「people — inhabitants」的用法，與本句語境不同。"
+        "people-mcq-07": "本句的「persons」指「在正式、法律或行政語境中所指的多名個別人士」。",
+        "people-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-07"
     },
@@ -846,11 +790,9 @@ export default {
       "masked": "The vehicle can carry a maximum of six ____.",
       "options": [
         "people-mcq-07",
-        "people-mcq-06",
-        "people-mcq-08",
-        "people-mcq-05",
-        "people-mcq-09",
-        "people-mcq-04"
+        "people-mcq-15",
+        "people-mcq-10",
+        "people-mcq-14"
       ],
       "explanation": "本句的「persons」指「在正式、法律或行政語境中所指的多名個別人士」。",
       "sentenceIndex": 14,
@@ -859,12 +801,10 @@ export default {
         "persons"
       ],
       "optionReasons": {
-        "people-mcq-07": "本句指「在正式、法律或行政語境中所指的多名個別人士」。",
-        "people-mcq-06": "「多個彼此不同的民族或文化族群」是「peoples」的用法，與本句語境不同。",
-        "people-mcq-08": "「區分說話者、聽話者及其他對象的文法人稱」是「person — grammar」的用法，與本句語境不同。",
-        "people-mcq-05": "「具有共同民族、文化、歷史或身分的一個族群」是「a people」的用法，與本句語境不同。",
-        "people-mcq-09": "「法律承認可享有權利並承擔義務的個人或組織實體」是「legal person」的用法，與本句語境不同。",
-        "people-mcq-04": "「居住於某個特定地方的一群居民」是「people — inhabitants」的用法，與本句語境不同。"
+        "people-mcq-07": "本句的「persons」指「在正式、法律或行政語境中所指的多名個別人士」。",
+        "people-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-07"
     },
@@ -876,11 +816,9 @@ export default {
       "masked": "‘I’ is a first-____ pronoun.",
       "options": [
         "people-mcq-08",
-        "people-mcq-07",
-        "people-mcq-09",
-        "people-mcq-06",
-        "people-mcq-10",
-        "people-mcq-05"
+        "people-mcq-11",
+        "people-mcq-01",
+        "people-mcq-03"
       ],
       "explanation": "本句的「person」指「區分說話者、聽話者及其他對象的文法人稱」。",
       "sentenceIndex": 15,
@@ -889,12 +827,10 @@ export default {
         "person"
       ],
       "optionReasons": {
-        "people-mcq-08": "本句指「區分說話者、聽話者及其他對象的文法人稱」。",
-        "people-mcq-07": "「在正式、法律或行政語境中所指的多名個別人士」是「persons」的用法，與本句語境不同。",
-        "people-mcq-09": "「法律承認可享有權利並承擔義務的個人或組織實體」是「legal person」的用法，與本句語境不同。",
-        "people-mcq-06": "「多個彼此不同的民族或文化族群」是「peoples」的用法，與本句語境不同。",
-        "people-mcq-10": "「本人實際親自到場，而非透過其他方式」是「in person」的用法，與本句語境不同。",
-        "people-mcq-05": "「具有共同民族、文化、歷史或身分的一個族群」是「a people」的用法，與本句語境不同。"
+        "people-mcq-08": "本句的「person」指「區分說話者、聽話者及其他對象的文法人稱」。",
+        "people-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-08"
     },
@@ -906,11 +842,9 @@ export default {
       "masked": "The story is written in the third ____.",
       "options": [
         "people-mcq-08",
-        "people-mcq-07",
-        "people-mcq-09",
-        "people-mcq-06",
-        "people-mcq-10",
-        "people-mcq-05"
+        "people-mcq-04",
+        "people-mcq-17",
+        "people-mcq-14"
       ],
       "explanation": "本句的「person」指「區分說話者、聽話者及其他對象的文法人稱」。",
       "sentenceIndex": 16,
@@ -919,12 +853,10 @@ export default {
         "person"
       ],
       "optionReasons": {
-        "people-mcq-08": "本句指「區分說話者、聽話者及其他對象的文法人稱」。",
-        "people-mcq-07": "「在正式、法律或行政語境中所指的多名個別人士」是「persons」的用法，與本句語境不同。",
-        "people-mcq-09": "「法律承認可享有權利並承擔義務的個人或組織實體」是「legal person」的用法，與本句語境不同。",
-        "people-mcq-06": "「多個彼此不同的民族或文化族群」是「peoples」的用法，與本句語境不同。",
-        "people-mcq-10": "「本人實際親自到場，而非透過其他方式」是「in person」的用法，與本句語境不同。",
-        "people-mcq-05": "「具有共同民族、文化、歷史或身分的一個族群」是「a people」的用法，與本句語境不同。"
+        "people-mcq-08": "本句的「person」指「區分說話者、聽話者及其他對象的文法人稱」。",
+        "people-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-08"
     },
@@ -936,11 +868,9 @@ export default {
       "masked": "A company may be treated as a legal ____.",
       "options": [
         "people-mcq-09",
-        "people-mcq-08",
-        "people-mcq-10",
-        "people-mcq-07",
-        "people-mcq-11",
-        "people-mcq-06"
+        "people-mcq-15",
+        "people-mcq-02",
+        "people-mcq-18"
       ],
       "explanation": "本句的「person」指「法律承認可享有權利並承擔義務的個人或組織實體」。",
       "sentenceIndex": 17,
@@ -949,12 +879,10 @@ export default {
         "person"
       ],
       "optionReasons": {
-        "people-mcq-09": "本句指「法律承認可享有權利並承擔義務的個人或組織實體」。",
-        "people-mcq-08": "「區分說話者、聽話者及其他對象的文法人稱」是「person — grammar」的用法，與本句語境不同。",
-        "people-mcq-10": "「本人實際親自到場，而非透過其他方式」是「in person」的用法，與本句語境不同。",
-        "people-mcq-07": "「在正式、法律或行政語境中所指的多名個別人士」是「persons」的用法，與本句語境不同。",
-        "people-mcq-11": "「屬於某個特定個人或供其私人使用的」是「personal — belongings/use」的用法，與本句語境不同。",
-        "people-mcq-06": "「多個彼此不同的民族或文化族群」是「peoples」的用法，與本句語境不同。"
+        "people-mcq-09": "本句的「person」指「法律承認可享有權利並承擔義務的個人或組織實體」。",
+        "people-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-09"
     },
@@ -966,11 +894,9 @@ export default {
       "masked": "The law applies to both natural and legal ____.",
       "options": [
         "people-mcq-09",
-        "people-mcq-08",
-        "people-mcq-10",
-        "people-mcq-07",
-        "people-mcq-11",
-        "people-mcq-06"
+        "people-mcq-05",
+        "people-mcq-15",
+        "people-mcq-18"
       ],
       "explanation": "本句的「persons」指「法律承認可享有權利並承擔義務的個人或組織實體」。",
       "sentenceIndex": 18,
@@ -979,12 +905,10 @@ export default {
         "persons"
       ],
       "optionReasons": {
-        "people-mcq-09": "本句指「法律承認可享有權利並承擔義務的個人或組織實體」。",
-        "people-mcq-08": "「區分說話者、聽話者及其他對象的文法人稱」是「person — grammar」的用法，與本句語境不同。",
-        "people-mcq-10": "「本人實際親自到場，而非透過其他方式」是「in person」的用法，與本句語境不同。",
-        "people-mcq-07": "「在正式、法律或行政語境中所指的多名個別人士」是「persons」的用法，與本句語境不同。",
-        "people-mcq-11": "「屬於某個特定個人或供其私人使用的」是「personal — belongings/use」的用法，與本句語境不同。",
-        "people-mcq-06": "「多個彼此不同的民族或文化族群」是「peoples」的用法，與本句語境不同。"
+        "people-mcq-09": "本句的「persons」指「法律承認可享有權利並承擔義務的個人或組織實體」。",
+        "people-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-09"
     },
@@ -996,11 +920,9 @@ export default {
       "masked": "You need to sign the document in ____.",
       "options": [
         "people-mcq-10",
-        "people-mcq-09",
-        "people-mcq-11",
-        "people-mcq-08",
-        "people-mcq-12",
-        "people-mcq-07"
+        "people-mcq-18",
+        "people-mcq-07",
+        "people-mcq-05"
       ],
       "explanation": "本句的「person」指「本人實際親自到場，而非透過其他方式」。",
       "sentenceIndex": 19,
@@ -1009,12 +931,10 @@ export default {
         "person"
       ],
       "optionReasons": {
-        "people-mcq-10": "本句指「本人實際親自到場，而非透過其他方式」。",
-        "people-mcq-09": "「法律承認可享有權利並承擔義務的個人或組織實體」是「legal person」的用法，與本句語境不同。",
-        "people-mcq-11": "「屬於某個特定個人或供其私人使用的」是「personal — belongings/use」的用法，與本句語境不同。",
-        "people-mcq-08": "「區分說話者、聽話者及其他對象的文法人稱」是「person — grammar」的用法，與本句語境不同。",
-        "people-mcq-12": "「涉及個人生活、身分、感受或隱私資料的」是「personal — private matters」的用法，與本句語境不同。",
-        "people-mcq-07": "「在正式、法律或行政語境中所指的多名個別人士」是「persons」的用法，與本句語境不同。"
+        "people-mcq-10": "本句的「person」指「本人實際親自到場，而非透過其他方式」。",
+        "people-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-10"
     },
@@ -1026,11 +946,9 @@ export default {
       "masked": "We finally met in ____ after months of video calls.",
       "options": [
         "people-mcq-10",
-        "people-mcq-09",
-        "people-mcq-11",
-        "people-mcq-08",
-        "people-mcq-12",
-        "people-mcq-07"
+        "people-mcq-05",
+        "people-mcq-18",
+        "people-mcq-03"
       ],
       "explanation": "本句的「person」指「本人實際親自到場，而非透過其他方式」。",
       "sentenceIndex": 20,
@@ -1039,12 +957,10 @@ export default {
         "person"
       ],
       "optionReasons": {
-        "people-mcq-10": "本句指「本人實際親自到場，而非透過其他方式」。",
-        "people-mcq-09": "「法律承認可享有權利並承擔義務的個人或組織實體」是「legal person」的用法，與本句語境不同。",
-        "people-mcq-11": "「屬於某個特定個人或供其私人使用的」是「personal — belongings/use」的用法，與本句語境不同。",
-        "people-mcq-08": "「區分說話者、聽話者及其他對象的文法人稱」是「person — grammar」的用法，與本句語境不同。",
-        "people-mcq-12": "「涉及個人生活、身分、感受或隱私資料的」是「personal — private matters」的用法，與本句語境不同。",
-        "people-mcq-07": "「在正式、法律或行政語境中所指的多名個別人士」是「persons」的用法，與本句語境不同。"
+        "people-mcq-10": "本句的「person」指「本人實際親自到場，而非透過其他方式」。",
+        "people-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-10"
     },
@@ -1056,10 +972,8 @@ export default {
       "masked": "Please keep your ____ belongings with you.",
       "options": [
         "people-mcq-11",
-        "people-mcq-10",
-        "people-mcq-12",
-        "people-mcq-09",
-        "people-mcq-13",
+        "people-mcq-02",
+        "people-mcq-16",
         "people-mcq-08"
       ],
       "explanation": "本句的「personal」指「屬於某個特定個人或供其私人使用的」。",
@@ -1069,12 +983,10 @@ export default {
         "personal"
       ],
       "optionReasons": {
-        "people-mcq-11": "本句指「屬於某個特定個人或供其私人使用的」。",
-        "people-mcq-10": "「本人實際親自到場，而非透過其他方式」是「in person」的用法，與本句語境不同。",
-        "people-mcq-12": "「涉及個人生活、身分、感受或隱私資料的」是「personal — private matters」的用法，與本句語境不同。",
-        "people-mcq-09": "「法律承認可享有權利並承擔義務的個人或組織實體」是「legal person」的用法，與本句語境不同。",
-        "people-mcq-13": "「屬於某人自己觀點、偏好、經驗或判斷的」是「personal — opinion/experience」的用法，與本句語境不同。",
-        "people-mcq-08": "「區分說話者、聽話者及其他對象的文法人稱」是「person — grammar」的用法，與本句語境不同。"
+        "people-mcq-11": "本句的「personal」指「屬於某個特定個人或供其私人使用的」。",
+        "people-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-11"
     },
@@ -1086,11 +998,9 @@ export default {
       "masked": "Employees should not use company equipment for ____ purposes.",
       "options": [
         "people-mcq-11",
-        "people-mcq-10",
-        "people-mcq-12",
-        "people-mcq-09",
-        "people-mcq-13",
-        "people-mcq-08"
+        "people-mcq-02",
+        "people-mcq-07",
+        "people-mcq-15"
       ],
       "explanation": "本句的「personal」指「屬於某個特定個人或供其私人使用的」。",
       "sentenceIndex": 22,
@@ -1099,12 +1009,10 @@ export default {
         "personal"
       ],
       "optionReasons": {
-        "people-mcq-11": "本句指「屬於某個特定個人或供其私人使用的」。",
-        "people-mcq-10": "「本人實際親自到場，而非透過其他方式」是「in person」的用法，與本句語境不同。",
-        "people-mcq-12": "「涉及個人生活、身分、感受或隱私資料的」是「personal — private matters」的用法，與本句語境不同。",
-        "people-mcq-09": "「法律承認可享有權利並承擔義務的個人或組織實體」是「legal person」的用法，與本句語境不同。",
-        "people-mcq-13": "「屬於某人自己觀點、偏好、經驗或判斷的」是「personal — opinion/experience」的用法，與本句語境不同。",
-        "people-mcq-08": "「區分說話者、聽話者及其他對象的文法人稱」是「person — grammar」的用法，與本句語境不同。"
+        "people-mcq-11": "本句的「personal」指「屬於某個特定個人或供其私人使用的」。",
+        "people-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-11"
     },
@@ -1116,11 +1024,9 @@ export default {
       "masked": "That is a very ____ question.",
       "options": [
         "people-mcq-12",
-        "people-mcq-11",
-        "people-mcq-13",
-        "people-mcq-10",
-        "people-mcq-14",
-        "people-mcq-09"
+        "people-mcq-02",
+        "people-mcq-07",
+        "people-mcq-04"
       ],
       "explanation": "本句的「personal」指「涉及個人生活、身分、感受或隱私資料的」。",
       "sentenceIndex": 23,
@@ -1129,12 +1035,10 @@ export default {
         "personal"
       ],
       "optionReasons": {
-        "people-mcq-12": "本句指「涉及個人生活、身分、感受或隱私資料的」。",
-        "people-mcq-11": "「屬於某個特定個人或供其私人使用的」是「personal — belongings/use」的用法，與本句語境不同。",
-        "people-mcq-13": "「屬於某人自己觀點、偏好、經驗或判斷的」是「personal — opinion/experience」的用法，與本句語境不同。",
-        "people-mcq-10": "「本人實際親自到場，而非透過其他方式」是「in person」的用法，與本句語境不同。",
-        "people-mcq-14": "「直接針對某個人本身，而不只是事情的」是「personal — directed at someone」的用法，與本句語境不同。",
-        "people-mcq-09": "「法律承認可享有權利並承擔義務的個人或組織實體」是「legal person」的用法，與本句語境不同。"
+        "people-mcq-12": "本句的「personal」指「涉及個人生活、身分、感受或隱私資料的」。",
+        "people-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-12"
     },
@@ -1146,11 +1050,9 @@ export default {
       "masked": "Never share sensitive ____ information online.",
       "options": [
         "people-mcq-12",
-        "people-mcq-11",
-        "people-mcq-13",
+        "people-mcq-03",
         "people-mcq-10",
-        "people-mcq-14",
-        "people-mcq-09"
+        "people-mcq-02"
       ],
       "explanation": "本句的「personal」指「涉及個人生活、身分、感受或隱私資料的」。",
       "sentenceIndex": 24,
@@ -1159,12 +1061,10 @@ export default {
         "personal"
       ],
       "optionReasons": {
-        "people-mcq-12": "本句指「涉及個人生活、身分、感受或隱私資料的」。",
-        "people-mcq-11": "「屬於某個特定個人或供其私人使用的」是「personal — belongings/use」的用法，與本句語境不同。",
-        "people-mcq-13": "「屬於某人自己觀點、偏好、經驗或判斷的」是「personal — opinion/experience」的用法，與本句語境不同。",
-        "people-mcq-10": "「本人實際親自到場，而非透過其他方式」是「in person」的用法，與本句語境不同。",
-        "people-mcq-14": "「直接針對某個人本身，而不只是事情的」是「personal — directed at someone」的用法，與本句語境不同。",
-        "people-mcq-09": "「法律承認可享有權利並承擔義務的個人或組織實體」是「legal person」的用法，與本句語境不同。"
+        "people-mcq-12": "本句的「personal」指「涉及個人生活、身分、感受或隱私資料的」。",
+        "people-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-12"
     },
@@ -1176,11 +1076,9 @@ export default {
       "masked": "That is just my ____ opinion.",
       "options": [
         "people-mcq-13",
-        "people-mcq-12",
         "people-mcq-14",
-        "people-mcq-11",
-        "people-mcq-15",
-        "people-mcq-10"
+        "people-mcq-08",
+        "people-mcq-03"
       ],
       "explanation": "本句的「personal」指「屬於某人自己觀點、偏好、經驗或判斷的」。",
       "sentenceIndex": 25,
@@ -1189,12 +1087,10 @@ export default {
         "personal"
       ],
       "optionReasons": {
-        "people-mcq-13": "本句指「屬於某人自己觀點、偏好、經驗或判斷的」。",
-        "people-mcq-12": "「涉及個人生活、身分、感受或隱私資料的」是「personal — private matters」的用法，與本句語境不同。",
-        "people-mcq-14": "「直接針對某個人本身，而不只是事情的」是「personal — directed at someone」的用法，與本句語境不同。",
-        "people-mcq-11": "「屬於某個特定個人或供其私人使用的」是「personal — belongings/use」的用法，與本句語境不同。",
-        "people-mcq-15": "「從自己個人的觀點或偏好來說」是「personally — opinion」的用法，與本句語境不同。",
-        "people-mcq-10": "「本人實際親自到場，而非透過其他方式」是「in person」的用法，與本句語境不同。"
+        "people-mcq-13": "本句的「personal」指「屬於某人自己觀點、偏好、經驗或判斷的」。",
+        "people-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-13"
     },
@@ -1207,10 +1103,8 @@ export default {
       "options": [
         "people-mcq-13",
         "people-mcq-12",
-        "people-mcq-14",
-        "people-mcq-11",
-        "people-mcq-15",
-        "people-mcq-10"
+        "people-mcq-04",
+        "people-mcq-18"
       ],
       "explanation": "本句的「personal」指「屬於某人自己觀點、偏好、經驗或判斷的」。",
       "sentenceIndex": 26,
@@ -1219,12 +1113,10 @@ export default {
         "personal"
       ],
       "optionReasons": {
-        "people-mcq-13": "本句指「屬於某人自己觀點、偏好、經驗或判斷的」。",
-        "people-mcq-12": "「涉及個人生活、身分、感受或隱私資料的」是「personal — private matters」的用法，與本句語境不同。",
-        "people-mcq-14": "「直接針對某個人本身，而不只是事情的」是「personal — directed at someone」的用法，與本句語境不同。",
-        "people-mcq-11": "「屬於某個特定個人或供其私人使用的」是「personal — belongings/use」的用法，與本句語境不同。",
-        "people-mcq-15": "「從自己個人的觀點或偏好來說」是「personally — opinion」的用法，與本句語境不同。",
-        "people-mcq-10": "「本人實際親自到場，而非透過其他方式」是「in person」的用法，與本句語境不同。"
+        "people-mcq-13": "本句的「personal」指「屬於某人自己觀點、偏好、經驗或判斷的」。",
+        "people-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-13"
     },
@@ -1236,11 +1128,9 @@ export default {
       "masked": "The criticism became too ____.",
       "options": [
         "people-mcq-14",
-        "people-mcq-13",
-        "people-mcq-15",
-        "people-mcq-12",
-        "people-mcq-16",
-        "people-mcq-11"
+        "people-mcq-01",
+        "people-mcq-02",
+        "people-mcq-13"
       ],
       "explanation": "本句的「personal」指「直接針對某個人本身，而不只是事情的」。",
       "sentenceIndex": 27,
@@ -1249,12 +1139,10 @@ export default {
         "personal"
       ],
       "optionReasons": {
-        "people-mcq-14": "本句指「直接針對某個人本身，而不只是事情的」。",
-        "people-mcq-13": "「屬於某人自己觀點、偏好、經驗或判斷的」是「personal — opinion/experience」的用法，與本句語境不同。",
-        "people-mcq-15": "「從自己個人的觀點或偏好來說」是「personally — opinion」的用法，與本句語境不同。",
-        "people-mcq-12": "「涉及個人生活、身分、感受或隱私資料的」是「personal — private matters」的用法，與本句語境不同。",
-        "people-mcq-16": "「由某人本人直接進行，而非由別人代辦」是「personally — directly」的用法，與本句語境不同。",
-        "people-mcq-11": "「屬於某個特定個人或供其私人使用的」是「personal — belongings/use」的用法，與本句語境不同。"
+        "people-mcq-14": "本句的「personal」指「直接針對某個人本身，而不只是事情的」。",
+        "people-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-14"
     },
@@ -1267,10 +1155,8 @@ export default {
       "options": [
         "people-mcq-14",
         "people-mcq-13",
-        "people-mcq-15",
-        "people-mcq-12",
-        "people-mcq-16",
-        "people-mcq-11"
+        "people-mcq-18",
+        "people-mcq-03"
       ],
       "explanation": "本句的「personal」指「直接針對某個人本身，而不只是事情的」。",
       "sentenceIndex": 28,
@@ -1279,12 +1165,10 @@ export default {
         "personal"
       ],
       "optionReasons": {
-        "people-mcq-14": "本句指「直接針對某個人本身，而不只是事情的」。",
-        "people-mcq-13": "「屬於某人自己觀點、偏好、經驗或判斷的」是「personal — opinion/experience」的用法，與本句語境不同。",
-        "people-mcq-15": "「從自己個人的觀點或偏好來說」是「personally — opinion」的用法，與本句語境不同。",
-        "people-mcq-12": "「涉及個人生活、身分、感受或隱私資料的」是「personal — private matters」的用法，與本句語境不同。",
-        "people-mcq-16": "「由某人本人直接進行，而非由別人代辦」是「personally — directly」的用法，與本句語境不同。",
-        "people-mcq-11": "「屬於某個特定個人或供其私人使用的」是「personal — belongings/use」的用法，與本句語境不同。"
+        "people-mcq-14": "本句的「personal」指「直接針對某個人本身，而不只是事情的」。",
+        "people-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-14"
     },
@@ -1296,11 +1180,9 @@ export default {
       "masked": "____, I prefer the simpler design.",
       "options": [
         "people-mcq-15",
-        "people-mcq-14",
-        "people-mcq-16",
-        "people-mcq-13",
-        "people-mcq-17",
-        "people-mcq-12"
+        "people-mcq-12",
+        "people-mcq-06",
+        "people-mcq-09"
       ],
       "explanation": "本句的「Personally」指「從自己個人的觀點或偏好來說」。",
       "sentenceIndex": 29,
@@ -1309,12 +1191,10 @@ export default {
         "Personally"
       ],
       "optionReasons": {
-        "people-mcq-15": "本句指「從自己個人的觀點或偏好來說」。",
-        "people-mcq-14": "「直接針對某個人本身，而不只是事情的」是「personal — directed at someone」的用法，與本句語境不同。",
-        "people-mcq-16": "「由某人本人直接進行，而非由別人代辦」是「personally — directly」的用法，與本句語境不同。",
-        "people-mcq-13": "「屬於某人自己觀點、偏好、經驗或判斷的」是「personal — opinion/experience」的用法，與本句語境不同。",
-        "people-mcq-17": "「構成一個人典型思想、感受及行為方式的性格特徵」是「personality — character」的用法，與本句語境不同。",
-        "people-mcq-12": "「涉及個人生活、身分、感受或隱私資料的」是「personal — private matters」的用法，與本句語境不同。"
+        "people-mcq-15": "本句的「Personally」指「從自己個人的觀點或偏好來說」。",
+        "people-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-15"
     },
@@ -1326,11 +1206,9 @@ export default {
       "masked": "I ____ think the first advertisement was more effective.",
       "options": [
         "people-mcq-15",
-        "people-mcq-14",
-        "people-mcq-16",
-        "people-mcq-13",
-        "people-mcq-17",
-        "people-mcq-12"
+        "people-mcq-03",
+        "people-mcq-12",
+        "people-mcq-14"
       ],
       "explanation": "本句的「personally」指「從自己個人的觀點或偏好來說」。",
       "sentenceIndex": 30,
@@ -1339,12 +1217,10 @@ export default {
         "personally"
       ],
       "optionReasons": {
-        "people-mcq-15": "本句指「從自己個人的觀點或偏好來說」。",
-        "people-mcq-14": "「直接針對某個人本身，而不只是事情的」是「personal — directed at someone」的用法，與本句語境不同。",
-        "people-mcq-16": "「由某人本人直接進行，而非由別人代辦」是「personally — directly」的用法，與本句語境不同。",
-        "people-mcq-13": "「屬於某人自己觀點、偏好、經驗或判斷的」是「personal — opinion/experience」的用法，與本句語境不同。",
-        "people-mcq-17": "「構成一個人典型思想、感受及行為方式的性格特徵」是「personality — character」的用法，與本句語境不同。",
-        "people-mcq-12": "「涉及個人生活、身分、感受或隱私資料的」是「personal — private matters」的用法，與本句語境不同。"
+        "people-mcq-15": "本句的「personally」指「從自己個人的觀點或偏好來說」。",
+        "people-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-15"
     },
@@ -1357,10 +1233,8 @@ export default {
       "options": [
         "people-mcq-16",
         "people-mcq-15",
-        "people-mcq-17",
-        "people-mcq-14",
-        "people-mcq-18",
-        "people-mcq-13"
+        "people-mcq-04",
+        "people-mcq-01"
       ],
       "explanation": "本句的「personally」指「由某人本人直接進行，而非由別人代辦」。",
       "sentenceIndex": 31,
@@ -1369,12 +1243,10 @@ export default {
         "personally"
       ],
       "optionReasons": {
-        "people-mcq-16": "本句指「由某人本人直接進行，而非由別人代辦」。",
-        "people-mcq-15": "「從自己個人的觀點或偏好來說」是「personally — opinion」的用法，與本句語境不同。",
-        "people-mcq-17": "「構成一個人典型思想、感受及行為方式的性格特徵」是「personality — character」的用法，與本句語境不同。",
-        "people-mcq-14": "「直接針對某個人本身，而不只是事情的」是「personal — directed at someone」的用法，與本句語境不同。",
-        "people-mcq-18": "「鮮明、獨特而有辨識度的個性或特色」是「personality — distinctive character」的用法，與本句語境不同。",
-        "people-mcq-13": "「屬於某人自己觀點、偏好、經驗或判斷的」是「personal — opinion/experience」的用法，與本句語境不同。"
+        "people-mcq-16": "本句的「personally」指「由某人本人直接進行，而非由別人代辦」。",
+        "people-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-16"
     },
@@ -1386,11 +1258,9 @@ export default {
       "masked": "She ____ supervised the project.",
       "options": [
         "people-mcq-16",
-        "people-mcq-15",
-        "people-mcq-17",
-        "people-mcq-14",
-        "people-mcq-18",
-        "people-mcq-13"
+        "people-mcq-05",
+        "people-mcq-01",
+        "people-mcq-08"
       ],
       "explanation": "本句的「personally」指「由某人本人直接進行，而非由別人代辦」。",
       "sentenceIndex": 32,
@@ -1399,12 +1269,10 @@ export default {
         "personally"
       ],
       "optionReasons": {
-        "people-mcq-16": "本句指「由某人本人直接進行，而非由別人代辦」。",
-        "people-mcq-15": "「從自己個人的觀點或偏好來說」是「personally — opinion」的用法，與本句語境不同。",
-        "people-mcq-17": "「構成一個人典型思想、感受及行為方式的性格特徵」是「personality — character」的用法，與本句語境不同。",
-        "people-mcq-14": "「直接針對某個人本身，而不只是事情的」是「personal — directed at someone」的用法，與本句語境不同。",
-        "people-mcq-18": "「鮮明、獨特而有辨識度的個性或特色」是「personality — distinctive character」的用法，與本句語境不同。",
-        "people-mcq-13": "「屬於某人自己觀點、偏好、經驗或判斷的」是「personal — opinion/experience」的用法，與本句語境不同。"
+        "people-mcq-16": "本句的「personally」指「由某人本人直接進行，而非由別人代辦」。",
+        "people-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-16"
     },
@@ -1416,11 +1284,9 @@ export default {
       "masked": "She has a warm and friendly ____.",
       "options": [
         "people-mcq-17",
-        "people-mcq-16",
-        "people-mcq-18",
-        "people-mcq-15",
-        "people-mcq-19",
-        "people-mcq-14"
+        "people-mcq-03",
+        "people-mcq-01",
+        "people-mcq-08"
       ],
       "explanation": "本句的「personality」指「構成一個人典型思想、感受及行為方式的性格特徵」。",
       "sentenceIndex": 33,
@@ -1429,12 +1295,10 @@ export default {
         "personality"
       ],
       "optionReasons": {
-        "people-mcq-17": "本句指「構成一個人典型思想、感受及行為方式的性格特徵」。",
-        "people-mcq-16": "「由某人本人直接進行，而非由別人代辦」是「personally — directly」的用法，與本句語境不同。",
-        "people-mcq-18": "「鮮明、獨特而有辨識度的個性或特色」是「personality — distinctive character」的用法，與本句語境不同。",
-        "people-mcq-15": "「從自己個人的觀點或偏好來說」是「personally — opinion」的用法，與本句語境不同。",
-        "people-mcq-19": "「某機構或組織的員工／工作人員」是「personnel」的用法，與本句語境不同。",
-        "people-mcq-14": "「直接針對某個人本身，而不只是事情的」是「personal — directed at someone」的用法，與本句語境不同。"
+        "people-mcq-17": "本句的「personality」指「構成一個人典型思想、感受及行為方式的性格特徵」。",
+        "people-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-17"
     },
@@ -1446,11 +1310,9 @@ export default {
       "masked": "Their ____ are completely different.",
       "options": [
         "people-mcq-17",
-        "people-mcq-16",
-        "people-mcq-18",
-        "people-mcq-15",
-        "people-mcq-19",
-        "people-mcq-14"
+        "people-mcq-14",
+        "people-mcq-02",
+        "people-mcq-05"
       ],
       "explanation": "本句的「personalities」指「構成一個人典型思想、感受及行為方式的性格特徵」。",
       "sentenceIndex": 34,
@@ -1459,12 +1321,10 @@ export default {
         "personalities"
       ],
       "optionReasons": {
-        "people-mcq-17": "本句指「構成一個人典型思想、感受及行為方式的性格特徵」。",
-        "people-mcq-16": "「由某人本人直接進行，而非由別人代辦」是「personally — directly」的用法，與本句語境不同。",
-        "people-mcq-18": "「鮮明、獨特而有辨識度的個性或特色」是「personality — distinctive character」的用法，與本句語境不同。",
-        "people-mcq-15": "「從自己個人的觀點或偏好來說」是「personally — opinion」的用法，與本句語境不同。",
-        "people-mcq-19": "「某機構或組織的員工／工作人員」是「personnel」的用法，與本句語境不同。",
-        "people-mcq-14": "「直接針對某個人本身，而不只是事情的」是「personal — directed at someone」的用法，與本句語境不同。"
+        "people-mcq-17": "本句的「personalities」指「構成一個人典型思想、感受及行為方式的性格特徵」。",
+        "people-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-17"
     },
@@ -1476,11 +1336,9 @@ export default {
       "masked": "The presenter has a lot of ____.",
       "options": [
         "people-mcq-18",
-        "people-mcq-17",
-        "people-mcq-19",
-        "people-mcq-16",
-        "people-mcq-15",
-        "people-mcq-14"
+        "people-mcq-02",
+        "people-mcq-06",
+        "people-mcq-15"
       ],
       "explanation": "本句的「personality」指「鮮明、獨特而有辨識度的個性或特色」。",
       "sentenceIndex": 35,
@@ -1489,12 +1347,10 @@ export default {
         "personality"
       ],
       "optionReasons": {
-        "people-mcq-18": "本句指「鮮明、獨特而有辨識度的個性或特色」。",
-        "people-mcq-17": "「構成一個人典型思想、感受及行為方式的性格特徵」是「personality — character」的用法，與本句語境不同。",
-        "people-mcq-19": "「某機構或組織的員工／工作人員」是「personnel」的用法，與本句語境不同。",
-        "people-mcq-16": "「由某人本人直接進行，而非由別人代辦」是「personally — directly」的用法，與本句語境不同。",
-        "people-mcq-15": "「從自己個人的觀點或偏好來說」是「personally — opinion」的用法，與本句語境不同。",
-        "people-mcq-14": "「直接針對某個人本身，而不只是事情的」是「personal — directed at someone」的用法，與本句語境不同。"
+        "people-mcq-18": "本句的「personality」指「鮮明、獨特而有辨識度的個性或特色」。",
+        "people-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-18"
     },
@@ -1506,11 +1362,9 @@ export default {
       "masked": "The room needs more ____.",
       "options": [
         "people-mcq-18",
-        "people-mcq-17",
-        "people-mcq-19",
-        "people-mcq-16",
-        "people-mcq-15",
-        "people-mcq-14"
+        "people-mcq-09",
+        "people-mcq-02",
+        "people-mcq-06"
       ],
       "explanation": "本句的「personality」指「鮮明、獨特而有辨識度的個性或特色」。",
       "sentenceIndex": 36,
@@ -1519,12 +1373,10 @@ export default {
         "personality"
       ],
       "optionReasons": {
-        "people-mcq-18": "本句指「鮮明、獨特而有辨識度的個性或特色」。",
-        "people-mcq-17": "「構成一個人典型思想、感受及行為方式的性格特徵」是「personality — character」的用法，與本句語境不同。",
-        "people-mcq-19": "「某機構或組織的員工／工作人員」是「personnel」的用法，與本句語境不同。",
-        "people-mcq-16": "「由某人本人直接進行，而非由別人代辦」是「personally — directly」的用法，與本句語境不同。",
-        "people-mcq-15": "「從自己個人的觀點或偏好來說」是「personally — opinion」的用法，與本句語境不同。",
-        "people-mcq-14": "「直接針對某個人本身，而不只是事情的」是「personal — directed at someone」的用法，與本句語境不同。"
+        "people-mcq-18": "本句的「personality」指「鮮明、獨特而有辨識度的個性或特色」。",
+        "people-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "people-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "people-mcq-18"
     }
@@ -1536,5 +1388,7 @@ export default {
     "sha256": "bf005d81a829591df00491aa92636a18ae7dd58c7da2cdad174aa7e29528a0ba",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

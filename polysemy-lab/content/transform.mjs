@@ -426,11 +426,7 @@ export default {
       "masked": "Better habits ____.",
       "options": [
         "transform-mcq-01",
-        "transform-mcq-02",
-        "transform-mcq-03",
-        "transform-mcq-04",
-        "transform-mcq-05",
-        "transform-mcq-06"
+        "transform-mcq-12"
       ],
       "explanation": "本句的「transformed the way I worked」指「徹底改變；改造」。",
       "sentenceIndex": 0,
@@ -439,12 +435,8 @@ export default {
         "transformed the way I worked"
       ],
       "optionReasons": {
-        "transform-mcq-01": "本句指「徹底改變；改造」。",
-        "transform-mcq-02": "「把 A 變成 B」與本句語境不同。",
-        "transform-mcq-03": "「因 X 而徹底改變」與本句語境不同。",
-        "transform-mcq-04": "「改造地方」與本句語境不同。",
-        "transform-mcq-05": "「改變某人的人生」與本句語境不同。",
-        "transform-mcq-06": "「改變做事方式」與本句語境不同。"
+        "transform-mcq-01": "本句的「transformed the way I worked」指「徹底改變；改造」。",
+        "transform-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-01"
     },
@@ -456,11 +448,7 @@ export default {
       "masked": "Technology has ____.",
       "options": [
         "transform-mcq-01",
-        "transform-mcq-02",
-        "transform-mcq-03",
-        "transform-mcq-04",
-        "transform-mcq-05",
-        "transform-mcq-06"
+        "transform-mcq-13"
       ],
       "explanation": "本句的「transformed communication」指「徹底改變；改造」。",
       "sentenceIndex": 1,
@@ -469,12 +457,8 @@ export default {
         "transformed communication"
       ],
       "optionReasons": {
-        "transform-mcq-01": "本句指「徹底改變；改造」。",
-        "transform-mcq-02": "「把 A 變成 B」與本句語境不同。",
-        "transform-mcq-03": "「因 X 而徹底改變」與本句語境不同。",
-        "transform-mcq-04": "「改造地方」與本句語境不同。",
-        "transform-mcq-05": "「改變某人的人生」與本句語境不同。",
-        "transform-mcq-06": "「改變做事方式」與本句語境不同。"
+        "transform-mcq-01": "本句的「transformed communication」指「徹底改變；改造」。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-01"
     },
@@ -486,11 +470,7 @@ export default {
       "masked": "The renovation ____.",
       "options": [
         "transform-mcq-01",
-        "transform-mcq-02",
-        "transform-mcq-03",
-        "transform-mcq-04",
-        "transform-mcq-05",
-        "transform-mcq-06"
+        "transform-mcq-13"
       ],
       "explanation": "本句的「transformed the old building」指「徹底改變；改造」。",
       "sentenceIndex": 2,
@@ -499,12 +479,8 @@ export default {
         "transformed the old building"
       ],
       "optionReasons": {
-        "transform-mcq-01": "本句指「徹底改變；改造」。",
-        "transform-mcq-02": "「把 A 變成 B」與本句語境不同。",
-        "transform-mcq-03": "「因 X 而徹底改變」與本句語境不同。",
-        "transform-mcq-04": "「改造地方」與本句語境不同。",
-        "transform-mcq-05": "「改變某人的人生」與本句語境不同。",
-        "transform-mcq-06": "「改變做事方式」與本句語境不同。"
+        "transform-mcq-01": "本句的「transformed the old building」指「徹底改變；改造」。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-01"
     },
@@ -516,11 +492,8 @@ export default {
       "masked": "Good planning ____.",
       "options": [
         "transform-mcq-02",
-        "transform-mcq-01",
-        "transform-mcq-03",
-        "transform-mcq-04",
-        "transform-mcq-05",
-        "transform-mcq-06"
+        "transform-mcq-12",
+        "transform-mcq-04"
       ],
       "explanation": "本句的「transformed chaos into order」指「把 A 變成 B」。",
       "sentenceIndex": 3,
@@ -529,12 +502,9 @@ export default {
         "transformed chaos into order"
       ],
       "optionReasons": {
-        "transform-mcq-02": "本句指「把 A 變成 B」。",
-        "transform-mcq-01": "「徹底改變；改造」與本句語境不同。",
-        "transform-mcq-03": "「因 X 而徹底改變」與本句語境不同。",
-        "transform-mcq-04": "「改造地方」與本句語境不同。",
-        "transform-mcq-05": "「改變某人的人生」與本句語境不同。",
-        "transform-mcq-06": "「改變做事方式」與本句語境不同。"
+        "transform-mcq-02": "本句的「transformed chaos into order」指「把 A 變成 B」。",
+        "transform-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-02"
     },
@@ -546,11 +516,8 @@ export default {
       "masked": "The factory was ____.",
       "options": [
         "transform-mcq-02",
-        "transform-mcq-01",
-        "transform-mcq-03",
-        "transform-mcq-04",
-        "transform-mcq-05",
-        "transform-mcq-06"
+        "transform-mcq-12",
+        "transform-mcq-04"
       ],
       "explanation": "本句的「transformed into apartments」指「把 A 變成 B」。",
       "sentenceIndex": 4,
@@ -559,12 +526,9 @@ export default {
         "transformed into apartments"
       ],
       "optionReasons": {
-        "transform-mcq-02": "本句指「把 A 變成 B」。",
-        "transform-mcq-01": "「徹底改變；改造」與本句語境不同。",
-        "transform-mcq-03": "「因 X 而徹底改變」與本句語境不同。",
-        "transform-mcq-04": "「改造地方」與本句語境不同。",
-        "transform-mcq-05": "「改變某人的人生」與本句語境不同。",
-        "transform-mcq-06": "「改變做事方式」與本句語境不同。"
+        "transform-mcq-02": "本句的「transformed into apartments」指「把 A 變成 B」。",
+        "transform-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-02"
     },
@@ -576,11 +540,7 @@ export default {
       "masked": "Her life was ____.",
       "options": [
         "transform-mcq-03",
-        "transform-mcq-02",
-        "transform-mcq-04",
-        "transform-mcq-01",
-        "transform-mcq-05",
-        "transform-mcq-06"
+        "transform-mcq-13"
       ],
       "explanation": "本句的「transformed by the experience」指「因 X 而徹底改變」。",
       "sentenceIndex": 5,
@@ -589,12 +549,8 @@ export default {
         "transformed by the experience"
       ],
       "optionReasons": {
-        "transform-mcq-03": "本句指「因 X 而徹底改變」。",
-        "transform-mcq-02": "「把 A 變成 B」與本句語境不同。",
-        "transform-mcq-04": "「改造地方」與本句語境不同。",
-        "transform-mcq-01": "「徹底改變；改造」與本句語境不同。",
-        "transform-mcq-05": "「改變某人的人生」與本句語境不同。",
-        "transform-mcq-06": "「改變做事方式」與本句語境不同。"
+        "transform-mcq-03": "本句的「transformed by the experience」指「因 X 而徹底改變」。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-03"
     },
@@ -606,11 +562,7 @@ export default {
       "masked": "The area has been ____.",
       "options": [
         "transform-mcq-03",
-        "transform-mcq-02",
-        "transform-mcq-04",
-        "transform-mcq-01",
-        "transform-mcq-05",
-        "transform-mcq-06"
+        "transform-mcq-13"
       ],
       "explanation": "本句的「transformed by new development」指「因 X 而徹底改變」。",
       "sentenceIndex": 6,
@@ -619,12 +571,8 @@ export default {
         "transformed by new development"
       ],
       "optionReasons": {
-        "transform-mcq-03": "本句指「因 X 而徹底改變」。",
-        "transform-mcq-02": "「把 A 變成 B」與本句語境不同。",
-        "transform-mcq-04": "「改造地方」與本句語境不同。",
-        "transform-mcq-01": "「徹底改變；改造」與本句語境不同。",
-        "transform-mcq-05": "「改變某人的人生」與本句語境不同。",
-        "transform-mcq-06": "「改變做事方式」與本句語境不同。"
+        "transform-mcq-03": "本句的「transformed by new development」指「因 X 而徹底改變」。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-03"
     },
@@ -636,11 +584,9 @@ export default {
       "masked": "The new park ____.",
       "options": [
         "transform-mcq-04",
-        "transform-mcq-03",
-        "transform-mcq-05",
-        "transform-mcq-02",
-        "transform-mcq-06",
-        "transform-mcq-01"
+        "transform-mcq-10",
+        "transform-mcq-12",
+        "transform-mcq-16"
       ],
       "explanation": "本句的「transformed the neighbourhood」指「改造地方」。",
       "sentenceIndex": 7,
@@ -649,12 +595,10 @@ export default {
         "transformed the neighbourhood"
       ],
       "optionReasons": {
-        "transform-mcq-04": "本句指「改造地方」。",
-        "transform-mcq-03": "「因 X 而徹底改變」與本句語境不同。",
-        "transform-mcq-05": "「改變某人的人生」與本句語境不同。",
-        "transform-mcq-02": "「把 A 變成 B」與本句語境不同。",
-        "transform-mcq-06": "「改變做事方式」與本句語境不同。",
-        "transform-mcq-01": "「徹底改變；改造」與本句語境不同。"
+        "transform-mcq-04": "本句的「transformed the neighbourhood」指「改造地方」。",
+        "transform-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-04"
     },
@@ -666,11 +610,8 @@ export default {
       "masked": "A few simple changes ____.",
       "options": [
         "transform-mcq-04",
-        "transform-mcq-03",
-        "transform-mcq-05",
-        "transform-mcq-02",
-        "transform-mcq-06",
-        "transform-mcq-01"
+        "transform-mcq-12",
+        "transform-mcq-08"
       ],
       "explanation": "本句的「transformed the room」指「改造地方」。",
       "sentenceIndex": 8,
@@ -679,12 +620,9 @@ export default {
         "transformed the room"
       ],
       "optionReasons": {
-        "transform-mcq-04": "本句指「改造地方」。",
-        "transform-mcq-03": "「因 X 而徹底改變」與本句語境不同。",
-        "transform-mcq-05": "「改變某人的人生」與本句語境不同。",
-        "transform-mcq-02": "「把 A 變成 B」與本句語境不同。",
-        "transform-mcq-06": "「改變做事方式」與本句語境不同。",
-        "transform-mcq-01": "「徹底改變；改造」與本句語境不同。"
+        "transform-mcq-04": "本句的「transformed the room」指「改造地方」。",
+        "transform-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-04"
     },
@@ -696,11 +634,7 @@ export default {
       "masked": "The opportunity ____.",
       "options": [
         "transform-mcq-05",
-        "transform-mcq-04",
-        "transform-mcq-06",
-        "transform-mcq-03",
-        "transform-mcq-07",
-        "transform-mcq-02"
+        "transform-mcq-13"
       ],
       "explanation": "本句的「transformed his life」指「改變某人的人生」。",
       "sentenceIndex": 9,
@@ -709,12 +643,8 @@ export default {
         "transformed his life"
       ],
       "optionReasons": {
-        "transform-mcq-05": "本句指「改變某人的人生」。",
-        "transform-mcq-04": "「改造地方」與本句語境不同。",
-        "transform-mcq-06": "「改變做事方式」與本句語境不同。",
-        "transform-mcq-03": "「因 X 而徹底改變」與本句語境不同。",
-        "transform-mcq-07": "「轉變；轉型；蛻變」與本句語境不同。",
-        "transform-mcq-02": "「把 A 變成 B」與本句語境不同。"
+        "transform-mcq-05": "本句的「transformed his life」指「改變某人的人生」。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-05"
     },
@@ -726,11 +656,7 @@ export default {
       "masked": "University ____ into a more confident person.",
       "options": [
         "transform-mcq-05",
-        "transform-mcq-04",
-        "transform-mcq-06",
-        "transform-mcq-03",
-        "transform-mcq-07",
-        "transform-mcq-02"
+        "transform-mcq-12"
       ],
       "explanation": "本句的「transformed her」指「改變某人的人生」。",
       "sentenceIndex": 10,
@@ -739,12 +665,8 @@ export default {
         "transformed her"
       ],
       "optionReasons": {
-        "transform-mcq-05": "本句指「改變某人的人生」。",
-        "transform-mcq-04": "「改造地方」與本句語境不同。",
-        "transform-mcq-06": "「改變做事方式」與本句語境不同。",
-        "transform-mcq-03": "「因 X 而徹底改變」與本句語境不同。",
-        "transform-mcq-07": "「轉變；轉型；蛻變」與本句語境不同。",
-        "transform-mcq-02": "「把 A 變成 B」與本句語境不同。"
+        "transform-mcq-05": "本句的「transformed her」指「改變某人的人生」。",
+        "transform-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-05"
     },
@@ -756,11 +678,7 @@ export default {
       "masked": "Time management ____.",
       "options": [
         "transform-mcq-06",
-        "transform-mcq-05",
-        "transform-mcq-07",
-        "transform-mcq-04",
-        "transform-mcq-08",
-        "transform-mcq-03"
+        "transform-mcq-13"
       ],
       "explanation": "本句的「transformed the way I approached my work」指「改變做事方式」。",
       "sentenceIndex": 11,
@@ -769,12 +687,8 @@ export default {
         "transformed the way I approached my work"
       ],
       "optionReasons": {
-        "transform-mcq-06": "本句指「改變做事方式」。",
-        "transform-mcq-05": "「改變某人的人生」與本句語境不同。",
-        "transform-mcq-07": "「轉變；轉型；蛻變」與本句語境不同。",
-        "transform-mcq-04": "「改造地方」與本句語境不同。",
-        "transform-mcq-08": "「巨大轉變」與本句語境不同。",
-        "transform-mcq-03": "「因 X 而徹底改變」與本句語境不同。"
+        "transform-mcq-06": "本句的「transformed the way I approached my work」指「改變做事方式」。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-06"
     },
@@ -786,11 +700,7 @@ export default {
       "masked": "The app ____.",
       "options": [
         "transform-mcq-06",
-        "transform-mcq-05",
-        "transform-mcq-07",
-        "transform-mcq-04",
-        "transform-mcq-08",
-        "transform-mcq-03"
+        "transform-mcq-13"
       ],
       "explanation": "本句的「transformed the way the team communicated」指「改變做事方式」。",
       "sentenceIndex": 12,
@@ -799,12 +709,8 @@ export default {
         "transformed the way the team communicated"
       ],
       "optionReasons": {
-        "transform-mcq-06": "本句指「改變做事方式」。",
-        "transform-mcq-05": "「改變某人的人生」與本句語境不同。",
-        "transform-mcq-07": "「轉變；轉型；蛻變」與本句語境不同。",
-        "transform-mcq-04": "「改造地方」與本句語境不同。",
-        "transform-mcq-08": "「巨大轉變」與本句語境不同。",
-        "transform-mcq-03": "「因 X 而徹底改變」與本句語境不同。"
+        "transform-mcq-06": "本句的「transformed the way the team communicated」指「改變做事方式」。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-06"
     },
@@ -816,10 +722,6 @@ export default {
       "masked": "It was not a dramatic ____ overnight.",
       "options": [
         "transform-mcq-07",
-        "transform-mcq-06",
-        "transform-mcq-08",
-        "transform-mcq-05",
-        "transform-mcq-09",
         "transform-mcq-04"
       ],
       "explanation": "本句的「transformation」指「轉變；轉型；蛻變」。",
@@ -829,12 +731,8 @@ export default {
         "transformation"
       ],
       "optionReasons": {
-        "transform-mcq-07": "本句指「轉變；轉型；蛻變」。",
-        "transform-mcq-06": "「改變做事方式」與本句語境不同。",
-        "transform-mcq-08": "「巨大轉變」與本句語境不同。",
-        "transform-mcq-05": "「改變某人的人生」與本句語境不同。",
-        "transform-mcq-09": "「經歷轉變」與本句語境不同。",
-        "transform-mcq-04": "「改造地方」與本句語境不同。"
+        "transform-mcq-07": "本句的「transformation」指「轉變；轉型；蛻變」。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-07"
     },
@@ -846,10 +744,6 @@ export default {
       "masked": "Her ____ took several years.",
       "options": [
         "transform-mcq-07",
-        "transform-mcq-06",
-        "transform-mcq-08",
-        "transform-mcq-05",
-        "transform-mcq-09",
         "transform-mcq-04"
       ],
       "explanation": "本句的「transformation」指「轉變；轉型；蛻變」。",
@@ -859,12 +753,8 @@ export default {
         "transformation"
       ],
       "optionReasons": {
-        "transform-mcq-07": "本句指「轉變；轉型；蛻變」。",
-        "transform-mcq-06": "「改變做事方式」與本句語境不同。",
-        "transform-mcq-08": "「巨大轉變」與本句語境不同。",
-        "transform-mcq-05": "「改變某人的人生」與本句語境不同。",
-        "transform-mcq-09": "「經歷轉變」與本句語境不同。",
-        "transform-mcq-04": "「改造地方」與本句語境不同。"
+        "transform-mcq-07": "本句的「transformation」指「轉變；轉型；蛻變」。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-07"
     },
@@ -876,11 +766,8 @@ export default {
       "masked": "The city has undergone a ____.",
       "options": [
         "transform-mcq-08",
-        "transform-mcq-07",
-        "transform-mcq-09",
-        "transform-mcq-06",
-        "transform-mcq-10",
-        "transform-mcq-05"
+        "transform-mcq-04",
+        "transform-mcq-13"
       ],
       "explanation": "本句的「dramatic transformation」指「巨大轉變」。",
       "sentenceIndex": 15,
@@ -889,12 +776,9 @@ export default {
         "dramatic transformation"
       ],
       "optionReasons": {
-        "transform-mcq-08": "本句指「巨大轉變」。",
-        "transform-mcq-07": "「轉變；轉型；蛻變」與本句語境不同。",
-        "transform-mcq-09": "「經歷轉變」與本句語境不同。",
-        "transform-mcq-06": "「改變做事方式」與本句語境不同。",
-        "transform-mcq-10": "「個人蛻變」與本句語境不同。",
-        "transform-mcq-05": "「改變某人的人生」與本句語境不同。"
+        "transform-mcq-08": "本句的「dramatic transformation」指「巨大轉變」。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-08"
     },
@@ -906,11 +790,8 @@ export default {
       "masked": "There was no ____ in my habits.",
       "options": [
         "transform-mcq-08",
-        "transform-mcq-07",
-        "transform-mcq-09",
-        "transform-mcq-06",
-        "transform-mcq-10",
-        "transform-mcq-05"
+        "transform-mcq-04",
+        "transform-mcq-13"
       ],
       "explanation": "本句的「dramatic transformation」指「巨大轉變」。",
       "sentenceIndex": 16,
@@ -919,12 +800,9 @@ export default {
         "dramatic transformation"
       ],
       "optionReasons": {
-        "transform-mcq-08": "本句指「巨大轉變」。",
-        "transform-mcq-07": "「轉變；轉型；蛻變」與本句語境不同。",
-        "transform-mcq-09": "「經歷轉變」與本句語境不同。",
-        "transform-mcq-06": "「改變做事方式」與本句語境不同。",
-        "transform-mcq-10": "「個人蛻變」與本句語境不同。",
-        "transform-mcq-05": "「改變某人的人生」與本句語境不同。"
+        "transform-mcq-08": "本句的「dramatic transformation」指「巨大轉變」。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-08"
     },
@@ -936,11 +814,8 @@ export default {
       "masked": "The company ____.",
       "options": [
         "transform-mcq-09",
-        "transform-mcq-08",
-        "transform-mcq-10",
-        "transform-mcq-07",
-        "transform-mcq-11",
-        "transform-mcq-06"
+        "transform-mcq-04",
+        "transform-mcq-12"
       ],
       "explanation": "本句的「underwent a major transformation」指「經歷轉變」。",
       "sentenceIndex": 17,
@@ -949,12 +824,9 @@ export default {
         "underwent a major transformation"
       ],
       "optionReasons": {
-        "transform-mcq-09": "本句指「經歷轉變」。",
-        "transform-mcq-08": "「巨大轉變」與本句語境不同。",
-        "transform-mcq-10": "「個人蛻變」與本句語境不同。",
-        "transform-mcq-07": "「轉變；轉型；蛻變」與本句語境不同。",
-        "transform-mcq-11": "「外觀／身體轉變」與本句語境不同。",
-        "transform-mcq-06": "「改變做事方式」與本句語境不同。"
+        "transform-mcq-09": "本句的「underwent a major transformation」指「經歷轉變」。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-09"
     },
@@ -966,11 +838,8 @@ export default {
       "masked": "The neighbourhood has ____.",
       "options": [
         "transform-mcq-09",
-        "transform-mcq-08",
-        "transform-mcq-10",
-        "transform-mcq-07",
-        "transform-mcq-11",
-        "transform-mcq-06"
+        "transform-mcq-04",
+        "transform-mcq-12"
       ],
       "explanation": "本句的「undergone a remarkable transformation」指「經歷轉變」。",
       "sentenceIndex": 18,
@@ -979,12 +848,9 @@ export default {
         "undergone a remarkable transformation"
       ],
       "optionReasons": {
-        "transform-mcq-09": "本句指「經歷轉變」。",
-        "transform-mcq-08": "「巨大轉變」與本句語境不同。",
-        "transform-mcq-10": "「個人蛻變」與本句語境不同。",
-        "transform-mcq-07": "「轉變；轉型；蛻變」與本句語境不同。",
-        "transform-mcq-11": "「外觀／身體轉變」與本句語境不同。",
-        "transform-mcq-06": "「改變做事方式」與本句語境不同。"
+        "transform-mcq-09": "本句的「undergone a remarkable transformation」指「經歷轉變」。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-09"
     },
@@ -996,11 +862,9 @@ export default {
       "masked": "The experience led to a period of ____.",
       "options": [
         "transform-mcq-10",
-        "transform-mcq-09",
-        "transform-mcq-11",
-        "transform-mcq-08",
-        "transform-mcq-12",
-        "transform-mcq-07"
+        "transform-mcq-13",
+        "transform-mcq-16",
+        "transform-mcq-04"
       ],
       "explanation": "本句的「personal transformation」指「個人蛻變」。",
       "sentenceIndex": 19,
@@ -1009,12 +873,10 @@ export default {
         "personal transformation"
       ],
       "optionReasons": {
-        "transform-mcq-10": "本句指「個人蛻變」。",
-        "transform-mcq-09": "「經歷轉變」與本句語境不同。",
-        "transform-mcq-11": "「外觀／身體轉變」與本句語境不同。",
-        "transform-mcq-08": "「巨大轉變」與本句語境不同。",
-        "transform-mcq-12": "「數碼轉型」與本句語境不同。",
-        "transform-mcq-07": "「轉變；轉型；蛻變」與本句語境不同。"
+        "transform-mcq-10": "本句的「personal transformation」指「個人蛻變」。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-10"
     },
@@ -1026,11 +888,9 @@ export default {
       "masked": "Building better habits can support ____.",
       "options": [
         "transform-mcq-10",
-        "transform-mcq-09",
-        "transform-mcq-11",
-        "transform-mcq-08",
-        "transform-mcq-12",
-        "transform-mcq-07"
+        "transform-mcq-16",
+        "transform-mcq-13",
+        "transform-mcq-04"
       ],
       "explanation": "本句的「personal transformation」指「個人蛻變」。",
       "sentenceIndex": 20,
@@ -1039,12 +899,10 @@ export default {
         "personal transformation"
       ],
       "optionReasons": {
-        "transform-mcq-10": "本句指「個人蛻變」。",
-        "transform-mcq-09": "「經歷轉變」與本句語境不同。",
-        "transform-mcq-11": "「外觀／身體轉變」與本句語境不同。",
-        "transform-mcq-08": "「巨大轉變」與本句語境不同。",
-        "transform-mcq-12": "「數碼轉型」與本句語境不同。",
-        "transform-mcq-07": "「轉變；轉型；蛻變」與本句語境不同。"
+        "transform-mcq-10": "本句的「personal transformation」指「個人蛻變」。",
+        "transform-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-10"
     },
@@ -1056,11 +914,8 @@ export default {
       "masked": "The building underwent a complete ____.",
       "options": [
         "transform-mcq-11",
-        "transform-mcq-10",
-        "transform-mcq-12",
-        "transform-mcq-09",
-        "transform-mcq-13",
-        "transform-mcq-08"
+        "transform-mcq-04",
+        "transform-mcq-12"
       ],
       "explanation": "本句的「physical transformation」指「外觀／身體轉變」。",
       "sentenceIndex": 21,
@@ -1069,12 +924,9 @@ export default {
         "physical transformation"
       ],
       "optionReasons": {
-        "transform-mcq-11": "本句指「外觀／身體轉變」。",
-        "transform-mcq-10": "「個人蛻變」與本句語境不同。",
-        "transform-mcq-12": "「數碼轉型」與本句語境不同。",
-        "transform-mcq-09": "「經歷轉變」與本句語境不同。",
-        "transform-mcq-13": "「業務轉型」與本句語境不同。",
-        "transform-mcq-08": "「巨大轉變」與本句語境不同。"
+        "transform-mcq-11": "本句的「physical transformation」指「外觀／身體轉變」。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-11"
     },
@@ -1086,11 +938,8 @@ export default {
       "masked": "The renovation created a remarkable ____.",
       "options": [
         "transform-mcq-11",
-        "transform-mcq-10",
-        "transform-mcq-12",
-        "transform-mcq-09",
-        "transform-mcq-13",
-        "transform-mcq-08"
+        "transform-mcq-04",
+        "transform-mcq-12"
       ],
       "explanation": "本句的「physical transformation」指「外觀／身體轉變」。",
       "sentenceIndex": 22,
@@ -1099,12 +948,9 @@ export default {
         "physical transformation"
       ],
       "optionReasons": {
-        "transform-mcq-11": "本句指「外觀／身體轉變」。",
-        "transform-mcq-10": "「個人蛻變」與本句語境不同。",
-        "transform-mcq-12": "「數碼轉型」與本句語境不同。",
-        "transform-mcq-09": "「經歷轉變」與本句語境不同。",
-        "transform-mcq-13": "「業務轉型」與本句語境不同。",
-        "transform-mcq-08": "「巨大轉變」與本句語境不同。"
+        "transform-mcq-11": "本句的「physical transformation」指「外觀／身體轉變」。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-11"
     },
@@ -1116,11 +962,7 @@ export default {
       "masked": "The company is investing heavily in ____.",
       "options": [
         "transform-mcq-12",
-        "transform-mcq-11",
-        "transform-mcq-13",
-        "transform-mcq-10",
-        "transform-mcq-14",
-        "transform-mcq-09"
+        "transform-mcq-06"
       ],
       "explanation": "本句的「digital transformation」指「數碼轉型」。",
       "sentenceIndex": 23,
@@ -1129,12 +971,8 @@ export default {
         "digital transformation"
       ],
       "optionReasons": {
-        "transform-mcq-12": "本句指「數碼轉型」。",
-        "transform-mcq-11": "「外觀／身體轉變」與本句語境不同。",
-        "transform-mcq-13": "「業務轉型」與本句語境不同。",
-        "transform-mcq-10": "「個人蛻變」與本句語境不同。",
-        "transform-mcq-14": "「帶來重大改變的」與本句語境不同。",
-        "transform-mcq-09": "「經歷轉變」與本句語境不同。"
+        "transform-mcq-12": "本句的「digital transformation」指「數碼轉型」。",
+        "transform-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-12"
     },
@@ -1146,11 +984,9 @@ export default {
       "masked": "____ changed how customers accessed the service.",
       "options": [
         "transform-mcq-12",
-        "transform-mcq-11",
-        "transform-mcq-13",
-        "transform-mcq-10",
-        "transform-mcq-14",
-        "transform-mcq-09"
+        "transform-mcq-04",
+        "transform-mcq-18",
+        "transform-mcq-16"
       ],
       "explanation": "本句的「Digital transformation」指「數碼轉型」。",
       "sentenceIndex": 24,
@@ -1159,12 +995,10 @@ export default {
         "Digital transformation"
       ],
       "optionReasons": {
-        "transform-mcq-12": "本句指「數碼轉型」。",
-        "transform-mcq-11": "「外觀／身體轉變」與本句語境不同。",
-        "transform-mcq-13": "「業務轉型」與本句語境不同。",
-        "transform-mcq-10": "「個人蛻變」與本句語境不同。",
-        "transform-mcq-14": "「帶來重大改變的」與本句語境不同。",
-        "transform-mcq-09": "「經歷轉變」與本句語境不同。"
+        "transform-mcq-12": "本句的「Digital transformation」指「數碼轉型」。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-12"
     },
@@ -1176,11 +1010,7 @@ export default {
       "masked": "The company began a major ____.",
       "options": [
         "transform-mcq-13",
-        "transform-mcq-12",
-        "transform-mcq-14",
-        "transform-mcq-11",
-        "transform-mcq-15",
-        "transform-mcq-10"
+        "transform-mcq-14"
       ],
       "explanation": "本句的「business transformation」指「業務轉型」。",
       "sentenceIndex": 25,
@@ -1189,12 +1019,8 @@ export default {
         "business transformation"
       ],
       "optionReasons": {
-        "transform-mcq-13": "本句指「業務轉型」。",
-        "transform-mcq-12": "「數碼轉型」與本句語境不同。",
-        "transform-mcq-14": "「帶來重大改變的」與本句語境不同。",
-        "transform-mcq-11": "「外觀／身體轉變」與本句語境不同。",
-        "transform-mcq-15": "「改變深遠的經歷」與本句語境不同。",
-        "transform-mcq-10": "「個人蛻變」與本句語境不同。"
+        "transform-mcq-13": "本句的「business transformation」指「業務轉型」。",
+        "transform-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-13"
     },
@@ -1206,11 +1032,8 @@ export default {
       "masked": "The merger triggered an ____.",
       "options": [
         "transform-mcq-13",
-        "transform-mcq-12",
-        "transform-mcq-14",
-        "transform-mcq-11",
-        "transform-mcq-15",
-        "transform-mcq-10"
+        "transform-mcq-02",
+        "transform-mcq-04"
       ],
       "explanation": "本句的「organizational transformation」指「業務轉型」。",
       "sentenceIndex": 26,
@@ -1219,12 +1042,9 @@ export default {
         "organizational transformation"
       ],
       "optionReasons": {
-        "transform-mcq-13": "本句指「業務轉型」。",
-        "transform-mcq-12": "「數碼轉型」與本句語境不同。",
-        "transform-mcq-14": "「帶來重大改變的」與本句語境不同。",
-        "transform-mcq-11": "「外觀／身體轉變」與本句語境不同。",
-        "transform-mcq-15": "「改變深遠的經歷」與本句語境不同。",
-        "transform-mcq-10": "「個人蛻變」與本句語境不同。"
+        "transform-mcq-13": "本句的「organizational transformation」指「業務轉型」。",
+        "transform-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-13"
     },
@@ -1236,11 +1056,7 @@ export default {
       "masked": "The experience was ____.",
       "options": [
         "transform-mcq-14",
-        "transform-mcq-13",
-        "transform-mcq-15",
-        "transform-mcq-12",
-        "transform-mcq-16",
-        "transform-mcq-11"
+        "transform-mcq-13"
       ],
       "explanation": "本句的「transformative」指「帶來重大改變的」。",
       "sentenceIndex": 27,
@@ -1249,12 +1065,8 @@ export default {
         "transformative"
       ],
       "optionReasons": {
-        "transform-mcq-14": "本句指「帶來重大改變的」。",
-        "transform-mcq-13": "「業務轉型」與本句語境不同。",
-        "transform-mcq-15": "「改變深遠的經歷」與本句語境不同。",
-        "transform-mcq-12": "「數碼轉型」與本句語境不同。",
-        "transform-mcq-16": "「深遠的轉化影響」與本句語境不同。",
-        "transform-mcq-11": "「外觀／身體轉變」與本句語境不同。"
+        "transform-mcq-14": "本句的「transformative」指「帶來重大改變的」。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-14"
     },
@@ -1266,11 +1078,7 @@ export default {
       "masked": "Education can have a ____ on people's lives.",
       "options": [
         "transform-mcq-14",
-        "transform-mcq-13",
-        "transform-mcq-15",
-        "transform-mcq-12",
-        "transform-mcq-16",
-        "transform-mcq-11"
+        "transform-mcq-13"
       ],
       "explanation": "本句的「transformative effect」指「帶來重大改變的」。",
       "sentenceIndex": 28,
@@ -1279,12 +1087,8 @@ export default {
         "transformative effect"
       ],
       "optionReasons": {
-        "transform-mcq-14": "本句指「帶來重大改變的」。",
-        "transform-mcq-13": "「業務轉型」與本句語境不同。",
-        "transform-mcq-15": "「改變深遠的經歷」與本句語境不同。",
-        "transform-mcq-12": "「數碼轉型」與本句語境不同。",
-        "transform-mcq-16": "「深遠的轉化影響」與本句語境不同。",
-        "transform-mcq-11": "「外觀／身體轉變」與本句語境不同。"
+        "transform-mcq-14": "本句的「transformative effect」指「帶來重大改變的」。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-14"
     },
@@ -1296,11 +1100,7 @@ export default {
       "masked": "Living abroad was a ____ for her.",
       "options": [
         "transform-mcq-15",
-        "transform-mcq-14",
-        "transform-mcq-16",
-        "transform-mcq-13",
-        "transform-mcq-17",
-        "transform-mcq-12"
+        "transform-mcq-13"
       ],
       "explanation": "本句的「transformative experience」指「改變深遠的經歷」。",
       "sentenceIndex": 29,
@@ -1309,12 +1109,8 @@ export default {
         "transformative experience"
       ],
       "optionReasons": {
-        "transform-mcq-15": "本句指「改變深遠的經歷」。",
-        "transform-mcq-14": "「帶來重大改變的」與本句語境不同。",
-        "transform-mcq-16": "「深遠的轉化影響」與本句語境不同。",
-        "transform-mcq-13": "「業務轉型」與本句語境不同。",
-        "transform-mcq-17": "「徹底改變了的」與本句語境不同。",
-        "transform-mcq-12": "「數碼轉型」與本句語境不同。"
+        "transform-mcq-15": "本句的「transformative experience」指「改變深遠的經歷」。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-15"
     },
@@ -1326,10 +1122,6 @@ export default {
       "masked": "The course proved to be ____.",
       "options": [
         "transform-mcq-15",
-        "transform-mcq-14",
-        "transform-mcq-16",
-        "transform-mcq-13",
-        "transform-mcq-17",
         "transform-mcq-12"
       ],
       "explanation": "本句的「transformative」指「改變深遠的經歷」。",
@@ -1339,12 +1131,8 @@ export default {
         "transformative"
       ],
       "optionReasons": {
-        "transform-mcq-15": "本句指「改變深遠的經歷」。",
-        "transform-mcq-14": "「帶來重大改變的」與本句語境不同。",
-        "transform-mcq-16": "「深遠的轉化影響」與本句語境不同。",
-        "transform-mcq-13": "「業務轉型」與本句語境不同。",
-        "transform-mcq-17": "「徹底改變了的」與本句語境不同。",
-        "transform-mcq-12": "「數碼轉型」與本句語境不同。"
+        "transform-mcq-15": "本句的「transformative」指「改變深遠的經歷」。",
+        "transform-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-15"
     },
@@ -1356,11 +1144,9 @@ export default {
       "masked": "Technology has had a ____ on education.",
       "options": [
         "transform-mcq-16",
-        "transform-mcq-15",
-        "transform-mcq-17",
-        "transform-mcq-14",
         "transform-mcq-18",
-        "transform-mcq-13"
+        "transform-mcq-04",
+        "transform-mcq-12"
       ],
       "explanation": "本句的「transformative impact」指「深遠的轉化影響」。",
       "sentenceIndex": 31,
@@ -1369,12 +1155,10 @@ export default {
         "transformative impact"
       ],
       "optionReasons": {
-        "transform-mcq-16": "本句指「深遠的轉化影響」。",
-        "transform-mcq-15": "「改變深遠的經歷」與本句語境不同。",
-        "transform-mcq-17": "「徹底改變了的」與本句語境不同。",
-        "transform-mcq-14": "「帶來重大改變的」與本句語境不同。",
-        "transform-mcq-18": "「變壓器」與本句語境不同。",
-        "transform-mcq-13": "「業務轉型」與本句語境不同。"
+        "transform-mcq-16": "本句的「transformative impact」指「深遠的轉化影響」。",
+        "transform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-16"
     },
@@ -1386,10 +1170,8 @@ export default {
       "masked": "The new system had a ____ on productivity.",
       "options": [
         "transform-mcq-16",
-        "transform-mcq-15",
-        "transform-mcq-17",
-        "transform-mcq-14",
-        "transform-mcq-18",
+        "transform-mcq-10",
+        "transform-mcq-04",
         "transform-mcq-13"
       ],
       "explanation": "本句的「transformative effect」指「深遠的轉化影響」。",
@@ -1399,12 +1181,10 @@ export default {
         "transformative effect"
       ],
       "optionReasons": {
-        "transform-mcq-16": "本句指「深遠的轉化影響」。",
-        "transform-mcq-15": "「改變深遠的經歷」與本句語境不同。",
-        "transform-mcq-17": "「徹底改變了的」與本句語境不同。",
-        "transform-mcq-14": "「帶來重大改變的」與本句語境不同。",
-        "transform-mcq-18": "「變壓器」與本句語境不同。",
-        "transform-mcq-13": "「業務轉型」與本句語境不同。"
+        "transform-mcq-16": "本句的「transformative effect」指「深遠的轉化影響」。",
+        "transform-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-16"
     },
@@ -1416,10 +1196,6 @@ export default {
       "masked": "The ____ is now a library.",
       "options": [
         "transform-mcq-17",
-        "transform-mcq-16",
-        "transform-mcq-18",
-        "transform-mcq-15",
-        "transform-mcq-14",
         "transform-mcq-13"
       ],
       "explanation": "本句的「transformed building」指「徹底改變了的」。",
@@ -1429,12 +1205,8 @@ export default {
         "transformed building"
       ],
       "optionReasons": {
-        "transform-mcq-17": "本句指「徹底改變了的」。",
-        "transform-mcq-16": "「深遠的轉化影響」與本句語境不同。",
-        "transform-mcq-18": "「變壓器」與本句語境不同。",
-        "transform-mcq-15": "「改變深遠的經歷」與本句語境不同。",
-        "transform-mcq-14": "「帶來重大改變的」與本句語境不同。",
-        "transform-mcq-13": "「業務轉型」與本句語境不同。"
+        "transform-mcq-17": "本句的「transformed building」指「徹底改變了的」。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-17"
     },
@@ -1446,11 +1218,7 @@ export default {
       "masked": "She returned as a ____.",
       "options": [
         "transform-mcq-17",
-        "transform-mcq-16",
-        "transform-mcq-18",
-        "transform-mcq-15",
-        "transform-mcq-14",
-        "transform-mcq-13"
+        "transform-mcq-12"
       ],
       "explanation": "本句的「transformed person」指「徹底改變了的」。",
       "sentenceIndex": 34,
@@ -1459,12 +1227,8 @@ export default {
         "transformed person"
       ],
       "optionReasons": {
-        "transform-mcq-17": "本句指「徹底改變了的」。",
-        "transform-mcq-16": "「深遠的轉化影響」與本句語境不同。",
-        "transform-mcq-18": "「變壓器」與本句語境不同。",
-        "transform-mcq-15": "「改變深遠的經歷」與本句語境不同。",
-        "transform-mcq-14": "「帶來重大改變的」與本句語境不同。",
-        "transform-mcq-13": "「業務轉型」與本句語境不同。"
+        "transform-mcq-17": "本句的「transformed person」指「徹底改變了的」。",
+        "transform-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-17"
     },
@@ -1476,11 +1240,9 @@ export default {
       "masked": "The electricity passes through a ____.",
       "options": [
         "transform-mcq-18",
-        "transform-mcq-17",
-        "transform-mcq-16",
-        "transform-mcq-15",
-        "transform-mcq-14",
-        "transform-mcq-13"
+        "transform-mcq-12",
+        "transform-mcq-04",
+        "transform-mcq-16"
       ],
       "explanation": "本句的「transformer」指「變壓器」。",
       "sentenceIndex": 35,
@@ -1489,12 +1251,10 @@ export default {
         "transformer"
       ],
       "optionReasons": {
-        "transform-mcq-18": "本句指「變壓器」。",
-        "transform-mcq-17": "「徹底改變了的」與本句語境不同。",
-        "transform-mcq-16": "「深遠的轉化影響」與本句語境不同。",
-        "transform-mcq-15": "「改變深遠的經歷」與本句語境不同。",
-        "transform-mcq-14": "「帶來重大改變的」與本句語境不同。",
-        "transform-mcq-13": "「業務轉型」與本句語境不同。"
+        "transform-mcq-18": "本句的「transformer」指「變壓器」。",
+        "transform-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-18"
     },
@@ -1506,11 +1266,9 @@ export default {
       "masked": "The ____ reduces the voltage.",
       "options": [
         "transform-mcq-18",
-        "transform-mcq-17",
+        "transform-mcq-04",
         "transform-mcq-16",
-        "transform-mcq-15",
-        "transform-mcq-14",
-        "transform-mcq-13"
+        "transform-mcq-12"
       ],
       "explanation": "本句的「transformer」指「變壓器」。",
       "sentenceIndex": 36,
@@ -1519,12 +1277,10 @@ export default {
         "transformer"
       ],
       "optionReasons": {
-        "transform-mcq-18": "本句指「變壓器」。",
-        "transform-mcq-17": "「徹底改變了的」與本句語境不同。",
-        "transform-mcq-16": "「深遠的轉化影響」與本句語境不同。",
-        "transform-mcq-15": "「改變深遠的經歷」與本句語境不同。",
-        "transform-mcq-14": "「帶來重大改變的」與本句語境不同。",
-        "transform-mcq-13": "「業務轉型」與本句語境不同。"
+        "transform-mcq-18": "本句的「transformer」指「變壓器」。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-18"
     },
@@ -1536,11 +1292,9 @@ export default {
       "masked": "The device uses a small ____.",
       "options": [
         "transform-mcq-18",
-        "transform-mcq-17",
+        "transform-mcq-13",
         "transform-mcq-16",
-        "transform-mcq-15",
-        "transform-mcq-14",
-        "transform-mcq-13"
+        "transform-mcq-04"
       ],
       "explanation": "本句的「transformer」指「變壓器」。",
       "sentenceIndex": 37,
@@ -1549,12 +1303,10 @@ export default {
         "transformer"
       ],
       "optionReasons": {
-        "transform-mcq-18": "本句指「變壓器」。",
-        "transform-mcq-17": "「徹底改變了的」與本句語境不同。",
-        "transform-mcq-16": "「深遠的轉化影響」與本句語境不同。",
-        "transform-mcq-15": "「改變深遠的經歷」與本句語境不同。",
-        "transform-mcq-14": "「帶來重大改變的」與本句語境不同。",
-        "transform-mcq-13": "「業務轉型」與本句語境不同。"
+        "transform-mcq-18": "本句的「transformer」指「變壓器」。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-18"
     },
@@ -1566,11 +1318,9 @@ export default {
       "masked": "The power supply contains a ____.",
       "options": [
         "transform-mcq-18",
-        "transform-mcq-17",
+        "transform-mcq-13",
         "transform-mcq-16",
-        "transform-mcq-15",
-        "transform-mcq-14",
-        "transform-mcq-13"
+        "transform-mcq-04"
       ],
       "explanation": "本句的「transformer」指「變壓器」。",
       "sentenceIndex": 38,
@@ -1579,12 +1329,10 @@ export default {
         "transformer"
       ],
       "optionReasons": {
-        "transform-mcq-18": "本句指「變壓器」。",
-        "transform-mcq-17": "「徹底改變了的」與本句語境不同。",
-        "transform-mcq-16": "「深遠的轉化影響」與本句語境不同。",
-        "transform-mcq-15": "「改變深遠的經歷」與本句語境不同。",
-        "transform-mcq-14": "「帶來重大改變的」與本句語境不同。",
-        "transform-mcq-13": "「業務轉型」與本句語境不同。"
+        "transform-mcq-18": "本句的「transformer」指「變壓器」。",
+        "transform-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "transform-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transform-mcq-18"
     }
@@ -1596,5 +1344,7 @@ export default {
     "sha256": "dac785a3f98d38dd4002c975ed056e8d0cb2aa3538c6af3d3f5b66b8ac7ee8de",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

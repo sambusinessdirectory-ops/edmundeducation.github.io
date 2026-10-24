@@ -589,11 +589,9 @@ export default {
       "masked": "I had already finished my ____ the night before.",
       "options": [
         "section-mcq-01",
-        "section-mcq-02",
-        "section-mcq-03",
-        "section-mcq-04",
-        "section-mcq-05",
-        "section-mcq-06"
+        "section-mcq-16",
+        "section-mcq-22",
+        "section-mcq-07"
       ],
       "explanation": "本句的「section」指「部分」。",
       "sentenceIndex": 0,
@@ -602,12 +600,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-01": "本句指「部分」。",
-        "section-mcq-02": "「我負責的部分」是「my section」的用法，與本句語境不同。",
-        "section-mcq-03": "「簡報的一部分」是「section of a presentation」的用法，與本句語境不同。",
-        "section-mcq-04": "「報告的一節／部分」是「section of a report」的用法，與本句語境不同。",
-        "section-mcq-05": "「第三節」是「Section 3」的用法，與本句語境不同。",
-        "section-mcq-06": "「小節；分項」是「subsection」的用法，與本句語境不同。"
+        "section-mcq-01": "本句的「section」指「部分」。",
+        "section-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-01"
     },
@@ -619,11 +615,9 @@ export default {
       "masked": "I wrote the introduction, and Kevin completed the next ____.",
       "options": [
         "section-mcq-01",
-        "section-mcq-02",
-        "section-mcq-03",
-        "section-mcq-04",
-        "section-mcq-05",
-        "section-mcq-06"
+        "section-mcq-08",
+        "section-mcq-16",
+        "section-mcq-07"
       ],
       "explanation": "本句的「section」指「部分」。",
       "sentenceIndex": 1,
@@ -632,12 +626,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-01": "本句指「部分」。",
-        "section-mcq-02": "「我負責的部分」是「my section」的用法，與本句語境不同。",
-        "section-mcq-03": "「簡報的一部分」是「section of a presentation」的用法，與本句語境不同。",
-        "section-mcq-04": "「報告的一節／部分」是「section of a report」的用法，與本句語境不同。",
-        "section-mcq-05": "「第三節」是「Section 3」的用法，與本句語境不同。",
-        "section-mcq-06": "「小節；分項」是「subsection」的用法，與本句語境不同。"
+        "section-mcq-01": "本句的「section」指「部分」。",
+        "section-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-01"
     },
@@ -649,11 +641,9 @@ export default {
       "masked": "Each group member was responsible for one ____ of the presentation.",
       "options": [
         "section-mcq-01",
-        "section-mcq-02",
-        "section-mcq-03",
-        "section-mcq-04",
-        "section-mcq-05",
-        "section-mcq-06"
+        "section-mcq-14",
+        "section-mcq-09",
+        "section-mcq-19"
       ],
       "explanation": "本句的「section」指「部分」。",
       "sentenceIndex": 2,
@@ -662,12 +652,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-01": "本句指「部分」。",
-        "section-mcq-02": "「我負責的部分」是「my section」的用法，與本句語境不同。",
-        "section-mcq-03": "「簡報的一部分」是「section of a presentation」的用法，與本句語境不同。",
-        "section-mcq-04": "「報告的一節／部分」是「section of a report」的用法，與本句語境不同。",
-        "section-mcq-05": "「第三節」是「Section 3」的用法，與本句語境不同。",
-        "section-mcq-06": "「小節；分項」是「subsection」的用法，與本句語境不同。"
+        "section-mcq-01": "本句的「section」指「部分」。",
+        "section-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-01"
     },
@@ -679,11 +667,9 @@ export default {
       "masked": "This ____ explains the results.",
       "options": [
         "section-mcq-04",
-        "section-mcq-03",
-        "section-mcq-05",
-        "section-mcq-02",
-        "section-mcq-06",
-        "section-mcq-01"
+        "section-mcq-12",
+        "section-mcq-16",
+        "section-mcq-08"
       ],
       "explanation": "本句的「section of the report」指「報告的一節／部分」。",
       "sentenceIndex": 3,
@@ -692,12 +678,10 @@ export default {
         "section of the report"
       ],
       "optionReasons": {
-        "section-mcq-04": "本句指「報告的一節／部分」。",
-        "section-mcq-03": "「簡報的一部分」是「section of a presentation」的用法，與本句語境不同。",
-        "section-mcq-05": "「第三節」是「Section 3」的用法，與本句語境不同。",
-        "section-mcq-02": "「我負責的部分」是「my section」的用法，與本句語境不同。",
-        "section-mcq-06": "「小節；分項」是「subsection」的用法，與本句語境不同。",
-        "section-mcq-01": "「部分」是「section (general)」的用法，與本句語境不同。"
+        "section-mcq-04": "本句的「section of the report」指「報告的一節／部分」。",
+        "section-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-04"
     },
@@ -709,11 +693,9 @@ export default {
       "masked": "I skipped a ____.",
       "options": [
         "section-mcq-04",
-        "section-mcq-03",
-        "section-mcq-05",
-        "section-mcq-02",
-        "section-mcq-06",
-        "section-mcq-01"
+        "section-mcq-12",
+        "section-mcq-16",
+        "section-mcq-08"
       ],
       "explanation": "本句的「section of the book」指「報告的一節／部分」。",
       "sentenceIndex": 4,
@@ -722,12 +704,10 @@ export default {
         "section of the book"
       ],
       "optionReasons": {
-        "section-mcq-04": "本句指「報告的一節／部分」。",
-        "section-mcq-03": "「簡報的一部分」是「section of a presentation」的用法，與本句語境不同。",
-        "section-mcq-05": "「第三節」是「Section 3」的用法，與本句語境不同。",
-        "section-mcq-02": "「我負責的部分」是「my section」的用法，與本句語境不同。",
-        "section-mcq-06": "「小節；分項」是「subsection」的用法，與本句語境不同。",
-        "section-mcq-01": "「部分」是「section (general)」的用法，與本句語境不同。"
+        "section-mcq-04": "本句的「section of the book」指「報告的一節／部分」。",
+        "section-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-04"
     },
@@ -739,11 +719,9 @@ export default {
       "masked": "Read ____ carefully.",
       "options": [
         "section-mcq-05",
-        "section-mcq-04",
-        "section-mcq-06",
-        "section-mcq-03",
-        "section-mcq-07",
-        "section-mcq-02"
+        "section-mcq-23",
+        "section-pdf-001",
+        "section-mcq-08"
       ],
       "explanation": "本句的「Section 3」指「第三節」。",
       "sentenceIndex": 5,
@@ -752,12 +730,10 @@ export default {
         "Section 3"
       ],
       "optionReasons": {
-        "section-mcq-05": "本句指「第三節」。",
-        "section-mcq-04": "「報告的一節／部分」是「section of a report」的用法，與本句語境不同。",
-        "section-mcq-06": "「小節；分項」是「subsection」的用法，與本句語境不同。",
-        "section-mcq-03": "「簡報的一部分」是「section of a presentation」的用法，與本句語境不同。",
-        "section-mcq-07": "「體育版」是「sports section」的用法，與本句語境不同。",
-        "section-mcq-02": "「我負責的部分」是「my section」的用法，與本句語境不同。"
+        "section-mcq-05": "本句的「Section 3」指「第三節」。",
+        "section-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "section-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-05"
     },
@@ -769,11 +745,9 @@ export default {
       "masked": "The final ____ discusses possible solutions.",
       "options": [
         "section-mcq-05",
-        "section-mcq-04",
-        "section-mcq-06",
-        "section-mcq-03",
-        "section-mcq-07",
-        "section-mcq-02"
+        "section-mcq-21",
+        "section-mcq-19",
+        "section-mcq-20"
       ],
       "explanation": "本句的「section」指「第三節」。",
       "sentenceIndex": 6,
@@ -782,12 +756,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-05": "本句指「第三節」。",
-        "section-mcq-04": "「報告的一節／部分」是「section of a report」的用法，與本句語境不同。",
-        "section-mcq-06": "「小節；分項」是「subsection」的用法，與本句語境不同。",
-        "section-mcq-03": "「簡報的一部分」是「section of a presentation」的用法，與本句語境不同。",
-        "section-mcq-07": "「體育版」是「sports section」的用法，與本句語境不同。",
-        "section-mcq-02": "「我負責的部分」是「my section」的用法，與本句語境不同。"
+        "section-mcq-05": "本句的「section」指「第三節」。",
+        "section-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-05"
     },
@@ -799,11 +771,9 @@ export default {
       "masked": "The rule is explained in ____.",
       "options": [
         "section-mcq-05",
-        "section-mcq-04",
-        "section-mcq-06",
-        "section-mcq-03",
-        "section-mcq-07",
-        "section-mcq-02"
+        "section-mcq-25",
+        "section-mcq-09",
+        "section-mcq-18"
       ],
       "explanation": "本句的「Section 5」指「第三節」。",
       "sentenceIndex": 7,
@@ -812,12 +782,10 @@ export default {
         "Section 5"
       ],
       "optionReasons": {
-        "section-mcq-05": "本句指「第三節」。",
-        "section-mcq-04": "「報告的一節／部分」是「section of a report」的用法，與本句語境不同。",
-        "section-mcq-06": "「小節；分項」是「subsection」的用法，與本句語境不同。",
-        "section-mcq-03": "「簡報的一部分」是「section of a presentation」的用法，與本句語境不同。",
-        "section-mcq-07": "「體育版」是「sports section」的用法，與本句語境不同。",
-        "section-mcq-02": "「我負責的部分」是「my section」的用法，與本句語境不同。"
+        "section-mcq-05": "本句的「Section 5」指「第三節」。",
+        "section-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-05"
     },
@@ -829,11 +797,9 @@ export default {
       "masked": "Please refer to ____.",
       "options": [
         "section-mcq-05",
-        "section-mcq-04",
-        "section-mcq-06",
-        "section-mcq-03",
-        "section-mcq-07",
-        "section-mcq-02"
+        "section-mcq-12",
+        "section-mcq-17",
+        "section-mcq-19"
       ],
       "explanation": "本句的「Section 2.1」指「第三節」。",
       "sentenceIndex": 8,
@@ -842,12 +808,10 @@ export default {
         "Section 2.1"
       ],
       "optionReasons": {
-        "section-mcq-05": "本句指「第三節」。",
-        "section-mcq-04": "「報告的一節／部分」是「section of a report」的用法，與本句語境不同。",
-        "section-mcq-06": "「小節；分項」是「subsection」的用法，與本句語境不同。",
-        "section-mcq-03": "「簡報的一部分」是「section of a presentation」的用法，與本句語境不同。",
-        "section-mcq-07": "「體育版」是「sports section」的用法，與本句語境不同。",
-        "section-mcq-02": "「我負責的部分」是「my section」的用法，與本句語境不同。"
+        "section-mcq-05": "本句的「Section 2.1」指「第三節」。",
+        "section-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-05"
     },
@@ -859,11 +823,9 @@ export default {
       "masked": "The topic is covered in a short ____.",
       "options": [
         "section-mcq-06",
-        "section-mcq-05",
-        "section-mcq-07",
-        "section-mcq-04",
-        "section-mcq-08",
-        "section-mcq-03"
+        "section-mcq-16",
+        "section-mcq-18",
+        "section-mcq-12"
       ],
       "explanation": "本句的「subsection」指「小節；分項」。",
       "sentenceIndex": 9,
@@ -872,12 +834,10 @@ export default {
         "subsection"
       ],
       "optionReasons": {
-        "section-mcq-06": "本句指「小節；分項」。",
-        "section-mcq-05": "「第三節」是「Section 3」的用法，與本句語境不同。",
-        "section-mcq-07": "「體育版」是「sports section」的用法，與本句語境不同。",
-        "section-mcq-04": "「報告的一節／部分」是「section of a report」的用法，與本句語境不同。",
-        "section-mcq-08": "「一段道路」是「section of road」的用法，與本句語境不同。",
-        "section-mcq-03": "「簡報的一部分」是「section of a presentation」的用法，與本句語境不同。"
+        "section-mcq-06": "本句的「subsection」指「小節；分項」。",
+        "section-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-06"
     },
@@ -889,11 +849,9 @@ export default {
       "masked": "Each ____ deals with a different issue.",
       "options": [
         "section-mcq-06",
-        "section-mcq-05",
-        "section-mcq-07",
-        "section-mcq-04",
+        "section-mcq-19",
         "section-mcq-08",
-        "section-mcq-03"
+        "section-mcq-13"
       ],
       "explanation": "本句的「subsection」指「小節；分項」。",
       "sentenceIndex": 10,
@@ -902,12 +860,10 @@ export default {
         "subsection"
       ],
       "optionReasons": {
-        "section-mcq-06": "本句指「小節；分項」。",
-        "section-mcq-05": "「第三節」是「Section 3」的用法，與本句語境不同。",
-        "section-mcq-07": "「體育版」是「sports section」的用法，與本句語境不同。",
-        "section-mcq-04": "「報告的一節／部分」是「section of a report」的用法，與本句語境不同。",
-        "section-mcq-08": "「一段道路」是「section of road」的用法，與本句語境不同。",
-        "section-mcq-03": "「簡報的一部分」是「section of a presentation」的用法，與本句語境不同。"
+        "section-mcq-06": "本句的「subsection」指「小節；分項」。",
+        "section-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-06"
     },
@@ -919,11 +875,9 @@ export default {
       "masked": "I usually read the sports ____ first.",
       "options": [
         "section-mcq-07",
-        "section-mcq-06",
+        "section-pdf-001",
         "section-mcq-08",
-        "section-mcq-05",
-        "section-mcq-09",
-        "section-mcq-04"
+        "section-mcq-13"
       ],
       "explanation": "本句的「section」指「體育版」。",
       "sentenceIndex": 11,
@@ -932,12 +886,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-07": "本句指「體育版」。",
-        "section-mcq-06": "「小節；分項」是「subsection」的用法，與本句語境不同。",
-        "section-mcq-08": "「一段道路」是「section of road」的用法，與本句語境不同。",
-        "section-mcq-05": "「第三節」是「Section 3」的用法，與本句語境不同。",
-        "section-mcq-09": "「商店專區」是「store section」的用法，與本句語境不同。",
-        "section-mcq-04": "「報告的一節／部分」是「section of a report」的用法，與本句語境不同。"
+        "section-mcq-07": "本句的「section」指「體育版」。",
+        "section-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-07"
     },
@@ -949,11 +901,9 @@ export default {
       "masked": "The article appeared in the business ____.",
       "options": [
         "section-mcq-07",
-        "section-mcq-06",
-        "section-mcq-08",
-        "section-mcq-05",
-        "section-mcq-09",
-        "section-mcq-04"
+        "section-mcq-24",
+        "section-mcq-12",
+        "section-mcq-16"
       ],
       "explanation": "本句的「section」指「體育版」。",
       "sentenceIndex": 12,
@@ -962,12 +912,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-07": "本句指「體育版」。",
-        "section-mcq-06": "「小節；分項」是「subsection」的用法，與本句語境不同。",
-        "section-mcq-08": "「一段道路」是「section of road」的用法，與本句語境不同。",
-        "section-mcq-05": "「第三節」是「Section 3」的用法，與本句語境不同。",
-        "section-mcq-09": "「商店專區」是「store section」的用法，與本句語境不同。",
-        "section-mcq-04": "「報告的一節／部分」是「section of a report」的用法，與本句語境不同。"
+        "section-mcq-07": "本句的「section」指「體育版」。",
+        "section-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-07"
     },
@@ -979,11 +927,9 @@ export default {
       "masked": "The interview was published in the entertainment ____.",
       "options": [
         "section-mcq-23",
-        "section-mcq-22",
-        "section-mcq-24",
-        "section-mcq-21",
-        "section-mcq-25",
-        "section-mcq-20"
+        "section-mcq-14",
+        "section-mcq-18",
+        "section-mcq-19"
       ],
       "explanation": "本句的「section」指「專門收錄 X 類內容的一個分類區」。",
       "sentenceIndex": 13,
@@ -992,12 +938,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-23": "本句指「專門收錄 X 類內容的一個分類區」。",
-        "section-mcq-22": "「條；節」是「legal section」的用法，與本句語境不同。",
-        "section-mcq-24": "「某個地方、道路或空間中被視為獨立的一部分」是「8. section（區域；地區的一部分） — 區域；一段」的用法，與本句語境不同。",
-        "section-mcq-21": "「小隊／分隊」是「military section」的用法，與本句語境不同。",
-        "section-mcq-25": "「機構內負責某一類工作的較小部門或單位」是「11. section（部門／組別） — 部；組；科」的用法，與本句語境不同。",
-        "section-mcq-20": "「弦樂組」是「string section」的用法，與本句語境不同。"
+        "section-mcq-23": "本句的「section」指「專門收錄 X 類內容的一個分類區」。",
+        "section-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-23"
     },
@@ -1009,11 +953,9 @@ export default {
       "masked": "Check the jobs ____ of the website.",
       "options": [
         "section-mcq-23",
-        "section-mcq-22",
-        "section-mcq-24",
-        "section-mcq-21",
-        "section-mcq-25",
-        "section-mcq-20"
+        "section-mcq-05",
+        "section-mcq-08",
+        "section-mcq-07"
       ],
       "explanation": "本句的「section」指「專門收錄 X 類內容的一個分類區」。",
       "sentenceIndex": 14,
@@ -1022,12 +964,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-23": "本句指「專門收錄 X 類內容的一個分類區」。",
-        "section-mcq-22": "「條；節」是「legal section」的用法，與本句語境不同。",
-        "section-mcq-24": "「某個地方、道路或空間中被視為獨立的一部分」是「8. section（區域；地區的一部分） — 區域；一段」的用法，與本句語境不同。",
-        "section-mcq-21": "「小隊／分隊」是「military section」的用法，與本句語境不同。",
-        "section-mcq-25": "「機構內負責某一類工作的較小部門或單位」是「11. section（部門／組別） — 部；組；科」的用法，與本句語境不同。",
-        "section-mcq-20": "「弦樂組」是「string section」的用法，與本句語境不同。"
+        "section-mcq-23": "本句的「section」指「專門收錄 X 類內容的一個分類區」。",
+        "section-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-23"
     },
@@ -1039,11 +979,9 @@ export default {
       "masked": "This ____ is closed.",
       "options": [
         "section-mcq-24",
-        "section-mcq-23",
-        "section-mcq-25",
-        "section-mcq-22",
-        "section-mcq-21",
-        "section-mcq-20"
+        "section-mcq-16",
+        "section-mcq-13",
+        "section-mcq-14"
       ],
       "explanation": "本句的「section of the road」指「某個地方、道路或空間中被視為獨立的一部分」。",
       "sentenceIndex": 15,
@@ -1052,12 +990,10 @@ export default {
         "section of the road"
       ],
       "optionReasons": {
-        "section-mcq-24": "本句指「某個地方、道路或空間中被視為獨立的一部分」。",
-        "section-mcq-23": "「專門收錄 X 類內容的一個分類區」是「7. sports / business / entertainment section — 體育／商業／娛樂版」的用法，與本句語境不同。",
-        "section-mcq-25": "「機構內負責某一類工作的較小部門或單位」是「11. section（部門／組別） — 部；組；科」的用法，與本句語境不同。",
-        "section-mcq-22": "「條；節」是「legal section」的用法，與本句語境不同。",
-        "section-mcq-21": "「小隊／分隊」是「military section」的用法，與本句語境不同。",
-        "section-mcq-20": "「弦樂組」是「string section」的用法，與本句語境不同。"
+        "section-mcq-24": "本句的「section of the road」指「某個地方、道路或空間中被視為獨立的一部分」。",
+        "section-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-24"
     },
@@ -1069,10 +1005,8 @@ export default {
       "masked": "We walked through a quiet ____.",
       "options": [
         "section-mcq-24",
-        "section-mcq-23",
-        "section-mcq-25",
-        "section-mcq-22",
-        "section-mcq-21",
+        "section-mcq-16",
+        "section-mcq-19",
         "section-mcq-20"
       ],
       "explanation": "本句的「section of the park」指「某個地方、道路或空間中被視為獨立的一部分」。",
@@ -1082,12 +1016,10 @@ export default {
         "section of the park"
       ],
       "optionReasons": {
-        "section-mcq-24": "本句指「某個地方、道路或空間中被視為獨立的一部分」。",
-        "section-mcq-23": "「專門收錄 X 類內容的一個分類區」是「7. sports / business / entertainment section — 體育／商業／娛樂版」的用法，與本句語境不同。",
-        "section-mcq-25": "「機構內負責某一類工作的較小部門或單位」是「11. section（部門／組別） — 部；組；科」的用法，與本句語境不同。",
-        "section-mcq-22": "「條；節」是「legal section」的用法，與本句語境不同。",
-        "section-mcq-21": "「小隊／分隊」是「military section」的用法，與本句語境不同。",
-        "section-mcq-20": "「弦樂組」是「string section」的用法，與本句語境不同。"
+        "section-mcq-24": "本句的「section of the park」指「某個地方、道路或空間中被視為獨立的一部分」。",
+        "section-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-24"
     },
@@ -1099,11 +1031,9 @@ export default {
       "masked": "A ____ was damaged.",
       "options": [
         "section-mcq-08",
-        "section-mcq-07",
+        "section-mcq-18",
         "section-mcq-09",
-        "section-mcq-06",
-        "section-mcq-10",
-        "section-mcq-05"
+        "section-mcq-25"
       ],
       "explanation": "本句的「section of the railway」指「一段道路」。",
       "sentenceIndex": 17,
@@ -1112,12 +1042,10 @@ export default {
         "section of the railway"
       ],
       "optionReasons": {
-        "section-mcq-08": "本句指「一段道路」。",
-        "section-mcq-07": "「體育版」是「sports section」的用法，與本句語境不同。",
-        "section-mcq-09": "「商店專區」是「store section」的用法，與本句語境不同。",
-        "section-mcq-06": "「小節；分項」是「subsection」的用法，與本句語境不同。",
-        "section-mcq-10": "「部／組／科」是「section (organization)」的用法，與本句語境不同。",
-        "section-mcq-05": "「第三節」是「Section 3」的用法，與本句語境不同。"
+        "section-mcq-08": "本句的「section of the railway」指「一段道路」。",
+        "section-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-08"
     },
@@ -1129,11 +1057,9 @@ export default {
       "masked": "The northern ____ is under repair.",
       "options": [
         "section-mcq-08",
-        "section-mcq-07",
-        "section-mcq-09",
-        "section-mcq-06",
-        "section-mcq-10",
-        "section-mcq-05"
+        "section-mcq-11",
+        "section-mcq-16",
+        "section-mcq-06"
       ],
       "explanation": "本句的「section of the road」指「一段道路」。",
       "sentenceIndex": 18,
@@ -1142,12 +1068,10 @@ export default {
         "section of the road"
       ],
       "optionReasons": {
-        "section-mcq-08": "本句指「一段道路」。",
-        "section-mcq-07": "「體育版」是「sports section」的用法，與本句語境不同。",
-        "section-mcq-09": "「商店專區」是「store section」的用法，與本句語境不同。",
-        "section-mcq-06": "「小節；分項」是「subsection」的用法，與本句語境不同。",
-        "section-mcq-10": "「部／組／科」是「section (organization)」的用法，與本句語境不同。",
-        "section-mcq-05": "「第三節」是「Section 3」的用法，與本句語境不同。"
+        "section-mcq-08": "本句的「section of the road」指「一段道路」。",
+        "section-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-08"
     },
@@ -1159,11 +1083,9 @@ export default {
       "masked": "You'll find it in the electronics ____.",
       "options": [
         "section-mcq-09",
-        "section-mcq-08",
-        "section-mcq-10",
+        "section-mcq-21",
         "section-mcq-07",
-        "section-mcq-11",
-        "section-mcq-06"
+        "section-mcq-19"
       ],
       "explanation": "本句的「section」指「商店專區」。",
       "sentenceIndex": 19,
@@ -1172,12 +1094,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-09": "本句指「商店專區」。",
-        "section-mcq-08": "「一段道路」是「section of road」的用法，與本句語境不同。",
-        "section-mcq-10": "「部／組／科」是「section (organization)」的用法，與本句語境不同。",
-        "section-mcq-07": "「體育版」是「sports section」的用法，與本句語境不同。",
-        "section-mcq-11": "「社會一部分／群體」是「section of society」的用法，與本句語境不同。",
-        "section-mcq-06": "「小節；分項」是「subsection」的用法，與本句語境不同。"
+        "section-mcq-09": "本句的「section」指「商店專區」。",
+        "section-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-09"
     },
@@ -1189,11 +1109,9 @@ export default {
       "masked": "We sat in the family ____.",
       "options": [
         "section-mcq-09",
-        "section-mcq-08",
-        "section-mcq-10",
-        "section-mcq-07",
-        "section-mcq-11",
-        "section-mcq-06"
+        "section-mcq-22",
+        "section-mcq-14",
+        "section-mcq-21"
       ],
       "explanation": "本句的「section」指「商店專區」。",
       "sentenceIndex": 20,
@@ -1202,12 +1120,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-09": "本句指「商店專區」。",
-        "section-mcq-08": "「一段道路」是「section of road」的用法，與本句語境不同。",
-        "section-mcq-10": "「部／組／科」是「section (organization)」的用法，與本句語境不同。",
-        "section-mcq-07": "「體育版」是「sports section」的用法，與本句語境不同。",
-        "section-mcq-11": "「社會一部分／群體」是「section of society」的用法，與本句語境不同。",
-        "section-mcq-06": "「小節；分項」是「subsection」的用法，與本句語境不同。"
+        "section-mcq-09": "本句的「section」指「商店專區」。",
+        "section-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-09"
     },
@@ -1219,11 +1135,9 @@ export default {
       "masked": "She works in the finance ____.",
       "options": [
         "section-mcq-25",
-        "section-mcq-24",
-        "section-mcq-23",
-        "section-mcq-22",
-        "section-mcq-21",
-        "section-mcq-20"
+        "section-mcq-14",
+        "section-mcq-15",
+        "section-mcq-09"
       ],
       "explanation": "本句的「section」指「機構內負責某一類工作的較小部門或單位」。",
       "sentenceIndex": 21,
@@ -1232,12 +1146,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-25": "本句指「機構內負責某一類工作的較小部門或單位」。",
-        "section-mcq-24": "「某個地方、道路或空間中被視為獨立的一部分」是「8. section（區域；地區的一部分） — 區域；一段」的用法，與本句語境不同。",
-        "section-mcq-23": "「專門收錄 X 類內容的一個分類區」是「7. sports / business / entertainment section — 體育／商業／娛樂版」的用法，與本句語境不同。",
-        "section-mcq-22": "「條；節」是「legal section」的用法，與本句語境不同。",
-        "section-mcq-21": "「小隊／分隊」是「military section」的用法，與本句語境不同。",
-        "section-mcq-20": "「弦樂組」是「string section」的用法，與本句語境不同。"
+        "section-mcq-25": "本句的「section」指「機構內負責某一類工作的較小部門或單位」。",
+        "section-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-25"
     },
@@ -1249,11 +1161,9 @@ export default {
       "masked": "The research ____ prepared the report.",
       "options": [
         "section-mcq-25",
-        "section-mcq-24",
-        "section-mcq-23",
+        "section-mcq-07",
         "section-mcq-22",
-        "section-mcq-21",
-        "section-mcq-20"
+        "section-mcq-12"
       ],
       "explanation": "本句的「section」指「機構內負責某一類工作的較小部門或單位」。",
       "sentenceIndex": 22,
@@ -1262,12 +1172,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-25": "本句指「機構內負責某一類工作的較小部門或單位」。",
-        "section-mcq-24": "「某個地方、道路或空間中被視為獨立的一部分」是「8. section（區域；地區的一部分） — 區域；一段」的用法，與本句語境不同。",
-        "section-mcq-23": "「專門收錄 X 類內容的一個分類區」是「7. sports / business / entertainment section — 體育／商業／娛樂版」的用法，與本句語境不同。",
-        "section-mcq-22": "「條；節」是「legal section」的用法，與本句語境不同。",
-        "section-mcq-21": "「小隊／分隊」是「military section」的用法，與本句語境不同。",
-        "section-mcq-20": "「弦樂組」是「string section」的用法，與本句語境不同。"
+        "section-mcq-25": "本句的「section」指「機構內負責某一類工作的較小部門或單位」。",
+        "section-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-25"
     },
@@ -1279,11 +1187,9 @@ export default {
       "masked": "A large ____ disagreed.",
       "options": [
         "section-mcq-11",
-        "section-mcq-10",
-        "section-mcq-12",
-        "section-mcq-09",
-        "section-mcq-13",
-        "section-mcq-08"
+        "section-mcq-19",
+        "section-mcq-18",
+        "section-mcq-09"
       ],
       "explanation": "本句的「section of the audience」指「社會一部分／群體」。",
       "sentenceIndex": 23,
@@ -1292,12 +1198,10 @@ export default {
         "section of the audience"
       ],
       "optionReasons": {
-        "section-mcq-11": "本句指「社會一部分／群體」。",
-        "section-mcq-10": "「部／組／科」是「section (organization)」的用法，與本句語境不同。",
-        "section-mcq-12": "「切面；切片」是「section (cut)」的用法，與本句語境不同。",
-        "section-mcq-09": "「商店專區」是「store section」的用法，與本句語境不同。",
-        "section-mcq-13": "「橫切面」是「cross-section」的用法，與本句語境不同。",
-        "section-mcq-08": "「一段道路」是「section of road」的用法，與本句語境不同。"
+        "section-mcq-11": "本句的「section of the audience」指「社會一部分／群體」。",
+        "section-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-11"
     },
@@ -1309,11 +1213,9 @@ export default {
       "masked": "Some ____ were more affected than others.",
       "options": [
         "section-mcq-11",
-        "section-mcq-10",
-        "section-mcq-12",
-        "section-mcq-09",
-        "section-mcq-13",
-        "section-mcq-08"
+        "section-mcq-14",
+        "section-mcq-20",
+        "section-mcq-13"
       ],
       "explanation": "本句的「sections of society」指「社會一部分／群體」。",
       "sentenceIndex": 24,
@@ -1322,12 +1224,10 @@ export default {
         "sections of society"
       ],
       "optionReasons": {
-        "section-mcq-11": "本句指「社會一部分／群體」。",
-        "section-mcq-10": "「部／組／科」是「section (organization)」的用法，與本句語境不同。",
-        "section-mcq-12": "「切面；切片」是「section (cut)」的用法，與本句語境不同。",
-        "section-mcq-09": "「商店專區」是「store section」的用法，與本句語境不同。",
-        "section-mcq-13": "「橫切面」是「cross-section」的用法，與本句語境不同。",
-        "section-mcq-08": "「一段道路」是「section of road」的用法，與本句語境不同。"
+        "section-mcq-11": "本句的「sections of society」指「社會一部分／群體」。",
+        "section-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-11"
     },
@@ -1339,11 +1239,9 @@ export default {
       "masked": "The policy affected every ____.",
       "options": [
         "section-mcq-11",
-        "section-mcq-10",
-        "section-mcq-12",
-        "section-mcq-09",
-        "section-mcq-13",
-        "section-mcq-08"
+        "section-mcq-16",
+        "section-mcq-18",
+        "section-mcq-13"
       ],
       "explanation": "本句的「section of society」指「社會一部分／群體」。",
       "sentenceIndex": 25,
@@ -1352,12 +1250,10 @@ export default {
         "section of society"
       ],
       "optionReasons": {
-        "section-mcq-11": "本句指「社會一部分／群體」。",
-        "section-mcq-10": "「部／組／科」是「section (organization)」的用法，與本句語境不同。",
-        "section-mcq-12": "「切面；切片」是「section (cut)」的用法，與本句語境不同。",
-        "section-mcq-09": "「商店專區」是「store section」的用法，與本句語境不同。",
-        "section-mcq-13": "「橫切面」是「cross-section」的用法，與本句語境不同。",
-        "section-mcq-08": "「一段道路」是「section of road」的用法，與本句語境不同。"
+        "section-mcq-11": "本句的「section of society」指「社會一部分／群體」。",
+        "section-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-11"
     },
@@ -1369,11 +1265,9 @@ export default {
       "masked": "Certain ____ were more vulnerable.",
       "options": [
         "section-mcq-11",
-        "section-mcq-10",
-        "section-mcq-12",
-        "section-mcq-09",
         "section-mcq-13",
-        "section-mcq-08"
+        "section-mcq-19",
+        "section-mcq-18"
       ],
       "explanation": "本句的「sections of the population」指「社會一部分／群體」。",
       "sentenceIndex": 26,
@@ -1382,12 +1276,10 @@ export default {
         "sections of the population"
       ],
       "optionReasons": {
-        "section-mcq-11": "本句指「社會一部分／群體」。",
-        "section-mcq-10": "「部／組／科」是「section (organization)」的用法，與本句語境不同。",
-        "section-mcq-12": "「切面；切片」是「section (cut)」的用法，與本句語境不同。",
-        "section-mcq-09": "「商店專區」是「store section」的用法，與本句語境不同。",
-        "section-mcq-13": "「橫切面」是「cross-section」的用法，與本句語境不同。",
-        "section-mcq-08": "「一段道路」是「section of road」的用法，與本句語境不同。"
+        "section-mcq-11": "本句的「sections of the population」指「社會一部分／群體」。",
+        "section-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-11"
     },
@@ -1399,11 +1291,9 @@ export default {
       "masked": "The diagram shows a ____ through the building.",
       "options": [
         "section-mcq-12",
-        "section-mcq-11",
-        "section-mcq-13",
-        "section-mcq-10",
-        "section-mcq-14",
-        "section-mcq-09"
+        "section-mcq-01",
+        "section-mcq-16",
+        "section-mcq-19"
       ],
       "explanation": "本句的「section」指「切面；切片」。",
       "sentenceIndex": 27,
@@ -1412,12 +1302,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-12": "本句指「切面；切片」。",
-        "section-mcq-11": "「社會一部分／群體」是「section of society」的用法，與本句語境不同。",
-        "section-mcq-13": "「橫切面」是「cross-section」的用法，與本句語境不同。",
-        "section-mcq-10": "「部／組／科」是「section (organization)」的用法，與本句語境不同。",
-        "section-mcq-14": "「代表性樣本」是「cross-section (figurative)」的用法，與本句語境不同。",
-        "section-mcq-09": "「商店專區」是「store section」的用法，與本句語境不同。"
+        "section-mcq-12": "本句的「section」指「切面；切片」。",
+        "section-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-12"
     },
@@ -1429,10 +1317,8 @@ export default {
       "masked": "The doctor examined a thin ____ of tissue.",
       "options": [
         "section-mcq-12",
-        "section-mcq-11",
-        "section-mcq-13",
-        "section-mcq-10",
-        "section-mcq-14",
+        "section-mcq-25",
+        "section-mcq-19",
         "section-mcq-09"
       ],
       "explanation": "本句的「section」指「切面；切片」。",
@@ -1442,12 +1328,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-12": "本句指「切面；切片」。",
-        "section-mcq-11": "「社會一部分／群體」是「section of society」的用法，與本句語境不同。",
-        "section-mcq-13": "「橫切面」是「cross-section」的用法，與本句語境不同。",
-        "section-mcq-10": "「部／組／科」是「section (organization)」的用法，與本句語境不同。",
-        "section-mcq-14": "「代表性樣本」是「cross-section (figurative)」的用法，與本句語境不同。",
-        "section-mcq-09": "「商店專區」是「store section」的用法，與本句語境不同。"
+        "section-mcq-12": "本句的「section」指「切面；切片」。",
+        "section-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-12"
     },
@@ -1459,11 +1343,9 @@ export default {
       "masked": "The diagram shows a ____ of the pipe.",
       "options": [
         "section-mcq-13",
-        "section-mcq-12",
-        "section-mcq-14",
-        "section-mcq-11",
-        "section-mcq-15",
-        "section-mcq-10"
+        "section-mcq-06",
+        "section-mcq-08",
+        "section-mcq-14"
       ],
       "explanation": "本句的「cross-section」指「橫切面」。",
       "sentenceIndex": 29,
@@ -1472,12 +1354,10 @@ export default {
         "cross-section"
       ],
       "optionReasons": {
-        "section-mcq-13": "本句指「橫切面」。",
-        "section-mcq-12": "「切面；切片」是「section (cut)」的用法，與本句語境不同。",
-        "section-mcq-14": "「代表性樣本」是「cross-section (figurative)」的用法，與本句語境不同。",
-        "section-mcq-11": "「社會一部分／群體」是「section of society」的用法，與本句語境不同。",
-        "section-mcq-15": "「分段；劃分」是「section (verb)」的用法，與本句語境不同。",
-        "section-mcq-10": "「部／組／科」是「section (organization)」的用法，與本句語境不同。"
+        "section-mcq-13": "本句的「cross-section」指「橫切面」。",
+        "section-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-13"
     },
@@ -1489,11 +1369,9 @@ export default {
       "masked": "A ____ of the tree reveals its rings.",
       "options": [
         "section-mcq-13",
-        "section-mcq-12",
-        "section-mcq-14",
-        "section-mcq-11",
-        "section-mcq-15",
-        "section-mcq-10"
+        "section-mcq-06",
+        "section-mcq-24",
+        "section-mcq-09"
       ],
       "explanation": "本句的「cross-section」指「橫切面」。",
       "sentenceIndex": 30,
@@ -1502,12 +1380,10 @@ export default {
         "cross-section"
       ],
       "optionReasons": {
-        "section-mcq-13": "本句指「橫切面」。",
-        "section-mcq-12": "「切面；切片」是「section (cut)」的用法，與本句語境不同。",
-        "section-mcq-14": "「代表性樣本」是「cross-section (figurative)」的用法，與本句語境不同。",
-        "section-mcq-11": "「社會一部分／群體」是「section of society」的用法，與本句語境不同。",
-        "section-mcq-15": "「分段；劃分」是「section (verb)」的用法，與本句語境不同。",
-        "section-mcq-10": "「部／組／科」是「section (organization)」的用法，與本句語境不同。"
+        "section-mcq-13": "本句的「cross-section」指「橫切面」。",
+        "section-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-13"
     },
@@ -1519,11 +1395,9 @@ export default {
       "masked": "The survey included a broad ____.",
       "options": [
         "section-mcq-14",
-        "section-mcq-13",
-        "section-mcq-15",
-        "section-mcq-12",
-        "section-mcq-16",
-        "section-mcq-11"
+        "section-mcq-24",
+        "section-mcq-23",
+        "section-mcq-06"
       ],
       "explanation": "本句的「cross-section of society」指「代表性樣本」。",
       "sentenceIndex": 31,
@@ -1532,12 +1406,10 @@ export default {
         "cross-section of society"
       ],
       "optionReasons": {
-        "section-mcq-14": "本句指「代表性樣本」。",
-        "section-mcq-13": "「橫切面」是「cross-section」的用法，與本句語境不同。",
-        "section-mcq-15": "「分段；劃分」是「section (verb)」的用法，與本句語境不同。",
-        "section-mcq-12": "「切面；切片」是「section (cut)」的用法，與本句語境不同。",
-        "section-mcq-16": "「隔開」是「section off」的用法，與本句語境不同。",
-        "section-mcq-11": "「社會一部分／群體」是「section of society」的用法，與本句語境不同。"
+        "section-mcq-14": "本句的「cross-section of society」指「代表性樣本」。",
+        "section-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-14"
     },
@@ -1549,11 +1421,9 @@ export default {
       "masked": "The audience represented a good ____.",
       "options": [
         "section-mcq-14",
-        "section-mcq-13",
-        "section-mcq-15",
-        "section-mcq-12",
-        "section-mcq-16",
-        "section-mcq-11"
+        "section-pdf-001",
+        "section-mcq-11",
+        "section-mcq-13"
       ],
       "explanation": "本句的「cross-section of the community」指「代表性樣本」。",
       "sentenceIndex": 32,
@@ -1562,12 +1432,10 @@ export default {
         "cross-section of the community"
       ],
       "optionReasons": {
-        "section-mcq-14": "本句指「代表性樣本」。",
-        "section-mcq-13": "「橫切面」是「cross-section」的用法，與本句語境不同。",
-        "section-mcq-15": "「分段；劃分」是「section (verb)」的用法，與本句語境不同。",
-        "section-mcq-12": "「切面；切片」是「section (cut)」的用法，與本句語境不同。",
-        "section-mcq-16": "「隔開」是「section off」的用法，與本句語境不同。",
-        "section-mcq-11": "「社會一部分／群體」是「section of society」的用法，與本句語境不同。"
+        "section-mcq-14": "本句的「cross-section of the community」指「代表性樣本」。",
+        "section-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-14"
     },
@@ -1579,11 +1447,9 @@ export default {
       "masked": "The report was ____.",
       "options": [
         "section-mcq-15",
-        "section-mcq-14",
-        "section-mcq-16",
-        "section-mcq-13",
-        "section-mcq-17",
-        "section-mcq-12"
+        "section-mcq-05",
+        "section-mcq-09",
+        "section-mcq-16"
       ],
       "explanation": "本句的「sectioned into four parts」指「分段；劃分」。",
       "sentenceIndex": 33,
@@ -1592,12 +1458,10 @@ export default {
         "sectioned into four parts"
       ],
       "optionReasons": {
-        "section-mcq-15": "本句指「分段；劃分」。",
-        "section-mcq-14": "「代表性樣本」是「cross-section (figurative)」的用法，與本句語境不同。",
-        "section-mcq-16": "「隔開」是「section off」的用法，與本句語境不同。",
-        "section-mcq-13": "「橫切面」是「cross-section」的用法，與本句語境不同。",
-        "section-mcq-17": "「分段式／組合式」是「sectional」的用法，與本句語境不同。",
-        "section-mcq-12": "「切面；切片」是「section (cut)」的用法，與本句語境不同。"
+        "section-mcq-15": "本句的「sectioned into four parts」指「分段；劃分」。",
+        "section-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-15"
     },
@@ -1609,11 +1473,9 @@ export default {
       "masked": "The room was ____ for different activities.",
       "options": [
         "section-mcq-15",
-        "section-mcq-14",
-        "section-mcq-16",
-        "section-mcq-13",
-        "section-mcq-17",
-        "section-mcq-12"
+        "section-mcq-05",
+        "section-mcq-18",
+        "section-mcq-14"
       ],
       "explanation": "本句的「sectioned」指「分段；劃分」。",
       "sentenceIndex": 34,
@@ -1622,12 +1484,10 @@ export default {
         "sectioned"
       ],
       "optionReasons": {
-        "section-mcq-15": "本句指「分段；劃分」。",
-        "section-mcq-14": "「代表性樣本」是「cross-section (figurative)」的用法，與本句語境不同。",
-        "section-mcq-16": "「隔開」是「section off」的用法，與本句語境不同。",
-        "section-mcq-13": "「橫切面」是「cross-section」的用法，與本句語境不同。",
-        "section-mcq-17": "「分段式／組合式」是「sectional」的用法，與本句語境不同。",
-        "section-mcq-12": "「切面；切片」是「section (cut)」的用法，與本句語境不同。"
+        "section-mcq-15": "本句的「sectioned」指「分段；劃分」。",
+        "section-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-15"
     },
@@ -1639,11 +1499,9 @@ export default {
       "masked": "Part of the room was ____.",
       "options": [
         "section-mcq-16",
-        "section-mcq-15",
-        "section-mcq-17",
-        "section-mcq-14",
+        "section-mcq-07",
         "section-mcq-18",
-        "section-mcq-13"
+        "section-mcq-08"
       ],
       "explanation": "本句的「sectioned off」指「隔開」。",
       "sentenceIndex": 35,
@@ -1652,12 +1510,10 @@ export default {
         "sectioned off"
       ],
       "optionReasons": {
-        "section-mcq-16": "本句指「隔開」。",
-        "section-mcq-15": "「分段；劃分」是「section (verb)」的用法，與本句語境不同。",
-        "section-mcq-17": "「分段式／組合式」是「sectional」的用法，與本句語境不同。",
-        "section-mcq-14": "「代表性樣本」是「cross-section (figurative)」的用法，與本句語境不同。",
-        "section-mcq-18": "「組合式梳化」是「sectional sofa」的用法，與本句語境不同。",
-        "section-mcq-13": "「橫切面」是「cross-section」的用法，與本句語境不同。"
+        "section-mcq-16": "本句的「sectioned off」指「隔開」。",
+        "section-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-16"
     },
@@ -1669,11 +1525,9 @@ export default {
       "masked": "Police ____ the area.",
       "options": [
         "section-mcq-16",
-        "section-mcq-15",
-        "section-mcq-17",
-        "section-mcq-14",
-        "section-mcq-18",
-        "section-mcq-13"
+        "section-mcq-19",
+        "section-mcq-25",
+        "section-mcq-22"
       ],
       "explanation": "本句的「sectioned off」指「隔開」。",
       "sentenceIndex": 36,
@@ -1682,12 +1536,10 @@ export default {
         "sectioned off"
       ],
       "optionReasons": {
-        "section-mcq-16": "本句指「隔開」。",
-        "section-mcq-15": "「分段；劃分」是「section (verb)」的用法，與本句語境不同。",
-        "section-mcq-17": "「分段式／組合式」是「sectional」的用法，與本句語境不同。",
-        "section-mcq-14": "「代表性樣本」是「cross-section (figurative)」的用法，與本句語境不同。",
-        "section-mcq-18": "「組合式梳化」是「sectional sofa」的用法，與本句語境不同。",
-        "section-mcq-13": "「橫切面」是「cross-section」的用法，與本句語境不同。"
+        "section-mcq-16": "本句的「sectioned off」指「隔開」。",
+        "section-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-16"
     },
@@ -1699,11 +1551,9 @@ export default {
       "masked": "Visitors must stay inside the ____.",
       "options": [
         "section-pdf-001",
-        "section-mcq-15",
-        "section-mcq-17",
-        "section-mcq-14",
+        "section-mcq-22",
         "section-mcq-18",
-        "section-mcq-13"
+        "section-mcq-19"
       ],
       "explanation": "本句的「sectioned area」指「被明確劃分或隔開的一個區域」。",
       "sentenceIndex": 37,
@@ -1712,12 +1562,10 @@ export default {
         "sectioned area"
       ],
       "optionReasons": {
-        "section-pdf-001": "本句指「被明確劃分或隔開的一個區域」。",
-        "section-mcq-15": "「分段；劃分」是「section (verb)」的用法，與本句語境不同。",
-        "section-mcq-17": "「分段式／組合式」是「sectional」的用法，與本句語境不同。",
-        "section-mcq-14": "「代表性樣本」是「cross-section (figurative)」的用法，與本句語境不同。",
-        "section-mcq-18": "「組合式梳化」是「sectional sofa」的用法，與本句語境不同。",
-        "section-mcq-13": "「橫切面」是「cross-section」的用法，與本句語境不同。"
+        "section-pdf-001": "本句的「sectioned area」指「被明確劃分或隔開的一個區域」。",
+        "section-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-pdf-001"
     },
@@ -1729,10 +1577,8 @@ export default {
       "masked": "The hall was divided into several ____.",
       "options": [
         "section-pdf-001",
-        "section-mcq-15",
-        "section-mcq-17",
-        "section-mcq-14",
-        "section-mcq-18",
+        "section-mcq-20",
+        "section-mcq-05",
         "section-mcq-13"
       ],
       "explanation": "本句的「sectioned areas」指「被明確劃分或隔開的一個區域」。",
@@ -1742,12 +1588,10 @@ export default {
         "sectioned areas"
       ],
       "optionReasons": {
-        "section-pdf-001": "本句指「被明確劃分或隔開的一個區域」。",
-        "section-mcq-15": "「分段；劃分」是「section (verb)」的用法，與本句語境不同。",
-        "section-mcq-17": "「分段式／組合式」是「sectional」的用法，與本句語境不同。",
-        "section-mcq-14": "「代表性樣本」是「cross-section (figurative)」的用法，與本句語境不同。",
-        "section-mcq-18": "「組合式梳化」是「sectional sofa」的用法，與本句語境不同。",
-        "section-mcq-13": "「橫切面」是「cross-section」的用法，與本句語境不同。"
+        "section-pdf-001": "本句的「sectioned areas」指「被明確劃分或隔開的一個區域」。",
+        "section-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-pdf-001"
     },
@@ -1759,9 +1603,7 @@ export default {
       "masked": "They bought a ____.",
       "options": [
         "section-mcq-17",
-        "section-mcq-16",
-        "section-mcq-18",
-        "section-mcq-15",
+        "section-mcq-22",
         "section-mcq-19",
         "section-mcq-14"
       ],
@@ -1772,12 +1614,10 @@ export default {
         "sectional sofa"
       ],
       "optionReasons": {
-        "section-mcq-17": "本句指「分段式／組合式」。",
-        "section-mcq-16": "「隔開」是「section off」的用法，與本句語境不同。",
-        "section-mcq-18": "「組合式梳化」是「sectional sofa」的用法，與本句語境不同。",
-        "section-mcq-15": "「分段；劃分」是「section (verb)」的用法，與本句語境不同。",
-        "section-mcq-19": "「剖面圖」是「sectional view」的用法，與本句語境不同。",
-        "section-mcq-14": "「代表性樣本」是「cross-section (figurative)」的用法，與本句語境不同。"
+        "section-mcq-17": "本句的「sectional sofa」指「分段式／組合式」。",
+        "section-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-17"
     },
@@ -1789,10 +1629,8 @@ export default {
       "masked": "The furniture has a ____.",
       "options": [
         "section-mcq-17",
-        "section-mcq-16",
-        "section-mcq-18",
-        "section-mcq-15",
-        "section-mcq-19",
+        "section-mcq-05",
+        "section-mcq-12",
         "section-mcq-14"
       ],
       "explanation": "本句的「sectional design」指「分段式／組合式」。",
@@ -1802,12 +1640,10 @@ export default {
         "sectional design"
       ],
       "optionReasons": {
-        "section-mcq-17": "本句指「分段式／組合式」。",
-        "section-mcq-16": "「隔開」是「section off」的用法，與本句語境不同。",
-        "section-mcq-18": "「組合式梳化」是「sectional sofa」的用法，與本句語境不同。",
-        "section-mcq-15": "「分段；劃分」是「section (verb)」的用法，與本句語境不同。",
-        "section-mcq-19": "「剖面圖」是「sectional view」的用法，與本句語境不同。",
-        "section-mcq-14": "「代表性樣本」是「cross-section (figurative)」的用法，與本句語境不同。"
+        "section-mcq-17": "本句的「sectional design」指「分段式／組合式」。",
+        "section-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-17"
     },
@@ -1819,11 +1655,9 @@ export default {
       "masked": "A ____ works well in a large living room.",
       "options": [
         "section-mcq-18",
-        "section-mcq-17",
-        "section-mcq-19",
-        "section-mcq-16",
-        "section-mcq-20",
-        "section-mcq-15"
+        "section-mcq-15",
+        "section-mcq-12",
+        "section-mcq-05"
       ],
       "explanation": "本句的「sectional sofa」指「組合式梳化」。",
       "sentenceIndex": 41,
@@ -1832,12 +1666,10 @@ export default {
         "sectional sofa"
       ],
       "optionReasons": {
-        "section-mcq-18": "本句指「組合式梳化」。",
-        "section-mcq-17": "「分段式／組合式」是「sectional」的用法，與本句語境不同。",
-        "section-mcq-19": "「剖面圖」是「sectional view」的用法，與本句語境不同。",
-        "section-mcq-16": "「隔開」是「section off」的用法，與本句語境不同。",
-        "section-mcq-20": "「弦樂組」是「string section」的用法，與本句語境不同。",
-        "section-mcq-15": "「分段；劃分」是「section (verb)」的用法，與本句語境不同。"
+        "section-mcq-18": "本句的「sectional sofa」指「組合式梳化」。",
+        "section-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-18"
     },
@@ -1849,11 +1681,9 @@ export default {
       "masked": "The pieces of the ____ can be rearranged.",
       "options": [
         "section-mcq-18",
-        "section-mcq-17",
-        "section-mcq-19",
-        "section-mcq-16",
-        "section-mcq-20",
-        "section-mcq-15"
+        "section-mcq-11",
+        "section-mcq-13",
+        "section-mcq-22"
       ],
       "explanation": "本句的「sectional」指「組合式梳化」。",
       "sentenceIndex": 42,
@@ -1862,12 +1692,10 @@ export default {
         "sectional"
       ],
       "optionReasons": {
-        "section-mcq-18": "本句指「組合式梳化」。",
-        "section-mcq-17": "「分段式／組合式」是「sectional」的用法，與本句語境不同。",
-        "section-mcq-19": "「剖面圖」是「sectional view」的用法，與本句語境不同。",
-        "section-mcq-16": "「隔開」是「section off」的用法，與本句語境不同。",
-        "section-mcq-20": "「弦樂組」是「string section」的用法，與本句語境不同。",
-        "section-mcq-15": "「分段；劃分」是「section (verb)」的用法，與本句語境不同。"
+        "section-mcq-18": "本句的「sectional」指「組合式梳化」。",
+        "section-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-18"
     },
@@ -1879,11 +1707,9 @@ export default {
       "masked": "The manual includes a ____ of the machine.",
       "options": [
         "section-mcq-19",
-        "section-mcq-18",
-        "section-mcq-20",
-        "section-mcq-17",
-        "section-mcq-21",
-        "section-mcq-16"
+        "section-mcq-25",
+        "section-mcq-13",
+        "section-mcq-20"
       ],
       "explanation": "本句的「sectional view」指「剖面圖」。",
       "sentenceIndex": 43,
@@ -1892,12 +1718,10 @@ export default {
         "sectional view"
       ],
       "optionReasons": {
-        "section-mcq-19": "本句指「剖面圖」。",
-        "section-mcq-18": "「組合式梳化」是「sectional sofa」的用法，與本句語境不同。",
-        "section-mcq-20": "「弦樂組」是「string section」的用法，與本句語境不同。",
-        "section-mcq-17": "「分段式／組合式」是「sectional」的用法，與本句語境不同。",
-        "section-mcq-21": "「小隊／分隊」是「military section」的用法，與本句語境不同。",
-        "section-mcq-16": "「隔開」是「section off」的用法，與本句語境不同。"
+        "section-mcq-19": "本句的「sectional view」指「剖面圖」。",
+        "section-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-19"
     },
@@ -1909,11 +1733,9 @@ export default {
       "masked": "Engineers studied the ____.",
       "options": [
         "section-mcq-19",
-        "section-mcq-18",
+        "section-mcq-04",
         "section-mcq-20",
-        "section-mcq-17",
-        "section-mcq-21",
-        "section-mcq-16"
+        "section-mcq-14"
       ],
       "explanation": "本句的「sectional drawing」指「剖面圖」。",
       "sentenceIndex": 44,
@@ -1922,12 +1744,10 @@ export default {
         "sectional drawing"
       ],
       "optionReasons": {
-        "section-mcq-19": "本句指「剖面圖」。",
-        "section-mcq-18": "「組合式梳化」是「sectional sofa」的用法，與本句語境不同。",
-        "section-mcq-20": "「弦樂組」是「string section」的用法，與本句語境不同。",
-        "section-mcq-17": "「分段式／組合式」是「sectional」的用法，與本句語境不同。",
-        "section-mcq-21": "「小隊／分隊」是「military section」的用法，與本句語境不同。",
-        "section-mcq-16": "「隔開」是「section off」的用法，與本句語境不同。"
+        "section-mcq-19": "本句的「sectional drawing」指「剖面圖」。",
+        "section-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-19"
     },
@@ -1939,11 +1759,9 @@ export default {
       "masked": "The string ____ sounded excellent.",
       "options": [
         "section-mcq-20",
-        "section-mcq-19",
-        "section-mcq-21",
-        "section-mcq-18",
         "section-mcq-22",
-        "section-mcq-17"
+        "section-mcq-25",
+        "section-mcq-15"
       ],
       "explanation": "本句的「section」指「弦樂組」。",
       "sentenceIndex": 45,
@@ -1952,12 +1770,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-20": "本句指「弦樂組」。",
-        "section-mcq-19": "「剖面圖」是「sectional view」的用法，與本句語境不同。",
-        "section-mcq-21": "「小隊／分隊」是「military section」的用法，與本句語境不同。",
-        "section-mcq-18": "「組合式梳化」是「sectional sofa」的用法，與本句語境不同。",
-        "section-mcq-22": "「條；節」是「legal section」的用法，與本句語境不同。",
-        "section-mcq-17": "「分段式／組合式」是「sectional」的用法，與本句語境不同。"
+        "section-mcq-20": "本句的「section」指「弦樂組」。",
+        "section-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-20"
     },
@@ -1969,11 +1785,9 @@ export default {
       "masked": "She plays in the brass ____.",
       "options": [
         "section-mcq-20",
-        "section-mcq-19",
-        "section-mcq-21",
-        "section-mcq-18",
-        "section-mcq-22",
-        "section-mcq-17"
+        "section-mcq-14",
+        "section-mcq-16",
+        "section-mcq-24"
       ],
       "explanation": "本句的「section」指「弦樂組」。",
       "sentenceIndex": 46,
@@ -1982,12 +1796,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-20": "本句指「弦樂組」。",
-        "section-mcq-19": "「剖面圖」是「sectional view」的用法，與本句語境不同。",
-        "section-mcq-21": "「小隊／分隊」是「military section」的用法，與本句語境不同。",
-        "section-mcq-18": "「組合式梳化」是「sectional sofa」的用法，與本句語境不同。",
-        "section-mcq-22": "「條；節」是「legal section」的用法，與本句語境不同。",
-        "section-mcq-17": "「分段式／組合式」是「sectional」的用法，與本句語境不同。"
+        "section-mcq-20": "本句的「section」指「弦樂組」。",
+        "section-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-20"
     },
@@ -2000,10 +1812,8 @@ export default {
       "options": [
         "section-mcq-20",
         "section-mcq-19",
-        "section-mcq-21",
-        "section-mcq-18",
-        "section-mcq-22",
-        "section-mcq-17"
+        "section-pdf-001",
+        "section-mcq-05"
       ],
       "explanation": "本句的「section」指「弦樂組」。",
       "sentenceIndex": 47,
@@ -2012,12 +1822,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-20": "本句指「弦樂組」。",
-        "section-mcq-19": "「剖面圖」是「sectional view」的用法，與本句語境不同。",
-        "section-mcq-21": "「小隊／分隊」是「military section」的用法，與本句語境不同。",
-        "section-mcq-18": "「組合式梳化」是「sectional sofa」的用法，與本句語境不同。",
-        "section-mcq-22": "「條；節」是「legal section」的用法，與本句語境不同。",
-        "section-mcq-17": "「分段式／組合式」是「sectional」的用法，與本句語境不同。"
+        "section-mcq-20": "本句的「section」指「弦樂組」。",
+        "section-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "section-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-20"
     },
@@ -2029,11 +1837,9 @@ export default {
       "masked": "The violinists sit in the string ____.",
       "options": [
         "section-mcq-20",
-        "section-mcq-19",
-        "section-mcq-21",
-        "section-mcq-18",
-        "section-mcq-22",
-        "section-mcq-17"
+        "section-mcq-14",
+        "section-mcq-04",
+        "section-mcq-12"
       ],
       "explanation": "本句的「section」指「弦樂組」。",
       "sentenceIndex": 48,
@@ -2042,12 +1848,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-20": "本句指「弦樂組」。",
-        "section-mcq-19": "「剖面圖」是「sectional view」的用法，與本句語境不同。",
-        "section-mcq-21": "「小隊／分隊」是「military section」的用法，與本句語境不同。",
-        "section-mcq-18": "「組合式梳化」是「sectional sofa」的用法，與本句語境不同。",
-        "section-mcq-22": "「條；節」是「legal section」的用法，與本句語境不同。",
-        "section-mcq-17": "「分段式／組合式」是「sectional」的用法，與本句語境不同。"
+        "section-mcq-20": "本句的「section」指「弦樂組」。",
+        "section-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-20"
     },
@@ -2059,11 +1863,9 @@ export default {
       "masked": "The soldiers moved in small ____.",
       "options": [
         "section-mcq-21",
-        "section-mcq-20",
         "section-mcq-22",
         "section-mcq-19",
-        "section-mcq-23",
-        "section-mcq-18"
+        "section-mcq-16"
       ],
       "explanation": "本句的「sections」指「小隊／分隊」。",
       "sentenceIndex": 49,
@@ -2072,12 +1874,10 @@ export default {
         "sections"
       ],
       "optionReasons": {
-        "section-mcq-21": "本句指「小隊／分隊」。",
-        "section-mcq-20": "「弦樂組」是「string section」的用法，與本句語境不同。",
-        "section-mcq-22": "「條；節」是「legal section」的用法，與本句語境不同。",
-        "section-mcq-19": "「剖面圖」是「sectional view」的用法，與本句語境不同。",
-        "section-mcq-23": "「專門收錄 X 類內容的一個分類區」是「7. sports / business / entertainment section — 體育／商業／娛樂版」的用法，與本句語境不同。",
-        "section-mcq-18": "「組合式梳化」是「sectional sofa」的用法，與本句語境不同。"
+        "section-mcq-21": "本句的「sections」指「小隊／分隊」。",
+        "section-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-21"
     },
@@ -2089,11 +1889,9 @@ export default {
       "masked": "He commanded a ____ of soldiers.",
       "options": [
         "section-mcq-21",
-        "section-mcq-20",
+        "section-mcq-09",
         "section-mcq-22",
-        "section-mcq-19",
-        "section-mcq-23",
-        "section-mcq-18"
+        "section-mcq-20"
       ],
       "explanation": "本句的「section」指「小隊／分隊」。",
       "sentenceIndex": 50,
@@ -2102,12 +1900,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-21": "本句指「小隊／分隊」。",
-        "section-mcq-20": "「弦樂組」是「string section」的用法，與本句語境不同。",
-        "section-mcq-22": "「條；節」是「legal section」的用法，與本句語境不同。",
-        "section-mcq-19": "「剖面圖」是「sectional view」的用法，與本句語境不同。",
-        "section-mcq-23": "「專門收錄 X 類內容的一個分類區」是「7. sports / business / entertainment section — 體育／商業／娛樂版」的用法，與本句語境不同。",
-        "section-mcq-18": "「組合式梳化」是「sectional sofa」的用法，與本句語境不同。"
+        "section-mcq-21": "本句的「section」指「小隊／分隊」。",
+        "section-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-21"
     },
@@ -2120,10 +1916,8 @@ export default {
       "options": [
         "section-mcq-22",
         "section-mcq-21",
-        "section-mcq-23",
-        "section-mcq-20",
-        "section-mcq-24",
-        "section-mcq-19"
+        "section-mcq-09",
+        "section-mcq-14"
       ],
       "explanation": "本句的「Section 12」指「條；節」。",
       "sentenceIndex": 51,
@@ -2132,12 +1926,10 @@ export default {
         "Section 12"
       ],
       "optionReasons": {
-        "section-mcq-22": "本句指「條；節」。",
-        "section-mcq-21": "「小隊／分隊」是「military section」的用法，與本句語境不同。",
-        "section-mcq-23": "「專門收錄 X 類內容的一個分類區」是「7. sports / business / entertainment section — 體育／商業／娛樂版」的用法，與本句語境不同。",
-        "section-mcq-20": "「弦樂組」是「string section」的用法，與本句語境不同。",
-        "section-mcq-24": "「某個地方、道路或空間中被視為獨立的一部分」是「8. section（區域；地區的一部分） — 區域；一段」的用法，與本句語境不同。",
-        "section-mcq-19": "「剖面圖」是「sectional view」的用法，與本句語境不同。"
+        "section-mcq-22": "本句的「Section 12」指「條；節」。",
+        "section-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-22"
     },
@@ -2149,10 +1941,8 @@ export default {
       "masked": "This ____ explains the legal requirement.",
       "options": [
         "section-mcq-22",
-        "section-mcq-21",
-        "section-mcq-23",
-        "section-mcq-20",
-        "section-mcq-24",
+        "section-mcq-01",
+        "section-mcq-14",
         "section-mcq-19"
       ],
       "explanation": "本句的「section」指「條；節」。",
@@ -2162,12 +1952,10 @@ export default {
         "section"
       ],
       "optionReasons": {
-        "section-mcq-22": "本句指「條；節」。",
-        "section-mcq-21": "「小隊／分隊」是「military section」的用法，與本句語境不同。",
-        "section-mcq-23": "「專門收錄 X 類內容的一個分類區」是「7. sports / business / entertainment section — 體育／商業／娛樂版」的用法，與本句語境不同。",
-        "section-mcq-20": "「弦樂組」是「string section」的用法，與本句語境不同。",
-        "section-mcq-24": "「某個地方、道路或空間中被視為獨立的一部分」是「8. section（區域；地區的一部分） — 區域；一段」的用法，與本句語境不同。",
-        "section-mcq-19": "「剖面圖」是「sectional view」的用法，與本句語境不同。"
+        "section-mcq-22": "本句的「section」指「條；節」。",
+        "section-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "section-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "section-mcq-22"
     }
@@ -2179,5 +1967,7 @@ export default {
     "sha256": "655e545b0ab6efc751ccd41d3b6910559d09fd4fdf9a4d793fa319214ff6ef9f",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

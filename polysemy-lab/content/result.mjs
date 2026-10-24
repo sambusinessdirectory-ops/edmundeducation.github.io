@@ -160,7 +160,7 @@ export default {
     },
     {
       "id": "result-mcq-08",
-      "title": "表示前面原因造成後面結果；因此／所以",
+      "title": "前面原因造成後面結果；因此／所以",
       "form": "as a result",
       "en": "as a result",
       "zh": "表示前面原因造成後面結果；因此／所以",
@@ -182,7 +182,7 @@ export default {
     },
     {
       "id": "result-mcq-09",
-      "title": "表示某件事情由後面所述原因造成；由於",
+      "title": "某件事情由後面所述原因造成；由於",
       "form": "as a result of",
       "en": "as a result of",
       "zh": "表示某件事情由後面所述原因造成；由於",
@@ -300,11 +300,7 @@ export default {
       "masked": "The campaign produced excellent ____.",
       "options": [
         "result-mcq-01",
-        "result-mcq-02",
-        "result-mcq-03",
-        "result-mcq-04",
-        "result-mcq-05",
-        "result-mcq-06"
+        "result-mcq-05"
       ],
       "explanation": "本句的「results」指「某個行動、事件或過程完成後產生的最終結果／成效」。",
       "sentenceIndex": 0,
@@ -313,12 +309,8 @@ export default {
         "results"
       ],
       "optionReasons": {
-        "result-mcq-01": "本句指「某個行動、事件或過程完成後產生的最終結果／成效」。",
-        "result-mcq-02": "「由某個原因直接導致的後果或結果」是「result — consequence」的用法，與本句語境不同。",
-        "result-mcq-03": "「測試、考試或檢查完成後所得的分數、數據或結論」是「test/exam result」的用法，與本句語境不同。",
-        "result-mcq-04": "「比賽或競爭完成後所得的最終勝負或成績」是「sports result」的用法，與本句語境不同。",
-        "result-mcq-05": "「可量度並證明工作或策略有效的成果／業績」是「results — performance」的用法，與本句語境不同。",
-        "result-mcq-06": "「某個原因最後導致某種結果」是「result in」的用法，與本句語境不同。"
+        "result-mcq-01": "本句的「results」指「某個行動、事件或過程完成後產生的最終結果／成效」。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-01"
     },
@@ -330,11 +322,7 @@ export default {
       "masked": "The final ____ was better than we expected.",
       "options": [
         "result-mcq-01",
-        "result-mcq-02",
-        "result-mcq-03",
-        "result-mcq-04",
-        "result-mcq-05",
-        "result-mcq-06"
+        "result-mcq-05"
       ],
       "explanation": "本句的「result」指「某個行動、事件或過程完成後產生的最終結果／成效」。",
       "sentenceIndex": 1,
@@ -343,12 +331,8 @@ export default {
         "result"
       ],
       "optionReasons": {
-        "result-mcq-01": "本句指「某個行動、事件或過程完成後產生的最終結果／成效」。",
-        "result-mcq-02": "「由某個原因直接導致的後果或結果」是「result — consequence」的用法，與本句語境不同。",
-        "result-mcq-03": "「測試、考試或檢查完成後所得的分數、數據或結論」是「test/exam result」的用法，與本句語境不同。",
-        "result-mcq-04": "「比賽或競爭完成後所得的最終勝負或成績」是「sports result」的用法，與本句語境不同。",
-        "result-mcq-05": "「可量度並證明工作或策略有效的成果／業績」是「results — performance」的用法，與本句語境不同。",
-        "result-mcq-06": "「某個原因最後導致某種結果」是「result in」的用法，與本句語境不同。"
+        "result-mcq-01": "本句的「result」指「某個行動、事件或過程完成後產生的最終結果／成效」。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-01"
     },
@@ -360,11 +344,8 @@ export default {
       "masked": "The delays were the ____ of poor planning.",
       "options": [
         "result-mcq-02",
-        "result-mcq-01",
-        "result-mcq-03",
-        "result-mcq-04",
         "result-mcq-05",
-        "result-mcq-06"
+        "result-mcq-13"
       ],
       "explanation": "本句的「result」指「由某個原因直接導致的後果或結果」。",
       "sentenceIndex": 2,
@@ -373,12 +354,9 @@ export default {
         "result"
       ],
       "optionReasons": {
-        "result-mcq-02": "本句指「由某個原因直接導致的後果或結果」。",
-        "result-mcq-01": "「某個行動、事件或過程完成後產生的最終結果／成效」是「result — general outcome」的用法，與本句語境不同。",
-        "result-mcq-03": "「測試、考試或檢查完成後所得的分數、數據或結論」是「test/exam result」的用法，與本句語境不同。",
-        "result-mcq-04": "「比賽或競爭完成後所得的最終勝負或成績」是「sports result」的用法，與本句語境不同。",
-        "result-mcq-05": "「可量度並證明工作或策略有效的成果／業績」是「results — performance」的用法，與本句語境不同。",
-        "result-mcq-06": "「某個原因最後導致某種結果」是「result in」的用法，與本句語境不同。"
+        "result-mcq-02": "本句的「result」指「由某個原因直接導致的後果或結果」。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-02"
     },
@@ -390,11 +368,8 @@ export default {
       "masked": "Stress can be a ____ of long working hours.",
       "options": [
         "result-mcq-02",
-        "result-mcq-01",
-        "result-mcq-03",
         "result-mcq-04",
-        "result-mcq-05",
-        "result-mcq-06"
+        "result-mcq-05"
       ],
       "explanation": "本句的「result」指「由某個原因直接導致的後果或結果」。",
       "sentenceIndex": 3,
@@ -403,12 +378,9 @@ export default {
         "result"
       ],
       "optionReasons": {
-        "result-mcq-02": "本句指「由某個原因直接導致的後果或結果」。",
-        "result-mcq-01": "「某個行動、事件或過程完成後產生的最終結果／成效」是「result — general outcome」的用法，與本句語境不同。",
-        "result-mcq-03": "「測試、考試或檢查完成後所得的分數、數據或結論」是「test/exam result」的用法，與本句語境不同。",
-        "result-mcq-04": "「比賽或競爭完成後所得的最終勝負或成績」是「sports result」的用法，與本句語境不同。",
-        "result-mcq-05": "「可量度並證明工作或策略有效的成果／業績」是「results — performance」的用法，與本句語境不同。",
-        "result-mcq-06": "「某個原因最後導致某種結果」是「result in」的用法，與本句語境不同。"
+        "result-mcq-02": "本句的「result」指「由某個原因直接導致的後果或結果」。",
+        "result-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-02"
     },
@@ -420,11 +392,8 @@ export default {
       "masked": "I received my exam ____ yesterday.",
       "options": [
         "result-mcq-03",
-        "result-mcq-02",
-        "result-mcq-04",
-        "result-mcq-01",
-        "result-mcq-05",
-        "result-mcq-06"
+        "result-mcq-11",
+        "result-mcq-05"
       ],
       "explanation": "本句的「results」指「測試、考試或檢查完成後所得的分數、數據或結論」。",
       "sentenceIndex": 4,
@@ -433,12 +402,9 @@ export default {
         "results"
       ],
       "optionReasons": {
-        "result-mcq-03": "本句指「測試、考試或檢查完成後所得的分數、數據或結論」。",
-        "result-mcq-02": "「由某個原因直接導致的後果或結果」是「result — consequence」的用法，與本句語境不同。",
-        "result-mcq-04": "「比賽或競爭完成後所得的最終勝負或成績」是「sports result」的用法，與本句語境不同。",
-        "result-mcq-01": "「某個行動、事件或過程完成後產生的最終結果／成效」是「result — general outcome」的用法，與本句語境不同。",
-        "result-mcq-05": "「可量度並證明工作或策略有效的成果／業績」是「results — performance」的用法，與本句語境不同。",
-        "result-mcq-06": "「某個原因最後導致某種結果」是「result in」的用法，與本句語境不同。"
+        "result-mcq-03": "本句的「results」指「測試、考試或檢查完成後所得的分數、數據或結論」。",
+        "result-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-03"
     },
@@ -450,11 +416,8 @@ export default {
       "masked": "The blood test ____ were normal.",
       "options": [
         "result-mcq-03",
-        "result-mcq-02",
-        "result-mcq-04",
-        "result-mcq-01",
-        "result-mcq-05",
-        "result-mcq-06"
+        "result-mcq-11",
+        "result-mcq-05"
       ],
       "explanation": "本句的「results」指「測試、考試或檢查完成後所得的分數、數據或結論」。",
       "sentenceIndex": 5,
@@ -463,12 +426,9 @@ export default {
         "results"
       ],
       "optionReasons": {
-        "result-mcq-03": "本句指「測試、考試或檢查完成後所得的分數、數據或結論」。",
-        "result-mcq-02": "「由某個原因直接導致的後果或結果」是「result — consequence」的用法，與本句語境不同。",
-        "result-mcq-04": "「比賽或競爭完成後所得的最終勝負或成績」是「sports result」的用法，與本句語境不同。",
-        "result-mcq-01": "「某個行動、事件或過程完成後產生的最終結果／成效」是「result — general outcome」的用法，與本句語境不同。",
-        "result-mcq-05": "「可量度並證明工作或策略有效的成果／業績」是「results — performance」的用法，與本句語境不同。",
-        "result-mcq-06": "「某個原因最後導致某種結果」是「result in」的用法，與本句語境不同。"
+        "result-mcq-03": "本句的「results」指「測試、考試或檢查完成後所得的分數、數據或結論」。",
+        "result-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-03"
     },
@@ -480,11 +440,8 @@ export default {
       "masked": "What was the ____ of the match?",
       "options": [
         "result-mcq-04",
-        "result-mcq-03",
-        "result-mcq-05",
-        "result-mcq-02",
-        "result-mcq-06",
-        "result-mcq-01"
+        "result-mcq-11",
+        "result-mcq-05"
       ],
       "explanation": "本句的「result」指「比賽或競爭完成後所得的最終勝負或成績」。",
       "sentenceIndex": 6,
@@ -493,12 +450,9 @@ export default {
         "result"
       ],
       "optionReasons": {
-        "result-mcq-04": "本句指「比賽或競爭完成後所得的最終勝負或成績」。",
-        "result-mcq-03": "「測試、考試或檢查完成後所得的分數、數據或結論」是「test/exam result」的用法，與本句語境不同。",
-        "result-mcq-05": "「可量度並證明工作或策略有效的成果／業績」是「results — performance」的用法，與本句語境不同。",
-        "result-mcq-02": "「由某個原因直接導致的後果或結果」是「result — consequence」的用法，與本句語境不同。",
-        "result-mcq-06": "「某個原因最後導致某種結果」是「result in」的用法，與本句語境不同。",
-        "result-mcq-01": "「某個行動、事件或過程完成後產生的最終結果／成效」是「result — general outcome」的用法，與本句語境不同。"
+        "result-mcq-04": "本句的「result」指「比賽或競爭完成後所得的最終勝負或成績」。",
+        "result-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-04"
     },
@@ -510,11 +464,8 @@ export default {
       "masked": "The team was disappointed with the ____.",
       "options": [
         "result-mcq-04",
-        "result-mcq-03",
-        "result-mcq-05",
-        "result-mcq-02",
-        "result-mcq-06",
-        "result-mcq-01"
+        "result-mcq-11",
+        "result-mcq-05"
       ],
       "explanation": "本句的「result」指「比賽或競爭完成後所得的最終勝負或成績」。",
       "sentenceIndex": 7,
@@ -523,12 +474,9 @@ export default {
         "result"
       ],
       "optionReasons": {
-        "result-mcq-04": "本句指「比賽或競爭完成後所得的最終勝負或成績」。",
-        "result-mcq-03": "「測試、考試或檢查完成後所得的分數、數據或結論」是「test/exam result」的用法，與本句語境不同。",
-        "result-mcq-05": "「可量度並證明工作或策略有效的成果／業績」是「results — performance」的用法，與本句語境不同。",
-        "result-mcq-02": "「由某個原因直接導致的後果或結果」是「result — consequence」的用法，與本句語境不同。",
-        "result-mcq-06": "「某個原因最後導致某種結果」是「result in」的用法，與本句語境不同。",
-        "result-mcq-01": "「某個行動、事件或過程完成後產生的最終結果／成效」是「result — general outcome」的用法，與本句語境不同。"
+        "result-mcq-04": "本句的「result」指「比賽或競爭完成後所得的最終勝負或成績」。",
+        "result-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-04"
     },
@@ -540,11 +488,8 @@ export default {
       "masked": "The new strategy delivered strong ____.",
       "options": [
         "result-mcq-05",
-        "result-mcq-04",
-        "result-mcq-06",
-        "result-mcq-03",
-        "result-mcq-07",
-        "result-mcq-02"
+        "result-mcq-11",
+        "result-mcq-03"
       ],
       "explanation": "本句的「results」指「可量度並證明工作或策略有效的成果／業績」。",
       "sentenceIndex": 8,
@@ -553,12 +498,9 @@ export default {
         "results"
       ],
       "optionReasons": {
-        "result-mcq-05": "本句指「可量度並證明工作或策略有效的成果／業績」。",
-        "result-mcq-04": "「比賽或競爭完成後所得的最終勝負或成績」是「sports result」的用法，與本句語境不同。",
-        "result-mcq-06": "「某個原因最後導致某種結果」是「result in」的用法，與本句語境不同。",
-        "result-mcq-03": "「測試、考試或檢查完成後所得的分數、數據或結論」是「test/exam result」的用法，與本句語境不同。",
-        "result-mcq-07": "「某個結果由某個原因造成」是「result from」的用法，與本句語境不同。",
-        "result-mcq-02": "「由某個原因直接導致的後果或結果」是「result — consequence」的用法，與本句語境不同。"
+        "result-mcq-05": "本句的「results」指「可量度並證明工作或策略有效的成果／業績」。",
+        "result-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-05"
     },
@@ -570,11 +512,8 @@ export default {
       "masked": "Managers are under pressure to produce ____.",
       "options": [
         "result-mcq-05",
-        "result-mcq-04",
-        "result-mcq-06",
-        "result-mcq-03",
-        "result-mcq-07",
-        "result-mcq-02"
+        "result-mcq-11",
+        "result-mcq-03"
       ],
       "explanation": "本句的「results」指「可量度並證明工作或策略有效的成果／業績」。",
       "sentenceIndex": 9,
@@ -583,12 +522,9 @@ export default {
         "results"
       ],
       "optionReasons": {
-        "result-mcq-05": "本句指「可量度並證明工作或策略有效的成果／業績」。",
-        "result-mcq-04": "「比賽或競爭完成後所得的最終勝負或成績」是「sports result」的用法，與本句語境不同。",
-        "result-mcq-06": "「某個原因最後導致某種結果」是「result in」的用法，與本句語境不同。",
-        "result-mcq-03": "「測試、考試或檢查完成後所得的分數、數據或結論」是「test/exam result」的用法，與本句語境不同。",
-        "result-mcq-07": "「某個結果由某個原因造成」是「result from」的用法，與本句語境不同。",
-        "result-mcq-02": "「由某個原因直接導致的後果或結果」是「result — consequence」的用法，與本句語境不同。"
+        "result-mcq-05": "本句的「results」指「可量度並證明工作或策略有效的成果／業績」。",
+        "result-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-05"
     },
@@ -601,10 +537,7 @@ export default {
       "options": [
         "result-mcq-06",
         "result-mcq-05",
-        "result-mcq-07",
-        "result-mcq-04",
-        "result-mcq-08",
-        "result-mcq-03"
+        "result-mcq-13"
       ],
       "explanation": "本句的「result in」指「某個原因最後導致某種結果」。",
       "sentenceIndex": 10,
@@ -613,12 +546,9 @@ export default {
         "result in"
       ],
       "optionReasons": {
-        "result-mcq-06": "本句指「某個原因最後導致某種結果」。",
-        "result-mcq-05": "「可量度並證明工作或策略有效的成果／業績」是「results — performance」的用法，與本句語境不同。",
-        "result-mcq-07": "「某個結果由某個原因造成」是「result from」的用法，與本句語境不同。",
-        "result-mcq-04": "「比賽或競爭完成後所得的最終勝負或成績」是「sports result」的用法，與本句語境不同。",
-        "result-mcq-08": "「表示前面原因造成後面結果；因此／所以」是「as a result」的用法，與本句語境不同。",
-        "result-mcq-03": "「測試、考試或檢查完成後所得的分數、數據或結論」是「test/exam result」的用法，與本句語境不同。"
+        "result-mcq-06": "本句的「result in」指「某個原因最後導致某種結果」。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-06"
     },
@@ -631,10 +561,7 @@ export default {
       "options": [
         "result-mcq-06",
         "result-mcq-05",
-        "result-mcq-07",
-        "result-mcq-04",
-        "result-mcq-08",
-        "result-mcq-03"
+        "result-mcq-13"
       ],
       "explanation": "本句的「resulted in」指「某個原因最後導致某種結果」。",
       "sentenceIndex": 11,
@@ -643,12 +570,9 @@ export default {
         "resulted in"
       ],
       "optionReasons": {
-        "result-mcq-06": "本句指「某個原因最後導致某種結果」。",
-        "result-mcq-05": "「可量度並證明工作或策略有效的成果／業績」是「results — performance」的用法，與本句語境不同。",
-        "result-mcq-07": "「某個結果由某個原因造成」是「result from」的用法，與本句語境不同。",
-        "result-mcq-04": "「比賽或競爭完成後所得的最終勝負或成績」是「sports result」的用法，與本句語境不同。",
-        "result-mcq-08": "「表示前面原因造成後面結果；因此／所以」是「as a result」的用法，與本句語境不同。",
-        "result-mcq-03": "「測試、考試或檢查完成後所得的分數、數據或結論」是「test/exam result」的用法，與本句語境不同。"
+        "result-mcq-06": "本句的「resulted in」指「某個原因最後導致某種結果」。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-06"
     },
@@ -660,11 +584,8 @@ export default {
       "masked": "The damage ____ a water leak.",
       "options": [
         "result-mcq-07",
-        "result-mcq-06",
-        "result-mcq-08",
-        "result-mcq-05",
-        "result-mcq-09",
-        "result-mcq-04"
+        "result-mcq-04",
+        "result-mcq-05"
       ],
       "explanation": "本句的「resulted from」指「某個結果由某個原因造成」。",
       "sentenceIndex": 12,
@@ -673,12 +594,9 @@ export default {
         "resulted from"
       ],
       "optionReasons": {
-        "result-mcq-07": "本句指「某個結果由某個原因造成」。",
-        "result-mcq-06": "「某個原因最後導致某種結果」是「result in」的用法，與本句語境不同。",
-        "result-mcq-08": "「表示前面原因造成後面結果；因此／所以」是「as a result」的用法，與本句語境不同。",
-        "result-mcq-05": "「可量度並證明工作或策略有效的成果／業績」是「results — performance」的用法，與本句語境不同。",
-        "result-mcq-09": "「表示某件事情由後面所述原因造成；由於」是「as a result of」的用法，與本句語境不同。",
-        "result-mcq-04": "「比賽或競爭完成後所得的最終勝負或成績」是「sports result」的用法，與本句語境不同。"
+        "result-mcq-07": "本句的「resulted from」指「某個結果由某個原因造成」。",
+        "result-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-07"
     },
@@ -690,11 +608,8 @@ export default {
       "masked": "Many of the problems ____ poor planning.",
       "options": [
         "result-mcq-07",
-        "result-mcq-06",
-        "result-mcq-08",
-        "result-mcq-05",
-        "result-mcq-09",
-        "result-mcq-04"
+        "result-mcq-04",
+        "result-mcq-05"
       ],
       "explanation": "本句的「result from」指「某個結果由某個原因造成」。",
       "sentenceIndex": 13,
@@ -703,12 +618,9 @@ export default {
         "result from"
       ],
       "optionReasons": {
-        "result-mcq-07": "本句指「某個結果由某個原因造成」。",
-        "result-mcq-06": "「某個原因最後導致某種結果」是「result in」的用法，與本句語境不同。",
-        "result-mcq-08": "「表示前面原因造成後面結果；因此／所以」是「as a result」的用法，與本句語境不同。",
-        "result-mcq-05": "「可量度並證明工作或策略有效的成果／業績」是「results — performance」的用法，與本句語境不同。",
-        "result-mcq-09": "「表示某件事情由後面所述原因造成；由於」是「as a result of」的用法，與本句語境不同。",
-        "result-mcq-04": "「比賽或競爭完成後所得的最終勝負或成績」是「sports result」的用法，與本句語境不同。"
+        "result-mcq-07": "本句的「result from」指「某個結果由某個原因造成」。",
+        "result-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-07"
     },
@@ -720,10 +632,6 @@ export default {
       "masked": "The train was delayed. ____, I missed the meeting.",
       "options": [
         "result-mcq-08",
-        "result-mcq-07",
-        "result-mcq-09",
-        "result-mcq-06",
-        "result-mcq-10",
         "result-mcq-05"
       ],
       "explanation": "本句的「As a result」指「表示前面原因造成後面結果；因此／所以」。",
@@ -733,12 +641,8 @@ export default {
         "As a result"
       ],
       "optionReasons": {
-        "result-mcq-08": "本句指「表示前面原因造成後面結果；因此／所以」。",
-        "result-mcq-07": "「某個結果由某個原因造成」是「result from」的用法，與本句語境不同。",
-        "result-mcq-09": "「表示某件事情由後面所述原因造成；由於」是「as a result of」的用法，與本句語境不同。",
-        "result-mcq-06": "「某個原因最後導致某種結果」是「result in」的用法，與本句語境不同。",
-        "result-mcq-10": "「前面情況造成後面所述的結果」是「with the result that」的用法，與本句語境不同。",
-        "result-mcq-05": "「可量度並證明工作或策略有效的成果／業績」是「results — performance」的用法，與本句語境不同。"
+        "result-mcq-08": "本句的「As a result」指「表示前面原因造成後面結果；因此／所以」。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-08"
     },
@@ -750,10 +654,6 @@ export default {
       "masked": "The advertisement felt relatable. ____, I became interested in the product.",
       "options": [
         "result-mcq-08",
-        "result-mcq-07",
-        "result-mcq-09",
-        "result-mcq-06",
-        "result-mcq-10",
         "result-mcq-05"
       ],
       "explanation": "本句的「As a result」指「表示前面原因造成後面結果；因此／所以」。",
@@ -763,12 +663,8 @@ export default {
         "As a result"
       ],
       "optionReasons": {
-        "result-mcq-08": "本句指「表示前面原因造成後面結果；因此／所以」。",
-        "result-mcq-07": "「某個結果由某個原因造成」是「result from」的用法，與本句語境不同。",
-        "result-mcq-09": "「表示某件事情由後面所述原因造成；由於」是「as a result of」的用法，與本句語境不同。",
-        "result-mcq-06": "「某個原因最後導致某種結果」是「result in」的用法，與本句語境不同。",
-        "result-mcq-10": "「前面情況造成後面所述的結果」是「with the result that」的用法，與本句語境不同。",
-        "result-mcq-05": "「可量度並證明工作或策略有效的成果／業績」是「results — performance」的用法，與本句語境不同。"
+        "result-mcq-08": "本句的「As a result」指「表示前面原因造成後面結果；因此／所以」。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-08"
     },
@@ -780,11 +676,8 @@ export default {
       "masked": "Sales increased ____ the campaign.",
       "options": [
         "result-mcq-09",
-        "result-mcq-08",
-        "result-mcq-10",
-        "result-mcq-07",
-        "result-mcq-11",
-        "result-mcq-06"
+        "result-mcq-05",
+        "result-mcq-13"
       ],
       "explanation": "本句的「as a result of」指「表示某件事情由後面所述原因造成；由於」。",
       "sentenceIndex": 16,
@@ -793,12 +686,9 @@ export default {
         "as a result of"
       ],
       "optionReasons": {
-        "result-mcq-09": "本句指「表示某件事情由後面所述原因造成；由於」。",
-        "result-mcq-08": "「表示前面原因造成後面結果；因此／所以」是「as a result」的用法，與本句語境不同。",
-        "result-mcq-10": "「前面情況造成後面所述的結果」是「with the result that」的用法，與本句語境不同。",
-        "result-mcq-07": "「某個結果由某個原因造成」是「result from」的用法，與本句語境不同。",
-        "result-mcq-11": "「因前面某件事情發生而隨之產生的」是「resulting」的用法，與本句語境不同。",
-        "result-mcq-06": "「某個原因最後導致某種結果」是「result in」的用法，與本句語境不同。"
+        "result-mcq-09": "本句的「as a result of」指「表示某件事情由後面所述原因造成；由於」。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-09"
     },
@@ -810,11 +700,8 @@ export default {
       "masked": "He became exhausted ____ working long hours.",
       "options": [
         "result-mcq-09",
-        "result-mcq-08",
-        "result-mcq-10",
-        "result-mcq-07",
-        "result-mcq-11",
-        "result-mcq-06"
+        "result-mcq-05",
+        "result-mcq-03"
       ],
       "explanation": "本句的「as a result of」指「表示某件事情由後面所述原因造成；由於」。",
       "sentenceIndex": 17,
@@ -823,12 +710,9 @@ export default {
         "as a result of"
       ],
       "optionReasons": {
-        "result-mcq-09": "本句指「表示某件事情由後面所述原因造成；由於」。",
-        "result-mcq-08": "「表示前面原因造成後面結果；因此／所以」是「as a result」的用法，與本句語境不同。",
-        "result-mcq-10": "「前面情況造成後面所述的結果」是「with the result that」的用法，與本句語境不同。",
-        "result-mcq-07": "「某個結果由某個原因造成」是「result from」的用法，與本句語境不同。",
-        "result-mcq-11": "「因前面某件事情發生而隨之產生的」是「resulting」的用法，與本句語境不同。",
-        "result-mcq-06": "「某個原因最後導致某種結果」是「result in」的用法，與本句語境不同。"
+        "result-mcq-09": "本句的「as a result of」指「表示某件事情由後面所述原因造成；由於」。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-09"
     },
@@ -840,11 +724,7 @@ export default {
       "masked": "The system failed, ____ several services stopped.",
       "options": [
         "result-mcq-10",
-        "result-mcq-09",
-        "result-mcq-11",
-        "result-mcq-08",
-        "result-mcq-12",
-        "result-mcq-07"
+        "result-mcq-05"
       ],
       "explanation": "本句的「with the result that」指「前面情況造成後面所述的結果」。",
       "sentenceIndex": 18,
@@ -853,12 +733,8 @@ export default {
         "with the result that"
       ],
       "optionReasons": {
-        "result-mcq-10": "本句指「前面情況造成後面所述的結果」。",
-        "result-mcq-09": "「表示某件事情由後面所述原因造成；由於」是「as a result of」的用法，與本句語境不同。",
-        "result-mcq-11": "「因前面某件事情發生而隨之產生的」是「resulting」的用法，與本句語境不同。",
-        "result-mcq-08": "「表示前面原因造成後面結果；因此／所以」是「as a result」的用法，與本句語境不同。",
-        "result-mcq-12": "「由某個原因或多個作用共同形成的結果性事物」是「resultant — general/technical」的用法，與本句語境不同。",
-        "result-mcq-07": "「某個結果由某個原因造成」是「result from」的用法，與本句語境不同。"
+        "result-mcq-10": "本句的「with the result that」指「前面情況造成後面所述的結果」。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-10"
     },
@@ -870,11 +746,7 @@ export default {
       "masked": "He left late, ____ he missed the train.",
       "options": [
         "result-mcq-10",
-        "result-mcq-09",
-        "result-mcq-11",
-        "result-mcq-08",
-        "result-mcq-12",
-        "result-mcq-07"
+        "result-mcq-05"
       ],
       "explanation": "本句的「with the result that」指「前面情況造成後面所述的結果」。",
       "sentenceIndex": 19,
@@ -883,12 +755,8 @@ export default {
         "with the result that"
       ],
       "optionReasons": {
-        "result-mcq-10": "本句指「前面情況造成後面所述的結果」。",
-        "result-mcq-09": "「表示某件事情由後面所述原因造成；由於」是「as a result of」的用法，與本句語境不同。",
-        "result-mcq-11": "「因前面某件事情發生而隨之產生的」是「resulting」的用法，與本句語境不同。",
-        "result-mcq-08": "「表示前面原因造成後面結果；因此／所以」是「as a result」的用法，與本句語境不同。",
-        "result-mcq-12": "「由某個原因或多個作用共同形成的結果性事物」是「resultant — general/technical」的用法，與本句語境不同。",
-        "result-mcq-07": "「某個結果由某個原因造成」是「result from」的用法，與本句語境不同。"
+        "result-mcq-10": "本句的「with the result that」指「前面情況造成後面所述的結果」。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-10"
     },
@@ -900,11 +768,8 @@ export default {
       "masked": "The power cut and the ____ delays caused major disruption.",
       "options": [
         "result-mcq-11",
-        "result-mcq-10",
-        "result-mcq-12",
-        "result-mcq-09",
-        "result-mcq-13",
-        "result-mcq-08"
+        "result-mcq-03",
+        "result-mcq-05"
       ],
       "explanation": "本句的「resulting」指「因前面某件事情發生而隨之產生的」。",
       "sentenceIndex": 20,
@@ -913,12 +778,9 @@ export default {
         "resulting"
       ],
       "optionReasons": {
-        "result-mcq-11": "本句指「因前面某件事情發生而隨之產生的」。",
-        "result-mcq-10": "「前面情況造成後面所述的結果」是「with the result that」的用法，與本句語境不同。",
-        "result-mcq-12": "「由某個原因或多個作用共同形成的結果性事物」是「resultant — general/technical」的用法，與本句語境不同。",
-        "result-mcq-09": "「表示某件事情由後面所述原因造成；由於」是「as a result of」的用法，與本句語境不同。",
-        "result-mcq-13": "「多個力／向量合成後所得的單一合力／合成量」是「resultant — physics」的用法，與本句語境不同。",
-        "result-mcq-08": "「表示前面原因造成後面結果；因此／所以」是「as a result」的用法，與本句語境不同。"
+        "result-mcq-11": "本句的「resulting」指「因前面某件事情發生而隨之產生的」。",
+        "result-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-11"
     },
@@ -930,11 +792,8 @@ export default {
       "masked": "The accident and the ____ damage were expensive to repair.",
       "options": [
         "result-mcq-11",
-        "result-mcq-10",
-        "result-mcq-12",
-        "result-mcq-09",
-        "result-mcq-13",
-        "result-mcq-08"
+        "result-mcq-05",
+        "result-mcq-04"
       ],
       "explanation": "本句的「resulting」指「因前面某件事情發生而隨之產生的」。",
       "sentenceIndex": 21,
@@ -943,12 +802,9 @@ export default {
         "resulting"
       ],
       "optionReasons": {
-        "result-mcq-11": "本句指「因前面某件事情發生而隨之產生的」。",
-        "result-mcq-10": "「前面情況造成後面所述的結果」是「with the result that」的用法，與本句語境不同。",
-        "result-mcq-12": "「由某個原因或多個作用共同形成的結果性事物」是「resultant — general/technical」的用法，與本句語境不同。",
-        "result-mcq-09": "「表示某件事情由後面所述原因造成；由於」是「as a result of」的用法，與本句語境不同。",
-        "result-mcq-13": "「多個力／向量合成後所得的單一合力／合成量」是「resultant — physics」的用法，與本句語境不同。",
-        "result-mcq-08": "「表示前面原因造成後面結果；因此／所以」是「as a result」的用法，與本句語境不同。"
+        "result-mcq-11": "本句的「resulting」指「因前面某件事情發生而隨之產生的」。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-11"
     },
@@ -960,11 +816,8 @@ export default {
       "masked": "The pressure increased, and the ____ damage was severe.",
       "options": [
         "result-mcq-12",
-        "result-mcq-11",
-        "result-mcq-13",
-        "result-mcq-10",
-        "result-mcq-09",
-        "result-mcq-08"
+        "result-mcq-04",
+        "result-mcq-05"
       ],
       "explanation": "本句的「resultant」指「由某個原因或多個作用共同形成的結果性事物」。",
       "sentenceIndex": 22,
@@ -973,12 +826,9 @@ export default {
         "resultant"
       ],
       "optionReasons": {
-        "result-mcq-12": "本句指「由某個原因或多個作用共同形成的結果性事物」。",
-        "result-mcq-11": "「因前面某件事情發生而隨之產生的」是「resulting」的用法，與本句語境不同。",
-        "result-mcq-13": "「多個力／向量合成後所得的單一合力／合成量」是「resultant — physics」的用法，與本句語境不同。",
-        "result-mcq-10": "「前面情況造成後面所述的結果」是「with the result that」的用法，與本句語境不同。",
-        "result-mcq-09": "「表示某件事情由後面所述原因造成；由於」是「as a result of」的用法，與本句語境不同。",
-        "result-mcq-08": "「表示前面原因造成後面結果；因此／所以」是「as a result」的用法，與本句語境不同。"
+        "result-mcq-12": "本句的「resultant」指「由某個原因或多個作用共同形成的結果性事物」。",
+        "result-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-12"
     },
@@ -990,11 +840,8 @@ export default {
       "masked": "The two forces combine to produce a ____ force.",
       "options": [
         "result-mcq-12",
-        "result-mcq-11",
         "result-mcq-13",
-        "result-mcq-10",
-        "result-mcq-09",
-        "result-mcq-08"
+        "result-mcq-05"
       ],
       "explanation": "本句的「resultant」指「由某個原因或多個作用共同形成的結果性事物」。",
       "sentenceIndex": 23,
@@ -1003,12 +850,9 @@ export default {
         "resultant"
       ],
       "optionReasons": {
-        "result-mcq-12": "本句指「由某個原因或多個作用共同形成的結果性事物」。",
-        "result-mcq-11": "「因前面某件事情發生而隨之產生的」是「resulting」的用法，與本句語境不同。",
-        "result-mcq-13": "「多個力／向量合成後所得的單一合力／合成量」是「resultant — physics」的用法，與本句語境不同。",
-        "result-mcq-10": "「前面情況造成後面所述的結果」是「with the result that」的用法，與本句語境不同。",
-        "result-mcq-09": "「表示某件事情由後面所述原因造成；由於」是「as a result of」的用法，與本句語境不同。",
-        "result-mcq-08": "「表示前面原因造成後面結果；因此／所以」是「as a result」的用法，與本句語境不同。"
+        "result-mcq-12": "本句的「resultant」指「由某個原因或多個作用共同形成的結果性事物」。",
+        "result-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-12"
     },
@@ -1020,11 +864,8 @@ export default {
       "masked": "The ____ of the two forces points north.",
       "options": [
         "result-mcq-13",
-        "result-mcq-12",
         "result-mcq-11",
-        "result-mcq-10",
-        "result-mcq-09",
-        "result-mcq-08"
+        "result-mcq-05"
       ],
       "explanation": "本句的「resultant」指「多個力／向量合成後所得的單一合力／合成量」。",
       "sentenceIndex": 24,
@@ -1033,12 +874,9 @@ export default {
         "resultant"
       ],
       "optionReasons": {
-        "result-mcq-13": "本句指「多個力／向量合成後所得的單一合力／合成量」。",
-        "result-mcq-12": "「由某個原因或多個作用共同形成的結果性事物」是「resultant — general/technical」的用法，與本句語境不同。",
-        "result-mcq-11": "「因前面某件事情發生而隨之產生的」是「resulting」的用法，與本句語境不同。",
-        "result-mcq-10": "「前面情況造成後面所述的結果」是「with the result that」的用法，與本句語境不同。",
-        "result-mcq-09": "「表示某件事情由後面所述原因造成；由於」是「as a result of」的用法，與本句語境不同。",
-        "result-mcq-08": "「表示前面原因造成後面結果；因此／所以」是「as a result」的用法，與本句語境不同。"
+        "result-mcq-13": "本句的「resultant」指「多個力／向量合成後所得的單一合力／合成量」。",
+        "result-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-13"
     },
@@ -1050,11 +888,8 @@ export default {
       "masked": "Engineers calculated the ____ of the forces.",
       "options": [
         "result-mcq-13",
-        "result-mcq-12",
         "result-mcq-11",
-        "result-mcq-10",
-        "result-mcq-09",
-        "result-mcq-08"
+        "result-mcq-05"
       ],
       "explanation": "本句的「resultant」指「多個力／向量合成後所得的單一合力／合成量」。",
       "sentenceIndex": 25,
@@ -1063,12 +898,9 @@ export default {
         "resultant"
       ],
       "optionReasons": {
-        "result-mcq-13": "本句指「多個力／向量合成後所得的單一合力／合成量」。",
-        "result-mcq-12": "「由某個原因或多個作用共同形成的結果性事物」是「resultant — general/technical」的用法，與本句語境不同。",
-        "result-mcq-11": "「因前面某件事情發生而隨之產生的」是「resulting」的用法，與本句語境不同。",
-        "result-mcq-10": "「前面情況造成後面所述的結果」是「with the result that」的用法，與本句語境不同。",
-        "result-mcq-09": "「表示某件事情由後面所述原因造成；由於」是「as a result of」的用法，與本句語境不同。",
-        "result-mcq-08": "「表示前面原因造成後面結果；因此／所以」是「as a result」的用法，與本句語境不同。"
+        "result-mcq-13": "本句的「resultant」指「多個力／向量合成後所得的單一合力／合成量」。",
+        "result-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "result-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "result-mcq-13"
     }
@@ -1080,5 +912,7 @@ export default {
     "sha256": "8e290fcdfb0f894a167d9b088cfb6babc43cd4f55b28afafeaab3134651d16d1",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

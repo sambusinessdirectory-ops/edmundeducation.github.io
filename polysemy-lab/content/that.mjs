@@ -321,7 +321,7 @@ export default {
     },
     {
       "id": "that-mcq-13",
-      "title": "表示達到前文或情境所暗示的程度；那麼／這麼",
+      "title": "達到前文或情境所暗示的程度；那麼／這麼",
       "form": "that + adjective/adverb",
       "en": "that + adjective/adverb",
       "zh": "表示達到前文或情境所暗示的程度；那麼／這麼",
@@ -439,11 +439,9 @@ export default {
       "masked": "I still remember ____.",
       "options": [
         "that-mcq-01",
-        "that-mcq-02",
-        "that-mcq-03",
-        "that-mcq-04",
-        "that-mcq-05",
-        "that-mcq-06"
+        "that-mcq-10",
+        "that-mcq-16",
+        "that-mcq-08"
       ],
       "explanation": "本句的「that lesson」指「指向特定、通常較遠或前文已提及的人／事物；那個／那種」。",
       "sentenceIndex": 0,
@@ -452,12 +450,10 @@ export default {
         "that lesson"
       ],
       "optionReasons": {
-        "that-mcq-01": "本句指「指向特定、通常較遠或前文已提及的人／事物；那個／那種」。",
-        "that-mcq-02": "「代替前文已提及的一件事、情況、觀點或行為」是「that — demonstrative pronoun」的用法，與本句語境不同。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。",
-        "that-mcq-04": "「引出限定性關係子句，並代表前面的人／物在子句中的角色」是「relative that」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。"
+        "that-mcq-01": "本句的「that lesson」指「指向特定、通常較遠或前文已提及的人／事物；那個／那種」。",
+        "that-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-01"
     },
@@ -469,11 +465,8 @@ export default {
       "masked": "____ changed the way I thought about history.",
       "options": [
         "that-mcq-01",
-        "that-mcq-02",
-        "that-mcq-03",
-        "that-mcq-04",
-        "that-mcq-05",
-        "that-mcq-06"
+        "that-mcq-09",
+        "that-mcq-11"
       ],
       "explanation": "本句的「That teacher」指「指向特定、通常較遠或前文已提及的人／事物；那個／那種」。",
       "sentenceIndex": 1,
@@ -482,12 +475,9 @@ export default {
         "That teacher"
       ],
       "optionReasons": {
-        "that-mcq-01": "本句指「指向特定、通常較遠或前文已提及的人／事物；那個／那種」。",
-        "that-mcq-02": "「代替前文已提及的一件事、情況、觀點或行為」是「that — demonstrative pronoun」的用法，與本句語境不同。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。",
-        "that-mcq-04": "「引出限定性關係子句，並代表前面的人／物在子句中的角色」是「relative that」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。"
+        "that-mcq-01": "本句的「That teacher」指「指向特定、通常較遠或前文已提及的人／事物；那個／那種」。",
+        "that-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-01"
     },
@@ -499,11 +489,8 @@ export default {
       "masked": "He was firm, but fair, and ____ is not easy to find.",
       "options": [
         "that-mcq-01",
-        "that-mcq-02",
-        "that-mcq-03",
-        "that-mcq-04",
-        "that-mcq-05",
-        "that-mcq-06"
+        "that-mcq-09",
+        "that-mcq-11"
       ],
       "explanation": "本句的「that balance」指「指向特定、通常較遠或前文已提及的人／事物；那個／那種」。",
       "sentenceIndex": 2,
@@ -512,12 +499,9 @@ export default {
         "that balance"
       ],
       "optionReasons": {
-        "that-mcq-01": "本句指「指向特定、通常較遠或前文已提及的人／事物；那個／那種」。",
-        "that-mcq-02": "「代替前文已提及的一件事、情況、觀點或行為」是「that — demonstrative pronoun」的用法，與本句語境不同。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。",
-        "that-mcq-04": "「引出限定性關係子句，並代表前面的人／物在子句中的角色」是「relative that」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。"
+        "that-mcq-01": "本句的「that balance」指「指向特定、通常較遠或前文已提及的人／事物；那個／那種」。",
+        "that-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-01"
     },
@@ -529,11 +513,7 @@ export default {
       "masked": "She was strict but supportive, and ____ worked well.",
       "options": [
         "that-mcq-01",
-        "that-mcq-02",
-        "that-mcq-03",
-        "that-mcq-04",
-        "that-mcq-05",
-        "that-mcq-06"
+        "that-mcq-07"
       ],
       "explanation": "本句的「that combination」指「指向特定、通常較遠或前文已提及的人／事物；那個／那種」。",
       "sentenceIndex": 3,
@@ -542,12 +522,8 @@ export default {
         "that combination"
       ],
       "optionReasons": {
-        "that-mcq-01": "本句指「指向特定、通常較遠或前文已提及的人／事物；那個／那種」。",
-        "that-mcq-02": "「代替前文已提及的一件事、情況、觀點或行為」是「that — demonstrative pronoun」的用法，與本句語境不同。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。",
-        "that-mcq-04": "「引出限定性關係子句，並代表前面的人／物在子句中的角色」是「relative that」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。"
+        "that-mcq-01": "本句的「that combination」指「指向特定、通常較遠或前文已提及的人／事物；那個／那種」。",
+        "that-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-01"
     },
@@ -559,11 +535,9 @@ export default {
       "masked": "He encouraged questions, and ____ made students more confident.",
       "options": [
         "that-mcq-01",
-        "that-mcq-02",
-        "that-mcq-03",
-        "that-mcq-04",
-        "that-mcq-05",
-        "that-mcq-06"
+        "that-mcq-10",
+        "that-mcq-16",
+        "that-mcq-08"
       ],
       "explanation": "本句的「that attitude」指「指向特定、通常較遠或前文已提及的人／事物；那個／那種」。",
       "sentenceIndex": 4,
@@ -572,12 +546,10 @@ export default {
         "that attitude"
       ],
       "optionReasons": {
-        "that-mcq-01": "本句指「指向特定、通常較遠或前文已提及的人／事物；那個／那種」。",
-        "that-mcq-02": "「代替前文已提及的一件事、情況、觀點或行為」是「that — demonstrative pronoun」的用法，與本句語境不同。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。",
-        "that-mcq-04": "「引出限定性關係子句，並代表前面的人／物在子句中的角色」是「relative that」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。"
+        "that-mcq-01": "本句的「that attitude」指「指向特定、通常較遠或前文已提及的人／事物；那個／那種」。",
+        "that-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-01"
     },
@@ -589,11 +561,9 @@ export default {
       "masked": "____ made his lessons feel alive.",
       "options": [
         "that-mcq-02",
-        "that-mcq-01",
-        "that-mcq-03",
-        "that-mcq-04",
-        "that-mcq-05",
-        "that-mcq-06"
+        "that-mcq-09",
+        "that-mcq-17",
+        "that-mcq-12"
       ],
       "explanation": "本句的「That」指「代替前文已提及的一件事、情況、觀點或行為」。",
       "sentenceIndex": 5,
@@ -602,12 +572,10 @@ export default {
         "That"
       ],
       "optionReasons": {
-        "that-mcq-02": "本句指「代替前文已提及的一件事、情況、觀點或行為」。",
-        "that-mcq-01": "「指向特定、通常較遠或前文已提及的人／事物；那個／那種」是「that + noun」的用法，與本句語境不同。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。",
-        "that-mcq-04": "「引出限定性關係子句，並代表前面的人／物在子句中的角色」是「relative that」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。"
+        "that-mcq-02": "本句的「That」指「代替前文已提及的一件事、情況、觀點或行為」。",
+        "that-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-02"
     },
@@ -619,11 +587,9 @@ export default {
       "masked": "He listened carefully to every answer. ____ impressed me.",
       "options": [
         "that-mcq-02",
-        "that-mcq-01",
-        "that-mcq-03",
-        "that-mcq-04",
-        "that-mcq-05",
-        "that-mcq-06"
+        "that-mcq-10",
+        "that-mcq-06",
+        "that-mcq-17"
       ],
       "explanation": "本句的「That」指「代替前文已提及的一件事、情況、觀點或行為」。",
       "sentenceIndex": 6,
@@ -632,12 +598,10 @@ export default {
         "That"
       ],
       "optionReasons": {
-        "that-mcq-02": "本句指「代替前文已提及的一件事、情況、觀點或行為」。",
-        "that-mcq-01": "「指向特定、通常較遠或前文已提及的人／事物；那個／那種」是「that + noun」的用法，與本句語境不同。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。",
-        "that-mcq-04": "「引出限定性關係子句，並代表前面的人／物在子句中的角色」是「relative that」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。"
+        "that-mcq-02": "本句的「That」指「代替前文已提及的一件事、情況、觀點或行為」。",
+        "that-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-02"
     },
@@ -649,11 +613,9 @@ export default {
       "masked": "She never embarrassed weaker students. ____ mattered to them.",
       "options": [
         "that-mcq-02",
-        "that-mcq-01",
-        "that-mcq-03",
-        "that-mcq-04",
         "that-mcq-05",
-        "that-mcq-06"
+        "that-mcq-10",
+        "that-mcq-17"
       ],
       "explanation": "本句的「That」指「代替前文已提及的一件事、情況、觀點或行為」。",
       "sentenceIndex": 7,
@@ -662,12 +624,10 @@ export default {
         "That"
       ],
       "optionReasons": {
-        "that-mcq-02": "本句指「代替前文已提及的一件事、情況、觀點或行為」。",
-        "that-mcq-01": "「指向特定、通常較遠或前文已提及的人／事物；那個／那種」是「that + noun」的用法，與本句語境不同。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。",
-        "that-mcq-04": "「引出限定性關係子句，並代表前面的人／物在子句中的角色」是「relative that」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。"
+        "that-mcq-02": "本句的「That」指「代替前文已提及的一件事、情況、觀點或行為」。",
+        "that-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-02"
     },
@@ -679,11 +639,8 @@ export default {
       "masked": "____ he has stayed in my memory for so many years.",
       "options": [
         "that-mcq-03",
-        "that-mcq-02",
-        "that-mcq-04",
-        "that-mcq-01",
-        "that-mcq-05",
-        "that-mcq-06"
+        "that-mcq-09",
+        "that-mcq-17"
       ],
       "explanation": "本句的「That is why」指「指出前文所述情況正是後面結果的原因」。",
       "sentenceIndex": 8,
@@ -692,12 +649,9 @@ export default {
         "That is why"
       ],
       "optionReasons": {
-        "that-mcq-03": "本句指「指出前文所述情況正是後面結果的原因」。",
-        "that-mcq-02": "「代替前文已提及的一件事、情況、觀點或行為」是「that — demonstrative pronoun」的用法，與本句語境不同。",
-        "that-mcq-04": "「引出限定性關係子句，並代表前面的人／物在子句中的角色」是「relative that」的用法，與本句語境不同。",
-        "that-mcq-01": "「指向特定、通常較遠或前文已提及的人／事物；那個／那種」是「that + noun」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。"
+        "that-mcq-03": "本句的「That is why」指「指出前文所述情況正是後面結果的原因」。",
+        "that-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-03"
     },
@@ -709,11 +663,8 @@ export default {
       "masked": "He treated every student with respect. ____ they trusted him.",
       "options": [
         "that-mcq-03",
-        "that-mcq-02",
-        "that-mcq-04",
-        "that-mcq-01",
-        "that-mcq-05",
-        "that-mcq-06"
+        "that-mcq-09",
+        "that-mcq-17"
       ],
       "explanation": "本句的「That is why」指「指出前文所述情況正是後面結果的原因」。",
       "sentenceIndex": 9,
@@ -722,12 +673,9 @@ export default {
         "That is why"
       ],
       "optionReasons": {
-        "that-mcq-03": "本句指「指出前文所述情況正是後面結果的原因」。",
-        "that-mcq-02": "「代替前文已提及的一件事、情況、觀點或行為」是「that — demonstrative pronoun」的用法，與本句語境不同。",
-        "that-mcq-04": "「引出限定性關係子句，並代表前面的人／物在子句中的角色」是「relative that」的用法，與本句語境不同。",
-        "that-mcq-01": "「指向特定、通常較遠或前文已提及的人／事物；那個／那種」是「that + noun」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。"
+        "that-mcq-03": "本句的「That is why」指「指出前文所述情況正是後面結果的原因」。",
+        "that-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-03"
     },
@@ -739,11 +687,9 @@ export default {
       "masked": "He wore a pair of glasses ____.",
       "options": [
         "that-mcq-04",
-        "that-mcq-03",
-        "that-mcq-05",
-        "that-mcq-02",
-        "that-mcq-06",
-        "that-mcq-01"
+        "that-mcq-16",
+        "that-mcq-17",
+        "that-mcq-13"
       ],
       "explanation": "本句的「that made him look serious」指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
       "sentenceIndex": 10,
@@ -752,12 +698,10 @@ export default {
         "that made him look serious"
       ],
       "optionReasons": {
-        "that-mcq-04": "本句指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-02": "「代替前文已提及的一件事、情況、觀點或行為」是「that — demonstrative pronoun」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。",
-        "that-mcq-01": "「指向特定、通常較遠或前文已提及的人／事物；那個／那種」是「that + noun」的用法，與本句語境不同。"
+        "that-mcq-04": "本句的「that made him look serious」指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
+        "that-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-04"
     },
@@ -769,11 +713,9 @@ export default {
       "masked": "She asked a question ____.",
       "options": [
         "that-mcq-04",
-        "that-mcq-03",
-        "that-mcq-05",
-        "that-mcq-02",
-        "that-mcq-06",
-        "that-mcq-01"
+        "that-mcq-16",
+        "that-mcq-17",
+        "that-mcq-13"
       ],
       "explanation": "本句的「that changed the discussion」指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
       "sentenceIndex": 11,
@@ -782,12 +724,10 @@ export default {
         "that changed the discussion"
       ],
       "optionReasons": {
-        "that-mcq-04": "本句指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-02": "「代替前文已提及的一件事、情況、觀點或行為」是「that — demonstrative pronoun」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。",
-        "that-mcq-01": "「指向特定、通常較遠或前文已提及的人／事物；那個／那種」是「that + noun」的用法，與本句語境不同。"
+        "that-mcq-04": "本句的「that changed the discussion」指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
+        "that-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-04"
     },
@@ -799,11 +739,9 @@ export default {
       "masked": "We studied an event ____.",
       "options": [
         "that-mcq-04",
-        "that-mcq-03",
-        "that-mcq-05",
-        "that-mcq-02",
-        "that-mcq-06",
-        "that-mcq-01"
+        "that-mcq-16",
+        "that-mcq-13",
+        "that-mcq-17"
       ],
       "explanation": "本句的「that influenced the whole country」指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
       "sentenceIndex": 12,
@@ -812,12 +750,10 @@ export default {
         "that influenced the whole country"
       ],
       "optionReasons": {
-        "that-mcq-04": "本句指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-02": "「代替前文已提及的一件事、情況、觀點或行為」是「that — demonstrative pronoun」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。",
-        "that-mcq-01": "「指向特定、通常較遠或前文已提及的人／事物；那個／那種」是「that + noun」的用法，與本句語境不同。"
+        "that-mcq-04": "本句的「that influenced the whole country」指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
+        "that-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-04"
     },
@@ -829,11 +765,9 @@ export default {
       "masked": "The teacher ____ taught history.",
       "options": [
         "that-mcq-04",
-        "that-mcq-03",
-        "that-mcq-05",
-        "that-mcq-02",
-        "that-mcq-06",
-        "that-mcq-01"
+        "that-mcq-16",
+        "that-mcq-13",
+        "that-mcq-17"
       ],
       "explanation": "本句的「that inspired me most」指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
       "sentenceIndex": 13,
@@ -842,12 +776,10 @@ export default {
         "that inspired me most"
       ],
       "optionReasons": {
-        "that-mcq-04": "本句指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-02": "「代替前文已提及的一件事、情況、觀點或行為」是「that — demonstrative pronoun」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。",
-        "that-mcq-01": "「指向特定、通常較遠或前文已提及的人／事物；那個／那種」是「that + noun」的用法，與本句語境不同。"
+        "that-mcq-04": "本句的「that inspired me most」指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
+        "that-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-04"
     },
@@ -859,11 +791,9 @@ export default {
       "masked": "Students ____ often understand the topic more deeply.",
       "options": [
         "that-mcq-04",
-        "that-mcq-03",
-        "that-mcq-05",
-        "that-mcq-02",
-        "that-mcq-06",
-        "that-mcq-01"
+        "that-mcq-16",
+        "that-mcq-13",
+        "that-mcq-17"
       ],
       "explanation": "本句的「that ask questions」指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
       "sentenceIndex": 14,
@@ -872,12 +802,10 @@ export default {
         "that ask questions"
       ],
       "optionReasons": {
-        "that-mcq-04": "本句指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-02": "「代替前文已提及的一件事、情況、觀點或行為」是「that — demonstrative pronoun」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。",
-        "that-mcq-01": "「指向特定、通常較遠或前文已提及的人／事物；那個／那種」是「that + noun」的用法，與本句語境不同。"
+        "that-mcq-04": "本句的「that ask questions」指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
+        "that-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-04"
     },
@@ -889,11 +817,9 @@ export default {
       "masked": "The book ____ was excellent.",
       "options": [
         "that-mcq-04",
-        "that-mcq-03",
-        "that-mcq-05",
-        "that-mcq-02",
-        "that-mcq-06",
-        "that-mcq-01"
+        "that-mcq-16",
+        "that-mcq-13",
+        "that-mcq-17"
       ],
       "explanation": "本句的「that he recommended」指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
       "sentenceIndex": 15,
@@ -902,12 +828,10 @@ export default {
         "that he recommended"
       ],
       "optionReasons": {
-        "that-mcq-04": "本句指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-02": "「代替前文已提及的一件事、情況、觀點或行為」是「that — demonstrative pronoun」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。",
-        "that-mcq-01": "「指向特定、通常較遠或前文已提及的人／事物；那個／那種」是「that + noun」的用法，與本句語境不同。"
+        "that-mcq-04": "本句的「that he recommended」指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
+        "that-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-04"
     },
@@ -919,11 +843,9 @@ export default {
       "masked": "The method ____ was simple.",
       "options": [
         "that-mcq-04",
-        "that-mcq-03",
-        "that-mcq-05",
-        "that-mcq-02",
-        "that-mcq-06",
-        "that-mcq-01"
+        "that-mcq-16",
+        "that-mcq-17",
+        "that-mcq-13"
       ],
       "explanation": "本句的「that we used」指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
       "sentenceIndex": 16,
@@ -932,12 +854,10 @@ export default {
         "that we used"
       ],
       "optionReasons": {
-        "that-mcq-04": "本句指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-02": "「代替前文已提及的一件事、情況、觀點或行為」是「that — demonstrative pronoun」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。",
-        "that-mcq-01": "「指向特定、通常較遠或前文已提及的人／事物；那個／那種」是「that + noun」的用法，與本句語境不同。"
+        "that-mcq-04": "本句的「that we used」指「引出限定性關係子句，並代表前面的人／物在子句中的角色」。",
+        "that-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-04"
     },
@@ -949,11 +869,9 @@ export default {
       "masked": "The question ____ was difficult.” = > “The question he asked was difficult.",
       "options": [
         "that-mcq-05",
-        "that-mcq-04",
-        "that-mcq-06",
-        "that-mcq-03",
-        "that-mcq-07",
-        "that-mcq-02"
+        "that-mcq-13",
+        "that-mcq-12",
+        "that-mcq-17"
       ],
       "explanation": "本句的「that he asked」指「在關係子句中作受詞，因此通常可以省略」。",
       "sentenceIndex": 17,
@@ -962,12 +880,10 @@ export default {
         "that he asked"
       ],
       "optionReasons": {
-        "that-mcq-05": "本句指「在關係子句中作受詞，因此通常可以省略」。",
-        "that-mcq-04": "「引出限定性關係子句，並代表前面的人／物在子句中的角色」是「relative that」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。",
-        "that-mcq-07": "「引出思想、說話、認知、理解等內容的完整子句」是「verb + that-clause」的用法，與本句語境不同。",
-        "that-mcq-02": "「代替前文已提及的一件事、情況、觀點或行為」是「that — demonstrative pronoun」的用法，與本句語境不同。"
+        "that-mcq-05": "本句的「that he asked」指「在關係子句中作受詞，因此通常可以省略」。",
+        "that-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-05"
     },
@@ -979,11 +895,9 @@ export default {
       "masked": "The lesson ____ was about the Cold War.” = > “The lesson I remember best was about the Cold War.",
       "options": [
         "that-mcq-05",
-        "that-mcq-04",
-        "that-mcq-06",
-        "that-mcq-03",
-        "that-mcq-07",
-        "that-mcq-02"
+        "that-mcq-13",
+        "that-mcq-12",
+        "that-mcq-17"
       ],
       "explanation": "本句的「that I remember best」指「在關係子句中作受詞，因此通常可以省略」。",
       "sentenceIndex": 18,
@@ -992,12 +906,10 @@ export default {
         "that I remember best"
       ],
       "optionReasons": {
-        "that-mcq-05": "本句指「在關係子句中作受詞，因此通常可以省略」。",
-        "that-mcq-04": "「引出限定性關係子句，並代表前面的人／物在子句中的角色」是「relative that」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。",
-        "that-mcq-07": "「引出思想、說話、認知、理解等內容的完整子句」是「verb + that-clause」的用法，與本句語境不同。",
-        "that-mcq-02": "「代替前文已提及的一件事、情況、觀點或行為」是「that — demonstrative pronoun」的用法，與本句語境不同。"
+        "that-mcq-05": "本句的「that I remember best」指「在關係子句中作受詞，因此通常可以省略」。",
+        "that-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-05"
     },
@@ -1009,11 +921,9 @@ export default {
       "masked": "The question ____ was very simple.",
       "options": [
         "that-mcq-06",
-        "that-mcq-05",
-        "that-mcq-07",
-        "that-mcq-04",
-        "that-mcq-08",
-        "that-mcq-03"
+        "that-mcq-13",
+        "that-mcq-10",
+        "that-mcq-17"
       ],
       "explanation": "本句的「that changed my mind」指「在關係子句中作主語，因此通常不能省略」。",
       "sentenceIndex": 19,
@@ -1022,12 +932,10 @@ export default {
         "that changed my mind"
       ],
       "optionReasons": {
-        "that-mcq-06": "本句指「在關係子句中作主語，因此通常不能省略」。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-07": "「引出思想、說話、認知、理解等內容的完整子句」是「verb + that-clause」的用法，與本句語境不同。",
-        "that-mcq-04": "「引出限定性關係子句，並代表前面的人／物在子句中的角色」是「relative that」的用法，與本句語境不同。",
-        "that-mcq-08": "「用完整子句說明前面的原因、問題、事實或重點」是「be + that-clause」的用法，與本句語境不同。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。"
+        "that-mcq-06": "本句的「that changed my mind」指「在關係子句中作主語，因此通常不能省略」。",
+        "that-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-06"
     },
@@ -1039,11 +947,8 @@ export default {
       "masked": "The teacher ____ was excellent.",
       "options": [
         "that-mcq-06",
-        "that-mcq-05",
-        "that-mcq-07",
-        "that-mcq-04",
-        "that-mcq-08",
-        "that-mcq-03"
+        "that-mcq-10",
+        "that-mcq-15"
       ],
       "explanation": "本句的「that taught us history」指「在關係子句中作主語，因此通常不能省略」。",
       "sentenceIndex": 20,
@@ -1052,12 +957,9 @@ export default {
         "that taught us history"
       ],
       "optionReasons": {
-        "that-mcq-06": "本句指「在關係子句中作主語，因此通常不能省略」。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-07": "「引出思想、說話、認知、理解等內容的完整子句」是「verb + that-clause」的用法，與本句語境不同。",
-        "that-mcq-04": "「引出限定性關係子句，並代表前面的人／物在子句中的角色」是「relative that」的用法，與本句語境不同。",
-        "that-mcq-08": "「用完整子句說明前面的原因、問題、事實或重點」是「be + that-clause」的用法，與本句語境不同。",
-        "that-mcq-03": "「指出前文所述情況正是後面結果的原因」是「that is why」的用法，與本句語境不同。"
+        "that-mcq-06": "本句的「that taught us history」指「在關係子句中作主語，因此通常不能省略」。",
+        "that-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-06"
     },
@@ -1069,11 +971,7 @@ export default {
       "masked": "He showed me ____.",
       "options": [
         "that-mcq-07",
-        "that-mcq-06",
-        "that-mcq-08",
-        "that-mcq-05",
-        "that-mcq-09",
-        "that-mcq-04"
+        "that-mcq-15"
       ],
       "explanation": "本句的「that a good question could open a door」指「引出思想、說話、認知、理解等內容的完整子句」。",
       "sentenceIndex": 21,
@@ -1082,12 +980,8 @@ export default {
         "that a good question could open a door"
       ],
       "optionReasons": {
-        "that-mcq-07": "本句指「引出思想、說話、認知、理解等內容的完整子句」。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。",
-        "that-mcq-08": "「用完整子句說明前面的原因、問題、事實或重點」是「be + that-clause」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-09": "「用完整子句具體說明 fact、idea、possibility 等名詞的內容」是「noun + that-clause」的用法，與本句語境不同。",
-        "that-mcq-04": "「引出限定性關係子句，並代表前面的人／物在子句中的角色」是「relative that」的用法，與本句語境不同。"
+        "that-mcq-07": "本句的「that a good question could open a door」指「引出思想、說話、認知、理解等內容的完整子句」。",
+        "that-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-07"
     },
@@ -1099,11 +993,7 @@ export default {
       "masked": "I believe ____.",
       "options": [
         "that-mcq-07",
-        "that-mcq-06",
-        "that-mcq-08",
-        "that-mcq-05",
-        "that-mcq-09",
-        "that-mcq-04"
+        "that-mcq-15"
       ],
       "explanation": "本句的「that good teachers encourage curiosity」指「引出思想、說話、認知、理解等內容的完整子句」。",
       "sentenceIndex": 22,
@@ -1112,12 +1002,8 @@ export default {
         "that good teachers encourage curiosity"
       ],
       "optionReasons": {
-        "that-mcq-07": "本句指「引出思想、說話、認知、理解等內容的完整子句」。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。",
-        "that-mcq-08": "「用完整子句說明前面的原因、問題、事實或重點」是「be + that-clause」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-09": "「用完整子句具體說明 fact、idea、possibility 等名詞的內容」是「noun + that-clause」的用法，與本句語境不同。",
-        "that-mcq-04": "「引出限定性關係子句，並代表前面的人／物在子句中的角色」是「relative that」的用法，與本句語境不同。"
+        "that-mcq-07": "本句的「that good teachers encourage curiosity」指「引出思想、說話、認知、理解等內容的完整子句」。",
+        "that-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-07"
     },
@@ -1129,11 +1015,7 @@ export default {
       "masked": "She explained ____.",
       "options": [
         "that-mcq-07",
-        "that-mcq-06",
-        "that-mcq-08",
-        "that-mcq-05",
-        "that-mcq-09",
-        "that-mcq-04"
+        "that-mcq-14"
       ],
       "explanation": "本句的「that there were several possible answers」指「引出思想、說話、認知、理解等內容的完整子句」。",
       "sentenceIndex": 23,
@@ -1142,12 +1024,8 @@ export default {
         "that there were several possible answers"
       ],
       "optionReasons": {
-        "that-mcq-07": "本句指「引出思想、說話、認知、理解等內容的完整子句」。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。",
-        "that-mcq-08": "「用完整子句說明前面的原因、問題、事實或重點」是「be + that-clause」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。",
-        "that-mcq-09": "「用完整子句具體說明 fact、idea、possibility 等名詞的內容」是「noun + that-clause」的用法，與本句語境不同。",
-        "that-mcq-04": "「引出限定性關係子句，並代表前面的人／物在子句中的角色」是「relative that」的用法，與本句語境不同。"
+        "that-mcq-07": "本句的「that there were several possible answers」指「引出思想、說話、認知、理解等內容的完整子句」。",
+        "that-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-07"
     },
@@ -1159,11 +1037,9 @@ export default {
       "masked": "The reason I remember him so well is ____.",
       "options": [
         "that-mcq-08",
-        "that-mcq-07",
-        "that-mcq-09",
-        "that-mcq-06",
+        "that-mcq-16",
         "that-mcq-10",
-        "that-mcq-05"
+        "that-mcq-17"
       ],
       "explanation": "本句的「that he changed the way I thought about learning」指「用完整子句說明前面的原因、問題、事實或重點」。",
       "sentenceIndex": 24,
@@ -1172,12 +1048,10 @@ export default {
         "that he changed the way I thought about learning"
       ],
       "optionReasons": {
-        "that-mcq-08": "本句指「用完整子句說明前面的原因、問題、事實或重點」。",
-        "that-mcq-07": "「引出思想、說話、認知、理解等內容的完整子句」是「verb + that-clause」的用法，與本句語境不同。",
-        "that-mcq-09": "「用完整子句具體說明 fact、idea、possibility 等名詞的內容」是「noun + that-clause」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。",
-        "that-mcq-10": "「引出情緒、評價或狀態所針對的具體事情」是「adjective + that-clause」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。"
+        "that-mcq-08": "本句的「that he changed the way I thought about learning」指「用完整子句說明前面的原因、問題、事實或重點」。",
+        "that-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-08"
     },
@@ -1189,11 +1063,9 @@ export default {
       "masked": "The problem is ____.",
       "options": [
         "that-mcq-08",
-        "that-mcq-07",
-        "that-mcq-09",
-        "that-mcq-06",
+        "that-mcq-16",
         "that-mcq-10",
-        "that-mcq-05"
+        "that-mcq-13"
       ],
       "explanation": "本句的「that we have very little time」指「用完整子句說明前面的原因、問題、事實或重點」。",
       "sentenceIndex": 25,
@@ -1202,12 +1074,10 @@ export default {
         "that we have very little time"
       ],
       "optionReasons": {
-        "that-mcq-08": "本句指「用完整子句說明前面的原因、問題、事實或重點」。",
-        "that-mcq-07": "「引出思想、說話、認知、理解等內容的完整子句」是「verb + that-clause」的用法，與本句語境不同。",
-        "that-mcq-09": "「用完整子句具體說明 fact、idea、possibility 等名詞的內容」是「noun + that-clause」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。",
-        "that-mcq-10": "「引出情緒、評價或狀態所針對的具體事情」是「adjective + that-clause」的用法，與本句語境不同。",
-        "that-mcq-05": "「在關係子句中作受詞，因此通常可以省略」是「object relative that」的用法，與本句語境不同。"
+        "that-mcq-08": "本句的「that we have very little time」指「用完整子句說明前面的原因、問題、事實或重點」。",
+        "that-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-08"
     },
@@ -1219,11 +1089,8 @@ export default {
       "masked": "The fact ____ impressed me.",
       "options": [
         "that-mcq-09",
-        "that-mcq-08",
-        "that-mcq-10",
-        "that-mcq-07",
-        "that-mcq-11",
-        "that-mcq-06"
+        "that-mcq-03",
+        "that-mcq-17"
       ],
       "explanation": "本句的「that he remembered every student’s name」指「用完整子句具體說明 fact、idea、possibility 等名詞的內容」。",
       "sentenceIndex": 26,
@@ -1232,12 +1099,9 @@ export default {
         "that he remembered every student’s name"
       ],
       "optionReasons": {
-        "that-mcq-09": "本句指「用完整子句具體說明 fact、idea、possibility 等名詞的內容」。",
-        "that-mcq-08": "「用完整子句說明前面的原因、問題、事實或重點」是「be + that-clause」的用法，與本句語境不同。",
-        "that-mcq-10": "「引出情緒、評價或狀態所針對的具體事情」是「adjective + that-clause」的用法，與本句語境不同。",
-        "that-mcq-07": "「引出思想、說話、認知、理解等內容的完整子句」是「verb + that-clause」的用法，與本句語境不同。",
-        "that-mcq-11": "「引出前面某種程度所造成的結果」是「so...that」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。"
+        "that-mcq-09": "本句的「that he remembered every student’s name」指「用完整子句具體說明 fact、idea、possibility 等名詞的內容」。",
+        "that-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-09"
     },
@@ -1249,11 +1113,9 @@ export default {
       "masked": "There is a possibility ____.",
       "options": [
         "that-mcq-09",
-        "that-mcq-08",
-        "that-mcq-10",
-        "that-mcq-07",
-        "that-mcq-11",
-        "that-mcq-06"
+        "that-mcq-17",
+        "that-mcq-12",
+        "that-mcq-13"
       ],
       "explanation": "本句的「that the lesson will be cancelled」指「用完整子句具體說明 fact、idea、possibility 等名詞的內容」。",
       "sentenceIndex": 27,
@@ -1262,12 +1124,10 @@ export default {
         "that the lesson will be cancelled"
       ],
       "optionReasons": {
-        "that-mcq-09": "本句指「用完整子句具體說明 fact、idea、possibility 等名詞的內容」。",
-        "that-mcq-08": "「用完整子句說明前面的原因、問題、事實或重點」是「be + that-clause」的用法，與本句語境不同。",
-        "that-mcq-10": "「引出情緒、評價或狀態所針對的具體事情」是「adjective + that-clause」的用法，與本句語境不同。",
-        "that-mcq-07": "「引出思想、說話、認知、理解等內容的完整子句」是「verb + that-clause」的用法，與本句語境不同。",
-        "that-mcq-11": "「引出前面某種程度所造成的結果」是「so...that」的用法，與本句語境不同。",
-        "that-mcq-06": "「在關係子句中作主語，因此通常不能省略」是「subject relative that」的用法，與本句語境不同。"
+        "that-mcq-09": "本句的「that the lesson will be cancelled」指「用完整子句具體說明 fact、idea、possibility 等名詞的內容」。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-09"
     },
@@ -1279,11 +1139,9 @@ export default {
       "masked": "I believe ____ he was a great teacher.” = > “I believe he was a great teacher.",
       "options": [
         "that-mcq-16",
-        "that-mcq-15",
+        "that-mcq-04",
         "that-mcq-17",
-        "that-mcq-14",
-        "that-mcq-13",
-        "that-mcq-12"
+        "that-mcq-02"
       ],
       "explanation": "本句的「that」指「在很多動詞後可省略，尤其口語和非正式文字中」。",
       "sentenceIndex": 28,
@@ -1292,12 +1150,10 @@ export default {
         "that"
       ],
       "optionReasons": {
-        "that-mcq-16": "本句指「在很多動詞後可省略，尤其口語和非正式文字中」。",
-        "that-mcq-15": "「用指示代名詞替代前文名詞，避免正式比較中重複」是「that of / those of」的用法，與本句語境不同。",
-        "that-mcq-17": "「指向較遠、眼前可辨認的人／物」是「20. What is that? / Who is that?（指示代名詞） — 那是甚麼／那是誰」的用法，與本句語境不同。",
-        "that-mcq-14": "「指前文、眼前或假定的那麼大的數量／程度」是「that much/many」的用法，與本句語境不同。",
-        "that-mcq-13": "「表示達到前文或情境所暗示的程度；那麼／這麼」是「that + adjective/adverb」的用法，與本句語境不同。",
-        "that-mcq-12": "「引出前面某種人物／事物特質所造成的結果」是「such...that」的用法，與本句語境不同。"
+        "that-mcq-16": "本句的「that」指「在很多動詞後可省略，尤其口語和非正式文字中」。",
+        "that-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-16"
     },
@@ -1309,11 +1165,9 @@ export default {
       "masked": "She said ____ the exam was difficult.” = > “She said the exam was difficult.",
       "options": [
         "that-mcq-16",
-        "that-mcq-15",
-        "that-mcq-17",
-        "that-mcq-14",
-        "that-mcq-13",
-        "that-mcq-12"
+        "that-mcq-10",
+        "that-mcq-08",
+        "that-mcq-17"
       ],
       "explanation": "本句的「that」指「在很多動詞後可省略，尤其口語和非正式文字中」。",
       "sentenceIndex": 29,
@@ -1322,12 +1176,10 @@ export default {
         "that"
       ],
       "optionReasons": {
-        "that-mcq-16": "本句指「在很多動詞後可省略，尤其口語和非正式文字中」。",
-        "that-mcq-15": "「用指示代名詞替代前文名詞，避免正式比較中重複」是「that of / those of」的用法，與本句語境不同。",
-        "that-mcq-17": "「指向較遠、眼前可辨認的人／物」是「20. What is that? / Who is that?（指示代名詞） — 那是甚麼／那是誰」的用法，與本句語境不同。",
-        "that-mcq-14": "「指前文、眼前或假定的那麼大的數量／程度」是「that much/many」的用法，與本句語境不同。",
-        "that-mcq-13": "「表示達到前文或情境所暗示的程度；那麼／這麼」是「that + adjective/adverb」的用法，與本句語境不同。",
-        "that-mcq-12": "「引出前面某種人物／事物特質所造成的結果」是「such...that」的用法，與本句語境不同。"
+        "that-mcq-16": "本句的「that」指「在很多動詞後可省略，尤其口語和非正式文字中」。",
+        "that-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-16"
     },
@@ -1339,11 +1191,9 @@ export default {
       "masked": "I’m glad ____.",
       "options": [
         "that-mcq-10",
-        "that-mcq-09",
-        "that-mcq-11",
-        "that-mcq-08",
-        "that-mcq-12",
-        "that-mcq-07"
+        "that-mcq-13",
+        "that-mcq-05",
+        "that-mcq-17"
       ],
       "explanation": "本句的「that you enjoyed the lesson」指「引出情緒、評價或狀態所針對的具體事情」。",
       "sentenceIndex": 30,
@@ -1352,12 +1202,10 @@ export default {
         "that you enjoyed the lesson"
       ],
       "optionReasons": {
-        "that-mcq-10": "本句指「引出情緒、評價或狀態所針對的具體事情」。",
-        "that-mcq-09": "「用完整子句具體說明 fact、idea、possibility 等名詞的內容」是「noun + that-clause」的用法，與本句語境不同。",
-        "that-mcq-11": "「引出前面某種程度所造成的結果」是「so...that」的用法，與本句語境不同。",
-        "that-mcq-08": "「用完整子句說明前面的原因、問題、事實或重點」是「be + that-clause」的用法，與本句語境不同。",
-        "that-mcq-12": "「引出前面某種人物／事物特質所造成的結果」是「such...that」的用法，與本句語境不同。",
-        "that-mcq-07": "「引出思想、說話、認知、理解等內容的完整子句」是「verb + that-clause」的用法，與本句語境不同。"
+        "that-mcq-10": "本句的「that you enjoyed the lesson」指「引出情緒、評價或狀態所針對的具體事情」。",
+        "that-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-10"
     },
@@ -1369,11 +1217,9 @@ export default {
       "masked": "She was surprised ____.",
       "options": [
         "that-mcq-10",
-        "that-mcq-09",
-        "that-mcq-11",
+        "that-mcq-16",
         "that-mcq-08",
-        "that-mcq-12",
-        "that-mcq-07"
+        "that-mcq-13"
       ],
       "explanation": "本句的「that everyone remembered him」指「引出情緒、評價或狀態所針對的具體事情」。",
       "sentenceIndex": 31,
@@ -1382,12 +1228,10 @@ export default {
         "that everyone remembered him"
       ],
       "optionReasons": {
-        "that-mcq-10": "本句指「引出情緒、評價或狀態所針對的具體事情」。",
-        "that-mcq-09": "「用完整子句具體說明 fact、idea、possibility 等名詞的內容」是「noun + that-clause」的用法，與本句語境不同。",
-        "that-mcq-11": "「引出前面某種程度所造成的結果」是「so...that」的用法，與本句語境不同。",
-        "that-mcq-08": "「用完整子句說明前面的原因、問題、事實或重點」是「be + that-clause」的用法，與本句語境不同。",
-        "that-mcq-12": "「引出前面某種人物／事物特質所造成的結果」是「such...that」的用法，與本句語境不同。",
-        "that-mcq-07": "「引出思想、說話、認知、理解等內容的完整子句」是「verb + that-clause」的用法，與本句語境不同。"
+        "that-mcq-10": "本句的「that everyone remembered him」指「引出情緒、評價或狀態所針對的具體事情」。",
+        "that-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-10"
     },
@@ -1399,11 +1243,9 @@ export default {
       "masked": "The explanation was ____.",
       "options": [
         "that-mcq-11",
-        "that-mcq-10",
-        "that-mcq-12",
-        "that-mcq-09",
-        "that-mcq-13",
-        "that-mcq-08"
+        "that-mcq-05",
+        "that-mcq-17",
+        "that-mcq-02"
       ],
       "explanation": "本句的「so clear that everyone understood it」指「引出前面某種程度所造成的結果」。",
       "sentenceIndex": 32,
@@ -1412,12 +1254,10 @@ export default {
         "so clear that everyone understood it"
       ],
       "optionReasons": {
-        "that-mcq-11": "本句指「引出前面某種程度所造成的結果」。",
-        "that-mcq-10": "「引出情緒、評價或狀態所針對的具體事情」是「adjective + that-clause」的用法，與本句語境不同。",
-        "that-mcq-12": "「引出前面某種人物／事物特質所造成的結果」是「such...that」的用法，與本句語境不同。",
-        "that-mcq-09": "「用完整子句具體說明 fact、idea、possibility 等名詞的內容」是「noun + that-clause」的用法，與本句語境不同。",
-        "that-mcq-13": "「表示達到前文或情境所暗示的程度；那麼／這麼」是「that + adjective/adverb」的用法，與本句語境不同。",
-        "that-mcq-08": "「用完整子句說明前面的原因、問題、事實或重點」是「be + that-clause」的用法，與本句語境不同。"
+        "that-mcq-11": "本句的「so clear that everyone understood it」指「引出前面某種程度所造成的結果」。",
+        "that-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-11"
     },
@@ -1429,11 +1269,9 @@ export default {
       "masked": "He spoke ____.",
       "options": [
         "that-mcq-11",
-        "that-mcq-10",
-        "that-mcq-12",
-        "that-mcq-09",
-        "that-mcq-13",
-        "that-mcq-08"
+        "that-mcq-16",
+        "that-mcq-02",
+        "that-mcq-17"
       ],
       "explanation": "本句的「so quietly that I could hardly hear him」指「引出前面某種程度所造成的結果」。",
       "sentenceIndex": 33,
@@ -1442,12 +1280,10 @@ export default {
         "so quietly that I could hardly hear him"
       ],
       "optionReasons": {
-        "that-mcq-11": "本句指「引出前面某種程度所造成的結果」。",
-        "that-mcq-10": "「引出情緒、評價或狀態所針對的具體事情」是「adjective + that-clause」的用法，與本句語境不同。",
-        "that-mcq-12": "「引出前面某種人物／事物特質所造成的結果」是「such...that」的用法，與本句語境不同。",
-        "that-mcq-09": "「用完整子句具體說明 fact、idea、possibility 等名詞的內容」是「noun + that-clause」的用法，與本句語境不同。",
-        "that-mcq-13": "「表示達到前文或情境所暗示的程度；那麼／這麼」是「that + adjective/adverb」的用法，與本句語境不同。",
-        "that-mcq-08": "「用完整子句說明前面的原因、問題、事實或重點」是「be + that-clause」的用法，與本句語境不同。"
+        "that-mcq-11": "本句的「so quietly that I could hardly hear him」指「引出前面某種程度所造成的結果」。",
+        "that-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-11"
     },
@@ -1459,11 +1295,8 @@ export default {
       "masked": "He was ____ students remembered him for years.",
       "options": [
         "that-mcq-12",
-        "that-mcq-11",
-        "that-mcq-13",
-        "that-mcq-10",
-        "that-mcq-14",
-        "that-mcq-09"
+        "that-mcq-05",
+        "that-mcq-15"
       ],
       "explanation": "本句的「such a good teacher that」指「引出前面某種人物／事物特質所造成的結果」。",
       "sentenceIndex": 34,
@@ -1472,12 +1305,9 @@ export default {
         "such a good teacher that"
       ],
       "optionReasons": {
-        "that-mcq-12": "本句指「引出前面某種人物／事物特質所造成的結果」。",
-        "that-mcq-11": "「引出前面某種程度所造成的結果」是「so...that」的用法，與本句語境不同。",
-        "that-mcq-13": "「表示達到前文或情境所暗示的程度；那麼／這麼」是「that + adjective/adverb」的用法，與本句語境不同。",
-        "that-mcq-10": "「引出情緒、評價或狀態所針對的具體事情」是「adjective + that-clause」的用法，與本句語境不同。",
-        "that-mcq-14": "「指前文、眼前或假定的那麼大的數量／程度」是「that much/many」的用法，與本句語境不同。",
-        "that-mcq-09": "「用完整子句具體說明 fact、idea、possibility 等名詞的內容」是「noun + that-clause」的用法，與本句語境不同。"
+        "that-mcq-12": "本句的「such a good teacher that」指「引出前面某種人物／事物特質所造成的結果」。",
+        "that-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-12"
     },
@@ -1489,11 +1319,9 @@ export default {
       "masked": "It was ____ nobody wanted it to end.",
       "options": [
         "that-mcq-12",
-        "that-mcq-11",
-        "that-mcq-13",
-        "that-mcq-10",
-        "that-mcq-14",
-        "that-mcq-09"
+        "that-mcq-06",
+        "that-mcq-17",
+        "that-mcq-13"
       ],
       "explanation": "本句的「such an interesting lesson that」指「引出前面某種人物／事物特質所造成的結果」。",
       "sentenceIndex": 35,
@@ -1502,12 +1330,10 @@ export default {
         "such an interesting lesson that"
       ],
       "optionReasons": {
-        "that-mcq-12": "本句指「引出前面某種人物／事物特質所造成的結果」。",
-        "that-mcq-11": "「引出前面某種程度所造成的結果」是「so...that」的用法，與本句語境不同。",
-        "that-mcq-13": "「表示達到前文或情境所暗示的程度；那麼／這麼」是「that + adjective/adverb」的用法，與本句語境不同。",
-        "that-mcq-10": "「引出情緒、評價或狀態所針對的具體事情」是「adjective + that-clause」的用法，與本句語境不同。",
-        "that-mcq-14": "「指前文、眼前或假定的那麼大的數量／程度」是「that much/many」的用法，與本句語境不同。",
-        "that-mcq-09": "「用完整子句具體說明 fact、idea、possibility 等名詞的內容」是「noun + that-clause」的用法，與本句語境不同。"
+        "that-mcq-12": "本句的「such an interesting lesson that」指「引出前面某種人物／事物特質所造成的結果」。",
+        "that-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-12"
     },
@@ -1519,11 +1345,9 @@ export default {
       "masked": "The exam wasn’t ____.",
       "options": [
         "that-mcq-13",
-        "that-mcq-12",
-        "that-mcq-14",
-        "that-mcq-11",
-        "that-mcq-15",
-        "that-mcq-10"
+        "that-mcq-10",
+        "that-mcq-05",
+        "that-mcq-17"
       ],
       "explanation": "本句的「that difficult」指「表示達到前文或情境所暗示的程度；那麼／這麼」。",
       "sentenceIndex": 36,
@@ -1532,12 +1356,10 @@ export default {
         "that difficult"
       ],
       "optionReasons": {
-        "that-mcq-13": "本句指「表示達到前文或情境所暗示的程度；那麼／這麼」。",
-        "that-mcq-12": "「引出前面某種人物／事物特質所造成的結果」是「such...that」的用法，與本句語境不同。",
-        "that-mcq-14": "「指前文、眼前或假定的那麼大的數量／程度」是「that much/many」的用法，與本句語境不同。",
-        "that-mcq-11": "「引出前面某種程度所造成的結果」是「so...that」的用法，與本句語境不同。",
-        "that-mcq-15": "「用指示代名詞替代前文名詞，避免正式比較中重複」是「that of / those of」的用法，與本句語境不同。",
-        "that-mcq-10": "「引出情緒、評價或狀態所針對的具體事情」是「adjective + that-clause」的用法，與本句語境不同。"
+        "that-mcq-13": "本句的「that difficult」指「表示達到前文或情境所暗示的程度；那麼／這麼」。",
+        "that-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-13"
     },
@@ -1549,11 +1371,9 @@ export default {
       "masked": "I didn’t realise the school was ____.",
       "options": [
         "that-mcq-13",
+        "that-mcq-09",
         "that-mcq-12",
-        "that-mcq-14",
-        "that-mcq-11",
-        "that-mcq-15",
-        "that-mcq-10"
+        "that-mcq-17"
       ],
       "explanation": "本句的「that far away」指「表示達到前文或情境所暗示的程度；那麼／這麼」。",
       "sentenceIndex": 37,
@@ -1562,12 +1382,10 @@ export default {
         "that far away"
       ],
       "optionReasons": {
-        "that-mcq-13": "本句指「表示達到前文或情境所暗示的程度；那麼／這麼」。",
-        "that-mcq-12": "「引出前面某種人物／事物特質所造成的結果」是「such...that」的用法，與本句語境不同。",
-        "that-mcq-14": "「指前文、眼前或假定的那麼大的數量／程度」是「that much/many」的用法，與本句語境不同。",
-        "that-mcq-11": "「引出前面某種程度所造成的結果」是「so...that」的用法，與本句語境不同。",
-        "that-mcq-15": "「用指示代名詞替代前文名詞，避免正式比較中重複」是「that of / those of」的用法，與本句語境不同。",
-        "that-mcq-10": "「引出情緒、評價或狀態所針對的具體事情」是「adjective + that-clause」的用法，與本句語境不同。"
+        "that-mcq-13": "本句的「that far away」指「表示達到前文或情境所暗示的程度；那麼／這麼」。",
+        "that-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-13"
     },
@@ -1579,11 +1397,8 @@ export default {
       "masked": "I didn’t expect to learn ____.",
       "options": [
         "that-mcq-14",
-        "that-mcq-13",
-        "that-mcq-15",
-        "that-mcq-12",
-        "that-mcq-16",
-        "that-mcq-11"
+        "that-mcq-10",
+        "that-mcq-06"
       ],
       "explanation": "本句的「that much」指「指前文、眼前或假定的那麼大的數量／程度」。",
       "sentenceIndex": 38,
@@ -1592,12 +1407,9 @@ export default {
         "that much"
       ],
       "optionReasons": {
-        "that-mcq-14": "本句指「指前文、眼前或假定的那麼大的數量／程度」。",
-        "that-mcq-13": "「表示達到前文或情境所暗示的程度；那麼／這麼」是「that + adjective/adverb」的用法，與本句語境不同。",
-        "that-mcq-15": "「用指示代名詞替代前文名詞，避免正式比較中重複」是「that of / those of」的用法，與本句語境不同。",
-        "that-mcq-12": "「引出前面某種人物／事物特質所造成的結果」是「such...that」的用法，與本句語境不同。",
-        "that-mcq-16": "「在很多動詞後可省略，尤其口語和非正式文字中」是「13. complement that can often be omitted（口語中常省略）」的用法，與本句語境不同。",
-        "that-mcq-11": "「引出前面某種程度所造成的結果」是「so...that」的用法，與本句語境不同。"
+        "that-mcq-14": "本句的「that much」指「指前文、眼前或假定的那麼大的數量／程度」。",
+        "that-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-14"
     },
@@ -1609,11 +1421,7 @@ export default {
       "masked": "Were there really ____?",
       "options": [
         "that-mcq-14",
-        "that-mcq-13",
-        "that-mcq-15",
-        "that-mcq-12",
-        "that-mcq-16",
-        "that-mcq-11"
+        "that-mcq-07"
       ],
       "explanation": "本句的「that many students」指「指前文、眼前或假定的那麼大的數量／程度」。",
       "sentenceIndex": 39,
@@ -1622,12 +1430,8 @@ export default {
         "that many students"
       ],
       "optionReasons": {
-        "that-mcq-14": "本句指「指前文、眼前或假定的那麼大的數量／程度」。",
-        "that-mcq-13": "「表示達到前文或情境所暗示的程度；那麼／這麼」是「that + adjective/adverb」的用法，與本句語境不同。",
-        "that-mcq-15": "「用指示代名詞替代前文名詞，避免正式比較中重複」是「that of / those of」的用法，與本句語境不同。",
-        "that-mcq-12": "「引出前面某種人物／事物特質所造成的結果」是「such...that」的用法，與本句語境不同。",
-        "that-mcq-16": "「在很多動詞後可省略，尤其口語和非正式文字中」是「13. complement that can often be omitted（口語中常省略）」的用法，與本句語境不同。",
-        "that-mcq-11": "「引出前面某種程度所造成的結果」是「so...that」的用法，與本句語境不同。"
+        "that-mcq-14": "本句的「that many students」指「指前文、眼前或假定的那麼大的數量／程度」。",
+        "that-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-14"
     },
@@ -1639,11 +1443,8 @@ export default {
       "masked": "His teaching style was different from ____ other teachers.",
       "options": [
         "that-mcq-15",
-        "that-mcq-14",
-        "that-mcq-16",
-        "that-mcq-13",
-        "that-mcq-17",
-        "that-mcq-12"
+        "that-mcq-10",
+        "that-mcq-06"
       ],
       "explanation": "本句的「that of」指「用指示代名詞替代前文名詞，避免正式比較中重複」。",
       "sentenceIndex": 40,
@@ -1652,12 +1453,9 @@ export default {
         "that of"
       ],
       "optionReasons": {
-        "that-mcq-15": "本句指「用指示代名詞替代前文名詞，避免正式比較中重複」。",
-        "that-mcq-14": "「指前文、眼前或假定的那麼大的數量／程度」是「that much/many」的用法，與本句語境不同。",
-        "that-mcq-16": "「在很多動詞後可省略，尤其口語和非正式文字中」是「13. complement that can often be omitted（口語中常省略）」的用法，與本句語境不同。",
-        "that-mcq-13": "「表示達到前文或情境所暗示的程度；那麼／這麼」是「that + adjective/adverb」的用法，與本句語境不同。",
-        "that-mcq-17": "「指向較遠、眼前可辨認的人／物」是「20. What is that? / Who is that?（指示代名詞） — 那是甚麼／那是誰」的用法，與本句語境不同。",
-        "that-mcq-12": "「引出前面某種人物／事物特質所造成的結果」是「such...that」的用法，與本句語境不同。"
+        "that-mcq-15": "本句的「that of」指「用指示代名詞替代前文名詞，避免正式比較中重複」。",
+        "that-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-15"
     },
@@ -1669,11 +1467,8 @@ export default {
       "masked": "The results of this class were better than ____ the other classes.",
       "options": [
         "that-mcq-15",
-        "that-mcq-14",
-        "that-mcq-16",
-        "that-mcq-13",
-        "that-mcq-17",
-        "that-mcq-12"
+        "that-mcq-06",
+        "that-mcq-10"
       ],
       "explanation": "本句的「those of」指「用指示代名詞替代前文名詞，避免正式比較中重複」。",
       "sentenceIndex": 41,
@@ -1682,12 +1477,9 @@ export default {
         "those of"
       ],
       "optionReasons": {
-        "that-mcq-15": "本句指「用指示代名詞替代前文名詞，避免正式比較中重複」。",
-        "that-mcq-14": "「指前文、眼前或假定的那麼大的數量／程度」是「that much/many」的用法，與本句語境不同。",
-        "that-mcq-16": "「在很多動詞後可省略，尤其口語和非正式文字中」是「13. complement that can often be omitted（口語中常省略）」的用法，與本句語境不同。",
-        "that-mcq-13": "「表示達到前文或情境所暗示的程度；那麼／這麼」是「that + adjective/adverb」的用法，與本句語境不同。",
-        "that-mcq-17": "「指向較遠、眼前可辨認的人／物」是「20. What is that? / Who is that?（指示代名詞） — 那是甚麼／那是誰」的用法，與本句語境不同。",
-        "that-mcq-12": "「引出前面某種人物／事物特質所造成的結果」是「such...that」的用法，與本句語境不同。"
+        "that-mcq-15": "本句的「those of」指「用指示代名詞替代前文名詞，避免正式比較中重複」。",
+        "that-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-15"
     },
@@ -1699,11 +1491,9 @@ export default {
       "masked": "What is ____ on the board?",
       "options": [
         "that-mcq-17",
-        "that-mcq-16",
-        "that-mcq-15",
-        "that-mcq-14",
-        "that-mcq-13",
-        "that-mcq-12"
+        "that-mcq-06",
+        "that-mcq-10",
+        "that-mcq-02"
       ],
       "explanation": "本句的「that」指「指向較遠、眼前可辨認的人／物」。",
       "sentenceIndex": 42,
@@ -1712,12 +1502,10 @@ export default {
         "that"
       ],
       "optionReasons": {
-        "that-mcq-17": "本句指「指向較遠、眼前可辨認的人／物」。",
-        "that-mcq-16": "「在很多動詞後可省略，尤其口語和非正式文字中」是「13. complement that can often be omitted（口語中常省略）」的用法，與本句語境不同。",
-        "that-mcq-15": "「用指示代名詞替代前文名詞，避免正式比較中重複」是「that of / those of」的用法，與本句語境不同。",
-        "that-mcq-14": "「指前文、眼前或假定的那麼大的數量／程度」是「that much/many」的用法，與本句語境不同。",
-        "that-mcq-13": "「表示達到前文或情境所暗示的程度；那麼／這麼」是「that + adjective/adverb」的用法，與本句語境不同。",
-        "that-mcq-12": "「引出前面某種人物／事物特質所造成的結果」是「such...that」的用法，與本句語境不同。"
+        "that-mcq-17": "本句的「that」指「指向較遠、眼前可辨認的人／物」。",
+        "that-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-17"
     },
@@ -1729,11 +1517,9 @@ export default {
       "masked": "Who is ____ standing by the door?",
       "options": [
         "that-mcq-17",
-        "that-mcq-16",
-        "that-mcq-15",
-        "that-mcq-14",
-        "that-mcq-13",
-        "that-mcq-12"
+        "that-mcq-09",
+        "that-mcq-11",
+        "that-mcq-02"
       ],
       "explanation": "本句的「that」指「指向較遠、眼前可辨認的人／物」。",
       "sentenceIndex": 43,
@@ -1742,12 +1528,10 @@ export default {
         "that"
       ],
       "optionReasons": {
-        "that-mcq-17": "本句指「指向較遠、眼前可辨認的人／物」。",
-        "that-mcq-16": "「在很多動詞後可省略，尤其口語和非正式文字中」是「13. complement that can often be omitted（口語中常省略）」的用法，與本句語境不同。",
-        "that-mcq-15": "「用指示代名詞替代前文名詞，避免正式比較中重複」是「that of / those of」的用法，與本句語境不同。",
-        "that-mcq-14": "「指前文、眼前或假定的那麼大的數量／程度」是「that much/many」的用法，與本句語境不同。",
-        "that-mcq-13": "「表示達到前文或情境所暗示的程度；那麼／這麼」是「that + adjective/adverb」的用法，與本句語境不同。",
-        "that-mcq-12": "「引出前面某種人物／事物特質所造成的結果」是「such...that」的用法，與本句語境不同。"
+        "that-mcq-17": "本句的「that」指「指向較遠、眼前可辨認的人／物」。",
+        "that-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "that-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "that-mcq-17"
     }
@@ -1759,5 +1543,7 @@ export default {
     "sha256": "c2f01c438653dd47bcbad3e1a214458ecdae5c68c04e4459fc9aa4e4600ff29c",
     "pages": 22
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

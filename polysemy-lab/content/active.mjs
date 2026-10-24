@@ -624,11 +624,9 @@ export default {
       "masked": "Some children are ____ in a way that wears people out.",
       "options": [
         "active-mcq-01",
-        "active-mcq-02",
-        "active-mcq-03",
-        "active-mcq-04",
-        "active-mcq-05",
-        "active-mcq-06"
+        "active-mcq-07",
+        "active-mcq-13",
+        "active-mcq-28"
       ],
       "explanation": "本句的「active」指「活躍的；好動的」。",
       "sentenceIndex": 0,
@@ -637,12 +635,10 @@ export default {
         "active"
       ],
       "optionReasons": {
-        "active-mcq-01": "本句指「活躍的；好動的」。",
-        "active-mcq-02": "「活躍於；積極參與」是「active in the community」的用法，與本句語境不同。",
-        "active-mcq-03": "「活躍成員」是「active member」的用法，與本句語境不同。",
-        "active-mcq-04": "「積極角色」是「active role」的用法，與本句語境不同。",
-        "active-mcq-05": "「積極參與」是「active participation」的用法，與本句語境不同。",
-        "active-mcq-06": "「活躍生活方式」是「active lifestyle」的用法，與本句語境不同。"
+        "active-mcq-01": "本句的「active」指「活躍的；好動的」。",
+        "active-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-01"
     },
@@ -654,11 +650,9 @@ export default {
       "masked": "He has always been a very ____ child.",
       "options": [
         "active-mcq-01",
-        "active-mcq-02",
-        "active-mcq-03",
-        "active-mcq-04",
+        "active-mcq-07",
         "active-mcq-05",
-        "active-mcq-06"
+        "active-mcq-13"
       ],
       "explanation": "本句的「active」指「活躍的；好動的」。",
       "sentenceIndex": 1,
@@ -667,12 +661,10 @@ export default {
         "active"
       ],
       "optionReasons": {
-        "active-mcq-01": "本句指「活躍的；好動的」。",
-        "active-mcq-02": "「活躍於；積極參與」是「active in the community」的用法，與本句語境不同。",
-        "active-mcq-03": "「活躍成員」是「active member」的用法，與本句語境不同。",
-        "active-mcq-04": "「積極角色」是「active role」的用法，與本句語境不同。",
-        "active-mcq-05": "「積極參與」是「active participation」的用法，與本句語境不同。",
-        "active-mcq-06": "「活躍生活方式」是「active lifestyle」的用法，與本句語境不同。"
+        "active-mcq-01": "本句的「active」指「活躍的；好動的」。",
+        "active-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-01"
     },
@@ -684,11 +676,9 @@ export default {
       "masked": "Even at the age of seventy, she remains physically ____.",
       "options": [
         "active-mcq-01",
-        "active-mcq-02",
-        "active-mcq-03",
         "active-mcq-04",
-        "active-mcq-05",
-        "active-mcq-06"
+        "active-mcq-14",
+        "active-mcq-13"
       ],
       "explanation": "本句的「active」指「活躍的；好動的」。",
       "sentenceIndex": 2,
@@ -697,12 +687,10 @@ export default {
         "active"
       ],
       "optionReasons": {
-        "active-mcq-01": "本句指「活躍的；好動的」。",
-        "active-mcq-02": "「活躍於；積極參與」是「active in the community」的用法，與本句語境不同。",
-        "active-mcq-03": "「活躍成員」是「active member」的用法，與本句語境不同。",
-        "active-mcq-04": "「積極角色」是「active role」的用法，與本句語境不同。",
-        "active-mcq-05": "「積極參與」是「active participation」的用法，與本句語境不同。",
-        "active-mcq-06": "「活躍生活方式」是「active lifestyle」的用法，與本句語境不同。"
+        "active-mcq-01": "本句的「active」指「活躍的；好動的」。",
+        "active-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-01"
     },
@@ -714,11 +702,9 @@ export default {
       "masked": "She is very ____.",
       "options": [
         "active-mcq-02",
-        "active-mcq-01",
-        "active-mcq-03",
-        "active-mcq-04",
-        "active-mcq-05",
-        "active-mcq-06"
+        "active-mcq-16",
+        "active-mcq-28",
+        "active-mcq-13"
       ],
       "explanation": "本句的「active in the local community」指「活躍於；積極參與」。",
       "sentenceIndex": 3,
@@ -727,12 +713,10 @@ export default {
         "active in the local community"
       ],
       "optionReasons": {
-        "active-mcq-02": "本句指「活躍於；積極參與」。",
-        "active-mcq-01": "「活躍的；好動的」是「active child/person」的用法，與本句語境不同。",
-        "active-mcq-03": "「活躍成員」是「active member」的用法，與本句語境不同。",
-        "active-mcq-04": "「積極角色」是「active role」的用法，與本句語境不同。",
-        "active-mcq-05": "「積極參與」是「active participation」的用法，與本句語境不同。",
-        "active-mcq-06": "「活躍生活方式」是「active lifestyle」的用法，與本句語境不同。"
+        "active-mcq-02": "本句的「active in the local community」指「活躍於；積極參與」。",
+        "active-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-02"
     },
@@ -744,11 +728,9 @@ export default {
       "masked": "He remains ____ after retirement.",
       "options": [
         "active-mcq-02",
-        "active-mcq-01",
-        "active-mcq-03",
-        "active-mcq-04",
-        "active-mcq-05",
-        "active-mcq-06"
+        "active-mcq-13",
+        "active-mcq-07",
+        "active-mcq-28"
       ],
       "explanation": "本句的「active in politics」指「活躍於；積極參與」。",
       "sentenceIndex": 4,
@@ -757,12 +739,10 @@ export default {
         "active in politics"
       ],
       "optionReasons": {
-        "active-mcq-02": "本句指「活躍於；積極參與」。",
-        "active-mcq-01": "「活躍的；好動的」是「active child/person」的用法，與本句語境不同。",
-        "active-mcq-03": "「活躍成員」是「active member」的用法，與本句語境不同。",
-        "active-mcq-04": "「積極角色」是「active role」的用法，與本句語境不同。",
-        "active-mcq-05": "「積極參與」是「active participation」的用法，與本句語境不同。",
-        "active-mcq-06": "「活躍生活方式」是「active lifestyle」的用法，與本句語境不同。"
+        "active-mcq-02": "本句的「active in politics」指「活躍於；積極參與」。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-02"
     },
@@ -774,11 +754,9 @@ export default {
       "masked": "She is an ____ of the school committee.",
       "options": [
         "active-mcq-03",
-        "active-mcq-02",
-        "active-mcq-04",
-        "active-mcq-01",
-        "active-mcq-05",
-        "active-mcq-06"
+        "active-mcq-15",
+        "active-mcq-13",
+        "active-mcq-14"
       ],
       "explanation": "本句的「active member」指「活躍成員」。",
       "sentenceIndex": 5,
@@ -787,12 +765,10 @@ export default {
         "active member"
       ],
       "optionReasons": {
-        "active-mcq-03": "本句指「活躍成員」。",
-        "active-mcq-02": "「活躍於；積極參與」是「active in the community」的用法，與本句語境不同。",
-        "active-mcq-04": "「積極角色」是「active role」的用法，與本句語境不同。",
-        "active-mcq-01": "「活躍的；好動的」是「active child/person」的用法，與本句語境不同。",
-        "active-mcq-05": "「積極參與」是「active participation」的用法，與本句語境不同。",
-        "active-mcq-06": "「活躍生活方式」是「active lifestyle」的用法，與本句語境不同。"
+        "active-mcq-03": "本句的「active member」指「活躍成員」。",
+        "active-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-03"
     },
@@ -804,11 +780,9 @@ export default {
       "masked": "He has been an ____ of the club for years.",
       "options": [
         "active-mcq-03",
-        "active-mcq-02",
-        "active-mcq-04",
-        "active-mcq-01",
-        "active-mcq-05",
-        "active-mcq-06"
+        "active-mcq-19",
+        "active-mcq-14",
+        "active-mcq-07"
       ],
       "explanation": "本句的「active member」指「活躍成員」。",
       "sentenceIndex": 6,
@@ -817,12 +791,10 @@ export default {
         "active member"
       ],
       "optionReasons": {
-        "active-mcq-03": "本句指「活躍成員」。",
-        "active-mcq-02": "「活躍於；積極參與」是「active in the community」的用法，與本句語境不同。",
-        "active-mcq-04": "「積極角色」是「active role」的用法，與本句語境不同。",
-        "active-mcq-01": "「活躍的；好動的」是「active child/person」的用法，與本句語境不同。",
-        "active-mcq-05": "「積極參與」是「active participation」的用法，與本句語境不同。",
-        "active-mcq-06": "「活躍生活方式」是「active lifestyle」的用法，與本句語境不同。"
+        "active-mcq-03": "本句的「active member」指「活躍成員」。",
+        "active-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-03"
     },
@@ -834,11 +806,9 @@ export default {
       "masked": "Parents are encouraged to take an ____ in their children's education.",
       "options": [
         "active-mcq-04",
+        "active-mcq-13",
         "active-mcq-03",
-        "active-mcq-05",
-        "active-mcq-02",
-        "active-mcq-06",
-        "active-mcq-01"
+        "active-mcq-23"
       ],
       "explanation": "本句的「active role」指「積極角色」。",
       "sentenceIndex": 7,
@@ -847,12 +817,10 @@ export default {
         "active role"
       ],
       "optionReasons": {
-        "active-mcq-04": "本句指「積極角色」。",
-        "active-mcq-03": "「活躍成員」是「active member」的用法，與本句語境不同。",
-        "active-mcq-05": "「積極參與」是「active participation」的用法，與本句語境不同。",
-        "active-mcq-02": "「活躍於；積極參與」是「active in the community」的用法，與本句語境不同。",
-        "active-mcq-06": "「活躍生活方式」是「active lifestyle」的用法，與本句語境不同。",
-        "active-mcq-01": "「活躍的；好動的」是「active child/person」的用法，與本句語境不同。"
+        "active-mcq-04": "本句的「active role」指「積極角色」。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-04"
     },
@@ -864,11 +832,9 @@ export default {
       "masked": "She took an ____ in organizing the event.",
       "options": [
         "active-mcq-04",
-        "active-mcq-03",
-        "active-mcq-05",
-        "active-mcq-02",
-        "active-mcq-06",
-        "active-mcq-01"
+        "active-mcq-27",
+        "active-mcq-13",
+        "active-mcq-15"
       ],
       "explanation": "本句的「active role」指「積極角色」。",
       "sentenceIndex": 8,
@@ -877,12 +843,10 @@ export default {
         "active role"
       ],
       "optionReasons": {
-        "active-mcq-04": "本句指「積極角色」。",
-        "active-mcq-03": "「活躍成員」是「active member」的用法，與本句語境不同。",
-        "active-mcq-05": "「積極參與」是「active participation」的用法，與本句語境不同。",
-        "active-mcq-02": "「活躍於；積極參與」是「active in the community」的用法，與本句語境不同。",
-        "active-mcq-06": "「活躍生活方式」是「active lifestyle」的用法，與本句語境不同。",
-        "active-mcq-01": "「活躍的；好動的」是「active child/person」的用法，與本句語境不同。"
+        "active-mcq-04": "本句的「active role」指「積極角色」。",
+        "active-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-04"
     },
@@ -894,11 +858,9 @@ export default {
       "masked": "The course requires ____ from all students.",
       "options": [
         "active-mcq-05",
-        "active-mcq-04",
-        "active-mcq-06",
-        "active-mcq-03",
-        "active-mcq-07",
-        "active-mcq-02"
+        "active-mcq-14",
+        "active-mcq-13",
+        "active-mcq-20"
       ],
       "explanation": "本句的「active participation」指「積極參與」。",
       "sentenceIndex": 9,
@@ -907,12 +869,10 @@ export default {
         "active participation"
       ],
       "optionReasons": {
-        "active-mcq-05": "本句指「積極參與」。",
-        "active-mcq-04": "「積極角色」是「active role」的用法，與本句語境不同。",
-        "active-mcq-06": "「活躍生活方式」是「active lifestyle」的用法，與本句語境不同。",
-        "active-mcq-03": "「活躍成員」是「active member」的用法，與本句語境不同。",
-        "active-mcq-07": "「啟用中；運作中」是「active account/system」的用法，與本句語境不同。",
-        "active-mcq-02": "「活躍於；積極參與」是「active in the community」的用法，與本句語境不同。"
+        "active-mcq-05": "本句的「active participation」指「積極參與」。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-05"
     },
@@ -924,11 +884,9 @@ export default {
       "masked": "Learning improves through ____.",
       "options": [
         "active-mcq-05",
-        "active-mcq-04",
         "active-mcq-06",
-        "active-mcq-03",
         "active-mcq-07",
-        "active-mcq-02"
+        "active-mcq-13"
       ],
       "explanation": "本句的「active participation」指「積極參與」。",
       "sentenceIndex": 10,
@@ -937,12 +895,10 @@ export default {
         "active participation"
       ],
       "optionReasons": {
-        "active-mcq-05": "本句指「積極參與」。",
-        "active-mcq-04": "「積極角色」是「active role」的用法，與本句語境不同。",
-        "active-mcq-06": "「活躍生活方式」是「active lifestyle」的用法，與本句語境不同。",
-        "active-mcq-03": "「活躍成員」是「active member」的用法，與本句語境不同。",
-        "active-mcq-07": "「啟用中；運作中」是「active account/system」的用法，與本句語境不同。",
-        "active-mcq-02": "「活躍於；積極參與」是「active in the community」的用法，與本句語境不同。"
+        "active-mcq-05": "本句的「active participation」指「積極參與」。",
+        "active-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-05"
     },
@@ -954,11 +910,9 @@ export default {
       "masked": "Regular exercise is part of an ____.",
       "options": [
         "active-mcq-06",
-        "active-mcq-05",
         "active-mcq-07",
-        "active-mcq-04",
-        "active-mcq-08",
-        "active-mcq-03"
+        "active-mcq-17",
+        "active-mcq-16"
       ],
       "explanation": "本句的「active lifestyle」指「活躍生活方式」。",
       "sentenceIndex": 11,
@@ -967,12 +921,10 @@ export default {
         "active lifestyle"
       ],
       "optionReasons": {
-        "active-mcq-06": "本句指「活躍生活方式」。",
-        "active-mcq-05": "「積極參與」是「active participation」的用法，與本句語境不同。",
-        "active-mcq-07": "「啟用中；運作中」是「active account/system」的用法，與本句語境不同。",
-        "active-mcq-04": "「積極角色」是「active role」的用法，與本句語境不同。",
-        "active-mcq-08": "「活躍用戶」是「active user」的用法，與本句語境不同。",
-        "active-mcq-03": "「活躍成員」是「active member」的用法，與本句語境不同。"
+        "active-mcq-06": "本句的「active lifestyle」指「活躍生活方式」。",
+        "active-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-06"
     },
@@ -984,11 +936,9 @@ export default {
       "masked": "She tries to maintain an ____ after retirement.",
       "options": [
         "active-mcq-06",
+        "active-mcq-14",
         "active-mcq-05",
-        "active-mcq-07",
-        "active-mcq-04",
-        "active-mcq-08",
-        "active-mcq-03"
+        "active-mcq-07"
       ],
       "explanation": "本句的「active lifestyle」指「活躍生活方式」。",
       "sentenceIndex": 12,
@@ -997,12 +947,10 @@ export default {
         "active lifestyle"
       ],
       "optionReasons": {
-        "active-mcq-06": "本句指「活躍生活方式」。",
-        "active-mcq-05": "「積極參與」是「active participation」的用法，與本句語境不同。",
-        "active-mcq-07": "「啟用中；運作中」是「active account/system」的用法，與本句語境不同。",
-        "active-mcq-04": "「積極角色」是「active role」的用法，與本句語境不同。",
-        "active-mcq-08": "「活躍用戶」是「active user」的用法，與本句語境不同。",
-        "active-mcq-03": "「活躍成員」是「active member」的用法，與本句語境不同。"
+        "active-mcq-06": "本句的「active lifestyle」指「活躍生活方式」。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-06"
     },
@@ -1014,11 +962,9 @@ export default {
       "masked": "Your account is still ____.",
       "options": [
         "active-mcq-07",
+        "active-mcq-16",
         "active-mcq-06",
-        "active-mcq-08",
-        "active-mcq-05",
-        "active-mcq-09",
-        "active-mcq-04"
+        "active-mcq-13"
       ],
       "explanation": "本句的「active」指「啟用中；運作中」。",
       "sentenceIndex": 13,
@@ -1027,12 +973,10 @@ export default {
         "active"
       ],
       "optionReasons": {
-        "active-mcq-07": "本句指「啟用中；運作中」。",
-        "active-mcq-06": "「活躍生活方式」是「active lifestyle」的用法，與本句語境不同。",
-        "active-mcq-08": "「活躍用戶」是「active user」的用法，與本句語境不同。",
-        "active-mcq-05": "「積極參與」是「active participation」的用法，與本句語境不同。",
-        "active-mcq-09": "「活動中的；發作中的」是「active infection/disease」的用法，與本句語境不同。",
-        "active-mcq-04": "「積極角色」是「active role」的用法，與本句語境不同。"
+        "active-mcq-07": "本句的「active」指「啟用中；運作中」。",
+        "active-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-07"
     },
@@ -1045,10 +989,8 @@ export default {
       "options": [
         "active-mcq-07",
         "active-mcq-06",
-        "active-mcq-08",
-        "active-mcq-05",
-        "active-mcq-09",
-        "active-mcq-04"
+        "active-mcq-28",
+        "active-mcq-17"
       ],
       "explanation": "本句的「active」指「啟用中；運作中」。",
       "sentenceIndex": 14,
@@ -1057,12 +999,10 @@ export default {
         "active"
       ],
       "optionReasons": {
-        "active-mcq-07": "本句指「啟用中；運作中」。",
-        "active-mcq-06": "「活躍生活方式」是「active lifestyle」的用法，與本句語境不同。",
-        "active-mcq-08": "「活躍用戶」是「active user」的用法，與本句語境不同。",
-        "active-mcq-05": "「積極參與」是「active participation」的用法，與本句語境不同。",
-        "active-mcq-09": "「活動中的；發作中的」是「active infection/disease」的用法，與本句語境不同。",
-        "active-mcq-04": "「積極角色」是「active role」的用法，與本句語境不同。"
+        "active-mcq-07": "本句的「active」指「啟用中；運作中」。",
+        "active-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-07"
     },
@@ -1074,11 +1014,9 @@ export default {
       "masked": "The app has more than a million ____.",
       "options": [
         "active-mcq-08",
-        "active-mcq-07",
-        "active-mcq-09",
-        "active-mcq-06",
-        "active-mcq-10",
-        "active-mcq-05"
+        "active-mcq-28",
+        "active-mcq-17",
+        "active-mcq-16"
       ],
       "explanation": "本句的「active users」指「活躍用戶」。",
       "sentenceIndex": 15,
@@ -1087,12 +1025,10 @@ export default {
         "active users"
       ],
       "optionReasons": {
-        "active-mcq-08": "本句指「活躍用戶」。",
-        "active-mcq-07": "「啟用中；運作中」是「active account/system」的用法，與本句語境不同。",
-        "active-mcq-09": "「活動中的；發作中的」是「active infection/disease」的用法，與本句語境不同。",
-        "active-mcq-06": "「活躍生活方式」是「active lifestyle」的用法，與本句語境不同。",
-        "active-mcq-10": "「活火山」是「active volcano」的用法，與本句語境不同。",
-        "active-mcq-05": "「積極參與」是「active participation」的用法，與本句語境不同。"
+        "active-mcq-08": "本句的「active users」指「活躍用戶」。",
+        "active-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-08"
     },
@@ -1104,11 +1040,9 @@ export default {
       "masked": "Only ____ are included in the report.",
       "options": [
         "active-mcq-08",
-        "active-mcq-07",
-        "active-mcq-09",
-        "active-mcq-06",
-        "active-mcq-10",
-        "active-mcq-05"
+        "active-mcq-13",
+        "active-mcq-17",
+        "active-mcq-28"
       ],
       "explanation": "本句的「active accounts」指「活躍用戶」。",
       "sentenceIndex": 16,
@@ -1117,12 +1051,10 @@ export default {
         "active accounts"
       ],
       "optionReasons": {
-        "active-mcq-08": "本句指「活躍用戶」。",
-        "active-mcq-07": "「啟用中；運作中」是「active account/system」的用法，與本句語境不同。",
-        "active-mcq-09": "「活動中的；發作中的」是「active infection/disease」的用法，與本句語境不同。",
-        "active-mcq-06": "「活躍生活方式」是「active lifestyle」的用法，與本句語境不同。",
-        "active-mcq-10": "「活火山」是「active volcano」的用法，與本句語境不同。",
-        "active-mcq-05": "「積極參與」是「active participation」的用法，與本句語境不同。"
+        "active-mcq-08": "本句的「active accounts」指「活躍用戶」。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-08"
     },
@@ -1134,11 +1066,9 @@ export default {
       "masked": "The patient has an ____.",
       "options": [
         "active-mcq-28",
-        "active-mcq-27",
-        "active-mcq-26",
-        "active-mcq-25",
-        "active-mcq-24",
-        "active-mcq-23"
+        "active-mcq-05",
+        "active-mcq-08",
+        "active-mcq-15"
       ],
       "explanation": "本句的「active infection」指「疾病、感染等目前仍在發展、發作或造成影響」。",
       "sentenceIndex": 17,
@@ -1147,12 +1077,10 @@ export default {
         "active infection"
       ],
       "optionReasons": {
-        "active-mcq-28": "本句指「疾病、感染等目前仍在發展、發作或造成影響」。",
-        "active-mcq-27": "「不活動；缺乏活動」是「inactivity」的用法，與本句語境不同。",
-        "active-mcq-26": "「不活躍的；未啟用的」是「inactive」的用法，與本句語境不同。",
-        "active-mcq-25": "「啟動；激活」是「activation」的用法，與本句語境不同。",
-        "active-mcq-24": "「激活」是「activate a mechanism」的用法，與本句語境不同。",
-        "active-mcq-23": "「啟動」是「activate」的用法，與本句語境不同。"
+        "active-mcq-28": "本句的「active infection」指「疾病、感染等目前仍在發展、發作或造成影響」。",
+        "active-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-28"
     },
@@ -1165,10 +1093,8 @@ export default {
       "options": [
         "active-mcq-28",
         "active-mcq-27",
-        "active-mcq-26",
-        "active-mcq-25",
-        "active-mcq-24",
-        "active-mcq-23"
+        "active-mcq-02",
+        "active-mcq-15"
       ],
       "explanation": "本句的「active」指「疾病、感染等目前仍在發展、發作或造成影響」。",
       "sentenceIndex": 18,
@@ -1177,12 +1103,10 @@ export default {
         "active"
       ],
       "optionReasons": {
-        "active-mcq-28": "本句指「疾病、感染等目前仍在發展、發作或造成影響」。",
-        "active-mcq-27": "「不活動；缺乏活動」是「inactivity」的用法，與本句語境不同。",
-        "active-mcq-26": "「不活躍的；未啟用的」是「inactive」的用法，與本句語境不同。",
-        "active-mcq-25": "「啟動；激活」是「activation」的用法，與本句語境不同。",
-        "active-mcq-24": "「激活」是「activate a mechanism」的用法，與本句語境不同。",
-        "active-mcq-23": "「啟動」是「activate」的用法，與本句語境不同。"
+        "active-mcq-28": "本句的「active」指「疾病、感染等目前仍在發展、發作或造成影響」。",
+        "active-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-28"
     },
@@ -1194,11 +1118,9 @@ export default {
       "masked": "Mount Etna is an ____.",
       "options": [
         "active-mcq-10",
-        "active-mcq-09",
-        "active-mcq-11",
-        "active-mcq-08",
-        "active-mcq-12",
-        "active-mcq-07"
+        "active-mcq-28",
+        "active-mcq-14",
+        "active-mcq-04"
       ],
       "explanation": "本句的「active volcano」指「活火山」。",
       "sentenceIndex": 19,
@@ -1207,12 +1129,10 @@ export default {
         "active volcano"
       ],
       "optionReasons": {
-        "active-mcq-10": "本句指「活火山」。",
-        "active-mcq-09": "「活動中的；發作中的」是「active infection/disease」的用法，與本句語境不同。",
-        "active-mcq-11": "「有效／活性成分」是「active ingredient」的用法，與本句語境不同。",
-        "active-mcq-08": "「活躍用戶」是「active user」的用法，與本句語境不同。",
-        "active-mcq-12": "「有化學活性的」是「chemically active」的用法，與本句語境不同。",
-        "active-mcq-07": "「啟用中；運作中」是「active account/system」的用法，與本句語境不同。"
+        "active-mcq-10": "本句的「active volcano」指「活火山」。",
+        "active-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-10"
     },
@@ -1224,11 +1144,9 @@ export default {
       "masked": "Scientists closely monitor ____.",
       "options": [
         "active-mcq-10",
-        "active-mcq-09",
-        "active-mcq-11",
-        "active-mcq-08",
-        "active-mcq-12",
-        "active-mcq-07"
+        "active-mcq-16",
+        "active-mcq-07",
+        "active-mcq-13"
       ],
       "explanation": "本句的「active volcanoes」指「活火山」。",
       "sentenceIndex": 20,
@@ -1237,12 +1155,10 @@ export default {
         "active volcanoes"
       ],
       "optionReasons": {
-        "active-mcq-10": "本句指「活火山」。",
-        "active-mcq-09": "「活動中的；發作中的」是「active infection/disease」的用法，與本句語境不同。",
-        "active-mcq-11": "「有效／活性成分」是「active ingredient」的用法，與本句語境不同。",
-        "active-mcq-08": "「活躍用戶」是「active user」的用法，與本句語境不同。",
-        "active-mcq-12": "「有化學活性的」是「chemically active」的用法，與本句語境不同。",
-        "active-mcq-07": "「啟用中；運作中」是「active account/system」的用法，與本句語境不同。"
+        "active-mcq-10": "本句的「active volcanoes」指「活火山」。",
+        "active-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-10"
     },
@@ -1254,11 +1170,9 @@ export default {
       "masked": "The ____ in this medicine reduces pain.",
       "options": [
         "active-mcq-11",
-        "active-mcq-10",
-        "active-mcq-12",
-        "active-mcq-09",
-        "active-mcq-13",
-        "active-mcq-08"
+        "active-mcq-05",
+        "active-mcq-23",
+        "active-mcq-13"
       ],
       "explanation": "本句的「active ingredient」指「有效／活性成分」。",
       "sentenceIndex": 21,
@@ -1267,12 +1181,10 @@ export default {
         "active ingredient"
       ],
       "optionReasons": {
-        "active-mcq-11": "本句指「有效／活性成分」。",
-        "active-mcq-10": "「活火山」是「active volcano」的用法，與本句語境不同。",
-        "active-mcq-12": "「有化學活性的」是「chemically active」的用法，與本句語境不同。",
-        "active-mcq-09": "「活動中的；發作中的」是「active infection/disease」的用法，與本句語境不同。",
-        "active-mcq-13": "「現役」是「active duty/service」的用法，與本句語境不同。",
-        "active-mcq-08": "「活躍用戶」是「active user」的用法，與本句語境不同。"
+        "active-mcq-11": "本句的「active ingredient」指「有效／活性成分」。",
+        "active-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-11"
     },
@@ -1284,11 +1196,9 @@ export default {
       "masked": "Check the label to see which ____ the cream contains.",
       "options": [
         "active-mcq-11",
-        "active-mcq-10",
-        "active-mcq-12",
-        "active-mcq-09",
-        "active-mcq-13",
-        "active-mcq-08"
+        "active-mcq-16",
+        "active-mcq-07",
+        "active-mcq-17"
       ],
       "explanation": "本句的「active ingredients」指「有效／活性成分」。",
       "sentenceIndex": 22,
@@ -1297,12 +1207,10 @@ export default {
         "active ingredients"
       ],
       "optionReasons": {
-        "active-mcq-11": "本句指「有效／活性成分」。",
-        "active-mcq-10": "「活火山」是「active volcano」的用法，與本句語境不同。",
-        "active-mcq-12": "「有化學活性的」是「chemically active」的用法，與本句語境不同。",
-        "active-mcq-09": "「活動中的；發作中的」是「active infection/disease」的用法，與本句語境不同。",
-        "active-mcq-13": "「現役」是「active duty/service」的用法，與本句語境不同。",
-        "active-mcq-08": "「活躍用戶」是「active user」的用法，與本句語境不同。"
+        "active-mcq-11": "本句的「active ingredients」指「有效／活性成分」。",
+        "active-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-11"
     },
@@ -1314,11 +1222,9 @@ export default {
       "masked": "The substance remains chemically ____.",
       "options": [
         "active-mcq-12",
-        "active-mcq-11",
         "active-mcq-13",
-        "active-mcq-10",
-        "active-mcq-14",
-        "active-mcq-09"
+        "active-mcq-28",
+        "active-mcq-23"
       ],
       "explanation": "本句的「active」指「有化學活性的」。",
       "sentenceIndex": 23,
@@ -1327,12 +1233,10 @@ export default {
         "active"
       ],
       "optionReasons": {
-        "active-mcq-12": "本句指「有化學活性的」。",
-        "active-mcq-11": "「有效／活性成分」是「active ingredient」的用法，與本句語境不同。",
-        "active-mcq-13": "「現役」是「active duty/service」的用法，與本句語境不同。",
-        "active-mcq-10": "「活火山」是「active volcano」的用法，與本句語境不同。",
-        "active-mcq-14": "「實際戰鬥」是「active combat」的用法，與本句語境不同。",
-        "active-mcq-09": "「活動中的；發作中的」是「active infection/disease」的用法，與本句語境不同。"
+        "active-mcq-12": "本句的「active」指「有化學活性的」。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-12"
     },
@@ -1344,11 +1248,9 @@ export default {
       "masked": "The enzyme is most ____ at this temperature.",
       "options": [
         "active-mcq-12",
-        "active-mcq-11",
-        "active-mcq-13",
-        "active-mcq-10",
-        "active-mcq-14",
-        "active-mcq-09"
+        "active-mcq-16",
+        "active-mcq-17",
+        "active-mcq-28"
       ],
       "explanation": "本句的「active」指「有化學活性的」。",
       "sentenceIndex": 24,
@@ -1357,12 +1259,10 @@ export default {
         "active"
       ],
       "optionReasons": {
-        "active-mcq-12": "本句指「有化學活性的」。",
-        "active-mcq-11": "「有效／活性成分」是「active ingredient」的用法，與本句語境不同。",
-        "active-mcq-13": "「現役」是「active duty/service」的用法，與本句語境不同。",
-        "active-mcq-10": "「活火山」是「active volcano」的用法，與本句語境不同。",
-        "active-mcq-14": "「實際戰鬥」是「active combat」的用法，與本句語境不同。",
-        "active-mcq-09": "「活動中的；發作中的」是「active infection/disease」的用法，與本句語境不同。"
+        "active-mcq-12": "本句的「active」指「有化學活性的」。",
+        "active-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-12"
     },
@@ -1374,11 +1274,9 @@ export default {
       "masked": "He spent five years on ____.",
       "options": [
         "active-mcq-13",
-        "active-mcq-12",
-        "active-mcq-14",
-        "active-mcq-11",
+        "active-mcq-07",
         "active-mcq-15",
-        "active-mcq-10"
+        "active-mcq-17"
       ],
       "explanation": "本句的「active duty」指「現役」。",
       "sentenceIndex": 25,
@@ -1387,12 +1285,10 @@ export default {
         "active duty"
       ],
       "optionReasons": {
-        "active-mcq-13": "本句指「現役」。",
-        "active-mcq-12": "「有化學活性的」是「chemically active」的用法，與本句語境不同。",
-        "active-mcq-14": "「實際戰鬥」是「active combat」的用法，與本句語境不同。",
-        "active-mcq-11": "「有效／活性成分」是「active ingredient」的用法，與本句語境不同。",
-        "active-mcq-15": "「主動語態」是「active voice」的用法，與本句語境不同。",
-        "active-mcq-10": "「活火山」是「active volcano」的用法，與本句語境不同。"
+        "active-mcq-13": "本句的「active duty」指「現役」。",
+        "active-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-13"
     },
@@ -1404,11 +1300,9 @@ export default {
       "masked": "She returned to ____ after recovering from her injury.",
       "options": [
         "active-mcq-13",
+        "active-mcq-18",
         "active-mcq-12",
-        "active-mcq-14",
-        "active-mcq-11",
-        "active-mcq-15",
-        "active-mcq-10"
+        "active-mcq-22"
       ],
       "explanation": "本句的「active service」指「現役」。",
       "sentenceIndex": 26,
@@ -1417,12 +1311,10 @@ export default {
         "active service"
       ],
       "optionReasons": {
-        "active-mcq-13": "本句指「現役」。",
-        "active-mcq-12": "「有化學活性的」是「chemically active」的用法，與本句語境不同。",
-        "active-mcq-14": "「實際戰鬥」是「active combat」的用法，與本句語境不同。",
-        "active-mcq-11": "「有效／活性成分」是「active ingredient」的用法，與本句語境不同。",
-        "active-mcq-15": "「主動語態」是「active voice」的用法，與本句語境不同。",
-        "active-mcq-10": "「活火山」是「active volcano」的用法，與本句語境不同。"
+        "active-mcq-13": "本句的「active service」指「現役」。",
+        "active-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-13"
     },
@@ -1434,11 +1326,9 @@ export default {
       "masked": "The unit is no longer involved in ____.",
       "options": [
         "active-mcq-14",
-        "active-mcq-13",
-        "active-mcq-15",
-        "active-mcq-12",
-        "active-mcq-16",
-        "active-mcq-11"
+        "active-mcq-11",
+        "active-mcq-26",
+        "active-mcq-13"
       ],
       "explanation": "本句的「active combat」指「實際戰鬥」。",
       "sentenceIndex": 27,
@@ -1447,12 +1337,10 @@ export default {
         "active combat"
       ],
       "optionReasons": {
-        "active-mcq-14": "本句指「實際戰鬥」。",
-        "active-mcq-13": "「現役」是「active duty/service」的用法，與本句語境不同。",
-        "active-mcq-15": "「主動語態」是「active voice」的用法，與本句語境不同。",
-        "active-mcq-12": "「有化學活性的」是「chemically active」的用法，與本句語境不同。",
-        "active-mcq-16": "「主動詞彙」是「active vocabulary」的用法，與本句語境不同。",
-        "active-mcq-11": "「有效／活性成分」是「active ingredient」的用法，與本句語境不同。"
+        "active-mcq-14": "本句的「active combat」指「實際戰鬥」。",
+        "active-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-14"
     },
@@ -1464,11 +1352,9 @@ export default {
       "masked": "He had never experienced ____ before.",
       "options": [
         "active-mcq-14",
+        "active-mcq-22",
         "active-mcq-13",
-        "active-mcq-15",
-        "active-mcq-12",
-        "active-mcq-16",
-        "active-mcq-11"
+        "active-mcq-28"
       ],
       "explanation": "本句的「active combat」指「實際戰鬥」。",
       "sentenceIndex": 28,
@@ -1477,12 +1363,10 @@ export default {
         "active combat"
       ],
       "optionReasons": {
-        "active-mcq-14": "本句指「實際戰鬥」。",
-        "active-mcq-13": "「現役」是「active duty/service」的用法，與本句語境不同。",
-        "active-mcq-15": "「主動語態」是「active voice」的用法，與本句語境不同。",
-        "active-mcq-12": "「有化學活性的」是「chemically active」的用法，與本句語境不同。",
-        "active-mcq-16": "「主動詞彙」是「active vocabulary」的用法，與本句語境不同。",
-        "active-mcq-11": "「有效／活性成分」是「active ingredient」的用法，與本句語境不同。"
+        "active-mcq-14": "本句的「active combat」指「實際戰鬥」。",
+        "active-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-14"
     },
@@ -1494,11 +1378,9 @@ export default {
       "masked": "The dog chased the cat” is written in the ____.",
       "options": [
         "active-mcq-15",
-        "active-mcq-14",
-        "active-mcq-16",
-        "active-mcq-13",
-        "active-mcq-17",
-        "active-mcq-12"
+        "active-mcq-10",
+        "active-mcq-28",
+        "active-mcq-14"
       ],
       "explanation": "本句的「active voice」指「主動語態」。",
       "sentenceIndex": 29,
@@ -1507,12 +1389,10 @@ export default {
         "active voice"
       ],
       "optionReasons": {
-        "active-mcq-15": "本句指「主動語態」。",
-        "active-mcq-14": "「實際戰鬥」是「active combat」的用法，與本句語境不同。",
-        "active-mcq-16": "「主動詞彙」是「active vocabulary」的用法，與本句語境不同。",
-        "active-mcq-13": "「現役」是「active duty/service」的用法，與本句語境不同。",
-        "active-mcq-17": "「積極聆聽」是「active listening」的用法，與本句語境不同。",
-        "active-mcq-12": "「有化學活性的」是「chemically active」的用法，與本句語境不同。"
+        "active-mcq-15": "本句的「active voice」指「主動語態」。",
+        "active-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-15"
     },
@@ -1524,11 +1404,9 @@ export default {
       "masked": "Academic writing sometimes uses the ____ for greater clarity.",
       "options": [
         "active-mcq-15",
-        "active-mcq-14",
-        "active-mcq-16",
-        "active-mcq-13",
-        "active-mcq-17",
-        "active-mcq-12"
+        "active-mcq-12",
+        "active-mcq-28",
+        "active-mcq-26"
       ],
       "explanation": "本句的「active voice」指「主動語態」。",
       "sentenceIndex": 30,
@@ -1537,12 +1415,10 @@ export default {
         "active voice"
       ],
       "optionReasons": {
-        "active-mcq-15": "本句指「主動語態」。",
-        "active-mcq-14": "「實際戰鬥」是「active combat」的用法，與本句語境不同。",
-        "active-mcq-16": "「主動詞彙」是「active vocabulary」的用法，與本句語境不同。",
-        "active-mcq-13": "「現役」是「active duty/service」的用法，與本句語境不同。",
-        "active-mcq-17": "「積極聆聽」是「active listening」的用法，與本句語境不同。",
-        "active-mcq-12": "「有化學活性的」是「chemically active」的用法，與本句語境不同。"
+        "active-mcq-15": "本句的「active voice」指「主動語態」。",
+        "active-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-15"
     },
@@ -1554,10 +1430,8 @@ export default {
       "masked": "Reading helps expand both passive and ____.",
       "options": [
         "active-mcq-16",
-        "active-mcq-15",
         "active-mcq-17",
-        "active-mcq-14",
-        "active-mcq-18",
+        "active-mcq-06",
         "active-mcq-13"
       ],
       "explanation": "本句的「active vocabulary」指「主動詞彙」。",
@@ -1567,12 +1441,10 @@ export default {
         "active vocabulary"
       ],
       "optionReasons": {
-        "active-mcq-16": "本句指「主動詞彙」。",
-        "active-mcq-15": "「主動語態」是「active voice」的用法，與本句語境不同。",
-        "active-mcq-17": "「積極聆聽」是「active listening」的用法，與本句語境不同。",
-        "active-mcq-14": "「實際戰鬥」是「active combat」的用法，與本句語境不同。",
-        "active-mcq-18": "「活躍／豐富的想像力」是「active imagination」的用法，與本句語境不同。",
-        "active-mcq-13": "「現役」是「active duty/service」的用法，與本句語境不同。"
+        "active-mcq-16": "本句的「active vocabulary」指「主動詞彙」。",
+        "active-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-16"
     },
@@ -1584,11 +1456,9 @@ export default {
       "masked": "Try to move new words into your ____ by using them in sentences.",
       "options": [
         "active-mcq-16",
-        "active-mcq-15",
-        "active-mcq-17",
-        "active-mcq-14",
-        "active-mcq-18",
-        "active-mcq-13"
+        "active-mcq-04",
+        "active-mcq-13",
+        "active-mcq-18"
       ],
       "explanation": "本句的「active vocabulary」指「主動詞彙」。",
       "sentenceIndex": 32,
@@ -1597,12 +1467,10 @@ export default {
         "active vocabulary"
       ],
       "optionReasons": {
-        "active-mcq-16": "本句指「主動詞彙」。",
-        "active-mcq-15": "「主動語態」是「active voice」的用法，與本句語境不同。",
-        "active-mcq-17": "「積極聆聽」是「active listening」的用法，與本句語境不同。",
-        "active-mcq-14": "「實際戰鬥」是「active combat」的用法，與本句語境不同。",
-        "active-mcq-18": "「活躍／豐富的想像力」是「active imagination」的用法，與本句語境不同。",
-        "active-mcq-13": "「現役」是「active duty/service」的用法，與本句語境不同。"
+        "active-mcq-16": "本句的「active vocabulary」指「主動詞彙」。",
+        "active-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-16"
     },
@@ -1614,11 +1482,9 @@ export default {
       "masked": "Good communication requires ____.",
       "options": [
         "active-mcq-17",
-        "active-mcq-16",
-        "active-mcq-18",
-        "active-mcq-15",
-        "active-mcq-19",
-        "active-mcq-14"
+        "active-mcq-11",
+        "active-mcq-13",
+        "active-mcq-28"
       ],
       "explanation": "本句的「active listening」指「積極聆聽」。",
       "sentenceIndex": 33,
@@ -1627,12 +1493,10 @@ export default {
         "active listening"
       ],
       "optionReasons": {
-        "active-mcq-17": "本句指「積極聆聽」。",
-        "active-mcq-16": "「主動詞彙」是「active vocabulary」的用法，與本句語境不同。",
-        "active-mcq-18": "「活躍／豐富的想像力」是「active imagination」的用法，與本句語境不同。",
-        "active-mcq-15": "「主動語態」是「active voice」的用法，與本句語境不同。",
-        "active-mcq-19": "「積極地；主動地」是「actively」的用法，與本句語境不同。",
-        "active-mcq-14": "「實際戰鬥」是「active combat」的用法，與本句語境不同。"
+        "active-mcq-17": "本句的「active listening」指「積極聆聽」。",
+        "active-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-17"
     },
@@ -1644,11 +1508,9 @@ export default {
       "masked": "The counsellor used ____ to understand how the student felt.",
       "options": [
         "active-mcq-17",
-        "active-mcq-16",
-        "active-mcq-18",
-        "active-mcq-15",
-        "active-mcq-19",
-        "active-mcq-14"
+        "active-mcq-11",
+        "active-mcq-07",
+        "active-mcq-13"
       ],
       "explanation": "本句的「active listening」指「積極聆聽」。",
       "sentenceIndex": 34,
@@ -1657,12 +1519,10 @@ export default {
         "active listening"
       ],
       "optionReasons": {
-        "active-mcq-17": "本句指「積極聆聽」。",
-        "active-mcq-16": "「主動詞彙」是「active vocabulary」的用法，與本句語境不同。",
-        "active-mcq-18": "「活躍／豐富的想像力」是「active imagination」的用法，與本句語境不同。",
-        "active-mcq-15": "「主動語態」是「active voice」的用法，與本句語境不同。",
-        "active-mcq-19": "「積極地；主動地」是「actively」的用法，與本句語境不同。",
-        "active-mcq-14": "「實際戰鬥」是「active combat」的用法，與本句語境不同。"
+        "active-mcq-17": "本句的「active listening」指「積極聆聽」。",
+        "active-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-17"
     },
@@ -1675,10 +1535,8 @@ export default {
       "options": [
         "active-mcq-18",
         "active-mcq-17",
-        "active-mcq-19",
-        "active-mcq-16",
-        "active-mcq-20",
-        "active-mcq-15"
+        "active-mcq-07",
+        "active-mcq-16"
       ],
       "explanation": "本句的「active imaginations」指「活躍／豐富的想像力」。",
       "sentenceIndex": 35,
@@ -1687,12 +1545,10 @@ export default {
         "active imaginations"
       ],
       "optionReasons": {
-        "active-mcq-18": "本句指「活躍／豐富的想像力」。",
-        "active-mcq-17": "「積極聆聽」是「active listening」的用法，與本句語境不同。",
-        "active-mcq-19": "「積極地；主動地」是「actively」的用法，與本句語境不同。",
-        "active-mcq-16": "「主動詞彙」是「active vocabulary」的用法，與本句語境不同。",
-        "active-mcq-20": "「活動」是「activity」的用法，與本句語境不同。",
-        "active-mcq-15": "「主動語態」是「active voice」的用法，與本句語境不同。"
+        "active-mcq-18": "本句的「active imaginations」指「活躍／豐富的想像力」。",
+        "active-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-18"
     },
@@ -1704,11 +1560,9 @@ export default {
       "masked": "With such an ____, he can turn an empty box into a spaceship.",
       "options": [
         "active-mcq-18",
-        "active-mcq-17",
-        "active-mcq-19",
-        "active-mcq-16",
-        "active-mcq-20",
-        "active-mcq-15"
+        "active-mcq-23",
+        "active-mcq-05",
+        "active-mcq-14"
       ],
       "explanation": "本句的「active imagination」指「活躍／豐富的想像力」。",
       "sentenceIndex": 36,
@@ -1717,12 +1571,10 @@ export default {
         "active imagination"
       ],
       "optionReasons": {
-        "active-mcq-18": "本句指「活躍／豐富的想像力」。",
-        "active-mcq-17": "「積極聆聽」是「active listening」的用法，與本句語境不同。",
-        "active-mcq-19": "「積極地；主動地」是「actively」的用法，與本句語境不同。",
-        "active-mcq-16": "「主動詞彙」是「active vocabulary」的用法，與本句語境不同。",
-        "active-mcq-20": "「活動」是「activity」的用法，與本句語境不同。",
-        "active-mcq-15": "「主動語態」是「active voice」的用法，與本句語境不同。"
+        "active-mcq-18": "本句的「active imagination」指「活躍／豐富的想像力」。",
+        "active-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-18"
     },
@@ -1734,11 +1586,9 @@ export default {
       "masked": "Students are encouraged to ____ in class discussions.",
       "options": [
         "active-mcq-19",
+        "active-mcq-11",
         "active-mcq-18",
-        "active-mcq-20",
-        "active-mcq-17",
-        "active-mcq-21",
-        "active-mcq-16"
+        "active-mcq-28"
       ],
       "explanation": "本句的「actively participate」指「積極地；主動地」。",
       "sentenceIndex": 37,
@@ -1747,12 +1597,10 @@ export default {
         "actively participate"
       ],
       "optionReasons": {
-        "active-mcq-19": "本句指「積極地；主動地」。",
-        "active-mcq-18": "「活躍／豐富的想像力」是「active imagination」的用法，與本句語境不同。",
-        "active-mcq-20": "「活動」是「activity」的用法，與本句語境不同。",
-        "active-mcq-17": "「積極聆聽」是「active listening」的用法，與本句語境不同。",
-        "active-mcq-21": "「活動／運作程度」是「activity」的用法，與本句語境不同。",
-        "active-mcq-16": "「主動詞彙」是「active vocabulary」的用法，與本句語境不同。"
+        "active-mcq-19": "本句的「actively participate」指「積極地；主動地」。",
+        "active-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-19"
     },
@@ -1764,11 +1612,9 @@ export default {
       "masked": "She is ____ for a new job.",
       "options": [
         "active-mcq-19",
-        "active-mcq-18",
-        "active-mcq-20",
-        "active-mcq-17",
-        "active-mcq-21",
-        "active-mcq-16"
+        "active-mcq-08",
+        "active-mcq-13",
+        "active-mcq-14"
       ],
       "explanation": "本句的「actively looking」指「積極地；主動地」。",
       "sentenceIndex": 38,
@@ -1777,12 +1623,10 @@ export default {
         "actively looking"
       ],
       "optionReasons": {
-        "active-mcq-19": "本句指「積極地；主動地」。",
-        "active-mcq-18": "「活躍／豐富的想像力」是「active imagination」的用法，與本句語境不同。",
-        "active-mcq-20": "「活動」是「activity」的用法，與本句語境不同。",
-        "active-mcq-17": "「積極聆聽」是「active listening」的用法，與本句語境不同。",
-        "active-mcq-21": "「活動／運作程度」是「activity」的用法，與本句語境不同。",
-        "active-mcq-16": "「主動詞彙」是「active vocabulary」的用法，與本句語境不同。"
+        "active-mcq-19": "本句的「actively looking」指「積極地；主動地」。",
+        "active-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-19"
     },
@@ -1794,11 +1638,9 @@ export default {
       "masked": "The school offers a wide range of outdoor ____.",
       "options": [
         "active-mcq-20",
-        "active-mcq-19",
-        "active-mcq-21",
-        "active-mcq-18",
-        "active-mcq-22",
-        "active-mcq-17"
+        "active-mcq-13",
+        "active-mcq-07",
+        "active-mcq-14"
       ],
       "explanation": "本句的「activities」指「活動」。",
       "sentenceIndex": 39,
@@ -1807,12 +1649,10 @@ export default {
         "activities"
       ],
       "optionReasons": {
-        "active-mcq-20": "本句指「活動」。",
-        "active-mcq-19": "「積極地；主動地」是「actively」的用法，與本句語境不同。",
-        "active-mcq-21": "「活動／運作程度」是「activity」的用法，與本句語境不同。",
-        "active-mcq-18": "「活躍／豐富的想像力」是「active imagination」的用法，與本句語境不同。",
-        "active-mcq-22": "「身體活動」是「physical activity」的用法，與本句語境不同。",
-        "active-mcq-17": "「積極聆聽」是「active listening」的用法，與本句語境不同。"
+        "active-mcq-20": "本句的「activities」指「活動」。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-20"
     },
@@ -1824,11 +1664,9 @@ export default {
       "masked": "Reading is one of my favourite weekend ____.",
       "options": [
         "active-mcq-20",
-        "active-mcq-19",
-        "active-mcq-21",
-        "active-mcq-18",
-        "active-mcq-22",
-        "active-mcq-17"
+        "active-mcq-07",
+        "active-mcq-13",
+        "active-mcq-05"
       ],
       "explanation": "本句的「activities」指「活動」。",
       "sentenceIndex": 40,
@@ -1837,12 +1675,10 @@ export default {
         "activities"
       ],
       "optionReasons": {
-        "active-mcq-20": "本句指「活動」。",
-        "active-mcq-19": "「積極地；主動地」是「actively」的用法，與本句語境不同。",
-        "active-mcq-21": "「活動／運作程度」是「activity」的用法，與本句語境不同。",
-        "active-mcq-18": "「活躍／豐富的想像力」是「active imagination」的用法，與本句語境不同。",
-        "active-mcq-22": "「身體活動」是「physical activity」的用法，與本句語境不同。",
-        "active-mcq-17": "「積極聆聽」是「active listening」的用法，與本句語境不同。"
+        "active-mcq-20": "本句的「activities」指「活動」。",
+        "active-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-20"
     },
@@ -1854,11 +1690,9 @@ export default {
       "masked": "There has been increased economic ____ in the area.",
       "options": [
         "active-mcq-21",
-        "active-mcq-20",
-        "active-mcq-22",
-        "active-mcq-19",
-        "active-mcq-23",
-        "active-mcq-18"
+        "active-mcq-14",
+        "active-mcq-17",
+        "active-mcq-13"
       ],
       "explanation": "本句的「activity」指「活動／運作程度」。",
       "sentenceIndex": 41,
@@ -1867,12 +1701,10 @@ export default {
         "activity"
       ],
       "optionReasons": {
-        "active-mcq-21": "本句指「活動／運作程度」。",
-        "active-mcq-20": "「活動」是「activity」的用法，與本句語境不同。",
-        "active-mcq-22": "「身體活動」是「physical activity」的用法，與本句語境不同。",
-        "active-mcq-19": "「積極地；主動地」是「actively」的用法，與本句語境不同。",
-        "active-mcq-23": "「啟動」是「activate」的用法，與本句語境不同。",
-        "active-mcq-18": "「活躍／豐富的想像力」是「active imagination」的用法，與本句語境不同。"
+        "active-mcq-21": "本句的「activity」指「活動／運作程度」。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-21"
     },
@@ -1884,11 +1716,9 @@ export default {
       "masked": "Scientists detected unusual volcanic ____.",
       "options": [
         "active-mcq-21",
-        "active-mcq-20",
-        "active-mcq-22",
-        "active-mcq-19",
-        "active-mcq-23",
-        "active-mcq-18"
+        "active-mcq-05",
+        "active-mcq-28",
+        "active-mcq-14"
       ],
       "explanation": "本句的「activity」指「活動／運作程度」。",
       "sentenceIndex": 42,
@@ -1897,12 +1727,10 @@ export default {
         "activity"
       ],
       "optionReasons": {
-        "active-mcq-21": "本句指「活動／運作程度」。",
-        "active-mcq-20": "「活動」是「activity」的用法，與本句語境不同。",
-        "active-mcq-22": "「身體活動」是「physical activity」的用法，與本句語境不同。",
-        "active-mcq-19": "「積極地；主動地」是「actively」的用法，與本句語境不同。",
-        "active-mcq-23": "「啟動」是「activate」的用法，與本句語境不同。",
-        "active-mcq-18": "「活躍／豐富的想像力」是「active imagination」的用法，與本句語境不同。"
+        "active-mcq-21": "本句的「activity」指「活動／運作程度」。",
+        "active-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-21"
     },
@@ -1914,11 +1742,9 @@ export default {
       "masked": "Children need regular ____.",
       "options": [
         "active-mcq-22",
-        "active-mcq-21",
-        "active-mcq-23",
-        "active-mcq-20",
-        "active-mcq-24",
-        "active-mcq-19"
+        "active-mcq-14",
+        "active-mcq-05",
+        "active-mcq-07"
       ],
       "explanation": "本句的「physical activity」指「身體活動」。",
       "sentenceIndex": 43,
@@ -1927,12 +1753,10 @@ export default {
         "physical activity"
       ],
       "optionReasons": {
-        "active-mcq-22": "本句指「身體活動」。",
-        "active-mcq-21": "「活動／運作程度」是「activity」的用法，與本句語境不同。",
-        "active-mcq-23": "「啟動」是「activate」的用法，與本句語境不同。",
-        "active-mcq-20": "「活動」是「activity」的用法，與本句語境不同。",
-        "active-mcq-24": "「激活」是「activate a mechanism」的用法，與本句語境不同。",
-        "active-mcq-19": "「積極地；主動地」是「actively」的用法，與本句語境不同。"
+        "active-mcq-22": "本句的「physical activity」指「身體活動」。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-22"
     },
@@ -1944,11 +1768,9 @@ export default {
       "masked": "Walking is a simple form of ____.",
       "options": [
         "active-mcq-22",
-        "active-mcq-21",
-        "active-mcq-23",
-        "active-mcq-20",
-        "active-mcq-24",
-        "active-mcq-19"
+        "active-mcq-28",
+        "active-mcq-05",
+        "active-mcq-13"
       ],
       "explanation": "本句的「physical activity」指「身體活動」。",
       "sentenceIndex": 44,
@@ -1957,12 +1779,10 @@ export default {
         "physical activity"
       ],
       "optionReasons": {
-        "active-mcq-22": "本句指「身體活動」。",
-        "active-mcq-21": "「活動／運作程度」是「activity」的用法，與本句語境不同。",
-        "active-mcq-23": "「啟動」是「activate」的用法，與本句語境不同。",
-        "active-mcq-20": "「活動」是「activity」的用法，與本句語境不同。",
-        "active-mcq-24": "「激活」是「activate a mechanism」的用法，與本句語境不同。",
-        "active-mcq-19": "「積極地；主動地」是「actively」的用法，與本句語境不同。"
+        "active-mcq-22": "本句的「physical activity」指「身體活動」。",
+        "active-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-22"
     },
@@ -1974,11 +1794,9 @@ export default {
       "masked": "Press this button to ____ the alarm.",
       "options": [
         "active-mcq-23",
-        "active-mcq-22",
-        "active-mcq-24",
-        "active-mcq-21",
-        "active-mcq-25",
-        "active-mcq-20"
+        "active-mcq-02",
+        "active-mcq-14",
+        "active-mcq-12"
       ],
       "explanation": "本句的「activate」指「啟動」。",
       "sentenceIndex": 45,
@@ -1987,12 +1805,10 @@ export default {
         "activate"
       ],
       "optionReasons": {
-        "active-mcq-23": "本句指「啟動」。",
-        "active-mcq-22": "「身體活動」是「physical activity」的用法，與本句語境不同。",
-        "active-mcq-24": "「激活」是「activate a mechanism」的用法，與本句語境不同。",
-        "active-mcq-21": "「活動／運作程度」是「activity」的用法，與本句語境不同。",
-        "active-mcq-25": "「啟動；激活」是「activation」的用法，與本句語境不同。",
-        "active-mcq-20": "「活動」是「activity」的用法，與本句語境不同。"
+        "active-mcq-23": "本句的「activate」指「啟動」。",
+        "active-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-23"
     },
@@ -2004,11 +1820,9 @@ export default {
       "masked": "The sensor automatically ____ the lights.",
       "options": [
         "active-mcq-23",
-        "active-mcq-22",
-        "active-mcq-24",
-        "active-mcq-21",
-        "active-mcq-25",
-        "active-mcq-20"
+        "active-mcq-03",
+        "active-mcq-13",
+        "active-mcq-04"
       ],
       "explanation": "本句的「activates」指「啟動」。",
       "sentenceIndex": 46,
@@ -2017,12 +1831,10 @@ export default {
         "activates"
       ],
       "optionReasons": {
-        "active-mcq-23": "本句指「啟動」。",
-        "active-mcq-22": "「身體活動」是「physical activity」的用法，與本句語境不同。",
-        "active-mcq-24": "「激活」是「activate a mechanism」的用法，與本句語境不同。",
-        "active-mcq-21": "「活動／運作程度」是「activity」的用法，與本句語境不同。",
-        "active-mcq-25": "「啟動；激活」是「activation」的用法，與本句語境不同。",
-        "active-mcq-20": "「活動」是「activity」的用法，與本句語境不同。"
+        "active-mcq-23": "本句的「activates」指「啟動」。",
+        "active-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-23"
     },
@@ -2034,11 +1846,9 @@ export default {
       "masked": "Heat ____ the chemical reaction.",
       "options": [
         "active-mcq-23",
-        "active-mcq-22",
-        "active-mcq-24",
-        "active-mcq-21",
-        "active-mcq-25",
-        "active-mcq-20"
+        "active-mcq-13",
+        "active-mcq-10",
+        "active-mcq-05"
       ],
       "explanation": "本句的「activates」指「啟動」。",
       "sentenceIndex": 47,
@@ -2047,12 +1857,10 @@ export default {
         "activates"
       ],
       "optionReasons": {
-        "active-mcq-23": "本句指「啟動」。",
-        "active-mcq-22": "「身體活動」是「physical activity」的用法，與本句語境不同。",
-        "active-mcq-24": "「激活」是「activate a mechanism」的用法，與本句語境不同。",
-        "active-mcq-21": "「活動／運作程度」是「activity」的用法，與本句語境不同。",
-        "active-mcq-25": "「啟動；激活」是「activation」的用法，與本句語境不同。",
-        "active-mcq-20": "「活動」是「activity」的用法，與本句語境不同。"
+        "active-mcq-23": "本句的「activates」指「啟動」。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-23"
     },
@@ -2064,11 +1872,9 @@ export default {
       "masked": "The drug ____ certain receptors in the brain.",
       "options": [
         "active-mcq-23",
-        "active-mcq-22",
-        "active-mcq-24",
-        "active-mcq-21",
-        "active-mcq-25",
-        "active-mcq-20"
+        "active-mcq-04",
+        "active-mcq-28",
+        "active-mcq-14"
       ],
       "explanation": "本句的「activates」指「啟動」。",
       "sentenceIndex": 48,
@@ -2077,12 +1883,10 @@ export default {
         "activates"
       ],
       "optionReasons": {
-        "active-mcq-23": "本句指「啟動」。",
-        "active-mcq-22": "「身體活動」是「physical activity」的用法，與本句語境不同。",
-        "active-mcq-24": "「激活」是「activate a mechanism」的用法，與本句語境不同。",
-        "active-mcq-21": "「活動／運作程度」是「activity」的用法，與本句語境不同。",
-        "active-mcq-25": "「啟動；激活」是「activation」的用法，與本句語境不同。",
-        "active-mcq-20": "「活動」是「activity」的用法，與本句語境不同。"
+        "active-mcq-23": "本句的「activates」指「啟動」。",
+        "active-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-23"
     },
@@ -2094,11 +1898,9 @@ export default {
       "masked": "Account ____ takes only a few minutes.",
       "options": [
         "active-mcq-25",
-        "active-mcq-24",
-        "active-mcq-26",
-        "active-mcq-23",
-        "active-mcq-27",
-        "active-mcq-22"
+        "active-mcq-14",
+        "active-mcq-13",
+        "active-mcq-05"
       ],
       "explanation": "本句的「activation」指「啟動；激活」。",
       "sentenceIndex": 49,
@@ -2107,12 +1909,10 @@ export default {
         "activation"
       ],
       "optionReasons": {
-        "active-mcq-25": "本句指「啟動；激活」。",
-        "active-mcq-24": "「激活」是「activate a mechanism」的用法，與本句語境不同。",
-        "active-mcq-26": "「不活躍的；未啟用的」是「inactive」的用法，與本句語境不同。",
-        "active-mcq-23": "「啟動」是「activate」的用法，與本句語境不同。",
-        "active-mcq-27": "「不活動；缺乏活動」是「inactivity」的用法，與本句語境不同。",
-        "active-mcq-22": "「身體活動」是「physical activity」的用法，與本句語境不同。"
+        "active-mcq-25": "本句的「activation」指「啟動；激活」。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-25"
     },
@@ -2124,11 +1924,9 @@ export default {
       "masked": "The alarm is ready for ____.",
       "options": [
         "active-mcq-25",
-        "active-mcq-24",
-        "active-mcq-26",
-        "active-mcq-23",
-        "active-mcq-27",
-        "active-mcq-22"
+        "active-mcq-14",
+        "active-mcq-05",
+        "active-mcq-13"
       ],
       "explanation": "本句的「activation」指「啟動；激活」。",
       "sentenceIndex": 50,
@@ -2137,12 +1935,10 @@ export default {
         "activation"
       ],
       "optionReasons": {
-        "active-mcq-25": "本句指「啟動；激活」。",
-        "active-mcq-24": "「激活」是「activate a mechanism」的用法，與本句語境不同。",
-        "active-mcq-26": "「不活躍的；未啟用的」是「inactive」的用法，與本句語境不同。",
-        "active-mcq-23": "「啟動」是「activate」的用法，與本句語境不同。",
-        "active-mcq-27": "「不活動；缺乏活動」是「inactivity」的用法，與本句語境不同。",
-        "active-mcq-22": "「身體活動」是「physical activity」的用法，與本句語境不同。"
+        "active-mcq-25": "本句的「activation」指「啟動；激活」。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-25"
     },
@@ -2154,11 +1950,9 @@ export default {
       "masked": "He became less ____ and more inactive after the injury.",
       "options": [
         "active-mcq-26",
-        "active-mcq-25",
-        "active-mcq-27",
-        "active-mcq-24",
-        "active-mcq-28",
-        "active-mcq-23"
+        "active-mcq-13",
+        "active-mcq-15",
+        "active-mcq-05"
       ],
       "explanation": "本句的「active」指「不活躍的；未啟用的」。",
       "sentenceIndex": 51,
@@ -2167,12 +1961,10 @@ export default {
         "active"
       ],
       "optionReasons": {
-        "active-mcq-26": "本句指「不活躍的；未啟用的」。",
-        "active-mcq-25": "「啟動；激活」是「activation」的用法，與本句語境不同。",
-        "active-mcq-27": "「不活動；缺乏活動」是「inactivity」的用法，與本句語境不同。",
-        "active-mcq-24": "「激活」是「activate a mechanism」的用法，與本句語境不同。",
-        "active-mcq-28": "「疾病、感染等目前仍在發展、發作或造成影響」是「9. active（疾病、感染等：仍然存在或發作中） — 活動中的；仍在發作的」的用法，與本句語境不同。",
-        "active-mcq-23": "「啟動」是「activate」的用法，與本句語境不同。"
+        "active-mcq-26": "本句的「active」指「不活躍的；未啟用的」。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-26"
     },
@@ -2184,11 +1976,9 @@ export default {
       "masked": "This account has been ____ for six months.",
       "options": [
         "active-mcq-26",
-        "active-mcq-25",
-        "active-mcq-27",
-        "active-mcq-24",
-        "active-mcq-28",
-        "active-mcq-23"
+        "active-mcq-13",
+        "active-mcq-04",
+        "active-mcq-15"
       ],
       "explanation": "本句的「inactive」指「不活躍的；未啟用的」。",
       "sentenceIndex": 52,
@@ -2197,12 +1987,10 @@ export default {
         "inactive"
       ],
       "optionReasons": {
-        "active-mcq-26": "本句指「不活躍的；未啟用的」。",
-        "active-mcq-25": "「啟動；激活」是「activation」的用法，與本句語境不同。",
-        "active-mcq-27": "「不活動；缺乏活動」是「inactivity」的用法，與本句語境不同。",
-        "active-mcq-24": "「激活」是「activate a mechanism」的用法，與本句語境不同。",
-        "active-mcq-28": "「疾病、感染等目前仍在發展、發作或造成影響」是「9. active（疾病、感染等：仍然存在或發作中） — 活動中的；仍在發作的」的用法，與本句語境不同。",
-        "active-mcq-23": "「啟動」是「activate」的用法，與本句語境不同。"
+        "active-mcq-26": "本句的「inactive」指「不活躍的；未啟用的」。",
+        "active-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-26"
     },
@@ -2214,11 +2002,9 @@ export default {
       "masked": "Long periods of ____ can affect physical health.",
       "options": [
         "active-mcq-27",
-        "active-mcq-26",
-        "active-mcq-28",
-        "active-mcq-25",
-        "active-mcq-24",
-        "active-mcq-23"
+        "active-mcq-04",
+        "active-mcq-14",
+        "active-mcq-07"
       ],
       "explanation": "本句的「inactivity」指「不活動；缺乏活動」。",
       "sentenceIndex": 53,
@@ -2227,12 +2013,10 @@ export default {
         "inactivity"
       ],
       "optionReasons": {
-        "active-mcq-27": "本句指「不活動；缺乏活動」。",
-        "active-mcq-26": "「不活躍的；未啟用的」是「inactive」的用法，與本句語境不同。",
-        "active-mcq-28": "「疾病、感染等目前仍在發展、發作或造成影響」是「9. active（疾病、感染等：仍然存在或發作中） — 活動中的；仍在發作的」的用法，與本句語境不同。",
-        "active-mcq-25": "「啟動；激活」是「activation」的用法，與本句語境不同。",
-        "active-mcq-24": "「激活」是「activate a mechanism」的用法，與本句語境不同。",
-        "active-mcq-23": "「啟動」是「activate」的用法，與本句語境不同。"
+        "active-mcq-27": "本句的「inactivity」指「不活動；缺乏活動」。",
+        "active-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-27"
     },
@@ -2244,11 +2028,9 @@ export default {
       "masked": "The machine shut down after several hours of ____.",
       "options": [
         "active-mcq-27",
-        "active-mcq-26",
-        "active-mcq-28",
-        "active-mcq-25",
-        "active-mcq-24",
-        "active-mcq-23"
+        "active-mcq-07",
+        "active-mcq-17",
+        "active-mcq-14"
       ],
       "explanation": "本句的「inactivity」指「不活動；缺乏活動」。",
       "sentenceIndex": 54,
@@ -2257,12 +2039,10 @@ export default {
         "inactivity"
       ],
       "optionReasons": {
-        "active-mcq-27": "本句指「不活動；缺乏活動」。",
-        "active-mcq-26": "「不活躍的；未啟用的」是「inactive」的用法，與本句語境不同。",
-        "active-mcq-28": "「疾病、感染等目前仍在發展、發作或造成影響」是「9. active（疾病、感染等：仍然存在或發作中） — 活動中的；仍在發作的」的用法，與本句語境不同。",
-        "active-mcq-25": "「啟動；激活」是「activation」的用法，與本句語境不同。",
-        "active-mcq-24": "「激活」是「activate a mechanism」的用法，與本句語境不同。",
-        "active-mcq-23": "「啟動」是「activate」的用法，與本句語境不同。"
+        "active-mcq-27": "本句的「inactivity」指「不活動；缺乏活動」。",
+        "active-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "active-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "active-mcq-27"
     }
@@ -2274,5 +2054,7 @@ export default {
     "sha256": "382e003759a5525946537e38365d6b2faaf4e5dd6bd1bce91c2e8d19a3546584",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

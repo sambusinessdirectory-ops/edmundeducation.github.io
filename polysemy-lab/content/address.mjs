@@ -164,16 +164,6 @@ export default {
           "Her opening address lasted twenty minutes.",
           "她的開幕致辭持續了二十分鐘。",
           "向觀眾或正式場合發表的演說／致辭"
-        ],
-        [
-          "The report addresses several ethical questions.",
-          "這份報告探討／處理了幾個倫理問題。",
-          "向觀眾或正式場合發表的演說／致辭"
-        ],
-        [
-          "The book addresses the relationship between technology and society.",
-          "這本書探討科技與社會之間的關係。",
-          "向觀眾或正式場合發表的演說／致辭"
         ]
       ],
       "options": [],
@@ -256,6 +246,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "address-reviewed-b65f39f0c9",
+      "title": "在文章或討論中探討、處理某個議題",
+      "form": "address · source section 11",
+      "en": "在文章或討論中探討、處理某個議題",
+      "zh": "在文章或討論中探討、處理某個議題",
+      "note": "對照原始教材第 11 節及例句核實。",
+      "examples": [
+        [
+          "The report addresses several ethical questions.",
+          "這份報告探討／處理了幾個倫理問題。",
+          "在文章或討論中探討、處理某個議題"
+        ],
+        [
+          "The book addresses the relationship between technology and society.",
+          "這本書探討科技與社會之間的關係。",
+          "在文章或討論中探討、處理某個議題"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -267,11 +279,9 @@ export default {
       "masked": "Hong Kong needs to ____ the shortage of suitable study space.",
       "options": [
         "address-mcq-01",
-        "address-mcq-02",
-        "address-mcq-03",
-        "address-mcq-04",
         "address-mcq-05",
-        "address-mcq-06"
+        "address-mcq-09",
+        "address-mcq-04"
       ],
       "explanation": "本句的「address」指「正視並採取行動處理某個問題、需要、疑慮或議題」。",
       "sentenceIndex": 0,
@@ -280,12 +290,10 @@ export default {
         "address"
       ],
       "optionReasons": {
-        "address-mcq-01": "本句指「正視並採取行動處理某個問題、需要、疑慮或議題」。",
-        "address-mcq-02": "「正面談及／探討某個主題或問題」與本句語境不同。",
-        "address-mcq-03": "「正式或直接向某人／某群體說話、發言」與本句語境不同。",
-        "address-mcq-04": "「用某個名字、稱號或職銜稱呼某人」與本句語境不同。",
-        "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。",
-        "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。"
+        "address-mcq-01": "本句的「address」指「正視並採取行動處理某個問題、需要、疑慮或議題」。",
+        "address-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-mcq-01"
     },
@@ -297,10 +305,8 @@ export default {
       "masked": "The new policy aims to ____ housing problems.",
       "options": [
         "address-mcq-01",
-        "address-mcq-02",
-        "address-mcq-03",
-        "address-mcq-04",
         "address-mcq-05",
+        "address-mcq-09",
         "address-mcq-06"
       ],
       "explanation": "本句的「address」指「正視並採取行動處理某個問題、需要、疑慮或議題」。",
@@ -310,12 +316,10 @@ export default {
         "address"
       ],
       "optionReasons": {
-        "address-mcq-01": "本句指「正視並採取行動處理某個問題、需要、疑慮或議題」。",
-        "address-mcq-02": "「正面談及／探討某個主題或問題」與本句語境不同。",
-        "address-mcq-03": "「正式或直接向某人／某群體說話、發言」與本句語境不同。",
-        "address-mcq-04": "「用某個名字、稱號或職銜稱呼某人」與本句語境不同。",
-        "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。",
-        "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。"
+        "address-mcq-01": "本句的「address」指「正視並採取行動處理某個問題、需要、疑慮或議題」。",
+        "address-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-mcq-01"
     },
@@ -327,11 +331,9 @@ export default {
       "masked": "We need to ____ the underlying cause, not just the symptoms.",
       "options": [
         "address-mcq-01",
-        "address-mcq-02",
-        "address-mcq-03",
-        "address-mcq-04",
-        "address-mcq-05",
-        "address-mcq-06"
+        "address-mcq-10",
+        "address-mcq-06",
+        "address-mcq-09"
       ],
       "explanation": "本句的「address」指「正視並採取行動處理某個問題、需要、疑慮或議題」。",
       "sentenceIndex": 2,
@@ -340,12 +342,10 @@ export default {
         "address"
       ],
       "optionReasons": {
-        "address-mcq-01": "本句指「正視並採取行動處理某個問題、需要、疑慮或議題」。",
-        "address-mcq-02": "「正面談及／探討某個主題或問題」與本句語境不同。",
-        "address-mcq-03": "「正式或直接向某人／某群體說話、發言」與本句語境不同。",
-        "address-mcq-04": "「用某個名字、稱號或職銜稱呼某人」與本句語境不同。",
-        "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。",
-        "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。"
+        "address-mcq-01": "本句的「address」指「正視並採取行動處理某個問題、需要、疑慮或議題」。",
+        "address-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-mcq-01"
     },
@@ -357,11 +357,9 @@ export default {
       "masked": "The principal ____ the students.",
       "options": [
         "address-mcq-03",
-        "address-mcq-02",
-        "address-mcq-04",
-        "address-mcq-01",
         "address-mcq-05",
-        "address-mcq-06"
+        "address-mcq-09",
+        "address-mcq-01"
       ],
       "explanation": "本句的「addressed」指「正式或直接向某人／某群體說話、發言」。",
       "sentenceIndex": 3,
@@ -370,12 +368,10 @@ export default {
         "addressed"
       ],
       "optionReasons": {
-        "address-mcq-03": "本句指「正式或直接向某人／某群體說話、發言」。",
-        "address-mcq-02": "「正面談及／探討某個主題或問題」與本句語境不同。",
-        "address-mcq-04": "「用某個名字、稱號或職銜稱呼某人」與本句語境不同。",
-        "address-mcq-01": "「正視並採取行動處理某個問題、需要、疑慮或議題」與本句語境不同。",
-        "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。",
-        "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。"
+        "address-mcq-03": "本句的「addressed」指「正式或直接向某人／某群體說話、發言」。",
+        "address-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-mcq-03"
     },
@@ -387,11 +383,9 @@ export default {
       "masked": "She ____ the audience in a calm voice.",
       "options": [
         "address-mcq-03",
-        "address-mcq-02",
-        "address-mcq-04",
-        "address-mcq-01",
         "address-mcq-05",
-        "address-mcq-06"
+        "address-mcq-09",
+        "address-mcq-01"
       ],
       "explanation": "本句的「addressed」指「正式或直接向某人／某群體說話、發言」。",
       "sentenceIndex": 4,
@@ -400,12 +394,10 @@ export default {
         "addressed"
       ],
       "optionReasons": {
-        "address-mcq-03": "本句指「正式或直接向某人／某群體說話、發言」。",
-        "address-mcq-02": "「正面談及／探討某個主題或問題」與本句語境不同。",
-        "address-mcq-04": "「用某個名字、稱號或職銜稱呼某人」與本句語境不同。",
-        "address-mcq-01": "「正視並採取行動處理某個問題、需要、疑慮或議題」與本句語境不同。",
-        "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。",
-        "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。"
+        "address-mcq-03": "本句的「addressed」指「正式或直接向某人／某群體說話、發言」。",
+        "address-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-mcq-03"
     },
@@ -417,11 +409,9 @@ export default {
       "masked": "The scientist ____ the conference.",
       "options": [
         "address-mcq-03",
-        "address-mcq-02",
-        "address-mcq-04",
-        "address-mcq-01",
         "address-mcq-05",
-        "address-mcq-06"
+        "address-mcq-09",
+        "address-mcq-01"
       ],
       "explanation": "本句的「addressed」指「正式或直接向某人／某群體說話、發言」。",
       "sentenceIndex": 5,
@@ -430,12 +420,10 @@ export default {
         "addressed"
       ],
       "optionReasons": {
-        "address-mcq-03": "本句指「正式或直接向某人／某群體說話、發言」。",
-        "address-mcq-02": "「正面談及／探討某個主題或問題」與本句語境不同。",
-        "address-mcq-04": "「用某個名字、稱號或職銜稱呼某人」與本句語境不同。",
-        "address-mcq-01": "「正視並採取行動處理某個問題、需要、疑慮或議題」與本句語境不同。",
-        "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。",
-        "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。"
+        "address-mcq-03": "本句的「addressed」指「正式或直接向某人／某群體說話、發言」。",
+        "address-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-mcq-03"
     },
@@ -447,11 +435,9 @@ export default {
       "masked": "How should I ____ the professor?",
       "options": [
         "address-mcq-04",
-        "address-mcq-03",
         "address-mcq-05",
-        "address-mcq-02",
-        "address-mcq-06",
-        "address-mcq-01"
+        "address-mcq-01",
+        "address-mcq-08"
       ],
       "explanation": "本句的「address」指「用某個名字、稱號或職銜稱呼某人」。",
       "sentenceIndex": 6,
@@ -460,12 +446,10 @@ export default {
         "address"
       ],
       "optionReasons": {
-        "address-mcq-04": "本句指「用某個名字、稱號或職銜稱呼某人」。",
-        "address-mcq-03": "「正式或直接向某人／某群體說話、發言」與本句語境不同。",
-        "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。",
-        "address-mcq-02": "「正面談及／探討某個主題或問題」與本句語境不同。",
-        "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。",
-        "address-mcq-01": "「正視並採取行動處理某個問題、需要、疑慮或議題」與本句語境不同。"
+        "address-mcq-04": "本句的「address」指「用某個名字、稱號或職銜稱呼某人」。",
+        "address-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-mcq-04"
     },
@@ -477,10 +461,8 @@ export default {
       "masked": "She prefers to be ____ Dr Lee.",
       "options": [
         "address-mcq-04",
-        "address-mcq-03",
+        "address-mcq-08",
         "address-mcq-05",
-        "address-mcq-02",
-        "address-mcq-06",
         "address-mcq-01"
       ],
       "explanation": "本句的「addressed as」指「用某個名字、稱號或職銜稱呼某人」。",
@@ -490,12 +472,10 @@ export default {
         "addressed as"
       ],
       "optionReasons": {
-        "address-mcq-04": "本句指「用某個名字、稱號或職銜稱呼某人」。",
-        "address-mcq-03": "「正式或直接向某人／某群體說話、發言」與本句語境不同。",
-        "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。",
-        "address-mcq-02": "「正面談及／探討某個主題或問題」與本句語境不同。",
-        "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。",
-        "address-mcq-01": "「正視並採取行動處理某個問題、需要、疑慮或議題」與本句語境不同。"
+        "address-mcq-04": "本句的「addressed as」指「用某個名字、稱號或職銜稱呼某人」。",
+        "address-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-mcq-04"
     },
@@ -507,11 +487,9 @@ export default {
       "masked": "Please ____ the envelope clearly.",
       "options": [
         "address-mcq-05",
-        "address-mcq-04",
-        "address-mcq-06",
         "address-mcq-03",
-        "address-mcq-07",
-        "address-mcq-02"
+        "address-mcq-09",
+        "address-mcq-01"
       ],
       "explanation": "本句的「address」指「在郵件、包裹等寫明收件人和送達資料」。",
       "sentenceIndex": 8,
@@ -520,12 +498,10 @@ export default {
         "address"
       ],
       "optionReasons": {
-        "address-mcq-05": "本句指「在郵件、包裹等寫明收件人和送達資料」。",
-        "address-mcq-04": "「用某個名字、稱號或職銜稱呼某人」與本句語境不同。",
-        "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。",
-        "address-mcq-03": "「正式或直接向某人／某群體說話、發言」與本句語境不同。",
-        "address-mcq-07": "「識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址」與本句語境不同。",
-        "address-mcq-02": "「正面談及／探討某個主題或問題」與本句語境不同。"
+        "address-mcq-05": "本句的「address」指「在郵件、包裹等寫明收件人和送達資料」。",
+        "address-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-mcq-05"
     },
@@ -537,11 +513,9 @@ export default {
       "masked": "The package was ____ me.",
       "options": [
         "address-mcq-05",
-        "address-mcq-04",
-        "address-mcq-06",
         "address-mcq-03",
-        "address-mcq-07",
-        "address-mcq-02"
+        "address-mcq-01",
+        "address-mcq-09"
       ],
       "explanation": "本句的「addressed to」指「在郵件、包裹等寫明收件人和送達資料」。",
       "sentenceIndex": 9,
@@ -550,12 +524,10 @@ export default {
         "addressed to"
       ],
       "optionReasons": {
-        "address-mcq-05": "本句指「在郵件、包裹等寫明收件人和送達資料」。",
-        "address-mcq-04": "「用某個名字、稱號或職銜稱呼某人」與本句語境不同。",
-        "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。",
-        "address-mcq-03": "「正式或直接向某人／某群體說話、發言」與本句語境不同。",
-        "address-mcq-07": "「識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址」與本句語境不同。",
-        "address-mcq-02": "「正面談及／探討某個主題或問題」與本句語境不同。"
+        "address-mcq-05": "本句的「addressed to」指「在郵件、包裹等寫明收件人和送達資料」。",
+        "address-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-mcq-05"
     },
@@ -567,11 +539,9 @@ export default {
       "masked": "What is your home ____?",
       "options": [
         "address-mcq-06",
+        "address-mcq-09",
         "address-mcq-05",
-        "address-mcq-07",
-        "address-mcq-04",
-        "address-mcq-08",
-        "address-mcq-03"
+        "address-mcq-01"
       ],
       "explanation": "本句的「address」指「用來識別住宅、公司或地點所在位置的地址」。",
       "sentenceIndex": 12,
@@ -580,12 +550,10 @@ export default {
         "address"
       ],
       "optionReasons": {
-        "address-mcq-06": "本句指「用來識別住宅、公司或地點所在位置的地址」。",
-        "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。",
-        "address-mcq-07": "「識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址」與本句語境不同。",
-        "address-mcq-04": "「用某個名字、稱號或職銜稱呼某人」與本句語境不同。",
-        "address-mcq-08": "「向觀眾或正式場合發表的演說／致辭」與本句語境不同。",
-        "address-mcq-03": "「正式或直接向某人／某群體說話、發言」與本句語境不同。"
+        "address-mcq-06": "本句的「address」指「用來識別住宅、公司或地點所在位置的地址」。",
+        "address-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-mcq-06"
     },
@@ -597,11 +565,9 @@ export default {
       "masked": "Please enter your delivery ____.",
       "options": [
         "address-mcq-06",
-        "address-mcq-05",
-        "address-mcq-07",
-        "address-mcq-04",
+        "address-reviewed-b65f39f0c9",
         "address-mcq-08",
-        "address-mcq-03"
+        "address-mcq-09"
       ],
       "explanation": "本句的「address」指「用來識別住宅、公司或地點所在位置的地址」。",
       "sentenceIndex": 13,
@@ -610,12 +576,10 @@ export default {
         "address"
       ],
       "optionReasons": {
-        "address-mcq-06": "本句指「用來識別住宅、公司或地點所在位置的地址」。",
-        "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。",
-        "address-mcq-07": "「識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址」與本句語境不同。",
-        "address-mcq-04": "「用某個名字、稱號或職銜稱呼某人」與本句語境不同。",
-        "address-mcq-08": "「向觀眾或正式場合發表的演說／致辭」與本句語境不同。",
-        "address-mcq-03": "「正式或直接向某人／某群體說話、發言」與本句語境不同。"
+        "address-mcq-06": "本句的「address」指「用來識別住宅、公司或地點所在位置的地址」。",
+        "address-reviewed-b65f39f0c9": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-mcq-06"
     },
@@ -627,11 +591,8 @@ export default {
       "masked": "Every device on the network has an IP ____.",
       "options": [
         "address-pdf-001",
-        "address-mcq-06",
-        "address-mcq-08",
-        "address-mcq-05",
-        "address-mcq-09",
-        "address-mcq-04"
+        "address-mcq-01",
+        "address-mcq-03"
       ],
       "explanation": "本句的「address」指「在通訊、網絡或電腦系統中，用來識別某個目的地、裝置、帳戶或資料位置的標識」。",
       "sentenceIndex": 14,
@@ -640,12 +601,9 @@ export default {
         "address"
       ],
       "optionReasons": {
-        "address-pdf-001": "本句指「在通訊、網絡或電腦系統中，用來識別某個目的地、裝置、帳戶或資料位置的標識」。",
-        "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。",
-        "address-mcq-08": "「向觀眾或正式場合發表的演說／致辭」與本句語境不同。",
-        "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。",
-        "address-mcq-09": "「擺好站姿和球桿，準備擊球」與本句語境不同。",
-        "address-mcq-04": "「用某個名字、稱號或職銜稱呼某人」與本句語境不同。"
+        "address-pdf-001": "本句的「address」指「在通訊、網絡或電腦系統中，用來識別某個目的地、裝置、帳戶或資料位置的標識」。",
+        "address-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-pdf-001"
     },
@@ -657,10 +615,8 @@ export default {
       "masked": "The program stores the value at a specific memory ____.",
       "options": [
         "address-pdf-001",
-        "address-mcq-06",
         "address-mcq-08",
-        "address-mcq-05",
-        "address-mcq-09",
+        "address-mcq-01",
         "address-mcq-04"
       ],
       "explanation": "本句的「address」指「在通訊、網絡或電腦系統中，用來識別某個目的地、裝置、帳戶或資料位置的標識」。",
@@ -670,12 +626,10 @@ export default {
         "address"
       ],
       "optionReasons": {
-        "address-pdf-001": "本句指「在通訊、網絡或電腦系統中，用來識別某個目的地、裝置、帳戶或資料位置的標識」。",
-        "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。",
-        "address-mcq-08": "「向觀眾或正式場合發表的演說／致辭」與本句語境不同。",
-        "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。",
-        "address-mcq-09": "「擺好站姿和球桿，準備擊球」與本句語境不同。",
-        "address-mcq-04": "「用某個名字、稱號或職銜稱呼某人」與本句語境不同。"
+        "address-pdf-001": "本句的「address」指「在通訊、網絡或電腦系統中，用來識別某個目的地、裝置、帳戶或資料位置的標識」。",
+        "address-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-pdf-001"
     },
@@ -687,11 +641,9 @@ export default {
       "masked": "The president gave a televised ____.",
       "options": [
         "address-mcq-08",
-        "address-mcq-07",
         "address-mcq-09",
-        "address-mcq-06",
         "address-mcq-10",
-        "address-mcq-05"
+        "address-mcq-06"
       ],
       "explanation": "本句的「address」指「向觀眾或正式場合發表的演說／致辭」。",
       "sentenceIndex": 16,
@@ -700,12 +652,10 @@ export default {
         "address"
       ],
       "optionReasons": {
-        "address-mcq-08": "本句指「向觀眾或正式場合發表的演說／致辭」。",
-        "address-mcq-07": "「識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址」與本句語境不同。",
-        "address-mcq-09": "「擺好站姿和球桿，準備擊球」與本句語境不同。",
-        "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。",
-        "address-mcq-10": "「收件人／訊息的接收對象」與本句語境不同。",
-        "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。"
+        "address-mcq-08": "本句的「address」指「向觀眾或正式場合發表的演說／致辭」。",
+        "address-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-mcq-08"
     },
@@ -717,11 +667,9 @@ export default {
       "masked": "Her opening ____ lasted twenty minutes.",
       "options": [
         "address-mcq-08",
-        "address-mcq-07",
-        "address-mcq-09",
         "address-mcq-06",
-        "address-mcq-10",
-        "address-mcq-05"
+        "address-mcq-09",
+        "address-mcq-10"
       ],
       "explanation": "本句的「address」指「向觀眾或正式場合發表的演說／致辭」。",
       "sentenceIndex": 17,
@@ -730,74 +678,66 @@ export default {
         "address"
       ],
       "optionReasons": {
-        "address-mcq-08": "本句指「向觀眾或正式場合發表的演說／致辭」。",
-        "address-mcq-07": "「識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址」與本句語境不同。",
-        "address-mcq-09": "「擺好站姿和球桿，準備擊球」與本句語境不同。",
-        "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。",
-        "address-mcq-10": "「收件人／訊息的接收對象」與本句語境不同。",
-        "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。"
+        "address-mcq-08": "本句的「address」指「向觀眾或正式場合發表的演說／致辭」。",
+        "address-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-mcq-08"
     },
     {
       "id": "address-11-0",
-      "sense": "address-mcq-08",
+      "sense": "address-reviewed-b65f39f0c9",
       "en": "The report addresses several ethical questions.",
       "zh": "這份報告探討／處理了幾個倫理問題。",
       "masked": "The report ____ several ethical questions.",
       "options": [
+        "address-reviewed-b65f39f0c9",
+        "address-mcq-04",
         "address-mcq-08",
-        "address-mcq-07",
-        "address-mcq-09",
-        "address-mcq-06",
-        "address-mcq-10",
-        "address-mcq-05"
+        "address-mcq-09"
       ],
-      "explanation": "本句的「addresses」指「向觀眾或正式場合發表的演說／致辭」。",
+      "explanation": "對照完整句子：「這份報告探討／處理了幾個倫理問題。」。這裡的「addresses」表示「在文章或討論中探討、處理某個議題」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "addresses"
       ],
       "optionReasons": {
-        "address-mcq-08": "本句指「向觀眾或正式場合發表的演說／致辭」。",
-        "address-mcq-07": "「識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址」與本句語境不同。",
-        "address-mcq-09": "「擺好站姿和球桿，準備擊球」與本句語境不同。",
-        "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。",
-        "address-mcq-10": "「收件人／訊息的接收對象」與本句語境不同。",
-        "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。"
+        "address-reviewed-b65f39f0c9": "對照完整句子：「這份報告探討／處理了幾個倫理問題。」。這裡的「addresses」表示「在文章或討論中探討、處理某個議題」。",
+        "address-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "address-mcq-08"
+      "correctOption": "address-reviewed-b65f39f0c9",
+      "previousCorrectOption": "address-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "address-11-1",
-      "sense": "address-mcq-08",
+      "sense": "address-reviewed-b65f39f0c9",
       "en": "The book addresses the relationship between technology and society.",
       "zh": "這本書探討科技與社會之間的關係。",
       "masked": "The book ____ the relationship between technology and society.",
       "options": [
-        "address-mcq-08",
-        "address-mcq-07",
-        "address-mcq-09",
-        "address-mcq-06",
-        "address-mcq-10",
-        "address-mcq-05"
+        "address-reviewed-b65f39f0c9",
+        "address-mcq-03",
+        "address-mcq-09"
       ],
-      "explanation": "本句的「addresses」指「向觀眾或正式場合發表的演說／致辭」。",
+      "explanation": "對照完整句子：「這本書探討科技與社會之間的關係。」。這裡的「addresses」表示「在文章或討論中探討、處理某個議題」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "addresses"
       ],
       "optionReasons": {
-        "address-mcq-08": "本句指「向觀眾或正式場合發表的演說／致辭」。",
-        "address-mcq-07": "「識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址」與本句語境不同。",
-        "address-mcq-09": "「擺好站姿和球桿，準備擊球」與本句語境不同。",
-        "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。",
-        "address-mcq-10": "「收件人／訊息的接收對象」與本句語境不同。",
-        "address-mcq-05": "「在郵件、包裹等寫明收件人和送達資料」與本句語境不同。"
+        "address-reviewed-b65f39f0c9": "對照完整句子：「這本書探討科技與社會之間的關係。」。這裡的「addresses」表示「在文章或討論中探討、處理某個議題」。",
+        "address-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "address-mcq-08"
+      "correctOption": "address-reviewed-b65f39f0c9",
+      "previousCorrectOption": "address-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "address-12-0",
@@ -807,11 +747,9 @@ export default {
       "masked": "She ____ carefully before the shot.",
       "options": [
         "address-mcq-09",
-        "address-mcq-08",
+        "address-mcq-01",
         "address-mcq-10",
-        "address-mcq-07",
-        "address-mcq-11",
-        "address-mcq-06"
+        "address-mcq-03"
       ],
       "explanation": "本句的「addressed the ball」指「擺好站姿和球桿，準備擊球」。",
       "sentenceIndex": 21,
@@ -820,12 +758,10 @@ export default {
         "addressed the ball"
       ],
       "optionReasons": {
-        "address-mcq-09": "本句指「擺好站姿和球桿，準備擊球」。",
-        "address-mcq-08": "「向觀眾或正式場合發表的演說／致辭」與本句語境不同。",
-        "address-mcq-10": "「收件人／訊息的接收對象」與本句語境不同。",
-        "address-mcq-07": "「識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址」與本句語境不同。",
-        "address-mcq-11": "「可以處理的；科技中亦指可獨立定址／識別的」與本句語境不同。",
-        "address-mcq-06": "「用來識別住宅、公司或地點所在位置的地址」與本句語境不同。"
+        "address-mcq-09": "本句的「addressed the ball」指「擺好站姿和球桿，準備擊球」。",
+        "address-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-mcq-09"
     },
@@ -837,11 +773,9 @@ export default {
       "masked": "The name of the ____ was missing.",
       "options": [
         "address-mcq-10",
-        "address-mcq-09",
-        "address-mcq-11",
+        "address-mcq-01",
         "address-mcq-08",
-        "address-mcq-12",
-        "address-mcq-07"
+        "address-mcq-09"
       ],
       "explanation": "本句的「addressee」指「收件人／訊息的接收對象」。",
       "sentenceIndex": 24,
@@ -850,12 +784,10 @@ export default {
         "addressee"
       ],
       "optionReasons": {
-        "address-mcq-10": "本句指「收件人／訊息的接收對象」。",
-        "address-mcq-09": "「擺好站姿和球桿，準備擊球」與本句語境不同。",
-        "address-mcq-11": "「可以處理的；科技中亦指可獨立定址／識別的」與本句語境不同。",
-        "address-mcq-08": "「向觀眾或正式場合發表的演說／致辭」與本句語境不同。",
-        "address-mcq-12": "「尚未處理的；或沒有寫地址的」與本句語境不同。",
-        "address-mcq-07": "「識別電郵帳戶、網站、裝置、網絡或記憶體位置的位址／地址」與本句語境不同。"
+        "address-mcq-10": "本句的「addressee」指「收件人／訊息的接收對象」。",
+        "address-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "address-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "address-mcq-10"
     }
@@ -867,5 +799,7 @@ export default {
     "sha256": "2019ee6e6d7f6e3d9a9208859dbc3b5b2678fbeb849c5a43c6ed49d53c5249b7",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

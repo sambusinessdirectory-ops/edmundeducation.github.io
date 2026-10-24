@@ -260,11 +260,7 @@ export default {
       "masked": "The ____ know many customers by name.",
       "options": [
         "staff-mcq-01",
-        "staff-mcq-02",
-        "staff-mcq-03",
-        "staff-mcq-04",
-        "staff-mcq-05",
-        "staff-mcq-06"
+        "staff-mcq-09"
       ],
       "explanation": "本句的「staff」指「受僱於某公司、商店、學校或機構的一群工作人員」。",
       "sentenceIndex": 0,
@@ -273,12 +269,8 @@ export default {
         "staff"
       ],
       "optionReasons": {
-        "staff-mcq-01": "本句指「受僱於某公司、商店、學校或機構的一群工作人員」。",
-        "staff-mcq-02": "「某一特定職能／部門中的工作人員整體」與本句語境不同。",
-        "staff-mcq-03": "「從人數／配置角度看的工作人手或人員編制」與本句語境不同。",
-        "staff-mcq-04": "「為某地方、部門或活動安排／配置工作人員」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。"
+        "staff-mcq-01": "本句的「staff」指「受僱於某公司、商店、學校或機構的一群工作人員」。",
+        "staff-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-01"
     },
@@ -290,11 +282,7 @@ export default {
       "masked": "The hotel ____ were very helpful.",
       "options": [
         "staff-mcq-01",
-        "staff-mcq-02",
-        "staff-mcq-03",
-        "staff-mcq-04",
-        "staff-mcq-05",
-        "staff-mcq-06"
+        "staff-pdf-001"
       ],
       "explanation": "本句的「staff」指「受僱於某公司、商店、學校或機構的一群工作人員」。",
       "sentenceIndex": 1,
@@ -303,12 +291,8 @@ export default {
         "staff"
       ],
       "optionReasons": {
-        "staff-mcq-01": "本句指「受僱於某公司、商店、學校或機構的一群工作人員」。",
-        "staff-mcq-02": "「某一特定職能／部門中的工作人員整體」與本句語境不同。",
-        "staff-mcq-03": "「從人數／配置角度看的工作人手或人員編制」與本句語境不同。",
-        "staff-mcq-04": "「為某地方、部門或活動安排／配置工作人員」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。"
+        "staff-mcq-01": "本句的「staff」指「受僱於某公司、商店、學校或機構的一群工作人員」。",
+        "staff-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-01"
     },
@@ -320,11 +304,7 @@ export default {
       "masked": "All ____ must attend the meeting.",
       "options": [
         "staff-mcq-01",
-        "staff-mcq-02",
-        "staff-mcq-03",
-        "staff-mcq-04",
-        "staff-mcq-05",
-        "staff-mcq-06"
+        "staff-mcq-09"
       ],
       "explanation": "本句的「staff」指「受僱於某公司、商店、學校或機構的一群工作人員」。",
       "sentenceIndex": 2,
@@ -333,12 +313,8 @@ export default {
         "staff"
       ],
       "optionReasons": {
-        "staff-mcq-01": "本句指「受僱於某公司、商店、學校或機構的一群工作人員」。",
-        "staff-mcq-02": "「某一特定職能／部門中的工作人員整體」與本句語境不同。",
-        "staff-mcq-03": "「從人數／配置角度看的工作人手或人員編制」與本句語境不同。",
-        "staff-mcq-04": "「為某地方、部門或活動安排／配置工作人員」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。"
+        "staff-mcq-01": "本句的「staff」指「受僱於某公司、商店、學校或機構的一群工作人員」。",
+        "staff-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-01"
     },
@@ -350,11 +326,7 @@ export default {
       "masked": "The teaching ____ met after school.",
       "options": [
         "staff-mcq-02",
-        "staff-mcq-01",
-        "staff-mcq-03",
-        "staff-mcq-04",
-        "staff-mcq-05",
-        "staff-mcq-06"
+        "staff-mcq-09"
       ],
       "explanation": "本句的「staff」指「某一特定職能／部門中的工作人員整體」。",
       "sentenceIndex": 3,
@@ -363,12 +335,8 @@ export default {
         "staff"
       ],
       "optionReasons": {
-        "staff-mcq-02": "本句指「某一特定職能／部門中的工作人員整體」。",
-        "staff-mcq-01": "「受僱於某公司、商店、學校或機構的一群工作人員」與本句語境不同。",
-        "staff-mcq-03": "「從人數／配置角度看的工作人手或人員編制」與本句語境不同。",
-        "staff-mcq-04": "「為某地方、部門或活動安排／配置工作人員」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。"
+        "staff-mcq-02": "本句的「staff」指「某一特定職能／部門中的工作人員整體」。",
+        "staff-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-02"
     },
@@ -380,11 +348,7 @@ export default {
       "masked": "The medical ____ responded quickly.",
       "options": [
         "staff-mcq-02",
-        "staff-mcq-01",
-        "staff-mcq-03",
-        "staff-mcq-04",
-        "staff-mcq-05",
-        "staff-mcq-06"
+        "staff-mcq-09"
       ],
       "explanation": "本句的「staff」指「某一特定職能／部門中的工作人員整體」。",
       "sentenceIndex": 4,
@@ -393,12 +357,8 @@ export default {
         "staff"
       ],
       "optionReasons": {
-        "staff-mcq-02": "本句指「某一特定職能／部門中的工作人員整體」。",
-        "staff-mcq-01": "「受僱於某公司、商店、學校或機構的一群工作人員」與本句語境不同。",
-        "staff-mcq-03": "「從人數／配置角度看的工作人手或人員編制」與本句語境不同。",
-        "staff-mcq-04": "「為某地方、部門或活動安排／配置工作人員」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。"
+        "staff-mcq-02": "本句的「staff」指「某一特定職能／部門中的工作人員整體」。",
+        "staff-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-02"
     },
@@ -410,11 +370,7 @@ export default {
       "masked": "The shop is short of ____.",
       "options": [
         "staff-mcq-03",
-        "staff-mcq-02",
-        "staff-mcq-04",
-        "staff-mcq-01",
-        "staff-mcq-05",
-        "staff-mcq-06"
+        "staff-pdf-001"
       ],
       "explanation": "本句的「staff」指「從人數／配置角度看的工作人手或人員編制」。",
       "sentenceIndex": 5,
@@ -423,12 +379,8 @@ export default {
         "staff"
       ],
       "optionReasons": {
-        "staff-mcq-03": "本句指「從人數／配置角度看的工作人手或人員編制」。",
-        "staff-mcq-02": "「某一特定職能／部門中的工作人員整體」與本句語境不同。",
-        "staff-mcq-04": "「為某地方、部門或活動安排／配置工作人員」與本句語境不同。",
-        "staff-mcq-01": "「受僱於某公司、商店、學校或機構的一群工作人員」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。"
+        "staff-mcq-03": "本句的「staff」指「從人數／配置角度看的工作人手或人員編制」。",
+        "staff-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-03"
     },
@@ -440,11 +392,7 @@ export default {
       "masked": "The company increased its ____ last year.",
       "options": [
         "staff-mcq-03",
-        "staff-mcq-02",
-        "staff-mcq-04",
-        "staff-mcq-01",
-        "staff-mcq-05",
-        "staff-mcq-06"
+        "staff-mcq-09"
       ],
       "explanation": "本句的「staff」指「從人數／配置角度看的工作人手或人員編制」。",
       "sentenceIndex": 6,
@@ -453,12 +401,8 @@ export default {
         "staff"
       ],
       "optionReasons": {
-        "staff-mcq-03": "本句指「從人數／配置角度看的工作人手或人員編制」。",
-        "staff-mcq-02": "「某一特定職能／部門中的工作人員整體」與本句語境不同。",
-        "staff-mcq-04": "「為某地方、部門或活動安排／配置工作人員」與本句語境不同。",
-        "staff-mcq-01": "「受僱於某公司、商店、學校或機構的一群工作人員」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。"
+        "staff-mcq-03": "本句的「staff」指「從人數／配置角度看的工作人手或人員編制」。",
+        "staff-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-03"
     },
@@ -470,11 +414,7 @@ export default {
       "masked": "The bakery is ____ by six people.",
       "options": [
         "staff-mcq-04",
-        "staff-mcq-03",
-        "staff-mcq-05",
-        "staff-mcq-02",
-        "staff-mcq-06",
-        "staff-mcq-01"
+        "staff-pdf-001"
       ],
       "explanation": "本句的「staffed」指「為某地方、部門或活動安排／配置工作人員」。",
       "sentenceIndex": 7,
@@ -483,12 +423,8 @@ export default {
         "staffed"
       ],
       "optionReasons": {
-        "staff-mcq-04": "本句指「為某地方、部門或活動安排／配置工作人員」。",
-        "staff-mcq-03": "「從人數／配置角度看的工作人手或人員編制」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。",
-        "staff-mcq-02": "「某一特定職能／部門中的工作人員整體」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。",
-        "staff-mcq-01": "「受僱於某公司、商店、學校或機構的一群工作人員」與本句語境不同。"
+        "staff-mcq-04": "本句的「staffed」指「為某地方、部門或活動安排／配置工作人員」。",
+        "staff-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-04"
     },
@@ -500,11 +436,7 @@ export default {
       "masked": "The reception desk is ____ all day.",
       "options": [
         "staff-mcq-04",
-        "staff-mcq-03",
-        "staff-mcq-05",
-        "staff-mcq-02",
-        "staff-mcq-06",
-        "staff-mcq-01"
+        "staff-mcq-09"
       ],
       "explanation": "本句的「staffed」指「為某地方、部門或活動安排／配置工作人員」。",
       "sentenceIndex": 8,
@@ -513,12 +445,8 @@ export default {
         "staffed"
       ],
       "optionReasons": {
-        "staff-mcq-04": "本句指「為某地方、部門或活動安排／配置工作人員」。",
-        "staff-mcq-03": "「從人數／配置角度看的工作人手或人員編制」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。",
-        "staff-mcq-02": "「某一特定職能／部門中的工作人員整體」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。",
-        "staff-mcq-01": "「受僱於某公司、商店、學校或機構的一群工作人員」與本句語境不同。"
+        "staff-mcq-04": "本句的「staffed」指「為某地方、部門或活動安排／配置工作人員」。",
+        "staff-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-04"
     },
@@ -530,11 +458,7 @@ export default {
       "masked": "The company ____ the new branch quickly.",
       "options": [
         "staff-mcq-04",
-        "staff-mcq-03",
-        "staff-mcq-05",
-        "staff-mcq-02",
-        "staff-mcq-06",
-        "staff-mcq-01"
+        "staff-mcq-09"
       ],
       "explanation": "本句的「staffed」指「為某地方、部門或活動安排／配置工作人員」。",
       "sentenceIndex": 9,
@@ -543,12 +467,8 @@ export default {
         "staffed"
       ],
       "optionReasons": {
-        "staff-mcq-04": "本句指「為某地方、部門或活動安排／配置工作人員」。",
-        "staff-mcq-03": "「從人數／配置角度看的工作人手或人員編制」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。",
-        "staff-mcq-02": "「某一特定職能／部門中的工作人員整體」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。",
-        "staff-mcq-01": "「受僱於某公司、商店、學校或機構的一群工作人員」與本句語境不同。"
+        "staff-mcq-04": "本句的「staffed」指「為某地方、部門或活動安排／配置工作人員」。",
+        "staff-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-04"
     },
@@ -560,11 +480,7 @@ export default {
       "masked": "The event was ____ by volunteers.",
       "options": [
         "staff-mcq-04",
-        "staff-mcq-03",
-        "staff-mcq-05",
-        "staff-mcq-02",
-        "staff-mcq-06",
-        "staff-mcq-01"
+        "staff-pdf-001"
       ],
       "explanation": "本句的「staffed」指「為某地方、部門或活動安排／配置工作人員」。",
       "sentenceIndex": 10,
@@ -573,12 +489,8 @@ export default {
         "staffed"
       ],
       "optionReasons": {
-        "staff-mcq-04": "本句指「為某地方、部門或活動安排／配置工作人員」。",
-        "staff-mcq-03": "「從人數／配置角度看的工作人手或人員編制」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。",
-        "staff-mcq-02": "「某一特定職能／部門中的工作人員整體」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。",
-        "staff-mcq-01": "「受僱於某公司、商店、學校或機構的一群工作人員」與本句語境不同。"
+        "staff-mcq-04": "本句的「staffed」指「為某地方、部門或活動安排／配置工作人員」。",
+        "staff-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-04"
     },
@@ -590,11 +502,8 @@ export default {
       "masked": "The bakery has a ____ problem at weekends.",
       "options": [
         "staff-mcq-06",
-        "staff-mcq-05",
-        "staff-mcq-07",
-        "staff-mcq-04",
-        "staff-mcq-08",
-        "staff-mcq-03"
+        "staff-pdf-001",
+        "staff-mcq-08"
       ],
       "explanation": "本句的「staffing」指「人員的安排、配置與數量管理」。",
       "sentenceIndex": 11,
@@ -603,12 +512,9 @@ export default {
         "staffing"
       ],
       "optionReasons": {
-        "staff-mcq-06": "本句指「人員的安排、配置與數量管理」。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。",
-        "staff-mcq-07": "「用作支撐、行走或象徵身份的長杖」與本句語境不同。",
-        "staff-mcq-04": "「為某地方、部門或活動安排／配置工作人員」與本句語境不同。",
-        "staff-mcq-08": "「象徵權力、職位或宗教身份的儀仗杖／權杖」與本句語境不同。",
-        "staff-mcq-03": "「從人數／配置角度看的工作人手或人員編制」與本句語境不同。"
+        "staff-mcq-06": "本句的「staffing」指「人員的安排、配置與數量管理」。",
+        "staff-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "staff-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-06"
     },
@@ -620,11 +526,8 @@ export default {
       "masked": "____ levels are higher during busy periods.",
       "options": [
         "staff-mcq-06",
-        "staff-mcq-05",
-        "staff-mcq-07",
-        "staff-mcq-04",
-        "staff-mcq-08",
-        "staff-mcq-03"
+        "staff-pdf-001",
+        "staff-mcq-08"
       ],
       "explanation": "本句的「Staffing」指「人員的安排、配置與數量管理」。",
       "sentenceIndex": 12,
@@ -633,12 +536,9 @@ export default {
         "Staffing"
       ],
       "optionReasons": {
-        "staff-mcq-06": "本句指「人員的安排、配置與數量管理」。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。",
-        "staff-mcq-07": "「用作支撐、行走或象徵身份的長杖」與本句語境不同。",
-        "staff-mcq-04": "「為某地方、部門或活動安排／配置工作人員」與本句語境不同。",
-        "staff-mcq-08": "「象徵權力、職位或宗教身份的儀仗杖／權杖」與本句語境不同。",
-        "staff-mcq-03": "「從人數／配置角度看的工作人手或人員編制」與本句語境不同。"
+        "staff-mcq-06": "本句的「Staffing」指「人員的安排、配置與數量管理」。",
+        "staff-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "staff-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-06"
     },
@@ -650,11 +550,7 @@ export default {
       "masked": "The traveller carried a wooden ____.",
       "options": [
         "staff-pdf-001",
-        "staff-mcq-06",
-        "staff-mcq-08",
-        "staff-mcq-05",
-        "staff-mcq-09",
-        "staff-mcq-04"
+        "staff-mcq-03"
       ],
       "explanation": "本句的「staff」指「長而直的棍／杖，可用來支撐身體或行走」。",
       "sentenceIndex": 13,
@@ -663,12 +559,8 @@ export default {
         "staff"
       ],
       "optionReasons": {
-        "staff-pdf-001": "本句指「長而直的棍／杖，可用來支撐身體或行走」。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。",
-        "staff-mcq-08": "「象徵權力、職位或宗教身份的儀仗杖／權杖」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。",
-        "staff-mcq-09": "「樂譜中用來書寫音符的一組五條平行線」與本句語境不同。",
-        "staff-mcq-04": "「為某地方、部門或活動安排／配置工作人員」與本句語境不同。"
+        "staff-pdf-001": "本句的「staff」指「長而直的棍／杖，可用來支撐身體或行走」。",
+        "staff-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-pdf-001"
     },
@@ -680,11 +572,7 @@ export default {
       "masked": "He leaned on his ____ while walking.",
       "options": [
         "staff-pdf-001",
-        "staff-mcq-06",
-        "staff-mcq-08",
-        "staff-mcq-05",
-        "staff-mcq-09",
-        "staff-mcq-04"
+        "staff-mcq-03"
       ],
       "explanation": "本句的「staff」指「長而直的棍／杖，可用來支撐身體或行走」。",
       "sentenceIndex": 14,
@@ -693,12 +581,8 @@ export default {
         "staff"
       ],
       "optionReasons": {
-        "staff-pdf-001": "本句指「長而直的棍／杖，可用來支撐身體或行走」。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。",
-        "staff-mcq-08": "「象徵權力、職位或宗教身份的儀仗杖／權杖」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。",
-        "staff-mcq-09": "「樂譜中用來書寫音符的一組五條平行線」與本句語境不同。",
-        "staff-mcq-04": "「為某地方、部門或活動安排／配置工作人員」與本句語境不同。"
+        "staff-pdf-001": "本句的「staff」指「長而直的棍／杖，可用來支撐身體或行走」。",
+        "staff-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-pdf-001"
     },
@@ -710,11 +594,8 @@ export default {
       "masked": "The official carried a ceremonial ____.",
       "options": [
         "staff-mcq-08",
-        "staff-mcq-07",
-        "staff-mcq-09",
         "staff-mcq-06",
-        "staff-mcq-10",
-        "staff-mcq-05"
+        "staff-mcq-09"
       ],
       "explanation": "本句的「staff」指「象徵權力、職位或宗教身份的儀仗杖／權杖」。",
       "sentenceIndex": 15,
@@ -723,12 +604,9 @@ export default {
         "staff"
       ],
       "optionReasons": {
-        "staff-mcq-08": "本句指「象徵權力、職位或宗教身份的儀仗杖／權杖」。",
-        "staff-mcq-07": "「用作支撐、行走或象徵身份的長杖」與本句語境不同。",
-        "staff-mcq-09": "「樂譜中用來書寫音符的一組五條平行線」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。",
-        "staff-mcq-10": "「員工群體中的一名個別職員」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。"
+        "staff-mcq-08": "本句的「staff」指「象徵權力、職位或宗教身份的儀仗杖／權杖」。",
+        "staff-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "staff-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-08"
     },
@@ -740,11 +618,8 @@ export default {
       "masked": "The ____ symbolized his office.",
       "options": [
         "staff-mcq-08",
-        "staff-mcq-07",
-        "staff-mcq-09",
         "staff-mcq-06",
-        "staff-mcq-10",
-        "staff-mcq-05"
+        "staff-mcq-09"
       ],
       "explanation": "本句的「staff」指「象徵權力、職位或宗教身份的儀仗杖／權杖」。",
       "sentenceIndex": 16,
@@ -753,12 +628,9 @@ export default {
         "staff"
       ],
       "optionReasons": {
-        "staff-mcq-08": "本句指「象徵權力、職位或宗教身份的儀仗杖／權杖」。",
-        "staff-mcq-07": "「用作支撐、行走或象徵身份的長杖」與本句語境不同。",
-        "staff-mcq-09": "「樂譜中用來書寫音符的一組五條平行線」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。",
-        "staff-mcq-10": "「員工群體中的一名個別職員」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。"
+        "staff-mcq-08": "本句的「staff」指「象徵權力、職位或宗教身份的儀仗杖／權杖」。",
+        "staff-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "staff-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-08"
     },
@@ -770,11 +642,8 @@ export default {
       "masked": "Write the notes on the ____.",
       "options": [
         "staff-mcq-09",
-        "staff-mcq-08",
         "staff-mcq-10",
-        "staff-mcq-07",
-        "staff-mcq-06",
-        "staff-mcq-05"
+        "staff-mcq-08"
       ],
       "explanation": "本句的「staff」指「樂譜中用來書寫音符的一組五條平行線」。",
       "sentenceIndex": 17,
@@ -783,12 +652,9 @@ export default {
         "staff"
       ],
       "optionReasons": {
-        "staff-mcq-09": "本句指「樂譜中用來書寫音符的一組五條平行線」。",
-        "staff-mcq-08": "「象徵權力、職位或宗教身份的儀仗杖／權杖」與本句語境不同。",
-        "staff-mcq-10": "「員工群體中的一名個別職員」與本句語境不同。",
-        "staff-mcq-07": "「用作支撐、行走或象徵身份的長杖」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。"
+        "staff-mcq-09": "本句的「staff」指「樂譜中用來書寫音符的一組五條平行線」。",
+        "staff-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "staff-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-09"
     },
@@ -800,11 +666,7 @@ export default {
       "masked": "The melody is written on the upper ____.",
       "options": [
         "staff-mcq-09",
-        "staff-mcq-08",
-        "staff-mcq-10",
-        "staff-mcq-07",
-        "staff-mcq-06",
-        "staff-mcq-05"
+        "staff-mcq-04"
       ],
       "explanation": "本句的「staff」指「樂譜中用來書寫音符的一組五條平行線」。",
       "sentenceIndex": 18,
@@ -813,12 +675,8 @@ export default {
         "staff"
       ],
       "optionReasons": {
-        "staff-mcq-09": "本句指「樂譜中用來書寫音符的一組五條平行線」。",
-        "staff-mcq-08": "「象徵權力、職位或宗教身份的儀仗杖／權杖」與本句語境不同。",
-        "staff-mcq-10": "「員工群體中的一名個別職員」與本句語境不同。",
-        "staff-mcq-07": "「用作支撐、行走或象徵身份的長杖」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。"
+        "staff-mcq-09": "本句的「staff」指「樂譜中用來書寫音符的一組五條平行線」。",
+        "staff-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-09"
     },
@@ -830,11 +688,8 @@ export default {
       "masked": "Each ____ contains five lines.",
       "options": [
         "staff-mcq-09",
-        "staff-mcq-08",
         "staff-mcq-10",
-        "staff-mcq-07",
-        "staff-mcq-06",
-        "staff-mcq-05"
+        "staff-mcq-08"
       ],
       "explanation": "本句的「staff」指「樂譜中用來書寫音符的一組五條平行線」。",
       "sentenceIndex": 19,
@@ -843,12 +698,9 @@ export default {
         "staff"
       ],
       "optionReasons": {
-        "staff-mcq-09": "本句指「樂譜中用來書寫音符的一組五條平行線」。",
-        "staff-mcq-08": "「象徵權力、職位或宗教身份的儀仗杖／權杖」與本句語境不同。",
-        "staff-mcq-10": "「員工群體中的一名個別職員」與本句語境不同。",
-        "staff-mcq-07": "「用作支撐、行走或象徵身份的長杖」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。"
+        "staff-mcq-09": "本句的「staff」指「樂譜中用來書寫音符的一組五條平行線」。",
+        "staff-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "staff-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-09"
     },
@@ -860,11 +712,8 @@ export default {
       "masked": "The score uses two ____.",
       "options": [
         "staff-mcq-09",
-        "staff-mcq-08",
         "staff-mcq-10",
-        "staff-mcq-07",
-        "staff-mcq-06",
-        "staff-mcq-05"
+        "staff-mcq-08"
       ],
       "explanation": "本句的「staffs」指「樂譜中用來書寫音符的一組五條平行線」。",
       "sentenceIndex": 20,
@@ -873,12 +722,9 @@ export default {
         "staffs"
       ],
       "optionReasons": {
-        "staff-mcq-09": "本句指「樂譜中用來書寫音符的一組五條平行線」。",
-        "staff-mcq-08": "「象徵權力、職位或宗教身份的儀仗杖／權杖」與本句語境不同。",
-        "staff-mcq-10": "「員工群體中的一名個別職員」與本句語境不同。",
-        "staff-mcq-07": "「用作支撐、行走或象徵身份的長杖」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。"
+        "staff-mcq-09": "本句的「staffs」指「樂譜中用來書寫音符的一組五條平行線」。",
+        "staff-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "staff-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-09"
     },
@@ -891,10 +737,7 @@ export default {
       "options": [
         "staff-mcq-10",
         "staff-mcq-09",
-        "staff-mcq-08",
-        "staff-mcq-07",
-        "staff-mcq-06",
-        "staff-mcq-05"
+        "staff-mcq-08"
       ],
       "explanation": "本句的「staff member」指「員工群體中的一名個別職員」。",
       "sentenceIndex": 25,
@@ -903,12 +746,9 @@ export default {
         "staff member"
       ],
       "optionReasons": {
-        "staff-mcq-10": "本句指「員工群體中的一名個別職員」。",
-        "staff-mcq-09": "「樂譜中用來書寫音符的一組五條平行線」與本句語境不同。",
-        "staff-mcq-08": "「象徵權力、職位或宗教身份的儀仗杖／權杖」與本句語境不同。",
-        "staff-mcq-07": "「用作支撐、行走或象徵身份的長杖」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。"
+        "staff-mcq-10": "本句的「staff member」指「員工群體中的一名個別職員」。",
+        "staff-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "staff-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-10"
     },
@@ -921,10 +761,7 @@ export default {
       "options": [
         "staff-mcq-10",
         "staff-mcq-09",
-        "staff-mcq-08",
-        "staff-mcq-07",
-        "staff-mcq-06",
-        "staff-mcq-05"
+        "staff-mcq-08"
       ],
       "explanation": "本句的「staff」指「員工群體中的一名個別職員」。",
       "sentenceIndex": 26,
@@ -933,12 +770,9 @@ export default {
         "staff"
       ],
       "optionReasons": {
-        "staff-mcq-10": "本句指「員工群體中的一名個別職員」。",
-        "staff-mcq-09": "「樂譜中用來書寫音符的一組五條平行線」與本句語境不同。",
-        "staff-mcq-08": "「象徵權力、職位或宗教身份的儀仗杖／權杖」與本句語境不同。",
-        "staff-mcq-07": "「用作支撐、行走或象徵身份的長杖」與本句語境不同。",
-        "staff-mcq-06": "「人員的安排、配置與數量管理」與本句語境不同。",
-        "staff-mcq-05": "「已配置工作人員／有人當值的」與本句語境不同。"
+        "staff-mcq-10": "本句的「staff」指「員工群體中的一名個別職員」。",
+        "staff-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "staff-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "staff-mcq-10"
     }
@@ -950,5 +784,7 @@ export default {
     "sha256": "079d98f36b7a8c1f40352974eae54b15999105fc58947517ddaf9a9a8a660f9e",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

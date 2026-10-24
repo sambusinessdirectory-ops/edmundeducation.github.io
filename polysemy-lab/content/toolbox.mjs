@@ -331,11 +331,8 @@ export default {
       "masked": "He keeps his hammer and screwdrivers in a ____.",
       "options": [
         "toolbox-mcq-01",
-        "toolbox-mcq-02",
-        "toolbox-mcq-03",
-        "toolbox-mcq-04",
         "toolbox-mcq-05",
-        "toolbox-mcq-06"
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「toolbox」指「用來存放、整理和攜帶工具的箱子；工具箱」。",
       "sentenceIndex": 2,
@@ -344,12 +341,9 @@ export default {
         "toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-01": "本句指「用來存放、整理和攜帶工具的箱子；工具箱」。",
-        "toolbox-mcq-02": "「可在不同情況下使用的一套方法、技巧或策略；方法庫／策略工具箱」與本句語境不同。",
-        "toolbox-mcq-03": "「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」與本句語境不同。",
-        "toolbox-mcq-04": "「老師可用於解釋、教學、管理和支援學生的一套教學策略」與本句語境不同。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。"
+        "toolbox-mcq-01": "本句的「toolbox」指「用來存放、整理和攜帶工具的箱子；工具箱」。",
+        "toolbox-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-01"
     },
@@ -361,11 +355,8 @@ export default {
       "masked": "She carried the ____ into the garage.",
       "options": [
         "toolbox-mcq-01",
-        "toolbox-mcq-02",
-        "toolbox-mcq-03",
-        "toolbox-mcq-04",
         "toolbox-mcq-05",
-        "toolbox-mcq-06"
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「toolbox」指「用來存放、整理和攜帶工具的箱子；工具箱」。",
       "sentenceIndex": 3,
@@ -374,12 +365,9 @@ export default {
         "toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-01": "本句指「用來存放、整理和攜帶工具的箱子；工具箱」。",
-        "toolbox-mcq-02": "「可在不同情況下使用的一套方法、技巧或策略；方法庫／策略工具箱」與本句語境不同。",
-        "toolbox-mcq-03": "「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」與本句語境不同。",
-        "toolbox-mcq-04": "「老師可用於解釋、教學、管理和支援學生的一套教學策略」與本句語境不同。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。"
+        "toolbox-mcq-01": "本句的「toolbox」指「用來存放、整理和攜帶工具的箱子；工具箱」。",
+        "toolbox-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-01"
     },
@@ -391,11 +379,8 @@ export default {
       "masked": "The technician brought a small ____.",
       "options": [
         "toolbox-mcq-01",
-        "toolbox-mcq-02",
-        "toolbox-mcq-03",
-        "toolbox-mcq-04",
-        "toolbox-mcq-05",
-        "toolbox-mcq-06"
+        "toolbox-mcq-06",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「portable toolbox」指「用來存放、整理和攜帶工具的箱子；工具箱」。",
       "sentenceIndex": 4,
@@ -404,12 +389,9 @@ export default {
         "portable toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-01": "本句指「用來存放、整理和攜帶工具的箱子；工具箱」。",
-        "toolbox-mcq-02": "「可在不同情況下使用的一套方法、技巧或策略；方法庫／策略工具箱」與本句語境不同。",
-        "toolbox-mcq-03": "「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」與本句語境不同。",
-        "toolbox-mcq-04": "「老師可用於解釋、教學、管理和支援學生的一套教學策略」與本句語境不同。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。"
+        "toolbox-mcq-01": "本句的「portable toolbox」指「用來存放、整理和攜帶工具的箱子；工具箱」。",
+        "toolbox-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-01"
     },
@@ -421,11 +403,8 @@ export default {
       "masked": "A ____ is useful for repair work.",
       "options": [
         "toolbox-mcq-01",
-        "toolbox-mcq-02",
-        "toolbox-mcq-03",
-        "toolbox-mcq-04",
-        "toolbox-mcq-05",
-        "toolbox-mcq-06"
+        "toolbox-mcq-12",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「portable toolbox」指「用來存放、整理和攜帶工具的箱子；工具箱」。",
       "sentenceIndex": 5,
@@ -434,12 +413,9 @@ export default {
         "portable toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-01": "本句指「用來存放、整理和攜帶工具的箱子；工具箱」。",
-        "toolbox-mcq-02": "「可在不同情況下使用的一套方法、技巧或策略；方法庫／策略工具箱」與本句語境不同。",
-        "toolbox-mcq-03": "「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」與本句語境不同。",
-        "toolbox-mcq-04": "「老師可用於解釋、教學、管理和支援學生的一套教學策略」與本句語境不同。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。"
+        "toolbox-mcq-01": "本句的「portable toolbox」指「用來存放、整理和攜帶工具的箱子；工具箱」。",
+        "toolbox-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-01"
     },
@@ -451,11 +427,7 @@ export default {
       "masked": "Teachers need a broad ____.",
       "options": [
         "toolbox-mcq-02",
-        "toolbox-mcq-01",
-        "toolbox-mcq-03",
-        "toolbox-mcq-04",
-        "toolbox-mcq-05",
-        "toolbox-mcq-06"
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「toolbox of methods」指「可在不同情況下使用的一套方法、技巧或策略；方法庫／策略工具箱」。",
       "sentenceIndex": 6,
@@ -464,12 +436,8 @@ export default {
         "toolbox of methods"
       ],
       "optionReasons": {
-        "toolbox-mcq-02": "本句指「可在不同情況下使用的一套方法、技巧或策略；方法庫／策略工具箱」。",
-        "toolbox-mcq-01": "「用來存放、整理和攜帶工具的箱子；工具箱」與本句語境不同。",
-        "toolbox-mcq-03": "「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」與本句語境不同。",
-        "toolbox-mcq-04": "「老師可用於解釋、教學、管理和支援學生的一套教學策略」與本句語境不同。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。"
+        "toolbox-mcq-02": "本句的「toolbox of methods」指「可在不同情況下使用的一套方法、技巧或策略；方法庫／策略工具箱」。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-02"
     },
@@ -481,11 +449,7 @@ export default {
       "masked": "Good communication adds another skill to your ____.",
       "options": [
         "toolbox-mcq-02",
-        "toolbox-mcq-01",
-        "toolbox-mcq-03",
-        "toolbox-mcq-04",
-        "toolbox-mcq-05",
-        "toolbox-mcq-06"
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「toolbox」指「可在不同情況下使用的一套方法、技巧或策略；方法庫／策略工具箱」。",
       "sentenceIndex": 7,
@@ -494,12 +458,8 @@ export default {
         "toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-02": "本句指「可在不同情況下使用的一套方法、技巧或策略；方法庫／策略工具箱」。",
-        "toolbox-mcq-01": "「用來存放、整理和攜帶工具的箱子；工具箱」與本句語境不同。",
-        "toolbox-mcq-03": "「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」與本句語境不同。",
-        "toolbox-mcq-04": "「老師可用於解釋、教學、管理和支援學生的一套教學策略」與本句語境不同。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。"
+        "toolbox-mcq-02": "本句的「toolbox」指「可在不同情況下使用的一套方法、技巧或策略；方法庫／策略工具箱」。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-02"
     },
@@ -511,11 +471,8 @@ export default {
       "masked": "Reading widely expands your ____.",
       "options": [
         "toolbox-mcq-03",
-        "toolbox-mcq-02",
-        "toolbox-mcq-04",
-        "toolbox-mcq-01",
-        "toolbox-mcq-05",
-        "toolbox-mcq-06"
+        "toolbox-mcq-08",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「mental toolbox」指「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」。",
       "sentenceIndex": 8,
@@ -524,12 +481,9 @@ export default {
         "mental toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-03": "本句指「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」。",
-        "toolbox-mcq-02": "「可在不同情況下使用的一套方法、技巧或策略；方法庫／策略工具箱」與本句語境不同。",
-        "toolbox-mcq-04": "「老師可用於解釋、教學、管理和支援學生的一套教學策略」與本句語境不同。",
-        "toolbox-mcq-01": "「用來存放、整理和攜帶工具的箱子；工具箱」與本句語境不同。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。"
+        "toolbox-mcq-03": "本句的「mental toolbox」指「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」。",
+        "toolbox-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-03"
     },
@@ -541,11 +495,8 @@ export default {
       "masked": "She had a rich ____ for explaining difficult concepts.",
       "options": [
         "toolbox-mcq-03",
-        "toolbox-mcq-02",
-        "toolbox-mcq-04",
-        "toolbox-mcq-01",
-        "toolbox-mcq-05",
-        "toolbox-mcq-06"
+        "toolbox-mcq-08",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「mental toolbox」指「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」。",
       "sentenceIndex": 9,
@@ -554,12 +505,9 @@ export default {
         "mental toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-03": "本句指「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」。",
-        "toolbox-mcq-02": "「可在不同情況下使用的一套方法、技巧或策略；方法庫／策略工具箱」與本句語境不同。",
-        "toolbox-mcq-04": "「老師可用於解釋、教學、管理和支援學生的一套教學策略」與本句語境不同。",
-        "toolbox-mcq-01": "「用來存放、整理和攜帶工具的箱子；工具箱」與本句語境不同。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。"
+        "toolbox-mcq-03": "本句的「mental toolbox」指「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」。",
+        "toolbox-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-03"
     },
@@ -571,11 +519,9 @@ export default {
       "masked": "Group work is one useful tool in a teacher’s ____.",
       "options": [
         "toolbox-mcq-04",
-        "toolbox-mcq-03",
         "toolbox-mcq-05",
-        "toolbox-mcq-02",
-        "toolbox-mcq-06",
-        "toolbox-mcq-01"
+        "toolbox-mcq-07",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「teaching toolbox」指「老師可用於解釋、教學、管理和支援學生的一套教學策略」。",
       "sentenceIndex": 10,
@@ -584,12 +530,10 @@ export default {
         "teaching toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-04": "本句指「老師可用於解釋、教學、管理和支援學生的一套教學策略」。",
-        "toolbox-mcq-03": "「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」與本句語境不同。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。",
-        "toolbox-mcq-02": "「可在不同情況下使用的一套方法、技巧或策略；方法庫／策略工具箱」與本句語境不同。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。",
-        "toolbox-mcq-01": "「用來存放、整理和攜帶工具的箱子；工具箱」與本句語境不同。"
+        "toolbox-mcq-04": "本句的「teaching toolbox」指「老師可用於解釋、教學、管理和支援學生的一套教學策略」。",
+        "toolbox-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-04"
     },
@@ -601,11 +545,9 @@ export default {
       "masked": "Experienced teachers usually develop a wider ____.",
       "options": [
         "toolbox-mcq-04",
-        "toolbox-mcq-03",
-        "toolbox-mcq-05",
-        "toolbox-mcq-02",
-        "toolbox-mcq-06",
-        "toolbox-mcq-01"
+        "toolbox-mcq-12",
+        "toolbox-mcq-07",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「teaching toolbox」指「老師可用於解釋、教學、管理和支援學生的一套教學策略」。",
       "sentenceIndex": 11,
@@ -614,12 +556,10 @@ export default {
         "teaching toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-04": "本句指「老師可用於解釋、教學、管理和支援學生的一套教學策略」。",
-        "toolbox-mcq-03": "「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」與本句語境不同。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。",
-        "toolbox-mcq-02": "「可在不同情況下使用的一套方法、技巧或策略；方法庫／策略工具箱」與本句語境不同。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。",
-        "toolbox-mcq-01": "「用來存放、整理和攜帶工具的箱子；工具箱」與本句語境不同。"
+        "toolbox-mcq-04": "本句的「teaching toolbox」指「老師可用於解釋、教學、管理和支援學生的一套教學策略」。",
+        "toolbox-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-04"
     },
@@ -631,11 +571,9 @@ export default {
       "masked": "Negotiation is an important skill in a manager’s ____.",
       "options": [
         "toolbox-mcq-05",
+        "toolbox-mcq-09",
         "toolbox-mcq-04",
-        "toolbox-mcq-06",
-        "toolbox-mcq-03",
-        "toolbox-mcq-07",
-        "toolbox-mcq-02"
+        "toolbox-mcq-07"
       ],
       "explanation": "本句的「toolbox」指「某專業人士可實際運用的技能、技巧與方法集合」。",
       "sentenceIndex": 12,
@@ -644,12 +582,10 @@ export default {
         "toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-05": "本句指「某專業人士可實際運用的技能、技巧與方法集合」。",
-        "toolbox-mcq-04": "「老師可用於解釋、教學、管理和支援學生的一套教學策略」與本句語境不同。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。",
-        "toolbox-mcq-03": "「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」與本句語境不同。",
-        "toolbox-mcq-07": "「軟體中集中放置不同功能或工具的工具面板／工具箱」與本句語境不同。",
-        "toolbox-mcq-02": "「可在不同情況下使用的一套方法、技巧或策略；方法庫／策略工具箱」與本句語境不同。"
+        "toolbox-mcq-05": "本句的「toolbox」指「某專業人士可實際運用的技能、技巧與方法集合」。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-05"
     },
@@ -661,11 +597,8 @@ export default {
       "masked": "Data analysis should be part of a researcher’s ____.",
       "options": [
         "toolbox-mcq-05",
-        "toolbox-mcq-04",
-        "toolbox-mcq-06",
-        "toolbox-mcq-03",
-        "toolbox-mcq-07",
-        "toolbox-mcq-02"
+        "toolbox-mcq-01",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「toolbox」指「某專業人士可實際運用的技能、技巧與方法集合」。",
       "sentenceIndex": 13,
@@ -674,12 +607,9 @@ export default {
         "toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-05": "本句指「某專業人士可實際運用的技能、技巧與方法集合」。",
-        "toolbox-mcq-04": "「老師可用於解釋、教學、管理和支援學生的一套教學策略」與本句語境不同。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。",
-        "toolbox-mcq-03": "「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」與本句語境不同。",
-        "toolbox-mcq-07": "「軟體中集中放置不同功能或工具的工具面板／工具箱」與本句語境不同。",
-        "toolbox-mcq-02": "「可在不同情況下使用的一套方法、技巧或策略；方法庫／策略工具箱」與本句語境不同。"
+        "toolbox-mcq-05": "本句的「toolbox」指「某專業人士可實際運用的技能、技巧與方法集合」。",
+        "toolbox-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-05"
     },
@@ -691,11 +621,8 @@ export default {
       "masked": "Learning to ask better questions adds another technique to your ____.",
       "options": [
         "toolbox-mcq-06",
-        "toolbox-mcq-05",
-        "toolbox-mcq-07",
-        "toolbox-mcq-04",
-        "toolbox-mcq-08",
-        "toolbox-mcq-03"
+        "toolbox-mcq-01",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「toolbox」指「學到並納入一項新的實用技能、方法或策略」。",
       "sentenceIndex": 14,
@@ -704,12 +631,9 @@ export default {
         "toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-06": "本句指「學到並納入一項新的實用技能、方法或策略」。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。",
-        "toolbox-mcq-07": "「軟體中集中放置不同功能或工具的工具面板／工具箱」與本句語境不同。",
-        "toolbox-mcq-04": "「老師可用於解釋、教學、管理和支援學生的一套教學策略」與本句語境不同。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。",
-        "toolbox-mcq-03": "「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」與本句語境不同。"
+        "toolbox-mcq-06": "本句的「toolbox」指「學到並納入一項新的實用技能、方法或策略」。",
+        "toolbox-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-06"
     },
@@ -721,11 +645,8 @@ export default {
       "masked": "Public speaking is a useful skill to add to your professional ____.",
       "options": [
         "toolbox-mcq-06",
-        "toolbox-mcq-05",
         "toolbox-mcq-07",
-        "toolbox-mcq-04",
-        "toolbox-mcq-08",
-        "toolbox-mcq-03"
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「toolbox」指「學到並納入一項新的實用技能、方法或策略」。",
       "sentenceIndex": 15,
@@ -734,12 +655,9 @@ export default {
         "toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-06": "本句指「學到並納入一項新的實用技能、方法或策略」。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。",
-        "toolbox-mcq-07": "「軟體中集中放置不同功能或工具的工具面板／工具箱」與本句語境不同。",
-        "toolbox-mcq-04": "「老師可用於解釋、教學、管理和支援學生的一套教學策略」與本句語境不同。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。",
-        "toolbox-mcq-03": "「一個人腦中可用來思考、解決問題和理解事物的方法與知識庫」與本句語境不同。"
+        "toolbox-mcq-06": "本句的「toolbox」指「學到並納入一項新的實用技能、方法或策略」。",
+        "toolbox-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-06"
     },
@@ -751,11 +669,8 @@ export default {
       "masked": "Select the shape tool from the ____.",
       "options": [
         "toolbox-mcq-07",
-        "toolbox-mcq-06",
-        "toolbox-mcq-08",
-        "toolbox-mcq-05",
-        "toolbox-mcq-09",
-        "toolbox-mcq-04"
+        "toolbox-mcq-11",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「toolbox」指「軟體中集中放置不同功能或工具的工具面板／工具箱」。",
       "sentenceIndex": 16,
@@ -764,12 +679,9 @@ export default {
         "toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-07": "本句指「軟體中集中放置不同功能或工具的工具面板／工具箱」。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。",
-        "toolbox-mcq-09": "「政策制定者可選用的一系列政策手段」與本句語境不同。",
-        "toolbox-mcq-04": "「老師可用於解釋、教學、管理和支援學生的一套教學策略」與本句語境不同。"
+        "toolbox-mcq-07": "本句的「toolbox」指「軟體中集中放置不同功能或工具的工具面板／工具箱」。",
+        "toolbox-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-07"
     },
@@ -781,11 +693,9 @@ export default {
       "masked": "The drawing program has a ____ on the left side of the screen.",
       "options": [
         "toolbox-mcq-07",
-        "toolbox-mcq-06",
-        "toolbox-mcq-08",
-        "toolbox-mcq-05",
-        "toolbox-mcq-09",
-        "toolbox-mcq-04"
+        "toolbox-mcq-03",
+        "toolbox-mcq-04",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「toolbox」指「軟體中集中放置不同功能或工具的工具面板／工具箱」。",
       "sentenceIndex": 17,
@@ -794,12 +704,10 @@ export default {
         "toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-07": "本句指「軟體中集中放置不同功能或工具的工具面板／工具箱」。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。",
-        "toolbox-mcq-09": "「政策制定者可選用的一系列政策手段」與本句語境不同。",
-        "toolbox-mcq-04": "「老師可用於解釋、教學、管理和支援學生的一套教學策略」與本句語境不同。"
+        "toolbox-mcq-07": "本句的「toolbox」指「軟體中集中放置不同功能或工具的工具面板／工具箱」。",
+        "toolbox-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-07"
     },
@@ -811,11 +719,8 @@ export default {
       "masked": "The program includes a statistical ____.",
       "options": [
         "toolbox-mcq-07",
-        "toolbox-mcq-06",
-        "toolbox-mcq-08",
-        "toolbox-mcq-05",
-        "toolbox-mcq-09",
-        "toolbox-mcq-04"
+        "toolbox-mcq-11",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「toolbox」指「軟體中集中放置不同功能或工具的工具面板／工具箱」。",
       "sentenceIndex": 18,
@@ -824,12 +729,9 @@ export default {
         "toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-07": "本句指「軟體中集中放置不同功能或工具的工具面板／工具箱」。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。",
-        "toolbox-mcq-09": "「政策制定者可選用的一系列政策手段」與本句語境不同。",
-        "toolbox-mcq-04": "「老師可用於解釋、教學、管理和支援學生的一套教學策略」與本句語境不同。"
+        "toolbox-mcq-07": "本句的「toolbox」指「軟體中集中放置不同功能或工具的工具面板／工具箱」。",
+        "toolbox-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-07"
     },
@@ -842,10 +744,7 @@ export default {
       "options": [
         "toolbox-mcq-07",
         "toolbox-mcq-06",
-        "toolbox-mcq-08",
-        "toolbox-mcq-05",
-        "toolbox-mcq-09",
-        "toolbox-mcq-04"
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「toolbox」指「軟體中集中放置不同功能或工具的工具面板／工具箱」。",
       "sentenceIndex": 19,
@@ -854,12 +753,9 @@ export default {
         "toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-07": "本句指「軟體中集中放置不同功能或工具的工具面板／工具箱」。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。",
-        "toolbox-mcq-09": "「政策制定者可選用的一系列政策手段」與本句語境不同。",
-        "toolbox-mcq-04": "「老師可用於解釋、教學、管理和支援學生的一套教學策略」與本句語境不同。"
+        "toolbox-mcq-07": "本句的「toolbox」指「軟體中集中放置不同功能或工具的工具面板／工具箱」。",
+        "toolbox-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-07"
     },
@@ -871,11 +767,8 @@ export default {
       "masked": "The software provides an image-processing ____.",
       "options": [
         "toolbox-mcq-08",
-        "toolbox-mcq-07",
-        "toolbox-mcq-09",
-        "toolbox-mcq-06",
-        "toolbox-mcq-10",
-        "toolbox-mcq-05"
+        "toolbox-mcq-03",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「toolbox」指「為特定技術工作提供的一套函式、模組或工具；工具套件」。",
       "sentenceIndex": 20,
@@ -884,12 +777,9 @@ export default {
         "toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-08": "本句指「為特定技術工作提供的一套函式、模組或工具；工具套件」。",
-        "toolbox-mcq-07": "「軟體中集中放置不同功能或工具的工具面板／工具箱」與本句語境不同。",
-        "toolbox-mcq-09": "「政策制定者可選用的一系列政策手段」與本句語境不同。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。",
-        "toolbox-mcq-10": "「主管可使用的管理技巧、方法與策略集合」與本句語境不同。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。"
+        "toolbox-mcq-08": "本句的「toolbox」指「為特定技術工作提供的一套函式、模組或工具；工具套件」。",
+        "toolbox-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-08"
     },
@@ -901,11 +791,8 @@ export default {
       "masked": "Researchers used a machine-learning ____.",
       "options": [
         "toolbox-mcq-08",
-        "toolbox-mcq-07",
-        "toolbox-mcq-09",
-        "toolbox-mcq-06",
-        "toolbox-mcq-10",
-        "toolbox-mcq-05"
+        "toolbox-mcq-11",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「toolbox」指「為特定技術工作提供的一套函式、模組或工具；工具套件」。",
       "sentenceIndex": 21,
@@ -914,12 +801,9 @@ export default {
         "toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-08": "本句指「為特定技術工作提供的一套函式、模組或工具；工具套件」。",
-        "toolbox-mcq-07": "「軟體中集中放置不同功能或工具的工具面板／工具箱」與本句語境不同。",
-        "toolbox-mcq-09": "「政策制定者可選用的一系列政策手段」與本句語境不同。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。",
-        "toolbox-mcq-10": "「主管可使用的管理技巧、方法與策略集合」與本句語境不同。",
-        "toolbox-mcq-05": "「某專業人士可實際運用的技能、技巧與方法集合」與本句語境不同。"
+        "toolbox-mcq-08": "本句的「toolbox」指「為特定技術工作提供的一套函式、模組或工具；工具套件」。",
+        "toolbox-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-08"
     },
@@ -931,11 +815,9 @@ export default {
       "masked": "Governments have several tools in the ____.",
       "options": [
         "toolbox-mcq-09",
-        "toolbox-mcq-08",
-        "toolbox-mcq-10",
+        "toolbox-mcq-05",
         "toolbox-mcq-07",
-        "toolbox-mcq-11",
-        "toolbox-mcq-06"
+        "toolbox-mcq-04"
       ],
       "explanation": "本句的「policy toolbox」指「政策制定者可選用的一系列政策手段」。",
       "sentenceIndex": 22,
@@ -944,12 +826,10 @@ export default {
         "policy toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-09": "本句指「政策制定者可選用的一系列政策手段」。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。",
-        "toolbox-mcq-10": "「主管可使用的管理技巧、方法與策略集合」與本句語境不同。",
-        "toolbox-mcq-07": "「軟體中集中放置不同功能或工具的工具面板／工具箱」與本句語境不同。",
-        "toolbox-mcq-11": "「從自己已有的方法中挑選一個適合當下情況的策略來使用」與本句語境不同。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。"
+        "toolbox-mcq-09": "本句的「policy toolbox」指「政策制定者可選用的一系列政策手段」。",
+        "toolbox-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-09"
     },
@@ -961,11 +841,9 @@ export default {
       "masked": "Regulation is only one part of the ____.",
       "options": [
         "toolbox-mcq-09",
-        "toolbox-mcq-08",
-        "toolbox-mcq-10",
         "toolbox-mcq-07",
-        "toolbox-mcq-11",
-        "toolbox-mcq-06"
+        "toolbox-mcq-12",
+        "toolbox-mcq-04"
       ],
       "explanation": "本句的「policy toolbox」指「政策制定者可選用的一系列政策手段」。",
       "sentenceIndex": 23,
@@ -974,12 +852,10 @@ export default {
         "policy toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-09": "本句指「政策制定者可選用的一系列政策手段」。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。",
-        "toolbox-mcq-10": "「主管可使用的管理技巧、方法與策略集合」與本句語境不同。",
-        "toolbox-mcq-07": "「軟體中集中放置不同功能或工具的工具面板／工具箱」與本句語境不同。",
-        "toolbox-mcq-11": "「從自己已有的方法中挑選一個適合當下情況的策略來使用」與本句語境不同。",
-        "toolbox-mcq-06": "「學到並納入一項新的實用技能、方法或策略」與本句語境不同。"
+        "toolbox-mcq-09": "本句的「policy toolbox」指「政策制定者可選用的一系列政策手段」。",
+        "toolbox-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-09"
     },
@@ -992,10 +868,7 @@ export default {
       "options": [
         "toolbox-mcq-10",
         "toolbox-mcq-09",
-        "toolbox-mcq-11",
-        "toolbox-mcq-08",
-        "toolbox-mcq-12",
-        "toolbox-mcq-07"
+        "toolbox-mcq-08"
       ],
       "explanation": "本句的「toolbox」指「主管可使用的管理技巧、方法與策略集合」。",
       "sentenceIndex": 24,
@@ -1004,12 +877,9 @@ export default {
         "toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-10": "本句指「主管可使用的管理技巧、方法與策略集合」。",
-        "toolbox-mcq-09": "「政策制定者可選用的一系列政策手段」與本句語境不同。",
-        "toolbox-mcq-11": "「從自己已有的方法中挑選一個適合當下情況的策略來使用」與本句語境不同。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。",
-        "toolbox-mcq-12": "「增加自己可運用的技能、方法或資源」與本句語境不同。",
-        "toolbox-mcq-07": "「軟體中集中放置不同功能或工具的工具面板／工具箱」與本句語境不同。"
+        "toolbox-mcq-10": "本句的「toolbox」指「主管可使用的管理技巧、方法與策略集合」。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-10"
     },
@@ -1021,11 +891,8 @@ export default {
       "masked": "Coaching belongs in every leader’s ____.",
       "options": [
         "toolbox-mcq-10",
-        "toolbox-mcq-09",
-        "toolbox-mcq-11",
-        "toolbox-mcq-08",
-        "toolbox-mcq-12",
-        "toolbox-mcq-07"
+        "toolbox-mcq-01",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「management toolbox」指「主管可使用的管理技巧、方法與策略集合」。",
       "sentenceIndex": 25,
@@ -1034,12 +901,9 @@ export default {
         "management toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-10": "本句指「主管可使用的管理技巧、方法與策略集合」。",
-        "toolbox-mcq-09": "「政策制定者可選用的一系列政策手段」與本句語境不同。",
-        "toolbox-mcq-11": "「從自己已有的方法中挑選一個適合當下情況的策略來使用」與本句語境不同。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。",
-        "toolbox-mcq-12": "「增加自己可運用的技能、方法或資源」與本句語境不同。",
-        "toolbox-mcq-07": "「軟體中集中放置不同功能或工具的工具面板／工具箱」與本句語境不同。"
+        "toolbox-mcq-10": "本句的「management toolbox」指「主管可使用的管理技巧、方法與策略集合」。",
+        "toolbox-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-10"
     },
@@ -1051,11 +915,8 @@ export default {
       "masked": "The guide provides a practical ____ for teachers.",
       "options": [
         "toolbox-mcq-13",
-        "toolbox-mcq-12",
-        "toolbox-mcq-11",
-        "toolbox-mcq-10",
         "toolbox-mcq-09",
-        "toolbox-mcq-08"
+        "toolbox-mcq-04"
       ],
       "explanation": "本句的「toolkit」指「為特定目的整理的一組工具、資源或方法；工具包」。",
       "sentenceIndex": 26,
@@ -1064,12 +925,9 @@ export default {
         "toolkit"
       ],
       "optionReasons": {
-        "toolbox-mcq-13": "本句指「為特定目的整理的一組工具、資源或方法；工具包」。",
-        "toolbox-mcq-12": "「增加自己可運用的技能、方法或資源」與本句語境不同。",
-        "toolbox-mcq-11": "「從自己已有的方法中挑選一個適合當下情況的策略來使用」與本句語境不同。",
-        "toolbox-mcq-10": "「主管可使用的管理技巧、方法與策略集合」與本句語境不同。",
-        "toolbox-mcq-09": "「政策制定者可選用的一系列政策手段」與本句語境不同。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。"
+        "toolbox-mcq-13": "本句的「toolkit」指「為特定目的整理的一組工具、資源或方法；工具包」。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-13"
     },
@@ -1081,11 +939,8 @@ export default {
       "masked": "Communication skills are part of a leader’s ____.",
       "options": [
         "toolbox-mcq-13",
-        "toolbox-mcq-12",
-        "toolbox-mcq-11",
-        "toolbox-mcq-10",
-        "toolbox-mcq-09",
-        "toolbox-mcq-08"
+        "toolbox-mcq-04",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「toolkit」指「為特定目的整理的一組工具、資源或方法；工具包」。",
       "sentenceIndex": 27,
@@ -1094,12 +949,9 @@ export default {
         "toolkit"
       ],
       "optionReasons": {
-        "toolbox-mcq-13": "本句指「為特定目的整理的一組工具、資源或方法；工具包」。",
-        "toolbox-mcq-12": "「增加自己可運用的技能、方法或資源」與本句語境不同。",
-        "toolbox-mcq-11": "「從自己已有的方法中挑選一個適合當下情況的策略來使用」與本句語境不同。",
-        "toolbox-mcq-10": "「主管可使用的管理技巧、方法與策略集合」與本句語境不同。",
-        "toolbox-mcq-09": "「政策制定者可選用的一系列政策手段」與本句語境不同。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。"
+        "toolbox-mcq-13": "本句的「toolkit」指「為特定目的整理的一組工具、資源或方法；工具包」。",
+        "toolbox-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-13"
     },
@@ -1111,11 +963,8 @@ export default {
       "masked": "It helps to have several explanation styles in your ____.",
       "options": [
         "toolbox-mcq-11",
-        "toolbox-mcq-10",
-        "toolbox-mcq-12",
-        "toolbox-mcq-09",
-        "toolbox-mcq-13",
-        "toolbox-mcq-08"
+        "toolbox-mcq-07",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「toolbox」指「從自己已有的方法中挑選一個適合當下情況的策略來使用」。",
       "sentenceIndex": 28,
@@ -1124,12 +973,9 @@ export default {
         "toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-11": "本句指「從自己已有的方法中挑選一個適合當下情況的策略來使用」。",
-        "toolbox-mcq-10": "「主管可使用的管理技巧、方法與策略集合」與本句語境不同。",
-        "toolbox-mcq-12": "「增加自己可運用的技能、方法或資源」與本句語境不同。",
-        "toolbox-mcq-09": "「政策制定者可選用的一系列政策手段」與本句語境不同。",
-        "toolbox-mcq-13": "「為特定目的整理的一組工具、資源或方法；工具包」與本句語境不同。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。"
+        "toolbox-mcq-11": "本句的「toolbox」指「從自己已有的方法中挑選一個適合當下情況的策略來使用」。",
+        "toolbox-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-11"
     },
@@ -1141,11 +987,8 @@ export default {
       "masked": "Patience is an important tool to have in your teaching ____.",
       "options": [
         "toolbox-mcq-11",
-        "toolbox-mcq-10",
-        "toolbox-mcq-12",
-        "toolbox-mcq-09",
-        "toolbox-mcq-13",
-        "toolbox-mcq-08"
+        "toolbox-mcq-07",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「toolbox」指「從自己已有的方法中挑選一個適合當下情況的策略來使用」。",
       "sentenceIndex": 29,
@@ -1154,12 +997,9 @@ export default {
         "toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-11": "本句指「從自己已有的方法中挑選一個適合當下情況的策略來使用」。",
-        "toolbox-mcq-10": "「主管可使用的管理技巧、方法與策略集合」與本句語境不同。",
-        "toolbox-mcq-12": "「增加自己可運用的技能、方法或資源」與本句語境不同。",
-        "toolbox-mcq-09": "「政策制定者可選用的一系列政策手段」與本句語境不同。",
-        "toolbox-mcq-13": "「為特定目的整理的一組工具、資源或方法；工具包」與本句語境不同。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。"
+        "toolbox-mcq-11": "本句的「toolbox」指「從自己已有的方法中挑選一個適合當下情況的策略來使用」。",
+        "toolbox-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-11"
     },
@@ -1171,11 +1011,8 @@ export default {
       "masked": "When students were confused, she could ____.",
       "options": [
         "toolbox-mcq-11",
-        "toolbox-mcq-10",
-        "toolbox-mcq-12",
-        "toolbox-mcq-09",
-        "toolbox-mcq-13",
-        "toolbox-mcq-08"
+        "toolbox-mcq-08",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「pull another strategy out of her toolbox」指「從自己已有的方法中挑選一個適合當下情況的策略來使用」。",
       "sentenceIndex": 30,
@@ -1184,12 +1021,9 @@ export default {
         "pull another strategy out of her toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-11": "本句指「從自己已有的方法中挑選一個適合當下情況的策略來使用」。",
-        "toolbox-mcq-10": "「主管可使用的管理技巧、方法與策略集合」與本句語境不同。",
-        "toolbox-mcq-12": "「增加自己可運用的技能、方法或資源」與本句語境不同。",
-        "toolbox-mcq-09": "「政策制定者可選用的一系列政策手段」與本句語境不同。",
-        "toolbox-mcq-13": "「為特定目的整理的一組工具、資源或方法；工具包」與本句語境不同。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。"
+        "toolbox-mcq-11": "本句的「pull another strategy out of her toolbox」指「從自己已有的方法中挑選一個適合當下情況的策略來使用」。",
+        "toolbox-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-11"
     },
@@ -1201,11 +1035,8 @@ export default {
       "masked": "Experienced speakers know which technique to ____.",
       "options": [
         "toolbox-mcq-11",
-        "toolbox-mcq-10",
-        "toolbox-mcq-12",
-        "toolbox-mcq-09",
-        "toolbox-mcq-13",
-        "toolbox-mcq-08"
+        "toolbox-mcq-08",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「pull out of the toolbox」指「從自己已有的方法中挑選一個適合當下情況的策略來使用」。",
       "sentenceIndex": 31,
@@ -1214,12 +1045,9 @@ export default {
         "pull out of the toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-11": "本句指「從自己已有的方法中挑選一個適合當下情況的策略來使用」。",
-        "toolbox-mcq-10": "「主管可使用的管理技巧、方法與策略集合」與本句語境不同。",
-        "toolbox-mcq-12": "「增加自己可運用的技能、方法或資源」與本句語境不同。",
-        "toolbox-mcq-09": "「政策制定者可選用的一系列政策手段」與本句語境不同。",
-        "toolbox-mcq-13": "「為特定目的整理的一組工具、資源或方法；工具包」與本句語境不同。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。"
+        "toolbox-mcq-11": "本句的「pull out of the toolbox」指「從自己已有的方法中挑選一個適合當下情況的策略來使用」。",
+        "toolbox-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-11"
     },
@@ -1231,11 +1059,8 @@ export default {
       "masked": "Training can help teachers ____.",
       "options": [
         "toolbox-mcq-12",
-        "toolbox-mcq-11",
-        "toolbox-mcq-13",
-        "toolbox-mcq-10",
-        "toolbox-mcq-09",
-        "toolbox-mcq-08"
+        "toolbox-mcq-01",
+        "toolbox-mcq-09"
       ],
       "explanation": "本句的「expand their toolbox」指「增加自己可運用的技能、方法或資源」。",
       "sentenceIndex": 32,
@@ -1244,12 +1069,9 @@ export default {
         "expand their toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-12": "本句指「增加自己可運用的技能、方法或資源」。",
-        "toolbox-mcq-11": "「從自己已有的方法中挑選一個適合當下情況的策略來使用」與本句語境不同。",
-        "toolbox-mcq-13": "「為特定目的整理的一組工具、資源或方法；工具包」與本句語境不同。",
-        "toolbox-mcq-10": "「主管可使用的管理技巧、方法與策略集合」與本句語境不同。",
-        "toolbox-mcq-09": "「政策制定者可選用的一系列政策手段」與本句語境不同。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。"
+        "toolbox-mcq-12": "本句的「expand their toolbox」指「增加自己可運用的技能、方法或資源」。",
+        "toolbox-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-12"
     },
@@ -1261,11 +1083,9 @@ export default {
       "masked": "Working with different people ____.",
       "options": [
         "toolbox-mcq-12",
-        "toolbox-mcq-11",
-        "toolbox-mcq-13",
-        "toolbox-mcq-10",
+        "toolbox-mcq-07",
         "toolbox-mcq-09",
-        "toolbox-mcq-08"
+        "toolbox-mcq-04"
       ],
       "explanation": "本句的「expanded my toolbox」指「增加自己可運用的技能、方法或資源」。",
       "sentenceIndex": 33,
@@ -1274,12 +1094,10 @@ export default {
         "expanded my toolbox"
       ],
       "optionReasons": {
-        "toolbox-mcq-12": "本句指「增加自己可運用的技能、方法或資源」。",
-        "toolbox-mcq-11": "「從自己已有的方法中挑選一個適合當下情況的策略來使用」與本句語境不同。",
-        "toolbox-mcq-13": "「為特定目的整理的一組工具、資源或方法；工具包」與本句語境不同。",
-        "toolbox-mcq-10": "「主管可使用的管理技巧、方法與策略集合」與本句語境不同。",
-        "toolbox-mcq-09": "「政策制定者可選用的一系列政策手段」與本句語境不同。",
-        "toolbox-mcq-08": "「為特定技術工作提供的一套函式、模組或工具；工具套件」與本句語境不同。"
+        "toolbox-mcq-12": "本句的「expanded my toolbox」指「增加自己可運用的技能、方法或資源」。",
+        "toolbox-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "toolbox-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "toolbox-mcq-12"
     }
@@ -1291,5 +1109,7 @@ export default {
     "sha256": "03e1f383a9cb31a0c953837d7307f191d16edd70adfa022d25eac3d74189e6b2",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

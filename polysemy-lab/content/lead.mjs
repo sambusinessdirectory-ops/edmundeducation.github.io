@@ -687,11 +687,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "lead-mcq-01",
-        "lead-mcq-02",
-        "lead-mcq-03",
-        "lead-mcq-04",
-        "lead-mcq-05",
-        "lead-mcq-06"
+        "lead-mcq-18",
+        "lead-mcq-16",
+        "lead-mcq-11"
       ],
       "explanation": "本句的「led us to the meeting room」指「帶領某人前往某處；在前面引導方向」。",
       "sentenceIndex": 0,
@@ -700,12 +698,10 @@ export default {
         "led us to the meeting room"
       ],
       "optionReasons": {
-        "lead-mcq-01": "本句指「帶領某人前往某處；在前面引導方向」。",
-        "lead-mcq-02": "「走在前面帶路；比喻率先行動或走在領先位置」與本句語境不同。",
-        "lead-mcq-03": "「某條道路、路徑或入口通往某地」與本句語境不同。",
-        "lead-mcq-04": "「負責指揮、帶領或領導一群人／組織」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。"
+        "lead-mcq-01": "本句的「led us to the meeting room」指「帶領某人前往某處；在前面引導方向」。",
+        "lead-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-01"
     },
@@ -717,11 +713,9 @@ export default {
       "masked": "The guide ____.",
       "options": [
         "lead-mcq-01",
-        "lead-mcq-02",
-        "lead-mcq-03",
-        "lead-mcq-04",
-        "lead-mcq-05",
-        "lead-mcq-06"
+        "lead-mcq-18",
+        "lead-mcq-11",
+        "lead-mcq-16"
       ],
       "explanation": "本句的「led the group through the forest」指「帶領某人前往某處；在前面引導方向」。",
       "sentenceIndex": 1,
@@ -730,12 +724,10 @@ export default {
         "led the group through the forest"
       ],
       "optionReasons": {
-        "lead-mcq-01": "本句指「帶領某人前往某處；在前面引導方向」。",
-        "lead-mcq-02": "「走在前面帶路；比喻率先行動或走在領先位置」與本句語境不同。",
-        "lead-mcq-03": "「某條道路、路徑或入口通往某地」與本句語境不同。",
-        "lead-mcq-04": "「負責指揮、帶領或領導一群人／組織」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。"
+        "lead-mcq-01": "本句的「led the group through the forest」指「帶領某人前往某處；在前面引導方向」。",
+        "lead-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-01"
     },
@@ -747,11 +739,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "lead-mcq-01",
-        "lead-mcq-02",
-        "lead-mcq-03",
-        "lead-mcq-04",
-        "lead-mcq-05",
-        "lead-mcq-06"
+        "lead-mcq-21",
+        "lead-mcq-11",
+        "lead-mcq-16"
       ],
       "explanation": "本句的「led me upstairs」指「帶領某人前往某處；在前面引導方向」。",
       "sentenceIndex": 2,
@@ -760,12 +750,10 @@ export default {
         "led me upstairs"
       ],
       "optionReasons": {
-        "lead-mcq-01": "本句指「帶領某人前往某處；在前面引導方向」。",
-        "lead-mcq-02": "「走在前面帶路；比喻率先行動或走在領先位置」與本句語境不同。",
-        "lead-mcq-03": "「某條道路、路徑或入口通往某地」與本句語境不同。",
-        "lead-mcq-04": "「負責指揮、帶領或領導一群人／組織」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。"
+        "lead-mcq-01": "本句的「led me upstairs」指「帶領某人前往某處；在前面引導方向」。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-01"
     },
@@ -777,11 +765,9 @@ export default {
       "masked": "The path ____.",
       "options": [
         "lead-mcq-01",
-        "lead-mcq-02",
-        "lead-mcq-03",
-        "lead-mcq-04",
-        "lead-mcq-05",
-        "lead-mcq-06"
+        "lead-mcq-16",
+        "lead-mcq-11",
+        "lead-mcq-18"
       ],
       "explanation": "本句的「leads visitors to the lake」指「帶領某人前往某處；在前面引導方向」。",
       "sentenceIndex": 3,
@@ -790,12 +776,10 @@ export default {
         "leads visitors to the lake"
       ],
       "optionReasons": {
-        "lead-mcq-01": "本句指「帶領某人前往某處；在前面引導方向」。",
-        "lead-mcq-02": "「走在前面帶路；比喻率先行動或走在領先位置」與本句語境不同。",
-        "lead-mcq-03": "「某條道路、路徑或入口通往某地」與本句語境不同。",
-        "lead-mcq-04": "「負責指揮、帶領或領導一群人／組織」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。"
+        "lead-mcq-01": "本句的「leads visitors to the lake」指「帶領某人前往某處；在前面引導方向」。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-01"
     },
@@ -807,11 +791,9 @@ export default {
       "masked": "I don’t know the route, so you ____.",
       "options": [
         "lead-mcq-02",
-        "lead-mcq-01",
-        "lead-mcq-03",
-        "lead-mcq-04",
-        "lead-mcq-05",
-        "lead-mcq-06"
+        "lead-mcq-11",
+        "lead-mcq-20",
+        "lead-mcq-12"
       ],
       "explanation": "本句的「lead the way」指「走在前面帶路；比喻率先行動或走在領先位置」。",
       "sentenceIndex": 4,
@@ -820,12 +802,10 @@ export default {
         "lead the way"
       ],
       "optionReasons": {
-        "lead-mcq-02": "本句指「走在前面帶路；比喻率先行動或走在領先位置」。",
-        "lead-mcq-01": "「帶領某人前往某處；在前面引導方向」與本句語境不同。",
-        "lead-mcq-03": "「某條道路、路徑或入口通往某地」與本句語境不同。",
-        "lead-mcq-04": "「負責指揮、帶領或領導一群人／組織」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。"
+        "lead-mcq-02": "本句的「lead the way」指「走在前面帶路；比喻率先行動或走在領先位置」。",
+        "lead-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-02"
     },
@@ -837,11 +817,9 @@ export default {
       "masked": "She ____ through the narrow passage.",
       "options": [
         "lead-mcq-02",
-        "lead-mcq-01",
-        "lead-mcq-03",
-        "lead-mcq-04",
-        "lead-mcq-05",
-        "lead-mcq-06"
+        "lead-mcq-27",
+        "lead-mcq-12",
+        "lead-mcq-17"
       ],
       "explanation": "本句的「led the way」指「走在前面帶路；比喻率先行動或走在領先位置」。",
       "sentenceIndex": 5,
@@ -850,12 +828,10 @@ export default {
         "led the way"
       ],
       "optionReasons": {
-        "lead-mcq-02": "本句指「走在前面帶路；比喻率先行動或走在領先位置」。",
-        "lead-mcq-01": "「帶領某人前往某處；在前面引導方向」與本句語境不同。",
-        "lead-mcq-03": "「某條道路、路徑或入口通往某地」與本句語境不同。",
-        "lead-mcq-04": "「負責指揮、帶領或領導一群人／組織」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。"
+        "lead-mcq-02": "本句的「led the way」指「走在前面帶路；比喻率先行動或走在領先位置」。",
+        "lead-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-02"
     },
@@ -867,11 +843,9 @@ export default {
       "masked": "This road ____.",
       "options": [
         "lead-mcq-03",
-        "lead-mcq-02",
-        "lead-mcq-04",
-        "lead-mcq-01",
-        "lead-mcq-05",
-        "lead-mcq-06"
+        "lead-mcq-26",
+        "lead-mcq-21",
+        "lead-mcq-23"
       ],
       "explanation": "本句的「leads to the village」指「某條道路、路徑或入口通往某地」。",
       "sentenceIndex": 6,
@@ -880,12 +854,10 @@ export default {
         "leads to the village"
       ],
       "optionReasons": {
-        "lead-mcq-03": "本句指「某條道路、路徑或入口通往某地」。",
-        "lead-mcq-02": "「走在前面帶路；比喻率先行動或走在領先位置」與本句語境不同。",
-        "lead-mcq-04": "「負責指揮、帶領或領導一群人／組織」與本句語境不同。",
-        "lead-mcq-01": "「帶領某人前往某處；在前面引導方向」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。"
+        "lead-mcq-03": "本句的「leads to the village」指「某條道路、路徑或入口通往某地」。",
+        "lead-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-03"
     },
@@ -897,11 +869,9 @@ export default {
       "masked": "The stairs ____.",
       "options": [
         "lead-mcq-03",
-        "lead-mcq-02",
-        "lead-mcq-04",
-        "lead-mcq-01",
-        "lead-mcq-05",
-        "lead-mcq-06"
+        "lead-mcq-23",
+        "lead-mcq-12",
+        "lead-mcq-21"
       ],
       "explanation": "本句的「lead to the second floor」指「某條道路、路徑或入口通往某地」。",
       "sentenceIndex": 7,
@@ -910,12 +880,10 @@ export default {
         "lead to the second floor"
       ],
       "optionReasons": {
-        "lead-mcq-03": "本句指「某條道路、路徑或入口通往某地」。",
-        "lead-mcq-02": "「走在前面帶路；比喻率先行動或走在領先位置」與本句語境不同。",
-        "lead-mcq-04": "「負責指揮、帶領或領導一群人／組織」與本句語境不同。",
-        "lead-mcq-01": "「帶領某人前往某處；在前面引導方向」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。"
+        "lead-mcq-03": "本句的「lead to the second floor」指「某條道路、路徑或入口通往某地」。",
+        "lead-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-03"
     },
@@ -927,11 +895,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "lead-mcq-04",
+        "lead-mcq-21",
         "lead-mcq-03",
-        "lead-mcq-05",
-        "lead-mcq-02",
-        "lead-mcq-06",
-        "lead-mcq-01"
+        "lead-mcq-22"
       ],
       "explanation": "本句的「leads a team of twenty people」指「負責指揮、帶領或領導一群人／組織」。",
       "sentenceIndex": 10,
@@ -940,12 +906,10 @@ export default {
         "leads a team of twenty people"
       ],
       "optionReasons": {
-        "lead-mcq-04": "本句指「負責指揮、帶領或領導一群人／組織」。",
-        "lead-mcq-03": "「某條道路、路徑或入口通往某地」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-02": "「走在前面帶路；比喻率先行動或走在領先位置」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。",
-        "lead-mcq-01": "「帶領某人前往某處；在前面引導方向」與本句語境不同。"
+        "lead-mcq-04": "本句的「leads a team of twenty people」指「負責指揮、帶領或領導一群人／組織」。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-04"
     },
@@ -957,11 +921,9 @@ export default {
       "masked": "He was chosen to ____.",
       "options": [
         "lead-mcq-04",
-        "lead-mcq-03",
-        "lead-mcq-05",
-        "lead-mcq-02",
-        "lead-mcq-06",
-        "lead-mcq-01"
+        "lead-mcq-18",
+        "lead-mcq-16",
+        "lead-mcq-05"
       ],
       "explanation": "本句的「lead the project」指「負責指揮、帶領或領導一群人／組織」。",
       "sentenceIndex": 11,
@@ -970,12 +932,10 @@ export default {
         "lead the project"
       ],
       "optionReasons": {
-        "lead-mcq-04": "本句指「負責指揮、帶領或領導一群人／組織」。",
-        "lead-mcq-03": "「某條道路、路徑或入口通往某地」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-02": "「走在前面帶路；比喻率先行動或走在領先位置」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。",
-        "lead-mcq-01": "「帶領某人前往某處；在前面引導方向」與本句語境不同。"
+        "lead-mcq-04": "本句的「lead the project」指「負責指揮、帶領或領導一群人／組織」。",
+        "lead-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-04"
     },
@@ -987,11 +947,9 @@ export default {
       "masked": "She now ____.",
       "options": [
         "lead-mcq-04",
-        "lead-mcq-03",
-        "lead-mcq-05",
-        "lead-mcq-02",
-        "lead-mcq-06",
-        "lead-mcq-01"
+        "lead-mcq-16",
+        "lead-mcq-18",
+        "lead-mcq-05"
       ],
       "explanation": "本句的「leads the company’s design division」指「負責指揮、帶領或領導一群人／組織」。",
       "sentenceIndex": 12,
@@ -1000,12 +958,10 @@ export default {
         "leads the company’s design division"
       ],
       "optionReasons": {
-        "lead-mcq-04": "本句指「負責指揮、帶領或領導一群人／組織」。",
-        "lead-mcq-03": "「某條道路、路徑或入口通往某地」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-02": "「走在前面帶路；比喻率先行動或走在領先位置」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。",
-        "lead-mcq-01": "「帶領某人前往某處；在前面引導方向」與本句語境不同。"
+        "lead-mcq-04": "本句的「leads the company’s design division」指「負責指揮、帶領或領導一群人／組織」。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-04"
     },
@@ -1017,11 +973,9 @@ export default {
       "masked": "He has ____ for five years.",
       "options": [
         "lead-mcq-04",
-        "lead-mcq-03",
-        "lead-mcq-05",
-        "lead-mcq-02",
-        "lead-mcq-06",
-        "lead-mcq-01"
+        "lead-mcq-21",
+        "lead-mcq-18",
+        "lead-mcq-22"
       ],
       "explanation": "本句的「led the organization」指「負責指揮、帶領或領導一群人／組織」。",
       "sentenceIndex": 13,
@@ -1030,12 +984,10 @@ export default {
         "led the organization"
       ],
       "optionReasons": {
-        "lead-mcq-04": "本句指「負責指揮、帶領或領導一群人／組織」。",
-        "lead-mcq-03": "「某條道路、路徑或入口通往某地」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-02": "「走在前面帶路；比喻率先行動或走在領先位置」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。",
-        "lead-mcq-01": "「帶領某人前往某處；在前面引導方向」與本句語境不同。"
+        "lead-mcq-04": "本句的「led the organization」指「負責指揮、帶領或領導一群人／組織」。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-04"
     },
@@ -1047,11 +999,9 @@ export default {
       "masked": "Good managers ____.",
       "options": [
         "lead-mcq-05",
-        "lead-mcq-04",
-        "lead-mcq-06",
+        "lead-mcq-13",
         "lead-mcq-03",
-        "lead-mcq-07",
-        "lead-mcq-02"
+        "lead-mcq-18"
       ],
       "explanation": "本句的「lead by example」指「透過自己的行動示範應有的行為；以身作則」。",
       "sentenceIndex": 14,
@@ -1060,12 +1010,10 @@ export default {
         "lead by example"
       ],
       "optionReasons": {
-        "lead-mcq-05": "本句指「透過自己的行動示範應有的行為；以身作則」。",
-        "lead-mcq-04": "「負責指揮、帶領或領導一群人／組織」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。",
-        "lead-mcq-03": "「某條道路、路徑或入口通往某地」與本句語境不同。",
-        "lead-mcq-07": "「促使、影響或使某人採取某項行動」與本句語境不同。",
-        "lead-mcq-02": "「走在前面帶路；比喻率先行動或走在領先位置」與本句語境不同。"
+        "lead-mcq-05": "本句的「lead by example」指「透過自己的行動示範應有的行為；以身作則」。",
+        "lead-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-05"
     },
@@ -1077,11 +1025,9 @@ export default {
       "masked": "She encourages honesty by ____.",
       "options": [
         "lead-mcq-05",
-        "lead-mcq-04",
-        "lead-mcq-06",
         "lead-mcq-03",
-        "lead-mcq-07",
-        "lead-mcq-02"
+        "lead-mcq-14",
+        "lead-mcq-16"
       ],
       "explanation": "本句的「leading by example」指「透過自己的行動示範應有的行為；以身作則」。",
       "sentenceIndex": 15,
@@ -1090,12 +1036,10 @@ export default {
         "leading by example"
       ],
       "optionReasons": {
-        "lead-mcq-05": "本句指「透過自己的行動示範應有的行為；以身作則」。",
-        "lead-mcq-04": "「負責指揮、帶領或領導一群人／組織」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。",
-        "lead-mcq-03": "「某條道路、路徑或入口通往某地」與本句語境不同。",
-        "lead-mcq-07": "「促使、影響或使某人採取某項行動」與本句語境不同。",
-        "lead-mcq-02": "「走在前面帶路；比喻率先行動或走在領先位置」與本句語境不同。"
+        "lead-mcq-05": "本句的「leading by example」指「透過自己的行動示範應有的行為；以身作則」。",
+        "lead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-05"
     },
@@ -1107,11 +1051,9 @@ export default {
       "masked": "Poor communication can ____.",
       "options": [
         "lead-mcq-06",
-        "lead-mcq-05",
-        "lead-mcq-07",
-        "lead-mcq-04",
-        "lead-mcq-08",
-        "lead-mcq-03"
+        "lead-mcq-18",
+        "lead-mcq-10",
+        "lead-mcq-22"
       ],
       "explanation": "本句的「lead to misunderstandings」指「某件事造成、促成或導致後面的結果」。",
       "sentenceIndex": 16,
@@ -1120,12 +1062,10 @@ export default {
         "lead to misunderstandings"
       ],
       "optionReasons": {
-        "lead-mcq-06": "本句指「某件事造成、促成或導致後面的結果」。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-07": "「促使、影響或使某人採取某項行動」與本句語境不同。",
-        "lead-mcq-04": "「負責指揮、帶領或領導一群人／組織」與本句語境不同。",
-        "lead-mcq-08": "「使某人形成某種看法、信念或判斷」與本句語境不同。",
-        "lead-mcq-03": "「某條道路、路徑或入口通往某地」與本句語境不同。"
+        "lead-mcq-06": "本句的「lead to misunderstandings」指「某件事造成、促成或導致後面的結果」。",
+        "lead-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-06"
     },
@@ -1137,10 +1077,8 @@ export default {
       "masked": "Lack of sleep may ____.",
       "options": [
         "lead-mcq-06",
-        "lead-mcq-05",
-        "lead-mcq-07",
-        "lead-mcq-04",
-        "lead-mcq-08",
+        "lead-mcq-21",
+        "lead-mcq-25",
         "lead-mcq-03"
       ],
       "explanation": "本句的「lead to poor concentration」指「某件事造成、促成或導致後面的結果」。",
@@ -1150,12 +1088,10 @@ export default {
         "lead to poor concentration"
       ],
       "optionReasons": {
-        "lead-mcq-06": "本句指「某件事造成、促成或導致後面的結果」。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-07": "「促使、影響或使某人採取某項行動」與本句語境不同。",
-        "lead-mcq-04": "「負責指揮、帶領或領導一群人／組織」與本句語境不同。",
-        "lead-mcq-08": "「使某人形成某種看法、信念或判斷」與本句語境不同。",
-        "lead-mcq-03": "「某條道路、路徑或入口通往某地」與本句語境不同。"
+        "lead-mcq-06": "本句的「lead to poor concentration」指「某件事造成、促成或導致後面的結果」。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-06"
     },
@@ -1167,11 +1103,9 @@ export default {
       "masked": "Her encouragement ____ for the programme.",
       "options": [
         "lead-mcq-07",
-        "lead-mcq-06",
-        "lead-mcq-08",
-        "lead-mcq-05",
-        "lead-mcq-09",
-        "lead-mcq-04"
+        "lead-mcq-27",
+        "lead-mcq-16",
+        "lead-mcq-12"
       ],
       "explanation": "本句的「led me to apply」指「促使、影響或使某人採取某項行動」。",
       "sentenceIndex": 18,
@@ -1180,12 +1114,10 @@ export default {
         "led me to apply"
       ],
       "optionReasons": {
-        "lead-mcq-07": "本句指「促使、影響或使某人採取某項行動」。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。",
-        "lead-mcq-08": "「使某人形成某種看法、信念或判斷」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-09": "「在比賽、排名或數值比較中處於領先位置」與本句語境不同。",
-        "lead-mcq-04": "「負責指揮、帶領或領導一群人／組織」與本句語境不同。"
+        "lead-mcq-07": "本句的「led me to apply」指「促使、影響或使某人採取某項行動」。",
+        "lead-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-07"
     },
@@ -1197,11 +1129,9 @@ export default {
       "masked": "The evidence ____ the original explanation.",
       "options": [
         "lead-mcq-07",
-        "lead-mcq-06",
-        "lead-mcq-08",
-        "lead-mcq-05",
-        "lead-mcq-09",
-        "lead-mcq-04"
+        "lead-mcq-26",
+        "lead-mcq-16",
+        "lead-mcq-22"
       ],
       "explanation": "本句的「led investigators to question」指「促使、影響或使某人採取某項行動」。",
       "sentenceIndex": 19,
@@ -1210,12 +1140,10 @@ export default {
         "led investigators to question"
       ],
       "optionReasons": {
-        "lead-mcq-07": "本句指「促使、影響或使某人採取某項行動」。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。",
-        "lead-mcq-08": "「使某人形成某種看法、信念或判斷」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-09": "「在比賽、排名或數值比較中處於領先位置」與本句語境不同。",
-        "lead-mcq-04": "「負責指揮、帶領或領導一群人／組織」與本句語境不同。"
+        "lead-mcq-07": "本句的「led investigators to question」指「促使、影響或使某人採取某項行動」。",
+        "lead-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-07"
     },
@@ -1227,11 +1155,9 @@ export default {
       "masked": "His tone ____ that something was wrong.",
       "options": [
         "lead-mcq-08",
-        "lead-mcq-07",
-        "lead-mcq-09",
-        "lead-mcq-06",
-        "lead-mcq-10",
-        "lead-mcq-05"
+        "lead-mcq-24",
+        "lead-mcq-03",
+        "lead-mcq-22"
       ],
       "explanation": "本句的「led me to believe」指「使某人形成某種看法、信念或判斷」。",
       "sentenceIndex": 20,
@@ -1240,12 +1166,10 @@ export default {
         "led me to believe"
       ],
       "optionReasons": {
-        "lead-mcq-08": "本句指「使某人形成某種看法、信念或判斷」。",
-        "lead-mcq-07": "「促使、影響或使某人採取某項行動」與本句語境不同。",
-        "lead-mcq-09": "「在比賽、排名或數值比較中處於領先位置」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。",
-        "lead-mcq-10": "「在某個領域中處於最先進或最優秀的位置」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。"
+        "lead-mcq-08": "本句的「led me to believe」指「使某人形成某種看法、信念或判斷」。",
+        "lead-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-08"
     },
@@ -1257,11 +1181,9 @@ export default {
       "masked": "The results ____ that the method was effective.",
       "options": [
         "lead-mcq-08",
-        "lead-mcq-07",
-        "lead-mcq-09",
-        "lead-mcq-06",
-        "lead-mcq-10",
-        "lead-mcq-05"
+        "lead-mcq-24",
+        "lead-mcq-20",
+        "lead-mcq-12"
       ],
       "explanation": "本句的「led researchers to conclude」指「使某人形成某種看法、信念或判斷」。",
       "sentenceIndex": 21,
@@ -1270,12 +1192,10 @@ export default {
         "led researchers to conclude"
       ],
       "optionReasons": {
-        "lead-mcq-08": "本句指「使某人形成某種看法、信念或判斷」。",
-        "lead-mcq-07": "「促使、影響或使某人採取某項行動」與本句語境不同。",
-        "lead-mcq-09": "「在比賽、排名或數值比較中處於領先位置」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。",
-        "lead-mcq-10": "「在某個領域中處於最先進或最優秀的位置」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。"
+        "lead-mcq-08": "本句的「led researchers to conclude」指「使某人形成某種看法、信念或判斷」。",
+        "lead-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-08"
     },
@@ -1287,11 +1207,9 @@ export default {
       "masked": "Her advice ____.",
       "options": [
         "lead-mcq-08",
-        "lead-mcq-07",
-        "lead-mcq-09",
-        "lead-mcq-06",
-        "lead-mcq-10",
-        "lead-mcq-05"
+        "lead-mcq-20",
+        "lead-mcq-02",
+        "lead-mcq-03"
       ],
       "explanation": "本句的「led me in a better direction」指「使某人形成某種看法、信念或判斷」。",
       "sentenceIndex": 22,
@@ -1300,12 +1218,10 @@ export default {
         "led me in a better direction"
       ],
       "optionReasons": {
-        "lead-mcq-08": "本句指「使某人形成某種看法、信念或判斷」。",
-        "lead-mcq-07": "「促使、影響或使某人採取某項行動」與本句語境不同。",
-        "lead-mcq-09": "「在比賽、排名或數值比較中處於領先位置」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。",
-        "lead-mcq-10": "「在某個領域中處於最先進或最優秀的位置」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。"
+        "lead-mcq-08": "本句的「led me in a better direction」指「使某人形成某種看法、信念或判斷」。",
+        "lead-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-08"
     },
@@ -1317,11 +1233,9 @@ export default {
       "masked": "Good feedback can ____.",
       "options": [
         "lead-mcq-08",
-        "lead-mcq-07",
-        "lead-mcq-09",
-        "lead-mcq-06",
-        "lead-mcq-10",
-        "lead-mcq-05"
+        "lead-mcq-11",
+        "lead-mcq-20",
+        "lead-mcq-24"
       ],
       "explanation": "本句的「lead students toward greater confidence」指「使某人形成某種看法、信念或判斷」。",
       "sentenceIndex": 23,
@@ -1330,12 +1244,10 @@ export default {
         "lead students toward greater confidence"
       ],
       "optionReasons": {
-        "lead-mcq-08": "本句指「使某人形成某種看法、信念或判斷」。",
-        "lead-mcq-07": "「促使、影響或使某人採取某項行動」與本句語境不同。",
-        "lead-mcq-09": "「在比賽、排名或數值比較中處於領先位置」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。",
-        "lead-mcq-10": "「在某個領域中處於最先進或最優秀的位置」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。"
+        "lead-mcq-08": "本句的「lead students toward greater confidence」指「使某人形成某種看法、信念或判斷」。",
+        "lead-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-08"
     },
@@ -1347,11 +1259,9 @@ export default {
       "masked": "She ____ from the beginning.",
       "options": [
         "lead-mcq-09",
-        "lead-mcq-08",
-        "lead-mcq-10",
-        "lead-mcq-07",
-        "lead-mcq-11",
-        "lead-mcq-06"
+        "lead-mcq-16",
+        "lead-mcq-05",
+        "lead-mcq-03"
       ],
       "explanation": "本句的「led the race」指「在比賽、排名或數值比較中處於領先位置」。",
       "sentenceIndex": 24,
@@ -1360,12 +1270,10 @@ export default {
         "led the race"
       ],
       "optionReasons": {
-        "lead-mcq-09": "本句指「在比賽、排名或數值比較中處於領先位置」。",
-        "lead-mcq-08": "「使某人形成某種看法、信念或判斷」與本句語境不同。",
-        "lead-mcq-10": "「在某個領域中處於最先進或最優秀的位置」與本句語境不同。",
-        "lead-mcq-07": "「促使、影響或使某人採取某項行動」與本句語境不同。",
-        "lead-mcq-11": "「過某種特定方式的生活」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。"
+        "lead-mcq-09": "本句的「led the race」指「在比賽、排名或數值比較中處於領先位置」。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-09"
     },
@@ -1377,10 +1285,8 @@ export default {
       "masked": "Our team ____ at half-time.",
       "options": [
         "lead-mcq-09",
-        "lead-mcq-08",
-        "lead-mcq-10",
-        "lead-mcq-07",
-        "lead-mcq-11",
+        "lead-mcq-17",
+        "lead-mcq-22",
         "lead-mcq-06"
       ],
       "explanation": "本句的「led by two points」指「在比賽、排名或數值比較中處於領先位置」。",
@@ -1390,12 +1296,10 @@ export default {
         "led by two points"
       ],
       "optionReasons": {
-        "lead-mcq-09": "本句指「在比賽、排名或數值比較中處於領先位置」。",
-        "lead-mcq-08": "「使某人形成某種看法、信念或判斷」與本句語境不同。",
-        "lead-mcq-10": "「在某個領域中處於最先進或最優秀的位置」與本句語境不同。",
-        "lead-mcq-07": "「促使、影響或使某人採取某項行動」與本句語境不同。",
-        "lead-mcq-11": "「過某種特定方式的生活」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。"
+        "lead-mcq-09": "本句的「led by two points」指「在比賽、排名或數值比較中處於領先位置」。",
+        "lead-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-09"
     },
@@ -1407,11 +1311,9 @@ export default {
       "masked": "The team ____.",
       "options": [
         "lead-mcq-09",
-        "lead-mcq-08",
-        "lead-mcq-10",
-        "lead-mcq-07",
-        "lead-mcq-11",
-        "lead-mcq-06"
+        "lead-mcq-12",
+        "lead-mcq-16",
+        "lead-mcq-26"
       ],
       "explanation": "本句的「leads by ten points」指「在比賽、排名或數值比較中處於領先位置」。",
       "sentenceIndex": 26,
@@ -1420,12 +1322,10 @@ export default {
         "leads by ten points"
       ],
       "optionReasons": {
-        "lead-mcq-09": "本句指「在比賽、排名或數值比較中處於領先位置」。",
-        "lead-mcq-08": "「使某人形成某種看法、信念或判斷」與本句語境不同。",
-        "lead-mcq-10": "「在某個領域中處於最先進或最優秀的位置」與本句語境不同。",
-        "lead-mcq-07": "「促使、影響或使某人採取某項行動」與本句語境不同。",
-        "lead-mcq-11": "「過某種特定方式的生活」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。"
+        "lead-mcq-09": "本句的「leads by ten points」指「在比賽、排名或數值比較中處於領先位置」。",
+        "lead-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-09"
     },
@@ -1437,11 +1337,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "lead-mcq-09",
-        "lead-mcq-08",
-        "lead-mcq-10",
+        "lead-mcq-27",
         "lead-mcq-07",
-        "lead-mcq-11",
-        "lead-mcq-06"
+        "lead-mcq-03"
       ],
       "explanation": "本句的「led by three seconds」指「在比賽、排名或數值比較中處於領先位置」。",
       "sentenceIndex": 27,
@@ -1450,12 +1348,10 @@ export default {
         "led by three seconds"
       ],
       "optionReasons": {
-        "lead-mcq-09": "本句指「在比賽、排名或數值比較中處於領先位置」。",
-        "lead-mcq-08": "「使某人形成某種看法、信念或判斷」與本句語境不同。",
-        "lead-mcq-10": "「在某個領域中處於最先進或最優秀的位置」與本句語境不同。",
-        "lead-mcq-07": "「促使、影響或使某人採取某項行動」與本句語境不同。",
-        "lead-mcq-11": "「過某種特定方式的生活」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。"
+        "lead-mcq-09": "本句的「led by three seconds」指「在比賽、排名或數值比較中處於領先位置」。",
+        "lead-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-09"
     },
@@ -1467,11 +1363,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "lead-mcq-10",
-        "lead-mcq-09",
-        "lead-mcq-11",
-        "lead-mcq-08",
-        "lead-mcq-12",
-        "lead-mcq-07"
+        "lead-mcq-20",
+        "lead-mcq-27",
+        "lead-mcq-22"
       ],
       "explanation": "本句的「leads the field in battery technology」指「在某個領域中處於最先進或最優秀的位置」。",
       "sentenceIndex": 28,
@@ -1480,12 +1374,10 @@ export default {
         "leads the field in battery technology"
       ],
       "optionReasons": {
-        "lead-mcq-10": "本句指「在某個領域中處於最先進或最優秀的位置」。",
-        "lead-mcq-09": "「在比賽、排名或數值比較中處於領先位置」與本句語境不同。",
-        "lead-mcq-11": "「過某種特定方式的生活」與本句語境不同。",
-        "lead-mcq-08": "「使某人形成某種看法、信念或判斷」與本句語境不同。",
-        "lead-mcq-12": "「主持、引導會議或討論」與本句語境不同。",
-        "lead-mcq-07": "「促使、影響或使某人採取某項行動」與本句語境不同。"
+        "lead-mcq-10": "本句的「leads the field in battery technology」指「在某個領域中處於最先進或最優秀的位置」。",
+        "lead-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-10"
     },
@@ -1497,11 +1389,9 @@ export default {
       "masked": "She ____ in this area of research.",
       "options": [
         "lead-mcq-10",
-        "lead-mcq-09",
-        "lead-mcq-11",
-        "lead-mcq-08",
         "lead-mcq-12",
-        "lead-mcq-07"
+        "lead-mcq-03",
+        "lead-mcq-06"
       ],
       "explanation": "本句的「leads the field」指「在某個領域中處於最先進或最優秀的位置」。",
       "sentenceIndex": 29,
@@ -1510,12 +1400,10 @@ export default {
         "leads the field"
       ],
       "optionReasons": {
-        "lead-mcq-10": "本句指「在某個領域中處於最先進或最優秀的位置」。",
-        "lead-mcq-09": "「在比賽、排名或數值比較中處於領先位置」與本句語境不同。",
-        "lead-mcq-11": "「過某種特定方式的生活」與本句語境不同。",
-        "lead-mcq-08": "「使某人形成某種看法、信念或判斷」與本句語境不同。",
-        "lead-mcq-12": "「主持、引導會議或討論」與本句語境不同。",
-        "lead-mcq-07": "「促使、影響或使某人採取某項行動」與本句語境不同。"
+        "lead-mcq-10": "本句的「leads the field」指「在某個領域中處於最先進或最優秀的位置」。",
+        "lead-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-10"
     },
@@ -1527,11 +1415,9 @@ export default {
       "masked": "He ____ in the countryside.",
       "options": [
         "lead-mcq-11",
-        "lead-mcq-10",
-        "lead-mcq-12",
-        "lead-mcq-09",
-        "lead-mcq-13",
-        "lead-mcq-08"
+        "lead-mcq-20",
+        "lead-mcq-03",
+        "lead-mcq-25"
       ],
       "explanation": "本句的「leads a quiet life」指「過某種特定方式的生活」。",
       "sentenceIndex": 30,
@@ -1540,12 +1426,10 @@ export default {
         "leads a quiet life"
       ],
       "optionReasons": {
-        "lead-mcq-11": "本句指「過某種特定方式的生活」。",
-        "lead-mcq-10": "「在某個領域中處於最先進或最優秀的位置」與本句語境不同。",
-        "lead-mcq-12": "「主持、引導會議或討論」與本句語境不同。",
-        "lead-mcq-09": "「在比賽、排名或數值比較中處於領先位置」與本句語境不同。",
-        "lead-mcq-13": "「領先位置；處於其他人前面」與本句語境不同。",
-        "lead-mcq-08": "「使某人形成某種看法、信念或判斷」與本句語境不同。"
+        "lead-mcq-11": "本句的「leads a quiet life」指「過某種特定方式的生活」。",
+        "lead-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-11"
     },
@@ -1557,11 +1441,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "lead-mcq-11",
-        "lead-mcq-10",
-        "lead-mcq-12",
-        "lead-mcq-09",
-        "lead-mcq-13",
-        "lead-mcq-08"
+        "lead-mcq-03",
+        "lead-mcq-24",
+        "lead-mcq-21"
       ],
       "explanation": "本句的「led a very active life」指「過某種特定方式的生活」。",
       "sentenceIndex": 31,
@@ -1570,12 +1452,10 @@ export default {
         "led a very active life"
       ],
       "optionReasons": {
-        "lead-mcq-11": "本句指「過某種特定方式的生活」。",
-        "lead-mcq-10": "「在某個領域中處於最先進或最優秀的位置」與本句語境不同。",
-        "lead-mcq-12": "「主持、引導會議或討論」與本句語境不同。",
-        "lead-mcq-09": "「在比賽、排名或數值比較中處於領先位置」與本句語境不同。",
-        "lead-mcq-13": "「領先位置；處於其他人前面」與本句語境不同。",
-        "lead-mcq-08": "「使某人形成某種看法、信念或判斷」與本句語境不同。"
+        "lead-mcq-11": "本句的「led a very active life」指「過某種特定方式的生活」。",
+        "lead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-11"
     },
@@ -1587,11 +1467,9 @@ export default {
       "masked": "After treatment, he was able to ____.",
       "options": [
         "lead-mcq-11",
-        "lead-mcq-10",
-        "lead-mcq-12",
-        "lead-mcq-09",
-        "lead-mcq-13",
-        "lead-mcq-08"
+        "lead-mcq-17",
+        "lead-mcq-20",
+        "lead-mcq-12"
       ],
       "explanation": "本句的「lead a normal life」指「過某種特定方式的生活」。",
       "sentenceIndex": 32,
@@ -1600,12 +1478,10 @@ export default {
         "lead a normal life"
       ],
       "optionReasons": {
-        "lead-mcq-11": "本句指「過某種特定方式的生活」。",
-        "lead-mcq-10": "「在某個領域中處於最先進或最優秀的位置」與本句語境不同。",
-        "lead-mcq-12": "「主持、引導會議或討論」與本句語境不同。",
-        "lead-mcq-09": "「在比賽、排名或數值比較中處於領先位置」與本句語境不同。",
-        "lead-mcq-13": "「領先位置；處於其他人前面」與本句語境不同。",
-        "lead-mcq-08": "「使某人形成某種看法、信念或判斷」與本句語境不同。"
+        "lead-mcq-11": "本句的「lead a normal life」指「過某種特定方式的生活」。",
+        "lead-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-11"
     },
@@ -1617,11 +1493,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "lead-mcq-11",
-        "lead-mcq-10",
-        "lead-mcq-12",
+        "lead-mcq-08",
         "lead-mcq-09",
-        "lead-mcq-13",
-        "lead-mcq-08"
+        "lead-mcq-20"
       ],
       "explanation": "本句的「leads a healthy lifestyle」指「過某種特定方式的生活」。",
       "sentenceIndex": 33,
@@ -1630,12 +1504,10 @@ export default {
         "leads a healthy lifestyle"
       ],
       "optionReasons": {
-        "lead-mcq-11": "本句指「過某種特定方式的生活」。",
-        "lead-mcq-10": "「在某個領域中處於最先進或最優秀的位置」與本句語境不同。",
-        "lead-mcq-12": "「主持、引導會議或討論」與本句語境不同。",
-        "lead-mcq-09": "「在比賽、排名或數值比較中處於領先位置」與本句語境不同。",
-        "lead-mcq-13": "「領先位置；處於其他人前面」與本句語境不同。",
-        "lead-mcq-08": "「使某人形成某種看法、信念或判斷」與本句語境不同。"
+        "lead-mcq-11": "本句的「leads a healthy lifestyle」指「過某種特定方式的生活」。",
+        "lead-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-11"
     },
@@ -1647,11 +1519,9 @@ export default {
       "masked": "She ____ confidently.",
       "options": [
         "lead-mcq-12",
-        "lead-mcq-11",
-        "lead-mcq-13",
+        "lead-mcq-22",
         "lead-mcq-10",
-        "lead-mcq-14",
-        "lead-mcq-09"
+        "lead-mcq-08"
       ],
       "explanation": "本句的「led the discussion」指「主持、引導會議或討論」。",
       "sentenceIndex": 34,
@@ -1660,12 +1530,10 @@ export default {
         "led the discussion"
       ],
       "optionReasons": {
-        "lead-mcq-12": "本句指「主持、引導會議或討論」。",
-        "lead-mcq-11": "「過某種特定方式的生活」與本句語境不同。",
-        "lead-mcq-13": "「領先位置；處於其他人前面」與本句語境不同。",
-        "lead-mcq-10": "「在某個領域中處於最先進或最優秀的位置」與本句語境不同。",
-        "lead-mcq-14": "「取得領先位置」與本句語境不同。",
-        "lead-mcq-09": "「在比賽、排名或數值比較中處於領先位置」與本句語境不同。"
+        "lead-mcq-12": "本句的「led the discussion」指「主持、引導會議或討論」。",
+        "lead-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-12"
     },
@@ -1677,11 +1545,9 @@ export default {
       "masked": "He will ____ tomorrow.",
       "options": [
         "lead-mcq-12",
-        "lead-mcq-11",
         "lead-mcq-13",
-        "lead-mcq-10",
-        "lead-mcq-14",
-        "lead-mcq-09"
+        "lead-mcq-16",
+        "lead-mcq-21"
       ],
       "explanation": "本句的「lead the meeting」指「主持、引導會議或討論」。",
       "sentenceIndex": 35,
@@ -1690,12 +1556,10 @@ export default {
         "lead the meeting"
       ],
       "optionReasons": {
-        "lead-mcq-12": "本句指「主持、引導會議或討論」。",
-        "lead-mcq-11": "「過某種特定方式的生活」與本句語境不同。",
-        "lead-mcq-13": "「領先位置；處於其他人前面」與本句語境不同。",
-        "lead-mcq-10": "「在某個領域中處於最先進或最優秀的位置」與本句語境不同。",
-        "lead-mcq-14": "「取得領先位置」與本句語境不同。",
-        "lead-mcq-09": "「在比賽、排名或數值比較中處於領先位置」與本句語境不同。"
+        "lead-mcq-12": "本句的「lead the meeting」指「主持、引導會議或討論」。",
+        "lead-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-12"
     },
@@ -1707,11 +1571,9 @@ export default {
       "masked": "Our team took ____ in the second half.",
       "options": [
         "lead-mcq-13",
+        "lead-mcq-21",
         "lead-mcq-12",
-        "lead-mcq-14",
-        "lead-mcq-11",
-        "lead-mcq-15",
-        "lead-mcq-10"
+        "lead-mcq-06"
       ],
       "explanation": "本句的「the lead」指「領先位置；處於其他人前面」。",
       "sentenceIndex": 38,
@@ -1720,12 +1582,10 @@ export default {
         "the lead"
       ],
       "optionReasons": {
-        "lead-mcq-13": "本句指「領先位置；處於其他人前面」。",
-        "lead-mcq-12": "「主持、引導會議或討論」與本句語境不同。",
-        "lead-mcq-14": "「取得領先位置」與本句語境不同。",
-        "lead-mcq-11": "「過某種特定方式的生活」與本句語境不同。",
-        "lead-mcq-15": "「主動帶頭、承擔主要領導責任」與本句語境不同。",
-        "lead-mcq-10": "「在某個領域中處於最先進或最優秀的位置」與本句語境不同。"
+        "lead-mcq-13": "本句的「the lead」指「領先位置；處於其他人前面」。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-13"
     },
@@ -1737,11 +1597,9 @@ export default {
       "masked": "She is currently in ____.",
       "options": [
         "lead-mcq-13",
-        "lead-mcq-12",
-        "lead-mcq-14",
-        "lead-mcq-11",
-        "lead-mcq-15",
-        "lead-mcq-10"
+        "lead-mcq-27",
+        "lead-mcq-20",
+        "lead-mcq-11"
       ],
       "explanation": "本句的「the lead」指「領先位置；處於其他人前面」。",
       "sentenceIndex": 39,
@@ -1750,12 +1608,10 @@ export default {
         "the lead"
       ],
       "optionReasons": {
-        "lead-mcq-13": "本句指「領先位置；處於其他人前面」。",
-        "lead-mcq-12": "「主持、引導會議或討論」與本句語境不同。",
-        "lead-mcq-14": "「取得領先位置」與本句語境不同。",
-        "lead-mcq-11": "「過某種特定方式的生活」與本句語境不同。",
-        "lead-mcq-15": "「主動帶頭、承擔主要領導責任」與本句語境不同。",
-        "lead-mcq-10": "「在某個領域中處於最先進或最優秀的位置」與本句語境不同。"
+        "lead-mcq-13": "本句的「the lead」指「領先位置；處於其他人前面」。",
+        "lead-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-13"
     },
@@ -1767,11 +1623,9 @@ export default {
       "masked": "The team ____ until the end.",
       "options": [
         "lead-mcq-14",
-        "lead-mcq-13",
-        "lead-mcq-15",
-        "lead-mcq-12",
         "lead-mcq-16",
-        "lead-mcq-11"
+        "lead-mcq-18",
+        "lead-mcq-22"
       ],
       "explanation": "本句的「held the lead」指「取得領先位置」。",
       "sentenceIndex": 40,
@@ -1780,12 +1634,10 @@ export default {
         "held the lead"
       ],
       "optionReasons": {
-        "lead-mcq-14": "本句指「取得領先位置」。",
-        "lead-mcq-13": "「領先位置；處於其他人前面」與本句語境不同。",
-        "lead-mcq-15": "「主動帶頭、承擔主要領導責任」與本句語境不同。",
-        "lead-mcq-12": "「主持、引導會議或討論」與本句語境不同。",
-        "lead-mcq-16": "「可以幫助調查、搜尋或解決問題的線索」與本句語境不同。",
-        "lead-mcq-11": "「過某種特定方式的生活」與本句語境不同。"
+        "lead-mcq-14": "本句的「held the lead」指「取得領先位置」。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-14"
     },
@@ -1797,11 +1649,9 @@ export default {
       "masked": "She has a narrow ____ over her nearest competitor.",
       "options": [
         "lead-mcq-14",
-        "lead-mcq-13",
-        "lead-mcq-15",
-        "lead-mcq-12",
-        "lead-mcq-16",
-        "lead-mcq-11"
+        "lead-mcq-27",
+        "lead-mcq-21",
+        "lead-mcq-03"
       ],
       "explanation": "本句的「lead」指「取得領先位置」。",
       "sentenceIndex": 41,
@@ -1810,12 +1660,10 @@ export default {
         "lead"
       ],
       "optionReasons": {
-        "lead-mcq-14": "本句指「取得領先位置」。",
-        "lead-mcq-13": "「領先位置；處於其他人前面」與本句語境不同。",
-        "lead-mcq-15": "「主動帶頭、承擔主要領導責任」與本句語境不同。",
-        "lead-mcq-12": "「主持、引導會議或討論」與本句語境不同。",
-        "lead-mcq-16": "「可以幫助調查、搜尋或解決問題的線索」與本句語境不同。",
-        "lead-mcq-11": "「過某種特定方式的生活」與本句語境不同。"
+        "lead-mcq-14": "本句的「lead」指「取得領先位置」。",
+        "lead-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-14"
     },
@@ -1827,11 +1675,9 @@ export default {
       "masked": "Police are following several ____.",
       "options": [
         "lead-mcq-16",
-        "lead-mcq-15",
-        "lead-mcq-17",
-        "lead-mcq-14",
-        "lead-mcq-18",
-        "lead-mcq-13"
+        "lead-mcq-06",
+        "lead-mcq-07",
+        "lead-mcq-25"
       ],
       "explanation": "本句的「leads」指「可以幫助調查、搜尋或解決問題的線索」。",
       "sentenceIndex": 42,
@@ -1840,12 +1686,10 @@ export default {
         "leads"
       ],
       "optionReasons": {
-        "lead-mcq-16": "本句指「可以幫助調查、搜尋或解決問題的線索」。",
-        "lead-mcq-15": "「主動帶頭、承擔主要領導責任」與本句語境不同。",
-        "lead-mcq-17": "「可能成為顧客的人／組織；銷售線索」與本句語境不同。",
-        "lead-mcq-14": "「取得領先位置」與本句語境不同。",
-        "lead-mcq-18": "「電影、戲劇等作品中的主要角色；主角」與本句語境不同。",
-        "lead-mcq-13": "「領先位置；處於其他人前面」與本句語境不同。"
+        "lead-mcq-16": "本句的「leads」指「可以幫助調查、搜尋或解決問題的線索」。",
+        "lead-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-16"
     },
@@ -1857,11 +1701,9 @@ export default {
       "masked": "The phone record gave investigators a new ____.",
       "options": [
         "lead-mcq-16",
-        "lead-mcq-15",
-        "lead-mcq-17",
-        "lead-mcq-14",
-        "lead-mcq-18",
-        "lead-mcq-13"
+        "lead-mcq-11",
+        "lead-mcq-23",
+        "lead-mcq-09"
       ],
       "explanation": "本句的「lead」指「可以幫助調查、搜尋或解決問題的線索」。",
       "sentenceIndex": 43,
@@ -1870,12 +1712,10 @@ export default {
         "lead"
       ],
       "optionReasons": {
-        "lead-mcq-16": "本句指「可以幫助調查、搜尋或解決問題的線索」。",
-        "lead-mcq-15": "「主動帶頭、承擔主要領導責任」與本句語境不同。",
-        "lead-mcq-17": "「可能成為顧客的人／組織；銷售線索」與本句語境不同。",
-        "lead-mcq-14": "「取得領先位置」與本句語境不同。",
-        "lead-mcq-18": "「電影、戲劇等作品中的主要角色；主角」與本句語境不同。",
-        "lead-mcq-13": "「領先位置；處於其他人前面」與本句語境不同。"
+        "lead-mcq-16": "本句的「lead」指「可以幫助調查、搜尋或解決問題的線索」。",
+        "lead-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-16"
     },
@@ -1887,11 +1727,9 @@ export default {
       "masked": "Detectives are ____.",
       "options": [
         "lead-mcq-16",
-        "lead-mcq-15",
-        "lead-mcq-17",
-        "lead-mcq-14",
-        "lead-mcq-18",
-        "lead-mcq-13"
+        "lead-mcq-21",
+        "lead-mcq-25",
+        "lead-mcq-05"
       ],
       "explanation": "本句的「following up a lead」指「可以幫助調查、搜尋或解決問題的線索」。",
       "sentenceIndex": 44,
@@ -1900,12 +1738,10 @@ export default {
         "following up a lead"
       ],
       "optionReasons": {
-        "lead-mcq-16": "本句指「可以幫助調查、搜尋或解決問題的線索」。",
-        "lead-mcq-15": "「主動帶頭、承擔主要領導責任」與本句語境不同。",
-        "lead-mcq-17": "「可能成為顧客的人／組織；銷售線索」與本句語境不同。",
-        "lead-mcq-14": "「取得領先位置」與本句語境不同。",
-        "lead-mcq-18": "「電影、戲劇等作品中的主要角色；主角」與本句語境不同。",
-        "lead-mcq-13": "「領先位置；處於其他人前面」與本句語境不同。"
+        "lead-mcq-16": "本句的「following up a lead」指「可以幫助調查、搜尋或解決問題的線索」。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-16"
     },
@@ -1917,11 +1753,9 @@ export default {
       "masked": "The journalist ____ and found new evidence.",
       "options": [
         "lead-mcq-16",
-        "lead-mcq-15",
-        "lead-mcq-17",
-        "lead-mcq-14",
-        "lead-mcq-18",
-        "lead-mcq-13"
+        "lead-mcq-03",
+        "lead-mcq-07",
+        "lead-mcq-25"
       ],
       "explanation": "本句的「followed up the lead」指「可以幫助調查、搜尋或解決問題的線索」。",
       "sentenceIndex": 45,
@@ -1930,12 +1764,10 @@ export default {
         "followed up the lead"
       ],
       "optionReasons": {
-        "lead-mcq-16": "本句指「可以幫助調查、搜尋或解決問題的線索」。",
-        "lead-mcq-15": "「主動帶頭、承擔主要領導責任」與本句語境不同。",
-        "lead-mcq-17": "「可能成為顧客的人／組織；銷售線索」與本句語境不同。",
-        "lead-mcq-14": "「取得領先位置」與本句語境不同。",
-        "lead-mcq-18": "「電影、戲劇等作品中的主要角色；主角」與本句語境不同。",
-        "lead-mcq-13": "「領先位置；處於其他人前面」與本句語境不同。"
+        "lead-mcq-16": "本句的「followed up the lead」指「可以幫助調查、搜尋或解決問題的線索」。",
+        "lead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-16"
     },
@@ -1947,11 +1779,9 @@ export default {
       "masked": "The campaign generated hundreds of new ____.",
       "options": [
         "lead-mcq-17",
-        "lead-mcq-16",
-        "lead-mcq-18",
-        "lead-mcq-15",
-        "lead-mcq-19",
-        "lead-mcq-14"
+        "lead-mcq-24",
+        "lead-mcq-22",
+        "lead-mcq-21"
       ],
       "explanation": "本句的「leads」指「可能成為顧客的人／組織；銷售線索」。",
       "sentenceIndex": 46,
@@ -1960,12 +1790,10 @@ export default {
         "leads"
       ],
       "optionReasons": {
-        "lead-mcq-17": "本句指「可能成為顧客的人／組織；銷售線索」。",
-        "lead-mcq-16": "「可以幫助調查、搜尋或解決問題的線索」與本句語境不同。",
-        "lead-mcq-18": "「電影、戲劇等作品中的主要角色；主角」與本句語境不同。",
-        "lead-mcq-15": "「主動帶頭、承擔主要領導責任」與本句語境不同。",
-        "lead-mcq-19": "「新聞報導中概括最重要資訊的開頭／導語」與本句語境不同。",
-        "lead-mcq-14": "「取得領先位置」與本句語境不同。"
+        "lead-mcq-17": "本句的「leads」指「可能成為顧客的人／組織；銷售線索」。",
+        "lead-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-17"
     },
@@ -1977,11 +1805,9 @@ export default {
       "masked": "The sales team contacted promising ____.",
       "options": [
         "lead-mcq-17",
-        "lead-mcq-16",
-        "lead-mcq-18",
-        "lead-mcq-15",
-        "lead-mcq-19",
-        "lead-mcq-14"
+        "lead-mcq-03",
+        "lead-mcq-02",
+        "lead-mcq-18"
       ],
       "explanation": "本句的「leads」指「可能成為顧客的人／組織；銷售線索」。",
       "sentenceIndex": 47,
@@ -1990,12 +1816,10 @@ export default {
         "leads"
       ],
       "optionReasons": {
-        "lead-mcq-17": "本句指「可能成為顧客的人／組織；銷售線索」。",
-        "lead-mcq-16": "「可以幫助調查、搜尋或解決問題的線索」與本句語境不同。",
-        "lead-mcq-18": "「電影、戲劇等作品中的主要角色；主角」與本句語境不同。",
-        "lead-mcq-15": "「主動帶頭、承擔主要領導責任」與本句語境不同。",
-        "lead-mcq-19": "「新聞報導中概括最重要資訊的開頭／導語」與本句語境不同。",
-        "lead-mcq-14": "「取得領先位置」與本句語境不同。"
+        "lead-mcq-17": "本句的「leads」指「可能成為顧客的人／組織；銷售線索」。",
+        "lead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-17"
     },
@@ -2007,11 +1831,9 @@ export default {
       "masked": "The website generates ____.",
       "options": [
         "lead-mcq-17",
-        "lead-mcq-16",
+        "lead-mcq-05",
         "lead-mcq-18",
-        "lead-mcq-15",
-        "lead-mcq-19",
-        "lead-mcq-14"
+        "lead-mcq-21"
       ],
       "explanation": "本句的「sales leads」指「可能成為顧客的人／組織；銷售線索」。",
       "sentenceIndex": 48,
@@ -2020,12 +1842,10 @@ export default {
         "sales leads"
       ],
       "optionReasons": {
-        "lead-mcq-17": "本句指「可能成為顧客的人／組織；銷售線索」。",
-        "lead-mcq-16": "「可以幫助調查、搜尋或解決問題的線索」與本句語境不同。",
-        "lead-mcq-18": "「電影、戲劇等作品中的主要角色；主角」與本句語境不同。",
-        "lead-mcq-15": "「主動帶頭、承擔主要領導責任」與本句語境不同。",
-        "lead-mcq-19": "「新聞報導中概括最重要資訊的開頭／導語」與本句語境不同。",
-        "lead-mcq-14": "「取得領先位置」與本句語境不同。"
+        "lead-mcq-17": "本句的「sales leads」指「可能成為顧客的人／組織；銷售線索」。",
+        "lead-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-17"
     },
@@ -2037,11 +1857,9 @@ export default {
       "masked": "Each ____ is assigned to a representative.",
       "options": [
         "lead-mcq-17",
-        "lead-mcq-16",
+        "lead-mcq-26",
         "lead-mcq-18",
-        "lead-mcq-15",
-        "lead-mcq-19",
-        "lead-mcq-14"
+        "lead-mcq-09"
       ],
       "explanation": "本句的「sales lead」指「可能成為顧客的人／組織；銷售線索」。",
       "sentenceIndex": 49,
@@ -2050,12 +1868,10 @@ export default {
         "sales lead"
       ],
       "optionReasons": {
-        "lead-mcq-17": "本句指「可能成為顧客的人／組織；銷售線索」。",
-        "lead-mcq-16": "「可以幫助調查、搜尋或解決問題的線索」與本句語境不同。",
-        "lead-mcq-18": "「電影、戲劇等作品中的主要角色；主角」與本句語境不同。",
-        "lead-mcq-15": "「主動帶頭、承擔主要領導責任」與本句語境不同。",
-        "lead-mcq-19": "「新聞報導中概括最重要資訊的開頭／導語」與本句語境不同。",
-        "lead-mcq-14": "「取得領先位置」與本句語境不同。"
+        "lead-mcq-17": "本句的「sales lead」指「可能成為顧客的人／組織；銷售線索」。",
+        "lead-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-17"
     },
@@ -2067,11 +1883,9 @@ export default {
       "masked": "She plays ____ in the new film.",
       "options": [
         "lead-mcq-18",
-        "lead-mcq-17",
-        "lead-mcq-19",
-        "lead-mcq-16",
-        "lead-mcq-20",
-        "lead-mcq-15"
+        "lead-mcq-26",
+        "lead-mcq-05",
+        "lead-mcq-14"
       ],
       "explanation": "本句的「the lead」指「電影、戲劇等作品中的主要角色；主角」。",
       "sentenceIndex": 50,
@@ -2080,12 +1894,10 @@ export default {
         "the lead"
       ],
       "optionReasons": {
-        "lead-mcq-18": "本句指「電影、戲劇等作品中的主要角色；主角」。",
-        "lead-mcq-17": "「可能成為顧客的人／組織；銷售線索」與本句語境不同。",
-        "lead-mcq-19": "「新聞報導中概括最重要資訊的開頭／導語」與本句語境不同。",
-        "lead-mcq-16": "「可以幫助調查、搜尋或解決問題的線索」與本句語境不同。",
-        "lead-mcq-20": "「連接電氣設備的導線／連接線」與本句語境不同。",
-        "lead-mcq-15": "「主動帶頭、承擔主要領導責任」與本句語境不同。"
+        "lead-mcq-18": "本句的「the lead」指「電影、戲劇等作品中的主要角色；主角」。",
+        "lead-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-18"
     },
@@ -2098,10 +1910,8 @@ export default {
       "options": [
         "lead-mcq-18",
         "lead-mcq-17",
-        "lead-mcq-19",
-        "lead-mcq-16",
-        "lead-mcq-20",
-        "lead-mcq-15"
+        "lead-mcq-27",
+        "lead-mcq-09"
       ],
       "explanation": "本句的「the lead role」指「電影、戲劇等作品中的主要角色；主角」。",
       "sentenceIndex": 51,
@@ -2110,12 +1920,10 @@ export default {
         "the lead role"
       ],
       "optionReasons": {
-        "lead-mcq-18": "本句指「電影、戲劇等作品中的主要角色；主角」。",
-        "lead-mcq-17": "「可能成為顧客的人／組織；銷售線索」與本句語境不同。",
-        "lead-mcq-19": "「新聞報導中概括最重要資訊的開頭／導語」與本句語境不同。",
-        "lead-mcq-16": "「可以幫助調查、搜尋或解決問題的線索」與本句語境不同。",
-        "lead-mcq-20": "「連接電氣設備的導線／連接線」與本句語境不同。",
-        "lead-mcq-15": "「主動帶頭、承擔主要領導責任」與本句語境不同。"
+        "lead-mcq-18": "本句的「the lead role」指「電影、戲劇等作品中的主要角色；主角」。",
+        "lead-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-18"
     },
@@ -2127,11 +1935,9 @@ export default {
       "masked": "She won an award for best ____.",
       "options": [
         "lead-mcq-18",
-        "lead-mcq-17",
-        "lead-mcq-19",
         "lead-mcq-16",
-        "lead-mcq-20",
-        "lead-mcq-15"
+        "lead-mcq-23",
+        "lead-mcq-11"
       ],
       "explanation": "本句的「lead actress」指「電影、戲劇等作品中的主要角色；主角」。",
       "sentenceIndex": 52,
@@ -2140,12 +1946,10 @@ export default {
         "lead actress"
       ],
       "optionReasons": {
-        "lead-mcq-18": "本句指「電影、戲劇等作品中的主要角色；主角」。",
-        "lead-mcq-17": "「可能成為顧客的人／組織；銷售線索」與本句語境不同。",
-        "lead-mcq-19": "「新聞報導中概括最重要資訊的開頭／導語」與本句語境不同。",
-        "lead-mcq-16": "「可以幫助調查、搜尋或解決問題的線索」與本句語境不同。",
-        "lead-mcq-20": "「連接電氣設備的導線／連接線」與本句語境不同。",
-        "lead-mcq-15": "「主動帶頭、承擔主要領導責任」與本句語境不同。"
+        "lead-mcq-18": "本句的「lead actress」指「電影、戲劇等作品中的主要角色；主角」。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-18"
     },
@@ -2157,11 +1961,9 @@ export default {
       "masked": "The ____ gave an excellent performance.",
       "options": [
         "lead-mcq-18",
-        "lead-mcq-17",
-        "lead-mcq-19",
         "lead-mcq-16",
-        "lead-mcq-20",
-        "lead-mcq-15"
+        "lead-mcq-14",
+        "lead-mcq-06"
       ],
       "explanation": "本句的「lead actor」指「電影、戲劇等作品中的主要角色；主角」。",
       "sentenceIndex": 53,
@@ -2170,12 +1972,10 @@ export default {
         "lead actor"
       ],
       "optionReasons": {
-        "lead-mcq-18": "本句指「電影、戲劇等作品中的主要角色；主角」。",
-        "lead-mcq-17": "「可能成為顧客的人／組織；銷售線索」與本句語境不同。",
-        "lead-mcq-19": "「新聞報導中概括最重要資訊的開頭／導語」與本句語境不同。",
-        "lead-mcq-16": "「可以幫助調查、搜尋或解決問題的線索」與本句語境不同。",
-        "lead-mcq-20": "「連接電氣設備的導線／連接線」與本句語境不同。",
-        "lead-mcq-15": "「主動帶頭、承擔主要領導責任」與本句語境不同。"
+        "lead-mcq-18": "本句的「lead actor」指「電影、戲劇等作品中的主要角色；主角」。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-18"
     },
@@ -2187,11 +1987,9 @@ export default {
       "masked": "Connect the red ____ to the positive terminal.",
       "options": [
         "lead-mcq-20",
-        "lead-mcq-19",
         "lead-mcq-21",
-        "lead-mcq-18",
-        "lead-mcq-22",
-        "lead-mcq-17"
+        "lead-mcq-05",
+        "lead-mcq-22"
       ],
       "explanation": "本句的「lead」指「連接電氣設備的導線／連接線」。",
       "sentenceIndex": 56,
@@ -2200,12 +1998,10 @@ export default {
         "lead"
       ],
       "optionReasons": {
-        "lead-mcq-20": "本句指「連接電氣設備的導線／連接線」。",
-        "lead-mcq-19": "「新聞報導中概括最重要資訊的開頭／導語」與本句語境不同。",
-        "lead-mcq-21": "「用來牽狗等動物的牽繩」與本句語境不同。",
-        "lead-mcq-18": "「電影、戲劇等作品中的主要角色；主角」與本句語境不同。",
-        "lead-mcq-22": "「鉛；一種沉重柔軟的灰色金屬」與本句語境不同。",
-        "lead-mcq-17": "「可能成為顧客的人／組織；銷售線索」與本句語境不同。"
+        "lead-mcq-20": "本句的「lead」指「連接電氣設備的導線／連接線」。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-20"
     },
@@ -2217,11 +2013,9 @@ export default {
       "masked": "The power ____ is damaged.",
       "options": [
         "lead-mcq-20",
-        "lead-mcq-19",
-        "lead-mcq-21",
-        "lead-mcq-18",
-        "lead-mcq-22",
-        "lead-mcq-17"
+        "lead-mcq-10",
+        "lead-mcq-11",
+        "lead-mcq-22"
       ],
       "explanation": "本句的「lead」指「連接電氣設備的導線／連接線」。",
       "sentenceIndex": 57,
@@ -2230,12 +2024,10 @@ export default {
         "lead"
       ],
       "optionReasons": {
-        "lead-mcq-20": "本句指「連接電氣設備的導線／連接線」。",
-        "lead-mcq-19": "「新聞報導中概括最重要資訊的開頭／導語」與本句語境不同。",
-        "lead-mcq-21": "「用來牽狗等動物的牽繩」與本句語境不同。",
-        "lead-mcq-18": "「電影、戲劇等作品中的主要角色；主角」與本句語境不同。",
-        "lead-mcq-22": "「鉛；一種沉重柔軟的灰色金屬」與本句語境不同。",
-        "lead-mcq-17": "「可能成為顧客的人／組織；銷售線索」與本句語境不同。"
+        "lead-mcq-20": "本句的「lead」指「連接電氣設備的導線／連接線」。",
+        "lead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-20"
     },
@@ -2247,11 +2039,9 @@ export default {
       "masked": "Keep your dog on a ____.",
       "options": [
         "lead-mcq-21",
-        "lead-mcq-20",
-        "lead-mcq-22",
-        "lead-mcq-19",
-        "lead-mcq-23",
-        "lead-mcq-18"
+        "lead-mcq-10",
+        "lead-mcq-04",
+        "lead-mcq-03"
       ],
       "explanation": "本句的「lead」指「用來牽狗等動物的牽繩」。",
       "sentenceIndex": 58,
@@ -2260,12 +2050,10 @@ export default {
         "lead"
       ],
       "optionReasons": {
-        "lead-mcq-21": "本句指「用來牽狗等動物的牽繩」。",
-        "lead-mcq-20": "「連接電氣設備的導線／連接線」與本句語境不同。",
-        "lead-mcq-22": "「鉛；一種沉重柔軟的灰色金屬」與本句語境不同。",
-        "lead-mcq-19": "「新聞報導中概括最重要資訊的開頭／導語」與本句語境不同。",
-        "lead-mcq-23": "「領導者；帶領群體或組織的人」與本句語境不同。",
-        "lead-mcq-18": "「電影、戲劇等作品中的主要角色；主角」與本句語境不同。"
+        "lead-mcq-21": "本句的「lead」指「用來牽狗等動物的牽繩」。",
+        "lead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-21"
     },
@@ -2277,11 +2065,9 @@ export default {
       "masked": "She attached the ____ to the dog’s collar.",
       "options": [
         "lead-mcq-21",
-        "lead-mcq-20",
-        "lead-mcq-22",
-        "lead-mcq-19",
-        "lead-mcq-23",
-        "lead-mcq-18"
+        "lead-mcq-27",
+        "lead-mcq-24",
+        "lead-mcq-11"
       ],
       "explanation": "本句的「lead」指「用來牽狗等動物的牽繩」。",
       "sentenceIndex": 59,
@@ -2290,12 +2076,10 @@ export default {
         "lead"
       ],
       "optionReasons": {
-        "lead-mcq-21": "本句指「用來牽狗等動物的牽繩」。",
-        "lead-mcq-20": "「連接電氣設備的導線／連接線」與本句語境不同。",
-        "lead-mcq-22": "「鉛；一種沉重柔軟的灰色金屬」與本句語境不同。",
-        "lead-mcq-19": "「新聞報導中概括最重要資訊的開頭／導語」與本句語境不同。",
-        "lead-mcq-23": "「領導者；帶領群體或組織的人」與本句語境不同。",
-        "lead-mcq-18": "「電影、戲劇等作品中的主要角色；主角」與本句語境不同。"
+        "lead-mcq-21": "本句的「lead」指「用來牽狗等動物的牽繩」。",
+        "lead-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-21"
     },
@@ -2307,11 +2091,9 @@ export default {
       "masked": "The pipes contained ____.",
       "options": [
         "lead-mcq-22",
-        "lead-mcq-21",
-        "lead-mcq-23",
+        "lead-mcq-10",
         "lead-mcq-20",
-        "lead-mcq-24",
-        "lead-mcq-19"
+        "lead-mcq-11"
       ],
       "explanation": "本句的「lead」指「鉛；一種沉重柔軟的灰色金屬」。",
       "sentenceIndex": 60,
@@ -2320,12 +2102,10 @@ export default {
         "lead"
       ],
       "optionReasons": {
-        "lead-mcq-22": "本句指「鉛；一種沉重柔軟的灰色金屬」。",
-        "lead-mcq-21": "「用來牽狗等動物的牽繩」與本句語境不同。",
-        "lead-mcq-23": "「領導者；帶領群體或組織的人」與本句語境不同。",
-        "lead-mcq-20": "「連接電氣設備的導線／連接線」與本句語境不同。",
-        "lead-mcq-24": "「領導行為、領導能力或領導地位」與本句語境不同。",
-        "lead-mcq-19": "「新聞報導中概括最重要資訊的開頭／導語」與本句語境不同。"
+        "lead-mcq-22": "本句的「lead」指「鉛；一種沉重柔軟的灰色金屬」。",
+        "lead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-22"
     },
@@ -2337,11 +2117,9 @@ export default {
       "masked": "Exposure to ____ can be harmful.",
       "options": [
         "lead-mcq-22",
+        "lead-mcq-27",
         "lead-mcq-21",
-        "lead-mcq-23",
-        "lead-mcq-20",
-        "lead-mcq-24",
-        "lead-mcq-19"
+        "lead-mcq-13"
       ],
       "explanation": "本句的「lead」指「鉛；一種沉重柔軟的灰色金屬」。",
       "sentenceIndex": 61,
@@ -2350,12 +2128,10 @@ export default {
         "lead"
       ],
       "optionReasons": {
-        "lead-mcq-22": "本句指「鉛；一種沉重柔軟的灰色金屬」。",
-        "lead-mcq-21": "「用來牽狗等動物的牽繩」與本句語境不同。",
-        "lead-mcq-23": "「領導者；帶領群體或組織的人」與本句語境不同。",
-        "lead-mcq-20": "「連接電氣設備的導線／連接線」與本句語境不同。",
-        "lead-mcq-24": "「領導行為、領導能力或領導地位」與本句語境不同。",
-        "lead-mcq-19": "「新聞報導中概括最重要資訊的開頭／導語」與本句語境不同。"
+        "lead-mcq-22": "本句的「lead」指「鉛；一種沉重柔軟的灰色金屬」。",
+        "lead-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-22"
     },
@@ -2367,11 +2143,9 @@ export default {
       "masked": "She is a strong ____.",
       "options": [
         "lead-mcq-23",
-        "lead-mcq-22",
-        "lead-mcq-24",
+        "lead-mcq-11",
         "lead-mcq-21",
-        "lead-mcq-25",
-        "lead-mcq-20"
+        "lead-mcq-05"
       ],
       "explanation": "本句的「leader」指「領導者；帶領群體或組織的人」。",
       "sentenceIndex": 69,
@@ -2380,12 +2154,10 @@ export default {
         "leader"
       ],
       "optionReasons": {
-        "lead-mcq-23": "本句指「領導者；帶領群體或組織的人」。",
-        "lead-mcq-22": "「鉛；一種沉重柔軟的灰色金屬」與本句語境不同。",
-        "lead-mcq-24": "「領導行為、領導能力或領導地位」與本句語境不同。",
-        "lead-mcq-21": "「用來牽狗等動物的牽繩」與本句語境不同。",
-        "lead-mcq-25": "「在某領域中主要、重要、頂尖或領先的」與本句語境不同。",
-        "lead-mcq-20": "「連接電氣設備的導線／連接線」與本句語境不同。"
+        "lead-mcq-23": "本句的「leader」指「領導者；帶領群體或組織的人」。",
+        "lead-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-23"
     },
@@ -2397,11 +2169,9 @@ export default {
       "masked": "Good ____ listen carefully.",
       "options": [
         "lead-mcq-23",
-        "lead-mcq-22",
-        "lead-mcq-24",
-        "lead-mcq-21",
-        "lead-mcq-25",
-        "lead-mcq-20"
+        "lead-mcq-18",
+        "lead-mcq-11",
+        "lead-mcq-22"
       ],
       "explanation": "本句的「leaders」指「領導者；帶領群體或組織的人」。",
       "sentenceIndex": 70,
@@ -2410,12 +2180,10 @@ export default {
         "leaders"
       ],
       "optionReasons": {
-        "lead-mcq-23": "本句指「領導者；帶領群體或組織的人」。",
-        "lead-mcq-22": "「鉛；一種沉重柔軟的灰色金屬」與本句語境不同。",
-        "lead-mcq-24": "「領導行為、領導能力或領導地位」與本句語境不同。",
-        "lead-mcq-21": "「用來牽狗等動物的牽繩」與本句語境不同。",
-        "lead-mcq-25": "「在某領域中主要、重要、頂尖或領先的」與本句語境不同。",
-        "lead-mcq-20": "「連接電氣設備的導線／連接線」與本句語境不同。"
+        "lead-mcq-23": "本句的「leaders」指「領導者；帶領群體或組織的人」。",
+        "lead-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-23"
     },
@@ -2427,10 +2195,8 @@ export default {
       "masked": "She showed excellent ____.",
       "options": [
         "lead-mcq-24",
-        "lead-mcq-23",
-        "lead-mcq-25",
-        "lead-mcq-22",
-        "lead-mcq-26",
+        "lead-mcq-18",
+        "lead-mcq-17",
         "lead-mcq-21"
       ],
       "explanation": "本句的「leadership」指「領導行為、領導能力或領導地位」。",
@@ -2440,12 +2206,10 @@ export default {
         "leadership"
       ],
       "optionReasons": {
-        "lead-mcq-24": "本句指「領導行為、領導能力或領導地位」。",
-        "lead-mcq-23": "「領導者；帶領群體或組織的人」與本句語境不同。",
-        "lead-mcq-25": "「在某領域中主要、重要、頂尖或領先的」與本句語境不同。",
-        "lead-mcq-22": "「鉛；一種沉重柔軟的灰色金屬」與本句語境不同。",
-        "lead-mcq-26": "「使人產生錯誤理解或錯誤信念；誤導」與本句語境不同。",
-        "lead-mcq-21": "「用來牽狗等動物的牽繩」與本句語境不同。"
+        "lead-mcq-24": "本句的「leadership」指「領導行為、領導能力或領導地位」。",
+        "lead-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-24"
     },
@@ -2457,11 +2221,9 @@ export default {
       "masked": "The course focuses on ____.",
       "options": [
         "lead-mcq-24",
-        "lead-mcq-23",
-        "lead-mcq-25",
-        "lead-mcq-22",
-        "lead-mcq-26",
-        "lead-mcq-21"
+        "lead-mcq-17",
+        "lead-mcq-03",
+        "lead-mcq-22"
       ],
       "explanation": "本句的「leadership skills」指「領導行為、領導能力或領導地位」。",
       "sentenceIndex": 72,
@@ -2470,12 +2232,10 @@ export default {
         "leadership skills"
       ],
       "optionReasons": {
-        "lead-mcq-24": "本句指「領導行為、領導能力或領導地位」。",
-        "lead-mcq-23": "「領導者；帶領群體或組織的人」與本句語境不同。",
-        "lead-mcq-25": "「在某領域中主要、重要、頂尖或領先的」與本句語境不同。",
-        "lead-mcq-22": "「鉛；一種沉重柔軟的灰色金屬」與本句語境不同。",
-        "lead-mcq-26": "「使人產生錯誤理解或錯誤信念；誤導」與本句語境不同。",
-        "lead-mcq-21": "「用來牽狗等動物的牽繩」與本句語境不同。"
+        "lead-mcq-24": "本句的「leadership skills」指「領導行為、領導能力或領導地位」。",
+        "lead-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-24"
     },
@@ -2487,11 +2247,9 @@ export default {
       "masked": "She is a ____ in the field.",
       "options": [
         "lead-mcq-25",
-        "lead-mcq-24",
-        "lead-mcq-26",
-        "lead-mcq-23",
         "lead-mcq-27",
-        "lead-mcq-22"
+        "lead-mcq-20",
+        "lead-mcq-07"
       ],
       "explanation": "本句的「leading expert」指「在某領域中主要、重要、頂尖或領先的」。",
       "sentenceIndex": 73,
@@ -2500,12 +2258,10 @@ export default {
         "leading expert"
       ],
       "optionReasons": {
-        "lead-mcq-25": "本句指「在某領域中主要、重要、頂尖或領先的」。",
-        "lead-mcq-24": "「領導行為、領導能力或領導地位」與本句語境不同。",
-        "lead-mcq-26": "「使人產生錯誤理解或錯誤信念；誤導」與本句語境不同。",
-        "lead-mcq-23": "「領導者；帶領群體或組織的人」與本句語境不同。",
-        "lead-mcq-27": "「容易令人形成錯誤理解的；具有誤導性的」與本句語境不同。",
-        "lead-mcq-22": "「鉛；一種沉重柔軟的灰色金屬」與本句語境不同。"
+        "lead-mcq-25": "本句的「leading expert」指「在某領域中主要、重要、頂尖或領先的」。",
+        "lead-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-25"
     },
@@ -2517,11 +2273,9 @@ export default {
       "masked": "The company is a ____ of medical equipment.",
       "options": [
         "lead-mcq-25",
-        "lead-mcq-24",
-        "lead-mcq-26",
-        "lead-mcq-23",
-        "lead-mcq-27",
-        "lead-mcq-22"
+        "lead-mcq-16",
+        "lead-mcq-08",
+        "lead-mcq-11"
       ],
       "explanation": "本句的「leading manufacturer」指「在某領域中主要、重要、頂尖或領先的」。",
       "sentenceIndex": 74,
@@ -2530,12 +2284,10 @@ export default {
         "leading manufacturer"
       ],
       "optionReasons": {
-        "lead-mcq-25": "本句指「在某領域中主要、重要、頂尖或領先的」。",
-        "lead-mcq-24": "「領導行為、領導能力或領導地位」與本句語境不同。",
-        "lead-mcq-26": "「使人產生錯誤理解或錯誤信念；誤導」與本句語境不同。",
-        "lead-mcq-23": "「領導者；帶領群體或組織的人」與本句語境不同。",
-        "lead-mcq-27": "「容易令人形成錯誤理解的；具有誤導性的」與本句語境不同。",
-        "lead-mcq-22": "「鉛；一種沉重柔軟的灰色金屬」與本句語境不同。"
+        "lead-mcq-25": "本句的「leading manufacturer」指「在某領域中主要、重要、頂尖或領先的」。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-25"
     },
@@ -2547,11 +2299,9 @@ export default {
       "masked": "Cost was the ____.",
       "options": [
         "lead-mcq-25",
-        "lead-mcq-24",
-        "lead-mcq-26",
-        "lead-mcq-23",
-        "lead-mcq-27",
-        "lead-mcq-22"
+        "lead-mcq-07",
+        "lead-mcq-11",
+        "lead-mcq-16"
       ],
       "explanation": "本句的「leading concern」指「在某領域中主要、重要、頂尖或領先的」。",
       "sentenceIndex": 75,
@@ -2560,12 +2310,10 @@ export default {
         "leading concern"
       ],
       "optionReasons": {
-        "lead-mcq-25": "本句指「在某領域中主要、重要、頂尖或領先的」。",
-        "lead-mcq-24": "「領導行為、領導能力或領導地位」與本句語境不同。",
-        "lead-mcq-26": "「使人產生錯誤理解或錯誤信念；誤導」與本句語境不同。",
-        "lead-mcq-23": "「領導者；帶領群體或組織的人」與本句語境不同。",
-        "lead-mcq-27": "「容易令人形成錯誤理解的；具有誤導性的」與本句語境不同。",
-        "lead-mcq-22": "「鉛；一種沉重柔軟的灰色金屬」與本句語境不同。"
+        "lead-mcq-25": "本句的「leading concern」指「在某領域中主要、重要、頂尖或領先的」。",
+        "lead-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-25"
     },
@@ -2577,11 +2325,9 @@ export default {
       "masked": "He played a ____ in the project.",
       "options": [
         "lead-mcq-25",
-        "lead-mcq-24",
-        "lead-mcq-26",
-        "lead-mcq-23",
-        "lead-mcq-27",
-        "lead-mcq-22"
+        "lead-mcq-07",
+        "lead-mcq-21",
+        "lead-mcq-06"
       ],
       "explanation": "本句的「leading role」指「在某領域中主要、重要、頂尖或領先的」。",
       "sentenceIndex": 76,
@@ -2590,12 +2336,10 @@ export default {
         "leading role"
       ],
       "optionReasons": {
-        "lead-mcq-25": "本句指「在某領域中主要、重要、頂尖或領先的」。",
-        "lead-mcq-24": "「領導行為、領導能力或領導地位」與本句語境不同。",
-        "lead-mcq-26": "「使人產生錯誤理解或錯誤信念；誤導」與本句語境不同。",
-        "lead-mcq-23": "「領導者；帶領群體或組織的人」與本句語境不同。",
-        "lead-mcq-27": "「容易令人形成錯誤理解的；具有誤導性的」與本句語境不同。",
-        "lead-mcq-22": "「鉛；一種沉重柔軟的灰色金屬」與本句語境不同。"
+        "lead-mcq-25": "本句的「leading role」指「在某領域中主要、重要、頂尖或領先的」。",
+        "lead-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-25"
     },
@@ -2607,10 +2351,8 @@ export default {
       "masked": "The advertisement was ____.",
       "options": [
         "lead-mcq-27",
-        "lead-mcq-26",
         "lead-mcq-25",
-        "lead-mcq-24",
-        "lead-mcq-23",
+        "lead-mcq-07",
         "lead-mcq-22"
       ],
       "explanation": "本句的「misleading」指「容易令人形成錯誤理解的；具有誤導性的」。",
@@ -2620,12 +2362,10 @@ export default {
         "misleading"
       ],
       "optionReasons": {
-        "lead-mcq-27": "本句指「容易令人形成錯誤理解的；具有誤導性的」。",
-        "lead-mcq-26": "「使人產生錯誤理解或錯誤信念；誤導」與本句語境不同。",
-        "lead-mcq-25": "「在某領域中主要、重要、頂尖或領先的」與本句語境不同。",
-        "lead-mcq-24": "「領導行為、領導能力或領導地位」與本句語境不同。",
-        "lead-mcq-23": "「領導者；帶領群體或組織的人」與本句語境不同。",
-        "lead-mcq-22": "「鉛；一種沉重柔軟的灰色金屬」與本句語境不同。"
+        "lead-mcq-27": "本句的「misleading」指「容易令人形成錯誤理解的；具有誤導性的」。",
+        "lead-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-27"
     },
@@ -2637,11 +2377,9 @@ export default {
       "masked": "The graph gives a ____.",
       "options": [
         "lead-mcq-27",
-        "lead-mcq-26",
+        "lead-mcq-11",
         "lead-mcq-25",
-        "lead-mcq-24",
-        "lead-mcq-23",
-        "lead-mcq-22"
+        "lead-mcq-07"
       ],
       "explanation": "本句的「misleading impression」指「容易令人形成錯誤理解的；具有誤導性的」。",
       "sentenceIndex": 78,
@@ -2650,12 +2388,10 @@ export default {
         "misleading impression"
       ],
       "optionReasons": {
-        "lead-mcq-27": "本句指「容易令人形成錯誤理解的；具有誤導性的」。",
-        "lead-mcq-26": "「使人產生錯誤理解或錯誤信念；誤導」與本句語境不同。",
-        "lead-mcq-25": "「在某領域中主要、重要、頂尖或領先的」與本句語境不同。",
-        "lead-mcq-24": "「領導行為、領導能力或領導地位」與本句語境不同。",
-        "lead-mcq-23": "「領導者；帶領群體或組織的人」與本句語境不同。",
-        "lead-mcq-22": "「鉛；一種沉重柔軟的灰色金屬」與本句語境不同。"
+        "lead-mcq-27": "本句的「misleading impression」指「容易令人形成錯誤理解的；具有誤導性的」。",
+        "lead-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-27"
     },
@@ -2667,10 +2403,8 @@ export default {
       "masked": "The headline may ____.",
       "options": [
         "lead-mcq-26",
-        "lead-mcq-25",
-        "lead-mcq-27",
-        "lead-mcq-24",
-        "lead-mcq-23",
+        "lead-mcq-17",
+        "lead-mcq-03",
         "lead-mcq-22"
       ],
       "explanation": "本句的「mislead readers」指「使人產生錯誤理解或錯誤信念；誤導」。",
@@ -2680,12 +2414,10 @@ export default {
         "mislead readers"
       ],
       "optionReasons": {
-        "lead-mcq-26": "本句指「使人產生錯誤理解或錯誤信念；誤導」。",
-        "lead-mcq-25": "「在某領域中主要、重要、頂尖或領先的」與本句語境不同。",
-        "lead-mcq-27": "「容易令人形成錯誤理解的；具有誤導性的」與本句語境不同。",
-        "lead-mcq-24": "「領導行為、領導能力或領導地位」與本句語境不同。",
-        "lead-mcq-23": "「領導者；帶領群體或組織的人」與本句語境不同。",
-        "lead-mcq-22": "「鉛；一種沉重柔軟的灰色金屬」與本句語境不同。"
+        "lead-mcq-26": "本句的「mislead readers」指「使人產生錯誤理解或錯誤信念；誤導」。",
+        "lead-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-26"
     },
@@ -2698,10 +2430,8 @@ export default {
       "options": [
         "lead-mcq-26",
         "lead-mcq-25",
-        "lead-mcq-27",
-        "lead-mcq-24",
-        "lead-mcq-23",
-        "lead-mcq-22"
+        "lead-mcq-07",
+        "lead-mcq-21"
       ],
       "explanation": "本句的「mislead you」指「使人產生錯誤理解或錯誤信念；誤導」。",
       "sentenceIndex": 80,
@@ -2710,12 +2440,10 @@ export default {
         "mislead you"
       ],
       "optionReasons": {
-        "lead-mcq-26": "本句指「使人產生錯誤理解或錯誤信念；誤導」。",
-        "lead-mcq-25": "「在某領域中主要、重要、頂尖或領先的」與本句語境不同。",
-        "lead-mcq-27": "「容易令人形成錯誤理解的；具有誤導性的」與本句語境不同。",
-        "lead-mcq-24": "「領導行為、領導能力或領導地位」與本句語境不同。",
-        "lead-mcq-23": "「領導者；帶領群體或組織的人」與本句語境不同。",
-        "lead-mcq-22": "「鉛；一種沉重柔軟的灰色金屬」與本句語境不同。"
+        "lead-mcq-26": "本句的「mislead you」指「使人產生錯誤理解或錯誤信念；誤導」。",
+        "lead-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-26"
     },
@@ -2727,11 +2455,9 @@ export default {
       "masked": "The company is ____.",
       "options": [
         "lead-mcq-02",
-        "lead-mcq-01",
-        "lead-mcq-03",
-        "lead-mcq-04",
-        "lead-mcq-05",
-        "lead-mcq-06"
+        "lead-mcq-06",
+        "lead-mcq-18",
+        "lead-mcq-16"
       ],
       "explanation": "本句的「leading the way in renewable energy」指「走在前面帶路；比喻率先行動或走在領先位置」。",
       "sentenceIndex": 81,
@@ -2740,12 +2466,10 @@ export default {
         "leading the way in renewable energy"
       ],
       "optionReasons": {
-        "lead-mcq-02": "本句指「走在前面帶路；比喻率先行動或走在領先位置」。",
-        "lead-mcq-01": "「帶領某人前往某處；在前面引導方向」與本句語境不同。",
-        "lead-mcq-03": "「某條道路、路徑或入口通往某地」與本句語境不同。",
-        "lead-mcq-04": "「負責指揮、帶領或領導一群人／組織」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。"
+        "lead-mcq-02": "本句的「leading the way in renewable energy」指「走在前面帶路；比喻率先行動或走在領先位置」。",
+        "lead-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-02"
     },
@@ -2757,11 +2481,9 @@ export default {
       "masked": "Young researchers are ____ in this field.",
       "options": [
         "lead-mcq-02",
-        "lead-mcq-01",
-        "lead-mcq-03",
-        "lead-mcq-04",
-        "lead-mcq-05",
-        "lead-mcq-06"
+        "lead-mcq-08",
+        "lead-mcq-18",
+        "lead-mcq-16"
       ],
       "explanation": "本句的「leading the way」指「走在前面帶路；比喻率先行動或走在領先位置」。",
       "sentenceIndex": 82,
@@ -2770,12 +2492,10 @@ export default {
         "leading the way"
       ],
       "optionReasons": {
-        "lead-mcq-02": "本句指「走在前面帶路；比喻率先行動或走在領先位置」。",
-        "lead-mcq-01": "「帶領某人前往某處；在前面引導方向」與本句語境不同。",
-        "lead-mcq-03": "「某條道路、路徑或入口通往某地」與本句語境不同。",
-        "lead-mcq-04": "「負責指揮、帶領或領導一群人／組織」與本句語境不同。",
-        "lead-mcq-05": "「透過自己的行動示範應有的行為；以身作則」與本句語境不同。",
-        "lead-mcq-06": "「某件事造成、促成或導致後面的結果」與本句語境不同。"
+        "lead-mcq-02": "本句的「leading the way」指「走在前面帶路；比喻率先行動或走在領先位置」。",
+        "lead-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "lead-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lead-mcq-02"
     }
@@ -2787,5 +2507,7 @@ export default {
     "sha256": "8c1cdde9e0182a21a5faf046200470cc4552f9807539da948c7d097a13364516",
     "pages": 23
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

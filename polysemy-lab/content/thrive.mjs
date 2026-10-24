@@ -174,11 +174,7 @@ export default {
       "masked": "The bakery will continue to ____.",
       "options": [
         "thrive-mcq-01",
-        "thrive-mcq-02",
-        "thrive-mcq-03",
-        "thrive-mcq-04",
-        "thrive-mcq-05",
-        "thrive-mcq-06"
+        "thrive-mcq-05"
       ],
       "explanation": "本句的「thrive」指「經營良好、持續成長並保持強健發展」。",
       "sentenceIndex": 0,
@@ -187,12 +183,8 @@ export default {
         "thrive"
       ],
       "optionReasons": {
-        "thrive-mcq-01": "本句指「經營良好、持續成長並保持強健發展」。",
-        "thrive-mcq-02": "「健康、旺盛地生長」與本句語境不同。",
-        "thrive-mcq-03": "「在身體、心理、學習或生活方面發展良好」與本句語境不同。",
-        "thrive-mcq-04": "「在某種環境／條件中表現或發展得特別好」與本句語境不同。",
-        "thrive-mcq-05": "「因某種刺激、資源或條件而獲得動力並表現更好」與本句語境不同。",
-        "thrive-mcq-06": "「正在興旺、活躍或強勁發展的」與本句語境不同。"
+        "thrive-mcq-01": "本句的「thrive」指「經營良好、持續成長並保持強健發展」。",
+        "thrive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrive-mcq-01"
     },
@@ -204,11 +196,7 @@ export default {
       "masked": "Small businesses can ____ when they understand their customers.",
       "options": [
         "thrive-mcq-01",
-        "thrive-mcq-02",
-        "thrive-mcq-03",
-        "thrive-mcq-04",
-        "thrive-mcq-05",
-        "thrive-mcq-06"
+        "thrive-mcq-05"
       ],
       "explanation": "本句的「thrive」指「經營良好、持續成長並保持強健發展」。",
       "sentenceIndex": 1,
@@ -217,12 +205,8 @@ export default {
         "thrive"
       ],
       "optionReasons": {
-        "thrive-mcq-01": "本句指「經營良好、持續成長並保持強健發展」。",
-        "thrive-mcq-02": "「健康、旺盛地生長」與本句語境不同。",
-        "thrive-mcq-03": "「在身體、心理、學習或生活方面發展良好」與本句語境不同。",
-        "thrive-mcq-04": "「在某種環境／條件中表現或發展得特別好」與本句語境不同。",
-        "thrive-mcq-05": "「因某種刺激、資源或條件而獲得動力並表現更好」與本句語境不同。",
-        "thrive-mcq-06": "「正在興旺、活躍或強勁發展的」與本句語境不同。"
+        "thrive-mcq-01": "本句的「thrive」指「經營良好、持續成長並保持強健發展」。",
+        "thrive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrive-mcq-01"
     },
@@ -234,11 +218,7 @@ export default {
       "masked": "The company ____ despite strong competition.",
       "options": [
         "thrive-mcq-01",
-        "thrive-mcq-02",
-        "thrive-mcq-03",
-        "thrive-mcq-04",
-        "thrive-mcq-05",
-        "thrive-mcq-06"
+        "thrive-mcq-05"
       ],
       "explanation": "本句的「thrived」指「經營良好、持續成長並保持強健發展」。",
       "sentenceIndex": 2,
@@ -247,12 +227,8 @@ export default {
         "thrived"
       ],
       "optionReasons": {
-        "thrive-mcq-01": "本句指「經營良好、持續成長並保持強健發展」。",
-        "thrive-mcq-02": "「健康、旺盛地生長」與本句語境不同。",
-        "thrive-mcq-03": "「在身體、心理、學習或生活方面發展良好」與本句語境不同。",
-        "thrive-mcq-04": "「在某種環境／條件中表現或發展得特別好」與本句語境不同。",
-        "thrive-mcq-05": "「因某種刺激、資源或條件而獲得動力並表現更好」與本句語境不同。",
-        "thrive-mcq-06": "「正在興旺、活躍或強勁發展的」與本句語境不同。"
+        "thrive-mcq-01": "本句的「thrived」指「經營良好、持續成長並保持強健發展」。",
+        "thrive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrive-mcq-01"
     },
@@ -264,9 +240,6 @@ export default {
       "masked": "These plants ____ in warm weather.",
       "options": [
         "thrive-mcq-02",
-        "thrive-mcq-01",
-        "thrive-mcq-03",
-        "thrive-mcq-04",
         "thrive-mcq-05",
         "thrive-mcq-06"
       ],
@@ -277,12 +250,9 @@ export default {
         "thrive"
       ],
       "optionReasons": {
-        "thrive-mcq-02": "本句指「健康、旺盛地生長」。",
-        "thrive-mcq-01": "「經營良好、持續成長並保持強健發展」與本句語境不同。",
-        "thrive-mcq-03": "「在身體、心理、學習或生活方面發展良好」與本句語境不同。",
-        "thrive-mcq-04": "「在某種環境／條件中表現或發展得特別好」與本句語境不同。",
-        "thrive-mcq-05": "「因某種刺激、資源或條件而獲得動力並表現更好」與本句語境不同。",
-        "thrive-mcq-06": "「正在興旺、活躍或強勁發展的」與本句語境不同。"
+        "thrive-mcq-02": "本句的「thrive」指「健康、旺盛地生長」。",
+        "thrive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thrive-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrive-mcq-02"
     },
@@ -294,11 +264,8 @@ export default {
       "masked": "The young trees are ____.",
       "options": [
         "thrive-mcq-02",
-        "thrive-mcq-01",
-        "thrive-mcq-03",
-        "thrive-mcq-04",
         "thrive-mcq-05",
-        "thrive-mcq-06"
+        "thrive-mcq-03"
       ],
       "explanation": "本句的「thriving」指「健康、旺盛地生長」。",
       "sentenceIndex": 4,
@@ -307,12 +274,9 @@ export default {
         "thriving"
       ],
       "optionReasons": {
-        "thrive-mcq-02": "本句指「健康、旺盛地生長」。",
-        "thrive-mcq-01": "「經營良好、持續成長並保持強健發展」與本句語境不同。",
-        "thrive-mcq-03": "「在身體、心理、學習或生活方面發展良好」與本句語境不同。",
-        "thrive-mcq-04": "「在某種環境／條件中表現或發展得特別好」與本句語境不同。",
-        "thrive-mcq-05": "「因某種刺激、資源或條件而獲得動力並表現更好」與本句語境不同。",
-        "thrive-mcq-06": "「正在興旺、活躍或強勁發展的」與本句語境不同。"
+        "thrive-mcq-02": "本句的「thriving」指「健康、旺盛地生長」。",
+        "thrive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thrive-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrive-mcq-02"
     },
@@ -324,11 +288,8 @@ export default {
       "masked": "The child began to ____ in the new environment.",
       "options": [
         "thrive-mcq-03",
-        "thrive-mcq-02",
-        "thrive-mcq-04",
-        "thrive-mcq-01",
         "thrive-mcq-05",
-        "thrive-mcq-06"
+        "thrive-mcq-07"
       ],
       "explanation": "本句的「thrive」指「在身體、心理、學習或生活方面發展良好」。",
       "sentenceIndex": 5,
@@ -337,12 +298,9 @@ export default {
         "thrive"
       ],
       "optionReasons": {
-        "thrive-mcq-03": "本句指「在身體、心理、學習或生活方面發展良好」。",
-        "thrive-mcq-02": "「健康、旺盛地生長」與本句語境不同。",
-        "thrive-mcq-04": "「在某種環境／條件中表現或發展得特別好」與本句語境不同。",
-        "thrive-mcq-01": "「經營良好、持續成長並保持強健發展」與本句語境不同。",
-        "thrive-mcq-05": "「因某種刺激、資源或條件而獲得動力並表現更好」與本句語境不同。",
-        "thrive-mcq-06": "「正在興旺、活躍或強勁發展的」與本句語境不同。"
+        "thrive-mcq-03": "本句的「thrive」指「在身體、心理、學習或生活方面發展良好」。",
+        "thrive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thrive-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrive-mcq-03"
     },
@@ -354,11 +312,8 @@ export default {
       "masked": "She really ____ after moving to a more supportive workplace.",
       "options": [
         "thrive-mcq-03",
-        "thrive-mcq-02",
-        "thrive-mcq-04",
-        "thrive-mcq-01",
-        "thrive-mcq-05",
-        "thrive-mcq-06"
+        "thrive-mcq-07",
+        "thrive-mcq-05"
       ],
       "explanation": "本句的「thrived」指「在身體、心理、學習或生活方面發展良好」。",
       "sentenceIndex": 6,
@@ -367,12 +322,9 @@ export default {
         "thrived"
       ],
       "optionReasons": {
-        "thrive-mcq-03": "本句指「在身體、心理、學習或生活方面發展良好」。",
-        "thrive-mcq-02": "「健康、旺盛地生長」與本句語境不同。",
-        "thrive-mcq-04": "「在某種環境／條件中表現或發展得特別好」與本句語境不同。",
-        "thrive-mcq-01": "「經營良好、持續成長並保持強健發展」與本句語境不同。",
-        "thrive-mcq-05": "「因某種刺激、資源或條件而獲得動力並表現更好」與本句語境不同。",
-        "thrive-mcq-06": "「正在興旺、活躍或強勁發展的」與本句語境不同。"
+        "thrive-mcq-03": "本句的「thrived」指「在身體、心理、學習或生活方面發展良好」。",
+        "thrive-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thrive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrive-mcq-03"
     },
@@ -384,11 +336,7 @@ export default {
       "masked": "This bakery thrives ____.",
       "options": [
         "thrive-mcq-04",
-        "thrive-mcq-03",
-        "thrive-mcq-05",
-        "thrive-mcq-02",
-        "thrive-mcq-06",
-        "thrive-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「on loyal customers」指「在某種環境／條件中表現或發展得特別好」。",
       "sentenceIndex": 7,
@@ -397,12 +345,8 @@ export default {
         "on loyal customers"
       ],
       "optionReasons": {
-        "thrive-mcq-04": "本句指「在某種環境／條件中表現或發展得特別好」。",
-        "thrive-mcq-03": "「在身體、心理、學習或生活方面發展良好」與本句語境不同。",
-        "thrive-mcq-05": "「因某種刺激、資源或條件而獲得動力並表現更好」與本句語境不同。",
-        "thrive-mcq-02": "「健康、旺盛地生長」與本句語境不同。",
-        "thrive-mcq-06": "「正在興旺、活躍或強勁發展的」與本句語境不同。",
-        "thrive-mcq-01": "「經營良好、持續成長並保持強健發展」與本句語境不同。"
+        "thrive-mcq-04": "本句的「on loyal customers」指「在某種環境／條件中表現或發展得特別好」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrive-mcq-04"
     },
@@ -414,11 +358,7 @@ export default {
       "masked": "Some people thrive ____.",
       "options": [
         "thrive-mcq-04",
-        "thrive-mcq-03",
-        "thrive-mcq-05",
-        "thrive-mcq-02",
-        "thrive-mcq-06",
-        "thrive-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「in high-pressure environments」指「在某種環境／條件中表現或發展得特別好」。",
       "sentenceIndex": 8,
@@ -427,12 +367,8 @@ export default {
         "in high-pressure environments"
       ],
       "optionReasons": {
-        "thrive-mcq-04": "本句指「在某種環境／條件中表現或發展得特別好」。",
-        "thrive-mcq-03": "「在身體、心理、學習或生活方面發展良好」與本句語境不同。",
-        "thrive-mcq-05": "「因某種刺激、資源或條件而獲得動力並表現更好」與本句語境不同。",
-        "thrive-mcq-02": "「健康、旺盛地生長」與本句語境不同。",
-        "thrive-mcq-06": "「正在興旺、活躍或強勁發展的」與本句語境不同。",
-        "thrive-mcq-01": "「經營良好、持續成長並保持強健發展」與本句語境不同。"
+        "thrive-mcq-04": "本句的「in high-pressure environments」指「在某種環境／條件中表現或發展得特別好」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrive-mcq-04"
     },
@@ -444,10 +380,7 @@ export default {
       "masked": "He ____.",
       "options": [
         "thrive-mcq-05",
-        "thrive-mcq-04",
         "thrive-mcq-06",
-        "thrive-mcq-03",
-        "thrive-mcq-07",
         "thrive-mcq-02"
       ],
       "explanation": "本句的「thrives on challenge」指「因某種刺激、資源或條件而獲得動力並表現更好」。",
@@ -457,12 +390,9 @@ export default {
         "thrives on challenge"
       ],
       "optionReasons": {
-        "thrive-mcq-05": "本句指「因某種刺激、資源或條件而獲得動力並表現更好」。",
-        "thrive-mcq-04": "「在某種環境／條件中表現或發展得特別好」與本句語境不同。",
-        "thrive-mcq-06": "「正在興旺、活躍或強勁發展的」與本句語境不同。",
-        "thrive-mcq-03": "「在身體、心理、學習或生活方面發展良好」與本句語境不同。",
-        "thrive-mcq-07": "「正在健康、旺盛地生長的」與本句語境不同。",
-        "thrive-mcq-02": "「健康、旺盛地生長」與本句語境不同。"
+        "thrive-mcq-05": "本句的「thrives on challenge」指「因某種刺激、資源或條件而獲得動力並表現更好」。",
+        "thrive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thrive-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrive-mcq-05"
     },
@@ -474,10 +404,7 @@ export default {
       "masked": "She seems to ____ on pressure.",
       "options": [
         "thrive-mcq-05",
-        "thrive-mcq-04",
         "thrive-mcq-06",
-        "thrive-mcq-03",
-        "thrive-mcq-07",
         "thrive-mcq-02"
       ],
       "explanation": "本句的「thrive」指「因某種刺激、資源或條件而獲得動力並表現更好」。",
@@ -487,12 +414,9 @@ export default {
         "thrive"
       ],
       "optionReasons": {
-        "thrive-mcq-05": "本句指「因某種刺激、資源或條件而獲得動力並表現更好」。",
-        "thrive-mcq-04": "「在某種環境／條件中表現或發展得特別好」與本句語境不同。",
-        "thrive-mcq-06": "「正在興旺、活躍或強勁發展的」與本句語境不同。",
-        "thrive-mcq-03": "「在身體、心理、學習或生活方面發展良好」與本句語境不同。",
-        "thrive-mcq-07": "「正在健康、旺盛地生長的」與本句語境不同。",
-        "thrive-mcq-02": "「健康、旺盛地生長」與本句語境不同。"
+        "thrive-mcq-05": "本句的「thrive」指「因某種刺激、資源或條件而獲得動力並表現更好」。",
+        "thrive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thrive-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrive-mcq-05"
     },
@@ -505,9 +429,6 @@ export default {
       "options": [
         "thrive-mcq-06",
         "thrive-mcq-05",
-        "thrive-mcq-07",
-        "thrive-mcq-04",
-        "thrive-mcq-03",
         "thrive-mcq-02"
       ],
       "explanation": "本句的「thriving」指「正在興旺、活躍或強勁發展的」。",
@@ -517,12 +438,9 @@ export default {
         "thriving"
       ],
       "optionReasons": {
-        "thrive-mcq-06": "本句指「正在興旺、活躍或強勁發展的」。",
-        "thrive-mcq-05": "「因某種刺激、資源或條件而獲得動力並表現更好」與本句語境不同。",
-        "thrive-mcq-07": "「正在健康、旺盛地生長的」與本句語境不同。",
-        "thrive-mcq-04": "「在某種環境／條件中表現或發展得特別好」與本句語境不同。",
-        "thrive-mcq-03": "「在身體、心理、學習或生活方面發展良好」與本句語境不同。",
-        "thrive-mcq-02": "「健康、旺盛地生長」與本句語境不同。"
+        "thrive-mcq-06": "本句的「thriving」指「正在興旺、活躍或強勁發展的」。",
+        "thrive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thrive-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrive-mcq-06"
     },
@@ -535,9 +453,6 @@ export default {
       "options": [
         "thrive-mcq-06",
         "thrive-mcq-05",
-        "thrive-mcq-07",
-        "thrive-mcq-04",
-        "thrive-mcq-03",
         "thrive-mcq-02"
       ],
       "explanation": "本句的「thriving」指「正在興旺、活躍或強勁發展的」。",
@@ -547,12 +462,9 @@ export default {
         "thriving"
       ],
       "optionReasons": {
-        "thrive-mcq-06": "本句指「正在興旺、活躍或強勁發展的」。",
-        "thrive-mcq-05": "「因某種刺激、資源或條件而獲得動力並表現更好」與本句語境不同。",
-        "thrive-mcq-07": "「正在健康、旺盛地生長的」與本句語境不同。",
-        "thrive-mcq-04": "「在某種環境／條件中表現或發展得特別好」與本句語境不同。",
-        "thrive-mcq-03": "「在身體、心理、學習或生活方面發展良好」與本句語境不同。",
-        "thrive-mcq-02": "「健康、旺盛地生長」與本句語境不同。"
+        "thrive-mcq-06": "本句的「thriving」指「正在興旺、活躍或強勁發展的」。",
+        "thrive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thrive-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrive-mcq-06"
     },
@@ -564,11 +476,8 @@ export default {
       "masked": "The garden is full of ____ plants.",
       "options": [
         "thrive-mcq-07",
-        "thrive-mcq-06",
         "thrive-mcq-05",
-        "thrive-mcq-04",
-        "thrive-mcq-03",
-        "thrive-mcq-02"
+        "thrive-mcq-03"
       ],
       "explanation": "本句的「thriving」指「正在健康、旺盛地生長的」。",
       "sentenceIndex": 13,
@@ -577,12 +486,9 @@ export default {
         "thriving"
       ],
       "optionReasons": {
-        "thrive-mcq-07": "本句指「正在健康、旺盛地生長的」。",
-        "thrive-mcq-06": "「正在興旺、活躍或強勁發展的」與本句語境不同。",
-        "thrive-mcq-05": "「因某種刺激、資源或條件而獲得動力並表現更好」與本句語境不同。",
-        "thrive-mcq-04": "「在某種環境／條件中表現或發展得特別好」與本句語境不同。",
-        "thrive-mcq-03": "「在身體、心理、學習或生活方面發展良好」與本句語境不同。",
-        "thrive-mcq-02": "「健康、旺盛地生長」與本句語境不同。"
+        "thrive-mcq-07": "本句的「thriving」指「正在健康、旺盛地生長的」。",
+        "thrive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thrive-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrive-mcq-07"
     },
@@ -594,11 +500,8 @@ export default {
       "masked": "The seedlings are healthy and ____.",
       "options": [
         "thrive-mcq-07",
-        "thrive-mcq-06",
         "thrive-mcq-05",
-        "thrive-mcq-04",
-        "thrive-mcq-03",
-        "thrive-mcq-02"
+        "thrive-mcq-03"
       ],
       "explanation": "本句的「thriving」指「正在健康、旺盛地生長的」。",
       "sentenceIndex": 14,
@@ -607,12 +510,9 @@ export default {
         "thriving"
       ],
       "optionReasons": {
-        "thrive-mcq-07": "本句指「正在健康、旺盛地生長的」。",
-        "thrive-mcq-06": "「正在興旺、活躍或強勁發展的」與本句語境不同。",
-        "thrive-mcq-05": "「因某種刺激、資源或條件而獲得動力並表現更好」與本句語境不同。",
-        "thrive-mcq-04": "「在某種環境／條件中表現或發展得特別好」與本句語境不同。",
-        "thrive-mcq-03": "「在身體、心理、學習或生活方面發展良好」與本句語境不同。",
-        "thrive-mcq-02": "「健康、旺盛地生長」與本句語境不同。"
+        "thrive-mcq-07": "本句的「thriving」指「正在健康、旺盛地生長的」。",
+        "thrive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thrive-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrive-mcq-07"
     }
@@ -624,5 +524,12 @@ export default {
     "sha256": "67b97638c9efb8d02e33239a58d898ff5261a4f6f98b15239946bb7ec1c368be",
     "pages": 9
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -121,7 +121,7 @@ export default {
     },
     {
       "id": "trade-mcq-06",
-      "title": "國家或地區之間買賣商品和服務的商業活動；屬於",
+      "title": "國家或地區之間買賣商品和服務的商業活動",
       "form": "trade — international commerce",
       "en": "trade — international commerce",
       "zh": "國家或地區之間買賣商品和服務的商業活動；屬於",
@@ -284,10 +284,8 @@ export default {
       "options": [
         "trade-mcq-01",
         "trade-mcq-02",
-        "trade-mcq-03",
         "trade-mcq-04",
-        "trade-mcq-05",
-        "trade-mcq-06"
+        "trade-mcq-11"
       ],
       "explanation": "本句的「trade comic books」指「把自己擁有的東西交給別人，同時換取另一樣東西」。",
       "sentenceIndex": 0,
@@ -296,12 +294,10 @@ export default {
         "trade comic books"
       ],
       "optionReasons": {
-        "trade-mcq-01": "本句指「把自己擁有的東西交給別人，同時換取另一樣東西」。",
-        "trade-mcq-02": "「以商業方式買入和賣出商品、服務、金融資產等」是「trade — buy and sell commercially」的用法，與本句語境不同。",
-        "trade-mcq-03": "「放棄、交出或犧牲某樣東西，以換取另一種利益、狀態或結果；屬於 exchange 義」是「trade A for B — figurative exchange」的用法，與本句語境不同。",
-        "trade-mcq-04": "「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」是「a trade — skilled occupation」的用法，與本句語境不同。",
-        "trade-mcq-05": "「從事某一類商業活動的人、公司及整個業界」是「the trade — industry/community」的用法，與本句語境不同。",
-        "trade-mcq-06": "「國家或地區之間買賣商品和服務的商業活動；屬於」是「trade — international commerce」的用法，與本句語境不同。"
+        "trade-mcq-01": "本句的「trade comic books」指「把自己擁有的東西交給別人，同時換取另一樣東西」。",
+        "trade-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-01"
     },
@@ -314,10 +310,8 @@ export default {
       "options": [
         "trade-mcq-01",
         "trade-mcq-02",
-        "trade-mcq-03",
         "trade-mcq-04",
-        "trade-mcq-05",
-        "trade-mcq-06"
+        "trade-mcq-11"
       ],
       "explanation": "本句的「traded」指「把自己擁有的東西交給別人，同時換取另一樣東西」。",
       "sentenceIndex": 1,
@@ -326,12 +320,10 @@ export default {
         "traded"
       ],
       "optionReasons": {
-        "trade-mcq-01": "本句指「把自己擁有的東西交給別人，同時換取另一樣東西」。",
-        "trade-mcq-02": "「以商業方式買入和賣出商品、服務、金融資產等」是「trade — buy and sell commercially」的用法，與本句語境不同。",
-        "trade-mcq-03": "「放棄、交出或犧牲某樣東西，以換取另一種利益、狀態或結果；屬於 exchange 義」是「trade A for B — figurative exchange」的用法，與本句語境不同。",
-        "trade-mcq-04": "「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」是「a trade — skilled occupation」的用法，與本句語境不同。",
-        "trade-mcq-05": "「從事某一類商業活動的人、公司及整個業界」是「the trade — industry/community」的用法，與本句語境不同。",
-        "trade-mcq-06": "「國家或地區之間買賣商品和服務的商業活動；屬於」是「trade — international commerce」的用法，與本句語境不同。"
+        "trade-mcq-01": "本句的「traded」指「把自己擁有的東西交給別人，同時換取另一樣東西」。",
+        "trade-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-01"
     },
@@ -343,11 +335,9 @@ export default {
       "masked": "I ____ my old game for a newer one.",
       "options": [
         "trade-mcq-01",
-        "trade-mcq-02",
-        "trade-mcq-03",
         "trade-mcq-04",
-        "trade-mcq-05",
-        "trade-mcq-06"
+        "trade-mcq-02",
+        "trade-mcq-11"
       ],
       "explanation": "本句的「traded」指「把自己擁有的東西交給別人，同時換取另一樣東西」。",
       "sentenceIndex": 2,
@@ -356,12 +346,10 @@ export default {
         "traded"
       ],
       "optionReasons": {
-        "trade-mcq-01": "本句指「把自己擁有的東西交給別人，同時換取另一樣東西」。",
-        "trade-mcq-02": "「以商業方式買入和賣出商品、服務、金融資產等」是「trade — buy and sell commercially」的用法，與本句語境不同。",
-        "trade-mcq-03": "「放棄、交出或犧牲某樣東西，以換取另一種利益、狀態或結果；屬於 exchange 義」是「trade A for B — figurative exchange」的用法，與本句語境不同。",
-        "trade-mcq-04": "「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」是「a trade — skilled occupation」的用法，與本句語境不同。",
-        "trade-mcq-05": "「從事某一類商業活動的人、公司及整個業界」是「the trade — industry/community」的用法，與本句語境不同。",
-        "trade-mcq-06": "「國家或地區之間買賣商品和服務的商業活動；屬於」是「trade — international commerce」的用法，與本句語境不同。"
+        "trade-mcq-01": "本句的「traded」指「把自己擁有的東西交給別人，同時換取另一樣東西」。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-01"
     },
@@ -374,10 +362,8 @@ export default {
       "options": [
         "trade-mcq-02",
         "trade-mcq-01",
-        "trade-mcq-03",
-        "trade-mcq-04",
-        "trade-mcq-05",
-        "trade-mcq-06"
+        "trade-mcq-11",
+        "trade-mcq-04"
       ],
       "explanation": "本句的「trades」指「以商業方式買入和賣出商品、服務、金融資產等」。",
       "sentenceIndex": 3,
@@ -386,12 +372,10 @@ export default {
         "trades"
       ],
       "optionReasons": {
-        "trade-mcq-02": "本句指「以商業方式買入和賣出商品、服務、金融資產等」。",
-        "trade-mcq-01": "「把自己擁有的東西交給別人，同時換取另一樣東西」是「trade — exchange one thing for another」的用法，與本句語境不同。",
-        "trade-mcq-03": "「放棄、交出或犧牲某樣東西，以換取另一種利益、狀態或結果；屬於 exchange 義」是「trade A for B — figurative exchange」的用法，與本句語境不同。",
-        "trade-mcq-04": "「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」是「a trade — skilled occupation」的用法，與本句語境不同。",
-        "trade-mcq-05": "「從事某一類商業活動的人、公司及整個業界」是「the trade — industry/community」的用法，與本句語境不同。",
-        "trade-mcq-06": "「國家或地區之間買賣商品和服務的商業活動；屬於」是「trade — international commerce」的用法，與本句語境不同。"
+        "trade-mcq-02": "本句的「trades」指「以商業方式買入和賣出商品、服務、金融資產等」。",
+        "trade-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-02"
     },
@@ -403,11 +387,9 @@ export default {
       "masked": "They ____ with companies across Asia.",
       "options": [
         "trade-mcq-02",
+        "trade-mcq-11",
         "trade-mcq-01",
-        "trade-mcq-03",
-        "trade-mcq-04",
-        "trade-mcq-05",
-        "trade-mcq-06"
+        "trade-mcq-04"
       ],
       "explanation": "本句的「trade」指「以商業方式買入和賣出商品、服務、金融資產等」。",
       "sentenceIndex": 4,
@@ -416,12 +398,10 @@ export default {
         "trade"
       ],
       "optionReasons": {
-        "trade-mcq-02": "本句指「以商業方式買入和賣出商品、服務、金融資產等」。",
-        "trade-mcq-01": "「把自己擁有的東西交給別人，同時換取另一樣東西」是「trade — exchange one thing for another」的用法，與本句語境不同。",
-        "trade-mcq-03": "「放棄、交出或犧牲某樣東西，以換取另一種利益、狀態或結果；屬於 exchange 義」是「trade A for B — figurative exchange」的用法，與本句語境不同。",
-        "trade-mcq-04": "「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」是「a trade — skilled occupation」的用法，與本句語境不同。",
-        "trade-mcq-05": "「從事某一類商業活動的人、公司及整個業界」是「the trade — industry/community」的用法，與本句語境不同。",
-        "trade-mcq-06": "「國家或地區之間買賣商品和服務的商業活動；屬於」是「trade — international commerce」的用法，與本句語境不同。"
+        "trade-mcq-02": "本句的「trade」指「以商業方式買入和賣出商品、服務、金融資產等」。",
+        "trade-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-02"
     },
@@ -433,11 +413,9 @@ export default {
       "masked": "She ____ shares online.",
       "options": [
         "trade-mcq-10",
-        "trade-mcq-09",
-        "trade-mcq-11",
-        "trade-mcq-08",
-        "trade-mcq-12",
-        "trade-mcq-07"
+        "trade-mcq-04",
+        "trade-mcq-01",
+        "trade-mcq-11"
       ],
       "explanation": "本句的「trades」指「在金融市場上買入和賣出股票、貨幣、商品或其他金融資產」。",
       "sentenceIndex": 5,
@@ -446,12 +424,10 @@ export default {
         "trades"
       ],
       "optionReasons": {
-        "trade-mcq-10": "本句指「在金融市場上買入和賣出股票、貨幣、商品或其他金融資產」。",
-        "trade-mcq-09": "「以買賣商品、股票、貨幣等作為工作或業務的人／公司」是「trader」的用法，與本句語境不同。",
-        "trade-mcq-11": "「彼此交換原本所佔的位置或角色」是「5. trade = exchange positions/roles（位置／角色） — 互換；交換位置」的用法，與本句語境不同。",
-        "trade-mcq-08": "「持續或有組織地進行買賣的活動」是「trading」的用法，與本句語境不同。",
-        "trade-mcq-12": "「球隊之間交換或轉移球員及相關資產」是「10. trade = sports transfer/exchange of players（體育） — 交易球員；轉會交換」的用法，與本句語境不同。",
-        "trade-mcq-07": "「一次具體的買入、賣出或交換交易」是「a trade — transaction」的用法，與本句語境不同。"
+        "trade-mcq-10": "本句的「trades」指「在金融市場上買入和賣出股票、貨幣、商品或其他金融資產」。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-10"
     },
@@ -463,11 +439,9 @@ export default {
       "masked": "The currency is actively ____ on international markets.",
       "options": [
         "trade-mcq-10",
-        "trade-mcq-09",
+        "trade-mcq-01",
         "trade-mcq-11",
-        "trade-mcq-08",
-        "trade-mcq-12",
-        "trade-mcq-07"
+        "trade-mcq-04"
       ],
       "explanation": "本句的「traded」指「在金融市場上買入和賣出股票、貨幣、商品或其他金融資產」。",
       "sentenceIndex": 6,
@@ -476,12 +450,10 @@ export default {
         "traded"
       ],
       "optionReasons": {
-        "trade-mcq-10": "本句指「在金融市場上買入和賣出股票、貨幣、商品或其他金融資產」。",
-        "trade-mcq-09": "「以買賣商品、股票、貨幣等作為工作或業務的人／公司」是「trader」的用法，與本句語境不同。",
-        "trade-mcq-11": "「彼此交換原本所佔的位置或角色」是「5. trade = exchange positions/roles（位置／角色） — 互換；交換位置」的用法，與本句語境不同。",
-        "trade-mcq-08": "「持續或有組織地進行買賣的活動」是「trading」的用法，與本句語境不同。",
-        "trade-mcq-12": "「球隊之間交換或轉移球員及相關資產」是「10. trade = sports transfer/exchange of players（體育） — 交易球員；轉會交換」的用法，與本句語境不同。",
-        "trade-mcq-07": "「一次具體的買入、賣出或交換交易」是「a trade — transaction」的用法，與本句語境不同。"
+        "trade-mcq-10": "本句的「traded」指「在金融市場上買入和賣出股票、貨幣、商品或其他金融資產」。",
+        "trade-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-10"
     },
@@ -494,10 +466,8 @@ export default {
       "options": [
         "trade-mcq-01",
         "trade-mcq-02",
-        "trade-mcq-03",
         "trade-mcq-04",
-        "trade-mcq-05",
-        "trade-mcq-06"
+        "trade-mcq-11"
       ],
       "explanation": "本句的「traded」指「把自己擁有的東西交給別人，同時換取另一樣東西」。",
       "sentenceIndex": 7,
@@ -506,12 +476,10 @@ export default {
         "traded"
       ],
       "optionReasons": {
-        "trade-mcq-01": "本句指「把自己擁有的東西交給別人，同時換取另一樣東西」。",
-        "trade-mcq-02": "「以商業方式買入和賣出商品、服務、金融資產等」是「trade — buy and sell commercially」的用法，與本句語境不同。",
-        "trade-mcq-03": "「放棄、交出或犧牲某樣東西，以換取另一種利益、狀態或結果；屬於 exchange 義」是「trade A for B — figurative exchange」的用法，與本句語境不同。",
-        "trade-mcq-04": "「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」是「a trade — skilled occupation」的用法，與本句語境不同。",
-        "trade-mcq-05": "「從事某一類商業活動的人、公司及整個業界」是「the trade — industry/community」的用法，與本句語境不同。",
-        "trade-mcq-06": "「國家或地區之間買賣商品和服務的商業活動；屬於」是「trade — international commerce」的用法，與本句語境不同。"
+        "trade-mcq-01": "本句的「traded」指「把自己擁有的東西交給別人，同時換取另一樣東西」。",
+        "trade-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-01"
     },
@@ -523,11 +491,9 @@ export default {
       "masked": "He ____ a high salary for more free time.",
       "options": [
         "trade-mcq-01",
-        "trade-mcq-02",
-        "trade-mcq-03",
+        "trade-mcq-06",
         "trade-mcq-04",
-        "trade-mcq-05",
-        "trade-mcq-06"
+        "trade-mcq-07"
       ],
       "explanation": "本句的「traded」指「把自己擁有的東西交給別人，同時換取另一樣東西」。",
       "sentenceIndex": 8,
@@ -536,12 +502,10 @@ export default {
         "traded"
       ],
       "optionReasons": {
-        "trade-mcq-01": "本句指「把自己擁有的東西交給別人，同時換取另一樣東西」。",
-        "trade-mcq-02": "「以商業方式買入和賣出商品、服務、金融資產等」是「trade — buy and sell commercially」的用法，與本句語境不同。",
-        "trade-mcq-03": "「放棄、交出或犧牲某樣東西，以換取另一種利益、狀態或結果；屬於 exchange 義」是「trade A for B — figurative exchange」的用法，與本句語境不同。",
-        "trade-mcq-04": "「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」是「a trade — skilled occupation」的用法，與本句語境不同。",
-        "trade-mcq-05": "「從事某一類商業活動的人、公司及整個業界」是「the trade — industry/community」的用法，與本句語境不同。",
-        "trade-mcq-06": "「國家或地區之間買賣商品和服務的商業活動；屬於」是「trade — international commerce」的用法，與本句語境不同。"
+        "trade-mcq-01": "本句的「traded」指「把自己擁有的東西交給別人，同時換取另一樣東西」。",
+        "trade-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-01"
     },
@@ -553,11 +517,8 @@ export default {
       "masked": "Can we ____?",
       "options": [
         "trade-mcq-11",
-        "trade-mcq-10",
-        "trade-mcq-12",
-        "trade-mcq-09",
         "trade-mcq-08",
-        "trade-mcq-07"
+        "trade-mcq-04"
       ],
       "explanation": "本句的「trade seats」指「彼此交換原本所佔的位置或角色」。",
       "sentenceIndex": 9,
@@ -566,12 +527,9 @@ export default {
         "trade seats"
       ],
       "optionReasons": {
-        "trade-mcq-11": "本句指「彼此交換原本所佔的位置或角色」。",
-        "trade-mcq-10": "「在金融市場上買入和賣出股票、貨幣、商品或其他金融資產」是「3. trade = exchange financial assets（金融） — 買賣；交易」的用法，與本句語境不同。",
-        "trade-mcq-12": "「球隊之間交換或轉移球員及相關資產」是「10. trade = sports transfer/exchange of players（體育） — 交易球員；轉會交換」的用法，與本句語境不同。",
-        "trade-mcq-09": "「以買賣商品、股票、貨幣等作為工作或業務的人／公司」是「trader」的用法，與本句語境不同。",
-        "trade-mcq-08": "「持續或有組織地進行買賣的活動」是「trading」的用法，與本句語境不同。",
-        "trade-mcq-07": "「一次具體的買入、賣出或交換交易」是「a trade — transaction」的用法，與本句語境不同。"
+        "trade-mcq-11": "本句的「trade seats」指「彼此交換原本所佔的位置或角色」。",
+        "trade-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-11"
     },
@@ -584,10 +542,8 @@ export default {
       "options": [
         "trade-mcq-11",
         "trade-mcq-10",
-        "trade-mcq-12",
-        "trade-mcq-09",
-        "trade-mcq-08",
-        "trade-mcq-07"
+        "trade-mcq-05",
+        "trade-mcq-04"
       ],
       "explanation": "本句的「traded positions」指「彼此交換原本所佔的位置或角色」。",
       "sentenceIndex": 10,
@@ -596,12 +552,10 @@ export default {
         "traded positions"
       ],
       "optionReasons": {
-        "trade-mcq-11": "本句指「彼此交換原本所佔的位置或角色」。",
-        "trade-mcq-10": "「在金融市場上買入和賣出股票、貨幣、商品或其他金融資產」是「3. trade = exchange financial assets（金融） — 買賣；交易」的用法，與本句語境不同。",
-        "trade-mcq-12": "「球隊之間交換或轉移球員及相關資產」是「10. trade = sports transfer/exchange of players（體育） — 交易球員；轉會交換」的用法，與本句語境不同。",
-        "trade-mcq-09": "「以買賣商品、股票、貨幣等作為工作或業務的人／公司」是「trader」的用法，與本句語境不同。",
-        "trade-mcq-08": "「持續或有組織地進行買賣的活動」是「trading」的用法，與本句語境不同。",
-        "trade-mcq-07": "「一次具體的買入、賣出或交換交易」是「a trade — transaction」的用法，與本句語境不同。"
+        "trade-mcq-11": "本句的「traded positions」指「彼此交換原本所佔的位置或角色」。",
+        "trade-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-11"
     },
@@ -613,11 +567,8 @@ export default {
       "masked": "Carpentry is a skilled ____.",
       "options": [
         "trade-mcq-04",
-        "trade-mcq-03",
-        "trade-mcq-05",
-        "trade-mcq-02",
-        "trade-mcq-06",
-        "trade-mcq-01"
+        "trade-mcq-08",
+        "trade-mcq-07"
       ],
       "explanation": "本句的「trade」指「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」。",
       "sentenceIndex": 11,
@@ -626,12 +577,9 @@ export default {
         "trade"
       ],
       "optionReasons": {
-        "trade-mcq-04": "本句指「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」。",
-        "trade-mcq-03": "「放棄、交出或犧牲某樣東西，以換取另一種利益、狀態或結果；屬於 exchange 義」是「trade A for B — figurative exchange」的用法，與本句語境不同。",
-        "trade-mcq-05": "「從事某一類商業活動的人、公司及整個業界」是「the trade — industry/community」的用法，與本句語境不同。",
-        "trade-mcq-02": "「以商業方式買入和賣出商品、服務、金融資產等」是「trade — buy and sell commercially」的用法，與本句語境不同。",
-        "trade-mcq-06": "「國家或地區之間買賣商品和服務的商業活動；屬於」是「trade — international commerce」的用法，與本句語境不同。",
-        "trade-mcq-01": "「把自己擁有的東西交給別人，同時換取另一樣東西」是「trade — exchange one thing for another」的用法，與本句語境不同。"
+        "trade-mcq-04": "本句的「trade」指「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」。",
+        "trade-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-04"
     },
@@ -643,11 +591,8 @@ export default {
       "masked": "He learned a ____ after leaving school.",
       "options": [
         "trade-mcq-04",
-        "trade-mcq-03",
-        "trade-mcq-05",
-        "trade-mcq-02",
-        "trade-mcq-06",
-        "trade-mcq-01"
+        "trade-mcq-08",
+        "trade-mcq-07"
       ],
       "explanation": "本句的「trade」指「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」。",
       "sentenceIndex": 12,
@@ -656,12 +601,9 @@ export default {
         "trade"
       ],
       "optionReasons": {
-        "trade-mcq-04": "本句指「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」。",
-        "trade-mcq-03": "「放棄、交出或犧牲某樣東西，以換取另一種利益、狀態或結果；屬於 exchange 義」是「trade A for B — figurative exchange」的用法，與本句語境不同。",
-        "trade-mcq-05": "「從事某一類商業活動的人、公司及整個業界」是「the trade — industry/community」的用法，與本句語境不同。",
-        "trade-mcq-02": "「以商業方式買入和賣出商品、服務、金融資產等」是「trade — buy and sell commercially」的用法，與本句語境不同。",
-        "trade-mcq-06": "「國家或地區之間買賣商品和服務的商業活動；屬於」是「trade — international commerce」的用法，與本句語境不同。",
-        "trade-mcq-01": "「把自己擁有的東西交給別人，同時換取另一樣東西」是「trade — exchange one thing for another」的用法，與本句語境不同。"
+        "trade-mcq-04": "本句的「trade」指「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」。",
+        "trade-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-04"
     },
@@ -673,11 +615,8 @@ export default {
       "masked": "She works in the travel ____.",
       "options": [
         "trade-mcq-05",
-        "trade-mcq-04",
-        "trade-mcq-06",
-        "trade-mcq-03",
-        "trade-mcq-07",
-        "trade-mcq-02"
+        "trade-mcq-12",
+        "trade-mcq-04"
       ],
       "explanation": "本句的「trade」指「從事某一類商業活動的人、公司及整個業界」。",
       "sentenceIndex": 13,
@@ -686,12 +625,9 @@ export default {
         "trade"
       ],
       "optionReasons": {
-        "trade-mcq-05": "本句指「從事某一類商業活動的人、公司及整個業界」。",
-        "trade-mcq-04": "「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」是「a trade — skilled occupation」的用法，與本句語境不同。",
-        "trade-mcq-06": "「國家或地區之間買賣商品和服務的商業活動；屬於」是「trade — international commerce」的用法，與本句語境不同。",
-        "trade-mcq-03": "「放棄、交出或犧牲某樣東西，以換取另一種利益、狀態或結果；屬於 exchange 義」是「trade A for B — figurative exchange」的用法，與本句語境不同。",
-        "trade-mcq-07": "「一次具體的買入、賣出或交換交易」是「a trade — transaction」的用法，與本句語境不同。",
-        "trade-mcq-02": "「以商業方式買入和賣出商品、服務、金融資產等」是「trade — buy and sell commercially」的用法，與本句語境不同。"
+        "trade-mcq-05": "本句的「trade」指「從事某一類商業活動的人、公司及整個業界」。",
+        "trade-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-05"
     },
@@ -703,11 +639,9 @@ export default {
       "masked": "The book is well known within the publishing ____.",
       "options": [
         "trade-mcq-05",
-        "trade-mcq-04",
-        "trade-mcq-06",
-        "trade-mcq-03",
-        "trade-mcq-07",
-        "trade-mcq-02"
+        "trade-mcq-11",
+        "trade-mcq-10",
+        "trade-mcq-04"
       ],
       "explanation": "本句的「trade」指「從事某一類商業活動的人、公司及整個業界」。",
       "sentenceIndex": 14,
@@ -716,12 +650,10 @@ export default {
         "trade"
       ],
       "optionReasons": {
-        "trade-mcq-05": "本句指「從事某一類商業活動的人、公司及整個業界」。",
-        "trade-mcq-04": "「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」是「a trade — skilled occupation」的用法，與本句語境不同。",
-        "trade-mcq-06": "「國家或地區之間買賣商品和服務的商業活動；屬於」是「trade — international commerce」的用法，與本句語境不同。",
-        "trade-mcq-03": "「放棄、交出或犧牲某樣東西，以換取另一種利益、狀態或結果；屬於 exchange 義」是「trade A for B — figurative exchange」的用法，與本句語境不同。",
-        "trade-mcq-07": "「一次具體的買入、賣出或交換交易」是「a trade — transaction」的用法，與本句語境不同。",
-        "trade-mcq-02": "「以商業方式買入和賣出商品、服務、金融資產等」是「trade — buy and sell commercially」的用法，與本句語境不同。"
+        "trade-mcq-05": "本句的「trade」指「從事某一類商業活動的人、公司及整個業界」。",
+        "trade-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-05"
     },
@@ -733,11 +665,9 @@ export default {
       "masked": "International ____ has increased significantly.",
       "options": [
         "trade-mcq-06",
-        "trade-mcq-05",
-        "trade-mcq-07",
+        "trade-mcq-01",
         "trade-mcq-04",
-        "trade-mcq-08",
-        "trade-mcq-03"
+        "trade-mcq-07"
       ],
       "explanation": "本句的「trade」指「國家或地區之間買賣商品和服務的商業活動；屬於」。",
       "sentenceIndex": 15,
@@ -746,12 +676,10 @@ export default {
         "trade"
       ],
       "optionReasons": {
-        "trade-mcq-06": "本句指「國家或地區之間買賣商品和服務的商業活動；屬於」。",
-        "trade-mcq-05": "「從事某一類商業活動的人、公司及整個業界」是「the trade — industry/community」的用法，與本句語境不同。",
-        "trade-mcq-07": "「一次具體的買入、賣出或交換交易」是「a trade — transaction」的用法，與本句語境不同。",
-        "trade-mcq-04": "「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」是「a trade — skilled occupation」的用法，與本句語境不同。",
-        "trade-mcq-08": "「持續或有組織地進行買賣的活動」是「trading」的用法，與本句語境不同。",
-        "trade-mcq-03": "「放棄、交出或犧牲某樣東西，以換取另一種利益、狀態或結果；屬於 exchange 義」是「trade A for B — figurative exchange」的用法，與本句語境不同。"
+        "trade-mcq-06": "本句的「trade」指「國家或地區之間買賣商品和服務的商業活動；屬於」。",
+        "trade-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-06"
     },
@@ -763,11 +691,9 @@ export default {
       "masked": "The port depends heavily on overseas ____.",
       "options": [
         "trade-mcq-06",
-        "trade-mcq-05",
+        "trade-mcq-01",
         "trade-mcq-07",
-        "trade-mcq-04",
-        "trade-mcq-08",
-        "trade-mcq-03"
+        "trade-mcq-04"
       ],
       "explanation": "本句的「trade」指「國家或地區之間買賣商品和服務的商業活動；屬於」。",
       "sentenceIndex": 16,
@@ -776,12 +702,10 @@ export default {
         "trade"
       ],
       "optionReasons": {
-        "trade-mcq-06": "本句指「國家或地區之間買賣商品和服務的商業活動；屬於」。",
-        "trade-mcq-05": "「從事某一類商業活動的人、公司及整個業界」是「the trade — industry/community」的用法，與本句語境不同。",
-        "trade-mcq-07": "「一次具體的買入、賣出或交換交易」是「a trade — transaction」的用法，與本句語境不同。",
-        "trade-mcq-04": "「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」是「a trade — skilled occupation」的用法，與本句語境不同。",
-        "trade-mcq-08": "「持續或有組織地進行買賣的活動」是「trading」的用法，與本句語境不同。",
-        "trade-mcq-03": "「放棄、交出或犧牲某樣東西，以換取另一種利益、狀態或結果；屬於 exchange 義」是「trade A for B — figurative exchange」的用法，與本句語境不同。"
+        "trade-mcq-06": "本句的「trade」指「國家或地區之間買賣商品和服務的商業活動；屬於」。",
+        "trade-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-06"
     },
@@ -793,11 +717,8 @@ export default {
       "masked": "He made three ____ this morning.",
       "options": [
         "trade-mcq-07",
-        "trade-mcq-06",
-        "trade-mcq-08",
-        "trade-mcq-05",
-        "trade-mcq-09",
-        "trade-mcq-04"
+        "trade-mcq-04",
+        "trade-mcq-05"
       ],
       "explanation": "本句的「trades」指「一次具體的買入、賣出或交換交易」。",
       "sentenceIndex": 17,
@@ -806,12 +727,9 @@ export default {
         "trades"
       ],
       "optionReasons": {
-        "trade-mcq-07": "本句指「一次具體的買入、賣出或交換交易」。",
-        "trade-mcq-06": "「國家或地區之間買賣商品和服務的商業活動；屬於」是「trade — international commerce」的用法，與本句語境不同。",
-        "trade-mcq-08": "「持續或有組織地進行買賣的活動」是「trading」的用法，與本句語境不同。",
-        "trade-mcq-05": "「從事某一類商業活動的人、公司及整個業界」是「the trade — industry/community」的用法，與本句語境不同。",
-        "trade-mcq-09": "「以買賣商品、股票、貨幣等作為工作或業務的人／公司」是「trader」的用法，與本句語境不同。",
-        "trade-mcq-04": "「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」是「a trade — skilled occupation」的用法，與本句語境不同。"
+        "trade-mcq-07": "本句的「trades」指「一次具體的買入、賣出或交換交易」。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-07"
     },
@@ -823,10 +741,7 @@ export default {
       "masked": "The ____ was completed within seconds.",
       "options": [
         "trade-mcq-07",
-        "trade-mcq-06",
-        "trade-mcq-08",
         "trade-mcq-05",
-        "trade-mcq-09",
         "trade-mcq-04"
       ],
       "explanation": "本句的「trade」指「一次具體的買入、賣出或交換交易」。",
@@ -836,12 +751,9 @@ export default {
         "trade"
       ],
       "optionReasons": {
-        "trade-mcq-07": "本句指「一次具體的買入、賣出或交換交易」。",
-        "trade-mcq-06": "「國家或地區之間買賣商品和服務的商業活動；屬於」是「trade — international commerce」的用法，與本句語境不同。",
-        "trade-mcq-08": "「持續或有組織地進行買賣的活動」是「trading」的用法，與本句語境不同。",
-        "trade-mcq-05": "「從事某一類商業活動的人、公司及整個業界」是「the trade — industry/community」的用法，與本句語境不同。",
-        "trade-mcq-09": "「以買賣商品、股票、貨幣等作為工作或業務的人／公司」是「trader」的用法，與本句語境不同。",
-        "trade-mcq-04": "「需要專門實務技能、通常透過培訓或學徒制度掌握的技工職業／手藝」是「a trade — skilled occupation」的用法，與本句語境不同。"
+        "trade-mcq-07": "本句的「trade」指「一次具體的買入、賣出或交換交易」。",
+        "trade-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-07"
     },
@@ -853,11 +765,8 @@ export default {
       "masked": "The team ____ its star player.",
       "options": [
         "trade-mcq-12",
-        "trade-mcq-11",
-        "trade-mcq-10",
-        "trade-mcq-09",
         "trade-mcq-08",
-        "trade-mcq-07"
+        "trade-mcq-04"
       ],
       "explanation": "本句的「traded」指「球隊之間交換或轉移球員及相關資產」。",
       "sentenceIndex": 19,
@@ -866,12 +775,9 @@ export default {
         "traded"
       ],
       "optionReasons": {
-        "trade-mcq-12": "本句指「球隊之間交換或轉移球員及相關資產」。",
-        "trade-mcq-11": "「彼此交換原本所佔的位置或角色」是「5. trade = exchange positions/roles（位置／角色） — 互換；交換位置」的用法，與本句語境不同。",
-        "trade-mcq-10": "「在金融市場上買入和賣出股票、貨幣、商品或其他金融資產」是「3. trade = exchange financial assets（金融） — 買賣；交易」的用法，與本句語境不同。",
-        "trade-mcq-09": "「以買賣商品、股票、貨幣等作為工作或業務的人／公司」是「trader」的用法，與本句語境不同。",
-        "trade-mcq-08": "「持續或有組織地進行買賣的活動」是「trading」的用法，與本句語境不同。",
-        "trade-mcq-07": "「一次具體的買入、賣出或交換交易」是「a trade — transaction」的用法，與本句語境不同。"
+        "trade-mcq-12": "本句的「traded」指「球隊之間交換或轉移球員及相關資產」。",
+        "trade-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-12"
     },
@@ -883,11 +789,8 @@ export default {
       "masked": "The two clubs agreed to a major ____.",
       "options": [
         "trade-mcq-12",
-        "trade-mcq-11",
-        "trade-mcq-10",
-        "trade-mcq-09",
-        "trade-mcq-08",
-        "trade-mcq-07"
+        "trade-mcq-04",
+        "trade-mcq-05"
       ],
       "explanation": "本句的「trade」指「球隊之間交換或轉移球員及相關資產」。",
       "sentenceIndex": 20,
@@ -896,12 +799,9 @@ export default {
         "trade"
       ],
       "optionReasons": {
-        "trade-mcq-12": "本句指「球隊之間交換或轉移球員及相關資產」。",
-        "trade-mcq-11": "「彼此交換原本所佔的位置或角色」是「5. trade = exchange positions/roles（位置／角色） — 互換；交換位置」的用法，與本句語境不同。",
-        "trade-mcq-10": "「在金融市場上買入和賣出股票、貨幣、商品或其他金融資產」是「3. trade = exchange financial assets（金融） — 買賣；交易」的用法，與本句語境不同。",
-        "trade-mcq-09": "「以買賣商品、股票、貨幣等作為工作或業務的人／公司」是「trader」的用法，與本句語境不同。",
-        "trade-mcq-08": "「持續或有組織地進行買賣的活動」是「trading」的用法，與本句語境不同。",
-        "trade-mcq-07": "「一次具體的買入、賣出或交換交易」是「a trade — transaction」的用法，與本句語境不同。"
+        "trade-mcq-12": "本句的「trade」指「球隊之間交換或轉移球員及相關資產」。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-12"
     },
@@ -913,11 +813,8 @@ export default {
       "masked": "Online ____ has become very common.",
       "options": [
         "trade-mcq-08",
-        "trade-mcq-07",
-        "trade-mcq-09",
-        "trade-mcq-06",
-        "trade-mcq-10",
-        "trade-mcq-05"
+        "trade-mcq-04",
+        "trade-mcq-11"
       ],
       "explanation": "本句的「trading」指「持續或有組織地進行買賣的活動」。",
       "sentenceIndex": 21,
@@ -926,12 +823,9 @@ export default {
         "trading"
       ],
       "optionReasons": {
-        "trade-mcq-08": "本句指「持續或有組織地進行買賣的活動」。",
-        "trade-mcq-07": "「一次具體的買入、賣出或交換交易」是「a trade — transaction」的用法，與本句語境不同。",
-        "trade-mcq-09": "「以買賣商品、股票、貨幣等作為工作或業務的人／公司」是「trader」的用法，與本句語境不同。",
-        "trade-mcq-06": "「國家或地區之間買賣商品和服務的商業活動；屬於」是「trade — international commerce」的用法，與本句語境不同。",
-        "trade-mcq-10": "「在金融市場上買入和賣出股票、貨幣、商品或其他金融資產」是「3. trade = exchange financial assets（金融） — 買賣；交易」的用法，與本句語境不同。",
-        "trade-mcq-05": "「從事某一類商業活動的人、公司及整個業界」是「the trade — industry/community」的用法，與本句語境不同。"
+        "trade-mcq-08": "本句的「trading」指「持續或有組織地進行買賣的活動」。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-08"
     },
@@ -943,11 +837,8 @@ export default {
       "masked": "The company suspended ____ for the day.",
       "options": [
         "trade-mcq-08",
-        "trade-mcq-07",
-        "trade-mcq-09",
-        "trade-mcq-06",
-        "trade-mcq-10",
-        "trade-mcq-05"
+        "trade-mcq-12",
+        "trade-mcq-04"
       ],
       "explanation": "本句的「trading」指「持續或有組織地進行買賣的活動」。",
       "sentenceIndex": 22,
@@ -956,12 +847,9 @@ export default {
         "trading"
       ],
       "optionReasons": {
-        "trade-mcq-08": "本句指「持續或有組織地進行買賣的活動」。",
-        "trade-mcq-07": "「一次具體的買入、賣出或交換交易」是「a trade — transaction」的用法，與本句語境不同。",
-        "trade-mcq-09": "「以買賣商品、股票、貨幣等作為工作或業務的人／公司」是「trader」的用法，與本句語境不同。",
-        "trade-mcq-06": "「國家或地區之間買賣商品和服務的商業活動；屬於」是「trade — international commerce」的用法，與本句語境不同。",
-        "trade-mcq-10": "「在金融市場上買入和賣出股票、貨幣、商品或其他金融資產」是「3. trade = exchange financial assets（金融） — 買賣；交易」的用法，與本句語境不同。",
-        "trade-mcq-05": "「從事某一類商業活動的人、公司及整個業界」是「the trade — industry/community」的用法，與本句語境不同。"
+        "trade-mcq-08": "本句的「trading」指「持續或有組織地進行買賣的活動」。",
+        "trade-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "trade-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-08"
     },
@@ -973,11 +861,7 @@ export default {
       "masked": "He works as a currency ____.",
       "options": [
         "trade-mcq-09",
-        "trade-mcq-08",
-        "trade-mcq-10",
-        "trade-mcq-07",
-        "trade-mcq-11",
-        "trade-mcq-06"
+        "trade-mcq-12"
       ],
       "explanation": "本句的「trader」指「以買賣商品、股票、貨幣等作為工作或業務的人／公司」。",
       "sentenceIndex": 23,
@@ -986,12 +870,8 @@ export default {
         "trader"
       ],
       "optionReasons": {
-        "trade-mcq-09": "本句指「以買賣商品、股票、貨幣等作為工作或業務的人／公司」。",
-        "trade-mcq-08": "「持續或有組織地進行買賣的活動」是「trading」的用法，與本句語境不同。",
-        "trade-mcq-10": "「在金融市場上買入和賣出股票、貨幣、商品或其他金融資產」是「3. trade = exchange financial assets（金融） — 買賣；交易」的用法，與本句語境不同。",
-        "trade-mcq-07": "「一次具體的買入、賣出或交換交易」是「a trade — transaction」的用法，與本句語境不同。",
-        "trade-mcq-11": "「彼此交換原本所佔的位置或角色」是「5. trade = exchange positions/roles（位置／角色） — 互換；交換位置」的用法，與本句語境不同。",
-        "trade-mcq-06": "「國家或地區之間買賣商品和服務的商業活動；屬於」是「trade — international commerce」的用法，與本句語境不同。"
+        "trade-mcq-09": "本句的「trader」指「以買賣商品、股票、貨幣等作為工作或業務的人／公司」。",
+        "trade-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-09"
     },
@@ -1003,11 +883,7 @@ export default {
       "masked": "Local ____ sell fruit and vegetables in the market.",
       "options": [
         "trade-mcq-09",
-        "trade-mcq-08",
-        "trade-mcq-10",
-        "trade-mcq-07",
-        "trade-mcq-11",
-        "trade-mcq-06"
+        "trade-mcq-12"
       ],
       "explanation": "本句的「traders」指「以買賣商品、股票、貨幣等作為工作或業務的人／公司」。",
       "sentenceIndex": 24,
@@ -1016,12 +892,8 @@ export default {
         "traders"
       ],
       "optionReasons": {
-        "trade-mcq-09": "本句指「以買賣商品、股票、貨幣等作為工作或業務的人／公司」。",
-        "trade-mcq-08": "「持續或有組織地進行買賣的活動」是「trading」的用法，與本句語境不同。",
-        "trade-mcq-10": "「在金融市場上買入和賣出股票、貨幣、商品或其他金融資產」是「3. trade = exchange financial assets（金融） — 買賣；交易」的用法，與本句語境不同。",
-        "trade-mcq-07": "「一次具體的買入、賣出或交換交易」是「a trade — transaction」的用法，與本句語境不同。",
-        "trade-mcq-11": "「彼此交換原本所佔的位置或角色」是「5. trade = exchange positions/roles（位置／角色） — 互換；交換位置」的用法，與本句語境不同。",
-        "trade-mcq-06": "「國家或地區之間買賣商品和服務的商業活動；屬於」是「trade — international commerce」的用法，與本句語境不同。"
+        "trade-mcq-09": "本句的「traders」指「以買賣商品、股票、貨幣等作為工作或業務的人／公司」。",
+        "trade-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trade-mcq-09"
     }
@@ -1033,5 +905,7 @@ export default {
     "sha256": "c264627e1c752036b295bccf477d1c7defcc737711e0ea6ed9896b91cfa03b91",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -526,11 +526,9 @@ export default {
       "masked": "She insists on making ____ for everyone.",
       "options": [
         "tea-mcq-01",
-        "tea-mcq-02",
-        "tea-mcq-03",
-        "tea-mcq-04",
-        "tea-mcq-05",
-        "tea-mcq-06"
+        "tea-mcq-18",
+        "tea-mcq-17",
+        "tea-mcq-10"
       ],
       "explanation": "本句的「tea」指「用茶葉加熱水沖泡而成的飲品」。",
       "sentenceIndex": 0,
@@ -539,12 +537,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-01": "本句指「用茶葉加熱水沖泡而成的飲品」。",
-        "tea-mcq-02": "「一份茶飲，或某一種／多種茶葉或茶飲種類」是「a tea / teas = a serving or type of tea（一杯／一種茶）」的用法，與本句語境不同。",
-        "tea-mcq-03": "「用來沖泡茶飲的茶葉或茶葉產品」是「tea = tea leaves/product（茶葉）」的用法，與本句語境不同。",
-        "tea-mcq-04": "「用來生產茶葉的茶樹作物／植物」是「tea plant（茶樹）」的用法，與本句語境不同。",
-        "tea-mcq-05": "「不同加工方法、品種或風格的茶飲／茶葉」是「black/green/white/oolong tea（不同種類的茶）」的用法，與本句語境不同。",
-        "tea-mcq-06": "「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」是「herbal tea（花草茶／草本飲品）」的用法，與本句語境不同。"
+        "tea-mcq-01": "本句的「tea」指「用茶葉加熱水沖泡而成的飲品」。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-01"
     },
@@ -556,11 +552,9 @@ export default {
       "masked": "Would you like some ____?",
       "options": [
         "tea-mcq-01",
-        "tea-mcq-02",
-        "tea-mcq-03",
-        "tea-mcq-04",
-        "tea-mcq-05",
-        "tea-mcq-06"
+        "tea-mcq-15",
+        "tea-mcq-10",
+        "tea-mcq-14"
       ],
       "explanation": "本句的「tea」指「用茶葉加熱水沖泡而成的飲品」。",
       "sentenceIndex": 1,
@@ -569,12 +563,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-01": "本句指「用茶葉加熱水沖泡而成的飲品」。",
-        "tea-mcq-02": "「一份茶飲，或某一種／多種茶葉或茶飲種類」是「a tea / teas = a serving or type of tea（一杯／一種茶）」的用法，與本句語境不同。",
-        "tea-mcq-03": "「用來沖泡茶飲的茶葉或茶葉產品」是「tea = tea leaves/product（茶葉）」的用法，與本句語境不同。",
-        "tea-mcq-04": "「用來生產茶葉的茶樹作物／植物」是「tea plant（茶樹）」的用法，與本句語境不同。",
-        "tea-mcq-05": "「不同加工方法、品種或風格的茶飲／茶葉」是「black/green/white/oolong tea（不同種類的茶）」的用法，與本句語境不同。",
-        "tea-mcq-06": "「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」是「herbal tea（花草茶／草本飲品）」的用法，與本句語境不同。"
+        "tea-mcq-01": "本句的「tea」指「用茶葉加熱水沖泡而成的飲品」。",
+        "tea-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-01"
     },
@@ -586,11 +578,9 @@ export default {
       "masked": "I usually drink ____ after lunch.",
       "options": [
         "tea-mcq-01",
-        "tea-mcq-02",
-        "tea-mcq-03",
-        "tea-mcq-04",
-        "tea-mcq-05",
-        "tea-mcq-06"
+        "tea-mcq-15",
+        "tea-mcq-07",
+        "tea-mcq-14"
       ],
       "explanation": "本句的「tea」指「用茶葉加熱水沖泡而成的飲品」。",
       "sentenceIndex": 2,
@@ -599,12 +589,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-01": "本句指「用茶葉加熱水沖泡而成的飲品」。",
-        "tea-mcq-02": "「一份茶飲，或某一種／多種茶葉或茶飲種類」是「a tea / teas = a serving or type of tea（一杯／一種茶）」的用法，與本句語境不同。",
-        "tea-mcq-03": "「用來沖泡茶飲的茶葉或茶葉產品」是「tea = tea leaves/product（茶葉）」的用法，與本句語境不同。",
-        "tea-mcq-04": "「用來生產茶葉的茶樹作物／植物」是「tea plant（茶樹）」的用法，與本句語境不同。",
-        "tea-mcq-05": "「不同加工方法、品種或風格的茶飲／茶葉」是「black/green/white/oolong tea（不同種類的茶）」的用法，與本句語境不同。",
-        "tea-mcq-06": "「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」是「herbal tea（花草茶／草本飲品）」的用法，與本句語境不同。"
+        "tea-mcq-01": "本句的「tea」指「用茶葉加熱水沖泡而成的飲品」。",
+        "tea-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-01"
     },
@@ -616,11 +604,9 @@ export default {
       "masked": "Two ____, please.",
       "options": [
         "tea-mcq-02",
-        "tea-mcq-01",
-        "tea-mcq-03",
-        "tea-mcq-04",
-        "tea-mcq-05",
-        "tea-mcq-06"
+        "tea-mcq-07",
+        "tea-mcq-15",
+        "tea-mcq-14"
       ],
       "explanation": "本句的「teas」指「一份茶飲，或某一種／多種茶葉或茶飲種類」。",
       "sentenceIndex": 3,
@@ -629,12 +615,10 @@ export default {
         "teas"
       ],
       "optionReasons": {
-        "tea-mcq-02": "本句指「一份茶飲，或某一種／多種茶葉或茶飲種類」。",
-        "tea-mcq-01": "「用茶葉加熱水沖泡而成的飲品」是「tea = drink made from tea leaves（茶飲）」的用法，與本句語境不同。",
-        "tea-mcq-03": "「用來沖泡茶飲的茶葉或茶葉產品」是「tea = tea leaves/product（茶葉）」的用法，與本句語境不同。",
-        "tea-mcq-04": "「用來生產茶葉的茶樹作物／植物」是「tea plant（茶樹）」的用法，與本句語境不同。",
-        "tea-mcq-05": "「不同加工方法、品種或風格的茶飲／茶葉」是「black/green/white/oolong tea（不同種類的茶）」的用法，與本句語境不同。",
-        "tea-mcq-06": "「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」是「herbal tea（花草茶／草本飲品）」的用法，與本句語境不同。"
+        "tea-mcq-02": "本句的「teas」指「一份茶飲，或某一種／多種茶葉或茶飲種類」。",
+        "tea-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-02"
     },
@@ -646,11 +630,9 @@ export default {
       "masked": "The shop sells many different ____.",
       "options": [
         "tea-mcq-02",
-        "tea-mcq-01",
-        "tea-mcq-03",
-        "tea-mcq-04",
-        "tea-mcq-05",
-        "tea-mcq-06"
+        "tea-mcq-07",
+        "tea-mcq-18",
+        "tea-mcq-16"
       ],
       "explanation": "本句的「teas」指「一份茶飲，或某一種／多種茶葉或茶飲種類」。",
       "sentenceIndex": 4,
@@ -659,12 +641,10 @@ export default {
         "teas"
       ],
       "optionReasons": {
-        "tea-mcq-02": "本句指「一份茶飲，或某一種／多種茶葉或茶飲種類」。",
-        "tea-mcq-01": "「用茶葉加熱水沖泡而成的飲品」是「tea = drink made from tea leaves（茶飲）」的用法，與本句語境不同。",
-        "tea-mcq-03": "「用來沖泡茶飲的茶葉或茶葉產品」是「tea = tea leaves/product（茶葉）」的用法，與本句語境不同。",
-        "tea-mcq-04": "「用來生產茶葉的茶樹作物／植物」是「tea plant（茶樹）」的用法，與本句語境不同。",
-        "tea-mcq-05": "「不同加工方法、品種或風格的茶飲／茶葉」是「black/green/white/oolong tea（不同種類的茶）」的用法，與本句語境不同。",
-        "tea-mcq-06": "「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」是「herbal tea（花草茶／草本飲品）」的用法，與本句語境不同。"
+        "tea-mcq-02": "本句的「teas」指「一份茶飲，或某一種／多種茶葉或茶飲種類」。",
+        "tea-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-02"
     },
@@ -676,11 +656,9 @@ export default {
       "masked": "Add one spoonful of ____ to the pot.",
       "options": [
         "tea-mcq-03",
-        "tea-mcq-02",
-        "tea-mcq-04",
-        "tea-mcq-01",
-        "tea-mcq-05",
-        "tea-mcq-06"
+        "tea-mcq-18",
+        "tea-mcq-17",
+        "tea-mcq-07"
       ],
       "explanation": "本句的「tea」指「用來沖泡茶飲的茶葉或茶葉產品」。",
       "sentenceIndex": 5,
@@ -689,12 +667,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-03": "本句指「用來沖泡茶飲的茶葉或茶葉產品」。",
-        "tea-mcq-02": "「一份茶飲，或某一種／多種茶葉或茶飲種類」是「a tea / teas = a serving or type of tea（一杯／一種茶）」的用法，與本句語境不同。",
-        "tea-mcq-04": "「用來生產茶葉的茶樹作物／植物」是「tea plant（茶樹）」的用法，與本句語境不同。",
-        "tea-mcq-01": "「用茶葉加熱水沖泡而成的飲品」是「tea = drink made from tea leaves（茶飲）」的用法，與本句語境不同。",
-        "tea-mcq-05": "「不同加工方法、品種或風格的茶飲／茶葉」是「black/green/white/oolong tea（不同種類的茶）」的用法，與本句語境不同。",
-        "tea-mcq-06": "「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」是「herbal tea（花草茶／草本飲品）」的用法，與本句語境不同。"
+        "tea-mcq-03": "本句的「tea」指「用來沖泡茶飲的茶葉或茶葉產品」。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-03"
     },
@@ -706,11 +682,9 @@ export default {
       "masked": "This ____ comes from Taiwan.",
       "options": [
         "tea-mcq-03",
-        "tea-mcq-02",
-        "tea-mcq-04",
-        "tea-mcq-01",
-        "tea-mcq-05",
-        "tea-mcq-06"
+        "tea-mcq-10",
+        "tea-mcq-17",
+        "tea-mcq-18"
       ],
       "explanation": "本句的「tea」指「用來沖泡茶飲的茶葉或茶葉產品」。",
       "sentenceIndex": 6,
@@ -719,12 +693,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-03": "本句指「用來沖泡茶飲的茶葉或茶葉產品」。",
-        "tea-mcq-02": "「一份茶飲，或某一種／多種茶葉或茶飲種類」是「a tea / teas = a serving or type of tea（一杯／一種茶）」的用法，與本句語境不同。",
-        "tea-mcq-04": "「用來生產茶葉的茶樹作物／植物」是「tea plant（茶樹）」的用法，與本句語境不同。",
-        "tea-mcq-01": "「用茶葉加熱水沖泡而成的飲品」是「tea = drink made from tea leaves（茶飲）」的用法，與本句語境不同。",
-        "tea-mcq-05": "「不同加工方法、品種或風格的茶飲／茶葉」是「black/green/white/oolong tea（不同種類的茶）」的用法，與本句語境不同。",
-        "tea-mcq-06": "「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」是「herbal tea（花草茶／草本飲品）」的用法，與本句語境不同。"
+        "tea-mcq-03": "本句的「tea」指「用來沖泡茶飲的茶葉或茶葉產品」。",
+        "tea-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-03"
     },
@@ -736,11 +708,9 @@ export default {
       "masked": "____ is grown in warm, wet climates.",
       "options": [
         "tea-mcq-04",
-        "tea-mcq-03",
-        "tea-mcq-05",
-        "tea-mcq-02",
-        "tea-mcq-06",
-        "tea-mcq-01"
+        "tea-mcq-10",
+        "tea-mcq-17",
+        "tea-mcq-18"
       ],
       "explanation": "本句的「Tea」指「用來生產茶葉的茶樹作物／植物」。",
       "sentenceIndex": 7,
@@ -749,12 +719,10 @@ export default {
         "Tea"
       ],
       "optionReasons": {
-        "tea-mcq-04": "本句指「用來生產茶葉的茶樹作物／植物」。",
-        "tea-mcq-03": "「用來沖泡茶飲的茶葉或茶葉產品」是「tea = tea leaves/product（茶葉）」的用法，與本句語境不同。",
-        "tea-mcq-05": "「不同加工方法、品種或風格的茶飲／茶葉」是「black/green/white/oolong tea（不同種類的茶）」的用法，與本句語境不同。",
-        "tea-mcq-02": "「一份茶飲，或某一種／多種茶葉或茶飲種類」是「a tea / teas = a serving or type of tea（一杯／一種茶）」的用法，與本句語境不同。",
-        "tea-mcq-06": "「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」是「herbal tea（花草茶／草本飲品）」的用法，與本句語境不同。",
-        "tea-mcq-01": "「用茶葉加熱水沖泡而成的飲品」是「tea = drink made from tea leaves（茶飲）」的用法，與本句語境不同。"
+        "tea-mcq-04": "本句的「Tea」指「用來生產茶葉的茶樹作物／植物」。",
+        "tea-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-04"
     },
@@ -766,11 +734,9 @@ export default {
       "masked": "The farm grows ____ on the hillside.",
       "options": [
         "tea-mcq-04",
-        "tea-mcq-03",
-        "tea-mcq-05",
-        "tea-mcq-02",
-        "tea-mcq-06",
-        "tea-mcq-01"
+        "tea-mcq-18",
+        "tea-mcq-07",
+        "tea-mcq-17"
       ],
       "explanation": "本句的「tea」指「用來生產茶葉的茶樹作物／植物」。",
       "sentenceIndex": 8,
@@ -779,12 +745,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-04": "本句指「用來生產茶葉的茶樹作物／植物」。",
-        "tea-mcq-03": "「用來沖泡茶飲的茶葉或茶葉產品」是「tea = tea leaves/product（茶葉）」的用法，與本句語境不同。",
-        "tea-mcq-05": "「不同加工方法、品種或風格的茶飲／茶葉」是「black/green/white/oolong tea（不同種類的茶）」的用法，與本句語境不同。",
-        "tea-mcq-02": "「一份茶飲，或某一種／多種茶葉或茶飲種類」是「a tea / teas = a serving or type of tea（一杯／一種茶）」的用法，與本句語境不同。",
-        "tea-mcq-06": "「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」是「herbal tea（花草茶／草本飲品）」的用法，與本句語境不同。",
-        "tea-mcq-01": "「用茶葉加熱水沖泡而成的飲品」是「tea = drink made from tea leaves（茶飲）」的用法，與本句語境不同。"
+        "tea-mcq-04": "本句的「tea」指「用來生產茶葉的茶樹作物／植物」。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-04"
     },
@@ -796,11 +760,9 @@ export default {
       "masked": "She prefers ____.",
       "options": [
         "tea-mcq-05",
-        "tea-mcq-04",
-        "tea-mcq-06",
-        "tea-mcq-03",
-        "tea-mcq-07",
-        "tea-mcq-02"
+        "tea-mcq-10",
+        "tea-mcq-16",
+        "tea-mcq-18"
       ],
       "explanation": "本句的「green tea」指「不同加工方法、品種或風格的茶飲／茶葉」。",
       "sentenceIndex": 9,
@@ -809,12 +771,10 @@ export default {
         "green tea"
       ],
       "optionReasons": {
-        "tea-mcq-05": "本句指「不同加工方法、品種或風格的茶飲／茶葉」。",
-        "tea-mcq-04": "「用來生產茶葉的茶樹作物／植物」是「tea plant（茶樹）」的用法，與本句語境不同。",
-        "tea-mcq-06": "「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」是「herbal tea（花草茶／草本飲品）」的用法，與本句語境不同。",
-        "tea-mcq-03": "「用來沖泡茶飲的茶葉或茶葉產品」是「tea = tea leaves/product（茶葉）」的用法，與本句語境不同。",
-        "tea-mcq-07": "「英式英語中某些下午或傍晚的一餐；具體意思視地區和家庭習慣而定」是「tea = meal, especially British English（茶點／一餐）」的用法，與本句語境不同。",
-        "tea-mcq-02": "「一份茶飲，或某一種／多種茶葉或茶飲種類」是「a tea / teas = a serving or type of tea（一杯／一種茶）」的用法，與本句語境不同。"
+        "tea-mcq-05": "本句的「green tea」指「不同加工方法、品種或風格的茶飲／茶葉」。",
+        "tea-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-05"
     },
@@ -826,11 +786,9 @@ export default {
       "masked": "Would you like black ____ or oolong tea?",
       "options": [
         "tea-mcq-05",
-        "tea-mcq-04",
-        "tea-mcq-06",
-        "tea-mcq-03",
-        "tea-mcq-07",
-        "tea-mcq-02"
+        "tea-mcq-17",
+        "tea-mcq-18",
+        "tea-mcq-07"
       ],
       "explanation": "本句的「tea」指「不同加工方法、品種或風格的茶飲／茶葉」。",
       "sentenceIndex": 10,
@@ -839,12 +797,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-05": "本句指「不同加工方法、品種或風格的茶飲／茶葉」。",
-        "tea-mcq-04": "「用來生產茶葉的茶樹作物／植物」是「tea plant（茶樹）」的用法，與本句語境不同。",
-        "tea-mcq-06": "「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」是「herbal tea（花草茶／草本飲品）」的用法，與本句語境不同。",
-        "tea-mcq-03": "「用來沖泡茶飲的茶葉或茶葉產品」是「tea = tea leaves/product（茶葉）」的用法，與本句語境不同。",
-        "tea-mcq-07": "「英式英語中某些下午或傍晚的一餐；具體意思視地區和家庭習慣而定」是「tea = meal, especially British English（茶點／一餐）」的用法，與本句語境不同。",
-        "tea-mcq-02": "「一份茶飲，或某一種／多種茶葉或茶飲種類」是「a tea / teas = a serving or type of tea（一杯／一種茶）」的用法，與本句語境不同。"
+        "tea-mcq-05": "本句的「tea」指「不同加工方法、品種或風格的茶飲／茶葉」。",
+        "tea-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-05"
     },
@@ -856,11 +812,9 @@ export default {
       "masked": "She drinks ____ before bed.",
       "options": [
         "tea-mcq-06",
-        "tea-mcq-05",
-        "tea-mcq-07",
-        "tea-mcq-04",
-        "tea-mcq-08",
-        "tea-mcq-03"
+        "tea-mcq-16",
+        "tea-mcq-18",
+        "tea-mcq-09"
       ],
       "explanation": "本句的「herbal tea」指「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」。",
       "sentenceIndex": 11,
@@ -869,12 +823,10 @@ export default {
         "herbal tea"
       ],
       "optionReasons": {
-        "tea-mcq-06": "本句指「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」。",
-        "tea-mcq-05": "「不同加工方法、品種或風格的茶飲／茶葉」是「black/green/white/oolong tea（不同種類的茶）」的用法，與本句語境不同。",
-        "tea-mcq-07": "「英式英語中某些下午或傍晚的一餐；具體意思視地區和家庭習慣而定」是「tea = meal, especially British English（茶點／一餐）」的用法，與本句語境不同。",
-        "tea-mcq-04": "「用來生產茶葉的茶樹作物／植物」是「tea plant（茶樹）」的用法，與本句語境不同。",
-        "tea-mcq-08": "「下午享用茶飲並配以三文治、糕點等小食的一種茶點／社交餐飲活動」是「afternoon tea（下午茶）」的用法，與本句語境不同。",
-        "tea-mcq-03": "「用來沖泡茶飲的茶葉或茶葉產品」是「tea = tea leaves/product（茶葉）」的用法，與本句語境不同。"
+        "tea-mcq-06": "本句的「herbal tea」指「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-06"
     },
@@ -886,11 +838,9 @@ export default {
       "masked": "The café offers several herbal ____.",
       "options": [
         "tea-mcq-06",
-        "tea-mcq-05",
-        "tea-mcq-07",
-        "tea-mcq-04",
-        "tea-mcq-08",
-        "tea-mcq-03"
+        "tea-mcq-18",
+        "tea-mcq-16",
+        "tea-mcq-07"
       ],
       "explanation": "本句的「teas」指「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」。",
       "sentenceIndex": 12,
@@ -899,12 +849,10 @@ export default {
         "teas"
       ],
       "optionReasons": {
-        "tea-mcq-06": "本句指「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」。",
-        "tea-mcq-05": "「不同加工方法、品種或風格的茶飲／茶葉」是「black/green/white/oolong tea（不同種類的茶）」的用法，與本句語境不同。",
-        "tea-mcq-07": "「英式英語中某些下午或傍晚的一餐；具體意思視地區和家庭習慣而定」是「tea = meal, especially British English（茶點／一餐）」的用法，與本句語境不同。",
-        "tea-mcq-04": "「用來生產茶葉的茶樹作物／植物」是「tea plant（茶樹）」的用法，與本句語境不同。",
-        "tea-mcq-08": "「下午享用茶飲並配以三文治、糕點等小食的一種茶點／社交餐飲活動」是「afternoon tea（下午茶）」的用法，與本句語境不同。",
-        "tea-mcq-03": "「用來沖泡茶飲的茶葉或茶葉產品」是「tea = tea leaves/product（茶葉）」的用法，與本句語境不同。"
+        "tea-mcq-06": "本句的「teas」指「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-06"
     },
@@ -916,11 +864,9 @@ export default {
       "masked": "We had ____ at four o’clock.",
       "options": [
         "tea-mcq-07",
-        "tea-mcq-06",
-        "tea-mcq-08",
-        "tea-mcq-05",
-        "tea-mcq-09",
-        "tea-mcq-04"
+        "tea-mcq-22",
+        "tea-mcq-19",
+        "tea-mcq-16"
       ],
       "explanation": "本句的「tea」指「英式英語中某些下午或傍晚的一餐；具體意思視地區和家庭習慣而定」。",
       "sentenceIndex": 13,
@@ -929,12 +875,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-07": "本句指「英式英語中某些下午或傍晚的一餐；具體意思視地區和家庭習慣而定」。",
-        "tea-mcq-06": "「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」是「herbal tea（花草茶／草本飲品）」的用法，與本句語境不同。",
-        "tea-mcq-08": "「下午享用茶飲並配以三文治、糕點等小食的一種茶點／社交餐飲活動」是「afternoon tea（下午茶）」的用法，與本句語境不同。",
-        "tea-mcq-05": "「不同加工方法、品種或風格的茶飲／茶葉」是「black/green/white/oolong tea（不同種類的茶）」的用法，與本句語境不同。",
-        "tea-mcq-09": "「傳統上較接近傍晚一餐、食物比 afternoon tea 更飽肚的茶餐」是「high tea（較豐富的傍晚茶餐）」的用法，與本句語境不同。",
-        "tea-mcq-04": "「用來生產茶葉的茶樹作物／植物」是「tea plant（茶樹）」的用法，與本句語境不同。"
+        "tea-mcq-07": "本句的「tea」指「英式英語中某些下午或傍晚的一餐；具體意思視地區和家庭習慣而定」。",
+        "tea-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-07"
     },
@@ -946,11 +890,9 @@ export default {
       "masked": "The children had their ____ before six.",
       "options": [
         "tea-mcq-07",
-        "tea-mcq-06",
-        "tea-mcq-08",
-        "tea-mcq-05",
-        "tea-mcq-09",
-        "tea-mcq-04"
+        "tea-mcq-11",
+        "tea-mcq-21",
+        "tea-mcq-17"
       ],
       "explanation": "本句的「tea」指「英式英語中某些下午或傍晚的一餐；具體意思視地區和家庭習慣而定」。",
       "sentenceIndex": 14,
@@ -959,12 +901,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-07": "本句指「英式英語中某些下午或傍晚的一餐；具體意思視地區和家庭習慣而定」。",
-        "tea-mcq-06": "「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」是「herbal tea（花草茶／草本飲品）」的用法，與本句語境不同。",
-        "tea-mcq-08": "「下午享用茶飲並配以三文治、糕點等小食的一種茶點／社交餐飲活動」是「afternoon tea（下午茶）」的用法，與本句語境不同。",
-        "tea-mcq-05": "「不同加工方法、品種或風格的茶飲／茶葉」是「black/green/white/oolong tea（不同種類的茶）」的用法，與本句語境不同。",
-        "tea-mcq-09": "「傳統上較接近傍晚一餐、食物比 afternoon tea 更飽肚的茶餐」是「high tea（較豐富的傍晚茶餐）」的用法，與本句語境不同。",
-        "tea-mcq-04": "「用來生產茶葉的茶樹作物／植物」是「tea plant（茶樹）」的用法，與本句語境不同。"
+        "tea-mcq-07": "本句的「tea」指「英式英語中某些下午或傍晚的一餐；具體意思視地區和家庭習慣而定」。",
+        "tea-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-07"
     },
@@ -976,11 +916,9 @@ export default {
       "masked": "We had ____ at the hotel.",
       "options": [
         "tea-mcq-08",
-        "tea-mcq-07",
-        "tea-mcq-09",
-        "tea-mcq-06",
-        "tea-mcq-10",
-        "tea-mcq-05"
+        "tea-mcq-16",
+        "tea-mcq-18",
+        "tea-mcq-10"
       ],
       "explanation": "本句的「afternoon tea」指「下午享用茶飲並配以三文治、糕點等小食的一種茶點／社交餐飲活動」。",
       "sentenceIndex": 15,
@@ -989,12 +927,10 @@ export default {
         "afternoon tea"
       ],
       "optionReasons": {
-        "tea-mcq-08": "本句指「下午享用茶飲並配以三文治、糕點等小食的一種茶點／社交餐飲活動」。",
-        "tea-mcq-07": "「英式英語中某些下午或傍晚的一餐；具體意思視地區和家庭習慣而定」是「tea = meal, especially British English（茶點／一餐）」的用法，與本句語境不同。",
-        "tea-mcq-09": "「傳統上較接近傍晚一餐、食物比 afternoon tea 更飽肚的茶餐」是「high tea（較豐富的傍晚茶餐）」的用法，與本句語境不同。",
-        "tea-mcq-06": "「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」是「herbal tea（花草茶／草本飲品）」的用法，與本句語境不同。",
-        "tea-mcq-10": "「部分英國英語中指傍晚／晚上的正餐」是「tea = evening meal（晚餐；部分英國地區）」的用法，與本句語境不同。",
-        "tea-mcq-05": "「不同加工方法、品種或風格的茶飲／茶葉」是「black/green/white/oolong tea（不同種類的茶）」的用法，與本句語境不同。"
+        "tea-mcq-08": "本句的「afternoon tea」指「下午享用茶飲並配以三文治、糕點等小食的一種茶點／社交餐飲活動」。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-08"
     },
@@ -1006,11 +942,9 @@ export default {
       "masked": "Afternoon ____ usually includes tea and small snacks.",
       "options": [
         "tea-mcq-08",
-        "tea-mcq-07",
-        "tea-mcq-09",
-        "tea-mcq-06",
-        "tea-mcq-10",
-        "tea-mcq-05"
+        "tea-mcq-18",
+        "tea-mcq-17",
+        "tea-mcq-04"
       ],
       "explanation": "本句的「tea」指「下午享用茶飲並配以三文治、糕點等小食的一種茶點／社交餐飲活動」。",
       "sentenceIndex": 16,
@@ -1019,12 +953,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-08": "本句指「下午享用茶飲並配以三文治、糕點等小食的一種茶點／社交餐飲活動」。",
-        "tea-mcq-07": "「英式英語中某些下午或傍晚的一餐；具體意思視地區和家庭習慣而定」是「tea = meal, especially British English（茶點／一餐）」的用法，與本句語境不同。",
-        "tea-mcq-09": "「傳統上較接近傍晚一餐、食物比 afternoon tea 更飽肚的茶餐」是「high tea（較豐富的傍晚茶餐）」的用法，與本句語境不同。",
-        "tea-mcq-06": "「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」是「herbal tea（花草茶／草本飲品）」的用法，與本句語境不同。",
-        "tea-mcq-10": "「部分英國英語中指傍晚／晚上的正餐」是「tea = evening meal（晚餐；部分英國地區）」的用法，與本句語境不同。",
-        "tea-mcq-05": "「不同加工方法、品種或風格的茶飲／茶葉」是「black/green/white/oolong tea（不同種類的茶）」的用法，與本句語境不同。"
+        "tea-mcq-08": "本句的「tea」指「下午享用茶飲並配以三文治、糕點等小食的一種茶點／社交餐飲活動」。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-08"
     },
@@ -1036,11 +968,9 @@ export default {
       "masked": "The guesthouse serves ____ in the early evening.",
       "options": [
         "tea-mcq-09",
-        "tea-mcq-08",
-        "tea-mcq-10",
-        "tea-mcq-07",
-        "tea-mcq-11",
-        "tea-mcq-06"
+        "tea-mcq-18",
+        "tea-mcq-16",
+        "tea-mcq-02"
       ],
       "explanation": "本句的「high tea」指「傳統上較接近傍晚一餐、食物比 afternoon tea 更飽肚的茶餐」。",
       "sentenceIndex": 17,
@@ -1049,12 +979,10 @@ export default {
         "high tea"
       ],
       "optionReasons": {
-        "tea-mcq-09": "本句指「傳統上較接近傍晚一餐、食物比 afternoon tea 更飽肚的茶餐」。",
-        "tea-mcq-08": "「下午享用茶飲並配以三文治、糕點等小食的一種茶點／社交餐飲活動」是「afternoon tea（下午茶）」的用法，與本句語境不同。",
-        "tea-mcq-10": "「部分英國英語中指傍晚／晚上的正餐」是「tea = evening meal（晚餐；部分英國地區）」的用法，與本句語境不同。",
-        "tea-mcq-07": "「英式英語中某些下午或傍晚的一餐；具體意思視地區和家庭習慣而定」是「tea = meal, especially British English（茶點／一餐）」的用法，與本句語境不同。",
-        "tea-mcq-11": "「工作／活動期間短暫休息喝茶、咖啡或其他飲品的時間」是「tea break（茶歇／休息時間）」的用法，與本句語境不同。",
-        "tea-mcq-06": "「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」是「herbal tea（花草茶／草本飲品）」的用法，與本句語境不同。"
+        "tea-mcq-09": "本句的「high tea」指「傳統上較接近傍晚一餐、食物比 afternoon tea 更飽肚的茶餐」。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-09"
     },
@@ -1066,11 +994,9 @@ export default {
       "masked": "High ____ traditionally includes more substantial food than afternoon tea.",
       "options": [
         "tea-mcq-09",
-        "tea-mcq-08",
-        "tea-mcq-10",
-        "tea-mcq-07",
-        "tea-mcq-11",
-        "tea-mcq-06"
+        "tea-mcq-19",
+        "tea-mcq-16",
+        "tea-mcq-02"
       ],
       "explanation": "本句的「tea」指「傳統上較接近傍晚一餐、食物比 afternoon tea 更飽肚的茶餐」。",
       "sentenceIndex": 18,
@@ -1079,12 +1005,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-09": "本句指「傳統上較接近傍晚一餐、食物比 afternoon tea 更飽肚的茶餐」。",
-        "tea-mcq-08": "「下午享用茶飲並配以三文治、糕點等小食的一種茶點／社交餐飲活動」是「afternoon tea（下午茶）」的用法，與本句語境不同。",
-        "tea-mcq-10": "「部分英國英語中指傍晚／晚上的正餐」是「tea = evening meal（晚餐；部分英國地區）」的用法，與本句語境不同。",
-        "tea-mcq-07": "「英式英語中某些下午或傍晚的一餐；具體意思視地區和家庭習慣而定」是「tea = meal, especially British English（茶點／一餐）」的用法，與本句語境不同。",
-        "tea-mcq-11": "「工作／活動期間短暫休息喝茶、咖啡或其他飲品的時間」是「tea break（茶歇／休息時間）」的用法，與本句語境不同。",
-        "tea-mcq-06": "「將草本植物、花、果實等用熱水浸泡而成的飲品，不一定含真正茶葉」是「herbal tea（花草茶／草本飲品）」的用法，與本句語境不同。"
+        "tea-mcq-09": "本句的「tea」指「傳統上較接近傍晚一餐、食物比 afternoon tea 更飽肚的茶餐」。",
+        "tea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-09"
     },
@@ -1096,11 +1020,9 @@ export default {
       "masked": "What are we having for ____?",
       "options": [
         "tea-mcq-10",
-        "tea-mcq-09",
-        "tea-mcq-11",
-        "tea-mcq-08",
-        "tea-mcq-12",
-        "tea-mcq-07"
+        "tea-mcq-05",
+        "tea-mcq-19",
+        "tea-mcq-16"
       ],
       "explanation": "本句的「tea」指「部分英國英語中指傍晚／晚上的正餐」。",
       "sentenceIndex": 19,
@@ -1109,12 +1031,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-10": "本句指「部分英國英語中指傍晚／晚上的正餐」。",
-        "tea-mcq-09": "「傳統上較接近傍晚一餐、食物比 afternoon tea 更飽肚的茶餐」是「high tea（較豐富的傍晚茶餐）」的用法，與本句語境不同。",
-        "tea-mcq-11": "「工作／活動期間短暫休息喝茶、咖啡或其他飲品的時間」是「tea break（茶歇／休息時間）」的用法，與本句語境不同。",
-        "tea-mcq-08": "「下午享用茶飲並配以三文治、糕點等小食的一種茶點／社交餐飲活動」是「afternoon tea（下午茶）」的用法，與本句語境不同。",
-        "tea-mcq-12": "「主要供應茶、飲品、糕點及輕食的小型餐飲場所」是「tea room / tearoom（茶室）」的用法，與本句語境不同。",
-        "tea-mcq-07": "「英式英語中某些下午或傍晚的一餐；具體意思視地區和家庭習慣而定」是「tea = meal, especially British English（茶點／一餐）」的用法，與本句語境不同。"
+        "tea-mcq-10": "本句的「tea」指「部分英國英語中指傍晚／晚上的正餐」。",
+        "tea-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-10"
     },
@@ -1126,11 +1046,9 @@ export default {
       "masked": "____ will be ready at six.",
       "options": [
         "tea-mcq-10",
-        "tea-mcq-09",
-        "tea-mcq-11",
-        "tea-mcq-08",
-        "tea-mcq-12",
-        "tea-mcq-07"
+        "tea-mcq-23",
+        "tea-mcq-16",
+        "tea-mcq-18"
       ],
       "explanation": "本句的「Tea」指「部分英國英語中指傍晚／晚上的正餐」。",
       "sentenceIndex": 20,
@@ -1139,12 +1057,10 @@ export default {
         "Tea"
       ],
       "optionReasons": {
-        "tea-mcq-10": "本句指「部分英國英語中指傍晚／晚上的正餐」。",
-        "tea-mcq-09": "「傳統上較接近傍晚一餐、食物比 afternoon tea 更飽肚的茶餐」是「high tea（較豐富的傍晚茶餐）」的用法，與本句語境不同。",
-        "tea-mcq-11": "「工作／活動期間短暫休息喝茶、咖啡或其他飲品的時間」是「tea break（茶歇／休息時間）」的用法，與本句語境不同。",
-        "tea-mcq-08": "「下午享用茶飲並配以三文治、糕點等小食的一種茶點／社交餐飲活動」是「afternoon tea（下午茶）」的用法，與本句語境不同。",
-        "tea-mcq-12": "「主要供應茶、飲品、糕點及輕食的小型餐飲場所」是「tea room / tearoom（茶室）」的用法，與本句語境不同。",
-        "tea-mcq-07": "「英式英語中某些下午或傍晚的一餐；具體意思視地區和家庭習慣而定」是「tea = meal, especially British English（茶點／一餐）」的用法，與本句語境不同。"
+        "tea-mcq-10": "本句的「Tea」指「部分英國英語中指傍晚／晚上的正餐」。",
+        "tea-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-10"
     },
@@ -1156,11 +1072,9 @@ export default {
       "masked": "We took a ____ at eleven.",
       "options": [
         "tea-mcq-11",
-        "tea-mcq-10",
-        "tea-mcq-12",
-        "tea-mcq-09",
-        "tea-mcq-13",
-        "tea-mcq-08"
+        "tea-mcq-18",
+        "tea-mcq-07",
+        "tea-mcq-17"
       ],
       "explanation": "本句的「tea break」指「工作／活動期間短暫休息喝茶、咖啡或其他飲品的時間」。",
       "sentenceIndex": 21,
@@ -1169,12 +1083,10 @@ export default {
         "tea break"
       ],
       "optionReasons": {
-        "tea-mcq-11": "本句指「工作／活動期間短暫休息喝茶、咖啡或其他飲品的時間」。",
-        "tea-mcq-10": "「部分英國英語中指傍晚／晚上的正餐」是「tea = evening meal（晚餐；部分英國地區）」的用法，與本句語境不同。",
-        "tea-mcq-12": "「主要供應茶、飲品、糕點及輕食的小型餐飲場所」是「tea room / tearoom（茶室）」的用法，與本句語境不同。",
-        "tea-mcq-09": "「傳統上較接近傍晚一餐、食物比 afternoon tea 更飽肚的茶餐」是「high tea（較豐富的傍晚茶餐）」的用法，與本句語境不同。",
-        "tea-mcq-13": "「以泡茶、奉茶、飲茶為核心並具有禮儀／文化意義的正式活動」是「tea ceremony（茶道／茶禮）」的用法，與本句語境不同。",
-        "tea-mcq-08": "「下午享用茶飲並配以三文治、糕點等小食的一種茶點／社交餐飲活動」是「afternoon tea（下午茶）」的用法，與本句語境不同。"
+        "tea-mcq-11": "本句的「tea break」指「工作／活動期間短暫休息喝茶、咖啡或其他飲品的時間」。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-11"
     },
@@ -1186,11 +1098,9 @@ export default {
       "masked": "Let’s continue after the ____ break.",
       "options": [
         "tea-mcq-11",
-        "tea-mcq-10",
-        "tea-mcq-12",
-        "tea-mcq-09",
-        "tea-mcq-13",
-        "tea-mcq-08"
+        "tea-mcq-18",
+        "tea-mcq-07",
+        "tea-mcq-17"
       ],
       "explanation": "本句的「tea」指「工作／活動期間短暫休息喝茶、咖啡或其他飲品的時間」。",
       "sentenceIndex": 22,
@@ -1199,12 +1109,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-11": "本句指「工作／活動期間短暫休息喝茶、咖啡或其他飲品的時間」。",
-        "tea-mcq-10": "「部分英國英語中指傍晚／晚上的正餐」是「tea = evening meal（晚餐；部分英國地區）」的用法，與本句語境不同。",
-        "tea-mcq-12": "「主要供應茶、飲品、糕點及輕食的小型餐飲場所」是「tea room / tearoom（茶室）」的用法，與本句語境不同。",
-        "tea-mcq-09": "「傳統上較接近傍晚一餐、食物比 afternoon tea 更飽肚的茶餐」是「high tea（較豐富的傍晚茶餐）」的用法，與本句語境不同。",
-        "tea-mcq-13": "「以泡茶、奉茶、飲茶為核心並具有禮儀／文化意義的正式活動」是「tea ceremony（茶道／茶禮）」的用法，與本句語境不同。",
-        "tea-mcq-08": "「下午享用茶飲並配以三文治、糕點等小食的一種茶點／社交餐飲活動」是「afternoon tea（下午茶）」的用法，與本句語境不同。"
+        "tea-mcq-11": "本句的「tea」指「工作／活動期間短暫休息喝茶、咖啡或其他飲品的時間」。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-11"
     },
@@ -1216,11 +1124,9 @@ export default {
       "masked": "We stopped at a small ____.",
       "options": [
         "tea-mcq-12",
-        "tea-mcq-11",
-        "tea-mcq-13",
-        "tea-mcq-10",
-        "tea-mcq-14",
-        "tea-mcq-09"
+        "tea-mcq-15",
+        "tea-mcq-04",
+        "tea-mcq-10"
       ],
       "explanation": "本句的「tea room」指「主要供應茶、飲品、糕點及輕食的小型餐飲場所」。",
       "sentenceIndex": 23,
@@ -1229,12 +1135,10 @@ export default {
         "tea room"
       ],
       "optionReasons": {
-        "tea-mcq-12": "本句指「主要供應茶、飲品、糕點及輕食的小型餐飲場所」。",
-        "tea-mcq-11": "「工作／活動期間短暫休息喝茶、咖啡或其他飲品的時間」是「tea break（茶歇／休息時間）」的用法，與本句語境不同。",
-        "tea-mcq-13": "「以泡茶、奉茶、飲茶為核心並具有禮儀／文化意義的正式活動」是「tea ceremony（茶道／茶禮）」的用法，與本句語境不同。",
-        "tea-mcq-10": "「部分英國英語中指傍晚／晚上的正餐」是「tea = evening meal（晚餐；部分英國地區）」的用法，與本句語境不同。",
-        "tea-mcq-14": "「以喝茶、吃小食和社交為主的聚會」是「tea party（茶會）」的用法，與本句語境不同。",
-        "tea-mcq-09": "「傳統上較接近傍晚一餐、食物比 afternoon tea 更飽肚的茶餐」是「high tea（較豐富的傍晚茶餐）」的用法，與本句語境不同。"
+        "tea-mcq-12": "本句的「tea room」指「主要供應茶、飲品、糕點及輕食的小型餐飲場所」。",
+        "tea-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-12"
     },
@@ -1246,11 +1150,9 @@ export default {
       "masked": "The museum has a traditional ____.",
       "options": [
         "tea-mcq-12",
-        "tea-mcq-11",
-        "tea-mcq-13",
-        "tea-mcq-10",
-        "tea-mcq-14",
-        "tea-mcq-09"
+        "tea-mcq-15",
+        "tea-mcq-04",
+        "tea-mcq-10"
       ],
       "explanation": "本句的「tearoom」指「主要供應茶、飲品、糕點及輕食的小型餐飲場所」。",
       "sentenceIndex": 24,
@@ -1259,12 +1161,10 @@ export default {
         "tearoom"
       ],
       "optionReasons": {
-        "tea-mcq-12": "本句指「主要供應茶、飲品、糕點及輕食的小型餐飲場所」。",
-        "tea-mcq-11": "「工作／活動期間短暫休息喝茶、咖啡或其他飲品的時間」是「tea break（茶歇／休息時間）」的用法，與本句語境不同。",
-        "tea-mcq-13": "「以泡茶、奉茶、飲茶為核心並具有禮儀／文化意義的正式活動」是「tea ceremony（茶道／茶禮）」的用法，與本句語境不同。",
-        "tea-mcq-10": "「部分英國英語中指傍晚／晚上的正餐」是「tea = evening meal（晚餐；部分英國地區）」的用法，與本句語境不同。",
-        "tea-mcq-14": "「以喝茶、吃小食和社交為主的聚會」是「tea party（茶會）」的用法，與本句語境不同。",
-        "tea-mcq-09": "「傳統上較接近傍晚一餐、食物比 afternoon tea 更飽肚的茶餐」是「high tea（較豐富的傍晚茶餐）」的用法，與本句語境不同。"
+        "tea-mcq-12": "本句的「tearoom」指「主要供應茶、飲品、糕點及輕食的小型餐飲場所」。",
+        "tea-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-12"
     },
@@ -1276,11 +1176,9 @@ export default {
       "masked": "They attended a Japanese ____.",
       "options": [
         "tea-mcq-13",
-        "tea-mcq-12",
-        "tea-mcq-14",
-        "tea-mcq-11",
-        "tea-mcq-15",
-        "tea-mcq-10"
+        "tea-mcq-18",
+        "tea-mcq-16",
+        "tea-mcq-09"
       ],
       "explanation": "本句的「tea ceremony」指「以泡茶、奉茶、飲茶為核心並具有禮儀／文化意義的正式活動」。",
       "sentenceIndex": 25,
@@ -1289,12 +1187,10 @@ export default {
         "tea ceremony"
       ],
       "optionReasons": {
-        "tea-mcq-13": "本句指「以泡茶、奉茶、飲茶為核心並具有禮儀／文化意義的正式活動」。",
-        "tea-mcq-12": "「主要供應茶、飲品、糕點及輕食的小型餐飲場所」是「tea room / tearoom（茶室）」的用法，與本句語境不同。",
-        "tea-mcq-14": "「以喝茶、吃小食和社交為主的聚會」是「tea party（茶會）」的用法，與本句語境不同。",
-        "tea-mcq-11": "「工作／活動期間短暫休息喝茶、咖啡或其他飲品的時間」是「tea break（茶歇／休息時間）」的用法，與本句語境不同。",
-        "tea-mcq-15": "「非正式俚語，指八卦消息、內幕資訊或令人感興趣的私人消息」是「tea = gossip / inside information（八卦／內幕消息；俚語）」的用法，與本句語境不同。",
-        "tea-mcq-10": "「部分英國英語中指傍晚／晚上的正餐」是「tea = evening meal（晚餐；部分英國地區）」的用法，與本句語境不同。"
+        "tea-mcq-13": "本句的「tea ceremony」指「以泡茶、奉茶、飲茶為核心並具有禮儀／文化意義的正式活動」。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-13"
     },
@@ -1306,11 +1202,9 @@ export default {
       "masked": "The ____ ceremony follows a careful sequence.",
       "options": [
         "tea-mcq-13",
-        "tea-mcq-12",
-        "tea-mcq-14",
-        "tea-mcq-11",
-        "tea-mcq-15",
-        "tea-mcq-10"
+        "tea-mcq-18",
+        "tea-mcq-16",
+        "tea-mcq-09"
       ],
       "explanation": "本句的「tea」指「以泡茶、奉茶、飲茶為核心並具有禮儀／文化意義的正式活動」。",
       "sentenceIndex": 26,
@@ -1319,12 +1213,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-13": "本句指「以泡茶、奉茶、飲茶為核心並具有禮儀／文化意義的正式活動」。",
-        "tea-mcq-12": "「主要供應茶、飲品、糕點及輕食的小型餐飲場所」是「tea room / tearoom（茶室）」的用法，與本句語境不同。",
-        "tea-mcq-14": "「以喝茶、吃小食和社交為主的聚會」是「tea party（茶會）」的用法，與本句語境不同。",
-        "tea-mcq-11": "「工作／活動期間短暫休息喝茶、咖啡或其他飲品的時間」是「tea break（茶歇／休息時間）」的用法，與本句語境不同。",
-        "tea-mcq-15": "「非正式俚語，指八卦消息、內幕資訊或令人感興趣的私人消息」是「tea = gossip / inside information（八卦／內幕消息；俚語）」的用法，與本句語境不同。",
-        "tea-mcq-10": "「部分英國英語中指傍晚／晚上的正餐」是「tea = evening meal（晚餐；部分英國地區）」的用法，與本句語境不同。"
+        "tea-mcq-13": "本句的「tea」指「以泡茶、奉茶、飲茶為核心並具有禮儀／文化意義的正式活動」。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-13"
     },
@@ -1336,11 +1228,9 @@ export default {
       "masked": "She invited her friends to a small ____.",
       "options": [
         "tea-mcq-14",
-        "tea-mcq-13",
-        "tea-mcq-15",
-        "tea-mcq-12",
         "tea-mcq-16",
-        "tea-mcq-11"
+        "tea-mcq-18",
+        "tea-mcq-07"
       ],
       "explanation": "本句的「tea party」指「以喝茶、吃小食和社交為主的聚會」。",
       "sentenceIndex": 27,
@@ -1349,12 +1239,10 @@ export default {
         "tea party"
       ],
       "optionReasons": {
-        "tea-mcq-14": "本句指「以喝茶、吃小食和社交為主的聚會」。",
-        "tea-mcq-13": "「以泡茶、奉茶、飲茶為核心並具有禮儀／文化意義的正式活動」是「tea ceremony（茶道／茶禮）」的用法，與本句語境不同。",
-        "tea-mcq-15": "「非正式俚語，指八卦消息、內幕資訊或令人感興趣的私人消息」是「tea = gossip / inside information（八卦／內幕消息；俚語）」的用法，與本句語境不同。",
-        "tea-mcq-12": "「主要供應茶、飲品、糕點及輕食的小型餐飲場所」是「tea room / tearoom（茶室）」的用法，與本句語境不同。",
-        "tea-mcq-16": "「把有趣、秘密或八卦性的資訊說出來」是「spill the tea（爆料／講八卦）」的用法，與本句語境不同。",
-        "tea-mcq-11": "「工作／活動期間短暫休息喝茶、咖啡或其他飲品的時間」是「tea break（茶歇／休息時間）」的用法，與本句語境不同。"
+        "tea-mcq-14": "本句的「tea party」指「以喝茶、吃小食和社交為主的聚會」。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-14"
     },
@@ -1366,11 +1254,9 @@ export default {
       "masked": "The children held a pretend ____ party.",
       "options": [
         "tea-mcq-14",
-        "tea-mcq-13",
-        "tea-mcq-15",
-        "tea-mcq-12",
-        "tea-mcq-16",
-        "tea-mcq-11"
+        "tea-mcq-19",
+        "tea-mcq-17",
+        "tea-mcq-10"
       ],
       "explanation": "本句的「tea」指「以喝茶、吃小食和社交為主的聚會」。",
       "sentenceIndex": 28,
@@ -1379,12 +1265,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-14": "本句指「以喝茶、吃小食和社交為主的聚會」。",
-        "tea-mcq-13": "「以泡茶、奉茶、飲茶為核心並具有禮儀／文化意義的正式活動」是「tea ceremony（茶道／茶禮）」的用法，與本句語境不同。",
-        "tea-mcq-15": "「非正式俚語，指八卦消息、內幕資訊或令人感興趣的私人消息」是「tea = gossip / inside information（八卦／內幕消息；俚語）」的用法，與本句語境不同。",
-        "tea-mcq-12": "「主要供應茶、飲品、糕點及輕食的小型餐飲場所」是「tea room / tearoom（茶室）」的用法，與本句語境不同。",
-        "tea-mcq-16": "「把有趣、秘密或八卦性的資訊說出來」是「spill the tea（爆料／講八卦）」的用法，與本句語境不同。",
-        "tea-mcq-11": "「工作／活動期間短暫休息喝茶、咖啡或其他飲品的時間」是「tea break（茶歇／休息時間）」的用法，與本句語境不同。"
+        "tea-mcq-14": "本句的「tea」指「以喝茶、吃小食和社交為主的聚會」。",
+        "tea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-14"
     },
@@ -1396,11 +1280,9 @@ export default {
       "masked": "What’s the ____?",
       "options": [
         "tea-mcq-15",
-        "tea-mcq-14",
-        "tea-mcq-16",
-        "tea-mcq-13",
-        "tea-mcq-17",
-        "tea-mcq-12"
+        "tea-mcq-12",
+        "tea-mcq-05",
+        "tea-mcq-10"
       ],
       "explanation": "本句的「tea」指「非正式俚語，指八卦消息、內幕資訊或令人感興趣的私人消息」。",
       "sentenceIndex": 29,
@@ -1409,12 +1291,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-15": "本句指「非正式俚語，指八卦消息、內幕資訊或令人感興趣的私人消息」。",
-        "tea-mcq-14": "「以喝茶、吃小食和社交為主的聚會」是「tea party（茶會）」的用法，與本句語境不同。",
-        "tea-mcq-16": "「把有趣、秘密或八卦性的資訊說出來」是「spill the tea（爆料／講八卦）」的用法，與本句語境不同。",
-        "tea-mcq-13": "「以泡茶、奉茶、飲茶為核心並具有禮儀／文化意義的正式活動」是「tea ceremony（茶道／茶禮）」的用法，與本句語境不同。",
-        "tea-mcq-17": "「某件事情真正有趣、私下或未公開的內情」是「the tea（真相／內幕；俚語）」的用法，與本句語境不同。",
-        "tea-mcq-12": "「主要供應茶、飲品、糕點及輕食的小型餐飲場所」是「tea room / tearoom（茶室）」的用法，與本句語境不同。"
+        "tea-mcq-15": "本句的「tea」指「非正式俚語，指八卦消息、內幕資訊或令人感興趣的私人消息」。",
+        "tea-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-15"
     },
@@ -1426,11 +1306,9 @@ export default {
       "masked": "She gave us all the ____ about what happened.",
       "options": [
         "tea-mcq-15",
-        "tea-mcq-14",
-        "tea-mcq-16",
-        "tea-mcq-13",
-        "tea-mcq-17",
-        "tea-mcq-12"
+        "tea-mcq-08",
+        "tea-mcq-09",
+        "tea-mcq-20"
       ],
       "explanation": "本句的「tea」指「非正式俚語，指八卦消息、內幕資訊或令人感興趣的私人消息」。",
       "sentenceIndex": 30,
@@ -1439,12 +1317,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-15": "本句指「非正式俚語，指八卦消息、內幕資訊或令人感興趣的私人消息」。",
-        "tea-mcq-14": "「以喝茶、吃小食和社交為主的聚會」是「tea party（茶會）」的用法，與本句語境不同。",
-        "tea-mcq-16": "「把有趣、秘密或八卦性的資訊說出來」是「spill the tea（爆料／講八卦）」的用法，與本句語境不同。",
-        "tea-mcq-13": "「以泡茶、奉茶、飲茶為核心並具有禮儀／文化意義的正式活動」是「tea ceremony（茶道／茶禮）」的用法，與本句語境不同。",
-        "tea-mcq-17": "「某件事情真正有趣、私下或未公開的內情」是「the tea（真相／內幕；俚語）」的用法，與本句語境不同。",
-        "tea-mcq-12": "「主要供應茶、飲品、糕點及輕食的小型餐飲場所」是「tea room / tearoom（茶室）」的用法，與本句語境不同。"
+        "tea-mcq-15": "本句的「tea」指「非正式俚語，指八卦消息、內幕資訊或令人感興趣的私人消息」。",
+        "tea-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-15"
     },
@@ -1456,11 +1332,9 @@ export default {
       "masked": "Come on—____!",
       "options": [
         "tea-mcq-16",
-        "tea-mcq-15",
-        "tea-mcq-17",
-        "tea-mcq-14",
-        "tea-mcq-18",
-        "tea-mcq-13"
+        "tea-mcq-08",
+        "tea-mcq-20",
+        "tea-mcq-09"
       ],
       "explanation": "本句的「spill the tea」指「把有趣、秘密或八卦性的資訊說出來」。",
       "sentenceIndex": 31,
@@ -1469,12 +1343,10 @@ export default {
         "spill the tea"
       ],
       "optionReasons": {
-        "tea-mcq-16": "本句指「把有趣、秘密或八卦性的資訊說出來」。",
-        "tea-mcq-15": "「非正式俚語，指八卦消息、內幕資訊或令人感興趣的私人消息」是「tea = gossip / inside information（八卦／內幕消息；俚語）」的用法，與本句語境不同。",
-        "tea-mcq-17": "「某件事情真正有趣、私下或未公開的內情」是「the tea（真相／內幕；俚語）」的用法，與本句語境不同。",
-        "tea-mcq-14": "「以喝茶、吃小食和社交為主的聚會」是「tea party（茶會）」的用法，與本句語境不同。",
-        "tea-mcq-18": "「不是某人喜歡、感興趣或適合的事物」是「not my cup of tea（不是我的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-13": "「以泡茶、奉茶、飲茶為核心並具有禮儀／文化意義的正式活動」是「tea ceremony（茶道／茶禮）」的用法，與本句語境不同。"
+        "tea-mcq-16": "本句的「spill the tea」指「把有趣、秘密或八卦性的資訊說出來」。",
+        "tea-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-16"
     },
@@ -1486,11 +1358,9 @@ export default {
       "masked": "She spilled the ____ about the argument.",
       "options": [
         "tea-mcq-16",
-        "tea-mcq-15",
-        "tea-mcq-17",
-        "tea-mcq-14",
-        "tea-mcq-18",
-        "tea-mcq-13"
+        "tea-mcq-08",
+        "tea-mcq-06",
+        "tea-mcq-10"
       ],
       "explanation": "本句的「tea」指「把有趣、秘密或八卦性的資訊說出來」。",
       "sentenceIndex": 32,
@@ -1499,12 +1369,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-16": "本句指「把有趣、秘密或八卦性的資訊說出來」。",
-        "tea-mcq-15": "「非正式俚語，指八卦消息、內幕資訊或令人感興趣的私人消息」是「tea = gossip / inside information（八卦／內幕消息；俚語）」的用法，與本句語境不同。",
-        "tea-mcq-17": "「某件事情真正有趣、私下或未公開的內情」是「the tea（真相／內幕；俚語）」的用法，與本句語境不同。",
-        "tea-mcq-14": "「以喝茶、吃小食和社交為主的聚會」是「tea party（茶會）」的用法，與本句語境不同。",
-        "tea-mcq-18": "「不是某人喜歡、感興趣或適合的事物」是「not my cup of tea（不是我的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-13": "「以泡茶、奉茶、飲茶為核心並具有禮儀／文化意義的正式活動」是「tea ceremony（茶道／茶禮）」的用法，與本句語境不同。"
+        "tea-mcq-16": "本句的「tea」指「把有趣、秘密或八卦性的資訊說出來」。",
+        "tea-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-16"
     },
@@ -1516,11 +1384,9 @@ export default {
       "masked": "Here’s the real ____.",
       "options": [
         "tea-mcq-17",
-        "tea-mcq-16",
-        "tea-mcq-18",
-        "tea-mcq-15",
-        "tea-mcq-19",
-        "tea-mcq-14"
+        "tea-mcq-03",
+        "tea-mcq-14",
+        "tea-mcq-07"
       ],
       "explanation": "本句的「tea」指「某件事情真正有趣、私下或未公開的內情」。",
       "sentenceIndex": 33,
@@ -1529,12 +1395,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-17": "本句指「某件事情真正有趣、私下或未公開的內情」。",
-        "tea-mcq-16": "「把有趣、秘密或八卦性的資訊說出來」是「spill the tea（爆料／講八卦）」的用法，與本句語境不同。",
-        "tea-mcq-18": "「不是某人喜歡、感興趣或適合的事物」是「not my cup of tea（不是我的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-15": "「非正式俚語，指八卦消息、內幕資訊或令人感興趣的私人消息」是「tea = gossip / inside information（八卦／內幕消息；俚語）」的用法，與本句語境不同。",
-        "tea-mcq-19": "「某人喜歡、感興趣或適合的事物」是「someone’s cup of tea（某人的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-14": "「以喝茶、吃小食和社交為主的聚會」是「tea party（茶會）」的用法，與本句語境不同。"
+        "tea-mcq-17": "本句的「tea」指「某件事情真正有趣、私下或未公開的內情」。",
+        "tea-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-17"
     },
@@ -1546,11 +1410,9 @@ export default {
       "masked": "Everyone wanted to know the ____.",
       "options": [
         "tea-mcq-17",
-        "tea-mcq-16",
-        "tea-mcq-18",
-        "tea-mcq-15",
-        "tea-mcq-19",
-        "tea-mcq-14"
+        "tea-mcq-21",
+        "tea-mcq-14",
+        "tea-mcq-09"
       ],
       "explanation": "本句的「tea」指「某件事情真正有趣、私下或未公開的內情」。",
       "sentenceIndex": 34,
@@ -1559,12 +1421,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-17": "本句指「某件事情真正有趣、私下或未公開的內情」。",
-        "tea-mcq-16": "「把有趣、秘密或八卦性的資訊說出來」是「spill the tea（爆料／講八卦）」的用法，與本句語境不同。",
-        "tea-mcq-18": "「不是某人喜歡、感興趣或適合的事物」是「not my cup of tea（不是我的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-15": "「非正式俚語，指八卦消息、內幕資訊或令人感興趣的私人消息」是「tea = gossip / inside information（八卦／內幕消息；俚語）」的用法，與本句語境不同。",
-        "tea-mcq-19": "「某人喜歡、感興趣或適合的事物」是「someone’s cup of tea（某人的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-14": "「以喝茶、吃小食和社交為主的聚會」是「tea party（茶會）」的用法，與本句語境不同。"
+        "tea-mcq-17": "本句的「tea」指「某件事情真正有趣、私下或未公開的內情」。",
+        "tea-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-17"
     },
@@ -1576,11 +1436,9 @@ export default {
       "masked": "Public speaking isn’t everyone’s ____.",
       "options": [
         "tea-mcq-18",
-        "tea-mcq-17",
-        "tea-mcq-19",
-        "tea-mcq-16",
-        "tea-mcq-20",
-        "tea-mcq-15"
+        "tea-mcq-07",
+        "tea-mcq-22",
+        "tea-mcq-16"
       ],
       "explanation": "本句的「cup of tea」指「不是某人喜歡、感興趣或適合的事物」。",
       "sentenceIndex": 35,
@@ -1589,12 +1447,10 @@ export default {
         "cup of tea"
       ],
       "optionReasons": {
-        "tea-mcq-18": "本句指「不是某人喜歡、感興趣或適合的事物」。",
-        "tea-mcq-17": "「某件事情真正有趣、私下或未公開的內情」是「the tea（真相／內幕；俚語）」的用法，與本句語境不同。",
-        "tea-mcq-19": "「某人喜歡、感興趣或適合的事物」是「someone’s cup of tea（某人的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-16": "「把有趣、秘密或八卦性的資訊說出來」是「spill the tea（爆料／講八卦）」的用法，與本句語境不同。",
-        "tea-mcq-20": "「裝有茶葉、可直接放進熱水沖泡的小袋」是「tea bag（茶包）」的用法，與本句語境不同。",
-        "tea-mcq-15": "「非正式俚語，指八卦消息、內幕資訊或令人感興趣的私人消息」是「tea = gossip / inside information（八卦／內幕消息；俚語）」的用法，與本句語境不同。"
+        "tea-mcq-18": "本句的「cup of tea」指「不是某人喜歡、感興趣或適合的事物」。",
+        "tea-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-18"
     },
@@ -1606,11 +1462,9 @@ export default {
       "masked": "Horror films aren’t really my cup of ____.",
       "options": [
         "tea-mcq-18",
-        "tea-mcq-17",
-        "tea-mcq-19",
-        "tea-mcq-16",
-        "tea-mcq-20",
-        "tea-mcq-15"
+        "tea-mcq-22",
+        "tea-mcq-07",
+        "tea-mcq-16"
       ],
       "explanation": "本句的「tea」指「不是某人喜歡、感興趣或適合的事物」。",
       "sentenceIndex": 36,
@@ -1619,12 +1473,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-18": "本句指「不是某人喜歡、感興趣或適合的事物」。",
-        "tea-mcq-17": "「某件事情真正有趣、私下或未公開的內情」是「the tea（真相／內幕；俚語）」的用法，與本句語境不同。",
-        "tea-mcq-19": "「某人喜歡、感興趣或適合的事物」是「someone’s cup of tea（某人的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-16": "「把有趣、秘密或八卦性的資訊說出來」是「spill the tea（爆料／講八卦）」的用法，與本句語境不同。",
-        "tea-mcq-20": "「裝有茶葉、可直接放進熱水沖泡的小袋」是「tea bag（茶包）」的用法，與本句語境不同。",
-        "tea-mcq-15": "「非正式俚語，指八卦消息、內幕資訊或令人感興趣的私人消息」是「tea = gossip / inside information（八卦／內幕消息；俚語）」的用法，與本句語境不同。"
+        "tea-mcq-18": "本句的「tea」指「不是某人喜歡、感興趣或適合的事物」。",
+        "tea-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-18"
     },
@@ -1636,11 +1488,9 @@ export default {
       "masked": "Quiet cafés are more my ____.",
       "options": [
         "tea-mcq-19",
-        "tea-mcq-18",
-        "tea-mcq-20",
-        "tea-mcq-17",
         "tea-mcq-21",
-        "tea-mcq-16"
+        "tea-mcq-14",
+        "tea-mcq-09"
       ],
       "explanation": "本句的「cup of tea」指「某人喜歡、感興趣或適合的事物」。",
       "sentenceIndex": 37,
@@ -1649,12 +1499,10 @@ export default {
         "cup of tea"
       ],
       "optionReasons": {
-        "tea-mcq-19": "本句指「某人喜歡、感興趣或適合的事物」。",
-        "tea-mcq-18": "「不是某人喜歡、感興趣或適合的事物」是「not my cup of tea（不是我的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-20": "「裝有茶葉、可直接放進熱水沖泡的小袋」是「tea bag（茶包）」的用法，與本句語境不同。",
-        "tea-mcq-17": "「某件事情真正有趣、私下或未公開的內情」是「the tea（真相／內幕；俚語）」的用法，與本句語境不同。",
-        "tea-mcq-21": "「專門用來沖泡／盛裝茶飲的壺」是「teapot（茶壺）」的用法，與本句語境不同。",
-        "tea-mcq-16": "「把有趣、秘密或八卦性的資訊說出來」是「spill the tea（爆料／講八卦）」的用法，與本句語境不同。"
+        "tea-mcq-19": "本句的「cup of tea」指「某人喜歡、感興趣或適合的事物」。",
+        "tea-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-19"
     },
@@ -1666,11 +1514,9 @@ export default {
       "masked": "If you enjoy history, this museum may be your cup of ____.",
       "options": [
         "tea-mcq-19",
-        "tea-mcq-18",
         "tea-mcq-20",
-        "tea-mcq-17",
-        "tea-mcq-21",
-        "tea-mcq-16"
+        "tea-mcq-09",
+        "tea-mcq-14"
       ],
       "explanation": "本句的「tea」指「某人喜歡、感興趣或適合的事物」。",
       "sentenceIndex": 38,
@@ -1679,12 +1525,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-19": "本句指「某人喜歡、感興趣或適合的事物」。",
-        "tea-mcq-18": "「不是某人喜歡、感興趣或適合的事物」是「not my cup of tea（不是我的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-20": "「裝有茶葉、可直接放進熱水沖泡的小袋」是「tea bag（茶包）」的用法，與本句語境不同。",
-        "tea-mcq-17": "「某件事情真正有趣、私下或未公開的內情」是「the tea（真相／內幕；俚語）」的用法，與本句語境不同。",
-        "tea-mcq-21": "「專門用來沖泡／盛裝茶飲的壺」是「teapot（茶壺）」的用法，與本句語境不同。",
-        "tea-mcq-16": "「把有趣、秘密或八卦性的資訊說出來」是「spill the tea（爆料／講八卦）」的用法，與本句語境不同。"
+        "tea-mcq-19": "本句的「tea」指「某人喜歡、感興趣或適合的事物」。",
+        "tea-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-19"
     },
@@ -1696,11 +1540,9 @@ export default {
       "masked": "Put the ____ in the cup.",
       "options": [
         "tea-mcq-20",
-        "tea-mcq-19",
-        "tea-mcq-21",
+        "tea-mcq-10",
         "tea-mcq-18",
-        "tea-mcq-22",
-        "tea-mcq-17"
+        "tea-mcq-16"
       ],
       "explanation": "本句的「tea bag」指「裝有茶葉、可直接放進熱水沖泡的小袋」。",
       "sentenceIndex": 39,
@@ -1709,12 +1551,10 @@ export default {
         "tea bag"
       ],
       "optionReasons": {
-        "tea-mcq-20": "本句指「裝有茶葉、可直接放進熱水沖泡的小袋」。",
-        "tea-mcq-19": "「某人喜歡、感興趣或適合的事物」是「someone’s cup of tea（某人的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-21": "「專門用來沖泡／盛裝茶飲的壺」是「teapot（茶壺）」的用法，與本句語境不同。",
-        "tea-mcq-18": "「不是某人喜歡、感興趣或適合的事物」是「not my cup of tea（不是我的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-22": "「茶杯時，表示茶杯」是「teacup（茶杯）」的用法，與本句語境不同。",
-        "tea-mcq-17": "「某件事情真正有趣、私下或未公開的內情」是「the tea（真相／內幕；俚語）」的用法，與本句語境不同。"
+        "tea-mcq-20": "本句的「tea bag」指「裝有茶葉、可直接放進熱水沖泡的小袋」。",
+        "tea-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-20"
     },
@@ -1726,11 +1566,9 @@ export default {
       "masked": "I usually use one ____ bag per cup.",
       "options": [
         "tea-mcq-20",
-        "tea-mcq-19",
-        "tea-mcq-21",
-        "tea-mcq-18",
-        "tea-mcq-22",
-        "tea-mcq-17"
+        "tea-mcq-17",
+        "tea-mcq-10",
+        "tea-mcq-18"
       ],
       "explanation": "本句的「tea」指「裝有茶葉、可直接放進熱水沖泡的小袋」。",
       "sentenceIndex": 40,
@@ -1739,12 +1577,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-20": "本句指「裝有茶葉、可直接放進熱水沖泡的小袋」。",
-        "tea-mcq-19": "「某人喜歡、感興趣或適合的事物」是「someone’s cup of tea（某人的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-21": "「專門用來沖泡／盛裝茶飲的壺」是「teapot（茶壺）」的用法，與本句語境不同。",
-        "tea-mcq-18": "「不是某人喜歡、感興趣或適合的事物」是「not my cup of tea（不是我的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-22": "「茶杯時，表示茶杯」是「teacup（茶杯）」的用法，與本句語境不同。",
-        "tea-mcq-17": "「某件事情真正有趣、私下或未公開的內情」是「the tea（真相／內幕；俚語）」的用法，與本句語境不同。"
+        "tea-mcq-20": "本句的「tea」指「裝有茶葉、可直接放進熱水沖泡的小袋」。",
+        "tea-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-20"
     },
@@ -1756,11 +1592,9 @@ export default {
       "masked": "She poured the tea from the ____.",
       "options": [
         "tea-mcq-21",
-        "tea-mcq-20",
-        "tea-mcq-22",
+        "tea-mcq-10",
         "tea-mcq-19",
-        "tea-mcq-23",
-        "tea-mcq-18"
+        "tea-mcq-17"
       ],
       "explanation": "本句的「teapot」指「專門用來沖泡／盛裝茶飲的壺」。",
       "sentenceIndex": 41,
@@ -1769,12 +1603,10 @@ export default {
         "teapot"
       ],
       "optionReasons": {
-        "tea-mcq-21": "本句指「專門用來沖泡／盛裝茶飲的壺」。",
-        "tea-mcq-20": "「裝有茶葉、可直接放進熱水沖泡的小袋」是「tea bag（茶包）」的用法，與本句語境不同。",
-        "tea-mcq-22": "「茶杯時，表示茶杯」是「teacup（茶杯）」的用法，與本句語境不同。",
-        "tea-mcq-19": "「某人喜歡、感興趣或適合的事物」是「someone’s cup of tea（某人的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-23": "「茶葉時，表示茶葉」是「tea leaves（茶葉）」的用法，與本句語境不同。",
-        "tea-mcq-18": "「不是某人喜歡、感興趣或適合的事物」是「not my cup of tea（不是我的喜好）」的用法，與本句語境不同。"
+        "tea-mcq-21": "本句的「teapot」指「專門用來沖泡／盛裝茶飲的壺」。",
+        "tea-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-21"
     },
@@ -1786,11 +1618,9 @@ export default {
       "masked": "The ____ was already on the table.",
       "options": [
         "tea-mcq-21",
-        "tea-mcq-20",
-        "tea-mcq-22",
-        "tea-mcq-19",
-        "tea-mcq-23",
-        "tea-mcq-18"
+        "tea-mcq-15",
+        "tea-mcq-07",
+        "tea-mcq-14"
       ],
       "explanation": "本句的「teapot」指「專門用來沖泡／盛裝茶飲的壺」。",
       "sentenceIndex": 42,
@@ -1799,12 +1629,10 @@ export default {
         "teapot"
       ],
       "optionReasons": {
-        "tea-mcq-21": "本句指「專門用來沖泡／盛裝茶飲的壺」。",
-        "tea-mcq-20": "「裝有茶葉、可直接放進熱水沖泡的小袋」是「tea bag（茶包）」的用法，與本句語境不同。",
-        "tea-mcq-22": "「茶杯時，表示茶杯」是「teacup（茶杯）」的用法，與本句語境不同。",
-        "tea-mcq-19": "「某人喜歡、感興趣或適合的事物」是「someone’s cup of tea（某人的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-23": "「茶葉時，表示茶葉」是「tea leaves（茶葉）」的用法，與本句語境不同。",
-        "tea-mcq-18": "「不是某人喜歡、感興趣或適合的事物」是「not my cup of tea（不是我的喜好）」的用法，與本句語境不同。"
+        "tea-mcq-21": "本句的「teapot」指「專門用來沖泡／盛裝茶飲的壺」。",
+        "tea-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-21"
     },
@@ -1816,10 +1644,8 @@ export default {
       "masked": "She placed three ____ on the table.",
       "options": [
         "tea-mcq-22",
-        "tea-mcq-21",
-        "tea-mcq-23",
-        "tea-mcq-20",
-        "tea-mcq-19",
+        "tea-mcq-07",
+        "tea-mcq-16",
         "tea-mcq-18"
       ],
       "explanation": "本句的「teacups」指「茶杯時，表示茶杯」。",
@@ -1829,12 +1655,10 @@ export default {
         "teacups"
       ],
       "optionReasons": {
-        "tea-mcq-22": "本句指「茶杯時，表示茶杯」。",
-        "tea-mcq-21": "「專門用來沖泡／盛裝茶飲的壺」是「teapot（茶壺）」的用法，與本句語境不同。",
-        "tea-mcq-23": "「茶葉時，表示茶葉」是「tea leaves（茶葉）」的用法，與本句語境不同。",
-        "tea-mcq-20": "「裝有茶葉、可直接放進熱水沖泡的小袋」是「tea bag（茶包）」的用法，與本句語境不同。",
-        "tea-mcq-19": "「某人喜歡、感興趣或適合的事物」是「someone’s cup of tea（某人的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-18": "「不是某人喜歡、感興趣或適合的事物」是「not my cup of tea（不是我的喜好）」的用法，與本句語境不同。"
+        "tea-mcq-22": "本句的「teacups」指「茶杯時，表示茶杯」。",
+        "tea-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-22"
     },
@@ -1846,11 +1670,9 @@ export default {
       "masked": "The ____ is very delicate.",
       "options": [
         "tea-mcq-22",
-        "tea-mcq-21",
-        "tea-mcq-23",
-        "tea-mcq-20",
-        "tea-mcq-19",
-        "tea-mcq-18"
+        "tea-mcq-18",
+        "tea-mcq-17",
+        "tea-mcq-10"
       ],
       "explanation": "本句的「teacup」指「茶杯時，表示茶杯」。",
       "sentenceIndex": 44,
@@ -1859,12 +1681,10 @@ export default {
         "teacup"
       ],
       "optionReasons": {
-        "tea-mcq-22": "本句指「茶杯時，表示茶杯」。",
-        "tea-mcq-21": "「專門用來沖泡／盛裝茶飲的壺」是「teapot（茶壺）」的用法，與本句語境不同。",
-        "tea-mcq-23": "「茶葉時，表示茶葉」是「tea leaves（茶葉）」的用法，與本句語境不同。",
-        "tea-mcq-20": "「裝有茶葉、可直接放進熱水沖泡的小袋」是「tea bag（茶包）」的用法，與本句語境不同。",
-        "tea-mcq-19": "「某人喜歡、感興趣或適合的事物」是「someone’s cup of tea（某人的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-18": "「不是某人喜歡、感興趣或適合的事物」是「not my cup of tea（不是我的喜好）」的用法，與本句語境不同。"
+        "tea-mcq-22": "本句的「teacup」指「茶杯時，表示茶杯」。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-22"
     },
@@ -1876,11 +1696,9 @@ export default {
       "masked": "The ____ opened slowly in the hot water.",
       "options": [
         "tea-mcq-23",
-        "tea-mcq-22",
-        "tea-mcq-21",
-        "tea-mcq-20",
-        "tea-mcq-19",
-        "tea-mcq-18"
+        "tea-mcq-18",
+        "tea-mcq-17",
+        "tea-mcq-10"
       ],
       "explanation": "本句的「tea leaves」指「茶葉時，表示茶葉」。",
       "sentenceIndex": 45,
@@ -1889,12 +1707,10 @@ export default {
         "tea leaves"
       ],
       "optionReasons": {
-        "tea-mcq-23": "本句指「茶葉時，表示茶葉」。",
-        "tea-mcq-22": "「茶杯時，表示茶杯」是「teacup（茶杯）」的用法，與本句語境不同。",
-        "tea-mcq-21": "「專門用來沖泡／盛裝茶飲的壺」是「teapot（茶壺）」的用法，與本句語境不同。",
-        "tea-mcq-20": "「裝有茶葉、可直接放進熱水沖泡的小袋」是「tea bag（茶包）」的用法，與本句語境不同。",
-        "tea-mcq-19": "「某人喜歡、感興趣或適合的事物」是「someone’s cup of tea（某人的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-18": "「不是某人喜歡、感興趣或適合的事物」是「not my cup of tea（不是我的喜好）」的用法，與本句語境不同。"
+        "tea-mcq-23": "本句的「tea leaves」指「茶葉時，表示茶葉」。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-23"
     },
@@ -1906,11 +1722,9 @@ export default {
       "masked": "These ____ leaves have a strong aroma.",
       "options": [
         "tea-mcq-23",
-        "tea-mcq-22",
-        "tea-mcq-21",
-        "tea-mcq-20",
-        "tea-mcq-19",
-        "tea-mcq-18"
+        "tea-mcq-16",
+        "tea-mcq-18",
+        "tea-mcq-07"
       ],
       "explanation": "本句的「tea」指「茶葉時，表示茶葉」。",
       "sentenceIndex": 46,
@@ -1919,12 +1733,10 @@ export default {
         "tea"
       ],
       "optionReasons": {
-        "tea-mcq-23": "本句指「茶葉時，表示茶葉」。",
-        "tea-mcq-22": "「茶杯時，表示茶杯」是「teacup（茶杯）」的用法，與本句語境不同。",
-        "tea-mcq-21": "「專門用來沖泡／盛裝茶飲的壺」是「teapot（茶壺）」的用法，與本句語境不同。",
-        "tea-mcq-20": "「裝有茶葉、可直接放進熱水沖泡的小袋」是「tea bag（茶包）」的用法，與本句語境不同。",
-        "tea-mcq-19": "「某人喜歡、感興趣或適合的事物」是「someone’s cup of tea（某人的喜好）」的用法，與本句語境不同。",
-        "tea-mcq-18": "「不是某人喜歡、感興趣或適合的事物」是「not my cup of tea（不是我的喜好）」的用法，與本句語境不同。"
+        "tea-mcq-23": "本句的「tea」指「茶葉時，表示茶葉」。",
+        "tea-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tea-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tea-mcq-23"
     }
@@ -1936,5 +1748,7 @@ export default {
     "sha256": "7967b95a44e5e68015cb15b1bd69d385004395da21f30174a02ed36e7381240d",
     "pages": 23
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

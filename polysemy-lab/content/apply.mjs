@@ -1674,11 +1674,9 @@ export default {
       "masked": "Different rules ____ in this situation.",
       "options": [
         "apply-mcq-04",
-        "apply-mcq-03",
-        "apply-mcq-05",
-        "apply-mcq-02",
-        "apply-mcq-06",
-        "apply-mcq-01"
+        "apply-mcq-48",
+        "apply-mcq-24",
+        "apply-mcq-34"
       ],
       "explanation": "本句的「apply」指「在某情況下有效／適用」。",
       "sentenceIndex": 1,
@@ -1687,12 +1685,10 @@ export default {
         "apply"
       ],
       "optionReasons": {
-        "apply-mcq-04": "本句指「在某情況下有效／適用」。",
-        "apply-mcq-03": "「對某人／某事適用、相關」與本句語境不同。",
-        "apply-mcq-05": "「對不同人士／情況同樣適用」與本句語境不同。",
-        "apply-mcq-02": "「同一原則／情況也適用於另一事物；……也是一樣」與本句語境不同。",
-        "apply-mcq-06": "「在廣泛／一般情況下適用」與本句語境不同。",
-        "apply-mcq-01": "「某原則、說法、規則等對某情況同樣有效／相關；適用」與本句語境不同。"
+        "apply-mcq-04": "本句的「apply」指「在某情況下有效／適用」。",
+        "apply-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-04"
     },
@@ -1704,11 +1700,9 @@ export default {
       "masked": "The principle does not always ____ in practice.",
       "options": [
         "apply-mcq-04",
-        "apply-mcq-03",
-        "apply-mcq-05",
-        "apply-mcq-02",
-        "apply-mcq-06",
-        "apply-mcq-01"
+        "apply-mcq-72",
+        "apply-mcq-48",
+        "apply-mcq-27"
       ],
       "explanation": "本句的「apply」指「在某情況下有效／適用」。",
       "sentenceIndex": 2,
@@ -1717,12 +1711,10 @@ export default {
         "apply"
       ],
       "optionReasons": {
-        "apply-mcq-04": "本句指「在某情況下有效／適用」。",
-        "apply-mcq-03": "「對某人／某事適用、相關」與本句語境不同。",
-        "apply-mcq-05": "「對不同人士／情況同樣適用」與本句語境不同。",
-        "apply-mcq-02": "「同一原則／情況也適用於另一事物；……也是一樣」與本句語境不同。",
-        "apply-mcq-06": "「在廣泛／一般情況下適用」與本句語境不同。",
-        "apply-mcq-01": "「某原則、說法、規則等對某情況同樣有效／相關；適用」與本句語境不同。"
+        "apply-mcq-04": "本句的「apply」指「在某情況下有效／適用」。",
+        "apply-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-04"
     },
@@ -1734,11 +1726,9 @@ export default {
       "masked": "Discount available; conditions ____.",
       "options": [
         "apply-mcq-10",
-        "apply-mcq-09",
-        "apply-mcq-11",
-        "apply-mcq-08",
-        "apply-mcq-12",
-        "apply-mcq-07"
+        "apply-mcq-72",
+        "apply-mcq-15",
+        "apply-mcq-34"
       ],
       "explanation": "本句的「apply」指「優惠／安排附帶特定條件」。",
       "sentenceIndex": 3,
@@ -1747,12 +1737,10 @@ export default {
         "apply"
       ],
       "optionReasons": {
-        "apply-mcq-10": "本句指「優惠／安排附帶特定條件」。",
-        "apply-mcq-09": "「某法律對該人／情況具有法律適用性」與本句語境不同。",
-        "apply-mcq-11": "「須受相關條款及細則約束」與本句語境不同。",
-        "apply-mcq-08": "「某項規則對該情況有效」與本句語境不同。",
-        "apply-mcq-12": "「有特定限制適用」與本句語境不同。",
-        "apply-mcq-07": "「只／特別適用於某群體或情況」與本句語境不同。"
+        "apply-mcq-10": "本句的「apply」指「優惠／安排附帶特定條件」。",
+        "apply-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-10"
     },
@@ -1764,11 +1752,9 @@ export default {
       "masked": "Additional restrictions ____ during holidays.",
       "options": [
         "apply-mcq-12",
-        "apply-mcq-11",
-        "apply-mcq-13",
-        "apply-mcq-10",
-        "apply-mcq-14",
-        "apply-mcq-09"
+        "apply-mcq-32",
+        "apply-mcq-20",
+        "apply-mcq-48"
       ],
       "explanation": "本句的「apply」指「有特定限制適用」。",
       "sentenceIndex": 4,
@@ -1777,12 +1763,10 @@ export default {
         "apply"
       ],
       "optionReasons": {
-        "apply-mcq-12": "本句指「有特定限制適用」。",
-        "apply-mcq-11": "「須受相關條款及細則約束」與本句語境不同。",
-        "apply-mcq-13": "「該情況須收取相關費用」與本句語境不同。",
-        "apply-mcq-10": "「優惠／安排附帶特定條件」與本句語境不同。",
-        "apply-mcq-14": "「一般規則存在例外」與本句語境不同。",
-        "apply-mcq-09": "「某法律對該人／情況具有法律適用性」與本句語境不同。"
+        "apply-mcq-12": "本句的「apply」指「有特定限制適用」。",
+        "apply-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-12"
     },
@@ -1794,11 +1778,9 @@ export default {
       "masked": "Drama lets students ____ their knowledge.",
       "options": [
         "apply-mcq-15",
-        "apply-mcq-14",
-        "apply-mcq-16",
-        "apply-mcq-13",
-        "apply-mcq-17",
-        "apply-mcq-12"
+        "apply-mcq-32",
+        "apply-mcq-50",
+        "apply-mcq-79"
       ],
       "explanation": "本句的「apply」指「把所學知識實際運用」。",
       "sentenceIndex": 8,
@@ -1807,12 +1789,10 @@ export default {
         "apply"
       ],
       "optionReasons": {
-        "apply-mcq-15": "本句指「把所學知識實際運用」。",
-        "apply-mcq-14": "「一般規則存在例外」與本句語境不同。",
-        "apply-mcq-16": "「在實際情況中運用技能」與本句語境不同。",
-        "apply-mcq-13": "「該情況須收取相關費用」與本句語境不同。",
-        "apply-mcq-17": "「把理論用於實際分析／工作」與本句語境不同。",
-        "apply-mcq-12": "「有特定限制適用」與本句語境不同。"
+        "apply-mcq-15": "本句的「apply」指「把所學知識實際運用」。",
+        "apply-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-15"
     },
@@ -1824,11 +1804,9 @@ export default {
       "masked": "Students must ____ communication skills.",
       "options": [
         "apply-mcq-16",
-        "apply-mcq-15",
-        "apply-mcq-17",
-        "apply-mcq-14",
-        "apply-mcq-18",
-        "apply-mcq-13"
+        "apply-mcq-34",
+        "apply-mcq-12",
+        "apply-mcq-20"
       ],
       "explanation": "本句的「apply」指「在實際情況中運用技能」。",
       "sentenceIndex": 9,
@@ -1837,12 +1815,10 @@ export default {
         "apply"
       ],
       "optionReasons": {
-        "apply-mcq-16": "本句指「在實際情況中運用技能」。",
-        "apply-mcq-15": "「把所學知識實際運用」與本句語境不同。",
-        "apply-mcq-17": "「把理論用於實際分析／工作」與本句語境不同。",
-        "apply-mcq-14": "「一般規則存在例外」與本句語境不同。",
-        "apply-mcq-18": "「把理論應用於實踐」與本句語境不同。",
-        "apply-mcq-13": "「該情況須收取相關費用」與本句語境不同。"
+        "apply-mcq-16": "本句的「apply」指「在實際情況中運用技能」。",
+        "apply-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-16"
     },
@@ -1854,11 +1830,9 @@ export default {
       "masked": "The assignment asks students to ____ theory to practice.",
       "options": [
         "apply-mcq-17",
-        "apply-mcq-16",
-        "apply-mcq-18",
-        "apply-mcq-15",
-        "apply-mcq-19",
-        "apply-mcq-14"
+        "apply-mcq-50",
+        "apply-mcq-32",
+        "apply-mcq-20"
       ],
       "explanation": "本句的「apply」指「把理論用於實際分析／工作」。",
       "sentenceIndex": 10,
@@ -1867,12 +1841,10 @@ export default {
         "apply"
       ],
       "optionReasons": {
-        "apply-mcq-17": "本句指「把理論用於實際分析／工作」。",
-        "apply-mcq-16": "「在實際情況中運用技能」與本句語境不同。",
-        "apply-mcq-18": "「把理論應用於實踐」與本句語境不同。",
-        "apply-mcq-15": "「把所學知識實際運用」與本句語境不同。",
-        "apply-mcq-19": "「運用某項原則」與本句語境不同。",
-        "apply-mcq-14": "「一般規則存在例外」與本句語境不同。"
+        "apply-mcq-17": "本句的「apply」指「把理論用於實際分析／工作」。",
+        "apply-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-17"
     },
@@ -1884,11 +1856,9 @@ export default {
       "masked": "Teachers should ____ the rules consistently.",
       "options": [
         "apply-mcq-20",
-        "apply-mcq-19",
-        "apply-mcq-21",
-        "apply-mcq-18",
-        "apply-mcq-22",
-        "apply-mcq-17"
+        "apply-mcq-32",
+        "apply-mcq-30",
+        "apply-mcq-10"
       ],
       "explanation": "本句的「apply」指「在具體個案中套用／執行規則」。",
       "sentenceIndex": 11,
@@ -1897,12 +1867,10 @@ export default {
         "apply"
       ],
       "optionReasons": {
-        "apply-mcq-20": "本句指「在具體個案中套用／執行規則」。",
-        "apply-mcq-19": "「運用某項原則」與本句語境不同。",
-        "apply-mcq-21": "「把法律規則適用於具體案件」與本句語境不同。",
-        "apply-mcq-18": "「把理論應用於實踐」與本句語境不同。",
-        "apply-mcq-22": "「在某情況中實施／套用政策」與本句語境不同。",
-        "apply-mcq-17": "「把理論用於實際分析／工作」與本句語境不同。"
+        "apply-mcq-20": "本句的「apply」指「在具體個案中套用／執行規則」。",
+        "apply-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-20"
     },
@@ -1914,11 +1882,9 @@ export default {
       "masked": "Courts must ____ the law to the facts.",
       "options": [
         "apply-mcq-21",
-        "apply-mcq-20",
-        "apply-mcq-22",
-        "apply-mcq-19",
-        "apply-mcq-23",
-        "apply-mcq-18"
+        "apply-mcq-32",
+        "apply-mcq-15",
+        "apply-mcq-74"
       ],
       "explanation": "本句的「apply」指「把法律規則適用於具體案件」。",
       "sentenceIndex": 12,
@@ -1927,12 +1893,10 @@ export default {
         "apply"
       ],
       "optionReasons": {
-        "apply-mcq-21": "本句指「把法律規則適用於具體案件」。",
-        "apply-mcq-20": "「在具體個案中套用／執行規則」與本句語境不同。",
-        "apply-mcq-22": "「在某情況中實施／套用政策」與本句語境不同。",
-        "apply-mcq-19": "「運用某項原則」與本句語境不同。",
-        "apply-mcq-23": "「按某標準判斷／處理」與本句語境不同。",
-        "apply-mcq-18": "「把理論應用於實踐」與本句語境不同。"
+        "apply-mcq-21": "本句的「apply」指「把法律規則適用於具體案件」。",
+        "apply-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-21"
     },
@@ -1944,11 +1908,9 @@ export default {
       "masked": "Assessors ____ the same criteria to all candidates.",
       "options": [
         "apply-mcq-24",
-        "apply-mcq-23",
-        "apply-mcq-25",
-        "apply-mcq-22",
-        "apply-mcq-26",
-        "apply-mcq-21"
+        "apply-mcq-27",
+        "apply-mcq-16",
+        "apply-mcq-32"
       ],
       "explanation": "本句的「apply」指「使用既定準則作評估」。",
       "sentenceIndex": 13,
@@ -1957,12 +1919,10 @@ export default {
         "apply"
       ],
       "optionReasons": {
-        "apply-mcq-24": "本句指「使用既定準則作評估」。",
-        "apply-mcq-23": "「按某標準判斷／處理」與本句語境不同。",
-        "apply-mcq-25": "「採用某種測試／判斷標準」與本句語境不同。",
-        "apply-mcq-22": "「在某情況中實施／套用政策」與本句語境不同。",
-        "apply-mcq-26": "「採用某方法／技術」與本句語境不同。",
-        "apply-mcq-21": "「把法律規則適用於具體案件」與本句語境不同。"
+        "apply-mcq-24": "本句的「apply」指「使用既定準則作評估」。",
+        "apply-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-24"
     },
@@ -1974,11 +1934,9 @@ export default {
       "masked": "____ the formula to calculate the area.",
       "options": [
         "apply-mcq-27",
-        "apply-mcq-26",
-        "apply-mcq-28",
-        "apply-mcq-25",
-        "apply-mcq-29",
-        "apply-mcq-24"
+        "apply-mcq-72",
+        "apply-mcq-32",
+        "apply-mcq-04"
       ],
       "explanation": "本句的「Apply」指「套用公式」。",
       "sentenceIndex": 14,
@@ -1987,12 +1945,10 @@ export default {
         "Apply"
       ],
       "optionReasons": {
-        "apply-mcq-27": "本句指「套用公式」。",
-        "apply-mcq-26": "「採用某方法／技術」與本句語境不同。",
-        "apply-mcq-28": "「用某模型／框架分析問題」與本句語境不同。",
-        "apply-mcq-25": "「採用某種測試／判斷標準」與本句語境不同。",
-        "apply-mcq-29": "「把概念運用於具體情況」與本句語境不同。",
-        "apply-mcq-24": "「使用既定準則作評估」與本句語境不同。"
+        "apply-mcq-27": "本句的「Apply」指「套用公式」。",
+        "apply-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-27"
     },
@@ -2004,11 +1960,9 @@ export default {
       "masked": "Students need opportunities to ____ their learning.",
       "options": [
         "apply-mcq-30",
-        "apply-mcq-29",
-        "apply-mcq-31",
-        "apply-mcq-28",
-        "apply-mcq-32",
-        "apply-mcq-27"
+        "apply-mcq-74",
+        "apply-mcq-46",
+        "apply-mcq-24"
       ],
       "explanation": "本句的「apply」指「把所學內容用於實際情境」。",
       "sentenceIndex": 15,
@@ -2017,12 +1971,10 @@ export default {
         "apply"
       ],
       "optionReasons": {
-        "apply-mcq-30": "本句指「把所學內容用於實際情境」。",
-        "apply-mcq-29": "「把概念運用於具體情況」與本句語境不同。",
-        "apply-mcq-31": "「把 X 應用／套用於 Y」與本句語境不同。",
-        "apply-mcq-28": "「用某模型／框架分析問題」與本句語境不同。",
-        "apply-mcq-32": "「把某物塗／敷／放到表面上」與本句語境不同。",
-        "apply-mcq-27": "「套用公式」與本句語境不同。"
+        "apply-mcq-30": "本句的「apply」指「把所學內容用於實際情境」。",
+        "apply-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-30"
     },
@@ -2034,11 +1986,9 @@ export default {
       "masked": "____ the cream twice a day.",
       "options": [
         "apply-mcq-32",
-        "apply-mcq-31",
-        "apply-mcq-33",
-        "apply-mcq-30",
-        "apply-mcq-34",
-        "apply-mcq-29"
+        "apply-mcq-50",
+        "apply-mcq-79",
+        "apply-mcq-15"
       ],
       "explanation": "本句的「Apply」指「把某物塗／敷／放到表面上」。",
       "sentenceIndex": 17,
@@ -2047,12 +1997,10 @@ export default {
         "Apply"
       ],
       "optionReasons": {
-        "apply-mcq-32": "本句指「把某物塗／敷／放到表面上」。",
-        "apply-mcq-31": "「把 X 應用／套用於 Y」與本句語境不同。",
-        "apply-mcq-33": "「塗乳霜／藥膏」與本句語境不同。",
-        "apply-mcq-30": "「把所學內容用於實際情境」與本句語境不同。",
-        "apply-mcq-34": "「塗防曬霜」與本句語境不同。",
-        "apply-mcq-29": "「把概念運用於具體情況」與本句語境不同。"
+        "apply-mcq-32": "本句的「Apply」指「把某物塗／敷／放到表面上」。",
+        "apply-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-32"
     },
@@ -2064,11 +2012,9 @@ export default {
       "masked": "____ paint evenly.",
       "options": [
         "apply-mcq-32",
-        "apply-mcq-31",
-        "apply-mcq-33",
-        "apply-mcq-30",
-        "apply-mcq-34",
-        "apply-mcq-29"
+        "apply-mcq-12",
+        "apply-mcq-27",
+        "apply-mcq-16"
       ],
       "explanation": "本句的「Apply」指「把某物塗／敷／放到表面上」。",
       "sentenceIndex": 18,
@@ -2077,12 +2023,10 @@ export default {
         "Apply"
       ],
       "optionReasons": {
-        "apply-mcq-32": "本句指「把某物塗／敷／放到表面上」。",
-        "apply-mcq-31": "「把 X 應用／套用於 Y」與本句語境不同。",
-        "apply-mcq-33": "「塗乳霜／藥膏」與本句語境不同。",
-        "apply-mcq-30": "「把所學內容用於實際情境」與本句語境不同。",
-        "apply-mcq-34": "「塗防曬霜」與本句語境不同。",
-        "apply-mcq-29": "「把概念運用於具體情況」與本句語境不同。"
+        "apply-mcq-32": "本句的「Apply」指「把某物塗／敷／放到表面上」。",
+        "apply-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-32"
     },
@@ -2094,11 +2038,9 @@ export default {
       "masked": "____ sunscreen before going outside.",
       "options": [
         "apply-mcq-34",
-        "apply-mcq-33",
-        "apply-mcq-35",
-        "apply-mcq-32",
-        "apply-mcq-36",
-        "apply-mcq-31"
+        "apply-mcq-74",
+        "apply-mcq-20",
+        "apply-mcq-46"
       ],
       "explanation": "本句的「Apply」指「塗防曬霜」。",
       "sentenceIndex": 19,
@@ -2107,12 +2049,10 @@ export default {
         "Apply"
       ],
       "optionReasons": {
-        "apply-mcq-34": "本句指「塗防曬霜」。",
-        "apply-mcq-33": "「塗乳霜／藥膏」與本句語境不同。",
-        "apply-mcq-35": "「塗上化妝品；化妝」與本句語境不同。",
-        "apply-mcq-32": "「把某物塗／敷／放到表面上」與本句語境不同。",
-        "apply-mcq-36": "「塗上油漆／塗料」與本句語境不同。",
-        "apply-mcq-31": "「把 X 應用／套用於 Y」與本句語境不同。"
+        "apply-mcq-34": "本句的「Apply」指「塗防曬霜」。",
+        "apply-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-34"
     },
@@ -2124,11 +2064,9 @@ export default {
       "masked": "____ fertilizer in spring.",
       "options": [
         "apply-mcq-39",
-        "apply-mcq-38",
-        "apply-mcq-40",
-        "apply-mcq-37",
-        "apply-mcq-41",
-        "apply-mcq-36"
+        "apply-mcq-74",
+        "apply-mcq-79",
+        "apply-mcq-20"
       ],
       "explanation": "本句的「Apply」指「施用肥料；施肥」。",
       "sentenceIndex": 20,
@@ -2137,12 +2075,10 @@ export default {
         "Apply"
       ],
       "optionReasons": {
-        "apply-mcq-39": "本句指「施用肥料；施肥」。",
-        "apply-mcq-38": "「在表面加上一層塗層」與本句語境不同。",
-        "apply-mcq-40": "「施用農藥」與本句語境不同。",
-        "apply-mcq-37": "「塗上膠水／黏合劑」與本句語境不同。",
-        "apply-mcq-41": "「把藥物外敷／塗在身體表面」與本句語境不同。",
-        "apply-mcq-36": "「塗上油漆／塗料」與本句語境不同。"
+        "apply-mcq-39": "本句的「Apply」指「施用肥料；施肥」。",
+        "apply-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-39"
     },
@@ -2154,11 +2090,9 @@ export default {
       "masked": "____ heat to the area.",
       "options": [
         "apply-mcq-46",
-        "apply-mcq-45",
-        "apply-mcq-47",
-        "apply-mcq-44",
-        "apply-mcq-48",
-        "apply-mcq-43"
+        "apply-mcq-27",
+        "apply-mcq-10",
+        "apply-mcq-17"
       ],
       "explanation": "本句的「Apply」指「向某處施加熱力／熱敷」。",
       "sentenceIndex": 21,
@@ -2167,12 +2101,10 @@ export default {
         "Apply"
       ],
       "optionReasons": {
-        "apply-mcq-46": "本句指「向某處施加熱力／熱敷」。",
-        "apply-mcq-45": "「套用／安裝軟體修補程式」與本句語境不同。",
-        "apply-mcq-47": "「冰敷／冷敷」與本句語境不同。",
-        "apply-mcq-44": "「貼上藥貼／補片」與本句語境不同。",
-        "apply-mcq-48": "「對某處施加壓力」與本句語境不同。",
-        "apply-mcq-43": "「為傷口／身體部位包上繃帶」與本句語境不同。"
+        "apply-mcq-46": "本句的「Apply」指「向某處施加熱力／熱敷」。",
+        "apply-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-46"
     },
@@ -2184,11 +2116,9 @@ export default {
       "masked": "____ pressure to the wound.",
       "options": [
         "apply-mcq-48",
-        "apply-mcq-47",
-        "apply-mcq-49",
-        "apply-mcq-46",
-        "apply-mcq-50",
-        "apply-mcq-45"
+        "apply-mcq-30",
+        "apply-mcq-32",
+        "apply-mcq-20"
       ],
       "explanation": "本句的「Apply」指「對某處施加壓力」。",
       "sentenceIndex": 23,
@@ -2197,12 +2127,10 @@ export default {
         "Apply"
       ],
       "optionReasons": {
-        "apply-mcq-48": "本句指「對某處施加壓力」。",
-        "apply-mcq-47": "「冰敷／冷敷」與本句語境不同。",
-        "apply-mcq-49": "「向某人／機構施壓」與本句語境不同。",
-        "apply-mcq-46": "「向某處施加熱力／熱敷」與本句語境不同。",
-        "apply-mcq-50": "「施加力量」與本句語境不同。",
-        "apply-mcq-45": "「套用／安裝軟體修補程式」與本句語境不同。"
+        "apply-mcq-48": "本句的「Apply」指「對某處施加壓力」。",
+        "apply-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-48"
     },
@@ -2214,11 +2142,9 @@ export default {
       "masked": "____ force gradually.",
       "options": [
         "apply-mcq-50",
-        "apply-mcq-49",
-        "apply-mcq-51",
-        "apply-mcq-48",
-        "apply-mcq-52",
-        "apply-mcq-47"
+        "apply-mcq-79",
+        "apply-mcq-74",
+        "apply-mcq-15"
       ],
       "explanation": "本句的「Apply」指「施加力量」。",
       "sentenceIndex": 24,
@@ -2227,12 +2153,10 @@ export default {
         "Apply"
       ],
       "optionReasons": {
-        "apply-mcq-50": "本句指「施加力量」。",
-        "apply-mcq-49": "「向某人／機構施壓」與本句語境不同。",
-        "apply-mcq-51": "「工程：對物體施加荷載」與本句語境不同。",
-        "apply-mcq-48": "「對某處施加壓力」與本句語境不同。",
-        "apply-mcq-52": "「對電路施加電壓／電流」與本句語境不同。",
-        "apply-mcq-47": "「冰敷／冷敷」與本句語境不同。"
+        "apply-mcq-50": "本句的「Apply」指「施加力量」。",
+        "apply-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-50"
     },
@@ -2244,11 +2168,9 @@ export default {
       "masked": "If you ____ yourself, you will improve.",
       "options": [
         "apply-mcq-72",
-        "apply-mcq-71",
-        "apply-mcq-73",
-        "apply-mcq-70",
-        "apply-mcq-74",
-        "apply-mcq-69"
+        "apply-mcq-24",
+        "apply-mcq-48",
+        "apply-mcq-34"
       ],
       "explanation": "本句的「apply」指「認真、專心投入工作／學習」。",
       "sentenceIndex": 27,
@@ -2257,12 +2179,10 @@ export default {
         "apply"
       ],
       "optionReasons": {
-        "apply-mcq-72": "本句指「認真、專心投入工作／學習」。",
-        "apply-mcq-71": "「再次／重新提出申請」與本句語境不同。",
-        "apply-mcq-73": "「把精力專注投入某項任務」與本句語境不同。",
-        "apply-mcq-70": "「以書面形式申請」與本句語境不同。",
-        "apply-mcq-74": "「認真思考／研究某問題」與本句語境不同。",
-        "apply-mcq-69": "「親身提交申請」與本句語境不同。"
+        "apply-mcq-72": "本句的「apply」指「認真、專心投入工作／學習」。",
+        "apply-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-72"
     },
@@ -2274,11 +2194,9 @@ export default {
       "masked": "____ your mind to the question.",
       "options": [
         "apply-mcq-74",
-        "apply-mcq-73",
-        "apply-mcq-75",
-        "apply-mcq-72",
-        "apply-mcq-76",
-        "apply-mcq-71"
+        "apply-mcq-30",
+        "apply-mcq-10",
+        "apply-mcq-24"
       ],
       "explanation": "本句的「Apply」指「認真思考／研究某問題」。",
       "sentenceIndex": 28,
@@ -2287,12 +2205,10 @@ export default {
         "Apply"
       ],
       "optionReasons": {
-        "apply-mcq-74": "本句指「認真思考／研究某問題」。",
-        "apply-mcq-73": "「把精力專注投入某項任務」與本句語境不同。",
-        "apply-mcq-75": "「把折扣套用到價格上」與本句語境不同。",
-        "apply-mcq-72": "「認真、專心投入工作／學習」與本句語境不同。",
-        "apply-mcq-76": "「使用／套用優惠券或優惠碼」與本句語境不同。",
-        "apply-mcq-71": "「再次／重新提出申請」與本句語境不同。"
+        "apply-mcq-74": "本句的「Apply」指「認真思考／研究某問題」。",
+        "apply-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-74"
     },
@@ -2304,11 +2220,9 @@ export default {
       "masked": "Click ____ to save the new settings.",
       "options": [
         "apply-mcq-79",
-        "apply-mcq-78",
-        "apply-mcq-80",
-        "apply-mcq-77",
-        "apply-mcq-81",
-        "apply-mcq-76"
+        "apply-mcq-50",
+        "apply-mcq-34",
+        "apply-mcq-30"
       ],
       "explanation": "本句的「Apply」指「使已選取的設定／修改正式生效」。",
       "sentenceIndex": 30,
@@ -2317,12 +2231,10 @@ export default {
         "Apply"
       ],
       "optionReasons": {
-        "apply-mcq-79": "本句指「使已選取的設定／修改正式生效」。",
-        "apply-mcq-78": "「正式：把資金用於指定用途」與本句語境不同。",
-        "apply-mcq-80": "「軟體介面中的「套用」」與本句語境不同。",
-        "apply-mcq-77": "「把一筆付款分配／入賬到指定帳戶或餘額」與本句語境不同。",
-        "apply-mcq-81": "「使設定正式生效」與本句語境不同。",
-        "apply-mcq-76": "「使用／套用優惠券或優惠碼」與本句語境不同。"
+        "apply-mcq-79": "本句的「Apply」指「使已選取的設定／修改正式生效」。",
+        "apply-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "apply-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apply-mcq-79"
     }
@@ -2334,5 +2246,7 @@ export default {
     "sha256": "f8a65d1d637e3406fc19638905afa3aa9465b8a06e5747547e610c92b1831ce0",
     "pages": 105
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

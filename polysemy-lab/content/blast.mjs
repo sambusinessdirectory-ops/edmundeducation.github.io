@@ -541,11 +541,9 @@ export default {
       "masked": "The ____ shattered several windows.",
       "options": [
         "blast-mcq-01",
-        "blast-mcq-02",
-        "blast-mcq-03",
-        "blast-mcq-04",
-        "blast-mcq-05",
-        "blast-mcq-06"
+        "blast-mcq-06",
+        "blast-mcq-19",
+        "blast-mcq-14"
       ],
       "explanation": "本句的「blast」指「突然而強烈的爆炸／爆炸衝擊」。",
       "sentenceIndex": 2,
@@ -554,12 +552,10 @@ export default {
         "blast"
       ],
       "optionReasons": {
-        "blast-mcq-01": "本句指「突然而強烈的爆炸／爆炸衝擊」。",
-        "blast-mcq-02": "「用爆炸物炸開、炸毀或爆破某物」與本句語境不同。",
-        "blast-mcq-03": "「突然猛烈的一股風、氣流、熱氣等」與本句語境不同。",
-        "blast-mcq-04": "「突然而猛烈的一陣強風」與本句語境不同。",
-        "blast-mcq-05": "「突然或極其強烈的巨響」與本句語境不同。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。"
+        "blast-mcq-01": "本句的「blast」指「突然而強烈的爆炸／爆炸衝擊」。",
+        "blast-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-01"
     },
@@ -571,11 +567,9 @@ export default {
       "masked": "People several streets away heard the ____.",
       "options": [
         "blast-mcq-01",
-        "blast-mcq-02",
-        "blast-mcq-03",
-        "blast-mcq-04",
-        "blast-mcq-05",
-        "blast-mcq-06"
+        "blast-mcq-07",
+        "blast-mcq-15",
+        "blast-mcq-12"
       ],
       "explanation": "本句的「blast」指「突然而強烈的爆炸／爆炸衝擊」。",
       "sentenceIndex": 3,
@@ -584,12 +578,10 @@ export default {
         "blast"
       ],
       "optionReasons": {
-        "blast-mcq-01": "本句指「突然而強烈的爆炸／爆炸衝擊」。",
-        "blast-mcq-02": "「用爆炸物炸開、炸毀或爆破某物」與本句語境不同。",
-        "blast-mcq-03": "「突然猛烈的一股風、氣流、熱氣等」與本句語境不同。",
-        "blast-mcq-04": "「突然而猛烈的一陣強風」與本句語境不同。",
-        "blast-mcq-05": "「突然或極其強烈的巨響」與本句語境不同。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。"
+        "blast-mcq-01": "本句的「blast」指「突然而強烈的爆炸／爆炸衝擊」。",
+        "blast-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-01"
     },
@@ -601,10 +593,8 @@ export default {
       "masked": "Workers ____ through the rock.",
       "options": [
         "blast-mcq-02",
-        "blast-mcq-01",
         "blast-mcq-03",
-        "blast-mcq-04",
-        "blast-mcq-05",
+        "blast-mcq-22",
         "blast-mcq-06"
       ],
       "explanation": "本句的「blasted」指「用爆炸物炸開、炸毀或爆破某物」。",
@@ -614,12 +604,10 @@ export default {
         "blasted"
       ],
       "optionReasons": {
-        "blast-mcq-02": "本句指「用爆炸物炸開、炸毀或爆破某物」。",
-        "blast-mcq-01": "「突然而強烈的爆炸／爆炸衝擊」與本句語境不同。",
-        "blast-mcq-03": "「突然猛烈的一股風、氣流、熱氣等」與本句語境不同。",
-        "blast-mcq-04": "「突然而猛烈的一陣強風」與本句語境不同。",
-        "blast-mcq-05": "「突然或極其強烈的巨響」與本句語境不同。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。"
+        "blast-mcq-02": "本句的「blasted」指「用爆炸物炸開、炸毀或爆破某物」。",
+        "blast-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-02"
     },
@@ -631,11 +619,9 @@ export default {
       "masked": "The entrance was ____.",
       "options": [
         "blast-mcq-02",
-        "blast-mcq-01",
-        "blast-mcq-03",
-        "blast-mcq-04",
-        "blast-mcq-05",
-        "blast-mcq-06"
+        "blast-mcq-21",
+        "blast-mcq-12",
+        "blast-mcq-09"
       ],
       "explanation": "本句的「blasted open」指「用爆炸物炸開、炸毀或爆破某物」。",
       "sentenceIndex": 5,
@@ -644,12 +630,10 @@ export default {
         "blasted open"
       ],
       "optionReasons": {
-        "blast-mcq-02": "本句指「用爆炸物炸開、炸毀或爆破某物」。",
-        "blast-mcq-01": "「突然而強烈的爆炸／爆炸衝擊」與本句語境不同。",
-        "blast-mcq-03": "「突然猛烈的一股風、氣流、熱氣等」與本句語境不同。",
-        "blast-mcq-04": "「突然而猛烈的一陣強風」與本句語境不同。",
-        "blast-mcq-05": "「突然或極其強烈的巨響」與本句語境不同。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。"
+        "blast-mcq-02": "本句的「blasted open」指「用爆炸物炸開、炸毀或爆破某物」。",
+        "blast-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-02"
     },
@@ -661,11 +645,9 @@ export default {
       "masked": "A ____ hit us when the door opened.",
       "options": [
         "blast-mcq-03",
-        "blast-mcq-02",
-        "blast-mcq-04",
-        "blast-mcq-01",
-        "blast-mcq-05",
-        "blast-mcq-06"
+        "blast-mcq-19",
+        "blast-mcq-15",
+        "blast-mcq-14"
       ],
       "explanation": "本句的「blast of cold air」指「突然猛烈的一股風、氣流、熱氣等」。",
       "sentenceIndex": 6,
@@ -674,12 +656,10 @@ export default {
         "blast of cold air"
       ],
       "optionReasons": {
-        "blast-mcq-03": "本句指「突然猛烈的一股風、氣流、熱氣等」。",
-        "blast-mcq-02": "「用爆炸物炸開、炸毀或爆破某物」與本句語境不同。",
-        "blast-mcq-04": "「突然而猛烈的一陣強風」與本句語境不同。",
-        "blast-mcq-01": "「突然而強烈的爆炸／爆炸衝擊」與本句語境不同。",
-        "blast-mcq-05": "「突然或極其強烈的巨響」與本句語境不同。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。"
+        "blast-mcq-03": "本句的「blast of cold air」指「突然猛烈的一股風、氣流、熱氣等」。",
+        "blast-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-03"
     },
@@ -691,11 +671,9 @@ export default {
       "masked": "A ____ came from the oven.",
       "options": [
         "blast-mcq-03",
-        "blast-mcq-02",
-        "blast-mcq-04",
-        "blast-mcq-01",
-        "blast-mcq-05",
-        "blast-mcq-06"
+        "blast-mcq-19",
+        "blast-mcq-15",
+        "blast-mcq-21"
       ],
       "explanation": "本句的「blast of hot air」指「突然猛烈的一股風、氣流、熱氣等」。",
       "sentenceIndex": 7,
@@ -704,12 +682,10 @@ export default {
         "blast of hot air"
       ],
       "optionReasons": {
-        "blast-mcq-03": "本句指「突然猛烈的一股風、氣流、熱氣等」。",
-        "blast-mcq-02": "「用爆炸物炸開、炸毀或爆破某物」與本句語境不同。",
-        "blast-mcq-04": "「突然而猛烈的一陣強風」與本句語境不同。",
-        "blast-mcq-01": "「突然而強烈的爆炸／爆炸衝擊」與本句語境不同。",
-        "blast-mcq-05": "「突然或極其強烈的巨響」與本句語境不同。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。"
+        "blast-mcq-03": "本句的「blast of hot air」指「突然猛烈的一股風、氣流、熱氣等」。",
+        "blast-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-03"
     },
@@ -721,11 +697,9 @@ export default {
       "masked": "A sudden ____ knocked over the sign.",
       "options": [
         "blast-mcq-04",
-        "blast-mcq-03",
-        "blast-mcq-05",
-        "blast-mcq-02",
-        "blast-mcq-06",
-        "blast-mcq-01"
+        "blast-mcq-19",
+        "blast-mcq-07",
+        "blast-mcq-16"
       ],
       "explanation": "本句的「blast of wind」指「突然而猛烈的一陣強風」。",
       "sentenceIndex": 8,
@@ -734,12 +708,10 @@ export default {
         "blast of wind"
       ],
       "optionReasons": {
-        "blast-mcq-04": "本句指「突然而猛烈的一陣強風」。",
-        "blast-mcq-03": "「突然猛烈的一股風、氣流、熱氣等」與本句語境不同。",
-        "blast-mcq-05": "「突然或極其強烈的巨響」與本句語境不同。",
-        "blast-mcq-02": "「用爆炸物炸開、炸毀或爆破某物」與本句語境不同。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。",
-        "blast-mcq-01": "「突然而強烈的爆炸／爆炸衝擊」與本句語境不同。"
+        "blast-mcq-04": "本句的「blast of wind」指「突然而猛烈的一陣強風」。",
+        "blast-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-04"
     },
@@ -751,11 +723,9 @@ export default {
       "masked": "Another icy ____ swept across the street.",
       "options": [
         "blast-mcq-04",
-        "blast-mcq-03",
-        "blast-mcq-05",
-        "blast-mcq-02",
-        "blast-mcq-06",
-        "blast-mcq-01"
+        "blast-mcq-15",
+        "blast-mcq-20",
+        "blast-mcq-08"
       ],
       "explanation": "本句的「blast」指「突然而猛烈的一陣強風」。",
       "sentenceIndex": 9,
@@ -764,12 +734,10 @@ export default {
         "blast"
       ],
       "optionReasons": {
-        "blast-mcq-04": "本句指「突然而猛烈的一陣強風」。",
-        "blast-mcq-03": "「突然猛烈的一股風、氣流、熱氣等」與本句語境不同。",
-        "blast-mcq-05": "「突然或極其強烈的巨響」與本句語境不同。",
-        "blast-mcq-02": "「用爆炸物炸開、炸毀或爆破某物」與本句語境不同。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。",
-        "blast-mcq-01": "「突然而強烈的爆炸／爆炸衝擊」與本句語境不同。"
+        "blast-mcq-04": "本句的「blast」指「突然而猛烈的一陣強風」。",
+        "blast-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-04"
     },
@@ -781,11 +749,9 @@ export default {
       "masked": "A ____ came from the car.",
       "options": [
         "blast-mcq-05",
-        "blast-mcq-04",
-        "blast-mcq-06",
-        "blast-mcq-03",
-        "blast-mcq-07",
-        "blast-mcq-02"
+        "blast-mcq-22",
+        "blast-mcq-18",
+        "blast-mcq-12"
       ],
       "explanation": "本句的「blast of music」指「突然或極其強烈的巨響」。",
       "sentenceIndex": 10,
@@ -794,12 +760,10 @@ export default {
         "blast of music"
       ],
       "optionReasons": {
-        "blast-mcq-05": "本句指「突然或極其強烈的巨響」。",
-        "blast-mcq-04": "「突然而猛烈的一陣強風」與本句語境不同。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。",
-        "blast-mcq-03": "「突然猛烈的一股風、氣流、熱氣等」與本句語境不同。",
-        "blast-mcq-07": "「聲音從喇叭等以極大音量傳出」與本句語境不同。",
-        "blast-mcq-02": "「用爆炸物炸開、炸毀或爆破某物」與本句語境不同。"
+        "blast-mcq-05": "本句的「blast of music」指「突然或極其強烈的巨響」。",
+        "blast-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-05"
     },
@@ -811,11 +775,9 @@ export default {
       "masked": "The horn gave a loud ____.",
       "options": [
         "blast-mcq-05",
-        "blast-mcq-04",
-        "blast-mcq-06",
-        "blast-mcq-03",
-        "blast-mcq-07",
-        "blast-mcq-02"
+        "blast-mcq-14",
+        "blast-mcq-20",
+        "blast-mcq-12"
       ],
       "explanation": "本句的「blast」指「突然或極其強烈的巨響」。",
       "sentenceIndex": 11,
@@ -824,12 +786,10 @@ export default {
         "blast"
       ],
       "optionReasons": {
-        "blast-mcq-05": "本句指「突然或極其強烈的巨響」。",
-        "blast-mcq-04": "「突然而猛烈的一陣強風」與本句語境不同。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。",
-        "blast-mcq-03": "「突然猛烈的一股風、氣流、熱氣等」與本句語境不同。",
-        "blast-mcq-07": "「聲音從喇叭等以極大音量傳出」與本句語境不同。",
-        "blast-mcq-02": "「用爆炸物炸開、炸毀或爆破某物」與本句語境不同。"
+        "blast-mcq-05": "本句的「blast」指「突然或極其強烈的巨響」。",
+        "blast-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-05"
     },
@@ -841,11 +801,9 @@ export default {
       "masked": "Someone was ____ next door.",
       "options": [
         "blast-mcq-06",
-        "blast-mcq-05",
-        "blast-mcq-07",
-        "blast-mcq-04",
-        "blast-mcq-08",
-        "blast-mcq-03"
+        "blast-mcq-01",
+        "blast-mcq-12",
+        "blast-mcq-20"
       ],
       "explanation": "本句的「blasting music」指「以極高音量播放音樂／發出聲音」。",
       "sentenceIndex": 12,
@@ -854,12 +812,10 @@ export default {
         "blasting music"
       ],
       "optionReasons": {
-        "blast-mcq-06": "本句指「以極高音量播放音樂／發出聲音」。",
-        "blast-mcq-05": "「突然或極其強烈的巨響」與本句語境不同。",
-        "blast-mcq-07": "「聲音從喇叭等以極大音量傳出」與本句語境不同。",
-        "blast-mcq-04": "「突然而猛烈的一陣強風」與本句語境不同。",
-        "blast-mcq-08": "「以最大功率、音量、熱力等運作」與本句語境不同。",
-        "blast-mcq-03": "「突然猛烈的一股風、氣流、熱氣等」與本句語境不同。"
+        "blast-mcq-06": "本句的「blasting music」指「以極高音量播放音樂／發出聲音」。",
+        "blast-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-06"
     },
@@ -871,11 +827,9 @@ export default {
       "masked": "The radio was ____ all morning.",
       "options": [
         "blast-mcq-06",
-        "blast-mcq-05",
-        "blast-mcq-07",
-        "blast-mcq-04",
-        "blast-mcq-08",
-        "blast-mcq-03"
+        "blast-mcq-17",
+        "blast-mcq-20",
+        "blast-mcq-24"
       ],
       "explanation": "本句的「blasting」指「以極高音量播放音樂／發出聲音」。",
       "sentenceIndex": 13,
@@ -884,12 +838,10 @@ export default {
         "blasting"
       ],
       "optionReasons": {
-        "blast-mcq-06": "本句指「以極高音量播放音樂／發出聲音」。",
-        "blast-mcq-05": "「突然或極其強烈的巨響」與本句語境不同。",
-        "blast-mcq-07": "「聲音從喇叭等以極大音量傳出」與本句語境不同。",
-        "blast-mcq-04": "「突然而猛烈的一陣強風」與本句語境不同。",
-        "blast-mcq-08": "「以最大功率、音量、熱力等運作」與本句語境不同。",
-        "blast-mcq-03": "「突然猛烈的一股風、氣流、熱氣等」與本句語境不同。"
+        "blast-mcq-06": "本句的「blasting」指「以極高音量播放音樂／發出聲音」。",
+        "blast-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-06"
     },
@@ -901,11 +853,9 @@ export default {
       "masked": "Music ____ the speakers.",
       "options": [
         "blast-mcq-07",
-        "blast-mcq-06",
-        "blast-mcq-08",
-        "blast-mcq-05",
-        "blast-mcq-09",
-        "blast-mcq-04"
+        "blast-mcq-04",
+        "blast-mcq-16",
+        "blast-mcq-18"
       ],
       "explanation": "本句的「blasted from」指「聲音從喇叭等以極大音量傳出」。",
       "sentenceIndex": 14,
@@ -914,12 +864,10 @@ export default {
         "blasted from"
       ],
       "optionReasons": {
-        "blast-mcq-07": "本句指「聲音從喇叭等以極大音量傳出」。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。",
-        "blast-mcq-08": "「以最大功率、音量、熱力等運作」與本句語境不同。",
-        "blast-mcq-05": "「突然或極其強烈的巨響」與本句語境不同。",
-        "blast-mcq-09": "「猛烈射擊／轟擊」與本句語境不同。",
-        "blast-mcq-04": "「突然而猛烈的一陣強風」與本句語境不同。"
+        "blast-mcq-07": "本句的「blasted from」指「聲音從喇叭等以極大音量傳出」。",
+        "blast-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-07"
     },
@@ -931,11 +879,9 @@ export default {
       "masked": "An announcement ____ the loudspeaker.",
       "options": [
         "blast-mcq-07",
-        "blast-mcq-06",
-        "blast-mcq-08",
-        "blast-mcq-05",
-        "blast-mcq-09",
-        "blast-mcq-04"
+        "blast-mcq-11",
+        "blast-mcq-24",
+        "blast-mcq-21"
       ],
       "explanation": "本句的「blasted from」指「聲音從喇叭等以極大音量傳出」。",
       "sentenceIndex": 15,
@@ -944,12 +890,10 @@ export default {
         "blasted from"
       ],
       "optionReasons": {
-        "blast-mcq-07": "本句指「聲音從喇叭等以極大音量傳出」。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。",
-        "blast-mcq-08": "「以最大功率、音量、熱力等運作」與本句語境不同。",
-        "blast-mcq-05": "「突然或極其強烈的巨響」與本句語境不同。",
-        "blast-mcq-09": "「猛烈射擊／轟擊」與本句語境不同。",
-        "blast-mcq-04": "「突然而猛烈的一陣強風」與本句語境不同。"
+        "blast-mcq-07": "本句的「blasted from」指「聲音從喇叭等以極大音量傳出」。",
+        "blast-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-07"
     },
@@ -961,11 +905,9 @@ export default {
       "masked": "The air conditioner was running ____.",
       "options": [
         "blast-mcq-08",
-        "blast-mcq-07",
-        "blast-mcq-09",
-        "blast-mcq-06",
-        "blast-mcq-10",
-        "blast-mcq-05"
+        "blast-mcq-12",
+        "blast-mcq-24",
+        "blast-mcq-02"
       ],
       "explanation": "本句的「at full blast」指「以最大功率、音量、熱力等運作」。",
       "sentenceIndex": 16,
@@ -974,12 +916,10 @@ export default {
         "at full blast"
       ],
       "optionReasons": {
-        "blast-mcq-08": "本句指「以最大功率、音量、熱力等運作」。",
-        "blast-mcq-07": "「聲音從喇叭等以極大音量傳出」與本句語境不同。",
-        "blast-mcq-09": "「猛烈射擊／轟擊」與本句語境不同。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。",
-        "blast-mcq-10": "「極用力地擊、踢或射球」與本句語境不同。",
-        "blast-mcq-05": "「突然或極其強烈的巨響」與本句語境不同。"
+        "blast-mcq-08": "本句的「at full blast」指「以最大功率、音量、熱力等運作」。",
+        "blast-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-08"
     },
@@ -991,11 +931,9 @@ export default {
       "masked": "The music was playing ____.",
       "options": [
         "blast-mcq-08",
-        "blast-mcq-07",
-        "blast-mcq-09",
-        "blast-mcq-06",
-        "blast-mcq-10",
-        "blast-mcq-05"
+        "blast-mcq-02",
+        "blast-mcq-04",
+        "blast-mcq-24"
       ],
       "explanation": "本句的「at full blast」指「以最大功率、音量、熱力等運作」。",
       "sentenceIndex": 17,
@@ -1004,12 +942,10 @@ export default {
         "at full blast"
       ],
       "optionReasons": {
-        "blast-mcq-08": "本句指「以最大功率、音量、熱力等運作」。",
-        "blast-mcq-07": "「聲音從喇叭等以極大音量傳出」與本句語境不同。",
-        "blast-mcq-09": "「猛烈射擊／轟擊」與本句語境不同。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。",
-        "blast-mcq-10": "「極用力地擊、踢或射球」與本句語境不同。",
-        "blast-mcq-05": "「突然或極其強烈的巨響」與本句語境不同。"
+        "blast-mcq-08": "本句的「at full blast」指「以最大功率、音量、熱力等運作」。",
+        "blast-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-08"
     },
@@ -1021,11 +957,9 @@ export default {
       "masked": "The heater was on ____.",
       "options": [
         "blast-mcq-08",
-        "blast-mcq-07",
+        "blast-mcq-16",
         "blast-mcq-09",
-        "blast-mcq-06",
-        "blast-mcq-10",
-        "blast-mcq-05"
+        "blast-mcq-21"
       ],
       "explanation": "本句的「full blast」指「以最大功率、音量、熱力等運作」。",
       "sentenceIndex": 18,
@@ -1034,12 +968,10 @@ export default {
         "full blast"
       ],
       "optionReasons": {
-        "blast-mcq-08": "本句指「以最大功率、音量、熱力等運作」。",
-        "blast-mcq-07": "「聲音從喇叭等以極大音量傳出」與本句語境不同。",
-        "blast-mcq-09": "「猛烈射擊／轟擊」與本句語境不同。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。",
-        "blast-mcq-10": "「極用力地擊、踢或射球」與本句語境不同。",
-        "blast-mcq-05": "「突然或極其強烈的巨響」與本句語境不同。"
+        "blast-mcq-08": "本句的「full blast」指「以最大功率、音量、熱力等運作」。",
+        "blast-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-08"
     },
@@ -1051,11 +983,9 @@ export default {
       "masked": "They played the song at ____.",
       "options": [
         "blast-mcq-08",
-        "blast-mcq-07",
-        "blast-mcq-09",
-        "blast-mcq-06",
-        "blast-mcq-10",
-        "blast-mcq-05"
+        "blast-mcq-17",
+        "blast-mcq-19",
+        "blast-mcq-12"
       ],
       "explanation": "本句的「full blast」指「以最大功率、音量、熱力等運作」。",
       "sentenceIndex": 19,
@@ -1064,12 +994,10 @@ export default {
         "full blast"
       ],
       "optionReasons": {
-        "blast-mcq-08": "本句指「以最大功率、音量、熱力等運作」。",
-        "blast-mcq-07": "「聲音從喇叭等以極大音量傳出」與本句語境不同。",
-        "blast-mcq-09": "「猛烈射擊／轟擊」與本句語境不同。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。",
-        "blast-mcq-10": "「極用力地擊、踢或射球」與本句語境不同。",
-        "blast-mcq-05": "「突然或極其強烈的巨響」與本句語境不同。"
+        "blast-mcq-08": "本句的「full blast」指「以最大功率、音量、熱力等運作」。",
+        "blast-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-08"
     },
@@ -1081,11 +1009,9 @@ export default {
       "masked": "They ____ at the target.",
       "options": [
         "blast-mcq-09",
+        "blast-mcq-24",
         "blast-mcq-08",
-        "blast-mcq-10",
-        "blast-mcq-07",
-        "blast-mcq-11",
-        "blast-mcq-06"
+        "blast-mcq-16"
       ],
       "explanation": "本句的「blasted」指「猛烈射擊／轟擊」。",
       "sentenceIndex": 20,
@@ -1094,12 +1020,10 @@ export default {
         "blasted"
       ],
       "optionReasons": {
-        "blast-mcq-09": "本句指「猛烈射擊／轟擊」。",
-        "blast-mcq-08": "「以最大功率、音量、熱力等運作」與本句語境不同。",
-        "blast-mcq-10": "「極用力地擊、踢或射球」與本句語境不同。",
-        "blast-mcq-07": "「聲音從喇叭等以極大音量傳出」與本句語境不同。",
-        "blast-mcq-11": "「非常嚴厲、強烈地批評／抨擊」與本句語境不同。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。"
+        "blast-mcq-09": "本句的「blasted」指「猛烈射擊／轟擊」。",
+        "blast-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-09"
     },
@@ -1111,11 +1035,9 @@ export default {
       "masked": "The weapon ____ a hole in the wall.",
       "options": [
         "blast-mcq-09",
-        "blast-mcq-08",
-        "blast-mcq-10",
-        "blast-mcq-07",
-        "blast-mcq-11",
-        "blast-mcq-06"
+        "blast-mcq-16",
+        "blast-mcq-02",
+        "blast-mcq-08"
       ],
       "explanation": "本句的「blasted」指「猛烈射擊／轟擊」。",
       "sentenceIndex": 21,
@@ -1124,12 +1046,10 @@ export default {
         "blasted"
       ],
       "optionReasons": {
-        "blast-mcq-09": "本句指「猛烈射擊／轟擊」。",
-        "blast-mcq-08": "「以最大功率、音量、熱力等運作」與本句語境不同。",
-        "blast-mcq-10": "「極用力地擊、踢或射球」與本句語境不同。",
-        "blast-mcq-07": "「聲音從喇叭等以極大音量傳出」與本句語境不同。",
-        "blast-mcq-11": "「非常嚴厲、強烈地批評／抨擊」與本句語境不同。",
-        "blast-mcq-06": "「以極高音量播放音樂／發出聲音」與本句語境不同。"
+        "blast-mcq-09": "本句的「blasted」指「猛烈射擊／轟擊」。",
+        "blast-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-09"
     },
@@ -1141,11 +1061,9 @@ export default {
       "masked": "The report ____ the company for poor safety standards.",
       "options": [
         "blast-mcq-11",
-        "blast-mcq-10",
-        "blast-mcq-12",
-        "blast-mcq-09",
-        "blast-mcq-13",
-        "blast-mcq-08"
+        "blast-mcq-18",
+        "blast-mcq-08",
+        "blast-mcq-02"
       ],
       "explanation": "本句的「blasted」指「非常嚴厲、強烈地批評／抨擊」。",
       "sentenceIndex": 24,
@@ -1154,12 +1072,10 @@ export default {
         "blasted"
       ],
       "optionReasons": {
-        "blast-mcq-11": "本句指「非常嚴厲、強烈地批評／抨擊」。",
-        "blast-mcq-10": "「極用力地擊、踢或射球」與本句語境不同。",
-        "blast-mcq-12": "「因某事而嚴厲痛斥某人」與本句語境不同。",
-        "blast-mcq-09": "「猛烈射擊／轟擊」與本句語境不同。",
-        "blast-mcq-13": "「同時向大量人士群發訊息／電郵」與本句語境不同。",
-        "blast-mcq-08": "「以最大功率、音量、熱力等運作」與本句語境不同。"
+        "blast-mcq-11": "本句的「blasted」指「非常嚴厲、強烈地批評／抨擊」。",
+        "blast-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-11"
     },
@@ -1171,11 +1087,9 @@ export default {
       "masked": "Critics ____ the decision.",
       "options": [
         "blast-mcq-11",
-        "blast-mcq-10",
-        "blast-mcq-12",
-        "blast-mcq-09",
-        "blast-mcq-13",
-        "blast-mcq-08"
+        "blast-mcq-20",
+        "blast-mcq-08",
+        "blast-mcq-17"
       ],
       "explanation": "本句的「blasted」指「非常嚴厲、強烈地批評／抨擊」。",
       "sentenceIndex": 25,
@@ -1184,12 +1098,10 @@ export default {
         "blasted"
       ],
       "optionReasons": {
-        "blast-mcq-11": "本句指「非常嚴厲、強烈地批評／抨擊」。",
-        "blast-mcq-10": "「極用力地擊、踢或射球」與本句語境不同。",
-        "blast-mcq-12": "「因某事而嚴厲痛斥某人」與本句語境不同。",
-        "blast-mcq-09": "「猛烈射擊／轟擊」與本句語境不同。",
-        "blast-mcq-13": "「同時向大量人士群發訊息／電郵」與本句語境不同。",
-        "blast-mcq-08": "「以最大功率、音量、熱力等運作」與本句語境不同。"
+        "blast-mcq-11": "本句的「blasted」指「非常嚴厲、強烈地批評／抨擊」。",
+        "blast-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-11"
     },
@@ -1201,11 +1113,9 @@ export default {
       "masked": "She ____ its response.",
       "options": [
         "blast-mcq-12",
-        "blast-mcq-11",
-        "blast-mcq-13",
-        "blast-mcq-10",
-        "blast-mcq-14",
-        "blast-mcq-09"
+        "blast-mcq-16",
+        "blast-mcq-06",
+        "blast-mcq-01"
       ],
       "explanation": "本句的「blasted the company for」指「因某事而嚴厲痛斥某人」。",
       "sentenceIndex": 26,
@@ -1214,12 +1124,10 @@ export default {
         "blasted the company for"
       ],
       "optionReasons": {
-        "blast-mcq-12": "本句指「因某事而嚴厲痛斥某人」。",
-        "blast-mcq-11": "「非常嚴厲、強烈地批評／抨擊」與本句語境不同。",
-        "blast-mcq-13": "「同時向大量人士群發訊息／電郵」與本句語境不同。",
-        "blast-mcq-10": "「極用力地擊、踢或射球」與本句語境不同。",
-        "blast-mcq-14": "「一次發送給大量收件人的群發電郵」與本句語境不同。",
-        "blast-mcq-09": "「猛烈射擊／轟擊」與本句語境不同。"
+        "blast-mcq-12": "本句的「blasted the company for」指「因某事而嚴厲痛斥某人」。",
+        "blast-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-12"
     },
@@ -1231,11 +1139,9 @@ export default {
       "masked": "The coach ____ its poor performance.",
       "options": [
         "blast-mcq-12",
-        "blast-mcq-11",
-        "blast-mcq-13",
-        "blast-mcq-10",
+        "blast-mcq-06",
         "blast-mcq-14",
-        "blast-mcq-09"
+        "blast-mcq-19"
       ],
       "explanation": "本句的「blasted the team for」指「因某事而嚴厲痛斥某人」。",
       "sentenceIndex": 27,
@@ -1244,12 +1150,10 @@ export default {
         "blasted the team for"
       ],
       "optionReasons": {
-        "blast-mcq-12": "本句指「因某事而嚴厲痛斥某人」。",
-        "blast-mcq-11": "「非常嚴厲、強烈地批評／抨擊」與本句語境不同。",
-        "blast-mcq-13": "「同時向大量人士群發訊息／電郵」與本句語境不同。",
-        "blast-mcq-10": "「極用力地擊、踢或射球」與本句語境不同。",
-        "blast-mcq-14": "「一次發送給大量收件人的群發電郵」與本句語境不同。",
-        "blast-mcq-09": "「猛烈射擊／轟擊」與本句語境不同。"
+        "blast-mcq-12": "本句的「blasted the team for」指「因某事而嚴厲痛斥某人」。",
+        "blast-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-12"
     },
@@ -1261,11 +1165,9 @@ export default {
       "masked": "They ____ to everyone on the mailing list.",
       "options": [
         "blast-mcq-14",
-        "blast-mcq-13",
-        "blast-mcq-15",
-        "blast-mcq-12",
+        "blast-mcq-02",
         "blast-mcq-16",
-        "blast-mcq-11"
+        "blast-mcq-12"
       ],
       "explanation": "本句的「blasted the announcement」指「一次發送給大量收件人的群發電郵」。",
       "sentenceIndex": 28,
@@ -1274,12 +1176,10 @@ export default {
         "blasted the announcement"
       ],
       "optionReasons": {
-        "blast-mcq-14": "本句指「一次發送給大量收件人的群發電郵」。",
-        "blast-mcq-13": "「同時向大量人士群發訊息／電郵」與本句語境不同。",
-        "blast-mcq-15": "「非正式：非常好玩／令人極度開心的體驗」與本句語境不同。",
-        "blast-mcq-12": "「因某事而嚴厲痛斥某人」與本句語境不同。",
-        "blast-mcq-16": "「玩得非常開心；盡情享受」與本句語境不同。",
-        "blast-mcq-11": "「非常嚴厲、強烈地批評／抨擊」與本句語境不同。"
+        "blast-mcq-14": "本句的「blasted the announcement」指「一次發送給大量收件人的群發電郵」。",
+        "blast-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-14"
     },
@@ -1291,11 +1191,9 @@ export default {
       "masked": "The company ____ a message to its customers.",
       "options": [
         "blast-mcq-14",
-        "blast-mcq-13",
-        "blast-mcq-15",
-        "blast-mcq-12",
-        "blast-mcq-16",
-        "blast-mcq-11"
+        "blast-mcq-04",
+        "blast-mcq-23",
+        "blast-mcq-15"
       ],
       "explanation": "本句的「blasted out」指「一次發送給大量收件人的群發電郵」。",
       "sentenceIndex": 29,
@@ -1304,12 +1202,10 @@ export default {
         "blasted out"
       ],
       "optionReasons": {
-        "blast-mcq-14": "本句指「一次發送給大量收件人的群發電郵」。",
-        "blast-mcq-13": "「同時向大量人士群發訊息／電郵」與本句語境不同。",
-        "blast-mcq-15": "「非正式：非常好玩／令人極度開心的體驗」與本句語境不同。",
-        "blast-mcq-12": "「因某事而嚴厲痛斥某人」與本句語境不同。",
-        "blast-mcq-16": "「玩得非常開心；盡情享受」與本句語境不同。",
-        "blast-mcq-11": "「非常嚴厲、強烈地批評／抨擊」與本句語境不同。"
+        "blast-mcq-14": "本句的「blasted out」指「一次發送給大量收件人的群發電郵」。",
+        "blast-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-14"
     },
@@ -1321,11 +1217,9 @@ export default {
       "masked": "We sent an ____ about the promotion.",
       "options": [
         "blast-mcq-14",
-        "blast-mcq-13",
         "blast-mcq-15",
-        "blast-mcq-12",
-        "blast-mcq-16",
-        "blast-mcq-11"
+        "blast-mcq-21",
+        "blast-mcq-03"
       ],
       "explanation": "本句的「email blast」指「一次發送給大量收件人的群發電郵」。",
       "sentenceIndex": 30,
@@ -1334,12 +1228,10 @@ export default {
         "email blast"
       ],
       "optionReasons": {
-        "blast-mcq-14": "本句指「一次發送給大量收件人的群發電郵」。",
-        "blast-mcq-13": "「同時向大量人士群發訊息／電郵」與本句語境不同。",
-        "blast-mcq-15": "「非正式：非常好玩／令人極度開心的體驗」與本句語境不同。",
-        "blast-mcq-12": "「因某事而嚴厲痛斥某人」與本句語境不同。",
-        "blast-mcq-16": "「玩得非常開心；盡情享受」與本句語境不同。",
-        "blast-mcq-11": "「非常嚴厲、強烈地批評／抨擊」與本句語境不同。"
+        "blast-mcq-14": "本句的「email blast」指「一次發送給大量收件人的群發電郵」。",
+        "blast-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-14"
     },
@@ -1351,11 +1243,9 @@ export default {
       "masked": "The campaign began with an ____.",
       "options": [
         "blast-mcq-14",
-        "blast-mcq-13",
-        "blast-mcq-15",
-        "blast-mcq-12",
-        "blast-mcq-16",
-        "blast-mcq-11"
+        "blast-mcq-04",
+        "blast-mcq-02",
+        "blast-mcq-12"
       ],
       "explanation": "本句的「email blast」指「一次發送給大量收件人的群發電郵」。",
       "sentenceIndex": 31,
@@ -1364,12 +1254,10 @@ export default {
         "email blast"
       ],
       "optionReasons": {
-        "blast-mcq-14": "本句指「一次發送給大量收件人的群發電郵」。",
-        "blast-mcq-13": "「同時向大量人士群發訊息／電郵」與本句語境不同。",
-        "blast-mcq-15": "「非正式：非常好玩／令人極度開心的體驗」與本句語境不同。",
-        "blast-mcq-12": "「因某事而嚴厲痛斥某人」與本句語境不同。",
-        "blast-mcq-16": "「玩得非常開心；盡情享受」與本句語境不同。",
-        "blast-mcq-11": "「非常嚴厲、強烈地批評／抨擊」與本句語境不同。"
+        "blast-mcq-14": "本句的「email blast」指「一次發送給大量收件人的群發電郵」。",
+        "blast-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-14"
     },
@@ -1381,11 +1269,9 @@ export default {
       "masked": "The party was ____.",
       "options": [
         "blast-mcq-15",
+        "blast-mcq-12",
         "blast-mcq-14",
-        "blast-mcq-16",
-        "blast-mcq-13",
-        "blast-mcq-17",
-        "blast-mcq-12"
+        "blast-mcq-03"
       ],
       "explanation": "本句的「a blast」指「非正式：非常好玩／令人極度開心的體驗」。",
       "sentenceIndex": 32,
@@ -1394,12 +1280,10 @@ export default {
         "a blast"
       ],
       "optionReasons": {
-        "blast-mcq-15": "本句指「非正式：非常好玩／令人極度開心的體驗」。",
-        "blast-mcq-14": "「一次發送給大量收件人的群發電郵」與本句語境不同。",
-        "blast-mcq-16": "「玩得非常開心；盡情享受」與本句語境不同。",
-        "blast-mcq-13": "「同時向大量人士群發訊息／電郵」與本句語境不同。",
-        "blast-mcq-17": "「突然令人想起過去的人、事物或經歷」與本句語境不同。",
-        "blast-mcq-12": "「因某事而嚴厲痛斥某人」與本句語境不同。"
+        "blast-mcq-15": "本句的「a blast」指「非正式：非常好玩／令人極度開心的體驗」。",
+        "blast-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-15"
     },
@@ -1411,11 +1295,9 @@ export default {
       "masked": "We had ____ at the theme park.",
       "options": [
         "blast-mcq-15",
-        "blast-mcq-14",
-        "blast-mcq-16",
-        "blast-mcq-13",
-        "blast-mcq-17",
-        "blast-mcq-12"
+        "blast-mcq-19",
+        "blast-mcq-04",
+        "blast-mcq-21"
       ],
       "explanation": "本句的「a blast」指「非正式：非常好玩／令人極度開心的體驗」。",
       "sentenceIndex": 33,
@@ -1424,12 +1306,10 @@ export default {
         "a blast"
       ],
       "optionReasons": {
-        "blast-mcq-15": "本句指「非正式：非常好玩／令人極度開心的體驗」。",
-        "blast-mcq-14": "「一次發送給大量收件人的群發電郵」與本句語境不同。",
-        "blast-mcq-16": "「玩得非常開心；盡情享受」與本句語境不同。",
-        "blast-mcq-13": "「同時向大量人士群發訊息／電郵」與本句語境不同。",
-        "blast-mcq-17": "「突然令人想起過去的人、事物或經歷」與本句語境不同。",
-        "blast-mcq-12": "「因某事而嚴厲痛斥某人」與本句語境不同。"
+        "blast-mcq-15": "本句的「a blast」指「非正式：非常好玩／令人極度開心的體驗」。",
+        "blast-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-15"
     },
@@ -1441,11 +1321,9 @@ export default {
       "masked": "We ____ on the trip.",
       "options": [
         "blast-mcq-16",
-        "blast-mcq-15",
-        "blast-mcq-17",
-        "blast-mcq-14",
-        "blast-mcq-18",
-        "blast-mcq-13"
+        "blast-mcq-07",
+        "blast-mcq-01",
+        "blast-mcq-19"
       ],
       "explanation": "本句的「had a blast」指「玩得非常開心；盡情享受」。",
       "sentenceIndex": 34,
@@ -1454,12 +1332,10 @@ export default {
         "had a blast"
       ],
       "optionReasons": {
-        "blast-mcq-16": "本句指「玩得非常開心；盡情享受」。",
-        "blast-mcq-15": "「非正式：非常好玩／令人極度開心的體驗」與本句語境不同。",
-        "blast-mcq-17": "「突然令人想起過去的人、事物或經歷」與本句語境不同。",
-        "blast-mcq-14": "「一次發送給大量收件人的群發電郵」與本句語境不同。",
-        "blast-mcq-18": "「火箭／太空船在推進力下發射升空」與本句語境不同。",
-        "blast-mcq-13": "「同時向大量人士群發訊息／電郵」與本句語境不同。"
+        "blast-mcq-16": "本句的「had a blast」指「玩得非常開心；盡情享受」。",
+        "blast-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-16"
     },
@@ -1471,11 +1347,9 @@ export default {
       "masked": "Have fun and ____!",
       "options": [
         "blast-mcq-16",
-        "blast-mcq-15",
-        "blast-mcq-17",
-        "blast-mcq-14",
+        "blast-mcq-22",
         "blast-mcq-18",
-        "blast-mcq-13"
+        "blast-mcq-23"
       ],
       "explanation": "本句的「have a blast」指「玩得非常開心；盡情享受」。",
       "sentenceIndex": 35,
@@ -1484,12 +1358,10 @@ export default {
         "have a blast"
       ],
       "optionReasons": {
-        "blast-mcq-16": "本句指「玩得非常開心；盡情享受」。",
-        "blast-mcq-15": "「非正式：非常好玩／令人極度開心的體驗」與本句語境不同。",
-        "blast-mcq-17": "「突然令人想起過去的人、事物或經歷」與本句語境不同。",
-        "blast-mcq-14": "「一次發送給大量收件人的群發電郵」與本句語境不同。",
-        "blast-mcq-18": "「火箭／太空船在推進力下發射升空」與本句語境不同。",
-        "blast-mcq-13": "「同時向大量人士群發訊息／電郵」與本句語境不同。"
+        "blast-mcq-16": "本句的「have a blast」指「玩得非常開心；盡情享受」。",
+        "blast-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-16"
     },
@@ -1501,11 +1373,9 @@ export default {
       "masked": "Hearing that song was ____.",
       "options": [
         "blast-mcq-17",
-        "blast-mcq-16",
-        "blast-mcq-18",
-        "blast-mcq-15",
-        "blast-mcq-19",
-        "blast-mcq-14"
+        "blast-mcq-11",
+        "blast-mcq-24",
+        "blast-mcq-21"
       ],
       "explanation": "本句的「a blast from the past」指「突然令人想起過去的人、事物或經歷」。",
       "sentenceIndex": 36,
@@ -1514,12 +1384,10 @@ export default {
         "a blast from the past"
       ],
       "optionReasons": {
-        "blast-mcq-17": "本句指「突然令人想起過去的人、事物或經歷」。",
-        "blast-mcq-16": "「玩得非常開心；盡情享受」與本句語境不同。",
-        "blast-mcq-18": "「火箭／太空船在推進力下發射升空」與本句語境不同。",
-        "blast-mcq-15": "「非正式：非常好玩／令人極度開心的體驗」與本句語境不同。",
-        "blast-mcq-19": "「火箭發射升空的時刻／過程」與本句語境不同。",
-        "blast-mcq-14": "「一次發送給大量收件人的群發電郵」與本句語境不同。"
+        "blast-mcq-17": "本句的「a blast from the past」指「突然令人想起過去的人、事物或經歷」。",
+        "blast-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-17"
     },
@@ -1531,11 +1399,9 @@ export default {
       "masked": "I found my old school uniform—what ____.",
       "options": [
         "blast-mcq-17",
-        "blast-mcq-16",
-        "blast-mcq-18",
-        "blast-mcq-15",
-        "blast-mcq-19",
-        "blast-mcq-14"
+        "blast-mcq-22",
+        "blast-mcq-09",
+        "blast-mcq-24"
       ],
       "explanation": "本句的「a blast from the past」指「突然令人想起過去的人、事物或經歷」。",
       "sentenceIndex": 37,
@@ -1544,12 +1410,10 @@ export default {
         "a blast from the past"
       ],
       "optionReasons": {
-        "blast-mcq-17": "本句指「突然令人想起過去的人、事物或經歷」。",
-        "blast-mcq-16": "「玩得非常開心；盡情享受」與本句語境不同。",
-        "blast-mcq-18": "「火箭／太空船在推進力下發射升空」與本句語境不同。",
-        "blast-mcq-15": "「非正式：非常好玩／令人極度開心的體驗」與本句語境不同。",
-        "blast-mcq-19": "「火箭發射升空的時刻／過程」與本句語境不同。",
-        "blast-mcq-14": "「一次發送給大量收件人的群發電郵」與本句語境不同。"
+        "blast-mcq-17": "本句的「a blast from the past」指「突然令人想起過去的人、事物或經歷」。",
+        "blast-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-17"
     },
@@ -1561,11 +1425,9 @@ export default {
       "masked": "The rocket ____ successfully.",
       "options": [
         "blast-mcq-18",
-        "blast-mcq-17",
-        "blast-mcq-19",
-        "blast-mcq-16",
-        "blast-mcq-20",
-        "blast-mcq-15"
+        "blast-mcq-04",
+        "blast-mcq-21",
+        "blast-mcq-11"
       ],
       "explanation": "本句的「blasted off」指「火箭／太空船在推進力下發射升空」。",
       "sentenceIndex": 38,
@@ -1574,12 +1436,10 @@ export default {
         "blasted off"
       ],
       "optionReasons": {
-        "blast-mcq-18": "本句指「火箭／太空船在推進力下發射升空」。",
-        "blast-mcq-17": "「突然令人想起過去的人、事物或經歷」與本句語境不同。",
-        "blast-mcq-19": "「火箭發射升空的時刻／過程」與本句語境不同。",
-        "blast-mcq-16": "「玩得非常開心；盡情享受」與本句語境不同。",
-        "blast-mcq-20": "「使用炸藥進行岩石開採、拆除等爆破作業」與本句語境不同。",
-        "blast-mcq-15": "「非正式：非常好玩／令人極度開心的體驗」與本句語境不同。"
+        "blast-mcq-18": "本句的「blasted off」指「火箭／太空船在推進力下發射升空」。",
+        "blast-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-18"
     },
@@ -1591,11 +1451,9 @@ export default {
       "masked": "The spacecraft is scheduled to ____ tomorrow.",
       "options": [
         "blast-mcq-18",
-        "blast-mcq-17",
-        "blast-mcq-19",
-        "blast-mcq-16",
-        "blast-mcq-20",
-        "blast-mcq-15"
+        "blast-mcq-05",
+        "blast-mcq-07",
+        "blast-mcq-02"
       ],
       "explanation": "本句的「blast off」指「火箭／太空船在推進力下發射升空」。",
       "sentenceIndex": 39,
@@ -1604,12 +1462,10 @@ export default {
         "blast off"
       ],
       "optionReasons": {
-        "blast-mcq-18": "本句指「火箭／太空船在推進力下發射升空」。",
-        "blast-mcq-17": "「突然令人想起過去的人、事物或經歷」與本句語境不同。",
-        "blast-mcq-19": "「火箭發射升空的時刻／過程」與本句語境不同。",
-        "blast-mcq-16": "「玩得非常開心；盡情享受」與本句語境不同。",
-        "blast-mcq-20": "「使用炸藥進行岩石開採、拆除等爆破作業」與本句語境不同。",
-        "blast-mcq-15": "「非正式：非常好玩／令人極度開心的體驗」與本句語境不同。"
+        "blast-mcq-18": "本句的「blast off」指「火箭／太空船在推進力下發射升空」。",
+        "blast-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-18"
     },
@@ -1621,11 +1477,9 @@ export default {
       "masked": "Thousands watched the ____.",
       "options": [
         "blast-mcq-19",
-        "blast-mcq-18",
-        "blast-mcq-20",
-        "blast-mcq-17",
         "blast-mcq-21",
-        "blast-mcq-16"
+        "blast-mcq-16",
+        "blast-mcq-07"
       ],
       "explanation": "本句的「blastoff」指「火箭發射升空的時刻／過程」。",
       "sentenceIndex": 40,
@@ -1634,12 +1488,10 @@ export default {
         "blastoff"
       ],
       "optionReasons": {
-        "blast-mcq-19": "本句指「火箭發射升空的時刻／過程」。",
-        "blast-mcq-18": "「火箭／太空船在推進力下發射升空」與本句語境不同。",
-        "blast-mcq-20": "「使用炸藥進行岩石開採、拆除等爆破作業」與本句語境不同。",
-        "blast-mcq-17": "「突然令人想起過去的人、事物或經歷」與本句語境不同。",
-        "blast-mcq-21": "「用高速磨料清潔、磨蝕或處理表面的噴砂／噴砂處理」與本句語境不同。",
-        "blast-mcq-16": "「玩得非常開心；盡情享受」與本句語境不同。"
+        "blast-mcq-19": "本句的「blastoff」指「火箭發射升空的時刻／過程」。",
+        "blast-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-19"
     },
@@ -1651,11 +1503,9 @@ export default {
       "masked": "Everything was ready for ____.",
       "options": [
         "blast-mcq-19",
-        "blast-mcq-18",
         "blast-mcq-20",
-        "blast-mcq-17",
-        "blast-mcq-21",
-        "blast-mcq-16"
+        "blast-mcq-23",
+        "blast-mcq-21"
       ],
       "explanation": "本句的「blast-off」指「火箭發射升空的時刻／過程」。",
       "sentenceIndex": 41,
@@ -1664,12 +1514,10 @@ export default {
         "blast-off"
       ],
       "optionReasons": {
-        "blast-mcq-19": "本句指「火箭發射升空的時刻／過程」。",
-        "blast-mcq-18": "「火箭／太空船在推進力下發射升空」與本句語境不同。",
-        "blast-mcq-20": "「使用炸藥進行岩石開採、拆除等爆破作業」與本句語境不同。",
-        "blast-mcq-17": "「突然令人想起過去的人、事物或經歷」與本句語境不同。",
-        "blast-mcq-21": "「用高速磨料清潔、磨蝕或處理表面的噴砂／噴砂處理」與本句語境不同。",
-        "blast-mcq-16": "「玩得非常開心；盡情享受」與本句語境不同。"
+        "blast-mcq-19": "本句的「blast-off」指「火箭發射升空的時刻／過程」。",
+        "blast-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-19"
     },
@@ -1681,11 +1529,9 @@ export default {
       "masked": "Road construction required extensive ____.",
       "options": [
         "blast-mcq-20",
-        "blast-mcq-19",
         "blast-mcq-21",
-        "blast-mcq-18",
-        "blast-mcq-22",
-        "blast-mcq-17"
+        "blast-mcq-14",
+        "blast-mcq-11"
       ],
       "explanation": "本句的「blasting」指「使用炸藥進行岩石開採、拆除等爆破作業」。",
       "sentenceIndex": 42,
@@ -1694,12 +1540,10 @@ export default {
         "blasting"
       ],
       "optionReasons": {
-        "blast-mcq-20": "本句指「使用炸藥進行岩石開採、拆除等爆破作業」。",
-        "blast-mcq-19": "「火箭發射升空的時刻／過程」與本句語境不同。",
-        "blast-mcq-21": "「用高速磨料清潔、磨蝕或處理表面的噴砂／噴砂處理」與本句語境不同。",
-        "blast-mcq-18": "「火箭／太空船在推進力下發射升空」與本句語境不同。",
-        "blast-mcq-22": "「大功率發聲裝置；科幻等語境中的能量武器」與本句語境不同。",
-        "blast-mcq-17": "「突然令人想起過去的人、事物或經歷」與本句語境不同。"
+        "blast-mcq-20": "本句的「blasting」指「使用炸藥進行岩石開採、拆除等爆破作業」。",
+        "blast-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-20"
     },
@@ -1711,11 +1555,9 @@ export default {
       "masked": "____ was temporarily stopped.",
       "options": [
         "blast-mcq-20",
+        "blast-mcq-11",
         "blast-mcq-19",
-        "blast-mcq-21",
-        "blast-mcq-18",
-        "blast-mcq-22",
-        "blast-mcq-17"
+        "blast-mcq-04"
       ],
       "explanation": "本句的「Blasting」指「使用炸藥進行岩石開採、拆除等爆破作業」。",
       "sentenceIndex": 43,
@@ -1724,12 +1566,10 @@ export default {
         "Blasting"
       ],
       "optionReasons": {
-        "blast-mcq-20": "本句指「使用炸藥進行岩石開採、拆除等爆破作業」。",
-        "blast-mcq-19": "「火箭發射升空的時刻／過程」與本句語境不同。",
-        "blast-mcq-21": "「用高速磨料清潔、磨蝕或處理表面的噴砂／噴砂處理」與本句語境不同。",
-        "blast-mcq-18": "「火箭／太空船在推進力下發射升空」與本句語境不同。",
-        "blast-mcq-22": "「大功率發聲裝置；科幻等語境中的能量武器」與本句語境不同。",
-        "blast-mcq-17": "「突然令人想起過去的人、事物或經歷」與本句語境不同。"
+        "blast-mcq-20": "本句的「Blasting」指「使用炸藥進行岩石開採、拆除等爆破作業」。",
+        "blast-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-20"
     },
@@ -1741,11 +1581,9 @@ export default {
       "masked": "The metal was ____ before painting.",
       "options": [
         "blast-mcq-21",
-        "blast-mcq-20",
-        "blast-mcq-22",
-        "blast-mcq-19",
-        "blast-mcq-23",
-        "blast-mcq-18"
+        "blast-mcq-01",
+        "blast-mcq-07",
+        "blast-mcq-24"
       ],
       "explanation": "本句的「sandblasted」指「用高速磨料清潔、磨蝕或處理表面的噴砂／噴砂處理」。",
       "sentenceIndex": 44,
@@ -1754,12 +1592,10 @@ export default {
         "sandblasted"
       ],
       "optionReasons": {
-        "blast-mcq-21": "本句指「用高速磨料清潔、磨蝕或處理表面的噴砂／噴砂處理」。",
-        "blast-mcq-20": "「使用炸藥進行岩石開採、拆除等爆破作業」與本句語境不同。",
-        "blast-mcq-22": "「大功率發聲裝置；科幻等語境中的能量武器」與本句語境不同。",
-        "blast-mcq-19": "「火箭發射升空的時刻／過程」與本句語境不同。",
-        "blast-mcq-23": "「利用強制熱風冶煉金屬的高爐」與本句語境不同。",
-        "blast-mcq-18": "「火箭／太空船在推進力下發射升空」與本句語境不同。"
+        "blast-mcq-21": "本句的「sandblasted」指「用高速磨料清潔、磨蝕或處理表面的噴砂／噴砂處理」。",
+        "blast-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-21"
     },
@@ -1771,11 +1607,9 @@ export default {
       "masked": "____ removed the old coating.",
       "options": [
         "blast-mcq-21",
-        "blast-mcq-20",
-        "blast-mcq-22",
-        "blast-mcq-19",
-        "blast-mcq-23",
-        "blast-mcq-18"
+        "blast-mcq-05",
+        "blast-mcq-18",
+        "blast-mcq-24"
       ],
       "explanation": "本句的「Sandblasting」指「用高速磨料清潔、磨蝕或處理表面的噴砂／噴砂處理」。",
       "sentenceIndex": 45,
@@ -1784,12 +1618,10 @@ export default {
         "Sandblasting"
       ],
       "optionReasons": {
-        "blast-mcq-21": "本句指「用高速磨料清潔、磨蝕或處理表面的噴砂／噴砂處理」。",
-        "blast-mcq-20": "「使用炸藥進行岩石開採、拆除等爆破作業」與本句語境不同。",
-        "blast-mcq-22": "「大功率發聲裝置；科幻等語境中的能量武器」與本句語境不同。",
-        "blast-mcq-19": "「火箭發射升空的時刻／過程」與本句語境不同。",
-        "blast-mcq-23": "「利用強制熱風冶煉金屬的高爐」與本句語境不同。",
-        "blast-mcq-18": "「火箭／太空船在推進力下發射升空」與本句語境不同。"
+        "blast-mcq-21": "本句的「Sandblasting」指「用高速磨料清潔、磨蝕或處理表面的噴砂／噴砂處理」。",
+        "blast-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-21"
     },
@@ -1801,11 +1633,9 @@ export default {
       "masked": "He carried a portable ____ for the music.",
       "options": [
         "blast-mcq-22",
-        "blast-mcq-21",
+        "blast-mcq-01",
         "blast-mcq-23",
-        "blast-mcq-20",
-        "blast-mcq-24",
-        "blast-mcq-19"
+        "blast-mcq-21"
       ],
       "explanation": "本句的「blaster」指「大功率發聲裝置；科幻等語境中的能量武器」。",
       "sentenceIndex": 46,
@@ -1814,12 +1644,10 @@ export default {
         "blaster"
       ],
       "optionReasons": {
-        "blast-mcq-22": "本句指「大功率發聲裝置；科幻等語境中的能量武器」。",
-        "blast-mcq-21": "「用高速磨料清潔、磨蝕或處理表面的噴砂／噴砂處理」與本句語境不同。",
-        "blast-mcq-23": "「利用強制熱風冶煉金屬的高爐」與本句語境不同。",
-        "blast-mcq-20": "「使用炸藥進行岩石開採、拆除等爆破作業」與本句語境不同。",
-        "blast-mcq-24": "「非正式、較舊：表示惱怒的「該死的／討厭的」」與本句語境不同。",
-        "blast-mcq-19": "「火箭發射升空的時刻／過程」與本句語境不同。"
+        "blast-mcq-22": "本句的「blaster」指「大功率發聲裝置；科幻等語境中的能量武器」。",
+        "blast-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-22"
     },
@@ -1831,11 +1659,9 @@ export default {
       "masked": "The science-fiction character carried a ____.",
       "options": [
         "blast-mcq-22",
-        "blast-mcq-21",
-        "blast-mcq-23",
-        "blast-mcq-20",
-        "blast-mcq-24",
-        "blast-mcq-19"
+        "blast-mcq-02",
+        "blast-mcq-09",
+        "blast-mcq-21"
       ],
       "explanation": "本句的「blaster」指「大功率發聲裝置；科幻等語境中的能量武器」。",
       "sentenceIndex": 47,
@@ -1844,12 +1670,10 @@ export default {
         "blaster"
       ],
       "optionReasons": {
-        "blast-mcq-22": "本句指「大功率發聲裝置；科幻等語境中的能量武器」。",
-        "blast-mcq-21": "「用高速磨料清潔、磨蝕或處理表面的噴砂／噴砂處理」與本句語境不同。",
-        "blast-mcq-23": "「利用強制熱風冶煉金屬的高爐」與本句語境不同。",
-        "blast-mcq-20": "「使用炸藥進行岩石開採、拆除等爆破作業」與本句語境不同。",
-        "blast-mcq-24": "「非正式、較舊：表示惱怒的「該死的／討厭的」」與本句語境不同。",
-        "blast-mcq-19": "「火箭發射升空的時刻／過程」與本句語境不同。"
+        "blast-mcq-22": "本句的「blaster」指「大功率發聲裝置；科幻等語境中的能量武器」。",
+        "blast-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-22"
     },
@@ -1861,11 +1685,9 @@ export default {
       "masked": "Iron is produced in a ____.",
       "options": [
         "blast-mcq-23",
-        "blast-mcq-22",
-        "blast-mcq-24",
-        "blast-mcq-21",
+        "blast-mcq-09",
         "blast-mcq-20",
-        "blast-mcq-19"
+        "blast-mcq-07"
       ],
       "explanation": "本句的「blast furnace」指「利用強制熱風冶煉金屬的高爐」。",
       "sentenceIndex": 48,
@@ -1874,12 +1696,10 @@ export default {
         "blast furnace"
       ],
       "optionReasons": {
-        "blast-mcq-23": "本句指「利用強制熱風冶煉金屬的高爐」。",
-        "blast-mcq-22": "「大功率發聲裝置；科幻等語境中的能量武器」與本句語境不同。",
-        "blast-mcq-24": "「非正式、較舊：表示惱怒的「該死的／討厭的」」與本句語境不同。",
-        "blast-mcq-21": "「用高速磨料清潔、磨蝕或處理表面的噴砂／噴砂處理」與本句語境不同。",
-        "blast-mcq-20": "「使用炸藥進行岩石開採、拆除等爆破作業」與本句語境不同。",
-        "blast-mcq-19": "「火箭發射升空的時刻／過程」與本句語境不同。"
+        "blast-mcq-23": "本句的「blast furnace」指「利用強制熱風冶煉金屬的高爐」。",
+        "blast-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-23"
     },
@@ -1891,10 +1711,8 @@ export default {
       "masked": "The steelworks shut down one of its ____.",
       "options": [
         "blast-mcq-23",
-        "blast-mcq-22",
+        "blast-mcq-14",
         "blast-mcq-24",
-        "blast-mcq-21",
-        "blast-mcq-20",
         "blast-mcq-19"
       ],
       "explanation": "本句的「blast furnaces」指「利用強制熱風冶煉金屬的高爐」。",
@@ -1904,12 +1722,10 @@ export default {
         "blast furnaces"
       ],
       "optionReasons": {
-        "blast-mcq-23": "本句指「利用強制熱風冶煉金屬的高爐」。",
-        "blast-mcq-22": "「大功率發聲裝置；科幻等語境中的能量武器」與本句語境不同。",
-        "blast-mcq-24": "「非正式、較舊：表示惱怒的「該死的／討厭的」」與本句語境不同。",
-        "blast-mcq-21": "「用高速磨料清潔、磨蝕或處理表面的噴砂／噴砂處理」與本句語境不同。",
-        "blast-mcq-20": "「使用炸藥進行岩石開採、拆除等爆破作業」與本句語境不同。",
-        "blast-mcq-19": "「火箭發射升空的時刻／過程」與本句語境不同。"
+        "blast-mcq-23": "本句的「blast furnaces」指「利用強制熱風冶煉金屬的高爐」。",
+        "blast-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-23"
     },
@@ -1921,11 +1737,9 @@ export default {
       "masked": "Where is that ____?",
       "options": [
         "blast-mcq-24",
-        "blast-mcq-23",
+        "blast-mcq-12",
         "blast-mcq-22",
-        "blast-mcq-21",
-        "blast-mcq-20",
-        "blast-mcq-19"
+        "blast-mcq-04"
       ],
       "explanation": "本句的「blasted key」指「非正式、較舊：表示惱怒的「該死的／討厭的」」。",
       "sentenceIndex": 50,
@@ -1934,12 +1748,10 @@ export default {
         "blasted key"
       ],
       "optionReasons": {
-        "blast-mcq-24": "本句指「非正式、較舊：表示惱怒的「該死的／討厭的」」。",
-        "blast-mcq-23": "「利用強制熱風冶煉金屬的高爐」與本句語境不同。",
-        "blast-mcq-22": "「大功率發聲裝置；科幻等語境中的能量武器」與本句語境不同。",
-        "blast-mcq-21": "「用高速磨料清潔、磨蝕或處理表面的噴砂／噴砂處理」與本句語境不同。",
-        "blast-mcq-20": "「使用炸藥進行岩石開採、拆除等爆破作業」與本句語境不同。",
-        "blast-mcq-19": "「火箭發射升空的時刻／過程」與本句語境不同。"
+        "blast-mcq-24": "本句的「blasted key」指「非正式、較舊：表示惱怒的「該死的／討厭的」」。",
+        "blast-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-24"
     },
@@ -1951,11 +1763,9 @@ export default {
       "masked": "The ____ has stopped again.",
       "options": [
         "blast-mcq-24",
-        "blast-mcq-23",
-        "blast-mcq-22",
-        "blast-mcq-21",
-        "blast-mcq-20",
-        "blast-mcq-19"
+        "blast-mcq-12",
+        "blast-mcq-18",
+        "blast-mcq-20"
       ],
       "explanation": "本句的「blasted machine」指「非正式、較舊：表示惱怒的「該死的／討厭的」」。",
       "sentenceIndex": 51,
@@ -1964,12 +1774,10 @@ export default {
         "blasted machine"
       ],
       "optionReasons": {
-        "blast-mcq-24": "本句指「非正式、較舊：表示惱怒的「該死的／討厭的」」。",
-        "blast-mcq-23": "「利用強制熱風冶煉金屬的高爐」與本句語境不同。",
-        "blast-mcq-22": "「大功率發聲裝置；科幻等語境中的能量武器」與本句語境不同。",
-        "blast-mcq-21": "「用高速磨料清潔、磨蝕或處理表面的噴砂／噴砂處理」與本句語境不同。",
-        "blast-mcq-20": "「使用炸藥進行岩石開採、拆除等爆破作業」與本句語境不同。",
-        "blast-mcq-19": "「火箭發射升空的時刻／過程」與本句語境不同。"
+        "blast-mcq-24": "本句的「blasted machine」指「非正式、較舊：表示惱怒的「該死的／討厭的」」。",
+        "blast-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "blast-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blast-mcq-24"
     }
@@ -1981,5 +1789,7 @@ export default {
     "sha256": "3946598b5d5be386a6830f6033aaf388c730dd5c31b48e4736ccfa1323c1684f",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

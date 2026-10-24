@@ -470,11 +470,9 @@ export default {
       "masked": "That makes her genuinely ____.",
       "options": [
         "happy-mcq-01",
-        "happy-mcq-02",
-        "happy-mcq-03",
-        "happy-mcq-04",
-        "happy-mcq-05",
-        "happy-mcq-06"
+        "happy-mcq-11",
+        "happy-mcq-18",
+        "happy-mcq-16"
       ],
       "explanation": "本句的「happy」指「因某件事或整體處境而感到喜悅、愉快或滿足」。",
       "sentenceIndex": 0,
@@ -483,12 +481,10 @@ export default {
         "happy"
       ],
       "optionReasons": {
-        "happy-mcq-01": "本句指「因某件事或整體處境而感到喜悅、愉快或滿足」。",
-        "happy-mcq-02": "「對某件事的結果、狀況或安排感到滿意」是「happy with」的用法，與本句語境不同。",
-        "happy-mcq-03": "「因某件事情發生而感到高興／滿意」是「happy about」的用法，與本句語境不同。",
-        "happy-mcq-04": "「樂意、願意或很高興做某事」是「happy to do」的用法，與本句語境不同。",
-        "happy-mcq-05": "「因別人遇到好事而替對方感到高興」是「happy for someone」的用法，與本句語境不同。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。"
+        "happy-mcq-01": "本句的「happy」指「因某件事或整體處境而感到喜悅、愉快或滿足」。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-01"
     },
@@ -500,11 +496,9 @@ export default {
       "masked": "She looked very ____ after hearing the news.",
       "options": [
         "happy-mcq-01",
-        "happy-mcq-02",
-        "happy-mcq-03",
-        "happy-mcq-04",
-        "happy-mcq-05",
-        "happy-mcq-06"
+        "happy-mcq-11",
+        "happy-mcq-16",
+        "happy-mcq-18"
       ],
       "explanation": "本句的「happy」指「因某件事或整體處境而感到喜悅、愉快或滿足」。",
       "sentenceIndex": 1,
@@ -513,12 +507,10 @@ export default {
         "happy"
       ],
       "optionReasons": {
-        "happy-mcq-01": "本句指「因某件事或整體處境而感到喜悅、愉快或滿足」。",
-        "happy-mcq-02": "「對某件事的結果、狀況或安排感到滿意」是「happy with」的用法，與本句語境不同。",
-        "happy-mcq-03": "「因某件事情發生而感到高興／滿意」是「happy about」的用法，與本句語境不同。",
-        "happy-mcq-04": "「樂意、願意或很高興做某事」是「happy to do」的用法，與本句語境不同。",
-        "happy-mcq-05": "「因別人遇到好事而替對方感到高興」是「happy for someone」的用法，與本句語境不同。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。"
+        "happy-mcq-01": "本句的「happy」指「因某件事或整體處境而感到喜悅、愉快或滿足」。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-01"
     },
@@ -530,11 +522,9 @@ export default {
       "masked": "The children were ____ to see their grandparents.",
       "options": [
         "happy-mcq-01",
-        "happy-mcq-02",
-        "happy-mcq-03",
-        "happy-mcq-04",
-        "happy-mcq-05",
-        "happy-mcq-06"
+        "happy-mcq-18",
+        "happy-mcq-16",
+        "happy-mcq-11"
       ],
       "explanation": "本句的「happy」指「因某件事或整體處境而感到喜悅、愉快或滿足」。",
       "sentenceIndex": 2,
@@ -543,12 +533,10 @@ export default {
         "happy"
       ],
       "optionReasons": {
-        "happy-mcq-01": "本句指「因某件事或整體處境而感到喜悅、愉快或滿足」。",
-        "happy-mcq-02": "「對某件事的結果、狀況或安排感到滿意」是「happy with」的用法，與本句語境不同。",
-        "happy-mcq-03": "「因某件事情發生而感到高興／滿意」是「happy about」的用法，與本句語境不同。",
-        "happy-mcq-04": "「樂意、願意或很高興做某事」是「happy to do」的用法，與本句語境不同。",
-        "happy-mcq-05": "「因別人遇到好事而替對方感到高興」是「happy for someone」的用法，與本句語境不同。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。"
+        "happy-mcq-01": "本句的「happy」指「因某件事或整體處境而感到喜悅、愉快或滿足」。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-01"
     },
@@ -560,11 +548,9 @@ export default {
       "masked": "I’m ____ the result.",
       "options": [
         "happy-mcq-02",
-        "happy-mcq-01",
-        "happy-mcq-03",
-        "happy-mcq-04",
-        "happy-mcq-05",
-        "happy-mcq-06"
+        "happy-mcq-18",
+        "happy-mcq-11",
+        "happy-mcq-16"
       ],
       "explanation": "本句的「happy with」指「對某件事的結果、狀況或安排感到滿意」。",
       "sentenceIndex": 3,
@@ -573,12 +559,10 @@ export default {
         "happy with"
       ],
       "optionReasons": {
-        "happy-mcq-02": "本句指「對某件事的結果、狀況或安排感到滿意」。",
-        "happy-mcq-01": "「因某件事或整體處境而感到喜悅、愉快或滿足」是「happy — emotion」的用法，與本句語境不同。",
-        "happy-mcq-03": "「因某件事情發生而感到高興／滿意」是「happy about」的用法，與本句語境不同。",
-        "happy-mcq-04": "「樂意、願意或很高興做某事」是「happy to do」的用法，與本句語境不同。",
-        "happy-mcq-05": "「因別人遇到好事而替對方感到高興」是「happy for someone」的用法，與本句語境不同。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。"
+        "happy-mcq-02": "本句的「happy with」指「對某件事的結果、狀況或安排感到滿意」。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-02"
     },
@@ -590,11 +574,9 @@ export default {
       "masked": "She is ____ with the way the garden looks.",
       "options": [
         "happy-mcq-02",
-        "happy-mcq-01",
-        "happy-mcq-03",
-        "happy-mcq-04",
-        "happy-mcq-05",
-        "happy-mcq-06"
+        "happy-mcq-11",
+        "happy-mcq-16",
+        "happy-mcq-18"
       ],
       "explanation": "本句的「happy」指「對某件事的結果、狀況或安排感到滿意」。",
       "sentenceIndex": 4,
@@ -603,12 +585,10 @@ export default {
         "happy"
       ],
       "optionReasons": {
-        "happy-mcq-02": "本句指「對某件事的結果、狀況或安排感到滿意」。",
-        "happy-mcq-01": "「因某件事或整體處境而感到喜悅、愉快或滿足」是「happy — emotion」的用法，與本句語境不同。",
-        "happy-mcq-03": "「因某件事情發生而感到高興／滿意」是「happy about」的用法，與本句語境不同。",
-        "happy-mcq-04": "「樂意、願意或很高興做某事」是「happy to do」的用法，與本句語境不同。",
-        "happy-mcq-05": "「因別人遇到好事而替對方感到高興」是「happy for someone」的用法，與本句語境不同。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。"
+        "happy-mcq-02": "本句的「happy」指「對某件事的結果、狀況或安排感到滿意」。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-02"
     },
@@ -620,11 +600,9 @@ export default {
       "masked": "She was ____ the good news.",
       "options": [
         "happy-mcq-03",
-        "happy-mcq-02",
-        "happy-mcq-04",
-        "happy-mcq-01",
-        "happy-mcq-05",
-        "happy-mcq-06"
+        "happy-mcq-16",
+        "happy-mcq-09",
+        "happy-mcq-18"
       ],
       "explanation": "本句的「happy about」指「因某件事情發生而感到高興／滿意」。",
       "sentenceIndex": 5,
@@ -633,12 +611,10 @@ export default {
         "happy about"
       ],
       "optionReasons": {
-        "happy-mcq-03": "本句指「因某件事情發生而感到高興／滿意」。",
-        "happy-mcq-02": "「對某件事的結果、狀況或安排感到滿意」是「happy with」的用法，與本句語境不同。",
-        "happy-mcq-04": "「樂意、願意或很高興做某事」是「happy to do」的用法，與本句語境不同。",
-        "happy-mcq-01": "「因某件事或整體處境而感到喜悅、愉快或滿足」是「happy — emotion」的用法，與本句語境不同。",
-        "happy-mcq-05": "「因別人遇到好事而替對方感到高興」是「happy for someone」的用法，與本句語境不同。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。"
+        "happy-mcq-03": "本句的「happy about」指「因某件事情發生而感到高興／滿意」。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-03"
     },
@@ -650,11 +626,9 @@ export default {
       "masked": "He wasn’t ____ about the delay.",
       "options": [
         "happy-mcq-03",
-        "happy-mcq-02",
-        "happy-mcq-04",
-        "happy-mcq-01",
-        "happy-mcq-05",
-        "happy-mcq-06"
+        "happy-mcq-11",
+        "happy-mcq-16",
+        "happy-mcq-18"
       ],
       "explanation": "本句的「happy」指「因某件事情發生而感到高興／滿意」。",
       "sentenceIndex": 6,
@@ -663,12 +637,10 @@ export default {
         "happy"
       ],
       "optionReasons": {
-        "happy-mcq-03": "本句指「因某件事情發生而感到高興／滿意」。",
-        "happy-mcq-02": "「對某件事的結果、狀況或安排感到滿意」是「happy with」的用法，與本句語境不同。",
-        "happy-mcq-04": "「樂意、願意或很高興做某事」是「happy to do」的用法，與本句語境不同。",
-        "happy-mcq-01": "「因某件事或整體處境而感到喜悅、愉快或滿足」是「happy — emotion」的用法，與本句語境不同。",
-        "happy-mcq-05": "「因別人遇到好事而替對方感到高興」是「happy for someone」的用法，與本句語境不同。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。"
+        "happy-mcq-03": "本句的「happy」指「因某件事情發生而感到高興／滿意」。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-03"
     },
@@ -680,11 +652,9 @@ export default {
       "masked": "I’m ____.",
       "options": [
         "happy-mcq-04",
-        "happy-mcq-03",
-        "happy-mcq-05",
-        "happy-mcq-02",
-        "happy-mcq-06",
-        "happy-mcq-01"
+        "happy-mcq-15",
+        "happy-mcq-18",
+        "happy-mcq-06"
       ],
       "explanation": "本句的「happy to help」指「樂意、願意或很高興做某事」。",
       "sentenceIndex": 7,
@@ -693,12 +663,10 @@ export default {
         "happy to help"
       ],
       "optionReasons": {
-        "happy-mcq-04": "本句指「樂意、願意或很高興做某事」。",
-        "happy-mcq-03": "「因某件事情發生而感到高興／滿意」是「happy about」的用法，與本句語境不同。",
-        "happy-mcq-05": "「因別人遇到好事而替對方感到高興」是「happy for someone」的用法，與本句語境不同。",
-        "happy-mcq-02": "「對某件事的結果、狀況或安排感到滿意」是「happy with」的用法，與本句語境不同。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。",
-        "happy-mcq-01": "「因某件事或整體處境而感到喜悅、愉快或滿足」是「happy — emotion」的用法，與本句語境不同。"
+        "happy-mcq-04": "本句的「happy to help」指「樂意、願意或很高興做某事」。",
+        "happy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-04"
     },
@@ -710,11 +678,9 @@ export default {
       "masked": "She was ____ to share her vegetables with neighbours.",
       "options": [
         "happy-mcq-04",
-        "happy-mcq-03",
-        "happy-mcq-05",
-        "happy-mcq-02",
-        "happy-mcq-06",
-        "happy-mcq-01"
+        "happy-mcq-14",
+        "happy-mcq-11",
+        "happy-mcq-18"
       ],
       "explanation": "本句的「happy」指「樂意、願意或很高興做某事」。",
       "sentenceIndex": 8,
@@ -723,12 +689,10 @@ export default {
         "happy"
       ],
       "optionReasons": {
-        "happy-mcq-04": "本句指「樂意、願意或很高興做某事」。",
-        "happy-mcq-03": "「因某件事情發生而感到高興／滿意」是「happy about」的用法，與本句語境不同。",
-        "happy-mcq-05": "「因別人遇到好事而替對方感到高興」是「happy for someone」的用法，與本句語境不同。",
-        "happy-mcq-02": "「對某件事的結果、狀況或安排感到滿意」是「happy with」的用法，與本句語境不同。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。",
-        "happy-mcq-01": "「因某件事或整體處境而感到喜悅、愉快或滿足」是「happy — emotion」的用法，與本句語境不同。"
+        "happy-mcq-04": "本句的「happy」指「樂意、願意或很高興做某事」。",
+        "happy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-04"
     },
@@ -740,11 +704,9 @@ export default {
       "masked": "I’m really ____.",
       "options": [
         "happy-mcq-05",
-        "happy-mcq-04",
-        "happy-mcq-06",
-        "happy-mcq-03",
-        "happy-mcq-07",
-        "happy-mcq-02"
+        "happy-pdf-001",
+        "happy-mcq-11",
+        "happy-mcq-16"
       ],
       "explanation": "本句的「happy for you」指「因別人遇到好事而替對方感到高興」。",
       "sentenceIndex": 9,
@@ -753,12 +715,10 @@ export default {
         "happy for you"
       ],
       "optionReasons": {
-        "happy-mcq-05": "本句指「因別人遇到好事而替對方感到高興」。",
-        "happy-mcq-04": "「樂意、願意或很高興做某事」是「happy to do」的用法，與本句語境不同。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。",
-        "happy-mcq-03": "「因某件事情發生而感到高興／滿意」是「happy about」的用法，與本句語境不同。",
-        "happy-mcq-07": "「情況幸運、順利並帶來令人滿意結果的」是「happy — fortunate」的用法，與本句語境不同。",
-        "happy-mcq-02": "「對某件事的結果、狀況或安排感到滿意」是「happy with」的用法，與本句語境不同。"
+        "happy-mcq-05": "本句的「happy for you」指「因別人遇到好事而替對方感到高興」。",
+        "happy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-05"
     },
@@ -770,11 +730,9 @@ export default {
       "masked": "She was ____ for her friend when she got the new job.",
       "options": [
         "happy-mcq-05",
-        "happy-mcq-04",
-        "happy-mcq-06",
-        "happy-mcq-03",
-        "happy-mcq-07",
-        "happy-mcq-02"
+        "happy-mcq-16",
+        "happy-mcq-15",
+        "happy-mcq-18"
       ],
       "explanation": "本句的「happy」指「因別人遇到好事而替對方感到高興」。",
       "sentenceIndex": 10,
@@ -783,12 +741,10 @@ export default {
         "happy"
       ],
       "optionReasons": {
-        "happy-mcq-05": "本句指「因別人遇到好事而替對方感到高興」。",
-        "happy-mcq-04": "「樂意、願意或很高興做某事」是「happy to do」的用法，與本句語境不同。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。",
-        "happy-mcq-03": "「因某件事情發生而感到高興／滿意」是「happy about」的用法，與本句語境不同。",
-        "happy-mcq-07": "「情況幸運、順利並帶來令人滿意結果的」是「happy — fortunate」的用法，與本句語境不同。",
-        "happy-mcq-02": "「對某件事的結果、狀況或安排感到滿意」是「happy with」的用法，與本句語境不同。"
+        "happy-mcq-05": "本句的「happy」指「因別人遇到好事而替對方感到高興」。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-05"
     },
@@ -800,11 +756,9 @@ export default {
       "masked": "She seems genuinely ____ with her life.",
       "options": [
         "happy-mcq-06",
-        "happy-mcq-05",
-        "happy-mcq-07",
-        "happy-mcq-04",
-        "happy-mcq-08",
-        "happy-mcq-03"
+        "happy-mcq-10",
+        "happy-mcq-18",
+        "happy-mcq-16"
       ],
       "explanation": "本句的「happy」指「對生活或整體處境感到幸福、安穩和滿足」。",
       "sentenceIndex": 11,
@@ -813,12 +767,10 @@ export default {
         "happy"
       ],
       "optionReasons": {
-        "happy-mcq-06": "本句指「對生活或整體處境感到幸福、安穩和滿足」。",
-        "happy-mcq-05": "「因別人遇到好事而替對方感到高興」是「happy for someone」的用法，與本句語境不同。",
-        "happy-mcq-07": "「情況幸運、順利並帶來令人滿意結果的」是「happy — fortunate」的用法，與本句語境不同。",
-        "happy-mcq-04": "「樂意、願意或很高興做某事」是「happy to do」的用法，與本句語境不同。",
-        "happy-mcq-08": "「故事以正面、幸福或令人滿意的方式結束」是「happy ending」的用法，與本句語境不同。",
-        "happy-mcq-03": "「因某件事情發生而感到高興／滿意」是「happy about」的用法，與本句語境不同。"
+        "happy-mcq-06": "本句的「happy」指「對生活或整體處境感到幸福、安穩和滿足」。",
+        "happy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-06"
     },
@@ -830,11 +782,9 @@ export default {
       "masked": "He just wants to live a ____ life.",
       "options": [
         "happy-mcq-06",
-        "happy-mcq-05",
-        "happy-mcq-07",
-        "happy-mcq-04",
-        "happy-mcq-08",
-        "happy-mcq-03"
+        "happy-mcq-13",
+        "happy-mcq-18",
+        "happy-mcq-15"
       ],
       "explanation": "本句的「happy」指「對生活或整體處境感到幸福、安穩和滿足」。",
       "sentenceIndex": 12,
@@ -843,12 +793,10 @@ export default {
         "happy"
       ],
       "optionReasons": {
-        "happy-mcq-06": "本句指「對生活或整體處境感到幸福、安穩和滿足」。",
-        "happy-mcq-05": "「因別人遇到好事而替對方感到高興」是「happy for someone」的用法，與本句語境不同。",
-        "happy-mcq-07": "「情況幸運、順利並帶來令人滿意結果的」是「happy — fortunate」的用法，與本句語境不同。",
-        "happy-mcq-04": "「樂意、願意或很高興做某事」是「happy to do」的用法，與本句語境不同。",
-        "happy-mcq-08": "「故事以正面、幸福或令人滿意的方式結束」是「happy ending」的用法，與本句語境不同。",
-        "happy-mcq-03": "「因某件事情發生而感到高興／滿意」是「happy about」的用法，與本句語境不同。"
+        "happy-mcq-06": "本句的「happy」指「對生活或整體處境感到幸福、安穩和滿足」。",
+        "happy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-06"
     },
@@ -860,11 +808,9 @@ export default {
       "masked": "It was a ____ that they met again.",
       "options": [
         "happy-mcq-07",
-        "happy-mcq-06",
-        "happy-mcq-08",
-        "happy-mcq-05",
         "happy-mcq-09",
-        "happy-mcq-04"
+        "happy-mcq-16",
+        "happy-mcq-18"
       ],
       "explanation": "本句的「happy coincidence」指「情況幸運、順利並帶來令人滿意結果的」。",
       "sentenceIndex": 13,
@@ -873,12 +819,10 @@ export default {
         "happy coincidence"
       ],
       "optionReasons": {
-        "happy-mcq-07": "本句指「情況幸運、順利並帶來令人滿意結果的」。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。",
-        "happy-mcq-08": "「故事以正面、幸福或令人滿意的方式結束」是「happy ending」的用法，與本句語境不同。",
-        "happy-mcq-05": "「因別人遇到好事而替對方感到高興」是「happy for someone」的用法，與本句語境不同。",
-        "happy-mcq-09": "「措辭、選擇或安排非常合適／貼切的」是「happy — apt」的用法，與本句語境不同。",
-        "happy-mcq-04": "「樂意、願意或很高興做某事」是「happy to do」的用法，與本句語境不同。"
+        "happy-mcq-07": "本句的「happy coincidence」指「情況幸運、順利並帶來令人滿意結果的」。",
+        "happy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-07"
     },
@@ -890,11 +834,9 @@ export default {
       "masked": "The decision had a ____ outcome.",
       "options": [
         "happy-mcq-07",
-        "happy-mcq-06",
-        "happy-mcq-08",
-        "happy-mcq-05",
+        "happy-mcq-18",
         "happy-mcq-09",
-        "happy-mcq-04"
+        "happy-mcq-16"
       ],
       "explanation": "本句的「happy」指「情況幸運、順利並帶來令人滿意結果的」。",
       "sentenceIndex": 14,
@@ -903,12 +845,10 @@ export default {
         "happy"
       ],
       "optionReasons": {
-        "happy-mcq-07": "本句指「情況幸運、順利並帶來令人滿意結果的」。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。",
-        "happy-mcq-08": "「故事以正面、幸福或令人滿意的方式結束」是「happy ending」的用法，與本句語境不同。",
-        "happy-mcq-05": "「因別人遇到好事而替對方感到高興」是「happy for someone」的用法，與本句語境不同。",
-        "happy-mcq-09": "「措辭、選擇或安排非常合適／貼切的」是「happy — apt」的用法，與本句語境不同。",
-        "happy-mcq-04": "「樂意、願意或很高興做某事」是「happy to do」的用法，與本句語境不同。"
+        "happy-mcq-07": "本句的「happy」指「情況幸運、順利並帶來令人滿意結果的」。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-07"
     },
@@ -920,11 +860,9 @@ export default {
       "masked": "The film has a ____.",
       "options": [
         "happy-mcq-08",
-        "happy-mcq-07",
+        "happy-mcq-16",
         "happy-mcq-09",
-        "happy-mcq-06",
-        "happy-mcq-10",
-        "happy-mcq-05"
+        "happy-mcq-18"
       ],
       "explanation": "本句的「happy ending」指「故事以正面、幸福或令人滿意的方式結束」。",
       "sentenceIndex": 15,
@@ -933,12 +871,10 @@ export default {
         "happy ending"
       ],
       "optionReasons": {
-        "happy-mcq-08": "本句指「故事以正面、幸福或令人滿意的方式結束」。",
-        "happy-mcq-07": "「情況幸運、順利並帶來令人滿意結果的」是「happy — fortunate」的用法，與本句語境不同。",
-        "happy-mcq-09": "「措辭、選擇或安排非常合適／貼切的」是「happy — apt」的用法，與本句語境不同。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。",
-        "happy-mcq-10": "「以開心、愉快的情緒做某事」是「happily — joyful manner」的用法，與本句語境不同。",
-        "happy-mcq-05": "「因別人遇到好事而替對方感到高興」是「happy for someone」的用法，與本句語境不同。"
+        "happy-mcq-08": "本句的「happy ending」指「故事以正面、幸福或令人滿意的方式結束」。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-08"
     },
@@ -950,11 +886,9 @@ export default {
       "masked": "Not every story needs a ____ ending.",
       "options": [
         "happy-mcq-08",
-        "happy-mcq-07",
         "happy-mcq-09",
-        "happy-mcq-06",
-        "happy-mcq-10",
-        "happy-mcq-05"
+        "happy-mcq-18",
+        "happy-mcq-16"
       ],
       "explanation": "本句的「happy」指「故事以正面、幸福或令人滿意的方式結束」。",
       "sentenceIndex": 16,
@@ -963,12 +897,10 @@ export default {
         "happy"
       ],
       "optionReasons": {
-        "happy-mcq-08": "本句指「故事以正面、幸福或令人滿意的方式結束」。",
-        "happy-mcq-07": "「情況幸運、順利並帶來令人滿意結果的」是「happy — fortunate」的用法，與本句語境不同。",
-        "happy-mcq-09": "「措辭、選擇或安排非常合適／貼切的」是「happy — apt」的用法，與本句語境不同。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。",
-        "happy-mcq-10": "「以開心、愉快的情緒做某事」是「happily — joyful manner」的用法，與本句語境不同。",
-        "happy-mcq-05": "「因別人遇到好事而替對方感到高興」是「happy for someone」的用法，與本句語境不同。"
+        "happy-mcq-08": "本句的「happy」指「故事以正面、幸福或令人滿意的方式結束」。",
+        "happy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-08"
     },
@@ -980,11 +912,9 @@ export default {
       "masked": "That was not a very ____.",
       "options": [
         "happy-mcq-09",
-        "happy-mcq-08",
-        "happy-mcq-10",
-        "happy-mcq-07",
-        "happy-mcq-11",
-        "happy-mcq-06"
+        "happy-mcq-13",
+        "happy-mcq-18",
+        "happy-mcq-11"
       ],
       "explanation": "本句的「happy choice of words」指「措辭、選擇或安排非常合適／貼切的」。",
       "sentenceIndex": 17,
@@ -993,12 +923,10 @@ export default {
         "happy choice of words"
       ],
       "optionReasons": {
-        "happy-mcq-09": "本句指「措辭、選擇或安排非常合適／貼切的」。",
-        "happy-mcq-08": "「故事以正面、幸福或令人滿意的方式結束」是「happy ending」的用法，與本句語境不同。",
-        "happy-mcq-10": "「以開心、愉快的情緒做某事」是「happily — joyful manner」的用法，與本句語境不同。",
-        "happy-mcq-07": "「情況幸運、順利並帶來令人滿意結果的」是「happy — fortunate」的用法，與本句語境不同。",
-        "happy-mcq-11": "「幸運的是；令人欣慰的是」是「happily — sentence adverb」的用法，與本句語境不同。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。"
+        "happy-mcq-09": "本句的「happy choice of words」指「措辭、選擇或安排非常合適／貼切的」。",
+        "happy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-09"
     },
@@ -1010,11 +938,9 @@ export default {
       "masked": "The phrase was a ____ expression of the idea.",
       "options": [
         "happy-mcq-09",
-        "happy-mcq-08",
-        "happy-mcq-10",
-        "happy-mcq-07",
+        "happy-pdf-002",
         "happy-mcq-11",
-        "happy-mcq-06"
+        "happy-mcq-18"
       ],
       "explanation": "本句的「happy」指「措辭、選擇或安排非常合適／貼切的」。",
       "sentenceIndex": 18,
@@ -1023,12 +949,10 @@ export default {
         "happy"
       ],
       "optionReasons": {
-        "happy-mcq-09": "本句指「措辭、選擇或安排非常合適／貼切的」。",
-        "happy-mcq-08": "「故事以正面、幸福或令人滿意的方式結束」是「happy ending」的用法，與本句語境不同。",
-        "happy-mcq-10": "「以開心、愉快的情緒做某事」是「happily — joyful manner」的用法，與本句語境不同。",
-        "happy-mcq-07": "「情況幸運、順利並帶來令人滿意結果的」是「happy — fortunate」的用法，與本句語境不同。",
-        "happy-mcq-11": "「幸運的是；令人欣慰的是」是「happily — sentence adverb」的用法，與本句語境不同。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。"
+        "happy-mcq-09": "本句的「happy」指「措辭、選擇或安排非常合適／貼切的」。",
+        "happy-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-09"
     },
@@ -1040,11 +964,9 @@ export default {
       "masked": "I’m ____ either option.",
       "options": [
         "happy-pdf-001",
-        "happy-mcq-08",
-        "happy-mcq-10",
-        "happy-mcq-07",
+        "happy-pdf-002",
         "happy-mcq-11",
-        "happy-mcq-06"
+        "happy-mcq-16"
       ],
       "explanation": "本句的「happy with」指「對某項安排沒有異議，願意接受」。",
       "sentenceIndex": 19,
@@ -1053,12 +975,10 @@ export default {
         "happy with"
       ],
       "optionReasons": {
-        "happy-pdf-001": "本句指「對某項安排沒有異議，願意接受」。",
-        "happy-mcq-08": "「故事以正面、幸福或令人滿意的方式結束」是「happy ending」的用法，與本句語境不同。",
-        "happy-mcq-10": "「以開心、愉快的情緒做某事」是「happily — joyful manner」的用法，與本句語境不同。",
-        "happy-mcq-07": "「情況幸運、順利並帶來令人滿意結果的」是「happy — fortunate」的用法，與本句語境不同。",
-        "happy-mcq-11": "「幸運的是；令人欣慰的是」是「happily — sentence adverb」的用法，與本句語境不同。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。"
+        "happy-pdf-001": "本句的「happy with」指「對某項安排沒有異議，願意接受」。",
+        "happy-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-pdf-001"
     },
@@ -1070,11 +990,9 @@ export default {
       "masked": "We’re ____ to leave the decision to you.",
       "options": [
         "happy-pdf-001",
-        "happy-mcq-08",
-        "happy-mcq-10",
-        "happy-mcq-07",
-        "happy-mcq-11",
-        "happy-mcq-06"
+        "happy-mcq-15",
+        "happy-mcq-16",
+        "happy-mcq-12"
       ],
       "explanation": "本句的「happy」指「對某項安排沒有異議，願意接受」。",
       "sentenceIndex": 20,
@@ -1083,12 +1001,10 @@ export default {
         "happy"
       ],
       "optionReasons": {
-        "happy-pdf-001": "本句指「對某項安排沒有異議，願意接受」。",
-        "happy-mcq-08": "「故事以正面、幸福或令人滿意的方式結束」是「happy ending」的用法，與本句語境不同。",
-        "happy-mcq-10": "「以開心、愉快的情緒做某事」是「happily — joyful manner」的用法，與本句語境不同。",
-        "happy-mcq-07": "「情況幸運、順利並帶來令人滿意結果的」是「happy — fortunate」的用法，與本句語境不同。",
-        "happy-mcq-11": "「幸運的是；令人欣慰的是」是「happily — sentence adverb」的用法，與本句語境不同。",
-        "happy-mcq-06": "「對生活或整體處境感到幸福、安穩和滿足」是「happy — content」的用法，與本句語境不同。"
+        "happy-pdf-001": "本句的「happy」指「對某項安排沒有異議，願意接受」。",
+        "happy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-pdf-001"
     },
@@ -1100,11 +1016,9 @@ export default {
       "masked": "The children played ____ in the garden.",
       "options": [
         "happy-mcq-10",
-        "happy-mcq-09",
-        "happy-mcq-11",
-        "happy-mcq-08",
-        "happy-mcq-12",
-        "happy-mcq-07"
+        "happy-mcq-06",
+        "happy-mcq-15",
+        "happy-pdf-001"
       ],
       "explanation": "本句的「happily」指「以開心、愉快的情緒做某事」。",
       "sentenceIndex": 21,
@@ -1113,12 +1027,10 @@ export default {
         "happily"
       ],
       "optionReasons": {
-        "happy-mcq-10": "本句指「以開心、愉快的情緒做某事」。",
-        "happy-mcq-09": "「措辭、選擇或安排非常合適／貼切的」是「happy — apt」的用法，與本句語境不同。",
-        "happy-mcq-11": "「幸運的是；令人欣慰的是」是「happily — sentence adverb」的用法，與本句語境不同。",
-        "happy-mcq-08": "「故事以正面、幸福或令人滿意的方式結束」是「happy ending」的用法，與本句語境不同。",
-        "happy-mcq-12": "「感到快樂、滿足或幸福的狀態」是「happiness」的用法，與本句語境不同。",
-        "happy-mcq-07": "「情況幸運、順利並帶來令人滿意結果的」是「happy — fortunate」的用法，與本句語境不同。"
+        "happy-mcq-10": "本句的「happily」指「以開心、愉快的情緒做某事」。",
+        "happy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "happy-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-10"
     },
@@ -1130,11 +1042,9 @@ export default {
       "masked": "She smiled ____ when the first flowers appeared.",
       "options": [
         "happy-mcq-10",
-        "happy-mcq-09",
-        "happy-mcq-11",
-        "happy-mcq-08",
-        "happy-mcq-12",
-        "happy-mcq-07"
+        "happy-mcq-06",
+        "happy-mcq-18",
+        "happy-mcq-15"
       ],
       "explanation": "本句的「happily」指「以開心、愉快的情緒做某事」。",
       "sentenceIndex": 22,
@@ -1143,12 +1053,10 @@ export default {
         "happily"
       ],
       "optionReasons": {
-        "happy-mcq-10": "本句指「以開心、愉快的情緒做某事」。",
-        "happy-mcq-09": "「措辭、選擇或安排非常合適／貼切的」是「happy — apt」的用法，與本句語境不同。",
-        "happy-mcq-11": "「幸運的是；令人欣慰的是」是「happily — sentence adverb」的用法，與本句語境不同。",
-        "happy-mcq-08": "「故事以正面、幸福或令人滿意的方式結束」是「happy ending」的用法，與本句語境不同。",
-        "happy-mcq-12": "「感到快樂、滿足或幸福的狀態」是「happiness」的用法，與本句語境不同。",
-        "happy-mcq-07": "「情況幸運、順利並帶來令人滿意結果的」是「happy — fortunate」的用法，與本句語境不同。"
+        "happy-mcq-10": "本句的「happily」指「以開心、愉快的情緒做某事」。",
+        "happy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-10"
     },
@@ -1160,11 +1068,9 @@ export default {
       "masked": "____, no one was injured.",
       "options": [
         "happy-mcq-11",
-        "happy-mcq-10",
-        "happy-mcq-12",
-        "happy-mcq-09",
-        "happy-mcq-13",
-        "happy-mcq-08"
+        "happy-mcq-16",
+        "happy-mcq-01",
+        "happy-pdf-001"
       ],
       "explanation": "本句的「Happily」指「幸運的是；令人欣慰的是」。",
       "sentenceIndex": 23,
@@ -1173,12 +1079,10 @@ export default {
         "Happily"
       ],
       "optionReasons": {
-        "happy-mcq-11": "本句指「幸運的是；令人欣慰的是」。",
-        "happy-mcq-10": "「以開心、愉快的情緒做某事」是「happily — joyful manner」的用法，與本句語境不同。",
-        "happy-mcq-12": "「感到快樂、滿足或幸福的狀態」是「happiness」的用法，與本句語境不同。",
-        "happy-mcq-09": "「措辭、選擇或安排非常合適／貼切的」是「happy — apt」的用法，與本句語境不同。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。",
-        "happy-mcq-08": "「故事以正面、幸福或令人滿意的方式結束」是「happy ending」的用法，與本句語境不同。"
+        "happy-mcq-11": "本句的「Happily」指「幸運的是；令人欣慰的是」。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "happy-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-11"
     },
@@ -1190,11 +1094,9 @@ export default {
       "masked": "____, the weather improved before the event.",
       "options": [
         "happy-mcq-11",
-        "happy-mcq-10",
-        "happy-mcq-12",
-        "happy-mcq-09",
-        "happy-mcq-13",
-        "happy-mcq-08"
+        "happy-mcq-16",
+        "happy-mcq-04",
+        "happy-mcq-14"
       ],
       "explanation": "本句的「Happily」指「幸運的是；令人欣慰的是」。",
       "sentenceIndex": 24,
@@ -1203,12 +1105,10 @@ export default {
         "Happily"
       ],
       "optionReasons": {
-        "happy-mcq-11": "本句指「幸運的是；令人欣慰的是」。",
-        "happy-mcq-10": "「以開心、愉快的情緒做某事」是「happily — joyful manner」的用法，與本句語境不同。",
-        "happy-mcq-12": "「感到快樂、滿足或幸福的狀態」是「happiness」的用法，與本句語境不同。",
-        "happy-mcq-09": "「措辭、選擇或安排非常合適／貼切的」是「happy — apt」的用法，與本句語境不同。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。",
-        "happy-mcq-08": "「故事以正面、幸福或令人滿意的方式結束」是「happy ending」的用法，與本句語境不同。"
+        "happy-mcq-11": "本句的「Happily」指「幸運的是；令人欣慰的是」。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-11"
     },
@@ -1220,11 +1120,9 @@ export default {
       "masked": "Gardening brings her a sense of ____.",
       "options": [
         "happy-mcq-12",
-        "happy-mcq-11",
-        "happy-mcq-13",
-        "happy-mcq-10",
-        "happy-mcq-14",
-        "happy-mcq-09"
+        "happy-pdf-001",
+        "happy-mcq-15",
+        "happy-mcq-16"
       ],
       "explanation": "本句的「happiness」指「感到快樂、滿足或幸福的狀態」。",
       "sentenceIndex": 25,
@@ -1233,12 +1131,10 @@ export default {
         "happiness"
       ],
       "optionReasons": {
-        "happy-mcq-12": "本句指「感到快樂、滿足或幸福的狀態」。",
-        "happy-mcq-11": "「幸運的是；令人欣慰的是」是「happily — sentence adverb」的用法，與本句語境不同。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。",
-        "happy-mcq-10": "「以開心、愉快的情緒做某事」是「happily — joyful manner」的用法，與本句語境不同。",
-        "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
-        "happy-mcq-09": "「措辭、選擇或安排非常合適／貼切的」是「happy — apt」的用法，與本句語境不同。"
+        "happy-mcq-12": "本句的「happiness」指「感到快樂、滿足或幸福的狀態」。",
+        "happy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-12"
     },
@@ -1250,11 +1146,9 @@ export default {
       "masked": "Money does not guarantee ____.",
       "options": [
         "happy-mcq-12",
-        "happy-mcq-11",
-        "happy-mcq-13",
-        "happy-mcq-10",
-        "happy-mcq-14",
-        "happy-mcq-09"
+        "happy-mcq-18",
+        "happy-mcq-15",
+        "happy-mcq-16"
       ],
       "explanation": "本句的「happiness」指「感到快樂、滿足或幸福的狀態」。",
       "sentenceIndex": 26,
@@ -1263,12 +1157,10 @@ export default {
         "happiness"
       ],
       "optionReasons": {
-        "happy-mcq-12": "本句指「感到快樂、滿足或幸福的狀態」。",
-        "happy-mcq-11": "「幸運的是；令人欣慰的是」是「happily — sentence adverb」的用法，與本句語境不同。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。",
-        "happy-mcq-10": "「以開心、愉快的情緒做某事」是「happily — joyful manner」的用法，與本句語境不同。",
-        "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
-        "happy-mcq-09": "「措辭、選擇或安排非常合適／貼切的」是「happy — apt」的用法，與本句語境不同。"
+        "happy-mcq-12": "本句的「happiness」指「感到快樂、滿足或幸福的狀態」。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-12"
     },
@@ -1280,11 +1172,9 @@ export default {
       "masked": "She felt ____ after the argument.",
       "options": [
         "happy-mcq-13",
-        "happy-mcq-12",
-        "happy-mcq-14",
-        "happy-mcq-11",
+        "happy-pdf-001",
         "happy-mcq-15",
-        "happy-mcq-10"
+        "happy-mcq-06"
       ],
       "explanation": "本句的「unhappy」指「心情不愉快、悲傷或不快樂的」。",
       "sentenceIndex": 27,
@@ -1293,12 +1183,10 @@ export default {
         "unhappy"
       ],
       "optionReasons": {
-        "happy-mcq-13": "本句指「心情不愉快、悲傷或不快樂的」。",
-        "happy-mcq-12": "「感到快樂、滿足或幸福的狀態」是「happiness」的用法，與本句語境不同。",
-        "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
-        "happy-mcq-11": "「幸運的是；令人欣慰的是」是「happily — sentence adverb」的用法，與本句語境不同。",
-        "happy-mcq-15": "「情況不幸、令人遺憾或帶來負面結果的」是「unhappy — unfortunate」的用法，與本句語境不同。",
-        "happy-mcq-10": "「以開心、愉快的情緒做某事」是「happily — joyful manner」的用法，與本句語境不同。"
+        "happy-mcq-13": "本句的「unhappy」指「心情不愉快、悲傷或不快樂的」。",
+        "happy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-13"
     },
@@ -1310,11 +1198,9 @@ export default {
       "masked": "The child looked ____.",
       "options": [
         "happy-mcq-13",
-        "happy-mcq-12",
-        "happy-mcq-14",
         "happy-mcq-11",
-        "happy-mcq-15",
-        "happy-mcq-10"
+        "happy-mcq-18",
+        "happy-mcq-06"
       ],
       "explanation": "本句的「unhappy」指「心情不愉快、悲傷或不快樂的」。",
       "sentenceIndex": 28,
@@ -1323,12 +1209,10 @@ export default {
         "unhappy"
       ],
       "optionReasons": {
-        "happy-mcq-13": "本句指「心情不愉快、悲傷或不快樂的」。",
-        "happy-mcq-12": "「感到快樂、滿足或幸福的狀態」是「happiness」的用法，與本句語境不同。",
-        "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
-        "happy-mcq-11": "「幸運的是；令人欣慰的是」是「happily — sentence adverb」的用法，與本句語境不同。",
-        "happy-mcq-15": "「情況不幸、令人遺憾或帶來負面結果的」是「unhappy — unfortunate」的用法，與本句語境不同。",
-        "happy-mcq-10": "「以開心、愉快的情緒做某事」是「happily — joyful manner」的用法，與本句語境不同。"
+        "happy-mcq-13": "本句的「unhappy」指「心情不愉快、悲傷或不快樂的」。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-13"
     },
@@ -1340,11 +1224,9 @@ export default {
       "masked": "Customers were ____ the service.",
       "options": [
         "happy-mcq-14",
-        "happy-mcq-13",
-        "happy-mcq-15",
-        "happy-mcq-12",
+        "happy-mcq-10",
         "happy-mcq-16",
-        "happy-mcq-11"
+        "happy-mcq-18"
       ],
       "explanation": "本句的「unhappy with」指「對某個結果、安排或情況感到不滿」。",
       "sentenceIndex": 29,
@@ -1353,12 +1235,10 @@ export default {
         "unhappy with"
       ],
       "optionReasons": {
-        "happy-mcq-14": "本句指「對某個結果、安排或情況感到不滿」。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。",
-        "happy-mcq-15": "「情況不幸、令人遺憾或帶來負面結果的」是「unhappy — unfortunate」的用法，與本句語境不同。",
-        "happy-mcq-12": "「感到快樂、滿足或幸福的狀態」是「happiness」的用法，與本句語境不同。",
-        "happy-mcq-16": "「性格樂觀輕鬆、不太為問題擔心的」是「happy-go-lucky」的用法，與本句語境不同。",
-        "happy-mcq-11": "「幸運的是；令人欣慰的是」是「happily — sentence adverb」的用法，與本句語境不同。"
+        "happy-mcq-14": "本句的「unhappy with」指「對某個結果、安排或情況感到不滿」。",
+        "happy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-14"
     },
@@ -1370,11 +1250,9 @@ export default {
       "masked": "She was ____ about the decision.",
       "options": [
         "happy-mcq-14",
-        "happy-mcq-13",
-        "happy-mcq-15",
-        "happy-mcq-12",
+        "happy-mcq-11",
         "happy-mcq-16",
-        "happy-mcq-11"
+        "happy-mcq-04"
       ],
       "explanation": "本句的「unhappy」指「對某個結果、安排或情況感到不滿」。",
       "sentenceIndex": 30,
@@ -1383,12 +1261,10 @@ export default {
         "unhappy"
       ],
       "optionReasons": {
-        "happy-mcq-14": "本句指「對某個結果、安排或情況感到不滿」。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。",
-        "happy-mcq-15": "「情況不幸、令人遺憾或帶來負面結果的」是「unhappy — unfortunate」的用法，與本句語境不同。",
-        "happy-mcq-12": "「感到快樂、滿足或幸福的狀態」是「happiness」的用法，與本句語境不同。",
-        "happy-mcq-16": "「性格樂觀輕鬆、不太為問題擔心的」是「happy-go-lucky」的用法，與本句語境不同。",
-        "happy-mcq-11": "「幸運的是；令人欣慰的是」是「happily — sentence adverb」的用法，與本句語境不同。"
+        "happy-mcq-14": "本句的「unhappy」指「對某個結果、安排或情況感到不滿」。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-14"
     },
@@ -1400,11 +1276,9 @@ export default {
       "masked": "It was an ____.",
       "options": [
         "happy-mcq-15",
-        "happy-mcq-14",
-        "happy-mcq-16",
-        "happy-mcq-13",
-        "happy-mcq-17",
-        "happy-mcq-12"
+        "happy-mcq-03",
+        "happy-mcq-18",
+        "happy-mcq-09"
       ],
       "explanation": "本句的「unhappy accident」指「情況不幸、令人遺憾或帶來負面結果的」。",
       "sentenceIndex": 31,
@@ -1413,12 +1287,10 @@ export default {
         "unhappy accident"
       ],
       "optionReasons": {
-        "happy-mcq-15": "本句指「情況不幸、令人遺憾或帶來負面結果的」。",
-        "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
-        "happy-mcq-16": "「性格樂觀輕鬆、不太為問題擔心的」是「happy-go-lucky」的用法，與本句語境不同。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。",
-        "happy-mcq-17": "「兩個極端之間令人滿意的中間點／折衷方案」是「happy medium」的用法，與本句語境不同。",
-        "happy-mcq-12": "「感到快樂、滿足或幸福的狀態」是「happiness」的用法，與本句語境不同。"
+        "happy-mcq-15": "本句的「unhappy accident」指「情況不幸、令人遺憾或帶來負面結果的」。",
+        "happy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-15"
     },
@@ -1430,11 +1302,9 @@ export default {
       "masked": "The discussion had an ____ ending.",
       "options": [
         "happy-mcq-15",
-        "happy-mcq-14",
-        "happy-mcq-16",
-        "happy-mcq-13",
-        "happy-mcq-17",
-        "happy-mcq-12"
+        "happy-mcq-04",
+        "happy-mcq-18",
+        "happy-mcq-16"
       ],
       "explanation": "本句的「unhappy」指「情況不幸、令人遺憾或帶來負面結果的」。",
       "sentenceIndex": 32,
@@ -1443,12 +1313,10 @@ export default {
         "unhappy"
       ],
       "optionReasons": {
-        "happy-mcq-15": "本句指「情況不幸、令人遺憾或帶來負面結果的」。",
-        "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
-        "happy-mcq-16": "「性格樂觀輕鬆、不太為問題擔心的」是「happy-go-lucky」的用法，與本句語境不同。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。",
-        "happy-mcq-17": "「兩個極端之間令人滿意的中間點／折衷方案」是「happy medium」的用法，與本句語境不同。",
-        "happy-mcq-12": "「感到快樂、滿足或幸福的狀態」是「happiness」的用法，與本句語境不同。"
+        "happy-mcq-15": "本句的「unhappy」指「情況不幸、令人遺憾或帶來負面結果的」。",
+        "happy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-15"
     },
@@ -1460,11 +1328,9 @@ export default {
       "masked": "He lived ____ for many years.",
       "options": [
         "happy-pdf-002",
-        "happy-mcq-14",
-        "happy-mcq-16",
-        "happy-mcq-13",
-        "happy-mcq-17",
-        "happy-mcq-12"
+        "happy-mcq-09",
+        "happy-mcq-18",
+        "happy-mcq-16"
       ],
       "explanation": "本句的「unhappily」指「以不快樂的狀態；或「不幸的是」」。",
       "sentenceIndex": 33,
@@ -1473,12 +1339,10 @@ export default {
         "unhappily"
       ],
       "optionReasons": {
-        "happy-pdf-002": "本句指「以不快樂的狀態；或「不幸的是」」。",
-        "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
-        "happy-mcq-16": "「性格樂觀輕鬆、不太為問題擔心的」是「happy-go-lucky」的用法，與本句語境不同。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。",
-        "happy-mcq-17": "「兩個極端之間令人滿意的中間點／折衷方案」是「happy medium」的用法，與本句語境不同。",
-        "happy-mcq-12": "「感到快樂、滿足或幸福的狀態」是「happiness」的用法，與本句語境不同。"
+        "happy-pdf-002": "本句的「unhappily」指「以不快樂的狀態；或「不幸的是」」。",
+        "happy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-pdf-002"
     },
@@ -1490,11 +1354,9 @@ export default {
       "masked": "____, the plan failed.",
       "options": [
         "happy-pdf-002",
-        "happy-mcq-14",
-        "happy-mcq-16",
-        "happy-mcq-13",
-        "happy-mcq-17",
-        "happy-mcq-12"
+        "happy-pdf-001",
+        "happy-mcq-11",
+        "happy-mcq-16"
       ],
       "explanation": "本句的「Unhappily」指「以不快樂的狀態；或「不幸的是」」。",
       "sentenceIndex": 34,
@@ -1503,12 +1365,10 @@ export default {
         "Unhappily"
       ],
       "optionReasons": {
-        "happy-pdf-002": "本句指「以不快樂的狀態；或「不幸的是」」。",
-        "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
-        "happy-mcq-16": "「性格樂觀輕鬆、不太為問題擔心的」是「happy-go-lucky」的用法，與本句語境不同。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。",
-        "happy-mcq-17": "「兩個極端之間令人滿意的中間點／折衷方案」是「happy medium」的用法，與本句語境不同。",
-        "happy-mcq-12": "「感到快樂、滿足或幸福的狀態」是「happiness」的用法，與本句語境不同。"
+        "happy-pdf-002": "本句的「Unhappily」指「以不快樂的狀態；或「不幸的是」」。",
+        "happy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-pdf-002"
     },
@@ -1520,11 +1380,9 @@ export default {
       "masked": "His ____ was obvious.",
       "options": [
         "happy-mcq-12",
-        "happy-mcq-11",
-        "happy-mcq-13",
-        "happy-mcq-10",
-        "happy-mcq-14",
-        "happy-mcq-09"
+        "happy-mcq-18",
+        "happy-mcq-16",
+        "happy-mcq-11"
       ],
       "explanation": "本句的「unhappiness」指「感到快樂、滿足或幸福的狀態」。",
       "sentenceIndex": 35,
@@ -1533,12 +1391,10 @@ export default {
         "unhappiness"
       ],
       "optionReasons": {
-        "happy-mcq-12": "本句指「感到快樂、滿足或幸福的狀態」。",
-        "happy-mcq-11": "「幸運的是；令人欣慰的是」是「happily — sentence adverb」的用法，與本句語境不同。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。",
-        "happy-mcq-10": "「以開心、愉快的情緒做某事」是「happily — joyful manner」的用法，與本句語境不同。",
-        "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
-        "happy-mcq-09": "「措辭、選擇或安排非常合適／貼切的」是「happy — apt」的用法，與本句語境不同。"
+        "happy-mcq-12": "本句的「unhappiness」指「感到快樂、滿足或幸福的狀態」。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-12"
     },
@@ -1550,11 +1406,9 @@ export default {
       "masked": "There was growing ____ with the decision.",
       "options": [
         "happy-mcq-12",
-        "happy-mcq-11",
-        "happy-mcq-13",
-        "happy-mcq-10",
-        "happy-mcq-14",
-        "happy-mcq-09"
+        "happy-mcq-18",
+        "happy-mcq-16",
+        "happy-mcq-11"
       ],
       "explanation": "本句的「unhappiness」指「感到快樂、滿足或幸福的狀態」。",
       "sentenceIndex": 36,
@@ -1563,12 +1417,10 @@ export default {
         "unhappiness"
       ],
       "optionReasons": {
-        "happy-mcq-12": "本句指「感到快樂、滿足或幸福的狀態」。",
-        "happy-mcq-11": "「幸運的是；令人欣慰的是」是「happily — sentence adverb」的用法，與本句語境不同。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。",
-        "happy-mcq-10": "「以開心、愉快的情緒做某事」是「happily — joyful manner」的用法，與本句語境不同。",
-        "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
-        "happy-mcq-09": "「措辭、選擇或安排非常合適／貼切的」是「happy — apt」的用法，與本句語境不同。"
+        "happy-mcq-12": "本句的「unhappiness」指「感到快樂、滿足或幸福的狀態」。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-12"
     },
@@ -1580,11 +1432,9 @@ export default {
       "masked": "He has a ____ personality.",
       "options": [
         "happy-mcq-16",
-        "happy-mcq-15",
-        "happy-mcq-17",
-        "happy-mcq-14",
-        "happy-mcq-18",
-        "happy-mcq-13"
+        "happy-mcq-08",
+        "happy-mcq-09",
+        "happy-mcq-18"
       ],
       "explanation": "本句的「happy-go-lucky」指「性格樂觀輕鬆、不太為問題擔心的」。",
       "sentenceIndex": 37,
@@ -1593,12 +1443,10 @@ export default {
         "happy-go-lucky"
       ],
       "optionReasons": {
-        "happy-mcq-16": "本句指「性格樂觀輕鬆、不太為問題擔心的」。",
-        "happy-mcq-15": "「情況不幸、令人遺憾或帶來負面結果的」是「unhappy — unfortunate」的用法，與本句語境不同。",
-        "happy-mcq-17": "「兩個極端之間令人滿意的中間點／折衷方案」是「happy medium」的用法，與本句語境不同。",
-        "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
-        "happy-mcq-18": "「餐廳／酒吧在指定時段提供優惠的時段」是「happy hour」的用法，與本句語境不同。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。"
+        "happy-mcq-16": "本句的「happy-go-lucky」指「性格樂觀輕鬆、不太為問題擔心的」。",
+        "happy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-16"
     },
@@ -1610,11 +1458,9 @@ export default {
       "masked": "She seems ____ even under pressure.",
       "options": [
         "happy-mcq-16",
-        "happy-mcq-15",
-        "happy-mcq-17",
-        "happy-mcq-14",
+        "happy-mcq-08",
         "happy-mcq-18",
-        "happy-mcq-13"
+        "happy-mcq-09"
       ],
       "explanation": "本句的「happy-go-lucky」指「性格樂觀輕鬆、不太為問題擔心的」。",
       "sentenceIndex": 38,
@@ -1623,12 +1469,10 @@ export default {
         "happy-go-lucky"
       ],
       "optionReasons": {
-        "happy-mcq-16": "本句指「性格樂觀輕鬆、不太為問題擔心的」。",
-        "happy-mcq-15": "「情況不幸、令人遺憾或帶來負面結果的」是「unhappy — unfortunate」的用法，與本句語境不同。",
-        "happy-mcq-17": "「兩個極端之間令人滿意的中間點／折衷方案」是「happy medium」的用法，與本句語境不同。",
-        "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
-        "happy-mcq-18": "「餐廳／酒吧在指定時段提供優惠的時段」是「happy hour」的用法，與本句語境不同。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。"
+        "happy-mcq-16": "本句的「happy-go-lucky」指「性格樂觀輕鬆、不太為問題擔心的」。",
+        "happy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-16"
     },
@@ -1640,11 +1484,9 @@ export default {
       "masked": "We need to find a ____ between cost and quality.",
       "options": [
         "happy-mcq-17",
-        "happy-mcq-16",
         "happy-mcq-18",
-        "happy-mcq-15",
-        "happy-mcq-14",
-        "happy-mcq-13"
+        "happy-mcq-09",
+        "happy-mcq-16"
       ],
       "explanation": "本句的「happy medium」指「兩個極端之間令人滿意的中間點／折衷方案」。",
       "sentenceIndex": 39,
@@ -1653,12 +1495,10 @@ export default {
         "happy medium"
       ],
       "optionReasons": {
-        "happy-mcq-17": "本句指「兩個極端之間令人滿意的中間點／折衷方案」。",
-        "happy-mcq-16": "「性格樂觀輕鬆、不太為問題擔心的」是「happy-go-lucky」的用法，與本句語境不同。",
-        "happy-mcq-18": "「餐廳／酒吧在指定時段提供優惠的時段」是「happy hour」的用法，與本句語境不同。",
-        "happy-mcq-15": "「情況不幸、令人遺憾或帶來負面結果的」是「unhappy — unfortunate」的用法，與本句語境不同。",
-        "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。"
+        "happy-mcq-17": "本句的「happy medium」指「兩個極端之間令人滿意的中間點／折衷方案」。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-17"
     },
@@ -1670,11 +1510,9 @@ export default {
       "masked": "The design strikes a ____ medium between simple and decorative.",
       "options": [
         "happy-mcq-17",
-        "happy-mcq-16",
+        "happy-mcq-09",
         "happy-mcq-18",
-        "happy-mcq-15",
-        "happy-mcq-14",
-        "happy-mcq-13"
+        "happy-mcq-16"
       ],
       "explanation": "本句的「happy」指「兩個極端之間令人滿意的中間點／折衷方案」。",
       "sentenceIndex": 40,
@@ -1683,12 +1521,10 @@ export default {
         "happy"
       ],
       "optionReasons": {
-        "happy-mcq-17": "本句指「兩個極端之間令人滿意的中間點／折衷方案」。",
-        "happy-mcq-16": "「性格樂觀輕鬆、不太為問題擔心的」是「happy-go-lucky」的用法，與本句語境不同。",
-        "happy-mcq-18": "「餐廳／酒吧在指定時段提供優惠的時段」是「happy hour」的用法，與本句語境不同。",
-        "happy-mcq-15": "「情況不幸、令人遺憾或帶來負面結果的」是「unhappy — unfortunate」的用法，與本句語境不同。",
-        "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。"
+        "happy-mcq-17": "本句的「happy」指「兩個極端之間令人滿意的中間點／折衷方案」。",
+        "happy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-17"
     },
@@ -1700,11 +1536,9 @@ export default {
       "masked": "The restaurant has a ____ from five to seven.",
       "options": [
         "happy-mcq-18",
-        "happy-mcq-17",
+        "happy-mcq-12",
         "happy-mcq-16",
-        "happy-mcq-15",
-        "happy-mcq-14",
-        "happy-mcq-13"
+        "happy-mcq-11"
       ],
       "explanation": "本句的「happy hour」指「餐廳／酒吧在指定時段提供優惠的時段」。",
       "sentenceIndex": 41,
@@ -1713,12 +1547,10 @@ export default {
         "happy hour"
       ],
       "optionReasons": {
-        "happy-mcq-18": "本句指「餐廳／酒吧在指定時段提供優惠的時段」。",
-        "happy-mcq-17": "「兩個極端之間令人滿意的中間點／折衷方案」是「happy medium」的用法，與本句語境不同。",
-        "happy-mcq-16": "「性格樂觀輕鬆、不太為問題擔心的」是「happy-go-lucky」的用法，與本句語境不同。",
-        "happy-mcq-15": "「情況不幸、令人遺憾或帶來負面結果的」是「unhappy — unfortunate」的用法，與本句語境不同。",
-        "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。"
+        "happy-mcq-18": "本句的「happy hour」指「餐廳／酒吧在指定時段提供優惠的時段」。",
+        "happy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-18"
     },
@@ -1730,11 +1562,9 @@ export default {
       "masked": "Drinks are cheaper during ____ hour.",
       "options": [
         "happy-mcq-18",
-        "happy-mcq-17",
-        "happy-mcq-16",
-        "happy-mcq-15",
-        "happy-mcq-14",
-        "happy-mcq-13"
+        "happy-mcq-11",
+        "happy-mcq-10",
+        "happy-mcq-16"
       ],
       "explanation": "本句的「happy」指「餐廳／酒吧在指定時段提供優惠的時段」。",
       "sentenceIndex": 42,
@@ -1743,12 +1573,10 @@ export default {
         "happy"
       ],
       "optionReasons": {
-        "happy-mcq-18": "本句指「餐廳／酒吧在指定時段提供優惠的時段」。",
-        "happy-mcq-17": "「兩個極端之間令人滿意的中間點／折衷方案」是「happy medium」的用法，與本句語境不同。",
-        "happy-mcq-16": "「性格樂觀輕鬆、不太為問題擔心的」是「happy-go-lucky」的用法，與本句語境不同。",
-        "happy-mcq-15": "「情況不幸、令人遺憾或帶來負面結果的」是「unhappy — unfortunate」的用法，與本句語境不同。",
-        "happy-mcq-14": "「對某個結果、安排或情況感到不滿」是「unhappy — dissatisfied」的用法，與本句語境不同。",
-        "happy-mcq-13": "「心情不愉快、悲傷或不快樂的」是「unhappy — sad」的用法，與本句語境不同。"
+        "happy-mcq-18": "本句的「happy」指「餐廳／酒吧在指定時段提供優惠的時段」。",
+        "happy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "happy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "happy-mcq-18"
     }
@@ -1760,5 +1588,7 @@ export default {
     "sha256": "a20155b7688620dc4509556eb6d2e1172cbf48d90192bbc9df3593acdc505ab9",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

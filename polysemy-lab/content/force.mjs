@@ -1064,11 +1064,9 @@ export default {
       "masked": "The crisis ____ his behavior.",
       "options": [
         "force-mcq-01",
-        "force-mcq-02",
-        "force-mcq-03",
-        "force-mcq-04",
-        "force-mcq-05",
-        "force-mcq-06"
+        "force-mcq-27",
+        "force-mcq-07",
+        "force-mcq-49"
       ],
       "explanation": "本句的「forced him to reconsider」指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
       "sentenceIndex": 0,
@@ -1077,12 +1075,10 @@ export default {
         "forced him to reconsider"
       ],
       "optionReasons": {
-        "force-mcq-01": "本句指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
-        "force-mcq-02": "「情況使某事變得不可避免；使不得不」與本句語境不同。",
-        "force-mcq-03": "「用意志逼自己做不願意／困難的事」與本句語境不同。",
-        "force-mcq-04": "「勉強擠出並非自然真誠的笑容／笑聲」與本句語境不同。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。"
+        "force-mcq-01": "本句的「forced him to reconsider」指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
+        "force-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-01"
     },
@@ -1094,11 +1090,9 @@ export default {
       "masked": "Circumstances ____ a difficult decision.",
       "options": [
         "force-mcq-01",
-        "force-mcq-02",
-        "force-mcq-03",
-        "force-mcq-04",
-        "force-mcq-05",
-        "force-mcq-06"
+        "force-mcq-27",
+        "force-mcq-07",
+        "force-mcq-20"
       ],
       "explanation": "本句的「forced her to make」指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
       "sentenceIndex": 1,
@@ -1107,12 +1101,10 @@ export default {
         "forced her to make"
       ],
       "optionReasons": {
-        "force-mcq-01": "本句指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
-        "force-mcq-02": "「情況使某事變得不可避免；使不得不」與本句語境不同。",
-        "force-mcq-03": "「用意志逼自己做不願意／困難的事」與本句語境不同。",
-        "force-mcq-04": "「勉強擠出並非自然真誠的笑容／笑聲」與本句語境不同。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。"
+        "force-mcq-01": "本句的「forced her to make」指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
+        "force-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-01"
     },
@@ -1124,10 +1116,8 @@ export default {
       "masked": "Nobody should be ____.",
       "options": [
         "force-mcq-01",
-        "force-mcq-02",
-        "force-mcq-03",
-        "force-mcq-04",
-        "force-mcq-05",
+        "force-mcq-49",
+        "force-mcq-15",
         "force-mcq-06"
       ],
       "explanation": "本句的「forced to agree」指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
@@ -1137,12 +1127,10 @@ export default {
         "forced to agree"
       ],
       "optionReasons": {
-        "force-mcq-01": "本句指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
-        "force-mcq-02": "「情況使某事變得不可避免；使不得不」與本句語境不同。",
-        "force-mcq-03": "「用意志逼自己做不願意／困難的事」與本句語境不同。",
-        "force-mcq-04": "「勉強擠出並非自然真誠的笑容／笑聲」與本句語境不同。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。"
+        "force-mcq-01": "本句的「forced to agree」指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
+        "force-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-01"
     },
@@ -1154,11 +1142,9 @@ export default {
       "masked": "The weather ____ the trip.",
       "options": [
         "force-mcq-01",
-        "force-mcq-02",
-        "force-mcq-03",
-        "force-mcq-04",
-        "force-mcq-05",
-        "force-mcq-06"
+        "force-mcq-15",
+        "force-mcq-32",
+        "force-mcq-21"
       ],
       "explanation": "本句的「forced us to cancel」指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
       "sentenceIndex": 3,
@@ -1167,12 +1153,10 @@ export default {
         "forced us to cancel"
       ],
       "optionReasons": {
-        "force-mcq-01": "本句指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
-        "force-mcq-02": "「情況使某事變得不可避免；使不得不」與本句語境不同。",
-        "force-mcq-03": "「用意志逼自己做不願意／困難的事」與本句語境不同。",
-        "force-mcq-04": "「勉強擠出並非自然真誠的笑容／笑聲」與本句語境不同。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。"
+        "force-mcq-01": "本句的「forced us to cancel」指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
+        "force-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-01"
     },
@@ -1184,10 +1168,8 @@ export default {
       "masked": "The injury ____ playing.",
       "options": [
         "force-mcq-01",
-        "force-mcq-02",
-        "force-mcq-03",
-        "force-mcq-04",
-        "force-mcq-05",
+        "force-mcq-49",
+        "force-mcq-32",
         "force-mcq-06"
       ],
       "explanation": "本句的「forced him to stop」指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
@@ -1197,12 +1179,10 @@ export default {
         "forced him to stop"
       ],
       "optionReasons": {
-        "force-mcq-01": "本句指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
-        "force-mcq-02": "「情況使某事變得不可避免；使不得不」與本句語境不同。",
-        "force-mcq-03": "「用意志逼自己做不願意／困難的事」與本句語境不同。",
-        "force-mcq-04": "「勉強擠出並非自然真誠的笑容／笑聲」與本句語境不同。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。"
+        "force-mcq-01": "本句的「forced him to stop」指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
+        "force-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-01"
     },
@@ -1214,11 +1194,9 @@ export default {
       "masked": "Financial problems ____.",
       "options": [
         "force-mcq-01",
-        "force-mcq-02",
-        "force-mcq-03",
-        "force-mcq-04",
-        "force-mcq-05",
-        "force-mcq-06"
+        "force-mcq-20",
+        "force-mcq-21",
+        "force-mcq-46"
       ],
       "explanation": "本句的「forced them to move」指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
       "sentenceIndex": 5,
@@ -1227,12 +1205,10 @@ export default {
         "forced them to move"
       ],
       "optionReasons": {
-        "force-mcq-01": "本句指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
-        "force-mcq-02": "「情況使某事變得不可避免；使不得不」與本句語境不同。",
-        "force-mcq-03": "「用意志逼自己做不願意／困難的事」與本句語境不同。",
-        "force-mcq-04": "「勉強擠出並非自然真誠的笑容／笑聲」與本句語境不同。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。"
+        "force-mcq-01": "本句的「forced them to move」指「使某人沒有真正選擇而不得不做某事；迫使／強迫」。",
+        "force-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-01"
     },
@@ -1244,11 +1220,9 @@ export default {
       "masked": "Rising costs ____.",
       "options": [
         "force-mcq-02",
-        "force-mcq-01",
-        "force-mcq-03",
-        "force-mcq-04",
-        "force-mcq-05",
-        "force-mcq-06"
+        "force-mcq-39",
+        "force-mcq-07",
+        "force-mcq-32"
       ],
       "explanation": "本句的「forced the business to raise prices」指「情況使某事變得不可避免；使不得不」。",
       "sentenceIndex": 6,
@@ -1257,12 +1231,10 @@ export default {
         "forced the business to raise prices"
       ],
       "optionReasons": {
-        "force-mcq-02": "本句指「情況使某事變得不可避免；使不得不」。",
-        "force-mcq-01": "「使某人沒有真正選擇而不得不做某事；迫使／強迫」與本句語境不同。",
-        "force-mcq-03": "「用意志逼自己做不願意／困難的事」與本句語境不同。",
-        "force-mcq-04": "「勉強擠出並非自然真誠的笑容／笑聲」與本句語境不同。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。"
+        "force-mcq-02": "本句的「forced the business to raise prices」指「情況使某事變得不可避免；使不得不」。",
+        "force-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-02"
     },
@@ -1274,11 +1246,9 @@ export default {
       "masked": "Heavy rain ____.",
       "options": [
         "force-mcq-02",
-        "force-mcq-01",
-        "force-mcq-03",
-        "force-mcq-04",
-        "force-mcq-05",
-        "force-mcq-06"
+        "force-mcq-25",
+        "force-mcq-19",
+        "force-mcq-37"
       ],
       "explanation": "本句的「forced the event indoors」指「情況使某事變得不可避免；使不得不」。",
       "sentenceIndex": 7,
@@ -1287,12 +1257,10 @@ export default {
         "forced the event indoors"
       ],
       "optionReasons": {
-        "force-mcq-02": "本句指「情況使某事變得不可避免；使不得不」。",
-        "force-mcq-01": "「使某人沒有真正選擇而不得不做某事；迫使／強迫」與本句語境不同。",
-        "force-mcq-03": "「用意志逼自己做不願意／困難的事」與本句語境不同。",
-        "force-mcq-04": "「勉強擠出並非自然真誠的笑容／笑聲」與本句語境不同。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。"
+        "force-mcq-02": "本句的「forced the event indoors」指「情況使某事變得不可避免；使不得不」。",
+        "force-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-02"
     },
@@ -1304,11 +1272,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "force-mcq-03",
-        "force-mcq-02",
-        "force-mcq-04",
-        "force-mcq-01",
-        "force-mcq-05",
-        "force-mcq-06"
+        "force-mcq-06",
+        "force-mcq-45",
+        "force-mcq-14"
       ],
       "explanation": "本句的「forced herself to smile」指「用意志逼自己做不願意／困難的事」。",
       "sentenceIndex": 8,
@@ -1317,12 +1283,10 @@ export default {
         "forced herself to smile"
       ],
       "optionReasons": {
-        "force-mcq-03": "本句指「用意志逼自己做不願意／困難的事」。",
-        "force-mcq-02": "「情況使某事變得不可避免；使不得不」與本句語境不同。",
-        "force-mcq-04": "「勉強擠出並非自然真誠的笑容／笑聲」與本句語境不同。",
-        "force-mcq-01": "「使某人沒有真正選擇而不得不做某事；迫使／強迫」與本句語境不同。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。"
+        "force-mcq-03": "本句的「forced herself to smile」指「用意志逼自己做不願意／困難的事」。",
+        "force-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-03"
     },
@@ -1334,11 +1298,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "force-mcq-03",
-        "force-mcq-02",
-        "force-mcq-04",
-        "force-mcq-01",
-        "force-mcq-05",
-        "force-mcq-06"
+        "force-mcq-41",
+        "force-mcq-24",
+        "force-mcq-13"
       ],
       "explanation": "本句的「forced himself to stay awake」指「用意志逼自己做不願意／困難的事」。",
       "sentenceIndex": 9,
@@ -1347,12 +1309,10 @@ export default {
         "forced himself to stay awake"
       ],
       "optionReasons": {
-        "force-mcq-03": "本句指「用意志逼自己做不願意／困難的事」。",
-        "force-mcq-02": "「情況使某事變得不可避免；使不得不」與本句語境不同。",
-        "force-mcq-04": "「勉強擠出並非自然真誠的笑容／笑聲」與本句語境不同。",
-        "force-mcq-01": "「使某人沒有真正選擇而不得不做某事；迫使／強迫」與本句語境不同。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。"
+        "force-mcq-03": "本句的「forced himself to stay awake」指「用意志逼自己做不願意／困難的事」。",
+        "force-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-03"
     },
@@ -1364,11 +1324,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "force-mcq-04",
-        "force-mcq-03",
-        "force-mcq-05",
-        "force-mcq-02",
         "force-mcq-06",
-        "force-mcq-01"
+        "force-mcq-11",
+        "force-mcq-30"
       ],
       "explanation": "本句的「forced a smile」指「勉強擠出並非自然真誠的笑容／笑聲」。",
       "sentenceIndex": 10,
@@ -1377,12 +1335,10 @@ export default {
         "forced a smile"
       ],
       "optionReasons": {
-        "force-mcq-04": "本句指「勉強擠出並非自然真誠的笑容／笑聲」。",
-        "force-mcq-03": "「用意志逼自己做不願意／困難的事」與本句語境不同。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。",
-        "force-mcq-02": "「情況使某事變得不可避免；使不得不」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。",
-        "force-mcq-01": "「使某人沒有真正選擇而不得不做某事；迫使／強迫」與本句語境不同。"
+        "force-mcq-04": "本句的「forced a smile」指「勉強擠出並非自然真誠的笑容／笑聲」。",
+        "force-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-04"
     },
@@ -1394,11 +1350,9 @@ export default {
       "masked": "She ____ at the joke.",
       "options": [
         "force-mcq-04",
-        "force-mcq-03",
-        "force-mcq-05",
-        "force-mcq-02",
-        "force-mcq-06",
-        "force-mcq-01"
+        "force-mcq-24",
+        "force-mcq-36",
+        "force-mcq-17"
       ],
       "explanation": "本句的「forced a laugh」指「勉強擠出並非自然真誠的笑容／笑聲」。",
       "sentenceIndex": 11,
@@ -1407,12 +1361,10 @@ export default {
         "forced a laugh"
       ],
       "optionReasons": {
-        "force-mcq-04": "本句指「勉強擠出並非自然真誠的笑容／笑聲」。",
-        "force-mcq-03": "「用意志逼自己做不願意／困難的事」與本句語境不同。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。",
-        "force-mcq-02": "「情況使某事變得不可避免；使不得不」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。",
-        "force-mcq-01": "「使某人沒有真正選擇而不得不做某事；迫使／強迫」與本句語境不同。"
+        "force-mcq-04": "本句的「forced a laugh」指「勉強擠出並非自然真誠的笑容／笑聲」。",
+        "force-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-04"
     },
@@ -1424,11 +1376,9 @@ export default {
       "masked": "The door opened under the ____ of the impact.",
       "options": [
         "force-mcq-05",
-        "force-mcq-04",
-        "force-mcq-06",
-        "force-mcq-03",
-        "force-mcq-07",
-        "force-mcq-02"
+        "force-mcq-39",
+        "force-mcq-13",
+        "force-mcq-20"
       ],
       "explanation": "本句的「force」指「用來推、拉、撞擊等的力量／力」。",
       "sentenceIndex": 12,
@@ -1437,12 +1387,10 @@ export default {
         "force"
       ],
       "optionReasons": {
-        "force-mcq-05": "本句指「用來推、拉、撞擊等的力量／力」。",
-        "force-mcq-04": "「勉強擠出並非自然真誠的笑容／笑聲」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。",
-        "force-mcq-03": "「用意志逼自己做不願意／困難的事」與本句語境不同。",
-        "force-mcq-07": "「由重力產生的作用力／引力」與本句語境不同。",
-        "force-mcq-02": "「情況使某事變得不可避免；使不得不」與本句語境不同。"
+        "force-mcq-05": "本句的「force」指「用來推、拉、撞擊等的力量／力」。",
+        "force-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-05"
     },
@@ -1454,10 +1402,8 @@ export default {
       "masked": "He pushed the box with considerable ____.",
       "options": [
         "force-mcq-05",
-        "force-mcq-04",
-        "force-mcq-06",
+        "force-mcq-39",
         "force-mcq-03",
-        "force-mcq-07",
         "force-mcq-02"
       ],
       "explanation": "本句的「force」指「用來推、拉、撞擊等的力量／力」。",
@@ -1467,12 +1413,10 @@ export default {
         "force"
       ],
       "optionReasons": {
-        "force-mcq-05": "本句指「用來推、拉、撞擊等的力量／力」。",
-        "force-mcq-04": "「勉強擠出並非自然真誠的笑容／笑聲」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。",
-        "force-mcq-03": "「用意志逼自己做不願意／困難的事」與本句語境不同。",
-        "force-mcq-07": "「由重力產生的作用力／引力」與本句語境不同。",
-        "force-mcq-02": "「情況使某事變得不可避免；使不得不」與本句語境不同。"
+        "force-mcq-05": "本句的「force」指「用來推、拉、撞擊等的力量／力」。",
+        "force-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-05"
     },
@@ -1484,11 +1428,9 @@ export default {
       "masked": "Gravity is a ____.",
       "options": [
         "force-mcq-06",
-        "force-mcq-05",
-        "force-mcq-07",
-        "force-mcq-04",
-        "force-mcq-08",
-        "force-mcq-03"
+        "force-mcq-38",
+        "force-mcq-21",
+        "force-mcq-12"
       ],
       "explanation": "本句的「force」指「能改變物體運動狀態的作用力」。",
       "sentenceIndex": 14,
@@ -1497,12 +1439,10 @@ export default {
         "force"
       ],
       "optionReasons": {
-        "force-mcq-06": "本句指「能改變物體運動狀態的作用力」。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。",
-        "force-mcq-07": "「由重力產生的作用力／引力」與本句語境不同。",
-        "force-mcq-04": "「勉強擠出並非自然真誠的笑容／笑聲」與本句語境不同。",
-        "force-mcq-08": "「使用物理力量或強制手段」與本句語境不同。",
-        "force-mcq-03": "「用意志逼自己做不願意／困難的事」與本句語境不同。"
+        "force-mcq-06": "本句的「force」指「能改變物體運動狀態的作用力」。",
+        "force-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-06"
     },
@@ -1514,11 +1454,9 @@ export default {
       "masked": "A ____ can change an object’s speed or direction.",
       "options": [
         "force-mcq-06",
-        "force-mcq-05",
-        "force-mcq-07",
-        "force-mcq-04",
-        "force-mcq-08",
-        "force-mcq-03"
+        "force-mcq-19",
+        "force-mcq-13",
+        "force-mcq-37"
       ],
       "explanation": "本句的「force」指「能改變物體運動狀態的作用力」。",
       "sentenceIndex": 15,
@@ -1527,12 +1465,10 @@ export default {
         "force"
       ],
       "optionReasons": {
-        "force-mcq-06": "本句指「能改變物體運動狀態的作用力」。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。",
-        "force-mcq-07": "「由重力產生的作用力／引力」與本句語境不同。",
-        "force-mcq-04": "「勉強擠出並非自然真誠的笑容／笑聲」與本句語境不同。",
-        "force-mcq-08": "「使用物理力量或強制手段」與本句語境不同。",
-        "force-mcq-03": "「用意志逼自己做不願意／困難的事」與本句語境不同。"
+        "force-mcq-06": "本句的「force」指「能改變物體運動狀態的作用力」。",
+        "force-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-06"
     },
@@ -1544,11 +1480,9 @@ export default {
       "masked": "The moon’s ____ affects the oceans.",
       "options": [
         "force-mcq-07",
-        "force-mcq-06",
-        "force-mcq-08",
-        "force-mcq-05",
-        "force-mcq-09",
-        "force-mcq-04"
+        "force-mcq-49",
+        "force-mcq-45",
+        "force-mcq-22"
       ],
       "explanation": "本句的「gravitational force」指「由重力產生的作用力／引力」。",
       "sentenceIndex": 16,
@@ -1557,12 +1491,10 @@ export default {
         "gravitational force"
       ],
       "optionReasons": {
-        "force-mcq-07": "本句指「由重力產生的作用力／引力」。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。",
-        "force-mcq-08": "「使用物理力量或強制手段」與本句語境不同。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。",
-        "force-mcq-09": "「不用正常方法而以力量強行／撬開某物」與本句語境不同。",
-        "force-mcq-04": "「勉強擠出並非自然真誠的笑容／笑聲」與本句語境不同。"
+        "force-mcq-07": "本句的「gravitational force」指「由重力產生的作用力／引力」。",
+        "force-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-07"
     },
@@ -1574,11 +1506,9 @@ export default {
       "masked": "The object falls because of ____.",
       "options": [
         "force-mcq-07",
-        "force-mcq-06",
-        "force-mcq-08",
-        "force-mcq-05",
-        "force-mcq-09",
-        "force-mcq-04"
+        "force-mcq-13",
+        "force-mcq-21",
+        "force-mcq-37"
       ],
       "explanation": "本句的「gravitational force」指「由重力產生的作用力／引力」。",
       "sentenceIndex": 17,
@@ -1587,12 +1517,10 @@ export default {
         "gravitational force"
       ],
       "optionReasons": {
-        "force-mcq-07": "本句指「由重力產生的作用力／引力」。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。",
-        "force-mcq-08": "「使用物理力量或強制手段」與本句語境不同。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。",
-        "force-mcq-09": "「不用正常方法而以力量強行／撬開某物」與本句語境不同。",
-        "force-mcq-04": "「勉強擠出並非自然真誠的笑容／笑聲」與本句語境不同。"
+        "force-mcq-07": "本句的「gravitational force」指「由重力產生的作用力／引力」。",
+        "force-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-07"
     },
@@ -1604,11 +1532,9 @@ export default {
       "masked": "They had to ____ to open the door.",
       "options": [
         "force-mcq-08",
-        "force-mcq-07",
-        "force-mcq-09",
-        "force-mcq-06",
-        "force-mcq-10",
-        "force-mcq-05"
+        "force-mcq-12",
+        "force-mcq-20",
+        "force-mcq-46"
       ],
       "explanation": "本句的「use force」指「使用物理力量或強制手段」。",
       "sentenceIndex": 18,
@@ -1617,12 +1543,10 @@ export default {
         "use force"
       ],
       "optionReasons": {
-        "force-mcq-08": "本句指「使用物理力量或強制手段」。",
-        "force-mcq-07": "「由重力產生的作用力／引力」與本句語境不同。",
-        "force-mcq-09": "「不用正常方法而以力量強行／撬開某物」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。",
-        "force-mcq-10": "「靠力量、壓力或堅持強行穿過／進入」與本句語境不同。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。"
+        "force-mcq-08": "本句的「use force」指「使用物理力量或強制手段」。",
+        "force-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-08"
     },
@@ -1634,11 +1558,9 @@ export default {
       "masked": "The phrase may refer to physical or coercive ____, depending on context.",
       "options": [
         "force-mcq-08",
-        "force-mcq-07",
-        "force-mcq-09",
-        "force-mcq-06",
-        "force-mcq-10",
-        "force-mcq-05"
+        "force-mcq-49",
+        "force-mcq-46",
+        "force-mcq-26"
       ],
       "explanation": "本句的「force」指「使用物理力量或強制手段」。",
       "sentenceIndex": 19,
@@ -1647,12 +1569,10 @@ export default {
         "force"
       ],
       "optionReasons": {
-        "force-mcq-08": "本句指「使用物理力量或強制手段」。",
-        "force-mcq-07": "「由重力產生的作用力／引力」與本句語境不同。",
-        "force-mcq-09": "「不用正常方法而以力量強行／撬開某物」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。",
-        "force-mcq-10": "「靠力量、壓力或堅持強行穿過／進入」與本句語境不同。",
-        "force-mcq-05": "「用來推、拉、撞擊等的力量／力」與本句語境不同。"
+        "force-mcq-08": "本句的「force」指「使用物理力量或強制手段」。",
+        "force-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-08"
     },
@@ -1664,11 +1584,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "force-mcq-09",
-        "force-mcq-08",
-        "force-mcq-10",
-        "force-mcq-07",
-        "force-mcq-11",
-        "force-mcq-06"
+        "force-mcq-21",
+        "force-mcq-02",
+        "force-mcq-13"
       ],
       "explanation": "本句的「forced the door open」指「不用正常方法而以力量強行／撬開某物」。",
       "sentenceIndex": 20,
@@ -1677,12 +1595,10 @@ export default {
         "forced the door open"
       ],
       "optionReasons": {
-        "force-mcq-09": "本句指「不用正常方法而以力量強行／撬開某物」。",
-        "force-mcq-08": "「使用物理力量或強制手段」與本句語境不同。",
-        "force-mcq-10": "「靠力量、壓力或堅持強行穿過／進入」與本句語境不同。",
-        "force-mcq-07": "「由重力產生的作用力／引力」與本句語境不同。",
-        "force-mcq-11": "「以力量使某物通過狹窄空間或阻力」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。"
+        "force-mcq-09": "本句的「forced the door open」指「不用正常方法而以力量強行／撬開某物」。",
+        "force-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-09"
     },
@@ -1694,11 +1610,9 @@ export default {
       "masked": "Someone had ____.",
       "options": [
         "force-mcq-09",
-        "force-mcq-08",
-        "force-mcq-10",
-        "force-mcq-07",
-        "force-mcq-11",
-        "force-mcq-06"
+        "force-mcq-02",
+        "force-mcq-37",
+        "force-mcq-21"
       ],
       "explanation": "本句的「forced the window open」指「不用正常方法而以力量強行／撬開某物」。",
       "sentenceIndex": 21,
@@ -1707,12 +1621,10 @@ export default {
         "forced the window open"
       ],
       "optionReasons": {
-        "force-mcq-09": "本句指「不用正常方法而以力量強行／撬開某物」。",
-        "force-mcq-08": "「使用物理力量或強制手段」與本句語境不同。",
-        "force-mcq-10": "「靠力量、壓力或堅持強行穿過／進入」與本句語境不同。",
-        "force-mcq-07": "「由重力產生的作用力／引力」與本句語境不同。",
-        "force-mcq-11": "「以力量使某物通過狹窄空間或阻力」與本句語境不同。",
-        "force-mcq-06": "「能改變物體運動狀態的作用力」與本句語境不同。"
+        "force-mcq-09": "本句的「forced the window open」指「不用正常方法而以力量強行／撬開某物」。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-09"
     },
@@ -1724,11 +1636,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "force-mcq-10",
-        "force-mcq-09",
-        "force-mcq-11",
-        "force-mcq-08",
-        "force-mcq-12",
-        "force-mcq-07"
+        "force-mcq-37",
+        "force-mcq-02",
+        "force-mcq-21"
       ],
       "explanation": "本句的「forced his way through the crowd」指「靠力量、壓力或堅持強行穿過／進入」。",
       "sentenceIndex": 22,
@@ -1737,12 +1647,10 @@ export default {
         "forced his way through the crowd"
       ],
       "optionReasons": {
-        "force-mcq-10": "本句指「靠力量、壓力或堅持強行穿過／進入」。",
-        "force-mcq-09": "「不用正常方法而以力量強行／撬開某物」與本句語境不同。",
-        "force-mcq-11": "「以力量使某物通過狹窄空間或阻力」與本句語境不同。",
-        "force-mcq-08": "「使用物理力量或強制手段」與本句語境不同。",
-        "force-mcq-12": "「迫使某個回應、結果或決定發生」與本句語境不同。",
-        "force-mcq-07": "「由重力產生的作用力／引力」與本句語境不同。"
+        "force-mcq-10": "本句的「forced his way through the crowd」指「靠力量、壓力或堅持強行穿過／進入」。",
+        "force-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-10"
     },
@@ -1754,11 +1662,9 @@ export default {
       "masked": "Water ____ the crack.",
       "options": [
         "force-mcq-10",
-        "force-mcq-09",
-        "force-mcq-11",
-        "force-mcq-08",
-        "force-mcq-12",
-        "force-mcq-07"
+        "force-mcq-02",
+        "force-mcq-26",
+        "force-mcq-30"
       ],
       "explanation": "本句的「forced its way through」指「靠力量、壓力或堅持強行穿過／進入」。",
       "sentenceIndex": 23,
@@ -1767,12 +1673,10 @@ export default {
         "forced its way through"
       ],
       "optionReasons": {
-        "force-mcq-10": "本句指「靠力量、壓力或堅持強行穿過／進入」。",
-        "force-mcq-09": "「不用正常方法而以力量強行／撬開某物」與本句語境不同。",
-        "force-mcq-11": "「以力量使某物通過狹窄空間或阻力」與本句語境不同。",
-        "force-mcq-08": "「使用物理力量或強制手段」與本句語境不同。",
-        "force-mcq-12": "「迫使某個回應、結果或決定發生」與本句語境不同。",
-        "force-mcq-07": "「由重力產生的作用力／引力」與本句語境不同。"
+        "force-mcq-10": "本句的「forced its way through」指「靠力量、壓力或堅持強行穿過／進入」。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-10"
     },
@@ -1784,11 +1688,9 @@ export default {
       "masked": "The pump ____ the pipe.",
       "options": [
         "force-mcq-11",
-        "force-mcq-10",
-        "force-mcq-12",
-        "force-mcq-09",
-        "force-mcq-13",
-        "force-mcq-08"
+        "force-mcq-37",
+        "force-mcq-22",
+        "force-mcq-38"
       ],
       "explanation": "本句的「forces water through」指「以力量使某物通過狹窄空間或阻力」。",
       "sentenceIndex": 24,
@@ -1797,12 +1699,10 @@ export default {
         "forces water through"
       ],
       "optionReasons": {
-        "force-mcq-11": "本句指「以力量使某物通過狹窄空間或阻力」。",
-        "force-mcq-10": "「靠力量、壓力或堅持強行穿過／進入」與本句語境不同。",
-        "force-mcq-12": "「迫使某個回應、結果或決定發生」與本句語境不同。",
-        "force-mcq-09": "「不用正常方法而以力量強行／撬開某物」與本句語境不同。",
-        "force-mcq-13": "「迫使一件事情立即面對並作出決斷」與本句語境不同。",
-        "force-mcq-08": "「使用物理力量或強制手段」與本句語境不同。"
+        "force-mcq-11": "本句的「forces water through」指「以力量使某物通過狹窄空間或阻力」。",
+        "force-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-11"
     },
@@ -1814,11 +1714,9 @@ export default {
       "masked": "He ____ the opening.",
       "options": [
         "force-mcq-11",
-        "force-mcq-10",
-        "force-mcq-12",
-        "force-mcq-09",
-        "force-mcq-13",
-        "force-mcq-08"
+        "force-mcq-38",
+        "force-mcq-30",
+        "force-mcq-49"
       ],
       "explanation": "本句的「forced the cable through」指「以力量使某物通過狹窄空間或阻力」。",
       "sentenceIndex": 25,
@@ -1827,12 +1725,10 @@ export default {
         "forced the cable through"
       ],
       "optionReasons": {
-        "force-mcq-11": "本句指「以力量使某物通過狹窄空間或阻力」。",
-        "force-mcq-10": "「靠力量、壓力或堅持強行穿過／進入」與本句語境不同。",
-        "force-mcq-12": "「迫使某個回應、結果或決定發生」與本句語境不同。",
-        "force-mcq-09": "「不用正常方法而以力量強行／撬開某物」與本句語境不同。",
-        "force-mcq-13": "「迫使一件事情立即面對並作出決斷」與本句語境不同。",
-        "force-mcq-08": "「使用物理力量或強制手段」與本句語境不同。"
+        "force-mcq-11": "本句的「forced the cable through」指「以力量使某物通過狹窄空間或阻力」。",
+        "force-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-11"
     },
@@ -1844,11 +1740,9 @@ export default {
       "masked": "The protest ____.",
       "options": [
         "force-mcq-12",
-        "force-mcq-11",
-        "force-mcq-13",
-        "force-mcq-10",
-        "force-mcq-14",
-        "force-mcq-09"
+        "force-mcq-43",
+        "force-mcq-20",
+        "force-mcq-24"
       ],
       "explanation": "本句的「forced a response」指「迫使某個回應、結果或決定發生」。",
       "sentenceIndex": 26,
@@ -1857,12 +1751,10 @@ export default {
         "forced a response"
       ],
       "optionReasons": {
-        "force-mcq-12": "本句指「迫使某個回應、結果或決定發生」。",
-        "force-mcq-11": "「以力量使某物通過狹窄空間或阻力」與本句語境不同。",
-        "force-mcq-13": "「迫使一件事情立即面對並作出決斷」與本句語境不同。",
-        "force-mcq-10": "「靠力量、壓力或堅持強行穿過／進入」與本句語境不同。",
-        "force-mcq-14": "「某事物的力度、強度或威力」與本句語境不同。",
-        "force-mcq-09": "「不用正常方法而以力量強行／撬開某物」與本句語境不同。"
+        "force-mcq-12": "本句的「forced a response」指「迫使某個回應、結果或決定發生」。",
+        "force-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-12"
     },
@@ -1874,11 +1766,9 @@ export default {
       "masked": "The new evidence ____.",
       "options": [
         "force-mcq-12",
-        "force-mcq-11",
-        "force-mcq-13",
-        "force-mcq-10",
-        "force-mcq-14",
-        "force-mcq-09"
+        "force-mcq-41",
+        "force-mcq-23",
+        "force-mcq-49"
       ],
       "explanation": "本句的「forced a rethink」指「迫使某個回應、結果或決定發生」。",
       "sentenceIndex": 27,
@@ -1887,12 +1777,10 @@ export default {
         "forced a rethink"
       ],
       "optionReasons": {
-        "force-mcq-12": "本句指「迫使某個回應、結果或決定發生」。",
-        "force-mcq-11": "「以力量使某物通過狹窄空間或阻力」與本句語境不同。",
-        "force-mcq-13": "「迫使一件事情立即面對並作出決斷」與本句語境不同。",
-        "force-mcq-10": "「靠力量、壓力或堅持強行穿過／進入」與本句語境不同。",
-        "force-mcq-14": "「某事物的力度、強度或威力」與本句語境不同。",
-        "force-mcq-09": "「不用正常方法而以力量強行／撬開某物」與本句語境不同。"
+        "force-mcq-12": "本句的「forced a rethink」指「迫使某個回應、結果或決定發生」。",
+        "force-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-12"
     },
@@ -1904,11 +1792,9 @@ export default {
       "masked": "She decided not to ____.",
       "options": [
         "force-mcq-13",
-        "force-mcq-12",
-        "force-mcq-14",
-        "force-mcq-11",
-        "force-mcq-15",
-        "force-mcq-10"
+        "force-mcq-41",
+        "force-mcq-21",
+        "force-mcq-30"
       ],
       "explanation": "本句的「force the issue」指「迫使一件事情立即面對並作出決斷」。",
       "sentenceIndex": 28,
@@ -1917,12 +1803,10 @@ export default {
         "force the issue"
       ],
       "optionReasons": {
-        "force-mcq-13": "本句指「迫使一件事情立即面對並作出決斷」。",
-        "force-mcq-12": "「迫使某個回應、結果或決定發生」與本句語境不同。",
-        "force-mcq-14": "「某事物的力度、強度或威力」與本句語境不同。",
-        "force-mcq-11": "「以力量使某物通過狹窄空間或阻力」與本句語境不同。",
-        "force-mcq-15": "「最大程度的力量／威力」與本句語境不同。",
-        "force-mcq-10": "「靠力量、壓力或堅持強行穿過／進入」與本句語境不同。"
+        "force-mcq-13": "本句的「force the issue」指「迫使一件事情立即面對並作出決斷」。",
+        "force-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-13"
     },
@@ -1934,11 +1818,9 @@ export default {
       "masked": "His ultimatum ____.",
       "options": [
         "force-mcq-13",
-        "force-mcq-12",
-        "force-mcq-14",
-        "force-mcq-11",
-        "force-mcq-15",
-        "force-mcq-10"
+        "force-mcq-10",
+        "force-mcq-46",
+        "force-mcq-18"
       ],
       "explanation": "本句的「forced the issue」指「迫使一件事情立即面對並作出決斷」。",
       "sentenceIndex": 29,
@@ -1947,12 +1829,10 @@ export default {
         "forced the issue"
       ],
       "optionReasons": {
-        "force-mcq-13": "本句指「迫使一件事情立即面對並作出決斷」。",
-        "force-mcq-12": "「迫使某個回應、結果或決定發生」與本句語境不同。",
-        "force-mcq-14": "「某事物的力度、強度或威力」與本句語境不同。",
-        "force-mcq-11": "「以力量使某物通過狹窄空間或阻力」與本句語境不同。",
-        "force-mcq-15": "「最大程度的力量／威力」與本句語境不同。",
-        "force-mcq-10": "「靠力量、壓力或堅持強行穿過／進入」與本句語境不同。"
+        "force-mcq-13": "本句的「forced the issue」指「迫使一件事情立即面對並作出決斷」。",
+        "force-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-13"
     },
@@ -1964,11 +1844,9 @@ export default {
       "masked": "We felt the full ____.",
       "options": [
         "force-mcq-14",
-        "force-mcq-13",
-        "force-mcq-15",
-        "force-mcq-12",
-        "force-mcq-16",
-        "force-mcq-11"
+        "force-mcq-23",
+        "force-mcq-49",
+        "force-mcq-02"
       ],
       "explanation": "本句的「force of the storm」指「某事物的力度、強度或威力」。",
       "sentenceIndex": 30,
@@ -1977,12 +1855,10 @@ export default {
         "force of the storm"
       ],
       "optionReasons": {
-        "force-mcq-14": "本句指「某事物的力度、強度或威力」。",
-        "force-mcq-13": "「迫使一件事情立即面對並作出決斷」與本句語境不同。",
-        "force-mcq-15": "「最大程度的力量／威力」與本句語境不同。",
-        "force-mcq-12": "「迫使某個回應、結果或決定發生」與本句語境不同。",
-        "force-mcq-16": "「對事情有重大影響的一股力量／勢力」與本句語境不同。",
-        "force-mcq-11": "「以力量使某物通過狹窄空間或阻力」與本句語境不同。"
+        "force-mcq-14": "本句的「force of the storm」指「某事物的力度、強度或威力」。",
+        "force-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-14"
     },
@@ -1994,11 +1870,9 @@ export default {
       "masked": "The argument struck me with great ____.",
       "options": [
         "force-mcq-14",
-        "force-mcq-13",
-        "force-mcq-15",
+        "force-mcq-21",
         "force-mcq-12",
-        "force-mcq-16",
-        "force-mcq-11"
+        "force-mcq-30"
       ],
       "explanation": "本句的「force」指「某事物的力度、強度或威力」。",
       "sentenceIndex": 31,
@@ -2007,12 +1881,10 @@ export default {
         "force"
       ],
       "optionReasons": {
-        "force-mcq-14": "本句指「某事物的力度、強度或威力」。",
-        "force-mcq-13": "「迫使一件事情立即面對並作出決斷」與本句語境不同。",
-        "force-mcq-15": "「最大程度的力量／威力」與本句語境不同。",
-        "force-mcq-12": "「迫使某個回應、結果或決定發生」與本句語境不同。",
-        "force-mcq-16": "「對事情有重大影響的一股力量／勢力」與本句語境不同。",
-        "force-mcq-11": "「以力量使某物通過狹窄空間或阻力」與本句語境不同。"
+        "force-mcq-14": "本句的「force」指「某事物的力度、強度或威力」。",
+        "force-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-14"
     },
@@ -2024,11 +1896,9 @@ export default {
       "masked": "The storm hit the coast with ____.",
       "options": [
         "force-mcq-15",
-        "force-mcq-14",
-        "force-mcq-16",
-        "force-mcq-13",
-        "force-mcq-17",
-        "force-mcq-12"
+        "force-mcq-21",
+        "force-mcq-23",
+        "force-mcq-39"
       ],
       "explanation": "本句的「full force」指「最大程度的力量／威力」。",
       "sentenceIndex": 32,
@@ -2037,12 +1907,10 @@ export default {
         "full force"
       ],
       "optionReasons": {
-        "force-mcq-15": "本句指「最大程度的力量／威力」。",
-        "force-mcq-14": "「某事物的力度、強度或威力」與本句語境不同。",
-        "force-mcq-16": "「對事情有重大影響的一股力量／勢力」與本句語境不同。",
-        "force-mcq-13": "「迫使一件事情立即面對並作出決斷」與本句語境不同。",
-        "force-mcq-17": "「推動正面結果／改變的一股力量」與本句語境不同。",
-        "force-mcq-12": "「迫使某個回應、結果或決定發生」與本句語境不同。"
+        "force-mcq-15": "本句的「full force」指「最大程度的力量／威力」。",
+        "force-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-15"
     },
@@ -2054,11 +1922,9 @@ export default {
       "masked": "The criticism came back with ____.",
       "options": [
         "force-mcq-15",
-        "force-mcq-14",
-        "force-mcq-16",
-        "force-mcq-13",
-        "force-mcq-17",
-        "force-mcq-12"
+        "force-mcq-02",
+        "force-mcq-26",
+        "force-mcq-20"
       ],
       "explanation": "本句的「full force」指「最大程度的力量／威力」。",
       "sentenceIndex": 33,
@@ -2067,12 +1933,10 @@ export default {
         "full force"
       ],
       "optionReasons": {
-        "force-mcq-15": "本句指「最大程度的力量／威力」。",
-        "force-mcq-14": "「某事物的力度、強度或威力」與本句語境不同。",
-        "force-mcq-16": "「對事情有重大影響的一股力量／勢力」與本句語境不同。",
-        "force-mcq-13": "「迫使一件事情立即面對並作出決斷」與本句語境不同。",
-        "force-mcq-17": "「推動正面結果／改變的一股力量」與本句語境不同。",
-        "force-mcq-12": "「迫使某個回應、結果或決定發生」與本句語境不同。"
+        "force-mcq-15": "本句的「full force」指「最大程度的力量／威力」。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-15"
     },
@@ -2084,11 +1948,9 @@ export default {
       "masked": "Technology is a major ____ in modern life.",
       "options": [
         "force-mcq-16",
-        "force-mcq-15",
-        "force-mcq-17",
-        "force-mcq-14",
-        "force-mcq-18",
-        "force-mcq-13"
+        "force-mcq-49",
+        "force-mcq-19",
+        "force-mcq-33"
       ],
       "explanation": "本句的「force」指「對事情有重大影響的一股力量／勢力」。",
       "sentenceIndex": 34,
@@ -2097,12 +1959,10 @@ export default {
         "force"
       ],
       "optionReasons": {
-        "force-mcq-16": "本句指「對事情有重大影響的一股力量／勢力」。",
-        "force-mcq-15": "「最大程度的力量／威力」與本句語境不同。",
-        "force-mcq-17": "「推動正面結果／改變的一股力量」與本句語境不同。",
-        "force-mcq-14": "「某事物的力度、強度或威力」與本句語境不同。",
-        "force-mcq-18": "「促成某事發展的主要推動力／核心人物」與本句語境不同。",
-        "force-mcq-13": "「迫使一件事情立即面對並作出決斷」與本句語境不同。"
+        "force-mcq-16": "本句的「force」指「對事情有重大影響的一股力量／勢力」。",
+        "force-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-16"
     },
@@ -2114,11 +1974,9 @@ export default {
       "masked": "She became a powerful ____.",
       "options": [
         "force-mcq-16",
-        "force-mcq-15",
-        "force-mcq-17",
-        "force-mcq-14",
-        "force-mcq-18",
-        "force-mcq-13"
+        "force-mcq-46",
+        "force-mcq-03",
+        "force-mcq-24"
       ],
       "explanation": "本句的「force for change」指「對事情有重大影響的一股力量／勢力」。",
       "sentenceIndex": 35,
@@ -2127,12 +1985,10 @@ export default {
         "force for change"
       ],
       "optionReasons": {
-        "force-mcq-16": "本句指「對事情有重大影響的一股力量／勢力」。",
-        "force-mcq-15": "「最大程度的力量／威力」與本句語境不同。",
-        "force-mcq-17": "「推動正面結果／改變的一股力量」與本句語境不同。",
-        "force-mcq-14": "「某事物的力度、強度或威力」與本句語境不同。",
-        "force-mcq-18": "「促成某事發展的主要推動力／核心人物」與本句語境不同。",
-        "force-mcq-13": "「迫使一件事情立即面對並作出決斷」與本句語境不同。"
+        "force-mcq-16": "本句的「force for change」指「對事情有重大影響的一股力量／勢力」。",
+        "force-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-16"
     },
@@ -2144,11 +2000,9 @@ export default {
       "masked": "Education can be a ____.",
       "options": [
         "force-mcq-17",
-        "force-mcq-16",
-        "force-mcq-18",
-        "force-mcq-15",
-        "force-mcq-19",
-        "force-mcq-14"
+        "force-mcq-13",
+        "force-mcq-33",
+        "force-mcq-26"
       ],
       "explanation": "本句的「force for good」指「推動正面結果／改變的一股力量」。",
       "sentenceIndex": 36,
@@ -2157,12 +2011,10 @@ export default {
         "force for good"
       ],
       "optionReasons": {
-        "force-mcq-17": "本句指「推動正面結果／改變的一股力量」。",
-        "force-mcq-16": "「對事情有重大影響的一股力量／勢力」與本句語境不同。",
-        "force-mcq-18": "「促成某事發展的主要推動力／核心人物」與本句語境不同。",
-        "force-mcq-15": "「最大程度的力量／威力」與本句語境不同。",
-        "force-mcq-19": "「有組織的軍事部隊」與本句語境不同。",
-        "force-mcq-14": "「某事物的力度、強度或威力」與本句語境不同。"
+        "force-mcq-17": "本句的「force for good」指「推動正面結果／改變的一股力量」。",
+        "force-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-17"
     },
@@ -2174,11 +2026,9 @@ export default {
       "masked": "Young people can be a ____.",
       "options": [
         "force-mcq-17",
-        "force-mcq-16",
-        "force-mcq-18",
-        "force-mcq-15",
+        "force-mcq-49",
         "force-mcq-19",
-        "force-mcq-14"
+        "force-mcq-38"
       ],
       "explanation": "本句的「force for change」指「推動正面結果／改變的一股力量」。",
       "sentenceIndex": 37,
@@ -2187,12 +2037,10 @@ export default {
         "force for change"
       ],
       "optionReasons": {
-        "force-mcq-17": "本句指「推動正面結果／改變的一股力量」。",
-        "force-mcq-16": "「對事情有重大影響的一股力量／勢力」與本句語境不同。",
-        "force-mcq-18": "「促成某事發展的主要推動力／核心人物」與本句語境不同。",
-        "force-mcq-15": "「最大程度的力量／威力」與本句語境不同。",
-        "force-mcq-19": "「有組織的軍事部隊」與本句語境不同。",
-        "force-mcq-14": "「某事物的力度、強度或威力」與本句語境不同。"
+        "force-mcq-17": "本句的「force for change」指「推動正面結果／改變的一股力量」。",
+        "force-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-17"
     },
@@ -2204,11 +2052,9 @@ export default {
       "masked": "Curiosity was the ____ behind the research.",
       "options": [
         "force-mcq-18",
-        "force-mcq-17",
-        "force-mcq-19",
-        "force-mcq-16",
-        "force-mcq-20",
-        "force-mcq-15"
+        "force-mcq-04",
+        "force-mcq-30",
+        "force-mcq-38"
       ],
       "explanation": "本句的「driving force」指「促成某事發展的主要推動力／核心人物」。",
       "sentenceIndex": 38,
@@ -2217,12 +2063,10 @@ export default {
         "driving force"
       ],
       "optionReasons": {
-        "force-mcq-18": "本句指「促成某事發展的主要推動力／核心人物」。",
-        "force-mcq-17": "「推動正面結果／改變的一股力量」與本句語境不同。",
-        "force-mcq-19": "「有組織的軍事部隊」與本句語境不同。",
-        "force-mcq-16": "「對事情有重大影響的一股力量／勢力」與本句語境不同。",
-        "force-mcq-20": "「一個國家的武裝部隊／軍隊」與本句語境不同。",
-        "force-mcq-15": "「最大程度的力量／威力」與本句語境不同。"
+        "force-mcq-18": "本句的「driving force」指「促成某事發展的主要推動力／核心人物」。",
+        "force-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-18"
     },
@@ -2234,11 +2078,9 @@ export default {
       "masked": "She was the ____ behind the project.",
       "options": [
         "force-mcq-18",
-        "force-mcq-17",
-        "force-mcq-19",
-        "force-mcq-16",
-        "force-mcq-20",
-        "force-mcq-15"
+        "force-mcq-37",
+        "force-mcq-30",
+        "force-mcq-33"
       ],
       "explanation": "本句的「driving force」指「促成某事發展的主要推動力／核心人物」。",
       "sentenceIndex": 39,
@@ -2247,12 +2089,10 @@ export default {
         "driving force"
       ],
       "optionReasons": {
-        "force-mcq-18": "本句指「促成某事發展的主要推動力／核心人物」。",
-        "force-mcq-17": "「推動正面結果／改變的一股力量」與本句語境不同。",
-        "force-mcq-19": "「有組織的軍事部隊」與本句語境不同。",
-        "force-mcq-16": "「對事情有重大影響的一股力量／勢力」與本句語境不同。",
-        "force-mcq-20": "「一個國家的武裝部隊／軍隊」與本句語境不同。",
-        "force-mcq-15": "「最大程度的力量／威力」與本句語境不同。"
+        "force-mcq-18": "本句的「driving force」指「促成某事發展的主要推動力／核心人物」。",
+        "force-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-18"
     },
@@ -2264,11 +2104,9 @@ export default {
       "masked": "Additional ____ were sent to the area.",
       "options": [
         "force-mcq-19",
-        "force-mcq-18",
-        "force-mcq-20",
-        "force-mcq-17",
-        "force-mcq-21",
-        "force-mcq-16"
+        "force-mcq-44",
+        "force-mcq-30",
+        "force-mcq-04"
       ],
       "explanation": "本句的「forces」指「有組織的軍事部隊」。",
       "sentenceIndex": 40,
@@ -2277,12 +2115,10 @@ export default {
         "forces"
       ],
       "optionReasons": {
-        "force-mcq-19": "本句指「有組織的軍事部隊」。",
-        "force-mcq-18": "「促成某事發展的主要推動力／核心人物」與本句語境不同。",
-        "force-mcq-20": "「一個國家的武裝部隊／軍隊」與本句語境不同。",
-        "force-mcq-17": "「推動正面結果／改變的一股力量」與本句語境不同。",
-        "force-mcq-21": "「負責空中軍事任務的空軍」與本句語境不同。",
-        "force-mcq-16": "「對事情有重大影響的一股力量／勢力」與本句語境不同。"
+        "force-mcq-19": "本句的「forces」指「有組織的軍事部隊」。",
+        "force-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-19"
     },
@@ -2294,11 +2130,9 @@ export default {
       "masked": "The country maintains armed ____.",
       "options": [
         "force-mcq-19",
-        "force-mcq-18",
-        "force-mcq-20",
-        "force-mcq-17",
-        "force-mcq-21",
-        "force-mcq-16"
+        "force-mcq-49",
+        "force-mcq-12",
+        "force-mcq-08"
       ],
       "explanation": "本句的「forces」指「有組織的軍事部隊」。",
       "sentenceIndex": 41,
@@ -2307,12 +2141,10 @@ export default {
         "forces"
       ],
       "optionReasons": {
-        "force-mcq-19": "本句指「有組織的軍事部隊」。",
-        "force-mcq-18": "「促成某事發展的主要推動力／核心人物」與本句語境不同。",
-        "force-mcq-20": "「一個國家的武裝部隊／軍隊」與本句語境不同。",
-        "force-mcq-17": "「推動正面結果／改變的一股力量」與本句語境不同。",
-        "force-mcq-21": "「負責空中軍事任務的空軍」與本句語境不同。",
-        "force-mcq-16": "「對事情有重大影響的一股力量／勢力」與本句語境不同。"
+        "force-mcq-19": "本句的「forces」指「有組織的軍事部隊」。",
+        "force-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-19"
     },
@@ -2324,11 +2156,9 @@ export default {
       "masked": "He served in the ____.",
       "options": [
         "force-mcq-20",
-        "force-mcq-19",
-        "force-mcq-21",
-        "force-mcq-18",
-        "force-mcq-22",
-        "force-mcq-17"
+        "force-mcq-03",
+        "force-mcq-45",
+        "force-mcq-30"
       ],
       "explanation": "本句的「armed forces」指「一個國家的武裝部隊／軍隊」。",
       "sentenceIndex": 42,
@@ -2337,12 +2167,10 @@ export default {
         "armed forces"
       ],
       "optionReasons": {
-        "force-mcq-20": "本句指「一個國家的武裝部隊／軍隊」。",
-        "force-mcq-19": "「有組織的軍事部隊」與本句語境不同。",
-        "force-mcq-21": "「負責空中軍事任務的空軍」與本句語境不同。",
-        "force-mcq-18": "「促成某事發展的主要推動力／核心人物」與本句語境不同。",
-        "force-mcq-22": "「為特定任務成立的專責小組／特遣隊」與本句語境不同。",
-        "force-mcq-17": "「推動正面結果／改變的一股力量」與本句語境不同。"
+        "force-mcq-20": "本句的「armed forces」指「一個國家的武裝部隊／軍隊」。",
+        "force-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-20"
     },
@@ -2354,11 +2182,9 @@ export default {
       "masked": "Members of the ____ received training.",
       "options": [
         "force-mcq-20",
-        "force-mcq-19",
-        "force-mcq-21",
-        "force-mcq-18",
-        "force-mcq-22",
-        "force-mcq-17"
+        "force-mcq-40",
+        "force-mcq-46",
+        "force-mcq-24"
       ],
       "explanation": "本句的「armed forces」指「一個國家的武裝部隊／軍隊」。",
       "sentenceIndex": 43,
@@ -2367,12 +2193,10 @@ export default {
         "armed forces"
       ],
       "optionReasons": {
-        "force-mcq-20": "本句指「一個國家的武裝部隊／軍隊」。",
-        "force-mcq-19": "「有組織的軍事部隊」與本句語境不同。",
-        "force-mcq-21": "「負責空中軍事任務的空軍」與本句語境不同。",
-        "force-mcq-18": "「促成某事發展的主要推動力／核心人物」與本句語境不同。",
-        "force-mcq-22": "「為特定任務成立的專責小組／特遣隊」與本句語境不同。",
-        "force-mcq-17": "「推動正面結果／改變的一股力量」與本句語境不同。"
+        "force-mcq-20": "本句的「armed forces」指「一個國家的武裝部隊／軍隊」。",
+        "force-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-20"
     },
@@ -2384,11 +2208,9 @@ export default {
       "masked": "She joined the ____.",
       "options": [
         "force-mcq-21",
-        "force-mcq-20",
-        "force-mcq-22",
-        "force-mcq-19",
-        "force-mcq-23",
-        "force-mcq-18"
+        "force-mcq-13",
+        "force-mcq-48",
+        "force-mcq-32"
       ],
       "explanation": "本句的「air force」指「負責空中軍事任務的空軍」。",
       "sentenceIndex": 44,
@@ -2397,12 +2219,10 @@ export default {
         "air force"
       ],
       "optionReasons": {
-        "force-mcq-21": "本句指「負責空中軍事任務的空軍」。",
-        "force-mcq-20": "「一個國家的武裝部隊／軍隊」與本句語境不同。",
-        "force-mcq-22": "「為特定任務成立的專責小組／特遣隊」與本句語境不同。",
-        "force-mcq-19": "「有組織的軍事部隊」與本句語境不同。",
-        "force-mcq-23": "「某地區正式組成的警隊／警察部門」與本句語境不同。",
-        "force-mcq-18": "「促成某事發展的主要推動力／核心人物」與本句語境不同。"
+        "force-mcq-21": "本句的「air force」指「負責空中軍事任務的空軍」。",
+        "force-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-21"
     },
@@ -2414,11 +2234,9 @@ export default {
       "masked": "The ____ operates military aircraft.",
       "options": [
         "force-mcq-21",
-        "force-mcq-20",
-        "force-mcq-22",
-        "force-mcq-19",
-        "force-mcq-23",
-        "force-mcq-18"
+        "force-mcq-14",
+        "force-mcq-32",
+        "force-mcq-23"
       ],
       "explanation": "本句的「air force」指「負責空中軍事任務的空軍」。",
       "sentenceIndex": 45,
@@ -2427,12 +2245,10 @@ export default {
         "air force"
       ],
       "optionReasons": {
-        "force-mcq-21": "本句指「負責空中軍事任務的空軍」。",
-        "force-mcq-20": "「一個國家的武裝部隊／軍隊」與本句語境不同。",
-        "force-mcq-22": "「為特定任務成立的專責小組／特遣隊」與本句語境不同。",
-        "force-mcq-19": "「有組織的軍事部隊」與本句語境不同。",
-        "force-mcq-23": "「某地區正式組成的警隊／警察部門」與本句語境不同。",
-        "force-mcq-18": "「促成某事發展的主要推動力／核心人物」與本句語境不同。"
+        "force-mcq-21": "本句的「air force」指「負責空中軍事任務的空軍」。",
+        "force-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-21"
     },
@@ -2444,11 +2260,9 @@ export default {
       "masked": "The company created a ____ to investigate the issue.",
       "options": [
         "force-mcq-22",
-        "force-mcq-21",
-        "force-mcq-23",
-        "force-mcq-20",
-        "force-mcq-24",
-        "force-mcq-19"
+        "force-mcq-27",
+        "force-mcq-06",
+        "force-mcq-04"
       ],
       "explanation": "本句的「task force」指「為特定任務成立的專責小組／特遣隊」。",
       "sentenceIndex": 46,
@@ -2457,12 +2271,10 @@ export default {
         "task force"
       ],
       "optionReasons": {
-        "force-mcq-22": "本句指「為特定任務成立的專責小組／特遣隊」。",
-        "force-mcq-21": "「負責空中軍事任務的空軍」與本句語境不同。",
-        "force-mcq-23": "「某地區正式組成的警隊／警察部門」與本句語境不同。",
-        "force-mcq-20": "「一個國家的武裝部隊／軍隊」與本句語境不同。",
-        "force-mcq-24": "「某公司、行業等所有工作人員的總體」與本句語境不同。",
-        "force-mcq-19": "「有組織的軍事部隊」與本句語境不同。"
+        "force-mcq-22": "本句的「task force」指「為特定任務成立的專責小組／特遣隊」。",
+        "force-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-22"
     },
@@ -2474,11 +2286,9 @@ export default {
       "masked": "A special ____ was formed.",
       "options": [
         "force-mcq-22",
-        "force-mcq-21",
-        "force-mcq-23",
-        "force-mcq-20",
-        "force-mcq-24",
-        "force-mcq-19"
+        "force-mcq-39",
+        "force-mcq-08",
+        "force-mcq-37"
       ],
       "explanation": "本句的「task force」指「為特定任務成立的專責小組／特遣隊」。",
       "sentenceIndex": 47,
@@ -2487,12 +2297,10 @@ export default {
         "task force"
       ],
       "optionReasons": {
-        "force-mcq-22": "本句指「為特定任務成立的專責小組／特遣隊」。",
-        "force-mcq-21": "「負責空中軍事任務的空軍」與本句語境不同。",
-        "force-mcq-23": "「某地區正式組成的警隊／警察部門」與本句語境不同。",
-        "force-mcq-20": "「一個國家的武裝部隊／軍隊」與本句語境不同。",
-        "force-mcq-24": "「某公司、行業等所有工作人員的總體」與本句語境不同。",
-        "force-mcq-19": "「有組織的軍事部隊」與本句語境不同。"
+        "force-mcq-22": "本句的「task force」指「為特定任務成立的專責小組／特遣隊」。",
+        "force-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-22"
     },
@@ -2504,11 +2312,9 @@ export default {
       "masked": "He joined the local ____.",
       "options": [
         "force-mcq-23",
-        "force-mcq-22",
-        "force-mcq-24",
-        "force-mcq-21",
-        "force-mcq-25",
-        "force-mcq-20"
+        "force-mcq-08",
+        "force-mcq-37",
+        "force-mcq-32"
       ],
       "explanation": "本句的「police force」指「某地區正式組成的警隊／警察部門」。",
       "sentenceIndex": 48,
@@ -2517,12 +2323,10 @@ export default {
         "police force"
       ],
       "optionReasons": {
-        "force-mcq-23": "本句指「某地區正式組成的警隊／警察部門」。",
-        "force-mcq-22": "「為特定任務成立的專責小組／特遣隊」與本句語境不同。",
-        "force-mcq-24": "「某公司、行業等所有工作人員的總體」與本句語境不同。",
-        "force-mcq-21": "「負責空中軍事任務的空軍」與本句語境不同。",
-        "force-mcq-25": "「正在工作或可投入工作的勞動人口」與本句語境不同。",
-        "force-mcq-20": "「一個國家的武裝部隊／軍隊」與本句語境不同。"
+        "force-mcq-23": "本句的「police force」指「某地區正式組成的警隊／警察部門」。",
+        "force-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-23"
     },
@@ -2534,11 +2338,9 @@ export default {
       "masked": "The city has a large ____.",
       "options": [
         "force-mcq-23",
-        "force-mcq-22",
-        "force-mcq-24",
-        "force-mcq-21",
-        "force-mcq-25",
-        "force-mcq-20"
+        "force-mcq-46",
+        "force-mcq-16",
+        "force-mcq-48"
       ],
       "explanation": "本句的「police force」指「某地區正式組成的警隊／警察部門」。",
       "sentenceIndex": 49,
@@ -2547,12 +2349,10 @@ export default {
         "police force"
       ],
       "optionReasons": {
-        "force-mcq-23": "本句指「某地區正式組成的警隊／警察部門」。",
-        "force-mcq-22": "「為特定任務成立的專責小組／特遣隊」與本句語境不同。",
-        "force-mcq-24": "「某公司、行業等所有工作人員的總體」與本句語境不同。",
-        "force-mcq-21": "「負責空中軍事任務的空軍」與本句語境不同。",
-        "force-mcq-25": "「正在工作或可投入工作的勞動人口」與本句語境不同。",
-        "force-mcq-20": "「一個國家的武裝部隊／軍隊」與本句語境不同。"
+        "force-mcq-23": "本句的「police force」指「某地區正式組成的警隊／警察部門」。",
+        "force-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-23"
     },
@@ -2564,11 +2364,9 @@ export default {
       "masked": "The company expanded its ____.",
       "options": [
         "force-mcq-24",
-        "force-mcq-23",
-        "force-mcq-25",
-        "force-mcq-22",
-        "force-mcq-26",
-        "force-mcq-21"
+        "force-mcq-20",
+        "force-mcq-13",
+        "force-mcq-11"
       ],
       "explanation": "本句的「workforce」指「某公司、行業等所有工作人員的總體」。",
       "sentenceIndex": 50,
@@ -2577,12 +2375,10 @@ export default {
         "workforce"
       ],
       "optionReasons": {
-        "force-mcq-24": "本句指「某公司、行業等所有工作人員的總體」。",
-        "force-mcq-23": "「某地區正式組成的警隊／警察部門」與本句語境不同。",
-        "force-mcq-25": "「正在工作或可投入工作的勞動人口」與本句語境不同。",
-        "force-mcq-22": "「為特定任務成立的專責小組／特遣隊」與本句語境不同。",
-        "force-mcq-26": "「負責銷售產品／服務的銷售團隊」與本句語境不同。",
-        "force-mcq-21": "「負責空中軍事任務的空軍」與本句語境不同。"
+        "force-mcq-24": "本句的「workforce」指「某公司、行業等所有工作人員的總體」。",
+        "force-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-24"
     },
@@ -2594,11 +2390,9 @@ export default {
       "masked": "Much of the ____ works remotely.",
       "options": [
         "force-mcq-24",
-        "force-mcq-23",
-        "force-mcq-25",
-        "force-mcq-22",
-        "force-mcq-26",
-        "force-mcq-21"
+        "force-mcq-02",
+        "force-mcq-15",
+        "force-mcq-03"
       ],
       "explanation": "本句的「workforce」指「某公司、行業等所有工作人員的總體」。",
       "sentenceIndex": 51,
@@ -2607,12 +2401,10 @@ export default {
         "workforce"
       ],
       "optionReasons": {
-        "force-mcq-24": "本句指「某公司、行業等所有工作人員的總體」。",
-        "force-mcq-23": "「某地區正式組成的警隊／警察部門」與本句語境不同。",
-        "force-mcq-25": "「正在工作或可投入工作的勞動人口」與本句語境不同。",
-        "force-mcq-22": "「為特定任務成立的專責小組／特遣隊」與本句語境不同。",
-        "force-mcq-26": "「負責銷售產品／服務的銷售團隊」與本句語境不同。",
-        "force-mcq-21": "「負責空中軍事任務的空軍」與本句語境不同。"
+        "force-mcq-24": "本句的「workforce」指「某公司、行業等所有工作人員的總體」。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-24"
     },
@@ -2624,11 +2416,9 @@ export default {
       "masked": "More women entered the ____.",
       "options": [
         "force-mcq-25",
-        "force-mcq-24",
-        "force-mcq-26",
-        "force-mcq-23",
-        "force-mcq-27",
-        "force-mcq-22"
+        "force-mcq-14",
+        "force-mcq-36",
+        "force-mcq-48"
       ],
       "explanation": "本句的「labour force」指「正在工作或可投入工作的勞動人口」。",
       "sentenceIndex": 52,
@@ -2637,12 +2427,10 @@ export default {
         "labour force"
       ],
       "optionReasons": {
-        "force-mcq-25": "本句指「正在工作或可投入工作的勞動人口」。",
-        "force-mcq-24": "「某公司、行業等所有工作人員的總體」與本句語境不同。",
-        "force-mcq-26": "「負責銷售產品／服務的銷售團隊」與本句語境不同。",
-        "force-mcq-23": "「某地區正式組成的警隊／警察部門」與本句語境不同。",
-        "force-mcq-27": "「規則、協議等具有的法律效力／約束力」與本句語境不同。",
-        "force-mcq-22": "「為特定任務成立的專責小組／特遣隊」與本句語境不同。"
+        "force-mcq-25": "本句的「labour force」指「正在工作或可投入工作的勞動人口」。",
+        "force-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-25"
     },
@@ -2654,11 +2442,9 @@ export default {
       "masked": "The country has a highly skilled ____.",
       "options": [
         "force-mcq-25",
-        "force-mcq-24",
-        "force-mcq-26",
-        "force-mcq-23",
-        "force-mcq-27",
-        "force-mcq-22"
+        "force-mcq-20",
+        "force-mcq-44",
+        "force-mcq-03"
       ],
       "explanation": "本句的「labor force」指「正在工作或可投入工作的勞動人口」。",
       "sentenceIndex": 53,
@@ -2667,12 +2453,10 @@ export default {
         "labor force"
       ],
       "optionReasons": {
-        "force-mcq-25": "本句指「正在工作或可投入工作的勞動人口」。",
-        "force-mcq-24": "「某公司、行業等所有工作人員的總體」與本句語境不同。",
-        "force-mcq-26": "「負責銷售產品／服務的銷售團隊」與本句語境不同。",
-        "force-mcq-23": "「某地區正式組成的警隊／警察部門」與本句語境不同。",
-        "force-mcq-27": "「規則、協議等具有的法律效力／約束力」與本句語境不同。",
-        "force-mcq-22": "「為特定任務成立的專責小組／特遣隊」與本句語境不同。"
+        "force-mcq-25": "本句的「labor force」指「正在工作或可投入工作的勞動人口」。",
+        "force-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-25"
     },
@@ -2684,11 +2468,9 @@ export default {
       "masked": "The company expanded its ____.",
       "options": [
         "force-mcq-26",
-        "force-mcq-25",
-        "force-mcq-27",
-        "force-mcq-24",
-        "force-mcq-28",
-        "force-mcq-23"
+        "force-mcq-11",
+        "force-mcq-31",
+        "force-mcq-37"
       ],
       "explanation": "本句的「sales force」指「負責銷售產品／服務的銷售團隊」。",
       "sentenceIndex": 54,
@@ -2697,12 +2479,10 @@ export default {
         "sales force"
       ],
       "optionReasons": {
-        "force-mcq-26": "本句指「負責銷售產品／服務的銷售團隊」。",
-        "force-mcq-25": "「正在工作或可投入工作的勞動人口」與本句語境不同。",
-        "force-mcq-27": "「規則、協議等具有的法律效力／約束力」與本句語境不同。",
-        "force-mcq-24": "「某公司、行業等所有工作人員的總體」與本句語境不同。",
-        "force-mcq-28": "「法律、規定等目前仍有效／正在生效」與本句語境不同。",
-        "force-mcq-23": "「某地區正式組成的警隊／警察部門」與本句語境不同。"
+        "force-mcq-26": "本句的「sales force」指「負責銷售產品／服務的銷售團隊」。",
+        "force-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-26"
     },
@@ -2714,11 +2494,9 @@ export default {
       "masked": "The ____ received additional training.",
       "options": [
         "force-mcq-26",
-        "force-mcq-25",
-        "force-mcq-27",
-        "force-mcq-24",
-        "force-mcq-28",
-        "force-mcq-23"
+        "force-mcq-05",
+        "force-mcq-30",
+        "force-mcq-31"
       ],
       "explanation": "本句的「sales force」指「負責銷售產品／服務的銷售團隊」。",
       "sentenceIndex": 55,
@@ -2727,12 +2505,10 @@ export default {
         "sales force"
       ],
       "optionReasons": {
-        "force-mcq-26": "本句指「負責銷售產品／服務的銷售團隊」。",
-        "force-mcq-25": "「正在工作或可投入工作的勞動人口」與本句語境不同。",
-        "force-mcq-27": "「規則、協議等具有的法律效力／約束力」與本句語境不同。",
-        "force-mcq-24": "「某公司、行業等所有工作人員的總體」與本句語境不同。",
-        "force-mcq-28": "「法律、規定等目前仍有效／正在生效」與本句語境不同。",
-        "force-mcq-23": "「某地區正式組成的警隊／警察部門」與本句語境不同。"
+        "force-mcq-26": "本句的「sales force」指「負責銷售產品／服務的銷售團隊」。",
+        "force-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-26"
     },
@@ -2744,11 +2520,9 @@ export default {
       "masked": "The rule has the ____.",
       "options": [
         "force-mcq-27",
-        "force-mcq-26",
-        "force-mcq-28",
-        "force-mcq-25",
-        "force-mcq-29",
-        "force-mcq-24"
+        "force-mcq-02",
+        "force-mcq-49",
+        "force-mcq-03"
       ],
       "explanation": "本句的「force of law」指「規則、協議等具有的法律效力／約束力」。",
       "sentenceIndex": 56,
@@ -2757,12 +2531,10 @@ export default {
         "force of law"
       ],
       "optionReasons": {
-        "force-mcq-27": "本句指「規則、協議等具有的法律效力／約束力」。",
-        "force-mcq-26": "「負責銷售產品／服務的銷售團隊」與本句語境不同。",
-        "force-mcq-28": "「法律、規定等目前仍有效／正在生效」與本句語境不同。",
-        "force-mcq-25": "「正在工作或可投入工作的勞動人口」與本句語境不同。",
-        "force-mcq-29": "「大批、大量地出現」與本句語境不同。",
-        "force-mcq-24": "「某公司、行業等所有工作人員的總體」與本句語境不同。"
+        "force-mcq-27": "本句的「force of law」指「規則、協議等具有的法律效力／約束力」。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-27"
     },
@@ -2774,11 +2546,9 @@ export default {
       "masked": "The agreement remains ____.",
       "options": [
         "force-mcq-27",
-        "force-mcq-26",
-        "force-mcq-28",
-        "force-mcq-25",
-        "force-mcq-29",
-        "force-mcq-24"
+        "force-mcq-02",
+        "force-mcq-33",
+        "force-mcq-22"
       ],
       "explanation": "本句的「in force」指「規則、協議等具有的法律效力／約束力」。",
       "sentenceIndex": 57,
@@ -2787,12 +2557,10 @@ export default {
         "in force"
       ],
       "optionReasons": {
-        "force-mcq-27": "本句指「規則、協議等具有的法律效力／約束力」。",
-        "force-mcq-26": "「負責銷售產品／服務的銷售團隊」與本句語境不同。",
-        "force-mcq-28": "「法律、規定等目前仍有效／正在生效」與本句語境不同。",
-        "force-mcq-25": "「正在工作或可投入工作的勞動人口」與本句語境不同。",
-        "force-mcq-29": "「大批、大量地出現」與本句語境不同。",
-        "force-mcq-24": "「某公司、行業等所有工作人員的總體」與本句語境不同。"
+        "force-mcq-27": "本句的「in force」指「規則、協議等具有的法律效力／約束力」。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-27"
     },
@@ -2804,11 +2572,9 @@ export default {
       "masked": "The new rule ____ next month.",
       "options": [
         "force-mcq-30",
-        "force-mcq-29",
-        "force-mcq-31",
-        "force-mcq-28",
-        "force-mcq-32",
-        "force-mcq-27"
+        "force-mcq-47",
+        "force-mcq-39",
+        "force-mcq-32"
       ],
       "explanation": "本句的「comes into force」指「法律、規則、協議等正式開始生效」。",
       "sentenceIndex": 58,
@@ -2817,12 +2583,10 @@ export default {
         "comes into force"
       ],
       "optionReasons": {
-        "force-mcq-30": "本句指「法律、規則、協議等正式開始生效」。",
-        "force-mcq-29": "「大批、大量地出現」與本句語境不同。",
-        "force-mcq-31": "「以武力／強制方式，而非自願」與本句語境不同。",
-        "force-mcq-28": "「法律、規定等目前仍有效／正在生效」與本句語境不同。",
-        "force-mcq-32": "「超出當事人控制、妨礙履約的不可抗力」與本句語境不同。",
-        "force-mcq-27": "「規則、協議等具有的法律效力／約束力」與本句語境不同。"
+        "force-mcq-30": "本句的「comes into force」指「法律、規則、協議等正式開始生效」。",
+        "force-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-30"
     },
@@ -2834,11 +2598,9 @@ export default {
       "masked": "The agreement ____ immediately.",
       "options": [
         "force-mcq-30",
-        "force-mcq-29",
-        "force-mcq-31",
-        "force-mcq-28",
-        "force-mcq-32",
-        "force-mcq-27"
+        "force-mcq-06",
+        "force-mcq-16",
+        "force-mcq-13"
       ],
       "explanation": "本句的「came into force」指「法律、規則、協議等正式開始生效」。",
       "sentenceIndex": 59,
@@ -2847,12 +2609,10 @@ export default {
         "came into force"
       ],
       "optionReasons": {
-        "force-mcq-30": "本句指「法律、規則、協議等正式開始生效」。",
-        "force-mcq-29": "「大批、大量地出現」與本句語境不同。",
-        "force-mcq-31": "「以武力／強制方式，而非自願」與本句語境不同。",
-        "force-mcq-28": "「法律、規定等目前仍有效／正在生效」與本句語境不同。",
-        "force-mcq-32": "「超出當事人控制、妨礙履約的不可抗力」與本句語境不同。",
-        "force-mcq-27": "「規則、協議等具有的法律效力／約束力」與本句語境不同。"
+        "force-mcq-30": "本句的「came into force」指「法律、規則、協議等正式開始生效」。",
+        "force-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-30"
     },
@@ -2864,11 +2624,9 @@ export default {
       "masked": "They entered the building ____.",
       "options": [
         "force-mcq-31",
-        "force-mcq-30",
-        "force-mcq-32",
-        "force-mcq-29",
-        "force-mcq-33",
-        "force-mcq-28"
+        "force-mcq-19",
+        "force-mcq-12",
+        "force-mcq-46"
       ],
       "explanation": "本句的「by force」指「以武力／強制方式，而非自願」。",
       "sentenceIndex": 60,
@@ -2877,12 +2635,10 @@ export default {
         "by force"
       ],
       "optionReasons": {
-        "force-mcq-31": "本句指「以武力／強制方式，而非自願」。",
-        "force-mcq-30": "「法律、規則、協議等正式開始生效」與本句語境不同。",
-        "force-mcq-32": "「超出當事人控制、妨礙履約的不可抗力」與本句語境不同。",
-        "force-mcq-29": "「大批、大量地出現」與本句語境不同。",
-        "force-mcq-33": "「強行餵食」與本句語境不同。",
-        "force-mcq-28": "「法律、規定等目前仍有效／正在生效」與本句語境不同。"
+        "force-mcq-31": "本句的「by force」指「以武力／強制方式，而非自願」。",
+        "force-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-31"
     },
@@ -2894,11 +2650,9 @@ export default {
       "masked": "He was removed ____.",
       "options": [
         "force-mcq-31",
-        "force-mcq-30",
-        "force-mcq-32",
-        "force-mcq-29",
-        "force-mcq-33",
-        "force-mcq-28"
+        "force-mcq-46",
+        "force-mcq-13",
+        "force-mcq-23"
       ],
       "explanation": "本句的「by force」指「以武力／強制方式，而非自願」。",
       "sentenceIndex": 61,
@@ -2907,12 +2661,10 @@ export default {
         "by force"
       ],
       "optionReasons": {
-        "force-mcq-31": "本句指「以武力／強制方式，而非自願」。",
-        "force-mcq-30": "「法律、規則、協議等正式開始生效」與本句語境不同。",
-        "force-mcq-32": "「超出當事人控制、妨礙履約的不可抗力」與本句語境不同。",
-        "force-mcq-29": "「大批、大量地出現」與本句語境不同。",
-        "force-mcq-33": "「強行餵食」與本句語境不同。",
-        "force-mcq-28": "「法律、規定等目前仍有效／正在生效」與本句語境不同。"
+        "force-mcq-31": "本句的「by force」指「以武力／強制方式，而非自願」。",
+        "force-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-31"
     },
@@ -2924,11 +2676,9 @@ export default {
       "masked": "The contract contains a ____ clause.",
       "options": [
         "force-mcq-32",
-        "force-mcq-31",
-        "force-mcq-33",
-        "force-mcq-30",
-        "force-mcq-34",
-        "force-mcq-29"
+        "force-mcq-22",
+        "force-mcq-12",
+        "force-mcq-03"
       ],
       "explanation": "本句的「force majeure」指「超出當事人控制、妨礙履約的不可抗力」。",
       "sentenceIndex": 64,
@@ -2937,12 +2687,10 @@ export default {
         "force majeure"
       ],
       "optionReasons": {
-        "force-mcq-32": "本句指「超出當事人控制、妨礙履約的不可抗力」。",
-        "force-mcq-31": "「以武力／強制方式，而非自願」與本句語境不同。",
-        "force-mcq-33": "「強行餵食」與本句語境不同。",
-        "force-mcq-30": "「法律、規則、協議等正式開始生效」與本句語境不同。",
-        "force-mcq-34": "「把大量資訊／內容硬塞給某人」與本句語境不同。",
-        "force-mcq-29": "「大批、大量地出現」與本句語境不同。"
+        "force-mcq-32": "本句的「force majeure」指「超出當事人控制、妨礙履約的不可抗力」。",
+        "force-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-32"
     },
@@ -2954,11 +2702,9 @@ export default {
       "masked": "The event was cancelled because of ____.",
       "options": [
         "force-mcq-32",
-        "force-mcq-31",
-        "force-mcq-33",
-        "force-mcq-30",
-        "force-mcq-34",
-        "force-mcq-29"
+        "force-mcq-01",
+        "force-mcq-38",
+        "force-mcq-21"
       ],
       "explanation": "本句的「force majeure」指「超出當事人控制、妨礙履約的不可抗力」。",
       "sentenceIndex": 65,
@@ -2967,12 +2713,10 @@ export default {
         "force majeure"
       ],
       "optionReasons": {
-        "force-mcq-32": "本句指「超出當事人控制、妨礙履約的不可抗力」。",
-        "force-mcq-31": "「以武力／強制方式，而非自願」與本句語境不同。",
-        "force-mcq-33": "「強行餵食」與本句語境不同。",
-        "force-mcq-30": "「法律、規則、協議等正式開始生效」與本句語境不同。",
-        "force-mcq-34": "「把大量資訊／內容硬塞給某人」與本句語境不同。",
-        "force-mcq-29": "「大批、大量地出現」與本句語境不同。"
+        "force-mcq-32": "本句的「force majeure」指「超出當事人控制、妨礙履約的不可抗力」。",
+        "force-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-32"
     },
@@ -2984,11 +2728,9 @@ export default {
       "masked": "The animal was ____.",
       "options": [
         "force-mcq-33",
-        "force-mcq-32",
-        "force-mcq-34",
-        "force-mcq-31",
-        "force-mcq-35",
-        "force-mcq-30"
+        "force-mcq-37",
+        "force-mcq-46",
+        "force-mcq-27"
       ],
       "explanation": "本句的「force-fed」指「強行餵食」。",
       "sentenceIndex": 66,
@@ -2997,12 +2739,10 @@ export default {
         "force-fed"
       ],
       "optionReasons": {
-        "force-mcq-33": "本句指「強行餵食」。",
-        "force-mcq-32": "「超出當事人控制、妨礙履約的不可抗力」與本句語境不同。",
-        "force-mcq-34": "「把大量資訊／內容硬塞給某人」與本句語境不同。",
-        "force-mcq-31": "「以武力／強制方式，而非自願」與本句語境不同。",
-        "force-mcq-35": "「因不能安全繼續飛行而進行的迫降」與本句語境不同。",
-        "force-mcq-30": "「法律、規則、協議等正式開始生效」與本句語境不同。"
+        "force-mcq-33": "本句的「force-fed」指「強行餵食」。",
+        "force-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-33"
     },
@@ -3014,11 +2754,9 @@ export default {
       "masked": "The course ____.",
       "options": [
         "force-mcq-33",
-        "force-mcq-32",
-        "force-mcq-34",
-        "force-mcq-31",
-        "force-mcq-35",
-        "force-mcq-30"
+        "force-mcq-13",
+        "force-mcq-30",
+        "force-mcq-25"
       ],
       "explanation": "本句的「force-feeds students information」指「強行餵食」。",
       "sentenceIndex": 67,
@@ -3027,12 +2765,10 @@ export default {
         "force-feeds students information"
       ],
       "optionReasons": {
-        "force-mcq-33": "本句指「強行餵食」。",
-        "force-mcq-32": "「超出當事人控制、妨礙履約的不可抗力」與本句語境不同。",
-        "force-mcq-34": "「把大量資訊／內容硬塞給某人」與本句語境不同。",
-        "force-mcq-31": "「以武力／強制方式，而非自願」與本句語境不同。",
-        "force-mcq-35": "「因不能安全繼續飛行而進行的迫降」與本句語境不同。",
-        "force-mcq-30": "「法律、規則、協議等正式開始生效」與本句語境不同。"
+        "force-mcq-33": "本句的「force-feeds students information」指「強行餵食」。",
+        "force-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-33"
     },
@@ -3044,11 +2780,9 @@ export default {
       "masked": "The move was ____ by financial problems.",
       "options": [
         "force-mcq-36",
-        "force-mcq-35",
-        "force-mcq-37",
-        "force-mcq-34",
-        "force-mcq-38",
-        "force-mcq-33"
+        "force-mcq-22",
+        "force-mcq-04",
+        "force-mcq-30"
       ],
       "explanation": "本句的「forced」指「因壓力／情況而不得不做的；被迫的」。",
       "sentenceIndex": 70,
@@ -3057,12 +2791,10 @@ export default {
         "forced"
       ],
       "optionReasons": {
-        "force-mcq-36": "本句指「因壓力／情況而不得不做的；被迫的」。",
-        "force-mcq-35": "「因不能安全繼續飛行而進行的迫降」與本句語境不同。",
-        "force-mcq-37": "「刻意做出、看起來不自然／不真誠的」與本句語境不同。",
-        "force-mcq-34": "「把大量資訊／內容硬塞給某人」與本句語境不同。",
-        "force-mcq-38": "「以破門、撬鎖等方式強行進入」與本句語境不同。",
-        "force-mcq-33": "「強行餵食」與本句語境不同。"
+        "force-mcq-36": "本句的「forced」指「因壓力／情況而不得不做的；被迫的」。",
+        "force-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-36"
     },
@@ -3074,11 +2806,9 @@ export default {
       "masked": "It was a ____ rather than a free choice.",
       "options": [
         "force-mcq-36",
-        "force-mcq-35",
-        "force-mcq-37",
-        "force-mcq-34",
-        "force-mcq-38",
-        "force-mcq-33"
+        "force-mcq-46",
+        "force-mcq-33",
+        "force-mcq-26"
       ],
       "explanation": "本句的「forced decision」指「因壓力／情況而不得不做的；被迫的」。",
       "sentenceIndex": 71,
@@ -3087,12 +2817,10 @@ export default {
         "forced decision"
       ],
       "optionReasons": {
-        "force-mcq-36": "本句指「因壓力／情況而不得不做的；被迫的」。",
-        "force-mcq-35": "「因不能安全繼續飛行而進行的迫降」與本句語境不同。",
-        "force-mcq-37": "「刻意做出、看起來不自然／不真誠的」與本句語境不同。",
-        "force-mcq-34": "「把大量資訊／內容硬塞給某人」與本句語境不同。",
-        "force-mcq-38": "「以破門、撬鎖等方式強行進入」與本句語境不同。",
-        "force-mcq-33": "「強行餵食」與本句語境不同。"
+        "force-mcq-36": "本句的「forced decision」指「因壓力／情況而不得不做的；被迫的」。",
+        "force-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-36"
     },
@@ -3104,11 +2832,9 @@ export default {
       "masked": "He gave a ____.",
       "options": [
         "force-mcq-37",
-        "force-mcq-36",
         "force-mcq-38",
-        "force-mcq-35",
-        "force-mcq-39",
-        "force-mcq-34"
+        "force-mcq-18",
+        "force-mcq-08"
       ],
       "explanation": "本句的「forced smile」指「刻意做出、看起來不自然／不真誠的」。",
       "sentenceIndex": 72,
@@ -3117,12 +2843,10 @@ export default {
         "forced smile"
       ],
       "optionReasons": {
-        "force-mcq-37": "本句指「刻意做出、看起來不自然／不真誠的」。",
-        "force-mcq-36": "「因壓力／情況而不得不做的；被迫的」與本句語境不同。",
-        "force-mcq-38": "「以破門、撬鎖等方式強行進入」與本句語境不同。",
-        "force-mcq-35": "「因不能安全繼續飛行而進行的迫降」與本句語境不同。",
-        "force-mcq-39": "「違反本人意願而被迫進行的強迫勞動」與本句語境不同。",
-        "force-mcq-34": "「把大量資訊／內容硬塞給某人」與本句語境不同。"
+        "force-mcq-37": "本句的「forced smile」指「刻意做出、看起來不自然／不真誠的」。",
+        "force-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-37"
     },
@@ -3134,11 +2858,9 @@ export default {
       "masked": "Their conversation felt ____.",
       "options": [
         "force-mcq-37",
-        "force-mcq-36",
-        "force-mcq-38",
-        "force-mcq-35",
-        "force-mcq-39",
-        "force-mcq-34"
+        "force-mcq-21",
+        "force-mcq-16",
+        "force-mcq-12"
       ],
       "explanation": "本句的「forced」指「刻意做出、看起來不自然／不真誠的」。",
       "sentenceIndex": 73,
@@ -3147,12 +2869,10 @@ export default {
         "forced"
       ],
       "optionReasons": {
-        "force-mcq-37": "本句指「刻意做出、看起來不自然／不真誠的」。",
-        "force-mcq-36": "「因壓力／情況而不得不做的；被迫的」與本句語境不同。",
-        "force-mcq-38": "「以破門、撬鎖等方式強行進入」與本句語境不同。",
-        "force-mcq-35": "「因不能安全繼續飛行而進行的迫降」與本句語境不同。",
-        "force-mcq-39": "「違反本人意願而被迫進行的強迫勞動」與本句語境不同。",
-        "force-mcq-34": "「把大量資訊／內容硬塞給某人」與本句語境不同。"
+        "force-mcq-37": "本句的「forced」指「刻意做出、看起來不自然／不真誠的」。",
+        "force-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-37"
     },
@@ -3164,11 +2884,9 @@ export default {
       "masked": "Police found signs of ____.",
       "options": [
         "force-mcq-38",
-        "force-mcq-37",
-        "force-mcq-39",
-        "force-mcq-36",
-        "force-mcq-40",
-        "force-mcq-35"
+        "force-mcq-13",
+        "force-mcq-16",
+        "force-mcq-36"
       ],
       "explanation": "本句的「forced entry」指「以破門、撬鎖等方式強行進入」。",
       "sentenceIndex": 74,
@@ -3177,12 +2895,10 @@ export default {
         "forced entry"
       ],
       "optionReasons": {
-        "force-mcq-38": "本句指「以破門、撬鎖等方式強行進入」。",
-        "force-mcq-37": "「刻意做出、看起來不自然／不真誠的」與本句語境不同。",
-        "force-mcq-39": "「違反本人意願而被迫進行的強迫勞動」與本句語境不同。",
-        "force-mcq-36": "「因壓力／情況而不得不做的；被迫的」與本句語境不同。",
-        "force-mcq-40": "「表達有力量、自信而堅定的；強而有力的」與本句語境不同。",
-        "force-mcq-35": "「因不能安全繼續飛行而進行的迫降」與本句語境不同。"
+        "force-mcq-38": "本句的「forced entry」指「以破門、撬鎖等方式強行進入」。",
+        "force-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-38"
     },
@@ -3194,11 +2910,9 @@ export default {
       "masked": "There was no evidence of ____.",
       "options": [
         "force-mcq-38",
-        "force-mcq-37",
-        "force-mcq-39",
-        "force-mcq-36",
-        "force-mcq-40",
-        "force-mcq-35"
+        "force-mcq-02",
+        "force-mcq-48",
+        "force-mcq-21"
       ],
       "explanation": "本句的「forced entry」指「以破門、撬鎖等方式強行進入」。",
       "sentenceIndex": 75,
@@ -3207,12 +2921,10 @@ export default {
         "forced entry"
       ],
       "optionReasons": {
-        "force-mcq-38": "本句指「以破門、撬鎖等方式強行進入」。",
-        "force-mcq-37": "「刻意做出、看起來不自然／不真誠的」與本句語境不同。",
-        "force-mcq-39": "「違反本人意願而被迫進行的強迫勞動」與本句語境不同。",
-        "force-mcq-36": "「因壓力／情況而不得不做的；被迫的」與本句語境不同。",
-        "force-mcq-40": "「表達有力量、自信而堅定的；強而有力的」與本句語境不同。",
-        "force-mcq-35": "「因不能安全繼續飛行而進行的迫降」與本句語境不同。"
+        "force-mcq-38": "本句的「forced entry」指「以破門、撬鎖等方式強行進入」。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-38"
     },
@@ -3224,11 +2936,9 @@ export default {
       "masked": "The report addressed ____.",
       "options": [
         "force-mcq-39",
-        "force-mcq-38",
-        "force-mcq-40",
-        "force-mcq-37",
-        "force-mcq-41",
-        "force-mcq-36"
+        "force-mcq-20",
+        "force-mcq-30",
+        "force-mcq-26"
       ],
       "explanation": "本句的「forced labour」指「違反本人意願而被迫進行的強迫勞動」。",
       "sentenceIndex": 76,
@@ -3237,12 +2947,10 @@ export default {
         "forced labour"
       ],
       "optionReasons": {
-        "force-mcq-39": "本句指「違反本人意願而被迫進行的強迫勞動」。",
-        "force-mcq-38": "「以破門、撬鎖等方式強行進入」與本句語境不同。",
-        "force-mcq-40": "「表達有力量、自信而堅定的；強而有力的」與本句語境不同。",
-        "force-mcq-37": "「刻意做出、看起來不自然／不真誠的」與本句語境不同。",
-        "force-mcq-41": "「帶有強大物理力量／衝擊的」與本句語境不同。",
-        "force-mcq-36": "「因壓力／情況而不得不做的；被迫的」與本句語境不同。"
+        "force-mcq-39": "本句的「forced labour」指「違反本人意願而被迫進行的強迫勞動」。",
+        "force-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-39"
     },
@@ -3254,11 +2962,9 @@ export default {
       "masked": "Workers should never be subjected to ____.",
       "options": [
         "force-mcq-39",
-        "force-mcq-38",
-        "force-mcq-40",
-        "force-mcq-37",
-        "force-mcq-41",
-        "force-mcq-36"
+        "force-mcq-20",
+        "force-mcq-27",
+        "force-mcq-48"
       ],
       "explanation": "本句的「forced labor」指「違反本人意願而被迫進行的強迫勞動」。",
       "sentenceIndex": 77,
@@ -3267,12 +2973,10 @@ export default {
         "forced labor"
       ],
       "optionReasons": {
-        "force-mcq-39": "本句指「違反本人意願而被迫進行的強迫勞動」。",
-        "force-mcq-38": "「以破門、撬鎖等方式強行進入」與本句語境不同。",
-        "force-mcq-40": "「表達有力量、自信而堅定的；強而有力的」與本句語境不同。",
-        "force-mcq-37": "「刻意做出、看起來不自然／不真誠的」與本句語境不同。",
-        "force-mcq-41": "「帶有強大物理力量／衝擊的」與本句語境不同。",
-        "force-mcq-36": "「因壓力／情況而不得不做的；被迫的」與本句語境不同。"
+        "force-mcq-39": "本句的「forced labor」指「違反本人意願而被迫進行的強迫勞動」。",
+        "force-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-39"
     },
@@ -3284,11 +2988,9 @@ export default {
       "masked": "She gave a ____.",
       "options": [
         "force-mcq-40",
-        "force-mcq-39",
-        "force-mcq-41",
-        "force-mcq-38",
-        "force-mcq-42",
-        "force-mcq-37"
+        "force-mcq-02",
+        "force-mcq-13",
+        "force-mcq-20"
       ],
       "explanation": "本句的「forceful speech」指「表達有力量、自信而堅定的；強而有力的」。",
       "sentenceIndex": 78,
@@ -3297,12 +2999,10 @@ export default {
         "forceful speech"
       ],
       "optionReasons": {
-        "force-mcq-40": "本句指「表達有力量、自信而堅定的；強而有力的」。",
-        "force-mcq-39": "「違反本人意願而被迫進行的強迫勞動」與本句語境不同。",
-        "force-mcq-41": "「帶有強大物理力量／衝擊的」與本句語境不同。",
-        "force-mcq-38": "「以破門、撬鎖等方式強行進入」與本句語境不同。",
-        "force-mcq-42": "「有力地；強烈地；用力地」與本句語境不同。",
-        "force-mcq-37": "「刻意做出、看起來不自然／不真誠的」與本句語境不同。"
+        "force-mcq-40": "本句的「forceful speech」指「表達有力量、自信而堅定的；強而有力的」。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-40"
     },
@@ -3314,11 +3014,9 @@ export default {
       "masked": "He made a ____.",
       "options": [
         "force-mcq-40",
-        "force-mcq-39",
-        "force-mcq-41",
-        "force-mcq-38",
-        "force-mcq-42",
-        "force-mcq-37"
+        "force-mcq-24",
+        "force-mcq-20",
+        "force-mcq-02"
       ],
       "explanation": "本句的「forceful argument」指「表達有力量、自信而堅定的；強而有力的」。",
       "sentenceIndex": 79,
@@ -3327,12 +3025,10 @@ export default {
         "forceful argument"
       ],
       "optionReasons": {
-        "force-mcq-40": "本句指「表達有力量、自信而堅定的；強而有力的」。",
-        "force-mcq-39": "「違反本人意願而被迫進行的強迫勞動」與本句語境不同。",
-        "force-mcq-41": "「帶有強大物理力量／衝擊的」與本句語境不同。",
-        "force-mcq-38": "「以破門、撬鎖等方式強行進入」與本句語境不同。",
-        "force-mcq-42": "「有力地；強烈地；用力地」與本句語境不同。",
-        "force-mcq-37": "「刻意做出、看起來不自然／不真誠的」與本句語境不同。"
+        "force-mcq-40": "本句的「forceful argument」指「表達有力量、自信而堅定的；強而有力的」。",
+        "force-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-40"
     },
@@ -3344,11 +3040,9 @@ export default {
       "masked": "He made a ____.",
       "options": [
         "force-mcq-41",
-        "force-mcq-40",
-        "force-mcq-42",
-        "force-mcq-39",
-        "force-mcq-43",
-        "force-mcq-38"
+        "force-mcq-46",
+        "force-mcq-26",
+        "force-mcq-03"
       ],
       "explanation": "本句的「forceful push」指「帶有強大物理力量／衝擊的」。",
       "sentenceIndex": 80,
@@ -3357,12 +3051,10 @@ export default {
         "forceful push"
       ],
       "optionReasons": {
-        "force-mcq-41": "本句指「帶有強大物理力量／衝擊的」。",
-        "force-mcq-40": "「表達有力量、自信而堅定的；強而有力的」與本句語境不同。",
-        "force-mcq-42": "「有力地；強烈地；用力地」與本句語境不同。",
-        "force-mcq-39": "「違反本人意願而被迫進行的強迫勞動」與本句語境不同。",
-        "force-mcq-43": "「使用物理力量／強制手段進行的；強行的」與本句語境不同。",
-        "force-mcq-38": "「以破門、撬鎖等方式強行進入」與本句語境不同。"
+        "force-mcq-41": "本句的「forceful push」指「帶有強大物理力量／衝擊的」。",
+        "force-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-41"
     },
@@ -3374,11 +3066,9 @@ export default {
       "masked": "The door opened after a ____.",
       "options": [
         "force-mcq-41",
-        "force-mcq-40",
-        "force-mcq-42",
-        "force-mcq-39",
-        "force-mcq-43",
-        "force-mcq-38"
+        "force-mcq-46",
+        "force-mcq-45",
+        "force-mcq-37"
       ],
       "explanation": "本句的「forceful shove」指「帶有強大物理力量／衝擊的」。",
       "sentenceIndex": 81,
@@ -3387,12 +3077,10 @@ export default {
         "forceful shove"
       ],
       "optionReasons": {
-        "force-mcq-41": "本句指「帶有強大物理力量／衝擊的」。",
-        "force-mcq-40": "「表達有力量、自信而堅定的；強而有力的」與本句語境不同。",
-        "force-mcq-42": "「有力地；強烈地；用力地」與本句語境不同。",
-        "force-mcq-39": "「違反本人意願而被迫進行的強迫勞動」與本句語境不同。",
-        "force-mcq-43": "「使用物理力量／強制手段進行的；強行的」與本句語境不同。",
-        "force-mcq-38": "「以破門、撬鎖等方式強行進入」與本句語境不同。"
+        "force-mcq-41": "本句的「forceful shove」指「帶有強大物理力量／衝擊的」。",
+        "force-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-41"
     },
@@ -3404,11 +3092,9 @@ export default {
       "masked": "She argued ____ for change.",
       "options": [
         "force-mcq-42",
-        "force-mcq-41",
-        "force-mcq-43",
-        "force-mcq-40",
-        "force-mcq-44",
-        "force-mcq-39"
+        "force-mcq-21",
+        "force-mcq-49",
+        "force-mcq-23"
       ],
       "explanation": "本句的「forcefully」指「有力地；強烈地；用力地」。",
       "sentenceIndex": 82,
@@ -3417,12 +3103,10 @@ export default {
         "forcefully"
       ],
       "optionReasons": {
-        "force-mcq-42": "本句指「有力地；強烈地；用力地」。",
-        "force-mcq-41": "「帶有強大物理力量／衝擊的」與本句語境不同。",
-        "force-mcq-43": "「使用物理力量／強制手段進行的；強行的」與本句語境不同。",
-        "force-mcq-40": "「表達有力量、自信而堅定的；強而有力的」與本句語境不同。",
-        "force-mcq-44": "「以武力或強制方式；強行地」與本句語境不同。",
-        "force-mcq-39": "「違反本人意願而被迫進行的強迫勞動」與本句語境不同。"
+        "force-mcq-42": "本句的「forcefully」指「有力地；強烈地；用力地」。",
+        "force-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-42"
     },
@@ -3434,11 +3118,9 @@ export default {
       "masked": "He pushed the door ____.",
       "options": [
         "force-mcq-42",
-        "force-mcq-41",
-        "force-mcq-43",
-        "force-mcq-40",
-        "force-mcq-44",
-        "force-mcq-39"
+        "force-mcq-02",
+        "force-mcq-03",
+        "force-mcq-19"
       ],
       "explanation": "本句的「forcefully」指「有力地；強烈地；用力地」。",
       "sentenceIndex": 83,
@@ -3447,12 +3129,10 @@ export default {
         "forcefully"
       ],
       "optionReasons": {
-        "force-mcq-42": "本句指「有力地；強烈地；用力地」。",
-        "force-mcq-41": "「帶有強大物理力量／衝擊的」與本句語境不同。",
-        "force-mcq-43": "「使用物理力量／強制手段進行的；強行的」與本句語境不同。",
-        "force-mcq-40": "「表達有力量、自信而堅定的；強而有力的」與本句語境不同。",
-        "force-mcq-44": "「以武力或強制方式；強行地」與本句語境不同。",
-        "force-mcq-39": "「違反本人意願而被迫進行的強迫勞動」與本句語境不同。"
+        "force-mcq-42": "本句的「forcefully」指「有力地；強烈地；用力地」。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-42"
     },
@@ -3464,11 +3144,9 @@ export default {
       "masked": "Police made a ____.",
       "options": [
         "force-mcq-43",
-        "force-mcq-42",
-        "force-mcq-44",
-        "force-mcq-41",
-        "force-mcq-45",
-        "force-mcq-40"
+        "force-mcq-03",
+        "force-mcq-26",
+        "force-mcq-22"
       ],
       "explanation": "本句的「forcible entry」指「使用物理力量／強制手段進行的；強行的」。",
       "sentenceIndex": 84,
@@ -3477,12 +3155,10 @@ export default {
         "forcible entry"
       ],
       "optionReasons": {
-        "force-mcq-43": "本句指「使用物理力量／強制手段進行的；強行的」。",
-        "force-mcq-42": "「有力地；強烈地；用力地」與本句語境不同。",
-        "force-mcq-44": "「以武力或強制方式；強行地」與本句語境不同。",
-        "force-mcq-41": "「帶有強大物理力量／衝擊的」與本句語境不同。",
-        "force-mcq-45": "「迫使某人比原本打算更早採取行動／作決定」與本句語境不同。",
-        "force-mcq-40": "「表達有力量、自信而堅定的；強而有力的」與本句語境不同。"
+        "force-mcq-43": "本句的「forcible entry」指「使用物理力量／強制手段進行的；強行的」。",
+        "force-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-43"
     },
@@ -3494,11 +3170,9 @@ export default {
       "masked": "He resisted ____.",
       "options": [
         "force-mcq-43",
-        "force-mcq-42",
-        "force-mcq-44",
-        "force-mcq-41",
-        "force-mcq-45",
-        "force-mcq-40"
+        "force-mcq-23",
+        "force-mcq-02",
+        "force-mcq-37"
       ],
       "explanation": "本句的「forcible removal」指「使用物理力量／強制手段進行的；強行的」。",
       "sentenceIndex": 85,
@@ -3507,12 +3181,10 @@ export default {
         "forcible removal"
       ],
       "optionReasons": {
-        "force-mcq-43": "本句指「使用物理力量／強制手段進行的；強行的」。",
-        "force-mcq-42": "「有力地；強烈地；用力地」與本句語境不同。",
-        "force-mcq-44": "「以武力或強制方式；強行地」與本句語境不同。",
-        "force-mcq-41": "「帶有強大物理力量／衝擊的」與本句語境不同。",
-        "force-mcq-45": "「迫使某人比原本打算更早採取行動／作決定」與本句語境不同。",
-        "force-mcq-40": "「表達有力量、自信而堅定的；強而有力的」與本句語境不同。"
+        "force-mcq-43": "本句的「forcible removal」指「使用物理力量／強制手段進行的；強行的」。",
+        "force-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-43"
     },
@@ -3524,11 +3196,9 @@ export default {
       "masked": "The door was ____.",
       "options": [
         "force-mcq-44",
-        "force-mcq-43",
-        "force-mcq-45",
-        "force-mcq-42",
-        "force-mcq-46",
-        "force-mcq-41"
+        "force-mcq-12",
+        "force-mcq-03",
+        "force-mcq-25"
       ],
       "explanation": "本句的「forcibly opened」指「以武力或強制方式；強行地」。",
       "sentenceIndex": 86,
@@ -3537,12 +3207,10 @@ export default {
         "forcibly opened"
       ],
       "optionReasons": {
-        "force-mcq-44": "本句指「以武力或強制方式；強行地」。",
-        "force-mcq-43": "「使用物理力量／強制手段進行的；強行的」與本句語境不同。",
-        "force-mcq-45": "「迫使某人比原本打算更早採取行動／作決定」與本句語境不同。",
-        "force-mcq-42": "「有力地；強烈地；用力地」與本句語境不同。",
-        "force-mcq-46": "「使進展／速度變得更快；加快步伐」與本句語境不同。",
-        "force-mcq-41": "「帶有強大物理力量／衝擊的」與本句語境不同。"
+        "force-mcq-44": "本句的「forcibly opened」指「以武力或強制方式；強行地」。",
+        "force-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-44"
     },
@@ -3554,11 +3222,9 @@ export default {
       "masked": "He was ____ from the room.",
       "options": [
         "force-mcq-44",
-        "force-mcq-43",
-        "force-mcq-45",
-        "force-mcq-42",
-        "force-mcq-46",
-        "force-mcq-41"
+        "force-mcq-30",
+        "force-mcq-19",
+        "force-mcq-02"
       ],
       "explanation": "本句的「forcibly removed」指「以武力或強制方式；強行地」。",
       "sentenceIndex": 87,
@@ -3567,12 +3233,10 @@ export default {
         "forcibly removed"
       ],
       "optionReasons": {
-        "force-mcq-44": "本句指「以武力或強制方式；強行地」。",
-        "force-mcq-43": "「使用物理力量／強制手段進行的；強行的」與本句語境不同。",
-        "force-mcq-45": "「迫使某人比原本打算更早採取行動／作決定」與本句語境不同。",
-        "force-mcq-42": "「有力地；強烈地；用力地」與本句語境不同。",
-        "force-mcq-46": "「使進展／速度變得更快；加快步伐」與本句語境不同。",
-        "force-mcq-41": "「帶有強大物理力量／衝擊的」與本句語境不同。"
+        "force-mcq-44": "本句的「forcibly removed」指「以武力或強制方式；強行地」。",
+        "force-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-44"
     },
@@ -3584,11 +3248,9 @@ export default {
       "masked": "The leak ____.",
       "options": [
         "force-mcq-45",
-        "force-mcq-44",
-        "force-mcq-46",
-        "force-mcq-43",
-        "force-mcq-47",
-        "force-mcq-42"
+        "force-mcq-14",
+        "force-mcq-03",
+        "force-mcq-20"
       ],
       "explanation": "本句的「forced the company’s hand」指「迫使某人比原本打算更早採取行動／作決定」。",
       "sentenceIndex": 88,
@@ -3597,12 +3259,10 @@ export default {
         "forced the company’s hand"
       ],
       "optionReasons": {
-        "force-mcq-45": "本句指「迫使某人比原本打算更早採取行動／作決定」。",
-        "force-mcq-44": "「以武力或強制方式；強行地」與本句語境不同。",
-        "force-mcq-46": "「使進展／速度變得更快；加快步伐」與本句語境不同。",
-        "force-mcq-43": "「使用物理力量／強制手段進行的；強行的」與本句語境不同。",
-        "force-mcq-47": "「強大到不能忽視的人／組織／力量」與本句語境不同。",
-        "force-mcq-42": "「有力地；強烈地；用力地」與本句語境不同。"
+        "force-mcq-45": "本句的「forced the company’s hand」指「迫使某人比原本打算更早採取行動／作決定」。",
+        "force-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-45"
     },
@@ -3614,11 +3274,9 @@ export default {
       "masked": "They hoped not to ____.",
       "options": [
         "force-mcq-45",
-        "force-mcq-44",
-        "force-mcq-46",
-        "force-mcq-43",
-        "force-mcq-47",
-        "force-mcq-42"
+        "force-mcq-41",
+        "force-mcq-04",
+        "force-mcq-20"
       ],
       "explanation": "本句的「force his hand」指「迫使某人比原本打算更早採取行動／作決定」。",
       "sentenceIndex": 89,
@@ -3627,12 +3285,10 @@ export default {
         "force his hand"
       ],
       "optionReasons": {
-        "force-mcq-45": "本句指「迫使某人比原本打算更早採取行動／作決定」。",
-        "force-mcq-44": "「以武力或強制方式；強行地」與本句語境不同。",
-        "force-mcq-46": "「使進展／速度變得更快；加快步伐」與本句語境不同。",
-        "force-mcq-43": "「使用物理力量／強制手段進行的；強行的」與本句語境不同。",
-        "force-mcq-47": "「強大到不能忽視的人／組織／力量」與本句語境不同。",
-        "force-mcq-42": "「有力地；強烈地；用力地」與本句語境不同。"
+        "force-mcq-45": "本句的「force his hand」指「迫使某人比原本打算更早採取行動／作決定」。",
+        "force-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-45"
     },
@@ -3645,10 +3301,8 @@ export default {
       "options": [
         "force-mcq-46",
         "force-mcq-45",
-        "force-mcq-47",
-        "force-mcq-44",
-        "force-mcq-48",
-        "force-mcq-43"
+        "force-mcq-21",
+        "force-mcq-08"
       ],
       "explanation": "本句的「force the pace」指「使進展／速度變得更快；加快步伐」。",
       "sentenceIndex": 90,
@@ -3657,12 +3311,10 @@ export default {
         "force the pace"
       ],
       "optionReasons": {
-        "force-mcq-46": "本句指「使進展／速度變得更快；加快步伐」。",
-        "force-mcq-45": "「迫使某人比原本打算更早採取行動／作決定」與本句語境不同。",
-        "force-mcq-47": "「強大到不能忽視的人／組織／力量」與本句語境不同。",
-        "force-mcq-44": "「以武力或強制方式；強行地」與本句語境不同。",
-        "force-mcq-48": "「為共同目標聯手／合力合作」與本句語境不同。",
-        "force-mcq-43": "「使用物理力量／強制手段進行的；強行的」與本句語境不同。"
+        "force-mcq-46": "本句的「force the pace」指「使進展／速度變得更快；加快步伐」。",
+        "force-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-46"
     },
@@ -3674,11 +3326,9 @@ export default {
       "masked": "She ____ during the final stage.",
       "options": [
         "force-mcq-46",
-        "force-mcq-45",
-        "force-mcq-47",
-        "force-mcq-44",
-        "force-mcq-48",
-        "force-mcq-43"
+        "force-mcq-30",
+        "force-mcq-12",
+        "force-mcq-05"
       ],
       "explanation": "本句的「forced the pace」指「使進展／速度變得更快；加快步伐」。",
       "sentenceIndex": 91,
@@ -3687,12 +3337,10 @@ export default {
         "forced the pace"
       ],
       "optionReasons": {
-        "force-mcq-46": "本句指「使進展／速度變得更快；加快步伐」。",
-        "force-mcq-45": "「迫使某人比原本打算更早採取行動／作決定」與本句語境不同。",
-        "force-mcq-47": "「強大到不能忽視的人／組織／力量」與本句語境不同。",
-        "force-mcq-44": "「以武力或強制方式；強行地」與本句語境不同。",
-        "force-mcq-48": "「為共同目標聯手／合力合作」與本句語境不同。",
-        "force-mcq-43": "「使用物理力量／強制手段進行的；強行的」與本句語境不同。"
+        "force-mcq-46": "本句的「forced the pace」指「使進展／速度變得更快；加快步伐」。",
+        "force-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-46"
     },
@@ -3705,10 +3353,8 @@ export default {
       "options": [
         "force-mcq-47",
         "force-mcq-46",
-        "force-mcq-48",
-        "force-mcq-45",
-        "force-mcq-49",
-        "force-mcq-44"
+        "force-mcq-20",
+        "force-mcq-12"
       ],
       "explanation": "本句的「a force to be reckoned with」指「強大到不能忽視的人／組織／力量」。",
       "sentenceIndex": 92,
@@ -3717,12 +3363,10 @@ export default {
         "a force to be reckoned with"
       ],
       "optionReasons": {
-        "force-mcq-47": "本句指「強大到不能忽視的人／組織／力量」。",
-        "force-mcq-46": "「使進展／速度變得更快；加快步伐」與本句語境不同。",
-        "force-mcq-48": "「為共同目標聯手／合力合作」與本句語境不同。",
-        "force-mcq-45": "「迫使某人比原本打算更早採取行動／作決定」與本句語境不同。",
-        "force-mcq-49": "「因長久習慣而自然作出的行為；習慣使然」與本句語境不同。",
-        "force-mcq-44": "「以武力或強制方式；強行地」與本句語境不同。"
+        "force-mcq-47": "本句的「a force to be reckoned with」指「強大到不能忽視的人／組織／力量」。",
+        "force-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-47"
     },
@@ -3734,11 +3378,9 @@ export default {
       "masked": "She quickly became ____ in the industry.",
       "options": [
         "force-mcq-47",
-        "force-mcq-46",
-        "force-mcq-48",
-        "force-mcq-45",
-        "force-mcq-49",
-        "force-mcq-44"
+        "force-mcq-13",
+        "force-mcq-37",
+        "force-mcq-02"
       ],
       "explanation": "本句的「a force to be reckoned with」指「強大到不能忽視的人／組織／力量」。",
       "sentenceIndex": 93,
@@ -3747,12 +3389,10 @@ export default {
         "a force to be reckoned with"
       ],
       "optionReasons": {
-        "force-mcq-47": "本句指「強大到不能忽視的人／組織／力量」。",
-        "force-mcq-46": "「使進展／速度變得更快；加快步伐」與本句語境不同。",
-        "force-mcq-48": "「為共同目標聯手／合力合作」與本句語境不同。",
-        "force-mcq-45": "「迫使某人比原本打算更早採取行動／作決定」與本句語境不同。",
-        "force-mcq-49": "「因長久習慣而自然作出的行為；習慣使然」與本句語境不同。",
-        "force-mcq-44": "「以武力或強制方式；強行地」與本句語境不同。"
+        "force-mcq-47": "本句的「a force to be reckoned with」指「強大到不能忽視的人／組織／力量」。",
+        "force-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-47"
     },
@@ -3764,11 +3404,9 @@ export default {
       "masked": "The two organizations ____.",
       "options": [
         "force-mcq-48",
-        "force-mcq-47",
-        "force-mcq-49",
-        "force-mcq-46",
-        "force-mcq-45",
-        "force-mcq-44"
+        "force-mcq-19",
+        "force-mcq-30",
+        "force-mcq-49"
       ],
       "explanation": "本句的「joined forces」指「為共同目標聯手／合力合作」。",
       "sentenceIndex": 94,
@@ -3777,12 +3415,10 @@ export default {
         "joined forces"
       ],
       "optionReasons": {
-        "force-mcq-48": "本句指「為共同目標聯手／合力合作」。",
-        "force-mcq-47": "「強大到不能忽視的人／組織／力量」與本句語境不同。",
-        "force-mcq-49": "「因長久習慣而自然作出的行為；習慣使然」與本句語境不同。",
-        "force-mcq-46": "「使進展／速度變得更快；加快步伐」與本句語境不同。",
-        "force-mcq-45": "「迫使某人比原本打算更早採取行動／作決定」與本句語境不同。",
-        "force-mcq-44": "「以武力或強制方式；強行地」與本句語境不同。"
+        "force-mcq-48": "本句的「joined forces」指「為共同目標聯手／合力合作」。",
+        "force-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-48"
     },
@@ -3794,11 +3430,9 @@ export default {
       "masked": "They ____ the problem.",
       "options": [
         "force-mcq-48",
-        "force-mcq-47",
-        "force-mcq-49",
-        "force-mcq-46",
-        "force-mcq-45",
-        "force-mcq-44"
+        "force-mcq-02",
+        "force-mcq-19",
+        "force-mcq-33"
       ],
       "explanation": "本句的「joined forces to solve」指「為共同目標聯手／合力合作」。",
       "sentenceIndex": 95,
@@ -3807,12 +3441,10 @@ export default {
         "joined forces to solve"
       ],
       "optionReasons": {
-        "force-mcq-48": "本句指「為共同目標聯手／合力合作」。",
-        "force-mcq-47": "「強大到不能忽視的人／組織／力量」與本句語境不同。",
-        "force-mcq-49": "「因長久習慣而自然作出的行為；習慣使然」與本句語境不同。",
-        "force-mcq-46": "「使進展／速度變得更快；加快步伐」與本句語境不同。",
-        "force-mcq-45": "「迫使某人比原本打算更早採取行動／作決定」與本句語境不同。",
-        "force-mcq-44": "「以武力或強制方式；強行地」與本句語境不同。"
+        "force-mcq-48": "本句的「joined forces to solve」指「為共同目標聯手／合力合作」。",
+        "force-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-48"
     },
@@ -3824,11 +3456,9 @@ export default {
       "masked": "I still check my old desk ____.",
       "options": [
         "force-mcq-49",
-        "force-mcq-48",
         "force-mcq-47",
-        "force-mcq-46",
-        "force-mcq-45",
-        "force-mcq-44"
+        "force-mcq-12",
+        "force-mcq-21"
       ],
       "explanation": "本句的「out of force of habit」指「因長久習慣而自然作出的行為；習慣使然」。",
       "sentenceIndex": 96,
@@ -3837,12 +3467,10 @@ export default {
         "out of force of habit"
       ],
       "optionReasons": {
-        "force-mcq-49": "本句指「因長久習慣而自然作出的行為；習慣使然」。",
-        "force-mcq-48": "「為共同目標聯手／合力合作」與本句語境不同。",
-        "force-mcq-47": "「強大到不能忽視的人／組織／力量」與本句語境不同。",
-        "force-mcq-46": "「使進展／速度變得更快；加快步伐」與本句語境不同。",
-        "force-mcq-45": "「迫使某人比原本打算更早採取行動／作決定」與本句語境不同。",
-        "force-mcq-44": "「以武力或強制方式；強行地」與本句語境不同。"
+        "force-mcq-49": "本句的「out of force of habit」指「因長久習慣而自然作出的行為；習慣使然」。",
+        "force-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "force-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "force-mcq-49"
     }
@@ -3854,5 +3482,7 @@ export default {
     "sha256": "b3e01c0e18dbc27c583c04938369fa4c8ab3da8f702bd72210a3a6344ad3f546",
     "pages": 28
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

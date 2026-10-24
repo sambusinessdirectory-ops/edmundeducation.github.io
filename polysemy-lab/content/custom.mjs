@@ -306,11 +306,8 @@ export default {
       "masked": "They make ____.",
       "options": [
         "custom-mcq-01",
-        "custom-mcq-02",
-        "custom-mcq-03",
-        "custom-mcq-04",
         "custom-mcq-05",
-        "custom-mcq-06"
+        "custom-mcq-11"
       ],
       "explanation": "本句的「custom birthday cakes」指「按個別顧客的要求、尺寸、風格或用途特別製作的」。",
       "sentenceIndex": 0,
@@ -319,12 +316,9 @@ export default {
         "custom birthday cakes"
       ],
       "optionReasons": {
-        "custom-mcq-01": "本句指「按個別顧客的要求、尺寸、風格或用途特別製作的」。",
-        "custom-mcq-02": "「一個社會、地區或群體長期形成並普遍遵守的做法」與本句語境不同。",
-        "custom-mcq-03": "「長期重複而形成的慣常做法／慣例」與本句語境不同。",
-        "custom-mcq-04": "「顧客對某商店／企業的購買與惠顧」與本句語境不同。",
-        "custom-mcq-05": "「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」與本句語境不同。",
-        "custom-mcq-06": "「進出口貨物所涉及的關稅／海關費用」與本句語境不同。"
+        "custom-mcq-01": "本句的「custom birthday cakes」指「按個別顧客的要求、尺寸、風格或用途特別製作的」。",
+        "custom-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-01"
     },
@@ -336,11 +330,8 @@ export default {
       "masked": "She ordered a ____ wedding cake.",
       "options": [
         "custom-mcq-01",
-        "custom-mcq-02",
-        "custom-mcq-03",
-        "custom-mcq-04",
         "custom-mcq-05",
-        "custom-mcq-06"
+        "custom-mcq-11"
       ],
       "explanation": "本句的「custom」指「按個別顧客的要求、尺寸、風格或用途特別製作的」。",
       "sentenceIndex": 1,
@@ -349,12 +340,9 @@ export default {
         "custom"
       ],
       "optionReasons": {
-        "custom-mcq-01": "本句指「按個別顧客的要求、尺寸、風格或用途特別製作的」。",
-        "custom-mcq-02": "「一個社會、地區或群體長期形成並普遍遵守的做法」與本句語境不同。",
-        "custom-mcq-03": "「長期重複而形成的慣常做法／慣例」與本句語境不同。",
-        "custom-mcq-04": "「顧客對某商店／企業的購買與惠顧」與本句語境不同。",
-        "custom-mcq-05": "「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」與本句語境不同。",
-        "custom-mcq-06": "「進出口貨物所涉及的關稅／海關費用」與本句語境不同。"
+        "custom-mcq-01": "本句的「custom」指「按個別顧客的要求、尺寸、風格或用途特別製作的」。",
+        "custom-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-01"
     },
@@ -366,11 +354,8 @@ export default {
       "masked": "The shop offers ____ designs for special occasions.",
       "options": [
         "custom-mcq-01",
-        "custom-mcq-02",
-        "custom-mcq-03",
-        "custom-mcq-04",
-        "custom-mcq-05",
-        "custom-mcq-06"
+        "custom-mcq-06",
+        "custom-mcq-11"
       ],
       "explanation": "本句的「custom」指「按個別顧客的要求、尺寸、風格或用途特別製作的」。",
       "sentenceIndex": 2,
@@ -379,12 +364,9 @@ export default {
         "custom"
       ],
       "optionReasons": {
-        "custom-mcq-01": "本句指「按個別顧客的要求、尺寸、風格或用途特別製作的」。",
-        "custom-mcq-02": "「一個社會、地區或群體長期形成並普遍遵守的做法」與本句語境不同。",
-        "custom-mcq-03": "「長期重複而形成的慣常做法／慣例」與本句語境不同。",
-        "custom-mcq-04": "「顧客對某商店／企業的購買與惠顧」與本句語境不同。",
-        "custom-mcq-05": "「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」與本句語境不同。",
-        "custom-mcq-06": "「進出口貨物所涉及的關稅／海關費用」與本句語境不同。"
+        "custom-mcq-01": "本句的「custom」指「按個別顧客的要求、尺寸、風格或用途特別製作的」。",
+        "custom-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-01"
     },
@@ -396,11 +378,8 @@ export default {
       "masked": "It is a local ____ to exchange gifts during the festival.",
       "options": [
         "custom-mcq-02",
-        "custom-mcq-01",
-        "custom-mcq-03",
-        "custom-mcq-04",
-        "custom-mcq-05",
-        "custom-mcq-06"
+        "custom-mcq-10",
+        "custom-mcq-04"
       ],
       "explanation": "本句的「custom」指「一個社會、地區或群體長期形成並普遍遵守的做法」。",
       "sentenceIndex": 3,
@@ -409,12 +388,9 @@ export default {
         "custom"
       ],
       "optionReasons": {
-        "custom-mcq-02": "本句指「一個社會、地區或群體長期形成並普遍遵守的做法」。",
-        "custom-mcq-01": "「按個別顧客的要求、尺寸、風格或用途特別製作的」與本句語境不同。",
-        "custom-mcq-03": "「長期重複而形成的慣常做法／慣例」與本句語境不同。",
-        "custom-mcq-04": "「顧客對某商店／企業的購買與惠顧」與本句語境不同。",
-        "custom-mcq-05": "「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」與本句語境不同。",
-        "custom-mcq-06": "「進出口貨物所涉及的關稅／海關費用」與本句語境不同。"
+        "custom-mcq-02": "本句的「custom」指「一個社會、地區或群體長期形成並普遍遵守的做法」。",
+        "custom-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-02"
     },
@@ -426,11 +402,8 @@ export default {
       "masked": "The ceremony follows an old ____.",
       "options": [
         "custom-mcq-02",
-        "custom-mcq-01",
-        "custom-mcq-03",
-        "custom-mcq-04",
-        "custom-mcq-05",
-        "custom-mcq-06"
+        "custom-mcq-10",
+        "custom-mcq-12"
       ],
       "explanation": "本句的「custom」指「一個社會、地區或群體長期形成並普遍遵守的做法」。",
       "sentenceIndex": 4,
@@ -439,12 +412,9 @@ export default {
         "custom"
       ],
       "optionReasons": {
-        "custom-mcq-02": "本句指「一個社會、地區或群體長期形成並普遍遵守的做法」。",
-        "custom-mcq-01": "「按個別顧客的要求、尺寸、風格或用途特別製作的」與本句語境不同。",
-        "custom-mcq-03": "「長期重複而形成的慣常做法／慣例」與本句語境不同。",
-        "custom-mcq-04": "「顧客對某商店／企業的購買與惠顧」與本句語境不同。",
-        "custom-mcq-05": "「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」與本句語境不同。",
-        "custom-mcq-06": "「進出口貨物所涉及的關稅／海關費用」與本句語境不同。"
+        "custom-mcq-02": "本句的「custom」指「一個社會、地區或群體長期形成並普遍遵守的做法」。",
+        "custom-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-02"
     },
@@ -456,11 +426,8 @@ export default {
       "masked": "It was his ____ to arrive early.",
       "options": [
         "custom-mcq-03",
-        "custom-mcq-02",
-        "custom-mcq-04",
-        "custom-mcq-01",
-        "custom-mcq-05",
-        "custom-mcq-06"
+        "custom-mcq-10",
+        "custom-mcq-05"
       ],
       "explanation": "本句的「custom」指「長期重複而形成的慣常做法／慣例」。",
       "sentenceIndex": 5,
@@ -469,12 +436,9 @@ export default {
         "custom"
       ],
       "optionReasons": {
-        "custom-mcq-03": "本句指「長期重複而形成的慣常做法／慣例」。",
-        "custom-mcq-02": "「一個社會、地區或群體長期形成並普遍遵守的做法」與本句語境不同。",
-        "custom-mcq-04": "「顧客對某商店／企業的購買與惠顧」與本句語境不同。",
-        "custom-mcq-01": "「按個別顧客的要求、尺寸、風格或用途特別製作的」與本句語境不同。",
-        "custom-mcq-05": "「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」與本句語境不同。",
-        "custom-mcq-06": "「進出口貨物所涉及的關稅／海關費用」與本句語境不同。"
+        "custom-mcq-03": "本句的「custom」指「長期重複而形成的慣常做法／慣例」。",
+        "custom-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-03"
     },
@@ -486,11 +450,8 @@ export default {
       "masked": "By ____, the meeting begins with introductions.",
       "options": [
         "custom-mcq-03",
-        "custom-mcq-02",
         "custom-mcq-04",
-        "custom-mcq-01",
-        "custom-mcq-05",
-        "custom-mcq-06"
+        "custom-mcq-11"
       ],
       "explanation": "本句的「custom」指「長期重複而形成的慣常做法／慣例」。",
       "sentenceIndex": 6,
@@ -499,12 +460,9 @@ export default {
         "custom"
       ],
       "optionReasons": {
-        "custom-mcq-03": "本句指「長期重複而形成的慣常做法／慣例」。",
-        "custom-mcq-02": "「一個社會、地區或群體長期形成並普遍遵守的做法」與本句語境不同。",
-        "custom-mcq-04": "「顧客對某商店／企業的購買與惠顧」與本句語境不同。",
-        "custom-mcq-01": "「按個別顧客的要求、尺寸、風格或用途特別製作的」與本句語境不同。",
-        "custom-mcq-05": "「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」與本句語境不同。",
-        "custom-mcq-06": "「進出口貨物所涉及的關稅／海關費用」與本句語境不同。"
+        "custom-mcq-03": "本句的「custom」指「長期重複而形成的慣常做法／慣例」。",
+        "custom-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-03"
     },
@@ -516,11 +474,8 @@ export default {
       "masked": "The shop depends on local ____.",
       "options": [
         "custom-mcq-04",
-        "custom-mcq-03",
-        "custom-mcq-05",
-        "custom-mcq-02",
-        "custom-mcq-06",
-        "custom-mcq-01"
+        "custom-mcq-11",
+        "custom-mcq-02"
       ],
       "explanation": "本句的「custom」指「顧客對某商店／企業的購買與惠顧」。",
       "sentenceIndex": 7,
@@ -529,12 +484,9 @@ export default {
         "custom"
       ],
       "optionReasons": {
-        "custom-mcq-04": "本句指「顧客對某商店／企業的購買與惠顧」。",
-        "custom-mcq-03": "「長期重複而形成的慣常做法／慣例」與本句語境不同。",
-        "custom-mcq-05": "「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」與本句語境不同。",
-        "custom-mcq-02": "「一個社會、地區或群體長期形成並普遍遵守的做法」與本句語境不同。",
-        "custom-mcq-06": "「進出口貨物所涉及的關稅／海關費用」與本句語境不同。",
-        "custom-mcq-01": "「按個別顧客的要求、尺寸、風格或用途特別製作的」與本句語境不同。"
+        "custom-mcq-04": "本句的「custom」指「顧客對某商店／企業的購買與惠顧」。",
+        "custom-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-04"
     },
@@ -546,11 +498,8 @@ export default {
       "masked": "Thank you for your ____.",
       "options": [
         "custom-mcq-04",
-        "custom-mcq-03",
-        "custom-mcq-05",
-        "custom-mcq-02",
-        "custom-mcq-06",
-        "custom-mcq-01"
+        "custom-mcq-10",
+        "custom-mcq-02"
       ],
       "explanation": "本句的「custom」指「顧客對某商店／企業的購買與惠顧」。",
       "sentenceIndex": 8,
@@ -559,12 +508,9 @@ export default {
         "custom"
       ],
       "optionReasons": {
-        "custom-mcq-04": "本句指「顧客對某商店／企業的購買與惠顧」。",
-        "custom-mcq-03": "「長期重複而形成的慣常做法／慣例」與本句語境不同。",
-        "custom-mcq-05": "「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」與本句語境不同。",
-        "custom-mcq-02": "「一個社會、地區或群體長期形成並普遍遵守的做法」與本句語境不同。",
-        "custom-mcq-06": "「進出口貨物所涉及的關稅／海關費用」與本句語境不同。",
-        "custom-mcq-01": "「按個別顧客的要求、尺寸、風格或用途特別製作的」與本句語境不同。"
+        "custom-mcq-04": "本句的「custom」指「顧客對某商店／企業的購買與惠顧」。",
+        "custom-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-04"
     },
@@ -576,11 +522,8 @@ export default {
       "masked": "We had to go through ____ at the airport.",
       "options": [
         "custom-mcq-05",
-        "custom-mcq-04",
-        "custom-mcq-06",
         "custom-mcq-03",
-        "custom-mcq-07",
-        "custom-mcq-02"
+        "custom-mcq-09"
       ],
       "explanation": "本句的「customs」指「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」。",
       "sentenceIndex": 9,
@@ -589,12 +532,9 @@ export default {
         "customs"
       ],
       "optionReasons": {
-        "custom-mcq-05": "本句指「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」。",
-        "custom-mcq-04": "「顧客對某商店／企業的購買與惠顧」與本句語境不同。",
-        "custom-mcq-06": "「進出口貨物所涉及的關稅／海關費用」與本句語境不同。",
-        "custom-mcq-03": "「長期重複而形成的慣常做法／慣例」與本句語境不同。",
-        "custom-mcq-07": "「按特定個人／用途專門製作的」與本句語境不同。",
-        "custom-mcq-02": "「一個社會、地區或群體長期形成並普遍遵守的做法」與本句語境不同。"
+        "custom-mcq-05": "本句的「customs」指「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」。",
+        "custom-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-05"
     },
@@ -606,11 +546,8 @@ export default {
       "masked": "The goods were stopped by ____.",
       "options": [
         "custom-mcq-05",
-        "custom-mcq-04",
-        "custom-mcq-06",
-        "custom-mcq-03",
-        "custom-mcq-07",
-        "custom-mcq-02"
+        "custom-mcq-01",
+        "custom-mcq-10"
       ],
       "explanation": "本句的「customs」指「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」。",
       "sentenceIndex": 10,
@@ -619,12 +556,9 @@ export default {
         "customs"
       ],
       "optionReasons": {
-        "custom-mcq-05": "本句指「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」。",
-        "custom-mcq-04": "「顧客對某商店／企業的購買與惠顧」與本句語境不同。",
-        "custom-mcq-06": "「進出口貨物所涉及的關稅／海關費用」與本句語境不同。",
-        "custom-mcq-03": "「長期重複而形成的慣常做法／慣例」與本句語境不同。",
-        "custom-mcq-07": "「按特定個人／用途專門製作的」與本句語境不同。",
-        "custom-mcq-02": "「一個社會、地區或群體長期形成並普遍遵守的做法」與本句語境不同。"
+        "custom-mcq-05": "本句的「customs」指「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」。",
+        "custom-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-05"
     },
@@ -636,11 +570,9 @@ export default {
       "masked": "The company had to pay ____.",
       "options": [
         "custom-mcq-06",
-        "custom-mcq-05",
-        "custom-mcq-07",
-        "custom-mcq-04",
-        "custom-mcq-08",
-        "custom-mcq-03"
+        "custom-mcq-13",
+        "custom-mcq-09",
+        "custom-mcq-08"
       ],
       "explanation": "本句的「customs duties」指「進出口貨物所涉及的關稅／海關費用」。",
       "sentenceIndex": 11,
@@ -649,12 +581,10 @@ export default {
         "customs duties"
       ],
       "optionReasons": {
-        "custom-mcq-06": "本句指「進出口貨物所涉及的關稅／海關費用」。",
-        "custom-mcq-05": "「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」與本句語境不同。",
-        "custom-mcq-07": "「按特定個人／用途專門製作的」與本句語境不同。",
-        "custom-mcq-04": "「顧客對某商店／企業的購買與惠顧」與本句語境不同。",
-        "custom-mcq-08": "「為特定用途或環境專門建造的」與本句語境不同。",
-        "custom-mcq-03": "「長期重複而形成的慣常做法／慣例」與本句語境不同。"
+        "custom-mcq-06": "本句的「customs duties」指「進出口貨物所涉及的關稅／海關費用」。",
+        "custom-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-06"
     },
@@ -666,11 +596,8 @@ export default {
       "masked": "____ charges can increase the final price.",
       "options": [
         "custom-mcq-06",
-        "custom-mcq-05",
-        "custom-mcq-07",
-        "custom-mcq-04",
-        "custom-mcq-08",
-        "custom-mcq-03"
+        "custom-mcq-11",
+        "custom-mcq-01"
       ],
       "explanation": "本句的「Customs」指「進出口貨物所涉及的關稅／海關費用」。",
       "sentenceIndex": 12,
@@ -679,12 +606,9 @@ export default {
         "Customs"
       ],
       "optionReasons": {
-        "custom-mcq-06": "本句指「進出口貨物所涉及的關稅／海關費用」。",
-        "custom-mcq-05": "「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」與本句語境不同。",
-        "custom-mcq-07": "「按特定個人／用途專門製作的」與本句語境不同。",
-        "custom-mcq-04": "「顧客對某商店／企業的購買與惠顧」與本句語境不同。",
-        "custom-mcq-08": "「為特定用途或環境專門建造的」與本句語境不同。",
-        "custom-mcq-03": "「長期重複而形成的慣常做法／慣例」與本句語境不同。"
+        "custom-mcq-06": "本句的「Customs」指「進出口貨物所涉及的關稅／海關費用」。",
+        "custom-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-06"
     },
@@ -696,11 +620,8 @@ export default {
       "masked": "The shelves were ____ for the room.",
       "options": [
         "custom-mcq-07",
-        "custom-mcq-06",
-        "custom-mcq-08",
-        "custom-mcq-05",
-        "custom-mcq-09",
-        "custom-mcq-04"
+        "custom-mcq-12",
+        "custom-mcq-09"
       ],
       "explanation": "本句的「custom-made」指「按特定個人／用途專門製作的」。",
       "sentenceIndex": 13,
@@ -709,12 +630,9 @@ export default {
         "custom-made"
       ],
       "optionReasons": {
-        "custom-mcq-07": "本句指「按特定個人／用途專門製作的」。",
-        "custom-mcq-06": "「進出口貨物所涉及的關稅／海關費用」與本句語境不同。",
-        "custom-mcq-08": "「為特定用途或環境專門建造的」與本句語境不同。",
-        "custom-mcq-05": "「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」與本句語境不同。",
-        "custom-mcq-09": "「按個人需要修改產品、設計、設定或功能」與本句語境不同。",
-        "custom-mcq-04": "「顧客對某商店／企業的購買與惠顧」與本句語境不同。"
+        "custom-mcq-07": "本句的「custom-made」指「按特定個人／用途專門製作的」。",
+        "custom-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-07"
     },
@@ -727,10 +645,8 @@ export default {
       "options": [
         "custom-mcq-07",
         "custom-mcq-06",
-        "custom-mcq-08",
-        "custom-mcq-05",
-        "custom-mcq-09",
-        "custom-mcq-04"
+        "custom-mcq-13",
+        "custom-mcq-09"
       ],
       "explanation": "本句的「custom-made」指「按特定個人／用途專門製作的」。",
       "sentenceIndex": 14,
@@ -739,12 +655,10 @@ export default {
         "custom-made"
       ],
       "optionReasons": {
-        "custom-mcq-07": "本句指「按特定個人／用途專門製作的」。",
-        "custom-mcq-06": "「進出口貨物所涉及的關稅／海關費用」與本句語境不同。",
-        "custom-mcq-08": "「為特定用途或環境專門建造的」與本句語境不同。",
-        "custom-mcq-05": "「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」與本句語境不同。",
-        "custom-mcq-09": "「按個人需要修改產品、設計、設定或功能」與本句語境不同。",
-        "custom-mcq-04": "「顧客對某商店／企業的購買與惠顧」與本句語境不同。"
+        "custom-mcq-07": "本句的「custom-made」指「按特定個人／用途專門製作的」。",
+        "custom-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-07"
     },
@@ -756,11 +670,8 @@ export default {
       "masked": "They use a ____ oven.",
       "options": [
         "custom-mcq-08",
-        "custom-mcq-07",
-        "custom-mcq-09",
-        "custom-mcq-06",
-        "custom-mcq-10",
-        "custom-mcq-05"
+        "custom-mcq-04",
+        "custom-mcq-11"
       ],
       "explanation": "本句的「custom-built」指「為特定用途或環境專門建造的」。",
       "sentenceIndex": 15,
@@ -769,12 +680,9 @@ export default {
         "custom-built"
       ],
       "optionReasons": {
-        "custom-mcq-08": "本句指「為特定用途或環境專門建造的」。",
-        "custom-mcq-07": "「按特定個人／用途專門製作的」與本句語境不同。",
-        "custom-mcq-09": "「按個人需要修改產品、設計、設定或功能」與本句語境不同。",
-        "custom-mcq-06": "「進出口貨物所涉及的關稅／海關費用」與本句語境不同。",
-        "custom-mcq-10": "「已根據特定使用者需求修改／配置的」與本句語境不同。",
-        "custom-mcq-05": "「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」與本句語境不同。"
+        "custom-mcq-08": "本句的「custom-built」指「為特定用途或環境專門建造的」。",
+        "custom-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-08"
     },
@@ -786,11 +694,8 @@ export default {
       "masked": "The studio has a ____ storage system.",
       "options": [
         "custom-mcq-08",
-        "custom-mcq-07",
-        "custom-mcq-09",
-        "custom-mcq-06",
-        "custom-mcq-10",
-        "custom-mcq-05"
+        "custom-mcq-04",
+        "custom-mcq-11"
       ],
       "explanation": "本句的「custom-built」指「為特定用途或環境專門建造的」。",
       "sentenceIndex": 16,
@@ -799,12 +704,9 @@ export default {
         "custom-built"
       ],
       "optionReasons": {
-        "custom-mcq-08": "本句指「為特定用途或環境專門建造的」。",
-        "custom-mcq-07": "「按特定個人／用途專門製作的」與本句語境不同。",
-        "custom-mcq-09": "「按個人需要修改產品、設計、設定或功能」與本句語境不同。",
-        "custom-mcq-06": "「進出口貨物所涉及的關稅／海關費用」與本句語境不同。",
-        "custom-mcq-10": "「已根據特定使用者需求修改／配置的」與本句語境不同。",
-        "custom-mcq-05": "「負責檢查出入境貨物、行李及徵收相關稅款的政府部門／程序」與本句語境不同。"
+        "custom-mcq-08": "本句的「custom-built」指「為特定用途或環境專門建造的」。",
+        "custom-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-08"
     },
@@ -816,11 +718,8 @@ export default {
       "masked": "Customers can ____ the cake design.",
       "options": [
         "custom-mcq-09",
-        "custom-mcq-08",
-        "custom-mcq-10",
-        "custom-mcq-07",
-        "custom-mcq-11",
-        "custom-mcq-06"
+        "custom-mcq-02",
+        "custom-mcq-04"
       ],
       "explanation": "本句的「customize」指「按個人需要修改產品、設計、設定或功能」。",
       "sentenceIndex": 17,
@@ -829,12 +728,9 @@ export default {
         "customize"
       ],
       "optionReasons": {
-        "custom-mcq-09": "本句指「按個人需要修改產品、設計、設定或功能」。",
-        "custom-mcq-08": "「為特定用途或環境專門建造的」與本句語境不同。",
-        "custom-mcq-10": "「已根據特定使用者需求修改／配置的」與本句語境不同。",
-        "custom-mcq-07": "「按特定個人／用途專門製作的」與本句語境不同。",
-        "custom-mcq-11": "「按使用者需求修改產品／服務／設定的過程」與本句語境不同。",
-        "custom-mcq-06": "「進出口貨物所涉及的關稅／海關費用」與本句語境不同。"
+        "custom-mcq-09": "本句的「customize」指「按個人需要修改產品、設計、設定或功能」。",
+        "custom-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-09"
     },
@@ -846,11 +742,8 @@ export default {
       "masked": "You can ____ the colours and text.",
       "options": [
         "custom-mcq-09",
-        "custom-mcq-08",
-        "custom-mcq-10",
-        "custom-mcq-07",
-        "custom-mcq-11",
-        "custom-mcq-06"
+        "custom-mcq-04",
+        "custom-mcq-02"
       ],
       "explanation": "本句的「customize」指「按個人需要修改產品、設計、設定或功能」。",
       "sentenceIndex": 18,
@@ -859,12 +752,9 @@ export default {
         "customize"
       ],
       "optionReasons": {
-        "custom-mcq-09": "本句指「按個人需要修改產品、設計、設定或功能」。",
-        "custom-mcq-08": "「為特定用途或環境專門建造的」與本句語境不同。",
-        "custom-mcq-10": "「已根據特定使用者需求修改／配置的」與本句語境不同。",
-        "custom-mcq-07": "「按特定個人／用途專門製作的」與本句語境不同。",
-        "custom-mcq-11": "「按使用者需求修改產品／服務／設定的過程」與本句語境不同。",
-        "custom-mcq-06": "「進出口貨物所涉及的關稅／海關費用」與本句語境不同。"
+        "custom-mcq-09": "本句的「customize」指「按個人需要修改產品、設計、設定或功能」。",
+        "custom-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-09"
     },
@@ -876,11 +766,8 @@ export default {
       "masked": "The bakery offers ____ cakes.",
       "options": [
         "custom-mcq-10",
-        "custom-mcq-09",
-        "custom-mcq-11",
-        "custom-mcq-08",
-        "custom-mcq-12",
-        "custom-mcq-07"
+        "custom-mcq-06",
+        "custom-mcq-02"
       ],
       "explanation": "本句的「customized」指「已根據特定使用者需求修改／配置的」。",
       "sentenceIndex": 19,
@@ -889,12 +776,9 @@ export default {
         "customized"
       ],
       "optionReasons": {
-        "custom-mcq-10": "本句指「已根據特定使用者需求修改／配置的」。",
-        "custom-mcq-09": "「按個人需要修改產品、設計、設定或功能」與本句語境不同。",
-        "custom-mcq-11": "「按使用者需求修改產品／服務／設定的過程」與本句語境不同。",
-        "custom-mcq-08": "「為特定用途或環境專門建造的」與本句語境不同。",
-        "custom-mcq-12": "「向企業購買商品或服務的人」與本句語境不同。",
-        "custom-mcq-07": "「按特定個人／用途專門製作的」與本句語境不同。"
+        "custom-mcq-10": "本句的「customized」指「已根據特定使用者需求修改／配置的」。",
+        "custom-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-10"
     },
@@ -906,11 +790,8 @@ export default {
       "masked": "The software provides ____ recommendations.",
       "options": [
         "custom-mcq-10",
-        "custom-mcq-09",
-        "custom-mcq-11",
-        "custom-mcq-08",
-        "custom-mcq-12",
-        "custom-mcq-07"
+        "custom-mcq-03",
+        "custom-mcq-12"
       ],
       "explanation": "本句的「customized」指「已根據特定使用者需求修改／配置的」。",
       "sentenceIndex": 20,
@@ -919,12 +800,9 @@ export default {
         "customized"
       ],
       "optionReasons": {
-        "custom-mcq-10": "本句指「已根據特定使用者需求修改／配置的」。",
-        "custom-mcq-09": "「按個人需要修改產品、設計、設定或功能」與本句語境不同。",
-        "custom-mcq-11": "「按使用者需求修改產品／服務／設定的過程」與本句語境不同。",
-        "custom-mcq-08": "「為特定用途或環境專門建造的」與本句語境不同。",
-        "custom-mcq-12": "「向企業購買商品或服務的人」與本句語境不同。",
-        "custom-mcq-07": "「按特定個人／用途專門製作的」與本句語境不同。"
+        "custom-mcq-10": "本句的「customized」指「已根據特定使用者需求修改／配置的」。",
+        "custom-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-10"
     },
@@ -936,11 +814,8 @@ export default {
       "masked": "The website allows extensive ____.",
       "options": [
         "custom-mcq-11",
-        "custom-mcq-10",
-        "custom-mcq-12",
-        "custom-mcq-09",
-        "custom-mcq-13",
-        "custom-mcq-08"
+        "custom-mcq-03",
+        "custom-mcq-04"
       ],
       "explanation": "本句的「customization」指「按使用者需求修改產品／服務／設定的過程」。",
       "sentenceIndex": 21,
@@ -949,12 +824,9 @@ export default {
         "customization"
       ],
       "optionReasons": {
-        "custom-mcq-11": "本句指「按使用者需求修改產品／服務／設定的過程」。",
-        "custom-mcq-10": "「已根據特定使用者需求修改／配置的」與本句語境不同。",
-        "custom-mcq-12": "「向企業購買商品或服務的人」與本句語境不同。",
-        "custom-mcq-09": "「按個人需要修改產品、設計、設定或功能」與本句語境不同。",
-        "custom-mcq-13": "「一間企業現有或穩定的顧客群體」與本句語境不同。",
-        "custom-mcq-08": "「為特定用途或環境專門建造的」與本句語境不同。"
+        "custom-mcq-11": "本句的「customization」指「按使用者需求修改產品／服務／設定的過程」。",
+        "custom-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-11"
     },
@@ -966,11 +838,8 @@ export default {
       "masked": "____ increases the price of the product.",
       "options": [
         "custom-mcq-11",
-        "custom-mcq-10",
-        "custom-mcq-12",
-        "custom-mcq-09",
-        "custom-mcq-13",
-        "custom-mcq-08"
+        "custom-mcq-02",
+        "custom-mcq-06"
       ],
       "explanation": "本句的「Customization」指「按使用者需求修改產品／服務／設定的過程」。",
       "sentenceIndex": 22,
@@ -979,12 +848,9 @@ export default {
         "Customization"
       ],
       "optionReasons": {
-        "custom-mcq-11": "本句指「按使用者需求修改產品／服務／設定的過程」。",
-        "custom-mcq-10": "「已根據特定使用者需求修改／配置的」與本句語境不同。",
-        "custom-mcq-12": "「向企業購買商品或服務的人」與本句語境不同。",
-        "custom-mcq-09": "「按個人需要修改產品、設計、設定或功能」與本句語境不同。",
-        "custom-mcq-13": "「一間企業現有或穩定的顧客群體」與本句語境不同。",
-        "custom-mcq-08": "「為特定用途或環境專門建造的」與本句語境不同。"
+        "custom-mcq-11": "本句的「Customization」指「按使用者需求修改產品／服務／設定的過程」。",
+        "custom-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-11"
     },
@@ -996,11 +862,8 @@ export default {
       "masked": "The staff know many ____ by name.",
       "options": [
         "custom-mcq-12",
-        "custom-mcq-11",
-        "custom-mcq-13",
-        "custom-mcq-10",
-        "custom-mcq-09",
-        "custom-mcq-08"
+        "custom-mcq-07",
+        "custom-mcq-09"
       ],
       "explanation": "本句的「customers」指「向企業購買商品或服務的人」。",
       "sentenceIndex": 23,
@@ -1009,12 +872,9 @@ export default {
         "customers"
       ],
       "optionReasons": {
-        "custom-mcq-12": "本句指「向企業購買商品或服務的人」。",
-        "custom-mcq-11": "「按使用者需求修改產品／服務／設定的過程」與本句語境不同。",
-        "custom-mcq-13": "「一間企業現有或穩定的顧客群體」與本句語境不同。",
-        "custom-mcq-10": "「已根據特定使用者需求修改／配置的」與本句語境不同。",
-        "custom-mcq-09": "「按個人需要修改產品、設計、設定或功能」與本句語境不同。",
-        "custom-mcq-08": "「為特定用途或環境專門建造的」與本句語境不同。"
+        "custom-mcq-12": "本句的「customers」指「向企業購買商品或服務的人」。",
+        "custom-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-12"
     },
@@ -1026,11 +886,8 @@ export default {
       "masked": "Good service helps keep ____ loyal.",
       "options": [
         "custom-mcq-12",
-        "custom-mcq-11",
-        "custom-mcq-13",
-        "custom-mcq-10",
-        "custom-mcq-09",
-        "custom-mcq-08"
+        "custom-mcq-07",
+        "custom-mcq-09"
       ],
       "explanation": "本句的「customers」指「向企業購買商品或服務的人」。",
       "sentenceIndex": 24,
@@ -1039,12 +896,9 @@ export default {
         "customers"
       ],
       "optionReasons": {
-        "custom-mcq-12": "本句指「向企業購買商品或服務的人」。",
-        "custom-mcq-11": "「按使用者需求修改產品／服務／設定的過程」與本句語境不同。",
-        "custom-mcq-13": "「一間企業現有或穩定的顧客群體」與本句語境不同。",
-        "custom-mcq-10": "「已根據特定使用者需求修改／配置的」與本句語境不同。",
-        "custom-mcq-09": "「按個人需要修改產品、設計、設定或功能」與本句語境不同。",
-        "custom-mcq-08": "「為特定用途或環境專門建造的」與本句語境不同。"
+        "custom-mcq-12": "本句的「customers」指「向企業購買商品或服務的人」。",
+        "custom-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-12"
     },
@@ -1056,11 +910,9 @@ export default {
       "masked": "The bakery has built a loyal ____.",
       "options": [
         "custom-mcq-13",
-        "custom-mcq-12",
-        "custom-mcq-11",
-        "custom-mcq-10",
-        "custom-mcq-09",
-        "custom-mcq-08"
+        "custom-mcq-03",
+        "custom-mcq-06",
+        "custom-mcq-09"
       ],
       "explanation": "本句的「customer base」指「一間企業現有或穩定的顧客群體」。",
       "sentenceIndex": 25,
@@ -1069,12 +921,10 @@ export default {
         "customer base"
       ],
       "optionReasons": {
-        "custom-mcq-13": "本句指「一間企業現有或穩定的顧客群體」。",
-        "custom-mcq-12": "「向企業購買商品或服務的人」與本句語境不同。",
-        "custom-mcq-11": "「按使用者需求修改產品／服務／設定的過程」與本句語境不同。",
-        "custom-mcq-10": "「已根據特定使用者需求修改／配置的」與本句語境不同。",
-        "custom-mcq-09": "「按個人需要修改產品、設計、設定或功能」與本句語境不同。",
-        "custom-mcq-08": "「為特定用途或環境專門建造的」與本句語境不同。"
+        "custom-mcq-13": "本句的「customer base」指「一間企業現有或穩定的顧客群體」。",
+        "custom-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-13"
     },
@@ -1086,11 +936,9 @@ export default {
       "masked": "The company is trying to expand its ____ base.",
       "options": [
         "custom-mcq-13",
-        "custom-mcq-12",
-        "custom-mcq-11",
-        "custom-mcq-10",
-        "custom-mcq-09",
-        "custom-mcq-08"
+        "custom-mcq-03",
+        "custom-mcq-06",
+        "custom-mcq-09"
       ],
       "explanation": "本句的「customer」指「一間企業現有或穩定的顧客群體」。",
       "sentenceIndex": 26,
@@ -1099,12 +947,10 @@ export default {
         "customer"
       ],
       "optionReasons": {
-        "custom-mcq-13": "本句指「一間企業現有或穩定的顧客群體」。",
-        "custom-mcq-12": "「向企業購買商品或服務的人」與本句語境不同。",
-        "custom-mcq-11": "「按使用者需求修改產品／服務／設定的過程」與本句語境不同。",
-        "custom-mcq-10": "「已根據特定使用者需求修改／配置的」與本句語境不同。",
-        "custom-mcq-09": "「按個人需要修改產品、設計、設定或功能」與本句語境不同。",
-        "custom-mcq-08": "「為特定用途或環境專門建造的」與本句語境不同。"
+        "custom-mcq-13": "本句的「customer」指「一間企業現有或穩定的顧客群體」。",
+        "custom-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "custom-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "custom-mcq-13"
     }
@@ -1116,5 +962,7 @@ export default {
     "sha256": "12a08fd1dfdd5339a2b4b8e0cea5376948d300880881e357ae10e4ba365eaf73",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

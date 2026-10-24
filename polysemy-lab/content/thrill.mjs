@@ -366,11 +366,7 @@ export default {
       "masked": "The ____ did not last very long.",
       "options": [
         "thrill-mcq-01",
-        "thrill-mcq-02",
-        "thrill-mcq-03",
-        "thrill-mcq-04",
-        "thrill-mcq-05",
-        "thrill-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「thrill」指「突然、強烈而通常愉快的興奮／刺激感」。",
       "sentenceIndex": 0,
@@ -379,12 +375,8 @@ export default {
         "thrill"
       ],
       "optionReasons": {
-        "thrill-mcq-01": "本句指「突然、強烈而通常愉快的興奮／刺激感」。",
-        "thrill-mcq-02": "「一次短暫而明顯的興奮反應」與本句語境不同。",
-        "thrill-mcq-03": "「因做／經歷 X 而得到強烈刺激感」與本句語境不同。",
-        "thrill-mcq-04": "「純粹因為享受刺激本身而做某事」與本句語境不同。",
-        "thrill-mcq-05": "「本身令人高度興奮的活動／經歷」與本句語境不同。",
-        "thrill-mcq-06": "「因危險、速度、不確定性等產生的刺激感」與本句語境不同。"
+        "thrill-mcq-01": "本句的「thrill」指「突然、強烈而通常愉快的興奮／刺激感」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-01"
     },
@@ -396,11 +388,7 @@ export default {
       "masked": "She felt a ____ when her name was announced.",
       "options": [
         "thrill-mcq-01",
-        "thrill-mcq-02",
-        "thrill-mcq-03",
-        "thrill-mcq-04",
-        "thrill-mcq-05",
-        "thrill-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「thrill」指「突然、強烈而通常愉快的興奮／刺激感」。",
       "sentenceIndex": 1,
@@ -409,12 +397,8 @@ export default {
         "thrill"
       ],
       "optionReasons": {
-        "thrill-mcq-01": "本句指「突然、強烈而通常愉快的興奮／刺激感」。",
-        "thrill-mcq-02": "「一次短暫而明顯的興奮反應」與本句語境不同。",
-        "thrill-mcq-03": "「因做／經歷 X 而得到強烈刺激感」與本句語境不同。",
-        "thrill-mcq-04": "「純粹因為享受刺激本身而做某事」與本句語境不同。",
-        "thrill-mcq-05": "「本身令人高度興奮的活動／經歷」與本句語境不同。",
-        "thrill-mcq-06": "「因危險、速度、不確定性等產生的刺激感」與本句語境不同。"
+        "thrill-mcq-01": "本句的「thrill」指「突然、強烈而通常愉快的興奮／刺激感」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-01"
     },
@@ -426,11 +410,7 @@ export default {
       "masked": "Winning gave him an enormous ____.",
       "options": [
         "thrill-mcq-01",
-        "thrill-mcq-02",
-        "thrill-mcq-03",
-        "thrill-mcq-04",
-        "thrill-mcq-05",
-        "thrill-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「thrill」指「突然、強烈而通常愉快的興奮／刺激感」。",
       "sentenceIndex": 2,
@@ -439,12 +419,8 @@ export default {
         "thrill"
       ],
       "optionReasons": {
-        "thrill-mcq-01": "本句指「突然、強烈而通常愉快的興奮／刺激感」。",
-        "thrill-mcq-02": "「一次短暫而明顯的興奮反應」與本句語境不同。",
-        "thrill-mcq-03": "「因做／經歷 X 而得到強烈刺激感」與本句語境不同。",
-        "thrill-mcq-04": "「純粹因為享受刺激本身而做某事」與本句語境不同。",
-        "thrill-mcq-05": "「本身令人高度興奮的活動／經歷」與本句語境不同。",
-        "thrill-mcq-06": "「因危險、速度、不確定性等產生的刺激感」與本句語境不同。"
+        "thrill-mcq-01": "本句的「thrill」指「突然、強烈而通常愉快的興奮／刺激感」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-01"
     },
@@ -456,11 +432,7 @@ export default {
       "masked": "They went skydiving ____.",
       "options": [
         "thrill-mcq-04",
-        "thrill-mcq-03",
-        "thrill-mcq-05",
-        "thrill-mcq-02",
-        "thrill-mcq-06",
-        "thrill-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「for the thrill of it」指「純粹因為享受刺激本身而做某事」。",
       "sentenceIndex": 7,
@@ -469,12 +441,8 @@ export default {
         "for the thrill of it"
       ],
       "optionReasons": {
-        "thrill-mcq-04": "本句指「純粹因為享受刺激本身而做某事」。",
-        "thrill-mcq-03": "「因做／經歷 X 而得到強烈刺激感」與本句語境不同。",
-        "thrill-mcq-05": "「本身令人高度興奮的活動／經歷」與本句語境不同。",
-        "thrill-mcq-02": "「一次短暫而明顯的興奮反應」與本句語境不同。",
-        "thrill-mcq-06": "「因危險、速度、不確定性等產生的刺激感」與本句語境不同。",
-        "thrill-mcq-01": "「突然、強烈而通常愉快的興奮／刺激感」與本句語境不同。"
+        "thrill-mcq-04": "本句的「for the thrill of it」指「純粹因為享受刺激本身而做某事」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-04"
     },
@@ -486,11 +454,7 @@ export default {
       "masked": "He sometimes takes unnecessary risks for the ____ of it.",
       "options": [
         "thrill-mcq-04",
-        "thrill-mcq-03",
-        "thrill-mcq-05",
-        "thrill-mcq-02",
-        "thrill-mcq-06",
-        "thrill-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「thrill」指「純粹因為享受刺激本身而做某事」。",
       "sentenceIndex": 8,
@@ -499,12 +463,8 @@ export default {
         "thrill"
       ],
       "optionReasons": {
-        "thrill-mcq-04": "本句指「純粹因為享受刺激本身而做某事」。",
-        "thrill-mcq-03": "「因做／經歷 X 而得到強烈刺激感」與本句語境不同。",
-        "thrill-mcq-05": "「本身令人高度興奮的活動／經歷」與本句語境不同。",
-        "thrill-mcq-02": "「一次短暫而明顯的興奮反應」與本句語境不同。",
-        "thrill-mcq-06": "「因危險、速度、不確定性等產生的刺激感」與本句語境不同。",
-        "thrill-mcq-01": "「突然、強烈而通常愉快的興奮／刺激感」與本句語境不同。"
+        "thrill-mcq-04": "本句的「thrill」指「純粹因為享受刺激本身而做某事」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-04"
     },
@@ -516,11 +476,8 @@ export default {
       "masked": "Flying in a helicopter was a real ____.",
       "options": [
         "thrill-mcq-05",
-        "thrill-mcq-04",
-        "thrill-mcq-06",
-        "thrill-mcq-03",
-        "thrill-mcq-07",
-        "thrill-mcq-02"
+        "thrill-mcq-16",
+        "thrill-mcq-18"
       ],
       "explanation": "本句的「thrill」指「本身令人高度興奮的活動／經歷」。",
       "sentenceIndex": 9,
@@ -529,12 +486,9 @@ export default {
         "thrill"
       ],
       "optionReasons": {
-        "thrill-mcq-05": "本句指「本身令人高度興奮的活動／經歷」。",
-        "thrill-mcq-04": "「純粹因為享受刺激本身而做某事」與本句語境不同。",
-        "thrill-mcq-06": "「因危險、速度、不確定性等產生的刺激感」與本句語境不同。",
-        "thrill-mcq-03": "「因做／經歷 X 而得到強烈刺激感」與本句語境不同。",
-        "thrill-mcq-07": "「主動追求高刺激、高新奇或冒險感的」與本句語境不同。",
-        "thrill-mcq-02": "「一次短暫而明顯的興奮反應」與本句語境不同。"
+        "thrill-mcq-05": "本句的「thrill」指「本身令人高度興奮的活動／經歷」。",
+        "thrill-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thrill-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-05"
     },
@@ -546,11 +500,8 @@ export default {
       "masked": "Meeting her favourite singer was the ____ of a lifetime.",
       "options": [
         "thrill-mcq-05",
-        "thrill-mcq-04",
-        "thrill-mcq-06",
-        "thrill-mcq-03",
-        "thrill-mcq-07",
-        "thrill-mcq-02"
+        "thrill-mcq-16",
+        "thrill-mcq-18"
       ],
       "explanation": "本句的「thrill」指「本身令人高度興奮的活動／經歷」。",
       "sentenceIndex": 10,
@@ -559,12 +510,9 @@ export default {
         "thrill"
       ],
       "optionReasons": {
-        "thrill-mcq-05": "本句指「本身令人高度興奮的活動／經歷」。",
-        "thrill-mcq-04": "「純粹因為享受刺激本身而做某事」與本句語境不同。",
-        "thrill-mcq-06": "「因危險、速度、不確定性等產生的刺激感」與本句語境不同。",
-        "thrill-mcq-03": "「因做／經歷 X 而得到強烈刺激感」與本句語境不同。",
-        "thrill-mcq-07": "「主動追求高刺激、高新奇或冒險感的」與本句語境不同。",
-        "thrill-mcq-02": "「一次短暫而明顯的興奮反應」與本句語境不同。"
+        "thrill-mcq-05": "本句的「thrill」指「本身令人高度興奮的活動／經歷」。",
+        "thrill-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thrill-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-05"
     },
@@ -576,11 +524,7 @@ export default {
       "masked": "He has a ____ personality.",
       "options": [
         "thrill-mcq-07",
-        "thrill-mcq-06",
-        "thrill-mcq-08",
-        "thrill-mcq-05",
-        "thrill-mcq-09",
-        "thrill-mcq-04"
+        "thrill-mcq-19"
       ],
       "explanation": "本句的「thrill-seeking」指「主動追求高刺激、高新奇或冒險感的」。",
       "sentenceIndex": 19,
@@ -589,12 +533,8 @@ export default {
         "thrill-seeking"
       ],
       "optionReasons": {
-        "thrill-mcq-07": "本句指「主動追求高刺激、高新奇或冒險感的」。",
-        "thrill-mcq-06": "「因危險、速度、不確定性等產生的刺激感」與本句語境不同。",
-        "thrill-mcq-08": "「經常主動尋求刺激／冒險體驗的人」與本句語境不同。",
-        "thrill-mcq-05": "「本身令人高度興奮的活動／經歷」與本句語境不同。",
-        "thrill-mcq-09": "「令某人產生強烈的愉快興奮」與本句語境不同。",
-        "thrill-mcq-04": "「純粹因為享受刺激本身而做某事」與本句語境不同。"
+        "thrill-mcq-07": "本句的「thrill-seeking」指「主動追求高刺激、高新奇或冒險感的」。",
+        "thrill-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-07"
     },
@@ -606,11 +546,8 @@ export default {
       "masked": "____ behaviour can involve unnecessary risks.",
       "options": [
         "thrill-mcq-07",
-        "thrill-mcq-06",
-        "thrill-mcq-08",
-        "thrill-mcq-05",
-        "thrill-mcq-09",
-        "thrill-mcq-04"
+        "thrill-mcq-18",
+        "thrill-mcq-05"
       ],
       "explanation": "本句的「Thrill-seeking」指「主動追求高刺激、高新奇或冒險感的」。",
       "sentenceIndex": 20,
@@ -619,12 +556,9 @@ export default {
         "Thrill-seeking"
       ],
       "optionReasons": {
-        "thrill-mcq-07": "本句指「主動追求高刺激、高新奇或冒險感的」。",
-        "thrill-mcq-06": "「因危險、速度、不確定性等產生的刺激感」與本句語境不同。",
-        "thrill-mcq-08": "「經常主動尋求刺激／冒險體驗的人」與本句語境不同。",
-        "thrill-mcq-05": "「本身令人高度興奮的活動／經歷」與本句語境不同。",
-        "thrill-mcq-09": "「令某人產生強烈的愉快興奮」與本句語境不同。",
-        "thrill-mcq-04": "「純粹因為享受刺激本身而做某事」與本句語境不同。"
+        "thrill-mcq-07": "本句的「Thrill-seeking」指「主動追求高刺激、高新奇或冒險感的」。",
+        "thrill-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thrill-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-07"
     },
@@ -636,11 +570,7 @@ export default {
       "masked": "The park attracts ____.",
       "options": [
         "thrill-mcq-08",
-        "thrill-mcq-07",
-        "thrill-mcq-09",
-        "thrill-mcq-06",
-        "thrill-mcq-10",
-        "thrill-mcq-05"
+        "thrill-mcq-19"
       ],
       "explanation": "本句的「thrill-seekers」指「經常主動尋求刺激／冒險體驗的人」。",
       "sentenceIndex": 21,
@@ -649,12 +579,8 @@ export default {
         "thrill-seekers"
       ],
       "optionReasons": {
-        "thrill-mcq-08": "本句指「經常主動尋求刺激／冒險體驗的人」。",
-        "thrill-mcq-07": "「主動追求高刺激、高新奇或冒險感的」與本句語境不同。",
-        "thrill-mcq-09": "「令某人產生強烈的愉快興奮」與本句語境不同。",
-        "thrill-mcq-06": "「因危險、速度、不確定性等產生的刺激感」與本句語境不同。",
-        "thrill-mcq-10": "「感到非常高興和興奮的」與本句語境不同。",
-        "thrill-mcq-05": "「本身令人高度興奮的活動／經歷」與本句語境不同。"
+        "thrill-mcq-08": "本句的「thrill-seekers」指「經常主動尋求刺激／冒險體驗的人」。",
+        "thrill-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-08"
     },
@@ -666,11 +592,7 @@ export default {
       "masked": "____ often enjoy fast rides.",
       "options": [
         "thrill-mcq-08",
-        "thrill-mcq-07",
-        "thrill-mcq-09",
-        "thrill-mcq-06",
-        "thrill-mcq-10",
-        "thrill-mcq-05"
+        "thrill-mcq-19"
       ],
       "explanation": "本句的「Thrill-seekers」指「經常主動尋求刺激／冒險體驗的人」。",
       "sentenceIndex": 22,
@@ -679,12 +601,8 @@ export default {
         "Thrill-seekers"
       ],
       "optionReasons": {
-        "thrill-mcq-08": "本句指「經常主動尋求刺激／冒險體驗的人」。",
-        "thrill-mcq-07": "「主動追求高刺激、高新奇或冒險感的」與本句語境不同。",
-        "thrill-mcq-09": "「令某人產生強烈的愉快興奮」與本句語境不同。",
-        "thrill-mcq-06": "「因危險、速度、不確定性等產生的刺激感」與本句語境不同。",
-        "thrill-mcq-10": "「感到非常高興和興奮的」與本句語境不同。",
-        "thrill-mcq-05": "「本身令人高度興奮的活動／經歷」與本句語境不同。"
+        "thrill-mcq-08": "本句的「Thrill-seekers」指「經常主動尋求刺激／冒險體驗的人」。",
+        "thrill-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-08"
     },
@@ -696,11 +614,7 @@ export default {
       "masked": "The film offers plenty of ____.",
       "options": [
         "thrill-mcq-12",
-        "thrill-mcq-11",
-        "thrill-mcq-13",
-        "thrill-mcq-10",
-        "thrill-mcq-14",
-        "thrill-mcq-09"
+        "thrill-mcq-19"
       ],
       "explanation": "本句的「thrills」指「作品／活動中令人緊張興奮的刺激場面」。",
       "sentenceIndex": 25,
@@ -709,12 +623,8 @@ export default {
         "thrills"
       ],
       "optionReasons": {
-        "thrill-mcq-12": "本句指「作品／活動中令人緊張興奮的刺激場面」。",
-        "thrill-mcq-11": "「能令人產生強烈興奮／刺激感的」與本句語境不同。",
-        "thrill-mcq-13": "「恐懼與興奮同時出現的戰慄／刺激感」與本句語境不同。",
-        "thrill-mcq-10": "「感到非常高興和興奮的」與本句語境不同。",
-        "thrill-mcq-14": "「因浪漫吸引或期待而產生的突然心動」與本句語境不同。",
-        "thrill-mcq-09": "「令某人產生強烈的愉快興奮」與本句語境不同。"
+        "thrill-mcq-12": "本句的「thrills」指「作品／活動中令人緊張興奮的刺激場面」。",
+        "thrill-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-12"
     },
@@ -726,11 +636,7 @@ export default {
       "masked": "The show combines humour with ____.",
       "options": [
         "thrill-mcq-12",
-        "thrill-mcq-11",
-        "thrill-mcq-13",
-        "thrill-mcq-10",
-        "thrill-mcq-14",
-        "thrill-mcq-09"
+        "thrill-mcq-19"
       ],
       "explanation": "本句的「thrills」指「作品／活動中令人緊張興奮的刺激場面」。",
       "sentenceIndex": 26,
@@ -739,12 +645,8 @@ export default {
         "thrills"
       ],
       "optionReasons": {
-        "thrill-mcq-12": "本句指「作品／活動中令人緊張興奮的刺激場面」。",
-        "thrill-mcq-11": "「能令人產生強烈興奮／刺激感的」與本句語境不同。",
-        "thrill-mcq-13": "「恐懼與興奮同時出現的戰慄／刺激感」與本句語境不同。",
-        "thrill-mcq-10": "「感到非常高興和興奮的」與本句語境不同。",
-        "thrill-mcq-14": "「因浪漫吸引或期待而產生的突然心動」與本句語境不同。",
-        "thrill-mcq-09": "「令某人產生強烈的愉快興奮」與本句語境不同。"
+        "thrill-mcq-12": "本句的「thrills」指「作品／活動中令人緊張興奮的刺激場面」。",
+        "thrill-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-12"
     },
@@ -756,11 +658,7 @@ export default {
       "masked": "A strange ____ passed through her.",
       "options": [
         "thrill-mcq-01",
-        "thrill-mcq-02",
-        "thrill-mcq-03",
-        "thrill-mcq-04",
-        "thrill-mcq-05",
-        "thrill-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「thrill」指「突然、強烈而通常愉快的興奮／刺激感」。",
       "sentenceIndex": 47,
@@ -769,12 +667,8 @@ export default {
         "thrill"
       ],
       "optionReasons": {
-        "thrill-mcq-01": "本句指「突然、強烈而通常愉快的興奮／刺激感」。",
-        "thrill-mcq-02": "「一次短暫而明顯的興奮反應」與本句語境不同。",
-        "thrill-mcq-03": "「因做／經歷 X 而得到強烈刺激感」與本句語境不同。",
-        "thrill-mcq-04": "「純粹因為享受刺激本身而做某事」與本句語境不同。",
-        "thrill-mcq-05": "「本身令人高度興奮的活動／經歷」與本句語境不同。",
-        "thrill-mcq-06": "「因危險、速度、不確定性等產生的刺激感」與本句語境不同。"
+        "thrill-mcq-01": "本句的「thrill」指「突然、強烈而通常愉快的興奮／刺激感」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-01"
     },
@@ -786,11 +680,7 @@ export default {
       "masked": "He felt a ____ of fear.",
       "options": [
         "thrill-mcq-01",
-        "thrill-mcq-02",
-        "thrill-mcq-03",
-        "thrill-mcq-04",
-        "thrill-mcq-05",
-        "thrill-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「thrill」指「突然、強烈而通常愉快的興奮／刺激感」。",
       "sentenceIndex": 48,
@@ -799,12 +689,8 @@ export default {
         "thrill"
       ],
       "optionReasons": {
-        "thrill-mcq-01": "本句指「突然、強烈而通常愉快的興奮／刺激感」。",
-        "thrill-mcq-02": "「一次短暫而明顯的興奮反應」與本句語境不同。",
-        "thrill-mcq-03": "「因做／經歷 X 而得到強烈刺激感」與本句語境不同。",
-        "thrill-mcq-04": "「純粹因為享受刺激本身而做某事」與本句語境不同。",
-        "thrill-mcq-05": "「本身令人高度興奮的活動／經歷」與本句語境不同。",
-        "thrill-mcq-06": "「因危險、速度、不確定性等產生的刺激感」與本句語境不同。"
+        "thrill-mcq-01": "本句的「thrill」指「突然、強烈而通常愉快的興奮／刺激感」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-01"
     },
@@ -816,11 +702,7 @@ export default {
       "masked": "She felt a ____ in the dark.",
       "options": [
         "thrill-mcq-13",
-        "thrill-mcq-12",
-        "thrill-mcq-14",
-        "thrill-mcq-11",
-        "thrill-mcq-15",
-        "thrill-mcq-10"
+        "thrill-mcq-19"
       ],
       "explanation": "本句的「thrill of fear」指「恐懼與興奮同時出現的戰慄／刺激感」。",
       "sentenceIndex": 49,
@@ -829,12 +711,8 @@ export default {
         "thrill of fear"
       ],
       "optionReasons": {
-        "thrill-mcq-13": "本句指「恐懼與興奮同時出現的戰慄／刺激感」。",
-        "thrill-mcq-12": "「作品／活動中令人緊張興奮的刺激場面」與本句語境不同。",
-        "thrill-mcq-14": "「因浪漫吸引或期待而產生的突然心動」與本句語境不同。",
-        "thrill-mcq-11": "「能令人產生強烈興奮／刺激感的」與本句語境不同。",
-        "thrill-mcq-15": "「容易取得、短暫而較膚淺的刺激快感」與本句語境不同。",
-        "thrill-mcq-10": "「感到非常高興和興奮的」與本句語境不同。"
+        "thrill-mcq-13": "本句的「thrill of fear」指「恐懼與興奮同時出現的戰慄／刺激感」。",
+        "thrill-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-13"
     },
@@ -846,11 +724,7 @@ export default {
       "masked": "The haunted house offers a controlled ____ of fear.",
       "options": [
         "thrill-mcq-13",
-        "thrill-mcq-12",
-        "thrill-mcq-14",
-        "thrill-mcq-11",
-        "thrill-mcq-15",
-        "thrill-mcq-10"
+        "thrill-mcq-19"
       ],
       "explanation": "本句的「thrill」指「恐懼與興奮同時出現的戰慄／刺激感」。",
       "sentenceIndex": 50,
@@ -859,12 +733,8 @@ export default {
         "thrill"
       ],
       "optionReasons": {
-        "thrill-mcq-13": "本句指「恐懼與興奮同時出現的戰慄／刺激感」。",
-        "thrill-mcq-12": "「作品／活動中令人緊張興奮的刺激場面」與本句語境不同。",
-        "thrill-mcq-14": "「因浪漫吸引或期待而產生的突然心動」與本句語境不同。",
-        "thrill-mcq-11": "「能令人產生強烈興奮／刺激感的」與本句語境不同。",
-        "thrill-mcq-15": "「容易取得、短暫而較膚淺的刺激快感」與本句語境不同。",
-        "thrill-mcq-10": "「感到非常高興和興奮的」與本句語境不同。"
+        "thrill-mcq-13": "本句的「thrill」指「恐懼與興奮同時出現的戰慄／刺激感」。",
+        "thrill-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-13"
     },
@@ -876,11 +746,8 @@ export default {
       "masked": "The film relies on ____.",
       "options": [
         "thrill-mcq-15",
-        "thrill-mcq-14",
-        "thrill-mcq-16",
-        "thrill-mcq-13",
-        "thrill-mcq-17",
-        "thrill-mcq-12"
+        "thrill-mcq-18",
+        "thrill-mcq-05"
       ],
       "explanation": "本句的「cheap thrills」指「容易取得、短暫而較膚淺的刺激快感」。",
       "sentenceIndex": 57,
@@ -889,12 +756,9 @@ export default {
         "cheap thrills"
       ],
       "optionReasons": {
-        "thrill-mcq-15": "本句指「容易取得、短暫而較膚淺的刺激快感」。",
-        "thrill-mcq-14": "「因浪漫吸引或期待而產生的突然心動」與本句語境不同。",
-        "thrill-mcq-16": "「以懸疑、危險、緊張和刺激為核心的作品」與本句語境不同。",
-        "thrill-mcq-13": "「恐懼與興奮同時出現的戰慄／刺激感」與本句語境不同。",
-        "thrill-mcq-17": "「結果極接近、過程高度刺激的精彩比賽」與本句語境不同。",
-        "thrill-mcq-12": "「作品／活動中令人緊張興奮的刺激場面」與本句語境不同。"
+        "thrill-mcq-15": "本句的「cheap thrills」指「容易取得、短暫而較膚淺的刺激快感」。",
+        "thrill-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thrill-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-15"
     },
@@ -906,11 +770,8 @@ export default {
       "masked": "He was chasing cheap ____ rather than meaningful experiences.",
       "options": [
         "thrill-mcq-15",
-        "thrill-mcq-14",
-        "thrill-mcq-16",
-        "thrill-mcq-13",
-        "thrill-mcq-17",
-        "thrill-mcq-12"
+        "thrill-mcq-05",
+        "thrill-mcq-18"
       ],
       "explanation": "本句的「thrills」指「容易取得、短暫而較膚淺的刺激快感」。",
       "sentenceIndex": 58,
@@ -919,12 +780,9 @@ export default {
         "thrills"
       ],
       "optionReasons": {
-        "thrill-mcq-15": "本句指「容易取得、短暫而較膚淺的刺激快感」。",
-        "thrill-mcq-14": "「因浪漫吸引或期待而產生的突然心動」與本句語境不同。",
-        "thrill-mcq-16": "「以懸疑、危險、緊張和刺激為核心的作品」與本句語境不同。",
-        "thrill-mcq-13": "「恐懼與興奮同時出現的戰慄／刺激感」與本句語境不同。",
-        "thrill-mcq-17": "「結果極接近、過程高度刺激的精彩比賽」與本句語境不同。",
-        "thrill-mcq-12": "「作品／活動中令人緊張興奮的刺激場面」與本句語境不同。"
+        "thrill-mcq-15": "本句的「thrills」指「容易取得、短暫而較膚淺的刺激快感」。",
+        "thrill-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thrill-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-15"
     },
@@ -936,11 +794,8 @@ export default {
       "masked": "I’m ____ about the change.",
       "options": [
         "thrill-mcq-18",
-        "thrill-mcq-17",
-        "thrill-mcq-19",
         "thrill-mcq-16",
-        "thrill-mcq-20",
-        "thrill-mcq-15"
+        "thrill-mcq-05"
       ],
       "explanation": "本句的「not thrilled」指「實際上不太高興／不太滿意的委婉表達」。",
       "sentenceIndex": 73,
@@ -949,12 +804,9 @@ export default {
         "not thrilled"
       ],
       "optionReasons": {
-        "thrill-mcq-18": "本句指「實際上不太高興／不太滿意的委婉表達」。",
-        "thrill-mcq-17": "「結果極接近、過程高度刺激的精彩比賽」與本句語境不同。",
-        "thrill-mcq-19": "「享受追逐過程本身，而未必重視最後所得」與本句語境不同。",
-        "thrill-mcq-16": "「以懸疑、危險、緊張和刺激為核心的作品」與本句語境不同。",
-        "thrill-mcq-20": "「原本強烈的興奮／新鮮感隨時間逐漸消退」與本句語境不同。",
-        "thrill-mcq-15": "「容易取得、短暫而較膚淺的刺激快感」與本句語境不同。"
+        "thrill-mcq-18": "本句的「not thrilled」指「實際上不太高興／不太滿意的委婉表達」。",
+        "thrill-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thrill-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-18"
     },
@@ -966,11 +818,8 @@ export default {
       "masked": "Her parents were not ____ with the idea.",
       "options": [
         "thrill-mcq-18",
-        "thrill-mcq-17",
-        "thrill-mcq-19",
-        "thrill-mcq-16",
-        "thrill-mcq-20",
-        "thrill-mcq-15"
+        "thrill-mcq-15",
+        "thrill-mcq-05"
       ],
       "explanation": "本句的「thrilled」指「實際上不太高興／不太滿意的委婉表達」。",
       "sentenceIndex": 74,
@@ -979,12 +828,9 @@ export default {
         "thrilled"
       ],
       "optionReasons": {
-        "thrill-mcq-18": "本句指「實際上不太高興／不太滿意的委婉表達」。",
-        "thrill-mcq-17": "「結果極接近、過程高度刺激的精彩比賽」與本句語境不同。",
-        "thrill-mcq-19": "「享受追逐過程本身，而未必重視最後所得」與本句語境不同。",
-        "thrill-mcq-16": "「以懸疑、危險、緊張和刺激為核心的作品」與本句語境不同。",
-        "thrill-mcq-20": "「原本強烈的興奮／新鮮感隨時間逐漸消退」與本句語境不同。",
-        "thrill-mcq-15": "「容易取得、短暫而較膚淺的刺激快感」與本句語境不同。"
+        "thrill-mcq-18": "本句的「thrilled」指「實際上不太高興／不太滿意的委婉表達」。",
+        "thrill-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "thrill-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-18"
     },
@@ -996,11 +842,7 @@ export default {
       "masked": "It is a ____.",
       "options": [
         "thrill-mcq-16",
-        "thrill-mcq-15",
-        "thrill-mcq-17",
-        "thrill-mcq-14",
-        "thrill-mcq-18",
-        "thrill-mcq-13"
+        "thrill-mcq-19"
       ],
       "explanation": "本句的「thriller」指「以懸疑、危險、緊張和刺激為核心的作品」。",
       "sentenceIndex": 83,
@@ -1009,12 +851,8 @@ export default {
         "thriller"
       ],
       "optionReasons": {
-        "thrill-mcq-16": "本句指「以懸疑、危險、緊張和刺激為核心的作品」。",
-        "thrill-mcq-15": "「容易取得、短暫而較膚淺的刺激快感」與本句語境不同。",
-        "thrill-mcq-17": "「結果極接近、過程高度刺激的精彩比賽」與本句語境不同。",
-        "thrill-mcq-14": "「因浪漫吸引或期待而產生的突然心動」與本句語境不同。",
-        "thrill-mcq-18": "「實際上不太高興／不太滿意的委婉表達」與本句語境不同。",
-        "thrill-mcq-13": "「恐懼與興奮同時出現的戰慄／刺激感」與本句語境不同。"
+        "thrill-mcq-16": "本句的「thriller」指「以懸疑、危險、緊張和刺激為核心的作品」。",
+        "thrill-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-16"
     },
@@ -1026,11 +864,7 @@ export default {
       "masked": "For him, it was all about ____.",
       "options": [
         "thrill-mcq-19",
-        "thrill-mcq-18",
-        "thrill-mcq-20",
-        "thrill-mcq-17",
-        "thrill-mcq-16",
-        "thrill-mcq-15"
+        "thrill-mcq-12"
       ],
       "explanation": "本句的「the thrill of the chase」指「享受追逐過程本身，而未必重視最後所得」。",
       "sentenceIndex": 93,
@@ -1039,12 +873,8 @@ export default {
         "the thrill of the chase"
       ],
       "optionReasons": {
-        "thrill-mcq-19": "本句指「享受追逐過程本身，而未必重視最後所得」。",
-        "thrill-mcq-18": "「實際上不太高興／不太滿意的委婉表達」與本句語境不同。",
-        "thrill-mcq-20": "「原本強烈的興奮／新鮮感隨時間逐漸消退」與本句語境不同。",
-        "thrill-mcq-17": "「結果極接近、過程高度刺激的精彩比賽」與本句語境不同。",
-        "thrill-mcq-16": "「以懸疑、危險、緊張和刺激為核心的作品」與本句語境不同。",
-        "thrill-mcq-15": "「容易取得、短暫而較膚淺的刺激快感」與本句語境不同。"
+        "thrill-mcq-19": "本句的「the thrill of the chase」指「享受追逐過程本身，而未必重視最後所得」。",
+        "thrill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-19"
     },
@@ -1056,11 +886,7 @@ export default {
       "masked": "She enjoyed the ____ of the chase more than the final prize.",
       "options": [
         "thrill-mcq-19",
-        "thrill-mcq-18",
-        "thrill-mcq-20",
-        "thrill-mcq-17",
-        "thrill-mcq-16",
-        "thrill-mcq-15"
+        "thrill-mcq-08"
       ],
       "explanation": "本句的「thrill」指「享受追逐過程本身，而未必重視最後所得」。",
       "sentenceIndex": 94,
@@ -1069,12 +895,8 @@ export default {
         "thrill"
       ],
       "optionReasons": {
-        "thrill-mcq-19": "本句指「享受追逐過程本身，而未必重視最後所得」。",
-        "thrill-mcq-18": "「實際上不太高興／不太滿意的委婉表達」與本句語境不同。",
-        "thrill-mcq-20": "「原本強烈的興奮／新鮮感隨時間逐漸消退」與本句語境不同。",
-        "thrill-mcq-17": "「結果極接近、過程高度刺激的精彩比賽」與本句語境不同。",
-        "thrill-mcq-16": "「以懸疑、危險、緊張和刺激為核心的作品」與本句語境不同。",
-        "thrill-mcq-15": "「容易取得、短暫而較膚淺的刺激快感」與本句語境不同。"
+        "thrill-mcq-19": "本句的「thrill」指「享受追逐過程本身，而未必重視最後所得」。",
+        "thrill-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thrill-mcq-19"
     }
@@ -1086,5 +908,12 @@ export default {
     "sha256": "b13cf0728e533a2d6a37cf9125d062ffb39ec0b8edc15559ffdb2a59cbcf147a",
     "pages": 41
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -413,7 +413,7 @@ export default {
     },
     {
       "id": "cup-mcq-19",
-      "title": "表示杯子；茶杯；咖啡杯",
+      "title": "杯子；茶杯；咖啡杯",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示杯子；茶杯；咖啡杯",
@@ -443,11 +443,9 @@ export default {
       "masked": "She placed a ____ in front of the torch.",
       "options": [
         "cup-mcq-19",
-        "cup-mcq-18",
-        "cup-mcq-17",
-        "cup-mcq-16",
         "cup-mcq-15",
-        "cup-mcq-14"
+        "cup-mcq-05",
+        "cup-mcq-16"
       ],
       "explanation": "本句的「cup」指「表示杯子；茶杯；咖啡杯」。",
       "sentenceIndex": 0,
@@ -456,12 +454,10 @@ export default {
         "cup"
       ],
       "optionReasons": {
-        "cup-mcq-19": "本句指「表示杯子；茶杯；咖啡杯」。",
-        "cup-mcq-18": "「外形像杯子的；杯狀的」是「cup-shaped」的用法，與本句語境不同。",
-        "cup-mcq-17": "「一個杯子可盛裝的量」是「cupful」的用法，與本句語境不同。",
-        "cup-mcq-16": "「因小事引起過度反應；小題大作」是「a storm in a teacup」的用法，與本句語境不同。",
-        "cup-mcq-15": "「不是自己喜歡、感興趣或擅長的事物」是「not my cup of tea」的用法，與本句語境不同。",
-        "cup-mcq-14": "「利用杯具形成吸力的拔罐療法」是「cupping」的用法，與本句語境不同。"
+        "cup-mcq-19": "本句的「cup」指「表示杯子；茶杯；咖啡杯」。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-19"
     },
@@ -473,11 +469,9 @@ export default {
       "masked": "The shadow changed when she moved the ____ closer to the light.",
       "options": [
         "cup-mcq-19",
-        "cup-mcq-18",
-        "cup-mcq-17",
-        "cup-mcq-16",
+        "cup-mcq-13",
         "cup-mcq-15",
-        "cup-mcq-14"
+        "cup-mcq-16"
       ],
       "explanation": "本句的「cup」指「表示杯子；茶杯；咖啡杯」。",
       "sentenceIndex": 1,
@@ -486,12 +480,10 @@ export default {
         "cup"
       ],
       "optionReasons": {
-        "cup-mcq-19": "本句指「表示杯子；茶杯；咖啡杯」。",
-        "cup-mcq-18": "「外形像杯子的；杯狀的」是「cup-shaped」的用法，與本句語境不同。",
-        "cup-mcq-17": "「一個杯子可盛裝的量」是「cupful」的用法，與本句語境不同。",
-        "cup-mcq-16": "「因小事引起過度反應；小題大作」是「a storm in a teacup」的用法，與本句語境不同。",
-        "cup-mcq-15": "「不是自己喜歡、感興趣或擅長的事物」是「not my cup of tea」的用法，與本句語境不同。",
-        "cup-mcq-14": "「利用杯具形成吸力的拔罐療法」是「cupping」的用法，與本句語境不同。"
+        "cup-mcq-19": "本句的「cup」指「表示杯子；茶杯；咖啡杯」。",
+        "cup-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-19"
     },
@@ -503,11 +495,9 @@ export default {
       "masked": "She poured tea into a ____.",
       "options": [
         "cup-mcq-01",
-        "cup-mcq-02",
-        "cup-mcq-03",
-        "cup-mcq-04",
-        "cup-mcq-05",
-        "cup-mcq-06"
+        "cup-mcq-06",
+        "cup-mcq-11",
+        "cup-mcq-15"
       ],
       "explanation": "本句的「cup」指「用來盛飲料的小型容器，通常有杯口並常帶把手；杯子」。",
       "sentenceIndex": 2,
@@ -516,12 +506,10 @@ export default {
         "cup"
       ],
       "optionReasons": {
-        "cup-mcq-01": "本句指「用來盛飲料的小型容器，通常有杯口並常帶把手；杯子」。",
-        "cup-mcq-02": "「一杯某種飲料或食物的量」是「a cup of + drink/food」的用法，與本句語境不同。",
-        "cup-mcq-03": "「烹飪中以一杯為單位的容量量度」是「cup — measurement」的用法，與本句語境不同。",
-        "cup-mcq-04": "「用來量取液體或食材容量的量杯」是「measuring cup」的用法，與本句語境不同。",
-        "cup-mcq-05": "「比賽頒給優勝者的獎盃」是「cup — trophy」的用法，與本句語境不同。",
-        "cup-mcq-06": "「以獎盃為象徵的盃賽／淘汰賽事」是「the Cup — competition」的用法，與本句語境不同。"
+        "cup-mcq-01": "本句的「cup」指「用來盛飲料的小型容器，通常有杯口並常帶把手；杯子」。",
+        "cup-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-01"
     },
@@ -533,11 +521,9 @@ export default {
       "masked": "He left his coffee ____ on the desk.",
       "options": [
         "cup-mcq-01",
-        "cup-mcq-02",
-        "cup-mcq-03",
-        "cup-mcq-04",
-        "cup-mcq-05",
-        "cup-mcq-06"
+        "cup-mcq-06",
+        "cup-mcq-11",
+        "cup-mcq-15"
       ],
       "explanation": "本句的「cup」指「用來盛飲料的小型容器，通常有杯口並常帶把手；杯子」。",
       "sentenceIndex": 3,
@@ -546,12 +532,10 @@ export default {
         "cup"
       ],
       "optionReasons": {
-        "cup-mcq-01": "本句指「用來盛飲料的小型容器，通常有杯口並常帶把手；杯子」。",
-        "cup-mcq-02": "「一杯某種飲料或食物的量」是「a cup of + drink/food」的用法，與本句語境不同。",
-        "cup-mcq-03": "「烹飪中以一杯為單位的容量量度」是「cup — measurement」的用法，與本句語境不同。",
-        "cup-mcq-04": "「用來量取液體或食材容量的量杯」是「measuring cup」的用法，與本句語境不同。",
-        "cup-mcq-05": "「比賽頒給優勝者的獎盃」是「cup — trophy」的用法，與本句語境不同。",
-        "cup-mcq-06": "「以獎盃為象徵的盃賽／淘汰賽事」是「the Cup — competition」的用法，與本句語境不同。"
+        "cup-mcq-01": "本句的「cup」指「用來盛飲料的小型容器，通常有杯口並常帶把手；杯子」。",
+        "cup-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-01"
     },
@@ -563,11 +547,9 @@ export default {
       "masked": "I’d like a ____.",
       "options": [
         "cup-mcq-02",
-        "cup-mcq-01",
-        "cup-mcq-03",
-        "cup-mcq-04",
-        "cup-mcq-05",
-        "cup-mcq-06"
+        "cup-mcq-15",
+        "cup-mcq-11",
+        "cup-mcq-16"
       ],
       "explanation": "本句的「cup of tea」指「一杯某種飲料或食物的量」。",
       "sentenceIndex": 4,
@@ -576,12 +558,10 @@ export default {
         "cup of tea"
       ],
       "optionReasons": {
-        "cup-mcq-02": "本句指「一杯某種飲料或食物的量」。",
-        "cup-mcq-01": "「用來盛飲料的小型容器，通常有杯口並常帶把手；杯子」是「cup — drinking container」的用法，與本句語境不同。",
-        "cup-mcq-03": "「烹飪中以一杯為單位的容量量度」是「cup — measurement」的用法，與本句語境不同。",
-        "cup-mcq-04": "「用來量取液體或食材容量的量杯」是「measuring cup」的用法，與本句語境不同。",
-        "cup-mcq-05": "「比賽頒給優勝者的獎盃」是「cup — trophy」的用法，與本句語境不同。",
-        "cup-mcq-06": "「以獎盃為象徵的盃賽／淘汰賽事」是「the Cup — competition」的用法，與本句語境不同。"
+        "cup-mcq-02": "本句的「cup of tea」指「一杯某種飲料或食物的量」。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-02"
     },
@@ -593,11 +573,9 @@ export default {
       "masked": "She drank two ____.",
       "options": [
         "cup-mcq-02",
-        "cup-mcq-01",
-        "cup-mcq-03",
-        "cup-mcq-04",
-        "cup-mcq-05",
-        "cup-mcq-06"
+        "cup-mcq-06",
+        "cup-mcq-15",
+        "cup-mcq-16"
       ],
       "explanation": "本句的「cups of coffee」指「一杯某種飲料或食物的量」。",
       "sentenceIndex": 5,
@@ -606,12 +584,10 @@ export default {
         "cups of coffee"
       ],
       "optionReasons": {
-        "cup-mcq-02": "本句指「一杯某種飲料或食物的量」。",
-        "cup-mcq-01": "「用來盛飲料的小型容器，通常有杯口並常帶把手；杯子」是「cup — drinking container」的用法，與本句語境不同。",
-        "cup-mcq-03": "「烹飪中以一杯為單位的容量量度」是「cup — measurement」的用法，與本句語境不同。",
-        "cup-mcq-04": "「用來量取液體或食材容量的量杯」是「measuring cup」的用法，與本句語境不同。",
-        "cup-mcq-05": "「比賽頒給優勝者的獎盃」是「cup — trophy」的用法，與本句語境不同。",
-        "cup-mcq-06": "「以獎盃為象徵的盃賽／淘汰賽事」是「the Cup — competition」的用法，與本句語境不同。"
+        "cup-mcq-02": "本句的「cups of coffee」指「一杯某種飲料或食物的量」。",
+        "cup-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-02"
     },
@@ -623,11 +599,9 @@ export default {
       "masked": "Add one ____.",
       "options": [
         "cup-mcq-03",
-        "cup-mcq-02",
-        "cup-mcq-04",
-        "cup-mcq-01",
+        "cup-mcq-15",
         "cup-mcq-05",
-        "cup-mcq-06"
+        "cup-mcq-13"
       ],
       "explanation": "本句的「cup of flour」指「烹飪中以一杯為單位的容量量度」。",
       "sentenceIndex": 6,
@@ -636,12 +610,10 @@ export default {
         "cup of flour"
       ],
       "optionReasons": {
-        "cup-mcq-03": "本句指「烹飪中以一杯為單位的容量量度」。",
-        "cup-mcq-02": "「一杯某種飲料或食物的量」是「a cup of + drink/food」的用法，與本句語境不同。",
-        "cup-mcq-04": "「用來量取液體或食材容量的量杯」是「measuring cup」的用法，與本句語境不同。",
-        "cup-mcq-01": "「用來盛飲料的小型容器，通常有杯口並常帶把手；杯子」是「cup — drinking container」的用法，與本句語境不同。",
-        "cup-mcq-05": "「比賽頒給優勝者的獎盃」是「cup — trophy」的用法，與本句語境不同。",
-        "cup-mcq-06": "「以獎盃為象徵的盃賽／淘汰賽事」是「the Cup — competition」的用法，與本句語境不同。"
+        "cup-mcq-03": "本句的「cup of flour」指「烹飪中以一杯為單位的容量量度」。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-03"
     },
@@ -653,11 +625,9 @@ export default {
       "masked": "The recipe calls for half a ____.",
       "options": [
         "cup-mcq-03",
-        "cup-mcq-02",
-        "cup-mcq-04",
-        "cup-mcq-01",
         "cup-mcq-05",
-        "cup-mcq-06"
+        "cup-mcq-13",
+        "cup-mcq-15"
       ],
       "explanation": "本句的「cup of sugar」指「烹飪中以一杯為單位的容量量度」。",
       "sentenceIndex": 7,
@@ -666,12 +636,10 @@ export default {
         "cup of sugar"
       ],
       "optionReasons": {
-        "cup-mcq-03": "本句指「烹飪中以一杯為單位的容量量度」。",
-        "cup-mcq-02": "「一杯某種飲料或食物的量」是「a cup of + drink/food」的用法，與本句語境不同。",
-        "cup-mcq-04": "「用來量取液體或食材容量的量杯」是「measuring cup」的用法，與本句語境不同。",
-        "cup-mcq-01": "「用來盛飲料的小型容器，通常有杯口並常帶把手；杯子」是「cup — drinking container」的用法，與本句語境不同。",
-        "cup-mcq-05": "「比賽頒給優勝者的獎盃」是「cup — trophy」的用法，與本句語境不同。",
-        "cup-mcq-06": "「以獎盃為象徵的盃賽／淘汰賽事」是「the Cup — competition」的用法，與本句語境不同。"
+        "cup-mcq-03": "本句的「cup of sugar」指「烹飪中以一杯為單位的容量量度」。",
+        "cup-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-03"
     },
@@ -683,11 +651,9 @@ export default {
       "masked": "Use a ____ for the milk.",
       "options": [
         "cup-mcq-04",
-        "cup-mcq-03",
-        "cup-mcq-05",
-        "cup-mcq-02",
         "cup-mcq-06",
-        "cup-mcq-01"
+        "cup-mcq-13",
+        "cup-mcq-11"
       ],
       "explanation": "本句的「measuring cup」指「用來量取液體或食材容量的量杯」。",
       "sentenceIndex": 8,
@@ -696,12 +662,10 @@ export default {
         "measuring cup"
       ],
       "optionReasons": {
-        "cup-mcq-04": "本句指「用來量取液體或食材容量的量杯」。",
-        "cup-mcq-03": "「烹飪中以一杯為單位的容量量度」是「cup — measurement」的用法，與本句語境不同。",
-        "cup-mcq-05": "「比賽頒給優勝者的獎盃」是「cup — trophy」的用法，與本句語境不同。",
-        "cup-mcq-02": "「一杯某種飲料或食物的量」是「a cup of + drink/food」的用法，與本句語境不同。",
-        "cup-mcq-06": "「以獎盃為象徵的盃賽／淘汰賽事」是「the Cup — competition」的用法，與本句語境不同。",
-        "cup-mcq-01": "「用來盛飲料的小型容器，通常有杯口並常帶把手；杯子」是「cup — drinking container」的用法，與本句語境不同。"
+        "cup-mcq-04": "本句的「measuring cup」指「用來量取液體或食材容量的量杯」。",
+        "cup-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-04"
     },
@@ -713,11 +677,9 @@ export default {
       "masked": "She poured the water into a ____.",
       "options": [
         "cup-mcq-04",
-        "cup-mcq-03",
-        "cup-mcq-05",
-        "cup-mcq-02",
-        "cup-mcq-06",
-        "cup-mcq-01"
+        "cup-mcq-15",
+        "cup-mcq-16",
+        "cup-mcq-05"
       ],
       "explanation": "本句的「measuring cup」指「用來量取液體或食材容量的量杯」。",
       "sentenceIndex": 9,
@@ -726,12 +688,10 @@ export default {
         "measuring cup"
       ],
       "optionReasons": {
-        "cup-mcq-04": "本句指「用來量取液體或食材容量的量杯」。",
-        "cup-mcq-03": "「烹飪中以一杯為單位的容量量度」是「cup — measurement」的用法，與本句語境不同。",
-        "cup-mcq-05": "「比賽頒給優勝者的獎盃」是「cup — trophy」的用法，與本句語境不同。",
-        "cup-mcq-02": "「一杯某種飲料或食物的量」是「a cup of + drink/food」的用法，與本句語境不同。",
-        "cup-mcq-06": "「以獎盃為象徵的盃賽／淘汰賽事」是「the Cup — competition」的用法，與本句語境不同。",
-        "cup-mcq-01": "「用來盛飲料的小型容器，通常有杯口並常帶把手；杯子」是「cup — drinking container」的用法，與本句語境不同。"
+        "cup-mcq-04": "本句的「measuring cup」指「用來量取液體或食材容量的量杯」。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-04"
     },
@@ -744,10 +704,8 @@ export default {
       "options": [
         "cup-mcq-05",
         "cup-mcq-04",
-        "cup-mcq-06",
-        "cup-mcq-03",
-        "cup-mcq-07",
-        "cup-mcq-02"
+        "cup-mcq-09",
+        "cup-mcq-14"
       ],
       "explanation": "本句的「cup」指「比賽頒給優勝者的獎盃」。",
       "sentenceIndex": 10,
@@ -756,12 +714,10 @@ export default {
         "cup"
       ],
       "optionReasons": {
-        "cup-mcq-05": "本句指「比賽頒給優勝者的獎盃」。",
-        "cup-mcq-04": "「用來量取液體或食材容量的量杯」是「measuring cup」的用法，與本句語境不同。",
-        "cup-mcq-06": "「以獎盃為象徵的盃賽／淘汰賽事」是「the Cup — competition」的用法，與本句語境不同。",
-        "cup-mcq-03": "「烹飪中以一杯為單位的容量量度」是「cup — measurement」的用法，與本句語境不同。",
-        "cup-mcq-07": "「呈杯狀的凹槽、結構或部分」是「cup — cup-shaped hollow」的用法，與本句語境不同。",
-        "cup-mcq-02": "「一杯某種飲料或食物的量」是「a cup of + drink/food」的用法，與本句語境不同。"
+        "cup-mcq-05": "本句的「cup」指「比賽頒給優勝者的獎盃」。",
+        "cup-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-05"
     },
@@ -773,11 +729,9 @@ export default {
       "masked": "She lifted the ____ after the final.",
       "options": [
         "cup-mcq-05",
-        "cup-mcq-04",
-        "cup-mcq-06",
+        "cup-mcq-14",
         "cup-mcq-03",
-        "cup-mcq-07",
-        "cup-mcq-02"
+        "cup-mcq-09"
       ],
       "explanation": "本句的「cup」指「比賽頒給優勝者的獎盃」。",
       "sentenceIndex": 11,
@@ -786,12 +740,10 @@ export default {
         "cup"
       ],
       "optionReasons": {
-        "cup-mcq-05": "本句指「比賽頒給優勝者的獎盃」。",
-        "cup-mcq-04": "「用來量取液體或食材容量的量杯」是「measuring cup」的用法，與本句語境不同。",
-        "cup-mcq-06": "「以獎盃為象徵的盃賽／淘汰賽事」是「the Cup — competition」的用法，與本句語境不同。",
-        "cup-mcq-03": "「烹飪中以一杯為單位的容量量度」是「cup — measurement」的用法，與本句語境不同。",
-        "cup-mcq-07": "「呈杯狀的凹槽、結構或部分」是「cup — cup-shaped hollow」的用法，與本句語境不同。",
-        "cup-mcq-02": "「一杯某種飲料或食物的量」是「a cup of + drink/food」的用法，與本句語境不同。"
+        "cup-mcq-05": "本句的「cup」指「比賽頒給優勝者的獎盃」。",
+        "cup-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-05"
     },
@@ -803,11 +755,9 @@ export default {
       "masked": "They reached the ____.",
       "options": [
         "cup-mcq-06",
-        "cup-mcq-05",
-        "cup-mcq-07",
-        "cup-mcq-04",
-        "cup-mcq-08",
-        "cup-mcq-03"
+        "cup-mcq-09",
+        "cup-mcq-10",
+        "cup-mcq-04"
       ],
       "explanation": "本句的「Cup final」指「以獎盃為象徵的盃賽／淘汰賽事」。",
       "sentenceIndex": 12,
@@ -816,12 +766,10 @@ export default {
         "Cup final"
       ],
       "optionReasons": {
-        "cup-mcq-06": "本句指「以獎盃為象徵的盃賽／淘汰賽事」。",
-        "cup-mcq-05": "「比賽頒給優勝者的獎盃」是「cup — trophy」的用法，與本句語境不同。",
-        "cup-mcq-07": "「呈杯狀的凹槽、結構或部分」是「cup — cup-shaped hollow」的用法，與本句語境不同。",
-        "cup-mcq-04": "「用來量取液體或食材容量的量杯」是「measuring cup」的用法，與本句語境不同。",
-        "cup-mcq-08": "「胸罩中承托胸部的罩杯」是「cup — bra」的用法，與本句語境不同。",
-        "cup-mcq-03": "「烹飪中以一杯為單位的容量量度」是「cup — measurement」的用法，與本句語境不同。"
+        "cup-mcq-06": "本句的「Cup final」指「以獎盃為象徵的盃賽／淘汰賽事」。",
+        "cup-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-06"
     },
@@ -833,11 +781,9 @@ export default {
       "masked": "The club was knocked out of the ____.",
       "options": [
         "cup-mcq-06",
-        "cup-mcq-05",
-        "cup-mcq-07",
-        "cup-mcq-04",
+        "cup-mcq-12",
         "cup-mcq-08",
-        "cup-mcq-03"
+        "cup-mcq-01"
       ],
       "explanation": "本句的「Cup」指「以獎盃為象徵的盃賽／淘汰賽事」。",
       "sentenceIndex": 13,
@@ -846,12 +792,10 @@ export default {
         "Cup"
       ],
       "optionReasons": {
-        "cup-mcq-06": "本句指「以獎盃為象徵的盃賽／淘汰賽事」。",
-        "cup-mcq-05": "「比賽頒給優勝者的獎盃」是「cup — trophy」的用法，與本句語境不同。",
-        "cup-mcq-07": "「呈杯狀的凹槽、結構或部分」是「cup — cup-shaped hollow」的用法，與本句語境不同。",
-        "cup-mcq-04": "「用來量取液體或食材容量的量杯」是「measuring cup」的用法，與本句語境不同。",
-        "cup-mcq-08": "「胸罩中承托胸部的罩杯」是「cup — bra」的用法，與本句語境不同。",
-        "cup-mcq-03": "「烹飪中以一杯為單位的容量量度」是「cup — measurement」的用法，與本句語境不同。"
+        "cup-mcq-06": "本句的「Cup」指「以獎盃為象徵的盃賽／淘汰賽事」。",
+        "cup-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-06"
     },
@@ -864,10 +808,8 @@ export default {
       "options": [
         "cup-mcq-07",
         "cup-mcq-06",
-        "cup-mcq-08",
-        "cup-mcq-05",
-        "cup-mcq-09",
-        "cup-mcq-04"
+        "cup-mcq-15",
+        "cup-mcq-11"
       ],
       "explanation": "本句的「cup」指「呈杯狀的凹槽、結構或部分」。",
       "sentenceIndex": 14,
@@ -876,12 +818,10 @@ export default {
         "cup"
       ],
       "optionReasons": {
-        "cup-mcq-07": "本句指「呈杯狀的凹槽、結構或部分」。",
-        "cup-mcq-06": "「以獎盃為象徵的盃賽／淘汰賽事」是「the Cup — competition」的用法，與本句語境不同。",
-        "cup-mcq-08": "「胸罩中承托胸部的罩杯」是「cup — bra」的用法，與本句語境不同。",
-        "cup-mcq-05": "「比賽頒給優勝者的獎盃」是「cup — trophy」的用法，與本句語境不同。",
-        "cup-mcq-09": "「胸罩罩杯大小的尺寸分類」是「cup size」的用法，與本句語境不同。",
-        "cup-mcq-04": "「用來量取液體或食材容量的量杯」是「measuring cup」的用法，與本句語境不同。"
+        "cup-mcq-07": "本句的「cup」指「呈杯狀的凹槽、結構或部分」。",
+        "cup-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-07"
     },
@@ -893,11 +833,9 @@ export default {
       "masked": "The object fits into a small ____.",
       "options": [
         "cup-mcq-07",
+        "cup-mcq-13",
         "cup-mcq-06",
-        "cup-mcq-08",
-        "cup-mcq-05",
-        "cup-mcq-09",
-        "cup-mcq-04"
+        "cup-mcq-15"
       ],
       "explanation": "本句的「cup-shaped hollow」指「呈杯狀的凹槽、結構或部分」。",
       "sentenceIndex": 15,
@@ -906,12 +844,10 @@ export default {
         "cup-shaped hollow"
       ],
       "optionReasons": {
-        "cup-mcq-07": "本句指「呈杯狀的凹槽、結構或部分」。",
-        "cup-mcq-06": "「以獎盃為象徵的盃賽／淘汰賽事」是「the Cup — competition」的用法，與本句語境不同。",
-        "cup-mcq-08": "「胸罩中承托胸部的罩杯」是「cup — bra」的用法，與本句語境不同。",
-        "cup-mcq-05": "「比賽頒給優勝者的獎盃」是「cup — trophy」的用法，與本句語境不同。",
-        "cup-mcq-09": "「胸罩罩杯大小的尺寸分類」是「cup size」的用法，與本句語境不同。",
-        "cup-mcq-04": "「用來量取液體或食材容量的量杯」是「measuring cup」的用法，與本句語境不同。"
+        "cup-mcq-07": "本句的「cup-shaped hollow」指「呈杯狀的凹槽、結構或部分」。",
+        "cup-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-07"
     },
@@ -923,10 +859,8 @@ export default {
       "masked": "The bra comes in several ____.",
       "options": [
         "cup-mcq-08",
-        "cup-mcq-07",
-        "cup-mcq-09",
-        "cup-mcq-06",
-        "cup-mcq-10",
+        "cup-mcq-15",
+        "cup-mcq-13",
         "cup-mcq-05"
       ],
       "explanation": "本句的「cup sizes」指「胸罩中承托胸部的罩杯」。",
@@ -936,12 +870,10 @@ export default {
         "cup sizes"
       ],
       "optionReasons": {
-        "cup-mcq-08": "本句指「胸罩中承托胸部的罩杯」。",
-        "cup-mcq-07": "「呈杯狀的凹槽、結構或部分」是「cup — cup-shaped hollow」的用法，與本句語境不同。",
-        "cup-mcq-09": "「胸罩罩杯大小的尺寸分類」是「cup size」的用法，與本句語境不同。",
-        "cup-mcq-06": "「以獎盃為象徵的盃賽／淘汰賽事」是「the Cup — competition」的用法，與本句語境不同。",
-        "cup-mcq-10": "「高爾夫果嶺上的球洞／球杯」是「cup — golf」的用法，與本句語境不同。",
-        "cup-mcq-05": "「比賽頒給優勝者的獎盃」是「cup — trophy」的用法，與本句語境不同。"
+        "cup-mcq-08": "本句的「cup sizes」指「胸罩中承托胸部的罩杯」。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-08"
     },
@@ -953,11 +885,9 @@ export default {
       "masked": "She checked the correct ____.",
       "options": [
         "cup-mcq-08",
-        "cup-mcq-07",
-        "cup-mcq-09",
         "cup-mcq-06",
-        "cup-mcq-10",
-        "cup-mcq-05"
+        "cup-mcq-13",
+        "cup-mcq-15"
       ],
       "explanation": "本句的「cup size」指「胸罩中承托胸部的罩杯」。",
       "sentenceIndex": 17,
@@ -966,12 +896,10 @@ export default {
         "cup size"
       ],
       "optionReasons": {
-        "cup-mcq-08": "本句指「胸罩中承托胸部的罩杯」。",
-        "cup-mcq-07": "「呈杯狀的凹槽、結構或部分」是「cup — cup-shaped hollow」的用法，與本句語境不同。",
-        "cup-mcq-09": "「胸罩罩杯大小的尺寸分類」是「cup size」的用法，與本句語境不同。",
-        "cup-mcq-06": "「以獎盃為象徵的盃賽／淘汰賽事」是「the Cup — competition」的用法，與本句語境不同。",
-        "cup-mcq-10": "「高爾夫果嶺上的球洞／球杯」是「cup — golf」的用法，與本句語境不同。",
-        "cup-mcq-05": "「比賽頒給優勝者的獎盃」是「cup — trophy」的用法，與本句語境不同。"
+        "cup-mcq-08": "本句的「cup size」指「胸罩中承托胸部的罩杯」。",
+        "cup-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-08"
     },
@@ -983,11 +911,9 @@ export default {
       "masked": "____ is only one part of bra sizing.",
       "options": [
         "cup-mcq-09",
-        "cup-mcq-08",
-        "cup-mcq-10",
-        "cup-mcq-07",
         "cup-mcq-11",
-        "cup-mcq-06"
+        "cup-mcq-13",
+        "cup-mcq-15"
       ],
       "explanation": "本句的「Cup size」指「胸罩罩杯大小的尺寸分類」。",
       "sentenceIndex": 18,
@@ -996,12 +922,10 @@ export default {
         "Cup size"
       ],
       "optionReasons": {
-        "cup-mcq-09": "本句指「胸罩罩杯大小的尺寸分類」。",
-        "cup-mcq-08": "「胸罩中承托胸部的罩杯」是「cup — bra」的用法，與本句語境不同。",
-        "cup-mcq-10": "「高爾夫果嶺上的球洞／球杯」是「cup — golf」的用法，與本句語境不同。",
-        "cup-mcq-07": "「呈杯狀的凹槽、結構或部分」是「cup — cup-shaped hollow」的用法，與本句語境不同。",
-        "cup-mcq-11": "「利用吸力附著在表面的吸盤」是「suction cup」的用法，與本句語境不同。",
-        "cup-mcq-06": "「以獎盃為象徵的盃賽／淘汰賽事」是「the Cup — competition」的用法，與本句語境不同。"
+        "cup-mcq-09": "本句的「Cup size」指「胸罩罩杯大小的尺寸分類」。",
+        "cup-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-09"
     },
@@ -1013,11 +937,9 @@ export default {
       "masked": "The store offers a wide range of ____.",
       "options": [
         "cup-mcq-09",
-        "cup-mcq-08",
-        "cup-mcq-10",
-        "cup-mcq-07",
-        "cup-mcq-11",
-        "cup-mcq-06"
+        "cup-mcq-06",
+        "cup-mcq-15",
+        "cup-mcq-13"
       ],
       "explanation": "本句的「cup sizes」指「胸罩罩杯大小的尺寸分類」。",
       "sentenceIndex": 19,
@@ -1026,12 +948,10 @@ export default {
         "cup sizes"
       ],
       "optionReasons": {
-        "cup-mcq-09": "本句指「胸罩罩杯大小的尺寸分類」。",
-        "cup-mcq-08": "「胸罩中承托胸部的罩杯」是「cup — bra」的用法，與本句語境不同。",
-        "cup-mcq-10": "「高爾夫果嶺上的球洞／球杯」是「cup — golf」的用法，與本句語境不同。",
-        "cup-mcq-07": "「呈杯狀的凹槽、結構或部分」是「cup — cup-shaped hollow」的用法，與本句語境不同。",
-        "cup-mcq-11": "「利用吸力附著在表面的吸盤」是「suction cup」的用法，與本句語境不同。",
-        "cup-mcq-06": "「以獎盃為象徵的盃賽／淘汰賽事」是「the Cup — competition」的用法，與本句語境不同。"
+        "cup-mcq-09": "本句的「cup sizes」指「胸罩罩杯大小的尺寸分類」。",
+        "cup-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-09"
     },
@@ -1043,11 +963,9 @@ export default {
       "masked": "The ball stopped just short of the ____.",
       "options": [
         "cup-mcq-10",
-        "cup-mcq-09",
-        "cup-mcq-11",
-        "cup-mcq-08",
-        "cup-mcq-12",
-        "cup-mcq-07"
+        "cup-mcq-13",
+        "cup-mcq-06",
+        "cup-mcq-15"
       ],
       "explanation": "本句的「cup」指「高爾夫果嶺上的球洞／球杯」。",
       "sentenceIndex": 20,
@@ -1056,12 +974,10 @@ export default {
         "cup"
       ],
       "optionReasons": {
-        "cup-mcq-10": "本句指「高爾夫果嶺上的球洞／球杯」。",
-        "cup-mcq-09": "「胸罩罩杯大小的尺寸分類」是「cup size」的用法，與本句語境不同。",
-        "cup-mcq-11": "「利用吸力附著在表面的吸盤」是「suction cup」的用法，與本句語境不同。",
-        "cup-mcq-08": "「胸罩中承托胸部的罩杯」是「cup — bra」的用法，與本句語境不同。",
-        "cup-mcq-12": "「把雙手彎曲合攏成杯狀」是「cup your hands」的用法，與本句語境不同。",
-        "cup-mcq-07": "「呈杯狀的凹槽、結構或部分」是「cup — cup-shaped hollow」的用法，與本句語境不同。"
+        "cup-mcq-10": "本句的「cup」指「高爾夫果嶺上的球洞／球杯」。",
+        "cup-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-10"
     },
@@ -1073,11 +989,9 @@ export default {
       "masked": "He rolled the ball into the ____.",
       "options": [
         "cup-mcq-10",
-        "cup-mcq-09",
-        "cup-mcq-11",
-        "cup-mcq-08",
-        "cup-mcq-12",
-        "cup-mcq-07"
+        "cup-mcq-16",
+        "cup-mcq-06",
+        "cup-mcq-11"
       ],
       "explanation": "本句的「cup」指「高爾夫果嶺上的球洞／球杯」。",
       "sentenceIndex": 21,
@@ -1086,12 +1000,10 @@ export default {
         "cup"
       ],
       "optionReasons": {
-        "cup-mcq-10": "本句指「高爾夫果嶺上的球洞／球杯」。",
-        "cup-mcq-09": "「胸罩罩杯大小的尺寸分類」是「cup size」的用法，與本句語境不同。",
-        "cup-mcq-11": "「利用吸力附著在表面的吸盤」是「suction cup」的用法，與本句語境不同。",
-        "cup-mcq-08": "「胸罩中承托胸部的罩杯」是「cup — bra」的用法，與本句語境不同。",
-        "cup-mcq-12": "「把雙手彎曲合攏成杯狀」是「cup your hands」的用法，與本句語境不同。",
-        "cup-mcq-07": "「呈杯狀的凹槽、結構或部分」是「cup — cup-shaped hollow」的用法，與本句語境不同。"
+        "cup-mcq-10": "本句的「cup」指「高爾夫果嶺上的球洞／球杯」。",
+        "cup-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-10"
     },
@@ -1105,9 +1017,7 @@ export default {
         "cup-mcq-11",
         "cup-mcq-10",
         "cup-mcq-12",
-        "cup-mcq-09",
-        "cup-mcq-13",
-        "cup-mcq-08"
+        "cup-mcq-09"
       ],
       "explanation": "本句的「suction cup」指「利用吸力附著在表面的吸盤」。",
       "sentenceIndex": 22,
@@ -1116,12 +1026,10 @@ export default {
         "suction cup"
       ],
       "optionReasons": {
-        "cup-mcq-11": "本句指「利用吸力附著在表面的吸盤」。",
-        "cup-mcq-10": "「高爾夫果嶺上的球洞／球杯」是「cup — golf」的用法，與本句語境不同。",
-        "cup-mcq-12": "「把雙手彎曲合攏成杯狀」是「cup your hands」的用法，與本句語境不同。",
-        "cup-mcq-09": "「胸罩罩杯大小的尺寸分類」是「cup size」的用法，與本句語境不同。",
-        "cup-mcq-13": "「用彎曲的雙手輕輕捧住某物」是「cup something in your hands」的用法，與本句語境不同。",
-        "cup-mcq-08": "「胸罩中承托胸部的罩杯」是「cup — bra」的用法，與本句語境不同。"
+        "cup-mcq-11": "本句的「suction cup」指「利用吸力附著在表面的吸盤」。",
+        "cup-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-11"
     },
@@ -1133,10 +1041,8 @@ export default {
       "masked": "The ____ stuck firmly to the glass.",
       "options": [
         "cup-mcq-11",
-        "cup-mcq-10",
         "cup-mcq-12",
-        "cup-mcq-09",
-        "cup-mcq-13",
+        "cup-mcq-19",
         "cup-mcq-08"
       ],
       "explanation": "本句的「suction cup」指「利用吸力附著在表面的吸盤」。",
@@ -1146,12 +1052,10 @@ export default {
         "suction cup"
       ],
       "optionReasons": {
-        "cup-mcq-11": "本句指「利用吸力附著在表面的吸盤」。",
-        "cup-mcq-10": "「高爾夫果嶺上的球洞／球杯」是「cup — golf」的用法，與本句語境不同。",
-        "cup-mcq-12": "「把雙手彎曲合攏成杯狀」是「cup your hands」的用法，與本句語境不同。",
-        "cup-mcq-09": "「胸罩罩杯大小的尺寸分類」是「cup size」的用法，與本句語境不同。",
-        "cup-mcq-13": "「用彎曲的雙手輕輕捧住某物」是「cup something in your hands」的用法，與本句語境不同。",
-        "cup-mcq-08": "「胸罩中承托胸部的罩杯」是「cup — bra」的用法，與本句語境不同。"
+        "cup-mcq-11": "本句的「suction cup」指「利用吸力附著在表面的吸盤」。",
+        "cup-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-11"
     },
@@ -1164,10 +1068,8 @@ export default {
       "options": [
         "cup-mcq-12",
         "cup-mcq-11",
-        "cup-mcq-13",
-        "cup-mcq-10",
-        "cup-mcq-14",
-        "cup-mcq-09"
+        "cup-mcq-15",
+        "cup-mcq-05"
       ],
       "explanation": "本句的「cupped her hands」指「把雙手彎曲合攏成杯狀」。",
       "sentenceIndex": 24,
@@ -1176,12 +1078,10 @@ export default {
         "cupped her hands"
       ],
       "optionReasons": {
-        "cup-mcq-12": "本句指「把雙手彎曲合攏成杯狀」。",
-        "cup-mcq-11": "「利用吸力附著在表面的吸盤」是「suction cup」的用法，與本句語境不同。",
-        "cup-mcq-13": "「用彎曲的雙手輕輕捧住某物」是「cup something in your hands」的用法，與本句語境不同。",
-        "cup-mcq-10": "「高爾夫果嶺上的球洞／球杯」是「cup — golf」的用法，與本句語境不同。",
-        "cup-mcq-14": "「利用杯具形成吸力的拔罐療法」是「cupping」的用法，與本句語境不同。",
-        "cup-mcq-09": "「胸罩罩杯大小的尺寸分類」是「cup size」的用法，與本句語境不同。"
+        "cup-mcq-12": "本句的「cupped her hands」指「把雙手彎曲合攏成杯狀」。",
+        "cup-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-12"
     },
@@ -1193,11 +1093,9 @@ export default {
       "masked": "He ____ to catch the water.",
       "options": [
         "cup-mcq-12",
-        "cup-mcq-11",
-        "cup-mcq-13",
-        "cup-mcq-10",
-        "cup-mcq-14",
-        "cup-mcq-09"
+        "cup-mcq-05",
+        "cup-mcq-16",
+        "cup-mcq-11"
       ],
       "explanation": "本句的「cupped his hands」指「把雙手彎曲合攏成杯狀」。",
       "sentenceIndex": 25,
@@ -1206,12 +1104,10 @@ export default {
         "cupped his hands"
       ],
       "optionReasons": {
-        "cup-mcq-12": "本句指「把雙手彎曲合攏成杯狀」。",
-        "cup-mcq-11": "「利用吸力附著在表面的吸盤」是「suction cup」的用法，與本句語境不同。",
-        "cup-mcq-13": "「用彎曲的雙手輕輕捧住某物」是「cup something in your hands」的用法，與本句語境不同。",
-        "cup-mcq-10": "「高爾夫果嶺上的球洞／球杯」是「cup — golf」的用法，與本句語境不同。",
-        "cup-mcq-14": "「利用杯具形成吸力的拔罐療法」是「cupping」的用法，與本句語境不同。",
-        "cup-mcq-09": "「胸罩罩杯大小的尺寸分類」是「cup size」的用法，與本句語境不同。"
+        "cup-mcq-12": "本句的「cupped his hands」指「把雙手彎曲合攏成杯狀」。",
+        "cup-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-12"
     },
@@ -1223,11 +1119,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "cup-mcq-13",
-        "cup-mcq-12",
-        "cup-mcq-14",
-        "cup-mcq-11",
-        "cup-mcq-15",
-        "cup-mcq-10"
+        "cup-mcq-07",
+        "cup-mcq-16",
+        "cup-mcq-19"
       ],
       "explanation": "本句的「cupped the bird in her hands」指「用彎曲的雙手輕輕捧住某物」。",
       "sentenceIndex": 26,
@@ -1236,12 +1130,10 @@ export default {
         "cupped the bird in her hands"
       ],
       "optionReasons": {
-        "cup-mcq-13": "本句指「用彎曲的雙手輕輕捧住某物」。",
-        "cup-mcq-12": "「把雙手彎曲合攏成杯狀」是「cup your hands」的用法，與本句語境不同。",
-        "cup-mcq-14": "「利用杯具形成吸力的拔罐療法」是「cupping」的用法，與本句語境不同。",
-        "cup-mcq-11": "「利用吸力附著在表面的吸盤」是「suction cup」的用法，與本句語境不同。",
-        "cup-mcq-15": "「不是自己喜歡、感興趣或擅長的事物」是「not my cup of tea」的用法，與本句語境不同。",
-        "cup-mcq-10": "「高爾夫果嶺上的球洞／球杯」是「cup — golf」的用法，與本句語境不同。"
+        "cup-mcq-13": "本句的「cupped the bird in her hands」指「用彎曲的雙手輕輕捧住某物」。",
+        "cup-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-13"
     },
@@ -1253,11 +1145,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "cup-mcq-13",
-        "cup-mcq-12",
-        "cup-mcq-14",
-        "cup-mcq-11",
-        "cup-mcq-15",
-        "cup-mcq-10"
+        "cup-mcq-04",
+        "cup-mcq-07",
+        "cup-mcq-06"
       ],
       "explanation": "本句的「cupped his face in his hands」指「用彎曲的雙手輕輕捧住某物」。",
       "sentenceIndex": 27,
@@ -1266,12 +1156,10 @@ export default {
         "cupped his face in his hands"
       ],
       "optionReasons": {
-        "cup-mcq-13": "本句指「用彎曲的雙手輕輕捧住某物」。",
-        "cup-mcq-12": "「把雙手彎曲合攏成杯狀」是「cup your hands」的用法，與本句語境不同。",
-        "cup-mcq-14": "「利用杯具形成吸力的拔罐療法」是「cupping」的用法，與本句語境不同。",
-        "cup-mcq-11": "「利用吸力附著在表面的吸盤」是「suction cup」的用法，與本句語境不同。",
-        "cup-mcq-15": "「不是自己喜歡、感興趣或擅長的事物」是「not my cup of tea」的用法，與本句語境不同。",
-        "cup-mcq-10": "「高爾夫果嶺上的球洞／球杯」是「cup — golf」的用法，與本句語境不同。"
+        "cup-mcq-13": "本句的「cupped his face in his hands」指「用彎曲的雙手輕輕捧住某物」。",
+        "cup-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-13"
     },
@@ -1284,10 +1172,8 @@ export default {
       "options": [
         "cup-mcq-14",
         "cup-mcq-13",
-        "cup-mcq-15",
-        "cup-mcq-12",
-        "cup-mcq-16",
-        "cup-mcq-11"
+        "cup-mcq-05",
+        "cup-mcq-15"
       ],
       "explanation": "本句的「cupping therapy」指「利用杯具形成吸力的拔罐療法」。",
       "sentenceIndex": 28,
@@ -1296,12 +1182,10 @@ export default {
         "cupping therapy"
       ],
       "optionReasons": {
-        "cup-mcq-14": "本句指「利用杯具形成吸力的拔罐療法」。",
-        "cup-mcq-13": "「用彎曲的雙手輕輕捧住某物」是「cup something in your hands」的用法，與本句語境不同。",
-        "cup-mcq-15": "「不是自己喜歡、感興趣或擅長的事物」是「not my cup of tea」的用法，與本句語境不同。",
-        "cup-mcq-12": "「把雙手彎曲合攏成杯狀」是「cup your hands」的用法，與本句語境不同。",
-        "cup-mcq-16": "「因小事引起過度反應；小題大作」是「a storm in a teacup」的用法，與本句語境不同。",
-        "cup-mcq-11": "「利用吸力附著在表面的吸盤」是「suction cup」的用法，與本句語境不同。"
+        "cup-mcq-14": "本句的「cupping therapy」指「利用杯具形成吸力的拔罐療法」。",
+        "cup-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-14"
     },
@@ -1313,11 +1197,9 @@ export default {
       "masked": "____ creates suction on the skin.",
       "options": [
         "cup-mcq-14",
-        "cup-mcq-13",
         "cup-mcq-15",
-        "cup-mcq-12",
-        "cup-mcq-16",
-        "cup-mcq-11"
+        "cup-mcq-13",
+        "cup-mcq-05"
       ],
       "explanation": "本句的「Cupping」指「利用杯具形成吸力的拔罐療法」。",
       "sentenceIndex": 29,
@@ -1326,12 +1208,10 @@ export default {
         "Cupping"
       ],
       "optionReasons": {
-        "cup-mcq-14": "本句指「利用杯具形成吸力的拔罐療法」。",
-        "cup-mcq-13": "「用彎曲的雙手輕輕捧住某物」是「cup something in your hands」的用法，與本句語境不同。",
-        "cup-mcq-15": "「不是自己喜歡、感興趣或擅長的事物」是「not my cup of tea」的用法，與本句語境不同。",
-        "cup-mcq-12": "「把雙手彎曲合攏成杯狀」是「cup your hands」的用法，與本句語境不同。",
-        "cup-mcq-16": "「因小事引起過度反應；小題大作」是「a storm in a teacup」的用法，與本句語境不同。",
-        "cup-mcq-11": "「利用吸力附著在表面的吸盤」是「suction cup」的用法，與本句語境不同。"
+        "cup-mcq-14": "本句的「Cupping」指「利用杯具形成吸力的拔罐療法」。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-14"
     },
@@ -1344,10 +1224,8 @@ export default {
       "options": [
         "cup-mcq-15",
         "cup-mcq-14",
-        "cup-mcq-16",
-        "cup-mcq-13",
-        "cup-mcq-17",
-        "cup-mcq-12"
+        "cup-mcq-19",
+        "cup-mcq-05"
       ],
       "explanation": "本句的「not my cup of tea」指「不是自己喜歡、感興趣或擅長的事物」。",
       "sentenceIndex": 30,
@@ -1356,12 +1234,10 @@ export default {
         "not my cup of tea"
       ],
       "optionReasons": {
-        "cup-mcq-15": "本句指「不是自己喜歡、感興趣或擅長的事物」。",
-        "cup-mcq-14": "「利用杯具形成吸力的拔罐療法」是「cupping」的用法，與本句語境不同。",
-        "cup-mcq-16": "「因小事引起過度反應；小題大作」是「a storm in a teacup」的用法，與本句語境不同。",
-        "cup-mcq-13": "「用彎曲的雙手輕輕捧住某物」是「cup something in your hands」的用法，與本句語境不同。",
-        "cup-mcq-17": "「一個杯子可盛裝的量」是「cupful」的用法，與本句語境不同。",
-        "cup-mcq-12": "「把雙手彎曲合攏成杯狀」是「cup your hands」的用法，與本句語境不同。"
+        "cup-mcq-15": "本句的「not my cup of tea」指「不是自己喜歡、感興趣或擅長的事物」。",
+        "cup-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-15"
     },
@@ -1373,11 +1249,9 @@ export default {
       "masked": "Competitive sports are ____.",
       "options": [
         "cup-mcq-15",
-        "cup-mcq-14",
         "cup-mcq-16",
-        "cup-mcq-13",
-        "cup-mcq-17",
-        "cup-mcq-12"
+        "cup-mcq-03",
+        "cup-mcq-05"
       ],
       "explanation": "本句的「not really my cup of tea」指「不是自己喜歡、感興趣或擅長的事物」。",
       "sentenceIndex": 31,
@@ -1386,12 +1260,10 @@ export default {
         "not really my cup of tea"
       ],
       "optionReasons": {
-        "cup-mcq-15": "本句指「不是自己喜歡、感興趣或擅長的事物」。",
-        "cup-mcq-14": "「利用杯具形成吸力的拔罐療法」是「cupping」的用法，與本句語境不同。",
-        "cup-mcq-16": "「因小事引起過度反應；小題大作」是「a storm in a teacup」的用法，與本句語境不同。",
-        "cup-mcq-13": "「用彎曲的雙手輕輕捧住某物」是「cup something in your hands」的用法，與本句語境不同。",
-        "cup-mcq-17": "「一個杯子可盛裝的量」是「cupful」的用法，與本句語境不同。",
-        "cup-mcq-12": "「把雙手彎曲合攏成杯狀」是「cup your hands」的用法，與本句語境不同。"
+        "cup-mcq-15": "本句的「not really my cup of tea」指「不是自己喜歡、感興趣或擅長的事物」。",
+        "cup-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-15"
     },
@@ -1403,11 +1275,9 @@ export default {
       "masked": "The argument was just ____.",
       "options": [
         "cup-mcq-16",
-        "cup-mcq-15",
-        "cup-mcq-17",
-        "cup-mcq-14",
-        "cup-mcq-18",
-        "cup-mcq-13"
+        "cup-mcq-12",
+        "cup-mcq-02",
+        "cup-mcq-19"
       ],
       "explanation": "本句的「a storm in a teacup」指「因小事引起過度反應；小題大作」。",
       "sentenceIndex": 32,
@@ -1416,12 +1286,10 @@ export default {
         "a storm in a teacup"
       ],
       "optionReasons": {
-        "cup-mcq-16": "本句指「因小事引起過度反應；小題大作」。",
-        "cup-mcq-15": "「不是自己喜歡、感興趣或擅長的事物」是「not my cup of tea」的用法，與本句語境不同。",
-        "cup-mcq-17": "「一個杯子可盛裝的量」是「cupful」的用法，與本句語境不同。",
-        "cup-mcq-14": "「利用杯具形成吸力的拔罐療法」是「cupping」的用法，與本句語境不同。",
-        "cup-mcq-18": "「外形像杯子的；杯狀的」是「cup-shaped」的用法，與本句語境不同。",
-        "cup-mcq-13": "「用彎曲的雙手輕輕捧住某物」是「cup something in your hands」的用法，與本句語境不同。"
+        "cup-mcq-16": "本句的「a storm in a teacup」指「因小事引起過度反應；小題大作」。",
+        "cup-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-16"
     },
@@ -1433,11 +1301,9 @@ export default {
       "masked": "What seemed serious at first turned out to be ____.",
       "options": [
         "cup-mcq-16",
-        "cup-mcq-15",
+        "cup-mcq-10",
         "cup-mcq-17",
-        "cup-mcq-14",
-        "cup-mcq-18",
-        "cup-mcq-13"
+        "cup-mcq-12"
       ],
       "explanation": "本句的「a storm in a teacup」指「因小事引起過度反應；小題大作」。",
       "sentenceIndex": 33,
@@ -1446,12 +1312,10 @@ export default {
         "a storm in a teacup"
       ],
       "optionReasons": {
-        "cup-mcq-16": "本句指「因小事引起過度反應；小題大作」。",
-        "cup-mcq-15": "「不是自己喜歡、感興趣或擅長的事物」是「not my cup of tea」的用法，與本句語境不同。",
-        "cup-mcq-17": "「一個杯子可盛裝的量」是「cupful」的用法，與本句語境不同。",
-        "cup-mcq-14": "「利用杯具形成吸力的拔罐療法」是「cupping」的用法，與本句語境不同。",
-        "cup-mcq-18": "「外形像杯子的；杯狀的」是「cup-shaped」的用法，與本句語境不同。",
-        "cup-mcq-13": "「用彎曲的雙手輕輕捧住某物」是「cup something in your hands」的用法，與本句語境不同。"
+        "cup-mcq-16": "本句的「a storm in a teacup」指「因小事引起過度反應；小題大作」。",
+        "cup-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-16"
     },
@@ -1464,10 +1328,8 @@ export default {
       "options": [
         "cup-mcq-17",
         "cup-mcq-16",
-        "cup-mcq-18",
-        "cup-mcq-15",
-        "cup-mcq-19",
-        "cup-mcq-14"
+        "cup-mcq-13",
+        "cup-mcq-11"
       ],
       "explanation": "本句的「cupful」指「一個杯子可盛裝的量」。",
       "sentenceIndex": 34,
@@ -1476,12 +1338,10 @@ export default {
         "cupful"
       ],
       "optionReasons": {
-        "cup-mcq-17": "本句指「一個杯子可盛裝的量」。",
-        "cup-mcq-16": "「因小事引起過度反應；小題大作」是「a storm in a teacup」的用法，與本句語境不同。",
-        "cup-mcq-18": "「外形像杯子的；杯狀的」是「cup-shaped」的用法，與本句語境不同。",
-        "cup-mcq-15": "「不是自己喜歡、感興趣或擅長的事物」是「not my cup of tea」的用法，與本句語境不同。",
-        "cup-mcq-19": "「表示杯子；茶杯；咖啡杯」是「Passage meaning」的用法，與本句語境不同。",
-        "cup-mcq-14": "「利用杯具形成吸力的拔罐療法」是「cupping」的用法，與本句語境不同。"
+        "cup-mcq-17": "本句的「cupful」指「一個杯子可盛裝的量」。",
+        "cup-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-17"
     },
@@ -1493,11 +1353,9 @@ export default {
       "masked": "She drank a ____ of soup.",
       "options": [
         "cup-mcq-17",
-        "cup-mcq-16",
-        "cup-mcq-18",
-        "cup-mcq-15",
-        "cup-mcq-19",
-        "cup-mcq-14"
+        "cup-mcq-11",
+        "cup-mcq-06",
+        "cup-mcq-15"
       ],
       "explanation": "本句的「cupful」指「一個杯子可盛裝的量」。",
       "sentenceIndex": 35,
@@ -1506,12 +1364,10 @@ export default {
         "cupful"
       ],
       "optionReasons": {
-        "cup-mcq-17": "本句指「一個杯子可盛裝的量」。",
-        "cup-mcq-16": "「因小事引起過度反應；小題大作」是「a storm in a teacup」的用法，與本句語境不同。",
-        "cup-mcq-18": "「外形像杯子的；杯狀的」是「cup-shaped」的用法，與本句語境不同。",
-        "cup-mcq-15": "「不是自己喜歡、感興趣或擅長的事物」是「not my cup of tea」的用法，與本句語境不同。",
-        "cup-mcq-19": "「表示杯子；茶杯；咖啡杯」是「Passage meaning」的用法，與本句語境不同。",
-        "cup-mcq-14": "「利用杯具形成吸力的拔罐療法」是「cupping」的用法，與本句語境不同。"
+        "cup-mcq-17": "本句的「cupful」指「一個杯子可盛裝的量」。",
+        "cup-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-17"
     },
@@ -1523,11 +1379,9 @@ export default {
       "masked": "The flower has a ____ center.",
       "options": [
         "cup-mcq-18",
-        "cup-mcq-17",
-        "cup-mcq-19",
-        "cup-mcq-16",
         "cup-mcq-15",
-        "cup-mcq-14"
+        "cup-mcq-13",
+        "cup-mcq-11"
       ],
       "explanation": "本句的「cup-shaped」指「外形像杯子的；杯狀的」。",
       "sentenceIndex": 36,
@@ -1536,12 +1390,10 @@ export default {
         "cup-shaped"
       ],
       "optionReasons": {
-        "cup-mcq-18": "本句指「外形像杯子的；杯狀的」。",
-        "cup-mcq-17": "「一個杯子可盛裝的量」是「cupful」的用法，與本句語境不同。",
-        "cup-mcq-19": "「表示杯子；茶杯；咖啡杯」是「Passage meaning」的用法，與本句語境不同。",
-        "cup-mcq-16": "「因小事引起過度反應；小題大作」是「a storm in a teacup」的用法，與本句語境不同。",
-        "cup-mcq-15": "「不是自己喜歡、感興趣或擅長的事物」是「not my cup of tea」的用法，與本句語境不同。",
-        "cup-mcq-14": "「利用杯具形成吸力的拔罐療法」是「cupping」的用法，與本句語境不同。"
+        "cup-mcq-18": "本句的「cup-shaped」指「外形像杯子的；杯狀的」。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-18"
     },
@@ -1553,11 +1405,9 @@ export default {
       "masked": "The device has a ____ base.",
       "options": [
         "cup-mcq-18",
-        "cup-mcq-17",
-        "cup-mcq-19",
-        "cup-mcq-16",
-        "cup-mcq-15",
-        "cup-mcq-14"
+        "cup-mcq-06",
+        "cup-mcq-13",
+        "cup-mcq-11"
       ],
       "explanation": "本句的「cup-shaped」指「外形像杯子的；杯狀的」。",
       "sentenceIndex": 37,
@@ -1566,12 +1416,10 @@ export default {
         "cup-shaped"
       ],
       "optionReasons": {
-        "cup-mcq-18": "本句指「外形像杯子的；杯狀的」。",
-        "cup-mcq-17": "「一個杯子可盛裝的量」是「cupful」的用法，與本句語境不同。",
-        "cup-mcq-19": "「表示杯子；茶杯；咖啡杯」是「Passage meaning」的用法，與本句語境不同。",
-        "cup-mcq-16": "「因小事引起過度反應；小題大作」是「a storm in a teacup」的用法，與本句語境不同。",
-        "cup-mcq-15": "「不是自己喜歡、感興趣或擅長的事物」是「not my cup of tea」的用法，與本句語境不同。",
-        "cup-mcq-14": "「利用杯具形成吸力的拔罐療法」是「cupping」的用法，與本句語境不同。"
+        "cup-mcq-18": "本句的「cup-shaped」指「外形像杯子的；杯狀的」。",
+        "cup-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-18"
     },
@@ -1583,11 +1431,9 @@ export default {
       "masked": "There is a ____ on the table.",
       "options": [
         "cup-mcq-18",
-        "cup-mcq-17",
-        "cup-mcq-19",
-        "cup-mcq-16",
-        "cup-mcq-15",
-        "cup-mcq-14"
+        "cup-mcq-11",
+        "cup-mcq-13",
+        "cup-mcq-16"
       ],
       "explanation": "本句的「cup」指「外形像杯子的；杯狀的」。",
       "sentenceIndex": 38,
@@ -1596,12 +1442,10 @@ export default {
         "cup"
       ],
       "optionReasons": {
-        "cup-mcq-18": "本句指「外形像杯子的；杯狀的」。",
-        "cup-mcq-17": "「一個杯子可盛裝的量」是「cupful」的用法，與本句語境不同。",
-        "cup-mcq-19": "「表示杯子；茶杯；咖啡杯」是「Passage meaning」的用法，與本句語境不同。",
-        "cup-mcq-16": "「因小事引起過度反應；小題大作」是「a storm in a teacup」的用法，與本句語境不同。",
-        "cup-mcq-15": "「不是自己喜歡、感興趣或擅長的事物」是「not my cup of tea」的用法，與本句語境不同。",
-        "cup-mcq-14": "「利用杯具形成吸力的拔罐療法」是「cupping」的用法，與本句語境不同。"
+        "cup-mcq-18": "本句的「cup」指「外形像杯子的；杯狀的」。",
+        "cup-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-18"
     },
@@ -1613,11 +1457,9 @@ export default {
       "masked": "We need four ____.",
       "options": [
         "cup-mcq-18",
-        "cup-mcq-17",
-        "cup-mcq-19",
-        "cup-mcq-16",
+        "cup-mcq-06",
         "cup-mcq-15",
-        "cup-mcq-14"
+        "cup-mcq-13"
       ],
       "explanation": "本句的「cups」指「外形像杯子的；杯狀的」。",
       "sentenceIndex": 39,
@@ -1626,12 +1468,10 @@ export default {
         "cups"
       ],
       "optionReasons": {
-        "cup-mcq-18": "本句指「外形像杯子的；杯狀的」。",
-        "cup-mcq-17": "「一個杯子可盛裝的量」是「cupful」的用法，與本句語境不同。",
-        "cup-mcq-19": "「表示杯子；茶杯；咖啡杯」是「Passage meaning」的用法，與本句語境不同。",
-        "cup-mcq-16": "「因小事引起過度反應；小題大作」是「a storm in a teacup」的用法，與本句語境不同。",
-        "cup-mcq-15": "「不是自己喜歡、感興趣或擅長的事物」是「not my cup of tea」的用法，與本句語境不同。",
-        "cup-mcq-14": "「利用杯具形成吸力的拔罐療法」是「cupping」的用法，與本句語境不同。"
+        "cup-mcq-18": "本句的「cups」指「外形像杯子的；杯狀的」。",
+        "cup-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cup-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cup-mcq-18"
     }
@@ -1643,5 +1483,7 @@ export default {
     "sha256": "14060fad5390d10b817d3bf222cf7b69c77db1a77c3203347f4b17af09d115aa",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

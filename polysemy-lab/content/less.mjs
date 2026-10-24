@@ -188,16 +188,6 @@ export default {
       "note": "來源詞義：委婉表示某性質明顯不足；談不上……",
       "examples": [
         [
-          "The second painting is no less beautiful.",
-          "第二幅畫同樣美麗／一點也不遜色。",
-          "委婉表示某性質明顯不足；談不上……"
-        ],
-        [
-          "Her later work is no less important.",
-          "她後期的作品同樣重要。",
-          "委婉表示某性質明顯不足；談不上……"
-        ],
-        [
           "His explanation was less than clear.",
           "他的解釋一點也不清楚／相當不清楚。",
           "委婉表示某性質明顯不足；談不上……"
@@ -528,6 +518,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "less-reviewed-a0c361fb61",
+      "title": "並沒有比較少；同樣具有某種性質",
+      "form": "less · source section 9",
+      "en": "並沒有比較少；同樣具有某種性質",
+      "zh": "並沒有比較少；同樣具有某種性質",
+      "note": "對照原始教材第 9 節及例句核實。",
+      "examples": [
+        [
+          "The second painting is no less beautiful.",
+          "第二幅畫同樣美麗／一點也不遜色。",
+          "並沒有比較少；同樣具有某種性質"
+        ],
+        [
+          "Her later work is no less important.",
+          "她後期的作品同樣重要。",
+          "並沒有比較少；同樣具有某種性質"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -539,11 +551,9 @@ export default {
       "masked": "The room needs ____.",
       "options": [
         "less-mcq-01",
-        "less-mcq-02",
-        "less-mcq-03",
-        "less-mcq-04",
-        "less-mcq-05",
-        "less-mcq-06"
+        "less-mcq-18",
+        "less-mcq-14",
+        "less-mcq-12"
       ],
       "explanation": "本句的「less light」指「與另一數量相比，某不可數事物的量較少」。",
       "sentenceIndex": 0,
@@ -552,12 +562,10 @@ export default {
         "less light"
       ],
       "optionReasons": {
-        "less-mcq-01": "本句指「與另一數量相比，某不可數事物的量較少」。",
-        "less-mcq-02": "「較少的數量／程度」是「less — pronoun」的用法，與本句語境不同。",
-        "less-mcq-03": "「某種性質、狀態或動作方式的程度較低」是「less + adjective/adverb」的用法，與本句語境不同。",
-        "less-mcq-04": "「與某人／某物相似的程度較低；比較不像」是「less like + noun」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。"
+        "less-mcq-01": "本句的「less light」指「與另一數量相比，某不可數事物的量較少」。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-01"
     },
@@ -569,11 +577,9 @@ export default {
       "masked": "She uses ____ sugar now.",
       "options": [
         "less-mcq-01",
-        "less-mcq-02",
-        "less-mcq-03",
-        "less-mcq-04",
-        "less-mcq-05",
-        "less-mcq-06"
+        "less-mcq-12",
+        "less-mcq-08",
+        "less-mcq-13"
       ],
       "explanation": "本句的「less」指「與另一數量相比，某不可數事物的量較少」。",
       "sentenceIndex": 1,
@@ -582,12 +588,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-01": "本句指「與另一數量相比，某不可數事物的量較少」。",
-        "less-mcq-02": "「較少的數量／程度」是「less — pronoun」的用法，與本句語境不同。",
-        "less-mcq-03": "「某種性質、狀態或動作方式的程度較低」是「less + adjective/adverb」的用法，與本句語境不同。",
-        "less-mcq-04": "「與某人／某物相似的程度較低；比較不像」是「less like + noun」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。"
+        "less-mcq-01": "本句的「less」指「與另一數量相比，某不可數事物的量較少」。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-01"
     },
@@ -599,11 +603,9 @@ export default {
       "masked": "I expected more, but I got ____.",
       "options": [
         "less-mcq-02",
-        "less-mcq-01",
-        "less-mcq-03",
-        "less-mcq-04",
-        "less-mcq-05",
-        "less-mcq-06"
+        "less-mcq-13",
+        "less-mcq-08",
+        "less-mcq-18"
       ],
       "explanation": "本句的「less」指「較少的數量／程度」。",
       "sentenceIndex": 2,
@@ -612,12 +614,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-02": "本句指「較少的數量／程度」。",
-        "less-mcq-01": "「與另一數量相比，某不可數事物的量較少」是「less + uncountable noun」的用法，與本句語境不同。",
-        "less-mcq-03": "「某種性質、狀態或動作方式的程度較低」是「less + adjective/adverb」的用法，與本句語境不同。",
-        "less-mcq-04": "「與某人／某物相似的程度較低；比較不像」是「less like + noun」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。"
+        "less-mcq-02": "本句的「less」指「較少的數量／程度」。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-02"
     },
@@ -629,11 +629,9 @@ export default {
       "masked": "Try to spend ____.",
       "options": [
         "less-mcq-02",
-        "less-mcq-01",
-        "less-mcq-03",
-        "less-mcq-04",
-        "less-mcq-05",
-        "less-mcq-06"
+        "less-mcq-13",
+        "less-mcq-12",
+        "less-mcq-18"
       ],
       "explanation": "本句的「less」指「較少的數量／程度」。",
       "sentenceIndex": 3,
@@ -642,12 +640,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-02": "本句指「較少的數量／程度」。",
-        "less-mcq-01": "「與另一數量相比，某不可數事物的量較少」是「less + uncountable noun」的用法，與本句語境不同。",
-        "less-mcq-03": "「某種性質、狀態或動作方式的程度較低」是「less + adjective/adverb」的用法，與本句語境不同。",
-        "less-mcq-04": "「與某人／某物相似的程度較低；比較不像」是「less like + noun」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。"
+        "less-mcq-02": "本句的「less」指「較少的數量／程度」。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-02"
     },
@@ -659,11 +655,9 @@ export default {
       "masked": "The second room is ____.",
       "options": [
         "less-mcq-03",
-        "less-mcq-02",
-        "less-mcq-04",
-        "less-mcq-01",
-        "less-mcq-05",
-        "less-mcq-06"
+        "less-mcq-14",
+        "less-mcq-18",
+        "less-mcq-13"
       ],
       "explanation": "本句的「less crowded」指「某種性質、狀態或動作方式的程度較低」。",
       "sentenceIndex": 4,
@@ -672,12 +666,10 @@ export default {
         "less crowded"
       ],
       "optionReasons": {
-        "less-mcq-03": "本句指「某種性質、狀態或動作方式的程度較低」。",
-        "less-mcq-02": "「較少的數量／程度」是「less — pronoun」的用法，與本句語境不同。",
-        "less-mcq-04": "「與某人／某物相似的程度較低；比較不像」是「less like + noun」的用法，與本句語境不同。",
-        "less-mcq-01": "「與另一數量相比，某不可數事物的量較少」是「less + uncountable noun」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。"
+        "less-mcq-03": "本句的「less crowded」指「某種性質、狀態或動作方式的程度較低」。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-03"
     },
@@ -689,11 +681,9 @@ export default {
       "masked": "This version feels ____ formal.",
       "options": [
         "less-mcq-03",
-        "less-mcq-02",
-        "less-mcq-04",
-        "less-mcq-01",
-        "less-mcq-05",
-        "less-mcq-06"
+        "less-mcq-18",
+        "less-mcq-14",
+        "less-mcq-13"
       ],
       "explanation": "本句的「less」指「某種性質、狀態或動作方式的程度較低」。",
       "sentenceIndex": 5,
@@ -702,12 +692,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-03": "本句指「某種性質、狀態或動作方式的程度較低」。",
-        "less-mcq-02": "「較少的數量／程度」是「less — pronoun」的用法，與本句語境不同。",
-        "less-mcq-04": "「與某人／某物相似的程度較低；比較不像」是「less like + noun」的用法，與本句語境不同。",
-        "less-mcq-01": "「與另一數量相比，某不可數事物的量較少」是「less + uncountable noun」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。"
+        "less-mcq-03": "本句的「less」指「某種性質、狀態或動作方式的程度較低」。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-03"
     },
@@ -719,11 +707,9 @@ export default {
       "masked": "He spoke ____ this time.",
       "options": [
         "less-mcq-03",
-        "less-mcq-02",
-        "less-mcq-04",
-        "less-mcq-01",
-        "less-mcq-05",
-        "less-mcq-06"
+        "less-mcq-13",
+        "less-mcq-14",
+        "less-mcq-12"
       ],
       "explanation": "本句的「less confidently」指「某種性質、狀態或動作方式的程度較低」。",
       "sentenceIndex": 6,
@@ -732,12 +718,10 @@ export default {
         "less confidently"
       ],
       "optionReasons": {
-        "less-mcq-03": "本句指「某種性質、狀態或動作方式的程度較低」。",
-        "less-mcq-02": "「較少的數量／程度」是「less — pronoun」的用法，與本句語境不同。",
-        "less-mcq-04": "「與某人／某物相似的程度較低；比較不像」是「less like + noun」的用法，與本句語境不同。",
-        "less-mcq-01": "「與另一數量相比，某不可數事物的量較少」是「less + uncountable noun」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。"
+        "less-mcq-03": "本句的「less confidently」指「某種性質、狀態或動作方式的程度較低」。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-03"
     },
@@ -749,11 +733,9 @@ export default {
       "masked": "The machine runs ____ efficiently when overloaded.",
       "options": [
         "less-mcq-03",
-        "less-mcq-02",
-        "less-mcq-04",
-        "less-mcq-01",
-        "less-mcq-05",
-        "less-mcq-06"
+        "less-mcq-13",
+        "less-mcq-14",
+        "less-mcq-12"
       ],
       "explanation": "本句的「less」指「某種性質、狀態或動作方式的程度較低」。",
       "sentenceIndex": 7,
@@ -762,12 +744,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-03": "本句指「某種性質、狀態或動作方式的程度較低」。",
-        "less-mcq-02": "「較少的數量／程度」是「less — pronoun」的用法，與本句語境不同。",
-        "less-mcq-04": "「與某人／某物相似的程度較低；比較不像」是「less like + noun」的用法，與本句語境不同。",
-        "less-mcq-01": "「與另一數量相比，某不可數事物的量較少」是「less + uncountable noun」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。"
+        "less-mcq-03": "本句的「less」指「某種性質、狀態或動作方式的程度較低」。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-03"
     },
@@ -779,11 +759,9 @@ export default {
       "masked": "It feels ____ and more like a window.",
       "options": [
         "less-mcq-04",
-        "less-mcq-03",
-        "less-mcq-05",
-        "less-mcq-02",
-        "less-mcq-06",
-        "less-mcq-01"
+        "less-mcq-12",
+        "less-mcq-18",
+        "less-mcq-13"
       ],
       "explanation": "本句的「less like a picture」指「與某人／某物相似的程度較低；比較不像」。",
       "sentenceIndex": 8,
@@ -792,12 +770,10 @@ export default {
         "less like a picture"
       ],
       "optionReasons": {
-        "less-mcq-04": "本句指「與某人／某物相似的程度較低；比較不像」。",
-        "less-mcq-03": "「某種性質、狀態或動作方式的程度較低」是「less + adjective/adverb」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。",
-        "less-mcq-02": "「較少的數量／程度」是「less — pronoun」的用法，與本句語境不同。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。",
-        "less-mcq-01": "「與另一數量相比，某不可數事物的量較少」是「less + uncountable noun」的用法，與本句語境不同。"
+        "less-mcq-04": "本句的「less like a picture」指「與某人／某物相似的程度較低；比較不像」。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-04"
     },
@@ -809,11 +785,9 @@ export default {
       "masked": "The room feels ____ like an office and more like a home.",
       "options": [
         "less-mcq-04",
-        "less-mcq-03",
-        "less-mcq-05",
-        "less-mcq-02",
-        "less-mcq-06",
-        "less-mcq-01"
+        "less-mcq-12",
+        "less-mcq-08",
+        "less-mcq-13"
       ],
       "explanation": "本句的「less」指「與某人／某物相似的程度較低；比較不像」。",
       "sentenceIndex": 9,
@@ -822,12 +796,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-04": "本句指「與某人／某物相似的程度較低；比較不像」。",
-        "less-mcq-03": "「某種性質、狀態或動作方式的程度較低」是「less + adjective/adverb」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。",
-        "less-mcq-02": "「較少的數量／程度」是「less — pronoun」的用法，與本句語境不同。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。",
-        "less-mcq-01": "「與另一數量相比，某不可數事物的量較少」是「less + uncountable noun」的用法，與本句語境不同。"
+        "less-mcq-04": "本句的「less」指「與某人／某物相似的程度較低；比較不像」。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-04"
     },
@@ -839,11 +811,9 @@ export default {
       "masked": "This painting is ____ the other one.",
       "options": [
         "less-mcq-05",
-        "less-mcq-04",
-        "less-mcq-06",
-        "less-mcq-03",
-        "less-mcq-07",
-        "less-mcq-02"
+        "less-mcq-08",
+        "less-mcq-18",
+        "less-mcq-12"
       ],
       "explanation": "本句的「less dramatic than」指「數量或程度低於另一對象」。",
       "sentenceIndex": 10,
@@ -852,12 +822,10 @@ export default {
         "less dramatic than"
       ],
       "optionReasons": {
-        "less-mcq-05": "本句指「數量或程度低於另一對象」。",
-        "less-mcq-04": "「與某人／某物相似的程度較低；比較不像」是「less like + noun」的用法，與本句語境不同。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。",
-        "less-mcq-03": "「某種性質、狀態或動作方式的程度較低」是「less + adjective/adverb」的用法，與本句語境不同。",
-        "less-mcq-07": "「數量低於指定數值」是「less than + number」的用法，與本句語境不同。",
-        "less-mcq-02": "「較少的數量／程度」是「less — pronoun」的用法，與本句語境不同。"
+        "less-mcq-05": "本句的「less dramatic than」指「數量或程度低於另一對象」。",
+        "less-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-05"
     },
@@ -869,11 +837,9 @@ export default {
       "masked": "She spends ____ time online than before.",
       "options": [
         "less-mcq-05",
-        "less-mcq-04",
-        "less-mcq-06",
-        "less-mcq-03",
-        "less-mcq-07",
-        "less-mcq-02"
+        "less-reviewed-a0c361fb61",
+        "less-mcq-18",
+        "less-mcq-14"
       ],
       "explanation": "本句的「less」指「數量或程度低於另一對象」。",
       "sentenceIndex": 11,
@@ -882,12 +848,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-05": "本句指「數量或程度低於另一對象」。",
-        "less-mcq-04": "「與某人／某物相似的程度較低；比較不像」是「less like + noun」的用法，與本句語境不同。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。",
-        "less-mcq-03": "「某種性質、狀態或動作方式的程度較低」是「less + adjective/adverb」的用法，與本句語境不同。",
-        "less-mcq-07": "「數量低於指定數值」是「less than + number」的用法，與本句語境不同。",
-        "less-mcq-02": "「較少的數量／程度」是「less — pronoun」的用法，與本句語境不同。"
+        "less-mcq-05": "本句的「less」指「數量或程度低於另一對象」。",
+        "less-reviewed-a0c361fb61": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-05"
     },
@@ -899,11 +863,9 @@ export default {
       "masked": "I use my phone ____.",
       "options": [
         "less-mcq-06",
-        "less-mcq-05",
-        "less-mcq-07",
-        "less-mcq-04",
+        "less-mcq-12",
         "less-mcq-08",
-        "less-mcq-03"
+        "less-mcq-14"
       ],
       "explanation": "本句的「less and less」指「數量／程度持續減少」。",
       "sentenceIndex": 12,
@@ -912,12 +874,10 @@ export default {
         "less and less"
       ],
       "optionReasons": {
-        "less-mcq-06": "本句指「數量／程度持續減少」。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。",
-        "less-mcq-07": "「數量低於指定數值」是「less than + number」的用法，與本句語境不同。",
-        "less-mcq-04": "「與某人／某物相似的程度較低；比較不像」是「less like + noun」的用法，與本句語境不同。",
-        "less-mcq-08": "「委婉表示某性質明顯不足；談不上……」是「less than + adjective」的用法，與本句語境不同。",
-        "less-mcq-03": "「某種性質、狀態或動作方式的程度較低」是「less + adjective/adverb」的用法，與本句語境不同。"
+        "less-mcq-06": "本句的「less and less」指「數量／程度持續減少」。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-06"
     },
@@ -929,11 +889,9 @@ export default {
       "masked": "The colours became ____ and less visible.",
       "options": [
         "less-mcq-06",
-        "less-mcq-05",
-        "less-mcq-07",
-        "less-mcq-04",
         "less-mcq-08",
-        "less-mcq-03"
+        "less-mcq-18",
+        "less-mcq-14"
       ],
       "explanation": "本句的「less」指「數量／程度持續減少」。",
       "sentenceIndex": 13,
@@ -942,12 +900,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-06": "本句指「數量／程度持續減少」。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。",
-        "less-mcq-07": "「數量低於指定數值」是「less than + number」的用法，與本句語境不同。",
-        "less-mcq-04": "「與某人／某物相似的程度較低；比較不像」是「less like + noun」的用法，與本句語境不同。",
-        "less-mcq-08": "「委婉表示某性質明顯不足；談不上……」是「less than + adjective」的用法，與本句語境不同。",
-        "less-mcq-03": "「某種性質、狀態或動作方式的程度較低」是「less + adjective/adverb」的用法，與本句語境不同。"
+        "less-mcq-06": "本句的「less」指「數量／程度持續減少」。",
+        "less-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-06"
     },
@@ -959,11 +915,9 @@ export default {
       "masked": "The museum owns ____ fifty paintings by the artist.",
       "options": [
         "less-mcq-07",
-        "less-mcq-06",
+        "less-mcq-12",
         "less-mcq-08",
-        "less-mcq-05",
-        "less-mcq-09",
-        "less-mcq-04"
+        "less-mcq-14"
       ],
       "explanation": "本句的「no less than」指「數量低於指定數值」。",
       "sentenceIndex": 14,
@@ -972,12 +926,10 @@ export default {
         "no less than"
       ],
       "optionReasons": {
-        "less-mcq-07": "本句指「數量低於指定數值」。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。",
-        "less-mcq-08": "「委婉表示某性質明顯不足；談不上……」是「less than + adjective」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。",
-        "less-mcq-09": "「以驚訝／強調語氣表示數量多達……；足足」是「no less than」的用法，與本句語境不同。",
-        "less-mcq-04": "「與某人／某物相似的程度較低；比較不像」是「less like + noun」的用法，與本句語境不同。"
+        "less-mcq-07": "本句的「no less than」指「數量低於指定數值」。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-07"
     },
@@ -989,11 +941,9 @@ export default {
       "masked": "The repair cost no ____ than ten thousand dollars.",
       "options": [
         "less-mcq-07",
-        "less-mcq-06",
-        "less-mcq-08",
-        "less-mcq-05",
-        "less-mcq-09",
-        "less-mcq-04"
+        "less-mcq-23",
+        "less-mcq-14",
+        "less-mcq-12"
       ],
       "explanation": "本句的「less」指「數量低於指定數值」。",
       "sentenceIndex": 15,
@@ -1002,74 +952,68 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-07": "本句指「數量低於指定數值」。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。",
-        "less-mcq-08": "「委婉表示某性質明顯不足；談不上……」是「less than + adjective」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。",
-        "less-mcq-09": "「以驚訝／強調語氣表示數量多達……；足足」是「no less than」的用法，與本句語境不同。",
-        "less-mcq-04": "「與某人／某物相似的程度較低；比較不像」是「less like + noun」的用法，與本句語境不同。"
+        "less-mcq-07": "本句的「less」指「數量低於指定數值」。",
+        "less-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-07"
     },
     {
       "id": "less-09-0",
-      "sense": "less-mcq-08",
+      "sense": "less-reviewed-a0c361fb61",
       "en": "The second painting is no less beautiful.",
       "zh": "第二幅畫同樣美麗／一點也不遜色。",
       "masked": "The second painting is ____.",
       "options": [
-        "less-mcq-08",
+        "less-reviewed-a0c361fb61",
         "less-mcq-07",
-        "less-mcq-09",
-        "less-mcq-06",
-        "less-mcq-10",
-        "less-mcq-05"
+        "less-mcq-14",
+        "less-mcq-18"
       ],
-      "explanation": "本句的「no less beautiful」指「委婉表示某性質明顯不足；談不上……」。",
+      "explanation": "對照完整句子：「第二幅畫同樣美麗／一點也不遜色。」。這裡的「no less beautiful」表示「並沒有比較少；同樣具有某種性質」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "no less beautiful"
       ],
       "optionReasons": {
-        "less-mcq-08": "本句指「委婉表示某性質明顯不足；談不上……」。",
-        "less-mcq-07": "「數量低於指定數值」是「less than + number」的用法，與本句語境不同。",
-        "less-mcq-09": "「以驚訝／強調語氣表示數量多達……；足足」是「no less than」的用法，與本句語境不同。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。",
-        "less-mcq-10": "「正式表示最低不能少於某數量；至少」是「not less than」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。"
+        "less-reviewed-a0c361fb61": "對照完整句子：「第二幅畫同樣美麗／一點也不遜色。」。這裡的「no less beautiful」表示「並沒有比較少；同樣具有某種性質」。",
+        "less-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "less-mcq-08"
+      "correctOption": "less-reviewed-a0c361fb61",
+      "previousCorrectOption": "less-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "less-09-1",
-      "sense": "less-mcq-08",
+      "sense": "less-reviewed-a0c361fb61",
       "en": "Her later work is no less important.",
       "zh": "她後期的作品同樣重要。",
       "masked": "Her later work is no ____ important.",
       "options": [
-        "less-mcq-08",
-        "less-mcq-07",
-        "less-mcq-09",
-        "less-mcq-06",
-        "less-mcq-10",
-        "less-mcq-05"
+        "less-reviewed-a0c361fb61",
+        "less-mcq-05",
+        "less-mcq-14",
+        "less-mcq-18"
       ],
-      "explanation": "本句的「less」指「委婉表示某性質明顯不足；談不上……」。",
+      "explanation": "對照完整句子：「她後期的作品同樣重要。」。這裡的「less」表示「並沒有比較少；同樣具有某種性質」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "less"
       ],
       "optionReasons": {
-        "less-mcq-08": "本句指「委婉表示某性質明顯不足；談不上……」。",
-        "less-mcq-07": "「數量低於指定數值」是「less than + number」的用法，與本句語境不同。",
-        "less-mcq-09": "「以驚訝／強調語氣表示數量多達……；足足」是「no less than」的用法，與本句語境不同。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。",
-        "less-mcq-10": "「正式表示最低不能少於某數量；至少」是「not less than」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。"
+        "less-reviewed-a0c361fb61": "對照完整句子：「她後期的作品同樣重要。」。這裡的「less」表示「並沒有比較少；同樣具有某種性質」。",
+        "less-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "less-mcq-08"
+      "correctOption": "less-reviewed-a0c361fb61",
+      "previousCorrectOption": "less-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "less-10-0",
@@ -1079,11 +1023,9 @@ export default {
       "masked": "The room can hold ____ fifty people.",
       "options": [
         "less-mcq-10",
-        "less-mcq-09",
-        "less-mcq-11",
-        "less-mcq-08",
-        "less-mcq-12",
-        "less-mcq-07"
+        "less-mcq-13",
+        "less-mcq-23",
+        "less-mcq-14"
       ],
       "explanation": "本句的「not less than」指「正式表示最低不能少於某數量；至少」。",
       "sentenceIndex": 18,
@@ -1092,12 +1034,10 @@ export default {
         "not less than"
       ],
       "optionReasons": {
-        "less-mcq-10": "本句指「正式表示最低不能少於某數量；至少」。",
-        "less-mcq-09": "「以驚訝／強調語氣表示數量多達……；足足」是「no less than」的用法，與本句語境不同。",
-        "less-mcq-11": "「某性質程度並不較低；同樣……」是「no less + adjective」的用法，與本句語境不同。",
-        "less-mcq-08": "「委婉表示某性質明顯不足；談不上……」是「less than + adjective」的用法，與本句語境不同。",
-        "less-mcq-12": "「大致上；差不多」是「more or less」的用法，與本句語境不同。",
-        "less-mcq-07": "「數量低於指定數值」是「less than + number」的用法，與本句語境不同。"
+        "less-mcq-10": "本句的「not less than」指「正式表示最低不能少於某數量；至少」。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-10"
     },
@@ -1109,11 +1049,9 @@ export default {
       "masked": "Applicants must have not ____ than two years of experience.",
       "options": [
         "less-mcq-10",
-        "less-mcq-09",
-        "less-mcq-11",
-        "less-mcq-08",
-        "less-mcq-12",
-        "less-mcq-07"
+        "less-mcq-23",
+        "less-mcq-13",
+        "less-mcq-14"
       ],
       "explanation": "本句的「less」指「正式表示最低不能少於某數量；至少」。",
       "sentenceIndex": 19,
@@ -1122,12 +1060,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-10": "本句指「正式表示最低不能少於某數量；至少」。",
-        "less-mcq-09": "「以驚訝／強調語氣表示數量多達……；足足」是「no less than」的用法，與本句語境不同。",
-        "less-mcq-11": "「某性質程度並不較低；同樣……」是「no less + adjective」的用法，與本句語境不同。",
-        "less-mcq-08": "「委婉表示某性質明顯不足；談不上……」是「less than + adjective」的用法，與本句語境不同。",
-        "less-mcq-12": "「大致上；差不多」是「more or less」的用法，與本句語境不同。",
-        "less-mcq-07": "「數量低於指定數值」是「less than + number」的用法，與本句語境不同。"
+        "less-mcq-10": "本句的「less」指「正式表示最低不能少於某數量；至少」。",
+        "less-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-10"
     },
@@ -1139,11 +1075,9 @@ export default {
       "masked": "The work is ____ finished.",
       "options": [
         "less-mcq-12",
-        "less-mcq-11",
-        "less-mcq-13",
-        "less-mcq-10",
-        "less-mcq-14",
-        "less-mcq-09"
+        "less-mcq-21",
+        "less-mcq-23",
+        "less-reviewed-a0c361fb61"
       ],
       "explanation": "本句的「more or less」指「大致上；差不多」。",
       "sentenceIndex": 20,
@@ -1152,12 +1086,10 @@ export default {
         "more or less"
       ],
       "optionReasons": {
-        "less-mcq-12": "本句指「大致上；差不多」。",
-        "less-mcq-11": "「某性質程度並不較低；同樣……」是「no less + adjective」的用法，與本句語境不同。",
-        "less-mcq-13": "「前項尚且不可能，後項更不用說」是「much less」的用法，與本句語境不同。",
-        "less-mcq-10": "「正式表示最低不能少於某數量；至少」是「not less than」的用法，與本句語境不同。",
-        "less-mcq-14": "「強調某人／某物完全可以說是……」是「nothing less than」的用法，與本句語境不同。",
-        "less-mcq-09": "「以驚訝／強調語氣表示數量多達……；足足」是「no less than」的用法，與本句語境不同。"
+        "less-mcq-12": "本句的「more or less」指「大致上；差不多」。",
+        "less-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "less-reviewed-a0c361fb61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-12"
     },
@@ -1169,11 +1101,9 @@ export default {
       "masked": "The two versions are more or ____ the same.",
       "options": [
         "less-mcq-12",
-        "less-mcq-11",
-        "less-mcq-13",
-        "less-mcq-10",
+        "less-mcq-05",
         "less-mcq-14",
-        "less-mcq-09"
+        "less-mcq-23"
       ],
       "explanation": "本句的「less」指「大致上；差不多」。",
       "sentenceIndex": 21,
@@ -1182,12 +1112,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-12": "本句指「大致上；差不多」。",
-        "less-mcq-11": "「某性質程度並不較低；同樣……」是「no less + adjective」的用法，與本句語境不同。",
-        "less-mcq-13": "「前項尚且不可能，後項更不用說」是「much less」的用法，與本句語境不同。",
-        "less-mcq-10": "「正式表示最低不能少於某數量；至少」是「not less than」的用法，與本句語境不同。",
-        "less-mcq-14": "「強調某人／某物完全可以說是……」是「nothing less than」的用法，與本句語境不同。",
-        "less-mcq-09": "「以驚訝／強調語氣表示數量多達……；足足」是「no less than」的用法，與本句語境不同。"
+        "less-mcq-12": "本句的「less」指「大致上；差不多」。",
+        "less-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-12"
     },
@@ -1199,11 +1127,9 @@ export default {
       "masked": "I can’t afford a reproduction, ____ the original.",
       "options": [
         "less-mcq-13",
-        "less-mcq-12",
-        "less-mcq-14",
-        "less-mcq-11",
-        "less-mcq-15",
-        "less-mcq-10"
+        "less-mcq-07",
+        "less-reviewed-a0c361fb61",
+        "less-mcq-23"
       ],
       "explanation": "本句的「much less」指「前項尚且不可能，後項更不用說」。",
       "sentenceIndex": 22,
@@ -1212,12 +1138,10 @@ export default {
         "much less"
       ],
       "optionReasons": {
-        "less-mcq-13": "本句指「前項尚且不可能，後項更不用說」。",
-        "less-mcq-12": "「大致上；差不多」是「more or less」的用法，與本句語境不同。",
-        "less-mcq-14": "「強調某人／某物完全可以說是……」是「nothing less than」的用法，與本句語境不同。",
-        "less-mcq-11": "「某性質程度並不較低；同樣……」是「no less + adjective」的用法，與本句語境不同。",
-        "less-mcq-15": "「在重要性、程度或地位上較低的」是「lesser」的用法，與本句語境不同。",
-        "less-mcq-10": "「正式表示最低不能少於某數量；至少」是「not less than」的用法，與本句語境不同。"
+        "less-mcq-13": "本句的「much less」指「前項尚且不可能，後項更不用說」。",
+        "less-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "less-reviewed-a0c361fb61": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-13"
     },
@@ -1229,11 +1153,9 @@ export default {
       "masked": "He can barely walk, much ____ run.",
       "options": [
         "less-mcq-13",
-        "less-mcq-12",
-        "less-mcq-14",
-        "less-mcq-11",
-        "less-mcq-15",
-        "less-mcq-10"
+        "less-mcq-23",
+        "less-mcq-16",
+        "less-mcq-08"
       ],
       "explanation": "本句的「less」指「前項尚且不可能，後項更不用說」。",
       "sentenceIndex": 23,
@@ -1242,12 +1164,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-13": "本句指「前項尚且不可能，後項更不用說」。",
-        "less-mcq-12": "「大致上；差不多」是「more or less」的用法，與本句語境不同。",
-        "less-mcq-14": "「強調某人／某物完全可以說是……」是「nothing less than」的用法，與本句語境不同。",
-        "less-mcq-11": "「某性質程度並不較低；同樣……」是「no less + adjective」的用法，與本句語境不同。",
-        "less-mcq-15": "「在重要性、程度或地位上較低的」是「lesser」的用法，與本句語境不同。",
-        "less-mcq-10": "「正式表示最低不能少於某數量；至少」是「not less than」的用法，與本句語境不同。"
+        "less-mcq-13": "本句的「less」指「前項尚且不可能，後項更不用說」。",
+        "less-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-13"
     },
@@ -1259,11 +1179,9 @@ export default {
       "masked": "He cannot afford the frame, ____ the painting.",
       "options": [
         "less-mcq-13",
-        "less-mcq-12",
-        "less-mcq-14",
-        "less-mcq-11",
-        "less-mcq-15",
-        "less-mcq-10"
+        "less-mcq-21",
+        "less-mcq-23",
+        "less-reviewed-a0c361fb61"
       ],
       "explanation": "本句的「still less」指「前項尚且不可能，後項更不用說」。",
       "sentenceIndex": 24,
@@ -1272,12 +1190,10 @@ export default {
         "still less"
       ],
       "optionReasons": {
-        "less-mcq-13": "本句指「前項尚且不可能，後項更不用說」。",
-        "less-mcq-12": "「大致上；差不多」是「more or less」的用法，與本句語境不同。",
-        "less-mcq-14": "「強調某人／某物完全可以說是……」是「nothing less than」的用法，與本句語境不同。",
-        "less-mcq-11": "「某性質程度並不較低；同樣……」是「no less + adjective」的用法，與本句語境不同。",
-        "less-mcq-15": "「在重要性、程度或地位上較低的」是「lesser」的用法，與本句語境不同。",
-        "less-mcq-10": "「正式表示最低不能少於某數量；至少」是「not less than」的用法，與本句語境不同。"
+        "less-mcq-13": "本句的「still less」指「前項尚且不可能，後項更不用說」。",
+        "less-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "less-reviewed-a0c361fb61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-13"
     },
@@ -1289,11 +1205,9 @@ export default {
       "masked": "She had no time to rest, still ____ to travel.",
       "options": [
         "less-mcq-13",
-        "less-mcq-12",
-        "less-mcq-14",
-        "less-mcq-11",
-        "less-mcq-15",
-        "less-mcq-10"
+        "less-mcq-05",
+        "less-reviewed-a0c361fb61",
+        "less-mcq-12"
       ],
       "explanation": "本句的「less」指「前項尚且不可能，後項更不用說」。",
       "sentenceIndex": 25,
@@ -1302,12 +1216,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-13": "本句指「前項尚且不可能，後項更不用說」。",
-        "less-mcq-12": "「大致上；差不多」是「more or less」的用法，與本句語境不同。",
-        "less-mcq-14": "「強調某人／某物完全可以說是……」是「nothing less than」的用法，與本句語境不同。",
-        "less-mcq-11": "「某性質程度並不較低；同樣……」是「no less + adjective」的用法，與本句語境不同。",
-        "less-mcq-15": "「在重要性、程度或地位上較低的」是「lesser」的用法，與本句語境不同。",
-        "less-mcq-10": "「正式表示最低不能少於某數量；至少」是「not less than」的用法，與本句語境不同。"
+        "less-mcq-13": "本句的「less」指「前項尚且不可能，後項更不用說」。",
+        "less-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "less-reviewed-a0c361fb61": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-13"
     },
@@ -1319,11 +1231,9 @@ export default {
       "masked": "The walk takes ____ ten minutes.",
       "options": [
         "less-mcq-07",
-        "less-mcq-06",
-        "less-mcq-08",
-        "less-mcq-05",
-        "less-mcq-09",
-        "less-mcq-04"
+        "less-mcq-23",
+        "less-mcq-12",
+        "less-mcq-13"
       ],
       "explanation": "本句的「less than」指「數量低於指定數值」。",
       "sentenceIndex": 26,
@@ -1332,12 +1242,10 @@ export default {
         "less than"
       ],
       "optionReasons": {
-        "less-mcq-07": "本句指「數量低於指定數值」。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。",
-        "less-mcq-08": "「委婉表示某性質明顯不足；談不上……」是「less than + adjective」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。",
-        "less-mcq-09": "「以驚訝／強調語氣表示數量多達……；足足」是「no less than」的用法，與本句語境不同。",
-        "less-mcq-04": "「與某人／某物相似的程度較低；比較不像」是「less like + noun」的用法，與本句語境不同。"
+        "less-mcq-07": "本句的「less than」指「數量低於指定數值」。",
+        "less-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-07"
     },
@@ -1349,11 +1257,9 @@ export default {
       "masked": "The ticket costs ____ than fifty dollars.",
       "options": [
         "less-mcq-07",
-        "less-mcq-06",
-        "less-mcq-08",
-        "less-mcq-05",
-        "less-mcq-09",
-        "less-mcq-04"
+        "less-mcq-14",
+        "less-mcq-12",
+        "less-mcq-08"
       ],
       "explanation": "本句的「less」指「數量低於指定數值」。",
       "sentenceIndex": 27,
@@ -1362,12 +1268,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-07": "本句指「數量低於指定數值」。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。",
-        "less-mcq-08": "「委婉表示某性質明顯不足；談不上……」是「less than + adjective」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。",
-        "less-mcq-09": "「以驚訝／強調語氣表示數量多達……；足足」是「no less than」的用法，與本句語境不同。",
-        "less-mcq-04": "「與某人／某物相似的程度較低；比較不像」是「less like + noun」的用法，與本句語境不同。"
+        "less-mcq-07": "本句的「less」指「數量低於指定數值」。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-07"
     },
@@ -1379,11 +1283,9 @@ export default {
       "masked": "His explanation was ____.",
       "options": [
         "less-mcq-08",
-        "less-mcq-07",
-        "less-mcq-09",
-        "less-mcq-06",
-        "less-mcq-10",
-        "less-mcq-05"
+        "less-mcq-21",
+        "less-mcq-13",
+        "less-mcq-18"
       ],
       "explanation": "本句的「less than clear」指「委婉表示某性質明顯不足；談不上……」。",
       "sentenceIndex": 28,
@@ -1392,12 +1294,10 @@ export default {
         "less than clear"
       ],
       "optionReasons": {
-        "less-mcq-08": "本句指「委婉表示某性質明顯不足；談不上……」。",
-        "less-mcq-07": "「數量低於指定數值」是「less than + number」的用法，與本句語境不同。",
-        "less-mcq-09": "「以驚訝／強調語氣表示數量多達……；足足」是「no less than」的用法，與本句語境不同。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。",
-        "less-mcq-10": "「正式表示最低不能少於某數量；至少」是「not less than」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。"
+        "less-mcq-08": "本句的「less than clear」指「委婉表示某性質明顯不足；談不上……」。",
+        "less-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-08"
     },
@@ -1409,11 +1309,9 @@ export default {
       "masked": "The service was ____ than satisfactory.",
       "options": [
         "less-mcq-08",
-        "less-mcq-07",
-        "less-mcq-09",
-        "less-mcq-06",
-        "less-mcq-10",
-        "less-mcq-05"
+        "less-mcq-18",
+        "less-mcq-13",
+        "less-mcq-12"
       ],
       "explanation": "本句的「less」指「委婉表示某性質明顯不足；談不上……」。",
       "sentenceIndex": 29,
@@ -1422,12 +1320,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-08": "本句指「委婉表示某性質明顯不足；談不上……」。",
-        "less-mcq-07": "「數量低於指定數值」是「less than + number」的用法，與本句語境不同。",
-        "less-mcq-09": "「以驚訝／強調語氣表示數量多達……；足足」是「no less than」的用法，與本句語境不同。",
-        "less-mcq-06": "「數量／程度持續減少」是「less and less」的用法，與本句語境不同。",
-        "less-mcq-10": "「正式表示最低不能少於某數量；至少」是「not less than」的用法，與本句語境不同。",
-        "less-mcq-05": "「數量或程度低於另一對象」是「less ... than ...」的用法，與本句語境不同。"
+        "less-mcq-08": "本句的「less」指「委婉表示某性質明顯不足；談不上……」。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-08"
     },
@@ -1439,11 +1335,9 @@ export default {
       "masked": "The view was ____.",
       "options": [
         "less-mcq-14",
-        "less-mcq-13",
-        "less-mcq-15",
-        "less-mcq-12",
-        "less-mcq-16",
-        "less-mcq-11"
+        "less-mcq-22",
+        "less-reviewed-a0c361fb61",
+        "less-mcq-12"
       ],
       "explanation": "本句的「nothing less than spectacular」指「強調某人／某物完全可以說是……」。",
       "sentenceIndex": 30,
@@ -1452,12 +1346,10 @@ export default {
         "nothing less than spectacular"
       ],
       "optionReasons": {
-        "less-mcq-14": "本句指「強調某人／某物完全可以說是……」。",
-        "less-mcq-13": "「前項尚且不可能，後項更不用說」是「much less」的用法，與本句語境不同。",
-        "less-mcq-15": "「在重要性、程度或地位上較低的」是「lesser」的用法，與本句語境不同。",
-        "less-mcq-12": "「大致上；差不多」是「more or less」的用法，與本句語境不同。",
-        "less-mcq-16": "「在三者或以上比較中數量／程度最低」是「least」的用法，與本句語境不同。",
-        "less-mcq-11": "「某性質程度並不較低；同樣……」是「no less + adjective」的用法，與本句語境不同。"
+        "less-mcq-14": "本句的「nothing less than spectacular」指「強調某人／某物完全可以說是……」。",
+        "less-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "less-reviewed-a0c361fb61": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-14"
     },
@@ -1469,11 +1361,9 @@ export default {
       "masked": "Her recovery was nothing ____ than remarkable.",
       "options": [
         "less-mcq-14",
-        "less-mcq-13",
-        "less-mcq-15",
+        "less-mcq-07",
         "less-mcq-12",
-        "less-mcq-16",
-        "less-mcq-11"
+        "less-mcq-08"
       ],
       "explanation": "本句的「less」指「強調某人／某物完全可以說是……」。",
       "sentenceIndex": 31,
@@ -1482,12 +1372,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-14": "本句指「強調某人／某物完全可以說是……」。",
-        "less-mcq-13": "「前項尚且不可能，後項更不用說」是「much less」的用法，與本句語境不同。",
-        "less-mcq-15": "「在重要性、程度或地位上較低的」是「lesser」的用法，與本句語境不同。",
-        "less-mcq-12": "「大致上；差不多」是「more or less」的用法，與本句語境不同。",
-        "less-mcq-16": "「在三者或以上比較中數量／程度最低」是「least」的用法，與本句語境不同。",
-        "less-mcq-11": "「某性質程度並不較低；同樣……」是「no less + adjective」的用法，與本句語境不同。"
+        "less-mcq-14": "本句的「less」指「強調某人／某物完全可以說是……」。",
+        "less-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-14"
     },
@@ -1499,11 +1387,9 @@ export default {
       "masked": "I couldn’t care ____.",
       "options": [
         "less-mcq-20",
-        "less-mcq-19",
-        "less-mcq-21",
-        "less-mcq-18",
-        "less-mcq-22",
-        "less-mcq-17"
+        "less-reviewed-a0c361fb61",
+        "less-mcq-12",
+        "less-mcq-23"
       ],
       "explanation": "本句的「any less」指「程度進一步降低；常用於否定結構作強調」。",
       "sentenceIndex": 32,
@@ -1512,12 +1398,10 @@ export default {
         "any less"
       ],
       "optionReasons": {
-        "less-mcq-20": "本句指「程度進一步降低；常用於否定結構作強調」。",
-        "less-mcq-19": "「完全沒有某種程度；一點也不」是「not in the least」的用法，與本句語境不同。",
-        "less-mcq-21": "「某種身分、特徵或作用的程度較低」是「18. less of + noun = 較少成分／較不像某種人事物」的用法，與本句語境不同。",
-        "less-mcq-18": "「在其他情況不理想時指出一項仍可接受的事實」是「at least — discourse」的用法，與本句語境不同。",
-        "less-mcq-22": "「X 程度越低，Y 的程度越高／有所變化」是「19. the less..., the more... = 越少……，越……」的用法，與本句語境不同。",
-        "less-mcq-17": "「不低於某最低數量／程度」是「at least — minimum」的用法，與本句語境不同。"
+        "less-mcq-20": "本句的「any less」指「程度進一步降低；常用於否定結構作強調」。",
+        "less-reviewed-a0c361fb61": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-20"
     },
@@ -1529,11 +1413,9 @@ export default {
       "masked": "The room could not be any ____ welcoming.",
       "options": [
         "less-mcq-20",
-        "less-mcq-19",
-        "less-mcq-21",
-        "less-mcq-18",
-        "less-mcq-22",
-        "less-mcq-17"
+        "less-mcq-13",
+        "less-mcq-23",
+        "less-mcq-12"
       ],
       "explanation": "本句的「less」指「程度進一步降低；常用於否定結構作強調」。",
       "sentenceIndex": 33,
@@ -1542,12 +1424,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-20": "本句指「程度進一步降低；常用於否定結構作強調」。",
-        "less-mcq-19": "「完全沒有某種程度；一點也不」是「not in the least」的用法，與本句語境不同。",
-        "less-mcq-21": "「某種身分、特徵或作用的程度較低」是「18. less of + noun = 較少成分／較不像某種人事物」的用法，與本句語境不同。",
-        "less-mcq-18": "「在其他情況不理想時指出一項仍可接受的事實」是「at least — discourse」的用法，與本句語境不同。",
-        "less-mcq-22": "「X 程度越低，Y 的程度越高／有所變化」是「19. the less..., the more... = 越少……，越……」的用法，與本句語境不同。",
-        "less-mcq-17": "「不低於某最低數量／程度」是「at least — minimum」的用法，與本句語境不同。"
+        "less-mcq-20": "本句的「less」指「程度進一步降低；常用於否定結構作強調」。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-20"
     },
@@ -1559,10 +1439,8 @@ export default {
       "masked": "The redesign makes it ____.",
       "options": [
         "less-mcq-21",
-        "less-mcq-20",
-        "less-mcq-22",
-        "less-mcq-19",
-        "less-mcq-23",
+        "less-mcq-12",
+        "less-mcq-13",
         "less-mcq-18"
       ],
       "explanation": "本句的「less of a distraction」指「某種身分、特徵或作用的程度較低」。",
@@ -1572,12 +1450,10 @@ export default {
         "less of a distraction"
       ],
       "optionReasons": {
-        "less-mcq-21": "本句指「某種身分、特徵或作用的程度較低」。",
-        "less-mcq-20": "「程度進一步降低；常用於否定結構作強調」是「17. any less = 再少一點；程度再低一點」的用法，與本句語境不同。",
-        "less-mcq-22": "「X 程度越低，Y 的程度越高／有所變化」是「19. the less..., the more... = 越少……，越……」的用法，與本句語境不同。",
-        "less-mcq-19": "「完全沒有某種程度；一點也不」是「not in the least」的用法，與本句語境不同。",
-        "less-mcq-23": "「兩個不理想選擇中相對較不壞的一個」是「21. the lesser of two evils = 兩害相權取其輕」的用法，與本句語境不同。",
-        "less-mcq-18": "「在其他情況不理想時指出一項仍可接受的事實」是「at least — discourse」的用法，與本句語境不同。"
+        "less-mcq-21": "本句的「less of a distraction」指「某種身分、特徵或作用的程度較低」。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-21"
     },
@@ -1589,11 +1465,9 @@ export default {
       "masked": "He is ____ of a critic now.",
       "options": [
         "less-mcq-21",
-        "less-mcq-20",
-        "less-mcq-22",
-        "less-mcq-19",
-        "less-mcq-23",
-        "less-mcq-18"
+        "less-mcq-08",
+        "less-mcq-14",
+        "less-mcq-12"
       ],
       "explanation": "本句的「less」指「某種身分、特徵或作用的程度較低」。",
       "sentenceIndex": 35,
@@ -1602,12 +1476,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-21": "本句指「某種身分、特徵或作用的程度較低」。",
-        "less-mcq-20": "「程度進一步降低；常用於否定結構作強調」是「17. any less = 再少一點；程度再低一點」的用法，與本句語境不同。",
-        "less-mcq-22": "「X 程度越低，Y 的程度越高／有所變化」是「19. the less..., the more... = 越少……，越……」的用法，與本句語境不同。",
-        "less-mcq-19": "「完全沒有某種程度；一點也不」是「not in the least」的用法，與本句語境不同。",
-        "less-mcq-23": "「兩個不理想選擇中相對較不壞的一個」是「21. the lesser of two evils = 兩害相權取其輕」的用法，與本句語境不同。",
-        "less-mcq-18": "「在其他情況不理想時指出一項仍可接受的事實」是「at least — discourse」的用法，與本句語境不同。"
+        "less-mcq-21": "本句的「less」指「某種身分、特徵或作用的程度較低」。",
+        "less-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-21"
     },
@@ -1619,11 +1491,9 @@ export default {
       "masked": "The ____ you rush, the more you notice.",
       "options": [
         "less-mcq-22",
-        "less-mcq-21",
-        "less-mcq-23",
-        "less-mcq-20",
-        "less-mcq-19",
-        "less-mcq-18"
+        "less-mcq-08",
+        "less-mcq-18",
+        "less-mcq-13"
       ],
       "explanation": "本句的「less」指「X 程度越低，Y 的程度越高／有所變化」。",
       "sentenceIndex": 36,
@@ -1632,12 +1502,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-22": "本句指「X 程度越低，Y 的程度越高／有所變化」。",
-        "less-mcq-21": "「某種身分、特徵或作用的程度較低」是「18. less of + noun = 較少成分／較不像某種人事物」的用法，與本句語境不同。",
-        "less-mcq-23": "「兩個不理想選擇中相對較不壞的一個」是「21. the lesser of two evils = 兩害相權取其輕」的用法，與本句語境不同。",
-        "less-mcq-20": "「程度進一步降低；常用於否定結構作強調」是「17. any less = 再少一點；程度再低一點」的用法，與本句語境不同。",
-        "less-mcq-19": "「完全沒有某種程度；一點也不」是「not in the least」的用法，與本句語境不同。",
-        "less-mcq-18": "「在其他情況不理想時指出一項仍可接受的事實」是「at least — discourse」的用法，與本句語境不同。"
+        "less-mcq-22": "本句的「less」指「X 程度越低，Y 的程度越高／有所變化」。",
+        "less-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-22"
     },
@@ -1649,10 +1517,8 @@ export default {
       "masked": "The ____ light there is, the softer the room feels.",
       "options": [
         "less-mcq-22",
-        "less-mcq-21",
-        "less-mcq-23",
-        "less-mcq-20",
-        "less-mcq-19",
+        "less-mcq-08",
+        "less-mcq-14",
         "less-mcq-18"
       ],
       "explanation": "本句的「less」指「X 程度越低，Y 的程度越高／有所變化」。",
@@ -1662,12 +1528,10 @@ export default {
         "less"
       ],
       "optionReasons": {
-        "less-mcq-22": "本句指「X 程度越低，Y 的程度越高／有所變化」。",
-        "less-mcq-21": "「某種身分、特徵或作用的程度較低」是「18. less of + noun = 較少成分／較不像某種人事物」的用法，與本句語境不同。",
-        "less-mcq-23": "「兩個不理想選擇中相對較不壞的一個」是「21. the lesser of two evils = 兩害相權取其輕」的用法，與本句語境不同。",
-        "less-mcq-20": "「程度進一步降低；常用於否定結構作強調」是「17. any less = 再少一點；程度再低一點」的用法，與本句語境不同。",
-        "less-mcq-19": "「完全沒有某種程度；一點也不」是「not in the least」的用法，與本句語境不同。",
-        "less-mcq-18": "「在其他情況不理想時指出一項仍可接受的事實」是「at least — discourse」的用法，與本句語境不同。"
+        "less-mcq-22": "本句的「less」指「X 程度越低，Y 的程度越高／有所變化」。",
+        "less-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-22"
     },
@@ -1679,11 +1543,9 @@ export default {
       "masked": "They focused on the ____ details later.",
       "options": [
         "less-mcq-15",
-        "less-mcq-14",
-        "less-mcq-16",
         "less-mcq-13",
-        "less-mcq-17",
-        "less-mcq-12"
+        "less-mcq-18",
+        "less-mcq-14"
       ],
       "explanation": "本句的「lesser」指「在重要性、程度或地位上較低的」。",
       "sentenceIndex": 38,
@@ -1692,12 +1554,10 @@ export default {
         "lesser"
       ],
       "optionReasons": {
-        "less-mcq-15": "本句指「在重要性、程度或地位上較低的」。",
-        "less-mcq-14": "「強調某人／某物完全可以說是……」是「nothing less than」的用法，與本句語境不同。",
-        "less-mcq-16": "「在三者或以上比較中數量／程度最低」是「least」的用法，與本句語境不同。",
-        "less-mcq-13": "「前項尚且不可能，後項更不用說」是「much less」的用法，與本句語境不同。",
-        "less-mcq-17": "「不低於某最低數量／程度」是「at least — minimum」的用法，與本句語境不同。",
-        "less-mcq-12": "「大致上；差不多」是「more or less」的用法，與本句語境不同。"
+        "less-mcq-15": "本句的「lesser」指「在重要性、程度或地位上較低的」。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-15"
     },
@@ -1709,11 +1569,9 @@ export default {
       "masked": "The ____ problem can wait.",
       "options": [
         "less-mcq-15",
-        "less-mcq-14",
-        "less-mcq-16",
-        "less-mcq-13",
-        "less-mcq-17",
-        "less-mcq-12"
+        "less-mcq-18",
+        "less-mcq-12",
+        "less-mcq-13"
       ],
       "explanation": "本句的「lesser」指「在重要性、程度或地位上較低的」。",
       "sentenceIndex": 39,
@@ -1722,12 +1580,10 @@ export default {
         "lesser"
       ],
       "optionReasons": {
-        "less-mcq-15": "本句指「在重要性、程度或地位上較低的」。",
-        "less-mcq-14": "「強調某人／某物完全可以說是……」是「nothing less than」的用法，與本句語境不同。",
-        "less-mcq-16": "「在三者或以上比較中數量／程度最低」是「least」的用法，與本句語境不同。",
-        "less-mcq-13": "「前項尚且不可能，後項更不用說」是「much less」的用法，與本句語境不同。",
-        "less-mcq-17": "「不低於某最低數量／程度」是「at least — minimum」的用法，與本句語境不同。",
-        "less-mcq-12": "「大致上；差不多」是「more or less」的用法，與本句語境不同。"
+        "less-mcq-15": "本句的「lesser」指「在重要性、程度或地位上較低的」。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-15"
     },
@@ -1740,10 +1596,8 @@ export default {
       "options": [
         "less-mcq-23",
         "less-mcq-22",
-        "less-mcq-21",
-        "less-mcq-20",
-        "less-mcq-19",
-        "less-mcq-18"
+        "less-mcq-12",
+        "less-mcq-14"
       ],
       "explanation": "本句的「the lesser of two evils」指「兩個不理想選擇中相對較不壞的一個」。",
       "sentenceIndex": 40,
@@ -1752,12 +1606,10 @@ export default {
         "the lesser of two evils"
       ],
       "optionReasons": {
-        "less-mcq-23": "本句指「兩個不理想選擇中相對較不壞的一個」。",
-        "less-mcq-22": "「X 程度越低，Y 的程度越高／有所變化」是「19. the less..., the more... = 越少……，越……」的用法，與本句語境不同。",
-        "less-mcq-21": "「某種身分、特徵或作用的程度較低」是「18. less of + noun = 較少成分／較不像某種人事物」的用法，與本句語境不同。",
-        "less-mcq-20": "「程度進一步降低；常用於否定結構作強調」是「17. any less = 再少一點；程度再低一點」的用法，與本句語境不同。",
-        "less-mcq-19": "「完全沒有某種程度；一點也不」是「not in the least」的用法，與本句語境不同。",
-        "less-mcq-18": "「在其他情況不理想時指出一項仍可接受的事實」是「at least — discourse」的用法，與本句語境不同。"
+        "less-mcq-23": "本句的「the lesser of two evils」指「兩個不理想選擇中相對較不壞的一個」。",
+        "less-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-23"
     },
@@ -1769,11 +1621,9 @@ export default {
       "masked": "Neither option was good, so we chose the ____ of two evils.",
       "options": [
         "less-mcq-23",
+        "less-mcq-08",
         "less-mcq-22",
-        "less-mcq-21",
-        "less-mcq-20",
-        "less-mcq-19",
-        "less-mcq-18"
+        "less-mcq-13"
       ],
       "explanation": "本句的「lesser」指「兩個不理想選擇中相對較不壞的一個」。",
       "sentenceIndex": 41,
@@ -1782,12 +1632,10 @@ export default {
         "lesser"
       ],
       "optionReasons": {
-        "less-mcq-23": "本句指「兩個不理想選擇中相對較不壞的一個」。",
-        "less-mcq-22": "「X 程度越低，Y 的程度越高／有所變化」是「19. the less..., the more... = 越少……，越……」的用法，與本句語境不同。",
-        "less-mcq-21": "「某種身分、特徵或作用的程度較低」是「18. less of + noun = 較少成分／較不像某種人事物」的用法，與本句語境不同。",
-        "less-mcq-20": "「程度進一步降低；常用於否定結構作強調」是「17. any less = 再少一點；程度再低一點」的用法，與本句語境不同。",
-        "less-mcq-19": "「完全沒有某種程度；一點也不」是「not in the least」的用法，與本句語境不同。",
-        "less-mcq-18": "「在其他情況不理想時指出一項仍可接受的事實」是「at least — discourse」的用法，與本句語境不同。"
+        "less-mcq-23": "本句的「lesser」指「兩個不理想選擇中相對較不壞的一個」。",
+        "less-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-23"
     },
@@ -1799,11 +1647,9 @@ export default {
       "masked": "This option costs the ____.",
       "options": [
         "less-mcq-16",
-        "less-mcq-15",
-        "less-mcq-17",
-        "less-mcq-14",
         "less-mcq-18",
-        "less-mcq-13"
+        "less-mcq-14",
+        "less-mcq-08"
       ],
       "explanation": "本句的「least」指「在三者或以上比較中數量／程度最低」。",
       "sentenceIndex": 42,
@@ -1812,12 +1658,10 @@ export default {
         "least"
       ],
       "optionReasons": {
-        "less-mcq-16": "本句指「在三者或以上比較中數量／程度最低」。",
-        "less-mcq-15": "「在重要性、程度或地位上較低的」是「lesser」的用法，與本句語境不同。",
-        "less-mcq-17": "「不低於某最低數量／程度」是「at least — minimum」的用法，與本句語境不同。",
-        "less-mcq-14": "「強調某人／某物完全可以說是……」是「nothing less than」的用法，與本句語境不同。",
-        "less-mcq-18": "「在其他情況不理想時指出一項仍可接受的事實」是「at least — discourse」的用法，與本句語境不同。",
-        "less-mcq-13": "「前項尚且不可能，後項更不用說」是「much less」的用法，與本句語境不同。"
+        "less-mcq-16": "本句的「least」指「在三者或以上比較中數量／程度最低」。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-16"
     },
@@ -1829,9 +1673,7 @@ export default {
       "masked": "It is the ____ obvious detail in the painting.",
       "options": [
         "less-mcq-16",
-        "less-mcq-15",
-        "less-mcq-17",
-        "less-mcq-14",
+        "less-mcq-12",
         "less-mcq-18",
         "less-mcq-13"
       ],
@@ -1842,12 +1684,10 @@ export default {
         "least"
       ],
       "optionReasons": {
-        "less-mcq-16": "本句指「在三者或以上比較中數量／程度最低」。",
-        "less-mcq-15": "「在重要性、程度或地位上較低的」是「lesser」的用法，與本句語境不同。",
-        "less-mcq-17": "「不低於某最低數量／程度」是「at least — minimum」的用法，與本句語境不同。",
-        "less-mcq-14": "「強調某人／某物完全可以說是……」是「nothing less than」的用法，與本句語境不同。",
-        "less-mcq-18": "「在其他情況不理想時指出一項仍可接受的事實」是「at least — discourse」的用法，與本句語境不同。",
-        "less-mcq-13": "「前項尚且不可能，後項更不用說」是「much less」的用法，與本句語境不同。"
+        "less-mcq-16": "本句的「least」指「在三者或以上比較中數量／程度最低」。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-16"
     },
@@ -1859,11 +1699,9 @@ export default {
       "masked": "I would like ____ a reproduction.",
       "options": [
         "less-mcq-17",
-        "less-mcq-16",
-        "less-mcq-18",
-        "less-mcq-15",
-        "less-mcq-19",
-        "less-mcq-14"
+        "less-mcq-14",
+        "less-mcq-08",
+        "less-mcq-18"
       ],
       "explanation": "本句的「at least」指「不低於某最低數量／程度」。",
       "sentenceIndex": 44,
@@ -1872,12 +1710,10 @@ export default {
         "at least"
       ],
       "optionReasons": {
-        "less-mcq-17": "本句指「不低於某最低數量／程度」。",
-        "less-mcq-16": "「在三者或以上比較中數量／程度最低」是「least」的用法，與本句語境不同。",
-        "less-mcq-18": "「在其他情況不理想時指出一項仍可接受的事實」是「at least — discourse」的用法，與本句語境不同。",
-        "less-mcq-15": "「在重要性、程度或地位上較低的」是「lesser」的用法，與本句語境不同。",
-        "less-mcq-19": "「完全沒有某種程度；一點也不」是「not in the least」的用法，與本句語境不同。",
-        "less-mcq-14": "「強調某人／某物完全可以說是……」是「nothing less than」的用法，與本句語境不同。"
+        "less-mcq-17": "本句的「at least」指「不低於某最低數量／程度」。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-17"
     },
@@ -1889,10 +1725,8 @@ export default {
       "masked": "Stay for at ____ an hour.",
       "options": [
         "less-mcq-17",
-        "less-mcq-16",
-        "less-mcq-18",
-        "less-mcq-15",
-        "less-mcq-19",
+        "less-reviewed-a0c361fb61",
+        "less-mcq-12",
         "less-mcq-14"
       ],
       "explanation": "本句的「least」指「不低於某最低數量／程度」。",
@@ -1902,12 +1736,10 @@ export default {
         "least"
       ],
       "optionReasons": {
-        "less-mcq-17": "本句指「不低於某最低數量／程度」。",
-        "less-mcq-16": "「在三者或以上比較中數量／程度最低」是「least」的用法，與本句語境不同。",
-        "less-mcq-18": "「在其他情況不理想時指出一項仍可接受的事實」是「at least — discourse」的用法，與本句語境不同。",
-        "less-mcq-15": "「在重要性、程度或地位上較低的」是「lesser」的用法，與本句語境不同。",
-        "less-mcq-19": "「完全沒有某種程度；一點也不」是「not in the least」的用法，與本句語境不同。",
-        "less-mcq-14": "「強調某人／某物完全可以說是……」是「nothing less than」的用法，與本句語境不同。"
+        "less-mcq-17": "本句的「least」指「不低於某最低數量／程度」。",
+        "less-reviewed-a0c361fb61": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-17"
     },
@@ -1919,11 +1751,9 @@ export default {
       "masked": "The original is too expensive, but ____ I can buy a reproduction.",
       "options": [
         "less-mcq-18",
-        "less-mcq-17",
-        "less-mcq-19",
-        "less-mcq-16",
-        "less-mcq-20",
-        "less-mcq-15"
+        "less-mcq-21",
+        "less-mcq-12",
+        "less-mcq-08"
       ],
       "explanation": "本句的「at least」指「在其他情況不理想時指出一項仍可接受的事實」。",
       "sentenceIndex": 46,
@@ -1932,12 +1762,10 @@ export default {
         "at least"
       ],
       "optionReasons": {
-        "less-mcq-18": "本句指「在其他情況不理想時指出一項仍可接受的事實」。",
-        "less-mcq-17": "「不低於某最低數量／程度」是「at least — minimum」的用法，與本句語境不同。",
-        "less-mcq-19": "「完全沒有某種程度；一點也不」是「not in the least」的用法，與本句語境不同。",
-        "less-mcq-16": "「在三者或以上比較中數量／程度最低」是「least」的用法，與本句語境不同。",
-        "less-mcq-20": "「程度進一步降低；常用於否定結構作強調」是「17. any less = 再少一點；程度再低一點」的用法，與本句語境不同。",
-        "less-mcq-15": "「在重要性、程度或地位上較低的」是「lesser」的用法，與本句語境不同。"
+        "less-mcq-18": "本句的「at least」指「在其他情況不理想時指出一項仍可接受的事實」。",
+        "less-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-18"
     },
@@ -1949,11 +1777,9 @@ export default {
       "masked": "It rained all day, but at ____ we enjoyed the museum.",
       "options": [
         "less-mcq-18",
-        "less-mcq-17",
-        "less-mcq-19",
-        "less-mcq-16",
-        "less-mcq-20",
-        "less-mcq-15"
+        "less-mcq-21",
+        "less-reviewed-a0c361fb61",
+        "less-mcq-14"
       ],
       "explanation": "本句的「least」指「在其他情況不理想時指出一項仍可接受的事實」。",
       "sentenceIndex": 47,
@@ -1962,12 +1788,10 @@ export default {
         "least"
       ],
       "optionReasons": {
-        "less-mcq-18": "本句指「在其他情況不理想時指出一項仍可接受的事實」。",
-        "less-mcq-17": "「不低於某最低數量／程度」是「at least — minimum」的用法，與本句語境不同。",
-        "less-mcq-19": "「完全沒有某種程度；一點也不」是「not in the least」的用法，與本句語境不同。",
-        "less-mcq-16": "「在三者或以上比較中數量／程度最低」是「least」的用法，與本句語境不同。",
-        "less-mcq-20": "「程度進一步降低；常用於否定結構作強調」是「17. any less = 再少一點；程度再低一點」的用法，與本句語境不同。",
-        "less-mcq-15": "「在重要性、程度或地位上較低的」是「lesser」的用法，與本句語境不同。"
+        "less-mcq-18": "本句的「least」指「在其他情況不理想時指出一項仍可接受的事實」。",
+        "less-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "less-reviewed-a0c361fb61": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-18"
     },
@@ -1980,10 +1804,8 @@ export default {
       "options": [
         "less-mcq-19",
         "less-mcq-18",
-        "less-mcq-20",
-        "less-mcq-17",
-        "less-mcq-21",
-        "less-mcq-16"
+        "less-mcq-12",
+        "less-mcq-13"
       ],
       "explanation": "本句的「not in the least」指「完全沒有某種程度；一點也不」。",
       "sentenceIndex": 48,
@@ -1992,12 +1814,10 @@ export default {
         "not in the least"
       ],
       "optionReasons": {
-        "less-mcq-19": "本句指「完全沒有某種程度；一點也不」。",
-        "less-mcq-18": "「在其他情況不理想時指出一項仍可接受的事實」是「at least — discourse」的用法，與本句語境不同。",
-        "less-mcq-20": "「程度進一步降低；常用於否定結構作強調」是「17. any less = 再少一點；程度再低一點」的用法，與本句語境不同。",
-        "less-mcq-17": "「不低於某最低數量／程度」是「at least — minimum」的用法，與本句語境不同。",
-        "less-mcq-21": "「某種身分、特徵或作用的程度較低」是「18. less of + noun = 較少成分／較不像某種人事物」的用法，與本句語境不同。",
-        "less-mcq-16": "「在三者或以上比較中數量／程度最低」是「least」的用法，與本句語境不同。"
+        "less-mcq-19": "本句的「not in the least」指「完全沒有某種程度；一點也不」。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-19"
     },
@@ -2009,11 +1829,9 @@ export default {
       "masked": "The room did not feel cold in the ____.",
       "options": [
         "less-mcq-19",
-        "less-mcq-18",
-        "less-mcq-20",
-        "less-mcq-17",
-        "less-mcq-21",
-        "less-mcq-16"
+        "less-mcq-13",
+        "less-mcq-12",
+        "less-mcq-18"
       ],
       "explanation": "本句的「least」指「完全沒有某種程度；一點也不」。",
       "sentenceIndex": 49,
@@ -2022,12 +1840,10 @@ export default {
         "least"
       ],
       "optionReasons": {
-        "less-mcq-19": "本句指「完全沒有某種程度；一點也不」。",
-        "less-mcq-18": "「在其他情況不理想時指出一項仍可接受的事實」是「at least — discourse」的用法，與本句語境不同。",
-        "less-mcq-20": "「程度進一步降低；常用於否定結構作強調」是「17. any less = 再少一點；程度再低一點」的用法，與本句語境不同。",
-        "less-mcq-17": "「不低於某最低數量／程度」是「at least — minimum」的用法，與本句語境不同。",
-        "less-mcq-21": "「某種身分、特徵或作用的程度較低」是「18. less of + noun = 較少成分／較不像某種人事物」的用法，與本句語境不同。",
-        "less-mcq-16": "「在三者或以上比較中數量／程度最低」是「least」的用法，與本句語境不同。"
+        "less-mcq-19": "本句的「least」指「完全沒有某種程度；一點也不」。",
+        "less-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "less-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "less-mcq-19"
     }
@@ -2039,5 +1855,7 @@ export default {
     "sha256": "2f2c10d1159f723c43663bfd21cc4a46f95d76e2a2f84c98806bc30d182597c4",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "dim-mcq-01",
-      "title": "表示昏暗的；光線微弱的；例句：「那家餐廳光線溫暖而昏暗。」",
+      "title": "昏暗的；光線微弱的",
       "form": "Passage anchor > “It was like a light switching on in a dim room.",
       "en": "Passage anchor > “It was like a light switching on in a dim room.",
       "zh": "表示昏暗的；光線微弱的；例句：「那家餐廳光線溫暖而昏暗。」",
@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "dim-mcq-02",
-      "title": "表示昏暗的；光線微弱的；例句：「房間裡昏暗而安靜。」",
+      "title": "昏暗的；光線微弱的",
       "form": "dim — not brightly lit = having little light; not bright 昏暗的；光線微弱的",
       "en": "dim — not brightly lit = having little light; not bright 昏暗的；光線微弱的",
       "zh": "表示昏暗的；光線微弱的；例句：「房間裡昏暗而安靜。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "dim-mcq-03",
-      "title": "表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」",
+      "title": "微弱的光；昏暗的光線",
       "form": "dim light = weak or faint light 微弱的光；昏暗的光線",
       "en": "dim light = weak or faint light 微弱的光；昏暗的光線",
       "zh": "表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "dim-mcq-04",
-      "title": "表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」",
+      "title": "燈光昏暗的；光線不足的",
       "form": "dimly lit = having weak or low lighting 燈光昏暗的；光線不足的",
       "en": "dimly lit = having weak or low lighting 燈光昏暗的；光線不足的",
       "zh": "表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "dim-mcq-05",
-      "title": "表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」",
+      "title": "模糊的；隱約可見的",
       "form": "dim — difficult to see clearly = faint, unclear, or only weakly visible 模糊的；隱約可見的",
       "en": "dim — difficult to see clearly = faint, unclear, or only weakly visible 模糊的；隱約可見的",
       "zh": "表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "dim-mcq-06",
-      "title": "表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」",
+      "title": "模糊的人影／輪廓／形狀",
       "form": "dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀",
       "en": "dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀",
       "zh": "表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "dim-mcq-07",
-      "title": "表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」",
+      "title": "暗淡的；微弱的",
       "form": "dim — not shining strongly = faint in brightness 暗淡的；微弱的",
       "en": "dim — not shining strongly = faint in brightness 暗淡的；微弱的",
       "zh": "表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "dim-mcq-08",
-      "title": "表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」",
+      "title": "亮度較低的螢幕",
       "form": "dim screen / display = a screen with low brightness 亮度較低的螢幕",
       "en": "dim screen / display = a screen with low brightness 亮度較低的螢幕",
       "zh": "表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "dim-mcq-09",
-      "title": "表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」",
+      "title": "調暗；使變暗",
       "form": "dim something = make a light less bright 調暗；使變暗",
       "en": "dim something = make a light less bright 調暗；使變暗",
       "zh": "表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "dim-mcq-10",
-      "title": "表示燈光變暗；例句：「電影開始前，燈光暗了下來。」",
+      "title": "燈光變暗",
       "form": "lights dim = become less bright 燈光變暗",
       "en": "lights dim = become less bright 燈光變暗",
       "zh": "表示燈光變暗；例句：「電影開始前，燈光暗了下來。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "dim-mcq-11",
-      "title": "表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」",
+      "title": "模糊的記憶；依稀的印象",
       "form": "dim memory / recollection = a memory that is weak, unclear, or difficult to recall 模糊的記憶；依稀的印象",
       "en": "dim memory / recollection = a memory that is weak, unclear, or difficult to recall 模糊的記憶；依稀的印象",
       "zh": "表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "dim-mcq-12",
-      "title": "表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」",
+      "title": "隱約的察覺；模糊的意識",
       "form": "a dim awareness = weak or incomplete awareness of something 隱約的察覺；模糊的意識",
       "en": "a dim awareness = weak or incomplete awareness of something 隱約的察覺；模糊的意識",
       "zh": "表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "dim-mcq-13",
-      "title": "表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」",
+      "title": "黯淡的前景；不樂觀的前途",
       "form": "dim prospects = poor or unlikely chances of success 黯淡的前景；不樂觀的前途",
       "en": "dim prospects = poor or unlikely chances of success 黯淡的前景；不樂觀的前途",
       "zh": "表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "dim-mcq-14",
-      "title": "表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」",
+      "title": "渺茫的機會；微弱的希望",
       "form": "a dim chance / hope = a very small or weak possibility 渺茫的機會；微弱的希望",
       "en": "a dim chance / hope = a very small or weak possibility 渺茫的機會；微弱的希望",
       "zh": "表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "dim-mcq-15",
-      "title": "表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」",
+      "title": "遲鈍的；不太聰明的",
       "form": "dim — not very intelligent or quick to understand = slow to understand; not intellectually sharp 遲鈍的；不太聰明的",
       "en": "dim — not very intelligent or quick to understand = slow to understand; not intellectually sharp 遲鈍的；不太聰明的",
       "zh": "表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "dim-mcq-16",
-      "title": "表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」",
+      "title": "愚鈍的；遲鈍的",
       "form": "dim-witted = slow or unintelligent 愚鈍的；遲鈍的",
       "en": "dim-witted = slow or unintelligent 愚鈍的；遲鈍的",
       "zh": "表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "dim-mcq-17",
-      "title": "表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」",
+      "title": "視力模糊；視力衰退",
       "form": "dim eyesight / vision = weak or failing vision 視力模糊；視力衰退",
       "en": "dim eyesight / vision = weak or failing vision 視力模糊；視力衰退",
       "zh": "表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "dim-mcq-18",
-      "title": "表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」",
+      "title": "使記憶變模糊",
       "form": "dim someone’s memory = make a memory less clear 使記憶變模糊",
       "en": "dim someone’s memory = make a memory less clear 使記憶變模糊",
       "zh": "表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "dim-mcq-20",
-      "title": "表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」",
+      "title": "削弱；沖淡",
       "form": "dim someone’s enthusiasm / joy = reduce the strength of a feeling 削弱；沖淡",
       "en": "dim someone’s enthusiasm / joy = reduce the strength of a feeling 削弱；沖淡",
       "zh": "表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "dim-mcq-21",
-      "title": "表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」",
+      "title": "逐漸淡去；逐漸減弱",
       "form": "something dims = gradually become weaker, less vivid, or less intense 逐漸淡去；逐漸減弱",
       "en": "something dims = gradually become weaker, less vivid, or less intense 逐漸淡去；逐漸減弱",
       "zh": "表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」",
@@ -469,7 +469,7 @@ export default {
     },
     {
       "id": "dim-mcq-22",
-      "title": "表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」",
+      "title": "對……很不以為然；非常不贊成",
       "form": "take a dim view of something = strongly disapprove of something 對……很不以為然；非常不贊成",
       "en": "take a dim view of something = strongly disapprove of something 對……很不以為然；非常不贊成",
       "zh": "表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」",
@@ -491,7 +491,7 @@ export default {
     },
     {
       "id": "dim-mcq-23",
-      "title": "表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」",
+      "title": "在遙遠的過去；很久以前",
       "form": "in the dim and distant past = a very long time ago 在遙遠的過去；很久以前",
       "en": "in the dim and distant past = a very long time ago 在遙遠的過去；很久以前",
       "zh": "表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」",
@@ -513,7 +513,7 @@ export default {
     },
     {
       "id": "dim-mcq-24",
-      "title": "表示昏暗地；模糊地；隱約地；例句：「我依稀記得以前見過她。」",
+      "title": "昏暗地；模糊地；隱約地",
       "form": "dimly = with little light, clarity, or certainty 昏暗地；模糊地；隱約地",
       "en": "dimly = with little light, clarity, or certainty 昏暗地；模糊地；隱約地",
       "zh": "表示昏暗地；模糊地；隱約地；例句：「我依稀記得以前見過她。」",
@@ -535,7 +535,7 @@ export default {
     },
     {
       "id": "dim-mcq-25",
-      "title": "表示昏暗；模糊；暗淡；例句：「我的眼睛慢慢適應了周圍的昏暗。」",
+      "title": "昏暗；模糊；暗淡",
       "form": "dimness = lack of brightness, clarity, or vividness 昏暗；模糊；暗淡",
       "en": "dimness = lack of brightness, clarity, or vividness 昏暗；模糊；暗淡",
       "zh": "表示昏暗；模糊；暗淡；例句：「我的眼睛慢慢適應了周圍的昏暗。」",
@@ -557,7 +557,7 @@ export default {
     },
     {
       "id": "dim-mcq-26",
-      "title": "表示調光器；調光開關；例句：「使用調光器把燈調暗。」",
+      "title": "調光器；調光開關",
       "form": "dimmer",
       "en": "dimmer",
       "zh": "表示調光器；調光開關；例句：「使用調光器把燈調暗。」",
@@ -587,11 +587,9 @@ export default {
       "masked": "The restaurant was warm and ____.",
       "options": [
         "dim-mcq-01",
-        "dim-mcq-02",
-        "dim-mcq-03",
-        "dim-mcq-04",
-        "dim-mcq-05",
-        "dim-mcq-06"
+        "dim-mcq-23",
+        "dim-mcq-12",
+        "dim-mcq-15"
       ],
       "explanation": "本句的「dim」指「表示昏暗的；光線微弱的；例句：「那家餐廳光線溫暖而昏暗。」」。",
       "sentenceIndex": 0,
@@ -600,12 +598,10 @@ export default {
         "dim"
       ],
       "optionReasons": {
-        "dim-mcq-01": "本句指「表示昏暗的；光線微弱的；例句：「那家餐廳光線溫暖而昏暗。」」。",
-        "dim-mcq-02": "「表示昏暗的；光線微弱的；例句：「房間裡昏暗而安靜。」」是「dim — not brightly lit = having little light; not bright 昏暗的；光線微弱的」的用法，與本句語境不同。",
-        "dim-mcq-03": "「表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」」是「dim light = weak or faint light 微弱的光；昏暗的光線」的用法，與本句語境不同。",
-        "dim-mcq-04": "「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」是「dimly lit = having weak or low lighting 燈光昏暗的；光線不足的」的用法，與本句語境不同。",
-        "dim-mcq-05": "「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」是「dim — difficult to see clearly = faint, unclear, or only weakly visible 模糊的；隱約可見的」的用法，與本句語境不同。",
-        "dim-mcq-06": "「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」是「dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀」的用法，與本句語境不同。"
+        "dim-mcq-01": "本句的「dim」指「表示昏暗的；光線微弱的；例句：「那家餐廳光線溫暖而昏暗。」」。",
+        "dim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-01"
     },
@@ -617,11 +613,9 @@ export default {
       "masked": "I could barely see his face in the ____.",
       "options": [
         "dim-mcq-01",
-        "dim-mcq-02",
-        "dim-mcq-03",
-        "dim-mcq-04",
-        "dim-mcq-05",
-        "dim-mcq-06"
+        "dim-mcq-22",
+        "dim-mcq-06",
+        "dim-mcq-08"
       ],
       "explanation": "本句的「dim light」指「表示昏暗的；光線微弱的；例句：「那家餐廳光線溫暖而昏暗。」」。",
       "sentenceIndex": 1,
@@ -630,12 +624,10 @@ export default {
         "dim light"
       ],
       "optionReasons": {
-        "dim-mcq-01": "本句指「表示昏暗的；光線微弱的；例句：「那家餐廳光線溫暖而昏暗。」」。",
-        "dim-mcq-02": "「表示昏暗的；光線微弱的；例句：「房間裡昏暗而安靜。」」是「dim — not brightly lit = having little light; not bright 昏暗的；光線微弱的」的用法，與本句語境不同。",
-        "dim-mcq-03": "「表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」」是「dim light = weak or faint light 微弱的光；昏暗的光線」的用法，與本句語境不同。",
-        "dim-mcq-04": "「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」是「dimly lit = having weak or low lighting 燈光昏暗的；光線不足的」的用法，與本句語境不同。",
-        "dim-mcq-05": "「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」是「dim — difficult to see clearly = faint, unclear, or only weakly visible 模糊的；隱約可見的」的用法，與本句語境不同。",
-        "dim-mcq-06": "「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」是「dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀」的用法，與本句語境不同。"
+        "dim-mcq-01": "本句的「dim light」指「表示昏暗的；光線微弱的；例句：「那家餐廳光線溫暖而昏暗。」」。",
+        "dim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-01"
     },
@@ -647,11 +639,9 @@ export default {
       "masked": "The room was ____ and quiet.",
       "options": [
         "dim-mcq-02",
-        "dim-mcq-01",
-        "dim-mcq-03",
-        "dim-mcq-04",
-        "dim-mcq-05",
-        "dim-mcq-06"
+        "dim-mcq-16",
+        "dim-mcq-22",
+        "dim-mcq-11"
       ],
       "explanation": "本句的「dim」指「表示昏暗的；光線微弱的；例句：「房間裡昏暗而安靜。」」。",
       "sentenceIndex": 2,
@@ -660,12 +650,10 @@ export default {
         "dim"
       ],
       "optionReasons": {
-        "dim-mcq-02": "本句指「表示昏暗的；光線微弱的；例句：「房間裡昏暗而安靜。」」。",
-        "dim-mcq-01": "「表示昏暗的；光線微弱的；例句：「那家餐廳光線溫暖而昏暗。」」是「Passage anchor > “It was like a light switching on in a dim room.」的用法，與本句語境不同。",
-        "dim-mcq-03": "「表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」」是「dim light = weak or faint light 微弱的光；昏暗的光線」的用法，與本句語境不同。",
-        "dim-mcq-04": "「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」是「dimly lit = having weak or low lighting 燈光昏暗的；光線不足的」的用法，與本句語境不同。",
-        "dim-mcq-05": "「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」是「dim — difficult to see clearly = faint, unclear, or only weakly visible 模糊的；隱約可見的」的用法，與本句語境不同。",
-        "dim-mcq-06": "「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」是「dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀」的用法，與本句語境不同。"
+        "dim-mcq-02": "本句的「dim」指「表示昏暗的；光線微弱的；例句：「房間裡昏暗而安靜。」」。",
+        "dim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-02"
     },
@@ -677,11 +665,9 @@ export default {
       "masked": "We walked through a ____.",
       "options": [
         "dim-mcq-02",
-        "dim-mcq-01",
-        "dim-mcq-03",
-        "dim-mcq-04",
-        "dim-mcq-05",
-        "dim-mcq-06"
+        "dim-mcq-11",
+        "dim-mcq-15",
+        "dim-mcq-23"
       ],
       "explanation": "本句的「dim corridor」指「表示昏暗的；光線微弱的；例句：「房間裡昏暗而安靜。」」。",
       "sentenceIndex": 3,
@@ -690,12 +676,10 @@ export default {
         "dim corridor"
       ],
       "optionReasons": {
-        "dim-mcq-02": "本句指「表示昏暗的；光線微弱的；例句：「房間裡昏暗而安靜。」」。",
-        "dim-mcq-01": "「表示昏暗的；光線微弱的；例句：「那家餐廳光線溫暖而昏暗。」」是「Passage anchor > “It was like a light switching on in a dim room.」的用法，與本句語境不同。",
-        "dim-mcq-03": "「表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」」是「dim light = weak or faint light 微弱的光；昏暗的光線」的用法，與本句語境不同。",
-        "dim-mcq-04": "「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」是「dimly lit = having weak or low lighting 燈光昏暗的；光線不足的」的用法，與本句語境不同。",
-        "dim-mcq-05": "「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」是「dim — difficult to see clearly = faint, unclear, or only weakly visible 模糊的；隱約可見的」的用法，與本句語境不同。",
-        "dim-mcq-06": "「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」是「dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀」的用法，與本句語境不同。"
+        "dim-mcq-02": "本句的「dim corridor」指「表示昏暗的；光線微弱的；例句：「房間裡昏暗而安靜。」」。",
+        "dim-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-02"
     },
@@ -707,11 +691,9 @@ export default {
       "masked": "She read by the ____ of a small lamp.",
       "options": [
         "dim-mcq-03",
-        "dim-mcq-02",
-        "dim-mcq-04",
-        "dim-mcq-01",
+        "dim-mcq-15",
         "dim-mcq-05",
-        "dim-mcq-06"
+        "dim-mcq-08"
       ],
       "explanation": "本句的「dim light」指「表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」」。",
       "sentenceIndex": 4,
@@ -720,12 +702,10 @@ export default {
         "dim light"
       ],
       "optionReasons": {
-        "dim-mcq-03": "本句指「表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」」。",
-        "dim-mcq-02": "「表示昏暗的；光線微弱的；例句：「房間裡昏暗而安靜。」」是「dim — not brightly lit = having little light; not bright 昏暗的；光線微弱的」的用法，與本句語境不同。",
-        "dim-mcq-04": "「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」是「dimly lit = having weak or low lighting 燈光昏暗的；光線不足的」的用法，與本句語境不同。",
-        "dim-mcq-01": "「表示昏暗的；光線微弱的；例句：「那家餐廳光線溫暖而昏暗。」」是「Passage anchor > “It was like a light switching on in a dim room.」的用法，與本句語境不同。",
-        "dim-mcq-05": "「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」是「dim — difficult to see clearly = faint, unclear, or only weakly visible 模糊的；隱約可見的」的用法，與本句語境不同。",
-        "dim-mcq-06": "「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」是「dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀」的用法，與本句語境不同。"
+        "dim-mcq-03": "本句的「dim light」指「表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」」。",
+        "dim-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-03"
     },
@@ -737,11 +717,9 @@ export default {
       "masked": "A ____ came from the hallway.",
       "options": [
         "dim-mcq-03",
-        "dim-mcq-02",
-        "dim-mcq-04",
-        "dim-mcq-01",
         "dim-mcq-05",
-        "dim-mcq-06"
+        "dim-mcq-23",
+        "dim-mcq-15"
       ],
       "explanation": "本句的「dim light」指「表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」」。",
       "sentenceIndex": 5,
@@ -750,12 +728,10 @@ export default {
         "dim light"
       ],
       "optionReasons": {
-        "dim-mcq-03": "本句指「表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」」。",
-        "dim-mcq-02": "「表示昏暗的；光線微弱的；例句：「房間裡昏暗而安靜。」」是「dim — not brightly lit = having little light; not bright 昏暗的；光線微弱的」的用法，與本句語境不同。",
-        "dim-mcq-04": "「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」是「dimly lit = having weak or low lighting 燈光昏暗的；光線不足的」的用法，與本句語境不同。",
-        "dim-mcq-01": "「表示昏暗的；光線微弱的；例句：「那家餐廳光線溫暖而昏暗。」」是「Passage anchor > “It was like a light switching on in a dim room.」的用法，與本句語境不同。",
-        "dim-mcq-05": "「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」是「dim — difficult to see clearly = faint, unclear, or only weakly visible 模糊的；隱約可見的」的用法，與本句語境不同。",
-        "dim-mcq-06": "「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」是「dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀」的用法，與本句語境不同。"
+        "dim-mcq-03": "本句的「dim light」指「表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」」。",
+        "dim-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-03"
     },
@@ -767,11 +743,9 @@ export default {
       "masked": "They entered a ____.",
       "options": [
         "dim-mcq-04",
-        "dim-mcq-03",
-        "dim-mcq-05",
-        "dim-mcq-02",
-        "dim-mcq-06",
-        "dim-mcq-01"
+        "dim-mcq-21",
+        "dim-mcq-18",
+        "dim-mcq-23"
       ],
       "explanation": "本句的「dimly lit room」指「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」。",
       "sentenceIndex": 6,
@@ -780,12 +754,10 @@ export default {
         "dimly lit room"
       ],
       "optionReasons": {
-        "dim-mcq-04": "本句指「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」。",
-        "dim-mcq-03": "「表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」」是「dim light = weak or faint light 微弱的光；昏暗的光線」的用法，與本句語境不同。",
-        "dim-mcq-05": "「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」是「dim — difficult to see clearly = faint, unclear, or only weakly visible 模糊的；隱約可見的」的用法，與本句語境不同。",
-        "dim-mcq-02": "「表示昏暗的；光線微弱的；例句：「房間裡昏暗而安靜。」」是「dim — not brightly lit = having little light; not bright 昏暗的；光線微弱的」的用法，與本句語境不同。",
-        "dim-mcq-06": "「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」是「dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀」的用法，與本句語境不同。",
-        "dim-mcq-01": "「表示昏暗的；光線微弱的；例句：「那家餐廳光線溫暖而昏暗。」」是「Passage anchor > “It was like a light switching on in a dim room.」的用法，與本句語境不同。"
+        "dim-mcq-04": "本句的「dimly lit room」指「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」。",
+        "dim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-04"
     },
@@ -797,11 +769,9 @@ export default {
       "masked": "The café was small and ____.",
       "options": [
         "dim-mcq-04",
-        "dim-mcq-03",
-        "dim-mcq-05",
-        "dim-mcq-02",
-        "dim-mcq-06",
-        "dim-mcq-01"
+        "dim-mcq-17",
+        "dim-mcq-22",
+        "dim-mcq-21"
       ],
       "explanation": "本句的「dimly lit」指「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」。",
       "sentenceIndex": 7,
@@ -810,12 +780,10 @@ export default {
         "dimly lit"
       ],
       "optionReasons": {
-        "dim-mcq-04": "本句指「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」。",
-        "dim-mcq-03": "「表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」」是「dim light = weak or faint light 微弱的光；昏暗的光線」的用法，與本句語境不同。",
-        "dim-mcq-05": "「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」是「dim — difficult to see clearly = faint, unclear, or only weakly visible 模糊的；隱約可見的」的用法，與本句語境不同。",
-        "dim-mcq-02": "「表示昏暗的；光線微弱的；例句：「房間裡昏暗而安靜。」」是「dim — not brightly lit = having little light; not bright 昏暗的；光線微弱的」的用法，與本句語境不同。",
-        "dim-mcq-06": "「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」是「dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀」的用法，與本句語境不同。",
-        "dim-mcq-01": "「表示昏暗的；光線微弱的；例句：「那家餐廳光線溫暖而昏暗。」」是「Passage anchor > “It was like a light switching on in a dim room.」的用法，與本句語境不同。"
+        "dim-mcq-04": "本句的「dimly lit」指「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」。",
+        "dim-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-04"
     },
@@ -827,11 +795,9 @@ export default {
       "masked": "We could see a ____ in the distance.",
       "options": [
         "dim-mcq-05",
-        "dim-mcq-04",
-        "dim-mcq-06",
         "dim-mcq-03",
-        "dim-mcq-07",
-        "dim-mcq-02"
+        "dim-mcq-19",
+        "dim-mcq-15"
       ],
       "explanation": "本句的「dim shape」指「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」。",
       "sentenceIndex": 8,
@@ -840,12 +806,10 @@ export default {
         "dim shape"
       ],
       "optionReasons": {
-        "dim-mcq-05": "本句指「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」。",
-        "dim-mcq-04": "「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」是「dimly lit = having weak or low lighting 燈光昏暗的；光線不足的」的用法，與本句語境不同。",
-        "dim-mcq-06": "「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」是「dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀」的用法，與本句語境不同。",
-        "dim-mcq-03": "「表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」」是「dim light = weak or faint light 微弱的光；昏暗的光線」的用法，與本句語境不同。",
-        "dim-mcq-07": "「表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」」是「dim — not shining strongly = faint in brightness 暗淡的；微弱的」的用法，與本句語境不同。",
-        "dim-mcq-02": "「表示昏暗的；光線微弱的；例句：「房間裡昏暗而安靜。」」是「dim — not brightly lit = having little light; not bright 昏暗的；光線微弱的」的用法，與本句語境不同。"
+        "dim-mcq-05": "本句的「dim shape」指「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」。",
+        "dim-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-05"
     },
@@ -857,11 +821,9 @@ export default {
       "masked": "A ____ of the mountains appeared through the fog.",
       "options": [
         "dim-mcq-05",
-        "dim-mcq-04",
-        "dim-mcq-06",
-        "dim-mcq-03",
-        "dim-mcq-07",
-        "dim-mcq-02"
+        "dim-mcq-08",
+        "dim-mcq-19",
+        "dim-mcq-07"
       ],
       "explanation": "本句的「dim outline」指「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」。",
       "sentenceIndex": 9,
@@ -870,12 +832,10 @@ export default {
         "dim outline"
       ],
       "optionReasons": {
-        "dim-mcq-05": "本句指「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」。",
-        "dim-mcq-04": "「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」是「dimly lit = having weak or low lighting 燈光昏暗的；光線不足的」的用法，與本句語境不同。",
-        "dim-mcq-06": "「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」是「dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀」的用法，與本句語境不同。",
-        "dim-mcq-03": "「表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」」是「dim light = weak or faint light 微弱的光；昏暗的光線」的用法，與本句語境不同。",
-        "dim-mcq-07": "「表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」」是「dim — not shining strongly = faint in brightness 暗淡的；微弱的」的用法，與本句語境不同。",
-        "dim-mcq-02": "「表示昏暗的；光線微弱的；例句：「房間裡昏暗而安靜。」」是「dim — not brightly lit = having little light; not bright 昏暗的；光線微弱的」的用法，與本句語境不同。"
+        "dim-mcq-05": "本句的「dim outline」指「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」。",
+        "dim-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-05"
     },
@@ -887,11 +847,9 @@ export default {
       "masked": "A ____ appeared at the end of the street.",
       "options": [
         "dim-mcq-06",
-        "dim-mcq-05",
-        "dim-mcq-07",
-        "dim-mcq-04",
-        "dim-mcq-08",
-        "dim-mcq-03"
+        "dim-mcq-02",
+        "dim-mcq-19",
+        "dim-mcq-13"
       ],
       "explanation": "本句的「dim figure」指「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」。",
       "sentenceIndex": 10,
@@ -900,12 +858,10 @@ export default {
         "dim figure"
       ],
       "optionReasons": {
-        "dim-mcq-06": "本句指「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」。",
-        "dim-mcq-05": "「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」是「dim — difficult to see clearly = faint, unclear, or only weakly visible 模糊的；隱約可見的」的用法，與本句語境不同。",
-        "dim-mcq-07": "「表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」」是「dim — not shining strongly = faint in brightness 暗淡的；微弱的」的用法，與本句語境不同。",
-        "dim-mcq-04": "「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」是「dimly lit = having weak or low lighting 燈光昏暗的；光線不足的」的用法，與本句語境不同。",
-        "dim-mcq-08": "「表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」」是「dim screen / display = a screen with low brightness 亮度較低的螢幕」的用法，與本句語境不同。",
-        "dim-mcq-03": "「表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」」是「dim light = weak or faint light 微弱的光；昏暗的光線」的用法，與本句語境不同。"
+        "dim-mcq-06": "本句的「dim figure」指「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」。",
+        "dim-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-06"
     },
@@ -917,11 +873,9 @@ export default {
       "masked": "I could just make out the ____ of the building.",
       "options": [
         "dim-mcq-06",
-        "dim-mcq-05",
-        "dim-mcq-07",
-        "dim-mcq-04",
-        "dim-mcq-08",
-        "dim-mcq-03"
+        "dim-mcq-10",
+        "dim-mcq-13",
+        "dim-mcq-14"
       ],
       "explanation": "本句的「dim outline」指「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」。",
       "sentenceIndex": 11,
@@ -930,12 +884,10 @@ export default {
         "dim outline"
       ],
       "optionReasons": {
-        "dim-mcq-06": "本句指「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」。",
-        "dim-mcq-05": "「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」是「dim — difficult to see clearly = faint, unclear, or only weakly visible 模糊的；隱約可見的」的用法，與本句語境不同。",
-        "dim-mcq-07": "「表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」」是「dim — not shining strongly = faint in brightness 暗淡的；微弱的」的用法，與本句語境不同。",
-        "dim-mcq-04": "「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」是「dimly lit = having weak or low lighting 燈光昏暗的；光線不足的」的用法，與本句語境不同。",
-        "dim-mcq-08": "「表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」」是「dim screen / display = a screen with low brightness 亮度較低的螢幕」的用法，與本句語境不同。",
-        "dim-mcq-03": "「表示微弱的光；昏暗的光線；例句：「她藉著小燈微弱的光線閱讀。」」是「dim light = weak or faint light 微弱的光；昏暗的光線」的用法，與本句語境不同。"
+        "dim-mcq-06": "本句的「dim outline」指「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」。",
+        "dim-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-06"
     },
@@ -948,10 +900,8 @@ export default {
       "options": [
         "dim-mcq-07",
         "dim-mcq-06",
-        "dim-mcq-08",
-        "dim-mcq-05",
-        "dim-mcq-09",
-        "dim-mcq-04"
+        "dim-mcq-16",
+        "dim-mcq-26"
       ],
       "explanation": "本句的「dim」指「表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」」。",
       "sentenceIndex": 12,
@@ -960,12 +910,10 @@ export default {
         "dim"
       ],
       "optionReasons": {
-        "dim-mcq-07": "本句指「表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」」。",
-        "dim-mcq-06": "「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」是「dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀」的用法，與本句語境不同。",
-        "dim-mcq-08": "「表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」」是「dim screen / display = a screen with low brightness 亮度較低的螢幕」的用法，與本句語境不同。",
-        "dim-mcq-05": "「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」是「dim — difficult to see clearly = faint, unclear, or only weakly visible 模糊的；隱約可見的」的用法，與本句語境不同。",
-        "dim-mcq-09": "「表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」」是「dim something = make a light less bright 調暗；使變暗」的用法，與本句語境不同。",
-        "dim-mcq-04": "「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」是「dimly lit = having weak or low lighting 燈光昏暗的；光線不足的」的用法，與本句語境不同。"
+        "dim-mcq-07": "本句的「dim」指「表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」」。",
+        "dim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-07"
     },
@@ -977,11 +925,9 @@ export default {
       "masked": "The screen became ____ when the battery was low.",
       "options": [
         "dim-mcq-07",
-        "dim-mcq-06",
-        "dim-mcq-08",
-        "dim-mcq-05",
-        "dim-mcq-09",
-        "dim-mcq-04"
+        "dim-mcq-26",
+        "dim-mcq-23",
+        "dim-mcq-18"
       ],
       "explanation": "本句的「dim」指「表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」」。",
       "sentenceIndex": 13,
@@ -990,12 +936,10 @@ export default {
         "dim"
       ],
       "optionReasons": {
-        "dim-mcq-07": "本句指「表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」」。",
-        "dim-mcq-06": "「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」是「dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀」的用法，與本句語境不同。",
-        "dim-mcq-08": "「表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」」是「dim screen / display = a screen with low brightness 亮度較低的螢幕」的用法，與本句語境不同。",
-        "dim-mcq-05": "「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」是「dim — difficult to see clearly = faint, unclear, or only weakly visible 模糊的；隱約可見的」的用法，與本句語境不同。",
-        "dim-mcq-09": "「表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」」是「dim something = make a light less bright 調暗；使變暗」的用法，與本句語境不同。",
-        "dim-mcq-04": "「表示燈光昏暗的；光線不足的；例句：「他們走進一個燈光昏暗的房間。」」是「dimly lit = having weak or low lighting 燈光昏暗的；光線不足的」的用法，與本句語境不同。"
+        "dim-mcq-07": "本句的「dim」指「表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」」。",
+        "dim-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-07"
     },
@@ -1007,11 +951,9 @@ export default {
       "masked": "The phone automatically becomes ____ at night.",
       "options": [
         "dim-mcq-08",
-        "dim-mcq-07",
-        "dim-mcq-09",
-        "dim-mcq-06",
-        "dim-mcq-10",
-        "dim-mcq-05"
+        "dim-mcq-03",
+        "dim-mcq-23",
+        "dim-mcq-06"
       ],
       "explanation": "本句的「dim」指「表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」」。",
       "sentenceIndex": 14,
@@ -1020,12 +962,10 @@ export default {
         "dim"
       ],
       "optionReasons": {
-        "dim-mcq-08": "本句指「表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」」。",
-        "dim-mcq-07": "「表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」」是「dim — not shining strongly = faint in brightness 暗淡的；微弱的」的用法，與本句語境不同。",
-        "dim-mcq-09": "「表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」」是「dim something = make a light less bright 調暗；使變暗」的用法，與本句語境不同。",
-        "dim-mcq-06": "「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」是「dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀」的用法，與本句語境不同。",
-        "dim-mcq-10": "「表示燈光變暗；例句：「電影開始前，燈光暗了下來。」」是「lights dim = become less bright 燈光變暗」的用法，與本句語境不同。",
-        "dim-mcq-05": "「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」是「dim — difficult to see clearly = faint, unclear, or only weakly visible 模糊的；隱約可見的」的用法，與本句語境不同。"
+        "dim-mcq-08": "本句的「dim」指「表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」」。",
+        "dim-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-08"
     },
@@ -1038,10 +978,8 @@ export default {
       "options": [
         "dim-mcq-08",
         "dim-mcq-07",
-        "dim-mcq-09",
-        "dim-mcq-06",
-        "dim-mcq-10",
-        "dim-mcq-05"
+        "dim-mcq-19",
+        "dim-mcq-17"
       ],
       "explanation": "本句的「dim」指「表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」」。",
       "sentenceIndex": 15,
@@ -1050,12 +988,10 @@ export default {
         "dim"
       ],
       "optionReasons": {
-        "dim-mcq-08": "本句指「表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」」。",
-        "dim-mcq-07": "「表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」」是「dim — not shining strongly = faint in brightness 暗淡的；微弱的」的用法，與本句語境不同。",
-        "dim-mcq-09": "「表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」」是「dim something = make a light less bright 調暗；使變暗」的用法，與本句語境不同。",
-        "dim-mcq-06": "「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」是「dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀」的用法，與本句語境不同。",
-        "dim-mcq-10": "「表示燈光變暗；例句：「電影開始前，燈光暗了下來。」」是「lights dim = become less bright 燈光變暗」的用法，與本句語境不同。",
-        "dim-mcq-05": "「表示模糊的；隱約可見的；例句：「我們可以看到遠處一個模糊的輪廓。」」是「dim — difficult to see clearly = faint, unclear, or only weakly visible 模糊的；隱約可見的」的用法，與本句語境不同。"
+        "dim-mcq-08": "本句的「dim」指「表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」」。",
+        "dim-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-08"
     },
@@ -1067,11 +1003,9 @@ export default {
       "masked": "Could you ____?",
       "options": [
         "dim-mcq-09",
-        "dim-mcq-08",
-        "dim-mcq-10",
-        "dim-mcq-07",
-        "dim-mcq-11",
-        "dim-mcq-06"
+        "dim-mcq-05",
+        "dim-mcq-14",
+        "dim-mcq-13"
       ],
       "explanation": "本句的「dim the lights」指「表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」」。",
       "sentenceIndex": 16,
@@ -1080,12 +1014,10 @@ export default {
         "dim the lights"
       ],
       "optionReasons": {
-        "dim-mcq-09": "本句指「表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」」。",
-        "dim-mcq-08": "「表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」」是「dim screen / display = a screen with low brightness 亮度較低的螢幕」的用法，與本句語境不同。",
-        "dim-mcq-10": "「表示燈光變暗；例句：「電影開始前，燈光暗了下來。」」是「lights dim = become less bright 燈光變暗」的用法，與本句語境不同。",
-        "dim-mcq-07": "「表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」」是「dim — not shining strongly = faint in brightness 暗淡的；微弱的」的用法，與本句語境不同。",
-        "dim-mcq-11": "「表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」」是「dim memory / recollection = a memory that is weak, unclear, or difficult to recall 模糊的記憶；依稀的印象」的用法，與本句語境不同。",
-        "dim-mcq-06": "「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」是「dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀」的用法，與本句語境不同。"
+        "dim-mcq-09": "本句的「dim the lights」指「表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」」。",
+        "dim-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-09"
     },
@@ -1097,11 +1029,9 @@ export default {
       "masked": "She ____ before going to bed.",
       "options": [
         "dim-mcq-09",
-        "dim-mcq-08",
-        "dim-mcq-10",
-        "dim-mcq-07",
-        "dim-mcq-11",
-        "dim-mcq-06"
+        "dim-mcq-05",
+        "dim-mcq-20",
+        "dim-mcq-16"
       ],
       "explanation": "本句的「dimmed the lamp」指「表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」」。",
       "sentenceIndex": 17,
@@ -1110,12 +1040,10 @@ export default {
         "dimmed the lamp"
       ],
       "optionReasons": {
-        "dim-mcq-09": "本句指「表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」」。",
-        "dim-mcq-08": "「表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」」是「dim screen / display = a screen with low brightness 亮度較低的螢幕」的用法，與本句語境不同。",
-        "dim-mcq-10": "「表示燈光變暗；例句：「電影開始前，燈光暗了下來。」」是「lights dim = become less bright 燈光變暗」的用法，與本句語境不同。",
-        "dim-mcq-07": "「表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」」是「dim — not shining strongly = faint in brightness 暗淡的；微弱的」的用法，與本句語境不同。",
-        "dim-mcq-11": "「表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」」是「dim memory / recollection = a memory that is weak, unclear, or difficult to recall 模糊的記憶；依稀的印象」的用法，與本句語境不同。",
-        "dim-mcq-06": "「表示模糊的人影／輪廓／形狀；例句：「街道盡頭出現一個模糊的人影。」」是「dim figure / outline / shape = an object or person that can only be seen faintly 模糊的人影／輪廓／形狀」的用法，與本句語境不同。"
+        "dim-mcq-09": "本句的「dimmed the lamp」指「表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」」。",
+        "dim-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-09"
     },
@@ -1127,11 +1055,9 @@ export default {
       "masked": "The lights ____ before the film began.",
       "options": [
         "dim-mcq-10",
-        "dim-mcq-09",
         "dim-mcq-11",
-        "dim-mcq-08",
-        "dim-mcq-12",
-        "dim-mcq-07"
+        "dim-mcq-13",
+        "dim-mcq-23"
       ],
       "explanation": "本句的「dimmed」指「表示燈光變暗；例句：「電影開始前，燈光暗了下來。」」。",
       "sentenceIndex": 18,
@@ -1140,12 +1066,10 @@ export default {
         "dimmed"
       ],
       "optionReasons": {
-        "dim-mcq-10": "本句指「表示燈光變暗；例句：「電影開始前，燈光暗了下來。」」。",
-        "dim-mcq-09": "「表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」」是「dim something = make a light less bright 調暗；使變暗」的用法，與本句語境不同。",
-        "dim-mcq-11": "「表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」」是「dim memory / recollection = a memory that is weak, unclear, or difficult to recall 模糊的記憶；依稀的印象」的用法，與本句語境不同。",
-        "dim-mcq-08": "「表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」」是「dim screen / display = a screen with low brightness 亮度較低的螢幕」的用法，與本句語境不同。",
-        "dim-mcq-12": "「表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」」是「a dim awareness = weak or incomplete awareness of something 隱約的察覺；模糊的意識」的用法，與本句語境不同。",
-        "dim-mcq-07": "「表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」」是「dim — not shining strongly = faint in brightness 暗淡的；微弱的」的用法，與本句語境不同。"
+        "dim-mcq-10": "本句的「dimmed」指「表示燈光變暗；例句：「電影開始前，燈光暗了下來。」」。",
+        "dim-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-10"
     },
@@ -1157,11 +1081,9 @@ export default {
       "masked": "The room grew quiet as the lights ____.",
       "options": [
         "dim-mcq-10",
-        "dim-mcq-09",
-        "dim-mcq-11",
-        "dim-mcq-08",
-        "dim-mcq-12",
-        "dim-mcq-07"
+        "dim-mcq-06",
+        "dim-mcq-21",
+        "dim-mcq-14"
       ],
       "explanation": "本句的「dimmed」指「表示燈光變暗；例句：「電影開始前，燈光暗了下來。」」。",
       "sentenceIndex": 19,
@@ -1170,12 +1092,10 @@ export default {
         "dimmed"
       ],
       "optionReasons": {
-        "dim-mcq-10": "本句指「表示燈光變暗；例句：「電影開始前，燈光暗了下來。」」。",
-        "dim-mcq-09": "「表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」」是「dim something = make a light less bright 調暗；使變暗」的用法，與本句語境不同。",
-        "dim-mcq-11": "「表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」」是「dim memory / recollection = a memory that is weak, unclear, or difficult to recall 模糊的記憶；依稀的印象」的用法，與本句語境不同。",
-        "dim-mcq-08": "「表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」」是「dim screen / display = a screen with low brightness 亮度較低的螢幕」的用法，與本句語境不同。",
-        "dim-mcq-12": "「表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」」是「a dim awareness = weak or incomplete awareness of something 隱約的察覺；模糊的意識」的用法，與本句語境不同。",
-        "dim-mcq-07": "「表示暗淡的；微弱的；例句：「星星透過雲層看起來很暗淡。」」是「dim — not shining strongly = faint in brightness 暗淡的；微弱的」的用法，與本句語境不同。"
+        "dim-mcq-10": "本句的「dimmed」指「表示燈光變暗；例句：「電影開始前，燈光暗了下來。」」。",
+        "dim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-10"
     },
@@ -1187,11 +1107,9 @@ export default {
       "masked": "I have only a ____ of that day.",
       "options": [
         "dim-mcq-11",
-        "dim-mcq-10",
-        "dim-mcq-12",
-        "dim-mcq-09",
-        "dim-mcq-13",
-        "dim-mcq-08"
+        "dim-mcq-04",
+        "dim-mcq-08",
+        "dim-mcq-23"
       ],
       "explanation": "本句的「dim memory」指「表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」」。",
       "sentenceIndex": 20,
@@ -1200,12 +1118,10 @@ export default {
         "dim memory"
       ],
       "optionReasons": {
-        "dim-mcq-11": "本句指「表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」」。",
-        "dim-mcq-10": "「表示燈光變暗；例句：「電影開始前，燈光暗了下來。」」是「lights dim = become less bright 燈光變暗」的用法，與本句語境不同。",
-        "dim-mcq-12": "「表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」」是「a dim awareness = weak or incomplete awareness of something 隱約的察覺；模糊的意識」的用法，與本句語境不同。",
-        "dim-mcq-09": "「表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」」是「dim something = make a light less bright 調暗；使變暗」的用法，與本句語境不同。",
-        "dim-mcq-13": "「表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」」是「dim prospects = poor or unlikely chances of success 黯淡的前景；不樂觀的前途」的用法，與本句語境不同。",
-        "dim-mcq-08": "「表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」」是「dim screen / display = a screen with low brightness 亮度較低的螢幕」的用法，與本句語境不同。"
+        "dim-mcq-11": "本句的「dim memory」指「表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」」。",
+        "dim-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-11"
     },
@@ -1217,11 +1133,9 @@ export default {
       "masked": "She had a ____ of meeting him years ago.",
       "options": [
         "dim-mcq-11",
-        "dim-mcq-10",
-        "dim-mcq-12",
-        "dim-mcq-09",
-        "dim-mcq-13",
-        "dim-mcq-08"
+        "dim-mcq-04",
+        "dim-mcq-21",
+        "dim-mcq-15"
       ],
       "explanation": "本句的「dim recollection」指「表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」」。",
       "sentenceIndex": 21,
@@ -1230,12 +1144,10 @@ export default {
         "dim recollection"
       ],
       "optionReasons": {
-        "dim-mcq-11": "本句指「表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」」。",
-        "dim-mcq-10": "「表示燈光變暗；例句：「電影開始前，燈光暗了下來。」」是「lights dim = become less bright 燈光變暗」的用法，與本句語境不同。",
-        "dim-mcq-12": "「表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」」是「a dim awareness = weak or incomplete awareness of something 隱約的察覺；模糊的意識」的用法，與本句語境不同。",
-        "dim-mcq-09": "「表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」」是「dim something = make a light less bright 調暗；使變暗」的用法，與本句語境不同。",
-        "dim-mcq-13": "「表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」」是「dim prospects = poor or unlikely chances of success 黯淡的前景；不樂觀的前途」的用法，與本句語境不同。",
-        "dim-mcq-08": "「表示亮度較低的螢幕；例句：「手機在夜間會自動變得較暗。」」是「dim screen / display = a screen with low brightness 亮度較低的螢幕」的用法，與本句語境不同。"
+        "dim-mcq-11": "本句的「dim recollection」指「表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」」。",
+        "dim-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-11"
     },
@@ -1247,11 +1159,9 @@ export default {
       "masked": "He had a ____ that something was wrong.",
       "options": [
         "dim-mcq-12",
-        "dim-mcq-11",
-        "dim-mcq-13",
-        "dim-mcq-10",
+        "dim-mcq-16",
         "dim-mcq-14",
-        "dim-mcq-09"
+        "dim-mcq-10"
       ],
       "explanation": "本句的「dim awareness」指「表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」」。",
       "sentenceIndex": 22,
@@ -1260,12 +1170,10 @@ export default {
         "dim awareness"
       ],
       "optionReasons": {
-        "dim-mcq-12": "本句指「表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」」。",
-        "dim-mcq-11": "「表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」」是「dim memory / recollection = a memory that is weak, unclear, or difficult to recall 模糊的記憶；依稀的印象」的用法，與本句語境不同。",
-        "dim-mcq-13": "「表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」」是「dim prospects = poor or unlikely chances of success 黯淡的前景；不樂觀的前途」的用法，與本句語境不同。",
-        "dim-mcq-10": "「表示燈光變暗；例句：「電影開始前，燈光暗了下來。」」是「lights dim = become less bright 燈光變暗」的用法，與本句語境不同。",
-        "dim-mcq-14": "「表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」」是「a dim chance / hope = a very small or weak possibility 渺茫的機會；微弱的希望」的用法，與本句語境不同。",
-        "dim-mcq-09": "「表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」」是「dim something = make a light less bright 調暗；使變暗」的用法，與本句語境不同。"
+        "dim-mcq-12": "本句的「dim awareness」指「表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」」。",
+        "dim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-12"
     },
@@ -1277,10 +1185,8 @@ export default {
       "masked": "I had only a ____ of what was happening.",
       "options": [
         "dim-mcq-12",
-        "dim-mcq-11",
-        "dim-mcq-13",
-        "dim-mcq-10",
-        "dim-mcq-14",
+        "dim-mcq-21",
+        "dim-mcq-22",
         "dim-mcq-09"
       ],
       "explanation": "本句的「dim sense」指「表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」」。",
@@ -1290,12 +1196,10 @@ export default {
         "dim sense"
       ],
       "optionReasons": {
-        "dim-mcq-12": "本句指「表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」」。",
-        "dim-mcq-11": "「表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」」是「dim memory / recollection = a memory that is weak, unclear, or difficult to recall 模糊的記憶；依稀的印象」的用法，與本句語境不同。",
-        "dim-mcq-13": "「表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」」是「dim prospects = poor or unlikely chances of success 黯淡的前景；不樂觀的前途」的用法，與本句語境不同。",
-        "dim-mcq-10": "「表示燈光變暗；例句：「電影開始前，燈光暗了下來。」」是「lights dim = become less bright 燈光變暗」的用法，與本句語境不同。",
-        "dim-mcq-14": "「表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」」是「a dim chance / hope = a very small or weak possibility 渺茫的機會；微弱的希望」的用法，與本句語境不同。",
-        "dim-mcq-09": "「表示調暗；使變暗；例句：「你可以把燈光調暗一點嗎？」」是「dim something = make a light less bright 調暗；使變暗」的用法，與本句語境不同。"
+        "dim-mcq-12": "本句的「dim sense」指「表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」」。",
+        "dim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-12"
     },
@@ -1307,11 +1211,9 @@ export default {
       "masked": "The company’s prospects looked ____.",
       "options": [
         "dim-mcq-13",
-        "dim-mcq-12",
-        "dim-mcq-14",
-        "dim-mcq-11",
-        "dim-mcq-15",
-        "dim-mcq-10"
+        "dim-mcq-26",
+        "dim-mcq-16",
+        "dim-mcq-03"
       ],
       "explanation": "本句的「dim」指「表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」」。",
       "sentenceIndex": 24,
@@ -1320,12 +1222,10 @@ export default {
         "dim"
       ],
       "optionReasons": {
-        "dim-mcq-13": "本句指「表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」」。",
-        "dim-mcq-12": "「表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」」是「a dim awareness = weak or incomplete awareness of something 隱約的察覺；模糊的意識」的用法，與本句語境不同。",
-        "dim-mcq-14": "「表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」」是「a dim chance / hope = a very small or weak possibility 渺茫的機會；微弱的希望」的用法，與本句語境不同。",
-        "dim-mcq-11": "「表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」」是「dim memory / recollection = a memory that is weak, unclear, or difficult to recall 模糊的記憶；依稀的印象」的用法，與本句語境不同。",
-        "dim-mcq-15": "「表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」」是「dim — not very intelligent or quick to understand = slow to understand; not intellectually sharp 遲鈍的；不太聰明的」的用法，與本句語境不同。",
-        "dim-mcq-10": "「表示燈光變暗；例句：「電影開始前，燈光暗了下來。」」是「lights dim = become less bright 燈光變暗」的用法，與本句語境不同。"
+        "dim-mcq-13": "本句的「dim」指「表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」」。",
+        "dim-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-13"
     },
@@ -1338,10 +1238,8 @@ export default {
       "options": [
         "dim-mcq-13",
         "dim-mcq-12",
-        "dim-mcq-14",
-        "dim-mcq-11",
-        "dim-mcq-15",
-        "dim-mcq-10"
+        "dim-mcq-03",
+        "dim-mcq-19"
       ],
       "explanation": "本句的「dim」指「表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」」。",
       "sentenceIndex": 25,
@@ -1350,12 +1248,10 @@ export default {
         "dim"
       ],
       "optionReasons": {
-        "dim-mcq-13": "本句指「表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」」。",
-        "dim-mcq-12": "「表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」」是「a dim awareness = weak or incomplete awareness of something 隱約的察覺；模糊的意識」的用法，與本句語境不同。",
-        "dim-mcq-14": "「表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」」是「a dim chance / hope = a very small or weak possibility 渺茫的機會；微弱的希望」的用法，與本句語境不同。",
-        "dim-mcq-11": "「表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」」是「dim memory / recollection = a memory that is weak, unclear, or difficult to recall 模糊的記憶；依稀的印象」的用法，與本句語境不同。",
-        "dim-mcq-15": "「表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」」是「dim — not very intelligent or quick to understand = slow to understand; not intellectually sharp 遲鈍的；不太聰明的」的用法，與本句語境不同。",
-        "dim-mcq-10": "「表示燈光變暗；例句：「電影開始前，燈光暗了下來。」」是「lights dim = become less bright 燈光變暗」的用法，與本句語境不同。"
+        "dim-mcq-13": "本句的「dim」指「表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」」。",
+        "dim-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-13"
     },
@@ -1367,11 +1263,9 @@ export default {
       "masked": "There is still a ____ that the situation will improve.",
       "options": [
         "dim-mcq-14",
-        "dim-mcq-13",
-        "dim-mcq-15",
-        "dim-mcq-12",
-        "dim-mcq-16",
-        "dim-mcq-11"
+        "dim-mcq-05",
+        "dim-mcq-10",
+        "dim-mcq-15"
       ],
       "explanation": "本句的「dim hope」指「表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」」。",
       "sentenceIndex": 26,
@@ -1380,12 +1274,10 @@ export default {
         "dim hope"
       ],
       "optionReasons": {
-        "dim-mcq-14": "本句指「表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」」。",
-        "dim-mcq-13": "「表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」」是「dim prospects = poor or unlikely chances of success 黯淡的前景；不樂觀的前途」的用法，與本句語境不同。",
-        "dim-mcq-15": "「表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」」是「dim — not very intelligent or quick to understand = slow to understand; not intellectually sharp 遲鈍的；不太聰明的」的用法，與本句語境不同。",
-        "dim-mcq-12": "「表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」」是「a dim awareness = weak or incomplete awareness of something 隱約的察覺；模糊的意識」的用法，與本句語境不同。",
-        "dim-mcq-16": "「表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」」是「dim-witted = slow or unintelligent 愚鈍的；遲鈍的」的用法，與本句語境不同。",
-        "dim-mcq-11": "「表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」」是「dim memory / recollection = a memory that is weak, unclear, or difficult to recall 模糊的記憶；依稀的印象」的用法，與本句語境不同。"
+        "dim-mcq-14": "本句的「dim hope」指「表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」」。",
+        "dim-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-14"
     },
@@ -1397,11 +1289,9 @@ export default {
       "masked": "He had only a ____ of success.",
       "options": [
         "dim-mcq-14",
-        "dim-mcq-13",
-        "dim-mcq-15",
-        "dim-mcq-12",
-        "dim-mcq-16",
-        "dim-mcq-11"
+        "dim-mcq-05",
+        "dim-mcq-10",
+        "dim-mcq-16"
       ],
       "explanation": "本句的「dim chance」指「表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」」。",
       "sentenceIndex": 27,
@@ -1410,12 +1300,10 @@ export default {
         "dim chance"
       ],
       "optionReasons": {
-        "dim-mcq-14": "本句指「表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」」。",
-        "dim-mcq-13": "「表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」」是「dim prospects = poor or unlikely chances of success 黯淡的前景；不樂觀的前途」的用法，與本句語境不同。",
-        "dim-mcq-15": "「表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」」是「dim — not very intelligent or quick to understand = slow to understand; not intellectually sharp 遲鈍的；不太聰明的」的用法，與本句語境不同。",
-        "dim-mcq-12": "「表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」」是「a dim awareness = weak or incomplete awareness of something 隱約的察覺；模糊的意識」的用法，與本句語境不同。",
-        "dim-mcq-16": "「表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」」是「dim-witted = slow or unintelligent 愚鈍的；遲鈍的」的用法，與本句語境不同。",
-        "dim-mcq-11": "「表示模糊的記憶；依稀的印象；例句：「我對那一天只有模糊的記憶。」」是「dim memory / recollection = a memory that is weak, unclear, or difficult to recall 模糊的記憶；依稀的印象」的用法，與本句語境不同。"
+        "dim-mcq-14": "本句的「dim chance」指「表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」」。",
+        "dim-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-14"
     },
@@ -1427,11 +1315,9 @@ export default {
       "masked": "He is not ____; he just needs more time to process the information.",
       "options": [
         "dim-mcq-15",
-        "dim-mcq-14",
-        "dim-mcq-16",
-        "dim-mcq-13",
-        "dim-mcq-17",
-        "dim-mcq-12"
+        "dim-mcq-18",
+        "dim-mcq-20",
+        "dim-mcq-08"
       ],
       "explanation": "本句的「dim」指「表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」」。",
       "sentenceIndex": 28,
@@ -1440,12 +1326,10 @@ export default {
         "dim"
       ],
       "optionReasons": {
-        "dim-mcq-15": "本句指「表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」」。",
-        "dim-mcq-14": "「表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」」是「a dim chance / hope = a very small or weak possibility 渺茫的機會；微弱的希望」的用法，與本句語境不同。",
-        "dim-mcq-16": "「表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」」是「dim-witted = slow or unintelligent 愚鈍的；遲鈍的」的用法，與本句語境不同。",
-        "dim-mcq-13": "「表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」」是「dim prospects = poor or unlikely chances of success 黯淡的前景；不樂觀的前途」的用法，與本句語境不同。",
-        "dim-mcq-17": "「表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」」是「dim eyesight / vision = weak or failing vision 視力模糊；視力衰退」的用法，與本句語境不同。",
-        "dim-mcq-12": "「表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」」是「a dim awareness = weak or incomplete awareness of something 隱約的察覺；模糊的意識」的用法，與本句語境不同。"
+        "dim-mcq-15": "本句的「dim」指「表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」」。",
+        "dim-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-15"
     },
@@ -1457,11 +1341,9 @@ export default {
       "masked": "The character is portrayed as rather ____.",
       "options": [
         "dim-mcq-15",
-        "dim-mcq-14",
-        "dim-mcq-16",
-        "dim-mcq-13",
-        "dim-mcq-17",
-        "dim-mcq-12"
+        "dim-mcq-06",
+        "dim-mcq-26",
+        "dim-mcq-02"
       ],
       "explanation": "本句的「dim」指「表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」」。",
       "sentenceIndex": 29,
@@ -1470,12 +1352,10 @@ export default {
         "dim"
       ],
       "optionReasons": {
-        "dim-mcq-15": "本句指「表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」」。",
-        "dim-mcq-14": "「表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」」是「a dim chance / hope = a very small or weak possibility 渺茫的機會；微弱的希望」的用法，與本句語境不同。",
-        "dim-mcq-16": "「表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」」是「dim-witted = slow or unintelligent 愚鈍的；遲鈍的」的用法，與本句語境不同。",
-        "dim-mcq-13": "「表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」」是「dim prospects = poor or unlikely chances of success 黯淡的前景；不樂觀的前途」的用法，與本句語境不同。",
-        "dim-mcq-17": "「表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」」是「dim eyesight / vision = weak or failing vision 視力模糊；視力衰退」的用法，與本句語境不同。",
-        "dim-mcq-12": "「表示隱約的察覺；模糊的意識；例句：「他隱約察覺到事情有些不對。」」是「a dim awareness = weak or incomplete awareness of something 隱約的察覺；模糊的意識」的用法，與本句語境不同。"
+        "dim-mcq-15": "本句的「dim」指「表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」」。",
+        "dim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-15"
     },
@@ -1487,11 +1367,9 @@ export default {
       "masked": "The story presents him as a ____ but kind character.",
       "options": [
         "dim-mcq-16",
-        "dim-mcq-15",
-        "dim-mcq-17",
-        "dim-mcq-14",
-        "dim-mcq-18",
-        "dim-mcq-13"
+        "dim-mcq-24",
+        "dim-mcq-07",
+        "dim-mcq-23"
       ],
       "explanation": "本句的「dim-witted」指「表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」」。",
       "sentenceIndex": 30,
@@ -1500,12 +1378,10 @@ export default {
         "dim-witted"
       ],
       "optionReasons": {
-        "dim-mcq-16": "本句指「表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」」。",
-        "dim-mcq-15": "「表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」」是「dim — not very intelligent or quick to understand = slow to understand; not intellectually sharp 遲鈍的；不太聰明的」的用法，與本句語境不同。",
-        "dim-mcq-17": "「表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」」是「dim eyesight / vision = weak or failing vision 視力模糊；視力衰退」的用法，與本句語境不同。",
-        "dim-mcq-14": "「表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」」是「a dim chance / hope = a very small or weak possibility 渺茫的機會；微弱的希望」的用法，與本句語境不同。",
-        "dim-mcq-18": "「表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」」是「dim someone’s memory = make a memory less clear 使記憶變模糊」的用法，與本句語境不同。",
-        "dim-mcq-13": "「表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」」是「dim prospects = poor or unlikely chances of success 黯淡的前景；不樂觀的前途」的用法，與本句語境不同。"
+        "dim-mcq-16": "本句的「dim-witted」指「表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」」。",
+        "dim-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-16"
     },
@@ -1517,11 +1393,9 @@ export default {
       "masked": "Calling someone ____ is insulting.",
       "options": [
         "dim-mcq-16",
-        "dim-mcq-15",
-        "dim-mcq-17",
-        "dim-mcq-14",
-        "dim-mcq-18",
-        "dim-mcq-13"
+        "dim-mcq-01",
+        "dim-mcq-13",
+        "dim-mcq-19"
       ],
       "explanation": "本句的「dim-witted」指「表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」」。",
       "sentenceIndex": 31,
@@ -1530,12 +1404,10 @@ export default {
         "dim-witted"
       ],
       "optionReasons": {
-        "dim-mcq-16": "本句指「表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」」。",
-        "dim-mcq-15": "「表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」」是「dim — not very intelligent or quick to understand = slow to understand; not intellectually sharp 遲鈍的；不太聰明的」的用法，與本句語境不同。",
-        "dim-mcq-17": "「表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」」是「dim eyesight / vision = weak or failing vision 視力模糊；視力衰退」的用法，與本句語境不同。",
-        "dim-mcq-14": "「表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」」是「a dim chance / hope = a very small or weak possibility 渺茫的機會；微弱的希望」的用法，與本句語境不同。",
-        "dim-mcq-18": "「表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」」是「dim someone’s memory = make a memory less clear 使記憶變模糊」的用法，與本句語境不同。",
-        "dim-mcq-13": "「表示黯淡的前景；不樂觀的前途；例句：「公司的前景看起來很黯淡。」」是「dim prospects = poor or unlikely chances of success 黯淡的前景；不樂觀的前途」的用法，與本句語境不同。"
+        "dim-mcq-16": "本句的「dim-witted」指「表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」」。",
+        "dim-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-16"
     },
@@ -1547,10 +1419,8 @@ export default {
       "masked": "His eyesight had grown ____ with age.",
       "options": [
         "dim-mcq-17",
+        "dim-mcq-04",
         "dim-mcq-16",
-        "dim-mcq-18",
-        "dim-mcq-15",
-        "dim-mcq-19",
         "dim-mcq-14"
       ],
       "explanation": "本句的「dim」指「表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」」。",
@@ -1560,12 +1430,10 @@ export default {
         "dim"
       ],
       "optionReasons": {
-        "dim-mcq-17": "本句指「表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」」。",
-        "dim-mcq-16": "「表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」」是「dim-witted = slow or unintelligent 愚鈍的；遲鈍的」的用法，與本句語境不同。",
-        "dim-mcq-18": "「表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」」是「dim someone’s memory = make a memory less clear 使記憶變模糊」的用法，與本句語境不同。",
-        "dim-mcq-15": "「表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」」是「dim — not very intelligent or quick to understand = slow to understand; not intellectually sharp 遲鈍的；不太聰明的」的用法，與本句語境不同。",
-        "dim-mcq-19": "「使希望減弱；使希望變得渺茫」是「dim someone’s hopes = weaken confidence or hope 使希望減弱；使希望變得渺茫」的用法，與本句語境不同。",
-        "dim-mcq-14": "「表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」」是「a dim chance / hope = a very small or weak possibility 渺茫的機會；微弱的希望」的用法，與本句語境不同。"
+        "dim-mcq-17": "本句的「dim」指「表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」」。",
+        "dim-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-17"
     },
@@ -1578,10 +1446,8 @@ export default {
       "options": [
         "dim-mcq-17",
         "dim-mcq-16",
-        "dim-mcq-18",
-        "dim-mcq-15",
-        "dim-mcq-19",
-        "dim-mcq-14"
+        "dim-mcq-22",
+        "dim-mcq-23"
       ],
       "explanation": "本句的「dim」指「表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」」。",
       "sentenceIndex": 33,
@@ -1590,12 +1456,10 @@ export default {
         "dim"
       ],
       "optionReasons": {
-        "dim-mcq-17": "本句指「表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」」。",
-        "dim-mcq-16": "「表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」」是「dim-witted = slow or unintelligent 愚鈍的；遲鈍的」的用法，與本句語境不同。",
-        "dim-mcq-18": "「表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」」是「dim someone’s memory = make a memory less clear 使記憶變模糊」的用法，與本句語境不同。",
-        "dim-mcq-15": "「表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」」是「dim — not very intelligent or quick to understand = slow to understand; not intellectually sharp 遲鈍的；不太聰明的」的用法，與本句語境不同。",
-        "dim-mcq-19": "「使希望減弱；使希望變得渺茫」是「dim someone’s hopes = weaken confidence or hope 使希望減弱；使希望變得渺茫」的用法，與本句語境不同。",
-        "dim-mcq-14": "「表示渺茫的機會；微弱的希望；例句：「仍然有一絲微弱的希望，情況會改善。」」是「a dim chance / hope = a very small or weak possibility 渺茫的機會；微弱的希望」的用法，與本句語境不同。"
+        "dim-mcq-17": "本句的「dim」指「表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」」。",
+        "dim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-17"
     },
@@ -1607,11 +1471,9 @@ export default {
       "masked": "Time had ____ of the event.",
       "options": [
         "dim-mcq-18",
-        "dim-mcq-17",
-        "dim-mcq-19",
-        "dim-mcq-16",
-        "dim-mcq-20",
-        "dim-mcq-15"
+        "dim-mcq-01",
+        "dim-mcq-21",
+        "dim-mcq-08"
       ],
       "explanation": "本句的「dimmed his memory」指「表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」」。",
       "sentenceIndex": 34,
@@ -1620,12 +1482,10 @@ export default {
         "dimmed his memory"
       ],
       "optionReasons": {
-        "dim-mcq-18": "本句指「表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」」。",
-        "dim-mcq-17": "「表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」」是「dim eyesight / vision = weak or failing vision 視力模糊；視力衰退」的用法，與本句語境不同。",
-        "dim-mcq-19": "「使希望減弱；使希望變得渺茫」是「dim someone’s hopes = weaken confidence or hope 使希望減弱；使希望變得渺茫」的用法，與本句語境不同。",
-        "dim-mcq-16": "「表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」」是「dim-witted = slow or unintelligent 愚鈍的；遲鈍的」的用法，與本句語境不同。",
-        "dim-mcq-20": "「表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」」是「dim someone’s enthusiasm / joy = reduce the strength of a feeling 削弱；沖淡」的用法，與本句語境不同。",
-        "dim-mcq-15": "「表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」」是「dim — not very intelligent or quick to understand = slow to understand; not intellectually sharp 遲鈍的；不太聰明的」的用法，與本句語境不同。"
+        "dim-mcq-18": "本句的「dimmed his memory」指「表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」」。",
+        "dim-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-18"
     },
@@ -1637,11 +1497,9 @@ export default {
       "masked": "The years had not completely ____.",
       "options": [
         "dim-mcq-18",
-        "dim-mcq-17",
-        "dim-mcq-19",
         "dim-mcq-16",
-        "dim-mcq-20",
-        "dim-mcq-15"
+        "dim-mcq-14",
+        "dim-mcq-13"
       ],
       "explanation": "本句的「dimmed her memories」指「表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」」。",
       "sentenceIndex": 35,
@@ -1650,12 +1508,10 @@ export default {
         "dimmed her memories"
       ],
       "optionReasons": {
-        "dim-mcq-18": "本句指「表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」」。",
-        "dim-mcq-17": "「表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」」是「dim eyesight / vision = weak or failing vision 視力模糊；視力衰退」的用法，與本句語境不同。",
-        "dim-mcq-19": "「使希望減弱；使希望變得渺茫」是「dim someone’s hopes = weaken confidence or hope 使希望減弱；使希望變得渺茫」的用法，與本句語境不同。",
-        "dim-mcq-16": "「表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」」是「dim-witted = slow or unintelligent 愚鈍的；遲鈍的」的用法，與本句語境不同。",
-        "dim-mcq-20": "「表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」」是「dim someone’s enthusiasm / joy = reduce the strength of a feeling 削弱；沖淡」的用法，與本句語境不同。",
-        "dim-mcq-15": "「表示遲鈍的；不太聰明的；例句：「他並不遲鈍，只是需要更多時間處理資訊。」」是「dim — not very intelligent or quick to understand = slow to understand; not intellectually sharp 遲鈍的；不太聰明的」的用法，與本句語境不同。"
+        "dim-mcq-18": "本句的「dimmed her memories」指「表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」」。",
+        "dim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-18"
     },
@@ -1667,11 +1523,9 @@ export default {
       "masked": "The latest news ____ of success.",
       "options": [
         "dim-mcq-19",
-        "dim-mcq-18",
-        "dim-mcq-20",
-        "dim-mcq-17",
-        "dim-mcq-21",
-        "dim-mcq-16"
+        "dim-mcq-11",
+        "dim-mcq-13",
+        "dim-mcq-15"
       ],
       "explanation": "本句的「dimmed their hopes」指「使希望減弱；使希望變得渺茫」。",
       "sentenceIndex": 36,
@@ -1680,12 +1534,10 @@ export default {
         "dimmed their hopes"
       ],
       "optionReasons": {
-        "dim-mcq-19": "本句指「使希望減弱；使希望變得渺茫」。",
-        "dim-mcq-18": "「表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」」是「dim someone’s memory = make a memory less clear 使記憶變模糊」的用法，與本句語境不同。",
-        "dim-mcq-20": "「表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」」是「dim someone’s enthusiasm / joy = reduce the strength of a feeling 削弱；沖淡」的用法，與本句語境不同。",
-        "dim-mcq-17": "「表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」」是「dim eyesight / vision = weak or failing vision 視力模糊；視力衰退」的用法，與本句語境不同。",
-        "dim-mcq-21": "「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」是「something dims = gradually become weaker, less vivid, or less intense 逐漸淡去；逐漸減弱」的用法，與本句語境不同。",
-        "dim-mcq-16": "「表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」」是「dim-witted = slow or unintelligent 愚鈍的；遲鈍的」的用法，與本句語境不同。"
+        "dim-mcq-19": "本句的「dimmed their hopes」指「使希望減弱；使希望變得渺茫」。",
+        "dim-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-19"
     },
@@ -1697,10 +1549,8 @@ export default {
       "masked": "The delay ____ of an early solution.",
       "options": [
         "dim-mcq-19",
-        "dim-mcq-18",
-        "dim-mcq-20",
         "dim-mcq-17",
-        "dim-mcq-21",
+        "dim-mcq-13",
         "dim-mcq-16"
       ],
       "explanation": "本句的「dimmed hopes」指「使希望減弱；使希望變得渺茫」。",
@@ -1710,12 +1560,10 @@ export default {
         "dimmed hopes"
       ],
       "optionReasons": {
-        "dim-mcq-19": "本句指「使希望減弱；使希望變得渺茫」。",
-        "dim-mcq-18": "「表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」」是「dim someone’s memory = make a memory less clear 使記憶變模糊」的用法，與本句語境不同。",
-        "dim-mcq-20": "「表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」」是「dim someone’s enthusiasm / joy = reduce the strength of a feeling 削弱；沖淡」的用法，與本句語境不同。",
-        "dim-mcq-17": "「表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」」是「dim eyesight / vision = weak or failing vision 視力模糊；視力衰退」的用法，與本句語境不同。",
-        "dim-mcq-21": "「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」是「something dims = gradually become weaker, less vivid, or less intense 逐漸淡去；逐漸減弱」的用法，與本句語境不同。",
-        "dim-mcq-16": "「表示愚鈍的；遲鈍的；例句：「故事把他描寫成一個有些愚鈍但心地善良的人。」」是「dim-witted = slow or unintelligent 愚鈍的；遲鈍的」的用法，與本句語境不同。"
+        "dim-mcq-19": "本句的「dimmed hopes」指「使希望減弱；使希望變得渺茫」。",
+        "dim-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-19"
     },
@@ -1727,11 +1575,9 @@ export default {
       "masked": "The criticism did not ____.",
       "options": [
         "dim-mcq-20",
-        "dim-mcq-19",
-        "dim-mcq-21",
-        "dim-mcq-18",
-        "dim-mcq-22",
-        "dim-mcq-17"
+        "dim-mcq-23",
+        "dim-mcq-05",
+        "dim-mcq-26"
       ],
       "explanation": "本句的「dim her enthusiasm」指「表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」」。",
       "sentenceIndex": 38,
@@ -1740,12 +1586,10 @@ export default {
         "dim her enthusiasm"
       ],
       "optionReasons": {
-        "dim-mcq-20": "本句指「表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」」。",
-        "dim-mcq-19": "「使希望減弱；使希望變得渺茫」是「dim someone’s hopes = weaken confidence or hope 使希望減弱；使希望變得渺茫」的用法，與本句語境不同。",
-        "dim-mcq-21": "「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」是「something dims = gradually become weaker, less vivid, or less intense 逐漸淡去；逐漸減弱」的用法，與本句語境不同。",
-        "dim-mcq-18": "「表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」」是「dim someone’s memory = make a memory less clear 使記憶變模糊」的用法，與本句語境不同。",
-        "dim-mcq-22": "「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」是「take a dim view of something = strongly disapprove of something 對……很不以為然；非常不贊成」的用法，與本句語境不同。",
-        "dim-mcq-17": "「表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」」是「dim eyesight / vision = weak or failing vision 視力模糊；視力衰退」的用法，與本句語境不同。"
+        "dim-mcq-20": "本句的「dim her enthusiasm」指「表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」」。",
+        "dim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-20"
     },
@@ -1757,11 +1601,9 @@ export default {
       "masked": "Nothing could ____.",
       "options": [
         "dim-mcq-20",
-        "dim-mcq-19",
-        "dim-mcq-21",
-        "dim-mcq-18",
+        "dim-mcq-26",
         "dim-mcq-22",
-        "dim-mcq-17"
+        "dim-mcq-10"
       ],
       "explanation": "本句的「dim their joy」指「表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」」。",
       "sentenceIndex": 39,
@@ -1770,12 +1612,10 @@ export default {
         "dim their joy"
       ],
       "optionReasons": {
-        "dim-mcq-20": "本句指「表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」」。",
-        "dim-mcq-19": "「使希望減弱；使希望變得渺茫」是「dim someone’s hopes = weaken confidence or hope 使希望減弱；使希望變得渺茫」的用法，與本句語境不同。",
-        "dim-mcq-21": "「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」是「something dims = gradually become weaker, less vivid, or less intense 逐漸淡去；逐漸減弱」的用法，與本句語境不同。",
-        "dim-mcq-18": "「表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」」是「dim someone’s memory = make a memory less clear 使記憶變模糊」的用法，與本句語境不同。",
-        "dim-mcq-22": "「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」是「take a dim view of something = strongly disapprove of something 對……很不以為然；非常不贊成」的用法，與本句語境不同。",
-        "dim-mcq-17": "「表示視力模糊；視力衰退；例句：「隨著年齡增長，他的視力變得模糊。」」是「dim eyesight / vision = weak or failing vision 視力模糊；視力衰退」的用法，與本句語境不同。"
+        "dim-mcq-20": "本句的「dim their joy」指「表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」」。",
+        "dim-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-20"
     },
@@ -1787,11 +1627,9 @@ export default {
       "masked": "The memory slowly ____ with time.",
       "options": [
         "dim-mcq-21",
-        "dim-mcq-20",
-        "dim-mcq-22",
-        "dim-mcq-19",
-        "dim-mcq-23",
-        "dim-mcq-18"
+        "dim-mcq-09",
+        "dim-mcq-05",
+        "dim-mcq-08"
       ],
       "explanation": "本句的「dimmed」指「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」。",
       "sentenceIndex": 40,
@@ -1800,12 +1638,10 @@ export default {
         "dimmed"
       ],
       "optionReasons": {
-        "dim-mcq-21": "本句指「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」。",
-        "dim-mcq-20": "「表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」」是「dim someone’s enthusiasm / joy = reduce the strength of a feeling 削弱；沖淡」的用法，與本句語境不同。",
-        "dim-mcq-22": "「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」是「take a dim view of something = strongly disapprove of something 對……很不以為然；非常不贊成」的用法，與本句語境不同。",
-        "dim-mcq-19": "「使希望減弱；使希望變得渺茫」是「dim someone’s hopes = weaken confidence or hope 使希望減弱；使希望變得渺茫」的用法，與本句語境不同。",
-        "dim-mcq-23": "「表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」」是「in the dim and distant past = a very long time ago 在遙遠的過去；很久以前」的用法，與本句語境不同。",
-        "dim-mcq-18": "「表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」」是「dim someone’s memory = make a memory less clear 使記憶變模糊」的用法，與本句語境不同。"
+        "dim-mcq-21": "本句的「dimmed」指「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」。",
+        "dim-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-21"
     },
@@ -1817,11 +1653,9 @@ export default {
       "masked": "Her excitement began to ____.",
       "options": [
         "dim-mcq-21",
-        "dim-mcq-20",
-        "dim-mcq-22",
-        "dim-mcq-19",
-        "dim-mcq-23",
-        "dim-mcq-18"
+        "dim-mcq-04",
+        "dim-mcq-11",
+        "dim-mcq-15"
       ],
       "explanation": "本句的「dim」指「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」。",
       "sentenceIndex": 41,
@@ -1830,12 +1664,10 @@ export default {
         "dim"
       ],
       "optionReasons": {
-        "dim-mcq-21": "本句指「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」。",
-        "dim-mcq-20": "「表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」」是「dim someone’s enthusiasm / joy = reduce the strength of a feeling 削弱；沖淡」的用法，與本句語境不同。",
-        "dim-mcq-22": "「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」是「take a dim view of something = strongly disapprove of something 對……很不以為然；非常不贊成」的用法，與本句語境不同。",
-        "dim-mcq-19": "「使希望減弱；使希望變得渺茫」是「dim someone’s hopes = weaken confidence or hope 使希望減弱；使希望變得渺茫」的用法，與本句語境不同。",
-        "dim-mcq-23": "「表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」」是「in the dim and distant past = a very long time ago 在遙遠的過去；很久以前」的用法，與本句語境不同。",
-        "dim-mcq-18": "「表示使記憶變模糊；例句：「時間使他對那件事的記憶逐漸模糊。」」是「dim someone’s memory = make a memory less clear 使記憶變模糊」的用法，與本句語境不同。"
+        "dim-mcq-21": "本句的「dim」指「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」。",
+        "dim-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-21"
     },
@@ -1847,11 +1679,9 @@ export default {
       "masked": "The manager ____ lateness.",
       "options": [
         "dim-mcq-22",
-        "dim-mcq-21",
-        "dim-mcq-23",
-        "dim-mcq-20",
         "dim-mcq-24",
-        "dim-mcq-19"
+        "dim-mcq-21",
+        "dim-mcq-16"
       ],
       "explanation": "本句的「takes a dim view of」指「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」。",
       "sentenceIndex": 42,
@@ -1860,12 +1690,10 @@ export default {
         "takes a dim view of"
       ],
       "optionReasons": {
-        "dim-mcq-22": "本句指「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」。",
-        "dim-mcq-21": "「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」是「something dims = gradually become weaker, less vivid, or less intense 逐漸淡去；逐漸減弱」的用法，與本句語境不同。",
-        "dim-mcq-23": "「表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」」是「in the dim and distant past = a very long time ago 在遙遠的過去；很久以前」的用法，與本句語境不同。",
-        "dim-mcq-20": "「表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」」是「dim someone’s enthusiasm / joy = reduce the strength of a feeling 削弱；沖淡」的用法，與本句語境不同。",
-        "dim-mcq-24": "「表示昏暗地；模糊地；隱約地；例句：「我依稀記得以前見過她。」」是「dimly = with little light, clarity, or certainty 昏暗地；模糊地；隱約地」的用法，與本句語境不同。",
-        "dim-mcq-19": "「使希望減弱；使希望變得渺茫」是「dim someone’s hopes = weaken confidence or hope 使希望減弱；使希望變得渺茫」的用法，與本句語境不同。"
+        "dim-mcq-22": "本句的「takes a dim view of」指「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」。",
+        "dim-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-22"
     },
@@ -1877,11 +1705,9 @@ export default {
       "masked": "My parents ____ my decision.",
       "options": [
         "dim-mcq-22",
-        "dim-mcq-21",
-        "dim-mcq-23",
-        "dim-mcq-20",
-        "dim-mcq-24",
-        "dim-mcq-19"
+        "dim-mcq-02",
+        "dim-mcq-08",
+        "dim-mcq-06"
       ],
       "explanation": "本句的「took a dim view of」指「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」。",
       "sentenceIndex": 43,
@@ -1890,12 +1716,10 @@ export default {
         "took a dim view of"
       ],
       "optionReasons": {
-        "dim-mcq-22": "本句指「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」。",
-        "dim-mcq-21": "「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」是「something dims = gradually become weaker, less vivid, or less intense 逐漸淡去；逐漸減弱」的用法，與本句語境不同。",
-        "dim-mcq-23": "「表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」」是「in the dim and distant past = a very long time ago 在遙遠的過去；很久以前」的用法，與本句語境不同。",
-        "dim-mcq-20": "「表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」」是「dim someone’s enthusiasm / joy = reduce the strength of a feeling 削弱；沖淡」的用法，與本句語境不同。",
-        "dim-mcq-24": "「表示昏暗地；模糊地；隱約地；例句：「我依稀記得以前見過她。」」是「dimly = with little light, clarity, or certainty 昏暗地；模糊地；隱約地」的用法，與本句語境不同。",
-        "dim-mcq-19": "「使希望減弱；使希望變得渺茫」是「dim someone’s hopes = weaken confidence or hope 使希望減弱；使希望變得渺茫」的用法，與本句語境不同。"
+        "dim-mcq-22": "本句的「took a dim view of」指「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」。",
+        "dim-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-22"
     },
@@ -1907,11 +1731,9 @@ export default {
       "masked": "I learned that ____.",
       "options": [
         "dim-mcq-23",
+        "dim-mcq-08",
         "dim-mcq-22",
-        "dim-mcq-24",
-        "dim-mcq-21",
-        "dim-mcq-25",
-        "dim-mcq-20"
+        "dim-mcq-02"
       ],
       "explanation": "本句的「in the dim and distant past」指「表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」」。",
       "sentenceIndex": 44,
@@ -1920,12 +1742,10 @@ export default {
         "in the dim and distant past"
       ],
       "optionReasons": {
-        "dim-mcq-23": "本句指「表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」」。",
-        "dim-mcq-22": "「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」是「take a dim view of something = strongly disapprove of something 對……很不以為然；非常不贊成」的用法，與本句語境不同。",
-        "dim-mcq-24": "「表示昏暗地；模糊地；隱約地；例句：「我依稀記得以前見過她。」」是「dimly = with little light, clarity, or certainty 昏暗地；模糊地；隱約地」的用法，與本句語境不同。",
-        "dim-mcq-21": "「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」是「something dims = gradually become weaker, less vivid, or less intense 逐漸淡去；逐漸減弱」的用法，與本句語境不同。",
-        "dim-mcq-25": "「表示昏暗；模糊；暗淡；例句：「我的眼睛慢慢適應了周圍的昏暗。」」是「dimness = lack of brightness, clarity, or vividness 昏暗；模糊；暗淡」的用法，與本句語境不同。",
-        "dim-mcq-20": "「表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」」是「dim someone’s enthusiasm / joy = reduce the strength of a feeling 削弱；沖淡」的用法，與本句語境不同。"
+        "dim-mcq-23": "本句的「in the dim and distant past」指「表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」」。",
+        "dim-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-23"
     },
@@ -1937,11 +1757,9 @@ export default {
       "masked": "The building was once a school ____.",
       "options": [
         "dim-mcq-23",
-        "dim-mcq-22",
         "dim-mcq-24",
-        "dim-mcq-21",
-        "dim-mcq-25",
-        "dim-mcq-20"
+        "dim-mcq-20",
+        "dim-mcq-19"
       ],
       "explanation": "本句的「in the dim and distant past」指「表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」」。",
       "sentenceIndex": 45,
@@ -1950,12 +1768,10 @@ export default {
         "in the dim and distant past"
       ],
       "optionReasons": {
-        "dim-mcq-23": "本句指「表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」」。",
-        "dim-mcq-22": "「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」是「take a dim view of something = strongly disapprove of something 對……很不以為然；非常不贊成」的用法，與本句語境不同。",
-        "dim-mcq-24": "「表示昏暗地；模糊地；隱約地；例句：「我依稀記得以前見過她。」」是「dimly = with little light, clarity, or certainty 昏暗地；模糊地；隱約地」的用法，與本句語境不同。",
-        "dim-mcq-21": "「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」是「something dims = gradually become weaker, less vivid, or less intense 逐漸淡去；逐漸減弱」的用法，與本句語境不同。",
-        "dim-mcq-25": "「表示昏暗；模糊；暗淡；例句：「我的眼睛慢慢適應了周圍的昏暗。」」是「dimness = lack of brightness, clarity, or vividness 昏暗；模糊；暗淡」的用法，與本句語境不同。",
-        "dim-mcq-20": "「表示削弱；沖淡；例句：「那些批評並沒有削弱她的熱情。」」是「dim someone’s enthusiasm / joy = reduce the strength of a feeling 削弱；沖淡」的用法，與本句語境不同。"
+        "dim-mcq-23": "本句的「in the dim and distant past」指「表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」」。",
+        "dim-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-23"
     },
@@ -1967,11 +1783,9 @@ export default {
       "masked": "I ____ seeing her before.",
       "options": [
         "dim-mcq-24",
-        "dim-mcq-23",
-        "dim-mcq-25",
-        "dim-mcq-22",
-        "dim-mcq-26",
-        "dim-mcq-21"
+        "dim-mcq-21",
+        "dim-mcq-16",
+        "dim-mcq-08"
       ],
       "explanation": "本句的「dimly recall」指「表示昏暗地；模糊地；隱約地；例句：「我依稀記得以前見過她。」」。",
       "sentenceIndex": 46,
@@ -1980,12 +1794,10 @@ export default {
         "dimly recall"
       ],
       "optionReasons": {
-        "dim-mcq-24": "本句指「表示昏暗地；模糊地；隱約地；例句：「我依稀記得以前見過她。」」。",
-        "dim-mcq-23": "「表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」」是「in the dim and distant past = a very long time ago 在遙遠的過去；很久以前」的用法，與本句語境不同。",
-        "dim-mcq-25": "「表示昏暗；模糊；暗淡；例句：「我的眼睛慢慢適應了周圍的昏暗。」」是「dimness = lack of brightness, clarity, or vividness 昏暗；模糊；暗淡」的用法，與本句語境不同。",
-        "dim-mcq-22": "「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」是「take a dim view of something = strongly disapprove of something 對……很不以為然；非常不贊成」的用法，與本句語境不同。",
-        "dim-mcq-26": "「表示調光器；調光開關；例句：「使用調光器把燈調暗。」」是「dimmer」的用法，與本句語境不同。",
-        "dim-mcq-21": "「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」是「something dims = gradually become weaker, less vivid, or less intense 逐漸淡去；逐漸減弱」的用法，與本句語境不同。"
+        "dim-mcq-24": "本句的「dimly recall」指「表示昏暗地；模糊地；隱約地；例句：「我依稀記得以前見過她。」」。",
+        "dim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-24"
     },
@@ -1997,11 +1809,9 @@ export default {
       "masked": "The hallway was ____.",
       "options": [
         "dim-mcq-24",
-        "dim-mcq-23",
-        "dim-mcq-25",
-        "dim-mcq-22",
+        "dim-mcq-08",
         "dim-mcq-26",
-        "dim-mcq-21"
+        "dim-mcq-22"
       ],
       "explanation": "本句的「dimly illuminated」指「表示昏暗地；模糊地；隱約地；例句：「我依稀記得以前見過她。」」。",
       "sentenceIndex": 47,
@@ -2010,12 +1820,10 @@ export default {
         "dimly illuminated"
       ],
       "optionReasons": {
-        "dim-mcq-24": "本句指「表示昏暗地；模糊地；隱約地；例句：「我依稀記得以前見過她。」」。",
-        "dim-mcq-23": "「表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」」是「in the dim and distant past = a very long time ago 在遙遠的過去；很久以前」的用法，與本句語境不同。",
-        "dim-mcq-25": "「表示昏暗；模糊；暗淡；例句：「我的眼睛慢慢適應了周圍的昏暗。」」是「dimness = lack of brightness, clarity, or vividness 昏暗；模糊；暗淡」的用法，與本句語境不同。",
-        "dim-mcq-22": "「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」是「take a dim view of something = strongly disapprove of something 對……很不以為然；非常不贊成」的用法，與本句語境不同。",
-        "dim-mcq-26": "「表示調光器；調光開關；例句：「使用調光器把燈調暗。」」是「dimmer」的用法，與本句語境不同。",
-        "dim-mcq-21": "「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」是「something dims = gradually become weaker, less vivid, or less intense 逐漸淡去；逐漸減弱」的用法，與本句語境不同。"
+        "dim-mcq-24": "本句的「dimly illuminated」指「表示昏暗地；模糊地；隱約地；例句：「我依稀記得以前見過她。」」。",
+        "dim-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-24"
     },
@@ -2027,11 +1835,9 @@ export default {
       "masked": "My eyes slowly adjusted to the ____.",
       "options": [
         "dim-mcq-25",
-        "dim-mcq-24",
-        "dim-mcq-26",
         "dim-mcq-23",
-        "dim-mcq-22",
-        "dim-mcq-21"
+        "dim-mcq-16",
+        "dim-mcq-19"
       ],
       "explanation": "本句的「dimness」指「表示昏暗；模糊；暗淡；例句：「我的眼睛慢慢適應了周圍的昏暗。」」。",
       "sentenceIndex": 48,
@@ -2040,12 +1846,10 @@ export default {
         "dimness"
       ],
       "optionReasons": {
-        "dim-mcq-25": "本句指「表示昏暗；模糊；暗淡；例句：「我的眼睛慢慢適應了周圍的昏暗。」」。",
-        "dim-mcq-24": "「表示昏暗地；模糊地；隱約地；例句：「我依稀記得以前見過她。」」是「dimly = with little light, clarity, or certainty 昏暗地；模糊地；隱約地」的用法，與本句語境不同。",
-        "dim-mcq-26": "「表示調光器；調光開關；例句：「使用調光器把燈調暗。」」是「dimmer」的用法，與本句語境不同。",
-        "dim-mcq-23": "「表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」」是「in the dim and distant past = a very long time ago 在遙遠的過去；很久以前」的用法，與本句語境不同。",
-        "dim-mcq-22": "「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」是「take a dim view of something = strongly disapprove of something 對……很不以為然；非常不贊成」的用法，與本句語境不同。",
-        "dim-mcq-21": "「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」是「something dims = gradually become weaker, less vivid, or less intense 逐漸淡去；逐漸減弱」的用法，與本句語境不同。"
+        "dim-mcq-25": "本句的「dimness」指「表示昏暗；模糊；暗淡；例句：「我的眼睛慢慢適應了周圍的昏暗。」」。",
+        "dim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-25"
     },
@@ -2057,11 +1861,9 @@ export default {
       "masked": "The ____ of the memory made details difficult to recall.",
       "options": [
         "dim-mcq-25",
-        "dim-mcq-24",
-        "dim-mcq-26",
-        "dim-mcq-23",
-        "dim-mcq-22",
-        "dim-mcq-21"
+        "dim-mcq-19",
+        "dim-mcq-16",
+        "dim-mcq-23"
       ],
       "explanation": "本句的「dimness」指「表示昏暗；模糊；暗淡；例句：「我的眼睛慢慢適應了周圍的昏暗。」」。",
       "sentenceIndex": 49,
@@ -2070,12 +1872,10 @@ export default {
         "dimness"
       ],
       "optionReasons": {
-        "dim-mcq-25": "本句指「表示昏暗；模糊；暗淡；例句：「我的眼睛慢慢適應了周圍的昏暗。」」。",
-        "dim-mcq-24": "「表示昏暗地；模糊地；隱約地；例句：「我依稀記得以前見過她。」」是「dimly = with little light, clarity, or certainty 昏暗地；模糊地；隱約地」的用法，與本句語境不同。",
-        "dim-mcq-26": "「表示調光器；調光開關；例句：「使用調光器把燈調暗。」」是「dimmer」的用法，與本句語境不同。",
-        "dim-mcq-23": "「表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」」是「in the dim and distant past = a very long time ago 在遙遠的過去；很久以前」的用法，與本句語境不同。",
-        "dim-mcq-22": "「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」是「take a dim view of something = strongly disapprove of something 對……很不以為然；非常不贊成」的用法，與本句語境不同。",
-        "dim-mcq-21": "「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」是「something dims = gradually become weaker, less vivid, or less intense 逐漸淡去；逐漸減弱」的用法，與本句語境不同。"
+        "dim-mcq-25": "本句的「dimness」指「表示昏暗；模糊；暗淡；例句：「我的眼睛慢慢適應了周圍的昏暗。」」。",
+        "dim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-25"
     },
@@ -2087,11 +1887,9 @@ export default {
       "masked": "Use the ____ to lower the lights.",
       "options": [
         "dim-mcq-26",
-        "dim-mcq-25",
-        "dim-mcq-24",
-        "dim-mcq-23",
-        "dim-mcq-22",
-        "dim-mcq-21"
+        "dim-mcq-19",
+        "dim-mcq-13",
+        "dim-mcq-08"
       ],
       "explanation": "本句的「dimmer」指「表示調光器；調光開關；例句：「使用調光器把燈調暗。」」。",
       "sentenceIndex": 50,
@@ -2100,12 +1898,10 @@ export default {
         "dimmer"
       ],
       "optionReasons": {
-        "dim-mcq-26": "本句指「表示調光器；調光開關；例句：「使用調光器把燈調暗。」」。",
-        "dim-mcq-25": "「表示昏暗；模糊；暗淡；例句：「我的眼睛慢慢適應了周圍的昏暗。」」是「dimness = lack of brightness, clarity, or vividness 昏暗；模糊；暗淡」的用法，與本句語境不同。",
-        "dim-mcq-24": "「表示昏暗地；模糊地；隱約地；例句：「我依稀記得以前見過她。」」是「dimly = with little light, clarity, or certainty 昏暗地；模糊地；隱約地」的用法，與本句語境不同。",
-        "dim-mcq-23": "「表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」」是「in the dim and distant past = a very long time ago 在遙遠的過去；很久以前」的用法，與本句語境不同。",
-        "dim-mcq-22": "「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」是「take a dim view of something = strongly disapprove of something 對……很不以為然；非常不贊成」的用法，與本句語境不同。",
-        "dim-mcq-21": "「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」是「something dims = gradually become weaker, less vivid, or less intense 逐漸淡去；逐漸減弱」的用法，與本句語境不同。"
+        "dim-mcq-26": "本句的「dimmer」指「表示調光器；調光開關；例句：「使用調光器把燈調暗。」」。",
+        "dim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-26"
     },
@@ -2117,11 +1913,9 @@ export default {
       "masked": "The room has a ____.",
       "options": [
         "dim-mcq-26",
-        "dim-mcq-25",
-        "dim-mcq-24",
-        "dim-mcq-23",
-        "dim-mcq-22",
-        "dim-mcq-21"
+        "dim-mcq-06",
+        "dim-mcq-20",
+        "dim-mcq-14"
       ],
       "explanation": "本句的「dimmer switch」指「表示調光器；調光開關；例句：「使用調光器把燈調暗。」」。",
       "sentenceIndex": 51,
@@ -2130,12 +1924,10 @@ export default {
         "dimmer switch"
       ],
       "optionReasons": {
-        "dim-mcq-26": "本句指「表示調光器；調光開關；例句：「使用調光器把燈調暗。」」。",
-        "dim-mcq-25": "「表示昏暗；模糊；暗淡；例句：「我的眼睛慢慢適應了周圍的昏暗。」」是「dimness = lack of brightness, clarity, or vividness 昏暗；模糊；暗淡」的用法，與本句語境不同。",
-        "dim-mcq-24": "「表示昏暗地；模糊地；隱約地；例句：「我依稀記得以前見過她。」」是「dimly = with little light, clarity, or certainty 昏暗地；模糊地；隱約地」的用法，與本句語境不同。",
-        "dim-mcq-23": "「表示在遙遠的過去；很久以前；例句：「那是我很久以前學的。」」是「in the dim and distant past = a very long time ago 在遙遠的過去；很久以前」的用法，與本句語境不同。",
-        "dim-mcq-22": "「表示對……很不以為然；非常不贊成；例句：「經理對遲到這件事非常不以為然。」」是「take a dim view of something = strongly disapprove of something 對……很不以為然；非常不贊成」的用法，與本句語境不同。",
-        "dim-mcq-21": "「表示逐漸淡去；逐漸減弱；例句：「那段記憶隨時間逐漸淡去。」」是「something dims = gradually become weaker, less vivid, or less intense 逐漸淡去；逐漸減弱」的用法，與本句語境不同。"
+        "dim-mcq-26": "本句的「dimmer switch」指「表示調光器；調光開關；例句：「使用調光器把燈調暗。」」。",
+        "dim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "dim-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dim-mcq-26"
     }
@@ -2147,5 +1939,7 @@ export default {
     "sha256": "d874ab5b9e45136fbcb951319d026c18cdc8b4a449e44153f5a6f80f73d0d783",
     "pages": 16
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -707,11 +707,9 @@ export default {
       "masked": "It was a ____ summer afternoon.",
       "options": [
         "hot-mcq-01",
-        "hot-mcq-02",
-        "hot-mcq-03",
-        "hot-mcq-04",
-        "hot-mcq-05",
-        "hot-mcq-06"
+        "hot-mcq-18",
+        "hot-mcq-12",
+        "hot-mcq-10"
       ],
       "explanation": "本句的「hot」指「溫度很高的；熱的／燙的」。",
       "sentenceIndex": 0,
@@ -720,12 +718,10 @@ export default {
         "hot"
       ],
       "optionReasons": {
-        "hot-mcq-01": "本句指「溫度很高的；熱的／燙的」。",
-        "hot-mcq-02": "「天氣、氣候炎熱的」與本句語境不同。",
-        "hot-mcq-03": "「溫度高的熱食／熱飲」與本句語境不同。",
-        "hot-mcq-04": "「吃起來有灼熱感的；辣的」與本句語境不同。",
-        "hot-mcq-05": "「以辣椒等製成的辣醬」與本句語境不同。",
-        "hot-mcq-06": "「當下非常受歡迎、受關注的；熱門／當紅的」與本句語境不同。"
+        "hot-mcq-01": "本句的「hot」指「溫度很高的；熱的／燙的」。",
+        "hot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-01"
     },
@@ -737,11 +733,9 @@ export default {
       "masked": "The weather became extremely ____ by midday.",
       "options": [
         "hot-mcq-01",
-        "hot-mcq-02",
-        "hot-mcq-03",
-        "hot-mcq-04",
-        "hot-mcq-05",
-        "hot-mcq-06"
+        "hot-mcq-17",
+        "hot-mcq-15",
+        "hot-mcq-19"
       ],
       "explanation": "本句的「hot」指「溫度很高的；熱的／燙的」。",
       "sentenceIndex": 1,
@@ -750,12 +744,10 @@ export default {
         "hot"
       ],
       "optionReasons": {
-        "hot-mcq-01": "本句指「溫度很高的；熱的／燙的」。",
-        "hot-mcq-02": "「天氣、氣候炎熱的」與本句語境不同。",
-        "hot-mcq-03": "「溫度高的熱食／熱飲」與本句語境不同。",
-        "hot-mcq-04": "「吃起來有灼熱感的；辣的」與本句語境不同。",
-        "hot-mcq-05": "「以辣椒等製成的辣醬」與本句語境不同。",
-        "hot-mcq-06": "「當下非常受歡迎、受關注的；熱門／當紅的」與本句語境不同。"
+        "hot-mcq-01": "本句的「hot」指「溫度很高的；熱的／燙的」。",
+        "hot-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-01"
     },
@@ -767,11 +759,9 @@ export default {
       "masked": "The soup is still ____.",
       "options": [
         "hot-mcq-01",
-        "hot-mcq-02",
-        "hot-mcq-03",
-        "hot-mcq-04",
-        "hot-mcq-05",
-        "hot-mcq-06"
+        "hot-mcq-12",
+        "hot-mcq-15",
+        "hot-mcq-17"
       ],
       "explanation": "本句的「hot」指「溫度很高的；熱的／燙的」。",
       "sentenceIndex": 2,
@@ -780,12 +770,10 @@ export default {
         "hot"
       ],
       "optionReasons": {
-        "hot-mcq-01": "本句指「溫度很高的；熱的／燙的」。",
-        "hot-mcq-02": "「天氣、氣候炎熱的」與本句語境不同。",
-        "hot-mcq-03": "「溫度高的熱食／熱飲」與本句語境不同。",
-        "hot-mcq-04": "「吃起來有灼熱感的；辣的」與本句語境不同。",
-        "hot-mcq-05": "「以辣椒等製成的辣醬」與本句語境不同。",
-        "hot-mcq-06": "「當下非常受歡迎、受關注的；熱門／當紅的」與本句語境不同。"
+        "hot-mcq-01": "本句的「hot」指「溫度很高的；熱的／燙的」。",
+        "hot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-01"
     },
@@ -797,11 +785,9 @@ export default {
       "masked": "Be careful—the pan is ____.",
       "options": [
         "hot-mcq-01",
-        "hot-mcq-02",
-        "hot-mcq-03",
-        "hot-mcq-04",
-        "hot-mcq-05",
-        "hot-mcq-06"
+        "hot-mcq-19",
+        "hot-mcq-25",
+        "hot-mcq-22"
       ],
       "explanation": "本句的「hot」指「溫度很高的；熱的／燙的」。",
       "sentenceIndex": 3,
@@ -810,12 +796,10 @@ export default {
         "hot"
       ],
       "optionReasons": {
-        "hot-mcq-01": "本句指「溫度很高的；熱的／燙的」。",
-        "hot-mcq-02": "「天氣、氣候炎熱的」與本句語境不同。",
-        "hot-mcq-03": "「溫度高的熱食／熱飲」與本句語境不同。",
-        "hot-mcq-04": "「吃起來有灼熱感的；辣的」與本句語境不同。",
-        "hot-mcq-05": "「以辣椒等製成的辣醬」與本句語境不同。",
-        "hot-mcq-06": "「當下非常受歡迎、受關注的；熱門／當紅的」與本句語境不同。"
+        "hot-mcq-01": "本句的「hot」指「溫度很高的；熱的／燙的」。",
+        "hot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-01"
     },
@@ -827,11 +811,9 @@ export default {
       "masked": "It gets very ____ here in summer.",
       "options": [
         "hot-mcq-02",
-        "hot-mcq-01",
-        "hot-mcq-03",
-        "hot-mcq-04",
-        "hot-mcq-05",
-        "hot-mcq-06"
+        "hot-mcq-17",
+        "hot-mcq-19",
+        "hot-mcq-12"
       ],
       "explanation": "本句的「hot」指「天氣、氣候炎熱的」。",
       "sentenceIndex": 4,
@@ -840,12 +822,10 @@ export default {
         "hot"
       ],
       "optionReasons": {
-        "hot-mcq-02": "本句指「天氣、氣候炎熱的」。",
-        "hot-mcq-01": "「溫度很高的；熱的／燙的」與本句語境不同。",
-        "hot-mcq-03": "「溫度高的熱食／熱飲」與本句語境不同。",
-        "hot-mcq-04": "「吃起來有灼熱感的；辣的」與本句語境不同。",
-        "hot-mcq-05": "「以辣椒等製成的辣醬」與本句語境不同。",
-        "hot-mcq-06": "「當下非常受歡迎、受關注的；熱門／當紅的」與本句語境不同。"
+        "hot-mcq-02": "本句的「hot」指「天氣、氣候炎熱的」。",
+        "hot-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-02"
     },
@@ -857,11 +837,9 @@ export default {
       "masked": "We stayed indoors during the ____ afternoon.",
       "options": [
         "hot-mcq-02",
-        "hot-mcq-01",
-        "hot-mcq-03",
-        "hot-mcq-04",
-        "hot-mcq-05",
-        "hot-mcq-06"
+        "hot-mcq-22",
+        "hot-mcq-16",
+        "hot-mcq-26"
       ],
       "explanation": "本句的「hot」指「天氣、氣候炎熱的」。",
       "sentenceIndex": 5,
@@ -870,12 +848,10 @@ export default {
         "hot"
       ],
       "optionReasons": {
-        "hot-mcq-02": "本句指「天氣、氣候炎熱的」。",
-        "hot-mcq-01": "「溫度很高的；熱的／燙的」與本句語境不同。",
-        "hot-mcq-03": "「溫度高的熱食／熱飲」與本句語境不同。",
-        "hot-mcq-04": "「吃起來有灼熱感的；辣的」與本句語境不同。",
-        "hot-mcq-05": "「以辣椒等製成的辣醬」與本句語境不同。",
-        "hot-mcq-06": "「當下非常受歡迎、受關注的；熱門／當紅的」與本句語境不同。"
+        "hot-mcq-02": "本句的「hot」指「天氣、氣候炎熱的」。",
+        "hot-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-02"
     },
@@ -887,11 +863,9 @@ export default {
       "masked": "I’d like a ____.",
       "options": [
         "hot-mcq-03",
-        "hot-mcq-02",
-        "hot-mcq-04",
-        "hot-mcq-01",
-        "hot-mcq-05",
-        "hot-mcq-06"
+        "hot-mcq-13",
+        "hot-mcq-26",
+        "hot-mcq-11"
       ],
       "explanation": "本句的「hot drink」指「溫度高的熱食／熱飲」。",
       "sentenceIndex": 6,
@@ -900,12 +874,10 @@ export default {
         "hot drink"
       ],
       "optionReasons": {
-        "hot-mcq-03": "本句指「溫度高的熱食／熱飲」。",
-        "hot-mcq-02": "「天氣、氣候炎熱的」與本句語境不同。",
-        "hot-mcq-04": "「吃起來有灼熱感的；辣的」與本句語境不同。",
-        "hot-mcq-01": "「溫度很高的；熱的／燙的」與本句語境不同。",
-        "hot-mcq-05": "「以辣椒等製成的辣醬」與本句語境不同。",
-        "hot-mcq-06": "「當下非常受歡迎、受關注的；熱門／當紅的」與本句語境不同。"
+        "hot-mcq-03": "本句的「hot drink」指「溫度高的熱食／熱飲」。",
+        "hot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-03"
     },
@@ -917,11 +889,9 @@ export default {
       "masked": "The café serves ____ all day.",
       "options": [
         "hot-mcq-03",
-        "hot-mcq-02",
-        "hot-mcq-04",
-        "hot-mcq-01",
-        "hot-mcq-05",
-        "hot-mcq-06"
+        "hot-mcq-10",
+        "hot-mcq-20",
+        "hot-mcq-22"
       ],
       "explanation": "本句的「hot food」指「溫度高的熱食／熱飲」。",
       "sentenceIndex": 7,
@@ -930,12 +900,10 @@ export default {
         "hot food"
       ],
       "optionReasons": {
-        "hot-mcq-03": "本句指「溫度高的熱食／熱飲」。",
-        "hot-mcq-02": "「天氣、氣候炎熱的」與本句語境不同。",
-        "hot-mcq-04": "「吃起來有灼熱感的；辣的」與本句語境不同。",
-        "hot-mcq-01": "「溫度很高的；熱的／燙的」與本句語境不同。",
-        "hot-mcq-05": "「以辣椒等製成的辣醬」與本句語境不同。",
-        "hot-mcq-06": "「當下非常受歡迎、受關注的；熱門／當紅的」與本句語境不同。"
+        "hot-mcq-03": "本句的「hot food」指「溫度高的熱食／熱飲」。",
+        "hot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-03"
     },
@@ -947,11 +915,9 @@ export default {
       "masked": "Add a little ____.",
       "options": [
         "hot-mcq-05",
-        "hot-mcq-04",
-        "hot-mcq-06",
-        "hot-mcq-03",
-        "hot-mcq-07",
-        "hot-mcq-02"
+        "hot-mcq-33",
+        "hot-mcq-18",
+        "hot-mcq-25"
       ],
       "explanation": "本句的「hot sauce」指「以辣椒等製成的辣醬」。",
       "sentenceIndex": 10,
@@ -960,12 +926,10 @@ export default {
         "hot sauce"
       ],
       "optionReasons": {
-        "hot-mcq-05": "本句指「以辣椒等製成的辣醬」。",
-        "hot-mcq-04": "「吃起來有灼熱感的；辣的」與本句語境不同。",
-        "hot-mcq-06": "「當下非常受歡迎、受關注的；熱門／當紅的」與本句語境不同。",
-        "hot-mcq-03": "「溫度高的熱食／熱飲」與本句語境不同。",
-        "hot-mcq-07": "「目前受到大量關注／討論的熱門話題」與本句語境不同。",
-        "hot-mcq-02": "「天氣、氣候炎熱的」與本句語境不同。"
+        "hot-mcq-05": "本句的「hot sauce」指「以辣椒等製成的辣醬」。",
+        "hot-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-05"
     },
@@ -977,11 +941,9 @@ export default {
       "masked": "This ____ is extremely spicy.",
       "options": [
         "hot-mcq-05",
-        "hot-mcq-04",
-        "hot-mcq-06",
-        "hot-mcq-03",
-        "hot-mcq-07",
-        "hot-mcq-02"
+        "hot-mcq-25",
+        "hot-mcq-01",
+        "hot-mcq-26"
       ],
       "explanation": "本句的「hot sauce」指「以辣椒等製成的辣醬」。",
       "sentenceIndex": 11,
@@ -990,12 +952,10 @@ export default {
         "hot sauce"
       ],
       "optionReasons": {
-        "hot-mcq-05": "本句指「以辣椒等製成的辣醬」。",
-        "hot-mcq-04": "「吃起來有灼熱感的；辣的」與本句語境不同。",
-        "hot-mcq-06": "「當下非常受歡迎、受關注的；熱門／當紅的」與本句語境不同。",
-        "hot-mcq-03": "「溫度高的熱食／熱飲」與本句語境不同。",
-        "hot-mcq-07": "「目前受到大量關注／討論的熱門話題」與本句語境不同。",
-        "hot-mcq-02": "「天氣、氣候炎熱的」與本句語境不同。"
+        "hot-mcq-05": "本句的「hot sauce」指「以辣椒等製成的辣醬」。",
+        "hot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-05"
     },
@@ -1007,11 +967,9 @@ export default {
       "masked": "That restaurant is really ____ right now.",
       "options": [
         "hot-mcq-06",
-        "hot-mcq-05",
-        "hot-mcq-07",
-        "hot-mcq-04",
-        "hot-mcq-08",
-        "hot-mcq-03"
+        "hot-mcq-22",
+        "hot-mcq-19",
+        "hot-mcq-24"
       ],
       "explanation": "本句的「hot」指「當下非常受歡迎、受關注的；熱門／當紅的」。",
       "sentenceIndex": 12,
@@ -1020,12 +978,10 @@ export default {
         "hot"
       ],
       "optionReasons": {
-        "hot-mcq-06": "本句指「當下非常受歡迎、受關注的；熱門／當紅的」。",
-        "hot-mcq-05": "「以辣椒等製成的辣醬」與本句語境不同。",
-        "hot-mcq-07": "「目前受到大量關注／討論的熱門話題」與本句語境不同。",
-        "hot-mcq-04": "「吃起來有灼熱感的；辣的」與本句語境不同。",
-        "hot-mcq-08": "「目前需求很大、很搶手的商品」與本句語境不同。",
-        "hot-mcq-03": "「溫度高的熱食／熱飲」與本句語境不同。"
+        "hot-mcq-06": "本句的「hot」指「當下非常受歡迎、受關注的；熱門／當紅的」。",
+        "hot-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-06"
     },
@@ -1037,11 +993,9 @@ export default {
       "masked": "She is one of the ____ young actors in the industry.",
       "options": [
         "hot-mcq-06",
+        "hot-mcq-18",
         "hot-mcq-05",
-        "hot-mcq-07",
-        "hot-mcq-04",
-        "hot-mcq-08",
-        "hot-mcq-03"
+        "hot-mcq-20"
       ],
       "explanation": "本句的「hottest」指「當下非常受歡迎、受關注的；熱門／當紅的」。",
       "sentenceIndex": 13,
@@ -1050,12 +1004,10 @@ export default {
         "hottest"
       ],
       "optionReasons": {
-        "hot-mcq-06": "本句指「當下非常受歡迎、受關注的；熱門／當紅的」。",
-        "hot-mcq-05": "「以辣椒等製成的辣醬」與本句語境不同。",
-        "hot-mcq-07": "「目前受到大量關注／討論的熱門話題」與本句語境不同。",
-        "hot-mcq-04": "「吃起來有灼熱感的；辣的」與本句語境不同。",
-        "hot-mcq-08": "「目前需求很大、很搶手的商品」與本句語境不同。",
-        "hot-mcq-03": "「溫度高的熱食／熱飲」與本句語境不同。"
+        "hot-mcq-06": "本句的「hottest」指「當下非常受歡迎、受關注的；熱門／當紅的」。",
+        "hot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-06"
     },
@@ -1067,11 +1019,9 @@ export default {
       "masked": "Artificial intelligence is a ____.",
       "options": [
         "hot-mcq-07",
-        "hot-mcq-06",
-        "hot-mcq-08",
-        "hot-mcq-05",
+        "hot-mcq-13",
         "hot-mcq-09",
-        "hot-mcq-04"
+        "hot-mcq-19"
       ],
       "explanation": "本句的「hot topic」指「目前受到大量關注／討論的熱門話題」。",
       "sentenceIndex": 14,
@@ -1080,12 +1030,10 @@ export default {
         "hot topic"
       ],
       "optionReasons": {
-        "hot-mcq-07": "本句指「目前受到大量關注／討論的熱門話題」。",
-        "hot-mcq-06": "「當下非常受歡迎、受關注的；熱門／當紅的」與本句語境不同。",
-        "hot-mcq-08": "「目前需求很大、很搶手的商品」與本句語境不同。",
-        "hot-mcq-05": "「以辣椒等製成的辣醬」與本句語境不同。",
-        "hot-mcq-09": "「市場、競爭等非常活躍／激烈的」與本句語境不同。",
-        "hot-mcq-04": "「吃起來有灼熱感的；辣的」與本句語境不同。"
+        "hot-mcq-07": "本句的「hot topic」指「目前受到大量關注／討論的熱門話題」。",
+        "hot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-07"
     },
@@ -1097,11 +1045,9 @@ export default {
       "masked": "Housing has become a ____.",
       "options": [
         "hot-mcq-07",
-        "hot-mcq-06",
-        "hot-mcq-08",
-        "hot-mcq-05",
-        "hot-mcq-09",
-        "hot-mcq-04"
+        "hot-mcq-19",
+        "hot-mcq-11",
+        "hot-mcq-12"
       ],
       "explanation": "本句的「hot political topic」指「目前受到大量關注／討論的熱門話題」。",
       "sentenceIndex": 15,
@@ -1110,12 +1056,10 @@ export default {
         "hot political topic"
       ],
       "optionReasons": {
-        "hot-mcq-07": "本句指「目前受到大量關注／討論的熱門話題」。",
-        "hot-mcq-06": "「當下非常受歡迎、受關注的；熱門／當紅的」與本句語境不同。",
-        "hot-mcq-08": "「目前需求很大、很搶手的商品」與本句語境不同。",
-        "hot-mcq-05": "「以辣椒等製成的辣醬」與本句語境不同。",
-        "hot-mcq-09": "「市場、競爭等非常活躍／激烈的」與本句語境不同。",
-        "hot-mcq-04": "「吃起來有灼熱感的；辣的」與本句語境不同。"
+        "hot-mcq-07": "本句的「hot political topic」指「目前受到大量關注／討論的熱門話題」。",
+        "hot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-07"
     },
@@ -1127,11 +1071,9 @@ export default {
       "masked": "The toy became a ____ before Christmas.",
       "options": [
         "hot-mcq-08",
-        "hot-mcq-07",
-        "hot-mcq-09",
-        "hot-mcq-06",
-        "hot-mcq-10",
-        "hot-mcq-05"
+        "hot-mcq-28",
+        "hot-mcq-14",
+        "hot-mcq-23"
       ],
       "explanation": "本句的「hot item」指「目前需求很大、很搶手的商品」。",
       "sentenceIndex": 16,
@@ -1140,12 +1082,10 @@ export default {
         "hot item"
       ],
       "optionReasons": {
-        "hot-mcq-08": "本句指「目前需求很大、很搶手的商品」。",
-        "hot-mcq-07": "「目前受到大量關注／討論的熱門話題」與本句語境不同。",
-        "hot-mcq-09": "「市場、競爭等非常活躍／激烈的」與本句語境不同。",
-        "hot-mcq-06": "「當下非常受歡迎、受關注的；熱門／當紅的」與本句語境不同。",
-        "hot-mcq-10": "「需求與交易活動非常旺盛的市場」與本句語境不同。",
-        "hot-mcq-05": "「以辣椒等製成的辣醬」與本句語境不同。"
+        "hot-mcq-08": "本句的「hot item」指「目前需求很大、很搶手的商品」。",
+        "hot-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-08"
     },
@@ -1157,11 +1097,9 @@ export default {
       "masked": "This model is currently a ____.",
       "options": [
         "hot-mcq-08",
-        "hot-mcq-07",
-        "hot-mcq-09",
-        "hot-mcq-06",
-        "hot-mcq-10",
-        "hot-mcq-05"
+        "hot-mcq-13",
+        "hot-mcq-01",
+        "hot-mcq-28"
       ],
       "explanation": "本句的「hot product」指「目前需求很大、很搶手的商品」。",
       "sentenceIndex": 17,
@@ -1170,12 +1108,10 @@ export default {
         "hot product"
       ],
       "optionReasons": {
-        "hot-mcq-08": "本句指「目前需求很大、很搶手的商品」。",
-        "hot-mcq-07": "「目前受到大量關注／討論的熱門話題」與本句語境不同。",
-        "hot-mcq-09": "「市場、競爭等非常活躍／激烈的」與本句語境不同。",
-        "hot-mcq-06": "「當下非常受歡迎、受關注的；熱門／當紅的」與本句語境不同。",
-        "hot-mcq-10": "「需求與交易活動非常旺盛的市場」與本句語境不同。",
-        "hot-mcq-05": "「以辣椒等製成的辣醬」與本句語境不同。"
+        "hot-mcq-08": "本句的「hot product」指「目前需求很大、很搶手的商品」。",
+        "hot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-08"
     },
@@ -1187,11 +1123,9 @@ export default {
       "masked": "Competition is ____ in this market.",
       "options": [
         "hot-mcq-09",
-        "hot-mcq-08",
-        "hot-mcq-10",
-        "hot-mcq-07",
-        "hot-mcq-11",
-        "hot-mcq-06"
+        "hot-mcq-27",
+        "hot-mcq-13",
+        "hot-mcq-02"
       ],
       "explanation": "本句的「hot」指「市場、競爭等非常活躍／激烈的」。",
       "sentenceIndex": 18,
@@ -1200,12 +1134,10 @@ export default {
         "hot"
       ],
       "optionReasons": {
-        "hot-mcq-09": "本句指「市場、競爭等非常活躍／激烈的」。",
-        "hot-mcq-08": "「目前需求很大、很搶手的商品」與本句語境不同。",
-        "hot-mcq-10": "「需求與交易活動非常旺盛的市場」與本句語境不同。",
-        "hot-mcq-07": "「目前受到大量關注／討論的熱門話題」與本句語境不同。",
-        "hot-mcq-11": "「非正式：性感、很有吸引力的」與本句語境不同。",
-        "hot-mcq-06": "「當下非常受歡迎、受關注的；熱門／當紅的」與本句語境不同。"
+        "hot-mcq-09": "本句的「hot」指「市場、競爭等非常活躍／激烈的」。",
+        "hot-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-09"
     },
@@ -1218,10 +1150,8 @@ export default {
       "options": [
         "hot-mcq-09",
         "hot-mcq-08",
-        "hot-mcq-10",
-        "hot-mcq-07",
-        "hot-mcq-11",
-        "hot-mcq-06"
+        "hot-mcq-33",
+        "hot-mcq-25"
       ],
       "explanation": "本句的「hot」指「市場、競爭等非常活躍／激烈的」。",
       "sentenceIndex": 19,
@@ -1230,12 +1160,10 @@ export default {
         "hot"
       ],
       "optionReasons": {
-        "hot-mcq-09": "本句指「市場、競爭等非常活躍／激烈的」。",
-        "hot-mcq-08": "「目前需求很大、很搶手的商品」與本句語境不同。",
-        "hot-mcq-10": "「需求與交易活動非常旺盛的市場」與本句語境不同。",
-        "hot-mcq-07": "「目前受到大量關注／討論的熱門話題」與本句語境不同。",
-        "hot-mcq-11": "「非正式：性感、很有吸引力的」與本句語境不同。",
-        "hot-mcq-06": "「當下非常受歡迎、受關注的；熱門／當紅的」與本句語境不同。"
+        "hot-mcq-09": "本句的「hot」指「市場、競爭等非常活躍／激烈的」。",
+        "hot-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-09"
     },
@@ -1247,11 +1175,9 @@ export default {
       "masked": "Housing was selling quickly in a ____.",
       "options": [
         "hot-mcq-10",
-        "hot-mcq-09",
-        "hot-mcq-11",
-        "hot-mcq-08",
-        "hot-mcq-12",
-        "hot-mcq-07"
+        "hot-mcq-20",
+        "hot-mcq-18",
+        "hot-mcq-23"
       ],
       "explanation": "本句的「hot market」指「需求與交易活動非常旺盛的市場」。",
       "sentenceIndex": 20,
@@ -1260,12 +1186,10 @@ export default {
         "hot market"
       ],
       "optionReasons": {
-        "hot-mcq-10": "本句指「需求與交易活動非常旺盛的市場」。",
-        "hot-mcq-09": "「市場、競爭等非常活躍／激烈的」與本句語境不同。",
-        "hot-mcq-11": "「非正式：性感、很有吸引力的」與本句語境不同。",
-        "hot-mcq-08": "「目前需求很大、很搶手的商品」與本句語境不同。",
-        "hot-mcq-12": "「情緒激動、憤怒的」與本句語境不同。",
-        "hot-mcq-07": "「目前受到大量關注／討論的熱門話題」與本句語境不同。"
+        "hot-mcq-10": "本句的「hot market」指「需求與交易活動非常旺盛的市場」。",
+        "hot-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-10"
     },
@@ -1277,11 +1201,9 @@ export default {
       "masked": "It is difficult for buyers in a ____.",
       "options": [
         "hot-mcq-10",
-        "hot-mcq-09",
-        "hot-mcq-11",
-        "hot-mcq-08",
-        "hot-mcq-12",
-        "hot-mcq-07"
+        "hot-mcq-26",
+        "hot-mcq-22",
+        "hot-mcq-31"
       ],
       "explanation": "本句的「hot market」指「需求與交易活動非常旺盛的市場」。",
       "sentenceIndex": 21,
@@ -1290,12 +1212,10 @@ export default {
         "hot market"
       ],
       "optionReasons": {
-        "hot-mcq-10": "本句指「需求與交易活動非常旺盛的市場」。",
-        "hot-mcq-09": "「市場、競爭等非常活躍／激烈的」與本句語境不同。",
-        "hot-mcq-11": "「非正式：性感、很有吸引力的」與本句語境不同。",
-        "hot-mcq-08": "「目前需求很大、很搶手的商品」與本句語境不同。",
-        "hot-mcq-12": "「情緒激動、憤怒的」與本句語境不同。",
-        "hot-mcq-07": "「目前受到大量關注／討論的熱門話題」與本句語境不同。"
+        "hot-mcq-10": "本句的「hot market」指「需求與交易活動非常旺盛的市場」。",
+        "hot-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-10"
     },
@@ -1307,11 +1227,9 @@ export default {
       "masked": "Some people think he is really ____.",
       "options": [
         "hot-mcq-11",
-        "hot-mcq-10",
-        "hot-mcq-12",
-        "hot-mcq-09",
-        "hot-mcq-13",
-        "hot-mcq-08"
+        "hot-mcq-27",
+        "hot-mcq-25",
+        "hot-mcq-26"
       ],
       "explanation": "本句的「hot」指「非正式：性感、很有吸引力的」。",
       "sentenceIndex": 22,
@@ -1320,12 +1238,10 @@ export default {
         "hot"
       ],
       "optionReasons": {
-        "hot-mcq-11": "本句指「非正式：性感、很有吸引力的」。",
-        "hot-mcq-10": "「需求與交易活動非常旺盛的市場」與本句語境不同。",
-        "hot-mcq-12": "「情緒激動、憤怒的」與本句語境不同。",
-        "hot-mcq-09": "「市場、競爭等非常活躍／激烈的」與本句語境不同。",
-        "hot-mcq-13": "「容易迅速發怒的火爆脾氣」與本句語境不同。",
-        "hot-mcq-08": "「目前需求很大、很搶手的商品」與本句語境不同。"
+        "hot-mcq-11": "本句的「hot」指「非正式：性感、很有吸引力的」。",
+        "hot-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-11"
     },
@@ -1337,10 +1253,8 @@ export default {
       "masked": "She described the actor as ____.",
       "options": [
         "hot-mcq-11",
-        "hot-mcq-10",
         "hot-mcq-12",
-        "hot-mcq-09",
-        "hot-mcq-13",
+        "hot-mcq-22",
         "hot-mcq-08"
       ],
       "explanation": "本句的「hot」指「非正式：性感、很有吸引力的」。",
@@ -1350,12 +1264,10 @@ export default {
         "hot"
       ],
       "optionReasons": {
-        "hot-mcq-11": "本句指「非正式：性感、很有吸引力的」。",
-        "hot-mcq-10": "「需求與交易活動非常旺盛的市場」與本句語境不同。",
-        "hot-mcq-12": "「情緒激動、憤怒的」與本句語境不同。",
-        "hot-mcq-09": "「市場、競爭等非常活躍／激烈的」與本句語境不同。",
-        "hot-mcq-13": "「容易迅速發怒的火爆脾氣」與本句語境不同。",
-        "hot-mcq-08": "「目前需求很大、很搶手的商品」與本句語境不同。"
+        "hot-mcq-11": "本句的「hot」指「非正式：性感、很有吸引力的」。",
+        "hot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-11"
     },
@@ -1368,10 +1280,8 @@ export default {
       "options": [
         "hot-mcq-12",
         "hot-mcq-11",
-        "hot-mcq-13",
-        "hot-mcq-10",
-        "hot-mcq-14",
-        "hot-mcq-09"
+        "hot-mcq-26",
+        "hot-mcq-16"
       ],
       "explanation": "本句的「heated」指「情緒激動、憤怒的」。",
       "sentenceIndex": 24,
@@ -1380,12 +1290,10 @@ export default {
         "heated"
       ],
       "optionReasons": {
-        "hot-mcq-12": "本句指「情緒激動、憤怒的」。",
-        "hot-mcq-11": "「非正式：性感、很有吸引力的」與本句語境不同。",
-        "hot-mcq-13": "「容易迅速發怒的火爆脾氣」與本句語境不同。",
-        "hot-mcq-10": "「需求與交易活動非常旺盛的市場」與本句語境不同。",
-        "hot-mcq-14": "「非正式：偷來、屬於贓物的」與本句語境不同。",
-        "hot-mcq-09": "「市場、競爭等非常活躍／激烈的」與本句語境不同。"
+        "hot-mcq-12": "本句的「heated」指「情緒激動、憤怒的」。",
+        "hot-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-12"
     },
@@ -1397,11 +1305,9 @@ export default {
       "masked": "He was still ____.",
       "options": [
         "hot-mcq-12",
-        "hot-mcq-11",
-        "hot-mcq-13",
-        "hot-mcq-10",
-        "hot-mcq-14",
-        "hot-mcq-09"
+        "hot-mcq-06",
+        "hot-mcq-05",
+        "hot-mcq-08"
       ],
       "explanation": "本句的「hot with anger」指「情緒激動、憤怒的」。",
       "sentenceIndex": 25,
@@ -1410,12 +1316,10 @@ export default {
         "hot with anger"
       ],
       "optionReasons": {
-        "hot-mcq-12": "本句指「情緒激動、憤怒的」。",
-        "hot-mcq-11": "「非正式：性感、很有吸引力的」與本句語境不同。",
-        "hot-mcq-13": "「容易迅速發怒的火爆脾氣」與本句語境不同。",
-        "hot-mcq-10": "「需求與交易活動非常旺盛的市場」與本句語境不同。",
-        "hot-mcq-14": "「非正式：偷來、屬於贓物的」與本句語境不同。",
-        "hot-mcq-09": "「市場、競爭等非常活躍／激烈的」與本句語境不同。"
+        "hot-mcq-12": "本句的「hot with anger」指「情緒激動、憤怒的」。",
+        "hot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-12"
     },
@@ -1427,11 +1331,9 @@ export default {
       "masked": "He has a ____.",
       "options": [
         "hot-mcq-13",
-        "hot-mcq-12",
-        "hot-mcq-14",
         "hot-mcq-11",
-        "hot-mcq-15",
-        "hot-mcq-10"
+        "hot-mcq-27",
+        "hot-mcq-05"
       ],
       "explanation": "本句的「hot temper」指「容易迅速發怒的火爆脾氣」。",
       "sentenceIndex": 26,
@@ -1440,12 +1342,10 @@ export default {
         "hot temper"
       ],
       "optionReasons": {
-        "hot-mcq-13": "本句指「容易迅速發怒的火爆脾氣」。",
-        "hot-mcq-12": "「情緒激動、憤怒的」與本句語境不同。",
-        "hot-mcq-14": "「非正式：偷來、屬於贓物的」與本句語境不同。",
-        "hot-mcq-11": "「非正式：性感、很有吸引力的」與本句語境不同。",
-        "hot-mcq-15": "「偷來並非法轉售的贓物」與本句語境不同。",
-        "hot-mcq-10": "「需求與交易活動非常旺盛的市場」與本句語境不同。"
+        "hot-mcq-13": "本句的「hot temper」指「容易迅速發怒的火爆脾氣」。",
+        "hot-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-13"
     },
@@ -1457,11 +1357,9 @@ export default {
       "masked": "Her ____ sometimes causes problems.",
       "options": [
         "hot-mcq-13",
-        "hot-mcq-12",
-        "hot-mcq-14",
-        "hot-mcq-11",
-        "hot-mcq-15",
-        "hot-mcq-10"
+        "hot-mcq-01",
+        "hot-mcq-22",
+        "hot-mcq-14"
       ],
       "explanation": "本句的「hot temper」指「容易迅速發怒的火爆脾氣」。",
       "sentenceIndex": 27,
@@ -1470,12 +1368,10 @@ export default {
         "hot temper"
       ],
       "optionReasons": {
-        "hot-mcq-13": "本句指「容易迅速發怒的火爆脾氣」。",
-        "hot-mcq-12": "「情緒激動、憤怒的」與本句語境不同。",
-        "hot-mcq-14": "「非正式：偷來、屬於贓物的」與本句語境不同。",
-        "hot-mcq-11": "「非正式：性感、很有吸引力的」與本句語境不同。",
-        "hot-mcq-15": "「偷來並非法轉售的贓物」與本句語境不同。",
-        "hot-mcq-10": "「需求與交易活動非常旺盛的市場」與本句語境不同。"
+        "hot-mcq-13": "本句的「hot temper」指「容易迅速發怒的火爆脾氣」。",
+        "hot-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-13"
     },
@@ -1487,11 +1383,9 @@ export default {
       "masked": "The police suspected the car was ____.",
       "options": [
         "hot-mcq-14",
+        "hot-mcq-01",
         "hot-mcq-13",
-        "hot-mcq-15",
-        "hot-mcq-12",
-        "hot-mcq-16",
-        "hot-mcq-11"
+        "hot-mcq-24"
       ],
       "explanation": "本句的「hot」指「非正式：偷來、屬於贓物的」。",
       "sentenceIndex": 28,
@@ -1500,12 +1394,10 @@ export default {
         "hot"
       ],
       "optionReasons": {
-        "hot-mcq-14": "本句指「非正式：偷來、屬於贓物的」。",
-        "hot-mcq-13": "「容易迅速發怒的火爆脾氣」與本句語境不同。",
-        "hot-mcq-15": "「偷來並非法轉售的贓物」與本句語境不同。",
-        "hot-mcq-12": "「情緒激動、憤怒的」與本句語境不同。",
-        "hot-mcq-16": "「容易引起警方／當局注意、風險很高的」與本句語境不同。",
-        "hot-mcq-11": "「非正式：性感、很有吸引力的」與本句語境不同。"
+        "hot-mcq-14": "本句的「hot」指「非正式：偷來、屬於贓物的」。",
+        "hot-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-14"
     },
@@ -1517,11 +1409,9 @@ export default {
       "masked": "He was trying to sell ____.",
       "options": [
         "hot-mcq-14",
-        "hot-mcq-13",
-        "hot-mcq-15",
-        "hot-mcq-12",
-        "hot-mcq-16",
-        "hot-mcq-11"
+        "hot-mcq-31",
+        "hot-mcq-05",
+        "hot-mcq-24"
       ],
       "explanation": "本句的「hot goods」指「非正式：偷來、屬於贓物的」。",
       "sentenceIndex": 29,
@@ -1530,12 +1420,10 @@ export default {
         "hot goods"
       ],
       "optionReasons": {
-        "hot-mcq-14": "本句指「非正式：偷來、屬於贓物的」。",
-        "hot-mcq-13": "「容易迅速發怒的火爆脾氣」與本句語境不同。",
-        "hot-mcq-15": "「偷來並非法轉售的贓物」與本句語境不同。",
-        "hot-mcq-12": "「情緒激動、憤怒的」與本句語境不同。",
-        "hot-mcq-16": "「容易引起警方／當局注意、風險很高的」與本句語境不同。",
-        "hot-mcq-11": "「非正式：性感、很有吸引力的」與本句語境不同。"
+        "hot-mcq-14": "本句的「hot goods」指「非正式：偷來、屬於贓物的」。",
+        "hot-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-14"
     },
@@ -1547,11 +1435,9 @@ export default {
       "masked": "The shop was accused of handling ____.",
       "options": [
         "hot-mcq-15",
-        "hot-mcq-14",
-        "hot-mcq-16",
-        "hot-mcq-13",
-        "hot-mcq-17",
-        "hot-mcq-12"
+        "hot-mcq-28",
+        "hot-mcq-25",
+        "hot-mcq-23"
       ],
       "explanation": "本句的「hot goods」指「偷來並非法轉售的贓物」。",
       "sentenceIndex": 30,
@@ -1560,12 +1446,10 @@ export default {
         "hot goods"
       ],
       "optionReasons": {
-        "hot-mcq-15": "本句指「偷來並非法轉售的贓物」。",
-        "hot-mcq-14": "「非正式：偷來、屬於贓物的」與本句語境不同。",
-        "hot-mcq-16": "「容易引起警方／當局注意、風險很高的」與本句語境不同。",
-        "hot-mcq-13": "「容易迅速發怒的火爆脾氣」與本句語境不同。",
-        "hot-mcq-17": "「已非常接近正確答案或目標」與本句語境不同。",
-        "hot-mcq-12": "「情緒激動、憤怒的」與本句語境不同。"
+        "hot-mcq-15": "本句的「hot goods」指「偷來並非法轉售的贓物」。",
+        "hot-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-15"
     },
@@ -1577,11 +1461,9 @@ export default {
       "masked": "Police recovered several pieces of ____.",
       "options": [
         "hot-mcq-15",
-        "hot-mcq-14",
-        "hot-mcq-16",
-        "hot-mcq-13",
-        "hot-mcq-17",
-        "hot-mcq-12"
+        "hot-mcq-23",
+        "hot-mcq-12",
+        "hot-mcq-22"
       ],
       "explanation": "本句的「hot merchandise」指「偷來並非法轉售的贓物」。",
       "sentenceIndex": 31,
@@ -1590,12 +1472,10 @@ export default {
         "hot merchandise"
       ],
       "optionReasons": {
-        "hot-mcq-15": "本句指「偷來並非法轉售的贓物」。",
-        "hot-mcq-14": "「非正式：偷來、屬於贓物的」與本句語境不同。",
-        "hot-mcq-16": "「容易引起警方／當局注意、風險很高的」與本句語境不同。",
-        "hot-mcq-13": "「容易迅速發怒的火爆脾氣」與本句語境不同。",
-        "hot-mcq-17": "「已非常接近正確答案或目標」與本句語境不同。",
-        "hot-mcq-12": "「情緒激動、憤怒的」與本句語境不同。"
+        "hot-mcq-15": "本句的「hot merchandise」指「偷來並非法轉售的贓物」。",
+        "hot-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-15"
     },
@@ -1607,11 +1487,9 @@ export default {
       "masked": "The car had become too ____ to use.",
       "options": [
         "hot-mcq-16",
-        "hot-mcq-15",
-        "hot-mcq-17",
-        "hot-mcq-14",
-        "hot-mcq-18",
-        "hot-mcq-13"
+        "hot-mcq-09",
+        "hot-mcq-31",
+        "hot-mcq-05"
       ],
       "explanation": "本句的「hot」指「容易引起警方／當局注意、風險很高的」。",
       "sentenceIndex": 32,
@@ -1620,12 +1498,10 @@ export default {
         "hot"
       ],
       "optionReasons": {
-        "hot-mcq-16": "本句指「容易引起警方／當局注意、風險很高的」。",
-        "hot-mcq-15": "「偷來並非法轉售的贓物」與本句語境不同。",
-        "hot-mcq-17": "「已非常接近正確答案或目標」與本句語境不同。",
-        "hot-mcq-14": "「非正式：偷來、屬於贓物的」與本句語境不同。",
-        "hot-mcq-18": "「正緊追某人的行蹤，接近追上／找到」與本句語境不同。",
-        "hot-mcq-13": "「容易迅速發怒的火爆脾氣」與本句語境不同。"
+        "hot-mcq-16": "本句的「hot」指「容易引起警方／當局注意、風險很高的」。",
+        "hot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-16"
     },
@@ -1637,11 +1513,9 @@ export default {
       "masked": "The area was getting ____, so they left.",
       "options": [
         "hot-mcq-16",
-        "hot-mcq-15",
-        "hot-mcq-17",
-        "hot-mcq-14",
-        "hot-mcq-18",
-        "hot-mcq-13"
+        "hot-mcq-31",
+        "hot-mcq-24",
+        "hot-mcq-26"
       ],
       "explanation": "本句的「hot」指「容易引起警方／當局注意、風險很高的」。",
       "sentenceIndex": 33,
@@ -1650,12 +1524,10 @@ export default {
         "hot"
       ],
       "optionReasons": {
-        "hot-mcq-16": "本句指「容易引起警方／當局注意、風險很高的」。",
-        "hot-mcq-15": "「偷來並非法轉售的贓物」與本句語境不同。",
-        "hot-mcq-17": "「已非常接近正確答案或目標」與本句語境不同。",
-        "hot-mcq-14": "「非正式：偷來、屬於贓物的」與本句語境不同。",
-        "hot-mcq-18": "「正緊追某人的行蹤，接近追上／找到」與本句語境不同。",
-        "hot-mcq-13": "「容易迅速發怒的火爆脾氣」與本句語境不同。"
+        "hot-mcq-16": "本句的「hot」指「容易引起警方／當局注意、風險很高的」。",
+        "hot-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-16"
     },
@@ -1667,11 +1539,9 @@ export default {
       "masked": "Am I getting closer?” “Yes, you’re ____.",
       "options": [
         "hot-mcq-17",
-        "hot-mcq-16",
-        "hot-mcq-18",
-        "hot-mcq-15",
-        "hot-mcq-19",
-        "hot-mcq-14"
+        "hot-mcq-05",
+        "hot-mcq-13",
+        "hot-mcq-19"
       ],
       "explanation": "本句的「hot」指「已非常接近正確答案或目標」。",
       "sentenceIndex": 34,
@@ -1680,12 +1550,10 @@ export default {
         "hot"
       ],
       "optionReasons": {
-        "hot-mcq-17": "本句指「已非常接近正確答案或目標」。",
-        "hot-mcq-16": "「容易引起警方／當局注意、風險很高的」與本句語境不同。",
-        "hot-mcq-18": "「正緊追某人的行蹤，接近追上／找到」與本句語境不同。",
-        "hot-mcq-15": "「偷來並非法轉售的贓物」與本句語境不同。",
-        "hot-mcq-19": "「很有可能帶來突破的重要線索」與本句語境不同。",
-        "hot-mcq-14": "「非正式：偷來、屬於贓物的」與本句語境不同。"
+        "hot-mcq-17": "本句的「hot」指「已非常接近正確答案或目標」。",
+        "hot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-17"
     },
@@ -1697,11 +1565,9 @@ export default {
       "masked": "You’re getting ____.",
       "options": [
         "hot-mcq-17",
-        "hot-mcq-16",
-        "hot-mcq-18",
-        "hot-mcq-15",
-        "hot-mcq-19",
-        "hot-mcq-14"
+        "hot-mcq-20",
+        "hot-mcq-05",
+        "hot-mcq-22"
       ],
       "explanation": "本句的「hotter」指「已非常接近正確答案或目標」。",
       "sentenceIndex": 35,
@@ -1710,12 +1576,10 @@ export default {
         "hotter"
       ],
       "optionReasons": {
-        "hot-mcq-17": "本句指「已非常接近正確答案或目標」。",
-        "hot-mcq-16": "「容易引起警方／當局注意、風險很高的」與本句語境不同。",
-        "hot-mcq-18": "「正緊追某人的行蹤，接近追上／找到」與本句語境不同。",
-        "hot-mcq-15": "「偷來並非法轉售的贓物」與本句語境不同。",
-        "hot-mcq-19": "「很有可能帶來突破的重要線索」與本句語境不同。",
-        "hot-mcq-14": "「非正式：偷來、屬於贓物的」與本句語境不同。"
+        "hot-mcq-17": "本句的「hotter」指「已非常接近正確答案或目標」。",
+        "hot-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-17"
     },
@@ -1727,11 +1591,9 @@ export default {
       "masked": "The police were ____.",
       "options": [
         "hot-mcq-18",
-        "hot-mcq-17",
+        "hot-mcq-28",
         "hot-mcq-19",
-        "hot-mcq-16",
-        "hot-mcq-20",
-        "hot-mcq-15"
+        "hot-mcq-22"
       ],
       "explanation": "本句的「hot on his trail」指「正緊追某人的行蹤，接近追上／找到」。",
       "sentenceIndex": 36,
@@ -1740,12 +1602,10 @@ export default {
         "hot on his trail"
       ],
       "optionReasons": {
-        "hot-mcq-18": "本句指「正緊追某人的行蹤，接近追上／找到」。",
-        "hot-mcq-17": "「已非常接近正確答案或目標」與本句語境不同。",
-        "hot-mcq-19": "「很有可能帶來突破的重要線索」與本句語境不同。",
-        "hot-mcq-16": "「容易引起警方／當局注意、風險很高的」與本句語境不同。",
-        "hot-mcq-20": "「剛剛出版／公布；最新出爐的」與本句語境不同。",
-        "hot-mcq-15": "「偷來並非法轉售的贓物」與本句語境不同。"
+        "hot-mcq-18": "本句的「hot on his trail」指「正緊追某人的行蹤，接近追上／找到」。",
+        "hot-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-18"
     },
@@ -1757,11 +1617,9 @@ export default {
       "masked": "Reporters were ____ of the story.",
       "options": [
         "hot-mcq-18",
-        "hot-mcq-17",
-        "hot-mcq-19",
-        "hot-mcq-16",
-        "hot-mcq-20",
-        "hot-mcq-15"
+        "hot-mcq-02",
+        "hot-mcq-25",
+        "hot-mcq-20"
       ],
       "explanation": "本句的「hot on the trail」指「正緊追某人的行蹤，接近追上／找到」。",
       "sentenceIndex": 37,
@@ -1770,12 +1628,10 @@ export default {
         "hot on the trail"
       ],
       "optionReasons": {
-        "hot-mcq-18": "本句指「正緊追某人的行蹤，接近追上／找到」。",
-        "hot-mcq-17": "「已非常接近正確答案或目標」與本句語境不同。",
-        "hot-mcq-19": "「很有可能帶來突破的重要線索」與本句語境不同。",
-        "hot-mcq-16": "「容易引起警方／當局注意、風險很高的」與本句語境不同。",
-        "hot-mcq-20": "「剛剛出版／公布；最新出爐的」與本句語境不同。",
-        "hot-mcq-15": "「偷來並非法轉售的贓物」與本句語境不同。"
+        "hot-mcq-18": "本句的「hot on the trail」指「正緊追某人的行蹤，接近追上／找到」。",
+        "hot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-18"
     },
@@ -1787,11 +1643,9 @@ export default {
       "masked": "Detectives received a ____.",
       "options": [
         "hot-mcq-19",
-        "hot-mcq-18",
-        "hot-mcq-20",
-        "hot-mcq-17",
-        "hot-mcq-21",
-        "hot-mcq-16"
+        "hot-mcq-03",
+        "hot-mcq-09",
+        "hot-mcq-08"
       ],
       "explanation": "本句的「hot lead」指「很有可能帶來突破的重要線索」。",
       "sentenceIndex": 38,
@@ -1800,12 +1654,10 @@ export default {
         "hot lead"
       ],
       "optionReasons": {
-        "hot-mcq-19": "本句指「很有可能帶來突破的重要線索」。",
-        "hot-mcq-18": "「正緊追某人的行蹤，接近追上／找到」與本句語境不同。",
-        "hot-mcq-20": "「剛剛出版／公布；最新出爐的」與本句語境不同。",
-        "hot-mcq-17": "「已非常接近正確答案或目標」與本句語境不同。",
-        "hot-mcq-21": "「非正式：目前表現非常出色、狀態火熱的」與本句語境不同。",
-        "hot-mcq-16": "「容易引起警方／當局注意、風險很高的」與本句語境不同。"
+        "hot-mcq-19": "本句的「hot lead」指「很有可能帶來突破的重要線索」。",
+        "hot-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-19"
     },
@@ -1817,11 +1669,9 @@ export default {
       "masked": "The investigation finally produced a ____.",
       "options": [
         "hot-mcq-19",
-        "hot-mcq-18",
         "hot-mcq-20",
-        "hot-mcq-17",
-        "hot-mcq-21",
-        "hot-mcq-16"
+        "hot-mcq-33",
+        "hot-mcq-24"
       ],
       "explanation": "本句的「hot lead」指「很有可能帶來突破的重要線索」。",
       "sentenceIndex": 39,
@@ -1830,12 +1680,10 @@ export default {
         "hot lead"
       ],
       "optionReasons": {
-        "hot-mcq-19": "本句指「很有可能帶來突破的重要線索」。",
-        "hot-mcq-18": "「正緊追某人的行蹤，接近追上／找到」與本句語境不同。",
-        "hot-mcq-20": "「剛剛出版／公布；最新出爐的」與本句語境不同。",
-        "hot-mcq-17": "「已非常接近正確答案或目標」與本句語境不同。",
-        "hot-mcq-21": "「非正式：目前表現非常出色、狀態火熱的」與本句語境不同。",
-        "hot-mcq-16": "「容易引起警方／當局注意、風險很高的」與本句語境不同。"
+        "hot-mcq-19": "本句的「hot lead」指「很有可能帶來突破的重要線索」。",
+        "hot-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-19"
     },
@@ -1847,11 +1695,9 @@ export default {
       "masked": "Here is the report, ____.",
       "options": [
         "hot-mcq-20",
-        "hot-mcq-19",
-        "hot-mcq-21",
-        "hot-mcq-18",
-        "hot-mcq-22",
-        "hot-mcq-17"
+        "hot-mcq-23",
+        "hot-mcq-28",
+        "hot-mcq-02"
       ],
       "explanation": "本句的「hot off the press」指「剛剛出版／公布；最新出爐的」。",
       "sentenceIndex": 40,
@@ -1860,12 +1706,10 @@ export default {
         "hot off the press"
       ],
       "optionReasons": {
-        "hot-mcq-20": "本句指「剛剛出版／公布；最新出爐的」。",
-        "hot-mcq-19": "「很有可能帶來突破的重要線索」與本句語境不同。",
-        "hot-mcq-21": "「非正式：目前表現非常出色、狀態火熱的」與本句語境不同。",
-        "hot-mcq-18": "「正緊追某人的行蹤，接近追上／找到」與本句語境不同。",
-        "hot-mcq-22": "「一段連續成功／表現出色的時期」與本句語境不同。",
-        "hot-mcq-17": "「已非常接近正確答案或目標」與本句語境不同。"
+        "hot-mcq-20": "本句的「hot off the press」指「剛剛出版／公布；最新出爐的」。",
+        "hot-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-20"
     },
@@ -1877,11 +1721,9 @@ export default {
       "masked": "The news is ____.",
       "options": [
         "hot-mcq-20",
-        "hot-mcq-19",
-        "hot-mcq-21",
-        "hot-mcq-18",
-        "hot-mcq-22",
-        "hot-mcq-17"
+        "hot-mcq-08",
+        "hot-mcq-24",
+        "hot-mcq-23"
       ],
       "explanation": "本句的「hot off the press」指「剛剛出版／公布；最新出爐的」。",
       "sentenceIndex": 41,
@@ -1890,12 +1732,10 @@ export default {
         "hot off the press"
       ],
       "optionReasons": {
-        "hot-mcq-20": "本句指「剛剛出版／公布；最新出爐的」。",
-        "hot-mcq-19": "「很有可能帶來突破的重要線索」與本句語境不同。",
-        "hot-mcq-21": "「非正式：目前表現非常出色、狀態火熱的」與本句語境不同。",
-        "hot-mcq-18": "「正緊追某人的行蹤，接近追上／找到」與本句語境不同。",
-        "hot-mcq-22": "「一段連續成功／表現出色的時期」與本句語境不同。",
-        "hot-mcq-17": "「已非常接近正確答案或目標」與本句語境不同。"
+        "hot-mcq-20": "本句的「hot off the press」指「剛剛出版／公布；最新出爐的」。",
+        "hot-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-20"
     },
@@ -1907,11 +1747,9 @@ export default {
       "masked": "The player has been ____ all week.",
       "options": [
         "hot-mcq-21",
-        "hot-mcq-20",
-        "hot-mcq-22",
-        "hot-mcq-19",
-        "hot-mcq-23",
-        "hot-mcq-18"
+        "hot-mcq-26",
+        "hot-mcq-28",
+        "hot-mcq-16"
       ],
       "explanation": "本句的「hot」指「非正式：目前表現非常出色、狀態火熱的」。",
       "sentenceIndex": 42,
@@ -1920,12 +1758,10 @@ export default {
         "hot"
       ],
       "optionReasons": {
-        "hot-mcq-21": "本句指「非正式：目前表現非常出色、狀態火熱的」。",
-        "hot-mcq-20": "「剛剛出版／公布；最新出爐的」與本句語境不同。",
-        "hot-mcq-22": "「一段連續成功／表現出色的時期」與本句語境不同。",
-        "hot-mcq-19": "「很有可能帶來突破的重要線索」與本句語境不同。",
-        "hot-mcq-23": "「提供直接、即時協助或聯絡的熱線／專線」與本句語境不同。",
-        "hot-mcq-18": "「正緊追某人的行蹤，接近追上／找到」與本句語境不同。"
+        "hot-mcq-21": "本句的「hot」指「非正式：目前表現非常出色、狀態火熱的」。",
+        "hot-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-21"
     },
@@ -1937,11 +1773,9 @@ export default {
       "masked": "The team is ____ right now.",
       "options": [
         "hot-mcq-21",
-        "hot-mcq-20",
-        "hot-mcq-22",
-        "hot-mcq-19",
-        "hot-mcq-23",
-        "hot-mcq-18"
+        "hot-mcq-25",
+        "hot-mcq-24",
+        "hot-mcq-12"
       ],
       "explanation": "本句的「hot」指「非正式：目前表現非常出色、狀態火熱的」。",
       "sentenceIndex": 43,
@@ -1950,12 +1784,10 @@ export default {
         "hot"
       ],
       "optionReasons": {
-        "hot-mcq-21": "本句指「非正式：目前表現非常出色、狀態火熱的」。",
-        "hot-mcq-20": "「剛剛出版／公布；最新出爐的」與本句語境不同。",
-        "hot-mcq-22": "「一段連續成功／表現出色的時期」與本句語境不同。",
-        "hot-mcq-19": "「很有可能帶來突破的重要線索」與本句語境不同。",
-        "hot-mcq-23": "「提供直接、即時協助或聯絡的熱線／專線」與本句語境不同。",
-        "hot-mcq-18": "「正緊追某人的行蹤，接近追上／找到」與本句語境不同。"
+        "hot-mcq-21": "本句的「hot」指「非正式：目前表現非常出色、狀態火熱的」。",
+        "hot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-21"
     },
@@ -1967,11 +1799,9 @@ export default {
       "masked": "The team is on a ____.",
       "options": [
         "hot-mcq-22",
-        "hot-mcq-21",
-        "hot-mcq-23",
-        "hot-mcq-20",
-        "hot-mcq-24",
-        "hot-mcq-19"
+        "hot-mcq-18",
+        "hot-mcq-26",
+        "hot-mcq-28"
       ],
       "explanation": "本句的「hot streak」指「一段連續成功／表現出色的時期」。",
       "sentenceIndex": 44,
@@ -1980,12 +1810,10 @@ export default {
         "hot streak"
       ],
       "optionReasons": {
-        "hot-mcq-22": "本句指「一段連續成功／表現出色的時期」。",
-        "hot-mcq-21": "「非正式：目前表現非常出色、狀態火熱的」與本句語境不同。",
-        "hot-mcq-23": "「提供直接、即時協助或聯絡的熱線／專線」與本句語境不同。",
-        "hot-mcq-20": "「剛剛出版／公布；最新出爐的」與本句語境不同。",
-        "hot-mcq-24": "「面對強大壓力、批評或盤問的位置」與本句語境不同。",
-        "hot-mcq-19": "「很有可能帶來突破的重要線索」與本句語境不同。"
+        "hot-mcq-22": "本句的「hot streak」指「一段連續成功／表現出色的時期」。",
+        "hot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-22"
     },
@@ -1997,11 +1825,9 @@ export default {
       "masked": "She continued her ____ with another win.",
       "options": [
         "hot-mcq-22",
-        "hot-mcq-21",
-        "hot-mcq-23",
-        "hot-mcq-20",
-        "hot-mcq-24",
-        "hot-mcq-19"
+        "hot-mcq-13",
+        "hot-mcq-18",
+        "hot-mcq-02"
       ],
       "explanation": "本句的「hot streak」指「一段連續成功／表現出色的時期」。",
       "sentenceIndex": 45,
@@ -2010,12 +1836,10 @@ export default {
         "hot streak"
       ],
       "optionReasons": {
-        "hot-mcq-22": "本句指「一段連續成功／表現出色的時期」。",
-        "hot-mcq-21": "「非正式：目前表現非常出色、狀態火熱的」與本句語境不同。",
-        "hot-mcq-23": "「提供直接、即時協助或聯絡的熱線／專線」與本句語境不同。",
-        "hot-mcq-20": "「剛剛出版／公布；最新出爐的」與本句語境不同。",
-        "hot-mcq-24": "「面對強大壓力、批評或盤問的位置」與本句語境不同。",
-        "hot-mcq-19": "「很有可能帶來突破的重要線索」與本句語境不同。"
+        "hot-mcq-22": "本句的「hot streak」指「一段連續成功／表現出色的時期」。",
+        "hot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-22"
     },
@@ -2027,11 +1851,9 @@ export default {
       "masked": "Call the emergency ____.",
       "options": [
         "hot-mcq-23",
-        "hot-mcq-22",
         "hot-mcq-24",
-        "hot-mcq-21",
-        "hot-mcq-25",
-        "hot-mcq-20"
+        "hot-mcq-14",
+        "hot-mcq-10"
       ],
       "explanation": "本句的「hotline」指「提供直接、即時協助或聯絡的熱線／專線」。",
       "sentenceIndex": 46,
@@ -2040,12 +1862,10 @@ export default {
         "hotline"
       ],
       "optionReasons": {
-        "hot-mcq-23": "本句指「提供直接、即時協助或聯絡的熱線／專線」。",
-        "hot-mcq-22": "「一段連續成功／表現出色的時期」與本句語境不同。",
-        "hot-mcq-24": "「面對強大壓力、批評或盤問的位置」與本句語境不同。",
-        "hot-mcq-21": "「非正式：目前表現非常出色、狀態火熱的」與本句語境不同。",
-        "hot-mcq-25": "「陷入麻煩／受到責備」與本句語境不同。",
-        "hot-mcq-20": "「剛剛出版／公布；最新出爐的」與本句語境不同。"
+        "hot-mcq-23": "本句的「hotline」指「提供直接、即時協助或聯絡的熱線／專線」。",
+        "hot-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-23"
     },
@@ -2057,11 +1877,9 @@ export default {
       "masked": "The company operates a customer ____.",
       "options": [
         "hot-mcq-23",
-        "hot-mcq-22",
-        "hot-mcq-24",
-        "hot-mcq-21",
-        "hot-mcq-25",
-        "hot-mcq-20"
+        "hot-mcq-28",
+        "hot-mcq-09",
+        "hot-mcq-11"
       ],
       "explanation": "本句的「hotline」指「提供直接、即時協助或聯絡的熱線／專線」。",
       "sentenceIndex": 47,
@@ -2070,12 +1888,10 @@ export default {
         "hotline"
       ],
       "optionReasons": {
-        "hot-mcq-23": "本句指「提供直接、即時協助或聯絡的熱線／專線」。",
-        "hot-mcq-22": "「一段連續成功／表現出色的時期」與本句語境不同。",
-        "hot-mcq-24": "「面對強大壓力、批評或盤問的位置」與本句語境不同。",
-        "hot-mcq-21": "「非正式：目前表現非常出色、狀態火熱的」與本句語境不同。",
-        "hot-mcq-25": "「陷入麻煩／受到責備」與本句語境不同。",
-        "hot-mcq-20": "「剛剛出版／公布；最新出爐的」與本句語境不同。"
+        "hot-mcq-23": "本句的「hotline」指「提供直接、即時協助或聯絡的熱線／專線」。",
+        "hot-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-23"
     },
@@ -2088,9 +1904,7 @@ export default {
       "options": [
         "hot-mcq-24",
         "hot-mcq-23",
-        "hot-mcq-25",
-        "hot-mcq-22",
-        "hot-mcq-26",
+        "hot-mcq-05",
         "hot-mcq-21"
       ],
       "explanation": "本句的「hot seat」指「面對強大壓力、批評或盤問的位置」。",
@@ -2100,12 +1914,10 @@ export default {
         "hot seat"
       ],
       "optionReasons": {
-        "hot-mcq-24": "本句指「面對強大壓力、批評或盤問的位置」。",
-        "hot-mcq-23": "「提供直接、即時協助或聯絡的熱線／專線」與本句語境不同。",
-        "hot-mcq-25": "「陷入麻煩／受到責備」與本句語境不同。",
-        "hot-mcq-22": "「一段連續成功／表現出色的時期」與本句語境不同。",
-        "hot-mcq-26": "「難以處理、富爭議而沒人想接手的燙手山芋」與本句語境不同。",
-        "hot-mcq-21": "「非正式：目前表現非常出色、狀態火熱的」與本句語境不同。"
+        "hot-mcq-24": "本句的「hot seat」指「面對強大壓力、批評或盤問的位置」。",
+        "hot-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-24"
     },
@@ -2118,10 +1930,8 @@ export default {
       "options": [
         "hot-mcq-24",
         "hot-mcq-23",
-        "hot-mcq-25",
-        "hot-mcq-22",
-        "hot-mcq-26",
-        "hot-mcq-21"
+        "hot-mcq-21",
+        "hot-mcq-13"
       ],
       "explanation": "本句的「hot seat」指「面對強大壓力、批評或盤問的位置」。",
       "sentenceIndex": 49,
@@ -2130,12 +1940,10 @@ export default {
         "hot seat"
       ],
       "optionReasons": {
-        "hot-mcq-24": "本句指「面對強大壓力、批評或盤問的位置」。",
-        "hot-mcq-23": "「提供直接、即時協助或聯絡的熱線／專線」與本句語境不同。",
-        "hot-mcq-25": "「陷入麻煩／受到責備」與本句語境不同。",
-        "hot-mcq-22": "「一段連續成功／表現出色的時期」與本句語境不同。",
-        "hot-mcq-26": "「難以處理、富爭議而沒人想接手的燙手山芋」與本句語境不同。",
-        "hot-mcq-21": "「非正式：目前表現非常出色、狀態火熱的」與本句語境不同。"
+        "hot-mcq-24": "本句的「hot seat」指「面對強大壓力、批評或盤問的位置」。",
+        "hot-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-24"
     },
@@ -2147,11 +1955,9 @@ export default {
       "masked": "He is ____ with his boss.",
       "options": [
         "hot-mcq-25",
+        "hot-mcq-14",
         "hot-mcq-24",
-        "hot-mcq-26",
-        "hot-mcq-23",
-        "hot-mcq-27",
-        "hot-mcq-22"
+        "hot-mcq-05"
       ],
       "explanation": "本句的「in hot water」指「陷入麻煩／受到責備」。",
       "sentenceIndex": 50,
@@ -2160,12 +1966,10 @@ export default {
         "in hot water"
       ],
       "optionReasons": {
-        "hot-mcq-25": "本句指「陷入麻煩／受到責備」。",
-        "hot-mcq-24": "「面對強大壓力、批評或盤問的位置」與本句語境不同。",
-        "hot-mcq-26": "「難以處理、富爭議而沒人想接手的燙手山芋」與本句語境不同。",
-        "hot-mcq-23": "「提供直接、即時協助或聯絡的熱線／專線」與本句語境不同。",
-        "hot-mcq-27": "「趁時機最好時立即行動；趁熱打鐵」與本句語境不同。",
-        "hot-mcq-22": "「一段連續成功／表現出色的時期」與本句語境不同。"
+        "hot-mcq-25": "本句的「in hot water」指「陷入麻煩／受到責備」。",
+        "hot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-25"
     },
@@ -2177,11 +1981,9 @@ export default {
       "masked": "The mistake landed the company ____.",
       "options": [
         "hot-mcq-25",
-        "hot-mcq-24",
-        "hot-mcq-26",
-        "hot-mcq-23",
-        "hot-mcq-27",
-        "hot-mcq-22"
+        "hot-mcq-21",
+        "hot-mcq-19",
+        "hot-mcq-20"
       ],
       "explanation": "本句的「in hot water」指「陷入麻煩／受到責備」。",
       "sentenceIndex": 51,
@@ -2190,12 +1992,10 @@ export default {
         "in hot water"
       ],
       "optionReasons": {
-        "hot-mcq-25": "本句指「陷入麻煩／受到責備」。",
-        "hot-mcq-24": "「面對強大壓力、批評或盤問的位置」與本句語境不同。",
-        "hot-mcq-26": "「難以處理、富爭議而沒人想接手的燙手山芋」與本句語境不同。",
-        "hot-mcq-23": "「提供直接、即時協助或聯絡的熱線／專線」與本句語境不同。",
-        "hot-mcq-27": "「趁時機最好時立即行動；趁熱打鐵」與本句語境不同。",
-        "hot-mcq-22": "「一段連續成功／表現出色的時期」與本句語境不同。"
+        "hot-mcq-25": "本句的「in hot water」指「陷入麻煩／受到責備」。",
+        "hot-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-25"
     },
@@ -2207,11 +2007,9 @@ export default {
       "masked": "The issue became a political ____.",
       "options": [
         "hot-mcq-26",
-        "hot-mcq-25",
-        "hot-mcq-27",
-        "hot-mcq-24",
-        "hot-mcq-28",
-        "hot-mcq-23"
+        "hot-mcq-20",
+        "hot-mcq-33",
+        "hot-mcq-24"
       ],
       "explanation": "本句的「hot potato」指「難以處理、富爭議而沒人想接手的燙手山芋」。",
       "sentenceIndex": 52,
@@ -2220,12 +2018,10 @@ export default {
         "hot potato"
       ],
       "optionReasons": {
-        "hot-mcq-26": "本句指「難以處理、富爭議而沒人想接手的燙手山芋」。",
-        "hot-mcq-25": "「陷入麻煩／受到責備」與本句語境不同。",
-        "hot-mcq-27": "「趁時機最好時立即行動；趁熱打鐵」與本句語境不同。",
-        "hot-mcq-24": "「面對強大壓力、批評或盤問的位置」與本句語境不同。",
-        "hot-mcq-28": "「因憤怒、激動或尷尬而情緒升高」與本句語境不同。",
-        "hot-mcq-23": "「提供直接、即時協助或聯絡的熱線／專線」與本句語境不同。"
+        "hot-mcq-26": "本句的「hot potato」指「難以處理、富爭議而沒人想接手的燙手山芋」。",
+        "hot-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-26"
     },
@@ -2237,11 +2033,9 @@ export default {
       "masked": "Housing is a ____ for local officials.",
       "options": [
         "hot-mcq-26",
-        "hot-mcq-25",
-        "hot-mcq-27",
-        "hot-mcq-24",
-        "hot-mcq-28",
-        "hot-mcq-23"
+        "hot-mcq-15",
+        "hot-mcq-03",
+        "hot-mcq-10"
       ],
       "explanation": "本句的「hot potato」指「難以處理、富爭議而沒人想接手的燙手山芋」。",
       "sentenceIndex": 53,
@@ -2250,12 +2044,10 @@ export default {
         "hot potato"
       ],
       "optionReasons": {
-        "hot-mcq-26": "本句指「難以處理、富爭議而沒人想接手的燙手山芋」。",
-        "hot-mcq-25": "「陷入麻煩／受到責備」與本句語境不同。",
-        "hot-mcq-27": "「趁時機最好時立即行動；趁熱打鐵」與本句語境不同。",
-        "hot-mcq-24": "「面對強大壓力、批評或盤問的位置」與本句語境不同。",
-        "hot-mcq-28": "「因憤怒、激動或尷尬而情緒升高」與本句語境不同。",
-        "hot-mcq-23": "「提供直接、即時協助或聯絡的熱線／專線」與本句語境不同。"
+        "hot-mcq-26": "本句的「hot potato」指「難以處理、富爭議而沒人想接手的燙手山芋」。",
+        "hot-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-26"
     },
@@ -2267,11 +2059,9 @@ export default {
       "masked": "Interest is high, so we should ____.",
       "options": [
         "hot-mcq-27",
-        "hot-mcq-26",
-        "hot-mcq-28",
+        "hot-mcq-17",
         "hot-mcq-25",
-        "hot-mcq-29",
-        "hot-mcq-24"
+        "hot-mcq-13"
       ],
       "explanation": "本句的「strike while the iron is hot」指「趁時機最好時立即行動；趁熱打鐵」。",
       "sentenceIndex": 54,
@@ -2280,12 +2070,10 @@ export default {
         "strike while the iron is hot"
       ],
       "optionReasons": {
-        "hot-mcq-27": "本句指「趁時機最好時立即行動；趁熱打鐵」。",
-        "hot-mcq-26": "「難以處理、富爭議而沒人想接手的燙手山芋」與本句語境不同。",
-        "hot-mcq-28": "「因憤怒、激動或尷尬而情緒升高」與本句語境不同。",
-        "hot-mcq-25": "「陷入麻煩／受到責備」與本句語境不同。",
-        "hot-mcq-29": "「熱量／高溫」與本句語境不同。",
-        "hot-mcq-24": "「面對強大壓力、批評或盤問的位置」與本句語境不同。"
+        "hot-mcq-27": "本句的「strike while the iron is hot」指「趁時機最好時立即行動；趁熱打鐵」。",
+        "hot-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-27"
     },
@@ -2297,11 +2085,9 @@ export default {
       "masked": "She decided to apply immediately and ____.",
       "options": [
         "hot-mcq-27",
-        "hot-mcq-26",
-        "hot-mcq-28",
-        "hot-mcq-25",
-        "hot-mcq-29",
-        "hot-mcq-24"
+        "hot-mcq-17",
+        "hot-mcq-13",
+        "hot-mcq-11"
       ],
       "explanation": "本句的「strike while the iron was hot」指「趁時機最好時立即行動；趁熱打鐵」。",
       "sentenceIndex": 55,
@@ -2310,12 +2096,10 @@ export default {
         "strike while the iron was hot"
       ],
       "optionReasons": {
-        "hot-mcq-27": "本句指「趁時機最好時立即行動；趁熱打鐵」。",
-        "hot-mcq-26": "「難以處理、富爭議而沒人想接手的燙手山芋」與本句語境不同。",
-        "hot-mcq-28": "「因憤怒、激動或尷尬而情緒升高」與本句語境不同。",
-        "hot-mcq-25": "「陷入麻煩／受到責備」與本句語境不同。",
-        "hot-mcq-29": "「熱量／高溫」與本句語境不同。",
-        "hot-mcq-24": "「面對強大壓力、批評或盤問的位置」與本句語境不同。"
+        "hot-mcq-27": "本句的「strike while the iron was hot」指「趁時機最好時立即行動；趁熱打鐵」。",
+        "hot-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-27"
     },
@@ -2327,11 +2111,9 @@ export default {
       "masked": "He got ____ when questioned.",
       "options": [
         "hot-mcq-28",
-        "hot-mcq-27",
-        "hot-mcq-29",
-        "hot-mcq-26",
-        "hot-mcq-30",
-        "hot-mcq-25"
+        "hot-mcq-06",
+        "hot-mcq-08",
+        "hot-mcq-15"
       ],
       "explanation": "本句的「hot under the collar」指「因憤怒、激動或尷尬而情緒升高」。",
       "sentenceIndex": 56,
@@ -2340,12 +2122,10 @@ export default {
         "hot under the collar"
       ],
       "optionReasons": {
-        "hot-mcq-28": "本句指「因憤怒、激動或尷尬而情緒升高」。",
-        "hot-mcq-27": "「趁時機最好時立即行動；趁熱打鐵」與本句語境不同。",
-        "hot-mcq-29": "「熱量／高溫」與本句語境不同。",
-        "hot-mcq-26": "「難以處理、富爭議而沒人想接手的燙手山芋」與本句語境不同。",
-        "hot-mcq-30": "「非正式：壓力或激烈程度」與本句語境不同。",
-        "hot-mcq-25": "「陷入麻煩／受到責備」與本句語境不同。"
+        "hot-mcq-28": "本句的「hot under the collar」指「因憤怒、激動或尷尬而情緒升高」。",
+        "hot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-28"
     },
@@ -2357,11 +2137,9 @@ export default {
       "masked": "There’s no need to get ____.",
       "options": [
         "hot-mcq-28",
-        "hot-mcq-27",
-        "hot-mcq-29",
-        "hot-mcq-26",
-        "hot-mcq-30",
-        "hot-mcq-25"
+        "hot-mcq-33",
+        "hot-mcq-24",
+        "hot-mcq-11"
       ],
       "explanation": "本句的「hot under the collar」指「因憤怒、激動或尷尬而情緒升高」。",
       "sentenceIndex": 57,
@@ -2370,12 +2148,10 @@ export default {
         "hot under the collar"
       ],
       "optionReasons": {
-        "hot-mcq-28": "本句指「因憤怒、激動或尷尬而情緒升高」。",
-        "hot-mcq-27": "「趁時機最好時立即行動；趁熱打鐵」與本句語境不同。",
-        "hot-mcq-29": "「熱量／高溫」與本句語境不同。",
-        "hot-mcq-26": "「難以處理、富爭議而沒人想接手的燙手山芋」與本句語境不同。",
-        "hot-mcq-30": "「非正式：壓力或激烈程度」與本句語境不同。",
-        "hot-mcq-25": "「陷入麻煩／受到責備」與本句語境不同。"
+        "hot-mcq-28": "本句的「hot under the collar」指「因憤怒、激動或尷尬而情緒升高」。",
+        "hot-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-28"
     },
@@ -2387,11 +2163,9 @@ export default {
       "masked": "____ the oven first.",
       "options": [
         "hot-mcq-31",
-        "hot-mcq-30",
-        "hot-mcq-32",
-        "hot-mcq-29",
-        "hot-mcq-33",
-        "hot-mcq-28"
+        "hot-mcq-16",
+        "hot-mcq-09",
+        "hot-mcq-24"
       ],
       "explanation": "本句的「Heat」指「把某物加熱」。",
       "sentenceIndex": 58,
@@ -2400,12 +2174,10 @@ export default {
         "Heat"
       ],
       "optionReasons": {
-        "hot-mcq-31": "本句指「把某物加熱」。",
-        "hot-mcq-30": "「非正式：壓力或激烈程度」與本句語境不同。",
-        "hot-mcq-32": "「爭論等非常激烈、情緒化的」與本句語境不同。",
-        "hot-mcq-29": "「熱量／高溫」與本句語境不同。",
-        "hot-mcq-33": "「變得／使變得過熱」與本句語境不同。",
-        "hot-mcq-28": "「因憤怒、激動或尷尬而情緒升高」與本句語境不同。"
+        "hot-mcq-31": "本句的「Heat」指「把某物加熱」。",
+        "hot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-31"
     },
@@ -2417,11 +2189,9 @@ export default {
       "masked": "The water was ____ slowly.",
       "options": [
         "hot-mcq-31",
-        "hot-mcq-30",
-        "hot-mcq-32",
-        "hot-mcq-29",
-        "hot-mcq-33",
-        "hot-mcq-28"
+        "hot-mcq-09",
+        "hot-mcq-25",
+        "hot-mcq-15"
       ],
       "explanation": "本句的「heated」指「把某物加熱」。",
       "sentenceIndex": 59,
@@ -2430,12 +2200,10 @@ export default {
         "heated"
       ],
       "optionReasons": {
-        "hot-mcq-31": "本句指「把某物加熱」。",
-        "hot-mcq-30": "「非正式：壓力或激烈程度」與本句語境不同。",
-        "hot-mcq-32": "「爭論等非常激烈、情緒化的」與本句語境不同。",
-        "hot-mcq-29": "「熱量／高溫」與本句語境不同。",
-        "hot-mcq-33": "「變得／使變得過熱」與本句語境不同。",
-        "hot-mcq-28": "「因憤怒、激動或尷尬而情緒升高」與本句語境不同。"
+        "hot-mcq-31": "本句的「heated」指「把某物加熱」。",
+        "hot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-31"
     },
@@ -2447,11 +2215,9 @@ export default {
       "masked": "The engine began to ____.",
       "options": [
         "hot-mcq-33",
-        "hot-mcq-32",
-        "hot-mcq-31",
-        "hot-mcq-30",
-        "hot-mcq-29",
-        "hot-mcq-28"
+        "hot-mcq-16",
+        "hot-mcq-17",
+        "hot-mcq-08"
       ],
       "explanation": "本句的「overheat」指「變得／使變得過熱」。",
       "sentenceIndex": 60,
@@ -2460,12 +2226,10 @@ export default {
         "overheat"
       ],
       "optionReasons": {
-        "hot-mcq-33": "本句指「變得／使變得過熱」。",
-        "hot-mcq-32": "「爭論等非常激烈、情緒化的」與本句語境不同。",
-        "hot-mcq-31": "「把某物加熱」與本句語境不同。",
-        "hot-mcq-30": "「非正式：壓力或激烈程度」與本句語境不同。",
-        "hot-mcq-29": "「熱量／高溫」與本句語境不同。",
-        "hot-mcq-28": "「因憤怒、激動或尷尬而情緒升高」與本句語境不同。"
+        "hot-mcq-33": "本句的「overheat」指「變得／使變得過熱」。",
+        "hot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-33"
     },
@@ -2477,10 +2241,8 @@ export default {
       "masked": "Do not let the device ____.",
       "options": [
         "hot-mcq-33",
-        "hot-mcq-32",
-        "hot-mcq-31",
-        "hot-mcq-30",
-        "hot-mcq-29",
+        "hot-mcq-05",
+        "hot-mcq-19",
         "hot-mcq-28"
       ],
       "explanation": "本句的「overheat」指「變得／使變得過熱」。",
@@ -2490,12 +2252,10 @@ export default {
         "overheat"
       ],
       "optionReasons": {
-        "hot-mcq-33": "本句指「變得／使變得過熱」。",
-        "hot-mcq-32": "「爭論等非常激烈、情緒化的」與本句語境不同。",
-        "hot-mcq-31": "「把某物加熱」與本句語境不同。",
-        "hot-mcq-30": "「非正式：壓力或激烈程度」與本句語境不同。",
-        "hot-mcq-29": "「熱量／高溫」與本句語境不同。",
-        "hot-mcq-28": "「因憤怒、激動或尷尬而情緒升高」與本句語境不同。"
+        "hot-mcq-33": "本句的「overheat」指「變得／使變得過熱」。",
+        "hot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hot-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hot-mcq-33"
     }
@@ -2507,5 +2267,7 @@ export default {
     "sha256": "a8b54aeef3ceb3df239aa69ba6f73311dd300075fc18d386c5c37d3d72628bf5",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

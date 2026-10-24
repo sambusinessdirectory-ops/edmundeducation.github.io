@@ -179,10 +179,6 @@ export default {
       "masked": "Children can be remarkably ____ after difficult experiences.",
       "options": [
         "resilient-mcq-01",
-        "resilient-mcq-02",
-        "resilient-mcq-03",
-        "resilient-mcq-04",
-        "resilient-mcq-05",
         "resilient-mcq-06"
       ],
       "explanation": "本句的「resilient」指「遇到壓力、失敗或困難後，仍能調整、恢復並繼續前進的」。",
@@ -192,12 +188,8 @@ export default {
         "resilient"
       ],
       "optionReasons": {
-        "resilient-mcq-01": "本句指「遇到壓力、失敗或困難後，仍能調整、恢復並繼續前進的」。",
-        "resilient-mcq-02": "「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」與本句語境不同。",
-        "resilient-mcq-03": "「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」與本句語境不同。",
-        "resilient-mcq-04": "「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」與本句語境不同。",
-        "resilient-mcq-05": "「承受壓力、受損或變形後恢復的能力；韌性／復原力」與本句語境不同。",
-        "resilient-mcq-06": "「resilience 的變體形式；較低優先度」與本句語境不同。"
+        "resilient-mcq-01": "本句的「resilient」指「遇到壓力、失敗或困難後，仍能調整、恢復並繼續前進的」。",
+        "resilient-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resilient-mcq-01"
     },
@@ -209,10 +201,6 @@ export default {
       "masked": "She remained ____ despite several setbacks.",
       "options": [
         "resilient-mcq-01",
-        "resilient-mcq-02",
-        "resilient-mcq-03",
-        "resilient-mcq-04",
-        "resilient-mcq-05",
         "resilient-mcq-06"
       ],
       "explanation": "本句的「resilient」指「遇到壓力、失敗或困難後，仍能調整、恢復並繼續前進的」。",
@@ -222,12 +210,8 @@ export default {
         "resilient"
       ],
       "optionReasons": {
-        "resilient-mcq-01": "本句指「遇到壓力、失敗或困難後，仍能調整、恢復並繼續前進的」。",
-        "resilient-mcq-02": "「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」與本句語境不同。",
-        "resilient-mcq-03": "「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」與本句語境不同。",
-        "resilient-mcq-04": "「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」與本句語境不同。",
-        "resilient-mcq-05": "「承受壓力、受損或變形後恢復的能力；韌性／復原力」與本句語境不同。",
-        "resilient-mcq-06": "「resilience 的變體形式；較低優先度」與本句語境不同。"
+        "resilient-mcq-01": "本句的「resilient」指「遇到壓力、失敗或困難後，仍能調整、恢復並繼續前進的」。",
+        "resilient-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resilient-mcq-01"
     },
@@ -239,10 +223,6 @@ export default {
       "masked": "Sea turtles are both fragile and ____.",
       "options": [
         "resilient-mcq-02",
-        "resilient-mcq-01",
-        "resilient-mcq-03",
-        "resilient-mcq-04",
-        "resilient-mcq-05",
         "resilient-mcq-06"
       ],
       "explanation": "本句的「resilient」指「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」。",
@@ -252,12 +232,8 @@ export default {
         "resilient"
       ],
       "optionReasons": {
-        "resilient-mcq-02": "本句指「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」。",
-        "resilient-mcq-01": "「遇到壓力、失敗或困難後，仍能調整、恢復並繼續前進的」與本句語境不同。",
-        "resilient-mcq-03": "「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」與本句語境不同。",
-        "resilient-mcq-04": "「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」與本句語境不同。",
-        "resilient-mcq-05": "「承受壓力、受損或變形後恢復的能力；韌性／復原力」與本句語境不同。",
-        "resilient-mcq-06": "「resilience 的變體形式；較低優先度」與本句語境不同。"
+        "resilient-mcq-02": "本句的「resilient」指「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」。",
+        "resilient-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resilient-mcq-02"
     },
@@ -269,10 +245,6 @@ export default {
       "masked": "This plant is surprisingly ____ in dry conditions.",
       "options": [
         "resilient-mcq-02",
-        "resilient-mcq-01",
-        "resilient-mcq-03",
-        "resilient-mcq-04",
-        "resilient-mcq-05",
         "resilient-mcq-06"
       ],
       "explanation": "本句的「resilient」指「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」。",
@@ -282,12 +254,8 @@ export default {
         "resilient"
       ],
       "optionReasons": {
-        "resilient-mcq-02": "本句指「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」。",
-        "resilient-mcq-01": "「遇到壓力、失敗或困難後，仍能調整、恢復並繼續前進的」與本句語境不同。",
-        "resilient-mcq-03": "「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」與本句語境不同。",
-        "resilient-mcq-04": "「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」與本句語境不同。",
-        "resilient-mcq-05": "「承受壓力、受損或變形後恢復的能力；韌性／復原力」與本句語境不同。",
-        "resilient-mcq-06": "「resilience 的變體形式；較低優先度」與本句語境不同。"
+        "resilient-mcq-02": "本句的「resilient」指「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」。",
+        "resilient-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resilient-mcq-02"
     },
@@ -299,10 +267,6 @@ export default {
       "masked": "The species is highly ____ to environmental change.",
       "options": [
         "resilient-mcq-02",
-        "resilient-mcq-01",
-        "resilient-mcq-03",
-        "resilient-mcq-04",
-        "resilient-mcq-05",
         "resilient-mcq-06"
       ],
       "explanation": "本句的「resilient」指「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」。",
@@ -312,12 +276,8 @@ export default {
         "resilient"
       ],
       "optionReasons": {
-        "resilient-mcq-02": "本句指「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」。",
-        "resilient-mcq-01": "「遇到壓力、失敗或困難後，仍能調整、恢復並繼續前進的」與本句語境不同。",
-        "resilient-mcq-03": "「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」與本句語境不同。",
-        "resilient-mcq-04": "「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」與本句語境不同。",
-        "resilient-mcq-05": "「承受壓力、受損或變形後恢復的能力；韌性／復原力」與本句語境不同。",
-        "resilient-mcq-06": "「resilience 的變體形式；較低優先度」與本句語境不同。"
+        "resilient-mcq-02": "本句的「resilient」指「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」。",
+        "resilient-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resilient-mcq-02"
     },
@@ -329,10 +289,6 @@ export default {
       "masked": "Rubber is a highly ____ material.",
       "options": [
         "resilient-mcq-03",
-        "resilient-mcq-02",
-        "resilient-mcq-04",
-        "resilient-mcq-01",
-        "resilient-mcq-05",
         "resilient-mcq-06"
       ],
       "explanation": "本句的「resilient」指「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」。",
@@ -342,12 +298,8 @@ export default {
         "resilient"
       ],
       "optionReasons": {
-        "resilient-mcq-03": "本句指「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」。",
-        "resilient-mcq-02": "「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」與本句語境不同。",
-        "resilient-mcq-04": "「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」與本句語境不同。",
-        "resilient-mcq-01": "「遇到壓力、失敗或困難後，仍能調整、恢復並繼續前進的」與本句語境不同。",
-        "resilient-mcq-05": "「承受壓力、受損或變形後恢復的能力；韌性／復原力」與本句語境不同。",
-        "resilient-mcq-06": "「resilience 的變體形式；較低優先度」與本句語境不同。"
+        "resilient-mcq-03": "本句的「resilient」指「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」。",
+        "resilient-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resilient-mcq-03"
     },
@@ -359,10 +311,6 @@ export default {
       "masked": "The surface is soft but ____.",
       "options": [
         "resilient-mcq-03",
-        "resilient-mcq-02",
-        "resilient-mcq-04",
-        "resilient-mcq-01",
-        "resilient-mcq-05",
         "resilient-mcq-06"
       ],
       "explanation": "本句的「resilient」指「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」。",
@@ -372,12 +320,8 @@ export default {
         "resilient"
       ],
       "optionReasons": {
-        "resilient-mcq-03": "本句指「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」。",
-        "resilient-mcq-02": "「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」與本句語境不同。",
-        "resilient-mcq-04": "「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」與本句語境不同。",
-        "resilient-mcq-01": "「遇到壓力、失敗或困難後，仍能調整、恢復並繼續前進的」與本句語境不同。",
-        "resilient-mcq-05": "「承受壓力、受損或變形後恢復的能力；韌性／復原力」與本句語境不同。",
-        "resilient-mcq-06": "「resilience 的變體形式；較低優先度」與本句語境不同。"
+        "resilient-mcq-03": "本句的「resilient」指「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」。",
+        "resilient-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resilient-mcq-03"
     },
@@ -389,11 +333,7 @@ export default {
       "masked": "The city needs a more ____ transport system.",
       "options": [
         "resilient-mcq-04",
-        "resilient-mcq-03",
-        "resilient-mcq-05",
-        "resilient-mcq-02",
-        "resilient-mcq-06",
-        "resilient-mcq-01"
+        "resilient-mcq-06"
       ],
       "explanation": "本句的「resilient」指「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」。",
       "sentenceIndex": 7,
@@ -402,12 +342,8 @@ export default {
         "resilient"
       ],
       "optionReasons": {
-        "resilient-mcq-04": "本句指「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」。",
-        "resilient-mcq-03": "「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」與本句語境不同。",
-        "resilient-mcq-05": "「承受壓力、受損或變形後恢復的能力；韌性／復原力」與本句語境不同。",
-        "resilient-mcq-02": "「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」與本句語境不同。",
-        "resilient-mcq-06": "「resilience 的變體形式；較低優先度」與本句語境不同。",
-        "resilient-mcq-01": "「遇到壓力、失敗或困難後，仍能調整、恢復並繼續前進的」與本句語境不同。"
+        "resilient-mcq-04": "本句的「resilient」指「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」。",
+        "resilient-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resilient-mcq-04"
     },
@@ -419,11 +355,7 @@ export default {
       "masked": "The company proved ____ during the crisis.",
       "options": [
         "resilient-mcq-04",
-        "resilient-mcq-03",
-        "resilient-mcq-05",
-        "resilient-mcq-02",
-        "resilient-mcq-06",
-        "resilient-mcq-01"
+        "resilient-mcq-06"
       ],
       "explanation": "本句的「resilient」指「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」。",
       "sentenceIndex": 8,
@@ -432,12 +364,8 @@ export default {
         "resilient"
       ],
       "optionReasons": {
-        "resilient-mcq-04": "本句指「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」。",
-        "resilient-mcq-03": "「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」與本句語境不同。",
-        "resilient-mcq-05": "「承受壓力、受損或變形後恢復的能力；韌性／復原力」與本句語境不同。",
-        "resilient-mcq-02": "「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」與本句語境不同。",
-        "resilient-mcq-06": "「resilience 的變體形式；較低優先度」與本句語境不同。",
-        "resilient-mcq-01": "「遇到壓力、失敗或困難後，仍能調整、恢復並繼續前進的」與本句語境不同。"
+        "resilient-mcq-04": "本句的「resilient」指「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」。",
+        "resilient-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resilient-mcq-04"
     },
@@ -449,11 +377,7 @@ export default {
       "masked": "The local economy has remained ____.",
       "options": [
         "resilient-mcq-07",
-        "resilient-mcq-06",
-        "resilient-mcq-05",
-        "resilient-mcq-04",
-        "resilient-mcq-03",
-        "resilient-mcq-02"
+        "resilient-mcq-06"
       ],
       "explanation": "本句的「resilient」指「以有韌性、能恢復的方式；較少見」。",
       "sentenceIndex": 9,
@@ -462,12 +386,8 @@ export default {
         "resilient"
       ],
       "optionReasons": {
-        "resilient-mcq-07": "本句指「以有韌性、能恢復的方式；較少見」。",
-        "resilient-mcq-06": "「resilience 的變體形式；較低優先度」與本句語境不同。",
-        "resilient-mcq-05": "「承受壓力、受損或變形後恢復的能力；韌性／復原力」與本句語境不同。",
-        "resilient-mcq-04": "「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」與本句語境不同。",
-        "resilient-mcq-03": "「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」與本句語境不同。",
-        "resilient-mcq-02": "「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」與本句語境不同。"
+        "resilient-mcq-07": "本句的「resilient」指「以有韌性、能恢復的方式；較少見」。",
+        "resilient-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resilient-mcq-07"
     },
@@ -479,11 +399,7 @@ export default {
       "masked": "Small businesses can be surprisingly ____ during downturns.",
       "options": [
         "resilient-mcq-07",
-        "resilient-mcq-06",
-        "resilient-mcq-05",
-        "resilient-mcq-04",
-        "resilient-mcq-03",
-        "resilient-mcq-02"
+        "resilient-mcq-06"
       ],
       "explanation": "本句的「resilient」指「以有韌性、能恢復的方式；較少見」。",
       "sentenceIndex": 10,
@@ -492,12 +408,8 @@ export default {
         "resilient"
       ],
       "optionReasons": {
-        "resilient-mcq-07": "本句指「以有韌性、能恢復的方式；較少見」。",
-        "resilient-mcq-06": "「resilience 的變體形式；較低優先度」與本句語境不同。",
-        "resilient-mcq-05": "「承受壓力、受損或變形後恢復的能力；韌性／復原力」與本句語境不同。",
-        "resilient-mcq-04": "「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」與本句語境不同。",
-        "resilient-mcq-03": "「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」與本句語境不同。",
-        "resilient-mcq-02": "「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」與本句語境不同。"
+        "resilient-mcq-07": "本句的「resilient」指「以有韌性、能恢復的方式；較少見」。",
+        "resilient-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resilient-mcq-07"
     },
@@ -509,11 +421,7 @@ export default {
       "masked": "The experience strengthened her ____.",
       "options": [
         "resilient-mcq-05",
-        "resilient-mcq-04",
-        "resilient-mcq-06",
-        "resilient-mcq-03",
-        "resilient-mcq-07",
-        "resilient-mcq-02"
+        "resilient-mcq-06"
       ],
       "explanation": "本句的「resilience」指「承受壓力、受損或變形後恢復的能力；韌性／復原力」。",
       "sentenceIndex": 11,
@@ -522,12 +430,8 @@ export default {
         "resilience"
       ],
       "optionReasons": {
-        "resilient-mcq-05": "本句指「承受壓力、受損或變形後恢復的能力；韌性／復原力」。",
-        "resilient-mcq-04": "「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」與本句語境不同。",
-        "resilient-mcq-06": "「resilience 的變體形式；較低優先度」與本句語境不同。",
-        "resilient-mcq-03": "「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」與本句語境不同。",
-        "resilient-mcq-07": "「以有韌性、能恢復的方式；較少見」與本句語境不同。",
-        "resilient-mcq-02": "「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」與本句語境不同。"
+        "resilient-mcq-05": "本句的「resilience」指「承受壓力、受損或變形後恢復的能力；韌性／復原力」。",
+        "resilient-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resilient-mcq-05"
     },
@@ -539,11 +443,7 @@ export default {
       "masked": "The study examines the ____ of coastal ecosystems.",
       "options": [
         "resilient-mcq-05",
-        "resilient-mcq-04",
-        "resilient-mcq-06",
-        "resilient-mcq-03",
-        "resilient-mcq-07",
-        "resilient-mcq-02"
+        "resilient-mcq-06"
       ],
       "explanation": "本句的「resilience」指「承受壓力、受損或變形後恢復的能力；韌性／復原力」。",
       "sentenceIndex": 12,
@@ -552,12 +452,8 @@ export default {
         "resilience"
       ],
       "optionReasons": {
-        "resilient-mcq-05": "本句指「承受壓力、受損或變形後恢復的能力；韌性／復原力」。",
-        "resilient-mcq-04": "「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」與本句語境不同。",
-        "resilient-mcq-06": "「resilience 的變體形式；較低優先度」與本句語境不同。",
-        "resilient-mcq-03": "「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」與本句語境不同。",
-        "resilient-mcq-07": "「以有韌性、能恢復的方式；較少見」與本句語境不同。",
-        "resilient-mcq-02": "「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」與本句語境不同。"
+        "resilient-mcq-05": "本句的「resilience」指「承受壓力、受損或變形後恢復的能力；韌性／復原力」。",
+        "resilient-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resilient-mcq-05"
     },
@@ -569,11 +465,7 @@ export default {
       "masked": "The material has excellent ____.",
       "options": [
         "resilient-mcq-05",
-        "resilient-mcq-04",
-        "resilient-mcq-06",
-        "resilient-mcq-03",
-        "resilient-mcq-07",
-        "resilient-mcq-02"
+        "resilient-mcq-06"
       ],
       "explanation": "本句的「resilience」指「承受壓力、受損或變形後恢復的能力；韌性／復原力」。",
       "sentenceIndex": 13,
@@ -582,12 +474,8 @@ export default {
         "resilience"
       ],
       "optionReasons": {
-        "resilient-mcq-05": "本句指「承受壓力、受損或變形後恢復的能力；韌性／復原力」。",
-        "resilient-mcq-04": "「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」與本句語境不同。",
-        "resilient-mcq-06": "「resilience 的變體形式；較低優先度」與本句語境不同。",
-        "resilient-mcq-03": "「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」與本句語境不同。",
-        "resilient-mcq-07": "「以有韌性、能恢復的方式；較少見」與本句語境不同。",
-        "resilient-mcq-02": "「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」與本句語境不同。"
+        "resilient-mcq-05": "本句的「resilience」指「承受壓力、受損或變形後恢復的能力；韌性／復原力」。",
+        "resilient-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resilient-mcq-05"
     },
@@ -599,10 +487,6 @@ export default {
       "masked": "The project focuses on community ____.",
       "options": [
         "resilient-mcq-06",
-        "resilient-mcq-05",
-        "resilient-mcq-07",
-        "resilient-mcq-04",
-        "resilient-mcq-03",
         "resilient-mcq-02"
       ],
       "explanation": "本句的「resiliency」指「resilience 的變體形式；較低優先度」。",
@@ -612,12 +496,8 @@ export default {
         "resiliency"
       ],
       "optionReasons": {
-        "resilient-mcq-06": "本句指「resilience 的變體形式；較低優先度」。",
-        "resilient-mcq-05": "「承受壓力、受損或變形後恢復的能力；韌性／復原力」與本句語境不同。",
-        "resilient-mcq-07": "「以有韌性、能恢復的方式；較少見」與本句語境不同。",
-        "resilient-mcq-04": "「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」與本句語境不同。",
-        "resilient-mcq-03": "「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」與本句語境不同。",
-        "resilient-mcq-02": "「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」與本句語境不同。"
+        "resilient-mcq-06": "本句的「resiliency」指「resilience 的變體形式；較低優先度」。",
+        "resilient-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resilient-mcq-06"
     },
@@ -629,11 +509,7 @@ export default {
       "masked": "The community responded ____ to the crisis.",
       "options": [
         "resilient-mcq-07",
-        "resilient-mcq-06",
-        "resilient-mcq-05",
-        "resilient-mcq-04",
-        "resilient-mcq-03",
-        "resilient-mcq-02"
+        "resilient-mcq-06"
       ],
       "explanation": "本句的「resiliently」指「以有韌性、能恢復的方式；較少見」。",
       "sentenceIndex": 15,
@@ -642,12 +518,8 @@ export default {
         "resiliently"
       ],
       "optionReasons": {
-        "resilient-mcq-07": "本句指「以有韌性、能恢復的方式；較少見」。",
-        "resilient-mcq-06": "「resilience 的變體形式；較低優先度」與本句語境不同。",
-        "resilient-mcq-05": "「承受壓力、受損或變形後恢復的能力；韌性／復原力」與本句語境不同。",
-        "resilient-mcq-04": "「受到干擾、危機或損害後仍能維持功能或迅速恢復運作的」與本句語境不同。",
-        "resilient-mcq-03": "「受壓、彎曲或變形後能恢復原來形狀的；有回彈力的」與本句語境不同。",
-        "resilient-mcq-02": "「面對惡劣環境、傷害或生存壓力時仍能存活、適應或恢復的」與本句語境不同。"
+        "resilient-mcq-07": "本句的「resiliently」指「以有韌性、能恢復的方式；較少見」。",
+        "resilient-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resilient-mcq-07"
     }
@@ -659,5 +531,7 @@ export default {
     "sha256": "f3ad1a7fc376e03db1f930dc55bf5f1e006f106c77306c855d26e372a2fd23c2",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

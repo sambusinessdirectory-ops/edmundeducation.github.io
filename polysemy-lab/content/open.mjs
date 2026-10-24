@@ -71,16 +71,6 @@ export default {
           "She opened her eyes when she heard the noise.",
           "她聽到聲音後睜開了眼睛。",
           "睜開眼睛"
-        ],
-        [
-          "Open your mouth and say “ah”.",
-          "張開嘴巴，說「啊」。",
-          "睜開眼睛"
-        ],
-        [
-          "The baby opened his mouth for another spoonful.",
-          "嬰兒張開嘴巴再吃一匙。",
-          "睜開眼睛"
         ]
       ],
       "options": [],
@@ -887,6 +877,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "open-reviewed-e08d8fa7b2",
+      "title": "把嘴巴張開",
+      "form": "open · source section 4",
+      "en": "把嘴巴張開",
+      "zh": "把嘴巴張開",
+      "note": "對照原始教材第 4 節及例句核實。",
+      "examples": [
+        [
+          "Open your mouth and say “ah”.",
+          "張開嘴巴，說「啊」。",
+          "把嘴巴張開"
+        ],
+        [
+          "The baby opened his mouth for another spoonful.",
+          "嬰兒張開嘴巴再吃一匙。",
+          "把嘴巴張開"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -898,11 +910,9 @@ export default {
       "masked": "Being with him feels like ____.",
       "options": [
         "open-mcq-01",
-        "open-mcq-02",
-        "open-mcq-03",
-        "open-mcq-04",
-        "open-mcq-05",
-        "open-mcq-06"
+        "open-mcq-15",
+        "open-pdf-003",
+        "open-mcq-37"
       ],
       "explanation": "本句的「opening a window」指「打開窗戶」。",
       "sentenceIndex": 0,
@@ -911,12 +921,10 @@ export default {
         "opening a window"
       ],
       "optionReasons": {
-        "open-mcq-01": "本句指「打開窗戶」。",
-        "open-mcq-02": "「門開着」是「door is open」的用法，與本句語境不同。",
-        "open-mcq-03": "「睜開眼睛」是「open your eyes」的用法，與本句語境不同。",
-        "open-mcq-04": "「打開書／檔案」是「open a book/file」的用法，與本句語境不同。",
-        "open-mcq-05": "「開啟程式」是「open an app」的用法，與本句語境不同。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。"
+        "open-mcq-01": "本句的「opening a window」指「打開窗戶」。",
+        "open-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-01"
     },
@@ -928,11 +936,9 @@ export default {
       "masked": "She ____ quietly.",
       "options": [
         "open-mcq-01",
-        "open-mcq-02",
-        "open-mcq-03",
-        "open-mcq-04",
-        "open-mcq-05",
-        "open-mcq-06"
+        "open-mcq-36",
+        "open-mcq-15",
+        "open-mcq-25"
       ],
       "explanation": "本句的「opened the door」指「打開窗戶」。",
       "sentenceIndex": 1,
@@ -941,12 +947,10 @@ export default {
         "opened the door"
       ],
       "optionReasons": {
-        "open-mcq-01": "本句指「打開窗戶」。",
-        "open-mcq-02": "「門開着」是「door is open」的用法，與本句語境不同。",
-        "open-mcq-03": "「睜開眼睛」是「open your eyes」的用法，與本句語境不同。",
-        "open-mcq-04": "「打開書／檔案」是「open a book/file」的用法，與本句語境不同。",
-        "open-mcq-05": "「開啟程式」是「open an app」的用法，與本句語境不同。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。"
+        "open-mcq-01": "本句的「opened the door」指「打開窗戶」。",
+        "open-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-01"
     },
@@ -958,11 +962,9 @@ export default {
       "masked": "Can you ____ for me?",
       "options": [
         "open-mcq-01",
-        "open-mcq-02",
-        "open-mcq-03",
-        "open-mcq-04",
-        "open-mcq-05",
-        "open-mcq-06"
+        "open-pdf-002",
+        "open-mcq-20",
+        "open-mcq-36"
       ],
       "explanation": "本句的「open the box」指「打開窗戶」。",
       "sentenceIndex": 2,
@@ -971,12 +973,10 @@ export default {
         "open the box"
       ],
       "optionReasons": {
-        "open-mcq-01": "本句指「打開窗戶」。",
-        "open-mcq-02": "「門開着」是「door is open」的用法，與本句語境不同。",
-        "open-mcq-03": "「睜開眼睛」是「open your eyes」的用法，與本句語境不同。",
-        "open-mcq-04": "「打開書／檔案」是「open a book/file」的用法，與本句語境不同。",
-        "open-mcq-05": "「開啟程式」是「open an app」的用法，與本句語境不同。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。"
+        "open-mcq-01": "本句的「open the box」指「打開窗戶」。",
+        "open-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-01"
     },
@@ -988,11 +988,9 @@ export default {
       "masked": "The window is ____.",
       "options": [
         "open-mcq-02",
-        "open-mcq-01",
-        "open-mcq-03",
-        "open-mcq-04",
-        "open-mcq-05",
-        "open-mcq-06"
+        "open-mcq-35",
+        "open-pdf-002",
+        "open-pdf-003"
       ],
       "explanation": "本句的「open」指「門開着」。",
       "sentenceIndex": 3,
@@ -1001,12 +999,10 @@ export default {
         "open"
       ],
       "optionReasons": {
-        "open-mcq-02": "本句指「門開着」。",
-        "open-mcq-01": "「打開窗戶」是「open a window」的用法，與本句語境不同。",
-        "open-mcq-03": "「睜開眼睛」是「open your eyes」的用法，與本句語境不同。",
-        "open-mcq-04": "「打開書／檔案」是「open a book/file」的用法，與本句語境不同。",
-        "open-mcq-05": "「開啟程式」是「open an app」的用法，與本句語境不同。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。"
+        "open-mcq-02": "本句的「open」指「門開着」。",
+        "open-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-02"
     },
@@ -1018,11 +1014,9 @@ export default {
       "masked": "Leave the door ____.",
       "options": [
         "open-mcq-02",
-        "open-mcq-01",
-        "open-mcq-03",
-        "open-mcq-04",
-        "open-mcq-05",
-        "open-mcq-06"
+        "open-mcq-07",
+        "open-mcq-22",
+        "open-pdf-003"
       ],
       "explanation": "本句的「open」指「門開着」。",
       "sentenceIndex": 4,
@@ -1031,12 +1025,10 @@ export default {
         "open"
       ],
       "optionReasons": {
-        "open-mcq-02": "本句指「門開着」。",
-        "open-mcq-01": "「打開窗戶」是「open a window」的用法，與本句語境不同。",
-        "open-mcq-03": "「睜開眼睛」是「open your eyes」的用法，與本句語境不同。",
-        "open-mcq-04": "「打開書／檔案」是「open a book/file」的用法，與本句語境不同。",
-        "open-mcq-05": "「開啟程式」是「open an app」的用法，與本句語境不同。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。"
+        "open-mcq-02": "本句的「open」指「門開着」。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-02"
     },
@@ -1048,11 +1040,9 @@ export default {
       "masked": "He ____ slowly.",
       "options": [
         "open-mcq-03",
-        "open-mcq-02",
-        "open-mcq-04",
-        "open-mcq-01",
-        "open-mcq-05",
-        "open-mcq-06"
+        "open-mcq-07",
+        "open-mcq-37",
+        "open-mcq-15"
       ],
       "explanation": "本句的「opened his eyes」指「睜開眼睛」。",
       "sentenceIndex": 5,
@@ -1061,12 +1051,10 @@ export default {
         "opened his eyes"
       ],
       "optionReasons": {
-        "open-mcq-03": "本句指「睜開眼睛」。",
-        "open-mcq-02": "「門開着」是「door is open」的用法，與本句語境不同。",
-        "open-mcq-04": "「打開書／檔案」是「open a book/file」的用法，與本句語境不同。",
-        "open-mcq-01": "「打開窗戶」是「open a window」的用法，與本句語境不同。",
-        "open-mcq-05": "「開啟程式」是「open an app」的用法，與本句語境不同。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。"
+        "open-mcq-03": "本句的「opened his eyes」指「睜開眼睛」。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-03"
     },
@@ -1078,11 +1066,9 @@ export default {
       "masked": "She ____ when she heard the noise.",
       "options": [
         "open-mcq-03",
-        "open-mcq-02",
-        "open-mcq-04",
-        "open-mcq-01",
-        "open-mcq-05",
-        "open-mcq-06"
+        "open-mcq-37",
+        "open-mcq-07",
+        "open-mcq-22"
       ],
       "explanation": "本句的「opened her eyes」指「睜開眼睛」。",
       "sentenceIndex": 6,
@@ -1091,74 +1077,68 @@ export default {
         "opened her eyes"
       ],
       "optionReasons": {
-        "open-mcq-03": "本句指「睜開眼睛」。",
-        "open-mcq-02": "「門開着」是「door is open」的用法，與本句語境不同。",
-        "open-mcq-04": "「打開書／檔案」是「open a book/file」的用法，與本句語境不同。",
-        "open-mcq-01": "「打開窗戶」是「open a window」的用法，與本句語境不同。",
-        "open-mcq-05": "「開啟程式」是「open an app」的用法，與本句語境不同。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。"
+        "open-mcq-03": "本句的「opened her eyes」指「睜開眼睛」。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-03"
     },
     {
       "id": "open-04-0",
-      "sense": "open-mcq-03",
+      "sense": "open-reviewed-e08d8fa7b2",
       "en": "Open your mouth and say “ah”.",
       "zh": "張開嘴巴，說「啊」。",
       "masked": "____ and say “ah”.",
       "options": [
-        "open-mcq-03",
-        "open-mcq-02",
-        "open-mcq-04",
-        "open-mcq-01",
-        "open-mcq-05",
-        "open-mcq-06"
+        "open-reviewed-e08d8fa7b2",
+        "open-mcq-15",
+        "open-mcq-37",
+        "open-mcq-07"
       ],
-      "explanation": "本句的「Open your mouth」指「睜開眼睛」。",
+      "explanation": "對照完整句子：「張開嘴巴，說「啊」。」。這裡的「Open your mouth」表示「把嘴巴張開」。",
       "sentenceIndex": 7,
       "sourcePractice": 1,
       "targets": [
         "Open your mouth"
       ],
       "optionReasons": {
-        "open-mcq-03": "本句指「睜開眼睛」。",
-        "open-mcq-02": "「門開着」是「door is open」的用法，與本句語境不同。",
-        "open-mcq-04": "「打開書／檔案」是「open a book/file」的用法，與本句語境不同。",
-        "open-mcq-01": "「打開窗戶」是「open a window」的用法，與本句語境不同。",
-        "open-mcq-05": "「開啟程式」是「open an app」的用法，與本句語境不同。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。"
+        "open-reviewed-e08d8fa7b2": "對照完整句子：「張開嘴巴，說「啊」。」。這裡的「Open your mouth」表示「把嘴巴張開」。",
+        "open-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "open-mcq-03"
+      "correctOption": "open-reviewed-e08d8fa7b2",
+      "previousCorrectOption": "open-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "open-04-1",
-      "sense": "open-mcq-03",
+      "sense": "open-reviewed-e08d8fa7b2",
       "en": "The baby opened his mouth for another spoonful.",
       "zh": "嬰兒張開嘴巴再吃一匙。",
       "masked": "The baby ____ for another spoonful.",
       "options": [
-        "open-mcq-03",
-        "open-mcq-02",
-        "open-mcq-04",
-        "open-mcq-01",
-        "open-mcq-05",
-        "open-mcq-06"
+        "open-reviewed-e08d8fa7b2",
+        "open-mcq-20",
+        "open-mcq-15",
+        "open-mcq-07"
       ],
-      "explanation": "本句的「opened his mouth」指「睜開眼睛」。",
+      "explanation": "對照完整句子：「嬰兒張開嘴巴再吃一匙。」。這裡的「opened his mouth」表示「把嘴巴張開」。",
       "sentenceIndex": 8,
       "sourcePractice": 2,
       "targets": [
         "opened his mouth"
       ],
       "optionReasons": {
-        "open-mcq-03": "本句指「睜開眼睛」。",
-        "open-mcq-02": "「門開着」是「door is open」的用法，與本句語境不同。",
-        "open-mcq-04": "「打開書／檔案」是「open a book/file」的用法，與本句語境不同。",
-        "open-mcq-01": "「打開窗戶」是「open a window」的用法，與本句語境不同。",
-        "open-mcq-05": "「開啟程式」是「open an app」的用法，與本句語境不同。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。"
+        "open-reviewed-e08d8fa7b2": "對照完整句子：「嬰兒張開嘴巴再吃一匙。」。這裡的「opened his mouth」表示「把嘴巴張開」。",
+        "open-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "open-mcq-03"
+      "correctOption": "open-reviewed-e08d8fa7b2",
+      "previousCorrectOption": "open-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "open-05-0",
@@ -1168,11 +1148,9 @@ export default {
       "masked": "____ to page ten.",
       "options": [
         "open-mcq-04",
-        "open-mcq-03",
-        "open-mcq-05",
-        "open-mcq-02",
-        "open-mcq-06",
-        "open-mcq-01"
+        "open-pdf-002",
+        "open-mcq-07",
+        "open-mcq-29"
       ],
       "explanation": "本句的「Open your books」指「打開書／檔案」。",
       "sentenceIndex": 9,
@@ -1181,12 +1159,10 @@ export default {
         "Open your books"
       ],
       "optionReasons": {
-        "open-mcq-04": "本句指「打開書／檔案」。",
-        "open-mcq-03": "「睜開眼睛」是「open your eyes」的用法，與本句語境不同。",
-        "open-mcq-05": "「開啟程式」是「open an app」的用法，與本句語境不同。",
-        "open-mcq-02": "「門開着」是「door is open」的用法，與本句語境不同。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。",
-        "open-mcq-01": "「打開窗戶」是「open a window」的用法，與本句語境不同。"
+        "open-mcq-04": "本句的「Open your books」指「打開書／檔案」。",
+        "open-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-04"
     },
@@ -1198,11 +1174,9 @@ export default {
       "masked": "I couldn't ____.",
       "options": [
         "open-mcq-04",
-        "open-mcq-03",
-        "open-mcq-05",
-        "open-mcq-02",
-        "open-mcq-06",
-        "open-mcq-01"
+        "open-mcq-37",
+        "open-mcq-22",
+        "open-pdf-003"
       ],
       "explanation": "本句的「open the file」指「打開書／檔案」。",
       "sentenceIndex": 10,
@@ -1211,12 +1185,10 @@ export default {
         "open the file"
       ],
       "optionReasons": {
-        "open-mcq-04": "本句指「打開書／檔案」。",
-        "open-mcq-03": "「睜開眼睛」是「open your eyes」的用法，與本句語境不同。",
-        "open-mcq-05": "「開啟程式」是「open an app」的用法，與本句語境不同。",
-        "open-mcq-02": "「門開着」是「door is open」的用法，與本句語境不同。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。",
-        "open-mcq-01": "「打開窗戶」是「open a window」的用法，與本句語境不同。"
+        "open-mcq-04": "本句的「open the file」指「打開書／檔案」。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-04"
     },
@@ -1228,11 +1200,9 @@ export default {
       "masked": "____ and sign in.",
       "options": [
         "open-mcq-05",
-        "open-mcq-04",
-        "open-mcq-06",
-        "open-mcq-03",
-        "open-mcq-07",
-        "open-mcq-02"
+        "open-mcq-37",
+        "open-mcq-29",
+        "open-pdf-002"
       ],
       "explanation": "本句的「Open the app」指「開啟程式」。",
       "sentenceIndex": 11,
@@ -1241,12 +1211,10 @@ export default {
         "Open the app"
       ],
       "optionReasons": {
-        "open-mcq-05": "本句指「開啟程式」。",
-        "open-mcq-04": "「打開書／檔案」是「open a book/file」的用法，與本句語境不同。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。",
-        "open-mcq-03": "「睜開眼睛」是「open your eyes」的用法，與本句語境不同。",
-        "open-mcq-07": "「店舖營業中」是「shop is open」的用法，與本句語境不同。",
-        "open-mcq-02": "「門開着」是「door is open」的用法，與本句語境不同。"
+        "open-mcq-05": "本句的「Open the app」指「開啟程式」。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-05"
     },
@@ -1258,11 +1226,9 @@ export default {
       "masked": "She ____ on her phone.",
       "options": [
         "open-mcq-05",
-        "open-mcq-04",
-        "open-mcq-06",
-        "open-mcq-03",
-        "open-mcq-07",
-        "open-mcq-02"
+        "open-mcq-37",
+        "open-mcq-08",
+        "open-mcq-22"
       ],
       "explanation": "本句的「opened the website」指「開啟程式」。",
       "sentenceIndex": 12,
@@ -1271,12 +1237,10 @@ export default {
         "opened the website"
       ],
       "optionReasons": {
-        "open-mcq-05": "本句指「開啟程式」。",
-        "open-mcq-04": "「打開書／檔案」是「open a book/file」的用法，與本句語境不同。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。",
-        "open-mcq-03": "「睜開眼睛」是「open your eyes」的用法，與本句語境不同。",
-        "open-mcq-07": "「店舖營業中」是「shop is open」的用法，與本句語境不同。",
-        "open-mcq-02": "「門開着」是「door is open」的用法，與本句語境不同。"
+        "open-mcq-05": "本句的「opened the website」指「開啟程式」。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-05"
     },
@@ -1288,11 +1252,9 @@ export default {
       "masked": "They ____ last year.",
       "options": [
         "open-mcq-06",
-        "open-mcq-05",
-        "open-mcq-07",
-        "open-mcq-04",
+        "open-mcq-29",
         "open-mcq-08",
-        "open-mcq-03"
+        "open-mcq-22"
       ],
       "explanation": "本句的「opened a café」指「開店」。",
       "sentenceIndex": 13,
@@ -1301,12 +1263,10 @@ export default {
         "opened a café"
       ],
       "optionReasons": {
-        "open-mcq-06": "本句指「開店」。",
-        "open-mcq-05": "「開啟程式」是「open an app」的用法，與本句語境不同。",
-        "open-mcq-07": "「店舖營業中」是「shop is open」的用法，與本句語境不同。",
-        "open-mcq-04": "「打開書／檔案」是「open a book/file」的用法，與本句語境不同。",
-        "open-mcq-08": "「營業時間」是「opening hours」的用法，與本句語境不同。",
-        "open-mcq-03": "「睜開眼睛」是「open your eyes」的用法，與本句語境不同。"
+        "open-mcq-06": "本句的「opened a café」指「開店」。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-06"
     },
@@ -1318,11 +1278,9 @@ export default {
       "masked": "She plans to ____.",
       "options": [
         "open-mcq-06",
-        "open-mcq-05",
-        "open-mcq-07",
-        "open-mcq-04",
-        "open-mcq-08",
-        "open-mcq-03"
+        "open-mcq-25",
+        "open-mcq-36",
+        "open-mcq-08"
       ],
       "explanation": "本句的「open her own business」指「開店」。",
       "sentenceIndex": 14,
@@ -1331,12 +1289,10 @@ export default {
         "open her own business"
       ],
       "optionReasons": {
-        "open-mcq-06": "本句指「開店」。",
-        "open-mcq-05": "「開啟程式」是「open an app」的用法，與本句語境不同。",
-        "open-mcq-07": "「店舖營業中」是「shop is open」的用法，與本句語境不同。",
-        "open-mcq-04": "「打開書／檔案」是「open a book/file」的用法，與本句語境不同。",
-        "open-mcq-08": "「營業時間」是「opening hours」的用法，與本句語境不同。",
-        "open-mcq-03": "「睜開眼睛」是「open your eyes」的用法，與本句語境不同。"
+        "open-mcq-06": "本句的「open her own business」指「開店」。",
+        "open-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-06"
     },
@@ -1348,11 +1304,9 @@ export default {
       "masked": "Is the supermarket still ____?",
       "options": [
         "open-mcq-07",
-        "open-mcq-06",
-        "open-mcq-08",
-        "open-mcq-05",
-        "open-mcq-09",
-        "open-mcq-04"
+        "open-mcq-20",
+        "open-mcq-17",
+        "open-pdf-001"
       ],
       "explanation": "本句的「open」指「店舖營業中」。",
       "sentenceIndex": 15,
@@ -1361,12 +1315,10 @@ export default {
         "open"
       ],
       "optionReasons": {
-        "open-mcq-07": "本句指「店舖營業中」。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。",
-        "open-mcq-08": "「營業時間」是「opening hours」的用法，與本句語境不同。",
-        "open-mcq-05": "「開啟程式」是「open an app」的用法，與本句語境不同。",
-        "open-mcq-09": "「開戶」是「open an account」的用法，與本句語境不同。",
-        "open-mcq-04": "「打開書／檔案」是「open a book/file」的用法，與本句語境不同。"
+        "open-mcq-07": "本句的「open」指「店舖營業中」。",
+        "open-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-07"
     },
@@ -1378,11 +1330,9 @@ export default {
       "masked": "The café is ____ until ten.",
       "options": [
         "open-mcq-07",
-        "open-mcq-06",
-        "open-mcq-08",
-        "open-mcq-05",
-        "open-mcq-09",
-        "open-mcq-04"
+        "open-mcq-35",
+        "open-mcq-28",
+        "open-mcq-29"
       ],
       "explanation": "本句的「open」指「店舖營業中」。",
       "sentenceIndex": 16,
@@ -1391,12 +1341,10 @@ export default {
         "open"
       ],
       "optionReasons": {
-        "open-mcq-07": "本句指「店舖營業中」。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。",
-        "open-mcq-08": "「營業時間」是「opening hours」的用法，與本句語境不同。",
-        "open-mcq-05": "「開啟程式」是「open an app」的用法，與本句語境不同。",
-        "open-mcq-09": "「開戶」是「open an account」的用法，與本句語境不同。",
-        "open-mcq-04": "「打開書／檔案」是「open a book/file」的用法，與本句語境不同。"
+        "open-mcq-07": "本句的「open」指「店舖營業中」。",
+        "open-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-07"
     },
@@ -1408,11 +1356,9 @@ export default {
       "masked": "Check the museum's ____ before you go.",
       "options": [
         "open-mcq-08",
-        "open-mcq-07",
-        "open-mcq-09",
-        "open-mcq-06",
-        "open-mcq-10",
-        "open-mcq-05"
+        "open-mcq-02",
+        "open-mcq-20",
+        "open-mcq-15"
       ],
       "explanation": "本句的「opening hours」指「營業時間」。",
       "sentenceIndex": 17,
@@ -1421,12 +1367,10 @@ export default {
         "opening hours"
       ],
       "optionReasons": {
-        "open-mcq-08": "本句指「營業時間」。",
-        "open-mcq-07": "「店舖營業中」是「shop is open」的用法，與本句語境不同。",
-        "open-mcq-09": "「開戶」是「open an account」的用法，與本句語境不同。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。",
-        "open-mcq-10": "「宣布會議開始」是「open a meeting」的用法，與本句語境不同。",
-        "open-mcq-05": "「開啟程式」是「open an app」的用法，與本句語境不同。"
+        "open-mcq-08": "本句的「opening hours」指「營業時間」。",
+        "open-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-08"
     },
@@ -1438,11 +1382,9 @@ export default {
       "masked": "The shop has extended its ____.",
       "options": [
         "open-mcq-08",
-        "open-mcq-07",
-        "open-mcq-09",
-        "open-mcq-06",
-        "open-mcq-10",
-        "open-mcq-05"
+        "open-mcq-24",
+        "open-mcq-25",
+        "open-mcq-30"
       ],
       "explanation": "本句的「opening hours」指「營業時間」。",
       "sentenceIndex": 18,
@@ -1451,12 +1393,10 @@ export default {
         "opening hours"
       ],
       "optionReasons": {
-        "open-mcq-08": "本句指「營業時間」。",
-        "open-mcq-07": "「店舖營業中」是「shop is open」的用法，與本句語境不同。",
-        "open-mcq-09": "「開戶」是「open an account」的用法，與本句語境不同。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。",
-        "open-mcq-10": "「宣布會議開始」是「open a meeting」的用法，與本句語境不同。",
-        "open-mcq-05": "「開啟程式」是「open an app」的用法，與本句語境不同。"
+        "open-mcq-08": "本句的「opening hours」指「營業時間」。",
+        "open-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-08"
     },
@@ -1468,11 +1408,9 @@ export default {
       "masked": "I want to ____.",
       "options": [
         "open-mcq-09",
-        "open-mcq-08",
-        "open-mcq-10",
         "open-mcq-07",
-        "open-mcq-11",
-        "open-mcq-06"
+        "open-mcq-35",
+        "open-mcq-29"
       ],
       "explanation": "本句的「open a bank account」指「開戶」。",
       "sentenceIndex": 19,
@@ -1481,12 +1419,10 @@ export default {
         "open a bank account"
       ],
       "optionReasons": {
-        "open-mcq-09": "本句指「開戶」。",
-        "open-mcq-08": "「營業時間」是「opening hours」的用法，與本句語境不同。",
-        "open-mcq-10": "「宣布會議開始」是「open a meeting」的用法，與本句語境不同。",
-        "open-mcq-07": "「店舖營業中」是「shop is open」的用法，與本句語境不同。",
-        "open-mcq-11": "「以 X 開始」是「open with X」的用法，與本句語境不同。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。"
+        "open-mcq-09": "本句的「open a bank account」指「開戶」。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-09"
     },
@@ -1498,11 +1434,9 @@ export default {
       "masked": "You can ____ online.",
       "options": [
         "open-mcq-09",
-        "open-mcq-08",
-        "open-mcq-10",
-        "open-mcq-07",
-        "open-mcq-11",
-        "open-mcq-06"
+        "open-pdf-003",
+        "open-mcq-22",
+        "open-pdf-002"
       ],
       "explanation": "本句的「open an account」指「開戶」。",
       "sentenceIndex": 20,
@@ -1511,12 +1445,10 @@ export default {
         "open an account"
       ],
       "optionReasons": {
-        "open-mcq-09": "本句指「開戶」。",
-        "open-mcq-08": "「營業時間」是「opening hours」的用法，與本句語境不同。",
-        "open-mcq-10": "「宣布會議開始」是「open a meeting」的用法，與本句語境不同。",
-        "open-mcq-07": "「店舖營業中」是「shop is open」的用法，與本句語境不同。",
-        "open-mcq-11": "「以 X 開始」是「open with X」的用法，與本句語境不同。",
-        "open-mcq-06": "「開店」是「open a shop」的用法，與本句語境不同。"
+        "open-mcq-09": "本句的「open an account」指「開戶」。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-09"
     },
@@ -1528,11 +1460,9 @@ export default {
       "masked": "The chairperson ____ at nine.",
       "options": [
         "open-mcq-10",
-        "open-mcq-09",
-        "open-mcq-11",
-        "open-mcq-08",
-        "open-mcq-12",
-        "open-mcq-07"
+        "open-mcq-37",
+        "open-pdf-003",
+        "open-mcq-35"
       ],
       "explanation": "本句的「opened the meeting」指「宣布會議開始」。",
       "sentenceIndex": 21,
@@ -1541,12 +1471,10 @@ export default {
         "opened the meeting"
       ],
       "optionReasons": {
-        "open-mcq-10": "本句指「宣布會議開始」。",
-        "open-mcq-09": "「開戶」是「open an account」的用法，與本句語境不同。",
-        "open-mcq-11": "「以 X 開始」是「open with X」的用法，與本句語境不同。",
-        "open-mcq-08": "「營業時間」是「opening hours」的用法，與本句語境不同。",
-        "open-mcq-12": "「活動開幕」是「event opens」的用法，與本句語境不同。",
-        "open-mcq-07": "「店舖營業中」是「shop is open」的用法，與本句語境不同。"
+        "open-mcq-10": "本句的「opened the meeting」指「宣布會議開始」。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-10"
     },
@@ -1558,11 +1486,9 @@ export default {
       "masked": "The mayor ____.",
       "options": [
         "open-mcq-10",
-        "open-mcq-09",
-        "open-mcq-11",
-        "open-mcq-08",
-        "open-mcq-12",
-        "open-mcq-07"
+        "open-mcq-29",
+        "open-mcq-22",
+        "open-pdf-003"
       ],
       "explanation": "本句的「opened the festival」指「宣布會議開始」。",
       "sentenceIndex": 22,
@@ -1571,12 +1497,10 @@ export default {
         "opened the festival"
       ],
       "optionReasons": {
-        "open-mcq-10": "本句指「宣布會議開始」。",
-        "open-mcq-09": "「開戶」是「open an account」的用法，與本句語境不同。",
-        "open-mcq-11": "「以 X 開始」是「open with X」的用法，與本句語境不同。",
-        "open-mcq-08": "「營業時間」是「opening hours」的用法，與本句語境不同。",
-        "open-mcq-12": "「活動開幕」是「event opens」的用法，與本句語境不同。",
-        "open-mcq-07": "「店舖營業中」是「shop is open」的用法，與本句語境不同。"
+        "open-mcq-10": "本句的「opened the festival」指「宣布會議開始」。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-10"
     },
@@ -1588,11 +1512,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "open-mcq-11",
-        "open-mcq-10",
-        "open-mcq-12",
-        "open-mcq-09",
-        "open-mcq-13",
-        "open-mcq-08"
+        "open-mcq-36",
+        "open-mcq-15",
+        "open-mcq-07"
       ],
       "explanation": "本句的「opened with a short introduction」指「以 X 開始」。",
       "sentenceIndex": 23,
@@ -1601,12 +1523,10 @@ export default {
         "opened with a short introduction"
       ],
       "optionReasons": {
-        "open-mcq-11": "本句指「以 X 開始」。",
-        "open-mcq-10": "「宣布會議開始」是「open a meeting」的用法，與本句語境不同。",
-        "open-mcq-12": "「活動開幕」是「event opens」的用法，與本句語境不同。",
-        "open-mcq-09": "「開戶」是「open an account」的用法，與本句語境不同。",
-        "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。",
-        "open-mcq-08": "「營業時間」是「opening hours」的用法，與本句語境不同。"
+        "open-mcq-11": "本句的「opened with a short introduction」指「以 X 開始」。",
+        "open-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-11"
     },
@@ -1618,11 +1538,9 @@ export default {
       "masked": "The film ____ a scene in Paris.",
       "options": [
         "open-mcq-11",
-        "open-mcq-10",
-        "open-mcq-12",
-        "open-mcq-09",
-        "open-mcq-13",
-        "open-mcq-08"
+        "open-pdf-002",
+        "open-mcq-08",
+        "open-mcq-36"
       ],
       "explanation": "本句的「opens with」指「以 X 開始」。",
       "sentenceIndex": 24,
@@ -1631,12 +1549,10 @@ export default {
         "opens with"
       ],
       "optionReasons": {
-        "open-mcq-11": "本句指「以 X 開始」。",
-        "open-mcq-10": "「宣布會議開始」是「open a meeting」的用法，與本句語境不同。",
-        "open-mcq-12": "「活動開幕」是「event opens」的用法，與本句語境不同。",
-        "open-mcq-09": "「開戶」是「open an account」的用法，與本句語境不同。",
-        "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。",
-        "open-mcq-08": "「營業時間」是「opening hours」的用法，與本句語境不同。"
+        "open-mcq-11": "本句的「opens with」指「以 X 開始」。",
+        "open-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-11"
     },
@@ -1648,11 +1564,9 @@ export default {
       "masked": "The exhibition ____ next week.",
       "options": [
         "open-pdf-001",
-        "open-mcq-11",
-        "open-mcq-13",
-        "open-mcq-10",
-        "open-mcq-14",
-        "open-mcq-09"
+        "open-mcq-35",
+        "open-mcq-29",
+        "open-pdf-003"
       ],
       "explanation": "本句的「opens」指「某個場所、活動或服務正式開始運作」。",
       "sentenceIndex": 25,
@@ -1661,12 +1575,10 @@ export default {
         "opens"
       ],
       "optionReasons": {
-        "open-pdf-001": "本句指「某個場所、活動或服務正式開始運作」。",
-        "open-mcq-11": "「以 X 開始」是「open with X」的用法，與本句語境不同。",
-        "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。",
-        "open-mcq-10": "「宣布會議開始」是「open a meeting」的用法，與本句語境不同。",
-        "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
-        "open-mcq-09": "「開戶」是「open an account」的用法，與本句語境不同。"
+        "open-pdf-001": "本句的「opens」指「某個場所、活動或服務正式開始運作」。",
+        "open-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-pdf-001"
     },
@@ -1678,11 +1590,9 @@ export default {
       "masked": "The new restaurant ____ on Friday.",
       "options": [
         "open-pdf-001",
-        "open-mcq-11",
-        "open-mcq-13",
-        "open-mcq-10",
-        "open-mcq-14",
-        "open-mcq-09"
+        "open-pdf-002",
+        "open-mcq-35",
+        "open-mcq-29"
       ],
       "explanation": "本句的「opens」指「某個場所、活動或服務正式開始運作」。",
       "sentenceIndex": 26,
@@ -1691,12 +1601,10 @@ export default {
         "opens"
       ],
       "optionReasons": {
-        "open-pdf-001": "本句指「某個場所、活動或服務正式開始運作」。",
-        "open-mcq-11": "「以 X 開始」是「open with X」的用法，與本句語境不同。",
-        "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。",
-        "open-mcq-10": "「宣布會議開始」是「open a meeting」的用法，與本句語境不同。",
-        "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
-        "open-mcq-09": "「開戶」是「open an account」的用法，與本句語境不同。"
+        "open-pdf-001": "本句的「opens」指「某個場所、活動或服務正式開始運作」。",
+        "open-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-pdf-001"
     },
@@ -1708,11 +1616,9 @@ export default {
       "masked": "There was a small ____ in the wall.",
       "options": [
         "open-mcq-13",
-        "open-mcq-12",
-        "open-mcq-14",
-        "open-mcq-11",
-        "open-mcq-15",
-        "open-mcq-10"
+        "open-pdf-003",
+        "open-mcq-22",
+        "open-mcq-37"
       ],
       "explanation": "本句的「opening」指「開口；缺口」。",
       "sentenceIndex": 27,
@@ -1721,12 +1627,10 @@ export default {
         "opening"
       ],
       "optionReasons": {
-        "open-mcq-13": "本句指「開口；缺口」。",
-        "open-mcq-12": "「活動開幕」是「event opens」的用法，與本句語境不同。",
-        "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
-        "open-mcq-11": "「以 X 開始」是「open with X」的用法，與本句語境不同。",
-        "open-mcq-15": "「職位空缺」是「job opening」的用法，與本句語境不同。",
-        "open-mcq-10": "「宣布會議開始」是「open a meeting」的用法，與本句語境不同。"
+        "open-mcq-13": "本句的「opening」指「開口；缺口」。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-13"
     },
@@ -1738,11 +1642,9 @@ export default {
       "masked": "Light came through an ____ in the roof.",
       "options": [
         "open-mcq-13",
-        "open-mcq-12",
-        "open-mcq-14",
-        "open-mcq-11",
-        "open-mcq-15",
-        "open-mcq-10"
+        "open-mcq-08",
+        "open-mcq-29",
+        "open-mcq-37"
       ],
       "explanation": "本句的「opening」指「開口；缺口」。",
       "sentenceIndex": 28,
@@ -1751,12 +1653,10 @@ export default {
         "opening"
       ],
       "optionReasons": {
-        "open-mcq-13": "本句指「開口；缺口」。",
-        "open-mcq-12": "「活動開幕」是「event opens」的用法，與本句語境不同。",
-        "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
-        "open-mcq-11": "「以 X 開始」是「open with X」的用法，與本句語境不同。",
-        "open-mcq-15": "「職位空缺」是「job opening」的用法，與本句語境不同。",
-        "open-mcq-10": "「宣布會議開始」是「open a meeting」的用法，與本句語境不同。"
+        "open-mcq-13": "本句的「opening」指「開口；缺口」。",
+        "open-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-13"
     },
@@ -1768,11 +1668,9 @@ export default {
       "masked": "The ____ of the film was very dramatic.",
       "options": [
         "open-mcq-14",
-        "open-mcq-13",
-        "open-mcq-15",
-        "open-mcq-12",
-        "open-mcq-16",
-        "open-mcq-11"
+        "open-pdf-003",
+        "open-mcq-07",
+        "open-mcq-22"
       ],
       "explanation": "本句的「opening」指「開場；開頭」。",
       "sentenceIndex": 29,
@@ -1781,12 +1679,10 @@ export default {
         "opening"
       ],
       "optionReasons": {
-        "open-mcq-14": "本句指「開場；開頭」。",
-        "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。",
-        "open-mcq-15": "「職位空缺」是「job opening」的用法，與本句語境不同。",
-        "open-mcq-12": "「活動開幕」是「event opens」的用法，與本句語境不同。",
-        "open-mcq-16": "「開放／空曠空間」是「open space」的用法，與本句語境不同。",
-        "open-mcq-11": "「以 X 開始」是「open with X」的用法，與本句語境不同。"
+        "open-mcq-14": "本句的「opening」指「開場；開頭」。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-14"
     },
@@ -1798,11 +1694,9 @@ export default {
       "masked": "I missed the ____ of the speech.",
       "options": [
         "open-mcq-14",
-        "open-mcq-13",
-        "open-mcq-15",
-        "open-mcq-12",
-        "open-mcq-16",
-        "open-mcq-11"
+        "open-pdf-002",
+        "open-mcq-37",
+        "open-mcq-22"
       ],
       "explanation": "本句的「opening」指「開場；開頭」。",
       "sentenceIndex": 30,
@@ -1811,12 +1705,10 @@ export default {
         "opening"
       ],
       "optionReasons": {
-        "open-mcq-14": "本句指「開場；開頭」。",
-        "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。",
-        "open-mcq-15": "「職位空缺」是「job opening」的用法，與本句語境不同。",
-        "open-mcq-12": "「活動開幕」是「event opens」的用法，與本句語境不同。",
-        "open-mcq-16": "「開放／空曠空間」是「open space」的用法，與本句語境不同。",
-        "open-mcq-11": "「以 X 開始」是「open with X」的用法，與本句語境不同。"
+        "open-mcq-14": "本句的「opening」指「開場；開頭」。",
+        "open-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-14"
     },
@@ -1828,11 +1720,9 @@ export default {
       "masked": "There is a ____ in our department.",
       "options": [
         "open-mcq-15",
-        "open-mcq-14",
-        "open-mcq-16",
-        "open-mcq-13",
-        "open-mcq-17",
-        "open-mcq-12"
+        "open-mcq-25",
+        "open-mcq-03",
+        "open-mcq-35"
       ],
       "explanation": "本句的「job opening」指「職位空缺」。",
       "sentenceIndex": 31,
@@ -1841,12 +1731,10 @@ export default {
         "job opening"
       ],
       "optionReasons": {
-        "open-mcq-15": "本句指「職位空缺」。",
-        "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
-        "open-mcq-16": "「開放／空曠空間」是「open space」的用法，與本句語境不同。",
-        "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。",
-        "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。",
-        "open-mcq-12": "「活動開幕」是「event opens」的用法，與本句語境不同。"
+        "open-mcq-15": "本句的「job opening」指「職位空缺」。",
+        "open-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-15"
     },
@@ -1858,11 +1746,9 @@ export default {
       "masked": "She applied for several ____.",
       "options": [
         "open-mcq-15",
-        "open-mcq-14",
-        "open-mcq-16",
-        "open-mcq-13",
-        "open-mcq-17",
-        "open-mcq-12"
+        "open-mcq-07",
+        "open-mcq-10",
+        "open-pdf-003"
       ],
       "explanation": "本句的「openings」指「職位空缺」。",
       "sentenceIndex": 32,
@@ -1871,12 +1757,10 @@ export default {
         "openings"
       ],
       "optionReasons": {
-        "open-mcq-15": "本句指「職位空缺」。",
-        "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
-        "open-mcq-16": "「開放／空曠空間」是「open space」的用法，與本句語境不同。",
-        "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。",
-        "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。",
-        "open-mcq-12": "「活動開幕」是「event opens」的用法，與本句語境不同。"
+        "open-mcq-15": "本句的「openings」指「職位空缺」。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-15"
     },
@@ -1888,11 +1772,9 @@ export default {
       "masked": "We currently have two ____.",
       "options": [
         "open-pdf-002",
-        "open-mcq-14",
-        "open-mcq-16",
-        "open-mcq-13",
-        "open-mcq-17",
-        "open-mcq-12"
+        "open-mcq-21",
+        "open-mcq-37",
+        "open-pdf-003"
       ],
       "explanation": "本句的「open positions」指「尚未有人擔任、可供申請的職位」。",
       "sentenceIndex": 33,
@@ -1901,12 +1783,10 @@ export default {
         "open positions"
       ],
       "optionReasons": {
-        "open-pdf-002": "本句指「尚未有人擔任、可供申請的職位」。",
-        "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
-        "open-mcq-16": "「開放／空曠空間」是「open space」的用法，與本句語境不同。",
-        "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。",
-        "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。",
-        "open-mcq-12": "「活動開幕」是「event opens」的用法，與本句語境不同。"
+        "open-pdf-002": "本句的「open positions」指「尚未有人擔任、可供申請的職位」。",
+        "open-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-pdf-002"
     },
@@ -1918,11 +1798,9 @@ export default {
       "masked": "The company is trying to fill an ____.",
       "options": [
         "open-pdf-002",
-        "open-mcq-14",
-        "open-mcq-16",
-        "open-mcq-13",
-        "open-mcq-17",
-        "open-mcq-12"
+        "open-mcq-35",
+        "open-pdf-003",
+        "open-mcq-26"
       ],
       "explanation": "本句的「open role」指「尚未有人擔任、可供申請的職位」。",
       "sentenceIndex": 34,
@@ -1931,12 +1809,10 @@ export default {
         "open role"
       ],
       "optionReasons": {
-        "open-pdf-002": "本句指「尚未有人擔任、可供申請的職位」。",
-        "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
-        "open-mcq-16": "「開放／空曠空間」是「open space」的用法，與本句語境不同。",
-        "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。",
-        "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。",
-        "open-mcq-12": "「活動開幕」是「event opens」的用法，與本句語境不同。"
+        "open-pdf-002": "本句的「open role」指「尚未有人擔任、可供申請的職位」。",
+        "open-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-pdf-002"
     },
@@ -1948,11 +1824,9 @@ export default {
       "masked": "Children need plenty of ____ to play.",
       "options": [
         "open-mcq-16",
-        "open-mcq-15",
-        "open-mcq-17",
-        "open-mcq-14",
-        "open-mcq-18",
-        "open-mcq-13"
+        "open-pdf-002",
+        "open-mcq-35",
+        "open-mcq-07"
       ],
       "explanation": "本句的「open space」指「開放／空曠空間」。",
       "sentenceIndex": 35,
@@ -1961,12 +1835,10 @@ export default {
         "open space"
       ],
       "optionReasons": {
-        "open-mcq-16": "本句指「開放／空曠空間」。",
-        "open-mcq-15": "「職位空缺」是「job opening」的用法，與本句語境不同。",
-        "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。",
-        "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
-        "open-mcq-18": "「公開比賽」是「open competition」的用法，與本句語境不同。",
-        "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。"
+        "open-mcq-16": "本句的「open space」指「開放／空曠空間」。",
+        "open-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-16"
     },
@@ -1978,11 +1850,9 @@ export default {
       "masked": "The house looks out onto a large ____.",
       "options": [
         "open-mcq-16",
-        "open-mcq-15",
-        "open-mcq-17",
-        "open-mcq-14",
-        "open-mcq-18",
-        "open-mcq-13"
+        "open-mcq-22",
+        "open-mcq-25",
+        "open-mcq-29"
       ],
       "explanation": "本句的「open space」指「開放／空曠空間」。",
       "sentenceIndex": 36,
@@ -1991,12 +1861,10 @@ export default {
         "open space"
       ],
       "optionReasons": {
-        "open-mcq-16": "本句指「開放／空曠空間」。",
-        "open-mcq-15": "「職位空缺」是「job opening」的用法，與本句語境不同。",
-        "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。",
-        "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
-        "open-mcq-18": "「公開比賽」是「open competition」的用法，與本句語境不同。",
-        "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。"
+        "open-mcq-16": "本句的「open space」指「開放／空曠空間」。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-16"
     },
@@ -2008,11 +1876,9 @@ export default {
       "masked": "They drove across ____.",
       "options": [
         "open-pdf-003",
-        "open-mcq-15",
-        "open-mcq-17",
-        "open-mcq-14",
-        "open-mcq-18",
-        "open-mcq-13"
+        "open-mcq-01",
+        "open-mcq-27",
+        "open-mcq-22"
       ],
       "explanation": "本句的「open country」指「廣闊、沒有被圍住或遮擋的」。",
       "sentenceIndex": 37,
@@ -2021,12 +1887,10 @@ export default {
         "open country"
       ],
       "optionReasons": {
-        "open-pdf-003": "本句指「廣闊、沒有被圍住或遮擋的」。",
-        "open-mcq-15": "「職位空缺」是「job opening」的用法，與本句語境不同。",
-        "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。",
-        "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
-        "open-mcq-18": "「公開比賽」是「open competition」的用法，與本句語境不同。",
-        "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。"
+        "open-pdf-003": "本句的「open country」指「廣闊、沒有被圍住或遮擋的」。",
+        "open-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-pdf-003"
     },
@@ -2038,11 +1902,9 @@ export default {
       "masked": "The boat moved out into the ____.",
       "options": [
         "open-pdf-003",
-        "open-mcq-15",
-        "open-mcq-17",
-        "open-mcq-14",
-        "open-mcq-18",
-        "open-mcq-13"
+        "open-mcq-02",
+        "open-mcq-07",
+        "open-mcq-29"
       ],
       "explanation": "本句的「open sea」指「廣闊、沒有被圍住或遮擋的」。",
       "sentenceIndex": 38,
@@ -2051,12 +1913,10 @@ export default {
         "open sea"
       ],
       "optionReasons": {
-        "open-pdf-003": "本句指「廣闊、沒有被圍住或遮擋的」。",
-        "open-mcq-15": "「職位空缺」是「job opening」的用法，與本句語境不同。",
-        "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。",
-        "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。",
-        "open-mcq-18": "「公開比賽」是「open competition」的用法，與本句語境不同。",
-        "open-mcq-13": "「開口；缺口」是「opening (hole)」的用法，與本句語境不同。"
+        "open-pdf-003": "本句的「open sea」指「廣闊、沒有被圍住或遮擋的」。",
+        "open-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-pdf-003"
     },
@@ -2068,11 +1928,9 @@ export default {
       "masked": "The event is ____.",
       "options": [
         "open-mcq-17",
-        "open-mcq-16",
-        "open-mcq-18",
-        "open-mcq-15",
-        "open-mcq-19",
-        "open-mcq-14"
+        "open-mcq-08",
+        "open-mcq-20",
+        "open-pdf-002"
       ],
       "explanation": "本句的「open to everyone」指「向公眾開放」。",
       "sentenceIndex": 39,
@@ -2081,12 +1939,10 @@ export default {
         "open to everyone"
       ],
       "optionReasons": {
-        "open-mcq-17": "本句指「向公眾開放」。",
-        "open-mcq-16": "「開放／空曠空間」是「open space」的用法，與本句語境不同。",
-        "open-mcq-18": "「公開比賽」是「open competition」的用法，與本句語境不同。",
-        "open-mcq-15": "「職位空缺」是「job opening」的用法，與本句語境不同。",
-        "open-mcq-19": "「開放存取」是「open access」的用法，與本句語境不同。",
-        "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。"
+        "open-mcq-17": "本句的「open to everyone」指「向公眾開放」。",
+        "open-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-17"
     },
@@ -2098,11 +1954,9 @@ export default {
       "masked": "The garden is ____.",
       "options": [
         "open-mcq-17",
-        "open-mcq-16",
-        "open-mcq-18",
-        "open-mcq-15",
-        "open-mcq-19",
-        "open-mcq-14"
+        "open-mcq-20",
+        "open-pdf-002",
+        "open-pdf-003"
       ],
       "explanation": "本句的「open to the public」指「向公眾開放」。",
       "sentenceIndex": 40,
@@ -2111,12 +1965,10 @@ export default {
         "open to the public"
       ],
       "optionReasons": {
-        "open-mcq-17": "本句指「向公眾開放」。",
-        "open-mcq-16": "「開放／空曠空間」是「open space」的用法，與本句語境不同。",
-        "open-mcq-18": "「公開比賽」是「open competition」的用法，與本句語境不同。",
-        "open-mcq-15": "「職位空缺」是「job opening」的用法，與本句語境不同。",
-        "open-mcq-19": "「開放存取」是「open access」的用法，與本句語境不同。",
-        "open-mcq-14": "「開場；開頭」是「opening (beginning)」的用法，與本句語境不同。"
+        "open-mcq-17": "本句的「open to the public」指「向公眾開放」。",
+        "open-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-17"
     },
@@ -2128,11 +1980,9 @@ export default {
       "masked": "The competition is ____.",
       "options": [
         "open-mcq-18",
-        "open-mcq-17",
-        "open-mcq-19",
-        "open-mcq-16",
-        "open-mcq-20",
-        "open-mcq-15"
+        "open-mcq-35",
+        "open-mcq-07",
+        "open-pdf-002"
       ],
       "explanation": "本句的「open to all students」指「公開比賽」。",
       "sentenceIndex": 41,
@@ -2141,12 +1991,10 @@ export default {
         "open to all students"
       ],
       "optionReasons": {
-        "open-mcq-18": "本句指「公開比賽」。",
-        "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。",
-        "open-mcq-19": "「開放存取」是「open access」的用法，與本句語境不同。",
-        "open-mcq-16": "「開放／空曠空間」是「open space」的用法，與本句語境不同。",
-        "open-mcq-20": "「願意接受想法」是「open to ideas」的用法，與本句語境不同。",
-        "open-mcq-15": "「職位空缺」是「job opening」的用法，與本句語境不同。"
+        "open-mcq-18": "本句的「open to all students」指「公開比賽」。",
+        "open-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-18"
     },
@@ -2158,11 +2006,9 @@ export default {
       "masked": "It is an ____.",
       "options": [
         "open-mcq-18",
-        "open-mcq-17",
-        "open-mcq-19",
-        "open-mcq-16",
         "open-mcq-20",
-        "open-mcq-15"
+        "open-mcq-25",
+        "open-mcq-22"
       ],
       "explanation": "本句的「open competition」指「公開比賽」。",
       "sentenceIndex": 42,
@@ -2171,12 +2017,10 @@ export default {
         "open competition"
       ],
       "optionReasons": {
-        "open-mcq-18": "本句指「公開比賽」。",
-        "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。",
-        "open-mcq-19": "「開放存取」是「open access」的用法，與本句語境不同。",
-        "open-mcq-16": "「開放／空曠空間」是「open space」的用法，與本句語境不同。",
-        "open-mcq-20": "「願意接受想法」是「open to ideas」的用法，與本句語境不同。",
-        "open-mcq-15": "「職位空缺」是「job opening」的用法，與本句語境不同。"
+        "open-mcq-18": "本句的「open competition」指「公開比賽」。",
+        "open-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-18"
     },
@@ -2188,11 +2032,9 @@ export default {
       "masked": "The database provides ____ to research papers.",
       "options": [
         "open-mcq-19",
-        "open-mcq-18",
-        "open-mcq-20",
-        "open-mcq-17",
-        "open-mcq-21",
-        "open-mcq-16"
+        "open-mcq-35",
+        "open-pdf-003",
+        "open-mcq-08"
       ],
       "explanation": "本句的「open access」指「開放存取」。",
       "sentenceIndex": 43,
@@ -2201,12 +2043,10 @@ export default {
         "open access"
       ],
       "optionReasons": {
-        "open-mcq-19": "本句指「開放存取」。",
-        "open-mcq-18": "「公開比賽」是「open competition」的用法，與本句語境不同。",
-        "open-mcq-20": "「願意接受想法」是「open to ideas」的用法，與本句語境不同。",
-        "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。",
-        "open-mcq-21": "「思想開放的」是「open-minded」的用法，與本句語境不同。",
-        "open-mcq-16": "「開放／空曠空間」是「open space」的用法，與本句語境不同。"
+        "open-mcq-19": "本句的「open access」指「開放存取」。",
+        "open-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-19"
     },
@@ -2218,11 +2058,9 @@ export default {
       "masked": "The park offers ____ throughout the year.",
       "options": [
         "open-mcq-19",
-        "open-mcq-18",
-        "open-mcq-20",
-        "open-mcq-17",
-        "open-mcq-21",
-        "open-mcq-16"
+        "open-mcq-29",
+        "open-mcq-07",
+        "open-pdf-002"
       ],
       "explanation": "本句的「open access」指「開放存取」。",
       "sentenceIndex": 44,
@@ -2231,12 +2069,10 @@ export default {
         "open access"
       ],
       "optionReasons": {
-        "open-mcq-19": "本句指「開放存取」。",
-        "open-mcq-18": "「公開比賽」是「open competition」的用法，與本句語境不同。",
-        "open-mcq-20": "「願意接受想法」是「open to ideas」的用法，與本句語境不同。",
-        "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。",
-        "open-mcq-21": "「思想開放的」是「open-minded」的用法，與本句語境不同。",
-        "open-mcq-16": "「開放／空曠空間」是「open space」的用法，與本句語境不同。"
+        "open-mcq-19": "本句的「open access」指「開放存取」。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-19"
     },
@@ -2248,11 +2084,9 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "open-mcq-20",
-        "open-mcq-19",
-        "open-mcq-21",
-        "open-mcq-18",
-        "open-mcq-22",
-        "open-mcq-17"
+        "open-pdf-001",
+        "open-pdf-003",
+        "open-mcq-01"
       ],
       "explanation": "本句的「open to suggestions」指「願意接受想法」。",
       "sentenceIndex": 45,
@@ -2261,12 +2095,10 @@ export default {
         "open to suggestions"
       ],
       "optionReasons": {
-        "open-mcq-20": "本句指「願意接受想法」。",
-        "open-mcq-19": "「開放存取」是「open access」的用法，與本句語境不同。",
-        "open-mcq-21": "「思想開放的」是「open-minded」的用法，與本句語境不同。",
-        "open-mcq-18": "「公開比賽」是「open competition」的用法，與本句語境不同。",
-        "open-mcq-22": "「對 X 坦率」是「open about X」的用法，與本句語境不同。",
-        "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。"
+        "open-mcq-20": "本句的「open to suggestions」指「願意接受想法」。",
+        "open-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-20"
     },
@@ -2278,11 +2110,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "open-mcq-20",
-        "open-mcq-19",
-        "open-mcq-21",
-        "open-mcq-18",
-        "open-mcq-22",
-        "open-mcq-17"
+        "open-mcq-06",
+        "open-mcq-08",
+        "open-mcq-29"
       ],
       "explanation": "本句的「open to new ideas」指「願意接受想法」。",
       "sentenceIndex": 46,
@@ -2291,12 +2121,10 @@ export default {
         "open to new ideas"
       ],
       "optionReasons": {
-        "open-mcq-20": "本句指「願意接受想法」。",
-        "open-mcq-19": "「開放存取」是「open access」的用法，與本句語境不同。",
-        "open-mcq-21": "「思想開放的」是「open-minded」的用法，與本句語境不同。",
-        "open-mcq-18": "「公開比賽」是「open competition」的用法，與本句語境不同。",
-        "open-mcq-22": "「對 X 坦率」是「open about X」的用法，與本句語境不同。",
-        "open-mcq-17": "「向公眾開放」是「open to public」的用法，與本句語境不同。"
+        "open-mcq-20": "本句的「open to new ideas」指「願意接受想法」。",
+        "open-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-20"
     },
@@ -2308,11 +2136,9 @@ export default {
       "masked": "Try to keep an ____.",
       "options": [
         "open-mcq-21",
-        "open-mcq-20",
-        "open-mcq-22",
-        "open-mcq-19",
-        "open-mcq-23",
-        "open-mcq-18"
+        "open-mcq-37",
+        "open-mcq-29",
+        "open-mcq-07"
       ],
       "explanation": "本句的「open mind」指「思想開放的」。",
       "sentenceIndex": 47,
@@ -2321,12 +2147,10 @@ export default {
         "open mind"
       ],
       "optionReasons": {
-        "open-mcq-21": "本句指「思想開放的」。",
-        "open-mcq-20": "「願意接受想法」是「open to ideas」的用法，與本句語境不同。",
-        "open-mcq-22": "「對 X 坦率」是「open about X」的用法，與本句語境不同。",
-        "open-mcq-19": "「開放存取」是「open access」的用法，與本句語境不同。",
-        "open-mcq-23": "「公開地；坦率地」是「openly」的用法，與本句語境不同。",
-        "open-mcq-18": "「公開比賽」是「open competition」的用法，與本句語境不同。"
+        "open-mcq-21": "本句的「open mind」指「思想開放的」。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-21"
     },
@@ -2338,11 +2162,9 @@ export default {
       "masked": "She is very ____ about different lifestyles.",
       "options": [
         "open-mcq-21",
-        "open-mcq-20",
-        "open-mcq-22",
-        "open-mcq-19",
-        "open-mcq-23",
-        "open-mcq-18"
+        "open-mcq-36",
+        "open-mcq-15",
+        "open-mcq-22"
       ],
       "explanation": "本句的「open-minded」指「思想開放的」。",
       "sentenceIndex": 48,
@@ -2351,12 +2173,10 @@ export default {
         "open-minded"
       ],
       "optionReasons": {
-        "open-mcq-21": "本句指「思想開放的」。",
-        "open-mcq-20": "「願意接受想法」是「open to ideas」的用法，與本句語境不同。",
-        "open-mcq-22": "「對 X 坦率」是「open about X」的用法，與本句語境不同。",
-        "open-mcq-19": "「開放存取」是「open access」的用法，與本句語境不同。",
-        "open-mcq-23": "「公開地；坦率地」是「openly」的用法，與本句語境不同。",
-        "open-mcq-18": "「公開比賽」是「open competition」的用法，與本句語境不同。"
+        "open-mcq-21": "本句的「open-minded」指「思想開放的」。",
+        "open-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-21"
     },
@@ -2368,11 +2188,9 @@ export default {
       "masked": "He's very ____.",
       "options": [
         "open-mcq-35",
-        "open-mcq-34",
-        "open-mcq-36",
-        "open-mcq-33",
-        "open-mcq-37",
-        "open-mcq-32"
+        "open-mcq-15",
+        "open-mcq-09",
+        "open-mcq-08"
       ],
       "explanation": "本句的「open about his feelings」指「願意坦白表達想法、感受或個人情況，不刻意隱瞞」。",
       "sentenceIndex": 49,
@@ -2381,12 +2199,10 @@ export default {
         "open about his feelings"
       ],
       "optionReasons": {
-        "open-mcq-35": "本句指「願意坦白表達想法、感受或個人情況，不刻意隱瞞」。",
-        "open-mcq-34": "「機會；突破口」是「opening (opportunity)」的用法，與本句語境不同。",
-        "open-mcq-36": "「不把某個選項、可能性或決定封死，仍保留考慮空間」是「33. open possibility / option — 尚可考慮的可能性／選項」的用法，與本句語境不同。",
-        "open-mcq-33": "「開火」是「open fire」的用法，與本句語境不同。",
-        "open-mcq-37": "「可讓某人採取行動、進入或取得優勢的空隙或機會」是「40. opening（機會；空間） — 可利用的機會／突破口」的用法，與本句語境不同。",
-        "open-mcq-32": "「開創機會」是「open up opportunities」的用法，與本句語境不同。"
+        "open-mcq-35": "本句的「open about his feelings」指「願意坦白表達想法、感受或個人情況，不刻意隱瞞」。",
+        "open-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-35"
     },
@@ -2398,11 +2214,9 @@ export default {
       "masked": "She is an ____.",
       "options": [
         "open-mcq-35",
-        "open-mcq-34",
-        "open-mcq-36",
-        "open-mcq-33",
-        "open-mcq-37",
-        "open-mcq-32"
+        "open-mcq-19",
+        "open-mcq-28",
+        "open-reviewed-e08d8fa7b2"
       ],
       "explanation": "本句的「open and honest person」指「願意坦白表達想法、感受或個人情況，不刻意隱瞞」。",
       "sentenceIndex": 50,
@@ -2411,12 +2225,10 @@ export default {
         "open and honest person"
       ],
       "optionReasons": {
-        "open-mcq-35": "本句指「願意坦白表達想法、感受或個人情況，不刻意隱瞞」。",
-        "open-mcq-34": "「機會；突破口」是「opening (opportunity)」的用法，與本句語境不同。",
-        "open-mcq-36": "「不把某個選項、可能性或決定封死，仍保留考慮空間」是「33. open possibility / option — 尚可考慮的可能性／選項」的用法，與本句語境不同。",
-        "open-mcq-33": "「開火」是「open fire」的用法，與本句語境不同。",
-        "open-mcq-37": "「可讓某人採取行動、進入或取得優勢的空隙或機會」是「40. opening（機會；空間） — 可利用的機會／突破口」的用法，與本句語境不同。",
-        "open-mcq-32": "「開創機會」是「open up opportunities」的用法，與本句語境不同。"
+        "open-mcq-35": "本句的「open and honest person」指「願意坦白表達想法、感受或個人情況，不刻意隱瞞」。",
+        "open-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "open-reviewed-e08d8fa7b2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-35"
     },
@@ -2428,11 +2240,9 @@ export default {
       "masked": "She has always been ____.",
       "options": [
         "open-mcq-22",
-        "open-mcq-21",
-        "open-mcq-23",
-        "open-mcq-20",
-        "open-mcq-24",
-        "open-mcq-19"
+        "open-mcq-07",
+        "open-mcq-18",
+        "open-mcq-25"
       ],
       "explanation": "本句的「open about her mistakes」指「對 X 坦率」。",
       "sentenceIndex": 51,
@@ -2441,12 +2251,10 @@ export default {
         "open about her mistakes"
       ],
       "optionReasons": {
-        "open-mcq-22": "本句指「對 X 坦率」。",
-        "open-mcq-21": "「思想開放的」是「open-minded」的用法，與本句語境不同。",
-        "open-mcq-23": "「公開地；坦率地」是「openly」的用法，與本句語境不同。",
-        "open-mcq-20": "「願意接受想法」是「open to ideas」的用法，與本句語境不同。",
-        "open-mcq-24": "「開放；坦率」是「openness」的用法，與本句語境不同。",
-        "open-mcq-19": "「開放存取」是「open access」的用法，與本句語境不同。"
+        "open-mcq-22": "本句的「open about her mistakes」指「對 X 坦率」。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-22"
     },
@@ -2458,11 +2266,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "open-mcq-22",
-        "open-mcq-21",
-        "open-mcq-23",
-        "open-mcq-20",
-        "open-mcq-24",
-        "open-mcq-19"
+        "open-mcq-16",
+        "open-mcq-15",
+        "open-mcq-04"
       ],
       "explanation": "本句的「open about what had happened」指「對 X 坦率」。",
       "sentenceIndex": 52,
@@ -2471,12 +2277,10 @@ export default {
         "open about what had happened"
       ],
       "optionReasons": {
-        "open-mcq-22": "本句指「對 X 坦率」。",
-        "open-mcq-21": "「思想開放的」是「open-minded」的用法，與本句語境不同。",
-        "open-mcq-23": "「公開地；坦率地」是「openly」的用法，與本句語境不同。",
-        "open-mcq-20": "「願意接受想法」是「open to ideas」的用法，與本句語境不同。",
-        "open-mcq-24": "「開放；坦率」是「openness」的用法，與本句語境不同。",
-        "open-mcq-19": "「開放存取」是「open access」的用法，與本句語境不同。"
+        "open-mcq-22": "本句的「open about what had happened」指「對 X 坦率」。",
+        "open-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-22"
     },
@@ -2488,11 +2292,9 @@ export default {
       "masked": "They ____ the problem.",
       "options": [
         "open-mcq-23",
-        "open-mcq-22",
-        "open-mcq-24",
-        "open-mcq-21",
-        "open-mcq-25",
-        "open-mcq-20"
+        "open-mcq-07",
+        "open-pdf-003",
+        "open-mcq-37"
       ],
       "explanation": "本句的「openly discussed」指「公開地；坦率地」。",
       "sentenceIndex": 53,
@@ -2501,12 +2303,10 @@ export default {
         "openly discussed"
       ],
       "optionReasons": {
-        "open-mcq-23": "本句指「公開地；坦率地」。",
-        "open-mcq-22": "「對 X 坦率」是「open about X」的用法，與本句語境不同。",
-        "open-mcq-24": "「開放；坦率」是「openness」的用法，與本句語境不同。",
-        "open-mcq-21": "「思想開放的」是「open-minded」的用法，與本句語境不同。",
-        "open-mcq-25": "「尚未有定論的問題」是「open question」的用法，與本句語境不同。",
-        "open-mcq-20": "「願意接受想法」是「open to ideas」的用法，與本句語境不同。"
+        "open-mcq-23": "本句的「openly discussed」指「公開地；坦率地」。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-23"
     },
@@ -2518,11 +2318,9 @@ export default {
       "masked": "She ____ that she had been wrong.",
       "options": [
         "open-mcq-23",
-        "open-mcq-22",
-        "open-mcq-24",
-        "open-mcq-21",
-        "open-mcq-25",
-        "open-mcq-20"
+        "open-mcq-29",
+        "open-mcq-15",
+        "open-pdf-003"
       ],
       "explanation": "本句的「openly admitted」指「公開地；坦率地」。",
       "sentenceIndex": 54,
@@ -2531,12 +2329,10 @@ export default {
         "openly admitted"
       ],
       "optionReasons": {
-        "open-mcq-23": "本句指「公開地；坦率地」。",
-        "open-mcq-22": "「對 X 坦率」是「open about X」的用法，與本句語境不同。",
-        "open-mcq-24": "「開放；坦率」是「openness」的用法，與本句語境不同。",
-        "open-mcq-21": "「思想開放的」是「open-minded」的用法，與本句語境不同。",
-        "open-mcq-25": "「尚未有定論的問題」是「open question」的用法，與本句語境不同。",
-        "open-mcq-20": "「願意接受想法」是「open to ideas」的用法，與本句語境不同。"
+        "open-mcq-23": "本句的「openly admitted」指「公開地；坦率地」。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-23"
     },
@@ -2548,11 +2344,9 @@ export default {
       "masked": "I appreciate her ____.",
       "options": [
         "open-mcq-24",
-        "open-mcq-23",
-        "open-mcq-25",
-        "open-mcq-22",
-        "open-mcq-26",
-        "open-mcq-21"
+        "open-pdf-002",
+        "open-mcq-36",
+        "open-mcq-07"
       ],
       "explanation": "本句的「openness」指「開放；坦率」。",
       "sentenceIndex": 55,
@@ -2561,12 +2355,10 @@ export default {
         "openness"
       ],
       "optionReasons": {
-        "open-mcq-24": "本句指「開放；坦率」。",
-        "open-mcq-23": "「公開地；坦率地」是「openly」的用法，與本句語境不同。",
-        "open-mcq-25": "「尚未有定論的問題」是「open question」的用法，與本句語境不同。",
-        "open-mcq-22": "「對 X 坦率」是「open about X」的用法，與本句語境不同。",
-        "open-mcq-26": "「開放式的」是「open-ended」的用法，與本句語境不同。",
-        "open-mcq-21": "「思想開放的」是「open-minded」的用法，與本句語境不同。"
+        "open-mcq-24": "本句的「openness」指「開放；坦率」。",
+        "open-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-24"
     },
@@ -2578,11 +2370,9 @@ export default {
       "masked": "The team values ____.",
       "options": [
         "open-mcq-24",
-        "open-mcq-23",
-        "open-mcq-25",
-        "open-mcq-22",
-        "open-mcq-26",
-        "open-mcq-21"
+        "open-mcq-29",
+        "open-pdf-003",
+        "open-mcq-08"
       ],
       "explanation": "本句的「openness to new ideas」指「開放；坦率」。",
       "sentenceIndex": 56,
@@ -2591,12 +2381,10 @@ export default {
         "openness to new ideas"
       ],
       "optionReasons": {
-        "open-mcq-24": "本句指「開放；坦率」。",
-        "open-mcq-23": "「公開地；坦率地」是「openly」的用法，與本句語境不同。",
-        "open-mcq-25": "「尚未有定論的問題」是「open question」的用法，與本句語境不同。",
-        "open-mcq-22": "「對 X 坦率」是「open about X」的用法，與本句語境不同。",
-        "open-mcq-26": "「開放式的」是「open-ended」的用法，與本句語境不同。",
-        "open-mcq-21": "「思想開放的」是「open-minded」的用法，與本句語境不同。"
+        "open-mcq-24": "本句的「openness to new ideas」指「開放；坦率」。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-24"
     },
@@ -2608,11 +2396,9 @@ export default {
       "masked": "Whether the plan will work remains an ____.",
       "options": [
         "open-mcq-25",
-        "open-mcq-24",
-        "open-mcq-26",
-        "open-mcq-23",
-        "open-mcq-27",
-        "open-mcq-22"
+        "open-mcq-19",
+        "open-mcq-28",
+        "open-mcq-29"
       ],
       "explanation": "本句的「open question」指「尚未有定論的問題」。",
       "sentenceIndex": 57,
@@ -2621,12 +2407,10 @@ export default {
         "open question"
       ],
       "optionReasons": {
-        "open-mcq-25": "本句指「尚未有定論的問題」。",
-        "open-mcq-24": "「開放；坦率」是「openness」的用法，與本句語境不同。",
-        "open-mcq-26": "「開放式的」是「open-ended」的用法，與本句語境不同。",
-        "open-mcq-23": "「公開地；坦率地」是「openly」的用法，與本句語境不同。",
-        "open-mcq-27": "「公開的秘密」是「open secret」的用法，與本句語境不同。",
-        "open-mcq-22": "「對 X 坦率」是「open about X」的用法，與本句語境不同。"
+        "open-mcq-25": "本句的「open question」指「尚未有定論的問題」。",
+        "open-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-25"
     },
@@ -2638,11 +2422,9 @@ export default {
       "masked": "The cause of the problem is still an ____.",
       "options": [
         "open-mcq-25",
-        "open-mcq-24",
-        "open-mcq-26",
-        "open-mcq-23",
-        "open-mcq-27",
-        "open-mcq-22"
+        "open-mcq-13",
+        "open-mcq-08",
+        "open-mcq-29"
       ],
       "explanation": "本句的「open question」指「尚未有定論的問題」。",
       "sentenceIndex": 58,
@@ -2651,12 +2433,10 @@ export default {
         "open question"
       ],
       "optionReasons": {
-        "open-mcq-25": "本句指「尚未有定論的問題」。",
-        "open-mcq-24": "「開放；坦率」是「openness」的用法，與本句語境不同。",
-        "open-mcq-26": "「開放式的」是「open-ended」的用法，與本句語境不同。",
-        "open-mcq-23": "「公開地；坦率地」是「openly」的用法，與本句語境不同。",
-        "open-mcq-27": "「公開的秘密」是「open secret」的用法，與本句語境不同。",
-        "open-mcq-22": "「對 X 坦率」是「open about X」的用法，與本句語境不同。"
+        "open-mcq-25": "本句的「open question」指「尚未有定論的問題」。",
+        "open-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-25"
     },
@@ -2668,11 +2448,9 @@ export default {
       "masked": "The teacher asked an ____.",
       "options": [
         "open-mcq-26",
-        "open-mcq-25",
-        "open-mcq-27",
-        "open-mcq-24",
-        "open-mcq-28",
-        "open-mcq-23"
+        "open-mcq-36",
+        "open-mcq-20",
+        "open-mcq-15"
       ],
       "explanation": "本句的「open-ended question」指「開放式的」。",
       "sentenceIndex": 59,
@@ -2681,12 +2459,10 @@ export default {
         "open-ended question"
       ],
       "optionReasons": {
-        "open-mcq-26": "本句指「開放式的」。",
-        "open-mcq-25": "「尚未有定論的問題」是「open question」的用法，與本句語境不同。",
-        "open-mcq-27": "「公開的秘密」是「open secret」的用法，與本句語境不同。",
-        "open-mcq-24": "「開放；坦率」是「openness」的用法，與本句語境不同。",
-        "open-mcq-28": "「公開／長期有效邀請」是「open invitation」的用法，與本句語境不同。",
-        "open-mcq-23": "「公開地；坦率地」是「openly」的用法，與本句語境不同。"
+        "open-mcq-26": "本句的「open-ended question」指「開放式的」。",
+        "open-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-26"
     },
@@ -2698,11 +2474,9 @@ export default {
       "masked": "The discussion was deliberately ____.",
       "options": [
         "open-mcq-26",
-        "open-mcq-25",
-        "open-mcq-27",
-        "open-mcq-24",
-        "open-mcq-28",
-        "open-mcq-23"
+        "open-pdf-002",
+        "open-mcq-29",
+        "open-mcq-37"
       ],
       "explanation": "本句的「open-ended」指「開放式的」。",
       "sentenceIndex": 60,
@@ -2711,12 +2485,10 @@ export default {
         "open-ended"
       ],
       "optionReasons": {
-        "open-mcq-26": "本句指「開放式的」。",
-        "open-mcq-25": "「尚未有定論的問題」是「open question」的用法，與本句語境不同。",
-        "open-mcq-27": "「公開的秘密」是「open secret」的用法，與本句語境不同。",
-        "open-mcq-24": "「開放；坦率」是「openness」的用法，與本句語境不同。",
-        "open-mcq-28": "「公開／長期有效邀請」是「open invitation」的用法，與本句語境不同。",
-        "open-mcq-23": "「公開地；坦率地」是「openly」的用法，與本句語境不同。"
+        "open-mcq-26": "本句的「open-ended」指「開放式的」。",
+        "open-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-26"
     },
@@ -2728,11 +2500,9 @@ export default {
       "masked": "Their disagreement was an ____.",
       "options": [
         "open-mcq-27",
-        "open-mcq-26",
-        "open-mcq-28",
-        "open-mcq-25",
-        "open-mcq-29",
-        "open-mcq-24"
+        "open-mcq-22",
+        "open-mcq-07",
+        "open-pdf-003"
       ],
       "explanation": "本句的「open secret」指「公開的秘密」。",
       "sentenceIndex": 61,
@@ -2741,12 +2511,10 @@ export default {
         "open secret"
       ],
       "optionReasons": {
-        "open-mcq-27": "本句指「公開的秘密」。",
-        "open-mcq-26": "「開放式的」是「open-ended」的用法，與本句語境不同。",
-        "open-mcq-28": "「公開／長期有效邀請」是「open invitation」的用法，與本句語境不同。",
-        "open-mcq-25": "「尚未有定論的問題」是「open question」的用法，與本句語境不同。",
-        "open-mcq-29": "「保留選擇」是「keep options open」的用法，與本句語境不同。",
-        "open-mcq-24": "「開放；坦率」是「openness」的用法，與本句語境不同。"
+        "open-mcq-27": "本句的「open secret」指「公開的秘密」。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-27"
     },
@@ -2758,11 +2526,9 @@ export default {
       "masked": "It was an ____ that the company planned to move.",
       "options": [
         "open-mcq-27",
-        "open-mcq-26",
-        "open-mcq-28",
-        "open-mcq-25",
-        "open-mcq-29",
-        "open-mcq-24"
+        "open-mcq-37",
+        "open-mcq-07",
+        "open-mcq-29"
       ],
       "explanation": "本句的「open secret」指「公開的秘密」。",
       "sentenceIndex": 62,
@@ -2771,12 +2537,10 @@ export default {
         "open secret"
       ],
       "optionReasons": {
-        "open-mcq-27": "本句指「公開的秘密」。",
-        "open-mcq-26": "「開放式的」是「open-ended」的用法，與本句語境不同。",
-        "open-mcq-28": "「公開／長期有效邀請」是「open invitation」的用法，與本句語境不同。",
-        "open-mcq-25": "「尚未有定論的問題」是「open question」的用法，與本句語境不同。",
-        "open-mcq-29": "「保留選擇」是「keep options open」的用法，與本句語境不同。",
-        "open-mcq-24": "「開放；坦率」是「openness」的用法，與本句語境不同。"
+        "open-mcq-27": "本句的「open secret」指「公開的秘密」。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-27"
     },
@@ -2788,10 +2552,8 @@ export default {
       "masked": "You have an ____ to visit us anytime.",
       "options": [
         "open-mcq-28",
-        "open-mcq-27",
-        "open-mcq-29",
-        "open-mcq-26",
-        "open-mcq-30",
+        "open-mcq-22",
+        "open-mcq-20",
         "open-mcq-25"
       ],
       "explanation": "本句的「open invitation」指「公開／長期有效邀請」。",
@@ -2801,12 +2563,10 @@ export default {
         "open invitation"
       ],
       "optionReasons": {
-        "open-mcq-28": "本句指「公開／長期有效邀請」。",
-        "open-mcq-27": "「公開的秘密」是「open secret」的用法，與本句語境不同。",
-        "open-mcq-29": "「保留選擇」是「keep options open」的用法，與本句語境不同。",
-        "open-mcq-26": "「開放式的」是「open-ended」的用法，與本句語境不同。",
-        "open-mcq-30": "「開始理解／接受 X」是「open your mind/eyes to X」的用法，與本句語境不同。",
-        "open-mcq-25": "「尚未有定論的問題」是「open question」的用法，與本句語境不同。"
+        "open-mcq-28": "本句的「open invitation」指「公開／長期有效邀請」。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-28"
     },
@@ -2818,11 +2578,9 @@ export default {
       "masked": "The message was effectively an ____ to join.",
       "options": [
         "open-mcq-28",
-        "open-mcq-27",
-        "open-mcq-29",
-        "open-mcq-26",
-        "open-mcq-30",
-        "open-mcq-25"
+        "open-mcq-15",
+        "open-mcq-22",
+        "open-mcq-29"
       ],
       "explanation": "本句的「open invitation」指「公開／長期有效邀請」。",
       "sentenceIndex": 64,
@@ -2831,12 +2589,10 @@ export default {
         "open invitation"
       ],
       "optionReasons": {
-        "open-mcq-28": "本句指「公開／長期有效邀請」。",
-        "open-mcq-27": "「公開的秘密」是「open secret」的用法，與本句語境不同。",
-        "open-mcq-29": "「保留選擇」是「keep options open」的用法，與本句語境不同。",
-        "open-mcq-26": "「開放式的」是「open-ended」的用法，與本句語境不同。",
-        "open-mcq-30": "「開始理解／接受 X」是「open your mind/eyes to X」的用法，與本句語境不同。",
-        "open-mcq-25": "「尚未有定論的問題」是「open question」的用法，與本句語境不同。"
+        "open-mcq-28": "本句的「open invitation」指「公開／長期有效邀請」。",
+        "open-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-28"
     },
@@ -2848,11 +2604,9 @@ export default {
       "masked": "Moving abroad is still an ____.",
       "options": [
         "open-mcq-36",
-        "open-mcq-35",
-        "open-mcq-37",
-        "open-mcq-34",
-        "open-mcq-33",
-        "open-mcq-32"
+        "open-mcq-30",
+        "open-mcq-18",
+        "open-mcq-24"
       ],
       "explanation": "本句的「open possibility」指「不把某個選項、可能性或決定封死，仍保留考慮空間」。",
       "sentenceIndex": 65,
@@ -2861,12 +2615,10 @@ export default {
         "open possibility"
       ],
       "optionReasons": {
-        "open-mcq-36": "本句指「不把某個選項、可能性或決定封死，仍保留考慮空間」。",
-        "open-mcq-35": "「願意坦白表達想法、感受或個人情況，不刻意隱瞞」是「25. open person — 坦率的；願意分享的」的用法，與本句語境不同。",
-        "open-mcq-37": "「可讓某人採取行動、進入或取得優勢的空隙或機會」是「40. opening（機會；空間） — 可利用的機會／突破口」的用法，與本句語境不同。",
-        "open-mcq-34": "「機會；突破口」是「opening (opportunity)」的用法，與本句語境不同。",
-        "open-mcq-33": "「開火」是「open fire」的用法，與本句語境不同。",
-        "open-mcq-32": "「開創機會」是「open up opportunities」的用法，與本句語境不同。"
+        "open-mcq-36": "本句的「open possibility」指「不把某個選項、可能性或決定封死，仍保留考慮空間」。",
+        "open-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-36"
     },
@@ -2878,11 +2630,9 @@ export default {
       "masked": "We should keep all our options ____.",
       "options": [
         "open-mcq-36",
+        "open-mcq-09",
         "open-mcq-35",
-        "open-mcq-37",
-        "open-mcq-34",
-        "open-mcq-33",
-        "open-mcq-32"
+        "open-mcq-07"
       ],
       "explanation": "本句的「open」指「不把某個選項、可能性或決定封死，仍保留考慮空間」。",
       "sentenceIndex": 66,
@@ -2891,12 +2641,10 @@ export default {
         "open"
       ],
       "optionReasons": {
-        "open-mcq-36": "本句指「不把某個選項、可能性或決定封死，仍保留考慮空間」。",
-        "open-mcq-35": "「願意坦白表達想法、感受或個人情況，不刻意隱瞞」是「25. open person — 坦率的；願意分享的」的用法，與本句語境不同。",
-        "open-mcq-37": "「可讓某人採取行動、進入或取得優勢的空隙或機會」是「40. opening（機會；空間） — 可利用的機會／突破口」的用法，與本句語境不同。",
-        "open-mcq-34": "「機會；突破口」是「opening (opportunity)」的用法，與本句語境不同。",
-        "open-mcq-33": "「開火」是「open fire」的用法，與本句語境不同。",
-        "open-mcq-32": "「開創機會」是「open up opportunities」的用法，與本句語境不同。"
+        "open-mcq-36": "本句的「open」指「不把某個選項、可能性或決定封死，仍保留考慮空間」。",
+        "open-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-36"
     },
@@ -2908,11 +2656,9 @@ export default {
       "masked": "Try to ____ until you've heard both sides.",
       "options": [
         "open-mcq-29",
-        "open-mcq-28",
-        "open-mcq-30",
-        "open-mcq-27",
-        "open-mcq-31",
-        "open-mcq-26"
+        "open-mcq-13",
+        "open-pdf-003",
+        "open-mcq-08"
       ],
       "explanation": "本句的「keep an open mind」指「保留選擇」。",
       "sentenceIndex": 67,
@@ -2921,12 +2667,10 @@ export default {
         "keep an open mind"
       ],
       "optionReasons": {
-        "open-mcq-29": "本句指「保留選擇」。",
-        "open-mcq-28": "「公開／長期有效邀請」是「open invitation」的用法，與本句語境不同。",
-        "open-mcq-30": "「開始理解／接受 X」是「open your mind/eyes to X」的用法，與本句語境不同。",
-        "open-mcq-27": "「公開的秘密」是「open secret」的用法，與本句語境不同。",
-        "open-mcq-31": "「打開；敞開心扉」是「open up」的用法，與本句語境不同。",
-        "open-mcq-26": "「開放式的」是「open-ended」的用法，與本句語境不同。"
+        "open-mcq-29": "本句的「keep an open mind」指「保留選擇」。",
+        "open-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-29"
     },
@@ -2938,11 +2682,9 @@ export default {
       "masked": "Good researchers must ____.",
       "options": [
         "open-mcq-29",
-        "open-mcq-28",
-        "open-mcq-30",
-        "open-mcq-27",
-        "open-mcq-31",
-        "open-mcq-26"
+        "open-mcq-23",
+        "open-mcq-16",
+        "open-mcq-37"
       ],
       "explanation": "本句的「keep an open mind」指「保留選擇」。",
       "sentenceIndex": 68,
@@ -2951,12 +2693,10 @@ export default {
         "keep an open mind"
       ],
       "optionReasons": {
-        "open-mcq-29": "本句指「保留選擇」。",
-        "open-mcq-28": "「公開／長期有效邀請」是「open invitation」的用法，與本句語境不同。",
-        "open-mcq-30": "「開始理解／接受 X」是「open your mind/eyes to X」的用法，與本句語境不同。",
-        "open-mcq-27": "「公開的秘密」是「open secret」的用法，與本句語境不同。",
-        "open-mcq-31": "「打開；敞開心扉」是「open up」的用法，與本句語境不同。",
-        "open-mcq-26": "「開放式的」是「open-ended」的用法，與本句語境不同。"
+        "open-mcq-29": "本句的「keep an open mind」指「保留選擇」。",
+        "open-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-29"
     },
@@ -2968,11 +2708,9 @@ export default {
       "masked": "Travel ____ different cultures.",
       "options": [
         "open-mcq-30",
-        "open-mcq-29",
-        "open-mcq-31",
-        "open-mcq-28",
-        "open-mcq-32",
-        "open-mcq-27"
+        "open-mcq-15",
+        "open-mcq-36",
+        "open-mcq-07"
       ],
       "explanation": "本句的「opened my eyes to」指「開始理解／接受 X」。",
       "sentenceIndex": 69,
@@ -2981,12 +2719,10 @@ export default {
         "opened my eyes to"
       ],
       "optionReasons": {
-        "open-mcq-30": "本句指「開始理解／接受 X」。",
-        "open-mcq-29": "「保留選擇」是「keep options open」的用法，與本句語境不同。",
-        "open-mcq-31": "「打開；敞開心扉」是「open up」的用法，與本句語境不同。",
-        "open-mcq-28": "「公開／長期有效邀請」是「open invitation」的用法，與本句語境不同。",
-        "open-mcq-32": "「開創機會」是「open up opportunities」的用法，與本句語境不同。",
-        "open-mcq-27": "「公開的秘密」是「open secret」的用法，與本句語境不同。"
+        "open-mcq-30": "本句的「opened my eyes to」指「開始理解／接受 X」。",
+        "open-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-30"
     },
@@ -2998,11 +2734,9 @@ export default {
       "masked": "The book ____ new possibilities.",
       "options": [
         "open-mcq-30",
-        "open-mcq-29",
-        "open-mcq-31",
-        "open-mcq-28",
-        "open-mcq-32",
-        "open-mcq-27"
+        "open-pdf-003",
+        "open-mcq-25",
+        "open-mcq-29"
       ],
       "explanation": "本句的「opened his mind to」指「開始理解／接受 X」。",
       "sentenceIndex": 70,
@@ -3011,12 +2745,10 @@ export default {
         "opened his mind to"
       ],
       "optionReasons": {
-        "open-mcq-30": "本句指「開始理解／接受 X」。",
-        "open-mcq-29": "「保留選擇」是「keep options open」的用法，與本句語境不同。",
-        "open-mcq-31": "「打開；敞開心扉」是「open up」的用法，與本句語境不同。",
-        "open-mcq-28": "「公開／長期有效邀請」是「open invitation」的用法，與本句語境不同。",
-        "open-mcq-32": "「開創機會」是「open up opportunities」的用法，與本句語境不同。",
-        "open-mcq-27": "「公開的秘密」是「open secret」的用法，與本句語境不同。"
+        "open-mcq-30": "本句的「opened his mind to」指「開始理解／接受 X」。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-30"
     },
@@ -3028,11 +2760,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "open-mcq-31",
-        "open-mcq-30",
-        "open-mcq-32",
+        "open-mcq-22",
         "open-mcq-29",
-        "open-mcq-33",
-        "open-mcq-28"
+        "open-mcq-25"
       ],
       "explanation": "本句的「opened up the box」指「打開；敞開心扉」。",
       "sentenceIndex": 71,
@@ -3041,12 +2771,10 @@ export default {
         "opened up the box"
       ],
       "optionReasons": {
-        "open-mcq-31": "本句指「打開；敞開心扉」。",
-        "open-mcq-30": "「開始理解／接受 X」是「open your mind/eyes to X」的用法，與本句語境不同。",
-        "open-mcq-32": "「開創機會」是「open up opportunities」的用法，與本句語境不同。",
-        "open-mcq-29": "「保留選擇」是「keep options open」的用法，與本句語境不同。",
-        "open-mcq-33": "「開火」是「open fire」的用法，與本句語境不同。",
-        "open-mcq-28": "「公開／長期有效邀請」是「open invitation」的用法，與本句語境不同。"
+        "open-mcq-31": "本句的「opened up the box」指「打開；敞開心扉」。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-31"
     },
@@ -3058,11 +2786,9 @@ export default {
       "masked": "The flowers ____ in the sunlight.",
       "options": [
         "open-mcq-31",
-        "open-mcq-30",
-        "open-mcq-32",
-        "open-mcq-29",
-        "open-mcq-33",
-        "open-mcq-28"
+        "open-mcq-37",
+        "open-mcq-07",
+        "open-mcq-15"
       ],
       "explanation": "本句的「opened up」指「打開；敞開心扉」。",
       "sentenceIndex": 72,
@@ -3071,12 +2797,10 @@ export default {
         "opened up"
       ],
       "optionReasons": {
-        "open-mcq-31": "本句指「打開；敞開心扉」。",
-        "open-mcq-30": "「開始理解／接受 X」是「open your mind/eyes to X」的用法，與本句語境不同。",
-        "open-mcq-32": "「開創機會」是「open up opportunities」的用法，與本句語境不同。",
-        "open-mcq-29": "「保留選擇」是「keep options open」的用法，與本句語境不同。",
-        "open-mcq-33": "「開火」是「open fire」的用法，與本句語境不同。",
-        "open-mcq-28": "「公開／長期有效邀請」是「open invitation」的用法，與本句語境不同。"
+        "open-mcq-31": "本句的「opened up」指「打開；敞開心扉」。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-31"
     },
@@ -3088,11 +2812,9 @@ export default {
       "masked": "It took him a while to ____.",
       "options": [
         "open-mcq-31",
-        "open-mcq-30",
-        "open-mcq-32",
+        "open-mcq-07",
         "open-mcq-29",
-        "open-mcq-33",
-        "open-mcq-28"
+        "open-mcq-35"
       ],
       "explanation": "本句的「open up」指「打開；敞開心扉」。",
       "sentenceIndex": 73,
@@ -3101,12 +2823,10 @@ export default {
         "open up"
       ],
       "optionReasons": {
-        "open-mcq-31": "本句指「打開；敞開心扉」。",
-        "open-mcq-30": "「開始理解／接受 X」是「open your mind/eyes to X」的用法，與本句語境不同。",
-        "open-mcq-32": "「開創機會」是「open up opportunities」的用法，與本句語境不同。",
-        "open-mcq-29": "「保留選擇」是「keep options open」的用法，與本句語境不同。",
-        "open-mcq-33": "「開火」是「open fire」的用法，與本句語境不同。",
-        "open-mcq-28": "「公開／長期有效邀請」是「open invitation」的用法，與本句語境不同。"
+        "open-mcq-31": "本句的「open up」指「打開；敞開心扉」。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-31"
     },
@@ -3118,11 +2838,9 @@ export default {
       "masked": "She finally ____.",
       "options": [
         "open-mcq-31",
-        "open-mcq-30",
-        "open-mcq-32",
-        "open-mcq-29",
-        "open-mcq-33",
-        "open-mcq-28"
+        "open-mcq-22",
+        "open-mcq-20",
+        "open-mcq-07"
       ],
       "explanation": "本句的「opened up about her worries」指「打開；敞開心扉」。",
       "sentenceIndex": 74,
@@ -3131,12 +2849,10 @@ export default {
         "opened up about her worries"
       ],
       "optionReasons": {
-        "open-mcq-31": "本句指「打開；敞開心扉」。",
-        "open-mcq-30": "「開始理解／接受 X」是「open your mind/eyes to X」的用法，與本句語境不同。",
-        "open-mcq-32": "「開創機會」是「open up opportunities」的用法，與本句語境不同。",
-        "open-mcq-29": "「保留選擇」是「keep options open」的用法，與本句語境不同。",
-        "open-mcq-33": "「開火」是「open fire」的用法，與本句語境不同。",
-        "open-mcq-28": "「公開／長期有效邀請」是「open invitation」的用法，與本句語境不同。"
+        "open-mcq-31": "本句的「opened up about her worries」指「打開；敞開心扉」。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-31"
     },
@@ -3148,11 +2864,9 @@ export default {
       "masked": "Learning another language can ____.",
       "options": [
         "open-mcq-32",
-        "open-mcq-31",
-        "open-mcq-33",
-        "open-mcq-30",
-        "open-mcq-34",
-        "open-mcq-29"
+        "open-pdf-003",
+        "open-mcq-35",
+        "open-mcq-25"
       ],
       "explanation": "本句的「open up new opportunities」指「開創機會」。",
       "sentenceIndex": 75,
@@ -3161,12 +2875,10 @@ export default {
         "open up new opportunities"
       ],
       "optionReasons": {
-        "open-mcq-32": "本句指「開創機會」。",
-        "open-mcq-31": "「打開；敞開心扉」是「open up」的用法，與本句語境不同。",
-        "open-mcq-33": "「開火」是「open fire」的用法，與本句語境不同。",
-        "open-mcq-30": "「開始理解／接受 X」是「open your mind/eyes to X」的用法，與本句語境不同。",
-        "open-mcq-34": "「機會；突破口」是「opening (opportunity)」的用法，與本句語境不同。",
-        "open-mcq-29": "「保留選擇」是「keep options open」的用法，與本句語境不同。"
+        "open-mcq-32": "本句的「open up new opportunities」指「開創機會」。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-32"
     },
@@ -3178,11 +2890,9 @@ export default {
       "masked": "The new road ____.",
       "options": [
         "open-mcq-32",
-        "open-mcq-31",
-        "open-mcq-33",
-        "open-mcq-30",
-        "open-mcq-34",
-        "open-mcq-29"
+        "open-mcq-07",
+        "open-mcq-25",
+        "open-mcq-20"
       ],
       "explanation": "本句的「opened up the area to tourism」指「開創機會」。",
       "sentenceIndex": 76,
@@ -3191,12 +2901,10 @@ export default {
         "opened up the area to tourism"
       ],
       "optionReasons": {
-        "open-mcq-32": "本句指「開創機會」。",
-        "open-mcq-31": "「打開；敞開心扉」是「open up」的用法，與本句語境不同。",
-        "open-mcq-33": "「開火」是「open fire」的用法，與本句語境不同。",
-        "open-mcq-30": "「開始理解／接受 X」是「open your mind/eyes to X」的用法，與本句語境不同。",
-        "open-mcq-34": "「機會；突破口」是「opening (opportunity)」的用法，與本句語境不同。",
-        "open-mcq-29": "「保留選擇」是「keep options open」的用法，與本句語境不同。"
+        "open-mcq-32": "本句的「opened up the area to tourism」指「開創機會」。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-32"
     },
@@ -3208,11 +2916,9 @@ export default {
       "masked": "The soldiers were ordered not to ____.",
       "options": [
         "open-mcq-33",
-        "open-mcq-32",
-        "open-mcq-34",
-        "open-mcq-31",
         "open-mcq-35",
-        "open-mcq-30"
+        "open-pdf-002",
+        "open-mcq-08"
       ],
       "explanation": "本句的「open fire」指「開火」。",
       "sentenceIndex": 77,
@@ -3221,12 +2927,10 @@ export default {
         "open fire"
       ],
       "optionReasons": {
-        "open-mcq-33": "本句指「開火」。",
-        "open-mcq-32": "「開創機會」是「open up opportunities」的用法，與本句語境不同。",
-        "open-mcq-34": "「機會；突破口」是「opening (opportunity)」的用法，與本句語境不同。",
-        "open-mcq-31": "「打開；敞開心扉」是「open up」的用法，與本句語境不同。",
-        "open-mcq-35": "「願意坦白表達想法、感受或個人情況，不刻意隱瞞」是「25. open person — 坦率的；願意分享的」的用法，與本句語境不同。",
-        "open-mcq-30": "「開始理解／接受 X」是「open your mind/eyes to X」的用法，與本句語境不同。"
+        "open-mcq-33": "本句的「open fire」指「開火」。",
+        "open-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-33"
     },
@@ -3238,11 +2942,9 @@ export default {
       "masked": "Someone suddenly ____.",
       "options": [
         "open-mcq-33",
-        "open-mcq-32",
-        "open-mcq-34",
-        "open-mcq-31",
-        "open-mcq-35",
-        "open-mcq-30"
+        "open-pdf-003",
+        "open-pdf-002",
+        "open-mcq-37"
       ],
       "explanation": "本句的「opened fire」指「開火」。",
       "sentenceIndex": 78,
@@ -3251,12 +2953,10 @@ export default {
         "opened fire"
       ],
       "optionReasons": {
-        "open-mcq-33": "本句指「開火」。",
-        "open-mcq-32": "「開創機會」是「open up opportunities」的用法，與本句語境不同。",
-        "open-mcq-34": "「機會；突破口」是「opening (opportunity)」的用法，與本句語境不同。",
-        "open-mcq-31": "「打開；敞開心扉」是「open up」的用法，與本句語境不同。",
-        "open-mcq-35": "「願意坦白表達想法、感受或個人情況，不刻意隱瞞」是「25. open person — 坦率的；願意分享的」的用法，與本句語境不同。",
-        "open-mcq-30": "「開始理解／接受 X」是「open your mind/eyes to X」的用法，與本句語境不同。"
+        "open-mcq-33": "本句的「opened fire」指「開火」。",
+        "open-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "open-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-33"
     },
@@ -3268,11 +2968,9 @@ export default {
       "masked": "She saw an ____ and changed the subject.",
       "options": [
         "open-mcq-37",
-        "open-mcq-36",
-        "open-mcq-35",
-        "open-mcq-34",
-        "open-mcq-33",
-        "open-mcq-32"
+        "open-mcq-18",
+        "open-mcq-07",
+        "open-mcq-10"
       ],
       "explanation": "本句的「opening」指「可讓某人採取行動、進入或取得優勢的空隙或機會」。",
       "sentenceIndex": 79,
@@ -3281,12 +2979,10 @@ export default {
         "opening"
       ],
       "optionReasons": {
-        "open-mcq-37": "本句指「可讓某人採取行動、進入或取得優勢的空隙或機會」。",
-        "open-mcq-36": "「不把某個選項、可能性或決定封死，仍保留考慮空間」是「33. open possibility / option — 尚可考慮的可能性／選項」的用法，與本句語境不同。",
-        "open-mcq-35": "「願意坦白表達想法、感受或個人情況，不刻意隱瞞」是「25. open person — 坦率的；願意分享的」的用法，與本句語境不同。",
-        "open-mcq-34": "「機會；突破口」是「opening (opportunity)」的用法，與本句語境不同。",
-        "open-mcq-33": "「開火」是「open fire」的用法，與本句語境不同。",
-        "open-mcq-32": "「開創機會」是「open up opportunities」的用法，與本句語境不同。"
+        "open-mcq-37": "本句的「opening」指「可讓某人採取行動、進入或取得優勢的空隙或機會」。",
+        "open-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-37"
     },
@@ -3298,11 +2994,9 @@ export default {
       "masked": "The defender left an ____ for the attacker.",
       "options": [
         "open-mcq-37",
-        "open-mcq-36",
-        "open-mcq-35",
-        "open-mcq-34",
-        "open-mcq-33",
-        "open-mcq-32"
+        "open-mcq-11",
+        "open-mcq-22",
+        "open-mcq-29"
       ],
       "explanation": "本句的「opening」指「可讓某人採取行動、進入或取得優勢的空隙或機會」。",
       "sentenceIndex": 80,
@@ -3311,12 +3005,10 @@ export default {
         "opening"
       ],
       "optionReasons": {
-        "open-mcq-37": "本句指「可讓某人採取行動、進入或取得優勢的空隙或機會」。",
-        "open-mcq-36": "「不把某個選項、可能性或決定封死，仍保留考慮空間」是「33. open possibility / option — 尚可考慮的可能性／選項」的用法，與本句語境不同。",
-        "open-mcq-35": "「願意坦白表達想法、感受或個人情況，不刻意隱瞞」是「25. open person — 坦率的；願意分享的」的用法，與本句語境不同。",
-        "open-mcq-34": "「機會；突破口」是「opening (opportunity)」的用法，與本句語境不同。",
-        "open-mcq-33": "「開火」是「open fire」的用法，與本句語境不同。",
-        "open-mcq-32": "「開創機會」是「open up opportunities」的用法，與本句語境不同。"
+        "open-mcq-37": "本句的「opening」指「可讓某人採取行動、進入或取得優勢的空隙或機會」。",
+        "open-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "open-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "open-mcq-37"
     }
@@ -3328,5 +3020,7 @@ export default {
     "sha256": "84212833ad11eadfb3ef93b80b6b41a4d4b1d4947b51efe8a26fef0a25e9d5fb",
     "pages": 27
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

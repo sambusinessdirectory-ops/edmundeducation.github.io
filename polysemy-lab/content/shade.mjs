@@ -339,7 +339,7 @@ export default {
     },
     {
       "id": "shade-mcq-15",
-      "title": "表示某句話並非刻意暗諷或貶低對方",
+      "title": "某句話並非刻意暗諷或貶低對方",
       "form": "no shade",
       "en": "no shade",
       "zh": "表示某句話並非刻意暗諷或貶低對方",
@@ -523,11 +523,9 @@ export default {
       "masked": "We sat in the ____ of an old tree.",
       "options": [
         "shade-mcq-01",
-        "shade-mcq-02",
-        "shade-mcq-03",
         "shade-mcq-04",
-        "shade-mcq-05",
-        "shade-mcq-06"
+        "shade-mcq-20",
+        "shade-mcq-15"
       ],
       "explanation": "本句的「shade」指「因物件阻擋陽光而形成、不受直接日照的較陰涼區域」。",
       "sentenceIndex": 0,
@@ -536,12 +534,10 @@ export default {
         "shade"
       ],
       "optionReasons": {
-        "shade-mcq-01": "本句指「因物件阻擋陽光而形成、不受直接日照的較陰涼區域」。",
-        "shade-mcq-02": "「阻擋直接陽光，為人／物形成陰涼區域」是「give/provide shade」的用法，與本句語境不同。",
-        "shade-mcq-03": "「因光線被遮擋而形成的較暗區域」是「shade — reduced light」的用法，與本句語境不同。",
-        "shade-mcq-04": "「同一顏色中的某個深淺、明暗或細微變化」是「shade — colour」的用法，與本句語境不同。",
-        "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。"
+        "shade-mcq-01": "本句的「shade」指「因物件阻擋陽光而形成、不受直接日照的較陰涼區域」。",
+        "shade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-01"
     },
@@ -553,11 +549,9 @@ export default {
       "masked": "Let’s move into the ____.",
       "options": [
         "shade-mcq-01",
-        "shade-mcq-02",
-        "shade-mcq-03",
-        "shade-mcq-04",
-        "shade-mcq-05",
-        "shade-mcq-06"
+        "shade-mcq-20",
+        "shade-mcq-15",
+        "shade-mcq-07"
       ],
       "explanation": "本句的「shade」指「因物件阻擋陽光而形成、不受直接日照的較陰涼區域」。",
       "sentenceIndex": 1,
@@ -566,12 +560,10 @@ export default {
         "shade"
       ],
       "optionReasons": {
-        "shade-mcq-01": "本句指「因物件阻擋陽光而形成、不受直接日照的較陰涼區域」。",
-        "shade-mcq-02": "「阻擋直接陽光，為人／物形成陰涼區域」是「give/provide shade」的用法，與本句語境不同。",
-        "shade-mcq-03": "「因光線被遮擋而形成的較暗區域」是「shade — reduced light」的用法，與本句語境不同。",
-        "shade-mcq-04": "「同一顏色中的某個深淺、明暗或細微變化」是「shade — colour」的用法，與本句語境不同。",
-        "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。"
+        "shade-mcq-01": "本句的「shade」指「因物件阻擋陽光而形成、不受直接日照的較陰涼區域」。",
+        "shade-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-01"
     },
@@ -583,11 +575,9 @@ export default {
       "masked": "The trees provide welcome ____ in summer.",
       "options": [
         "shade-mcq-01",
-        "shade-mcq-02",
-        "shade-mcq-03",
+        "shade-mcq-15",
         "shade-mcq-04",
-        "shade-mcq-05",
-        "shade-mcq-06"
+        "shade-mcq-20"
       ],
       "explanation": "本句的「shade」指「因物件阻擋陽光而形成、不受直接日照的較陰涼區域」。",
       "sentenceIndex": 2,
@@ -596,12 +586,10 @@ export default {
         "shade"
       ],
       "optionReasons": {
-        "shade-mcq-01": "本句指「因物件阻擋陽光而形成、不受直接日照的較陰涼區域」。",
-        "shade-mcq-02": "「阻擋直接陽光，為人／物形成陰涼區域」是「give/provide shade」的用法，與本句語境不同。",
-        "shade-mcq-03": "「因光線被遮擋而形成的較暗區域」是「shade — reduced light」的用法，與本句語境不同。",
-        "shade-mcq-04": "「同一顏色中的某個深淺、明暗或細微變化」是「shade — colour」的用法，與本句語境不同。",
-        "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。"
+        "shade-mcq-01": "本句的「shade」指「因物件阻擋陽光而形成、不受直接日照的較陰涼區域」。",
+        "shade-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-01"
     },
@@ -613,11 +601,9 @@ export default {
       "masked": "The large tree ____ for people sitting below.",
       "options": [
         "shade-mcq-02",
-        "shade-mcq-01",
-        "shade-mcq-03",
-        "shade-mcq-04",
         "shade-mcq-05",
-        "shade-mcq-06"
+        "shade-mcq-20",
+        "shade-mcq-15"
       ],
       "explanation": "本句的「provides shade」指「阻擋直接陽光，為人／物形成陰涼區域」。",
       "sentenceIndex": 3,
@@ -626,12 +612,10 @@ export default {
         "provides shade"
       ],
       "optionReasons": {
-        "shade-mcq-02": "本句指「阻擋直接陽光，為人／物形成陰涼區域」。",
-        "shade-mcq-01": "「因物件阻擋陽光而形成、不受直接日照的較陰涼區域」是「shade — sunlight protection」的用法，與本句語境不同。",
-        "shade-mcq-03": "「因光線被遮擋而形成的較暗區域」是「shade — reduced light」的用法，與本句語境不同。",
-        "shade-mcq-04": "「同一顏色中的某個深淺、明暗或細微變化」是「shade — colour」的用法，與本句語境不同。",
-        "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。"
+        "shade-mcq-02": "本句的「provides shade」指「阻擋直接陽光，為人／物形成陰涼區域」。",
+        "shade-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-02"
     },
@@ -643,11 +627,9 @@ export default {
       "masked": "We planted trees to ____ to the garden.",
       "options": [
         "shade-mcq-02",
-        "shade-mcq-01",
-        "shade-mcq-03",
-        "shade-mcq-04",
-        "shade-mcq-05",
-        "shade-mcq-06"
+        "shade-mcq-15",
+        "shade-mcq-07",
+        "shade-mcq-04"
       ],
       "explanation": "本句的「give shade」指「阻擋直接陽光，為人／物形成陰涼區域」。",
       "sentenceIndex": 4,
@@ -656,12 +638,10 @@ export default {
         "give shade"
       ],
       "optionReasons": {
-        "shade-mcq-02": "本句指「阻擋直接陽光，為人／物形成陰涼區域」。",
-        "shade-mcq-01": "「因物件阻擋陽光而形成、不受直接日照的較陰涼區域」是「shade — sunlight protection」的用法，與本句語境不同。",
-        "shade-mcq-03": "「因光線被遮擋而形成的較暗區域」是「shade — reduced light」的用法，與本句語境不同。",
-        "shade-mcq-04": "「同一顏色中的某個深淺、明暗或細微變化」是「shade — colour」的用法，與本句語境不同。",
-        "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。"
+        "shade-mcq-02": "本句的「give shade」指「阻擋直接陽光，為人／物形成陰涼區域」。",
+        "shade-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-02"
     },
@@ -673,11 +653,9 @@ export default {
       "masked": "Part of the room was in ____.",
       "options": [
         "shade-mcq-03",
-        "shade-mcq-02",
-        "shade-mcq-04",
-        "shade-mcq-01",
-        "shade-mcq-05",
-        "shade-mcq-06"
+        "shade-mcq-14",
+        "shade-mcq-06",
+        "shade-mcq-19"
       ],
       "explanation": "本句的「shade」指「因光線被遮擋而形成的較暗區域」。",
       "sentenceIndex": 5,
@@ -686,12 +664,10 @@ export default {
         "shade"
       ],
       "optionReasons": {
-        "shade-mcq-03": "本句指「因光線被遮擋而形成的較暗區域」。",
-        "shade-mcq-02": "「阻擋直接陽光，為人／物形成陰涼區域」是「give/provide shade」的用法，與本句語境不同。",
-        "shade-mcq-04": "「同一顏色中的某個深淺、明暗或細微變化」是「shade — colour」的用法，與本句語境不同。",
-        "shade-mcq-01": "「因物件阻擋陽光而形成、不受直接日照的較陰涼區域」是「shade — sunlight protection」的用法，與本句語境不同。",
-        "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。"
+        "shade-mcq-03": "本句的「shade」指「因光線被遮擋而形成的較暗區域」。",
+        "shade-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-03"
     },
@@ -703,11 +679,9 @@ export default {
       "masked": "His face disappeared into the ____.",
       "options": [
         "shade-mcq-03",
-        "shade-mcq-02",
-        "shade-mcq-04",
-        "shade-mcq-01",
-        "shade-mcq-05",
-        "shade-mcq-06"
+        "shade-pdf-001",
+        "shade-mcq-20",
+        "shade-mcq-13"
       ],
       "explanation": "本句的「shade」指「因光線被遮擋而形成的較暗區域」。",
       "sentenceIndex": 6,
@@ -716,12 +690,10 @@ export default {
         "shade"
       ],
       "optionReasons": {
-        "shade-mcq-03": "本句指「因光線被遮擋而形成的較暗區域」。",
-        "shade-mcq-02": "「阻擋直接陽光，為人／物形成陰涼區域」是「give/provide shade」的用法，與本句語境不同。",
-        "shade-mcq-04": "「同一顏色中的某個深淺、明暗或細微變化」是「shade — colour」的用法，與本句語境不同。",
-        "shade-mcq-01": "「因物件阻擋陽光而形成、不受直接日照的較陰涼區域」是「shade — sunlight protection」的用法，與本句語境不同。",
-        "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。"
+        "shade-mcq-03": "本句的「shade」指「因光線被遮擋而形成的較暗區域」。",
+        "shade-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-03"
     },
@@ -733,11 +705,9 @@ export default {
       "masked": "I prefer a darker ____ of blue.",
       "options": [
         "shade-mcq-04",
-        "shade-mcq-03",
-        "shade-mcq-05",
+        "shade-mcq-14",
         "shade-mcq-02",
-        "shade-mcq-06",
-        "shade-mcq-01"
+        "shade-mcq-20"
       ],
       "explanation": "本句的「shade」指「同一顏色中的某個深淺、明暗或細微變化」。",
       "sentenceIndex": 7,
@@ -746,12 +716,10 @@ export default {
         "shade"
       ],
       "optionReasons": {
-        "shade-mcq-04": "本句指「同一顏色中的某個深淺、明暗或細微變化」。",
-        "shade-mcq-03": "「因光線被遮擋而形成的較暗區域」是「shade — reduced light」的用法，與本句語境不同。",
-        "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。",
-        "shade-mcq-02": "「阻擋直接陽光，為人／物形成陰涼區域」是「give/provide shade」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。",
-        "shade-mcq-01": "「因物件阻擋陽光而形成、不受直接日照的較陰涼區域」是「shade — sunlight protection」的用法，與本句語境不同。"
+        "shade-mcq-04": "本句的「shade」指「同一顏色中的某個深淺、明暗或細微變化」。",
+        "shade-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-04"
     },
@@ -763,11 +731,9 @@ export default {
       "masked": "The walls are painted in a pale ____ of green.",
       "options": [
         "shade-mcq-04",
-        "shade-mcq-03",
-        "shade-mcq-05",
         "shade-mcq-02",
-        "shade-mcq-06",
-        "shade-mcq-01"
+        "shade-mcq-13",
+        "shade-mcq-20"
       ],
       "explanation": "本句的「shade」指「同一顏色中的某個深淺、明暗或細微變化」。",
       "sentenceIndex": 8,
@@ -776,12 +742,10 @@ export default {
         "shade"
       ],
       "optionReasons": {
-        "shade-mcq-04": "本句指「同一顏色中的某個深淺、明暗或細微變化」。",
-        "shade-mcq-03": "「因光線被遮擋而形成的較暗區域」是「shade — reduced light」的用法，與本句語境不同。",
-        "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。",
-        "shade-mcq-02": "「阻擋直接陽光，為人／物形成陰涼區域」是「give/provide shade」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。",
-        "shade-mcq-01": "「因物件阻擋陽光而形成、不受直接日照的較陰涼區域」是「shade — sunlight protection」的用法，與本句語境不同。"
+        "shade-mcq-04": "本句的「shade」指「同一顏色中的某個深淺、明暗或細微變化」。",
+        "shade-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-04"
     },
@@ -793,11 +757,9 @@ export default {
       "masked": "The two words have slightly different ____.",
       "options": [
         "shade-mcq-04",
-        "shade-mcq-03",
-        "shade-mcq-05",
-        "shade-mcq-02",
-        "shade-mcq-06",
-        "shade-mcq-01"
+        "shade-pdf-001",
+        "shade-mcq-13",
+        "shade-mcq-12"
       ],
       "explanation": "本句的「shades of meaning」指「同一顏色中的某個深淺、明暗或細微變化」。",
       "sentenceIndex": 9,
@@ -806,12 +768,10 @@ export default {
         "shades of meaning"
       ],
       "optionReasons": {
-        "shade-mcq-04": "本句指「同一顏色中的某個深淺、明暗或細微變化」。",
-        "shade-mcq-03": "「因光線被遮擋而形成的較暗區域」是「shade — reduced light」的用法，與本句語境不同。",
-        "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。",
-        "shade-mcq-02": "「阻擋直接陽光，為人／物形成陰涼區域」是「give/provide shade」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。",
-        "shade-mcq-01": "「因物件阻擋陽光而形成、不受直接日照的較陰涼區域」是「shade — sunlight protection」的用法，與本句語境不同。"
+        "shade-mcq-04": "本句的「shades of meaning」指「同一顏色中的某個深淺、明暗或細微變化」。",
+        "shade-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-04"
     },
@@ -823,11 +783,9 @@ export default {
       "masked": "Her voice carried several ____ of emotion.",
       "options": [
         "shade-mcq-04",
-        "shade-mcq-03",
-        "shade-mcq-05",
-        "shade-mcq-02",
-        "shade-mcq-06",
-        "shade-mcq-01"
+        "shade-pdf-002",
+        "shade-mcq-19",
+        "shade-mcq-14"
       ],
       "explanation": "本句的「shades」指「同一顏色中的某個深淺、明暗或細微變化」。",
       "sentenceIndex": 10,
@@ -836,12 +794,10 @@ export default {
         "shades"
       ],
       "optionReasons": {
-        "shade-mcq-04": "本句指「同一顏色中的某個深淺、明暗或細微變化」。",
-        "shade-mcq-03": "「因光線被遮擋而形成的較暗區域」是「shade — reduced light」的用法，與本句語境不同。",
-        "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。",
-        "shade-mcq-02": "「阻擋直接陽光，為人／物形成陰涼區域」是「give/provide shade」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。",
-        "shade-mcq-01": "「因物件阻擋陽光而形成、不受直接日照的較陰涼區域」是「shade — sunlight protection」的用法，與本句語境不同。"
+        "shade-mcq-04": "本句的「shades」指「同一顏色中的某個深淺、明暗或細微變化」。",
+        "shade-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-04"
     },
@@ -853,11 +809,9 @@ export default {
       "masked": "Good learners notice different ____.",
       "options": [
         "shade-mcq-05",
-        "shade-mcq-04",
-        "shade-mcq-06",
+        "shade-pdf-002",
         "shade-mcq-03",
-        "shade-mcq-07",
-        "shade-mcq-02"
+        "shade-mcq-13"
       ],
       "explanation": "本句的「shades of meaning」指「相近詞語／意思之間細微而重要的語義差別」。",
       "sentenceIndex": 11,
@@ -866,12 +820,10 @@ export default {
         "shades of meaning"
       ],
       "optionReasons": {
-        "shade-mcq-05": "本句指「相近詞語／意思之間細微而重要的語義差別」。",
-        "shade-mcq-04": "「同一顏色中的某個深淺、明暗或細微變化」是「shade — colour」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。",
-        "shade-mcq-03": "「因光線被遮擋而形成的較暗區域」是「shade — reduced light」的用法，與本句語境不同。",
-        "shade-mcq-07": "「程度上只比另一個稍微多一點」是「a shade + comparative」的用法，與本句語境不同。",
-        "shade-mcq-02": "「阻擋直接陽光，為人／物形成陰涼區域」是「give/provide shade」的用法，與本句語境不同。"
+        "shade-mcq-05": "本句的「shades of meaning」指「相近詞語／意思之間細微而重要的語義差別」。",
+        "shade-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-05"
     },
@@ -883,11 +835,9 @@ export default {
       "masked": "These adjectives express different ____.",
       "options": [
         "shade-mcq-05",
-        "shade-mcq-04",
-        "shade-mcq-06",
-        "shade-mcq-03",
-        "shade-mcq-07",
-        "shade-mcq-02"
+        "shade-mcq-02",
+        "shade-mcq-16",
+        "shade-mcq-13"
       ],
       "explanation": "本句的「shades of meaning」指「相近詞語／意思之間細微而重要的語義差別」。",
       "sentenceIndex": 12,
@@ -896,12 +846,10 @@ export default {
         "shades of meaning"
       ],
       "optionReasons": {
-        "shade-mcq-05": "本句指「相近詞語／意思之間細微而重要的語義差別」。",
-        "shade-mcq-04": "「同一顏色中的某個深淺、明暗或細微變化」是「shade — colour」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。",
-        "shade-mcq-03": "「因光線被遮擋而形成的較暗區域」是「shade — reduced light」的用法，與本句語境不同。",
-        "shade-mcq-07": "「程度上只比另一個稍微多一點」是「a shade + comparative」的用法，與本句語境不同。",
-        "shade-mcq-02": "「阻擋直接陽光，為人／物形成陰涼區域」是「give/provide shade」的用法，與本句語境不同。"
+        "shade-mcq-05": "本句的「shades of meaning」指「相近詞語／意思之間細微而重要的語義差別」。",
+        "shade-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-05"
     },
@@ -913,11 +861,9 @@ export default {
       "masked": "There was a ____ of disappointment in her voice.",
       "options": [
         "shade-mcq-06",
-        "shade-mcq-05",
-        "shade-mcq-07",
-        "shade-mcq-04",
-        "shade-mcq-08",
-        "shade-mcq-03"
+        "shade-pdf-001",
+        "shade-mcq-17",
+        "shade-mcq-20"
       ],
       "explanation": "本句的「shade」指「某種情緒或特質只出現少量／輕微程度」。",
       "sentenceIndex": 13,
@@ -926,12 +872,10 @@ export default {
         "shade"
       ],
       "optionReasons": {
-        "shade-mcq-06": "本句指「某種情緒或特質只出現少量／輕微程度」。",
-        "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。",
-        "shade-mcq-07": "「程度上只比另一個稍微多一點」是「a shade + comparative」的用法，與本句語境不同。",
-        "shade-mcq-04": "「同一顏色中的某個深淺、明暗或細微變化」是「shade — colour」的用法，與本句語境不同。",
-        "shade-mcq-08": "「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」是「shade — contextual metaphor」的用法，與本句語境不同。",
-        "shade-mcq-03": "「因光線被遮擋而形成的較暗區域」是「shade — reduced light」的用法，與本句語境不同。"
+        "shade-mcq-06": "本句的「shade」指「某種情緒或特質只出現少量／輕微程度」。",
+        "shade-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-06"
     },
@@ -943,11 +887,9 @@ export default {
       "masked": "His expression showed a ____ of concern.",
       "options": [
         "shade-mcq-06",
-        "shade-mcq-05",
-        "shade-mcq-07",
-        "shade-mcq-04",
-        "shade-mcq-08",
-        "shade-mcq-03"
+        "shade-mcq-02",
+        "shade-mcq-13",
+        "shade-mcq-16"
       ],
       "explanation": "本句的「shade」指「某種情緒或特質只出現少量／輕微程度」。",
       "sentenceIndex": 14,
@@ -956,12 +898,10 @@ export default {
         "shade"
       ],
       "optionReasons": {
-        "shade-mcq-06": "本句指「某種情緒或特質只出現少量／輕微程度」。",
-        "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。",
-        "shade-mcq-07": "「程度上只比另一個稍微多一點」是「a shade + comparative」的用法，與本句語境不同。",
-        "shade-mcq-04": "「同一顏色中的某個深淺、明暗或細微變化」是「shade — colour」的用法，與本句語境不同。",
-        "shade-mcq-08": "「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」是「shade — contextual metaphor」的用法，與本句語境不同。",
-        "shade-mcq-03": "「因光線被遮擋而形成的較暗區域」是「shade — reduced light」的用法，與本句語境不同。"
+        "shade-mcq-06": "本句的「shade」指「某種情緒或特質只出現少量／輕微程度」。",
+        "shade-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-06"
     },
@@ -973,11 +913,9 @@ export default {
       "masked": "The second version is a ____.",
       "options": [
         "shade-mcq-07",
-        "shade-mcq-06",
-        "shade-mcq-08",
-        "shade-mcq-05",
-        "shade-mcq-09",
-        "shade-mcq-04"
+        "shade-mcq-13",
+        "shade-mcq-14",
+        "shade-mcq-17"
       ],
       "explanation": "本句的「shade darker」指「程度上只比另一個稍微多一點」。",
       "sentenceIndex": 15,
@@ -986,12 +924,10 @@ export default {
         "shade darker"
       ],
       "optionReasons": {
-        "shade-mcq-07": "本句指「程度上只比另一個稍微多一點」。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。",
-        "shade-mcq-08": "「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」是「shade — contextual metaphor」的用法，與本句語境不同。",
-        "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。",
-        "shade-mcq-09": "「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」是「shade — verb」的用法，與本句語境不同。",
-        "shade-mcq-04": "「同一顏色中的某個深淺、明暗或細微變化」是「shade — colour」的用法，與本句語境不同。"
+        "shade-mcq-07": "本句的「shade darker」指「程度上只比另一個稍微多一點」。",
+        "shade-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-07"
     },
@@ -1003,11 +939,9 @@ export default {
       "masked": "Her answer was a ____.",
       "options": [
         "shade-mcq-07",
-        "shade-mcq-06",
-        "shade-mcq-08",
-        "shade-mcq-05",
-        "shade-mcq-09",
-        "shade-mcq-04"
+        "shade-mcq-10",
+        "shade-mcq-13",
+        "shade-mcq-02"
       ],
       "explanation": "本句的「shade more cautious」指「程度上只比另一個稍微多一點」。",
       "sentenceIndex": 16,
@@ -1016,12 +950,10 @@ export default {
         "shade more cautious"
       ],
       "optionReasons": {
-        "shade-mcq-07": "本句指「程度上只比另一個稍微多一點」。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。",
-        "shade-mcq-08": "「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」是「shade — contextual metaphor」的用法，與本句語境不同。",
-        "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。",
-        "shade-mcq-09": "「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」是「shade — verb」的用法，與本句語境不同。",
-        "shade-mcq-04": "「同一顏色中的某個深淺、明暗或細微變化」是「shade — colour」的用法，與本句語境不同。"
+        "shade-mcq-07": "本句的「shade more cautious」指「程度上只比另一個稍微多一點」。",
+        "shade-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-07"
     },
@@ -1033,10 +965,8 @@ export default {
       "masked": "The old tree became a symbol of ____ and protection.",
       "options": [
         "shade-pdf-001",
-        "shade-mcq-07",
-        "shade-mcq-09",
-        "shade-mcq-06",
-        "shade-mcq-10",
+        "shade-mcq-19",
+        "shade-mcq-15",
         "shade-mcq-05"
       ],
       "explanation": "本句的「shade」指「比喻令人暫時避開壓力、困難或外界強烈刺激的保護／安慰」。",
@@ -1046,12 +976,10 @@ export default {
         "shade"
       ],
       "optionReasons": {
-        "shade-pdf-001": "本句指「比喻令人暫時避開壓力、困難或外界強烈刺激的保護／安慰」。",
-        "shade-mcq-07": "「程度上只比另一個稍微多一點」是「a shade + comparative」的用法，與本句語境不同。",
-        "shade-mcq-09": "「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」是「shade — verb」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。",
-        "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。",
-        "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。"
+        "shade-pdf-001": "本句的「shade」指「比喻令人暫時避開壓力、困難或外界強烈刺激的保護／安慰」。",
+        "shade-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-pdf-001"
     },
@@ -1063,10 +991,8 @@ export default {
       "masked": "Her presence offered emotional ____ during difficult times.",
       "options": [
         "shade-pdf-001",
-        "shade-mcq-07",
-        "shade-mcq-09",
+        "shade-mcq-13",
         "shade-mcq-06",
-        "shade-mcq-10",
         "shade-mcq-05"
       ],
       "explanation": "本句的「shade」指「比喻令人暫時避開壓力、困難或外界強烈刺激的保護／安慰」。",
@@ -1076,12 +1002,10 @@ export default {
         "shade"
       ],
       "optionReasons": {
-        "shade-pdf-001": "本句指「比喻令人暫時避開壓力、困難或外界強烈刺激的保護／安慰」。",
-        "shade-mcq-07": "「程度上只比另一個稍微多一點」是「a shade + comparative」的用法，與本句語境不同。",
-        "shade-mcq-09": "「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」是「shade — verb」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。",
-        "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。",
-        "shade-mcq-05": "「相近詞語／意思之間細微而重要的語義差別」是「shades of meaning」的用法，與本句語境不同。"
+        "shade-pdf-001": "本句的「shade」指「比喻令人暫時避開壓力、困難或外界強烈刺激的保護／安慰」。",
+        "shade-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-pdf-001"
     },
@@ -1093,11 +1017,9 @@ export default {
       "masked": "The trees ____ the windows in the afternoon.",
       "options": [
         "shade-mcq-09",
-        "shade-mcq-08",
-        "shade-mcq-10",
+        "shade-mcq-13",
         "shade-mcq-07",
-        "shade-mcq-11",
-        "shade-mcq-06"
+        "shade-mcq-19"
       ],
       "explanation": "本句的「shade」指「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」。",
       "sentenceIndex": 19,
@@ -1106,12 +1028,10 @@ export default {
         "shade"
       ],
       "optionReasons": {
-        "shade-mcq-09": "本句指「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」。",
-        "shade-mcq-08": "「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」是「shade — contextual metaphor」的用法，與本句語境不同。",
-        "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。",
-        "shade-mcq-07": "「程度上只比另一個稍微多一點」是「a shade + comparative」的用法，與本句語境不同。",
-        "shade-mcq-11": "「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」是「shading — art/design」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。"
+        "shade-mcq-09": "本句的「shade」指「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」。",
+        "shade-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-09"
     },
@@ -1123,10 +1043,8 @@ export default {
       "masked": "A large umbrella ____ us from the sun.",
       "options": [
         "shade-mcq-09",
-        "shade-mcq-08",
-        "shade-mcq-10",
-        "shade-mcq-07",
-        "shade-mcq-11",
+        "shade-mcq-05",
+        "shade-mcq-20",
         "shade-mcq-06"
       ],
       "explanation": "本句的「shaded」指「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」。",
@@ -1136,12 +1054,10 @@ export default {
         "shaded"
       ],
       "optionReasons": {
-        "shade-mcq-09": "本句指「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」。",
-        "shade-mcq-08": "「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」是「shade — contextual metaphor」的用法，與本句語境不同。",
-        "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。",
-        "shade-mcq-07": "「程度上只比另一個稍微多一點」是「a shade + comparative」的用法，與本句語境不同。",
-        "shade-mcq-11": "「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」是「shading — art/design」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。"
+        "shade-mcq-09": "本句的「shaded」指「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」。",
+        "shade-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-09"
     },
@@ -1153,11 +1069,9 @@ export default {
       "masked": "She ____ with her hand.",
       "options": [
         "shade-pdf-002",
-        "shade-mcq-08",
-        "shade-mcq-10",
-        "shade-mcq-07",
-        "shade-mcq-11",
-        "shade-mcq-06"
+        "shade-mcq-06",
+        "shade-mcq-20",
+        "shade-mcq-13"
       ],
       "explanation": "本句的「shaded her eyes」指「用物件阻擋陽光或強光照射某個部位」。",
       "sentenceIndex": 21,
@@ -1166,12 +1080,10 @@ export default {
         "shaded her eyes"
       ],
       "optionReasons": {
-        "shade-pdf-002": "本句指「用物件阻擋陽光或強光照射某個部位」。",
-        "shade-mcq-08": "「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」是「shade — contextual metaphor」的用法，與本句語境不同。",
-        "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。",
-        "shade-mcq-07": "「程度上只比另一個稍微多一點」是「a shade + comparative」的用法，與本句語境不同。",
-        "shade-mcq-11": "「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」是「shading — art/design」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。"
+        "shade-pdf-002": "本句的「shaded her eyes」指「用物件阻擋陽光或強光照射某個部位」。",
+        "shade-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-pdf-002"
     },
@@ -1183,11 +1095,9 @@ export default {
       "masked": "He wore a hat to ____.",
       "options": [
         "shade-pdf-002",
-        "shade-mcq-08",
-        "shade-mcq-10",
-        "shade-mcq-07",
-        "shade-mcq-11",
-        "shade-mcq-06"
+        "shade-mcq-15",
+        "shade-mcq-20",
+        "shade-mcq-07"
       ],
       "explanation": "本句的「shade his face」指「用物件阻擋陽光或強光照射某個部位」。",
       "sentenceIndex": 22,
@@ -1196,12 +1106,10 @@ export default {
         "shade his face"
       ],
       "optionReasons": {
-        "shade-pdf-002": "本句指「用物件阻擋陽光或強光照射某個部位」。",
-        "shade-mcq-08": "「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」是「shade — contextual metaphor」的用法，與本句語境不同。",
-        "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。",
-        "shade-mcq-07": "「程度上只比另一個稍微多一點」是「a shade + comparative」的用法，與本句語境不同。",
-        "shade-mcq-11": "「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」是「shading — art/design」的用法，與本句語境不同。",
-        "shade-mcq-06": "「某種情緒或特質只出現少量／輕微程度」是「a shade of feeling」的用法，與本句語境不同。"
+        "shade-pdf-002": "本句的「shade his face」指「用物件阻擋陽光或強光照射某個部位」。",
+        "shade-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-pdf-002"
     },
@@ -1213,11 +1121,9 @@ export default {
       "masked": "She ____ the drawing with a pencil.",
       "options": [
         "shade-mcq-10",
-        "shade-mcq-09",
-        "shade-mcq-11",
-        "shade-mcq-08",
-        "shade-mcq-12",
-        "shade-mcq-07"
+        "shade-mcq-13",
+        "shade-mcq-19",
+        "shade-mcq-05"
       ],
       "explanation": "本句的「shaded」指「在圖畫／設計中加深部分色調以表現光影和立體感」。",
       "sentenceIndex": 23,
@@ -1226,12 +1132,10 @@ export default {
         "shaded"
       ],
       "optionReasons": {
-        "shade-mcq-10": "本句指「在圖畫／設計中加深部分色調以表現光影和立體感」。",
-        "shade-mcq-09": "「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」是「shade — verb」的用法，與本句語境不同。",
-        "shade-mcq-11": "「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」是「shading — art/design」的用法，與本句語境不同。",
-        "shade-mcq-08": "「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」是「shade — contextual metaphor」的用法，與本句語境不同。",
-        "shade-mcq-12": "「因陽光被遮擋而較陰涼的」是「shady — literal」的用法，與本句語境不同。",
-        "shade-mcq-07": "「程度上只比另一個稍微多一點」是「a shade + comparative」的用法，與本句語境不同。"
+        "shade-mcq-10": "本句的「shaded」指「在圖畫／設計中加深部分色調以表現光影和立體感」。",
+        "shade-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-10"
     },
@@ -1243,11 +1147,9 @@ export default {
       "masked": "The artist ____ one side of the face.",
       "options": [
         "shade-mcq-10",
-        "shade-mcq-09",
-        "shade-mcq-11",
-        "shade-mcq-08",
-        "shade-mcq-12",
-        "shade-mcq-07"
+        "shade-mcq-14",
+        "shade-mcq-19",
+        "shade-mcq-05"
       ],
       "explanation": "本句的「shaded」指「在圖畫／設計中加深部分色調以表現光影和立體感」。",
       "sentenceIndex": 24,
@@ -1256,12 +1158,10 @@ export default {
         "shaded"
       ],
       "optionReasons": {
-        "shade-mcq-10": "本句指「在圖畫／設計中加深部分色調以表現光影和立體感」。",
-        "shade-mcq-09": "「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」是「shade — verb」的用法，與本句語境不同。",
-        "shade-mcq-11": "「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」是「shading — art/design」的用法，與本句語境不同。",
-        "shade-mcq-08": "「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」是「shade — contextual metaphor」的用法，與本句語境不同。",
-        "shade-mcq-12": "「因陽光被遮擋而較陰涼的」是「shady — literal」的用法，與本句語境不同。",
-        "shade-mcq-07": "「程度上只比另一個稍微多一點」是「a shade + comparative」的用法，與本句語境不同。"
+        "shade-mcq-10": "本句的「shaded」指「在圖畫／設計中加深部分色調以表現光影和立體感」。",
+        "shade-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-10"
     },
@@ -1273,11 +1173,9 @@ export default {
       "masked": "The drawing uses realistic ____.",
       "options": [
         "shade-mcq-11",
-        "shade-mcq-10",
-        "shade-mcq-12",
-        "shade-mcq-09",
-        "shade-mcq-13",
-        "shade-mcq-08"
+        "shade-mcq-14",
+        "shade-mcq-20",
+        "shade-mcq-05"
       ],
       "explanation": "本句的「shading」指「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」。",
       "sentenceIndex": 25,
@@ -1286,12 +1184,10 @@ export default {
         "shading"
       ],
       "optionReasons": {
-        "shade-mcq-11": "本句指「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」。",
-        "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。",
-        "shade-mcq-12": "「因陽光被遮擋而較陰涼的」是「shady — literal」的用法，與本句語境不同。",
-        "shade-mcq-09": "「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」是「shade — verb」的用法，與本句語境不同。",
-        "shade-mcq-13": "「看起來不誠實、不合法、不可靠或刻意隱瞞的」是「shady — figurative」的用法，與本句語境不同。",
-        "shade-mcq-08": "「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」是「shade — contextual metaphor」的用法，與本句語境不同。"
+        "shade-mcq-11": "本句的「shading」指「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」。",
+        "shade-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-11"
     },
@@ -1303,11 +1199,9 @@ export default {
       "masked": "Good ____ gives the object depth.",
       "options": [
         "shade-mcq-11",
-        "shade-mcq-10",
-        "shade-mcq-12",
-        "shade-mcq-09",
-        "shade-mcq-13",
-        "shade-mcq-08"
+        "shade-mcq-19",
+        "shade-mcq-20",
+        "shade-mcq-14"
       ],
       "explanation": "本句的「shading」指「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」。",
       "sentenceIndex": 26,
@@ -1316,12 +1210,10 @@ export default {
         "shading"
       ],
       "optionReasons": {
-        "shade-mcq-11": "本句指「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」。",
-        "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。",
-        "shade-mcq-12": "「因陽光被遮擋而較陰涼的」是「shady — literal」的用法，與本句語境不同。",
-        "shade-mcq-09": "「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」是「shade — verb」的用法，與本句語境不同。",
-        "shade-mcq-13": "「看起來不誠實、不合法、不可靠或刻意隱瞞的」是「shady — figurative」的用法，與本句語境不同。",
-        "shade-mcq-08": "「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」是「shade — contextual metaphor」的用法，與本句語境不同。"
+        "shade-mcq-11": "本句的「shading」指「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」。",
+        "shade-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-11"
     },
@@ -1333,11 +1225,9 @@ export default {
       "masked": "The design uses subtle colour ____.",
       "options": [
         "shade-mcq-11",
-        "shade-mcq-10",
-        "shade-mcq-12",
-        "shade-mcq-09",
         "shade-mcq-13",
-        "shade-mcq-08"
+        "shade-mcq-19",
+        "shade-mcq-14"
       ],
       "explanation": "本句的「shading」指「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」。",
       "sentenceIndex": 27,
@@ -1346,12 +1236,10 @@ export default {
         "shading"
       ],
       "optionReasons": {
-        "shade-mcq-11": "本句指「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」。",
-        "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。",
-        "shade-mcq-12": "「因陽光被遮擋而較陰涼的」是「shady — literal」的用法，與本句語境不同。",
-        "shade-mcq-09": "「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」是「shade — verb」的用法，與本句語境不同。",
-        "shade-mcq-13": "「看起來不誠實、不合法、不可靠或刻意隱瞞的」是「shady — figurative」的用法，與本句語境不同。",
-        "shade-mcq-08": "「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」是「shade — contextual metaphor」的用法，與本句語境不同。"
+        "shade-mcq-11": "本句的「shading」指「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」。",
+        "shade-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-11"
     },
@@ -1363,11 +1251,9 @@ export default {
       "masked": "The map uses different ____ to show elevation.",
       "options": [
         "shade-mcq-11",
-        "shade-mcq-10",
-        "shade-mcq-12",
-        "shade-mcq-09",
-        "shade-mcq-13",
-        "shade-mcq-08"
+        "shade-mcq-20",
+        "shade-mcq-05",
+        "shade-mcq-14"
       ],
       "explanation": "本句的「shadings」指「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」。",
       "sentenceIndex": 28,
@@ -1376,12 +1262,10 @@ export default {
         "shadings"
       ],
       "optionReasons": {
-        "shade-mcq-11": "本句指「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」。",
-        "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。",
-        "shade-mcq-12": "「因陽光被遮擋而較陰涼的」是「shady — literal」的用法，與本句語境不同。",
-        "shade-mcq-09": "「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」是「shade — verb」的用法，與本句語境不同。",
-        "shade-mcq-13": "「看起來不誠實、不合法、不可靠或刻意隱瞞的」是「shady — figurative」的用法，與本句語境不同。",
-        "shade-mcq-08": "「從遮陽庇護延伸出的比喻性保護、安慰或喘息感」是「shade — contextual metaphor」的用法，與本句語境不同。"
+        "shade-mcq-11": "本句的「shadings」指「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」。",
+        "shade-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-11"
     },
@@ -1393,11 +1277,9 @@ export default {
       "masked": "We found a ____ place under the trees.",
       "options": [
         "shade-mcq-12",
-        "shade-mcq-11",
-        "shade-mcq-13",
-        "shade-mcq-10",
-        "shade-mcq-14",
-        "shade-mcq-09"
+        "shade-mcq-06",
+        "shade-mcq-15",
+        "shade-mcq-20"
       ],
       "explanation": "本句的「shady」指「因陽光被遮擋而較陰涼的」。",
       "sentenceIndex": 29,
@@ -1406,12 +1288,10 @@ export default {
         "shady"
       ],
       "optionReasons": {
-        "shade-mcq-12": "本句指「因陽光被遮擋而較陰涼的」。",
-        "shade-mcq-11": "「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」是「shading — art/design」的用法，與本句語境不同。",
-        "shade-mcq-13": "「看起來不誠實、不合法、不可靠或刻意隱瞞的」是「shady — figurative」的用法，與本句語境不同。",
-        "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。",
-        "shade-mcq-14": "「以間接、含蓄、帶嘲諷方式批評或貶低某人」是「throw/cast shade」的用法，與本句語境不同。",
-        "shade-mcq-09": "「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」是「shade — verb」的用法，與本句語境不同。"
+        "shade-mcq-12": "本句的「shady」指「因陽光被遮擋而較陰涼的」。",
+        "shade-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-12"
     },
@@ -1423,11 +1303,9 @@ export default {
       "masked": "They sat in a ____ corner of the garden.",
       "options": [
         "shade-mcq-12",
-        "shade-mcq-11",
-        "shade-mcq-13",
-        "shade-mcq-10",
-        "shade-mcq-14",
-        "shade-mcq-09"
+        "shade-mcq-15",
+        "shade-mcq-04",
+        "shade-mcq-06"
       ],
       "explanation": "本句的「shady」指「因陽光被遮擋而較陰涼的」。",
       "sentenceIndex": 30,
@@ -1436,12 +1314,10 @@ export default {
         "shady"
       ],
       "optionReasons": {
-        "shade-mcq-12": "本句指「因陽光被遮擋而較陰涼的」。",
-        "shade-mcq-11": "「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」是「shading — art/design」的用法，與本句語境不同。",
-        "shade-mcq-13": "「看起來不誠實、不合法、不可靠或刻意隱瞞的」是「shady — figurative」的用法，與本句語境不同。",
-        "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。",
-        "shade-mcq-14": "「以間接、含蓄、帶嘲諷方式批評或貶低某人」是「throw/cast shade」的用法，與本句語境不同。",
-        "shade-mcq-09": "「阻擋直接光線，使某人／某物處於較陰涼或較暗位置」是「shade — verb」的用法，與本句語境不同。"
+        "shade-mcq-12": "本句的「shady」指「因陽光被遮擋而較陰涼的」。",
+        "shade-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-12"
     },
@@ -1453,11 +1329,9 @@ export default {
       "masked": "That business deal sounds ____.",
       "options": [
         "shade-mcq-13",
-        "shade-mcq-12",
-        "shade-mcq-14",
-        "shade-mcq-11",
-        "shade-mcq-15",
-        "shade-mcq-10"
+        "shade-mcq-07",
+        "shade-mcq-20",
+        "shade-mcq-02"
       ],
       "explanation": "本句的「shady」指「看起來不誠實、不合法、不可靠或刻意隱瞞的」。",
       "sentenceIndex": 31,
@@ -1466,12 +1340,10 @@ export default {
         "shady"
       ],
       "optionReasons": {
-        "shade-mcq-13": "本句指「看起來不誠實、不合法、不可靠或刻意隱瞞的」。",
-        "shade-mcq-12": "「因陽光被遮擋而較陰涼的」是「shady — literal」的用法，與本句語境不同。",
-        "shade-mcq-14": "「以間接、含蓄、帶嘲諷方式批評或貶低某人」是「throw/cast shade」的用法，與本句語境不同。",
-        "shade-mcq-11": "「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」是「shading — art/design」的用法，與本句語境不同。",
-        "shade-mcq-15": "「表示某句話並非刻意暗諷或貶低對方」是「no shade」的用法，與本句語境不同。",
-        "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。"
+        "shade-mcq-13": "本句的「shady」指「看起來不誠實、不合法、不可靠或刻意隱瞞的」。",
+        "shade-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-13"
     },
@@ -1484,9 +1356,7 @@ export default {
       "options": [
         "shade-mcq-13",
         "shade-mcq-12",
-        "shade-mcq-14",
-        "shade-mcq-11",
-        "shade-mcq-15",
+        "shade-mcq-07",
         "shade-mcq-10"
       ],
       "explanation": "本句的「shady」指「看起來不誠實、不合法、不可靠或刻意隱瞞的」。",
@@ -1496,12 +1366,10 @@ export default {
         "shady"
       ],
       "optionReasons": {
-        "shade-mcq-13": "本句指「看起來不誠實、不合法、不可靠或刻意隱瞞的」。",
-        "shade-mcq-12": "「因陽光被遮擋而較陰涼的」是「shady — literal」的用法，與本句語境不同。",
-        "shade-mcq-14": "「以間接、含蓄、帶嘲諷方式批評或貶低某人」是「throw/cast shade」的用法，與本句語境不同。",
-        "shade-mcq-11": "「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」是「shading — art/design」的用法，與本句語境不同。",
-        "shade-mcq-15": "「表示某句話並非刻意暗諷或貶低對方」是「no shade」的用法，與本句語境不同。",
-        "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。"
+        "shade-mcq-13": "本句的「shady」指「看起來不誠實、不合法、不可靠或刻意隱瞞的」。",
+        "shade-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-13"
     },
@@ -1513,11 +1381,9 @@ export default {
       "masked": "He seems like a ____.",
       "options": [
         "shade-mcq-13",
-        "shade-mcq-12",
-        "shade-mcq-14",
-        "shade-mcq-11",
-        "shade-mcq-15",
-        "shade-mcq-10"
+        "shade-mcq-07",
+        "shade-mcq-01",
+        "shade-mcq-14"
       ],
       "explanation": "本句的「shady character」指「看起來不誠實、不合法、不可靠或刻意隱瞞的」。",
       "sentenceIndex": 33,
@@ -1526,12 +1392,10 @@ export default {
         "shady character"
       ],
       "optionReasons": {
-        "shade-mcq-13": "本句指「看起來不誠實、不合法、不可靠或刻意隱瞞的」。",
-        "shade-mcq-12": "「因陽光被遮擋而較陰涼的」是「shady — literal」的用法，與本句語境不同。",
-        "shade-mcq-14": "「以間接、含蓄、帶嘲諷方式批評或貶低某人」是「throw/cast shade」的用法，與本句語境不同。",
-        "shade-mcq-11": "「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」是「shading — art/design」的用法，與本句語境不同。",
-        "shade-mcq-15": "「表示某句話並非刻意暗諷或貶低對方」是「no shade」的用法，與本句語境不同。",
-        "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。"
+        "shade-mcq-13": "本句的「shady character」指「看起來不誠實、不合法、不可靠或刻意隱瞞的」。",
+        "shade-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-13"
     },
@@ -1543,10 +1407,8 @@ export default {
       "masked": "Be careful dealing with ____ sellers online.",
       "options": [
         "shade-mcq-13",
-        "shade-mcq-12",
         "shade-mcq-14",
-        "shade-mcq-11",
-        "shade-mcq-15",
+        "shade-mcq-01",
         "shade-mcq-10"
       ],
       "explanation": "本句的「shady」指「看起來不誠實、不合法、不可靠或刻意隱瞞的」。",
@@ -1556,12 +1418,10 @@ export default {
         "shady"
       ],
       "optionReasons": {
-        "shade-mcq-13": "本句指「看起來不誠實、不合法、不可靠或刻意隱瞞的」。",
-        "shade-mcq-12": "「因陽光被遮擋而較陰涼的」是「shady — literal」的用法，與本句語境不同。",
-        "shade-mcq-14": "「以間接、含蓄、帶嘲諷方式批評或貶低某人」是「throw/cast shade」的用法，與本句語境不同。",
-        "shade-mcq-11": "「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」是「shading — art/design」的用法，與本句語境不同。",
-        "shade-mcq-15": "「表示某句話並非刻意暗諷或貶低對方」是「no shade」的用法，與本句語境不同。",
-        "shade-mcq-10": "「在圖畫／設計中加深部分色調以表現光影和立體感」是「shade — art」的用法，與本句語境不同。"
+        "shade-mcq-13": "本句的「shady」指「看起來不誠實、不合法、不可靠或刻意隱瞞的」。",
+        "shade-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-13"
     },
@@ -1573,11 +1433,9 @@ export default {
       "masked": "Was she ____ at him?",
       "options": [
         "shade-mcq-14",
-        "shade-mcq-13",
-        "shade-mcq-15",
-        "shade-mcq-12",
-        "shade-mcq-16",
-        "shade-mcq-11"
+        "shade-mcq-03",
+        "shade-mcq-18",
+        "shade-mcq-06"
       ],
       "explanation": "本句的「throwing shade」指「以間接、含蓄、帶嘲諷方式批評或貶低某人」。",
       "sentenceIndex": 35,
@@ -1586,12 +1444,10 @@ export default {
         "throwing shade"
       ],
       "optionReasons": {
-        "shade-mcq-14": "本句指「以間接、含蓄、帶嘲諷方式批評或貶低某人」。",
-        "shade-mcq-13": "「看起來不誠實、不合法、不可靠或刻意隱瞞的」是「shady — figurative」的用法，與本句語境不同。",
-        "shade-mcq-15": "「表示某句話並非刻意暗諷或貶低對方」是「no shade」的用法，與本句語境不同。",
-        "shade-mcq-12": "「因陽光被遮擋而較陰涼的」是「shady — literal」的用法，與本句語境不同。",
-        "shade-mcq-16": "「用來遮擋窗戶光線的簾／遮光裝置」是「window shade」的用法，與本句語境不同。",
-        "shade-mcq-11": "「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」是「shading — art/design」的用法，與本句語境不同。"
+        "shade-mcq-14": "本句的「throwing shade」指「以間接、含蓄、帶嘲諷方式批評或貶低某人」。",
+        "shade-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-14"
     },
@@ -1603,11 +1459,9 @@ export default {
       "masked": "The comment seemed to ____ at her colleague.",
       "options": [
         "shade-mcq-14",
+        "shade-pdf-002",
         "shade-mcq-13",
-        "shade-mcq-15",
-        "shade-mcq-12",
-        "shade-mcq-16",
-        "shade-mcq-11"
+        "shade-mcq-07"
       ],
       "explanation": "本句的「throw shade」指「以間接、含蓄、帶嘲諷方式批評或貶低某人」。",
       "sentenceIndex": 36,
@@ -1616,12 +1470,10 @@ export default {
         "throw shade"
       ],
       "optionReasons": {
-        "shade-mcq-14": "本句指「以間接、含蓄、帶嘲諷方式批評或貶低某人」。",
-        "shade-mcq-13": "「看起來不誠實、不合法、不可靠或刻意隱瞞的」是「shady — figurative」的用法，與本句語境不同。",
-        "shade-mcq-15": "「表示某句話並非刻意暗諷或貶低對方」是「no shade」的用法，與本句語境不同。",
-        "shade-mcq-12": "「因陽光被遮擋而較陰涼的」是「shady — literal」的用法，與本句語境不同。",
-        "shade-mcq-16": "「用來遮擋窗戶光線的簾／遮光裝置」是「window shade」的用法，與本句語境不同。",
-        "shade-mcq-11": "「利用明暗深淺表現光線、立體感或色彩漸變的技巧／效果」是「shading — art/design」的用法，與本句語境不同。"
+        "shade-mcq-14": "本句的「throw shade」指「以間接、含蓄、帶嘲諷方式批評或貶低某人」。",
+        "shade-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-14"
     },
@@ -1633,11 +1485,9 @@ export default {
       "masked": "No ____, but I preferred the first version.",
       "options": [
         "shade-mcq-15",
-        "shade-mcq-14",
-        "shade-mcq-16",
-        "shade-mcq-13",
+        "shade-mcq-02",
         "shade-mcq-17",
-        "shade-mcq-12"
+        "shade-mcq-06"
       ],
       "explanation": "本句的「shade」指「表示某句話並非刻意暗諷或貶低對方」。",
       "sentenceIndex": 37,
@@ -1646,12 +1496,10 @@ export default {
         "shade"
       ],
       "optionReasons": {
-        "shade-mcq-15": "本句指「表示某句話並非刻意暗諷或貶低對方」。",
-        "shade-mcq-14": "「以間接、含蓄、帶嘲諷方式批評或貶低某人」是「throw/cast shade」的用法，與本句語境不同。",
-        "shade-mcq-16": "「用來遮擋窗戶光線的簾／遮光裝置」是「window shade」的用法，與本句語境不同。",
-        "shade-mcq-13": "「看起來不誠實、不合法、不可靠或刻意隱瞞的」是「shady — figurative」的用法，與本句語境不同。",
-        "shade-mcq-17": "「裝在燈泡周圍、用來遮擋或柔化光線的罩」是「lampshade」的用法，與本句語境不同。",
-        "shade-mcq-12": "「因陽光被遮擋而較陰涼的」是「shady — literal」的用法，與本句語境不同。"
+        "shade-mcq-15": "本句的「shade」指「表示某句話並非刻意暗諷或貶低對方」。",
+        "shade-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-15"
     },
@@ -1663,11 +1511,9 @@ export default {
       "masked": "No ____ to the team—they did their best.",
       "options": [
         "shade-mcq-15",
-        "shade-mcq-14",
         "shade-mcq-16",
-        "shade-mcq-13",
-        "shade-mcq-17",
-        "shade-mcq-12"
+        "shade-mcq-06",
+        "shade-pdf-002"
       ],
       "explanation": "本句的「shade」指「表示某句話並非刻意暗諷或貶低對方」。",
       "sentenceIndex": 38,
@@ -1676,12 +1522,10 @@ export default {
         "shade"
       ],
       "optionReasons": {
-        "shade-mcq-15": "本句指「表示某句話並非刻意暗諷或貶低對方」。",
-        "shade-mcq-14": "「以間接、含蓄、帶嘲諷方式批評或貶低某人」是「throw/cast shade」的用法，與本句語境不同。",
-        "shade-mcq-16": "「用來遮擋窗戶光線的簾／遮光裝置」是「window shade」的用法，與本句語境不同。",
-        "shade-mcq-13": "「看起來不誠實、不合法、不可靠或刻意隱瞞的」是「shady — figurative」的用法，與本句語境不同。",
-        "shade-mcq-17": "「裝在燈泡周圍、用來遮擋或柔化光線的罩」是「lampshade」的用法，與本句語境不同。",
-        "shade-mcq-12": "「因陽光被遮擋而較陰涼的」是「shady — literal」的用法，與本句語境不同。"
+        "shade-mcq-15": "本句的「shade」指「表示某句話並非刻意暗諷或貶低對方」。",
+        "shade-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shade-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-15"
     },
@@ -1694,10 +1538,8 @@ export default {
       "options": [
         "shade-mcq-16",
         "shade-mcq-15",
-        "shade-mcq-17",
-        "shade-mcq-14",
-        "shade-mcq-18",
-        "shade-mcq-13"
+        "shade-mcq-06",
+        "shade-pdf-001"
       ],
       "explanation": "本句的「shade」指「用來遮擋窗戶光線的簾／遮光裝置」。",
       "sentenceIndex": 39,
@@ -1706,12 +1548,10 @@ export default {
         "shade"
       ],
       "optionReasons": {
-        "shade-mcq-16": "本句指「用來遮擋窗戶光線的簾／遮光裝置」。",
-        "shade-mcq-15": "「表示某句話並非刻意暗諷或貶低對方」是「no shade」的用法，與本句語境不同。",
-        "shade-mcq-17": "「裝在燈泡周圍、用來遮擋或柔化光線的罩」是「lampshade」的用法，與本句語境不同。",
-        "shade-mcq-14": "「以間接、含蓄、帶嘲諷方式批評或貶低某人」是「throw/cast shade」的用法，與本句語境不同。",
-        "shade-mcq-18": "「用來阻擋陽光、提供遮蔭的裝置」是「sunshade」的用法，與本句語境不同。",
-        "shade-mcq-13": "「看起來不誠實、不合法、不可靠或刻意隱瞞的」是「shady — figurative」的用法，與本句語境不同。"
+        "shade-mcq-16": "本句的「shade」指「用來遮擋窗戶光線的簾／遮光裝置」。",
+        "shade-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shade-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-16"
     },
@@ -1723,11 +1563,9 @@ export default {
       "masked": "Open the ____ and let some light in.",
       "options": [
         "shade-mcq-16",
-        "shade-mcq-15",
-        "shade-mcq-17",
-        "shade-mcq-14",
-        "shade-mcq-18",
-        "shade-mcq-13"
+        "shade-mcq-07",
+        "shade-mcq-19",
+        "shade-mcq-05"
       ],
       "explanation": "本句的「shade」指「用來遮擋窗戶光線的簾／遮光裝置」。",
       "sentenceIndex": 40,
@@ -1736,12 +1574,10 @@ export default {
         "shade"
       ],
       "optionReasons": {
-        "shade-mcq-16": "本句指「用來遮擋窗戶光線的簾／遮光裝置」。",
-        "shade-mcq-15": "「表示某句話並非刻意暗諷或貶低對方」是「no shade」的用法，與本句語境不同。",
-        "shade-mcq-17": "「裝在燈泡周圍、用來遮擋或柔化光線的罩」是「lampshade」的用法，與本句語境不同。",
-        "shade-mcq-14": "「以間接、含蓄、帶嘲諷方式批評或貶低某人」是「throw/cast shade」的用法，與本句語境不同。",
-        "shade-mcq-18": "「用來阻擋陽光、提供遮蔭的裝置」是「sunshade」的用法，與本句語境不同。",
-        "shade-mcq-13": "「看起來不誠實、不合法、不可靠或刻意隱瞞的」是「shady — figurative」的用法，與本句語境不同。"
+        "shade-mcq-16": "本句的「shade」指「用來遮擋窗戶光線的簾／遮光裝置」。",
+        "shade-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-16"
     },
@@ -1753,11 +1589,9 @@ export default {
       "masked": "The lamp has a white ____.",
       "options": [
         "shade-mcq-17",
-        "shade-mcq-16",
-        "shade-mcq-18",
-        "shade-mcq-15",
-        "shade-mcq-19",
-        "shade-mcq-14"
+        "shade-pdf-001",
+        "shade-mcq-05",
+        "shade-mcq-15"
       ],
       "explanation": "本句的「lampshade」指「裝在燈泡周圍、用來遮擋或柔化光線的罩」。",
       "sentenceIndex": 41,
@@ -1766,12 +1600,10 @@ export default {
         "lampshade"
       ],
       "optionReasons": {
-        "shade-mcq-17": "本句指「裝在燈泡周圍、用來遮擋或柔化光線的罩」。",
-        "shade-mcq-16": "「用來遮擋窗戶光線的簾／遮光裝置」是「window shade」的用法，與本句語境不同。",
-        "shade-mcq-18": "「用來阻擋陽光、提供遮蔭的裝置」是「sunshade」的用法，與本句語境不同。",
-        "shade-mcq-15": "「表示某句話並非刻意暗諷或貶低對方」是「no shade」的用法，與本句語境不同。",
-        "shade-mcq-19": "「非正式用語；太陽眼鏡」是「shades — sunglasses」的用法，與本句語境不同。",
-        "shade-mcq-14": "「以間接、含蓄、帶嘲諷方式批評或貶低某人」是「throw/cast shade」的用法，與本句語境不同。"
+        "shade-mcq-17": "本句的「lampshade」指「裝在燈泡周圍、用來遮擋或柔化光線的罩」。",
+        "shade-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-17"
     },
@@ -1783,11 +1615,9 @@ export default {
       "masked": "The ____ softens the light.",
       "options": [
         "shade-mcq-17",
-        "shade-mcq-16",
-        "shade-mcq-18",
-        "shade-mcq-15",
+        "shade-mcq-05",
         "shade-mcq-19",
-        "shade-mcq-14"
+        "shade-pdf-001"
       ],
       "explanation": "本句的「lampshade」指「裝在燈泡周圍、用來遮擋或柔化光線的罩」。",
       "sentenceIndex": 42,
@@ -1796,12 +1626,10 @@ export default {
         "lampshade"
       ],
       "optionReasons": {
-        "shade-mcq-17": "本句指「裝在燈泡周圍、用來遮擋或柔化光線的罩」。",
-        "shade-mcq-16": "「用來遮擋窗戶光線的簾／遮光裝置」是「window shade」的用法，與本句語境不同。",
-        "shade-mcq-18": "「用來阻擋陽光、提供遮蔭的裝置」是「sunshade」的用法，與本句語境不同。",
-        "shade-mcq-15": "「表示某句話並非刻意暗諷或貶低對方」是「no shade」的用法，與本句語境不同。",
-        "shade-mcq-19": "「非正式用語；太陽眼鏡」是「shades — sunglasses」的用法，與本句語境不同。",
-        "shade-mcq-14": "「以間接、含蓄、帶嘲諷方式批評或貶低某人」是「throw/cast shade」的用法，與本句語境不同。"
+        "shade-mcq-17": "本句的「lampshade」指「裝在燈泡周圍、用來遮擋或柔化光線的罩」。",
+        "shade-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shade-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-17"
     },
@@ -1813,10 +1641,8 @@ export default {
       "masked": "They sat under a large ____.",
       "options": [
         "shade-mcq-18",
-        "shade-mcq-17",
-        "shade-mcq-19",
-        "shade-mcq-16",
-        "shade-mcq-20",
+        "shade-mcq-05",
+        "shade-mcq-07",
         "shade-mcq-15"
       ],
       "explanation": "本句的「sunshade」指「用來阻擋陽光、提供遮蔭的裝置」。",
@@ -1826,12 +1652,10 @@ export default {
         "sunshade"
       ],
       "optionReasons": {
-        "shade-mcq-18": "本句指「用來阻擋陽光、提供遮蔭的裝置」。",
-        "shade-mcq-17": "「裝在燈泡周圍、用來遮擋或柔化光線的罩」是「lampshade」的用法，與本句語境不同。",
-        "shade-mcq-19": "「非正式用語；太陽眼鏡」是「shades — sunglasses」的用法，與本句語境不同。",
-        "shade-mcq-16": "「用來遮擋窗戶光線的簾／遮光裝置」是「window shade」的用法，與本句語境不同。",
-        "shade-mcq-20": "「文學／古典語境中的亡魂或幽靈」是「shade/shades — literary」的用法，與本句語境不同。",
-        "shade-mcq-15": "「表示某句話並非刻意暗諷或貶低對方」是「no shade」的用法，與本句語境不同。"
+        "shade-mcq-18": "本句的「sunshade」指「用來阻擋陽光、提供遮蔭的裝置」。",
+        "shade-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-18"
     },
@@ -1843,11 +1667,9 @@ export default {
       "masked": "The car has a rear-window ____.",
       "options": [
         "shade-mcq-18",
-        "shade-mcq-17",
-        "shade-mcq-19",
-        "shade-mcq-16",
-        "shade-mcq-20",
-        "shade-mcq-15"
+        "shade-mcq-15",
+        "shade-mcq-07",
+        "shade-mcq-05"
       ],
       "explanation": "本句的「sunshade」指「用來阻擋陽光、提供遮蔭的裝置」。",
       "sentenceIndex": 44,
@@ -1856,12 +1678,10 @@ export default {
         "sunshade"
       ],
       "optionReasons": {
-        "shade-mcq-18": "本句指「用來阻擋陽光、提供遮蔭的裝置」。",
-        "shade-mcq-17": "「裝在燈泡周圍、用來遮擋或柔化光線的罩」是「lampshade」的用法，與本句語境不同。",
-        "shade-mcq-19": "「非正式用語；太陽眼鏡」是「shades — sunglasses」的用法，與本句語境不同。",
-        "shade-mcq-16": "「用來遮擋窗戶光線的簾／遮光裝置」是「window shade」的用法，與本句語境不同。",
-        "shade-mcq-20": "「文學／古典語境中的亡魂或幽靈」是「shade/shades — literary」的用法，與本句語境不同。",
-        "shade-mcq-15": "「表示某句話並非刻意暗諷或貶低對方」是「no shade」的用法，與本句語境不同。"
+        "shade-mcq-18": "本句的「sunshade」指「用來阻擋陽光、提供遮蔭的裝置」。",
+        "shade-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-18"
     },
@@ -1873,11 +1693,9 @@ export default {
       "masked": "He was wearing dark ____.",
       "options": [
         "shade-mcq-19",
-        "shade-mcq-18",
-        "shade-mcq-20",
-        "shade-mcq-17",
-        "shade-mcq-16",
-        "shade-mcq-15"
+        "shade-mcq-09",
+        "shade-mcq-06",
+        "shade-mcq-13"
       ],
       "explanation": "本句的「shades」指「非正式用語；太陽眼鏡」。",
       "sentenceIndex": 45,
@@ -1886,12 +1704,10 @@ export default {
         "shades"
       ],
       "optionReasons": {
-        "shade-mcq-19": "本句指「非正式用語；太陽眼鏡」。",
-        "shade-mcq-18": "「用來阻擋陽光、提供遮蔭的裝置」是「sunshade」的用法，與本句語境不同。",
-        "shade-mcq-20": "「文學／古典語境中的亡魂或幽靈」是「shade/shades — literary」的用法，與本句語境不同。",
-        "shade-mcq-17": "「裝在燈泡周圍、用來遮擋或柔化光線的罩」是「lampshade」的用法，與本句語境不同。",
-        "shade-mcq-16": "「用來遮擋窗戶光線的簾／遮光裝置」是「window shade」的用法，與本句語境不同。",
-        "shade-mcq-15": "「表示某句話並非刻意暗諷或貶低對方」是「no shade」的用法，與本句語境不同。"
+        "shade-mcq-19": "本句的「shades」指「非正式用語；太陽眼鏡」。",
+        "shade-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-19"
     },
@@ -1903,11 +1719,9 @@ export default {
       "masked": "Don’t forget your ____.",
       "options": [
         "shade-mcq-19",
-        "shade-mcq-18",
-        "shade-mcq-20",
         "shade-mcq-17",
-        "shade-mcq-16",
-        "shade-mcq-15"
+        "shade-mcq-07",
+        "shade-mcq-14"
       ],
       "explanation": "本句的「shades」指「非正式用語；太陽眼鏡」。",
       "sentenceIndex": 46,
@@ -1916,12 +1730,10 @@ export default {
         "shades"
       ],
       "optionReasons": {
-        "shade-mcq-19": "本句指「非正式用語；太陽眼鏡」。",
-        "shade-mcq-18": "「用來阻擋陽光、提供遮蔭的裝置」是「sunshade」的用法，與本句語境不同。",
-        "shade-mcq-20": "「文學／古典語境中的亡魂或幽靈」是「shade/shades — literary」的用法，與本句語境不同。",
-        "shade-mcq-17": "「裝在燈泡周圍、用來遮擋或柔化光線的罩」是「lampshade」的用法，與本句語境不同。",
-        "shade-mcq-16": "「用來遮擋窗戶光線的簾／遮光裝置」是「window shade」的用法，與本句語境不同。",
-        "shade-mcq-15": "「表示某句話並非刻意暗諷或貶低對方」是「no shade」的用法，與本句語境不同。"
+        "shade-mcq-19": "本句的「shades」指「非正式用語；太陽眼鏡」。",
+        "shade-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-19"
     },
@@ -1933,9 +1745,7 @@ export default {
       "masked": "The poem speaks of the ____ of the dead.",
       "options": [
         "shade-mcq-20",
-        "shade-mcq-19",
-        "shade-mcq-18",
-        "shade-mcq-17",
+        "shade-pdf-001",
         "shade-mcq-16",
         "shade-mcq-15"
       ],
@@ -1946,12 +1756,10 @@ export default {
         "shades"
       ],
       "optionReasons": {
-        "shade-mcq-20": "本句指「文學／古典語境中的亡魂或幽靈」。",
-        "shade-mcq-19": "「非正式用語；太陽眼鏡」是「shades — sunglasses」的用法，與本句語境不同。",
-        "shade-mcq-18": "「用來阻擋陽光、提供遮蔭的裝置」是「sunshade」的用法，與本句語境不同。",
-        "shade-mcq-17": "「裝在燈泡周圍、用來遮擋或柔化光線的罩」是「lampshade」的用法，與本句語境不同。",
-        "shade-mcq-16": "「用來遮擋窗戶光線的簾／遮光裝置」是「window shade」的用法，與本句語境不同。",
-        "shade-mcq-15": "「表示某句話並非刻意暗諷或貶低對方」是「no shade」的用法，與本句語境不同。"
+        "shade-mcq-20": "本句的「shades」指「文學／古典語境中的亡魂或幽靈」。",
+        "shade-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-20"
     },
@@ -1963,11 +1771,9 @@ export default {
       "masked": "Ancient stories describe ____ wandering in the underworld.",
       "options": [
         "shade-mcq-20",
-        "shade-mcq-19",
-        "shade-mcq-18",
-        "shade-mcq-17",
-        "shade-mcq-16",
-        "shade-mcq-15"
+        "shade-mcq-13",
+        "shade-pdf-001",
+        "shade-mcq-03"
       ],
       "explanation": "本句的「shades」指「文學／古典語境中的亡魂或幽靈」。",
       "sentenceIndex": 48,
@@ -1976,12 +1782,10 @@ export default {
         "shades"
       ],
       "optionReasons": {
-        "shade-mcq-20": "本句指「文學／古典語境中的亡魂或幽靈」。",
-        "shade-mcq-19": "「非正式用語；太陽眼鏡」是「shades — sunglasses」的用法，與本句語境不同。",
-        "shade-mcq-18": "「用來阻擋陽光、提供遮蔭的裝置」是「sunshade」的用法，與本句語境不同。",
-        "shade-mcq-17": "「裝在燈泡周圍、用來遮擋或柔化光線的罩」是「lampshade」的用法，與本句語境不同。",
-        "shade-mcq-16": "「用來遮擋窗戶光線的簾／遮光裝置」是「window shade」的用法，與本句語境不同。",
-        "shade-mcq-15": "「表示某句話並非刻意暗諷或貶低對方」是「no shade」的用法，與本句語境不同。"
+        "shade-mcq-20": "本句的「shades」指「文學／古典語境中的亡魂或幽靈」。",
+        "shade-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shade-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "shade-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shade-mcq-20"
     }
@@ -1993,5 +1797,7 @@ export default {
     "sha256": "93eff0f9f5392b6fa3b7c27d181b43bf5d0660967dfdfc9903b11d639216b12c",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -34,7 +34,7 @@ export default {
     },
     {
       "id": "especially-mcq-02",
-      "title": "表示某種特質或程度比一般情況更加突出",
+      "title": "某種特質或程度比一般情況更加突出",
       "form": "especially + adjective/adverb",
       "en": "especially + adjective/adverb",
       "zh": "表示某種特質或程度比一般情況更加突出",
@@ -250,11 +250,8 @@ export default {
       "masked": "I still use them now, ____ when I am travelling or trying to focus.",
       "options": [
         "especially-mcq-01",
-        "especially-mcq-02",
-        "especially-mcq-03",
-        "especially-mcq-04",
-        "especially-mcq-05",
-        "especially-mcq-06"
+        "especially-mcq-09",
+        "especially-mcq-08"
       ],
       "explanation": "本句的「especially」指「在多個人、事物或情況之中，特別把其中一個提出來加以強調」。",
       "sentenceIndex": 0,
@@ -263,12 +260,9 @@ export default {
         "especially"
       ],
       "optionReasons": {
-        "especially-mcq-01": "本句指「在多個人、事物或情況之中，特別把其中一個提出來加以強調」。",
-        "especially-mcq-02": "「表示某種特質或程度比一般情況更加突出」與本句語境不同。",
-        "especially-mcq-03": "「在某個特定條件或情況下，前面所述情況尤其明顯」與本句語境不同。",
-        "especially-mcq-04": "「在多個可能原因中，特別強調其中一個原因」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。"
+        "especially-mcq-01": "本句的「especially」指「在多個人、事物或情況之中，特別把其中一個提出來加以強調」。",
+        "especially-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-01"
     },
@@ -280,11 +274,8 @@ export default {
       "masked": "I enjoy travelling, ____ by train.",
       "options": [
         "especially-mcq-01",
-        "especially-mcq-02",
-        "especially-mcq-03",
-        "especially-mcq-04",
-        "especially-mcq-05",
-        "especially-mcq-06"
+        "especially-mcq-07",
+        "especially-mcq-08"
       ],
       "explanation": "本句的「especially」指「在多個人、事物或情況之中，特別把其中一個提出來加以強調」。",
       "sentenceIndex": 1,
@@ -293,12 +284,9 @@ export default {
         "especially"
       ],
       "optionReasons": {
-        "especially-mcq-01": "本句指「在多個人、事物或情況之中，特別把其中一個提出來加以強調」。",
-        "especially-mcq-02": "「表示某種特質或程度比一般情況更加突出」與本句語境不同。",
-        "especially-mcq-03": "「在某個特定條件或情況下，前面所述情況尤其明顯」與本句語境不同。",
-        "especially-mcq-04": "「在多個可能原因中，特別強調其中一個原因」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。"
+        "especially-mcq-01": "本句的「especially」指「在多個人、事物或情況之中，特別把其中一個提出來加以強調」。",
+        "especially-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-01"
     },
@@ -310,11 +298,8 @@ export default {
       "masked": "The café is busy, ____ at lunchtime.",
       "options": [
         "especially-mcq-01",
-        "especially-mcq-02",
         "especially-mcq-03",
-        "especially-mcq-04",
-        "especially-mcq-05",
-        "especially-mcq-06"
+        "especially-mcq-08"
       ],
       "explanation": "本句的「especially」指「在多個人、事物或情況之中，特別把其中一個提出來加以強調」。",
       "sentenceIndex": 2,
@@ -323,12 +308,9 @@ export default {
         "especially"
       ],
       "optionReasons": {
-        "especially-mcq-01": "本句指「在多個人、事物或情況之中，特別把其中一個提出來加以強調」。",
-        "especially-mcq-02": "「表示某種特質或程度比一般情況更加突出」與本句語境不同。",
-        "especially-mcq-03": "「在某個特定條件或情況下，前面所述情況尤其明顯」與本句語境不同。",
-        "especially-mcq-04": "「在多個可能原因中，特別強調其中一個原因」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。"
+        "especially-mcq-01": "本句的「especially」指「在多個人、事物或情況之中，特別把其中一個提出來加以強調」。",
+        "especially-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-01"
     },
@@ -340,11 +322,8 @@ export default {
       "masked": "The headphones are ____ on long flights.",
       "options": [
         "especially-mcq-02",
-        "especially-mcq-01",
-        "especially-mcq-03",
         "especially-mcq-04",
-        "especially-mcq-05",
-        "especially-mcq-06"
+        "especially-mcq-07"
       ],
       "explanation": "本句的「especially useful」指「表示某種特質或程度比一般情況更加突出」。",
       "sentenceIndex": 3,
@@ -353,12 +332,9 @@ export default {
         "especially useful"
       ],
       "optionReasons": {
-        "especially-mcq-02": "本句指「表示某種特質或程度比一般情況更加突出」。",
-        "especially-mcq-01": "「在多個人、事物或情況之中，特別把其中一個提出來加以強調」與本句語境不同。",
-        "especially-mcq-03": "「在某個特定條件或情況下，前面所述情況尤其明顯」與本句語境不同。",
-        "especially-mcq-04": "「在多個可能原因中，特別強調其中一個原因」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。"
+        "especially-mcq-02": "本句的「especially useful」指「表示某種特質或程度比一般情況更加突出」。",
+        "especially-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-02"
     },
@@ -370,11 +346,8 @@ export default {
       "masked": "The office was ____ that afternoon.",
       "options": [
         "especially-mcq-02",
-        "especially-mcq-01",
         "especially-mcq-03",
-        "especially-mcq-04",
-        "especially-mcq-05",
-        "especially-mcq-06"
+        "especially-mcq-10"
       ],
       "explanation": "本句的「especially noisy」指「表示某種特質或程度比一般情況更加突出」。",
       "sentenceIndex": 4,
@@ -383,12 +356,9 @@ export default {
         "especially noisy"
       ],
       "optionReasons": {
-        "especially-mcq-02": "本句指「表示某種特質或程度比一般情況更加突出」。",
-        "especially-mcq-01": "「在多個人、事物或情況之中，特別把其中一個提出來加以強調」與本句語境不同。",
-        "especially-mcq-03": "「在某個特定條件或情況下，前面所述情況尤其明顯」與本句語境不同。",
-        "especially-mcq-04": "「在多個可能原因中，特別強調其中一個原因」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。"
+        "especially-mcq-02": "本句的「especially noisy」指「表示某種特質或程度比一般情況更加突出」。",
+        "especially-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-02"
     },
@@ -400,11 +370,8 @@ export default {
       "masked": "I chose these headphones, ____ they were comfortable.",
       "options": [
         "especially-mcq-04",
-        "especially-mcq-03",
-        "especially-mcq-05",
         "especially-mcq-02",
-        "especially-mcq-06",
-        "especially-mcq-01"
+        "especially-mcq-07"
       ],
       "explanation": "本句的「especially because」指「在多個可能原因中，特別強調其中一個原因」。",
       "sentenceIndex": 5,
@@ -413,12 +380,9 @@ export default {
         "especially because"
       ],
       "optionReasons": {
-        "especially-mcq-04": "本句指「在多個可能原因中，特別強調其中一個原因」。",
-        "especially-mcq-03": "「在某個特定條件或情況下，前面所述情況尤其明顯」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。",
-        "especially-mcq-02": "「表示某種特質或程度比一般情況更加突出」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。",
-        "especially-mcq-01": "「在多個人、事物或情況之中，特別把其中一個提出來加以強調」與本句語境不同。"
+        "especially-mcq-04": "本句的「especially because」指「在多個可能原因中，特別強調其中一個原因」。",
+        "especially-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-04"
     },
@@ -430,11 +394,8 @@ export default {
       "masked": "The trip was tiring, ____ we had not slept well.",
       "options": [
         "especially-mcq-04",
-        "especially-mcq-03",
-        "especially-mcq-05",
-        "especially-mcq-02",
-        "especially-mcq-06",
-        "especially-mcq-01"
+        "especially-mcq-07",
+        "especially-mcq-02"
       ],
       "explanation": "本句的「especially because」指「在多個可能原因中，特別強調其中一個原因」。",
       "sentenceIndex": 6,
@@ -443,12 +404,9 @@ export default {
         "especially because"
       ],
       "optionReasons": {
-        "especially-mcq-04": "本句指「在多個可能原因中，特別強調其中一個原因」。",
-        "especially-mcq-03": "「在某個特定條件或情況下，前面所述情況尤其明顯」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。",
-        "especially-mcq-02": "「表示某種特質或程度比一般情況更加突出」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。",
-        "especially-mcq-01": "「在多個人、事物或情況之中，特別把其中一個提出來加以強調」與本句語境不同。"
+        "especially-mcq-04": "本句的「especially because」指「在多個可能原因中，特別強調其中一個原因」。",
+        "especially-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-04"
     },
@@ -460,11 +418,8 @@ export default {
       "masked": "Noise-cancelling headphones are useful, ____ you travel often.",
       "options": [
         "especially-mcq-03",
-        "especially-mcq-02",
         "especially-mcq-04",
-        "especially-mcq-01",
-        "especially-mcq-05",
-        "especially-mcq-06"
+        "especially-mcq-02"
       ],
       "explanation": "本句的「especially if」指「在某個特定條件或情況下，前面所述情況尤其明顯」。",
       "sentenceIndex": 7,
@@ -473,12 +428,9 @@ export default {
         "especially if"
       ],
       "optionReasons": {
-        "especially-mcq-03": "本句指「在某個特定條件或情況下，前面所述情況尤其明顯」。",
-        "especially-mcq-02": "「表示某種特質或程度比一般情況更加突出」與本句語境不同。",
-        "especially-mcq-04": "「在多個可能原因中，特別強調其中一個原因」與本句語境不同。",
-        "especially-mcq-01": "「在多個人、事物或情況之中，特別把其中一個提出來加以強調」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。"
+        "especially-mcq-03": "本句的「especially if」指「在某個特定條件或情況下，前面所述情況尤其明顯」。",
+        "especially-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-03"
     },
@@ -491,10 +443,7 @@ export default {
       "options": [
         "especially-mcq-03",
         "especially-mcq-02",
-        "especially-mcq-04",
-        "especially-mcq-01",
-        "especially-mcq-05",
-        "especially-mcq-06"
+        "especially-mcq-08"
       ],
       "explanation": "本句的「especially when」指「在某個特定條件或情況下，前面所述情況尤其明顯」。",
       "sentenceIndex": 8,
@@ -503,12 +452,9 @@ export default {
         "especially when"
       ],
       "optionReasons": {
-        "especially-mcq-03": "本句指「在某個特定條件或情況下，前面所述情況尤其明顯」。",
-        "especially-mcq-02": "「表示某種特質或程度比一般情況更加突出」與本句語境不同。",
-        "especially-mcq-04": "「在多個可能原因中，特別強調其中一個原因」與本句語境不同。",
-        "especially-mcq-01": "「在多個人、事物或情況之中，特別把其中一個提出來加以強調」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。"
+        "especially-mcq-03": "本句的「especially when」指「在某個特定條件或情況下，前面所述情況尤其明顯」。",
+        "especially-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-03"
     },
@@ -520,11 +466,7 @@ export default {
       "masked": "I like all kinds of music, ____.",
       "options": [
         "especially-mcq-04",
-        "especially-mcq-03",
-        "especially-mcq-05",
-        "especially-mcq-02",
-        "especially-mcq-06",
-        "especially-mcq-01"
+        "especially-mcq-06"
       ],
       "explanation": "本句的「especially jazz」指「在多個可能原因中，特別強調其中一個原因」。",
       "sentenceIndex": 9,
@@ -533,12 +475,8 @@ export default {
         "especially jazz"
       ],
       "optionReasons": {
-        "especially-mcq-04": "本句指「在多個可能原因中，特別強調其中一個原因」。",
-        "especially-mcq-03": "「在某個特定條件或情況下，前面所述情況尤其明顯」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。",
-        "especially-mcq-02": "「表示某種特質或程度比一般情況更加突出」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。",
-        "especially-mcq-01": "「在多個人、事物或情況之中，特別把其中一個提出來加以強調」與本句語境不同。"
+        "especially-mcq-04": "本句的「especially jazz」指「在多個可能原因中，特別強調其中一個原因」。",
+        "especially-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-04"
     },
@@ -550,11 +488,7 @@ export default {
       "masked": "Everyone was helpful, ____.",
       "options": [
         "especially-mcq-04",
-        "especially-mcq-03",
-        "especially-mcq-05",
-        "especially-mcq-02",
-        "especially-mcq-06",
-        "especially-mcq-01"
+        "especially-mcq-06"
       ],
       "explanation": "本句的「especially Anna」指「在多個可能原因中，特別強調其中一個原因」。",
       "sentenceIndex": 10,
@@ -563,12 +497,8 @@ export default {
         "especially Anna"
       ],
       "optionReasons": {
-        "especially-mcq-04": "本句指「在多個可能原因中，特別強調其中一個原因」。",
-        "especially-mcq-03": "「在某個特定條件或情況下，前面所述情況尤其明顯」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。",
-        "especially-mcq-02": "「表示某種特質或程度比一般情況更加突出」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。",
-        "especially-mcq-01": "「在多個人、事物或情況之中，特別把其中一個提出來加以強調」與本句語境不同。"
+        "especially-mcq-04": "本句的「especially Anna」指「在多個可能原因中，特別強調其中一個原因」。",
+        "especially-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-04"
     },
@@ -580,11 +510,8 @@ export default {
       "masked": "The headphones are good, but they are ____.",
       "options": [
         "especially-mcq-05",
-        "especially-mcq-04",
-        "especially-mcq-06",
-        "especially-mcq-03",
-        "especially-mcq-07",
-        "especially-mcq-02"
+        "especially-mcq-09",
+        "especially-mcq-08"
       ],
       "explanation": "本句的「not especially cheap」指「程度不算特別高；不太……」。",
       "sentenceIndex": 11,
@@ -593,12 +520,9 @@ export default {
         "not especially cheap"
       ],
       "optionReasons": {
-        "especially-mcq-05": "本句指「程度不算特別高；不太……」。",
-        "especially-mcq-04": "「在多個可能原因中，特別強調其中一個原因」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。",
-        "especially-mcq-03": "「在某個特定條件或情況下，前面所述情況尤其明顯」與本句語境不同。",
-        "especially-mcq-07": "「為某個特定目的、對象或情況而特地安排／製作」與本句語境不同。",
-        "especially-mcq-02": "「表示某種特質或程度比一般情況更加突出」與本句語境不同。"
+        "especially-mcq-05": "本句的「not especially cheap」指「程度不算特別高；不太……」。",
+        "especially-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-05"
     },
@@ -610,11 +534,8 @@ export default {
       "masked": "I’m ____ in that brand.",
       "options": [
         "especially-mcq-05",
-        "especially-mcq-04",
-        "especially-mcq-06",
         "especially-mcq-03",
-        "especially-mcq-07",
-        "especially-mcq-02"
+        "especially-mcq-08"
       ],
       "explanation": "本句的「not especially interested」指「程度不算特別高；不太……」。",
       "sentenceIndex": 12,
@@ -623,12 +544,9 @@ export default {
         "not especially interested"
       ],
       "optionReasons": {
-        "especially-mcq-05": "本句指「程度不算特別高；不太……」。",
-        "especially-mcq-04": "「在多個可能原因中，特別強調其中一個原因」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。",
-        "especially-mcq-03": "「在某個特定條件或情況下，前面所述情況尤其明顯」與本句語境不同。",
-        "especially-mcq-07": "「為某個特定目的、對象或情況而特地安排／製作」與本句語境不同。",
-        "especially-mcq-02": "「表示某種特質或程度比一般情況更加突出」與本句語境不同。"
+        "especially-mcq-05": "本句的「not especially interested」指「程度不算特別高；不太……」。",
+        "especially-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-05"
     },
@@ -640,11 +558,8 @@ export default {
       "masked": "Travelling can be tiring, ____ during the holiday season.",
       "options": [
         "especially-mcq-06",
-        "especially-mcq-05",
-        "especially-mcq-07",
-        "especially-mcq-04",
         "especially-mcq-08",
-        "especially-mcq-03"
+        "especially-mcq-05"
       ],
       "explanation": "本句的「especially so」指「前面所說的情況在某個特定例子中更加明顯」。",
       "sentenceIndex": 13,
@@ -653,12 +568,9 @@ export default {
         "especially so"
       ],
       "optionReasons": {
-        "especially-mcq-06": "本句指「前面所說的情況在某個特定例子中更加明顯」。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。",
-        "especially-mcq-07": "「為某個特定目的、對象或情況而特地安排／製作」與本句語境不同。",
-        "especially-mcq-04": "「在多個可能原因中，特別強調其中一個原因」與本句語境不同。",
-        "especially-mcq-08": "「因具有不同尋常的特徵、重要性或意義而與普通情況有別的」與本句語境不同。",
-        "especially-mcq-03": "「在某個特定條件或情況下，前面所述情況尤其明顯」與本句語境不同。"
+        "especially-mcq-06": "本句的「especially so」指「前面所說的情況在某個特定例子中更加明顯」。",
+        "especially-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-06"
     },
@@ -671,10 +583,7 @@ export default {
       "options": [
         "especially-mcq-06",
         "especially-mcq-05",
-        "especially-mcq-07",
-        "especially-mcq-04",
-        "especially-mcq-08",
-        "especially-mcq-03"
+        "especially-mcq-08"
       ],
       "explanation": "本句的「especially so」指「前面所說的情況在某個特定例子中更加明顯」。",
       "sentenceIndex": 14,
@@ -683,12 +592,9 @@ export default {
         "especially so"
       ],
       "optionReasons": {
-        "especially-mcq-06": "本句指「前面所說的情況在某個特定例子中更加明顯」。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。",
-        "especially-mcq-07": "「為某個特定目的、對象或情況而特地安排／製作」與本句語境不同。",
-        "especially-mcq-04": "「在多個可能原因中，特別強調其中一個原因」與本句語境不同。",
-        "especially-mcq-08": "「因具有不同尋常的特徵、重要性或意義而與普通情況有別的」與本句語境不同。",
-        "especially-mcq-03": "「在某個特定條件或情況下，前面所述情況尤其明顯」與本句語境不同。"
+        "especially-mcq-06": "本句的「especially so」指「前面所說的情況在某個特定例子中更加明顯」。",
+        "especially-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-06"
     },
@@ -700,11 +606,8 @@ export default {
       "masked": "The room was ____ for recording.",
       "options": [
         "especially-mcq-07",
-        "especially-mcq-06",
-        "especially-mcq-08",
-        "especially-mcq-05",
-        "especially-mcq-09",
-        "especially-mcq-04"
+        "especially-mcq-01",
+        "especially-mcq-08"
       ],
       "explanation": "本句的「specially designed」指「為某個特定目的、對象或情況而特地安排／製作」。",
       "sentenceIndex": 15,
@@ -713,12 +616,9 @@ export default {
         "specially designed"
       ],
       "optionReasons": {
-        "especially-mcq-07": "本句指「為某個特定目的、對象或情況而特地安排／製作」。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。",
-        "especially-mcq-08": "「因具有不同尋常的特徵、重要性或意義而與普通情況有別的」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。",
-        "especially-mcq-09": "「為特定用途或對象而設計／安排的」與本句語境不同。",
-        "especially-mcq-04": "「在多個可能原因中，特別強調其中一個原因」與本句語境不同。"
+        "especially-mcq-07": "本句的「specially designed」指「為某個特定目的、對象或情況而特地安排／製作」。",
+        "especially-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-07"
     },
@@ -730,10 +630,7 @@ export default {
       "masked": "I made this ____.",
       "options": [
         "especially-mcq-07",
-        "especially-mcq-06",
-        "especially-mcq-08",
-        "especially-mcq-05",
-        "especially-mcq-09",
+        "especially-mcq-02",
         "especially-mcq-04"
       ],
       "explanation": "本句的「specially for you」指「為某個特定目的、對象或情況而特地安排／製作」。",
@@ -743,12 +640,9 @@ export default {
         "specially for you"
       ],
       "optionReasons": {
-        "especially-mcq-07": "本句指「為某個特定目的、對象或情況而特地安排／製作」。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。",
-        "especially-mcq-08": "「因具有不同尋常的特徵、重要性或意義而與普通情況有別的」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。",
-        "especially-mcq-09": "「為特定用途或對象而設計／安排的」與本句語境不同。",
-        "especially-mcq-04": "「在多個可能原因中，特別強調其中一個原因」與本句語境不同。"
+        "especially-mcq-07": "本句的「specially for you」指「為某個特定目的、對象或情況而特地安排／製作」。",
+        "especially-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-07"
     },
@@ -760,11 +654,8 @@ export default {
       "masked": "These headphones have a ____ feature for reducing wind noise.",
       "options": [
         "especially-mcq-08",
-        "especially-mcq-07",
         "especially-mcq-09",
-        "especially-mcq-06",
-        "especially-mcq-10",
-        "especially-mcq-05"
+        "especially-mcq-02"
       ],
       "explanation": "本句的「special」指「因具有不同尋常的特徵、重要性或意義而與普通情況有別的」。",
       "sentenceIndex": 17,
@@ -773,12 +664,9 @@ export default {
         "special"
       ],
       "optionReasons": {
-        "especially-mcq-08": "本句指「因具有不同尋常的特徵、重要性或意義而與普通情況有別的」。",
-        "especially-mcq-07": "「為某個特定目的、對象或情況而特地安排／製作」與本句語境不同。",
-        "especially-mcq-09": "「為特定用途或對象而設計／安排的」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。",
-        "especially-mcq-10": "「特別值得注意或重視的；較正式、較少見」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。"
+        "especially-mcq-08": "本句的「special」指「因具有不同尋常的特徵、重要性或意義而與普通情況有別的」。",
+        "especially-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-08"
     },
@@ -790,11 +678,8 @@ export default {
       "masked": "It was a ____ day for the family.",
       "options": [
         "especially-mcq-08",
-        "especially-mcq-07",
         "especially-mcq-09",
-        "especially-mcq-06",
-        "especially-mcq-10",
-        "especially-mcq-05"
+        "especially-mcq-02"
       ],
       "explanation": "本句的「special」指「因具有不同尋常的特徵、重要性或意義而與普通情況有別的」。",
       "sentenceIndex": 18,
@@ -803,12 +688,9 @@ export default {
         "special"
       ],
       "optionReasons": {
-        "especially-mcq-08": "本句指「因具有不同尋常的特徵、重要性或意義而與普通情況有別的」。",
-        "especially-mcq-07": "「為某個特定目的、對象或情況而特地安排／製作」與本句語境不同。",
-        "especially-mcq-09": "「為特定用途或對象而設計／安排的」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。",
-        "especially-mcq-10": "「特別值得注意或重視的；較正式、較少見」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。"
+        "especially-mcq-08": "本句的「special」指「因具有不同尋常的特徵、重要性或意義而與普通情況有別的」。",
+        "especially-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-08"
     },
@@ -820,11 +702,8 @@ export default {
       "masked": "The hotel offers a ____ service for business travellers.",
       "options": [
         "especially-mcq-09",
-        "especially-mcq-08",
-        "especially-mcq-10",
-        "especially-mcq-07",
-        "especially-mcq-06",
-        "especially-mcq-05"
+        "especially-mcq-05",
+        "especially-mcq-08"
       ],
       "explanation": "本句的「special」指「為特定用途或對象而設計／安排的」。",
       "sentenceIndex": 19,
@@ -833,12 +712,9 @@ export default {
         "special"
       ],
       "optionReasons": {
-        "especially-mcq-09": "本句指「為特定用途或對象而設計／安排的」。",
-        "especially-mcq-08": "「因具有不同尋常的特徵、重要性或意義而與普通情況有別的」與本句語境不同。",
-        "especially-mcq-10": "「特別值得注意或重視的；較正式、較少見」與本句語境不同。",
-        "especially-mcq-07": "「為某個特定目的、對象或情況而特地安排／製作」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。"
+        "especially-mcq-09": "本句的「special」指「為特定用途或對象而設計／安排的」。",
+        "especially-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-09"
     },
@@ -850,11 +726,8 @@ export default {
       "masked": "You need a ____ tool to open this case.",
       "options": [
         "especially-mcq-09",
-        "especially-mcq-08",
-        "especially-mcq-10",
-        "especially-mcq-07",
-        "especially-mcq-06",
-        "especially-mcq-05"
+        "especially-mcq-02",
+        "especially-mcq-04"
       ],
       "explanation": "本句的「special」指「為特定用途或對象而設計／安排的」。",
       "sentenceIndex": 20,
@@ -863,12 +736,9 @@ export default {
         "special"
       ],
       "optionReasons": {
-        "especially-mcq-09": "本句指「為特定用途或對象而設計／安排的」。",
-        "especially-mcq-08": "「因具有不同尋常的特徵、重要性或意義而與普通情況有別的」與本句語境不同。",
-        "especially-mcq-10": "「特別值得注意或重視的；較正式、較少見」與本句語境不同。",
-        "especially-mcq-07": "「為某個特定目的、對象或情況而特地安排／製作」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。"
+        "especially-mcq-09": "本句的「special」指「為特定用途或對象而設計／安排的」。",
+        "especially-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-09"
     },
@@ -880,11 +750,8 @@ export default {
       "masked": "This issue is of ____.",
       "options": [
         "especially-mcq-10",
-        "especially-mcq-09",
-        "especially-mcq-08",
         "especially-mcq-07",
-        "especially-mcq-06",
-        "especially-mcq-05"
+        "especially-mcq-02"
       ],
       "explanation": "本句的「especial importance」指「特別值得注意或重視的；較正式、較少見」。",
       "sentenceIndex": 21,
@@ -893,12 +760,9 @@ export default {
         "especial importance"
       ],
       "optionReasons": {
-        "especially-mcq-10": "本句指「特別值得注意或重視的；較正式、較少見」。",
-        "especially-mcq-09": "「為特定用途或對象而設計／安排的」與本句語境不同。",
-        "especially-mcq-08": "「因具有不同尋常的特徵、重要性或意義而與普通情況有別的」與本句語境不同。",
-        "especially-mcq-07": "「為某個特定目的、對象或情況而特地安排／製作」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。"
+        "especially-mcq-10": "本句的「especial importance」指「特別值得注意或重視的；較正式、較少見」。",
+        "especially-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "especially-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-10"
     },
@@ -910,11 +774,7 @@ export default {
       "masked": "She showed an ____ in modern art.",
       "options": [
         "especially-mcq-10",
-        "especially-mcq-09",
-        "especially-mcq-08",
-        "especially-mcq-07",
-        "especially-mcq-06",
-        "especially-mcq-05"
+        "especially-mcq-06"
       ],
       "explanation": "本句的「especial interest」指「特別值得注意或重視的；較正式、較少見」。",
       "sentenceIndex": 22,
@@ -923,12 +783,8 @@ export default {
         "especial interest"
       ],
       "optionReasons": {
-        "especially-mcq-10": "本句指「特別值得注意或重視的；較正式、較少見」。",
-        "especially-mcq-09": "「為特定用途或對象而設計／安排的」與本句語境不同。",
-        "especially-mcq-08": "「因具有不同尋常的特徵、重要性或意義而與普通情況有別的」與本句語境不同。",
-        "especially-mcq-07": "「為某個特定目的、對象或情況而特地安排／製作」與本句語境不同。",
-        "especially-mcq-06": "「前面所說的情況在某個特定例子中更加明顯」與本句語境不同。",
-        "especially-mcq-05": "「程度不算特別高；不太……」與本句語境不同。"
+        "especially-mcq-10": "本句的「especial interest」指「特別值得注意或重視的；較正式、較少見」。",
+        "especially-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "especially-mcq-10"
     }
@@ -940,5 +796,7 @@ export default {
     "sha256": "88c8c0d2d5d24a8f3d0b9d7618f464d5c6aba87a21420ff0ee155f239233d784",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

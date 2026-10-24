@@ -344,28 +344,7 @@ export default {
       "en": "allow customers to track",
       "zh": "讓顧客能追蹤",
       "note": "來源詞義：讓顧客能追蹤",
-      "examples": [
-        [
-          "The report allows managers to compare return rates.",
-          "報告讓管理人員能比較退貨率。",
-          "讓顧客能追蹤"
-        ],
-        [
-          "Transparent criteria allow customers to understand the policy.",
-          "透明準則讓顧客理解政策。",
-          "讓顧客能追蹤"
-        ],
-        [
-          "Ignoring complaints can allow distrust to grow.",
-          "忽視投訴可能讓不信任加劇。",
-          "讓顧客能追蹤"
-        ],
-        [
-          "Poor controls may allow abuse to spread.",
-          "控制不足可能讓濫用情況擴散。",
-          "讓顧客能追蹤"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -790,16 +769,6 @@ export default {
           "Engineers compare actual and allowable stress.",
           "工程師會比較實際應力和容許應力。",
           "容許應力"
-        ],
-        [
-          "Do not exceed the allowable load.",
-          "不要超過容許荷載。",
-          "容許應力"
-        ],
-        [
-          "The allowable load depends on the structural design.",
-          "容許荷載取決於結構設計。",
-          "容許應力"
         ]
       ],
       "options": [],
@@ -844,16 +813,6 @@ export default {
           "The value exceeded the maximum allowed.",
           "該數值超過最高容許值。",
           "最高容許"
-        ],
-        [
-          "The practice is legally allowed.",
-          "這種做法在法律上獲准。",
-          "最高容許"
-        ],
-        [
-          "Legally allowed does not necessarily mean advisable.",
-          "法律容許並不一定代表值得採用。",
-          "最高容許"
         ]
       ],
       "options": [],
@@ -875,16 +834,6 @@ export default {
         [
           "No photography allowed.",
           "禁止攝影。",
-          "禁止 X"
-        ],
-        [
-          "Exchanges allowed within fourteen days.",
-          "十四天內可以換貨。",
-          "禁止 X"
-        ],
-        [
-          "One return per order allowed.",
-          "每張訂單只准退貨一次。",
           "禁止 X"
         ]
       ],
@@ -989,16 +938,6 @@ export default {
         [
           "The meal allowance is capped per day.",
           "每日膳食津貼設有上限。",
-          "膳食津貼"
-        ],
-        [
-          "Some employees receive a clothing allowance.",
-          "部分員工可獲服裝津貼。",
-          "膳食津貼"
-        ],
-        [
-          "The allowance helps cover required work clothing.",
-          "津貼用於補貼工作服裝費用。",
           "膳食津貼"
         ]
       ],
@@ -1356,66 +1295,6 @@ export default {
           "The pitcher allowed only two hits.",
           "投手只被擊出兩支安打。",
           "被對方得分"
-        ],
-        [
-          "Food is not allowed in the warehouse.",
-          "倉庫內禁止飲食。",
-          "被對方得分"
-        ],
-        [
-          "Customers are allowed in the fitting area.",
-          "顧客可以進入試身區。",
-          "被對方得分"
-        ],
-        [
-          "Returns should be allowed only if the item is unworn.",
-          "只有商品未穿過才應准許退貨。",
-          "被對方得分"
-        ],
-        [
-          "Refunds are allowed only when the item is defective.",
-          "只有商品有缺陷時才容許退款。",
-          "被對方得分"
-        ],
-        [
-          "Exchanges may be allowed subject to inspection.",
-          "換貨可以在須先檢查的條件下獲准。",
-          "被對方得分"
-        ],
-        [
-          "Returns are allowed subject to the stated conditions.",
-          "退貨須符合列明條件才獲准。",
-          "被對方得分"
-        ],
-        [
-          "Management should not allow complaints to accumulate.",
-          "管理層不應讓投訴不斷累積。",
-          "被對方得分"
-        ],
-        [
-          "Weak controls allowed return abuse to continue.",
-          "薄弱的控制措施令退貨濫用得以持續。",
-          "被對方得分"
-        ],
-        [
-          "We should not allow a minor sizing issue to become a major dispute.",
-          "我們不應讓小小的尺碼問題演變成重大爭議。",
-          "被對方得分"
-        ],
-        [
-          "Poor communication allowed frustration to become distrust.",
-          "溝通不足讓挫折感演變成不信任。",
-          "被對方得分"
-        ],
-        [
-          "The current policy allows distrust to remain unresolved.",
-          "現有政策讓不信任持續存在。",
-          "被對方得分"
-        ],
-        [
-          "Good procedures should not allow defective goods to remain in circulation.",
-          "良好程序不應讓有缺陷商品繼續流通。",
-          "被對方得分"
         ]
       ],
       "options": [],
@@ -1459,6 +1338,270 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "allow-reviewed-0ccf47e3f1",
+      "title": "使某人能夠看見、理解或比較某事",
+      "form": "allow · source section 17",
+      "en": "使某人能夠看見、理解或比較某事",
+      "zh": "使某人能夠看見、理解或比較某事",
+      "note": "對照原始教材第 17 節及例句核實。",
+      "examples": [
+        [
+          "The report allows managers to compare return rates.",
+          "報告讓管理人員能比較退貨率。",
+          "使某人能夠看見、理解或比較某事"
+        ],
+        [
+          "Transparent criteria allow customers to understand the policy.",
+          "透明準則讓顧客理解政策。",
+          "使某人能夠看見、理解或比較某事"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "allow-reviewed-8fbb75d2a8",
+      "title": "讓某種情況發展、增長或擴散",
+      "form": "allow · source section 18",
+      "en": "讓某種情況發展、增長或擴散",
+      "zh": "讓某種情況發展、增長或擴散",
+      "note": "對照原始教材第 18 節及例句核實。",
+      "examples": [
+        [
+          "Ignoring complaints can allow distrust to grow.",
+          "忽視投訴可能讓不信任加劇。",
+          "讓某種情況發展、增長或擴散"
+        ],
+        [
+          "Poor controls may allow abuse to spread.",
+          "控制不足可能讓濫用情況擴散。",
+          "讓某種情況發展、增長或擴散"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "allow-reviewed-1fdc505239",
+      "title": "容許承受的荷載",
+      "form": "allow · source section 41",
+      "en": "容許承受的荷載",
+      "zh": "容許承受的荷載",
+      "note": "對照原始教材第 41 節及例句核實。",
+      "examples": [
+        [
+          "Do not exceed the allowable load.",
+          "不要超過容許荷載。",
+          "容許承受的荷載"
+        ],
+        [
+          "The allowable load depends on the structural design.",
+          "容許荷載取決於結構設計。",
+          "容許承受的荷載"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "allow-reviewed-6f41fcc66c",
+      "title": "法律准許的",
+      "form": "allow · source section 44",
+      "en": "法律准許的",
+      "zh": "法律准許的",
+      "note": "對照原始教材第 44 節及例句核實。",
+      "examples": [
+        [
+          "The practice is legally allowed.",
+          "這種做法在法律上獲准。",
+          "法律准許的"
+        ],
+        [
+          "Legally allowed does not necessarily mean advisable.",
+          "法律容許並不一定代表值得採用。",
+          "法律准許的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "allow-reviewed-d4b2f4d070",
+      "title": "准許某事物",
+      "form": "allow · source section 46",
+      "en": "准許某事物",
+      "zh": "准許某事物",
+      "note": "對照原始教材第 46 節及例句核實。",
+      "examples": [
+        [
+          "Exchanges allowed within fourteen days.",
+          "十四天內可以換貨。",
+          "准許某事物"
+        ],
+        [
+          "One return per order allowed.",
+          "每張訂單只准退貨一次。",
+          "准許某事物"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "allow-reviewed-328cabe2a5",
+      "title": "供購買服裝用的津貼",
+      "form": "allow · source section 53",
+      "en": "供購買服裝用的津貼",
+      "zh": "供購買服裝用的津貼",
+      "note": "對照原始教材第 53 節及例句核實。",
+      "examples": [
+        [
+          "Some employees receive a clothing allowance.",
+          "部分員工可獲服裝津貼。",
+          "供購買服裝用的津貼"
+        ],
+        [
+          "The allowance helps cover required work clothing.",
+          "津貼用於補貼工作服裝費用。",
+          "供購買服裝用的津貼"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "allow-reviewed-706a404e2a",
+      "title": "准許在某個地方或場合進入、使用或出現",
+      "form": "allow · source section 77",
+      "en": "准許在某個地方或場合進入、使用或出現",
+      "zh": "准許在某個地方或場合進入、使用或出現",
+      "note": "對照原始教材第 77 節及例句核實。",
+      "examples": [
+        [
+          "Food is not allowed in the warehouse.",
+          "倉庫內禁止飲食。",
+          "准許在某個地方或場合進入、使用或出現"
+        ],
+        [
+          "Customers are allowed in the fitting area.",
+          "顧客可以進入試身區。",
+          "准許在某個地方或場合進入、使用或出現"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "allow-reviewed-1a7da27dfe",
+      "title": "只有符合指定條件才准許",
+      "form": "allow · source section 81",
+      "en": "只有符合指定條件才准許",
+      "zh": "只有符合指定條件才准許",
+      "note": "對照原始教材第 81 節及例句核實。",
+      "examples": [
+        [
+          "Returns should be allowed only if the item is unworn.",
+          "只有商品未穿過才應准許退貨。",
+          "只有符合指定條件才准許"
+        ],
+        [
+          "Refunds are allowed only when the item is defective.",
+          "只有商品有缺陷時才容許退款。",
+          "只有符合指定條件才准許"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "allow-reviewed-2cba6a852c",
+      "title": "在附帶條件下准許",
+      "form": "allow · source section 82",
+      "en": "在附帶條件下准許",
+      "zh": "在附帶條件下准許",
+      "note": "對照原始教材第 82 節及例句核實。",
+      "examples": [
+        [
+          "Exchanges may be allowed subject to inspection.",
+          "換貨可以在須先檢查的條件下獲准。",
+          "在附帶條件下准許"
+        ],
+        [
+          "Returns are allowed subject to the stated conditions.",
+          "退貨須符合列明條件才獲准。",
+          "在附帶條件下准許"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "allow-reviewed-2688b6f2d8",
+      "title": "讓問題持續",
+      "form": "allow · source section 84",
+      "en": "讓問題持續",
+      "zh": "讓問題持續",
+      "note": "對照原始教材第 84 節及例句核實。",
+      "examples": [
+        [
+          "Management should not allow complaints to accumulate.",
+          "管理層不應讓投訴不斷累積。",
+          "讓問題持續"
+        ],
+        [
+          "Weak controls allowed return abuse to continue.",
+          "薄弱的控制措施令退貨濫用得以持續。",
+          "讓問題持續"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "allow-reviewed-2310b9acef",
+      "title": "讓某事變成另一種狀態",
+      "form": "allow · source section 85",
+      "en": "讓某事變成另一種狀態",
+      "zh": "讓某事變成另一種狀態",
+      "note": "對照原始教材第 85 節及例句核實。",
+      "examples": [
+        [
+          "We should not allow a minor sizing issue to become a major dispute.",
+          "我們不應讓小小的尺碼問題演變成重大爭議。",
+          "讓某事變成另一種狀態"
+        ],
+        [
+          "Poor communication allowed frustration to become distrust.",
+          "溝通不足讓挫折感演變成不信任。",
+          "讓某事變成另一種狀態"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "allow-reviewed-23b1cfd43e",
+      "title": "讓某事保持原有狀態",
+      "form": "allow · source section 86",
+      "en": "讓某事保持原有狀態",
+      "zh": "讓某事保持原有狀態",
+      "note": "對照原始教材第 86 節及例句核實。",
+      "examples": [
+        [
+          "The current policy allows distrust to remain unresolved.",
+          "現有政策讓不信任持續存在。",
+          "讓某事保持原有狀態"
+        ],
+        [
+          "Good procedures should not allow defective goods to remain in circulation.",
+          "良好程序不應讓有缺陷商品繼續流通。",
+          "讓某事保持原有狀態"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1470,11 +1613,9 @@ export default {
       "masked": "Customers should ____.",
       "options": [
         "allow-mcq-01",
-        "allow-mcq-02",
-        "allow-mcq-03",
-        "allow-mcq-04",
-        "allow-mcq-05",
-        "allow-mcq-06"
+        "allow-mcq-43",
+        "allow-mcq-50",
+        "allow-mcq-46"
       ],
       "explanation": "本句的「be allowed to change their minds」指「允許某人做 X」。",
       "sentenceIndex": 0,
@@ -1483,12 +1624,10 @@ export default {
         "be allowed to change their minds"
       ],
       "optionReasons": {
-        "allow-mcq-01": "本句指「允許某人做 X」。",
-        "allow-mcq-02": "「獲准做 X」與本句語境不同。",
-        "allow-mcq-03": "「不得做 X」與本句語境不同。",
-        "allow-mcq-04": "「准許某人獲得 X」與本句語境不同。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。"
+        "allow-mcq-01": "本句的「be allowed to change their minds」指「允許某人做 X」。",
+        "allow-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-01"
     },
@@ -1500,11 +1639,9 @@ export default {
       "masked": "The policy ____ customers to exchange the item once.",
       "options": [
         "allow-mcq-01",
-        "allow-mcq-02",
-        "allow-mcq-03",
-        "allow-mcq-04",
-        "allow-mcq-05",
-        "allow-mcq-06"
+        "allow-mcq-45",
+        "allow-mcq-54",
+        "allow-mcq-16"
       ],
       "explanation": "本句的「allows」指「允許某人做 X」。",
       "sentenceIndex": 1,
@@ -1513,12 +1650,10 @@ export default {
         "allows"
       ],
       "optionReasons": {
-        "allow-mcq-01": "本句指「允許某人做 X」。",
-        "allow-mcq-02": "「獲准做 X」與本句語境不同。",
-        "allow-mcq-03": "「不得做 X」與本句語境不同。",
-        "allow-mcq-04": "「准許某人獲得 X」與本句語境不同。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。"
+        "allow-mcq-01": "本句的「allows」指「允許某人做 X」。",
+        "allow-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-01"
     },
@@ -1530,11 +1665,9 @@ export default {
       "masked": "Staff are not ____ to approve refunds without inspection.",
       "options": [
         "allow-mcq-01",
-        "allow-mcq-02",
-        "allow-mcq-03",
-        "allow-mcq-04",
-        "allow-mcq-05",
-        "allow-mcq-06"
+        "allow-mcq-49",
+        "allow-mcq-57",
+        "allow-mcq-52"
       ],
       "explanation": "本句的「allowed」指「允許某人做 X」。",
       "sentenceIndex": 2,
@@ -1543,12 +1676,10 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-01": "本句指「允許某人做 X」。",
-        "allow-mcq-02": "「獲准做 X」與本句語境不同。",
-        "allow-mcq-03": "「不得做 X」與本句語境不同。",
-        "allow-mcq-04": "「准許某人獲得 X」與本句語境不同。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。"
+        "allow-mcq-01": "本句的「allowed」指「允許某人做 X」。",
+        "allow-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-01"
     },
@@ -1560,11 +1691,9 @@ export default {
       "masked": "Customers are ____.",
       "options": [
         "allow-mcq-02",
-        "allow-mcq-01",
-        "allow-mcq-03",
-        "allow-mcq-04",
-        "allow-mcq-05",
-        "allow-mcq-06"
+        "allow-mcq-47",
+        "allow-pdf-001",
+        "allow-mcq-57"
       ],
       "explanation": "本句的「allowed to return defective items」指「獲准做 X」。",
       "sentenceIndex": 3,
@@ -1573,12 +1702,10 @@ export default {
         "allowed to return defective items"
       ],
       "optionReasons": {
-        "allow-mcq-02": "本句指「獲准做 X」。",
-        "allow-mcq-01": "「允許某人做 X」與本句語境不同。",
-        "allow-mcq-03": "「不得做 X」與本句語境不同。",
-        "allow-mcq-04": "「准許某人獲得 X」與本句語境不同。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。"
+        "allow-mcq-02": "本句的「allowed to return defective items」指「獲准做 X」。",
+        "allow-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "allow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-02"
     },
@@ -1590,11 +1717,9 @@ export default {
       "masked": "Employees are ____ to exercise discretion in exceptional cases.",
       "options": [
         "allow-mcq-02",
-        "allow-mcq-01",
-        "allow-mcq-03",
-        "allow-mcq-04",
-        "allow-mcq-05",
-        "allow-mcq-06"
+        "allow-mcq-49",
+        "allow-mcq-48",
+        "allow-mcq-47"
       ],
       "explanation": "本句的「allowed」指「獲准做 X」。",
       "sentenceIndex": 4,
@@ -1603,12 +1728,10 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-02": "本句指「獲准做 X」。",
-        "allow-mcq-01": "「允許某人做 X」與本句語境不同。",
-        "allow-mcq-03": "「不得做 X」與本句語境不同。",
-        "allow-mcq-04": "「准許某人獲得 X」與本句語境不同。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。"
+        "allow-mcq-02": "本句的「allowed」指「獲准做 X」。",
+        "allow-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-02"
     },
@@ -1620,11 +1743,9 @@ export default {
       "masked": "Customers are ____.",
       "options": [
         "allow-mcq-03",
-        "allow-mcq-02",
-        "allow-mcq-04",
-        "allow-mcq-01",
-        "allow-mcq-05",
-        "allow-mcq-06"
+        "allow-mcq-42",
+        "allow-mcq-16",
+        "allow-mcq-44"
       ],
       "explanation": "本句的「not allowed to return worn clothing」指「不得做 X」。",
       "sentenceIndex": 5,
@@ -1633,12 +1754,10 @@ export default {
         "not allowed to return worn clothing"
       ],
       "optionReasons": {
-        "allow-mcq-03": "本句指「不得做 X」。",
-        "allow-mcq-02": "「獲准做 X」與本句語境不同。",
-        "allow-mcq-04": "「准許某人獲得 X」與本句語境不同。",
-        "allow-mcq-01": "「允許某人做 X」與本句語境不同。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。"
+        "allow-mcq-03": "本句的「not allowed to return worn clothing」指「不得做 X」。",
+        "allow-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-03"
     },
@@ -1650,11 +1769,9 @@ export default {
       "masked": "Staff are not ____ to remove evidence from the case file.",
       "options": [
         "allow-mcq-03",
-        "allow-mcq-02",
-        "allow-mcq-04",
-        "allow-mcq-01",
-        "allow-mcq-05",
-        "allow-mcq-06"
+        "allow-mcq-52",
+        "allow-mcq-23",
+        "allow-reviewed-2688b6f2d8"
       ],
       "explanation": "本句的「allowed」指「不得做 X」。",
       "sentenceIndex": 6,
@@ -1663,12 +1780,10 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-03": "本句指「不得做 X」。",
-        "allow-mcq-02": "「獲准做 X」與本句語境不同。",
-        "allow-mcq-04": "「准許某人獲得 X」與本句語境不同。",
-        "allow-mcq-01": "「允許某人做 X」與本句語境不同。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。"
+        "allow-mcq-03": "本句的「allowed」指「不得做 X」。",
+        "allow-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-2688b6f2d8": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-03"
     },
@@ -1680,11 +1795,9 @@ export default {
       "masked": "Customers should ____.",
       "options": [
         "allow-mcq-04",
-        "allow-mcq-03",
-        "allow-mcq-05",
-        "allow-mcq-02",
-        "allow-mcq-06",
-        "allow-mcq-01"
+        "allow-mcq-38",
+        "allow-mcq-43",
+        "allow-mcq-39"
       ],
       "explanation": "本句的「be allowed one exchange」指「准許某人獲得 X」。",
       "sentenceIndex": 7,
@@ -1693,12 +1806,10 @@ export default {
         "be allowed one exchange"
       ],
       "optionReasons": {
-        "allow-mcq-04": "本句指「准許某人獲得 X」。",
-        "allow-mcq-03": "「不得做 X」與本句語境不同。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。",
-        "allow-mcq-02": "「獲准做 X」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。",
-        "allow-mcq-01": "「允許某人做 X」與本句語境不同。"
+        "allow-mcq-04": "本句的「be allowed one exchange」指「准許某人獲得 X」。",
+        "allow-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-04"
     },
@@ -1710,11 +1821,9 @@ export default {
       "masked": "Each customer is ____ two return requests per month.",
       "options": [
         "allow-mcq-04",
-        "allow-mcq-03",
-        "allow-mcq-05",
-        "allow-mcq-02",
-        "allow-mcq-06",
-        "allow-mcq-01"
+        "allow-reviewed-2688b6f2d8",
+        "allow-mcq-57",
+        "allow-mcq-52"
       ],
       "explanation": "本句的「allowed」指「准許某人獲得 X」。",
       "sentenceIndex": 8,
@@ -1723,12 +1832,10 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-04": "本句指「准許某人獲得 X」。",
-        "allow-mcq-03": "「不得做 X」與本句語境不同。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。",
-        "allow-mcq-02": "「獲准做 X」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。",
-        "allow-mcq-01": "「允許某人做 X」與本句語境不同。"
+        "allow-mcq-04": "本句的「allowed」指「准許某人獲得 X」。",
+        "allow-reviewed-2688b6f2d8": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-04"
     },
@@ -1740,11 +1847,9 @@ export default {
       "masked": "Candidates are ____.",
       "options": [
         "allow-mcq-06",
-        "allow-mcq-05",
-        "allow-mcq-07",
-        "allow-mcq-04",
-        "allow-mcq-08",
-        "allow-mcq-03"
+        "allow-mcq-42",
+        "allow-mcq-03",
+        "allow-mcq-23"
       ],
       "explanation": "本句的「allowed thirty minutes」指「給某人時間」。",
       "sentenceIndex": 9,
@@ -1753,12 +1858,10 @@ export default {
         "allowed thirty minutes"
       ],
       "optionReasons": {
-        "allow-mcq-06": "本句指「給某人時間」。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。",
-        "allow-mcq-07": "「准許自己享用 X」與本句語境不同。",
-        "allow-mcq-04": "「准許某人獲得 X」與本句語境不同。",
-        "allow-mcq-08": "「讓自己做 X」與本句語境不同。",
-        "allow-mcq-03": "「不得做 X」與本句語境不同。"
+        "allow-mcq-06": "本句的「allowed thirty minutes」指「給某人時間」。",
+        "allow-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-06"
     },
@@ -1770,11 +1873,9 @@ export default {
       "masked": "Customers should be ____ a reasonable period to inspect the goods.",
       "options": [
         "allow-mcq-06",
-        "allow-mcq-05",
-        "allow-mcq-07",
-        "allow-mcq-04",
-        "allow-mcq-08",
-        "allow-mcq-03"
+        "allow-mcq-56",
+        "allow-mcq-22",
+        "allow-mcq-52"
       ],
       "explanation": "本句的「allowed」指「給某人時間」。",
       "sentenceIndex": 10,
@@ -1783,12 +1884,10 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-06": "本句指「給某人時間」。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。",
-        "allow-mcq-07": "「准許自己享用 X」與本句語境不同。",
-        "allow-mcq-04": "「准許某人獲得 X」與本句語境不同。",
-        "allow-mcq-08": "「讓自己做 X」與本句語境不同。",
-        "allow-mcq-03": "「不得做 X」與本句語境不同。"
+        "allow-mcq-06": "本句的「allowed」指「給某人時間」。",
+        "allow-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-06"
     },
@@ -1800,11 +1899,9 @@ export default {
       "masked": "She rarely ____.",
       "options": [
         "allow-mcq-07",
-        "allow-mcq-06",
-        "allow-mcq-08",
-        "allow-mcq-05",
-        "allow-mcq-09",
-        "allow-mcq-04"
+        "allow-mcq-47",
+        "allow-mcq-23",
+        "allow-mcq-17"
       ],
       "explanation": "本句的「allows herself a day off」指「准許自己享用 X」。",
       "sentenceIndex": 11,
@@ -1813,12 +1910,10 @@ export default {
         "allows herself a day off"
       ],
       "optionReasons": {
-        "allow-mcq-07": "本句指「准許自己享用 X」。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。",
-        "allow-mcq-08": "「讓自己做 X」與本句語境不同。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。",
-        "allow-mcq-09": "「容許退貨」與本句語境不同。",
-        "allow-mcq-04": "「准許某人獲得 X」與本句語境不同。"
+        "allow-mcq-07": "本句的「allows herself a day off」指「准許自己享用 X」。",
+        "allow-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-07"
     },
@@ -1830,11 +1925,9 @@ export default {
       "masked": "____ yourself enough time to compare the options.",
       "options": [
         "allow-mcq-07",
-        "allow-mcq-06",
-        "allow-mcq-08",
-        "allow-mcq-05",
-        "allow-mcq-09",
-        "allow-mcq-04"
+        "allow-mcq-52",
+        "allow-reviewed-2688b6f2d8",
+        "allow-mcq-29"
       ],
       "explanation": "本句的「Allow」指「准許自己享用 X」。",
       "sentenceIndex": 12,
@@ -1843,12 +1936,10 @@ export default {
         "Allow"
       ],
       "optionReasons": {
-        "allow-mcq-07": "本句指「准許自己享用 X」。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。",
-        "allow-mcq-08": "「讓自己做 X」與本句語境不同。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。",
-        "allow-mcq-09": "「容許退貨」與本句語境不同。",
-        "allow-mcq-04": "「准許某人獲得 X」與本句語境不同。"
+        "allow-mcq-07": "本句的「Allow」指「准許自己享用 X」。",
+        "allow-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-2688b6f2d8": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-07"
     },
@@ -1860,11 +1951,9 @@ export default {
       "masked": "____ yourself to reconsider the decision.",
       "options": [
         "allow-mcq-08",
-        "allow-mcq-07",
-        "allow-mcq-09",
-        "allow-mcq-06",
-        "allow-mcq-10",
-        "allow-mcq-05"
+        "allow-mcq-42",
+        "allow-mcq-50",
+        "allow-mcq-09"
       ],
       "explanation": "本句的「Allow」指「讓自己做 X」。",
       "sentenceIndex": 13,
@@ -1873,12 +1962,10 @@ export default {
         "Allow"
       ],
       "optionReasons": {
-        "allow-mcq-08": "本句指「讓自己做 X」。",
-        "allow-mcq-07": "「准許自己享用 X」與本句語境不同。",
-        "allow-mcq-09": "「容許退貨」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。",
-        "allow-mcq-10": "「容許退款」與本句語境不同。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。"
+        "allow-mcq-08": "本句的「Allow」指「讓自己做 X」。",
+        "allow-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-08"
     },
@@ -1890,11 +1977,9 @@ export default {
       "masked": "He never ____ himself to relax.",
       "options": [
         "allow-mcq-08",
-        "allow-mcq-07",
-        "allow-mcq-09",
-        "allow-mcq-06",
-        "allow-mcq-10",
-        "allow-mcq-05"
+        "allow-mcq-18",
+        "allow-mcq-36",
+        "allow-mcq-38"
       ],
       "explanation": "本句的「allowed」指「讓自己做 X」。",
       "sentenceIndex": 14,
@@ -1903,12 +1988,10 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-08": "本句指「讓自己做 X」。",
-        "allow-mcq-07": "「准許自己享用 X」與本句語境不同。",
-        "allow-mcq-09": "「容許退貨」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。",
-        "allow-mcq-10": "「容許退款」與本句語境不同。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。"
+        "allow-mcq-08": "本句的「allowed」指「讓自己做 X」。",
+        "allow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-08"
     },
@@ -1920,11 +2003,9 @@ export default {
       "masked": "She finally ____ herself to feel disappointed.",
       "options": [
         "allow-mcq-08",
-        "allow-mcq-07",
-        "allow-mcq-09",
-        "allow-mcq-06",
-        "allow-mcq-10",
-        "allow-mcq-05"
+        "allow-mcq-55",
+        "allow-mcq-45",
+        "allow-mcq-16"
       ],
       "explanation": "本句的「allowed」指「讓自己做 X」。",
       "sentenceIndex": 15,
@@ -1933,12 +2014,10 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-08": "本句指「讓自己做 X」。",
-        "allow-mcq-07": "「准許自己享用 X」與本句語境不同。",
-        "allow-mcq-09": "「容許退貨」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。",
-        "allow-mcq-10": "「容許退款」與本句語境不同。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。"
+        "allow-mcq-08": "本句的「allowed」指「讓自己做 X」。",
+        "allow-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-08"
     },
@@ -1950,11 +2029,9 @@ export default {
       "masked": "Good leaders ____ themselves to question their own assumptions.",
       "options": [
         "allow-mcq-08",
-        "allow-mcq-07",
-        "allow-mcq-09",
-        "allow-mcq-06",
-        "allow-mcq-10",
-        "allow-mcq-05"
+        "allow-mcq-18",
+        "allow-reviewed-6f41fcc66c",
+        "allow-mcq-52"
       ],
       "explanation": "本句的「allow」指「讓自己做 X」。",
       "sentenceIndex": 16,
@@ -1963,12 +2040,10 @@ export default {
         "allow"
       ],
       "optionReasons": {
-        "allow-mcq-08": "本句指「讓自己做 X」。",
-        "allow-mcq-07": "「准許自己享用 X」與本句語境不同。",
-        "allow-mcq-09": "「容許退貨」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。",
-        "allow-mcq-10": "「容許退款」與本句語境不同。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。"
+        "allow-mcq-08": "本句的「allow」指「讓自己做 X」。",
+        "allow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-6f41fcc66c": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-08"
     },
@@ -1980,11 +2055,9 @@ export default {
       "masked": "The policy ____.",
       "options": [
         "allow-mcq-09",
-        "allow-mcq-08",
-        "allow-mcq-10",
-        "allow-mcq-07",
-        "allow-mcq-11",
-        "allow-mcq-06"
+        "allow-mcq-48",
+        "allow-mcq-54",
+        "allow-mcq-39"
       ],
       "explanation": "本句的「allows exchanges but not cash refunds」指「容許退貨」。",
       "sentenceIndex": 17,
@@ -1993,12 +2066,10 @@ export default {
         "allows exchanges but not cash refunds"
       ],
       "optionReasons": {
-        "allow-mcq-09": "本句指「容許退貨」。",
-        "allow-mcq-08": "「讓自己做 X」與本句語境不同。",
-        "allow-mcq-10": "「容許退款」與本句語境不同。",
-        "allow-mcq-07": "「准許自己享用 X」與本句語境不同。",
-        "allow-mcq-11": "「准許存取／進入」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。"
+        "allow-mcq-09": "本句的「allows exchanges but not cash refunds」指「容許退貨」。",
+        "allow-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-09"
     },
@@ -2010,11 +2081,9 @@ export default {
       "masked": "The building does not ____ smoking.",
       "options": [
         "allow-mcq-09",
-        "allow-mcq-08",
-        "allow-mcq-10",
-        "allow-mcq-07",
-        "allow-mcq-11",
-        "allow-mcq-06"
+        "allow-reviewed-2688b6f2d8",
+        "allow-mcq-57",
+        "allow-mcq-47"
       ],
       "explanation": "本句的「allow」指「容許退貨」。",
       "sentenceIndex": 18,
@@ -2023,12 +2092,10 @@ export default {
         "allow"
       ],
       "optionReasons": {
-        "allow-mcq-09": "本句指「容許退貨」。",
-        "allow-mcq-08": "「讓自己做 X」與本句語境不同。",
-        "allow-mcq-10": "「容許退款」與本句語境不同。",
-        "allow-mcq-07": "「准許自己享用 X」與本句語境不同。",
-        "allow-mcq-11": "「准許存取／進入」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。"
+        "allow-mcq-09": "本句的「allow」指「容許退貨」。",
+        "allow-reviewed-2688b6f2d8": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-09"
     },
@@ -2040,11 +2107,9 @@ export default {
       "masked": "The revised policy would ____.",
       "options": [
         "allow-mcq-09",
-        "allow-mcq-08",
-        "allow-mcq-10",
-        "allow-mcq-07",
-        "allow-mcq-11",
-        "allow-mcq-06"
+        "allow-mcq-38",
+        "allow-reviewed-328cabe2a5",
+        "allow-mcq-19"
       ],
       "explanation": "本句的「allow limited returns」指「容許退貨」。",
       "sentenceIndex": 19,
@@ -2053,12 +2118,10 @@ export default {
         "allow limited returns"
       ],
       "optionReasons": {
-        "allow-mcq-09": "本句指「容許退貨」。",
-        "allow-mcq-08": "「讓自己做 X」與本句語境不同。",
-        "allow-mcq-10": "「容許退款」與本句語境不同。",
-        "allow-mcq-07": "「准許自己享用 X」與本句語境不同。",
-        "allow-mcq-11": "「准許存取／進入」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。"
+        "allow-mcq-09": "本句的「allow limited returns」指「容許退貨」。",
+        "allow-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-328cabe2a5": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-09"
     },
@@ -2070,11 +2133,9 @@ export default {
       "masked": "Some retailers ____ returns only within seven days.",
       "options": [
         "allow-mcq-09",
-        "allow-mcq-08",
-        "allow-mcq-10",
-        "allow-mcq-07",
-        "allow-mcq-11",
-        "allow-mcq-06"
+        "allow-mcq-20",
+        "allow-mcq-41",
+        "allow-mcq-46"
       ],
       "explanation": "本句的「allow」指「容許退貨」。",
       "sentenceIndex": 20,
@@ -2083,12 +2144,10 @@ export default {
         "allow"
       ],
       "optionReasons": {
-        "allow-mcq-09": "本句指「容許退貨」。",
-        "allow-mcq-08": "「讓自己做 X」與本句語境不同。",
-        "allow-mcq-10": "「容許退款」與本句語境不同。",
-        "allow-mcq-07": "「准許自己享用 X」與本句語境不同。",
-        "allow-mcq-11": "「准許存取／進入」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。"
+        "allow-mcq-09": "本句的「allow」指「容許退貨」。",
+        "allow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-09"
     },
@@ -2100,11 +2159,9 @@ export default {
       "masked": "The policy ____ refunds only for defective goods.",
       "options": [
         "allow-mcq-10",
-        "allow-mcq-09",
-        "allow-mcq-11",
-        "allow-mcq-08",
-        "allow-mcq-12",
-        "allow-mcq-07"
+        "allow-mcq-48",
+        "allow-mcq-19",
+        "allow-mcq-49"
       ],
       "explanation": "本句的「allows」指「容許退款」。",
       "sentenceIndex": 21,
@@ -2113,12 +2170,10 @@ export default {
         "allows"
       ],
       "optionReasons": {
-        "allow-mcq-10": "本句指「容許退款」。",
-        "allow-mcq-09": "「容許退貨」與本句語境不同。",
-        "allow-mcq-11": "「准許存取／進入」與本句語境不同。",
-        "allow-mcq-08": "「讓自己做 X」與本句語境不同。",
-        "allow-mcq-12": "「准許進入」與本句語境不同。",
-        "allow-mcq-07": "「准許自己享用 X」與本句語境不同。"
+        "allow-mcq-10": "本句的「allows」指「容許退款」。",
+        "allow-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-10"
     },
@@ -2130,11 +2185,9 @@ export default {
       "masked": "Final-sale items do not normally ____ refunds under this proposed system.",
       "options": [
         "allow-mcq-10",
-        "allow-mcq-09",
-        "allow-mcq-11",
-        "allow-mcq-08",
-        "allow-mcq-12",
-        "allow-mcq-07"
+        "allow-mcq-47",
+        "allow-mcq-54",
+        "allow-mcq-20"
       ],
       "explanation": "本句的「allow」指「容許退款」。",
       "sentenceIndex": 22,
@@ -2143,12 +2196,10 @@ export default {
         "allow"
       ],
       "optionReasons": {
-        "allow-mcq-10": "本句指「容許退款」。",
-        "allow-mcq-09": "「容許退貨」與本句語境不同。",
-        "allow-mcq-11": "「准許存取／進入」與本句語境不同。",
-        "allow-mcq-08": "「讓自己做 X」與本句語境不同。",
-        "allow-mcq-12": "「准許進入」與本句語境不同。",
-        "allow-mcq-07": "「准許自己享用 X」與本句語境不同。"
+        "allow-mcq-10": "本句的「allow」指「容許退款」。",
+        "allow-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-10"
     },
@@ -2160,11 +2211,9 @@ export default {
       "masked": "Membership ____.",
       "options": [
         "allow-mcq-11",
-        "allow-mcq-10",
-        "allow-mcq-12",
-        "allow-mcq-09",
-        "allow-mcq-13",
-        "allow-mcq-08"
+        "allow-mcq-44",
+        "allow-mcq-54",
+        "allow-reviewed-328cabe2a5"
       ],
       "explanation": "本句的「allows access to special discounts」指「准許存取／進入」。",
       "sentenceIndex": 23,
@@ -2173,12 +2222,10 @@ export default {
         "allows access to special discounts"
       ],
       "optionReasons": {
-        "allow-mcq-11": "本句指「准許存取／進入」。",
-        "allow-mcq-10": "「容許退款」與本句語境不同。",
-        "allow-mcq-12": "「准許進入」與本句語境不同。",
-        "allow-mcq-09": "「容許退貨」與本句語境不同。",
-        "allow-mcq-13": "「准許使用」與本句語境不同。",
-        "allow-mcq-08": "「讓自己做 X」與本句語境不同。"
+        "allow-mcq-11": "本句的「allows access to special discounts」指「准許存取／進入」。",
+        "allow-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-328cabe2a5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-11"
     },
@@ -2190,11 +2237,9 @@ export default {
       "masked": "Only authorised staff are ____ access to the warehouse.",
       "options": [
         "allow-mcq-11",
-        "allow-mcq-10",
-        "allow-mcq-12",
-        "allow-mcq-09",
-        "allow-mcq-13",
-        "allow-mcq-08"
+        "allow-mcq-54",
+        "allow-mcq-57",
+        "allow-reviewed-328cabe2a5"
       ],
       "explanation": "本句的「allowed」指「准許存取／進入」。",
       "sentenceIndex": 24,
@@ -2203,12 +2248,10 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-11": "本句指「准許存取／進入」。",
-        "allow-mcq-10": "「容許退款」與本句語境不同。",
-        "allow-mcq-12": "「准許進入」與本句語境不同。",
-        "allow-mcq-09": "「容許退貨」與本句語境不同。",
-        "allow-mcq-13": "「准許使用」與本句語境不同。",
-        "allow-mcq-08": "「讓自己做 X」與本句語境不同。"
+        "allow-mcq-11": "本句的「allowed」指「准許存取／進入」。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-328cabe2a5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-11"
     },
@@ -2220,11 +2263,9 @@ export default {
       "masked": "The pass ____.",
       "options": [
         "allow-mcq-12",
-        "allow-mcq-11",
-        "allow-mcq-13",
-        "allow-mcq-10",
-        "allow-mcq-14",
-        "allow-mcq-09"
+        "allow-mcq-49",
+        "allow-mcq-48",
+        "allow-mcq-08"
       ],
       "explanation": "本句的「allows entry to the building」指「准許進入」。",
       "sentenceIndex": 25,
@@ -2233,12 +2274,10 @@ export default {
         "allows entry to the building"
       ],
       "optionReasons": {
-        "allow-mcq-12": "本句指「准許進入」。",
-        "allow-mcq-11": "「准許存取／進入」與本句語境不同。",
-        "allow-mcq-13": "「准許使用」與本句語境不同。",
-        "allow-mcq-10": "「容許退款」與本句語境不同。",
-        "allow-mcq-14": "「使……成為可能」與本句語境不同。",
-        "allow-mcq-09": "「容許退貨」與本句語境不同。"
+        "allow-mcq-12": "本句的「allows entry to the building」指「准許進入」。",
+        "allow-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-12"
     },
@@ -2250,11 +2289,9 @@ export default {
       "masked": "Visitors without identification will not be ____ entry.",
       "options": [
         "allow-mcq-12",
-        "allow-mcq-11",
-        "allow-mcq-13",
-        "allow-mcq-10",
-        "allow-mcq-14",
-        "allow-mcq-09"
+        "allow-mcq-48",
+        "allow-mcq-46",
+        "allow-mcq-44"
       ],
       "explanation": "本句的「allowed」指「准許進入」。",
       "sentenceIndex": 26,
@@ -2263,12 +2300,10 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-12": "本句指「准許進入」。",
-        "allow-mcq-11": "「准許存取／進入」與本句語境不同。",
-        "allow-mcq-13": "「准許使用」與本句語境不同。",
-        "allow-mcq-10": "「容許退款」與本句語境不同。",
-        "allow-mcq-14": "「使……成為可能」與本句語境不同。",
-        "allow-mcq-09": "「容許退貨」與本句語境不同。"
+        "allow-mcq-12": "本句的「allowed」指「准許進入」。",
+        "allow-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-12"
     },
@@ -2280,11 +2315,9 @@ export default {
       "masked": "The licence ____ commercial use of the material.",
       "options": [
         "allow-mcq-13",
-        "allow-mcq-12",
-        "allow-mcq-14",
-        "allow-mcq-11",
-        "allow-mcq-15",
-        "allow-mcq-10"
+        "allow-mcq-49",
+        "allow-mcq-06",
+        "allow-reviewed-2688b6f2d8"
       ],
       "explanation": "本句的「allows」指「准許使用」。",
       "sentenceIndex": 27,
@@ -2293,12 +2326,10 @@ export default {
         "allows"
       ],
       "optionReasons": {
-        "allow-mcq-13": "本句指「准許使用」。",
-        "allow-mcq-12": "「准許進入」與本句語境不同。",
-        "allow-mcq-14": "「使……成為可能」與本句語境不同。",
-        "allow-mcq-11": "「准許存取／進入」與本句語境不同。",
-        "allow-mcq-15": "「讓顧客能追蹤」與本句語境不同。",
-        "allow-mcq-10": "「容許退款」與本句語境不同。"
+        "allow-mcq-13": "本句的「allows」指「准許使用」。",
+        "allow-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-2688b6f2d8": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-13"
     },
@@ -2310,11 +2341,9 @@ export default {
       "masked": "The policy does not ____ personal use of company equipment.",
       "options": [
         "allow-mcq-13",
-        "allow-mcq-12",
-        "allow-mcq-14",
-        "allow-mcq-11",
-        "allow-mcq-15",
-        "allow-mcq-10"
+        "allow-mcq-19",
+        "allow-reviewed-328cabe2a5",
+        "allow-mcq-50"
       ],
       "explanation": "本句的「allow」指「准許使用」。",
       "sentenceIndex": 28,
@@ -2323,134 +2352,124 @@ export default {
         "allow"
       ],
       "optionReasons": {
-        "allow-mcq-13": "本句指「准許使用」。",
-        "allow-mcq-12": "「准許進入」與本句語境不同。",
-        "allow-mcq-14": "「使……成為可能」與本句語境不同。",
-        "allow-mcq-11": "「准許存取／進入」與本句語境不同。",
-        "allow-mcq-15": "「讓顧客能追蹤」與本句語境不同。",
-        "allow-mcq-10": "「容許退款」與本句語境不同。"
+        "allow-mcq-13": "本句的「allow」指「准許使用」。",
+        "allow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-328cabe2a5": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-13"
     },
     {
       "id": "allow-17-0",
-      "sense": "allow-mcq-15",
+      "sense": "allow-reviewed-0ccf47e3f1",
       "en": "The report allows managers to compare return rates.",
       "zh": "報告讓管理人員能比較退貨率。",
       "masked": "The report ____ managers to compare return rates.",
       "options": [
-        "allow-mcq-15",
-        "allow-mcq-14",
-        "allow-mcq-16",
-        "allow-mcq-13",
-        "allow-mcq-17",
-        "allow-mcq-12"
+        "allow-reviewed-0ccf47e3f1",
+        "allow-mcq-49",
+        "allow-mcq-19",
+        "allow-mcq-39"
       ],
-      "explanation": "本句的「allows」指「讓顧客能追蹤」。",
+      "explanation": "對照完整句子：「報告讓管理人員能比較退貨率。」。這裡的「allows」表示「使某人能夠看見、理解或比較某事」。",
       "sentenceIndex": 31,
       "sourcePractice": 1,
       "targets": [
         "allows"
       ],
       "optionReasons": {
-        "allow-mcq-15": "本句指「讓顧客能追蹤」。",
-        "allow-mcq-14": "「使……成為可能」與本句語境不同。",
-        "allow-mcq-16": "「預留時間給 X」與本句語境不同。",
-        "allow-mcq-13": "「准許使用」與本句語境不同。",
-        "allow-mcq-17": "「預計／預留五天」與本句語境不同。",
-        "allow-mcq-12": "「准許進入」與本句語境不同。"
+        "allow-reviewed-0ccf47e3f1": "對照完整句子：「報告讓管理人員能比較退貨率。」。這裡的「allows」表示「使某人能夠看見、理解或比較某事」。",
+        "allow-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-15"
+      "correctOption": "allow-reviewed-0ccf47e3f1",
+      "previousCorrectOption": "allow-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-17-1",
-      "sense": "allow-mcq-15",
+      "sense": "allow-reviewed-0ccf47e3f1",
       "en": "Transparent criteria allow customers to understand the policy.",
       "zh": "透明準則讓顧客理解政策。",
       "masked": "Transparent criteria ____ customers to understand the policy.",
       "options": [
-        "allow-mcq-15",
-        "allow-mcq-14",
-        "allow-mcq-16",
-        "allow-mcq-13",
-        "allow-mcq-17",
-        "allow-mcq-12"
+        "allow-reviewed-0ccf47e3f1",
+        "allow-mcq-54",
+        "allow-mcq-45",
+        "allow-mcq-20"
       ],
-      "explanation": "本句的「allow」指「讓顧客能追蹤」。",
+      "explanation": "對照完整句子：「透明準則讓顧客理解政策。」。這裡的「allow」表示「使某人能夠看見、理解或比較某事」。",
       "sentenceIndex": 32,
       "sourcePractice": 2,
       "targets": [
         "allow"
       ],
       "optionReasons": {
-        "allow-mcq-15": "本句指「讓顧客能追蹤」。",
-        "allow-mcq-14": "「使……成為可能」與本句語境不同。",
-        "allow-mcq-16": "「預留時間給 X」與本句語境不同。",
-        "allow-mcq-13": "「准許使用」與本句語境不同。",
-        "allow-mcq-17": "「預計／預留五天」與本句語境不同。",
-        "allow-mcq-12": "「准許進入」與本句語境不同。"
+        "allow-reviewed-0ccf47e3f1": "對照完整句子：「透明準則讓顧客理解政策。」。這裡的「allow」表示「使某人能夠看見、理解或比較某事」。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-15"
+      "correctOption": "allow-reviewed-0ccf47e3f1",
+      "previousCorrectOption": "allow-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-18-0",
-      "sense": "allow-mcq-15",
+      "sense": "allow-reviewed-8fbb75d2a8",
       "en": "Ignoring complaints can allow distrust to grow.",
       "zh": "忽視投訴可能讓不信任加劇。",
       "masked": "Ignoring complaints can ____.",
       "options": [
-        "allow-mcq-15",
-        "allow-mcq-14",
-        "allow-mcq-16",
-        "allow-mcq-13",
-        "allow-mcq-17",
-        "allow-mcq-12"
+        "allow-reviewed-8fbb75d2a8",
+        "allow-mcq-49",
+        "allow-mcq-45",
+        "allow-pdf-001"
       ],
-      "explanation": "本句的「allow distrust to grow」指「讓顧客能追蹤」。",
+      "explanation": "對照完整句子：「忽視投訴可能讓不信任加劇。」。這裡的「allow distrust to grow」表示「讓某種情況發展、增長或擴散」。",
       "sentenceIndex": 33,
       "sourcePractice": 1,
       "targets": [
         "allow distrust to grow"
       ],
       "optionReasons": {
-        "allow-mcq-15": "本句指「讓顧客能追蹤」。",
-        "allow-mcq-14": "「使……成為可能」與本句語境不同。",
-        "allow-mcq-16": "「預留時間給 X」與本句語境不同。",
-        "allow-mcq-13": "「准許使用」與本句語境不同。",
-        "allow-mcq-17": "「預計／預留五天」與本句語境不同。",
-        "allow-mcq-12": "「准許進入」與本句語境不同。"
+        "allow-reviewed-8fbb75d2a8": "對照完整句子：「忽視投訴可能讓不信任加劇。」。這裡的「allow distrust to grow」表示「讓某種情況發展、增長或擴散」。",
+        "allow-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "allow-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-15"
+      "correctOption": "allow-reviewed-8fbb75d2a8",
+      "previousCorrectOption": "allow-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-18-1",
-      "sense": "allow-mcq-15",
+      "sense": "allow-reviewed-8fbb75d2a8",
       "en": "Poor controls may allow abuse to spread.",
       "zh": "控制不足可能讓濫用情況擴散。",
       "masked": "Poor controls may ____ abuse to spread.",
       "options": [
-        "allow-mcq-15",
-        "allow-mcq-14",
-        "allow-mcq-16",
-        "allow-mcq-13",
-        "allow-mcq-17",
-        "allow-mcq-12"
+        "allow-reviewed-8fbb75d2a8",
+        "allow-mcq-46",
+        "allow-mcq-54",
+        "allow-mcq-06"
       ],
-      "explanation": "本句的「allow」指「讓顧客能追蹤」。",
+      "explanation": "對照完整句子：「控制不足可能讓濫用情況擴散。」。這裡的「allow」表示「讓某種情況發展、增長或擴散」。",
       "sentenceIndex": 34,
       "sourcePractice": 2,
       "targets": [
         "allow"
       ],
       "optionReasons": {
-        "allow-mcq-15": "本句指「讓顧客能追蹤」。",
-        "allow-mcq-14": "「使……成為可能」與本句語境不同。",
-        "allow-mcq-16": "「預留時間給 X」與本句語境不同。",
-        "allow-mcq-13": "「准許使用」與本句語境不同。",
-        "allow-mcq-17": "「預計／預留五天」與本句語境不同。",
-        "allow-mcq-12": "「准許進入」與本句語境不同。"
+        "allow-reviewed-8fbb75d2a8": "對照完整句子：「控制不足可能讓濫用情況擴散。」。這裡的「allow」表示「讓某種情況發展、增長或擴散」。",
+        "allow-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-15"
+      "correctOption": "allow-reviewed-8fbb75d2a8",
+      "previousCorrectOption": "allow-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-19-0",
@@ -2460,11 +2479,9 @@ export default {
       "masked": "____ before issuing refunds.",
       "options": [
         "allow-mcq-16",
-        "allow-mcq-15",
-        "allow-mcq-17",
-        "allow-mcq-14",
-        "allow-mcq-18",
-        "allow-mcq-13"
+        "allow-reviewed-8fbb75d2a8",
+        "allow-mcq-43",
+        "allow-mcq-23"
       ],
       "explanation": "本句的「Allow time for inspection」指「預留時間給 X」。",
       "sentenceIndex": 35,
@@ -2473,12 +2490,10 @@ export default {
         "Allow time for inspection"
       ],
       "optionReasons": {
-        "allow-mcq-16": "本句指「預留時間給 X」。",
-        "allow-mcq-15": "「讓顧客能追蹤」與本句語境不同。",
-        "allow-mcq-17": "「預計／預留五天」與本句語境不同。",
-        "allow-mcq-14": "「使……成為可能」與本句語境不同。",
-        "allow-mcq-18": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-13": "「准許使用」與本句語境不同。"
+        "allow-mcq-16": "本句的「Allow time for inspection」指「預留時間給 X」。",
+        "allow-reviewed-8fbb75d2a8": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-16"
     },
@@ -2490,11 +2505,9 @@ export default {
       "masked": "Please ____ enough time for delivery.",
       "options": [
         "allow-mcq-16",
-        "allow-mcq-15",
-        "allow-mcq-17",
-        "allow-mcq-14",
-        "allow-mcq-18",
-        "allow-mcq-13"
+        "allow-mcq-46",
+        "allow-mcq-39",
+        "allow-mcq-26"
       ],
       "explanation": "本句的「allow」指「預留時間給 X」。",
       "sentenceIndex": 36,
@@ -2503,12 +2516,10 @@ export default {
         "allow"
       ],
       "optionReasons": {
-        "allow-mcq-16": "本句指「預留時間給 X」。",
-        "allow-mcq-15": "「讓顧客能追蹤」與本句語境不同。",
-        "allow-mcq-17": "「預計／預留五天」與本句語境不同。",
-        "allow-mcq-14": "「使……成為可能」與本句語境不同。",
-        "allow-mcq-18": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-13": "「准許使用」與本句語境不同。"
+        "allow-mcq-16": "本句的「allow」指「預留時間給 X」。",
+        "allow-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-16"
     },
@@ -2520,11 +2531,9 @@ export default {
       "masked": "____ enough time to review the evidence.",
       "options": [
         "allow-mcq-16",
-        "allow-mcq-15",
-        "allow-mcq-17",
-        "allow-mcq-14",
-        "allow-mcq-18",
-        "allow-mcq-13"
+        "allow-reviewed-d4b2f4d070",
+        "allow-mcq-57",
+        "allow-reviewed-2688b6f2d8"
       ],
       "explanation": "本句的「Allow」指「預留時間給 X」。",
       "sentenceIndex": 37,
@@ -2533,12 +2542,10 @@ export default {
         "Allow"
       ],
       "optionReasons": {
-        "allow-mcq-16": "本句指「預留時間給 X」。",
-        "allow-mcq-15": "「讓顧客能追蹤」與本句語境不同。",
-        "allow-mcq-17": "「預計／預留五天」與本句語境不同。",
-        "allow-mcq-14": "「使……成為可能」與本句語境不同。",
-        "allow-mcq-18": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-13": "「准許使用」與本句語境不同。"
+        "allow-mcq-16": "本句的「Allow」指「預留時間給 X」。",
+        "allow-reviewed-d4b2f4d070": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-2688b6f2d8": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-16"
     },
@@ -2550,11 +2557,9 @@ export default {
       "masked": "Customers should ____ enough time for return shipping.",
       "options": [
         "allow-mcq-16",
-        "allow-mcq-15",
-        "allow-mcq-17",
-        "allow-mcq-14",
-        "allow-mcq-18",
-        "allow-mcq-13"
+        "allow-mcq-22",
+        "allow-mcq-50",
+        "allow-mcq-11"
       ],
       "explanation": "本句的「allow」指「預留時間給 X」。",
       "sentenceIndex": 38,
@@ -2563,12 +2568,10 @@ export default {
         "allow"
       ],
       "optionReasons": {
-        "allow-mcq-16": "本句指「預留時間給 X」。",
-        "allow-mcq-15": "「讓顧客能追蹤」與本句語境不同。",
-        "allow-mcq-17": "「預計／預留五天」與本句語境不同。",
-        "allow-mcq-14": "「使……成為可能」與本句語境不同。",
-        "allow-mcq-18": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-13": "「准許使用」與本句語境不同。"
+        "allow-mcq-16": "本句的「allow」指「預留時間給 X」。",
+        "allow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-16"
     },
@@ -2580,11 +2583,9 @@ export default {
       "masked": "Please ____ for the refund.",
       "options": [
         "allow-mcq-17",
-        "allow-mcq-16",
-        "allow-mcq-18",
-        "allow-mcq-15",
-        "allow-mcq-19",
-        "allow-mcq-14"
+        "allow-mcq-31",
+        "allow-mcq-47",
+        "allow-reviewed-2688b6f2d8"
       ],
       "explanation": "本句的「allow five working days」指「預計／預留五天」。",
       "sentenceIndex": 39,
@@ -2593,12 +2594,10 @@ export default {
         "allow five working days"
       ],
       "optionReasons": {
-        "allow-mcq-17": "本句指「預計／預留五天」。",
-        "allow-mcq-16": "「預留時間給 X」與本句語境不同。",
-        "allow-mcq-18": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-15": "「讓顧客能追蹤」與本句語境不同。",
-        "allow-mcq-19": "「考慮延誤」與本句語境不同。",
-        "allow-mcq-14": "「使……成為可能」與本句語境不同。"
+        "allow-mcq-17": "本句的「allow five working days」指「預計／預留五天」。",
+        "allow-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-2688b6f2d8": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-17"
     },
@@ -2610,11 +2609,9 @@ export default {
       "masked": "____ two weeks for delivery.",
       "options": [
         "allow-mcq-17",
-        "allow-mcq-16",
-        "allow-mcq-18",
-        "allow-mcq-15",
-        "allow-mcq-19",
-        "allow-mcq-14"
+        "allow-mcq-13",
+        "allow-mcq-54",
+        "allow-mcq-23"
       ],
       "explanation": "本句的「Allow」指「預計／預留五天」。",
       "sentenceIndex": 40,
@@ -2623,12 +2620,10 @@ export default {
         "Allow"
       ],
       "optionReasons": {
-        "allow-mcq-17": "本句指「預計／預留五天」。",
-        "allow-mcq-16": "「預留時間給 X」與本句語境不同。",
-        "allow-mcq-18": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-15": "「讓顧客能追蹤」與本句語境不同。",
-        "allow-mcq-19": "「考慮延誤」與本句語境不同。",
-        "allow-mcq-14": "「使……成為可能」與本句語境不同。"
+        "allow-mcq-17": "本句的「Allow」指「預計／預留五天」。",
+        "allow-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-17"
     },
@@ -2640,11 +2635,9 @@ export default {
       "masked": "The policy should ____.",
       "options": [
         "allow-mcq-18",
-        "allow-mcq-17",
-        "allow-mcq-19",
-        "allow-mcq-16",
-        "allow-mcq-20",
-        "allow-mcq-15"
+        "allow-mcq-13",
+        "allow-mcq-45",
+        "allow-mcq-29"
       ],
       "explanation": "本句的「allow for genuine sizing problems」指「把 X 考慮在內」。",
       "sentenceIndex": 41,
@@ -2653,12 +2646,10 @@ export default {
         "allow for genuine sizing problems"
       ],
       "optionReasons": {
-        "allow-mcq-18": "本句指「把 X 考慮在內」。",
-        "allow-mcq-17": "「預計／預留五天」與本句語境不同。",
-        "allow-mcq-19": "「考慮延誤」與本句語境不同。",
-        "allow-mcq-16": "「預留時間給 X」與本句語境不同。",
-        "allow-mcq-20": "「預留誤差」與本句語境不同。",
-        "allow-mcq-15": "「讓顧客能追蹤」與本句語境不同。"
+        "allow-mcq-18": "本句的「allow for genuine sizing problems」指「把 X 考慮在內」。",
+        "allow-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-18"
     },
@@ -2670,11 +2661,9 @@ export default {
       "masked": "The schedule ____ for possible delays.",
       "options": [
         "allow-mcq-18",
-        "allow-mcq-17",
-        "allow-mcq-19",
+        "allow-mcq-25",
         "allow-mcq-16",
-        "allow-mcq-20",
-        "allow-mcq-15"
+        "allow-mcq-56"
       ],
       "explanation": "本句的「allows」指「把 X 考慮在內」。",
       "sentenceIndex": 42,
@@ -2683,12 +2672,10 @@ export default {
         "allows"
       ],
       "optionReasons": {
-        "allow-mcq-18": "本句指「把 X 考慮在內」。",
-        "allow-mcq-17": "「預計／預留五天」與本句語境不同。",
-        "allow-mcq-19": "「考慮延誤」與本句語境不同。",
-        "allow-mcq-16": "「預留時間給 X」與本句語境不同。",
-        "allow-mcq-20": "「預留誤差」與本句語境不同。",
-        "allow-mcq-15": "「讓顧客能追蹤」與本句語境不同。"
+        "allow-mcq-18": "本句的「allows」指「把 X 考慮在內」。",
+        "allow-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-18"
     },
@@ -2700,11 +2687,9 @@ export default {
       "masked": "Size charts should ____.",
       "options": [
         "allow-mcq-19",
-        "allow-mcq-18",
-        "allow-mcq-20",
-        "allow-mcq-17",
-        "allow-mcq-21",
-        "allow-mcq-16"
+        "allow-mcq-44",
+        "allow-mcq-40",
+        "allow-mcq-30"
       ],
       "explanation": "本句的「allow for differences in body shape」指「考慮延誤」。",
       "sentenceIndex": 43,
@@ -2713,12 +2698,10 @@ export default {
         "allow for differences in body shape"
       ],
       "optionReasons": {
-        "allow-mcq-19": "本句指「考慮延誤」。",
-        "allow-mcq-18": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-20": "「預留誤差」與本句語境不同。",
-        "allow-mcq-17": "「預計／預留五天」與本句語境不同。",
-        "allow-mcq-21": "「正式：容許 X 成立」與本句語境不同。",
-        "allow-mcq-16": "「預留時間給 X」與本句語境不同。"
+        "allow-mcq-19": "本句的「allow for differences in body shape」指「考慮延誤」。",
+        "allow-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-19"
     },
@@ -2730,11 +2713,9 @@ export default {
       "masked": "The comparison should ____ for differences in store size.",
       "options": [
         "allow-mcq-19",
-        "allow-mcq-18",
-        "allow-mcq-20",
-        "allow-mcq-17",
-        "allow-mcq-21",
-        "allow-mcq-16"
+        "allow-mcq-26",
+        "allow-mcq-50",
+        "allow-mcq-56"
       ],
       "explanation": "本句的「allow」指「考慮延誤」。",
       "sentenceIndex": 44,
@@ -2743,12 +2724,10 @@ export default {
         "allow"
       ],
       "optionReasons": {
-        "allow-mcq-19": "本句指「考慮延誤」。",
-        "allow-mcq-18": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-20": "「預留誤差」與本句語境不同。",
-        "allow-mcq-17": "「預計／預留五天」與本句語境不同。",
-        "allow-mcq-21": "「正式：容許 X 成立」與本句語境不同。",
-        "allow-mcq-16": "「預留時間給 X」與本句語境不同。"
+        "allow-mcq-19": "本句的「allow」指「考慮延誤」。",
+        "allow-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-19"
     },
@@ -2760,11 +2739,9 @@ export default {
       "masked": "The calculation should ____.",
       "options": [
         "allow-mcq-20",
-        "allow-mcq-19",
-        "allow-mcq-21",
-        "allow-mcq-18",
-        "allow-mcq-22",
-        "allow-mcq-17"
+        "allow-mcq-23",
+        "allow-reviewed-2688b6f2d8",
+        "allow-mcq-26"
       ],
       "explanation": "本句的「allow for measurement error」指「預留誤差」。",
       "sentenceIndex": 45,
@@ -2773,12 +2750,10 @@ export default {
         "allow for measurement error"
       ],
       "optionReasons": {
-        "allow-mcq-20": "本句指「預留誤差」。",
-        "allow-mcq-19": "「考慮延誤」與本句語境不同。",
-        "allow-mcq-21": "「正式：容許 X 成立」與本句語境不同。",
-        "allow-mcq-18": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-22": "「不容例外」與本句語境不同。",
-        "allow-mcq-17": "「預計／預留五天」與本句語境不同。"
+        "allow-mcq-20": "本句的「allow for measurement error」指「預留誤差」。",
+        "allow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-2688b6f2d8": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-20"
     },
@@ -2790,11 +2765,9 @@ export default {
       "masked": "Always ____ for a small margin of error.",
       "options": [
         "allow-mcq-20",
-        "allow-mcq-19",
-        "allow-mcq-21",
-        "allow-mcq-18",
-        "allow-mcq-22",
-        "allow-mcq-17"
+        "allow-reviewed-d4b2f4d070",
+        "allow-mcq-40",
+        "allow-mcq-45"
       ],
       "explanation": "本句的「allow」指「預留誤差」。",
       "sentenceIndex": 46,
@@ -2803,12 +2776,10 @@ export default {
         "allow"
       ],
       "optionReasons": {
-        "allow-mcq-20": "本句指「預留誤差」。",
-        "allow-mcq-19": "「考慮延誤」與本句語境不同。",
-        "allow-mcq-21": "「正式：容許 X 成立」與本句語境不同。",
-        "allow-mcq-18": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-22": "「不容例外」與本句語境不同。",
-        "allow-mcq-17": "「預計／預留五天」與本句語境不同。"
+        "allow-mcq-20": "本句的「allow」指「預留誤差」。",
+        "allow-reviewed-d4b2f4d070": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-20"
     },
@@ -2820,11 +2791,9 @@ export default {
       "masked": "The system should be designed to ____.",
       "options": [
         "allow-mcq-20",
-        "allow-mcq-19",
-        "allow-mcq-21",
-        "allow-mcq-18",
-        "allow-mcq-22",
-        "allow-mcq-17"
+        "allow-mcq-01",
+        "allow-mcq-45",
+        "allow-mcq-18"
       ],
       "explanation": "本句的「allow for future growth」指「預留誤差」。",
       "sentenceIndex": 47,
@@ -2833,12 +2802,10 @@ export default {
         "allow for future growth"
       ],
       "optionReasons": {
-        "allow-mcq-20": "本句指「預留誤差」。",
-        "allow-mcq-19": "「考慮延誤」與本句語境不同。",
-        "allow-mcq-21": "「正式：容許 X 成立」與本句語境不同。",
-        "allow-mcq-18": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-22": "「不容例外」與本句語境不同。",
-        "allow-mcq-17": "「預計／預留五天」與本句語境不同。"
+        "allow-mcq-20": "本句的「allow for future growth」指「預留誤差」。",
+        "allow-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-20"
     },
@@ -2850,11 +2817,9 @@ export default {
       "masked": "The budget ____ for increased return volume.",
       "options": [
         "allow-mcq-20",
-        "allow-mcq-19",
-        "allow-mcq-21",
-        "allow-mcq-18",
-        "allow-mcq-22",
-        "allow-mcq-17"
+        "allow-mcq-13",
+        "allow-mcq-38",
+        "allow-mcq-57"
       ],
       "explanation": "本句的「allows」指「預留誤差」。",
       "sentenceIndex": 48,
@@ -2863,12 +2828,10 @@ export default {
         "allows"
       ],
       "optionReasons": {
-        "allow-mcq-20": "本句指「預留誤差」。",
-        "allow-mcq-19": "「考慮延誤」與本句語境不同。",
-        "allow-mcq-21": "「正式：容許 X 成立」與本句語境不同。",
-        "allow-mcq-18": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-22": "「不容例外」與本句語境不同。",
-        "allow-mcq-17": "「預計／預留五天」與本句語境不同。"
+        "allow-mcq-20": "本句的「allows」指「預留誤差」。",
+        "allow-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-20"
     },
@@ -2880,11 +2843,9 @@ export default {
       "masked": "The rule ____.",
       "options": [
         "allow-mcq-21",
-        "allow-mcq-20",
-        "allow-mcq-22",
-        "allow-mcq-19",
-        "allow-mcq-23",
-        "allow-mcq-18"
+        "allow-mcq-49",
+        "allow-mcq-42",
+        "allow-mcq-46"
       ],
       "explanation": "本句的「allows of no exceptions」指「正式：容許 X 成立」。",
       "sentenceIndex": 49,
@@ -2893,12 +2854,10 @@ export default {
         "allows of no exceptions"
       ],
       "optionReasons": {
-        "allow-mcq-21": "本句指「正式：容許 X 成立」。",
-        "allow-mcq-20": "「預留誤差」與本句語境不同。",
-        "allow-mcq-22": "「不容例外」與本句語境不同。",
-        "allow-mcq-19": "「考慮延誤」與本句語境不同。",
-        "allow-mcq-23": "「承認……」與本句語境不同。",
-        "allow-mcq-18": "「把 X 考慮在內」與本句語境不同。"
+        "allow-mcq-21": "本句的「allows of no exceptions」指「正式：容許 X 成立」。",
+        "allow-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-21"
     },
@@ -2910,11 +2869,9 @@ export default {
       "masked": "The evidence ____ of several interpretations.",
       "options": [
         "allow-mcq-21",
-        "allow-mcq-20",
-        "allow-mcq-22",
-        "allow-mcq-19",
-        "allow-mcq-23",
-        "allow-mcq-18"
+        "allow-mcq-42",
+        "allow-reviewed-328cabe2a5",
+        "allow-mcq-56"
       ],
       "explanation": "本句的「allows」指「正式：容許 X 成立」。",
       "sentenceIndex": 50,
@@ -2923,12 +2880,10 @@ export default {
         "allows"
       ],
       "optionReasons": {
-        "allow-mcq-21": "本句指「正式：容許 X 成立」。",
-        "allow-mcq-20": "「預留誤差」與本句語境不同。",
-        "allow-mcq-22": "「不容例外」與本句語境不同。",
-        "allow-mcq-19": "「考慮延誤」與本句語境不同。",
-        "allow-mcq-23": "「承認……」與本句語境不同。",
-        "allow-mcq-18": "「把 X 考慮在內」與本句語境不同。"
+        "allow-mcq-21": "本句的「allows」指「正式：容許 X 成立」。",
+        "allow-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-328cabe2a5": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-21"
     },
@@ -2940,11 +2895,9 @@ export default {
       "masked": "The wording ____.",
       "options": [
         "allow-mcq-22",
-        "allow-mcq-21",
-        "allow-mcq-23",
-        "allow-mcq-20",
-        "allow-mcq-24",
-        "allow-mcq-19"
+        "allow-mcq-47",
+        "allow-mcq-43",
+        "allow-reviewed-6f41fcc66c"
       ],
       "explanation": "本句的「allows of no ambiguity」指「不容例外」。",
       "sentenceIndex": 51,
@@ -2953,12 +2906,10 @@ export default {
         "allows of no ambiguity"
       ],
       "optionReasons": {
-        "allow-mcq-22": "本句指「不容例外」。",
-        "allow-mcq-21": "「正式：容許 X 成立」與本句語境不同。",
-        "allow-mcq-23": "「承認……」與本句語境不同。",
-        "allow-mcq-20": "「預留誤差」與本句語境不同。",
-        "allow-mcq-24": "「批准申索」與本句語境不同。",
-        "allow-mcq-19": "「考慮延誤」與本句語境不同。"
+        "allow-mcq-22": "本句的「allows of no ambiguity」指「不容例外」。",
+        "allow-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-6f41fcc66c": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-22"
     },
@@ -2970,11 +2921,9 @@ export default {
       "masked": "Even critics ____.",
       "options": [
         "allow-mcq-23",
-        "allow-mcq-22",
-        "allow-mcq-24",
-        "allow-mcq-21",
-        "allow-mcq-25",
-        "allow-mcq-20"
+        "allow-mcq-44",
+        "allow-mcq-16",
+        "allow-mcq-46"
       ],
       "explanation": "本句的「allow that the policy needs some flexibility」指「承認……」。",
       "sentenceIndex": 52,
@@ -2983,12 +2932,10 @@ export default {
         "allow that the policy needs some flexibility"
       ],
       "optionReasons": {
-        "allow-mcq-23": "本句指「承認……」。",
-        "allow-mcq-22": "「不容例外」與本句語境不同。",
-        "allow-mcq-24": "「批准申索」與本句語境不同。",
-        "allow-mcq-21": "「正式：容許 X 成立」與本句語境不同。",
-        "allow-mcq-25": "「判上訴得直／批准上訴」與本句語境不同。",
-        "allow-mcq-20": "「預留誤差」與本句語境不同。"
+        "allow-mcq-23": "本句的「allow that the policy needs some flexibility」指「承認……」。",
+        "allow-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-23"
     },
@@ -3000,11 +2947,9 @@ export default {
       "masked": "He ____ that the original rule had some advantages.",
       "options": [
         "allow-mcq-23",
-        "allow-mcq-22",
-        "allow-mcq-24",
-        "allow-mcq-21",
-        "allow-mcq-25",
-        "allow-mcq-20"
+        "allow-mcq-06",
+        "allow-reviewed-23b1cfd43e",
+        "allow-mcq-08"
       ],
       "explanation": "本句的「allowed」指「承認……」。",
       "sentenceIndex": 53,
@@ -3013,12 +2958,10 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-23": "本句指「承認……」。",
-        "allow-mcq-22": "「不容例外」與本句語境不同。",
-        "allow-mcq-24": "「批准申索」與本句語境不同。",
-        "allow-mcq-21": "「正式：容許 X 成立」與本句語境不同。",
-        "allow-mcq-25": "「判上訴得直／批准上訴」與本句語境不同。",
-        "allow-mcq-20": "「預留誤差」與本句語境不同。"
+        "allow-mcq-23": "本句的「allowed」指「承認……」。",
+        "allow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-23b1cfd43e": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-23"
     },
@@ -3030,11 +2973,9 @@ export default {
       "masked": "We must ____.",
       "options": [
         "allow-mcq-23",
-        "allow-mcq-22",
-        "allow-mcq-24",
-        "allow-mcq-21",
-        "allow-mcq-25",
-        "allow-mcq-20"
+        "allow-mcq-42",
+        "allow-mcq-09",
+        "allow-mcq-40"
       ],
       "explanation": "本句的「allow the possibility that some complaints are genuine」指「承認……」。",
       "sentenceIndex": 54,
@@ -3043,12 +2984,10 @@ export default {
         "allow the possibility that some complaints are genuine"
       ],
       "optionReasons": {
-        "allow-mcq-23": "本句指「承認……」。",
-        "allow-mcq-22": "「不容例外」與本句語境不同。",
-        "allow-mcq-24": "「批准申索」與本句語境不同。",
-        "allow-mcq-21": "「正式：容許 X 成立」與本句語境不同。",
-        "allow-mcq-25": "「判上訴得直／批准上訴」與本句語境不同。",
-        "allow-mcq-20": "「預留誤差」與本句語境不同。"
+        "allow-mcq-23": "本句的「allow the possibility that some complaints are genuine」指「承認……」。",
+        "allow-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-23"
     },
@@ -3060,11 +2999,9 @@ export default {
       "masked": "The evidence ____ the possibility of an alternative explanation.",
       "options": [
         "allow-mcq-23",
-        "allow-mcq-22",
-        "allow-mcq-24",
-        "allow-mcq-21",
-        "allow-mcq-25",
-        "allow-mcq-20"
+        "allow-pdf-002",
+        "allow-mcq-52",
+        "allow-mcq-42"
       ],
       "explanation": "本句的「allows」指「承認……」。",
       "sentenceIndex": 55,
@@ -3073,12 +3010,10 @@ export default {
         "allows"
       ],
       "optionReasons": {
-        "allow-mcq-23": "本句指「承認……」。",
-        "allow-mcq-22": "「不容例外」與本句語境不同。",
-        "allow-mcq-24": "「批准申索」與本句語境不同。",
-        "allow-mcq-21": "「正式：容許 X 成立」與本句語境不同。",
-        "allow-mcq-25": "「判上訴得直／批准上訴」與本句語境不同。",
-        "allow-mcq-20": "「預留誤差」與本句語境不同。"
+        "allow-mcq-23": "本句的「allows」指「承認……」。",
+        "allow-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-23"
     },
@@ -3090,11 +3025,9 @@ export default {
       "masked": "The insurer ____.",
       "options": [
         "allow-mcq-24",
-        "allow-mcq-23",
-        "allow-mcq-25",
-        "allow-mcq-22",
-        "allow-mcq-26",
-        "allow-mcq-21"
+        "allow-mcq-56",
+        "allow-reviewed-2688b6f2d8",
+        "allow-mcq-19"
       ],
       "explanation": "本句的「allowed the claim」指「批准申索」。",
       "sentenceIndex": 56,
@@ -3103,12 +3036,10 @@ export default {
         "allowed the claim"
       ],
       "optionReasons": {
-        "allow-mcq-24": "本句指「批准申索」。",
-        "allow-mcq-23": "「承認……」與本句語境不同。",
-        "allow-mcq-25": "「判上訴得直／批准上訴」與本句語境不同。",
-        "allow-mcq-22": "「不容例外」與本句語境不同。",
-        "allow-mcq-26": "「批准申請」與本句語境不同。",
-        "allow-mcq-21": "「正式：容許 X 成立」與本句語境不同。"
+        "allow-mcq-24": "本句的「allowed the claim」指「批准申索」。",
+        "allow-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-2688b6f2d8": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-24"
     },
@@ -3121,10 +3052,8 @@ export default {
       "options": [
         "allow-mcq-24",
         "allow-mcq-23",
-        "allow-mcq-25",
-        "allow-mcq-22",
-        "allow-mcq-26",
-        "allow-mcq-21"
+        "allow-mcq-51",
+        "allow-mcq-06"
       ],
       "explanation": "本句的「allowed」指「批准申索」。",
       "sentenceIndex": 57,
@@ -3133,12 +3062,10 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-24": "本句指「批准申索」。",
-        "allow-mcq-23": "「承認……」與本句語境不同。",
-        "allow-mcq-25": "「判上訴得直／批准上訴」與本句語境不同。",
-        "allow-mcq-22": "「不容例外」與本句語境不同。",
-        "allow-mcq-26": "「批准申請」與本句語境不同。",
-        "allow-mcq-21": "「正式：容許 X 成立」與本句語境不同。"
+        "allow-mcq-24": "本句的「allowed」指「批准申索」。",
+        "allow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-24"
     },
@@ -3150,11 +3077,9 @@ export default {
       "masked": "The court ____.",
       "options": [
         "allow-mcq-25",
-        "allow-mcq-24",
-        "allow-mcq-26",
-        "allow-mcq-23",
-        "allow-mcq-27",
-        "allow-mcq-22"
+        "allow-mcq-06",
+        "allow-mcq-41",
+        "allow-mcq-49"
       ],
       "explanation": "本句的「allowed the appeal」指「判上訴得直／批准上訴」。",
       "sentenceIndex": 58,
@@ -3163,12 +3088,10 @@ export default {
         "allowed the appeal"
       ],
       "optionReasons": {
-        "allow-mcq-25": "本句指「判上訴得直／批准上訴」。",
-        "allow-mcq-24": "「批准申索」與本句語境不同。",
-        "allow-mcq-26": "「批准申請」與本句語境不同。",
-        "allow-mcq-23": "「承認……」與本句語境不同。",
-        "allow-mcq-27": "「認可開支」與本句語境不同。",
-        "allow-mcq-22": "「不容例外」與本句語境不同。"
+        "allow-mcq-25": "本句的「allowed the appeal」指「判上訴得直／批准上訴」。",
+        "allow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-25"
     },
@@ -3180,10 +3103,8 @@ export default {
       "masked": "If the appeal is ____, the earlier decision may be changed.",
       "options": [
         "allow-mcq-25",
-        "allow-mcq-24",
-        "allow-mcq-26",
-        "allow-mcq-23",
-        "allow-mcq-27",
+        "allow-mcq-57",
+        "allow-mcq-08",
         "allow-mcq-22"
       ],
       "explanation": "本句的「allowed」指「判上訴得直／批准上訴」。",
@@ -3193,12 +3114,10 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-25": "本句指「判上訴得直／批准上訴」。",
-        "allow-mcq-24": "「批准申索」與本句語境不同。",
-        "allow-mcq-26": "「批准申請」與本句語境不同。",
-        "allow-mcq-23": "「承認……」與本句語境不同。",
-        "allow-mcq-27": "「認可開支」與本句語境不同。",
-        "allow-mcq-22": "「不容例外」與本句語境不同。"
+        "allow-mcq-25": "本句的「allowed」指「判上訴得直／批准上訴」。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-25"
     },
@@ -3210,11 +3129,9 @@ export default {
       "masked": "The court ____ the application.",
       "options": [
         "allow-mcq-26",
-        "allow-mcq-25",
-        "allow-mcq-27",
-        "allow-mcq-24",
-        "allow-mcq-28",
-        "allow-mcq-23"
+        "allow-mcq-50",
+        "allow-mcq-48",
+        "allow-mcq-18"
       ],
       "explanation": "本句的「allowed」指「批准申請」。",
       "sentenceIndex": 60,
@@ -3223,12 +3140,10 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-26": "本句指「批准申請」。",
-        "allow-mcq-25": "「判上訴得直／批准上訴」與本句語境不同。",
-        "allow-mcq-27": "「認可開支」與本句語境不同。",
-        "allow-mcq-24": "「批准申索」與本句語境不同。",
-        "allow-mcq-28": "「容許／可接受的」與本句語境不同。",
-        "allow-mcq-23": "「承認……」與本句語境不同。"
+        "allow-mcq-26": "本句的「allowed」指「批准申請」。",
+        "allow-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-26"
     },
@@ -3240,11 +3155,9 @@ export default {
       "masked": "Management ____ the request for an extension.",
       "options": [
         "allow-mcq-26",
-        "allow-mcq-25",
-        "allow-mcq-27",
-        "allow-mcq-24",
-        "allow-mcq-28",
-        "allow-mcq-23"
+        "allow-mcq-40",
+        "allow-mcq-46",
+        "allow-mcq-16"
       ],
       "explanation": "本句的「allowed」指「批准申請」。",
       "sentenceIndex": 61,
@@ -3253,12 +3166,10 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-26": "本句指「批准申請」。",
-        "allow-mcq-25": "「判上訴得直／批准上訴」與本句語境不同。",
-        "allow-mcq-27": "「認可開支」與本句語境不同。",
-        "allow-mcq-24": "「批准申索」與本句語境不同。",
-        "allow-mcq-28": "「容許／可接受的」與本句語境不同。",
-        "allow-mcq-23": "「承認……」與本句語境不同。"
+        "allow-mcq-26": "本句的「allowed」指「批准申請」。",
+        "allow-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-26"
     },
@@ -3270,11 +3181,9 @@ export default {
       "masked": "The expense may be ____.",
       "options": [
         "allow-mcq-27",
-        "allow-mcq-26",
-        "allow-mcq-28",
-        "allow-mcq-25",
-        "allow-mcq-29",
-        "allow-mcq-24"
+        "allow-mcq-22",
+        "allow-mcq-08",
+        "allow-mcq-44"
       ],
       "explanation": "本句的「allowed for tax purposes」指「認可開支」。",
       "sentenceIndex": 62,
@@ -3283,12 +3192,10 @@ export default {
         "allowed for tax purposes"
       ],
       "optionReasons": {
-        "allow-mcq-27": "本句指「認可開支」。",
-        "allow-mcq-26": "「批准申請」與本句語境不同。",
-        "allow-mcq-28": "「容許／可接受的」與本句語境不同。",
-        "allow-mcq-25": "「判上訴得直／批准上訴」與本句語境不同。",
-        "allow-mcq-29": "「可扣除開支」與本句語境不同。",
-        "allow-mcq-24": "「批准申索」與本句語境不同。"
+        "allow-mcq-27": "本句的「allowed for tax purposes」指「認可開支」。",
+        "allow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-27"
     },
@@ -3300,11 +3207,9 @@ export default {
       "masked": "The deduction was ____.",
       "options": [
         "allow-mcq-27",
-        "allow-mcq-26",
-        "allow-mcq-28",
-        "allow-mcq-25",
-        "allow-mcq-29",
-        "allow-mcq-24"
+        "allow-mcq-54",
+        "allow-mcq-20",
+        "allow-mcq-44"
       ],
       "explanation": "本句的「allowed」指「認可開支」。",
       "sentenceIndex": 63,
@@ -3313,12 +3218,10 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-27": "本句指「認可開支」。",
-        "allow-mcq-26": "「批准申請」與本句語境不同。",
-        "allow-mcq-28": "「容許／可接受的」與本句語境不同。",
-        "allow-mcq-25": "「判上訴得直／批准上訴」與本句語境不同。",
-        "allow-mcq-29": "「可扣除開支」與本句語境不同。",
-        "allow-mcq-24": "「批准申索」與本句語境不同。"
+        "allow-mcq-27": "本句的「allowed」指「認可開支」。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-27"
     },
@@ -3330,11 +3233,9 @@ export default {
       "masked": "Keep receipts for all ____.",
       "options": [
         "allow-mcq-29",
-        "allow-mcq-28",
-        "allow-mcq-30",
-        "allow-mcq-27",
-        "allow-mcq-31",
-        "allow-mcq-26"
+        "allow-mcq-18",
+        "allow-mcq-17",
+        "allow-mcq-05"
       ],
       "explanation": "本句的「allowable expenses」指「可扣除開支」。",
       "sentenceIndex": 64,
@@ -3343,12 +3244,10 @@ export default {
         "allowable expenses"
       ],
       "optionReasons": {
-        "allow-mcq-29": "本句指「可扣除開支」。",
-        "allow-mcq-28": "「容許／可接受的」與本句語境不同。",
-        "allow-mcq-30": "「容許上限」與本句語境不同。",
-        "allow-mcq-27": "「認可開支」與本句語境不同。",
-        "allow-mcq-31": "「容許範圍」與本句語境不同。",
-        "allow-mcq-26": "「批准申請」與本句語境不同。"
+        "allow-mcq-29": "本句的「allowable expenses」指「可扣除開支」。",
+        "allow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-29"
     },
@@ -3360,11 +3259,9 @@ export default {
       "masked": "Not every business cost is an ____ expense for every purpose.",
       "options": [
         "allow-mcq-29",
-        "allow-mcq-28",
-        "allow-mcq-30",
-        "allow-mcq-27",
-        "allow-mcq-31",
-        "allow-mcq-26"
+        "allow-reviewed-706a404e2a",
+        "allow-mcq-20",
+        "allow-mcq-08"
       ],
       "explanation": "本句的「allowable」指「可扣除開支」。",
       "sentenceIndex": 65,
@@ -3373,12 +3270,10 @@ export default {
         "allowable"
       ],
       "optionReasons": {
-        "allow-mcq-29": "本句指「可扣除開支」。",
-        "allow-mcq-28": "「容許／可接受的」與本句語境不同。",
-        "allow-mcq-30": "「容許上限」與本句語境不同。",
-        "allow-mcq-27": "「認可開支」與本句語境不同。",
-        "allow-mcq-31": "「容許範圍」與本句語境不同。",
-        "allow-mcq-26": "「批准申請」與本句語境不同。"
+        "allow-mcq-29": "本句的「allowable」指「可扣除開支」。",
+        "allow-reviewed-706a404e2a": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-29"
     },
@@ -3390,11 +3285,9 @@ export default {
       "masked": "The rules define which deductions are ____.",
       "options": [
         "allow-mcq-29",
-        "allow-mcq-28",
-        "allow-mcq-30",
-        "allow-mcq-27",
-        "allow-mcq-31",
-        "allow-mcq-26"
+        "allow-mcq-40",
+        "allow-mcq-57",
+        "allow-mcq-51"
       ],
       "explanation": "本句的「allowable」指「可扣除開支」。",
       "sentenceIndex": 66,
@@ -3403,12 +3296,10 @@ export default {
         "allowable"
       ],
       "optionReasons": {
-        "allow-mcq-29": "本句指「可扣除開支」。",
-        "allow-mcq-28": "「容許／可接受的」與本句語境不同。",
-        "allow-mcq-30": "「容許上限」與本句語境不同。",
-        "allow-mcq-27": "「認可開支」與本句語境不同。",
-        "allow-mcq-31": "「容許範圍」與本句語境不同。",
-        "allow-mcq-26": "「批准申請」與本句語境不同。"
+        "allow-mcq-29": "本句的「allowable」指「可扣除開支」。",
+        "allow-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-29"
     },
@@ -3420,11 +3311,9 @@ export default {
       "masked": "The maximum ____ is thirty days.",
       "options": [
         "allow-mcq-28",
-        "allow-mcq-27",
-        "allow-mcq-29",
-        "allow-mcq-26",
-        "allow-mcq-30",
-        "allow-mcq-25"
+        "allow-mcq-48",
+        "allow-mcq-42",
+        "allow-mcq-38"
       ],
       "explanation": "本句的「allowable return period」指「容許／可接受的」。",
       "sentenceIndex": 67,
@@ -3433,12 +3322,10 @@ export default {
         "allowable return period"
       ],
       "optionReasons": {
-        "allow-mcq-28": "本句指「容許／可接受的」。",
-        "allow-mcq-27": "「認可開支」與本句語境不同。",
-        "allow-mcq-29": "「可扣除開支」與本句語境不同。",
-        "allow-mcq-26": "「批准申請」與本句語境不同。",
-        "allow-mcq-30": "「容許上限」與本句語境不同。",
-        "allow-mcq-25": "「判上訴得直／批准上訴」與本句語境不同。"
+        "allow-mcq-28": "本句的「allowable return period」指「容許／可接受的」。",
+        "allow-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-28"
     },
@@ -3450,11 +3337,9 @@ export default {
       "masked": "Only ____ expenses can be reimbursed.",
       "options": [
         "allow-mcq-28",
-        "allow-mcq-27",
-        "allow-mcq-29",
-        "allow-mcq-26",
-        "allow-mcq-30",
-        "allow-mcq-25"
+        "allow-mcq-57",
+        "allow-mcq-19",
+        "allow-mcq-44"
       ],
       "explanation": "本句的「allowable」指「容許／可接受的」。",
       "sentenceIndex": 68,
@@ -3463,12 +3348,10 @@ export default {
         "allowable"
       ],
       "optionReasons": {
-        "allow-mcq-28": "本句指「容許／可接受的」。",
-        "allow-mcq-27": "「認可開支」與本句語境不同。",
-        "allow-mcq-29": "「可扣除開支」與本句語境不同。",
-        "allow-mcq-26": "「批准申請」與本句語境不同。",
-        "allow-mcq-30": "「容許上限」與本句語境不同。",
-        "allow-mcq-25": "「判上訴得直／批准上訴」與本句語境不同。"
+        "allow-mcq-28": "本句的「allowable」指「容許／可接受的」。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-28"
     },
@@ -3480,11 +3363,9 @@ export default {
       "masked": "The measurement exceeded the ____.",
       "options": [
         "allow-mcq-30",
-        "allow-mcq-29",
-        "allow-mcq-31",
-        "allow-mcq-28",
-        "allow-mcq-32",
-        "allow-mcq-27"
+        "allow-mcq-41",
+        "allow-mcq-08",
+        "allow-mcq-20"
       ],
       "explanation": "本句的「allowable limit」指「容許上限」。",
       "sentenceIndex": 69,
@@ -3493,12 +3374,10 @@ export default {
         "allowable limit"
       ],
       "optionReasons": {
-        "allow-mcq-30": "本句指「容許上限」。",
-        "allow-mcq-29": "「可扣除開支」與本句語境不同。",
-        "allow-mcq-31": "「容許範圍」與本句語境不同。",
-        "allow-mcq-28": "「容許／可接受的」與本句語境不同。",
-        "allow-mcq-32": "「容許誤差」與本句語境不同。",
-        "allow-mcq-27": "「認可開支」與本句語境不同。"
+        "allow-mcq-30": "本句的「allowable limit」指「容許上限」。",
+        "allow-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-30"
     },
@@ -3510,11 +3389,9 @@ export default {
       "masked": "Return abuse should remain below an ____ threshold.",
       "options": [
         "allow-mcq-30",
-        "allow-mcq-29",
-        "allow-mcq-31",
-        "allow-mcq-28",
-        "allow-mcq-32",
-        "allow-mcq-27"
+        "allow-mcq-47",
+        "allow-mcq-54",
+        "allow-pdf-001"
       ],
       "explanation": "本句的「allowable」指「容許上限」。",
       "sentenceIndex": 70,
@@ -3523,12 +3400,10 @@ export default {
         "allowable"
       ],
       "optionReasons": {
-        "allow-mcq-30": "本句指「容許上限」。",
-        "allow-mcq-29": "「可扣除開支」與本句語境不同。",
-        "allow-mcq-31": "「容許範圍」與本句語境不同。",
-        "allow-mcq-28": "「容許／可接受的」與本句語境不同。",
-        "allow-mcq-32": "「容許誤差」與本句語境不同。",
-        "allow-mcq-27": "「認可開支」與本句語境不同。"
+        "allow-mcq-30": "本句的「allowable」指「容許上限」。",
+        "allow-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "allow-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-30"
     },
@@ -3540,11 +3415,9 @@ export default {
       "masked": "The value must remain within the ____.",
       "options": [
         "allow-mcq-31",
-        "allow-mcq-30",
-        "allow-mcq-32",
         "allow-mcq-29",
-        "allow-mcq-33",
-        "allow-mcq-28"
+        "allow-mcq-48",
+        "allow-mcq-42"
       ],
       "explanation": "本句的「allowable range」指「容許範圍」。",
       "sentenceIndex": 71,
@@ -3553,12 +3426,10 @@ export default {
         "allowable range"
       ],
       "optionReasons": {
-        "allow-mcq-31": "本句指「容許範圍」。",
-        "allow-mcq-30": "「容許上限」與本句語境不同。",
-        "allow-mcq-32": "「容許誤差」與本句語境不同。",
-        "allow-mcq-29": "「可扣除開支」與本句語境不同。",
-        "allow-mcq-33": "「容許應力」與本句語境不同。",
-        "allow-mcq-28": "「容許／可接受的」與本句語境不同。"
+        "allow-mcq-31": "本句的「allowable range」指「容許範圍」。",
+        "allow-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-31"
     },
@@ -3570,11 +3441,9 @@ export default {
       "masked": "The system rejects values outside the ____ range.",
       "options": [
         "allow-mcq-31",
-        "allow-mcq-30",
-        "allow-mcq-32",
-        "allow-mcq-29",
-        "allow-mcq-33",
-        "allow-mcq-28"
+        "allow-mcq-57",
+        "allow-mcq-52",
+        "allow-mcq-19"
       ],
       "explanation": "本句的「allowable」指「容許範圍」。",
       "sentenceIndex": 72,
@@ -3583,12 +3452,10 @@ export default {
         "allowable"
       ],
       "optionReasons": {
-        "allow-mcq-31": "本句指「容許範圍」。",
-        "allow-mcq-30": "「容許上限」與本句語境不同。",
-        "allow-mcq-32": "「容許誤差」與本句語境不同。",
-        "allow-mcq-29": "「可扣除開支」與本句語境不同。",
-        "allow-mcq-33": "「容許應力」與本句語境不同。",
-        "allow-mcq-28": "「容許／可接受的」與本句語境不同。"
+        "allow-mcq-31": "本句的「allowable」指「容許範圍」。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-31"
     },
@@ -3600,11 +3467,9 @@ export default {
       "masked": "The result is within the ____.",
       "options": [
         "allow-mcq-32",
-        "allow-mcq-31",
-        "allow-mcq-33",
-        "allow-mcq-30",
-        "allow-mcq-34",
-        "allow-mcq-29"
+        "allow-mcq-50",
+        "allow-mcq-51",
+        "allow-mcq-56"
       ],
       "explanation": "本句的「allowable error」指「容許誤差」。",
       "sentenceIndex": 73,
@@ -3613,12 +3478,10 @@ export default {
         "allowable error"
       ],
       "optionReasons": {
-        "allow-mcq-32": "本句指「容許誤差」。",
-        "allow-mcq-31": "「容許範圍」與本句語境不同。",
-        "allow-mcq-33": "「容許應力」與本句語境不同。",
-        "allow-mcq-30": "「容許上限」與本句語境不同。",
-        "allow-mcq-34": "「獲准的」與本句語境不同。",
-        "allow-mcq-29": "「可扣除開支」與本句語境不同。"
+        "allow-mcq-32": "本句的「allowable error」指「容許誤差」。",
+        "allow-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-32"
     },
@@ -3630,10 +3493,8 @@ export default {
       "masked": "____ error depends on the measurement standard.",
       "options": [
         "allow-mcq-32",
-        "allow-mcq-31",
-        "allow-mcq-33",
-        "allow-mcq-30",
-        "allow-mcq-34",
+        "allow-mcq-16",
+        "allow-mcq-41",
         "allow-mcq-29"
       ],
       "explanation": "本句的「Allowable」指「容許誤差」。",
@@ -3643,12 +3504,10 @@ export default {
         "Allowable"
       ],
       "optionReasons": {
-        "allow-mcq-32": "本句指「容許誤差」。",
-        "allow-mcq-31": "「容許範圍」與本句語境不同。",
-        "allow-mcq-33": "「容許應力」與本句語境不同。",
-        "allow-mcq-30": "「容許上限」與本句語境不同。",
-        "allow-mcq-34": "「獲准的」與本句語境不同。",
-        "allow-mcq-29": "「可扣除開支」與本句語境不同。"
+        "allow-mcq-32": "本句的「Allowable」指「容許誤差」。",
+        "allow-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-32"
     },
@@ -3660,11 +3519,9 @@ export default {
       "masked": "The calculated stress must remain below the ____.",
       "options": [
         "allow-mcq-33",
-        "allow-mcq-32",
-        "allow-mcq-34",
-        "allow-mcq-31",
-        "allow-mcq-35",
-        "allow-mcq-30"
+        "allow-mcq-52",
+        "allow-mcq-16",
+        "allow-mcq-51"
       ],
       "explanation": "本句的「allowable stress」指「容許應力」。",
       "sentenceIndex": 75,
@@ -3673,12 +3530,10 @@ export default {
         "allowable stress"
       ],
       "optionReasons": {
-        "allow-mcq-33": "本句指「容許應力」。",
-        "allow-mcq-32": "「容許誤差」與本句語境不同。",
-        "allow-mcq-34": "「獲准的」與本句語境不同。",
-        "allow-mcq-31": "「容許範圍」與本句語境不同。",
-        "allow-mcq-35": "「最高容許」與本句語境不同。",
-        "allow-mcq-30": "「容許上限」與本句語境不同。"
+        "allow-mcq-33": "本句的「allowable stress」指「容許應力」。",
+        "allow-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-33"
     },
@@ -3690,11 +3545,9 @@ export default {
       "masked": "Engineers compare actual and ____ stress.",
       "options": [
         "allow-mcq-33",
-        "allow-mcq-32",
-        "allow-mcq-34",
-        "allow-mcq-31",
-        "allow-mcq-35",
-        "allow-mcq-30"
+        "allow-mcq-46",
+        "allow-mcq-29",
+        "allow-mcq-41"
       ],
       "explanation": "本句的「allowable」指「容許應力」。",
       "sentenceIndex": 76,
@@ -3703,74 +3556,68 @@ export default {
         "allowable"
       ],
       "optionReasons": {
-        "allow-mcq-33": "本句指「容許應力」。",
-        "allow-mcq-32": "「容許誤差」與本句語境不同。",
-        "allow-mcq-34": "「獲准的」與本句語境不同。",
-        "allow-mcq-31": "「容許範圍」與本句語境不同。",
-        "allow-mcq-35": "「最高容許」與本句語境不同。",
-        "allow-mcq-30": "「容許上限」與本句語境不同。"
+        "allow-mcq-33": "本句的「allowable」指「容許應力」。",
+        "allow-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-33"
     },
     {
       "id": "allow-41-0",
-      "sense": "allow-mcq-33",
+      "sense": "allow-reviewed-1fdc505239",
       "en": "Do not exceed the allowable load.",
       "zh": "不要超過容許荷載。",
       "masked": "Do not exceed the ____.",
       "options": [
-        "allow-mcq-33",
-        "allow-mcq-32",
-        "allow-mcq-34",
-        "allow-mcq-31",
-        "allow-mcq-35",
-        "allow-mcq-30"
+        "allow-reviewed-1fdc505239",
+        "allow-mcq-19",
+        "allow-mcq-49",
+        "allow-mcq-51"
       ],
-      "explanation": "本句的「allowable load」指「容許應力」。",
+      "explanation": "對照完整句子：「不要超過容許荷載。」。這裡的「allowable load」表示「容許承受的荷載」。",
       "sentenceIndex": 77,
       "sourcePractice": 1,
       "targets": [
         "allowable load"
       ],
       "optionReasons": {
-        "allow-mcq-33": "本句指「容許應力」。",
-        "allow-mcq-32": "「容許誤差」與本句語境不同。",
-        "allow-mcq-34": "「獲准的」與本句語境不同。",
-        "allow-mcq-31": "「容許範圍」與本句語境不同。",
-        "allow-mcq-35": "「最高容許」與本句語境不同。",
-        "allow-mcq-30": "「容許上限」與本句語境不同。"
+        "allow-reviewed-1fdc505239": "對照完整句子：「不要超過容許荷載。」。這裡的「allowable load」表示「容許承受的荷載」。",
+        "allow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-33"
+      "correctOption": "allow-reviewed-1fdc505239",
+      "previousCorrectOption": "allow-mcq-33",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-41-1",
-      "sense": "allow-mcq-33",
+      "sense": "allow-reviewed-1fdc505239",
       "en": "The allowable load depends on the structural design.",
       "zh": "容許荷載取決於結構設計。",
       "masked": "The ____ load depends on the structural design.",
       "options": [
-        "allow-mcq-33",
-        "allow-mcq-32",
-        "allow-mcq-34",
-        "allow-mcq-31",
-        "allow-mcq-35",
-        "allow-mcq-30"
+        "allow-reviewed-1fdc505239",
+        "allow-mcq-39",
+        "allow-mcq-48",
+        "allow-mcq-57"
       ],
-      "explanation": "本句的「allowable」指「容許應力」。",
+      "explanation": "對照完整句子：「容許荷載取決於結構設計。」。這裡的「allowable」表示「容許承受的荷載」。",
       "sentenceIndex": 78,
       "sourcePractice": 2,
       "targets": [
         "allowable"
       ],
       "optionReasons": {
-        "allow-mcq-33": "本句指「容許應力」。",
-        "allow-mcq-32": "「容許誤差」與本句語境不同。",
-        "allow-mcq-34": "「獲准的」與本句語境不同。",
-        "allow-mcq-31": "「容許範圍」與本句語境不同。",
-        "allow-mcq-35": "「最高容許」與本句語境不同。",
-        "allow-mcq-30": "「容許上限」與本句語境不同。"
+        "allow-reviewed-1fdc505239": "對照完整句子：「容許荷載取決於結構設計。」。這裡的「allowable」表示「容許承受的荷載」。",
+        "allow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-33"
+      "correctOption": "allow-reviewed-1fdc505239",
+      "previousCorrectOption": "allow-mcq-33",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-42-0",
@@ -3780,11 +3627,9 @@ export default {
       "masked": "Refunds are ____.",
       "options": [
         "allow-mcq-34",
-        "allow-mcq-33",
-        "allow-mcq-35",
-        "allow-mcq-32",
-        "allow-mcq-36",
-        "allow-mcq-31"
+        "allow-mcq-50",
+        "allow-mcq-08",
+        "allow-reviewed-2688b6f2d8"
       ],
       "explanation": "本句的「allowed only in specific cases」指「獲准的」。",
       "sentenceIndex": 79,
@@ -3793,12 +3638,10 @@ export default {
         "allowed only in specific cases"
       ],
       "optionReasons": {
-        "allow-mcq-34": "本句指「獲准的」。",
-        "allow-mcq-33": "「容許應力」與本句語境不同。",
-        "allow-mcq-35": "「最高容許」與本句語境不同。",
-        "allow-mcq-32": "「容許誤差」與本句語境不同。",
-        "allow-mcq-36": "「禁止 X」與本句語境不同。",
-        "allow-mcq-31": "「容許範圍」與本句語境不同。"
+        "allow-mcq-34": "本句的「allowed only in specific cases」指「獲准的」。",
+        "allow-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-2688b6f2d8": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-34"
     },
@@ -3810,11 +3653,9 @@ export default {
       "masked": "No outside food is ____.",
       "options": [
         "allow-mcq-34",
-        "allow-mcq-33",
-        "allow-mcq-35",
-        "allow-mcq-32",
-        "allow-mcq-36",
-        "allow-mcq-31"
+        "allow-mcq-40",
+        "allow-mcq-54",
+        "allow-mcq-44"
       ],
       "explanation": "本句的「allowed」指「獲准的」。",
       "sentenceIndex": 80,
@@ -3823,12 +3664,10 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-34": "本句指「獲准的」。",
-        "allow-mcq-33": "「容許應力」與本句語境不同。",
-        "allow-mcq-35": "「最高容許」與本句語境不同。",
-        "allow-mcq-32": "「容許誤差」與本句語境不同。",
-        "allow-mcq-36": "「禁止 X」與本句語境不同。",
-        "allow-mcq-31": "「容許範圍」與本句語境不同。"
+        "allow-mcq-34": "本句的「allowed」指「獲准的」。",
+        "allow-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-34"
     },
@@ -3840,11 +3679,9 @@ export default {
       "masked": "Two items is the ____.",
       "options": [
         "allow-mcq-35",
-        "allow-mcq-34",
-        "allow-mcq-36",
-        "allow-mcq-33",
-        "allow-mcq-37",
-        "allow-mcq-32"
+        "allow-mcq-51",
+        "allow-reviewed-328cabe2a5",
+        "allow-mcq-50"
       ],
       "explanation": "本句的「maximum allowed」指「最高容許」。",
       "sentenceIndex": 81,
@@ -3853,12 +3690,10 @@ export default {
         "maximum allowed"
       ],
       "optionReasons": {
-        "allow-mcq-35": "本句指「最高容許」。",
-        "allow-mcq-34": "「獲准的」與本句語境不同。",
-        "allow-mcq-36": "「禁止 X」與本句語境不同。",
-        "allow-mcq-33": "「容許應力」與本句語境不同。",
-        "allow-mcq-37": "「津貼；零用錢」與本句語境不同。",
-        "allow-mcq-32": "「容許誤差」與本句語境不同。"
+        "allow-mcq-35": "本句的「maximum allowed」指「最高容許」。",
+        "allow-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-328cabe2a5": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-35"
     },
@@ -3870,11 +3705,9 @@ export default {
       "masked": "The value exceeded the maximum ____.",
       "options": [
         "allow-mcq-35",
-        "allow-mcq-34",
-        "allow-mcq-36",
-        "allow-mcq-33",
-        "allow-mcq-37",
-        "allow-mcq-32"
+        "allow-mcq-19",
+        "allow-mcq-38",
+        "allow-reviewed-328cabe2a5"
       ],
       "explanation": "本句的「allowed」指「最高容許」。",
       "sentenceIndex": 82,
@@ -3883,74 +3716,68 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-35": "本句指「最高容許」。",
-        "allow-mcq-34": "「獲准的」與本句語境不同。",
-        "allow-mcq-36": "「禁止 X」與本句語境不同。",
-        "allow-mcq-33": "「容許應力」與本句語境不同。",
-        "allow-mcq-37": "「津貼；零用錢」與本句語境不同。",
-        "allow-mcq-32": "「容許誤差」與本句語境不同。"
+        "allow-mcq-35": "本句的「allowed」指「最高容許」。",
+        "allow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-328cabe2a5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-35"
     },
     {
       "id": "allow-44-0",
-      "sense": "allow-mcq-35",
+      "sense": "allow-reviewed-6f41fcc66c",
       "en": "The practice is legally allowed.",
       "zh": "這種做法在法律上獲准。",
       "masked": "The practice is ____.",
       "options": [
-        "allow-mcq-35",
-        "allow-mcq-34",
-        "allow-mcq-36",
-        "allow-mcq-33",
-        "allow-mcq-37",
-        "allow-mcq-32"
+        "allow-reviewed-6f41fcc66c",
+        "allow-mcq-29",
+        "allow-mcq-16",
+        "allow-mcq-38"
       ],
-      "explanation": "本句的「legally allowed」指「最高容許」。",
+      "explanation": "對照完整句子：「這種做法在法律上獲准。」。這裡的「legally allowed」表示「法律准許的」。",
       "sentenceIndex": 83,
       "sourcePractice": 1,
       "targets": [
         "legally allowed"
       ],
       "optionReasons": {
-        "allow-mcq-35": "本句指「最高容許」。",
-        "allow-mcq-34": "「獲准的」與本句語境不同。",
-        "allow-mcq-36": "「禁止 X」與本句語境不同。",
-        "allow-mcq-33": "「容許應力」與本句語境不同。",
-        "allow-mcq-37": "「津貼；零用錢」與本句語境不同。",
-        "allow-mcq-32": "「容許誤差」與本句語境不同。"
+        "allow-reviewed-6f41fcc66c": "對照完整句子：「這種做法在法律上獲准。」。這裡的「legally allowed」表示「法律准許的」。",
+        "allow-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-35"
+      "correctOption": "allow-reviewed-6f41fcc66c",
+      "previousCorrectOption": "allow-mcq-35",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-44-1",
-      "sense": "allow-mcq-35",
+      "sense": "allow-reviewed-6f41fcc66c",
       "en": "Legally allowed does not necessarily mean advisable.",
       "zh": "法律容許並不一定代表值得採用。",
       "masked": "Legally ____ does not necessarily mean advisable.",
       "options": [
-        "allow-mcq-35",
-        "allow-mcq-34",
-        "allow-mcq-36",
-        "allow-mcq-33",
-        "allow-mcq-37",
-        "allow-mcq-32"
+        "allow-reviewed-6f41fcc66c",
+        "allow-pdf-001",
+        "allow-mcq-16",
+        "allow-mcq-46"
       ],
-      "explanation": "本句的「allowed」指「最高容許」。",
+      "explanation": "對照完整句子：「法律容許並不一定代表值得採用。」。這裡的「allowed」表示「法律准許的」。",
       "sentenceIndex": 84,
       "sourcePractice": 2,
       "targets": [
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-35": "本句指「最高容許」。",
-        "allow-mcq-34": "「獲准的」與本句語境不同。",
-        "allow-mcq-36": "「禁止 X」與本句語境不同。",
-        "allow-mcq-33": "「容許應力」與本句語境不同。",
-        "allow-mcq-37": "「津貼；零用錢」與本句語境不同。",
-        "allow-mcq-32": "「容許誤差」與本句語境不同。"
+        "allow-reviewed-6f41fcc66c": "對照完整句子：「法律容許並不一定代表值得採用。」。這裡的「allowed」表示「法律准許的」。",
+        "allow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-35"
+      "correctOption": "allow-reviewed-6f41fcc66c",
+      "previousCorrectOption": "allow-mcq-35",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-45-0",
@@ -3960,11 +3787,9 @@ export default {
       "masked": "____",
       "options": [
         "allow-mcq-36",
-        "allow-mcq-35",
-        "allow-mcq-37",
-        "allow-mcq-34",
-        "allow-mcq-38",
-        "allow-mcq-33"
+        "allow-mcq-29",
+        "allow-mcq-51",
+        "allow-mcq-16"
       ],
       "explanation": "本句的「No returns allowed after thirty days.」指「禁止 X」。",
       "sentenceIndex": 85,
@@ -3973,12 +3798,10 @@ export default {
         "No returns allowed after thirty days."
       ],
       "optionReasons": {
-        "allow-mcq-36": "本句指「禁止 X」。",
-        "allow-mcq-35": "「最高容許」與本句語境不同。",
-        "allow-mcq-37": "「津貼；零用錢」與本句語境不同。",
-        "allow-mcq-34": "「獲准的」與本句語境不同。",
-        "allow-mcq-38": "「每週零用錢」與本句語境不同。",
-        "allow-mcq-33": "「容許應力」與本句語境不同。"
+        "allow-mcq-36": "本句的「No returns allowed after thirty days.」指「禁止 X」。",
+        "allow-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-36"
     },
@@ -3990,11 +3813,9 @@ export default {
       "masked": "No photography ____.",
       "options": [
         "allow-mcq-36",
-        "allow-mcq-35",
-        "allow-mcq-37",
-        "allow-mcq-34",
-        "allow-mcq-38",
-        "allow-mcq-33"
+        "allow-mcq-45",
+        "allow-mcq-20",
+        "allow-mcq-48"
       ],
       "explanation": "本句的「allowed」指「禁止 X」。",
       "sentenceIndex": 86,
@@ -4003,74 +3824,68 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-36": "本句指「禁止 X」。",
-        "allow-mcq-35": "「最高容許」與本句語境不同。",
-        "allow-mcq-37": "「津貼；零用錢」與本句語境不同。",
-        "allow-mcq-34": "「獲准的」與本句語境不同。",
-        "allow-mcq-38": "「每週零用錢」與本句語境不同。",
-        "allow-mcq-33": "「容許應力」與本句語境不同。"
+        "allow-mcq-36": "本句的「allowed」指「禁止 X」。",
+        "allow-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-36"
     },
     {
       "id": "allow-46-0",
-      "sense": "allow-mcq-36",
+      "sense": "allow-reviewed-d4b2f4d070",
       "en": "Exchanges allowed within fourteen days.",
       "zh": "十四天內可以換貨。",
       "masked": "Exchanges ____ within fourteen days.",
       "options": [
-        "allow-mcq-36",
-        "allow-mcq-35",
-        "allow-mcq-37",
-        "allow-mcq-34",
-        "allow-mcq-38",
-        "allow-mcq-33"
+        "allow-reviewed-d4b2f4d070",
+        "allow-mcq-22",
+        "allow-mcq-18",
+        "allow-mcq-39"
       ],
-      "explanation": "本句的「allowed」指「禁止 X」。",
+      "explanation": "對照完整句子：「十四天內可以換貨。」。這裡的「allowed」表示「准許某事物」。",
       "sentenceIndex": 87,
       "sourcePractice": 1,
       "targets": [
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-36": "本句指「禁止 X」。",
-        "allow-mcq-35": "「最高容許」與本句語境不同。",
-        "allow-mcq-37": "「津貼；零用錢」與本句語境不同。",
-        "allow-mcq-34": "「獲准的」與本句語境不同。",
-        "allow-mcq-38": "「每週零用錢」與本句語境不同。",
-        "allow-mcq-33": "「容許應力」與本句語境不同。"
+        "allow-reviewed-d4b2f4d070": "對照完整句子：「十四天內可以換貨。」。這裡的「allowed」表示「准許某事物」。",
+        "allow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-36"
+      "correctOption": "allow-reviewed-d4b2f4d070",
+      "previousCorrectOption": "allow-mcq-36",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-46-1",
-      "sense": "allow-mcq-36",
+      "sense": "allow-reviewed-d4b2f4d070",
       "en": "One return per order allowed.",
       "zh": "每張訂單只准退貨一次。",
       "masked": "One return per order ____.",
       "options": [
-        "allow-mcq-36",
-        "allow-mcq-35",
-        "allow-mcq-37",
-        "allow-mcq-34",
-        "allow-mcq-38",
-        "allow-mcq-33"
+        "allow-reviewed-d4b2f4d070",
+        "allow-mcq-18",
+        "allow-mcq-46",
+        "allow-mcq-48"
       ],
-      "explanation": "本句的「allowed」指「禁止 X」。",
+      "explanation": "對照完整句子：「每張訂單只准退貨一次。」。這裡的「allowed」表示「准許某事物」。",
       "sentenceIndex": 88,
       "sourcePractice": 2,
       "targets": [
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-36": "本句指「禁止 X」。",
-        "allow-mcq-35": "「最高容許」與本句語境不同。",
-        "allow-mcq-37": "「津貼；零用錢」與本句語境不同。",
-        "allow-mcq-34": "「獲准的」與本句語境不同。",
-        "allow-mcq-38": "「每週零用錢」與本句語境不同。",
-        "allow-mcq-33": "「容許應力」與本句語境不同。"
+        "allow-reviewed-d4b2f4d070": "對照完整句子：「每張訂單只准退貨一次。」。這裡的「allowed」表示「准許某事物」。",
+        "allow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-36"
+      "correctOption": "allow-reviewed-d4b2f4d070",
+      "previousCorrectOption": "allow-mcq-36",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-47-0",
@@ -4080,11 +3895,9 @@ export default {
       "masked": "She gives her child a weekly ____.",
       "options": [
         "allow-pdf-001",
-        "allow-mcq-36",
-        "allow-mcq-38",
-        "allow-mcq-35",
-        "allow-mcq-39",
-        "allow-mcq-34"
+        "allow-reviewed-8fbb75d2a8",
+        "allow-mcq-54",
+        "allow-mcq-49"
       ],
       "explanation": "本句的「allowance」指「定期給予某人，用於某項需要或個人開支的一筆金錢」。",
       "sentenceIndex": 89,
@@ -4093,12 +3906,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-pdf-001": "本句指「定期給予某人，用於某項需要或個人開支的一筆金錢」。",
-        "allow-mcq-36": "「禁止 X」與本句語境不同。",
-        "allow-mcq-38": "「每週零用錢」與本句語境不同。",
-        "allow-mcq-35": "「最高容許」與本句語境不同。",
-        "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。",
-        "allow-mcq-34": "「獲准的」與本句語境不同。"
+        "allow-pdf-001": "本句的「allowance」指「定期給予某人，用於某項需要或個人開支的一筆金錢」。",
+        "allow-reviewed-8fbb75d2a8": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-pdf-001"
     },
@@ -4110,11 +3921,9 @@ export default {
       "masked": "Employees receive a travel ____.",
       "options": [
         "allow-pdf-001",
-        "allow-mcq-36",
-        "allow-mcq-38",
         "allow-mcq-35",
-        "allow-mcq-39",
-        "allow-mcq-34"
+        "allow-mcq-43",
+        "allow-mcq-56"
       ],
       "explanation": "本句的「allowance」指「定期給予某人，用於某項需要或個人開支的一筆金錢」。",
       "sentenceIndex": 90,
@@ -4123,12 +3932,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-pdf-001": "本句指「定期給予某人，用於某項需要或個人開支的一筆金錢」。",
-        "allow-mcq-36": "「禁止 X」與本句語境不同。",
-        "allow-mcq-38": "「每週零用錢」與本句語境不同。",
-        "allow-mcq-35": "「最高容許」與本句語境不同。",
-        "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。",
-        "allow-mcq-34": "「獲准的」與本句語境不同。"
+        "allow-pdf-001": "本句的「allowance」指「定期給予某人，用於某項需要或個人開支的一筆金錢」。",
+        "allow-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-pdf-001"
     },
@@ -4140,11 +3947,9 @@ export default {
       "masked": "His weekly ____ is $20.",
       "options": [
         "allow-mcq-38",
-        "allow-mcq-37",
-        "allow-mcq-39",
-        "allow-mcq-36",
-        "allow-mcq-40",
-        "allow-mcq-35"
+        "allow-mcq-50",
+        "allow-mcq-52",
+        "allow-mcq-44"
       ],
       "explanation": "本句的「allowance」指「每週零用錢」。",
       "sentenceIndex": 91,
@@ -4153,12 +3958,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-38": "本句指「每週零用錢」。",
-        "allow-mcq-37": "「津貼；零用錢」與本句語境不同。",
-        "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。",
-        "allow-mcq-36": "「禁止 X」與本句語境不同。",
-        "allow-mcq-40": "「房屋津貼」與本句語境不同。",
-        "allow-mcq-35": "「最高容許」與本句語境不同。"
+        "allow-mcq-38": "本句的「allowance」指「每週零用錢」。",
+        "allow-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-38"
     },
@@ -4170,11 +3973,9 @@ export default {
       "masked": "Staff receive a monthly ____ for transport.",
       "options": [
         "allow-mcq-38",
-        "allow-mcq-37",
-        "allow-mcq-39",
-        "allow-mcq-36",
-        "allow-mcq-40",
-        "allow-mcq-35"
+        "allow-reviewed-6f41fcc66c",
+        "allow-mcq-06",
+        "allow-mcq-17"
       ],
       "explanation": "本句的「allowance」指「每週零用錢」。",
       "sentenceIndex": 92,
@@ -4183,12 +3984,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-38": "本句指「每週零用錢」。",
-        "allow-mcq-37": "「津貼；零用錢」與本句語境不同。",
-        "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。",
-        "allow-mcq-36": "「禁止 X」與本句語境不同。",
-        "allow-mcq-40": "「房屋津貼」與本句語境不同。",
-        "allow-mcq-35": "「最高容許」與本句語境不同。"
+        "allow-mcq-38": "本句的「allowance」指「每週零用錢」。",
+        "allow-reviewed-6f41fcc66c": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-38"
     },
@@ -4200,11 +3999,9 @@ export default {
       "masked": "Children may receive a small ____ for personal spending.",
       "options": [
         "allow-mcq-38",
-        "allow-mcq-37",
-        "allow-mcq-39",
-        "allow-mcq-36",
-        "allow-mcq-40",
-        "allow-mcq-35"
+        "allow-mcq-24",
+        "allow-mcq-20",
+        "allow-mcq-43"
       ],
       "explanation": "本句的「allowance」指「每週零用錢」。",
       "sentenceIndex": 93,
@@ -4213,12 +4010,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-38": "本句指「每週零用錢」。",
-        "allow-mcq-37": "「津貼；零用錢」與本句語境不同。",
-        "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。",
-        "allow-mcq-36": "「禁止 X」與本句語境不同。",
-        "allow-mcq-40": "「房屋津貼」與本句語境不同。",
-        "allow-mcq-35": "「最高容許」與本句語境不同。"
+        "allow-mcq-38": "本句的「allowance」指「每週零用錢」。",
+        "allow-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-38"
     },
@@ -4230,11 +4025,9 @@ export default {
       "masked": "She saved part of her weekly ____.",
       "options": [
         "allow-mcq-38",
-        "allow-mcq-37",
-        "allow-mcq-39",
-        "allow-mcq-36",
-        "allow-mcq-40",
-        "allow-mcq-35"
+        "allow-mcq-19",
+        "allow-mcq-56",
+        "allow-mcq-55"
       ],
       "explanation": "本句的「allowance」指「每週零用錢」。",
       "sentenceIndex": 94,
@@ -4243,12 +4036,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-38": "本句指「每週零用錢」。",
-        "allow-mcq-37": "「津貼；零用錢」與本句語境不同。",
-        "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。",
-        "allow-mcq-36": "「禁止 X」與本句語境不同。",
-        "allow-mcq-40": "「房屋津貼」與本句語境不同。",
-        "allow-mcq-35": "「最高容許」與本句語境不同。"
+        "allow-mcq-38": "本句的「allowance」指「每週零用錢」。",
+        "allow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-38"
     },
@@ -4260,11 +4051,9 @@ export default {
       "masked": "The ____ covers part of the travel cost.",
       "options": [
         "allow-mcq-39",
-        "allow-mcq-38",
-        "allow-mcq-40",
-        "allow-mcq-37",
-        "allow-mcq-41",
-        "allow-mcq-36"
+        "allow-pdf-002",
+        "allow-mcq-50",
+        "allow-mcq-22"
       ],
       "explanation": "本句的「allowance」指「交通／旅遊津貼」。",
       "sentenceIndex": 95,
@@ -4273,12 +4062,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-39": "本句指「交通／旅遊津貼」。",
-        "allow-mcq-38": "「每週零用錢」與本句語境不同。",
-        "allow-mcq-40": "「房屋津貼」與本句語境不同。",
-        "allow-mcq-37": "「津貼；零用錢」與本句語境不同。",
-        "allow-mcq-41": "「膳食津貼」與本句語境不同。",
-        "allow-mcq-36": "「禁止 X」與本句語境不同。"
+        "allow-mcq-39": "本句的「allowance」指「交通／旅遊津貼」。",
+        "allow-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-39"
     },
@@ -4290,11 +4077,9 @@ export default {
       "masked": "The package includes a ____.",
       "options": [
         "allow-mcq-40",
-        "allow-mcq-39",
-        "allow-mcq-41",
-        "allow-mcq-38",
-        "allow-mcq-42",
-        "allow-mcq-37"
+        "allow-mcq-55",
+        "allow-mcq-51",
+        "allow-mcq-19"
       ],
       "explanation": "本句的「housing allowance」指「房屋津貼」。",
       "sentenceIndex": 96,
@@ -4303,12 +4088,10 @@ export default {
         "housing allowance"
       ],
       "optionReasons": {
-        "allow-mcq-40": "本句指「房屋津貼」。",
-        "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。",
-        "allow-mcq-41": "「膳食津貼」與本句語境不同。",
-        "allow-mcq-38": "「每週零用錢」與本句語境不同。",
-        "allow-mcq-42": "「行李限額」與本句語境不同。",
-        "allow-mcq-37": "「津貼；零用錢」與本句語境不同。"
+        "allow-mcq-40": "本句的「housing allowance」指「房屋津貼」。",
+        "allow-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-40"
     },
@@ -4320,11 +4103,9 @@ export default {
       "masked": "Senior employees may receive a housing ____.",
       "options": [
         "allow-mcq-40",
-        "allow-mcq-39",
-        "allow-mcq-41",
-        "allow-mcq-38",
-        "allow-mcq-42",
-        "allow-mcq-37"
+        "allow-mcq-09",
+        "allow-mcq-18",
+        "allow-mcq-06"
       ],
       "explanation": "本句的「allowance」指「房屋津貼」。",
       "sentenceIndex": 97,
@@ -4333,12 +4114,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-40": "本句指「房屋津貼」。",
-        "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。",
-        "allow-mcq-41": "「膳食津貼」與本句語境不同。",
-        "allow-mcq-38": "「每週零用錢」與本句語境不同。",
-        "allow-mcq-42": "「行李限額」與本句語境不同。",
-        "allow-mcq-37": "「津貼；零用錢」與本句語境不同。"
+        "allow-mcq-40": "本句的「allowance」指「房屋津貼」。",
+        "allow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-40"
     },
@@ -4350,11 +4129,9 @@ export default {
       "masked": "Staff working late receive a ____.",
       "options": [
         "allow-mcq-41",
-        "allow-mcq-40",
-        "allow-mcq-42",
-        "allow-mcq-39",
-        "allow-mcq-43",
-        "allow-mcq-38"
+        "allow-mcq-31",
+        "allow-mcq-23",
+        "allow-mcq-42"
       ],
       "explanation": "本句的「meal allowance」指「膳食津貼」。",
       "sentenceIndex": 98,
@@ -4363,12 +4140,10 @@ export default {
         "meal allowance"
       ],
       "optionReasons": {
-        "allow-mcq-41": "本句指「膳食津貼」。",
-        "allow-mcq-40": "「房屋津貼」與本句語境不同。",
-        "allow-mcq-42": "「行李限額」與本句語境不同。",
-        "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。",
-        "allow-mcq-43": "「免稅限額」與本句語境不同。",
-        "allow-mcq-38": "「每週零用錢」與本句語境不同。"
+        "allow-mcq-41": "本句的「meal allowance」指「膳食津貼」。",
+        "allow-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-41"
     },
@@ -4380,11 +4155,9 @@ export default {
       "masked": "The meal ____ is capped per day.",
       "options": [
         "allow-mcq-41",
-        "allow-mcq-40",
-        "allow-mcq-42",
-        "allow-mcq-39",
-        "allow-mcq-43",
-        "allow-mcq-38"
+        "allow-mcq-54",
+        "allow-mcq-45",
+        "allow-mcq-47"
       ],
       "explanation": "本句的「allowance」指「膳食津貼」。",
       "sentenceIndex": 99,
@@ -4393,74 +4166,68 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-41": "本句指「膳食津貼」。",
-        "allow-mcq-40": "「房屋津貼」與本句語境不同。",
-        "allow-mcq-42": "「行李限額」與本句語境不同。",
-        "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。",
-        "allow-mcq-43": "「免稅限額」與本句語境不同。",
-        "allow-mcq-38": "「每週零用錢」與本句語境不同。"
+        "allow-mcq-41": "本句的「allowance」指「膳食津貼」。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-41"
     },
     {
       "id": "allow-53-0",
-      "sense": "allow-mcq-41",
+      "sense": "allow-reviewed-328cabe2a5",
       "en": "Some employees receive a clothing allowance.",
       "zh": "部分員工可獲服裝津貼。",
       "masked": "Some employees receive a ____.",
       "options": [
-        "allow-mcq-41",
-        "allow-mcq-40",
-        "allow-mcq-42",
-        "allow-mcq-39",
-        "allow-mcq-43",
-        "allow-mcq-38"
+        "allow-reviewed-328cabe2a5",
+        "allow-mcq-47",
+        "allow-mcq-27",
+        "allow-mcq-46"
       ],
-      "explanation": "本句的「clothing allowance」指「膳食津貼」。",
+      "explanation": "對照完整句子：「部分員工可獲服裝津貼。」。這裡的「clothing allowance」表示「供購買服裝用的津貼」。",
       "sentenceIndex": 100,
       "sourcePractice": 1,
       "targets": [
         "clothing allowance"
       ],
       "optionReasons": {
-        "allow-mcq-41": "本句指「膳食津貼」。",
-        "allow-mcq-40": "「房屋津貼」與本句語境不同。",
-        "allow-mcq-42": "「行李限額」與本句語境不同。",
-        "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。",
-        "allow-mcq-43": "「免稅限額」與本句語境不同。",
-        "allow-mcq-38": "「每週零用錢」與本句語境不同。"
+        "allow-reviewed-328cabe2a5": "對照完整句子：「部分員工可獲服裝津貼。」。這裡的「clothing allowance」表示「供購買服裝用的津貼」。",
+        "allow-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-41"
+      "correctOption": "allow-reviewed-328cabe2a5",
+      "previousCorrectOption": "allow-mcq-41",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-53-1",
-      "sense": "allow-mcq-41",
+      "sense": "allow-reviewed-328cabe2a5",
       "en": "The allowance helps cover required work clothing.",
       "zh": "津貼用於補貼工作服裝費用。",
       "masked": "The ____ helps cover required work clothing.",
       "options": [
-        "allow-mcq-41",
-        "allow-mcq-40",
-        "allow-mcq-42",
-        "allow-mcq-39",
-        "allow-mcq-43",
-        "allow-mcq-38"
+        "allow-reviewed-328cabe2a5",
+        "allow-mcq-18",
+        "allow-reviewed-2688b6f2d8",
+        "allow-mcq-25"
       ],
-      "explanation": "本句的「allowance」指「膳食津貼」。",
+      "explanation": "對照完整句子：「津貼用於補貼工作服裝費用。」。這裡的「allowance」表示「供購買服裝用的津貼」。",
       "sentenceIndex": 101,
       "sourcePractice": 2,
       "targets": [
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-41": "本句指「膳食津貼」。",
-        "allow-mcq-40": "「房屋津貼」與本句語境不同。",
-        "allow-mcq-42": "「行李限額」與本句語境不同。",
-        "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。",
-        "allow-mcq-43": "「免稅限額」與本句語境不同。",
-        "allow-mcq-38": "「每週零用錢」與本句語境不同。"
+        "allow-reviewed-328cabe2a5": "對照完整句子：「津貼用於補貼工作服裝費用。」。這裡的「allowance」表示「供購買服裝用的津貼」。",
+        "allow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-2688b6f2d8": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-41"
+      "correctOption": "allow-reviewed-328cabe2a5",
+      "previousCorrectOption": "allow-mcq-41",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-54-0",
@@ -4470,11 +4237,9 @@ export default {
       "masked": "Check your ____ before flying.",
       "options": [
         "allow-mcq-42",
-        "allow-mcq-41",
-        "allow-mcq-43",
-        "allow-mcq-40",
-        "allow-mcq-44",
-        "allow-mcq-39"
+        "allow-reviewed-23b1cfd43e",
+        "allow-reviewed-328cabe2a5",
+        "allow-mcq-50"
       ],
       "explanation": "本句的「baggage allowance」指「行李限額」。",
       "sentenceIndex": 102,
@@ -4483,12 +4248,10 @@ export default {
         "baggage allowance"
       ],
       "optionReasons": {
-        "allow-mcq-42": "本句指「行李限額」。",
-        "allow-mcq-41": "「膳食津貼」與本句語境不同。",
-        "allow-mcq-43": "「免稅限額」與本句語境不同。",
-        "allow-mcq-40": "「房屋津貼」與本句語境不同。",
-        "allow-mcq-44": "「稅務免稅／扣減額」與本句語境不同。",
-        "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。"
+        "allow-mcq-42": "本句的「baggage allowance」指「行李限額」。",
+        "allow-reviewed-23b1cfd43e": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-328cabe2a5": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-42"
     },
@@ -4500,11 +4263,9 @@ export default {
       "masked": "The ticket includes a 23-kilogram baggage ____.",
       "options": [
         "allow-mcq-42",
-        "allow-mcq-41",
-        "allow-mcq-43",
-        "allow-mcq-40",
-        "allow-mcq-44",
-        "allow-mcq-39"
+        "allow-mcq-18",
+        "allow-reviewed-328cabe2a5",
+        "allow-mcq-28"
       ],
       "explanation": "本句的「allowance」指「行李限額」。",
       "sentenceIndex": 103,
@@ -4513,12 +4274,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-42": "本句指「行李限額」。",
-        "allow-mcq-41": "「膳食津貼」與本句語境不同。",
-        "allow-mcq-43": "「免稅限額」與本句語境不同。",
-        "allow-mcq-40": "「房屋津貼」與本句語境不同。",
-        "allow-mcq-44": "「稅務免稅／扣減額」與本句語境不同。",
-        "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。"
+        "allow-mcq-42": "本句的「allowance」指「行李限額」。",
+        "allow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-328cabe2a5": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-42"
     },
@@ -4530,11 +4289,9 @@ export default {
       "masked": "The airline reduced its ____.",
       "options": [
         "allow-mcq-42",
-        "allow-mcq-41",
-        "allow-mcq-43",
-        "allow-mcq-40",
-        "allow-mcq-44",
-        "allow-mcq-39"
+        "allow-pdf-001",
+        "allow-reviewed-d4b2f4d070",
+        "allow-mcq-22"
       ],
       "explanation": "本句的「carry-on allowance」指「行李限額」。",
       "sentenceIndex": 104,
@@ -4543,12 +4300,10 @@ export default {
         "carry-on allowance"
       ],
       "optionReasons": {
-        "allow-mcq-42": "本句指「行李限額」。",
-        "allow-mcq-41": "「膳食津貼」與本句語境不同。",
-        "allow-mcq-43": "「免稅限額」與本句語境不同。",
-        "allow-mcq-40": "「房屋津貼」與本句語境不同。",
-        "allow-mcq-44": "「稅務免稅／扣減額」與本句語境不同。",
-        "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。"
+        "allow-mcq-42": "本句的「carry-on allowance」指「行李限額」。",
+        "allow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-d4b2f4d070": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-42"
     },
@@ -4560,11 +4315,9 @@ export default {
       "masked": "Check the size as well as the weight ____.",
       "options": [
         "allow-mcq-42",
-        "allow-mcq-41",
-        "allow-mcq-43",
-        "allow-mcq-40",
-        "allow-mcq-44",
-        "allow-mcq-39"
+        "allow-reviewed-6f41fcc66c",
+        "allow-mcq-54",
+        "allow-mcq-50"
       ],
       "explanation": "本句的「allowance」指「行李限額」。",
       "sentenceIndex": 105,
@@ -4573,12 +4326,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-42": "本句指「行李限額」。",
-        "allow-mcq-41": "「膳食津貼」與本句語境不同。",
-        "allow-mcq-43": "「免稅限額」與本句語境不同。",
-        "allow-mcq-40": "「房屋津貼」與本句語境不同。",
-        "allow-mcq-44": "「稅務免稅／扣減額」與本句語境不同。",
-        "allow-mcq-39": "「交通／旅遊津貼」與本句語境不同。"
+        "allow-mcq-42": "本句的「allowance」指「行李限額」。",
+        "allow-reviewed-6f41fcc66c": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-42"
     },
@@ -4590,11 +4341,9 @@ export default {
       "masked": "Travellers should check their ____.",
       "options": [
         "allow-mcq-43",
-        "allow-mcq-42",
-        "allow-mcq-44",
-        "allow-mcq-41",
-        "allow-mcq-45",
-        "allow-mcq-40"
+        "allow-mcq-56",
+        "allow-mcq-48",
+        "allow-mcq-27"
       ],
       "explanation": "本句的「duty-free allowance」指「免稅限額」。",
       "sentenceIndex": 106,
@@ -4603,12 +4352,10 @@ export default {
         "duty-free allowance"
       ],
       "optionReasons": {
-        "allow-mcq-43": "本句指「免稅限額」。",
-        "allow-mcq-42": "「行李限額」與本句語境不同。",
-        "allow-mcq-44": "「稅務免稅／扣減額」與本句語境不同。",
-        "allow-mcq-41": "「膳食津貼」與本句語境不同。",
-        "allow-mcq-45": "「個人免稅額」與本句語境不同。",
-        "allow-mcq-40": "「房屋津貼」與本句語境不同。"
+        "allow-mcq-43": "本句的「duty-free allowance」指「免稅限額」。",
+        "allow-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-43"
     },
@@ -4620,11 +4367,9 @@ export default {
       "masked": "Goods above the ____ may need to be declared.",
       "options": [
         "allow-mcq-43",
-        "allow-mcq-42",
-        "allow-mcq-44",
-        "allow-mcq-41",
-        "allow-mcq-45",
-        "allow-mcq-40"
+        "allow-mcq-33",
+        "allow-mcq-57",
+        "allow-mcq-06"
       ],
       "explanation": "本句的「allowance」指「免稅限額」。",
       "sentenceIndex": 107,
@@ -4633,12 +4378,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-43": "本句指「免稅限額」。",
-        "allow-mcq-42": "「行李限額」與本句語境不同。",
-        "allow-mcq-44": "「稅務免稅／扣減額」與本句語境不同。",
-        "allow-mcq-41": "「膳食津貼」與本句語境不同。",
-        "allow-mcq-45": "「個人免稅額」與本句語境不同。",
-        "allow-mcq-40": "「房屋津貼」與本句語境不同。"
+        "allow-mcq-43": "本句的「allowance」指「免稅限額」。",
+        "allow-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-43"
     },
@@ -4650,11 +4393,9 @@ export default {
       "masked": "The taxpayer may qualify for a ____.",
       "options": [
         "allow-mcq-44",
-        "allow-mcq-43",
-        "allow-mcq-45",
-        "allow-mcq-42",
-        "allow-mcq-46",
-        "allow-mcq-41"
+        "allow-mcq-32",
+        "allow-reviewed-2688b6f2d8",
+        "allow-mcq-23"
       ],
       "explanation": "本句的「tax allowance」指「稅務免稅／扣減額」。",
       "sentenceIndex": 108,
@@ -4663,12 +4404,10 @@ export default {
         "tax allowance"
       ],
       "optionReasons": {
-        "allow-mcq-44": "本句指「稅務免稅／扣減額」。",
-        "allow-mcq-43": "「免稅限額」與本句語境不同。",
-        "allow-mcq-45": "「個人免稅額」與本句語境不同。",
-        "allow-mcq-42": "「行李限額」與本句語境不同。",
-        "allow-mcq-46": "「資本折讓」與本句語境不同。",
-        "allow-mcq-41": "「膳食津貼」與本句語境不同。"
+        "allow-mcq-44": "本句的「tax allowance」指「稅務免稅／扣減額」。",
+        "allow-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-2688b6f2d8": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-44"
     },
@@ -4680,11 +4419,9 @@ export default {
       "masked": "Tax ____ vary between tax systems.",
       "options": [
         "allow-mcq-44",
-        "allow-mcq-43",
-        "allow-mcq-45",
-        "allow-mcq-42",
-        "allow-mcq-46",
-        "allow-mcq-41"
+        "allow-reviewed-2310b9acef",
+        "allow-mcq-40",
+        "allow-mcq-06"
       ],
       "explanation": "本句的「allowances」指「稅務免稅／扣減額」。",
       "sentenceIndex": 109,
@@ -4693,12 +4430,10 @@ export default {
         "allowances"
       ],
       "optionReasons": {
-        "allow-mcq-44": "本句指「稅務免稅／扣減額」。",
-        "allow-mcq-43": "「免稅限額」與本句語境不同。",
-        "allow-mcq-45": "「個人免稅額」與本句語境不同。",
-        "allow-mcq-42": "「行李限額」與本句語境不同。",
-        "allow-mcq-46": "「資本折讓」與本句語境不同。",
-        "allow-mcq-41": "「膳食津貼」與本句語境不同。"
+        "allow-mcq-44": "本句的「allowances」指「稅務免稅／扣減額」。",
+        "allow-reviewed-2310b9acef": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-44"
     },
@@ -4710,11 +4445,9 @@ export default {
       "masked": "The system provides a ____.",
       "options": [
         "allow-mcq-45",
-        "allow-mcq-44",
-        "allow-mcq-46",
-        "allow-mcq-43",
-        "allow-mcq-47",
-        "allow-mcq-42"
+        "allow-mcq-12",
+        "allow-mcq-17",
+        "allow-mcq-57"
       ],
       "explanation": "本句的「personal allowance」指「個人免稅額」。",
       "sentenceIndex": 110,
@@ -4723,12 +4456,10 @@ export default {
         "personal allowance"
       ],
       "optionReasons": {
-        "allow-mcq-45": "本句指「個人免稅額」。",
-        "allow-mcq-44": "「稅務免稅／扣減額」與本句語境不同。",
-        "allow-mcq-46": "「資本折讓」與本句語境不同。",
-        "allow-mcq-43": "「免稅限額」與本句語境不同。",
-        "allow-mcq-47": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-42": "「行李限額」與本句語境不同。"
+        "allow-mcq-45": "本句的「personal allowance」指「個人免稅額」。",
+        "allow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-45"
     },
@@ -4740,11 +4471,9 @@ export default {
       "masked": "Businesses may claim ____ on qualifying assets.",
       "options": [
         "allow-mcq-46",
-        "allow-mcq-45",
-        "allow-mcq-47",
-        "allow-mcq-44",
-        "allow-mcq-48",
-        "allow-mcq-43"
+        "allow-mcq-39",
+        "allow-mcq-38",
+        "allow-mcq-27"
       ],
       "explanation": "本句的「capital allowances」指「資本折讓」。",
       "sentenceIndex": 111,
@@ -4753,12 +4482,10 @@ export default {
         "capital allowances"
       ],
       "optionReasons": {
-        "allow-mcq-46": "本句指「資本折讓」。",
-        "allow-mcq-45": "「個人免稅額」與本句語境不同。",
-        "allow-mcq-47": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-44": "「稅務免稅／扣減額」與本句語境不同。",
-        "allow-mcq-48": "「體諒某人」與本句語境不同。",
-        "allow-mcq-43": "「免稅限額」與本句語境不同。"
+        "allow-mcq-46": "本句的「capital allowances」指「資本折讓」。",
+        "allow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-46"
     },
@@ -4770,11 +4497,9 @@ export default {
       "masked": "Capital ____ rules depend on the tax system.",
       "options": [
         "allow-mcq-46",
-        "allow-mcq-45",
-        "allow-mcq-47",
-        "allow-mcq-44",
-        "allow-mcq-48",
-        "allow-mcq-43"
+        "allow-reviewed-328cabe2a5",
+        "allow-mcq-02",
+        "allow-mcq-44"
       ],
       "explanation": "本句的「allowance」指「資本折讓」。",
       "sentenceIndex": 112,
@@ -4783,12 +4508,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-46": "本句指「資本折讓」。",
-        "allow-mcq-45": "「個人免稅額」與本句語境不同。",
-        "allow-mcq-47": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-44": "「稅務免稅／扣減額」與本句語境不同。",
-        "allow-mcq-48": "「體諒某人」與本句語境不同。",
-        "allow-mcq-43": "「免稅限額」與本句語境不同。"
+        "allow-mcq-46": "本句的「allowance」指「資本折讓」。",
+        "allow-reviewed-328cabe2a5": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-46"
     },
@@ -4800,11 +4523,9 @@ export default {
       "masked": "We should ____.",
       "options": [
         "allow-mcq-47",
-        "allow-mcq-46",
-        "allow-mcq-48",
-        "allow-mcq-45",
+        "allow-mcq-25",
         "allow-mcq-49",
-        "allow-mcq-44"
+        "allow-mcq-06"
       ],
       "explanation": "本句的「make allowance for delivery delays」指「把 X 考慮在內」。",
       "sentenceIndex": 113,
@@ -4813,12 +4534,10 @@ export default {
         "make allowance for delivery delays"
       ],
       "optionReasons": {
-        "allow-mcq-47": "本句指「把 X 考慮在內」。",
-        "allow-mcq-46": "「資本折讓」與本句語境不同。",
-        "allow-mcq-48": "「體諒某人」與本句語境不同。",
-        "allow-mcq-45": "「個人免稅額」與本句語境不同。",
-        "allow-mcq-49": "「誤差預留量」與本句語境不同。",
-        "allow-mcq-44": "「稅務免稅／扣減額」與本句語境不同。"
+        "allow-mcq-47": "本句的「make allowance for delivery delays」指「把 X 考慮在內」。",
+        "allow-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-47"
     },
@@ -4830,11 +4549,9 @@ export default {
       "masked": "The size guide should make ____ for variation between fabrics.",
       "options": [
         "allow-mcq-47",
-        "allow-mcq-46",
-        "allow-mcq-48",
-        "allow-mcq-45",
-        "allow-mcq-49",
-        "allow-mcq-44"
+        "allow-mcq-57",
+        "allow-reviewed-d4b2f4d070",
+        "allow-mcq-41"
       ],
       "explanation": "本句的「allowance」指「把 X 考慮在內」。",
       "sentenceIndex": 114,
@@ -4843,12 +4560,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-47": "本句指「把 X 考慮在內」。",
-        "allow-mcq-46": "「資本折讓」與本句語境不同。",
-        "allow-mcq-48": "「體諒某人」與本句語境不同。",
-        "allow-mcq-45": "「個人免稅額」與本句語境不同。",
-        "allow-mcq-49": "「誤差預留量」與本句語境不同。",
-        "allow-mcq-44": "「稅務免稅／扣減額」與本句語境不同。"
+        "allow-mcq-47": "本句的「allowance」指「把 X 考慮在內」。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-d4b2f4d070": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-47"
     },
@@ -4860,11 +4575,9 @@ export default {
       "masked": "We should ____ while they are learning.",
       "options": [
         "allow-mcq-48",
-        "allow-mcq-47",
-        "allow-mcq-49",
-        "allow-mcq-46",
-        "allow-mcq-50",
-        "allow-mcq-45"
+        "allow-mcq-39",
+        "allow-mcq-31",
+        "allow-mcq-29"
       ],
       "explanation": "本句的「make allowances for new staff」指「體諒某人」。",
       "sentenceIndex": 115,
@@ -4873,12 +4586,10 @@ export default {
         "make allowances for new staff"
       ],
       "optionReasons": {
-        "allow-mcq-48": "本句指「體諒某人」。",
-        "allow-mcq-47": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-49": "「誤差預留量」與本句語境不同。",
-        "allow-mcq-46": "「資本折讓」與本句語境不同。",
-        "allow-mcq-50": "「加工餘量」與本句語境不同。",
-        "allow-mcq-45": "「個人免稅額」與本句語境不同。"
+        "allow-mcq-48": "本句的「make allowances for new staff」指「體諒某人」。",
+        "allow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-48"
     },
@@ -4890,11 +4601,9 @@ export default {
       "masked": "Her colleagues made ____ for her lack of experience.",
       "options": [
         "allow-mcq-48",
-        "allow-mcq-47",
-        "allow-mcq-49",
-        "allow-mcq-46",
-        "allow-mcq-50",
-        "allow-mcq-45"
+        "allow-reviewed-706a404e2a",
+        "allow-reviewed-2688b6f2d8",
+        "allow-mcq-50"
       ],
       "explanation": "本句的「allowances」指「體諒某人」。",
       "sentenceIndex": 116,
@@ -4903,12 +4612,10 @@ export default {
         "allowances"
       ],
       "optionReasons": {
-        "allow-mcq-48": "本句指「體諒某人」。",
-        "allow-mcq-47": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-49": "「誤差預留量」與本句語境不同。",
-        "allow-mcq-46": "「資本折讓」與本句語境不同。",
-        "allow-mcq-50": "「加工餘量」與本句語境不同。",
-        "allow-mcq-45": "「個人免稅額」與本句語境不同。"
+        "allow-mcq-48": "本句的「allowances」指「體諒某人」。",
+        "allow-reviewed-706a404e2a": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-2688b6f2d8": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-48"
     },
@@ -4920,11 +4627,9 @@ export default {
       "masked": "The calculation includes an ____.",
       "options": [
         "allow-mcq-49",
-        "allow-mcq-48",
-        "allow-mcq-50",
-        "allow-mcq-47",
-        "allow-mcq-51",
-        "allow-mcq-46"
+        "allow-reviewed-6f41fcc66c",
+        "allow-mcq-56",
+        "allow-mcq-44"
       ],
       "explanation": "本句的「allowance for error」指「誤差預留量」。",
       "sentenceIndex": 117,
@@ -4933,12 +4638,10 @@ export default {
         "allowance for error"
       ],
       "optionReasons": {
-        "allow-mcq-49": "本句指「誤差預留量」。",
-        "allow-mcq-48": "「體諒某人」與本句語境不同。",
-        "allow-mcq-50": "「加工餘量」與本句語境不同。",
-        "allow-mcq-47": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-51": "「縫份」與本句語境不同。",
-        "allow-mcq-46": "「資本折讓」與本句語境不同。"
+        "allow-mcq-49": "本句的「allowance for error」指「誤差預留量」。",
+        "allow-reviewed-6f41fcc66c": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-49"
     },
@@ -4950,11 +4653,9 @@ export default {
       "masked": "Build in an ____ for measurement uncertainty.",
       "options": [
         "allow-mcq-49",
-        "allow-mcq-48",
-        "allow-mcq-50",
         "allow-mcq-47",
-        "allow-mcq-51",
-        "allow-mcq-46"
+        "allow-mcq-03",
+        "allow-mcq-45"
       ],
       "explanation": "本句的「allowance」指「誤差預留量」。",
       "sentenceIndex": 118,
@@ -4963,12 +4664,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-49": "本句指「誤差預留量」。",
-        "allow-mcq-48": "「體諒某人」與本句語境不同。",
-        "allow-mcq-50": "「加工餘量」與本句語境不同。",
-        "allow-mcq-47": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-51": "「縫份」與本句語境不同。",
-        "allow-mcq-46": "「資本折讓」與本句語境不同。"
+        "allow-mcq-49": "本句的「allowance」指「誤差預留量」。",
+        "allow-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-49"
     },
@@ -4980,11 +4679,9 @@ export default {
       "masked": "The design includes a small ____.",
       "options": [
         "allow-mcq-49",
-        "allow-mcq-48",
-        "allow-mcq-50",
-        "allow-mcq-47",
-        "allow-mcq-51",
-        "allow-mcq-46"
+        "allow-mcq-55",
+        "allow-mcq-54",
+        "allow-mcq-42"
       ],
       "explanation": "本句的「allowance for expansion」指「誤差預留量」。",
       "sentenceIndex": 119,
@@ -4993,12 +4690,10 @@ export default {
         "allowance for expansion"
       ],
       "optionReasons": {
-        "allow-mcq-49": "本句指「誤差預留量」。",
-        "allow-mcq-48": "「體諒某人」與本句語境不同。",
-        "allow-mcq-50": "「加工餘量」與本句語境不同。",
-        "allow-mcq-47": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-51": "「縫份」與本句語境不同。",
-        "allow-mcq-46": "「資本折讓」與本句語境不同。"
+        "allow-mcq-49": "本句的「allowance for expansion」指「誤差預留量」。",
+        "allow-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-49"
     },
@@ -5010,11 +4705,9 @@ export default {
       "masked": "Add an ____ for waste when ordering material.",
       "options": [
         "allow-mcq-49",
-        "allow-mcq-48",
-        "allow-mcq-50",
-        "allow-mcq-47",
-        "allow-mcq-51",
-        "allow-mcq-46"
+        "allow-mcq-27",
+        "allow-mcq-40",
+        "allow-reviewed-2688b6f2d8"
       ],
       "explanation": "本句的「allowance」指「誤差預留量」。",
       "sentenceIndex": 120,
@@ -5023,12 +4716,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-49": "本句指「誤差預留量」。",
-        "allow-mcq-48": "「體諒某人」與本句語境不同。",
-        "allow-mcq-50": "「加工餘量」與本句語境不同。",
-        "allow-mcq-47": "「把 X 考慮在內」與本句語境不同。",
-        "allow-mcq-51": "「縫份」與本句語境不同。",
-        "allow-mcq-46": "「資本折讓」與本句語境不同。"
+        "allow-mcq-49": "本句的「allowance」指「誤差預留量」。",
+        "allow-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-2688b6f2d8": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-49"
     },
@@ -5040,11 +4731,9 @@ export default {
       "masked": "The part includes a ____.",
       "options": [
         "allow-mcq-50",
-        "allow-mcq-49",
-        "allow-mcq-51",
-        "allow-mcq-48",
-        "allow-mcq-52",
-        "allow-mcq-47"
+        "allow-mcq-56",
+        "allow-reviewed-2688b6f2d8",
+        "allow-mcq-01"
       ],
       "explanation": "本句的「machining allowance」指「加工餘量」。",
       "sentenceIndex": 121,
@@ -5053,12 +4742,10 @@ export default {
         "machining allowance"
       ],
       "optionReasons": {
-        "allow-mcq-50": "本句指「加工餘量」。",
-        "allow-mcq-49": "「誤差預留量」與本句語境不同。",
-        "allow-mcq-51": "「縫份」與本句語境不同。",
-        "allow-mcq-48": "「體諒某人」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。",
-        "allow-mcq-47": "「把 X 考慮在內」與本句語境不同。"
+        "allow-mcq-50": "本句的「machining allowance」指「加工餘量」。",
+        "allow-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-2688b6f2d8": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-50"
     },
@@ -5070,11 +4757,9 @@ export default {
       "masked": "Extra material is left as machining ____.",
       "options": [
         "allow-mcq-50",
-        "allow-mcq-49",
-        "allow-mcq-51",
-        "allow-mcq-48",
-        "allow-mcq-52",
-        "allow-mcq-47"
+        "allow-mcq-54",
+        "allow-mcq-38",
+        "allow-reviewed-328cabe2a5"
       ],
       "explanation": "本句的「allowance」指「加工餘量」。",
       "sentenceIndex": 122,
@@ -5083,12 +4768,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-50": "本句指「加工餘量」。",
-        "allow-mcq-49": "「誤差預留量」與本句語境不同。",
-        "allow-mcq-51": "「縫份」與本句語境不同。",
-        "allow-mcq-48": "「體諒某人」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。",
-        "allow-mcq-47": "「把 X 考慮在內」與本句語境不同。"
+        "allow-mcq-50": "本句的「allowance」指「加工餘量」。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-328cabe2a5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-50"
     },
@@ -5100,11 +4783,9 @@ export default {
       "masked": "Leave a ____ around the edge.",
       "options": [
         "allow-mcq-51",
-        "allow-mcq-50",
-        "allow-mcq-52",
-        "allow-mcq-49",
-        "allow-mcq-53",
-        "allow-mcq-48"
+        "allow-reviewed-6f41fcc66c",
+        "allow-mcq-23",
+        "allow-mcq-45"
       ],
       "explanation": "本句的「seam allowance」指「縫份」。",
       "sentenceIndex": 123,
@@ -5113,12 +4794,10 @@ export default {
         "seam allowance"
       ],
       "optionReasons": {
-        "allow-mcq-51": "本句指「縫份」。",
-        "allow-mcq-50": "「加工餘量」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。",
-        "allow-mcq-49": "「誤差預留量」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-48": "「體諒某人」與本句語境不同。"
+        "allow-mcq-51": "本句的「seam allowance」指「縫份」。",
+        "allow-reviewed-6f41fcc66c": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-51"
     },
@@ -5130,11 +4809,9 @@ export default {
       "masked": "The pattern includes a 1.5-centimetre seam ____.",
       "options": [
         "allow-mcq-51",
-        "allow-mcq-50",
-        "allow-mcq-52",
-        "allow-mcq-49",
-        "allow-mcq-53",
-        "allow-mcq-48"
+        "allow-mcq-48",
+        "allow-mcq-20",
+        "allow-mcq-12"
       ],
       "explanation": "本句的「allowance」指「縫份」。",
       "sentenceIndex": 124,
@@ -5143,12 +4820,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-51": "本句指「縫份」。",
-        "allow-mcq-50": "「加工餘量」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。",
-        "allow-mcq-49": "「誤差預留量」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-48": "「體諒某人」與本句語境不同。"
+        "allow-mcq-51": "本句的「allowance」指「縫份」。",
+        "allow-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-51"
     },
@@ -5160,11 +4835,9 @@ export default {
       "masked": "Check whether the pattern ____.",
       "options": [
         "allow-mcq-51",
-        "allow-mcq-50",
-        "allow-mcq-52",
-        "allow-mcq-49",
-        "allow-mcq-53",
-        "allow-mcq-48"
+        "allow-reviewed-2688b6f2d8",
+        "allow-mcq-03",
+        "allow-mcq-17"
       ],
       "explanation": "本句的「includes seam allowance」指「縫份」。",
       "sentenceIndex": 125,
@@ -5173,12 +4846,10 @@ export default {
         "includes seam allowance"
       ],
       "optionReasons": {
-        "allow-mcq-51": "本句指「縫份」。",
-        "allow-mcq-50": "「加工餘量」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。",
-        "allow-mcq-49": "「誤差預留量」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-48": "「體諒某人」與本句語境不同。"
+        "allow-mcq-51": "本句的「includes seam allowance」指「縫份」。",
+        "allow-reviewed-2688b6f2d8": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-51"
     },
@@ -5190,11 +4861,9 @@ export default {
       "masked": "Add seam ____ before cutting.",
       "options": [
         "allow-mcq-51",
-        "allow-mcq-50",
-        "allow-mcq-52",
-        "allow-mcq-49",
-        "allow-mcq-53",
-        "allow-mcq-48"
+        "allow-reviewed-2310b9acef",
+        "allow-reviewed-328cabe2a5",
+        "allow-mcq-16"
       ],
       "explanation": "本句的「allowance」指「縫份」。",
       "sentenceIndex": 126,
@@ -5203,12 +4872,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-51": "本句指「縫份」。",
-        "allow-mcq-50": "「加工餘量」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。",
-        "allow-mcq-49": "「誤差預留量」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-48": "「體諒某人」與本句語境不同。"
+        "allow-mcq-51": "本句的「allowance」指「縫份」。",
+        "allow-reviewed-2310b9acef": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-328cabe2a5": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-51"
     },
@@ -5220,11 +4887,9 @@ export default {
       "masked": "The company increased its ____.",
       "options": [
         "allow-mcq-52",
-        "allow-mcq-51",
-        "allow-mcq-53",
-        "allow-mcq-50",
-        "allow-mcq-54",
-        "allow-mcq-49"
+        "allow-mcq-21",
+        "allow-mcq-43",
+        "allow-pdf-001"
       ],
       "explanation": "本句的「allowance for doubtful accounts」指「呆帳準備／備抵」。",
       "sentenceIndex": 127,
@@ -5233,12 +4898,10 @@ export default {
         "allowance for doubtful accounts"
       ],
       "optionReasons": {
-        "allow-mcq-52": "本句指「呆帳準備／備抵」。",
-        "allow-mcq-51": "「縫份」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-50": "「加工餘量」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-49": "「誤差預留量」與本句語境不同。"
+        "allow-mcq-52": "本句的「allowance for doubtful accounts」指「呆帳準備／備抵」。",
+        "allow-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "allow-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-52"
     },
@@ -5250,11 +4913,9 @@ export default {
       "masked": "The ____ reflects expected amounts that may not be collected.",
       "options": [
         "allow-mcq-52",
-        "allow-mcq-51",
-        "allow-mcq-53",
-        "allow-mcq-50",
+        "allow-mcq-33",
         "allow-mcq-54",
-        "allow-mcq-49"
+        "allow-mcq-06"
       ],
       "explanation": "本句的「allowance」指「呆帳準備／備抵」。",
       "sentenceIndex": 128,
@@ -5263,12 +4924,10 @@ export default {
         "allowance"
       ],
       "optionReasons": {
-        "allow-mcq-52": "本句指「呆帳準備／備抵」。",
-        "allow-mcq-51": "「縫份」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-50": "「加工餘量」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-49": "「誤差預留量」與本句語境不同。"
+        "allow-mcq-52": "本句的「allowance」指「呆帳準備／備抵」。",
+        "allow-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-52"
     },
@@ -5280,11 +4939,9 @@ export default {
       "masked": "The policy ____.",
       "options": [
         "allow-pdf-002",
-        "allow-mcq-52",
-        "allow-mcq-54",
-        "allow-mcq-51",
-        "allow-mcq-55",
-        "allow-mcq-50"
+        "allow-mcq-06",
+        "allow-mcq-57",
+        "allow-mcq-39"
       ],
       "explanation": "本句的「disallows returns on worn items」指「正式判定 X 不獲准、不被接受或不符合規則」。",
       "sentenceIndex": 129,
@@ -5293,12 +4950,10 @@ export default {
         "disallows returns on worn items"
       ],
       "optionReasons": {
-        "allow-pdf-002": "本句指「正式判定 X 不獲准、不被接受或不符合規則」。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-51": "「縫份」與本句語境不同。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-50": "「加工餘量」與本句語境不同。"
+        "allow-pdf-002": "本句的「disallows returns on worn items」指「正式判定 X 不獲准、不被接受或不符合規則」。",
+        "allow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-pdf-002"
     },
@@ -5310,11 +4965,9 @@ export default {
       "masked": "The insurer ____ because evidence was insufficient.",
       "options": [
         "allow-mcq-54",
-        "allow-mcq-53",
-        "allow-mcq-55",
-        "allow-mcq-52",
-        "allow-mcq-56",
-        "allow-mcq-51"
+        "allow-reviewed-d4b2f4d070",
+        "allow-mcq-44",
+        "allow-mcq-47"
       ],
       "explanation": "本句的「disallowed the claim」指「駁回申索」。",
       "sentenceIndex": 130,
@@ -5323,12 +4976,10 @@ export default {
         "disallowed the claim"
       ],
       "optionReasons": {
-        "allow-mcq-54": "本句指「駁回申索」。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。",
-        "allow-mcq-56": "「判入球無效」與本句語境不同。",
-        "allow-mcq-51": "「縫份」與本句語境不同。"
+        "allow-mcq-54": "本句的「disallowed the claim」指「駁回申索」。",
+        "allow-reviewed-d4b2f4d070": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-54"
     },
@@ -5340,11 +4991,9 @@ export default {
       "masked": "The tax authority ____.",
       "options": [
         "allow-mcq-55",
-        "allow-mcq-54",
-        "allow-mcq-56",
-        "allow-mcq-53",
-        "allow-mcq-57",
-        "allow-mcq-52"
+        "allow-mcq-43",
+        "allow-mcq-40",
+        "allow-mcq-38"
       ],
       "explanation": "本句的「disallowed the expense」指「不認可扣除」。",
       "sentenceIndex": 131,
@@ -5353,12 +5002,10 @@ export default {
         "disallowed the expense"
       ],
       "optionReasons": {
-        "allow-mcq-55": "本句指「不認可扣除」。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-56": "「判入球無效」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-57": "「被對方得分」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。"
+        "allow-mcq-55": "本句的「disallowed the expense」指「不認可扣除」。",
+        "allow-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-55"
     },
@@ -5370,11 +5017,9 @@ export default {
       "masked": "The referee ____.",
       "options": [
         "allow-mcq-56",
-        "allow-mcq-55",
-        "allow-mcq-57",
-        "allow-mcq-54",
-        "allow-mcq-53",
-        "allow-mcq-52"
+        "allow-reviewed-23b1cfd43e",
+        "allow-mcq-08",
+        "allow-mcq-46"
       ],
       "explanation": "本句的「disallowed the goal」指「判入球無效」。",
       "sentenceIndex": 132,
@@ -5383,12 +5028,10 @@ export default {
         "disallowed the goal"
       ],
       "optionReasons": {
-        "allow-mcq-56": "本句指「判入球無效」。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-57": "「被對方得分」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。"
+        "allow-mcq-56": "本句的「disallowed the goal」指「判入球無效」。",
+        "allow-reviewed-23b1cfd43e": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-56"
     },
@@ -5400,11 +5043,9 @@ export default {
       "masked": "The team had two ____.",
       "options": [
         "allow-mcq-56",
-        "allow-mcq-55",
-        "allow-mcq-57",
-        "allow-mcq-54",
-        "allow-mcq-53",
-        "allow-mcq-52"
+        "allow-mcq-06",
+        "allow-mcq-19",
+        "allow-mcq-28"
       ],
       "explanation": "本句的「disallowed goals」指「判入球無效」。",
       "sentenceIndex": 133,
@@ -5413,12 +5054,10 @@ export default {
         "disallowed goals"
       ],
       "optionReasons": {
-        "allow-mcq-56": "本句指「判入球無效」。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-57": "「被對方得分」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。"
+        "allow-mcq-56": "本句的「disallowed goals」指「判入球無效」。",
+        "allow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-56"
     },
@@ -5430,11 +5069,9 @@ export default {
       "masked": "The team ____.",
       "options": [
         "allow-mcq-57",
-        "allow-mcq-56",
-        "allow-mcq-55",
-        "allow-mcq-54",
-        "allow-mcq-53",
-        "allow-mcq-52"
+        "allow-reviewed-d4b2f4d070",
+        "allow-mcq-19",
+        "allow-mcq-08"
       ],
       "explanation": "本句的「allowed three goals」指「被對方得分」。",
       "sentenceIndex": 134,
@@ -5443,12 +5080,10 @@ export default {
         "allowed three goals"
       ],
       "optionReasons": {
-        "allow-mcq-57": "本句指「被對方得分」。",
-        "allow-mcq-56": "「判入球無效」與本句語境不同。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。"
+        "allow-mcq-57": "本句的「allowed three goals」指「被對方得分」。",
+        "allow-reviewed-d4b2f4d070": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-57"
     },
@@ -5460,11 +5095,9 @@ export default {
       "masked": "The pitcher ____ only two hits.",
       "options": [
         "allow-mcq-57",
-        "allow-mcq-56",
-        "allow-mcq-55",
-        "allow-mcq-54",
-        "allow-mcq-53",
-        "allow-mcq-52"
+        "allow-reviewed-706a404e2a",
+        "allow-mcq-46",
+        "allow-mcq-43"
       ],
       "explanation": "本句的「allowed」指「被對方得分」。",
       "sentenceIndex": 135,
@@ -5473,74 +5106,68 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-57": "本句指「被對方得分」。",
-        "allow-mcq-56": "「判入球無效」與本句語境不同。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。"
+        "allow-mcq-57": "本句的「allowed」指「被對方得分」。",
+        "allow-reviewed-706a404e2a": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-57"
     },
     {
       "id": "allow-77-0",
-      "sense": "allow-mcq-57",
+      "sense": "allow-reviewed-706a404e2a",
       "en": "Food is not allowed in the warehouse.",
       "zh": "倉庫內禁止飲食。",
       "masked": "Food is not ____ in the warehouse.",
       "options": [
-        "allow-mcq-57",
-        "allow-mcq-56",
-        "allow-mcq-55",
-        "allow-mcq-54",
-        "allow-mcq-53",
-        "allow-mcq-52"
+        "allow-reviewed-706a404e2a",
+        "allow-mcq-38",
+        "allow-pdf-001",
+        "allow-mcq-51"
       ],
-      "explanation": "本句的「allowed」指「被對方得分」。",
+      "explanation": "對照完整句子：「倉庫內禁止飲食。」。這裡的「allowed」表示「准許在某個地方或場合進入、使用或出現」。",
       "sentenceIndex": 139,
       "sourcePractice": 1,
       "targets": [
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-57": "本句指「被對方得分」。",
-        "allow-mcq-56": "「判入球無效」與本句語境不同。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。"
+        "allow-reviewed-706a404e2a": "對照完整句子：「倉庫內禁止飲食。」。這裡的「allowed」表示「准許在某個地方或場合進入、使用或出現」。",
+        "allow-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "allow-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-57"
+      "correctOption": "allow-reviewed-706a404e2a",
+      "previousCorrectOption": "allow-mcq-57",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-77-1",
-      "sense": "allow-mcq-57",
+      "sense": "allow-reviewed-706a404e2a",
       "en": "Customers are allowed in the fitting area.",
       "zh": "顧客可以進入試身區。",
       "masked": "Customers are ____ in the fitting area.",
       "options": [
-        "allow-mcq-57",
-        "allow-mcq-56",
-        "allow-mcq-55",
-        "allow-mcq-54",
-        "allow-mcq-53",
+        "allow-reviewed-706a404e2a",
+        "allow-mcq-18",
+        "allow-mcq-23",
         "allow-mcq-52"
       ],
-      "explanation": "本句的「allowed」指「被對方得分」。",
+      "explanation": "對照完整句子：「顧客可以進入試身區。」。這裡的「allowed」表示「准許在某個地方或場合進入、使用或出現」。",
       "sentenceIndex": 140,
       "sourcePractice": 2,
       "targets": [
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-57": "本句指「被對方得分」。",
-        "allow-mcq-56": "「判入球無效」與本句語境不同。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。"
+        "allow-reviewed-706a404e2a": "對照完整句子：「顧客可以進入試身區。」。這裡的「allowed」表示「准許在某個地方或場合進入、使用或出現」。",
+        "allow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-57"
+      "correctOption": "allow-reviewed-706a404e2a",
+      "previousCorrectOption": "allow-mcq-57",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-78-0",
@@ -5550,11 +5177,9 @@ export default {
       "masked": "Customers should not necessarily ____.",
       "options": [
         "allow-mcq-01",
-        "allow-mcq-02",
-        "allow-mcq-03",
-        "allow-mcq-04",
-        "allow-mcq-05",
-        "allow-mcq-06"
+        "allow-mcq-29",
+        "allow-mcq-20",
+        "allow-mcq-19"
       ],
       "explanation": "本句的「be allowed to change their minds without limit」指「允許某人做 X」。",
       "sentenceIndex": 141,
@@ -5563,12 +5188,10 @@ export default {
         "be allowed to change their minds without limit"
       ],
       "optionReasons": {
-        "allow-mcq-01": "本句指「允許某人做 X」。",
-        "allow-mcq-02": "「獲准做 X」與本句語境不同。",
-        "allow-mcq-03": "「不得做 X」與本句語境不同。",
-        "allow-mcq-04": "「准許某人獲得 X」與本句語境不同。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。"
+        "allow-mcq-01": "本句的「be allowed to change their minds without limit」指「允許某人做 X」。",
+        "allow-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-01"
     },
@@ -5580,11 +5203,9 @@ export default {
       "masked": "A fair policy can ____ customers to change their minds within defined limits.",
       "options": [
         "allow-mcq-01",
-        "allow-mcq-02",
-        "allow-mcq-03",
-        "allow-mcq-04",
-        "allow-mcq-05",
-        "allow-mcq-06"
+        "allow-mcq-39",
+        "allow-mcq-19",
+        "allow-mcq-50"
       ],
       "explanation": "本句的「allow」指「允許某人做 X」。",
       "sentenceIndex": 142,
@@ -5593,12 +5214,10 @@ export default {
         "allow"
       ],
       "optionReasons": {
-        "allow-mcq-01": "本句指「允許某人做 X」。",
-        "allow-mcq-02": "「獲准做 X」與本句語境不同。",
-        "allow-mcq-03": "「不得做 X」與本句語境不同。",
-        "allow-mcq-04": "「准許某人獲得 X」與本句語境不同。",
-        "allow-mcq-05": "「准許換貨一次」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。"
+        "allow-mcq-01": "本句的「allow」指「允許某人做 X」。",
+        "allow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-01"
     },
@@ -5610,11 +5229,9 @@ export default {
       "masked": "Customers should ____.",
       "options": [
         "allow-mcq-05",
-        "allow-mcq-04",
-        "allow-mcq-06",
-        "allow-mcq-03",
-        "allow-mcq-07",
-        "allow-mcq-02"
+        "allow-mcq-08",
+        "allow-mcq-46",
+        "allow-mcq-45"
       ],
       "explanation": "本句的「be allowed one exchange for size or colour」指「准許換貨一次」。",
       "sentenceIndex": 143,
@@ -5623,12 +5240,10 @@ export default {
         "be allowed one exchange for size or colour"
       ],
       "optionReasons": {
-        "allow-mcq-05": "本句指「准許換貨一次」。",
-        "allow-mcq-04": "「准許某人獲得 X」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。",
-        "allow-mcq-03": "「不得做 X」與本句語境不同。",
-        "allow-mcq-07": "「准許自己享用 X」與本句語境不同。",
-        "allow-mcq-02": "「獲准做 X」與本句語境不同。"
+        "allow-mcq-05": "本句的「be allowed one exchange for size or colour」指「准許換貨一次」。",
+        "allow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-05"
     },
@@ -5640,11 +5255,9 @@ export default {
       "masked": "Each order is ____ one discretionary exchange.",
       "options": [
         "allow-mcq-05",
-        "allow-mcq-04",
-        "allow-mcq-06",
-        "allow-mcq-03",
-        "allow-mcq-07",
-        "allow-mcq-02"
+        "allow-mcq-56",
+        "allow-mcq-57",
+        "allow-mcq-29"
       ],
       "explanation": "本句的「allowed」指「准許換貨一次」。",
       "sentenceIndex": 144,
@@ -5653,314 +5266,292 @@ export default {
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-05": "本句指「准許換貨一次」。",
-        "allow-mcq-04": "「准許某人獲得 X」與本句語境不同。",
-        "allow-mcq-06": "「給某人時間」與本句語境不同。",
-        "allow-mcq-03": "「不得做 X」與本句語境不同。",
-        "allow-mcq-07": "「准許自己享用 X」與本句語境不同。",
-        "allow-mcq-02": "「獲准做 X」與本句語境不同。"
+        "allow-mcq-05": "本句的「allowed」指「准許換貨一次」。",
+        "allow-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "allow-mcq-05"
     },
     {
       "id": "allow-81-0",
-      "sense": "allow-mcq-57",
+      "sense": "allow-reviewed-1a7da27dfe",
       "en": "Returns should be allowed only if the item is unworn.",
       "zh": "只有商品未穿過才應准許退貨。",
       "masked": "Returns should be ____.",
       "options": [
-        "allow-mcq-57",
-        "allow-mcq-56",
-        "allow-mcq-55",
-        "allow-mcq-54",
-        "allow-mcq-53",
-        "allow-mcq-52"
+        "allow-reviewed-1a7da27dfe",
+        "allow-mcq-48",
+        "allow-mcq-20",
+        "allow-reviewed-2688b6f2d8"
       ],
-      "explanation": "本句的「allowed only if the item is unworn」指「被對方得分」。",
+      "explanation": "對照完整句子：「只有商品未穿過才應准許退貨。」。這裡的「allowed only if the item is unworn」表示「只有符合指定條件才准許」。",
       "sentenceIndex": 145,
       "sourcePractice": 1,
       "targets": [
         "allowed only if the item is unworn"
       ],
       "optionReasons": {
-        "allow-mcq-57": "本句指「被對方得分」。",
-        "allow-mcq-56": "「判入球無效」與本句語境不同。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。"
+        "allow-reviewed-1a7da27dfe": "對照完整句子：「只有商品未穿過才應准許退貨。」。這裡的「allowed only if the item is unworn」表示「只有符合指定條件才准許」。",
+        "allow-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-2688b6f2d8": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-57"
+      "correctOption": "allow-reviewed-1a7da27dfe",
+      "previousCorrectOption": "allow-mcq-57",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-81-1",
-      "sense": "allow-mcq-57",
+      "sense": "allow-reviewed-1a7da27dfe",
       "en": "Refunds are allowed only when the item is defective.",
       "zh": "只有商品有缺陷時才容許退款。",
       "masked": "Refunds are ____ only when the item is defective.",
       "options": [
-        "allow-mcq-57",
-        "allow-mcq-56",
-        "allow-mcq-55",
-        "allow-mcq-54",
-        "allow-mcq-53",
-        "allow-mcq-52"
+        "allow-reviewed-1a7da27dfe",
+        "allow-mcq-17",
+        "allow-mcq-38",
+        "allow-mcq-56"
       ],
-      "explanation": "本句的「allowed」指「被對方得分」。",
+      "explanation": "對照完整句子：「只有商品有缺陷時才容許退款。」。這裡的「allowed」表示「只有符合指定條件才准許」。",
       "sentenceIndex": 146,
       "sourcePractice": 2,
       "targets": [
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-57": "本句指「被對方得分」。",
-        "allow-mcq-56": "「判入球無效」與本句語境不同。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。"
+        "allow-reviewed-1a7da27dfe": "對照完整句子：「只有商品有缺陷時才容許退款。」。這裡的「allowed」表示「只有符合指定條件才准許」。",
+        "allow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-57"
+      "correctOption": "allow-reviewed-1a7da27dfe",
+      "previousCorrectOption": "allow-mcq-57",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-82-0",
-      "sense": "allow-mcq-57",
+      "sense": "allow-reviewed-2cba6a852c",
       "en": "Exchanges may be allowed subject to inspection.",
       "zh": "換貨可以在須先檢查的條件下獲准。",
       "masked": "Exchanges may be allowed ____.",
       "options": [
-        "allow-mcq-57",
-        "allow-mcq-56",
-        "allow-mcq-55",
-        "allow-mcq-54",
-        "allow-mcq-53",
-        "allow-mcq-52"
+        "allow-reviewed-2cba6a852c",
+        "allow-mcq-48",
+        "allow-mcq-22",
+        "allow-mcq-54"
       ],
-      "explanation": "本句的「subject to inspection」指「被對方得分」。",
+      "explanation": "對照完整句子：「換貨可以在須先檢查的條件下獲准。」。這裡的「subject to inspection」表示「在附帶條件下准許」。",
       "sentenceIndex": 147,
       "sourcePractice": 1,
       "targets": [
         "subject to inspection"
       ],
       "optionReasons": {
-        "allow-mcq-57": "本句指「被對方得分」。",
-        "allow-mcq-56": "「判入球無效」與本句語境不同。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。"
+        "allow-reviewed-2cba6a852c": "對照完整句子：「換貨可以在須先檢查的條件下獲准。」。這裡的「subject to inspection」表示「在附帶條件下准許」。",
+        "allow-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-57"
+      "correctOption": "allow-reviewed-2cba6a852c",
+      "previousCorrectOption": "allow-mcq-57",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-82-1",
-      "sense": "allow-mcq-57",
+      "sense": "allow-reviewed-2cba6a852c",
       "en": "Returns are allowed subject to the stated conditions.",
       "zh": "退貨須符合列明條件才獲准。",
       "masked": "Returns are ____ subject to the stated conditions.",
       "options": [
+        "allow-reviewed-2cba6a852c",
         "allow-mcq-57",
         "allow-mcq-56",
-        "allow-mcq-55",
-        "allow-mcq-54",
-        "allow-mcq-53",
-        "allow-mcq-52"
+        "allow-mcq-51"
       ],
-      "explanation": "本句的「allowed」指「被對方得分」。",
+      "explanation": "對照完整句子：「退貨須符合列明條件才獲准。」。這裡的「allowed」表示「在附帶條件下准許」。",
       "sentenceIndex": 148,
       "sourcePractice": 2,
       "targets": [
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-57": "本句指「被對方得分」。",
-        "allow-mcq-56": "「判入球無效」與本句語境不同。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。"
+        "allow-reviewed-2cba6a852c": "對照完整句子：「退貨須符合列明條件才獲准。」。這裡的「allowed」表示「在附帶條件下准許」。",
+        "allow-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-57"
+      "correctOption": "allow-reviewed-2cba6a852c",
+      "previousCorrectOption": "allow-mcq-57",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-84-0",
-      "sense": "allow-mcq-57",
+      "sense": "allow-reviewed-2688b6f2d8",
       "en": "Management should not allow complaints to accumulate.",
       "zh": "管理層不應讓投訴不斷累積。",
       "masked": "Management should not ____.",
       "options": [
-        "allow-mcq-57",
-        "allow-mcq-56",
-        "allow-mcq-55",
-        "allow-mcq-54",
-        "allow-mcq-53",
-        "allow-mcq-52"
+        "allow-reviewed-2688b6f2d8",
+        "allow-mcq-42",
+        "allow-reviewed-328cabe2a5",
+        "allow-mcq-04"
       ],
-      "explanation": "本句的「allow complaints to accumulate」指「被對方得分」。",
+      "explanation": "對照完整句子：「管理層不應讓投訴不斷累積。」。這裡的「allow complaints to accumulate」表示「讓問題持續」。",
       "sentenceIndex": 151,
       "sourcePractice": 1,
       "targets": [
         "allow complaints to accumulate"
       ],
       "optionReasons": {
-        "allow-mcq-57": "本句指「被對方得分」。",
-        "allow-mcq-56": "「判入球無效」與本句語境不同。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。"
+        "allow-reviewed-2688b6f2d8": "對照完整句子：「管理層不應讓投訴不斷累積。」。這裡的「allow complaints to accumulate」表示「讓問題持續」。",
+        "allow-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "allow-reviewed-328cabe2a5": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-57"
+      "correctOption": "allow-reviewed-2688b6f2d8",
+      "previousCorrectOption": "allow-mcq-57",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-84-1",
-      "sense": "allow-mcq-57",
+      "sense": "allow-reviewed-2688b6f2d8",
       "en": "Weak controls allowed return abuse to continue.",
       "zh": "薄弱的控制措施令退貨濫用得以持續。",
       "masked": "Weak controls ____ return abuse to continue.",
       "options": [
-        "allow-mcq-57",
-        "allow-mcq-56",
-        "allow-mcq-55",
-        "allow-mcq-54",
-        "allow-mcq-53",
-        "allow-mcq-52"
+        "allow-reviewed-2688b6f2d8",
+        "allow-reviewed-706a404e2a",
+        "allow-mcq-42",
+        "allow-mcq-51"
       ],
-      "explanation": "本句的「allowed」指「被對方得分」。",
+      "explanation": "對照完整句子：「薄弱的控制措施令退貨濫用得以持續。」。這裡的「allowed」表示「讓問題持續」。",
       "sentenceIndex": 152,
       "sourcePractice": 2,
       "targets": [
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-57": "本句指「被對方得分」。",
-        "allow-mcq-56": "「判入球無效」與本句語境不同。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。"
+        "allow-reviewed-2688b6f2d8": "對照完整句子：「薄弱的控制措施令退貨濫用得以持續。」。這裡的「allowed」表示「讓問題持續」。",
+        "allow-reviewed-706a404e2a": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-57"
+      "correctOption": "allow-reviewed-2688b6f2d8",
+      "previousCorrectOption": "allow-mcq-57",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-85-0",
-      "sense": "allow-mcq-57",
+      "sense": "allow-reviewed-2310b9acef",
       "en": "We should not allow a minor sizing issue to become a major dispute.",
       "zh": "我們不應讓小小的尺碼問題演變成重大爭議。",
       "masked": "We should not ____.",
       "options": [
-        "allow-mcq-57",
-        "allow-mcq-56",
-        "allow-mcq-55",
-        "allow-mcq-54",
-        "allow-mcq-53",
-        "allow-mcq-52"
+        "allow-reviewed-2310b9acef",
+        "allow-mcq-08",
+        "allow-mcq-06",
+        "allow-mcq-39"
       ],
-      "explanation": "本句的「allow a minor sizing issue to become a major dispute」指「被對方得分」。",
+      "explanation": "對照完整句子：「我們不應讓小小的尺碼問題演變成重大爭議。」。這裡的「allow a minor sizing issue to become a major dispute」表示「讓某事變成另一種狀態」。",
       "sentenceIndex": 153,
       "sourcePractice": 1,
       "targets": [
         "allow a minor sizing issue to become a major dispute"
       ],
       "optionReasons": {
-        "allow-mcq-57": "本句指「被對方得分」。",
-        "allow-mcq-56": "「判入球無效」與本句語境不同。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。"
+        "allow-reviewed-2310b9acef": "對照完整句子：「我們不應讓小小的尺碼問題演變成重大爭議。」。這裡的「allow a minor sizing issue to become a major dispute」表示「讓某事變成另一種狀態」。",
+        "allow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-57"
+      "correctOption": "allow-reviewed-2310b9acef",
+      "previousCorrectOption": "allow-mcq-57",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-85-1",
-      "sense": "allow-mcq-57",
+      "sense": "allow-reviewed-2310b9acef",
       "en": "Poor communication allowed frustration to become distrust.",
       "zh": "溝通不足讓挫折感演變成不信任。",
       "masked": "Poor communication ____ frustration to become distrust.",
       "options": [
-        "allow-mcq-57",
-        "allow-mcq-56",
-        "allow-mcq-55",
-        "allow-mcq-54",
-        "allow-mcq-53",
-        "allow-mcq-52"
+        "allow-reviewed-2310b9acef",
+        "allow-mcq-18",
+        "allow-mcq-38",
+        "allow-mcq-39"
       ],
-      "explanation": "本句的「allowed」指「被對方得分」。",
+      "explanation": "對照完整句子：「溝通不足讓挫折感演變成不信任。」。這裡的「allowed」表示「讓某事變成另一種狀態」。",
       "sentenceIndex": 154,
       "sourcePractice": 2,
       "targets": [
         "allowed"
       ],
       "optionReasons": {
-        "allow-mcq-57": "本句指「被對方得分」。",
-        "allow-mcq-56": "「判入球無效」與本句語境不同。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。"
+        "allow-reviewed-2310b9acef": "對照完整句子：「溝通不足讓挫折感演變成不信任。」。這裡的「allowed」表示「讓某事變成另一種狀態」。",
+        "allow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-57"
+      "correctOption": "allow-reviewed-2310b9acef",
+      "previousCorrectOption": "allow-mcq-57",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-86-0",
-      "sense": "allow-mcq-57",
+      "sense": "allow-reviewed-23b1cfd43e",
       "en": "The current policy allows distrust to remain unresolved.",
       "zh": "現有政策讓不信任持續存在。",
       "masked": "The current policy ____ distrust to remain unresolved.",
       "options": [
-        "allow-mcq-57",
-        "allow-mcq-56",
-        "allow-mcq-55",
-        "allow-mcq-54",
-        "allow-mcq-53",
-        "allow-mcq-52"
+        "allow-reviewed-23b1cfd43e",
+        "allow-mcq-42",
+        "allow-mcq-19",
+        "allow-mcq-29"
       ],
-      "explanation": "本句的「allows」指「被對方得分」。",
+      "explanation": "對照完整句子：「現有政策讓不信任持續存在。」。這裡的「allows」表示「讓某事保持原有狀態」。",
       "sentenceIndex": 155,
       "sourcePractice": 1,
       "targets": [
         "allows"
       ],
       "optionReasons": {
-        "allow-mcq-57": "本句指「被對方得分」。",
-        "allow-mcq-56": "「判入球無效」與本句語境不同。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。"
+        "allow-reviewed-23b1cfd43e": "對照完整句子：「現有政策讓不信任持續存在。」。這裡的「allows」表示「讓某事保持原有狀態」。",
+        "allow-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-57"
+      "correctOption": "allow-reviewed-23b1cfd43e",
+      "previousCorrectOption": "allow-mcq-57",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "allow-86-1",
-      "sense": "allow-mcq-57",
+      "sense": "allow-reviewed-23b1cfd43e",
       "en": "Good procedures should not allow defective goods to remain in circulation.",
       "zh": "良好程序不應讓有缺陷商品繼續流通。",
       "masked": "Good procedures should not ____ defective goods to remain in circulation.",
       "options": [
-        "allow-mcq-57",
+        "allow-reviewed-23b1cfd43e",
         "allow-mcq-56",
-        "allow-mcq-55",
-        "allow-mcq-54",
-        "allow-mcq-53",
-        "allow-mcq-52"
+        "allow-mcq-22",
+        "allow-mcq-17"
       ],
-      "explanation": "本句的「allow」指「被對方得分」。",
+      "explanation": "對照完整句子：「良好程序不應讓有缺陷商品繼續流通。」。這裡的「allow」表示「讓某事保持原有狀態」。",
       "sentenceIndex": 156,
       "sourcePractice": 2,
       "targets": [
         "allow"
       ],
       "optionReasons": {
-        "allow-mcq-57": "本句指「被對方得分」。",
-        "allow-mcq-56": "「判入球無效」與本句語境不同。",
-        "allow-mcq-55": "「不認可扣除」與本句語境不同。",
-        "allow-mcq-54": "「駁回申索」與本句語境不同。",
-        "allow-mcq-53": "「不准許；駁回」與本句語境不同。",
-        "allow-mcq-52": "「呆帳準備／備抵」與本句語境不同。"
+        "allow-reviewed-23b1cfd43e": "對照完整句子：「良好程序不應讓有缺陷商品繼續流通。」。這裡的「allow」表示「讓某事保持原有狀態」。",
+        "allow-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "allow-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "allow-mcq-57"
+      "correctOption": "allow-reviewed-23b1cfd43e",
+      "previousCorrectOption": "allow-mcq-57",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     }
   ],
   "comparisons": [],
@@ -5970,5 +5561,7 @@ export default {
     "sha256": "24fd48b9e16a5deb2e8dd829a2255273f152dc178583e11d1d5519a8216f49d9",
     "pages": 60
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

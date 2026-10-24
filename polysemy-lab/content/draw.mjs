@@ -678,11 +678,9 @@ export default {
       "masked": "He can spend hours ____.",
       "options": [
         "draw-mcq-01",
-        "draw-mcq-02",
-        "draw-mcq-03",
-        "draw-mcq-04",
-        "draw-mcq-05",
-        "draw-mcq-06"
+        "draw-mcq-24",
+        "draw-mcq-21",
+        "draw-mcq-08"
       ],
       "explanation": "本句的「drawing imaginary cities」指「用筆、鉛筆等在平面上畫出圖像、形狀或物件」。",
       "sentenceIndex": 0,
@@ -691,12 +689,10 @@ export default {
         "drawing imaginary cities"
       ],
       "optionReasons": {
-        "draw-mcq-01": "本句指「用筆、鉛筆等在平面上畫出圖像、形狀或物件」。",
-        "draw-mcq-02": "「畫出線條、輪廓或幾何形狀」是「draw — line/shape」的用法，與本句語境不同。",
-        "draw-mcq-03": "「把設計、結構或構想以圖像形式表示出來」是「draw — design/sketch」的用法，與本句語境不同。",
-        "draw-mcq-04": "「把某物拉向某個方向」是「draw — pull」的用法，與本句語境不同。",
-        "draw-mcq-05": "「從容器、套子或某來源中把某物取出」是「draw — extract/remove」的用法，與本句語境不同。",
-        "draw-mcq-06": "「從某個來源抽取水、血液等液體」是「draw — liquid」的用法，與本句語境不同。"
+        "draw-mcq-01": "本句的「drawing imaginary cities」指「用筆、鉛筆等在平面上畫出圖像、形狀或物件」。",
+        "draw-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-01"
     },
@@ -708,11 +704,9 @@ export default {
       "masked": "She likes to ____ animals.",
       "options": [
         "draw-mcq-01",
-        "draw-mcq-02",
-        "draw-mcq-03",
+        "draw-mcq-19",
         "draw-mcq-04",
-        "draw-mcq-05",
-        "draw-mcq-06"
+        "draw-mcq-24"
       ],
       "explanation": "本句的「draw」指「用筆、鉛筆等在平面上畫出圖像、形狀或物件」。",
       "sentenceIndex": 1,
@@ -721,12 +715,10 @@ export default {
         "draw"
       ],
       "optionReasons": {
-        "draw-mcq-01": "本句指「用筆、鉛筆等在平面上畫出圖像、形狀或物件」。",
-        "draw-mcq-02": "「畫出線條、輪廓或幾何形狀」是「draw — line/shape」的用法，與本句語境不同。",
-        "draw-mcq-03": "「把設計、結構或構想以圖像形式表示出來」是「draw — design/sketch」的用法，與本句語境不同。",
-        "draw-mcq-04": "「把某物拉向某個方向」是「draw — pull」的用法，與本句語境不同。",
-        "draw-mcq-05": "「從容器、套子或某來源中把某物取出」是「draw — extract/remove」的用法，與本句語境不同。",
-        "draw-mcq-06": "「從某個來源抽取水、血液等液體」是「draw — liquid」的用法，與本句語境不同。"
+        "draw-mcq-01": "本句的「draw」指「用筆、鉛筆等在平面上畫出圖像、形狀或物件」。",
+        "draw-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-01"
     },
@@ -738,11 +730,9 @@ export default {
       "masked": "The child ____ a house with a garden.",
       "options": [
         "draw-mcq-01",
-        "draw-mcq-02",
-        "draw-mcq-03",
-        "draw-mcq-04",
-        "draw-mcq-05",
-        "draw-mcq-06"
+        "draw-mcq-11",
+        "draw-mcq-16",
+        "draw-mcq-21"
       ],
       "explanation": "本句的「drew」指「用筆、鉛筆等在平面上畫出圖像、形狀或物件」。",
       "sentenceIndex": 2,
@@ -751,12 +741,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-01": "本句指「用筆、鉛筆等在平面上畫出圖像、形狀或物件」。",
-        "draw-mcq-02": "「畫出線條、輪廓或幾何形狀」是「draw — line/shape」的用法，與本句語境不同。",
-        "draw-mcq-03": "「把設計、結構或構想以圖像形式表示出來」是「draw — design/sketch」的用法，與本句語境不同。",
-        "draw-mcq-04": "「把某物拉向某個方向」是「draw — pull」的用法，與本句語境不同。",
-        "draw-mcq-05": "「從容器、套子或某來源中把某物取出」是「draw — extract/remove」的用法，與本句語境不同。",
-        "draw-mcq-06": "「從某個來源抽取水、血液等液體」是「draw — liquid」的用法，與本句語境不同。"
+        "draw-mcq-01": "本句的「drew」指「用筆、鉛筆等在平面上畫出圖像、形狀或物件」。",
+        "draw-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-01"
     },
@@ -768,11 +756,9 @@ export default {
       "masked": "____ a straight line across the page.",
       "options": [
         "draw-mcq-02",
-        "draw-mcq-01",
-        "draw-mcq-03",
-        "draw-mcq-04",
-        "draw-mcq-05",
-        "draw-mcq-06"
+        "draw-mcq-20",
+        "draw-mcq-08",
+        "draw-mcq-09"
       ],
       "explanation": "本句的「Draw」指「畫出線條、輪廓或幾何形狀」。",
       "sentenceIndex": 3,
@@ -781,12 +767,10 @@ export default {
         "Draw"
       ],
       "optionReasons": {
-        "draw-mcq-02": "本句指「畫出線條、輪廓或幾何形狀」。",
-        "draw-mcq-01": "「用筆、鉛筆等在平面上畫出圖像、形狀或物件」是「draw — picture」的用法，與本句語境不同。",
-        "draw-mcq-03": "「把設計、結構或構想以圖像形式表示出來」是「draw — design/sketch」的用法，與本句語境不同。",
-        "draw-mcq-04": "「把某物拉向某個方向」是「draw — pull」的用法，與本句語境不同。",
-        "draw-mcq-05": "「從容器、套子或某來源中把某物取出」是「draw — extract/remove」的用法，與本句語境不同。",
-        "draw-mcq-06": "「從某個來源抽取水、血液等液體」是「draw — liquid」的用法，與本句語境不同。"
+        "draw-mcq-02": "本句的「Draw」指「畫出線條、輪廓或幾何形狀」。",
+        "draw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-02"
     },
@@ -798,11 +782,9 @@ export default {
       "masked": "She ____ a circle around the answer.",
       "options": [
         "draw-mcq-02",
-        "draw-mcq-01",
-        "draw-mcq-03",
-        "draw-mcq-04",
-        "draw-mcq-05",
-        "draw-mcq-06"
+        "draw-mcq-27",
+        "draw-mcq-24",
+        "draw-mcq-16"
       ],
       "explanation": "本句的「drew」指「畫出線條、輪廓或幾何形狀」。",
       "sentenceIndex": 4,
@@ -811,12 +793,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-02": "本句指「畫出線條、輪廓或幾何形狀」。",
-        "draw-mcq-01": "「用筆、鉛筆等在平面上畫出圖像、形狀或物件」是「draw — picture」的用法，與本句語境不同。",
-        "draw-mcq-03": "「把設計、結構或構想以圖像形式表示出來」是「draw — design/sketch」的用法，與本句語境不同。",
-        "draw-mcq-04": "「把某物拉向某個方向」是「draw — pull」的用法，與本句語境不同。",
-        "draw-mcq-05": "「從容器、套子或某來源中把某物取出」是「draw — extract/remove」的用法，與本句語境不同。",
-        "draw-mcq-06": "「從某個來源抽取水、血液等液體」是「draw — liquid」的用法，與本句語境不同。"
+        "draw-mcq-02": "本句的「drew」指「畫出線條、輪廓或幾何形狀」。",
+        "draw-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-02"
     },
@@ -828,11 +808,9 @@ export default {
       "masked": "The architect ____ a plan of the building.",
       "options": [
         "draw-mcq-03",
-        "draw-mcq-02",
-        "draw-mcq-04",
-        "draw-mcq-01",
-        "draw-mcq-05",
-        "draw-mcq-06"
+        "draw-mcq-09",
+        "draw-mcq-21",
+        "draw-mcq-16"
       ],
       "explanation": "本句的「drew」指「把設計、結構或構想以圖像形式表示出來」。",
       "sentenceIndex": 5,
@@ -841,12 +819,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-03": "本句指「把設計、結構或構想以圖像形式表示出來」。",
-        "draw-mcq-02": "「畫出線條、輪廓或幾何形狀」是「draw — line/shape」的用法，與本句語境不同。",
-        "draw-mcq-04": "「把某物拉向某個方向」是「draw — pull」的用法，與本句語境不同。",
-        "draw-mcq-01": "「用筆、鉛筆等在平面上畫出圖像、形狀或物件」是「draw — picture」的用法，與本句語境不同。",
-        "draw-mcq-05": "「從容器、套子或某來源中把某物取出」是「draw — extract/remove」的用法，與本句語境不同。",
-        "draw-mcq-06": "「從某個來源抽取水、血液等液體」是「draw — liquid」的用法，與本句語境不同。"
+        "draw-mcq-03": "本句的「drew」指「把設計、結構或構想以圖像形式表示出來」。",
+        "draw-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-03"
     },
@@ -858,11 +834,9 @@ export default {
       "masked": "He ____ a rough design for the bridge.",
       "options": [
         "draw-mcq-03",
-        "draw-mcq-02",
-        "draw-mcq-04",
-        "draw-mcq-01",
-        "draw-mcq-05",
-        "draw-mcq-06"
+        "draw-mcq-11",
+        "draw-mcq-10",
+        "draw-mcq-21"
       ],
       "explanation": "本句的「drew」指「把設計、結構或構想以圖像形式表示出來」。",
       "sentenceIndex": 6,
@@ -871,12 +845,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-03": "本句指「把設計、結構或構想以圖像形式表示出來」。",
-        "draw-mcq-02": "「畫出線條、輪廓或幾何形狀」是「draw — line/shape」的用法，與本句語境不同。",
-        "draw-mcq-04": "「把某物拉向某個方向」是「draw — pull」的用法，與本句語境不同。",
-        "draw-mcq-01": "「用筆、鉛筆等在平面上畫出圖像、形狀或物件」是「draw — picture」的用法，與本句語境不同。",
-        "draw-mcq-05": "「從容器、套子或某來源中把某物取出」是「draw — extract/remove」的用法，與本句語境不同。",
-        "draw-mcq-06": "「從某個來源抽取水、血液等液體」是「draw — liquid」的用法，與本句語境不同。"
+        "draw-mcq-03": "本句的「drew」指「把設計、結構或構想以圖像形式表示出來」。",
+        "draw-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-03"
     },
@@ -888,11 +860,9 @@ export default {
       "masked": "She ____ the chair closer.",
       "options": [
         "draw-mcq-04",
-        "draw-mcq-03",
-        "draw-mcq-05",
-        "draw-mcq-02",
-        "draw-mcq-06",
-        "draw-mcq-01"
+        "draw-mcq-24",
+        "draw-mcq-08",
+        "draw-mcq-14"
       ],
       "explanation": "本句的「drew」指「把某物拉向某個方向」。",
       "sentenceIndex": 7,
@@ -901,12 +871,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-04": "本句指「把某物拉向某個方向」。",
-        "draw-mcq-03": "「把設計、結構或構想以圖像形式表示出來」是「draw — design/sketch」的用法，與本句語境不同。",
-        "draw-mcq-05": "「從容器、套子或某來源中把某物取出」是「draw — extract/remove」的用法，與本句語境不同。",
-        "draw-mcq-02": "「畫出線條、輪廓或幾何形狀」是「draw — line/shape」的用法，與本句語境不同。",
-        "draw-mcq-06": "「從某個來源抽取水、血液等液體」是「draw — liquid」的用法，與本句語境不同。",
-        "draw-mcq-01": "「用筆、鉛筆等在平面上畫出圖像、形狀或物件」是「draw — picture」的用法，與本句語境不同。"
+        "draw-mcq-04": "本句的「drew」指「把某物拉向某個方向」。",
+        "draw-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-04"
     },
@@ -918,11 +886,9 @@ export default {
       "masked": "He ____ the curtains.",
       "options": [
         "draw-mcq-04",
-        "draw-mcq-03",
-        "draw-mcq-05",
-        "draw-mcq-02",
-        "draw-mcq-06",
-        "draw-mcq-01"
+        "draw-mcq-16",
+        "draw-mcq-01",
+        "draw-mcq-13"
       ],
       "explanation": "本句的「drew」指「把某物拉向某個方向」。",
       "sentenceIndex": 8,
@@ -931,12 +897,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-04": "本句指「把某物拉向某個方向」。",
-        "draw-mcq-03": "「把設計、結構或構想以圖像形式表示出來」是「draw — design/sketch」的用法，與本句語境不同。",
-        "draw-mcq-05": "「從容器、套子或某來源中把某物取出」是「draw — extract/remove」的用法，與本句語境不同。",
-        "draw-mcq-02": "「畫出線條、輪廓或幾何形狀」是「draw — line/shape」的用法，與本句語境不同。",
-        "draw-mcq-06": "「從某個來源抽取水、血液等液體」是「draw — liquid」的用法，與本句語境不同。",
-        "draw-mcq-01": "「用筆、鉛筆等在平面上畫出圖像、形狀或物件」是「draw — picture」的用法，與本句語境不同。"
+        "draw-mcq-04": "本句的「drew」指「把某物拉向某個方向」。",
+        "draw-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-04"
     },
@@ -948,11 +912,9 @@ export default {
       "masked": "He ____ a knife.",
       "options": [
         "draw-mcq-05",
-        "draw-mcq-04",
-        "draw-mcq-06",
-        "draw-mcq-03",
-        "draw-mcq-07",
-        "draw-mcq-02"
+        "draw-mcq-18",
+        "draw-mcq-21",
+        "draw-mcq-16"
       ],
       "explanation": "本句的「drew」指「從容器、套子或某來源中把某物取出」。",
       "sentenceIndex": 9,
@@ -961,12 +923,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-05": "本句指「從容器、套子或某來源中把某物取出」。",
-        "draw-mcq-04": "「把某物拉向某個方向」是「draw — pull」的用法，與本句語境不同。",
-        "draw-mcq-06": "「從某個來源抽取水、血液等液體」是「draw — liquid」的用法，與本句語境不同。",
-        "draw-mcq-03": "「把設計、結構或構想以圖像形式表示出來」是「draw — design/sketch」的用法，與本句語境不同。",
-        "draw-mcq-07": "「令某人／某事受到注意或興趣」是「draw — attract attention」的用法，與本句語境不同。",
-        "draw-mcq-02": "「畫出線條、輪廓或幾何形狀」是「draw — line/shape」的用法，與本句語境不同。"
+        "draw-mcq-05": "本句的「drew」指「從容器、套子或某來源中把某物取出」。",
+        "draw-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-05"
     },
@@ -979,10 +939,8 @@ export default {
       "options": [
         "draw-mcq-05",
         "draw-mcq-04",
-        "draw-mcq-06",
-        "draw-mcq-03",
-        "draw-mcq-07",
-        "draw-mcq-02"
+        "draw-mcq-24",
+        "draw-mcq-21"
       ],
       "explanation": "本句的「drew」指「從容器、套子或某來源中把某物取出」。",
       "sentenceIndex": 10,
@@ -991,12 +949,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-05": "本句指「從容器、套子或某來源中把某物取出」。",
-        "draw-mcq-04": "「把某物拉向某個方向」是「draw — pull」的用法，與本句語境不同。",
-        "draw-mcq-06": "「從某個來源抽取水、血液等液體」是「draw — liquid」的用法，與本句語境不同。",
-        "draw-mcq-03": "「把設計、結構或構想以圖像形式表示出來」是「draw — design/sketch」的用法，與本句語境不同。",
-        "draw-mcq-07": "「令某人／某事受到注意或興趣」是「draw — attract attention」的用法，與本句語境不同。",
-        "draw-mcq-02": "「畫出線條、輪廓或幾何形狀」是「draw — line/shape」的用法，與本句語境不同。"
+        "draw-mcq-05": "本句的「drew」指「從容器、套子或某來源中把某物取出」。",
+        "draw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-05"
     },
@@ -1008,11 +964,9 @@ export default {
       "masked": "They ____ water from the well.",
       "options": [
         "draw-mcq-06",
-        "draw-mcq-05",
-        "draw-mcq-07",
-        "draw-mcq-04",
-        "draw-mcq-08",
-        "draw-mcq-03"
+        "draw-mcq-21",
+        "draw-pdf-reviewed-01",
+        "draw-mcq-18"
       ],
       "explanation": "本句的「drew」指「從某個來源抽取水、血液等液體」。",
       "sentenceIndex": 11,
@@ -1021,12 +975,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-06": "本句指「從某個來源抽取水、血液等液體」。",
-        "draw-mcq-05": "「從容器、套子或某來源中把某物取出」是「draw — extract/remove」的用法，與本句語境不同。",
-        "draw-mcq-07": "「令某人／某事受到注意或興趣」是「draw — attract attention」的用法，與本句語境不同。",
-        "draw-mcq-04": "「把某物拉向某個方向」是「draw — pull」的用法，與本句語境不同。",
-        "draw-mcq-08": "「使別人注意某人、某事或問題」是「draw attention to」的用法，與本句語境不同。",
-        "draw-mcq-03": "「把設計、結構或構想以圖像形式表示出來」是「draw — design/sketch」的用法，與本句語境不同。"
+        "draw-mcq-06": "本句的「drew」指「從某個來源抽取水、血液等液體」。",
+        "draw-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "draw-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-06"
     },
@@ -1038,11 +990,9 @@ export default {
       "masked": "The nurse ____ blood from his arm.",
       "options": [
         "draw-mcq-06",
-        "draw-mcq-05",
+        "draw-mcq-17",
         "draw-mcq-07",
-        "draw-mcq-04",
-        "draw-mcq-08",
-        "draw-mcq-03"
+        "draw-mcq-26"
       ],
       "explanation": "本句的「drew」指「從某個來源抽取水、血液等液體」。",
       "sentenceIndex": 12,
@@ -1051,12 +1001,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-06": "本句指「從某個來源抽取水、血液等液體」。",
-        "draw-mcq-05": "「從容器、套子或某來源中把某物取出」是「draw — extract/remove」的用法，與本句語境不同。",
-        "draw-mcq-07": "「令某人／某事受到注意或興趣」是「draw — attract attention」的用法，與本句語境不同。",
-        "draw-mcq-04": "「把某物拉向某個方向」是「draw — pull」的用法，與本句語境不同。",
-        "draw-mcq-08": "「使別人注意某人、某事或問題」是「draw attention to」的用法，與本句語境不同。",
-        "draw-mcq-03": "「把設計、結構或構想以圖像形式表示出來」是「draw — design/sketch」的用法，與本句語境不同。"
+        "draw-mcq-06": "本句的「drew」指「從某個來源抽取水、血液等液體」。",
+        "draw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-06"
     },
@@ -1068,11 +1016,9 @@ export default {
       "masked": "The unusual design ____ a lot of attention.",
       "options": [
         "draw-mcq-07",
-        "draw-mcq-06",
-        "draw-mcq-08",
-        "draw-mcq-05",
-        "draw-mcq-09",
-        "draw-mcq-04"
+        "draw-mcq-26",
+        "draw-mcq-28",
+        "draw-mcq-16"
       ],
       "explanation": "本句的「drew」指「令某人／某事受到注意或興趣」。",
       "sentenceIndex": 13,
@@ -1081,12 +1027,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-07": "本句指「令某人／某事受到注意或興趣」。",
-        "draw-mcq-06": "「從某個來源抽取水、血液等液體」是「draw — liquid」的用法，與本句語境不同。",
-        "draw-mcq-08": "「使別人注意某人、某事或問題」是「draw attention to」的用法，與本句語境不同。",
-        "draw-mcq-05": "「從容器、套子或某來源中把某物取出」是「draw — extract/remove」的用法，與本句語境不同。",
-        "draw-mcq-09": "「吸引或獲得支持、興趣或反應」是「draw support/interest」的用法，與本句語境不同。",
-        "draw-mcq-04": "「把某物拉向某個方向」是「draw — pull」的用法，與本句語境不同。"
+        "draw-mcq-07": "本句的「drew」指「令某人／某事受到注意或興趣」。",
+        "draw-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-07"
     },
@@ -1098,11 +1042,9 @@ export default {
       "masked": "The event ____ a large crowd.",
       "options": [
         "draw-mcq-07",
-        "draw-mcq-06",
-        "draw-mcq-08",
-        "draw-mcq-05",
-        "draw-mcq-09",
-        "draw-mcq-04"
+        "draw-mcq-17",
+        "draw-mcq-27",
+        "draw-mcq-06"
       ],
       "explanation": "本句的「drew」指「令某人／某事受到注意或興趣」。",
       "sentenceIndex": 14,
@@ -1111,12 +1053,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-07": "本句指「令某人／某事受到注意或興趣」。",
-        "draw-mcq-06": "「從某個來源抽取水、血液等液體」是「draw — liquid」的用法，與本句語境不同。",
-        "draw-mcq-08": "「使別人注意某人、某事或問題」是「draw attention to」的用法，與本句語境不同。",
-        "draw-mcq-05": "「從容器、套子或某來源中把某物取出」是「draw — extract/remove」的用法，與本句語境不同。",
-        "draw-mcq-09": "「吸引或獲得支持、興趣或反應」是「draw support/interest」的用法，與本句語境不同。",
-        "draw-mcq-04": "「把某物拉向某個方向」是「draw — pull」的用法，與本句語境不同。"
+        "draw-mcq-07": "本句的「drew」指「令某人／某事受到注意或興趣」。",
+        "draw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-07"
     },
@@ -1128,11 +1068,9 @@ export default {
       "masked": "The report ____ several problems.",
       "options": [
         "draw-mcq-08",
-        "draw-mcq-07",
-        "draw-mcq-09",
-        "draw-mcq-06",
-        "draw-mcq-10",
-        "draw-mcq-05"
+        "draw-mcq-20",
+        "draw-mcq-12",
+        "draw-mcq-22"
       ],
       "explanation": "本句的「draws attention to」指「使別人注意某人、某事或問題」。",
       "sentenceIndex": 15,
@@ -1141,12 +1079,10 @@ export default {
         "draws attention to"
       ],
       "optionReasons": {
-        "draw-mcq-08": "本句指「使別人注意某人、某事或問題」。",
-        "draw-mcq-07": "「令某人／某事受到注意或興趣」是「draw — attract attention」的用法，與本句語境不同。",
-        "draw-mcq-09": "「吸引或獲得支持、興趣或反應」是「draw support/interest」的用法，與本句語境不同。",
-        "draw-mcq-06": "「從某個來源抽取水、血液等液體」是「draw — liquid」的用法，與本句語境不同。",
-        "draw-mcq-10": "「漸漸接近某個時間、地點或事件」是「draw near/close」的用法，與本句語境不同。",
-        "draw-mcq-05": "「從容器、套子或某來源中把某物取出」是「draw — extract/remove」的用法，與本句語境不同。"
+        "draw-mcq-08": "本句的「draws attention to」指「使別人注意某人、某事或問題」。",
+        "draw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-08"
     },
@@ -1158,11 +1094,9 @@ export default {
       "masked": "She ____ a mistake.",
       "options": [
         "draw-mcq-08",
-        "draw-mcq-07",
-        "draw-mcq-09",
-        "draw-mcq-06",
-        "draw-mcq-10",
-        "draw-mcq-05"
+        "draw-mcq-25",
+        "draw-mcq-05",
+        "draw-mcq-04"
       ],
       "explanation": "本句的「drew my attention to」指「使別人注意某人、某事或問題」。",
       "sentenceIndex": 16,
@@ -1171,12 +1105,10 @@ export default {
         "drew my attention to"
       ],
       "optionReasons": {
-        "draw-mcq-08": "本句指「使別人注意某人、某事或問題」。",
-        "draw-mcq-07": "「令某人／某事受到注意或興趣」是「draw — attract attention」的用法，與本句語境不同。",
-        "draw-mcq-09": "「吸引或獲得支持、興趣或反應」是「draw support/interest」的用法，與本句語境不同。",
-        "draw-mcq-06": "「從某個來源抽取水、血液等液體」是「draw — liquid」的用法，與本句語境不同。",
-        "draw-mcq-10": "「漸漸接近某個時間、地點或事件」是「draw near/close」的用法，與本句語境不同。",
-        "draw-mcq-05": "「從容器、套子或某來源中把某物取出」是「draw — extract/remove」的用法，與本句語境不同。"
+        "draw-mcq-08": "本句的「drew my attention to」指「使別人注意某人、某事或問題」。",
+        "draw-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-08"
     },
@@ -1188,11 +1120,9 @@ export default {
       "masked": "The proposal ____ strong support.",
       "options": [
         "draw-mcq-09",
-        "draw-mcq-08",
-        "draw-mcq-10",
-        "draw-mcq-07",
-        "draw-mcq-11",
-        "draw-mcq-06"
+        "draw-pdf-reviewed-01",
+        "draw-mcq-20",
+        "draw-mcq-17"
       ],
       "explanation": "本句的「drew」指「吸引或獲得支持、興趣或反應」。",
       "sentenceIndex": 17,
@@ -1201,12 +1131,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-09": "本句指「吸引或獲得支持、興趣或反應」。",
-        "draw-mcq-08": "「使別人注意某人、某事或問題」是「draw attention to」的用法，與本句語境不同。",
-        "draw-mcq-10": "「漸漸接近某個時間、地點或事件」是「draw near/close」的用法，與本句語境不同。",
-        "draw-mcq-07": "「令某人／某事受到注意或興趣」是「draw — attract attention」的用法，與本句語境不同。",
-        "draw-mcq-11": "「以吸引力令某人靠近或前往某處」是「draw someone somewhere」的用法，與本句語境不同。",
-        "draw-mcq-06": "「從某個來源抽取水、血液等液體」是「draw — liquid」的用法，與本句語境不同。"
+        "draw-mcq-09": "本句的「drew」指「吸引或獲得支持、興趣或反應」。",
+        "draw-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-09"
     },
@@ -1218,11 +1146,9 @@ export default {
       "masked": "The exhibition ____ international interest.",
       "options": [
         "draw-mcq-09",
-        "draw-mcq-08",
-        "draw-mcq-10",
-        "draw-mcq-07",
-        "draw-mcq-11",
-        "draw-mcq-06"
+        "draw-mcq-23",
+        "draw-mcq-21",
+        "draw-mcq-02"
       ],
       "explanation": "本句的「drew」指「吸引或獲得支持、興趣或反應」。",
       "sentenceIndex": 18,
@@ -1231,12 +1157,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-09": "本句指「吸引或獲得支持、興趣或反應」。",
-        "draw-mcq-08": "「使別人注意某人、某事或問題」是「draw attention to」的用法，與本句語境不同。",
-        "draw-mcq-10": "「漸漸接近某個時間、地點或事件」是「draw near/close」的用法，與本句語境不同。",
-        "draw-mcq-07": "「令某人／某事受到注意或興趣」是「draw — attract attention」的用法，與本句語境不同。",
-        "draw-mcq-11": "「以吸引力令某人靠近或前往某處」是「draw someone somewhere」的用法，與本句語境不同。",
-        "draw-mcq-06": "「從某個來源抽取水、血液等液體」是「draw — liquid」的用法，與本句語境不同。"
+        "draw-mcq-09": "本句的「drew」指「吸引或獲得支持、興趣或反應」。",
+        "draw-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-09"
     },
@@ -1248,11 +1172,9 @@ export default {
       "masked": "The train ____ closer to the station.",
       "options": [
         "draw-mcq-10",
-        "draw-mcq-09",
-        "draw-mcq-11",
-        "draw-mcq-08",
-        "draw-mcq-12",
-        "draw-mcq-07"
+        "draw-mcq-24",
+        "draw-mcq-14",
+        "draw-mcq-03"
       ],
       "explanation": "本句的「drew」指「漸漸接近某個時間、地點或事件」。",
       "sentenceIndex": 19,
@@ -1261,12 +1183,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-10": "本句指「漸漸接近某個時間、地點或事件」。",
-        "draw-mcq-09": "「吸引或獲得支持、興趣或反應」是「draw support/interest」的用法，與本句語境不同。",
-        "draw-mcq-11": "「以吸引力令某人靠近或前往某處」是「draw someone somewhere」的用法，與本句語境不同。",
-        "draw-mcq-08": "「使別人注意某人、某事或問題」是「draw attention to」的用法，與本句語境不同。",
-        "draw-mcq-12": "「從某個來源取得力量、靈感、資訊或好處」是「draw from」的用法，與本句語境不同。",
-        "draw-mcq-07": "「令某人／某事受到注意或興趣」是「draw — attract attention」的用法，與本句語境不同。"
+        "draw-mcq-10": "本句的「drew」指「漸漸接近某個時間、地點或事件」。",
+        "draw-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-10"
     },
@@ -1278,11 +1198,9 @@ export default {
       "masked": "Night was ____ near.",
       "options": [
         "draw-mcq-10",
-        "draw-mcq-09",
-        "draw-mcq-11",
-        "draw-mcq-08",
-        "draw-mcq-12",
-        "draw-mcq-07"
+        "draw-mcq-03",
+        "draw-mcq-23",
+        "draw-mcq-05"
       ],
       "explanation": "本句的「drawing」指「漸漸接近某個時間、地點或事件」。",
       "sentenceIndex": 20,
@@ -1291,12 +1209,10 @@ export default {
         "drawing"
       ],
       "optionReasons": {
-        "draw-mcq-10": "本句指「漸漸接近某個時間、地點或事件」。",
-        "draw-mcq-09": "「吸引或獲得支持、興趣或反應」是「draw support/interest」的用法，與本句語境不同。",
-        "draw-mcq-11": "「以吸引力令某人靠近或前往某處」是「draw someone somewhere」的用法，與本句語境不同。",
-        "draw-mcq-08": "「使別人注意某人、某事或問題」是「draw attention to」的用法，與本句語境不同。",
-        "draw-mcq-12": "「從某個來源取得力量、靈感、資訊或好處」是「draw from」的用法，與本句語境不同。",
-        "draw-mcq-07": "「令某人／某事受到注意或興趣」是「draw — attract attention」的用法，與本句語境不同。"
+        "draw-mcq-10": "本句的「drawing」指「漸漸接近某個時間、地點或事件」。",
+        "draw-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-10"
     },
@@ -1308,11 +1224,9 @@ export default {
       "masked": "As winter ____, the days become shorter.",
       "options": [
         "draw-mcq-10",
-        "draw-mcq-09",
-        "draw-mcq-11",
-        "draw-mcq-08",
-        "draw-mcq-12",
-        "draw-mcq-07"
+        "draw-mcq-13",
+        "draw-mcq-06",
+        "draw-mcq-18"
       ],
       "explanation": "本句的「draws near」指「漸漸接近某個時間、地點或事件」。",
       "sentenceIndex": 21,
@@ -1321,12 +1235,10 @@ export default {
         "draws near"
       ],
       "optionReasons": {
-        "draw-mcq-10": "本句指「漸漸接近某個時間、地點或事件」。",
-        "draw-mcq-09": "「吸引或獲得支持、興趣或反應」是「draw support/interest」的用法，與本句語境不同。",
-        "draw-mcq-11": "「以吸引力令某人靠近或前往某處」是「draw someone somewhere」的用法，與本句語境不同。",
-        "draw-mcq-08": "「使別人注意某人、某事或問題」是「draw attention to」的用法，與本句語境不同。",
-        "draw-mcq-12": "「從某個來源取得力量、靈感、資訊或好處」是「draw from」的用法，與本句語境不同。",
-        "draw-mcq-07": "「令某人／某事受到注意或興趣」是「draw — attract attention」的用法，與本句語境不同。"
+        "draw-mcq-10": "本句的「draws near」指「漸漸接近某個時間、地點或事件」。",
+        "draw-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-10"
     },
@@ -1338,11 +1250,9 @@ export default {
       "masked": "The deadline is ____.",
       "options": [
         "draw-mcq-10",
+        "draw-mcq-06",
         "draw-mcq-09",
-        "draw-mcq-11",
-        "draw-mcq-08",
-        "draw-mcq-12",
-        "draw-mcq-07"
+        "draw-mcq-08"
       ],
       "explanation": "本句的「drawing close」指「漸漸接近某個時間、地點或事件」。",
       "sentenceIndex": 22,
@@ -1351,12 +1261,10 @@ export default {
         "drawing close"
       ],
       "optionReasons": {
-        "draw-mcq-10": "本句指「漸漸接近某個時間、地點或事件」。",
-        "draw-mcq-09": "「吸引或獲得支持、興趣或反應」是「draw support/interest」的用法，與本句語境不同。",
-        "draw-mcq-11": "「以吸引力令某人靠近或前往某處」是「draw someone somewhere」的用法，與本句語境不同。",
-        "draw-mcq-08": "「使別人注意某人、某事或問題」是「draw attention to」的用法，與本句語境不同。",
-        "draw-mcq-12": "「從某個來源取得力量、靈感、資訊或好處」是「draw from」的用法，與本句語境不同。",
-        "draw-mcq-07": "「令某人／某事受到注意或興趣」是「draw — attract attention」的用法，與本句語境不同。"
+        "draw-mcq-10": "本句的「drawing close」指「漸漸接近某個時間、地點或事件」。",
+        "draw-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-10"
     },
@@ -1368,11 +1276,9 @@ export default {
       "masked": "The music ____ people into the room.",
       "options": [
         "draw-mcq-11",
-        "draw-mcq-10",
-        "draw-mcq-12",
-        "draw-mcq-09",
-        "draw-mcq-13",
-        "draw-mcq-08"
+        "draw-mcq-05",
+        "draw-mcq-20",
+        "draw-mcq-26"
       ],
       "explanation": "本句的「drew」指「以吸引力令某人靠近或前往某處」。",
       "sentenceIndex": 23,
@@ -1381,12 +1287,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-11": "本句指「以吸引力令某人靠近或前往某處」。",
-        "draw-mcq-10": "「漸漸接近某個時間、地點或事件」是「draw near/close」的用法，與本句語境不同。",
-        "draw-mcq-12": "「從某個來源取得力量、靈感、資訊或好處」是「draw from」的用法，與本句語境不同。",
-        "draw-mcq-09": "「吸引或獲得支持、興趣或反應」是「draw support/interest」的用法，與本句語境不同。",
-        "draw-mcq-13": "「利用已有的經驗、知識、記憶或資源」是「draw on」的用法，與本句語境不同。",
-        "draw-mcq-08": "「使別人注意某人、某事或問題」是「draw attention to」的用法，與本句語境不同。"
+        "draw-mcq-11": "本句的「drew」指「以吸引力令某人靠近或前往某處」。",
+        "draw-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-11"
     },
@@ -1398,11 +1302,9 @@ export default {
       "masked": "The smell of food ____ the children closer.",
       "options": [
         "draw-mcq-11",
-        "draw-mcq-10",
-        "draw-mcq-12",
-        "draw-mcq-09",
-        "draw-mcq-13",
-        "draw-mcq-08"
+        "draw-mcq-01",
+        "draw-mcq-19",
+        "draw-mcq-05"
       ],
       "explanation": "本句的「drew」指「以吸引力令某人靠近或前往某處」。",
       "sentenceIndex": 24,
@@ -1411,12 +1313,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-11": "本句指「以吸引力令某人靠近或前往某處」。",
-        "draw-mcq-10": "「漸漸接近某個時間、地點或事件」是「draw near/close」的用法，與本句語境不同。",
-        "draw-mcq-12": "「從某個來源取得力量、靈感、資訊或好處」是「draw from」的用法，與本句語境不同。",
-        "draw-mcq-09": "「吸引或獲得支持、興趣或反應」是「draw support/interest」的用法，與本句語境不同。",
-        "draw-mcq-13": "「利用已有的經驗、知識、記憶或資源」是「draw on」的用法，與本句語境不同。",
-        "draw-mcq-08": "「使別人注意某人、某事或問題」是「draw attention to」的用法，與本句語境不同。"
+        "draw-mcq-11": "本句的「drew」指「以吸引力令某人靠近或前往某處」。",
+        "draw-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-11"
     },
@@ -1428,11 +1328,9 @@ export default {
       "masked": "She ____ her family.",
       "options": [
         "draw-mcq-12",
-        "draw-mcq-11",
-        "draw-mcq-13",
-        "draw-mcq-10",
-        "draw-mcq-14",
-        "draw-mcq-09"
+        "draw-mcq-23",
+        "draw-mcq-25",
+        "draw-mcq-17"
       ],
       "explanation": "本句的「draws strength from」指「從某個來源取得力量、靈感、資訊或好處」。",
       "sentenceIndex": 25,
@@ -1441,12 +1339,10 @@ export default {
         "draws strength from"
       ],
       "optionReasons": {
-        "draw-mcq-12": "本句指「從某個來源取得力量、靈感、資訊或好處」。",
-        "draw-mcq-11": "「以吸引力令某人靠近或前往某處」是「draw someone somewhere」的用法，與本句語境不同。",
-        "draw-mcq-13": "「利用已有的經驗、知識、記憶或資源」是「draw on」的用法，與本句語境不同。",
-        "draw-mcq-10": "「漸漸接近某個時間、地點或事件」是「draw near/close」的用法，與本句語境不同。",
-        "draw-mcq-14": "「根據證據或資料推導出判斷」是「draw a conclusion」的用法，與本句語境不同。",
-        "draw-mcq-09": "「吸引或獲得支持、興趣或反應」是「draw support/interest」的用法，與本句語境不同。"
+        "draw-mcq-12": "本句的「draws strength from」指「從某個來源取得力量、靈感、資訊或好處」。",
+        "draw-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-12"
     },
@@ -1458,11 +1354,9 @@ export default {
       "masked": "He ____ nature.",
       "options": [
         "draw-mcq-12",
-        "draw-mcq-11",
-        "draw-mcq-13",
+        "draw-mcq-07",
         "draw-mcq-10",
-        "draw-mcq-14",
-        "draw-mcq-09"
+        "draw-mcq-27"
       ],
       "explanation": "本句的「drew inspiration from」指「從某個來源取得力量、靈感、資訊或好處」。",
       "sentenceIndex": 26,
@@ -1471,12 +1365,10 @@ export default {
         "drew inspiration from"
       ],
       "optionReasons": {
-        "draw-mcq-12": "本句指「從某個來源取得力量、靈感、資訊或好處」。",
-        "draw-mcq-11": "「以吸引力令某人靠近或前往某處」是「draw someone somewhere」的用法，與本句語境不同。",
-        "draw-mcq-13": "「利用已有的經驗、知識、記憶或資源」是「draw on」的用法，與本句語境不同。",
-        "draw-mcq-10": "「漸漸接近某個時間、地點或事件」是「draw near/close」的用法，與本句語境不同。",
-        "draw-mcq-14": "「根據證據或資料推導出判斷」是「draw a conclusion」的用法，與本句語境不同。",
-        "draw-mcq-09": "「吸引或獲得支持、興趣或反應」是「draw support/interest」的用法，與本句語境不同。"
+        "draw-mcq-12": "本句的「drew inspiration from」指「從某個來源取得力量、靈感、資訊或好處」。",
+        "draw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-12"
     },
@@ -1488,11 +1380,9 @@ export default {
       "masked": "She ____ her experience as a teacher.",
       "options": [
         "draw-mcq-13",
-        "draw-mcq-12",
-        "draw-mcq-14",
-        "draw-mcq-11",
-        "draw-mcq-15",
-        "draw-mcq-10"
+        "draw-mcq-28",
+        "draw-mcq-17",
+        "draw-mcq-19"
       ],
       "explanation": "本句的「drew on」指「利用已有的經驗、知識、記憶或資源」。",
       "sentenceIndex": 27,
@@ -1501,12 +1391,10 @@ export default {
         "drew on"
       ],
       "optionReasons": {
-        "draw-mcq-13": "本句指「利用已有的經驗、知識、記憶或資源」。",
-        "draw-mcq-12": "「從某個來源取得力量、靈感、資訊或好處」是「draw from」的用法，與本句語境不同。",
-        "draw-mcq-14": "「根據證據或資料推導出判斷」是「draw a conclusion」的用法，與本句語境不同。",
-        "draw-mcq-11": "「以吸引力令某人靠近或前往某處」是「draw someone somewhere」的用法，與本句語境不同。",
-        "draw-mcq-15": "「根據已知資訊作出推論」是「draw an inference」的用法，與本句語境不同。",
-        "draw-mcq-10": "「漸漸接近某個時間、地點或事件」是「draw near/close」的用法，與本句語境不同。"
+        "draw-mcq-13": "本句的「drew on」指「利用已有的經驗、知識、記憶或資源」。",
+        "draw-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-13"
     },
@@ -1518,11 +1406,9 @@ export default {
       "masked": "The writer ____ childhood memories.",
       "options": [
         "draw-mcq-13",
-        "draw-mcq-12",
-        "draw-mcq-14",
-        "draw-mcq-11",
-        "draw-mcq-15",
-        "draw-mcq-10"
+        "draw-pdf-reviewed-01",
+        "draw-mcq-21",
+        "draw-mcq-07"
       ],
       "explanation": "本句的「draws on」指「利用已有的經驗、知識、記憶或資源」。",
       "sentenceIndex": 28,
@@ -1531,12 +1417,10 @@ export default {
         "draws on"
       ],
       "optionReasons": {
-        "draw-mcq-13": "本句指「利用已有的經驗、知識、記憶或資源」。",
-        "draw-mcq-12": "「從某個來源取得力量、靈感、資訊或好處」是「draw from」的用法，與本句語境不同。",
-        "draw-mcq-14": "「根據證據或資料推導出判斷」是「draw a conclusion」的用法，與本句語境不同。",
-        "draw-mcq-11": "「以吸引力令某人靠近或前往某處」是「draw someone somewhere」的用法，與本句語境不同。",
-        "draw-mcq-15": "「根據已知資訊作出推論」是「draw an inference」的用法，與本句語境不同。",
-        "draw-mcq-10": "「漸漸接近某個時間、地點或事件」是「draw near/close」的用法，與本句語境不同。"
+        "draw-mcq-13": "本句的「draws on」指「利用已有的經驗、知識、記憶或資源」。",
+        "draw-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-13"
     },
@@ -1548,11 +1432,9 @@ export default {
       "masked": "It is too early to ____.",
       "options": [
         "draw-mcq-14",
-        "draw-mcq-13",
-        "draw-mcq-15",
-        "draw-mcq-12",
+        "draw-mcq-20",
         "draw-mcq-16",
-        "draw-mcq-11"
+        "draw-mcq-25"
       ],
       "explanation": "本句的「draw a conclusion」指「根據證據或資料推導出判斷」。",
       "sentenceIndex": 29,
@@ -1561,12 +1443,10 @@ export default {
         "draw a conclusion"
       ],
       "optionReasons": {
-        "draw-mcq-14": "本句指「根據證據或資料推導出判斷」。",
-        "draw-mcq-13": "「利用已有的經驗、知識、記憶或資源」是「draw on」的用法，與本句語境不同。",
-        "draw-mcq-15": "「根據已知資訊作出推論」是「draw an inference」的用法，與本句語境不同。",
-        "draw-mcq-12": "「從某個來源取得力量、靈感、資訊或好處」是「draw from」的用法，與本句語境不同。",
-        "draw-mcq-16": "「把兩個或以上事物並列作比較」是「draw a comparison」的用法，與本句語境不同。",
-        "draw-mcq-11": "「以吸引力令某人靠近或前往某處」是「draw someone somewhere」的用法，與本句語境不同。"
+        "draw-mcq-14": "本句的「draw a conclusion」指「根據證據或資料推導出判斷」。",
+        "draw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-14"
     },
@@ -1578,11 +1458,9 @@ export default {
       "masked": "What conclusion can we ____ from the data?",
       "options": [
         "draw-mcq-14",
-        "draw-mcq-13",
-        "draw-mcq-15",
-        "draw-mcq-12",
-        "draw-mcq-16",
-        "draw-mcq-11"
+        "draw-mcq-10",
+        "draw-mcq-06",
+        "draw-mcq-16"
       ],
       "explanation": "本句的「draw」指「根據證據或資料推導出判斷」。",
       "sentenceIndex": 30,
@@ -1591,12 +1469,10 @@ export default {
         "draw"
       ],
       "optionReasons": {
-        "draw-mcq-14": "本句指「根據證據或資料推導出判斷」。",
-        "draw-mcq-13": "「利用已有的經驗、知識、記憶或資源」是「draw on」的用法，與本句語境不同。",
-        "draw-mcq-15": "「根據已知資訊作出推論」是「draw an inference」的用法，與本句語境不同。",
-        "draw-mcq-12": "「從某個來源取得力量、靈感、資訊或好處」是「draw from」的用法，與本句語境不同。",
-        "draw-mcq-16": "「把兩個或以上事物並列作比較」是「draw a comparison」的用法，與本句語境不同。",
-        "draw-mcq-11": "「以吸引力令某人靠近或前往某處」是「draw someone somewhere」的用法，與本句語境不同。"
+        "draw-mcq-14": "本句的「draw」指「根據證據或資料推導出判斷」。",
+        "draw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-14"
     },
@@ -1608,11 +1484,9 @@ export default {
       "masked": "We can ____ from the results.",
       "options": [
         "draw-mcq-15",
-        "draw-mcq-14",
-        "draw-mcq-16",
-        "draw-mcq-13",
-        "draw-mcq-17",
-        "draw-mcq-12"
+        "draw-pdf-reviewed-01",
+        "draw-mcq-08",
+        "draw-mcq-09"
       ],
       "explanation": "本句的「draw an inference」指「根據已知資訊作出推論」。",
       "sentenceIndex": 31,
@@ -1621,12 +1495,10 @@ export default {
         "draw an inference"
       ],
       "optionReasons": {
-        "draw-mcq-15": "本句指「根據已知資訊作出推論」。",
-        "draw-mcq-14": "「根據證據或資料推導出判斷」是「draw a conclusion」的用法，與本句語境不同。",
-        "draw-mcq-16": "「把兩個或以上事物並列作比較」是「draw a comparison」的用法，與本句語境不同。",
-        "draw-mcq-13": "「利用已有的經驗、知識、記憶或資源」是「draw on」的用法，與本句語境不同。",
-        "draw-mcq-17": "「明確指出兩個概念／類別之間的差別」是「draw a distinction」的用法，與本句語境不同。",
-        "draw-mcq-12": "「從某個來源取得力量、靈感、資訊或好處」是「draw from」的用法，與本句語境不同。"
+        "draw-mcq-15": "本句的「draw an inference」指「根據已知資訊作出推論」。",
+        "draw-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-15"
     },
@@ -1638,11 +1510,9 @@ export default {
       "masked": "It is difficult to ____ from one example.",
       "options": [
         "draw-mcq-15",
-        "draw-mcq-14",
-        "draw-mcq-16",
-        "draw-mcq-13",
-        "draw-mcq-17",
-        "draw-mcq-12"
+        "draw-mcq-11",
+        "draw-mcq-26",
+        "draw-mcq-25"
       ],
       "explanation": "本句的「draw firm inferences」指「根據已知資訊作出推論」。",
       "sentenceIndex": 32,
@@ -1651,12 +1521,10 @@ export default {
         "draw firm inferences"
       ],
       "optionReasons": {
-        "draw-mcq-15": "本句指「根據已知資訊作出推論」。",
-        "draw-mcq-14": "「根據證據或資料推導出判斷」是「draw a conclusion」的用法，與本句語境不同。",
-        "draw-mcq-16": "「把兩個或以上事物並列作比較」是「draw a comparison」的用法，與本句語境不同。",
-        "draw-mcq-13": "「利用已有的經驗、知識、記憶或資源」是「draw on」的用法，與本句語境不同。",
-        "draw-mcq-17": "「明確指出兩個概念／類別之間的差別」是「draw a distinction」的用法，與本句語境不同。",
-        "draw-mcq-12": "「從某個來源取得力量、靈感、資訊或好處」是「draw from」的用法，與本句語境不同。"
+        "draw-mcq-15": "本句的「draw firm inferences」指「根據已知資訊作出推論」。",
+        "draw-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-15"
     },
@@ -1668,11 +1536,9 @@ export default {
       "masked": "The article ____ between the two systems.",
       "options": [
         "draw-mcq-16",
-        "draw-mcq-15",
-        "draw-mcq-17",
-        "draw-mcq-14",
-        "draw-mcq-18",
-        "draw-mcq-13"
+        "draw-pdf-reviewed-01",
+        "draw-mcq-20",
+        "draw-mcq-08"
       ],
       "explanation": "本句的「draws a comparison」指「把兩個或以上事物並列作比較」。",
       "sentenceIndex": 33,
@@ -1681,12 +1547,10 @@ export default {
         "draws a comparison"
       ],
       "optionReasons": {
-        "draw-mcq-16": "本句指「把兩個或以上事物並列作比較」。",
-        "draw-mcq-15": "「根據已知資訊作出推論」是「draw an inference」的用法，與本句語境不同。",
-        "draw-mcq-17": "「明確指出兩個概念／類別之間的差別」是「draw a distinction」的用法，與本句語境不同。",
-        "draw-mcq-14": "「根據證據或資料推導出判斷」是「draw a conclusion」的用法，與本句語境不同。",
-        "draw-mcq-18": "「設定不可再超越的界限／底線」是「draw the line」的用法，與本句語境不同。",
-        "draw-mcq-13": "「利用已有的經驗、知識、記憶或資源」是「draw on」的用法，與本句語境不同。"
+        "draw-mcq-16": "本句的「draws a comparison」指「把兩個或以上事物並列作比較」。",
+        "draw-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-16"
     },
@@ -1698,11 +1562,9 @@ export default {
       "masked": "It is useful to ____ between the two approaches.",
       "options": [
         "draw-mcq-16",
-        "draw-mcq-15",
-        "draw-mcq-17",
-        "draw-mcq-14",
-        "draw-mcq-18",
-        "draw-mcq-13"
+        "draw-mcq-09",
+        "draw-pdf-reviewed-01",
+        "draw-mcq-15"
       ],
       "explanation": "本句的「draw comparisons」指「把兩個或以上事物並列作比較」。",
       "sentenceIndex": 34,
@@ -1711,12 +1573,10 @@ export default {
         "draw comparisons"
       ],
       "optionReasons": {
-        "draw-mcq-16": "本句指「把兩個或以上事物並列作比較」。",
-        "draw-mcq-15": "「根據已知資訊作出推論」是「draw an inference」的用法，與本句語境不同。",
-        "draw-mcq-17": "「明確指出兩個概念／類別之間的差別」是「draw a distinction」的用法，與本句語境不同。",
-        "draw-mcq-14": "「根據證據或資料推導出判斷」是「draw a conclusion」的用法，與本句語境不同。",
-        "draw-mcq-18": "「設定不可再超越的界限／底線」是「draw the line」的用法，與本句語境不同。",
-        "draw-mcq-13": "「利用已有的經驗、知識、記憶或資源」是「draw on」的用法，與本句語境不同。"
+        "draw-mcq-16": "本句的「draw comparisons」指「把兩個或以上事物並列作比較」。",
+        "draw-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "draw-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-16"
     },
@@ -1728,11 +1588,9 @@ export default {
       "masked": "We need to ____ between the two meanings.",
       "options": [
         "draw-mcq-17",
-        "draw-mcq-16",
-        "draw-mcq-18",
-        "draw-mcq-15",
-        "draw-mcq-19",
-        "draw-mcq-14"
+        "draw-mcq-26",
+        "draw-mcq-25",
+        "draw-mcq-20"
       ],
       "explanation": "本句的「draw a distinction」指「明確指出兩個概念／類別之間的差別」。",
       "sentenceIndex": 35,
@@ -1741,12 +1599,10 @@ export default {
         "draw a distinction"
       ],
       "optionReasons": {
-        "draw-mcq-17": "本句指「明確指出兩個概念／類別之間的差別」。",
-        "draw-mcq-16": "「把兩個或以上事物並列作比較」是「draw a comparison」的用法，與本句語境不同。",
-        "draw-mcq-18": "「設定不可再超越的界限／底線」是「draw the line」的用法，與本句語境不同。",
-        "draw-mcq-15": "「根據已知資訊作出推論」是「draw an inference」的用法，與本句語境不同。",
-        "draw-mcq-19": "「以隨機抽取方式作決定」是「draw lots」的用法，與本句語境不同。",
-        "draw-mcq-14": "「根據證據或資料推導出判斷」是「draw a conclusion」的用法，與本句語境不同。"
+        "draw-mcq-17": "本句的「draw a distinction」指「明確指出兩個概念／類別之間的差別」。",
+        "draw-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-17"
     },
@@ -1758,11 +1614,9 @@ export default {
       "masked": "The law ____ between the two cases.",
       "options": [
         "draw-mcq-17",
-        "draw-mcq-16",
-        "draw-mcq-18",
-        "draw-mcq-15",
-        "draw-mcq-19",
-        "draw-mcq-14"
+        "draw-mcq-09",
+        "draw-pdf-reviewed-01",
+        "draw-mcq-04"
       ],
       "explanation": "本句的「draws a clear distinction」指「明確指出兩個概念／類別之間的差別」。",
       "sentenceIndex": 36,
@@ -1771,12 +1625,10 @@ export default {
         "draws a clear distinction"
       ],
       "optionReasons": {
-        "draw-mcq-17": "本句指「明確指出兩個概念／類別之間的差別」。",
-        "draw-mcq-16": "「把兩個或以上事物並列作比較」是「draw a comparison」的用法，與本句語境不同。",
-        "draw-mcq-18": "「設定不可再超越的界限／底線」是「draw the line」的用法，與本句語境不同。",
-        "draw-mcq-15": "「根據已知資訊作出推論」是「draw an inference」的用法，與本句語境不同。",
-        "draw-mcq-19": "「以隨機抽取方式作決定」是「draw lots」的用法，與本句語境不同。",
-        "draw-mcq-14": "「根據證據或資料推導出判斷」是「draw a conclusion」的用法，與本句語境不同。"
+        "draw-mcq-17": "本句的「draws a clear distinction」指「明確指出兩個概念／類別之間的差別」。",
+        "draw-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "draw-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-17"
     },
@@ -1788,11 +1640,9 @@ export default {
       "masked": "She ____ across the page.",
       "options": [
         "draw-mcq-18",
-        "draw-mcq-17",
-        "draw-mcq-19",
-        "draw-mcq-16",
-        "draw-mcq-20",
-        "draw-mcq-15"
+        "draw-mcq-10",
+        "draw-mcq-24",
+        "draw-mcq-26"
       ],
       "explanation": "本句的「drew a line」指「設定不可再超越的界限／底線」。",
       "sentenceIndex": 37,
@@ -1801,12 +1651,10 @@ export default {
         "drew a line"
       ],
       "optionReasons": {
-        "draw-mcq-18": "本句指「設定不可再超越的界限／底線」。",
-        "draw-mcq-17": "「明確指出兩個概念／類別之間的差別」是「draw a distinction」的用法，與本句語境不同。",
-        "draw-mcq-19": "「以隨機抽取方式作決定」是「draw lots」的用法，與本句語境不同。",
-        "draw-mcq-16": "「把兩個或以上事物並列作比較」是「draw a comparison」的用法，與本句語境不同。",
-        "draw-mcq-20": "「從一組項目中隨機抽取一個」是「draw a card/name/number」的用法，與本句語境不同。",
-        "draw-mcq-15": "「根據已知資訊作出推論」是「draw an inference」的用法，與本句語境不同。"
+        "draw-mcq-18": "本句的「drew a line」指「設定不可再超越的界限／底線」。",
+        "draw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-18"
     },
@@ -1818,11 +1666,9 @@ export default {
       "masked": "We have to ____ somewhere.",
       "options": [
         "draw-mcq-18",
-        "draw-mcq-17",
-        "draw-mcq-19",
-        "draw-mcq-16",
-        "draw-mcq-20",
-        "draw-mcq-15"
+        "draw-mcq-08",
+        "draw-mcq-04",
+        "draw-mcq-17"
       ],
       "explanation": "本句的「draw the line」指「設定不可再超越的界限／底線」。",
       "sentenceIndex": 38,
@@ -1831,12 +1677,10 @@ export default {
         "draw the line"
       ],
       "optionReasons": {
-        "draw-mcq-18": "本句指「設定不可再超越的界限／底線」。",
-        "draw-mcq-17": "「明確指出兩個概念／類別之間的差別」是「draw a distinction」的用法，與本句語境不同。",
-        "draw-mcq-19": "「以隨機抽取方式作決定」是「draw lots」的用法，與本句語境不同。",
-        "draw-mcq-16": "「把兩個或以上事物並列作比較」是「draw a comparison」的用法，與本句語境不同。",
-        "draw-mcq-20": "「從一組項目中隨機抽取一個」是「draw a card/name/number」的用法，與本句語境不同。",
-        "draw-mcq-15": "「根據已知資訊作出推論」是「draw an inference」的用法，與本句語境不同。"
+        "draw-mcq-18": "本句的「draw the line」指「設定不可再超越的界限／底線」。",
+        "draw-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-18"
     },
@@ -1848,11 +1692,9 @@ export default {
       "masked": "I don’t mind helping, but I ____ doing all the work.",
       "options": [
         "draw-mcq-18",
+        "draw-mcq-28",
         "draw-mcq-17",
-        "draw-mcq-19",
-        "draw-mcq-16",
-        "draw-mcq-20",
-        "draw-mcq-15"
+        "draw-mcq-10"
       ],
       "explanation": "本句的「draw the line at」指「設定不可再超越的界限／底線」。",
       "sentenceIndex": 39,
@@ -1861,12 +1703,10 @@ export default {
         "draw the line at"
       ],
       "optionReasons": {
-        "draw-mcq-18": "本句指「設定不可再超越的界限／底線」。",
-        "draw-mcq-17": "「明確指出兩個概念／類別之間的差別」是「draw a distinction」的用法，與本句語境不同。",
-        "draw-mcq-19": "「以隨機抽取方式作決定」是「draw lots」的用法，與本句語境不同。",
-        "draw-mcq-16": "「把兩個或以上事物並列作比較」是「draw a comparison」的用法，與本句語境不同。",
-        "draw-mcq-20": "「從一組項目中隨機抽取一個」是「draw a card/name/number」的用法，與本句語境不同。",
-        "draw-mcq-15": "「根據已知資訊作出推論」是「draw an inference」的用法，與本句語境不同。"
+        "draw-mcq-18": "本句的「draw the line at」指「設定不可再超越的界限／底線」。",
+        "draw-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-18"
     },
@@ -1878,11 +1718,9 @@ export default {
       "masked": "She ____ dishonesty.",
       "options": [
         "draw-mcq-18",
-        "draw-mcq-17",
-        "draw-mcq-19",
-        "draw-mcq-16",
-        "draw-mcq-20",
-        "draw-mcq-15"
+        "draw-mcq-13",
+        "draw-mcq-01",
+        "draw-mcq-06"
       ],
       "explanation": "本句的「draws the line at」指「設定不可再超越的界限／底線」。",
       "sentenceIndex": 40,
@@ -1891,12 +1729,10 @@ export default {
         "draws the line at"
       ],
       "optionReasons": {
-        "draw-mcq-18": "本句指「設定不可再超越的界限／底線」。",
-        "draw-mcq-17": "「明確指出兩個概念／類別之間的差別」是「draw a distinction」的用法，與本句語境不同。",
-        "draw-mcq-19": "「以隨機抽取方式作決定」是「draw lots」的用法，與本句語境不同。",
-        "draw-mcq-16": "「把兩個或以上事物並列作比較」是「draw a comparison」的用法，與本句語境不同。",
-        "draw-mcq-20": "「從一組項目中隨機抽取一個」是「draw a card/name/number」的用法，與本句語境不同。",
-        "draw-mcq-15": "「根據已知資訊作出推論」是「draw an inference」的用法，與本句語境不同。"
+        "draw-mcq-18": "本句的「draws the line at」指「設定不可再超越的界限／底線」。",
+        "draw-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-18"
     },
@@ -1908,11 +1744,9 @@ export default {
       "masked": "We ____ to decide who would go first.",
       "options": [
         "draw-mcq-19",
-        "draw-mcq-18",
-        "draw-mcq-20",
-        "draw-mcq-17",
-        "draw-mcq-21",
-        "draw-mcq-16"
+        "draw-mcq-26",
+        "draw-mcq-08",
+        "draw-mcq-22"
       ],
       "explanation": "本句的「drew lots」指「以隨機抽取方式作決定」。",
       "sentenceIndex": 41,
@@ -1921,12 +1755,10 @@ export default {
         "drew lots"
       ],
       "optionReasons": {
-        "draw-mcq-19": "本句指「以隨機抽取方式作決定」。",
-        "draw-mcq-18": "「設定不可再超越的界限／底線」是「draw the line」的用法，與本句語境不同。",
-        "draw-mcq-20": "「從一組項目中隨機抽取一個」是「draw a card/name/number」的用法，與本句語境不同。",
-        "draw-mcq-17": "「明確指出兩個概念／類別之間的差別」是「draw a distinction」的用法，與本句語境不同。",
-        "draw-mcq-21": "「比賽雙方最終得分相同」是「draw — sports verb」的用法，與本句語境不同。",
-        "draw-mcq-16": "「把兩個或以上事物並列作比較」是「draw a comparison」的用法，與本句語境不同。"
+        "draw-mcq-19": "本句的「drew lots」指「以隨機抽取方式作決定」。",
+        "draw-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-19"
     },
@@ -1938,11 +1770,9 @@ export default {
       "masked": "The teams ____ for their positions.",
       "options": [
         "draw-mcq-19",
-        "draw-mcq-18",
-        "draw-mcq-20",
-        "draw-mcq-17",
-        "draw-mcq-21",
-        "draw-mcq-16"
+        "draw-mcq-14",
+        "draw-mcq-09",
+        "draw-mcq-02"
       ],
       "explanation": "本句的「drew lots」指「以隨機抽取方式作決定」。",
       "sentenceIndex": 42,
@@ -1951,12 +1781,10 @@ export default {
         "drew lots"
       ],
       "optionReasons": {
-        "draw-mcq-19": "本句指「以隨機抽取方式作決定」。",
-        "draw-mcq-18": "「設定不可再超越的界限／底線」是「draw the line」的用法，與本句語境不同。",
-        "draw-mcq-20": "「從一組項目中隨機抽取一個」是「draw a card/name/number」的用法，與本句語境不同。",
-        "draw-mcq-17": "「明確指出兩個概念／類別之間的差別」是「draw a distinction」的用法，與本句語境不同。",
-        "draw-mcq-21": "「比賽雙方最終得分相同」是「draw — sports verb」的用法，與本句語境不同。",
-        "draw-mcq-16": "「把兩個或以上事物並列作比較」是「draw a comparison」的用法，與本句語境不同。"
+        "draw-mcq-19": "本句的「drew lots」指「以隨機抽取方式作決定」。",
+        "draw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-19"
     },
@@ -1968,11 +1796,9 @@ export default {
       "masked": "She ____ a number from the box.",
       "options": [
         "draw-mcq-20",
-        "draw-mcq-19",
-        "draw-mcq-21",
         "draw-mcq-18",
-        "draw-mcq-22",
-        "draw-mcq-17"
+        "draw-mcq-01",
+        "draw-mcq-13"
       ],
       "explanation": "本句的「drew」指「從一組項目中隨機抽取一個」。",
       "sentenceIndex": 43,
@@ -1981,12 +1807,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-20": "本句指「從一組項目中隨機抽取一個」。",
-        "draw-mcq-19": "「以隨機抽取方式作決定」是「draw lots」的用法，與本句語境不同。",
-        "draw-mcq-21": "「比賽雙方最終得分相同」是「draw — sports verb」的用法，與本句語境不同。",
-        "draw-mcq-18": "「設定不可再超越的界限／底線」是「draw the line」的用法，與本句語境不同。",
-        "draw-mcq-22": "「沒有勝負、雙方得分相同的比賽結果」是「draw — sports noun」的用法，與本句語境不同。",
-        "draw-mcq-17": "「明確指出兩個概念／類別之間的差別」是「draw a distinction」的用法，與本句語境不同。"
+        "draw-mcq-20": "本句的「drew」指「從一組項目中隨機抽取一個」。",
+        "draw-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-20"
     },
@@ -1998,10 +1822,8 @@ export default {
       "masked": "His name was ____ first.",
       "options": [
         "draw-mcq-20",
-        "draw-mcq-19",
         "draw-mcq-21",
-        "draw-mcq-18",
-        "draw-mcq-22",
+        "draw-mcq-01",
         "draw-mcq-17"
       ],
       "explanation": "本句的「drawn」指「從一組項目中隨機抽取一個」。",
@@ -2011,12 +1833,10 @@ export default {
         "drawn"
       ],
       "optionReasons": {
-        "draw-mcq-20": "本句指「從一組項目中隨機抽取一個」。",
-        "draw-mcq-19": "「以隨機抽取方式作決定」是「draw lots」的用法，與本句語境不同。",
-        "draw-mcq-21": "「比賽雙方最終得分相同」是「draw — sports verb」的用法，與本句語境不同。",
-        "draw-mcq-18": "「設定不可再超越的界限／底線」是「draw the line」的用法，與本句語境不同。",
-        "draw-mcq-22": "「沒有勝負、雙方得分相同的比賽結果」是「draw — sports noun」的用法，與本句語境不同。",
-        "draw-mcq-17": "「明確指出兩個概念／類別之間的差別」是「draw a distinction」的用法，與本句語境不同。"
+        "draw-mcq-20": "本句的「drawn」指「從一組項目中隨機抽取一個」。",
+        "draw-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-20"
     },
@@ -2028,11 +1848,9 @@ export default {
       "masked": "The teams ____ 1–1.",
       "options": [
         "draw-mcq-21",
-        "draw-mcq-20",
-        "draw-mcq-22",
-        "draw-mcq-19",
-        "draw-mcq-23",
-        "draw-mcq-18"
+        "draw-mcq-14",
+        "draw-mcq-08",
+        "draw-mcq-25"
       ],
       "explanation": "本句的「drew」指「比賽雙方最終得分相同」。",
       "sentenceIndex": 45,
@@ -2041,12 +1859,10 @@ export default {
         "drew"
       ],
       "optionReasons": {
-        "draw-mcq-21": "本句指「比賽雙方最終得分相同」。",
-        "draw-mcq-20": "「從一組項目中隨機抽取一個」是「draw a card/name/number」的用法，與本句語境不同。",
-        "draw-mcq-22": "「沒有勝負、雙方得分相同的比賽結果」是「draw — sports noun」的用法，與本句語境不同。",
-        "draw-mcq-19": "「以隨機抽取方式作決定」是「draw lots」的用法，與本句語境不同。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」是「draw — lottery/selection noun」的用法，與本句語境不同。",
-        "draw-mcq-18": "「設定不可再超越的界限／底線」是「draw the line」的用法，與本句語境不同。"
+        "draw-mcq-21": "本句的「drew」指「比賽雙方最終得分相同」。",
+        "draw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-21"
     },
@@ -2058,11 +1874,9 @@ export default {
       "masked": "They ____ the league leaders.",
       "options": [
         "draw-mcq-21",
-        "draw-mcq-20",
-        "draw-mcq-22",
-        "draw-mcq-19",
-        "draw-mcq-23",
-        "draw-mcq-18"
+        "draw-mcq-05",
+        "draw-mcq-10",
+        "draw-mcq-19"
       ],
       "explanation": "本句的「drew with」指「比賽雙方最終得分相同」。",
       "sentenceIndex": 46,
@@ -2071,12 +1885,10 @@ export default {
         "drew with"
       ],
       "optionReasons": {
-        "draw-mcq-21": "本句指「比賽雙方最終得分相同」。",
-        "draw-mcq-20": "「從一組項目中隨機抽取一個」是「draw a card/name/number」的用法，與本句語境不同。",
-        "draw-mcq-22": "「沒有勝負、雙方得分相同的比賽結果」是「draw — sports noun」的用法，與本句語境不同。",
-        "draw-mcq-19": "「以隨機抽取方式作決定」是「draw lots」的用法，與本句語境不同。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」是「draw — lottery/selection noun」的用法，與本句語境不同。",
-        "draw-mcq-18": "「設定不可再超越的界限／底線」是「draw the line」的用法，與本句語境不同。"
+        "draw-mcq-21": "本句的「drew with」指「比賽雙方最終得分相同」。",
+        "draw-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-21"
     },
@@ -2088,11 +1900,9 @@ export default {
       "masked": "The match ended in a ____.",
       "options": [
         "draw-mcq-22",
-        "draw-mcq-21",
-        "draw-mcq-23",
-        "draw-mcq-20",
-        "draw-mcq-24",
-        "draw-mcq-19"
+        "draw-mcq-11",
+        "draw-mcq-02",
+        "draw-mcq-12"
       ],
       "explanation": "本句的「draw」指「沒有勝負、雙方得分相同的比賽結果」。",
       "sentenceIndex": 47,
@@ -2101,12 +1911,10 @@ export default {
         "draw"
       ],
       "optionReasons": {
-        "draw-mcq-22": "本句指「沒有勝負、雙方得分相同的比賽結果」。",
-        "draw-mcq-21": "「比賽雙方最終得分相同」是「draw — sports verb」的用法，與本句語境不同。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」是「draw — lottery/selection noun」的用法，與本句語境不同。",
-        "draw-mcq-20": "「從一組項目中隨機抽取一個」是「draw a card/name/number」的用法，與本句語境不同。",
-        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」是「draw — attraction noun」的用法，與本句語境不同。",
-        "draw-mcq-19": "「以隨機抽取方式作決定」是「draw lots」的用法，與本句語境不同。"
+        "draw-mcq-22": "本句的「draw」指「沒有勝負、雙方得分相同的比賽結果」。",
+        "draw-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-22"
     },
@@ -2118,9 +1926,7 @@ export default {
       "masked": "A ____ was enough to keep them in the competition.",
       "options": [
         "draw-mcq-22",
-        "draw-mcq-21",
-        "draw-mcq-23",
-        "draw-mcq-20",
+        "draw-mcq-01",
         "draw-mcq-24",
         "draw-mcq-19"
       ],
@@ -2131,12 +1937,10 @@ export default {
         "draw"
       ],
       "optionReasons": {
-        "draw-mcq-22": "本句指「沒有勝負、雙方得分相同的比賽結果」。",
-        "draw-mcq-21": "「比賽雙方最終得分相同」是「draw — sports verb」的用法，與本句語境不同。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」是「draw — lottery/selection noun」的用法，與本句語境不同。",
-        "draw-mcq-20": "「從一組項目中隨機抽取一個」是「draw a card/name/number」的用法，與本句語境不同。",
-        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」是「draw — attraction noun」的用法，與本句語境不同。",
-        "draw-mcq-19": "「以隨機抽取方式作決定」是「draw lots」的用法，與本句語境不同。"
+        "draw-mcq-22": "本句的「draw」指「沒有勝負、雙方得分相同的比賽結果」。",
+        "draw-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-22"
     },
@@ -2148,11 +1952,9 @@ export default {
       "masked": "The prize ____ will take place tomorrow.",
       "options": [
         "draw-mcq-23",
-        "draw-mcq-22",
-        "draw-mcq-24",
-        "draw-mcq-21",
-        "draw-mcq-25",
-        "draw-mcq-20"
+        "draw-mcq-16",
+        "draw-mcq-07",
+        "draw-mcq-04"
       ],
       "explanation": "本句的「draw」指「以隨機方式選出號碼、人或配對的活動／結果」。",
       "sentenceIndex": 49,
@@ -2161,12 +1963,10 @@ export default {
         "draw"
       ],
       "optionReasons": {
-        "draw-mcq-23": "本句指「以隨機方式選出號碼、人或配對的活動／結果」。",
-        "draw-mcq-22": "「沒有勝負、雙方得分相同的比賽結果」是「draw — sports noun」的用法，與本句語境不同。",
-        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」是「draw — attraction noun」的用法，與本句語境不同。",
-        "draw-mcq-21": "「比賽雙方最終得分相同」是「draw — sports verb」的用法，與本句語境不同。",
-        "draw-mcq-25": "「用筆等畫成的圖像或作品」是「drawing — artwork」的用法，與本句語境不同。",
-        "draw-mcq-20": "「從一組項目中隨機抽取一個」是「draw a card/name/number」的用法，與本句語境不同。"
+        "draw-mcq-23": "本句的「draw」指「以隨機方式選出號碼、人或配對的活動／結果」。",
+        "draw-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-23"
     },
@@ -2178,11 +1978,9 @@ export default {
       "masked": "The tournament ____ was announced today.",
       "options": [
         "draw-mcq-23",
-        "draw-mcq-22",
-        "draw-mcq-24",
+        "draw-mcq-09",
         "draw-mcq-21",
-        "draw-mcq-25",
-        "draw-mcq-20"
+        "draw-mcq-04"
       ],
       "explanation": "本句的「draw」指「以隨機方式選出號碼、人或配對的活動／結果」。",
       "sentenceIndex": 50,
@@ -2191,12 +1989,10 @@ export default {
         "draw"
       ],
       "optionReasons": {
-        "draw-mcq-23": "本句指「以隨機方式選出號碼、人或配對的活動／結果」。",
-        "draw-mcq-22": "「沒有勝負、雙方得分相同的比賽結果」是「draw — sports noun」的用法，與本句語境不同。",
-        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」是「draw — attraction noun」的用法，與本句語境不同。",
-        "draw-mcq-21": "「比賽雙方最終得分相同」是「draw — sports verb」的用法，與本句語境不同。",
-        "draw-mcq-25": "「用筆等畫成的圖像或作品」是「drawing — artwork」的用法，與本句語境不同。",
-        "draw-mcq-20": "「從一組項目中隨機抽取一個」是「draw a card/name/number」的用法，與本句語境不同。"
+        "draw-mcq-23": "本句的「draw」指「以隨機方式選出號碼、人或配對的活動／結果」。",
+        "draw-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-23"
     },
@@ -2208,11 +2004,9 @@ export default {
       "masked": "The beach is the area’s biggest ____.",
       "options": [
         "draw-mcq-24",
-        "draw-mcq-23",
-        "draw-mcq-25",
-        "draw-mcq-22",
-        "draw-mcq-26",
-        "draw-mcq-21"
+        "draw-mcq-05",
+        "draw-mcq-02",
+        "draw-mcq-19"
       ],
       "explanation": "本句的「draw」指「能吸引觀眾、遊客或顧客的人／事物」。",
       "sentenceIndex": 51,
@@ -2221,12 +2015,10 @@ export default {
         "draw"
       ],
       "optionReasons": {
-        "draw-mcq-24": "本句指「能吸引觀眾、遊客或顧客的人／事物」。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」是「draw — lottery/selection noun」的用法，與本句語境不同。",
-        "draw-mcq-25": "「用筆等畫成的圖像或作品」是「drawing — artwork」的用法，與本句語境不同。",
-        "draw-mcq-22": "「沒有勝負、雙方得分相同的比賽結果」是「draw — sports noun」的用法，與本句語境不同。",
-        "draw-mcq-26": "「畫圖這項活動、技能或藝術形式」是「drawing — activity/skill」的用法，與本句語境不同。",
-        "draw-mcq-21": "「比賽雙方最終得分相同」是「draw — sports verb」的用法，與本句語境不同。"
+        "draw-mcq-24": "本句的「draw」指「能吸引觀眾、遊客或顧客的人／事物」。",
+        "draw-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-24"
     },
@@ -2238,11 +2030,9 @@ export default {
       "masked": "The famous singer was the main ____.",
       "options": [
         "draw-mcq-24",
-        "draw-mcq-23",
-        "draw-mcq-25",
-        "draw-mcq-22",
         "draw-mcq-26",
-        "draw-mcq-21"
+        "draw-mcq-05",
+        "draw-mcq-28"
       ],
       "explanation": "本句的「draw」指「能吸引觀眾、遊客或顧客的人／事物」。",
       "sentenceIndex": 52,
@@ -2251,12 +2041,10 @@ export default {
         "draw"
       ],
       "optionReasons": {
-        "draw-mcq-24": "本句指「能吸引觀眾、遊客或顧客的人／事物」。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」是「draw — lottery/selection noun」的用法，與本句語境不同。",
-        "draw-mcq-25": "「用筆等畫成的圖像或作品」是「drawing — artwork」的用法，與本句語境不同。",
-        "draw-mcq-22": "「沒有勝負、雙方得分相同的比賽結果」是「draw — sports noun」的用法，與本句語境不同。",
-        "draw-mcq-26": "「畫圖這項活動、技能或藝術形式」是「drawing — activity/skill」的用法，與本句語境不同。",
-        "draw-mcq-21": "「比賽雙方最終得分相同」是「draw — sports verb」的用法，與本句語境不同。"
+        "draw-mcq-24": "本句的「draw」指「能吸引觀眾、遊客或顧客的人／事物」。",
+        "draw-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-24"
     },
@@ -2268,11 +2056,9 @@ export default {
       "masked": "Leo showed me a ____ of a city.",
       "options": [
         "draw-mcq-25",
-        "draw-mcq-24",
-        "draw-mcq-26",
+        "draw-mcq-07",
         "draw-mcq-23",
-        "draw-mcq-27",
-        "draw-mcq-22"
+        "draw-mcq-05"
       ],
       "explanation": "本句的「drawing」指「用筆等畫成的圖像或作品」。",
       "sentenceIndex": 53,
@@ -2281,12 +2067,10 @@ export default {
         "drawing"
       ],
       "optionReasons": {
-        "draw-mcq-25": "本句指「用筆等畫成的圖像或作品」。",
-        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」是「draw — attraction noun」的用法，與本句語境不同。",
-        "draw-mcq-26": "「畫圖這項活動、技能或藝術形式」是「drawing — activity/skill」的用法，與本句語境不同。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」是「draw — lottery/selection noun」的用法，與本句語境不同。",
-        "draw-mcq-27": "「顯示物件、建築或機械結構和尺寸的技術圖則」是「drawing — technical plan」的用法，與本句語境不同。",
-        "draw-mcq-22": "「沒有勝負、雙方得分相同的比賽結果」是「draw — sports noun」的用法，與本句語境不同。"
+        "draw-mcq-25": "本句的「drawing」指「用筆等畫成的圖像或作品」。",
+        "draw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-25"
     },
@@ -2298,11 +2082,9 @@ export default {
       "masked": "The child’s ____ was full of detail.",
       "options": [
         "draw-mcq-25",
-        "draw-mcq-24",
-        "draw-mcq-26",
-        "draw-mcq-23",
-        "draw-mcq-27",
-        "draw-mcq-22"
+        "draw-mcq-19",
+        "draw-mcq-04",
+        "draw-mcq-21"
       ],
       "explanation": "本句的「drawing」指「用筆等畫成的圖像或作品」。",
       "sentenceIndex": 54,
@@ -2311,12 +2093,10 @@ export default {
         "drawing"
       ],
       "optionReasons": {
-        "draw-mcq-25": "本句指「用筆等畫成的圖像或作品」。",
-        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」是「draw — attraction noun」的用法，與本句語境不同。",
-        "draw-mcq-26": "「畫圖這項活動、技能或藝術形式」是「drawing — activity/skill」的用法，與本句語境不同。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」是「draw — lottery/selection noun」的用法，與本句語境不同。",
-        "draw-mcq-27": "「顯示物件、建築或機械結構和尺寸的技術圖則」是「drawing — technical plan」的用法，與本句語境不同。",
-        "draw-mcq-22": "「沒有勝負、雙方得分相同的比賽結果」是「draw — sports noun」的用法，與本句語境不同。"
+        "draw-mcq-25": "本句的「drawing」指「用筆等畫成的圖像或作品」。",
+        "draw-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-25"
     },
@@ -2328,11 +2108,9 @@ export default {
       "masked": "She is good at ____.",
       "options": [
         "draw-mcq-26",
-        "draw-mcq-25",
-        "draw-mcq-27",
-        "draw-mcq-24",
-        "draw-mcq-28",
-        "draw-mcq-23"
+        "draw-mcq-18",
+        "draw-mcq-11",
+        "draw-mcq-06"
       ],
       "explanation": "本句的「drawing」指「畫圖這項活動、技能或藝術形式」。",
       "sentenceIndex": 55,
@@ -2341,12 +2119,10 @@ export default {
         "drawing"
       ],
       "optionReasons": {
-        "draw-mcq-26": "本句指「畫圖這項活動、技能或藝術形式」。",
-        "draw-mcq-25": "「用筆等畫成的圖像或作品」是「drawing — artwork」的用法，與本句語境不同。",
-        "draw-mcq-27": "「顯示物件、建築或機械結構和尺寸的技術圖則」是「drawing — technical plan」的用法，與本句語境不同。",
-        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」是「draw — attraction noun」的用法，與本句語境不同。",
-        "draw-mcq-28": "「家具中可拉出和推回、用來存放物品的盒狀部分」是「drawer — furniture」的用法，與本句語境不同。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」是「draw — lottery/selection noun」的用法，與本句語境不同。"
+        "draw-mcq-26": "本句的「drawing」指「畫圖這項活動、技能或藝術形式」。",
+        "draw-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-26"
     },
@@ -2358,11 +2134,9 @@ export default {
       "masked": "The course teaches basic ____.",
       "options": [
         "draw-mcq-26",
-        "draw-mcq-25",
-        "draw-mcq-27",
-        "draw-mcq-24",
-        "draw-mcq-28",
-        "draw-mcq-23"
+        "draw-mcq-14",
+        "draw-mcq-09",
+        "draw-mcq-08"
       ],
       "explanation": "本句的「drawing」指「畫圖這項活動、技能或藝術形式」。",
       "sentenceIndex": 56,
@@ -2371,12 +2145,10 @@ export default {
         "drawing"
       ],
       "optionReasons": {
-        "draw-mcq-26": "本句指「畫圖這項活動、技能或藝術形式」。",
-        "draw-mcq-25": "「用筆等畫成的圖像或作品」是「drawing — artwork」的用法，與本句語境不同。",
-        "draw-mcq-27": "「顯示物件、建築或機械結構和尺寸的技術圖則」是「drawing — technical plan」的用法，與本句語境不同。",
-        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」是「draw — attraction noun」的用法，與本句語境不同。",
-        "draw-mcq-28": "「家具中可拉出和推回、用來存放物品的盒狀部分」是「drawer — furniture」的用法，與本句語境不同。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」是「draw — lottery/selection noun」的用法，與本句語境不同。"
+        "draw-mcq-26": "本句的「drawing」指「畫圖這項活動、技能或藝術形式」。",
+        "draw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-26"
     },
@@ -2388,11 +2160,9 @@ export default {
       "masked": "The engineer checked the technical ____.",
       "options": [
         "draw-mcq-27",
-        "draw-mcq-26",
-        "draw-mcq-28",
-        "draw-mcq-25",
-        "draw-mcq-24",
-        "draw-mcq-23"
+        "draw-mcq-12",
+        "draw-mcq-02",
+        "draw-mcq-11"
       ],
       "explanation": "本句的「drawings」指「顯示物件、建築或機械結構和尺寸的技術圖則」。",
       "sentenceIndex": 57,
@@ -2401,12 +2171,10 @@ export default {
         "drawings"
       ],
       "optionReasons": {
-        "draw-mcq-27": "本句指「顯示物件、建築或機械結構和尺寸的技術圖則」。",
-        "draw-mcq-26": "「畫圖這項活動、技能或藝術形式」是「drawing — activity/skill」的用法，與本句語境不同。",
-        "draw-mcq-28": "「家具中可拉出和推回、用來存放物品的盒狀部分」是「drawer — furniture」的用法，與本句語境不同。",
-        "draw-mcq-25": "「用筆等畫成的圖像或作品」是「drawing — artwork」的用法，與本句語境不同。",
-        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」是「draw — attraction noun」的用法，與本句語境不同。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」是「draw — lottery/selection noun」的用法，與本句語境不同。"
+        "draw-mcq-27": "本句的「drawings」指「顯示物件、建築或機械結構和尺寸的技術圖則」。",
+        "draw-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-27"
     },
@@ -2418,11 +2186,9 @@ export default {
       "masked": "The contractor followed the architect’s ____.",
       "options": [
         "draw-mcq-27",
-        "draw-mcq-26",
-        "draw-mcq-28",
-        "draw-mcq-25",
         "draw-mcq-24",
-        "draw-mcq-23"
+        "draw-mcq-12",
+        "draw-mcq-02"
       ],
       "explanation": "本句的「drawings」指「顯示物件、建築或機械結構和尺寸的技術圖則」。",
       "sentenceIndex": 58,
@@ -2431,12 +2197,10 @@ export default {
         "drawings"
       ],
       "optionReasons": {
-        "draw-mcq-27": "本句指「顯示物件、建築或機械結構和尺寸的技術圖則」。",
-        "draw-mcq-26": "「畫圖這項活動、技能或藝術形式」是「drawing — activity/skill」的用法，與本句語境不同。",
-        "draw-mcq-28": "「家具中可拉出和推回、用來存放物品的盒狀部分」是「drawer — furniture」的用法，與本句語境不同。",
-        "draw-mcq-25": "「用筆等畫成的圖像或作品」是「drawing — artwork」的用法，與本句語境不同。",
-        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」是「draw — attraction noun」的用法，與本句語境不同。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」是「draw — lottery/selection noun」的用法，與本句語境不同。"
+        "draw-mcq-27": "本句的「drawings」指「顯示物件、建築或機械結構和尺寸的技術圖則」。",
+        "draw-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-27"
     },
@@ -2449,10 +2213,8 @@ export default {
       "options": [
         "draw-mcq-28",
         "draw-mcq-27",
-        "draw-mcq-26",
-        "draw-mcq-25",
-        "draw-mcq-24",
-        "draw-mcq-23"
+        "draw-mcq-07",
+        "draw-mcq-13"
       ],
       "explanation": "本句的「drawer」指「家具中可拉出和推回、用來存放物品的盒狀部分」。",
       "sentenceIndex": 59,
@@ -2461,12 +2223,10 @@ export default {
         "drawer"
       ],
       "optionReasons": {
-        "draw-mcq-28": "本句指「家具中可拉出和推回、用來存放物品的盒狀部分」。",
-        "draw-mcq-27": "「顯示物件、建築或機械結構和尺寸的技術圖則」是「drawing — technical plan」的用法，與本句語境不同。",
-        "draw-mcq-26": "「畫圖這項活動、技能或藝術形式」是「drawing — activity/skill」的用法，與本句語境不同。",
-        "draw-mcq-25": "「用筆等畫成的圖像或作品」是「drawing — artwork」的用法，與本句語境不同。",
-        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」是「draw — attraction noun」的用法，與本句語境不同。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」是「draw — lottery/selection noun」的用法，與本句語境不同。"
+        "draw-mcq-28": "本句的「drawer」指「家具中可拉出和推回、用來存放物品的盒狀部分」。",
+        "draw-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-28"
     },
@@ -2478,11 +2238,9 @@ export default {
       "masked": "She opened the desk ____.",
       "options": [
         "draw-mcq-28",
-        "draw-mcq-27",
-        "draw-mcq-26",
-        "draw-mcq-25",
-        "draw-mcq-24",
-        "draw-mcq-23"
+        "draw-mcq-08",
+        "draw-pdf-reviewed-01",
+        "draw-mcq-16"
       ],
       "explanation": "本句的「drawer」指「家具中可拉出和推回、用來存放物品的盒狀部分」。",
       "sentenceIndex": 60,
@@ -2491,12 +2249,10 @@ export default {
         "drawer"
       ],
       "optionReasons": {
-        "draw-mcq-28": "本句指「家具中可拉出和推回、用來存放物品的盒狀部分」。",
-        "draw-mcq-27": "「顯示物件、建築或機械結構和尺寸的技術圖則」是「drawing — technical plan」的用法，與本句語境不同。",
-        "draw-mcq-26": "「畫圖這項活動、技能或藝術形式」是「drawing — activity/skill」的用法，與本句語境不同。",
-        "draw-mcq-25": "「用筆等畫成的圖像或作品」是「drawing — artwork」的用法，與本句語境不同。",
-        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」是「draw — attraction noun」的用法，與本句語境不同。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」是「draw — lottery/selection noun」的用法，與本句語境不同。"
+        "draw-mcq-28": "本句的「drawer」指「家具中可拉出和推回、用來存放物品的盒狀部分」。",
+        "draw-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "draw-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-mcq-28"
     },
@@ -2508,11 +2264,9 @@ export default {
       "masked": "He is a skilled ____.",
       "options": [
         "draw-pdf-reviewed-01",
-        "draw-mcq-27",
-        "draw-mcq-26",
-        "draw-mcq-25",
-        "draw-mcq-24",
-        "draw-mcq-23"
+        "draw-mcq-10",
+        "draw-mcq-07",
+        "draw-mcq-21"
       ],
       "explanation": "本句的「drawer」指「畫圖的人」。",
       "sentenceIndex": 61,
@@ -2521,12 +2275,10 @@ export default {
         "drawer"
       ],
       "optionReasons": {
-        "draw-pdf-reviewed-01": "本句指「畫圖的人」。",
-        "draw-mcq-27": "「顯示物件、建築或機械結構和尺寸的技術圖則」與本句語境不同。",
-        "draw-mcq-26": "「畫圖這項活動、技能或藝術形式」與本句語境不同。",
-        "draw-mcq-25": "「用筆等畫成的圖像或作品」與本句語境不同。",
-        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」與本句語境不同。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」與本句語境不同。"
+        "draw-pdf-reviewed-01": "本句的「drawer」指「畫圖的人」。",
+        "draw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-pdf-reviewed-01"
     },
@@ -2538,11 +2290,9 @@ export default {
       "masked": "The better ____ completed the sketch quickly.",
       "options": [
         "draw-pdf-reviewed-01",
-        "draw-mcq-27",
-        "draw-mcq-26",
-        "draw-mcq-25",
-        "draw-mcq-24",
-        "draw-mcq-23"
+        "draw-mcq-16",
+        "draw-mcq-04",
+        "draw-mcq-05"
       ],
       "explanation": "本句的「drawer」指「畫圖的人」。",
       "sentenceIndex": 62,
@@ -2551,12 +2301,10 @@ export default {
         "drawer"
       ],
       "optionReasons": {
-        "draw-pdf-reviewed-01": "本句指「畫圖的人」。",
-        "draw-mcq-27": "「顯示物件、建築或機械結構和尺寸的技術圖則」與本句語境不同。",
-        "draw-mcq-26": "「畫圖這項活動、技能或藝術形式」與本句語境不同。",
-        "draw-mcq-25": "「用筆等畫成的圖像或作品」與本句語境不同。",
-        "draw-mcq-24": "「能吸引觀眾、遊客或顧客的人／事物」與本句語境不同。",
-        "draw-mcq-23": "「以隨機方式選出號碼、人或配對的活動／結果」與本句語境不同。"
+        "draw-pdf-reviewed-01": "本句的「drawer」指「畫圖的人」。",
+        "draw-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "draw-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "draw-pdf-reviewed-01"
     }
@@ -2568,5 +2316,7 @@ export default {
     "sha256": "888927f090f6be7edfb534fe7d712d71cc4c4c5574da501447a05709275c3c73",
     "pages": 24
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -623,11 +623,7 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "blame-mcq-01",
-        "blame-mcq-02",
-        "blame-mcq-03",
-        "blame-mcq-04",
-        "blame-mcq-05",
-        "blame-mcq-06"
+        "blame-mcq-16"
       ],
       "explanation": "本句的「blame me」指「責怪某人」。",
       "sentenceIndex": 0,
@@ -636,12 +632,8 @@ export default {
         "blame me"
       ],
       "optionReasons": {
-        "blame-mcq-01": "本句指「責怪某人」。",
-        "blame-mcq-02": "「因 B 怪 A」是「blame A for B」的用法，與本句語境不同。",
-        "blame-mcq-03": "「把 B 歸咎於 A」是「blame B on A」的用法，與本句語境不同。",
-        "blame-mcq-04": "「歸咎於壓力」是「blame on stress」的用法，與本句語境不同。",
-        "blame-mcq-05": "「應負責」是「be to blame」的用法，與本句語境不同。",
-        "blame-mcq-06": "「負部分責任」是「partly to blame」的用法，與本句語境不同。"
+        "blame-mcq-01": "本句的「blame me」指「責怪某人」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-01"
     },
@@ -653,11 +645,7 @@ export default {
       "masked": "She ____ for the mistake.",
       "options": [
         "blame-mcq-01",
-        "blame-mcq-02",
-        "blame-mcq-03",
-        "blame-mcq-04",
-        "blame-mcq-05",
-        "blame-mcq-06"
+        "blame-mcq-16"
       ],
       "explanation": "本句的「blamed Kevin」指「責怪某人」。",
       "sentenceIndex": 1,
@@ -666,12 +654,8 @@ export default {
         "blamed Kevin"
       ],
       "optionReasons": {
-        "blame-mcq-01": "本句指「責怪某人」。",
-        "blame-mcq-02": "「因 B 怪 A」是「blame A for B」的用法，與本句語境不同。",
-        "blame-mcq-03": "「把 B 歸咎於 A」是「blame B on A」的用法，與本句語境不同。",
-        "blame-mcq-04": "「歸咎於壓力」是「blame on stress」的用法，與本句語境不同。",
-        "blame-mcq-05": "「應負責」是「be to blame」的用法，與本句語境不同。",
-        "blame-mcq-06": "「負部分責任」是「partly to blame」的用法，與本句語境不同。"
+        "blame-mcq-01": "本句的「blamed Kevin」指「責怪某人」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-01"
     },
@@ -683,11 +667,7 @@ export default {
       "masked": "It's unfair to ____ for everything.",
       "options": [
         "blame-mcq-01",
-        "blame-mcq-02",
-        "blame-mcq-03",
-        "blame-mcq-04",
-        "blame-mcq-05",
-        "blame-mcq-06"
+        "blame-mcq-16"
       ],
       "explanation": "本句的「blame one person」指「責怪某人」。",
       "sentenceIndex": 2,
@@ -696,12 +676,8 @@ export default {
         "blame one person"
       ],
       "optionReasons": {
-        "blame-mcq-01": "本句指「責怪某人」。",
-        "blame-mcq-02": "「因 B 怪 A」是「blame A for B」的用法，與本句語境不同。",
-        "blame-mcq-03": "「把 B 歸咎於 A」是「blame B on A」的用法，與本句語境不同。",
-        "blame-mcq-04": "「歸咎於壓力」是「blame on stress」的用法，與本句語境不同。",
-        "blame-mcq-05": "「應負責」是「be to blame」的用法，與本句語境不同。",
-        "blame-mcq-06": "「負部分責任」是「partly to blame」的用法，與本句語境不同。"
+        "blame-mcq-01": "本句的「blame one person」指「責怪某人」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-01"
     },
@@ -713,11 +689,7 @@ export default {
       "masked": "He had ____.",
       "options": [
         "blame-mcq-01",
-        "blame-mcq-02",
-        "blame-mcq-03",
-        "blame-mcq-04",
-        "blame-mcq-05",
-        "blame-mcq-06"
+        "blame-mcq-16"
       ],
       "explanation": "本句的「blamed me unfairly for delaying the project」指「責怪某人」。",
       "sentenceIndex": 3,
@@ -726,12 +698,8 @@ export default {
         "blamed me unfairly for delaying the project"
       ],
       "optionReasons": {
-        "blame-mcq-01": "本句指「責怪某人」。",
-        "blame-mcq-02": "「因 B 怪 A」是「blame A for B」的用法，與本句語境不同。",
-        "blame-mcq-03": "「把 B 歸咎於 A」是「blame B on A」的用法，與本句語境不同。",
-        "blame-mcq-04": "「歸咎於壓力」是「blame on stress」的用法，與本句語境不同。",
-        "blame-mcq-05": "「應負責」是「be to blame」的用法，與本句語境不同。",
-        "blame-mcq-06": "「負部分責任」是「partly to blame」的用法，與本句語境不同。"
+        "blame-mcq-01": "本句的「blamed me unfairly for delaying the project」指「責怪某人」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-01"
     },
@@ -743,11 +711,7 @@ export default {
       "masked": "They ____.",
       "options": [
         "blame-mcq-01",
-        "blame-mcq-02",
-        "blame-mcq-03",
-        "blame-mcq-04",
-        "blame-mcq-05",
-        "blame-mcq-06"
+        "blame-mcq-16"
       ],
       "explanation": "本句的「blamed him for the delay」指「責怪某人」。",
       "sentenceIndex": 4,
@@ -756,12 +720,8 @@ export default {
         "blamed him for the delay"
       ],
       "optionReasons": {
-        "blame-mcq-01": "本句指「責怪某人」。",
-        "blame-mcq-02": "「因 B 怪 A」是「blame A for B」的用法，與本句語境不同。",
-        "blame-mcq-03": "「把 B 歸咎於 A」是「blame B on A」的用法，與本句語境不同。",
-        "blame-mcq-04": "「歸咎於壓力」是「blame on stress」的用法，與本句語境不同。",
-        "blame-mcq-05": "「應負責」是「be to blame」的用法，與本句語境不同。",
-        "blame-mcq-06": "「負部分責任」是「partly to blame」的用法，與本句語境不同。"
+        "blame-mcq-01": "本句的「blamed him for the delay」指「責怪某人」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-01"
     },
@@ -773,11 +733,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "blame-mcq-23",
-        "blame-mcq-22",
-        "blame-mcq-24",
-        "blame-mcq-21",
-        "blame-mcq-25",
-        "blame-mcq-20"
+        "blame-mcq-16",
+        "blame-mcq-06",
+        "blame-mcq-19"
       ],
       "explanation": "本句的「blamed him for forgetting the deadline」指「認為某人的行為 X 應受到責怪」。",
       "sentenceIndex": 5,
@@ -786,12 +744,10 @@ export default {
         "blamed him for forgetting the deadline"
       ],
       "optionReasons": {
-        "blame-mcq-23": "本句指「認為某人的行為 X 應受到責怪」。",
-        "blame-mcq-22": "「很難怪某人」是「can hardly blame someone」的用法，與本句語境不同。",
-        "blame-mcq-24": "「認為 Y 是造成 X 的原因或應對 X 負責」是「4. blame something on someone — 把某事歸咎於某人」的用法，與本句語境不同。",
-        "blame-mcq-21": "「我不怪你／我理解你」是「I don't blame you」的用法，與本句語境不同。",
-        "blame-mcq-25": "「對某人因錯誤或問題而作出的責備」是「17. blame（noun：責備；指責） — 責備」的用法，與本句語境不同。",
-        "blame-mcq-20": "「不要怪我」是「Don't blame me」的用法，與本句語境不同。"
+        "blame-mcq-23": "本句的「blamed him for forgetting the deadline」指「認為某人的行為 X 應受到責怪」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-23"
     },
@@ -803,11 +759,9 @@ export default {
       "masked": "I don't ____.",
       "options": [
         "blame-mcq-23",
-        "blame-mcq-22",
-        "blame-mcq-24",
-        "blame-mcq-21",
-        "blame-mcq-25",
-        "blame-mcq-20"
+        "blame-mcq-16",
+        "blame-mcq-13",
+        "blame-mcq-21"
       ],
       "explanation": "本句的「blame you for being upset」指「認為某人的行為 X 應受到責怪」。",
       "sentenceIndex": 6,
@@ -816,12 +770,10 @@ export default {
         "blame you for being upset"
       ],
       "optionReasons": {
-        "blame-mcq-23": "本句指「認為某人的行為 X 應受到責怪」。",
-        "blame-mcq-22": "「很難怪某人」是「can hardly blame someone」的用法，與本句語境不同。",
-        "blame-mcq-24": "「認為 Y 是造成 X 的原因或應對 X 負責」是「4. blame something on someone — 把某事歸咎於某人」的用法，與本句語境不同。",
-        "blame-mcq-21": "「我不怪你／我理解你」是「I don't blame you」的用法，與本句語境不同。",
-        "blame-mcq-25": "「對某人因錯誤或問題而作出的責備」是「17. blame（noun：責備；指責） — 責備」的用法，與本句語境不同。",
-        "blame-mcq-20": "「不要怪我」是「Don't blame me」的用法，與本句語境不同。"
+        "blame-mcq-23": "本句的「blame you for being upset」指「認為某人的行為 X 應受到責怪」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-23"
     },
@@ -833,11 +785,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "blame-mcq-24",
-        "blame-mcq-23",
-        "blame-mcq-25",
-        "blame-mcq-22",
-        "blame-mcq-26",
-        "blame-mcq-21"
+        "blame-mcq-20",
+        "blame-mcq-16",
+        "blame-mcq-19"
       ],
       "explanation": "本句的「blamed the delay on me」指「認為 Y 是造成 X 的原因或應對 X 負責」。",
       "sentenceIndex": 7,
@@ -846,12 +796,10 @@ export default {
         "blamed the delay on me"
       ],
       "optionReasons": {
-        "blame-mcq-24": "本句指「認為 Y 是造成 X 的原因或應對 X 負責」。",
-        "blame-mcq-23": "「認為某人的行為 X 應受到責怪」是「3. blame someone for doing something — 因某人做了某事而責怪他」的用法，與本句語境不同。",
-        "blame-mcq-25": "「對某人因錯誤或問題而作出的責備」是「17. blame（noun：責備；指責） — 責備」的用法，與本句語境不同。",
-        "blame-mcq-22": "「很難怪某人」是「can hardly blame someone」的用法，與本句語境不同。",
-        "blame-mcq-26": "「因某人的行為或責任而應受到責備」是「18. deserve blame — 應受責備」的用法，與本句語境不同。",
-        "blame-mcq-21": "「我不怪你／我理解你」是「I don't blame you」的用法，與本句語境不同。"
+        "blame-mcq-24": "本句的「blamed the delay on me」指「認為 Y 是造成 X 的原因或應對 X 負責」。",
+        "blame-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-24"
     },
@@ -863,11 +811,8 @@ export default {
       "masked": "They ____.",
       "options": [
         "blame-mcq-24",
-        "blame-mcq-23",
-        "blame-mcq-25",
-        "blame-mcq-22",
-        "blame-mcq-26",
-        "blame-mcq-21"
+        "blame-mcq-16",
+        "blame-mcq-22"
       ],
       "explanation": "本句的「blamed the failure on poor communication」指「認為 Y 是造成 X 的原因或應對 X 負責」。",
       "sentenceIndex": 8,
@@ -876,12 +821,9 @@ export default {
         "blamed the failure on poor communication"
       ],
       "optionReasons": {
-        "blame-mcq-24": "本句指「認為 Y 是造成 X 的原因或應對 X 負責」。",
-        "blame-mcq-23": "「認為某人的行為 X 應受到責怪」是「3. blame someone for doing something — 因某人做了某事而責怪他」的用法，與本句語境不同。",
-        "blame-mcq-25": "「對某人因錯誤或問題而作出的責備」是「17. blame（noun：責備；指責） — 責備」的用法，與本句語境不同。",
-        "blame-mcq-22": "「很難怪某人」是「can hardly blame someone」的用法，與本句語境不同。",
-        "blame-mcq-26": "「因某人的行為或責任而應受到責備」是「18. deserve blame — 應受責備」的用法，與本句語境不同。",
-        "blame-mcq-21": "「我不怪你／我理解你」是「I don't blame you」的用法，與本句語境不同。"
+        "blame-mcq-24": "本句的「blamed the failure on poor communication」指「認為 Y 是造成 X 的原因或應對 X 負責」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-24"
     },
@@ -893,11 +835,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "blame-pdf-001",
-        "blame-mcq-03",
-        "blame-mcq-05",
-        "blame-mcq-02",
-        "blame-mcq-06",
-        "blame-mcq-01"
+        "blame-mcq-20",
+        "blame-mcq-16",
+        "blame-mcq-19"
       ],
       "explanation": "本句的「blamed his reaction on stress」指「把 X 的原因或責任歸到 Y」。",
       "sentenceIndex": 9,
@@ -906,12 +846,10 @@ export default {
         "blamed his reaction on stress"
       ],
       "optionReasons": {
-        "blame-pdf-001": "本句指「把 X 的原因或責任歸到 Y」。",
-        "blame-mcq-03": "「把 B 歸咎於 A」是「blame B on A」的用法，與本句語境不同。",
-        "blame-mcq-05": "「應負責」是「be to blame」的用法，與本句語境不同。",
-        "blame-mcq-02": "「因 B 怪 A」是「blame A for B」的用法，與本句語境不同。",
-        "blame-mcq-06": "「負部分責任」是「partly to blame」的用法，與本句語境不同。",
-        "blame-mcq-01": "「責怪某人」是「blame someone」的用法，與本句語境不同。"
+        "blame-pdf-001": "本句的「blamed his reaction on stress」指「把 X 的原因或責任歸到 Y」。",
+        "blame-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-pdf-001"
     },
@@ -923,11 +861,9 @@ export default {
       "masked": "The delay was ____.",
       "options": [
         "blame-pdf-001",
-        "blame-mcq-03",
-        "blame-mcq-05",
-        "blame-mcq-02",
-        "blame-mcq-06",
-        "blame-mcq-01"
+        "blame-mcq-21",
+        "blame-mcq-16",
+        "blame-mcq-19"
       ],
       "explanation": "本句的「blamed on technical problems」指「把 X 的原因或責任歸到 Y」。",
       "sentenceIndex": 10,
@@ -936,12 +872,10 @@ export default {
         "blamed on technical problems"
       ],
       "optionReasons": {
-        "blame-pdf-001": "本句指「把 X 的原因或責任歸到 Y」。",
-        "blame-mcq-03": "「把 B 歸咎於 A」是「blame B on A」的用法，與本句語境不同。",
-        "blame-mcq-05": "「應負責」是「be to blame」的用法，與本句語境不同。",
-        "blame-mcq-02": "「因 B 怪 A」是「blame A for B」的用法，與本句語境不同。",
-        "blame-mcq-06": "「負部分責任」是「partly to blame」的用法，與本句語境不同。",
-        "blame-mcq-01": "「責怪某人」是「blame someone」的用法，與本句語境不同。"
+        "blame-pdf-001": "本句的「blamed on technical problems」指「把 X 的原因或責任歸到 Y」。",
+        "blame-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-pdf-001"
     },
@@ -953,11 +887,8 @@ export default {
       "masked": "I wasn't ____.",
       "options": [
         "blame-mcq-05",
-        "blame-mcq-04",
-        "blame-mcq-06",
-        "blame-mcq-03",
-        "blame-mcq-07",
-        "blame-mcq-02"
+        "blame-mcq-16",
+        "blame-mcq-22"
       ],
       "explanation": "本句的「to blame」指「應負責」。",
       "sentenceIndex": 11,
@@ -966,12 +897,9 @@ export default {
         "to blame"
       ],
       "optionReasons": {
-        "blame-mcq-05": "本句指「應負責」。",
-        "blame-mcq-04": "「歸咎於壓力」是「blame on stress」的用法，與本句語境不同。",
-        "blame-mcq-06": "「負部分責任」是「partly to blame」的用法，與本句語境不同。",
-        "blame-mcq-03": "「把 B 歸咎於 A」是「blame B on A」的用法，與本句語境不同。",
-        "blame-mcq-07": "「自責」是「blame yourself」的用法，與本句語境不同。",
-        "blame-mcq-02": "「因 B 怪 A」是「blame A for B」的用法，與本句語境不同。"
+        "blame-mcq-05": "本句的「to blame」指「應負責」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-05"
     },
@@ -983,11 +911,8 @@ export default {
       "masked": "Who is ____ for the mistake?",
       "options": [
         "blame-mcq-05",
-        "blame-mcq-04",
-        "blame-mcq-06",
-        "blame-mcq-03",
-        "blame-mcq-07",
-        "blame-mcq-02"
+        "blame-mcq-21",
+        "blame-mcq-16"
       ],
       "explanation": "本句的「to blame」指「應負責」。",
       "sentenceIndex": 12,
@@ -996,12 +921,9 @@ export default {
         "to blame"
       ],
       "optionReasons": {
-        "blame-mcq-05": "本句指「應負責」。",
-        "blame-mcq-04": "「歸咎於壓力」是「blame on stress」的用法，與本句語境不同。",
-        "blame-mcq-06": "「負部分責任」是「partly to blame」的用法，與本句語境不同。",
-        "blame-mcq-03": "「把 B 歸咎於 A」是「blame B on A」的用法，與本句語境不同。",
-        "blame-mcq-07": "「自責」是「blame yourself」的用法，與本句語境不同。",
-        "blame-mcq-02": "「因 B 怪 A」是「blame A for B」的用法，與本句語境不同。"
+        "blame-mcq-05": "本句的「to blame」指「應負責」。",
+        "blame-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-05"
     },
@@ -1013,11 +935,9 @@ export default {
       "masked": "Poor communication was ____.",
       "options": [
         "blame-mcq-06",
-        "blame-mcq-05",
-        "blame-mcq-07",
-        "blame-mcq-04",
-        "blame-mcq-08",
-        "blame-mcq-03"
+        "blame-mcq-22",
+        "blame-mcq-16",
+        "blame-mcq-17"
       ],
       "explanation": "本句的「partly to blame」指「負部分責任」。",
       "sentenceIndex": 13,
@@ -1026,12 +946,10 @@ export default {
         "partly to blame"
       ],
       "optionReasons": {
-        "blame-mcq-06": "本句指「負部分責任」。",
-        "blame-mcq-05": "「應負責」是「be to blame」的用法，與本句語境不同。",
-        "blame-mcq-07": "「自責」是「blame yourself」的用法，與本句語境不同。",
-        "blame-mcq-04": "「歸咎於壓力」是「blame on stress」的用法，與本句語境不同。",
-        "blame-mcq-08": "「責任；責備」是「blame (noun)」的用法，與本句語境不同。",
-        "blame-mcq-03": "「把 B 歸咎於 A」是「blame B on A」的用法，與本句語境不同。"
+        "blame-mcq-06": "本句的「partly to blame」指「負部分責任」。",
+        "blame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-06"
     },
@@ -1043,11 +961,9 @@ export default {
       "masked": "He was not ____.",
       "options": [
         "blame-mcq-06",
-        "blame-mcq-05",
-        "blame-mcq-07",
-        "blame-mcq-04",
-        "blame-mcq-08",
-        "blame-mcq-03"
+        "blame-mcq-20",
+        "blame-mcq-16",
+        "blame-mcq-17"
       ],
       "explanation": "本句的「entirely to blame」指「負部分責任」。",
       "sentenceIndex": 14,
@@ -1056,12 +972,10 @@ export default {
         "entirely to blame"
       ],
       "optionReasons": {
-        "blame-mcq-06": "本句指「負部分責任」。",
-        "blame-mcq-05": "「應負責」是「be to blame」的用法，與本句語境不同。",
-        "blame-mcq-07": "「自責」是「blame yourself」的用法，與本句語境不同。",
-        "blame-mcq-04": "「歸咎於壓力」是「blame on stress」的用法，與本句語境不同。",
-        "blame-mcq-08": "「責任；責備」是「blame (noun)」的用法，與本句語境不同。",
-        "blame-mcq-03": "「把 B 歸咎於 A」是「blame B on A」的用法，與本句語境不同。"
+        "blame-mcq-06": "本句的「entirely to blame」指「負部分責任」。",
+        "blame-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-06"
     },
@@ -1073,11 +987,8 @@ export default {
       "masked": "Don't ____ for what happened.",
       "options": [
         "blame-mcq-07",
-        "blame-mcq-06",
-        "blame-mcq-08",
-        "blame-mcq-05",
-        "blame-mcq-09",
-        "blame-mcq-04"
+        "blame-mcq-20",
+        "blame-mcq-16"
       ],
       "explanation": "本句的「blame yourself」指「自責」。",
       "sentenceIndex": 15,
@@ -1086,12 +997,9 @@ export default {
         "blame yourself"
       ],
       "optionReasons": {
-        "blame-mcq-07": "本句指「自責」。",
-        "blame-mcq-06": "「負部分責任」是「partly to blame」的用法，與本句語境不同。",
-        "blame-mcq-08": "「責任；責備」是「blame (noun)」的用法，與本句語境不同。",
-        "blame-mcq-05": "「應負責」是「be to blame」的用法，與本句語境不同。",
-        "blame-mcq-09": "「承擔責任」是「take the blame」的用法，與本句語境不同。",
-        "blame-mcq-04": "「歸咎於壓力」是「blame on stress」的用法，與本句語境不同。"
+        "blame-mcq-07": "本句的「blame yourself」指「自責」。",
+        "blame-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-07"
     },
@@ -1103,11 +1011,8 @@ export default {
       "masked": "She kept ____ for the mistake.",
       "options": [
         "blame-mcq-07",
-        "blame-mcq-06",
-        "blame-mcq-08",
-        "blame-mcq-05",
-        "blame-mcq-09",
-        "blame-mcq-04"
+        "blame-mcq-21",
+        "blame-mcq-16"
       ],
       "explanation": "本句的「blaming herself」指「自責」。",
       "sentenceIndex": 16,
@@ -1116,12 +1021,9 @@ export default {
         "blaming herself"
       ],
       "optionReasons": {
-        "blame-mcq-07": "本句指「自責」。",
-        "blame-mcq-06": "「負部分責任」是「partly to blame」的用法，與本句語境不同。",
-        "blame-mcq-08": "「責任；責備」是「blame (noun)」的用法，與本句語境不同。",
-        "blame-mcq-05": "「應負責」是「be to blame」的用法，與本句語境不同。",
-        "blame-mcq-09": "「承擔責任」是「take the blame」的用法，與本句語境不同。",
-        "blame-mcq-04": "「歸咎於壓力」是「blame on stress」的用法，與本句語境不同。"
+        "blame-mcq-07": "本句的「blaming herself」指「自責」。",
+        "blame-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-07"
     },
@@ -1133,11 +1035,8 @@ export default {
       "masked": "He accepted the ____.",
       "options": [
         "blame-mcq-08",
-        "blame-mcq-07",
-        "blame-mcq-09",
-        "blame-mcq-06",
-        "blame-mcq-10",
-        "blame-mcq-05"
+        "blame-mcq-16",
+        "blame-mcq-21"
       ],
       "explanation": "本句的「blame」指「責任；責備」。",
       "sentenceIndex": 17,
@@ -1146,12 +1045,9 @@ export default {
         "blame"
       ],
       "optionReasons": {
-        "blame-mcq-08": "本句指「責任；責備」。",
-        "blame-mcq-07": "「自責」是「blame yourself」的用法，與本句語境不同。",
-        "blame-mcq-09": "「承擔責任」是「take the blame」的用法，與本句語境不同。",
-        "blame-mcq-06": "「負部分責任」是「partly to blame」的用法，與本句語境不同。",
-        "blame-mcq-10": "「接受責任」是「accept the blame」的用法，與本句語境不同。",
-        "blame-mcq-05": "「應負責」是「be to blame」的用法，與本句語境不同。"
+        "blame-mcq-08": "本句的「blame」指「責任；責備」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-08"
     },
@@ -1163,11 +1059,8 @@ export default {
       "masked": "The ____ does not belong to one person alone.",
       "options": [
         "blame-mcq-08",
-        "blame-mcq-07",
-        "blame-mcq-09",
-        "blame-mcq-06",
-        "blame-mcq-10",
-        "blame-mcq-05"
+        "blame-mcq-22",
+        "blame-mcq-16"
       ],
       "explanation": "本句的「blame」指「責任；責備」。",
       "sentenceIndex": 18,
@@ -1176,12 +1069,9 @@ export default {
         "blame"
       ],
       "optionReasons": {
-        "blame-mcq-08": "本句指「責任；責備」。",
-        "blame-mcq-07": "「自責」是「blame yourself」的用法，與本句語境不同。",
-        "blame-mcq-09": "「承擔責任」是「take the blame」的用法，與本句語境不同。",
-        "blame-mcq-06": "「負部分責任」是「partly to blame」的用法，與本句語境不同。",
-        "blame-mcq-10": "「接受責任」是「accept the blame」的用法，與本句語境不同。",
-        "blame-mcq-05": "「應負責」是「be to blame」的用法，與本句語境不同。"
+        "blame-mcq-08": "本句的「blame」指「責任；責備」。",
+        "blame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-08"
     },
@@ -1193,11 +1083,9 @@ export default {
       "masked": "He ____ for the mistake.",
       "options": [
         "blame-mcq-09",
-        "blame-mcq-08",
-        "blame-mcq-10",
-        "blame-mcq-07",
-        "blame-mcq-11",
-        "blame-mcq-06"
+        "blame-mcq-20",
+        "blame-mcq-16",
+        "blame-mcq-25"
       ],
       "explanation": "本句的「took the blame」指「承擔責任」。",
       "sentenceIndex": 19,
@@ -1206,12 +1094,10 @@ export default {
         "took the blame"
       ],
       "optionReasons": {
-        "blame-mcq-09": "本句指「承擔責任」。",
-        "blame-mcq-08": "「責任；責備」是「blame (noun)」的用法，與本句語境不同。",
-        "blame-mcq-10": "「接受責任」是「accept the blame」的用法，與本句語境不同。",
-        "blame-mcq-07": "「自責」是「blame yourself」的用法，與本句語境不同。",
-        "blame-mcq-11": "「被怪責」是「get the blame」的用法，與本句語境不同。",
-        "blame-mcq-06": "「負部分責任」是「partly to blame」的用法，與本句語境不同。"
+        "blame-mcq-09": "本句的「took the blame」指「承擔責任」。",
+        "blame-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-09"
     },
@@ -1223,11 +1109,9 @@ export default {
       "masked": "She refused to ____ for something she had not done.",
       "options": [
         "blame-mcq-09",
-        "blame-mcq-08",
-        "blame-mcq-10",
-        "blame-mcq-07",
-        "blame-mcq-11",
-        "blame-mcq-06"
+        "blame-mcq-16",
+        "blame-mcq-22",
+        "blame-mcq-17"
       ],
       "explanation": "本句的「take the blame」指「承擔責任」。",
       "sentenceIndex": 20,
@@ -1236,12 +1120,10 @@ export default {
         "take the blame"
       ],
       "optionReasons": {
-        "blame-mcq-09": "本句指「承擔責任」。",
-        "blame-mcq-08": "「責任；責備」是「blame (noun)」的用法，與本句語境不同。",
-        "blame-mcq-10": "「接受責任」是「accept the blame」的用法，與本句語境不同。",
-        "blame-mcq-07": "「自責」是「blame yourself」的用法，與本句語境不同。",
-        "blame-mcq-11": "「被怪責」是「get the blame」的用法，與本句語境不同。",
-        "blame-mcq-06": "「負部分責任」是「partly to blame」的用法，與本句語境不同。"
+        "blame-mcq-09": "本句的「take the blame」指「承擔責任」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-09"
     },
@@ -1253,11 +1135,8 @@ export default {
       "masked": "Kevin ____ and apologised.",
       "options": [
         "blame-mcq-10",
-        "blame-mcq-09",
-        "blame-mcq-11",
-        "blame-mcq-08",
-        "blame-mcq-12",
-        "blame-mcq-07"
+        "blame-mcq-22",
+        "blame-mcq-16"
       ],
       "explanation": "本句的「accepted the blame」指「接受責任」。",
       "sentenceIndex": 21,
@@ -1266,12 +1145,9 @@ export default {
         "accepted the blame"
       ],
       "optionReasons": {
-        "blame-mcq-10": "本句指「接受責任」。",
-        "blame-mcq-09": "「承擔責任」是「take the blame」的用法，與本句語境不同。",
-        "blame-mcq-11": "「被怪責」是「get the blame」的用法，與本句語境不同。",
-        "blame-mcq-08": "「責任；責備」是「blame (noun)」的用法，與本句語境不同。",
-        "blame-mcq-12": "「把責任推到……」是「put/lay blame on」的用法，與本句語境不同。",
-        "blame-mcq-07": "「自責」是「blame yourself」的用法，與本句語境不同。"
+        "blame-mcq-10": "本句的「accepted the blame」指「接受責任」。",
+        "blame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-10"
     },
@@ -1283,11 +1159,9 @@ export default {
       "masked": "Nobody wanted to ____.",
       "options": [
         "blame-mcq-10",
-        "blame-mcq-09",
-        "blame-mcq-11",
-        "blame-mcq-08",
-        "blame-mcq-12",
-        "blame-mcq-07"
+        "blame-mcq-21",
+        "blame-mcq-16",
+        "blame-mcq-19"
       ],
       "explanation": "本句的「accept the blame」指「接受責任」。",
       "sentenceIndex": 22,
@@ -1296,12 +1170,10 @@ export default {
         "accept the blame"
       ],
       "optionReasons": {
-        "blame-mcq-10": "本句指「接受責任」。",
-        "blame-mcq-09": "「承擔責任」是「take the blame」的用法，與本句語境不同。",
-        "blame-mcq-11": "「被怪責」是「get the blame」的用法，與本句語境不同。",
-        "blame-mcq-08": "「責任；責備」是「blame (noun)」的用法，與本句語境不同。",
-        "blame-mcq-12": "「把責任推到……」是「put/lay blame on」的用法，與本句語境不同。",
-        "blame-mcq-07": "「自責」是「blame yourself」的用法，與本句語境不同。"
+        "blame-mcq-10": "本句的「accept the blame」指「接受責任」。",
+        "blame-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-10"
     },
@@ -1313,11 +1185,7 @@ export default {
       "masked": "I ____ even though it wasn't my fault.",
       "options": [
         "blame-mcq-11",
-        "blame-mcq-10",
-        "blame-mcq-12",
-        "blame-mcq-09",
-        "blame-mcq-13",
-        "blame-mcq-08"
+        "blame-mcq-16"
       ],
       "explanation": "本句的「got the blame」指「被怪責」。",
       "sentenceIndex": 23,
@@ -1326,12 +1194,8 @@ export default {
         "got the blame"
       ],
       "optionReasons": {
-        "blame-mcq-11": "本句指「被怪責」。",
-        "blame-mcq-10": "「接受責任」是「accept the blame」的用法，與本句語境不同。",
-        "blame-mcq-12": "「把責任推到……」是「put/lay blame on」的用法，與本句語境不同。",
-        "blame-mcq-09": "「承擔責任」是「take the blame」的用法，與本句語境不同。",
-        "blame-mcq-13": "「推卸責任」是「shift the blame」的用法，與本句語境不同。",
-        "blame-mcq-08": "「責任；責備」是「blame (noun)」的用法，與本句語境不同。"
+        "blame-mcq-11": "本句的「got the blame」指「被怪責」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-11"
     },
@@ -1343,11 +1207,7 @@ export default {
       "masked": "The newest employee always seems to ____.",
       "options": [
         "blame-mcq-11",
-        "blame-mcq-10",
-        "blame-mcq-12",
-        "blame-mcq-09",
-        "blame-mcq-13",
-        "blame-mcq-08"
+        "blame-mcq-16"
       ],
       "explanation": "本句的「get the blame」指「被怪責」。",
       "sentenceIndex": 24,
@@ -1356,12 +1216,8 @@ export default {
         "get the blame"
       ],
       "optionReasons": {
-        "blame-mcq-11": "本句指「被怪責」。",
-        "blame-mcq-10": "「接受責任」是「accept the blame」的用法，與本句語境不同。",
-        "blame-mcq-12": "「把責任推到……」是「put/lay blame on」的用法，與本句語境不同。",
-        "blame-mcq-09": "「承擔責任」是「take the blame」的用法，與本句語境不同。",
-        "blame-mcq-13": "「推卸責任」是「shift the blame」的用法，與本句語境不同。",
-        "blame-mcq-08": "「責任；責備」是「blame (noun)」的用法，與本句語境不同。"
+        "blame-mcq-11": "本句的「get the blame」指「被怪責」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-11"
     },
@@ -1373,11 +1229,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "blame-mcq-12",
-        "blame-mcq-11",
-        "blame-mcq-13",
-        "blame-mcq-10",
-        "blame-mcq-14",
-        "blame-mcq-09"
+        "blame-mcq-22",
+        "blame-mcq-16"
       ],
       "explanation": "本句的「put the blame on me」指「把責任推到……」。",
       "sentenceIndex": 25,
@@ -1386,12 +1239,9 @@ export default {
         "put the blame on me"
       ],
       "optionReasons": {
-        "blame-mcq-12": "本句指「把責任推到……」。",
-        "blame-mcq-11": "「被怪責」是「get the blame」的用法，與本句語境不同。",
-        "blame-mcq-13": "「推卸責任」是「shift the blame」的用法，與本句語境不同。",
-        "blame-mcq-10": "「接受責任」是「accept the blame」的用法，與本句語境不同。",
-        "blame-mcq-14": "「共同承擔責任」是「share the blame」的用法，與本句語境不同。",
-        "blame-mcq-09": "「承擔責任」是「take the blame」的用法，與本句語境不同。"
+        "blame-mcq-12": "本句的「put the blame on me」指「把責任推到……」。",
+        "blame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-12"
     },
@@ -1403,11 +1253,8 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "blame-mcq-12",
-        "blame-mcq-11",
-        "blame-mcq-13",
-        "blame-mcq-10",
-        "blame-mcq-14",
-        "blame-mcq-09"
+        "blame-mcq-21",
+        "blame-mcq-16"
       ],
       "explanation": "本句的「lay all the blame on one person」指「把責任推到……」。",
       "sentenceIndex": 26,
@@ -1416,12 +1263,9 @@ export default {
         "lay all the blame on one person"
       ],
       "optionReasons": {
-        "blame-mcq-12": "本句指「把責任推到……」。",
-        "blame-mcq-11": "「被怪責」是「get the blame」的用法，與本句語境不同。",
-        "blame-mcq-13": "「推卸責任」是「shift the blame」的用法，與本句語境不同。",
-        "blame-mcq-10": "「接受責任」是「accept the blame」的用法，與本句語境不同。",
-        "blame-mcq-14": "「共同承擔責任」是「share the blame」的用法，與本句語境不同。",
-        "blame-mcq-09": "「承擔責任」是「take the blame」的用法，與本句語境不同。"
+        "blame-mcq-12": "本句的「lay all the blame on one person」指「把責任推到……」。",
+        "blame-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-12"
     },
@@ -1433,11 +1277,9 @@ export default {
       "masked": "He tried to ____ onto someone else.",
       "options": [
         "blame-mcq-13",
-        "blame-mcq-12",
-        "blame-mcq-14",
-        "blame-mcq-11",
-        "blame-mcq-15",
-        "blame-mcq-10"
+        "blame-mcq-20",
+        "blame-mcq-16",
+        "blame-mcq-17"
       ],
       "explanation": "本句的「shift the blame」指「推卸責任」。",
       "sentenceIndex": 27,
@@ -1446,12 +1288,10 @@ export default {
         "shift the blame"
       ],
       "optionReasons": {
-        "blame-mcq-13": "本句指「推卸責任」。",
-        "blame-mcq-12": "「把責任推到……」是「put/lay blame on」的用法，與本句語境不同。",
-        "blame-mcq-14": "「共同承擔責任」是「share the blame」的用法，與本句語境不同。",
-        "blame-mcq-11": "「被怪責」是「get the blame」的用法，與本句語境不同。",
-        "blame-mcq-15": "「歸責」是「place the blame」的用法，與本句語境不同。",
-        "blame-mcq-10": "「接受責任」是「accept the blame」的用法，與本句語境不同。"
+        "blame-mcq-13": "本句的「shift the blame」指「推卸責任」。",
+        "blame-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-13"
     },
@@ -1463,11 +1303,9 @@ export default {
       "masked": "Good leaders don't ____ when things go wrong.",
       "options": [
         "blame-mcq-13",
-        "blame-mcq-12",
-        "blame-mcq-14",
-        "blame-mcq-11",
-        "blame-mcq-15",
-        "blame-mcq-10"
+        "blame-mcq-22",
+        "blame-mcq-16",
+        "blame-mcq-17"
       ],
       "explanation": "本句的「shift the blame」指「推卸責任」。",
       "sentenceIndex": 28,
@@ -1476,12 +1314,10 @@ export default {
         "shift the blame"
       ],
       "optionReasons": {
-        "blame-mcq-13": "本句指「推卸責任」。",
-        "blame-mcq-12": "「把責任推到……」是「put/lay blame on」的用法，與本句語境不同。",
-        "blame-mcq-14": "「共同承擔責任」是「share the blame」的用法，與本句語境不同。",
-        "blame-mcq-11": "「被怪責」是「get the blame」的用法，與本句語境不同。",
-        "blame-mcq-15": "「歸責」是「place the blame」的用法，與本句語境不同。",
-        "blame-mcq-10": "「接受責任」是「accept the blame」的用法，與本句語境不同。"
+        "blame-mcq-13": "本句的「shift the blame」指「推卸責任」。",
+        "blame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-13"
     },
@@ -1493,11 +1329,9 @@ export default {
       "masked": "Both sides ____.",
       "options": [
         "blame-mcq-14",
-        "blame-mcq-13",
-        "blame-mcq-15",
-        "blame-mcq-12",
         "blame-mcq-16",
-        "blame-mcq-11"
+        "blame-mcq-22",
+        "blame-mcq-17"
       ],
       "explanation": "本句的「share the blame」指「共同承擔責任」。",
       "sentenceIndex": 29,
@@ -1506,12 +1340,10 @@ export default {
         "share the blame"
       ],
       "optionReasons": {
-        "blame-mcq-14": "本句指「共同承擔責任」。",
-        "blame-mcq-13": "「推卸責任」是「shift the blame」的用法，與本句語境不同。",
-        "blame-mcq-15": "「歸責」是「place the blame」的用法，與本句語境不同。",
-        "blame-mcq-12": "「把責任推到……」是「put/lay blame on」的用法，與本句語境不同。",
-        "blame-mcq-16": "「無過失的」是「blameless」的用法，與本句語境不同。",
-        "blame-mcq-11": "「被怪責」是「get the blame」的用法，與本句語境不同。"
+        "blame-mcq-14": "本句的「share the blame」指「共同承擔責任」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-14"
     },
@@ -1523,11 +1355,9 @@ export default {
       "masked": "The whole team had to ____ for the failure.",
       "options": [
         "blame-mcq-14",
-        "blame-mcq-13",
-        "blame-mcq-15",
-        "blame-mcq-12",
         "blame-mcq-16",
-        "blame-mcq-11"
+        "blame-mcq-22",
+        "blame-mcq-17"
       ],
       "explanation": "本句的「share the blame」指「共同承擔責任」。",
       "sentenceIndex": 30,
@@ -1536,12 +1366,10 @@ export default {
         "share the blame"
       ],
       "optionReasons": {
-        "blame-mcq-14": "本句指「共同承擔責任」。",
-        "blame-mcq-13": "「推卸責任」是「shift the blame」的用法，與本句語境不同。",
-        "blame-mcq-15": "「歸責」是「place the blame」的用法，與本句語境不同。",
-        "blame-mcq-12": "「把責任推到……」是「put/lay blame on」的用法，與本句語境不同。",
-        "blame-mcq-16": "「無過失的」是「blameless」的用法，與本句語境不同。",
-        "blame-mcq-11": "「被怪責」是「get the blame」的用法，與本句語境不同。"
+        "blame-mcq-14": "本句的「share the blame」指「共同承擔責任」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-14"
     },
@@ -1553,11 +1381,8 @@ export default {
       "masked": "It is too early to ____.",
       "options": [
         "blame-mcq-15",
-        "blame-mcq-14",
         "blame-mcq-16",
-        "blame-mcq-13",
-        "blame-mcq-17",
-        "blame-mcq-12"
+        "blame-mcq-22"
       ],
       "explanation": "本句的「place the blame」指「歸責」。",
       "sentenceIndex": 31,
@@ -1566,12 +1391,9 @@ export default {
         "place the blame"
       ],
       "optionReasons": {
-        "blame-mcq-15": "本句指「歸責」。",
-        "blame-mcq-14": "「共同承擔責任」是「share the blame」的用法，與本句語境不同。",
-        "blame-mcq-16": "「無過失的」是「blameless」的用法，與本句語境不同。",
-        "blame-mcq-13": "「推卸責任」是「shift the blame」的用法，與本句語境不同。",
-        "blame-mcq-17": "「應受責備的」是「blameworthy」的用法，與本句語境不同。",
-        "blame-mcq-12": "「把責任推到……」是「put/lay blame on」的用法，與本句語境不同。"
+        "blame-mcq-15": "本句的「place the blame」指「歸責」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-15"
     },
@@ -1583,11 +1405,8 @@ export default {
       "masked": "The investigation will determine where to ____.",
       "options": [
         "blame-mcq-15",
-        "blame-mcq-14",
-        "blame-mcq-16",
-        "blame-mcq-13",
-        "blame-mcq-17",
-        "blame-mcq-12"
+        "blame-mcq-22",
+        "blame-mcq-16"
       ],
       "explanation": "本句的「place the blame」指「歸責」。",
       "sentenceIndex": 32,
@@ -1596,12 +1415,9 @@ export default {
         "place the blame"
       ],
       "optionReasons": {
-        "blame-mcq-15": "本句指「歸責」。",
-        "blame-mcq-14": "「共同承擔責任」是「share the blame」的用法，與本句語境不同。",
-        "blame-mcq-16": "「無過失的」是「blameless」的用法，與本句語境不同。",
-        "blame-mcq-13": "「推卸責任」是「shift the blame」的用法，與本句語境不同。",
-        "blame-mcq-17": "「應受責備的」是「blameworthy」的用法，與本句語境不同。",
-        "blame-mcq-12": "「把責任推到……」是「put/lay blame on」的用法，與本句語境不同。"
+        "blame-mcq-15": "本句的「place the blame」指「歸責」。",
+        "blame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-15"
     },
@@ -1613,11 +1429,9 @@ export default {
       "masked": "She faced a lot of ____ after the mistake.",
       "options": [
         "blame-mcq-25",
-        "blame-mcq-24",
-        "blame-mcq-26",
-        "blame-mcq-23",
-        "blame-mcq-27",
-        "blame-mcq-22"
+        "blame-mcq-16",
+        "blame-mcq-21",
+        "blame-mcq-10"
       ],
       "explanation": "本句的「blame」指「對某人因錯誤或問題而作出的責備」。",
       "sentenceIndex": 33,
@@ -1626,12 +1440,10 @@ export default {
         "blame"
       ],
       "optionReasons": {
-        "blame-mcq-25": "本句指「對某人因錯誤或問題而作出的責備」。",
-        "blame-mcq-24": "「認為 Y 是造成 X 的原因或應對 X 負責」是「4. blame something on someone — 把某事歸咎於某人」的用法，與本句語境不同。",
-        "blame-mcq-26": "「因某人的行為或責任而應受到責備」是「18. deserve blame — 應受責備」的用法，與本句語境不同。",
-        "blame-mcq-23": "「認為某人的行為 X 應受到責怪」是「3. blame someone for doing something — 因某人做了某事而責怪他」的用法，與本句語境不同。",
-        "blame-mcq-27": "「沒有或幾乎沒有應受責備的責任」是「19. without blame — 無過失；不應受責」的用法，與本句語境不同。",
-        "blame-mcq-22": "「很難怪某人」是「can hardly blame someone」的用法，與本句語境不同。"
+        "blame-mcq-25": "本句的「blame」指「對某人因錯誤或問題而作出的責備」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-25"
     },
@@ -1643,11 +1455,9 @@ export default {
       "masked": "The team received unfair ____.",
       "options": [
         "blame-mcq-25",
-        "blame-mcq-24",
-        "blame-mcq-26",
-        "blame-mcq-23",
-        "blame-mcq-27",
-        "blame-mcq-22"
+        "blame-mcq-20",
+        "blame-mcq-16",
+        "blame-mcq-09"
       ],
       "explanation": "本句的「blame」指「對某人因錯誤或問題而作出的責備」。",
       "sentenceIndex": 34,
@@ -1656,12 +1466,10 @@ export default {
         "blame"
       ],
       "optionReasons": {
-        "blame-mcq-25": "本句指「對某人因錯誤或問題而作出的責備」。",
-        "blame-mcq-24": "「認為 Y 是造成 X 的原因或應對 X 負責」是「4. blame something on someone — 把某事歸咎於某人」的用法，與本句語境不同。",
-        "blame-mcq-26": "「因某人的行為或責任而應受到責備」是「18. deserve blame — 應受責備」的用法，與本句語境不同。",
-        "blame-mcq-23": "「認為某人的行為 X 應受到責怪」是「3. blame someone for doing something — 因某人做了某事而責怪他」的用法，與本句語境不同。",
-        "blame-mcq-27": "「沒有或幾乎沒有應受責備的責任」是「19. without blame — 無過失；不應受責」的用法，與本句語境不同。",
-        "blame-mcq-22": "「很難怪某人」是「can hardly blame someone」的用法，與本句語境不同。"
+        "blame-mcq-25": "本句的「blame」指「對某人因錯誤或問題而作出的責備」。",
+        "blame-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-25"
     },
@@ -1673,11 +1481,9 @@ export default {
       "masked": "He made the decision, so he deserves some ____.",
       "options": [
         "blame-mcq-26",
-        "blame-mcq-25",
-        "blame-mcq-27",
-        "blame-mcq-24",
-        "blame-mcq-23",
-        "blame-mcq-22"
+        "blame-mcq-16",
+        "blame-mcq-21",
+        "blame-mcq-19"
       ],
       "explanation": "本句的「blame」指「因某人的行為或責任而應受到責備」。",
       "sentenceIndex": 35,
@@ -1686,12 +1492,10 @@ export default {
         "blame"
       ],
       "optionReasons": {
-        "blame-mcq-26": "本句指「因某人的行為或責任而應受到責備」。",
-        "blame-mcq-25": "「對某人因錯誤或問題而作出的責備」是「17. blame（noun：責備；指責） — 責備」的用法，與本句語境不同。",
-        "blame-mcq-27": "「沒有或幾乎沒有應受責備的責任」是「19. without blame — 無過失；不應受責」的用法，與本句語境不同。",
-        "blame-mcq-24": "「認為 Y 是造成 X 的原因或應對 X 負責」是「4. blame something on someone — 把某事歸咎於某人」的用法，與本句語境不同。",
-        "blame-mcq-23": "「認為某人的行為 X 應受到責怪」是「3. blame someone for doing something — 因某人做了某事而責怪他」的用法，與本句語境不同。",
-        "blame-mcq-22": "「很難怪某人」是「can hardly blame someone」的用法，與本句語境不同。"
+        "blame-mcq-26": "本句的「blame」指「因某人的行為或責任而應受到責備」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-26"
     },
@@ -1703,11 +1507,9 @@ export default {
       "masked": "Nobody deserved all the ____.",
       "options": [
         "blame-mcq-26",
-        "blame-mcq-25",
-        "blame-mcq-27",
-        "blame-mcq-24",
-        "blame-mcq-23",
-        "blame-mcq-22"
+        "blame-mcq-16",
+        "blame-mcq-20",
+        "blame-mcq-19"
       ],
       "explanation": "本句的「blame」指「因某人的行為或責任而應受到責備」。",
       "sentenceIndex": 36,
@@ -1716,12 +1518,10 @@ export default {
         "blame"
       ],
       "optionReasons": {
-        "blame-mcq-26": "本句指「因某人的行為或責任而應受到責備」。",
-        "blame-mcq-25": "「對某人因錯誤或問題而作出的責備」是「17. blame（noun：責備；指責） — 責備」的用法，與本句語境不同。",
-        "blame-mcq-27": "「沒有或幾乎沒有應受責備的責任」是「19. without blame — 無過失；不應受責」的用法，與本句語境不同。",
-        "blame-mcq-24": "「認為 Y 是造成 X 的原因或應對 X 負責」是「4. blame something on someone — 把某事歸咎於某人」的用法，與本句語境不同。",
-        "blame-mcq-23": "「認為某人的行為 X 應受到責怪」是「3. blame someone for doing something — 因某人做了某事而責怪他」的用法，與本句語境不同。",
-        "blame-mcq-22": "「很難怪某人」是「can hardly blame someone」的用法，與本句語境不同。"
+        "blame-mcq-26": "本句的「blame」指「因某人的行為或責任而應受到責備」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-26"
     },
@@ -1733,11 +1533,8 @@ export default {
       "masked": "She was not entirely ____.",
       "options": [
         "blame-mcq-27",
-        "blame-mcq-26",
-        "blame-mcq-25",
-        "blame-mcq-24",
-        "blame-mcq-23",
-        "blame-mcq-22"
+        "blame-mcq-22",
+        "blame-mcq-16"
       ],
       "explanation": "本句的「without blame」指「沒有或幾乎沒有應受責備的責任」。",
       "sentenceIndex": 37,
@@ -1746,12 +1543,9 @@ export default {
         "without blame"
       ],
       "optionReasons": {
-        "blame-mcq-27": "本句指「沒有或幾乎沒有應受責備的責任」。",
-        "blame-mcq-26": "「因某人的行為或責任而應受到責備」是「18. deserve blame — 應受責備」的用法，與本句語境不同。",
-        "blame-mcq-25": "「對某人因錯誤或問題而作出的責備」是「17. blame（noun：責備；指責） — 責備」的用法，與本句語境不同。",
-        "blame-mcq-24": "「認為 Y 是造成 X 的原因或應對 X 負責」是「4. blame something on someone — 把某事歸咎於某人」的用法，與本句語境不同。",
-        "blame-mcq-23": "「認為某人的行為 X 應受到責怪」是「3. blame someone for doing something — 因某人做了某事而責怪他」的用法，與本句語境不同。",
-        "blame-mcq-22": "「很難怪某人」是「can hardly blame someone」的用法，與本句語境不同。"
+        "blame-mcq-27": "本句的「without blame」指「沒有或幾乎沒有應受責備的責任」。",
+        "blame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-27"
     },
@@ -1763,11 +1557,9 @@ export default {
       "masked": "He emerged from the situation largely ____.",
       "options": [
         "blame-mcq-27",
-        "blame-mcq-26",
-        "blame-mcq-25",
-        "blame-mcq-24",
-        "blame-mcq-23",
-        "blame-mcq-22"
+        "blame-mcq-21",
+        "blame-mcq-16",
+        "blame-mcq-19"
       ],
       "explanation": "本句的「without blame」指「沒有或幾乎沒有應受責備的責任」。",
       "sentenceIndex": 38,
@@ -1776,12 +1568,10 @@ export default {
         "without blame"
       ],
       "optionReasons": {
-        "blame-mcq-27": "本句指「沒有或幾乎沒有應受責備的責任」。",
-        "blame-mcq-26": "「因某人的行為或責任而應受到責備」是「18. deserve blame — 應受責備」的用法，與本句語境不同。",
-        "blame-mcq-25": "「對某人因錯誤或問題而作出的責備」是「17. blame（noun：責備；指責） — 責備」的用法，與本句語境不同。",
-        "blame-mcq-24": "「認為 Y 是造成 X 的原因或應對 X 負責」是「4. blame something on someone — 把某事歸咎於某人」的用法，與本句語境不同。",
-        "blame-mcq-23": "「認為某人的行為 X 應受到責怪」是「3. blame someone for doing something — 因某人做了某事而責怪他」的用法，與本句語境不同。",
-        "blame-mcq-22": "「很難怪某人」是「can hardly blame someone」的用法，與本句語境不同。"
+        "blame-mcq-27": "本句的「without blame」指「沒有或幾乎沒有應受責備的責任」。",
+        "blame-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-27"
     },
@@ -1793,11 +1583,9 @@ export default {
       "masked": "The speaker was completely ____.",
       "options": [
         "blame-mcq-16",
-        "blame-mcq-15",
-        "blame-mcq-17",
-        "blame-mcq-14",
-        "blame-mcq-18",
-        "blame-mcq-13"
+        "blame-mcq-06",
+        "blame-mcq-25",
+        "blame-mcq-19"
       ],
       "explanation": "本句的「blameless」指「無過失的」。",
       "sentenceIndex": 39,
@@ -1806,12 +1594,10 @@ export default {
         "blameless"
       ],
       "optionReasons": {
-        "blame-mcq-16": "本句指「無過失的」。",
-        "blame-mcq-15": "「歸責」是「place the blame」的用法，與本句語境不同。",
-        "blame-mcq-17": "「應受責備的」是「blameworthy」的用法，與本句語境不同。",
-        "blame-mcq-14": "「共同承擔責任」是「share the blame」的用法，與本句語境不同。",
-        "blame-mcq-18": "「互相推卸責任」是「blame game」的用法，與本句語境不同。",
-        "blame-mcq-13": "「推卸責任」是「shift the blame」的用法，與本句語境不同。"
+        "blame-mcq-16": "本句的「blameless」指「無過失的」。",
+        "blame-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-16"
     },
@@ -1823,11 +1609,9 @@ export default {
       "masked": "She was not entirely ____ in the argument.",
       "options": [
         "blame-mcq-16",
-        "blame-mcq-15",
-        "blame-mcq-17",
         "blame-mcq-14",
-        "blame-mcq-18",
-        "blame-mcq-13"
+        "blame-mcq-19",
+        "blame-mcq-23"
       ],
       "explanation": "本句的「blameless」指「無過失的」。",
       "sentenceIndex": 40,
@@ -1836,12 +1620,10 @@ export default {
         "blameless"
       ],
       "optionReasons": {
-        "blame-mcq-16": "本句指「無過失的」。",
-        "blame-mcq-15": "「歸責」是「place the blame」的用法，與本句語境不同。",
-        "blame-mcq-17": "「應受責備的」是「blameworthy」的用法，與本句語境不同。",
-        "blame-mcq-14": "「共同承擔責任」是「share the blame」的用法，與本句語境不同。",
-        "blame-mcq-18": "「互相推卸責任」是「blame game」的用法，與本句語境不同。",
-        "blame-mcq-13": "「推卸責任」是「shift the blame」的用法，與本句語境不同。"
+        "blame-mcq-16": "本句的「blameless」指「無過失的」。",
+        "blame-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-16"
     },
@@ -1853,11 +1635,9 @@ export default {
       "masked": "His behaviour was clearly ____.",
       "options": [
         "blame-mcq-17",
+        "blame-mcq-20",
         "blame-mcq-16",
-        "blame-mcq-18",
-        "blame-mcq-15",
-        "blame-mcq-19",
-        "blame-mcq-14"
+        "blame-mcq-13"
       ],
       "explanation": "本句的「blameworthy」指「應受責備的」。",
       "sentenceIndex": 41,
@@ -1866,12 +1646,10 @@ export default {
         "blameworthy"
       ],
       "optionReasons": {
-        "blame-mcq-17": "本句指「應受責備的」。",
-        "blame-mcq-16": "「無過失的」是「blameless」的用法，與本句語境不同。",
-        "blame-mcq-18": "「互相推卸責任」是「blame game」的用法，與本句語境不同。",
-        "blame-mcq-15": "「歸責」是「place the blame」的用法，與本句語境不同。",
-        "blame-mcq-19": "「責難文化」是「blame culture」的用法，與本句語境不同。",
-        "blame-mcq-14": "「共同承擔責任」是「share the blame」的用法，與本句語境不同。"
+        "blame-mcq-17": "本句的「blameworthy」指「應受責備的」。",
+        "blame-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-17"
     },
@@ -1883,10 +1661,8 @@ export default {
       "masked": "The court considered whether the conduct was ____.",
       "options": [
         "blame-mcq-17",
+        "blame-mcq-21",
         "blame-mcq-16",
-        "blame-mcq-18",
-        "blame-mcq-15",
-        "blame-mcq-19",
         "blame-mcq-14"
       ],
       "explanation": "本句的「blameworthy」指「應受責備的」。",
@@ -1896,12 +1672,10 @@ export default {
         "blameworthy"
       ],
       "optionReasons": {
-        "blame-mcq-17": "本句指「應受責備的」。",
-        "blame-mcq-16": "「無過失的」是「blameless」的用法，與本句語境不同。",
-        "blame-mcq-18": "「互相推卸責任」是「blame game」的用法，與本句語境不同。",
-        "blame-mcq-15": "「歸責」是「place the blame」的用法，與本句語境不同。",
-        "blame-mcq-19": "「責難文化」是「blame culture」的用法，與本句語境不同。",
-        "blame-mcq-14": "「共同承擔責任」是「share the blame」的用法，與本句語境不同。"
+        "blame-mcq-17": "本句的「blameworthy」指「應受責備的」。",
+        "blame-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-17"
     },
@@ -1913,11 +1687,9 @@ export default {
       "masked": "The meeting turned into a ____.",
       "options": [
         "blame-mcq-18",
-        "blame-mcq-17",
-        "blame-mcq-19",
-        "blame-mcq-16",
         "blame-mcq-20",
-        "blame-mcq-15"
+        "blame-mcq-16",
+        "blame-mcq-19"
       ],
       "explanation": "本句的「blame game」指「互相推卸責任」。",
       "sentenceIndex": 43,
@@ -1926,12 +1698,10 @@ export default {
         "blame game"
       ],
       "optionReasons": {
-        "blame-mcq-18": "本句指「互相推卸責任」。",
-        "blame-mcq-17": "「應受責備的」是「blameworthy」的用法，與本句語境不同。",
-        "blame-mcq-19": "「責難文化」是「blame culture」的用法，與本句語境不同。",
-        "blame-mcq-16": "「無過失的」是「blameless」的用法，與本句語境不同。",
-        "blame-mcq-20": "「不要怪我」是「Don't blame me」的用法，與本句語境不同。",
-        "blame-mcq-15": "「歸責」是「place the blame」的用法，與本句語境不同。"
+        "blame-mcq-18": "本句的「blame game」指「互相推卸責任」。",
+        "blame-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-18"
     },
@@ -1943,11 +1713,9 @@ export default {
       "masked": "Instead of solving the problem, everyone started playing the ____.",
       "options": [
         "blame-mcq-18",
-        "blame-mcq-17",
-        "blame-mcq-19",
         "blame-mcq-16",
-        "blame-mcq-20",
-        "blame-mcq-15"
+        "blame-mcq-22",
+        "blame-mcq-17"
       ],
       "explanation": "本句的「blame game」指「互相推卸責任」。",
       "sentenceIndex": 44,
@@ -1956,12 +1724,10 @@ export default {
         "blame game"
       ],
       "optionReasons": {
-        "blame-mcq-18": "本句指「互相推卸責任」。",
-        "blame-mcq-17": "「應受責備的」是「blameworthy」的用法，與本句語境不同。",
-        "blame-mcq-19": "「責難文化」是「blame culture」的用法，與本句語境不同。",
-        "blame-mcq-16": "「無過失的」是「blameless」的用法，與本句語境不同。",
-        "blame-mcq-20": "「不要怪我」是「Don't blame me」的用法，與本句語境不同。",
-        "blame-mcq-15": "「歸責」是「place the blame」的用法，與本句語境不同。"
+        "blame-mcq-18": "本句的「blame game」指「互相推卸責任」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-18"
     },
@@ -1973,11 +1739,9 @@ export default {
       "masked": "We don't have time to ____.",
       "options": [
         "blame-mcq-18",
-        "blame-mcq-17",
-        "blame-mcq-19",
+        "blame-mcq-22",
         "blame-mcq-16",
-        "blame-mcq-20",
-        "blame-mcq-15"
+        "blame-mcq-17"
       ],
       "explanation": "本句的「play the blame game」指「互相推卸責任」。",
       "sentenceIndex": 45,
@@ -1986,12 +1750,10 @@ export default {
         "play the blame game"
       ],
       "optionReasons": {
-        "blame-mcq-18": "本句指「互相推卸責任」。",
-        "blame-mcq-17": "「應受責備的」是「blameworthy」的用法，與本句語境不同。",
-        "blame-mcq-19": "「責難文化」是「blame culture」的用法，與本句語境不同。",
-        "blame-mcq-16": "「無過失的」是「blameless」的用法，與本句語境不同。",
-        "blame-mcq-20": "「不要怪我」是「Don't blame me」的用法，與本句語境不同。",
-        "blame-mcq-15": "「歸責」是「place the blame」的用法，與本句語境不同。"
+        "blame-mcq-18": "本句的「play the blame game」指「互相推卸責任」。",
+        "blame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-18"
     },
@@ -2003,11 +1765,9 @@ export default {
       "masked": "The team focused on solutions instead of ____.",
       "options": [
         "blame-mcq-18",
-        "blame-mcq-17",
-        "blame-mcq-19",
         "blame-mcq-16",
-        "blame-mcq-20",
-        "blame-mcq-15"
+        "blame-mcq-22",
+        "blame-mcq-17"
       ],
       "explanation": "本句的「playing the blame game」指「互相推卸責任」。",
       "sentenceIndex": 46,
@@ -2016,12 +1776,10 @@ export default {
         "playing the blame game"
       ],
       "optionReasons": {
-        "blame-mcq-18": "本句指「互相推卸責任」。",
-        "blame-mcq-17": "「應受責備的」是「blameworthy」的用法，與本句語境不同。",
-        "blame-mcq-19": "「責難文化」是「blame culture」的用法，與本句語境不同。",
-        "blame-mcq-16": "「無過失的」是「blameless」的用法，與本句語境不同。",
-        "blame-mcq-20": "「不要怪我」是「Don't blame me」的用法，與本句語境不同。",
-        "blame-mcq-15": "「歸責」是「place the blame」的用法，與本句語境不同。"
+        "blame-mcq-18": "本句的「playing the blame game」指「互相推卸責任」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-18"
     },
@@ -2033,11 +1791,9 @@ export default {
       "masked": "A ____ makes employees afraid to report mistakes.",
       "options": [
         "blame-mcq-19",
-        "blame-mcq-18",
-        "blame-mcq-20",
-        "blame-mcq-17",
         "blame-mcq-21",
-        "blame-mcq-16"
+        "blame-mcq-16",
+        "blame-mcq-09"
       ],
       "explanation": "本句的「blame culture」指「責難文化」。",
       "sentenceIndex": 47,
@@ -2046,12 +1802,10 @@ export default {
         "blame culture"
       ],
       "optionReasons": {
-        "blame-mcq-19": "本句指「責難文化」。",
-        "blame-mcq-18": "「互相推卸責任」是「blame game」的用法，與本句語境不同。",
-        "blame-mcq-20": "「不要怪我」是「Don't blame me」的用法，與本句語境不同。",
-        "blame-mcq-17": "「應受責備的」是「blameworthy」的用法，與本句語境不同。",
-        "blame-mcq-21": "「我不怪你／我理解你」是「I don't blame you」的用法，與本句語境不同。",
-        "blame-mcq-16": "「無過失的」是「blameless」的用法，與本句語境不同。"
+        "blame-mcq-19": "本句的「blame culture」指「責難文化」。",
+        "blame-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-19"
     },
@@ -2063,11 +1817,9 @@ export default {
       "masked": "The company wants to move away from a ____.",
       "options": [
         "blame-mcq-19",
-        "blame-mcq-18",
         "blame-mcq-20",
-        "blame-mcq-17",
-        "blame-mcq-21",
-        "blame-mcq-16"
+        "blame-mcq-16",
+        "blame-mcq-17"
       ],
       "explanation": "本句的「blame culture」指「責難文化」。",
       "sentenceIndex": 48,
@@ -2076,12 +1828,10 @@ export default {
         "blame culture"
       ],
       "optionReasons": {
-        "blame-mcq-19": "本句指「責難文化」。",
-        "blame-mcq-18": "「互相推卸責任」是「blame game」的用法，與本句語境不同。",
-        "blame-mcq-20": "「不要怪我」是「Don't blame me」的用法，與本句語境不同。",
-        "blame-mcq-17": "「應受責備的」是「blameworthy」的用法，與本句語境不同。",
-        "blame-mcq-21": "「我不怪你／我理解你」是「I don't blame you」的用法，與本句語境不同。",
-        "blame-mcq-16": "「無過失的」是「blameless」的用法，與本句語境不同。"
+        "blame-mcq-19": "本句的「blame culture」指「責難文化」。",
+        "blame-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-19"
     },
@@ -2093,11 +1843,9 @@ export default {
       "masked": "____—I wasn't even there.",
       "options": [
         "blame-mcq-20",
-        "blame-mcq-19",
-        "blame-mcq-21",
-        "blame-mcq-18",
-        "blame-mcq-22",
-        "blame-mcq-17"
+        "blame-mcq-24",
+        "blame-mcq-16",
+        "blame-mcq-25"
       ],
       "explanation": "本句的「Don't blame me」指「不要怪我」。",
       "sentenceIndex": 49,
@@ -2106,12 +1854,10 @@ export default {
         "Don't blame me"
       ],
       "optionReasons": {
-        "blame-mcq-20": "本句指「不要怪我」。",
-        "blame-mcq-19": "「責難文化」是「blame culture」的用法，與本句語境不同。",
-        "blame-mcq-21": "「我不怪你／我理解你」是「I don't blame you」的用法，與本句語境不同。",
-        "blame-mcq-18": "「互相推卸責任」是「blame game」的用法，與本句語境不同。",
-        "blame-mcq-22": "「很難怪某人」是「can hardly blame someone」的用法，與本句語境不同。",
-        "blame-mcq-17": "「應受責備的」是「blameworthy」的用法，與本句語境不同。"
+        "blame-mcq-20": "本句的「Don't blame me」指「不要怪我」。",
+        "blame-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-20"
     },
@@ -2123,11 +1869,9 @@ export default {
       "masked": "____ for the weather!",
       "options": [
         "blame-mcq-20",
-        "blame-mcq-19",
-        "blame-mcq-21",
-        "blame-mcq-18",
-        "blame-mcq-22",
-        "blame-mcq-17"
+        "blame-mcq-10",
+        "blame-mcq-25",
+        "blame-mcq-19"
       ],
       "explanation": "本句的「Don't blame me」指「不要怪我」。",
       "sentenceIndex": 50,
@@ -2136,12 +1880,10 @@ export default {
         "Don't blame me"
       ],
       "optionReasons": {
-        "blame-mcq-20": "本句指「不要怪我」。",
-        "blame-mcq-19": "「責難文化」是「blame culture」的用法，與本句語境不同。",
-        "blame-mcq-21": "「我不怪你／我理解你」是「I don't blame you」的用法，與本句語境不同。",
-        "blame-mcq-18": "「互相推卸責任」是「blame game」的用法，與本句語境不同。",
-        "blame-mcq-22": "「很難怪某人」是「can hardly blame someone」的用法，與本句語境不同。",
-        "blame-mcq-17": "「應受責備的」是「blameworthy」的用法，與本句語境不同。"
+        "blame-mcq-20": "本句的「Don't blame me」指「不要怪我」。",
+        "blame-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-20"
     },
@@ -2153,11 +1895,9 @@ export default {
       "masked": "I was upset.” > “I ____.",
       "options": [
         "blame-mcq-21",
-        "blame-mcq-20",
-        "blame-mcq-22",
-        "blame-mcq-19",
-        "blame-mcq-23",
-        "blame-mcq-18"
+        "blame-mcq-27",
+        "blame-mcq-16",
+        "blame-mcq-19"
       ],
       "explanation": "本句的「don't blame you」指「我不怪你／我理解你」。",
       "sentenceIndex": 51,
@@ -2166,12 +1906,10 @@ export default {
         "don't blame you"
       ],
       "optionReasons": {
-        "blame-mcq-21": "本句指「我不怪你／我理解你」。",
-        "blame-mcq-20": "「不要怪我」是「Don't blame me」的用法，與本句語境不同。",
-        "blame-mcq-22": "「很難怪某人」是「can hardly blame someone」的用法，與本句語境不同。",
-        "blame-mcq-19": "「責難文化」是「blame culture」的用法，與本句語境不同。",
-        "blame-mcq-23": "「認為某人的行為 X 應受到責怪」是「3. blame someone for doing something — 因某人做了某事而責怪他」的用法，與本句語境不同。",
-        "blame-mcq-18": "「互相推卸責任」是「blame game」的用法，與本句語境不同。"
+        "blame-mcq-21": "本句的「don't blame you」指「我不怪你／我理解你」。",
+        "blame-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-21"
     },
@@ -2183,11 +1921,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "blame-mcq-21",
-        "blame-mcq-20",
-        "blame-mcq-22",
-        "blame-mcq-19",
-        "blame-mcq-23",
-        "blame-mcq-18"
+        "blame-mcq-14",
+        "blame-mcq-25",
+        "blame-mcq-19"
       ],
       "explanation": "本句的「don't blame her for leaving」指「我不怪你／我理解你」。",
       "sentenceIndex": 52,
@@ -2196,12 +1932,10 @@ export default {
         "don't blame her for leaving"
       ],
       "optionReasons": {
-        "blame-mcq-21": "本句指「我不怪你／我理解你」。",
-        "blame-mcq-20": "「不要怪我」是「Don't blame me」的用法，與本句語境不同。",
-        "blame-mcq-22": "「很難怪某人」是「can hardly blame someone」的用法，與本句語境不同。",
-        "blame-mcq-19": "「責難文化」是「blame culture」的用法，與本句語境不同。",
-        "blame-mcq-23": "「認為某人的行為 X 應受到責怪」是「3. blame someone for doing something — 因某人做了某事而責怪他」的用法，與本句語境不同。",
-        "blame-mcq-18": "「互相推卸責任」是「blame game」的用法，與本句語境不同。"
+        "blame-mcq-21": "本句的「don't blame her for leaving」指「我不怪你／我理解你」。",
+        "blame-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-21"
     },
@@ -2213,11 +1947,9 @@ export default {
       "masked": "You can hardly ____.",
       "options": [
         "blame-mcq-22",
-        "blame-mcq-21",
-        "blame-mcq-23",
-        "blame-mcq-20",
-        "blame-mcq-24",
-        "blame-mcq-19"
+        "blame-mcq-16",
+        "blame-mcq-09",
+        "blame-mcq-17"
       ],
       "explanation": "本句的「blame her for being angry」指「很難怪某人」。",
       "sentenceIndex": 53,
@@ -2226,12 +1958,10 @@ export default {
         "blame her for being angry"
       ],
       "optionReasons": {
-        "blame-mcq-22": "本句指「很難怪某人」。",
-        "blame-mcq-21": "「我不怪你／我理解你」是「I don't blame you」的用法，與本句語境不同。",
-        "blame-mcq-23": "「認為某人的行為 X 應受到責怪」是「3. blame someone for doing something — 因某人做了某事而責怪他」的用法，與本句語境不同。",
-        "blame-mcq-20": "「不要怪我」是「Don't blame me」的用法，與本句語境不同。",
-        "blame-mcq-24": "「認為 Y 是造成 X 的原因或應對 X 負責」是「4. blame something on someone — 把某事歸咎於某人」的用法，與本句語境不同。",
-        "blame-mcq-19": "「責難文化」是「blame culture」的用法，與本句語境不同。"
+        "blame-mcq-22": "本句的「blame her for being angry」指「很難怪某人」。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-22"
     },
@@ -2243,11 +1973,8 @@ export default {
       "masked": "You can't really ____.",
       "options": [
         "blame-mcq-22",
-        "blame-mcq-21",
-        "blame-mcq-23",
-        "blame-mcq-20",
-        "blame-mcq-24",
-        "blame-mcq-19"
+        "blame-mcq-15",
+        "blame-mcq-16"
       ],
       "explanation": "本句的「blame him for feeling nervous」指「很難怪某人」。",
       "sentenceIndex": 54,
@@ -2256,12 +1983,9 @@ export default {
         "blame him for feeling nervous"
       ],
       "optionReasons": {
-        "blame-mcq-22": "本句指「很難怪某人」。",
-        "blame-mcq-21": "「我不怪你／我理解你」是「I don't blame you」的用法，與本句語境不同。",
-        "blame-mcq-23": "「認為某人的行為 X 應受到責怪」是「3. blame someone for doing something — 因某人做了某事而責怪他」的用法，與本句語境不同。",
-        "blame-mcq-20": "「不要怪我」是「Don't blame me」的用法，與本句語境不同。",
-        "blame-mcq-24": "「認為 Y 是造成 X 的原因或應對 X 負責」是「4. blame something on someone — 把某事歸咎於某人」的用法，與本句語境不同。",
-        "blame-mcq-19": "「責難文化」是「blame culture」的用法，與本句語境不同。"
+        "blame-mcq-22": "本句的「blame him for feeling nervous」指「很難怪某人」。",
+        "blame-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "blame-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blame-mcq-22"
     }
@@ -2273,5 +1997,7 @@ export default {
     "sha256": "d3d30a3617e79d24c7f9b3380550398f198a5bebfbfe208fc81aef34dd77af02",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

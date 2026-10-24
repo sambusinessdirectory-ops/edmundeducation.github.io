@@ -537,11 +537,9 @@ export default {
       "masked": "A ____ that really stands out in my memory was a handmade photo album.",
       "options": [
         "gift-mcq-23",
-        "gift-mcq-22",
-        "gift-mcq-24",
-        "gift-mcq-21",
-        "gift-mcq-20",
-        "gift-mcq-19"
+        "gift-mcq-19",
+        "gift-mcq-13",
+        "gift-mcq-04"
       ],
       "explanation": "本句的「gift」指「自願送給別人的東西，通常用來表達心意、祝賀、感謝或紀念」。",
       "sentenceIndex": 0,
@@ -550,12 +548,10 @@ export default {
         "gift"
       ],
       "optionReasons": {
-        "gift-mcq-23": "本句指「自願送給別人的東西，通常用來表達心意、祝賀、感謝或紀念」。",
-        "gift-mcq-22": "「送禮者」是「gift-giver」的用法，與本句語境不同。",
-        "gift-mcq-24": "「把 X 比喻成值得珍惜、感激的贈予或恩惠」是「20. the gift of time / friendship / life — 時間／友誼／生命的珍貴恩賜」的用法，與本句語境不同。",
-        "gift-mcq-21": "「能言善辯」是「gift of the gab」的用法，與本句語境不同。",
-        "gift-mcq-20": "「時間這份恩賜」是「gift of time」的用法，與本句語境不同。",
-        "gift-mcq-19": "「恩賜；珍貴事物」是「gift (blessing)」的用法，與本句語境不同。"
+        "gift-mcq-23": "本句的「gift」指「自願送給別人的東西，通常用來表達心意、祝賀、感謝或紀念」。",
+        "gift-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-23"
     },
@@ -567,10 +563,8 @@ export default {
       "masked": "She gave me a thoughtful ____ for my birthday.",
       "options": [
         "gift-mcq-23",
-        "gift-mcq-22",
-        "gift-mcq-24",
-        "gift-mcq-21",
-        "gift-mcq-20",
+        "gift-mcq-12",
+        "gift-mcq-07",
         "gift-mcq-19"
       ],
       "explanation": "本句的「gift」指「自願送給別人的東西，通常用來表達心意、祝賀、感謝或紀念」。",
@@ -580,12 +574,10 @@ export default {
         "gift"
       ],
       "optionReasons": {
-        "gift-mcq-23": "本句指「自願送給別人的東西，通常用來表達心意、祝賀、感謝或紀念」。",
-        "gift-mcq-22": "「送禮者」是「gift-giver」的用法，與本句語境不同。",
-        "gift-mcq-24": "「把 X 比喻成值得珍惜、感激的贈予或恩惠」是「20. the gift of time / friendship / life — 時間／友誼／生命的珍貴恩賜」的用法，與本句語境不同。",
-        "gift-mcq-21": "「能言善辯」是「gift of the gab」的用法，與本句語境不同。",
-        "gift-mcq-20": "「時間這份恩賜」是「gift of time」的用法，與本句語境不同。",
-        "gift-mcq-19": "「恩賜；珍貴事物」是「gift (blessing)」的用法，與本句語境不同。"
+        "gift-mcq-23": "本句的「gift」指「自願送給別人的東西，通常用來表達心意、祝賀、感謝或紀念」。",
+        "gift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-23"
     },
@@ -597,11 +589,9 @@ export default {
       "masked": "I bought a small ____ for my teacher.",
       "options": [
         "gift-mcq-23",
-        "gift-mcq-22",
-        "gift-mcq-24",
+        "gift-mcq-08",
         "gift-mcq-21",
-        "gift-mcq-20",
-        "gift-mcq-19"
+        "gift-mcq-18"
       ],
       "explanation": "本句的「gift」指「自願送給別人的東西，通常用來表達心意、祝賀、感謝或紀念」。",
       "sentenceIndex": 2,
@@ -610,12 +600,10 @@ export default {
         "gift"
       ],
       "optionReasons": {
-        "gift-mcq-23": "本句指「自願送給別人的東西，通常用來表達心意、祝賀、感謝或紀念」。",
-        "gift-mcq-22": "「送禮者」是「gift-giver」的用法，與本句語境不同。",
-        "gift-mcq-24": "「把 X 比喻成值得珍惜、感激的贈予或恩惠」是「20. the gift of time / friendship / life — 時間／友誼／生命的珍貴恩賜」的用法，與本句語境不同。",
-        "gift-mcq-21": "「能言善辯」是「gift of the gab」的用法，與本句語境不同。",
-        "gift-mcq-20": "「時間這份恩賜」是「gift of time」的用法，與本句語境不同。",
-        "gift-mcq-19": "「恩賜；珍貴事物」是「gift (blessing)」的用法，與本句語境不同。"
+        "gift-mcq-23": "本句的「gift」指「自願送給別人的東西，通常用來表達心意、祝賀、感謝或紀念」。",
+        "gift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-23"
     },
@@ -627,11 +615,9 @@ export default {
       "masked": "I bought her a ____.",
       "options": [
         "gift-mcq-02",
-        "gift-mcq-01",
-        "gift-mcq-03",
-        "gift-mcq-04",
         "gift-mcq-05",
-        "gift-mcq-06"
+        "gift-mcq-23",
+        "gift-mcq-19"
       ],
       "explanation": "本句的「birthday gift」指「生日禮物」。",
       "sentenceIndex": 3,
@@ -640,12 +626,10 @@ export default {
         "birthday gift"
       ],
       "optionReasons": {
-        "gift-mcq-02": "本句指「生日禮物」。",
-        "gift-mcq-01": "「禮物；贈禮」是「gift (present)」的用法，與本句語境不同。",
-        "gift-mcq-03": "「送禮」是「give a gift」的用法，與本句語境不同。",
-        "gift-mcq-04": "「天賦；才華」是「gift (talent)」的用法，與本句語境不同。",
-        "gift-mcq-05": "「X 方面的天賦」是「gift for X」的用法，與本句語境不同。",
-        "gift-mcq-06": "「X 的天賦／恩賜」是「gift of X」的用法，與本句語境不同。"
+        "gift-mcq-02": "本句的「birthday gift」指「生日禮物」。",
+        "gift-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-02"
     },
@@ -657,11 +641,9 @@ export default {
       "masked": "They received many ____.",
       "options": [
         "gift-mcq-02",
-        "gift-mcq-01",
-        "gift-mcq-03",
-        "gift-mcq-04",
-        "gift-mcq-05",
-        "gift-mcq-06"
+        "gift-mcq-10",
+        "gift-mcq-21",
+        "gift-mcq-04"
       ],
       "explanation": "本句的「wedding gifts」指「生日禮物」。",
       "sentenceIndex": 4,
@@ -670,12 +652,10 @@ export default {
         "wedding gifts"
       ],
       "optionReasons": {
-        "gift-mcq-02": "本句指「生日禮物」。",
-        "gift-mcq-01": "「禮物；贈禮」是「gift (present)」的用法，與本句語境不同。",
-        "gift-mcq-03": "「送禮」是「give a gift」的用法，與本句語境不同。",
-        "gift-mcq-04": "「天賦；才華」是「gift (talent)」的用法，與本句語境不同。",
-        "gift-mcq-05": "「X 方面的天賦」是「gift for X」的用法，與本句語境不同。",
-        "gift-mcq-06": "「X 的天賦／恩賜」是「gift of X」的用法，與本句語境不同。"
+        "gift-mcq-02": "本句的「wedding gifts」指「生日禮物」。",
+        "gift-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-02"
     },
@@ -687,11 +667,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "gift-mcq-03",
-        "gift-mcq-02",
+        "gift-mcq-24",
         "gift-mcq-04",
-        "gift-mcq-01",
-        "gift-mcq-05",
-        "gift-mcq-06"
+        "gift-mcq-21"
       ],
       "explanation": "本句的「gave my mother a gift」指「送禮」。",
       "sentenceIndex": 5,
@@ -700,12 +678,10 @@ export default {
         "gave my mother a gift"
       ],
       "optionReasons": {
-        "gift-mcq-03": "本句指「送禮」。",
-        "gift-mcq-02": "「生日禮物」是「birthday gift」的用法，與本句語境不同。",
-        "gift-mcq-04": "「天賦；才華」是「gift (talent)」的用法，與本句語境不同。",
-        "gift-mcq-01": "「禮物；贈禮」是「gift (present)」的用法，與本句語境不同。",
-        "gift-mcq-05": "「X 方面的天賦」是「gift for X」的用法，與本句語境不同。",
-        "gift-mcq-06": "「X 的天賦／恩賜」是「gift of X」的用法，與本句語境不同。"
+        "gift-mcq-03": "本句的「gave my mother a gift」指「送禮」。",
+        "gift-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-03"
     },
@@ -717,11 +693,9 @@ export default {
       "masked": "They ____ at the end of term.",
       "options": [
         "gift-mcq-03",
-        "gift-mcq-02",
+        "gift-mcq-24",
         "gift-mcq-04",
-        "gift-mcq-01",
-        "gift-mcq-05",
-        "gift-mcq-06"
+        "gift-mcq-08"
       ],
       "explanation": "本句的「gave the teacher a small gift」指「送禮」。",
       "sentenceIndex": 6,
@@ -730,12 +704,10 @@ export default {
         "gave the teacher a small gift"
       ],
       "optionReasons": {
-        "gift-mcq-03": "本句指「送禮」。",
-        "gift-mcq-02": "「生日禮物」是「birthday gift」的用法，與本句語境不同。",
-        "gift-mcq-04": "「天賦；才華」是「gift (talent)」的用法，與本句語境不同。",
-        "gift-mcq-01": "「禮物；贈禮」是「gift (present)」的用法，與本句語境不同。",
-        "gift-mcq-05": "「X 方面的天賦」是「gift for X」的用法，與本句語境不同。",
-        "gift-mcq-06": "「X 的天賦／恩賜」是「gift of X」的用法，與本句語境不同。"
+        "gift-mcq-03": "本句的「gave the teacher a small gift」指「送禮」。",
+        "gift-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-03"
     },
@@ -747,11 +719,9 @@ export default {
       "masked": "She has a natural ____.",
       "options": [
         "gift-mcq-04",
-        "gift-mcq-03",
-        "gift-mcq-05",
-        "gift-mcq-02",
-        "gift-mcq-06",
-        "gift-mcq-01"
+        "gift-pdf-001",
+        "gift-mcq-24",
+        "gift-mcq-21"
       ],
       "explanation": "本句的「gift for music」指「天賦；才華」。",
       "sentenceIndex": 7,
@@ -760,12 +730,10 @@ export default {
         "gift for music"
       ],
       "optionReasons": {
-        "gift-mcq-04": "本句指「天賦；才華」。",
-        "gift-mcq-03": "「送禮」是「give a gift」的用法，與本句語境不同。",
-        "gift-mcq-05": "「X 方面的天賦」是「gift for X」的用法，與本句語境不同。",
-        "gift-mcq-02": "「生日禮物」是「birthday gift」的用法，與本句語境不同。",
-        "gift-mcq-06": "「X 的天賦／恩賜」是「gift of X」的用法，與本句語境不同。",
-        "gift-mcq-01": "「禮物；贈禮」是「gift (present)」的用法，與本句語境不同。"
+        "gift-mcq-04": "本句的「gift for music」指「天賦；才華」。",
+        "gift-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-04"
     },
@@ -777,11 +745,9 @@ export default {
       "masked": "He has a remarkable ____.",
       "options": [
         "gift-mcq-04",
-        "gift-mcq-03",
-        "gift-mcq-05",
-        "gift-mcq-02",
-        "gift-mcq-06",
-        "gift-mcq-01"
+        "gift-mcq-11",
+        "gift-mcq-08",
+        "gift-mcq-21"
       ],
       "explanation": "本句的「gift for explaining difficult ideas」指「天賦；才華」。",
       "sentenceIndex": 8,
@@ -790,12 +756,10 @@ export default {
         "gift for explaining difficult ideas"
       ],
       "optionReasons": {
-        "gift-mcq-04": "本句指「天賦；才華」。",
-        "gift-mcq-03": "「送禮」是「give a gift」的用法，與本句語境不同。",
-        "gift-mcq-05": "「X 方面的天賦」是「gift for X」的用法，與本句語境不同。",
-        "gift-mcq-02": "「生日禮物」是「birthday gift」的用法，與本句語境不同。",
-        "gift-mcq-06": "「X 的天賦／恩賜」是「gift of X」的用法，與本句語境不同。",
-        "gift-mcq-01": "「禮物；贈禮」是「gift (present)」的用法，與本句語境不同。"
+        "gift-mcq-04": "本句的「gift for explaining difficult ideas」指「天賦；才華」。",
+        "gift-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-04"
     },
@@ -807,11 +771,9 @@ export default {
       "masked": "He has a ____.",
       "options": [
         "gift-mcq-05",
-        "gift-mcq-04",
-        "gift-mcq-06",
-        "gift-mcq-03",
-        "gift-mcq-07",
-        "gift-mcq-02"
+        "gift-mcq-13",
+        "gift-mcq-09",
+        "gift-mcq-21"
       ],
       "explanation": "本句的「gift for languages」指「X 方面的天賦」。",
       "sentenceIndex": 9,
@@ -820,12 +782,10 @@ export default {
         "gift for languages"
       ],
       "optionReasons": {
-        "gift-mcq-05": "本句指「X 方面的天賦」。",
-        "gift-mcq-04": "「天賦；才華」是「gift (talent)」的用法，與本句語境不同。",
-        "gift-mcq-06": "「X 的天賦／恩賜」是「gift of X」的用法，與本句語境不同。",
-        "gift-mcq-03": "「送禮」是「give a gift」的用法，與本句語境不同。",
-        "gift-mcq-07": "「有天賦的；資優的」是「gifted」的用法，與本句語境不同。",
-        "gift-mcq-02": "「生日禮物」是「birthday gift」的用法，與本句語境不同。"
+        "gift-mcq-05": "本句的「gift for languages」指「X 方面的天賦」。",
+        "gift-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-05"
     },
@@ -837,11 +797,9 @@ export default {
       "masked": "She has a real ____.",
       "options": [
         "gift-mcq-05",
-        "gift-mcq-04",
-        "gift-mcq-06",
-        "gift-mcq-03",
-        "gift-mcq-07",
-        "gift-mcq-02"
+        "gift-mcq-11",
+        "gift-mcq-21",
+        "gift-mcq-08"
       ],
       "explanation": "本句的「gift for teaching」指「X 方面的天賦」。",
       "sentenceIndex": 10,
@@ -850,12 +808,10 @@ export default {
         "gift for teaching"
       ],
       "optionReasons": {
-        "gift-mcq-05": "本句指「X 方面的天賦」。",
-        "gift-mcq-04": "「天賦；才華」是「gift (talent)」的用法，與本句語境不同。",
-        "gift-mcq-06": "「X 的天賦／恩賜」是「gift of X」的用法，與本句語境不同。",
-        "gift-mcq-03": "「送禮」是「give a gift」的用法，與本句語境不同。",
-        "gift-mcq-07": "「有天賦的；資優的」是「gifted」的用法，與本句語境不同。",
-        "gift-mcq-02": "「生日禮物」是「birthday gift」的用法，與本句語境不同。"
+        "gift-mcq-05": "本句的「gift for teaching」指「X 方面的天賦」。",
+        "gift-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-05"
     },
@@ -867,11 +823,9 @@ export default {
       "masked": "She has the ____.",
       "options": [
         "gift-mcq-06",
-        "gift-mcq-05",
-        "gift-mcq-07",
-        "gift-mcq-04",
-        "gift-mcq-08",
-        "gift-mcq-03"
+        "gift-mcq-03",
+        "gift-mcq-10",
+        "gift-mcq-08"
       ],
       "explanation": "本句的「gift of making people feel comfortable」指「X 的天賦／恩賜」。",
       "sentenceIndex": 11,
@@ -880,12 +834,10 @@ export default {
         "gift of making people feel comfortable"
       ],
       "optionReasons": {
-        "gift-mcq-06": "本句指「X 的天賦／恩賜」。",
-        "gift-mcq-05": "「X 方面的天賦」是「gift for X」的用法，與本句語境不同。",
-        "gift-mcq-07": "「有天賦的；資優的」是「gifted」的用法，與本句語境不同。",
-        "gift-mcq-04": "「天賦；才華」是「gift (talent)」的用法，與本句語境不同。",
-        "gift-mcq-08": "「資優學生」是「gifted student」的用法，與本句語境不同。",
-        "gift-mcq-03": "「送禮」是「give a gift」的用法，與本句語境不同。"
+        "gift-mcq-06": "本句的「gift of making people feel comfortable」指「X 的天賦／恩賜」。",
+        "gift-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-06"
     },
@@ -897,11 +849,9 @@ export default {
       "masked": "He had the ____.",
       "options": [
         "gift-mcq-06",
-        "gift-mcq-05",
-        "gift-mcq-07",
-        "gift-mcq-04",
-        "gift-mcq-08",
-        "gift-mcq-03"
+        "gift-mcq-18",
+        "gift-mcq-13",
+        "gift-mcq-08"
       ],
       "explanation": "本句的「gift of storytelling」指「X 的天賦／恩賜」。",
       "sentenceIndex": 12,
@@ -910,12 +860,10 @@ export default {
         "gift of storytelling"
       ],
       "optionReasons": {
-        "gift-mcq-06": "本句指「X 的天賦／恩賜」。",
-        "gift-mcq-05": "「X 方面的天賦」是「gift for X」的用法，與本句語境不同。",
-        "gift-mcq-07": "「有天賦的；資優的」是「gifted」的用法，與本句語境不同。",
-        "gift-mcq-04": "「天賦；才華」是「gift (talent)」的用法，與本句語境不同。",
-        "gift-mcq-08": "「資優學生」是「gifted student」的用法，與本句語境不同。",
-        "gift-mcq-03": "「送禮」是「give a gift」的用法，與本句語境不同。"
+        "gift-mcq-06": "本句的「gift of storytelling」指「X 的天賦／恩賜」。",
+        "gift-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-06"
     },
@@ -927,11 +875,9 @@ export default {
       "masked": "She is a ____.",
       "options": [
         "gift-mcq-07",
-        "gift-mcq-06",
-        "gift-mcq-08",
-        "gift-mcq-05",
-        "gift-mcq-09",
-        "gift-mcq-04"
+        "gift-mcq-13",
+        "gift-mcq-24",
+        "gift-mcq-21"
       ],
       "explanation": "本句的「gifted musician」指「有天賦的；資優的」。",
       "sentenceIndex": 13,
@@ -940,12 +886,10 @@ export default {
         "gifted musician"
       ],
       "optionReasons": {
-        "gift-mcq-07": "本句指「有天賦的；資優的」。",
-        "gift-mcq-06": "「X 的天賦／恩賜」是「gift of X」的用法，與本句語境不同。",
-        "gift-mcq-08": "「資優學生」是「gifted student」的用法，與本句語境不同。",
-        "gift-mcq-05": "「X 方面的天賦」是「gift for X」的用法，與本句語境不同。",
-        "gift-mcq-09": "「贈送」是「gift (verb)」的用法，與本句語境不同。",
-        "gift-mcq-04": "「天賦；才華」是「gift (talent)」的用法，與本句語境不同。"
+        "gift-mcq-07": "本句的「gifted musician」指「有天賦的；資優的」。",
+        "gift-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-07"
     },
@@ -957,11 +901,9 @@ export default {
       "masked": "The school has a programme for ____.",
       "options": [
         "gift-mcq-07",
-        "gift-mcq-06",
-        "gift-mcq-08",
-        "gift-mcq-05",
-        "gift-mcq-09",
-        "gift-mcq-04"
+        "gift-mcq-14",
+        "gift-mcq-24",
+        "gift-mcq-18"
       ],
       "explanation": "本句的「gifted students」指「有天賦的；資優的」。",
       "sentenceIndex": 14,
@@ -970,12 +912,10 @@ export default {
         "gifted students"
       ],
       "optionReasons": {
-        "gift-mcq-07": "本句指「有天賦的；資優的」。",
-        "gift-mcq-06": "「X 的天賦／恩賜」是「gift of X」的用法，與本句語境不同。",
-        "gift-mcq-08": "「資優學生」是「gifted student」的用法，與本句語境不同。",
-        "gift-mcq-05": "「X 方面的天賦」是「gift for X」的用法，與本句語境不同。",
-        "gift-mcq-09": "「贈送」是「gift (verb)」的用法，與本句語境不同。",
-        "gift-mcq-04": "「天賦；才華」是「gift (talent)」的用法，與本句語境不同。"
+        "gift-mcq-07": "本句的「gifted students」指「有天賦的；資優的」。",
+        "gift-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-07"
     },
@@ -987,11 +927,9 @@ export default {
       "masked": "He was identified as a ____.",
       "options": [
         "gift-mcq-08",
-        "gift-mcq-07",
-        "gift-mcq-09",
-        "gift-mcq-06",
-        "gift-mcq-10",
-        "gift-mcq-05"
+        "gift-mcq-21",
+        "gift-mcq-19",
+        "gift-mcq-14"
       ],
       "explanation": "本句的「gifted child」指「資優學生」。",
       "sentenceIndex": 15,
@@ -1000,12 +938,10 @@ export default {
         "gifted child"
       ],
       "optionReasons": {
-        "gift-mcq-08": "本句指「資優學生」。",
-        "gift-mcq-07": "「有天賦的；資優的」是「gifted」的用法，與本句語境不同。",
-        "gift-mcq-09": "「贈送」是「gift (verb)」的用法，與本句語境不同。",
-        "gift-mcq-06": "「X 的天賦／恩賜」是「gift of X」的用法，與本句語境不同。",
-        "gift-mcq-10": "「把 X 贈給 Y」是「gift X to Y」的用法，與本句語境不同。",
-        "gift-mcq-05": "「X 方面的天賦」是「gift for X」的用法，與本句語境不同。"
+        "gift-mcq-08": "本句的「gifted child」指「資優學生」。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-08"
     },
@@ -1017,11 +953,9 @@ export default {
       "masked": "____ may need more challenging work.",
       "options": [
         "gift-mcq-08",
-        "gift-mcq-07",
-        "gift-mcq-09",
+        "gift-mcq-11",
         "gift-mcq-06",
-        "gift-mcq-10",
-        "gift-mcq-05"
+        "gift-mcq-21"
       ],
       "explanation": "本句的「Gifted students」指「資優學生」。",
       "sentenceIndex": 16,
@@ -1030,12 +964,10 @@ export default {
         "Gifted students"
       ],
       "optionReasons": {
-        "gift-mcq-08": "本句指「資優學生」。",
-        "gift-mcq-07": "「有天賦的；資優的」是「gifted」的用法，與本句語境不同。",
-        "gift-mcq-09": "「贈送」是「gift (verb)」的用法，與本句語境不同。",
-        "gift-mcq-06": "「X 的天賦／恩賜」是「gift of X」的用法，與本句語境不同。",
-        "gift-mcq-10": "「把 X 贈給 Y」是「gift X to Y」的用法，與本句語境不同。",
-        "gift-mcq-05": "「X 方面的天賦」是「gift for X」的用法，與本句語境不同。"
+        "gift-mcq-08": "本句的「Gifted students」指「資優學生」。",
+        "gift-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-08"
     },
@@ -1047,11 +979,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "gift-mcq-09",
-        "gift-mcq-08",
-        "gift-mcq-10",
-        "gift-mcq-07",
-        "gift-mcq-11",
-        "gift-mcq-06"
+        "gift-mcq-13",
+        "gift-mcq-06",
+        "gift-mcq-08"
       ],
       "explanation": "本句的「gifted the painting to the museum」指「贈送」。",
       "sentenceIndex": 17,
@@ -1060,12 +990,10 @@ export default {
         "gifted the painting to the museum"
       ],
       "optionReasons": {
-        "gift-mcq-09": "本句指「贈送」。",
-        "gift-mcq-08": "「資優學生」是「gifted student」的用法，與本句語境不同。",
-        "gift-mcq-10": "「把 X 贈給 Y」是「gift X to Y」的用法，與本句語境不同。",
-        "gift-mcq-07": "「有天賦的；資優的」是「gifted」的用法，與本句語境不同。",
-        "gift-mcq-11": "「送禮；贈送」是「gifting」的用法，與本句語境不同。",
-        "gift-mcq-06": "「X 的天賦／恩賜」是「gift of X」的用法，與本句語境不同。"
+        "gift-mcq-09": "本句的「gifted the painting to the museum」指「贈送」。",
+        "gift-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-09"
     },
@@ -1077,11 +1005,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "gift-mcq-09",
-        "gift-mcq-08",
-        "gift-mcq-10",
-        "gift-mcq-07",
-        "gift-mcq-11",
-        "gift-mcq-06"
+        "gift-mcq-04",
+        "gift-mcq-14",
+        "gift-mcq-19"
       ],
       "explanation": "本句的「gifted employees a small bonus」指「贈送」。",
       "sentenceIndex": 18,
@@ -1090,12 +1016,10 @@ export default {
         "gifted employees a small bonus"
       ],
       "optionReasons": {
-        "gift-mcq-09": "本句指「贈送」。",
-        "gift-mcq-08": "「資優學生」是「gifted student」的用法，與本句語境不同。",
-        "gift-mcq-10": "「把 X 贈給 Y」是「gift X to Y」的用法，與本句語境不同。",
-        "gift-mcq-07": "「有天賦的；資優的」是「gifted」的用法，與本句語境不同。",
-        "gift-mcq-11": "「送禮；贈送」是「gifting」的用法，與本句語境不同。",
-        "gift-mcq-06": "「X 的天賦／恩賜」是「gift of X」的用法，與本句語境不同。"
+        "gift-mcq-09": "本句的「gifted employees a small bonus」指「贈送」。",
+        "gift-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-09"
     },
@@ -1107,11 +1031,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "gift-mcq-10",
-        "gift-mcq-09",
-        "gift-mcq-11",
-        "gift-mcq-08",
+        "gift-mcq-04",
         "gift-mcq-12",
-        "gift-mcq-07"
+        "gift-mcq-08"
       ],
       "explanation": "本句的「gifted the collection to the university」指「把 X 贈給 Y」。",
       "sentenceIndex": 19,
@@ -1120,12 +1042,10 @@ export default {
         "gifted the collection to the university"
       ],
       "optionReasons": {
-        "gift-mcq-10": "本句指「把 X 贈給 Y」。",
-        "gift-mcq-09": "「贈送」是「gift (verb)」的用法，與本句語境不同。",
-        "gift-mcq-11": "「送禮；贈送」是「gifting」的用法，與本句語境不同。",
-        "gift-mcq-08": "「資優學生」是「gifted student」的用法，與本句語境不同。",
-        "gift-mcq-12": "「禮品卡」是「gift card」的用法，與本句語境不同。",
-        "gift-mcq-07": "「有天賦的；資優的」是「gifted」的用法，與本句語境不同。"
+        "gift-mcq-10": "本句的「gifted the collection to the university」指「把 X 贈給 Y」。",
+        "gift-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-10"
     },
@@ -1137,11 +1057,9 @@ export default {
       "masked": "The artist ____.",
       "options": [
         "gift-mcq-10",
-        "gift-mcq-09",
-        "gift-mcq-11",
-        "gift-mcq-08",
-        "gift-mcq-12",
-        "gift-mcq-07"
+        "gift-mcq-14",
+        "gift-mcq-21",
+        "gift-mcq-06"
       ],
       "explanation": "本句的「gifted several works to the gallery」指「把 X 贈給 Y」。",
       "sentenceIndex": 20,
@@ -1150,12 +1068,10 @@ export default {
         "gifted several works to the gallery"
       ],
       "optionReasons": {
-        "gift-mcq-10": "本句指「把 X 贈給 Y」。",
-        "gift-mcq-09": "「贈送」是「gift (verb)」的用法，與本句語境不同。",
-        "gift-mcq-11": "「送禮；贈送」是「gifting」的用法，與本句語境不同。",
-        "gift-mcq-08": "「資優學生」是「gifted student」的用法，與本句語境不同。",
-        "gift-mcq-12": "「禮品卡」是「gift card」的用法，與本句語境不同。",
-        "gift-mcq-07": "「有天賦的；資優的」是「gifted」的用法，與本句語境不同。"
+        "gift-mcq-10": "本句的「gifted several works to the gallery」指「把 X 贈給 Y」。",
+        "gift-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-10"
     },
@@ -1167,11 +1083,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "gift-pdf-001",
-        "gift-mcq-10",
-        "gift-mcq-12",
-        "gift-mcq-09",
-        "gift-mcq-13",
-        "gift-mcq-08"
+        "gift-mcq-08",
+        "gift-mcq-06",
+        "gift-mcq-21"
       ],
       "explanation": "本句的「gifted her a watch」指「把 X 作為禮物或免費贈品送給某人」。",
       "sentenceIndex": 21,
@@ -1180,12 +1094,10 @@ export default {
         "gifted her a watch"
       ],
       "optionReasons": {
-        "gift-pdf-001": "本句指「把 X 作為禮物或免費贈品送給某人」。",
-        "gift-mcq-10": "「把 X 贈給 Y」是「gift X to Y」的用法，與本句語境不同。",
-        "gift-mcq-12": "「禮品卡」是「gift card」的用法，與本句語境不同。",
-        "gift-mcq-09": "「贈送」是「gift (verb)」的用法，與本句語境不同。",
-        "gift-mcq-13": "「禮物收據」是「gift receipt」的用法，與本句語境不同。",
-        "gift-mcq-08": "「資優學生」是「gifted student」的用法，與本句語境不同。"
+        "gift-pdf-001": "本句的「gifted her a watch」指「把 X 作為禮物或免費贈品送給某人」。",
+        "gift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-pdf-001"
     },
@@ -1197,11 +1109,9 @@ export default {
       "masked": "The brand ____.",
       "options": [
         "gift-pdf-001",
-        "gift-mcq-10",
-        "gift-mcq-12",
-        "gift-mcq-09",
-        "gift-mcq-13",
-        "gift-mcq-08"
+        "gift-mcq-21",
+        "gift-mcq-04",
+        "gift-mcq-19"
       ],
       "explanation": "本句的「gifted influencers free products」指「把 X 作為禮物或免費贈品送給某人」。",
       "sentenceIndex": 22,
@@ -1210,12 +1120,10 @@ export default {
         "gifted influencers free products"
       ],
       "optionReasons": {
-        "gift-pdf-001": "本句指「把 X 作為禮物或免費贈品送給某人」。",
-        "gift-mcq-10": "「把 X 贈給 Y」是「gift X to Y」的用法，與本句語境不同。",
-        "gift-mcq-12": "「禮品卡」是「gift card」的用法，與本句語境不同。",
-        "gift-mcq-09": "「贈送」是「gift (verb)」的用法，與本句語境不同。",
-        "gift-mcq-13": "「禮物收據」是「gift receipt」的用法，與本句語境不同。",
-        "gift-mcq-08": "「資優學生」是「gifted student」的用法，與本句語境不同。"
+        "gift-pdf-001": "本句的「gifted influencers free products」指「把 X 作為禮物或免費贈品送給某人」。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-pdf-001"
     },
@@ -1227,11 +1135,9 @@ export default {
       "masked": "Holiday ____ can become expensive.",
       "options": [
         "gift-mcq-11",
-        "gift-mcq-10",
-        "gift-mcq-12",
-        "gift-mcq-09",
-        "gift-mcq-13",
-        "gift-mcq-08"
+        "gift-mcq-19",
+        "gift-mcq-04",
+        "gift-mcq-21"
       ],
       "explanation": "本句的「gifting」指「送禮；贈送」。",
       "sentenceIndex": 23,
@@ -1240,12 +1146,10 @@ export default {
         "gifting"
       ],
       "optionReasons": {
-        "gift-mcq-11": "本句指「送禮；贈送」。",
-        "gift-mcq-10": "「把 X 贈給 Y」是「gift X to Y」的用法，與本句語境不同。",
-        "gift-mcq-12": "「禮品卡」是「gift card」的用法，與本句語境不同。",
-        "gift-mcq-09": "「贈送」是「gift (verb)」的用法，與本句語境不同。",
-        "gift-mcq-13": "「禮物收據」是「gift receipt」的用法，與本句語境不同。",
-        "gift-mcq-08": "「資優學生」是「gifted student」的用法，與本句語境不同。"
+        "gift-mcq-11": "本句的「gifting」指「送禮；贈送」。",
+        "gift-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-11"
     },
@@ -1257,11 +1161,9 @@ export default {
       "masked": "Corporate ____ is common at the end of the year.",
       "options": [
         "gift-mcq-11",
-        "gift-mcq-10",
-        "gift-mcq-12",
-        "gift-mcq-09",
-        "gift-mcq-13",
-        "gift-mcq-08"
+        "gift-mcq-08",
+        "gift-mcq-21",
+        "gift-mcq-06"
       ],
       "explanation": "本句的「gifting」指「送禮；贈送」。",
       "sentenceIndex": 24,
@@ -1270,12 +1172,10 @@ export default {
         "gifting"
       ],
       "optionReasons": {
-        "gift-mcq-11": "本句指「送禮；贈送」。",
-        "gift-mcq-10": "「把 X 贈給 Y」是「gift X to Y」的用法，與本句語境不同。",
-        "gift-mcq-12": "「禮品卡」是「gift card」的用法，與本句語境不同。",
-        "gift-mcq-09": "「贈送」是「gift (verb)」的用法，與本句語境不同。",
-        "gift-mcq-13": "「禮物收據」是「gift receipt」的用法，與本句語境不同。",
-        "gift-mcq-08": "「資優學生」是「gifted student」的用法，與本句語境不同。"
+        "gift-mcq-11": "本句的「gifting」指「送禮；贈送」。",
+        "gift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-11"
     },
@@ -1287,11 +1187,9 @@ export default {
       "masked": "She gave me a ____.",
       "options": [
         "gift-mcq-12",
-        "gift-mcq-11",
-        "gift-mcq-13",
-        "gift-mcq-10",
-        "gift-mcq-14",
-        "gift-mcq-09"
+        "gift-mcq-04",
+        "gift-mcq-21",
+        "gift-mcq-08"
       ],
       "explanation": "本句的「gift card」指「禮品卡」。",
       "sentenceIndex": 25,
@@ -1300,12 +1198,10 @@ export default {
         "gift card"
       ],
       "optionReasons": {
-        "gift-mcq-12": "本句指「禮品卡」。",
-        "gift-mcq-11": "「送禮；贈送」是「gifting」的用法，與本句語境不同。",
-        "gift-mcq-13": "「禮物收據」是「gift receipt」的用法，與本句語境不同。",
-        "gift-mcq-10": "「把 X 贈給 Y」是「gift X to Y」的用法，與本句語境不同。",
-        "gift-mcq-14": "「禮物袋」是「gift bag」的用法，與本句語境不同。",
-        "gift-mcq-09": "「贈送」是「gift (verb)」的用法，與本句語境不同。"
+        "gift-mcq-12": "本句的「gift card」指「禮品卡」。",
+        "gift-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-12"
     },
@@ -1317,11 +1213,9 @@ export default {
       "masked": "I used the ____ to buy a book.",
       "options": [
         "gift-mcq-12",
-        "gift-mcq-11",
-        "gift-mcq-13",
-        "gift-mcq-10",
-        "gift-mcq-14",
-        "gift-mcq-09"
+        "gift-mcq-21",
+        "gift-mcq-23",
+        "gift-mcq-19"
       ],
       "explanation": "本句的「gift card」指「禮品卡」。",
       "sentenceIndex": 26,
@@ -1330,12 +1224,10 @@ export default {
         "gift card"
       ],
       "optionReasons": {
-        "gift-mcq-12": "本句指「禮品卡」。",
-        "gift-mcq-11": "「送禮；贈送」是「gifting」的用法，與本句語境不同。",
-        "gift-mcq-13": "「禮物收據」是「gift receipt」的用法，與本句語境不同。",
-        "gift-mcq-10": "「把 X 贈給 Y」是「gift X to Y」的用法，與本句語境不同。",
-        "gift-mcq-14": "「禮物袋」是「gift bag」的用法，與本句語境不同。",
-        "gift-mcq-09": "「贈送」是「gift (verb)」的用法，與本句語境不同。"
+        "gift-mcq-12": "本句的「gift card」指「禮品卡」。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-12"
     },
@@ -1347,11 +1239,9 @@ export default {
       "masked": "Ask for a ____ in case she wants to exchange it.",
       "options": [
         "gift-mcq-13",
-        "gift-mcq-12",
-        "gift-mcq-14",
-        "gift-mcq-11",
-        "gift-mcq-15",
-        "gift-mcq-10"
+        "gift-mcq-18",
+        "gift-mcq-08",
+        "gift-mcq-05"
       ],
       "explanation": "本句的「gift receipt」指「禮物收據」。",
       "sentenceIndex": 27,
@@ -1360,12 +1250,10 @@ export default {
         "gift receipt"
       ],
       "optionReasons": {
-        "gift-mcq-13": "本句指「禮物收據」。",
-        "gift-mcq-12": "「禮品卡」是「gift card」的用法，與本句語境不同。",
-        "gift-mcq-14": "「禮物袋」是「gift bag」的用法，與本句語境不同。",
-        "gift-mcq-11": "「送禮；贈送」是「gifting」的用法，與本句語境不同。",
-        "gift-mcq-15": "「禮盒」是「gift box」的用法，與本句語境不同。",
-        "gift-mcq-10": "「把 X 贈給 Y」是「gift X to Y」的用法，與本句語境不同。"
+        "gift-mcq-13": "本句的「gift receipt」指「禮物收據」。",
+        "gift-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-13"
     },
@@ -1377,11 +1265,9 @@ export default {
       "masked": "The ____ doesn't show the price.",
       "options": [
         "gift-mcq-13",
-        "gift-mcq-12",
-        "gift-mcq-14",
-        "gift-mcq-11",
-        "gift-mcq-15",
-        "gift-mcq-10"
+        "gift-mcq-10",
+        "gift-mcq-21",
+        "gift-mcq-05"
       ],
       "explanation": "本句的「gift receipt」指「禮物收據」。",
       "sentenceIndex": 28,
@@ -1390,12 +1276,10 @@ export default {
         "gift receipt"
       ],
       "optionReasons": {
-        "gift-mcq-13": "本句指「禮物收據」。",
-        "gift-mcq-12": "「禮品卡」是「gift card」的用法，與本句語境不同。",
-        "gift-mcq-14": "「禮物袋」是「gift bag」的用法，與本句語境不同。",
-        "gift-mcq-11": "「送禮；贈送」是「gifting」的用法，與本句語境不同。",
-        "gift-mcq-15": "「禮盒」是「gift box」的用法，與本句語境不同。",
-        "gift-mcq-10": "「把 X 贈給 Y」是「gift X to Y」的用法，與本句語境不同。"
+        "gift-mcq-13": "本句的「gift receipt」指「禮物收據」。",
+        "gift-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-13"
     },
@@ -1407,11 +1291,9 @@ export default {
       "masked": "She put the present in a ____.",
       "options": [
         "gift-mcq-14",
-        "gift-mcq-13",
-        "gift-mcq-15",
-        "gift-mcq-12",
-        "gift-mcq-16",
-        "gift-mcq-11"
+        "gift-mcq-05",
+        "gift-mcq-10",
+        "gift-mcq-19"
       ],
       "explanation": "本句的「gift bag」指「禮物袋」。",
       "sentenceIndex": 29,
@@ -1420,12 +1302,10 @@ export default {
         "gift bag"
       ],
       "optionReasons": {
-        "gift-mcq-14": "本句指「禮物袋」。",
-        "gift-mcq-13": "「禮物收據」是「gift receipt」的用法，與本句語境不同。",
-        "gift-mcq-15": "「禮盒」是「gift box」的用法，與本句語境不同。",
-        "gift-mcq-12": "「禮品卡」是「gift card」的用法，與本句語境不同。",
-        "gift-mcq-16": "「禮品店」是「gift shop」的用法，與本句語境不同。",
-        "gift-mcq-11": "「送禮；贈送」是「gifting」的用法，與本句語境不同。"
+        "gift-mcq-14": "本句的「gift bag」指「禮物袋」。",
+        "gift-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-14"
     },
@@ -1437,11 +1317,9 @@ export default {
       "masked": "The necklace came in a small ____.",
       "options": [
         "gift-mcq-14",
-        "gift-mcq-13",
-        "gift-mcq-15",
-        "gift-mcq-12",
-        "gift-mcq-16",
-        "gift-mcq-11"
+        "gift-mcq-09",
+        "gift-mcq-05",
+        "gift-mcq-08"
       ],
       "explanation": "本句的「gift box」指「禮物袋」。",
       "sentenceIndex": 30,
@@ -1450,12 +1328,10 @@ export default {
         "gift box"
       ],
       "optionReasons": {
-        "gift-mcq-14": "本句指「禮物袋」。",
-        "gift-mcq-13": "「禮物收據」是「gift receipt」的用法，與本句語境不同。",
-        "gift-mcq-15": "「禮盒」是「gift box」的用法，與本句語境不同。",
-        "gift-mcq-12": "「禮品卡」是「gift card」的用法，與本句語境不同。",
-        "gift-mcq-16": "「禮品店」是「gift shop」的用法，與本句語境不同。",
-        "gift-mcq-11": "「送禮；贈送」是「gifting」的用法，與本句語境不同。"
+        "gift-mcq-14": "本句的「gift box」指「禮物袋」。",
+        "gift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-14"
     },
@@ -1467,11 +1343,9 @@ export default {
       "masked": "We bought postcards at the museum ____.",
       "options": [
         "gift-mcq-16",
-        "gift-mcq-15",
-        "gift-mcq-17",
-        "gift-mcq-14",
-        "gift-mcq-18",
-        "gift-mcq-13"
+        "gift-mcq-21",
+        "gift-mcq-23",
+        "gift-mcq-04"
       ],
       "explanation": "本句的「gift shop」指「禮品店」。",
       "sentenceIndex": 31,
@@ -1480,12 +1354,10 @@ export default {
         "gift shop"
       ],
       "optionReasons": {
-        "gift-mcq-16": "本句指「禮品店」。",
-        "gift-mcq-15": "「禮盒」是「gift box」的用法，與本句語境不同。",
-        "gift-mcq-17": "「禮品類商品」是「giftware」的用法，與本句語境不同。",
-        "gift-mcq-14": "「禮物袋」是「gift bag」的用法，與本句語境不同。",
-        "gift-mcq-18": "「免費贈品」是「free gift」的用法，與本句語境不同。",
-        "gift-mcq-13": "「禮物收據」是「gift receipt」的用法，與本句語境不同。"
+        "gift-mcq-16": "本句的「gift shop」指「禮品店」。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-16"
     },
@@ -1497,11 +1369,9 @@ export default {
       "masked": "The hotel has a small ____.",
       "options": [
         "gift-mcq-16",
-        "gift-mcq-15",
-        "gift-mcq-17",
-        "gift-mcq-14",
-        "gift-mcq-18",
-        "gift-mcq-13"
+        "gift-mcq-21",
+        "gift-mcq-23",
+        "gift-mcq-08"
       ],
       "explanation": "本句的「gift shop」指「禮品店」。",
       "sentenceIndex": 32,
@@ -1510,12 +1380,10 @@ export default {
         "gift shop"
       ],
       "optionReasons": {
-        "gift-mcq-16": "本句指「禮品店」。",
-        "gift-mcq-15": "「禮盒」是「gift box」的用法，與本句語境不同。",
-        "gift-mcq-17": "「禮品類商品」是「giftware」的用法，與本句語境不同。",
-        "gift-mcq-14": "「禮物袋」是「gift bag」的用法，與本句語境不同。",
-        "gift-mcq-18": "「免費贈品」是「free gift」的用法，與本句語境不同。",
-        "gift-mcq-13": "「禮物收據」是「gift receipt」的用法，與本句語境不同。"
+        "gift-mcq-16": "本句的「gift shop」指「禮品店」。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-16"
     },
@@ -1527,11 +1395,9 @@ export default {
       "masked": "The store sells homeware and ____.",
       "options": [
         "gift-mcq-17",
-        "gift-mcq-16",
-        "gift-mcq-18",
-        "gift-mcq-15",
-        "gift-mcq-19",
-        "gift-mcq-14"
+        "gift-mcq-24",
+        "gift-mcq-05",
+        "gift-mcq-08"
       ],
       "explanation": "本句的「giftware」指「禮品類商品」。",
       "sentenceIndex": 33,
@@ -1540,12 +1406,10 @@ export default {
         "giftware"
       ],
       "optionReasons": {
-        "gift-mcq-17": "本句指「禮品類商品」。",
-        "gift-mcq-16": "「禮品店」是「gift shop」的用法，與本句語境不同。",
-        "gift-mcq-18": "「免費贈品」是「free gift」的用法，與本句語境不同。",
-        "gift-mcq-15": "「禮盒」是「gift box」的用法，與本句語境不同。",
-        "gift-mcq-19": "「恩賜；珍貴事物」是「gift (blessing)」的用法，與本句語境不同。",
-        "gift-mcq-14": "「禮物袋」是「gift bag」的用法，與本句語境不同。"
+        "gift-mcq-17": "本句的「giftware」指「禮品類商品」。",
+        "gift-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-17"
     },
@@ -1557,11 +1421,9 @@ export default {
       "masked": "Seasonal ____ sells well before Christmas.",
       "options": [
         "gift-mcq-17",
-        "gift-mcq-16",
-        "gift-mcq-18",
-        "gift-mcq-15",
-        "gift-mcq-19",
-        "gift-mcq-14"
+        "gift-mcq-24",
+        "gift-mcq-07",
+        "gift-mcq-23"
       ],
       "explanation": "本句的「giftware」指「禮品類商品」。",
       "sentenceIndex": 34,
@@ -1570,12 +1432,10 @@ export default {
         "giftware"
       ],
       "optionReasons": {
-        "gift-mcq-17": "本句指「禮品類商品」。",
-        "gift-mcq-16": "「禮品店」是「gift shop」的用法，與本句語境不同。",
-        "gift-mcq-18": "「免費贈品」是「free gift」的用法，與本句語境不同。",
-        "gift-mcq-15": "「禮盒」是「gift box」的用法，與本句語境不同。",
-        "gift-mcq-19": "「恩賜；珍貴事物」是「gift (blessing)」的用法，與本句語境不同。",
-        "gift-mcq-14": "「禮物袋」是「gift bag」的用法，與本句語境不同。"
+        "gift-mcq-17": "本句的「giftware」指「禮品類商品」。",
+        "gift-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-17"
     },
@@ -1587,11 +1447,9 @@ export default {
       "masked": "The magazine comes with a ____.",
       "options": [
         "gift-mcq-18",
-        "gift-mcq-17",
-        "gift-mcq-19",
-        "gift-mcq-16",
-        "gift-mcq-20",
-        "gift-mcq-15"
+        "gift-mcq-14",
+        "gift-mcq-06",
+        "gift-mcq-23"
       ],
       "explanation": "本句的「free gift」指「免費贈品」。",
       "sentenceIndex": 35,
@@ -1600,12 +1458,10 @@ export default {
         "free gift"
       ],
       "optionReasons": {
-        "gift-mcq-18": "本句指「免費贈品」。",
-        "gift-mcq-17": "「禮品類商品」是「giftware」的用法，與本句語境不同。",
-        "gift-mcq-19": "「恩賜；珍貴事物」是「gift (blessing)」的用法，與本句語境不同。",
-        "gift-mcq-16": "「禮品店」是「gift shop」的用法，與本句語境不同。",
-        "gift-mcq-20": "「時間這份恩賜」是「gift of time」的用法，與本句語境不同。",
-        "gift-mcq-15": "「禮盒」是「gift box」的用法，與本句語境不同。"
+        "gift-mcq-18": "本句的「free gift」指「免費贈品」。",
+        "gift-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-18"
     },
@@ -1617,11 +1473,9 @@ export default {
       "masked": "Customers receive a ____ with every purchase.",
       "options": [
         "gift-mcq-18",
-        "gift-mcq-17",
-        "gift-mcq-19",
-        "gift-mcq-16",
-        "gift-mcq-20",
-        "gift-mcq-15"
+        "gift-mcq-14",
+        "gift-mcq-06",
+        "gift-mcq-21"
       ],
       "explanation": "本句的「free gift」指「免費贈品」。",
       "sentenceIndex": 36,
@@ -1630,12 +1484,10 @@ export default {
         "free gift"
       ],
       "optionReasons": {
-        "gift-mcq-18": "本句指「免費贈品」。",
-        "gift-mcq-17": "「禮品類商品」是「giftware」的用法，與本句語境不同。",
-        "gift-mcq-19": "「恩賜；珍貴事物」是「gift (blessing)」的用法，與本句語境不同。",
-        "gift-mcq-16": "「禮品店」是「gift shop」的用法，與本句語境不同。",
-        "gift-mcq-20": "「時間這份恩賜」是「gift of time」的用法，與本句語境不同。",
-        "gift-mcq-15": "「禮盒」是「gift box」的用法，與本句語境不同。"
+        "gift-mcq-18": "本句的「free gift」指「免費贈品」。",
+        "gift-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-18"
     },
@@ -1647,11 +1499,9 @@ export default {
       "masked": "Good health is a ____.",
       "options": [
         "gift-mcq-19",
-        "gift-mcq-18",
-        "gift-mcq-20",
-        "gift-mcq-17",
-        "gift-mcq-21",
-        "gift-mcq-16"
+        "gift-mcq-03",
+        "gift-mcq-04",
+        "gift-mcq-10"
       ],
       "explanation": "本句的「gift」指「恩賜；珍貴事物」。",
       "sentenceIndex": 37,
@@ -1660,12 +1510,10 @@ export default {
         "gift"
       ],
       "optionReasons": {
-        "gift-mcq-19": "本句指「恩賜；珍貴事物」。",
-        "gift-mcq-18": "「免費贈品」是「free gift」的用法，與本句語境不同。",
-        "gift-mcq-20": "「時間這份恩賜」是「gift of time」的用法，與本句語境不同。",
-        "gift-mcq-17": "「禮品類商品」是「giftware」的用法，與本句語境不同。",
-        "gift-mcq-21": "「能言善辯」是「gift of the gab」的用法，與本句語境不同。",
-        "gift-mcq-16": "「禮品店」是「gift shop」的用法，與本句語境不同。"
+        "gift-mcq-19": "本句的「gift」指「恩賜；珍貴事物」。",
+        "gift-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-19"
     },
@@ -1677,11 +1525,9 @@ export default {
       "masked": "Having more time with family felt like a ____.",
       "options": [
         "gift-mcq-19",
-        "gift-mcq-18",
-        "gift-mcq-20",
-        "gift-mcq-17",
-        "gift-mcq-21",
-        "gift-mcq-16"
+        "gift-mcq-05",
+        "gift-mcq-02",
+        "gift-mcq-18"
       ],
       "explanation": "本句的「gift」指「恩賜；珍貴事物」。",
       "sentenceIndex": 38,
@@ -1690,12 +1536,10 @@ export default {
         "gift"
       ],
       "optionReasons": {
-        "gift-mcq-19": "本句指「恩賜；珍貴事物」。",
-        "gift-mcq-18": "「免費贈品」是「free gift」的用法，與本句語境不同。",
-        "gift-mcq-20": "「時間這份恩賜」是「gift of time」的用法，與本句語境不同。",
-        "gift-mcq-17": "「禮品類商品」是「giftware」的用法，與本句語境不同。",
-        "gift-mcq-21": "「能言善辯」是「gift of the gab」的用法，與本句語境不同。",
-        "gift-mcq-16": "「禮品店」是「gift shop」的用法，與本句語境不同。"
+        "gift-mcq-19": "本句的「gift」指「恩賜；珍貴事物」。",
+        "gift-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-19"
     },
@@ -1707,11 +1551,9 @@ export default {
       "masked": "The greatest thing she gave me was the ____.",
       "options": [
         "gift-mcq-24",
-        "gift-mcq-23",
-        "gift-mcq-22",
-        "gift-mcq-21",
-        "gift-mcq-20",
-        "gift-mcq-19"
+        "gift-mcq-12",
+        "gift-mcq-07",
+        "gift-mcq-21"
       ],
       "explanation": "本句的「gift of time」指「把 X 比喻成值得珍惜、感激的贈予或恩惠」。",
       "sentenceIndex": 39,
@@ -1720,12 +1562,10 @@ export default {
         "gift of time"
       ],
       "optionReasons": {
-        "gift-mcq-24": "本句指「把 X 比喻成值得珍惜、感激的贈予或恩惠」。",
-        "gift-mcq-23": "「自願送給別人的東西，通常用來表達心意、祝賀、感謝或紀念」是「1. gift（禮物） — 禮物；贈禮」的用法，與本句語境不同。",
-        "gift-mcq-22": "「送禮者」是「gift-giver」的用法，與本句語境不同。",
-        "gift-mcq-21": "「能言善辯」是「gift of the gab」的用法，與本句語境不同。",
-        "gift-mcq-20": "「時間這份恩賜」是「gift of time」的用法，與本句語境不同。",
-        "gift-mcq-19": "「恩賜；珍貴事物」是「gift (blessing)」的用法，與本句語境不同。"
+        "gift-mcq-24": "本句的「gift of time」指「把 X 比喻成值得珍惜、感激的贈予或恩惠」。",
+        "gift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-24"
     },
@@ -1737,11 +1577,9 @@ export default {
       "masked": "We should value the ____.",
       "options": [
         "gift-mcq-24",
-        "gift-mcq-23",
-        "gift-mcq-22",
-        "gift-mcq-21",
-        "gift-mcq-20",
-        "gift-mcq-19"
+        "gift-mcq-14",
+        "gift-mcq-05",
+        "gift-mcq-21"
       ],
       "explanation": "本句的「gift of friendship」指「把 X 比喻成值得珍惜、感激的贈予或恩惠」。",
       "sentenceIndex": 40,
@@ -1750,12 +1588,10 @@ export default {
         "gift of friendship"
       ],
       "optionReasons": {
-        "gift-mcq-24": "本句指「把 X 比喻成值得珍惜、感激的贈予或恩惠」。",
-        "gift-mcq-23": "「自願送給別人的東西，通常用來表達心意、祝賀、感謝或紀念」是「1. gift（禮物） — 禮物；贈禮」的用法，與本句語境不同。",
-        "gift-mcq-22": "「送禮者」是「gift-giver」的用法，與本句語境不同。",
-        "gift-mcq-21": "「能言善辯」是「gift of the gab」的用法，與本句語境不同。",
-        "gift-mcq-20": "「時間這份恩賜」是「gift of time」的用法，與本句語境不同。",
-        "gift-mcq-19": "「恩賜；珍貴事物」是「gift (blessing)」的用法，與本句語境不同。"
+        "gift-mcq-24": "本句的「gift of friendship」指「把 X 比喻成值得珍惜、感激的贈予或恩惠」。",
+        "gift-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-24"
     },
@@ -1767,11 +1603,9 @@ export default {
       "masked": "He has the ____.",
       "options": [
         "gift-mcq-21",
-        "gift-mcq-20",
-        "gift-mcq-22",
-        "gift-mcq-19",
-        "gift-mcq-23",
-        "gift-mcq-18"
+        "gift-mcq-12",
+        "gift-mcq-07",
+        "gift-mcq-23"
       ],
       "explanation": "本句的「gift of the gab」指「能言善辯」。",
       "sentenceIndex": 41,
@@ -1780,12 +1614,10 @@ export default {
         "gift of the gab"
       ],
       "optionReasons": {
-        "gift-mcq-21": "本句指「能言善辯」。",
-        "gift-mcq-20": "「時間這份恩賜」是「gift of time」的用法，與本句語境不同。",
-        "gift-mcq-22": "「送禮者」是「gift-giver」的用法，與本句語境不同。",
-        "gift-mcq-19": "「恩賜；珍貴事物」是「gift (blessing)」的用法，與本句語境不同。",
-        "gift-mcq-23": "「自願送給別人的東西，通常用來表達心意、祝賀、感謝或紀念」是「1. gift（禮物） — 禮物；贈禮」的用法，與本句語境不同。",
-        "gift-mcq-18": "「免費贈品」是「free gift」的用法，與本句語境不同。"
+        "gift-mcq-21": "本句的「gift of the gab」指「能言善辯」。",
+        "gift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-21"
     },
@@ -1797,11 +1629,9 @@ export default {
       "masked": "A salesperson with the ____ can be very persuasive.",
       "options": [
         "gift-mcq-21",
-        "gift-mcq-20",
-        "gift-mcq-22",
-        "gift-mcq-19",
-        "gift-mcq-23",
-        "gift-mcq-18"
+        "gift-mcq-06",
+        "gift-mcq-13",
+        "gift-mcq-08"
       ],
       "explanation": "本句的「gift of the gab」指「能言善辯」。",
       "sentenceIndex": 42,
@@ -1810,12 +1640,10 @@ export default {
         "gift of the gab"
       ],
       "optionReasons": {
-        "gift-mcq-21": "本句指「能言善辯」。",
-        "gift-mcq-20": "「時間這份恩賜」是「gift of time」的用法，與本句語境不同。",
-        "gift-mcq-22": "「送禮者」是「gift-giver」的用法，與本句語境不同。",
-        "gift-mcq-19": "「恩賜；珍貴事物」是「gift (blessing)」的用法，與本句語境不同。",
-        "gift-mcq-23": "「自願送給別人的東西，通常用來表達心意、祝賀、感謝或紀念」是「1. gift（禮物） — 禮物；贈禮」的用法，與本句語境不同。",
-        "gift-mcq-18": "「免費贈品」是「free gift」的用法，與本句語境不同。"
+        "gift-mcq-21": "本句的「gift of the gab」指「能言善辯」。",
+        "gift-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-21"
     },
@@ -1827,11 +1655,9 @@ export default {
       "masked": "The ____ had clearly put a lot of thought into it.",
       "options": [
         "gift-mcq-22",
+        "gift-mcq-18",
         "gift-mcq-21",
-        "gift-mcq-23",
-        "gift-mcq-20",
-        "gift-mcq-24",
-        "gift-mcq-19"
+        "gift-mcq-08"
       ],
       "explanation": "本句的「gift-giver」指「送禮者」。",
       "sentenceIndex": 43,
@@ -1840,12 +1666,10 @@ export default {
         "gift-giver"
       ],
       "optionReasons": {
-        "gift-mcq-22": "本句指「送禮者」。",
-        "gift-mcq-21": "「能言善辯」是「gift of the gab」的用法，與本句語境不同。",
-        "gift-mcq-23": "「自願送給別人的東西，通常用來表達心意、祝賀、感謝或紀念」是「1. gift（禮物） — 禮物；贈禮」的用法，與本句語境不同。",
-        "gift-mcq-20": "「時間這份恩賜」是「gift of time」的用法，與本句語境不同。",
-        "gift-mcq-24": "「把 X 比喻成值得珍惜、感激的贈予或恩惠」是「20. the gift of time / friendship / life — 時間／友誼／生命的珍貴恩賜」的用法，與本句語境不同。",
-        "gift-mcq-19": "「恩賜；珍貴事物」是「gift (blessing)」的用法，與本句語境不同。"
+        "gift-mcq-22": "本句的「gift-giver」指「送禮者」。",
+        "gift-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-22"
     },
@@ -1857,11 +1681,9 @@ export default {
       "masked": "A good gift reflects both the receiver and the ____.",
       "options": [
         "gift-mcq-22",
-        "gift-mcq-21",
-        "gift-mcq-23",
-        "gift-mcq-20",
-        "gift-mcq-24",
-        "gift-mcq-19"
+        "gift-mcq-19",
+        "gift-mcq-18",
+        "gift-mcq-05"
       ],
       "explanation": "本句的「gift-giver」指「送禮者」。",
       "sentenceIndex": 44,
@@ -1870,12 +1692,10 @@ export default {
         "gift-giver"
       ],
       "optionReasons": {
-        "gift-mcq-22": "本句指「送禮者」。",
-        "gift-mcq-21": "「能言善辯」是「gift of the gab」的用法，與本句語境不同。",
-        "gift-mcq-23": "「自願送給別人的東西，通常用來表達心意、祝賀、感謝或紀念」是「1. gift（禮物） — 禮物；贈禮」的用法，與本句語境不同。",
-        "gift-mcq-20": "「時間這份恩賜」是「gift of time」的用法，與本句語境不同。",
-        "gift-mcq-24": "「把 X 比喻成值得珍惜、感激的贈予或恩惠」是「20. the gift of time / friendship / life — 時間／友誼／生命的珍貴恩賜」的用法，與本句語境不同。",
-        "gift-mcq-19": "「恩賜；珍貴事物」是「gift (blessing)」的用法，與本句語境不同。"
+        "gift-mcq-22": "本句的「gift-giver」指「送禮者」。",
+        "gift-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "gift-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gift-mcq-22"
     }
@@ -1887,5 +1707,7 @@ export default {
     "sha256": "172088d5d9776e53425d966012eb3682ea57bba879034b3b9758763e8dd87840",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

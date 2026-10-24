@@ -171,18 +171,7 @@ export default {
       "en": "soaring — aviation noun",
       "zh": "利用上升氣流進行的滑翔飛行；專門",
       "note": "來源詞義：利用上升氣流進行的滑翔飛行；專門",
-      "examples": [
-        [
-          "Applications soared after the programme became popular.",
-          "計劃受歡迎後，申請數量激增。",
-          "利用上升氣流進行的滑翔飛行；專門"
-        ],
-        [
-          "Visitor numbers have soared.",
-          "訪客數量急升。",
-          "利用上升氣流進行的滑翔飛行；專門"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -207,6 +196,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "soar-reviewed-414dea9cd0",
+      "title": "激增",
+      "form": "soar · source section 10",
+      "en": "激增",
+      "zh": "激增",
+      "note": "對照原始教材第 10 節及例句核實。",
+      "examples": [
+        [
+          "Applications soared after the programme became popular.",
+          "計劃受歡迎後，申請數量激增。",
+          "激增"
+        ],
+        [
+          "Visitor numbers have soared.",
+          "訪客數量急升。",
+          "激增"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -218,11 +229,9 @@ export default {
       "masked": "An eagle ____ above the mountains.",
       "options": [
         "soar-mcq-01",
-        "soar-mcq-02",
-        "soar-mcq-03",
         "soar-mcq-04",
-        "soar-mcq-05",
-        "soar-mcq-06"
+        "soar-reviewed-414dea9cd0",
+        "soar-mcq-05"
       ],
       "explanation": "本句的「soared」指「在高空中平穩、自由地飛翔／翱翔」。",
       "sentenceIndex": 0,
@@ -231,12 +240,10 @@ export default {
         "soared"
       ],
       "optionReasons": {
-        "soar-mcq-01": "本句指「在高空中平穩、自由地飛翔／翱翔」。",
-        "soar-mcq-02": "「在空中迅速或持續向上升高」與本句語境不同。",
-        "soar-mcq-03": "「價格、成本、需求、數字等迅速而大幅上升至高水平」與本句語境不同。",
-        "soar-mcq-04": "「人氣、聲望、成功程度等迅速提升」與本句語境不同。",
-        "soar-mcq-05": "「心情突然非常振奮、雀躍」與本句語境不同。",
-        "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。"
+        "soar-mcq-01": "本句的「soared」指「在高空中平穩、自由地飛翔／翱翔」。",
+        "soar-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "soar-reviewed-414dea9cd0": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soar-mcq-01"
     },
@@ -248,11 +255,9 @@ export default {
       "masked": "Birds ____ high above the coast.",
       "options": [
         "soar-mcq-01",
-        "soar-mcq-02",
-        "soar-mcq-03",
-        "soar-mcq-04",
         "soar-mcq-05",
-        "soar-mcq-06"
+        "soar-reviewed-414dea9cd0",
+        "soar-mcq-04"
       ],
       "explanation": "本句的「soared」指「在高空中平穩、自由地飛翔／翱翔」。",
       "sentenceIndex": 1,
@@ -261,12 +266,10 @@ export default {
         "soared"
       ],
       "optionReasons": {
-        "soar-mcq-01": "本句指「在高空中平穩、自由地飛翔／翱翔」。",
-        "soar-mcq-02": "「在空中迅速或持續向上升高」與本句語境不同。",
-        "soar-mcq-03": "「價格、成本、需求、數字等迅速而大幅上升至高水平」與本句語境不同。",
-        "soar-mcq-04": "「人氣、聲望、成功程度等迅速提升」與本句語境不同。",
-        "soar-mcq-05": "「心情突然非常振奮、雀躍」與本句語境不同。",
-        "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。"
+        "soar-mcq-01": "本句的「soared」指「在高空中平穩、自由地飛翔／翱翔」。",
+        "soar-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "soar-reviewed-414dea9cd0": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soar-mcq-01"
     },
@@ -278,11 +281,8 @@ export default {
       "masked": "The bird ____ into the sky.",
       "options": [
         "soar-mcq-02",
-        "soar-mcq-01",
-        "soar-mcq-03",
-        "soar-mcq-04",
         "soar-mcq-05",
-        "soar-mcq-06"
+        "soar-reviewed-414dea9cd0"
       ],
       "explanation": "本句的「soared」指「在空中迅速或持續向上升高」。",
       "sentenceIndex": 2,
@@ -291,12 +291,9 @@ export default {
         "soared"
       ],
       "optionReasons": {
-        "soar-mcq-02": "本句指「在空中迅速或持續向上升高」。",
-        "soar-mcq-01": "「在高空中平穩、自由地飛翔／翱翔」與本句語境不同。",
-        "soar-mcq-03": "「價格、成本、需求、數字等迅速而大幅上升至高水平」與本句語境不同。",
-        "soar-mcq-04": "「人氣、聲望、成功程度等迅速提升」與本句語境不同。",
-        "soar-mcq-05": "「心情突然非常振奮、雀躍」與本句語境不同。",
-        "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。"
+        "soar-mcq-02": "本句的「soared」指「在空中迅速或持續向上升高」。",
+        "soar-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "soar-reviewed-414dea9cd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soar-mcq-02"
     },
@@ -308,11 +305,8 @@ export default {
       "masked": "The glider ____ higher on the warm air currents.",
       "options": [
         "soar-mcq-02",
-        "soar-mcq-01",
-        "soar-mcq-03",
-        "soar-mcq-04",
-        "soar-mcq-05",
-        "soar-mcq-06"
+        "soar-reviewed-414dea9cd0",
+        "soar-mcq-05"
       ],
       "explanation": "本句的「soared」指「在空中迅速或持續向上升高」。",
       "sentenceIndex": 3,
@@ -321,12 +315,9 @@ export default {
         "soared"
       ],
       "optionReasons": {
-        "soar-mcq-02": "本句指「在空中迅速或持續向上升高」。",
-        "soar-mcq-01": "「在高空中平穩、自由地飛翔／翱翔」與本句語境不同。",
-        "soar-mcq-03": "「價格、成本、需求、數字等迅速而大幅上升至高水平」與本句語境不同。",
-        "soar-mcq-04": "「人氣、聲望、成功程度等迅速提升」與本句語境不同。",
-        "soar-mcq-05": "「心情突然非常振奮、雀躍」與本句語境不同。",
-        "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。"
+        "soar-mcq-02": "本句的「soared」指「在空中迅速或持續向上升高」。",
+        "soar-reviewed-414dea9cd0": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soar-mcq-02"
     },
@@ -338,11 +329,9 @@ export default {
       "masked": "Hong Kong has experienced ____.",
       "options": [
         "soar-mcq-03",
-        "soar-mcq-02",
-        "soar-mcq-04",
-        "soar-mcq-01",
         "soar-mcq-05",
-        "soar-mcq-06"
+        "soar-reviewed-414dea9cd0",
+        "soar-mcq-01"
       ],
       "explanation": "本句的「soaring rents」指「價格、成本、需求、數字等迅速而大幅上升至高水平」。",
       "sentenceIndex": 4,
@@ -351,12 +340,10 @@ export default {
         "soaring rents"
       ],
       "optionReasons": {
-        "soar-mcq-03": "本句指「價格、成本、需求、數字等迅速而大幅上升至高水平」。",
-        "soar-mcq-02": "「在空中迅速或持續向上升高」與本句語境不同。",
-        "soar-mcq-04": "「人氣、聲望、成功程度等迅速提升」與本句語境不同。",
-        "soar-mcq-01": "「在高空中平穩、自由地飛翔／翱翔」與本句語境不同。",
-        "soar-mcq-05": "「心情突然非常振奮、雀躍」與本句語境不同。",
-        "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。"
+        "soar-mcq-03": "本句的「soaring rents」指「價格、成本、需求、數字等迅速而大幅上升至高水平」。",
+        "soar-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "soar-reviewed-414dea9cd0": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soar-mcq-03"
     },
@@ -368,11 +355,9 @@ export default {
       "masked": "Energy prices ____ during the winter.",
       "options": [
         "soar-mcq-03",
-        "soar-mcq-02",
-        "soar-mcq-04",
-        "soar-mcq-01",
         "soar-mcq-05",
-        "soar-mcq-06"
+        "soar-reviewed-414dea9cd0",
+        "soar-mcq-01"
       ],
       "explanation": "本句的「soared」指「價格、成本、需求、數字等迅速而大幅上升至高水平」。",
       "sentenceIndex": 5,
@@ -381,12 +366,10 @@ export default {
         "soared"
       ],
       "optionReasons": {
-        "soar-mcq-03": "本句指「價格、成本、需求、數字等迅速而大幅上升至高水平」。",
-        "soar-mcq-02": "「在空中迅速或持續向上升高」與本句語境不同。",
-        "soar-mcq-04": "「人氣、聲望、成功程度等迅速提升」與本句語境不同。",
-        "soar-mcq-01": "「在高空中平穩、自由地飛翔／翱翔」與本句語境不同。",
-        "soar-mcq-05": "「心情突然非常振奮、雀躍」與本句語境不同。",
-        "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。"
+        "soar-mcq-03": "本句的「soared」指「價格、成本、需求、數字等迅速而大幅上升至高水平」。",
+        "soar-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "soar-reviewed-414dea9cd0": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soar-mcq-03"
     },
@@ -398,11 +381,9 @@ export default {
       "masked": "Demand ____ after the announcement.",
       "options": [
         "soar-mcq-03",
-        "soar-mcq-02",
-        "soar-mcq-04",
-        "soar-mcq-01",
         "soar-mcq-05",
-        "soar-mcq-06"
+        "soar-reviewed-414dea9cd0",
+        "soar-mcq-01"
       ],
       "explanation": "本句的「soared」指「價格、成本、需求、數字等迅速而大幅上升至高水平」。",
       "sentenceIndex": 6,
@@ -411,12 +392,10 @@ export default {
         "soared"
       ],
       "optionReasons": {
-        "soar-mcq-03": "本句指「價格、成本、需求、數字等迅速而大幅上升至高水平」。",
-        "soar-mcq-02": "「在空中迅速或持續向上升高」與本句語境不同。",
-        "soar-mcq-04": "「人氣、聲望、成功程度等迅速提升」與本句語境不同。",
-        "soar-mcq-01": "「在高空中平穩、自由地飛翔／翱翔」與本句語境不同。",
-        "soar-mcq-05": "「心情突然非常振奮、雀躍」與本句語境不同。",
-        "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。"
+        "soar-mcq-03": "本句的「soared」指「價格、成本、需求、數字等迅速而大幅上升至高水平」。",
+        "soar-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "soar-reviewed-414dea9cd0": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soar-mcq-03"
     },
@@ -428,10 +407,8 @@ export default {
       "masked": "Her popularity ____ after the performance.",
       "options": [
         "soar-mcq-04",
-        "soar-mcq-03",
-        "soar-mcq-05",
-        "soar-mcq-02",
-        "soar-mcq-06",
+        "soar-pdf-001",
+        "soar-reviewed-414dea9cd0",
         "soar-mcq-01"
       ],
       "explanation": "本句的「soared」指「人氣、聲望、成功程度等迅速提升」。",
@@ -441,12 +418,10 @@ export default {
         "soared"
       ],
       "optionReasons": {
-        "soar-mcq-04": "本句指「人氣、聲望、成功程度等迅速提升」。",
-        "soar-mcq-03": "「價格、成本、需求、數字等迅速而大幅上升至高水平」與本句語境不同。",
-        "soar-mcq-05": "「心情突然非常振奮、雀躍」與本句語境不同。",
-        "soar-mcq-02": "「在空中迅速或持續向上升高」與本句語境不同。",
-        "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。",
-        "soar-mcq-01": "「在高空中平穩、自由地飛翔／翱翔」與本句語境不同。"
+        "soar-mcq-04": "本句的「soared」指「人氣、聲望、成功程度等迅速提升」。",
+        "soar-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "soar-reviewed-414dea9cd0": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soar-mcq-04"
     },
@@ -458,11 +433,9 @@ export default {
       "masked": "The company’s reputation ____.",
       "options": [
         "soar-mcq-04",
-        "soar-mcq-03",
-        "soar-mcq-05",
-        "soar-mcq-02",
-        "soar-mcq-06",
-        "soar-mcq-01"
+        "soar-pdf-001",
+        "soar-mcq-01",
+        "soar-reviewed-414dea9cd0"
       ],
       "explanation": "本句的「soared」指「人氣、聲望、成功程度等迅速提升」。",
       "sentenceIndex": 8,
@@ -471,12 +444,10 @@ export default {
         "soared"
       ],
       "optionReasons": {
-        "soar-mcq-04": "本句指「人氣、聲望、成功程度等迅速提升」。",
-        "soar-mcq-03": "「價格、成本、需求、數字等迅速而大幅上升至高水平」與本句語境不同。",
-        "soar-mcq-05": "「心情突然非常振奮、雀躍」與本句語境不同。",
-        "soar-mcq-02": "「在空中迅速或持續向上升高」與本句語境不同。",
-        "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。",
-        "soar-mcq-01": "「在高空中平穩、自由地飛翔／翱翔」與本句語境不同。"
+        "soar-mcq-04": "本句的「soared」指「人氣、聲望、成功程度等迅速提升」。",
+        "soar-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "soar-reviewed-414dea9cd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soar-mcq-04"
     },
@@ -488,11 +459,9 @@ export default {
       "masked": "Her spirits ____ when she heard the good news.",
       "options": [
         "soar-mcq-05",
+        "soar-mcq-08",
         "soar-mcq-04",
-        "soar-mcq-06",
-        "soar-mcq-03",
-        "soar-mcq-07",
-        "soar-mcq-02"
+        "soar-mcq-01"
       ],
       "explanation": "本句的「soared」指「心情突然非常振奮、雀躍」。",
       "sentenceIndex": 9,
@@ -501,12 +470,10 @@ export default {
         "soared"
       ],
       "optionReasons": {
-        "soar-mcq-05": "本句指「心情突然非常振奮、雀躍」。",
-        "soar-mcq-04": "「人氣、聲望、成功程度等迅速提升」與本句語境不同。",
-        "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。",
-        "soar-mcq-03": "「價格、成本、需求、數字等迅速而大幅上升至高水平」與本句語境不同。",
-        "soar-mcq-07": "「高聳、極高、氣勢宏偉的」與本句語境不同。",
-        "soar-mcq-02": "「在空中迅速或持續向上升高」與本句語境不同。"
+        "soar-mcq-05": "本句的「soared」指「心情突然非常振奮、雀躍」。",
+        "soar-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soar-mcq-05"
     },
@@ -518,11 +485,9 @@ export default {
       "masked": "My heart ____ when I saw the result.",
       "options": [
         "soar-mcq-05",
-        "soar-mcq-04",
-        "soar-mcq-06",
         "soar-mcq-03",
-        "soar-mcq-07",
-        "soar-mcq-02"
+        "soar-reviewed-414dea9cd0",
+        "soar-mcq-01"
       ],
       "explanation": "本句的「soared」指「心情突然非常振奮、雀躍」。",
       "sentenceIndex": 10,
@@ -531,12 +496,10 @@ export default {
         "soared"
       ],
       "optionReasons": {
-        "soar-mcq-05": "本句指「心情突然非常振奮、雀躍」。",
-        "soar-mcq-04": "「人氣、聲望、成功程度等迅速提升」與本句語境不同。",
-        "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。",
-        "soar-mcq-03": "「價格、成本、需求、數字等迅速而大幅上升至高水平」與本句語境不同。",
-        "soar-mcq-07": "「高聳、極高、氣勢宏偉的」與本句語境不同。",
-        "soar-mcq-02": "「在空中迅速或持續向上升高」與本句語境不同。"
+        "soar-mcq-05": "本句的「soared」指「心情突然非常振奮、雀躍」。",
+        "soar-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "soar-reviewed-414dea9cd0": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soar-mcq-05"
     },
@@ -548,11 +511,9 @@ export default {
       "masked": "The hall has ____ ceilings.",
       "options": [
         "soar-pdf-001",
-        "soar-mcq-06",
-        "soar-mcq-08",
-        "soar-mcq-05",
-        "soar-mcq-09",
-        "soar-mcq-04"
+        "soar-reviewed-414dea9cd0",
+        "soar-mcq-04",
+        "soar-mcq-01"
       ],
       "explanation": "本句的「soaring」指「向上延伸得非常高，令人產生宏偉、開闊的感覺」。",
       "sentenceIndex": 13,
@@ -561,12 +522,10 @@ export default {
         "soaring"
       ],
       "optionReasons": {
-        "soar-pdf-001": "本句指「向上延伸得非常高，令人產生宏偉、開闊的感覺」。",
-        "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。",
-        "soar-mcq-08": "「高亢、激昂、開闊而有感染力的」與本句語境不同。",
-        "soar-mcq-05": "「心情突然非常振奮、雀躍」與本句語境不同。",
-        "soar-mcq-09": "「利用上升氣流進行的滑翔飛行；專門」與本句語境不同。",
-        "soar-mcq-04": "「人氣、聲望、成功程度等迅速提升」與本句語境不同。"
+        "soar-pdf-001": "本句的「soaring」指「向上延伸得非常高，令人產生宏偉、開闊的感覺」。",
+        "soar-reviewed-414dea9cd0": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soar-pdf-001"
     },
@@ -578,11 +537,9 @@ export default {
       "masked": "The cathedral is famous for its ____ arches.",
       "options": [
         "soar-pdf-001",
-        "soar-mcq-06",
-        "soar-mcq-08",
-        "soar-mcq-05",
-        "soar-mcq-09",
-        "soar-mcq-04"
+        "soar-mcq-04",
+        "soar-reviewed-414dea9cd0",
+        "soar-mcq-01"
       ],
       "explanation": "本句的「soaring」指「向上延伸得非常高，令人產生宏偉、開闊的感覺」。",
       "sentenceIndex": 14,
@@ -591,12 +548,10 @@ export default {
         "soaring"
       ],
       "optionReasons": {
-        "soar-pdf-001": "本句指「向上延伸得非常高，令人產生宏偉、開闊的感覺」。",
-        "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。",
-        "soar-mcq-08": "「高亢、激昂、開闊而有感染力的」與本句語境不同。",
-        "soar-mcq-05": "「心情突然非常振奮、雀躍」與本句語境不同。",
-        "soar-mcq-09": "「利用上升氣流進行的滑翔飛行；專門」與本句語境不同。",
-        "soar-mcq-04": "「人氣、聲望、成功程度等迅速提升」與本句語境不同。"
+        "soar-pdf-001": "本句的「soaring」指「向上延伸得非常高，令人產生宏偉、開闊的感覺」。",
+        "soar-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "soar-reviewed-414dea9cd0": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soar-pdf-001"
     },
@@ -608,11 +563,9 @@ export default {
       "masked": "The song has a ____ chorus.",
       "options": [
         "soar-mcq-08",
-        "soar-mcq-07",
-        "soar-mcq-09",
-        "soar-mcq-06",
+        "soar-mcq-04",
         "soar-mcq-05",
-        "soar-mcq-04"
+        "soar-mcq-01"
       ],
       "explanation": "本句的「soaring」指「高亢、激昂、開闊而有感染力的」。",
       "sentenceIndex": 15,
@@ -621,12 +574,10 @@ export default {
         "soaring"
       ],
       "optionReasons": {
-        "soar-mcq-08": "本句指「高亢、激昂、開闊而有感染力的」。",
-        "soar-mcq-07": "「高聳、極高、氣勢宏偉的」與本句語境不同。",
-        "soar-mcq-09": "「利用上升氣流進行的滑翔飛行；專門」與本句語境不同。",
-        "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。",
-        "soar-mcq-05": "「心情突然非常振奮、雀躍」與本句語境不同。",
-        "soar-mcq-04": "「人氣、聲望、成功程度等迅速提升」與本句語境不同。"
+        "soar-mcq-08": "本句的「soaring」指「高亢、激昂、開闊而有感染力的」。",
+        "soar-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soar-mcq-08"
     },
@@ -638,11 +589,9 @@ export default {
       "masked": "Her ____ voice filled the hall.",
       "options": [
         "soar-mcq-08",
-        "soar-mcq-07",
-        "soar-mcq-09",
-        "soar-mcq-06",
         "soar-mcq-05",
-        "soar-mcq-04"
+        "soar-mcq-04",
+        "soar-mcq-01"
       ],
       "explanation": "本句的「soaring」指「高亢、激昂、開闊而有感染力的」。",
       "sentenceIndex": 16,
@@ -651,74 +600,68 @@ export default {
         "soaring"
       ],
       "optionReasons": {
-        "soar-mcq-08": "本句指「高亢、激昂、開闊而有感染力的」。",
-        "soar-mcq-07": "「高聳、極高、氣勢宏偉的」與本句語境不同。",
-        "soar-mcq-09": "「利用上升氣流進行的滑翔飛行；專門」與本句語境不同。",
-        "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。",
-        "soar-mcq-05": "「心情突然非常振奮、雀躍」與本句語境不同。",
-        "soar-mcq-04": "「人氣、聲望、成功程度等迅速提升」與本句語境不同。"
+        "soar-mcq-08": "本句的「soaring」指「高亢、激昂、開闊而有感染力的」。",
+        "soar-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "soar-mcq-08"
     },
     {
       "id": "soar-10-0",
-      "sense": "soar-mcq-09",
+      "sense": "soar-reviewed-414dea9cd0",
       "en": "Applications soared after the programme became popular.",
       "zh": "計劃受歡迎後，申請數量激增。",
       "masked": "Applications ____ after the programme became popular.",
       "options": [
-        "soar-mcq-09",
-        "soar-mcq-08",
-        "soar-mcq-07",
-        "soar-mcq-06",
+        "soar-reviewed-414dea9cd0",
+        "soar-mcq-04",
         "soar-mcq-05",
-        "soar-mcq-04"
+        "soar-mcq-01"
       ],
-      "explanation": "本句的「soared」指「利用上升氣流進行的滑翔飛行；專門」。",
+      "explanation": "對照完整句子：「計劃受歡迎後，申請數量激增。」。這裡的「soared」表示「激增」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "soared"
       ],
       "optionReasons": {
-        "soar-mcq-09": "本句指「利用上升氣流進行的滑翔飛行；專門」。",
-        "soar-mcq-08": "「高亢、激昂、開闊而有感染力的」與本句語境不同。",
-        "soar-mcq-07": "「高聳、極高、氣勢宏偉的」與本句語境不同。",
-        "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。",
-        "soar-mcq-05": "「心情突然非常振奮、雀躍」與本句語境不同。",
-        "soar-mcq-04": "「人氣、聲望、成功程度等迅速提升」與本句語境不同。"
+        "soar-reviewed-414dea9cd0": "對照完整句子：「計劃受歡迎後，申請數量激增。」。這裡的「soared」表示「激增」。",
+        "soar-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "soar-mcq-09"
+      "correctOption": "soar-reviewed-414dea9cd0",
+      "previousCorrectOption": "soar-mcq-09",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "soar-10-1",
-      "sense": "soar-mcq-09",
+      "sense": "soar-reviewed-414dea9cd0",
       "en": "Visitor numbers have soared.",
       "zh": "訪客數量急升。",
       "masked": "Visitor numbers have ____.",
       "options": [
-        "soar-mcq-09",
-        "soar-mcq-08",
-        "soar-mcq-07",
-        "soar-mcq-06",
-        "soar-mcq-05",
-        "soar-mcq-04"
+        "soar-reviewed-414dea9cd0",
+        "soar-pdf-001",
+        "soar-mcq-03",
+        "soar-mcq-01"
       ],
-      "explanation": "本句的「soared」指「利用上升氣流進行的滑翔飛行；專門」。",
+      "explanation": "對照完整句子：「訪客數量急升。」。這裡的「soared」表示「激增」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "soared"
       ],
       "optionReasons": {
-        "soar-mcq-09": "本句指「利用上升氣流進行的滑翔飛行；專門」。",
-        "soar-mcq-08": "「高亢、激昂、開闊而有感染力的」與本句語境不同。",
-        "soar-mcq-07": "「高聳、極高、氣勢宏偉的」與本句語境不同。",
-        "soar-mcq-06": "「向上延伸得很高；高聳入雲」與本句語境不同。",
-        "soar-mcq-05": "「心情突然非常振奮、雀躍」與本句語境不同。",
-        "soar-mcq-04": "「人氣、聲望、成功程度等迅速提升」與本句語境不同。"
+        "soar-reviewed-414dea9cd0": "對照完整句子：「訪客數量急升。」。這裡的「soared」表示「激增」。",
+        "soar-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "soar-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "soar-mcq-09"
+      "correctOption": "soar-reviewed-414dea9cd0",
+      "previousCorrectOption": "soar-mcq-09",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     }
   ],
   "comparisons": [],
@@ -728,5 +671,7 @@ export default {
     "sha256": "e1ef966ad86906a67da1db2eede85234bdac93fab835941f4ac865e532a1145e",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

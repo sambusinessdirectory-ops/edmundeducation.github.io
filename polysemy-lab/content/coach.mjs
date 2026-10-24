@@ -328,11 +328,9 @@ export default {
       "masked": "I am writing to apply for the position of Assistant ____.",
       "options": [
         "coach-mcq-02",
-        "coach-mcq-01",
-        "coach-mcq-03",
         "coach-mcq-04",
         "coach-mcq-05",
-        "coach-mcq-06"
+        "coach-mcq-03"
       ],
       "explanation": "本句的「Coach」指「負責訓練、指導及提升運動員或球隊技巧、能力和比賽表現的人」。",
       "sentenceIndex": 0,
@@ -341,12 +339,10 @@ export default {
         "Coach"
       ],
       "optionReasons": {
-        "coach-mcq-02": "本句指「負責訓練、指導及提升運動員或球隊技巧、能力和比賽表現的人」。",
-        "coach-mcq-01": "「透過訓練、練習、建議及回饋，幫助某人或團隊改善技能和表現的人」與本句語境不同。",
-        "coach-mcq-03": "「主要用於長途、旅遊、團體或城市之間客運的大型巴士」與本句語境不同。",
-        "coach-mcq-04": "「火車中供乘客乘坐的一節客車車廂」與本句語境不同。",
-        "coach-mcq-05": "「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」與本句語境不同。",
-        "coach-mcq-06": "「傳統上由馬匹拉動、用來載人的大型封閉式馬車」與本句語境不同。"
+        "coach-mcq-02": "本句的「Coach」指「負責訓練、指導及提升運動員或球隊技巧、能力和比賽表現的人」。",
+        "coach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coach-mcq-02"
     },
@@ -358,11 +354,9 @@ export default {
       "masked": "The ____ adjusted the runners’ training programme before the championship.",
       "options": [
         "coach-mcq-02",
-        "coach-mcq-01",
-        "coach-mcq-03",
         "coach-mcq-04",
         "coach-mcq-05",
-        "coach-mcq-06"
+        "coach-mcq-03"
       ],
       "explanation": "本句的「coach」指「負責訓練、指導及提升運動員或球隊技巧、能力和比賽表現的人」。",
       "sentenceIndex": 1,
@@ -371,12 +365,10 @@ export default {
         "coach"
       ],
       "optionReasons": {
-        "coach-mcq-02": "本句指「負責訓練、指導及提升運動員或球隊技巧、能力和比賽表現的人」。",
-        "coach-mcq-01": "「透過訓練、練習、建議及回饋，幫助某人或團隊改善技能和表現的人」與本句語境不同。",
-        "coach-mcq-03": "「主要用於長途、旅遊、團體或城市之間客運的大型巴士」與本句語境不同。",
-        "coach-mcq-04": "「火車中供乘客乘坐的一節客車車廂」與本句語境不同。",
-        "coach-mcq-05": "「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」與本句語境不同。",
-        "coach-mcq-06": "「傳統上由馬匹拉動、用來載人的大型封閉式馬車」與本句語境不同。"
+        "coach-mcq-02": "本句的「coach」指「負責訓練、指導及提升運動員或球隊技巧、能力和比賽表現的人」。",
+        "coach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coach-mcq-02"
     },
@@ -388,10 +380,8 @@ export default {
       "masked": "A good ____ knows when an athlete needs harder training and when recovery is more important.",
       "options": [
         "coach-mcq-02",
-        "coach-mcq-01",
-        "coach-mcq-03",
-        "coach-mcq-04",
         "coach-mcq-05",
+        "coach-mcq-04",
         "coach-mcq-06"
       ],
       "explanation": "本句的「coach」指「負責訓練、指導及提升運動員或球隊技巧、能力和比賽表現的人」。",
@@ -401,12 +391,10 @@ export default {
         "coach"
       ],
       "optionReasons": {
-        "coach-mcq-02": "本句指「負責訓練、指導及提升運動員或球隊技巧、能力和比賽表現的人」。",
-        "coach-mcq-01": "「透過訓練、練習、建議及回饋，幫助某人或團隊改善技能和表現的人」與本句語境不同。",
-        "coach-mcq-03": "「主要用於長途、旅遊、團體或城市之間客運的大型巴士」與本句語境不同。",
-        "coach-mcq-04": "「火車中供乘客乘坐的一節客車車廂」與本句語境不同。",
-        "coach-mcq-05": "「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」與本句語境不同。",
-        "coach-mcq-06": "「傳統上由馬匹拉動、用來載人的大型封閉式馬車」與本句語境不同。"
+        "coach-mcq-02": "本句的「coach」指「負責訓練、指導及提升運動員或球隊技巧、能力和比賽表現的人」。",
+        "coach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coach-mcq-02"
     },
@@ -418,8 +406,6 @@ export default {
       "masked": "She hired a career ____ before applying for senior management roles.",
       "options": [
         "coach-mcq-01",
-        "coach-mcq-02",
-        "coach-mcq-03",
         "coach-mcq-04",
         "coach-mcq-05",
         "coach-mcq-06"
@@ -431,12 +417,10 @@ export default {
         "coach"
       ],
       "optionReasons": {
-        "coach-mcq-01": "本句指「透過訓練、練習、建議及回饋，幫助某人或團隊改善技能和表現的人」。",
-        "coach-mcq-02": "「負責訓練、指導及提升運動員或球隊技巧、能力和比賽表現的人」與本句語境不同。",
-        "coach-mcq-03": "「主要用於長途、旅遊、團體或城市之間客運的大型巴士」與本句語境不同。",
-        "coach-mcq-04": "「火車中供乘客乘坐的一節客車車廂」與本句語境不同。",
-        "coach-mcq-05": "「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」與本句語境不同。",
-        "coach-mcq-06": "「傳統上由馬匹拉動、用來載人的大型封閉式馬車」與本句語境不同。"
+        "coach-mcq-01": "本句的「coach」指「透過訓練、練習、建議及回饋，幫助某人或團隊改善技能和表現的人」。",
+        "coach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coach-mcq-01"
     },
@@ -448,11 +432,9 @@ export default {
       "masked": "The actor worked with a voice ____ to improve his delivery.",
       "options": [
         "coach-mcq-01",
-        "coach-mcq-02",
-        "coach-mcq-03",
-        "coach-mcq-04",
+        "coach-mcq-06",
         "coach-mcq-05",
-        "coach-mcq-06"
+        "coach-mcq-04"
       ],
       "explanation": "本句的「coach」指「透過訓練、練習、建議及回饋，幫助某人或團隊改善技能和表現的人」。",
       "sentenceIndex": 4,
@@ -461,12 +443,10 @@ export default {
         "coach"
       ],
       "optionReasons": {
-        "coach-mcq-01": "本句指「透過訓練、練習、建議及回饋，幫助某人或團隊改善技能和表現的人」。",
-        "coach-mcq-02": "「負責訓練、指導及提升運動員或球隊技巧、能力和比賽表現的人」與本句語境不同。",
-        "coach-mcq-03": "「主要用於長途、旅遊、團體或城市之間客運的大型巴士」與本句語境不同。",
-        "coach-mcq-04": "「火車中供乘客乘坐的一節客車車廂」與本句語境不同。",
-        "coach-mcq-05": "「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」與本句語境不同。",
-        "coach-mcq-06": "「傳統上由馬匹拉動、用來載人的大型封閉式馬車」與本句語境不同。"
+        "coach-mcq-01": "本句的「coach」指「透過訓練、練習、建議及回饋，幫助某人或團隊改善技能和表現的人」。",
+        "coach-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coach-mcq-01"
     },
@@ -478,11 +458,9 @@ export default {
       "masked": "The athletes travelled to the competition by ____.",
       "options": [
         "coach-mcq-03",
-        "coach-mcq-02",
-        "coach-mcq-04",
-        "coach-mcq-01",
+        "coach-mcq-08",
         "coach-mcq-05",
-        "coach-mcq-06"
+        "coach-mcq-04"
       ],
       "explanation": "本句的「coach」指「主要用於長途、旅遊、團體或城市之間客運的大型巴士」。",
       "sentenceIndex": 5,
@@ -491,12 +469,10 @@ export default {
         "coach"
       ],
       "optionReasons": {
-        "coach-mcq-03": "本句指「主要用於長途、旅遊、團體或城市之間客運的大型巴士」。",
-        "coach-mcq-02": "「負責訓練、指導及提升運動員或球隊技巧、能力和比賽表現的人」與本句語境不同。",
-        "coach-mcq-04": "「火車中供乘客乘坐的一節客車車廂」與本句語境不同。",
-        "coach-mcq-01": "「透過訓練、練習、建議及回饋，幫助某人或團隊改善技能和表現的人」與本句語境不同。",
-        "coach-mcq-05": "「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」與本句語境不同。",
-        "coach-mcq-06": "「傳統上由馬匹拉動、用來載人的大型封閉式馬車」與本句語境不同。"
+        "coach-mcq-03": "本句的「coach」指「主要用於長途、旅遊、團體或城市之間客運的大型巴士」。",
+        "coach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coach-mcq-03"
     },
@@ -508,11 +484,9 @@ export default {
       "masked": "Our ____ leaves for Manchester at seven tomorrow morning.",
       "options": [
         "coach-mcq-03",
-        "coach-mcq-02",
-        "coach-mcq-04",
-        "coach-mcq-01",
+        "coach-mcq-08",
         "coach-mcq-05",
-        "coach-mcq-06"
+        "coach-mcq-04"
       ],
       "explanation": "本句的「coach」指「主要用於長途、旅遊、團體或城市之間客運的大型巴士」。",
       "sentenceIndex": 6,
@@ -521,12 +495,10 @@ export default {
         "coach"
       ],
       "optionReasons": {
-        "coach-mcq-03": "本句指「主要用於長途、旅遊、團體或城市之間客運的大型巴士」。",
-        "coach-mcq-02": "「負責訓練、指導及提升運動員或球隊技巧、能力和比賽表現的人」與本句語境不同。",
-        "coach-mcq-04": "「火車中供乘客乘坐的一節客車車廂」與本句語境不同。",
-        "coach-mcq-01": "「透過訓練、練習、建議及回饋，幫助某人或團隊改善技能和表現的人」與本句語境不同。",
-        "coach-mcq-05": "「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」與本句語境不同。",
-        "coach-mcq-06": "「傳統上由馬匹拉動、用來載人的大型封閉式馬車」與本句語境不同。"
+        "coach-mcq-03": "本句的「coach」指「主要用於長途、旅遊、團體或城市之間客運的大型巴士」。",
+        "coach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coach-mcq-03"
     },
@@ -538,11 +510,9 @@ export default {
       "masked": "Our seats are in the third ____.",
       "options": [
         "coach-mcq-04",
-        "coach-mcq-03",
-        "coach-mcq-05",
         "coach-mcq-02",
-        "coach-mcq-06",
-        "coach-mcq-01"
+        "coach-mcq-05",
+        "coach-mcq-06"
       ],
       "explanation": "本句的「coach」指「火車中供乘客乘坐的一節客車車廂」。",
       "sentenceIndex": 7,
@@ -551,12 +521,10 @@ export default {
         "coach"
       ],
       "optionReasons": {
-        "coach-mcq-04": "本句指「火車中供乘客乘坐的一節客車車廂」。",
-        "coach-mcq-03": "「主要用於長途、旅遊、團體或城市之間客運的大型巴士」與本句語境不同。",
-        "coach-mcq-05": "「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」與本句語境不同。",
-        "coach-mcq-02": "「負責訓練、指導及提升運動員或球隊技巧、能力和比賽表現的人」與本句語境不同。",
-        "coach-mcq-06": "「傳統上由馬匹拉動、用來載人的大型封閉式馬車」與本句語境不同。",
-        "coach-mcq-01": "「透過訓練、練習、建議及回饋，幫助某人或團隊改善技能和表現的人」與本句語境不同。"
+        "coach-mcq-04": "本句的「coach」指「火車中供乘客乘坐的一節客車車廂」。",
+        "coach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coach-mcq-04"
     },
@@ -568,11 +536,9 @@ export default {
       "masked": "Passengers in the front ____ were asked to move farther down the train.",
       "options": [
         "coach-mcq-04",
-        "coach-mcq-03",
-        "coach-mcq-05",
         "coach-mcq-02",
-        "coach-mcq-06",
-        "coach-mcq-01"
+        "coach-mcq-05",
+        "coach-mcq-06"
       ],
       "explanation": "本句的「coach」指「火車中供乘客乘坐的一節客車車廂」。",
       "sentenceIndex": 8,
@@ -581,12 +547,10 @@ export default {
         "coach"
       ],
       "optionReasons": {
-        "coach-mcq-04": "本句指「火車中供乘客乘坐的一節客車車廂」。",
-        "coach-mcq-03": "「主要用於長途、旅遊、團體或城市之間客運的大型巴士」與本句語境不同。",
-        "coach-mcq-05": "「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」與本句語境不同。",
-        "coach-mcq-02": "「負責訓練、指導及提升運動員或球隊技巧、能力和比賽表現的人」與本句語境不同。",
-        "coach-mcq-06": "「傳統上由馬匹拉動、用來載人的大型封閉式馬車」與本句語境不同。",
-        "coach-mcq-01": "「透過訓練、練習、建議及回饋，幫助某人或團隊改善技能和表現的人」與本句語境不同。"
+        "coach-mcq-04": "本句的「coach」指「火車中供乘客乘坐的一節客車車廂」。",
+        "coach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coach-mcq-04"
     },
@@ -599,10 +563,8 @@ export default {
       "options": [
         "coach-mcq-05",
         "coach-mcq-04",
-        "coach-mcq-06",
-        "coach-mcq-03",
-        "coach-mcq-07",
-        "coach-mcq-02"
+        "coach-mcq-01",
+        "coach-mcq-06"
       ],
       "explanation": "本句的「coach」指「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」。",
       "sentenceIndex": 9,
@@ -611,12 +573,10 @@ export default {
         "coach"
       ],
       "optionReasons": {
-        "coach-mcq-05": "本句指「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」。",
-        "coach-mcq-04": "「火車中供乘客乘坐的一節客車車廂」與本句語境不同。",
-        "coach-mcq-06": "「傳統上由馬匹拉動、用來載人的大型封閉式馬車」與本句語境不同。",
-        "coach-mcq-03": "「主要用於長途、旅遊、團體或城市之間客運的大型巴士」與本句語境不同。",
-        "coach-mcq-07": "「透過訓練、練習、建議和回饋來改善某人或團隊的能力和表現」與本句語境不同。",
-        "coach-mcq-02": "「負責訓練、指導及提升運動員或球隊技巧、能力和比賽表現的人」與本句語境不同。"
+        "coach-mcq-05": "本句的「coach」指「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」。",
+        "coach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coach-mcq-05"
     },
@@ -629,10 +589,8 @@ export default {
       "options": [
         "coach-mcq-05",
         "coach-mcq-04",
-        "coach-mcq-06",
-        "coach-mcq-03",
-        "coach-mcq-07",
-        "coach-mcq-02"
+        "coach-mcq-08",
+        "coach-mcq-06"
       ],
       "explanation": "本句的「coach」指「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」。",
       "sentenceIndex": 10,
@@ -641,12 +599,10 @@ export default {
         "coach"
       ],
       "optionReasons": {
-        "coach-mcq-05": "本句指「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」。",
-        "coach-mcq-04": "「火車中供乘客乘坐的一節客車車廂」與本句語境不同。",
-        "coach-mcq-06": "「傳統上由馬匹拉動、用來載人的大型封閉式馬車」與本句語境不同。",
-        "coach-mcq-03": "「主要用於長途、旅遊、團體或城市之間客運的大型巴士」與本句語境不同。",
-        "coach-mcq-07": "「透過訓練、練習、建議和回饋來改善某人或團隊的能力和表現」與本句語境不同。",
-        "coach-mcq-02": "「負責訓練、指導及提升運動員或球隊技巧、能力和比賽表現的人」與本句語境不同。"
+        "coach-mcq-05": "本句的「coach」指「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」。",
+        "coach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coach-mcq-05"
     },
@@ -658,11 +614,9 @@ export default {
       "masked": "The royal couple arrived in a horse-drawn ____.",
       "options": [
         "coach-mcq-06",
+        "coach-mcq-01",
         "coach-mcq-05",
-        "coach-mcq-07",
-        "coach-mcq-04",
-        "coach-mcq-08",
-        "coach-mcq-03"
+        "coach-mcq-04"
       ],
       "explanation": "本句的「coach」指「傳統上由馬匹拉動、用來載人的大型封閉式馬車」。",
       "sentenceIndex": 11,
@@ -671,12 +625,10 @@ export default {
         "coach"
       ],
       "optionReasons": {
-        "coach-mcq-06": "本句指「傳統上由馬匹拉動、用來載人的大型封閉式馬車」。",
-        "coach-mcq-05": "「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」與本句語境不同。",
-        "coach-mcq-07": "「透過訓練、練習、建議和回饋來改善某人或團隊的能力和表現」與本句語境不同。",
-        "coach-mcq-04": "「火車中供乘客乘坐的一節客車車廂」與本句語境不同。",
-        "coach-mcq-08": "「為某項考試、面試、表演或活動提供針對性的準備和指導」與本句語境不同。",
-        "coach-mcq-03": "「主要用於長途、旅遊、團體或城市之間客運的大型巴士」與本句語境不同。"
+        "coach-mcq-06": "本句的「coach」指「傳統上由馬匹拉動、用來載人的大型封閉式馬車」。",
+        "coach-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coach-mcq-06"
     },
@@ -689,10 +641,8 @@ export default {
       "options": [
         "coach-mcq-06",
         "coach-mcq-05",
-        "coach-mcq-07",
-        "coach-mcq-04",
-        "coach-mcq-08",
-        "coach-mcq-03"
+        "coach-mcq-01",
+        "coach-mcq-04"
       ],
       "explanation": "本句的「coaches」指「傳統上由馬匹拉動、用來載人的大型封閉式馬車」。",
       "sentenceIndex": 12,
@@ -701,12 +651,10 @@ export default {
         "coaches"
       ],
       "optionReasons": {
-        "coach-mcq-06": "本句指「傳統上由馬匹拉動、用來載人的大型封閉式馬車」。",
-        "coach-mcq-05": "「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」與本句語境不同。",
-        "coach-mcq-07": "「透過訓練、練習、建議和回饋來改善某人或團隊的能力和表現」與本句語境不同。",
-        "coach-mcq-04": "「火車中供乘客乘坐的一節客車車廂」與本句語境不同。",
-        "coach-mcq-08": "「為某項考試、面試、表演或活動提供針對性的準備和指導」與本句語境不同。",
-        "coach-mcq-03": "「主要用於長途、旅遊、團體或城市之間客運的大型巴士」與本句語境不同。"
+        "coach-mcq-06": "本句的「coaches」指「傳統上由馬匹拉動、用來載人的大型封閉式馬車」。",
+        "coach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coach-mcq-06"
     },
@@ -718,11 +666,9 @@ export default {
       "masked": "She ____ him for the job interview.",
       "options": [
         "coach-mcq-08",
-        "coach-mcq-07",
-        "coach-mcq-09",
-        "coach-mcq-06",
-        "coach-mcq-10",
-        "coach-mcq-05"
+        "coach-mcq-03",
+        "coach-mcq-05",
+        "coach-mcq-04"
       ],
       "explanation": "本句的「coached」指「為某項考試、面試、表演或活動提供針對性的準備和指導」。",
       "sentenceIndex": 17,
@@ -731,12 +677,10 @@ export default {
         "coached"
       ],
       "optionReasons": {
-        "coach-mcq-08": "本句指「為某項考試、面試、表演或活動提供針對性的準備和指導」。",
-        "coach-mcq-07": "「透過訓練、練習、建議和回饋來改善某人或團隊的能力和表現」與本句語境不同。",
-        "coach-mcq-09": "「就某項技能、活動或主題向某人提供具體指導和訓練」與本句語境不同。",
-        "coach-mcq-06": "「傳統上由馬匹拉動、用來載人的大型封閉式馬車」與本句語境不同。",
-        "coach-mcq-10": "「持續訓練、指導和改善某人或團隊表現的工作或過程」與本句語境不同。",
-        "coach-mcq-05": "「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」與本句語境不同。"
+        "coach-mcq-08": "本句的「coached」指「為某項考試、面試、表演或活動提供針對性的準備和指導」。",
+        "coach-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coach-mcq-08"
     },
@@ -748,11 +692,9 @@ export default {
       "masked": "The students were ____ the entrance examination.",
       "options": [
         "coach-mcq-08",
-        "coach-mcq-07",
-        "coach-mcq-09",
-        "coach-mcq-06",
-        "coach-mcq-10",
-        "coach-mcq-05"
+        "coach-mcq-05",
+        "coach-mcq-03",
+        "coach-mcq-04"
       ],
       "explanation": "本句的「coached for」指「為某項考試、面試、表演或活動提供針對性的準備和指導」。",
       "sentenceIndex": 18,
@@ -761,12 +703,10 @@ export default {
         "coached for"
       ],
       "optionReasons": {
-        "coach-mcq-08": "本句指「為某項考試、面試、表演或活動提供針對性的準備和指導」。",
-        "coach-mcq-07": "「透過訓練、練習、建議和回饋來改善某人或團隊的能力和表現」與本句語境不同。",
-        "coach-mcq-09": "「就某項技能、活動或主題向某人提供具體指導和訓練」與本句語境不同。",
-        "coach-mcq-06": "「傳統上由馬匹拉動、用來載人的大型封閉式馬車」與本句語境不同。",
-        "coach-mcq-10": "「持續訓練、指導和改善某人或團隊表現的工作或過程」與本句語境不同。",
-        "coach-mcq-05": "「航空旅程中相對於商務艙或頭等艙的普通／經濟等級」與本句語境不同。"
+        "coach-mcq-08": "本句的「coached for」指「為某項考試、面試、表演或活動提供針對性的準備和指導」。",
+        "coach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "coach-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coach-mcq-08"
     }
@@ -778,5 +718,7 @@ export default {
     "sha256": "2dcf9d13f82eac0dd6aa4e6ba141b93e40415f78739491bdd1939dd1d64f9765",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

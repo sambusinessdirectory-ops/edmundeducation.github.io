@@ -202,11 +202,8 @@ export default {
       "masked": "I got a ____ in my leg while swimming.",
       "options": [
         "cramp-mcq-01",
-        "cramp-mcq-02",
-        "cramp-mcq-03",
-        "cramp-mcq-04",
-        "cramp-mcq-05",
-        "cramp-mcq-06"
+        "cramp-mcq-09",
+        "cramp-mcq-04"
       ],
       "explanation": "本句的「cramp」指「肌肉突然不自主收緊並造成疼痛；抽筋／痙攣」。",
       "sentenceIndex": 0,
@@ -215,12 +212,9 @@ export default {
         "cramp"
       ],
       "optionReasons": {
-        "cramp-mcq-01": "本句指「肌肉突然不自主收緊並造成疼痛；抽筋／痙攣」。",
-        "cramp-mcq-02": "「腹部、子宮等反覆收縮造成的痙攣性疼痛」與本句語境不同。",
-        "cramp-mcq-03": "「發生／引起肌肉抽筋或痙攣」與本句語境不同。",
-        "cramp-mcq-04": "「因空間不足而限制活動、伸展或舒適程度」與本句語境不同。",
-        "cramp-mcq-05": "「空間太小、太擠，以致令人不舒服或難以活動」與本句語境不同。",
-        "cramp-mcq-06": "「字體／內容被擠在狹小空間中，顯得密集侷促」與本句語境不同。"
+        "cramp-mcq-01": "本句的「cramp」指「肌肉突然不自主收緊並造成疼痛；抽筋／痙攣」。",
+        "cramp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cramp-mcq-01"
     },
@@ -232,11 +226,9 @@ export default {
       "masked": "She woke up with a painful calf ____.",
       "options": [
         "cramp-mcq-01",
-        "cramp-mcq-02",
-        "cramp-mcq-03",
-        "cramp-mcq-04",
         "cramp-mcq-05",
-        "cramp-mcq-06"
+        "cramp-mcq-09",
+        "cramp-mcq-07"
       ],
       "explanation": "本句的「cramp」指「肌肉突然不自主收緊並造成疼痛；抽筋／痙攣」。",
       "sentenceIndex": 1,
@@ -245,12 +237,10 @@ export default {
         "cramp"
       ],
       "optionReasons": {
-        "cramp-mcq-01": "本句指「肌肉突然不自主收緊並造成疼痛；抽筋／痙攣」。",
-        "cramp-mcq-02": "「腹部、子宮等反覆收縮造成的痙攣性疼痛」與本句語境不同。",
-        "cramp-mcq-03": "「發生／引起肌肉抽筋或痙攣」與本句語境不同。",
-        "cramp-mcq-04": "「因空間不足而限制活動、伸展或舒適程度」與本句語境不同。",
-        "cramp-mcq-05": "「空間太小、太擠，以致令人不舒服或難以活動」與本句語境不同。",
-        "cramp-mcq-06": "「字體／內容被擠在狹小空間中，顯得密集侷促」與本句語境不同。"
+        "cramp-mcq-01": "本句的「cramp」指「肌肉突然不自主收緊並造成疼痛；抽筋／痙攣」。",
+        "cramp-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cramp-mcq-01"
     },
@@ -262,11 +252,9 @@ export default {
       "masked": "She was suffering from stomach ____.",
       "options": [
         "cramp-mcq-02",
-        "cramp-mcq-01",
-        "cramp-mcq-03",
-        "cramp-mcq-04",
-        "cramp-mcq-05",
-        "cramp-mcq-06"
+        "cramp-mcq-09",
+        "cramp-mcq-07",
+        "cramp-mcq-05"
       ],
       "explanation": "本句的「cramps」指「腹部、子宮等反覆收縮造成的痙攣性疼痛」。",
       "sentenceIndex": 2,
@@ -275,12 +263,10 @@ export default {
         "cramps"
       ],
       "optionReasons": {
-        "cramp-mcq-02": "本句指「腹部、子宮等反覆收縮造成的痙攣性疼痛」。",
-        "cramp-mcq-01": "「肌肉突然不自主收緊並造成疼痛；抽筋／痙攣」與本句語境不同。",
-        "cramp-mcq-03": "「發生／引起肌肉抽筋或痙攣」與本句語境不同。",
-        "cramp-mcq-04": "「因空間不足而限制活動、伸展或舒適程度」與本句語境不同。",
-        "cramp-mcq-05": "「空間太小、太擠，以致令人不舒服或難以活動」與本句語境不同。",
-        "cramp-mcq-06": "「字體／內容被擠在狹小空間中，顯得密集侷促」與本句語境不同。"
+        "cramp-mcq-02": "本句的「cramps」指「腹部、子宮等反覆收縮造成的痙攣性疼痛」。",
+        "cramp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cramp-mcq-02"
     },
@@ -292,11 +278,9 @@ export default {
       "masked": "She gets severe menstrual ____.",
       "options": [
         "cramp-mcq-02",
-        "cramp-mcq-01",
-        "cramp-mcq-03",
-        "cramp-mcq-04",
-        "cramp-mcq-05",
-        "cramp-mcq-06"
+        "cramp-mcq-07",
+        "cramp-mcq-09",
+        "cramp-mcq-05"
       ],
       "explanation": "本句的「cramps」指「腹部、子宮等反覆收縮造成的痙攣性疼痛」。",
       "sentenceIndex": 3,
@@ -305,12 +289,10 @@ export default {
         "cramps"
       ],
       "optionReasons": {
-        "cramp-mcq-02": "本句指「腹部、子宮等反覆收縮造成的痙攣性疼痛」。",
-        "cramp-mcq-01": "「肌肉突然不自主收緊並造成疼痛；抽筋／痙攣」與本句語境不同。",
-        "cramp-mcq-03": "「發生／引起肌肉抽筋或痙攣」與本句語境不同。",
-        "cramp-mcq-04": "「因空間不足而限制活動、伸展或舒適程度」與本句語境不同。",
-        "cramp-mcq-05": "「空間太小、太擠，以致令人不舒服或難以活動」與本句語境不同。",
-        "cramp-mcq-06": "「字體／內容被擠在狹小空間中，顯得密集侷促」與本句語境不同。"
+        "cramp-mcq-02": "本句的「cramps」指「腹部、子宮等反覆收縮造成的痙攣性疼痛」。",
+        "cramp-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cramp-mcq-02"
     },
@@ -322,11 +304,8 @@ export default {
       "masked": "My leg ____ during the race.",
       "options": [
         "cramp-mcq-03",
-        "cramp-mcq-02",
-        "cramp-mcq-04",
-        "cramp-mcq-01",
-        "cramp-mcq-05",
-        "cramp-mcq-06"
+        "cramp-mcq-08",
+        "cramp-mcq-09"
       ],
       "explanation": "本句的「cramped」指「發生／引起肌肉抽筋或痙攣」。",
       "sentenceIndex": 4,
@@ -335,12 +314,9 @@ export default {
         "cramped"
       ],
       "optionReasons": {
-        "cramp-mcq-03": "本句指「發生／引起肌肉抽筋或痙攣」。",
-        "cramp-mcq-02": "「腹部、子宮等反覆收縮造成的痙攣性疼痛」與本句語境不同。",
-        "cramp-mcq-04": "「因空間不足而限制活動、伸展或舒適程度」與本句語境不同。",
-        "cramp-mcq-01": "「肌肉突然不自主收緊並造成疼痛；抽筋／痙攣」與本句語境不同。",
-        "cramp-mcq-05": "「空間太小、太擠，以致令人不舒服或難以活動」與本句語境不同。",
-        "cramp-mcq-06": "「字體／內容被擠在狹小空間中，顯得密集侷促」與本句語境不同。"
+        "cramp-mcq-03": "本句的「cramped」指「發生／引起肌肉抽筋或痙攣」。",
+        "cramp-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cramp-mcq-03"
     },
@@ -352,11 +328,9 @@ export default {
       "masked": "Sitting in that position made my foot ____.",
       "options": [
         "cramp-mcq-03",
-        "cramp-mcq-02",
-        "cramp-mcq-04",
-        "cramp-mcq-01",
         "cramp-mcq-05",
-        "cramp-mcq-06"
+        "cramp-mcq-09",
+        "cramp-mcq-07"
       ],
       "explanation": "本句的「cramp」指「發生／引起肌肉抽筋或痙攣」。",
       "sentenceIndex": 5,
@@ -365,12 +339,10 @@ export default {
         "cramp"
       ],
       "optionReasons": {
-        "cramp-mcq-03": "本句指「發生／引起肌肉抽筋或痙攣」。",
-        "cramp-mcq-02": "「腹部、子宮等反覆收縮造成的痙攣性疼痛」與本句語境不同。",
-        "cramp-mcq-04": "「因空間不足而限制活動、伸展或舒適程度」與本句語境不同。",
-        "cramp-mcq-01": "「肌肉突然不自主收緊並造成疼痛；抽筋／痙攣」與本句語境不同。",
-        "cramp-mcq-05": "「空間太小、太擠，以致令人不舒服或難以活動」與本句語境不同。",
-        "cramp-mcq-06": "「字體／內容被擠在狹小空間中，顯得密集侷促」與本句語境不同。"
+        "cramp-mcq-03": "本句的「cramp」指「發生／引起肌肉抽筋或痙攣」。",
+        "cramp-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cramp-mcq-03"
     },
@@ -382,11 +354,8 @@ export default {
       "masked": "The narrow seat ____ his legs.",
       "options": [
         "cramp-mcq-04",
-        "cramp-mcq-03",
-        "cramp-mcq-05",
         "cramp-mcq-02",
-        "cramp-mcq-06",
-        "cramp-mcq-01"
+        "cramp-mcq-09"
       ],
       "explanation": "本句的「cramped」指「因空間不足而限制活動、伸展或舒適程度」。",
       "sentenceIndex": 6,
@@ -395,12 +364,9 @@ export default {
         "cramped"
       ],
       "optionReasons": {
-        "cramp-mcq-04": "本句指「因空間不足而限制活動、伸展或舒適程度」。",
-        "cramp-mcq-03": "「發生／引起肌肉抽筋或痙攣」與本句語境不同。",
-        "cramp-mcq-05": "「空間太小、太擠，以致令人不舒服或難以活動」與本句語境不同。",
-        "cramp-mcq-02": "「腹部、子宮等反覆收縮造成的痙攣性疼痛」與本句語境不同。",
-        "cramp-mcq-06": "「字體／內容被擠在狹小空間中，顯得密集侷促」與本句語境不同。",
-        "cramp-mcq-01": "「肌肉突然不自主收緊並造成疼痛；抽筋／痙攣」與本句語境不同。"
+        "cramp-mcq-04": "本句的「cramped」指「因空間不足而限制活動、伸展或舒適程度」。",
+        "cramp-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cramp-mcq-04"
     },
@@ -412,11 +378,8 @@ export default {
       "masked": "Too much furniture ____ the room.",
       "options": [
         "cramp-mcq-04",
-        "cramp-mcq-03",
-        "cramp-mcq-05",
-        "cramp-mcq-02",
-        "cramp-mcq-06",
-        "cramp-mcq-01"
+        "cramp-mcq-09",
+        "cramp-mcq-03"
       ],
       "explanation": "本句的「cramped」指「因空間不足而限制活動、伸展或舒適程度」。",
       "sentenceIndex": 7,
@@ -425,12 +388,9 @@ export default {
         "cramped"
       ],
       "optionReasons": {
-        "cramp-mcq-04": "本句指「因空間不足而限制活動、伸展或舒適程度」。",
-        "cramp-mcq-03": "「發生／引起肌肉抽筋或痙攣」與本句語境不同。",
-        "cramp-mcq-05": "「空間太小、太擠，以致令人不舒服或難以活動」與本句語境不同。",
-        "cramp-mcq-02": "「腹部、子宮等反覆收縮造成的痙攣性疼痛」與本句語境不同。",
-        "cramp-mcq-06": "「字體／內容被擠在狹小空間中，顯得密集侷促」與本句語境不同。",
-        "cramp-mcq-01": "「肌肉突然不自主收緊並造成疼痛；抽筋／痙攣」與本句語境不同。"
+        "cramp-mcq-04": "本句的「cramped」指「因空間不足而限制活動、伸展或舒適程度」。",
+        "cramp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cramp-mcq-04"
     },
@@ -442,11 +402,9 @@ export default {
       "masked": "Many people live in ____.",
       "options": [
         "cramp-mcq-05",
-        "cramp-mcq-04",
-        "cramp-mcq-06",
-        "cramp-mcq-03",
+        "cramp-mcq-02",
         "cramp-mcq-07",
-        "cramp-mcq-02"
+        "cramp-mcq-09"
       ],
       "explanation": "本句的「cramped flats」指「空間太小、太擠，以致令人不舒服或難以活動」。",
       "sentenceIndex": 8,
@@ -455,12 +413,10 @@ export default {
         "cramped flats"
       ],
       "optionReasons": {
-        "cramp-mcq-05": "本句指「空間太小、太擠，以致令人不舒服或難以活動」。",
-        "cramp-mcq-04": "「因空間不足而限制活動、伸展或舒適程度」與本句語境不同。",
-        "cramp-mcq-06": "「字體／內容被擠在狹小空間中，顯得密集侷促」與本句語境不同。",
-        "cramp-mcq-03": "「發生／引起肌肉抽筋或痙攣」與本句語境不同。",
-        "cramp-mcq-07": "「限制、束縛某人或某事的自由發展／發揮」與本句語境不同。",
-        "cramp-mcq-02": "「腹部、子宮等反覆收縮造成的痙攣性疼痛」與本句語境不同。"
+        "cramp-mcq-05": "本句的「cramped flats」指「空間太小、太擠，以致令人不舒服或難以活動」。",
+        "cramp-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cramp-mcq-05"
     },
@@ -472,11 +428,9 @@ export default {
       "masked": "The office felt dark and ____.",
       "options": [
         "cramp-mcq-05",
-        "cramp-mcq-04",
-        "cramp-mcq-06",
+        "cramp-mcq-09",
         "cramp-mcq-03",
-        "cramp-mcq-07",
-        "cramp-mcq-02"
+        "cramp-mcq-07"
       ],
       "explanation": "本句的「cramped」指「空間太小、太擠，以致令人不舒服或難以活動」。",
       "sentenceIndex": 9,
@@ -485,12 +439,10 @@ export default {
         "cramped"
       ],
       "optionReasons": {
-        "cramp-mcq-05": "本句指「空間太小、太擠，以致令人不舒服或難以活動」。",
-        "cramp-mcq-04": "「因空間不足而限制活動、伸展或舒適程度」與本句語境不同。",
-        "cramp-mcq-06": "「字體／內容被擠在狹小空間中，顯得密集侷促」與本句語境不同。",
-        "cramp-mcq-03": "「發生／引起肌肉抽筋或痙攣」與本句語境不同。",
-        "cramp-mcq-07": "「限制、束縛某人或某事的自由發展／發揮」與本句語境不同。",
-        "cramp-mcq-02": "「腹部、子宮等反覆收縮造成的痙攣性疼痛」與本句語境不同。"
+        "cramp-mcq-05": "本句的「cramped」指「空間太小、太擠，以致令人不舒服或難以活動」。",
+        "cramp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cramp-mcq-05"
     },
@@ -502,11 +454,9 @@ export default {
       "masked": "Five people were sharing a ____ room.",
       "options": [
         "cramp-mcq-05",
-        "cramp-mcq-04",
-        "cramp-mcq-06",
-        "cramp-mcq-03",
-        "cramp-mcq-07",
-        "cramp-mcq-02"
+        "cramp-mcq-01",
+        "cramp-mcq-09",
+        "cramp-mcq-07"
       ],
       "explanation": "本句的「cramped」指「空間太小、太擠，以致令人不舒服或難以活動」。",
       "sentenceIndex": 10,
@@ -515,12 +465,10 @@ export default {
         "cramped"
       ],
       "optionReasons": {
-        "cramp-mcq-05": "本句指「空間太小、太擠，以致令人不舒服或難以活動」。",
-        "cramp-mcq-04": "「因空間不足而限制活動、伸展或舒適程度」與本句語境不同。",
-        "cramp-mcq-06": "「字體／內容被擠在狹小空間中，顯得密集侷促」與本句語境不同。",
-        "cramp-mcq-03": "「發生／引起肌肉抽筋或痙攣」與本句語境不同。",
-        "cramp-mcq-07": "「限制、束縛某人或某事的自由發展／發揮」與本句語境不同。",
-        "cramp-mcq-02": "「腹部、子宮等反覆收縮造成的痙攣性疼痛」與本句語境不同。"
+        "cramp-mcq-05": "本句的「cramped」指「空間太小、太擠，以致令人不舒服或難以活動」。",
+        "cramp-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cramp-mcq-05"
     },
@@ -532,11 +480,9 @@ export default {
       "masked": "Too many rules can ____ creativity.",
       "options": [
         "cramp-mcq-07",
-        "cramp-mcq-06",
-        "cramp-mcq-08",
         "cramp-mcq-05",
         "cramp-mcq-09",
-        "cramp-mcq-04"
+        "cramp-mcq-02"
       ],
       "explanation": "本句的「cramp」指「限制、束縛某人或某事的自由發展／發揮」。",
       "sentenceIndex": 13,
@@ -545,12 +491,10 @@ export default {
         "cramp"
       ],
       "optionReasons": {
-        "cramp-mcq-07": "本句指「限制、束縛某人或某事的自由發展／發揮」。",
-        "cramp-mcq-06": "「字體／內容被擠在狹小空間中，顯得密集侷促」與本句語境不同。",
-        "cramp-mcq-08": "「令某人不能自由自在地做事或表現」與本句語境不同。",
-        "cramp-mcq-05": "「空間太小、太擠，以致令人不舒服或難以活動」與本句語境不同。",
-        "cramp-mcq-09": "「用來固定物件的夾具；較專門」與本句語境不同。",
-        "cramp-mcq-04": "「因空間不足而限制活動、伸展或舒適程度」與本句語境不同。"
+        "cramp-mcq-07": "本句的「cramp」指「限制、束縛某人或某事的自由發展／發揮」。",
+        "cramp-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cramp-mcq-07"
     },
@@ -562,11 +506,9 @@ export default {
       "masked": "The lack of funding ____ the project’s development.",
       "options": [
         "cramp-mcq-07",
-        "cramp-mcq-06",
-        "cramp-mcq-08",
-        "cramp-mcq-05",
         "cramp-mcq-09",
-        "cramp-mcq-04"
+        "cramp-mcq-02",
+        "cramp-mcq-05"
       ],
       "explanation": "本句的「cramped」指「限制、束縛某人或某事的自由發展／發揮」。",
       "sentenceIndex": 14,
@@ -575,12 +517,10 @@ export default {
         "cramped"
       ],
       "optionReasons": {
-        "cramp-mcq-07": "本句指「限制、束縛某人或某事的自由發展／發揮」。",
-        "cramp-mcq-06": "「字體／內容被擠在狹小空間中，顯得密集侷促」與本句語境不同。",
-        "cramp-mcq-08": "「令某人不能自由自在地做事或表現」與本句語境不同。",
-        "cramp-mcq-05": "「空間太小、太擠，以致令人不舒服或難以活動」與本句語境不同。",
-        "cramp-mcq-09": "「用來固定物件的夾具；較專門」與本句語境不同。",
-        "cramp-mcq-04": "「因空間不足而限制活動、伸展或舒適程度」與本句語境不同。"
+        "cramp-mcq-07": "本句的「cramped」指「限制、束縛某人或某事的自由發展／發揮」。",
+        "cramp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cramp-mcq-07"
     },
@@ -592,11 +532,8 @@ export default {
       "masked": "Having his parents there really ____.",
       "options": [
         "cramp-mcq-08",
-        "cramp-mcq-07",
-        "cramp-mcq-09",
-        "cramp-mcq-06",
-        "cramp-mcq-05",
-        "cramp-mcq-04"
+        "cramp-mcq-02",
+        "cramp-mcq-09"
       ],
       "explanation": "本句的「cramped his style」指「令某人不能自由自在地做事或表現」。",
       "sentenceIndex": 15,
@@ -605,12 +542,9 @@ export default {
         "cramped his style"
       ],
       "optionReasons": {
-        "cramp-mcq-08": "本句指「令某人不能自由自在地做事或表現」。",
-        "cramp-mcq-07": "「限制、束縛某人或某事的自由發展／發揮」與本句語境不同。",
-        "cramp-mcq-09": "「用來固定物件的夾具；較專門」與本句語境不同。",
-        "cramp-mcq-06": "「字體／內容被擠在狹小空間中，顯得密集侷促」與本句語境不同。",
-        "cramp-mcq-05": "「空間太小、太擠，以致令人不舒服或難以活動」與本句語境不同。",
-        "cramp-mcq-04": "「因空間不足而限制活動、伸展或舒適程度」與本句語境不同。"
+        "cramp-mcq-08": "本句的「cramped his style」指「令某人不能自由自在地做事或表現」。",
+        "cramp-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cramp-mcq-08"
     },
@@ -622,11 +556,8 @@ export default {
       "masked": "These regulations are beginning to ____.",
       "options": [
         "cramp-mcq-08",
-        "cramp-mcq-07",
-        "cramp-mcq-09",
-        "cramp-mcq-06",
-        "cramp-mcq-05",
-        "cramp-mcq-04"
+        "cramp-mcq-03",
+        "cramp-mcq-09"
       ],
       "explanation": "本句的「cramp our style」指「令某人不能自由自在地做事或表現」。",
       "sentenceIndex": 16,
@@ -635,12 +566,9 @@ export default {
         "cramp our style"
       ],
       "optionReasons": {
-        "cramp-mcq-08": "本句指「令某人不能自由自在地做事或表現」。",
-        "cramp-mcq-07": "「限制、束縛某人或某事的自由發展／發揮」與本句語境不同。",
-        "cramp-mcq-09": "「用來固定物件的夾具；較專門」與本句語境不同。",
-        "cramp-mcq-06": "「字體／內容被擠在狹小空間中，顯得密集侷促」與本句語境不同。",
-        "cramp-mcq-05": "「空間太小、太擠，以致令人不舒服或難以活動」與本句語境不同。",
-        "cramp-mcq-04": "「因空間不足而限制活動、伸展或舒適程度」與本句語境不同。"
+        "cramp-mcq-08": "本句的「cramp our style」指「令某人不能自由自在地做事或表現」。",
+        "cramp-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cramp-mcq-08"
     },
@@ -652,11 +580,9 @@ export default {
       "masked": "The carpenter held the pieces together with a ____.",
       "options": [
         "cramp-mcq-09",
-        "cramp-mcq-08",
-        "cramp-mcq-07",
-        "cramp-mcq-06",
+        "cramp-mcq-02",
         "cramp-mcq-05",
-        "cramp-mcq-04"
+        "cramp-mcq-07"
       ],
       "explanation": "本句的「cramp」指「用來固定物件的夾具；較專門」。",
       "sentenceIndex": 19,
@@ -665,12 +591,10 @@ export default {
         "cramp"
       ],
       "optionReasons": {
-        "cramp-mcq-09": "本句指「用來固定物件的夾具；較專門」。",
-        "cramp-mcq-08": "「令某人不能自由自在地做事或表現」與本句語境不同。",
-        "cramp-mcq-07": "「限制、束縛某人或某事的自由發展／發揮」與本句語境不同。",
-        "cramp-mcq-06": "「字體／內容被擠在狹小空間中，顯得密集侷促」與本句語境不同。",
-        "cramp-mcq-05": "「空間太小、太擠，以致令人不舒服或難以活動」與本句語境不同。",
-        "cramp-mcq-04": "「因空間不足而限制活動、伸展或舒適程度」與本句語境不同。"
+        "cramp-mcq-09": "本句的「cramp」指「用來固定物件的夾具；較專門」。",
+        "cramp-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cramp-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cramp-mcq-09"
     }
@@ -682,5 +606,7 @@ export default {
     "sha256": "77d9eb9aef6edea322beb9dd7298b71423751a9cd6c9486be6c509631bc6164e",
     "pages": 11
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

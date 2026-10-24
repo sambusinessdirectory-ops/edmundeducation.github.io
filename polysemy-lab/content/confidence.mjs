@@ -605,11 +605,9 @@ export default {
       "masked": "She had a kind of quiet ____.",
       "options": [
         "confidence-mcq-01",
-        "confidence-mcq-02",
-        "confidence-mcq-03",
-        "confidence-mcq-04",
-        "confidence-mcq-05",
-        "confidence-mcq-06"
+        "confidence-mcq-16",
+        "confidence-mcq-08",
+        "confidence-mcq-19"
       ],
       "explanation": "本句的「confidence」指「對自己的能力、判斷或價值有穩定信念」。",
       "sentenceIndex": 0,
@@ -618,12 +616,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-01": "本句指「對自己的能力、判斷或價值有穩定信念」。",
-        "confidence-mcq-02": "「不張揚、不需要炫耀，但內在很穩定的自信」是「quiet confidence」的用法，與本句語境不同。",
-        "confidence-mcq-03": "「對自身能力、判斷和價值的信心」是「self-confidence」的用法，與本句語境不同。",
-        "confidence-mcq-04": "「信心逐漸增加／建立」是「gain/build confidence」的用法，與本句語境不同。",
-        "confidence-mcq-05": "「原有信心下降或消失」是「lose confidence」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。"
+        "confidence-mcq-01": "本句的「confidence」指「對自己的能力、判斷或價值有穩定信念」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-01"
     },
@@ -635,11 +631,9 @@ export default {
       "masked": "Public speaking helped her build ____.",
       "options": [
         "confidence-mcq-01",
-        "confidence-mcq-02",
-        "confidence-mcq-03",
-        "confidence-mcq-04",
-        "confidence-mcq-05",
-        "confidence-mcq-06"
+        "confidence-mcq-17",
+        "confidence-mcq-08",
+        "confidence-pdf-001"
       ],
       "explanation": "本句的「confidence」指「對自己的能力、判斷或價值有穩定信念」。",
       "sentenceIndex": 1,
@@ -648,12 +642,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-01": "本句指「對自己的能力、判斷或價值有穩定信念」。",
-        "confidence-mcq-02": "「不張揚、不需要炫耀，但內在很穩定的自信」是「quiet confidence」的用法，與本句語境不同。",
-        "confidence-mcq-03": "「對自身能力、判斷和價值的信心」是「self-confidence」的用法，與本句語境不同。",
-        "confidence-mcq-04": "「信心逐漸增加／建立」是「gain/build confidence」的用法，與本句語境不同。",
-        "confidence-mcq-05": "「原有信心下降或消失」是「lose confidence」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。"
+        "confidence-mcq-01": "本句的「confidence」指「對自己的能力、判斷或價值有穩定信念」。",
+        "confidence-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-01"
     },
@@ -665,11 +657,9 @@ export default {
       "masked": "He answered with ____.",
       "options": [
         "confidence-mcq-01",
-        "confidence-mcq-02",
-        "confidence-mcq-03",
-        "confidence-mcq-04",
-        "confidence-mcq-05",
-        "confidence-mcq-06"
+        "confidence-mcq-16",
+        "confidence-mcq-08",
+        "confidence-mcq-10"
       ],
       "explanation": "本句的「confidence」指「對自己的能力、判斷或價值有穩定信念」。",
       "sentenceIndex": 2,
@@ -678,12 +668,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-01": "本句指「對自己的能力、判斷或價值有穩定信念」。",
-        "confidence-mcq-02": "「不張揚、不需要炫耀，但內在很穩定的自信」是「quiet confidence」的用法，與本句語境不同。",
-        "confidence-mcq-03": "「對自身能力、判斷和價值的信心」是「self-confidence」的用法，與本句語境不同。",
-        "confidence-mcq-04": "「信心逐漸增加／建立」是「gain/build confidence」的用法，與本句語境不同。",
-        "confidence-mcq-05": "「原有信心下降或消失」是「lose confidence」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。"
+        "confidence-mcq-01": "本句的「confidence」指「對自己的能力、判斷或價值有穩定信念」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-01"
     },
@@ -695,11 +683,9 @@ export default {
       "masked": "Her ____ improved over time.",
       "options": [
         "confidence-mcq-03",
-        "confidence-mcq-02",
-        "confidence-mcq-04",
-        "confidence-mcq-01",
-        "confidence-mcq-05",
-        "confidence-mcq-06"
+        "confidence-mcq-16",
+        "confidence-mcq-21",
+        "confidence-mcq-22"
       ],
       "explanation": "本句的「self-confidence」指「對自身能力、判斷和價值的信心」。",
       "sentenceIndex": 3,
@@ -708,12 +694,10 @@ export default {
         "self-confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-03": "本句指「對自身能力、判斷和價值的信心」。",
-        "confidence-mcq-02": "「不張揚、不需要炫耀，但內在很穩定的自信」是「quiet confidence」的用法，與本句語境不同。",
-        "confidence-mcq-04": "「信心逐漸增加／建立」是「gain/build confidence」的用法，與本句語境不同。",
-        "confidence-mcq-01": "「對自己的能力、判斷或價值有穩定信念」是「confidence — self-belief」的用法，與本句語境不同。",
-        "confidence-mcq-05": "「原有信心下降或消失」是「lose confidence」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。"
+        "confidence-mcq-03": "本句的「self-confidence」指「對自身能力、判斷和價值的信心」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-03"
     },
@@ -725,11 +709,9 @@ export default {
       "masked": "Lack of self-____ can stop people from speaking up.",
       "options": [
         "confidence-mcq-03",
-        "confidence-mcq-02",
-        "confidence-mcq-04",
-        "confidence-mcq-01",
-        "confidence-mcq-05",
-        "confidence-mcq-06"
+        "confidence-mcq-17",
+        "confidence-mcq-08",
+        "confidence-mcq-19"
       ],
       "explanation": "本句的「confidence」指「對自身能力、判斷和價值的信心」。",
       "sentenceIndex": 4,
@@ -738,12 +720,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-03": "本句指「對自身能力、判斷和價值的信心」。",
-        "confidence-mcq-02": "「不張揚、不需要炫耀，但內在很穩定的自信」是「quiet confidence」的用法，與本句語境不同。",
-        "confidence-mcq-04": "「信心逐漸增加／建立」是「gain/build confidence」的用法，與本句語境不同。",
-        "confidence-mcq-01": "「對自己的能力、判斷或價值有穩定信念」是「confidence — self-belief」的用法，與本句語境不同。",
-        "confidence-mcq-05": "「原有信心下降或消失」是「lose confidence」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。"
+        "confidence-mcq-03": "本句的「confidence」指「對自身能力、判斷和價值的信心」。",
+        "confidence-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-03"
     },
@@ -755,10 +735,8 @@ export default {
       "masked": "Practice helped him ____.",
       "options": [
         "confidence-mcq-04",
-        "confidence-mcq-03",
-        "confidence-mcq-05",
-        "confidence-mcq-02",
-        "confidence-mcq-06",
+        "confidence-mcq-08",
+        "confidence-mcq-17",
         "confidence-mcq-01"
       ],
       "explanation": "本句的「gain confidence」指「信心逐漸增加／建立」。",
@@ -768,12 +746,10 @@ export default {
         "gain confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-04": "本句指「信心逐漸增加／建立」。",
-        "confidence-mcq-03": "「對自身能力、判斷和價值的信心」是「self-confidence」的用法，與本句語境不同。",
-        "confidence-mcq-05": "「原有信心下降或消失」是「lose confidence」的用法，與本句語境不同。",
-        "confidence-mcq-02": "「不張揚、不需要炫耀，但內在很穩定的自信」是「quiet confidence」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。",
-        "confidence-mcq-01": "「對自己的能力、判斷或價值有穩定信念」是「confidence — self-belief」的用法，與本句語境不同。"
+        "confidence-mcq-04": "本句的「gain confidence」指「信心逐漸增加／建立」。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-04"
     },
@@ -785,11 +761,9 @@ export default {
       "masked": "She gradually built ____ in speaking English.",
       "options": [
         "confidence-mcq-04",
-        "confidence-mcq-03",
-        "confidence-mcq-05",
-        "confidence-mcq-02",
-        "confidence-mcq-06",
-        "confidence-mcq-01"
+        "confidence-mcq-08",
+        "confidence-mcq-17",
+        "confidence-pdf-001"
       ],
       "explanation": "本句的「confidence」指「信心逐漸增加／建立」。",
       "sentenceIndex": 6,
@@ -798,12 +772,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-04": "本句指「信心逐漸增加／建立」。",
-        "confidence-mcq-03": "「對自身能力、判斷和價值的信心」是「self-confidence」的用法，與本句語境不同。",
-        "confidence-mcq-05": "「原有信心下降或消失」是「lose confidence」的用法，與本句語境不同。",
-        "confidence-mcq-02": "「不張揚、不需要炫耀，但內在很穩定的自信」是「quiet confidence」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。",
-        "confidence-mcq-01": "「對自己的能力、判斷或價值有穩定信念」是「confidence — self-belief」的用法，與本句語境不同。"
+        "confidence-mcq-04": "本句的「confidence」指「信心逐漸增加／建立」。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confidence-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-04"
     },
@@ -815,11 +787,9 @@ export default {
       "masked": "One bad experience made him ____.",
       "options": [
         "confidence-mcq-05",
-        "confidence-mcq-04",
-        "confidence-mcq-06",
-        "confidence-mcq-03",
-        "confidence-mcq-07",
-        "confidence-mcq-02"
+        "confidence-mcq-21",
+        "confidence-mcq-16",
+        "confidence-mcq-22"
       ],
       "explanation": "本句的「lose confidence」指「原有信心下降或消失」。",
       "sentenceIndex": 7,
@@ -828,12 +798,10 @@ export default {
         "lose confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-05": "本句指「原有信心下降或消失」。",
-        "confidence-mcq-04": "「信心逐漸增加／建立」是「gain/build confidence」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。",
-        "confidence-mcq-03": "「對自身能力、判斷和價值的信心」是「self-confidence」的用法，與本句語境不同。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。",
-        "confidence-mcq-02": "「不張揚、不需要炫耀，但內在很穩定的自信」是「quiet confidence」的用法，與本句語境不同。"
+        "confidence-mcq-05": "本句的「lose confidence」指「原有信心下降或消失」。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-05"
     },
@@ -845,11 +813,9 @@ export default {
       "masked": "She lost ____ in her ability to speak publicly.",
       "options": [
         "confidence-mcq-05",
-        "confidence-mcq-04",
-        "confidence-mcq-06",
-        "confidence-mcq-03",
-        "confidence-mcq-07",
-        "confidence-mcq-02"
+        "confidence-mcq-16",
+        "confidence-mcq-08",
+        "confidence-mcq-22"
       ],
       "explanation": "本句的「confidence」指「原有信心下降或消失」。",
       "sentenceIndex": 8,
@@ -858,12 +824,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-05": "本句指「原有信心下降或消失」。",
-        "confidence-mcq-04": "「信心逐漸增加／建立」是「gain/build confidence」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。",
-        "confidence-mcq-03": "「對自身能力、判斷和價值的信心」是「self-confidence」的用法，與本句語境不同。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。",
-        "confidence-mcq-02": "「不張揚、不需要炫耀，但內在很穩定的自信」是「quiet confidence」的用法，與本句語境不同。"
+        "confidence-mcq-05": "本句的「confidence」指「原有信心下降或消失」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-05"
     },
@@ -875,11 +839,8 @@ export default {
       "masked": "I have complete ____.",
       "options": [
         "confidence-mcq-06",
-        "confidence-mcq-05",
-        "confidence-mcq-07",
-        "confidence-mcq-04",
-        "confidence-mcq-08",
-        "confidence-mcq-03"
+        "confidence-mcq-17",
+        "confidence-mcq-05"
       ],
       "explanation": "本句的「confidence in her」指「相信某人的能力、判斷或可靠程度」。",
       "sentenceIndex": 9,
@@ -888,12 +849,9 @@ export default {
         "confidence in her"
       ],
       "optionReasons": {
-        "confidence-mcq-06": "本句指「相信某人的能力、判斷或可靠程度」。",
-        "confidence-mcq-05": "「原有信心下降或消失」是「lose confidence」的用法，與本句語境不同。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。",
-        "confidence-mcq-04": "「信心逐漸增加／建立」是「gain/build confidence」的用法，與本句語境不同。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。",
-        "confidence-mcq-03": "「對自身能力、判斷和價值的信心」是「self-confidence」的用法，與本句語境不同。"
+        "confidence-mcq-06": "本句的「confidence in her」指「相信某人的能力、判斷或可靠程度」。",
+        "confidence-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-06"
     },
@@ -905,11 +863,9 @@ export default {
       "masked": "The team has ____ in the plan.",
       "options": [
         "confidence-mcq-06",
-        "confidence-mcq-05",
-        "confidence-mcq-07",
-        "confidence-mcq-04",
-        "confidence-mcq-08",
-        "confidence-mcq-03"
+        "confidence-mcq-16",
+        "confidence-mcq-18",
+        "confidence-mcq-15"
       ],
       "explanation": "本句的「confidence」指「相信某人的能力、判斷或可靠程度」。",
       "sentenceIndex": 10,
@@ -918,12 +874,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-06": "本句指「相信某人的能力、判斷或可靠程度」。",
-        "confidence-mcq-05": "「原有信心下降或消失」是「lose confidence」的用法，與本句語境不同。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。",
-        "confidence-mcq-04": "「信心逐漸增加／建立」是「gain/build confidence」的用法，與本句語境不同。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。",
-        "confidence-mcq-03": "「對自身能力、判斷和價值的信心」是「self-confidence」的用法，與本句語境不同。"
+        "confidence-mcq-06": "本句的「confidence」指「相信某人的能力、判斷或可靠程度」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-06"
     },
@@ -935,11 +889,8 @@ export default {
       "masked": "Her students had great ____.",
       "options": [
         "confidence-mcq-06",
-        "confidence-mcq-05",
-        "confidence-mcq-07",
-        "confidence-mcq-04",
-        "confidence-mcq-08",
-        "confidence-mcq-03"
+        "confidence-mcq-17",
+        "confidence-mcq-18"
       ],
       "explanation": "本句的「confidence in her」指「相信某人的能力、判斷或可靠程度」。",
       "sentenceIndex": 11,
@@ -948,12 +899,9 @@ export default {
         "confidence in her"
       ],
       "optionReasons": {
-        "confidence-mcq-06": "本句指「相信某人的能力、判斷或可靠程度」。",
-        "confidence-mcq-05": "「原有信心下降或消失」是「lose confidence」的用法，與本句語境不同。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。",
-        "confidence-mcq-04": "「信心逐漸增加／建立」是「gain/build confidence」的用法，與本句語境不同。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。",
-        "confidence-mcq-03": "「對自身能力、判斷和價值的信心」是「self-confidence」的用法，與本句語境不同。"
+        "confidence-mcq-06": "本句的「confidence in her」指「相信某人的能力、判斷或可靠程度」。",
+        "confidence-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-06"
     },
@@ -965,11 +913,8 @@ export default {
       "masked": "I have ____ in your judgment.",
       "options": [
         "confidence-mcq-06",
-        "confidence-mcq-05",
-        "confidence-mcq-07",
-        "confidence-mcq-04",
-        "confidence-mcq-08",
-        "confidence-mcq-03"
+        "confidence-mcq-17",
+        "confidence-mcq-20"
       ],
       "explanation": "本句的「confidence」指「相信某人的能力、判斷或可靠程度」。",
       "sentenceIndex": 12,
@@ -978,12 +923,9 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-06": "本句指「相信某人的能力、判斷或可靠程度」。",
-        "confidence-mcq-05": "「原有信心下降或消失」是「lose confidence」的用法，與本句語境不同。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。",
-        "confidence-mcq-04": "「信心逐漸增加／建立」是「gain/build confidence」的用法，與本句語境不同。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。",
-        "confidence-mcq-03": "「對自身能力、判斷和價值的信心」是「self-confidence」的用法，與本句語境不同。"
+        "confidence-mcq-06": "本句的「confidence」指「相信某人的能力、判斷或可靠程度」。",
+        "confidence-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-06"
     },
@@ -995,11 +937,9 @@ export default {
       "masked": "Consumers lost ____.",
       "options": [
         "confidence-mcq-07",
-        "confidence-mcq-06",
+        "confidence-mcq-16",
         "confidence-mcq-08",
-        "confidence-mcq-05",
-        "confidence-mcq-09",
-        "confidence-mcq-04"
+        "confidence-mcq-15"
       ],
       "explanation": "本句的「confidence in the product」指「相信某制度、計劃、產品等可靠／可能成功」。",
       "sentenceIndex": 13,
@@ -1008,12 +948,10 @@ export default {
         "confidence in the product"
       ],
       "optionReasons": {
-        "confidence-mcq-07": "本句指「相信某制度、計劃、產品等可靠／可能成功」。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。",
-        "confidence-mcq-05": "「原有信心下降或消失」是「lose confidence」的用法，與本句語境不同。",
-        "confidence-mcq-09": "「對自己、某人或某結果具有信心／把握的」是「confident」的用法，與本句語境不同。",
-        "confidence-mcq-04": "「信心逐漸增加／建立」是「gain/build confidence」的用法，與本句語境不同。"
+        "confidence-mcq-07": "本句的「confidence in the product」指「相信某制度、計劃、產品等可靠／可能成功」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-07"
     },
@@ -1025,11 +963,9 @@ export default {
       "masked": "Public ____ in the system improved.",
       "options": [
         "confidence-mcq-07",
-        "confidence-mcq-06",
-        "confidence-mcq-08",
-        "confidence-mcq-05",
-        "confidence-mcq-09",
-        "confidence-mcq-04"
+        "confidence-mcq-16",
+        "confidence-mcq-22",
+        "confidence-mcq-21"
       ],
       "explanation": "本句的「confidence」指「相信某制度、計劃、產品等可靠／可能成功」。",
       "sentenceIndex": 14,
@@ -1038,12 +974,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-07": "本句指「相信某制度、計劃、產品等可靠／可能成功」。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。",
-        "confidence-mcq-05": "「原有信心下降或消失」是「lose confidence」的用法，與本句語境不同。",
-        "confidence-mcq-09": "「對自己、某人或某結果具有信心／把握的」是「confident」的用法，與本句語境不同。",
-        "confidence-mcq-04": "「信心逐漸增加／建立」是「gain/build confidence」的用法，與本句語境不同。"
+        "confidence-mcq-07": "本句的「confidence」指「相信某制度、計劃、產品等可靠／可能成功」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-07"
     },
@@ -1055,11 +989,9 @@ export default {
       "masked": "She spoke with ____ that the plan would work.",
       "options": [
         "confidence-mcq-08",
-        "confidence-mcq-07",
-        "confidence-mcq-09",
-        "confidence-mcq-06",
-        "confidence-mcq-10",
-        "confidence-mcq-05"
+        "confidence-mcq-11",
+        "confidence-mcq-05",
+        "confidence-mcq-16"
       ],
       "explanation": "本句的「confidence」指「對某件事是真的／會發生具有較高程度的把握」。",
       "sentenceIndex": 15,
@@ -1068,12 +1000,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-08": "本句指「對某件事是真的／會發生具有較高程度的把握」。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。",
-        "confidence-mcq-09": "「對自己、某人或某結果具有信心／把握的」是「confident」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
-        "confidence-mcq-05": "「原有信心下降或消失」是「lose confidence」的用法，與本句語境不同。"
+        "confidence-mcq-08": "本句的「confidence」指「對某件事是真的／會發生具有較高程度的把握」。",
+        "confidence-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-08"
     },
@@ -1085,11 +1015,8 @@ export default {
       "masked": "There is growing ____ that the problem can be solved.",
       "options": [
         "confidence-mcq-08",
-        "confidence-mcq-07",
-        "confidence-mcq-09",
-        "confidence-mcq-06",
-        "confidence-mcq-10",
-        "confidence-mcq-05"
+        "confidence-mcq-18",
+        "confidence-mcq-14"
       ],
       "explanation": "本句的「confidence」指「對某件事是真的／會發生具有較高程度的把握」。",
       "sentenceIndex": 16,
@@ -1098,12 +1025,9 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-08": "本句指「對某件事是真的／會發生具有較高程度的把握」。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。",
-        "confidence-mcq-09": "「對自己、某人或某結果具有信心／把握的」是「confident」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
-        "confidence-mcq-05": "「原有信心下降或消失」是「lose confidence」的用法，與本句語境不同。"
+        "confidence-mcq-08": "本句的「confidence」指「對某件事是真的／會發生具有較高程度的把握」。",
+        "confidence-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-08"
     },
@@ -1115,11 +1039,8 @@ export default {
       "masked": "She seemed calm and ____.",
       "options": [
         "confidence-mcq-09",
-        "confidence-mcq-08",
-        "confidence-mcq-10",
-        "confidence-mcq-07",
-        "confidence-mcq-11",
-        "confidence-mcq-06"
+        "confidence-mcq-17",
+        "confidence-mcq-21"
       ],
       "explanation": "本句的「confident」指「對自己、某人或某結果具有信心／把握的」。",
       "sentenceIndex": 17,
@@ -1128,12 +1049,9 @@ export default {
         "confident"
       ],
       "optionReasons": {
-        "confidence-mcq-09": "本句指「對自己、某人或某結果具有信心／把握的」。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。"
+        "confidence-mcq-09": "本句的「confident」指「對自己、某人或某結果具有信心／把握的」。",
+        "confidence-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-09"
     },
@@ -1145,11 +1063,8 @@ export default {
       "masked": "He became more ____ after several presentations.",
       "options": [
         "confidence-mcq-09",
-        "confidence-mcq-08",
-        "confidence-mcq-10",
-        "confidence-mcq-07",
-        "confidence-mcq-11",
-        "confidence-mcq-06"
+        "confidence-mcq-17",
+        "confidence-mcq-21"
       ],
       "explanation": "本句的「confident」指「對自己、某人或某結果具有信心／把握的」。",
       "sentenceIndex": 18,
@@ -1158,12 +1073,9 @@ export default {
         "confident"
       ],
       "optionReasons": {
-        "confidence-mcq-09": "本句指「對自己、某人或某結果具有信心／把握的」。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。"
+        "confidence-mcq-09": "本句的「confident」指「對自己、某人或某結果具有信心／把握的」。",
+        "confidence-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-09"
     },
@@ -1175,11 +1087,9 @@ export default {
       "masked": "I feel ____.",
       "options": [
         "confidence-mcq-09",
-        "confidence-mcq-08",
-        "confidence-mcq-10",
-        "confidence-mcq-07",
-        "confidence-mcq-11",
-        "confidence-mcq-06"
+        "confidence-mcq-16",
+        "confidence-mcq-21",
+        "confidence-mcq-07"
       ],
       "explanation": "本句的「confident about the interview」指「對自己、某人或某結果具有信心／把握的」。",
       "sentenceIndex": 19,
@@ -1188,12 +1098,10 @@ export default {
         "confident about the interview"
       ],
       "optionReasons": {
-        "confidence-mcq-09": "本句指「對自己、某人或某結果具有信心／把握的」。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。"
+        "confidence-mcq-09": "本句的「confident about the interview」指「對自己、某人或某結果具有信心／把握的」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-09"
     },
@@ -1205,11 +1113,9 @@ export default {
       "masked": "She is ____ about her decision.",
       "options": [
         "confidence-mcq-09",
-        "confidence-mcq-08",
-        "confidence-mcq-10",
-        "confidence-mcq-07",
-        "confidence-mcq-11",
-        "confidence-mcq-06"
+        "confidence-mcq-21",
+        "confidence-mcq-16",
+        "confidence-mcq-15"
       ],
       "explanation": "本句的「confident」指「對自己、某人或某結果具有信心／把握的」。",
       "sentenceIndex": 20,
@@ -1218,12 +1124,10 @@ export default {
         "confident"
       ],
       "optionReasons": {
-        "confidence-mcq-09": "本句指「對自己、某人或某結果具有信心／把握的」。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。"
+        "confidence-mcq-09": "本句的「confident」指「對自己、某人或某結果具有信心／把握的」。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-09"
     },
@@ -1235,11 +1139,9 @@ export default {
       "masked": "I’m ____.",
       "options": [
         "confidence-mcq-09",
-        "confidence-mcq-08",
-        "confidence-mcq-10",
-        "confidence-mcq-07",
-        "confidence-mcq-11",
-        "confidence-mcq-06"
+        "confidence-mcq-16",
+        "confidence-mcq-21",
+        "confidence-mcq-15"
       ],
       "explanation": "本句的「confident that she will succeed」指「對自己、某人或某結果具有信心／把握的」。",
       "sentenceIndex": 21,
@@ -1248,12 +1150,10 @@ export default {
         "confident that she will succeed"
       ],
       "optionReasons": {
-        "confidence-mcq-09": "本句指「對自己、某人或某結果具有信心／把握的」。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。"
+        "confidence-mcq-09": "本句的「confident that she will succeed」指「對自己、某人或某結果具有信心／把握的」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-09"
     },
@@ -1265,11 +1165,9 @@ export default {
       "masked": "They are ____ that the plan will work.",
       "options": [
         "confidence-mcq-09",
-        "confidence-mcq-08",
-        "confidence-mcq-10",
-        "confidence-mcq-07",
-        "confidence-mcq-11",
-        "confidence-mcq-06"
+        "confidence-mcq-16",
+        "confidence-mcq-21",
+        "confidence-mcq-15"
       ],
       "explanation": "本句的「confident」指「對自己、某人或某結果具有信心／把握的」。",
       "sentenceIndex": 22,
@@ -1278,12 +1176,10 @@ export default {
         "confident"
       ],
       "optionReasons": {
-        "confidence-mcq-09": "本句指「對自己、某人或某結果具有信心／把握的」。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。"
+        "confidence-mcq-09": "本句的「confident」指「對自己、某人或某結果具有信心／把握的」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-09"
     },
@@ -1295,11 +1191,8 @@ export default {
       "masked": "She is ____.",
       "options": [
         "confidence-mcq-09",
-        "confidence-mcq-08",
-        "confidence-mcq-10",
-        "confidence-mcq-07",
-        "confidence-mcq-11",
-        "confidence-mcq-06"
+        "confidence-mcq-17",
+        "confidence-mcq-21"
       ],
       "explanation": "本句的「confident in her team」指「對自己、某人或某結果具有信心／把握的」。",
       "sentenceIndex": 23,
@@ -1308,12 +1201,9 @@ export default {
         "confident in her team"
       ],
       "optionReasons": {
-        "confidence-mcq-09": "本句指「對自己、某人或某結果具有信心／把握的」。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。"
+        "confidence-mcq-09": "本句的「confident in her team」指「對自己、某人或某結果具有信心／把握的」。",
+        "confidence-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-09"
     },
@@ -1325,11 +1215,9 @@ export default {
       "masked": "He is ____ in his own ability.",
       "options": [
         "confidence-mcq-09",
-        "confidence-mcq-08",
-        "confidence-mcq-10",
-        "confidence-mcq-07",
-        "confidence-mcq-11",
-        "confidence-mcq-06"
+        "confidence-mcq-16",
+        "confidence-mcq-21",
+        "confidence-mcq-15"
       ],
       "explanation": "本句的「confident」指「對自己、某人或某結果具有信心／把握的」。",
       "sentenceIndex": 24,
@@ -1338,12 +1226,10 @@ export default {
         "confident"
       ],
       "optionReasons": {
-        "confidence-mcq-09": "本句指「對自己、某人或某結果具有信心／把握的」。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-06": "「相信某人的能力、判斷或可靠程度」是「confidence in someone」的用法，與本句語境不同。"
+        "confidence-mcq-09": "本句的「confident」指「對自己、某人或某結果具有信心／把握的」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-09"
     },
@@ -1355,11 +1241,9 @@ export default {
       "masked": "She spoke ____ in front of the class.",
       "options": [
         "confidence-mcq-10",
-        "confidence-mcq-09",
-        "confidence-mcq-11",
-        "confidence-mcq-08",
-        "confidence-mcq-12",
-        "confidence-mcq-07"
+        "confidence-mcq-21",
+        "confidence-mcq-17",
+        "confidence-mcq-11"
       ],
       "explanation": "本句的「confidently」指「以有信心、不猶豫的方式」。",
       "sentenceIndex": 25,
@@ -1368,12 +1252,10 @@ export default {
         "confidently"
       ],
       "optionReasons": {
-        "confidence-mcq-10": "本句指「以有信心、不猶豫的方式」。",
-        "confidence-mcq-09": "「對自己、某人或某結果具有信心／把握的」是「confident」的用法，與本句語境不同。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。",
-        "confidence-mcq-12": "「洩露別人私下告知的事情／破壞其信任」是「betray someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。"
+        "confidence-mcq-10": "本句的「confidently」指「以有信心、不猶豫的方式」。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-10"
     },
@@ -1385,11 +1267,9 @@ export default {
       "masked": "He answered the question ____.",
       "options": [
         "confidence-mcq-10",
-        "confidence-mcq-09",
-        "confidence-mcq-11",
-        "confidence-mcq-08",
-        "confidence-mcq-12",
-        "confidence-mcq-07"
+        "confidence-mcq-16",
+        "confidence-mcq-21",
+        "confidence-mcq-19"
       ],
       "explanation": "本句的「confidently」指「以有信心、不猶豫的方式」。",
       "sentenceIndex": 26,
@@ -1398,12 +1278,10 @@ export default {
         "confidently"
       ],
       "optionReasons": {
-        "confidence-mcq-10": "本句指「以有信心、不猶豫的方式」。",
-        "confidence-mcq-09": "「對自己、某人或某結果具有信心／把握的」是「confident」的用法，與本句語境不同。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。",
-        "confidence-mcq-12": "「洩露別人私下告知的事情／破壞其信任」是「betray someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-07": "「相信某制度、計劃、產品等可靠／可能成功」是「confidence in something」的用法，與本句語境不同。"
+        "confidence-mcq-10": "本句的「confidently」指「以有信心、不猶豫的方式」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-10"
     },
@@ -1415,11 +1293,9 @@ export default {
       "masked": "She earned the ____.",
       "options": [
         "confidence-pdf-001",
-        "confidence-mcq-10",
-        "confidence-mcq-12",
-        "confidence-mcq-09",
-        "confidence-mcq-13",
-        "confidence-mcq-08"
+        "confidence-mcq-16",
+        "confidence-mcq-21",
+        "confidence-mcq-10"
       ],
       "explanation": "本句的「confidence of her students」指「某人對你所給予的信任」。",
       "sentenceIndex": 27,
@@ -1428,12 +1304,10 @@ export default {
         "confidence of her students"
       ],
       "optionReasons": {
-        "confidence-pdf-001": "本句指「某人對你所給予的信任」。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
-        "confidence-mcq-12": "「洩露別人私下告知的事情／破壞其信任」是「betray someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-09": "「對自己、某人或某結果具有信心／把握的」是「confident」的用法，與本句語境不同。",
-        "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。"
+        "confidence-pdf-001": "本句的「confidence of her students」指「某人對你所給予的信任」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-pdf-001"
     },
@@ -1445,11 +1319,9 @@ export default {
       "masked": "He betrayed my ____.",
       "options": [
         "confidence-pdf-001",
-        "confidence-mcq-10",
-        "confidence-mcq-12",
-        "confidence-mcq-09",
-        "confidence-mcq-13",
-        "confidence-mcq-08"
+        "confidence-mcq-16",
+        "confidence-mcq-08",
+        "confidence-mcq-05"
       ],
       "explanation": "本句的「confidence」指「某人對你所給予的信任」。",
       "sentenceIndex": 28,
@@ -1458,12 +1330,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-pdf-001": "本句指「某人對你所給予的信任」。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
-        "confidence-mcq-12": "「洩露別人私下告知的事情／破壞其信任」是「betray someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-09": "「對自己、某人或某結果具有信心／把握的」是「confident」的用法，與本句語境不同。",
-        "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。"
+        "confidence-pdf-001": "本句的「confidence」指「某人對你所給予的信任」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-pdf-001"
     },
@@ -1475,11 +1345,9 @@ export default {
       "masked": "It took time to ____.",
       "options": [
         "confidence-mcq-11",
-        "confidence-mcq-10",
-        "confidence-mcq-12",
-        "confidence-mcq-09",
-        "confidence-mcq-13",
-        "confidence-mcq-08"
+        "confidence-mcq-21",
+        "confidence-mcq-16",
+        "confidence-mcq-05"
       ],
       "explanation": "本句的「earn their confidence」指「令別人逐漸相信你可靠、值得依賴」。",
       "sentenceIndex": 29,
@@ -1488,12 +1356,10 @@ export default {
         "earn their confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-11": "本句指「令別人逐漸相信你可靠、值得依賴」。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
-        "confidence-mcq-12": "「洩露別人私下告知的事情／破壞其信任」是「betray someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-09": "「對自己、某人或某結果具有信心／把握的」是「confident」的用法，與本句語境不同。",
-        "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。"
+        "confidence-mcq-11": "本句的「earn their confidence」指「令別人逐漸相信你可靠、值得依賴」。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-11"
     },
@@ -1505,11 +1371,9 @@ export default {
       "masked": "Her honesty won the ____ of the team.",
       "options": [
         "confidence-mcq-11",
-        "confidence-mcq-10",
-        "confidence-mcq-12",
-        "confidence-mcq-09",
-        "confidence-mcq-13",
-        "confidence-mcq-08"
+        "confidence-mcq-21",
+        "confidence-mcq-17",
+        "confidence-mcq-05"
       ],
       "explanation": "本句的「confidence」指「令別人逐漸相信你可靠、值得依賴」。",
       "sentenceIndex": 30,
@@ -1518,12 +1382,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-11": "本句指「令別人逐漸相信你可靠、值得依賴」。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
-        "confidence-mcq-12": "「洩露別人私下告知的事情／破壞其信任」是「betray someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-09": "「對自己、某人或某結果具有信心／把握的」是「confident」的用法，與本句語境不同。",
-        "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。",
-        "confidence-mcq-08": "「對某件事是真的／會發生具有較高程度的把握」是「confidence — certainty」的用法，與本句語境不同。"
+        "confidence-mcq-11": "本句的「confidence」指「令別人逐漸相信你可靠、值得依賴」。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-11"
     },
@@ -1535,11 +1397,9 @@ export default {
       "masked": "She told me something private, and I did not ____.",
       "options": [
         "confidence-mcq-12",
-        "confidence-mcq-11",
-        "confidence-mcq-13",
-        "confidence-mcq-10",
-        "confidence-mcq-14",
-        "confidence-mcq-09"
+        "confidence-mcq-08",
+        "confidence-mcq-05",
+        "confidence-mcq-01"
       ],
       "explanation": "本句的「betray her confidence」指「洩露別人私下告知的事情／破壞其信任」。",
       "sentenceIndex": 31,
@@ -1548,12 +1408,10 @@ export default {
         "betray her confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-12": "本句指「洩露別人私下告知的事情／破壞其信任」。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
-        "confidence-mcq-14": "「因信任而向某人透露私人思想、憂慮或秘密」是「confide in someone」的用法，與本句語境不同。",
-        "confidence-mcq-09": "「對自己、某人或某結果具有信心／把握的」是「confident」的用法，與本句語境不同。"
+        "confidence-mcq-12": "本句的「betray her confidence」指「洩露別人私下告知的事情／破壞其信任」。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-12"
     },
@@ -1565,11 +1423,9 @@ export default {
       "masked": "Sharing that information would betray his ____.",
       "options": [
         "confidence-mcq-12",
-        "confidence-mcq-11",
-        "confidence-mcq-13",
-        "confidence-mcq-10",
-        "confidence-mcq-14",
-        "confidence-mcq-09"
+        "confidence-mcq-21",
+        "confidence-mcq-04",
+        "confidence-mcq-17"
       ],
       "explanation": "本句的「confidence」指「洩露別人私下告知的事情／破壞其信任」。",
       "sentenceIndex": 32,
@@ -1578,12 +1434,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-12": "本句指「洩露別人私下告知的事情／破壞其信任」。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。",
-        "confidence-mcq-14": "「因信任而向某人透露私人思想、憂慮或秘密」是「confide in someone」的用法，與本句語境不同。",
-        "confidence-mcq-09": "「對自己、某人或某結果具有信心／把握的」是「confident」的用法，與本句語境不同。"
+        "confidence-mcq-12": "本句的「confidence」指「洩露別人私下告知的事情／破壞其信任」。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-12"
     },
@@ -1595,11 +1449,9 @@ export default {
       "masked": "She told me the news ____.",
       "options": [
         "confidence-mcq-13",
-        "confidence-mcq-12",
-        "confidence-mcq-14",
-        "confidence-mcq-11",
-        "confidence-mcq-15",
-        "confidence-mcq-10"
+        "confidence-mcq-21",
+        "confidence-mcq-19",
+        "confidence-mcq-18"
       ],
       "explanation": "本句的「in confidence」指「在相信內容不會被公開的情況下私下告知」。",
       "sentenceIndex": 33,
@@ -1608,12 +1460,10 @@ export default {
         "in confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-13": "本句指「在相信內容不會被公開的情況下私下告知」。",
-        "confidence-mcq-12": "「洩露別人私下告知的事情／破壞其信任」是「betray someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-14": "「因信任而向某人透露私人思想、憂慮或秘密」是「confide in someone」的用法，與本句語境不同。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。"
+        "confidence-mcq-13": "本句的「in confidence」指「在相信內容不會被公開的情況下私下告知」。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-13"
     },
@@ -1625,11 +1475,9 @@ export default {
       "masked": "I’m telling you this in ____.",
       "options": [
         "confidence-mcq-13",
-        "confidence-mcq-12",
-        "confidence-mcq-14",
-        "confidence-mcq-11",
-        "confidence-mcq-15",
-        "confidence-mcq-10"
+        "confidence-mcq-08",
+        "confidence-mcq-19",
+        "confidence-mcq-18"
       ],
       "explanation": "本句的「confidence」指「在相信內容不會被公開的情況下私下告知」。",
       "sentenceIndex": 34,
@@ -1638,12 +1486,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-13": "本句指「在相信內容不會被公開的情況下私下告知」。",
-        "confidence-mcq-12": "「洩露別人私下告知的事情／破壞其信任」是「betray someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-14": "「因信任而向某人透露私人思想、憂慮或秘密」是「confide in someone」的用法，與本句語境不同。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。",
-        "confidence-mcq-10": "「以有信心、不猶豫的方式」是「confidently」的用法，與本句語境不同。"
+        "confidence-mcq-13": "本句的「confidence」指「在相信內容不會被公開的情況下私下告知」。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-13"
     },
@@ -1656,10 +1502,8 @@ export default {
       "options": [
         "confidence-mcq-22",
         "confidence-mcq-21",
-        "confidence-mcq-20",
-        "confidence-mcq-19",
-        "confidence-mcq-18",
-        "confidence-mcq-17"
+        "confidence-mcq-16",
+        "confidence-mcq-07"
       ],
       "explanation": "本句的「took me into her confidence」指「信任某人並與其分享私人／敏感事情」。",
       "sentenceIndex": 35,
@@ -1668,12 +1512,10 @@ export default {
         "took me into her confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-22": "本句指「信任某人並與其分享私人／敏感事情」。",
-        "confidence-mcq-21": "「統計上表示參數估計不確定範圍的區間」是「confidence interval」的用法，與本句語境不同。",
-        "confidence-mcq-20": "「統計推論中的技術性信心水準概念」是「confidence level」的用法，與本句語境不同。",
-        "confidence-mcq-19": "「正式或比喻上表示對某人／領導層信任與支持的行動」是「vote of confidence」的用法，與本句語境不同。",
-        "confidence-mcq-18": "「消費者對經濟及自身財務前景的整體信心」是「consumer confidence」的用法，與本句語境不同。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。"
+        "confidence-mcq-22": "本句的「took me into her confidence」指「信任某人並與其分享私人／敏感事情」。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-22"
     },
@@ -1685,11 +1527,9 @@ export default {
       "masked": "He rarely takes colleagues into his ____.",
       "options": [
         "confidence-mcq-22",
-        "confidence-mcq-21",
-        "confidence-mcq-20",
-        "confidence-mcq-19",
-        "confidence-mcq-18",
-        "confidence-mcq-17"
+        "confidence-mcq-16",
+        "confidence-mcq-08",
+        "confidence-mcq-04"
       ],
       "explanation": "本句的「confidence」指「信任某人並與其分享私人／敏感事情」。",
       "sentenceIndex": 36,
@@ -1698,12 +1538,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-22": "本句指「信任某人並與其分享私人／敏感事情」。",
-        "confidence-mcq-21": "「統計上表示參數估計不確定範圍的區間」是「confidence interval」的用法，與本句語境不同。",
-        "confidence-mcq-20": "「統計推論中的技術性信心水準概念」是「confidence level」的用法，與本句語境不同。",
-        "confidence-mcq-19": "「正式或比喻上表示對某人／領導層信任與支持的行動」是「vote of confidence」的用法，與本句語境不同。",
-        "confidence-mcq-18": "「消費者對經濟及自身財務前景的整體信心」是「consumer confidence」的用法，與本句語境不同。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。"
+        "confidence-mcq-22": "本句的「confidence」指「信任某人並與其分享私人／敏感事情」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-22"
     },
@@ -1715,11 +1553,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "confidence-mcq-14",
-        "confidence-mcq-13",
-        "confidence-mcq-15",
-        "confidence-mcq-12",
-        "confidence-mcq-16",
-        "confidence-mcq-11"
+        "confidence-mcq-08",
+        "confidence-mcq-10"
       ],
       "explanation": "本句的「confided in her teacher」指「因信任而向某人透露私人思想、憂慮或秘密」。",
       "sentenceIndex": 37,
@@ -1728,12 +1563,9 @@ export default {
         "confided in her teacher"
       ],
       "optionReasons": {
-        "confidence-mcq-14": "本句指「因信任而向某人透露私人思想、憂慮或秘密」。",
-        "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。",
-        "confidence-mcq-12": "「洩露別人私下告知的事情／破壞其信任」是「betray someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。"
+        "confidence-mcq-14": "本句的「confided in her teacher」指「因信任而向某人透露私人思想、憂慮或秘密」。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-14"
     },
@@ -1745,11 +1577,8 @@ export default {
       "masked": "He ____ in me about his worries.",
       "options": [
         "confidence-mcq-14",
-        "confidence-mcq-13",
-        "confidence-mcq-15",
-        "confidence-mcq-12",
-        "confidence-mcq-16",
-        "confidence-mcq-11"
+        "confidence-mcq-21",
+        "confidence-mcq-10"
       ],
       "explanation": "本句的「confided」指「因信任而向某人透露私人思想、憂慮或秘密」。",
       "sentenceIndex": 38,
@@ -1758,12 +1587,9 @@ export default {
         "confided"
       ],
       "optionReasons": {
-        "confidence-mcq-14": "本句指「因信任而向某人透露私人思想、憂慮或秘密」。",
-        "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。",
-        "confidence-mcq-12": "「洩露別人私下告知的事情／破壞其信任」是「betray someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。"
+        "confidence-mcq-14": "本句的「confided」指「因信任而向某人透露私人思想、憂慮或秘密」。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-14"
     },
@@ -1775,11 +1601,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "confidence-mcq-14",
-        "confidence-mcq-13",
-        "confidence-mcq-15",
-        "confidence-mcq-12",
-        "confidence-mcq-16",
-        "confidence-mcq-11"
+        "confidence-mcq-21",
+        "confidence-mcq-05"
       ],
       "explanation": "本句的「confided the secret to her friend」指「因信任而向某人透露私人思想、憂慮或秘密」。",
       "sentenceIndex": 39,
@@ -1788,12 +1611,9 @@ export default {
         "confided the secret to her friend"
       ],
       "optionReasons": {
-        "confidence-mcq-14": "本句指「因信任而向某人透露私人思想、憂慮或秘密」。",
-        "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。",
-        "confidence-mcq-12": "「洩露別人私下告知的事情／破壞其信任」是「betray someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。"
+        "confidence-mcq-14": "本句的「confided the secret to her friend」指「因信任而向某人透露私人思想、憂慮或秘密」。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-14"
     },
@@ -1805,11 +1625,8 @@ export default {
       "masked": "He ____ his fears to me.",
       "options": [
         "confidence-mcq-14",
-        "confidence-mcq-13",
-        "confidence-mcq-15",
-        "confidence-mcq-12",
-        "confidence-mcq-16",
-        "confidence-mcq-11"
+        "confidence-mcq-21",
+        "confidence-mcq-04"
       ],
       "explanation": "本句的「confided」指「因信任而向某人透露私人思想、憂慮或秘密」。",
       "sentenceIndex": 40,
@@ -1818,12 +1635,9 @@ export default {
         "confided"
       ],
       "optionReasons": {
-        "confidence-mcq-14": "本句指「因信任而向某人透露私人思想、憂慮或秘密」。",
-        "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。",
-        "confidence-mcq-12": "「洩露別人私下告知的事情／破壞其信任」是「betray someone’s confidence」的用法，與本句語境不同。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。",
-        "confidence-mcq-11": "「令別人逐漸相信你可靠、值得依賴」是「earn someone’s confidence」的用法，與本句語境不同。"
+        "confidence-mcq-14": "本句的「confided」指「因信任而向某人透露私人思想、憂慮或秘密」。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-14"
     },
@@ -1835,11 +1649,9 @@ export default {
       "masked": "She became his closest ____.",
       "options": [
         "confidence-mcq-15",
-        "confidence-mcq-14",
-        "confidence-mcq-16",
-        "confidence-mcq-13",
-        "confidence-mcq-17",
-        "confidence-mcq-12"
+        "confidence-mcq-21",
+        "confidence-mcq-05",
+        "confidence-mcq-16"
       ],
       "explanation": "本句的「confidant」指「值得信任、可向其傾訴私人事情的人」。",
       "sentenceIndex": 41,
@@ -1848,12 +1660,10 @@ export default {
         "confidant"
       ],
       "optionReasons": {
-        "confidence-mcq-15": "本句指「值得信任、可向其傾訴私人事情的人」。",
-        "confidence-mcq-14": "「因信任而向某人透露私人思想、憂慮或秘密」是「confide in someone」的用法，與本句語境不同。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。",
-        "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。",
-        "confidence-mcq-12": "「洩露別人私下告知的事情／破壞其信任」是「betray someone’s confidence」的用法，與本句語境不同。"
+        "confidence-mcq-15": "本句的「confidant」指「值得信任、可向其傾訴私人事情的人」。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-15"
     },
@@ -1865,11 +1675,9 @@ export default {
       "masked": "He needed a trusted ____.",
       "options": [
         "confidence-mcq-15",
-        "confidence-mcq-14",
-        "confidence-mcq-16",
-        "confidence-mcq-13",
-        "confidence-mcq-17",
-        "confidence-mcq-12"
+        "confidence-mcq-08",
+        "confidence-mcq-10",
+        "confidence-mcq-16"
       ],
       "explanation": "本句的「confidant」指「值得信任、可向其傾訴私人事情的人」。",
       "sentenceIndex": 42,
@@ -1878,12 +1686,10 @@ export default {
         "confidant"
       ],
       "optionReasons": {
-        "confidence-mcq-15": "本句指「值得信任、可向其傾訴私人事情的人」。",
-        "confidence-mcq-14": "「因信任而向某人透露私人思想、憂慮或秘密」是「confide in someone」的用法，與本句語境不同。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。",
-        "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。",
-        "confidence-mcq-12": "「洩露別人私下告知的事情／破壞其信任」是「betray someone’s confidence」的用法，與本句語境不同。"
+        "confidence-mcq-15": "本句的「confidant」指「值得信任、可向其傾訴私人事情的人」。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-15"
     },
@@ -1895,11 +1701,9 @@ export default {
       "masked": "The information is ____.",
       "options": [
         "confidence-mcq-16",
-        "confidence-mcq-15",
-        "confidence-mcq-17",
-        "confidence-mcq-14",
-        "confidence-mcq-18",
-        "confidence-mcq-13"
+        "confidence-mcq-20",
+        "confidence-mcq-19",
+        "confidence-mcq-01"
       ],
       "explanation": "本句的「confidential」指「不應向未獲授權的人公開／透露的」。",
       "sentenceIndex": 43,
@@ -1908,12 +1712,10 @@ export default {
         "confidential"
       ],
       "optionReasons": {
-        "confidence-mcq-16": "本句指「不應向未獲授權的人公開／透露的」。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。",
-        "confidence-mcq-14": "「因信任而向某人透露私人思想、憂慮或秘密」是「confide in someone」的用法，與本句語境不同。",
-        "confidence-mcq-18": "「消費者對經濟及自身財務前景的整體信心」是「consumer confidence」的用法，與本句語境不同。",
-        "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。"
+        "confidence-mcq-16": "本句的「confidential」指「不應向未獲授權的人公開／透露的」。",
+        "confidence-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-16"
     },
@@ -1925,11 +1727,9 @@ export default {
       "masked": "Please keep this document ____.",
       "options": [
         "confidence-mcq-16",
-        "confidence-mcq-15",
-        "confidence-mcq-17",
-        "confidence-mcq-14",
-        "confidence-mcq-18",
-        "confidence-mcq-13"
+        "confidence-mcq-20",
+        "confidence-mcq-22",
+        "confidence-mcq-07"
       ],
       "explanation": "本句的「confidential」指「不應向未獲授權的人公開／透露的」。",
       "sentenceIndex": 44,
@@ -1938,12 +1738,10 @@ export default {
         "confidential"
       ],
       "optionReasons": {
-        "confidence-mcq-16": "本句指「不應向未獲授權的人公開／透露的」。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。",
-        "confidence-mcq-14": "「因信任而向某人透露私人思想、憂慮或秘密」是「confide in someone」的用法，與本句語境不同。",
-        "confidence-mcq-18": "「消費者對經濟及自身財務前景的整體信心」是「consumer confidence」的用法，與本句語境不同。",
-        "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。"
+        "confidence-mcq-16": "本句的「confidential」指「不應向未獲授權的人公開／透露的」。",
+        "confidence-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-16"
     },
@@ -1955,11 +1753,9 @@ export default {
       "masked": "Employees must protect ____.",
       "options": [
         "confidence-mcq-16",
-        "confidence-mcq-15",
-        "confidence-mcq-17",
-        "confidence-mcq-14",
-        "confidence-mcq-18",
-        "confidence-mcq-13"
+        "confidence-mcq-06",
+        "confidence-mcq-20",
+        "confidence-mcq-15"
       ],
       "explanation": "本句的「confidential information」指「不應向未獲授權的人公開／透露的」。",
       "sentenceIndex": 45,
@@ -1968,12 +1764,10 @@ export default {
         "confidential information"
       ],
       "optionReasons": {
-        "confidence-mcq-16": "本句指「不應向未獲授權的人公開／透露的」。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。",
-        "confidence-mcq-14": "「因信任而向某人透露私人思想、憂慮或秘密」是「confide in someone」的用法，與本句語境不同。",
-        "confidence-mcq-18": "「消費者對經濟及自身財務前景的整體信心」是「consumer confidence」的用法，與本句語境不同。",
-        "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。"
+        "confidence-mcq-16": "本句的「confidential information」指「不應向未獲授權的人公開／透露的」。",
+        "confidence-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-16"
     },
@@ -1985,11 +1779,9 @@ export default {
       "masked": "The report contains ____ details.",
       "options": [
         "confidence-mcq-16",
-        "confidence-mcq-15",
-        "confidence-mcq-17",
-        "confidence-mcq-14",
-        "confidence-mcq-18",
-        "confidence-mcq-13"
+        "confidence-mcq-07",
+        "confidence-mcq-20",
+        "confidence-pdf-001"
       ],
       "explanation": "本句的「confidential」指「不應向未獲授權的人公開／透露的」。",
       "sentenceIndex": 46,
@@ -1998,12 +1790,10 @@ export default {
         "confidential"
       ],
       "optionReasons": {
-        "confidence-mcq-16": "本句指「不應向未獲授權的人公開／透露的」。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。",
-        "confidence-mcq-14": "「因信任而向某人透露私人思想、憂慮或秘密」是「confide in someone」的用法，與本句語境不同。",
-        "confidence-mcq-18": "「消費者對經濟及自身財務前景的整體信心」是「consumer confidence」的用法，與本句語境不同。",
-        "confidence-mcq-13": "「在相信內容不會被公開的情況下私下告知」是「in confidence」的用法，與本句語境不同。"
+        "confidence-mcq-16": "本句的「confidential」指「不應向未獲授權的人公開／透露的」。",
+        "confidence-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "confidence-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-16"
     },
@@ -2015,11 +1805,9 @@ export default {
       "masked": "Doctors must respect patient ____.",
       "options": [
         "confidence-mcq-17",
-        "confidence-mcq-16",
-        "confidence-mcq-18",
-        "confidence-mcq-15",
+        "confidence-mcq-21",
         "confidence-mcq-19",
-        "confidence-mcq-14"
+        "confidence-mcq-04"
       ],
       "explanation": "本句的「confidentiality」指「私人／敏感資訊不被未經允許公開的原則或狀態」。",
       "sentenceIndex": 47,
@@ -2028,12 +1816,10 @@ export default {
         "confidentiality"
       ],
       "optionReasons": {
-        "confidence-mcq-17": "本句指「私人／敏感資訊不被未經允許公開的原則或狀態」。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。",
-        "confidence-mcq-18": "「消費者對經濟及自身財務前景的整體信心」是「consumer confidence」的用法，與本句語境不同。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。",
-        "confidence-mcq-19": "「正式或比喻上表示對某人／領導層信任與支持的行動」是「vote of confidence」的用法，與本句語境不同。",
-        "confidence-mcq-14": "「因信任而向某人透露私人思想、憂慮或秘密」是「confide in someone」的用法，與本句語境不同。"
+        "confidence-mcq-17": "本句的「confidentiality」指「私人／敏感資訊不被未經允許公開的原則或狀態」。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-17"
     },
@@ -2045,11 +1831,8 @@ export default {
       "masked": "The agreement includes a ____ clause.",
       "options": [
         "confidence-mcq-17",
-        "confidence-mcq-16",
-        "confidence-mcq-18",
-        "confidence-mcq-15",
-        "confidence-mcq-19",
-        "confidence-mcq-14"
+        "confidence-mcq-06",
+        "confidence-mcq-04"
       ],
       "explanation": "本句的「confidentiality」指「私人／敏感資訊不被未經允許公開的原則或狀態」。",
       "sentenceIndex": 48,
@@ -2058,12 +1841,9 @@ export default {
         "confidentiality"
       ],
       "optionReasons": {
-        "confidence-mcq-17": "本句指「私人／敏感資訊不被未經允許公開的原則或狀態」。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。",
-        "confidence-mcq-18": "「消費者對經濟及自身財務前景的整體信心」是「consumer confidence」的用法，與本句語境不同。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。",
-        "confidence-mcq-19": "「正式或比喻上表示對某人／領導層信任與支持的行動」是「vote of confidence」的用法，與本句語境不同。",
-        "confidence-mcq-14": "「因信任而向某人透露私人思想、憂慮或秘密」是「confide in someone」的用法，與本句語境不同。"
+        "confidence-mcq-17": "本句的「confidentiality」指「私人／敏感資訊不被未經允許公開的原則或狀態」。",
+        "confidence-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-17"
     },
@@ -2075,11 +1855,9 @@ export default {
       "masked": "Consumer ____ improved.",
       "options": [
         "confidence-mcq-18",
-        "confidence-mcq-17",
-        "confidence-mcq-19",
         "confidence-mcq-16",
-        "confidence-mcq-20",
-        "confidence-mcq-15"
+        "confidence-mcq-21",
+        "confidence-mcq-11"
       ],
       "explanation": "本句的「confidence」指「消費者對經濟及自身財務前景的整體信心」。",
       "sentenceIndex": 49,
@@ -2088,12 +1866,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-18": "本句指「消費者對經濟及自身財務前景的整體信心」。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。",
-        "confidence-mcq-19": "「正式或比喻上表示對某人／領導層信任與支持的行動」是「vote of confidence」的用法，與本句語境不同。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。",
-        "confidence-mcq-20": "「統計推論中的技術性信心水準概念」是「confidence level」的用法，與本句語境不同。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。"
+        "confidence-mcq-18": "本句的「confidence」指「消費者對經濟及自身財務前景的整體信心」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-18"
     },
@@ -2105,11 +1881,9 @@ export default {
       "masked": "The announcement restored ____ in the company.",
       "options": [
         "confidence-mcq-18",
-        "confidence-mcq-17",
-        "confidence-mcq-19",
+        "confidence-mcq-21",
         "confidence-mcq-16",
-        "confidence-mcq-20",
-        "confidence-mcq-15"
+        "confidence-mcq-11"
       ],
       "explanation": "本句的「confidence」指「消費者對經濟及自身財務前景的整體信心」。",
       "sentenceIndex": 50,
@@ -2118,12 +1892,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-18": "本句指「消費者對經濟及自身財務前景的整體信心」。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。",
-        "confidence-mcq-19": "「正式或比喻上表示對某人／領導層信任與支持的行動」是「vote of confidence」的用法，與本句語境不同。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。",
-        "confidence-mcq-20": "「統計推論中的技術性信心水準概念」是「confidence level」的用法，與本句語境不同。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。"
+        "confidence-mcq-18": "本句的「confidence」指「消費者對經濟及自身財務前景的整體信心」。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-18"
     },
@@ -2135,11 +1907,9 @@ export default {
       "masked": "Low ____ can reduce spending.",
       "options": [
         "confidence-mcq-18",
-        "confidence-mcq-17",
-        "confidence-mcq-19",
+        "confidence-mcq-21",
         "confidence-mcq-16",
-        "confidence-mcq-20",
-        "confidence-mcq-15"
+        "confidence-mcq-12"
       ],
       "explanation": "本句的「consumer confidence」指「消費者對經濟及自身財務前景的整體信心」。",
       "sentenceIndex": 51,
@@ -2148,12 +1918,10 @@ export default {
         "consumer confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-18": "本句指「消費者對經濟及自身財務前景的整體信心」。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。",
-        "confidence-mcq-19": "「正式或比喻上表示對某人／領導層信任與支持的行動」是「vote of confidence」的用法，與本句語境不同。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。",
-        "confidence-mcq-20": "「統計推論中的技術性信心水準概念」是「confidence level」的用法，與本句語境不同。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。"
+        "confidence-mcq-18": "本句的「consumer confidence」指「消費者對經濟及自身財務前景的整體信心」。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-18"
     },
@@ -2165,11 +1933,9 @@ export default {
       "masked": "Consumer ____ rose this month.",
       "options": [
         "confidence-mcq-18",
-        "confidence-mcq-17",
-        "confidence-mcq-19",
+        "confidence-mcq-08",
         "confidence-mcq-16",
-        "confidence-mcq-20",
-        "confidence-mcq-15"
+        "confidence-mcq-11"
       ],
       "explanation": "本句的「confidence」指「消費者對經濟及自身財務前景的整體信心」。",
       "sentenceIndex": 52,
@@ -2178,12 +1944,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-18": "本句指「消費者對經濟及自身財務前景的整體信心」。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。",
-        "confidence-mcq-19": "「正式或比喻上表示對某人／領導層信任與支持的行動」是「vote of confidence」的用法，與本句語境不同。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。",
-        "confidence-mcq-20": "「統計推論中的技術性信心水準概念」是「confidence level」的用法，與本句語境不同。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。"
+        "confidence-mcq-18": "本句的「confidence」指「消費者對經濟及自身財務前景的整體信心」。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-18"
     },
@@ -2195,11 +1959,9 @@ export default {
       "masked": "The news damaged ____.",
       "options": [
         "confidence-mcq-18",
-        "confidence-mcq-17",
-        "confidence-mcq-19",
+        "confidence-mcq-21",
         "confidence-mcq-16",
-        "confidence-mcq-20",
-        "confidence-mcq-15"
+        "confidence-mcq-12"
       ],
       "explanation": "本句的「investor confidence」指「消費者對經濟及自身財務前景的整體信心」。",
       "sentenceIndex": 53,
@@ -2208,12 +1970,10 @@ export default {
         "investor confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-18": "本句指「消費者對經濟及自身財務前景的整體信心」。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。",
-        "confidence-mcq-19": "「正式或比喻上表示對某人／領導層信任與支持的行動」是「vote of confidence」的用法，與本句語境不同。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。",
-        "confidence-mcq-20": "「統計推論中的技術性信心水準概念」是「confidence level」的用法，與本句語境不同。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。"
+        "confidence-mcq-18": "本句的「investor confidence」指「消費者對經濟及自身財務前景的整體信心」。",
+        "confidence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-18"
     },
@@ -2225,11 +1985,9 @@ export default {
       "masked": "Stable results helped restore market ____.",
       "options": [
         "confidence-mcq-18",
-        "confidence-mcq-17",
-        "confidence-mcq-19",
+        "confidence-mcq-08",
         "confidence-mcq-16",
-        "confidence-mcq-20",
-        "confidence-mcq-15"
+        "confidence-mcq-22"
       ],
       "explanation": "本句的「confidence」指「消費者對經濟及自身財務前景的整體信心」。",
       "sentenceIndex": 54,
@@ -2238,12 +1996,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-18": "本句指「消費者對經濟及自身財務前景的整體信心」。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。",
-        "confidence-mcq-19": "「正式或比喻上表示對某人／領導層信任與支持的行動」是「vote of confidence」的用法，與本句語境不同。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。",
-        "confidence-mcq-20": "「統計推論中的技術性信心水準概念」是「confidence level」的用法，與本句語境不同。",
-        "confidence-mcq-15": "「值得信任、可向其傾訴私人事情的人」是「confidant」的用法，與本句語境不同。"
+        "confidence-mcq-18": "本句的「confidence」指「消費者對經濟及自身財務前景的整體信心」。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-18"
     },
@@ -2255,11 +2011,9 @@ export default {
       "masked": "The government faced a ____.",
       "options": [
         "confidence-mcq-19",
-        "confidence-mcq-18",
-        "confidence-mcq-20",
+        "confidence-mcq-08",
         "confidence-mcq-17",
-        "confidence-mcq-21",
-        "confidence-mcq-16"
+        "confidence-mcq-18"
       ],
       "explanation": "本句的「vote of confidence」指「正式或比喻上表示對某人／領導層信任與支持的行動」。",
       "sentenceIndex": 55,
@@ -2268,12 +2022,10 @@ export default {
         "vote of confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-19": "本句指「正式或比喻上表示對某人／領導層信任與支持的行動」。",
-        "confidence-mcq-18": "「消費者對經濟及自身財務前景的整體信心」是「consumer confidence」的用法，與本句語境不同。",
-        "confidence-mcq-20": "「統計推論中的技術性信心水準概念」是「confidence level」的用法，與本句語境不同。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。",
-        "confidence-mcq-21": "「統計上表示參數估計不確定範圍的區間」是「confidence interval」的用法，與本句語境不同。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。"
+        "confidence-mcq-19": "本句的「vote of confidence」指「正式或比喻上表示對某人／領導層信任與支持的行動」。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-19"
     },
@@ -2285,11 +2037,9 @@ export default {
       "masked": "The promotion was a vote of ____ in her abilities.",
       "options": [
         "confidence-mcq-19",
-        "confidence-mcq-18",
-        "confidence-mcq-20",
-        "confidence-mcq-17",
-        "confidence-mcq-21",
-        "confidence-mcq-16"
+        "confidence-mcq-16",
+        "confidence-mcq-08",
+        "confidence-mcq-04"
       ],
       "explanation": "本句的「confidence」指「正式或比喻上表示對某人／領導層信任與支持的行動」。",
       "sentenceIndex": 56,
@@ -2298,12 +2048,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-19": "本句指「正式或比喻上表示對某人／領導層信任與支持的行動」。",
-        "confidence-mcq-18": "「消費者對經濟及自身財務前景的整體信心」是「consumer confidence」的用法，與本句語境不同。",
-        "confidence-mcq-20": "「統計推論中的技術性信心水準概念」是「confidence level」的用法，與本句語境不同。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。",
-        "confidence-mcq-21": "「統計上表示參數估計不確定範圍的區間」是「confidence interval」的用法，與本句語境不同。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。"
+        "confidence-mcq-19": "本句的「confidence」指「正式或比喻上表示對某人／領導層信任與支持的行動」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-19"
     },
@@ -2315,11 +2063,9 @@ export default {
       "masked": "The parliament held a ____.",
       "options": [
         "confidence-mcq-19",
-        "confidence-mcq-18",
-        "confidence-mcq-20",
-        "confidence-mcq-17",
-        "confidence-mcq-21",
-        "confidence-mcq-16"
+        "confidence-mcq-16",
+        "confidence-mcq-08",
+        "confidence-mcq-05"
       ],
       "explanation": "本句的「vote of no confidence」指「正式或比喻上表示對某人／領導層信任與支持的行動」。",
       "sentenceIndex": 57,
@@ -2328,12 +2074,10 @@ export default {
         "vote of no confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-19": "本句指「正式或比喻上表示對某人／領導層信任與支持的行動」。",
-        "confidence-mcq-18": "「消費者對經濟及自身財務前景的整體信心」是「consumer confidence」的用法，與本句語境不同。",
-        "confidence-mcq-20": "「統計推論中的技術性信心水準概念」是「confidence level」的用法，與本句語境不同。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。",
-        "confidence-mcq-21": "「統計上表示參數估計不確定範圍的區間」是「confidence interval」的用法，與本句語境不同。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。"
+        "confidence-mcq-19": "本句的「vote of no confidence」指「正式或比喻上表示對某人／領導層信任與支持的行動」。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-19"
     },
@@ -2345,11 +2089,9 @@ export default {
       "masked": "The motion of no ____ was debated.",
       "options": [
         "confidence-mcq-19",
-        "confidence-mcq-18",
-        "confidence-mcq-20",
         "confidence-mcq-17",
-        "confidence-mcq-21",
-        "confidence-mcq-16"
+        "confidence-mcq-08",
+        "confidence-mcq-20"
       ],
       "explanation": "本句的「confidence」指「正式或比喻上表示對某人／領導層信任與支持的行動」。",
       "sentenceIndex": 58,
@@ -2358,12 +2100,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-19": "本句指「正式或比喻上表示對某人／領導層信任與支持的行動」。",
-        "confidence-mcq-18": "「消費者對經濟及自身財務前景的整體信心」是「consumer confidence」的用法，與本句語境不同。",
-        "confidence-mcq-20": "「統計推論中的技術性信心水準概念」是「confidence level」的用法，與本句語境不同。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。",
-        "confidence-mcq-21": "「統計上表示參數估計不確定範圍的區間」是「confidence interval」的用法，與本句語境不同。",
-        "confidence-mcq-16": "「不應向未獲授權的人公開／透露的」是「confidential」的用法，與本句語境不同。"
+        "confidence-mcq-19": "本句的「confidence」指「正式或比喻上表示對某人／領導層信任與支持的行動」。",
+        "confidence-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-19"
     },
@@ -2375,11 +2115,9 @@ export default {
       "masked": "The survey uses a 95% ____.",
       "options": [
         "confidence-mcq-20",
-        "confidence-mcq-19",
-        "confidence-mcq-21",
-        "confidence-mcq-18",
-        "confidence-mcq-22",
-        "confidence-mcq-17"
+        "confidence-mcq-08",
+        "confidence-mcq-16",
+        "confidence-mcq-19"
       ],
       "explanation": "本句的「confidence level」指「統計推論中的技術性信心水準概念」。",
       "sentenceIndex": 59,
@@ -2388,12 +2126,10 @@ export default {
         "confidence level"
       ],
       "optionReasons": {
-        "confidence-mcq-20": "本句指「統計推論中的技術性信心水準概念」。",
-        "confidence-mcq-19": "「正式或比喻上表示對某人／領導層信任與支持的行動」是「vote of confidence」的用法，與本句語境不同。",
-        "confidence-mcq-21": "「統計上表示參數估計不確定範圍的區間」是「confidence interval」的用法，與本句語境不同。",
-        "confidence-mcq-18": "「消費者對經濟及自身財務前景的整體信心」是「consumer confidence」的用法，與本句語境不同。",
-        "confidence-mcq-22": "「信任某人並與其分享私人／敏感事情」是「18. take someone into your confidence（向某人透露私事） — 把某人當知己；告訴秘密」的用法，與本句語境不同。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。"
+        "confidence-mcq-20": "本句的「confidence level」指「統計推論中的技術性信心水準概念」。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-20"
     },
@@ -2405,11 +2141,9 @@ export default {
       "masked": "A higher ____ level usually requires a wider interval.",
       "options": [
         "confidence-mcq-20",
-        "confidence-mcq-19",
-        "confidence-mcq-21",
-        "confidence-mcq-18",
-        "confidence-mcq-22",
-        "confidence-mcq-17"
+        "confidence-mcq-17",
+        "confidence-mcq-08",
+        "confidence-pdf-001"
       ],
       "explanation": "本句的「confidence」指「統計推論中的技術性信心水準概念」。",
       "sentenceIndex": 60,
@@ -2418,12 +2152,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-20": "本句指「統計推論中的技術性信心水準概念」。",
-        "confidence-mcq-19": "「正式或比喻上表示對某人／領導層信任與支持的行動」是「vote of confidence」的用法，與本句語境不同。",
-        "confidence-mcq-21": "「統計上表示參數估計不確定範圍的區間」是「confidence interval」的用法，與本句語境不同。",
-        "confidence-mcq-18": "「消費者對經濟及自身財務前景的整體信心」是「consumer confidence」的用法，與本句語境不同。",
-        "confidence-mcq-22": "「信任某人並與其分享私人／敏感事情」是「18. take someone into your confidence（向某人透露私事） — 把某人當知己；告訴秘密」的用法，與本句語境不同。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。"
+        "confidence-mcq-20": "本句的「confidence」指「統計推論中的技術性信心水準概念」。",
+        "confidence-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "confidence-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-20"
     },
@@ -2435,11 +2167,8 @@ export default {
       "masked": "The result includes a 95% ____.",
       "options": [
         "confidence-mcq-21",
-        "confidence-mcq-20",
-        "confidence-mcq-22",
-        "confidence-mcq-19",
-        "confidence-mcq-18",
-        "confidence-mcq-17"
+        "confidence-mcq-14",
+        "confidence-mcq-18"
       ],
       "explanation": "本句的「confidence interval」指「統計上表示參數估計不確定範圍的區間」。",
       "sentenceIndex": 61,
@@ -2448,12 +2177,9 @@ export default {
         "confidence interval"
       ],
       "optionReasons": {
-        "confidence-mcq-21": "本句指「統計上表示參數估計不確定範圍的區間」。",
-        "confidence-mcq-20": "「統計推論中的技術性信心水準概念」是「confidence level」的用法，與本句語境不同。",
-        "confidence-mcq-22": "「信任某人並與其分享私人／敏感事情」是「18. take someone into your confidence（向某人透露私事） — 把某人當知己；告訴秘密」的用法，與本句語境不同。",
-        "confidence-mcq-19": "「正式或比喻上表示對某人／領導層信任與支持的行動」是「vote of confidence」的用法，與本句語境不同。",
-        "confidence-mcq-18": "「消費者對經濟及自身財務前景的整體信心」是「consumer confidence」的用法，與本句語境不同。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。"
+        "confidence-mcq-21": "本句的「confidence interval」指「統計上表示參數估計不確定範圍的區間」。",
+        "confidence-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-21"
     },
@@ -2465,11 +2191,9 @@ export default {
       "masked": "The ____ interval is quite wide.",
       "options": [
         "confidence-mcq-21",
-        "confidence-mcq-20",
-        "confidence-mcq-22",
-        "confidence-mcq-19",
-        "confidence-mcq-18",
-        "confidence-mcq-17"
+        "confidence-mcq-13",
+        "confidence-mcq-09",
+        "confidence-mcq-15"
       ],
       "explanation": "本句的「confidence」指「統計上表示參數估計不確定範圍的區間」。",
       "sentenceIndex": 62,
@@ -2478,12 +2202,10 @@ export default {
         "confidence"
       ],
       "optionReasons": {
-        "confidence-mcq-21": "本句指「統計上表示參數估計不確定範圍的區間」。",
-        "confidence-mcq-20": "「統計推論中的技術性信心水準概念」是「confidence level」的用法，與本句語境不同。",
-        "confidence-mcq-22": "「信任某人並與其分享私人／敏感事情」是「18. take someone into your confidence（向某人透露私事） — 把某人當知己；告訴秘密」的用法，與本句語境不同。",
-        "confidence-mcq-19": "「正式或比喻上表示對某人／領導層信任與支持的行動」是「vote of confidence」的用法，與本句語境不同。",
-        "confidence-mcq-18": "「消費者對經濟及自身財務前景的整體信心」是「consumer confidence」的用法，與本句語境不同。",
-        "confidence-mcq-17": "「私人／敏感資訊不被未經允許公開的原則或狀態」是「confidentiality」的用法，與本句語境不同。"
+        "confidence-mcq-21": "本句的「confidence」指「統計上表示參數估計不確定範圍的區間」。",
+        "confidence-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "confidence-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "confidence-mcq-21"
     }
@@ -2495,5 +2217,7 @@ export default {
     "sha256": "77a8840a6fae79dabc38e47b60823870c57203a4cfd0e0d39a8e539df89c82d5",
     "pages": 29
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

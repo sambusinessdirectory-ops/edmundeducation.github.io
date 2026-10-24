@@ -472,11 +472,9 @@ export default {
       "masked": "Plants need ____ to survive.",
       "options": [
         "water-mcq-01",
-        "water-mcq-02",
-        "water-mcq-03",
+        "water-mcq-20",
         "water-mcq-04",
-        "water-mcq-05",
-        "water-mcq-06"
+        "water-mcq-16"
       ],
       "explanation": "本句的「water」指「人類、動植物生活所需的液體水」。",
       "sentenceIndex": 0,
@@ -485,12 +483,10 @@ export default {
         "water"
       ],
       "optionReasons": {
-        "water-mcq-01": "本句指「人類、動植物生活所需的液體水」。",
-        "water-mcq-02": "「湖、河、海、池塘等形成的水體／水面」與本句語境不同。",
-        "water-mcq-03": "「某片特定海域、河流或湖區水域」與本句語境不同。",
-        "water-mcq-04": "「沿海國依法擁有主權的一定海域範圍；領海」與本句語境不同。",
-        "water-mcq-05": "「建築／社區系統所提供的生活用水／供水」與本句語境不同。",
-        "water-mcq-06": "「給植物或土地補充水分；澆水」與本句語境不同。"
+        "water-mcq-01": "本句的「water」指「人類、動植物生活所需的液體水」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-01"
     },
@@ -502,11 +498,9 @@ export default {
       "masked": "Please give me a glass of ____.",
       "options": [
         "water-mcq-01",
-        "water-mcq-02",
-        "water-mcq-03",
         "water-mcq-04",
-        "water-mcq-05",
-        "water-mcq-06"
+        "water-mcq-20",
+        "water-mcq-21"
       ],
       "explanation": "本句的「water」指「人類、動植物生活所需的液體水」。",
       "sentenceIndex": 1,
@@ -515,12 +509,10 @@ export default {
         "water"
       ],
       "optionReasons": {
-        "water-mcq-01": "本句指「人類、動植物生活所需的液體水」。",
-        "water-mcq-02": "「湖、河、海、池塘等形成的水體／水面」與本句語境不同。",
-        "water-mcq-03": "「某片特定海域、河流或湖區水域」與本句語境不同。",
-        "water-mcq-04": "「沿海國依法擁有主權的一定海域範圍；領海」與本句語境不同。",
-        "water-mcq-05": "「建築／社區系統所提供的生活用水／供水」與本句語境不同。",
-        "water-mcq-06": "「給植物或土地補充水分；澆水」與本句語境不同。"
+        "water-mcq-01": "本句的「water」指「人類、動植物生活所需的液體水」。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-01"
     },
@@ -532,11 +524,9 @@ export default {
       "masked": "The light reflected on the ____.",
       "options": [
         "water-mcq-02",
-        "water-mcq-01",
-        "water-mcq-03",
-        "water-mcq-04",
-        "water-mcq-05",
-        "water-mcq-06"
+        "water-mcq-20",
+        "water-mcq-10",
+        "water-mcq-11"
       ],
       "explanation": "本句的「water」指「湖、河、海、池塘等形成的水體／水面」。",
       "sentenceIndex": 2,
@@ -545,12 +535,10 @@ export default {
         "water"
       ],
       "optionReasons": {
-        "water-mcq-02": "本句指「湖、河、海、池塘等形成的水體／水面」。",
-        "water-mcq-01": "「人類、動植物生活所需的液體水」與本句語境不同。",
-        "water-mcq-03": "「某片特定海域、河流或湖區水域」與本句語境不同。",
-        "water-mcq-04": "「沿海國依法擁有主權的一定海域範圍；領海」與本句語境不同。",
-        "water-mcq-05": "「建築／社區系統所提供的生活用水／供水」與本句語境不同。",
-        "water-mcq-06": "「給植物或土地補充水分；澆水」與本句語境不同。"
+        "water-mcq-02": "本句的「water」指「湖、河、海、池塘等形成的水體／水面」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-02"
     },
@@ -562,11 +550,9 @@ export default {
       "masked": "The boat moved slowly across the ____.",
       "options": [
         "water-mcq-02",
-        "water-mcq-01",
-        "water-mcq-03",
-        "water-mcq-04",
-        "water-mcq-05",
-        "water-mcq-06"
+        "water-mcq-20",
+        "water-mcq-10",
+        "water-mcq-11"
       ],
       "explanation": "本句的「water」指「湖、河、海、池塘等形成的水體／水面」。",
       "sentenceIndex": 3,
@@ -575,12 +561,10 @@ export default {
         "water"
       ],
       "optionReasons": {
-        "water-mcq-02": "本句指「湖、河、海、池塘等形成的水體／水面」。",
-        "water-mcq-01": "「人類、動植物生活所需的液體水」與本句語境不同。",
-        "water-mcq-03": "「某片特定海域、河流或湖區水域」與本句語境不同。",
-        "water-mcq-04": "「沿海國依法擁有主權的一定海域範圍；領海」與本句語境不同。",
-        "water-mcq-05": "「建築／社區系統所提供的生活用水／供水」與本句語境不同。",
-        "water-mcq-06": "「給植物或土地補充水分；澆水」與本句語境不同。"
+        "water-mcq-02": "本句的「water」指「湖、河、海、池塘等形成的水體／水面」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-02"
     },
@@ -592,11 +576,9 @@ export default {
       "masked": "These ____ are rich in fish.",
       "options": [
         "water-mcq-03",
-        "water-mcq-02",
-        "water-mcq-04",
-        "water-mcq-01",
-        "water-mcq-05",
-        "water-mcq-06"
+        "water-mcq-20",
+        "water-mcq-06",
+        "water-mcq-16"
       ],
       "explanation": "本句的「waters」指「某片特定海域、河流或湖區水域」。",
       "sentenceIndex": 4,
@@ -605,12 +587,10 @@ export default {
         "waters"
       ],
       "optionReasons": {
-        "water-mcq-03": "本句指「某片特定海域、河流或湖區水域」。",
-        "water-mcq-02": "「湖、河、海、池塘等形成的水體／水面」與本句語境不同。",
-        "water-mcq-04": "「沿海國依法擁有主權的一定海域範圍；領海」與本句語境不同。",
-        "water-mcq-01": "「人類、動植物生活所需的液體水」與本句語境不同。",
-        "water-mcq-05": "「建築／社區系統所提供的生活用水／供水」與本句語境不同。",
-        "water-mcq-06": "「給植物或土地補充水分；澆水」與本句語境不同。"
+        "water-mcq-03": "本句的「waters」指「某片特定海域、河流或湖區水域」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-03"
     },
@@ -622,11 +602,9 @@ export default {
       "masked": "The ship entered colder ____.",
       "options": [
         "water-mcq-03",
-        "water-mcq-02",
-        "water-mcq-04",
-        "water-mcq-01",
-        "water-mcq-05",
-        "water-mcq-06"
+        "water-mcq-20",
+        "water-mcq-21",
+        "water-mcq-01"
       ],
       "explanation": "本句的「waters」指「某片特定海域、河流或湖區水域」。",
       "sentenceIndex": 5,
@@ -635,12 +613,10 @@ export default {
         "waters"
       ],
       "optionReasons": {
-        "water-mcq-03": "本句指「某片特定海域、河流或湖區水域」。",
-        "water-mcq-02": "「湖、河、海、池塘等形成的水體／水面」與本句語境不同。",
-        "water-mcq-04": "「沿海國依法擁有主權的一定海域範圍；領海」與本句語境不同。",
-        "water-mcq-01": "「人類、動植物生活所需的液體水」與本句語境不同。",
-        "water-mcq-05": "「建築／社區系統所提供的生活用水／供水」與本句語境不同。",
-        "water-mcq-06": "「給植物或土地補充水分；澆水」與本句語境不同。"
+        "water-mcq-03": "本句的「waters」指「某片特定海域、河流或湖區水域」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-03"
     },
@@ -652,11 +628,9 @@ export default {
       "masked": "The vessel entered the country’s ____.",
       "options": [
         "water-mcq-04",
-        "water-mcq-03",
-        "water-mcq-05",
-        "water-mcq-02",
-        "water-mcq-06",
-        "water-mcq-01"
+        "water-mcq-13",
+        "water-mcq-12",
+        "water-mcq-06"
       ],
       "explanation": "本句的「territorial waters」指「沿海國依法擁有主權的一定海域範圍；領海」。",
       "sentenceIndex": 6,
@@ -665,12 +639,10 @@ export default {
         "territorial waters"
       ],
       "optionReasons": {
-        "water-mcq-04": "本句指「沿海國依法擁有主權的一定海域範圍；領海」。",
-        "water-mcq-03": "「某片特定海域、河流或湖區水域」與本句語境不同。",
-        "water-mcq-05": "「建築／社區系統所提供的生活用水／供水」與本句語境不同。",
-        "water-mcq-02": "「湖、河、海、池塘等形成的水體／水面」與本句語境不同。",
-        "water-mcq-06": "「給植物或土地補充水分；澆水」與本句語境不同。",
-        "water-mcq-01": "「人類、動植物生活所需的液體水」與本句語境不同。"
+        "water-mcq-04": "本句的「territorial waters」指「沿海國依法擁有主權的一定海域範圍；領海」。",
+        "water-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-04"
     },
@@ -682,11 +654,9 @@ export default {
       "masked": "Fishing rules differ inside territorial ____.",
       "options": [
         "water-mcq-04",
-        "water-mcq-03",
-        "water-mcq-05",
-        "water-mcq-02",
-        "water-mcq-06",
-        "water-mcq-01"
+        "water-mcq-01",
+        "water-mcq-17",
+        "water-mcq-12"
       ],
       "explanation": "本句的「waters」指「沿海國依法擁有主權的一定海域範圍；領海」。",
       "sentenceIndex": 7,
@@ -695,12 +665,10 @@ export default {
         "waters"
       ],
       "optionReasons": {
-        "water-mcq-04": "本句指「沿海國依法擁有主權的一定海域範圍；領海」。",
-        "water-mcq-03": "「某片特定海域、河流或湖區水域」與本句語境不同。",
-        "water-mcq-05": "「建築／社區系統所提供的生活用水／供水」與本句語境不同。",
-        "water-mcq-02": "「湖、河、海、池塘等形成的水體／水面」與本句語境不同。",
-        "water-mcq-06": "「給植物或土地補充水分；澆水」與本句語境不同。",
-        "water-mcq-01": "「人類、動植物生活所需的液體水」與本句語境不同。"
+        "water-mcq-04": "本句的「waters」指「沿海國依法擁有主權的一定海域範圍；領海」。",
+        "water-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-04"
     },
@@ -712,10 +680,8 @@ export default {
       "masked": "The village has no clean running ____.",
       "options": [
         "water-mcq-05",
+        "water-mcq-20",
         "water-mcq-04",
-        "water-mcq-06",
-        "water-mcq-03",
-        "water-mcq-07",
         "water-mcq-02"
       ],
       "explanation": "本句的「water」指「建築／社區系統所提供的生活用水／供水」。",
@@ -725,12 +691,10 @@ export default {
         "water"
       ],
       "optionReasons": {
-        "water-mcq-05": "本句指「建築／社區系統所提供的生活用水／供水」。",
-        "water-mcq-04": "「沿海國依法擁有主權的一定海域範圍；領海」與本句語境不同。",
-        "water-mcq-06": "「給植物或土地補充水分；澆水」與本句語境不同。",
-        "water-mcq-03": "「某片特定海域、河流或湖區水域」與本句語境不同。",
-        "water-mcq-07": "「給動物提供飲用水」與本句語境不同。",
-        "water-mcq-02": "「湖、河、海、池塘等形成的水體／水面」與本句語境不同。"
+        "water-mcq-05": "本句的「water」指「建築／社區系統所提供的生活用水／供水」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-05"
     },
@@ -742,11 +706,9 @@ export default {
       "masked": "The building’s ____ was temporarily cut off.",
       "options": [
         "water-mcq-05",
+        "water-mcq-20",
         "water-mcq-04",
-        "water-mcq-06",
-        "water-mcq-03",
-        "water-mcq-07",
-        "water-mcq-02"
+        "water-mcq-15"
       ],
       "explanation": "本句的「water」指「建築／社區系統所提供的生活用水／供水」。",
       "sentenceIndex": 9,
@@ -755,12 +717,10 @@ export default {
         "water"
       ],
       "optionReasons": {
-        "water-mcq-05": "本句指「建築／社區系統所提供的生活用水／供水」。",
-        "water-mcq-04": "「沿海國依法擁有主權的一定海域範圍；領海」與本句語境不同。",
-        "water-mcq-06": "「給植物或土地補充水分；澆水」與本句語境不同。",
-        "water-mcq-03": "「某片特定海域、河流或湖區水域」與本句語境不同。",
-        "water-mcq-07": "「給動物提供飲用水」與本句語境不同。",
-        "water-mcq-02": "「湖、河、海、池塘等形成的水體／水面」與本句語境不同。"
+        "water-mcq-05": "本句的「water」指「建築／社區系統所提供的生活用水／供水」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-05"
     },
@@ -772,11 +732,9 @@ export default {
       "masked": "Remember to ____ the plants.",
       "options": [
         "water-mcq-06",
-        "water-mcq-05",
-        "water-mcq-07",
         "water-mcq-04",
-        "water-mcq-08",
-        "water-mcq-03"
+        "water-mcq-02",
+        "water-mcq-20"
       ],
       "explanation": "本句的「water」指「給植物或土地補充水分；澆水」。",
       "sentenceIndex": 12,
@@ -785,12 +743,10 @@ export default {
         "water"
       ],
       "optionReasons": {
-        "water-mcq-06": "本句指「給植物或土地補充水分；澆水」。",
-        "water-mcq-05": "「建築／社區系統所提供的生活用水／供水」與本句語境不同。",
-        "water-mcq-07": "「給動物提供飲用水」與本句語境不同。",
-        "water-mcq-04": "「沿海國依法擁有主權的一定海域範圍；領海」與本句語境不同。",
-        "water-mcq-08": "「眼睛因刺激等產生淚水」與本句語境不同。",
-        "water-mcq-03": "「某片特定海域、河流或湖區水域」與本句語境不同。"
+        "water-mcq-06": "本句的「water」指「給植物或土地補充水分；澆水」。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-06"
     },
@@ -802,11 +758,9 @@ export default {
       "masked": "She ____ the herbs every morning.",
       "options": [
         "water-mcq-06",
-        "water-mcq-05",
-        "water-mcq-07",
         "water-mcq-04",
-        "water-mcq-08",
-        "water-mcq-03"
+        "water-mcq-02",
+        "water-mcq-15"
       ],
       "explanation": "本句的「waters」指「給植物或土地補充水分；澆水」。",
       "sentenceIndex": 13,
@@ -815,12 +769,10 @@ export default {
         "waters"
       ],
       "optionReasons": {
-        "water-mcq-06": "本句指「給植物或土地補充水分；澆水」。",
-        "water-mcq-05": "「建築／社區系統所提供的生活用水／供水」與本句語境不同。",
-        "water-mcq-07": "「給動物提供飲用水」與本句語境不同。",
-        "water-mcq-04": "「沿海國依法擁有主權的一定海域範圍；領海」與本句語境不同。",
-        "water-mcq-08": "「眼睛因刺激等產生淚水」與本句語境不同。",
-        "water-mcq-03": "「某片特定海域、河流或湖區水域」與本句語境不同。"
+        "water-mcq-06": "本句的「waters」指「給植物或土地補充水分；澆水」。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-06"
     },
@@ -832,11 +784,9 @@ export default {
       "masked": "The farmer stopped to ____ the horses.",
       "options": [
         "water-mcq-07",
-        "water-mcq-06",
-        "water-mcq-08",
-        "water-mcq-05",
-        "water-mcq-09",
-        "water-mcq-04"
+        "water-mcq-20",
+        "water-mcq-04",
+        "water-mcq-15"
       ],
       "explanation": "本句的「water」指「給動物提供飲用水」。",
       "sentenceIndex": 14,
@@ -845,12 +795,10 @@ export default {
         "water"
       ],
       "optionReasons": {
-        "water-mcq-07": "本句指「給動物提供飲用水」。",
-        "water-mcq-06": "「給植物或土地補充水分；澆水」與本句語境不同。",
-        "water-mcq-08": "「眼睛因刺激等產生淚水」與本句語境不同。",
-        "water-mcq-05": "「建築／社區系統所提供的生活用水／供水」與本句語境不同。",
-        "water-mcq-09": "「因食物吸引而分泌較多唾液；流口水／垂涎」與本句語境不同。",
-        "water-mcq-04": "「沿海國依法擁有主權的一定海域範圍；領海」與本句語境不同。"
+        "water-mcq-07": "本句的「water」指「給動物提供飲用水」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-07"
     },
@@ -862,11 +810,9 @@ export default {
       "masked": "The animals are fed and ____ twice a day.",
       "options": [
         "water-mcq-07",
-        "water-mcq-06",
-        "water-mcq-08",
-        "water-mcq-05",
-        "water-mcq-09",
-        "water-mcq-04"
+        "water-mcq-20",
+        "water-mcq-04",
+        "water-mcq-16"
       ],
       "explanation": "本句的「watered」指「給動物提供飲用水」。",
       "sentenceIndex": 15,
@@ -875,12 +821,10 @@ export default {
         "watered"
       ],
       "optionReasons": {
-        "water-mcq-07": "本句指「給動物提供飲用水」。",
-        "water-mcq-06": "「給植物或土地補充水分；澆水」與本句語境不同。",
-        "water-mcq-08": "「眼睛因刺激等產生淚水」與本句語境不同。",
-        "water-mcq-05": "「建築／社區系統所提供的生活用水／供水」與本句語境不同。",
-        "water-mcq-09": "「因食物吸引而分泌較多唾液；流口水／垂涎」與本句語境不同。",
-        "water-mcq-04": "「沿海國依法擁有主權的一定海域範圍；領海」與本句語境不同。"
+        "water-mcq-07": "本句的「watered」指「給動物提供飲用水」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-07"
     },
@@ -892,11 +836,9 @@ export default {
       "masked": "The smoke made my eyes ____.",
       "options": [
         "water-mcq-08",
-        "water-mcq-07",
-        "water-mcq-09",
-        "water-mcq-06",
-        "water-mcq-10",
-        "water-mcq-05"
+        "water-mcq-20",
+        "water-mcq-04",
+        "water-mcq-21"
       ],
       "explanation": "本句的「water」指「眼睛因刺激等產生淚水」。",
       "sentenceIndex": 16,
@@ -905,12 +847,10 @@ export default {
         "water"
       ],
       "optionReasons": {
-        "water-mcq-08": "本句指「眼睛因刺激等產生淚水」。",
-        "water-mcq-07": "「給動物提供飲用水」與本句語境不同。",
-        "water-mcq-09": "「因食物吸引而分泌較多唾液；流口水／垂涎」與本句語境不同。",
-        "water-mcq-06": "「給植物或土地補充水分；澆水」與本句語境不同。",
-        "water-mcq-10": "「給植物／土地補充水分的行為」與本句語境不同。",
-        "water-mcq-05": "「建築／社區系統所提供的生活用水／供水」與本句語境不同。"
+        "water-mcq-08": "本句的「water」指「眼睛因刺激等產生淚水」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-08"
     },
@@ -922,11 +862,9 @@ export default {
       "masked": "Her eyes ____ in the cold wind.",
       "options": [
         "water-mcq-08",
-        "water-mcq-07",
-        "water-mcq-09",
-        "water-mcq-06",
-        "water-mcq-10",
-        "water-mcq-05"
+        "water-mcq-20",
+        "water-mcq-04",
+        "water-mcq-10"
       ],
       "explanation": "本句的「watered」指「眼睛因刺激等產生淚水」。",
       "sentenceIndex": 17,
@@ -935,12 +873,10 @@ export default {
         "watered"
       ],
       "optionReasons": {
-        "water-mcq-08": "本句指「眼睛因刺激等產生淚水」。",
-        "water-mcq-07": "「給動物提供飲用水」與本句語境不同。",
-        "water-mcq-09": "「因食物吸引而分泌較多唾液；流口水／垂涎」與本句語境不同。",
-        "water-mcq-06": "「給植物或土地補充水分；澆水」與本句語境不同。",
-        "water-mcq-10": "「給植物／土地補充水分的行為」與本句語境不同。",
-        "water-mcq-05": "「建築／社區系統所提供的生活用水／供水」與本句語境不同。"
+        "water-mcq-08": "本句的「watered」指「眼睛因刺激等產生淚水」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-08"
     },
@@ -952,11 +888,9 @@ export default {
       "masked": "My mouth ____ when I smelled the food.",
       "options": [
         "water-mcq-09",
-        "water-mcq-08",
-        "water-mcq-10",
-        "water-mcq-07",
-        "water-mcq-11",
-        "water-mcq-06"
+        "water-mcq-04",
+        "water-mcq-13",
+        "water-mcq-11"
       ],
       "explanation": "本句的「watered」指「因食物吸引而分泌較多唾液；流口水／垂涎」。",
       "sentenceIndex": 18,
@@ -965,12 +899,10 @@ export default {
         "watered"
       ],
       "optionReasons": {
-        "water-mcq-09": "本句指「因食物吸引而分泌較多唾液；流口水／垂涎」。",
-        "water-mcq-08": "「眼睛因刺激等產生淚水」與本句語境不同。",
-        "water-mcq-10": "「給植物／土地補充水分的行為」與本句語境不同。",
-        "water-mcq-07": "「給動物提供飲用水」與本句語境不同。",
-        "water-mcq-11": "「含水過多而變得稀薄的」與本句語境不同。",
-        "water-mcq-06": "「給植物或土地補充水分；澆水」與本句語境不同。"
+        "water-mcq-09": "本句的「watered」指「因食物吸引而分泌較多唾液；流口水／垂涎」。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-09"
     },
@@ -982,11 +914,9 @@ export default {
       "masked": "The smell of fresh bread made his mouth ____.",
       "options": [
         "water-mcq-09",
-        "water-mcq-08",
-        "water-mcq-10",
-        "water-mcq-07",
-        "water-mcq-11",
-        "water-mcq-06"
+        "water-mcq-04",
+        "water-mcq-20",
+        "water-mcq-16"
       ],
       "explanation": "本句的「water」指「因食物吸引而分泌較多唾液；流口水／垂涎」。",
       "sentenceIndex": 19,
@@ -995,12 +925,10 @@ export default {
         "water"
       ],
       "optionReasons": {
-        "water-mcq-09": "本句指「因食物吸引而分泌較多唾液；流口水／垂涎」。",
-        "water-mcq-08": "「眼睛因刺激等產生淚水」與本句語境不同。",
-        "water-mcq-10": "「給植物／土地補充水分的行為」與本句語境不同。",
-        "water-mcq-07": "「給動物提供飲用水」與本句語境不同。",
-        "water-mcq-11": "「含水過多而變得稀薄的」與本句語境不同。",
-        "water-mcq-06": "「給植物或土地補充水分；澆水」與本句語境不同。"
+        "water-mcq-09": "本句的「water」指「因食物吸引而分泌較多唾液；流口水／垂涎」。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-09"
     },
@@ -1012,11 +940,9 @@ export default {
       "masked": "The plants need regular ____.",
       "options": [
         "water-mcq-10",
-        "water-mcq-09",
-        "water-mcq-11",
-        "water-mcq-08",
-        "water-mcq-12",
-        "water-mcq-07"
+        "water-mcq-04",
+        "water-mcq-05",
+        "water-mcq-08"
       ],
       "explanation": "本句的「watering」指「給植物／土地補充水分的行為」。",
       "sentenceIndex": 20,
@@ -1025,12 +951,10 @@ export default {
         "watering"
       ],
       "optionReasons": {
-        "water-mcq-10": "本句指「給植物／土地補充水分的行為」。",
-        "water-mcq-09": "「因食物吸引而分泌較多唾液；流口水／垂涎」與本句語境不同。",
-        "water-mcq-11": "「含水過多而變得稀薄的」與本句語境不同。",
-        "water-mcq-08": "「眼睛因刺激等產生淚水」與本句語境不同。",
-        "water-mcq-12": "「顏色淡薄，像被水稀釋過的」與本句語境不同。",
-        "water-mcq-07": "「給動物提供飲用水」與本句語境不同。"
+        "water-mcq-10": "本句的「watering」指「給植物／土地補充水分的行為」。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-10"
     },
@@ -1042,11 +966,9 @@ export default {
       "masked": "Over-____ can damage the roots.",
       "options": [
         "water-mcq-10",
-        "water-mcq-09",
-        "water-mcq-11",
-        "water-mcq-08",
-        "water-mcq-12",
-        "water-mcq-07"
+        "water-mcq-04",
+        "water-mcq-13",
+        "water-mcq-12"
       ],
       "explanation": "本句的「watering」指「給植物／土地補充水分的行為」。",
       "sentenceIndex": 21,
@@ -1055,12 +977,10 @@ export default {
         "watering"
       ],
       "optionReasons": {
-        "water-mcq-10": "本句指「給植物／土地補充水分的行為」。",
-        "water-mcq-09": "「因食物吸引而分泌較多唾液；流口水／垂涎」與本句語境不同。",
-        "water-mcq-11": "「含水過多而變得稀薄的」與本句語境不同。",
-        "water-mcq-08": "「眼睛因刺激等產生淚水」與本句語境不同。",
-        "water-mcq-12": "「顏色淡薄，像被水稀釋過的」與本句語境不同。",
-        "water-mcq-07": "「給動物提供飲用水」與本句語境不同。"
+        "water-mcq-10": "本句的「watering」指「給植物／土地補充水分的行為」。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-10"
     },
@@ -1072,11 +992,9 @@ export default {
       "masked": "The soup is too ____.",
       "options": [
         "water-mcq-11",
-        "water-mcq-10",
-        "water-mcq-12",
-        "water-mcq-09",
-        "water-mcq-13",
-        "water-mcq-08"
+        "water-mcq-20",
+        "water-mcq-04",
+        "water-mcq-14"
       ],
       "explanation": "本句的「watery」指「含水過多而變得稀薄的」。",
       "sentenceIndex": 22,
@@ -1085,12 +1003,10 @@ export default {
         "watery"
       ],
       "optionReasons": {
-        "water-mcq-11": "本句指「含水過多而變得稀薄的」。",
-        "water-mcq-10": "「給植物／土地補充水分的行為」與本句語境不同。",
-        "water-mcq-12": "「顏色淡薄，像被水稀釋過的」與本句語境不同。",
-        "water-mcq-09": "「因食物吸引而分泌較多唾液；流口水／垂涎」與本句語境不同。",
-        "water-mcq-13": "「眼睛產生很多淚水、淚汪汪的」與本句語境不同。",
-        "water-mcq-08": "「眼睛因刺激等產生淚水」與本句語境不同。"
+        "water-mcq-11": "本句的「watery」指「含水過多而變得稀薄的」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-11"
     },
@@ -1102,11 +1018,9 @@ export default {
       "masked": "The sauce became ____.",
       "options": [
         "water-mcq-11",
-        "water-mcq-10",
-        "water-mcq-12",
-        "water-mcq-09",
-        "water-mcq-13",
-        "water-mcq-08"
+        "water-mcq-20",
+        "water-mcq-04",
+        "water-mcq-15"
       ],
       "explanation": "本句的「watery」指「含水過多而變得稀薄的」。",
       "sentenceIndex": 23,
@@ -1115,12 +1029,10 @@ export default {
         "watery"
       ],
       "optionReasons": {
-        "water-mcq-11": "本句指「含水過多而變得稀薄的」。",
-        "water-mcq-10": "「給植物／土地補充水分的行為」與本句語境不同。",
-        "water-mcq-12": "「顏色淡薄，像被水稀釋過的」與本句語境不同。",
-        "water-mcq-09": "「因食物吸引而分泌較多唾液；流口水／垂涎」與本句語境不同。",
-        "water-mcq-13": "「眼睛產生很多淚水、淚汪汪的」與本句語境不同。",
-        "water-mcq-08": "「眼睛因刺激等產生淚水」與本句語境不同。"
+        "water-mcq-11": "本句的「watery」指「含水過多而變得稀薄的」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-11"
     },
@@ -1132,11 +1044,9 @@ export default {
       "masked": "The sky was a ____.",
       "options": [
         "water-mcq-12",
-        "water-mcq-11",
-        "water-mcq-13",
-        "water-mcq-10",
-        "water-mcq-14",
-        "water-mcq-09"
+        "water-mcq-04",
+        "water-mcq-20",
+        "water-mcq-08"
       ],
       "explanation": "本句的「watery blue」指「顏色淡薄，像被水稀釋過的」。",
       "sentenceIndex": 24,
@@ -1145,12 +1055,10 @@ export default {
         "watery blue"
       ],
       "optionReasons": {
-        "water-mcq-12": "本句指「顏色淡薄，像被水稀釋過的」。",
-        "water-mcq-11": "「含水過多而變得稀薄的」與本句語境不同。",
-        "water-mcq-13": "「眼睛產生很多淚水、淚汪汪的」與本句語境不同。",
-        "water-mcq-10": "「給植物／土地補充水分的行為」與本句語境不同。",
-        "water-mcq-14": "「使用水彩顏料創作的一幅畫」與本句語境不同。",
-        "water-mcq-09": "「因食物吸引而分泌較多唾液；流口水／垂涎」與本句語境不同。"
+        "water-mcq-12": "本句的「watery blue」指「顏色淡薄，像被水稀釋過的」。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-12"
     },
@@ -1162,11 +1070,9 @@ export default {
       "masked": "The painting uses ____ shades of green.",
       "options": [
         "water-mcq-12",
-        "water-mcq-11",
-        "water-mcq-13",
-        "water-mcq-10",
-        "water-mcq-14",
-        "water-mcq-09"
+        "water-mcq-04",
+        "water-mcq-20",
+        "water-mcq-21"
       ],
       "explanation": "本句的「watery」指「顏色淡薄，像被水稀釋過的」。",
       "sentenceIndex": 25,
@@ -1175,12 +1081,10 @@ export default {
         "watery"
       ],
       "optionReasons": {
-        "water-mcq-12": "本句指「顏色淡薄，像被水稀釋過的」。",
-        "water-mcq-11": "「含水過多而變得稀薄的」與本句語境不同。",
-        "water-mcq-13": "「眼睛產生很多淚水、淚汪汪的」與本句語境不同。",
-        "water-mcq-10": "「給植物／土地補充水分的行為」與本句語境不同。",
-        "water-mcq-14": "「使用水彩顏料創作的一幅畫」與本句語境不同。",
-        "water-mcq-09": "「因食物吸引而分泌較多唾液；流口水／垂涎」與本句語境不同。"
+        "water-mcq-12": "本句的「watery」指「顏色淡薄，像被水稀釋過的」。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-12"
     },
@@ -1192,11 +1096,9 @@ export default {
       "masked": "He had red, ____.",
       "options": [
         "water-mcq-13",
-        "water-mcq-12",
-        "water-mcq-14",
-        "water-mcq-11",
-        "water-mcq-15",
-        "water-mcq-10"
+        "water-mcq-04",
+        "water-mcq-20",
+        "water-mcq-12"
       ],
       "explanation": "本句的「watery eyes」指「眼睛產生很多淚水、淚汪汪的」。",
       "sentenceIndex": 26,
@@ -1205,12 +1107,10 @@ export default {
         "watery eyes"
       ],
       "optionReasons": {
-        "water-mcq-13": "本句指「眼睛產生很多淚水、淚汪汪的」。",
-        "water-mcq-12": "「顏色淡薄，像被水稀釋過的」與本句語境不同。",
-        "water-mcq-14": "「使用水彩顏料創作的一幅畫」與本句語境不同。",
-        "water-mcq-11": "「含水過多而變得稀薄的」與本句語境不同。",
-        "water-mcq-15": "「水彩顏料／水彩這種繪畫媒介與技法」與本句語境不同。",
-        "water-mcq-10": "「給植物／土地補充水分的行為」與本句語境不同。"
+        "water-mcq-13": "本句的「watery eyes」指「眼睛產生很多淚水、淚汪汪的」。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-13"
     },
@@ -1222,11 +1122,9 @@ export default {
       "masked": "Allergies can cause ____ eyes.",
       "options": [
         "water-mcq-13",
-        "water-mcq-12",
-        "water-mcq-14",
-        "water-mcq-11",
-        "water-mcq-15",
-        "water-mcq-10"
+        "water-mcq-20",
+        "water-mcq-04",
+        "water-mcq-11"
       ],
       "explanation": "本句的「watery」指「眼睛產生很多淚水、淚汪汪的」。",
       "sentenceIndex": 27,
@@ -1235,12 +1133,10 @@ export default {
         "watery"
       ],
       "optionReasons": {
-        "water-mcq-13": "本句指「眼睛產生很多淚水、淚汪汪的」。",
-        "water-mcq-12": "「顏色淡薄，像被水稀釋過的」與本句語境不同。",
-        "water-mcq-14": "「使用水彩顏料創作的一幅畫」與本句語境不同。",
-        "water-mcq-11": "「含水過多而變得稀薄的」與本句語境不同。",
-        "water-mcq-15": "「水彩顏料／水彩這種繪畫媒介與技法」與本句語境不同。",
-        "water-mcq-10": "「給植物／土地補充水分的行為」與本句語境不同。"
+        "water-mcq-13": "本句的「watery」指「眼睛產生很多淚水、淚汪汪的」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-13"
     },
@@ -1252,11 +1148,9 @@ export default {
       "masked": "The museum has several Monet ____.",
       "options": [
         "water-mcq-14",
-        "water-mcq-13",
-        "water-mcq-15",
-        "water-mcq-12",
-        "water-mcq-16",
-        "water-mcq-11"
+        "water-mcq-04",
+        "water-mcq-20",
+        "water-mcq-19"
       ],
       "explanation": "本句的「watercolours」指「使用水彩顏料創作的一幅畫」。",
       "sentenceIndex": 28,
@@ -1265,12 +1159,10 @@ export default {
         "watercolours"
       ],
       "optionReasons": {
-        "water-mcq-14": "本句指「使用水彩顏料創作的一幅畫」。",
-        "water-mcq-13": "「眼睛產生很多淚水、淚汪汪的」與本句語境不同。",
-        "water-mcq-15": "「水彩顏料／水彩這種繪畫媒介與技法」與本句語境不同。",
-        "water-mcq-12": "「顏色淡薄，像被水稀釋過的」與本句語境不同。",
-        "water-mcq-16": "「水不能／不容易穿透的」與本句語境不同。",
-        "water-mcq-11": "「含水過多而變得稀薄的」與本句語境不同。"
+        "water-mcq-14": "本句的「watercolours」指「使用水彩顏料創作的一幅畫」。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-14"
     },
@@ -1282,11 +1174,9 @@ export default {
       "masked": "She bought a small ____ of the harbour.",
       "options": [
         "water-mcq-14",
-        "water-mcq-13",
-        "water-mcq-15",
-        "water-mcq-12",
-        "water-mcq-16",
-        "water-mcq-11"
+        "water-mcq-04",
+        "water-mcq-20",
+        "water-mcq-18"
       ],
       "explanation": "本句的「watercolour」指「使用水彩顏料創作的一幅畫」。",
       "sentenceIndex": 29,
@@ -1295,12 +1185,10 @@ export default {
         "watercolour"
       ],
       "optionReasons": {
-        "water-mcq-14": "本句指「使用水彩顏料創作的一幅畫」。",
-        "water-mcq-13": "「眼睛產生很多淚水、淚汪汪的」與本句語境不同。",
-        "water-mcq-15": "「水彩顏料／水彩這種繪畫媒介與技法」與本句語境不同。",
-        "water-mcq-12": "「顏色淡薄，像被水稀釋過的」與本句語境不同。",
-        "water-mcq-16": "「水不能／不容易穿透的」與本句語境不同。",
-        "water-mcq-11": "「含水過多而變得稀薄的」與本句語境不同。"
+        "water-mcq-14": "本句的「watercolour」指「使用水彩顏料創作的一幅畫」。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-14"
     },
@@ -1312,11 +1200,9 @@ export default {
       "masked": "She works mainly in ____.",
       "options": [
         "water-mcq-15",
-        "water-mcq-14",
-        "water-mcq-16",
-        "water-mcq-13",
+        "water-mcq-20",
         "water-mcq-17",
-        "water-mcq-12"
+        "water-mcq-04"
       ],
       "explanation": "本句的「watercolour」指「水彩顏料／水彩這種繪畫媒介與技法」。",
       "sentenceIndex": 30,
@@ -1325,12 +1211,10 @@ export default {
         "watercolour"
       ],
       "optionReasons": {
-        "water-mcq-15": "本句指「水彩顏料／水彩這種繪畫媒介與技法」。",
-        "water-mcq-14": "「使用水彩顏料創作的一幅畫」與本句語境不同。",
-        "water-mcq-16": "「水不能／不容易穿透的」與本句語境不同。",
-        "water-mcq-13": "「眼睛產生很多淚水、淚汪汪的」與本句語境不同。",
-        "water-mcq-17": "「對物件作處理，使水不容易滲入」與本句語境不同。",
-        "water-mcq-12": "「顏色淡薄，像被水稀釋過的」與本句語境不同。"
+        "water-mcq-15": "本句的「watercolour」指「水彩顏料／水彩這種繪畫媒介與技法」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-15"
     },
@@ -1342,11 +1226,9 @@ export default {
       "masked": "____ can create soft, transparent effects.",
       "options": [
         "water-mcq-15",
-        "water-mcq-14",
-        "water-mcq-16",
-        "water-mcq-13",
-        "water-mcq-17",
-        "water-mcq-12"
+        "water-mcq-20",
+        "water-mcq-08",
+        "water-mcq-07"
       ],
       "explanation": "本句的「Watercolour」指「水彩顏料／水彩這種繪畫媒介與技法」。",
       "sentenceIndex": 31,
@@ -1355,12 +1237,10 @@ export default {
         "Watercolour"
       ],
       "optionReasons": {
-        "water-mcq-15": "本句指「水彩顏料／水彩這種繪畫媒介與技法」。",
-        "water-mcq-14": "「使用水彩顏料創作的一幅畫」與本句語境不同。",
-        "water-mcq-16": "「水不能／不容易穿透的」與本句語境不同。",
-        "water-mcq-13": "「眼睛產生很多淚水、淚汪汪的」與本句語境不同。",
-        "water-mcq-17": "「對物件作處理，使水不容易滲入」與本句語境不同。",
-        "water-mcq-12": "「顏色淡薄，像被水稀釋過的」與本句語境不同。"
+        "water-mcq-15": "本句的「Watercolour」指「水彩顏料／水彩這種繪畫媒介與技法」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-15"
     },
@@ -1372,11 +1252,9 @@ export default {
       "masked": "The jacket is ____.",
       "options": [
         "water-mcq-16",
-        "water-mcq-15",
-        "water-mcq-17",
-        "water-mcq-14",
-        "water-mcq-18",
-        "water-mcq-13"
+        "water-mcq-04",
+        "water-mcq-20",
+        "water-mcq-21"
       ],
       "explanation": "本句的「waterproof」指「水不能／不容易穿透的」。",
       "sentenceIndex": 32,
@@ -1385,12 +1263,10 @@ export default {
         "waterproof"
       ],
       "optionReasons": {
-        "water-mcq-16": "本句指「水不能／不容易穿透的」。",
-        "water-mcq-15": "「水彩顏料／水彩這種繪畫媒介與技法」與本句語境不同。",
-        "water-mcq-17": "「對物件作處理，使水不容易滲入」與本句語境不同。",
-        "water-mcq-14": "「使用水彩顏料創作的一幅畫」與本句語境不同。",
-        "water-mcq-18": "「河流、運河等供水流通或船隻通行的水上通道」與本句語境不同。",
-        "water-mcq-13": "「眼睛產生很多淚水、淚汪汪的」與本句語境不同。"
+        "water-mcq-16": "本句的「waterproof」指「水不能／不容易穿透的」。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-16"
     },
@@ -1402,11 +1278,9 @@ export default {
       "masked": "Use a ____ cover outdoors.",
       "options": [
         "water-mcq-16",
-        "water-mcq-15",
-        "water-mcq-17",
-        "water-mcq-14",
-        "water-mcq-18",
-        "water-mcq-13"
+        "water-mcq-04",
+        "water-mcq-20",
+        "water-mcq-02"
       ],
       "explanation": "本句的「waterproof」指「水不能／不容易穿透的」。",
       "sentenceIndex": 33,
@@ -1415,12 +1289,10 @@ export default {
         "waterproof"
       ],
       "optionReasons": {
-        "water-mcq-16": "本句指「水不能／不容易穿透的」。",
-        "water-mcq-15": "「水彩顏料／水彩這種繪畫媒介與技法」與本句語境不同。",
-        "water-mcq-17": "「對物件作處理，使水不容易滲入」與本句語境不同。",
-        "water-mcq-14": "「使用水彩顏料創作的一幅畫」與本句語境不同。",
-        "water-mcq-18": "「河流、運河等供水流通或船隻通行的水上通道」與本句語境不同。",
-        "water-mcq-13": "「眼睛產生很多淚水、淚汪汪的」與本句語境不同。"
+        "water-mcq-16": "本句的「waterproof」指「水不能／不容易穿透的」。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-16"
     },
@@ -1432,11 +1304,9 @@ export default {
       "masked": "They ____ the roof.",
       "options": [
         "water-mcq-17",
-        "water-mcq-16",
-        "water-mcq-18",
-        "water-mcq-15",
-        "water-mcq-19",
-        "water-mcq-14"
+        "water-mcq-20",
+        "water-mcq-04",
+        "water-mcq-08"
       ],
       "explanation": "本句的「waterproofed」指「對物件作處理，使水不容易滲入」。",
       "sentenceIndex": 34,
@@ -1445,12 +1315,10 @@ export default {
         "waterproofed"
       ],
       "optionReasons": {
-        "water-mcq-17": "本句指「對物件作處理，使水不容易滲入」。",
-        "water-mcq-16": "「水不能／不容易穿透的」與本句語境不同。",
-        "water-mcq-18": "「河流、運河等供水流通或船隻通行的水上通道」與本句語境不同。",
-        "water-mcq-15": "「水彩顏料／水彩這種繪畫媒介與技法」與本句語境不同。",
-        "water-mcq-19": "「把雨水導向不同流域的地形分界」與本句語境不同。",
-        "water-mcq-14": "「使用水彩顏料創作的一幅畫」與本句語境不同。"
+        "water-mcq-17": "本句的「waterproofed」指「對物件作處理，使水不容易滲入」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-17"
     },
@@ -1462,11 +1330,9 @@ export default {
       "masked": "The material has been ____.",
       "options": [
         "water-mcq-17",
-        "water-mcq-16",
-        "water-mcq-18",
-        "water-mcq-15",
-        "water-mcq-19",
-        "water-mcq-14"
+        "water-mcq-20",
+        "water-mcq-04",
+        "water-mcq-21"
       ],
       "explanation": "本句的「waterproofed」指「對物件作處理，使水不容易滲入」。",
       "sentenceIndex": 35,
@@ -1475,12 +1341,10 @@ export default {
         "waterproofed"
       ],
       "optionReasons": {
-        "water-mcq-17": "本句指「對物件作處理，使水不容易滲入」。",
-        "water-mcq-16": "「水不能／不容易穿透的」與本句語境不同。",
-        "water-mcq-18": "「河流、運河等供水流通或船隻通行的水上通道」與本句語境不同。",
-        "water-mcq-15": "「水彩顏料／水彩這種繪畫媒介與技法」與本句語境不同。",
-        "water-mcq-19": "「把雨水導向不同流域的地形分界」與本句語境不同。",
-        "water-mcq-14": "「使用水彩顏料創作的一幅畫」與本句語境不同。"
+        "water-mcq-17": "本句的「waterproofed」指「對物件作處理，使水不容易滲入」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-17"
     },
@@ -1492,11 +1356,9 @@ export default {
       "masked": "The river is an important ____.",
       "options": [
         "water-mcq-18",
-        "water-mcq-17",
-        "water-mcq-19",
-        "water-mcq-16",
         "water-mcq-20",
-        "water-mcq-15"
+        "water-mcq-04",
+        "water-mcq-14"
       ],
       "explanation": "本句的「waterway」指「河流、運河等供水流通或船隻通行的水上通道」。",
       "sentenceIndex": 36,
@@ -1505,12 +1367,10 @@ export default {
         "waterway"
       ],
       "optionReasons": {
-        "water-mcq-18": "本句指「河流、運河等供水流通或船隻通行的水上通道」。",
-        "water-mcq-17": "「對物件作處理，使水不容易滲入」與本句語境不同。",
-        "water-mcq-19": "「把雨水導向不同流域的地形分界」與本句語境不同。",
-        "water-mcq-16": "「水不能／不容易穿透的」與本句語境不同。",
-        "water-mcq-20": "「明確劃分「之前」與「之後」的重大轉捩點」與本句語境不同。",
-        "water-mcq-15": "「水彩顏料／水彩這種繪畫媒介與技法」與本句語境不同。"
+        "water-mcq-18": "本句的「waterway」指「河流、運河等供水流通或船隻通行的水上通道」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-18"
     },
@@ -1522,11 +1382,9 @@ export default {
       "masked": "The city developed around several ____.",
       "options": [
         "water-mcq-18",
-        "water-mcq-17",
-        "water-mcq-19",
-        "water-mcq-16",
         "water-mcq-20",
-        "water-mcq-15"
+        "water-mcq-04",
+        "water-mcq-11"
       ],
       "explanation": "本句的「waterways」指「河流、運河等供水流通或船隻通行的水上通道」。",
       "sentenceIndex": 37,
@@ -1535,12 +1393,10 @@ export default {
         "waterways"
       ],
       "optionReasons": {
-        "water-mcq-18": "本句指「河流、運河等供水流通或船隻通行的水上通道」。",
-        "water-mcq-17": "「對物件作處理，使水不容易滲入」與本句語境不同。",
-        "water-mcq-19": "「把雨水導向不同流域的地形分界」與本句語境不同。",
-        "water-mcq-16": "「水不能／不容易穿透的」與本句語境不同。",
-        "water-mcq-20": "「明確劃分「之前」與「之後」的重大轉捩點」與本句語境不同。",
-        "water-mcq-15": "「水彩顏料／水彩這種繪畫媒介與技法」與本句語境不同。"
+        "water-mcq-18": "本句的「waterways」指「河流、運河等供水流通或船隻通行的水上通道」。",
+        "water-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-18"
     },
@@ -1552,11 +1408,9 @@ export default {
       "masked": "The mountain forms a major ____.",
       "options": [
         "water-mcq-19",
-        "water-mcq-18",
-        "water-mcq-20",
-        "water-mcq-17",
-        "water-mcq-21",
-        "water-mcq-16"
+        "water-mcq-07",
+        "water-mcq-04",
+        "water-mcq-17"
       ],
       "explanation": "本句的「watershed」指「把雨水導向不同流域的地形分界」。",
       "sentenceIndex": 38,
@@ -1565,12 +1419,10 @@ export default {
         "watershed"
       ],
       "optionReasons": {
-        "water-mcq-19": "本句指「把雨水導向不同流域的地形分界」。",
-        "water-mcq-18": "「河流、運河等供水流通或船隻通行的水上通道」與本句語境不同。",
-        "water-mcq-20": "「明確劃分「之前」與「之後」的重大轉捩點」與本句語境不同。",
-        "water-mcq-17": "「對物件作處理，使水不容易滲入」與本句語境不同。",
-        "water-mcq-21": "「分娩語境中的羊水，常見於 waters break」與本句語境不同。",
-        "water-mcq-16": "「水不能／不容易穿透的」與本句語境不同。"
+        "water-mcq-19": "本句的「watershed」指「把雨水導向不同流域的地形分界」。",
+        "water-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-19"
     },
@@ -1582,11 +1434,9 @@ export default {
       "masked": "The invention was a ____ in modern technology.",
       "options": [
         "water-mcq-20",
-        "water-mcq-19",
-        "water-mcq-21",
-        "water-mcq-18",
-        "water-mcq-17",
-        "water-mcq-16"
+        "water-mcq-11",
+        "water-mcq-03",
+        "water-mcq-05"
       ],
       "explanation": "本句的「watershed」指「明確劃分「之前」與「之後」的重大轉捩點」。",
       "sentenceIndex": 39,
@@ -1595,12 +1445,10 @@ export default {
         "watershed"
       ],
       "optionReasons": {
-        "water-mcq-20": "本句指「明確劃分「之前」與「之後」的重大轉捩點」。",
-        "water-mcq-19": "「把雨水導向不同流域的地形分界」與本句語境不同。",
-        "water-mcq-21": "「分娩語境中的羊水，常見於 waters break」與本句語境不同。",
-        "water-mcq-18": "「河流、運河等供水流通或船隻通行的水上通道」與本句語境不同。",
-        "water-mcq-17": "「對物件作處理，使水不容易滲入」與本句語境不同。",
-        "water-mcq-16": "「水不能／不容易穿透的」與本句語境不同。"
+        "water-mcq-20": "本句的「watershed」指「明確劃分「之前」與「之後」的重大轉捩點」。",
+        "water-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-20"
     },
@@ -1612,11 +1460,9 @@ export default {
       "masked": "The exhibition marked a ____ in her career.",
       "options": [
         "water-mcq-20",
-        "water-mcq-19",
-        "water-mcq-21",
-        "water-mcq-18",
-        "water-mcq-17",
-        "water-mcq-16"
+        "water-mcq-12",
+        "water-mcq-08",
+        "water-mcq-17"
       ],
       "explanation": "本句的「watershed」指「明確劃分「之前」與「之後」的重大轉捩點」。",
       "sentenceIndex": 40,
@@ -1625,12 +1471,10 @@ export default {
         "watershed"
       ],
       "optionReasons": {
-        "water-mcq-20": "本句指「明確劃分「之前」與「之後」的重大轉捩點」。",
-        "water-mcq-19": "「把雨水導向不同流域的地形分界」與本句語境不同。",
-        "water-mcq-21": "「分娩語境中的羊水，常見於 waters break」與本句語境不同。",
-        "water-mcq-18": "「河流、運河等供水流通或船隻通行的水上通道」與本句語境不同。",
-        "water-mcq-17": "「對物件作處理，使水不容易滲入」與本句語境不同。",
-        "water-mcq-16": "「水不能／不容易穿透的」與本句語境不同。"
+        "water-mcq-20": "本句的「watershed」指「明確劃分「之前」與「之後」的重大轉捩點」。",
+        "water-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-20"
     },
@@ -1642,11 +1486,9 @@ export default {
       "masked": "Her ____ during the night.",
       "options": [
         "water-mcq-21",
-        "water-mcq-20",
-        "water-mcq-19",
-        "water-mcq-18",
-        "water-mcq-17",
-        "water-mcq-16"
+        "water-mcq-04",
+        "water-mcq-07",
+        "water-mcq-17"
       ],
       "explanation": "本句的「waters broke」指「分娩語境中的羊水，常見於 waters break」。",
       "sentenceIndex": 41,
@@ -1655,12 +1497,10 @@ export default {
         "waters broke"
       ],
       "optionReasons": {
-        "water-mcq-21": "本句指「分娩語境中的羊水，常見於 waters break」。",
-        "water-mcq-20": "「明確劃分「之前」與「之後」的重大轉捩點」與本句語境不同。",
-        "water-mcq-19": "「把雨水導向不同流域的地形分界」與本句語境不同。",
-        "water-mcq-18": "「河流、運河等供水流通或船隻通行的水上通道」與本句語境不同。",
-        "water-mcq-17": "「對物件作處理，使水不容易滲入」與本句語境不同。",
-        "water-mcq-16": "「水不能／不容易穿透的」與本句語境不同。"
+        "water-mcq-21": "本句的「waters broke」指「分娩語境中的羊水，常見於 waters break」。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-21"
     },
@@ -1672,11 +1512,9 @@ export default {
       "masked": "Call the hospital if your ____ break.",
       "options": [
         "water-mcq-21",
-        "water-mcq-20",
-        "water-mcq-19",
-        "water-mcq-18",
-        "water-mcq-17",
-        "water-mcq-16"
+        "water-mcq-04",
+        "water-mcq-11",
+        "water-mcq-02"
       ],
       "explanation": "本句的「waters」指「分娩語境中的羊水，常見於 waters break」。",
       "sentenceIndex": 42,
@@ -1685,12 +1523,10 @@ export default {
         "waters"
       ],
       "optionReasons": {
-        "water-mcq-21": "本句指「分娩語境中的羊水，常見於 waters break」。",
-        "water-mcq-20": "「明確劃分「之前」與「之後」的重大轉捩點」與本句語境不同。",
-        "water-mcq-19": "「把雨水導向不同流域的地形分界」與本句語境不同。",
-        "water-mcq-18": "「河流、運河等供水流通或船隻通行的水上通道」與本句語境不同。",
-        "water-mcq-17": "「對物件作處理，使水不容易滲入」與本句語境不同。",
-        "water-mcq-16": "「水不能／不容易穿透的」與本句語境不同。"
+        "water-mcq-21": "本句的「waters」指「分娩語境中的羊水，常見於 waters break」。",
+        "water-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "water-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "water-mcq-21"
     }
@@ -1702,5 +1538,7 @@ export default {
     "sha256": "4da8580b78596bb37bf5656917baa89716b59b17183ffa17aa0338f0dd69e650",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

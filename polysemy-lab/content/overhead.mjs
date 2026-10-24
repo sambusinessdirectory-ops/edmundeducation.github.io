@@ -205,11 +205,6 @@ export default {
           "The railway uses overhead lines to supply electricity.",
           "鐵路使用架空電纜供電。",
           "架空電線／電纜"
-        ],
-        [
-          "An overhead crane moved the heavy equipment across the factory.",
-          "一部橋式／高架起重機把重型設備移過工廠。",
-          "架空電線／電纜"
         ]
       ],
       "options": [],
@@ -226,11 +221,6 @@ export default {
         [
           "The film opens with an overhead shot of the city.",
           "電影開場是一個城市的俯拍鏡頭。",
-          "從上方俯拍的鏡頭"
-        ],
-        [
-          "The teacher used an overhead projector.",
-          "老師使用了一部投影機／高映機。",
           "從上方俯拍的鏡頭"
         ]
       ],
@@ -281,6 +271,40 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "overhead-reviewed-eaa6929213",
+      "title": "橋式起重機／高架起重機",
+      "form": "overhead · source section 12",
+      "en": "橋式起重機／高架起重機",
+      "zh": "橋式起重機／高架起重機",
+      "note": "對照原始教材第 12 節及例句核實。",
+      "examples": [
+        [
+          "An overhead crane moved the heavy equipment across the factory.",
+          "一部橋式／高架起重機把重型設備移過工廠。",
+          "橋式起重機／高架起重機"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "overhead-reviewed-caa931c081",
+      "title": "投影機／高映機",
+      "form": "overhead · source section 14",
+      "en": "投影機／高映機",
+      "zh": "投影機／高映機",
+      "note": "對照原始教材第 14 節及例句核實。",
+      "examples": [
+        [
+          "The teacher used an overhead projector.",
+          "老師使用了一部投影機／高映機。",
+          "投影機／高映機"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -292,11 +316,9 @@ export default {
       "masked": "Restaurants are forced to absorb the additional ____.",
       "options": [
         "overhead-mcq-01",
-        "overhead-mcq-02",
-        "overhead-mcq-03",
-        "overhead-mcq-04",
-        "overhead-mcq-05",
-        "overhead-mcq-06"
+        "overhead-mcq-10",
+        "overhead-mcq-09",
+        "overhead-mcq-13"
       ],
       "explanation": "本句的「overhead」指「維持企業運作但不能直接歸入某項產品、服務或交易的間接成本／間接費用」。",
       "sentenceIndex": 0,
@@ -305,12 +327,10 @@ export default {
         "overhead"
       ],
       "optionReasons": {
-        "overhead-mcq-01": "本句指「維持企業運作但不能直接歸入某項產品、服務或交易的間接成本／間接費用」。",
-        "overhead-mcq-02": "「企業日常的間接營運開支」與本句語境不同。",
-        "overhead-mcq-03": "「生產活動中的間接製造成本」與本句語境不同。",
-        "overhead-mcq-04": "「行政管理產生的間接成本」與本句語境不同。",
-        "overhead-mcq-05": "「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」與本句語境不同。",
-        "overhead-mcq-06": "「流程本身造成的額外協調、管理或文書負擔」與本句語境不同。"
+        "overhead-mcq-01": "本句的「overhead」指「維持企業運作但不能直接歸入某項產品、服務或交易的間接成本／間接費用」。",
+        "overhead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-01"
     },
@@ -322,11 +342,9 @@ export default {
       "masked": "The company is trying to reduce its ____.",
       "options": [
         "overhead-mcq-01",
-        "overhead-mcq-02",
-        "overhead-mcq-03",
-        "overhead-mcq-04",
-        "overhead-mcq-05",
-        "overhead-mcq-06"
+        "overhead-mcq-08",
+        "overhead-reviewed-caa931c081",
+        "overhead-mcq-13"
       ],
       "explanation": "本句的「overhead」指「維持企業運作但不能直接歸入某項產品、服務或交易的間接成本／間接費用」。",
       "sentenceIndex": 1,
@@ -335,12 +353,10 @@ export default {
         "overhead"
       ],
       "optionReasons": {
-        "overhead-mcq-01": "本句指「維持企業運作但不能直接歸入某項產品、服務或交易的間接成本／間接費用」。",
-        "overhead-mcq-02": "「企業日常的間接營運開支」與本句語境不同。",
-        "overhead-mcq-03": "「生產活動中的間接製造成本」與本句語境不同。",
-        "overhead-mcq-04": "「行政管理產生的間接成本」與本句語境不同。",
-        "overhead-mcq-05": "「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」與本句語境不同。",
-        "overhead-mcq-06": "「流程本身造成的額外協調、管理或文書負擔」與本句語境不同。"
+        "overhead-mcq-01": "本句的「overhead」指「維持企業運作但不能直接歸入某項產品、服務或交易的間接成本／間接費用」。",
+        "overhead-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "overhead-reviewed-caa931c081": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-01"
     },
@@ -352,11 +368,9 @@ export default {
       "masked": "Rent and administrative salaries form part of the firm’s ____.",
       "options": [
         "overhead-mcq-01",
-        "overhead-mcq-02",
-        "overhead-mcq-03",
-        "overhead-mcq-04",
-        "overhead-mcq-05",
-        "overhead-mcq-06"
+        "overhead-mcq-11",
+        "overhead-mcq-13",
+        "overhead-mcq-14"
       ],
       "explanation": "本句的「overhead」指「維持企業運作但不能直接歸入某項產品、服務或交易的間接成本／間接費用」。",
       "sentenceIndex": 2,
@@ -365,12 +379,10 @@ export default {
         "overhead"
       ],
       "optionReasons": {
-        "overhead-mcq-01": "本句指「維持企業運作但不能直接歸入某項產品、服務或交易的間接成本／間接費用」。",
-        "overhead-mcq-02": "「企業日常的間接營運開支」與本句語境不同。",
-        "overhead-mcq-03": "「生產活動中的間接製造成本」與本句語境不同。",
-        "overhead-mcq-04": "「行政管理產生的間接成本」與本句語境不同。",
-        "overhead-mcq-05": "「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」與本句語境不同。",
-        "overhead-mcq-06": "「流程本身造成的額外協調、管理或文書負擔」與本句語境不同。"
+        "overhead-mcq-01": "本句的「overhead」指「維持企業運作但不能直接歸入某項產品、服務或交易的間接成本／間接費用」。",
+        "overhead-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-01"
     },
@@ -382,11 +394,9 @@ export default {
       "masked": "Small businesses often struggle with high ____.",
       "options": [
         "overhead-mcq-02",
-        "overhead-mcq-01",
-        "overhead-mcq-03",
-        "overhead-mcq-04",
-        "overhead-mcq-05",
-        "overhead-mcq-06"
+        "overhead-mcq-09",
+        "overhead-mcq-06",
+        "overhead-mcq-11"
       ],
       "explanation": "本句的「overheads」指「企業日常的間接營運開支」。",
       "sentenceIndex": 3,
@@ -395,12 +405,10 @@ export default {
         "overheads"
       ],
       "optionReasons": {
-        "overhead-mcq-02": "本句指「企業日常的間接營運開支」。",
-        "overhead-mcq-01": "「維持企業運作但不能直接歸入某項產品、服務或交易的間接成本／間接費用」與本句語境不同。",
-        "overhead-mcq-03": "「生產活動中的間接製造成本」與本句語境不同。",
-        "overhead-mcq-04": "「行政管理產生的間接成本」與本句語境不同。",
-        "overhead-mcq-05": "「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」與本句語境不同。",
-        "overhead-mcq-06": "「流程本身造成的額外協調、管理或文書負擔」與本句語境不同。"
+        "overhead-mcq-02": "本句的「overheads」指「企業日常的間接營運開支」。",
+        "overhead-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-02"
     },
@@ -412,10 +420,8 @@ export default {
       "masked": "Moving to a smaller office reduced our ____.",
       "options": [
         "overhead-mcq-02",
-        "overhead-mcq-01",
-        "overhead-mcq-03",
-        "overhead-mcq-04",
-        "overhead-mcq-05",
+        "overhead-mcq-08",
+        "overhead-reviewed-caa931c081",
         "overhead-mcq-06"
       ],
       "explanation": "本句的「overheads」指「企業日常的間接營運開支」。",
@@ -425,12 +431,10 @@ export default {
         "overheads"
       ],
       "optionReasons": {
-        "overhead-mcq-02": "本句指「企業日常的間接營運開支」。",
-        "overhead-mcq-01": "「維持企業運作但不能直接歸入某項產品、服務或交易的間接成本／間接費用」與本句語境不同。",
-        "overhead-mcq-03": "「生產活動中的間接製造成本」與本句語境不同。",
-        "overhead-mcq-04": "「行政管理產生的間接成本」與本句語境不同。",
-        "overhead-mcq-05": "「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」與本句語境不同。",
-        "overhead-mcq-06": "「流程本身造成的額外協調、管理或文書負擔」與本句語境不同。"
+        "overhead-mcq-02": "本句的「overheads」指「企業日常的間接營運開支」。",
+        "overhead-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "overhead-reviewed-caa931c081": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-02"
     },
@@ -442,11 +446,9 @@ export default {
       "masked": "The company allocates manufacturing ____ to each product.",
       "options": [
         "overhead-mcq-03",
-        "overhead-mcq-02",
-        "overhead-mcq-04",
-        "overhead-mcq-01",
-        "overhead-mcq-05",
-        "overhead-mcq-06"
+        "overhead-reviewed-eaa6929213",
+        "overhead-mcq-09",
+        "overhead-mcq-13"
       ],
       "explanation": "本句的「overhead」指「生產活動中的間接製造成本」。",
       "sentenceIndex": 5,
@@ -455,12 +457,10 @@ export default {
         "overhead"
       ],
       "optionReasons": {
-        "overhead-mcq-03": "本句指「生產活動中的間接製造成本」。",
-        "overhead-mcq-02": "「企業日常的間接營運開支」與本句語境不同。",
-        "overhead-mcq-04": "「行政管理產生的間接成本」與本句語境不同。",
-        "overhead-mcq-01": "「維持企業運作但不能直接歸入某項產品、服務或交易的間接成本／間接費用」與本句語境不同。",
-        "overhead-mcq-05": "「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」與本句語境不同。",
-        "overhead-mcq-06": "「流程本身造成的額外協調、管理或文書負擔」與本句語境不同。"
+        "overhead-mcq-03": "本句的「overhead」指「生產活動中的間接製造成本」。",
+        "overhead-reviewed-eaa6929213": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-03"
     },
@@ -472,11 +472,9 @@ export default {
       "masked": "The charity aims to keep administrative ____ low.",
       "options": [
         "overhead-mcq-04",
-        "overhead-mcq-03",
-        "overhead-mcq-05",
-        "overhead-mcq-02",
-        "overhead-mcq-06",
-        "overhead-mcq-01"
+        "overhead-mcq-14",
+        "overhead-mcq-10",
+        "overhead-reviewed-eaa6929213"
       ],
       "explanation": "本句的「overhead」指「行政管理產生的間接成本」。",
       "sentenceIndex": 6,
@@ -485,12 +483,10 @@ export default {
         "overhead"
       ],
       "optionReasons": {
-        "overhead-mcq-04": "本句指「行政管理產生的間接成本」。",
-        "overhead-mcq-03": "「生產活動中的間接製造成本」與本句語境不同。",
-        "overhead-mcq-05": "「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」與本句語境不同。",
-        "overhead-mcq-02": "「企業日常的間接營運開支」與本句語境不同。",
-        "overhead-mcq-06": "「流程本身造成的額外協調、管理或文書負擔」與本句語境不同。",
-        "overhead-mcq-01": "「維持企業運作但不能直接歸入某項產品、服務或交易的間接成本／間接費用」與本句語境不同。"
+        "overhead-mcq-04": "本句的「overhead」指「行政管理產生的間接成本」。",
+        "overhead-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "overhead-reviewed-eaa6929213": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-04"
     },
@@ -502,11 +498,9 @@ export default {
       "masked": "Encryption adds some processing ____.",
       "options": [
         "overhead-mcq-05",
-        "overhead-mcq-04",
-        "overhead-mcq-06",
-        "overhead-mcq-03",
+        "overhead-mcq-10",
         "overhead-mcq-07",
-        "overhead-mcq-02"
+        "overhead-reviewed-eaa6929213"
       ],
       "explanation": "本句的「overhead」指「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」。",
       "sentenceIndex": 7,
@@ -515,12 +509,10 @@ export default {
         "overhead"
       ],
       "optionReasons": {
-        "overhead-mcq-05": "本句指「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」。",
-        "overhead-mcq-04": "「行政管理產生的間接成本」與本句語境不同。",
-        "overhead-mcq-06": "「流程本身造成的額外協調、管理或文書負擔」與本句語境不同。",
-        "overhead-mcq-03": "「生產活動中的間接製造成本」與本句語境不同。",
-        "overhead-mcq-07": "「位於頭頂／上方的」與本句語境不同。",
-        "overhead-mcq-02": "「企業日常的間接營運開支」與本句語境不同。"
+        "overhead-mcq-05": "本句的「overhead」指「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」。",
+        "overhead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overhead-reviewed-eaa6929213": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-05"
     },
@@ -532,11 +524,9 @@ export default {
       "masked": "The extra approval process creates unnecessary administrative ____.",
       "options": [
         "overhead-mcq-05",
-        "overhead-mcq-04",
-        "overhead-mcq-06",
-        "overhead-mcq-03",
-        "overhead-mcq-07",
-        "overhead-mcq-02"
+        "overhead-mcq-09",
+        "overhead-mcq-10",
+        "overhead-mcq-13"
       ],
       "explanation": "本句的「overhead」指「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」。",
       "sentenceIndex": 8,
@@ -545,12 +535,10 @@ export default {
         "overhead"
       ],
       "optionReasons": {
-        "overhead-mcq-05": "本句指「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」。",
-        "overhead-mcq-04": "「行政管理產生的間接成本」與本句語境不同。",
-        "overhead-mcq-06": "「流程本身造成的額外協調、管理或文書負擔」與本句語境不同。",
-        "overhead-mcq-03": "「生產活動中的間接製造成本」與本句語境不同。",
-        "overhead-mcq-07": "「位於頭頂／上方的」與本句語境不同。",
-        "overhead-mcq-02": "「企業日常的間接營運開支」與本句語境不同。"
+        "overhead-mcq-05": "本句的「overhead」指「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」。",
+        "overhead-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-05"
     },
@@ -562,11 +550,9 @@ export default {
       "masked": "The software introduces significant memory ____.",
       "options": [
         "overhead-mcq-06",
-        "overhead-mcq-05",
-        "overhead-mcq-07",
-        "overhead-mcq-04",
-        "overhead-mcq-08",
-        "overhead-mcq-03"
+        "overhead-mcq-10",
+        "overhead-mcq-11",
+        "overhead-mcq-02"
       ],
       "explanation": "本句的「overhead」指「流程本身造成的額外協調、管理或文書負擔」。",
       "sentenceIndex": 9,
@@ -575,12 +561,10 @@ export default {
         "overhead"
       ],
       "optionReasons": {
-        "overhead-mcq-06": "本句指「流程本身造成的額外協調、管理或文書負擔」。",
-        "overhead-mcq-05": "「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」與本句語境不同。",
-        "overhead-mcq-07": "「位於頭頂／上方的」與本句語境不同。",
-        "overhead-mcq-04": "「行政管理產生的間接成本」與本句語境不同。",
-        "overhead-mcq-08": "「在頭頂上方／從上空」與本句語境不同。",
-        "overhead-mcq-03": "「生產活動中的間接製造成本」與本句語境不同。"
+        "overhead-mcq-06": "本句的「overhead」指「流程本身造成的額外協調、管理或文書負擔」。",
+        "overhead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-06"
     },
@@ -592,11 +576,9 @@ export default {
       "masked": "Each packet contains protocol ____.",
       "options": [
         "overhead-mcq-06",
-        "overhead-mcq-05",
         "overhead-mcq-07",
-        "overhead-mcq-04",
-        "overhead-mcq-08",
-        "overhead-mcq-03"
+        "overhead-reviewed-caa931c081",
+        "overhead-mcq-13"
       ],
       "explanation": "本句的「overhead」指「流程本身造成的額外協調、管理或文書負擔」。",
       "sentenceIndex": 10,
@@ -605,12 +587,10 @@ export default {
         "overhead"
       ],
       "optionReasons": {
-        "overhead-mcq-06": "本句指「流程本身造成的額外協調、管理或文書負擔」。",
-        "overhead-mcq-05": "「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」與本句語境不同。",
-        "overhead-mcq-07": "「位於頭頂／上方的」與本句語境不同。",
-        "overhead-mcq-04": "「行政管理產生的間接成本」與本句語境不同。",
-        "overhead-mcq-08": "「在頭頂上方／從上空」與本句語境不同。",
-        "overhead-mcq-03": "「生產活動中的間接製造成本」與本句語境不同。"
+        "overhead-mcq-06": "本句的「overhead」指「流程本身造成的額外協調、管理或文書負擔」。",
+        "overhead-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overhead-reviewed-caa931c081": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-06"
     },
@@ -622,11 +602,9 @@ export default {
       "masked": "The ____ lights were too bright.",
       "options": [
         "overhead-mcq-07",
-        "overhead-mcq-06",
-        "overhead-mcq-08",
-        "overhead-mcq-05",
-        "overhead-mcq-09",
-        "overhead-mcq-04"
+        "overhead-mcq-13",
+        "overhead-mcq-10",
+        "overhead-mcq-03"
       ],
       "explanation": "本句的「overhead」指「位於頭頂／上方的」。",
       "sentenceIndex": 11,
@@ -635,12 +613,10 @@ export default {
         "overhead"
       ],
       "optionReasons": {
-        "overhead-mcq-07": "本句指「位於頭頂／上方的」。",
-        "overhead-mcq-06": "「流程本身造成的額外協調、管理或文書負擔」與本句語境不同。",
-        "overhead-mcq-08": "「在頭頂上方／從上空」與本句語境不同。",
-        "overhead-mcq-05": "「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」與本句語境不同。",
-        "overhead-mcq-09": "「頭頂行李艙」與本句語境不同。",
-        "overhead-mcq-04": "「行政管理產生的間接成本」與本句語境不同。"
+        "overhead-mcq-07": "本句的「overhead」指「位於頭頂／上方的」。",
+        "overhead-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-07"
     },
@@ -652,11 +628,9 @@ export default {
       "masked": "Be careful of the ____ cables.",
       "options": [
         "overhead-mcq-07",
-        "overhead-mcq-06",
-        "overhead-mcq-08",
-        "overhead-mcq-05",
-        "overhead-mcq-09",
-        "overhead-mcq-04"
+        "overhead-reviewed-eaa6929213",
+        "overhead-mcq-02",
+        "overhead-mcq-06"
       ],
       "explanation": "本句的「overhead」指「位於頭頂／上方的」。",
       "sentenceIndex": 12,
@@ -665,12 +639,10 @@ export default {
         "overhead"
       ],
       "optionReasons": {
-        "overhead-mcq-07": "本句指「位於頭頂／上方的」。",
-        "overhead-mcq-06": "「流程本身造成的額外協調、管理或文書負擔」與本句語境不同。",
-        "overhead-mcq-08": "「在頭頂上方／從上空」與本句語境不同。",
-        "overhead-mcq-05": "「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」與本句語境不同。",
-        "overhead-mcq-09": "「頭頂行李艙」與本句語境不同。",
-        "overhead-mcq-04": "「行政管理產生的間接成本」與本句語境不同。"
+        "overhead-mcq-07": "本句的「overhead」指「位於頭頂／上方的」。",
+        "overhead-reviewed-eaa6929213": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-07"
     },
@@ -682,11 +654,9 @@ export default {
       "masked": "A plane flew ____.",
       "options": [
         "overhead-mcq-08",
-        "overhead-mcq-07",
-        "overhead-mcq-09",
-        "overhead-mcq-06",
-        "overhead-mcq-10",
-        "overhead-mcq-05"
+        "overhead-mcq-01",
+        "overhead-reviewed-caa931c081",
+        "overhead-mcq-13"
       ],
       "explanation": "本句的「overhead」指「在頭頂上方／從上空」。",
       "sentenceIndex": 13,
@@ -695,12 +665,10 @@ export default {
         "overhead"
       ],
       "optionReasons": {
-        "overhead-mcq-08": "本句指「在頭頂上方／從上空」。",
-        "overhead-mcq-07": "「位於頭頂／上方的」與本句語境不同。",
-        "overhead-mcq-09": "「頭頂行李艙」與本句語境不同。",
-        "overhead-mcq-06": "「流程本身造成的額外協調、管理或文書負擔」與本句語境不同。",
-        "overhead-mcq-10": "「架空電線／電纜」與本句語境不同。",
-        "overhead-mcq-05": "「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」與本句語境不同。"
+        "overhead-mcq-08": "本句的「overhead」指「在頭頂上方／從上空」。",
+        "overhead-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "overhead-reviewed-caa931c081": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-08"
     },
@@ -712,11 +680,9 @@ export default {
       "masked": "We heard thunder ____.",
       "options": [
         "overhead-mcq-08",
-        "overhead-mcq-07",
-        "overhead-mcq-09",
-        "overhead-mcq-06",
-        "overhead-mcq-10",
-        "overhead-mcq-05"
+        "overhead-mcq-03",
+        "overhead-reviewed-caa931c081",
+        "overhead-mcq-13"
       ],
       "explanation": "本句的「overhead」指「在頭頂上方／從上空」。",
       "sentenceIndex": 14,
@@ -725,12 +691,10 @@ export default {
         "overhead"
       ],
       "optionReasons": {
-        "overhead-mcq-08": "本句指「在頭頂上方／從上空」。",
-        "overhead-mcq-07": "「位於頭頂／上方的」與本句語境不同。",
-        "overhead-mcq-09": "「頭頂行李艙」與本句語境不同。",
-        "overhead-mcq-06": "「流程本身造成的額外協調、管理或文書負擔」與本句語境不同。",
-        "overhead-mcq-10": "「架空電線／電纜」與本句語境不同。",
-        "overhead-mcq-05": "「為支援系統／流程運作而額外消耗的運算、記憶體、時間或資料資源」與本句語境不同。"
+        "overhead-mcq-08": "本句的「overhead」指「在頭頂上方／從上空」。",
+        "overhead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "overhead-reviewed-caa931c081": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-08"
     },
@@ -742,11 +706,9 @@ export default {
       "masked": "Please place your bag in the ____.",
       "options": [
         "overhead-mcq-09",
-        "overhead-mcq-08",
-        "overhead-mcq-10",
-        "overhead-mcq-07",
-        "overhead-mcq-11",
-        "overhead-mcq-06"
+        "overhead-reviewed-caa931c081",
+        "overhead-mcq-03",
+        "overhead-mcq-10"
       ],
       "explanation": "本句的「overhead compartment」指「頭頂行李艙」。",
       "sentenceIndex": 15,
@@ -755,12 +717,10 @@ export default {
         "overhead compartment"
       ],
       "optionReasons": {
-        "overhead-mcq-09": "本句指「頭頂行李艙」。",
-        "overhead-mcq-08": "「在頭頂上方／從上空」與本句語境不同。",
-        "overhead-mcq-10": "「架空電線／電纜」與本句語境不同。",
-        "overhead-mcq-07": "「位於頭頂／上方的」與本句語境不同。",
-        "overhead-mcq-11": "「從上方俯拍的鏡頭」與本句語境不同。",
-        "overhead-mcq-06": "「流程本身造成的額外協調、管理或文書負擔」與本句語境不同。"
+        "overhead-mcq-09": "本句的「overhead compartment」指「頭頂行李艙」。",
+        "overhead-reviewed-caa931c081": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-09"
     },
@@ -772,11 +732,9 @@ export default {
       "masked": "The railway uses ____ to supply electricity.",
       "options": [
         "overhead-mcq-10",
+        "overhead-reviewed-caa931c081",
         "overhead-mcq-09",
-        "overhead-mcq-11",
-        "overhead-mcq-08",
-        "overhead-mcq-12",
-        "overhead-mcq-07"
+        "overhead-mcq-13"
       ],
       "explanation": "本句的「overhead lines」指「架空電線／電纜」。",
       "sentenceIndex": 16,
@@ -785,44 +743,40 @@ export default {
         "overhead lines"
       ],
       "optionReasons": {
-        "overhead-mcq-10": "本句指「架空電線／電纜」。",
-        "overhead-mcq-09": "「頭頂行李艙」與本句語境不同。",
-        "overhead-mcq-11": "「從上方俯拍的鏡頭」與本句語境不同。",
-        "overhead-mcq-08": "「在頭頂上方／從上空」與本句語境不同。",
-        "overhead-mcq-12": "「從頭頂上方擊出的球／動作」與本句語境不同。",
-        "overhead-mcq-07": "「位於頭頂／上方的」與本句語境不同。"
+        "overhead-mcq-10": "本句的「overhead lines」指「架空電線／電纜」。",
+        "overhead-reviewed-caa931c081": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-10"
     },
     {
       "id": "overhead-12-0",
-      "sense": "overhead-mcq-10",
+      "sense": "overhead-reviewed-eaa6929213",
       "en": "An overhead crane moved the heavy equipment across the factory.",
       "zh": "一部橋式／高架起重機把重型設備移過工廠。",
       "masked": "An ____ moved the heavy equipment across the factory.",
       "options": [
-        "overhead-mcq-10",
-        "overhead-mcq-09",
-        "overhead-mcq-11",
-        "overhead-mcq-08",
-        "overhead-mcq-12",
-        "overhead-mcq-07"
+        "overhead-reviewed-eaa6929213",
+        "overhead-mcq-05",
+        "overhead-mcq-07",
+        "overhead-mcq-02"
       ],
-      "explanation": "本句的「overhead crane」指「架空電線／電纜」。",
+      "explanation": "對照完整句子：「一部橋式／高架起重機把重型設備移過工廠。」。這裡的「overhead crane」表示「橋式起重機／高架起重機」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "overhead crane"
       ],
       "optionReasons": {
-        "overhead-mcq-10": "本句指「架空電線／電纜」。",
-        "overhead-mcq-09": "「頭頂行李艙」與本句語境不同。",
-        "overhead-mcq-11": "「從上方俯拍的鏡頭」與本句語境不同。",
-        "overhead-mcq-08": "「在頭頂上方／從上空」與本句語境不同。",
-        "overhead-mcq-12": "「從頭頂上方擊出的球／動作」與本句語境不同。",
-        "overhead-mcq-07": "「位於頭頂／上方的」與本句語境不同。"
+        "overhead-reviewed-eaa6929213": "對照完整句子：「一部橋式／高架起重機把重型設備移過工廠。」。這裡的「overhead crane」表示「橋式起重機／高架起重機」。",
+        "overhead-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "overhead-mcq-10"
+      "correctOption": "overhead-reviewed-eaa6929213",
+      "previousCorrectOption": "overhead-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "overhead-13-0",
@@ -832,11 +786,9 @@ export default {
       "masked": "The film opens with an ____ of the city.",
       "options": [
         "overhead-mcq-11",
-        "overhead-mcq-10",
-        "overhead-mcq-12",
-        "overhead-mcq-09",
+        "overhead-mcq-01",
         "overhead-mcq-13",
-        "overhead-mcq-08"
+        "overhead-reviewed-caa931c081"
       ],
       "explanation": "本句的「overhead shot」指「從上方俯拍的鏡頭」。",
       "sentenceIndex": 18,
@@ -845,44 +797,40 @@ export default {
         "overhead shot"
       ],
       "optionReasons": {
-        "overhead-mcq-11": "本句指「從上方俯拍的鏡頭」。",
-        "overhead-mcq-10": "「架空電線／電纜」與本句語境不同。",
-        "overhead-mcq-12": "「從頭頂上方擊出的球／動作」與本句語境不同。",
-        "overhead-mcq-09": "「頭頂行李艙」與本句語境不同。",
-        "overhead-mcq-13": "「足球倒掛金鈎」與本句語境不同。",
-        "overhead-mcq-08": "「在頭頂上方／從上空」與本句語境不同。"
+        "overhead-mcq-11": "本句的「overhead shot」指「從上方俯拍的鏡頭」。",
+        "overhead-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "overhead-reviewed-caa931c081": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-11"
     },
     {
       "id": "overhead-14-0",
-      "sense": "overhead-mcq-11",
+      "sense": "overhead-reviewed-caa931c081",
       "en": "The teacher used an overhead projector.",
       "zh": "老師使用了一部投影機／高映機。",
       "masked": "The teacher used an ____.",
       "options": [
-        "overhead-mcq-11",
-        "overhead-mcq-10",
-        "overhead-mcq-12",
-        "overhead-mcq-09",
-        "overhead-mcq-13",
-        "overhead-mcq-08"
+        "overhead-reviewed-caa931c081",
+        "overhead-mcq-03",
+        "overhead-mcq-07",
+        "overhead-mcq-10"
       ],
-      "explanation": "本句的「overhead projector」指「從上方俯拍的鏡頭」。",
+      "explanation": "對照完整句子：「老師使用了一部投影機／高映機。」。這裡的「overhead projector」表示「投影機／高映機」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "overhead projector"
       ],
       "optionReasons": {
-        "overhead-mcq-11": "本句指「從上方俯拍的鏡頭」。",
-        "overhead-mcq-10": "「架空電線／電纜」與本句語境不同。",
-        "overhead-mcq-12": "「從頭頂上方擊出的球／動作」與本句語境不同。",
-        "overhead-mcq-09": "「頭頂行李艙」與本句語境不同。",
-        "overhead-mcq-13": "「足球倒掛金鈎」與本句語境不同。",
-        "overhead-mcq-08": "「在頭頂上方／從上空」與本句語境不同。"
+        "overhead-reviewed-caa931c081": "對照完整句子：「老師使用了一部投影機／高映機。」。這裡的「overhead projector」表示「投影機／高映機」。",
+        "overhead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "overhead-mcq-11"
+      "correctOption": "overhead-reviewed-caa931c081",
+      "previousCorrectOption": "overhead-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "overhead-16-0",
@@ -892,11 +840,9 @@ export default {
       "masked": "He scored with a spectacular ____.",
       "options": [
         "overhead-mcq-13",
-        "overhead-mcq-12",
-        "overhead-mcq-14",
-        "overhead-mcq-11",
-        "overhead-mcq-10",
-        "overhead-mcq-09"
+        "overhead-mcq-08",
+        "overhead-mcq-04",
+        "overhead-reviewed-eaa6929213"
       ],
       "explanation": "本句的「overhead kick」指「足球倒掛金鈎」。",
       "sentenceIndex": 21,
@@ -905,12 +851,10 @@ export default {
         "overhead kick"
       ],
       "optionReasons": {
-        "overhead-mcq-13": "本句指「足球倒掛金鈎」。",
-        "overhead-mcq-12": "「從頭頂上方擊出的球／動作」與本句語境不同。",
-        "overhead-mcq-14": "「過頭推舉」與本句語境不同。",
-        "overhead-mcq-11": "「從上方俯拍的鏡頭」與本句語境不同。",
-        "overhead-mcq-10": "「架空電線／電纜」與本句語境不同。",
-        "overhead-mcq-09": "「頭頂行李艙」與本句語境不同。"
+        "overhead-mcq-13": "本句的「overhead kick」指「足球倒掛金鈎」。",
+        "overhead-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "overhead-reviewed-eaa6929213": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-13"
     },
@@ -922,11 +866,9 @@ export default {
       "masked": "She included the ____ in her workout.",
       "options": [
         "overhead-mcq-14",
-        "overhead-mcq-13",
-        "overhead-mcq-12",
-        "overhead-mcq-11",
-        "overhead-mcq-10",
-        "overhead-mcq-09"
+        "overhead-mcq-02",
+        "overhead-reviewed-caa931c081",
+        "overhead-mcq-10"
       ],
       "explanation": "本句的「overhead press」指「過頭推舉」。",
       "sentenceIndex": 22,
@@ -935,12 +877,10 @@ export default {
         "overhead press"
       ],
       "optionReasons": {
-        "overhead-mcq-14": "本句指「過頭推舉」。",
-        "overhead-mcq-13": "「足球倒掛金鈎」與本句語境不同。",
-        "overhead-mcq-12": "「從頭頂上方擊出的球／動作」與本句語境不同。",
-        "overhead-mcq-11": "「從上方俯拍的鏡頭」與本句語境不同。",
-        "overhead-mcq-10": "「架空電線／電纜」與本句語境不同。",
-        "overhead-mcq-09": "「頭頂行李艙」與本句語境不同。"
+        "overhead-mcq-14": "本句的「overhead press」指「過頭推舉」。",
+        "overhead-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "overhead-reviewed-caa931c081": "請比較這個意思與句子中標示的用法。",
+        "overhead-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overhead-mcq-14"
     }
@@ -952,5 +892,7 @@ export default {
     "sha256": "da14ce2a26c622f2d92892da4daa2c5bd8f50c29cdd94e5412a92dab5c7f97d5",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -656,11 +656,9 @@ export default {
       "masked": "One ____ in my life was becoming more organised.",
       "options": [
         "positive-mcq-01",
-        "positive-mcq-02",
-        "positive-mcq-03",
-        "positive-mcq-04",
-        "positive-mcq-05",
-        "positive-mcq-06"
+        "positive-mcq-14",
+        "positive-pdf-001",
+        "positive-mcq-10"
       ],
       "explanation": "本句的「positive change」指「正面的；有益的」。",
       "sentenceIndex": 0,
@@ -669,12 +667,10 @@ export default {
         "positive change"
       ],
       "optionReasons": {
-        "positive-mcq-01": "本句指「正面的；有益的」。",
-        "positive-mcq-02": "「正面改變」與本句語境不同。",
-        "positive-mcq-03": "「正面效果」與本句語境不同。",
-        "positive-mcq-04": "「良好結果」與本句語境不同。",
-        "positive-mcq-05": "「正面經歷」與本句語境不同。",
-        "positive-mcq-06": "「積極態度」與本句語境不同。"
+        "positive-mcq-01": "本句的「positive change」指「正面的；有益的」。",
+        "positive-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "positive-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-01"
     },
@@ -686,11 +682,9 @@ export default {
       "masked": "The new habit had a ____ on my work.",
       "options": [
         "positive-mcq-01",
-        "positive-mcq-02",
-        "positive-mcq-03",
         "positive-mcq-04",
-        "positive-mcq-05",
-        "positive-mcq-06"
+        "positive-mcq-08",
+        "positive-mcq-16"
       ],
       "explanation": "本句的「positive effect」指「正面的；有益的」。",
       "sentenceIndex": 1,
@@ -699,12 +693,10 @@ export default {
         "positive effect"
       ],
       "optionReasons": {
-        "positive-mcq-01": "本句指「正面的；有益的」。",
-        "positive-mcq-02": "「正面改變」與本句語境不同。",
-        "positive-mcq-03": "「正面效果」與本句語境不同。",
-        "positive-mcq-04": "「良好結果」與本句語境不同。",
-        "positive-mcq-05": "「正面經歷」與本句語境不同。",
-        "positive-mcq-06": "「積極態度」與本句語境不同。"
+        "positive-mcq-01": "本句的「positive effect」指「正面的；有益的」。",
+        "positive-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-01"
     },
@@ -716,11 +708,9 @@ export default {
       "masked": "It turned out to be a very ____.",
       "options": [
         "positive-mcq-01",
-        "positive-mcq-02",
-        "positive-mcq-03",
-        "positive-mcq-04",
-        "positive-mcq-05",
-        "positive-mcq-06"
+        "positive-mcq-06",
+        "positive-mcq-20",
+        "positive-mcq-09"
       ],
       "explanation": "本句的「positive experience」指「正面的；有益的」。",
       "sentenceIndex": 2,
@@ -729,12 +719,10 @@ export default {
         "positive experience"
       ],
       "optionReasons": {
-        "positive-mcq-01": "本句指「正面的；有益的」。",
-        "positive-mcq-02": "「正面改變」與本句語境不同。",
-        "positive-mcq-03": "「正面效果」與本句語境不同。",
-        "positive-mcq-04": "「良好結果」與本句語境不同。",
-        "positive-mcq-05": "「正面經歷」與本句語境不同。",
-        "positive-mcq-06": "「積極態度」與本句語境不同。"
+        "positive-mcq-01": "本句的「positive experience」指「正面的；有益的」。",
+        "positive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-01"
     },
@@ -746,11 +734,9 @@ export default {
       "masked": "Exercise brought a ____ to her routine.",
       "options": [
         "positive-mcq-02",
-        "positive-mcq-01",
-        "positive-mcq-03",
-        "positive-mcq-04",
-        "positive-mcq-05",
-        "positive-mcq-06"
+        "positive-pdf-001",
+        "positive-mcq-06",
+        "positive-mcq-10"
       ],
       "explanation": "本句的「positive change」指「正面改變」。",
       "sentenceIndex": 3,
@@ -759,12 +745,10 @@ export default {
         "positive change"
       ],
       "optionReasons": {
-        "positive-mcq-02": "本句指「正面改變」。",
-        "positive-mcq-01": "「正面的；有益的」與本句語境不同。",
-        "positive-mcq-03": "「正面效果」與本句語境不同。",
-        "positive-mcq-04": "「良好結果」與本句語境不同。",
-        "positive-mcq-05": "「正面經歷」與本句語境不同。",
-        "positive-mcq-06": "「積極態度」與本句語境不同。"
+        "positive-mcq-02": "本句的「positive change」指「正面改變」。",
+        "positive-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-02"
     },
@@ -776,11 +760,9 @@ export default {
       "masked": "Small habits can lead to ____ over time.",
       "options": [
         "positive-mcq-02",
-        "positive-mcq-01",
-        "positive-mcq-03",
-        "positive-mcq-04",
-        "positive-mcq-05",
-        "positive-mcq-06"
+        "positive-mcq-09",
+        "positive-mcq-08",
+        "positive-mcq-21"
       ],
       "explanation": "本句的「positive changes」指「正面改變」。",
       "sentenceIndex": 4,
@@ -789,12 +771,10 @@ export default {
         "positive changes"
       ],
       "optionReasons": {
-        "positive-mcq-02": "本句指「正面改變」。",
-        "positive-mcq-01": "「正面的；有益的」與本句語境不同。",
-        "positive-mcq-03": "「正面效果」與本句語境不同。",
-        "positive-mcq-04": "「良好結果」與本句語境不同。",
-        "positive-mcq-05": "「正面經歷」與本句語境不同。",
-        "positive-mcq-06": "「積極態度」與本句語境不同。"
+        "positive-mcq-02": "本句的「positive changes」指「正面改變」。",
+        "positive-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-02"
     },
@@ -806,11 +786,9 @@ export default {
       "masked": "Better planning had a ____ on my confidence.",
       "options": [
         "positive-mcq-03",
-        "positive-mcq-02",
-        "positive-mcq-04",
-        "positive-mcq-01",
-        "positive-mcq-05",
-        "positive-mcq-06"
+        "positive-mcq-23",
+        "positive-mcq-08",
+        "positive-pdf-001"
       ],
       "explanation": "本句的「positive impact」指「正面效果」。",
       "sentenceIndex": 5,
@@ -819,12 +797,10 @@ export default {
         "positive impact"
       ],
       "optionReasons": {
-        "positive-mcq-03": "本句指「正面效果」。",
-        "positive-mcq-02": "「正面改變」與本句語境不同。",
-        "positive-mcq-04": "「良好結果」與本句語境不同。",
-        "positive-mcq-01": "「正面的；有益的」與本句語境不同。",
-        "positive-mcq-05": "「正面經歷」與本句語境不同。",
-        "positive-mcq-06": "「積極態度」與本句語境不同。"
+        "positive-mcq-03": "本句的「positive impact」指「正面效果」。",
+        "positive-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "positive-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-03"
     },
@@ -836,11 +812,9 @@ export default {
       "masked": "The policy had a ____ on attendance.",
       "options": [
         "positive-mcq-03",
-        "positive-mcq-02",
-        "positive-mcq-04",
-        "positive-mcq-01",
-        "positive-mcq-05",
-        "positive-mcq-06"
+        "positive-mcq-15",
+        "positive-mcq-21",
+        "positive-mcq-23"
       ],
       "explanation": "本句的「positive effect」指「正面效果」。",
       "sentenceIndex": 6,
@@ -849,12 +823,10 @@ export default {
         "positive effect"
       ],
       "optionReasons": {
-        "positive-mcq-03": "本句指「正面效果」。",
-        "positive-mcq-02": "「正面改變」與本句語境不同。",
-        "positive-mcq-04": "「良好結果」與本句語境不同。",
-        "positive-mcq-01": "「正面的；有益的」與本句語境不同。",
-        "positive-mcq-05": "「正面經歷」與本句語境不同。",
-        "positive-mcq-06": "「積極態度」與本句語境不同。"
+        "positive-mcq-03": "本句的「positive effect」指「正面效果」。",
+        "positive-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-03"
     },
@@ -866,11 +838,9 @@ export default {
       "masked": "The change produced ____.",
       "options": [
         "positive-mcq-04",
-        "positive-mcq-03",
-        "positive-mcq-05",
-        "positive-mcq-02",
-        "positive-mcq-06",
-        "positive-mcq-01"
+        "positive-mcq-10",
+        "positive-mcq-01",
+        "positive-mcq-09"
       ],
       "explanation": "本句的「positive results」指「良好結果」。",
       "sentenceIndex": 7,
@@ -879,12 +849,10 @@ export default {
         "positive results"
       ],
       "optionReasons": {
-        "positive-mcq-04": "本句指「良好結果」。",
-        "positive-mcq-03": "「正面效果」與本句語境不同。",
-        "positive-mcq-05": "「正面經歷」與本句語境不同。",
-        "positive-mcq-02": "「正面改變」與本句語境不同。",
-        "positive-mcq-06": "「積極態度」與本句語境不同。",
-        "positive-mcq-01": "「正面的；有益的」與本句語境不同。"
+        "positive-mcq-04": "本句的「positive results」指「良好結果」。",
+        "positive-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-04"
     },
@@ -896,11 +864,9 @@ export default {
       "masked": "We were pleased with the ____.",
       "options": [
         "positive-mcq-04",
-        "positive-mcq-03",
-        "positive-mcq-05",
-        "positive-mcq-02",
-        "positive-mcq-06",
-        "positive-mcq-01"
+        "positive-mcq-11",
+        "positive-mcq-27",
+        "positive-mcq-25"
       ],
       "explanation": "本句的「positive outcome」指「良好結果」。",
       "sentenceIndex": 8,
@@ -909,12 +875,10 @@ export default {
         "positive outcome"
       ],
       "optionReasons": {
-        "positive-mcq-04": "本句指「良好結果」。",
-        "positive-mcq-03": "「正面效果」與本句語境不同。",
-        "positive-mcq-05": "「正面經歷」與本句語境不同。",
-        "positive-mcq-02": "「正面改變」與本句語境不同。",
-        "positive-mcq-06": "「積極態度」與本句語境不同。",
-        "positive-mcq-01": "「正面的；有益的」與本句語境不同。"
+        "positive-mcq-04": "本句的「positive outcome」指「良好結果」。",
+        "positive-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-04"
     },
@@ -926,11 +890,9 @@ export default {
       "masked": "University was a mostly ____ for me.",
       "options": [
         "positive-mcq-05",
-        "positive-mcq-04",
+        "positive-mcq-16",
         "positive-mcq-06",
-        "positive-mcq-03",
-        "positive-mcq-07",
-        "positive-mcq-02"
+        "positive-mcq-25"
       ],
       "explanation": "本句的「positive experience」指「正面經歷」。",
       "sentenceIndex": 9,
@@ -939,12 +901,10 @@ export default {
         "positive experience"
       ],
       "optionReasons": {
-        "positive-mcq-05": "本句指「正面經歷」。",
-        "positive-mcq-04": "「良好結果」與本句語境不同。",
-        "positive-mcq-06": "「積極態度」與本句語境不同。",
-        "positive-mcq-03": "「正面效果」與本句語境不同。",
-        "positive-mcq-07": "「正面思考」與本句語境不同。",
-        "positive-mcq-02": "「正面改變」與本句語境不同。"
+        "positive-mcq-05": "本句的「positive experience」指「正面經歷」。",
+        "positive-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-05"
     },
@@ -956,11 +916,9 @@ export default {
       "masked": "The internship became a ____.",
       "options": [
         "positive-mcq-05",
-        "positive-mcq-04",
+        "positive-mcq-20",
         "positive-mcq-06",
-        "positive-mcq-03",
-        "positive-mcq-07",
-        "positive-mcq-02"
+        "positive-mcq-14"
       ],
       "explanation": "本句的「positive learning experience」指「正面經歷」。",
       "sentenceIndex": 10,
@@ -969,12 +927,10 @@ export default {
         "positive learning experience"
       ],
       "optionReasons": {
-        "positive-mcq-05": "本句指「正面經歷」。",
-        "positive-mcq-04": "「良好結果」與本句語境不同。",
-        "positive-mcq-06": "「積極態度」與本句語境不同。",
-        "positive-mcq-03": "「正面效果」與本句語境不同。",
-        "positive-mcq-07": "「正面思考」與本句語境不同。",
-        "positive-mcq-02": "「正面改變」與本句語境不同。"
+        "positive-mcq-05": "本句的「positive learning experience」指「正面經歷」。",
+        "positive-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-05"
     },
@@ -986,11 +942,9 @@ export default {
       "masked": "She kept a ____ during the difficult period.",
       "options": [
         "positive-mcq-06",
-        "positive-mcq-05",
-        "positive-mcq-07",
+        "positive-mcq-22",
         "positive-mcq-04",
-        "positive-mcq-08",
-        "positive-mcq-03"
+        "positive-mcq-16"
       ],
       "explanation": "本句的「positive attitude」指「積極態度」。",
       "sentenceIndex": 11,
@@ -999,12 +953,10 @@ export default {
         "positive attitude"
       ],
       "optionReasons": {
-        "positive-mcq-06": "本句指「積極態度」。",
-        "positive-mcq-05": "「正面經歷」與本句語境不同。",
-        "positive-mcq-07": "「正面思考」與本句語境不同。",
-        "positive-mcq-04": "「良好結果」與本句語境不同。",
-        "positive-mcq-08": "「保持積極」與本句語境不同。",
-        "positive-mcq-03": "「正面效果」與本句語境不同。"
+        "positive-mcq-06": "本句的「positive attitude」指「積極態度」。",
+        "positive-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-06"
     },
@@ -1016,11 +968,9 @@ export default {
       "masked": "A ____ can make challenges easier to handle.",
       "options": [
         "positive-mcq-06",
-        "positive-mcq-05",
-        "positive-mcq-07",
-        "positive-mcq-04",
-        "positive-mcq-08",
-        "positive-mcq-03"
+        "positive-mcq-10",
+        "positive-mcq-15",
+        "positive-mcq-13"
       ],
       "explanation": "本句的「positive attitude」指「積極態度」。",
       "sentenceIndex": 12,
@@ -1029,12 +979,10 @@ export default {
         "positive attitude"
       ],
       "optionReasons": {
-        "positive-mcq-06": "本句指「積極態度」。",
-        "positive-mcq-05": "「正面經歷」與本句語境不同。",
-        "positive-mcq-07": "「正面思考」與本句語境不同。",
-        "positive-mcq-04": "「良好結果」與本句語境不同。",
-        "positive-mcq-08": "「保持積極」與本句語境不同。",
-        "positive-mcq-03": "「正面效果」與本句語境不同。"
+        "positive-mcq-06": "本句的「positive attitude」指「積極態度」。",
+        "positive-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-06"
     },
@@ -1046,11 +994,9 @@ export default {
       "masked": "____ helped him stay motivated.",
       "options": [
         "positive-mcq-07",
-        "positive-mcq-06",
-        "positive-mcq-08",
-        "positive-mcq-05",
-        "positive-mcq-09",
-        "positive-mcq-04"
+        "positive-mcq-14",
+        "positive-pdf-001",
+        "positive-mcq-15"
       ],
       "explanation": "本句的「Positive thinking」指「正面思考」。",
       "sentenceIndex": 13,
@@ -1059,12 +1005,10 @@ export default {
         "Positive thinking"
       ],
       "optionReasons": {
-        "positive-mcq-07": "本句指「正面思考」。",
-        "positive-mcq-06": "「積極態度」與本句語境不同。",
-        "positive-mcq-08": "「保持積極」與本句語境不同。",
-        "positive-mcq-05": "「正面經歷」與本句語境不同。",
-        "positive-mcq-09": "「對 X 樂觀」與本句語境不同。",
-        "positive-mcq-04": "「良好結果」與本句語境不同。"
+        "positive-mcq-07": "本句的「Positive thinking」指「正面思考」。",
+        "positive-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "positive-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-07"
     },
@@ -1076,11 +1020,9 @@ export default {
       "masked": "____ thinking does not mean ignoring real problems.",
       "options": [
         "positive-mcq-07",
-        "positive-mcq-06",
-        "positive-mcq-08",
-        "positive-mcq-05",
-        "positive-mcq-09",
-        "positive-mcq-04"
+        "positive-mcq-21",
+        "positive-mcq-25",
+        "positive-mcq-15"
       ],
       "explanation": "本句的「Positive」指「正面思考」。",
       "sentenceIndex": 14,
@@ -1089,12 +1031,10 @@ export default {
         "Positive"
       ],
       "optionReasons": {
-        "positive-mcq-07": "本句指「正面思考」。",
-        "positive-mcq-06": "「積極態度」與本句語境不同。",
-        "positive-mcq-08": "「保持積極」與本句語境不同。",
-        "positive-mcq-05": "「正面經歷」與本句語境不同。",
-        "positive-mcq-09": "「對 X 樂觀」與本句語境不同。",
-        "positive-mcq-04": "「良好結果」與本句語境不同。"
+        "positive-mcq-07": "本句的「Positive」指「正面思考」。",
+        "positive-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-07"
     },
@@ -1106,11 +1046,9 @@ export default {
       "masked": "Try to ____ even when progress is slow.",
       "options": [
         "positive-mcq-08",
-        "positive-mcq-07",
-        "positive-mcq-09",
-        "positive-mcq-06",
-        "positive-mcq-10",
-        "positive-mcq-05"
+        "positive-mcq-22",
+        "positive-mcq-16",
+        "positive-mcq-12"
       ],
       "explanation": "本句的「stay positive」指「保持積極」。",
       "sentenceIndex": 15,
@@ -1119,12 +1057,10 @@ export default {
         "stay positive"
       ],
       "optionReasons": {
-        "positive-mcq-08": "本句指「保持積極」。",
-        "positive-mcq-07": "「正面思考」與本句語境不同。",
-        "positive-mcq-09": "「對 X 樂觀」與本句語境不同。",
-        "positive-mcq-06": "「積極態度」與本句語境不同。",
-        "positive-mcq-10": "「肯定的」與本句語境不同。",
-        "positive-mcq-05": "「正面經歷」與本句語境不同。"
+        "positive-mcq-08": "本句的「stay positive」指「保持積極」。",
+        "positive-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-08"
     },
@@ -1137,10 +1073,8 @@ export default {
       "options": [
         "positive-mcq-08",
         "positive-mcq-07",
-        "positive-mcq-09",
-        "positive-mcq-06",
-        "positive-mcq-10",
-        "positive-mcq-05"
+        "positive-mcq-15",
+        "positive-mcq-25"
       ],
       "explanation": "本句的「positive」指「保持積極」。",
       "sentenceIndex": 16,
@@ -1149,12 +1083,10 @@ export default {
         "positive"
       ],
       "optionReasons": {
-        "positive-mcq-08": "本句指「保持積極」。",
-        "positive-mcq-07": "「正面思考」與本句語境不同。",
-        "positive-mcq-09": "「對 X 樂觀」與本句語境不同。",
-        "positive-mcq-06": "「積極態度」與本句語境不同。",
-        "positive-mcq-10": "「肯定的」與本句語境不同。",
-        "positive-mcq-05": "「正面經歷」與本句語境不同。"
+        "positive-mcq-08": "本句的「positive」指「保持積極」。",
+        "positive-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-08"
     },
@@ -1166,11 +1098,9 @@ export default {
       "masked": "I'm quite ____.",
       "options": [
         "positive-mcq-09",
-        "positive-mcq-08",
-        "positive-mcq-10",
-        "positive-mcq-07",
-        "positive-mcq-11",
-        "positive-mcq-06"
+        "positive-mcq-14",
+        "positive-mcq-01",
+        "positive-mcq-11"
       ],
       "explanation": "本句的「positive about the future」指「對 X 樂觀」。",
       "sentenceIndex": 17,
@@ -1179,12 +1109,10 @@ export default {
         "positive about the future"
       ],
       "optionReasons": {
-        "positive-mcq-09": "本句指「對 X 樂觀」。",
-        "positive-mcq-08": "「保持積極」與本句語境不同。",
-        "positive-mcq-10": "「肯定的」與本句語境不同。",
-        "positive-mcq-07": "「正面思考」與本句語境不同。",
-        "positive-mcq-11": "「肯定……」與本句語境不同。",
-        "positive-mcq-06": "「積極態度」與本句語境不同。"
+        "positive-mcq-09": "本句的「positive about the future」指「對 X 樂觀」。",
+        "positive-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-09"
     },
@@ -1196,11 +1124,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "positive-mcq-09",
-        "positive-mcq-08",
+        "positive-mcq-15",
         "positive-mcq-10",
-        "positive-mcq-07",
-        "positive-mcq-11",
-        "positive-mcq-06"
+        "positive-mcq-04"
       ],
       "explanation": "本句的「positive about the changes」指「對 X 樂觀」。",
       "sentenceIndex": 18,
@@ -1209,12 +1135,10 @@ export default {
         "positive about the changes"
       ],
       "optionReasons": {
-        "positive-mcq-09": "本句指「對 X 樂觀」。",
-        "positive-mcq-08": "「保持積極」與本句語境不同。",
-        "positive-mcq-10": "「肯定的」與本句語境不同。",
-        "positive-mcq-07": "「正面思考」與本句語境不同。",
-        "positive-mcq-11": "「肯定……」與本句語境不同。",
-        "positive-mcq-06": "「積極態度」與本句語境不同。"
+        "positive-mcq-09": "本句的「positive about the changes」指「對 X 樂觀」。",
+        "positive-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-09"
     },
@@ -1226,11 +1150,9 @@ export default {
       "masked": "Are you ____ that this is the right file?",
       "options": [
         "positive-mcq-10",
-        "positive-mcq-09",
-        "positive-mcq-11",
-        "positive-mcq-08",
-        "positive-mcq-12",
-        "positive-mcq-07"
+        "positive-mcq-19",
+        "positive-mcq-25",
+        "positive-mcq-09"
       ],
       "explanation": "本句的「positive」指「肯定的」。",
       "sentenceIndex": 19,
@@ -1239,12 +1161,10 @@ export default {
         "positive"
       ],
       "optionReasons": {
-        "positive-mcq-10": "本句指「肯定的」。",
-        "positive-mcq-09": "「對 X 樂觀」與本句語境不同。",
-        "positive-mcq-11": "「肯定……」與本句語境不同。",
-        "positive-mcq-08": "「保持積極」與本句語境不同。",
-        "positive-mcq-12": "「肯定答覆」與本句語境不同。",
-        "positive-mcq-07": "「正面思考」與本句語境不同。"
+        "positive-mcq-10": "本句的「positive」指「肯定的」。",
+        "positive-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-10"
     },
@@ -1256,11 +1176,9 @@ export default {
       "masked": "I'm ____ I left my keys here.",
       "options": [
         "positive-mcq-10",
-        "positive-mcq-09",
-        "positive-mcq-11",
-        "positive-mcq-08",
-        "positive-mcq-12",
-        "positive-mcq-07"
+        "positive-mcq-27",
+        "positive-mcq-14",
+        "positive-pdf-001"
       ],
       "explanation": "本句的「positive」指「肯定的」。",
       "sentenceIndex": 20,
@@ -1269,12 +1187,10 @@ export default {
         "positive"
       ],
       "optionReasons": {
-        "positive-mcq-10": "本句指「肯定的」。",
-        "positive-mcq-09": "「對 X 樂觀」與本句語境不同。",
-        "positive-mcq-11": "「肯定……」與本句語境不同。",
-        "positive-mcq-08": "「保持積極」與本句語境不同。",
-        "positive-mcq-12": "「肯定答覆」與本句語境不同。",
-        "positive-mcq-07": "「正面思考」與本句語境不同。"
+        "positive-mcq-10": "本句的「positive」指「肯定的」。",
+        "positive-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "positive-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-10"
     },
@@ -1286,11 +1202,9 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "positive-mcq-11",
-        "positive-mcq-10",
-        "positive-mcq-12",
         "positive-mcq-09",
-        "positive-mcq-13",
-        "positive-mcq-08"
+        "positive-mcq-21",
+        "positive-mcq-25"
       ],
       "explanation": "本句的「positive that he uploaded the file」指「肯定……」。",
       "sentenceIndex": 21,
@@ -1299,12 +1213,10 @@ export default {
         "positive that he uploaded the file"
       ],
       "optionReasons": {
-        "positive-mcq-11": "本句指「肯定……」。",
-        "positive-mcq-10": "「肯定的」與本句語境不同。",
-        "positive-mcq-12": "「肯定答覆」與本句語境不同。",
-        "positive-mcq-09": "「對 X 樂觀」與本句語境不同。",
-        "positive-mcq-13": "「正面回饋」與本句語境不同。",
-        "positive-mcq-08": "「保持積極」與本句語境不同。"
+        "positive-mcq-11": "本句的「positive that he uploaded the file」指「肯定……」。",
+        "positive-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-11"
     },
@@ -1316,11 +1228,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "positive-mcq-11",
-        "positive-mcq-10",
-        "positive-mcq-12",
-        "positive-mcq-09",
-        "positive-mcq-13",
-        "positive-mcq-08"
+        "positive-mcq-01",
+        "positive-mcq-14",
+        "positive-mcq-15"
       ],
       "explanation": "本句的「positive that she had seen him before」指「肯定……」。",
       "sentenceIndex": 22,
@@ -1329,12 +1239,10 @@ export default {
         "positive that she had seen him before"
       ],
       "optionReasons": {
-        "positive-mcq-11": "本句指「肯定……」。",
-        "positive-mcq-10": "「肯定的」與本句語境不同。",
-        "positive-mcq-12": "「肯定答覆」與本句語境不同。",
-        "positive-mcq-09": "「對 X 樂觀」與本句語境不同。",
-        "positive-mcq-13": "「正面回饋」與本句語境不同。",
-        "positive-mcq-08": "「保持積極」與本句語境不同。"
+        "positive-mcq-11": "本句的「positive that she had seen him before」指「肯定……」。",
+        "positive-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-11"
     },
@@ -1346,11 +1254,9 @@ export default {
       "masked": "We received a ____ from the client.",
       "options": [
         "positive-mcq-12",
-        "positive-mcq-11",
-        "positive-mcq-13",
-        "positive-mcq-10",
-        "positive-mcq-14",
-        "positive-mcq-09"
+        "positive-pdf-001",
+        "positive-mcq-04",
+        "positive-mcq-17"
       ],
       "explanation": "本句的「positive response」指「肯定答覆」。",
       "sentenceIndex": 23,
@@ -1359,12 +1265,10 @@ export default {
         "positive response"
       ],
       "optionReasons": {
-        "positive-mcq-12": "本句指「肯定答覆」。",
-        "positive-mcq-11": "「肯定……」與本句語境不同。",
-        "positive-mcq-13": "「正面回饋」與本句語境不同。",
-        "positive-mcq-10": "「肯定的」與本句語境不同。",
-        "positive-mcq-14": "「好兆頭」與本句語境不同。",
-        "positive-mcq-09": "「對 X 樂觀」與本句語境不同。"
+        "positive-mcq-12": "本句的「positive response」指「肯定答覆」。",
+        "positive-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-12"
     },
@@ -1376,11 +1280,9 @@ export default {
       "masked": "His answer was ____.",
       "options": [
         "positive-mcq-12",
-        "positive-mcq-11",
-        "positive-mcq-13",
-        "positive-mcq-10",
-        "positive-mcq-14",
-        "positive-mcq-09"
+        "positive-mcq-27",
+        "positive-mcq-06",
+        "positive-mcq-16"
       ],
       "explanation": "本句的「positive」指「肯定答覆」。",
       "sentenceIndex": 24,
@@ -1389,12 +1291,10 @@ export default {
         "positive"
       ],
       "optionReasons": {
-        "positive-mcq-12": "本句指「肯定答覆」。",
-        "positive-mcq-11": "「肯定……」與本句語境不同。",
-        "positive-mcq-13": "「正面回饋」與本句語境不同。",
-        "positive-mcq-10": "「肯定的」與本句語境不同。",
-        "positive-mcq-14": "「好兆頭」與本句語境不同。",
-        "positive-mcq-09": "「對 X 樂觀」與本句語境不同。"
+        "positive-mcq-12": "本句的「positive」指「肯定答覆」。",
+        "positive-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-12"
     },
@@ -1406,10 +1306,8 @@ export default {
       "masked": "I received a lot of ____ on the presentation.",
       "options": [
         "positive-mcq-13",
-        "positive-mcq-12",
-        "positive-mcq-14",
-        "positive-mcq-11",
-        "positive-mcq-15",
+        "positive-mcq-09",
+        "positive-mcq-23",
         "positive-mcq-10"
       ],
       "explanation": "本句的「positive feedback」指「正面回饋」。",
@@ -1419,12 +1317,10 @@ export default {
         "positive feedback"
       ],
       "optionReasons": {
-        "positive-mcq-13": "本句指「正面回饋」。",
-        "positive-mcq-12": "「肯定答覆」與本句語境不同。",
-        "positive-mcq-14": "「好兆頭」與本句語境不同。",
-        "positive-mcq-11": "「肯定……」與本句語境不同。",
-        "positive-mcq-15": "「陽性檢測」與本句語境不同。",
-        "positive-mcq-10": "「肯定的」與本句語境不同。"
+        "positive-mcq-13": "本句的「positive feedback」指「正面回饋」。",
+        "positive-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-13"
     },
@@ -1436,11 +1332,9 @@ export default {
       "masked": "____ feedback encouraged the team.",
       "options": [
         "positive-mcq-13",
+        "positive-pdf-001",
         "positive-mcq-12",
-        "positive-mcq-14",
-        "positive-mcq-11",
-        "positive-mcq-15",
-        "positive-mcq-10"
+        "positive-mcq-08"
       ],
       "explanation": "本句的「Positive」指「正面回饋」。",
       "sentenceIndex": 26,
@@ -1449,12 +1343,10 @@ export default {
         "Positive"
       ],
       "optionReasons": {
-        "positive-mcq-13": "本句指「正面回饋」。",
-        "positive-mcq-12": "「肯定答覆」與本句語境不同。",
-        "positive-mcq-14": "「好兆頭」與本句語境不同。",
-        "positive-mcq-11": "「肯定……」與本句語境不同。",
-        "positive-mcq-15": "「陽性檢測」與本句語境不同。",
-        "positive-mcq-10": "「肯定的」與本句語境不同。"
+        "positive-mcq-13": "本句的「Positive」指「正面回饋」。",
+        "positive-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-13"
     },
@@ -1466,11 +1358,9 @@ export default {
       "masked": "Better attendance is a ____.",
       "options": [
         "positive-mcq-14",
-        "positive-mcq-13",
-        "positive-mcq-15",
-        "positive-mcq-12",
-        "positive-mcq-16",
-        "positive-mcq-11"
+        "positive-mcq-24",
+        "positive-mcq-25",
+        "positive-mcq-15"
       ],
       "explanation": "本句的「positive sign」指「好兆頭」。",
       "sentenceIndex": 27,
@@ -1479,12 +1369,10 @@ export default {
         "positive sign"
       ],
       "optionReasons": {
-        "positive-mcq-14": "本句指「好兆頭」。",
-        "positive-mcq-13": "「正面回饋」與本句語境不同。",
-        "positive-mcq-15": "「陽性檢測」與本句語境不同。",
-        "positive-mcq-12": "「肯定答覆」與本句語境不同。",
-        "positive-mcq-16": "「X 檢測呈陽性」與本句語境不同。",
-        "positive-mcq-11": "「肯定……」與本句語境不同。"
+        "positive-mcq-14": "本句的「positive sign」指「好兆頭」。",
+        "positive-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-14"
     },
@@ -1496,11 +1384,9 @@ export default {
       "masked": "The early results are a ____.",
       "options": [
         "positive-mcq-14",
-        "positive-mcq-13",
-        "positive-mcq-15",
-        "positive-mcq-12",
-        "positive-mcq-16",
-        "positive-mcq-11"
+        "positive-mcq-19",
+        "positive-mcq-11",
+        "positive-mcq-23"
       ],
       "explanation": "本句的「positive sign」指「好兆頭」。",
       "sentenceIndex": 28,
@@ -1509,12 +1395,10 @@ export default {
         "positive sign"
       ],
       "optionReasons": {
-        "positive-mcq-14": "本句指「好兆頭」。",
-        "positive-mcq-13": "「正面回饋」與本句語境不同。",
-        "positive-mcq-15": "「陽性檢測」與本句語境不同。",
-        "positive-mcq-12": "「肯定答覆」與本句語境不同。",
-        "positive-mcq-16": "「X 檢測呈陽性」與本句語境不同。",
-        "positive-mcq-11": "「肯定……」與本句語境不同。"
+        "positive-mcq-14": "本句的「positive sign」指「好兆頭」。",
+        "positive-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-14"
     },
@@ -1526,11 +1410,9 @@ export default {
       "masked": "The test came back ____.",
       "options": [
         "positive-mcq-15",
-        "positive-mcq-14",
-        "positive-mcq-16",
         "positive-mcq-13",
-        "positive-mcq-17",
-        "positive-mcq-12"
+        "positive-mcq-11",
+        "positive-mcq-23"
       ],
       "explanation": "本句的「positive」指「陽性檢測」。",
       "sentenceIndex": 29,
@@ -1539,12 +1421,10 @@ export default {
         "positive"
       ],
       "optionReasons": {
-        "positive-mcq-15": "本句指「陽性檢測」。",
-        "positive-mcq-14": "「好兆頭」與本句語境不同。",
-        "positive-mcq-16": "「X 檢測呈陽性」與本句語境不同。",
-        "positive-mcq-13": "「正面回饋」與本句語境不同。",
-        "positive-mcq-17": "「正數」與本句語境不同。",
-        "positive-mcq-12": "「肯定答覆」與本句語境不同。"
+        "positive-mcq-15": "本句的「positive」指「陽性檢測」。",
+        "positive-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-15"
     },
@@ -1556,11 +1436,9 @@ export default {
       "masked": "She tested ____ for the virus.",
       "options": [
         "positive-mcq-15",
-        "positive-mcq-14",
-        "positive-mcq-16",
         "positive-mcq-13",
-        "positive-mcq-17",
-        "positive-mcq-12"
+        "positive-mcq-11",
+        "positive-mcq-08"
       ],
       "explanation": "本句的「positive」指「陽性檢測」。",
       "sentenceIndex": 30,
@@ -1569,12 +1447,10 @@ export default {
         "positive"
       ],
       "optionReasons": {
-        "positive-mcq-15": "本句指「陽性檢測」。",
-        "positive-mcq-14": "「好兆頭」與本句語境不同。",
-        "positive-mcq-16": "「X 檢測呈陽性」與本句語境不同。",
-        "positive-mcq-13": "「正面回饋」與本句語境不同。",
-        "positive-mcq-17": "「正數」與本句語境不同。",
-        "positive-mcq-12": "「肯定答覆」與本句語境不同。"
+        "positive-mcq-15": "本句的「positive」指「陽性檢測」。",
+        "positive-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-15"
     },
@@ -1586,11 +1462,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "positive-mcq-16",
-        "positive-mcq-15",
-        "positive-mcq-17",
-        "positive-mcq-14",
-        "positive-mcq-18",
-        "positive-mcq-13"
+        "positive-mcq-06",
+        "positive-mcq-22",
+        "positive-mcq-21"
       ],
       "explanation": "本句的「tested positive for influenza」指「X 檢測呈陽性」。",
       "sentenceIndex": 31,
@@ -1599,12 +1473,10 @@ export default {
         "tested positive for influenza"
       ],
       "optionReasons": {
-        "positive-mcq-16": "本句指「X 檢測呈陽性」。",
-        "positive-mcq-15": "「陽性檢測」與本句語境不同。",
-        "positive-mcq-17": "「正數」與本句語境不同。",
-        "positive-mcq-14": "「好兆頭」與本句語境不同。",
-        "positive-mcq-18": "「正電荷」與本句語境不同。",
-        "positive-mcq-13": "「正面回饋」與本句語境不同。"
+        "positive-mcq-16": "本句的「tested positive for influenza」指「X 檢測呈陽性」。",
+        "positive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-16"
     },
@@ -1616,11 +1488,9 @@ export default {
       "masked": "Several samples ____.",
       "options": [
         "positive-mcq-16",
-        "positive-mcq-15",
-        "positive-mcq-17",
-        "positive-mcq-14",
-        "positive-mcq-18",
-        "positive-mcq-13"
+        "positive-mcq-10",
+        "positive-mcq-04",
+        "positive-mcq-17"
       ],
       "explanation": "本句的「tested positive for bacteria」指「X 檢測呈陽性」。",
       "sentenceIndex": 32,
@@ -1629,12 +1499,10 @@ export default {
         "tested positive for bacteria"
       ],
       "optionReasons": {
-        "positive-mcq-16": "本句指「X 檢測呈陽性」。",
-        "positive-mcq-15": "「陽性檢測」與本句語境不同。",
-        "positive-mcq-17": "「正數」與本句語境不同。",
-        "positive-mcq-14": "「好兆頭」與本句語境不同。",
-        "positive-mcq-18": "「正電荷」與本句語境不同。",
-        "positive-mcq-13": "「正面回饋」與本句語境不同。"
+        "positive-mcq-16": "本句的「tested positive for bacteria」指「X 檢測呈陽性」。",
+        "positive-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-16"
     },
@@ -1647,10 +1515,8 @@ export default {
       "options": [
         "positive-mcq-17",
         "positive-mcq-16",
-        "positive-mcq-18",
-        "positive-mcq-15",
-        "positive-mcq-19",
-        "positive-mcq-14"
+        "positive-mcq-11",
+        "positive-mcq-09"
       ],
       "explanation": "本句的「positive number」指「正數」。",
       "sentenceIndex": 35,
@@ -1659,12 +1525,10 @@ export default {
         "positive number"
       ],
       "optionReasons": {
-        "positive-mcq-17": "本句指「正數」。",
-        "positive-mcq-16": "「X 檢測呈陽性」與本句語境不同。",
-        "positive-mcq-18": "「正電荷」與本句語境不同。",
-        "positive-mcq-15": "「陽性檢測」與本句語境不同。",
-        "positive-mcq-19": "「正極」與本句語境不同。",
-        "positive-mcq-14": "「好兆頭」與本句語境不同。"
+        "positive-mcq-17": "本句的「positive number」指「正數」。",
+        "positive-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-17"
     },
@@ -1676,11 +1540,9 @@ export default {
       "masked": "The value must be ____.",
       "options": [
         "positive-mcq-17",
-        "positive-mcq-16",
-        "positive-mcq-18",
-        "positive-mcq-15",
-        "positive-mcq-19",
-        "positive-mcq-14"
+        "positive-mcq-21",
+        "positive-mcq-08",
+        "positive-mcq-09"
       ],
       "explanation": "本句的「positive」指「正數」。",
       "sentenceIndex": 36,
@@ -1689,12 +1551,10 @@ export default {
         "positive"
       ],
       "optionReasons": {
-        "positive-mcq-17": "本句指「正數」。",
-        "positive-mcq-16": "「X 檢測呈陽性」與本句語境不同。",
-        "positive-mcq-18": "「正電荷」與本句語境不同。",
-        "positive-mcq-15": "「陽性檢測」與本句語境不同。",
-        "positive-mcq-19": "「正極」與本句語境不同。",
-        "positive-mcq-14": "「好兆頭」與本句語境不同。"
+        "positive-mcq-17": "本句的「positive」指「正數」。",
+        "positive-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-17"
     },
@@ -1706,11 +1566,9 @@ export default {
       "masked": "Any number greater than zero is a ____.",
       "options": [
         "positive-mcq-17",
-        "positive-mcq-16",
-        "positive-mcq-18",
-        "positive-mcq-15",
-        "positive-mcq-19",
-        "positive-mcq-14"
+        "positive-mcq-08",
+        "positive-mcq-25",
+        "positive-mcq-20"
       ],
       "explanation": "本句的「positive number」指「正數」。",
       "sentenceIndex": 37,
@@ -1719,12 +1577,10 @@ export default {
         "positive number"
       ],
       "optionReasons": {
-        "positive-mcq-17": "本句指「正數」。",
-        "positive-mcq-16": "「X 檢測呈陽性」與本句語境不同。",
-        "positive-mcq-18": "「正電荷」與本句語境不同。",
-        "positive-mcq-15": "「陽性檢測」與本句語境不同。",
-        "positive-mcq-19": "「正極」與本句語境不同。",
-        "positive-mcq-14": "「好兆頭」與本句語境不同。"
+        "positive-mcq-17": "本句的「positive number」指「正數」。",
+        "positive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-17"
     },
@@ -1736,11 +1592,9 @@ export default {
       "masked": "The answer should be a ____.",
       "options": [
         "positive-mcq-17",
-        "positive-mcq-16",
-        "positive-mcq-18",
         "positive-mcq-15",
-        "positive-mcq-19",
-        "positive-mcq-14"
+        "positive-mcq-11",
+        "positive-mcq-08"
       ],
       "explanation": "本句的「positive number」指「正數」。",
       "sentenceIndex": 38,
@@ -1749,12 +1603,10 @@ export default {
         "positive number"
       ],
       "optionReasons": {
-        "positive-mcq-17": "本句指「正數」。",
-        "positive-mcq-16": "「X 檢測呈陽性」與本句語境不同。",
-        "positive-mcq-18": "「正電荷」與本句語境不同。",
-        "positive-mcq-15": "「陽性檢測」與本句語境不同。",
-        "positive-mcq-19": "「正極」與本句語境不同。",
-        "positive-mcq-14": "「好兆頭」與本句語境不同。"
+        "positive-mcq-17": "本句的「positive number」指「正數」。",
+        "positive-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-17"
     },
@@ -1766,11 +1618,9 @@ export default {
       "masked": "The particle has a ____.",
       "options": [
         "positive-mcq-18",
-        "positive-mcq-17",
-        "positive-mcq-19",
-        "positive-mcq-16",
-        "positive-mcq-20",
-        "positive-mcq-15"
+        "positive-mcq-23",
+        "positive-mcq-21",
+        "positive-mcq-09"
       ],
       "explanation": "本句的「positive charge」指「正電荷」。",
       "sentenceIndex": 39,
@@ -1779,12 +1629,10 @@ export default {
         "positive charge"
       ],
       "optionReasons": {
-        "positive-mcq-18": "本句指「正電荷」。",
-        "positive-mcq-17": "「正數」與本句語境不同。",
-        "positive-mcq-19": "「正極」與本句語境不同。",
-        "positive-mcq-16": "「X 檢測呈陽性」與本句語境不同。",
-        "positive-mcq-20": "「肯定句／肯定陳述」與本句語境不同。",
-        "positive-mcq-15": "「陽性檢測」與本句語境不同。"
+        "positive-mcq-18": "本句的「positive charge」指「正電荷」。",
+        "positive-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-18"
     },
@@ -1796,9 +1644,7 @@ export default {
       "masked": "Connect the wire to the ____.",
       "options": [
         "positive-mcq-18",
-        "positive-mcq-17",
-        "positive-mcq-19",
-        "positive-mcq-16",
+        "positive-mcq-23",
         "positive-mcq-20",
         "positive-mcq-15"
       ],
@@ -1809,12 +1655,10 @@ export default {
         "positive terminal"
       ],
       "optionReasons": {
-        "positive-mcq-18": "本句指「正電荷」。",
-        "positive-mcq-17": "「正數」與本句語境不同。",
-        "positive-mcq-19": "「正極」與本句語境不同。",
-        "positive-mcq-16": "「X 檢測呈陽性」與本句語境不同。",
-        "positive-mcq-20": "「肯定句／肯定陳述」與本句語境不同。",
-        "positive-mcq-15": "「陽性檢測」與本句語境不同。"
+        "positive-mcq-18": "本句的「positive terminal」指「正電荷」。",
+        "positive-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-18"
     },
@@ -1826,11 +1670,9 @@ export default {
       "masked": "Protons carry a ____.",
       "options": [
         "positive-mcq-18",
-        "positive-mcq-17",
-        "positive-mcq-19",
-        "positive-mcq-16",
         "positive-mcq-20",
-        "positive-mcq-15"
+        "positive-mcq-23",
+        "positive-mcq-04"
       ],
       "explanation": "本句的「positive charge」指「正電荷」。",
       "sentenceIndex": 41,
@@ -1839,12 +1681,10 @@ export default {
         "positive charge"
       ],
       "optionReasons": {
-        "positive-mcq-18": "本句指「正電荷」。",
-        "positive-mcq-17": "「正數」與本句語境不同。",
-        "positive-mcq-19": "「正極」與本句語境不同。",
-        "positive-mcq-16": "「X 檢測呈陽性」與本句語境不同。",
-        "positive-mcq-20": "「肯定句／肯定陳述」與本句語境不同。",
-        "positive-mcq-15": "「陽性檢測」與本句語境不同。"
+        "positive-mcq-18": "本句的「positive charge」指「正電荷」。",
+        "positive-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-18"
     },
@@ -1856,11 +1696,9 @@ export default {
       "masked": "Opposite charges attract: ____ and negative.",
       "options": [
         "positive-mcq-18",
-        "positive-mcq-17",
-        "positive-mcq-19",
-        "positive-mcq-16",
+        "positive-pdf-001",
         "positive-mcq-20",
-        "positive-mcq-15"
+        "positive-mcq-04"
       ],
       "explanation": "本句的「positive」指「正電荷」。",
       "sentenceIndex": 42,
@@ -1869,12 +1707,10 @@ export default {
         "positive"
       ],
       "optionReasons": {
-        "positive-mcq-18": "本句指「正電荷」。",
-        "positive-mcq-17": "「正數」與本句語境不同。",
-        "positive-mcq-19": "「正極」與本句語境不同。",
-        "positive-mcq-16": "「X 檢測呈陽性」與本句語境不同。",
-        "positive-mcq-20": "「肯定句／肯定陳述」與本句語境不同。",
-        "positive-mcq-15": "「陽性檢測」與本句語境不同。"
+        "positive-mcq-18": "本句的「positive」指「正電荷」。",
+        "positive-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-18"
     },
@@ -1886,11 +1722,9 @@ export default {
       "masked": "Attach the red cable to the ____.",
       "options": [
         "positive-mcq-19",
-        "positive-mcq-18",
-        "positive-mcq-20",
-        "positive-mcq-17",
-        "positive-mcq-21",
-        "positive-mcq-16"
+        "positive-mcq-10",
+        "positive-mcq-23",
+        "positive-mcq-21"
       ],
       "explanation": "本句的「positive terminal」指「正極」。",
       "sentenceIndex": 43,
@@ -1899,12 +1733,10 @@ export default {
         "positive terminal"
       ],
       "optionReasons": {
-        "positive-mcq-19": "本句指「正極」。",
-        "positive-mcq-18": "「正電荷」與本句語境不同。",
-        "positive-mcq-20": "「肯定句／肯定陳述」與本句語境不同。",
-        "positive-mcq-17": "「正數」與本句語境不同。",
-        "positive-mcq-21": "「明確確認身份」與本句語境不同。",
-        "positive-mcq-16": "「X 檢測呈陽性」與本句語境不同。"
+        "positive-mcq-19": "本句的「positive terminal」指「正極」。",
+        "positive-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-19"
     },
@@ -1916,11 +1748,9 @@ export default {
       "masked": "Check the ____ and negative poles.",
       "options": [
         "positive-mcq-19",
-        "positive-mcq-18",
-        "positive-mcq-20",
-        "positive-mcq-17",
-        "positive-mcq-21",
-        "positive-mcq-16"
+        "positive-mcq-16",
+        "positive-mcq-14",
+        "positive-mcq-09"
       ],
       "explanation": "本句的「positive」指「正極」。",
       "sentenceIndex": 44,
@@ -1929,12 +1759,10 @@ export default {
         "positive"
       ],
       "optionReasons": {
-        "positive-mcq-19": "本句指「正極」。",
-        "positive-mcq-18": "「正電荷」與本句語境不同。",
-        "positive-mcq-20": "「肯定句／肯定陳述」與本句語境不同。",
-        "positive-mcq-17": "「正數」與本句語境不同。",
-        "positive-mcq-21": "「明確確認身份」與本句語境不同。",
-        "positive-mcq-16": "「X 檢測呈陽性」與本句語境不同。"
+        "positive-mcq-19": "本句的「positive」指「正極」。",
+        "positive-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-19"
     },
@@ -1946,11 +1774,9 @@ export default {
       "masked": "She is ready” is a ____.",
       "options": [
         "positive-mcq-20",
-        "positive-mcq-19",
-        "positive-mcq-21",
-        "positive-mcq-18",
-        "positive-mcq-22",
-        "positive-mcq-17"
+        "positive-mcq-13",
+        "positive-mcq-15",
+        "positive-mcq-08"
       ],
       "explanation": "本句的「positive statement」指「肯定句／肯定陳述」。",
       "sentenceIndex": 45,
@@ -1959,12 +1785,10 @@ export default {
         "positive statement"
       ],
       "optionReasons": {
-        "positive-mcq-20": "本句指「肯定句／肯定陳述」。",
-        "positive-mcq-19": "「正極」與本句語境不同。",
-        "positive-mcq-21": "「明確確認身份」與本句語境不同。",
-        "positive-mcq-18": "「正電荷」與本句語境不同。",
-        "positive-mcq-22": "「正面因素；好處」與本句語境不同。",
-        "positive-mcq-17": "「正數」與本句語境不同。"
+        "positive-mcq-20": "本句的「positive statement」指「肯定句／肯定陳述」。",
+        "positive-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-20"
     },
@@ -1977,10 +1801,8 @@ export default {
       "options": [
         "positive-mcq-20",
         "positive-mcq-19",
-        "positive-mcq-21",
-        "positive-mcq-18",
-        "positive-mcq-22",
-        "positive-mcq-17"
+        "positive-mcq-09",
+        "positive-pdf-001"
       ],
       "explanation": "本句的「positive form」指「肯定句／肯定陳述」。",
       "sentenceIndex": 46,
@@ -1989,12 +1811,10 @@ export default {
         "positive form"
       ],
       "optionReasons": {
-        "positive-mcq-20": "本句指「肯定句／肯定陳述」。",
-        "positive-mcq-19": "「正極」與本句語境不同。",
-        "positive-mcq-21": "「明確確認身份」與本句語境不同。",
-        "positive-mcq-18": "「正電荷」與本句語境不同。",
-        "positive-mcq-22": "「正面因素；好處」與本句語境不同。",
-        "positive-mcq-17": "「正數」與本句語境不同。"
+        "positive-mcq-20": "本句的「positive form」指「肯定句／肯定陳述」。",
+        "positive-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "positive-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-20"
     },
@@ -2006,11 +1826,9 @@ export default {
       "masked": "Police made a ____ of the suspect.",
       "options": [
         "positive-mcq-21",
-        "positive-mcq-20",
-        "positive-mcq-22",
-        "positive-mcq-19",
-        "positive-mcq-23",
-        "positive-mcq-18"
+        "positive-mcq-26",
+        "positive-mcq-10",
+        "positive-mcq-09"
       ],
       "explanation": "本句的「positive identification」指「明確確認身份」。",
       "sentenceIndex": 47,
@@ -2019,12 +1837,10 @@ export default {
         "positive identification"
       ],
       "optionReasons": {
-        "positive-mcq-21": "本句指「明確確認身份」。",
-        "positive-mcq-20": "「肯定句／肯定陳述」與本句語境不同。",
-        "positive-mcq-22": "「正面因素；好處」與本句語境不同。",
-        "positive-mcq-19": "「正極」與本句語境不同。",
-        "positive-mcq-23": "「利弊」與本句語境不同。",
-        "positive-mcq-18": "「正電荷」與本句語境不同。"
+        "positive-mcq-21": "本句的「positive identification」指「明確確認身份」。",
+        "positive-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-21"
     },
@@ -2036,11 +1852,9 @@ export default {
       "masked": "The photo was not clear enough for ____.",
       "options": [
         "positive-mcq-21",
-        "positive-mcq-20",
-        "positive-mcq-22",
-        "positive-mcq-19",
-        "positive-mcq-23",
-        "positive-mcq-18"
+        "positive-mcq-11",
+        "positive-mcq-08",
+        "positive-mcq-24"
       ],
       "explanation": "本句的「positive identification」指「明確確認身份」。",
       "sentenceIndex": 48,
@@ -2049,12 +1863,10 @@ export default {
         "positive identification"
       ],
       "optionReasons": {
-        "positive-mcq-21": "本句指「明確確認身份」。",
-        "positive-mcq-20": "「肯定句／肯定陳述」與本句語境不同。",
-        "positive-mcq-22": "「正面因素；好處」與本句語境不同。",
-        "positive-mcq-19": "「正極」與本句語境不同。",
-        "positive-mcq-23": "「利弊」與本句語境不同。",
-        "positive-mcq-18": "「正電荷」與本句語境不同。"
+        "positive-mcq-21": "本句的「positive identification」指「明確確認身份」。",
+        "positive-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-21"
     },
@@ -2066,11 +1878,9 @@ export default {
       "masked": "There was no ____ that he had done it.",
       "options": [
         "positive-pdf-001",
-        "positive-mcq-20",
-        "positive-mcq-22",
-        "positive-mcq-19",
-        "positive-mcq-23",
-        "positive-mcq-18"
+        "positive-mcq-02",
+        "positive-mcq-14",
+        "positive-mcq-10"
       ],
       "explanation": "本句的「positive proof」指「明確而直接支持某個事實的證據」。",
       "sentenceIndex": 49,
@@ -2079,12 +1889,10 @@ export default {
         "positive proof"
       ],
       "optionReasons": {
-        "positive-pdf-001": "本句指「明確而直接支持某個事實的證據」。",
-        "positive-mcq-20": "「肯定句／肯定陳述」與本句語境不同。",
-        "positive-mcq-22": "「正面因素；好處」與本句語境不同。",
-        "positive-mcq-19": "「正極」與本句語境不同。",
-        "positive-mcq-23": "「利弊」與本句語境不同。",
-        "positive-mcq-18": "「正電荷」與本句語境不同。"
+        "positive-pdf-001": "本句的「positive proof」指「明確而直接支持某個事實的證據」。",
+        "positive-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-pdf-001"
     },
@@ -2096,11 +1904,9 @@ export default {
       "masked": "Investigators wanted ____ before making an accusation.",
       "options": [
         "positive-pdf-001",
-        "positive-mcq-20",
-        "positive-mcq-22",
-        "positive-mcq-19",
-        "positive-mcq-23",
-        "positive-mcq-18"
+        "positive-mcq-07",
+        "positive-mcq-10",
+        "positive-mcq-16"
       ],
       "explanation": "本句的「positive evidence」指「明確而直接支持某個事實的證據」。",
       "sentenceIndex": 50,
@@ -2109,12 +1915,10 @@ export default {
         "positive evidence"
       ],
       "optionReasons": {
-        "positive-pdf-001": "本句指「明確而直接支持某個事實的證據」。",
-        "positive-mcq-20": "「肯定句／肯定陳述」與本句語境不同。",
-        "positive-mcq-22": "「正面因素；好處」與本句語境不同。",
-        "positive-mcq-19": "「正極」與本句語境不同。",
-        "positive-mcq-23": "「利弊」與本句語境不同。",
-        "positive-mcq-18": "「正電荷」與本句語境不同。"
+        "positive-pdf-001": "本句的「positive evidence」指「明確而直接支持某個事實的證據」。",
+        "positive-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-pdf-001"
     },
@@ -2126,11 +1930,9 @@ export default {
       "masked": "Let's focus on the ____.",
       "options": [
         "positive-mcq-22",
-        "positive-mcq-21",
+        "positive-mcq-12",
         "positive-mcq-23",
-        "positive-mcq-20",
-        "positive-mcq-24",
-        "positive-mcq-19"
+        "positive-mcq-08"
       ],
       "explanation": "本句的「positives」指「正面因素；好處」。",
       "sentenceIndex": 51,
@@ -2139,12 +1941,10 @@ export default {
         "positives"
       ],
       "optionReasons": {
-        "positive-mcq-22": "本句指「正面因素；好處」。",
-        "positive-mcq-21": "「明確確認身份」與本句語境不同。",
-        "positive-mcq-23": "「利弊」與本句語境不同。",
-        "positive-mcq-20": "「肯定句／肯定陳述」與本句語境不同。",
-        "positive-mcq-24": "「正面地」與本句語境不同。",
-        "positive-mcq-19": "「正極」與本句語境不同。"
+        "positive-mcq-22": "本句的「positives」指「正面因素；好處」。",
+        "positive-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-22"
     },
@@ -2156,11 +1956,9 @@ export default {
       "masked": "One of the main ____ was better time management.",
       "options": [
         "positive-mcq-22",
-        "positive-mcq-21",
-        "positive-mcq-23",
         "positive-mcq-20",
-        "positive-mcq-24",
-        "positive-mcq-19"
+        "positive-mcq-16",
+        "positive-pdf-001"
       ],
       "explanation": "本句的「positives」指「正面因素；好處」。",
       "sentenceIndex": 52,
@@ -2169,12 +1967,10 @@ export default {
         "positives"
       ],
       "optionReasons": {
-        "positive-mcq-22": "本句指「正面因素；好處」。",
-        "positive-mcq-21": "「明確確認身份」與本句語境不同。",
-        "positive-mcq-23": "「利弊」與本句語境不同。",
-        "positive-mcq-20": "「肯定句／肯定陳述」與本句語境不同。",
-        "positive-mcq-24": "「正面地」與本句語境不同。",
-        "positive-mcq-19": "「正極」與本句語境不同。"
+        "positive-mcq-22": "本句的「positives」指「正面因素；好處」。",
+        "positive-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "positive-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-22"
     },
@@ -2186,11 +1982,9 @@ export default {
       "masked": "We discussed the ____ of the plan.",
       "options": [
         "positive-mcq-23",
-        "positive-mcq-22",
-        "positive-mcq-24",
         "positive-mcq-21",
-        "positive-mcq-25",
-        "positive-mcq-20"
+        "positive-mcq-20",
+        "positive-mcq-09"
       ],
       "explanation": "本句的「positives and negatives」指「利弊」。",
       "sentenceIndex": 53,
@@ -2199,12 +1993,10 @@ export default {
         "positives and negatives"
       ],
       "optionReasons": {
-        "positive-mcq-23": "本句指「利弊」。",
-        "positive-mcq-22": "「正面因素；好處」與本句語境不同。",
-        "positive-mcq-24": "「正面地」與本句語境不同。",
-        "positive-mcq-21": "「明確確認身份」與本句語境不同。",
-        "positive-mcq-25": "「簡直；確實」與本句語境不同。",
-        "positive-mcq-20": "「肯定句／肯定陳述」與本句語境不同。"
+        "positive-mcq-23": "本句的「positives and negatives」指「利弊」。",
+        "positive-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-23"
     },
@@ -2216,11 +2008,9 @@ export default {
       "masked": "Every change has ____.",
       "options": [
         "positive-mcq-23",
-        "positive-mcq-22",
-        "positive-mcq-24",
-        "positive-mcq-21",
-        "positive-mcq-25",
-        "positive-mcq-20"
+        "positive-mcq-06",
+        "positive-mcq-01",
+        "positive-mcq-10"
       ],
       "explanation": "本句的「positives and negatives」指「利弊」。",
       "sentenceIndex": 54,
@@ -2229,12 +2019,10 @@ export default {
         "positives and negatives"
       ],
       "optionReasons": {
-        "positive-mcq-23": "本句指「利弊」。",
-        "positive-mcq-22": "「正面因素；好處」與本句語境不同。",
-        "positive-mcq-24": "「正面地」與本句語境不同。",
-        "positive-mcq-21": "「明確確認身份」與本句語境不同。",
-        "positive-mcq-25": "「簡直；確實」與本句語境不同。",
-        "positive-mcq-20": "「肯定句／肯定陳述」與本句語境不同。"
+        "positive-mcq-23": "本句的「positives and negatives」指「利弊」。",
+        "positive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-23"
     },
@@ -2246,11 +2034,9 @@ export default {
       "masked": "The change affected me ____.",
       "options": [
         "positive-mcq-24",
-        "positive-mcq-23",
-        "positive-mcq-25",
-        "positive-mcq-22",
-        "positive-mcq-26",
-        "positive-mcq-21"
+        "positive-mcq-10",
+        "positive-mcq-14",
+        "positive-mcq-08"
       ],
       "explanation": "本句的「positively」指「正面地」。",
       "sentenceIndex": 55,
@@ -2259,12 +2045,10 @@ export default {
         "positively"
       ],
       "optionReasons": {
-        "positive-mcq-24": "本句指「正面地」。",
-        "positive-mcq-23": "「利弊」與本句語境不同。",
-        "positive-mcq-25": "「簡直；確實」與本句語境不同。",
-        "positive-mcq-22": "「正面因素；好處」與本句語境不同。",
-        "positive-mcq-26": "「積極性；正面態度」與本句語境不同。",
-        "positive-mcq-21": "「明確確認身份」與本句語境不同。"
+        "positive-mcq-24": "本句的「positively」指「正面地」。",
+        "positive-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-24"
     },
@@ -2276,11 +2060,9 @@ export default {
       "masked": "Try to respond ____ to feedback.",
       "options": [
         "positive-mcq-24",
-        "positive-mcq-23",
-        "positive-mcq-25",
-        "positive-mcq-22",
-        "positive-mcq-26",
-        "positive-mcq-21"
+        "positive-mcq-21",
+        "positive-mcq-11",
+        "positive-mcq-23"
       ],
       "explanation": "本句的「positively」指「正面地」。",
       "sentenceIndex": 56,
@@ -2289,12 +2071,10 @@ export default {
         "positively"
       ],
       "optionReasons": {
-        "positive-mcq-24": "本句指「正面地」。",
-        "positive-mcq-23": "「利弊」與本句語境不同。",
-        "positive-mcq-25": "「簡直；確實」與本句語境不同。",
-        "positive-mcq-22": "「正面因素；好處」與本句語境不同。",
-        "positive-mcq-26": "「積極性；正面態度」與本句語境不同。",
-        "positive-mcq-21": "「明確確認身份」與本句語境不同。"
+        "positive-mcq-24": "本句的「positively」指「正面地」。",
+        "positive-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-24"
     },
@@ -2306,11 +2086,9 @@ export default {
       "masked": "The room was ____.",
       "options": [
         "positive-mcq-25",
-        "positive-mcq-24",
-        "positive-mcq-26",
-        "positive-mcq-23",
-        "positive-mcq-27",
-        "positive-mcq-22"
+        "positive-mcq-18",
+        "positive-mcq-15",
+        "positive-mcq-04"
       ],
       "explanation": "本句的「positively freezing」指「簡直；確實」。",
       "sentenceIndex": 57,
@@ -2319,12 +2097,10 @@ export default {
         "positively freezing"
       ],
       "optionReasons": {
-        "positive-mcq-25": "本句指「簡直；確實」。",
-        "positive-mcq-24": "「正面地」與本句語境不同。",
-        "positive-mcq-26": "「積極性；正面態度」與本句語境不同。",
-        "positive-mcq-23": "「利弊」與本句語境不同。",
-        "positive-mcq-27": "「過度正能量」與本句語境不同。",
-        "positive-mcq-22": "「正面因素；好處」與本句語境不同。"
+        "positive-mcq-25": "本句的「positively freezing」指「簡直；確實」。",
+        "positive-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-25"
     },
@@ -2336,11 +2112,9 @@ export default {
       "masked": "She looked ____.",
       "options": [
         "positive-mcq-25",
-        "positive-mcq-24",
-        "positive-mcq-26",
-        "positive-mcq-23",
-        "positive-mcq-27",
-        "positive-mcq-22"
+        "positive-mcq-05",
+        "positive-mcq-20",
+        "positive-mcq-14"
       ],
       "explanation": "本句的「positively delighted」指「簡直；確實」。",
       "sentenceIndex": 58,
@@ -2349,12 +2123,10 @@ export default {
         "positively delighted"
       ],
       "optionReasons": {
-        "positive-mcq-25": "本句指「簡直；確實」。",
-        "positive-mcq-24": "「正面地」與本句語境不同。",
-        "positive-mcq-26": "「積極性；正面態度」與本句語境不同。",
-        "positive-mcq-23": "「利弊」與本句語境不同。",
-        "positive-mcq-27": "「過度正能量」與本句語境不同。",
-        "positive-mcq-22": "「正面因素；好處」與本句語境不同。"
+        "positive-mcq-25": "本句的「positively delighted」指「簡直；確實」。",
+        "positive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-25"
     },
@@ -2366,11 +2138,9 @@ export default {
       "masked": "Her ____ helped the team stay motivated.",
       "options": [
         "positive-mcq-26",
-        "positive-mcq-25",
-        "positive-mcq-27",
-        "positive-mcq-24",
-        "positive-mcq-23",
-        "positive-mcq-22"
+        "positive-pdf-001",
+        "positive-mcq-11",
+        "positive-mcq-14"
       ],
       "explanation": "本句的「positivity」指「積極性；正面態度」。",
       "sentenceIndex": 59,
@@ -2379,12 +2149,10 @@ export default {
         "positivity"
       ],
       "optionReasons": {
-        "positive-mcq-26": "本句指「積極性；正面態度」。",
-        "positive-mcq-25": "「簡直；確實」與本句語境不同。",
-        "positive-mcq-27": "「過度正能量」與本句語境不同。",
-        "positive-mcq-24": "「正面地」與本句語境不同。",
-        "positive-mcq-23": "「利弊」與本句語境不同。",
-        "positive-mcq-22": "「正面因素；好處」與本句語境不同。"
+        "positive-mcq-26": "本句的「positivity」指「積極性；正面態度」。",
+        "positive-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-26"
     },
@@ -2396,11 +2164,9 @@ export default {
       "masked": "Constant ____ is not the same as ignoring real problems.",
       "options": [
         "positive-mcq-26",
-        "positive-mcq-25",
-        "positive-mcq-27",
-        "positive-mcq-24",
-        "positive-mcq-23",
-        "positive-mcq-22"
+        "positive-mcq-12",
+        "positive-mcq-04",
+        "positive-mcq-21"
       ],
       "explanation": "本句的「positivity」指「積極性；正面態度」。",
       "sentenceIndex": 60,
@@ -2409,12 +2175,10 @@ export default {
         "positivity"
       ],
       "optionReasons": {
-        "positive-mcq-26": "本句指「積極性；正面態度」。",
-        "positive-mcq-25": "「簡直；確實」與本句語境不同。",
-        "positive-mcq-27": "「過度正能量」與本句語境不同。",
-        "positive-mcq-24": "「正面地」與本句語境不同。",
-        "positive-mcq-23": "「利弊」與本句語境不同。",
-        "positive-mcq-22": "「正面因素；好處」與本句語境不同。"
+        "positive-mcq-26": "本句的「positivity」指「積極性；正面態度」。",
+        "positive-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-26"
     },
@@ -2426,11 +2190,9 @@ export default {
       "masked": "____ can make people feel they are not allowed to express sadness.",
       "options": [
         "positive-mcq-27",
-        "positive-mcq-26",
-        "positive-mcq-25",
-        "positive-mcq-24",
-        "positive-mcq-23",
-        "positive-mcq-22"
+        "positive-mcq-16",
+        "positive-mcq-12",
+        "positive-mcq-08"
       ],
       "explanation": "本句的「Toxic positivity」指「過度正能量」。",
       "sentenceIndex": 61,
@@ -2439,12 +2201,10 @@ export default {
         "Toxic positivity"
       ],
       "optionReasons": {
-        "positive-mcq-27": "本句指「過度正能量」。",
-        "positive-mcq-26": "「積極性；正面態度」與本句語境不同。",
-        "positive-mcq-25": "「簡直；確實」與本句語境不同。",
-        "positive-mcq-24": "「正面地」與本句語境不同。",
-        "positive-mcq-23": "「利弊」與本句語境不同。",
-        "positive-mcq-22": "「正面因素；好處」與本句語境不同。"
+        "positive-mcq-27": "本句的「Toxic positivity」指「過度正能量」。",
+        "positive-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-27"
     },
@@ -2456,11 +2216,9 @@ export default {
       "masked": "Supporting someone is different from forcing ____ on them.",
       "options": [
         "positive-mcq-27",
-        "positive-mcq-26",
-        "positive-mcq-25",
-        "positive-mcq-24",
-        "positive-mcq-23",
-        "positive-mcq-22"
+        "positive-pdf-001",
+        "positive-mcq-11",
+        "positive-mcq-08"
       ],
       "explanation": "本句的「toxic positivity」指「過度正能量」。",
       "sentenceIndex": 62,
@@ -2469,12 +2227,10 @@ export default {
         "toxic positivity"
       ],
       "optionReasons": {
-        "positive-mcq-27": "本句指「過度正能量」。",
-        "positive-mcq-26": "「積極性；正面態度」與本句語境不同。",
-        "positive-mcq-25": "「簡直；確實」與本句語境不同。",
-        "positive-mcq-24": "「正面地」與本句語境不同。",
-        "positive-mcq-23": "「利弊」與本句語境不同。",
-        "positive-mcq-22": "「正面因素；好處」與本句語境不同。"
+        "positive-mcq-27": "本句的「toxic positivity」指「過度正能量」。",
+        "positive-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "positive-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "positive-mcq-27"
     }
@@ -2486,5 +2242,7 @@ export default {
     "sha256": "cb23e56cccef6ec19958b01709861e0e6f2de7f63885d10b83e45a6329909e67",
     "pages": 23
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -257,9 +257,7 @@ export default {
       "masked": "Books that challenge my thinking really ____ to me.",
       "options": [
         "appeal-mcq-01",
-        "appeal-mcq-02",
         "appeal-mcq-03",
-        "appeal-mcq-04",
         "appeal-mcq-05",
         "appeal-mcq-06"
       ],
@@ -270,12 +268,10 @@ export default {
         "appeal"
       ],
       "optionReasons": {
-        "appeal-mcq-01": "本句指「對某人有吸引力；令某人感興趣」。",
-        "appeal-mcq-02": "「令人感到有吸引力、有好感或願意接近／接受的」是「appealing = attractive / pleasant / interesting（有吸引力的）」的用法，與本句語境不同。",
-        "appeal-mcq-03": "「公開或認真地呼籲、請求人們提供某物」是「appeal = make a serious request for help/support（呼籲）」的用法，與本句語境不同。",
-        "appeal-mcq-04": "「正式要求法院或其他權力機構重新審視並更改原來的決定」是「appeal = ask formally for a legal decision to be changed（法律）」的用法，與本句語境不同。",
-        "appeal-mcq-05": "「向較高層級正式要求重新考慮某項決定」是「appeal = request a higher authority to reconsider（正式申訴）」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。"
+        "appeal-mcq-01": "本句的「appeal」指「對某人有吸引力；令某人感興趣」。",
+        "appeal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-01"
     },
@@ -287,10 +283,7 @@ export default {
       "masked": "The idea of studying abroad ____ to her.",
       "options": [
         "appeal-mcq-01",
-        "appeal-mcq-02",
-        "appeal-mcq-03",
-        "appeal-mcq-04",
-        "appeal-mcq-05",
+        "appeal-mcq-09",
         "appeal-mcq-06"
       ],
       "explanation": "本句的「appeals」指「對某人有吸引力；令某人感興趣」。",
@@ -300,12 +293,9 @@ export default {
         "appeals"
       ],
       "optionReasons": {
-        "appeal-mcq-01": "本句指「對某人有吸引力；令某人感興趣」。",
-        "appeal-mcq-02": "「令人感到有吸引力、有好感或願意接近／接受的」是「appealing = attractive / pleasant / interesting（有吸引力的）」的用法，與本句語境不同。",
-        "appeal-mcq-03": "「公開或認真地呼籲、請求人們提供某物」是「appeal = make a serious request for help/support（呼籲）」的用法，與本句語境不同。",
-        "appeal-mcq-04": "「正式要求法院或其他權力機構重新審視並更改原來的決定」是「appeal = ask formally for a legal decision to be changed（法律）」的用法，與本句語境不同。",
-        "appeal-mcq-05": "「向較高層級正式要求重新考慮某項決定」是「appeal = request a higher authority to reconsider（正式申訴）」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。"
+        "appeal-mcq-01": "本句的「appeals」指「對某人有吸引力；令某人感興趣」。",
+        "appeal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-01"
     },
@@ -317,10 +307,7 @@ export default {
       "masked": "I find that ____.",
       "options": [
         "appeal-mcq-02",
-        "appeal-mcq-01",
-        "appeal-mcq-03",
-        "appeal-mcq-04",
-        "appeal-mcq-05",
+        "appeal-mcq-09",
         "appeal-mcq-06"
       ],
       "explanation": "本句的「appealing」指「令人感到有吸引力、有好感或願意接近／接受的」。",
@@ -330,12 +317,9 @@ export default {
         "appealing"
       ],
       "optionReasons": {
-        "appeal-mcq-02": "本句指「令人感到有吸引力、有好感或願意接近／接受的」。",
-        "appeal-mcq-01": "「對某人有吸引力；令某人感興趣」是「appeal = attract or interest someone（吸引）」的用法，與本句語境不同。",
-        "appeal-mcq-03": "「公開或認真地呼籲、請求人們提供某物」是「appeal = make a serious request for help/support（呼籲）」的用法，與本句語境不同。",
-        "appeal-mcq-04": "「正式要求法院或其他權力機構重新審視並更改原來的決定」是「appeal = ask formally for a legal decision to be changed（法律）」的用法，與本句語境不同。",
-        "appeal-mcq-05": "「向較高層級正式要求重新考慮某項決定」是「appeal = request a higher authority to reconsider（正式申訴）」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。"
+        "appeal-mcq-02": "本句的「appealing」指「令人感到有吸引力、有好感或願意接近／接受的」。",
+        "appeal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-02"
     },
@@ -347,10 +331,8 @@ export default {
       "masked": "The idea sounds very ____.",
       "options": [
         "appeal-mcq-02",
-        "appeal-mcq-01",
-        "appeal-mcq-03",
-        "appeal-mcq-04",
         "appeal-mcq-05",
+        "appeal-mcq-07",
         "appeal-mcq-06"
       ],
       "explanation": "本句的「appealing」指「令人感到有吸引力、有好感或願意接近／接受的」。",
@@ -360,12 +342,10 @@ export default {
         "appealing"
       ],
       "optionReasons": {
-        "appeal-mcq-02": "本句指「令人感到有吸引力、有好感或願意接近／接受的」。",
-        "appeal-mcq-01": "「對某人有吸引力；令某人感興趣」是「appeal = attract or interest someone（吸引）」的用法，與本句語境不同。",
-        "appeal-mcq-03": "「公開或認真地呼籲、請求人們提供某物」是「appeal = make a serious request for help/support（呼籲）」的用法，與本句語境不同。",
-        "appeal-mcq-04": "「正式要求法院或其他權力機構重新審視並更改原來的決定」是「appeal = ask formally for a legal decision to be changed（法律）」的用法，與本句語境不同。",
-        "appeal-mcq-05": "「向較高層級正式要求重新考慮某項決定」是「appeal = request a higher authority to reconsider（正式申訴）」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。"
+        "appeal-mcq-02": "本句的「appealing」指「令人感到有吸引力、有好感或願意接近／接受的」。",
+        "appeal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-02"
     },
@@ -377,10 +357,8 @@ export default {
       "masked": "The restaurant has a warm and ____ atmosphere.",
       "options": [
         "appeal-mcq-02",
-        "appeal-mcq-01",
-        "appeal-mcq-03",
-        "appeal-mcq-04",
         "appeal-mcq-05",
+        "appeal-mcq-07",
         "appeal-mcq-06"
       ],
       "explanation": "本句的「appealing」指「令人感到有吸引力、有好感或願意接近／接受的」。",
@@ -390,12 +368,10 @@ export default {
         "appealing"
       ],
       "optionReasons": {
-        "appeal-mcq-02": "本句指「令人感到有吸引力、有好感或願意接近／接受的」。",
-        "appeal-mcq-01": "「對某人有吸引力；令某人感興趣」是「appeal = attract or interest someone（吸引）」的用法，與本句語境不同。",
-        "appeal-mcq-03": "「公開或認真地呼籲、請求人們提供某物」是「appeal = make a serious request for help/support（呼籲）」的用法，與本句語境不同。",
-        "appeal-mcq-04": "「正式要求法院或其他權力機構重新審視並更改原來的決定」是「appeal = ask formally for a legal decision to be changed（法律）」的用法，與本句語境不同。",
-        "appeal-mcq-05": "「向較高層級正式要求重新考慮某項決定」是「appeal = request a higher authority to reconsider（正式申訴）」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。"
+        "appeal-mcq-02": "本句的「appealing」指「令人感到有吸引力、有好感或願意接近／接受的」。",
+        "appeal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-02"
     },
@@ -407,11 +383,8 @@ export default {
       "masked": "The charity ____ for donations.",
       "options": [
         "appeal-mcq-03",
-        "appeal-mcq-02",
-        "appeal-mcq-04",
-        "appeal-mcq-01",
-        "appeal-mcq-05",
-        "appeal-mcq-06"
+        "appeal-mcq-11",
+        "appeal-mcq-05"
       ],
       "explanation": "本句的「appealed」指「公開或認真地呼籲、請求人們提供某物」。",
       "sentenceIndex": 5,
@@ -420,12 +393,9 @@ export default {
         "appealed"
       ],
       "optionReasons": {
-        "appeal-mcq-03": "本句指「公開或認真地呼籲、請求人們提供某物」。",
-        "appeal-mcq-02": "「令人感到有吸引力、有好感或願意接近／接受的」是「appealing = attractive / pleasant / interesting（有吸引力的）」的用法，與本句語境不同。",
-        "appeal-mcq-04": "「正式要求法院或其他權力機構重新審視並更改原來的決定」是「appeal = ask formally for a legal decision to be changed（法律）」的用法，與本句語境不同。",
-        "appeal-mcq-01": "「對某人有吸引力；令某人感興趣」是「appeal = attract or interest someone（吸引）」的用法，與本句語境不同。",
-        "appeal-mcq-05": "「向較高層級正式要求重新考慮某項決定」是「appeal = request a higher authority to reconsider（正式申訴）」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。"
+        "appeal-mcq-03": "本句的「appealed」指「公開或認真地呼籲、請求人們提供某物」。",
+        "appeal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-03"
     },
@@ -437,11 +407,9 @@ export default {
       "masked": "The police ____ to the public for information.",
       "options": [
         "appeal-mcq-03",
-        "appeal-mcq-02",
-        "appeal-mcq-04",
-        "appeal-mcq-01",
-        "appeal-mcq-05",
-        "appeal-mcq-06"
+        "appeal-mcq-06",
+        "appeal-mcq-08",
+        "appeal-mcq-05"
       ],
       "explanation": "本句的「appealed」指「公開或認真地呼籲、請求人們提供某物」。",
       "sentenceIndex": 6,
@@ -450,12 +418,10 @@ export default {
         "appealed"
       ],
       "optionReasons": {
-        "appeal-mcq-03": "本句指「公開或認真地呼籲、請求人們提供某物」。",
-        "appeal-mcq-02": "「令人感到有吸引力、有好感或願意接近／接受的」是「appealing = attractive / pleasant / interesting（有吸引力的）」的用法，與本句語境不同。",
-        "appeal-mcq-04": "「正式要求法院或其他權力機構重新審視並更改原來的決定」是「appeal = ask formally for a legal decision to be changed（法律）」的用法，與本句語境不同。",
-        "appeal-mcq-01": "「對某人有吸引力；令某人感興趣」是「appeal = attract or interest someone（吸引）」的用法，與本句語境不同。",
-        "appeal-mcq-05": "「向較高層級正式要求重新考慮某項決定」是「appeal = request a higher authority to reconsider（正式申訴）」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。"
+        "appeal-mcq-03": "本句的「appealed」指「公開或認真地呼籲、請求人們提供某物」。",
+        "appeal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-03"
     },
@@ -468,10 +434,7 @@ export default {
       "options": [
         "appeal-mcq-04",
         "appeal-mcq-03",
-        "appeal-mcq-05",
-        "appeal-mcq-02",
-        "appeal-mcq-06",
-        "appeal-mcq-01"
+        "appeal-mcq-11"
       ],
       "explanation": "本句的「appeal」指「正式要求法院或其他權力機構重新審視並更改原來的決定」。",
       "sentenceIndex": 7,
@@ -480,12 +443,9 @@ export default {
         "appeal"
       ],
       "optionReasons": {
-        "appeal-mcq-04": "本句指「正式要求法院或其他權力機構重新審視並更改原來的決定」。",
-        "appeal-mcq-03": "「公開或認真地呼籲、請求人們提供某物」是「appeal = make a serious request for help/support（呼籲）」的用法，與本句語境不同。",
-        "appeal-mcq-05": "「向較高層級正式要求重新考慮某項決定」是「appeal = request a higher authority to reconsider（正式申訴）」的用法，與本句語境不同。",
-        "appeal-mcq-02": "「令人感到有吸引力、有好感或願意接近／接受的」是「appealing = attractive / pleasant / interesting（有吸引力的）」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。",
-        "appeal-mcq-01": "「對某人有吸引力；令某人感興趣」是「appeal = attract or interest someone（吸引）」的用法，與本句語境不同。"
+        "appeal-mcq-04": "本句的「appeal」指「正式要求法院或其他權力機構重新審視並更改原來的決定」。",
+        "appeal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-04"
     },
@@ -497,11 +457,7 @@ export default {
       "masked": "The company ____ against the ruling.",
       "options": [
         "appeal-mcq-04",
-        "appeal-mcq-03",
-        "appeal-mcq-05",
-        "appeal-mcq-02",
-        "appeal-mcq-06",
-        "appeal-mcq-01"
+        "appeal-mcq-02"
       ],
       "explanation": "本句的「appealed」指「正式要求法院或其他權力機構重新審視並更改原來的決定」。",
       "sentenceIndex": 8,
@@ -510,12 +466,8 @@ export default {
         "appealed"
       ],
       "optionReasons": {
-        "appeal-mcq-04": "本句指「正式要求法院或其他權力機構重新審視並更改原來的決定」。",
-        "appeal-mcq-03": "「公開或認真地呼籲、請求人們提供某物」是「appeal = make a serious request for help/support（呼籲）」的用法，與本句語境不同。",
-        "appeal-mcq-05": "「向較高層級正式要求重新考慮某項決定」是「appeal = request a higher authority to reconsider（正式申訴）」的用法，與本句語境不同。",
-        "appeal-mcq-02": "「令人感到有吸引力、有好感或願意接近／接受的」是「appealing = attractive / pleasant / interesting（有吸引力的）」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。",
-        "appeal-mcq-01": "「對某人有吸引力；令某人感興趣」是「appeal = attract or interest someone（吸引）」的用法，與本句語境不同。"
+        "appeal-mcq-04": "本句的「appealed」指「正式要求法院或其他權力機構重新審視並更改原來的決定」。",
+        "appeal-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-04"
     },
@@ -527,11 +479,9 @@ export default {
       "masked": "Students can ____ their exam results.",
       "options": [
         "appeal-mcq-05",
-        "appeal-mcq-04",
+        "appeal-mcq-08",
         "appeal-mcq-06",
-        "appeal-mcq-03",
-        "appeal-mcq-07",
-        "appeal-mcq-02"
+        "appeal-mcq-03"
       ],
       "explanation": "本句的「appeal」指「向較高層級正式要求重新考慮某項決定」。",
       "sentenceIndex": 9,
@@ -540,12 +490,10 @@ export default {
         "appeal"
       ],
       "optionReasons": {
-        "appeal-mcq-05": "本句指「向較高層級正式要求重新考慮某項決定」。",
-        "appeal-mcq-04": "「正式要求法院或其他權力機構重新審視並更改原來的決定」是「appeal = ask formally for a legal decision to be changed（法律）」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。",
-        "appeal-mcq-03": "「公開或認真地呼籲、請求人們提供某物」是「appeal = make a serious request for help/support（呼籲）」的用法，與本句語境不同。",
-        "appeal-mcq-07": "「鄭重或懇切地請求某人採取行動」是「appeal = request urgently/directly to a person（向某人懇求）」的用法，與本句語境不同。",
-        "appeal-mcq-02": "「令人感到有吸引力、有好感或願意接近／接受的」是「appealing = attractive / pleasant / interesting（有吸引力的）」的用法，與本句語境不同。"
+        "appeal-mcq-05": "本句的「appeal」指「向較高層級正式要求重新考慮某項決定」。",
+        "appeal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-05"
     },
@@ -557,11 +505,8 @@ export default {
       "masked": "She ____ against the university’s decision.",
       "options": [
         "appeal-mcq-05",
-        "appeal-mcq-04",
-        "appeal-mcq-06",
-        "appeal-mcq-03",
-        "appeal-mcq-07",
-        "appeal-mcq-02"
+        "appeal-mcq-11",
+        "appeal-mcq-03"
       ],
       "explanation": "本句的「appealed」指「向較高層級正式要求重新考慮某項決定」。",
       "sentenceIndex": 10,
@@ -570,12 +515,9 @@ export default {
         "appealed"
       ],
       "optionReasons": {
-        "appeal-mcq-05": "本句指「向較高層級正式要求重新考慮某項決定」。",
-        "appeal-mcq-04": "「正式要求法院或其他權力機構重新審視並更改原來的決定」是「appeal = ask formally for a legal decision to be changed（法律）」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。",
-        "appeal-mcq-03": "「公開或認真地呼籲、請求人們提供某物」是「appeal = make a serious request for help/support（呼籲）」的用法，與本句語境不同。",
-        "appeal-mcq-07": "「鄭重或懇切地請求某人採取行動」是「appeal = request urgently/directly to a person（向某人懇求）」的用法，與本句語境不同。",
-        "appeal-mcq-02": "「令人感到有吸引力、有好感或願意接近／接受的」是「appealing = attractive / pleasant / interesting（有吸引力的）」的用法，與本句語境不同。"
+        "appeal-mcq-05": "本句的「appealed」指「向較高層級正式要求重新考慮某項決定」。",
+        "appeal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-05"
     },
@@ -587,11 +529,8 @@ export default {
       "masked": "The speaker ____ the audience’s sense of fairness.",
       "options": [
         "appeal-mcq-06",
-        "appeal-mcq-05",
-        "appeal-mcq-07",
-        "appeal-mcq-04",
-        "appeal-mcq-08",
-        "appeal-mcq-03"
+        "appeal-mcq-09",
+        "appeal-mcq-08"
       ],
       "explanation": "本句的「appealed to」指「利用某種價值、情緒、原則或感受來影響／說服人」。",
       "sentenceIndex": 11,
@@ -600,12 +539,9 @@ export default {
         "appealed to"
       ],
       "optionReasons": {
-        "appeal-mcq-06": "本句指「利用某種價值、情緒、原則或感受來影響／說服人」。",
-        "appeal-mcq-05": "「向較高層級正式要求重新考慮某項決定」是「appeal = request a higher authority to reconsider（正式申訴）」的用法，與本句語境不同。",
-        "appeal-mcq-07": "「鄭重或懇切地請求某人採取行動」是「appeal = request urgently/directly to a person（向某人懇求）」的用法，與本句語境不同。",
-        "appeal-mcq-04": "「正式要求法院或其他權力機構重新審視並更改原來的決定」是「appeal = ask formally for a legal decision to be changed（法律）」的用法，與本句語境不同。",
-        "appeal-mcq-08": "「令某人感到有興趣、有好感或想接近某物的特質」是「appeal = attraction or attractiveness（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-03": "「公開或認真地呼籲、請求人們提供某物」是「appeal = make a serious request for help/support（呼籲）」的用法，與本句語境不同。"
+        "appeal-mcq-06": "本句的「appealed to」指「利用某種價值、情緒、原則或感受來影響／說服人」。",
+        "appeal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-06"
     },
@@ -617,11 +553,8 @@ export default {
       "masked": "The campaign ____ people’s emotions.",
       "options": [
         "appeal-mcq-06",
-        "appeal-mcq-05",
-        "appeal-mcq-07",
-        "appeal-mcq-04",
-        "appeal-mcq-08",
-        "appeal-mcq-03"
+        "appeal-mcq-09",
+        "appeal-mcq-08"
       ],
       "explanation": "本句的「appealed to」指「利用某種價值、情緒、原則或感受來影響／說服人」。",
       "sentenceIndex": 12,
@@ -630,12 +563,9 @@ export default {
         "appealed to"
       ],
       "optionReasons": {
-        "appeal-mcq-06": "本句指「利用某種價值、情緒、原則或感受來影響／說服人」。",
-        "appeal-mcq-05": "「向較高層級正式要求重新考慮某項決定」是「appeal = request a higher authority to reconsider（正式申訴）」的用法，與本句語境不同。",
-        "appeal-mcq-07": "「鄭重或懇切地請求某人採取行動」是「appeal = request urgently/directly to a person（向某人懇求）」的用法，與本句語境不同。",
-        "appeal-mcq-04": "「正式要求法院或其他權力機構重新審視並更改原來的決定」是「appeal = ask formally for a legal decision to be changed（法律）」的用法，與本句語境不同。",
-        "appeal-mcq-08": "「令某人感到有興趣、有好感或想接近某物的特質」是「appeal = attraction or attractiveness（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-03": "「公開或認真地呼籲、請求人們提供某物」是「appeal = make a serious request for help/support（呼籲）」的用法，與本句語境不同。"
+        "appeal-mcq-06": "本句的「appealed to」指「利用某種價值、情緒、原則或感受來影響／說服人」。",
+        "appeal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-06"
     },
@@ -647,11 +577,9 @@ export default {
       "masked": "They ____ the government to act quickly.",
       "options": [
         "appeal-mcq-07",
+        "appeal-mcq-02",
         "appeal-mcq-06",
-        "appeal-mcq-08",
-        "appeal-mcq-05",
-        "appeal-mcq-09",
-        "appeal-mcq-04"
+        "appeal-mcq-05"
       ],
       "explanation": "本句的「appealed to」指「鄭重或懇切地請求某人採取行動」。",
       "sentenceIndex": 13,
@@ -660,12 +588,10 @@ export default {
         "appealed to"
       ],
       "optionReasons": {
-        "appeal-mcq-07": "本句指「鄭重或懇切地請求某人採取行動」。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。",
-        "appeal-mcq-08": "「令某人感到有興趣、有好感或想接近某物的特質」是「appeal = attraction or attractiveness（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-05": "「向較高層級正式要求重新考慮某項決定」是「appeal = request a higher authority to reconsider（正式申訴）」的用法，與本句語境不同。",
-        "appeal-mcq-09": "「對公眾發出的正式或迫切請求」是「appeal = public request for help/support（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-04": "「正式要求法院或其他權力機構重新審視並更改原來的決定」是「appeal = ask formally for a legal decision to be changed（法律）」的用法，與本句語境不同。"
+        "appeal-mcq-07": "本句的「appealed to」指「鄭重或懇切地請求某人採取行動」。",
+        "appeal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-07"
     },
@@ -677,11 +603,8 @@ export default {
       "masked": "She ____ him not to leave.",
       "options": [
         "appeal-mcq-07",
-        "appeal-mcq-06",
-        "appeal-mcq-08",
-        "appeal-mcq-05",
-        "appeal-mcq-09",
-        "appeal-mcq-04"
+        "appeal-mcq-11",
+        "appeal-mcq-05"
       ],
       "explanation": "本句的「appealed to」指「鄭重或懇切地請求某人採取行動」。",
       "sentenceIndex": 14,
@@ -690,12 +613,9 @@ export default {
         "appealed to"
       ],
       "optionReasons": {
-        "appeal-mcq-07": "本句指「鄭重或懇切地請求某人採取行動」。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。",
-        "appeal-mcq-08": "「令某人感到有興趣、有好感或想接近某物的特質」是「appeal = attraction or attractiveness（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-05": "「向較高層級正式要求重新考慮某項決定」是「appeal = request a higher authority to reconsider（正式申訴）」的用法，與本句語境不同。",
-        "appeal-mcq-09": "「對公眾發出的正式或迫切請求」是「appeal = public request for help/support（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-04": "「正式要求法院或其他權力機構重新審視並更改原來的決定」是「appeal = ask formally for a legal decision to be changed（法律）」的用法，與本句語境不同。"
+        "appeal-mcq-07": "本句的「appealed to」指「鄭重或懇切地請求某人採取行動」。",
+        "appeal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-07"
     },
@@ -707,11 +627,9 @@ export default {
       "masked": "The city has strong international ____.",
       "options": [
         "appeal-mcq-08",
-        "appeal-mcq-07",
-        "appeal-mcq-09",
-        "appeal-mcq-06",
-        "appeal-mcq-10",
-        "appeal-mcq-05"
+        "appeal-mcq-05",
+        "appeal-mcq-03",
+        "appeal-mcq-06"
       ],
       "explanation": "本句的「appeal」指「令某人感到有興趣、有好感或想接近某物的特質」。",
       "sentenceIndex": 15,
@@ -720,12 +638,10 @@ export default {
         "appeal"
       ],
       "optionReasons": {
-        "appeal-mcq-08": "本句指「令某人感到有興趣、有好感或想接近某物的特質」。",
-        "appeal-mcq-07": "「鄭重或懇切地請求某人採取行動」是「appeal = request urgently/directly to a person（向某人懇求）」的用法，與本句語境不同。",
-        "appeal-mcq-09": "「對公眾發出的正式或迫切請求」是「appeal = public request for help/support（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。",
-        "appeal-mcq-10": "「要求較高法院或權力機構重新審視原來決定的正式程序」是「appeal = legal challenge/review request（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-05": "「向較高層級正式要求重新考慮某項決定」是「appeal = request a higher authority to reconsider（正式申訴）」的用法，與本句語境不同。"
+        "appeal-mcq-08": "本句的「appeal」指「令某人感到有興趣、有好感或想接近某物的特質」。",
+        "appeal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-08"
     },
@@ -737,11 +653,9 @@ export default {
       "masked": "Part of the book’s ____ is its simple style.",
       "options": [
         "appeal-mcq-08",
-        "appeal-mcq-07",
-        "appeal-mcq-09",
-        "appeal-mcq-06",
-        "appeal-mcq-10",
-        "appeal-mcq-05"
+        "appeal-mcq-05",
+        "appeal-mcq-03",
+        "appeal-mcq-06"
       ],
       "explanation": "本句的「appeal」指「令某人感到有興趣、有好感或想接近某物的特質」。",
       "sentenceIndex": 16,
@@ -750,12 +664,10 @@ export default {
         "appeal"
       ],
       "optionReasons": {
-        "appeal-mcq-08": "本句指「令某人感到有興趣、有好感或想接近某物的特質」。",
-        "appeal-mcq-07": "「鄭重或懇切地請求某人採取行動」是「appeal = request urgently/directly to a person（向某人懇求）」的用法，與本句語境不同。",
-        "appeal-mcq-09": "「對公眾發出的正式或迫切請求」是「appeal = public request for help/support（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。",
-        "appeal-mcq-10": "「要求較高法院或權力機構重新審視原來決定的正式程序」是「appeal = legal challenge/review request（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-05": "「向較高層級正式要求重新考慮某項決定」是「appeal = request a higher authority to reconsider（正式申訴）」的用法，與本句語境不同。"
+        "appeal-mcq-08": "本句的「appeal」指「令某人感到有興趣、有好感或想接近某物的特質」。",
+        "appeal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-08"
     },
@@ -767,11 +679,7 @@ export default {
       "masked": "The organization launched an ____ for emergency aid.",
       "options": [
         "appeal-mcq-09",
-        "appeal-mcq-08",
-        "appeal-mcq-10",
-        "appeal-mcq-07",
-        "appeal-mcq-11",
-        "appeal-mcq-06"
+        "appeal-mcq-11"
       ],
       "explanation": "本句的「appeal」指「對公眾發出的正式或迫切請求」。",
       "sentenceIndex": 17,
@@ -780,12 +688,8 @@ export default {
         "appeal"
       ],
       "optionReasons": {
-        "appeal-mcq-09": "本句指「對公眾發出的正式或迫切請求」。",
-        "appeal-mcq-08": "「令某人感到有興趣、有好感或想接近某物的特質」是「appeal = attraction or attractiveness（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-10": "「要求較高法院或權力機構重新審視原來決定的正式程序」是「appeal = legal challenge/review request（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-07": "「鄭重或懇切地請求某人採取行動」是「appeal = request urgently/directly to a person（向某人懇求）」的用法，與本句語境不同。",
-        "appeal-mcq-11": "「以令人喜歡或感到有吸引力的方式」是「Related form: appealingly」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。"
+        "appeal-mcq-09": "本句的「appeal」指「對公眾發出的正式或迫切請求」。",
+        "appeal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-09"
     },
@@ -797,10 +701,7 @@ export default {
       "masked": "The ____ raised a large amount of money.",
       "options": [
         "appeal-mcq-09",
-        "appeal-mcq-08",
-        "appeal-mcq-10",
-        "appeal-mcq-07",
-        "appeal-mcq-11",
+        "appeal-mcq-02",
         "appeal-mcq-06"
       ],
       "explanation": "本句的「appeal」指「對公眾發出的正式或迫切請求」。",
@@ -810,12 +711,9 @@ export default {
         "appeal"
       ],
       "optionReasons": {
-        "appeal-mcq-09": "本句指「對公眾發出的正式或迫切請求」。",
-        "appeal-mcq-08": "「令某人感到有興趣、有好感或想接近某物的特質」是「appeal = attraction or attractiveness（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-10": "「要求較高法院或權力機構重新審視原來決定的正式程序」是「appeal = legal challenge/review request（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-07": "「鄭重或懇切地請求某人採取行動」是「appeal = request urgently/directly to a person（向某人懇求）」的用法，與本句語境不同。",
-        "appeal-mcq-11": "「以令人喜歡或感到有吸引力的方式」是「Related form: appealingly」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。"
+        "appeal-mcq-09": "本句的「appeal」指「對公眾發出的正式或迫切請求」。",
+        "appeal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-09"
     },
@@ -827,11 +725,8 @@ export default {
       "masked": "The court rejected his ____.",
       "options": [
         "appeal-mcq-10",
-        "appeal-mcq-09",
         "appeal-mcq-11",
-        "appeal-mcq-08",
-        "appeal-mcq-07",
-        "appeal-mcq-06"
+        "appeal-mcq-03"
       ],
       "explanation": "本句的「appeal」指「要求較高法院或權力機構重新審視原來決定的正式程序」。",
       "sentenceIndex": 19,
@@ -840,12 +735,9 @@ export default {
         "appeal"
       ],
       "optionReasons": {
-        "appeal-mcq-10": "本句指「要求較高法院或權力機構重新審視原來決定的正式程序」。",
-        "appeal-mcq-09": "「對公眾發出的正式或迫切請求」是「appeal = public request for help/support（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-11": "「以令人喜歡或感到有吸引力的方式」是「Related form: appealingly」的用法，與本句語境不同。",
-        "appeal-mcq-08": "「令某人感到有興趣、有好感或想接近某物的特質」是「appeal = attraction or attractiveness（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-07": "「鄭重或懇切地請求某人採取行動」是「appeal = request urgently/directly to a person（向某人懇求）」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。"
+        "appeal-mcq-10": "本句的「appeal」指「要求較高法院或權力機構重新審視原來決定的正式程序」。",
+        "appeal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-10"
     },
@@ -857,11 +749,8 @@ export default {
       "masked": "She filed an ____ against the decision.",
       "options": [
         "appeal-mcq-10",
-        "appeal-mcq-09",
-        "appeal-mcq-11",
-        "appeal-mcq-08",
-        "appeal-mcq-07",
-        "appeal-mcq-06"
+        "appeal-mcq-03",
+        "appeal-mcq-11"
       ],
       "explanation": "本句的「appeal」指「要求較高法院或權力機構重新審視原來決定的正式程序」。",
       "sentenceIndex": 20,
@@ -870,12 +759,9 @@ export default {
         "appeal"
       ],
       "optionReasons": {
-        "appeal-mcq-10": "本句指「要求較高法院或權力機構重新審視原來決定的正式程序」。",
-        "appeal-mcq-09": "「對公眾發出的正式或迫切請求」是「appeal = public request for help/support（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-11": "「以令人喜歡或感到有吸引力的方式」是「Related form: appealingly」的用法，與本句語境不同。",
-        "appeal-mcq-08": "「令某人感到有興趣、有好感或想接近某物的特質」是「appeal = attraction or attractiveness（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-07": "「鄭重或懇切地請求某人採取行動」是「appeal = request urgently/directly to a person（向某人懇求）」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。"
+        "appeal-mcq-10": "本句的「appeal」指「要求較高法院或權力機構重新審視原來決定的正式程序」。",
+        "appeal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "appeal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-10"
     },
@@ -887,11 +773,7 @@ export default {
       "masked": "The food was ____ presented.",
       "options": [
         "appeal-mcq-11",
-        "appeal-mcq-10",
-        "appeal-mcq-09",
-        "appeal-mcq-08",
-        "appeal-mcq-07",
-        "appeal-mcq-06"
+        "appeal-mcq-09"
       ],
       "explanation": "本句的「appealingly」指「以令人喜歡或感到有吸引力的方式」。",
       "sentenceIndex": 21,
@@ -900,12 +782,8 @@ export default {
         "appealingly"
       ],
       "optionReasons": {
-        "appeal-mcq-11": "本句指「以令人喜歡或感到有吸引力的方式」。",
-        "appeal-mcq-10": "「要求較高法院或權力機構重新審視原來決定的正式程序」是「appeal = legal challenge/review request（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-09": "「對公眾發出的正式或迫切請求」是「appeal = public request for help/support（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-08": "「令某人感到有興趣、有好感或想接近某物的特質」是「appeal = attraction or attractiveness（名詞）」的用法，與本句語境不同。",
-        "appeal-mcq-07": "「鄭重或懇切地請求某人採取行動」是「appeal = request urgently/directly to a person（向某人懇求）」的用法，與本句語境不同。",
-        "appeal-mcq-06": "「利用某種價值、情緒、原則或感受來影響／說服人」是「appeal = rely on an idea/value/emotion to persuade（訴諸）」的用法，與本句語境不同。"
+        "appeal-mcq-11": "本句的「appealingly」指「以令人喜歡或感到有吸引力的方式」。",
+        "appeal-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appeal-mcq-11"
     }
@@ -917,5 +795,7 @@ export default {
     "sha256": "76280897d4187688bf10f055464365e6305da6d6810ecc38845ca01288984166",
     "pages": 12
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

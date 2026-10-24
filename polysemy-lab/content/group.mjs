@@ -453,11 +453,9 @@ export default {
       "masked": "A ____ was waiting outside.",
       "options": [
         "group-mcq-01",
-        "group-mcq-02",
-        "group-mcq-03",
-        "group-mcq-04",
-        "group-mcq-05",
-        "group-mcq-06"
+        "group-mcq-08",
+        "group-mcq-14",
+        "group-mcq-12"
       ],
       "explanation": "本句的「group of students」指「若干人被視為一個整體；一群人／群體」。",
       "sentenceIndex": 2,
@@ -466,12 +464,10 @@ export default {
         "group of students"
       ],
       "optionReasons": {
-        "group-mcq-01": "本句指「若干人被視為一個整體；一群人／群體」。",
-        "group-mcq-02": "「一群／一組具有共同位置、活動或特徵的人或事物」與本句語境不同。",
-        "group-mcq-03": "「因具有共同特徵而被歸在一起的一類人／事物；組別／類別」與本句語境不同。",
-        "group-mcq-04": "「依年齡範圍劃分的一群人；年齡層」與本句語境不同。",
-        "group-mcq-05": "「某產品、活動或計畫主要針對的特定人群」與本句語境不同。",
-        "group-mcq-06": "「為共同活動、需要或目的而組成的團體／小組」與本句語境不同。"
+        "group-mcq-01": "本句的「group of students」指「若干人被視為一個整體；一群人／群體」。",
+        "group-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-01"
     },
@@ -483,11 +479,9 @@ export default {
       "masked": "We travelled with a small ____.",
       "options": [
         "group-mcq-01",
-        "group-mcq-02",
-        "group-mcq-03",
-        "group-mcq-04",
-        "group-mcq-05",
-        "group-mcq-06"
+        "group-mcq-12",
+        "group-mcq-13",
+        "group-mcq-08"
       ],
       "explanation": "本句的「group」指「若干人被視為一個整體；一群人／群體」。",
       "sentenceIndex": 3,
@@ -496,12 +490,10 @@ export default {
         "group"
       ],
       "optionReasons": {
-        "group-mcq-01": "本句指「若干人被視為一個整體；一群人／群體」。",
-        "group-mcq-02": "「一群／一組具有共同位置、活動或特徵的人或事物」與本句語境不同。",
-        "group-mcq-03": "「因具有共同特徵而被歸在一起的一類人／事物；組別／類別」與本句語境不同。",
-        "group-mcq-04": "「依年齡範圍劃分的一群人；年齡層」與本句語境不同。",
-        "group-mcq-05": "「某產品、活動或計畫主要針對的特定人群」與本句語境不同。",
-        "group-mcq-06": "「為共同活動、需要或目的而組成的團體／小組」與本句語境不同。"
+        "group-mcq-01": "本句的「group」指「若干人被視為一個整體；一群人／群體」。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-01"
     },
@@ -513,11 +505,9 @@ export default {
       "masked": "A ____ entered the museum.",
       "options": [
         "group-mcq-02",
-        "group-mcq-01",
-        "group-mcq-03",
-        "group-mcq-04",
-        "group-mcq-05",
-        "group-mcq-06"
+        "group-mcq-12",
+        "group-mcq-21",
+        "group-mcq-20"
       ],
       "explanation": "本句的「group of tourists」指「一群／一組具有共同位置、活動或特徵的人或事物」。",
       "sentenceIndex": 4,
@@ -526,12 +516,10 @@ export default {
         "group of tourists"
       ],
       "optionReasons": {
-        "group-mcq-02": "本句指「一群／一組具有共同位置、活動或特徵的人或事物」。",
-        "group-mcq-01": "「若干人被視為一個整體；一群人／群體」與本句語境不同。",
-        "group-mcq-03": "「因具有共同特徵而被歸在一起的一類人／事物；組別／類別」與本句語境不同。",
-        "group-mcq-04": "「依年齡範圍劃分的一群人；年齡層」與本句語境不同。",
-        "group-mcq-05": "「某產品、活動或計畫主要針對的特定人群」與本句語境不同。",
-        "group-mcq-06": "「為共同活動、需要或目的而組成的團體／小組」與本句語境不同。"
+        "group-mcq-02": "本句的「group of tourists」指「一群／一組具有共同位置、活動或特徵的人或事物」。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-02"
     },
@@ -543,11 +531,9 @@ export default {
       "masked": "She was talking to a ____.",
       "options": [
         "group-mcq-02",
-        "group-mcq-01",
-        "group-mcq-03",
-        "group-mcq-04",
-        "group-mcq-05",
-        "group-mcq-06"
+        "group-mcq-12",
+        "group-mcq-21",
+        "group-mcq-15"
       ],
       "explanation": "本句的「group of colleagues」指「一群／一組具有共同位置、活動或特徵的人或事物」。",
       "sentenceIndex": 5,
@@ -556,12 +542,10 @@ export default {
         "group of colleagues"
       ],
       "optionReasons": {
-        "group-mcq-02": "本句指「一群／一組具有共同位置、活動或特徵的人或事物」。",
-        "group-mcq-01": "「若干人被視為一個整體；一群人／群體」與本句語境不同。",
-        "group-mcq-03": "「因具有共同特徵而被歸在一起的一類人／事物；組別／類別」與本句語境不同。",
-        "group-mcq-04": "「依年齡範圍劃分的一群人；年齡層」與本句語境不同。",
-        "group-mcq-05": "「某產品、活動或計畫主要針對的特定人群」與本句語境不同。",
-        "group-mcq-06": "「為共同活動、需要或目的而組成的團體／小組」與本句語境不同。"
+        "group-mcq-02": "本句的「group of colleagues」指「一群／一組具有共同位置、活動或特徵的人或事物」。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-02"
     },
@@ -573,11 +557,9 @@ export default {
       "masked": "The product is popular with younger ____.",
       "options": [
         "group-mcq-04",
-        "group-mcq-03",
-        "group-mcq-05",
-        "group-mcq-02",
-        "group-mcq-06",
-        "group-mcq-01"
+        "group-mcq-10",
+        "group-mcq-14",
+        "group-mcq-06"
       ],
       "explanation": "本句的「age groups」指「依年齡範圍劃分的一群人；年齡層」。",
       "sentenceIndex": 8,
@@ -586,12 +568,10 @@ export default {
         "age groups"
       ],
       "optionReasons": {
-        "group-mcq-04": "本句指「依年齡範圍劃分的一群人；年齡層」。",
-        "group-mcq-03": "「因具有共同特徵而被歸在一起的一類人／事物；組別／類別」與本句語境不同。",
-        "group-mcq-05": "「某產品、活動或計畫主要針對的特定人群」與本句語境不同。",
-        "group-mcq-02": "「一群／一組具有共同位置、活動或特徵的人或事物」與本句語境不同。",
-        "group-mcq-06": "「為共同活動、需要或目的而組成的團體／小組」與本句語境不同。",
-        "group-mcq-01": "「若干人被視為一個整體；一群人／群體」與本句語境不同。"
+        "group-mcq-04": "本句的「age groups」指「依年齡範圍劃分的一群人；年齡層」。",
+        "group-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-04"
     },
@@ -603,11 +583,9 @@ export default {
       "masked": "Participants were divided by ____.",
       "options": [
         "group-mcq-04",
-        "group-mcq-03",
-        "group-mcq-05",
-        "group-mcq-02",
-        "group-mcq-06",
-        "group-mcq-01"
+        "group-mcq-08",
+        "group-mcq-10",
+        "group-mcq-14"
       ],
       "explanation": "本句的「age group」指「依年齡範圍劃分的一群人；年齡層」。",
       "sentenceIndex": 9,
@@ -616,12 +594,10 @@ export default {
         "age group"
       ],
       "optionReasons": {
-        "group-mcq-04": "本句指「依年齡範圍劃分的一群人；年齡層」。",
-        "group-mcq-03": "「因具有共同特徵而被歸在一起的一類人／事物；組別／類別」與本句語境不同。",
-        "group-mcq-05": "「某產品、活動或計畫主要針對的特定人群」與本句語境不同。",
-        "group-mcq-02": "「一群／一組具有共同位置、活動或特徵的人或事物」與本句語境不同。",
-        "group-mcq-06": "「為共同活動、需要或目的而組成的團體／小組」與本句語境不同。",
-        "group-mcq-01": "「若干人被視為一個整體；一群人／群體」與本句語境不同。"
+        "group-mcq-04": "本句的「age group」指「依年齡範圍劃分的一群人；年齡層」。",
+        "group-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-04"
     },
@@ -633,11 +609,9 @@ export default {
       "masked": "Teenagers are the main ____ for the campaign.",
       "options": [
         "group-mcq-05",
-        "group-mcq-04",
-        "group-mcq-06",
-        "group-mcq-03",
-        "group-mcq-07",
-        "group-mcq-02"
+        "group-mcq-10",
+        "group-mcq-21",
+        "group-mcq-13"
       ],
       "explanation": "本句的「target group」指「某產品、活動或計畫主要針對的特定人群」。",
       "sentenceIndex": 10,
@@ -646,12 +620,10 @@ export default {
         "target group"
       ],
       "optionReasons": {
-        "group-mcq-05": "本句指「某產品、活動或計畫主要針對的特定人群」。",
-        "group-mcq-04": "「依年齡範圍劃分的一群人；年齡層」與本句語境不同。",
-        "group-mcq-06": "「為共同活動、需要或目的而組成的團體／小組」與本句語境不同。",
-        "group-mcq-03": "「因具有共同特徵而被歸在一起的一類人／事物；組別／類別」與本句語境不同。",
-        "group-mcq-07": "「被安排一起完成工作或學習任務的一組人」與本句語境不同。",
-        "group-mcq-02": "「一群／一組具有共同位置、活動或特徵的人或事物」與本句語境不同。"
+        "group-mcq-05": "本句的「target group」指「某產品、活動或計畫主要針對的特定人群」。",
+        "group-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-05"
     },
@@ -663,11 +635,9 @@ export default {
       "masked": "The programme is designed for a specific ____.",
       "options": [
         "group-mcq-05",
-        "group-mcq-04",
-        "group-mcq-06",
-        "group-mcq-03",
-        "group-mcq-07",
-        "group-mcq-02"
+        "group-mcq-10",
+        "group-mcq-21",
+        "group-mcq-13"
       ],
       "explanation": "本句的「target group」指「某產品、活動或計畫主要針對的特定人群」。",
       "sentenceIndex": 11,
@@ -676,12 +646,10 @@ export default {
         "target group"
       ],
       "optionReasons": {
-        "group-mcq-05": "本句指「某產品、活動或計畫主要針對的特定人群」。",
-        "group-mcq-04": "「依年齡範圍劃分的一群人；年齡層」與本句語境不同。",
-        "group-mcq-06": "「為共同活動、需要或目的而組成的團體／小組」與本句語境不同。",
-        "group-mcq-03": "「因具有共同特徵而被歸在一起的一類人／事物；組別／類別」與本句語境不同。",
-        "group-mcq-07": "「被安排一起完成工作或學習任務的一組人」與本句語境不同。",
-        "group-mcq-02": "「一群／一組具有共同位置、活動或特徵的人或事物」與本句語境不同。"
+        "group-mcq-05": "本句的「target group」指「某產品、活動或計畫主要針對的特定人群」。",
+        "group-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-05"
     },
@@ -693,11 +661,9 @@ export default {
       "masked": "She joined a local environmental ____.",
       "options": [
         "group-mcq-06",
-        "group-mcq-05",
-        "group-mcq-07",
-        "group-mcq-04",
-        "group-mcq-08",
-        "group-mcq-03"
+        "group-mcq-15",
+        "group-mcq-12",
+        "group-mcq-04"
       ],
       "explanation": "本句的「group」指「為共同活動、需要或目的而組成的團體／小組」。",
       "sentenceIndex": 12,
@@ -706,12 +672,10 @@ export default {
         "group"
       ],
       "optionReasons": {
-        "group-mcq-06": "本句指「為共同活動、需要或目的而組成的團體／小組」。",
-        "group-mcq-05": "「某產品、活動或計畫主要針對的特定人群」與本句語境不同。",
-        "group-mcq-07": "「被安排一起完成工作或學習任務的一組人」與本句語境不同。",
-        "group-mcq-04": "「依年齡範圍劃分的一群人；年齡層」與本句語境不同。",
-        "group-mcq-08": "「多人以小組形式共同完成的工作／活動」與本句語境不同。",
-        "group-mcq-03": "「因具有共同特徵而被歸在一起的一類人／事物；組別／類別」與本句語境不同。"
+        "group-mcq-06": "本句的「group」指「為共同活動、需要或目的而組成的團體／小組」。",
+        "group-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-06"
     },
@@ -723,11 +687,9 @@ export default {
       "masked": "The support ____ meets every Friday.",
       "options": [
         "group-mcq-06",
-        "group-mcq-05",
-        "group-mcq-07",
+        "group-mcq-12",
         "group-mcq-04",
-        "group-mcq-08",
-        "group-mcq-03"
+        "group-mcq-15"
       ],
       "explanation": "本句的「group」指「為共同活動、需要或目的而組成的團體／小組」。",
       "sentenceIndex": 13,
@@ -736,12 +698,10 @@ export default {
         "group"
       ],
       "optionReasons": {
-        "group-mcq-06": "本句指「為共同活動、需要或目的而組成的團體／小組」。",
-        "group-mcq-05": "「某產品、活動或計畫主要針對的特定人群」與本句語境不同。",
-        "group-mcq-07": "「被安排一起完成工作或學習任務的一組人」與本句語境不同。",
-        "group-mcq-04": "「依年齡範圍劃分的一群人；年齡層」與本句語境不同。",
-        "group-mcq-08": "「多人以小組形式共同完成的工作／活動」與本句語境不同。",
-        "group-mcq-03": "「因具有共同特徵而被歸在一起的一類人／事物；組別／類別」與本句語境不同。"
+        "group-mcq-06": "本句的「group」指「為共同活動、需要或目的而組成的團體／小組」。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-06"
     },
@@ -753,11 +713,9 @@ export default {
       "masked": "He joined a ____.",
       "options": [
         "group-mcq-06",
-        "group-mcq-05",
-        "group-mcq-07",
-        "group-mcq-04",
-        "group-mcq-08",
-        "group-mcq-03"
+        "group-mcq-12",
+        "group-mcq-15",
+        "group-mcq-04"
       ],
       "explanation": "本句的「support group」指「為共同活動、需要或目的而組成的團體／小組」。",
       "sentenceIndex": 14,
@@ -766,12 +724,10 @@ export default {
         "support group"
       ],
       "optionReasons": {
-        "group-mcq-06": "本句指「為共同活動、需要或目的而組成的團體／小組」。",
-        "group-mcq-05": "「某產品、活動或計畫主要針對的特定人群」與本句語境不同。",
-        "group-mcq-07": "「被安排一起完成工作或學習任務的一組人」與本句語境不同。",
-        "group-mcq-04": "「依年齡範圍劃分的一群人；年齡層」與本句語境不同。",
-        "group-mcq-08": "「多人以小組形式共同完成的工作／活動」與本句語境不同。",
-        "group-mcq-03": "「因具有共同特徵而被歸在一起的一類人／事物；組別／類別」與本句語境不同。"
+        "group-mcq-06": "本句的「support group」指「為共同活動、需要或目的而組成的團體／小組」。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-06"
     },
@@ -783,11 +739,9 @@ export default {
       "masked": "We formed a small ____.",
       "options": [
         "group-mcq-06",
-        "group-mcq-05",
-        "group-mcq-07",
+        "group-mcq-12",
         "group-mcq-04",
-        "group-mcq-08",
-        "group-mcq-03"
+        "group-mcq-15"
       ],
       "explanation": "本句的「discussion group」指「為共同活動、需要或目的而組成的團體／小組」。",
       "sentenceIndex": 15,
@@ -796,12 +750,10 @@ export default {
         "discussion group"
       ],
       "optionReasons": {
-        "group-mcq-06": "本句指「為共同活動、需要或目的而組成的團體／小組」。",
-        "group-mcq-05": "「某產品、活動或計畫主要針對的特定人群」與本句語境不同。",
-        "group-mcq-07": "「被安排一起完成工作或學習任務的一組人」與本句語境不同。",
-        "group-mcq-04": "「依年齡範圍劃分的一群人；年齡層」與本句語境不同。",
-        "group-mcq-08": "「多人以小組形式共同完成的工作／活動」與本句語境不同。",
-        "group-mcq-03": "「因具有共同特徵而被歸在一起的一類人／事物；組別／類別」與本句語境不同。"
+        "group-mcq-06": "本句的「discussion group」指「為共同活動、需要或目的而組成的團體／小組」。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-06"
     },
@@ -813,11 +765,9 @@ export default {
       "masked": "Work in ____.",
       "options": [
         "group-mcq-07",
-        "group-mcq-06",
-        "group-mcq-08",
-        "group-mcq-05",
-        "group-mcq-09",
-        "group-mcq-04"
+        "group-mcq-01",
+        "group-mcq-15",
+        "group-mcq-21"
       ],
       "explanation": "本句的「groups of four」指「被安排一起完成工作或學習任務的一組人」。",
       "sentenceIndex": 16,
@@ -826,12 +776,10 @@ export default {
         "groups of four"
       ],
       "optionReasons": {
-        "group-mcq-07": "本句指「被安排一起完成工作或學習任務的一組人」。",
-        "group-mcq-06": "「為共同活動、需要或目的而組成的團體／小組」與本句語境不同。",
-        "group-mcq-08": "「多人以小組形式共同完成的工作／活動」與本句語境不同。",
-        "group-mcq-05": "「某產品、活動或計畫主要針對的特定人群」與本句語境不同。",
-        "group-mcq-09": "「由共同控制或所有權連結的多家公司；企業集團」與本句語境不同。",
-        "group-mcq-04": "「依年齡範圍劃分的一群人；年齡層」與本句語境不同。"
+        "group-mcq-07": "本句的「groups of four」指「被安排一起完成工作或學習任務的一組人」。",
+        "group-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-07"
     },
@@ -843,11 +791,9 @@ export default {
       "masked": "Our ____ finished the task first.",
       "options": [
         "group-mcq-07",
-        "group-mcq-06",
-        "group-mcq-08",
-        "group-mcq-05",
-        "group-mcq-09",
-        "group-mcq-04"
+        "group-mcq-04",
+        "group-mcq-20",
+        "group-mcq-21"
       ],
       "explanation": "本句的「group」指「被安排一起完成工作或學習任務的一組人」。",
       "sentenceIndex": 17,
@@ -856,12 +802,10 @@ export default {
         "group"
       ],
       "optionReasons": {
-        "group-mcq-07": "本句指「被安排一起完成工作或學習任務的一組人」。",
-        "group-mcq-06": "「為共同活動、需要或目的而組成的團體／小組」與本句語境不同。",
-        "group-mcq-08": "「多人以小組形式共同完成的工作／活動」與本句語境不同。",
-        "group-mcq-05": "「某產品、活動或計畫主要針對的特定人群」與本句語境不同。",
-        "group-mcq-09": "「由共同控制或所有權連結的多家公司；企業集團」與本句語境不同。",
-        "group-mcq-04": "「依年齡範圍劃分的一群人；年齡層」與本句語境不同。"
+        "group-mcq-07": "本句的「group」指「被安排一起完成工作或學習任務的一組人」。",
+        "group-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-07"
     },
@@ -873,11 +817,9 @@ export default {
       "masked": "The lesson includes a lot of ____.",
       "options": [
         "group-mcq-08",
-        "group-mcq-07",
-        "group-mcq-09",
-        "group-mcq-06",
-        "group-mcq-10",
-        "group-mcq-05"
+        "group-mcq-01",
+        "group-mcq-12",
+        "group-mcq-15"
       ],
       "explanation": "本句的「group work」指「多人以小組形式共同完成的工作／活動」。",
       "sentenceIndex": 18,
@@ -886,12 +828,10 @@ export default {
         "group work"
       ],
       "optionReasons": {
-        "group-mcq-08": "本句指「多人以小組形式共同完成的工作／活動」。",
-        "group-mcq-07": "「被安排一起完成工作或學習任務的一組人」與本句語境不同。",
-        "group-mcq-09": "「由共同控制或所有權連結的多家公司；企業集團」與本句語境不同。",
-        "group-mcq-06": "「為共同活動、需要或目的而組成的團體／小組」與本句語境不同。",
-        "group-mcq-10": "「一起演奏或演唱音樂的樂團／組合」與本句語境不同。",
-        "group-mcq-05": "「某產品、活動或計畫主要針對的特定人群」與本句語境不同。"
+        "group-mcq-08": "本句的「group work」指「多人以小組形式共同完成的工作／活動」。",
+        "group-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-08"
     },
@@ -903,11 +843,9 @@ export default {
       "masked": "Some students prefer individual tasks to ____.",
       "options": [
         "group-mcq-08",
-        "group-mcq-07",
-        "group-mcq-09",
-        "group-mcq-06",
-        "group-mcq-10",
-        "group-mcq-05"
+        "group-mcq-01",
+        "group-mcq-12",
+        "group-mcq-15"
       ],
       "explanation": "本句的「group work」指「多人以小組形式共同完成的工作／活動」。",
       "sentenceIndex": 19,
@@ -916,12 +854,10 @@ export default {
         "group work"
       ],
       "optionReasons": {
-        "group-mcq-08": "本句指「多人以小組形式共同完成的工作／活動」。",
-        "group-mcq-07": "「被安排一起完成工作或學習任務的一組人」與本句語境不同。",
-        "group-mcq-09": "「由共同控制或所有權連結的多家公司；企業集團」與本句語境不同。",
-        "group-mcq-06": "「為共同活動、需要或目的而組成的團體／小組」與本句語境不同。",
-        "group-mcq-10": "「一起演奏或演唱音樂的樂團／組合」與本句語境不同。",
-        "group-mcq-05": "「某產品、活動或計畫主要針對的特定人群」與本句語境不同。"
+        "group-mcq-08": "本句的「group work」指「多人以小組形式共同完成的工作／活動」。",
+        "group-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-08"
     },
@@ -933,11 +869,9 @@ export default {
       "masked": "He plays guitar in a local ____.",
       "options": [
         "group-mcq-10",
-        "group-mcq-09",
-        "group-mcq-11",
-        "group-mcq-08",
-        "group-mcq-12",
-        "group-mcq-07"
+        "group-mcq-05",
+        "group-mcq-04",
+        "group-mcq-13"
       ],
       "explanation": "本句的「group」指「一起演奏或演唱音樂的樂團／組合」。",
       "sentenceIndex": 24,
@@ -946,12 +880,10 @@ export default {
         "group"
       ],
       "optionReasons": {
-        "group-mcq-10": "本句指「一起演奏或演唱音樂的樂團／組合」。",
-        "group-mcq-09": "「由共同控制或所有權連結的多家公司；企業集團」與本句語境不同。",
-        "group-mcq-11": "「按共同特徵或目的把人／事物放在一起；分組／歸類」與本句語境不同。",
-        "group-mcq-08": "「多人以小組形式共同完成的工作／活動」與本句語境不同。",
-        "group-mcq-12": "「聚在一起或把相似事物歸在一起」與本句語境不同。",
-        "group-mcq-07": "「被安排一起完成工作或學習任務的一組人」與本句語境不同。"
+        "group-mcq-10": "本句的「group」指「一起演奏或演唱音樂的樂團／組合」。",
+        "group-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-10"
     },
@@ -963,11 +895,9 @@ export default {
       "masked": "The ____ released its first album last year.",
       "options": [
         "group-mcq-10",
-        "group-mcq-09",
-        "group-mcq-11",
-        "group-mcq-08",
-        "group-mcq-12",
-        "group-mcq-07"
+        "group-mcq-01",
+        "group-mcq-19",
+        "group-mcq-08"
       ],
       "explanation": "本句的「group」指「一起演奏或演唱音樂的樂團／組合」。",
       "sentenceIndex": 25,
@@ -976,12 +906,10 @@ export default {
         "group"
       ],
       "optionReasons": {
-        "group-mcq-10": "本句指「一起演奏或演唱音樂的樂團／組合」。",
-        "group-mcq-09": "「由共同控制或所有權連結的多家公司；企業集團」與本句語境不同。",
-        "group-mcq-11": "「按共同特徵或目的把人／事物放在一起；分組／歸類」與本句語境不同。",
-        "group-mcq-08": "「多人以小組形式共同完成的工作／活動」與本句語境不同。",
-        "group-mcq-12": "「聚在一起或把相似事物歸在一起」與本句語境不同。",
-        "group-mcq-07": "「被安排一起完成工作或學習任務的一組人」與本句語境不同。"
+        "group-mcq-10": "本句的「group」指「一起演奏或演唱音樂的樂團／組合」。",
+        "group-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-10"
     },
@@ -993,11 +921,9 @@ export default {
       "masked": "____ according to meaning.",
       "options": [
         "group-mcq-11",
-        "group-mcq-10",
-        "group-mcq-12",
-        "group-mcq-09",
-        "group-mcq-13",
-        "group-mcq-08"
+        "group-mcq-01",
+        "group-mcq-15",
+        "group-mcq-13"
       ],
       "explanation": "本句的「Group the words」指「按共同特徵或目的把人／事物放在一起；分組／歸類」。",
       "sentenceIndex": 26,
@@ -1006,12 +932,10 @@ export default {
         "Group the words"
       ],
       "optionReasons": {
-        "group-mcq-11": "本句指「按共同特徵或目的把人／事物放在一起；分組／歸類」。",
-        "group-mcq-10": "「一起演奏或演唱音樂的樂團／組合」與本句語境不同。",
-        "group-mcq-12": "「聚在一起或把相似事物歸在一起」與本句語境不同。",
-        "group-mcq-09": "「由共同控制或所有權連結的多家公司；企業集團」與本句語境不同。",
-        "group-mcq-13": "「實驗中作為比較基準、通常不接受實驗處理的一組；對照組」與本句語境不同。",
-        "group-mcq-08": "「多人以小組形式共同完成的工作／活動」與本句語境不同。"
+        "group-mcq-11": "本句的「Group the words」指「按共同特徵或目的把人／事物放在一起；分組／歸類」。",
+        "group-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-11"
     },
@@ -1023,11 +947,9 @@ export default {
       "masked": "The students were ____.",
       "options": [
         "group-mcq-11",
-        "group-mcq-10",
-        "group-mcq-12",
-        "group-mcq-09",
+        "group-mcq-01",
         "group-mcq-13",
-        "group-mcq-08"
+        "group-mcq-15"
       ],
       "explanation": "本句的「grouped by age」指「按共同特徵或目的把人／事物放在一起；分組／歸類」。",
       "sentenceIndex": 27,
@@ -1036,12 +958,10 @@ export default {
         "grouped by age"
       ],
       "optionReasons": {
-        "group-mcq-11": "本句指「按共同特徵或目的把人／事物放在一起；分組／歸類」。",
-        "group-mcq-10": "「一起演奏或演唱音樂的樂團／組合」與本句語境不同。",
-        "group-mcq-12": "「聚在一起或把相似事物歸在一起」與本句語境不同。",
-        "group-mcq-09": "「由共同控制或所有權連結的多家公司；企業集團」與本句語境不同。",
-        "group-mcq-13": "「實驗中作為比較基準、通常不接受實驗處理的一組；對照組」與本句語境不同。",
-        "group-mcq-08": "「多人以小組形式共同完成的工作／活動」與本句語境不同。"
+        "group-mcq-11": "本句的「grouped by age」指「按共同特徵或目的把人／事物放在一起；分組／歸類」。",
+        "group-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-11"
     },
@@ -1053,11 +973,9 @@ export default {
       "masked": "I would ____.",
       "options": [
         "group-mcq-12",
-        "group-mcq-11",
-        "group-mcq-13",
-        "group-mcq-10",
-        "group-mcq-14",
-        "group-mcq-09"
+        "group-mcq-18",
+        "group-mcq-05",
+        "group-mcq-21"
       ],
       "explanation": "本句的「group these two examples together」指「聚在一起或把相似事物歸在一起」。",
       "sentenceIndex": 28,
@@ -1066,12 +984,10 @@ export default {
         "group these two examples together"
       ],
       "optionReasons": {
-        "group-mcq-12": "本句指「聚在一起或把相似事物歸在一起」。",
-        "group-mcq-11": "「按共同特徵或目的把人／事物放在一起；分組／歸類」與本句語境不同。",
-        "group-mcq-13": "「實驗中作為比較基準、通常不接受實驗處理的一組；對照組」與本句語境不同。",
-        "group-mcq-10": "「一起演奏或演唱音樂的樂團／組合」與本句語境不同。",
-        "group-mcq-14": "「實驗中接受特定處理或條件的一組；實驗組／治療組」與本句語境不同。",
-        "group-mcq-09": "「由共同控制或所有權連結的多家公司；企業集團」與本句語境不同。"
+        "group-mcq-12": "本句的「group these two examples together」指「聚在一起或把相似事物歸在一起」。",
+        "group-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-12"
     },
@@ -1083,11 +999,9 @@ export default {
       "masked": "The report ____.",
       "options": [
         "group-mcq-12",
-        "group-mcq-11",
-        "group-mcq-13",
-        "group-mcq-10",
         "group-mcq-14",
-        "group-mcq-09"
+        "group-mcq-06",
+        "group-mcq-21"
       ],
       "explanation": "本句的「groups small businesses with larger firms」指「聚在一起或把相似事物歸在一起」。",
       "sentenceIndex": 29,
@@ -1096,12 +1010,10 @@ export default {
         "groups small businesses with larger firms"
       ],
       "optionReasons": {
-        "group-mcq-12": "本句指「聚在一起或把相似事物歸在一起」。",
-        "group-mcq-11": "「按共同特徵或目的把人／事物放在一起；分組／歸類」與本句語境不同。",
-        "group-mcq-13": "「實驗中作為比較基準、通常不接受實驗處理的一組；對照組」與本句語境不同。",
-        "group-mcq-10": "「一起演奏或演唱音樂的樂團／組合」與本句語境不同。",
-        "group-mcq-14": "「實驗中接受特定處理或條件的一組；實驗組／治療組」與本句語境不同。",
-        "group-mcq-09": "「由共同控制或所有權連結的多家公司；企業集團」與本句語境不同。"
+        "group-mcq-12": "本句的「groups small businesses with larger firms」指「聚在一起或把相似事物歸在一起」。",
+        "group-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-12"
     },
@@ -1113,11 +1025,9 @@ export default {
       "masked": "The children ____ near the door.",
       "options": [
         "group-mcq-12",
-        "group-mcq-11",
-        "group-mcq-13",
-        "group-mcq-10",
+        "group-mcq-19",
         "group-mcq-14",
-        "group-mcq-09"
+        "group-mcq-01"
       ],
       "explanation": "本句的「grouped together」指「聚在一起或把相似事物歸在一起」。",
       "sentenceIndex": 30,
@@ -1126,12 +1036,10 @@ export default {
         "grouped together"
       ],
       "optionReasons": {
-        "group-mcq-12": "本句指「聚在一起或把相似事物歸在一起」。",
-        "group-mcq-11": "「按共同特徵或目的把人／事物放在一起；分組／歸類」與本句語境不同。",
-        "group-mcq-13": "「實驗中作為比較基準、通常不接受實驗處理的一組；對照組」與本句語境不同。",
-        "group-mcq-10": "「一起演奏或演唱音樂的樂團／組合」與本句語境不同。",
-        "group-mcq-14": "「實驗中接受特定處理或條件的一組；實驗組／治療組」與本句語境不同。",
-        "group-mcq-09": "「由共同控制或所有權連結的多家公司；企業集團」與本句語境不同。"
+        "group-mcq-12": "本句的「grouped together」指「聚在一起或把相似事物歸在一起」。",
+        "group-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-12"
     },
@@ -1143,11 +1051,9 @@ export default {
       "masked": "Similar meanings should be ____.",
       "options": [
         "group-mcq-12",
-        "group-mcq-11",
-        "group-mcq-13",
-        "group-mcq-10",
-        "group-mcq-14",
-        "group-mcq-09"
+        "group-mcq-18",
+        "group-mcq-15",
+        "group-mcq-13"
       ],
       "explanation": "本句的「grouped together」指「聚在一起或把相似事物歸在一起」。",
       "sentenceIndex": 31,
@@ -1156,12 +1062,10 @@ export default {
         "grouped together"
       ],
       "optionReasons": {
-        "group-mcq-12": "本句指「聚在一起或把相似事物歸在一起」。",
-        "group-mcq-11": "「按共同特徵或目的把人／事物放在一起；分組／歸類」與本句語境不同。",
-        "group-mcq-13": "「實驗中作為比較基準、通常不接受實驗處理的一組；對照組」與本句語境不同。",
-        "group-mcq-10": "「一起演奏或演唱音樂的樂團／組合」與本句語境不同。",
-        "group-mcq-14": "「實驗中接受特定處理或條件的一組；實驗組／治療組」與本句語境不同。",
-        "group-mcq-09": "「由共同控制或所有權連結的多家公司；企業集團」與本句語境不同。"
+        "group-mcq-12": "本句的「grouped together」指「聚在一起或把相似事物歸在一起」。",
+        "group-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-12"
     },
@@ -1173,11 +1077,9 @@ export default {
       "masked": "The study included a ____.",
       "options": [
         "group-mcq-13",
-        "group-mcq-12",
-        "group-mcq-14",
-        "group-mcq-11",
         "group-mcq-15",
-        "group-mcq-10"
+        "group-mcq-01",
+        "group-mcq-12"
       ],
       "explanation": "本句的「control group」指「實驗中作為比較基準、通常不接受實驗處理的一組；對照組」。",
       "sentenceIndex": 34,
@@ -1186,12 +1088,10 @@ export default {
         "control group"
       ],
       "optionReasons": {
-        "group-mcq-13": "本句指「實驗中作為比較基準、通常不接受實驗處理的一組；對照組」。",
-        "group-mcq-12": "「聚在一起或把相似事物歸在一起」與本句語境不同。",
-        "group-mcq-14": "「實驗中接受特定處理或條件的一組；實驗組／治療組」與本句語境不同。",
-        "group-mcq-11": "「按共同特徵或目的把人／事物放在一起；分組／歸類」與本句語境不同。",
-        "group-mcq-15": "「符合特定運算規則的數學結構；群」與本句語境不同。",
-        "group-mcq-10": "「一起演奏或演唱音樂的樂團／組合」與本句語境不同。"
+        "group-mcq-13": "本句的「control group」指「實驗中作為比較基準、通常不接受實驗處理的一組；對照組」。",
+        "group-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-13"
     },
@@ -1204,10 +1104,8 @@ export default {
       "options": [
         "group-mcq-13",
         "group-mcq-12",
-        "group-mcq-14",
-        "group-mcq-11",
-        "group-mcq-15",
-        "group-mcq-10"
+        "group-mcq-01",
+        "group-mcq-15"
       ],
       "explanation": "本句的「control group」指「實驗中作為比較基準、通常不接受實驗處理的一組；對照組」。",
       "sentenceIndex": 35,
@@ -1216,12 +1114,10 @@ export default {
         "control group"
       ],
       "optionReasons": {
-        "group-mcq-13": "本句指「實驗中作為比較基準、通常不接受實驗處理的一組；對照組」。",
-        "group-mcq-12": "「聚在一起或把相似事物歸在一起」與本句語境不同。",
-        "group-mcq-14": "「實驗中接受特定處理或條件的一組；實驗組／治療組」與本句語境不同。",
-        "group-mcq-11": "「按共同特徵或目的把人／事物放在一起；分組／歸類」與本句語境不同。",
-        "group-mcq-15": "「符合特定運算規則的數學結構；群」與本句語境不同。",
-        "group-mcq-10": "「一起演奏或演唱音樂的樂團／組合」與本句語境不同。"
+        "group-mcq-13": "本句的「control group」指「實驗中作為比較基準、通常不接受實驗處理的一組；對照組」。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-13"
     },
@@ -1233,11 +1129,9 @@ export default {
       "masked": "The ____ received additional training.",
       "options": [
         "group-mcq-14",
-        "group-mcq-13",
-        "group-mcq-15",
+        "group-mcq-01",
         "group-mcq-12",
-        "group-mcq-16",
-        "group-mcq-11"
+        "group-mcq-19"
       ],
       "explanation": "本句的「experimental group」指「實驗中接受特定處理或條件的一組；實驗組／治療組」。",
       "sentenceIndex": 36,
@@ -1246,12 +1140,10 @@ export default {
         "experimental group"
       ],
       "optionReasons": {
-        "group-mcq-14": "本句指「實驗中接受特定處理或條件的一組；實驗組／治療組」。",
-        "group-mcq-13": "「實驗中作為比較基準、通常不接受實驗處理的一組；對照組」與本句語境不同。",
-        "group-mcq-15": "「符合特定運算規則的數學結構；群」與本句語境不同。",
-        "group-mcq-12": "「聚在一起或把相似事物歸在一起」與本句語境不同。",
-        "group-mcq-16": "「元素週期表中的垂直欄；族」與本句語境不同。",
-        "group-mcq-11": "「按共同特徵或目的把人／事物放在一起；分組／歸類」與本句語境不同。"
+        "group-mcq-14": "本句的「experimental group」指「實驗中接受特定處理或條件的一組；實驗組／治療組」。",
+        "group-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-14"
     },
@@ -1263,11 +1155,9 @@ export default {
       "masked": "The treatment ____ improved more quickly.",
       "options": [
         "group-mcq-14",
-        "group-mcq-13",
-        "group-mcq-15",
+        "group-mcq-01",
         "group-mcq-12",
-        "group-mcq-16",
-        "group-mcq-11"
+        "group-mcq-18"
       ],
       "explanation": "本句的「group」指「實驗中接受特定處理或條件的一組；實驗組／治療組」。",
       "sentenceIndex": 37,
@@ -1276,12 +1166,10 @@ export default {
         "group"
       ],
       "optionReasons": {
-        "group-mcq-14": "本句指「實驗中接受特定處理或條件的一組；實驗組／治療組」。",
-        "group-mcq-13": "「實驗中作為比較基準、通常不接受實驗處理的一組；對照組」與本句語境不同。",
-        "group-mcq-15": "「符合特定運算規則的數學結構；群」與本句語境不同。",
-        "group-mcq-12": "「聚在一起或把相似事物歸在一起」與本句語境不同。",
-        "group-mcq-16": "「元素週期表中的垂直欄；族」與本句語境不同。",
-        "group-mcq-11": "「按共同特徵或目的把人／事物放在一起；分組／歸類」與本句語境不同。"
+        "group-mcq-14": "本句的「group」指「實驗中接受特定處理或條件的一組；實驗組／治療組」。",
+        "group-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-14"
     },
@@ -1293,10 +1181,8 @@ export default {
       "masked": "____ has applications in physics.",
       "options": [
         "group-mcq-15",
-        "group-mcq-14",
-        "group-mcq-16",
         "group-mcq-13",
-        "group-mcq-17",
+        "group-mcq-08",
         "group-mcq-12"
       ],
       "explanation": "本句的「Group theory」指「符合特定運算規則的數學結構；群」。",
@@ -1306,12 +1192,10 @@ export default {
         "Group theory"
       ],
       "optionReasons": {
-        "group-mcq-15": "本句指「符合特定運算規則的數學結構；群」。",
-        "group-mcq-14": "「實驗中接受特定處理或條件的一組；實驗組／治療組」與本句語境不同。",
-        "group-mcq-16": "「元素週期表中的垂直欄；族」與本句語境不同。",
-        "group-mcq-13": "「實驗中作為比較基準、通常不接受實驗處理的一組；對照組」與本句語境不同。",
-        "group-mcq-17": "「被合併並作為單一單位處理的一組物件／項目；群組」與本句語境不同。",
-        "group-mcq-12": "「聚在一起或把相似事物歸在一起」與本句語境不同。"
+        "group-mcq-15": "本句的「Group theory」指「符合特定運算規則的數學結構；群」。",
+        "group-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-15"
     },
@@ -1323,10 +1207,8 @@ export default {
       "masked": "The course introduces basic ____.",
       "options": [
         "group-mcq-15",
-        "group-mcq-14",
-        "group-mcq-16",
         "group-mcq-13",
-        "group-mcq-17",
+        "group-mcq-08",
         "group-mcq-12"
       ],
       "explanation": "本句的「group theory」指「符合特定運算規則的數學結構；群」。",
@@ -1336,12 +1218,10 @@ export default {
         "group theory"
       ],
       "optionReasons": {
-        "group-mcq-15": "本句指「符合特定運算規則的數學結構；群」。",
-        "group-mcq-14": "「實驗中接受特定處理或條件的一組；實驗組／治療組」與本句語境不同。",
-        "group-mcq-16": "「元素週期表中的垂直欄；族」與本句語境不同。",
-        "group-mcq-13": "「實驗中作為比較基準、通常不接受實驗處理的一組；對照組」與本句語境不同。",
-        "group-mcq-17": "「被合併並作為單一單位處理的一組物件／項目；群組」與本句語境不同。",
-        "group-mcq-12": "「聚在一起或把相似事物歸在一起」與本句語境不同。"
+        "group-mcq-15": "本句的「group theory」指「符合特定運算規則的數學結構；群」。",
+        "group-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-15"
     },
@@ -1353,11 +1233,9 @@ export default {
       "masked": "I sent the message to the ____.",
       "options": [
         "group-mcq-18",
-        "group-mcq-17",
-        "group-mcq-19",
-        "group-mcq-16",
-        "group-mcq-20",
-        "group-mcq-15"
+        "group-mcq-12",
+        "group-mcq-01",
+        "group-mcq-14"
       ],
       "explanation": "本句的「group chat」指「多名參與者共同進行的線上聊天；群聊／群組聊天」。",
       "sentenceIndex": 46,
@@ -1366,12 +1244,10 @@ export default {
         "group chat"
       ],
       "optionReasons": {
-        "group-mcq-18": "本句指「多名參與者共同進行的線上聊天；群聊／群組聊天」。",
-        "group-mcq-17": "「被合併並作為單一單位處理的一組物件／項目；群組」與本句語境不同。",
-        "group-mcq-19": "「把人或事物劃分、安排成群組或類別的方式」與本句語境不同。",
-        "group-mcq-16": "「元素週期表中的垂直欄；族」與本句語境不同。",
-        "group-mcq-20": "「大群體內較小的群體／子組」與本句語境不同。",
-        "group-mcq-15": "「符合特定運算規則的數學結構；群」與本句語境不同。"
+        "group-mcq-18": "本句的「group chat」指「多名參與者共同進行的線上聊天；群聊／群組聊天」。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-18"
     },
@@ -1383,11 +1259,9 @@ export default {
       "masked": "We created a ____ for the project.",
       "options": [
         "group-mcq-18",
-        "group-mcq-17",
-        "group-mcq-19",
-        "group-mcq-16",
-        "group-mcq-20",
-        "group-mcq-15"
+        "group-mcq-12",
+        "group-mcq-05",
+        "group-mcq-13"
       ],
       "explanation": "本句的「group chat」指「多名參與者共同進行的線上聊天；群聊／群組聊天」。",
       "sentenceIndex": 47,
@@ -1396,12 +1270,10 @@ export default {
         "group chat"
       ],
       "optionReasons": {
-        "group-mcq-18": "本句指「多名參與者共同進行的線上聊天；群聊／群組聊天」。",
-        "group-mcq-17": "「被合併並作為單一單位處理的一組物件／項目；群組」與本句語境不同。",
-        "group-mcq-19": "「把人或事物劃分、安排成群組或類別的方式」與本句語境不同。",
-        "group-mcq-16": "「元素週期表中的垂直欄；族」與本句語境不同。",
-        "group-mcq-20": "「大群體內較小的群體／子組」與本句語境不同。",
-        "group-mcq-15": "「符合特定運算規則的數學結構；群」與本句語境不同。"
+        "group-mcq-18": "本句的「group chat」指「多名參與者共同進行的線上聊天；群聊／群組聊天」。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-18"
     },
@@ -1413,11 +1285,9 @@ export default {
       "masked": "This ____ makes the categories easier to understand.",
       "options": [
         "group-mcq-19",
-        "group-mcq-18",
-        "group-mcq-20",
-        "group-mcq-17",
-        "group-mcq-21",
-        "group-mcq-16"
+        "group-mcq-12",
+        "group-mcq-13",
+        "group-mcq-15"
       ],
       "explanation": "本句的「grouping」指「把人或事物劃分、安排成群組或類別的方式」。",
       "sentenceIndex": 52,
@@ -1426,12 +1296,10 @@ export default {
         "grouping"
       ],
       "optionReasons": {
-        "group-mcq-19": "本句指「把人或事物劃分、安排成群組或類別的方式」。",
-        "group-mcq-18": "「多名參與者共同進行的線上聊天；群聊／群組聊天」與本句語境不同。",
-        "group-mcq-20": "「大群體內較小的群體／子組」與本句語境不同。",
-        "group-mcq-17": "「被合併並作為單一單位處理的一組物件／項目；群組」與本句語境不同。",
-        "group-mcq-21": "「重新集合、重新分組；比喻重新整理和調整策略」與本句語境不同。",
-        "group-mcq-16": "「元素週期表中的垂直欄；族」與本句語境不同。"
+        "group-mcq-19": "本句的「grouping」指「把人或事物劃分、安排成群組或類別的方式」。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-19"
     },
@@ -1443,11 +1311,9 @@ export default {
       "masked": "Researchers questioned the original ____ of participants.",
       "options": [
         "group-mcq-19",
-        "group-mcq-18",
-        "group-mcq-20",
-        "group-mcq-17",
-        "group-mcq-21",
-        "group-mcq-16"
+        "group-mcq-12",
+        "group-mcq-15",
+        "group-mcq-01"
       ],
       "explanation": "本句的「grouping」指「把人或事物劃分、安排成群組或類別的方式」。",
       "sentenceIndex": 53,
@@ -1456,12 +1322,10 @@ export default {
         "grouping"
       ],
       "optionReasons": {
-        "group-mcq-19": "本句指「把人或事物劃分、安排成群組或類別的方式」。",
-        "group-mcq-18": "「多名參與者共同進行的線上聊天；群聊／群組聊天」與本句語境不同。",
-        "group-mcq-20": "「大群體內較小的群體／子組」與本句語境不同。",
-        "group-mcq-17": "「被合併並作為單一單位處理的一組物件／項目；群組」與本句語境不同。",
-        "group-mcq-21": "「重新集合、重新分組；比喻重新整理和調整策略」與本句語境不同。",
-        "group-mcq-16": "「元素週期表中的垂直欄；族」與本句語境不同。"
+        "group-mcq-19": "本句的「grouping」指「把人或事物劃分、安排成群組或類別的方式」。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-19"
     },
@@ -1473,11 +1337,9 @@ export default {
       "masked": "The participants were divided into several ____.",
       "options": [
         "group-mcq-20",
-        "group-mcq-19",
-        "group-mcq-21",
-        "group-mcq-18",
-        "group-mcq-17",
-        "group-mcq-16"
+        "group-mcq-12",
+        "group-mcq-15",
+        "group-mcq-21"
       ],
       "explanation": "本句的「subgroups」指「大群體內較小的群體／子組」。",
       "sentenceIndex": 54,
@@ -1486,12 +1348,10 @@ export default {
         "subgroups"
       ],
       "optionReasons": {
-        "group-mcq-20": "本句指「大群體內較小的群體／子組」。",
-        "group-mcq-19": "「把人或事物劃分、安排成群組或類別的方式」與本句語境不同。",
-        "group-mcq-21": "「重新集合、重新分組；比喻重新整理和調整策略」與本句語境不同。",
-        "group-mcq-18": "「多名參與者共同進行的線上聊天；群聊／群組聊天」與本句語境不同。",
-        "group-mcq-17": "「被合併並作為單一單位處理的一組物件／項目；群組」與本句語境不同。",
-        "group-mcq-16": "「元素週期表中的垂直欄；族」與本句語境不同。"
+        "group-mcq-20": "本句的「subgroups」指「大群體內較小的群體／子組」。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-20"
     },
@@ -1503,11 +1363,9 @@ export default {
       "masked": "This ____ showed a different pattern.",
       "options": [
         "group-mcq-20",
-        "group-mcq-19",
-        "group-mcq-21",
-        "group-mcq-18",
-        "group-mcq-17",
-        "group-mcq-16"
+        "group-mcq-12",
+        "group-mcq-14",
+        "group-mcq-21"
       ],
       "explanation": "本句的「subgroup」指「大群體內較小的群體／子組」。",
       "sentenceIndex": 55,
@@ -1516,12 +1374,10 @@ export default {
         "subgroup"
       ],
       "optionReasons": {
-        "group-mcq-20": "本句指「大群體內較小的群體／子組」。",
-        "group-mcq-19": "「把人或事物劃分、安排成群組或類別的方式」與本句語境不同。",
-        "group-mcq-21": "「重新集合、重新分組；比喻重新整理和調整策略」與本句語境不同。",
-        "group-mcq-18": "「多名參與者共同進行的線上聊天；群聊／群組聊天」與本句語境不同。",
-        "group-mcq-17": "「被合併並作為單一單位處理的一組物件／項目；群組」與本句語境不同。",
-        "group-mcq-16": "「元素週期表中的垂直欄；族」與本句語境不同。"
+        "group-mcq-20": "本句的「subgroup」指「大群體內較小的群體／子組」。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-20"
     },
@@ -1533,11 +1389,9 @@ export default {
       "masked": "The students ____ after the break.",
       "options": [
         "group-mcq-21",
-        "group-mcq-20",
-        "group-mcq-19",
-        "group-mcq-18",
-        "group-mcq-17",
-        "group-mcq-16"
+        "group-mcq-12",
+        "group-mcq-05",
+        "group-mcq-18"
       ],
       "explanation": "本句的「regrouped」指「重新集合、重新分組；比喻重新整理和調整策略」。",
       "sentenceIndex": 56,
@@ -1546,12 +1400,10 @@ export default {
         "regrouped"
       ],
       "optionReasons": {
-        "group-mcq-21": "本句指「重新集合、重新分組；比喻重新整理和調整策略」。",
-        "group-mcq-20": "「大群體內較小的群體／子組」與本句語境不同。",
-        "group-mcq-19": "「把人或事物劃分、安排成群組或類別的方式」與本句語境不同。",
-        "group-mcq-18": "「多名參與者共同進行的線上聊天；群聊／群組聊天」與本句語境不同。",
-        "group-mcq-17": "「被合併並作為單一單位處理的一組物件／項目；群組」與本句語境不同。",
-        "group-mcq-16": "「元素週期表中的垂直欄；族」與本句語境不同。"
+        "group-mcq-21": "本句的「regrouped」指「重新集合、重新分組；比喻重新整理和調整策略」。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-21"
     },
@@ -1563,11 +1415,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "group-mcq-21",
-        "group-mcq-20",
-        "group-mcq-19",
-        "group-mcq-18",
-        "group-mcq-17",
-        "group-mcq-16"
+        "group-mcq-05",
+        "group-mcq-12",
+        "group-mcq-18"
       ],
       "explanation": "本句的「regroup and rethink the plan」指「重新集合、重新分組；比喻重新整理和調整策略」。",
       "sentenceIndex": 57,
@@ -1576,12 +1426,10 @@ export default {
         "regroup and rethink the plan"
       ],
       "optionReasons": {
-        "group-mcq-21": "本句指「重新集合、重新分組；比喻重新整理和調整策略」。",
-        "group-mcq-20": "「大群體內較小的群體／子組」與本句語境不同。",
-        "group-mcq-19": "「把人或事物劃分、安排成群組或類別的方式」與本句語境不同。",
-        "group-mcq-18": "「多名參與者共同進行的線上聊天；群聊／群組聊天」與本句語境不同。",
-        "group-mcq-17": "「被合併並作為單一單位處理的一組物件／項目；群組」與本句語境不同。",
-        "group-mcq-16": "「元素週期表中的垂直欄；族」與本句語境不同。"
+        "group-mcq-21": "本句的「regroup and rethink the plan」指「重新集合、重新分組；比喻重新整理和調整策略」。",
+        "group-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "group-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "group-mcq-21"
     }
@@ -1593,5 +1441,7 @@ export default {
     "sha256": "7cd6422a0b433165f0334f5ae88cdc3acfdcee2d2de521930cf346e314900b0c",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

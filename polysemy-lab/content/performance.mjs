@@ -621,16 +621,6 @@ export default {
           "She is a talented performer.",
           "她是一名很有才華的表演者。",
           "表演者"
-        ],
-        [
-          "She is one of the team's top performers.",
-          "她是團隊中表現最好的成員之一。",
-          "表演者"
-        ],
-        [
-          "This investment has been a strong performer.",
-          "這項投資一直是表現強勁的項目。",
-          "表演者"
         ]
       ],
       "options": [],
@@ -784,6 +774,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "performance-reviewed-b409743f39",
+      "title": "在某方面取得某種水平成果的人、公司、投資或產品",
+      "form": "performance · source section 31",
+      "en": "在某方面取得某種水平成果的人、公司、投資或產品",
+      "zh": "在某方面取得某種水平成果的人、公司、投資或產品",
+      "note": "對照原始教材第 31 節及例句核實。",
+      "examples": [
+        [
+          "She is one of the team's top performers.",
+          "她是團隊中表現最好的成員之一。",
+          "在某方面取得某種水平成果的人、公司、投資或產品"
+        ],
+        [
+          "This investment has been a strong performer.",
+          "這項投資一直是表現強勁的項目。",
+          "在某方面取得某種水平成果的人、公司、投資或產品"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -795,11 +807,9 @@ export default {
       "masked": "Their ____ was tied to the rest of the team.",
       "options": [
         "performance-mcq-01",
-        "performance-mcq-02",
-        "performance-mcq-03",
-        "performance-mcq-04",
-        "performance-mcq-05",
-        "performance-mcq-06"
+        "performance-mcq-19",
+        "performance-pdf-002",
+        "performance-mcq-23"
       ],
       "explanation": "本句的「performance」指「工作表現；績效」。",
       "sentenceIndex": 0,
@@ -808,12 +818,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-01": "本句指「工作表現；績效」。",
-        "performance-mcq-02": "「工作績效」與本句語境不同。",
-        "performance-mcq-03": "「個人表現」與本句語境不同。",
-        "performance-mcq-04": "「團隊表現」與本句語境不同。",
-        "performance-mcq-05": "「學業表現」與本句語境不同。",
-        "performance-mcq-06": "「出色表現」與本句語境不同。"
+        "performance-mcq-01": "本句的「performance」指「工作表現；績效」。",
+        "performance-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "performance-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-01"
     },
@@ -825,11 +833,9 @@ export default {
       "masked": "Her ____ has improved significantly.",
       "options": [
         "performance-mcq-01",
-        "performance-mcq-02",
-        "performance-mcq-03",
-        "performance-mcq-04",
-        "performance-mcq-05",
-        "performance-mcq-06"
+        "performance-pdf-002",
+        "performance-mcq-22",
+        "performance-mcq-19"
       ],
       "explanation": "本句的「performance at work」指「工作表現；績效」。",
       "sentenceIndex": 1,
@@ -838,12 +844,10 @@ export default {
         "performance at work"
       ],
       "optionReasons": {
-        "performance-mcq-01": "本句指「工作表現；績效」。",
-        "performance-mcq-02": "「工作績效」與本句語境不同。",
-        "performance-mcq-03": "「個人表現」與本句語境不同。",
-        "performance-mcq-04": "「團隊表現」與本句語境不同。",
-        "performance-mcq-05": "「學業表現」與本句語境不同。",
-        "performance-mcq-06": "「出色表現」與本句語境不同。"
+        "performance-mcq-01": "本句的「performance at work」指「工作表現；績效」。",
+        "performance-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-01"
     },
@@ -855,11 +859,9 @@ export default {
       "masked": "Managers regularly evaluate employee ____.",
       "options": [
         "performance-mcq-01",
-        "performance-mcq-02",
-        "performance-mcq-03",
-        "performance-mcq-04",
-        "performance-mcq-05",
-        "performance-mcq-06"
+        "performance-reviewed-b409743f39",
+        "performance-mcq-20",
+        "performance-mcq-24"
       ],
       "explanation": "本句的「performance」指「工作表現；績效」。",
       "sentenceIndex": 2,
@@ -868,12 +870,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-01": "本句指「工作表現；績效」。",
-        "performance-mcq-02": "「工作績效」與本句語境不同。",
-        "performance-mcq-03": "「個人表現」與本句語境不同。",
-        "performance-mcq-04": "「團隊表現」與本句語境不同。",
-        "performance-mcq-05": "「學業表現」與本句語境不同。",
-        "performance-mcq-06": "「出色表現」與本句語境不同。"
+        "performance-mcq-01": "本句的「performance」指「工作表現；績效」。",
+        "performance-reviewed-b409743f39": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-01"
     },
@@ -885,11 +885,9 @@ export default {
       "masked": "Clear goals can improve ____.",
       "options": [
         "performance-mcq-02",
-        "performance-mcq-01",
-        "performance-mcq-03",
-        "performance-mcq-04",
-        "performance-mcq-05",
-        "performance-mcq-06"
+        "performance-pdf-002",
+        "performance-mcq-15",
+        "performance-mcq-19"
       ],
       "explanation": "本句的「employee performance」指「工作績效」。",
       "sentenceIndex": 3,
@@ -898,12 +896,10 @@ export default {
         "employee performance"
       ],
       "optionReasons": {
-        "performance-mcq-02": "本句指「工作績效」。",
-        "performance-mcq-01": "「工作表現；績效」與本句語境不同。",
-        "performance-mcq-03": "「個人表現」與本句語境不同。",
-        "performance-mcq-04": "「團隊表現」與本句語境不同。",
-        "performance-mcq-05": "「學業表現」與本句語境不同。",
-        "performance-mcq-06": "「出色表現」與本句語境不同。"
+        "performance-mcq-02": "本句的「employee performance」指「工作績效」。",
+        "performance-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-02"
     },
@@ -915,11 +911,9 @@ export default {
       "masked": "Stress may affect ____.",
       "options": [
         "performance-mcq-02",
-        "performance-mcq-01",
-        "performance-mcq-03",
-        "performance-mcq-04",
-        "performance-mcq-05",
-        "performance-mcq-06"
+        "performance-reviewed-b409743f39",
+        "performance-mcq-33",
+        "performance-mcq-20"
       ],
       "explanation": "本句的「job performance」指「工作績效」。",
       "sentenceIndex": 4,
@@ -928,12 +922,10 @@ export default {
         "job performance"
       ],
       "optionReasons": {
-        "performance-mcq-02": "本句指「工作績效」。",
-        "performance-mcq-01": "「工作表現；績效」與本句語境不同。",
-        "performance-mcq-03": "「個人表現」與本句語境不同。",
-        "performance-mcq-04": "「團隊表現」與本句語境不同。",
-        "performance-mcq-05": "「學業表現」與本句語境不同。",
-        "performance-mcq-06": "「出色表現」與本句語境不同。"
+        "performance-mcq-02": "本句的「job performance」指「工作績效」。",
+        "performance-reviewed-b409743f39": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-02"
     },
@@ -945,11 +937,9 @@ export default {
       "masked": "Individual ____ should be evaluated fairly.",
       "options": [
         "performance-mcq-03",
-        "performance-mcq-02",
-        "performance-mcq-04",
-        "performance-mcq-01",
-        "performance-mcq-05",
-        "performance-mcq-06"
+        "performance-mcq-24",
+        "performance-mcq-10",
+        "performance-pdf-002"
       ],
       "explanation": "本句的「performance」指「個人表現」。",
       "sentenceIndex": 5,
@@ -958,12 +948,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-03": "本句指「個人表現」。",
-        "performance-mcq-02": "「工作績效」與本句語境不同。",
-        "performance-mcq-04": "「團隊表現」與本句語境不同。",
-        "performance-mcq-01": "「工作表現；績效」與本句語境不同。",
-        "performance-mcq-05": "「學業表現」與本句語境不同。",
-        "performance-mcq-06": "「出色表現」與本句語境不同。"
+        "performance-mcq-03": "本句的「performance」指「個人表現」。",
+        "performance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "performance-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-03"
     },
@@ -975,11 +963,9 @@ export default {
       "masked": "Group grades can sometimes hide differences in ____.",
       "options": [
         "performance-mcq-03",
-        "performance-mcq-02",
-        "performance-mcq-04",
-        "performance-mcq-01",
-        "performance-mcq-05",
-        "performance-mcq-06"
+        "performance-mcq-24",
+        "performance-mcq-10",
+        "performance-mcq-20"
       ],
       "explanation": "本句的「individual performance」指「個人表現」。",
       "sentenceIndex": 6,
@@ -988,12 +974,10 @@ export default {
         "individual performance"
       ],
       "optionReasons": {
-        "performance-mcq-03": "本句指「個人表現」。",
-        "performance-mcq-02": "「工作績效」與本句語境不同。",
-        "performance-mcq-04": "「團隊表現」與本句語境不同。",
-        "performance-mcq-01": "「工作表現；績效」與本句語境不同。",
-        "performance-mcq-05": "「學業表現」與本句語境不同。",
-        "performance-mcq-06": "「出色表現」與本句語境不同。"
+        "performance-mcq-03": "本句的「individual performance」指「個人表現」。",
+        "performance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-03"
     },
@@ -1005,11 +989,9 @@ export default {
       "masked": "Poor communication can damage ____.",
       "options": [
         "performance-mcq-04",
-        "performance-mcq-03",
-        "performance-mcq-05",
-        "performance-mcq-02",
-        "performance-mcq-06",
-        "performance-mcq-01"
+        "performance-mcq-11",
+        "performance-mcq-19",
+        "performance-mcq-22"
       ],
       "explanation": "本句的「team performance」指「團隊表現」。",
       "sentenceIndex": 7,
@@ -1018,12 +1000,10 @@ export default {
         "team performance"
       ],
       "optionReasons": {
-        "performance-mcq-04": "本句指「團隊表現」。",
-        "performance-mcq-03": "「個人表現」與本句語境不同。",
-        "performance-mcq-05": "「學業表現」與本句語境不同。",
-        "performance-mcq-02": "「工作績效」與本句語境不同。",
-        "performance-mcq-06": "「出色表現」與本句語境不同。",
-        "performance-mcq-01": "「工作表現；績效」與本句語境不同。"
+        "performance-mcq-04": "本句的「team performance」指「團隊表現」。",
+        "performance-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-04"
     },
@@ -1035,11 +1015,9 @@ export default {
       "masked": "Strong leadership improved the team's ____.",
       "options": [
         "performance-mcq-04",
-        "performance-mcq-03",
-        "performance-mcq-05",
-        "performance-mcq-02",
-        "performance-mcq-06",
-        "performance-mcq-01"
+        "performance-mcq-08",
+        "performance-mcq-22",
+        "performance-mcq-20"
       ],
       "explanation": "本句的「performance」指「團隊表現」。",
       "sentenceIndex": 8,
@@ -1048,12 +1026,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-04": "本句指「團隊表現」。",
-        "performance-mcq-03": "「個人表現」與本句語境不同。",
-        "performance-mcq-05": "「學業表現」與本句語境不同。",
-        "performance-mcq-02": "「工作績效」與本句語境不同。",
-        "performance-mcq-06": "「出色表現」與本句語境不同。",
-        "performance-mcq-01": "「工作表現；績效」與本句語境不同。"
+        "performance-mcq-04": "本句的「performance」指「團隊表現」。",
+        "performance-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-04"
     },
@@ -1065,11 +1041,9 @@ export default {
       "masked": "Lack of sleep can affect ____.",
       "options": [
         "performance-mcq-05",
-        "performance-mcq-04",
-        "performance-mcq-06",
-        "performance-mcq-03",
-        "performance-mcq-07",
-        "performance-mcq-02"
+        "performance-mcq-23",
+        "performance-mcq-12",
+        "performance-mcq-18"
       ],
       "explanation": "本句的「academic performance」指「學業表現」。",
       "sentenceIndex": 9,
@@ -1078,12 +1052,10 @@ export default {
         "academic performance"
       ],
       "optionReasons": {
-        "performance-mcq-05": "本句指「學業表現」。",
-        "performance-mcq-04": "「團隊表現」與本句語境不同。",
-        "performance-mcq-06": "「出色表現」與本句語境不同。",
-        "performance-mcq-03": "「個人表現」與本句語境不同。",
-        "performance-mcq-07": "「表現欠佳」與本句語境不同。",
-        "performance-mcq-02": "「工作績效」與本句語境不同。"
+        "performance-mcq-05": "本句的「academic performance」指「學業表現」。",
+        "performance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-05"
     },
@@ -1095,11 +1067,9 @@ export default {
       "masked": "Her ____ improved after she changed her study habits.",
       "options": [
         "performance-mcq-05",
-        "performance-mcq-04",
-        "performance-mcq-06",
-        "performance-mcq-03",
-        "performance-mcq-07",
-        "performance-mcq-02"
+        "performance-mcq-19",
+        "performance-mcq-30",
+        "performance-mcq-23"
       ],
       "explanation": "本句的「academic performance」指「學業表現」。",
       "sentenceIndex": 10,
@@ -1108,12 +1078,10 @@ export default {
         "academic performance"
       ],
       "optionReasons": {
-        "performance-mcq-05": "本句指「學業表現」。",
-        "performance-mcq-04": "「團隊表現」與本句語境不同。",
-        "performance-mcq-06": "「出色表現」與本句語境不同。",
-        "performance-mcq-03": "「個人表現」與本句語境不同。",
-        "performance-mcq-07": "「表現欠佳」與本句語境不同。",
-        "performance-mcq-02": "「工作績效」與本句語境不同。"
+        "performance-mcq-05": "本句的「academic performance」指「學業表現」。",
+        "performance-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-05"
     },
@@ -1125,11 +1093,9 @@ export default {
       "masked": "The team delivered a ____.",
       "options": [
         "performance-mcq-06",
-        "performance-mcq-05",
-        "performance-mcq-07",
-        "performance-mcq-04",
-        "performance-mcq-08",
-        "performance-mcq-03"
+        "performance-mcq-19",
+        "performance-mcq-29",
+        "performance-reviewed-b409743f39"
       ],
       "explanation": "本句的「strong performance」指「出色表現」。",
       "sentenceIndex": 11,
@@ -1138,12 +1104,10 @@ export default {
         "strong performance"
       ],
       "optionReasons": {
-        "performance-mcq-06": "本句指「出色表現」。",
-        "performance-mcq-05": "「學業表現」與本句語境不同。",
-        "performance-mcq-07": "「表現欠佳」與本句語境不同。",
-        "performance-mcq-04": "「團隊表現」與本句語境不同。",
-        "performance-mcq-08": "「績效評核」與本句語境不同。",
-        "performance-mcq-03": "「個人表現」與本句語境不同。"
+        "performance-mcq-06": "本句的「strong performance」指「出色表現」。",
+        "performance-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "performance-reviewed-b409743f39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-06"
     },
@@ -1155,11 +1119,9 @@ export default {
       "masked": "Employees are rewarded for ____.",
       "options": [
         "performance-mcq-06",
-        "performance-mcq-05",
-        "performance-mcq-07",
-        "performance-mcq-04",
-        "performance-mcq-08",
-        "performance-mcq-03"
+        "performance-pdf-002",
+        "performance-mcq-11",
+        "performance-mcq-23"
       ],
       "explanation": "本句的「high performance」指「出色表現」。",
       "sentenceIndex": 12,
@@ -1168,12 +1130,10 @@ export default {
         "high performance"
       ],
       "optionReasons": {
-        "performance-mcq-06": "本句指「出色表現」。",
-        "performance-mcq-05": "「學業表現」與本句語境不同。",
-        "performance-mcq-07": "「表現欠佳」與本句語境不同。",
-        "performance-mcq-04": "「團隊表現」與本句語境不同。",
-        "performance-mcq-08": "「績效評核」與本句語境不同。",
-        "performance-mcq-03": "「個人表現」與本句語境不同。"
+        "performance-mcq-06": "本句的「high performance」指「出色表現」。",
+        "performance-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-06"
     },
@@ -1185,11 +1145,9 @@ export default {
       "masked": "Poor ____ can result from unclear expectations.",
       "options": [
         "performance-mcq-07",
-        "performance-mcq-06",
-        "performance-mcq-08",
-        "performance-mcq-05",
-        "performance-mcq-09",
-        "performance-mcq-04"
+        "performance-pdf-002",
+        "performance-mcq-17",
+        "performance-mcq-11"
       ],
       "explanation": "本句的「performance」指「表現欠佳」。",
       "sentenceIndex": 13,
@@ -1198,12 +1156,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-07": "本句指「表現欠佳」。",
-        "performance-mcq-06": "「出色表現」與本句語境不同。",
-        "performance-mcq-08": "「績效評核」與本句語境不同。",
-        "performance-mcq-05": "「學業表現」與本句語境不同。",
-        "performance-mcq-09": "「工作表現評估」與本句語境不同。",
-        "performance-mcq-04": "「團隊表現」與本句語境不同。"
+        "performance-mcq-07": "本句的「performance」指「表現欠佳」。",
+        "performance-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-07"
     },
@@ -1215,11 +1171,9 @@ export default {
       "masked": "The manager discussed his ____ with him.",
       "options": [
         "performance-mcq-07",
-        "performance-mcq-06",
-        "performance-mcq-08",
-        "performance-mcq-05",
-        "performance-mcq-09",
-        "performance-mcq-04"
+        "performance-mcq-02",
+        "performance-mcq-20",
+        "performance-reviewed-b409743f39"
       ],
       "explanation": "本句的「poor performance」指「表現欠佳」。",
       "sentenceIndex": 14,
@@ -1228,12 +1182,10 @@ export default {
         "poor performance"
       ],
       "optionReasons": {
-        "performance-mcq-07": "本句指「表現欠佳」。",
-        "performance-mcq-06": "「出色表現」與本句語境不同。",
-        "performance-mcq-08": "「績效評核」與本句語境不同。",
-        "performance-mcq-05": "「學業表現」與本句語境不同。",
-        "performance-mcq-09": "「工作表現評估」與本句語境不同。",
-        "performance-mcq-04": "「團隊表現」與本句語境不同。"
+        "performance-mcq-07": "本句的「poor performance」指「表現欠佳」。",
+        "performance-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "performance-reviewed-b409743f39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-07"
     },
@@ -1245,11 +1197,9 @@ export default {
       "masked": "I have my annual ____ next week.",
       "options": [
         "performance-mcq-08",
-        "performance-mcq-07",
-        "performance-mcq-09",
-        "performance-mcq-06",
-        "performance-mcq-10",
-        "performance-mcq-05"
+        "performance-mcq-20",
+        "performance-mcq-03",
+        "performance-mcq-17"
       ],
       "explanation": "本句的「performance review」指「績效評核」。",
       "sentenceIndex": 15,
@@ -1258,12 +1208,10 @@ export default {
         "performance review"
       ],
       "optionReasons": {
-        "performance-mcq-08": "本句指「績效評核」。",
-        "performance-mcq-07": "「表現欠佳」與本句語境不同。",
-        "performance-mcq-09": "「工作表現評估」與本句語境不同。",
-        "performance-mcq-06": "「出色表現」與本句語境不同。",
-        "performance-mcq-10": "「績效目標」與本句語境不同。",
-        "performance-mcq-05": "「學業表現」與本句語境不同。"
+        "performance-mcq-08": "本句的「performance review」指「績效評核」。",
+        "performance-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-08"
     },
@@ -1275,11 +1223,9 @@ export default {
       "masked": "The manager discussed her goals during the ____.",
       "options": [
         "performance-mcq-08",
-        "performance-mcq-07",
-        "performance-mcq-09",
-        "performance-mcq-06",
-        "performance-mcq-10",
-        "performance-mcq-05"
+        "performance-pdf-001",
+        "performance-mcq-17",
+        "performance-mcq-23"
       ],
       "explanation": "本句的「performance review」指「績效評核」。",
       "sentenceIndex": 16,
@@ -1288,12 +1234,10 @@ export default {
         "performance review"
       ],
       "optionReasons": {
-        "performance-mcq-08": "本句指「績效評核」。",
-        "performance-mcq-07": "「表現欠佳」與本句語境不同。",
-        "performance-mcq-09": "「工作表現評估」與本句語境不同。",
-        "performance-mcq-06": "「出色表現」與本句語境不同。",
-        "performance-mcq-10": "「績效目標」與本句語境不同。",
-        "performance-mcq-05": "「學業表現」與本句語境不同。"
+        "performance-mcq-08": "本句的「performance review」指「績效評核」。",
+        "performance-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-08"
     },
@@ -1305,11 +1249,9 @@ export default {
       "masked": "Each employee receives a yearly ____.",
       "options": [
         "performance-mcq-09",
-        "performance-mcq-08",
-        "performance-mcq-10",
-        "performance-mcq-07",
-        "performance-mcq-11",
-        "performance-mcq-06"
+        "performance-mcq-30",
+        "performance-mcq-23",
+        "performance-mcq-20"
       ],
       "explanation": "本句的「performance appraisal」指「工作表現評估」。",
       "sentenceIndex": 17,
@@ -1318,12 +1260,10 @@ export default {
         "performance appraisal"
       ],
       "optionReasons": {
-        "performance-mcq-09": "本句指「工作表現評估」。",
-        "performance-mcq-08": "「績效評核」與本句語境不同。",
-        "performance-mcq-10": "「績效目標」與本句語境不同。",
-        "performance-mcq-07": "「表現欠佳」與本句語境不同。",
-        "performance-mcq-11": "「績效指標」與本句語境不同。",
-        "performance-mcq-06": "「出色表現」與本句語境不同。"
+        "performance-mcq-09": "本句的「performance appraisal」指「工作表現評估」。",
+        "performance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-09"
     },
@@ -1335,11 +1275,9 @@ export default {
       "masked": "Individual contribution should be considered in ____.",
       "options": [
         "performance-mcq-09",
-        "performance-mcq-08",
-        "performance-mcq-10",
-        "performance-mcq-07",
-        "performance-mcq-11",
-        "performance-mcq-06"
+        "performance-mcq-22",
+        "performance-mcq-19",
+        "performance-mcq-12"
       ],
       "explanation": "本句的「performance evaluation」指「工作表現評估」。",
       "sentenceIndex": 18,
@@ -1348,12 +1286,10 @@ export default {
         "performance evaluation"
       ],
       "optionReasons": {
-        "performance-mcq-09": "本句指「工作表現評估」。",
-        "performance-mcq-08": "「績效評核」與本句語境不同。",
-        "performance-mcq-10": "「績效目標」與本句語境不同。",
-        "performance-mcq-07": "「表現欠佳」與本句語境不同。",
-        "performance-mcq-11": "「績效指標」與本句語境不同。",
-        "performance-mcq-06": "「出色表現」與本句語境不同。"
+        "performance-mcq-09": "本句的「performance evaluation」指「工作表現評估」。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-09"
     },
@@ -1365,11 +1301,9 @@ export default {
       "masked": "The team met all its ____.",
       "options": [
         "performance-mcq-10",
-        "performance-mcq-09",
-        "performance-mcq-11",
-        "performance-mcq-08",
-        "performance-mcq-12",
-        "performance-mcq-07"
+        "performance-mcq-16",
+        "performance-mcq-23",
+        "performance-mcq-17"
       ],
       "explanation": "本句的「performance targets」指「績效目標」。",
       "sentenceIndex": 19,
@@ -1378,12 +1312,10 @@ export default {
         "performance targets"
       ],
       "optionReasons": {
-        "performance-mcq-10": "本句指「績效目標」。",
-        "performance-mcq-09": "「工作表現評估」與本句語境不同。",
-        "performance-mcq-11": "「績效指標」與本句語境不同。",
-        "performance-mcq-08": "「績效評核」與本句語境不同。",
-        "performance-mcq-12": "「績效掛鈎薪酬」與本句語境不同。",
-        "performance-mcq-07": "「表現欠佳」與本句語境不同。"
+        "performance-mcq-10": "本句的「performance targets」指「績效目標」。",
+        "performance-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-10"
     },
@@ -1395,11 +1327,9 @@ export default {
       "masked": "Unrealistic ____ can increase stress.",
       "options": [
         "performance-mcq-10",
-        "performance-mcq-09",
-        "performance-mcq-11",
-        "performance-mcq-08",
-        "performance-mcq-12",
-        "performance-mcq-07"
+        "performance-mcq-05",
+        "performance-mcq-17",
+        "performance-mcq-24"
       ],
       "explanation": "本句的「performance targets」指「績效目標」。",
       "sentenceIndex": 20,
@@ -1408,12 +1338,10 @@ export default {
         "performance targets"
       ],
       "optionReasons": {
-        "performance-mcq-10": "本句指「績效目標」。",
-        "performance-mcq-09": "「工作表現評估」與本句語境不同。",
-        "performance-mcq-11": "「績效指標」與本句語境不同。",
-        "performance-mcq-08": "「績效評核」與本句語境不同。",
-        "performance-mcq-12": "「績效掛鈎薪酬」與本句語境不同。",
-        "performance-mcq-07": "「表現欠佳」與本句語境不同。"
+        "performance-mcq-10": "本句的「performance targets」指「績效目標」。",
+        "performance-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-10"
     },
@@ -1425,11 +1353,9 @@ export default {
       "masked": "Customer satisfaction is an important ____.",
       "options": [
         "performance-mcq-11",
-        "performance-mcq-10",
-        "performance-mcq-12",
-        "performance-mcq-09",
-        "performance-mcq-13",
-        "performance-mcq-08"
+        "performance-mcq-05",
+        "performance-reviewed-b409743f39",
+        "performance-mcq-19"
       ],
       "explanation": "本句的「performance indicator」指「績效指標」。",
       "sentenceIndex": 21,
@@ -1438,12 +1364,10 @@ export default {
         "performance indicator"
       ],
       "optionReasons": {
-        "performance-mcq-11": "本句指「績效指標」。",
-        "performance-mcq-10": "「績效目標」與本句語境不同。",
-        "performance-mcq-12": "「績效掛鈎薪酬」與本句語境不同。",
-        "performance-mcq-09": "「工作表現評估」與本句語境不同。",
-        "performance-mcq-13": "「競技表現」與本句語境不同。",
-        "performance-mcq-08": "「績效評核」與本句語境不同。"
+        "performance-mcq-11": "本句的「performance indicator」指「績效指標」。",
+        "performance-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "performance-reviewed-b409743f39": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-11"
     },
@@ -1455,11 +1379,9 @@ export default {
       "masked": "Managers monitor several ____.",
       "options": [
         "performance-mcq-11",
-        "performance-mcq-10",
-        "performance-mcq-12",
-        "performance-mcq-09",
-        "performance-mcq-13",
-        "performance-mcq-08"
+        "performance-pdf-002",
+        "performance-mcq-16",
+        "performance-mcq-22"
       ],
       "explanation": "本句的「performance indicators」指「績效指標」。",
       "sentenceIndex": 22,
@@ -1468,12 +1390,10 @@ export default {
         "performance indicators"
       ],
       "optionReasons": {
-        "performance-mcq-11": "本句指「績效指標」。",
-        "performance-mcq-10": "「績效目標」與本句語境不同。",
-        "performance-mcq-12": "「績效掛鈎薪酬」與本句語境不同。",
-        "performance-mcq-09": "「工作表現評估」與本句語境不同。",
-        "performance-mcq-13": "「競技表現」與本句語境不同。",
-        "performance-mcq-08": "「績效評核」與本句語境不同。"
+        "performance-mcq-11": "本句的「performance indicators」指「績效指標」。",
+        "performance-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-11"
     },
@@ -1485,11 +1405,9 @@ export default {
       "masked": "Some companies use ____.",
       "options": [
         "performance-mcq-12",
-        "performance-mcq-11",
-        "performance-mcq-13",
-        "performance-mcq-10",
-        "performance-mcq-14",
-        "performance-mcq-09"
+        "performance-pdf-001",
+        "performance-mcq-24",
+        "performance-mcq-18"
       ],
       "explanation": "本句的「performance-related pay」指「績效掛鈎薪酬」。",
       "sentenceIndex": 23,
@@ -1498,12 +1416,10 @@ export default {
         "performance-related pay"
       ],
       "optionReasons": {
-        "performance-mcq-12": "本句指「績效掛鈎薪酬」。",
-        "performance-mcq-11": "「績效指標」與本句語境不同。",
-        "performance-mcq-13": "「競技表現」與本句語境不同。",
-        "performance-mcq-10": "「績效目標」與本句語境不同。",
-        "performance-mcq-14": "「演出；表演」與本句語境不同。",
-        "performance-mcq-09": "「工作表現評估」與本句語境不同。"
+        "performance-mcq-12": "本句的「performance-related pay」指「績效掛鈎薪酬」。",
+        "performance-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-12"
     },
@@ -1515,11 +1431,9 @@ export default {
       "masked": "Bonuses may form part of ____.",
       "options": [
         "performance-mcq-12",
-        "performance-mcq-11",
-        "performance-mcq-13",
-        "performance-mcq-10",
-        "performance-mcq-14",
-        "performance-mcq-09"
+        "performance-mcq-22",
+        "performance-mcq-06",
+        "performance-mcq-17"
       ],
       "explanation": "本句的「performance-related pay」指「績效掛鈎薪酬」。",
       "sentenceIndex": 24,
@@ -1528,12 +1442,10 @@ export default {
         "performance-related pay"
       ],
       "optionReasons": {
-        "performance-mcq-12": "本句指「績效掛鈎薪酬」。",
-        "performance-mcq-11": "「績效指標」與本句語境不同。",
-        "performance-mcq-13": "「競技表現」與本句語境不同。",
-        "performance-mcq-10": "「績效目標」與本句語境不同。",
-        "performance-mcq-14": "「演出；表演」與本句語境不同。",
-        "performance-mcq-09": "「工作表現評估」與本句語境不同。"
+        "performance-mcq-12": "本句的「performance-related pay」指「績效掛鈎薪酬」。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-12"
     },
@@ -1545,11 +1457,9 @@ export default {
       "masked": "The athlete gave an excellent ____.",
       "options": [
         "performance-mcq-13",
-        "performance-mcq-12",
-        "performance-mcq-14",
-        "performance-mcq-11",
-        "performance-mcq-15",
-        "performance-mcq-10"
+        "performance-mcq-22",
+        "performance-mcq-08",
+        "performance-mcq-20"
       ],
       "explanation": "本句的「performance」指「競技表現」。",
       "sentenceIndex": 25,
@@ -1558,12 +1468,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-13": "本句指「競技表現」。",
-        "performance-mcq-12": "「績效掛鈎薪酬」與本句語境不同。",
-        "performance-mcq-14": "「演出；表演」與本句語境不同。",
-        "performance-mcq-11": "「績效指標」與本句語境不同。",
-        "performance-mcq-15": "「現場演出」與本句語境不同。",
-        "performance-mcq-10": "「績效目標」與本句語境不同。"
+        "performance-mcq-13": "本句的「performance」指「競技表現」。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-13"
     },
@@ -1575,11 +1483,9 @@ export default {
       "masked": "Tiredness affected his ____ in the match.",
       "options": [
         "performance-mcq-13",
-        "performance-mcq-12",
-        "performance-mcq-14",
-        "performance-mcq-11",
-        "performance-mcq-15",
-        "performance-mcq-10"
+        "performance-mcq-22",
+        "performance-mcq-02",
+        "performance-mcq-19"
       ],
       "explanation": "本句的「performance」指「競技表現」。",
       "sentenceIndex": 26,
@@ -1588,12 +1494,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-13": "本句指「競技表現」。",
-        "performance-mcq-12": "「績效掛鈎薪酬」與本句語境不同。",
-        "performance-mcq-14": "「演出；表演」與本句語境不同。",
-        "performance-mcq-11": "「績效指標」與本句語境不同。",
-        "performance-mcq-15": "「現場演出」與本句語境不同。",
-        "performance-mcq-10": "「績效目標」與本句語境不同。"
+        "performance-mcq-13": "本句的「performance」指「競技表現」。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-13"
     },
@@ -1605,11 +1509,9 @@ export default {
       "masked": "We watched a live ____.",
       "options": [
         "performance-mcq-14",
-        "performance-mcq-13",
-        "performance-mcq-15",
-        "performance-mcq-12",
-        "performance-mcq-16",
-        "performance-mcq-11"
+        "performance-mcq-30",
+        "performance-mcq-22",
+        "performance-mcq-20"
       ],
       "explanation": "本句的「performance」指「演出；表演」。",
       "sentenceIndex": 27,
@@ -1618,12 +1520,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-14": "本句指「演出；表演」。",
-        "performance-mcq-13": "「競技表現」與本句語境不同。",
-        "performance-mcq-15": "「現場演出」與本句語境不同。",
-        "performance-mcq-12": "「績效掛鈎薪酬」與本句語境不同。",
-        "performance-mcq-16": "「演技；演出表現」與本句語境不同。",
-        "performance-mcq-11": "「績效指標」與本句語境不同。"
+        "performance-mcq-14": "本句的「performance」指「演出；表演」。",
+        "performance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-14"
     },
@@ -1635,11 +1535,9 @@ export default {
       "masked": "The evening ____ starts at eight.",
       "options": [
         "performance-mcq-14",
-        "performance-mcq-13",
-        "performance-mcq-15",
-        "performance-mcq-12",
-        "performance-mcq-16",
-        "performance-mcq-11"
+        "performance-mcq-22",
+        "performance-mcq-19",
+        "performance-mcq-02"
       ],
       "explanation": "本句的「performance」指「演出；表演」。",
       "sentenceIndex": 28,
@@ -1648,12 +1546,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-14": "本句指「演出；表演」。",
-        "performance-mcq-13": "「競技表現」與本句語境不同。",
-        "performance-mcq-15": "「現場演出」與本句語境不同。",
-        "performance-mcq-12": "「績效掛鈎薪酬」與本句語境不同。",
-        "performance-mcq-16": "「演技；演出表現」與本句語境不同。",
-        "performance-mcq-11": "「績效指標」與本句語境不同。"
+        "performance-mcq-14": "本句的「performance」指「演出；表演」。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-14"
     },
@@ -1665,10 +1561,8 @@ export default {
       "masked": "The students ____ at the end of the term.",
       "options": [
         "performance-pdf-001",
-        "performance-mcq-13",
-        "performance-mcq-15",
-        "performance-mcq-12",
-        "performance-mcq-16",
+        "performance-pdf-002",
+        "performance-mcq-22",
         "performance-mcq-11"
       ],
       "explanation": "本句的「gave a performance」指「正式為觀眾進行音樂、戲劇、舞蹈等表演」。",
@@ -1678,12 +1572,10 @@ export default {
         "gave a performance"
       ],
       "optionReasons": {
-        "performance-pdf-001": "本句指「正式為觀眾進行音樂、戲劇、舞蹈等表演」。",
-        "performance-mcq-13": "「競技表現」與本句語境不同。",
-        "performance-mcq-15": "「現場演出」與本句語境不同。",
-        "performance-mcq-12": "「績效掛鈎薪酬」與本句語境不同。",
-        "performance-mcq-16": "「演技；演出表現」與本句語境不同。",
-        "performance-mcq-11": "「績效指標」與本句語境不同。"
+        "performance-pdf-001": "本句的「gave a performance」指「正式為觀眾進行音樂、戲劇、舞蹈等表演」。",
+        "performance-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-pdf-001"
     },
@@ -1695,11 +1587,9 @@ export default {
       "masked": "The band ____.",
       "options": [
         "performance-pdf-001",
-        "performance-mcq-13",
-        "performance-mcq-15",
         "performance-mcq-12",
-        "performance-mcq-16",
-        "performance-mcq-11"
+        "performance-mcq-24",
+        "performance-mcq-17"
       ],
       "explanation": "本句的「gave an energetic performance」指「正式為觀眾進行音樂、戲劇、舞蹈等表演」。",
       "sentenceIndex": 30,
@@ -1708,12 +1598,10 @@ export default {
         "gave an energetic performance"
       ],
       "optionReasons": {
-        "performance-pdf-001": "本句指「正式為觀眾進行音樂、戲劇、舞蹈等表演」。",
-        "performance-mcq-13": "「競技表現」與本句語境不同。",
-        "performance-mcq-15": "「現場演出」與本句語境不同。",
-        "performance-mcq-12": "「績效掛鈎薪酬」與本句語境不同。",
-        "performance-mcq-16": "「演技；演出表現」與本句語境不同。",
-        "performance-mcq-11": "「績效指標」與本句語境不同。"
+        "performance-pdf-001": "本句的「gave an energetic performance」指「正式為觀眾進行音樂、戲劇、舞蹈等表演」。",
+        "performance-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-pdf-001"
     },
@@ -1725,11 +1613,9 @@ export default {
       "masked": "Recorded music feels different from a ____.",
       "options": [
         "performance-mcq-15",
-        "performance-mcq-14",
-        "performance-mcq-16",
-        "performance-mcq-13",
-        "performance-mcq-17",
-        "performance-mcq-12"
+        "performance-mcq-11",
+        "performance-mcq-23",
+        "performance-mcq-18"
       ],
       "explanation": "本句的「live performance」指「現場演出」。",
       "sentenceIndex": 31,
@@ -1738,12 +1624,10 @@ export default {
         "live performance"
       ],
       "optionReasons": {
-        "performance-mcq-15": "本句指「現場演出」。",
-        "performance-mcq-14": "「演出；表演」與本句語境不同。",
-        "performance-mcq-16": "「演技；演出表現」與本句語境不同。",
-        "performance-mcq-13": "「競技表現」與本句語境不同。",
-        "performance-mcq-17": "「執行任務」與本句語境不同。",
-        "performance-mcq-12": "「績效掛鈎薪酬」與本句語境不同。"
+        "performance-mcq-15": "本句的「live performance」指「現場演出」。",
+        "performance-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-15"
     },
@@ -1755,11 +1639,9 @@ export default {
       "masked": "The theatre hosts ____ every weekend.",
       "options": [
         "performance-mcq-15",
-        "performance-mcq-14",
-        "performance-mcq-16",
-        "performance-mcq-13",
-        "performance-mcq-17",
-        "performance-mcq-12"
+        "performance-mcq-20",
+        "performance-mcq-11",
+        "performance-reviewed-b409743f39"
       ],
       "explanation": "本句的「live performances」指「現場演出」。",
       "sentenceIndex": 32,
@@ -1768,12 +1650,10 @@ export default {
         "live performances"
       ],
       "optionReasons": {
-        "performance-mcq-15": "本句指「現場演出」。",
-        "performance-mcq-14": "「演出；表演」與本句語境不同。",
-        "performance-mcq-16": "「演技；演出表現」與本句語境不同。",
-        "performance-mcq-13": "「競技表現」與本句語境不同。",
-        "performance-mcq-17": "「執行任務」與本句語境不同。",
-        "performance-mcq-12": "「績效掛鈎薪酬」與本句語境不同。"
+        "performance-mcq-15": "本句的「live performances」指「現場演出」。",
+        "performance-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "performance-reviewed-b409743f39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-15"
     },
@@ -1785,11 +1665,9 @@ export default {
       "masked": "Her ____ in the film was excellent.",
       "options": [
         "performance-mcq-16",
-        "performance-mcq-15",
-        "performance-mcq-17",
-        "performance-mcq-14",
-        "performance-mcq-18",
-        "performance-mcq-13"
+        "performance-reviewed-b409743f39",
+        "performance-mcq-24",
+        "performance-mcq-19"
       ],
       "explanation": "本句的「performance」指「演技；演出表現」。",
       "sentenceIndex": 33,
@@ -1798,12 +1676,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-16": "本句指「演技；演出表現」。",
-        "performance-mcq-15": "「現場演出」與本句語境不同。",
-        "performance-mcq-17": "「執行任務」與本句語境不同。",
-        "performance-mcq-14": "「演出；表演」與本句語境不同。",
-        "performance-mcq-18": "「履行職責」與本句語境不同。",
-        "performance-mcq-13": "「競技表現」與本句語境不同。"
+        "performance-mcq-16": "本句的「performance」指「演技；演出表現」。",
+        "performance-reviewed-b409743f39": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-16"
     },
@@ -1815,11 +1691,9 @@ export default {
       "masked": "The actor received praise for his ____.",
       "options": [
         "performance-mcq-16",
-        "performance-mcq-15",
-        "performance-mcq-17",
-        "performance-mcq-14",
-        "performance-mcq-18",
-        "performance-mcq-13"
+        "performance-mcq-02",
+        "performance-mcq-22",
+        "performance-mcq-19"
       ],
       "explanation": "本句的「performance」指「演技；演出表現」。",
       "sentenceIndex": 34,
@@ -1828,12 +1702,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-16": "本句指「演技；演出表現」。",
-        "performance-mcq-15": "「現場演出」與本句語境不同。",
-        "performance-mcq-17": "「執行任務」與本句語境不同。",
-        "performance-mcq-14": "「演出；表演」與本句語境不同。",
-        "performance-mcq-18": "「履行職責」與本句語境不同。",
-        "performance-mcq-13": "「競技表現」與本句語境不同。"
+        "performance-mcq-16": "本句的「performance」指「演技；演出表現」。",
+        "performance-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-16"
     },
@@ -1845,11 +1717,9 @@ export default {
       "masked": "Employees must ____ properly.",
       "options": [
         "performance-mcq-17",
-        "performance-mcq-16",
-        "performance-mcq-18",
-        "performance-mcq-15",
-        "performance-mcq-19",
-        "performance-mcq-14"
+        "performance-mcq-03",
+        "performance-mcq-30",
+        "performance-mcq-23"
       ],
       "explanation": "本句的「perform their duties」指「執行任務」。",
       "sentenceIndex": 35,
@@ -1858,12 +1728,10 @@ export default {
         "perform their duties"
       ],
       "optionReasons": {
-        "performance-mcq-17": "本句指「執行任務」。",
-        "performance-mcq-16": "「演技；演出表現」與本句語境不同。",
-        "performance-mcq-18": "「履行職責」與本句語境不同。",
-        "performance-mcq-15": "「現場演出」與本句語境不同。",
-        "performance-mcq-19": "「履行」與本句語境不同。",
-        "performance-mcq-14": "「演出；表演」與本句語境不同。"
+        "performance-mcq-17": "本句的「perform their duties」指「執行任務」。",
+        "performance-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-17"
     },
@@ -1875,11 +1743,9 @@ export default {
       "masked": "The team ____ efficiently.",
       "options": [
         "performance-mcq-17",
-        "performance-mcq-16",
-        "performance-mcq-18",
-        "performance-mcq-15",
-        "performance-mcq-19",
-        "performance-mcq-14"
+        "performance-mcq-33",
+        "performance-reviewed-b409743f39",
+        "performance-mcq-21"
       ],
       "explanation": "本句的「performed the task」指「執行任務」。",
       "sentenceIndex": 36,
@@ -1888,12 +1754,10 @@ export default {
         "performed the task"
       ],
       "optionReasons": {
-        "performance-mcq-17": "本句指「執行任務」。",
-        "performance-mcq-16": "「演技；演出表現」與本句語境不同。",
-        "performance-mcq-18": "「履行職責」與本句語境不同。",
-        "performance-mcq-15": "「現場演出」與本句語境不同。",
-        "performance-mcq-19": "「履行」與本句語境不同。",
-        "performance-mcq-14": "「演出；表演」與本句語境不同。"
+        "performance-mcq-17": "本句的「performed the task」指「執行任務」。",
+        "performance-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "performance-reviewed-b409743f39": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-17"
     },
@@ -1905,11 +1769,9 @@ export default {
       "masked": "Employees are responsible for the proper ____.",
       "options": [
         "performance-mcq-18",
-        "performance-mcq-17",
-        "performance-mcq-19",
-        "performance-mcq-16",
-        "performance-mcq-20",
-        "performance-mcq-15"
+        "performance-mcq-15",
+        "performance-mcq-10",
+        "performance-pdf-002"
       ],
       "explanation": "本句的「performance of their duties」指「履行職責」。",
       "sentenceIndex": 37,
@@ -1918,12 +1780,10 @@ export default {
         "performance of their duties"
       ],
       "optionReasons": {
-        "performance-mcq-18": "本句指「履行職責」。",
-        "performance-mcq-17": "「執行任務」與本句語境不同。",
-        "performance-mcq-19": "「履行」與本句語境不同。",
-        "performance-mcq-16": "「演技；演出表現」與本句語境不同。",
-        "performance-mcq-20": "「強制履行」與本句語境不同。",
-        "performance-mcq-15": "「現場演出」與本句語境不同。"
+        "performance-mcq-18": "本句的「performance of their duties」指「履行職責」。",
+        "performance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "performance-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-18"
     },
@@ -1935,11 +1795,9 @@ export default {
       "masked": "The illness affected the ____.",
       "options": [
         "performance-mcq-18",
-        "performance-mcq-17",
-        "performance-mcq-19",
-        "performance-mcq-16",
-        "performance-mcq-20",
-        "performance-mcq-15"
+        "performance-mcq-25",
+        "performance-reviewed-b409743f39",
+        "performance-mcq-29"
       ],
       "explanation": "本句的「performance of his duties」指「履行職責」。",
       "sentenceIndex": 38,
@@ -1948,12 +1806,10 @@ export default {
         "performance of his duties"
       ],
       "optionReasons": {
-        "performance-mcq-18": "本句指「履行職責」。",
-        "performance-mcq-17": "「執行任務」與本句語境不同。",
-        "performance-mcq-19": "「履行」與本句語境不同。",
-        "performance-mcq-16": "「演技；演出表現」與本句語境不同。",
-        "performance-mcq-20": "「強制履行」與本句語境不同。",
-        "performance-mcq-15": "「現場演出」與本句語境不同。"
+        "performance-mcq-18": "本句的「performance of his duties」指「履行職責」。",
+        "performance-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "performance-reviewed-b409743f39": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-18"
     },
@@ -1965,11 +1821,9 @@ export default {
       "masked": "The contract requires full ____.",
       "options": [
         "performance-mcq-19",
-        "performance-mcq-18",
-        "performance-mcq-20",
-        "performance-mcq-17",
-        "performance-mcq-21",
-        "performance-mcq-16"
+        "performance-mcq-01",
+        "performance-mcq-22",
+        "performance-pdf-002"
       ],
       "explanation": "本句的「performance of the agreement」指「履行」。",
       "sentenceIndex": 39,
@@ -1978,12 +1832,10 @@ export default {
         "performance of the agreement"
       ],
       "optionReasons": {
-        "performance-mcq-19": "本句指「履行」。",
-        "performance-mcq-18": "「履行職責」與本句語境不同。",
-        "performance-mcq-20": "「強制履行」與本句語境不同。",
-        "performance-mcq-17": "「執行任務」與本句語境不同。",
-        "performance-mcq-21": "「性能；效能」與本句語境不同。",
-        "performance-mcq-16": "「演技；演出表現」與本句語境不同。"
+        "performance-mcq-19": "本句的「performance of the agreement」指「履行」。",
+        "performance-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "performance-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-19"
     },
@@ -1995,11 +1847,9 @@ export default {
       "masked": "Failure of ____ may lead to legal action.",
       "options": [
         "performance-mcq-19",
-        "performance-mcq-18",
-        "performance-mcq-20",
-        "performance-mcq-17",
-        "performance-mcq-21",
-        "performance-mcq-16"
+        "performance-pdf-002",
+        "performance-mcq-31",
+        "performance-mcq-08"
       ],
       "explanation": "本句的「performance」指「履行」。",
       "sentenceIndex": 40,
@@ -2008,12 +1858,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-19": "本句指「履行」。",
-        "performance-mcq-18": "「履行職責」與本句語境不同。",
-        "performance-mcq-20": "「強制履行」與本句語境不同。",
-        "performance-mcq-17": "「執行任務」與本句語境不同。",
-        "performance-mcq-21": "「性能；效能」與本句語境不同。",
-        "performance-mcq-16": "「演技；演出表現」與本句語境不同。"
+        "performance-mcq-19": "本句的「performance」指「履行」。",
+        "performance-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-19"
     },
@@ -2025,11 +1873,9 @@ export default {
       "masked": "The court may order ____ of the contract.",
       "options": [
         "performance-mcq-20",
-        "performance-mcq-19",
-        "performance-mcq-21",
-        "performance-mcq-18",
-        "performance-mcq-22",
-        "performance-mcq-17"
+        "performance-mcq-27",
+        "performance-mcq-11",
+        "performance-mcq-23"
       ],
       "explanation": "本句的「specific performance」指「強制履行」。",
       "sentenceIndex": 41,
@@ -2038,12 +1884,10 @@ export default {
         "specific performance"
       ],
       "optionReasons": {
-        "performance-mcq-20": "本句指「強制履行」。",
-        "performance-mcq-19": "「履行」與本句語境不同。",
-        "performance-mcq-21": "「性能；效能」與本句語境不同。",
-        "performance-mcq-18": "「履行職責」與本句語境不同。",
-        "performance-mcq-22": "「系統性能」與本句語境不同。",
-        "performance-mcq-17": "「執行任務」與本句語境不同。"
+        "performance-mcq-20": "本句的「specific performance」指「強制履行」。",
+        "performance-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-20"
     },
@@ -2055,11 +1899,9 @@ export default {
       "masked": "Specific ____ requires a party to carry out its contractual obligation.",
       "options": [
         "performance-mcq-20",
-        "performance-mcq-19",
-        "performance-mcq-21",
-        "performance-mcq-18",
-        "performance-mcq-22",
-        "performance-mcq-17"
+        "performance-mcq-27",
+        "performance-mcq-23",
+        "performance-mcq-29"
       ],
       "explanation": "本句的「performance」指「強制履行」。",
       "sentenceIndex": 42,
@@ -2068,12 +1910,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-20": "本句指「強制履行」。",
-        "performance-mcq-19": "「履行」與本句語境不同。",
-        "performance-mcq-21": "「性能；效能」與本句語境不同。",
-        "performance-mcq-18": "「履行職責」與本句語境不同。",
-        "performance-mcq-22": "「系統性能」與本句語境不同。",
-        "performance-mcq-17": "「執行任務」與本句語境不同。"
+        "performance-mcq-20": "本句的「performance」指「強制履行」。",
+        "performance-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-20"
     },
@@ -2085,10 +1925,7 @@ export default {
       "masked": "The update improved computer ____.",
       "options": [
         "performance-mcq-21",
-        "performance-mcq-20",
-        "performance-mcq-22",
-        "performance-mcq-19",
-        "performance-mcq-23",
+        "performance-mcq-04",
         "performance-mcq-18"
       ],
       "explanation": "本句的「performance」指「性能；效能」。",
@@ -2098,12 +1935,9 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-21": "本句指「性能；效能」。",
-        "performance-mcq-20": "「強制履行」與本句語境不同。",
-        "performance-mcq-22": "「系統性能」與本句語境不同。",
-        "performance-mcq-19": "「履行」與本句語境不同。",
-        "performance-mcq-23": "「引擎性能」與本句語境不同。",
-        "performance-mcq-18": "「履行職責」與本句語境不同。"
+        "performance-mcq-21": "本句的「performance」指「性能；效能」。",
+        "performance-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-21"
     },
@@ -2115,11 +1949,8 @@ export default {
       "masked": "Engineers tested the engine's ____.",
       "options": [
         "performance-mcq-21",
-        "performance-mcq-20",
-        "performance-mcq-22",
-        "performance-mcq-19",
-        "performance-mcq-23",
-        "performance-mcq-18"
+        "performance-mcq-04",
+        "performance-mcq-19"
       ],
       "explanation": "本句的「performance」指「性能；效能」。",
       "sentenceIndex": 44,
@@ -2128,12 +1959,9 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-21": "本句指「性能；效能」。",
-        "performance-mcq-20": "「強制履行」與本句語境不同。",
-        "performance-mcq-22": "「系統性能」與本句語境不同。",
-        "performance-mcq-19": "「履行」與本句語境不同。",
-        "performance-mcq-23": "「引擎性能」與本句語境不同。",
-        "performance-mcq-18": "「履行職責」與本句語境不同。"
+        "performance-mcq-21": "本句的「performance」指「性能；效能」。",
+        "performance-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-21"
     },
@@ -2145,11 +1973,9 @@ export default {
       "masked": "Too many background programs can reduce ____.",
       "options": [
         "performance-mcq-22",
-        "performance-mcq-21",
-        "performance-mcq-23",
-        "performance-mcq-20",
-        "performance-mcq-24",
-        "performance-mcq-19"
+        "performance-mcq-33",
+        "performance-mcq-29",
+        "performance-mcq-20"
       ],
       "explanation": "本句的「system performance」指「系統性能」。",
       "sentenceIndex": 45,
@@ -2158,12 +1984,10 @@ export default {
         "system performance"
       ],
       "optionReasons": {
-        "performance-mcq-22": "本句指「系統性能」。",
-        "performance-mcq-21": "「性能；效能」與本句語境不同。",
-        "performance-mcq-23": "「引擎性能」與本句語境不同。",
-        "performance-mcq-20": "「強制履行」與本句語境不同。",
-        "performance-mcq-24": "「高性能的」與本句語境不同。",
-        "performance-mcq-19": "「履行」與本句語境不同。"
+        "performance-mcq-22": "本句的「system performance」指「系統性能」。",
+        "performance-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-22"
     },
@@ -2175,11 +1999,9 @@ export default {
       "masked": "The new processor improves computer ____.",
       "options": [
         "performance-mcq-22",
-        "performance-mcq-21",
-        "performance-mcq-23",
-        "performance-mcq-20",
-        "performance-mcq-24",
-        "performance-mcq-19"
+        "performance-mcq-08",
+        "performance-mcq-32",
+        "performance-mcq-17"
       ],
       "explanation": "本句的「performance」指「系統性能」。",
       "sentenceIndex": 46,
@@ -2188,12 +2010,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-22": "本句指「系統性能」。",
-        "performance-mcq-21": "「性能；效能」與本句語境不同。",
-        "performance-mcq-23": "「引擎性能」與本句語境不同。",
-        "performance-mcq-20": "「強制履行」與本句語境不同。",
-        "performance-mcq-24": "「高性能的」與本句語境不同。",
-        "performance-mcq-19": "「履行」與本句語境不同。"
+        "performance-mcq-22": "本句的「performance」指「系統性能」。",
+        "performance-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-22"
     },
@@ -2205,10 +2025,8 @@ export default {
       "masked": "The design improves ____.",
       "options": [
         "performance-mcq-23",
-        "performance-mcq-22",
-        "performance-mcq-24",
-        "performance-mcq-21",
-        "performance-mcq-25",
+        "performance-mcq-14",
+        "performance-mcq-30",
         "performance-mcq-20"
       ],
       "explanation": "本句的「engine performance」指「引擎性能」。",
@@ -2218,12 +2036,10 @@ export default {
         "engine performance"
       ],
       "optionReasons": {
-        "performance-mcq-23": "本句指「引擎性能」。",
-        "performance-mcq-22": "「系統性能」與本句語境不同。",
-        "performance-mcq-24": "「高性能的」與本句語境不同。",
-        "performance-mcq-21": "「性能；效能」與本句語境不同。",
-        "performance-mcq-25": "「業務表現」與本句語境不同。",
-        "performance-mcq-20": "「強制履行」與本句語境不同。"
+        "performance-mcq-23": "本句的「engine performance」指「引擎性能」。",
+        "performance-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-23"
     },
@@ -2235,11 +2051,9 @@ export default {
       "masked": "Fuel quality can affect vehicle ____.",
       "options": [
         "performance-mcq-23",
-        "performance-mcq-22",
-        "performance-mcq-24",
-        "performance-mcq-21",
-        "performance-mcq-25",
-        "performance-mcq-20"
+        "performance-mcq-29",
+        "performance-mcq-31",
+        "performance-pdf-002"
       ],
       "explanation": "本句的「performance」指「引擎性能」。",
       "sentenceIndex": 48,
@@ -2248,12 +2062,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-23": "本句指「引擎性能」。",
-        "performance-mcq-22": "「系統性能」與本句語境不同。",
-        "performance-mcq-24": "「高性能的」與本句語境不同。",
-        "performance-mcq-21": "「性能；效能」與本句語境不同。",
-        "performance-mcq-25": "「業務表現」與本句語境不同。",
-        "performance-mcq-20": "「強制履行」與本句語境不同。"
+        "performance-mcq-23": "本句的「performance」指「引擎性能」。",
+        "performance-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "performance-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-23"
     },
@@ -2265,11 +2077,9 @@ export default {
       "masked": "The laboratory uses ____.",
       "options": [
         "performance-mcq-24",
-        "performance-mcq-23",
-        "performance-mcq-25",
-        "performance-mcq-22",
-        "performance-mcq-26",
-        "performance-mcq-21"
+        "performance-mcq-31",
+        "performance-mcq-10",
+        "performance-reviewed-b409743f39"
       ],
       "explanation": "本句的「high-performance computers」指「高性能的」。",
       "sentenceIndex": 49,
@@ -2278,12 +2088,10 @@ export default {
         "high-performance computers"
       ],
       "optionReasons": {
-        "performance-mcq-24": "本句指「高性能的」。",
-        "performance-mcq-23": "「引擎性能」與本句語境不同。",
-        "performance-mcq-25": "「業務表現」與本句語境不同。",
-        "performance-mcq-22": "「系統性能」與本句語境不同。",
-        "performance-mcq-26": "「財務表現」與本句語境不同。",
-        "performance-mcq-21": "「性能；效能」與本句語境不同。"
+        "performance-mcq-24": "本句的「high-performance computers」指「高性能的」。",
+        "performance-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "performance-reviewed-b409743f39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-24"
     },
@@ -2295,11 +2103,9 @@ export default {
       "masked": "The car has a ____.",
       "options": [
         "performance-mcq-24",
-        "performance-mcq-23",
-        "performance-mcq-25",
-        "performance-mcq-22",
-        "performance-mcq-26",
-        "performance-mcq-21"
+        "performance-mcq-17",
+        "performance-mcq-31",
+        "performance-mcq-08"
       ],
       "explanation": "本句的「high-performance engine」指「高性能的」。",
       "sentenceIndex": 50,
@@ -2308,12 +2114,10 @@ export default {
         "high-performance engine"
       ],
       "optionReasons": {
-        "performance-mcq-24": "本句指「高性能的」。",
-        "performance-mcq-23": "「引擎性能」與本句語境不同。",
-        "performance-mcq-25": "「業務表現」與本句語境不同。",
-        "performance-mcq-22": "「系統性能」與本句語境不同。",
-        "performance-mcq-26": "「財務表現」與本句語境不同。",
-        "performance-mcq-21": "「性能；效能」與本句語境不同。"
+        "performance-mcq-24": "本句的「high-performance engine」指「高性能的」。",
+        "performance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-24"
     },
@@ -2325,11 +2129,9 @@ export default {
       "masked": "The company reported strong ____ this year.",
       "options": [
         "performance-mcq-25",
-        "performance-mcq-24",
-        "performance-mcq-26",
-        "performance-mcq-23",
-        "performance-mcq-27",
-        "performance-mcq-22"
+        "performance-mcq-22",
+        "performance-mcq-11",
+        "performance-mcq-19"
       ],
       "explanation": "本句的「performance」指「業務表現」。",
       "sentenceIndex": 51,
@@ -2338,12 +2140,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-25": "本句指「業務表現」。",
-        "performance-mcq-24": "「高性能的」與本句語境不同。",
-        "performance-mcq-26": "「財務表現」與本句語境不同。",
-        "performance-mcq-23": "「引擎性能」與本句語境不同。",
-        "performance-mcq-27": "「表現好／差」與本句語境不同。",
-        "performance-mcq-22": "「系統性能」與本句語境不同。"
+        "performance-mcq-25": "本句的「performance」指「業務表現」。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-25"
     },
@@ -2355,11 +2155,9 @@ export default {
       "masked": "Management is concerned about weak business ____.",
       "options": [
         "performance-mcq-25",
-        "performance-mcq-24",
-        "performance-mcq-26",
-        "performance-mcq-23",
-        "performance-mcq-27",
-        "performance-mcq-22"
+        "performance-mcq-21",
+        "performance-mcq-19",
+        "performance-reviewed-b409743f39"
       ],
       "explanation": "本句的「performance」指「業務表現」。",
       "sentenceIndex": 52,
@@ -2368,12 +2166,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-mcq-25": "本句指「業務表現」。",
-        "performance-mcq-24": "「高性能的」與本句語境不同。",
-        "performance-mcq-26": "「財務表現」與本句語境不同。",
-        "performance-mcq-23": "「引擎性能」與本句語境不同。",
-        "performance-mcq-27": "「表現好／差」與本句語境不同。",
-        "performance-mcq-22": "「系統性能」與本句語境不同。"
+        "performance-mcq-25": "本句的「performance」指「業務表現」。",
+        "performance-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "performance-reviewed-b409743f39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-25"
     },
@@ -2385,11 +2181,9 @@ export default {
       "masked": "The report reviews the company's ____.",
       "options": [
         "performance-mcq-26",
-        "performance-mcq-25",
-        "performance-mcq-27",
-        "performance-mcq-24",
-        "performance-mcq-28",
-        "performance-mcq-23"
+        "performance-mcq-11",
+        "performance-mcq-22",
+        "performance-mcq-18"
       ],
       "explanation": "本句的「financial performance」指「財務表現」。",
       "sentenceIndex": 53,
@@ -2398,12 +2192,10 @@ export default {
         "financial performance"
       ],
       "optionReasons": {
-        "performance-mcq-26": "本句指「財務表現」。",
-        "performance-mcq-25": "「業務表現」與本句語境不同。",
-        "performance-mcq-27": "「表現好／差」與本句語境不同。",
-        "performance-mcq-24": "「高性能的」與本句語境不同。",
-        "performance-mcq-28": "「表演者」與本句語境不同。",
-        "performance-mcq-23": "「引擎性能」與本句語境不同。"
+        "performance-mcq-26": "本句的「financial performance」指「財務表現」。",
+        "performance-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-26"
     },
@@ -2415,11 +2207,9 @@ export default {
       "masked": "Sales growth improved overall ____.",
       "options": [
         "performance-mcq-26",
-        "performance-mcq-25",
-        "performance-mcq-27",
-        "performance-mcq-24",
-        "performance-mcq-28",
-        "performance-mcq-23"
+        "performance-mcq-23",
+        "performance-mcq-08",
+        "performance-mcq-18"
       ],
       "explanation": "本句的「financial performance」指「財務表現」。",
       "sentenceIndex": 54,
@@ -2428,12 +2218,10 @@ export default {
         "financial performance"
       ],
       "optionReasons": {
-        "performance-mcq-26": "本句指「財務表現」。",
-        "performance-mcq-25": "「業務表現」與本句語境不同。",
-        "performance-mcq-27": "「表現好／差」與本句語境不同。",
-        "performance-mcq-24": "「高性能的」與本句語境不同。",
-        "performance-mcq-28": "「表演者」與本句語境不同。",
-        "performance-mcq-23": "「引擎性能」與本句語境不同。"
+        "performance-mcq-26": "本句的「financial performance」指「財務表現」。",
+        "performance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-26"
     },
@@ -2445,11 +2233,9 @@ export default {
       "masked": "The product's ____ exceeded expectations.",
       "options": [
         "performance-pdf-002",
-        "performance-mcq-25",
-        "performance-mcq-27",
-        "performance-mcq-24",
-        "performance-mcq-28",
-        "performance-mcq-23"
+        "performance-mcq-03",
+        "performance-mcq-10",
+        "performance-mcq-22"
       ],
       "explanation": "本句的「market performance」指「產品、公司或投資在市場上的實際成果」。",
       "sentenceIndex": 55,
@@ -2458,12 +2244,10 @@ export default {
         "market performance"
       ],
       "optionReasons": {
-        "performance-pdf-002": "本句指「產品、公司或投資在市場上的實際成果」。",
-        "performance-mcq-25": "「業務表現」與本句語境不同。",
-        "performance-mcq-27": "「表現好／差」與本句語境不同。",
-        "performance-mcq-24": "「高性能的」與本句語境不同。",
-        "performance-mcq-28": "「表演者」與本句語境不同。",
-        "performance-mcq-23": "「引擎性能」與本句語境不同。"
+        "performance-pdf-002": "本句的「market performance」指「產品、公司或投資在市場上的實際成果」。",
+        "performance-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-pdf-002"
     },
@@ -2475,11 +2259,9 @@ export default {
       "masked": "Analysts compared the ____ of different investments.",
       "options": [
         "performance-pdf-002",
-        "performance-mcq-25",
-        "performance-mcq-27",
         "performance-mcq-24",
-        "performance-mcq-28",
-        "performance-mcq-23"
+        "performance-mcq-01",
+        "performance-mcq-19"
       ],
       "explanation": "本句的「performance」指「產品、公司或投資在市場上的實際成果」。",
       "sentenceIndex": 56,
@@ -2488,12 +2270,10 @@ export default {
         "performance"
       ],
       "optionReasons": {
-        "performance-pdf-002": "本句指「產品、公司或投資在市場上的實際成果」。",
-        "performance-mcq-25": "「業務表現」與本句語境不同。",
-        "performance-mcq-27": "「表現好／差」與本句語境不同。",
-        "performance-mcq-24": "「高性能的」與本句語境不同。",
-        "performance-mcq-28": "「表演者」與本句語境不同。",
-        "performance-mcq-23": "「引擎性能」與本句語境不同。"
+        "performance-pdf-002": "本句的「performance」指「產品、公司或投資在市場上的實際成果」。",
+        "performance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-pdf-002"
     },
@@ -2505,11 +2285,9 @@ export default {
       "masked": "The team ____ under pressure.",
       "options": [
         "performance-mcq-27",
-        "performance-mcq-26",
-        "performance-mcq-28",
-        "performance-mcq-25",
-        "performance-mcq-29",
-        "performance-mcq-24"
+        "performance-mcq-12",
+        "performance-mcq-20",
+        "performance-mcq-22"
       ],
       "explanation": "本句的「performed well」指「表現好／差」。",
       "sentenceIndex": 57,
@@ -2518,12 +2296,10 @@ export default {
         "performed well"
       ],
       "optionReasons": {
-        "performance-mcq-27": "本句指「表現好／差」。",
-        "performance-mcq-26": "「財務表現」與本句語境不同。",
-        "performance-mcq-28": "「表演者」與本句語境不同。",
-        "performance-mcq-25": "「業務表現」與本句語境不同。",
-        "performance-mcq-29": "「高績效者」與本句語境不同。",
-        "performance-mcq-24": "「高性能的」與本句語境不同。"
+        "performance-mcq-27": "本句的「performed well」指「表現好／差」。",
+        "performance-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-27"
     },
@@ -2535,11 +2311,9 @@ export default {
       "masked": "The new system ____ during testing.",
       "options": [
         "performance-mcq-27",
-        "performance-mcq-26",
-        "performance-mcq-28",
-        "performance-mcq-25",
-        "performance-mcq-29",
-        "performance-mcq-24"
+        "performance-mcq-10",
+        "performance-pdf-002",
+        "performance-mcq-17"
       ],
       "explanation": "本句的「performed badly」指「表現好／差」。",
       "sentenceIndex": 58,
@@ -2548,12 +2322,10 @@ export default {
         "performed badly"
       ],
       "optionReasons": {
-        "performance-mcq-27": "本句指「表現好／差」。",
-        "performance-mcq-26": "「財務表現」與本句語境不同。",
-        "performance-mcq-28": "「表演者」與本句語境不同。",
-        "performance-mcq-25": "「業務表現」與本句語境不同。",
-        "performance-mcq-29": "「高績效者」與本句語境不同。",
-        "performance-mcq-24": "「高性能的」與本句語境不同。"
+        "performance-mcq-27": "本句的「performed badly」指「表現好／差」。",
+        "performance-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "performance-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-27"
     },
@@ -2565,11 +2337,9 @@ export default {
       "masked": "The ____ came onto the stage.",
       "options": [
         "performance-mcq-28",
-        "performance-mcq-27",
-        "performance-mcq-29",
-        "performance-mcq-26",
-        "performance-mcq-30",
-        "performance-mcq-25"
+        "performance-mcq-18",
+        "performance-mcq-12",
+        "performance-mcq-22"
       ],
       "explanation": "本句的「performers」指「表演者」。",
       "sentenceIndex": 59,
@@ -2578,12 +2348,10 @@ export default {
         "performers"
       ],
       "optionReasons": {
-        "performance-mcq-28": "本句指「表演者」。",
-        "performance-mcq-27": "「表現好／差」與本句語境不同。",
-        "performance-mcq-29": "「高績效者」與本句語境不同。",
-        "performance-mcq-26": "「財務表現」與本句語境不同。",
-        "performance-mcq-30": "「高績效團隊」與本句語境不同。",
-        "performance-mcq-25": "「業務表現」與本句語境不同。"
+        "performance-mcq-28": "本句的「performers」指「表演者」。",
+        "performance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-28"
     },
@@ -2595,11 +2363,9 @@ export default {
       "masked": "She is a talented ____.",
       "options": [
         "performance-mcq-28",
-        "performance-mcq-27",
-        "performance-mcq-29",
-        "performance-mcq-26",
-        "performance-mcq-30",
-        "performance-mcq-25"
+        "performance-mcq-19",
+        "performance-mcq-10",
+        "performance-mcq-22"
       ],
       "explanation": "本句的「performer」指「表演者」。",
       "sentenceIndex": 60,
@@ -2608,74 +2374,68 @@ export default {
         "performer"
       ],
       "optionReasons": {
-        "performance-mcq-28": "本句指「表演者」。",
-        "performance-mcq-27": "「表現好／差」與本句語境不同。",
-        "performance-mcq-29": "「高績效者」與本句語境不同。",
-        "performance-mcq-26": "「財務表現」與本句語境不同。",
-        "performance-mcq-30": "「高績效團隊」與本句語境不同。",
-        "performance-mcq-25": "「業務表現」與本句語境不同。"
+        "performance-mcq-28": "本句的「performer」指「表演者」。",
+        "performance-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-28"
     },
     {
       "id": "performance-31-0",
-      "sense": "performance-mcq-28",
+      "sense": "performance-reviewed-b409743f39",
       "en": "She is one of the team's top performers.",
       "zh": "她是團隊中表現最好的成員之一。",
       "masked": "She is one of the team's top ____.",
       "options": [
-        "performance-mcq-28",
-        "performance-mcq-27",
-        "performance-mcq-29",
-        "performance-mcq-26",
-        "performance-mcq-30",
-        "performance-mcq-25"
+        "performance-reviewed-b409743f39",
+        "performance-pdf-001",
+        "performance-mcq-02",
+        "performance-mcq-24"
       ],
-      "explanation": "本句的「performers」指「表演者」。",
+      "explanation": "對照完整句子：「她是團隊中表現最好的成員之一。」。這裡的「performers」表示「在某方面取得某種水平成果的人、公司、投資或產品」。",
       "sentenceIndex": 61,
       "sourcePractice": 1,
       "targets": [
         "performers"
       ],
       "optionReasons": {
-        "performance-mcq-28": "本句指「表演者」。",
-        "performance-mcq-27": "「表現好／差」與本句語境不同。",
-        "performance-mcq-29": "「高績效者」與本句語境不同。",
-        "performance-mcq-26": "「財務表現」與本句語境不同。",
-        "performance-mcq-30": "「高績效團隊」與本句語境不同。",
-        "performance-mcq-25": "「業務表現」與本句語境不同。"
+        "performance-reviewed-b409743f39": "對照完整句子：「她是團隊中表現最好的成員之一。」。這裡的「performers」表示「在某方面取得某種水平成果的人、公司、投資或產品」。",
+        "performance-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "performance-mcq-28"
+      "correctOption": "performance-reviewed-b409743f39",
+      "previousCorrectOption": "performance-mcq-28",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "performance-31-1",
-      "sense": "performance-mcq-28",
+      "sense": "performance-reviewed-b409743f39",
       "en": "This investment has been a strong performer.",
       "zh": "這項投資一直是表現強勁的項目。",
       "masked": "This investment has been a strong ____.",
       "options": [
-        "performance-mcq-28",
+        "performance-reviewed-b409743f39",
         "performance-mcq-27",
-        "performance-mcq-29",
-        "performance-mcq-26",
-        "performance-mcq-30",
-        "performance-mcq-25"
+        "performance-mcq-20",
+        "performance-mcq-10"
       ],
-      "explanation": "本句的「performer」指「表演者」。",
+      "explanation": "對照完整句子：「這項投資一直是表現強勁的項目。」。這裡的「performer」表示「在某方面取得某種水平成果的人、公司、投資或產品」。",
       "sentenceIndex": 62,
       "sourcePractice": 2,
       "targets": [
         "performer"
       ],
       "optionReasons": {
-        "performance-mcq-28": "本句指「表演者」。",
-        "performance-mcq-27": "「表現好／差」與本句語境不同。",
-        "performance-mcq-29": "「高績效者」與本句語境不同。",
-        "performance-mcq-26": "「財務表現」與本句語境不同。",
-        "performance-mcq-30": "「高績效團隊」與本句語境不同。",
-        "performance-mcq-25": "「業務表現」與本句語境不同。"
+        "performance-reviewed-b409743f39": "對照完整句子：「這項投資一直是表現強勁的項目。」。這裡的「performer」表示「在某方面取得某種水平成果的人、公司、投資或產品」。",
+        "performance-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "performance-mcq-28"
+      "correctOption": "performance-reviewed-b409743f39",
+      "previousCorrectOption": "performance-mcq-28",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "performance-32-0",
@@ -2685,11 +2445,9 @@ export default {
       "masked": "High ____ may become frustrated by unfair group work.",
       "options": [
         "performance-mcq-29",
-        "performance-mcq-28",
-        "performance-mcq-30",
-        "performance-mcq-27",
-        "performance-mcq-31",
-        "performance-mcq-26"
+        "performance-mcq-13",
+        "performance-mcq-23",
+        "performance-reviewed-b409743f39"
       ],
       "explanation": "本句的「performers」指「高績效者」。",
       "sentenceIndex": 63,
@@ -2698,12 +2456,10 @@ export default {
         "performers"
       ],
       "optionReasons": {
-        "performance-mcq-29": "本句指「高績效者」。",
-        "performance-mcq-28": "「表演者」與本句語境不同。",
-        "performance-mcq-30": "「高績效團隊」與本句語境不同。",
-        "performance-mcq-27": "「表現好／差」與本句語境不同。",
-        "performance-mcq-31": "「表現低於預期」與本句語境不同。",
-        "performance-mcq-26": "「財務表現」與本句語境不同。"
+        "performance-mcq-29": "本句的「performers」指「高績效者」。",
+        "performance-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "performance-reviewed-b409743f39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-29"
     },
@@ -2715,11 +2471,9 @@ export default {
       "masked": "She is consistently a ____.",
       "options": [
         "performance-mcq-29",
-        "performance-mcq-28",
-        "performance-mcq-30",
-        "performance-mcq-27",
-        "performance-mcq-31",
-        "performance-mcq-26"
+        "performance-mcq-13",
+        "performance-mcq-23",
+        "performance-mcq-18"
       ],
       "explanation": "本句的「top performer」指「高績效者」。",
       "sentenceIndex": 64,
@@ -2728,12 +2482,10 @@ export default {
         "top performer"
       ],
       "optionReasons": {
-        "performance-mcq-29": "本句指「高績效者」。",
-        "performance-mcq-28": "「表演者」與本句語境不同。",
-        "performance-mcq-30": "「高績效團隊」與本句語境不同。",
-        "performance-mcq-27": "「表現好／差」與本句語境不同。",
-        "performance-mcq-31": "「表現低於預期」與本句語境不同。",
-        "performance-mcq-26": "「財務表現」與本句語境不同。"
+        "performance-mcq-29": "本句的「top performer」指「高績效者」。",
+        "performance-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-29"
     },
@@ -2745,11 +2497,9 @@ export default {
       "masked": "Trust is essential in a ____.",
       "options": [
         "performance-mcq-30",
-        "performance-mcq-29",
-        "performance-mcq-31",
-        "performance-mcq-28",
-        "performance-mcq-32",
-        "performance-mcq-27"
+        "performance-mcq-13",
+        "performance-mcq-20",
+        "performance-mcq-17"
       ],
       "explanation": "本句的「high-performing team」指「高績效團隊」。",
       "sentenceIndex": 65,
@@ -2758,12 +2508,10 @@ export default {
         "high-performing team"
       ],
       "optionReasons": {
-        "performance-mcq-30": "本句指「高績效團隊」。",
-        "performance-mcq-29": "「高績效者」與本句語境不同。",
-        "performance-mcq-31": "「表現低於預期」與本句語境不同。",
-        "performance-mcq-28": "「表演者」與本句語境不同。",
-        "performance-mcq-32": "「表現欠佳」與本句語境不同。",
-        "performance-mcq-27": "「表現好／差」與本句語境不同。"
+        "performance-mcq-30": "本句的「high-performing team」指「高績效團隊」。",
+        "performance-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-30"
     },
@@ -2775,11 +2523,9 @@ export default {
       "masked": "The team ____ because of poor communication.",
       "options": [
         "performance-mcq-31",
-        "performance-mcq-30",
-        "performance-mcq-32",
-        "performance-mcq-29",
-        "performance-mcq-33",
-        "performance-mcq-28"
+        "performance-mcq-17",
+        "performance-mcq-08",
+        "performance-mcq-24"
       ],
       "explanation": "本句的「underperformed」指「表現低於預期」。",
       "sentenceIndex": 66,
@@ -2788,12 +2534,10 @@ export default {
         "underperformed"
       ],
       "optionReasons": {
-        "performance-mcq-31": "本句指「表現低於預期」。",
-        "performance-mcq-30": "「高績效團隊」與本句語境不同。",
-        "performance-mcq-32": "「表現欠佳」與本句語境不同。",
-        "performance-mcq-29": "「高績效者」與本句語境不同。",
-        "performance-mcq-33": "「表現勝過」與本句語境不同。",
-        "performance-mcq-28": "「表演者」與本句語境不同。"
+        "performance-mcq-31": "本句的「underperformed」指「表現低於預期」。",
+        "performance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-31"
     },
@@ -2806,10 +2550,8 @@ export default {
       "options": [
         "performance-mcq-31",
         "performance-mcq-30",
-        "performance-mcq-32",
-        "performance-mcq-29",
-        "performance-mcq-33",
-        "performance-mcq-28"
+        "performance-mcq-23",
+        "performance-mcq-17"
       ],
       "explanation": "本句的「underperformed」指「表現低於預期」。",
       "sentenceIndex": 67,
@@ -2818,12 +2560,10 @@ export default {
         "underperformed"
       ],
       "optionReasons": {
-        "performance-mcq-31": "本句指「表現低於預期」。",
-        "performance-mcq-30": "「高績效團隊」與本句語境不同。",
-        "performance-mcq-32": "「表現欠佳」與本句語境不同。",
-        "performance-mcq-29": "「高績效者」與本句語境不同。",
-        "performance-mcq-33": "「表現勝過」與本句語境不同。",
-        "performance-mcq-28": "「表演者」與本句語境不同。"
+        "performance-mcq-31": "本句的「underperformed」指「表現低於預期」。",
+        "performance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-31"
     },
@@ -2835,11 +2575,9 @@ export default {
       "masked": "Managers investigated the causes of ____.",
       "options": [
         "performance-mcq-32",
-        "performance-mcq-31",
-        "performance-mcq-33",
-        "performance-mcq-30",
-        "performance-mcq-29",
-        "performance-mcq-28"
+        "performance-reviewed-b409743f39",
+        "performance-mcq-11",
+        "performance-mcq-20"
       ],
       "explanation": "本句的「underperformance」指「表現欠佳」。",
       "sentenceIndex": 68,
@@ -2848,12 +2586,10 @@ export default {
         "underperformance"
       ],
       "optionReasons": {
-        "performance-mcq-32": "本句指「表現欠佳」。",
-        "performance-mcq-31": "「表現低於預期」與本句語境不同。",
-        "performance-mcq-33": "「表現勝過」與本句語境不同。",
-        "performance-mcq-30": "「高績效團隊」與本句語境不同。",
-        "performance-mcq-29": "「高績效者」與本句語境不同。",
-        "performance-mcq-28": "「表演者」與本句語境不同。"
+        "performance-mcq-32": "本句的「underperformance」指「表現欠佳」。",
+        "performance-reviewed-b409743f39": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-32"
     },
@@ -2865,11 +2601,9 @@ export default {
       "masked": "Persistent ____ may require additional support.",
       "options": [
         "performance-mcq-32",
-        "performance-mcq-31",
-        "performance-mcq-33",
         "performance-mcq-30",
-        "performance-mcq-29",
-        "performance-mcq-28"
+        "performance-mcq-18",
+        "performance-mcq-22"
       ],
       "explanation": "本句的「underperformance」指「表現欠佳」。",
       "sentenceIndex": 69,
@@ -2878,12 +2612,10 @@ export default {
         "underperformance"
       ],
       "optionReasons": {
-        "performance-mcq-32": "本句指「表現欠佳」。",
-        "performance-mcq-31": "「表現低於預期」與本句語境不同。",
-        "performance-mcq-33": "「表現勝過」與本句語境不同。",
-        "performance-mcq-30": "「高績效團隊」與本句語境不同。",
-        "performance-mcq-29": "「高績效者」與本句語境不同。",
-        "performance-mcq-28": "「表演者」與本句語境不同。"
+        "performance-mcq-32": "本句的「underperformance」指「表現欠佳」。",
+        "performance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-32"
     },
@@ -2895,11 +2627,9 @@ export default {
       "masked": "The smaller team ____ its competitors.",
       "options": [
         "performance-mcq-33",
-        "performance-mcq-32",
-        "performance-mcq-31",
-        "performance-mcq-30",
-        "performance-mcq-29",
-        "performance-mcq-28"
+        "performance-pdf-002",
+        "performance-mcq-21",
+        "performance-mcq-20"
       ],
       "explanation": "本句的「outperformed」指「表現勝過」。",
       "sentenceIndex": 70,
@@ -2908,12 +2638,10 @@ export default {
         "outperformed"
       ],
       "optionReasons": {
-        "performance-mcq-33": "本句指「表現勝過」。",
-        "performance-mcq-32": "「表現欠佳」與本句語境不同。",
-        "performance-mcq-31": "「表現低於預期」與本句語境不同。",
-        "performance-mcq-30": "「高績效團隊」與本句語境不同。",
-        "performance-mcq-29": "「高績效者」與本句語境不同。",
-        "performance-mcq-28": "「表演者」與本句語境不同。"
+        "performance-mcq-33": "本句的「outperformed」指「表現勝過」。",
+        "performance-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-33"
     },
@@ -2925,11 +2653,9 @@ export default {
       "masked": "The new system ____ the old one.",
       "options": [
         "performance-mcq-33",
-        "performance-mcq-32",
-        "performance-mcq-31",
-        "performance-mcq-30",
-        "performance-mcq-29",
-        "performance-mcq-28"
+        "performance-mcq-22",
+        "performance-pdf-002",
+        "performance-mcq-08"
       ],
       "explanation": "本句的「outperformed」指「表現勝過」。",
       "sentenceIndex": 71,
@@ -2938,12 +2664,10 @@ export default {
         "outperformed"
       ],
       "optionReasons": {
-        "performance-mcq-33": "本句指「表現勝過」。",
-        "performance-mcq-32": "「表現欠佳」與本句語境不同。",
-        "performance-mcq-31": "「表現低於預期」與本句語境不同。",
-        "performance-mcq-30": "「高績效團隊」與本句語境不同。",
-        "performance-mcq-29": "「高績效者」與本句語境不同。",
-        "performance-mcq-28": "「表演者」與本句語境不同。"
+        "performance-mcq-33": "本句的「outperformed」指「表現勝過」。",
+        "performance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "performance-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "performance-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "performance-mcq-33"
     }
@@ -2955,5 +2679,7 @@ export default {
     "sha256": "d4901247f46b99e248d55127256d912fb9fa81e7bc7dd9745a206ede2f202b33",
     "pages": 26
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

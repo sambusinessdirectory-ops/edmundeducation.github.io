@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "character-mcq-01",
-      "title": "表示品格；性格；人格特質；例句：「艱難的經歷可以幫助塑造品格。」",
+      "title": "品格；性格；人格特質",
       "form": "Passage anchor > “Her influence has been long-lasting because it shaped the way I see learning, confidence, and even character.",
       "en": "Passage anchor > “Her influence has been long-lasting because it shaped the way I see learning, confidence, and even character.",
       "zh": "表示品格；性格；人格特質；例句：「艱難的經歷可以幫助塑造品格。」",
@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "character-mcq-02",
-      "title": "表示性格；個性；例句：「她有沉穩而大方的性格。」",
+      "title": "性格；個性",
       "form": "character — a person’s personality and typical qualities = the combination of qualities that makes someone behave and think in a particular way 性格；個性",
       "en": "character — a person’s personality and typical qualities = the combination of qualities that makes someone behave and think in a particular way 性格；個性",
       "zh": "表示性格；個性；例句：「她有沉穩而大方的性格。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "character-mcq-03",
-      "title": "表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」",
+      "title": "品格；人格；操守",
       "form": "character — moral qualities = the moral qualities shown by someone’s actions and choices 品格；人格；操守",
       "en": "character — moral qualities = the moral qualities shown by someone’s actions and choices 品格；人格；操守",
       "zh": "表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "character-mcq-05",
-      "title": "表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」",
+      "title": "磨練品格；塑造人格",
       "form": "build character = develop stronger personal or moral qualities through experience 磨練品格；塑造人格",
       "en": "build character = develop stronger personal or moral qualities through experience 磨練品格；塑造人格",
       "zh": "表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "character-mcq-06",
-      "title": "表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」",
+      "title": "有品格的人；有原則的人",
       "form": "a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人",
       "en": "a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人",
       "zh": "表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "character-mcq-07",
-      "title": "表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」",
+      "title": "個性；特色鮮明的性格",
       "form": "character — distinctive personality = distinctive or recognizable personality 個性；特色鮮明的性格",
       "en": "character — distinctive personality = distinctive or recognizable personality 個性；特色鮮明的性格",
       "zh": "表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "character-mcq-08",
-      "title": "表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」",
+      "title": "強烈的個性；堅毅的性格",
       "form": "strong character = strong, independent personality; sometimes also moral firmness 強烈的個性；堅毅的性格",
       "en": "strong character = strong, independent personality; sometimes also moral firmness 強烈的個性；堅毅的性格",
       "zh": "表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "character-mcq-09",
-      "title": "表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」",
+      "title": "角色；人物",
       "form": "character — a person in a story, film, play, etc. = a fictional person represented in literature, drama, film, games, etc. 角色；人物",
       "en": "character — a person in a story, film, play, etc. = a fictional person represented in literature, drama, film, games, etc. 角色；人物",
       "zh": "表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "character-mcq-10",
-      "title": "表示主角；主要人物；例句：「主角是一位年輕老師。」",
+      "title": "主角；主要人物",
       "form": "main character = the central person in a story 主角；主要人物",
       "en": "main character = the central person in a story 主角；主要人物",
       "zh": "表示主角；主要人物；例句：「主角是一位年輕老師。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "character-mcq-11",
-      "title": "表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」",
+      "title": "配角；次要角色",
       "form": "supporting character = a character who is important but not the main protagonist 配角；次要角色",
       "en": "supporting character = a character who is important but not the main protagonist 配角；次要角色",
       "zh": "表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "character-mcq-12",
-      "title": "表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」",
+      "title": "角色發展；人物塑造",
       "form": "character development = the way a fictional character changes or becomes more fully developed 角色發展；人物塑造",
       "en": "character development = the way a fictional character changes or becomes more fully developed 角色發展；人物塑造",
       "zh": "表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "character-mcq-14",
-      "title": "表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」",
+      "title": "特色；特質；風格",
       "form": "character — distinctive nature or atmosphere = the special qualities that make a place, object, style, or situation recognizable and distinctive 特色；特質；風格",
       "en": "character — distinctive nature or atmosphere = the special qualities that make a place, object, style, or situation recognizable and distinctive 特色；特質；風格",
       "zh": "表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "character-mcq-15",
-      "title": "表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」",
+      "title": "地方特色；在地特色",
       "form": "local character = distinctive qualities associated with a particular place 地方特色；在地特色",
       "en": "local character = distinctive qualities associated with a particular place 地方特色；在地特色",
       "zh": "表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "character-mcq-16",
-      "title": "表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」",
+      "title": "賦予……特色；增添個性",
       "form": "give something character = make something more distinctive, interesting, or individual 賦予……特色；增添個性",
       "en": "give something character = make something more distinctive, interesting, or individual 賦予……特色；增添個性",
       "zh": "表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "character-mcq-17",
-      "title": "表示性質；特性；例句：「這個社區的性質／特色改變了。」",
+      "title": "性質；特性",
       "form": "character — nature or essential quality = the basic nature or defining qualities of something 性質；特性",
       "en": "character — nature or essential quality = the basic nature or defining qualities of something 性質；特性",
       "zh": "表示性質；特性；例句：「這個社區的性質／特色改變了。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "character-mcq-18",
-      "title": "表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」",
+      "title": "符合性格；符合角色設定",
       "form": "in character = consistent with someone’s usual personality or a fictional role 符合性格；符合角色設定",
       "en": "in character = consistent with someone’s usual personality or a fictional role 符合性格；符合角色設定",
       "zh": "表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "character-mcq-19",
-      "title": "表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」",
+      "title": "不像平常的性格；一反常態",
       "form": "out of character = unlike someone’s usual behavior 不像平常的性格；一反常態",
       "en": "out of character = unlike someone’s usual behavior 不像平常的性格；一反常態",
       "zh": "表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "character-mcq-20",
-      "title": "表示字元；字符；例句：「密碼必須至少包含八個字元。」",
+      "title": "字元；字符",
       "form": "character — a letter, number, punctuation mark, or other written symbol = one written or printed symbol used in writing or computing 字元；字符",
       "en": "character — a letter, number, punctuation mark, or other written symbol = one written or printed symbol used in writing or computing 字元；字符",
       "zh": "表示字元；字符；例句：「密碼必須至少包含八個字元。」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "character-mcq-21",
-      "title": "表示漢字；中文字；例句：「她會寫數百個漢字。」",
+      "title": "漢字；中文字",
       "form": "Chinese character = a written symbol used in Chinese writing 漢字；中文字",
       "en": "Chinese character = a written symbol used in Chinese writing 漢字；中文字",
       "zh": "表示漢字；中文字；例句：「她會寫數百個漢字。」",
@@ -469,7 +469,7 @@ export default {
     },
     {
       "id": "character-mcq-22",
-      "title": "表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」",
+      "title": "特殊字元",
       "form": "special character = a non-letter or non-number symbol in computing, such as !, @, #, etc. 特殊字元",
       "en": "special character = a non-letter or non-number symbol in computing, such as !, @, #, etc. 特殊字元",
       "zh": "表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」",
@@ -491,7 +491,7 @@ export default {
     },
     {
       "id": "character-mcq-23",
-      "title": "表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」",
+      "title": "品行；名聲；人格評價",
       "form": "character — reputation for honesty or behavior = a person’s moral reputation or known qualities 品行；名聲；人格評價",
       "en": "character — reputation for honesty or behavior = a person’s moral reputation or known qualities 品行；名聲；人格評價",
       "zh": "表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」",
@@ -513,7 +513,7 @@ export default {
     },
     {
       "id": "character-mcq-24",
-      "title": "表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」",
+      "title": "品格推薦；人格推薦信",
       "form": "character reference = a statement or letter describing someone’s personal qualities and reliability 品格推薦；人格推薦信",
       "en": "character reference = a statement or letter describing someone’s personal qualities and reliability 品格推薦；人格推薦信",
       "zh": "表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」",
@@ -535,7 +535,7 @@ export default {
     },
     {
       "id": "character-mcq-25",
-      "title": "表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」",
+      "title": "品格證據；人格相關證據",
       "form": "evidence of character = evidence concerning a person’s reputation or personal qualities 品格證據；人格相關證據",
       "en": "evidence of character = evidence concerning a person’s reputation or personal qualities 品格證據；人格相關證據",
       "zh": "表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」",
@@ -557,7 +557,7 @@ export default {
     },
     {
       "id": "character-mcq-26",
-      "title": "表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」",
+      "title": "字元編碼",
       "form": "character encoding = a system that maps written characters to numerical codes 字元編碼",
       "en": "character encoding = a system that maps written characters to numerical codes 字元編碼",
       "zh": "表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」",
@@ -579,7 +579,7 @@ export default {
     },
     {
       "id": "character-mcq-27",
-      "title": "表示字數／字元限制；例句：「這個表單有 200 字元的限制。」",
+      "title": "字數／字元限制",
       "form": "character limit = maximum number of characters allowed in a text field 字數／字元限制",
       "en": "character limit = maximum number of characters allowed in a text field 字數／字元限制",
       "zh": "表示字數／字元限制；例句：「這個表單有 200 字元的限制。」",
@@ -601,7 +601,7 @@ export default {
     },
     {
       "id": "character-mcq-28",
-      "title": "表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」",
+      "title": "保持角色狀態；不出戲",
       "form": "stay in character = continue behaving as the role you are portraying 保持角色狀態；不出戲",
       "en": "stay in character = continue behaving as the role you are portraying 保持角色狀態；不出戲",
       "zh": "表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」",
@@ -623,7 +623,7 @@ export default {
     },
     {
       "id": "character-mcq-29",
-      "title": "表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」",
+      "title": "出戲；脫離角色",
       "form": "break character = stop behaving as the fictional role, often by laughing or reacting as yourself 出戲；脫離角色",
       "en": "break character = stop behaving as the fictional role, often by laughing or reacting as yourself 出戲；脫離角色",
       "zh": "表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」",
@@ -645,7 +645,7 @@ export default {
     },
     {
       "id": "character-mcq-30",
-      "title": "表示特徵；特色；例句：「耐心是她最明顯的特質之一。」",
+      "title": "特徵；特色",
       "form": "characteristic — noun = a typical or distinctive quality or feature 特徵；特色",
       "en": "characteristic — noun = a typical or distinctive quality or feature 特徵；特色",
       "zh": "表示特徵；特色；例句：「耐心是她最明顯的特質之一。」",
@@ -667,7 +667,7 @@ export default {
     },
     {
       "id": "character-mcq-31",
-      "title": "表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」",
+      "title": "典型的；特有的",
       "form": "characteristic — adjective = typical of a person, thing, group, or style 典型的；特有的",
       "en": "characteristic — adjective = typical of a person, thing, group, or style 典型的；特有的",
       "zh": "表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」",
@@ -689,7 +689,7 @@ export default {
     },
     {
       "id": "character-mcq-32",
-      "title": "表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」",
+      "title": "描述……的特徵；以……為特徵",
       "form": "characterize = describe or distinguish someone or something by particular qualities 描述……的特徵；以……為特徵",
       "en": "characterize = describe or distinguish someone or something by particular qualities 描述……的特徵；以……為特徵",
       "zh": "表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」",
@@ -711,7 +711,7 @@ export default {
     },
     {
       "id": "character-mcq-33",
-      "title": "表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」",
+      "title": "特徵描述",
       "form": "characterization",
       "en": "characterization",
       "zh": "表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」",
@@ -733,7 +733,7 @@ export default {
     },
     {
       "id": "character-mcq-34",
-      "title": "表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」",
+      "title": "沒有特色的；缺乏個性的",
       "form": "characterless = lacking distinctive qualities or personality 沒有特色的；缺乏個性的",
       "en": "characterless = lacking distinctive qualities or personality 沒有特色的；缺乏個性的",
       "zh": "表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」",
@@ -755,7 +755,7 @@ export default {
     },
     {
       "id": "character-mcq-35",
-      "title": "表示磨練品格；例句：「從失敗中學習可以磨練品格。」",
+      "title": "磨練品格",
       "form": "build character = develop resilience, discipline, or moral strength 磨練品格",
       "en": "build character = develop resilience, discipline, or moral strength 磨練品格",
       "zh": "表示磨練品格；例句：「從失敗中學習可以磨練品格。」",
@@ -777,7 +777,7 @@ export default {
     },
     {
       "id": "character-mcq-36",
-      "title": "表示品格的考驗；例句：「那場危機是一次真正的品格考驗。」",
+      "title": "品格的考驗",
       "form": "a test of character = a difficult situation that reveals or tests someone’s personal or moral strength 品格的考驗",
       "en": "a test of character = a difficult situation that reveals or tests someone’s personal or moral strength 品格的考驗",
       "zh": "表示品格的考驗；例句：「那場危機是一次真正的品格考驗。」",
@@ -799,7 +799,7 @@ export default {
     },
     {
       "id": "character-mcq-37",
-      "title": "表示展現品格；展現韌性；例句：「球隊落後後展現了很強的韌性與意志。」",
+      "title": "展現品格；展現韌性",
       "form": "show character = demonstrate courage, determination, or moral strength 展現品格；展現韌性",
       "en": "show character = demonstrate courage, determination, or moral strength 展現品格；展現韌性",
       "zh": "表示展現品格；展現韌性；例句：「球隊落後後展現了很強的韌性與意志。」",
@@ -821,7 +821,7 @@ export default {
     },
     {
       "id": "character-mcq-38",
-      "title": "表示缺乏特色；沒有個性；例句：「新建築很實用，但缺乏特色。」",
+      "title": "缺乏特色；沒有個性",
       "form": "lack character = lack distinctive personality or identity 缺乏特色；沒有個性",
       "en": "lack character = lack distinctive personality or identity 缺乏特色；沒有個性",
       "zh": "表示缺乏特色；沒有個性；例句：「新建築很實用，但缺乏特色。」",
@@ -851,11 +851,9 @@ export default {
       "masked": "Difficult experiences can help build ____.",
       "options": [
         "character-mcq-01",
-        "character-mcq-02",
-        "character-mcq-03",
-        "character-mcq-04",
-        "character-mcq-05",
-        "character-mcq-06"
+        "character-mcq-10",
+        "character-mcq-20",
+        "character-mcq-33"
       ],
       "explanation": "本句的「character」指「表示品格；性格；人格特質；例句：「艱難的經歷可以幫助塑造品格。」」。",
       "sentenceIndex": 0,
@@ -864,12 +862,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-01": "本句指「表示品格；性格；人格特質；例句：「艱難的經歷可以幫助塑造品格。」」。",
-        "character-mcq-02": "「表示性格；個性；例句：「她有沉穩而大方的性格。」」是「character — a person’s personality and typical qualities = the combination of qualities that makes someone behave and think in a particular way 性格；個性」的用法，與本句語境不同。",
-        "character-mcq-03": "「表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」」是「character — moral qualities = the moral qualities shown by someone’s actions and choices 品格；人格；操守」的用法，與本句語境不同。",
-        "character-mcq-04": "「堅強的品格；意志力；人格力量」是「strength of character = firmness, courage, self-control, and moral strength 堅強的品格；意志力；人格力量」的用法，與本句語境不同。",
-        "character-mcq-05": "「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」是「build character = develop stronger personal or moral qualities through experience 磨練品格；塑造人格」的用法，與本句語境不同。",
-        "character-mcq-06": "「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」是「a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人」的用法，與本句語境不同。"
+        "character-mcq-01": "本句的「character」指「表示品格；性格；人格特質；例句：「艱難的經歷可以幫助塑造品格。」」。",
+        "character-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-01"
     },
@@ -881,11 +877,9 @@ export default {
       "masked": "A good teacher can influence not only skills, but also a student’s ____.",
       "options": [
         "character-mcq-01",
-        "character-mcq-02",
-        "character-mcq-03",
-        "character-mcq-04",
-        "character-mcq-05",
-        "character-mcq-06"
+        "character-mcq-09",
+        "character-mcq-20",
+        "character-mcq-32"
       ],
       "explanation": "本句的「character」指「表示品格；性格；人格特質；例句：「艱難的經歷可以幫助塑造品格。」」。",
       "sentenceIndex": 1,
@@ -894,12 +888,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-01": "本句指「表示品格；性格；人格特質；例句：「艱難的經歷可以幫助塑造品格。」」。",
-        "character-mcq-02": "「表示性格；個性；例句：「她有沉穩而大方的性格。」」是「character — a person’s personality and typical qualities = the combination of qualities that makes someone behave and think in a particular way 性格；個性」的用法，與本句語境不同。",
-        "character-mcq-03": "「表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」」是「character — moral qualities = the moral qualities shown by someone’s actions and choices 品格；人格；操守」的用法，與本句語境不同。",
-        "character-mcq-04": "「堅強的品格；意志力；人格力量」是「strength of character = firmness, courage, self-control, and moral strength 堅強的品格；意志力；人格力量」的用法，與本句語境不同。",
-        "character-mcq-05": "「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」是「build character = develop stronger personal or moral qualities through experience 磨練品格；塑造人格」的用法，與本句語境不同。",
-        "character-mcq-06": "「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」是「a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人」的用法，與本句語境不同。"
+        "character-mcq-01": "本句的「character」指「表示品格；性格；人格特質；例句：「艱難的經歷可以幫助塑造品格。」」。",
+        "character-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-01"
     },
@@ -911,11 +903,9 @@ export default {
       "masked": "She has a calm and generous ____.",
       "options": [
         "character-mcq-02",
-        "character-mcq-01",
-        "character-mcq-03",
-        "character-mcq-04",
-        "character-mcq-05",
-        "character-mcq-06"
+        "character-mcq-22",
+        "character-mcq-29",
+        "character-mcq-33"
       ],
       "explanation": "本句的「character」指「表示性格；個性；例句：「她有沉穩而大方的性格。」」。",
       "sentenceIndex": 2,
@@ -924,12 +914,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-02": "本句指「表示性格；個性；例句：「她有沉穩而大方的性格。」」。",
-        "character-mcq-01": "「表示品格；性格；人格特質；例句：「艱難的經歷可以幫助塑造品格。」」是「Passage anchor > “Her influence has been long-lasting because it shaped the way I see learning, confidence, and even character.」的用法，與本句語境不同。",
-        "character-mcq-03": "「表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」」是「character — moral qualities = the moral qualities shown by someone’s actions and choices 品格；人格；操守」的用法，與本句語境不同。",
-        "character-mcq-04": "「堅強的品格；意志力；人格力量」是「strength of character = firmness, courage, self-control, and moral strength 堅強的品格；意志力；人格力量」的用法，與本句語境不同。",
-        "character-mcq-05": "「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」是「build character = develop stronger personal or moral qualities through experience 磨練品格；塑造人格」的用法，與本句語境不同。",
-        "character-mcq-06": "「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」是「a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人」的用法，與本句語境不同。"
+        "character-mcq-02": "本句的「character」指「表示性格；個性；例句：「她有沉穩而大方的性格。」」。",
+        "character-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-02"
     },
@@ -941,11 +929,9 @@ export default {
       "masked": "His ____ changed as he grew older.",
       "options": [
         "character-mcq-02",
-        "character-mcq-01",
-        "character-mcq-03",
-        "character-mcq-04",
-        "character-mcq-05",
-        "character-mcq-06"
+        "character-mcq-22",
+        "character-mcq-29",
+        "character-mcq-33"
       ],
       "explanation": "本句的「character」指「表示性格；個性；例句：「她有沉穩而大方的性格。」」。",
       "sentenceIndex": 3,
@@ -954,12 +940,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-02": "本句指「表示性格；個性；例句：「她有沉穩而大方的性格。」」。",
-        "character-mcq-01": "「表示品格；性格；人格特質；例句：「艱難的經歷可以幫助塑造品格。」」是「Passage anchor > “Her influence has been long-lasting because it shaped the way I see learning, confidence, and even character.」的用法，與本句語境不同。",
-        "character-mcq-03": "「表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」」是「character — moral qualities = the moral qualities shown by someone’s actions and choices 品格；人格；操守」的用法，與本句語境不同。",
-        "character-mcq-04": "「堅強的品格；意志力；人格力量」是「strength of character = firmness, courage, self-control, and moral strength 堅強的品格；意志力；人格力量」的用法，與本句語境不同。",
-        "character-mcq-05": "「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」是「build character = develop stronger personal or moral qualities through experience 磨練品格；塑造人格」的用法，與本句語境不同。",
-        "character-mcq-06": "「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」是「a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人」的用法，與本句語境不同。"
+        "character-mcq-02": "本句的「character」指「表示性格；個性；例句：「她有沉穩而大方的性格。」」。",
+        "character-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-02"
     },
@@ -971,11 +955,9 @@ export default {
       "masked": "Honesty is an important part of good ____.",
       "options": [
         "character-mcq-03",
-        "character-mcq-02",
-        "character-mcq-04",
-        "character-mcq-01",
-        "character-mcq-05",
-        "character-mcq-06"
+        "character-mcq-27",
+        "character-mcq-32",
+        "character-mcq-28"
       ],
       "explanation": "本句的「character」指「表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」」。",
       "sentenceIndex": 4,
@@ -984,12 +966,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-03": "本句指「表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」」。",
-        "character-mcq-02": "「表示性格；個性；例句：「她有沉穩而大方的性格。」」是「character — a person’s personality and typical qualities = the combination of qualities that makes someone behave and think in a particular way 性格；個性」的用法，與本句語境不同。",
-        "character-mcq-04": "「堅強的品格；意志力；人格力量」是「strength of character = firmness, courage, self-control, and moral strength 堅強的品格；意志力；人格力量」的用法，與本句語境不同。",
-        "character-mcq-01": "「表示品格；性格；人格特質；例句：「艱難的經歷可以幫助塑造品格。」」是「Passage anchor > “Her influence has been long-lasting because it shaped the way I see learning, confidence, and even character.」的用法，與本句語境不同。",
-        "character-mcq-05": "「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」是「build character = develop stronger personal or moral qualities through experience 磨練品格；塑造人格」的用法，與本句語境不同。",
-        "character-mcq-06": "「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」是「a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人」的用法，與本句語境不同。"
+        "character-mcq-03": "本句的「character」指「表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」」。",
+        "character-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-03"
     },
@@ -1001,11 +981,9 @@ export default {
       "masked": "The situation tested his ____.",
       "options": [
         "character-mcq-03",
-        "character-mcq-02",
-        "character-mcq-04",
-        "character-mcq-01",
-        "character-mcq-05",
-        "character-mcq-06"
+        "character-mcq-12",
+        "character-mcq-21",
+        "character-mcq-38"
       ],
       "explanation": "本句的「character」指「表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」」。",
       "sentenceIndex": 5,
@@ -1014,12 +992,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-03": "本句指「表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」」。",
-        "character-mcq-02": "「表示性格；個性；例句：「她有沉穩而大方的性格。」」是「character — a person’s personality and typical qualities = the combination of qualities that makes someone behave and think in a particular way 性格；個性」的用法，與本句語境不同。",
-        "character-mcq-04": "「堅強的品格；意志力；人格力量」是「strength of character = firmness, courage, self-control, and moral strength 堅強的品格；意志力；人格力量」的用法，與本句語境不同。",
-        "character-mcq-01": "「表示品格；性格；人格特質；例句：「艱難的經歷可以幫助塑造品格。」」是「Passage anchor > “Her influence has been long-lasting because it shaped the way I see learning, confidence, and even character.」的用法，與本句語境不同。",
-        "character-mcq-05": "「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」是「build character = develop stronger personal or moral qualities through experience 磨練品格；塑造人格」的用法，與本句語境不同。",
-        "character-mcq-06": "「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」是「a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人」的用法，與本句語境不同。"
+        "character-mcq-03": "本句的「character」指「表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」」。",
+        "character-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-03"
     },
@@ -1031,11 +1007,9 @@ export default {
       "masked": "She showed great ____ during the crisis.",
       "options": [
         "character-mcq-04",
-        "character-mcq-03",
-        "character-mcq-05",
-        "character-mcq-02",
-        "character-mcq-06",
-        "character-mcq-01"
+        "character-mcq-12",
+        "character-mcq-17",
+        "character-mcq-20"
       ],
       "explanation": "本句的「strength of character」指「堅強的品格；意志力；人格力量」。",
       "sentenceIndex": 6,
@@ -1044,12 +1018,10 @@ export default {
         "strength of character"
       ],
       "optionReasons": {
-        "character-mcq-04": "本句指「堅強的品格；意志力；人格力量」。",
-        "character-mcq-03": "「表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」」是「character — moral qualities = the moral qualities shown by someone’s actions and choices 品格；人格；操守」的用法，與本句語境不同。",
-        "character-mcq-05": "「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」是「build character = develop stronger personal or moral qualities through experience 磨練品格；塑造人格」的用法，與本句語境不同。",
-        "character-mcq-02": "「表示性格；個性；例句：「她有沉穩而大方的性格。」」是「character — a person’s personality and typical qualities = the combination of qualities that makes someone behave and think in a particular way 性格；個性」的用法，與本句語境不同。",
-        "character-mcq-06": "「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」是「a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人」的用法，與本句語境不同。",
-        "character-mcq-01": "「表示品格；性格；人格特質；例句：「艱難的經歷可以幫助塑造品格。」」是「Passage anchor > “Her influence has been long-lasting because it shaped the way I see learning, confidence, and even character.」的用法，與本句語境不同。"
+        "character-mcq-04": "本句的「strength of character」指「堅強的品格；意志力；人格力量」。",
+        "character-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-04"
     },
@@ -1061,11 +1033,9 @@ export default {
       "masked": "It takes ____ to admit a mistake.",
       "options": [
         "character-mcq-04",
-        "character-mcq-03",
-        "character-mcq-05",
-        "character-mcq-02",
-        "character-mcq-06",
-        "character-mcq-01"
+        "character-mcq-20",
+        "character-mcq-31",
+        "character-mcq-11"
       ],
       "explanation": "本句的「strength of character」指「堅強的品格；意志力；人格力量」。",
       "sentenceIndex": 7,
@@ -1074,12 +1044,10 @@ export default {
         "strength of character"
       ],
       "optionReasons": {
-        "character-mcq-04": "本句指「堅強的品格；意志力；人格力量」。",
-        "character-mcq-03": "「表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」」是「character — moral qualities = the moral qualities shown by someone’s actions and choices 品格；人格；操守」的用法，與本句語境不同。",
-        "character-mcq-05": "「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」是「build character = develop stronger personal or moral qualities through experience 磨練品格；塑造人格」的用法，與本句語境不同。",
-        "character-mcq-02": "「表示性格；個性；例句：「她有沉穩而大方的性格。」」是「character — a person’s personality and typical qualities = the combination of qualities that makes someone behave and think in a particular way 性格；個性」的用法，與本句語境不同。",
-        "character-mcq-06": "「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」是「a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人」的用法，與本句語境不同。",
-        "character-mcq-01": "「表示品格；性格；人格特質；例句：「艱難的經歷可以幫助塑造品格。」」是「Passage anchor > “Her influence has been long-lasting because it shaped the way I see learning, confidence, and even character.」的用法，與本句語境不同。"
+        "character-mcq-04": "本句的「strength of character」指「堅強的品格；意志力；人格力量」。",
+        "character-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-04"
     },
@@ -1091,11 +1059,9 @@ export default {
       "masked": "Team sports can help ____.",
       "options": [
         "character-mcq-05",
-        "character-mcq-04",
-        "character-mcq-06",
-        "character-mcq-03",
-        "character-mcq-07",
-        "character-mcq-02"
+        "character-mcq-29",
+        "character-mcq-32",
+        "character-mcq-22"
       ],
       "explanation": "本句的「build character」指「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」。",
       "sentenceIndex": 8,
@@ -1104,12 +1070,10 @@ export default {
         "build character"
       ],
       "optionReasons": {
-        "character-mcq-05": "本句指「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」。",
-        "character-mcq-04": "「堅強的品格；意志力；人格力量」是「strength of character = firmness, courage, self-control, and moral strength 堅強的品格；意志力；人格力量」的用法，與本句語境不同。",
-        "character-mcq-06": "「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」是「a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人」的用法，與本句語境不同。",
-        "character-mcq-03": "「表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」」是「character — moral qualities = the moral qualities shown by someone’s actions and choices 品格；人格；操守」的用法，與本句語境不同。",
-        "character-mcq-07": "「表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」」是「character — distinctive personality = distinctive or recognizable personality 個性；特色鮮明的性格」的用法，與本句語境不同。",
-        "character-mcq-02": "「表示性格；個性；例句：「她有沉穩而大方的性格。」」是「character — a person’s personality and typical qualities = the combination of qualities that makes someone behave and think in a particular way 性格；個性」的用法，與本句語境不同。"
+        "character-mcq-05": "本句的「build character」指「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」。",
+        "character-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-05"
     },
@@ -1121,11 +1085,9 @@ export default {
       "masked": "Dealing with setbacks often ____.",
       "options": [
         "character-mcq-05",
-        "character-mcq-04",
-        "character-mcq-06",
-        "character-mcq-03",
-        "character-mcq-07",
-        "character-mcq-02"
+        "character-mcq-28",
+        "character-mcq-31",
+        "character-mcq-20"
       ],
       "explanation": "本句的「builds character」指「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」。",
       "sentenceIndex": 9,
@@ -1134,12 +1096,10 @@ export default {
         "builds character"
       ],
       "optionReasons": {
-        "character-mcq-05": "本句指「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」。",
-        "character-mcq-04": "「堅強的品格；意志力；人格力量」是「strength of character = firmness, courage, self-control, and moral strength 堅強的品格；意志力；人格力量」的用法，與本句語境不同。",
-        "character-mcq-06": "「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」是「a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人」的用法，與本句語境不同。",
-        "character-mcq-03": "「表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」」是「character — moral qualities = the moral qualities shown by someone’s actions and choices 品格；人格；操守」的用法，與本句語境不同。",
-        "character-mcq-07": "「表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」」是「character — distinctive personality = distinctive or recognizable personality 個性；特色鮮明的性格」的用法，與本句語境不同。",
-        "character-mcq-02": "「表示性格；個性；例句：「她有沉穩而大方的性格。」」是「character — a person’s personality and typical qualities = the combination of qualities that makes someone behave and think in a particular way 性格；個性」的用法，與本句語境不同。"
+        "character-mcq-05": "本句的「builds character」指「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」。",
+        "character-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-05"
     },
@@ -1151,11 +1111,9 @@ export default {
       "masked": "She is a person of great ____.",
       "options": [
         "character-mcq-06",
-        "character-mcq-05",
-        "character-mcq-07",
-        "character-mcq-04",
-        "character-mcq-08",
-        "character-mcq-03"
+        "character-mcq-17",
+        "character-mcq-09",
+        "character-mcq-27"
       ],
       "explanation": "本句的「character」指「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」。",
       "sentenceIndex": 10,
@@ -1164,12 +1122,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-06": "本句指「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」。",
-        "character-mcq-05": "「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」是「build character = develop stronger personal or moral qualities through experience 磨練品格；塑造人格」的用法，與本句語境不同。",
-        "character-mcq-07": "「表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」」是「character — distinctive personality = distinctive or recognizable personality 個性；特色鮮明的性格」的用法，與本句語境不同。",
-        "character-mcq-04": "「堅強的品格；意志力；人格力量」是「strength of character = firmness, courage, self-control, and moral strength 堅強的品格；意志力；人格力量」的用法，與本句語境不同。",
-        "character-mcq-08": "「表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」」是「strong character = strong, independent personality; sometimes also moral firmness 強烈的個性；堅毅的性格」的用法，與本句語境不同。",
-        "character-mcq-03": "「表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」」是「character — moral qualities = the moral qualities shown by someone’s actions and choices 品格；人格；操守」的用法，與本句語境不同。"
+        "character-mcq-06": "本句的「character」指「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」。",
+        "character-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-06"
     },
@@ -1181,11 +1137,9 @@ export default {
       "masked": "He was respected as a man of ____.",
       "options": [
         "character-mcq-06",
-        "character-mcq-05",
-        "character-mcq-07",
-        "character-mcq-04",
-        "character-mcq-08",
-        "character-mcq-03"
+        "character-mcq-32",
+        "character-mcq-22",
+        "character-mcq-11"
       ],
       "explanation": "本句的「character」指「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」。",
       "sentenceIndex": 11,
@@ -1194,12 +1148,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-06": "本句指「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」。",
-        "character-mcq-05": "「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」是「build character = develop stronger personal or moral qualities through experience 磨練品格；塑造人格」的用法，與本句語境不同。",
-        "character-mcq-07": "「表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」」是「character — distinctive personality = distinctive or recognizable personality 個性；特色鮮明的性格」的用法，與本句語境不同。",
-        "character-mcq-04": "「堅強的品格；意志力；人格力量」是「strength of character = firmness, courage, self-control, and moral strength 堅強的品格；意志力；人格力量」的用法，與本句語境不同。",
-        "character-mcq-08": "「表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」」是「strong character = strong, independent personality; sometimes also moral firmness 強烈的個性；堅毅的性格」的用法，與本句語境不同。",
-        "character-mcq-03": "「表示品格；人格；操守；例句：「誠實是良好品格的重要部分。」」是「character — moral qualities = the moral qualities shown by someone’s actions and choices 品格；人格；操守」的用法，與本句語境不同。"
+        "character-mcq-06": "本句的「character」指「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」。",
+        "character-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-06"
     },
@@ -1211,11 +1163,9 @@ export default {
       "masked": "She has a strong ____.",
       "options": [
         "character-mcq-07",
-        "character-mcq-06",
-        "character-mcq-08",
-        "character-mcq-05",
-        "character-mcq-09",
-        "character-mcq-04"
+        "character-mcq-10",
+        "character-mcq-27",
+        "character-mcq-06"
       ],
       "explanation": "本句的「character」指「表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」」。",
       "sentenceIndex": 12,
@@ -1224,12 +1174,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-07": "本句指「表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」」。",
-        "character-mcq-06": "「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」是「a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人」的用法，與本句語境不同。",
-        "character-mcq-08": "「表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」」是「strong character = strong, independent personality; sometimes also moral firmness 強烈的個性；堅毅的性格」的用法，與本句語境不同。",
-        "character-mcq-05": "「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」是「build character = develop stronger personal or moral qualities through experience 磨練品格；塑造人格」的用法，與本句語境不同。",
-        "character-mcq-09": "「表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」」是「character — a person in a story, film, play, etc. = a fictional person represented in literature, drama, film, games, etc. 角色；人物」的用法，與本句語境不同。",
-        "character-mcq-04": "「堅強的品格；意志力；人格力量」是「strength of character = firmness, courage, self-control, and moral strength 堅強的品格；意志力；人格力量」的用法，與本句語境不同。"
+        "character-mcq-07": "本句的「character」指「表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」」。",
+        "character-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-07"
     },
@@ -1241,11 +1189,9 @@ export default {
       "masked": "His sense of humour is part of his ____.",
       "options": [
         "character-mcq-07",
-        "character-mcq-06",
-        "character-mcq-08",
-        "character-mcq-05",
-        "character-mcq-09",
-        "character-mcq-04"
+        "character-mcq-21",
+        "character-mcq-10",
+        "character-mcq-23"
       ],
       "explanation": "本句的「character」指「表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」」。",
       "sentenceIndex": 13,
@@ -1254,12 +1200,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-07": "本句指「表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」」。",
-        "character-mcq-06": "「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」是「a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人」的用法，與本句語境不同。",
-        "character-mcq-08": "「表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」」是「strong character = strong, independent personality; sometimes also moral firmness 強烈的個性；堅毅的性格」的用法，與本句語境不同。",
-        "character-mcq-05": "「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」是「build character = develop stronger personal or moral qualities through experience 磨練品格；塑造人格」的用法，與本句語境不同。",
-        "character-mcq-09": "「表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」」是「character — a person in a story, film, play, etc. = a fictional person represented in literature, drama, film, games, etc. 角色；人物」的用法，與本句語境不同。",
-        "character-mcq-04": "「堅強的品格；意志力；人格力量」是「strength of character = firmness, courage, self-control, and moral strength 堅強的品格；意志力；人格力量」的用法，與本句語境不同。"
+        "character-mcq-07": "本句的「character」指「表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」」。",
+        "character-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-07"
     },
@@ -1271,11 +1215,9 @@ export default {
       "masked": "She has a very ____.",
       "options": [
         "character-mcq-08",
-        "character-mcq-07",
-        "character-mcq-09",
-        "character-mcq-06",
         "character-mcq-10",
-        "character-mcq-05"
+        "character-mcq-27",
+        "character-mcq-32"
       ],
       "explanation": "本句的「strong character」指「表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」」。",
       "sentenceIndex": 14,
@@ -1284,12 +1226,10 @@ export default {
         "strong character"
       ],
       "optionReasons": {
-        "character-mcq-08": "本句指「表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」」。",
-        "character-mcq-07": "「表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」」是「character — distinctive personality = distinctive or recognizable personality 個性；特色鮮明的性格」的用法，與本句語境不同。",
-        "character-mcq-09": "「表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」」是「character — a person in a story, film, play, etc. = a fictional person represented in literature, drama, film, games, etc. 角色；人物」的用法，與本句語境不同。",
-        "character-mcq-06": "「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」是「a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人」的用法，與本句語境不同。",
-        "character-mcq-10": "「表示主角；主要人物；例句：「主角是一位年輕老師。」」是「main character = the central person in a story 主角；主要人物」的用法，與本句語境不同。",
-        "character-mcq-05": "「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」是「build character = develop stronger personal or moral qualities through experience 磨練品格；塑造人格」的用法，與本句語境不同。"
+        "character-mcq-08": "本句的「strong character」指「表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」」。",
+        "character-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-08"
     },
@@ -1301,11 +1241,9 @@ export default {
       "masked": "You need a ____ to handle that kind of pressure.",
       "options": [
         "character-mcq-08",
-        "character-mcq-07",
-        "character-mcq-09",
-        "character-mcq-06",
         "character-mcq-10",
-        "character-mcq-05"
+        "character-mcq-33",
+        "character-mcq-27"
       ],
       "explanation": "本句的「strong character」指「表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」」。",
       "sentenceIndex": 15,
@@ -1314,12 +1252,10 @@ export default {
         "strong character"
       ],
       "optionReasons": {
-        "character-mcq-08": "本句指「表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」」。",
-        "character-mcq-07": "「表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」」是「character — distinctive personality = distinctive or recognizable personality 個性；特色鮮明的性格」的用法，與本句語境不同。",
-        "character-mcq-09": "「表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」」是「character — a person in a story, film, play, etc. = a fictional person represented in literature, drama, film, games, etc. 角色；人物」的用法，與本句語境不同。",
-        "character-mcq-06": "「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」是「a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人」的用法，與本句語境不同。",
-        "character-mcq-10": "「表示主角；主要人物；例句：「主角是一位年輕老師。」」是「main character = the central person in a story 主角；主要人物」的用法，與本句語境不同。",
-        "character-mcq-05": "「表示磨練品格；塑造人格；例句：「團隊運動可以幫助磨練品格。」」是「build character = develop stronger personal or moral qualities through experience 磨練品格；塑造人格」的用法，與本句語境不同。"
+        "character-mcq-08": "本句的「strong character」指「表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」」。",
+        "character-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-08"
     },
@@ -1331,11 +1267,9 @@ export default {
       "masked": "My favourite ____ in the novel is the grandmother.",
       "options": [
         "character-mcq-09",
+        "character-mcq-06",
         "character-mcq-08",
-        "character-mcq-10",
-        "character-mcq-07",
-        "character-mcq-11",
-        "character-mcq-06"
+        "character-mcq-20"
       ],
       "explanation": "本句的「character」指「表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」」。",
       "sentenceIndex": 16,
@@ -1344,12 +1278,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-09": "本句指「表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」」。",
-        "character-mcq-08": "「表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」」是「strong character = strong, independent personality; sometimes also moral firmness 強烈的個性；堅毅的性格」的用法，與本句語境不同。",
-        "character-mcq-10": "「表示主角；主要人物；例句：「主角是一位年輕老師。」」是「main character = the central person in a story 主角；主要人物」的用法，與本句語境不同。",
-        "character-mcq-07": "「表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」」是「character — distinctive personality = distinctive or recognizable personality 個性；特色鮮明的性格」的用法，與本句語境不同。",
-        "character-mcq-11": "「表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」」是「supporting character = a character who is important but not the main protagonist 配角；次要角色」的用法，與本句語境不同。",
-        "character-mcq-06": "「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」是「a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人」的用法，與本句語境不同。"
+        "character-mcq-09": "本句的「character」指「表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」」。",
+        "character-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-09"
     },
@@ -1361,11 +1293,9 @@ export default {
       "masked": "The film has several memorable ____.",
       "options": [
         "character-mcq-09",
-        "character-mcq-08",
-        "character-mcq-10",
-        "character-mcq-07",
-        "character-mcq-11",
-        "character-mcq-06"
+        "character-mcq-01",
+        "character-mcq-22",
+        "character-mcq-33"
       ],
       "explanation": "本句的「characters」指「表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」」。",
       "sentenceIndex": 17,
@@ -1374,12 +1304,10 @@ export default {
         "characters"
       ],
       "optionReasons": {
-        "character-mcq-09": "本句指「表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」」。",
-        "character-mcq-08": "「表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」」是「strong character = strong, independent personality; sometimes also moral firmness 強烈的個性；堅毅的性格」的用法，與本句語境不同。",
-        "character-mcq-10": "「表示主角；主要人物；例句：「主角是一位年輕老師。」」是「main character = the central person in a story 主角；主要人物」的用法，與本句語境不同。",
-        "character-mcq-07": "「表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」」是「character — distinctive personality = distinctive or recognizable personality 個性；特色鮮明的性格」的用法，與本句語境不同。",
-        "character-mcq-11": "「表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」」是「supporting character = a character who is important but not the main protagonist 配角；次要角色」的用法，與本句語境不同。",
-        "character-mcq-06": "「表示有品格的人；有原則的人；例句：「她是一位很有品格的人。」」是「a person of character = someone with strong principles, integrity, or admirable personal qualities 有品格的人；有原則的人」的用法，與本句語境不同。"
+        "character-mcq-09": "本句的「characters」指「表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」」。",
+        "character-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-09"
     },
@@ -1391,11 +1319,9 @@ export default {
       "masked": "The ____ is a young teacher.",
       "options": [
         "character-mcq-10",
-        "character-mcq-09",
-        "character-mcq-11",
-        "character-mcq-08",
-        "character-mcq-12",
-        "character-mcq-07"
+        "character-mcq-07",
+        "character-mcq-05",
+        "character-mcq-22"
       ],
       "explanation": "本句的「main character」指「表示主角；主要人物；例句：「主角是一位年輕老師。」」。",
       "sentenceIndex": 18,
@@ -1404,12 +1330,10 @@ export default {
         "main character"
       ],
       "optionReasons": {
-        "character-mcq-10": "本句指「表示主角；主要人物；例句：「主角是一位年輕老師。」」。",
-        "character-mcq-09": "「表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」」是「character — a person in a story, film, play, etc. = a fictional person represented in literature, drama, film, games, etc. 角色；人物」的用法，與本句語境不同。",
-        "character-mcq-11": "「表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」」是「supporting character = a character who is important but not the main protagonist 配角；次要角色」的用法，與本句語境不同。",
-        "character-mcq-08": "「表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」」是「strong character = strong, independent personality; sometimes also moral firmness 強烈的個性；堅毅的性格」的用法，與本句語境不同。",
-        "character-mcq-12": "「表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」」是「character development = the way a fictional character changes or becomes more fully developed 角色發展；人物塑造」的用法，與本句語境不同。",
-        "character-mcq-07": "「表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」」是「character — distinctive personality = distinctive or recognizable personality 個性；特色鮮明的性格」的用法，與本句語境不同。"
+        "character-mcq-10": "本句的「main character」指「表示主角；主要人物；例句：「主角是一位年輕老師。」」。",
+        "character-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-10"
     },
@@ -1421,11 +1345,9 @@ export default {
       "masked": "The story follows the ____ from childhood to adulthood.",
       "options": [
         "character-mcq-10",
-        "character-mcq-09",
-        "character-mcq-11",
-        "character-mcq-08",
-        "character-mcq-12",
-        "character-mcq-07"
+        "character-mcq-37",
+        "character-mcq-15",
+        "character-mcq-20"
       ],
       "explanation": "本句的「main character」指「表示主角；主要人物；例句：「主角是一位年輕老師。」」。",
       "sentenceIndex": 19,
@@ -1434,12 +1356,10 @@ export default {
         "main character"
       ],
       "optionReasons": {
-        "character-mcq-10": "本句指「表示主角；主要人物；例句：「主角是一位年輕老師。」」。",
-        "character-mcq-09": "「表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」」是「character — a person in a story, film, play, etc. = a fictional person represented in literature, drama, film, games, etc. 角色；人物」的用法，與本句語境不同。",
-        "character-mcq-11": "「表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」」是「supporting character = a character who is important but not the main protagonist 配角；次要角色」的用法，與本句語境不同。",
-        "character-mcq-08": "「表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」」是「strong character = strong, independent personality; sometimes also moral firmness 強烈的個性；堅毅的性格」的用法，與本句語境不同。",
-        "character-mcq-12": "「表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」」是「character development = the way a fictional character changes or becomes more fully developed 角色發展；人物塑造」的用法，與本句語境不同。",
-        "character-mcq-07": "「表示個性；特色鮮明的性格；例句：「她有很鮮明的個性。」」是「character — distinctive personality = distinctive or recognizable personality 個性；特色鮮明的性格」的用法，與本句語境不同。"
+        "character-mcq-10": "本句的「main character」指「表示主角；主要人物；例句：「主角是一位年輕老師。」」。",
+        "character-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-10"
     },
@@ -1451,11 +1371,9 @@ export default {
       "masked": "She plays a memorable ____.",
       "options": [
         "character-mcq-11",
-        "character-mcq-10",
-        "character-mcq-12",
-        "character-mcq-09",
-        "character-mcq-13",
-        "character-mcq-08"
+        "character-mcq-02",
+        "character-mcq-32",
+        "character-mcq-21"
       ],
       "explanation": "本句的「supporting character」指「表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」」。",
       "sentenceIndex": 20,
@@ -1464,12 +1382,10 @@ export default {
         "supporting character"
       ],
       "optionReasons": {
-        "character-mcq-11": "本句指「表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」」。",
-        "character-mcq-10": "「表示主角；主要人物；例句：「主角是一位年輕老師。」」是「main character = the central person in a story 主角；主要人物」的用法，與本句語境不同。",
-        "character-mcq-12": "「表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」」是「character development = the way a fictional character changes or becomes more fully developed 角色發展；人物塑造」的用法，與本句語境不同。",
-        "character-mcq-09": "「表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」」是「character — a person in a story, film, play, etc. = a fictional person represented in literature, drama, film, games, etc. 角色；人物」的用法，與本句語境不同。",
-        "character-mcq-13": "「很有個性的人；怪人；有趣的人物」是「a character = an unusual, amusing, memorable, or eccentric person 很有個性的人；怪人；有趣的人物」的用法，與本句語境不同。",
-        "character-mcq-08": "「表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」」是「strong character = strong, independent personality; sometimes also moral firmness 強烈的個性；堅毅的性格」的用法，與本句語境不同。"
+        "character-mcq-11": "本句的「supporting character」指「表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」」。",
+        "character-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-11"
     },
@@ -1481,11 +1397,9 @@ export default {
       "masked": "Several ____ help develop the story.",
       "options": [
         "character-mcq-11",
-        "character-mcq-10",
-        "character-mcq-12",
-        "character-mcq-09",
-        "character-mcq-13",
-        "character-mcq-08"
+        "character-mcq-31",
+        "character-mcq-24",
+        "character-mcq-13"
       ],
       "explanation": "本句的「supporting characters」指「表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」」。",
       "sentenceIndex": 21,
@@ -1494,12 +1408,10 @@ export default {
         "supporting characters"
       ],
       "optionReasons": {
-        "character-mcq-11": "本句指「表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」」。",
-        "character-mcq-10": "「表示主角；主要人物；例句：「主角是一位年輕老師。」」是「main character = the central person in a story 主角；主要人物」的用法，與本句語境不同。",
-        "character-mcq-12": "「表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」」是「character development = the way a fictional character changes or becomes more fully developed 角色發展；人物塑造」的用法，與本句語境不同。",
-        "character-mcq-09": "「表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」」是「character — a person in a story, film, play, etc. = a fictional person represented in literature, drama, film, games, etc. 角色；人物」的用法，與本句語境不同。",
-        "character-mcq-13": "「很有個性的人；怪人；有趣的人物」是「a character = an unusual, amusing, memorable, or eccentric person 很有個性的人；怪人；有趣的人物」的用法，與本句語境不同。",
-        "character-mcq-08": "「表示強烈的個性；堅毅的性格；例句：「她有非常強烈而獨立的個性。」」是「strong character = strong, independent personality; sometimes also moral firmness 強烈的個性；堅毅的性格」的用法，與本句語境不同。"
+        "character-mcq-11": "本句的「supporting characters」指「表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」」。",
+        "character-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-11"
     },
@@ -1511,11 +1423,9 @@ export default {
       "masked": "The novel has excellent ____.",
       "options": [
         "character-mcq-12",
-        "character-mcq-11",
-        "character-mcq-13",
-        "character-mcq-10",
-        "character-mcq-14",
-        "character-mcq-09"
+        "character-mcq-32",
+        "character-mcq-04",
+        "character-mcq-20"
       ],
       "explanation": "本句的「character development」指「表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」」。",
       "sentenceIndex": 22,
@@ -1524,12 +1434,10 @@ export default {
         "character development"
       ],
       "optionReasons": {
-        "character-mcq-12": "本句指「表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」」。",
-        "character-mcq-11": "「表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」」是「supporting character = a character who is important but not the main protagonist 配角；次要角色」的用法，與本句語境不同。",
-        "character-mcq-13": "「很有個性的人；怪人；有趣的人物」是「a character = an unusual, amusing, memorable, or eccentric person 很有個性的人；怪人；有趣的人物」的用法，與本句語境不同。",
-        "character-mcq-10": "「表示主角；主要人物；例句：「主角是一位年輕老師。」」是「main character = the central person in a story 主角；主要人物」的用法，與本句語境不同。",
-        "character-mcq-14": "「表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」」是「character — distinctive nature or atmosphere = the special qualities that make a place, object, style, or situation recognizable and distinctive 特色；特質；風格」的用法，與本句語境不同。",
-        "character-mcq-09": "「表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」」是「character — a person in a story, film, play, etc. = a fictional person represented in literature, drama, film, games, etc. 角色；人物」的用法，與本句語境不同。"
+        "character-mcq-12": "本句的「character development」指「表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」」。",
+        "character-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-12"
     },
@@ -1541,11 +1449,9 @@ export default {
       "masked": "The second season focuses more on ____.",
       "options": [
         "character-mcq-12",
-        "character-mcq-11",
-        "character-mcq-13",
-        "character-mcq-10",
-        "character-mcq-14",
-        "character-mcq-09"
+        "character-mcq-26",
+        "character-mcq-32",
+        "character-mcq-36"
       ],
       "explanation": "本句的「character development」指「表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」」。",
       "sentenceIndex": 23,
@@ -1554,12 +1460,10 @@ export default {
         "character development"
       ],
       "optionReasons": {
-        "character-mcq-12": "本句指「表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」」。",
-        "character-mcq-11": "「表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」」是「supporting character = a character who is important but not the main protagonist 配角；次要角色」的用法，與本句語境不同。",
-        "character-mcq-13": "「很有個性的人；怪人；有趣的人物」是「a character = an unusual, amusing, memorable, or eccentric person 很有個性的人；怪人；有趣的人物」的用法，與本句語境不同。",
-        "character-mcq-10": "「表示主角；主要人物；例句：「主角是一位年輕老師。」」是「main character = the central person in a story 主角；主要人物」的用法，與本句語境不同。",
-        "character-mcq-14": "「表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」」是「character — distinctive nature or atmosphere = the special qualities that make a place, object, style, or situation recognizable and distinctive 特色；特質；風格」的用法，與本句語境不同。",
-        "character-mcq-09": "「表示角色；人物；例句：「我最喜歡這本小說裡的角色是祖母。」」是「character — a person in a story, film, play, etc. = a fictional person represented in literature, drama, film, games, etc. 角色；人物」的用法，與本句語境不同。"
+        "character-mcq-12": "本句的「character development」指「表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」」。",
+        "character-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-12"
     },
@@ -1571,11 +1475,9 @@ export default {
       "masked": "Your grandfather sounds like quite ____.",
       "options": [
         "character-mcq-13",
-        "character-mcq-12",
-        "character-mcq-14",
         "character-mcq-11",
-        "character-mcq-15",
-        "character-mcq-10"
+        "character-mcq-21",
+        "character-mcq-36"
       ],
       "explanation": "本句的「a character」指「很有個性的人；怪人；有趣的人物」。",
       "sentenceIndex": 24,
@@ -1584,12 +1486,10 @@ export default {
         "a character"
       ],
       "optionReasons": {
-        "character-mcq-13": "本句指「很有個性的人；怪人；有趣的人物」。",
-        "character-mcq-12": "「表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」」是「character development = the way a fictional character changes or becomes more fully developed 角色發展；人物塑造」的用法，與本句語境不同。",
-        "character-mcq-14": "「表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」」是「character — distinctive nature or atmosphere = the special qualities that make a place, object, style, or situation recognizable and distinctive 特色；特質；風格」的用法，與本句語境不同。",
-        "character-mcq-11": "「表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」」是「supporting character = a character who is important but not the main protagonist 配角；次要角色」的用法，與本句語境不同。",
-        "character-mcq-15": "「表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」」是「local character = distinctive qualities associated with a particular place 地方特色；在地特色」的用法，與本句語境不同。",
-        "character-mcq-10": "「表示主角；主要人物；例句：「主角是一位年輕老師。」」是「main character = the central person in a story 主角；主要人物」的用法，與本句語境不同。"
+        "character-mcq-13": "本句的「a character」指「很有個性的人；怪人；有趣的人物」。",
+        "character-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-13"
     },
@@ -1601,11 +1501,9 @@ export default {
       "masked": "Everyone in town knew him—he was a real ____.",
       "options": [
         "character-mcq-13",
-        "character-mcq-12",
-        "character-mcq-14",
-        "character-mcq-11",
-        "character-mcq-15",
-        "character-mcq-10"
+        "character-mcq-21",
+        "character-mcq-36",
+        "character-mcq-32"
       ],
       "explanation": "本句的「character」指「很有個性的人；怪人；有趣的人物」。",
       "sentenceIndex": 25,
@@ -1614,12 +1512,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-13": "本句指「很有個性的人；怪人；有趣的人物」。",
-        "character-mcq-12": "「表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」」是「character development = the way a fictional character changes or becomes more fully developed 角色發展；人物塑造」的用法，與本句語境不同。",
-        "character-mcq-14": "「表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」」是「character — distinctive nature or atmosphere = the special qualities that make a place, object, style, or situation recognizable and distinctive 特色；特質；風格」的用法，與本句語境不同。",
-        "character-mcq-11": "「表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」」是「supporting character = a character who is important but not the main protagonist 配角；次要角色」的用法，與本句語境不同。",
-        "character-mcq-15": "「表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」」是「local character = distinctive qualities associated with a particular place 地方特色；在地特色」的用法，與本句語境不同。",
-        "character-mcq-10": "「表示主角；主要人物；例句：「主角是一位年輕老師。」」是「main character = the central person in a story 主角；主要人物」的用法，與本句語境不同。"
+        "character-mcq-13": "本句的「character」指「很有個性的人；怪人；有趣的人物」。",
+        "character-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-13"
     },
@@ -1632,10 +1528,8 @@ export default {
       "options": [
         "character-mcq-14",
         "character-mcq-13",
-        "character-mcq-15",
-        "character-mcq-12",
-        "character-mcq-16",
-        "character-mcq-11"
+        "character-mcq-26",
+        "character-mcq-32"
       ],
       "explanation": "本句的「character」指「表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」」。",
       "sentenceIndex": 26,
@@ -1644,12 +1538,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-14": "本句指「表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」」。",
-        "character-mcq-13": "「很有個性的人；怪人；有趣的人物」是「a character = an unusual, amusing, memorable, or eccentric person 很有個性的人；怪人；有趣的人物」的用法，與本句語境不同。",
-        "character-mcq-15": "「表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」」是「local character = distinctive qualities associated with a particular place 地方特色；在地特色」的用法，與本句語境不同。",
-        "character-mcq-12": "「表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」」是「character development = the way a fictional character changes or becomes more fully developed 角色發展；人物塑造」的用法，與本句語境不同。",
-        "character-mcq-16": "「表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」」是「give something character = make something more distinctive, interesting, or individual 賦予……特色；增添個性」的用法，與本句語境不同。",
-        "character-mcq-11": "「表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」」是「supporting character = a character who is important but not the main protagonist 配角；次要角色」的用法，與本句語境不同。"
+        "character-mcq-14": "本句的「character」指「表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」」。",
+        "character-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-14"
     },
@@ -1661,11 +1553,9 @@ export default {
       "masked": "The room has a lot of ____.",
       "options": [
         "character-mcq-14",
+        "character-mcq-27",
         "character-mcq-13",
-        "character-mcq-15",
-        "character-mcq-12",
-        "character-mcq-16",
-        "character-mcq-11"
+        "character-mcq-32"
       ],
       "explanation": "本句的「character」指「表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」」。",
       "sentenceIndex": 27,
@@ -1674,12 +1564,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-14": "本句指「表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」」。",
-        "character-mcq-13": "「很有個性的人；怪人；有趣的人物」是「a character = an unusual, amusing, memorable, or eccentric person 很有個性的人；怪人；有趣的人物」的用法，與本句語境不同。",
-        "character-mcq-15": "「表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」」是「local character = distinctive qualities associated with a particular place 地方特色；在地特色」的用法，與本句語境不同。",
-        "character-mcq-12": "「表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」」是「character development = the way a fictional character changes or becomes more fully developed 角色發展；人物塑造」的用法，與本句語境不同。",
-        "character-mcq-16": "「表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」」是「give something character = make something more distinctive, interesting, or individual 賦予……特色；增添個性」的用法，與本句語境不同。",
-        "character-mcq-11": "「表示配角；次要角色；例句：「她飾演一個令人印象深刻的配角。」」是「supporting character = a character who is important but not the main protagonist 配角；次要角色」的用法，與本句語境不同。"
+        "character-mcq-14": "本句的「character」指「表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」」。",
+        "character-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-14"
     },
@@ -1691,11 +1579,9 @@ export default {
       "masked": "The renovation preserved the building’s ____.",
       "options": [
         "character-mcq-15",
-        "character-mcq-14",
-        "character-mcq-16",
-        "character-mcq-13",
-        "character-mcq-17",
-        "character-mcq-12"
+        "character-mcq-03",
+        "character-mcq-21",
+        "character-mcq-08"
       ],
       "explanation": "本句的「local character」指「表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」」。",
       "sentenceIndex": 28,
@@ -1704,12 +1590,10 @@ export default {
         "local character"
       ],
       "optionReasons": {
-        "character-mcq-15": "本句指「表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」」。",
-        "character-mcq-14": "「表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」」是「character — distinctive nature or atmosphere = the special qualities that make a place, object, style, or situation recognizable and distinctive 特色；特質；風格」的用法，與本句語境不同。",
-        "character-mcq-16": "「表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」」是「give something character = make something more distinctive, interesting, or individual 賦予……特色；增添個性」的用法，與本句語境不同。",
-        "character-mcq-13": "「很有個性的人；怪人；有趣的人物」是「a character = an unusual, amusing, memorable, or eccentric person 很有個性的人；怪人；有趣的人物」的用法，與本句語境不同。",
-        "character-mcq-17": "「表示性質；特性；例句：「這個社區的性質／特色改變了。」」是「character — nature or essential quality = the basic nature or defining qualities of something 性質；特性」的用法，與本句語境不同。",
-        "character-mcq-12": "「表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」」是「character development = the way a fictional character changes or becomes more fully developed 角色發展；人物塑造」的用法，與本句語境不同。"
+        "character-mcq-15": "本句的「local character」指「表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」」。",
+        "character-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-15"
     },
@@ -1721,11 +1605,9 @@ export default {
       "masked": "New development should respect the area’s ____.",
       "options": [
         "character-mcq-15",
-        "character-mcq-14",
-        "character-mcq-16",
-        "character-mcq-13",
-        "character-mcq-17",
-        "character-mcq-12"
+        "character-mcq-03",
+        "character-mcq-27",
+        "character-mcq-10"
       ],
       "explanation": "本句的「character」指「表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」」。",
       "sentenceIndex": 29,
@@ -1734,12 +1616,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-15": "本句指「表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」」。",
-        "character-mcq-14": "「表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」」是「character — distinctive nature or atmosphere = the special qualities that make a place, object, style, or situation recognizable and distinctive 特色；特質；風格」的用法，與本句語境不同。",
-        "character-mcq-16": "「表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」」是「give something character = make something more distinctive, interesting, or individual 賦予……特色；增添個性」的用法，與本句語境不同。",
-        "character-mcq-13": "「很有個性的人；怪人；有趣的人物」是「a character = an unusual, amusing, memorable, or eccentric person 很有個性的人；怪人；有趣的人物」的用法，與本句語境不同。",
-        "character-mcq-17": "「表示性質；特性；例句：「這個社區的性質／特色改變了。」」是「character — nature or essential quality = the basic nature or defining qualities of something 性質；特性」的用法，與本句語境不同。",
-        "character-mcq-12": "「表示角色發展；人物塑造；例句：「這部小說的人物塑造非常出色。」」是「character development = the way a fictional character changes or becomes more fully developed 角色發展；人物塑造」的用法，與本句語境不同。"
+        "character-mcq-15": "本句的「character」指「表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」」。",
+        "character-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-15"
     },
@@ -1751,11 +1631,9 @@ export default {
       "masked": "The wooden beams ____.",
       "options": [
         "character-mcq-16",
-        "character-mcq-15",
-        "character-mcq-17",
-        "character-mcq-14",
-        "character-mcq-18",
-        "character-mcq-13"
+        "character-mcq-04",
+        "character-mcq-10",
+        "character-mcq-20"
       ],
       "explanation": "本句的「give the room character」指「表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」」。",
       "sentenceIndex": 30,
@@ -1764,12 +1642,10 @@ export default {
         "give the room character"
       ],
       "optionReasons": {
-        "character-mcq-16": "本句指「表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」」。",
-        "character-mcq-15": "「表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」」是「local character = distinctive qualities associated with a particular place 地方特色；在地特色」的用法，與本句語境不同。",
-        "character-mcq-17": "「表示性質；特性；例句：「這個社區的性質／特色改變了。」」是「character — nature or essential quality = the basic nature or defining qualities of something 性質；特性」的用法，與本句語境不同。",
-        "character-mcq-14": "「表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」」是「character — distinctive nature or atmosphere = the special qualities that make a place, object, style, or situation recognizable and distinctive 特色；特質；風格」的用法，與本句語境不同。",
-        "character-mcq-18": "「表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」」是「in character = consistent with someone’s usual personality or a fictional role 符合性格；符合角色設定」的用法，與本句語境不同。",
-        "character-mcq-13": "「很有個性的人；怪人；有趣的人物」是「a character = an unusual, amusing, memorable, or eccentric person 很有個性的人；怪人；有趣的人物」的用法，與本句語境不同。"
+        "character-mcq-16": "本句的「give the room character」指「表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」」。",
+        "character-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-16"
     },
@@ -1781,11 +1657,9 @@ export default {
       "masked": "Small imperfections can ____.",
       "options": [
         "character-mcq-16",
-        "character-mcq-15",
-        "character-mcq-17",
-        "character-mcq-14",
-        "character-mcq-18",
-        "character-mcq-13"
+        "character-mcq-03",
+        "character-mcq-10",
+        "character-mcq-27"
       ],
       "explanation": "本句的「give handmade objects character」指「表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」」。",
       "sentenceIndex": 31,
@@ -1794,12 +1668,10 @@ export default {
         "give handmade objects character"
       ],
       "optionReasons": {
-        "character-mcq-16": "本句指「表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」」。",
-        "character-mcq-15": "「表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」」是「local character = distinctive qualities associated with a particular place 地方特色；在地特色」的用法，與本句語境不同。",
-        "character-mcq-17": "「表示性質；特性；例句：「這個社區的性質／特色改變了。」」是「character — nature or essential quality = the basic nature or defining qualities of something 性質；特性」的用法，與本句語境不同。",
-        "character-mcq-14": "「表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」」是「character — distinctive nature or atmosphere = the special qualities that make a place, object, style, or situation recognizable and distinctive 特色；特質；風格」的用法，與本句語境不同。",
-        "character-mcq-18": "「表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」」是「in character = consistent with someone’s usual personality or a fictional role 符合性格；符合角色設定」的用法，與本句語境不同。",
-        "character-mcq-13": "「很有個性的人；怪人；有趣的人物」是「a character = an unusual, amusing, memorable, or eccentric person 很有個性的人；怪人；有趣的人物」的用法，與本句語境不同。"
+        "character-mcq-16": "本句的「give handmade objects character」指「表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」」。",
+        "character-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-16"
     },
@@ -1811,11 +1683,9 @@ export default {
       "masked": "The ____ of the neighbourhood has changed.",
       "options": [
         "character-mcq-17",
-        "character-mcq-16",
-        "character-mcq-18",
-        "character-mcq-15",
-        "character-mcq-19",
-        "character-mcq-14"
+        "character-mcq-12",
+        "character-mcq-25",
+        "character-mcq-20"
       ],
       "explanation": "本句的「character」指「表示性質；特性；例句：「這個社區的性質／特色改變了。」」。",
       "sentenceIndex": 32,
@@ -1824,12 +1694,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-17": "本句指「表示性質；特性；例句：「這個社區的性質／特色改變了。」」。",
-        "character-mcq-16": "「表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」」是「give something character = make something more distinctive, interesting, or individual 賦予……特色；增添個性」的用法，與本句語境不同。",
-        "character-mcq-18": "「表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」」是「in character = consistent with someone’s usual personality or a fictional role 符合性格；符合角色設定」的用法，與本句語境不同。",
-        "character-mcq-15": "「表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」」是「local character = distinctive qualities associated with a particular place 地方特色；在地特色」的用法，與本句語境不同。",
-        "character-mcq-19": "「表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」」是「out of character = unlike someone’s usual behavior 不像平常的性格；一反常態」的用法，與本句語境不同。",
-        "character-mcq-14": "「表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」」是「character — distinctive nature or atmosphere = the special qualities that make a place, object, style, or situation recognizable and distinctive 特色；特質；風格」的用法，與本句語境不同。"
+        "character-mcq-17": "本句的「character」指「表示性質；特性；例句：「這個社區的性質／特色改變了。」」。",
+        "character-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-17"
     },
@@ -1841,11 +1709,9 @@ export default {
       "masked": "The discussion took on a more serious ____.",
       "options": [
         "character-mcq-17",
-        "character-mcq-16",
-        "character-mcq-18",
-        "character-mcq-15",
-        "character-mcq-19",
-        "character-mcq-14"
+        "character-mcq-12",
+        "character-mcq-36",
+        "character-mcq-20"
       ],
       "explanation": "本句的「character」指「表示性質；特性；例句：「這個社區的性質／特色改變了。」」。",
       "sentenceIndex": 33,
@@ -1854,12 +1720,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-17": "本句指「表示性質；特性；例句：「這個社區的性質／特色改變了。」」。",
-        "character-mcq-16": "「表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」」是「give something character = make something more distinctive, interesting, or individual 賦予……特色；增添個性」的用法，與本句語境不同。",
-        "character-mcq-18": "「表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」」是「in character = consistent with someone’s usual personality or a fictional role 符合性格；符合角色設定」的用法，與本句語境不同。",
-        "character-mcq-15": "「表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」」是「local character = distinctive qualities associated with a particular place 地方特色；在地特色」的用法，與本句語境不同。",
-        "character-mcq-19": "「表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」」是「out of character = unlike someone’s usual behavior 不像平常的性格；一反常態」的用法，與本句語境不同。",
-        "character-mcq-14": "「表示特色；特質；風格；例句：「老建築賦予這座城鎮獨特的特色。」」是「character — distinctive nature or atmosphere = the special qualities that make a place, object, style, or situation recognizable and distinctive 特色；特質；風格」的用法，與本句語境不同。"
+        "character-mcq-17": "本句的「character」指「表示性質；特性；例句：「這個社區的性質／特色改變了。」」。",
+        "character-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-17"
     },
@@ -1871,11 +1735,9 @@ export default {
       "masked": "His reaction was completely ____.",
       "options": [
         "character-mcq-18",
-        "character-mcq-17",
-        "character-mcq-19",
-        "character-mcq-16",
-        "character-mcq-20",
-        "character-mcq-15"
+        "character-mcq-26",
+        "character-mcq-31",
+        "character-mcq-25"
       ],
       "explanation": "本句的「in character」指「表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」」。",
       "sentenceIndex": 34,
@@ -1884,12 +1746,10 @@ export default {
         "in character"
       ],
       "optionReasons": {
-        "character-mcq-18": "本句指「表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」」。",
-        "character-mcq-17": "「表示性質；特性；例句：「這個社區的性質／特色改變了。」」是「character — nature or essential quality = the basic nature or defining qualities of something 性質；特性」的用法，與本句語境不同。",
-        "character-mcq-19": "「表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」」是「out of character = unlike someone’s usual behavior 不像平常的性格；一反常態」的用法，與本句語境不同。",
-        "character-mcq-16": "「表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」」是「give something character = make something more distinctive, interesting, or individual 賦予……特色；增添個性」的用法，與本句語境不同。",
-        "character-mcq-20": "「表示字元；字符；例句：「密碼必須至少包含八個字元。」」是「character — a letter, number, punctuation mark, or other written symbol = one written or printed symbol used in writing or computing 字元；字符」的用法，與本句語境不同。",
-        "character-mcq-15": "「表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」」是「local character = distinctive qualities associated with a particular place 地方特色；在地特色」的用法，與本句語境不同。"
+        "character-mcq-18": "本句的「in character」指「表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」」。",
+        "character-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-18"
     },
@@ -1901,11 +1761,9 @@ export default {
       "masked": "The actor stayed ____ throughout the performance.",
       "options": [
         "character-mcq-18",
-        "character-mcq-17",
-        "character-mcq-19",
-        "character-mcq-16",
-        "character-mcq-20",
-        "character-mcq-15"
+        "character-mcq-32",
+        "character-mcq-21",
+        "character-mcq-03"
       ],
       "explanation": "本句的「in character」指「表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」」。",
       "sentenceIndex": 35,
@@ -1914,12 +1772,10 @@ export default {
         "in character"
       ],
       "optionReasons": {
-        "character-mcq-18": "本句指「表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」」。",
-        "character-mcq-17": "「表示性質；特性；例句：「這個社區的性質／特色改變了。」」是「character — nature or essential quality = the basic nature or defining qualities of something 性質；特性」的用法，與本句語境不同。",
-        "character-mcq-19": "「表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」」是「out of character = unlike someone’s usual behavior 不像平常的性格；一反常態」的用法，與本句語境不同。",
-        "character-mcq-16": "「表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」」是「give something character = make something more distinctive, interesting, or individual 賦予……特色；增添個性」的用法，與本句語境不同。",
-        "character-mcq-20": "「表示字元；字符；例句：「密碼必須至少包含八個字元。」」是「character — a letter, number, punctuation mark, or other written symbol = one written or printed symbol used in writing or computing 字元；字符」的用法，與本句語境不同。",
-        "character-mcq-15": "「表示地方特色；在地特色；例句：「翻修保留了建築的在地特色。」」是「local character = distinctive qualities associated with a particular place 地方特色；在地特色」的用法，與本句語境不同。"
+        "character-mcq-18": "本句的「in character」指「表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」」。",
+        "character-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-18"
     },
@@ -1931,11 +1787,9 @@ export default {
       "masked": "It was ____ for her to be rude.",
       "options": [
         "character-mcq-19",
-        "character-mcq-18",
-        "character-mcq-20",
-        "character-mcq-17",
+        "character-mcq-29",
         "character-mcq-21",
-        "character-mcq-16"
+        "character-mcq-33"
       ],
       "explanation": "本句的「out of character」指「表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」」。",
       "sentenceIndex": 36,
@@ -1944,12 +1798,10 @@ export default {
         "out of character"
       ],
       "optionReasons": {
-        "character-mcq-19": "本句指「表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」」。",
-        "character-mcq-18": "「表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」」是「in character = consistent with someone’s usual personality or a fictional role 符合性格；符合角色設定」的用法，與本句語境不同。",
-        "character-mcq-20": "「表示字元；字符；例句：「密碼必須至少包含八個字元。」」是「character — a letter, number, punctuation mark, or other written symbol = one written or printed symbol used in writing or computing 字元；字符」的用法，與本句語境不同。",
-        "character-mcq-17": "「表示性質；特性；例句：「這個社區的性質／特色改變了。」」是「character — nature or essential quality = the basic nature or defining qualities of something 性質；特性」的用法，與本句語境不同。",
-        "character-mcq-21": "「表示漢字；中文字；例句：「她會寫數百個漢字。」」是「Chinese character = a written symbol used in Chinese writing 漢字；中文字」的用法，與本句語境不同。",
-        "character-mcq-16": "「表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」」是「give something character = make something more distinctive, interesting, or individual 賦予……特色；增添個性」的用法，與本句語境不同。"
+        "character-mcq-19": "本句的「out of character」指「表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」」。",
+        "character-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-19"
     },
@@ -1961,11 +1813,9 @@ export default {
       "masked": "His angry reaction seemed ____.",
       "options": [
         "character-mcq-19",
-        "character-mcq-18",
         "character-mcq-20",
-        "character-mcq-17",
-        "character-mcq-21",
-        "character-mcq-16"
+        "character-mcq-11",
+        "character-mcq-31"
       ],
       "explanation": "本句的「out of character」指「表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」」。",
       "sentenceIndex": 37,
@@ -1974,12 +1824,10 @@ export default {
         "out of character"
       ],
       "optionReasons": {
-        "character-mcq-19": "本句指「表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」」。",
-        "character-mcq-18": "「表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」」是「in character = consistent with someone’s usual personality or a fictional role 符合性格；符合角色設定」的用法，與本句語境不同。",
-        "character-mcq-20": "「表示字元；字符；例句：「密碼必須至少包含八個字元。」」是「character — a letter, number, punctuation mark, or other written symbol = one written or printed symbol used in writing or computing 字元；字符」的用法，與本句語境不同。",
-        "character-mcq-17": "「表示性質；特性；例句：「這個社區的性質／特色改變了。」」是「character — nature or essential quality = the basic nature or defining qualities of something 性質；特性」的用法，與本句語境不同。",
-        "character-mcq-21": "「表示漢字；中文字；例句：「她會寫數百個漢字。」」是「Chinese character = a written symbol used in Chinese writing 漢字；中文字」的用法，與本句語境不同。",
-        "character-mcq-16": "「表示賦予……特色；增添個性；例句：「木樑讓房間更有特色。」」是「give something character = make something more distinctive, interesting, or individual 賦予……特色；增添個性」的用法，與本句語境不同。"
+        "character-mcq-19": "本句的「out of character」指「表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」」。",
+        "character-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-19"
     },
@@ -1991,11 +1839,9 @@ export default {
       "masked": "The password must contain at least eight ____.",
       "options": [
         "character-mcq-20",
-        "character-mcq-19",
-        "character-mcq-21",
-        "character-mcq-18",
-        "character-mcq-22",
-        "character-mcq-17"
+        "character-mcq-15",
+        "character-mcq-24",
+        "character-mcq-19"
       ],
       "explanation": "本句的「characters」指「表示字元；字符；例句：「密碼必須至少包含八個字元。」」。",
       "sentenceIndex": 38,
@@ -2004,12 +1850,10 @@ export default {
         "characters"
       ],
       "optionReasons": {
-        "character-mcq-20": "本句指「表示字元；字符；例句：「密碼必須至少包含八個字元。」」。",
-        "character-mcq-19": "「表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」」是「out of character = unlike someone’s usual behavior 不像平常的性格；一反常態」的用法，與本句語境不同。",
-        "character-mcq-21": "「表示漢字；中文字；例句：「她會寫數百個漢字。」」是「Chinese character = a written symbol used in Chinese writing 漢字；中文字」的用法，與本句語境不同。",
-        "character-mcq-18": "「表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」」是「in character = consistent with someone’s usual personality or a fictional role 符合性格；符合角色設定」的用法，與本句語境不同。",
-        "character-mcq-22": "「表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」」是「special character = a non-letter or non-number symbol in computing, such as !, @, #, etc. 特殊字元」的用法，與本句語境不同。",
-        "character-mcq-17": "「表示性質；特性；例句：「這個社區的性質／特色改變了。」」是「character — nature or essential quality = the basic nature or defining qualities of something 性質；特性」的用法，與本句語境不同。"
+        "character-mcq-20": "本句的「characters」指「表示字元；字符；例句：「密碼必須至少包含八個字元。」」。",
+        "character-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-20"
     },
@@ -2021,11 +1865,9 @@ export default {
       "masked": "Spaces also count as ____ in some systems.",
       "options": [
         "character-mcq-20",
-        "character-mcq-19",
-        "character-mcq-21",
-        "character-mcq-18",
-        "character-mcq-22",
-        "character-mcq-17"
+        "character-mcq-34",
+        "character-mcq-37",
+        "character-mcq-33"
       ],
       "explanation": "本句的「characters」指「表示字元；字符；例句：「密碼必須至少包含八個字元。」」。",
       "sentenceIndex": 39,
@@ -2034,12 +1876,10 @@ export default {
         "characters"
       ],
       "optionReasons": {
-        "character-mcq-20": "本句指「表示字元；字符；例句：「密碼必須至少包含八個字元。」」。",
-        "character-mcq-19": "「表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」」是「out of character = unlike someone’s usual behavior 不像平常的性格；一反常態」的用法，與本句語境不同。",
-        "character-mcq-21": "「表示漢字；中文字；例句：「她會寫數百個漢字。」」是「Chinese character = a written symbol used in Chinese writing 漢字；中文字」的用法，與本句語境不同。",
-        "character-mcq-18": "「表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」」是「in character = consistent with someone’s usual personality or a fictional role 符合性格；符合角色設定」的用法，與本句語境不同。",
-        "character-mcq-22": "「表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」」是「special character = a non-letter or non-number symbol in computing, such as !, @, #, etc. 特殊字元」的用法，與本句語境不同。",
-        "character-mcq-17": "「表示性質；特性；例句：「這個社區的性質／特色改變了。」」是「character — nature or essential quality = the basic nature or defining qualities of something 性質；特性」的用法，與本句語境不同。"
+        "character-mcq-20": "本句的「characters」指「表示字元；字符；例句：「密碼必須至少包含八個字元。」」。",
+        "character-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-20"
     },
@@ -2051,11 +1891,9 @@ export default {
       "masked": "She can write hundreds of Chinese ____.",
       "options": [
         "character-mcq-21",
-        "character-mcq-20",
-        "character-mcq-22",
-        "character-mcq-19",
-        "character-mcq-23",
-        "character-mcq-18"
+        "character-mcq-08",
+        "character-mcq-28",
+        "character-mcq-31"
       ],
       "explanation": "本句的「characters」指「表示漢字；中文字；例句：「她會寫數百個漢字。」」。",
       "sentenceIndex": 40,
@@ -2064,12 +1902,10 @@ export default {
         "characters"
       ],
       "optionReasons": {
-        "character-mcq-21": "本句指「表示漢字；中文字；例句：「她會寫數百個漢字。」」。",
-        "character-mcq-20": "「表示字元；字符；例句：「密碼必須至少包含八個字元。」」是「character — a letter, number, punctuation mark, or other written symbol = one written or printed symbol used in writing or computing 字元；字符」的用法，與本句語境不同。",
-        "character-mcq-22": "「表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」」是「special character = a non-letter or non-number symbol in computing, such as !, @, #, etc. 特殊字元」的用法，與本句語境不同。",
-        "character-mcq-19": "「表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」」是「out of character = unlike someone’s usual behavior 不像平常的性格；一反常態」的用法，與本句語境不同。",
-        "character-mcq-23": "「表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」」是「character — reputation for honesty or behavior = a person’s moral reputation or known qualities 品行；名聲；人格評價」的用法，與本句語境不同。",
-        "character-mcq-18": "「表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」」是「in character = consistent with someone’s usual personality or a fictional role 符合性格；符合角色設定」的用法，與本句語境不同。"
+        "character-mcq-21": "本句的「characters」指「表示漢字；中文字；例句：「她會寫數百個漢字。」」。",
+        "character-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-21"
     },
@@ -2081,11 +1917,9 @@ export default {
       "masked": "This ____ has several meanings.",
       "options": [
         "character-mcq-21",
-        "character-mcq-20",
-        "character-mcq-22",
-        "character-mcq-19",
-        "character-mcq-23",
-        "character-mcq-18"
+        "character-mcq-36",
+        "character-mcq-18",
+        "character-mcq-33"
       ],
       "explanation": "本句的「character」指「表示漢字；中文字；例句：「她會寫數百個漢字。」」。",
       "sentenceIndex": 41,
@@ -2094,12 +1928,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-21": "本句指「表示漢字；中文字；例句：「她會寫數百個漢字。」」。",
-        "character-mcq-20": "「表示字元；字符；例句：「密碼必須至少包含八個字元。」」是「character — a letter, number, punctuation mark, or other written symbol = one written or printed symbol used in writing or computing 字元；字符」的用法，與本句語境不同。",
-        "character-mcq-22": "「表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」」是「special character = a non-letter or non-number symbol in computing, such as !, @, #, etc. 特殊字元」的用法，與本句語境不同。",
-        "character-mcq-19": "「表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」」是「out of character = unlike someone’s usual behavior 不像平常的性格；一反常態」的用法，與本句語境不同。",
-        "character-mcq-23": "「表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」」是「character — reputation for honesty or behavior = a person’s moral reputation or known qualities 品行；名聲；人格評價」的用法，與本句語境不同。",
-        "character-mcq-18": "「表示符合性格；符合角色設定；例句：「他的反應完全符合他的個性。」」是「in character = consistent with someone’s usual personality or a fictional role 符合性格；符合角色設定」的用法，與本句語境不同。"
+        "character-mcq-21": "本句的「character」指「表示漢字；中文字；例句：「她會寫數百個漢字。」」。",
+        "character-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-21"
     },
@@ -2111,11 +1943,9 @@ export default {
       "masked": "Your password needs one ____.",
       "options": [
         "character-mcq-22",
-        "character-mcq-21",
-        "character-mcq-23",
-        "character-mcq-20",
-        "character-mcq-24",
-        "character-mcq-19"
+        "character-mcq-03",
+        "character-mcq-11",
+        "character-mcq-13"
       ],
       "explanation": "本句的「special character」指「表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」」。",
       "sentenceIndex": 42,
@@ -2124,12 +1954,10 @@ export default {
         "special character"
       ],
       "optionReasons": {
-        "character-mcq-22": "本句指「表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」」。",
-        "character-mcq-21": "「表示漢字；中文字；例句：「她會寫數百個漢字。」」是「Chinese character = a written symbol used in Chinese writing 漢字；中文字」的用法，與本句語境不同。",
-        "character-mcq-23": "「表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」」是「character — reputation for honesty or behavior = a person’s moral reputation or known qualities 品行；名聲；人格評價」的用法，與本句語境不同。",
-        "character-mcq-20": "「表示字元；字符；例句：「密碼必須至少包含八個字元。」」是「character — a letter, number, punctuation mark, or other written symbol = one written or printed symbol used in writing or computing 字元；字符」的用法，與本句語境不同。",
-        "character-mcq-24": "「表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」」是「character reference = a statement or letter describing someone’s personal qualities and reliability 品格推薦；人格推薦信」的用法，與本句語境不同。",
-        "character-mcq-19": "「表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」」是「out of character = unlike someone’s usual behavior 不像平常的性格；一反常態」的用法，與本句語境不同。"
+        "character-mcq-22": "本句的「special character」指「表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」」。",
+        "character-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-22"
     },
@@ -2141,11 +1969,9 @@ export default {
       "masked": "Some ____ are not allowed in filenames.",
       "options": [
         "character-mcq-22",
-        "character-mcq-21",
-        "character-mcq-23",
-        "character-mcq-20",
-        "character-mcq-24",
-        "character-mcq-19"
+        "character-mcq-08",
+        "character-mcq-25",
+        "character-mcq-28"
       ],
       "explanation": "本句的「special characters」指「表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」」。",
       "sentenceIndex": 43,
@@ -2154,12 +1980,10 @@ export default {
         "special characters"
       ],
       "optionReasons": {
-        "character-mcq-22": "本句指「表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」」。",
-        "character-mcq-21": "「表示漢字；中文字；例句：「她會寫數百個漢字。」」是「Chinese character = a written symbol used in Chinese writing 漢字；中文字」的用法，與本句語境不同。",
-        "character-mcq-23": "「表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」」是「character — reputation for honesty or behavior = a person’s moral reputation or known qualities 品行；名聲；人格評價」的用法，與本句語境不同。",
-        "character-mcq-20": "「表示字元；字符；例句：「密碼必須至少包含八個字元。」」是「character — a letter, number, punctuation mark, or other written symbol = one written or printed symbol used in writing or computing 字元；字符」的用法，與本句語境不同。",
-        "character-mcq-24": "「表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」」是「character reference = a statement or letter describing someone’s personal qualities and reliability 品格推薦；人格推薦信」的用法，與本句語境不同。",
-        "character-mcq-19": "「表示不像平常的性格；一反常態；例句：「她平常不會無禮，這次真的一反常態。」」是「out of character = unlike someone’s usual behavior 不像平常的性格；一反常態」的用法，與本句語境不同。"
+        "character-mcq-22": "本句的「special characters」指「表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」」。",
+        "character-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-22"
     },
@@ -2171,11 +1995,9 @@ export default {
       "masked": "The employer asked for references regarding his ____.",
       "options": [
         "character-mcq-23",
-        "character-mcq-22",
-        "character-mcq-24",
-        "character-mcq-21",
-        "character-mcq-25",
-        "character-mcq-20"
+        "character-mcq-28",
+        "character-mcq-20",
+        "character-mcq-16"
       ],
       "explanation": "本句的「character」指「表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」」。",
       "sentenceIndex": 44,
@@ -2184,12 +2006,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-23": "本句指「表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」」。",
-        "character-mcq-22": "「表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」」是「special character = a non-letter or non-number symbol in computing, such as !, @, #, etc. 特殊字元」的用法，與本句語境不同。",
-        "character-mcq-24": "「表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」」是「character reference = a statement or letter describing someone’s personal qualities and reliability 品格推薦；人格推薦信」的用法，與本句語境不同。",
-        "character-mcq-21": "「表示漢字；中文字；例句：「她會寫數百個漢字。」」是「Chinese character = a written symbol used in Chinese writing 漢字；中文字」的用法，與本句語境不同。",
-        "character-mcq-25": "「表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」」是「evidence of character = evidence concerning a person’s reputation or personal qualities 品格證據；人格相關證據」的用法，與本句語境不同。",
-        "character-mcq-20": "「表示字元；字符；例句：「密碼必須至少包含八個字元。」」是「character — a letter, number, punctuation mark, or other written symbol = one written or printed symbol used in writing or computing 字元；字符」的用法，與本句語境不同。"
+        "character-mcq-23": "本句的「character」指「表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」」。",
+        "character-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-23"
     },
@@ -2201,10 +2021,8 @@ export default {
       "masked": "The witness spoke about her good ____.",
       "options": [
         "character-mcq-23",
-        "character-mcq-22",
-        "character-mcq-24",
-        "character-mcq-21",
-        "character-mcq-25",
+        "character-mcq-11",
+        "character-mcq-38",
         "character-mcq-20"
       ],
       "explanation": "本句的「character」指「表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」」。",
@@ -2214,12 +2032,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-23": "本句指「表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」」。",
-        "character-mcq-22": "「表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」」是「special character = a non-letter or non-number symbol in computing, such as !, @, #, etc. 特殊字元」的用法，與本句語境不同。",
-        "character-mcq-24": "「表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」」是「character reference = a statement or letter describing someone’s personal qualities and reliability 品格推薦；人格推薦信」的用法，與本句語境不同。",
-        "character-mcq-21": "「表示漢字；中文字；例句：「她會寫數百個漢字。」」是「Chinese character = a written symbol used in Chinese writing 漢字；中文字」的用法，與本句語境不同。",
-        "character-mcq-25": "「表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」」是「evidence of character = evidence concerning a person’s reputation or personal qualities 品格證據；人格相關證據」的用法，與本句語境不同。",
-        "character-mcq-20": "「表示字元；字符；例句：「密碼必須至少包含八個字元。」」是「character — a letter, number, punctuation mark, or other written symbol = one written or printed symbol used in writing or computing 字元；字符」的用法，與本句語境不同。"
+        "character-mcq-23": "本句的「character」指「表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」」。",
+        "character-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-23"
     },
@@ -2231,11 +2047,9 @@ export default {
       "masked": "The employer asked for a ____.",
       "options": [
         "character-mcq-24",
-        "character-mcq-23",
-        "character-mcq-25",
-        "character-mcq-22",
         "character-mcq-26",
-        "character-mcq-21"
+        "character-mcq-34",
+        "character-mcq-12"
       ],
       "explanation": "本句的「character reference」指「表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」」。",
       "sentenceIndex": 46,
@@ -2244,12 +2058,10 @@ export default {
         "character reference"
       ],
       "optionReasons": {
-        "character-mcq-24": "本句指「表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」」。",
-        "character-mcq-23": "「表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」」是「character — reputation for honesty or behavior = a person’s moral reputation or known qualities 品行；名聲；人格評價」的用法，與本句語境不同。",
-        "character-mcq-25": "「表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」」是「evidence of character = evidence concerning a person’s reputation or personal qualities 品格證據；人格相關證據」的用法，與本句語境不同。",
-        "character-mcq-22": "「表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」」是「special character = a non-letter or non-number symbol in computing, such as !, @, #, etc. 特殊字元」的用法，與本句語境不同。",
-        "character-mcq-26": "「表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」」是「character encoding = a system that maps written characters to numerical codes 字元編碼」的用法，與本句語境不同。",
-        "character-mcq-21": "「表示漢字；中文字；例句：「她會寫數百個漢字。」」是「Chinese character = a written symbol used in Chinese writing 漢字；中文字」的用法，與本句語境不同。"
+        "character-mcq-24": "本句的「character reference」指「表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」」。",
+        "character-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-24"
     },
@@ -2261,11 +2073,9 @@ export default {
       "masked": "Her teacher wrote a strong ____ for her.",
       "options": [
         "character-mcq-24",
-        "character-mcq-23",
-        "character-mcq-25",
-        "character-mcq-22",
+        "character-mcq-34",
         "character-mcq-26",
-        "character-mcq-21"
+        "character-mcq-29"
       ],
       "explanation": "本句的「character reference」指「表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」」。",
       "sentenceIndex": 47,
@@ -2274,12 +2084,10 @@ export default {
         "character reference"
       ],
       "optionReasons": {
-        "character-mcq-24": "本句指「表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」」。",
-        "character-mcq-23": "「表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」」是「character — reputation for honesty or behavior = a person’s moral reputation or known qualities 品行；名聲；人格評價」的用法，與本句語境不同。",
-        "character-mcq-25": "「表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」」是「evidence of character = evidence concerning a person’s reputation or personal qualities 品格證據；人格相關證據」的用法，與本句語境不同。",
-        "character-mcq-22": "「表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」」是「special character = a non-letter or non-number symbol in computing, such as !, @, #, etc. 特殊字元」的用法，與本句語境不同。",
-        "character-mcq-26": "「表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」」是「character encoding = a system that maps written characters to numerical codes 字元編碼」的用法，與本句語境不同。",
-        "character-mcq-21": "「表示漢字；中文字；例句：「她會寫數百個漢字。」」是「Chinese character = a written symbol used in Chinese writing 漢字；中文字」的用法，與本句語境不同。"
+        "character-mcq-24": "本句的「character reference」指「表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」」。",
+        "character-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-24"
     },
@@ -2291,11 +2099,9 @@ export default {
       "masked": "The court heard evidence concerning his ____.",
       "options": [
         "character-mcq-25",
-        "character-mcq-24",
+        "character-mcq-12",
         "character-mcq-26",
-        "character-mcq-23",
-        "character-mcq-27",
-        "character-mcq-22"
+        "character-mcq-33"
       ],
       "explanation": "本句的「character」指「表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」」。",
       "sentenceIndex": 48,
@@ -2304,12 +2110,10 @@ export default {
         "character"
       ],
       "optionReasons": {
-        "character-mcq-25": "本句指「表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」」。",
-        "character-mcq-24": "「表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」」是「character reference = a statement or letter describing someone’s personal qualities and reliability 品格推薦；人格推薦信」的用法，與本句語境不同。",
-        "character-mcq-26": "「表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」」是「character encoding = a system that maps written characters to numerical codes 字元編碼」的用法，與本句語境不同。",
-        "character-mcq-23": "「表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」」是「character — reputation for honesty or behavior = a person’s moral reputation or known qualities 品行；名聲；人格評價」的用法，與本句語境不同。",
-        "character-mcq-27": "「表示字數／字元限制；例句：「這個表單有 200 字元的限制。」」是「character limit = maximum number of characters allowed in a text field 字數／字元限制」的用法，與本句語境不同。",
-        "character-mcq-22": "「表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」」是「special character = a non-letter or non-number symbol in computing, such as !, @, #, etc. 特殊字元」的用法，與本句語境不同。"
+        "character-mcq-25": "本句的「character」指「表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」」。",
+        "character-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-25"
     },
@@ -2321,11 +2125,9 @@ export default {
       "masked": "The rules limit when ____ may be used.",
       "options": [
         "character-mcq-25",
-        "character-mcq-24",
-        "character-mcq-26",
-        "character-mcq-23",
         "character-mcq-27",
-        "character-mcq-22"
+        "character-mcq-10",
+        "character-mcq-16"
       ],
       "explanation": "本句的「character evidence」指「表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」」。",
       "sentenceIndex": 49,
@@ -2334,12 +2136,10 @@ export default {
         "character evidence"
       ],
       "optionReasons": {
-        "character-mcq-25": "本句指「表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」」。",
-        "character-mcq-24": "「表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」」是「character reference = a statement or letter describing someone’s personal qualities and reliability 品格推薦；人格推薦信」的用法，與本句語境不同。",
-        "character-mcq-26": "「表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」」是「character encoding = a system that maps written characters to numerical codes 字元編碼」的用法，與本句語境不同。",
-        "character-mcq-23": "「表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」」是「character — reputation for honesty or behavior = a person’s moral reputation or known qualities 品行；名聲；人格評價」的用法，與本句語境不同。",
-        "character-mcq-27": "「表示字數／字元限制；例句：「這個表單有 200 字元的限制。」」是「character limit = maximum number of characters allowed in a text field 字數／字元限制」的用法，與本句語境不同。",
-        "character-mcq-22": "「表示特殊字元；例句：「你的密碼需要包含一個特殊字元。」」是「special character = a non-letter or non-number symbol in computing, such as !, @, #, etc. 特殊字元」的用法，與本句語境不同。"
+        "character-mcq-25": "本句的「character evidence」指「表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」」。",
+        "character-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-25"
     },
@@ -2351,11 +2151,9 @@ export default {
       "masked": "UTF-8 is a widely used ____.",
       "options": [
         "character-mcq-26",
-        "character-mcq-25",
-        "character-mcq-27",
-        "character-mcq-24",
-        "character-mcq-28",
-        "character-mcq-23"
+        "character-mcq-30",
+        "character-mcq-02",
+        "character-mcq-10"
       ],
       "explanation": "本句的「character encoding」指「表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」」。",
       "sentenceIndex": 50,
@@ -2364,12 +2162,10 @@ export default {
         "character encoding"
       ],
       "optionReasons": {
-        "character-mcq-26": "本句指「表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」」。",
-        "character-mcq-25": "「表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」」是「evidence of character = evidence concerning a person’s reputation or personal qualities 品格證據；人格相關證據」的用法，與本句語境不同。",
-        "character-mcq-27": "「表示字數／字元限制；例句：「這個表單有 200 字元的限制。」」是「character limit = maximum number of characters allowed in a text field 字數／字元限制」的用法，與本句語境不同。",
-        "character-mcq-24": "「表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」」是「character reference = a statement or letter describing someone’s personal qualities and reliability 品格推薦；人格推薦信」的用法，與本句語境不同。",
-        "character-mcq-28": "「表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」」是「stay in character = continue behaving as the role you are portraying 保持角色狀態；不出戲」的用法，與本句語境不同。",
-        "character-mcq-23": "「表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」」是「character — reputation for honesty or behavior = a person’s moral reputation or known qualities 品行；名聲；人格評價」的用法，與本句語境不同。"
+        "character-mcq-26": "本句的「character encoding」指「表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」」。",
+        "character-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-26"
     },
@@ -2381,11 +2177,9 @@ export default {
       "masked": "Incorrect ____ can produce unreadable text.",
       "options": [
         "character-mcq-26",
-        "character-mcq-25",
-        "character-mcq-27",
-        "character-mcq-24",
-        "character-mcq-28",
-        "character-mcq-23"
+        "character-mcq-17",
+        "character-mcq-04",
+        "character-mcq-28"
       ],
       "explanation": "本句的「character encoding」指「表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」」。",
       "sentenceIndex": 51,
@@ -2394,12 +2188,10 @@ export default {
         "character encoding"
       ],
       "optionReasons": {
-        "character-mcq-26": "本句指「表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」」。",
-        "character-mcq-25": "「表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」」是「evidence of character = evidence concerning a person’s reputation or personal qualities 品格證據；人格相關證據」的用法，與本句語境不同。",
-        "character-mcq-27": "「表示字數／字元限制；例句：「這個表單有 200 字元的限制。」」是「character limit = maximum number of characters allowed in a text field 字數／字元限制」的用法，與本句語境不同。",
-        "character-mcq-24": "「表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」」是「character reference = a statement or letter describing someone’s personal qualities and reliability 品格推薦；人格推薦信」的用法，與本句語境不同。",
-        "character-mcq-28": "「表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」」是「stay in character = continue behaving as the role you are portraying 保持角色狀態；不出戲」的用法，與本句語境不同。",
-        "character-mcq-23": "「表示品行；名聲；人格評價；例句：「雇主要求提供關於他品行的推薦資料。」」是「character — reputation for honesty or behavior = a person’s moral reputation or known qualities 品行；名聲；人格評價」的用法，與本句語境不同。"
+        "character-mcq-26": "本句的「character encoding」指「表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」」。",
+        "character-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-26"
     },
@@ -2411,11 +2203,9 @@ export default {
       "masked": "The form has a 200-____.",
       "options": [
         "character-mcq-27",
-        "character-mcq-26",
-        "character-mcq-28",
-        "character-mcq-25",
-        "character-mcq-29",
-        "character-mcq-24"
+        "character-mcq-07",
+        "character-mcq-11",
+        "character-mcq-25"
       ],
       "explanation": "本句的「character limit」指「表示字數／字元限制；例句：「這個表單有 200 字元的限制。」」。",
       "sentenceIndex": 52,
@@ -2424,12 +2214,10 @@ export default {
         "character limit"
       ],
       "optionReasons": {
-        "character-mcq-27": "本句指「表示字數／字元限制；例句：「這個表單有 200 字元的限制。」」。",
-        "character-mcq-26": "「表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」」是「character encoding = a system that maps written characters to numerical codes 字元編碼」的用法，與本句語境不同。",
-        "character-mcq-28": "「表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」」是「stay in character = continue behaving as the role you are portraying 保持角色狀態；不出戲」的用法，與本句語境不同。",
-        "character-mcq-25": "「表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」」是「evidence of character = evidence concerning a person’s reputation or personal qualities 品格證據；人格相關證據」的用法，與本句語境不同。",
-        "character-mcq-29": "「表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」」是「break character = stop behaving as the fictional role, often by laughing or reacting as yourself 出戲；脫離角色」的用法，與本句語境不同。",
-        "character-mcq-24": "「表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」」是「character reference = a statement or letter describing someone’s personal qualities and reliability 品格推薦；人格推薦信」的用法，與本句語境不同。"
+        "character-mcq-27": "本句的「character limit」指「表示字數／字元限制；例句：「這個表單有 200 字元的限制。」」。",
+        "character-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-27"
     },
@@ -2441,11 +2229,9 @@ export default {
       "masked": "Keep the message within the ____.",
       "options": [
         "character-mcq-27",
-        "character-mcq-26",
-        "character-mcq-28",
-        "character-mcq-25",
-        "character-mcq-29",
-        "character-mcq-24"
+        "character-mcq-05",
+        "character-mcq-34",
+        "character-mcq-11"
       ],
       "explanation": "本句的「character limit」指「表示字數／字元限制；例句：「這個表單有 200 字元的限制。」」。",
       "sentenceIndex": 53,
@@ -2454,12 +2240,10 @@ export default {
         "character limit"
       ],
       "optionReasons": {
-        "character-mcq-27": "本句指「表示字數／字元限制；例句：「這個表單有 200 字元的限制。」」。",
-        "character-mcq-26": "「表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」」是「character encoding = a system that maps written characters to numerical codes 字元編碼」的用法，與本句語境不同。",
-        "character-mcq-28": "「表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」」是「stay in character = continue behaving as the role you are portraying 保持角色狀態；不出戲」的用法，與本句語境不同。",
-        "character-mcq-25": "「表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」」是「evidence of character = evidence concerning a person’s reputation or personal qualities 品格證據；人格相關證據」的用法，與本句語境不同。",
-        "character-mcq-29": "「表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」」是「break character = stop behaving as the fictional role, often by laughing or reacting as yourself 出戲；脫離角色」的用法，與本句語境不同。",
-        "character-mcq-24": "「表示品格推薦；人格推薦信；例句：「雇主要求提供一份品格推薦信。」」是「character reference = a statement or letter describing someone’s personal qualities and reliability 品格推薦；人格推薦信」的用法，與本句語境不同。"
+        "character-mcq-27": "本句的「character limit」指「表示字數／字元限制；例句：「這個表單有 200 字元的限制。」」。",
+        "character-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-27"
     },
@@ -2471,11 +2255,9 @@ export default {
       "masked": "The actor remained ____ even between scenes.",
       "options": [
         "character-mcq-28",
-        "character-mcq-27",
-        "character-mcq-29",
-        "character-mcq-26",
-        "character-mcq-30",
-        "character-mcq-25"
+        "character-mcq-24",
+        "character-mcq-20",
+        "character-mcq-32"
       ],
       "explanation": "本句的「in character」指「表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」」。",
       "sentenceIndex": 54,
@@ -2484,12 +2266,10 @@ export default {
         "in character"
       ],
       "optionReasons": {
-        "character-mcq-28": "本句指「表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」」。",
-        "character-mcq-27": "「表示字數／字元限制；例句：「這個表單有 200 字元的限制。」」是「character limit = maximum number of characters allowed in a text field 字數／字元限制」的用法，與本句語境不同。",
-        "character-mcq-29": "「表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」」是「break character = stop behaving as the fictional role, often by laughing or reacting as yourself 出戲；脫離角色」的用法，與本句語境不同。",
-        "character-mcq-26": "「表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」」是「character encoding = a system that maps written characters to numerical codes 字元編碼」的用法，與本句語境不同。",
-        "character-mcq-30": "「表示特徵；特色；例句：「耐心是她最明顯的特質之一。」」是「characteristic — noun = a typical or distinctive quality or feature 特徵；特色」的用法，與本句語境不同。",
-        "character-mcq-25": "「表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」」是「evidence of character = evidence concerning a person’s reputation or personal qualities 品格證據；人格相關證據」的用法，與本句語境不同。"
+        "character-mcq-28": "本句的「in character」指「表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」」。",
+        "character-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-28"
     },
@@ -2501,11 +2281,9 @@ export default {
       "masked": "Try to ____ during the exercise.",
       "options": [
         "character-mcq-28",
-        "character-mcq-27",
-        "character-mcq-29",
+        "character-mcq-05",
         "character-mcq-26",
-        "character-mcq-30",
-        "character-mcq-25"
+        "character-mcq-33"
       ],
       "explanation": "本句的「stay in character」指「表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」」。",
       "sentenceIndex": 55,
@@ -2514,12 +2292,10 @@ export default {
         "stay in character"
       ],
       "optionReasons": {
-        "character-mcq-28": "本句指「表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」」。",
-        "character-mcq-27": "「表示字數／字元限制；例句：「這個表單有 200 字元的限制。」」是「character limit = maximum number of characters allowed in a text field 字數／字元限制」的用法，與本句語境不同。",
-        "character-mcq-29": "「表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」」是「break character = stop behaving as the fictional role, often by laughing or reacting as yourself 出戲；脫離角色」的用法，與本句語境不同。",
-        "character-mcq-26": "「表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」」是「character encoding = a system that maps written characters to numerical codes 字元編碼」的用法，與本句語境不同。",
-        "character-mcq-30": "「表示特徵；特色；例句：「耐心是她最明顯的特質之一。」」是「characteristic — noun = a typical or distinctive quality or feature 特徵；特色」的用法，與本句語境不同。",
-        "character-mcq-25": "「表示品格證據；人格相關證據；例句：「法院聽取了關於他品行的證據。」」是「evidence of character = evidence concerning a person’s reputation or personal qualities 品格證據；人格相關證據」的用法，與本句語境不同。"
+        "character-mcq-28": "本句的「stay in character」指「表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」」。",
+        "character-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-28"
     },
@@ -2531,11 +2307,9 @@ export default {
       "masked": "The actor almost ____ when the audience laughed.",
       "options": [
         "character-mcq-29",
-        "character-mcq-28",
-        "character-mcq-30",
-        "character-mcq-27",
-        "character-mcq-31",
-        "character-mcq-26"
+        "character-mcq-25",
+        "character-mcq-22",
+        "character-mcq-19"
       ],
       "explanation": "本句的「broke character」指「表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」」。",
       "sentenceIndex": 56,
@@ -2544,12 +2318,10 @@ export default {
         "broke character"
       ],
       "optionReasons": {
-        "character-mcq-29": "本句指「表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」」。",
-        "character-mcq-28": "「表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」」是「stay in character = continue behaving as the role you are portraying 保持角色狀態；不出戲」的用法，與本句語境不同。",
-        "character-mcq-30": "「表示特徵；特色；例句：「耐心是她最明顯的特質之一。」」是「characteristic — noun = a typical or distinctive quality or feature 特徵；特色」的用法，與本句語境不同。",
-        "character-mcq-27": "「表示字數／字元限制；例句：「這個表單有 200 字元的限制。」」是「character limit = maximum number of characters allowed in a text field 字數／字元限制」的用法，與本句語境不同。",
-        "character-mcq-31": "「表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」」是「characteristic — adjective = typical of a person, thing, group, or style 典型的；特有的」的用法，與本句語境不同。",
-        "character-mcq-26": "「表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」」是「character encoding = a system that maps written characters to numerical codes 字元編碼」的用法，與本句語境不同。"
+        "character-mcq-29": "本句的「broke character」指「表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」」。",
+        "character-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-29"
     },
@@ -2561,11 +2333,9 @@ export default {
       "masked": "She never ____ during the scene.",
       "options": [
         "character-mcq-29",
-        "character-mcq-28",
-        "character-mcq-30",
-        "character-mcq-27",
-        "character-mcq-31",
-        "character-mcq-26"
+        "character-mcq-32",
+        "character-mcq-04",
+        "character-mcq-20"
       ],
       "explanation": "本句的「broke character」指「表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」」。",
       "sentenceIndex": 57,
@@ -2574,12 +2344,10 @@ export default {
         "broke character"
       ],
       "optionReasons": {
-        "character-mcq-29": "本句指「表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」」。",
-        "character-mcq-28": "「表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」」是「stay in character = continue behaving as the role you are portraying 保持角色狀態；不出戲」的用法，與本句語境不同。",
-        "character-mcq-30": "「表示特徵；特色；例句：「耐心是她最明顯的特質之一。」」是「characteristic — noun = a typical or distinctive quality or feature 特徵；特色」的用法，與本句語境不同。",
-        "character-mcq-27": "「表示字數／字元限制；例句：「這個表單有 200 字元的限制。」」是「character limit = maximum number of characters allowed in a text field 字數／字元限制」的用法，與本句語境不同。",
-        "character-mcq-31": "「表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」」是「characteristic — adjective = typical of a person, thing, group, or style 典型的；特有的」的用法，與本句語境不同。",
-        "character-mcq-26": "「表示字元編碼；例句：「UTF-8 是廣泛使用的字元編碼。」」是「character encoding = a system that maps written characters to numerical codes 字元編碼」的用法，與本句語境不同。"
+        "character-mcq-29": "本句的「broke character」指「表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」」。",
+        "character-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-29"
     },
@@ -2591,11 +2359,9 @@ export default {
       "masked": "Patience is one of her strongest ____.",
       "options": [
         "character-mcq-30",
-        "character-mcq-29",
-        "character-mcq-31",
-        "character-mcq-28",
-        "character-mcq-32",
-        "character-mcq-27"
+        "character-mcq-08",
+        "character-mcq-26",
+        "character-mcq-25"
       ],
       "explanation": "本句的「characteristics」指「表示特徵；特色；例句：「耐心是她最明顯的特質之一。」」。",
       "sentenceIndex": 58,
@@ -2604,12 +2370,10 @@ export default {
         "characteristics"
       ],
       "optionReasons": {
-        "character-mcq-30": "本句指「表示特徵；特色；例句：「耐心是她最明顯的特質之一。」」。",
-        "character-mcq-29": "「表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」」是「break character = stop behaving as the fictional role, often by laughing or reacting as yourself 出戲；脫離角色」的用法，與本句語境不同。",
-        "character-mcq-31": "「表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」」是「characteristic — adjective = typical of a person, thing, group, or style 典型的；特有的」的用法，與本句語境不同。",
-        "character-mcq-28": "「表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」」是「stay in character = continue behaving as the role you are portraying 保持角色狀態；不出戲」的用法，與本句語境不同。",
-        "character-mcq-32": "「表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」」是「characterize = describe or distinguish someone or something by particular qualities 描述……的特徵；以……為特徵」的用法，與本句語境不同。",
-        "character-mcq-27": "「表示字數／字元限制；例句：「這個表單有 200 字元的限制。」」是「character limit = maximum number of characters allowed in a text field 字數／字元限制」的用法，與本句語境不同。"
+        "character-mcq-30": "本句的「characteristics」指「表示特徵；特色；例句：「耐心是她最明顯的特質之一。」」。",
+        "character-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-30"
     },
@@ -2621,11 +2385,9 @@ export default {
       "masked": "One ____ of the material is its flexibility.",
       "options": [
         "character-mcq-30",
-        "character-mcq-29",
-        "character-mcq-31",
-        "character-mcq-28",
-        "character-mcq-32",
-        "character-mcq-27"
+        "character-mcq-04",
+        "character-mcq-26",
+        "character-mcq-13"
       ],
       "explanation": "本句的「characteristic」指「表示特徵；特色；例句：「耐心是她最明顯的特質之一。」」。",
       "sentenceIndex": 59,
@@ -2634,12 +2396,10 @@ export default {
         "characteristic"
       ],
       "optionReasons": {
-        "character-mcq-30": "本句指「表示特徵；特色；例句：「耐心是她最明顯的特質之一。」」。",
-        "character-mcq-29": "「表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」」是「break character = stop behaving as the fictional role, often by laughing or reacting as yourself 出戲；脫離角色」的用法，與本句語境不同。",
-        "character-mcq-31": "「表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」」是「characteristic — adjective = typical of a person, thing, group, or style 典型的；特有的」的用法，與本句語境不同。",
-        "character-mcq-28": "「表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」」是「stay in character = continue behaving as the role you are portraying 保持角色狀態；不出戲」的用法，與本句語境不同。",
-        "character-mcq-32": "「表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」」是「characterize = describe or distinguish someone or something by particular qualities 描述……的特徵；以……為特徵」的用法，與本句語境不同。",
-        "character-mcq-27": "「表示字數／字元限制；例句：「這個表單有 200 字元的限制。」」是「character limit = maximum number of characters allowed in a text field 字數／字元限制」的用法，與本句語境不同。"
+        "character-mcq-30": "本句的「characteristic」指「表示特徵；特色；例句：「耐心是她最明顯的特質之一。」」。",
+        "character-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-30"
     },
@@ -2651,11 +2411,9 @@ export default {
       "masked": "That calm response is ____.",
       "options": [
         "character-mcq-31",
-        "character-mcq-30",
-        "character-mcq-32",
-        "character-mcq-29",
-        "character-mcq-33",
-        "character-mcq-28"
+        "character-mcq-04",
+        "character-mcq-26",
+        "character-mcq-29"
       ],
       "explanation": "本句的「characteristic of her」指「表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」」。",
       "sentenceIndex": 60,
@@ -2664,12 +2422,10 @@ export default {
         "characteristic of her"
       ],
       "optionReasons": {
-        "character-mcq-31": "本句指「表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」」。",
-        "character-mcq-30": "「表示特徵；特色；例句：「耐心是她最明顯的特質之一。」」是「characteristic — noun = a typical or distinctive quality or feature 特徵；特色」的用法，與本句語境不同。",
-        "character-mcq-32": "「表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」」是「characterize = describe or distinguish someone or something by particular qualities 描述……的特徵；以……為特徵」的用法，與本句語境不同。",
-        "character-mcq-29": "「表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」」是「break character = stop behaving as the fictional role, often by laughing or reacting as yourself 出戲；脫離角色」的用法，與本句語境不同。",
-        "character-mcq-33": "「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」是「characterization」的用法，與本句語境不同。",
-        "character-mcq-28": "「表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」」是「stay in character = continue behaving as the role you are portraying 保持角色狀態；不出戲」的用法，與本句語境不同。"
+        "character-mcq-31": "本句的「characteristic of her」指「表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」」。",
+        "character-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-31"
     },
@@ -2681,11 +2437,9 @@ export default {
       "masked": "The region has a ____.",
       "options": [
         "character-mcq-31",
-        "character-mcq-30",
-        "character-mcq-32",
-        "character-mcq-29",
-        "character-mcq-33",
-        "character-mcq-28"
+        "character-mcq-21",
+        "character-mcq-03",
+        "character-mcq-09"
       ],
       "explanation": "本句的「characteristic architectural style」指「表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」」。",
       "sentenceIndex": 61,
@@ -2694,12 +2448,10 @@ export default {
         "characteristic architectural style"
       ],
       "optionReasons": {
-        "character-mcq-31": "本句指「表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」」。",
-        "character-mcq-30": "「表示特徵；特色；例句：「耐心是她最明顯的特質之一。」」是「characteristic — noun = a typical or distinctive quality or feature 特徵；特色」的用法，與本句語境不同。",
-        "character-mcq-32": "「表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」」是「characterize = describe or distinguish someone or something by particular qualities 描述……的特徵；以……為特徵」的用法，與本句語境不同。",
-        "character-mcq-29": "「表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」」是「break character = stop behaving as the fictional role, often by laughing or reacting as yourself 出戲；脫離角色」的用法，與本句語境不同。",
-        "character-mcq-33": "「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」是「characterization」的用法，與本句語境不同。",
-        "character-mcq-28": "「表示保持角色狀態；不出戲；例句：「那位演員即使在場景之間也保持角色狀態。」」是「stay in character = continue behaving as the role you are portraying 保持角色狀態；不出戲」的用法，與本句語境不同。"
+        "character-mcq-31": "本句的「characteristic architectural style」指「表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」」。",
+        "character-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-31"
     },
@@ -2711,11 +2463,9 @@ export default {
       "masked": "The period was ____.",
       "options": [
         "character-mcq-32",
-        "character-mcq-31",
-        "character-mcq-33",
-        "character-mcq-30",
-        "character-mcq-34",
-        "character-mcq-29"
+        "character-mcq-09",
+        "character-mcq-08",
+        "character-mcq-23"
       ],
       "explanation": "本句的「characterized by rapid change」指「表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」」。",
       "sentenceIndex": 62,
@@ -2724,12 +2474,10 @@ export default {
         "characterized by rapid change"
       ],
       "optionReasons": {
-        "character-mcq-32": "本句指「表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」」。",
-        "character-mcq-31": "「表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」」是「characteristic — adjective = typical of a person, thing, group, or style 典型的；特有的」的用法，與本句語境不同。",
-        "character-mcq-33": "「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」是「characterization」的用法，與本句語境不同。",
-        "character-mcq-30": "「表示特徵；特色；例句：「耐心是她最明顯的特質之一。」」是「characteristic — noun = a typical or distinctive quality or feature 特徵；特色」的用法，與本句語境不同。",
-        "character-mcq-34": "「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」是「characterless = lacking distinctive qualities or personality 沒有特色的；缺乏個性的」的用法，與本句語境不同。",
-        "character-mcq-29": "「表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」」是「break character = stop behaving as the fictional role, often by laughing or reacting as yourself 出戲；脫離角色」的用法，與本句語境不同。"
+        "character-mcq-32": "本句的「characterized by rapid change」指「表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」」。",
+        "character-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-32"
     },
@@ -2741,11 +2489,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "character-mcq-32",
-        "character-mcq-31",
-        "character-mcq-33",
-        "character-mcq-30",
-        "character-mcq-34",
-        "character-mcq-29"
+        "character-mcq-29",
+        "character-mcq-36",
+        "character-mcq-19"
       ],
       "explanation": "本句的「characterized the meeting as productive」指「表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」」。",
       "sentenceIndex": 63,
@@ -2754,12 +2500,10 @@ export default {
         "characterized the meeting as productive"
       ],
       "optionReasons": {
-        "character-mcq-32": "本句指「表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」」。",
-        "character-mcq-31": "「表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」」是「characteristic — adjective = typical of a person, thing, group, or style 典型的；特有的」的用法，與本句語境不同。",
-        "character-mcq-33": "「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」是「characterization」的用法，與本句語境不同。",
-        "character-mcq-30": "「表示特徵；特色；例句：「耐心是她最明顯的特質之一。」」是「characteristic — noun = a typical or distinctive quality or feature 特徵；特色」的用法，與本句語境不同。",
-        "character-mcq-34": "「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」是「characterless = lacking distinctive qualities or personality 沒有特色的；缺乏個性的」的用法，與本句語境不同。",
-        "character-mcq-29": "「表示出戲；脫離角色；例句：「觀眾笑起來時，那位演員差點出戲。」」是「break character = stop behaving as the fictional role, often by laughing or reacting as yourself 出戲；脫離角色」的用法，與本句語境不同。"
+        "character-mcq-32": "本句的「characterized the meeting as productive」指「表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」」。",
+        "character-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-32"
     },
@@ -2771,11 +2515,9 @@ export default {
       "masked": "The report gives a detailed ____ of the problem.",
       "options": [
         "character-mcq-33",
-        "character-mcq-32",
-        "character-mcq-34",
-        "character-mcq-31",
-        "character-mcq-35",
-        "character-mcq-30"
+        "character-mcq-28",
+        "character-mcq-19",
+        "character-mcq-04"
       ],
       "explanation": "本句的「characterization」指「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」。",
       "sentenceIndex": 64,
@@ -2784,12 +2526,10 @@ export default {
         "characterization"
       ],
       "optionReasons": {
-        "character-mcq-33": "本句指「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」。",
-        "character-mcq-32": "「表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」」是「characterize = describe or distinguish someone or something by particular qualities 描述……的特徵；以……為特徵」的用法，與本句語境不同。",
-        "character-mcq-34": "「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」是「characterless = lacking distinctive qualities or personality 沒有特色的；缺乏個性的」的用法，與本句語境不同。",
-        "character-mcq-31": "「表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」」是「characteristic — adjective = typical of a person, thing, group, or style 典型的；特有的」的用法，與本句語境不同。",
-        "character-mcq-35": "「表示磨練品格；例句：「從失敗中學習可以磨練品格。」」是「build character = develop resilience, discipline, or moral strength 磨練品格」的用法，與本句語境不同。",
-        "character-mcq-30": "「表示特徵；特色；例句：「耐心是她最明顯的特質之一。」」是「characteristic — noun = a typical or distinctive quality or feature 特徵；特色」的用法，與本句語境不同。"
+        "character-mcq-33": "本句的「characterization」指「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」。",
+        "character-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-33"
     },
@@ -2801,11 +2541,9 @@ export default {
       "masked": "The novel is praised for its ____.",
       "options": [
         "character-mcq-33",
-        "character-mcq-32",
-        "character-mcq-34",
-        "character-mcq-31",
-        "character-mcq-35",
-        "character-mcq-30"
+        "character-mcq-19",
+        "character-mcq-10",
+        "character-mcq-24"
       ],
       "explanation": "本句的「characterization」指「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」。",
       "sentenceIndex": 65,
@@ -2814,12 +2552,10 @@ export default {
         "characterization"
       ],
       "optionReasons": {
-        "character-mcq-33": "本句指「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」。",
-        "character-mcq-32": "「表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」」是「characterize = describe or distinguish someone or something by particular qualities 描述……的特徵；以……為特徵」的用法，與本句語境不同。",
-        "character-mcq-34": "「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」是「characterless = lacking distinctive qualities or personality 沒有特色的；缺乏個性的」的用法，與本句語境不同。",
-        "character-mcq-31": "「表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」」是「characteristic — adjective = typical of a person, thing, group, or style 典型的；特有的」的用法，與本句語境不同。",
-        "character-mcq-35": "「表示磨練品格；例句：「從失敗中學習可以磨練品格。」」是「build character = develop resilience, discipline, or moral strength 磨練品格」的用法，與本句語境不同。",
-        "character-mcq-30": "「表示特徵；特色；例句：「耐心是她最明顯的特質之一。」」是「characteristic — noun = a typical or distinctive quality or feature 特徵；特色」的用法，與本句語境不同。"
+        "character-mcq-33": "本句的「characterization」指「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」。",
+        "character-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-33"
     },
@@ -2831,11 +2567,9 @@ export default {
       "masked": "The renovation left the room looking ____.",
       "options": [
         "character-mcq-34",
-        "character-mcq-33",
-        "character-mcq-35",
-        "character-mcq-32",
-        "character-mcq-36",
-        "character-mcq-31"
+        "character-mcq-06",
+        "character-mcq-27",
+        "character-mcq-10"
       ],
       "explanation": "本句的「characterless」指「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」。",
       "sentenceIndex": 66,
@@ -2844,12 +2578,10 @@ export default {
         "characterless"
       ],
       "optionReasons": {
-        "character-mcq-34": "本句指「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」。",
-        "character-mcq-33": "「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」是「characterization」的用法，與本句語境不同。",
-        "character-mcq-35": "「表示磨練品格；例句：「從失敗中學習可以磨練品格。」」是「build character = develop resilience, discipline, or moral strength 磨練品格」的用法，與本句語境不同。",
-        "character-mcq-32": "「表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」」是「characterize = describe or distinguish someone or something by particular qualities 描述……的特徵；以……為特徵」的用法，與本句語境不同。",
-        "character-mcq-36": "「表示品格的考驗；例句：「那場危機是一次真正的品格考驗。」」是「a test of character = a difficult situation that reveals or tests someone’s personal or moral strength 品格的考驗」的用法，與本句語境不同。",
-        "character-mcq-31": "「表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」」是「characteristic — adjective = typical of a person, thing, group, or style 典型的；特有的」的用法，與本句語境不同。"
+        "character-mcq-34": "本句的「characterless」指「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」。",
+        "character-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-34"
     },
@@ -2861,11 +2593,9 @@ export default {
       "masked": "The building felt modern but ____.",
       "options": [
         "character-mcq-34",
-        "character-mcq-33",
         "character-mcq-35",
-        "character-mcq-32",
-        "character-mcq-36",
-        "character-mcq-31"
+        "character-mcq-10",
+        "character-mcq-26"
       ],
       "explanation": "本句的「characterless」指「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」。",
       "sentenceIndex": 67,
@@ -2874,12 +2604,10 @@ export default {
         "characterless"
       ],
       "optionReasons": {
-        "character-mcq-34": "本句指「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」。",
-        "character-mcq-33": "「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」是「characterization」的用法，與本句語境不同。",
-        "character-mcq-35": "「表示磨練品格；例句：「從失敗中學習可以磨練品格。」」是「build character = develop resilience, discipline, or moral strength 磨練品格」的用法，與本句語境不同。",
-        "character-mcq-32": "「表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」」是「characterize = describe or distinguish someone or something by particular qualities 描述……的特徵；以……為特徵」的用法，與本句語境不同。",
-        "character-mcq-36": "「表示品格的考驗；例句：「那場危機是一次真正的品格考驗。」」是「a test of character = a difficult situation that reveals or tests someone’s personal or moral strength 品格的考驗」的用法，與本句語境不同。",
-        "character-mcq-31": "「表示典型的；特有的；例句：「那種冷靜反應很符合她一貫的性格。」」是「characteristic — adjective = typical of a person, thing, group, or style 典型的；特有的」的用法，與本句語境不同。"
+        "character-mcq-34": "本句的「characterless」指「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」。",
+        "character-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-34"
     },
@@ -2891,11 +2619,9 @@ export default {
       "masked": "Learning from failure can ____.",
       "options": [
         "character-mcq-35",
-        "character-mcq-34",
-        "character-mcq-36",
-        "character-mcq-33",
-        "character-mcq-37",
-        "character-mcq-32"
+        "character-mcq-09",
+        "character-mcq-26",
+        "character-mcq-17"
       ],
       "explanation": "本句的「build character」指「表示磨練品格；例句：「從失敗中學習可以磨練品格。」」。",
       "sentenceIndex": 68,
@@ -2904,12 +2630,10 @@ export default {
         "build character"
       ],
       "optionReasons": {
-        "character-mcq-35": "本句指「表示磨練品格；例句：「從失敗中學習可以磨練品格。」」。",
-        "character-mcq-34": "「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」是「characterless = lacking distinctive qualities or personality 沒有特色的；缺乏個性的」的用法，與本句語境不同。",
-        "character-mcq-36": "「表示品格的考驗；例句：「那場危機是一次真正的品格考驗。」」是「a test of character = a difficult situation that reveals or tests someone’s personal or moral strength 品格的考驗」的用法，與本句語境不同。",
-        "character-mcq-33": "「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」是「characterization」的用法，與本句語境不同。",
-        "character-mcq-37": "「表示展現品格；展現韌性；例句：「球隊落後後展現了很強的韌性與意志。」」是「show character = demonstrate courage, determination, or moral strength 展現品格；展現韌性」的用法，與本句語境不同。",
-        "character-mcq-32": "「表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」」是「characterize = describe or distinguish someone or something by particular qualities 描述……的特徵；以……為特徵」的用法，與本句語境不同。"
+        "character-mcq-35": "本句的「build character」指「表示磨練品格；例句：「從失敗中學習可以磨練品格。」」。",
+        "character-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-35"
     },
@@ -2921,11 +2645,9 @@ export default {
       "masked": "Responsibility often ____.",
       "options": [
         "character-mcq-35",
-        "character-mcq-34",
-        "character-mcq-36",
+        "character-mcq-22",
         "character-mcq-33",
-        "character-mcq-37",
-        "character-mcq-32"
+        "character-mcq-12"
       ],
       "explanation": "本句的「builds character」指「表示磨練品格；例句：「從失敗中學習可以磨練品格。」」。",
       "sentenceIndex": 69,
@@ -2934,12 +2656,10 @@ export default {
         "builds character"
       ],
       "optionReasons": {
-        "character-mcq-35": "本句指「表示磨練品格；例句：「從失敗中學習可以磨練品格。」」。",
-        "character-mcq-34": "「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」是「characterless = lacking distinctive qualities or personality 沒有特色的；缺乏個性的」的用法，與本句語境不同。",
-        "character-mcq-36": "「表示品格的考驗；例句：「那場危機是一次真正的品格考驗。」」是「a test of character = a difficult situation that reveals or tests someone’s personal or moral strength 品格的考驗」的用法，與本句語境不同。",
-        "character-mcq-33": "「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」是「characterization」的用法，與本句語境不同。",
-        "character-mcq-37": "「表示展現品格；展現韌性；例句：「球隊落後後展現了很強的韌性與意志。」」是「show character = demonstrate courage, determination, or moral strength 展現品格；展現韌性」的用法，與本句語境不同。",
-        "character-mcq-32": "「表示描述……的特徵；以……為特徵；例句：「那個時期的特徵是快速變化。」」是「characterize = describe or distinguish someone or something by particular qualities 描述……的特徵；以……為特徵」的用法，與本句語境不同。"
+        "character-mcq-35": "本句的「builds character」指「表示磨練品格；例句：「從失敗中學習可以磨練品格。」」。",
+        "character-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-35"
     },
@@ -2951,11 +2671,9 @@ export default {
       "masked": "The crisis was a real ____.",
       "options": [
         "character-mcq-36",
-        "character-mcq-35",
-        "character-mcq-37",
-        "character-mcq-34",
-        "character-mcq-38",
-        "character-mcq-33"
+        "character-mcq-17",
+        "character-mcq-11",
+        "character-mcq-21"
       ],
       "explanation": "本句的「test of character」指「表示品格的考驗；例句：「那場危機是一次真正的品格考驗。」」。",
       "sentenceIndex": 70,
@@ -2964,12 +2682,10 @@ export default {
         "test of character"
       ],
       "optionReasons": {
-        "character-mcq-36": "本句指「表示品格的考驗；例句：「那場危機是一次真正的品格考驗。」」。",
-        "character-mcq-35": "「表示磨練品格；例句：「從失敗中學習可以磨練品格。」」是「build character = develop resilience, discipline, or moral strength 磨練品格」的用法，與本句語境不同。",
-        "character-mcq-37": "「表示展現品格；展現韌性；例句：「球隊落後後展現了很強的韌性與意志。」」是「show character = demonstrate courage, determination, or moral strength 展現品格；展現韌性」的用法，與本句語境不同。",
-        "character-mcq-34": "「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」是「characterless = lacking distinctive qualities or personality 沒有特色的；缺乏個性的」的用法，與本句語境不同。",
-        "character-mcq-38": "「表示缺乏特色；沒有個性；例句：「新建築很實用，但缺乏特色。」」是「lack character = lack distinctive personality or identity 缺乏特色；沒有個性」的用法，與本句語境不同。",
-        "character-mcq-33": "「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」是「characterization」的用法，與本句語境不同。"
+        "character-mcq-36": "本句的「test of character」指「表示品格的考驗；例句：「那場危機是一次真正的品格考驗。」」。",
+        "character-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-36"
     },
@@ -2981,11 +2697,9 @@ export default {
       "masked": "How you respond to failure can be a ____.",
       "options": [
         "character-mcq-36",
-        "character-mcq-35",
-        "character-mcq-37",
-        "character-mcq-34",
-        "character-mcq-38",
-        "character-mcq-33"
+        "character-mcq-33",
+        "character-mcq-10",
+        "character-mcq-16"
       ],
       "explanation": "本句的「test of character」指「表示品格的考驗；例句：「那場危機是一次真正的品格考驗。」」。",
       "sentenceIndex": 71,
@@ -2994,12 +2708,10 @@ export default {
         "test of character"
       ],
       "optionReasons": {
-        "character-mcq-36": "本句指「表示品格的考驗；例句：「那場危機是一次真正的品格考驗。」」。",
-        "character-mcq-35": "「表示磨練品格；例句：「從失敗中學習可以磨練品格。」」是「build character = develop resilience, discipline, or moral strength 磨練品格」的用法，與本句語境不同。",
-        "character-mcq-37": "「表示展現品格；展現韌性；例句：「球隊落後後展現了很強的韌性與意志。」」是「show character = demonstrate courage, determination, or moral strength 展現品格；展現韌性」的用法，與本句語境不同。",
-        "character-mcq-34": "「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」是「characterless = lacking distinctive qualities or personality 沒有特色的；缺乏個性的」的用法，與本句語境不同。",
-        "character-mcq-38": "「表示缺乏特色；沒有個性；例句：「新建築很實用，但缺乏特色。」」是「lack character = lack distinctive personality or identity 缺乏特色；沒有個性」的用法，與本句語境不同。",
-        "character-mcq-33": "「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」是「characterization」的用法，與本句語境不同。"
+        "character-mcq-36": "本句的「test of character」指「表示品格的考驗；例句：「那場危機是一次真正的品格考驗。」」。",
+        "character-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-36"
     },
@@ -3011,11 +2723,9 @@ export default {
       "masked": "The team ____ after falling behind.",
       "options": [
         "character-mcq-37",
-        "character-mcq-36",
-        "character-mcq-38",
-        "character-mcq-35",
-        "character-mcq-34",
-        "character-mcq-33"
+        "character-mcq-32",
+        "character-mcq-20",
+        "character-mcq-28"
       ],
       "explanation": "本句的「showed character」指「表示展現品格；展現韌性；例句：「球隊落後後展現了很強的韌性與意志。」」。",
       "sentenceIndex": 72,
@@ -3024,12 +2734,10 @@ export default {
         "showed character"
       ],
       "optionReasons": {
-        "character-mcq-37": "本句指「表示展現品格；展現韌性；例句：「球隊落後後展現了很強的韌性與意志。」」。",
-        "character-mcq-36": "「表示品格的考驗；例句：「那場危機是一次真正的品格考驗。」」是「a test of character = a difficult situation that reveals or tests someone’s personal or moral strength 品格的考驗」的用法，與本句語境不同。",
-        "character-mcq-38": "「表示缺乏特色；沒有個性；例句：「新建築很實用，但缺乏特色。」」是「lack character = lack distinctive personality or identity 缺乏特色；沒有個性」的用法，與本句語境不同。",
-        "character-mcq-35": "「表示磨練品格；例句：「從失敗中學習可以磨練品格。」」是「build character = develop resilience, discipline, or moral strength 磨練品格」的用法，與本句語境不同。",
-        "character-mcq-34": "「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」是「characterless = lacking distinctive qualities or personality 沒有特色的；缺乏個性的」的用法，與本句語境不同。",
-        "character-mcq-33": "「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」是「characterization」的用法，與本句語境不同。"
+        "character-mcq-37": "本句的「showed character」指「表示展現品格；展現韌性；例句：「球隊落後後展現了很強的韌性與意志。」」。",
+        "character-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-37"
     },
@@ -3041,11 +2749,9 @@ export default {
       "masked": "She ____ under pressure.",
       "options": [
         "character-mcq-37",
-        "character-mcq-36",
-        "character-mcq-38",
-        "character-mcq-35",
-        "character-mcq-34",
-        "character-mcq-33"
+        "character-mcq-28",
+        "character-mcq-31",
+        "character-mcq-27"
       ],
       "explanation": "本句的「showed real character」指「表示展現品格；展現韌性；例句：「球隊落後後展現了很強的韌性與意志。」」。",
       "sentenceIndex": 73,
@@ -3054,12 +2760,10 @@ export default {
         "showed real character"
       ],
       "optionReasons": {
-        "character-mcq-37": "本句指「表示展現品格；展現韌性；例句：「球隊落後後展現了很強的韌性與意志。」」。",
-        "character-mcq-36": "「表示品格的考驗；例句：「那場危機是一次真正的品格考驗。」」是「a test of character = a difficult situation that reveals or tests someone’s personal or moral strength 品格的考驗」的用法，與本句語境不同。",
-        "character-mcq-38": "「表示缺乏特色；沒有個性；例句：「新建築很實用，但缺乏特色。」」是「lack character = lack distinctive personality or identity 缺乏特色；沒有個性」的用法，與本句語境不同。",
-        "character-mcq-35": "「表示磨練品格；例句：「從失敗中學習可以磨練品格。」」是「build character = develop resilience, discipline, or moral strength 磨練品格」的用法，與本句語境不同。",
-        "character-mcq-34": "「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」是「characterless = lacking distinctive qualities or personality 沒有特色的；缺乏個性的」的用法，與本句語境不同。",
-        "character-mcq-33": "「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」是「characterization」的用法，與本句語境不同。"
+        "character-mcq-37": "本句的「showed real character」指「表示展現品格；展現韌性；例句：「球隊落後後展現了很強的韌性與意志。」」。",
+        "character-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-37"
     },
@@ -3071,11 +2775,9 @@ export default {
       "masked": "The new building is efficient but ____.",
       "options": [
         "character-mcq-38",
-        "character-mcq-37",
-        "character-mcq-36",
-        "character-mcq-35",
-        "character-mcq-34",
-        "character-mcq-33"
+        "character-mcq-27",
+        "character-mcq-23",
+        "character-mcq-10"
       ],
       "explanation": "本句的「lacks character」指「表示缺乏特色；沒有個性；例句：「新建築很實用，但缺乏特色。」」。",
       "sentenceIndex": 74,
@@ -3084,12 +2786,10 @@ export default {
         "lacks character"
       ],
       "optionReasons": {
-        "character-mcq-38": "本句指「表示缺乏特色；沒有個性；例句：「新建築很實用，但缺乏特色。」」。",
-        "character-mcq-37": "「表示展現品格；展現韌性；例句：「球隊落後後展現了很強的韌性與意志。」」是「show character = demonstrate courage, determination, or moral strength 展現品格；展現韌性」的用法，與本句語境不同。",
-        "character-mcq-36": "「表示品格的考驗；例句：「那場危機是一次真正的品格考驗。」」是「a test of character = a difficult situation that reveals or tests someone’s personal or moral strength 品格的考驗」的用法，與本句語境不同。",
-        "character-mcq-35": "「表示磨練品格；例句：「從失敗中學習可以磨練品格。」」是「build character = develop resilience, discipline, or moral strength 磨練品格」的用法，與本句語境不同。",
-        "character-mcq-34": "「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」是「characterless = lacking distinctive qualities or personality 沒有特色的；缺乏個性的」的用法，與本句語境不同。",
-        "character-mcq-33": "「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」是「characterization」的用法，與本句語境不同。"
+        "character-mcq-38": "本句的「lacks character」指「表示缺乏特色；沒有個性；例句：「新建築很實用，但缺乏特色。」」。",
+        "character-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-38"
     },
@@ -3101,11 +2801,9 @@ export default {
       "masked": "The design feels clean but somewhat ____.",
       "options": [
         "character-mcq-38",
-        "character-mcq-37",
         "character-mcq-36",
-        "character-mcq-35",
-        "character-mcq-34",
-        "character-mcq-33"
+        "character-mcq-21",
+        "character-mcq-10"
       ],
       "explanation": "本句的「lacking in character」指「表示缺乏特色；沒有個性；例句：「新建築很實用，但缺乏特色。」」。",
       "sentenceIndex": 75,
@@ -3114,12 +2812,10 @@ export default {
         "lacking in character"
       ],
       "optionReasons": {
-        "character-mcq-38": "本句指「表示缺乏特色；沒有個性；例句：「新建築很實用，但缺乏特色。」」。",
-        "character-mcq-37": "「表示展現品格；展現韌性；例句：「球隊落後後展現了很強的韌性與意志。」」是「show character = demonstrate courage, determination, or moral strength 展現品格；展現韌性」的用法，與本句語境不同。",
-        "character-mcq-36": "「表示品格的考驗；例句：「那場危機是一次真正的品格考驗。」」是「a test of character = a difficult situation that reveals or tests someone’s personal or moral strength 品格的考驗」的用法，與本句語境不同。",
-        "character-mcq-35": "「表示磨練品格；例句：「從失敗中學習可以磨練品格。」」是「build character = develop resilience, discipline, or moral strength 磨練品格」的用法，與本句語境不同。",
-        "character-mcq-34": "「表示沒有特色的；缺乏個性的；例句：「翻修後房間看起來毫無特色。」」是「characterless = lacking distinctive qualities or personality 沒有特色的；缺乏個性的」的用法，與本句語境不同。",
-        "character-mcq-33": "「表示特徵描述；例句：「報告對這個問題作了詳細的特徵描述。」」是「characterization」的用法，與本句語境不同。"
+        "character-mcq-38": "本句的「lacking in character」指「表示缺乏特色；沒有個性；例句：「新建築很實用，但缺乏特色。」」。",
+        "character-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "character-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "character-mcq-38"
     }
@@ -3131,5 +2827,7 @@ export default {
     "sha256": "e52aa5b1aef244940444ef17e142baa69f797070e02efc013d063ee7a65e1125",
     "pages": 20
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

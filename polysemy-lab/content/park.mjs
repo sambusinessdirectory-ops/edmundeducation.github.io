@@ -218,11 +218,8 @@ export default {
       "masked": "We used to play football in the ____.",
       "options": [
         "park-mcq-01",
-        "park-mcq-02",
-        "park-mcq-03",
-        "park-mcq-04",
-        "park-mcq-05",
-        "park-mcq-06"
+        "park-pdf-001",
+        "park-mcq-05"
       ],
       "explanation": "本句的「park」指「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」。",
       "sentenceIndex": 0,
@@ -231,12 +228,9 @@ export default {
         "park"
       ],
       "optionReasons": {
-        "park-mcq-01": "本句指「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」。",
-        "park-mcq-02": "「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」是「park — designated large area」的用法，與本句語境不同。",
-        "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。",
-        "park-mcq-04": "「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」是「park person/object/idea/money」的用法，與本句語境不同。",
-        "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
-        "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。"
+        "park-mcq-01": "本句的「park」指「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」。",
+        "park-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-mcq-01"
     },
@@ -248,11 +242,9 @@ export default {
       "masked": "Families were having picnics in the ____.",
       "options": [
         "park-mcq-01",
-        "park-mcq-02",
-        "park-mcq-03",
-        "park-mcq-04",
-        "park-mcq-05",
-        "park-mcq-06"
+        "park-pdf-001",
+        "park-mcq-06",
+        "park-mcq-07"
       ],
       "explanation": "本句的「park」指「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」。",
       "sentenceIndex": 1,
@@ -261,12 +253,10 @@ export default {
         "park"
       ],
       "optionReasons": {
-        "park-mcq-01": "本句指「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」。",
-        "park-mcq-02": "「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」是「park — designated large area」的用法，與本句語境不同。",
-        "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。",
-        "park-mcq-04": "「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」是「park person/object/idea/money」的用法，與本句語境不同。",
-        "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
-        "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。"
+        "park-mcq-01": "本句的「park」指「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」。",
+        "park-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-mcq-01"
     },
@@ -278,11 +268,8 @@ export default {
       "masked": "She goes running in the ____ every morning.",
       "options": [
         "park-mcq-01",
-        "park-mcq-02",
         "park-mcq-03",
-        "park-mcq-04",
-        "park-mcq-05",
-        "park-mcq-06"
+        "park-mcq-07"
       ],
       "explanation": "本句的「park」指「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」。",
       "sentenceIndex": 2,
@@ -291,12 +278,9 @@ export default {
         "park"
       ],
       "optionReasons": {
-        "park-mcq-01": "本句指「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」。",
-        "park-mcq-02": "「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」是「park — designated large area」的用法，與本句語境不同。",
-        "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。",
-        "park-mcq-04": "「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」是「park person/object/idea/money」的用法，與本句語境不同。",
-        "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
-        "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。"
+        "park-mcq-01": "本句的「park」指「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」。",
+        "park-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-mcq-01"
     },
@@ -308,11 +292,7 @@ export default {
       "masked": "They spent three days hiking in the national ____.",
       "options": [
         "park-mcq-02",
-        "park-mcq-01",
-        "park-mcq-03",
-        "park-mcq-04",
-        "park-mcq-05",
-        "park-mcq-06"
+        "park-pdf-001"
       ],
       "explanation": "本句的「park」指「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」。",
       "sentenceIndex": 3,
@@ -321,12 +301,8 @@ export default {
         "park"
       ],
       "optionReasons": {
-        "park-mcq-02": "本句指「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」。",
-        "park-mcq-01": "「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」是「park — public recreational area」的用法，與本句語境不同。",
-        "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。",
-        "park-mcq-04": "「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」是「park person/object/idea/money」的用法，與本句語境不同。",
-        "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
-        "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。"
+        "park-mcq-02": "本句的「park」指「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」。",
+        "park-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-mcq-02"
     },
@@ -338,11 +314,7 @@ export default {
       "masked": "The wildlife ____ is home to several endangered species.",
       "options": [
         "park-mcq-02",
-        "park-mcq-01",
-        "park-mcq-03",
-        "park-mcq-04",
-        "park-mcq-05",
-        "park-mcq-06"
+        "park-pdf-001"
       ],
       "explanation": "本句的「park」指「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」。",
       "sentenceIndex": 4,
@@ -351,12 +323,8 @@ export default {
         "park"
       ],
       "optionReasons": {
-        "park-mcq-02": "本句指「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」。",
-        "park-mcq-01": "「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」是「park — public recreational area」的用法，與本句語境不同。",
-        "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。",
-        "park-mcq-04": "「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」是「park person/object/idea/money」的用法，與本句語境不同。",
-        "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
-        "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。"
+        "park-mcq-02": "本句的「park」指「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」。",
+        "park-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-mcq-02"
     },
@@ -368,11 +336,8 @@ export default {
       "masked": "I ____ the car outside the station.",
       "options": [
         "park-mcq-03",
-        "park-mcq-02",
-        "park-mcq-04",
         "park-mcq-01",
-        "park-mcq-05",
-        "park-mcq-06"
+        "park-mcq-07"
       ],
       "explanation": "本句的「parked」指「把車輛停在某個位置並暫時留在那裡」。",
       "sentenceIndex": 5,
@@ -381,12 +346,9 @@ export default {
         "parked"
       ],
       "optionReasons": {
-        "park-mcq-03": "本句指「把車輛停在某個位置並暫時留在那裡」。",
-        "park-mcq-02": "「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」是「park — designated large area」的用法，與本句語境不同。",
-        "park-mcq-04": "「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」是「park person/object/idea/money」的用法，與本句語境不同。",
-        "park-mcq-01": "「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」是「park — public recreational area」的用法，與本句語境不同。",
-        "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
-        "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。"
+        "park-mcq-03": "本句的「parked」指「把車輛停在某個位置並暫時留在那裡」。",
+        "park-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-mcq-03"
     },
@@ -398,11 +360,8 @@ export default {
       "masked": "You cannot ____ here after six.",
       "options": [
         "park-mcq-03",
-        "park-mcq-02",
-        "park-mcq-04",
-        "park-mcq-01",
-        "park-mcq-05",
-        "park-mcq-06"
+        "park-mcq-07",
+        "park-mcq-01"
       ],
       "explanation": "本句的「park」指「把車輛停在某個位置並暫時留在那裡」。",
       "sentenceIndex": 6,
@@ -411,12 +370,9 @@ export default {
         "park"
       ],
       "optionReasons": {
-        "park-mcq-03": "本句指「把車輛停在某個位置並暫時留在那裡」。",
-        "park-mcq-02": "「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」是「park — designated large area」的用法，與本句語境不同。",
-        "park-mcq-04": "「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」是「park person/object/idea/money」的用法，與本句語境不同。",
-        "park-mcq-01": "「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」是「park — public recreational area」的用法，與本句語境不同。",
-        "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
-        "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。"
+        "park-mcq-03": "本句的「park」指「把車輛停在某個位置並暫時留在那裡」。",
+        "park-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-mcq-03"
     },
@@ -428,10 +384,7 @@ export default {
       "masked": "Just ____ on the sofa for a few minutes.",
       "options": [
         "park-mcq-04",
-        "park-mcq-03",
-        "park-mcq-05",
-        "park-mcq-02",
-        "park-mcq-06",
+        "park-mcq-07",
         "park-mcq-01"
       ],
       "explanation": "本句的「park yourself」指「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」。",
@@ -441,12 +394,9 @@ export default {
         "park yourself"
       ],
       "optionReasons": {
-        "park-mcq-04": "本句指「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」。",
-        "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。",
-        "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
-        "park-mcq-02": "「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」是「park — designated large area」的用法，與本句語境不同。",
-        "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。",
-        "park-mcq-01": "「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」是「park — public recreational area」的用法，與本句語境不同。"
+        "park-mcq-04": "本句的「park yourself」指「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」。",
+        "park-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-mcq-04"
     },
@@ -458,10 +408,7 @@ export default {
       "masked": "We can ____ in the spare room for now.",
       "options": [
         "park-mcq-04",
-        "park-mcq-03",
-        "park-mcq-05",
-        "park-mcq-02",
-        "park-mcq-06",
+        "park-mcq-07",
         "park-mcq-01"
       ],
       "explanation": "本句的「park the boxes」指「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」。",
@@ -471,12 +418,9 @@ export default {
         "park the boxes"
       ],
       "optionReasons": {
-        "park-mcq-04": "本句指「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」。",
-        "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。",
-        "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
-        "park-mcq-02": "「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」是「park — designated large area」的用法，與本句語境不同。",
-        "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。",
-        "park-mcq-01": "「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」是「park — public recreational area」的用法，與本句語境不同。"
+        "park-mcq-04": "本句的「park the boxes」指「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」。",
+        "park-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-mcq-04"
     },
@@ -488,11 +432,9 @@ export default {
       "masked": "Let’s ____ and come back to it tomorrow.",
       "options": [
         "park-pdf-001",
-        "park-mcq-03",
-        "park-mcq-05",
-        "park-mcq-02",
-        "park-mcq-06",
-        "park-mcq-01"
+        "park-mcq-07",
+        "park-mcq-01",
+        "park-mcq-06"
       ],
       "explanation": "本句的「park that issue」指「暫時停止討論或處理某件事，但保留日後再處理的可能」。",
       "sentenceIndex": 9,
@@ -501,12 +443,10 @@ export default {
         "park that issue"
       ],
       "optionReasons": {
-        "park-pdf-001": "本句指「暫時停止討論或處理某件事，但保留日後再處理的可能」。",
-        "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。",
-        "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
-        "park-mcq-02": "「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」是「park — designated large area」的用法，與本句語境不同。",
-        "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。",
-        "park-mcq-01": "「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」是「park — public recreational area」的用法，與本句語境不同。"
+        "park-pdf-001": "本句的「park that issue」指「暫時停止討論或處理某件事，但保留日後再處理的可能」。",
+        "park-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-pdf-001"
     },
@@ -518,11 +458,9 @@ export default {
       "masked": "The proposal was ____ until more information became available.",
       "options": [
         "park-pdf-001",
-        "park-mcq-03",
-        "park-mcq-05",
-        "park-mcq-02",
-        "park-mcq-06",
-        "park-mcq-01"
+        "park-mcq-01",
+        "park-mcq-07",
+        "park-mcq-06"
       ],
       "explanation": "本句的「parked」指「暫時停止討論或處理某件事，但保留日後再處理的可能」。",
       "sentenceIndex": 10,
@@ -531,12 +469,10 @@ export default {
         "parked"
       ],
       "optionReasons": {
-        "park-pdf-001": "本句指「暫時停止討論或處理某件事，但保留日後再處理的可能」。",
-        "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。",
-        "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
-        "park-mcq-02": "「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」是「park — designated large area」的用法，與本句語境不同。",
-        "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。",
-        "park-mcq-01": "「供公眾散步、休息、運動、遊玩或接觸自然環境的戶外開放綠地」是「park — public recreational area」的用法，與本句語境不同。"
+        "park-pdf-001": "本句的「parked」指「暫時停止討論或處理某件事，但保留日後再處理的可能」。",
+        "park-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-pdf-001"
     },
@@ -549,10 +485,7 @@ export default {
       "options": [
         "park-mcq-08",
         "park-mcq-07",
-        "park-mcq-06",
-        "park-mcq-05",
-        "park-mcq-04",
-        "park-mcq-03"
+        "park-mcq-01"
       ],
       "explanation": "本句的「parked」指「暫時把資金放在某個較安全或方便的位置，等待之後再作其他用途」。",
       "sentenceIndex": 11,
@@ -561,12 +494,9 @@ export default {
         "parked"
       ],
       "optionReasons": {
-        "park-mcq-08": "本句指「暫時把資金放在某個較安全或方便的位置，等待之後再作其他用途」。",
-        "park-mcq-07": "「以遊樂設施、娛樂和特定主題為中心的大型休閒園區」是「theme park」的用法，與本句語境不同。",
-        "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。",
-        "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
-        "park-mcq-04": "「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」是「park person/object/idea/money」的用法，與本句語境不同。",
-        "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。"
+        "park-mcq-08": "本句的「parked」指「暫時把資金放在某個較安全或方便的位置，等待之後再作其他用途」。",
+        "park-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-mcq-08"
     },
@@ -579,10 +509,7 @@ export default {
       "options": [
         "park-mcq-08",
         "park-mcq-07",
-        "park-mcq-06",
-        "park-mcq-05",
-        "park-mcq-04",
-        "park-mcq-03"
+        "park-mcq-01"
       ],
       "explanation": "本句的「park」指「暫時把資金放在某個較安全或方便的位置，等待之後再作其他用途」。",
       "sentenceIndex": 12,
@@ -591,12 +518,9 @@ export default {
         "park"
       ],
       "optionReasons": {
-        "park-mcq-08": "本句指「暫時把資金放在某個較安全或方便的位置，等待之後再作其他用途」。",
-        "park-mcq-07": "「以遊樂設施、娛樂和特定主題為中心的大型休閒園區」是「theme park」的用法，與本句語境不同。",
-        "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。",
-        "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
-        "park-mcq-04": "「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」是「park person/object/idea/money」的用法，與本句語境不同。",
-        "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。"
+        "park-mcq-08": "本句的「park」指「暫時把資金放在某個較安全或方便的位置，等待之後再作其他用途」。",
+        "park-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-mcq-08"
     },
@@ -608,11 +532,8 @@ export default {
       "masked": "There is no ____ outside the building.",
       "options": [
         "park-mcq-05",
-        "park-mcq-04",
-        "park-mcq-06",
-        "park-mcq-03",
-        "park-mcq-07",
-        "park-mcq-02"
+        "park-mcq-01",
+        "park-pdf-001"
       ],
       "explanation": "本句的「parking」指「車輛停放的行為、規定、空間或設施」。",
       "sentenceIndex": 13,
@@ -621,12 +542,9 @@ export default {
         "parking"
       ],
       "optionReasons": {
-        "park-mcq-05": "本句指「車輛停放的行為、規定、空間或設施」。",
-        "park-mcq-04": "「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」是「park person/object/idea/money」的用法，與本句語境不同。",
-        "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。",
-        "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。",
-        "park-mcq-07": "「以遊樂設施、娛樂和特定主題為中心的大型休閒園區」是「theme park」的用法，與本句語境不同。",
-        "park-mcq-02": "「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」是「park — designated large area」的用法，與本句語境不同。"
+        "park-mcq-05": "本句的「parking」指「車輛停放的行為、規定、空間或設施」。",
+        "park-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "park-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-mcq-05"
     },
@@ -638,11 +556,8 @@ export default {
       "masked": "The hotel offers free ____.",
       "options": [
         "park-mcq-05",
-        "park-mcq-04",
-        "park-mcq-06",
-        "park-mcq-03",
-        "park-mcq-07",
-        "park-mcq-02"
+        "park-pdf-001",
+        "park-mcq-01"
       ],
       "explanation": "本句的「parking」指「車輛停放的行為、規定、空間或設施」。",
       "sentenceIndex": 14,
@@ -651,12 +566,9 @@ export default {
         "parking"
       ],
       "optionReasons": {
-        "park-mcq-05": "本句指「車輛停放的行為、規定、空間或設施」。",
-        "park-mcq-04": "「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」是「park person/object/idea/money」的用法，與本句語境不同。",
-        "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。",
-        "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。",
-        "park-mcq-07": "「以遊樂設施、娛樂和特定主題為中心的大型休閒園區」是「theme park」的用法，與本句語境不同。",
-        "park-mcq-02": "「被劃作自然保護、休閒或特定組織用途的一大片土地／園區；與場所義高度相關」是「park — designated large area」的用法，與本句語境不同。"
+        "park-mcq-05": "本句的「parking」指「車輛停放的行為、規定、空間或設施」。",
+        "park-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-mcq-05"
     },
@@ -668,11 +580,9 @@ export default {
       "masked": "We left the car in the ____.",
       "options": [
         "park-mcq-06",
-        "park-mcq-05",
         "park-mcq-07",
-        "park-mcq-04",
-        "park-mcq-08",
-        "park-mcq-03"
+        "park-mcq-01",
+        "park-pdf-001"
       ],
       "explanation": "本句的「car park」指「專門供車輛停泊的地方；英式英語」。",
       "sentenceIndex": 15,
@@ -681,12 +591,10 @@ export default {
         "car park"
       ],
       "optionReasons": {
-        "park-mcq-06": "本句指「專門供車輛停泊的地方；英式英語」。",
-        "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
-        "park-mcq-07": "「以遊樂設施、娛樂和特定主題為中心的大型休閒園區」是「theme park」的用法，與本句語境不同。",
-        "park-mcq-04": "「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」是「park person/object/idea/money」的用法，與本句語境不同。",
-        "park-mcq-08": "「暫時把資金放在某個較安全或方便的位置，等待之後再作其他用途」是「6. park + money/assets（金融） — 暫時存放／投入資金」的用法，與本句語境不同。",
-        "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。"
+        "park-mcq-06": "本句的「car park」指「專門供車輛停泊的地方；英式英語」。",
+        "park-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "park-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-mcq-06"
     },
@@ -698,11 +606,9 @@ export default {
       "masked": "The shopping centre has a large underground ____.",
       "options": [
         "park-mcq-06",
-        "park-mcq-05",
         "park-mcq-07",
-        "park-mcq-04",
-        "park-mcq-08",
-        "park-mcq-03"
+        "park-mcq-01",
+        "park-pdf-001"
       ],
       "explanation": "本句的「car park」指「專門供車輛停泊的地方；英式英語」。",
       "sentenceIndex": 16,
@@ -711,12 +617,10 @@ export default {
         "car park"
       ],
       "optionReasons": {
-        "park-mcq-06": "本句指「專門供車輛停泊的地方；英式英語」。",
-        "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
-        "park-mcq-07": "「以遊樂設施、娛樂和特定主題為中心的大型休閒園區」是「theme park」的用法，與本句語境不同。",
-        "park-mcq-04": "「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」是「park person/object/idea/money」的用法，與本句語境不同。",
-        "park-mcq-08": "「暫時把資金放在某個較安全或方便的位置，等待之後再作其他用途」是「6. park + money/assets（金融） — 暫時存放／投入資金」的用法，與本句語境不同。",
-        "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。"
+        "park-mcq-06": "本句的「car park」指「專門供車輛停泊的地方；英式英語」。",
+        "park-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "park-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-mcq-06"
     },
@@ -728,11 +632,9 @@ export default {
       "masked": "The children spent the whole day at the ____.",
       "options": [
         "park-mcq-07",
+        "park-pdf-001",
         "park-mcq-06",
-        "park-mcq-08",
-        "park-mcq-05",
-        "park-mcq-04",
-        "park-mcq-03"
+        "park-mcq-01"
       ],
       "explanation": "本句的「theme park」指「以遊樂設施、娛樂和特定主題為中心的大型休閒園區」。",
       "sentenceIndex": 17,
@@ -741,12 +643,10 @@ export default {
         "theme park"
       ],
       "optionReasons": {
-        "park-mcq-07": "本句指「以遊樂設施、娛樂和特定主題為中心的大型休閒園區」。",
-        "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。",
-        "park-mcq-08": "「暫時把資金放在某個較安全或方便的位置，等待之後再作其他用途」是「6. park + money/assets（金融） — 暫時存放／投入資金」的用法，與本句語境不同。",
-        "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
-        "park-mcq-04": "「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」是「park person/object/idea/money」的用法，與本句語境不同。",
-        "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。"
+        "park-mcq-07": "本句的「theme park」指「以遊樂設施、娛樂和特定主題為中心的大型休閒園區」。",
+        "park-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-mcq-07"
     },
@@ -758,11 +658,8 @@ export default {
       "masked": "The new ____ opens next summer.",
       "options": [
         "park-mcq-07",
-        "park-mcq-06",
-        "park-mcq-08",
-        "park-mcq-05",
-        "park-mcq-04",
-        "park-mcq-03"
+        "park-mcq-03",
+        "park-mcq-01"
       ],
       "explanation": "本句的「theme park」指「以遊樂設施、娛樂和特定主題為中心的大型休閒園區」。",
       "sentenceIndex": 18,
@@ -771,12 +668,9 @@ export default {
         "theme park"
       ],
       "optionReasons": {
-        "park-mcq-07": "本句指「以遊樂設施、娛樂和特定主題為中心的大型休閒園區」。",
-        "park-mcq-06": "「專門供車輛停泊的地方；英式英語」是「car park」的用法，與本句語境不同。",
-        "park-mcq-08": "「暫時把資金放在某個較安全或方便的位置，等待之後再作其他用途」是「6. park + money/assets（金融） — 暫時存放／投入資金」的用法，與本句語境不同。",
-        "park-mcq-05": "「車輛停放的行為、規定、空間或設施」是「parking」的用法，與本句語境不同。",
-        "park-mcq-04": "「暫時把人、物件、議題或資源放在某個位置／狀態，稍後再處理或移動」是「park person/object/idea/money」的用法，與本句語境不同。",
-        "park-mcq-03": "「把車輛停在某個位置並暫時留在那裡」是「park — vehicle」的用法，與本句語境不同。"
+        "park-mcq-07": "本句的「theme park」指「以遊樂設施、娛樂和特定主題為中心的大型休閒園區」。",
+        "park-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "park-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "park-mcq-07"
     }
@@ -788,5 +682,7 @@ export default {
     "sha256": "da3801f9e20df9b116def9d68bdee92a7e4b13a2f1239389037dfb5c7baa0d4b",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

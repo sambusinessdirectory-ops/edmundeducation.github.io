@@ -454,11 +454,9 @@ export default {
       "masked": "The pirates searched for buried ____.",
       "options": [
         "treasure-mcq-01",
-        "treasure-mcq-02",
-        "treasure-mcq-03",
+        "treasure-mcq-20",
         "treasure-mcq-04",
-        "treasure-mcq-05",
-        "treasure-mcq-06"
+        "treasure-mcq-17"
       ],
       "explanation": "本句的「treasure」指「金銀、珠寶等非常珍貴的財物；財寶／寶藏」。",
       "sentenceIndex": 2,
@@ -467,12 +465,10 @@ export default {
         "treasure"
       ],
       "optionReasons": {
-        "treasure-mcq-01": "本句指「金銀、珠寶等非常珍貴的財物；財寶／寶藏」。",
-        "treasure-mcq-02": "「被秘密埋藏的財寶／寶藏」與本句語境不同。",
-        "treasure-mcq-03": "「裝有財寶的寶箱」與本句語境不同。",
-        "treasure-mcq-04": "「因稀有、價值或意義而受到珍視的珍品／寶物」與本句語境不同。",
-        "treasure-mcq-05": "「對國家或文化具有極高價值的國寶／文化珍寶」與本句語境不同。",
-        "treasure-mcq-06": "「被視為非常珍貴、珍愛的人；寶貝」與本句語境不同。"
+        "treasure-mcq-01": "本句的「treasure」指「金銀、珠寶等非常珍貴的財物；財寶／寶藏」。",
+        "treasure-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-01"
     },
@@ -484,11 +480,8 @@ export default {
       "masked": "The chest was filled with ____.",
       "options": [
         "treasure-mcq-01",
-        "treasure-mcq-02",
-        "treasure-mcq-03",
-        "treasure-mcq-04",
-        "treasure-mcq-05",
-        "treasure-mcq-06"
+        "treasure-mcq-14",
+        "treasure-mcq-09"
       ],
       "explanation": "本句的「treasure」指「金銀、珠寶等非常珍貴的財物；財寶／寶藏」。",
       "sentenceIndex": 3,
@@ -497,12 +490,9 @@ export default {
         "treasure"
       ],
       "optionReasons": {
-        "treasure-mcq-01": "本句指「金銀、珠寶等非常珍貴的財物；財寶／寶藏」。",
-        "treasure-mcq-02": "「被秘密埋藏的財寶／寶藏」與本句語境不同。",
-        "treasure-mcq-03": "「裝有財寶的寶箱」與本句語境不同。",
-        "treasure-mcq-04": "「因稀有、價值或意義而受到珍視的珍品／寶物」與本句語境不同。",
-        "treasure-mcq-05": "「對國家或文化具有極高價值的國寶／文化珍寶」與本句語境不同。",
-        "treasure-mcq-06": "「被視為非常珍貴、珍愛的人；寶貝」與本句語境不同。"
+        "treasure-mcq-01": "本句的「treasure」指「金銀、珠寶等非常珍貴的財物；財寶／寶藏」。",
+        "treasure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-01"
     },
@@ -514,11 +504,9 @@ export default {
       "masked": "The story is about a map to ____.",
       "options": [
         "treasure-mcq-02",
-        "treasure-mcq-01",
-        "treasure-mcq-03",
-        "treasure-mcq-04",
-        "treasure-mcq-05",
-        "treasure-mcq-06"
+        "treasure-mcq-13",
+        "treasure-mcq-20",
+        "treasure-mcq-05"
       ],
       "explanation": "本句的「buried treasure」指「被秘密埋藏的財寶／寶藏」。",
       "sentenceIndex": 4,
@@ -527,12 +515,10 @@ export default {
         "buried treasure"
       ],
       "optionReasons": {
-        "treasure-mcq-02": "本句指「被秘密埋藏的財寶／寶藏」。",
-        "treasure-mcq-01": "「金銀、珠寶等非常珍貴的財物；財寶／寶藏」與本句語境不同。",
-        "treasure-mcq-03": "「裝有財寶的寶箱」與本句語境不同。",
-        "treasure-mcq-04": "「因稀有、價值或意義而受到珍視的珍品／寶物」與本句語境不同。",
-        "treasure-mcq-05": "「對國家或文化具有極高價值的國寶／文化珍寶」與本句語境不同。",
-        "treasure-mcq-06": "「被視為非常珍貴、珍愛的人；寶貝」與本句語境不同。"
+        "treasure-mcq-02": "本句的「buried treasure」指「被秘密埋藏的財寶／寶藏」。",
+        "treasure-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-02"
     },
@@ -544,11 +530,9 @@ export default {
       "masked": "They dreamed of finding ____.",
       "options": [
         "treasure-mcq-02",
-        "treasure-mcq-01",
-        "treasure-mcq-03",
-        "treasure-mcq-04",
-        "treasure-mcq-05",
-        "treasure-mcq-06"
+        "treasure-mcq-07",
+        "treasure-mcq-08",
+        "treasure-mcq-05"
       ],
       "explanation": "本句的「buried treasure」指「被秘密埋藏的財寶／寶藏」。",
       "sentenceIndex": 5,
@@ -557,12 +541,10 @@ export default {
         "buried treasure"
       ],
       "optionReasons": {
-        "treasure-mcq-02": "本句指「被秘密埋藏的財寶／寶藏」。",
-        "treasure-mcq-01": "「金銀、珠寶等非常珍貴的財物；財寶／寶藏」與本句語境不同。",
-        "treasure-mcq-03": "「裝有財寶的寶箱」與本句語境不同。",
-        "treasure-mcq-04": "「因稀有、價值或意義而受到珍視的珍品／寶物」與本句語境不同。",
-        "treasure-mcq-05": "「對國家或文化具有極高價值的國寶／文化珍寶」與本句語境不同。",
-        "treasure-mcq-06": "「被視為非常珍貴、珍愛的人；寶貝」與本句語境不同。"
+        "treasure-mcq-02": "本句的「buried treasure」指「被秘密埋藏的財寶／寶藏」。",
+        "treasure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-02"
     },
@@ -574,11 +556,9 @@ export default {
       "masked": "The children found a wooden ____.",
       "options": [
         "treasure-mcq-03",
-        "treasure-mcq-02",
-        "treasure-mcq-04",
-        "treasure-mcq-01",
-        "treasure-mcq-05",
-        "treasure-mcq-06"
+        "treasure-mcq-07",
+        "treasure-mcq-08",
+        "treasure-mcq-17"
       ],
       "explanation": "本句的「treasure chest」指「裝有財寶的寶箱」。",
       "sentenceIndex": 6,
@@ -587,12 +567,10 @@ export default {
         "treasure chest"
       ],
       "optionReasons": {
-        "treasure-mcq-03": "本句指「裝有財寶的寶箱」。",
-        "treasure-mcq-02": "「被秘密埋藏的財寶／寶藏」與本句語境不同。",
-        "treasure-mcq-04": "「因稀有、價值或意義而受到珍視的珍品／寶物」與本句語境不同。",
-        "treasure-mcq-01": "「金銀、珠寶等非常珍貴的財物；財寶／寶藏」與本句語境不同。",
-        "treasure-mcq-05": "「對國家或文化具有極高價值的國寶／文化珍寶」與本句語境不同。",
-        "treasure-mcq-06": "「被視為非常珍貴、珍愛的人；寶貝」與本句語境不同。"
+        "treasure-mcq-03": "本句的「treasure chest」指「裝有財寶的寶箱」。",
+        "treasure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-03"
     },
@@ -604,11 +582,9 @@ export default {
       "masked": "The pirate opened the ____.",
       "options": [
         "treasure-mcq-03",
-        "treasure-mcq-02",
-        "treasure-mcq-04",
-        "treasure-mcq-01",
-        "treasure-mcq-05",
-        "treasure-mcq-06"
+        "treasure-mcq-14",
+        "treasure-mcq-09",
+        "treasure-mcq-08"
       ],
       "explanation": "本句的「treasure chest」指「裝有財寶的寶箱」。",
       "sentenceIndex": 7,
@@ -617,12 +593,10 @@ export default {
         "treasure chest"
       ],
       "optionReasons": {
-        "treasure-mcq-03": "本句指「裝有財寶的寶箱」。",
-        "treasure-mcq-02": "「被秘密埋藏的財寶／寶藏」與本句語境不同。",
-        "treasure-mcq-04": "「因稀有、價值或意義而受到珍視的珍品／寶物」與本句語境不同。",
-        "treasure-mcq-01": "「金銀、珠寶等非常珍貴的財物；財寶／寶藏」與本句語境不同。",
-        "treasure-mcq-05": "「對國家或文化具有極高價值的國寶／文化珍寶」與本句語境不同。",
-        "treasure-mcq-06": "「被視為非常珍貴、珍愛的人；寶貝」與本句語境不同。"
+        "treasure-mcq-03": "本句的「treasure chest」指「裝有財寶的寶箱」。",
+        "treasure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-03"
     },
@@ -635,10 +609,8 @@ export default {
       "options": [
         "treasure-mcq-04",
         "treasure-mcq-03",
-        "treasure-mcq-05",
-        "treasure-mcq-02",
-        "treasure-mcq-06",
-        "treasure-mcq-01"
+        "treasure-mcq-20",
+        "treasure-mcq-17"
       ],
       "explanation": "本句的「treasures」指「因稀有、價值或意義而受到珍視的珍品／寶物」。",
       "sentenceIndex": 8,
@@ -647,12 +619,10 @@ export default {
         "treasures"
       ],
       "optionReasons": {
-        "treasure-mcq-04": "本句指「因稀有、價值或意義而受到珍視的珍品／寶物」。",
-        "treasure-mcq-03": "「裝有財寶的寶箱」與本句語境不同。",
-        "treasure-mcq-05": "「對國家或文化具有極高價值的國寶／文化珍寶」與本句語境不同。",
-        "treasure-mcq-02": "「被秘密埋藏的財寶／寶藏」與本句語境不同。",
-        "treasure-mcq-06": "「被視為非常珍貴、珍愛的人；寶貝」與本句語境不同。",
-        "treasure-mcq-01": "「金銀、珠寶等非常珍貴的財物；財寶／寶藏」與本句語境不同。"
+        "treasure-mcq-04": "本句的「treasures」指「因稀有、價值或意義而受到珍視的珍品／寶物」。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-04"
     },
@@ -664,11 +634,8 @@ export default {
       "masked": "The old watch is a family ____.",
       "options": [
         "treasure-mcq-04",
-        "treasure-mcq-03",
-        "treasure-mcq-05",
-        "treasure-mcq-02",
-        "treasure-mcq-06",
-        "treasure-mcq-01"
+        "treasure-mcq-11",
+        "treasure-mcq-02"
       ],
       "explanation": "本句的「treasure」指「因稀有、價值或意義而受到珍視的珍品／寶物」。",
       "sentenceIndex": 9,
@@ -677,12 +644,9 @@ export default {
         "treasure"
       ],
       "optionReasons": {
-        "treasure-mcq-04": "本句指「因稀有、價值或意義而受到珍視的珍品／寶物」。",
-        "treasure-mcq-03": "「裝有財寶的寶箱」與本句語境不同。",
-        "treasure-mcq-05": "「對國家或文化具有極高價值的國寶／文化珍寶」與本句語境不同。",
-        "treasure-mcq-02": "「被秘密埋藏的財寶／寶藏」與本句語境不同。",
-        "treasure-mcq-06": "「被視為非常珍貴、珍愛的人；寶貝」與本句語境不同。",
-        "treasure-mcq-01": "「金銀、珠寶等非常珍貴的財物；財寶／寶藏」與本句語境不同。"
+        "treasure-mcq-04": "本句的「treasure」指「因稀有、價值或意義而受到珍視的珍品／寶物」。",
+        "treasure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-04"
     },
@@ -694,11 +658,9 @@ export default {
       "masked": "The temple is considered a national ____.",
       "options": [
         "treasure-mcq-05",
-        "treasure-mcq-04",
-        "treasure-mcq-06",
+        "treasure-mcq-08",
         "treasure-mcq-03",
-        "treasure-mcq-07",
-        "treasure-mcq-02"
+        "treasure-mcq-07"
       ],
       "explanation": "本句的「treasure」指「對國家或文化具有極高價值的國寶／文化珍寶」。",
       "sentenceIndex": 10,
@@ -707,12 +669,10 @@ export default {
         "treasure"
       ],
       "optionReasons": {
-        "treasure-mcq-05": "本句指「對國家或文化具有極高價值的國寶／文化珍寶」。",
-        "treasure-mcq-04": "「因稀有、價值或意義而受到珍視的珍品／寶物」與本句語境不同。",
-        "treasure-mcq-06": "「被視為非常珍貴、珍愛的人；寶貝」與本句語境不同。",
-        "treasure-mcq-03": "「裝有財寶的寶箱」與本句語境不同。",
-        "treasure-mcq-07": "「因感情或意義而非常重視、珍惜某人／某物」與本句語境不同。",
-        "treasure-mcq-02": "「被秘密埋藏的財寶／寶藏」與本句語境不同。"
+        "treasure-mcq-05": "本句的「treasure」指「對國家或文化具有極高價值的國寶／文化珍寶」。",
+        "treasure-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-05"
     },
@@ -724,11 +684,9 @@ export default {
       "masked": "The manuscript is an important cultural ____.",
       "options": [
         "treasure-mcq-05",
-        "treasure-mcq-04",
-        "treasure-mcq-06",
-        "treasure-mcq-03",
-        "treasure-mcq-07",
-        "treasure-mcq-02"
+        "treasure-mcq-12",
+        "treasure-mcq-17",
+        "treasure-mcq-20"
       ],
       "explanation": "本句的「treasure」指「對國家或文化具有極高價值的國寶／文化珍寶」。",
       "sentenceIndex": 11,
@@ -737,12 +695,10 @@ export default {
         "treasure"
       ],
       "optionReasons": {
-        "treasure-mcq-05": "本句指「對國家或文化具有極高價值的國寶／文化珍寶」。",
-        "treasure-mcq-04": "「因稀有、價值或意義而受到珍視的珍品／寶物」與本句語境不同。",
-        "treasure-mcq-06": "「被視為非常珍貴、珍愛的人；寶貝」與本句語境不同。",
-        "treasure-mcq-03": "「裝有財寶的寶箱」與本句語境不同。",
-        "treasure-mcq-07": "「因感情或意義而非常重視、珍惜某人／某物」與本句語境不同。",
-        "treasure-mcq-02": "「被秘密埋藏的財寶／寶藏」與本句語境不同。"
+        "treasure-mcq-05": "本句的「treasure」指「對國家或文化具有極高價值的國寶／文化珍寶」。",
+        "treasure-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-05"
     },
@@ -754,11 +710,9 @@ export default {
       "masked": "Their daughter is their greatest ____.",
       "options": [
         "treasure-mcq-06",
-        "treasure-mcq-05",
-        "treasure-mcq-07",
-        "treasure-mcq-04",
-        "treasure-mcq-08",
-        "treasure-mcq-03"
+        "treasure-mcq-18",
+        "treasure-mcq-02",
+        "treasure-mcq-09"
       ],
       "explanation": "本句的「treasure」指「被視為非常珍貴、珍愛的人；寶貝」。",
       "sentenceIndex": 12,
@@ -767,12 +721,10 @@ export default {
         "treasure"
       ],
       "optionReasons": {
-        "treasure-mcq-06": "本句指「被視為非常珍貴、珍愛的人；寶貝」。",
-        "treasure-mcq-05": "「對國家或文化具有極高價值的國寶／文化珍寶」與本句語境不同。",
-        "treasure-mcq-07": "「因感情或意義而非常重視、珍惜某人／某物」與本句語境不同。",
-        "treasure-mcq-04": "「因稀有、價值或意義而受到珍視的珍品／寶物」與本句語境不同。",
-        "treasure-mcq-08": "「把一段回憶視為珍貴並長久記在心中」與本句語境不同。",
-        "treasure-mcq-03": "「裝有財寶的寶箱」與本句語境不同。"
+        "treasure-mcq-06": "本句的「treasure」指「被視為非常珍貴、珍愛的人；寶貝」。",
+        "treasure-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-06"
     },
@@ -784,10 +736,8 @@ export default {
       "masked": "He treated his grandchildren like ____.",
       "options": [
         "treasure-mcq-06",
-        "treasure-mcq-05",
-        "treasure-mcq-07",
-        "treasure-mcq-04",
-        "treasure-mcq-08",
+        "treasure-mcq-18",
+        "treasure-mcq-17",
         "treasure-mcq-03"
       ],
       "explanation": "本句的「treasures」指「被視為非常珍貴、珍愛的人；寶貝」。",
@@ -797,12 +747,10 @@ export default {
         "treasures"
       ],
       "optionReasons": {
-        "treasure-mcq-06": "本句指「被視為非常珍貴、珍愛的人；寶貝」。",
-        "treasure-mcq-05": "「對國家或文化具有極高價值的國寶／文化珍寶」與本句語境不同。",
-        "treasure-mcq-07": "「因感情或意義而非常重視、珍惜某人／某物」與本句語境不同。",
-        "treasure-mcq-04": "「因稀有、價值或意義而受到珍視的珍品／寶物」與本句語境不同。",
-        "treasure-mcq-08": "「把一段回憶視為珍貴並長久記在心中」與本句語境不同。",
-        "treasure-mcq-03": "「裝有財寶的寶箱」與本句語境不同。"
+        "treasure-mcq-06": "本句的「treasures」指「被視為非常珍貴、珍愛的人；寶貝」。",
+        "treasure-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-06"
     },
@@ -814,11 +762,9 @@ export default {
       "masked": "She ____ every moment with her family.",
       "options": [
         "treasure-mcq-07",
-        "treasure-mcq-06",
-        "treasure-mcq-08",
+        "treasure-mcq-02",
         "treasure-mcq-05",
-        "treasure-mcq-09",
-        "treasure-mcq-04"
+        "treasure-mcq-08"
       ],
       "explanation": "本句的「treasures」指「因感情或意義而非常重視、珍惜某人／某物」。",
       "sentenceIndex": 14,
@@ -827,12 +773,10 @@ export default {
         "treasures"
       ],
       "optionReasons": {
-        "treasure-mcq-07": "本句指「因感情或意義而非常重視、珍惜某人／某物」。",
-        "treasure-mcq-06": "「被視為非常珍貴、珍愛的人；寶貝」與本句語境不同。",
-        "treasure-mcq-08": "「把一段回憶視為珍貴並長久記在心中」與本句語境不同。",
-        "treasure-mcq-05": "「對國家或文化具有極高價值的國寶／文化珍寶」與本句語境不同。",
-        "treasure-mcq-09": "「因個人意義而珍惜／珍藏某件物品」與本句語境不同。",
-        "treasure-mcq-04": "「因稀有、價值或意義而受到珍視的珍品／寶物」與本句語境不同。"
+        "treasure-mcq-07": "本句的「treasures」指「因感情或意義而非常重視、珍惜某人／某物」。",
+        "treasure-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-07"
     },
@@ -844,11 +788,9 @@ export default {
       "masked": "I ____ the memories we made together.",
       "options": [
         "treasure-mcq-07",
-        "treasure-mcq-06",
-        "treasure-mcq-08",
-        "treasure-mcq-05",
-        "treasure-mcq-09",
-        "treasure-mcq-04"
+        "treasure-mcq-17",
+        "treasure-mcq-03",
+        "treasure-mcq-05"
       ],
       "explanation": "本句的「treasure」指「因感情或意義而非常重視、珍惜某人／某物」。",
       "sentenceIndex": 15,
@@ -857,12 +799,10 @@ export default {
         "treasure"
       ],
       "optionReasons": {
-        "treasure-mcq-07": "本句指「因感情或意義而非常重視、珍惜某人／某物」。",
-        "treasure-mcq-06": "「被視為非常珍貴、珍愛的人；寶貝」與本句語境不同。",
-        "treasure-mcq-08": "「把一段回憶視為珍貴並長久記在心中」與本句語境不同。",
-        "treasure-mcq-05": "「對國家或文化具有極高價值的國寶／文化珍寶」與本句語境不同。",
-        "treasure-mcq-09": "「因個人意義而珍惜／珍藏某件物品」與本句語境不同。",
-        "treasure-mcq-04": "「因稀有、價值或意義而受到珍視的珍品／寶物」與本句語境不同。"
+        "treasure-mcq-07": "本句的「treasure」指「因感情或意義而非常重視、珍惜某人／某物」。",
+        "treasure-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-07"
     },
@@ -874,11 +814,9 @@ export default {
       "masked": "I will always ____.",
       "options": [
         "treasure-mcq-08",
-        "treasure-mcq-07",
-        "treasure-mcq-09",
-        "treasure-mcq-06",
-        "treasure-mcq-10",
-        "treasure-mcq-05"
+        "treasure-mcq-18",
+        "treasure-mcq-02",
+        "treasure-mcq-09"
       ],
       "explanation": "本句的「treasure that memory」指「把一段回憶視為珍貴並長久記在心中」。",
       "sentenceIndex": 16,
@@ -887,12 +825,10 @@ export default {
         "treasure that memory"
       ],
       "optionReasons": {
-        "treasure-mcq-08": "本句指「把一段回憶視為珍貴並長久記在心中」。",
-        "treasure-mcq-07": "「因感情或意義而非常重視、珍惜某人／某物」與本句語境不同。",
-        "treasure-mcq-09": "「因個人意義而珍惜／珍藏某件物品」與本句語境不同。",
-        "treasure-mcq-06": "「被視為非常珍貴、珍愛的人；寶貝」與本句語境不同。",
-        "treasure-mcq-10": "「深深珍愛、重視某人」與本句語境不同。",
-        "treasure-mcq-05": "「對國家或文化具有極高價值的國寶／文化珍寶」與本句語境不同。"
+        "treasure-mcq-08": "本句的「treasure that memory」指「把一段回憶視為珍貴並長久記在心中」。",
+        "treasure-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-08"
     },
@@ -904,11 +840,9 @@ export default {
       "masked": "She ____ of their final conversation.",
       "options": [
         "treasure-mcq-08",
-        "treasure-mcq-07",
-        "treasure-mcq-09",
-        "treasure-mcq-06",
-        "treasure-mcq-10",
-        "treasure-mcq-05"
+        "treasure-mcq-18",
+        "treasure-mcq-17",
+        "treasure-mcq-03"
       ],
       "explanation": "本句的「treasured the memory」指「把一段回憶視為珍貴並長久記在心中」。",
       "sentenceIndex": 17,
@@ -917,12 +851,10 @@ export default {
         "treasured the memory"
       ],
       "optionReasons": {
-        "treasure-mcq-08": "本句指「把一段回憶視為珍貴並長久記在心中」。",
-        "treasure-mcq-07": "「因感情或意義而非常重視、珍惜某人／某物」與本句語境不同。",
-        "treasure-mcq-09": "「因個人意義而珍惜／珍藏某件物品」與本句語境不同。",
-        "treasure-mcq-06": "「被視為非常珍貴、珍愛的人；寶貝」與本句語境不同。",
-        "treasure-mcq-10": "「深深珍愛、重視某人」與本句語境不同。",
-        "treasure-mcq-05": "「對國家或文化具有極高價值的國寶／文化珍寶」與本句語境不同。"
+        "treasure-mcq-08": "本句的「treasured the memory」指「把一段回憶視為珍貴並長久記在心中」。",
+        "treasure-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-08"
     },
@@ -934,10 +866,8 @@ export default {
       "masked": "He ____ his father gave him.",
       "options": [
         "treasure-mcq-09",
-        "treasure-mcq-08",
-        "treasure-mcq-10",
-        "treasure-mcq-07",
-        "treasure-mcq-11",
+        "treasure-mcq-18",
+        "treasure-mcq-03",
         "treasure-mcq-06"
       ],
       "explanation": "本句的「treasures the watch」指「因個人意義而珍惜／珍藏某件物品」。",
@@ -947,12 +877,10 @@ export default {
         "treasures the watch"
       ],
       "optionReasons": {
-        "treasure-mcq-09": "本句指「因個人意義而珍惜／珍藏某件物品」。",
-        "treasure-mcq-08": "「把一段回憶視為珍貴並長久記在心中」與本句語境不同。",
-        "treasure-mcq-10": "「深深珍愛、重視某人」與本句語境不同。",
-        "treasure-mcq-07": "「因感情或意義而非常重視、珍惜某人／某物」與本句語境不同。",
-        "treasure-mcq-11": "「非常珍惜每一段時間／每一刻」與本句語境不同。",
-        "treasure-mcq-06": "「被視為非常珍貴、珍愛的人；寶貝」與本句語境不同。"
+        "treasure-mcq-09": "本句的「treasures the watch」指「因個人意義而珍惜／珍藏某件物品」。",
+        "treasure-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-09"
     },
@@ -964,11 +892,9 @@ export default {
       "masked": "She ____ for years.",
       "options": [
         "treasure-mcq-09",
-        "treasure-mcq-08",
-        "treasure-mcq-10",
-        "treasure-mcq-07",
-        "treasure-mcq-11",
-        "treasure-mcq-06"
+        "treasure-mcq-18",
+        "treasure-mcq-03",
+        "treasure-mcq-08"
       ],
       "explanation": "本句的「treasured the handwritten note」指「因個人意義而珍惜／珍藏某件物品」。",
       "sentenceIndex": 19,
@@ -977,12 +903,10 @@ export default {
         "treasured the handwritten note"
       ],
       "optionReasons": {
-        "treasure-mcq-09": "本句指「因個人意義而珍惜／珍藏某件物品」。",
-        "treasure-mcq-08": "「把一段回憶視為珍貴並長久記在心中」與本句語境不同。",
-        "treasure-mcq-10": "「深深珍愛、重視某人」與本句語境不同。",
-        "treasure-mcq-07": "「因感情或意義而非常重視、珍惜某人／某物」與本句語境不同。",
-        "treasure-mcq-11": "「非常珍惜每一段時間／每一刻」與本句語境不同。",
-        "treasure-mcq-06": "「被視為非常珍貴、珍愛的人；寶貝」與本句語境不同。"
+        "treasure-mcq-09": "本句的「treasured the handwritten note」指「因個人意義而珍惜／珍藏某件物品」。",
+        "treasure-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-09"
     },
@@ -994,11 +918,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "treasure-mcq-10",
+        "treasure-mcq-02",
         "treasure-mcq-09",
-        "treasure-mcq-11",
-        "treasure-mcq-08",
-        "treasure-mcq-12",
-        "treasure-mcq-07"
+        "treasure-mcq-05"
       ],
       "explanation": "本句的「treasures her closest friends」指「深深珍愛、重視某人」。",
       "sentenceIndex": 20,
@@ -1007,12 +929,10 @@ export default {
         "treasures her closest friends"
       ],
       "optionReasons": {
-        "treasure-mcq-10": "本句指「深深珍愛、重視某人」。",
-        "treasure-mcq-09": "「因個人意義而珍惜／珍藏某件物品」與本句語境不同。",
-        "treasure-mcq-11": "「非常珍惜每一段時間／每一刻」與本句語境不同。",
-        "treasure-mcq-08": "「把一段回憶視為珍貴並長久記在心中」與本句語境不同。",
-        "treasure-mcq-12": "「因視為珍貴而小心保存、珍藏」與本句語境不同。",
-        "treasure-mcq-07": "「因感情或意義而非常重視、珍惜某人／某物」與本句語境不同。"
+        "treasure-mcq-10": "本句的「treasures her closest friends」指「深深珍愛、重視某人」。",
+        "treasure-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-10"
     },
@@ -1024,11 +944,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "treasure-mcq-10",
-        "treasure-mcq-09",
-        "treasure-mcq-11",
-        "treasure-mcq-08",
-        "treasure-mcq-12",
-        "treasure-mcq-07"
+        "treasure-mcq-17",
+        "treasure-mcq-03",
+        "treasure-mcq-05"
       ],
       "explanation": "本句的「treasured his family above everything else」指「深深珍愛、重視某人」。",
       "sentenceIndex": 21,
@@ -1037,12 +955,10 @@ export default {
         "treasured his family above everything else"
       ],
       "optionReasons": {
-        "treasure-mcq-10": "本句指「深深珍愛、重視某人」。",
-        "treasure-mcq-09": "「因個人意義而珍惜／珍藏某件物品」與本句語境不同。",
-        "treasure-mcq-11": "「非常珍惜每一段時間／每一刻」與本句語境不同。",
-        "treasure-mcq-08": "「把一段回憶視為珍貴並長久記在心中」與本句語境不同。",
-        "treasure-mcq-12": "「因視為珍貴而小心保存、珍藏」與本句語境不同。",
-        "treasure-mcq-07": "「因感情或意義而非常重視、珍惜某人／某物」與本句語境不同。"
+        "treasure-mcq-10": "本句的「treasured his family above everything else」指「深深珍愛、重視某人」。",
+        "treasure-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-10"
     },
@@ -1054,11 +970,9 @@ export default {
       "masked": "We tried to ____ together.",
       "options": [
         "treasure-mcq-11",
-        "treasure-mcq-10",
-        "treasure-mcq-12",
-        "treasure-mcq-09",
-        "treasure-mcq-13",
-        "treasure-mcq-08"
+        "treasure-mcq-19",
+        "treasure-mcq-02",
+        "treasure-mcq-12"
       ],
       "explanation": "本句的「treasure every moment」指「非常珍惜每一段時間／每一刻」。",
       "sentenceIndex": 22,
@@ -1067,12 +981,10 @@ export default {
         "treasure every moment"
       ],
       "optionReasons": {
-        "treasure-mcq-11": "本句指「非常珍惜每一段時間／每一刻」。",
-        "treasure-mcq-10": "「深深珍愛、重視某人」與本句語境不同。",
-        "treasure-mcq-12": "「因視為珍貴而小心保存、珍藏」與本句語境不同。",
-        "treasure-mcq-09": "「因個人意義而珍惜／珍藏某件物品」與本句語境不同。",
-        "treasure-mcq-13": "「被非常珍愛、重視的；珍貴的」與本句語境不同。",
-        "treasure-mcq-08": "「把一段回憶視為珍貴並長久記在心中」與本句語境不同。"
+        "treasure-mcq-11": "本句的「treasure every moment」指「非常珍惜每一段時間／每一刻」。",
+        "treasure-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-11"
     },
@@ -1084,11 +996,9 @@ export default {
       "masked": "She learned to ____.",
       "options": [
         "treasure-mcq-11",
-        "treasure-mcq-10",
-        "treasure-mcq-12",
-        "treasure-mcq-09",
-        "treasure-mcq-13",
-        "treasure-mcq-08"
+        "treasure-mcq-17",
+        "treasure-mcq-19",
+        "treasure-mcq-03"
       ],
       "explanation": "本句的「treasure the small moments」指「非常珍惜每一段時間／每一刻」。",
       "sentenceIndex": 23,
@@ -1097,12 +1007,10 @@ export default {
         "treasure the small moments"
       ],
       "optionReasons": {
-        "treasure-mcq-11": "本句指「非常珍惜每一段時間／每一刻」。",
-        "treasure-mcq-10": "「深深珍愛、重視某人」與本句語境不同。",
-        "treasure-mcq-12": "「因視為珍貴而小心保存、珍藏」與本句語境不同。",
-        "treasure-mcq-09": "「因個人意義而珍惜／珍藏某件物品」與本句語境不同。",
-        "treasure-mcq-13": "「被非常珍愛、重視的；珍貴的」與本句語境不同。",
-        "treasure-mcq-08": "「把一段回憶視為珍貴並長久記在心中」與本句語境不同。"
+        "treasure-mcq-11": "本句的「treasure the small moments」指「非常珍惜每一段時間／每一刻」。",
+        "treasure-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-11"
     },
@@ -1114,11 +1022,9 @@ export default {
       "masked": "The family ____ for generations.",
       "options": [
         "treasure-mcq-12",
-        "treasure-mcq-11",
-        "treasure-mcq-13",
-        "treasure-mcq-10",
-        "treasure-mcq-14",
-        "treasure-mcq-09"
+        "treasure-mcq-18",
+        "treasure-mcq-03",
+        "treasure-mcq-11"
       ],
       "explanation": "本句的「treasured the photographs」指「因視為珍貴而小心保存、珍藏」。",
       "sentenceIndex": 24,
@@ -1127,12 +1033,10 @@ export default {
         "treasured the photographs"
       ],
       "optionReasons": {
-        "treasure-mcq-12": "本句指「因視為珍貴而小心保存、珍藏」。",
-        "treasure-mcq-11": "「非常珍惜每一段時間／每一刻」與本句語境不同。",
-        "treasure-mcq-13": "「被非常珍愛、重視的；珍貴的」與本句語境不同。",
-        "treasure-mcq-10": "「深深珍愛、重視某人」與本句語境不同。",
-        "treasure-mcq-14": "「對某人具有高度個人或情感價值的珍愛之物」與本句語境不同。",
-        "treasure-mcq-09": "「因個人意義而珍惜／珍藏某件物品」與本句語境不同。"
+        "treasure-mcq-12": "本句的「treasured the photographs」指「因視為珍貴而小心保存、珍藏」。",
+        "treasure-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-12"
     },
@@ -1144,11 +1048,9 @@ export default {
       "masked": "The letters were carefully ____.",
       "options": [
         "treasure-mcq-12",
-        "treasure-mcq-11",
-        "treasure-mcq-13",
-        "treasure-mcq-10",
-        "treasure-mcq-14",
-        "treasure-mcq-09"
+        "treasure-mcq-19",
+        "treasure-mcq-03",
+        "treasure-mcq-17"
       ],
       "explanation": "本句的「treasured」指「因視為珍貴而小心保存、珍藏」。",
       "sentenceIndex": 25,
@@ -1157,12 +1059,10 @@ export default {
         "treasured"
       ],
       "optionReasons": {
-        "treasure-mcq-12": "本句指「因視為珍貴而小心保存、珍藏」。",
-        "treasure-mcq-11": "「非常珍惜每一段時間／每一刻」與本句語境不同。",
-        "treasure-mcq-13": "「被非常珍愛、重視的；珍貴的」與本句語境不同。",
-        "treasure-mcq-10": "「深深珍愛、重視某人」與本句語境不同。",
-        "treasure-mcq-14": "「對某人具有高度個人或情感價值的珍愛之物」與本句語境不同。",
-        "treasure-mcq-09": "「因個人意義而珍惜／珍藏某件物品」與本句語境不同。"
+        "treasure-mcq-12": "本句的「treasured」指「因視為珍貴而小心保存、珍藏」。",
+        "treasure-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-12"
     },
@@ -1174,11 +1074,9 @@ export default {
       "masked": "It is one of my most ____.",
       "options": [
         "treasure-mcq-13",
-        "treasure-mcq-12",
-        "treasure-mcq-14",
-        "treasure-mcq-11",
-        "treasure-mcq-15",
-        "treasure-mcq-10"
+        "treasure-mcq-19",
+        "treasure-mcq-17",
+        "treasure-mcq-03"
       ],
       "explanation": "本句的「treasured possessions」指「被非常珍愛、重視的；珍貴的」。",
       "sentenceIndex": 26,
@@ -1187,12 +1085,10 @@ export default {
         "treasured possessions"
       ],
       "optionReasons": {
-        "treasure-mcq-13": "本句指「被非常珍愛、重視的；珍貴的」。",
-        "treasure-mcq-12": "「因視為珍貴而小心保存、珍藏」與本句語境不同。",
-        "treasure-mcq-14": "「對某人具有高度個人或情感價值的珍愛之物」與本句語境不同。",
-        "treasure-mcq-11": "「非常珍惜每一段時間／每一刻」與本句語境不同。",
-        "treasure-mcq-15": "「大量珍貴物品的寶藏／珍寶庫」與本句語境不同。",
-        "treasure-mcq-10": "「深深珍愛、重視某人」與本句語境不同。"
+        "treasure-mcq-13": "本句的「treasured possessions」指「被非常珍愛、重視的；珍貴的」。",
+        "treasure-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-13"
     },
@@ -1204,11 +1100,9 @@ export default {
       "masked": "She kept a ____ in her wallet.",
       "options": [
         "treasure-mcq-13",
-        "treasure-mcq-12",
-        "treasure-mcq-14",
-        "treasure-mcq-11",
-        "treasure-mcq-15",
-        "treasure-mcq-10"
+        "treasure-mcq-03",
+        "treasure-mcq-17",
+        "treasure-mcq-18"
       ],
       "explanation": "本句的「treasured photograph」指「被非常珍愛、重視的；珍貴的」。",
       "sentenceIndex": 27,
@@ -1217,12 +1111,10 @@ export default {
         "treasured photograph"
       ],
       "optionReasons": {
-        "treasure-mcq-13": "本句指「被非常珍愛、重視的；珍貴的」。",
-        "treasure-mcq-12": "「因視為珍貴而小心保存、珍藏」與本句語境不同。",
-        "treasure-mcq-14": "「對某人具有高度個人或情感價值的珍愛之物」與本句語境不同。",
-        "treasure-mcq-11": "「非常珍惜每一段時間／每一刻」與本句語境不同。",
-        "treasure-mcq-15": "「大量珍貴物品的寶藏／珍寶庫」與本句語境不同。",
-        "treasure-mcq-10": "「深深珍愛、重視某人」與本句語境不同。"
+        "treasure-mcq-13": "本句的「treasured photograph」指「被非常珍愛、重視的；珍貴的」。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-13"
     },
@@ -1234,11 +1126,9 @@ export default {
       "masked": "The pen became a ____.",
       "options": [
         "treasure-mcq-14",
-        "treasure-mcq-13",
-        "treasure-mcq-15",
-        "treasure-mcq-12",
-        "treasure-mcq-16",
-        "treasure-mcq-11"
+        "treasure-mcq-02",
+        "treasure-mcq-11",
+        "treasure-mcq-12"
       ],
       "explanation": "本句的「treasured possession」指「對某人具有高度個人或情感價值的珍愛之物」。",
       "sentenceIndex": 28,
@@ -1247,12 +1137,10 @@ export default {
         "treasured possession"
       ],
       "optionReasons": {
-        "treasure-mcq-14": "本句指「對某人具有高度個人或情感價值的珍愛之物」。",
-        "treasure-mcq-13": "「被非常珍愛、重視的；珍貴的」與本句語境不同。",
-        "treasure-mcq-15": "「大量珍貴物品的寶藏／珍寶庫」與本句語境不同。",
-        "treasure-mcq-12": "「因視為珍貴而小心保存、珍藏」與本句語境不同。",
-        "treasure-mcq-16": "「資訊、資料、想法等極為豐富的寶庫」與本句語境不同。",
-        "treasure-mcq-11": "「非常珍惜每一段時間／每一刻」與本句語境不同。"
+        "treasure-mcq-14": "本句的「treasured possession」指「對某人具有高度個人或情感價值的珍愛之物」。",
+        "treasure-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-14"
     },
@@ -1264,10 +1152,8 @@ export default {
       "masked": "This necklace is my most ____.",
       "options": [
         "treasure-mcq-14",
-        "treasure-mcq-13",
-        "treasure-mcq-15",
+        "treasure-mcq-02",
         "treasure-mcq-12",
-        "treasure-mcq-16",
         "treasure-mcq-11"
       ],
       "explanation": "本句的「treasured possession」指「對某人具有高度個人或情感價值的珍愛之物」。",
@@ -1277,12 +1163,10 @@ export default {
         "treasured possession"
       ],
       "optionReasons": {
-        "treasure-mcq-14": "本句指「對某人具有高度個人或情感價值的珍愛之物」。",
-        "treasure-mcq-13": "「被非常珍愛、重視的；珍貴的」與本句語境不同。",
-        "treasure-mcq-15": "「大量珍貴物品的寶藏／珍寶庫」與本句語境不同。",
-        "treasure-mcq-12": "「因視為珍貴而小心保存、珍藏」與本句語境不同。",
-        "treasure-mcq-16": "「資訊、資料、想法等極為豐富的寶庫」與本句語境不同。",
-        "treasure-mcq-11": "「非常珍惜每一段時間／每一刻」與本句語境不同。"
+        "treasure-mcq-14": "本句的「treasured possession」指「對某人具有高度個人或情感價值的珍愛之物」。",
+        "treasure-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-14"
     },
@@ -1294,11 +1178,7 @@ export default {
       "masked": "Archaeologists discovered a ____ of ancient coins.",
       "options": [
         "treasure-mcq-15",
-        "treasure-mcq-14",
-        "treasure-mcq-16",
-        "treasure-mcq-13",
-        "treasure-mcq-17",
-        "treasure-mcq-12"
+        "treasure-mcq-07"
       ],
       "explanation": "本句的「treasure trove」指「大量珍貴物品的寶藏／珍寶庫」。",
       "sentenceIndex": 30,
@@ -1307,12 +1187,8 @@ export default {
         "treasure trove"
       ],
       "optionReasons": {
-        "treasure-mcq-15": "本句指「大量珍貴物品的寶藏／珍寶庫」。",
-        "treasure-mcq-14": "「對某人具有高度個人或情感價值的珍愛之物」與本句語境不同。",
-        "treasure-mcq-16": "「資訊、資料、想法等極為豐富的寶庫」與本句語境不同。",
-        "treasure-mcq-13": "「被非常珍愛、重視的；珍貴的」與本句語境不同。",
-        "treasure-mcq-17": "「按線索尋找隱藏物品的尋寶活動」與本句語境不同。",
-        "treasure-mcq-12": "「因視為珍貴而小心保存、珍藏」與本句語境不同。"
+        "treasure-mcq-15": "本句的「treasure trove」指「大量珍貴物品的寶藏／珍寶庫」。",
+        "treasure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-15"
     },
@@ -1324,11 +1200,7 @@ export default {
       "masked": "The archive is a ____.",
       "options": [
         "treasure-mcq-15",
-        "treasure-mcq-14",
-        "treasure-mcq-16",
-        "treasure-mcq-13",
-        "treasure-mcq-17",
-        "treasure-mcq-12"
+        "treasure-mcq-20"
       ],
       "explanation": "本句的「treasure trove of information」指「大量珍貴物品的寶藏／珍寶庫」。",
       "sentenceIndex": 31,
@@ -1337,12 +1209,8 @@ export default {
         "treasure trove of information"
       ],
       "optionReasons": {
-        "treasure-mcq-15": "本句指「大量珍貴物品的寶藏／珍寶庫」。",
-        "treasure-mcq-14": "「對某人具有高度個人或情感價值的珍愛之物」與本句語境不同。",
-        "treasure-mcq-16": "「資訊、資料、想法等極為豐富的寶庫」與本句語境不同。",
-        "treasure-mcq-13": "「被非常珍愛、重視的；珍貴的」與本句語境不同。",
-        "treasure-mcq-17": "「按線索尋找隱藏物品的尋寶活動」與本句語境不同。",
-        "treasure-mcq-12": "「因視為珍貴而小心保存、珍藏」與本句語境不同。"
+        "treasure-mcq-15": "本句的「treasure trove of information」指「大量珍貴物品的寶藏／珍寶庫」。",
+        "treasure-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-15"
     },
@@ -1354,11 +1222,9 @@ export default {
       "masked": "The children went on a ____.",
       "options": [
         "treasure-mcq-17",
-        "treasure-mcq-16",
         "treasure-mcq-18",
-        "treasure-mcq-15",
-        "treasure-mcq-19",
-        "treasure-mcq-14"
+        "treasure-mcq-08",
+        "treasure-mcq-03"
       ],
       "explanation": "本句的「treasure hunt」指「按線索尋找隱藏物品的尋寶活動」。",
       "sentenceIndex": 32,
@@ -1367,12 +1233,10 @@ export default {
         "treasure hunt"
       ],
       "optionReasons": {
-        "treasure-mcq-17": "本句指「按線索尋找隱藏物品的尋寶活動」。",
-        "treasure-mcq-16": "「資訊、資料、想法等極為豐富的寶庫」與本句語境不同。",
-        "treasure-mcq-18": "「負責管理組織財務的人；司庫／財務主管」與本句語境不同。",
-        "treasure-mcq-15": "「大量珍貴物品的寶藏／珍寶庫」與本句語境不同。",
-        "treasure-mcq-19": "「國庫；亦可指負責政府財政的部門」與本句語境不同。",
-        "treasure-mcq-14": "「對某人具有高度個人或情感價值的珍愛之物」與本句語境不同。"
+        "treasure-mcq-17": "本句的「treasure hunt」指「按線索尋找隱藏物品的尋寶活動」。",
+        "treasure-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-17"
     },
@@ -1384,11 +1248,9 @@ export default {
       "masked": "Shopping in the market felt like a ____.",
       "options": [
         "treasure-mcq-17",
-        "treasure-mcq-16",
-        "treasure-mcq-18",
-        "treasure-mcq-15",
-        "treasure-mcq-19",
-        "treasure-mcq-14"
+        "treasure-mcq-08",
+        "treasure-mcq-07",
+        "treasure-mcq-03"
       ],
       "explanation": "本句的「treasure hunt」指「按線索尋找隱藏物品的尋寶活動」。",
       "sentenceIndex": 33,
@@ -1397,12 +1259,10 @@ export default {
         "treasure hunt"
       ],
       "optionReasons": {
-        "treasure-mcq-17": "本句指「按線索尋找隱藏物品的尋寶活動」。",
-        "treasure-mcq-16": "「資訊、資料、想法等極為豐富的寶庫」與本句語境不同。",
-        "treasure-mcq-18": "「負責管理組織財務的人；司庫／財務主管」與本句語境不同。",
-        "treasure-mcq-15": "「大量珍貴物品的寶藏／珍寶庫」與本句語境不同。",
-        "treasure-mcq-19": "「國庫；亦可指負責政府財政的部門」與本句語境不同。",
-        "treasure-mcq-14": "「對某人具有高度個人或情感價值的珍愛之物」與本句語境不同。"
+        "treasure-mcq-17": "本句的「treasure hunt」指「按線索尋找隱藏物品的尋寶活動」。",
+        "treasure-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-17"
     },
@@ -1414,11 +1274,9 @@ export default {
       "masked": "She was elected club ____.",
       "options": [
         "treasure-mcq-18",
+        "treasure-mcq-13",
         "treasure-mcq-17",
-        "treasure-mcq-19",
-        "treasure-mcq-16",
-        "treasure-mcq-20",
-        "treasure-mcq-15"
+        "treasure-mcq-03"
       ],
       "explanation": "本句的「treasurer」指「負責管理組織財務的人；司庫／財務主管」。",
       "sentenceIndex": 34,
@@ -1427,12 +1285,10 @@ export default {
         "treasurer"
       ],
       "optionReasons": {
-        "treasure-mcq-18": "本句指「負責管理組織財務的人；司庫／財務主管」。",
-        "treasure-mcq-17": "「按線索尋找隱藏物品的尋寶活動」與本句語境不同。",
-        "treasure-mcq-19": "「國庫；亦可指負責政府財政的部門」與本句語境不同。",
-        "treasure-mcq-16": "「資訊、資料、想法等極為豐富的寶庫」與本句語境不同。",
-        "treasure-mcq-20": "「長久、深深地珍惜某人／某物／某段回憶」與本句語境不同。",
-        "treasure-mcq-15": "「大量珍貴物品的寶藏／珍寶庫」與本句語境不同。"
+        "treasure-mcq-18": "本句的「treasurer」指「負責管理組織財務的人；司庫／財務主管」。",
+        "treasure-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-18"
     },
@@ -1444,11 +1300,9 @@ export default {
       "masked": "The ____ presented the financial report.",
       "options": [
         "treasure-mcq-18",
-        "treasure-mcq-17",
-        "treasure-mcq-19",
-        "treasure-mcq-16",
-        "treasure-mcq-20",
-        "treasure-mcq-15"
+        "treasure-mcq-13",
+        "treasure-mcq-09",
+        "treasure-mcq-03"
       ],
       "explanation": "本句的「treasurer」指「負責管理組織財務的人；司庫／財務主管」。",
       "sentenceIndex": 35,
@@ -1457,12 +1311,10 @@ export default {
         "treasurer"
       ],
       "optionReasons": {
-        "treasure-mcq-18": "本句指「負責管理組織財務的人；司庫／財務主管」。",
-        "treasure-mcq-17": "「按線索尋找隱藏物品的尋寶活動」與本句語境不同。",
-        "treasure-mcq-19": "「國庫；亦可指負責政府財政的部門」與本句語境不同。",
-        "treasure-mcq-16": "「資訊、資料、想法等極為豐富的寶庫」與本句語境不同。",
-        "treasure-mcq-20": "「長久、深深地珍惜某人／某物／某段回憶」與本句語境不同。",
-        "treasure-mcq-15": "「大量珍貴物品的寶藏／珍寶庫」與本句語境不同。"
+        "treasure-mcq-18": "本句的「treasurer」指「負責管理組織財務的人；司庫／財務主管」。",
+        "treasure-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-18"
     },
@@ -1474,11 +1326,9 @@ export default {
       "masked": "The funds were paid into the national ____.",
       "options": [
         "treasure-mcq-19",
-        "treasure-mcq-18",
-        "treasure-mcq-20",
-        "treasure-mcq-17",
-        "treasure-mcq-16",
-        "treasure-mcq-15"
+        "treasure-mcq-11",
+        "treasure-mcq-12",
+        "treasure-mcq-17"
       ],
       "explanation": "本句的「treasury」指「國庫；亦可指負責政府財政的部門」。",
       "sentenceIndex": 36,
@@ -1487,12 +1337,10 @@ export default {
         "treasury"
       ],
       "optionReasons": {
-        "treasure-mcq-19": "本句指「國庫；亦可指負責政府財政的部門」。",
-        "treasure-mcq-18": "「負責管理組織財務的人；司庫／財務主管」與本句語境不同。",
-        "treasure-mcq-20": "「長久、深深地珍惜某人／某物／某段回憶」與本句語境不同。",
-        "treasure-mcq-17": "「按線索尋找隱藏物品的尋寶活動」與本句語境不同。",
-        "treasure-mcq-16": "「資訊、資料、想法等極為豐富的寶庫」與本句語境不同。",
-        "treasure-mcq-15": "「大量珍貴物品的寶藏／珍寶庫」與本句語境不同。"
+        "treasure-mcq-19": "本句的「treasury」指「國庫；亦可指負責政府財政的部門」。",
+        "treasure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-19"
     },
@@ -1504,11 +1352,9 @@ export default {
       "masked": "The ____ issued a statement.",
       "options": [
         "treasure-mcq-19",
-        "treasure-mcq-18",
-        "treasure-mcq-20",
-        "treasure-mcq-17",
-        "treasure-mcq-16",
-        "treasure-mcq-15"
+        "treasure-mcq-11",
+        "treasure-mcq-12",
+        "treasure-mcq-17"
       ],
       "explanation": "本句的「Treasury」指「國庫；亦可指負責政府財政的部門」。",
       "sentenceIndex": 37,
@@ -1517,12 +1363,10 @@ export default {
         "Treasury"
       ],
       "optionReasons": {
-        "treasure-mcq-19": "本句指「國庫；亦可指負責政府財政的部門」。",
-        "treasure-mcq-18": "「負責管理組織財務的人；司庫／財務主管」與本句語境不同。",
-        "treasure-mcq-20": "「長久、深深地珍惜某人／某物／某段回憶」與本句語境不同。",
-        "treasure-mcq-17": "「按線索尋找隱藏物品的尋寶活動」與本句語境不同。",
-        "treasure-mcq-16": "「資訊、資料、想法等極為豐富的寶庫」與本句語境不同。",
-        "treasure-mcq-15": "「大量珍貴物品的寶藏／珍寶庫」與本句語境不同。"
+        "treasure-mcq-19": "本句的「Treasury」指「國庫；亦可指負責政府財政的部門」。",
+        "treasure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-19"
     },
@@ -1534,11 +1378,9 @@ export default {
       "masked": "That old notebook is a ____.",
       "options": [
         "treasure-mcq-20",
-        "treasure-mcq-19",
-        "treasure-mcq-18",
+        "treasure-mcq-03",
         "treasure-mcq-17",
-        "treasure-mcq-16",
-        "treasure-mcq-15"
+        "treasure-mcq-04"
       ],
       "explanation": "本句的「treasure to me」指「長久、深深地珍惜某人／某物／某段回憶」。",
       "sentenceIndex": 38,
@@ -1547,12 +1389,10 @@ export default {
         "treasure to me"
       ],
       "optionReasons": {
-        "treasure-mcq-20": "本句指「長久、深深地珍惜某人／某物／某段回憶」。",
-        "treasure-mcq-19": "「國庫；亦可指負責政府財政的部門」與本句語境不同。",
-        "treasure-mcq-18": "「負責管理組織財務的人；司庫／財務主管」與本句語境不同。",
-        "treasure-mcq-17": "「按線索尋找隱藏物品的尋寶活動」與本句語境不同。",
-        "treasure-mcq-16": "「資訊、資料、想法等極為豐富的寶庫」與本句語境不同。",
-        "treasure-mcq-15": "「大量珍貴物品的寶藏／珍寶庫」與本句語境不同。"
+        "treasure-mcq-20": "本句的「treasure to me」指「長久、深深地珍惜某人／某物／某段回憶」。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-20"
     },
@@ -1564,11 +1404,9 @@ export default {
       "masked": "Her children are her greatest ____.",
       "options": [
         "treasure-mcq-20",
-        "treasure-mcq-19",
-        "treasure-mcq-18",
-        "treasure-mcq-17",
-        "treasure-mcq-16",
-        "treasure-mcq-15"
+        "treasure-mcq-02",
+        "treasure-mcq-13",
+        "treasure-mcq-05"
       ],
       "explanation": "本句的「treasures」指「長久、深深地珍惜某人／某物／某段回憶」。",
       "sentenceIndex": 39,
@@ -1577,12 +1415,10 @@ export default {
         "treasures"
       ],
       "optionReasons": {
-        "treasure-mcq-20": "本句指「長久、深深地珍惜某人／某物／某段回憶」。",
-        "treasure-mcq-19": "「國庫；亦可指負責政府財政的部門」與本句語境不同。",
-        "treasure-mcq-18": "「負責管理組織財務的人；司庫／財務主管」與本句語境不同。",
-        "treasure-mcq-17": "「按線索尋找隱藏物品的尋寶活動」與本句語境不同。",
-        "treasure-mcq-16": "「資訊、資料、想法等極為豐富的寶庫」與本句語境不同。",
-        "treasure-mcq-15": "「大量珍貴物品的寶藏／珍寶庫」與本句語境不同。"
+        "treasure-mcq-20": "本句的「treasures」指「長久、深深地珍惜某人／某物／某段回憶」。",
+        "treasure-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-20"
     },
@@ -1594,11 +1430,9 @@ export default {
       "masked": "I’ll ____.",
       "options": [
         "treasure-mcq-20",
-        "treasure-mcq-19",
-        "treasure-mcq-18",
         "treasure-mcq-17",
-        "treasure-mcq-16",
-        "treasure-mcq-15"
+        "treasure-mcq-03",
+        "treasure-mcq-12"
       ],
       "explanation": "本句的「treasure this forever」指「長久、深深地珍惜某人／某物／某段回憶」。",
       "sentenceIndex": 40,
@@ -1607,12 +1441,10 @@ export default {
         "treasure this forever"
       ],
       "optionReasons": {
-        "treasure-mcq-20": "本句指「長久、深深地珍惜某人／某物／某段回憶」。",
-        "treasure-mcq-19": "「國庫；亦可指負責政府財政的部門」與本句語境不同。",
-        "treasure-mcq-18": "「負責管理組織財務的人；司庫／財務主管」與本句語境不同。",
-        "treasure-mcq-17": "「按線索尋找隱藏物品的尋寶活動」與本句語境不同。",
-        "treasure-mcq-16": "「資訊、資料、想法等極為豐富的寶庫」與本句語境不同。",
-        "treasure-mcq-15": "「大量珍貴物品的寶藏／珍寶庫」與本句語境不同。"
+        "treasure-mcq-20": "本句的「treasure this forever」指「長久、深深地珍惜某人／某物／某段回憶」。",
+        "treasure-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-20"
     },
@@ -1624,11 +1456,8 @@ export default {
       "masked": "She said she would ____.",
       "options": [
         "treasure-mcq-20",
-        "treasure-mcq-19",
-        "treasure-mcq-18",
-        "treasure-mcq-17",
-        "treasure-mcq-16",
-        "treasure-mcq-15"
+        "treasure-mcq-02",
+        "treasure-mcq-04"
       ],
       "explanation": "本句的「treasure the memory forever」指「長久、深深地珍惜某人／某物／某段回憶」。",
       "sentenceIndex": 41,
@@ -1637,12 +1466,9 @@ export default {
         "treasure the memory forever"
       ],
       "optionReasons": {
-        "treasure-mcq-20": "本句指「長久、深深地珍惜某人／某物／某段回憶」。",
-        "treasure-mcq-19": "「國庫；亦可指負責政府財政的部門」與本句語境不同。",
-        "treasure-mcq-18": "「負責管理組織財務的人；司庫／財務主管」與本句語境不同。",
-        "treasure-mcq-17": "「按線索尋找隱藏物品的尋寶活動」與本句語境不同。",
-        "treasure-mcq-16": "「資訊、資料、想法等極為豐富的寶庫」與本句語境不同。",
-        "treasure-mcq-15": "「大量珍貴物品的寶藏／珍寶庫」與本句語境不同。"
+        "treasure-mcq-20": "本句的「treasure the memory forever」指「長久、深深地珍惜某人／某物／某段回憶」。",
+        "treasure-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treasure-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treasure-mcq-20"
     }
@@ -1654,5 +1480,7 @@ export default {
     "sha256": "b37dd096ecce2e9d4cd1da331687a973cb0d3c9671900b948aaa383042f27c9c",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

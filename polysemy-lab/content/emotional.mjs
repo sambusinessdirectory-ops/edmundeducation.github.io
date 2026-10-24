@@ -487,11 +487,7 @@ export default {
       "masked": "Good teachers need both subject knowledge and ____.",
       "options": [
         "emotional-mcq-01",
-        "emotional-mcq-02",
-        "emotional-mcq-03",
-        "emotional-mcq-04",
-        "emotional-mcq-05",
-        "emotional-mcq-06"
+        "emotional-mcq-07"
       ],
       "explanation": "本句的「emotional intelligence」指「與人的情緒、感受或情感反應有關的」。",
       "sentenceIndex": 0,
@@ -500,12 +496,8 @@ export default {
         "emotional intelligence"
       ],
       "optionReasons": {
-        "emotional-mcq-01": "本句指「與人的情緒、感受或情感反應有關的」。",
-        "emotional-mcq-02": "「某人在某一時刻的情緒狀況」與本句語境不同。",
-        "emotional-mcq-03": "「因強烈感受而情緒激動的」與本句語境不同。",
-        "emotional-mcq-04": "「開始明顯表現出強烈情緒」與本句語境不同。",
-        "emotional-mcq-05": "「容易受情緒影響而非完全由理性判斷的」與本句語境不同。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。"
+        "emotional-mcq-01": "本句的「emotional intelligence」指「與人的情緒、感受或情感反應有關的」。",
+        "emotional-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-01"
     },
@@ -517,11 +509,7 @@ export default {
       "masked": "Her ____ helped her notice when students were anxious or confused.",
       "options": [
         "emotional-mcq-01",
-        "emotional-mcq-02",
-        "emotional-mcq-03",
-        "emotional-mcq-04",
-        "emotional-mcq-05",
-        "emotional-mcq-06"
+        "emotional-mcq-07"
       ],
       "explanation": "本句的「emotional intelligence」指「與人的情緒、感受或情感反應有關的」。",
       "sentenceIndex": 1,
@@ -530,12 +518,8 @@ export default {
         "emotional intelligence"
       ],
       "optionReasons": {
-        "emotional-mcq-01": "本句指「與人的情緒、感受或情感反應有關的」。",
-        "emotional-mcq-02": "「某人在某一時刻的情緒狀況」與本句語境不同。",
-        "emotional-mcq-03": "「因強烈感受而情緒激動的」與本句語境不同。",
-        "emotional-mcq-04": "「開始明顯表現出強烈情緒」與本句語境不同。",
-        "emotional-mcq-05": "「容易受情緒影響而非完全由理性判斷的」與本句語境不同。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。"
+        "emotional-mcq-01": "本句的「emotional intelligence」指「與人的情緒、感受或情感反應有關的」。",
+        "emotional-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-01"
     },
@@ -547,11 +531,7 @@ export default {
       "masked": "The experience had a strong ____ on her.",
       "options": [
         "emotional-mcq-01",
-        "emotional-mcq-02",
-        "emotional-mcq-03",
-        "emotional-mcq-04",
-        "emotional-mcq-05",
-        "emotional-mcq-06"
+        "emotional-mcq-07"
       ],
       "explanation": "本句的「emotional impact」指「與人的情緒、感受或情感反應有關的」。",
       "sentenceIndex": 2,
@@ -560,12 +540,8 @@ export default {
         "emotional impact"
       ],
       "optionReasons": {
-        "emotional-mcq-01": "本句指「與人的情緒、感受或情感反應有關的」。",
-        "emotional-mcq-02": "「某人在某一時刻的情緒狀況」與本句語境不同。",
-        "emotional-mcq-03": "「因強烈感受而情緒激動的」與本句語境不同。",
-        "emotional-mcq-04": "「開始明顯表現出強烈情緒」與本句語境不同。",
-        "emotional-mcq-05": "「容易受情緒影響而非完全由理性判斷的」與本句語境不同。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。"
+        "emotional-mcq-01": "本句的「emotional impact」指「與人的情緒、感受或情感反應有關的」。",
+        "emotional-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-01"
     },
@@ -577,11 +553,7 @@ export default {
       "masked": "Children need both practical and ____.",
       "options": [
         "emotional-mcq-01",
-        "emotional-mcq-02",
-        "emotional-mcq-03",
-        "emotional-mcq-04",
-        "emotional-mcq-05",
-        "emotional-mcq-06"
+        "emotional-mcq-07"
       ],
       "explanation": "本句的「emotional support」指「與人的情緒、感受或情感反應有關的」。",
       "sentenceIndex": 3,
@@ -590,12 +562,8 @@ export default {
         "emotional support"
       ],
       "optionReasons": {
-        "emotional-mcq-01": "本句指「與人的情緒、感受或情感反應有關的」。",
-        "emotional-mcq-02": "「某人在某一時刻的情緒狀況」與本句語境不同。",
-        "emotional-mcq-03": "「因強烈感受而情緒激動的」與本句語境不同。",
-        "emotional-mcq-04": "「開始明顯表現出強烈情緒」與本句語境不同。",
-        "emotional-mcq-05": "「容易受情緒影響而非完全由理性判斷的」與本句語境不同。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。"
+        "emotional-mcq-01": "本句的「emotional support」指「與人的情緒、感受或情感反應有關的」。",
+        "emotional-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-01"
     },
@@ -607,11 +575,7 @@ export default {
       "masked": "Stress can affect your ____.",
       "options": [
         "emotional-mcq-02",
-        "emotional-mcq-01",
-        "emotional-mcq-03",
-        "emotional-mcq-04",
-        "emotional-mcq-05",
-        "emotional-mcq-06"
+        "emotional-mcq-08"
       ],
       "explanation": "本句的「emotional state」指「某人在某一時刻的情緒狀況」。",
       "sentenceIndex": 4,
@@ -620,12 +584,8 @@ export default {
         "emotional state"
       ],
       "optionReasons": {
-        "emotional-mcq-02": "本句指「某人在某一時刻的情緒狀況」。",
-        "emotional-mcq-01": "「與人的情緒、感受或情感反應有關的」與本句語境不同。",
-        "emotional-mcq-03": "「因強烈感受而情緒激動的」與本句語境不同。",
-        "emotional-mcq-04": "「開始明顯表現出強烈情緒」與本句語境不同。",
-        "emotional-mcq-05": "「容易受情緒影響而非完全由理性判斷的」與本句語境不同。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。"
+        "emotional-mcq-02": "本句的「emotional state」指「某人在某一時刻的情緒狀況」。",
+        "emotional-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-02"
     },
@@ -637,11 +597,8 @@ export default {
       "masked": "The teacher was sensitive to the students’ ____.",
       "options": [
         "emotional-mcq-02",
-        "emotional-mcq-01",
-        "emotional-mcq-03",
-        "emotional-mcq-04",
-        "emotional-mcq-05",
-        "emotional-mcq-06"
+        "emotional-mcq-20",
+        "emotional-mcq-07"
       ],
       "explanation": "本句的「emotional state」指「某人在某一時刻的情緒狀況」。",
       "sentenceIndex": 5,
@@ -650,12 +607,9 @@ export default {
         "emotional state"
       ],
       "optionReasons": {
-        "emotional-mcq-02": "本句指「某人在某一時刻的情緒狀況」。",
-        "emotional-mcq-01": "「與人的情緒、感受或情感反應有關的」與本句語境不同。",
-        "emotional-mcq-03": "「因強烈感受而情緒激動的」與本句語境不同。",
-        "emotional-mcq-04": "「開始明顯表現出強烈情緒」與本句語境不同。",
-        "emotional-mcq-05": "「容易受情緒影響而非完全由理性判斷的」與本句語境不同。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。"
+        "emotional-mcq-02": "本句的「emotional state」指「某人在某一時刻的情緒狀況」。",
+        "emotional-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "emotional-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-02"
     },
@@ -667,11 +621,7 @@ export default {
       "masked": "She became ____ during the speech.",
       "options": [
         "emotional-mcq-03",
-        "emotional-mcq-02",
-        "emotional-mcq-04",
-        "emotional-mcq-01",
-        "emotional-mcq-05",
-        "emotional-mcq-06"
+        "emotional-mcq-09"
       ],
       "explanation": "本句的「emotional」指「因強烈感受而情緒激動的」。",
       "sentenceIndex": 6,
@@ -680,12 +630,8 @@ export default {
         "emotional"
       ],
       "optionReasons": {
-        "emotional-mcq-03": "本句指「因強烈感受而情緒激動的」。",
-        "emotional-mcq-02": "「某人在某一時刻的情緒狀況」與本句語境不同。",
-        "emotional-mcq-04": "「開始明顯表現出強烈情緒」與本句語境不同。",
-        "emotional-mcq-01": "「與人的情緒、感受或情感反應有關的」與本句語境不同。",
-        "emotional-mcq-05": "「容易受情緒影響而非完全由理性判斷的」與本句語境不同。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。"
+        "emotional-mcq-03": "本句的「emotional」指「因強烈感受而情緒激動的」。",
+        "emotional-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-03"
     },
@@ -697,11 +643,7 @@ export default {
       "masked": "It was an ____ for everyone.",
       "options": [
         "emotional-mcq-03",
-        "emotional-mcq-02",
-        "emotional-mcq-04",
-        "emotional-mcq-01",
-        "emotional-mcq-05",
-        "emotional-mcq-06"
+        "emotional-mcq-09"
       ],
       "explanation": "本句的「emotional moment」指「因強烈感受而情緒激動的」。",
       "sentenceIndex": 7,
@@ -710,12 +652,8 @@ export default {
         "emotional moment"
       ],
       "optionReasons": {
-        "emotional-mcq-03": "本句指「因強烈感受而情緒激動的」。",
-        "emotional-mcq-02": "「某人在某一時刻的情緒狀況」與本句語境不同。",
-        "emotional-mcq-04": "「開始明顯表現出強烈情緒」與本句語境不同。",
-        "emotional-mcq-01": "「與人的情緒、感受或情感反應有關的」與本句語境不同。",
-        "emotional-mcq-05": "「容易受情緒影響而非完全由理性判斷的」與本句語境不同。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。"
+        "emotional-mcq-03": "本句的「emotional moment」指「因強烈感受而情緒激動的」。",
+        "emotional-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-03"
     },
@@ -727,11 +665,7 @@ export default {
       "masked": "He ____ when talking about his family.",
       "options": [
         "emotional-mcq-04",
-        "emotional-mcq-03",
-        "emotional-mcq-05",
-        "emotional-mcq-02",
-        "emotional-mcq-06",
-        "emotional-mcq-01"
+        "emotional-mcq-09"
       ],
       "explanation": "本句的「became emotional」指「開始明顯表現出強烈情緒」。",
       "sentenceIndex": 8,
@@ -740,12 +674,8 @@ export default {
         "became emotional"
       ],
       "optionReasons": {
-        "emotional-mcq-04": "本句指「開始明顯表現出強烈情緒」。",
-        "emotional-mcq-03": "「因強烈感受而情緒激動的」與本句語境不同。",
-        "emotional-mcq-05": "「容易受情緒影響而非完全由理性判斷的」與本句語境不同。",
-        "emotional-mcq-02": "「某人在某一時刻的情緒狀況」與本句語境不同。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。",
-        "emotional-mcq-01": "「與人的情緒、感受或情感反應有關的」與本句語境不同。"
+        "emotional-mcq-04": "本句的「became emotional」指「開始明顯表現出強烈情緒」。",
+        "emotional-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-04"
     },
@@ -757,11 +687,7 @@ export default {
       "masked": "She ____ at the graduation ceremony.",
       "options": [
         "emotional-mcq-04",
-        "emotional-mcq-03",
-        "emotional-mcq-05",
-        "emotional-mcq-02",
-        "emotional-mcq-06",
-        "emotional-mcq-01"
+        "emotional-mcq-09"
       ],
       "explanation": "本句的「got emotional」指「開始明顯表現出強烈情緒」。",
       "sentenceIndex": 9,
@@ -770,12 +696,8 @@ export default {
         "got emotional"
       ],
       "optionReasons": {
-        "emotional-mcq-04": "本句指「開始明顯表現出強烈情緒」。",
-        "emotional-mcq-03": "「因強烈感受而情緒激動的」與本句語境不同。",
-        "emotional-mcq-05": "「容易受情緒影響而非完全由理性判斷的」與本句語境不同。",
-        "emotional-mcq-02": "「某人在某一時刻的情緒狀況」與本句語境不同。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。",
-        "emotional-mcq-01": "「與人的情緒、感受或情感反應有關的」與本句語境不同。"
+        "emotional-mcq-04": "本句的「got emotional」指「開始明顯表現出強烈情緒」。",
+        "emotional-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-04"
     },
@@ -787,11 +709,7 @@ export default {
       "masked": "He can be quite ____ under pressure.",
       "options": [
         "emotional-mcq-05",
-        "emotional-mcq-04",
-        "emotional-mcq-06",
-        "emotional-mcq-03",
-        "emotional-mcq-07",
-        "emotional-mcq-02"
+        "emotional-mcq-09"
       ],
       "explanation": "本句的「emotional」指「容易受情緒影響而非完全由理性判斷的」。",
       "sentenceIndex": 10,
@@ -800,12 +718,8 @@ export default {
         "emotional"
       ],
       "optionReasons": {
-        "emotional-mcq-05": "本句指「容易受情緒影響而非完全由理性判斷的」。",
-        "emotional-mcq-04": "「開始明顯表現出強烈情緒」與本句語境不同。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。",
-        "emotional-mcq-03": "「因強烈感受而情緒激動的」與本句語境不同。",
-        "emotional-mcq-07": "「能引起強烈感情、令人感動或激動的」與本句語境不同。",
-        "emotional-mcq-02": "「某人在某一時刻的情緒狀況」與本句語境不同。"
+        "emotional-mcq-05": "本句的「emotional」指「容易受情緒影響而非完全由理性判斷的」。",
+        "emotional-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-05"
     },
@@ -817,11 +731,7 @@ export default {
       "masked": "Try not to make an ____.",
       "options": [
         "emotional-mcq-05",
-        "emotional-mcq-04",
-        "emotional-mcq-06",
-        "emotional-mcq-03",
-        "emotional-mcq-07",
-        "emotional-mcq-02"
+        "emotional-mcq-20"
       ],
       "explanation": "本句的「emotional decision」指「容易受情緒影響而非完全由理性判斷的」。",
       "sentenceIndex": 11,
@@ -830,12 +740,8 @@ export default {
         "emotional decision"
       ],
       "optionReasons": {
-        "emotional-mcq-05": "本句指「容易受情緒影響而非完全由理性判斷的」。",
-        "emotional-mcq-04": "「開始明顯表現出強烈情緒」與本句語境不同。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。",
-        "emotional-mcq-03": "「因強烈感受而情緒激動的」與本句語境不同。",
-        "emotional-mcq-07": "「能引起強烈感情、令人感動或激動的」與本句語境不同。",
-        "emotional-mcq-02": "「某人在某一時刻的情緒狀況」與本句語境不同。"
+        "emotional-mcq-05": "本句的「emotional decision」指「容易受情緒影響而非完全由理性判斷的」。",
+        "emotional-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-05"
     },
@@ -847,11 +753,8 @@ export default {
       "masked": "It was an ____, not a careful judgment.",
       "options": [
         "emotional-mcq-06",
-        "emotional-mcq-05",
-        "emotional-mcq-07",
-        "emotional-mcq-04",
-        "emotional-mcq-08",
-        "emotional-mcq-03"
+        "emotional-mcq-02",
+        "emotional-mcq-20"
       ],
       "explanation": "本句的「emotional reaction」指「主要受到當下感受影響的決定／反應」。",
       "sentenceIndex": 12,
@@ -860,12 +763,9 @@ export default {
         "emotional reaction"
       ],
       "optionReasons": {
-        "emotional-mcq-06": "本句指「主要受到當下感受影響的決定／反應」。",
-        "emotional-mcq-05": "「容易受情緒影響而非完全由理性判斷的」與本句語境不同。",
-        "emotional-mcq-07": "「能引起強烈感情、令人感動或激動的」與本句語境不同。",
-        "emotional-mcq-04": "「開始明顯表現出強烈情緒」與本句語境不同。",
-        "emotional-mcq-08": "「人與人／事物之間強烈的情感聯繫」與本句語境不同。",
-        "emotional-mcq-03": "「因強烈感受而情緒激動的」與本句語境不同。"
+        "emotional-mcq-06": "本句的「emotional reaction」指「主要受到當下感受影響的決定／反應」。",
+        "emotional-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "emotional-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-06"
     },
@@ -877,11 +777,8 @@ export default {
       "masked": "She regretted making an ____.",
       "options": [
         "emotional-mcq-06",
-        "emotional-mcq-05",
-        "emotional-mcq-07",
-        "emotional-mcq-04",
-        "emotional-mcq-08",
-        "emotional-mcq-03"
+        "emotional-mcq-02",
+        "emotional-mcq-20"
       ],
       "explanation": "本句的「emotional decision」指「主要受到當下感受影響的決定／反應」。",
       "sentenceIndex": 13,
@@ -890,12 +787,9 @@ export default {
         "emotional decision"
       ],
       "optionReasons": {
-        "emotional-mcq-06": "本句指「主要受到當下感受影響的決定／反應」。",
-        "emotional-mcq-05": "「容易受情緒影響而非完全由理性判斷的」與本句語境不同。",
-        "emotional-mcq-07": "「能引起強烈感情、令人感動或激動的」與本句語境不同。",
-        "emotional-mcq-04": "「開始明顯表現出強烈情緒」與本句語境不同。",
-        "emotional-mcq-08": "「人與人／事物之間強烈的情感聯繫」與本句語境不同。",
-        "emotional-mcq-03": "「因強烈感受而情緒激動的」與本句語境不同。"
+        "emotional-mcq-06": "本句的「emotional decision」指「主要受到當下感受影響的決定／反應」。",
+        "emotional-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "emotional-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-06"
     },
@@ -907,11 +801,8 @@ export default {
       "masked": "The reunion was very ____.",
       "options": [
         "emotional-mcq-07",
-        "emotional-mcq-06",
-        "emotional-mcq-08",
-        "emotional-mcq-05",
-        "emotional-mcq-09",
-        "emotional-mcq-04"
+        "emotional-mcq-11",
+        "emotional-mcq-20"
       ],
       "explanation": "本句的「emotional」指「能引起強烈感情、令人感動或激動的」。",
       "sentenceIndex": 14,
@@ -920,12 +811,9 @@ export default {
         "emotional"
       ],
       "optionReasons": {
-        "emotional-mcq-07": "本句指「能引起強烈感情、令人感動或激動的」。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。",
-        "emotional-mcq-08": "「人與人／事物之間強烈的情感聯繫」與本句語境不同。",
-        "emotional-mcq-05": "「容易受情緒影響而非完全由理性判斷的」與本句語境不同。",
-        "emotional-mcq-09": "「對某人、地方或事物產生的深厚情感依附」與本句語境不同。",
-        "emotional-mcq-04": "「開始明顯表現出強烈情緒」與本句語境不同。"
+        "emotional-mcq-07": "本句的「emotional」指「能引起強烈感情、令人感動或激動的」。",
+        "emotional-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "emotional-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-07"
     },
@@ -937,11 +825,8 @@ export default {
       "masked": "It was an ____.",
       "options": [
         "emotional-mcq-07",
-        "emotional-mcq-06",
-        "emotional-mcq-08",
-        "emotional-mcq-05",
-        "emotional-mcq-09",
-        "emotional-mcq-04"
+        "emotional-mcq-13",
+        "emotional-mcq-20"
       ],
       "explanation": "本句的「emotional speech」指「能引起強烈感情、令人感動或激動的」。",
       "sentenceIndex": 15,
@@ -950,12 +835,9 @@ export default {
         "emotional speech"
       ],
       "optionReasons": {
-        "emotional-mcq-07": "本句指「能引起強烈感情、令人感動或激動的」。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。",
-        "emotional-mcq-08": "「人與人／事物之間強烈的情感聯繫」與本句語境不同。",
-        "emotional-mcq-05": "「容易受情緒影響而非完全由理性判斷的」與本句語境不同。",
-        "emotional-mcq-09": "「對某人、地方或事物產生的深厚情感依附」與本句語境不同。",
-        "emotional-mcq-04": "「開始明顯表現出強烈情緒」與本句語境不同。"
+        "emotional-mcq-07": "本句的「emotional speech」指「能引起強烈感情、令人感動或激動的」。",
+        "emotional-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "emotional-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-07"
     },
@@ -967,11 +849,7 @@ export default {
       "masked": "She formed a strong ____ with her students.",
       "options": [
         "emotional-mcq-08",
-        "emotional-mcq-07",
-        "emotional-mcq-09",
-        "emotional-mcq-06",
-        "emotional-mcq-10",
-        "emotional-mcq-05"
+        "emotional-mcq-13"
       ],
       "explanation": "本句的「emotional connection」指「人與人／事物之間強烈的情感聯繫」。",
       "sentenceIndex": 16,
@@ -980,12 +858,8 @@ export default {
         "emotional connection"
       ],
       "optionReasons": {
-        "emotional-mcq-08": "本句指「人與人／事物之間強烈的情感聯繫」。",
-        "emotional-mcq-07": "「能引起強烈感情、令人感動或激動的」與本句語境不同。",
-        "emotional-mcq-09": "「對某人、地方或事物產生的深厚情感依附」與本句語境不同。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。",
-        "emotional-mcq-10": "「透過理解、安慰、陪伴等提供的情緒／情感支持」與本句語境不同。",
-        "emotional-mcq-05": "「容易受情緒影響而非完全由理性判斷的」與本句語境不同。"
+        "emotional-mcq-08": "本句的「emotional connection」指「人與人／事物之間強烈的情感聯繫」。",
+        "emotional-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-08"
     },
@@ -997,11 +871,7 @@ export default {
       "masked": "Music can create an ____ with an audience.",
       "options": [
         "emotional-mcq-08",
-        "emotional-mcq-07",
-        "emotional-mcq-09",
-        "emotional-mcq-06",
-        "emotional-mcq-10",
-        "emotional-mcq-05"
+        "emotional-mcq-11"
       ],
       "explanation": "本句的「emotional connection」指「人與人／事物之間強烈的情感聯繫」。",
       "sentenceIndex": 17,
@@ -1010,12 +880,8 @@ export default {
         "emotional connection"
       ],
       "optionReasons": {
-        "emotional-mcq-08": "本句指「人與人／事物之間強烈的情感聯繫」。",
-        "emotional-mcq-07": "「能引起強烈感情、令人感動或激動的」與本句語境不同。",
-        "emotional-mcq-09": "「對某人、地方或事物產生的深厚情感依附」與本句語境不同。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。",
-        "emotional-mcq-10": "「透過理解、安慰、陪伴等提供的情緒／情感支持」與本句語境不同。",
-        "emotional-mcq-05": "「容易受情緒影響而非完全由理性判斷的」與本句語境不同。"
+        "emotional-mcq-08": "本句的「emotional connection」指「人與人／事物之間強烈的情感聯繫」。",
+        "emotional-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-08"
     },
@@ -1027,9 +893,6 @@ export default {
       "masked": "People often develop an ____ to familiar places.",
       "options": [
         "emotional-mcq-09",
-        "emotional-mcq-08",
-        "emotional-mcq-10",
-        "emotional-mcq-07",
         "emotional-mcq-11",
         "emotional-mcq-06"
       ],
@@ -1040,12 +903,9 @@ export default {
         "emotional attachment"
       ],
       "optionReasons": {
-        "emotional-mcq-09": "本句指「對某人、地方或事物產生的深厚情感依附」。",
-        "emotional-mcq-08": "「人與人／事物之間強烈的情感聯繫」與本句語境不同。",
-        "emotional-mcq-10": "「透過理解、安慰、陪伴等提供的情緒／情感支持」與本句語境不同。",
-        "emotional-mcq-07": "「能引起強烈感情、令人感動或激動的」與本句語境不同。",
-        "emotional-mcq-11": "「情緒保持健康、穩定與良好調節的狀態」與本句語境不同。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。"
+        "emotional-mcq-09": "本句的「emotional attachment」指「對某人、地方或事物產生的深厚情感依附」。",
+        "emotional-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "emotional-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-09"
     },
@@ -1057,10 +917,7 @@ export default {
       "masked": "She had a strong ____ to the school.",
       "options": [
         "emotional-mcq-09",
-        "emotional-mcq-08",
-        "emotional-mcq-10",
-        "emotional-mcq-07",
-        "emotional-mcq-11",
+        "emotional-mcq-15",
         "emotional-mcq-06"
       ],
       "explanation": "本句的「emotional attachment」指「對某人、地方或事物產生的深厚情感依附」。",
@@ -1070,12 +927,9 @@ export default {
         "emotional attachment"
       ],
       "optionReasons": {
-        "emotional-mcq-09": "本句指「對某人、地方或事物產生的深厚情感依附」。",
-        "emotional-mcq-08": "「人與人／事物之間強烈的情感聯繫」與本句語境不同。",
-        "emotional-mcq-10": "「透過理解、安慰、陪伴等提供的情緒／情感支持」與本句語境不同。",
-        "emotional-mcq-07": "「能引起強烈感情、令人感動或激動的」與本句語境不同。",
-        "emotional-mcq-11": "「情緒保持健康、穩定與良好調節的狀態」與本句語境不同。",
-        "emotional-mcq-06": "「主要受到當下感受影響的決定／反應」與本句語境不同。"
+        "emotional-mcq-09": "本句的「emotional attachment」指「對某人、地方或事物產生的深厚情感依附」。",
+        "emotional-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "emotional-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-09"
     },
@@ -1087,11 +941,7 @@ export default {
       "masked": "Friends can provide important ____.",
       "options": [
         "emotional-mcq-10",
-        "emotional-mcq-09",
-        "emotional-mcq-11",
-        "emotional-mcq-08",
-        "emotional-mcq-12",
-        "emotional-mcq-07"
+        "emotional-mcq-06"
       ],
       "explanation": "本句的「emotional support」指「透過理解、安慰、陪伴等提供的情緒／情感支持」。",
       "sentenceIndex": 20,
@@ -1100,12 +950,8 @@ export default {
         "emotional support"
       ],
       "optionReasons": {
-        "emotional-mcq-10": "本句指「透過理解、安慰、陪伴等提供的情緒／情感支持」。",
-        "emotional-mcq-09": "「對某人、地方或事物產生的深厚情感依附」與本句語境不同。",
-        "emotional-mcq-11": "「情緒保持健康、穩定與良好調節的狀態」與本句語境不同。",
-        "emotional-mcq-08": "「人與人／事物之間強烈的情感聯繫」與本句語境不同。",
-        "emotional-mcq-12": "「辨識、理解、管理自己與他人情緒的能力；情緒智慧」與本句語境不同。",
-        "emotional-mcq-07": "「能引起強烈感情、令人感動或激動的」與本句語境不同。"
+        "emotional-mcq-10": "本句的「emotional support」指「透過理解、安慰、陪伴等提供的情緒／情感支持」。",
+        "emotional-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-10"
     },
@@ -1117,11 +963,7 @@ export default {
       "masked": "Students sometimes need ____ as well as academic help.",
       "options": [
         "emotional-mcq-10",
-        "emotional-mcq-09",
-        "emotional-mcq-11",
-        "emotional-mcq-08",
-        "emotional-mcq-12",
-        "emotional-mcq-07"
+        "emotional-mcq-06"
       ],
       "explanation": "本句的「emotional support」指「透過理解、安慰、陪伴等提供的情緒／情感支持」。",
       "sentenceIndex": 21,
@@ -1130,12 +972,8 @@ export default {
         "emotional support"
       ],
       "optionReasons": {
-        "emotional-mcq-10": "本句指「透過理解、安慰、陪伴等提供的情緒／情感支持」。",
-        "emotional-mcq-09": "「對某人、地方或事物產生的深厚情感依附」與本句語境不同。",
-        "emotional-mcq-11": "「情緒保持健康、穩定與良好調節的狀態」與本句語境不同。",
-        "emotional-mcq-08": "「人與人／事物之間強烈的情感聯繫」與本句語境不同。",
-        "emotional-mcq-12": "「辨識、理解、管理自己與他人情緒的能力；情緒智慧」與本句語境不同。",
-        "emotional-mcq-07": "「能引起強烈感情、令人感動或激動的」與本句語境不同。"
+        "emotional-mcq-10": "本句的「emotional support」指「透過理解、安慰、陪伴等提供的情緒／情感支持」。",
+        "emotional-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-10"
     },
@@ -1147,11 +985,8 @@ export default {
       "masked": "Sleep can affect ____.",
       "options": [
         "emotional-mcq-11",
-        "emotional-mcq-10",
-        "emotional-mcq-12",
-        "emotional-mcq-09",
-        "emotional-mcq-13",
-        "emotional-mcq-08"
+        "emotional-mcq-20",
+        "emotional-mcq-07"
       ],
       "explanation": "本句的「emotional wellbeing」指「情緒保持健康、穩定與良好調節的狀態」。",
       "sentenceIndex": 22,
@@ -1160,12 +995,9 @@ export default {
         "emotional wellbeing"
       ],
       "optionReasons": {
-        "emotional-mcq-11": "本句指「情緒保持健康、穩定與良好調節的狀態」。",
-        "emotional-mcq-10": "「透過理解、安慰、陪伴等提供的情緒／情感支持」與本句語境不同。",
-        "emotional-mcq-12": "「辨識、理解、管理自己與他人情緒的能力；情緒智慧」與本句語境不同。",
-        "emotional-mcq-09": "「對某人、地方或事物產生的深厚情感依附」與本句語境不同。",
-        "emotional-mcq-13": "「善於理解、調節並適當回應情緒的」與本句語境不同。",
-        "emotional-mcq-08": "「人與人／事物之間強烈的情感聯繫」與本句語境不同。"
+        "emotional-mcq-11": "本句的「emotional wellbeing」指「情緒保持健康、穩定與良好調節的狀態」。",
+        "emotional-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "emotional-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-11"
     },
@@ -1177,11 +1009,8 @@ export default {
       "masked": "The school supports students’ ____.",
       "options": [
         "emotional-mcq-11",
-        "emotional-mcq-10",
-        "emotional-mcq-12",
         "emotional-mcq-09",
-        "emotional-mcq-13",
-        "emotional-mcq-08"
+        "emotional-mcq-06"
       ],
       "explanation": "本句的「emotional wellbeing」指「情緒保持健康、穩定與良好調節的狀態」。",
       "sentenceIndex": 23,
@@ -1190,12 +1019,9 @@ export default {
         "emotional wellbeing"
       ],
       "optionReasons": {
-        "emotional-mcq-11": "本句指「情緒保持健康、穩定與良好調節的狀態」。",
-        "emotional-mcq-10": "「透過理解、安慰、陪伴等提供的情緒／情感支持」與本句語境不同。",
-        "emotional-mcq-12": "「辨識、理解、管理自己與他人情緒的能力；情緒智慧」與本句語境不同。",
-        "emotional-mcq-09": "「對某人、地方或事物產生的深厚情感依附」與本句語境不同。",
-        "emotional-mcq-13": "「善於理解、調節並適當回應情緒的」與本句語境不同。",
-        "emotional-mcq-08": "「人與人／事物之間強烈的情感聯繫」與本句語境不同。"
+        "emotional-mcq-11": "本句的「emotional wellbeing」指「情緒保持健康、穩定與良好調節的狀態」。",
+        "emotional-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "emotional-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-11"
     },
@@ -1207,11 +1033,7 @@ export default {
       "masked": "Strong ____ helps teachers understand their students.",
       "options": [
         "emotional-mcq-12",
-        "emotional-mcq-11",
-        "emotional-mcq-13",
-        "emotional-mcq-10",
-        "emotional-mcq-14",
-        "emotional-mcq-09"
+        "emotional-mcq-20"
       ],
       "explanation": "本句的「emotional intelligence」指「辨識、理解、管理自己與他人情緒的能力；情緒智慧」。",
       "sentenceIndex": 24,
@@ -1220,12 +1042,8 @@ export default {
         "emotional intelligence"
       ],
       "optionReasons": {
-        "emotional-mcq-12": "本句指「辨識、理解、管理自己與他人情緒的能力；情緒智慧」。",
-        "emotional-mcq-11": "「情緒保持健康、穩定與良好調節的狀態」與本句語境不同。",
-        "emotional-mcq-13": "「善於理解、調節並適當回應情緒的」與本句語境不同。",
-        "emotional-mcq-10": "「透過理解、安慰、陪伴等提供的情緒／情感支持」與本句語境不同。",
-        "emotional-mcq-14": "「與感受、情緒調節或心理壓力相關的困難」與本句語境不同。",
-        "emotional-mcq-09": "「對某人、地方或事物產生的深厚情感依附」與本句語境不同。"
+        "emotional-mcq-12": "本句的「emotional intelligence」指「辨識、理解、管理自己與他人情緒的能力；情緒智慧」。",
+        "emotional-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-12"
     },
@@ -1237,11 +1055,7 @@ export default {
       "masked": "Leadership often requires high ____.",
       "options": [
         "emotional-mcq-12",
-        "emotional-mcq-11",
-        "emotional-mcq-13",
-        "emotional-mcq-10",
-        "emotional-mcq-14",
-        "emotional-mcq-09"
+        "emotional-mcq-20"
       ],
       "explanation": "本句的「emotional intelligence」指「辨識、理解、管理自己與他人情緒的能力；情緒智慧」。",
       "sentenceIndex": 25,
@@ -1250,12 +1064,8 @@ export default {
         "emotional intelligence"
       ],
       "optionReasons": {
-        "emotional-mcq-12": "本句指「辨識、理解、管理自己與他人情緒的能力；情緒智慧」。",
-        "emotional-mcq-11": "「情緒保持健康、穩定與良好調節的狀態」與本句語境不同。",
-        "emotional-mcq-13": "「善於理解、調節並適當回應情緒的」與本句語境不同。",
-        "emotional-mcq-10": "「透過理解、安慰、陪伴等提供的情緒／情感支持」與本句語境不同。",
-        "emotional-mcq-14": "「與感受、情緒調節或心理壓力相關的困難」與本句語境不同。",
-        "emotional-mcq-09": "「對某人、地方或事物產生的深厚情感依附」與本句語境不同。"
+        "emotional-mcq-12": "本句的「emotional intelligence」指「辨識、理解、管理自己與他人情緒的能力；情緒智慧」。",
+        "emotional-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-12"
     },
@@ -1267,11 +1077,8 @@ export default {
       "masked": "She is highly ____.",
       "options": [
         "emotional-mcq-13",
-        "emotional-mcq-12",
-        "emotional-mcq-14",
-        "emotional-mcq-11",
-        "emotional-mcq-15",
-        "emotional-mcq-10"
+        "emotional-mcq-09",
+        "emotional-mcq-06"
       ],
       "explanation": "本句的「emotionally intelligent」指「善於理解、調節並適當回應情緒的」。",
       "sentenceIndex": 26,
@@ -1280,12 +1087,9 @@ export default {
         "emotionally intelligent"
       ],
       "optionReasons": {
-        "emotional-mcq-13": "本句指「善於理解、調節並適當回應情緒的」。",
-        "emotional-mcq-12": "「辨識、理解、管理自己與他人情緒的能力；情緒智慧」與本句語境不同。",
-        "emotional-mcq-14": "「與感受、情緒調節或心理壓力相關的困難」與本句語境不同。",
-        "emotional-mcq-11": "「情緒保持健康、穩定與良好調節的狀態」與本句語境不同。",
-        "emotional-mcq-15": "「明顯的情緒痛苦、不安或困擾」與本句語境不同。",
-        "emotional-mcq-10": "「透過理解、安慰、陪伴等提供的情緒／情感支持」與本句語境不同。"
+        "emotional-mcq-13": "本句的「emotionally intelligent」指「善於理解、調節並適當回應情緒的」。",
+        "emotional-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "emotional-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-13"
     },
@@ -1297,11 +1101,7 @@ export default {
       "masked": "An ____ teacher notices when students need reassurance.",
       "options": [
         "emotional-mcq-13",
-        "emotional-mcq-12",
-        "emotional-mcq-14",
-        "emotional-mcq-11",
-        "emotional-mcq-15",
-        "emotional-mcq-10"
+        "emotional-mcq-21"
       ],
       "explanation": "本句的「emotionally intelligent」指「善於理解、調節並適當回應情緒的」。",
       "sentenceIndex": 27,
@@ -1310,12 +1110,8 @@ export default {
         "emotionally intelligent"
       ],
       "optionReasons": {
-        "emotional-mcq-13": "本句指「善於理解、調節並適當回應情緒的」。",
-        "emotional-mcq-12": "「辨識、理解、管理自己與他人情緒的能力；情緒智慧」與本句語境不同。",
-        "emotional-mcq-14": "「與感受、情緒調節或心理壓力相關的困難」與本句語境不同。",
-        "emotional-mcq-11": "「情緒保持健康、穩定與良好調節的狀態」與本句語境不同。",
-        "emotional-mcq-15": "「明顯的情緒痛苦、不安或困擾」與本句語境不同。",
-        "emotional-mcq-10": "「透過理解、安慰、陪伴等提供的情緒／情感支持」與本句語境不同。"
+        "emotional-mcq-13": "本句的「emotionally intelligent」指「善於理解、調節並適當回應情緒的」。",
+        "emotional-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-13"
     },
@@ -1327,11 +1123,8 @@ export default {
       "masked": "Some children experience ____ at school.",
       "options": [
         "emotional-mcq-14",
-        "emotional-mcq-13",
-        "emotional-mcq-15",
-        "emotional-mcq-12",
-        "emotional-mcq-16",
-        "emotional-mcq-11"
+        "emotional-mcq-20",
+        "emotional-mcq-07"
       ],
       "explanation": "本句的「emotional difficulties」指「與感受、情緒調節或心理壓力相關的困難」。",
       "sentenceIndex": 28,
@@ -1340,12 +1133,9 @@ export default {
         "emotional difficulties"
       ],
       "optionReasons": {
-        "emotional-mcq-14": "本句指「與感受、情緒調節或心理壓力相關的困難」。",
-        "emotional-mcq-13": "「善於理解、調節並適當回應情緒的」與本句語境不同。",
-        "emotional-mcq-15": "「明顯的情緒痛苦、不安或困擾」與本句語境不同。",
-        "emotional-mcq-12": "「辨識、理解、管理自己與他人情緒的能力；情緒智慧」與本句語境不同。",
-        "emotional-mcq-16": "「喜怒哀樂、恐懼等感受；情緒／情感」與本句語境不同。",
-        "emotional-mcq-11": "「情緒保持健康、穩定與良好調節的狀態」與本句語境不同。"
+        "emotional-mcq-14": "本句的「emotional difficulties」指「與感受、情緒調節或心理壓力相關的困難」。",
+        "emotional-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "emotional-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-14"
     },
@@ -1357,11 +1147,7 @@ export default {
       "masked": "The programme supports students with social and ____.",
       "options": [
         "emotional-mcq-14",
-        "emotional-mcq-13",
-        "emotional-mcq-15",
-        "emotional-mcq-12",
-        "emotional-mcq-16",
-        "emotional-mcq-11"
+        "emotional-mcq-21"
       ],
       "explanation": "本句的「emotional problems」指「與感受、情緒調節或心理壓力相關的困難」。",
       "sentenceIndex": 29,
@@ -1370,12 +1156,8 @@ export default {
         "emotional problems"
       ],
       "optionReasons": {
-        "emotional-mcq-14": "本句指「與感受、情緒調節或心理壓力相關的困難」。",
-        "emotional-mcq-13": "「善於理解、調節並適當回應情緒的」與本句語境不同。",
-        "emotional-mcq-15": "「明顯的情緒痛苦、不安或困擾」與本句語境不同。",
-        "emotional-mcq-12": "「辨識、理解、管理自己與他人情緒的能力；情緒智慧」與本句語境不同。",
-        "emotional-mcq-16": "「喜怒哀樂、恐懼等感受；情緒／情感」與本句語境不同。",
-        "emotional-mcq-11": "「情緒保持健康、穩定與良好調節的狀態」與本句語境不同。"
+        "emotional-mcq-14": "本句的「emotional problems」指「與感受、情緒調節或心理壓力相關的困難」。",
+        "emotional-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-14"
     },
@@ -1387,11 +1169,8 @@ export default {
       "masked": "The event caused considerable ____.",
       "options": [
         "emotional-mcq-15",
-        "emotional-mcq-14",
-        "emotional-mcq-16",
-        "emotional-mcq-13",
-        "emotional-mcq-17",
-        "emotional-mcq-12"
+        "emotional-mcq-20",
+        "emotional-mcq-06"
       ],
       "explanation": "本句的「emotional distress」指「明顯的情緒痛苦、不安或困擾」。",
       "sentenceIndex": 30,
@@ -1400,12 +1179,9 @@ export default {
         "emotional distress"
       ],
       "optionReasons": {
-        "emotional-mcq-15": "本句指「明顯的情緒痛苦、不安或困擾」。",
-        "emotional-mcq-14": "「與感受、情緒調節或心理壓力相關的困難」與本句語境不同。",
-        "emotional-mcq-16": "「喜怒哀樂、恐懼等感受；情緒／情感」與本句語境不同。",
-        "emotional-mcq-13": "「善於理解、調節並適當回應情緒的」與本句語境不同。",
-        "emotional-mcq-17": "「從情緒或感情層面而言」與本句語境不同。",
-        "emotional-mcq-12": "「辨識、理解、管理自己與他人情緒的能力；情緒智慧」與本句語境不同。"
+        "emotional-mcq-15": "本句的「emotional distress」指「明顯的情緒痛苦、不安或困擾」。",
+        "emotional-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "emotional-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-15"
     },
@@ -1417,11 +1193,8 @@ export default {
       "masked": "Students experiencing ____ may need additional support.",
       "options": [
         "emotional-mcq-15",
-        "emotional-mcq-14",
-        "emotional-mcq-16",
-        "emotional-mcq-13",
-        "emotional-mcq-17",
-        "emotional-mcq-12"
+        "emotional-mcq-06",
+        "emotional-mcq-09"
       ],
       "explanation": "本句的「emotional distress」指「明顯的情緒痛苦、不安或困擾」。",
       "sentenceIndex": 31,
@@ -1430,12 +1203,9 @@ export default {
         "emotional distress"
       ],
       "optionReasons": {
-        "emotional-mcq-15": "本句指「明顯的情緒痛苦、不安或困擾」。",
-        "emotional-mcq-14": "「與感受、情緒調節或心理壓力相關的困難」與本句語境不同。",
-        "emotional-mcq-16": "「喜怒哀樂、恐懼等感受；情緒／情感」與本句語境不同。",
-        "emotional-mcq-13": "「善於理解、調節並適當回應情緒的」與本句語境不同。",
-        "emotional-mcq-17": "「從情緒或感情層面而言」與本句語境不同。",
-        "emotional-mcq-12": "「辨識、理解、管理自己與他人情緒的能力；情緒智慧」與本句語境不同。"
+        "emotional-mcq-15": "本句的「emotional distress」指「明顯的情緒痛苦、不安或困擾」。",
+        "emotional-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "emotional-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-15"
     },
@@ -1447,11 +1217,7 @@ export default {
       "masked": "Fear is a powerful ____.",
       "options": [
         "emotional-mcq-16",
-        "emotional-mcq-15",
-        "emotional-mcq-17",
-        "emotional-mcq-14",
-        "emotional-mcq-18",
-        "emotional-mcq-13"
+        "emotional-mcq-07"
       ],
       "explanation": "本句的「emotion」指「喜怒哀樂、恐懼等感受；情緒／情感」。",
       "sentenceIndex": 32,
@@ -1460,12 +1226,8 @@ export default {
         "emotion"
       ],
       "optionReasons": {
-        "emotional-mcq-16": "本句指「喜怒哀樂、恐懼等感受；情緒／情感」。",
-        "emotional-mcq-15": "「明顯的情緒痛苦、不安或困擾」與本句語境不同。",
-        "emotional-mcq-17": "「從情緒或感情層面而言」與本句語境不同。",
-        "emotional-mcq-14": "「與感受、情緒調節或心理壓力相關的困難」與本句語境不同。",
-        "emotional-mcq-18": "「不明顯流露感情、情緒反應較少的」與本句語境不同。",
-        "emotional-mcq-13": "「善於理解、調節並適當回應情緒的」與本句語境不同。"
+        "emotional-mcq-16": "本句的「emotion」指「喜怒哀樂、恐懼等感受；情緒／情感」。",
+        "emotional-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-16"
     },
@@ -1477,11 +1239,7 @@ export default {
       "masked": "She struggled to express her ____.",
       "options": [
         "emotional-mcq-16",
-        "emotional-mcq-15",
-        "emotional-mcq-17",
-        "emotional-mcq-14",
-        "emotional-mcq-18",
-        "emotional-mcq-13"
+        "emotional-mcq-07"
       ],
       "explanation": "本句的「emotions」指「喜怒哀樂、恐懼等感受；情緒／情感」。",
       "sentenceIndex": 33,
@@ -1490,12 +1248,8 @@ export default {
         "emotions"
       ],
       "optionReasons": {
-        "emotional-mcq-16": "本句指「喜怒哀樂、恐懼等感受；情緒／情感」。",
-        "emotional-mcq-15": "「明顯的情緒痛苦、不安或困擾」與本句語境不同。",
-        "emotional-mcq-17": "「從情緒或感情層面而言」與本句語境不同。",
-        "emotional-mcq-14": "「與感受、情緒調節或心理壓力相關的困難」與本句語境不同。",
-        "emotional-mcq-18": "「不明顯流露感情、情緒反應較少的」與本句語境不同。",
-        "emotional-mcq-13": "「善於理解、調節並適當回應情緒的」與本句語境不同。"
+        "emotional-mcq-16": "本句的「emotions」指「喜怒哀樂、恐懼等感受；情緒／情感」。",
+        "emotional-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-16"
     },
@@ -1507,11 +1261,8 @@ export default {
       "masked": "The experience affected her ____.",
       "options": [
         "emotional-mcq-17",
-        "emotional-mcq-16",
-        "emotional-mcq-18",
-        "emotional-mcq-15",
-        "emotional-mcq-19",
-        "emotional-mcq-14"
+        "emotional-mcq-09",
+        "emotional-mcq-06"
       ],
       "explanation": "本句的「emotionally」指「從情緒或感情層面而言」。",
       "sentenceIndex": 34,
@@ -1520,12 +1271,9 @@ export default {
         "emotionally"
       ],
       "optionReasons": {
-        "emotional-mcq-17": "本句指「從情緒或感情層面而言」。",
-        "emotional-mcq-16": "「喜怒哀樂、恐懼等感受；情緒／情感」與本句語境不同。",
-        "emotional-mcq-18": "「不明顯流露感情、情緒反應較少的」與本句語境不同。",
-        "emotional-mcq-15": "「明顯的情緒痛苦、不安或困擾」與本句語境不同。",
-        "emotional-mcq-19": "「容易引發或包含強烈情緒的」與本句語境不同。",
-        "emotional-mcq-14": "「與感受、情緒調節或心理壓力相關的困難」與本句語境不同。"
+        "emotional-mcq-17": "本句的「emotionally」指「從情緒或感情層面而言」。",
+        "emotional-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "emotional-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-17"
     },
@@ -1537,11 +1285,8 @@ export default {
       "masked": "He was ____.",
       "options": [
         "emotional-mcq-17",
-        "emotional-mcq-16",
-        "emotional-mcq-18",
-        "emotional-mcq-15",
-        "emotional-mcq-19",
-        "emotional-mcq-14"
+        "emotional-mcq-09",
+        "emotional-mcq-06"
       ],
       "explanation": "本句的「emotionally exhausted」指「從情緒或感情層面而言」。",
       "sentenceIndex": 35,
@@ -1550,12 +1295,9 @@ export default {
         "emotionally exhausted"
       ],
       "optionReasons": {
-        "emotional-mcq-17": "本句指「從情緒或感情層面而言」。",
-        "emotional-mcq-16": "「喜怒哀樂、恐懼等感受；情緒／情感」與本句語境不同。",
-        "emotional-mcq-18": "「不明顯流露感情、情緒反應較少的」與本句語境不同。",
-        "emotional-mcq-15": "「明顯的情緒痛苦、不安或困擾」與本句語境不同。",
-        "emotional-mcq-19": "「容易引發或包含強烈情緒的」與本句語境不同。",
-        "emotional-mcq-14": "「與感受、情緒調節或心理壓力相關的困難」與本句語境不同。"
+        "emotional-mcq-17": "本句的「emotionally exhausted」指「從情緒或感情層面而言」。",
+        "emotional-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "emotional-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-17"
     },
@@ -1567,11 +1309,7 @@ export default {
       "masked": "She remained calm and ____.",
       "options": [
         "emotional-mcq-18",
-        "emotional-mcq-17",
-        "emotional-mcq-19",
-        "emotional-mcq-16",
-        "emotional-mcq-20",
-        "emotional-mcq-15"
+        "emotional-mcq-09"
       ],
       "explanation": "本句的「unemotional」指「不明顯流露感情、情緒反應較少的」。",
       "sentenceIndex": 36,
@@ -1580,12 +1318,8 @@ export default {
         "unemotional"
       ],
       "optionReasons": {
-        "emotional-mcq-18": "本句指「不明顯流露感情、情緒反應較少的」。",
-        "emotional-mcq-17": "「從情緒或感情層面而言」與本句語境不同。",
-        "emotional-mcq-19": "「容易引發或包含強烈情緒的」與本句語境不同。",
-        "emotional-mcq-16": "「喜怒哀樂、恐懼等感受；情緒／情感」與本句語境不同。",
-        "emotional-mcq-20": "「在某事情中投入較深的個人情感」與本句語境不同。",
-        "emotional-mcq-15": "「明顯的情緒痛苦、不安或困擾」與本句語境不同。"
+        "emotional-mcq-18": "本句的「unemotional」指「不明顯流露感情、情緒反應較少的」。",
+        "emotional-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-18"
     },
@@ -1597,11 +1331,7 @@ export default {
       "masked": "His response sounded rather ____.",
       "options": [
         "emotional-mcq-18",
-        "emotional-mcq-17",
-        "emotional-mcq-19",
-        "emotional-mcq-16",
-        "emotional-mcq-20",
-        "emotional-mcq-15"
+        "emotional-mcq-09"
       ],
       "explanation": "本句的「unemotional」指「不明顯流露感情、情緒反應較少的」。",
       "sentenceIndex": 37,
@@ -1610,12 +1340,8 @@ export default {
         "unemotional"
       ],
       "optionReasons": {
-        "emotional-mcq-18": "本句指「不明顯流露感情、情緒反應較少的」。",
-        "emotional-mcq-17": "「從情緒或感情層面而言」與本句語境不同。",
-        "emotional-mcq-19": "「容易引發或包含強烈情緒的」與本句語境不同。",
-        "emotional-mcq-16": "「喜怒哀樂、恐懼等感受；情緒／情感」與本句語境不同。",
-        "emotional-mcq-20": "「在某事情中投入較深的個人情感」與本句語境不同。",
-        "emotional-mcq-15": "「明顯的情緒痛苦、不安或困擾」與本句語境不同。"
+        "emotional-mcq-18": "本句的「unemotional」指「不明顯流露感情、情緒反應較少的」。",
+        "emotional-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-18"
     },
@@ -1627,11 +1353,7 @@ export default {
       "masked": "It was an ____ discussion.",
       "options": [
         "emotional-mcq-19",
-        "emotional-mcq-18",
-        "emotional-mcq-20",
-        "emotional-mcq-17",
-        "emotional-mcq-21",
-        "emotional-mcq-16"
+        "emotional-mcq-20"
       ],
       "explanation": "本句的「emotionally charged」指「容易引發或包含強烈情緒的」。",
       "sentenceIndex": 38,
@@ -1640,12 +1362,8 @@ export default {
         "emotionally charged"
       ],
       "optionReasons": {
-        "emotional-mcq-19": "本句指「容易引發或包含強烈情緒的」。",
-        "emotional-mcq-18": "「不明顯流露感情、情緒反應較少的」與本句語境不同。",
-        "emotional-mcq-20": "「在某事情中投入較深的個人情感」與本句語境不同。",
-        "emotional-mcq-17": "「從情緒或感情層面而言」與本句語境不同。",
-        "emotional-mcq-21": "「對某人／事物具有強烈情感依附」與本句語境不同。",
-        "emotional-mcq-16": "「喜怒哀樂、恐懼等感受；情緒／情感」與本句語境不同。"
+        "emotional-mcq-19": "本句的「emotionally charged」指「容易引發或包含強烈情緒的」。",
+        "emotional-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-19"
     },
@@ -1657,11 +1375,7 @@ export default {
       "masked": "The topic remains ____.",
       "options": [
         "emotional-mcq-19",
-        "emotional-mcq-18",
-        "emotional-mcq-20",
-        "emotional-mcq-17",
-        "emotional-mcq-21",
-        "emotional-mcq-16"
+        "emotional-mcq-09"
       ],
       "explanation": "本句的「emotionally charged」指「容易引發或包含強烈情緒的」。",
       "sentenceIndex": 39,
@@ -1670,12 +1384,8 @@ export default {
         "emotionally charged"
       ],
       "optionReasons": {
-        "emotional-mcq-19": "本句指「容易引發或包含強烈情緒的」。",
-        "emotional-mcq-18": "「不明顯流露感情、情緒反應較少的」與本句語境不同。",
-        "emotional-mcq-20": "「在某事情中投入較深的個人情感」與本句語境不同。",
-        "emotional-mcq-17": "「從情緒或感情層面而言」與本句語境不同。",
-        "emotional-mcq-21": "「對某人／事物具有強烈情感依附」與本句語境不同。",
-        "emotional-mcq-16": "「喜怒哀樂、恐懼等感受；情緒／情感」與本句語境不同。"
+        "emotional-mcq-19": "本句的「emotionally charged」指「容易引發或包含強烈情緒的」。",
+        "emotional-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-19"
     },
@@ -1687,11 +1397,7 @@ export default {
       "masked": "It is difficult to stay objective when you are ____.",
       "options": [
         "emotional-mcq-20",
-        "emotional-mcq-19",
-        "emotional-mcq-21",
-        "emotional-mcq-18",
-        "emotional-mcq-17",
-        "emotional-mcq-16"
+        "emotional-mcq-05"
       ],
       "explanation": "本句的「emotionally involved」指「在某事情中投入較深的個人情感」。",
       "sentenceIndex": 40,
@@ -1700,12 +1406,8 @@ export default {
         "emotionally involved"
       ],
       "optionReasons": {
-        "emotional-mcq-20": "本句指「在某事情中投入較深的個人情感」。",
-        "emotional-mcq-19": "「容易引發或包含強烈情緒的」與本句語境不同。",
-        "emotional-mcq-21": "「對某人／事物具有強烈情感依附」與本句語境不同。",
-        "emotional-mcq-18": "「不明顯流露感情、情緒反應較少的」與本句語境不同。",
-        "emotional-mcq-17": "「從情緒或感情層面而言」與本句語境不同。",
-        "emotional-mcq-16": "「喜怒哀樂、恐懼等感受；情緒／情感」與本句語境不同。"
+        "emotional-mcq-20": "本句的「emotionally involved」指「在某事情中投入較深的個人情感」。",
+        "emotional-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-20"
     },
@@ -1717,11 +1419,8 @@ export default {
       "masked": "She became ____ in the situation.",
       "options": [
         "emotional-mcq-20",
-        "emotional-mcq-19",
-        "emotional-mcq-21",
-        "emotional-mcq-18",
-        "emotional-mcq-17",
-        "emotional-mcq-16"
+        "emotional-mcq-13",
+        "emotional-mcq-06"
       ],
       "explanation": "本句的「emotionally involved」指「在某事情中投入較深的個人情感」。",
       "sentenceIndex": 41,
@@ -1730,12 +1429,9 @@ export default {
         "emotionally involved"
       ],
       "optionReasons": {
-        "emotional-mcq-20": "本句指「在某事情中投入較深的個人情感」。",
-        "emotional-mcq-19": "「容易引發或包含強烈情緒的」與本句語境不同。",
-        "emotional-mcq-21": "「對某人／事物具有強烈情感依附」與本句語境不同。",
-        "emotional-mcq-18": "「不明顯流露感情、情緒反應較少的」與本句語境不同。",
-        "emotional-mcq-17": "「從情緒或感情層面而言」與本句語境不同。",
-        "emotional-mcq-16": "「喜怒哀樂、恐懼等感受；情緒／情感」與本句語境不同。"
+        "emotional-mcq-20": "本句的「emotionally involved」指「在某事情中投入較深的個人情感」。",
+        "emotional-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "emotional-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-20"
     },
@@ -1747,11 +1443,7 @@ export default {
       "masked": "He became ____ to the place.",
       "options": [
         "emotional-mcq-21",
-        "emotional-mcq-20",
-        "emotional-mcq-19",
-        "emotional-mcq-18",
-        "emotional-mcq-17",
-        "emotional-mcq-16"
+        "emotional-mcq-15"
       ],
       "explanation": "本句的「emotionally attached」指「對某人／事物具有強烈情感依附」。",
       "sentenceIndex": 42,
@@ -1760,12 +1452,8 @@ export default {
         "emotionally attached"
       ],
       "optionReasons": {
-        "emotional-mcq-21": "本句指「對某人／事物具有強烈情感依附」。",
-        "emotional-mcq-20": "「在某事情中投入較深的個人情感」與本句語境不同。",
-        "emotional-mcq-19": "「容易引發或包含強烈情緒的」與本句語境不同。",
-        "emotional-mcq-18": "「不明顯流露感情、情緒反應較少的」與本句語境不同。",
-        "emotional-mcq-17": "「從情緒或感情層面而言」與本句語境不同。",
-        "emotional-mcq-16": "「喜怒哀樂、恐懼等感受；情緒／情感」與本句語境不同。"
+        "emotional-mcq-21": "本句的「emotionally attached」指「對某人／事物具有強烈情感依附」。",
+        "emotional-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-21"
     },
@@ -1777,11 +1465,7 @@ export default {
       "masked": "People can become ____ to objects.",
       "options": [
         "emotional-mcq-21",
-        "emotional-mcq-20",
-        "emotional-mcq-19",
-        "emotional-mcq-18",
-        "emotional-mcq-17",
-        "emotional-mcq-16"
+        "emotional-mcq-13"
       ],
       "explanation": "本句的「emotionally attached」指「對某人／事物具有強烈情感依附」。",
       "sentenceIndex": 43,
@@ -1790,12 +1474,8 @@ export default {
         "emotionally attached"
       ],
       "optionReasons": {
-        "emotional-mcq-21": "本句指「對某人／事物具有強烈情感依附」。",
-        "emotional-mcq-20": "「在某事情中投入較深的個人情感」與本句語境不同。",
-        "emotional-mcq-19": "「容易引發或包含強烈情緒的」與本句語境不同。",
-        "emotional-mcq-18": "「不明顯流露感情、情緒反應較少的」與本句語境不同。",
-        "emotional-mcq-17": "「從情緒或感情層面而言」與本句語境不同。",
-        "emotional-mcq-16": "「喜怒哀樂、恐懼等感受；情緒／情感」與本句語境不同。"
+        "emotional-mcq-21": "本句的「emotionally attached」指「對某人／事物具有強烈情感依附」。",
+        "emotional-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "emotional-mcq-21"
     }
@@ -1807,5 +1487,7 @@ export default {
     "sha256": "65c3a7b1c8cae902a6d1888af13c9645cc1d588fd5d962f961f04f6bcac15074",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

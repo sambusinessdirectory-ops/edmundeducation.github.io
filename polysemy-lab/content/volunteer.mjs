@@ -650,11 +650,9 @@ export default {
       "masked": "She ____ every Saturday.",
       "options": [
         "volunteer-mcq-01",
-        "volunteer-mcq-02",
-        "volunteer-mcq-03",
-        "volunteer-mcq-04",
-        "volunteer-mcq-05",
-        "volunteer-mcq-06"
+        "volunteer-mcq-09",
+        "volunteer-mcq-12",
+        "volunteer-mcq-24"
       ],
       "explanation": "本句的「volunteers at a hospital」指「自願付出時間和勞力幫助他人／機構，通常不收報酬；做義工」。",
       "sentenceIndex": 0,
@@ -663,12 +661,10 @@ export default {
         "volunteers at a hospital"
       ],
       "optionReasons": {
-        "volunteer-mcq-01": "本句指「自願付出時間和勞力幫助他人／機構，通常不收報酬；做義工」。",
-        "volunteer-mcq-02": "「在某機構／與某組織一起做義工」與本句語境不同。",
-        "volunteer-mcq-03": "「自願為某事業／機構提供服務」與本句語境不同。",
-        "volunteer-mcq-04": "「主動報名／自願承擔某項任務」與本句語境不同。",
-        "volunteer-mcq-05": "「沒有被迫或要求而自告奮勇做某事」與本句語境不同。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。"
+        "volunteer-mcq-01": "本句的「volunteers at a hospital」指「自願付出時間和勞力幫助他人／機構，通常不收報酬；做義工」。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-01"
     },
@@ -680,11 +676,8 @@ export default {
       "masked": "Many students ____.",
       "options": [
         "volunteer-mcq-01",
-        "volunteer-mcq-02",
-        "volunteer-mcq-03",
-        "volunteer-mcq-04",
-        "volunteer-mcq-05",
-        "volunteer-mcq-06"
+        "volunteer-mcq-08",
+        "volunteer-mcq-17"
       ],
       "explanation": "本句的「volunteer in the community」指「自願付出時間和勞力幫助他人／機構，通常不收報酬；做義工」。",
       "sentenceIndex": 1,
@@ -693,12 +686,9 @@ export default {
         "volunteer in the community"
       ],
       "optionReasons": {
-        "volunteer-mcq-01": "本句指「自願付出時間和勞力幫助他人／機構，通常不收報酬；做義工」。",
-        "volunteer-mcq-02": "「在某機構／與某組織一起做義工」與本句語境不同。",
-        "volunteer-mcq-03": "「自願為某事業／機構提供服務」與本句語境不同。",
-        "volunteer-mcq-04": "「主動報名／自願承擔某項任務」與本句語境不同。",
-        "volunteer-mcq-05": "「沒有被迫或要求而自告奮勇做某事」與本句語境不同。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。"
+        "volunteer-mcq-01": "本句的「volunteer in the community」指「自願付出時間和勞力幫助他人／機構，通常不收報酬；做義工」。",
+        "volunteer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-01"
     },
@@ -710,11 +700,9 @@ export default {
       "masked": "He ____ at a local charity.",
       "options": [
         "volunteer-mcq-02",
-        "volunteer-mcq-01",
-        "volunteer-mcq-03",
-        "volunteer-mcq-04",
-        "volunteer-mcq-05",
-        "volunteer-mcq-06"
+        "volunteer-mcq-12",
+        "volunteer-mcq-24",
+        "volunteer-mcq-04"
       ],
       "explanation": "本句的「volunteers」指「在某機構／與某組織一起做義工」。",
       "sentenceIndex": 2,
@@ -723,12 +711,10 @@ export default {
         "volunteers"
       ],
       "optionReasons": {
-        "volunteer-mcq-02": "本句指「在某機構／與某組織一起做義工」。",
-        "volunteer-mcq-01": "「自願付出時間和勞力幫助他人／機構，通常不收報酬；做義工」與本句語境不同。",
-        "volunteer-mcq-03": "「自願為某事業／機構提供服務」與本句語境不同。",
-        "volunteer-mcq-04": "「主動報名／自願承擔某項任務」與本句語境不同。",
-        "volunteer-mcq-05": "「沒有被迫或要求而自告奮勇做某事」與本句語境不同。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。"
+        "volunteer-mcq-02": "本句的「volunteers」指「在某機構／與某組織一起做義工」。",
+        "volunteer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-02"
     },
@@ -740,11 +726,9 @@ export default {
       "masked": "She ____ throughout the summer.",
       "options": [
         "volunteer-mcq-02",
-        "volunteer-mcq-01",
-        "volunteer-mcq-03",
-        "volunteer-mcq-04",
-        "volunteer-mcq-05",
-        "volunteer-mcq-06"
+        "volunteer-mcq-19",
+        "volunteer-mcq-12",
+        "volunteer-mcq-09"
       ],
       "explanation": "本句的「volunteered」指「在某機構／與某組織一起做義工」。",
       "sentenceIndex": 3,
@@ -753,12 +737,10 @@ export default {
         "volunteered"
       ],
       "optionReasons": {
-        "volunteer-mcq-02": "本句指「在某機構／與某組織一起做義工」。",
-        "volunteer-mcq-01": "「自願付出時間和勞力幫助他人／機構，通常不收報酬；做義工」與本句語境不同。",
-        "volunteer-mcq-03": "「自願為某事業／機構提供服務」與本句語境不同。",
-        "volunteer-mcq-04": "「主動報名／自願承擔某項任務」與本句語境不同。",
-        "volunteer-mcq-05": "「沒有被迫或要求而自告奮勇做某事」與本句語境不同。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。"
+        "volunteer-mcq-02": "本句的「volunteered」指「在某機構／與某組織一起做義工」。",
+        "volunteer-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-02"
     },
@@ -770,11 +752,9 @@ export default {
       "masked": "She ____ a community centre.",
       "options": [
         "volunteer-mcq-02",
-        "volunteer-mcq-01",
-        "volunteer-mcq-03",
-        "volunteer-mcq-04",
-        "volunteer-mcq-05",
-        "volunteer-mcq-06"
+        "volunteer-mcq-27",
+        "volunteer-mcq-10",
+        "volunteer-mcq-17"
       ],
       "explanation": "本句的「volunteers at」指「在某機構／與某組織一起做義工」。",
       "sentenceIndex": 4,
@@ -783,12 +763,10 @@ export default {
         "volunteers at"
       ],
       "optionReasons": {
-        "volunteer-mcq-02": "本句指「在某機構／與某組織一起做義工」。",
-        "volunteer-mcq-01": "「自願付出時間和勞力幫助他人／機構，通常不收報酬；做義工」與本句語境不同。",
-        "volunteer-mcq-03": "「自願為某事業／機構提供服務」與本句語境不同。",
-        "volunteer-mcq-04": "「主動報名／自願承擔某項任務」與本句語境不同。",
-        "volunteer-mcq-05": "「沒有被迫或要求而自告奮勇做某事」與本句語境不同。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。"
+        "volunteer-mcq-02": "本句的「volunteers at」指「在某機構／與某組織一起做義工」。",
+        "volunteer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-02"
     },
@@ -800,11 +778,9 @@ export default {
       "masked": "He ____ a youth charity.",
       "options": [
         "volunteer-mcq-02",
-        "volunteer-mcq-01",
-        "volunteer-mcq-03",
-        "volunteer-mcq-04",
-        "volunteer-mcq-05",
-        "volunteer-mcq-06"
+        "volunteer-mcq-27",
+        "volunteer-mcq-24",
+        "volunteer-mcq-10"
       ],
       "explanation": "本句的「volunteers with」指「在某機構／與某組織一起做義工」。",
       "sentenceIndex": 5,
@@ -813,12 +789,10 @@ export default {
         "volunteers with"
       ],
       "optionReasons": {
-        "volunteer-mcq-02": "本句指「在某機構／與某組織一起做義工」。",
-        "volunteer-mcq-01": "「自願付出時間和勞力幫助他人／機構，通常不收報酬；做義工」與本句語境不同。",
-        "volunteer-mcq-03": "「自願為某事業／機構提供服務」與本句語境不同。",
-        "volunteer-mcq-04": "「主動報名／自願承擔某項任務」與本句語境不同。",
-        "volunteer-mcq-05": "「沒有被迫或要求而自告奮勇做某事」與本句語境不同。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。"
+        "volunteer-mcq-02": "本句的「volunteers with」指「在某機構／與某組織一起做義工」。",
+        "volunteer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-02"
     },
@@ -830,11 +804,8 @@ export default {
       "masked": "Hundreds of people ____ the charity.",
       "options": [
         "volunteer-mcq-03",
-        "volunteer-mcq-02",
-        "volunteer-mcq-04",
-        "volunteer-mcq-01",
-        "volunteer-mcq-05",
-        "volunteer-mcq-06"
+        "volunteer-mcq-09",
+        "volunteer-mcq-23"
       ],
       "explanation": "本句的「volunteered for」指「自願為某事業／機構提供服務」。",
       "sentenceIndex": 6,
@@ -843,12 +814,9 @@ export default {
         "volunteered for"
       ],
       "optionReasons": {
-        "volunteer-mcq-03": "本句指「自願為某事業／機構提供服務」。",
-        "volunteer-mcq-02": "「在某機構／與某組織一起做義工」與本句語境不同。",
-        "volunteer-mcq-04": "「主動報名／自願承擔某項任務」與本句語境不同。",
-        "volunteer-mcq-01": "「自願付出時間和勞力幫助他人／機構，通常不收報酬；做義工」與本句語境不同。",
-        "volunteer-mcq-05": "「沒有被迫或要求而自告奮勇做某事」與本句語境不同。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。"
+        "volunteer-mcq-03": "本句的「volunteered for」指「自願為某事業／機構提供服務」。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-03"
     },
@@ -860,11 +828,9 @@ export default {
       "masked": "She ____ an environmental project.",
       "options": [
         "volunteer-mcq-03",
-        "volunteer-mcq-02",
-        "volunteer-mcq-04",
-        "volunteer-mcq-01",
-        "volunteer-mcq-05",
-        "volunteer-mcq-06"
+        "volunteer-mcq-09",
+        "volunteer-mcq-17",
+        "volunteer-mcq-05"
       ],
       "explanation": "本句的「volunteered for」指「自願為某事業／機構提供服務」。",
       "sentenceIndex": 7,
@@ -873,12 +839,10 @@ export default {
         "volunteered for"
       ],
       "optionReasons": {
-        "volunteer-mcq-03": "本句指「自願為某事業／機構提供服務」。",
-        "volunteer-mcq-02": "「在某機構／與某組織一起做義工」與本句語境不同。",
-        "volunteer-mcq-04": "「主動報名／自願承擔某項任務」與本句語境不同。",
-        "volunteer-mcq-01": "「自願付出時間和勞力幫助他人／機構，通常不收報酬；做義工」與本句語境不同。",
-        "volunteer-mcq-05": "「沒有被迫或要求而自告奮勇做某事」與本句語境不同。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。"
+        "volunteer-mcq-03": "本句的「volunteered for」指「自願為某事業／機構提供服務」。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-03"
     },
@@ -890,11 +854,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "volunteer-mcq-04",
-        "volunteer-mcq-03",
-        "volunteer-mcq-05",
         "volunteer-mcq-02",
-        "volunteer-mcq-06",
-        "volunteer-mcq-01"
+        "volunteer-mcq-12",
+        "volunteer-mcq-24"
       ],
       "explanation": "本句的「volunteered for the difficult task」指「主動報名／自願承擔某項任務」。",
       "sentenceIndex": 8,
@@ -903,12 +865,10 @@ export default {
         "volunteered for the difficult task"
       ],
       "optionReasons": {
-        "volunteer-mcq-04": "本句指「主動報名／自願承擔某項任務」。",
-        "volunteer-mcq-03": "「自願為某事業／機構提供服務」與本句語境不同。",
-        "volunteer-mcq-05": "「沒有被迫或要求而自告奮勇做某事」與本句語境不同。",
-        "volunteer-mcq-02": "「在某機構／與某組織一起做義工」與本句語境不同。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。",
-        "volunteer-mcq-01": "「自願付出時間和勞力幫助他人／機構，通常不收報酬；做義工」與本句語境不同。"
+        "volunteer-mcq-04": "本句的「volunteered for the difficult task」指「主動報名／自願承擔某項任務」。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-04"
     },
@@ -920,11 +880,9 @@ export default {
       "masked": "Several students ____.",
       "options": [
         "volunteer-mcq-04",
-        "volunteer-mcq-03",
-        "volunteer-mcq-05",
         "volunteer-mcq-02",
-        "volunteer-mcq-06",
-        "volunteer-mcq-01"
+        "volunteer-mcq-23",
+        "volunteer-mcq-12"
       ],
       "explanation": "本句的「volunteered for cleanup duty」指「主動報名／自願承擔某項任務」。",
       "sentenceIndex": 9,
@@ -933,12 +891,10 @@ export default {
         "volunteered for cleanup duty"
       ],
       "optionReasons": {
-        "volunteer-mcq-04": "本句指「主動報名／自願承擔某項任務」。",
-        "volunteer-mcq-03": "「自願為某事業／機構提供服務」與本句語境不同。",
-        "volunteer-mcq-05": "「沒有被迫或要求而自告奮勇做某事」與本句語境不同。",
-        "volunteer-mcq-02": "「在某機構／與某組織一起做義工」與本句語境不同。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。",
-        "volunteer-mcq-01": "「自願付出時間和勞力幫助他人／機構，通常不收報酬；做義工」與本句語境不同。"
+        "volunteer-mcq-04": "本句的「volunteered for cleanup duty」指「主動報名／自願承擔某項任務」。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-04"
     },
@@ -950,11 +906,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "volunteer-mcq-05",
-        "volunteer-mcq-04",
-        "volunteer-mcq-06",
-        "volunteer-mcq-03",
+        "volunteer-mcq-09",
         "volunteer-mcq-07",
-        "volunteer-mcq-02"
+        "volunteer-mcq-28"
       ],
       "explanation": "本句的「volunteered to help」指「沒有被迫或要求而自告奮勇做某事」。",
       "sentenceIndex": 10,
@@ -963,12 +917,10 @@ export default {
         "volunteered to help"
       ],
       "optionReasons": {
-        "volunteer-mcq-05": "本句指「沒有被迫或要求而自告奮勇做某事」。",
-        "volunteer-mcq-04": "「主動報名／自願承擔某項任務」與本句語境不同。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。",
-        "volunteer-mcq-03": "「自願為某事業／機構提供服務」與本句語境不同。",
-        "volunteer-mcq-07": "「在社區提供志願服務的社區義工」與本句語境不同。",
-        "volunteer-mcq-02": "「在某機構／與某組織一起做義工」與本句語境不同。"
+        "volunteer-mcq-05": "本句的「volunteered to help」指「沒有被迫或要求而自告奮勇做某事」。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-05"
     },
@@ -980,11 +932,9 @@ export default {
       "masked": "He ____ everyone home.",
       "options": [
         "volunteer-mcq-05",
-        "volunteer-mcq-04",
-        "volunteer-mcq-06",
-        "volunteer-mcq-03",
-        "volunteer-mcq-07",
-        "volunteer-mcq-02"
+        "volunteer-mcq-09",
+        "volunteer-mcq-14",
+        "volunteer-mcq-12"
       ],
       "explanation": "本句的「volunteered to drive」指「沒有被迫或要求而自告奮勇做某事」。",
       "sentenceIndex": 11,
@@ -993,12 +943,10 @@ export default {
         "volunteered to drive"
       ],
       "optionReasons": {
-        "volunteer-mcq-05": "本句指「沒有被迫或要求而自告奮勇做某事」。",
-        "volunteer-mcq-04": "「主動報名／自願承擔某項任務」與本句語境不同。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。",
-        "volunteer-mcq-03": "「自願為某事業／機構提供服務」與本句語境不同。",
-        "volunteer-mcq-07": "「在社區提供志願服務的社區義工」與本句語境不同。",
-        "volunteer-mcq-02": "「在某機構／與某組織一起做義工」與本句語境不同。"
+        "volunteer-mcq-05": "本句的「volunteered to drive」指「沒有被迫或要求而自告奮勇做某事」。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-05"
     },
@@ -1010,11 +958,9 @@ export default {
       "masked": "The centre depends on ____.",
       "options": [
         "volunteer-mcq-06",
+        "volunteer-mcq-09",
         "volunteer-mcq-05",
-        "volunteer-mcq-07",
-        "volunteer-mcq-04",
-        "volunteer-mcq-08",
-        "volunteer-mcq-03"
+        "volunteer-mcq-24"
       ],
       "explanation": "本句的「volunteers」指「自願提供無薪服務的人；義工／志願者」。",
       "sentenceIndex": 12,
@@ -1023,12 +969,10 @@ export default {
         "volunteers"
       ],
       "optionReasons": {
-        "volunteer-mcq-06": "本句指「自願提供無薪服務的人；義工／志願者」。",
-        "volunteer-mcq-05": "「沒有被迫或要求而自告奮勇做某事」與本句語境不同。",
-        "volunteer-mcq-07": "「在社區提供志願服務的社區義工」與本句語境不同。",
-        "volunteer-mcq-04": "「主動報名／自願承擔某項任務」與本句語境不同。",
-        "volunteer-mcq-08": "「沒有人要求便主動提供資料／資訊」與本句語境不同。",
-        "volunteer-mcq-03": "「自願為某事業／機構提供服務」與本句語境不同。"
+        "volunteer-mcq-06": "本句的「volunteers」指「自願提供無薪服務的人；義工／志願者」。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-06"
     },
@@ -1040,11 +984,9 @@ export default {
       "masked": "She works there as a ____.",
       "options": [
         "volunteer-mcq-06",
-        "volunteer-mcq-05",
-        "volunteer-mcq-07",
-        "volunteer-mcq-04",
-        "volunteer-mcq-08",
-        "volunteer-mcq-03"
+        "volunteer-mcq-09",
+        "volunteer-mcq-17",
+        "volunteer-mcq-05"
       ],
       "explanation": "本句的「volunteer」指「自願提供無薪服務的人；義工／志願者」。",
       "sentenceIndex": 13,
@@ -1053,12 +995,10 @@ export default {
         "volunteer"
       ],
       "optionReasons": {
-        "volunteer-mcq-06": "本句指「自願提供無薪服務的人；義工／志願者」。",
-        "volunteer-mcq-05": "「沒有被迫或要求而自告奮勇做某事」與本句語境不同。",
-        "volunteer-mcq-07": "「在社區提供志願服務的社區義工」與本句語境不同。",
-        "volunteer-mcq-04": "「主動報名／自願承擔某項任務」與本句語境不同。",
-        "volunteer-mcq-08": "「沒有人要求便主動提供資料／資訊」與本句語境不同。",
-        "volunteer-mcq-03": "「自願為某事業／機構提供服務」與本句語境不同。"
+        "volunteer-mcq-06": "本句的「volunteer」指「自願提供無薪服務的人；義工／志願者」。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-06"
     },
@@ -1070,11 +1010,9 @@ export default {
       "masked": "He became a regular ____.",
       "options": [
         "volunteer-mcq-07",
-        "volunteer-mcq-06",
-        "volunteer-mcq-08",
         "volunteer-mcq-05",
-        "volunteer-mcq-09",
-        "volunteer-mcq-04"
+        "volunteer-mcq-26",
+        "volunteer-mcq-24"
       ],
       "explanation": "本句的「community volunteer」指「在社區提供志願服務的社區義工」。",
       "sentenceIndex": 14,
@@ -1083,12 +1021,10 @@ export default {
         "community volunteer"
       ],
       "optionReasons": {
-        "volunteer-mcq-07": "本句指「在社區提供志願服務的社區義工」。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。",
-        "volunteer-mcq-08": "「沒有人要求便主動提供資料／資訊」與本句語境不同。",
-        "volunteer-mcq-05": "「沒有被迫或要求而自告奮勇做某事」與本句語境不同。",
-        "volunteer-mcq-09": "「主動補充／透露某項資訊」與本句語境不同。",
-        "volunteer-mcq-04": "「主動報名／自願承擔某項任務」與本句語境不同。"
+        "volunteer-mcq-07": "本句的「community volunteer」指「在社區提供志願服務的社區義工」。",
+        "volunteer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-07"
     },
@@ -1100,11 +1036,9 @@ export default {
       "masked": "____ helped elderly residents.",
       "options": [
         "volunteer-mcq-07",
-        "volunteer-mcq-06",
-        "volunteer-mcq-08",
         "volunteer-mcq-05",
-        "volunteer-mcq-09",
-        "volunteer-mcq-04"
+        "volunteer-mcq-26",
+        "volunteer-mcq-17"
       ],
       "explanation": "本句的「Community volunteers」指「在社區提供志願服務的社區義工」。",
       "sentenceIndex": 15,
@@ -1113,12 +1047,10 @@ export default {
         "Community volunteers"
       ],
       "optionReasons": {
-        "volunteer-mcq-07": "本句指「在社區提供志願服務的社區義工」。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。",
-        "volunteer-mcq-08": "「沒有人要求便主動提供資料／資訊」與本句語境不同。",
-        "volunteer-mcq-05": "「沒有被迫或要求而自告奮勇做某事」與本句語境不同。",
-        "volunteer-mcq-09": "「主動補充／透露某項資訊」與本句語境不同。",
-        "volunteer-mcq-04": "「主動報名／自願承擔某項任務」與本句語境不同。"
+        "volunteer-mcq-07": "本句的「Community volunteers」指「在社區提供志願服務的社區義工」。",
+        "volunteer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-07"
     },
@@ -1130,11 +1062,9 @@ export default {
       "masked": "She ____ before anyone asked.",
       "options": [
         "volunteer-mcq-08",
-        "volunteer-mcq-07",
-        "volunteer-mcq-09",
-        "volunteer-mcq-06",
-        "volunteer-mcq-10",
-        "volunteer-mcq-05"
+        "volunteer-mcq-15",
+        "volunteer-mcq-24",
+        "volunteer-mcq-14"
       ],
       "explanation": "本句的「volunteered the information」指「沒有人要求便主動提供資料／資訊」。",
       "sentenceIndex": 16,
@@ -1143,12 +1073,10 @@ export default {
         "volunteered the information"
       ],
       "optionReasons": {
-        "volunteer-mcq-08": "本句指「沒有人要求便主動提供資料／資訊」。",
-        "volunteer-mcq-07": "「在社區提供志願服務的社區義工」與本句語境不同。",
-        "volunteer-mcq-09": "「主動補充／透露某項資訊」與本句語境不同。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。",
-        "volunteer-mcq-10": "「自願加入軍隊而非被徵召的志願兵」與本句語境不同。",
-        "volunteer-mcq-05": "「沒有被迫或要求而自告奮勇做某事」與本句語境不同。"
+        "volunteer-mcq-08": "本句的「volunteered the information」指「沒有人要求便主動提供資料／資訊」。",
+        "volunteer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-08"
     },
@@ -1160,11 +1088,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "volunteer-mcq-08",
-        "volunteer-mcq-07",
-        "volunteer-mcq-09",
-        "volunteer-mcq-06",
-        "volunteer-mcq-10",
-        "volunteer-mcq-05"
+        "volunteer-mcq-28",
+        "volunteer-mcq-24",
+        "volunteer-mcq-18"
       ],
       "explanation": "本句的「volunteered his name and address」指「沒有人要求便主動提供資料／資訊」。",
       "sentenceIndex": 17,
@@ -1173,12 +1099,10 @@ export default {
         "volunteered his name and address"
       ],
       "optionReasons": {
-        "volunteer-mcq-08": "本句指「沒有人要求便主動提供資料／資訊」。",
-        "volunteer-mcq-07": "「在社區提供志願服務的社區義工」與本句語境不同。",
-        "volunteer-mcq-09": "「主動補充／透露某項資訊」與本句語境不同。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。",
-        "volunteer-mcq-10": "「自願加入軍隊而非被徵召的志願兵」與本句語境不同。",
-        "volunteer-mcq-05": "「沒有被迫或要求而自告奮勇做某事」與本句語境不同。"
+        "volunteer-mcq-08": "本句的「volunteered his name and address」指「沒有人要求便主動提供資料／資訊」。",
+        "volunteer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-08"
     },
@@ -1190,11 +1114,9 @@ export default {
       "masked": "He ____ he had seen the incident.",
       "options": [
         "volunteer-mcq-09",
-        "volunteer-mcq-08",
-        "volunteer-mcq-10",
-        "volunteer-mcq-07",
-        "volunteer-mcq-11",
-        "volunteer-mcq-06"
+        "volunteer-mcq-18",
+        "volunteer-mcq-14",
+        "volunteer-mcq-24"
       ],
       "explanation": "本句的「volunteered that」指「主動補充／透露某項資訊」。",
       "sentenceIndex": 18,
@@ -1203,12 +1125,10 @@ export default {
         "volunteered that"
       ],
       "optionReasons": {
-        "volunteer-mcq-09": "本句指「主動補充／透露某項資訊」。",
-        "volunteer-mcq-08": "「沒有人要求便主動提供資料／資訊」與本句語境不同。",
-        "volunteer-mcq-10": "「自願加入軍隊而非被徵召的志願兵」與本句語境不同。",
-        "volunteer-mcq-07": "「在社區提供志願服務的社區義工」與本句語境不同。",
-        "volunteer-mcq-11": "「自願從軍／服兵役」與本句語境不同。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。"
+        "volunteer-mcq-09": "本句的「volunteered that」指「主動補充／透露某項資訊」。",
+        "volunteer-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-09"
     },
@@ -1220,11 +1140,9 @@ export default {
       "masked": "She ____ she was available the next day.",
       "options": [
         "volunteer-mcq-09",
-        "volunteer-mcq-08",
         "volunteer-mcq-10",
-        "volunteer-mcq-07",
-        "volunteer-mcq-11",
-        "volunteer-mcq-06"
+        "volunteer-mcq-28",
+        "volunteer-mcq-05"
       ],
       "explanation": "本句的「volunteered that」指「主動補充／透露某項資訊」。",
       "sentenceIndex": 19,
@@ -1233,12 +1151,10 @@ export default {
         "volunteered that"
       ],
       "optionReasons": {
-        "volunteer-mcq-09": "本句指「主動補充／透露某項資訊」。",
-        "volunteer-mcq-08": "「沒有人要求便主動提供資料／資訊」與本句語境不同。",
-        "volunteer-mcq-10": "「自願加入軍隊而非被徵召的志願兵」與本句語境不同。",
-        "volunteer-mcq-07": "「在社區提供志願服務的社區義工」與本句語境不同。",
-        "volunteer-mcq-11": "「自願從軍／服兵役」與本句語境不同。",
-        "volunteer-mcq-06": "「自願提供無薪服務的人；義工／志願者」與本句語境不同。"
+        "volunteer-mcq-09": "本句的「volunteered that」指「主動補充／透露某項資訊」。",
+        "volunteer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-09"
     },
@@ -1250,11 +1166,9 @@ export default {
       "masked": "He joined the army as a ____.",
       "options": [
         "volunteer-mcq-10",
+        "volunteer-mcq-14",
         "volunteer-mcq-09",
-        "volunteer-mcq-11",
-        "volunteer-mcq-08",
-        "volunteer-mcq-12",
-        "volunteer-mcq-07"
+        "volunteer-mcq-24"
       ],
       "explanation": "本句的「volunteer」指「自願加入軍隊而非被徵召的志願兵」。",
       "sentenceIndex": 20,
@@ -1263,12 +1177,10 @@ export default {
         "volunteer"
       ],
       "optionReasons": {
-        "volunteer-mcq-10": "本句指「自願加入軍隊而非被徵召的志願兵」。",
-        "volunteer-mcq-09": "「主動補充／透露某項資訊」與本句語境不同。",
-        "volunteer-mcq-11": "「自願從軍／服兵役」與本句語境不同。",
-        "volunteer-mcq-08": "「沒有人要求便主動提供資料／資訊」與本句語境不同。",
-        "volunteer-mcq-12": "「由志願者進行、提供的」與本句語境不同。",
-        "volunteer-mcq-07": "「在社區提供志願服務的社區義工」與本句語境不同。"
+        "volunteer-mcq-10": "本句的「volunteer」指「自願加入軍隊而非被徵召的志願兵」。",
+        "volunteer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-10"
     },
@@ -1280,11 +1192,9 @@ export default {
       "masked": "The unit included both conscripts and ____.",
       "options": [
         "volunteer-mcq-10",
-        "volunteer-mcq-09",
-        "volunteer-mcq-11",
+        "volunteer-mcq-14",
         "volunteer-mcq-08",
-        "volunteer-mcq-12",
-        "volunteer-mcq-07"
+        "volunteer-mcq-24"
       ],
       "explanation": "本句的「volunteers」指「自願加入軍隊而非被徵召的志願兵」。",
       "sentenceIndex": 21,
@@ -1293,12 +1203,10 @@ export default {
         "volunteers"
       ],
       "optionReasons": {
-        "volunteer-mcq-10": "本句指「自願加入軍隊而非被徵召的志願兵」。",
-        "volunteer-mcq-09": "「主動補充／透露某項資訊」與本句語境不同。",
-        "volunteer-mcq-11": "「自願從軍／服兵役」與本句語境不同。",
-        "volunteer-mcq-08": "「沒有人要求便主動提供資料／資訊」與本句語境不同。",
-        "volunteer-mcq-12": "「由志願者進行、提供的」與本句語境不同。",
-        "volunteer-mcq-07": "「在社區提供志願服務的社區義工」與本句語境不同。"
+        "volunteer-mcq-10": "本句的「volunteers」指「自願加入軍隊而非被徵召的志願兵」。",
+        "volunteer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-10"
     },
@@ -1310,11 +1218,9 @@ export default {
       "masked": "Thousands ____.",
       "options": [
         "volunteer-mcq-11",
-        "volunteer-mcq-10",
-        "volunteer-mcq-12",
         "volunteer-mcq-09",
-        "volunteer-mcq-13",
-        "volunteer-mcq-08"
+        "volunteer-mcq-02",
+        "volunteer-mcq-12"
       ],
       "explanation": "本句的「volunteered for military service」指「自願從軍／服兵役」。",
       "sentenceIndex": 22,
@@ -1323,12 +1229,10 @@ export default {
         "volunteered for military service"
       ],
       "optionReasons": {
-        "volunteer-mcq-11": "本句指「自願從軍／服兵役」。",
-        "volunteer-mcq-10": "「自願加入軍隊而非被徵召的志願兵」與本句語境不同。",
-        "volunteer-mcq-12": "「由志願者進行、提供的」與本句語境不同。",
-        "volunteer-mcq-09": "「主動補充／透露某項資訊」與本句語境不同。",
-        "volunteer-mcq-13": "「自願且通常無薪的義工工作／志願服務」與本句語境不同。",
-        "volunteer-mcq-08": "「沒有人要求便主動提供資料／資訊」與本句語境不同。"
+        "volunteer-mcq-11": "本句的「volunteered for military service」指「自願從軍／服兵役」。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-11"
     },
@@ -1340,11 +1244,9 @@ export default {
       "masked": "He ____ during the war.",
       "options": [
         "volunteer-mcq-11",
-        "volunteer-mcq-10",
-        "volunteer-mcq-12",
+        "volunteer-mcq-02",
         "volunteer-mcq-09",
-        "volunteer-mcq-13",
-        "volunteer-mcq-08"
+        "volunteer-mcq-05"
       ],
       "explanation": "本句的「volunteered」指「自願從軍／服兵役」。",
       "sentenceIndex": 23,
@@ -1353,12 +1255,10 @@ export default {
         "volunteered"
       ],
       "optionReasons": {
-        "volunteer-mcq-11": "本句指「自願從軍／服兵役」。",
-        "volunteer-mcq-10": "「自願加入軍隊而非被徵召的志願兵」與本句語境不同。",
-        "volunteer-mcq-12": "「由志願者進行、提供的」與本句語境不同。",
-        "volunteer-mcq-09": "「主動補充／透露某項資訊」與本句語境不同。",
-        "volunteer-mcq-13": "「自願且通常無薪的義工工作／志願服務」與本句語境不同。",
-        "volunteer-mcq-08": "「沒有人要求便主動提供資料／資訊」與本句語境不同。"
+        "volunteer-mcq-11": "本句的「volunteered」指「自願從軍／服兵役」。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-11"
     },
@@ -1370,11 +1270,9 @@ export default {
       "masked": "She does ____ on weekends.",
       "options": [
         "volunteer-mcq-12",
-        "volunteer-mcq-11",
-        "volunteer-mcq-13",
-        "volunteer-mcq-10",
         "volunteer-mcq-14",
-        "volunteer-mcq-09"
+        "volunteer-mcq-28",
+        "volunteer-mcq-05"
       ],
       "explanation": "本句的「volunteer work」指「由志願者進行、提供的」。",
       "sentenceIndex": 24,
@@ -1383,12 +1281,10 @@ export default {
         "volunteer work"
       ],
       "optionReasons": {
-        "volunteer-mcq-12": "本句指「由志願者進行、提供的」。",
-        "volunteer-mcq-11": "「自願從軍／服兵役」與本句語境不同。",
-        "volunteer-mcq-13": "「自願且通常無薪的義工工作／志願服務」與本句語境不同。",
-        "volunteer-mcq-10": "「自願加入軍隊而非被徵召的志願兵」與本句語境不同。",
-        "volunteer-mcq-14": "「參與義工服務所累積的經驗」與本句語境不同。",
-        "volunteer-mcq-09": "「主動補充／透露某項資訊」與本句語境不同。"
+        "volunteer-mcq-12": "本句的「volunteer work」指「由志願者進行、提供的」。",
+        "volunteer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-12"
     },
@@ -1400,11 +1296,9 @@ export default {
       "masked": "The town has a ____.",
       "options": [
         "volunteer-mcq-12",
-        "volunteer-mcq-11",
-        "volunteer-mcq-13",
-        "volunteer-mcq-10",
         "volunteer-mcq-14",
-        "volunteer-mcq-09"
+        "volunteer-mcq-09",
+        "volunteer-mcq-28"
       ],
       "explanation": "本句的「volunteer fire department」指「由志願者進行、提供的」。",
       "sentenceIndex": 25,
@@ -1413,12 +1307,10 @@ export default {
         "volunteer fire department"
       ],
       "optionReasons": {
-        "volunteer-mcq-12": "本句指「由志願者進行、提供的」。",
-        "volunteer-mcq-11": "「自願從軍／服兵役」與本句語境不同。",
-        "volunteer-mcq-13": "「自願且通常無薪的義工工作／志願服務」與本句語境不同。",
-        "volunteer-mcq-10": "「自願加入軍隊而非被徵召的志願兵」與本句語境不同。",
-        "volunteer-mcq-14": "「參與義工服務所累積的經驗」與本句語境不同。",
-        "volunteer-mcq-09": "「主動補充／透露某項資訊」與本句語境不同。"
+        "volunteer-mcq-12": "本句的「volunteer fire department」指「由志願者進行、提供的」。",
+        "volunteer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-12"
     },
@@ -1430,10 +1322,8 @@ export default {
       "masked": "The service is run by a ____.",
       "options": [
         "volunteer-mcq-12",
-        "volunteer-mcq-11",
-        "volunteer-mcq-13",
-        "volunteer-mcq-10",
-        "volunteer-mcq-14",
+        "volunteer-mcq-02",
+        "volunteer-mcq-05",
         "volunteer-mcq-09"
       ],
       "explanation": "本句的「volunteer organization」指「由志願者進行、提供的」。",
@@ -1443,12 +1333,10 @@ export default {
         "volunteer organization"
       ],
       "optionReasons": {
-        "volunteer-mcq-12": "本句指「由志願者進行、提供的」。",
-        "volunteer-mcq-11": "「自願從軍／服兵役」與本句語境不同。",
-        "volunteer-mcq-13": "「自願且通常無薪的義工工作／志願服務」與本句語境不同。",
-        "volunteer-mcq-10": "「自願加入軍隊而非被徵召的志願兵」與本句語境不同。",
-        "volunteer-mcq-14": "「參與義工服務所累積的經驗」與本句語境不同。",
-        "volunteer-mcq-09": "「主動補充／透露某項資訊」與本句語境不同。"
+        "volunteer-mcq-12": "本句的「volunteer organization」指「由志願者進行、提供的」。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-12"
     },
@@ -1460,11 +1348,9 @@ export default {
       "masked": "Several ____ helped after the storm.",
       "options": [
         "volunteer-mcq-12",
-        "volunteer-mcq-11",
-        "volunteer-mcq-13",
-        "volunteer-mcq-10",
+        "volunteer-mcq-26",
         "volunteer-mcq-14",
-        "volunteer-mcq-09"
+        "volunteer-mcq-05"
       ],
       "explanation": "本句的「volunteer groups」指「由志願者進行、提供的」。",
       "sentenceIndex": 27,
@@ -1473,12 +1359,10 @@ export default {
         "volunteer groups"
       ],
       "optionReasons": {
-        "volunteer-mcq-12": "本句指「由志願者進行、提供的」。",
-        "volunteer-mcq-11": "「自願從軍／服兵役」與本句語境不同。",
-        "volunteer-mcq-13": "「自願且通常無薪的義工工作／志願服務」與本句語境不同。",
-        "volunteer-mcq-10": "「自願加入軍隊而非被徵召的志願兵」與本句語境不同。",
-        "volunteer-mcq-14": "「參與義工服務所累積的經驗」與本句語境不同。",
-        "volunteer-mcq-09": "「主動補充／透露某項資訊」與本句語境不同。"
+        "volunteer-mcq-12": "本句的「volunteer groups」指「由志願者進行、提供的」。",
+        "volunteer-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-12"
     },
@@ -1490,11 +1374,9 @@ export default {
       "masked": "____ can build useful skills.",
       "options": [
         "volunteer-mcq-13",
-        "volunteer-mcq-12",
-        "volunteer-mcq-14",
-        "volunteer-mcq-11",
-        "volunteer-mcq-15",
-        "volunteer-mcq-10"
+        "volunteer-mcq-08",
+        "volunteer-mcq-28",
+        "volunteer-mcq-17"
       ],
       "explanation": "本句的「Volunteer work」指「自願且通常無薪的義工工作／志願服務」。",
       "sentenceIndex": 28,
@@ -1503,12 +1385,10 @@ export default {
         "Volunteer work"
       ],
       "optionReasons": {
-        "volunteer-mcq-13": "本句指「自願且通常無薪的義工工作／志願服務」。",
-        "volunteer-mcq-12": "「由志願者進行、提供的」與本句語境不同。",
-        "volunteer-mcq-14": "「參與義工服務所累積的經驗」與本句語境不同。",
-        "volunteer-mcq-11": "「自願從軍／服兵役」與本句語境不同。",
-        "volunteer-mcq-15": "「因自己選擇而做、並非被強迫的；自願的」與本句語境不同。",
-        "volunteer-mcq-10": "「自願加入軍隊而非被徵召的志願兵」與本句語境不同。"
+        "volunteer-mcq-13": "本句的「Volunteer work」指「自願且通常無薪的義工工作／志願服務」。",
+        "volunteer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-13"
     },
@@ -1520,11 +1400,9 @@ export default {
       "masked": "He included his ____ on his résumé.",
       "options": [
         "volunteer-mcq-13",
-        "volunteer-mcq-12",
-        "volunteer-mcq-14",
-        "volunteer-mcq-11",
-        "volunteer-mcq-15",
-        "volunteer-mcq-10"
+        "volunteer-mcq-08",
+        "volunteer-mcq-17",
+        "volunteer-mcq-28"
       ],
       "explanation": "本句的「volunteer work」指「自願且通常無薪的義工工作／志願服務」。",
       "sentenceIndex": 29,
@@ -1533,12 +1411,10 @@ export default {
         "volunteer work"
       ],
       "optionReasons": {
-        "volunteer-mcq-13": "本句指「自願且通常無薪的義工工作／志願服務」。",
-        "volunteer-mcq-12": "「由志願者進行、提供的」與本句語境不同。",
-        "volunteer-mcq-14": "「參與義工服務所累積的經驗」與本句語境不同。",
-        "volunteer-mcq-11": "「自願從軍／服兵役」與本句語境不同。",
-        "volunteer-mcq-15": "「因自己選擇而做、並非被強迫的；自願的」與本句語境不同。",
-        "volunteer-mcq-10": "「自願加入軍隊而非被徵召的志願兵」與本句語境不同。"
+        "volunteer-mcq-13": "本句的「volunteer work」指「自願且通常無薪的義工工作／志願服務」。",
+        "volunteer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-13"
     },
@@ -1550,11 +1426,9 @@ export default {
       "masked": "She has extensive ____.",
       "options": [
         "volunteer-mcq-14",
-        "volunteer-mcq-13",
         "volunteer-mcq-15",
-        "volunteer-mcq-12",
-        "volunteer-mcq-16",
-        "volunteer-mcq-11"
+        "volunteer-mcq-08",
+        "volunteer-mcq-24"
       ],
       "explanation": "本句的「volunteer experience」指「參與義工服務所累積的經驗」。",
       "sentenceIndex": 30,
@@ -1563,12 +1437,10 @@ export default {
         "volunteer experience"
       ],
       "optionReasons": {
-        "volunteer-mcq-14": "本句指「參與義工服務所累積的經驗」。",
-        "volunteer-mcq-13": "「自願且通常無薪的義工工作／志願服務」與本句語境不同。",
-        "volunteer-mcq-15": "「因自己選擇而做、並非被強迫的；自願的」與本句語境不同。",
-        "volunteer-mcq-12": "「由志願者進行、提供的」與本句語境不同。",
-        "volunteer-mcq-16": "「自願進行、通常無薪的志願工作」與本句語境不同。",
-        "volunteer-mcq-11": "「自願從軍／服兵役」與本句語境不同。"
+        "volunteer-mcq-14": "本句的「volunteer experience」指「參與義工服務所累積的經驗」。",
+        "volunteer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-14"
     },
@@ -1580,11 +1452,9 @@ export default {
       "masked": "The role values previous ____.",
       "options": [
         "volunteer-mcq-14",
-        "volunteer-mcq-13",
         "volunteer-mcq-15",
-        "volunteer-mcq-12",
-        "volunteer-mcq-16",
-        "volunteer-mcq-11"
+        "volunteer-mcq-28",
+        "volunteer-mcq-08"
       ],
       "explanation": "本句的「volunteer experience」指「參與義工服務所累積的經驗」。",
       "sentenceIndex": 31,
@@ -1593,12 +1463,10 @@ export default {
         "volunteer experience"
       ],
       "optionReasons": {
-        "volunteer-mcq-14": "本句指「參與義工服務所累積的經驗」。",
-        "volunteer-mcq-13": "「自願且通常無薪的義工工作／志願服務」與本句語境不同。",
-        "volunteer-mcq-15": "「因自己選擇而做、並非被強迫的；自願的」與本句語境不同。",
-        "volunteer-mcq-12": "「由志願者進行、提供的」與本句語境不同。",
-        "volunteer-mcq-16": "「自願進行、通常無薪的志願工作」與本句語境不同。",
-        "volunteer-mcq-11": "「自願從軍／服兵役」與本句語境不同。"
+        "volunteer-mcq-14": "本句的「volunteer experience」指「參與義工服務所累積的經驗」。",
+        "volunteer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-14"
     },
@@ -1611,10 +1479,8 @@ export default {
       "options": [
         "volunteer-mcq-15",
         "volunteer-mcq-14",
-        "volunteer-mcq-16",
-        "volunteer-mcq-13",
-        "volunteer-mcq-17",
-        "volunteer-mcq-12"
+        "volunteer-mcq-08",
+        "volunteer-mcq-24"
       ],
       "explanation": "本句的「voluntary」指「因自己選擇而做、並非被強迫的；自願的」。",
       "sentenceIndex": 32,
@@ -1623,12 +1489,10 @@ export default {
         "voluntary"
       ],
       "optionReasons": {
-        "volunteer-mcq-15": "本句指「因自己選擇而做、並非被強迫的；自願的」。",
-        "volunteer-mcq-14": "「參與義工服務所累積的經驗」與本句語境不同。",
-        "volunteer-mcq-16": "「自願進行、通常無薪的志願工作」與本句語境不同。",
-        "volunteer-mcq-13": "「自願且通常無薪的義工工作／志願服務」與本句語境不同。",
-        "volunteer-mcq-17": "「並非強制、由個人自行決定的捐款／貢獻」與本句語境不同。",
-        "volunteer-mcq-12": "「由志願者進行、提供的」與本句語境不同。"
+        "volunteer-mcq-15": "本句的「voluntary」指「因自己選擇而做、並非被強迫的；自願的」。",
+        "volunteer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-15"
     },
@@ -1641,9 +1505,7 @@ export default {
       "options": [
         "volunteer-mcq-15",
         "volunteer-mcq-14",
-        "volunteer-mcq-16",
-        "volunteer-mcq-13",
-        "volunteer-mcq-17",
+        "volunteer-mcq-09",
         "volunteer-mcq-12"
       ],
       "explanation": "本句的「voluntary」指「因自己選擇而做、並非被強迫的；自願的」。",
@@ -1653,12 +1515,10 @@ export default {
         "voluntary"
       ],
       "optionReasons": {
-        "volunteer-mcq-15": "本句指「因自己選擇而做、並非被強迫的；自願的」。",
-        "volunteer-mcq-14": "「參與義工服務所累積的經驗」與本句語境不同。",
-        "volunteer-mcq-16": "「自願進行、通常無薪的志願工作」與本句語境不同。",
-        "volunteer-mcq-13": "「自願且通常無薪的義工工作／志願服務」與本句語境不同。",
-        "volunteer-mcq-17": "「並非強制、由個人自行決定的捐款／貢獻」與本句語境不同。",
-        "volunteer-mcq-12": "「由志願者進行、提供的」與本句語境不同。"
+        "volunteer-mcq-15": "本句的「voluntary」指「因自己選擇而做、並非被強迫的；自願的」。",
+        "volunteer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-15"
     },
@@ -1670,11 +1530,9 @@ export default {
       "masked": "She does ____ for a charity.",
       "options": [
         "volunteer-mcq-16",
-        "volunteer-mcq-15",
-        "volunteer-mcq-17",
-        "volunteer-mcq-14",
-        "volunteer-mcq-18",
-        "volunteer-mcq-13"
+        "volunteer-mcq-08",
+        "volunteer-mcq-28",
+        "volunteer-mcq-14"
       ],
       "explanation": "本句的「voluntary work」指「自願進行、通常無薪的志願工作」。",
       "sentenceIndex": 34,
@@ -1683,12 +1541,10 @@ export default {
         "voluntary work"
       ],
       "optionReasons": {
-        "volunteer-mcq-16": "本句指「自願進行、通常無薪的志願工作」。",
-        "volunteer-mcq-15": "「因自己選擇而做、並非被強迫的；自願的」與本句語境不同。",
-        "volunteer-mcq-17": "「並非強制、由個人自行決定的捐款／貢獻」與本句語境不同。",
-        "volunteer-mcq-14": "「參與義工服務所累積的經驗」與本句語境不同。",
-        "volunteer-mcq-18": "「出於自己意願地；自願地」與本句語境不同。",
-        "volunteer-mcq-13": "「自願且通常無薪的義工工作／志願服務」與本句語境不同。"
+        "volunteer-mcq-16": "本句的「voluntary work」指「自願進行、通常無薪的志願工作」。",
+        "volunteer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-16"
     },
@@ -1700,11 +1556,9 @@ export default {
       "masked": "The students completed several hours of ____.",
       "options": [
         "volunteer-mcq-16",
-        "volunteer-mcq-15",
-        "volunteer-mcq-17",
-        "volunteer-mcq-14",
-        "volunteer-mcq-18",
-        "volunteer-mcq-13"
+        "volunteer-mcq-08",
+        "volunteer-mcq-02",
+        "volunteer-mcq-17"
       ],
       "explanation": "本句的「voluntary work」指「自願進行、通常無薪的志願工作」。",
       "sentenceIndex": 35,
@@ -1713,12 +1567,10 @@ export default {
         "voluntary work"
       ],
       "optionReasons": {
-        "volunteer-mcq-16": "本句指「自願進行、通常無薪的志願工作」。",
-        "volunteer-mcq-15": "「因自己選擇而做、並非被強迫的；自願的」與本句語境不同。",
-        "volunteer-mcq-17": "「並非強制、由個人自行決定的捐款／貢獻」與本句語境不同。",
-        "volunteer-mcq-14": "「參與義工服務所累積的經驗」與本句語境不同。",
-        "volunteer-mcq-18": "「出於自己意願地；自願地」與本句語境不同。",
-        "volunteer-mcq-13": "「自願且通常無薪的義工工作／志願服務」與本句語境不同。"
+        "volunteer-mcq-16": "本句的「voluntary work」指「自願進行、通常無薪的志願工作」。",
+        "volunteer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-16"
     },
@@ -1730,11 +1582,9 @@ export default {
       "masked": "Entry is free, but ____ are welcome.",
       "options": [
         "volunteer-mcq-17",
-        "volunteer-mcq-16",
-        "volunteer-mcq-18",
-        "volunteer-mcq-15",
-        "volunteer-mcq-19",
-        "volunteer-mcq-14"
+        "volunteer-mcq-08",
+        "volunteer-mcq-02",
+        "volunteer-mcq-21"
       ],
       "explanation": "本句的「voluntary donations」指「並非強制、由個人自行決定的捐款／貢獻」。",
       "sentenceIndex": 36,
@@ -1743,12 +1593,10 @@ export default {
         "voluntary donations"
       ],
       "optionReasons": {
-        "volunteer-mcq-17": "本句指「並非強制、由個人自行決定的捐款／貢獻」。",
-        "volunteer-mcq-16": "「自願進行、通常無薪的志願工作」與本句語境不同。",
-        "volunteer-mcq-18": "「出於自己意願地；自願地」與本句語境不同。",
-        "volunteer-mcq-15": "「因自己選擇而做、並非被強迫的；自願的」與本句語境不同。",
-        "volunteer-mcq-19": "「並非出於自己意願的；非自願／不由自主的」與本句語境不同。",
-        "volunteer-mcq-14": "「參與義工服務所累積的經驗」與本句語境不同。"
+        "volunteer-mcq-17": "本句的「voluntary donations」指「並非強制、由個人自行決定的捐款／貢獻」。",
+        "volunteer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-17"
     },
@@ -1760,11 +1608,9 @@ export default {
       "masked": "The fund depends on ____.",
       "options": [
         "volunteer-mcq-17",
-        "volunteer-mcq-16",
-        "volunteer-mcq-18",
-        "volunteer-mcq-15",
-        "volunteer-mcq-19",
-        "volunteer-mcq-14"
+        "volunteer-mcq-07",
+        "volunteer-mcq-09",
+        "volunteer-mcq-18"
       ],
       "explanation": "本句的「voluntary contributions」指「並非強制、由個人自行決定的捐款／貢獻」。",
       "sentenceIndex": 37,
@@ -1773,12 +1619,10 @@ export default {
         "voluntary contributions"
       ],
       "optionReasons": {
-        "volunteer-mcq-17": "本句指「並非強制、由個人自行決定的捐款／貢獻」。",
-        "volunteer-mcq-16": "「自願進行、通常無薪的志願工作」與本句語境不同。",
-        "volunteer-mcq-18": "「出於自己意願地；自願地」與本句語境不同。",
-        "volunteer-mcq-15": "「因自己選擇而做、並非被強迫的；自願的」與本句語境不同。",
-        "volunteer-mcq-19": "「並非出於自己意願的；非自願／不由自主的」與本句語境不同。",
-        "volunteer-mcq-14": "「參與義工服務所累積的經驗」與本句語境不同。"
+        "volunteer-mcq-17": "本句的「voluntary contributions」指「並非強制、由個人自行決定的捐款／貢獻」。",
+        "volunteer-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-17"
     },
@@ -1790,11 +1634,9 @@ export default {
       "masked": "The company offered a ____ scheme.",
       "options": [
         "volunteer-mcq-17",
-        "volunteer-mcq-16",
-        "volunteer-mcq-18",
-        "volunteer-mcq-15",
-        "volunteer-mcq-19",
-        "volunteer-mcq-14"
+        "volunteer-mcq-02",
+        "volunteer-mcq-09",
+        "volunteer-mcq-05"
       ],
       "explanation": "本句的「voluntary resignation」指「並非強制、由個人自行決定的捐款／貢獻」。",
       "sentenceIndex": 38,
@@ -1803,12 +1645,10 @@ export default {
         "voluntary resignation"
       ],
       "optionReasons": {
-        "volunteer-mcq-17": "本句指「並非強制、由個人自行決定的捐款／貢獻」。",
-        "volunteer-mcq-16": "「自願進行、通常無薪的志願工作」與本句語境不同。",
-        "volunteer-mcq-18": "「出於自己意願地；自願地」與本句語境不同。",
-        "volunteer-mcq-15": "「因自己選擇而做、並非被強迫的；自願的」與本句語境不同。",
-        "volunteer-mcq-19": "「並非出於自己意願的；非自願／不由自主的」與本句語境不同。",
-        "volunteer-mcq-14": "「參與義工服務所累積的經驗」與本句語境不同。"
+        "volunteer-mcq-17": "本句的「voluntary resignation」指「並非強制、由個人自行決定的捐款／貢獻」。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-17"
     },
@@ -1820,11 +1660,9 @@ export default {
       "masked": "His departure was entirely ____.",
       "options": [
         "volunteer-mcq-17",
-        "volunteer-mcq-16",
-        "volunteer-mcq-18",
-        "volunteer-mcq-15",
-        "volunteer-mcq-19",
-        "volunteer-mcq-14"
+        "volunteer-mcq-09",
+        "volunteer-mcq-07",
+        "volunteer-mcq-05"
       ],
       "explanation": "本句的「voluntary」指「並非強制、由個人自行決定的捐款／貢獻」。",
       "sentenceIndex": 39,
@@ -1833,12 +1671,10 @@ export default {
         "voluntary"
       ],
       "optionReasons": {
-        "volunteer-mcq-17": "本句指「並非強制、由個人自行決定的捐款／貢獻」。",
-        "volunteer-mcq-16": "「自願進行、通常無薪的志願工作」與本句語境不同。",
-        "volunteer-mcq-18": "「出於自己意願地；自願地」與本句語境不同。",
-        "volunteer-mcq-15": "「因自己選擇而做、並非被強迫的；自願的」與本句語境不同。",
-        "volunteer-mcq-19": "「並非出於自己意願的；非自願／不由自主的」與本句語境不同。",
-        "volunteer-mcq-14": "「參與義工服務所累積的經驗」與本句語境不同。"
+        "volunteer-mcq-17": "本句的「voluntary」指「並非強制、由個人自行決定的捐款／貢獻」。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-17"
     },
@@ -1850,11 +1686,9 @@ export default {
       "masked": "She ____ gave up the role.",
       "options": [
         "volunteer-mcq-18",
-        "volunteer-mcq-17",
-        "volunteer-mcq-19",
-        "volunteer-mcq-16",
-        "volunteer-mcq-20",
-        "volunteer-mcq-15"
+        "volunteer-mcq-09",
+        "volunteer-mcq-02",
+        "volunteer-mcq-05"
       ],
       "explanation": "本句的「voluntarily」指「出於自己意願地；自願地」。",
       "sentenceIndex": 40,
@@ -1863,12 +1697,10 @@ export default {
         "voluntarily"
       ],
       "optionReasons": {
-        "volunteer-mcq-18": "本句指「出於自己意願地；自願地」。",
-        "volunteer-mcq-17": "「並非強制、由個人自行決定的捐款／貢獻」與本句語境不同。",
-        "volunteer-mcq-19": "「並非出於自己意願的；非自願／不由自主的」與本句語境不同。",
-        "volunteer-mcq-16": "「自願進行、通常無薪的志願工作」與本句語境不同。",
-        "volunteer-mcq-20": "「不由自主地；非自願地」與本句語境不同。",
-        "volunteer-mcq-15": "「因自己選擇而做、並非被強迫的；自願的」與本句語境不同。"
+        "volunteer-mcq-18": "本句的「voluntarily」指「出於自己意願地；自願地」。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-18"
     },
@@ -1880,11 +1712,9 @@ export default {
       "masked": "He came forward ____.",
       "options": [
         "volunteer-mcq-18",
-        "volunteer-mcq-17",
-        "volunteer-mcq-19",
-        "volunteer-mcq-16",
-        "volunteer-mcq-20",
-        "volunteer-mcq-15"
+        "volunteer-mcq-09",
+        "volunteer-mcq-14",
+        "volunteer-mcq-17"
       ],
       "explanation": "本句的「voluntarily」指「出於自己意願地；自願地」。",
       "sentenceIndex": 41,
@@ -1893,12 +1723,10 @@ export default {
         "voluntarily"
       ],
       "optionReasons": {
-        "volunteer-mcq-18": "本句指「出於自己意願地；自願地」。",
-        "volunteer-mcq-17": "「並非強制、由個人自行決定的捐款／貢獻」與本句語境不同。",
-        "volunteer-mcq-19": "「並非出於自己意願的；非自願／不由自主的」與本句語境不同。",
-        "volunteer-mcq-16": "「自願進行、通常無薪的志願工作」與本句語境不同。",
-        "volunteer-mcq-20": "「不由自主地；非自願地」與本句語境不同。",
-        "volunteer-mcq-15": "「因自己選擇而做、並非被強迫的；自願的」與本句語境不同。"
+        "volunteer-mcq-18": "本句的「voluntarily」指「出於自己意願地；自願地」。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-18"
     },
@@ -1910,11 +1738,9 @@ export default {
       "masked": "The movement was ____.",
       "options": [
         "volunteer-mcq-19",
-        "volunteer-mcq-18",
-        "volunteer-mcq-20",
-        "volunteer-mcq-17",
-        "volunteer-mcq-21",
-        "volunteer-mcq-16"
+        "volunteer-mcq-14",
+        "volunteer-mcq-05",
+        "volunteer-mcq-09"
       ],
       "explanation": "本句的「involuntary」指「並非出於自己意願的；非自願／不由自主的」。",
       "sentenceIndex": 42,
@@ -1923,12 +1749,10 @@ export default {
         "involuntary"
       ],
       "optionReasons": {
-        "volunteer-mcq-19": "本句指「並非出於自己意願的；非自願／不由自主的」。",
-        "volunteer-mcq-18": "「出於自己意願地；自願地」與本句語境不同。",
-        "volunteer-mcq-20": "「不由自主地；非自願地」與本句語境不同。",
-        "volunteer-mcq-17": "「並非強制、由個人自行決定的捐款／貢獻」與本句語境不同。",
-        "volunteer-mcq-21": "「鼓勵人們自願服務社會的志願服務精神／文化」與本句語境不同。",
-        "volunteer-mcq-16": "「自願進行、通常無薪的志願工作」與本句語境不同。"
+        "volunteer-mcq-19": "本句的「involuntary」指「並非出於自己意願的；非自願／不由自主的」。",
+        "volunteer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-19"
     },
@@ -1940,11 +1764,9 @@ export default {
       "masked": "His departure was ____.",
       "options": [
         "volunteer-mcq-19",
-        "volunteer-mcq-18",
-        "volunteer-mcq-20",
-        "volunteer-mcq-17",
-        "volunteer-mcq-21",
-        "volunteer-mcq-16"
+        "volunteer-mcq-14",
+        "volunteer-mcq-09",
+        "volunteer-mcq-05"
       ],
       "explanation": "本句的「involuntary」指「並非出於自己意願的；非自願／不由自主的」。",
       "sentenceIndex": 43,
@@ -1953,12 +1775,10 @@ export default {
         "involuntary"
       ],
       "optionReasons": {
-        "volunteer-mcq-19": "本句指「並非出於自己意願的；非自願／不由自主的」。",
-        "volunteer-mcq-18": "「出於自己意願地；自願地」與本句語境不同。",
-        "volunteer-mcq-20": "「不由自主地；非自願地」與本句語境不同。",
-        "volunteer-mcq-17": "「並非強制、由個人自行決定的捐款／貢獻」與本句語境不同。",
-        "volunteer-mcq-21": "「鼓勵人們自願服務社會的志願服務精神／文化」與本句語境不同。",
-        "volunteer-mcq-16": "「自願進行、通常無薪的志願工作」與本句語境不同。"
+        "volunteer-mcq-19": "本句的「involuntary」指「並非出於自己意願的；非自願／不由自主的」。",
+        "volunteer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-19"
     },
@@ -1970,11 +1790,9 @@ export default {
       "masked": "She ____ stepped back.",
       "options": [
         "volunteer-mcq-20",
-        "volunteer-mcq-19",
-        "volunteer-mcq-21",
-        "volunteer-mcq-18",
-        "volunteer-mcq-22",
-        "volunteer-mcq-17"
+        "volunteer-mcq-14",
+        "volunteer-mcq-23",
+        "volunteer-mcq-09"
       ],
       "explanation": "本句的「involuntarily」指「不由自主地；非自願地」。",
       "sentenceIndex": 44,
@@ -1983,12 +1801,10 @@ export default {
         "involuntarily"
       ],
       "optionReasons": {
-        "volunteer-mcq-20": "本句指「不由自主地；非自願地」。",
-        "volunteer-mcq-19": "「並非出於自己意願的；非自願／不由自主的」與本句語境不同。",
-        "volunteer-mcq-21": "「鼓勵人們自願服務社會的志願服務精神／文化」與本句語境不同。",
-        "volunteer-mcq-18": "「出於自己意願地；自願地」與本句語境不同。",
-        "volunteer-mcq-22": "「較正式：強調自願參與的原則／志願主義」與本句語境不同。",
-        "volunteer-mcq-17": "「並非強制、由個人自行決定的捐款／貢獻」與本句語境不同。"
+        "volunteer-mcq-20": "本句的「involuntarily」指「不由自主地；非自願地」。",
+        "volunteer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-20"
     },
@@ -2000,11 +1816,9 @@ export default {
       "masked": "He ____ laughed.",
       "options": [
         "volunteer-mcq-20",
-        "volunteer-mcq-19",
-        "volunteer-mcq-21",
-        "volunteer-mcq-18",
-        "volunteer-mcq-22",
-        "volunteer-mcq-17"
+        "volunteer-mcq-02",
+        "volunteer-mcq-09",
+        "volunteer-mcq-23"
       ],
       "explanation": "本句的「involuntarily」指「不由自主地；非自願地」。",
       "sentenceIndex": 45,
@@ -2013,12 +1827,10 @@ export default {
         "involuntarily"
       ],
       "optionReasons": {
-        "volunteer-mcq-20": "本句指「不由自主地；非自願地」。",
-        "volunteer-mcq-19": "「並非出於自己意願的；非自願／不由自主的」與本句語境不同。",
-        "volunteer-mcq-21": "「鼓勵人們自願服務社會的志願服務精神／文化」與本句語境不同。",
-        "volunteer-mcq-18": "「出於自己意願地；自願地」與本句語境不同。",
-        "volunteer-mcq-22": "「較正式：強調自願參與的原則／志願主義」與本句語境不同。",
-        "volunteer-mcq-17": "「並非強制、由個人自行決定的捐款／貢獻」與本句語境不同。"
+        "volunteer-mcq-20": "本句的「involuntarily」指「不由自主地；非自願地」。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-20"
     },
@@ -2030,11 +1842,9 @@ export default {
       "masked": "The organization promotes ____ among young people.",
       "options": [
         "volunteer-mcq-21",
-        "volunteer-mcq-20",
-        "volunteer-mcq-22",
-        "volunteer-mcq-19",
-        "volunteer-mcq-23",
-        "volunteer-mcq-18"
+        "volunteer-mcq-09",
+        "volunteer-mcq-02",
+        "volunteer-mcq-05"
       ],
       "explanation": "本句的「volunteerism」指「鼓勵人們自願服務社會的志願服務精神／文化」。",
       "sentenceIndex": 46,
@@ -2043,12 +1853,10 @@ export default {
         "volunteerism"
       ],
       "optionReasons": {
-        "volunteer-mcq-21": "本句指「鼓勵人們自願服務社會的志願服務精神／文化」。",
-        "volunteer-mcq-20": "「不由自主地；非自願地」與本句語境不同。",
-        "volunteer-mcq-22": "「較正式：強調自願參與的原則／志願主義」與本句語境不同。",
-        "volunteer-mcq-19": "「並非出於自己意願的；非自願／不由自主的」與本句語境不同。",
-        "volunteer-mcq-23": "「沒有人刻意種植而自行長出的自生植物」與本句語境不同。",
-        "volunteer-mcq-18": "「出於自己意願地；自願地」與本句語境不同。"
+        "volunteer-mcq-21": "本句的「volunteerism」指「鼓勵人們自願服務社會的志願服務精神／文化」。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-21"
     },
@@ -2060,11 +1868,9 @@ export default {
       "masked": "The city has a strong culture of ____.",
       "options": [
         "volunteer-mcq-21",
-        "volunteer-mcq-20",
-        "volunteer-mcq-22",
-        "volunteer-mcq-19",
-        "volunteer-mcq-23",
-        "volunteer-mcq-18"
+        "volunteer-mcq-08",
+        "volunteer-mcq-02",
+        "volunteer-mcq-17"
       ],
       "explanation": "本句的「volunteerism」指「鼓勵人們自願服務社會的志願服務精神／文化」。",
       "sentenceIndex": 47,
@@ -2073,12 +1879,10 @@ export default {
         "volunteerism"
       ],
       "optionReasons": {
-        "volunteer-mcq-21": "本句指「鼓勵人們自願服務社會的志願服務精神／文化」。",
-        "volunteer-mcq-20": "「不由自主地；非自願地」與本句語境不同。",
-        "volunteer-mcq-22": "「較正式：強調自願參與的原則／志願主義」與本句語境不同。",
-        "volunteer-mcq-19": "「並非出於自己意願的；非自願／不由自主的」與本句語境不同。",
-        "volunteer-mcq-23": "「沒有人刻意種植而自行長出的自生植物」與本句語境不同。",
-        "volunteer-mcq-18": "「出於自己意願地；自願地」與本句語境不同。"
+        "volunteer-mcq-21": "本句的「volunteerism」指「鼓勵人們自願服務社會的志願服務精神／文化」。",
+        "volunteer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-21"
     },
@@ -2090,11 +1894,9 @@ export default {
       "masked": "A tomato ____ appeared beside the compost pile.",
       "options": [
         "volunteer-mcq-23",
-        "volunteer-mcq-22",
-        "volunteer-mcq-24",
-        "volunteer-mcq-21",
-        "volunteer-mcq-25",
-        "volunteer-mcq-20"
+        "volunteer-mcq-02",
+        "volunteer-mcq-09",
+        "volunteer-mcq-25"
       ],
       "explanation": "本句的「volunteer」指「沒有人刻意種植而自行長出的自生植物」。",
       "sentenceIndex": 48,
@@ -2103,12 +1905,10 @@ export default {
         "volunteer"
       ],
       "optionReasons": {
-        "volunteer-mcq-23": "本句指「沒有人刻意種植而自行長出的自生植物」。",
-        "volunteer-mcq-22": "「較正式：強調自願參與的原則／志願主義」與本句語境不同。",
-        "volunteer-mcq-24": "「由自然散落種子等自行生長的植物」與本句語境不同。",
-        "volunteer-mcq-21": "「鼓勵人們自願服務社會的志願服務精神／文化」與本句語境不同。",
-        "volunteer-mcq-25": "「自願提供消防服務的志願消防員」與本句語境不同。",
-        "volunteer-mcq-20": "「不由自主地；非自願地」與本句語境不同。"
+        "volunteer-mcq-23": "本句的「volunteer」指「沒有人刻意種植而自行長出的自生植物」。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-23"
     },
@@ -2120,11 +1920,9 @@ export default {
       "masked": "We left several ____ in the garden.",
       "options": [
         "volunteer-mcq-23",
-        "volunteer-mcq-22",
-        "volunteer-mcq-24",
-        "volunteer-mcq-21",
-        "volunteer-mcq-25",
-        "volunteer-mcq-20"
+        "volunteer-mcq-02",
+        "volunteer-mcq-09",
+        "volunteer-mcq-15"
       ],
       "explanation": "本句的「volunteer plants」指「沒有人刻意種植而自行長出的自生植物」。",
       "sentenceIndex": 49,
@@ -2133,12 +1931,10 @@ export default {
         "volunteer plants"
       ],
       "optionReasons": {
-        "volunteer-mcq-23": "本句指「沒有人刻意種植而自行長出的自生植物」。",
-        "volunteer-mcq-22": "「較正式：強調自願參與的原則／志願主義」與本句語境不同。",
-        "volunteer-mcq-24": "「由自然散落種子等自行生長的植物」與本句語境不同。",
-        "volunteer-mcq-21": "「鼓勵人們自願服務社會的志願服務精神／文化」與本句語境不同。",
-        "volunteer-mcq-25": "「自願提供消防服務的志願消防員」與本句語境不同。",
-        "volunteer-mcq-20": "「不由自主地；非自願地」與本句語境不同。"
+        "volunteer-mcq-23": "本句的「volunteer plants」指「沒有人刻意種植而自行長出的自生植物」。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-23"
     },
@@ -2150,11 +1946,9 @@ export default {
       "masked": "This sunflower is a ____.",
       "options": [
         "volunteer-mcq-24",
-        "volunteer-mcq-23",
-        "volunteer-mcq-25",
-        "volunteer-mcq-22",
-        "volunteer-mcq-26",
-        "volunteer-mcq-21"
+        "volunteer-mcq-02",
+        "volunteer-mcq-08",
+        "volunteer-mcq-10"
       ],
       "explanation": "本句的「volunteer plant」指「由自然散落種子等自行生長的植物」。",
       "sentenceIndex": 50,
@@ -2163,12 +1957,10 @@ export default {
         "volunteer plant"
       ],
       "optionReasons": {
-        "volunteer-mcq-24": "本句指「由自然散落種子等自行生長的植物」。",
-        "volunteer-mcq-23": "「沒有人刻意種植而自行長出的自生植物」與本句語境不同。",
-        "volunteer-mcq-25": "「自願提供消防服務的志願消防員」與本句語境不同。",
-        "volunteer-mcq-22": "「較正式：強調自願參與的原則／志願主義」與本句語境不同。",
-        "volunteer-mcq-26": "「主動付出自己的時間幫助他人」與本句語境不同。",
-        "volunteer-mcq-21": "「鼓勵人們自願服務社會的志願服務精神／文化」與本句語境不同。"
+        "volunteer-mcq-24": "本句的「volunteer plant」指「由自然散落種子等自行生長的植物」。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-24"
     },
@@ -2180,11 +1972,9 @@ export default {
       "masked": "____ may come from seeds dropped the previous year.",
       "options": [
         "volunteer-mcq-24",
-        "volunteer-mcq-23",
-        "volunteer-mcq-25",
-        "volunteer-mcq-22",
-        "volunteer-mcq-26",
-        "volunteer-mcq-21"
+        "volunteer-mcq-07",
+        "volunteer-mcq-09",
+        "volunteer-mcq-18"
       ],
       "explanation": "本句的「Volunteer plants」指「由自然散落種子等自行生長的植物」。",
       "sentenceIndex": 51,
@@ -2193,12 +1983,10 @@ export default {
         "Volunteer plants"
       ],
       "optionReasons": {
-        "volunteer-mcq-24": "本句指「由自然散落種子等自行生長的植物」。",
-        "volunteer-mcq-23": "「沒有人刻意種植而自行長出的自生植物」與本句語境不同。",
-        "volunteer-mcq-25": "「自願提供消防服務的志願消防員」與本句語境不同。",
-        "volunteer-mcq-22": "「較正式：強調自願參與的原則／志願主義」與本句語境不同。",
-        "volunteer-mcq-26": "「主動付出自己的時間幫助他人」與本句語境不同。",
-        "volunteer-mcq-21": "「鼓勵人們自願服務社會的志願服務精神／文化」與本句語境不同。"
+        "volunteer-mcq-24": "本句的「Volunteer plants」指「由自然散落種子等自行生長的植物」。",
+        "volunteer-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-24"
     },
@@ -2210,11 +1998,9 @@ export default {
       "masked": "He serves as a ____.",
       "options": [
         "volunteer-mcq-25",
-        "volunteer-mcq-24",
-        "volunteer-mcq-26",
-        "volunteer-mcq-23",
-        "volunteer-mcq-27",
-        "volunteer-mcq-22"
+        "volunteer-mcq-09",
+        "volunteer-mcq-02",
+        "volunteer-mcq-17"
       ],
       "explanation": "本句的「volunteer firefighter」指「自願提供消防服務的志願消防員」。",
       "sentenceIndex": 52,
@@ -2223,12 +2009,10 @@ export default {
         "volunteer firefighter"
       ],
       "optionReasons": {
-        "volunteer-mcq-25": "本句指「自願提供消防服務的志願消防員」。",
-        "volunteer-mcq-24": "「由自然散落種子等自行生長的植物」與本句語境不同。",
-        "volunteer-mcq-26": "「主動付出自己的時間幫助他人」與本句語境不同。",
-        "volunteer-mcq-23": "「沒有人刻意種植而自行長出的自生植物」與本句語境不同。",
-        "volunteer-mcq-27": "「主動提供自己的技能／服務」與本句語境不同。",
-        "volunteer-mcq-22": "「較正式：強調自願參與的原則／志願主義」與本句語境不同。"
+        "volunteer-mcq-25": "本句的「volunteer firefighter」指「自願提供消防服務的志願消防員」。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-25"
     },
@@ -2240,11 +2024,9 @@ export default {
       "masked": "The area relies heavily on ____.",
       "options": [
         "volunteer-mcq-25",
-        "volunteer-mcq-24",
-        "volunteer-mcq-26",
-        "volunteer-mcq-23",
-        "volunteer-mcq-27",
-        "volunteer-mcq-22"
+        "volunteer-mcq-02",
+        "volunteer-mcq-09",
+        "volunteer-mcq-24"
       ],
       "explanation": "本句的「volunteer firefighters」指「自願提供消防服務的志願消防員」。",
       "sentenceIndex": 53,
@@ -2253,12 +2035,10 @@ export default {
         "volunteer firefighters"
       ],
       "optionReasons": {
-        "volunteer-mcq-25": "本句指「自願提供消防服務的志願消防員」。",
-        "volunteer-mcq-24": "「由自然散落種子等自行生長的植物」與本句語境不同。",
-        "volunteer-mcq-26": "「主動付出自己的時間幫助他人」與本句語境不同。",
-        "volunteer-mcq-23": "「沒有人刻意種植而自行長出的自生植物」與本句語境不同。",
-        "volunteer-mcq-27": "「主動提供自己的技能／服務」與本句語境不同。",
-        "volunteer-mcq-22": "「較正式：強調自願參與的原則／志願主義」與本句語境不同。"
+        "volunteer-mcq-25": "本句的「volunteer firefighters」指「自願提供消防服務的志願消防員」。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-25"
     },
@@ -2270,11 +2050,9 @@ export default {
       "masked": "Many parents ____ at the school.",
       "options": [
         "volunteer-mcq-26",
-        "volunteer-mcq-25",
-        "volunteer-mcq-27",
-        "volunteer-mcq-24",
-        "volunteer-mcq-28",
-        "volunteer-mcq-23"
+        "volunteer-mcq-12",
+        "volunteer-mcq-14",
+        "volunteer-mcq-17"
       ],
       "explanation": "本句的「volunteer their time」指「主動付出自己的時間幫助他人」。",
       "sentenceIndex": 54,
@@ -2283,12 +2061,10 @@ export default {
         "volunteer their time"
       ],
       "optionReasons": {
-        "volunteer-mcq-26": "本句指「主動付出自己的時間幫助他人」。",
-        "volunteer-mcq-25": "「自願提供消防服務的志願消防員」與本句語境不同。",
-        "volunteer-mcq-27": "「主動提供自己的技能／服務」與本句語境不同。",
-        "volunteer-mcq-24": "「由自然散落種子等自行生長的植物」與本句語境不同。",
-        "volunteer-mcq-28": "「非正式／幽默：擅自替別人報名承擔某事」與本句語境不同。",
-        "volunteer-mcq-23": "「沒有人刻意種植而自行長出的自生植物」與本句語境不同。"
+        "volunteer-mcq-26": "本句的「volunteer their time」指「主動付出自己的時間幫助他人」。",
+        "volunteer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-26"
     },
@@ -2300,11 +2076,9 @@ export default {
       "masked": "She ____ to help elderly residents.",
       "options": [
         "volunteer-mcq-26",
-        "volunteer-mcq-25",
-        "volunteer-mcq-27",
-        "volunteer-mcq-24",
-        "volunteer-mcq-28",
-        "volunteer-mcq-23"
+        "volunteer-mcq-07",
+        "volunteer-mcq-05",
+        "volunteer-mcq-24"
       ],
       "explanation": "本句的「volunteered her time」指「主動付出自己的時間幫助他人」。",
       "sentenceIndex": 55,
@@ -2313,12 +2087,10 @@ export default {
         "volunteered her time"
       ],
       "optionReasons": {
-        "volunteer-mcq-26": "本句指「主動付出自己的時間幫助他人」。",
-        "volunteer-mcq-25": "「自願提供消防服務的志願消防員」與本句語境不同。",
-        "volunteer-mcq-27": "「主動提供自己的技能／服務」與本句語境不同。",
-        "volunteer-mcq-24": "「由自然散落種子等自行生長的植物」與本句語境不同。",
-        "volunteer-mcq-28": "「非正式／幽默：擅自替別人報名承擔某事」與本句語境不同。",
-        "volunteer-mcq-23": "「沒有人刻意種植而自行長出的自生植物」與本句語境不同。"
+        "volunteer-mcq-26": "本句的「volunteered her time」指「主動付出自己的時間幫助他人」。",
+        "volunteer-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-26"
     },
@@ -2330,11 +2102,9 @@ export default {
       "masked": "Several doctors ____.",
       "options": [
         "volunteer-mcq-27",
-        "volunteer-mcq-26",
-        "volunteer-mcq-28",
-        "volunteer-mcq-25",
-        "volunteer-mcq-24",
-        "volunteer-mcq-23"
+        "volunteer-mcq-02",
+        "volunteer-mcq-17",
+        "volunteer-mcq-16"
       ],
       "explanation": "本句的「volunteered their services」指「主動提供自己的技能／服務」。",
       "sentenceIndex": 56,
@@ -2343,12 +2113,10 @@ export default {
         "volunteered their services"
       ],
       "optionReasons": {
-        "volunteer-mcq-27": "本句指「主動提供自己的技能／服務」。",
-        "volunteer-mcq-26": "「主動付出自己的時間幫助他人」與本句語境不同。",
-        "volunteer-mcq-28": "「非正式／幽默：擅自替別人報名承擔某事」與本句語境不同。",
-        "volunteer-mcq-25": "「自願提供消防服務的志願消防員」與本句語境不同。",
-        "volunteer-mcq-24": "「由自然散落種子等自行生長的植物」與本句語境不同。",
-        "volunteer-mcq-23": "「沒有人刻意種植而自行長出的自生植物」與本句語境不同。"
+        "volunteer-mcq-27": "本句的「volunteered their services」指「主動提供自己的技能／服務」。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-27"
     },
@@ -2360,10 +2128,8 @@ export default {
       "masked": "He ____ as a driver.",
       "options": [
         "volunteer-mcq-27",
-        "volunteer-mcq-26",
-        "volunteer-mcq-28",
-        "volunteer-mcq-25",
-        "volunteer-mcq-24",
+        "volunteer-mcq-02",
+        "volunteer-mcq-16",
         "volunteer-mcq-23"
       ],
       "explanation": "本句的「volunteered his services」指「主動提供自己的技能／服務」。",
@@ -2373,12 +2139,10 @@ export default {
         "volunteered his services"
       ],
       "optionReasons": {
-        "volunteer-mcq-27": "本句指「主動提供自己的技能／服務」。",
-        "volunteer-mcq-26": "「主動付出自己的時間幫助他人」與本句語境不同。",
-        "volunteer-mcq-28": "「非正式／幽默：擅自替別人報名承擔某事」與本句語境不同。",
-        "volunteer-mcq-25": "「自願提供消防服務的志願消防員」與本句語境不同。",
-        "volunteer-mcq-24": "「由自然散落種子等自行生長的植物」與本句語境不同。",
-        "volunteer-mcq-23": "「沒有人刻意種植而自行長出的自生植物」與本句語境不同。"
+        "volunteer-mcq-27": "本句的「volunteered his services」指「主動提供自己的技能／服務」。",
+        "volunteer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-27"
     },
@@ -2390,11 +2154,9 @@ export default {
       "masked": "Don’t ____ for that job!",
       "options": [
         "volunteer-mcq-28",
-        "volunteer-mcq-27",
-        "volunteer-mcq-26",
-        "volunteer-mcq-25",
-        "volunteer-mcq-24",
-        "volunteer-mcq-23"
+        "volunteer-mcq-07",
+        "volunteer-mcq-09",
+        "volunteer-mcq-24"
       ],
       "explanation": "本句的「volunteer me」指「非正式／幽默：擅自替別人報名承擔某事」。",
       "sentenceIndex": 58,
@@ -2403,12 +2165,10 @@ export default {
         "volunteer me"
       ],
       "optionReasons": {
-        "volunteer-mcq-28": "本句指「非正式／幽默：擅自替別人報名承擔某事」。",
-        "volunteer-mcq-27": "「主動提供自己的技能／服務」與本句語境不同。",
-        "volunteer-mcq-26": "「主動付出自己的時間幫助他人」與本句語境不同。",
-        "volunteer-mcq-25": "「自願提供消防服務的志願消防員」與本句語境不同。",
-        "volunteer-mcq-24": "「由自然散落種子等自行生長的植物」與本句語境不同。",
-        "volunteer-mcq-23": "「沒有人刻意種植而自行長出的自生植物」與本句語境不同。"
+        "volunteer-mcq-28": "本句的「volunteer me」指「非正式／幽默：擅自替別人報名承擔某事」。",
+        "volunteer-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-28"
     },
@@ -2420,11 +2180,9 @@ export default {
       "masked": "She ____ to carry the boxes.",
       "options": [
         "volunteer-mcq-28",
-        "volunteer-mcq-27",
-        "volunteer-mcq-26",
-        "volunteer-mcq-25",
-        "volunteer-mcq-24",
-        "volunteer-mcq-23"
+        "volunteer-mcq-08",
+        "volunteer-mcq-14",
+        "volunteer-mcq-16"
       ],
       "explanation": "本句的「volunteered her brother」指「非正式／幽默：擅自替別人報名承擔某事」。",
       "sentenceIndex": 59,
@@ -2433,12 +2191,10 @@ export default {
         "volunteered her brother"
       ],
       "optionReasons": {
-        "volunteer-mcq-28": "本句指「非正式／幽默：擅自替別人報名承擔某事」。",
-        "volunteer-mcq-27": "「主動提供自己的技能／服務」與本句語境不同。",
-        "volunteer-mcq-26": "「主動付出自己的時間幫助他人」與本句語境不同。",
-        "volunteer-mcq-25": "「自願提供消防服務的志願消防員」與本句語境不同。",
-        "volunteer-mcq-24": "「由自然散落種子等自行生長的植物」與本句語境不同。",
-        "volunteer-mcq-23": "「沒有人刻意種植而自行長出的自生植物」與本句語境不同。"
+        "volunteer-mcq-28": "本句的「volunteered her brother」指「非正式／幽默：擅自替別人報名承擔某事」。",
+        "volunteer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volunteer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volunteer-mcq-28"
     }
@@ -2450,5 +2206,7 @@ export default {
     "sha256": "04e8299b8dd97e89f85a0380efd656e8b30eef0e5e8a9331c0c602f1b65f888b",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

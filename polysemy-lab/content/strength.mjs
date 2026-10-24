@@ -299,16 +299,6 @@ export default {
           "The engineers measured the material’s tensile strength.",
           "工程師測量了材料的抗拉強度。",
           "材料抵抗被拉伸至斷裂的能力"
-        ],
-        [
-          "The bridge was checked for structural strength.",
-          "大橋接受了結構強度檢查。",
-          "材料抵抗被拉伸至斷裂的能力"
-        ],
-        [
-          "The redesign improved the structural strength of the frame.",
-          "重新設計提升了框架的結構強度。",
-          "材料抵抗被拉伸至斷裂的能力"
         ]
       ],
       "options": [],
@@ -418,16 +408,6 @@ export default {
         [
           "The dollar’s strength made imported goods cheaper.",
           "美元的強勢令入口商品變得較便宜。",
-          "一種貨幣相對其他貨幣具有較高價值或較強匯率表現"
-        ],
-        [
-          "Technology shares contributed to overall market strength.",
-          "科技股推動了整體市場的強勢表現。",
-          "一種貨幣相對其他貨幣具有較高價值或較強匯率表現"
-        ],
-        [
-          "The rally showed broad market strength.",
-          "這輪升勢顯示市場有廣泛的強勁動力。",
           "一種貨幣相對其他貨幣具有較高價值或較強匯率表現"
         ]
       ],
@@ -645,16 +625,6 @@ export default {
           "The company expanded on the strength of strong demand.",
           "公司基於強勁需求而擴充業務。",
           "因某項表現、證據、推薦或有利因素而採取行動／作決定"
-        ],
-        [
-          "He moved the object by sheer strength.",
-          "他靠純粹的力量移動了那件物件。",
-          "因某項表現、證據、推薦或有利因素而採取行動／作決定"
-        ],
-        [
-          "The athlete powered through the final metres on strength alone.",
-          "運動員在最後幾米幾乎完全靠力量撐過去。",
-          "因某項表現、證據、推薦或有利因素而採取行動／作決定"
         ]
       ],
       "options": [],
@@ -698,6 +668,72 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "strength-reviewed-ffd5fd491a",
+      "title": "結構強度",
+      "form": "strength · source section 16",
+      "en": "結構強度",
+      "zh": "結構強度",
+      "note": "對照原始教材第 16 節及例句核實。",
+      "examples": [
+        [
+          "The bridge was checked for structural strength.",
+          "大橋接受了結構強度檢查。",
+          "結構強度"
+        ],
+        [
+          "The redesign improved the structural strength of the frame.",
+          "重新設計提升了框架的結構強度。",
+          "結構強度"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "strength-reviewed-b74485cfbd",
+      "title": "市場強勢",
+      "form": "strength · source section 23",
+      "en": "市場強勢",
+      "zh": "市場強勢",
+      "note": "對照原始教材第 23 節及例句核實。",
+      "examples": [
+        [
+          "Technology shares contributed to overall market strength.",
+          "科技股推動了整體市場的強勢表現。",
+          "市場強勢"
+        ],
+        [
+          "The rally showed broad market strength.",
+          "這輪升勢顯示市場有廣泛的強勁動力。",
+          "市場強勢"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "strength-reviewed-4e5b96e01a",
+      "title": "靠力量；憑純粹力量",
+      "form": "strength · source section 41",
+      "en": "靠力量；憑純粹力量",
+      "zh": "靠力量；憑純粹力量",
+      "note": "對照原始教材第 41 節及例句核實。",
+      "examples": [
+        [
+          "He moved the object by sheer strength.",
+          "他靠純粹的力量移動了那件物件。",
+          "靠力量；憑純粹力量"
+        ],
+        [
+          "The athlete powered through the final metres on strength alone.",
+          "運動員在最後幾米幾乎完全靠力量撐過去。",
+          "靠力量；憑純粹力量"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -709,10 +745,8 @@ export default {
       "masked": "The programme included ____ conditioning.",
       "options": [
         "strength-mcq-01",
-        "strength-mcq-02",
-        "strength-mcq-03",
-        "strength-mcq-04",
-        "strength-mcq-05",
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-09",
         "strength-mcq-06"
       ],
       "explanation": "本句的「strength」指「身體或肌肉產生力量、抵抗外力或承受負荷的能力」。",
@@ -722,12 +756,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-01": "本句指「身體或肌肉產生力量、抵抗外力或承受負荷的能力」。",
-        "strength-mcq-02": "「身體在推、拉、搬動、承重等方面的力量能力」與本句語境不同。",
-        "strength-mcq-03": "「透過阻力／負重訓練提升肌肉產力能力的訓練方式」與本句語境不同。",
-        "strength-mcq-04": "「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」與本句語境不同。",
-        "strength-mcq-05": "「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」與本句語境不同。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。"
+        "strength-mcq-01": "本句的「strength」指「身體或肌肉產生力量、抵抗外力或承受負荷的能力」。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-01"
     },
@@ -739,11 +771,9 @@ export default {
       "masked": "Athletes need sufficient leg ____ to maintain good running form.",
       "options": [
         "strength-mcq-01",
-        "strength-mcq-02",
-        "strength-mcq-03",
-        "strength-mcq-04",
-        "strength-mcq-05",
-        "strength-mcq-06"
+        "strength-reviewed-b74485cfbd",
+        "strength-pdf-001",
+        "strength-mcq-17"
       ],
       "explanation": "本句的「strength」指「身體或肌肉產生力量、抵抗外力或承受負荷的能力」。",
       "sentenceIndex": 1,
@@ -752,12 +782,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-01": "本句指「身體或肌肉產生力量、抵抗外力或承受負荷的能力」。",
-        "strength-mcq-02": "「身體在推、拉、搬動、承重等方面的力量能力」與本句語境不同。",
-        "strength-mcq-03": "「透過阻力／負重訓練提升肌肉產力能力的訓練方式」與本句語境不同。",
-        "strength-mcq-04": "「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」與本句語境不同。",
-        "strength-mcq-05": "「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」與本句語境不同。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。"
+        "strength-mcq-01": "本句的「strength」指「身體或肌肉產生力量、抵抗外力或承受負荷的能力」。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-01"
     },
@@ -769,11 +797,9 @@ export default {
       "masked": "Her upper-body ____ improved considerably.",
       "options": [
         "strength-mcq-01",
-        "strength-mcq-02",
-        "strength-mcq-03",
-        "strength-mcq-04",
-        "strength-mcq-05",
-        "strength-mcq-06"
+        "strength-mcq-23",
+        "strength-mcq-17",
+        "strength-pdf-001"
       ],
       "explanation": "本句的「strength」指「身體或肌肉產生力量、抵抗外力或承受負荷的能力」。",
       "sentenceIndex": 2,
@@ -782,12 +808,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-01": "本句指「身體或肌肉產生力量、抵抗外力或承受負荷的能力」。",
-        "strength-mcq-02": "「身體在推、拉、搬動、承重等方面的力量能力」與本句語境不同。",
-        "strength-mcq-03": "「透過阻力／負重訓練提升肌肉產力能力的訓練方式」與本句語境不同。",
-        "strength-mcq-04": "「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」與本句語境不同。",
-        "strength-mcq-05": "「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」與本句語境不同。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。"
+        "strength-mcq-01": "本句的「strength」指「身體或肌肉產生力量、抵抗外力或承受負荷的能力」。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-01"
     },
@@ -799,11 +823,9 @@ export default {
       "masked": "The job requires considerable ____.",
       "options": [
         "strength-mcq-02",
-        "strength-mcq-01",
-        "strength-mcq-03",
-        "strength-mcq-04",
-        "strength-mcq-05",
-        "strength-mcq-06"
+        "strength-mcq-06",
+        "strength-mcq-23",
+        "strength-pdf-001"
       ],
       "explanation": "本句的「physical strength」指「身體在推、拉、搬動、承重等方面的力量能力」。",
       "sentenceIndex": 3,
@@ -812,12 +834,10 @@ export default {
         "physical strength"
       ],
       "optionReasons": {
-        "strength-mcq-02": "本句指「身體在推、拉、搬動、承重等方面的力量能力」。",
-        "strength-mcq-01": "「身體或肌肉產生力量、抵抗外力或承受負荷的能力」與本句語境不同。",
-        "strength-mcq-03": "「透過阻力／負重訓練提升肌肉產力能力的訓練方式」與本句語境不同。",
-        "strength-mcq-04": "「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」與本句語境不同。",
-        "strength-mcq-05": "「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」與本句語境不同。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。"
+        "strength-mcq-02": "本句的「physical strength」指「身體在推、拉、搬動、承重等方面的力量能力」。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-02"
     },
@@ -829,11 +849,9 @@ export default {
       "masked": "Physical ____ alone does not make a complete athlete.",
       "options": [
         "strength-mcq-02",
-        "strength-mcq-01",
-        "strength-mcq-03",
-        "strength-mcq-04",
-        "strength-mcq-05",
-        "strength-mcq-06"
+        "strength-mcq-23",
+        "strength-mcq-17",
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「strength」指「身體在推、拉、搬動、承重等方面的力量能力」。",
       "sentenceIndex": 4,
@@ -842,12 +860,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-02": "本句指「身體在推、拉、搬動、承重等方面的力量能力」。",
-        "strength-mcq-01": "「身體或肌肉產生力量、抵抗外力或承受負荷的能力」與本句語境不同。",
-        "strength-mcq-03": "「透過阻力／負重訓練提升肌肉產力能力的訓練方式」與本句語境不同。",
-        "strength-mcq-04": "「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」與本句語境不同。",
-        "strength-mcq-05": "「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」與本句語境不同。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。"
+        "strength-mcq-02": "本句的「strength」指「身體在推、拉、搬動、承重等方面的力量能力」。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-02"
     },
@@ -859,11 +875,9 @@ export default {
       "masked": "She does ____ twice a week.",
       "options": [
         "strength-mcq-03",
-        "strength-mcq-02",
-        "strength-mcq-04",
-        "strength-mcq-01",
-        "strength-mcq-05",
-        "strength-mcq-06"
+        "strength-mcq-09",
+        "strength-mcq-25",
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「strength training」指「透過阻力／負重訓練提升肌肉產力能力的訓練方式」。",
       "sentenceIndex": 5,
@@ -872,12 +886,10 @@ export default {
         "strength training"
       ],
       "optionReasons": {
-        "strength-mcq-03": "本句指「透過阻力／負重訓練提升肌肉產力能力的訓練方式」。",
-        "strength-mcq-02": "「身體在推、拉、搬動、承重等方面的力量能力」與本句語境不同。",
-        "strength-mcq-04": "「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」與本句語境不同。",
-        "strength-mcq-01": "「身體或肌肉產生力量、抵抗外力或承受負荷的能力」與本句語境不同。",
-        "strength-mcq-05": "「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」與本句語境不同。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。"
+        "strength-mcq-03": "本句的「strength training」指「透過阻力／負重訓練提升肌肉產力能力的訓練方式」。",
+        "strength-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-03"
     },
@@ -889,11 +901,9 @@ export default {
       "masked": "____ training can help improve running economy.",
       "options": [
         "strength-mcq-03",
-        "strength-mcq-02",
-        "strength-mcq-04",
-        "strength-mcq-01",
-        "strength-mcq-05",
-        "strength-mcq-06"
+        "strength-mcq-06",
+        "strength-pdf-001",
+        "strength-mcq-25"
       ],
       "explanation": "本句的「Strength」指「透過阻力／負重訓練提升肌肉產力能力的訓練方式」。",
       "sentenceIndex": 6,
@@ -902,12 +912,10 @@ export default {
         "Strength"
       ],
       "optionReasons": {
-        "strength-mcq-03": "本句指「透過阻力／負重訓練提升肌肉產力能力的訓練方式」。",
-        "strength-mcq-02": "「身體在推、拉、搬動、承重等方面的力量能力」與本句語境不同。",
-        "strength-mcq-04": "「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」與本句語境不同。",
-        "strength-mcq-01": "「身體或肌肉產生力量、抵抗外力或承受負荷的能力」與本句語境不同。",
-        "strength-mcq-05": "「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」與本句語境不同。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。"
+        "strength-mcq-03": "本句的「Strength」指「透過阻力／負重訓練提升肌肉產力能力的訓練方式」。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-03"
     },
@@ -919,11 +927,9 @@ export default {
       "masked": "The team hired a new ____ coach.",
       "options": [
         "strength-mcq-04",
-        "strength-mcq-03",
-        "strength-mcq-05",
-        "strength-mcq-02",
+        "strength-mcq-23",
         "strength-mcq-06",
-        "strength-mcq-01"
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「strength and conditioning」指「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」。",
       "sentenceIndex": 7,
@@ -932,12 +938,10 @@ export default {
         "strength and conditioning"
       ],
       "optionReasons": {
-        "strength-mcq-04": "本句指「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」。",
-        "strength-mcq-03": "「透過阻力／負重訓練提升肌肉產力能力的訓練方式」與本句語境不同。",
-        "strength-mcq-05": "「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」與本句語境不同。",
-        "strength-mcq-02": "「身體在推、拉、搬動、承重等方面的力量能力」與本句語境不同。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。",
-        "strength-mcq-01": "「身體或肌肉產生力量、抵抗外力或承受負荷的能力」與本句語境不同。"
+        "strength-mcq-04": "本句的「strength and conditioning」指「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-04"
     },
@@ -949,11 +953,9 @@ export default {
       "masked": "____ and conditioning plays an important role in injury prevention.",
       "options": [
         "strength-mcq-04",
-        "strength-mcq-03",
-        "strength-mcq-05",
-        "strength-mcq-02",
-        "strength-mcq-06",
-        "strength-mcq-01"
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-23",
+        "strength-mcq-06"
       ],
       "explanation": "本句的「Strength」指「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」。",
       "sentenceIndex": 8,
@@ -962,12 +964,10 @@ export default {
         "Strength"
       ],
       "optionReasons": {
-        "strength-mcq-04": "本句指「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」。",
-        "strength-mcq-03": "「透過阻力／負重訓練提升肌肉產力能力的訓練方式」與本句語境不同。",
-        "strength-mcq-05": "「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」與本句語境不同。",
-        "strength-mcq-02": "「身體在推、拉、搬動、承重等方面的力量能力」與本句語境不同。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。",
-        "strength-mcq-01": "「身體或肌肉產生力量、抵抗外力或承受負荷的能力」與本句語境不同。"
+        "strength-mcq-04": "本句的「Strength」指「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-04"
     },
@@ -979,11 +979,9 @@ export default {
       "masked": "She showed great ____ after the disappointment.",
       "options": [
         "strength-mcq-05",
-        "strength-mcq-04",
-        "strength-mcq-06",
-        "strength-mcq-03",
-        "strength-mcq-07",
-        "strength-mcq-02"
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-09",
+        "strength-mcq-17"
       ],
       "explanation": "本句的「strength」指「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」。",
       "sentenceIndex": 9,
@@ -992,12 +990,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-05": "本句指「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」。",
-        "strength-mcq-04": "「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」與本句語境不同。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。",
-        "strength-mcq-03": "「透過阻力／負重訓練提升肌肉產力能力的訓練方式」與本句語境不同。",
-        "strength-mcq-07": "「盡量利用自己最擅長、最有優勢的能力或特點」與本句語境不同。",
-        "strength-mcq-02": "「身體在推、拉、搬動、承重等方面的力量能力」與本句語境不同。"
+        "strength-mcq-05": "本句的「strength」指「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-05"
     },
@@ -1009,11 +1005,9 @@ export default {
       "masked": "It took real ____ to continue after the injury.",
       "options": [
         "strength-mcq-05",
-        "strength-mcq-04",
         "strength-mcq-06",
-        "strength-mcq-03",
-        "strength-mcq-07",
-        "strength-mcq-02"
+        "strength-mcq-09",
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「strength」指「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」。",
       "sentenceIndex": 10,
@@ -1022,12 +1016,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-05": "本句指「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」。",
-        "strength-mcq-04": "「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」與本句語境不同。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。",
-        "strength-mcq-03": "「透過阻力／負重訓練提升肌肉產力能力的訓練方式」與本句語境不同。",
-        "strength-mcq-07": "「盡量利用自己最擅長、最有優勢的能力或特點」與本句語境不同。",
-        "strength-mcq-02": "「身體在推、拉、搬動、承重等方面的力量能力」與本句語境不同。"
+        "strength-mcq-05": "本句的「strength」指「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-05"
     },
@@ -1039,11 +1031,9 @@ export default {
       "masked": "The experience helped her discover her ____.",
       "options": [
         "strength-mcq-05",
-        "strength-mcq-04",
-        "strength-mcq-06",
-        "strength-mcq-03",
-        "strength-mcq-07",
-        "strength-mcq-02"
+        "strength-mcq-09",
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-17"
       ],
       "explanation": "本句的「inner strength」指「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」。",
       "sentenceIndex": 11,
@@ -1052,12 +1042,10 @@ export default {
         "inner strength"
       ],
       "optionReasons": {
-        "strength-mcq-05": "本句指「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」。",
-        "strength-mcq-04": "「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」與本句語境不同。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。",
-        "strength-mcq-03": "「透過阻力／負重訓練提升肌肉產力能力的訓練方式」與本句語境不同。",
-        "strength-mcq-07": "「盡量利用自己最擅長、最有優勢的能力或特點」與本句語境不同。",
-        "strength-mcq-02": "「身體在推、拉、搬動、承重等方面的力量能力」與本句語境不同。"
+        "strength-mcq-05": "本句的「inner strength」指「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」。",
+        "strength-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-05"
     },
@@ -1069,11 +1057,9 @@ export default {
       "masked": "Athletes often need inner ____ as much as physical ability.",
       "options": [
         "strength-mcq-05",
-        "strength-mcq-04",
+        "strength-pdf-001",
         "strength-mcq-06",
-        "strength-mcq-03",
-        "strength-mcq-07",
-        "strength-mcq-02"
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「strength」指「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」。",
       "sentenceIndex": 12,
@@ -1082,12 +1068,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-05": "本句指「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」。",
-        "strength-mcq-04": "「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」與本句語境不同。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。",
-        "strength-mcq-03": "「透過阻力／負重訓練提升肌肉產力能力的訓練方式」與本句語境不同。",
-        "strength-mcq-07": "「盡量利用自己最擅長、最有優勢的能力或特點」與本句語境不同。",
-        "strength-mcq-02": "「身體在推、拉、搬動、承重等方面的力量能力」與本句語境不同。"
+        "strength-mcq-05": "本句的「strength」指「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-05"
     },
@@ -1099,11 +1083,9 @@ export default {
       "masked": "Communication is one of her greatest ____.",
       "options": [
         "strength-mcq-06",
-        "strength-mcq-05",
-        "strength-mcq-07",
-        "strength-mcq-04",
-        "strength-mcq-08",
-        "strength-mcq-03"
+        "strength-pdf-001",
+        "strength-reviewed-4e5b96e01a",
+        "strength-mcq-04"
       ],
       "explanation": "本句的「strengths」指「某人、團隊或事物特別做得好、具有優勢的方面」。",
       "sentenceIndex": 13,
@@ -1112,12 +1094,10 @@ export default {
         "strengths"
       ],
       "optionReasons": {
-        "strength-mcq-06": "本句指「某人、團隊或事物特別做得好、具有優勢的方面」。",
-        "strength-mcq-05": "「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」與本句語境不同。",
-        "strength-mcq-07": "「盡量利用自己最擅長、最有優勢的能力或特點」與本句語境不同。",
-        "strength-mcq-04": "「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」與本句語境不同。",
-        "strength-mcq-08": "「某種作用、訊號、風力、反應等達到的強弱程度」與本句語境不同。",
-        "strength-mcq-03": "「透過阻力／負重訓練提升肌肉產力能力的訓練方式」與本句語境不同。"
+        "strength-mcq-06": "本句的「strengths」指「某人、團隊或事物特別做得好、具有優勢的方面」。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-4e5b96e01a": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-06"
     },
@@ -1129,11 +1109,9 @@ export default {
       "masked": "The team’s main ____ is its discipline.",
       "options": [
         "strength-mcq-06",
-        "strength-mcq-05",
-        "strength-mcq-07",
-        "strength-mcq-04",
+        "strength-mcq-02",
         "strength-mcq-08",
-        "strength-mcq-03"
+        "strength-mcq-23"
       ],
       "explanation": "本句的「strength」指「某人、團隊或事物特別做得好、具有優勢的方面」。",
       "sentenceIndex": 14,
@@ -1142,12 +1120,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-06": "本句指「某人、團隊或事物特別做得好、具有優勢的方面」。",
-        "strength-mcq-05": "「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」與本句語境不同。",
-        "strength-mcq-07": "「盡量利用自己最擅長、最有優勢的能力或特點」與本句語境不同。",
-        "strength-mcq-04": "「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」與本句語境不同。",
-        "strength-mcq-08": "「某種作用、訊號、風力、反應等達到的強弱程度」與本句語境不同。",
-        "strength-mcq-03": "「透過阻力／負重訓練提升肌肉產力能力的訓練方式」與本句語境不同。"
+        "strength-mcq-06": "本句的「strength」指「某人、團隊或事物特別做得好、具有優勢的方面」。",
+        "strength-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-06"
     },
@@ -1159,11 +1135,9 @@ export default {
       "masked": "Good coaches know how to help athletes ____.",
       "options": [
         "strength-mcq-07",
-        "strength-mcq-06",
-        "strength-mcq-08",
-        "strength-mcq-05",
-        "strength-mcq-09",
-        "strength-mcq-04"
+        "strength-pdf-001",
+        "strength-mcq-23",
+        "strength-mcq-17"
       ],
       "explanation": "本句的「play to their strengths」指「盡量利用自己最擅長、最有優勢的能力或特點」。",
       "sentenceIndex": 15,
@@ -1172,12 +1146,10 @@ export default {
         "play to their strengths"
       ],
       "optionReasons": {
-        "strength-mcq-07": "本句指「盡量利用自己最擅長、最有優勢的能力或特點」。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。",
-        "strength-mcq-08": "「某種作用、訊號、風力、反應等達到的強弱程度」與本句語境不同。",
-        "strength-mcq-05": "「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」與本句語境不同。",
-        "strength-mcq-09": "「電訊／無線訊號的接收或傳輸強弱程度」與本句語境不同。",
-        "strength-mcq-04": "「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」與本句語境不同。"
+        "strength-mcq-07": "本句的「play to their strengths」指「盡量利用自己最擅長、最有優勢的能力或特點」。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-07"
     },
@@ -1189,11 +1161,9 @@ export default {
       "masked": "The presentation was designed to play to his ____.",
       "options": [
         "strength-mcq-07",
-        "strength-mcq-06",
-        "strength-mcq-08",
-        "strength-mcq-05",
-        "strength-mcq-09",
-        "strength-mcq-04"
+        "strength-mcq-17",
+        "strength-mcq-23",
+        "strength-pdf-001"
       ],
       "explanation": "本句的「strengths」指「盡量利用自己最擅長、最有優勢的能力或特點」。",
       "sentenceIndex": 16,
@@ -1202,12 +1172,10 @@ export default {
         "strengths"
       ],
       "optionReasons": {
-        "strength-mcq-07": "本句指「盡量利用自己最擅長、最有優勢的能力或特點」。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。",
-        "strength-mcq-08": "「某種作用、訊號、風力、反應等達到的強弱程度」與本句語境不同。",
-        "strength-mcq-05": "「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」與本句語境不同。",
-        "strength-mcq-09": "「電訊／無線訊號的接收或傳輸強弱程度」與本句語境不同。",
-        "strength-mcq-04": "「透過肌力、爆發力、速度、穩定性及體能訓練提升運動表現的專業領域」與本句語境不同。"
+        "strength-mcq-07": "本句的「strengths」指「盡量利用自己最擅長、最有優勢的能力或特點」。",
+        "strength-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-07"
     },
@@ -1219,11 +1187,9 @@ export default {
       "masked": "The ____ of the wind increased overnight.",
       "options": [
         "strength-mcq-08",
-        "strength-mcq-07",
-        "strength-mcq-09",
-        "strength-mcq-06",
-        "strength-mcq-10",
-        "strength-mcq-05"
+        "strength-mcq-25",
+        "strength-mcq-23",
+        "strength-mcq-06"
       ],
       "explanation": "本句的「strength」指「某種作用、訊號、風力、反應等達到的強弱程度」。",
       "sentenceIndex": 17,
@@ -1232,12 +1198,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-08": "本句指「某種作用、訊號、風力、反應等達到的強弱程度」。",
-        "strength-mcq-07": "「盡量利用自己最擅長、最有優勢的能力或特點」與本句語境不同。",
-        "strength-mcq-09": "「電訊／無線訊號的接收或傳輸強弱程度」與本句語境不同。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。",
-        "strength-mcq-10": "「藥物、化學品、飲品等的濃度或效力程度」與本句語境不同。",
-        "strength-mcq-05": "「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」與本句語境不同。"
+        "strength-mcq-08": "本句的「strength」指「某種作用、訊號、風力、反應等達到的強弱程度」。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-08"
     },
@@ -1249,11 +1213,9 @@ export default {
       "masked": "The signal lost ____ inside the building.",
       "options": [
         "strength-mcq-08",
-        "strength-mcq-07",
-        "strength-mcq-09",
+        "strength-mcq-23",
         "strength-mcq-06",
-        "strength-mcq-10",
-        "strength-mcq-05"
+        "strength-mcq-25"
       ],
       "explanation": "本句的「strength」指「某種作用、訊號、風力、反應等達到的強弱程度」。",
       "sentenceIndex": 18,
@@ -1262,12 +1224,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-08": "本句指「某種作用、訊號、風力、反應等達到的強弱程度」。",
-        "strength-mcq-07": "「盡量利用自己最擅長、最有優勢的能力或特點」與本句語境不同。",
-        "strength-mcq-09": "「電訊／無線訊號的接收或傳輸強弱程度」與本句語境不同。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。",
-        "strength-mcq-10": "「藥物、化學品、飲品等的濃度或效力程度」與本句語境不同。",
-        "strength-mcq-05": "「面對壓力、痛苦或困難時保持穩定和堅持的心理力量」與本句語境不同。"
+        "strength-mcq-08": "本句的「strength」指「某種作用、訊號、風力、反應等達到的強弱程度」。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-08"
     },
@@ -1279,10 +1239,8 @@ export default {
       "masked": "The phone shows weak ____.",
       "options": [
         "strength-mcq-09",
-        "strength-mcq-08",
-        "strength-mcq-10",
-        "strength-mcq-07",
-        "strength-mcq-11",
+        "strength-mcq-25",
+        "strength-mcq-03",
         "strength-mcq-06"
       ],
       "explanation": "本句的「signal strength」指「電訊／無線訊號的接收或傳輸強弱程度」。",
@@ -1292,12 +1250,10 @@ export default {
         "signal strength"
       ],
       "optionReasons": {
-        "strength-mcq-09": "本句指「電訊／無線訊號的接收或傳輸強弱程度」。",
-        "strength-mcq-08": "「某種作用、訊號、風力、反應等達到的強弱程度」與本句語境不同。",
-        "strength-mcq-10": "「藥物、化學品、飲品等的濃度或效力程度」與本句語境不同。",
-        "strength-mcq-07": "「盡量利用自己最擅長、最有優勢的能力或特點」與本句語境不同。",
-        "strength-mcq-11": "「材料或結構抵抗負荷、拉力、壓力或破壞的能力」與本句語境不同。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。"
+        "strength-mcq-09": "本句的「signal strength」指「電訊／無線訊號的接收或傳輸強弱程度」。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-09"
     },
@@ -1309,11 +1265,9 @@ export default {
       "masked": "Moving closer to the router improved the signal ____.",
       "options": [
         "strength-mcq-09",
-        "strength-mcq-08",
-        "strength-mcq-10",
-        "strength-mcq-07",
-        "strength-mcq-11",
-        "strength-mcq-06"
+        "strength-mcq-12",
+        "strength-mcq-06",
+        "strength-mcq-25"
       ],
       "explanation": "本句的「strength」指「電訊／無線訊號的接收或傳輸強弱程度」。",
       "sentenceIndex": 20,
@@ -1322,12 +1276,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-09": "本句指「電訊／無線訊號的接收或傳輸強弱程度」。",
-        "strength-mcq-08": "「某種作用、訊號、風力、反應等達到的強弱程度」與本句語境不同。",
-        "strength-mcq-10": "「藥物、化學品、飲品等的濃度或效力程度」與本句語境不同。",
-        "strength-mcq-07": "「盡量利用自己最擅長、最有優勢的能力或特點」與本句語境不同。",
-        "strength-mcq-11": "「材料或結構抵抗負荷、拉力、壓力或破壞的能力」與本句語境不同。",
-        "strength-mcq-06": "「某人、團隊或事物特別做得好、具有優勢的方面」與本句語境不同。"
+        "strength-mcq-09": "本句的「strength」指「電訊／無線訊號的接收或傳輸強弱程度」。",
+        "strength-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-09"
     },
@@ -1339,11 +1291,9 @@ export default {
       "masked": "This medicine comes in several ____.",
       "options": [
         "strength-mcq-10",
-        "strength-mcq-09",
-        "strength-mcq-11",
-        "strength-mcq-08",
-        "strength-mcq-12",
-        "strength-mcq-07"
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-25",
+        "strength-mcq-06"
       ],
       "explanation": "本句的「strengths」指「藥物、化學品、飲品等的濃度或效力程度」。",
       "sentenceIndex": 21,
@@ -1352,12 +1302,10 @@ export default {
         "strengths"
       ],
       "optionReasons": {
-        "strength-mcq-10": "本句指「藥物、化學品、飲品等的濃度或效力程度」。",
-        "strength-mcq-09": "「電訊／無線訊號的接收或傳輸強弱程度」與本句語境不同。",
-        "strength-mcq-11": "「材料或結構抵抗負荷、拉力、壓力或破壞的能力」與本句語境不同。",
-        "strength-mcq-08": "「某種作用、訊號、風力、反應等達到的強弱程度」與本句語境不同。",
-        "strength-mcq-12": "「材料抵抗被拉伸至斷裂的能力」與本句語境不同。",
-        "strength-mcq-07": "「盡量利用自己最擅長、最有優勢的能力或特點」與本句語境不同。"
+        "strength-mcq-10": "本句的「strengths」指「藥物、化學品、飲品等的濃度或效力程度」。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-10"
     },
@@ -1369,11 +1317,9 @@ export default {
       "masked": "Use a lower-____ cleaning solution on delicate surfaces.",
       "options": [
         "strength-mcq-10",
-        "strength-mcq-09",
-        "strength-mcq-11",
-        "strength-mcq-08",
-        "strength-mcq-12",
-        "strength-mcq-07"
+        "strength-mcq-17",
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-23"
       ],
       "explanation": "本句的「strength」指「藥物、化學品、飲品等的濃度或效力程度」。",
       "sentenceIndex": 22,
@@ -1382,12 +1328,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-10": "本句指「藥物、化學品、飲品等的濃度或效力程度」。",
-        "strength-mcq-09": "「電訊／無線訊號的接收或傳輸強弱程度」與本句語境不同。",
-        "strength-mcq-11": "「材料或結構抵抗負荷、拉力、壓力或破壞的能力」與本句語境不同。",
-        "strength-mcq-08": "「某種作用、訊號、風力、反應等達到的強弱程度」與本句語境不同。",
-        "strength-mcq-12": "「材料抵抗被拉伸至斷裂的能力」與本句語境不同。",
-        "strength-mcq-07": "「盡量利用自己最擅長、最有優勢的能力或特點」與本句語境不同。"
+        "strength-mcq-10": "本句的「strength」指「藥物、化學品、飲品等的濃度或效力程度」。",
+        "strength-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-10"
     },
@@ -1399,11 +1343,9 @@ export default {
       "masked": "Check the ____ of the tablets before taking them.",
       "options": [
         "strength-mcq-10",
-        "strength-mcq-09",
-        "strength-mcq-11",
-        "strength-mcq-08",
-        "strength-mcq-12",
-        "strength-mcq-07"
+        "strength-mcq-23",
+        "strength-mcq-17",
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「strength」指「藥物、化學品、飲品等的濃度或效力程度」。",
       "sentenceIndex": 23,
@@ -1412,12 +1354,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-10": "本句指「藥物、化學品、飲品等的濃度或效力程度」。",
-        "strength-mcq-09": "「電訊／無線訊號的接收或傳輸強弱程度」與本句語境不同。",
-        "strength-mcq-11": "「材料或結構抵抗負荷、拉力、壓力或破壞的能力」與本句語境不同。",
-        "strength-mcq-08": "「某種作用、訊號、風力、反應等達到的強弱程度」與本句語境不同。",
-        "strength-mcq-12": "「材料抵抗被拉伸至斷裂的能力」與本句語境不同。",
-        "strength-mcq-07": "「盡量利用自己最擅長、最有優勢的能力或特點」與本句語境不同。"
+        "strength-mcq-10": "本句的「strength」指「藥物、化學品、飲品等的濃度或效力程度」。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-10"
     },
@@ -1429,11 +1369,9 @@ export default {
       "masked": "The pharmacist recommended a different ____.",
       "options": [
         "strength-mcq-10",
-        "strength-mcq-09",
-        "strength-mcq-11",
-        "strength-mcq-08",
-        "strength-mcq-12",
-        "strength-mcq-07"
+        "strength-mcq-06",
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-25"
       ],
       "explanation": "本句的「strength」指「藥物、化學品、飲品等的濃度或效力程度」。",
       "sentenceIndex": 24,
@@ -1442,12 +1380,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-10": "本句指「藥物、化學品、飲品等的濃度或效力程度」。",
-        "strength-mcq-09": "「電訊／無線訊號的接收或傳輸強弱程度」與本句語境不同。",
-        "strength-mcq-11": "「材料或結構抵抗負荷、拉力、壓力或破壞的能力」與本句語境不同。",
-        "strength-mcq-08": "「某種作用、訊號、風力、反應等達到的強弱程度」與本句語境不同。",
-        "strength-mcq-12": "「材料抵抗被拉伸至斷裂的能力」與本句語境不同。",
-        "strength-mcq-07": "「盡量利用自己最擅長、最有優勢的能力或特點」與本句語境不同。"
+        "strength-mcq-10": "本句的「strength」指「藥物、化學品、飲品等的濃度或效力程度」。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-10"
     },
@@ -1459,11 +1395,9 @@ export default {
       "masked": "The two beers are different in ____.",
       "options": [
         "strength-mcq-10",
-        "strength-mcq-09",
-        "strength-mcq-11",
-        "strength-mcq-08",
-        "strength-mcq-12",
-        "strength-mcq-07"
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-17",
+        "strength-mcq-23"
       ],
       "explanation": "本句的「strength」指「藥物、化學品、飲品等的濃度或效力程度」。",
       "sentenceIndex": 25,
@@ -1472,12 +1406,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-10": "本句指「藥物、化學品、飲品等的濃度或效力程度」。",
-        "strength-mcq-09": "「電訊／無線訊號的接收或傳輸強弱程度」與本句語境不同。",
-        "strength-mcq-11": "「材料或結構抵抗負荷、拉力、壓力或破壞的能力」與本句語境不同。",
-        "strength-mcq-08": "「某種作用、訊號、風力、反應等達到的強弱程度」與本句語境不同。",
-        "strength-mcq-12": "「材料抵抗被拉伸至斷裂的能力」與本句語境不同。",
-        "strength-mcq-07": "「盡量利用自己最擅長、最有優勢的能力或特點」與本句語境不同。"
+        "strength-mcq-10": "本句的「strength」指「藥物、化學品、飲品等的濃度或效力程度」。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-10"
     },
@@ -1489,11 +1421,9 @@ export default {
       "masked": "This spirit is much stronger in ____ than wine.” More natural: > “This spirit has a much higher alcohol strength than wine.",
       "options": [
         "strength-mcq-10",
-        "strength-mcq-09",
-        "strength-mcq-11",
-        "strength-mcq-08",
-        "strength-mcq-12",
-        "strength-mcq-07"
+        "strength-mcq-25",
+        "strength-mcq-23",
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「strength」指「藥物、化學品、飲品等的濃度或效力程度」。",
       "sentenceIndex": 26,
@@ -1502,12 +1432,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-10": "本句指「藥物、化學品、飲品等的濃度或效力程度」。",
-        "strength-mcq-09": "「電訊／無線訊號的接收或傳輸強弱程度」與本句語境不同。",
-        "strength-mcq-11": "「材料或結構抵抗負荷、拉力、壓力或破壞的能力」與本句語境不同。",
-        "strength-mcq-08": "「某種作用、訊號、風力、反應等達到的強弱程度」與本句語境不同。",
-        "strength-mcq-12": "「材料抵抗被拉伸至斷裂的能力」與本句語境不同。",
-        "strength-mcq-07": "「盡量利用自己最擅長、最有優勢的能力或特點」與本句語境不同。"
+        "strength-mcq-10": "本句的「strength」指「藥物、化學品、飲品等的濃度或效力程度」。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-10"
     },
@@ -1519,11 +1447,9 @@ export default {
       "masked": "Engineers tested the ____ of the material.",
       "options": [
         "strength-mcq-11",
-        "strength-mcq-10",
-        "strength-mcq-12",
-        "strength-mcq-09",
+        "strength-mcq-25",
         "strength-mcq-13",
-        "strength-mcq-08"
+        "strength-mcq-23"
       ],
       "explanation": "本句的「strength」指「材料或結構抵抗負荷、拉力、壓力或破壞的能力」。",
       "sentenceIndex": 27,
@@ -1532,12 +1458,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-11": "本句指「材料或結構抵抗負荷、拉力、壓力或破壞的能力」。",
-        "strength-mcq-10": "「藥物、化學品、飲品等的濃度或效力程度」與本句語境不同。",
-        "strength-mcq-12": "「材料抵抗被拉伸至斷裂的能力」與本句語境不同。",
-        "strength-mcq-09": "「電訊／無線訊號的接收或傳輸強弱程度」與本句語境不同。",
-        "strength-mcq-13": "「某個團隊、部隊或組織現有可用人員的數量／規模」與本句語境不同。",
-        "strength-mcq-08": "「某種作用、訊號、風力、反應等達到的強弱程度」與本句語境不同。"
+        "strength-mcq-11": "本句的「strength」指「材料或結構抵抗負荷、拉力、壓力或破壞的能力」。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-11"
     },
@@ -1549,11 +1473,9 @@ export default {
       "masked": "The structure needs greater ____ to support the load.",
       "options": [
         "strength-mcq-11",
-        "strength-mcq-10",
-        "strength-mcq-12",
+        "strength-mcq-25",
         "strength-mcq-09",
-        "strength-mcq-13",
-        "strength-mcq-08"
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「strength」指「材料或結構抵抗負荷、拉力、壓力或破壞的能力」。",
       "sentenceIndex": 28,
@@ -1562,12 +1484,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-11": "本句指「材料或結構抵抗負荷、拉力、壓力或破壞的能力」。",
-        "strength-mcq-10": "「藥物、化學品、飲品等的濃度或效力程度」與本句語境不同。",
-        "strength-mcq-12": "「材料抵抗被拉伸至斷裂的能力」與本句語境不同。",
-        "strength-mcq-09": "「電訊／無線訊號的接收或傳輸強弱程度」與本句語境不同。",
-        "strength-mcq-13": "「某個團隊、部隊或組織現有可用人員的數量／規模」與本句語境不同。",
-        "strength-mcq-08": "「某種作用、訊號、風力、反應等達到的強弱程度」與本句語境不同。"
+        "strength-mcq-11": "本句的「strength」指「材料或結構抵抗負荷、拉力、壓力或破壞的能力」。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-11"
     },
@@ -1579,11 +1499,9 @@ export default {
       "masked": "Steel has high ____.",
       "options": [
         "strength-mcq-12",
-        "strength-mcq-11",
-        "strength-mcq-13",
-        "strength-mcq-10",
-        "strength-mcq-14",
-        "strength-mcq-09"
+        "strength-mcq-25",
+        "strength-pdf-001",
+        "strength-mcq-23"
       ],
       "explanation": "本句的「tensile strength」指「材料抵抗被拉伸至斷裂的能力」。",
       "sentenceIndex": 29,
@@ -1592,12 +1510,10 @@ export default {
         "tensile strength"
       ],
       "optionReasons": {
-        "strength-mcq-12": "本句指「材料抵抗被拉伸至斷裂的能力」。",
-        "strength-mcq-11": "「材料或結構抵抗負荷、拉力、壓力或破壞的能力」與本句語境不同。",
-        "strength-mcq-13": "「某個團隊、部隊或組織現有可用人員的數量／規模」與本句語境不同。",
-        "strength-mcq-10": "「藥物、化學品、飲品等的濃度或效力程度」與本句語境不同。",
-        "strength-mcq-14": "「所有人員、能力或資源都完整可用的狀態」與本句語境不同。",
-        "strength-mcq-09": "「電訊／無線訊號的接收或傳輸強弱程度」與本句語境不同。"
+        "strength-mcq-12": "本句的「tensile strength」指「材料抵抗被拉伸至斷裂的能力」。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-12"
     },
@@ -1609,11 +1525,9 @@ export default {
       "masked": "The engineers measured the material’s tensile ____.",
       "options": [
         "strength-mcq-12",
-        "strength-mcq-11",
-        "strength-mcq-13",
-        "strength-mcq-10",
-        "strength-mcq-14",
-        "strength-mcq-09"
+        "strength-mcq-09",
+        "strength-mcq-06",
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「strength」指「材料抵抗被拉伸至斷裂的能力」。",
       "sentenceIndex": 30,
@@ -1622,74 +1536,68 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-12": "本句指「材料抵抗被拉伸至斷裂的能力」。",
-        "strength-mcq-11": "「材料或結構抵抗負荷、拉力、壓力或破壞的能力」與本句語境不同。",
-        "strength-mcq-13": "「某個團隊、部隊或組織現有可用人員的數量／規模」與本句語境不同。",
-        "strength-mcq-10": "「藥物、化學品、飲品等的濃度或效力程度」與本句語境不同。",
-        "strength-mcq-14": "「所有人員、能力或資源都完整可用的狀態」與本句語境不同。",
-        "strength-mcq-09": "「電訊／無線訊號的接收或傳輸強弱程度」與本句語境不同。"
+        "strength-mcq-12": "本句的「strength」指「材料抵抗被拉伸至斷裂的能力」。",
+        "strength-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-12"
     },
     {
       "id": "strength-16-0",
-      "sense": "strength-mcq-12",
+      "sense": "strength-reviewed-ffd5fd491a",
       "en": "The bridge was checked for structural strength.",
       "zh": "大橋接受了結構強度檢查。",
       "masked": "The bridge was checked for ____.",
       "options": [
-        "strength-mcq-12",
-        "strength-mcq-11",
-        "strength-mcq-13",
-        "strength-mcq-10",
-        "strength-mcq-14",
-        "strength-mcq-09"
+        "strength-reviewed-ffd5fd491a",
+        "strength-mcq-06",
+        "strength-mcq-25",
+        "strength-mcq-23"
       ],
-      "explanation": "本句的「structural strength」指「材料抵抗被拉伸至斷裂的能力」。",
+      "explanation": "對照完整句子：「大橋接受了結構強度檢查。」。這裡的「structural strength」表示「結構強度」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "structural strength"
       ],
       "optionReasons": {
-        "strength-mcq-12": "本句指「材料抵抗被拉伸至斷裂的能力」。",
-        "strength-mcq-11": "「材料或結構抵抗負荷、拉力、壓力或破壞的能力」與本句語境不同。",
-        "strength-mcq-13": "「某個團隊、部隊或組織現有可用人員的數量／規模」與本句語境不同。",
-        "strength-mcq-10": "「藥物、化學品、飲品等的濃度或效力程度」與本句語境不同。",
-        "strength-mcq-14": "「所有人員、能力或資源都完整可用的狀態」與本句語境不同。",
-        "strength-mcq-09": "「電訊／無線訊號的接收或傳輸強弱程度」與本句語境不同。"
+        "strength-reviewed-ffd5fd491a": "對照完整句子：「大橋接受了結構強度檢查。」。這裡的「structural strength」表示「結構強度」。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "strength-mcq-12"
+      "correctOption": "strength-reviewed-ffd5fd491a",
+      "previousCorrectOption": "strength-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "strength-16-1",
-      "sense": "strength-mcq-12",
+      "sense": "strength-reviewed-ffd5fd491a",
       "en": "The redesign improved the structural strength of the frame.",
       "zh": "重新設計提升了框架的結構強度。",
       "masked": "The redesign improved the structural ____ of the frame.",
       "options": [
-        "strength-mcq-12",
-        "strength-mcq-11",
-        "strength-mcq-13",
-        "strength-mcq-10",
-        "strength-mcq-14",
-        "strength-mcq-09"
+        "strength-reviewed-ffd5fd491a",
+        "strength-mcq-23",
+        "strength-mcq-25",
+        "strength-mcq-06"
       ],
-      "explanation": "本句的「strength」指「材料抵抗被拉伸至斷裂的能力」。",
+      "explanation": "對照完整句子：「重新設計提升了框架的結構強度。」。這裡的「strength」表示「結構強度」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-12": "本句指「材料抵抗被拉伸至斷裂的能力」。",
-        "strength-mcq-11": "「材料或結構抵抗負荷、拉力、壓力或破壞的能力」與本句語境不同。",
-        "strength-mcq-13": "「某個團隊、部隊或組織現有可用人員的數量／規模」與本句語境不同。",
-        "strength-mcq-10": "「藥物、化學品、飲品等的濃度或效力程度」與本句語境不同。",
-        "strength-mcq-14": "「所有人員、能力或資源都完整可用的狀態」與本句語境不同。",
-        "strength-mcq-09": "「電訊／無線訊號的接收或傳輸強弱程度」與本句語境不同。"
+        "strength-reviewed-ffd5fd491a": "對照完整句子：「重新設計提升了框架的結構強度。」。這裡的「strength」表示「結構強度」。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "strength-mcq-12"
+      "correctOption": "strength-reviewed-ffd5fd491a",
+      "previousCorrectOption": "strength-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "strength-17-0",
@@ -1699,11 +1607,9 @@ export default {
       "masked": "The unit is below full ____.",
       "options": [
         "strength-mcq-13",
-        "strength-mcq-12",
-        "strength-mcq-14",
-        "strength-mcq-11",
-        "strength-mcq-15",
-        "strength-mcq-10"
+        "strength-reviewed-ffd5fd491a",
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-23"
       ],
       "explanation": "本句的「strength」指「某個團隊、部隊或組織現有可用人員的數量／規模」。",
       "sentenceIndex": 33,
@@ -1712,12 +1618,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-13": "本句指「某個團隊、部隊或組織現有可用人員的數量／規模」。",
-        "strength-mcq-12": "「材料抵抗被拉伸至斷裂的能力」與本句語境不同。",
-        "strength-mcq-14": "「所有人員、能力或資源都完整可用的狀態」與本句語境不同。",
-        "strength-mcq-11": "「材料或結構抵抗負荷、拉力、壓力或破壞的能力」與本句語境不同。",
-        "strength-mcq-15": "「一個國家的兵力、裝備、資源及整體作戰能力」與本句語境不同。",
-        "strength-mcq-10": "「藥物、化學品、飲品等的濃度或效力程度」與本句語境不同。"
+        "strength-mcq-13": "本句的「strength」指「某個團隊、部隊或組織現有可用人員的數量／規模」。",
+        "strength-reviewed-ffd5fd491a": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-13"
     },
@@ -1729,11 +1633,9 @@ export default {
       "masked": "The squad returned to full ____ after several injured players recovered.",
       "options": [
         "strength-mcq-13",
-        "strength-mcq-12",
-        "strength-mcq-14",
         "strength-mcq-11",
-        "strength-mcq-15",
-        "strength-mcq-10"
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-23"
       ],
       "explanation": "本句的「strength」指「某個團隊、部隊或組織現有可用人員的數量／規模」。",
       "sentenceIndex": 34,
@@ -1742,12 +1644,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-13": "本句指「某個團隊、部隊或組織現有可用人員的數量／規模」。",
-        "strength-mcq-12": "「材料抵抗被拉伸至斷裂的能力」與本句語境不同。",
-        "strength-mcq-14": "「所有人員、能力或資源都完整可用的狀態」與本句語境不同。",
-        "strength-mcq-11": "「材料或結構抵抗負荷、拉力、壓力或破壞的能力」與本句語境不同。",
-        "strength-mcq-15": "「一個國家的兵力、裝備、資源及整體作戰能力」與本句語境不同。",
-        "strength-mcq-10": "「藥物、化學品、飲品等的濃度或效力程度」與本句語境不同。"
+        "strength-mcq-13": "本句的「strength」指「某個團隊、部隊或組織現有可用人員的數量／規模」。",
+        "strength-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-13"
     },
@@ -1759,11 +1659,9 @@ export default {
       "masked": "The team should be back ____ next week.",
       "options": [
         "strength-mcq-14",
-        "strength-mcq-13",
-        "strength-mcq-15",
-        "strength-mcq-12",
-        "strength-mcq-16",
-        "strength-mcq-11"
+        "strength-reviewed-b74485cfbd",
+        "strength-pdf-001",
+        "strength-mcq-23"
       ],
       "explanation": "本句的「at full strength」指「所有人員、能力或資源都完整可用的狀態」。",
       "sentenceIndex": 35,
@@ -1772,12 +1670,10 @@ export default {
         "at full strength"
       ],
       "optionReasons": {
-        "strength-mcq-14": "本句指「所有人員、能力或資源都完整可用的狀態」。",
-        "strength-mcq-13": "「某個團隊、部隊或組織現有可用人員的數量／規模」與本句語境不同。",
-        "strength-mcq-15": "「一個國家的兵力、裝備、資源及整體作戰能力」與本句語境不同。",
-        "strength-mcq-12": "「材料抵抗被拉伸至斷裂的能力」與本句語境不同。",
-        "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。",
-        "strength-mcq-11": "「材料或結構抵抗負荷、拉力、壓力或破壞的能力」與本句語境不同。"
+        "strength-mcq-14": "本句的「at full strength」指「所有人員、能力或資源都完整可用的狀態」。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-14"
     },
@@ -1789,11 +1685,9 @@ export default {
       "masked": "The department is not yet operating at full ____.",
       "options": [
         "strength-mcq-14",
-        "strength-mcq-13",
-        "strength-mcq-15",
-        "strength-mcq-12",
-        "strength-mcq-16",
-        "strength-mcq-11"
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-17",
+        "strength-mcq-23"
       ],
       "explanation": "本句的「strength」指「所有人員、能力或資源都完整可用的狀態」。",
       "sentenceIndex": 36,
@@ -1802,12 +1696,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-14": "本句指「所有人員、能力或資源都完整可用的狀態」。",
-        "strength-mcq-13": "「某個團隊、部隊或組織現有可用人員的數量／規模」與本句語境不同。",
-        "strength-mcq-15": "「一個國家的兵力、裝備、資源及整體作戰能力」與本句語境不同。",
-        "strength-mcq-12": "「材料抵抗被拉伸至斷裂的能力」與本句語境不同。",
-        "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。",
-        "strength-mcq-11": "「材料或結構抵抗負荷、拉力、壓力或破壞的能力」與本句語境不同。"
+        "strength-mcq-14": "本句的「strength」指「所有人員、能力或資源都完整可用的狀態」。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-14"
     },
@@ -1819,11 +1711,9 @@ export default {
       "masked": "The country increased its military ____.",
       "options": [
         "strength-mcq-15",
-        "strength-mcq-14",
-        "strength-mcq-16",
-        "strength-mcq-13",
-        "strength-mcq-17",
-        "strength-mcq-12"
+        "strength-mcq-06",
+        "strength-mcq-23",
+        "strength-pdf-001"
       ],
       "explanation": "本句的「strength」指「一個國家的兵力、裝備、資源及整體作戰能力」。",
       "sentenceIndex": 37,
@@ -1832,12 +1722,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-15": "本句指「一個國家的兵力、裝備、資源及整體作戰能力」。",
-        "strength-mcq-14": "「所有人員、能力或資源都完整可用的狀態」與本句語境不同。",
-        "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。",
-        "strength-mcq-13": "「某個團隊、部隊或組織現有可用人員的數量／規模」與本句語境不同。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。",
-        "strength-mcq-12": "「材料抵抗被拉伸至斷裂的能力」與本句語境不同。"
+        "strength-mcq-15": "本句的「strength」指「一個國家的兵力、裝備、資源及整體作戰能力」。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-15"
     },
@@ -1849,11 +1737,9 @@ export default {
       "masked": "The report compares the military ____ of several states.",
       "options": [
         "strength-mcq-15",
-        "strength-mcq-14",
-        "strength-mcq-16",
         "strength-mcq-13",
-        "strength-mcq-17",
-        "strength-mcq-12"
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-25"
       ],
       "explanation": "本句的「strength」指「一個國家的兵力、裝備、資源及整體作戰能力」。",
       "sentenceIndex": 38,
@@ -1862,12 +1748,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-15": "本句指「一個國家的兵力、裝備、資源及整體作戰能力」。",
-        "strength-mcq-14": "「所有人員、能力或資源都完整可用的狀態」與本句語境不同。",
-        "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。",
-        "strength-mcq-13": "「某個團隊、部隊或組織現有可用人員的數量／規模」與本句語境不同。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。",
-        "strength-mcq-12": "「材料抵抗被拉伸至斷裂的能力」與本句語境不同。"
+        "strength-mcq-15": "本句的「strength」指「一個國家的兵力、裝備、資源及整體作戰能力」。",
+        "strength-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-15"
     },
@@ -1879,11 +1763,9 @@ export default {
       "masked": "The ____ of the economy surprised analysts.",
       "options": [
         "strength-mcq-16",
-        "strength-mcq-15",
-        "strength-mcq-17",
-        "strength-mcq-14",
-        "strength-mcq-18",
-        "strength-mcq-13"
+        "strength-pdf-001",
+        "strength-mcq-23",
+        "strength-mcq-06"
       ],
       "explanation": "本句的「strength」指「經濟或市場表現穩健、強勁並具上升能力的狀態」。",
       "sentenceIndex": 41,
@@ -1892,12 +1774,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-16": "本句指「經濟或市場表現穩健、強勁並具上升能力的狀態」。",
-        "strength-mcq-15": "「一個國家的兵力、裝備、資源及整體作戰能力」與本句語境不同。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。",
-        "strength-mcq-14": "「所有人員、能力或資源都完整可用的狀態」與本句語境不同。",
-        "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
-        "strength-mcq-13": "「某個團隊、部隊或組織現有可用人員的數量／規模」與本句語境不同。"
+        "strength-mcq-16": "本句的「strength」指「經濟或市場表現穩健、強勁並具上升能力的狀態」。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-16"
     },
@@ -1909,11 +1789,9 @@ export default {
       "masked": "The market showed renewed ____.",
       "options": [
         "strength-mcq-16",
-        "strength-mcq-15",
-        "strength-mcq-17",
-        "strength-mcq-14",
-        "strength-mcq-18",
-        "strength-mcq-13"
+        "strength-pdf-001",
+        "strength-mcq-23",
+        "strength-mcq-06"
       ],
       "explanation": "本句的「strength」指「經濟或市場表現穩健、強勁並具上升能力的狀態」。",
       "sentenceIndex": 42,
@@ -1922,12 +1800,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-16": "本句指「經濟或市場表現穩健、強勁並具上升能力的狀態」。",
-        "strength-mcq-15": "「一個國家的兵力、裝備、資源及整體作戰能力」與本句語境不同。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。",
-        "strength-mcq-14": "「所有人員、能力或資源都完整可用的狀態」與本句語境不同。",
-        "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
-        "strength-mcq-13": "「某個團隊、部隊或組織現有可用人員的數量／規模」與本句語境不同。"
+        "strength-mcq-16": "本句的「strength」指「經濟或市場表現穩健、強勁並具上升能力的狀態」。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-16"
     },
@@ -1939,11 +1815,9 @@ export default {
       "masked": "Currency ____ can affect exports.",
       "options": [
         "strength-mcq-17",
-        "strength-mcq-16",
-        "strength-mcq-18",
         "strength-mcq-15",
-        "strength-mcq-19",
-        "strength-mcq-14"
+        "strength-mcq-23",
+        "strength-pdf-001"
       ],
       "explanation": "本句的「strength」指「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」。",
       "sentenceIndex": 43,
@@ -1952,12 +1826,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-17": "本句指「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」。",
-        "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。",
-        "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
-        "strength-mcq-15": "「一個國家的兵力、裝備、資源及整體作戰能力」與本句語境不同。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。",
-        "strength-mcq-14": "「所有人員、能力或資源都完整可用的狀態」與本句語境不同。"
+        "strength-mcq-17": "本句的「strength」指「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」。",
+        "strength-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-17"
     },
@@ -1969,11 +1841,9 @@ export default {
       "masked": "The dollar’s ____ made imported goods cheaper.",
       "options": [
         "strength-mcq-17",
-        "strength-mcq-16",
-        "strength-mcq-18",
         "strength-mcq-15",
-        "strength-mcq-19",
-        "strength-mcq-14"
+        "strength-mcq-23",
+        "strength-pdf-001"
       ],
       "explanation": "本句的「strength」指「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」。",
       "sentenceIndex": 44,
@@ -1982,74 +1852,68 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-17": "本句指「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」。",
-        "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。",
-        "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
-        "strength-mcq-15": "「一個國家的兵力、裝備、資源及整體作戰能力」與本句語境不同。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。",
-        "strength-mcq-14": "「所有人員、能力或資源都完整可用的狀態」與本句語境不同。"
+        "strength-mcq-17": "本句的「strength」指「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」。",
+        "strength-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-17"
     },
     {
       "id": "strength-23-0",
-      "sense": "strength-mcq-17",
+      "sense": "strength-reviewed-b74485cfbd",
       "en": "Technology shares contributed to overall market strength.",
       "zh": "科技股推動了整體市場的強勢表現。",
       "masked": "Technology shares contributed to overall market ____.",
       "options": [
-        "strength-mcq-17",
-        "strength-mcq-16",
-        "strength-mcq-18",
-        "strength-mcq-15",
-        "strength-mcq-19",
-        "strength-mcq-14"
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-01",
+        "strength-mcq-23",
+        "strength-mcq-25"
       ],
-      "explanation": "本句的「strength」指「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」。",
+      "explanation": "對照完整句子：「科技股推動了整體市場的強勢表現。」。這裡的「strength」表示「市場強勢」。",
       "sentenceIndex": 45,
       "sourcePractice": 46,
       "targets": [
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-17": "本句指「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」。",
-        "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。",
-        "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
-        "strength-mcq-15": "「一個國家的兵力、裝備、資源及整體作戰能力」與本句語境不同。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。",
-        "strength-mcq-14": "「所有人員、能力或資源都完整可用的狀態」與本句語境不同。"
+        "strength-reviewed-b74485cfbd": "對照完整句子：「科技股推動了整體市場的強勢表現。」。這裡的「strength」表示「市場強勢」。",
+        "strength-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "strength-mcq-17"
+      "correctOption": "strength-reviewed-b74485cfbd",
+      "previousCorrectOption": "strength-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "strength-23-1",
-      "sense": "strength-mcq-17",
+      "sense": "strength-reviewed-b74485cfbd",
       "en": "The rally showed broad market strength.",
       "zh": "這輪升勢顯示市場有廣泛的強勁動力。",
       "masked": "The rally showed broad market ____.",
       "options": [
-        "strength-mcq-17",
-        "strength-mcq-16",
-        "strength-mcq-18",
-        "strength-mcq-15",
-        "strength-mcq-19",
-        "strength-mcq-14"
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-10",
+        "strength-mcq-25",
+        "strength-mcq-23"
       ],
-      "explanation": "本句的「strength」指「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」。",
+      "explanation": "對照完整句子：「這輪升勢顯示市場有廣泛的強勁動力。」。這裡的「strength」表示「市場強勢」。",
       "sentenceIndex": 46,
       "sourcePractice": 47,
       "targets": [
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-17": "本句指「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」。",
-        "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。",
-        "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
-        "strength-mcq-15": "「一個國家的兵力、裝備、資源及整體作戰能力」與本句語境不同。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。",
-        "strength-mcq-14": "「所有人員、能力或資源都完整可用的狀態」與本句語境不同。"
+        "strength-reviewed-b74485cfbd": "對照完整句子：「這輪升勢顯示市場有廣泛的強勁動力。」。這裡的「strength」表示「市場強勢」。",
+        "strength-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "strength-mcq-17"
+      "correctOption": "strength-reviewed-b74485cfbd",
+      "previousCorrectOption": "strength-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "strength-24-0",
@@ -2059,11 +1923,9 @@ export default {
       "masked": "The ____ of the argument depends on the evidence.",
       "options": [
         "strength-mcq-18",
-        "strength-mcq-17",
-        "strength-mcq-19",
-        "strength-mcq-16",
-        "strength-mcq-20",
-        "strength-mcq-15"
+        "strength-mcq-06",
+        "strength-mcq-02",
+        "strength-mcq-23"
       ],
       "explanation": "本句的「strength」指「論點或證據在說服力和支持程度上的強弱」。",
       "sentenceIndex": 47,
@@ -2072,12 +1934,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-18": "本句指「論點或證據在說服力和支持程度上的強弱」。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。",
-        "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。",
-        "strength-mcq-15": "「一個國家的兵力、裝備、資源及整體作戰能力」與本句語境不同。"
+        "strength-mcq-18": "本句的「strength」指「論點或證據在說服力和支持程度上的強弱」。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-18"
     },
@@ -2089,11 +1949,9 @@ export default {
       "masked": "The case gained ____ after new evidence emerged.",
       "options": [
         "strength-mcq-18",
-        "strength-mcq-17",
-        "strength-mcq-19",
-        "strength-mcq-16",
-        "strength-mcq-20",
-        "strength-mcq-15"
+        "strength-mcq-06",
+        "strength-reviewed-4e5b96e01a",
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「strength」指「論點或證據在說服力和支持程度上的強弱」。",
       "sentenceIndex": 48,
@@ -2102,12 +1960,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-18": "本句指「論點或證據在說服力和支持程度上的強弱」。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。",
-        "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。",
-        "strength-mcq-15": "「一個國家的兵力、裝備、資源及整體作戰能力」與本句語境不同。"
+        "strength-mcq-18": "本句的「strength」指「論點或證據在說服力和支持程度上的強弱」。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-4e5b96e01a": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-18"
     },
@@ -2119,10 +1975,8 @@ export default {
       "masked": "The conclusion depends on the ____.",
       "options": [
         "strength-mcq-18",
-        "strength-mcq-17",
-        "strength-mcq-19",
-        "strength-mcq-16",
-        "strength-mcq-20",
+        "strength-mcq-06",
+        "strength-mcq-23",
         "strength-mcq-15"
       ],
       "explanation": "本句的「strength of the evidence」指「論點或證據在說服力和支持程度上的強弱」。",
@@ -2132,12 +1986,10 @@ export default {
         "strength of the evidence"
       ],
       "optionReasons": {
-        "strength-mcq-18": "本句指「論點或證據在說服力和支持程度上的強弱」。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。",
-        "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。",
-        "strength-mcq-15": "「一個國家的兵力、裝備、資源及整體作戰能力」與本句語境不同。"
+        "strength-mcq-18": "本句的「strength of the evidence」指「論點或證據在說服力和支持程度上的強弱」。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-18"
     },
@@ -2149,11 +2001,9 @@ export default {
       "masked": "Researchers assessed the ____ of the available evidence.",
       "options": [
         "strength-mcq-18",
-        "strength-mcq-17",
-        "strength-mcq-19",
-        "strength-mcq-16",
-        "strength-mcq-20",
-        "strength-mcq-15"
+        "strength-mcq-06",
+        "strength-mcq-01",
+        "strength-mcq-23"
       ],
       "explanation": "本句的「strength」指「論點或證據在說服力和支持程度上的強弱」。",
       "sentenceIndex": 50,
@@ -2162,12 +2012,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-18": "本句指「論點或證據在說服力和支持程度上的強弱」。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。",
-        "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。",
-        "strength-mcq-15": "「一個國家的兵力、裝備、資源及整體作戰能力」與本句語境不同。"
+        "strength-mcq-18": "本句的「strength」指「論點或證據在說服力和支持程度上的強弱」。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-18"
     },
@@ -2179,11 +2027,9 @@ export default {
       "masked": "I was surprised by the ____ of her reaction.",
       "options": [
         "strength-mcq-19",
-        "strength-mcq-18",
-        "strength-mcq-20",
-        "strength-mcq-17",
-        "strength-mcq-21",
-        "strength-mcq-16"
+        "strength-mcq-25",
+        "strength-mcq-06",
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「strength」指「感情、反應、支持或反對的強烈程度」。",
       "sentenceIndex": 51,
@@ -2192,12 +2038,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-19": "本句指「感情、反應、支持或反對的強烈程度」。",
-        "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。"
+        "strength-mcq-19": "本句的「strength」指「感情、反應、支持或反對的強烈程度」。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-19"
     },
@@ -2209,11 +2053,9 @@ export default {
       "masked": "The ____ of public feeling increased.",
       "options": [
         "strength-mcq-19",
-        "strength-mcq-18",
-        "strength-mcq-20",
-        "strength-mcq-17",
-        "strength-mcq-21",
-        "strength-mcq-16"
+        "strength-mcq-06",
+        "strength-mcq-25",
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「strength」指「感情、反應、支持或反對的強烈程度」。",
       "sentenceIndex": 52,
@@ -2222,12 +2064,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-19": "本句指「感情、反應、支持或反對的強烈程度」。",
-        "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。"
+        "strength-mcq-19": "本句的「strength」指「感情、反應、支持或反對的強烈程度」。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-19"
     },
@@ -2239,11 +2079,9 @@ export default {
       "masked": "I like coffee of medium ____.",
       "options": [
         "strength-pdf-001",
-        "strength-mcq-18",
-        "strength-mcq-20",
-        "strength-mcq-17",
-        "strength-mcq-21",
-        "strength-mcq-16"
+        "strength-mcq-11",
+        "strength-mcq-25",
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「strength」指「味道、氣味或飲品濃烈到甚麼程度」。",
       "sentenceIndex": 53,
@@ -2252,12 +2090,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-pdf-001": "本句指「味道、氣味或飲品濃烈到甚麼程度」。",
-        "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。"
+        "strength-pdf-001": "本句的「strength」指「味道、氣味或飲品濃烈到甚麼程度」。",
+        "strength-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-pdf-001"
     },
@@ -2269,11 +2105,9 @@ export default {
       "masked": "The ____ of the perfume was overwhelming.",
       "options": [
         "strength-pdf-001",
-        "strength-mcq-18",
-        "strength-mcq-20",
-        "strength-mcq-17",
-        "strength-mcq-21",
-        "strength-mcq-16"
+        "strength-mcq-02",
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-23"
       ],
       "explanation": "本句的「strength」指「味道、氣味或飲品濃烈到甚麼程度」。",
       "sentenceIndex": 54,
@@ -2282,12 +2116,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-pdf-001": "本句指「味道、氣味或飲品濃烈到甚麼程度」。",
-        "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-16": "「經濟或市場表現穩健、強勁並具上升能力的狀態」與本句語境不同。"
+        "strength-pdf-001": "本句的「strength」指「味道、氣味或飲品濃烈到甚麼程度」。",
+        "strength-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-pdf-001"
     },
@@ -2299,11 +2131,9 @@ export default {
       "masked": "She is physically ____.",
       "options": [
         "strength-mcq-20",
-        "strength-mcq-19",
-        "strength-mcq-21",
-        "strength-mcq-18",
-        "strength-mcq-22",
-        "strength-mcq-17"
+        "strength-mcq-23",
+        "strength-pdf-001",
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「strong」指「具有較高力量、強度、效力、表現或說服力的」。",
       "sentenceIndex": 55,
@@ -2312,12 +2142,10 @@ export default {
         "strong"
       ],
       "optionReasons": {
-        "strength-mcq-20": "本句指「具有較高力量、強度、效力、表現或說服力的」。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
-        "strength-mcq-22": "「使力量、能力、穩定性、效果或關係變得更強」與本句語境不同。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。"
+        "strength-mcq-20": "本句的「strong」指「具有較高力量、強度、效力、表現或說服力的」。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-20"
     },
@@ -2329,11 +2157,9 @@ export default {
       "masked": "She remained ____ during a difficult season.",
       "options": [
         "strength-mcq-20",
-        "strength-mcq-19",
-        "strength-mcq-21",
-        "strength-mcq-18",
-        "strength-mcq-22",
-        "strength-mcq-17"
+        "strength-mcq-23",
+        "strength-pdf-001",
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「strong」指「具有較高力量、強度、效力、表現或說服力的」。",
       "sentenceIndex": 56,
@@ -2342,12 +2168,10 @@ export default {
         "strong"
       ],
       "optionReasons": {
-        "strength-mcq-20": "本句指「具有較高力量、強度、效力、表現或說服力的」。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
-        "strength-mcq-22": "「使力量、能力、穩定性、效果或關係變得更強」與本句語境不同。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。"
+        "strength-mcq-20": "本句的「strong」指「具有較高力量、強度、效力、表現或說服力的」。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-20"
     },
@@ -2359,11 +2183,9 @@ export default {
       "masked": "She is a ____ candidate for the position.",
       "options": [
         "strength-pdf-002",
-        "strength-mcq-19",
-        "strength-mcq-21",
-        "strength-mcq-18",
-        "strength-mcq-22",
-        "strength-mcq-17"
+        "strength-mcq-06",
+        "strength-mcq-23",
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「strong」指「在能力、表現、競爭力或效果方面明顯高於一般水平的」。",
       "sentenceIndex": 57,
@@ -2372,12 +2194,10 @@ export default {
         "strong"
       ],
       "optionReasons": {
-        "strength-pdf-002": "本句指「在能力、表現、競爭力或效果方面明顯高於一般水平的」。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
-        "strength-mcq-22": "「使力量、能力、穩定性、效果或關係變得更強」與本句語境不同。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。"
+        "strength-pdf-002": "本句的「strong」指「在能力、表現、競爭力或效果方面明顯高於一般水平的」。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-pdf-002"
     },
@@ -2389,11 +2209,9 @@ export default {
       "masked": "There was a ____ smell of coffee.",
       "options": [
         "strength-mcq-20",
-        "strength-mcq-19",
-        "strength-mcq-21",
-        "strength-mcq-18",
-        "strength-mcq-22",
-        "strength-mcq-17"
+        "strength-mcq-23",
+        "strength-reviewed-b74485cfbd",
+        "strength-pdf-001"
       ],
       "explanation": "本句的「strong」指「具有較高力量、強度、效力、表現或說服力的」。",
       "sentenceIndex": 58,
@@ -2402,12 +2220,10 @@ export default {
         "strong"
       ],
       "optionReasons": {
-        "strength-mcq-20": "本句指「具有較高力量、強度、效力、表現或說服力的」。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
-        "strength-mcq-22": "「使力量、能力、穩定性、效果或關係變得更強」與本句語境不同。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。"
+        "strength-mcq-20": "本句的「strong」指「具有較高力量、強度、效力、表現或說服力的」。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-20"
     },
@@ -2419,11 +2235,9 @@ export default {
       "masked": "They presented a ____ argument.",
       "options": [
         "strength-mcq-20",
-        "strength-mcq-19",
-        "strength-mcq-21",
-        "strength-mcq-18",
-        "strength-mcq-22",
-        "strength-mcq-17"
+        "strength-mcq-23",
+        "strength-pdf-001",
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「strong」指「具有較高力量、強度、效力、表現或說服力的」。",
       "sentenceIndex": 59,
@@ -2432,12 +2246,10 @@ export default {
         "strong"
       ],
       "optionReasons": {
-        "strength-mcq-20": "本句指「具有較高力量、強度、效力、表現或說服力的」。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
-        "strength-mcq-22": "「使力量、能力、穩定性、效果或關係變得更強」與本句語境不同。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。"
+        "strength-mcq-20": "本句的「strong」指「具有較高力量、強度、效力、表現或說服力的」。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-20"
     },
@@ -2449,11 +2261,9 @@ export default {
       "masked": "This coffee is too ____ for me.",
       "options": [
         "strength-mcq-20",
-        "strength-mcq-19",
-        "strength-mcq-21",
-        "strength-mcq-18",
-        "strength-mcq-22",
-        "strength-mcq-17"
+        "strength-mcq-23",
+        "strength-reviewed-b74485cfbd",
+        "strength-pdf-001"
       ],
       "explanation": "本句的「strong」指「具有較高力量、強度、效力、表現或說服力的」。",
       "sentenceIndex": 60,
@@ -2462,12 +2272,10 @@ export default {
         "strong"
       ],
       "optionReasons": {
-        "strength-mcq-20": "本句指「具有較高力量、強度、效力、表現或說服力的」。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。",
-        "strength-mcq-22": "「使力量、能力、穩定性、效果或關係變得更強」與本句語境不同。",
-        "strength-mcq-17": "「一種貨幣相對其他貨幣具有較高價值或較強匯率表現」與本句語境不同。"
+        "strength-mcq-20": "本句的「strong」指「具有較高力量、強度、效力、表現或說服力的」。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-20"
     },
@@ -2479,11 +2287,9 @@ export default {
       "masked": "I ____ support the proposal.",
       "options": [
         "strength-mcq-21",
-        "strength-mcq-20",
-        "strength-mcq-22",
-        "strength-mcq-19",
-        "strength-mcq-23",
-        "strength-mcq-18"
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-25",
+        "strength-mcq-06"
       ],
       "explanation": "本句的「strongly」指「以很高程度、力度或確信程度」。",
       "sentenceIndex": 61,
@@ -2492,12 +2298,10 @@ export default {
         "strongly"
       ],
       "optionReasons": {
-        "strength-mcq-21": "本句指「以很高程度、力度或確信程度」。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。",
-        "strength-mcq-22": "「使力量、能力、穩定性、效果或關係變得更強」與本句語境不同。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。",
-        "strength-mcq-23": "「持續改善、壯大或取得更大成功」與本句語境不同。",
-        "strength-mcq-18": "「論點或證據在說服力和支持程度上的強弱」與本句語境不同。"
+        "strength-mcq-21": "本句的「strongly」指「以很高程度、力度或確信程度」。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-21"
     },
@@ -2509,11 +2313,9 @@ export default {
       "masked": "The programme aims to ____ athletes’ core muscles.",
       "options": [
         "strength-mcq-22",
-        "strength-mcq-21",
+        "strength-mcq-06",
         "strength-mcq-23",
-        "strength-mcq-20",
-        "strength-mcq-24",
-        "strength-mcq-19"
+        "strength-pdf-001"
       ],
       "explanation": "本句的「strengthen」指「使力量、能力、穩定性、效果或關係變得更強」。",
       "sentenceIndex": 62,
@@ -2522,12 +2324,10 @@ export default {
         "strengthen"
       ],
       "optionReasons": {
-        "strength-mcq-22": "本句指「使力量、能力、穩定性、效果或關係變得更強」。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-23": "「持續改善、壯大或取得更大成功」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。",
-        "strength-mcq-24": "「主力和後備整體都具備足夠實力；人才厚度高」與本句語境不同。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。"
+        "strength-mcq-22": "本句的「strengthen」指「使力量、能力、穩定性、效果或關係變得更強」。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-22"
     },
@@ -2539,11 +2339,9 @@ export default {
       "masked": "The experience ____ her confidence.",
       "options": [
         "strength-mcq-22",
-        "strength-mcq-21",
         "strength-mcq-23",
-        "strength-mcq-20",
-        "strength-mcq-24",
-        "strength-mcq-19"
+        "strength-mcq-06",
+        "strength-pdf-001"
       ],
       "explanation": "本句的「strengthened」指「使力量、能力、穩定性、效果或關係變得更強」。",
       "sentenceIndex": 63,
@@ -2552,12 +2350,10 @@ export default {
         "strengthened"
       ],
       "optionReasons": {
-        "strength-mcq-22": "本句指「使力量、能力、穩定性、效果或關係變得更強」。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-23": "「持續改善、壯大或取得更大成功」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。",
-        "strength-mcq-24": "「主力和後備整體都具備足夠實力；人才厚度高」與本句語境不同。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。"
+        "strength-mcq-22": "本句的「strengthened」指「使力量、能力、穩定性、效果或關係變得更強」。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-22"
     },
@@ -2569,11 +2365,9 @@ export default {
       "masked": "The new evidence ____ the argument.",
       "options": [
         "strength-mcq-22",
-        "strength-mcq-21",
-        "strength-mcq-23",
-        "strength-mcq-20",
-        "strength-mcq-24",
-        "strength-mcq-19"
+        "strength-mcq-06",
+        "strength-pdf-001",
+        "strength-mcq-23"
       ],
       "explanation": "本句的「strengthened」指「使力量、能力、穩定性、效果或關係變得更強」。",
       "sentenceIndex": 64,
@@ -2582,12 +2376,10 @@ export default {
         "strengthened"
       ],
       "optionReasons": {
-        "strength-mcq-22": "本句指「使力量、能力、穩定性、效果或關係變得更強」。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-23": "「持續改善、壯大或取得更大成功」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。",
-        "strength-mcq-24": "「主力和後備整體都具備足夠實力；人才厚度高」與本句語境不同。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。"
+        "strength-mcq-22": "本句的「strengthened」指「使力量、能力、穩定性、效果或關係變得更強」。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-22"
     },
@@ -2599,11 +2391,9 @@ export default {
       "masked": "Regular communication ____ the partnership.",
       "options": [
         "strength-mcq-22",
-        "strength-mcq-21",
         "strength-mcq-23",
-        "strength-mcq-20",
-        "strength-mcq-24",
-        "strength-mcq-19"
+        "strength-mcq-06",
+        "strength-pdf-001"
       ],
       "explanation": "本句的「strengthened」指「使力量、能力、穩定性、效果或關係變得更強」。",
       "sentenceIndex": 65,
@@ -2612,12 +2402,10 @@ export default {
         "strengthened"
       ],
       "optionReasons": {
-        "strength-mcq-22": "本句指「使力量、能力、穩定性、效果或關係變得更強」。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-23": "「持續改善、壯大或取得更大成功」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。",
-        "strength-mcq-24": "「主力和後備整體都具備足夠實力；人才厚度高」與本句語境不同。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。"
+        "strength-mcq-22": "本句的「strengthened」指「使力量、能力、穩定性、效果或關係變得更強」。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-22"
     },
@@ -2629,11 +2417,9 @@ export default {
       "masked": "The programme includes exercises for core ____.",
       "options": [
         "strength-mcq-22",
-        "strength-mcq-21",
-        "strength-mcq-23",
-        "strength-mcq-20",
-        "strength-mcq-24",
-        "strength-mcq-19"
+        "strength-mcq-06",
+        "strength-pdf-001",
+        "strength-mcq-23"
       ],
       "explanation": "本句的「strengthening」指「使力量、能力、穩定性、效果或關係變得更強」。",
       "sentenceIndex": 66,
@@ -2642,12 +2428,10 @@ export default {
         "strengthening"
       ],
       "optionReasons": {
-        "strength-mcq-22": "本句指「使力量、能力、穩定性、效果或關係變得更強」。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-23": "「持續改善、壯大或取得更大成功」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。",
-        "strength-mcq-24": "「主力和後備整體都具備足夠實力；人才厚度高」與本句語境不同。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。"
+        "strength-mcq-22": "本句的「strengthening」指「使力量、能力、穩定性、效果或關係變得更強」。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-22"
     },
@@ -2659,11 +2443,9 @@ export default {
       "masked": "The ____ of safety procedures reduced risk.",
       "options": [
         "strength-mcq-22",
-        "strength-mcq-21",
         "strength-mcq-23",
-        "strength-mcq-20",
-        "strength-mcq-24",
-        "strength-mcq-19"
+        "strength-pdf-001",
+        "strength-mcq-06"
       ],
       "explanation": "本句的「strengthening」指「使力量、能力、穩定性、效果或關係變得更強」。",
       "sentenceIndex": 67,
@@ -2672,12 +2454,10 @@ export default {
         "strengthening"
       ],
       "optionReasons": {
-        "strength-mcq-22": "本句指「使力量、能力、穩定性、效果或關係變得更強」。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-23": "「持續改善、壯大或取得更大成功」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。",
-        "strength-mcq-24": "「主力和後備整體都具備足夠實力；人才厚度高」與本句語境不同。",
-        "strength-mcq-19": "「感情、反應、支持或反對的強烈程度」與本句語境不同。"
+        "strength-mcq-22": "本句的「strengthening」指「使力量、能力、穩定性、效果或關係變得更強」。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-22"
     },
@@ -2689,11 +2469,9 @@ export default {
       "masked": "The programme has gone ____.",
       "options": [
         "strength-mcq-23",
-        "strength-mcq-22",
-        "strength-mcq-24",
-        "strength-mcq-21",
-        "strength-mcq-25",
-        "strength-mcq-20"
+        "strength-mcq-02",
+        "strength-mcq-13",
+        "strength-reviewed-b74485cfbd"
       ],
       "explanation": "本句的「from strength to strength」指「持續改善、壯大或取得更大成功」。",
       "sentenceIndex": 68,
@@ -2702,12 +2480,10 @@ export default {
         "from strength to strength"
       ],
       "optionReasons": {
-        "strength-mcq-23": "本句指「持續改善、壯大或取得更大成功」。",
-        "strength-mcq-22": "「使力量、能力、穩定性、效果或關係變得更強」與本句語境不同。",
-        "strength-mcq-24": "「主力和後備整體都具備足夠實力；人才厚度高」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-25": "「因某項表現、證據、推薦或有利因素而採取行動／作決定」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。"
+        "strength-mcq-23": "本句的「from strength to strength」指「持續改善、壯大或取得更大成功」。",
+        "strength-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-23"
     },
@@ -2719,11 +2495,9 @@ export default {
       "masked": "Her career went from ____ to strength after the championship.",
       "options": [
         "strength-mcq-23",
-        "strength-mcq-22",
-        "strength-mcq-24",
-        "strength-mcq-21",
-        "strength-mcq-25",
-        "strength-mcq-20"
+        "strength-mcq-16",
+        "strength-mcq-08",
+        "strength-mcq-06"
       ],
       "explanation": "本句的「strength」指「持續改善、壯大或取得更大成功」。",
       "sentenceIndex": 69,
@@ -2732,12 +2506,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-23": "本句指「持續改善、壯大或取得更大成功」。",
-        "strength-mcq-22": "「使力量、能力、穩定性、效果或關係變得更強」與本句語境不同。",
-        "strength-mcq-24": "「主力和後備整體都具備足夠實力；人才厚度高」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-25": "「因某項表現、證據、推薦或有利因素而採取行動／作決定」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。"
+        "strength-mcq-23": "本句的「strength」指「持續改善、壯大或取得更大成功」。",
+        "strength-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-23"
     },
@@ -2749,11 +2521,9 @@ export default {
       "masked": "The squad has real ____.",
       "options": [
         "strength-mcq-24",
-        "strength-mcq-23",
+        "strength-mcq-13",
         "strength-mcq-25",
-        "strength-mcq-22",
-        "strength-mcq-21",
-        "strength-mcq-20"
+        "strength-mcq-23"
       ],
       "explanation": "本句的「strength in depth」指「主力和後備整體都具備足夠實力；人才厚度高」。",
       "sentenceIndex": 70,
@@ -2762,12 +2532,10 @@ export default {
         "strength in depth"
       ],
       "optionReasons": {
-        "strength-mcq-24": "本句指「主力和後備整體都具備足夠實力；人才厚度高」。",
-        "strength-mcq-23": "「持續改善、壯大或取得更大成功」與本句語境不同。",
-        "strength-mcq-25": "「因某項表現、證據、推薦或有利因素而採取行動／作決定」與本句語境不同。",
-        "strength-mcq-22": "「使力量、能力、穩定性、效果或關係變得更強」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。"
+        "strength-mcq-24": "本句的「strength in depth」指「主力和後備整體都具備足夠實力；人才厚度高」。",
+        "strength-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-24"
     },
@@ -2779,11 +2547,9 @@ export default {
       "masked": "Strong youth development gives a team ____ in depth.",
       "options": [
         "strength-mcq-24",
-        "strength-mcq-23",
-        "strength-mcq-25",
-        "strength-mcq-22",
-        "strength-mcq-21",
-        "strength-mcq-20"
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-13",
+        "strength-mcq-23"
       ],
       "explanation": "本句的「strength」指「主力和後備整體都具備足夠實力；人才厚度高」。",
       "sentenceIndex": 71,
@@ -2792,12 +2558,10 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-24": "本句指「主力和後備整體都具備足夠實力；人才厚度高」。",
-        "strength-mcq-23": "「持續改善、壯大或取得更大成功」與本句語境不同。",
-        "strength-mcq-25": "「因某項表現、證據、推薦或有利因素而採取行動／作決定」與本句語境不同。",
-        "strength-mcq-22": "「使力量、能力、穩定性、效果或關係變得更強」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。"
+        "strength-mcq-24": "本句的「strength」指「主力和後備整體都具備足夠實力；人才厚度高」。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-24"
     },
@@ -2809,11 +2573,9 @@ export default {
       "masked": "She was selected ____ her recent performances.",
       "options": [
         "strength-mcq-25",
-        "strength-mcq-24",
-        "strength-mcq-23",
-        "strength-mcq-22",
-        "strength-mcq-21",
-        "strength-mcq-20"
+        "strength-reviewed-4e5b96e01a",
+        "strength-mcq-06",
+        "strength-pdf-001"
       ],
       "explanation": "本句的「on the strength of」指「因某項表現、證據、推薦或有利因素而採取行動／作決定」。",
       "sentenceIndex": 72,
@@ -2822,12 +2584,10 @@ export default {
         "on the strength of"
       ],
       "optionReasons": {
-        "strength-mcq-25": "本句指「因某項表現、證據、推薦或有利因素而採取行動／作決定」。",
-        "strength-mcq-24": "「主力和後備整體都具備足夠實力；人才厚度高」與本句語境不同。",
-        "strength-mcq-23": "「持續改善、壯大或取得更大成功」與本句語境不同。",
-        "strength-mcq-22": "「使力量、能力、穩定性、效果或關係變得更強」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。"
+        "strength-mcq-25": "本句的「on the strength of」指「因某項表現、證據、推薦或有利因素而採取行動／作決定」。",
+        "strength-reviewed-4e5b96e01a": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-25"
     },
@@ -2839,11 +2599,9 @@ export default {
       "masked": "The company expanded on the ____ of strong demand.",
       "options": [
         "strength-mcq-25",
-        "strength-mcq-24",
-        "strength-mcq-23",
-        "strength-mcq-22",
-        "strength-mcq-21",
-        "strength-mcq-20"
+        "strength-reviewed-4e5b96e01a",
+        "strength-pdf-001",
+        "strength-mcq-06"
       ],
       "explanation": "本句的「strength」指「因某項表現、證據、推薦或有利因素而採取行動／作決定」。",
       "sentenceIndex": 73,
@@ -2852,74 +2610,68 @@ export default {
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-25": "本句指「因某項表現、證據、推薦或有利因素而採取行動／作決定」。",
-        "strength-mcq-24": "「主力和後備整體都具備足夠實力；人才厚度高」與本句語境不同。",
-        "strength-mcq-23": "「持續改善、壯大或取得更大成功」與本句語境不同。",
-        "strength-mcq-22": "「使力量、能力、穩定性、效果或關係變得更強」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。"
+        "strength-mcq-25": "本句的「strength」指「因某項表現、證據、推薦或有利因素而採取行動／作決定」。",
+        "strength-reviewed-4e5b96e01a": "請比較這個意思與句子中標示的用法。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strength-mcq-25"
     },
     {
       "id": "strength-41-0",
-      "sense": "strength-mcq-25",
+      "sense": "strength-reviewed-4e5b96e01a",
       "en": "He moved the object by sheer strength.",
       "zh": "他靠純粹的力量移動了那件物件。",
       "masked": "He moved the object by sheer ____.",
       "options": [
-        "strength-mcq-25",
-        "strength-mcq-24",
-        "strength-mcq-23",
-        "strength-mcq-22",
-        "strength-mcq-21",
-        "strength-mcq-20"
+        "strength-reviewed-4e5b96e01a",
+        "strength-pdf-001",
+        "strength-reviewed-b74485cfbd",
+        "strength-mcq-17"
       ],
-      "explanation": "本句的「strength」指「因某項表現、證據、推薦或有利因素而採取行動／作決定」。",
+      "explanation": "對照完整句子：「他靠純粹的力量移動了那件物件。」。這裡的「strength」表示「靠力量；憑純粹力量」。",
       "sentenceIndex": 74,
       "sourcePractice": 82,
       "targets": [
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-25": "本句指「因某項表現、證據、推薦或有利因素而採取行動／作決定」。",
-        "strength-mcq-24": "「主力和後備整體都具備足夠實力；人才厚度高」與本句語境不同。",
-        "strength-mcq-23": "「持續改善、壯大或取得更大成功」與本句語境不同。",
-        "strength-mcq-22": "「使力量、能力、穩定性、效果或關係變得更強」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。"
+        "strength-reviewed-4e5b96e01a": "對照完整句子：「他靠純粹的力量移動了那件物件。」。這裡的「strength」表示「靠力量；憑純粹力量」。",
+        "strength-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "strength-reviewed-b74485cfbd": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "strength-mcq-25"
+      "correctOption": "strength-reviewed-4e5b96e01a",
+      "previousCorrectOption": "strength-mcq-25",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "strength-41-1",
-      "sense": "strength-mcq-25",
+      "sense": "strength-reviewed-4e5b96e01a",
       "en": "The athlete powered through the final metres on strength alone.",
       "zh": "運動員在最後幾米幾乎完全靠力量撐過去。",
       "masked": "The athlete powered through the final metres on ____ alone.",
       "options": [
+        "strength-reviewed-4e5b96e01a",
         "strength-mcq-25",
-        "strength-mcq-24",
-        "strength-mcq-23",
-        "strength-mcq-22",
-        "strength-mcq-21",
-        "strength-mcq-20"
+        "strength-mcq-06",
+        "strength-mcq-09"
       ],
-      "explanation": "本句的「strength」指「因某項表現、證據、推薦或有利因素而採取行動／作決定」。",
+      "explanation": "對照完整句子：「運動員在最後幾米幾乎完全靠力量撐過去。」。這裡的「strength」表示「靠力量；憑純粹力量」。",
       "sentenceIndex": 75,
       "sourcePractice": 83,
       "targets": [
         "strength"
       ],
       "optionReasons": {
-        "strength-mcq-25": "本句指「因某項表現、證據、推薦或有利因素而採取行動／作決定」。",
-        "strength-mcq-24": "「主力和後備整體都具備足夠實力；人才厚度高」與本句語境不同。",
-        "strength-mcq-23": "「持續改善、壯大或取得更大成功」與本句語境不同。",
-        "strength-mcq-22": "「使力量、能力、穩定性、效果或關係變得更強」與本句語境不同。",
-        "strength-mcq-21": "「以很高程度、力度或確信程度」與本句語境不同。",
-        "strength-mcq-20": "「具有較高力量、強度、效力、表現或說服力的」與本句語境不同。"
+        "strength-reviewed-4e5b96e01a": "對照完整句子：「運動員在最後幾米幾乎完全靠力量撐過去。」。這裡的「strength」表示「靠力量；憑純粹力量」。",
+        "strength-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strength-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "strength-mcq-25"
+      "correctOption": "strength-reviewed-4e5b96e01a",
+      "previousCorrectOption": "strength-mcq-25",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     }
   ],
   "comparisons": [],
@@ -2929,5 +2681,7 @@ export default {
     "sha256": "5fe9d4b5f7d9c58716614878445534a247afe7562ecaa090fa5163796d6a0670",
     "pages": 26
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

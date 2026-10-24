@@ -348,11 +348,9 @@ export default {
       "masked": "It was like someone had pressed a mute ____ on the outside world.",
       "options": [
         "button-mcq-01",
-        "button-mcq-02",
-        "button-mcq-03",
-        "button-mcq-04",
-        "button-mcq-05",
-        "button-mcq-06"
+        "button-mcq-06",
+        "button-mcq-13",
+        "button-mcq-11"
       ],
       "explanation": "本句的「button」指「按下後會啟動、停止或改變某項設備功能的小型控制裝置」。",
       "sentenceIndex": 0,
@@ -361,12 +359,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-01": "本句指「按下後會啟動、停止或改變某項設備功能的小型控制裝置」。",
-        "button-mcq-02": "「在網站或應用程式畫面上，點擊／觸碰後執行某項功能的控制元素」是「button — digital interface」的用法，與本句語境不同。",
-        "button-mcq-03": "「滑鼠、遙控器或控制器上供使用者輸入指令的按鍵」是「button — mouse/controller」的用法，與本句語境不同。",
-        "button-mcq-04": "「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」是「button — clothing」的用法，與本句語境不同。",
-        "button-mcq-05": "「利用衣物上的鈕扣把衣服扣好、固定起來」是「button — verb」的用法，與本句語境不同。",
-        "button-mcq-06": "「鈕扣已扣上、衣物處於固定狀態的」是「buttoned」的用法，與本句語境不同。"
+        "button-mcq-01": "本句的「button」指「按下後會啟動、停止或改變某項設備功能的小型控制裝置」。",
+        "button-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-01"
     },
@@ -378,11 +374,9 @@ export default {
       "masked": "Press the red ____ to stop the machine.",
       "options": [
         "button-mcq-01",
-        "button-mcq-02",
-        "button-mcq-03",
+        "button-mcq-13",
         "button-mcq-04",
-        "button-mcq-05",
-        "button-mcq-06"
+        "button-mcq-08"
       ],
       "explanation": "本句的「button」指「按下後會啟動、停止或改變某項設備功能的小型控制裝置」。",
       "sentenceIndex": 1,
@@ -391,12 +385,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-01": "本句指「按下後會啟動、停止或改變某項設備功能的小型控制裝置」。",
-        "button-mcq-02": "「在網站或應用程式畫面上，點擊／觸碰後執行某項功能的控制元素」是「button — digital interface」的用法，與本句語境不同。",
-        "button-mcq-03": "「滑鼠、遙控器或控制器上供使用者輸入指令的按鍵」是「button — mouse/controller」的用法，與本句語境不同。",
-        "button-mcq-04": "「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」是「button — clothing」的用法，與本句語境不同。",
-        "button-mcq-05": "「利用衣物上的鈕扣把衣服扣好、固定起來」是「button — verb」的用法，與本句語境不同。",
-        "button-mcq-06": "「鈕扣已扣上、衣物處於固定狀態的」是「buttoned」的用法，與本句語境不同。"
+        "button-mcq-01": "本句的「button」指「按下後會啟動、停止或改變某項設備功能的小型控制裝置」。",
+        "button-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-01"
     },
@@ -408,11 +400,9 @@ export default {
       "masked": "I accidentally pressed the wrong ____.",
       "options": [
         "button-mcq-01",
-        "button-mcq-02",
-        "button-mcq-03",
-        "button-mcq-04",
-        "button-mcq-05",
-        "button-mcq-06"
+        "button-mcq-06",
+        "button-mcq-12",
+        "button-mcq-11"
       ],
       "explanation": "本句的「button」指「按下後會啟動、停止或改變某項設備功能的小型控制裝置」。",
       "sentenceIndex": 2,
@@ -421,12 +411,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-01": "本句指「按下後會啟動、停止或改變某項設備功能的小型控制裝置」。",
-        "button-mcq-02": "「在網站或應用程式畫面上，點擊／觸碰後執行某項功能的控制元素」是「button — digital interface」的用法，與本句語境不同。",
-        "button-mcq-03": "「滑鼠、遙控器或控制器上供使用者輸入指令的按鍵」是「button — mouse/controller」的用法，與本句語境不同。",
-        "button-mcq-04": "「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」是「button — clothing」的用法，與本句語境不同。",
-        "button-mcq-05": "「利用衣物上的鈕扣把衣服扣好、固定起來」是「button — verb」的用法，與本句語境不同。",
-        "button-mcq-06": "「鈕扣已扣上、衣物處於固定狀態的」是「buttoned」的用法，與本句語境不同。"
+        "button-mcq-01": "本句的「button」指「按下後會啟動、停止或改變某項設備功能的小型控制裝置」。",
+        "button-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-01"
     },
@@ -438,11 +426,9 @@ export default {
       "masked": "Click the ____ at the bottom of the page.",
       "options": [
         "button-mcq-02",
-        "button-mcq-01",
-        "button-mcq-03",
-        "button-mcq-04",
-        "button-mcq-05",
-        "button-mcq-06"
+        "button-mcq-07",
+        "button-mcq-09",
+        "button-mcq-11"
       ],
       "explanation": "本句的「button」指「在網站或應用程式畫面上，點擊／觸碰後執行某項功能的控制元素」。",
       "sentenceIndex": 3,
@@ -451,12 +437,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-02": "本句指「在網站或應用程式畫面上，點擊／觸碰後執行某項功能的控制元素」。",
-        "button-mcq-01": "「按下後會啟動、停止或改變某項設備功能的小型控制裝置」是「button — physical control」的用法，與本句語境不同。",
-        "button-mcq-03": "「滑鼠、遙控器或控制器上供使用者輸入指令的按鍵」是「button — mouse/controller」的用法，與本句語境不同。",
-        "button-mcq-04": "「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」是「button — clothing」的用法，與本句語境不同。",
-        "button-mcq-05": "「利用衣物上的鈕扣把衣服扣好、固定起來」是「button — verb」的用法，與本句語境不同。",
-        "button-mcq-06": "「鈕扣已扣上、衣物處於固定狀態的」是「buttoned」的用法，與本句語境不同。"
+        "button-mcq-02": "本句的「button」指「在網站或應用程式畫面上，點擊／觸碰後執行某項功能的控制元素」。",
+        "button-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-02"
     },
@@ -468,11 +452,9 @@ export default {
       "masked": "Tap the ‘Save’ ____ when you finish.",
       "options": [
         "button-mcq-02",
-        "button-mcq-01",
-        "button-mcq-03",
-        "button-mcq-04",
-        "button-mcq-05",
-        "button-mcq-06"
+        "button-mcq-14",
+        "button-mcq-15",
+        "button-mcq-11"
       ],
       "explanation": "本句的「button」指「在網站或應用程式畫面上，點擊／觸碰後執行某項功能的控制元素」。",
       "sentenceIndex": 4,
@@ -481,12 +463,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-02": "本句指「在網站或應用程式畫面上，點擊／觸碰後執行某項功能的控制元素」。",
-        "button-mcq-01": "「按下後會啟動、停止或改變某項設備功能的小型控制裝置」是「button — physical control」的用法，與本句語境不同。",
-        "button-mcq-03": "「滑鼠、遙控器或控制器上供使用者輸入指令的按鍵」是「button — mouse/controller」的用法，與本句語境不同。",
-        "button-mcq-04": "「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」是「button — clothing」的用法，與本句語境不同。",
-        "button-mcq-05": "「利用衣物上的鈕扣把衣服扣好、固定起來」是「button — verb」的用法，與本句語境不同。",
-        "button-mcq-06": "「鈕扣已扣上、衣物處於固定狀態的」是「buttoned」的用法，與本句語境不同。"
+        "button-mcq-02": "本句的「button」指「在網站或應用程式畫面上，點擊／觸碰後執行某項功能的控制元素」。",
+        "button-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-02"
     },
@@ -498,11 +478,9 @@ export default {
       "masked": "Click the right mouse ____.",
       "options": [
         "button-mcq-03",
-        "button-mcq-02",
-        "button-mcq-04",
-        "button-mcq-01",
-        "button-mcq-05",
-        "button-mcq-06"
+        "button-mcq-14",
+        "button-mcq-15",
+        "button-mcq-08"
       ],
       "explanation": "本句的「button」指「滑鼠、遙控器或控制器上供使用者輸入指令的按鍵」。",
       "sentenceIndex": 5,
@@ -511,12 +489,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-03": "本句指「滑鼠、遙控器或控制器上供使用者輸入指令的按鍵」。",
-        "button-mcq-02": "「在網站或應用程式畫面上，點擊／觸碰後執行某項功能的控制元素」是「button — digital interface」的用法，與本句語境不同。",
-        "button-mcq-04": "「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」是「button — clothing」的用法，與本句語境不同。",
-        "button-mcq-01": "「按下後會啟動、停止或改變某項設備功能的小型控制裝置」是「button — physical control」的用法，與本句語境不同。",
-        "button-mcq-05": "「利用衣物上的鈕扣把衣服扣好、固定起來」是「button — verb」的用法，與本句語境不同。",
-        "button-mcq-06": "「鈕扣已扣上、衣物處於固定狀態的」是「buttoned」的用法，與本句語境不同。"
+        "button-mcq-03": "本句的「button」指「滑鼠、遙控器或控制器上供使用者輸入指令的按鍵」。",
+        "button-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-03"
     },
@@ -528,11 +504,9 @@ export default {
       "masked": "Hold down this ____ to run.",
       "options": [
         "button-mcq-03",
-        "button-mcq-02",
-        "button-mcq-04",
-        "button-mcq-01",
-        "button-mcq-05",
-        "button-mcq-06"
+        "button-mcq-13",
+        "button-mcq-14",
+        "button-mcq-08"
       ],
       "explanation": "本句的「button」指「滑鼠、遙控器或控制器上供使用者輸入指令的按鍵」。",
       "sentenceIndex": 6,
@@ -541,12 +515,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-03": "本句指「滑鼠、遙控器或控制器上供使用者輸入指令的按鍵」。",
-        "button-mcq-02": "「在網站或應用程式畫面上，點擊／觸碰後執行某項功能的控制元素」是「button — digital interface」的用法，與本句語境不同。",
-        "button-mcq-04": "「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」是「button — clothing」的用法，與本句語境不同。",
-        "button-mcq-01": "「按下後會啟動、停止或改變某項設備功能的小型控制裝置」是「button — physical control」的用法，與本句語境不同。",
-        "button-mcq-05": "「利用衣物上的鈕扣把衣服扣好、固定起來」是「button — verb」的用法，與本句語境不同。",
-        "button-mcq-06": "「鈕扣已扣上、衣物處於固定狀態的」是「buttoned」的用法，與本句語境不同。"
+        "button-mcq-03": "本句的「button」指「滑鼠、遙控器或控制器上供使用者輸入指令的按鍵」。",
+        "button-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-03"
     },
@@ -559,10 +531,8 @@ export default {
       "options": [
         "button-mcq-04",
         "button-mcq-03",
-        "button-mcq-05",
-        "button-mcq-02",
-        "button-mcq-06",
-        "button-mcq-01"
+        "button-mcq-12",
+        "button-mcq-08"
       ],
       "explanation": "本句的「buttons」指「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」。",
       "sentenceIndex": 7,
@@ -571,12 +541,10 @@ export default {
         "buttons"
       ],
       "optionReasons": {
-        "button-mcq-04": "本句指「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」。",
-        "button-mcq-03": "「滑鼠、遙控器或控制器上供使用者輸入指令的按鍵」是「button — mouse/controller」的用法，與本句語境不同。",
-        "button-mcq-05": "「利用衣物上的鈕扣把衣服扣好、固定起來」是「button — verb」的用法，與本句語境不同。",
-        "button-mcq-02": "「在網站或應用程式畫面上，點擊／觸碰後執行某項功能的控制元素」是「button — digital interface」的用法，與本句語境不同。",
-        "button-mcq-06": "「鈕扣已扣上、衣物處於固定狀態的」是「buttoned」的用法，與本句語境不同。",
-        "button-mcq-01": "「按下後會啟動、停止或改變某項設備功能的小型控制裝置」是「button — physical control」的用法，與本句語境不同。"
+        "button-mcq-04": "本句的「buttons」指「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」。",
+        "button-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-04"
     },
@@ -588,11 +556,9 @@ export default {
       "masked": "The coat has six metal ____.",
       "options": [
         "button-mcq-04",
-        "button-mcq-03",
-        "button-mcq-05",
-        "button-mcq-02",
-        "button-mcq-06",
-        "button-mcq-01"
+        "button-mcq-10",
+        "button-mcq-08",
+        "button-mcq-12"
       ],
       "explanation": "本句的「buttons」指「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」。",
       "sentenceIndex": 8,
@@ -601,12 +567,10 @@ export default {
         "buttons"
       ],
       "optionReasons": {
-        "button-mcq-04": "本句指「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」。",
-        "button-mcq-03": "「滑鼠、遙控器或控制器上供使用者輸入指令的按鍵」是「button — mouse/controller」的用法，與本句語境不同。",
-        "button-mcq-05": "「利用衣物上的鈕扣把衣服扣好、固定起來」是「button — verb」的用法，與本句語境不同。",
-        "button-mcq-02": "「在網站或應用程式畫面上，點擊／觸碰後執行某項功能的控制元素」是「button — digital interface」的用法，與本句語境不同。",
-        "button-mcq-06": "「鈕扣已扣上、衣物處於固定狀態的」是「buttoned」的用法，與本句語境不同。",
-        "button-mcq-01": "「按下後會啟動、停止或改變某項設備功能的小型控制裝置」是「button — physical control」的用法，與本句語境不同。"
+        "button-mcq-04": "本句的「buttons」指「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」。",
+        "button-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-04"
     },
@@ -618,11 +582,9 @@ export default {
       "masked": "She ____ her coat before going outside.",
       "options": [
         "button-mcq-04",
-        "button-mcq-03",
-        "button-mcq-05",
-        "button-mcq-02",
-        "button-mcq-06",
-        "button-mcq-01"
+        "button-mcq-08",
+        "button-mcq-01",
+        "button-mcq-12"
       ],
       "explanation": "本句的「buttoned」指「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」。",
       "sentenceIndex": 9,
@@ -631,12 +593,10 @@ export default {
         "buttoned"
       ],
       "optionReasons": {
-        "button-mcq-04": "本句指「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」。",
-        "button-mcq-03": "「滑鼠、遙控器或控制器上供使用者輸入指令的按鍵」是「button — mouse/controller」的用法，與本句語境不同。",
-        "button-mcq-05": "「利用衣物上的鈕扣把衣服扣好、固定起來」是「button — verb」的用法，與本句語境不同。",
-        "button-mcq-02": "「在網站或應用程式畫面上，點擊／觸碰後執行某項功能的控制元素」是「button — digital interface」的用法，與本句語境不同。",
-        "button-mcq-06": "「鈕扣已扣上、衣物處於固定狀態的」是「buttoned」的用法，與本句語境不同。",
-        "button-mcq-01": "「按下後會啟動、停止或改變某項設備功能的小型控制裝置」是「button — physical control」的用法，與本句語境不同。"
+        "button-mcq-04": "本句的「buttoned」指「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-04"
     },
@@ -648,11 +608,9 @@ export default {
       "masked": "He slowly ____ his shirt.",
       "options": [
         "button-mcq-04",
-        "button-mcq-03",
-        "button-mcq-05",
-        "button-mcq-02",
-        "button-mcq-06",
-        "button-mcq-01"
+        "button-mcq-01",
+        "button-mcq-08",
+        "button-mcq-12"
       ],
       "explanation": "本句的「buttoned」指「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」。",
       "sentenceIndex": 10,
@@ -661,12 +619,10 @@ export default {
         "buttoned"
       ],
       "optionReasons": {
-        "button-mcq-04": "本句指「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」。",
-        "button-mcq-03": "「滑鼠、遙控器或控制器上供使用者輸入指令的按鍵」是「button — mouse/controller」的用法，與本句語境不同。",
-        "button-mcq-05": "「利用衣物上的鈕扣把衣服扣好、固定起來」是「button — verb」的用法，與本句語境不同。",
-        "button-mcq-02": "「在網站或應用程式畫面上，點擊／觸碰後執行某項功能的控制元素」是「button — digital interface」的用法，與本句語境不同。",
-        "button-mcq-06": "「鈕扣已扣上、衣物處於固定狀態的」是「buttoned」的用法，與本句語境不同。",
-        "button-mcq-01": "「按下後會啟動、停止或改變某項設備功能的小型控制裝置」是「button — physical control」的用法，與本句語境不同。"
+        "button-mcq-04": "本句的「buttoned」指「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」。",
+        "button-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-04"
     },
@@ -678,11 +634,9 @@ export default {
       "masked": "His jacket was fully ____.",
       "options": [
         "button-mcq-06",
-        "button-mcq-05",
-        "button-mcq-07",
-        "button-mcq-04",
-        "button-mcq-08",
-        "button-mcq-03"
+        "button-mcq-01",
+        "button-mcq-13",
+        "button-mcq-11"
       ],
       "explanation": "本句的「buttoned」指「鈕扣已扣上、衣物處於固定狀態的」。",
       "sentenceIndex": 11,
@@ -691,12 +645,10 @@ export default {
         "buttoned"
       ],
       "optionReasons": {
-        "button-mcq-06": "本句指「鈕扣已扣上、衣物處於固定狀態的」。",
-        "button-mcq-05": "「利用衣物上的鈕扣把衣服扣好、固定起來」是「button — verb」的用法，與本句語境不同。",
-        "button-mcq-07": "「可別在衣服上、通常印有圖案或文字的小型圓形襟章」是「button — badge」的用法，與本句語境不同。",
-        "button-mcq-04": "「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」是「button — clothing」的用法，與本句語境不同。",
-        "button-mcq-08": "「腹部中央原本連接臍帶的位置；肚臍」是「belly button」的用法，與本句語境不同。",
-        "button-mcq-03": "「滑鼠、遙控器或控制器上供使用者輸入指令的按鍵」是「button — mouse/controller」的用法，與本句語境不同。"
+        "button-mcq-06": "本句的「buttoned」指「鈕扣已扣上、衣物處於固定狀態的」。",
+        "button-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-06"
     },
@@ -708,11 +660,9 @@ export default {
       "masked": "She wore the shirt ____ to the neck.",
       "options": [
         "button-mcq-06",
-        "button-mcq-05",
-        "button-mcq-07",
-        "button-mcq-04",
-        "button-mcq-08",
-        "button-mcq-03"
+        "button-mcq-01",
+        "button-mcq-13",
+        "button-mcq-11"
       ],
       "explanation": "本句的「buttoned」指「鈕扣已扣上、衣物處於固定狀態的」。",
       "sentenceIndex": 12,
@@ -721,12 +671,10 @@ export default {
         "buttoned"
       ],
       "optionReasons": {
-        "button-mcq-06": "本句指「鈕扣已扣上、衣物處於固定狀態的」。",
-        "button-mcq-05": "「利用衣物上的鈕扣把衣服扣好、固定起來」是「button — verb」的用法，與本句語境不同。",
-        "button-mcq-07": "「可別在衣服上、通常印有圖案或文字的小型圓形襟章」是「button — badge」的用法，與本句語境不同。",
-        "button-mcq-04": "「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」是「button — clothing」的用法，與本句語境不同。",
-        "button-mcq-08": "「腹部中央原本連接臍帶的位置；肚臍」是「belly button」的用法，與本句語境不同。",
-        "button-mcq-03": "「滑鼠、遙控器或控制器上供使用者輸入指令的按鍵」是「button — mouse/controller」的用法，與本句語境不同。"
+        "button-mcq-06": "本句的「buttoned」指「鈕扣已扣上、衣物處於固定狀態的」。",
+        "button-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-06"
     },
@@ -738,11 +686,9 @@ export default {
       "masked": "She wore a ____ with the charity’s logo.",
       "options": [
         "button-mcq-07",
-        "button-mcq-06",
-        "button-mcq-08",
-        "button-mcq-05",
-        "button-mcq-09",
-        "button-mcq-04"
+        "button-mcq-02",
+        "button-mcq-13",
+        "button-mcq-11"
       ],
       "explanation": "本句的「button」指「可別在衣服上、通常印有圖案或文字的小型圓形襟章」。",
       "sentenceIndex": 13,
@@ -751,12 +697,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-07": "本句指「可別在衣服上、通常印有圖案或文字的小型圓形襟章」。",
-        "button-mcq-06": "「鈕扣已扣上、衣物處於固定狀態的」是「buttoned」的用法，與本句語境不同。",
-        "button-mcq-08": "「腹部中央原本連接臍帶的位置；肚臍」是「belly button」的用法，與本句語境不同。",
-        "button-mcq-05": "「利用衣物上的鈕扣把衣服扣好、固定起來」是「button — verb」的用法，與本句語境不同。",
-        "button-mcq-09": "「菌蓋小而圓、外形似鈕扣的常見食用洋菇」是「button mushroom」的用法，與本句語境不同。",
-        "button-mcq-04": "「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」是「button — clothing」的用法，與本句語境不同。"
+        "button-mcq-07": "本句的「button」指「可別在衣服上、通常印有圖案或文字的小型圓形襟章」。",
+        "button-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-07"
     },
@@ -768,11 +712,9 @@ export default {
       "masked": "They handed out campaign ____ at the event.",
       "options": [
         "button-mcq-07",
-        "button-mcq-06",
+        "button-mcq-11",
         "button-mcq-08",
-        "button-mcq-05",
-        "button-mcq-09",
-        "button-mcq-04"
+        "button-mcq-12"
       ],
       "explanation": "本句的「buttons」指「可別在衣服上、通常印有圖案或文字的小型圓形襟章」。",
       "sentenceIndex": 14,
@@ -781,12 +723,10 @@ export default {
         "buttons"
       ],
       "optionReasons": {
-        "button-mcq-07": "本句指「可別在衣服上、通常印有圖案或文字的小型圓形襟章」。",
-        "button-mcq-06": "「鈕扣已扣上、衣物處於固定狀態的」是「buttoned」的用法，與本句語境不同。",
-        "button-mcq-08": "「腹部中央原本連接臍帶的位置；肚臍」是「belly button」的用法，與本句語境不同。",
-        "button-mcq-05": "「利用衣物上的鈕扣把衣服扣好、固定起來」是「button — verb」的用法，與本句語境不同。",
-        "button-mcq-09": "「菌蓋小而圓、外形似鈕扣的常見食用洋菇」是「button mushroom」的用法，與本句語境不同。",
-        "button-mcq-04": "「縫在衣物上並通常穿過扣眼來固定衣服的鈕扣」是「button — clothing」的用法，與本句語境不同。"
+        "button-mcq-07": "本句的「buttons」指「可別在衣服上、通常印有圖案或文字的小型圓形襟章」。",
+        "button-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-07"
     },
@@ -798,11 +738,9 @@ export default {
       "masked": "The baby’s belly ____ has healed.",
       "options": [
         "button-mcq-08",
-        "button-mcq-07",
-        "button-mcq-09",
-        "button-mcq-06",
-        "button-mcq-10",
-        "button-mcq-05"
+        "button-mcq-14",
+        "button-mcq-03",
+        "button-mcq-12"
       ],
       "explanation": "本句的「button」指「腹部中央原本連接臍帶的位置；肚臍」。",
       "sentenceIndex": 15,
@@ -811,12 +749,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-08": "本句指「腹部中央原本連接臍帶的位置；肚臍」。",
-        "button-mcq-07": "「可別在衣服上、通常印有圖案或文字的小型圓形襟章」是「button — badge」的用法，與本句語境不同。",
-        "button-mcq-09": "「菌蓋小而圓、外形似鈕扣的常見食用洋菇」是「button mushroom」的用法，與本句語境不同。",
-        "button-mcq-06": "「鈕扣已扣上、衣物處於固定狀態的」是「buttoned」的用法，與本句語境不同。",
-        "button-mcq-10": "「只需按一下控制鍵便能立即完成某項操作」是「at the touch/press of a button」的用法，與本句語境不同。",
-        "button-mcq-05": "「利用衣物上的鈕扣把衣服扣好、固定起來」是「button — verb」的用法，與本句語境不同。"
+        "button-mcq-08": "本句的「button」指「腹部中央原本連接臍帶的位置；肚臍」。",
+        "button-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-08"
     },
@@ -829,10 +765,8 @@ export default {
       "options": [
         "button-mcq-08",
         "button-mcq-07",
-        "button-mcq-09",
-        "button-mcq-06",
-        "button-mcq-10",
-        "button-mcq-05"
+        "button-mcq-12",
+        "button-mcq-11"
       ],
       "explanation": "本句的「button」指「腹部中央原本連接臍帶的位置；肚臍」。",
       "sentenceIndex": 16,
@@ -841,12 +775,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-08": "本句指「腹部中央原本連接臍帶的位置；肚臍」。",
-        "button-mcq-07": "「可別在衣服上、通常印有圖案或文字的小型圓形襟章」是「button — badge」的用法，與本句語境不同。",
-        "button-mcq-09": "「菌蓋小而圓、外形似鈕扣的常見食用洋菇」是「button mushroom」的用法，與本句語境不同。",
-        "button-mcq-06": "「鈕扣已扣上、衣物處於固定狀態的」是「buttoned」的用法，與本句語境不同。",
-        "button-mcq-10": "「只需按一下控制鍵便能立即完成某項操作」是「at the touch/press of a button」的用法，與本句語境不同。",
-        "button-mcq-05": "「利用衣物上的鈕扣把衣服扣好、固定起來」是「button — verb」的用法，與本句語境不同。"
+        "button-mcq-08": "本句的「button」指「腹部中央原本連接臍帶的位置；肚臍」。",
+        "button-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-08"
     },
@@ -858,11 +790,9 @@ export default {
       "masked": "Add some sliced ____ mushrooms to the sauce.",
       "options": [
         "button-mcq-09",
-        "button-mcq-08",
-        "button-mcq-10",
-        "button-mcq-07",
-        "button-mcq-11",
-        "button-mcq-06"
+        "button-mcq-02",
+        "button-mcq-13",
+        "button-mcq-08"
       ],
       "explanation": "本句的「button」指「菌蓋小而圓、外形似鈕扣的常見食用洋菇」。",
       "sentenceIndex": 17,
@@ -871,12 +801,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-09": "本句指「菌蓋小而圓、外形似鈕扣的常見食用洋菇」。",
-        "button-mcq-08": "「腹部中央原本連接臍帶的位置；肚臍」是「belly button」的用法，與本句語境不同。",
-        "button-mcq-10": "「只需按一下控制鍵便能立即完成某項操作」是「at the touch/press of a button」的用法，與本句語境不同。",
-        "button-mcq-07": "「可別在衣服上、通常印有圖案或文字的小型圓形襟章」是「button — badge」的用法，與本句語境不同。",
-        "button-mcq-11": "「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」是「panic button」的用法，與本句語境不同。",
-        "button-mcq-06": "「鈕扣已扣上、衣物處於固定狀態的」是「buttoned」的用法，與本句語境不同。"
+        "button-mcq-09": "本句的「button」指「菌蓋小而圓、外形似鈕扣的常見食用洋菇」。",
+        "button-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-09"
     },
@@ -888,11 +816,9 @@ export default {
       "masked": "She fried the ____ mushrooms with garlic.",
       "options": [
         "button-mcq-09",
+        "button-mcq-03",
         "button-mcq-08",
-        "button-mcq-10",
-        "button-mcq-07",
-        "button-mcq-11",
-        "button-mcq-06"
+        "button-mcq-13"
       ],
       "explanation": "本句的「button」指「菌蓋小而圓、外形似鈕扣的常見食用洋菇」。",
       "sentenceIndex": 18,
@@ -901,12 +827,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-09": "本句指「菌蓋小而圓、外形似鈕扣的常見食用洋菇」。",
-        "button-mcq-08": "「腹部中央原本連接臍帶的位置；肚臍」是「belly button」的用法，與本句語境不同。",
-        "button-mcq-10": "「只需按一下控制鍵便能立即完成某項操作」是「at the touch/press of a button」的用法，與本句語境不同。",
-        "button-mcq-07": "「可別在衣服上、通常印有圖案或文字的小型圓形襟章」是「button — badge」的用法，與本句語境不同。",
-        "button-mcq-11": "「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」是「panic button」的用法，與本句語境不同。",
-        "button-mcq-06": "「鈕扣已扣上、衣物處於固定狀態的」是「buttoned」的用法，與本句語境不同。"
+        "button-mcq-09": "本句的「button」指「菌蓋小而圓、外形似鈕扣的常見食用洋菇」。",
+        "button-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-09"
     },
@@ -918,10 +842,8 @@ export default {
       "masked": "You can open the blinds at the touch of a ____.",
       "options": [
         "button-mcq-10",
-        "button-mcq-09",
-        "button-mcq-11",
         "button-mcq-08",
-        "button-mcq-12",
+        "button-mcq-13",
         "button-mcq-07"
       ],
       "explanation": "本句的「button」指「只需按一下控制鍵便能立即完成某項操作」。",
@@ -931,12 +853,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-10": "本句指「只需按一下控制鍵便能立即完成某項操作」。",
-        "button-mcq-09": "「菌蓋小而圓、外形似鈕扣的常見食用洋菇」是「button mushroom」的用法，與本句語境不同。",
-        "button-mcq-11": "「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」是「panic button」的用法，與本句語境不同。",
-        "button-mcq-08": "「腹部中央原本連接臍帶的位置；肚臍」是「belly button」的用法，與本句語境不同。",
-        "button-mcq-12": "「很容易觸發強烈情緒、意見分歧或爭論的議題」是「hot-button issue」的用法，與本句語境不同。",
-        "button-mcq-07": "「可別在衣服上、通常印有圖案或文字的小型圓形襟章」是「button — badge」的用法，與本句語境不同。"
+        "button-mcq-10": "本句的「button」指「只需按一下控制鍵便能立即完成某項操作」。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-10"
     },
@@ -949,10 +869,8 @@ export default {
       "options": [
         "button-mcq-10",
         "button-mcq-09",
-        "button-mcq-11",
-        "button-mcq-08",
-        "button-mcq-12",
-        "button-mcq-07"
+        "button-mcq-07",
+        "button-mcq-15"
       ],
       "explanation": "本句的「button」指「只需按一下控制鍵便能立即完成某項操作」。",
       "sentenceIndex": 20,
@@ -961,12 +879,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-10": "本句指「只需按一下控制鍵便能立即完成某項操作」。",
-        "button-mcq-09": "「菌蓋小而圓、外形似鈕扣的常見食用洋菇」是「button mushroom」的用法，與本句語境不同。",
-        "button-mcq-11": "「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」是「panic button」的用法，與本句語境不同。",
-        "button-mcq-08": "「腹部中央原本連接臍帶的位置；肚臍」是「belly button」的用法，與本句語境不同。",
-        "button-mcq-12": "「很容易觸發強烈情緒、意見分歧或爭論的議題」是「hot-button issue」的用法，與本句語境不同。",
-        "button-mcq-07": "「可別在衣服上、通常印有圖案或文字的小型圓形襟章」是「button — badge」的用法，與本句語境不同。"
+        "button-mcq-10": "本句的「button」指「只需按一下控制鍵便能立即完成某項操作」。",
+        "button-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-10"
     },
@@ -978,11 +894,9 @@ export default {
       "masked": "The receptionist has a panic ____ under the desk.",
       "options": [
         "button-mcq-11",
-        "button-mcq-10",
-        "button-mcq-12",
-        "button-mcq-09",
-        "button-mcq-13",
-        "button-mcq-08"
+        "button-mcq-15",
+        "button-mcq-08",
+        "button-mcq-07"
       ],
       "explanation": "本句的「button」指「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」。",
       "sentenceIndex": 21,
@@ -991,12 +905,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-11": "本句指「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」。",
-        "button-mcq-10": "「只需按一下控制鍵便能立即完成某項操作」是「at the touch/press of a button」的用法，與本句語境不同。",
-        "button-mcq-12": "「很容易觸發強烈情緒、意見分歧或爭論的議題」是「hot-button issue」的用法，與本句語境不同。",
-        "button-mcq-09": "「菌蓋小而圓、外形似鈕扣的常見食用洋菇」是「button mushroom」的用法，與本句語境不同。",
-        "button-mcq-13": "「知道某人的敏感點並故意觸發其強烈情緒反應」是「push someone’s buttons」的用法，與本句語境不同。",
-        "button-mcq-08": "「腹部中央原本連接臍帶的位置；肚臍」是「belly button」的用法，與本句語境不同。"
+        "button-mcq-11": "本句的「button」指「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」。",
+        "button-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-11"
     },
@@ -1008,11 +920,9 @@ export default {
       "masked": "Press the panic ____ if you are in immediate danger.",
       "options": [
         "button-mcq-11",
-        "button-mcq-10",
-        "button-mcq-12",
-        "button-mcq-09",
-        "button-mcq-13",
-        "button-mcq-08"
+        "button-mcq-07",
+        "button-mcq-08",
+        "button-mcq-02"
       ],
       "explanation": "本句的「button」指「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」。",
       "sentenceIndex": 22,
@@ -1021,12 +931,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-11": "本句指「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」。",
-        "button-mcq-10": "「只需按一下控制鍵便能立即完成某項操作」是「at the touch/press of a button」的用法，與本句語境不同。",
-        "button-mcq-12": "「很容易觸發強烈情緒、意見分歧或爭論的議題」是「hot-button issue」的用法，與本句語境不同。",
-        "button-mcq-09": "「菌蓋小而圓、外形似鈕扣的常見食用洋菇」是「button mushroom」的用法，與本句語境不同。",
-        "button-mcq-13": "「知道某人的敏感點並故意觸發其強烈情緒反應」是「push someone’s buttons」的用法，與本句語境不同。",
-        "button-mcq-08": "「腹部中央原本連接臍帶的位置；肚臍」是「belly button」的用法，與本句語境不同。"
+        "button-mcq-11": "本句的「button」指「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」。",
+        "button-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-11"
     },
@@ -1038,11 +946,9 @@ export default {
       "masked": "Housing has become a hot-____ issue in the city.",
       "options": [
         "button-mcq-12",
-        "button-mcq-11",
-        "button-mcq-13",
-        "button-mcq-10",
+        "button-mcq-01",
         "button-mcq-14",
-        "button-mcq-09"
+        "button-mcq-08"
       ],
       "explanation": "本句的「button」指「很容易觸發強烈情緒、意見分歧或爭論的議題」。",
       "sentenceIndex": 23,
@@ -1051,12 +957,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-12": "本句指「很容易觸發強烈情緒、意見分歧或爭論的議題」。",
-        "button-mcq-11": "「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」是「panic button」的用法，與本句語境不同。",
-        "button-mcq-13": "「知道某人的敏感點並故意觸發其強烈情緒反應」是「push someone’s buttons」的用法，與本句語境不同。",
-        "button-mcq-10": "「只需按一下控制鍵便能立即完成某項操作」是「at the touch/press of a button」的用法，與本句語境不同。",
-        "button-mcq-14": "「襯衫領尖可用小鈕扣固定在衣身上的」是「button-down」的用法，與本句語境不同。",
-        "button-mcq-09": "「菌蓋小而圓、外形似鈕扣的常見食用洋菇」是「button mushroom」的用法，與本句語境不同。"
+        "button-mcq-12": "本句的「button」指「很容易觸發強烈情緒、意見分歧或爭論的議題」。",
+        "button-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-12"
     },
@@ -1068,11 +972,9 @@ export default {
       "masked": "The speaker avoided several hot-____ topics.",
       "options": [
         "button-mcq-12",
-        "button-mcq-11",
-        "button-mcq-13",
-        "button-mcq-10",
-        "button-mcq-14",
-        "button-mcq-09"
+        "button-mcq-01",
+        "button-mcq-08",
+        "button-mcq-04"
       ],
       "explanation": "本句的「button」指「很容易觸發強烈情緒、意見分歧或爭論的議題」。",
       "sentenceIndex": 24,
@@ -1081,12 +983,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-12": "本句指「很容易觸發強烈情緒、意見分歧或爭論的議題」。",
-        "button-mcq-11": "「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」是「panic button」的用法，與本句語境不同。",
-        "button-mcq-13": "「知道某人的敏感點並故意觸發其強烈情緒反應」是「push someone’s buttons」的用法，與本句語境不同。",
-        "button-mcq-10": "「只需按一下控制鍵便能立即完成某項操作」是「at the touch/press of a button」的用法，與本句語境不同。",
-        "button-mcq-14": "「襯衫領尖可用小鈕扣固定在衣身上的」是「button-down」的用法，與本句語境不同。",
-        "button-mcq-09": "「菌蓋小而圓、外形似鈕扣的常見食用洋菇」是「button mushroom」的用法，與本句語境不同。"
+        "button-mcq-12": "本句的「button」指「很容易觸發強烈情緒、意見分歧或爭論的議題」。",
+        "button-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-12"
     },
@@ -1098,11 +998,9 @@ export default {
       "masked": "He knows exactly how to push my ____.",
       "options": [
         "button-mcq-13",
-        "button-mcq-12",
-        "button-mcq-14",
-        "button-mcq-11",
-        "button-mcq-15",
-        "button-mcq-10"
+        "button-mcq-06",
+        "button-mcq-03",
+        "button-mcq-07"
       ],
       "explanation": "本句的「buttons」指「知道某人的敏感點並故意觸發其強烈情緒反應」。",
       "sentenceIndex": 25,
@@ -1111,12 +1009,10 @@ export default {
         "buttons"
       ],
       "optionReasons": {
-        "button-mcq-13": "本句指「知道某人的敏感點並故意觸發其強烈情緒反應」。",
-        "button-mcq-12": "「很容易觸發強烈情緒、意見分歧或爭論的議題」是「hot-button issue」的用法，與本句語境不同。",
-        "button-mcq-14": "「襯衫領尖可用小鈕扣固定在衣身上的」是「button-down」的用法，與本句語境不同。",
-        "button-mcq-11": "「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」是「panic button」的用法，與本句語境不同。",
-        "button-mcq-15": "「舉止非常拘謹、正式、保守或不輕易表露情緒的」是「buttoned-up」的用法，與本句語境不同。",
-        "button-mcq-10": "「只需按一下控制鍵便能立即完成某項操作」是「at the touch/press of a button」的用法，與本句語境不同。"
+        "button-mcq-13": "本句的「buttons」指「知道某人的敏感點並故意觸發其強烈情緒反應」。",
+        "button-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-13"
     },
@@ -1128,11 +1024,9 @@ export default {
       "masked": "Don’t let her comments push your ____.",
       "options": [
         "button-mcq-13",
-        "button-mcq-12",
-        "button-mcq-14",
-        "button-mcq-11",
-        "button-mcq-15",
-        "button-mcq-10"
+        "button-mcq-09",
+        "button-mcq-07",
+        "button-mcq-08"
       ],
       "explanation": "本句的「buttons」指「知道某人的敏感點並故意觸發其強烈情緒反應」。",
       "sentenceIndex": 26,
@@ -1141,12 +1035,10 @@ export default {
         "buttons"
       ],
       "optionReasons": {
-        "button-mcq-13": "本句指「知道某人的敏感點並故意觸發其強烈情緒反應」。",
-        "button-mcq-12": "「很容易觸發強烈情緒、意見分歧或爭論的議題」是「hot-button issue」的用法，與本句語境不同。",
-        "button-mcq-14": "「襯衫領尖可用小鈕扣固定在衣身上的」是「button-down」的用法，與本句語境不同。",
-        "button-mcq-11": "「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」是「panic button」的用法，與本句語境不同。",
-        "button-mcq-15": "「舉止非常拘謹、正式、保守或不輕易表露情緒的」是「buttoned-up」的用法，與本句語境不同。",
-        "button-mcq-10": "「只需按一下控制鍵便能立即完成某項操作」是「at the touch/press of a button」的用法，與本句語境不同。"
+        "button-mcq-13": "本句的「buttons」指「知道某人的敏感點並故意觸發其強烈情緒反應」。",
+        "button-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-13"
     },
@@ -1158,11 +1050,9 @@ export default {
       "masked": "He wore a blue ____-down shirt.",
       "options": [
         "button-mcq-14",
-        "button-mcq-13",
         "button-mcq-15",
-        "button-mcq-12",
-        "button-mcq-11",
-        "button-mcq-10"
+        "button-mcq-10",
+        "button-mcq-08"
       ],
       "explanation": "本句的「button」指「襯衫領尖可用小鈕扣固定在衣身上的」。",
       "sentenceIndex": 27,
@@ -1171,12 +1061,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-14": "本句指「襯衫領尖可用小鈕扣固定在衣身上的」。",
-        "button-mcq-13": "「知道某人的敏感點並故意觸發其強烈情緒反應」是「push someone’s buttons」的用法，與本句語境不同。",
-        "button-mcq-15": "「舉止非常拘謹、正式、保守或不輕易表露情緒的」是「buttoned-up」的用法，與本句語境不同。",
-        "button-mcq-12": "「很容易觸發強烈情緒、意見分歧或爭論的議題」是「hot-button issue」的用法，與本句語境不同。",
-        "button-mcq-11": "「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」是「panic button」的用法，與本句語境不同。",
-        "button-mcq-10": "「只需按一下控制鍵便能立即完成某項操作」是「at the touch/press of a button」的用法，與本句語境不同。"
+        "button-mcq-14": "本句的「button」指「襯衫領尖可用小鈕扣固定在衣身上的」。",
+        "button-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-14"
     },
@@ -1189,10 +1077,8 @@ export default {
       "options": [
         "button-mcq-14",
         "button-mcq-13",
-        "button-mcq-15",
-        "button-mcq-12",
-        "button-mcq-11",
-        "button-mcq-10"
+        "button-mcq-10",
+        "button-mcq-08"
       ],
       "explanation": "本句的「button」指「襯衫領尖可用小鈕扣固定在衣身上的」。",
       "sentenceIndex": 28,
@@ -1201,12 +1087,10 @@ export default {
         "button"
       ],
       "optionReasons": {
-        "button-mcq-14": "本句指「襯衫領尖可用小鈕扣固定在衣身上的」。",
-        "button-mcq-13": "「知道某人的敏感點並故意觸發其強烈情緒反應」是「push someone’s buttons」的用法，與本句語境不同。",
-        "button-mcq-15": "「舉止非常拘謹、正式、保守或不輕易表露情緒的」是「buttoned-up」的用法，與本句語境不同。",
-        "button-mcq-12": "「很容易觸發強烈情緒、意見分歧或爭論的議題」是「hot-button issue」的用法，與本句語境不同。",
-        "button-mcq-11": "「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」是「panic button」的用法，與本句語境不同。",
-        "button-mcq-10": "「只需按一下控制鍵便能立即完成某項操作」是「at the touch/press of a button」的用法，與本句語境不同。"
+        "button-mcq-14": "本句的「button」指「襯衫領尖可用小鈕扣固定在衣身上的」。",
+        "button-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-14"
     },
@@ -1219,10 +1103,8 @@ export default {
       "options": [
         "button-mcq-15",
         "button-mcq-14",
-        "button-mcq-13",
-        "button-mcq-12",
-        "button-mcq-11",
-        "button-mcq-10"
+        "button-mcq-08",
+        "button-mcq-11"
       ],
       "explanation": "本句的「buttoned」指「舉止非常拘謹、正式、保守或不輕易表露情緒的」。",
       "sentenceIndex": 29,
@@ -1231,12 +1113,10 @@ export default {
         "buttoned"
       ],
       "optionReasons": {
-        "button-mcq-15": "本句指「舉止非常拘謹、正式、保守或不輕易表露情緒的」。",
-        "button-mcq-14": "「襯衫領尖可用小鈕扣固定在衣身上的」是「button-down」的用法，與本句語境不同。",
-        "button-mcq-13": "「知道某人的敏感點並故意觸發其強烈情緒反應」是「push someone’s buttons」的用法，與本句語境不同。",
-        "button-mcq-12": "「很容易觸發強烈情緒、意見分歧或爭論的議題」是「hot-button issue」的用法，與本句語境不同。",
-        "button-mcq-11": "「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」是「panic button」的用法，與本句語境不同。",
-        "button-mcq-10": "「只需按一下控制鍵便能立即完成某項操作」是「at the touch/press of a button」的用法，與本句語境不同。"
+        "button-mcq-15": "本句的「buttoned」指「舉止非常拘謹、正式、保守或不輕易表露情緒的」。",
+        "button-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-15"
     },
@@ -1248,11 +1128,9 @@ export default {
       "masked": "The company used to have a very ____-up culture.",
       "options": [
         "button-mcq-15",
-        "button-mcq-14",
-        "button-mcq-13",
-        "button-mcq-12",
-        "button-mcq-11",
-        "button-mcq-10"
+        "button-mcq-03",
+        "button-mcq-08",
+        "button-mcq-14"
       ],
       "explanation": "本句的「buttoned」指「舉止非常拘謹、正式、保守或不輕易表露情緒的」。",
       "sentenceIndex": 30,
@@ -1261,12 +1139,10 @@ export default {
         "buttoned"
       ],
       "optionReasons": {
-        "button-mcq-15": "本句指「舉止非常拘謹、正式、保守或不輕易表露情緒的」。",
-        "button-mcq-14": "「襯衫領尖可用小鈕扣固定在衣身上的」是「button-down」的用法，與本句語境不同。",
-        "button-mcq-13": "「知道某人的敏感點並故意觸發其強烈情緒反應」是「push someone’s buttons」的用法，與本句語境不同。",
-        "button-mcq-12": "「很容易觸發強烈情緒、意見分歧或爭論的議題」是「hot-button issue」的用法，與本句語境不同。",
-        "button-mcq-11": "「在危險或緊急情況下迅速發出警報／求助訊號的按鈕」是「panic button」的用法，與本句語境不同。",
-        "button-mcq-10": "「只需按一下控制鍵便能立即完成某項操作」是「at the touch/press of a button」的用法，與本句語境不同。"
+        "button-mcq-15": "本句的「buttoned」指「舉止非常拘謹、正式、保守或不輕易表露情緒的」。",
+        "button-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "button-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "button-mcq-15"
     }
@@ -1278,5 +1154,7 @@ export default {
     "sha256": "b4c788c96d22750d018278759679a67a0b528efc9747cafbd7cac6614aab4419",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

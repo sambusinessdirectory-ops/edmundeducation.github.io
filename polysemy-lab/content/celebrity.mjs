@@ -417,10 +417,8 @@ export default {
       "masked": "Several ____ attended the event.",
       "options": [
         "celebrity-mcq-01",
-        "celebrity-mcq-02",
         "celebrity-mcq-03",
-        "celebrity-mcq-04",
-        "celebrity-mcq-05",
+        "celebrity-mcq-15",
         "celebrity-mcq-06"
       ],
       "explanation": "本句的「celebrities」指「因媒體、娛樂、體育、網絡等而被大量公眾認識的人」。",
@@ -430,12 +428,10 @@ export default {
         "celebrities"
       ],
       "optionReasons": {
-        "celebrity-mcq-01": "本句指「因媒體、娛樂、體育、網絡等而被大量公眾認識的人」。",
-        "celebrity-mcq-02": "「有一定知名度，但名氣範圍／程度有限的人」與本句語境不同。",
-        "celebrity-mcq-03": "「在某個地方／社區相當知名，但未必更廣泛成名的人」與本句語境不同。",
-        "celebrity-mcq-04": "「主要透過網絡取得知名度的人」與本句語境不同。",
-        "celebrity-mcq-05": "「公眾知名度／成為名人的狀態」與本句語境不同。",
-        "celebrity-mcq-06": "「社會高度關注明人生活、形象和私事的文化現象」與本句語境不同。"
+        "celebrity-mcq-01": "本句的「celebrities」指「因媒體、娛樂、體育、網絡等而被大量公眾認識的人」。",
+        "celebrity-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-01"
     },
@@ -447,11 +443,9 @@ export default {
       "masked": "She became a ____ after appearing on television.",
       "options": [
         "celebrity-mcq-01",
-        "celebrity-mcq-02",
-        "celebrity-mcq-03",
-        "celebrity-mcq-04",
-        "celebrity-mcq-05",
-        "celebrity-mcq-06"
+        "celebrity-mcq-15",
+        "celebrity-mcq-13",
+        "celebrity-mcq-03"
       ],
       "explanation": "本句的「celebrity」指「因媒體、娛樂、體育、網絡等而被大量公眾認識的人」。",
       "sentenceIndex": 1,
@@ -460,12 +454,10 @@ export default {
         "celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-01": "本句指「因媒體、娛樂、體育、網絡等而被大量公眾認識的人」。",
-        "celebrity-mcq-02": "「有一定知名度，但名氣範圍／程度有限的人」與本句語境不同。",
-        "celebrity-mcq-03": "「在某個地方／社區相當知名，但未必更廣泛成名的人」與本句語境不同。",
-        "celebrity-mcq-04": "「主要透過網絡取得知名度的人」與本句語境不同。",
-        "celebrity-mcq-05": "「公眾知名度／成為名人的狀態」與本句語境不同。",
-        "celebrity-mcq-06": "「社會高度關注明人生活、形象和私事的文化現象」與本句語境不同。"
+        "celebrity-mcq-01": "本句的「celebrity」指「因媒體、娛樂、體育、網絡等而被大量公眾認識的人」。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-01"
     },
@@ -477,11 +469,9 @@ export default {
       "masked": "The viral clip turned him into a ____.",
       "options": [
         "celebrity-mcq-02",
+        "celebrity-mcq-18",
         "celebrity-mcq-01",
-        "celebrity-mcq-03",
-        "celebrity-mcq-04",
-        "celebrity-mcq-05",
-        "celebrity-mcq-06"
+        "celebrity-mcq-13"
       ],
       "explanation": "本句的「minor celebrity」指「有一定知名度，但名氣範圍／程度有限的人」。",
       "sentenceIndex": 4,
@@ -490,12 +480,10 @@ export default {
         "minor celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-02": "本句指「有一定知名度，但名氣範圍／程度有限的人」。",
-        "celebrity-mcq-01": "「因媒體、娛樂、體育、網絡等而被大量公眾認識的人」與本句語境不同。",
-        "celebrity-mcq-03": "「在某個地方／社區相當知名，但未必更廣泛成名的人」與本句語境不同。",
-        "celebrity-mcq-04": "「主要透過網絡取得知名度的人」與本句語境不同。",
-        "celebrity-mcq-05": "「公眾知名度／成為名人的狀態」與本句語境不同。",
-        "celebrity-mcq-06": "「社會高度關注明人生活、形象和私事的文化現象」與本句語境不同。"
+        "celebrity-mcq-02": "本句的「minor celebrity」指「有一定知名度，但名氣範圍／程度有限的人」。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-02"
     },
@@ -508,10 +496,8 @@ export default {
       "options": [
         "celebrity-mcq-02",
         "celebrity-mcq-01",
-        "celebrity-mcq-03",
-        "celebrity-mcq-04",
-        "celebrity-mcq-05",
-        "celebrity-mcq-06"
+        "celebrity-mcq-18",
+        "celebrity-mcq-13"
       ],
       "explanation": "本句的「celebrity」指「有一定知名度，但名氣範圍／程度有限的人」。",
       "sentenceIndex": 5,
@@ -520,12 +506,10 @@ export default {
         "celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-02": "本句指「有一定知名度，但名氣範圍／程度有限的人」。",
-        "celebrity-mcq-01": "「因媒體、娛樂、體育、網絡等而被大量公眾認識的人」與本句語境不同。",
-        "celebrity-mcq-03": "「在某個地方／社區相當知名，但未必更廣泛成名的人」與本句語境不同。",
-        "celebrity-mcq-04": "「主要透過網絡取得知名度的人」與本句語境不同。",
-        "celebrity-mcq-05": "「公眾知名度／成為名人的狀態」與本句語境不同。",
-        "celebrity-mcq-06": "「社會高度關注明人生活、形象和私事的文化現象」與本句語境不同。"
+        "celebrity-mcq-02": "本句的「celebrity」指「有一定知名度，但名氣範圍／程度有限的人」。",
+        "celebrity-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-02"
     },
@@ -537,11 +521,9 @@ export default {
       "masked": "The café owner became a ____.",
       "options": [
         "celebrity-mcq-03",
-        "celebrity-mcq-02",
-        "celebrity-mcq-04",
+        "celebrity-mcq-18",
         "celebrity-mcq-01",
-        "celebrity-mcq-05",
-        "celebrity-mcq-06"
+        "celebrity-mcq-11"
       ],
       "explanation": "本句的「local celebrity」指「在某個地方／社區相當知名，但未必更廣泛成名的人」。",
       "sentenceIndex": 6,
@@ -550,12 +532,10 @@ export default {
         "local celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-03": "本句指「在某個地方／社區相當知名，但未必更廣泛成名的人」。",
-        "celebrity-mcq-02": "「有一定知名度，但名氣範圍／程度有限的人」與本句語境不同。",
-        "celebrity-mcq-04": "「主要透過網絡取得知名度的人」與本句語境不同。",
-        "celebrity-mcq-01": "「因媒體、娛樂、體育、網絡等而被大量公眾認識的人」與本句語境不同。",
-        "celebrity-mcq-05": "「公眾知名度／成為名人的狀態」與本句語境不同。",
-        "celebrity-mcq-06": "「社會高度關注明人生活、形象和私事的文化現象」與本句語境不同。"
+        "celebrity-mcq-03": "本句的「local celebrity」指「在某個地方／社區相當知名，但未必更廣泛成名的人」。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-03"
     },
@@ -567,11 +547,9 @@ export default {
       "masked": "He is something of a local ____.",
       "options": [
         "celebrity-mcq-03",
-        "celebrity-mcq-02",
-        "celebrity-mcq-04",
+        "celebrity-mcq-19",
         "celebrity-mcq-01",
-        "celebrity-mcq-05",
-        "celebrity-mcq-06"
+        "celebrity-mcq-13"
       ],
       "explanation": "本句的「celebrity」指「在某個地方／社區相當知名，但未必更廣泛成名的人」。",
       "sentenceIndex": 7,
@@ -580,12 +558,10 @@ export default {
         "celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-03": "本句指「在某個地方／社區相當知名，但未必更廣泛成名的人」。",
-        "celebrity-mcq-02": "「有一定知名度，但名氣範圍／程度有限的人」與本句語境不同。",
-        "celebrity-mcq-04": "「主要透過網絡取得知名度的人」與本句語境不同。",
-        "celebrity-mcq-01": "「因媒體、娛樂、體育、網絡等而被大量公眾認識的人」與本句語境不同。",
-        "celebrity-mcq-05": "「公眾知名度／成為名人的狀態」與本句語境不同。",
-        "celebrity-mcq-06": "「社會高度關注明人生活、形象和私事的文化現象」與本句語境不同。"
+        "celebrity-mcq-03": "本句的「celebrity」指「在某個地方／社區相當知名，但未必更廣泛成名的人」。",
+        "celebrity-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-03"
     },
@@ -597,11 +573,9 @@ export default {
       "masked": "She became an ____ after one video went viral.",
       "options": [
         "celebrity-mcq-04",
-        "celebrity-mcq-03",
-        "celebrity-mcq-05",
-        "celebrity-mcq-02",
-        "celebrity-mcq-06",
-        "celebrity-mcq-01"
+        "celebrity-mcq-19",
+        "celebrity-mcq-11",
+        "celebrity-mcq-15"
       ],
       "explanation": "本句的「internet celebrity」指「主要透過網絡取得知名度的人」。",
       "sentenceIndex": 8,
@@ -610,12 +584,10 @@ export default {
         "internet celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-04": "本句指「主要透過網絡取得知名度的人」。",
-        "celebrity-mcq-03": "「在某個地方／社區相當知名，但未必更廣泛成名的人」與本句語境不同。",
-        "celebrity-mcq-05": "「公眾知名度／成為名人的狀態」與本句語境不同。",
-        "celebrity-mcq-02": "「有一定知名度，但名氣範圍／程度有限的人」與本句語境不同。",
-        "celebrity-mcq-06": "「社會高度關注明人生活、形象和私事的文化現象」與本句語境不同。",
-        "celebrity-mcq-01": "「因媒體、娛樂、體育、網絡等而被大量公眾認識的人」與本句語境不同。"
+        "celebrity-mcq-04": "本句的「internet celebrity」指「主要透過網絡取得知名度的人」。",
+        "celebrity-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-04"
     },
@@ -627,11 +599,9 @@ export default {
       "masked": "He achieved a degree of ____ after the interview.",
       "options": [
         "celebrity-mcq-07",
-        "celebrity-mcq-06",
-        "celebrity-mcq-08",
-        "celebrity-mcq-05",
-        "celebrity-mcq-09",
-        "celebrity-mcq-04"
+        "celebrity-mcq-15",
+        "celebrity-mcq-18",
+        "celebrity-mcq-06"
       ],
       "explanation": "本句的「celebrity」指「因廣泛公共認知而形成的名人身份／地位」。",
       "sentenceIndex": 10,
@@ -640,12 +610,10 @@ export default {
         "celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-07": "本句指「因廣泛公共認知而形成的名人身份／地位」。",
-        "celebrity-mcq-06": "「社會高度關注明人生活、形象和私事的文化現象」與本句語境不同。",
-        "celebrity-mcq-08": "「名人公開為品牌、產品或服務宣傳／背書」與本句語境不同。",
-        "celebrity-mcq-05": "「公眾知名度／成為名人的狀態」與本句語境不同。",
-        "celebrity-mcq-09": "「將名人的形象、個性和影響力塑造成可管理的公眾品牌」與本句語境不同。",
-        "celebrity-mcq-04": "「主要透過網絡取得知名度的人」與本句語境不同。"
+        "celebrity-mcq-07": "本句的「celebrity」指「因廣泛公共認知而形成的名人身份／地位」。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-07"
     },
@@ -658,10 +626,8 @@ export default {
       "options": [
         "celebrity-mcq-07",
         "celebrity-mcq-06",
-        "celebrity-mcq-08",
-        "celebrity-mcq-05",
-        "celebrity-mcq-09",
-        "celebrity-mcq-04"
+        "celebrity-mcq-18",
+        "celebrity-mcq-15"
       ],
       "explanation": "本句的「celebrity」指「因廣泛公共認知而形成的名人身份／地位」。",
       "sentenceIndex": 11,
@@ -670,12 +636,10 @@ export default {
         "celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-07": "本句指「因廣泛公共認知而形成的名人身份／地位」。",
-        "celebrity-mcq-06": "「社會高度關注明人生活、形象和私事的文化現象」與本句語境不同。",
-        "celebrity-mcq-08": "「名人公開為品牌、產品或服務宣傳／背書」與本句語境不同。",
-        "celebrity-mcq-05": "「公眾知名度／成為名人的狀態」與本句語境不同。",
-        "celebrity-mcq-09": "「將名人的形象、個性和影響力塑造成可管理的公眾品牌」與本句語境不同。",
-        "celebrity-mcq-04": "「主要透過網絡取得知名度的人」與本句語境不同。"
+        "celebrity-mcq-07": "本句的「celebrity」指「因廣泛公共認知而形成的名人身份／地位」。",
+        "celebrity-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-07"
     },
@@ -687,11 +651,9 @@ export default {
       "masked": "The article examines ____.",
       "options": [
         "celebrity-mcq-06",
-        "celebrity-mcq-05",
-        "celebrity-mcq-07",
-        "celebrity-mcq-04",
         "celebrity-mcq-08",
-        "celebrity-mcq-03"
+        "celebrity-mcq-15",
+        "celebrity-mcq-01"
       ],
       "explanation": "本句的「celebrity culture」指「社會高度關注明人生活、形象和私事的文化現象」。",
       "sentenceIndex": 16,
@@ -700,12 +662,10 @@ export default {
         "celebrity culture"
       ],
       "optionReasons": {
-        "celebrity-mcq-06": "本句指「社會高度關注明人生活、形象和私事的文化現象」。",
-        "celebrity-mcq-05": "「公眾知名度／成為名人的狀態」與本句語境不同。",
-        "celebrity-mcq-07": "「因廣泛公共認知而形成的名人身份／地位」與本句語境不同。",
-        "celebrity-mcq-04": "「主要透過網絡取得知名度的人」與本句語境不同。",
-        "celebrity-mcq-08": "「名人公開為品牌、產品或服務宣傳／背書」與本句語境不同。",
-        "celebrity-mcq-03": "「在某個地方／社區相當知名，但未必更廣泛成名的人」與本句語境不同。"
+        "celebrity-mcq-06": "本句的「celebrity culture」指「社會高度關注明人生活、形象和私事的文化現象」。",
+        "celebrity-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-06"
     },
@@ -717,11 +677,9 @@ export default {
       "masked": "Social media has changed ____ culture.",
       "options": [
         "celebrity-mcq-06",
-        "celebrity-mcq-05",
-        "celebrity-mcq-07",
-        "celebrity-mcq-04",
         "celebrity-mcq-08",
-        "celebrity-mcq-03"
+        "celebrity-mcq-15",
+        "celebrity-mcq-01"
       ],
       "explanation": "本句的「celebrity」指「社會高度關注明人生活、形象和私事的文化現象」。",
       "sentenceIndex": 17,
@@ -730,12 +688,10 @@ export default {
         "celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-06": "本句指「社會高度關注明人生活、形象和私事的文化現象」。",
-        "celebrity-mcq-05": "「公眾知名度／成為名人的狀態」與本句語境不同。",
-        "celebrity-mcq-07": "「因廣泛公共認知而形成的名人身份／地位」與本句語境不同。",
-        "celebrity-mcq-04": "「主要透過網絡取得知名度的人」與本句語境不同。",
-        "celebrity-mcq-08": "「名人公開為品牌、產品或服務宣傳／背書」與本句語境不同。",
-        "celebrity-mcq-03": "「在某個地方／社區相當知名，但未必更廣泛成名的人」與本句語境不同。"
+        "celebrity-mcq-06": "本句的「celebrity」指「社會高度關注明人生活、形象和私事的文化現象」。",
+        "celebrity-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-06"
     },
@@ -747,11 +703,9 @@ export default {
       "masked": "The role gave him ____.",
       "options": [
         "celebrity-mcq-07",
-        "celebrity-mcq-06",
-        "celebrity-mcq-08",
-        "celebrity-mcq-05",
-        "celebrity-mcq-09",
-        "celebrity-mcq-04"
+        "celebrity-mcq-18",
+        "celebrity-mcq-15",
+        "celebrity-mcq-06"
       ],
       "explanation": "本句的「celebrity status」指「因廣泛公共認知而形成的名人身份／地位」。",
       "sentenceIndex": 18,
@@ -760,12 +714,10 @@ export default {
         "celebrity status"
       ],
       "optionReasons": {
-        "celebrity-mcq-07": "本句指「因廣泛公共認知而形成的名人身份／地位」。",
-        "celebrity-mcq-06": "「社會高度關注明人生活、形象和私事的文化現象」與本句語境不同。",
-        "celebrity-mcq-08": "「名人公開為品牌、產品或服務宣傳／背書」與本句語境不同。",
-        "celebrity-mcq-05": "「公眾知名度／成為名人的狀態」與本句語境不同。",
-        "celebrity-mcq-09": "「將名人的形象、個性和影響力塑造成可管理的公眾品牌」與本句語境不同。",
-        "celebrity-mcq-04": "「主要透過網絡取得知名度的人」與本句語境不同。"
+        "celebrity-mcq-07": "本句的「celebrity status」指「因廣泛公共認知而形成的名人身份／地位」。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-07"
     },
@@ -777,11 +729,9 @@ export default {
       "masked": "____ status can bring both privilege and pressure.",
       "options": [
         "celebrity-mcq-07",
+        "celebrity-mcq-19",
         "celebrity-mcq-06",
-        "celebrity-mcq-08",
-        "celebrity-mcq-05",
-        "celebrity-mcq-09",
-        "celebrity-mcq-04"
+        "celebrity-mcq-15"
       ],
       "explanation": "本句的「Celebrity」指「因廣泛公共認知而形成的名人身份／地位」。",
       "sentenceIndex": 19,
@@ -790,12 +740,10 @@ export default {
         "Celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-07": "本句指「因廣泛公共認知而形成的名人身份／地位」。",
-        "celebrity-mcq-06": "「社會高度關注明人生活、形象和私事的文化現象」與本句語境不同。",
-        "celebrity-mcq-08": "「名人公開為品牌、產品或服務宣傳／背書」與本句語境不同。",
-        "celebrity-mcq-05": "「公眾知名度／成為名人的狀態」與本句語境不同。",
-        "celebrity-mcq-09": "「將名人的形象、個性和影響力塑造成可管理的公眾品牌」與本句語境不同。",
-        "celebrity-mcq-04": "「主要透過網絡取得知名度的人」與本句語境不同。"
+        "celebrity-mcq-07": "本句的「Celebrity」指「因廣泛公共認知而形成的名人身份／地位」。",
+        "celebrity-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-07"
     },
@@ -807,11 +755,9 @@ export default {
       "masked": "The brand used a ____.",
       "options": [
         "celebrity-mcq-08",
-        "celebrity-mcq-07",
-        "celebrity-mcq-09",
         "celebrity-mcq-06",
-        "celebrity-mcq-10",
-        "celebrity-mcq-05"
+        "celebrity-mcq-01",
+        "celebrity-mcq-15"
       ],
       "explanation": "本句的「celebrity endorsement」指「名人公開為品牌、產品或服務宣傳／背書」。",
       "sentenceIndex": 24,
@@ -820,12 +766,10 @@ export default {
         "celebrity endorsement"
       ],
       "optionReasons": {
-        "celebrity-mcq-08": "本句指「名人公開為品牌、產品或服務宣傳／背書」。",
-        "celebrity-mcq-07": "「因廣泛公共認知而形成的名人身份／地位」與本句語境不同。",
-        "celebrity-mcq-09": "「將名人的形象、個性和影響力塑造成可管理的公眾品牌」與本句語境不同。",
-        "celebrity-mcq-06": "「社會高度關注明人生活、形象和私事的文化現象」與本句語境不同。",
-        "celebrity-mcq-10": "「以名人生活、活動和消息為主題的媒體報道」與本句語境不同。",
-        "celebrity-mcq-05": "「公眾知名度／成為名人的狀態」與本句語境不同。"
+        "celebrity-mcq-08": "本句的「celebrity endorsement」指「名人公開為品牌、產品或服務宣傳／背書」。",
+        "celebrity-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-08"
     },
@@ -837,11 +781,9 @@ export default {
       "masked": "____ endorsements can influence consumer behaviour.",
       "options": [
         "celebrity-mcq-08",
-        "celebrity-mcq-07",
-        "celebrity-mcq-09",
-        "celebrity-mcq-06",
-        "celebrity-mcq-10",
-        "celebrity-mcq-05"
+        "celebrity-mcq-17",
+        "celebrity-mcq-03",
+        "celebrity-mcq-15"
       ],
       "explanation": "本句的「Celebrity」指「名人公開為品牌、產品或服務宣傳／背書」。",
       "sentenceIndex": 25,
@@ -850,12 +792,10 @@ export default {
         "Celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-08": "本句指「名人公開為品牌、產品或服務宣傳／背書」。",
-        "celebrity-mcq-07": "「因廣泛公共認知而形成的名人身份／地位」與本句語境不同。",
-        "celebrity-mcq-09": "「將名人的形象、個性和影響力塑造成可管理的公眾品牌」與本句語境不同。",
-        "celebrity-mcq-06": "「社會高度關注明人生活、形象和私事的文化現象」與本句語境不同。",
-        "celebrity-mcq-10": "「以名人生活、活動和消息為主題的媒體報道」與本句語境不同。",
-        "celebrity-mcq-05": "「公眾知名度／成為名人的狀態」與本句語境不同。"
+        "celebrity-mcq-08": "本句的「Celebrity」指「名人公開為品牌、產品或服務宣傳／背書」。",
+        "celebrity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-08"
     },
@@ -867,11 +807,9 @@ export default {
       "masked": "The study examines ____.",
       "options": [
         "celebrity-mcq-09",
-        "celebrity-mcq-08",
-        "celebrity-mcq-10",
-        "celebrity-mcq-07",
-        "celebrity-mcq-11",
-        "celebrity-mcq-06"
+        "celebrity-mcq-15",
+        "celebrity-mcq-17",
+        "celebrity-mcq-18"
       ],
       "explanation": "本句的「celebrity branding」指「將名人的形象、個性和影響力塑造成可管理的公眾品牌」。",
       "sentenceIndex": 30,
@@ -880,12 +818,10 @@ export default {
         "celebrity branding"
       ],
       "optionReasons": {
-        "celebrity-mcq-09": "本句指「將名人的形象、個性和影響力塑造成可管理的公眾品牌」。",
-        "celebrity-mcq-08": "「名人公開為品牌、產品或服務宣傳／背書」與本句語境不同。",
-        "celebrity-mcq-10": "「以名人生活、活動和消息為主題的媒體報道」與本句語境不同。",
-        "celebrity-mcq-07": "「因廣泛公共認知而形成的名人身份／地位」與本句語境不同。",
-        "celebrity-mcq-11": "「關於名人私人生活的非正式／八卦消息」與本句語境不同。",
-        "celebrity-mcq-06": "「社會高度關注明人生活、形象和私事的文化現象」與本句語境不同。"
+        "celebrity-mcq-09": "本句的「celebrity branding」指「將名人的形象、個性和影響力塑造成可管理的公眾品牌」。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-09"
     },
@@ -897,11 +833,8 @@ export default {
       "masked": "____ branding often combines image, products and audience relationships.",
       "options": [
         "celebrity-mcq-09",
-        "celebrity-mcq-08",
-        "celebrity-mcq-10",
-        "celebrity-mcq-07",
-        "celebrity-mcq-11",
-        "celebrity-mcq-06"
+        "celebrity-mcq-02",
+        "celebrity-mcq-18"
       ],
       "explanation": "本句的「Celebrity」指「將名人的形象、個性和影響力塑造成可管理的公眾品牌」。",
       "sentenceIndex": 31,
@@ -910,12 +843,9 @@ export default {
         "Celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-09": "本句指「將名人的形象、個性和影響力塑造成可管理的公眾品牌」。",
-        "celebrity-mcq-08": "「名人公開為品牌、產品或服務宣傳／背書」與本句語境不同。",
-        "celebrity-mcq-10": "「以名人生活、活動和消息為主題的媒體報道」與本句語境不同。",
-        "celebrity-mcq-07": "「因廣泛公共認知而形成的名人身份／地位」與本句語境不同。",
-        "celebrity-mcq-11": "「關於名人私人生活的非正式／八卦消息」與本句語境不同。",
-        "celebrity-mcq-06": "「社會高度關注明人生活、形象和私事的文化現象」與本句語境不同。"
+        "celebrity-mcq-09": "本句的「Celebrity」指「將名人的形象、個性和影響力塑造成可管理的公眾品牌」。",
+        "celebrity-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-09"
     },
@@ -927,11 +857,9 @@ export default {
       "masked": "The website focuses on ____.",
       "options": [
         "celebrity-mcq-10",
-        "celebrity-mcq-09",
-        "celebrity-mcq-11",
-        "celebrity-mcq-08",
-        "celebrity-mcq-12",
-        "celebrity-mcq-07"
+        "celebrity-mcq-18",
+        "celebrity-mcq-17",
+        "celebrity-mcq-03"
       ],
       "explanation": "本句的「celebrity news」指「以名人生活、活動和消息為主題的媒體報道」。",
       "sentenceIndex": 36,
@@ -940,12 +868,10 @@ export default {
         "celebrity news"
       ],
       "optionReasons": {
-        "celebrity-mcq-10": "本句指「以名人生活、活動和消息為主題的媒體報道」。",
-        "celebrity-mcq-09": "「將名人的形象、個性和影響力塑造成可管理的公眾品牌」與本句語境不同。",
-        "celebrity-mcq-11": "「關於名人私人生活的非正式／八卦消息」與本句語境不同。",
-        "celebrity-mcq-08": "「名人公開為品牌、產品或服務宣傳／背書」與本句語境不同。",
-        "celebrity-mcq-12": "「因名人參與而使產品、議題或活動得到更多注意／影響」與本句語境不同。",
-        "celebrity-mcq-07": "「因廣泛公共認知而形成的名人身份／地位」與本句語境不同。"
+        "celebrity-mcq-10": "本句的「celebrity news」指「以名人生活、活動和消息為主題的媒體報道」。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-10"
     },
@@ -957,11 +883,9 @@ export default {
       "masked": "____ news spreads quickly online.",
       "options": [
         "celebrity-mcq-10",
-        "celebrity-mcq-09",
-        "celebrity-mcq-11",
-        "celebrity-mcq-08",
-        "celebrity-mcq-12",
-        "celebrity-mcq-07"
+        "celebrity-mcq-17",
+        "celebrity-mcq-18",
+        "celebrity-mcq-15"
       ],
       "explanation": "本句的「Celebrity」指「以名人生活、活動和消息為主題的媒體報道」。",
       "sentenceIndex": 37,
@@ -970,12 +894,10 @@ export default {
         "Celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-10": "本句指「以名人生活、活動和消息為主題的媒體報道」。",
-        "celebrity-mcq-09": "「將名人的形象、個性和影響力塑造成可管理的公眾品牌」與本句語境不同。",
-        "celebrity-mcq-11": "「關於名人私人生活的非正式／八卦消息」與本句語境不同。",
-        "celebrity-mcq-08": "「名人公開為品牌、產品或服務宣傳／背書」與本句語境不同。",
-        "celebrity-mcq-12": "「因名人參與而使產品、議題或活動得到更多注意／影響」與本句語境不同。",
-        "celebrity-mcq-07": "「因廣泛公共認知而形成的名人身份／地位」與本句語境不同。"
+        "celebrity-mcq-10": "本句的「Celebrity」指「以名人生活、活動和消息為主題的媒體報道」。",
+        "celebrity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-10"
     },
@@ -987,11 +909,9 @@ export default {
       "masked": "The magazine is full of ____.",
       "options": [
         "celebrity-mcq-11",
-        "celebrity-mcq-10",
-        "celebrity-mcq-12",
-        "celebrity-mcq-09",
-        "celebrity-mcq-13",
-        "celebrity-mcq-08"
+        "celebrity-mcq-18",
+        "celebrity-mcq-17",
+        "celebrity-mcq-01"
       ],
       "explanation": "本句的「celebrity gossip」指「關於名人私人生活的非正式／八卦消息」。",
       "sentenceIndex": 38,
@@ -1000,12 +920,10 @@ export default {
         "celebrity gossip"
       ],
       "optionReasons": {
-        "celebrity-mcq-11": "本句指「關於名人私人生活的非正式／八卦消息」。",
-        "celebrity-mcq-10": "「以名人生活、活動和消息為主題的媒體報道」與本句語境不同。",
-        "celebrity-mcq-12": "「因名人參與而使產品、議題或活動得到更多注意／影響」與本句語境不同。",
-        "celebrity-mcq-09": "「將名人的形象、個性和影響力塑造成可管理的公眾品牌」與本句語境不同。",
-        "celebrity-mcq-13": "「對名人產生強烈崇拜、關注或情感投入的現象」與本句語境不同。",
-        "celebrity-mcq-08": "「名人公開為品牌、產品或服務宣傳／背書」與本句語境不同。"
+        "celebrity-mcq-11": "本句的「celebrity gossip」指「關於名人私人生活的非正式／八卦消息」。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-11"
     },
@@ -1017,11 +935,9 @@ export default {
       "masked": "She avoids ____ gossip.",
       "options": [
         "celebrity-mcq-11",
-        "celebrity-mcq-10",
-        "celebrity-mcq-12",
-        "celebrity-mcq-09",
-        "celebrity-mcq-13",
-        "celebrity-mcq-08"
+        "celebrity-mcq-17",
+        "celebrity-mcq-18",
+        "celebrity-mcq-01"
       ],
       "explanation": "本句的「celebrity」指「關於名人私人生活的非正式／八卦消息」。",
       "sentenceIndex": 39,
@@ -1030,12 +946,10 @@ export default {
         "celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-11": "本句指「關於名人私人生活的非正式／八卦消息」。",
-        "celebrity-mcq-10": "「以名人生活、活動和消息為主題的媒體報道」與本句語境不同。",
-        "celebrity-mcq-12": "「因名人參與而使產品、議題或活動得到更多注意／影響」與本句語境不同。",
-        "celebrity-mcq-09": "「將名人的形象、個性和影響力塑造成可管理的公眾品牌」與本句語境不同。",
-        "celebrity-mcq-13": "「對名人產生強烈崇拜、關注或情感投入的現象」與本句語境不同。",
-        "celebrity-mcq-08": "「名人公開為品牌、產品或服務宣傳／背書」與本句語境不同。"
+        "celebrity-mcq-11": "本句的「celebrity」指「關於名人私人生活的非正式／八卦消息」。",
+        "celebrity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-11"
     },
@@ -1047,11 +961,9 @@ export default {
       "masked": "Sales rose because of the ____.",
       "options": [
         "celebrity-mcq-12",
-        "celebrity-mcq-11",
-        "celebrity-mcq-13",
-        "celebrity-mcq-10",
-        "celebrity-mcq-14",
-        "celebrity-mcq-09"
+        "celebrity-mcq-18",
+        "celebrity-mcq-03",
+        "celebrity-mcq-01"
       ],
       "explanation": "本句的「celebrity effect」指「因名人參與而使產品、議題或活動得到更多注意／影響」。",
       "sentenceIndex": 54,
@@ -1060,12 +972,10 @@ export default {
         "celebrity effect"
       ],
       "optionReasons": {
-        "celebrity-mcq-12": "本句指「因名人參與而使產品、議題或活動得到更多注意／影響」。",
-        "celebrity-mcq-11": "「關於名人私人生活的非正式／八卦消息」與本句語境不同。",
-        "celebrity-mcq-13": "「對名人產生強烈崇拜、關注或情感投入的現象」與本句語境不同。",
-        "celebrity-mcq-10": "「以名人生活、活動和消息為主題的媒體報道」與本句語境不同。",
-        "celebrity-mcq-14": "「在極短時間內突然獲得大量公眾知名度的人」與本句語境不同。",
-        "celebrity-mcq-09": "「將名人的形象、個性和影響力塑造成可管理的公眾品牌」與本句語境不同。"
+        "celebrity-mcq-12": "本句的「celebrity effect」指「因名人參與而使產品、議題或活動得到更多注意／影響」。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-12"
     },
@@ -1077,11 +987,9 @@ export default {
       "masked": "The ____ effect can increase public attention.",
       "options": [
         "celebrity-mcq-12",
-        "celebrity-mcq-11",
-        "celebrity-mcq-13",
-        "celebrity-mcq-10",
-        "celebrity-mcq-14",
-        "celebrity-mcq-09"
+        "celebrity-mcq-18",
+        "celebrity-mcq-15",
+        "celebrity-mcq-01"
       ],
       "explanation": "本句的「celebrity」指「因名人參與而使產品、議題或活動得到更多注意／影響」。",
       "sentenceIndex": 55,
@@ -1090,12 +998,10 @@ export default {
         "celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-12": "本句指「因名人參與而使產品、議題或活動得到更多注意／影響」。",
-        "celebrity-mcq-11": "「關於名人私人生活的非正式／八卦消息」與本句語境不同。",
-        "celebrity-mcq-13": "「對名人產生強烈崇拜、關注或情感投入的現象」與本句語境不同。",
-        "celebrity-mcq-10": "「以名人生活、活動和消息為主題的媒體報道」與本句語境不同。",
-        "celebrity-mcq-14": "「在極短時間內突然獲得大量公眾知名度的人」與本句語境不同。",
-        "celebrity-mcq-09": "「將名人的形象、個性和影響力塑造成可管理的公眾品牌」與本句語境不同。"
+        "celebrity-mcq-12": "本句的「celebrity」指「因名人參與而使產品、議題或活動得到更多注意／影響」。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-12"
     },
@@ -1107,11 +1013,9 @@ export default {
       "masked": "His ____ gave him access to powerful networks.",
       "options": [
         "celebrity-mcq-07",
+        "celebrity-mcq-19",
         "celebrity-mcq-06",
-        "celebrity-mcq-08",
-        "celebrity-mcq-05",
-        "celebrity-mcq-09",
-        "celebrity-mcq-04"
+        "celebrity-mcq-15"
       ],
       "explanation": "本句的「celebrity」指「因廣泛公共認知而形成的名人身份／地位」。",
       "sentenceIndex": 56,
@@ -1120,12 +1024,10 @@ export default {
         "celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-07": "本句指「因廣泛公共認知而形成的名人身份／地位」。",
-        "celebrity-mcq-06": "「社會高度關注明人生活、形象和私事的文化現象」與本句語境不同。",
-        "celebrity-mcq-08": "「名人公開為品牌、產品或服務宣傳／背書」與本句語境不同。",
-        "celebrity-mcq-05": "「公眾知名度／成為名人的狀態」與本句語境不同。",
-        "celebrity-mcq-09": "「將名人的形象、個性和影響力塑造成可管理的公眾品牌」與本句語境不同。",
-        "celebrity-mcq-04": "「主要透過網絡取得知名度的人」與本句語境不同。"
+        "celebrity-mcq-07": "本句的「celebrity」指「因廣泛公共認知而形成的名人身份／地位」。",
+        "celebrity-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-07"
     },
@@ -1137,11 +1039,9 @@ export default {
       "masked": "____ can become a form of social capital.",
       "options": [
         "celebrity-mcq-07",
-        "celebrity-mcq-06",
-        "celebrity-mcq-08",
-        "celebrity-mcq-05",
-        "celebrity-mcq-09",
-        "celebrity-mcq-04"
+        "celebrity-mcq-18",
+        "celebrity-mcq-15",
+        "celebrity-mcq-06"
       ],
       "explanation": "本句的「Celebrity」指「因廣泛公共認知而形成的名人身份／地位」。",
       "sentenceIndex": 57,
@@ -1150,12 +1050,10 @@ export default {
         "Celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-07": "本句指「因廣泛公共認知而形成的名人身份／地位」。",
-        "celebrity-mcq-06": "「社會高度關注明人生活、形象和私事的文化現象」與本句語境不同。",
-        "celebrity-mcq-08": "「名人公開為品牌、產品或服務宣傳／背書」與本句語境不同。",
-        "celebrity-mcq-05": "「公眾知名度／成為名人的狀態」與本句語境不同。",
-        "celebrity-mcq-09": "「將名人的形象、個性和影響力塑造成可管理的公眾品牌」與本句語境不同。",
-        "celebrity-mcq-04": "「主要透過網絡取得知名度的人」與本句語境不同。"
+        "celebrity-mcq-07": "本句的「Celebrity」指「因廣泛公共認知而形成的名人身份／地位」。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-07"
     },
@@ -1167,11 +1065,9 @@ export default {
       "masked": "The event attracted several ____.",
       "options": [
         "celebrity-mcq-16",
-        "celebrity-mcq-15",
-        "celebrity-mcq-17",
-        "celebrity-mcq-14",
         "celebrity-mcq-18",
-        "celebrity-mcq-13"
+        "celebrity-mcq-15",
+        "celebrity-mcq-06"
       ],
       "explanation": "本句的「A-list celebrities」指「知名度和公眾地位非常高的一線名人」。",
       "sentenceIndex": 61,
@@ -1180,12 +1076,10 @@ export default {
         "A-list celebrities"
       ],
       "optionReasons": {
-        "celebrity-mcq-16": "本句指「知名度和公眾地位非常高的一線名人」。",
-        "celebrity-mcq-15": "「名氣只維持短時間的人」與本句語境不同。",
-        "celebrity-mcq-17": "「因成就而廣為人知並受到高度讚譽的」與本句語境不同。",
-        "celebrity-mcq-14": "「在極短時間內突然獲得大量公眾知名度的人」與本句語境不同。",
-        "celebrity-mcq-18": "「為事件表示喜悅／紀念，或公開頌揚某價值／人物」與本句語境不同。",
-        "celebrity-mcq-13": "「對名人產生強烈崇拜、關注或情感投入的現象」與本句語境不同。"
+        "celebrity-mcq-16": "本句的「A-list celebrities」指「知名度和公眾地位非常高的一線名人」。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-16"
     },
@@ -1197,11 +1091,9 @@ export default {
       "masked": "Researchers have studied ____.",
       "options": [
         "celebrity-mcq-13",
-        "celebrity-mcq-12",
-        "celebrity-mcq-14",
-        "celebrity-mcq-11",
-        "celebrity-mcq-15",
-        "celebrity-mcq-10"
+        "celebrity-mcq-19",
+        "celebrity-mcq-01",
+        "celebrity-mcq-17"
       ],
       "explanation": "本句的「celebrity worship」指「對名人產生強烈崇拜、關注或情感投入的現象」。",
       "sentenceIndex": 74,
@@ -1210,12 +1102,10 @@ export default {
         "celebrity worship"
       ],
       "optionReasons": {
-        "celebrity-mcq-13": "本句指「對名人產生強烈崇拜、關注或情感投入的現象」。",
-        "celebrity-mcq-12": "「因名人參與而使產品、議題或活動得到更多注意／影響」與本句語境不同。",
-        "celebrity-mcq-14": "「在極短時間內突然獲得大量公眾知名度的人」與本句語境不同。",
-        "celebrity-mcq-11": "「關於名人私人生活的非正式／八卦消息」與本句語境不同。",
-        "celebrity-mcq-15": "「名氣只維持短時間的人」與本句語境不同。",
-        "celebrity-mcq-10": "「以名人生活、活動和消息為主題的媒體報道」與本句語境不同。"
+        "celebrity-mcq-13": "本句的「celebrity worship」指「對名人產生強烈崇拜、關注或情感投入的現象」。",
+        "celebrity-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-13"
     },
@@ -1227,11 +1117,9 @@ export default {
       "masked": "____ worship can range from casual interest to intense emotional involvement.",
       "options": [
         "celebrity-mcq-13",
-        "celebrity-mcq-12",
-        "celebrity-mcq-14",
-        "celebrity-mcq-11",
-        "celebrity-mcq-15",
-        "celebrity-mcq-10"
+        "celebrity-mcq-17",
+        "celebrity-mcq-01",
+        "celebrity-mcq-18"
       ],
       "explanation": "本句的「Celebrity」指「對名人產生強烈崇拜、關注或情感投入的現象」。",
       "sentenceIndex": 75,
@@ -1240,12 +1128,10 @@ export default {
         "Celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-13": "本句指「對名人產生強烈崇拜、關注或情感投入的現象」。",
-        "celebrity-mcq-12": "「因名人參與而使產品、議題或活動得到更多注意／影響」與本句語境不同。",
-        "celebrity-mcq-14": "「在極短時間內突然獲得大量公眾知名度的人」與本句語境不同。",
-        "celebrity-mcq-11": "「關於名人私人生活的非正式／八卦消息」與本句語境不同。",
-        "celebrity-mcq-15": "「名氣只維持短時間的人」與本句語境不同。",
-        "celebrity-mcq-10": "「以名人生活、活動和消息為主題的媒體報道」與本句語境不同。"
+        "celebrity-mcq-13": "本句的「Celebrity」指「對名人產生強烈崇拜、關注或情感投入的現象」。",
+        "celebrity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-13"
     },
@@ -1257,11 +1143,9 @@ export default {
       "masked": "The viral clip made him a ____.",
       "options": [
         "celebrity-mcq-15",
-        "celebrity-mcq-14",
-        "celebrity-mcq-16",
-        "celebrity-mcq-13",
+        "celebrity-mcq-18",
         "celebrity-mcq-17",
-        "celebrity-mcq-12"
+        "celebrity-mcq-01"
       ],
       "explanation": "本句的「temporary celebrity」指「名氣只維持短時間的人」。",
       "sentenceIndex": 95,
@@ -1270,12 +1154,10 @@ export default {
         "temporary celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-15": "本句指「名氣只維持短時間的人」。",
-        "celebrity-mcq-14": "「在極短時間內突然獲得大量公眾知名度的人」與本句語境不同。",
-        "celebrity-mcq-16": "「知名度和公眾地位非常高的一線名人」與本句語境不同。",
-        "celebrity-mcq-13": "「對名人產生強烈崇拜、關注或情感投入的現象」與本句語境不同。",
-        "celebrity-mcq-17": "「因成就而廣為人知並受到高度讚譽的」與本句語境不同。",
-        "celebrity-mcq-12": "「因名人參與而使產品、議題或活動得到更多注意／影響」與本句語境不同。"
+        "celebrity-mcq-15": "本句的「temporary celebrity」指「名氣只維持短時間的人」。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-15"
     },
@@ -1287,11 +1169,9 @@ export default {
       "masked": "Internet fame can create temporary ____.",
       "options": [
         "celebrity-mcq-15",
-        "celebrity-mcq-14",
-        "celebrity-mcq-16",
-        "celebrity-mcq-13",
-        "celebrity-mcq-17",
-        "celebrity-mcq-12"
+        "celebrity-mcq-01",
+        "celebrity-mcq-19",
+        "celebrity-mcq-06"
       ],
       "explanation": "本句的「celebrity」指「名氣只維持短時間的人」。",
       "sentenceIndex": 96,
@@ -1300,12 +1180,10 @@ export default {
         "celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-15": "本句指「名氣只維持短時間的人」。",
-        "celebrity-mcq-14": "「在極短時間內突然獲得大量公眾知名度的人」與本句語境不同。",
-        "celebrity-mcq-16": "「知名度和公眾地位非常高的一線名人」與本句語境不同。",
-        "celebrity-mcq-13": "「對名人產生強烈崇拜、關注或情感投入的現象」與本句語境不同。",
-        "celebrity-mcq-17": "「因成就而廣為人知並受到高度讚譽的」與本句語境不同。",
-        "celebrity-mcq-12": "「因名人參與而使產品、議題或活動得到更多注意／影響」與本句語境不同。"
+        "celebrity-mcq-15": "本句的「celebrity」指「名氣只維持短時間的人」。",
+        "celebrity-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-15"
     },
@@ -1317,11 +1195,9 @@ export default {
       "masked": "She became an ____.",
       "options": [
         "celebrity-mcq-14",
-        "celebrity-mcq-13",
-        "celebrity-mcq-15",
-        "celebrity-mcq-12",
-        "celebrity-mcq-16",
-        "celebrity-mcq-11"
+        "celebrity-mcq-18",
+        "celebrity-mcq-11",
+        "celebrity-mcq-17"
       ],
       "explanation": "本句的「overnight celebrity」指「在極短時間內突然獲得大量公眾知名度的人」。",
       "sentenceIndex": 97,
@@ -1330,12 +1206,10 @@ export default {
         "overnight celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-14": "本句指「在極短時間內突然獲得大量公眾知名度的人」。",
-        "celebrity-mcq-13": "「對名人產生強烈崇拜、關注或情感投入的現象」與本句語境不同。",
-        "celebrity-mcq-15": "「名氣只維持短時間的人」與本句語境不同。",
-        "celebrity-mcq-12": "「因名人參與而使產品、議題或活動得到更多注意／影響」與本句語境不同。",
-        "celebrity-mcq-16": "「知名度和公眾地位非常高的一線名人」與本句語境不同。",
-        "celebrity-mcq-11": "「關於名人私人生活的非正式／八卦消息」與本句語境不同。"
+        "celebrity-mcq-14": "本句的「overnight celebrity」指「在極短時間內突然獲得大量公眾知名度的人」。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-14"
     },
@@ -1347,11 +1221,9 @@ export default {
       "masked": "One viral clip can create an overnight ____.",
       "options": [
         "celebrity-mcq-14",
-        "celebrity-mcq-13",
-        "celebrity-mcq-15",
-        "celebrity-mcq-12",
-        "celebrity-mcq-16",
-        "celebrity-mcq-11"
+        "celebrity-mcq-06",
+        "celebrity-mcq-19",
+        "celebrity-mcq-07"
       ],
       "explanation": "本句的「celebrity」指「在極短時間內突然獲得大量公眾知名度的人」。",
       "sentenceIndex": 98,
@@ -1360,12 +1232,10 @@ export default {
         "celebrity"
       ],
       "optionReasons": {
-        "celebrity-mcq-14": "本句指「在極短時間內突然獲得大量公眾知名度的人」。",
-        "celebrity-mcq-13": "「對名人產生強烈崇拜、關注或情感投入的現象」與本句語境不同。",
-        "celebrity-mcq-15": "「名氣只維持短時間的人」與本句語境不同。",
-        "celebrity-mcq-12": "「因名人參與而使產品、議題或活動得到更多注意／影響」與本句語境不同。",
-        "celebrity-mcq-16": "「知名度和公眾地位非常高的一線名人」與本句語境不同。",
-        "celebrity-mcq-11": "「關於名人私人生活的非正式／八卦消息」與本句語境不同。"
+        "celebrity-mcq-14": "本句的「celebrity」指「在極短時間內突然獲得大量公眾知名度的人」。",
+        "celebrity-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-14"
     },
@@ -1377,11 +1247,9 @@ export default {
       "masked": "She is a ____.",
       "options": [
         "celebrity-mcq-17",
-        "celebrity-mcq-16",
+        "celebrity-mcq-10",
         "celebrity-mcq-18",
-        "celebrity-mcq-15",
-        "celebrity-mcq-19",
-        "celebrity-mcq-14"
+        "celebrity-mcq-15"
       ],
       "explanation": "本句的「celebrated author」指「因成就而廣為人知並受到高度讚譽的」。",
       "sentenceIndex": 108,
@@ -1390,12 +1258,10 @@ export default {
         "celebrated author"
       ],
       "optionReasons": {
-        "celebrity-mcq-17": "本句指「因成就而廣為人知並受到高度讚譽的」。",
-        "celebrity-mcq-16": "「知名度和公眾地位非常高的一線名人」與本句語境不同。",
-        "celebrity-mcq-18": "「為事件表示喜悅／紀念，或公開頌揚某價值／人物」與本句語境不同。",
-        "celebrity-mcq-15": "「名氣只維持短時間的人」與本句語境不同。",
-        "celebrity-mcq-19": "「慶祝某事件的活動，或對某事物的公開頌揚」與本句語境不同。",
-        "celebrity-mcq-14": "「在極短時間內突然獲得大量公眾知名度的人」與本句語境不同。"
+        "celebrity-mcq-17": "本句的「celebrated author」指「因成就而廣為人知並受到高度讚譽的」。",
+        "celebrity-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-17"
     },
@@ -1407,11 +1273,8 @@ export default {
       "masked": "They ____ the success.",
       "options": [
         "celebrity-mcq-18",
-        "celebrity-mcq-17",
-        "celebrity-mcq-19",
-        "celebrity-mcq-16",
-        "celebrity-mcq-15",
-        "celebrity-mcq-14"
+        "celebrity-mcq-10",
+        "celebrity-mcq-02"
       ],
       "explanation": "本句的「celebrated」指「為事件表示喜悅／紀念，或公開頌揚某價值／人物」。",
       "sentenceIndex": 109,
@@ -1420,12 +1283,9 @@ export default {
         "celebrated"
       ],
       "optionReasons": {
-        "celebrity-mcq-18": "本句指「為事件表示喜悅／紀念，或公開頌揚某價值／人物」。",
-        "celebrity-mcq-17": "「因成就而廣為人知並受到高度讚譽的」與本句語境不同。",
-        "celebrity-mcq-19": "「慶祝某事件的活動，或對某事物的公開頌揚」與本句語境不同。",
-        "celebrity-mcq-16": "「知名度和公眾地位非常高的一線名人」與本句語境不同。",
-        "celebrity-mcq-15": "「名氣只維持短時間的人」與本句語境不同。",
-        "celebrity-mcq-14": "「在極短時間內突然獲得大量公眾知名度的人」與本句語境不同。"
+        "celebrity-mcq-18": "本句的「celebrated」指「為事件表示喜悅／紀念，或公開頌揚某價值／人物」。",
+        "celebrity-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-18"
     },
@@ -1437,11 +1297,9 @@ export default {
       "masked": "They held a ____ after the result.",
       "options": [
         "celebrity-mcq-19",
-        "celebrity-mcq-18",
+        "celebrity-mcq-03",
         "celebrity-mcq-17",
-        "celebrity-mcq-16",
-        "celebrity-mcq-15",
-        "celebrity-mcq-14"
+        "celebrity-mcq-13"
       ],
       "explanation": "本句的「celebration」指「慶祝某事件的活動，或對某事物的公開頌揚」。",
       "sentenceIndex": 111,
@@ -1450,12 +1308,10 @@ export default {
         "celebration"
       ],
       "optionReasons": {
-        "celebrity-mcq-19": "本句指「慶祝某事件的活動，或對某事物的公開頌揚」。",
-        "celebrity-mcq-18": "「為事件表示喜悅／紀念，或公開頌揚某價值／人物」與本句語境不同。",
-        "celebrity-mcq-17": "「因成就而廣為人知並受到高度讚譽的」與本句語境不同。",
-        "celebrity-mcq-16": "「知名度和公眾地位非常高的一線名人」與本句語境不同。",
-        "celebrity-mcq-15": "「名氣只維持短時間的人」與本句語境不同。",
-        "celebrity-mcq-14": "「在極短時間內突然獲得大量公眾知名度的人」與本句語境不同。"
+        "celebrity-mcq-19": "本句的「celebration」指「慶祝某事件的活動，或對某事物的公開頌揚」。",
+        "celebrity-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "celebrity-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "celebrity-mcq-19"
     }
@@ -1467,5 +1323,7 @@ export default {
     "sha256": "9885f5fbedbb76a16794a7cad0336cef2fc5d338fa7a53a5a93f240531ae4482",
     "pages": 43
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

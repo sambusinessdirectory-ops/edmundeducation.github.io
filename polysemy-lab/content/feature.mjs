@@ -261,11 +261,7 @@ export default {
       "masked": "The ad mentioned practical ____ like comfort, battery life, and sound quality.",
       "options": [
         "feature-mcq-01",
-        "feature-mcq-02",
-        "feature-mcq-03",
-        "feature-mcq-04",
-        "feature-mcq-05",
-        "feature-mcq-06"
+        "feature-mcq-05"
       ],
       "explanation": "本句的「features」指「產品、服務或系統本身具備並具有實際作用的重要功能／特點」。",
       "sentenceIndex": 0,
@@ -274,12 +270,8 @@ export default {
         "features"
       ],
       "optionReasons": {
-        "feature-mcq-01": "本句指「產品、服務或系統本身具備並具有實際作用的重要功能／特點」。",
-        "feature-mcq-02": "「能令某事物具有辨識度或與其他事物區分開來的特徵」是「feature — characteristic」的用法，與本句語境不同。",
-        "feature-mcq-03": "「構成某件事情的重要、明顯或具代表性的部分」是「feature — important element」的用法，與本句語境不同。",
-        "feature-mcq-04": "「構成一個人面貌的眼、鼻、口、輪廓等特徵」是「facial features」的用法，與本句語境不同。",
-        "feature-mcq-05": "「對人物、議題或主題作較深入介紹和描寫的專題文章」是「feature — article」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。"
+        "feature-mcq-01": "本句的「features」指「產品、服務或系統本身具備並具有實際作用的重要功能／特點」。",
+        "feature-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-01"
     },
@@ -291,11 +283,7 @@ export default {
       "masked": "Noise cancellation is one of the headphones’ best ____.",
       "options": [
         "feature-mcq-01",
-        "feature-mcq-02",
-        "feature-mcq-03",
-        "feature-mcq-04",
-        "feature-mcq-05",
-        "feature-mcq-06"
+        "feature-mcq-05"
       ],
       "explanation": "本句的「features」指「產品、服務或系統本身具備並具有實際作用的重要功能／特點」。",
       "sentenceIndex": 1,
@@ -304,12 +292,8 @@ export default {
         "features"
       ],
       "optionReasons": {
-        "feature-mcq-01": "本句指「產品、服務或系統本身具備並具有實際作用的重要功能／特點」。",
-        "feature-mcq-02": "「能令某事物具有辨識度或與其他事物區分開來的特徵」是「feature — characteristic」的用法，與本句語境不同。",
-        "feature-mcq-03": "「構成某件事情的重要、明顯或具代表性的部分」是「feature — important element」的用法，與本句語境不同。",
-        "feature-mcq-04": "「構成一個人面貌的眼、鼻、口、輪廓等特徵」是「facial features」的用法，與本句語境不同。",
-        "feature-mcq-05": "「對人物、議題或主題作較深入介紹和描寫的專題文章」是「feature — article」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。"
+        "feature-mcq-01": "本句的「features」指「產品、服務或系統本身具備並具有實際作用的重要功能／特點」。",
+        "feature-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-01"
     },
@@ -321,11 +305,7 @@ export default {
       "masked": "The app has several useful security ____.",
       "options": [
         "feature-mcq-01",
-        "feature-mcq-02",
-        "feature-mcq-03",
-        "feature-mcq-04",
-        "feature-mcq-05",
-        "feature-mcq-06"
+        "feature-mcq-05"
       ],
       "explanation": "本句的「features」指「產品、服務或系統本身具備並具有實際作用的重要功能／特點」。",
       "sentenceIndex": 2,
@@ -334,12 +314,8 @@ export default {
         "features"
       ],
       "optionReasons": {
-        "feature-mcq-01": "本句指「產品、服務或系統本身具備並具有實際作用的重要功能／特點」。",
-        "feature-mcq-02": "「能令某事物具有辨識度或與其他事物區分開來的特徵」是「feature — characteristic」的用法，與本句語境不同。",
-        "feature-mcq-03": "「構成某件事情的重要、明顯或具代表性的部分」是「feature — important element」的用法，與本句語境不同。",
-        "feature-mcq-04": "「構成一個人面貌的眼、鼻、口、輪廓等特徵」是「facial features」的用法，與本句語境不同。",
-        "feature-mcq-05": "「對人物、議題或主題作較深入介紹和描寫的專題文章」是「feature — article」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。"
+        "feature-mcq-01": "本句的「features」指「產品、服務或系統本身具備並具有實際作用的重要功能／特點」。",
+        "feature-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-01"
     },
@@ -351,11 +327,8 @@ export default {
       "masked": "Large windows are a common ____ of modern offices.",
       "options": [
         "feature-mcq-02",
-        "feature-mcq-01",
-        "feature-mcq-03",
-        "feature-mcq-04",
         "feature-mcq-05",
-        "feature-mcq-06"
+        "feature-mcq-09"
       ],
       "explanation": "本句的「feature」指「能令某事物具有辨識度或與其他事物區分開來的特徵」。",
       "sentenceIndex": 3,
@@ -364,12 +337,9 @@ export default {
         "feature"
       ],
       "optionReasons": {
-        "feature-mcq-02": "本句指「能令某事物具有辨識度或與其他事物區分開來的特徵」。",
-        "feature-mcq-01": "「產品、服務或系統本身具備並具有實際作用的重要功能／特點」是「feature — product/system」的用法，與本句語境不同。",
-        "feature-mcq-03": "「構成某件事情的重要、明顯或具代表性的部分」是「feature — important element」的用法，與本句語境不同。",
-        "feature-mcq-04": "「構成一個人面貌的眼、鼻、口、輪廓等特徵」是「facial features」的用法，與本句語境不同。",
-        "feature-mcq-05": "「對人物、議題或主題作較深入介紹和描寫的專題文章」是「feature — article」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。"
+        "feature-mcq-02": "本句的「feature」指「能令某事物具有辨識度或與其他事物區分開來的特徵」。",
+        "feature-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "feature-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-02"
     },
@@ -381,11 +351,7 @@ export default {
       "masked": "One unusual ____ of the building is its curved roof.",
       "options": [
         "feature-mcq-02",
-        "feature-mcq-01",
-        "feature-mcq-03",
-        "feature-mcq-04",
-        "feature-mcq-05",
-        "feature-mcq-06"
+        "feature-mcq-07"
       ],
       "explanation": "本句的「feature」指「能令某事物具有辨識度或與其他事物區分開來的特徵」。",
       "sentenceIndex": 4,
@@ -394,12 +360,8 @@ export default {
         "feature"
       ],
       "optionReasons": {
-        "feature-mcq-02": "本句指「能令某事物具有辨識度或與其他事物區分開來的特徵」。",
-        "feature-mcq-01": "「產品、服務或系統本身具備並具有實際作用的重要功能／特點」是「feature — product/system」的用法，與本句語境不同。",
-        "feature-mcq-03": "「構成某件事情的重要、明顯或具代表性的部分」是「feature — important element」的用法，與本句語境不同。",
-        "feature-mcq-04": "「構成一個人面貌的眼、鼻、口、輪廓等特徵」是「facial features」的用法，與本句語境不同。",
-        "feature-mcq-05": "「對人物、議題或主題作較深入介紹和描寫的專題文章」是「feature — article」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。"
+        "feature-mcq-02": "本句的「feature」指「能令某事物具有辨識度或與其他事物區分開來的特徵」。",
+        "feature-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-02"
     },
@@ -411,11 +373,8 @@ export default {
       "masked": "Flexibility is an important ____ of the new policy.",
       "options": [
         "feature-mcq-03",
-        "feature-mcq-02",
-        "feature-mcq-04",
-        "feature-mcq-01",
         "feature-mcq-05",
-        "feature-mcq-06"
+        "feature-mcq-02"
       ],
       "explanation": "本句的「feature」指「構成某件事情的重要、明顯或具代表性的部分」。",
       "sentenceIndex": 5,
@@ -424,12 +383,9 @@ export default {
         "feature"
       ],
       "optionReasons": {
-        "feature-mcq-03": "本句指「構成某件事情的重要、明顯或具代表性的部分」。",
-        "feature-mcq-02": "「能令某事物具有辨識度或與其他事物區分開來的特徵」是「feature — characteristic」的用法，與本句語境不同。",
-        "feature-mcq-04": "「構成一個人面貌的眼、鼻、口、輪廓等特徵」是「facial features」的用法，與本句語境不同。",
-        "feature-mcq-01": "「產品、服務或系統本身具備並具有實際作用的重要功能／特點」是「feature — product/system」的用法，與本句語境不同。",
-        "feature-mcq-05": "「對人物、議題或主題作較深入介紹和描寫的專題文章」是「feature — article」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。"
+        "feature-mcq-03": "本句的「feature」指「構成某件事情的重要、明顯或具代表性的部分」。",
+        "feature-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "feature-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-03"
     },
@@ -441,11 +397,8 @@ export default {
       "masked": "Regular feedback is a central ____ of the training programme.",
       "options": [
         "feature-mcq-03",
-        "feature-mcq-02",
-        "feature-mcq-04",
-        "feature-mcq-01",
         "feature-mcq-05",
-        "feature-mcq-06"
+        "feature-mcq-02"
       ],
       "explanation": "本句的「feature」指「構成某件事情的重要、明顯或具代表性的部分」。",
       "sentenceIndex": 6,
@@ -454,12 +407,9 @@ export default {
         "feature"
       ],
       "optionReasons": {
-        "feature-mcq-03": "本句指「構成某件事情的重要、明顯或具代表性的部分」。",
-        "feature-mcq-02": "「能令某事物具有辨識度或與其他事物區分開來的特徵」是「feature — characteristic」的用法，與本句語境不同。",
-        "feature-mcq-04": "「構成一個人面貌的眼、鼻、口、輪廓等特徵」是「facial features」的用法，與本句語境不同。",
-        "feature-mcq-01": "「產品、服務或系統本身具備並具有實際作用的重要功能／特點」是「feature — product/system」的用法，與本句語境不同。",
-        "feature-mcq-05": "「對人物、議題或主題作較深入介紹和描寫的專題文章」是「feature — article」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。"
+        "feature-mcq-03": "本句的「feature」指「構成某件事情的重要、明顯或具代表性的部分」。",
+        "feature-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "feature-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-03"
     },
@@ -471,11 +421,7 @@ export default {
       "masked": "She has very distinctive ____.",
       "options": [
         "feature-mcq-04",
-        "feature-mcq-03",
-        "feature-mcq-05",
-        "feature-mcq-02",
-        "feature-mcq-06",
-        "feature-mcq-01"
+        "feature-mcq-10"
       ],
       "explanation": "本句的「features」指「構成一個人面貌的眼、鼻、口、輪廓等特徵」。",
       "sentenceIndex": 7,
@@ -484,12 +430,8 @@ export default {
         "features"
       ],
       "optionReasons": {
-        "feature-mcq-04": "本句指「構成一個人面貌的眼、鼻、口、輪廓等特徵」。",
-        "feature-mcq-03": "「構成某件事情的重要、明顯或具代表性的部分」是「feature — important element」的用法，與本句語境不同。",
-        "feature-mcq-05": "「對人物、議題或主題作較深入介紹和描寫的專題文章」是「feature — article」的用法，與本句語境不同。",
-        "feature-mcq-02": "「能令某事物具有辨識度或與其他事物區分開來的特徵」是「feature — characteristic」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。",
-        "feature-mcq-01": "「產品、服務或系統本身具備並具有實際作用的重要功能／特點」是「feature — product/system」的用法，與本句語境不同。"
+        "feature-mcq-04": "本句的「features」指「構成一個人面貌的眼、鼻、口、輪廓等特徵」。",
+        "feature-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-04"
     },
@@ -501,11 +443,7 @@ export default {
       "masked": "The child has delicate facial ____.",
       "options": [
         "feature-mcq-04",
-        "feature-mcq-03",
-        "feature-mcq-05",
-        "feature-mcq-02",
-        "feature-mcq-06",
-        "feature-mcq-01"
+        "feature-mcq-07"
       ],
       "explanation": "本句的「features」指「構成一個人面貌的眼、鼻、口、輪廓等特徵」。",
       "sentenceIndex": 8,
@@ -514,12 +452,8 @@ export default {
         "features"
       ],
       "optionReasons": {
-        "feature-mcq-04": "本句指「構成一個人面貌的眼、鼻、口、輪廓等特徵」。",
-        "feature-mcq-03": "「構成某件事情的重要、明顯或具代表性的部分」是「feature — important element」的用法，與本句語境不同。",
-        "feature-mcq-05": "「對人物、議題或主題作較深入介紹和描寫的專題文章」是「feature — article」的用法，與本句語境不同。",
-        "feature-mcq-02": "「能令某事物具有辨識度或與其他事物區分開來的特徵」是「feature — characteristic」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。",
-        "feature-mcq-01": "「產品、服務或系統本身具備並具有實際作用的重要功能／特點」是「feature — product/system」的用法，與本句語境不同。"
+        "feature-mcq-04": "本句的「features」指「構成一個人面貌的眼、鼻、口、輪廓等特徵」。",
+        "feature-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-04"
     },
@@ -531,10 +465,7 @@ export default {
       "masked": "The magazine published a ____ on sustainable travel.",
       "options": [
         "feature-mcq-05",
-        "feature-mcq-04",
-        "feature-mcq-06",
-        "feature-mcq-03",
-        "feature-mcq-07",
+        "feature-mcq-09",
         "feature-mcq-02"
       ],
       "explanation": "本句的「feature」指「對人物、議題或主題作較深入介紹和描寫的專題文章」。",
@@ -544,12 +475,9 @@ export default {
         "feature"
       ],
       "optionReasons": {
-        "feature-mcq-05": "本句指「對人物、議題或主題作較深入介紹和描寫的專題文章」。",
-        "feature-mcq-04": "「構成一個人面貌的眼、鼻、口、輪廓等特徵」是「facial features」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。",
-        "feature-mcq-03": "「構成某件事情的重要、明顯或具代表性的部分」是「feature — important element」的用法，與本句語境不同。",
-        "feature-mcq-07": "「正式完整篇幅、通常作主要播放內容的長篇電影」是「feature film」的用法，與本句語境不同。",
-        "feature-mcq-02": "「能令某事物具有辨識度或與其他事物區分開來的特徵」是「feature — characteristic」的用法，與本句語境不同。"
+        "feature-mcq-05": "本句的「feature」指「對人物、議題或主題作較深入介紹和描寫的專題文章」。",
+        "feature-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "feature-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-05"
     },
@@ -561,11 +489,7 @@ export default {
       "masked": "She wrote a ____ about life in small towns.",
       "options": [
         "feature-mcq-05",
-        "feature-mcq-04",
-        "feature-mcq-06",
-        "feature-mcq-03",
-        "feature-mcq-07",
-        "feature-mcq-02"
+        "feature-mcq-01"
       ],
       "explanation": "本句的「feature」指「對人物、議題或主題作較深入介紹和描寫的專題文章」。",
       "sentenceIndex": 10,
@@ -574,12 +498,8 @@ export default {
         "feature"
       ],
       "optionReasons": {
-        "feature-mcq-05": "本句指「對人物、議題或主題作較深入介紹和描寫的專題文章」。",
-        "feature-mcq-04": "「構成一個人面貌的眼、鼻、口、輪廓等特徵」是「facial features」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。",
-        "feature-mcq-03": "「構成某件事情的重要、明顯或具代表性的部分」是「feature — important element」的用法，與本句語境不同。",
-        "feature-mcq-07": "「正式完整篇幅、通常作主要播放內容的長篇電影」是「feature film」的用法，與本句語境不同。",
-        "feature-mcq-02": "「能令某事物具有辨識度或與其他事物區分開來的特徵」是「feature — characteristic」的用法，與本句語境不同。"
+        "feature-mcq-05": "本句的「feature」指「對人物、議題或主題作較深入介紹和描寫的專題文章」。",
+        "feature-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-05"
     },
@@ -591,11 +511,7 @@ export default {
       "masked": "The interview was the main ____ of the programme.",
       "options": [
         "feature-mcq-06",
-        "feature-mcq-05",
-        "feature-mcq-07",
-        "feature-mcq-04",
-        "feature-mcq-08",
-        "feature-mcq-03"
+        "feature-mcq-04"
       ],
       "explanation": "本句的「feature」指「在節目、活動或出版內容中特別突出、受到重點呈現的部分」。",
       "sentenceIndex": 11,
@@ -604,12 +520,8 @@ export default {
         "feature"
       ],
       "optionReasons": {
-        "feature-mcq-06": "本句指「在節目、活動或出版內容中特別突出、受到重點呈現的部分」。",
-        "feature-mcq-05": "「對人物、議題或主題作較深入介紹和描寫的專題文章」是「feature — article」的用法，與本句語境不同。",
-        "feature-mcq-07": "「正式完整篇幅、通常作主要播放內容的長篇電影」是「feature film」的用法，與本句語境不同。",
-        "feature-mcq-04": "「構成一個人面貌的眼、鼻、口、輪廓等特徵」是「facial features」的用法，與本句語境不同。",
-        "feature-mcq-08": "「把某人／某事作為重要、明顯或主要內容加以呈現」是「feature — verb」的用法，與本句語境不同。",
-        "feature-mcq-03": "「構成某件事情的重要、明顯或具代表性的部分」是「feature — important element」的用法，與本句語境不同。"
+        "feature-mcq-06": "本句的「feature」指「在節目、活動或出版內容中特別突出、受到重點呈現的部分」。",
+        "feature-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-06"
     },
@@ -621,11 +533,7 @@ export default {
       "masked": "The festival’s main ____ was a live concert.",
       "options": [
         "feature-mcq-06",
-        "feature-mcq-05",
-        "feature-mcq-07",
-        "feature-mcq-04",
-        "feature-mcq-08",
-        "feature-mcq-03"
+        "feature-mcq-04"
       ],
       "explanation": "本句的「feature」指「在節目、活動或出版內容中特別突出、受到重點呈現的部分」。",
       "sentenceIndex": 12,
@@ -634,12 +542,8 @@ export default {
         "feature"
       ],
       "optionReasons": {
-        "feature-mcq-06": "本句指「在節目、活動或出版內容中特別突出、受到重點呈現的部分」。",
-        "feature-mcq-05": "「對人物、議題或主題作較深入介紹和描寫的專題文章」是「feature — article」的用法，與本句語境不同。",
-        "feature-mcq-07": "「正式完整篇幅、通常作主要播放內容的長篇電影」是「feature film」的用法，與本句語境不同。",
-        "feature-mcq-04": "「構成一個人面貌的眼、鼻、口、輪廓等特徵」是「facial features」的用法，與本句語境不同。",
-        "feature-mcq-08": "「把某人／某事作為重要、明顯或主要內容加以呈現」是「feature — verb」的用法，與本句語境不同。",
-        "feature-mcq-03": "「構成某件事情的重要、明顯或具代表性的部分」是「feature — important element」的用法，與本句語境不同。"
+        "feature-mcq-06": "本句的「feature」指「在節目、活動或出版內容中特別突出、受到重點呈現的部分」。",
+        "feature-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-06"
     },
@@ -651,11 +555,7 @@ export default {
       "masked": "The director is working on his first ____.",
       "options": [
         "feature-mcq-07",
-        "feature-mcq-06",
-        "feature-mcq-08",
-        "feature-mcq-05",
-        "feature-mcq-09",
-        "feature-mcq-04"
+        "feature-mcq-02"
       ],
       "explanation": "本句的「feature film」指「正式完整篇幅、通常作主要播放內容的長篇電影」。",
       "sentenceIndex": 13,
@@ -664,12 +564,8 @@ export default {
         "feature film"
       ],
       "optionReasons": {
-        "feature-mcq-07": "本句指「正式完整篇幅、通常作主要播放內容的長篇電影」。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。",
-        "feature-mcq-08": "「把某人／某事作為重要、明顯或主要內容加以呈現」是「feature — verb」的用法，與本句語境不同。",
-        "feature-mcq-05": "「對人物、議題或主題作較深入介紹和描寫的專題文章」是「feature — article」的用法，與本句語境不同。",
-        "feature-mcq-09": "「讓某位演員／音樂人以重要或特別身份參與演出」是「feature a performer」的用法，與本句語境不同。",
-        "feature-mcq-04": "「構成一個人面貌的眼、鼻、口、輪廓等特徵」是「facial features」的用法，與本句語境不同。"
+        "feature-mcq-07": "本句的「feature film」指「正式完整篇幅、通常作主要播放內容的長篇電影」。",
+        "feature-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-07"
     },
@@ -681,10 +577,6 @@ export default {
       "masked": "The documentary was expanded into a ____.",
       "options": [
         "feature-mcq-07",
-        "feature-mcq-06",
-        "feature-mcq-08",
-        "feature-mcq-05",
-        "feature-mcq-09",
         "feature-mcq-04"
       ],
       "explanation": "本句的「feature film」指「正式完整篇幅、通常作主要播放內容的長篇電影」。",
@@ -694,12 +586,8 @@ export default {
         "feature film"
       ],
       "optionReasons": {
-        "feature-mcq-07": "本句指「正式完整篇幅、通常作主要播放內容的長篇電影」。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。",
-        "feature-mcq-08": "「把某人／某事作為重要、明顯或主要內容加以呈現」是「feature — verb」的用法，與本句語境不同。",
-        "feature-mcq-05": "「對人物、議題或主題作較深入介紹和描寫的專題文章」是「feature — article」的用法，與本句語境不同。",
-        "feature-mcq-09": "「讓某位演員／音樂人以重要或特別身份參與演出」是「feature a performer」的用法，與本句語境不同。",
-        "feature-mcq-04": "「構成一個人面貌的眼、鼻、口、輪廓等特徵」是「facial features」的用法，與本句語境不同。"
+        "feature-mcq-07": "本句的「feature film」指「正式完整篇幅、通常作主要播放內容的長篇電影」。",
+        "feature-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-07"
     },
@@ -711,11 +599,7 @@ export default {
       "masked": "The advertisement ____ ordinary commuters.",
       "options": [
         "feature-mcq-08",
-        "feature-mcq-07",
-        "feature-mcq-09",
-        "feature-mcq-06",
-        "feature-mcq-10",
-        "feature-mcq-05"
+        "feature-mcq-02"
       ],
       "explanation": "本句的「features」指「把某人／某事作為重要、明顯或主要內容加以呈現」。",
       "sentenceIndex": 15,
@@ -724,12 +608,8 @@ export default {
         "features"
       ],
       "optionReasons": {
-        "feature-mcq-08": "本句指「把某人／某事作為重要、明顯或主要內容加以呈現」。",
-        "feature-mcq-07": "「正式完整篇幅、通常作主要播放內容的長篇電影」是「feature film」的用法，與本句語境不同。",
-        "feature-mcq-09": "「讓某位演員／音樂人以重要或特別身份參與演出」是「feature a performer」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。",
-        "feature-mcq-10": "「在媒體、平台或內容中被明顯或重點呈現」是「be featured in/on」的用法，與本句語境不同。",
-        "feature-mcq-05": "「對人物、議題或主題作較深入介紹和描寫的專題文章」是「feature — article」的用法，與本句語境不同。"
+        "feature-mcq-08": "本句的「features」指「把某人／某事作為重要、明顯或主要內容加以呈現」。",
+        "feature-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-08"
     },
@@ -741,11 +621,7 @@ export default {
       "masked": "The website ____ several customer stories.",
       "options": [
         "feature-mcq-08",
-        "feature-mcq-07",
-        "feature-mcq-09",
-        "feature-mcq-06",
-        "feature-mcq-10",
-        "feature-mcq-05"
+        "feature-mcq-02"
       ],
       "explanation": "本句的「features」指「把某人／某事作為重要、明顯或主要內容加以呈現」。",
       "sentenceIndex": 16,
@@ -754,12 +630,8 @@ export default {
         "features"
       ],
       "optionReasons": {
-        "feature-mcq-08": "本句指「把某人／某事作為重要、明顯或主要內容加以呈現」。",
-        "feature-mcq-07": "「正式完整篇幅、通常作主要播放內容的長篇電影」是「feature film」的用法，與本句語境不同。",
-        "feature-mcq-09": "「讓某位演員／音樂人以重要或特別身份參與演出」是「feature a performer」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。",
-        "feature-mcq-10": "「在媒體、平台或內容中被明顯或重點呈現」是「be featured in/on」的用法，與本句語境不同。",
-        "feature-mcq-05": "「對人物、議題或主題作較深入介紹和描寫的專題文章」是「feature — article」的用法，與本句語境不同。"
+        "feature-mcq-08": "本句的「features」指「把某人／某事作為重要、明顯或主要內容加以呈現」。",
+        "feature-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-08"
     },
@@ -771,11 +643,8 @@ export default {
       "masked": "The film ____ several well-known actors.",
       "options": [
         "feature-mcq-09",
-        "feature-mcq-08",
-        "feature-mcq-10",
-        "feature-mcq-07",
-        "feature-mcq-11",
-        "feature-mcq-06"
+        "feature-mcq-05",
+        "feature-mcq-02"
       ],
       "explanation": "本句的「features」指「讓某位演員／音樂人以重要或特別身份參與演出」。",
       "sentenceIndex": 17,
@@ -784,12 +653,9 @@ export default {
         "features"
       ],
       "optionReasons": {
-        "feature-mcq-09": "本句指「讓某位演員／音樂人以重要或特別身份參與演出」。",
-        "feature-mcq-08": "「把某人／某事作為重要、明顯或主要內容加以呈現」是「feature — verb」的用法，與本句語境不同。",
-        "feature-mcq-10": "「在媒體、平台或內容中被明顯或重點呈現」是「be featured in/on」的用法，與本句語境不同。",
-        "feature-mcq-07": "「正式完整篇幅、通常作主要播放內容的長篇電影」是「feature film」的用法，與本句語境不同。",
-        "feature-mcq-11": "「被特別挑選出來作重點介紹、展示或呈現的」是「featured」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。"
+        "feature-mcq-09": "本句的「features」指「讓某位演員／音樂人以重要或特別身份參與演出」。",
+        "feature-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "feature-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-09"
     },
@@ -801,11 +667,8 @@ export default {
       "masked": "The concert ____ a guest singer.",
       "options": [
         "feature-mcq-09",
-        "feature-mcq-08",
-        "feature-mcq-10",
-        "feature-mcq-07",
-        "feature-mcq-11",
-        "feature-mcq-06"
+        "feature-mcq-05",
+        "feature-mcq-02"
       ],
       "explanation": "本句的「featured」指「讓某位演員／音樂人以重要或特別身份參與演出」。",
       "sentenceIndex": 18,
@@ -814,12 +677,9 @@ export default {
         "featured"
       ],
       "optionReasons": {
-        "feature-mcq-09": "本句指「讓某位演員／音樂人以重要或特別身份參與演出」。",
-        "feature-mcq-08": "「把某人／某事作為重要、明顯或主要內容加以呈現」是「feature — verb」的用法，與本句語境不同。",
-        "feature-mcq-10": "「在媒體、平台或內容中被明顯或重點呈現」是「be featured in/on」的用法，與本句語境不同。",
-        "feature-mcq-07": "「正式完整篇幅、通常作主要播放內容的長篇電影」是「feature film」的用法，與本句語境不同。",
-        "feature-mcq-11": "「被特別挑選出來作重點介紹、展示或呈現的」是「featured」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。"
+        "feature-mcq-09": "本句的「featured」指「讓某位演員／音樂人以重要或特別身份參與演出」。",
+        "feature-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "feature-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-09"
     },
@@ -831,11 +691,7 @@ export default {
       "masked": "The product was ____ a technology magazine.",
       "options": [
         "feature-mcq-10",
-        "feature-mcq-09",
-        "feature-mcq-11",
-        "feature-mcq-08",
-        "feature-mcq-07",
-        "feature-mcq-06"
+        "feature-mcq-02"
       ],
       "explanation": "本句的「featured in」指「在媒體、平台或內容中被明顯或重點呈現」。",
       "sentenceIndex": 19,
@@ -844,12 +700,8 @@ export default {
         "featured in"
       ],
       "optionReasons": {
-        "feature-mcq-10": "本句指「在媒體、平台或內容中被明顯或重點呈現」。",
-        "feature-mcq-09": "「讓某位演員／音樂人以重要或特別身份參與演出」是「feature a performer」的用法，與本句語境不同。",
-        "feature-mcq-11": "「被特別挑選出來作重點介紹、展示或呈現的」是「featured」的用法，與本句語境不同。",
-        "feature-mcq-08": "「把某人／某事作為重要、明顯或主要內容加以呈現」是「feature — verb」的用法，與本句語境不同。",
-        "feature-mcq-07": "「正式完整篇幅、通常作主要播放內容的長篇電影」是「feature film」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。"
+        "feature-mcq-10": "本句的「featured in」指「在媒體、平台或內容中被明顯或重點呈現」。",
+        "feature-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-10"
     },
@@ -861,11 +713,7 @@ export default {
       "masked": "Her work was ____ the company’s homepage.",
       "options": [
         "feature-mcq-10",
-        "feature-mcq-09",
-        "feature-mcq-11",
-        "feature-mcq-08",
-        "feature-mcq-07",
-        "feature-mcq-06"
+        "feature-mcq-04"
       ],
       "explanation": "本句的「featured on」指「在媒體、平台或內容中被明顯或重點呈現」。",
       "sentenceIndex": 20,
@@ -874,12 +722,8 @@ export default {
         "featured on"
       ],
       "optionReasons": {
-        "feature-mcq-10": "本句指「在媒體、平台或內容中被明顯或重點呈現」。",
-        "feature-mcq-09": "「讓某位演員／音樂人以重要或特別身份參與演出」是「feature a performer」的用法，與本句語境不同。",
-        "feature-mcq-11": "「被特別挑選出來作重點介紹、展示或呈現的」是「featured」的用法，與本句語境不同。",
-        "feature-mcq-08": "「把某人／某事作為重要、明顯或主要內容加以呈現」是「feature — verb」的用法，與本句語境不同。",
-        "feature-mcq-07": "「正式完整篇幅、通常作主要播放內容的長篇電影」是「feature film」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。"
+        "feature-mcq-10": "本句的「featured on」指「在媒體、平台或內容中被明顯或重點呈現」。",
+        "feature-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-10"
     },
@@ -891,11 +735,7 @@ export default {
       "masked": "This is the ____ product of the month.",
       "options": [
         "feature-mcq-11",
-        "feature-mcq-10",
-        "feature-mcq-09",
-        "feature-mcq-08",
-        "feature-mcq-07",
-        "feature-mcq-06"
+        "feature-mcq-04"
       ],
       "explanation": "本句的「featured」指「被特別挑選出來作重點介紹、展示或呈現的」。",
       "sentenceIndex": 21,
@@ -904,12 +744,8 @@ export default {
         "featured"
       ],
       "optionReasons": {
-        "feature-mcq-11": "本句指「被特別挑選出來作重點介紹、展示或呈現的」。",
-        "feature-mcq-10": "「在媒體、平台或內容中被明顯或重點呈現」是「be featured in/on」的用法，與本句語境不同。",
-        "feature-mcq-09": "「讓某位演員／音樂人以重要或特別身份參與演出」是「feature a performer」的用法，與本句語境不同。",
-        "feature-mcq-08": "「把某人／某事作為重要、明顯或主要內容加以呈現」是「feature — verb」的用法，與本句語境不同。",
-        "feature-mcq-07": "「正式完整篇幅、通常作主要播放內容的長篇電影」是「feature film」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。"
+        "feature-mcq-11": "本句的「featured」指「被特別挑選出來作重點介紹、展示或呈現的」。",
+        "feature-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-11"
     },
@@ -921,11 +757,7 @@ export default {
       "masked": "The ____ speaker will begin at ten.",
       "options": [
         "feature-mcq-11",
-        "feature-mcq-10",
-        "feature-mcq-09",
-        "feature-mcq-08",
-        "feature-mcq-07",
-        "feature-mcq-06"
+        "feature-mcq-04"
       ],
       "explanation": "本句的「featured」指「被特別挑選出來作重點介紹、展示或呈現的」。",
       "sentenceIndex": 22,
@@ -934,12 +766,8 @@ export default {
         "featured"
       ],
       "optionReasons": {
-        "feature-mcq-11": "本句指「被特別挑選出來作重點介紹、展示或呈現的」。",
-        "feature-mcq-10": "「在媒體、平台或內容中被明顯或重點呈現」是「be featured in/on」的用法，與本句語境不同。",
-        "feature-mcq-09": "「讓某位演員／音樂人以重要或特別身份參與演出」是「feature a performer」的用法，與本句語境不同。",
-        "feature-mcq-08": "「把某人／某事作為重要、明顯或主要內容加以呈現」是「feature — verb」的用法，與本句語境不同。",
-        "feature-mcq-07": "「正式完整篇幅、通常作主要播放內容的長篇電影」是「feature film」的用法，與本句語境不同。",
-        "feature-mcq-06": "「在節目、活動或出版內容中特別突出、受到重點呈現的部分」是「feature — main attraction」的用法，與本句語境不同。"
+        "feature-mcq-11": "本句的「featured」指「被特別挑選出來作重點介紹、展示或呈現的」。",
+        "feature-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feature-mcq-11"
     }
@@ -951,5 +779,7 @@ export default {
     "sha256": "0277d5b8ac92fd6d2d16b1e288b04a9bd31929ebcb38c7a723ca4eefb894a016",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

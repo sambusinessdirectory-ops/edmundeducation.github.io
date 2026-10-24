@@ -499,7 +499,7 @@ export default {
     },
     {
       "id": "ability-mcq-22",
-      "title": "表示智力能力；認知能力",
+      "title": "智力能力；認知能力",
       "form": "10. ability — mental capability",
       "en": "10. ability — mental capability",
       "zh": "表示智力能力；認知能力",
@@ -529,11 +529,7 @@ export default {
       "masked": "She has the ____.",
       "options": [
         "ability-mcq-01",
-        "ability-mcq-02",
-        "ability-mcq-03",
-        "ability-mcq-04",
-        "ability-mcq-05",
-        "ability-mcq-06"
+        "contrast-energy"
       ],
       "explanation": "本句的「ability to explain complex ideas clearly」指「能成功完成某件事的能力、本領或才幹」。",
       "sentenceIndex": 0,
@@ -542,12 +538,8 @@ export default {
         "ability to explain complex ideas clearly"
       ],
       "optionReasons": {
-        "ability-mcq-01": "本句指「能成功完成某件事的能力、本領或才幹」。",
-        "ability-mcq-02": "「完成某個特定行動所需要的能力」是「ability to do something」的用法，與本句語境不同。",
-        "ability-mcq-03": "「在某個領域表現出的才能或熟練能力」是「ability — talent/skill」的用法，與本句語境不同。",
-        "ability-mcq-04": "「不完全依靠後天訓練而具有的天賦／天生能力」是「natural ability」的用法，與本句語境不同。",
-        "ability-mcq-05": "「在特定學術、藝術或音樂領域的能力／才華」是「academic/artistic/musical ability」的用法，與本句語境不同。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。"
+        "ability-mcq-01": "本句的「ability to explain complex ideas clearly」指「能成功完成某件事的能力、本領或才幹」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-01"
     },
@@ -559,11 +551,7 @@ export default {
       "masked": "Good teachers need the ____ when students are confused.",
       "options": [
         "ability-mcq-01",
-        "ability-mcq-02",
-        "ability-mcq-03",
-        "ability-mcq-04",
-        "ability-mcq-05",
-        "ability-mcq-06"
+        "contrast-energy"
       ],
       "explanation": "本句的「ability to adapt」指「能成功完成某件事的能力、本領或才幹」。",
       "sentenceIndex": 1,
@@ -572,12 +560,8 @@ export default {
         "ability to adapt"
       ],
       "optionReasons": {
-        "ability-mcq-01": "本句指「能成功完成某件事的能力、本領或才幹」。",
-        "ability-mcq-02": "「完成某個特定行動所需要的能力」是「ability to do something」的用法，與本句語境不同。",
-        "ability-mcq-03": "「在某個領域表現出的才能或熟練能力」是「ability — talent/skill」的用法，與本句語境不同。",
-        "ability-mcq-04": "「不完全依靠後天訓練而具有的天賦／天生能力」是「natural ability」的用法，與本句語境不同。",
-        "ability-mcq-05": "「在特定學術、藝術或音樂領域的能力／才華」是「academic/artistic/musical ability」的用法，與本句語境不同。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。"
+        "ability-mcq-01": "本句的「ability to adapt」指「能成功完成某件事的能力、本領或才幹」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-01"
     },
@@ -589,11 +573,7 @@ export default {
       "masked": "She has the ____.",
       "options": [
         "ability-mcq-02",
-        "ability-mcq-01",
-        "ability-mcq-03",
-        "ability-mcq-04",
-        "ability-mcq-05",
-        "ability-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「ability to solve problems quickly」指「完成某個特定行動所需要的能力」。",
       "sentenceIndex": 2,
@@ -602,12 +582,8 @@ export default {
         "ability to solve problems quickly"
       ],
       "optionReasons": {
-        "ability-mcq-02": "本句指「完成某個特定行動所需要的能力」。",
-        "ability-mcq-01": "「能成功完成某件事的能力、本領或才幹」是「ability — general capacity」的用法，與本句語境不同。",
-        "ability-mcq-03": "「在某個領域表現出的才能或熟練能力」是「ability — talent/skill」的用法，與本句語境不同。",
-        "ability-mcq-04": "「不完全依靠後天訓練而具有的天賦／天生能力」是「natural ability」的用法，與本句語境不同。",
-        "ability-mcq-05": "「在特定學術、藝術或音樂領域的能力／才華」是「academic/artistic/musical ability」的用法，與本句語境不同。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。"
+        "ability-mcq-02": "本句的「ability to solve problems quickly」指「完成某個特定行動所需要的能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-02"
     },
@@ -619,11 +595,7 @@ export default {
       "masked": "His greatest ____ is explaining difficult ideas simply.",
       "options": [
         "ability-mcq-02",
-        "ability-mcq-01",
-        "ability-mcq-03",
-        "ability-mcq-04",
-        "ability-mcq-05",
-        "ability-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「ability」指「完成某個特定行動所需要的能力」。",
       "sentenceIndex": 3,
@@ -632,12 +604,8 @@ export default {
         "ability"
       ],
       "optionReasons": {
-        "ability-mcq-02": "本句指「完成某個特定行動所需要的能力」。",
-        "ability-mcq-01": "「能成功完成某件事的能力、本領或才幹」是「ability — general capacity」的用法，與本句語境不同。",
-        "ability-mcq-03": "「在某個領域表現出的才能或熟練能力」是「ability — talent/skill」的用法，與本句語境不同。",
-        "ability-mcq-04": "「不完全依靠後天訓練而具有的天賦／天生能力」是「natural ability」的用法，與本句語境不同。",
-        "ability-mcq-05": "「在特定學術、藝術或音樂領域的能力／才華」是「academic/artistic/musical ability」的用法，與本句語境不同。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。"
+        "ability-mcq-02": "本句的「ability」指「完成某個特定行動所需要的能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-02"
     },
@@ -649,11 +617,7 @@ export default {
       "masked": "The job requires the ____.",
       "options": [
         "ability-mcq-02",
-        "ability-mcq-01",
-        "ability-mcq-03",
-        "ability-mcq-04",
-        "ability-mcq-05",
-        "ability-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「ability to work under pressure」指「完成某個特定行動所需要的能力」。",
       "sentenceIndex": 4,
@@ -662,12 +626,8 @@ export default {
         "ability to work under pressure"
       ],
       "optionReasons": {
-        "ability-mcq-02": "本句指「完成某個特定行動所需要的能力」。",
-        "ability-mcq-01": "「能成功完成某件事的能力、本領或才幹」是「ability — general capacity」的用法，與本句語境不同。",
-        "ability-mcq-03": "「在某個領域表現出的才能或熟練能力」是「ability — talent/skill」的用法，與本句語境不同。",
-        "ability-mcq-04": "「不完全依靠後天訓練而具有的天賦／天生能力」是「natural ability」的用法，與本句語境不同。",
-        "ability-mcq-05": "「在特定學術、藝術或音樂領域的能力／才華」是「academic/artistic/musical ability」的用法，與本句語境不同。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。"
+        "ability-mcq-02": "本句的「ability to work under pressure」指「完成某個特定行動所需要的能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-02"
     },
@@ -679,11 +639,7 @@ export default {
       "masked": "She showed an impressive ____.",
       "options": [
         "ability-mcq-02",
-        "ability-mcq-01",
-        "ability-mcq-03",
-        "ability-mcq-04",
-        "ability-mcq-05",
-        "ability-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「ability to stay calm」指「完成某個特定行動所需要的能力」。",
       "sentenceIndex": 5,
@@ -692,12 +648,8 @@ export default {
         "ability to stay calm"
       ],
       "optionReasons": {
-        "ability-mcq-02": "本句指「完成某個特定行動所需要的能力」。",
-        "ability-mcq-01": "「能成功完成某件事的能力、本領或才幹」是「ability — general capacity」的用法，與本句語境不同。",
-        "ability-mcq-03": "「在某個領域表現出的才能或熟練能力」是「ability — talent/skill」的用法，與本句語境不同。",
-        "ability-mcq-04": "「不完全依靠後天訓練而具有的天賦／天生能力」是「natural ability」的用法，與本句語境不同。",
-        "ability-mcq-05": "「在特定學術、藝術或音樂領域的能力／才華」是「academic/artistic/musical ability」的用法，與本句語境不同。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。"
+        "ability-mcq-02": "本句的「ability to stay calm」指「完成某個特定行動所需要的能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-02"
     },
@@ -709,11 +661,7 @@ export default {
       "masked": "She has considerable mathematical ____.",
       "options": [
         "ability-mcq-03",
-        "ability-mcq-02",
-        "ability-mcq-04",
-        "ability-mcq-01",
-        "ability-mcq-05",
-        "ability-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「ability」指「在某個領域表現出的才能或熟練能力」。",
       "sentenceIndex": 6,
@@ -722,12 +670,8 @@ export default {
         "ability"
       ],
       "optionReasons": {
-        "ability-mcq-03": "本句指「在某個領域表現出的才能或熟練能力」。",
-        "ability-mcq-02": "「完成某個特定行動所需要的能力」是「ability to do something」的用法，與本句語境不同。",
-        "ability-mcq-04": "「不完全依靠後天訓練而具有的天賦／天生能力」是「natural ability」的用法，與本句語境不同。",
-        "ability-mcq-01": "「能成功完成某件事的能力、本領或才幹」是「ability — general capacity」的用法，與本句語境不同。",
-        "ability-mcq-05": "「在特定學術、藝術或音樂領域的能力／才華」是「academic/artistic/musical ability」的用法，與本句語境不同。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。"
+        "ability-mcq-03": "本句的「ability」指「在某個領域表現出的才能或熟練能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-03"
     },
@@ -739,11 +683,7 @@ export default {
       "masked": "His musical ____ was obvious from a young age.",
       "options": [
         "ability-mcq-03",
-        "ability-mcq-02",
-        "ability-mcq-04",
-        "ability-mcq-01",
-        "ability-mcq-05",
-        "ability-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「ability」指「在某個領域表現出的才能或熟練能力」。",
       "sentenceIndex": 7,
@@ -752,12 +692,8 @@ export default {
         "ability"
       ],
       "optionReasons": {
-        "ability-mcq-03": "本句指「在某個領域表現出的才能或熟練能力」。",
-        "ability-mcq-02": "「完成某個特定行動所需要的能力」是「ability to do something」的用法，與本句語境不同。",
-        "ability-mcq-04": "「不完全依靠後天訓練而具有的天賦／天生能力」是「natural ability」的用法，與本句語境不同。",
-        "ability-mcq-01": "「能成功完成某件事的能力、本領或才幹」是「ability — general capacity」的用法，與本句語境不同。",
-        "ability-mcq-05": "「在特定學術、藝術或音樂領域的能力／才華」是「academic/artistic/musical ability」的用法，與本句語境不同。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。"
+        "ability-mcq-03": "本句的「ability」指「在某個領域表現出的才能或熟練能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-03"
     },
@@ -769,11 +705,7 @@ export default {
       "masked": "She has a ____ for languages.",
       "options": [
         "ability-mcq-04",
-        "ability-mcq-03",
-        "ability-mcq-05",
-        "ability-mcq-02",
-        "ability-mcq-06",
-        "ability-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「natural ability」指「不完全依靠後天訓練而具有的天賦／天生能力」。",
       "sentenceIndex": 8,
@@ -782,12 +714,8 @@ export default {
         "natural ability"
       ],
       "optionReasons": {
-        "ability-mcq-04": "本句指「不完全依靠後天訓練而具有的天賦／天生能力」。",
-        "ability-mcq-03": "「在某個領域表現出的才能或熟練能力」是「ability — talent/skill」的用法，與本句語境不同。",
-        "ability-mcq-05": "「在特定學術、藝術或音樂領域的能力／才華」是「academic/artistic/musical ability」的用法，與本句語境不同。",
-        "ability-mcq-02": "「完成某個特定行動所需要的能力」是「ability to do something」的用法，與本句語境不同。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。",
-        "ability-mcq-01": "「能成功完成某件事的能力、本領或才幹」是「ability — general capacity」的用法，與本句語境不同。"
+        "ability-mcq-04": "本句的「natural ability」指「不完全依靠後天訓練而具有的天賦／天生能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-04"
     },
@@ -799,11 +727,7 @@ export default {
       "masked": "His ____ helped him learn quickly.",
       "options": [
         "ability-mcq-04",
-        "ability-mcq-03",
-        "ability-mcq-05",
-        "ability-mcq-02",
-        "ability-mcq-06",
-        "ability-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「natural ability」指「不完全依靠後天訓練而具有的天賦／天生能力」。",
       "sentenceIndex": 9,
@@ -812,12 +736,8 @@ export default {
         "natural ability"
       ],
       "optionReasons": {
-        "ability-mcq-04": "本句指「不完全依靠後天訓練而具有的天賦／天生能力」。",
-        "ability-mcq-03": "「在某個領域表現出的才能或熟練能力」是「ability — talent/skill」的用法，與本句語境不同。",
-        "ability-mcq-05": "「在特定學術、藝術或音樂領域的能力／才華」是「academic/artistic/musical ability」的用法，與本句語境不同。",
-        "ability-mcq-02": "「完成某個特定行動所需要的能力」是「ability to do something」的用法，與本句語境不同。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。",
-        "ability-mcq-01": "「能成功完成某件事的能力、本領或才幹」是「ability — general capacity」的用法，與本句語境不同。"
+        "ability-mcq-04": "本句的「natural ability」指「不完全依靠後天訓練而具有的天賦／天生能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-04"
     },
@@ -829,11 +749,7 @@ export default {
       "masked": "The student showed strong ____.",
       "options": [
         "ability-mcq-05",
-        "ability-mcq-04",
-        "ability-mcq-06",
-        "ability-mcq-03",
-        "ability-mcq-07",
-        "ability-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「academic ability」指「在特定學術、藝術或音樂領域的能力／才華」。",
       "sentenceIndex": 10,
@@ -842,12 +758,8 @@ export default {
         "academic ability"
       ],
       "optionReasons": {
-        "ability-mcq-05": "本句指「在特定學術、藝術或音樂領域的能力／才華」。",
-        "ability-mcq-04": "「不完全依靠後天訓練而具有的天賦／天生能力」是「natural ability」的用法，與本句語境不同。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。",
-        "ability-mcq-03": "「在某個領域表現出的才能或熟練能力」是「ability — talent/skill」的用法，與本句語境不同。",
-        "ability-mcq-07": "「一群人之中成員能力／程度不同」是「mixed ability」的用法，與本句語境不同。",
-        "ability-mcq-02": "「完成某個特定行動所需要的能力」是「ability to do something」的用法，與本句語境不同。"
+        "ability-mcq-05": "本句的「academic ability」指「在特定學術、藝術或音樂領域的能力／才華」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-05"
     },
@@ -859,11 +771,7 @@ export default {
       "masked": "Her ____ developed over time.",
       "options": [
         "ability-mcq-05",
-        "ability-mcq-04",
-        "ability-mcq-06",
-        "ability-mcq-03",
-        "ability-mcq-07",
-        "ability-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「artistic ability」指「在特定學術、藝術或音樂領域的能力／才華」。",
       "sentenceIndex": 11,
@@ -872,12 +780,8 @@ export default {
         "artistic ability"
       ],
       "optionReasons": {
-        "ability-mcq-05": "本句指「在特定學術、藝術或音樂領域的能力／才華」。",
-        "ability-mcq-04": "「不完全依靠後天訓練而具有的天賦／天生能力」是「natural ability」的用法，與本句語境不同。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。",
-        "ability-mcq-03": "「在某個領域表現出的才能或熟練能力」是「ability — talent/skill」的用法，與本句語境不同。",
-        "ability-mcq-07": "「一群人之中成員能力／程度不同」是「mixed ability」的用法，與本句語境不同。",
-        "ability-mcq-02": "「完成某個特定行動所需要的能力」是「ability to do something」的用法，與本句語境不同。"
+        "ability-mcq-05": "本句的「artistic ability」指「在特定學術、藝術或音樂領域的能力／才華」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-05"
     },
@@ -889,11 +793,7 @@ export default {
       "masked": "Students of different ____ worked together.",
       "options": [
         "ability-mcq-06",
-        "ability-mcq-05",
-        "ability-mcq-07",
-        "ability-mcq-04",
-        "ability-mcq-08",
-        "ability-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「abilities」指「某人的能力程度或技能水平」。",
       "sentenceIndex": 12,
@@ -902,12 +802,8 @@ export default {
         "abilities"
       ],
       "optionReasons": {
-        "ability-mcq-06": "本句指「某人的能力程度或技能水平」。",
-        "ability-mcq-05": "「在特定學術、藝術或音樂領域的能力／才華」是「academic/artistic/musical ability」的用法，與本句語境不同。",
-        "ability-mcq-07": "「一群人之中成員能力／程度不同」是「mixed ability」的用法，與本句語境不同。",
-        "ability-mcq-04": "「不完全依靠後天訓練而具有的天賦／天生能力」是「natural ability」的用法，與本句語境不同。",
-        "ability-mcq-08": "「某人在某技能或學科上的能力水平」是「ability level」的用法，與本句語境不同。",
-        "ability-mcq-03": "「在某個領域表現出的才能或熟練能力」是「ability — talent/skill」的用法，與本句語境不同。"
+        "ability-mcq-06": "本句的「abilities」指「某人的能力程度或技能水平」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-06"
     },
@@ -919,11 +815,7 @@ export default {
       "masked": "The course is suitable for learners of all ____.",
       "options": [
         "ability-mcq-06",
-        "ability-mcq-05",
-        "ability-mcq-07",
-        "ability-mcq-04",
-        "ability-mcq-08",
-        "ability-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「abilities」指「某人的能力程度或技能水平」。",
       "sentenceIndex": 13,
@@ -932,12 +824,8 @@ export default {
         "abilities"
       ],
       "optionReasons": {
-        "ability-mcq-06": "本句指「某人的能力程度或技能水平」。",
-        "ability-mcq-05": "「在特定學術、藝術或音樂領域的能力／才華」是「academic/artistic/musical ability」的用法，與本句語境不同。",
-        "ability-mcq-07": "「一群人之中成員能力／程度不同」是「mixed ability」的用法，與本句語境不同。",
-        "ability-mcq-04": "「不完全依靠後天訓練而具有的天賦／天生能力」是「natural ability」的用法，與本句語境不同。",
-        "ability-mcq-08": "「某人在某技能或學科上的能力水平」是「ability level」的用法，與本句語境不同。",
-        "ability-mcq-03": "「在某個領域表現出的才能或熟練能力」是「ability — talent/skill」的用法，與本句語境不同。"
+        "ability-mcq-06": "本句的「abilities」指「某人的能力程度或技能水平」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-06"
     },
@@ -949,11 +837,7 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "ability-mcq-07",
-        "ability-mcq-06",
-        "ability-mcq-08",
-        "ability-mcq-05",
-        "ability-mcq-09",
-        "ability-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「mixed-ability class」指「一群人之中成員能力／程度不同」。",
       "sentenceIndex": 14,
@@ -962,12 +846,8 @@ export default {
         "mixed-ability class"
       ],
       "optionReasons": {
-        "ability-mcq-07": "本句指「一群人之中成員能力／程度不同」。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。",
-        "ability-mcq-08": "「某人在某技能或學科上的能力水平」是「ability level」的用法，與本句語境不同。",
-        "ability-mcq-05": "「在特定學術、藝術或音樂領域的能力／才華」是「academic/artistic/musical ability」的用法，與本句語境不同。",
-        "ability-mcq-09": "「思考、理解、記憶、注意與推理等認知能力」是「cognitive ability」的用法，與本句語境不同。",
-        "ability-mcq-04": "「不完全依靠後天訓練而具有的天賦／天生能力」是「natural ability」的用法，與本句語境不同。"
+        "ability-mcq-07": "本句的「mixed-ability class」指「一群人之中成員能力／程度不同」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-07"
     },
@@ -979,11 +859,7 @@ export default {
       "masked": "Teaching a ____ requires flexibility.",
       "options": [
         "ability-mcq-07",
-        "ability-mcq-06",
-        "ability-mcq-08",
-        "ability-mcq-05",
-        "ability-mcq-09",
-        "ability-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「mixed-ability group」指「一群人之中成員能力／程度不同」。",
       "sentenceIndex": 15,
@@ -992,12 +868,8 @@ export default {
         "mixed-ability group"
       ],
       "optionReasons": {
-        "ability-mcq-07": "本句指「一群人之中成員能力／程度不同」。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。",
-        "ability-mcq-08": "「某人在某技能或學科上的能力水平」是「ability level」的用法，與本句語境不同。",
-        "ability-mcq-05": "「在特定學術、藝術或音樂領域的能力／才華」是「academic/artistic/musical ability」的用法，與本句語境不同。",
-        "ability-mcq-09": "「思考、理解、記憶、注意與推理等認知能力」是「cognitive ability」的用法，與本句語境不同。",
-        "ability-mcq-04": "「不完全依靠後天訓練而具有的天賦／天生能力」是「natural ability」的用法，與本句語境不同。"
+        "ability-mcq-07": "本句的「mixed-ability group」指「一群人之中成員能力／程度不同」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-07"
     },
@@ -1009,11 +881,7 @@ export default {
       "masked": "The tasks were adjusted to each student’s ____.",
       "options": [
         "ability-mcq-08",
-        "ability-mcq-07",
-        "ability-mcq-09",
-        "ability-mcq-06",
-        "ability-mcq-10",
-        "ability-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「ability level」指「某人在某技能或學科上的能力水平」。",
       "sentenceIndex": 16,
@@ -1022,12 +890,8 @@ export default {
         "ability level"
       ],
       "optionReasons": {
-        "ability-mcq-08": "本句指「某人在某技能或學科上的能力水平」。",
-        "ability-mcq-07": "「一群人之中成員能力／程度不同」是「mixed ability」的用法，與本句語境不同。",
-        "ability-mcq-09": "「思考、理解、記憶、注意與推理等認知能力」是「cognitive ability」的用法，與本句語境不同。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。",
-        "ability-mcq-10": "「完成身體活動所需的身體能力／體能」是「physical ability」的用法，與本句語境不同。",
-        "ability-mcq-05": "「在特定學術、藝術或音樂領域的能力／才華」是「academic/artistic/musical ability」的用法，與本句語境不同。"
+        "ability-mcq-08": "本句的「ability level」指「某人在某技能或學科上的能力水平」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-08"
     },
@@ -1039,11 +903,7 @@ export default {
       "masked": "Learners were grouped by ____.",
       "options": [
         "ability-mcq-08",
-        "ability-mcq-07",
-        "ability-mcq-09",
-        "ability-mcq-06",
-        "ability-mcq-10",
-        "ability-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「ability level」指「某人在某技能或學科上的能力水平」。",
       "sentenceIndex": 17,
@@ -1052,12 +912,8 @@ export default {
         "ability level"
       ],
       "optionReasons": {
-        "ability-mcq-08": "本句指「某人在某技能或學科上的能力水平」。",
-        "ability-mcq-07": "「一群人之中成員能力／程度不同」是「mixed ability」的用法，與本句語境不同。",
-        "ability-mcq-09": "「思考、理解、記憶、注意與推理等認知能力」是「cognitive ability」的用法，與本句語境不同。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。",
-        "ability-mcq-10": "「完成身體活動所需的身體能力／體能」是「physical ability」的用法，與本句語境不同。",
-        "ability-mcq-05": "「在特定學術、藝術或音樂領域的能力／才華」是「academic/artistic/musical ability」的用法，與本句語境不同。"
+        "ability-mcq-08": "本句的「ability level」指「某人在某技能或學科上的能力水平」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-08"
     },
@@ -1069,11 +925,7 @@ export default {
       "masked": "The test measures reasoning ____.",
       "options": [
         "ability-mcq-22",
-        "ability-mcq-21",
-        "ability-mcq-20",
-        "ability-mcq-19",
-        "ability-mcq-18",
-        "ability-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「ability」指「表示智力能力；認知能力」。",
       "sentenceIndex": 18,
@@ -1082,12 +934,8 @@ export default {
         "ability"
       ],
       "optionReasons": {
-        "ability-mcq-22": "本句指「表示智力能力；認知能力」。",
-        "ability-mcq-21": "「缺乏做某件事的能力；無法做到」是「inability」的用法，與本句語境不同。",
-        "ability-mcq-20": "「沒有能力或無法做某事」是「unable」的用法，與本句語境不同。",
-        "ability-mcq-19": "「有能力或條件完成某事；能夠」是「be able to」的用法，與本句語境不同。",
-        "ability-mcq-18": "「具有做某事能力的；能夠」是「able」的用法，與本句語境不同。",
-        "ability-mcq-17": "「超出某人目前能完成或處理的能力範圍」是「beyond someone’s ability」的用法，與本句語境不同。"
+        "ability-mcq-22": "本句的「ability」指「表示智力能力；認知能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-22"
     },
@@ -1099,11 +947,7 @@ export default {
       "masked": "Memory ____ varies from person to person.",
       "options": [
         "ability-mcq-22",
-        "ability-mcq-21",
-        "ability-mcq-20",
-        "ability-mcq-19",
-        "ability-mcq-18",
-        "ability-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「ability」指「表示智力能力；認知能力」。",
       "sentenceIndex": 19,
@@ -1112,12 +956,8 @@ export default {
         "ability"
       ],
       "optionReasons": {
-        "ability-mcq-22": "本句指「表示智力能力；認知能力」。",
-        "ability-mcq-21": "「缺乏做某件事的能力；無法做到」是「inability」的用法，與本句語境不同。",
-        "ability-mcq-20": "「沒有能力或無法做某事」是「unable」的用法，與本句語境不同。",
-        "ability-mcq-19": "「有能力或條件完成某事；能夠」是「be able to」的用法，與本句語境不同。",
-        "ability-mcq-18": "「具有做某事能力的；能夠」是「able」的用法，與本句語境不同。",
-        "ability-mcq-17": "「超出某人目前能完成或處理的能力範圍」是「beyond someone’s ability」的用法，與本句語境不同。"
+        "ability-mcq-22": "本句的「ability」指「表示智力能力；認知能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-22"
     },
@@ -1129,11 +969,7 @@ export default {
       "masked": "Sleep can affect ____.",
       "options": [
         "ability-mcq-09",
-        "ability-mcq-08",
-        "ability-mcq-10",
-        "ability-mcq-07",
-        "ability-mcq-11",
-        "ability-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「cognitive ability」指「思考、理解、記憶、注意與推理等認知能力」。",
       "sentenceIndex": 20,
@@ -1142,12 +978,8 @@ export default {
         "cognitive ability"
       ],
       "optionReasons": {
-        "ability-mcq-09": "本句指「思考、理解、記憶、注意與推理等認知能力」。",
-        "ability-mcq-08": "「某人在某技能或學科上的能力水平」是「ability level」的用法，與本句語境不同。",
-        "ability-mcq-10": "「完成身體活動所需的身體能力／體能」是「physical ability」的用法，與本句語境不同。",
-        "ability-mcq-07": "「一群人之中成員能力／程度不同」是「mixed ability」的用法，與本句語境不同。",
-        "ability-mcq-11": "「支付費用、債務或其他金額的財務能力」是「ability to pay」的用法，與本句語境不同。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。"
+        "ability-mcq-09": "本句的「cognitive ability」指「思考、理解、記憶、注意與推理等認知能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-09"
     },
@@ -1159,11 +991,7 @@ export default {
       "masked": "The task requires strong ____.",
       "options": [
         "ability-mcq-09",
-        "ability-mcq-08",
-        "ability-mcq-10",
-        "ability-mcq-07",
-        "ability-mcq-11",
-        "ability-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「cognitive abilities」指「思考、理解、記憶、注意與推理等認知能力」。",
       "sentenceIndex": 21,
@@ -1172,12 +1000,8 @@ export default {
         "cognitive abilities"
       ],
       "optionReasons": {
-        "ability-mcq-09": "本句指「思考、理解、記憶、注意與推理等認知能力」。",
-        "ability-mcq-08": "「某人在某技能或學科上的能力水平」是「ability level」的用法，與本句語境不同。",
-        "ability-mcq-10": "「完成身體活動所需的身體能力／體能」是「physical ability」的用法，與本句語境不同。",
-        "ability-mcq-07": "「一群人之中成員能力／程度不同」是「mixed ability」的用法，與本句語境不同。",
-        "ability-mcq-11": "「支付費用、債務或其他金額的財務能力」是「ability to pay」的用法，與本句語境不同。",
-        "ability-mcq-06": "「某人的能力程度或技能水平」是「ability — level of competence」的用法，與本句語境不同。"
+        "ability-mcq-09": "本句的「cognitive abilities」指「思考、理解、記憶、注意與推理等認知能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-09"
     },
@@ -1189,11 +1013,7 @@ export default {
       "masked": "The activity requires good ____.",
       "options": [
         "ability-mcq-10",
-        "ability-mcq-09",
-        "ability-mcq-11",
-        "ability-mcq-08",
-        "ability-mcq-12",
-        "ability-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「physical ability」指「完成身體活動所需的身體能力／體能」。",
       "sentenceIndex": 22,
@@ -1202,12 +1022,8 @@ export default {
         "physical ability"
       ],
       "optionReasons": {
-        "ability-mcq-10": "本句指「完成身體活動所需的身體能力／體能」。",
-        "ability-mcq-09": "「思考、理解、記憶、注意與推理等認知能力」是「cognitive ability」的用法，與本句語境不同。",
-        "ability-mcq-11": "「支付費用、債務或其他金額的財務能力」是「ability to pay」的用法，與本句語境不同。",
-        "ability-mcq-08": "「某人在某技能或學科上的能力水平」是「ability level」的用法，與本句語境不同。",
-        "ability-mcq-12": "「系統或組織執行某功能、反應或完成工作的能力」是「system/organizational ability」的用法，與本句語境不同。",
-        "ability-mcq-07": "「一群人之中成員能力／程度不同」是「mixed ability」的用法，與本句語境不同。"
+        "ability-mcq-10": "本句的「physical ability」指「完成身體活動所需的身體能力／體能」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-10"
     },
@@ -1219,11 +1035,7 @@ export default {
       "masked": "His ____ improved through training.",
       "options": [
         "ability-mcq-10",
-        "ability-mcq-09",
-        "ability-mcq-11",
-        "ability-mcq-08",
-        "ability-mcq-12",
-        "ability-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「physical abilities」指「完成身體活動所需的身體能力／體能」。",
       "sentenceIndex": 23,
@@ -1232,12 +1044,8 @@ export default {
         "physical abilities"
       ],
       "optionReasons": {
-        "ability-mcq-10": "本句指「完成身體活動所需的身體能力／體能」。",
-        "ability-mcq-09": "「思考、理解、記憶、注意與推理等認知能力」是「cognitive ability」的用法，與本句語境不同。",
-        "ability-mcq-11": "「支付費用、債務或其他金額的財務能力」是「ability to pay」的用法，與本句語境不同。",
-        "ability-mcq-08": "「某人在某技能或學科上的能力水平」是「ability level」的用法，與本句語境不同。",
-        "ability-mcq-12": "「系統或組織執行某功能、反應或完成工作的能力」是「system/organizational ability」的用法，與本句語境不同。",
-        "ability-mcq-07": "「一群人之中成員能力／程度不同」是「mixed ability」的用法，與本句語境不同。"
+        "ability-mcq-10": "本句的「physical abilities」指「完成身體活動所需的身體能力／體能」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-10"
     },
@@ -1249,11 +1057,7 @@ export default {
       "masked": "The court considered his ____.",
       "options": [
         "ability-mcq-11",
-        "ability-mcq-10",
-        "ability-mcq-12",
-        "ability-mcq-09",
-        "ability-mcq-13",
-        "ability-mcq-08"
+        "contrast-duration"
       ],
       "explanation": "本句的「ability to pay」指「支付費用、債務或其他金額的財務能力」。",
       "sentenceIndex": 24,
@@ -1262,12 +1066,8 @@ export default {
         "ability to pay"
       ],
       "optionReasons": {
-        "ability-mcq-11": "本句指「支付費用、債務或其他金額的財務能力」。",
-        "ability-mcq-10": "「完成身體活動所需的身體能力／體能」是「physical ability」的用法，與本句語境不同。",
-        "ability-mcq-12": "「系統或組織執行某功能、反應或完成工作的能力」是「system/organizational ability」的用法，與本句語境不同。",
-        "ability-mcq-09": "「思考、理解、記憶、注意與推理等認知能力」是「cognitive ability」的用法，與本句語境不同。",
-        "ability-mcq-13": "「具備做某件事所需的能力」是「have the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-08": "「某人在某技能或學科上的能力水平」是「ability level」的用法，與本句語境不同。"
+        "ability-mcq-11": "本句的「ability to pay」指「支付費用、債務或其他金額的財務能力」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-11"
     },
@@ -1279,11 +1079,7 @@ export default {
       "masked": "Their ____ was uncertain.",
       "options": [
         "ability-mcq-11",
-        "ability-mcq-10",
-        "ability-mcq-12",
-        "ability-mcq-09",
-        "ability-mcq-13",
-        "ability-mcq-08"
+        "contrast-duration"
       ],
       "explanation": "本句的「ability to meet the deadline」指「支付費用、債務或其他金額的財務能力」。",
       "sentenceIndex": 25,
@@ -1292,12 +1088,8 @@ export default {
         "ability to meet the deadline"
       ],
       "optionReasons": {
-        "ability-mcq-11": "本句指「支付費用、債務或其他金額的財務能力」。",
-        "ability-mcq-10": "「完成身體活動所需的身體能力／體能」是「physical ability」的用法，與本句語境不同。",
-        "ability-mcq-12": "「系統或組織執行某功能、反應或完成工作的能力」是「system/organizational ability」的用法，與本句語境不同。",
-        "ability-mcq-09": "「思考、理解、記憶、注意與推理等認知能力」是「cognitive ability」的用法，與本句語境不同。",
-        "ability-mcq-13": "「具備做某件事所需的能力」是「have the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-08": "「某人在某技能或學科上的能力水平」是「ability level」的用法，與本句語境不同。"
+        "ability-mcq-11": "本句的「ability to meet the deadline」指「支付費用、債務或其他金額的財務能力」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-11"
     },
@@ -1309,11 +1101,7 @@ export default {
       "masked": "Fees may depend on ____.",
       "options": [
         "ability-mcq-11",
-        "ability-mcq-10",
-        "ability-mcq-12",
-        "ability-mcq-09",
-        "ability-mcq-13",
-        "ability-mcq-08"
+        "contrast-duration"
       ],
       "explanation": "本句的「ability to pay」指「支付費用、債務或其他金額的財務能力」。",
       "sentenceIndex": 26,
@@ -1322,12 +1110,8 @@ export default {
         "ability to pay"
       ],
       "optionReasons": {
-        "ability-mcq-11": "本句指「支付費用、債務或其他金額的財務能力」。",
-        "ability-mcq-10": "「完成身體活動所需的身體能力／體能」是「physical ability」的用法，與本句語境不同。",
-        "ability-mcq-12": "「系統或組織執行某功能、反應或完成工作的能力」是「system/organizational ability」的用法，與本句語境不同。",
-        "ability-mcq-09": "「思考、理解、記憶、注意與推理等認知能力」是「cognitive ability」的用法，與本句語境不同。",
-        "ability-mcq-13": "「具備做某件事所需的能力」是「have the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-08": "「某人在某技能或學科上的能力水平」是「ability level」的用法，與本句語境不同。"
+        "ability-mcq-11": "本句的「ability to pay」指「支付費用、債務或其他金額的財務能力」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-11"
     },
@@ -1339,11 +1123,7 @@ export default {
       "masked": "The policy considers each person’s ____.",
       "options": [
         "ability-mcq-11",
-        "ability-mcq-10",
-        "ability-mcq-12",
-        "ability-mcq-09",
-        "ability-mcq-13",
-        "ability-mcq-08"
+        "contrast-duration"
       ],
       "explanation": "本句的「ability to pay」指「支付費用、債務或其他金額的財務能力」。",
       "sentenceIndex": 27,
@@ -1352,12 +1132,8 @@ export default {
         "ability to pay"
       ],
       "optionReasons": {
-        "ability-mcq-11": "本句指「支付費用、債務或其他金額的財務能力」。",
-        "ability-mcq-10": "「完成身體活動所需的身體能力／體能」是「physical ability」的用法，與本句語境不同。",
-        "ability-mcq-12": "「系統或組織執行某功能、反應或完成工作的能力」是「system/organizational ability」的用法，與本句語境不同。",
-        "ability-mcq-09": "「思考、理解、記憶、注意與推理等認知能力」是「cognitive ability」的用法，與本句語境不同。",
-        "ability-mcq-13": "「具備做某件事所需的能力」是「have the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-08": "「某人在某技能或學科上的能力水平」是「ability level」的用法，與本句語境不同。"
+        "ability-mcq-11": "本句的「ability to pay」指「支付費用、債務或其他金額的財務能力」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-11"
     },
@@ -1369,11 +1145,7 @@ export default {
       "masked": "The system has the ____.",
       "options": [
         "ability-mcq-12",
-        "ability-mcq-11",
-        "ability-mcq-13",
-        "ability-mcq-10",
-        "ability-mcq-14",
-        "ability-mcq-09"
+        "contrast-purchase"
       ],
       "explanation": "本句的「ability to detect errors automatically」指「系統或組織執行某功能、反應或完成工作的能力」。",
       "sentenceIndex": 28,
@@ -1382,12 +1154,8 @@ export default {
         "ability to detect errors automatically"
       ],
       "optionReasons": {
-        "ability-mcq-12": "本句指「系統或組織執行某功能、反應或完成工作的能力」。",
-        "ability-mcq-11": "「支付費用、債務或其他金額的財務能力」是「ability to pay」的用法，與本句語境不同。",
-        "ability-mcq-13": "「具備做某件事所需的能力」是「have the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-10": "「完成身體活動所需的身體能力／體能」是「physical ability」的用法，與本句語境不同。",
-        "ability-mcq-14": "「透過表現展現某項能力」是「show/demonstrate ability」的用法，與本句語境不同。",
-        "ability-mcq-09": "「思考、理解、記憶、注意與推理等認知能力」是「cognitive ability」的用法，與本句語境不同。"
+        "ability-mcq-12": "本句的「ability to detect errors automatically」指「系統或組織執行某功能、反應或完成工作的能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-12"
     },
@@ -1399,11 +1167,7 @@ export default {
       "masked": "The organization’s ____ improved.",
       "options": [
         "ability-mcq-12",
-        "ability-mcq-11",
-        "ability-mcq-13",
-        "ability-mcq-10",
-        "ability-mcq-14",
-        "ability-mcq-09"
+        "contrast-purchase"
       ],
       "explanation": "本句的「ability to respond quickly」指「系統或組織執行某功能、反應或完成工作的能力」。",
       "sentenceIndex": 29,
@@ -1412,12 +1176,8 @@ export default {
         "ability to respond quickly"
       ],
       "optionReasons": {
-        "ability-mcq-12": "本句指「系統或組織執行某功能、反應或完成工作的能力」。",
-        "ability-mcq-11": "「支付費用、債務或其他金額的財務能力」是「ability to pay」的用法，與本句語境不同。",
-        "ability-mcq-13": "「具備做某件事所需的能力」是「have the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-10": "「完成身體活動所需的身體能力／體能」是「physical ability」的用法，與本句語境不同。",
-        "ability-mcq-14": "「透過表現展現某項能力」是「show/demonstrate ability」的用法，與本句語境不同。",
-        "ability-mcq-09": "「思考、理解、記憶、注意與推理等認知能力」是「cognitive ability」的用法，與本句語境不同。"
+        "ability-mcq-12": "本句的「ability to respond quickly」指「系統或組織執行某功能、反應或完成工作的能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-12"
     },
@@ -1429,11 +1189,7 @@ export default {
       "masked": "She ____.",
       "options": [
         "ability-mcq-13",
-        "ability-mcq-12",
-        "ability-mcq-14",
-        "ability-mcq-11",
-        "ability-mcq-15",
-        "ability-mcq-10"
+        "contrast-energy"
       ],
       "explanation": "本句的「has the ability to remain calm under pressure」指「具備做某件事所需的能力」。",
       "sentenceIndex": 30,
@@ -1442,12 +1198,8 @@ export default {
         "has the ability to remain calm under pressure"
       ],
       "optionReasons": {
-        "ability-mcq-13": "本句指「具備做某件事所需的能力」。",
-        "ability-mcq-12": "「系統或組織執行某功能、反應或完成工作的能力」是「system/organizational ability」的用法，與本句語境不同。",
-        "ability-mcq-14": "「透過表現展現某項能力」是「show/demonstrate ability」的用法，與本句語境不同。",
-        "ability-mcq-11": "「支付費用、債務或其他金額的財務能力」是「ability to pay」的用法，與本句語境不同。",
-        "ability-mcq-15": "「透過學習、練習等逐步培養能力」是「develop ability」的用法，與本句語境不同。",
-        "ability-mcq-10": "「完成身體活動所需的身體能力／體能」是「physical ability」的用法，與本句語境不同。"
+        "ability-mcq-13": "本句的「has the ability to remain calm under pressure」指「具備做某件事所需的能力」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-13"
     },
@@ -1459,11 +1211,7 @@ export default {
       "masked": "Good leaders ____.",
       "options": [
         "ability-mcq-13",
-        "ability-mcq-12",
-        "ability-mcq-14",
-        "ability-mcq-11",
-        "ability-mcq-15",
-        "ability-mcq-10"
+        "contrast-energy"
       ],
       "explanation": "本句的「have the ability to listen carefully」指「具備做某件事所需的能力」。",
       "sentenceIndex": 31,
@@ -1472,12 +1220,8 @@ export default {
         "have the ability to listen carefully"
       ],
       "optionReasons": {
-        "ability-mcq-13": "本句指「具備做某件事所需的能力」。",
-        "ability-mcq-12": "「系統或組織執行某功能、反應或完成工作的能力」是「system/organizational ability」的用法，與本句語境不同。",
-        "ability-mcq-14": "「透過表現展現某項能力」是「show/demonstrate ability」的用法，與本句語境不同。",
-        "ability-mcq-11": "「支付費用、債務或其他金額的財務能力」是「ability to pay」的用法，與本句語境不同。",
-        "ability-mcq-15": "「透過學習、練習等逐步培養能力」是「develop ability」的用法，與本句語境不同。",
-        "ability-mcq-10": "「完成身體活動所需的身體能力／體能」是「physical ability」的用法，與本句語境不同。"
+        "ability-mcq-13": "本句的「have the ability to listen carefully」指「具備做某件事所需的能力」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-13"
     },
@@ -1489,11 +1233,7 @@ export default {
       "masked": "She ____ as a teacher.",
       "options": [
         "ability-mcq-14",
-        "ability-mcq-13",
-        "ability-mcq-15",
-        "ability-mcq-12",
-        "ability-mcq-16",
-        "ability-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「demonstrated great ability」指「透過表現展現某項能力」。",
       "sentenceIndex": 32,
@@ -1502,12 +1242,8 @@ export default {
         "demonstrated great ability"
       ],
       "optionReasons": {
-        "ability-mcq-14": "本句指「透過表現展現某項能力」。",
-        "ability-mcq-13": "「具備做某件事所需的能力」是「have the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-15": "「透過學習、練習等逐步培養能力」是「develop ability」的用法，與本句語境不同。",
-        "ability-mcq-12": "「系統或組織執行某功能、反應或完成工作的能力」是「system/organizational ability」的用法，與本句語境不同。",
-        "ability-mcq-16": "「不再具備完成某動作的能力」是「lose the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-11": "「支付費用、債務或其他金額的財務能力」是「ability to pay」的用法，與本句語境不同。"
+        "ability-mcq-14": "本句的「demonstrated great ability」指「透過表現展現某項能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-14"
     },
@@ -1519,11 +1255,7 @@ export default {
       "masked": "The student ____.",
       "options": [
         "ability-mcq-14",
-        "ability-mcq-13",
-        "ability-mcq-15",
-        "ability-mcq-12",
-        "ability-mcq-16",
-        "ability-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「showed strong analytical ability」指「透過表現展現某項能力」。",
       "sentenceIndex": 33,
@@ -1532,12 +1264,8 @@ export default {
         "showed strong analytical ability"
       ],
       "optionReasons": {
-        "ability-mcq-14": "本句指「透過表現展現某項能力」。",
-        "ability-mcq-13": "「具備做某件事所需的能力」是「have the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-15": "「透過學習、練習等逐步培養能力」是「develop ability」的用法，與本句語境不同。",
-        "ability-mcq-12": "「系統或組織執行某功能、反應或完成工作的能力」是「system/organizational ability」的用法，與本句語境不同。",
-        "ability-mcq-16": "「不再具備完成某動作的能力」是「lose the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-11": "「支付費用、債務或其他金額的財務能力」是「ability to pay」的用法，與本句語境不同。"
+        "ability-mcq-14": "本句的「showed strong analytical ability」指「透過表現展現某項能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-14"
     },
@@ -1549,11 +1277,7 @@ export default {
       "masked": "Practice helps students ____.",
       "options": [
         "ability-mcq-15",
-        "ability-mcq-14",
-        "ability-mcq-16",
-        "ability-mcq-13",
-        "ability-mcq-17",
-        "ability-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「develop their ability to communicate」指「透過學習、練習等逐步培養能力」。",
       "sentenceIndex": 34,
@@ -1562,12 +1286,8 @@ export default {
         "develop their ability to communicate"
       ],
       "optionReasons": {
-        "ability-mcq-15": "本句指「透過學習、練習等逐步培養能力」。",
-        "ability-mcq-14": "「透過表現展現某項能力」是「show/demonstrate ability」的用法，與本句語境不同。",
-        "ability-mcq-16": "「不再具備完成某動作的能力」是「lose the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-13": "「具備做某件事所需的能力」是「have the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-17": "「超出某人目前能完成或處理的能力範圍」是「beyond someone’s ability」的用法，與本句語境不同。",
-        "ability-mcq-12": "「系統或組織執行某功能、反應或完成工作的能力」是「system/organizational ability」的用法，與本句語境不同。"
+        "ability-mcq-15": "本句的「develop their ability to communicate」指「透過學習、練習等逐步培養能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-15"
     },
@@ -1579,11 +1299,7 @@ export default {
       "masked": "The course is designed to ____.",
       "options": [
         "ability-mcq-15",
-        "ability-mcq-14",
-        "ability-mcq-16",
-        "ability-mcq-13",
-        "ability-mcq-17",
-        "ability-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「develop problem-solving ability」指「透過學習、練習等逐步培養能力」。",
       "sentenceIndex": 35,
@@ -1592,12 +1308,8 @@ export default {
         "develop problem-solving ability"
       ],
       "optionReasons": {
-        "ability-mcq-15": "本句指「透過學習、練習等逐步培養能力」。",
-        "ability-mcq-14": "「透過表現展現某項能力」是「show/demonstrate ability」的用法，與本句語境不同。",
-        "ability-mcq-16": "「不再具備完成某動作的能力」是「lose the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-13": "「具備做某件事所需的能力」是「have the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-17": "「超出某人目前能完成或處理的能力範圍」是「beyond someone’s ability」的用法，與本句語境不同。",
-        "ability-mcq-12": "「系統或組織執行某功能、反應或完成工作的能力」是「system/organizational ability」的用法，與本句語境不同。"
+        "ability-mcq-15": "本句的「develop problem-solving ability」指「透過學習、練習等逐步培養能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-15"
     },
@@ -1609,11 +1321,7 @@ export default {
       "masked": "He temporarily ____.",
       "options": [
         "ability-mcq-16",
-        "ability-mcq-15",
-        "ability-mcq-17",
-        "ability-mcq-14",
-        "ability-mcq-18",
-        "ability-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「lost the ability to speak clearly」指「不再具備完成某動作的能力」。",
       "sentenceIndex": 36,
@@ -1622,12 +1330,8 @@ export default {
         "lost the ability to speak clearly"
       ],
       "optionReasons": {
-        "ability-mcq-16": "本句指「不再具備完成某動作的能力」。",
-        "ability-mcq-15": "「透過學習、練習等逐步培養能力」是「develop ability」的用法，與本句語境不同。",
-        "ability-mcq-17": "「超出某人目前能完成或處理的能力範圍」是「beyond someone’s ability」的用法，與本句語境不同。",
-        "ability-mcq-14": "「透過表現展現某項能力」是「show/demonstrate ability」的用法，與本句語境不同。",
-        "ability-mcq-18": "「具有做某事能力的；能夠」是「able」的用法，與本句語境不同。",
-        "ability-mcq-13": "「具備做某件事所需的能力」是「have the ability to...」的用法，與本句語境不同。"
+        "ability-mcq-16": "本句的「lost the ability to speak clearly」指「不再具備完成某動作的能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-16"
     },
@@ -1639,11 +1343,7 @@ export default {
       "masked": "The machine ____.",
       "options": [
         "ability-mcq-16",
-        "ability-mcq-15",
-        "ability-mcq-17",
-        "ability-mcq-14",
-        "ability-mcq-18",
-        "ability-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「lost the ability to connect to the network」指「不再具備完成某動作的能力」。",
       "sentenceIndex": 37,
@@ -1652,12 +1352,8 @@ export default {
         "lost the ability to connect to the network"
       ],
       "optionReasons": {
-        "ability-mcq-16": "本句指「不再具備完成某動作的能力」。",
-        "ability-mcq-15": "「透過學習、練習等逐步培養能力」是「develop ability」的用法，與本句語境不同。",
-        "ability-mcq-17": "「超出某人目前能完成或處理的能力範圍」是「beyond someone’s ability」的用法，與本句語境不同。",
-        "ability-mcq-14": "「透過表現展現某項能力」是「show/demonstrate ability」的用法，與本句語境不同。",
-        "ability-mcq-18": "「具有做某事能力的；能夠」是「able」的用法，與本句語境不同。",
-        "ability-mcq-13": "「具備做某件事所需的能力」是「have the ability to...」的用法，與本句語境不同。"
+        "ability-mcq-16": "本句的「lost the ability to connect to the network」指「不再具備完成某動作的能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-16"
     },
@@ -1669,11 +1365,7 @@ export default {
       "masked": "The task was ____ at the time.",
       "options": [
         "ability-mcq-17",
-        "ability-mcq-16",
-        "ability-mcq-18",
-        "ability-mcq-15",
-        "ability-mcq-19",
-        "ability-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「beyond my ability」指「超出某人目前能完成或處理的能力範圍」。",
       "sentenceIndex": 38,
@@ -1682,12 +1374,8 @@ export default {
         "beyond my ability"
       ],
       "optionReasons": {
-        "ability-mcq-17": "本句指「超出某人目前能完成或處理的能力範圍」。",
-        "ability-mcq-16": "「不再具備完成某動作的能力」是「lose the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-18": "「具有做某事能力的；能夠」是「able」的用法，與本句語境不同。",
-        "ability-mcq-15": "「透過學習、練習等逐步培養能力」是「develop ability」的用法，與本句語境不同。",
-        "ability-mcq-19": "「有能力或條件完成某事；能夠」是「be able to」的用法，與本句語境不同。",
-        "ability-mcq-14": "「透過表現展現某項能力」是「show/demonstrate ability」的用法，與本句語境不同。"
+        "ability-mcq-17": "本句的「beyond my ability」指「超出某人目前能完成或處理的能力範圍」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-17"
     },
@@ -1699,11 +1387,7 @@ export default {
       "masked": "The problem is not ____.",
       "options": [
         "ability-mcq-17",
-        "ability-mcq-16",
-        "ability-mcq-18",
-        "ability-mcq-15",
-        "ability-mcq-19",
-        "ability-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「beyond her ability」指「超出某人目前能完成或處理的能力範圍」。",
       "sentenceIndex": 39,
@@ -1712,12 +1396,8 @@ export default {
         "beyond her ability"
       ],
       "optionReasons": {
-        "ability-mcq-17": "本句指「超出某人目前能完成或處理的能力範圍」。",
-        "ability-mcq-16": "「不再具備完成某動作的能力」是「lose the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-18": "「具有做某事能力的；能夠」是「able」的用法，與本句語境不同。",
-        "ability-mcq-15": "「透過學習、練習等逐步培養能力」是「develop ability」的用法，與本句語境不同。",
-        "ability-mcq-19": "「有能力或條件完成某事；能夠」是「be able to」的用法，與本句語境不同。",
-        "ability-mcq-14": "「透過表現展現某項能力」是「show/demonstrate ability」的用法，與本句語境不同。"
+        "ability-mcq-17": "本句的「beyond her ability」指「超出某人目前能完成或處理的能力範圍」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-17"
     },
@@ -1729,11 +1409,7 @@ export default {
       "masked": "She is ____.",
       "options": [
         "ability-mcq-18",
-        "ability-mcq-17",
-        "ability-mcq-19",
-        "ability-mcq-16",
-        "ability-mcq-20",
-        "ability-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「able to explain difficult ideas clearly」指「具有做某事能力的；能夠」。",
       "sentenceIndex": 40,
@@ -1742,12 +1418,8 @@ export default {
         "able to explain difficult ideas clearly"
       ],
       "optionReasons": {
-        "ability-mcq-18": "本句指「具有做某事能力的；能夠」。",
-        "ability-mcq-17": "「超出某人目前能完成或處理的能力範圍」是「beyond someone’s ability」的用法，與本句語境不同。",
-        "ability-mcq-19": "「有能力或條件完成某事；能夠」是「be able to」的用法，與本句語境不同。",
-        "ability-mcq-16": "「不再具備完成某動作的能力」是「lose the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-20": "「沒有能力或無法做某事」是「unable」的用法，與本句語境不同。",
-        "ability-mcq-15": "「透過學習、練習等逐步培養能力」是「develop ability」的用法，與本句語境不同。"
+        "ability-mcq-18": "本句的「able to explain difficult ideas clearly」指「具有做某事能力的；能夠」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-18"
     },
@@ -1759,11 +1431,7 @@ export default {
       "masked": "I wasn’t ____.",
       "options": [
         "ability-mcq-18",
-        "ability-mcq-17",
-        "ability-mcq-19",
-        "ability-mcq-16",
-        "ability-mcq-20",
-        "ability-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「able to answer the question」指「具有做某事能力的；能夠」。",
       "sentenceIndex": 41,
@@ -1772,12 +1440,8 @@ export default {
         "able to answer the question"
       ],
       "optionReasons": {
-        "ability-mcq-18": "本句指「具有做某事能力的；能夠」。",
-        "ability-mcq-17": "「超出某人目前能完成或處理的能力範圍」是「beyond someone’s ability」的用法，與本句語境不同。",
-        "ability-mcq-19": "「有能力或條件完成某事；能夠」是「be able to」的用法，與本句語境不同。",
-        "ability-mcq-16": "「不再具備完成某動作的能力」是「lose the ability to...」的用法，與本句語境不同。",
-        "ability-mcq-20": "「沒有能力或無法做某事」是「unable」的用法，與本句語境不同。",
-        "ability-mcq-15": "「透過學習、練習等逐步培養能力」是「develop ability」的用法，與本句語境不同。"
+        "ability-mcq-18": "本句的「able to answer the question」指「具有做某事能力的；能夠」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-18"
     },
@@ -1789,11 +1453,7 @@ export default {
       "masked": "She was ____.",
       "options": [
         "ability-mcq-19",
-        "ability-mcq-18",
-        "ability-mcq-20",
-        "ability-mcq-17",
-        "ability-mcq-21",
-        "ability-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「able to calm the whole class」指「有能力或條件完成某事；能夠」。",
       "sentenceIndex": 42,
@@ -1802,12 +1462,8 @@ export default {
         "able to calm the whole class"
       ],
       "optionReasons": {
-        "ability-mcq-19": "本句指「有能力或條件完成某事；能夠」。",
-        "ability-mcq-18": "「具有做某事能力的；能夠」是「able」的用法，與本句語境不同。",
-        "ability-mcq-20": "「沒有能力或無法做某事」是「unable」的用法，與本句語境不同。",
-        "ability-mcq-17": "「超出某人目前能完成或處理的能力範圍」是「beyond someone’s ability」的用法，與本句語境不同。",
-        "ability-mcq-21": "「缺乏做某件事的能力；無法做到」是「inability」的用法，與本句語境不同。",
-        "ability-mcq-16": "「不再具備完成某動作的能力」是「lose the ability to...」的用法，與本句語境不同。"
+        "ability-mcq-19": "本句的「able to calm the whole class」指「有能力或條件完成某事；能夠」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-19"
     },
@@ -1819,11 +1475,7 @@ export default {
       "masked": "Will you be ____?",
       "options": [
         "ability-mcq-19",
-        "ability-mcq-18",
-        "ability-mcq-20",
-        "ability-mcq-17",
-        "ability-mcq-21",
-        "ability-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「able to finish today」指「有能力或條件完成某事；能夠」。",
       "sentenceIndex": 43,
@@ -1832,12 +1484,8 @@ export default {
         "able to finish today"
       ],
       "optionReasons": {
-        "ability-mcq-19": "本句指「有能力或條件完成某事；能夠」。",
-        "ability-mcq-18": "「具有做某事能力的；能夠」是「able」的用法，與本句語境不同。",
-        "ability-mcq-20": "「沒有能力或無法做某事」是「unable」的用法，與本句語境不同。",
-        "ability-mcq-17": "「超出某人目前能完成或處理的能力範圍」是「beyond someone’s ability」的用法，與本句語境不同。",
-        "ability-mcq-21": "「缺乏做某件事的能力；無法做到」是「inability」的用法，與本句語境不同。",
-        "ability-mcq-16": "「不再具備完成某動作的能力」是「lose the ability to...」的用法，與本句語境不同。"
+        "ability-mcq-19": "本句的「able to finish today」指「有能力或條件完成某事；能夠」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-19"
     },
@@ -1849,11 +1497,7 @@ export default {
       "masked": "He was ____.",
       "options": [
         "ability-mcq-20",
-        "ability-mcq-19",
-        "ability-mcq-21",
-        "ability-mcq-18",
-        "ability-mcq-22",
-        "ability-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「unable to explain the result」指「沒有能力或無法做某事」。",
       "sentenceIndex": 44,
@@ -1862,12 +1506,8 @@ export default {
         "unable to explain the result"
       ],
       "optionReasons": {
-        "ability-mcq-20": "本句指「沒有能力或無法做某事」。",
-        "ability-mcq-19": "「有能力或條件完成某事；能夠」是「be able to」的用法，與本句語境不同。",
-        "ability-mcq-21": "「缺乏做某件事的能力；無法做到」是「inability」的用法，與本句語境不同。",
-        "ability-mcq-18": "「具有做某事能力的；能夠」是「able」的用法，與本句語境不同。",
-        "ability-mcq-22": "「表示智力能力；認知能力」是「10. ability — mental capability」的用法，與本句語境不同。",
-        "ability-mcq-17": "「超出某人目前能完成或處理的能力範圍」是「beyond someone’s ability」的用法，與本句語境不同。"
+        "ability-mcq-20": "本句的「unable to explain the result」指「沒有能力或無法做某事」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-20"
     },
@@ -1879,11 +1519,7 @@ export default {
       "masked": "She felt ____.",
       "options": [
         "ability-mcq-20",
-        "ability-mcq-19",
-        "ability-mcq-21",
-        "ability-mcq-18",
-        "ability-mcq-22",
-        "ability-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「unable to speak」指「沒有能力或無法做某事」。",
       "sentenceIndex": 45,
@@ -1892,12 +1528,8 @@ export default {
         "unable to speak"
       ],
       "optionReasons": {
-        "ability-mcq-20": "本句指「沒有能力或無法做某事」。",
-        "ability-mcq-19": "「有能力或條件完成某事；能夠」是「be able to」的用法，與本句語境不同。",
-        "ability-mcq-21": "「缺乏做某件事的能力；無法做到」是「inability」的用法，與本句語境不同。",
-        "ability-mcq-18": "「具有做某事能力的；能夠」是「able」的用法，與本句語境不同。",
-        "ability-mcq-22": "「表示智力能力；認知能力」是「10. ability — mental capability」的用法，與本句語境不同。",
-        "ability-mcq-17": "「超出某人目前能完成或處理的能力範圍」是「beyond someone’s ability」的用法，與本句語境不同。"
+        "ability-mcq-20": "本句的「unable to speak」指「沒有能力或無法做某事」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-20"
     },
@@ -1909,11 +1541,7 @@ export default {
       "masked": "His ____ caused problems.",
       "options": [
         "ability-mcq-21",
-        "ability-mcq-20",
-        "ability-mcq-22",
-        "ability-mcq-19",
-        "ability-mcq-18",
-        "ability-mcq-17"
+        "contrast-energy"
       ],
       "explanation": "本句的「inability to adapt」指「缺乏做某件事的能力；無法做到」。",
       "sentenceIndex": 46,
@@ -1922,12 +1550,8 @@ export default {
         "inability to adapt"
       ],
       "optionReasons": {
-        "ability-mcq-21": "本句指「缺乏做某件事的能力；無法做到」。",
-        "ability-mcq-20": "「沒有能力或無法做某事」是「unable」的用法，與本句語境不同。",
-        "ability-mcq-22": "「表示智力能力；認知能力」是「10. ability — mental capability」的用法，與本句語境不同。",
-        "ability-mcq-19": "「有能力或條件完成某事；能夠」是「be able to」的用法，與本句語境不同。",
-        "ability-mcq-18": "「具有做某事能力的；能夠」是「able」的用法，與本句語境不同。",
-        "ability-mcq-17": "「超出某人目前能完成或處理的能力範圍」是「beyond someone’s ability」的用法，與本句語境不同。"
+        "ability-mcq-21": "本句的「inability to adapt」指「缺乏做某件事的能力；無法做到」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-21"
     },
@@ -1939,11 +1563,7 @@ export default {
       "masked": "The delay resulted from their ____.",
       "options": [
         "ability-mcq-21",
-        "ability-mcq-20",
-        "ability-mcq-22",
-        "ability-mcq-19",
-        "ability-mcq-18",
-        "ability-mcq-17"
+        "contrast-energy"
       ],
       "explanation": "本句的「inability to communicate clearly」指「缺乏做某件事的能力；無法做到」。",
       "sentenceIndex": 47,
@@ -1952,12 +1572,8 @@ export default {
         "inability to communicate clearly"
       ],
       "optionReasons": {
-        "ability-mcq-21": "本句指「缺乏做某件事的能力；無法做到」。",
-        "ability-mcq-20": "「沒有能力或無法做某事」是「unable」的用法，與本句語境不同。",
-        "ability-mcq-22": "「表示智力能力；認知能力」是「10. ability — mental capability」的用法，與本句語境不同。",
-        "ability-mcq-19": "「有能力或條件完成某事；能夠」是「be able to」的用法，與本句語境不同。",
-        "ability-mcq-18": "「具有做某事能力的；能夠」是「able」的用法，與本句語境不同。",
-        "ability-mcq-17": "「超出某人目前能完成或處理的能力範圍」是「beyond someone’s ability」的用法，與本句語境不同。"
+        "ability-mcq-21": "本句的「inability to communicate clearly」指「缺乏做某件事的能力；無法做到」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-21"
     },
@@ -1969,11 +1585,7 @@ export default {
       "masked": "His natural ____ impressed the teacher.",
       "options": [
         "ability-mcq-21",
-        "ability-mcq-20",
-        "ability-mcq-22",
-        "ability-mcq-19",
-        "ability-mcq-18",
-        "ability-mcq-17"
+        "contrast-energy"
       ],
       "explanation": "本句的「ability」指「缺乏做某件事的能力；無法做到」。",
       "sentenceIndex": 48,
@@ -1982,12 +1594,8 @@ export default {
         "ability"
       ],
       "optionReasons": {
-        "ability-mcq-21": "本句指「缺乏做某件事的能力；無法做到」。",
-        "ability-mcq-20": "「沒有能力或無法做某事」是「unable」的用法，與本句語境不同。",
-        "ability-mcq-22": "「表示智力能力；認知能力」是「10. ability — mental capability」的用法，與本句語境不同。",
-        "ability-mcq-19": "「有能力或條件完成某事；能夠」是「be able to」的用法，與本句語境不同。",
-        "ability-mcq-18": "「具有做某事能力的；能夠」是「able」的用法，與本句語境不同。",
-        "ability-mcq-17": "「超出某人目前能完成或處理的能力範圍」是「beyond someone’s ability」的用法，與本句語境不同。"
+        "ability-mcq-21": "本句的「ability」指「缺乏做某件事的能力；無法做到」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-21"
     },
@@ -1999,11 +1607,7 @@ export default {
       "masked": "The role requires several different ____.",
       "options": [
         "ability-mcq-21",
-        "ability-mcq-20",
-        "ability-mcq-22",
-        "ability-mcq-19",
-        "ability-mcq-18",
-        "ability-mcq-17"
+        "contrast-energy"
       ],
       "explanation": "本句的「abilities」指「缺乏做某件事的能力；無法做到」。",
       "sentenceIndex": 49,
@@ -2012,12 +1616,8 @@ export default {
         "abilities"
       ],
       "optionReasons": {
-        "ability-mcq-21": "本句指「缺乏做某件事的能力；無法做到」。",
-        "ability-mcq-20": "「沒有能力或無法做某事」是「unable」的用法，與本句語境不同。",
-        "ability-mcq-22": "「表示智力能力；認知能力」是「10. ability — mental capability」的用法，與本句語境不同。",
-        "ability-mcq-19": "「有能力或條件完成某事；能夠」是「be able to」的用法，與本句語境不同。",
-        "ability-mcq-18": "「具有做某事能力的；能夠」是「able」的用法，與本句語境不同。",
-        "ability-mcq-17": "「超出某人目前能完成或處理的能力範圍」是「beyond someone’s ability」的用法，與本句語境不同。"
+        "ability-mcq-21": "本句的「abilities」指「缺乏做某件事的能力；無法做到」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ability-mcq-21"
     }
@@ -2029,5 +1629,20 @@ export default {
     "sha256": "4e02835351cc3cafa8b47f44e6a89d10228f451eacede8b228b0db8bf7b3a05b",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-energy",
+      "title": "消耗身體的體力或精力"
+    },
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    },
+    {
+      "id": "contrast-duration",
+      "title": "某件事持續的一段時間"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

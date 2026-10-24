@@ -34,7 +34,7 @@ export default {
     },
     {
       "id": "much-mcq-02",
-      "title": "表示不可數事物具有大量／某一數量",
+      "title": "不可數事物具有大量／某一數量",
       "form": "much + uncountable noun",
       "en": "much + uncountable noun",
       "zh": "表示不可數事物具有大量／某一數量",
@@ -88,7 +88,7 @@ export default {
     },
     {
       "id": "much-mcq-04",
-      "title": "表示某個行為、感受或變化達到很高程度",
+      "title": "某個行為、感受或變化達到很高程度",
       "form": "much + verb",
       "en": "much + verb",
       "zh": "表示某個行為、感受或變化達到很高程度",
@@ -450,7 +450,7 @@ export default {
     },
     {
       "id": "much-mcq-20",
-      "title": "表示某個想法、計劃或期望已失敗／被證明不成立",
+      "title": "某個想法、計劃或期望已失敗／被證明不成立",
       "form": "so much for...",
       "en": "so much for...",
       "zh": "表示某個想法、計劃或期望已失敗／被證明不成立",
@@ -524,11 +524,9 @@ export default {
       "masked": "He became ____ than people expected.",
       "options": [
         "much-mcq-01",
-        "much-mcq-02",
-        "much-mcq-03",
-        "much-mcq-04",
-        "much-mcq-05",
-        "much-mcq-06"
+        "much-pdf-001",
+        "much-mcq-20",
+        "much-mcq-19"
       ],
       "explanation": "本句的「much more lively」指「強調兩者比較差距很大；……得多」。",
       "sentenceIndex": 0,
@@ -537,12 +535,10 @@ export default {
         "much more lively"
       ],
       "optionReasons": {
-        "much-mcq-01": "本句指「強調兩者比較差距很大；……得多」。",
-        "much-mcq-02": "「表示不可數事物具有大量／某一數量」是「much + uncountable noun」的用法，與本句語境不同。",
-        "much-mcq-03": "「代替已知不可數內容，表示很大的數量／部分」是「much — pronoun」的用法，與本句語境不同。",
-        "much-mcq-04": "「表示某個行為、感受或變化達到很高程度」是「much + verb」的用法，與本句語境不同。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。"
+        "much-mcq-01": "本句的「much more lively」指「強調兩者比較差距很大；……得多」。",
+        "much-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-01"
     },
@@ -554,11 +550,9 @@ export default {
       "masked": "The second explanation was ____.",
       "options": [
         "much-mcq-01",
-        "much-mcq-02",
-        "much-mcq-03",
-        "much-mcq-04",
-        "much-mcq-05",
-        "much-mcq-06"
+        "much-mcq-06",
+        "much-mcq-20",
+        "much-mcq-14"
       ],
       "explanation": "本句的「much clearer」指「強調兩者比較差距很大；……得多」。",
       "sentenceIndex": 1,
@@ -567,12 +561,10 @@ export default {
         "much clearer"
       ],
       "optionReasons": {
-        "much-mcq-01": "本句指「強調兩者比較差距很大；……得多」。",
-        "much-mcq-02": "「表示不可數事物具有大量／某一數量」是「much + uncountable noun」的用法，與本句語境不同。",
-        "much-mcq-03": "「代替已知不可數內容，表示很大的數量／部分」是「much — pronoun」的用法，與本句語境不同。",
-        "much-mcq-04": "「表示某個行為、感受或變化達到很高程度」是「much + verb」的用法，與本句語境不同。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。"
+        "much-mcq-01": "本句的「much clearer」指「強調兩者比較差距很大；……得多」。",
+        "much-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-01"
     },
@@ -584,11 +576,9 @@ export default {
       "masked": "She answered the question ____ this time.",
       "options": [
         "much-mcq-01",
-        "much-mcq-02",
-        "much-mcq-03",
         "much-mcq-04",
-        "much-mcq-05",
-        "much-mcq-06"
+        "much-mcq-14",
+        "much-mcq-19"
       ],
       "explanation": "本句的「much more confidently」指「強調兩者比較差距很大；……得多」。",
       "sentenceIndex": 2,
@@ -597,12 +587,10 @@ export default {
         "much more confidently"
       ],
       "optionReasons": {
-        "much-mcq-01": "本句指「強調兩者比較差距很大；……得多」。",
-        "much-mcq-02": "「表示不可數事物具有大量／某一數量」是「much + uncountable noun」的用法，與本句語境不同。",
-        "much-mcq-03": "「代替已知不可數內容，表示很大的數量／部分」是「much — pronoun」的用法，與本句語境不同。",
-        "much-mcq-04": "「表示某個行為、感受或變化達到很高程度」是「much + verb」的用法，與本句語境不同。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。"
+        "much-mcq-01": "本句的「much more confidently」指「強調兩者比較差距很大；……得多」。",
+        "much-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-01"
     },
@@ -614,11 +602,9 @@ export default {
       "masked": "We don’t have ____.",
       "options": [
         "much-mcq-02",
-        "much-mcq-01",
-        "much-mcq-03",
-        "much-mcq-04",
-        "much-mcq-05",
-        "much-mcq-06"
+        "much-mcq-12",
+        "much-pdf-002",
+        "much-mcq-13"
       ],
       "explanation": "本句的「much time」指「表示不可數事物具有大量／某一數量」。",
       "sentenceIndex": 3,
@@ -627,12 +613,10 @@ export default {
         "much time"
       ],
       "optionReasons": {
-        "much-mcq-02": "本句指「表示不可數事物具有大量／某一數量」。",
-        "much-mcq-01": "「強調兩者比較差距很大；……得多」是「much + comparative」的用法，與本句語境不同。",
-        "much-mcq-03": "「代替已知不可數內容，表示很大的數量／部分」是「much — pronoun」的用法，與本句語境不同。",
-        "much-mcq-04": "「表示某個行為、感受或變化達到很高程度」是「much + verb」的用法，與本句語境不同。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。"
+        "much-mcq-02": "本句的「much time」指「表示不可數事物具有大量／某一數量」。",
+        "much-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-02"
     },
@@ -644,11 +628,9 @@ export default {
       "masked": "How ____ do we need?",
       "options": [
         "much-mcq-02",
-        "much-mcq-01",
-        "much-mcq-03",
-        "much-mcq-04",
-        "much-mcq-05",
-        "much-mcq-06"
+        "much-pdf-002",
+        "much-mcq-19",
+        "much-mcq-16"
       ],
       "explanation": "本句的「much information」指「表示不可數事物具有大量／某一數量」。",
       "sentenceIndex": 4,
@@ -657,12 +639,10 @@ export default {
         "much information"
       ],
       "optionReasons": {
-        "much-mcq-02": "本句指「表示不可數事物具有大量／某一數量」。",
-        "much-mcq-01": "「強調兩者比較差距很大；……得多」是「much + comparative」的用法，與本句語境不同。",
-        "much-mcq-03": "「代替已知不可數內容，表示很大的數量／部分」是「much — pronoun」的用法，與本句語境不同。",
-        "much-mcq-04": "「表示某個行為、感受或變化達到很高程度」是「much + verb」的用法，與本句語境不同。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。"
+        "much-mcq-02": "本句的「much information」指「表示不可數事物具有大量／某一數量」。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-02"
     },
@@ -674,11 +654,9 @@ export default {
       "masked": "There isn’t ____ left to discuss.",
       "options": [
         "much-mcq-03",
-        "much-mcq-02",
-        "much-mcq-04",
-        "much-mcq-01",
-        "much-mcq-05",
-        "much-mcq-06"
+        "much-pdf-002",
+        "much-mcq-18",
+        "much-mcq-19"
       ],
       "explanation": "本句的「much」指「代替已知不可數內容，表示很大的數量／部分」。",
       "sentenceIndex": 5,
@@ -687,12 +665,10 @@ export default {
         "much"
       ],
       "optionReasons": {
-        "much-mcq-03": "本句指「代替已知不可數內容，表示很大的數量／部分」。",
-        "much-mcq-02": "「表示不可數事物具有大量／某一數量」是「much + uncountable noun」的用法，與本句語境不同。",
-        "much-mcq-04": "「表示某個行為、感受或變化達到很高程度」是「much + verb」的用法，與本句語境不同。",
-        "much-mcq-01": "「強調兩者比較差距很大；……得多」是「much + comparative」的用法，與本句語境不同。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。"
+        "much-mcq-03": "本句的「much」指「代替已知不可數內容，表示很大的數量／部分」。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-03"
     },
@@ -704,11 +680,9 @@ export default {
       "masked": "I learned ____ from him.",
       "options": [
         "much-mcq-03",
-        "much-mcq-02",
-        "much-mcq-04",
-        "much-mcq-01",
-        "much-mcq-05",
-        "much-mcq-06"
+        "much-mcq-19",
+        "much-mcq-18",
+        "much-pdf-002"
       ],
       "explanation": "本句的「much」指「代替已知不可數內容，表示很大的數量／部分」。",
       "sentenceIndex": 6,
@@ -717,12 +691,10 @@ export default {
         "much"
       ],
       "optionReasons": {
-        "much-mcq-03": "本句指「代替已知不可數內容，表示很大的數量／部分」。",
-        "much-mcq-02": "「表示不可數事物具有大量／某一數量」是「much + uncountable noun」的用法，與本句語境不同。",
-        "much-mcq-04": "「表示某個行為、感受或變化達到很高程度」是「much + verb」的用法，與本句語境不同。",
-        "much-mcq-01": "「強調兩者比較差距很大；……得多」是「much + comparative」的用法，與本句語境不同。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。"
+        "much-mcq-03": "本句的「much」指「代替已知不可數內容，表示很大的數量／部分」。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-03"
     },
@@ -734,11 +706,9 @@ export default {
       "masked": "I don’t ____ memorising facts.",
       "options": [
         "much-mcq-04",
-        "much-mcq-03",
-        "much-mcq-05",
-        "much-mcq-02",
-        "much-mcq-06",
-        "much-mcq-01"
+        "much-mcq-16",
+        "much-mcq-01",
+        "much-mcq-14"
       ],
       "explanation": "本句的「much like」指「表示某個行為、感受或變化達到很高程度」。",
       "sentenceIndex": 7,
@@ -747,12 +717,10 @@ export default {
         "much like"
       ],
       "optionReasons": {
-        "much-mcq-04": "本句指「表示某個行為、感受或變化達到很高程度」。",
-        "much-mcq-03": "「代替已知不可數內容，表示很大的數量／部分」是「much — pronoun」的用法，與本句語境不同。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。",
-        "much-mcq-02": "「表示不可數事物具有大量／某一數量」是「much + uncountable noun」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。",
-        "much-mcq-01": "「強調兩者比較差距很大；……得多」是「much + comparative」的用法，與本句語境不同。"
+        "much-mcq-04": "本句的「much like」指「表示某個行為、感受或變化達到很高程度」。",
+        "much-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-04"
     },
@@ -764,11 +732,9 @@ export default {
       "masked": "The situation has ____.",
       "options": [
         "much-mcq-04",
-        "much-mcq-03",
-        "much-mcq-05",
-        "much-mcq-02",
-        "much-mcq-06",
-        "much-mcq-01"
+        "much-mcq-14",
+        "much-mcq-19",
+        "much-mcq-15"
       ],
       "explanation": "本句的「much improved」指「表示某個行為、感受或變化達到很高程度」。",
       "sentenceIndex": 8,
@@ -777,12 +743,10 @@ export default {
         "much improved"
       ],
       "optionReasons": {
-        "much-mcq-04": "本句指「表示某個行為、感受或變化達到很高程度」。",
-        "much-mcq-03": "「代替已知不可數內容，表示很大的數量／部分」是「much — pronoun」的用法，與本句語境不同。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。",
-        "much-mcq-02": "「表示不可數事物具有大量／某一數量」是「much + uncountable noun」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。",
-        "much-mcq-01": "「強調兩者比較差距很大；……得多」是「much + comparative」的用法，與本句語境不同。"
+        "much-mcq-04": "本句的「much improved」指「表示某個行為、感受或變化達到很高程度」。",
+        "much-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-04"
     },
@@ -794,11 +758,9 @@ export default {
       "masked": "I ____ his lessons.",
       "options": [
         "much-mcq-05",
-        "much-mcq-04",
-        "much-mcq-06",
-        "much-mcq-03",
-        "much-mcq-07",
-        "much-mcq-02"
+        "much-mcq-16",
+        "much-mcq-13",
+        "much-mcq-19"
       ],
       "explanation": "本句的「very much enjoyed」指「強烈加深喜歡、感謝、希望、欣賞等程度」。",
       "sentenceIndex": 9,
@@ -807,12 +769,10 @@ export default {
         "very much enjoyed"
       ],
       "optionReasons": {
-        "much-mcq-05": "本句指「強烈加深喜歡、感謝、希望、欣賞等程度」。",
-        "much-mcq-04": "「表示某個行為、感受或變化達到很高程度」是「much + verb」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。",
-        "much-mcq-03": "「代替已知不可數內容，表示很大的數量／部分」是「much — pronoun」的用法，與本句語境不同。",
-        "much-mcq-07": "「詢問不可數數量、程度或價格」是「how much」的用法，與本句語境不同。",
-        "much-mcq-02": "「表示不可數事物具有大量／某一數量」是「much + uncountable noun」的用法，與本句語境不同。"
+        "much-mcq-05": "本句的「very much enjoyed」指「強烈加深喜歡、感謝、希望、欣賞等程度」。",
+        "much-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-05"
     },
@@ -824,11 +784,9 @@ export default {
       "masked": "I ____ your help.",
       "options": [
         "much-mcq-05",
-        "much-mcq-04",
-        "much-mcq-06",
-        "much-mcq-03",
-        "much-mcq-07",
-        "much-mcq-02"
+        "much-mcq-19",
+        "much-mcq-15",
+        "much-pdf-002"
       ],
       "explanation": "本句的「very much appreciate」指「強烈加深喜歡、感謝、希望、欣賞等程度」。",
       "sentenceIndex": 10,
@@ -837,12 +795,10 @@ export default {
         "very much appreciate"
       ],
       "optionReasons": {
-        "much-mcq-05": "本句指「強烈加深喜歡、感謝、希望、欣賞等程度」。",
-        "much-mcq-04": "「表示某個行為、感受或變化達到很高程度」是「much + verb」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。",
-        "much-mcq-03": "「代替已知不可數內容，表示很大的數量／部分」是「much — pronoun」的用法，與本句語境不同。",
-        "much-mcq-07": "「詢問不可數數量、程度或價格」是「how much」的用法，與本句語境不同。",
-        "much-mcq-02": "「表示不可數事物具有大量／某一數量」是「much + uncountable noun」的用法，與本句語境不同。"
+        "much-mcq-05": "本句的「very much appreciate」指「強烈加深喜歡、感謝、希望、欣賞等程度」。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-05"
     },
@@ -854,11 +810,9 @@ export default {
       "masked": "There wasn’t ____ that week.",
       "options": [
         "much-mcq-06",
-        "much-mcq-05",
-        "much-mcq-07",
-        "much-mcq-04",
-        "much-mcq-08",
-        "much-mcq-03"
+        "much-mcq-01",
+        "much-mcq-15",
+        "much-mcq-18"
       ],
       "explanation": "本句的「much homework」指「某種不可數數量／程度很少；沒有多少」。",
       "sentenceIndex": 11,
@@ -867,12 +821,10 @@ export default {
         "much homework"
       ],
       "optionReasons": {
-        "much-mcq-06": "本句指「某種不可數數量／程度很少；沒有多少」。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。",
-        "much-mcq-07": "「詢問不可數數量、程度或價格」是「how much」的用法，與本句語境不同。",
-        "much-mcq-04": "「表示某個行為、感受或變化達到很高程度」是「much + verb」的用法，與本句語境不同。",
-        "much-mcq-08": "「不可數數量／負擔超過合理或可接受範圍」是「too much」的用法，與本句語境不同。",
-        "much-mcq-03": "「代替已知不可數內容，表示很大的數量／部分」是「much — pronoun」的用法，與本句語境不同。"
+        "much-mcq-06": "本句的「much homework」指「某種不可數數量／程度很少；沒有多少」。",
+        "much-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-06"
     },
@@ -884,11 +836,9 @@ export default {
       "masked": "Not ____ has changed.",
       "options": [
         "much-mcq-06",
-        "much-mcq-05",
-        "much-mcq-07",
-        "much-mcq-04",
-        "much-mcq-08",
-        "much-mcq-03"
+        "much-mcq-20",
+        "much-mcq-13",
+        "much-mcq-14"
       ],
       "explanation": "本句的「much」指「某種不可數數量／程度很少；沒有多少」。",
       "sentenceIndex": 12,
@@ -897,12 +847,10 @@ export default {
         "much"
       ],
       "optionReasons": {
-        "much-mcq-06": "本句指「某種不可數數量／程度很少；沒有多少」。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。",
-        "much-mcq-07": "「詢問不可數數量、程度或價格」是「how much」的用法，與本句語境不同。",
-        "much-mcq-04": "「表示某個行為、感受或變化達到很高程度」是「much + verb」的用法，與本句語境不同。",
-        "much-mcq-08": "「不可數數量／負擔超過合理或可接受範圍」是「too much」的用法，與本句語境不同。",
-        "much-mcq-03": "「代替已知不可數內容，表示很大的數量／部分」是「much — pronoun」的用法，與本句語境不同。"
+        "much-mcq-06": "本句的「much」指「某種不可數數量／程度很少；沒有多少」。",
+        "much-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-06"
     },
@@ -914,11 +862,9 @@ export default {
       "masked": "How ____ do we have?",
       "options": [
         "much-mcq-02",
-        "much-mcq-01",
-        "much-mcq-03",
-        "much-mcq-04",
-        "much-mcq-05",
-        "much-mcq-06"
+        "much-mcq-12",
+        "much-pdf-002",
+        "much-mcq-13"
       ],
       "explanation": "本句的「much time」指「表示不可數事物具有大量／某一數量」。",
       "sentenceIndex": 13,
@@ -927,12 +873,10 @@ export default {
         "much time"
       ],
       "optionReasons": {
-        "much-mcq-02": "本句指「表示不可數事物具有大量／某一數量」。",
-        "much-mcq-01": "「強調兩者比較差距很大；……得多」是「much + comparative」的用法，與本句語境不同。",
-        "much-mcq-03": "「代替已知不可數內容，表示很大的數量／部分」是「much — pronoun」的用法，與本句語境不同。",
-        "much-mcq-04": "「表示某個行為、感受或變化達到很高程度」是「much + verb」的用法，與本句語境不同。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。"
+        "much-mcq-02": "本句的「much time」指「表示不可數事物具有大量／某一數量」。",
+        "much-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-02"
     },
@@ -944,11 +888,9 @@ export default {
       "masked": "How ____ did the school spend?",
       "options": [
         "much-mcq-02",
-        "much-mcq-01",
-        "much-mcq-03",
-        "much-mcq-04",
-        "much-mcq-05",
-        "much-mcq-06"
+        "much-mcq-18",
+        "much-mcq-19",
+        "much-pdf-002"
       ],
       "explanation": "本句的「much money」指「表示不可數事物具有大量／某一數量」。",
       "sentenceIndex": 14,
@@ -957,12 +899,10 @@ export default {
         "much money"
       ],
       "optionReasons": {
-        "much-mcq-02": "本句指「表示不可數事物具有大量／某一數量」。",
-        "much-mcq-01": "「強調兩者比較差距很大；……得多」是「much + comparative」的用法，與本句語境不同。",
-        "much-mcq-03": "「代替已知不可數內容，表示很大的數量／部分」是「much — pronoun」的用法，與本句語境不同。",
-        "much-mcq-04": "「表示某個行為、感受或變化達到很高程度」是「much + verb」的用法，與本句語境不同。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。"
+        "much-mcq-02": "本句的「much money」指「表示不可數事物具有大量／某一數量」。",
+        "much-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-02"
     },
@@ -974,11 +914,9 @@ export default {
       "masked": "How ____ is this book?",
       "options": [
         "much-mcq-07",
-        "much-mcq-06",
-        "much-mcq-08",
-        "much-mcq-05",
-        "much-mcq-09",
-        "much-mcq-04"
+        "much-mcq-20",
+        "much-mcq-15",
+        "much-mcq-01"
       ],
       "explanation": "本句的「much」指「詢問不可數數量、程度或價格」。",
       "sentenceIndex": 15,
@@ -987,12 +925,10 @@ export default {
         "much"
       ],
       "optionReasons": {
-        "much-mcq-07": "本句指「詢問不可數數量、程度或價格」。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。",
-        "much-mcq-08": "「不可數數量／負擔超過合理或可接受範圍」是「too much」的用法，與本句語境不同。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。",
-        "much-mcq-09": "「強調不可數事物的數量／程度非常大」是「so much」的用法，與本句語境不同。",
-        "much-mcq-04": "「表示某個行為、感受或變化達到很高程度」是「much + verb」的用法，與本句語境不同。"
+        "much-mcq-07": "本句的「much」指「詢問不可數數量、程度或價格」。",
+        "much-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-07"
     },
@@ -1004,11 +940,9 @@ export default {
       "masked": "How ____ did the glasses cost?",
       "options": [
         "much-mcq-07",
-        "much-mcq-06",
-        "much-mcq-08",
-        "much-mcq-05",
-        "much-mcq-09",
-        "much-mcq-04"
+        "much-pdf-002",
+        "much-mcq-20",
+        "much-mcq-13"
       ],
       "explanation": "本句的「much」指「詢問不可數數量、程度或價格」。",
       "sentenceIndex": 16,
@@ -1017,12 +951,10 @@ export default {
         "much"
       ],
       "optionReasons": {
-        "much-mcq-07": "本句指「詢問不可數數量、程度或價格」。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。",
-        "much-mcq-08": "「不可數數量／負擔超過合理或可接受範圍」是「too much」的用法，與本句語境不同。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。",
-        "much-mcq-09": "「強調不可數事物的數量／程度非常大」是「so much」的用法，與本句語境不同。",
-        "much-mcq-04": "「表示某個行為、感受或變化達到很高程度」是「much + verb」的用法，與本句語境不同。"
+        "much-mcq-07": "本句的「much」指「詢問不可數數量、程度或價格」。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-07"
     },
@@ -1034,11 +966,9 @@ export default {
       "masked": "There was ____ on the slide.",
       "options": [
         "much-mcq-08",
-        "much-mcq-07",
-        "much-mcq-09",
-        "much-mcq-06",
-        "much-mcq-10",
-        "much-mcq-05"
+        "much-mcq-18",
+        "much-mcq-15",
+        "much-pdf-002"
       ],
       "explanation": "本句的「too much information」指「不可數數量／負擔超過合理或可接受範圍」。",
       "sentenceIndex": 17,
@@ -1047,12 +977,10 @@ export default {
         "too much information"
       ],
       "optionReasons": {
-        "much-mcq-08": "本句指「不可數數量／負擔超過合理或可接受範圍」。",
-        "much-mcq-07": "「詢問不可數數量、程度或價格」是「how much」的用法，與本句語境不同。",
-        "much-mcq-09": "「強調不可數事物的數量／程度非常大」是「so much」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。",
-        "much-mcq-10": "「兩者在不可數數量／程度上相等」是「as much...as」的用法，與本句語境不同。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。"
+        "much-mcq-08": "本句的「too much information」指「不可數數量／負擔超過合理或可接受範圍」。",
+        "much-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-08"
     },
@@ -1064,11 +992,9 @@ export default {
       "masked": "He spent ____ memorising dates.",
       "options": [
         "much-mcq-08",
-        "much-mcq-07",
-        "much-mcq-09",
-        "much-mcq-06",
-        "much-mcq-10",
-        "much-mcq-05"
+        "much-mcq-01",
+        "much-mcq-18",
+        "much-mcq-19"
       ],
       "explanation": "本句的「too much time」指「不可數數量／負擔超過合理或可接受範圍」。",
       "sentenceIndex": 18,
@@ -1077,12 +1003,10 @@ export default {
         "too much time"
       ],
       "optionReasons": {
-        "much-mcq-08": "本句指「不可數數量／負擔超過合理或可接受範圍」。",
-        "much-mcq-07": "「詢問不可數數量、程度或價格」是「how much」的用法，與本句語境不同。",
-        "much-mcq-09": "「強調不可數事物的數量／程度非常大」是「so much」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。",
-        "much-mcq-10": "「兩者在不可數數量／程度上相等」是「as much...as」的用法，與本句語境不同。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。"
+        "much-mcq-08": "本句的「too much time」指「不可數數量／負擔超過合理或可接受範圍」。",
+        "much-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-08"
     },
@@ -1094,11 +1018,8 @@ export default {
       "masked": "The pressure became ____.",
       "options": [
         "much-mcq-08",
-        "much-mcq-07",
-        "much-mcq-09",
-        "much-mcq-06",
-        "much-mcq-10",
-        "much-mcq-05"
+        "much-mcq-12",
+        "much-mcq-01"
       ],
       "explanation": "本句的「too much」指「不可數數量／負擔超過合理或可接受範圍」。",
       "sentenceIndex": 19,
@@ -1107,12 +1028,9 @@ export default {
         "too much"
       ],
       "optionReasons": {
-        "much-mcq-08": "本句指「不可數數量／負擔超過合理或可接受範圍」。",
-        "much-mcq-07": "「詢問不可數數量、程度或價格」是「how much」的用法，與本句語境不同。",
-        "much-mcq-09": "「強調不可數事物的數量／程度非常大」是「so much」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。",
-        "much-mcq-10": "「兩者在不可數數量／程度上相等」是「as much...as」的用法，與本句語境不同。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。"
+        "much-mcq-08": "本句的「too much」指「不可數數量／負擔超過合理或可接受範圍」。",
+        "much-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-08"
     },
@@ -1124,11 +1042,9 @@ export default {
       "masked": "Three exams in one day would be ____.",
       "options": [
         "much-mcq-08",
-        "much-mcq-07",
-        "much-mcq-09",
-        "much-mcq-06",
-        "much-mcq-10",
-        "much-mcq-05"
+        "much-mcq-15",
+        "much-pdf-002",
+        "much-mcq-18"
       ],
       "explanation": "本句的「too much」指「不可數數量／負擔超過合理或可接受範圍」。",
       "sentenceIndex": 20,
@@ -1137,12 +1053,10 @@ export default {
         "too much"
       ],
       "optionReasons": {
-        "much-mcq-08": "本句指「不可數數量／負擔超過合理或可接受範圍」。",
-        "much-mcq-07": "「詢問不可數數量、程度或價格」是「how much」的用法，與本句語境不同。",
-        "much-mcq-09": "「強調不可數事物的數量／程度非常大」是「so much」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。",
-        "much-mcq-10": "「兩者在不可數數量／程度上相等」是「as much...as」的用法，與本句語境不同。",
-        "much-mcq-05": "「強烈加深喜歡、感謝、希望、欣賞等程度」是「very much + verb」的用法，與本句語境不同。"
+        "much-mcq-08": "本句的「too much」指「不可數數量／負擔超過合理或可接受範圍」。",
+        "much-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-08"
     },
@@ -1154,11 +1068,9 @@ export default {
       "masked": "Why is there ____?",
       "options": [
         "much-mcq-09",
-        "much-mcq-08",
-        "much-mcq-10",
-        "much-mcq-07",
-        "much-mcq-11",
-        "much-mcq-06"
+        "much-pdf-002",
+        "much-mcq-20",
+        "much-mcq-19"
       ],
       "explanation": "本句的「so much homework」指「強調不可數事物的數量／程度非常大」。",
       "sentenceIndex": 21,
@@ -1167,12 +1079,10 @@ export default {
         "so much homework"
       ],
       "optionReasons": {
-        "much-mcq-09": "本句指「強調不可數事物的數量／程度非常大」。",
-        "much-mcq-08": "「不可數數量／負擔超過合理或可接受範圍」是「too much」的用法，與本句語境不同。",
-        "much-mcq-10": "「兩者在不可數數量／程度上相等」是「as much...as」的用法，與本句語境不同。",
-        "much-mcq-07": "「詢問不可數數量、程度或價格」是「how much」的用法，與本句語境不同。",
-        "much-mcq-11": "「強調數量大得值得注意；多達」是「as much as + amount」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。"
+        "much-mcq-09": "本句的「so much homework」指「強調不可數事物的數量／程度非常大」。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-09"
     },
@@ -1184,11 +1094,9 @@ export default {
       "masked": "He gave us ____.",
       "options": [
         "much-mcq-09",
-        "much-mcq-08",
-        "much-mcq-10",
-        "much-mcq-07",
-        "much-mcq-11",
-        "much-mcq-06"
+        "much-mcq-14",
+        "much-mcq-16",
+        "much-pdf-002"
       ],
       "explanation": "本句的「so much useful advice」指「強調不可數事物的數量／程度非常大」。",
       "sentenceIndex": 22,
@@ -1197,12 +1105,10 @@ export default {
         "so much useful advice"
       ],
       "optionReasons": {
-        "much-mcq-09": "本句指「強調不可數事物的數量／程度非常大」。",
-        "much-mcq-08": "「不可數數量／負擔超過合理或可接受範圍」是「too much」的用法，與本句語境不同。",
-        "much-mcq-10": "「兩者在不可數數量／程度上相等」是「as much...as」的用法，與本句語境不同。",
-        "much-mcq-07": "「詢問不可數數量、程度或價格」是「how much」的用法，與本句語境不同。",
-        "much-mcq-11": "「強調數量大得值得注意；多達」是「as much as + amount」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。"
+        "much-mcq-09": "本句的「so much useful advice」指「強調不可數事物的數量／程度非常大」。",
+        "much-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-09"
     },
@@ -1214,11 +1120,9 @@ export default {
       "masked": "I learned ____ from that teacher.",
       "options": [
         "much-pdf-001",
-        "much-mcq-08",
-        "much-mcq-10",
-        "much-mcq-07",
-        "much-mcq-11",
-        "much-mcq-06"
+        "much-pdf-002",
+        "much-mcq-20",
+        "much-mcq-19"
       ],
       "explanation": "本句的「so much」指「某個行為、感受或影響達到很高程度」。",
       "sentenceIndex": 23,
@@ -1227,12 +1131,10 @@ export default {
         "so much"
       ],
       "optionReasons": {
-        "much-pdf-001": "本句指「某個行為、感受或影響達到很高程度」。",
-        "much-mcq-08": "「不可數數量／負擔超過合理或可接受範圍」是「too much」的用法，與本句語境不同。",
-        "much-mcq-10": "「兩者在不可數數量／程度上相等」是「as much...as」的用法，與本句語境不同。",
-        "much-mcq-07": "「詢問不可數數量、程度或價格」是「how much」的用法，與本句語境不同。",
-        "much-mcq-11": "「強調數量大得值得注意；多達」是「as much as + amount」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。"
+        "much-pdf-001": "本句的「so much」指「某個行為、感受或影響達到很高程度」。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-pdf-001"
     },
@@ -1244,11 +1146,9 @@ export default {
       "masked": "His teaching style changed me ____.",
       "options": [
         "much-pdf-001",
-        "much-mcq-08",
-        "much-mcq-10",
-        "much-mcq-07",
-        "much-mcq-11",
-        "much-mcq-06"
+        "much-mcq-15",
+        "much-mcq-16",
+        "much-pdf-002"
       ],
       "explanation": "本句的「so much」指「某個行為、感受或影響達到很高程度」。",
       "sentenceIndex": 24,
@@ -1257,12 +1157,10 @@ export default {
         "so much"
       ],
       "optionReasons": {
-        "much-pdf-001": "本句指「某個行為、感受或影響達到很高程度」。",
-        "much-mcq-08": "「不可數數量／負擔超過合理或可接受範圍」是「too much」的用法，與本句語境不同。",
-        "much-mcq-10": "「兩者在不可數數量／程度上相等」是「as much...as」的用法，與本句語境不同。",
-        "much-mcq-07": "「詢問不可數數量、程度或價格」是「how much」的用法，與本句語境不同。",
-        "much-mcq-11": "「強調數量大得值得注意；多達」是「as much as + amount」的用法，與本句語境不同。",
-        "much-mcq-06": "「某種不可數數量／程度很少；沒有多少」是「not much」的用法，與本句語境不同。"
+        "much-pdf-001": "本句的「so much」指「某個行為、感受或影響達到很高程度」。",
+        "much-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-pdf-001"
     },
@@ -1274,11 +1172,9 @@ export default {
       "masked": "I don’t have ____ as I used to.",
       "options": [
         "much-mcq-10",
-        "much-mcq-09",
-        "much-mcq-11",
-        "much-mcq-08",
-        "much-mcq-12",
-        "much-mcq-07"
+        "much-mcq-18",
+        "much-mcq-15",
+        "much-mcq-19"
       ],
       "explanation": "本句的「as much time」指「兩者在不可數數量／程度上相等」。",
       "sentenceIndex": 25,
@@ -1287,12 +1183,10 @@ export default {
         "as much time"
       ],
       "optionReasons": {
-        "much-mcq-10": "本句指「兩者在不可數數量／程度上相等」。",
-        "much-mcq-09": "「強調不可數事物的數量／程度非常大」是「so much」的用法，與本句語境不同。",
-        "much-mcq-11": "「強調數量大得值得注意；多達」是「as much as + amount」的用法，與本句語境不同。",
-        "much-mcq-08": "「不可數數量／負擔超過合理或可接受範圍」是「too much」的用法，與本句語境不同。",
-        "much-mcq-12": "「承認一個強烈事實，但另一個不同結果仍成立；雖然」是「as much as + clause」的用法，與本句語境不同。",
-        "much-mcq-07": "「詢問不可數數量、程度或價格」是「how much」的用法，與本句語境不同。"
+        "much-mcq-10": "本句的「as much time」指「兩者在不可數數量／程度上相等」。",
+        "much-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-10"
     },
@@ -1304,11 +1198,9 @@ export default {
       "masked": "She did ____ the rest of the group.",
       "options": [
         "much-mcq-10",
-        "much-mcq-09",
-        "much-mcq-11",
-        "much-mcq-08",
-        "much-mcq-12",
-        "much-mcq-07"
+        "much-mcq-18",
+        "much-mcq-13",
+        "much-pdf-002"
       ],
       "explanation": "本句的「as much work as」指「兩者在不可數數量／程度上相等」。",
       "sentenceIndex": 26,
@@ -1317,12 +1209,10 @@ export default {
         "as much work as"
       ],
       "optionReasons": {
-        "much-mcq-10": "本句指「兩者在不可數數量／程度上相等」。",
-        "much-mcq-09": "「強調不可數事物的數量／程度非常大」是「so much」的用法，與本句語境不同。",
-        "much-mcq-11": "「強調數量大得值得注意；多達」是「as much as + amount」的用法，與本句語境不同。",
-        "much-mcq-08": "「不可數數量／負擔超過合理或可接受範圍」是「too much」的用法，與本句語境不同。",
-        "much-mcq-12": "「承認一個強烈事實，但另一個不同結果仍成立；雖然」是「as much as + clause」的用法，與本句語境不同。",
-        "much-mcq-07": "「詢問不可數數量、程度或價格」是「how much」的用法，與本句語境不同。"
+        "much-mcq-10": "本句的「as much work as」指「兩者在不可數數量／程度上相等」。",
+        "much-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-10"
     },
@@ -1334,11 +1224,9 @@ export default {
       "masked": "Some students study for ____ a day.",
       "options": [
         "much-mcq-11",
-        "much-mcq-10",
-        "much-mcq-12",
-        "much-mcq-09",
-        "much-mcq-13",
-        "much-mcq-08"
+        "much-mcq-14",
+        "much-mcq-20",
+        "much-mcq-19"
       ],
       "explanation": "本句的「as much as five hours」指「強調數量大得值得注意；多達」。",
       "sentenceIndex": 27,
@@ -1347,12 +1235,10 @@ export default {
         "as much as five hours"
       ],
       "optionReasons": {
-        "much-mcq-11": "本句指「強調數量大得值得注意；多達」。",
-        "much-mcq-10": "「兩者在不可數數量／程度上相等」是「as much...as」的用法，與本句語境不同。",
-        "much-mcq-12": "「承認一個強烈事實，但另一個不同結果仍成立；雖然」是「as much as + clause」的用法，與本句語境不同。",
-        "much-mcq-09": "「強調不可數事物的數量／程度非常大」是「so much」的用法，與本句語境不同。",
-        "much-mcq-13": "「某個已指定整體中的很大部分」是「much of」的用法，與本句語境不同。",
-        "much-mcq-08": "「不可數數量／負擔超過合理或可接受範圍」是「too much」的用法，與本句語境不同。"
+        "much-mcq-11": "本句的「as much as five hours」指「強調數量大得值得注意；多達」。",
+        "much-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-11"
     },
@@ -1364,11 +1250,9 @@ export default {
       "masked": "The project may cost ____.",
       "options": [
         "much-mcq-11",
-        "much-mcq-10",
-        "much-mcq-12",
-        "much-mcq-09",
-        "much-mcq-13",
-        "much-mcq-08"
+        "much-mcq-16",
+        "much-mcq-14",
+        "much-pdf-002"
       ],
       "explanation": "本句的「as much as a million dollars」指「強調數量大得值得注意；多達」。",
       "sentenceIndex": 28,
@@ -1377,12 +1261,10 @@ export default {
         "as much as a million dollars"
       ],
       "optionReasons": {
-        "much-mcq-11": "本句指「強調數量大得值得注意；多達」。",
-        "much-mcq-10": "「兩者在不可數數量／程度上相等」是「as much...as」的用法，與本句語境不同。",
-        "much-mcq-12": "「承認一個強烈事實，但另一個不同結果仍成立；雖然」是「as much as + clause」的用法，與本句語境不同。",
-        "much-mcq-09": "「強調不可數事物的數量／程度非常大」是「so much」的用法，與本句語境不同。",
-        "much-mcq-13": "「某個已指定整體中的很大部分」是「much of」的用法，與本句語境不同。",
-        "much-mcq-08": "「不可數數量／負擔超過合理或可接受範圍」是「too much」的用法，與本句語境不同。"
+        "much-mcq-11": "本句的「as much as a million dollars」指「強調數量大得值得注意；多達」。",
+        "much-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-11"
     },
@@ -1394,11 +1276,9 @@ export default {
       "masked": "____ I respected him, I did not agree with everything he said.",
       "options": [
         "much-mcq-12",
-        "much-mcq-11",
         "much-mcq-13",
-        "much-mcq-10",
-        "much-mcq-14",
-        "much-mcq-09"
+        "much-mcq-02",
+        "much-pdf-002"
       ],
       "explanation": "本句的「As much as」指「承認一個強烈事實，但另一個不同結果仍成立；雖然」。",
       "sentenceIndex": 29,
@@ -1407,12 +1287,10 @@ export default {
         "As much as"
       ],
       "optionReasons": {
-        "much-mcq-12": "本句指「承認一個強烈事實，但另一個不同結果仍成立；雖然」。",
-        "much-mcq-11": "「強調數量大得值得注意；多達」是「as much as + amount」的用法，與本句語境不同。",
-        "much-mcq-13": "「某個已指定整體中的很大部分」是「much of」的用法，與本句語境不同。",
-        "much-mcq-10": "「兩者在不可數數量／程度上相等」是「as much...as」的用法，與本句語境不同。",
-        "much-mcq-14": "「某人在某身分、能力或類型方面不太突出」是「not much of a...」的用法，與本句語境不同。",
-        "much-mcq-09": "「強調不可數事物的數量／程度非常大」是「so much」的用法，與本句語境不同。"
+        "much-mcq-12": "本句的「As much as」指「承認一個強烈事實，但另一個不同結果仍成立；雖然」。",
+        "much-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-12"
     },
@@ -1424,11 +1302,9 @@ export default {
       "masked": "As ____ as I enjoy history, I also like science.",
       "options": [
         "much-mcq-12",
-        "much-mcq-11",
+        "much-mcq-08",
         "much-mcq-13",
-        "much-mcq-10",
-        "much-mcq-14",
-        "much-mcq-09"
+        "much-pdf-002"
       ],
       "explanation": "本句的「much」指「承認一個強烈事實，但另一個不同結果仍成立；雖然」。",
       "sentenceIndex": 30,
@@ -1437,12 +1313,10 @@ export default {
         "much"
       ],
       "optionReasons": {
-        "much-mcq-12": "本句指「承認一個強烈事實，但另一個不同結果仍成立；雖然」。",
-        "much-mcq-11": "「強調數量大得值得注意；多達」是「as much as + amount」的用法，與本句語境不同。",
-        "much-mcq-13": "「某個已指定整體中的很大部分」是「much of」的用法，與本句語境不同。",
-        "much-mcq-10": "「兩者在不可數數量／程度上相等」是「as much...as」的用法，與本句語境不同。",
-        "much-mcq-14": "「某人在某身分、能力或類型方面不太突出」是「not much of a...」的用法，與本句語境不同。",
-        "much-mcq-09": "「強調不可數事物的數量／程度非常大」是「so much」的用法，與本句語境不同。"
+        "much-mcq-12": "本句的「much」指「承認一個強烈事實，但另一個不同結果仍成立；雖然」。",
+        "much-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-12"
     },
@@ -1454,11 +1328,9 @@ export default {
       "masked": "____ of the lesson was discussion.",
       "options": [
         "much-mcq-13",
+        "much-mcq-06",
         "much-mcq-12",
-        "much-mcq-14",
-        "much-mcq-11",
-        "much-mcq-15",
-        "much-mcq-10"
+        "much-pdf-002"
       ],
       "explanation": "本句的「Much」指「某個已指定整體中的很大部分」。",
       "sentenceIndex": 31,
@@ -1467,12 +1339,10 @@ export default {
         "Much"
       ],
       "optionReasons": {
-        "much-mcq-13": "本句指「某個已指定整體中的很大部分」。",
-        "much-mcq-12": "「承認一個強烈事實，但另一個不同結果仍成立；雖然」是「as much as + clause」的用法，與本句語境不同。",
-        "much-mcq-14": "「某人在某身分、能力或類型方面不太突出」是「not much of a...」的用法，與本句語境不同。",
-        "much-mcq-11": "「強調數量大得值得注意；多達」是「as much as + amount」的用法，與本句語境不同。",
-        "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。",
-        "much-mcq-10": "「兩者在不可數數量／程度上相等」是「as much...as」的用法，與本句語境不同。"
+        "much-mcq-13": "本句的「Much」指「某個已指定整體中的很大部分」。",
+        "much-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-13"
     },
@@ -1484,11 +1354,9 @@ export default {
       "masked": "I remember ____.",
       "options": [
         "much-mcq-13",
-        "much-mcq-12",
-        "much-mcq-14",
-        "much-mcq-11",
-        "much-mcq-15",
-        "much-mcq-10"
+        "much-mcq-06",
+        "much-pdf-002",
+        "much-mcq-19"
       ],
       "explanation": "本句的「much of what he taught us」指「某個已指定整體中的很大部分」。",
       "sentenceIndex": 32,
@@ -1497,12 +1365,10 @@ export default {
         "much of what he taught us"
       ],
       "optionReasons": {
-        "much-mcq-13": "本句指「某個已指定整體中的很大部分」。",
-        "much-mcq-12": "「承認一個強烈事實，但另一個不同結果仍成立；雖然」是「as much as + clause」的用法，與本句語境不同。",
-        "much-mcq-14": "「某人在某身分、能力或類型方面不太突出」是「not much of a...」的用法，與本句語境不同。",
-        "much-mcq-11": "「強調數量大得值得注意；多達」是「as much as + amount」的用法，與本句語境不同。",
-        "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。",
-        "much-mcq-10": "「兩者在不可數數量／程度上相等」是「as much...as」的用法，與本句語境不同。"
+        "much-mcq-13": "本句的「much of what he taught us」指「某個已指定整體中的很大部分」。",
+        "much-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-13"
     },
@@ -1514,11 +1380,9 @@ export default {
       "masked": "He wasn’t ____ at first.",
       "options": [
         "much-mcq-14",
-        "much-mcq-13",
-        "much-mcq-15",
-        "much-mcq-12",
-        "much-mcq-16",
-        "much-mcq-11"
+        "much-mcq-01",
+        "much-mcq-02",
+        "much-mcq-20"
       ],
       "explanation": "本句的「much of a speaker」指「某人在某身分、能力或類型方面不太突出」。",
       "sentenceIndex": 33,
@@ -1527,12 +1391,10 @@ export default {
         "much of a speaker"
       ],
       "optionReasons": {
-        "much-mcq-14": "本句指「某人在某身分、能力或類型方面不太突出」。",
-        "much-mcq-13": "「某個已指定整體中的很大部分」是「much of」的用法，與本句語境不同。",
-        "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。",
-        "much-mcq-12": "「承認一個強烈事實，但另一個不同結果仍成立；雖然」是「as much as + clause」的用法，與本句語境不同。",
-        "much-mcq-16": "「前一較容易事項尚且不能成立，後一更難事項更不用說」是「much less」的用法，與本句語境不同。",
-        "much-mcq-11": "「強調數量大得值得注意；多達」是「as much as + amount」的用法，與本句語境不同。"
+        "much-mcq-14": "本句的「much of a speaker」指「某人在某身分、能力或類型方面不太突出」。",
+        "much-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-14"
     },
@@ -1544,11 +1406,9 @@ export default {
       "masked": "I’m not ____.",
       "options": [
         "much-mcq-14",
-        "much-mcq-13",
-        "much-mcq-15",
-        "much-mcq-12",
+        "much-mcq-08",
         "much-mcq-16",
-        "much-mcq-11"
+        "much-pdf-002"
       ],
       "explanation": "本句的「much of a history expert」指「某人在某身分、能力或類型方面不太突出」。",
       "sentenceIndex": 34,
@@ -1557,12 +1417,10 @@ export default {
         "much of a history expert"
       ],
       "optionReasons": {
-        "much-mcq-14": "本句指「某人在某身分、能力或類型方面不太突出」。",
-        "much-mcq-13": "「某個已指定整體中的很大部分」是「much of」的用法，與本句語境不同。",
-        "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。",
-        "much-mcq-12": "「承認一個強烈事實，但另一個不同結果仍成立；雖然」是「as much as + clause」的用法，與本句語境不同。",
-        "much-mcq-16": "「前一較容易事項尚且不能成立，後一更難事項更不用說」是「much less」的用法，與本句語境不同。",
-        "much-mcq-11": "「強調數量大得值得注意；多達」是「as much as + amount」的用法，與本句語境不同。"
+        "much-mcq-14": "本句的「much of a history expert」指「某人在某身分、能力或類型方面不太突出」。",
+        "much-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-14"
     },
@@ -1574,11 +1432,9 @@ export default {
       "masked": "The two teaching methods are ____.",
       "options": [
         "much-mcq-15",
-        "much-mcq-14",
+        "much-mcq-10",
         "much-mcq-16",
-        "much-mcq-13",
-        "much-mcq-17",
-        "much-mcq-12"
+        "much-mcq-19"
       ],
       "explanation": "本句的「much the same」指「在大部分重要方面相同，只有很小差異」。",
       "sentenceIndex": 35,
@@ -1587,12 +1443,10 @@ export default {
         "much the same"
       ],
       "optionReasons": {
-        "much-mcq-15": "本句指「在大部分重要方面相同，只有很小差異」。",
-        "much-mcq-14": "「某人在某身分、能力或類型方面不太突出」是「not much of a...」的用法，與本句語境不同。",
-        "much-mcq-16": "「前一較容易事項尚且不能成立，後一更難事項更不用說」是「much less」的用法，與本句語境不同。",
-        "much-mcq-13": "「某個已指定整體中的很大部分」是「much of」的用法，與本句語境不同。",
-        "much-mcq-17": "「某事在很大程度上引起某人的特定情緒」是「much to someone’s surprise/etc.」的用法，與本句語境不同。",
-        "much-mcq-12": "「承認一個強烈事實，但另一個不同結果仍成立；雖然」是「as much as + clause」的用法，與本句語境不同。"
+        "much-mcq-15": "本句的「much the same」指「在大部分重要方面相同，只有很小差異」。",
+        "much-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-15"
     },
@@ -1604,11 +1458,9 @@ export default {
       "masked": "His attitude remained ____ the same over the years.",
       "options": [
         "much-mcq-15",
-        "much-mcq-14",
-        "much-mcq-16",
-        "much-mcq-13",
-        "much-mcq-17",
-        "much-mcq-12"
+        "much-mcq-07",
+        "much-mcq-19",
+        "much-mcq-16"
       ],
       "explanation": "本句的「much」指「在大部分重要方面相同，只有很小差異」。",
       "sentenceIndex": 36,
@@ -1617,12 +1469,10 @@ export default {
         "much"
       ],
       "optionReasons": {
-        "much-mcq-15": "本句指「在大部分重要方面相同，只有很小差異」。",
-        "much-mcq-14": "「某人在某身分、能力或類型方面不太突出」是「not much of a...」的用法，與本句語境不同。",
-        "much-mcq-16": "「前一較容易事項尚且不能成立，後一更難事項更不用說」是「much less」的用法，與本句語境不同。",
-        "much-mcq-13": "「某個已指定整體中的很大部分」是「much of」的用法，與本句語境不同。",
-        "much-mcq-17": "「某事在很大程度上引起某人的特定情緒」是「much to someone’s surprise/etc.」的用法，與本句語境不同。",
-        "much-mcq-12": "「承認一個強烈事實，但另一個不同結果仍成立；雖然」是「as much as + clause」的用法，與本句語境不同。"
+        "much-mcq-15": "本句的「much」指「在大部分重要方面相同，只有很小差異」。",
+        "much-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-15"
     },
@@ -1634,11 +1484,9 @@ export default {
       "masked": "I understand history ____ now.",
       "options": [
         "much-pdf-002",
-        "much-mcq-15",
-        "much-mcq-17",
-        "much-mcq-14",
-        "much-mcq-18",
-        "much-mcq-13"
+        "much-mcq-04",
+        "much-mcq-19",
+        "much-mcq-20"
       ],
       "explanation": "本句的「much better」指「比較差距顯著」。",
       "sentenceIndex": 37,
@@ -1647,12 +1495,10 @@ export default {
         "much better"
       ],
       "optionReasons": {
-        "much-pdf-002": "本句指「比較差距顯著」。",
-        "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。",
-        "much-mcq-17": "「某事在很大程度上引起某人的特定情緒」是「much to someone’s surprise/etc.」的用法，與本句語境不同。",
-        "much-mcq-14": "「某人在某身分、能力或類型方面不太突出」是「not much of a...」的用法，與本句語境不同。",
-        "much-mcq-18": "「強烈確認前述情況確實成立」是「very much so」的用法，與本句語境不同。",
-        "much-mcq-13": "「某個已指定整體中的很大部分」是「much of」的用法，與本句語境不同。"
+        "much-pdf-002": "本句的「much better」指「比較差距顯著」。",
+        "much-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-pdf-002"
     },
@@ -1664,11 +1510,9 @@ export default {
       "masked": "The second exam was ____.",
       "options": [
         "much-pdf-002",
-        "much-mcq-15",
-        "much-mcq-17",
-        "much-mcq-14",
-        "much-mcq-18",
-        "much-mcq-13"
+        "much-mcq-13",
+        "much-mcq-09",
+        "much-mcq-20"
       ],
       "explanation": "本句的「much easier」指「比較差距顯著」。",
       "sentenceIndex": 38,
@@ -1677,12 +1521,10 @@ export default {
         "much easier"
       ],
       "optionReasons": {
-        "much-pdf-002": "本句指「比較差距顯著」。",
-        "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。",
-        "much-mcq-17": "「某事在很大程度上引起某人的特定情緒」是「much to someone’s surprise/etc.」的用法，與本句語境不同。",
-        "much-mcq-14": "「某人在某身分、能力或類型方面不太突出」是「not much of a...」的用法，與本句語境不同。",
-        "much-mcq-18": "「強烈確認前述情況確實成立」是「very much so」的用法，與本句語境不同。",
-        "much-mcq-13": "「某個已指定整體中的很大部分」是「much of」的用法，與本句語境不同。"
+        "much-pdf-002": "本句的「much easier」指「比較差距顯著」。",
+        "much-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-pdf-002"
     },
@@ -1694,11 +1536,9 @@ export default {
       "masked": "He could barely remember the date, ____.",
       "options": [
         "much-mcq-16",
-        "much-mcq-15",
-        "much-mcq-17",
-        "much-mcq-14",
-        "much-mcq-18",
-        "much-mcq-13"
+        "much-mcq-02",
+        "much-mcq-19",
+        "much-mcq-15"
       ],
       "explanation": "本句的「much less explain the event」指「前一較容易事項尚且不能成立，後一更難事項更不用說」。",
       "sentenceIndex": 39,
@@ -1707,12 +1547,10 @@ export default {
         "much less explain the event"
       ],
       "optionReasons": {
-        "much-mcq-16": "本句指「前一較容易事項尚且不能成立，後一更難事項更不用說」。",
-        "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。",
-        "much-mcq-17": "「某事在很大程度上引起某人的特定情緒」是「much to someone’s surprise/etc.」的用法，與本句語境不同。",
-        "much-mcq-14": "「某人在某身分、能力或類型方面不太突出」是「not much of a...」的用法，與本句語境不同。",
-        "much-mcq-18": "「強烈確認前述情況確實成立」是「very much so」的用法，與本句語境不同。",
-        "much-mcq-13": "「某個已指定整體中的很大部分」是「much of」的用法，與本句語境不同。"
+        "much-mcq-16": "本句的「much less explain the event」指「前一較容易事項尚且不能成立，後一更難事項更不用說」。",
+        "much-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-16"
     },
@@ -1724,11 +1562,9 @@ export default {
       "masked": "I don’t have time to read one book, ____ less five.",
       "options": [
         "much-mcq-16",
-        "much-mcq-15",
-        "much-mcq-17",
-        "much-mcq-14",
-        "much-mcq-18",
-        "much-mcq-13"
+        "much-mcq-10",
+        "much-mcq-13",
+        "much-mcq-14"
       ],
       "explanation": "本句的「much」指「前一較容易事項尚且不能成立，後一更難事項更不用說」。",
       "sentenceIndex": 40,
@@ -1737,12 +1573,10 @@ export default {
         "much"
       ],
       "optionReasons": {
-        "much-mcq-16": "本句指「前一較容易事項尚且不能成立，後一更難事項更不用說」。",
-        "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。",
-        "much-mcq-17": "「某事在很大程度上引起某人的特定情緒」是「much to someone’s surprise/etc.」的用法，與本句語境不同。",
-        "much-mcq-14": "「某人在某身分、能力或類型方面不太突出」是「not much of a...」的用法，與本句語境不同。",
-        "much-mcq-18": "「強烈確認前述情況確實成立」是「very much so」的用法，與本句語境不同。",
-        "much-mcq-13": "「某個已指定整體中的很大部分」是「much of」的用法，與本句語境不同。"
+        "much-mcq-16": "本句的「much」指「前一較容易事項尚且不能成立，後一更難事項更不用說」。",
+        "much-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-16"
     },
@@ -1754,11 +1588,9 @@ export default {
       "masked": "____, he remembered my name.",
       "options": [
         "much-mcq-17",
-        "much-mcq-16",
-        "much-mcq-18",
-        "much-mcq-15",
-        "much-mcq-19",
-        "much-mcq-14"
+        "much-mcq-20",
+        "much-pdf-002",
+        "much-mcq-19"
       ],
       "explanation": "本句的「Much to my surprise」指「某事在很大程度上引起某人的特定情緒」。",
       "sentenceIndex": 41,
@@ -1767,12 +1599,10 @@ export default {
         "Much to my surprise"
       ],
       "optionReasons": {
-        "much-mcq-17": "本句指「某事在很大程度上引起某人的特定情緒」。",
-        "much-mcq-16": "「前一較容易事項尚且不能成立，後一更難事項更不用說」是「much less」的用法，與本句語境不同。",
-        "much-mcq-18": "「強烈確認前述情況確實成立」是「very much so」的用法，與本句語境不同。",
-        "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。",
-        "much-mcq-19": "「正式地表示「儘管／雖然」」是「much as」的用法，與本句語境不同。",
-        "much-mcq-14": "「某人在某身分、能力或類型方面不太突出」是「not much of a...」的用法，與本句語境不同。"
+        "much-mcq-17": "本句的「Much to my surprise」指「某事在很大程度上引起某人的特定情緒」。",
+        "much-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-17"
     },
@@ -1785,10 +1615,8 @@ export default {
       "options": [
         "much-mcq-17",
         "much-mcq-16",
-        "much-mcq-18",
-        "much-mcq-15",
-        "much-mcq-19",
-        "much-mcq-14"
+        "much-pdf-002",
+        "much-mcq-19"
       ],
       "explanation": "本句的「Much」指「某事在很大程度上引起某人的特定情緒」。",
       "sentenceIndex": 42,
@@ -1797,12 +1625,10 @@ export default {
         "Much"
       ],
       "optionReasons": {
-        "much-mcq-17": "本句指「某事在很大程度上引起某人的特定情緒」。",
-        "much-mcq-16": "「前一較容易事項尚且不能成立，後一更難事項更不用說」是「much less」的用法，與本句語境不同。",
-        "much-mcq-18": "「強烈確認前述情況確實成立」是「very much so」的用法，與本句語境不同。",
-        "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。",
-        "much-mcq-19": "「正式地表示「儘管／雖然」」是「much as」的用法，與本句語境不同。",
-        "much-mcq-14": "「某人在某身分、能力或類型方面不太突出」是「not much of a...」的用法，與本句語境不同。"
+        "much-mcq-17": "本句的「Much」指「某事在很大程度上引起某人的特定情緒」。",
+        "much-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-17"
     },
@@ -1814,10 +1640,8 @@ export default {
       "masked": "Was he an influential teacher?” > “____",
       "options": [
         "much-mcq-18",
-        "much-mcq-17",
         "much-mcq-19",
-        "much-mcq-16",
-        "much-mcq-20",
+        "much-mcq-02",
         "much-mcq-15"
       ],
       "explanation": "本句的「Very much so.」指「強烈確認前述情況確實成立」。",
@@ -1827,12 +1651,10 @@ export default {
         "Very much so."
       ],
       "optionReasons": {
-        "much-mcq-18": "本句指「強烈確認前述情況確實成立」。",
-        "much-mcq-17": "「某事在很大程度上引起某人的特定情緒」是「much to someone’s surprise/etc.」的用法，與本句語境不同。",
-        "much-mcq-19": "「正式地表示「儘管／雖然」」是「much as」的用法，與本句語境不同。",
-        "much-mcq-16": "「前一較容易事項尚且不能成立，後一更難事項更不用說」是「much less」的用法，與本句語境不同。",
-        "much-mcq-20": "「表示某個想法、計劃或期望已失敗／被證明不成立」是「so much for...」的用法，與本句語境不同。",
-        "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。"
+        "much-mcq-18": "本句的「Very much so.」指「強烈確認前述情況確實成立」。",
+        "much-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-18"
     },
@@ -1845,10 +1667,8 @@ export default {
       "options": [
         "much-mcq-18",
         "much-mcq-17",
-        "much-mcq-19",
-        "much-mcq-16",
-        "much-mcq-20",
-        "much-mcq-15"
+        "much-mcq-15",
+        "much-pdf-002"
       ],
       "explanation": "本句的「much」指「強烈確認前述情況確實成立」。",
       "sentenceIndex": 44,
@@ -1857,12 +1677,10 @@ export default {
         "much"
       ],
       "optionReasons": {
-        "much-mcq-18": "本句指「強烈確認前述情況確實成立」。",
-        "much-mcq-17": "「某事在很大程度上引起某人的特定情緒」是「much to someone’s surprise/etc.」的用法，與本句語境不同。",
-        "much-mcq-19": "「正式地表示「儘管／雖然」」是「much as」的用法，與本句語境不同。",
-        "much-mcq-16": "「前一較容易事項尚且不能成立，後一更難事項更不用說」是「much less」的用法，與本句語境不同。",
-        "much-mcq-20": "「表示某個想法、計劃或期望已失敗／被證明不成立」是「so much for...」的用法，與本句語境不同。",
-        "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。"
+        "much-mcq-18": "本句的「much」指「強烈確認前述情況確實成立」。",
+        "much-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-18"
     },
@@ -1874,11 +1692,9 @@ export default {
       "masked": "____ I admired him, I knew he was not perfect.",
       "options": [
         "much-mcq-19",
-        "much-mcq-18",
-        "much-mcq-20",
-        "much-mcq-17",
-        "much-mcq-16",
-        "much-mcq-15"
+        "much-mcq-07",
+        "much-pdf-002",
+        "much-mcq-16"
       ],
       "explanation": "本句的「Much as」指「正式地表示「儘管／雖然」」。",
       "sentenceIndex": 45,
@@ -1887,12 +1703,10 @@ export default {
         "Much as"
       ],
       "optionReasons": {
-        "much-mcq-19": "本句指「正式地表示「儘管／雖然」」。",
-        "much-mcq-18": "「強烈確認前述情況確實成立」是「very much so」的用法，與本句語境不同。",
-        "much-mcq-20": "「表示某個想法、計劃或期望已失敗／被證明不成立」是「so much for...」的用法，與本句語境不同。",
-        "much-mcq-17": "「某事在很大程度上引起某人的特定情緒」是「much to someone’s surprise/etc.」的用法，與本句語境不同。",
-        "much-mcq-16": "「前一較容易事項尚且不能成立，後一更難事項更不用說」是「much less」的用法，與本句語境不同。",
-        "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。"
+        "much-mcq-19": "本句的「Much as」指「正式地表示「儘管／雖然」」。",
+        "much-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-19"
     },
@@ -1904,11 +1718,9 @@ export default {
       "masked": "____ as she wanted to stay, she had to leave.",
       "options": [
         "much-mcq-19",
-        "much-mcq-18",
-        "much-mcq-20",
-        "much-mcq-17",
-        "much-mcq-16",
-        "much-mcq-15"
+        "much-mcq-11",
+        "much-mcq-13",
+        "much-pdf-002"
       ],
       "explanation": "本句的「Much」指「正式地表示「儘管／雖然」」。",
       "sentenceIndex": 46,
@@ -1917,12 +1729,10 @@ export default {
         "Much"
       ],
       "optionReasons": {
-        "much-mcq-19": "本句指「正式地表示「儘管／雖然」」。",
-        "much-mcq-18": "「強烈確認前述情況確實成立」是「very much so」的用法，與本句語境不同。",
-        "much-mcq-20": "「表示某個想法、計劃或期望已失敗／被證明不成立」是「so much for...」的用法，與本句語境不同。",
-        "much-mcq-17": "「某事在很大程度上引起某人的特定情緒」是「much to someone’s surprise/etc.」的用法，與本句語境不同。",
-        "much-mcq-16": "「前一較容易事項尚且不能成立，後一更難事項更不用說」是「much less」的用法，與本句語境不同。",
-        "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。"
+        "much-mcq-19": "本句的「Much」指「正式地表示「儘管／雖然」」。",
+        "much-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "much-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-19"
     },
@@ -1934,10 +1744,8 @@ export default {
       "masked": "____ our plan to finish early.",
       "options": [
         "much-mcq-20",
-        "much-mcq-19",
-        "much-mcq-18",
-        "much-mcq-17",
-        "much-mcq-16",
+        "much-mcq-04",
+        "much-mcq-14",
         "much-mcq-15"
       ],
       "explanation": "本句的「So much for」指「表示某個想法、計劃或期望已失敗／被證明不成立」。",
@@ -1947,12 +1755,10 @@ export default {
         "So much for"
       ],
       "optionReasons": {
-        "much-mcq-20": "本句指「表示某個想法、計劃或期望已失敗／被證明不成立」。",
-        "much-mcq-19": "「正式地表示「儘管／雖然」」是「much as」的用法，與本句語境不同。",
-        "much-mcq-18": "「強烈確認前述情況確實成立」是「very much so」的用法，與本句語境不同。",
-        "much-mcq-17": "「某事在很大程度上引起某人的特定情緒」是「much to someone’s surprise/etc.」的用法，與本句語境不同。",
-        "much-mcq-16": "「前一較容易事項尚且不能成立，後一更難事項更不用說」是「much less」的用法，與本句語境不同。",
-        "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。"
+        "much-mcq-20": "本句的「So much for」指「表示某個想法、計劃或期望已失敗／被證明不成立」。",
+        "much-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-20"
     },
@@ -1964,11 +1770,9 @@ export default {
       "masked": "So ____ for the idea that the test would be easy.",
       "options": [
         "much-mcq-20",
-        "much-mcq-19",
-        "much-mcq-18",
-        "much-mcq-17",
-        "much-mcq-16",
-        "much-mcq-15"
+        "much-mcq-04",
+        "much-mcq-15",
+        "much-mcq-01"
       ],
       "explanation": "本句的「much」指「表示某個想法、計劃或期望已失敗／被證明不成立」。",
       "sentenceIndex": 48,
@@ -1977,12 +1781,10 @@ export default {
         "much"
       ],
       "optionReasons": {
-        "much-mcq-20": "本句指「表示某個想法、計劃或期望已失敗／被證明不成立」。",
-        "much-mcq-19": "「正式地表示「儘管／雖然」」是「much as」的用法，與本句語境不同。",
-        "much-mcq-18": "「強烈確認前述情況確實成立」是「very much so」的用法，與本句語境不同。",
-        "much-mcq-17": "「某事在很大程度上引起某人的特定情緒」是「much to someone’s surprise/etc.」的用法，與本句語境不同。",
-        "much-mcq-16": "「前一較容易事項尚且不能成立，後一更難事項更不用說」是「much less」的用法，與本句語境不同。",
-        "much-mcq-15": "「在大部分重要方面相同，只有很小差異」是「much the same」的用法，與本句語境不同。"
+        "much-mcq-20": "本句的「much」指「表示某個想法、計劃或期望已失敗／被證明不成立」。",
+        "much-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "much-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "much-mcq-20"
     }
@@ -1994,5 +1796,7 @@ export default {
     "sha256": "e23a46130f0da0bf97e1b25ef837dbeab535c57a2591c41f77546582f0f4723a",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

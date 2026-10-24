@@ -303,7 +303,7 @@ export default {
     },
     {
       "id": "novel-mcq-16",
-      "title": "表示長篇小說；小說",
+      "title": "長篇小說；小說",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示長篇小說；小說",
@@ -333,11 +333,8 @@ export default {
       "masked": "I usually read one ____ every month.",
       "options": [
         "novel-mcq-16",
-        "novel-mcq-15",
-        "novel-mcq-14",
-        "novel-mcq-13",
-        "novel-mcq-12",
-        "novel-mcq-11"
+        "novel-mcq-08",
+        "novel-mcq-10"
       ],
       "explanation": "本句的「novel」指「表示長篇小說；小說」。",
       "sentenceIndex": 0,
@@ -346,12 +343,9 @@ export default {
         "novel"
       ],
       "optionReasons": {
-        "novel-mcq-16": "本句指「表示長篇小說；小說」。",
-        "novel-mcq-15": "「主要因趣味、新奇而售賣的小商品」是「novelty item」的用法，與本句語境不同。",
-        "novel-mcq-14": "「因新奇或罕見而引人注意的事物」是「novelty — unusual thing」的用法，與本句語境不同。",
-        "novel-mcq-13": "「新穎、新奇這種特質」是「novelty — newness」的用法，與本句語境不同。",
-        "novel-mcq-12": "「與小說有關或具有小說敘事特色的」是「novelistic」的用法，與本句語境不同。",
-        "novel-mcq-11": "「創作小說的作家；小說家」是「novelist」的用法，與本句語境不同。"
+        "novel-mcq-16": "本句的「novel」指「表示長篇小說；小說」。",
+        "novel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-16"
     },
@@ -363,11 +357,8 @@ export default {
       "masked": "The ____ explores regret and personal choices.",
       "options": [
         "novel-mcq-16",
-        "novel-mcq-15",
-        "novel-mcq-14",
-        "novel-mcq-13",
-        "novel-mcq-12",
-        "novel-mcq-11"
+        "novel-mcq-09",
+        "novel-mcq-10"
       ],
       "explanation": "本句的「novel」指「表示長篇小說；小說」。",
       "sentenceIndex": 1,
@@ -376,12 +367,9 @@ export default {
         "novel"
       ],
       "optionReasons": {
-        "novel-mcq-16": "本句指「表示長篇小說；小說」。",
-        "novel-mcq-15": "「主要因趣味、新奇而售賣的小商品」是「novelty item」的用法，與本句語境不同。",
-        "novel-mcq-14": "「因新奇或罕見而引人注意的事物」是「novelty — unusual thing」的用法，與本句語境不同。",
-        "novel-mcq-13": "「新穎、新奇這種特質」是「novelty — newness」的用法，與本句語境不同。",
-        "novel-mcq-12": "「與小說有關或具有小說敘事特色的」是「novelistic」的用法，與本句語境不同。",
-        "novel-mcq-11": "「創作小說的作家；小說家」是「novelist」的用法，與本句語境不同。"
+        "novel-mcq-16": "本句的「novel」指「表示長篇小說；小說」。",
+        "novel-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-16"
     },
@@ -393,11 +381,8 @@ export default {
       "masked": "She is writing her first ____.",
       "options": [
         "novel-mcq-02",
-        "novel-mcq-01",
-        "novel-mcq-03",
-        "novel-mcq-04",
-        "novel-mcq-05",
-        "novel-mcq-06"
+        "novel-mcq-10",
+        "novel-mcq-09"
       ],
       "explanation": "本句的「novel」指「屬於小說這種文學形式的一部作品」。",
       "sentenceIndex": 2,
@@ -406,12 +391,9 @@ export default {
         "novel"
       ],
       "optionReasons": {
-        "novel-mcq-02": "本句指「屬於小說這種文學形式的一部作品」。",
-        "novel-mcq-01": "「以虛構人物和事件構成的長篇散文故事；長篇小說」是「novel — noun」的用法，與本句語境不同。",
-        "novel-mcq-03": "「以某個歷史時期為背景的歷史小說」是「historical novel」的用法，與本句語境不同。",
-        "novel-mcq-04": "「以犯罪、偵查或解謎為中心的犯罪／偵探小說」是「crime/detective novel」的用法，與本句語境不同。",
-        "novel-mcq-05": "「以愛情關係為主要內容的愛情小說」是「romance novel」的用法，與本句語境不同。",
-        "novel-mcq-06": "「含有魔法、不現實等奇幻元素的小說」是「fantasy novel」的用法，與本句語境不同。"
+        "novel-mcq-02": "本句的「novel」指「屬於小說這種文學形式的一部作品」。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-02"
     },
@@ -423,11 +405,8 @@ export default {
       "masked": "The ____ was adapted into a film.",
       "options": [
         "novel-mcq-02",
-        "novel-mcq-01",
-        "novel-mcq-03",
-        "novel-mcq-04",
-        "novel-mcq-05",
-        "novel-mcq-06"
+        "novel-mcq-10",
+        "novel-mcq-09"
       ],
       "explanation": "本句的「novel」指「屬於小說這種文學形式的一部作品」。",
       "sentenceIndex": 3,
@@ -436,12 +415,9 @@ export default {
         "novel"
       ],
       "optionReasons": {
-        "novel-mcq-02": "本句指「屬於小說這種文學形式的一部作品」。",
-        "novel-mcq-01": "「以虛構人物和事件構成的長篇散文故事；長篇小說」是「novel — noun」的用法，與本句語境不同。",
-        "novel-mcq-03": "「以某個歷史時期為背景的歷史小說」是「historical novel」的用法，與本句語境不同。",
-        "novel-mcq-04": "「以犯罪、偵查或解謎為中心的犯罪／偵探小說」是「crime/detective novel」的用法，與本句語境不同。",
-        "novel-mcq-05": "「以愛情關係為主要內容的愛情小說」是「romance novel」的用法，與本句語境不同。",
-        "novel-mcq-06": "「含有魔法、不現實等奇幻元素的小說」是「fantasy novel」的用法，與本句語境不同。"
+        "novel-mcq-02": "本句的「novel」指「屬於小說這種文學形式的一部作品」。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-02"
     },
@@ -453,11 +429,8 @@ export default {
       "masked": "It is one of the most influential ____ of the century.",
       "options": [
         "novel-mcq-02",
-        "novel-mcq-01",
-        "novel-mcq-03",
-        "novel-mcq-04",
-        "novel-mcq-05",
-        "novel-mcq-06"
+        "novel-mcq-09",
+        "novel-mcq-10"
       ],
       "explanation": "本句的「novels」指「屬於小說這種文學形式的一部作品」。",
       "sentenceIndex": 4,
@@ -466,12 +439,9 @@ export default {
         "novels"
       ],
       "optionReasons": {
-        "novel-mcq-02": "本句指「屬於小說這種文學形式的一部作品」。",
-        "novel-mcq-01": "「以虛構人物和事件構成的長篇散文故事；長篇小說」是「novel — noun」的用法，與本句語境不同。",
-        "novel-mcq-03": "「以某個歷史時期為背景的歷史小說」是「historical novel」的用法，與本句語境不同。",
-        "novel-mcq-04": "「以犯罪、偵查或解謎為中心的犯罪／偵探小說」是「crime/detective novel」的用法，與本句語境不同。",
-        "novel-mcq-05": "「以愛情關係為主要內容的愛情小說」是「romance novel」的用法，與本句語境不同。",
-        "novel-mcq-06": "「含有魔法、不現實等奇幻元素的小說」是「fantasy novel」的用法，與本句語境不同。"
+        "novel-mcq-02": "本句的「novels」指「屬於小說這種文學形式的一部作品」。",
+        "novel-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-02"
     },
@@ -483,11 +453,8 @@ export default {
       "masked": "The course focuses on modern ____.",
       "options": [
         "novel-mcq-02",
-        "novel-mcq-01",
-        "novel-mcq-03",
-        "novel-mcq-04",
-        "novel-mcq-05",
-        "novel-mcq-06"
+        "novel-mcq-08",
+        "novel-mcq-10"
       ],
       "explanation": "本句的「novels」指「屬於小說這種文學形式的一部作品」。",
       "sentenceIndex": 5,
@@ -496,12 +463,9 @@ export default {
         "novels"
       ],
       "optionReasons": {
-        "novel-mcq-02": "本句指「屬於小說這種文學形式的一部作品」。",
-        "novel-mcq-01": "「以虛構人物和事件構成的長篇散文故事；長篇小說」是「novel — noun」的用法，與本句語境不同。",
-        "novel-mcq-03": "「以某個歷史時期為背景的歷史小說」是「historical novel」的用法，與本句語境不同。",
-        "novel-mcq-04": "「以犯罪、偵查或解謎為中心的犯罪／偵探小說」是「crime/detective novel」的用法，與本句語境不同。",
-        "novel-mcq-05": "「以愛情關係為主要內容的愛情小說」是「romance novel」的用法，與本句語境不同。",
-        "novel-mcq-06": "「含有魔法、不現實等奇幻元素的小說」是「fantasy novel」的用法，與本句語境不同。"
+        "novel-mcq-02": "本句的「novels」指「屬於小說這種文學形式的一部作品」。",
+        "novel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-02"
     },
@@ -513,11 +477,8 @@ export default {
       "masked": "She is reading a ____ set in medieval Europe.",
       "options": [
         "novel-mcq-03",
-        "novel-mcq-02",
-        "novel-mcq-04",
-        "novel-mcq-01",
-        "novel-mcq-05",
-        "novel-mcq-06"
+        "novel-mcq-08",
+        "novel-mcq-10"
       ],
       "explanation": "本句的「historical novel」指「以某個歷史時期為背景的歷史小說」。",
       "sentenceIndex": 6,
@@ -526,12 +487,9 @@ export default {
         "historical novel"
       ],
       "optionReasons": {
-        "novel-mcq-03": "本句指「以某個歷史時期為背景的歷史小說」。",
-        "novel-mcq-02": "「屬於小說這種文學形式的一部作品」是「novel — literary work」的用法，與本句語境不同。",
-        "novel-mcq-04": "「以犯罪、偵查或解謎為中心的犯罪／偵探小說」是「crime/detective novel」的用法，與本句語境不同。",
-        "novel-mcq-01": "「以虛構人物和事件構成的長篇散文故事；長篇小說」是「novel — noun」的用法，與本句語境不同。",
-        "novel-mcq-05": "「以愛情關係為主要內容的愛情小說」是「romance novel」的用法，與本句語境不同。",
-        "novel-mcq-06": "「含有魔法、不現實等奇幻元素的小說」是「fantasy novel」的用法，與本句語境不同。"
+        "novel-mcq-03": "本句的「historical novel」指「以某個歷史時期為背景的歷史小說」。",
+        "novel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-03"
     },
@@ -543,11 +501,8 @@ export default {
       "masked": "The author is known for ____.",
       "options": [
         "novel-mcq-03",
-        "novel-mcq-02",
-        "novel-mcq-04",
-        "novel-mcq-01",
-        "novel-mcq-05",
-        "novel-mcq-06"
+        "novel-mcq-08",
+        "novel-mcq-10"
       ],
       "explanation": "本句的「historical novels」指「以某個歷史時期為背景的歷史小說」。",
       "sentenceIndex": 7,
@@ -556,12 +511,9 @@ export default {
         "historical novels"
       ],
       "optionReasons": {
-        "novel-mcq-03": "本句指「以某個歷史時期為背景的歷史小說」。",
-        "novel-mcq-02": "「屬於小說這種文學形式的一部作品」是「novel — literary work」的用法，與本句語境不同。",
-        "novel-mcq-04": "「以犯罪、偵查或解謎為中心的犯罪／偵探小說」是「crime/detective novel」的用法，與本句語境不同。",
-        "novel-mcq-01": "「以虛構人物和事件構成的長篇散文故事；長篇小說」是「novel — noun」的用法，與本句語境不同。",
-        "novel-mcq-05": "「以愛情關係為主要內容的愛情小說」是「romance novel」的用法，與本句語境不同。",
-        "novel-mcq-06": "「含有魔法、不現實等奇幻元素的小說」是「fantasy novel」的用法，與本句語境不同。"
+        "novel-mcq-03": "本句的「historical novels」指「以某個歷史時期為背景的歷史小說」。",
+        "novel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-03"
     },
@@ -573,11 +525,8 @@ export default {
       "masked": "He enjoys reading ____.",
       "options": [
         "novel-mcq-04",
-        "novel-mcq-03",
-        "novel-mcq-05",
-        "novel-mcq-02",
-        "novel-mcq-06",
-        "novel-mcq-01"
+        "novel-mcq-10",
+        "novel-mcq-09"
       ],
       "explanation": "本句的「crime novels」指「以犯罪、偵查或解謎為中心的犯罪／偵探小說」。",
       "sentenceIndex": 8,
@@ -586,12 +535,9 @@ export default {
         "crime novels"
       ],
       "optionReasons": {
-        "novel-mcq-04": "本句指「以犯罪、偵查或解謎為中心的犯罪／偵探小說」。",
-        "novel-mcq-03": "「以某個歷史時期為背景的歷史小說」是「historical novel」的用法，與本句語境不同。",
-        "novel-mcq-05": "「以愛情關係為主要內容的愛情小說」是「romance novel」的用法，與本句語境不同。",
-        "novel-mcq-02": "「屬於小說這種文學形式的一部作品」是「novel — literary work」的用法，與本句語境不同。",
-        "novel-mcq-06": "「含有魔法、不現實等奇幻元素的小說」是「fantasy novel」的用法，與本句語境不同。",
-        "novel-mcq-01": "「以虛構人物和事件構成的長篇散文故事；長篇小說」是「novel — noun」的用法，與本句語境不同。"
+        "novel-mcq-04": "本句的「crime novels」指「以犯罪、偵查或解謎為中心的犯罪／偵探小說」。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-04"
     },
@@ -603,11 +549,8 @@ export default {
       "masked": "The book is a classic ____.",
       "options": [
         "novel-mcq-04",
-        "novel-mcq-03",
-        "novel-mcq-05",
-        "novel-mcq-02",
-        "novel-mcq-06",
-        "novel-mcq-01"
+        "novel-mcq-08",
+        "novel-mcq-10"
       ],
       "explanation": "本句的「detective novel」指「以犯罪、偵查或解謎為中心的犯罪／偵探小說」。",
       "sentenceIndex": 9,
@@ -616,12 +559,9 @@ export default {
         "detective novel"
       ],
       "optionReasons": {
-        "novel-mcq-04": "本句指「以犯罪、偵查或解謎為中心的犯罪／偵探小說」。",
-        "novel-mcq-03": "「以某個歷史時期為背景的歷史小說」是「historical novel」的用法，與本句語境不同。",
-        "novel-mcq-05": "「以愛情關係為主要內容的愛情小說」是「romance novel」的用法，與本句語境不同。",
-        "novel-mcq-02": "「屬於小說這種文學形式的一部作品」是「novel — literary work」的用法，與本句語境不同。",
-        "novel-mcq-06": "「含有魔法、不現實等奇幻元素的小說」是「fantasy novel」的用法，與本句語境不同。",
-        "novel-mcq-01": "「以虛構人物和事件構成的長篇散文故事；長篇小說」是「novel — noun」的用法，與本句語境不同。"
+        "novel-mcq-04": "本句的「detective novel」指「以犯罪、偵查或解謎為中心的犯罪／偵探小說」。",
+        "novel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-04"
     },
@@ -633,11 +573,8 @@ export default {
       "masked": "She reads a lot of ____.",
       "options": [
         "novel-mcq-05",
-        "novel-mcq-04",
-        "novel-mcq-06",
-        "novel-mcq-03",
-        "novel-mcq-07",
-        "novel-mcq-02"
+        "novel-mcq-10",
+        "novel-mcq-09"
       ],
       "explanation": "本句的「romance novels」指「以愛情關係為主要內容的愛情小說」。",
       "sentenceIndex": 10,
@@ -646,12 +583,9 @@ export default {
         "romance novels"
       ],
       "optionReasons": {
-        "novel-mcq-05": "本句指「以愛情關係為主要內容的愛情小說」。",
-        "novel-mcq-04": "「以犯罪、偵查或解謎為中心的犯罪／偵探小說」是「crime/detective novel」的用法，與本句語境不同。",
-        "novel-mcq-06": "「含有魔法、不現實等奇幻元素的小說」是「fantasy novel」的用法，與本句語境不同。",
-        "novel-mcq-03": "「以某個歷史時期為背景的歷史小說」是「historical novel」的用法，與本句語境不同。",
-        "novel-mcq-07": "「主要以連續圖像配合文字講述長篇故事的圖像小說」是「graphic novel」的用法，與本句語境不同。",
-        "novel-mcq-02": "「屬於小說這種文學形式的一部作品」是「novel — literary work」的用法，與本句語境不同。"
+        "novel-mcq-05": "本句的「romance novels」指「以愛情關係為主要內容的愛情小說」。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-05"
     },
@@ -663,11 +597,8 @@ export default {
       "masked": "The story follows the structure of a ____.",
       "options": [
         "novel-mcq-05",
-        "novel-mcq-04",
-        "novel-mcq-06",
-        "novel-mcq-03",
-        "novel-mcq-07",
-        "novel-mcq-02"
+        "novel-mcq-08",
+        "novel-mcq-10"
       ],
       "explanation": "本句的「romance novel」指「以愛情關係為主要內容的愛情小說」。",
       "sentenceIndex": 11,
@@ -676,12 +607,9 @@ export default {
         "romance novel"
       ],
       "optionReasons": {
-        "novel-mcq-05": "本句指「以愛情關係為主要內容的愛情小說」。",
-        "novel-mcq-04": "「以犯罪、偵查或解謎為中心的犯罪／偵探小說」是「crime/detective novel」的用法，與本句語境不同。",
-        "novel-mcq-06": "「含有魔法、不現實等奇幻元素的小說」是「fantasy novel」的用法，與本句語境不同。",
-        "novel-mcq-03": "「以某個歷史時期為背景的歷史小說」是「historical novel」的用法，與本句語境不同。",
-        "novel-mcq-07": "「主要以連續圖像配合文字講述長篇故事的圖像小說」是「graphic novel」的用法，與本句語境不同。",
-        "novel-mcq-02": "「屬於小說這種文學形式的一部作品」是「novel — literary work」的用法，與本句語境不同。"
+        "novel-mcq-05": "本句的「romance novel」指「以愛情關係為主要內容的愛情小說」。",
+        "novel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-05"
     },
@@ -693,11 +621,8 @@ export default {
       "masked": "It is a philosophical ____.",
       "options": [
         "novel-mcq-06",
-        "novel-mcq-05",
-        "novel-mcq-07",
-        "novel-mcq-04",
-        "novel-mcq-08",
-        "novel-mcq-03"
+        "novel-mcq-09",
+        "novel-mcq-10"
       ],
       "explanation": "本句的「fantasy novel」指「含有魔法、不現實等奇幻元素的小說」。",
       "sentenceIndex": 12,
@@ -706,12 +631,9 @@ export default {
         "fantasy novel"
       ],
       "optionReasons": {
-        "novel-mcq-06": "本句指「含有魔法、不現實等奇幻元素的小說」。",
-        "novel-mcq-05": "「以愛情關係為主要內容的愛情小說」是「romance novel」的用法，與本句語境不同。",
-        "novel-mcq-07": "「主要以連續圖像配合文字講述長篇故事的圖像小說」是「graphic novel」的用法，與本句語境不同。",
-        "novel-mcq-04": "「以犯罪、偵查或解謎為中心的犯罪／偵探小說」是「crime/detective novel」的用法，與本句語境不同。",
-        "novel-mcq-08": "「相對於既有做法而言新而不尋常的；新穎的／創新的」是「novel — adjective」的用法，與本句語境不同。",
-        "novel-mcq-03": "「以某個歷史時期為背景的歷史小說」是「historical novel」的用法，與本句語境不同。"
+        "novel-mcq-06": "本句的「fantasy novel」指「含有魔法、不現實等奇幻元素的小說」。",
+        "novel-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-06"
     },
@@ -723,11 +645,8 @@ export default {
       "masked": "The series began as a ____.",
       "options": [
         "novel-mcq-06",
-        "novel-mcq-05",
-        "novel-mcq-07",
-        "novel-mcq-04",
         "novel-mcq-08",
-        "novel-mcq-03"
+        "novel-mcq-10"
       ],
       "explanation": "本句的「fantasy novel」指「含有魔法、不現實等奇幻元素的小說」。",
       "sentenceIndex": 13,
@@ -736,12 +655,9 @@ export default {
         "fantasy novel"
       ],
       "optionReasons": {
-        "novel-mcq-06": "本句指「含有魔法、不現實等奇幻元素的小說」。",
-        "novel-mcq-05": "「以愛情關係為主要內容的愛情小說」是「romance novel」的用法，與本句語境不同。",
-        "novel-mcq-07": "「主要以連續圖像配合文字講述長篇故事的圖像小說」是「graphic novel」的用法，與本句語境不同。",
-        "novel-mcq-04": "「以犯罪、偵查或解謎為中心的犯罪／偵探小說」是「crime/detective novel」的用法，與本句語境不同。",
-        "novel-mcq-08": "「相對於既有做法而言新而不尋常的；新穎的／創新的」是「novel — adjective」的用法，與本句語境不同。",
-        "novel-mcq-03": "「以某個歷史時期為背景的歷史小說」是「historical novel」的用法，與本句語境不同。"
+        "novel-mcq-06": "本句的「fantasy novel」指「含有魔法、不現實等奇幻元素的小說」。",
+        "novel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-06"
     },
@@ -753,11 +669,8 @@ export default {
       "masked": "The story was published as a ____.",
       "options": [
         "novel-mcq-07",
-        "novel-mcq-06",
-        "novel-mcq-08",
-        "novel-mcq-05",
         "novel-mcq-09",
-        "novel-mcq-04"
+        "novel-mcq-10"
       ],
       "explanation": "本句的「graphic novel」指「主要以連續圖像配合文字講述長篇故事的圖像小說」。",
       "sentenceIndex": 14,
@@ -766,12 +679,9 @@ export default {
         "graphic novel"
       ],
       "optionReasons": {
-        "novel-mcq-07": "本句指「主要以連續圖像配合文字講述長篇故事的圖像小說」。",
-        "novel-mcq-06": "「含有魔法、不現實等奇幻元素的小說」是「fantasy novel」的用法，與本句語境不同。",
-        "novel-mcq-08": "「相對於既有做法而言新而不尋常的；新穎的／創新的」是「novel — adjective」的用法，與本句語境不同。",
-        "novel-mcq-05": "「以愛情關係為主要內容的愛情小說」是「romance novel」的用法，與本句語境不同。",
-        "novel-mcq-09": "「新穎、以前較少見的想法／方法」是「novel idea/approach/method」的用法，與本句語境不同。",
-        "novel-mcq-04": "「以犯罪、偵查或解謎為中心的犯罪／偵探小說」是「crime/detective novel」的用法，與本句語境不同。"
+        "novel-mcq-07": "本句的「graphic novel」指「主要以連續圖像配合文字講述長篇故事的圖像小說」。",
+        "novel-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-07"
     },
@@ -783,11 +693,8 @@ export default {
       "masked": "Some ____ deal with very serious themes.",
       "options": [
         "novel-mcq-07",
-        "novel-mcq-06",
         "novel-mcq-08",
-        "novel-mcq-05",
-        "novel-mcq-09",
-        "novel-mcq-04"
+        "novel-mcq-10"
       ],
       "explanation": "本句的「graphic novels」指「主要以連續圖像配合文字講述長篇故事的圖像小說」。",
       "sentenceIndex": 15,
@@ -796,12 +703,9 @@ export default {
         "graphic novels"
       ],
       "optionReasons": {
-        "novel-mcq-07": "本句指「主要以連續圖像配合文字講述長篇故事的圖像小說」。",
-        "novel-mcq-06": "「含有魔法、不現實等奇幻元素的小說」是「fantasy novel」的用法，與本句語境不同。",
-        "novel-mcq-08": "「相對於既有做法而言新而不尋常的；新穎的／創新的」是「novel — adjective」的用法，與本句語境不同。",
-        "novel-mcq-05": "「以愛情關係為主要內容的愛情小說」是「romance novel」的用法，與本句語境不同。",
-        "novel-mcq-09": "「新穎、以前較少見的想法／方法」是「novel idea/approach/method」的用法，與本句語境不同。",
-        "novel-mcq-04": "「以犯罪、偵查或解謎為中心的犯罪／偵探小說」是「crime/detective novel」的用法，與本句語境不同。"
+        "novel-mcq-07": "本句的「graphic novels」指「主要以連續圖像配合文字講述長篇故事的圖像小說」。",
+        "novel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-07"
     },
@@ -813,11 +717,8 @@ export default {
       "masked": "They developed a ____ to the problem.",
       "options": [
         "novel-mcq-08",
-        "novel-mcq-07",
-        "novel-mcq-09",
-        "novel-mcq-06",
-        "novel-mcq-10",
-        "novel-mcq-05"
+        "novel-mcq-04",
+        "novel-mcq-10"
       ],
       "explanation": "本句的「novel approach」指「相對於既有做法而言新而不尋常的；新穎的／創新的」。",
       "sentenceIndex": 16,
@@ -826,12 +727,9 @@ export default {
         "novel approach"
       ],
       "optionReasons": {
-        "novel-mcq-08": "本句指「相對於既有做法而言新而不尋常的；新穎的／創新的」。",
-        "novel-mcq-07": "「主要以連續圖像配合文字講述長篇故事的圖像小說」是「graphic novel」的用法，與本句語境不同。",
-        "novel-mcq-09": "「新穎、以前較少見的想法／方法」是「novel idea/approach/method」的用法，與本句語境不同。",
-        "novel-mcq-06": "「含有魔法、不現實等奇幻元素的小說」是「fantasy novel」的用法，與本句語境不同。",
-        "novel-mcq-10": "「新發現、新辨識或新開發的」是「novel — technical/scientific」的用法，與本句語境不同。",
-        "novel-mcq-05": "「以愛情關係為主要內容的愛情小說」是「romance novel」的用法，與本句語境不同。"
+        "novel-mcq-08": "本句的「novel approach」指「相對於既有做法而言新而不尋常的；新穎的／創新的」。",
+        "novel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-08"
     },
@@ -843,11 +741,8 @@ export default {
       "masked": "The researchers introduced a ____.",
       "options": [
         "novel-mcq-08",
-        "novel-mcq-07",
-        "novel-mcq-09",
-        "novel-mcq-06",
-        "novel-mcq-10",
-        "novel-mcq-05"
+        "novel-mcq-12",
+        "novel-mcq-10"
       ],
       "explanation": "本句的「novel technique」指「相對於既有做法而言新而不尋常的；新穎的／創新的」。",
       "sentenceIndex": 17,
@@ -856,12 +751,9 @@ export default {
         "novel technique"
       ],
       "optionReasons": {
-        "novel-mcq-08": "本句指「相對於既有做法而言新而不尋常的；新穎的／創新的」。",
-        "novel-mcq-07": "「主要以連續圖像配合文字講述長篇故事的圖像小說」是「graphic novel」的用法，與本句語境不同。",
-        "novel-mcq-09": "「新穎、以前較少見的想法／方法」是「novel idea/approach/method」的用法，與本句語境不同。",
-        "novel-mcq-06": "「含有魔法、不現實等奇幻元素的小說」是「fantasy novel」的用法，與本句語境不同。",
-        "novel-mcq-10": "「新發現、新辨識或新開發的」是「novel — technical/scientific」的用法，與本句語境不同。",
-        "novel-mcq-05": "「以愛情關係為主要內容的愛情小說」是「romance novel」的用法，與本句語境不同。"
+        "novel-mcq-08": "本句的「novel technique」指「相對於既有做法而言新而不尋常的；新穎的／創新的」。",
+        "novel-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-08"
     },
@@ -873,11 +765,8 @@ export default {
       "masked": "That is a ____.",
       "options": [
         "novel-mcq-09",
-        "novel-mcq-08",
-        "novel-mcq-10",
-        "novel-mcq-07",
-        "novel-mcq-11",
-        "novel-mcq-06"
+        "novel-mcq-05",
+        "novel-mcq-10"
       ],
       "explanation": "本句的「novel idea」指「新穎、以前較少見的想法／方法」。",
       "sentenceIndex": 18,
@@ -886,12 +775,9 @@ export default {
         "novel idea"
       ],
       "optionReasons": {
-        "novel-mcq-09": "本句指「新穎、以前較少見的想法／方法」。",
-        "novel-mcq-08": "「相對於既有做法而言新而不尋常的；新穎的／創新的」是「novel — adjective」的用法，與本句語境不同。",
-        "novel-mcq-10": "「新發現、新辨識或新開發的」是「novel — technical/scientific」的用法，與本句語境不同。",
-        "novel-mcq-07": "「主要以連續圖像配合文字講述長篇故事的圖像小說」是「graphic novel」的用法，與本句語境不同。",
-        "novel-mcq-11": "「創作小說的作家；小說家」是「novelist」的用法，與本句語境不同。",
-        "novel-mcq-06": "「含有魔法、不現實等奇幻元素的小說」是「fantasy novel」的用法，與本句語境不同。"
+        "novel-mcq-09": "本句的「novel idea」指「新穎、以前較少見的想法／方法」。",
+        "novel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-09"
     },
@@ -903,11 +789,8 @@ export default {
       "masked": "The team used a ____ of testing the material.",
       "options": [
         "novel-mcq-09",
-        "novel-mcq-08",
-        "novel-mcq-10",
         "novel-mcq-07",
-        "novel-mcq-11",
-        "novel-mcq-06"
+        "novel-mcq-10"
       ],
       "explanation": "本句的「novel method」指「新穎、以前較少見的想法／方法」。",
       "sentenceIndex": 19,
@@ -916,12 +799,9 @@ export default {
         "novel method"
       ],
       "optionReasons": {
-        "novel-mcq-09": "本句指「新穎、以前較少見的想法／方法」。",
-        "novel-mcq-08": "「相對於既有做法而言新而不尋常的；新穎的／創新的」是「novel — adjective」的用法，與本句語境不同。",
-        "novel-mcq-10": "「新發現、新辨識或新開發的」是「novel — technical/scientific」的用法，與本句語境不同。",
-        "novel-mcq-07": "「主要以連續圖像配合文字講述長篇故事的圖像小說」是「graphic novel」的用法，與本句語境不同。",
-        "novel-mcq-11": "「創作小說的作家；小說家」是「novelist」的用法，與本句語境不同。",
-        "novel-mcq-06": "「含有魔法、不現實等奇幻元素的小說」是「fantasy novel」的用法，與本句語境不同。"
+        "novel-mcq-09": "本句的「novel method」指「新穎、以前較少見的想法／方法」。",
+        "novel-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-09"
     },
@@ -933,11 +813,8 @@ export default {
       "masked": "Scientists identified a ____.",
       "options": [
         "novel-mcq-10",
-        "novel-mcq-09",
-        "novel-mcq-11",
-        "novel-mcq-08",
-        "novel-mcq-12",
-        "novel-mcq-07"
+        "novel-mcq-03",
+        "novel-mcq-08"
       ],
       "explanation": "本句的「novel compound」指「新發現、新辨識或新開發的」。",
       "sentenceIndex": 20,
@@ -946,12 +823,9 @@ export default {
         "novel compound"
       ],
       "optionReasons": {
-        "novel-mcq-10": "本句指「新發現、新辨識或新開發的」。",
-        "novel-mcq-09": "「新穎、以前較少見的想法／方法」是「novel idea/approach/method」的用法，與本句語境不同。",
-        "novel-mcq-11": "「創作小說的作家；小說家」是「novelist」的用法，與本句語境不同。",
-        "novel-mcq-08": "「相對於既有做法而言新而不尋常的；新穎的／創新的」是「novel — adjective」的用法，與本句語境不同。",
-        "novel-mcq-12": "「與小說有關或具有小說敘事特色的」是「novelistic」的用法，與本句語境不同。",
-        "novel-mcq-07": "「主要以連續圖像配合文字講述長篇故事的圖像小說」是「graphic novel」的用法，與本句語境不同。"
+        "novel-mcq-10": "本句的「novel compound」指「新發現、新辨識或新開發的」。",
+        "novel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-10"
     },
@@ -963,11 +837,8 @@ export default {
       "masked": "The study describes a ____.",
       "options": [
         "novel-mcq-10",
-        "novel-mcq-09",
-        "novel-mcq-11",
-        "novel-mcq-08",
-        "novel-mcq-12",
-        "novel-mcq-07"
+        "novel-mcq-04",
+        "novel-mcq-09"
       ],
       "explanation": "本句的「novel mechanism」指「新發現、新辨識或新開發的」。",
       "sentenceIndex": 21,
@@ -976,12 +847,9 @@ export default {
         "novel mechanism"
       ],
       "optionReasons": {
-        "novel-mcq-10": "本句指「新發現、新辨識或新開發的」。",
-        "novel-mcq-09": "「新穎、以前較少見的想法／方法」是「novel idea/approach/method」的用法，與本句語境不同。",
-        "novel-mcq-11": "「創作小說的作家；小說家」是「novelist」的用法，與本句語境不同。",
-        "novel-mcq-08": "「相對於既有做法而言新而不尋常的；新穎的／創新的」是「novel — adjective」的用法，與本句語境不同。",
-        "novel-mcq-12": "「與小說有關或具有小說敘事特色的」是「novelistic」的用法，與本句語境不同。",
-        "novel-mcq-07": "「主要以連續圖像配合文字講述長篇故事的圖像小說」是「graphic novel」的用法，與本句語境不同。"
+        "novel-mcq-10": "本句的「novel mechanism」指「新發現、新辨識或新開發的」。",
+        "novel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-10"
     },
@@ -993,11 +861,8 @@ export default {
       "masked": "She became a successful ____.",
       "options": [
         "novel-mcq-11",
-        "novel-mcq-10",
-        "novel-mcq-12",
         "novel-mcq-09",
-        "novel-mcq-13",
-        "novel-mcq-08"
+        "novel-mcq-10"
       ],
       "explanation": "本句的「novelist」指「創作小說的作家；小說家」。",
       "sentenceIndex": 22,
@@ -1006,12 +871,9 @@ export default {
         "novelist"
       ],
       "optionReasons": {
-        "novel-mcq-11": "本句指「創作小說的作家；小說家」。",
-        "novel-mcq-10": "「新發現、新辨識或新開發的」是「novel — technical/scientific」的用法，與本句語境不同。",
-        "novel-mcq-12": "「與小說有關或具有小說敘事特色的」是「novelistic」的用法，與本句語境不同。",
-        "novel-mcq-09": "「新穎、以前較少見的想法／方法」是「novel idea/approach/method」的用法，與本句語境不同。",
-        "novel-mcq-13": "「新穎、新奇這種特質」是「novelty — newness」的用法，與本句語境不同。",
-        "novel-mcq-08": "「相對於既有做法而言新而不尋常的；新穎的／創新的」是「novel — adjective」的用法，與本句語境不同。"
+        "novel-mcq-11": "本句的「novelist」指「創作小說的作家；小說家」。",
+        "novel-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-11"
     },
@@ -1023,11 +885,8 @@ export default {
       "masked": "The ____ is known for psychological fiction.",
       "options": [
         "novel-mcq-11",
-        "novel-mcq-10",
-        "novel-mcq-12",
         "novel-mcq-09",
-        "novel-mcq-13",
-        "novel-mcq-08"
+        "novel-mcq-10"
       ],
       "explanation": "本句的「novelist」指「創作小說的作家；小說家」。",
       "sentenceIndex": 23,
@@ -1036,12 +895,9 @@ export default {
         "novelist"
       ],
       "optionReasons": {
-        "novel-mcq-11": "本句指「創作小說的作家；小說家」。",
-        "novel-mcq-10": "「新發現、新辨識或新開發的」是「novel — technical/scientific」的用法，與本句語境不同。",
-        "novel-mcq-12": "「與小說有關或具有小說敘事特色的」是「novelistic」的用法，與本句語境不同。",
-        "novel-mcq-09": "「新穎、以前較少見的想法／方法」是「novel idea/approach/method」的用法，與本句語境不同。",
-        "novel-mcq-13": "「新穎、新奇這種特質」是「novelty — newness」的用法，與本句語境不同。",
-        "novel-mcq-08": "「相對於既有做法而言新而不尋常的；新穎的／創新的」是「novel — adjective」的用法，與本句語境不同。"
+        "novel-mcq-11": "本句的「novelist」指「創作小說的作家；小說家」。",
+        "novel-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-11"
     },
@@ -1053,11 +909,8 @@ export default {
       "masked": "The biography has a ____ style.",
       "options": [
         "novel-mcq-12",
-        "novel-mcq-11",
-        "novel-mcq-13",
-        "novel-mcq-10",
-        "novel-mcq-14",
-        "novel-mcq-09"
+        "novel-mcq-09",
+        "novel-mcq-10"
       ],
       "explanation": "本句的「novelistic」指「與小說有關或具有小說敘事特色的」。",
       "sentenceIndex": 24,
@@ -1066,12 +919,9 @@ export default {
         "novelistic"
       ],
       "optionReasons": {
-        "novel-mcq-12": "本句指「與小說有關或具有小說敘事特色的」。",
-        "novel-mcq-11": "「創作小說的作家；小說家」是「novelist」的用法，與本句語境不同。",
-        "novel-mcq-13": "「新穎、新奇這種特質」是「novelty — newness」的用法，與本句語境不同。",
-        "novel-mcq-10": "「新發現、新辨識或新開發的」是「novel — technical/scientific」的用法，與本句語境不同。",
-        "novel-mcq-14": "「因新奇或罕見而引人注意的事物」是「novelty — unusual thing」的用法，與本句語境不同。",
-        "novel-mcq-09": "「新穎、以前較少見的想法／方法」是「novel idea/approach/method」的用法，與本句語境不同。"
+        "novel-mcq-12": "本句的「novelistic」指「與小說有關或具有小說敘事特色的」。",
+        "novel-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-12"
     },
@@ -1083,11 +933,8 @@ export default {
       "masked": "The writer uses ____.",
       "options": [
         "novel-mcq-12",
-        "novel-mcq-11",
-        "novel-mcq-13",
         "novel-mcq-10",
-        "novel-mcq-14",
-        "novel-mcq-09"
+        "novel-mcq-08"
       ],
       "explanation": "本句的「novelistic techniques」指「與小說有關或具有小說敘事特色的」。",
       "sentenceIndex": 25,
@@ -1096,12 +943,9 @@ export default {
         "novelistic techniques"
       ],
       "optionReasons": {
-        "novel-mcq-12": "本句指「與小說有關或具有小說敘事特色的」。",
-        "novel-mcq-11": "「創作小說的作家；小說家」是「novelist」的用法，與本句語境不同。",
-        "novel-mcq-13": "「新穎、新奇這種特質」是「novelty — newness」的用法，與本句語境不同。",
-        "novel-mcq-10": "「新發現、新辨識或新開發的」是「novel — technical/scientific」的用法，與本句語境不同。",
-        "novel-mcq-14": "「因新奇或罕見而引人注意的事物」是「novelty — unusual thing」的用法，與本句語境不同。",
-        "novel-mcq-09": "「新穎、以前較少見的想法／方法」是「novel idea/approach/method」的用法，與本句語境不同。"
+        "novel-mcq-12": "本句的「novelistic techniques」指「與小說有關或具有小說敘事特色的」。",
+        "novel-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "novel-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "novel-mcq-12"
     }
@@ -1113,5 +957,7 @@ export default {
     "sha256": "030fb12b49485cbc3bc626373b2b11129904c5b7fca93f06a282bed9160548e7",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

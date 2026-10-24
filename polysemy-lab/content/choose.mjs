@@ -137,26 +137,6 @@ export default {
           "She chose not to comment.",
           "她選擇不作評論。",
           "有意識地決定不採取某個行動"
-        ],
-        [
-          "Choose your words carefully.",
-          "要慎選措辭。",
-          "有意識地決定不採取某個行動"
-        ],
-        [
-          "She chose her words carefully before responding.",
-          "她回答前仔細斟酌了用詞。",
-          "有意識地決定不採取某個行動"
-        ],
-        [
-          "He chose the right moment to raise the issue.",
-          "他選對了時機提出這個問題。",
-          "有意識地決定不採取某個行動"
-        ],
-        [
-          "Choose your time carefully.",
-          "要仔細選擇時機。",
-          "有意識地決定不採取某個行動"
         ]
       ],
       "options": [],
@@ -413,6 +393,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "choose-reviewed-aa93f71d9a",
+      "title": "斟酌用詞；慎選措辭",
+      "form": "choose · source section 8",
+      "en": "斟酌用詞；慎選措辭",
+      "zh": "斟酌用詞；慎選措辭",
+      "note": "對照原始教材第 8 節及例句核實。",
+      "examples": [
+        [
+          "Choose your words carefully.",
+          "要慎選措辭。",
+          "斟酌用詞；慎選措辭"
+        ],
+        [
+          "She chose her words carefully before responding.",
+          "她回答前仔細斟酌了用詞。",
+          "斟酌用詞；慎選措辭"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "choose-reviewed-193903ad1e",
+      "title": "選擇適當時機",
+      "form": "choose · source section 9",
+      "en": "選擇適當時機",
+      "zh": "選擇適當時機",
+      "note": "對照原始教材第 9 節及例句核實。",
+      "examples": [
+        [
+          "He chose the right moment to raise the issue.",
+          "他選對了時機提出這個問題。",
+          "選擇適當時機"
+        ],
+        [
+          "Choose your time carefully.",
+          "要仔細選擇時機。",
+          "選擇適當時機"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -424,11 +448,9 @@ export default {
       "masked": "Not everyone would ____ something so subtle.",
       "options": [
         "choose-mcq-01",
-        "choose-mcq-02",
-        "choose-mcq-03",
-        "choose-mcq-04",
-        "choose-mcq-05",
-        "choose-mcq-06"
+        "choose-mcq-16",
+        "choose-mcq-12",
+        "choose-mcq-07"
       ],
       "explanation": "本句的「choose」指「在多個可能選項中決定要哪一個」。",
       "sentenceIndex": 0,
@@ -437,12 +459,10 @@ export default {
         "choose"
       ],
       "optionReasons": {
-        "choose-mcq-01": "本句指「在多個可能選項中決定要哪一個」。",
-        "choose-mcq-02": "「從兩個或數個明確對立選項中作選擇」是「choose between A and B」的用法，與本句語境不同。",
-        "choose-mcq-03": "「從一組／一系列可選項中挑選」是「choose from X」的用法，與本句語境不同。",
-        "choose-mcq-04": "「從多人中選定某人擔任角色／任務」是「choose someone as/for」的用法，與本句語境不同。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。",
-        "choose-mcq-06": "「有意識地決定不採取某個行動」是「choose not to do」的用法，與本句語境不同。"
+        "choose-mcq-01": "本句的「choose」指「在多個可能選項中決定要哪一個」。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-01"
     },
@@ -454,11 +474,9 @@ export default {
       "masked": "She ____ the blue frame.",
       "options": [
         "choose-mcq-01",
-        "choose-mcq-02",
-        "choose-mcq-03",
-        "choose-mcq-04",
-        "choose-mcq-05",
-        "choose-mcq-06"
+        "choose-mcq-12",
+        "choose-mcq-16",
+        "choose-mcq-07"
       ],
       "explanation": "本句的「chose」指「在多個可能選項中決定要哪一個」。",
       "sentenceIndex": 1,
@@ -467,12 +485,10 @@ export default {
         "chose"
       ],
       "optionReasons": {
-        "choose-mcq-01": "本句指「在多個可能選項中決定要哪一個」。",
-        "choose-mcq-02": "「從兩個或數個明確對立選項中作選擇」是「choose between A and B」的用法，與本句語境不同。",
-        "choose-mcq-03": "「從一組／一系列可選項中挑選」是「choose from X」的用法，與本句語境不同。",
-        "choose-mcq-04": "「從多人中選定某人擔任角色／任務」是「choose someone as/for」的用法，與本句語境不同。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。",
-        "choose-mcq-06": "「有意識地決定不採取某個行動」是「choose not to do」的用法，與本句語境不同。"
+        "choose-mcq-01": "本句的「chose」指「在多個可能選項中決定要哪一個」。",
+        "choose-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-01"
     },
@@ -484,11 +500,9 @@ export default {
       "masked": "You can ____ any painting from the collection.",
       "options": [
         "choose-mcq-01",
-        "choose-mcq-02",
-        "choose-mcq-03",
-        "choose-mcq-04",
-        "choose-mcq-05",
-        "choose-mcq-06"
+        "choose-mcq-07",
+        "choose-mcq-16",
+        "choose-mcq-12"
       ],
       "explanation": "本句的「choose」指「在多個可能選項中決定要哪一個」。",
       "sentenceIndex": 2,
@@ -497,12 +511,10 @@ export default {
         "choose"
       ],
       "optionReasons": {
-        "choose-mcq-01": "本句指「在多個可能選項中決定要哪一個」。",
-        "choose-mcq-02": "「從兩個或數個明確對立選項中作選擇」是「choose between A and B」的用法，與本句語境不同。",
-        "choose-mcq-03": "「從一組／一系列可選項中挑選」是「choose from X」的用法，與本句語境不同。",
-        "choose-mcq-04": "「從多人中選定某人擔任角色／任務」是「choose someone as/for」的用法，與本句語境不同。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。",
-        "choose-mcq-06": "「有意識地決定不採取某個行動」是「choose not to do」的用法，與本句語境不同。"
+        "choose-mcq-01": "本句的「choose」指「在多個可能選項中決定要哪一個」。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-01"
     },
@@ -514,11 +526,9 @@ export default {
       "masked": "I had to ____ the original print and the larger reproduction.",
       "options": [
         "choose-mcq-02",
-        "choose-mcq-01",
-        "choose-mcq-03",
-        "choose-mcq-04",
-        "choose-mcq-05",
-        "choose-mcq-06"
+        "choose-mcq-07",
+        "choose-mcq-12",
+        "choose-mcq-16"
       ],
       "explanation": "本句的「choose between」指「從兩個或數個明確對立選項中作選擇」。",
       "sentenceIndex": 3,
@@ -527,12 +537,10 @@ export default {
         "choose between"
       ],
       "optionReasons": {
-        "choose-mcq-02": "本句指「從兩個或數個明確對立選項中作選擇」。",
-        "choose-mcq-01": "「在多個可能選項中決定要哪一個」是「choose + noun」的用法，與本句語境不同。",
-        "choose-mcq-03": "「從一組／一系列可選項中挑選」是「choose from X」的用法，與本句語境不同。",
-        "choose-mcq-04": "「從多人中選定某人擔任角色／任務」是「choose someone as/for」的用法，與本句語境不同。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。",
-        "choose-mcq-06": "「有意識地決定不採取某個行動」是「choose not to do」的用法，與本句語境不同。"
+        "choose-mcq-02": "本句的「choose between」指「從兩個或數個明確對立選項中作選擇」。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-02"
     },
@@ -544,11 +552,9 @@ export default {
       "masked": "She couldn’t ____ between the two colours.",
       "options": [
         "choose-mcq-02",
-        "choose-mcq-01",
-        "choose-mcq-03",
-        "choose-mcq-04",
-        "choose-mcq-05",
-        "choose-mcq-06"
+        "choose-mcq-07",
+        "choose-mcq-12",
+        "choose-mcq-16"
       ],
       "explanation": "本句的「choose」指「從兩個或數個明確對立選項中作選擇」。",
       "sentenceIndex": 4,
@@ -557,12 +563,10 @@ export default {
         "choose"
       ],
       "optionReasons": {
-        "choose-mcq-02": "本句指「從兩個或數個明確對立選項中作選擇」。",
-        "choose-mcq-01": "「在多個可能選項中決定要哪一個」是「choose + noun」的用法，與本句語境不同。",
-        "choose-mcq-03": "「從一組／一系列可選項中挑選」是「choose from X」的用法，與本句語境不同。",
-        "choose-mcq-04": "「從多人中選定某人擔任角色／任務」是「choose someone as/for」的用法，與本句語境不同。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。",
-        "choose-mcq-06": "「有意識地決定不採取某個行動」是「choose not to do」的用法，與本句語境不同。"
+        "choose-mcq-02": "本句的「choose」指「從兩個或數個明確對立選項中作選擇」。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-02"
     },
@@ -574,11 +578,9 @@ export default {
       "masked": "Visitors can ____ several guided tours.",
       "options": [
         "choose-mcq-03",
-        "choose-mcq-02",
-        "choose-mcq-04",
-        "choose-mcq-01",
-        "choose-mcq-05",
-        "choose-mcq-06"
+        "choose-mcq-15",
+        "choose-mcq-16",
+        "choose-mcq-07"
       ],
       "explanation": "本句的「choose from」指「從一組／一系列可選項中挑選」。",
       "sentenceIndex": 5,
@@ -587,12 +589,10 @@ export default {
         "choose from"
       ],
       "optionReasons": {
-        "choose-mcq-03": "本句指「從一組／一系列可選項中挑選」。",
-        "choose-mcq-02": "「從兩個或數個明確對立選項中作選擇」是「choose between A and B」的用法，與本句語境不同。",
-        "choose-mcq-04": "「從多人中選定某人擔任角色／任務」是「choose someone as/for」的用法，與本句語境不同。",
-        "choose-mcq-01": "「在多個可能選項中決定要哪一個」是「choose + noun」的用法，與本句語境不同。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。",
-        "choose-mcq-06": "「有意識地決定不採取某個行動」是「choose not to do」的用法，與本句語境不同。"
+        "choose-mcq-03": "本句的「choose from」指「從一組／一系列可選項中挑選」。",
+        "choose-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-03"
     },
@@ -604,11 +604,9 @@ export default {
       "masked": "You can ____ from a wide range of frames.",
       "options": [
         "choose-mcq-03",
-        "choose-mcq-02",
-        "choose-mcq-04",
-        "choose-mcq-01",
-        "choose-mcq-05",
-        "choose-mcq-06"
+        "choose-mcq-06",
+        "choose-mcq-16",
+        "choose-mcq-07"
       ],
       "explanation": "本句的「choose」指「從一組／一系列可選項中挑選」。",
       "sentenceIndex": 6,
@@ -617,12 +615,10 @@ export default {
         "choose"
       ],
       "optionReasons": {
-        "choose-mcq-03": "本句指「從一組／一系列可選項中挑選」。",
-        "choose-mcq-02": "「從兩個或數個明確對立選項中作選擇」是「choose between A and B」的用法，與本句語境不同。",
-        "choose-mcq-04": "「從多人中選定某人擔任角色／任務」是「choose someone as/for」的用法，與本句語境不同。",
-        "choose-mcq-01": "「在多個可能選項中決定要哪一個」是「choose + noun」的用法，與本句語境不同。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。",
-        "choose-mcq-06": "「有意識地決定不採取某個行動」是「choose not to do」的用法，與本句語境不同。"
+        "choose-mcq-03": "本句的「choose」指「從一組／一系列可選項中挑選」。",
+        "choose-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-03"
     },
@@ -634,11 +630,9 @@ export default {
       "masked": "They ____ the exhibition curator.",
       "options": [
         "choose-mcq-04",
-        "choose-mcq-03",
-        "choose-mcq-05",
-        "choose-mcq-02",
-        "choose-mcq-06",
-        "choose-mcq-01"
+        "choose-mcq-07",
+        "choose-mcq-16",
+        "choose-mcq-12"
       ],
       "explanation": "本句的「chose her as」指「從多人中選定某人擔任角色／任務」。",
       "sentenceIndex": 7,
@@ -647,12 +641,10 @@ export default {
         "chose her as"
       ],
       "optionReasons": {
-        "choose-mcq-04": "本句指「從多人中選定某人擔任角色／任務」。",
-        "choose-mcq-03": "「從一組／一系列可選項中挑選」是「choose from X」的用法，與本句語境不同。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。",
-        "choose-mcq-02": "「從兩個或數個明確對立選項中作選擇」是「choose between A and B」的用法，與本句語境不同。",
-        "choose-mcq-06": "「有意識地決定不採取某個行動」是「choose not to do」的用法，與本句語境不同。",
-        "choose-mcq-01": "「在多個可能選項中決定要哪一個」是「choose + noun」的用法，與本句語境不同。"
+        "choose-mcq-04": "本句的「chose her as」指「從多人中選定某人擔任角色／任務」。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-04"
     },
@@ -664,11 +656,9 @@ export default {
       "masked": "He was ____ for the team.",
       "options": [
         "choose-mcq-04",
-        "choose-mcq-03",
-        "choose-mcq-05",
-        "choose-mcq-02",
-        "choose-mcq-06",
-        "choose-mcq-01"
+        "choose-mcq-07",
+        "choose-mcq-16",
+        "choose-mcq-12"
       ],
       "explanation": "本句的「chosen」指「從多人中選定某人擔任角色／任務」。",
       "sentenceIndex": 8,
@@ -677,12 +667,10 @@ export default {
         "chosen"
       ],
       "optionReasons": {
-        "choose-mcq-04": "本句指「從多人中選定某人擔任角色／任務」。",
-        "choose-mcq-03": "「從一組／一系列可選項中挑選」是「choose from X」的用法，與本句語境不同。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。",
-        "choose-mcq-02": "「從兩個或數個明確對立選項中作選擇」是「choose between A and B」的用法，與本句語境不同。",
-        "choose-mcq-06": "「有意識地決定不採取某個行動」是「choose not to do」的用法，與本句語境不同。",
-        "choose-mcq-01": "「在多個可能選項中決定要哪一個」是「choose + noun」的用法，與本句語境不同。"
+        "choose-mcq-04": "本句的「chosen」指「從多人中選定某人擔任角色／任務」。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-04"
     },
@@ -694,11 +682,9 @@ export default {
       "masked": "She ____ a reproduction instead.",
       "options": [
         "choose-mcq-05",
-        "choose-mcq-04",
-        "choose-mcq-06",
-        "choose-mcq-03",
-        "choose-mcq-07",
-        "choose-mcq-02"
+        "choose-mcq-10",
+        "choose-mcq-13",
+        "choose-mcq-07"
       ],
       "explanation": "本句的「chose to buy」指「有其他可能做法，但有意識地決定採取某個行動」。",
       "sentenceIndex": 9,
@@ -707,12 +693,10 @@ export default {
         "chose to buy"
       ],
       "optionReasons": {
-        "choose-mcq-05": "本句指「有其他可能做法，但有意識地決定採取某個行動」。",
-        "choose-mcq-04": "「從多人中選定某人擔任角色／任務」是「choose someone as/for」的用法，與本句語境不同。",
-        "choose-mcq-06": "「有意識地決定不採取某個行動」是「choose not to do」的用法，與本句語境不同。",
-        "choose-mcq-03": "「從一組／一系列可選項中挑選」是「choose from X」的用法，與本句語境不同。",
-        "choose-mcq-07": "「經權衡後偏向 A 而不是 B」是「choose A over B」的用法，與本句語境不同。",
-        "choose-mcq-02": "「從兩個或數個明確對立選項中作選擇」是「choose between A and B」的用法，與本句語境不同。"
+        "choose-mcq-05": "本句的「chose to buy」指「有其他可能做法，但有意識地決定採取某個行動」。",
+        "choose-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-05"
     },
@@ -724,11 +708,9 @@ export default {
       "masked": "He ____ to remain silent.",
       "options": [
         "choose-mcq-05",
-        "choose-mcq-04",
-        "choose-mcq-06",
         "choose-mcq-03",
-        "choose-mcq-07",
-        "choose-mcq-02"
+        "choose-reviewed-193903ad1e",
+        "choose-mcq-16"
       ],
       "explanation": "本句的「chose」指「有其他可能做法，但有意識地決定採取某個行動」。",
       "sentenceIndex": 10,
@@ -737,12 +719,10 @@ export default {
         "chose"
       ],
       "optionReasons": {
-        "choose-mcq-05": "本句指「有其他可能做法，但有意識地決定採取某個行動」。",
-        "choose-mcq-04": "「從多人中選定某人擔任角色／任務」是「choose someone as/for」的用法，與本句語境不同。",
-        "choose-mcq-06": "「有意識地決定不採取某個行動」是「choose not to do」的用法，與本句語境不同。",
-        "choose-mcq-03": "「從一組／一系列可選項中挑選」是「choose from X」的用法，與本句語境不同。",
-        "choose-mcq-07": "「經權衡後偏向 A 而不是 B」是「choose A over B」的用法，與本句語境不同。",
-        "choose-mcq-02": "「從兩個或數個明確對立選項中作選擇」是「choose between A and B」的用法，與本句語境不同。"
+        "choose-mcq-05": "本句的「chose」指「有其他可能做法，但有意識地決定採取某個行動」。",
+        "choose-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "choose-reviewed-193903ad1e": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-05"
     },
@@ -754,11 +734,9 @@ export default {
       "masked": "They ____ the painting.",
       "options": [
         "choose-mcq-06",
-        "choose-mcq-05",
-        "choose-mcq-07",
-        "choose-mcq-04",
-        "choose-mcq-08",
-        "choose-mcq-03"
+        "choose-mcq-16",
+        "choose-mcq-03",
+        "choose-reviewed-aa93f71d9a"
       ],
       "explanation": "本句的「chose not to sell」指「有意識地決定不採取某個行動」。",
       "sentenceIndex": 11,
@@ -767,12 +745,10 @@ export default {
         "chose not to sell"
       ],
       "optionReasons": {
-        "choose-mcq-06": "本句指「有意識地決定不採取某個行動」。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。",
-        "choose-mcq-07": "「經權衡後偏向 A 而不是 B」是「choose A over B」的用法，與本句語境不同。",
-        "choose-mcq-04": "「從多人中選定某人擔任角色／任務」是「choose someone as/for」的用法，與本句語境不同。",
-        "choose-mcq-08": "「從不同可能中作決定的行為／抉擇」是「choice — act」的用法，與本句語境不同。",
-        "choose-mcq-03": "「從一組／一系列可選項中挑選」是「choose from X」的用法，與本句語境不同。"
+        "choose-mcq-06": "本句的「chose not to sell」指「有意識地決定不採取某個行動」。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "choose-reviewed-aa93f71d9a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-06"
     },
@@ -784,11 +760,9 @@ export default {
       "masked": "She ____ not to comment.",
       "options": [
         "choose-mcq-06",
-        "choose-mcq-05",
-        "choose-mcq-07",
-        "choose-mcq-04",
-        "choose-mcq-08",
-        "choose-mcq-03"
+        "choose-reviewed-aa93f71d9a",
+        "choose-mcq-10",
+        "choose-mcq-16"
       ],
       "explanation": "本句的「chose」指「有意識地決定不採取某個行動」。",
       "sentenceIndex": 12,
@@ -797,12 +771,10 @@ export default {
         "chose"
       ],
       "optionReasons": {
-        "choose-mcq-06": "本句指「有意識地決定不採取某個行動」。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。",
-        "choose-mcq-07": "「經權衡後偏向 A 而不是 B」是「choose A over B」的用法，與本句語境不同。",
-        "choose-mcq-04": "「從多人中選定某人擔任角色／任務」是「choose someone as/for」的用法，與本句語境不同。",
-        "choose-mcq-08": "「從不同可能中作決定的行為／抉擇」是「choice — act」的用法，與本句語境不同。",
-        "choose-mcq-03": "「從一組／一系列可選項中挑選」是「choose from X」的用法，與本句語境不同。"
+        "choose-mcq-06": "本句的「chose」指「有意識地決定不採取某個行動」。",
+        "choose-reviewed-aa93f71d9a": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-06"
     },
@@ -814,11 +786,9 @@ export default {
       "masked": "Some people ____ simplicity over luxury.",
       "options": [
         "choose-mcq-07",
-        "choose-mcq-06",
-        "choose-mcq-08",
-        "choose-mcq-05",
         "choose-mcq-09",
-        "choose-mcq-04"
+        "choose-reviewed-aa93f71d9a",
+        "choose-mcq-06"
       ],
       "explanation": "本句的「choose」指「經權衡後偏向 A 而不是 B」。",
       "sentenceIndex": 13,
@@ -827,12 +797,10 @@ export default {
         "choose"
       ],
       "optionReasons": {
-        "choose-mcq-07": "本句指「經權衡後偏向 A 而不是 B」。",
-        "choose-mcq-06": "「有意識地決定不採取某個行動」是「choose not to do」的用法，與本句語境不同。",
-        "choose-mcq-08": "「從不同可能中作決定的行為／抉擇」是「choice — act」的用法，與本句語境不同。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。",
-        "choose-mcq-09": "「最終被選定的人、物或做法」是「choice — selected option」的用法，與本句語境不同。",
-        "choose-mcq-04": "「從多人中選定某人擔任角色／任務」是「choose someone as/for」的用法，與本句語境不同。"
+        "choose-mcq-07": "本句的「choose」指「經權衡後偏向 A 而不是 B」。",
+        "choose-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "choose-reviewed-aa93f71d9a": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-07"
     },
@@ -844,11 +812,9 @@ export default {
       "masked": "She ____ art over a business career.",
       "options": [
         "choose-mcq-07",
-        "choose-mcq-06",
-        "choose-mcq-08",
         "choose-mcq-05",
-        "choose-mcq-09",
-        "choose-mcq-04"
+        "choose-mcq-10",
+        "choose-reviewed-aa93f71d9a"
       ],
       "explanation": "本句的「chose」指「經權衡後偏向 A 而不是 B」。",
       "sentenceIndex": 14,
@@ -857,134 +823,124 @@ export default {
         "chose"
       ],
       "optionReasons": {
-        "choose-mcq-07": "本句指「經權衡後偏向 A 而不是 B」。",
-        "choose-mcq-06": "「有意識地決定不採取某個行動」是「choose not to do」的用法，與本句語境不同。",
-        "choose-mcq-08": "「從不同可能中作決定的行為／抉擇」是「choice — act」的用法，與本句語境不同。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。",
-        "choose-mcq-09": "「最終被選定的人、物或做法」是「choice — selected option」的用法，與本句語境不同。",
-        "choose-mcq-04": "「從多人中選定某人擔任角色／任務」是「choose someone as/for」的用法，與本句語境不同。"
+        "choose-mcq-07": "本句的「chose」指「經權衡後偏向 A 而不是 B」。",
+        "choose-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "choose-reviewed-aa93f71d9a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-07"
     },
     {
       "id": "choose-08-0",
-      "sense": "choose-mcq-06",
+      "sense": "choose-reviewed-aa93f71d9a",
       "en": "Choose your words carefully.",
       "zh": "要慎選措辭。",
       "masked": "____ your words carefully.",
       "options": [
-        "choose-mcq-06",
-        "choose-mcq-05",
-        "choose-mcq-07",
-        "choose-mcq-04",
-        "choose-mcq-08",
-        "choose-mcq-03"
+        "choose-reviewed-aa93f71d9a",
+        "choose-mcq-12",
+        "choose-mcq-16",
+        "choose-mcq-08"
       ],
-      "explanation": "本句的「Choose」指「有意識地決定不採取某個行動」。",
+      "explanation": "對照完整句子：「要慎選措辭。」。這裡的「Choose」表示「斟酌用詞；慎選措辭」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "Choose"
       ],
       "optionReasons": {
-        "choose-mcq-06": "本句指「有意識地決定不採取某個行動」。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。",
-        "choose-mcq-07": "「經權衡後偏向 A 而不是 B」是「choose A over B」的用法，與本句語境不同。",
-        "choose-mcq-04": "「從多人中選定某人擔任角色／任務」是「choose someone as/for」的用法，與本句語境不同。",
-        "choose-mcq-08": "「從不同可能中作決定的行為／抉擇」是「choice — act」的用法，與本句語境不同。",
-        "choose-mcq-03": "「從一組／一系列可選項中挑選」是「choose from X」的用法，與本句語境不同。"
+        "choose-reviewed-aa93f71d9a": "對照完整句子：「要慎選措辭。」。這裡的「Choose」表示「斟酌用詞；慎選措辭」。",
+        "choose-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "choose-mcq-06"
+      "correctOption": "choose-reviewed-aa93f71d9a",
+      "previousCorrectOption": "choose-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "choose-08-1",
-      "sense": "choose-mcq-06",
+      "sense": "choose-reviewed-aa93f71d9a",
       "en": "She chose her words carefully before responding.",
       "zh": "她回答前仔細斟酌了用詞。",
       "masked": "She ____ her words carefully before responding.",
       "options": [
-        "choose-mcq-06",
-        "choose-mcq-05",
-        "choose-mcq-07",
-        "choose-mcq-04",
+        "choose-reviewed-aa93f71d9a",
+        "choose-mcq-16",
         "choose-mcq-08",
-        "choose-mcq-03"
+        "choose-mcq-07"
       ],
-      "explanation": "本句的「chose」指「有意識地決定不採取某個行動」。",
+      "explanation": "對照完整句子：「她回答前仔細斟酌了用詞。」。這裡的「chose」表示「斟酌用詞；慎選措辭」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "chose"
       ],
       "optionReasons": {
-        "choose-mcq-06": "本句指「有意識地決定不採取某個行動」。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。",
-        "choose-mcq-07": "「經權衡後偏向 A 而不是 B」是「choose A over B」的用法，與本句語境不同。",
-        "choose-mcq-04": "「從多人中選定某人擔任角色／任務」是「choose someone as/for」的用法，與本句語境不同。",
-        "choose-mcq-08": "「從不同可能中作決定的行為／抉擇」是「choice — act」的用法，與本句語境不同。",
-        "choose-mcq-03": "「從一組／一系列可選項中挑選」是「choose from X」的用法，與本句語境不同。"
+        "choose-reviewed-aa93f71d9a": "對照完整句子：「她回答前仔細斟酌了用詞。」。這裡的「chose」表示「斟酌用詞；慎選措辭」。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "choose-mcq-06"
+      "correctOption": "choose-reviewed-aa93f71d9a",
+      "previousCorrectOption": "choose-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "choose-09-0",
-      "sense": "choose-mcq-06",
+      "sense": "choose-reviewed-193903ad1e",
       "en": "He chose the right moment to raise the issue.",
       "zh": "他選對了時機提出這個問題。",
       "masked": "He ____ to raise the issue.",
       "options": [
+        "choose-reviewed-193903ad1e",
         "choose-mcq-06",
-        "choose-mcq-05",
-        "choose-mcq-07",
-        "choose-mcq-04",
-        "choose-mcq-08",
-        "choose-mcq-03"
+        "choose-mcq-12",
+        "choose-mcq-07"
       ],
-      "explanation": "本句的「chose the right moment」指「有意識地決定不採取某個行動」。",
+      "explanation": "對照完整句子：「他選對了時機提出這個問題。」。這裡的「chose the right moment」表示「選擇適當時機」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "chose the right moment"
       ],
       "optionReasons": {
-        "choose-mcq-06": "本句指「有意識地決定不採取某個行動」。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。",
-        "choose-mcq-07": "「經權衡後偏向 A 而不是 B」是「choose A over B」的用法，與本句語境不同。",
-        "choose-mcq-04": "「從多人中選定某人擔任角色／任務」是「choose someone as/for」的用法，與本句語境不同。",
-        "choose-mcq-08": "「從不同可能中作決定的行為／抉擇」是「choice — act」的用法，與本句語境不同。",
-        "choose-mcq-03": "「從一組／一系列可選項中挑選」是「choose from X」的用法，與本句語境不同。"
+        "choose-reviewed-193903ad1e": "對照完整句子：「他選對了時機提出這個問題。」。這裡的「chose the right moment」表示「選擇適當時機」。",
+        "choose-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "choose-mcq-06"
+      "correctOption": "choose-reviewed-193903ad1e",
+      "previousCorrectOption": "choose-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "choose-09-1",
-      "sense": "choose-mcq-06",
+      "sense": "choose-reviewed-193903ad1e",
       "en": "Choose your time carefully.",
       "zh": "要仔細選擇時機。",
       "masked": "____ your time carefully.",
       "options": [
-        "choose-mcq-06",
+        "choose-reviewed-193903ad1e",
         "choose-mcq-05",
-        "choose-mcq-07",
-        "choose-mcq-04",
-        "choose-mcq-08",
-        "choose-mcq-03"
+        "choose-mcq-16",
+        "choose-mcq-07"
       ],
-      "explanation": "本句的「Choose」指「有意識地決定不採取某個行動」。",
+      "explanation": "對照完整句子：「要仔細選擇時機。」。這裡的「Choose」表示「選擇適當時機」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "Choose"
       ],
       "optionReasons": {
-        "choose-mcq-06": "本句指「有意識地決定不採取某個行動」。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。",
-        "choose-mcq-07": "「經權衡後偏向 A 而不是 B」是「choose A over B」的用法，與本句語境不同。",
-        "choose-mcq-04": "「從多人中選定某人擔任角色／任務」是「choose someone as/for」的用法，與本句語境不同。",
-        "choose-mcq-08": "「從不同可能中作決定的行為／抉擇」是「choice — act」的用法，與本句語境不同。",
-        "choose-mcq-03": "「從一組／一系列可選項中挑選」是「choose from X」的用法，與本句語境不同。"
+        "choose-reviewed-193903ad1e": "對照完整句子：「要仔細選擇時機。」。這裡的「Choose」表示「選擇適當時機」。",
+        "choose-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "choose-mcq-06"
+      "correctOption": "choose-reviewed-193903ad1e",
+      "previousCorrectOption": "choose-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "choose-10-0",
@@ -994,11 +950,9 @@ export default {
       "masked": "She refused to ____ in the disagreement.",
       "options": [
         "choose-mcq-15",
-        "choose-mcq-14",
-        "choose-mcq-16",
-        "choose-mcq-13",
-        "choose-mcq-12",
-        "choose-mcq-11"
+        "choose-reviewed-aa93f71d9a",
+        "choose-mcq-03",
+        "choose-mcq-07"
       ],
       "explanation": "本句的「choose sides」指「在兩個對立陣營中決定支持哪一方」。",
       "sentenceIndex": 19,
@@ -1007,12 +961,10 @@ export default {
         "choose sides"
       ],
       "optionReasons": {
-        "choose-mcq-15": "本句指「在兩個對立陣營中決定支持哪一方」。",
-        "choose-mcq-14": "「經過選擇後被選定的」是「chosen」的用法，與本句語境不同。",
-        "choose-mcq-16": "「語帶反諷，通常指尖銳、粗魯或帶髒話的說話」是「18. a choice word / choice words = 尖銳／粗魯的話（常帶反諷）」的用法，與本句語境不同。",
-        "choose-mcq-13": "「經挑選而品質特別好的；精選／上等的」是「choice — adjective」的用法，與本句語境不同。",
-        "choose-mcq-12": "「沒有其他可行方案，因此只能做某事」是「have no choice but to」的用法，與本句語境不同。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。"
+        "choose-mcq-15": "本句的「choose sides」指「在兩個對立陣營中決定支持哪一方」。",
+        "choose-reviewed-aa93f71d9a": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-15"
     },
@@ -1024,11 +976,9 @@ export default {
       "masked": "The conflict forced people to ____ sides.",
       "options": [
         "choose-mcq-15",
-        "choose-mcq-14",
-        "choose-mcq-16",
         "choose-mcq-13",
         "choose-mcq-12",
-        "choose-mcq-11"
+        "choose-reviewed-aa93f71d9a"
       ],
       "explanation": "本句的「choose」指「在兩個對立陣營中決定支持哪一方」。",
       "sentenceIndex": 20,
@@ -1037,12 +987,10 @@ export default {
         "choose"
       ],
       "optionReasons": {
-        "choose-mcq-15": "本句指「在兩個對立陣營中決定支持哪一方」。",
-        "choose-mcq-14": "「經過選擇後被選定的」是「chosen」的用法，與本句語境不同。",
-        "choose-mcq-16": "「語帶反諷，通常指尖銳、粗魯或帶髒話的說話」是「18. a choice word / choice words = 尖銳／粗魯的話（常帶反諷）」的用法，與本句語境不同。",
-        "choose-mcq-13": "「經挑選而品質特別好的；精選／上等的」是「choice — adjective」的用法，與本句語境不同。",
-        "choose-mcq-12": "「沒有其他可行方案，因此只能做某事」是「have no choice but to」的用法，與本句語境不同。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。"
+        "choose-mcq-15": "本句的「choose」指「在兩個對立陣營中決定支持哪一方」。",
+        "choose-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "choose-reviewed-aa93f71d9a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-15"
     },
@@ -1054,11 +1002,9 @@ export default {
       "masked": "It was a difficult ____.",
       "options": [
         "choose-mcq-08",
-        "choose-mcq-07",
-        "choose-mcq-09",
-        "choose-mcq-06",
-        "choose-mcq-10",
-        "choose-mcq-05"
+        "choose-reviewed-aa93f71d9a",
+        "choose-mcq-16",
+        "choose-mcq-13"
       ],
       "explanation": "本句的「choice」指「從不同可能中作決定的行為／抉擇」。",
       "sentenceIndex": 21,
@@ -1067,12 +1013,10 @@ export default {
         "choice"
       ],
       "optionReasons": {
-        "choose-mcq-08": "本句指「從不同可能中作決定的行為／抉擇」。",
-        "choose-mcq-07": "「經權衡後偏向 A 而不是 B」是「choose A over B」的用法，與本句語境不同。",
-        "choose-mcq-09": "「最終被選定的人、物或做法」是「choice — selected option」的用法，與本句語境不同。",
-        "choose-mcq-06": "「有意識地決定不採取某個行動」是「choose not to do」的用法，與本句語境不同。",
-        "choose-mcq-10": "「可供選擇的項目／範圍」是「choice — range」的用法，與本句語境不同。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。"
+        "choose-mcq-08": "本句的「choice」指「從不同可能中作決定的行為／抉擇」。",
+        "choose-reviewed-aa93f71d9a": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-08"
     },
@@ -1084,11 +1028,9 @@ export default {
       "masked": "You have to make a ____.",
       "options": [
         "choose-mcq-08",
-        "choose-mcq-07",
-        "choose-mcq-09",
-        "choose-mcq-06",
-        "choose-mcq-10",
-        "choose-mcq-05"
+        "choose-mcq-13",
+        "choose-reviewed-aa93f71d9a",
+        "choose-mcq-16"
       ],
       "explanation": "本句的「choice」指「從不同可能中作決定的行為／抉擇」。",
       "sentenceIndex": 22,
@@ -1097,12 +1039,10 @@ export default {
         "choice"
       ],
       "optionReasons": {
-        "choose-mcq-08": "本句指「從不同可能中作決定的行為／抉擇」。",
-        "choose-mcq-07": "「經權衡後偏向 A 而不是 B」是「choose A over B」的用法，與本句語境不同。",
-        "choose-mcq-09": "「最終被選定的人、物或做法」是「choice — selected option」的用法，與本句語境不同。",
-        "choose-mcq-06": "「有意識地決定不採取某個行動」是「choose not to do」的用法，與本句語境不同。",
-        "choose-mcq-10": "「可供選擇的項目／範圍」是「choice — range」的用法，與本句語境不同。",
-        "choose-mcq-05": "「有其他可能做法，但有意識地決定採取某個行動」是「choose to do」的用法，與本句語境不同。"
+        "choose-mcq-08": "本句的「choice」指「從不同可能中作決定的行為／抉擇」。",
+        "choose-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "choose-reviewed-aa93f71d9a": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-08"
     },
@@ -1114,11 +1054,9 @@ export default {
       "masked": "That frame was a good ____.",
       "options": [
         "choose-mcq-09",
-        "choose-mcq-08",
-        "choose-mcq-10",
         "choose-mcq-07",
-        "choose-mcq-11",
-        "choose-mcq-06"
+        "choose-mcq-16",
+        "choose-mcq-15"
       ],
       "explanation": "本句的「choice」指「最終被選定的人、物或做法」。",
       "sentenceIndex": 23,
@@ -1127,12 +1065,10 @@ export default {
         "choice"
       ],
       "optionReasons": {
-        "choose-mcq-09": "本句指「最終被選定的人、物或做法」。",
-        "choose-mcq-08": "「從不同可能中作決定的行為／抉擇」是「choice — act」的用法，與本句語境不同。",
-        "choose-mcq-10": "「可供選擇的項目／範圍」是「choice — range」的用法，與本句語境不同。",
-        "choose-mcq-07": "「經權衡後偏向 A 而不是 B」是「choose A over B」的用法，與本句語境不同。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。",
-        "choose-mcq-06": "「有意識地決定不採取某個行動」是「choose not to do」的用法，與本句語境不同。"
+        "choose-mcq-09": "本句的「choice」指「最終被選定的人、物或做法」。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-09"
     },
@@ -1144,11 +1080,9 @@ export default {
       "masked": "Monet would be my first ____.",
       "options": [
         "choose-mcq-09",
-        "choose-mcq-08",
-        "choose-mcq-10",
+        "choose-mcq-16",
         "choose-mcq-07",
-        "choose-mcq-11",
-        "choose-mcq-06"
+        "choose-mcq-03"
       ],
       "explanation": "本句的「choice」指「最終被選定的人、物或做法」。",
       "sentenceIndex": 24,
@@ -1157,12 +1091,10 @@ export default {
         "choice"
       ],
       "optionReasons": {
-        "choose-mcq-09": "本句指「最終被選定的人、物或做法」。",
-        "choose-mcq-08": "「從不同可能中作決定的行為／抉擇」是「choice — act」的用法，與本句語境不同。",
-        "choose-mcq-10": "「可供選擇的項目／範圍」是「choice — range」的用法，與本句語境不同。",
-        "choose-mcq-07": "「經權衡後偏向 A 而不是 B」是「choose A over B」的用法，與本句語境不同。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。",
-        "choose-mcq-06": "「有意識地決定不採取某個行動」是「choose not to do」的用法，與本句語境不同。"
+        "choose-mcq-09": "本句的「choice」指「最終被選定的人、物或做法」。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-09"
     },
@@ -1174,11 +1106,9 @@ export default {
       "masked": "The shop has a wide ____ of frames.",
       "options": [
         "choose-mcq-10",
-        "choose-mcq-09",
-        "choose-mcq-11",
-        "choose-mcq-08",
-        "choose-mcq-12",
-        "choose-mcq-07"
+        "choose-mcq-05",
+        "choose-mcq-07",
+        "choose-mcq-16"
       ],
       "explanation": "本句的「choice」指「可供選擇的項目／範圍」。",
       "sentenceIndex": 25,
@@ -1187,12 +1117,10 @@ export default {
         "choice"
       ],
       "optionReasons": {
-        "choose-mcq-10": "本句指「可供選擇的項目／範圍」。",
-        "choose-mcq-09": "「最終被選定的人、物或做法」是「choice — selected option」的用法，與本句語境不同。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。",
-        "choose-mcq-08": "「從不同可能中作決定的行為／抉擇」是「choice — act」的用法，與本句語境不同。",
-        "choose-mcq-12": "「沒有其他可行方案，因此只能做某事」是「have no choice but to」的用法，與本句語境不同。",
-        "choose-mcq-07": "「經權衡後偏向 A 而不是 B」是「choose A over B」的用法，與本句語境不同。"
+        "choose-mcq-10": "本句的「choice」指「可供選擇的項目／範圍」。",
+        "choose-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-10"
     },
@@ -1204,11 +1132,9 @@ export default {
       "masked": "There isn’t much ____.",
       "options": [
         "choose-mcq-10",
-        "choose-mcq-09",
-        "choose-mcq-11",
-        "choose-mcq-08",
-        "choose-mcq-12",
-        "choose-mcq-07"
+        "choose-mcq-15",
+        "choose-mcq-16",
+        "choose-mcq-12"
       ],
       "explanation": "本句的「choice」指「可供選擇的項目／範圍」。",
       "sentenceIndex": 26,
@@ -1217,12 +1143,10 @@ export default {
         "choice"
       ],
       "optionReasons": {
-        "choose-mcq-10": "本句指「可供選擇的項目／範圍」。",
-        "choose-mcq-09": "「最終被選定的人、物或做法」是「choice — selected option」的用法，與本句語境不同。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。",
-        "choose-mcq-08": "「從不同可能中作決定的行為／抉擇」是「choice — act」的用法，與本句語境不同。",
-        "choose-mcq-12": "「沒有其他可行方案，因此只能做某事」是「have no choice but to」的用法，與本句語境不同。",
-        "choose-mcq-07": "「經權衡後偏向 A 而不是 B」是「choose A over B」的用法，與本句語境不同。"
+        "choose-mcq-10": "本句的「choice」指「可供選擇的項目／範圍」。",
+        "choose-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-10"
     },
@@ -1234,11 +1158,9 @@ export default {
       "masked": "We had ____ but to leave.",
       "options": [
         "choose-mcq-12",
-        "choose-mcq-11",
-        "choose-mcq-13",
-        "choose-mcq-10",
+        "choose-mcq-03",
         "choose-mcq-14",
-        "choose-mcq-09"
+        "choose-reviewed-aa93f71d9a"
       ],
       "explanation": "本句的「no choice」指「沒有其他可行方案，因此只能做某事」。",
       "sentenceIndex": 27,
@@ -1247,12 +1169,10 @@ export default {
         "no choice"
       ],
       "optionReasons": {
-        "choose-mcq-12": "本句指「沒有其他可行方案，因此只能做某事」。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。",
-        "choose-mcq-13": "「經挑選而品質特別好的；精選／上等的」是「choice — adjective」的用法，與本句語境不同。",
-        "choose-mcq-10": "「可供選擇的項目／範圍」是「choice — range」的用法，與本句語境不同。",
-        "choose-mcq-14": "「經過選擇後被選定的」是「chosen」的用法，與本句語境不同。",
-        "choose-mcq-09": "「最終被選定的人、物或做法」是「choice — selected option」的用法，與本句語境不同。"
+        "choose-mcq-12": "本句的「no choice」指「沒有其他可行方案，因此只能做某事」。",
+        "choose-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "choose-reviewed-aa93f71d9a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-12"
     },
@@ -1264,11 +1184,9 @@ export default {
       "masked": "She had no ____ but to replace the frame.",
       "options": [
         "choose-mcq-12",
-        "choose-mcq-11",
-        "choose-mcq-13",
-        "choose-mcq-10",
-        "choose-mcq-14",
-        "choose-mcq-09"
+        "choose-reviewed-193903ad1e",
+        "choose-mcq-03",
+        "choose-mcq-07"
       ],
       "explanation": "本句的「choice」指「沒有其他可行方案，因此只能做某事」。",
       "sentenceIndex": 28,
@@ -1277,12 +1195,10 @@ export default {
         "choice"
       ],
       "optionReasons": {
-        "choose-mcq-12": "本句指「沒有其他可行方案，因此只能做某事」。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。",
-        "choose-mcq-13": "「經挑選而品質特別好的；精選／上等的」是「choice — adjective」的用法，與本句語境不同。",
-        "choose-mcq-10": "「可供選擇的項目／範圍」是「choice — range」的用法，與本句語境不同。",
-        "choose-mcq-14": "「經過選擇後被選定的」是「chosen」的用法，與本句語境不同。",
-        "choose-mcq-09": "「最終被選定的人、物或做法」是「choice — selected option」的用法，與本句語境不同。"
+        "choose-mcq-12": "本句的「choice」指「沒有其他可行方案，因此只能做某事」。",
+        "choose-reviewed-193903ad1e": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-12"
     },
@@ -1294,11 +1210,9 @@ export default {
       "masked": "I had no ____ but to buy a reproduction.",
       "options": [
         "choose-mcq-12",
-        "choose-mcq-11",
-        "choose-mcq-13",
-        "choose-mcq-10",
-        "choose-mcq-14",
-        "choose-mcq-09"
+        "choose-reviewed-193903ad1e",
+        "choose-mcq-07",
+        "choose-mcq-01"
       ],
       "explanation": "本句的「choice」指「沒有其他可行方案，因此只能做某事」。",
       "sentenceIndex": 29,
@@ -1307,12 +1221,10 @@ export default {
         "choice"
       ],
       "optionReasons": {
-        "choose-mcq-12": "本句指「沒有其他可行方案，因此只能做某事」。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。",
-        "choose-mcq-13": "「經挑選而品質特別好的；精選／上等的」是「choice — adjective」的用法，與本句語境不同。",
-        "choose-mcq-10": "「可供選擇的項目／範圍」是「choice — range」的用法，與本句語境不同。",
-        "choose-mcq-14": "「經過選擇後被選定的」是「chosen」的用法，與本句語境不同。",
-        "choose-mcq-09": "「最終被選定的人、物或做法」是「choice — selected option」的用法，與本句語境不同。"
+        "choose-mcq-12": "本句的「choice」指「沒有其他可行方案，因此只能做某事」。",
+        "choose-reviewed-193903ad1e": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-12"
     },
@@ -1324,11 +1236,9 @@ export default {
       "masked": "They had no ____ but to cancel the event.",
       "options": [
         "choose-mcq-12",
-        "choose-mcq-11",
         "choose-mcq-13",
         "choose-mcq-10",
-        "choose-mcq-14",
-        "choose-mcq-09"
+        "choose-mcq-04"
       ],
       "explanation": "本句的「choice」指「沒有其他可行方案，因此只能做某事」。",
       "sentenceIndex": 30,
@@ -1337,12 +1247,10 @@ export default {
         "choice"
       ],
       "optionReasons": {
-        "choose-mcq-12": "本句指「沒有其他可行方案，因此只能做某事」。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。",
-        "choose-mcq-13": "「經挑選而品質特別好的；精選／上等的」是「choice — adjective」的用法，與本句語境不同。",
-        "choose-mcq-10": "「可供選擇的項目／範圍」是「choice — range」的用法，與本句語境不同。",
-        "choose-mcq-14": "「經過選擇後被選定的」是「chosen」的用法，與本句語境不同。",
-        "choose-mcq-09": "「最終被選定的人、物或做法」是「choice — selected option」的用法，與本句語境不同。"
+        "choose-mcq-12": "本句的「choice」指「沒有其他可行方案，因此只能做某事」。",
+        "choose-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-12"
     },
@@ -1354,11 +1262,9 @@ export default {
       "masked": "People should have a ____.",
       "options": [
         "choose-mcq-11",
-        "choose-mcq-10",
+        "choose-mcq-16",
         "choose-mcq-12",
-        "choose-mcq-09",
-        "choose-mcq-13",
-        "choose-mcq-08"
+        "choose-mcq-13"
       ],
       "explanation": "本句的「choice」指「自己決定採取哪個選項的權利」。",
       "sentenceIndex": 31,
@@ -1367,12 +1273,10 @@ export default {
         "choice"
       ],
       "optionReasons": {
-        "choose-mcq-11": "本句指「自己決定採取哪個選項的權利」。",
-        "choose-mcq-10": "「可供選擇的項目／範圍」是「choice — range」的用法，與本句語境不同。",
-        "choose-mcq-12": "「沒有其他可行方案，因此只能做某事」是「have no choice but to」的用法，與本句語境不同。",
-        "choose-mcq-09": "「最終被選定的人、物或做法」是「choice — selected option」的用法，與本句語境不同。",
-        "choose-mcq-13": "「經挑選而品質特別好的；精選／上等的」是「choice — adjective」的用法，與本句語境不同。",
-        "choose-mcq-08": "「從不同可能中作決定的行為／抉擇」是「choice — act」的用法，與本句語境不同。"
+        "choose-mcq-11": "本句的「choice」指「自己決定採取哪個選項的權利」。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-11"
     },
@@ -1384,11 +1288,9 @@ export default {
       "masked": "The final ____ is yours.",
       "options": [
         "choose-mcq-11",
-        "choose-mcq-10",
         "choose-mcq-12",
-        "choose-mcq-09",
-        "choose-mcq-13",
-        "choose-mcq-08"
+        "choose-mcq-16",
+        "choose-mcq-13"
       ],
       "explanation": "本句的「choice」指「自己決定採取哪個選項的權利」。",
       "sentenceIndex": 32,
@@ -1397,12 +1299,10 @@ export default {
         "choice"
       ],
       "optionReasons": {
-        "choose-mcq-11": "本句指「自己決定採取哪個選項的權利」。",
-        "choose-mcq-10": "「可供選擇的項目／範圍」是「choice — range」的用法，與本句語境不同。",
-        "choose-mcq-12": "「沒有其他可行方案，因此只能做某事」是「have no choice but to」的用法，與本句語境不同。",
-        "choose-mcq-09": "「最終被選定的人、物或做法」是「choice — selected option」的用法，與本句語境不同。",
-        "choose-mcq-13": "「經挑選而品質特別好的；精選／上等的」是「choice — adjective」的用法，與本句語境不同。",
-        "choose-mcq-08": "「從不同可能中作決定的行為／抉擇」是「choice — act」的用法，與本句語境不同。"
+        "choose-mcq-11": "本句的「choice」指「自己決定採取哪個選項的權利」。",
+        "choose-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-11"
     },
@@ -1414,11 +1314,9 @@ export default {
       "masked": "The restaurant serves ____ of meat.",
       "options": [
         "choose-mcq-13",
+        "choose-mcq-08",
         "choose-mcq-12",
-        "choose-mcq-14",
-        "choose-mcq-11",
-        "choose-mcq-15",
-        "choose-mcq-10"
+        "choose-mcq-16"
       ],
       "explanation": "本句的「choice cuts」指「經挑選而品質特別好的；精選／上等的」。",
       "sentenceIndex": 33,
@@ -1427,12 +1325,10 @@ export default {
         "choice cuts"
       ],
       "optionReasons": {
-        "choose-mcq-13": "本句指「經挑選而品質特別好的；精選／上等的」。",
-        "choose-mcq-12": "「沒有其他可行方案，因此只能做某事」是「have no choice but to」的用法，與本句語境不同。",
-        "choose-mcq-14": "「經過選擇後被選定的」是「chosen」的用法，與本句語境不同。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。",
-        "choose-mcq-15": "「在兩個對立陣營中決定支持哪一方」是「10. choose sides = 選邊站；選擇支持哪一方」的用法，與本句語境不同。",
-        "choose-mcq-10": "「可供選擇的項目／範圍」是「choice — range」的用法，與本句語境不同。"
+        "choose-mcq-13": "本句的「choice cuts」指「經挑選而品質特別好的；精選／上等的」。",
+        "choose-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-13"
     },
@@ -1444,11 +1340,9 @@ export default {
       "masked": "The collection contains several ____ examples of early photography.",
       "options": [
         "choose-mcq-13",
-        "choose-mcq-12",
-        "choose-mcq-14",
-        "choose-mcq-11",
-        "choose-mcq-15",
-        "choose-mcq-10"
+        "choose-mcq-05",
+        "choose-mcq-16",
+        "choose-mcq-04"
       ],
       "explanation": "本句的「choice」指「經挑選而品質特別好的；精選／上等的」。",
       "sentenceIndex": 34,
@@ -1457,12 +1351,10 @@ export default {
         "choice"
       ],
       "optionReasons": {
-        "choose-mcq-13": "本句指「經挑選而品質特別好的；精選／上等的」。",
-        "choose-mcq-12": "「沒有其他可行方案，因此只能做某事」是「have no choice but to」的用法，與本句語境不同。",
-        "choose-mcq-14": "「經過選擇後被選定的」是「chosen」的用法，與本句語境不同。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。",
-        "choose-mcq-15": "「在兩個對立陣營中決定支持哪一方」是「10. choose sides = 選邊站；選擇支持哪一方」的用法，與本句語境不同。",
-        "choose-mcq-10": "「可供選擇的項目／範圍」是「choice — range」的用法，與本句語境不同。"
+        "choose-mcq-13": "本句的「choice」指「經挑選而品質特別好的；精選／上等的」。",
+        "choose-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-13"
     },
@@ -1474,11 +1366,9 @@ export default {
       "masked": "He had a few ____ for the manager.",
       "options": [
         "choose-mcq-16",
-        "choose-mcq-15",
-        "choose-mcq-14",
-        "choose-mcq-13",
+        "choose-mcq-06",
         "choose-mcq-12",
-        "choose-mcq-11"
+        "choose-mcq-04"
       ],
       "explanation": "本句的「choice words」指「語帶反諷，通常指尖銳、粗魯或帶髒話的說話」。",
       "sentenceIndex": 35,
@@ -1487,12 +1377,10 @@ export default {
         "choice words"
       ],
       "optionReasons": {
-        "choose-mcq-16": "本句指「語帶反諷，通常指尖銳、粗魯或帶髒話的說話」。",
-        "choose-mcq-15": "「在兩個對立陣營中決定支持哪一方」是「10. choose sides = 選邊站；選擇支持哪一方」的用法，與本句語境不同。",
-        "choose-mcq-14": "「經過選擇後被選定的」是「chosen」的用法，與本句語境不同。",
-        "choose-mcq-13": "「經挑選而品質特別好的；精選／上等的」是「choice — adjective」的用法，與本句語境不同。",
-        "choose-mcq-12": "「沒有其他可行方案，因此只能做某事」是「have no choice but to」的用法，與本句語境不同。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。"
+        "choose-mcq-16": "本句的「choice words」指「語帶反諷，通常指尖銳、粗魯或帶髒話的說話」。",
+        "choose-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-16"
     },
@@ -1504,11 +1392,9 @@ export default {
       "masked": "She used some ____ language after seeing the bill.",
       "options": [
         "choose-mcq-16",
-        "choose-mcq-15",
-        "choose-mcq-14",
-        "choose-mcq-13",
-        "choose-mcq-12",
-        "choose-mcq-11"
+        "choose-reviewed-193903ad1e",
+        "choose-mcq-06",
+        "choose-mcq-03"
       ],
       "explanation": "本句的「choice」指「語帶反諷，通常指尖銳、粗魯或帶髒話的說話」。",
       "sentenceIndex": 36,
@@ -1517,12 +1403,10 @@ export default {
         "choice"
       ],
       "optionReasons": {
-        "choose-mcq-16": "本句指「語帶反諷，通常指尖銳、粗魯或帶髒話的說話」。",
-        "choose-mcq-15": "「在兩個對立陣營中決定支持哪一方」是「10. choose sides = 選邊站；選擇支持哪一方」的用法，與本句語境不同。",
-        "choose-mcq-14": "「經過選擇後被選定的」是「chosen」的用法，與本句語境不同。",
-        "choose-mcq-13": "「經挑選而品質特別好的；精選／上等的」是「choice — adjective」的用法，與本句語境不同。",
-        "choose-mcq-12": "「沒有其他可行方案，因此只能做某事」是「have no choice but to」的用法，與本句語境不同。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。"
+        "choose-mcq-16": "本句的「choice」指「語帶反諷，通常指尖銳、粗魯或帶髒話的說話」。",
+        "choose-reviewed-193903ad1e": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-16"
     },
@@ -1534,11 +1418,9 @@ export default {
       "masked": "The ____ painting will be displayed in the entrance.",
       "options": [
         "choose-mcq-14",
-        "choose-mcq-13",
-        "choose-mcq-15",
         "choose-mcq-12",
         "choose-mcq-16",
-        "choose-mcq-11"
+        "choose-reviewed-aa93f71d9a"
       ],
       "explanation": "本句的「chosen」指「經過選擇後被選定的」。",
       "sentenceIndex": 37,
@@ -1547,12 +1429,10 @@ export default {
         "chosen"
       ],
       "optionReasons": {
-        "choose-mcq-14": "本句指「經過選擇後被選定的」。",
-        "choose-mcq-13": "「經挑選而品質特別好的；精選／上等的」是「choice — adjective」的用法，與本句語境不同。",
-        "choose-mcq-15": "「在兩個對立陣營中決定支持哪一方」是「10. choose sides = 選邊站；選擇支持哪一方」的用法，與本句語境不同。",
-        "choose-mcq-12": "「沒有其他可行方案，因此只能做某事」是「have no choice but to」的用法，與本句語境不同。",
-        "choose-mcq-16": "「語帶反諷，通常指尖銳、粗魯或帶髒話的說話」是「18. a choice word / choice words = 尖銳／粗魯的話（常帶反諷）」的用法，與本句語境不同。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。"
+        "choose-mcq-14": "本句的「chosen」指「經過選擇後被選定的」。",
+        "choose-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-reviewed-aa93f71d9a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-14"
     },
@@ -1564,11 +1444,9 @@ export default {
       "masked": "She was the ____ candidate.",
       "options": [
         "choose-mcq-14",
-        "choose-mcq-13",
-        "choose-mcq-15",
-        "choose-mcq-12",
         "choose-mcq-16",
-        "choose-mcq-11"
+        "choose-mcq-12",
+        "choose-mcq-06"
       ],
       "explanation": "本句的「chosen」指「經過選擇後被選定的」。",
       "sentenceIndex": 38,
@@ -1577,12 +1455,10 @@ export default {
         "chosen"
       ],
       "optionReasons": {
-        "choose-mcq-14": "本句指「經過選擇後被選定的」。",
-        "choose-mcq-13": "「經挑選而品質特別好的；精選／上等的」是「choice — adjective」的用法，與本句語境不同。",
-        "choose-mcq-15": "「在兩個對立陣營中決定支持哪一方」是「10. choose sides = 選邊站；選擇支持哪一方」的用法，與本句語境不同。",
-        "choose-mcq-12": "「沒有其他可行方案，因此只能做某事」是「have no choice but to」的用法，與本句語境不同。",
-        "choose-mcq-16": "「語帶反諷，通常指尖銳、粗魯或帶髒話的說話」是「18. a choice word / choice words = 尖銳／粗魯的話（常帶反諷）」的用法，與本句語境不同。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。"
+        "choose-mcq-14": "本句的「chosen」指「經過選擇後被選定的」。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-mcq-14"
     },
@@ -1594,11 +1470,9 @@ export default {
       "masked": "The artist worked in her ____.",
       "options": [
         "choose-pdf-001",
-        "choose-mcq-13",
-        "choose-mcq-15",
-        "choose-mcq-12",
+        "choose-mcq-07",
         "choose-mcq-16",
-        "choose-mcq-11"
+        "choose-mcq-15"
       ],
       "explanation": "本句的「chosen field」指「由本人或他人有意識地選定的」。",
       "sentenceIndex": 39,
@@ -1607,12 +1481,10 @@ export default {
         "chosen field"
       ],
       "optionReasons": {
-        "choose-pdf-001": "本句指「由本人或他人有意識地選定的」。",
-        "choose-mcq-13": "「經挑選而品質特別好的；精選／上等的」是「choice — adjective」的用法，與本句語境不同。",
-        "choose-mcq-15": "「在兩個對立陣營中決定支持哪一方」是「10. choose sides = 選邊站；選擇支持哪一方」的用法，與本句語境不同。",
-        "choose-mcq-12": "「沒有其他可行方案，因此只能做某事」是「have no choice but to」的用法，與本句語境不同。",
-        "choose-mcq-16": "「語帶反諷，通常指尖銳、粗魯或帶髒話的說話」是「18. a choice word / choice words = 尖銳／粗魯的話（常帶反諷）」的用法，與本句語境不同。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。"
+        "choose-pdf-001": "本句的「chosen field」指「由本人或他人有意識地選定的」。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-pdf-001"
     },
@@ -1624,11 +1496,9 @@ export default {
       "masked": "He returned to his ____ profession.",
       "options": [
         "choose-pdf-001",
-        "choose-mcq-13",
-        "choose-mcq-15",
-        "choose-mcq-12",
         "choose-mcq-16",
-        "choose-mcq-11"
+        "choose-mcq-07",
+        "choose-mcq-03"
       ],
       "explanation": "本句的「chosen」指「由本人或他人有意識地選定的」。",
       "sentenceIndex": 40,
@@ -1637,12 +1507,10 @@ export default {
         "chosen"
       ],
       "optionReasons": {
-        "choose-pdf-001": "本句指「由本人或他人有意識地選定的」。",
-        "choose-mcq-13": "「經挑選而品質特別好的；精選／上等的」是「choice — adjective」的用法，與本句語境不同。",
-        "choose-mcq-15": "「在兩個對立陣營中決定支持哪一方」是「10. choose sides = 選邊站；選擇支持哪一方」的用法，與本句語境不同。",
-        "choose-mcq-12": "「沒有其他可行方案，因此只能做某事」是「have no choice but to」的用法，與本句語境不同。",
-        "choose-mcq-16": "「語帶反諷，通常指尖銳、粗魯或帶髒話的說話」是「18. a choice word / choice words = 尖銳／粗魯的話（常帶反諷）」的用法，與本句語境不同。",
-        "choose-mcq-11": "「自己決定採取哪個選項的權利」是「choice — freedom」的用法，與本句語境不同。"
+        "choose-pdf-001": "本句的「chosen」指「由本人或他人有意識地選定的」。",
+        "choose-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "choose-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "choose-pdf-001"
     }
@@ -1654,5 +1522,7 @@ export default {
     "sha256": "fe9a05d78eaa71658277853759c8bf2f587dfeb3285ab70ac610ee64c2a92c9c",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

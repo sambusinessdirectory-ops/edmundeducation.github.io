@@ -121,7 +121,7 @@ export default {
     },
     {
       "id": "television-mcq-06",
-      "title": "表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」",
+      "title": "電視機（用法 6）",
       "form": "television set = physical television device",
       "en": "television set = physical television device",
       "zh": "表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」",
@@ -250,11 +250,7 @@ export default {
       "masked": "We bought a new ____ for the living room.",
       "options": [
         "television-mcq-01",
-        "television-mcq-02",
-        "television-mcq-03",
-        "television-mcq-04",
-        "television-mcq-05",
-        "television-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「television」指「用來顯示電視節目、影片和其他影音內容的電子設備」。",
       "sentenceIndex": 0,
@@ -263,12 +259,8 @@ export default {
         "television"
       ],
       "optionReasons": {
-        "television-mcq-01": "本句指「用來顯示電視節目、影片和其他影音內容的電子設備」。",
-        "television-mcq-02": "「以影音形式向大眾傳送節目和資訊的電視傳播媒體」是「television / TV = broadcasting medium/system（媒體／傳播方式）」的用法，與本句語境不同。",
-        "television-mcq-03": "「透過電視平台播出的節目和影音內容的總稱」是「television / TV = programmes/content collectively（節目內容）」的用法，與本句語境不同。",
-        "television-mcq-04": "「製作、演出、管理和播放電視內容的整個行業」是「television / TV = television industry（行業）」的用法，與本句語境不同。",
-        "television-mcq-05": "「媒體／節目／職業時，表示電視……；與電視有關的……」是「TV + noun（媒體／節目／職業）」的用法，與本句語境不同。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。"
+        "television-mcq-01": "本句的「television」指「用來顯示電視節目、影片和其他影音內容的電子設備」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-01"
     },
@@ -280,11 +272,7 @@ export default {
       "masked": "The ____ is mounted on the wall.",
       "options": [
         "television-mcq-01",
-        "television-mcq-02",
-        "television-mcq-03",
-        "television-mcq-04",
-        "television-mcq-05",
-        "television-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「TV」指「用來顯示電視節目、影片和其他影音內容的電子設備」。",
       "sentenceIndex": 1,
@@ -293,12 +281,8 @@ export default {
         "TV"
       ],
       "optionReasons": {
-        "television-mcq-01": "本句指「用來顯示電視節目、影片和其他影音內容的電子設備」。",
-        "television-mcq-02": "「以影音形式向大眾傳送節目和資訊的電視傳播媒體」是「television / TV = broadcasting medium/system（媒體／傳播方式）」的用法，與本句語境不同。",
-        "television-mcq-03": "「透過電視平台播出的節目和影音內容的總稱」是「television / TV = programmes/content collectively（節目內容）」的用法，與本句語境不同。",
-        "television-mcq-04": "「製作、演出、管理和播放電視內容的整個行業」是「television / TV = television industry（行業）」的用法，與本句語境不同。",
-        "television-mcq-05": "「媒體／節目／職業時，表示電視……；與電視有關的……」是「TV + noun（媒體／節目／職業）」的用法，與本句語境不同。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。"
+        "television-mcq-01": "本句的「TV」指「用來顯示電視節目、影片和其他影音內容的電子設備」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-01"
     },
@@ -310,11 +294,7 @@ export default {
       "masked": "The event was shown live on ____.",
       "options": [
         "television-mcq-02",
-        "television-mcq-01",
-        "television-mcq-03",
-        "television-mcq-04",
-        "television-mcq-05",
-        "television-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「television」指「以影音形式向大眾傳送節目和資訊的電視傳播媒體」。",
       "sentenceIndex": 2,
@@ -323,12 +303,8 @@ export default {
         "television"
       ],
       "optionReasons": {
-        "television-mcq-02": "本句指「以影音形式向大眾傳送節目和資訊的電視傳播媒體」。",
-        "television-mcq-01": "「用來顯示電視節目、影片和其他影音內容的電子設備」是「television / TV = electronic device（電器）」的用法，與本句語境不同。",
-        "television-mcq-03": "「透過電視平台播出的節目和影音內容的總稱」是「television / TV = programmes/content collectively（節目內容）」的用法，與本句語境不同。",
-        "television-mcq-04": "「製作、演出、管理和播放電視內容的整個行業」是「television / TV = television industry（行業）」的用法，與本句語境不同。",
-        "television-mcq-05": "「媒體／節目／職業時，表示電視……；與電視有關的……」是「TV + noun（媒體／節目／職業）」的用法，與本句語境不同。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。"
+        "television-mcq-02": "本句的「television」指「以影音形式向大眾傳送節目和資訊的電視傳播媒體」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-02"
     },
@@ -340,11 +316,7 @@ export default {
       "masked": "Advertising on ____ can reach a very large audience.",
       "options": [
         "television-mcq-02",
-        "television-mcq-01",
-        "television-mcq-03",
-        "television-mcq-04",
-        "television-mcq-05",
-        "television-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「TV」指「以影音形式向大眾傳送節目和資訊的電視傳播媒體」。",
       "sentenceIndex": 3,
@@ -353,12 +325,8 @@ export default {
         "TV"
       ],
       "optionReasons": {
-        "television-mcq-02": "本句指「以影音形式向大眾傳送節目和資訊的電視傳播媒體」。",
-        "television-mcq-01": "「用來顯示電視節目、影片和其他影音內容的電子設備」是「television / TV = electronic device（電器）」的用法，與本句語境不同。",
-        "television-mcq-03": "「透過電視平台播出的節目和影音內容的總稱」是「television / TV = programmes/content collectively（節目內容）」的用法，與本句語境不同。",
-        "television-mcq-04": "「製作、演出、管理和播放電視內容的整個行業」是「television / TV = television industry（行業）」的用法，與本句語境不同。",
-        "television-mcq-05": "「媒體／節目／職業時，表示電視……；與電視有關的……」是「TV + noun（媒體／節目／職業）」的用法，與本句語境不同。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。"
+        "television-mcq-02": "本句的「TV」指「以影音形式向大眾傳送節目和資訊的電視傳播媒體」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-02"
     },
@@ -370,11 +338,7 @@ export default {
       "masked": "I was watching ____ late at night.",
       "options": [
         "television-mcq-03",
-        "television-mcq-02",
-        "television-mcq-04",
-        "television-mcq-01",
-        "television-mcq-05",
-        "television-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「television」指「透過電視平台播出的節目和影音內容的總稱」。",
       "sentenceIndex": 4,
@@ -383,12 +347,8 @@ export default {
         "television"
       ],
       "optionReasons": {
-        "television-mcq-03": "本句指「透過電視平台播出的節目和影音內容的總稱」。",
-        "television-mcq-02": "「以影音形式向大眾傳送節目和資訊的電視傳播媒體」是「television / TV = broadcasting medium/system（媒體／傳播方式）」的用法，與本句語境不同。",
-        "television-mcq-04": "「製作、演出、管理和播放電視內容的整個行業」是「television / TV = television industry（行業）」的用法，與本句語境不同。",
-        "television-mcq-01": "「用來顯示電視節目、影片和其他影音內容的電子設備」是「television / TV = electronic device（電器）」的用法，與本句語境不同。",
-        "television-mcq-05": "「媒體／節目／職業時，表示電視……；與電視有關的……」是「TV + noun（媒體／節目／職業）」的用法，與本句語境不同。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。"
+        "television-mcq-03": "本句的「television」指「透過電視平台播出的節目和影音內容的總稱」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-03"
     },
@@ -400,11 +360,7 @@ export default {
       "masked": "There isn’t much good ____ on tonight.",
       "options": [
         "television-mcq-03",
-        "television-mcq-02",
-        "television-mcq-04",
-        "television-mcq-01",
-        "television-mcq-05",
-        "television-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「TV」指「透過電視平台播出的節目和影音內容的總稱」。",
       "sentenceIndex": 5,
@@ -413,12 +369,8 @@ export default {
         "TV"
       ],
       "optionReasons": {
-        "television-mcq-03": "本句指「透過電視平台播出的節目和影音內容的總稱」。",
-        "television-mcq-02": "「以影音形式向大眾傳送節目和資訊的電視傳播媒體」是「television / TV = broadcasting medium/system（媒體／傳播方式）」的用法，與本句語境不同。",
-        "television-mcq-04": "「製作、演出、管理和播放電視內容的整個行業」是「television / TV = television industry（行業）」的用法，與本句語境不同。",
-        "television-mcq-01": "「用來顯示電視節目、影片和其他影音內容的電子設備」是「television / TV = electronic device（電器）」的用法，與本句語境不同。",
-        "television-mcq-05": "「媒體／節目／職業時，表示電視……；與電視有關的……」是「TV + noun（媒體／節目／職業）」的用法，與本句語境不同。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。"
+        "television-mcq-03": "本句的「TV」指「透過電視平台播出的節目和影音內容的總稱」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-03"
     },
@@ -430,11 +382,7 @@ export default {
       "masked": "She watches very little ____.",
       "options": [
         "television-mcq-03",
-        "television-mcq-02",
-        "television-mcq-04",
-        "television-mcq-01",
-        "television-mcq-05",
-        "television-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「television」指「透過電視平台播出的節目和影音內容的總稱」。",
       "sentenceIndex": 6,
@@ -443,12 +391,8 @@ export default {
         "television"
       ],
       "optionReasons": {
-        "television-mcq-03": "本句指「透過電視平台播出的節目和影音內容的總稱」。",
-        "television-mcq-02": "「以影音形式向大眾傳送節目和資訊的電視傳播媒體」是「television / TV = broadcasting medium/system（媒體／傳播方式）」的用法，與本句語境不同。",
-        "television-mcq-04": "「製作、演出、管理和播放電視內容的整個行業」是「television / TV = television industry（行業）」的用法，與本句語境不同。",
-        "television-mcq-01": "「用來顯示電視節目、影片和其他影音內容的電子設備」是「television / TV = electronic device（電器）」的用法，與本句語境不同。",
-        "television-mcq-05": "「媒體／節目／職業時，表示電視……；與電視有關的……」是「TV + noun（媒體／節目／職業）」的用法，與本句語境不同。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。"
+        "television-mcq-03": "本句的「television」指「透過電視平台播出的節目和影音內容的總稱」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-03"
     },
@@ -460,11 +404,7 @@ export default {
       "masked": "She has worked in ____ for twenty years.",
       "options": [
         "television-mcq-04",
-        "television-mcq-03",
-        "television-mcq-05",
-        "television-mcq-02",
-        "television-mcq-06",
-        "television-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「television」指「製作、演出、管理和播放電視內容的整個行業」。",
       "sentenceIndex": 7,
@@ -473,12 +413,8 @@ export default {
         "television"
       ],
       "optionReasons": {
-        "television-mcq-04": "本句指「製作、演出、管理和播放電視內容的整個行業」。",
-        "television-mcq-03": "「透過電視平台播出的節目和影音內容的總稱」是「television / TV = programmes/content collectively（節目內容）」的用法，與本句語境不同。",
-        "television-mcq-05": "「媒體／節目／職業時，表示電視……；與電視有關的……」是「TV + noun（媒體／節目／職業）」的用法，與本句語境不同。",
-        "television-mcq-02": "「以影音形式向大眾傳送節目和資訊的電視傳播媒體」是「television / TV = broadcasting medium/system（媒體／傳播方式）」的用法，與本句語境不同。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。",
-        "television-mcq-01": "「用來顯示電視節目、影片和其他影音內容的電子設備」是「television / TV = electronic device（電器）」的用法，與本句語境不同。"
+        "television-mcq-04": "本句的「television」指「製作、演出、管理和播放電視內容的整個行業」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-04"
     },
@@ -490,11 +426,7 @@ export default {
       "masked": "He wants a career in ____.",
       "options": [
         "television-mcq-04",
-        "television-mcq-03",
-        "television-mcq-05",
-        "television-mcq-02",
-        "television-mcq-06",
-        "television-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「TV」指「製作、演出、管理和播放電視內容的整個行業」。",
       "sentenceIndex": 8,
@@ -503,12 +435,8 @@ export default {
         "TV"
       ],
       "optionReasons": {
-        "television-mcq-04": "本句指「製作、演出、管理和播放電視內容的整個行業」。",
-        "television-mcq-03": "「透過電視平台播出的節目和影音內容的總稱」是「television / TV = programmes/content collectively（節目內容）」的用法，與本句語境不同。",
-        "television-mcq-05": "「媒體／節目／職業時，表示電視……；與電視有關的……」是「TV + noun（媒體／節目／職業）」的用法，與本句語境不同。",
-        "television-mcq-02": "「以影音形式向大眾傳送節目和資訊的電視傳播媒體」是「television / TV = broadcasting medium/system（媒體／傳播方式）」的用法，與本句語境不同。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。",
-        "television-mcq-01": "「用來顯示電視節目、影片和其他影音內容的電子設備」是「television / TV = electronic device（電器）」的用法，與本句語境不同。"
+        "television-mcq-04": "本句的「TV」指「製作、演出、管理和播放電視內容的整個行業」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-04"
     },
@@ -520,11 +448,7 @@ export default {
       "masked": "It was a ____ for headphones.",
       "options": [
         "television-mcq-05",
-        "television-mcq-04",
-        "television-mcq-06",
-        "television-mcq-03",
-        "television-mcq-07",
-        "television-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「TV commercial」指「媒體／節目／職業時，表示電視……；與電視有關的……」。",
       "sentenceIndex": 9,
@@ -533,12 +457,8 @@ export default {
         "TV commercial"
       ],
       "optionReasons": {
-        "television-mcq-05": "本句指「媒體／節目／職業時，表示電視……；與電視有關的……」。",
-        "television-mcq-04": "「製作、演出、管理和播放電視內容的整個行業」是「television / TV = television industry（行業）」的用法，與本句語境不同。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。",
-        "television-mcq-03": "「透過電視平台播出的節目和影音內容的總稱」是「television / TV = programmes/content collectively（節目內容）」的用法，與本句語境不同。",
-        "television-mcq-07": "「透過電視媒體播放／轉播某項活動或內容」是「televise + event/programme（事件／節目）」的用法，與本句語境不同。",
-        "television-mcq-02": "「以影音形式向大眾傳送節目和資訊的電視傳播媒體」是「television / TV = broadcasting medium/system（媒體／傳播方式）」的用法，與本句語境不同。"
+        "television-mcq-05": "本句的「TV commercial」指「媒體／節目／職業時，表示電視……；與電視有關的……」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-05"
     },
@@ -550,11 +470,7 @@ export default {
       "masked": "She is a well-known ____.",
       "options": [
         "television-mcq-05",
-        "television-mcq-04",
-        "television-mcq-06",
-        "television-mcq-03",
-        "television-mcq-07",
-        "television-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「TV presenter」指「媒體／節目／職業時，表示電視……；與電視有關的……」。",
       "sentenceIndex": 10,
@@ -563,12 +479,8 @@ export default {
         "TV presenter"
       ],
       "optionReasons": {
-        "television-mcq-05": "本句指「媒體／節目／職業時，表示電視……；與電視有關的……」。",
-        "television-mcq-04": "「製作、演出、管理和播放電視內容的整個行業」是「television / TV = television industry（行業）」的用法，與本句語境不同。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。",
-        "television-mcq-03": "「透過電視平台播出的節目和影音內容的總稱」是「television / TV = programmes/content collectively（節目內容）」的用法，與本句語境不同。",
-        "television-mcq-07": "「透過電視媒體播放／轉播某項活動或內容」是「televise + event/programme（事件／節目）」的用法，與本句語境不同。",
-        "television-mcq-02": "「以影音形式向大眾傳送節目和資訊的電視傳播媒體」是「television / TV = broadcasting medium/system（媒體／傳播方式）」的用法，與本句語境不同。"
+        "television-mcq-05": "本句的「TV presenter」指「媒體／節目／職業時，表示電視……；與電視有關的……」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-05"
     },
@@ -580,11 +492,7 @@ export default {
       "masked": "The hotel room has a large ____.",
       "options": [
         "television-mcq-06",
-        "television-mcq-05",
-        "television-mcq-07",
-        "television-mcq-04",
-        "television-mcq-08",
-        "television-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「television set」指「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」。",
       "sentenceIndex": 11,
@@ -593,12 +501,8 @@ export default {
         "television set"
       ],
       "optionReasons": {
-        "television-mcq-06": "本句指「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」。",
-        "television-mcq-05": "「媒體／節目／職業時，表示電視……；與電視有關的……」是「TV + noun（媒體／節目／職業）」的用法，與本句語境不同。",
-        "television-mcq-07": "「透過電視媒體播放／轉播某項活動或內容」是「televise + event/programme（事件／節目）」的用法，與本句語境不同。",
-        "television-mcq-04": "「製作、演出、管理和播放電視內容的整個行業」是「television / TV = television industry（行業）」的用法，與本句語境不同。",
-        "television-mcq-08": "「已被安排透過電視媒體播放／轉播的」是「televised = shown/broadcast on television」的用法，與本句語境不同。",
-        "television-mcq-03": "「透過電視平台播出的節目和影音內容的總稱」是「television / TV = programmes/content collectively（節目內容）」的用法，與本句語境不同。"
+        "television-mcq-06": "本句的「television set」指「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-06"
     },
@@ -610,11 +514,7 @@ export default {
       "masked": "Older ____ were much heavier.",
       "options": [
         "television-mcq-06",
-        "television-mcq-05",
-        "television-mcq-07",
-        "television-mcq-04",
-        "television-mcq-08",
-        "television-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「television sets」指「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」。",
       "sentenceIndex": 12,
@@ -623,12 +523,8 @@ export default {
         "television sets"
       ],
       "optionReasons": {
-        "television-mcq-06": "本句指「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」。",
-        "television-mcq-05": "「媒體／節目／職業時，表示電視……；與電視有關的……」是「TV + noun（媒體／節目／職業）」的用法，與本句語境不同。",
-        "television-mcq-07": "「透過電視媒體播放／轉播某項活動或內容」是「televise + event/programme（事件／節目）」的用法，與本句語境不同。",
-        "television-mcq-04": "「製作、演出、管理和播放電視內容的整個行業」是「television / TV = television industry（行業）」的用法，與本句語境不同。",
-        "television-mcq-08": "「已被安排透過電視媒體播放／轉播的」是「televised = shown/broadcast on television」的用法，與本句語境不同。",
-        "television-mcq-03": "「透過電視平台播出的節目和影音內容的總稱」是「television / TV = programmes/content collectively（節目內容）」的用法，與本句語境不同。"
+        "television-mcq-06": "本句的「television sets」指「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-06"
     },
@@ -640,11 +536,7 @@ export default {
       "masked": "The match will be ____ live.",
       "options": [
         "television-mcq-07",
-        "television-mcq-06",
-        "television-mcq-08",
-        "television-mcq-05",
-        "television-mcq-09",
-        "television-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「televised」指「透過電視媒體播放／轉播某項活動或內容」。",
       "sentenceIndex": 13,
@@ -653,12 +545,8 @@ export default {
         "televised"
       ],
       "optionReasons": {
-        "television-mcq-07": "本句指「透過電視媒體播放／轉播某項活動或內容」。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。",
-        "television-mcq-08": "「已被安排透過電視媒體播放／轉播的」是「televised = shown/broadcast on television」的用法，與本句語境不同。",
-        "television-mcq-05": "「媒體／節目／職業時，表示電視……；與電視有關的……」是「TV + noun（媒體／節目／職業）」的用法，與本句語境不同。",
-        "television-mcq-09": "「正在透過電視播出某項內容」是「televising = broadcasting something on television」的用法，與本句語境不同。",
-        "television-mcq-04": "「製作、演出、管理和播放電視內容的整個行業」是「television / TV = television industry（行業）」的用法，與本句語境不同。"
+        "television-mcq-07": "本句的「televised」指「透過電視媒體播放／轉播某項活動或內容」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-07"
     },
@@ -670,11 +558,7 @@ export default {
       "masked": "The ceremony was ____ around the world.",
       "options": [
         "television-mcq-07",
-        "television-mcq-06",
-        "television-mcq-08",
-        "television-mcq-05",
-        "television-mcq-09",
-        "television-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「televised」指「透過電視媒體播放／轉播某項活動或內容」。",
       "sentenceIndex": 14,
@@ -683,12 +567,8 @@ export default {
         "televised"
       ],
       "optionReasons": {
-        "television-mcq-07": "本句指「透過電視媒體播放／轉播某項活動或內容」。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。",
-        "television-mcq-08": "「已被安排透過電視媒體播放／轉播的」是「televised = shown/broadcast on television」的用法，與本句語境不同。",
-        "television-mcq-05": "「媒體／節目／職業時，表示電視……；與電視有關的……」是「TV + noun（媒體／節目／職業）」的用法，與本句語境不同。",
-        "television-mcq-09": "「正在透過電視播出某項內容」是「televising = broadcasting something on television」的用法，與本句語境不同。",
-        "television-mcq-04": "「製作、演出、管理和播放電視內容的整個行業」是「television / TV = television industry（行業）」的用法，與本句語境不同。"
+        "television-mcq-07": "本句的「televised」指「透過電視媒體播放／轉播某項活動或內容」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-07"
     },
@@ -700,11 +580,7 @@ export default {
       "masked": "It was a ____ debate.",
       "options": [
         "television-mcq-08",
-        "television-mcq-07",
-        "television-mcq-09",
-        "television-mcq-06",
-        "television-mcq-10",
-        "television-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「televised」指「已被安排透過電視媒體播放／轉播的」。",
       "sentenceIndex": 15,
@@ -713,12 +589,8 @@ export default {
         "televised"
       ],
       "optionReasons": {
-        "television-mcq-08": "本句指「已被安排透過電視媒體播放／轉播的」。",
-        "television-mcq-07": "「透過電視媒體播放／轉播某項活動或內容」是「televise + event/programme（事件／節目）」的用法，與本句語境不同。",
-        "television-mcq-09": "「正在透過電視播出某項內容」是「televising = broadcasting something on television」的用法，與本句語境不同。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。",
-        "television-mcq-10": "「與電視這種視覺媒體的形式、風格或文化有關的」是「televisual = relating to the visual language/qualities of television」的用法，與本句語境不同。",
-        "television-mcq-05": "「媒體／節目／職業時，表示電視……；與電視有關的……」是「TV + noun（媒體／節目／職業）」的用法，與本句語境不同。"
+        "television-mcq-08": "本句的「televised」指「已被安排透過電視媒體播放／轉播的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-08"
     },
@@ -730,11 +602,7 @@ export default {
       "masked": "The event attracted a huge ____.",
       "options": [
         "television-mcq-08",
-        "television-mcq-07",
-        "television-mcq-09",
-        "television-mcq-06",
-        "television-mcq-10",
-        "television-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「televised audience」指「已被安排透過電視媒體播放／轉播的」。",
       "sentenceIndex": 16,
@@ -743,12 +611,8 @@ export default {
         "televised audience"
       ],
       "optionReasons": {
-        "television-mcq-08": "本句指「已被安排透過電視媒體播放／轉播的」。",
-        "television-mcq-07": "「透過電視媒體播放／轉播某項活動或內容」是「televise + event/programme（事件／節目）」的用法，與本句語境不同。",
-        "television-mcq-09": "「正在透過電視播出某項內容」是「televising = broadcasting something on television」的用法，與本句語境不同。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。",
-        "television-mcq-10": "「與電視這種視覺媒體的形式、風格或文化有關的」是「televisual = relating to the visual language/qualities of television」的用法，與本句語境不同。",
-        "television-mcq-05": "「媒體／節目／職業時，表示電視……；與電視有關的……」是「TV + noun（媒體／節目／職業）」的用法，與本句語境不同。"
+        "television-mcq-08": "本句的「televised audience」指「已被安排透過電視媒體播放／轉播的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-08"
     },
@@ -760,11 +624,7 @@ export default {
       "masked": "Several networks are ____ the event.",
       "options": [
         "television-mcq-09",
-        "television-mcq-08",
-        "television-mcq-10",
-        "television-mcq-07",
-        "television-mcq-11",
-        "television-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「televising」指「正在透過電視播出某項內容」。",
       "sentenceIndex": 17,
@@ -773,12 +633,8 @@ export default {
         "televising"
       ],
       "optionReasons": {
-        "television-mcq-09": "本句指「正在透過電視播出某項內容」。",
-        "television-mcq-08": "「已被安排透過電視媒體播放／轉播的」是「televised = shown/broadcast on television」的用法，與本句語境不同。",
-        "television-mcq-10": "「與電視這種視覺媒體的形式、風格或文化有關的」是「televisual = relating to the visual language/qualities of television」的用法，與本句語境不同。",
-        "television-mcq-07": "「透過電視媒體播放／轉播某項活動或內容」是「televise + event/programme（事件／節目）」的用法，與本句語境不同。",
-        "television-mcq-11": "「在此語境中表示電視轉播；電視廣播」是「telecast = television broadcast / broadcast on television」的用法，與本句語境不同。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。"
+        "television-mcq-09": "本句的「televising」指「正在透過電視播出某項內容」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-09"
     },
@@ -790,11 +646,7 @@ export default {
       "masked": "The channel began ____ the series last month.",
       "options": [
         "television-mcq-09",
-        "television-mcq-08",
-        "television-mcq-10",
-        "television-mcq-07",
-        "television-mcq-11",
-        "television-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「televising」指「正在透過電視播出某項內容」。",
       "sentenceIndex": 18,
@@ -803,12 +655,8 @@ export default {
         "televising"
       ],
       "optionReasons": {
-        "television-mcq-09": "本句指「正在透過電視播出某項內容」。",
-        "television-mcq-08": "「已被安排透過電視媒體播放／轉播的」是「televised = shown/broadcast on television」的用法，與本句語境不同。",
-        "television-mcq-10": "「與電視這種視覺媒體的形式、風格或文化有關的」是「televisual = relating to the visual language/qualities of television」的用法，與本句語境不同。",
-        "television-mcq-07": "「透過電視媒體播放／轉播某項活動或內容」是「televise + event/programme（事件／節目）」的用法，與本句語境不同。",
-        "television-mcq-11": "「在此語境中表示電視轉播；電視廣播」是「telecast = television broadcast / broadcast on television」的用法，與本句語境不同。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。"
+        "television-mcq-09": "本句的「televising」指「正在透過電視播出某項內容」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-09"
     },
@@ -820,11 +668,7 @@ export default {
       "masked": "The programme has a distinctive ____ style.",
       "options": [
         "television-mcq-10",
-        "television-mcq-09",
-        "television-mcq-11",
-        "television-mcq-08",
-        "television-mcq-07",
-        "television-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「televisual」指「與電視這種視覺媒體的形式、風格或文化有關的」。",
       "sentenceIndex": 19,
@@ -833,12 +677,8 @@ export default {
         "televisual"
       ],
       "optionReasons": {
-        "television-mcq-10": "本句指「與電視這種視覺媒體的形式、風格或文化有關的」。",
-        "television-mcq-09": "「正在透過電視播出某項內容」是「televising = broadcasting something on television」的用法，與本句語境不同。",
-        "television-mcq-11": "「在此語境中表示電視轉播；電視廣播」是「telecast = television broadcast / broadcast on television」的用法，與本句語境不同。",
-        "television-mcq-08": "「已被安排透過電視媒體播放／轉播的」是「televised = shown/broadcast on television」的用法，與本句語境不同。",
-        "television-mcq-07": "「透過電視媒體播放／轉播某項活動或內容」是「televise + event/programme（事件／節目）」的用法，與本句語境不同。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。"
+        "television-mcq-10": "本句的「televisual」指「與電視這種視覺媒體的形式、風格或文化有關的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-10"
     },
@@ -850,11 +690,7 @@ export default {
       "masked": "The article examines modern ____ culture.",
       "options": [
         "television-mcq-10",
-        "television-mcq-09",
-        "television-mcq-11",
-        "television-mcq-08",
-        "television-mcq-07",
-        "television-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「televisual」指「與電視這種視覺媒體的形式、風格或文化有關的」。",
       "sentenceIndex": 20,
@@ -863,12 +699,8 @@ export default {
         "televisual"
       ],
       "optionReasons": {
-        "television-mcq-10": "本句指「與電視這種視覺媒體的形式、風格或文化有關的」。",
-        "television-mcq-09": "「正在透過電視播出某項內容」是「televising = broadcasting something on television」的用法，與本句語境不同。",
-        "television-mcq-11": "「在此語境中表示電視轉播；電視廣播」是「telecast = television broadcast / broadcast on television」的用法，與本句語境不同。",
-        "television-mcq-08": "「已被安排透過電視媒體播放／轉播的」是「televised = shown/broadcast on television」的用法，與本句語境不同。",
-        "television-mcq-07": "「透過電視媒體播放／轉播某項活動或內容」是「televise + event/programme（事件／節目）」的用法，與本句語境不同。",
-        "television-mcq-06": "「表示電視機（用法 6）；例句：「酒店房間裡有一部大型電視機。」」是「television set = physical television device」的用法，與本句語境不同。"
+        "television-mcq-10": "本句的「televisual」指「與電視這種視覺媒體的形式、風格或文化有關的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "television-mcq-10"
     }
@@ -880,5 +712,12 @@ export default {
     "sha256": "bc0d5aa9419ce8c75be3794acda4dcf126c0e1034b5e63aff368059ce6cc6d4d",
     "pages": 15
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

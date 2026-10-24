@@ -448,11 +448,9 @@ export default {
       "masked": "I began ____.",
       "options": [
         "wake-mcq-01",
-        "wake-mcq-02",
-        "wake-mcq-03",
-        "wake-mcq-04",
-        "wake-mcq-05",
-        "wake-mcq-06"
+        "wake-pdf-001",
+        "wake-mcq-10",
+        "wake-mcq-17"
       ],
       "explanation": "本句的「waking up earlier」指「醒來；起床」。",
       "sentenceIndex": 0,
@@ -461,12 +459,10 @@ export default {
         "waking up earlier"
       ],
       "optionReasons": {
-        "wake-mcq-01": "本句指「醒來；起床」。",
-        "wake-mcq-02": "「早醒」與本句語境不同。",
-        "wake-mcq-03": "「叫醒某人」與本句語境不同。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。"
+        "wake-mcq-01": "本句的「waking up earlier」指「醒來；起床」。",
+        "wake-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-01"
     },
@@ -478,11 +474,9 @@ export default {
       "masked": "I usually ____ at seven.",
       "options": [
         "wake-mcq-01",
-        "wake-mcq-02",
-        "wake-mcq-03",
-        "wake-mcq-04",
-        "wake-mcq-05",
-        "wake-mcq-06"
+        "wake-mcq-08",
+        "wake-mcq-10",
+        "wake-mcq-17"
       ],
       "explanation": "本句的「wake up」指「醒來；起床」。",
       "sentenceIndex": 1,
@@ -491,12 +485,10 @@ export default {
         "wake up"
       ],
       "optionReasons": {
-        "wake-mcq-01": "本句指「醒來；起床」。",
-        "wake-mcq-02": "「早醒」與本句語境不同。",
-        "wake-mcq-03": "「叫醒某人」與本句語境不同。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。"
+        "wake-mcq-01": "本句的「wake up」指「醒來；起床」。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-01"
     },
@@ -508,11 +500,9 @@ export default {
       "masked": "She ____ before the alarm went off.",
       "options": [
         "wake-mcq-01",
-        "wake-mcq-02",
-        "wake-mcq-03",
-        "wake-mcq-04",
-        "wake-mcq-05",
-        "wake-mcq-06"
+        "wake-pdf-001",
+        "wake-mcq-10",
+        "wake-mcq-18"
       ],
       "explanation": "本句的「woke up」指「醒來；起床」。",
       "sentenceIndex": 2,
@@ -521,12 +511,10 @@ export default {
         "woke up"
       ],
       "optionReasons": {
-        "wake-mcq-01": "本句指「醒來；起床」。",
-        "wake-mcq-02": "「早醒」與本句語境不同。",
-        "wake-mcq-03": "「叫醒某人」與本句語境不同。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。"
+        "wake-mcq-01": "本句的「woke up」指「醒來；起床」。",
+        "wake-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-01"
     },
@@ -538,11 +526,9 @@ export default {
       "masked": "I try to ____ on weekdays.",
       "options": [
         "wake-mcq-02",
-        "wake-mcq-01",
-        "wake-mcq-03",
-        "wake-mcq-04",
-        "wake-mcq-05",
-        "wake-mcq-06"
+        "wake-mcq-10",
+        "wake-mcq-16",
+        "wake-mcq-13"
       ],
       "explanation": "本句的「wake up early」指「早醒」。",
       "sentenceIndex": 3,
@@ -551,12 +537,10 @@ export default {
         "wake up early"
       ],
       "optionReasons": {
-        "wake-mcq-02": "本句指「早醒」。",
-        "wake-mcq-01": "「醒來；起床」與本句語境不同。",
-        "wake-mcq-03": "「叫醒某人」與本句語境不同。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。"
+        "wake-mcq-02": "本句的「wake up early」指「早醒」。",
+        "wake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-02"
     },
@@ -568,11 +552,9 @@ export default {
       "masked": "He ____ because he was nervous.",
       "options": [
         "wake-mcq-02",
-        "wake-mcq-01",
-        "wake-mcq-03",
-        "wake-mcq-04",
-        "wake-mcq-05",
-        "wake-mcq-06"
+        "wake-mcq-17",
+        "wake-mcq-08",
+        "wake-mcq-13"
       ],
       "explanation": "本句的「woke early」指「早醒」。",
       "sentenceIndex": 4,
@@ -581,12 +563,10 @@ export default {
         "woke early"
       ],
       "optionReasons": {
-        "wake-mcq-02": "本句指「早醒」。",
-        "wake-mcq-01": "「醒來；起床」與本句語境不同。",
-        "wake-mcq-03": "「叫醒某人」與本句語境不同。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。"
+        "wake-mcq-02": "本句的「woke early」指「早醒」。",
+        "wake-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-02"
     },
@@ -598,11 +578,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "wake-pdf-001",
-        "wake-mcq-01",
-        "wake-mcq-03",
-        "wake-mcq-04",
-        "wake-mcq-05",
-        "wake-mcq-06"
+        "wake-mcq-02",
+        "wake-mcq-13",
+        "wake-mcq-18"
       ],
       "explanation": "本句的「woke from a deep sleep」指「從睡眠狀態恢復意識」。",
       "sentenceIndex": 5,
@@ -611,12 +589,10 @@ export default {
         "woke from a deep sleep"
       ],
       "optionReasons": {
-        "wake-pdf-001": "本句指「從睡眠狀態恢復意識」。",
-        "wake-mcq-01": "「醒來；起床」與本句語境不同。",
-        "wake-mcq-03": "「叫醒某人」與本句語境不同。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。"
+        "wake-pdf-001": "本句的「woke from a deep sleep」指「從睡眠狀態恢復意識」。",
+        "wake-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-pdf-001"
     },
@@ -629,10 +605,8 @@ export default {
       "options": [
         "wake-pdf-001",
         "wake-mcq-01",
-        "wake-mcq-03",
-        "wake-mcq-04",
-        "wake-mcq-05",
-        "wake-mcq-06"
+        "wake-mcq-06",
+        "wake-mcq-13"
       ],
       "explanation": "本句的「woke from sleep」指「從睡眠狀態恢復意識」。",
       "sentenceIndex": 6,
@@ -641,12 +615,10 @@ export default {
         "woke from sleep"
       ],
       "optionReasons": {
-        "wake-pdf-001": "本句指「從睡眠狀態恢復意識」。",
-        "wake-mcq-01": "「醒來；起床」與本句語境不同。",
-        "wake-mcq-03": "「叫醒某人」與本句語境不同。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。"
+        "wake-pdf-001": "本句的「woke from sleep」指「從睡眠狀態恢復意識」。",
+        "wake-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-pdf-001"
     },
@@ -658,11 +630,9 @@ export default {
       "masked": "Please ____ at six.",
       "options": [
         "wake-mcq-03",
-        "wake-mcq-02",
-        "wake-mcq-04",
-        "wake-mcq-01",
-        "wake-mcq-05",
-        "wake-mcq-06"
+        "wake-mcq-13",
+        "wake-mcq-17",
+        "wake-mcq-08"
       ],
       "explanation": "本句的「wake me up」指「叫醒某人」。",
       "sentenceIndex": 7,
@@ -671,12 +641,10 @@ export default {
         "wake me up"
       ],
       "optionReasons": {
-        "wake-mcq-03": "本句指「叫醒某人」。",
-        "wake-mcq-02": "「早醒」與本句語境不同。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。",
-        "wake-mcq-01": "「醒來；起床」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。"
+        "wake-mcq-03": "本句的「wake me up」指「叫醒某人」。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-03"
     },
@@ -688,11 +656,9 @@ export default {
       "masked": "The noise ____.",
       "options": [
         "wake-mcq-03",
-        "wake-mcq-02",
-        "wake-mcq-04",
-        "wake-mcq-01",
-        "wake-mcq-05",
-        "wake-mcq-06"
+        "wake-mcq-18",
+        "wake-mcq-08",
+        "wake-mcq-16"
       ],
       "explanation": "本句的「woke the baby up」指「叫醒某人」。",
       "sentenceIndex": 8,
@@ -701,12 +667,10 @@ export default {
         "woke the baby up"
       ],
       "optionReasons": {
-        "wake-mcq-03": "本句指「叫醒某人」。",
-        "wake-mcq-02": "「早醒」與本句語境不同。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。",
-        "wake-mcq-01": "「醒來；起床」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。"
+        "wake-mcq-03": "本句的「woke the baby up」指「叫醒某人」。",
+        "wake-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-03"
     },
@@ -718,11 +682,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "wake-mcq-03",
-        "wake-mcq-02",
-        "wake-mcq-04",
-        "wake-mcq-01",
-        "wake-mcq-05",
-        "wake-mcq-06"
+        "wake-mcq-08",
+        "wake-mcq-13",
+        "wake-mcq-16"
       ],
       "explanation": "本句的「wake the children」指「叫醒某人」。",
       "sentenceIndex": 9,
@@ -731,12 +693,10 @@ export default {
         "wake the children"
       ],
       "optionReasons": {
-        "wake-mcq-03": "本句指「叫醒某人」。",
-        "wake-mcq-02": "「早醒」與本句語境不同。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。",
-        "wake-mcq-01": "「醒來；起床」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。"
+        "wake-mcq-03": "本句的「wake the children」指「叫醒某人」。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-03"
     },
@@ -748,11 +708,9 @@ export default {
       "masked": "The thunder ____ in the middle of the night.",
       "options": [
         "wake-mcq-03",
-        "wake-mcq-02",
-        "wake-mcq-04",
-        "wake-mcq-01",
-        "wake-mcq-05",
-        "wake-mcq-06"
+        "wake-mcq-08",
+        "wake-mcq-16",
+        "wake-mcq-13"
       ],
       "explanation": "本句的「woke me」指「叫醒某人」。",
       "sentenceIndex": 10,
@@ -761,12 +719,10 @@ export default {
         "woke me"
       ],
       "optionReasons": {
-        "wake-mcq-03": "本句指「叫醒某人」。",
-        "wake-mcq-02": "「早醒」與本句語境不同。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。",
-        "wake-mcq-01": "「醒來；起床」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。"
+        "wake-mcq-03": "本句的「woke me」指「叫醒某人」。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-03"
     },
@@ -778,11 +734,9 @@ export default {
       "masked": "I ____ after hearing a loud bang.",
       "options": [
         "wake-pdf-002",
-        "wake-mcq-02",
-        "wake-mcq-04",
-        "wake-mcq-01",
-        "wake-mcq-05",
-        "wake-mcq-06"
+        "wake-mcq-08",
+        "wake-mcq-18",
+        "wake-mcq-10"
       ],
       "explanation": "本句的「woke with a start」指「因突然受驚而猛然醒來」。",
       "sentenceIndex": 11,
@@ -791,12 +745,10 @@ export default {
         "woke with a start"
       ],
       "optionReasons": {
-        "wake-pdf-002": "本句指「因突然受驚而猛然醒來」。",
-        "wake-mcq-02": "「早醒」與本句語境不同。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。",
-        "wake-mcq-01": "「醒來；起床」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。"
+        "wake-pdf-002": "本句的「woke with a start」指「因突然受驚而猛然醒來」。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-pdf-002"
     },
@@ -808,11 +760,9 @@ export default {
       "masked": "She ____ from a bad dream.",
       "options": [
         "wake-pdf-002",
-        "wake-mcq-02",
-        "wake-mcq-04",
-        "wake-mcq-01",
-        "wake-mcq-05",
-        "wake-mcq-06"
+        "wake-mcq-18",
+        "wake-pdf-001",
+        "wake-mcq-10"
       ],
       "explanation": "本句的「woke with a start」指「因突然受驚而猛然醒來」。",
       "sentenceIndex": 12,
@@ -821,12 +771,10 @@ export default {
         "woke with a start"
       ],
       "optionReasons": {
-        "wake-pdf-002": "本句指「因突然受驚而猛然醒來」。",
-        "wake-mcq-02": "「早醒」與本句語境不同。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。",
-        "wake-mcq-01": "「醒來；起床」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。"
+        "wake-pdf-002": "本句的「woke with a start」指「因突然受驚而猛然醒來」。",
+        "wake-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wake-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-pdf-002"
     },
@@ -838,11 +786,9 @@ export default {
       "masked": "Are you still ____?",
       "options": [
         "wake-mcq-04",
-        "wake-mcq-03",
-        "wake-mcq-05",
-        "wake-mcq-02",
-        "wake-mcq-06",
-        "wake-mcq-01"
+        "wake-mcq-13",
+        "wake-mcq-10",
+        "wake-mcq-08"
       ],
       "explanation": "本句的「awake」指「醒着的」。",
       "sentenceIndex": 13,
@@ -851,12 +797,10 @@ export default {
         "awake"
       ],
       "optionReasons": {
-        "wake-mcq-04": "本句指「醒着的」。",
-        "wake-mcq-03": "「叫醒某人」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-02": "「早醒」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。",
-        "wake-mcq-01": "「醒來；起床」與本句語境不同。"
+        "wake-mcq-04": "本句的「awake」指「醒着的」。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-04"
     },
@@ -868,11 +812,9 @@ export default {
       "masked": "I was ____ at midnight.",
       "options": [
         "wake-mcq-04",
-        "wake-mcq-03",
-        "wake-mcq-05",
-        "wake-mcq-02",
-        "wake-mcq-06",
-        "wake-mcq-01"
+        "wake-mcq-16",
+        "wake-mcq-13",
+        "wake-mcq-10"
       ],
       "explanation": "本句的「wide awake」指「醒着的」。",
       "sentenceIndex": 14,
@@ -881,12 +823,10 @@ export default {
         "wide awake"
       ],
       "optionReasons": {
-        "wake-mcq-04": "本句指「醒着的」。",
-        "wake-mcq-03": "「叫醒某人」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-02": "「早醒」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。",
-        "wake-mcq-01": "「醒來；起床」與本句語境不同。"
+        "wake-mcq-04": "本句的「wide awake」指「醒着的」。",
+        "wake-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-04"
     },
@@ -898,11 +838,9 @@ export default {
       "masked": "I was ____ after drinking coffee.",
       "options": [
         "wake-mcq-05",
-        "wake-mcq-04",
-        "wake-mcq-06",
-        "wake-mcq-03",
-        "wake-mcq-07",
-        "wake-mcq-02"
+        "wake-mcq-18",
+        "wake-mcq-08",
+        "wake-mcq-16"
       ],
       "explanation": "本句的「wide awake」指「完全清醒」。",
       "sentenceIndex": 15,
@@ -911,12 +849,10 @@ export default {
         "wide awake"
       ],
       "optionReasons": {
-        "wake-mcq-05": "本句指「完全清醒」。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。",
-        "wake-mcq-03": "「叫醒某人」與本句語境不同。",
-        "wake-mcq-07": "「清醒時段」與本句語境不同。",
-        "wake-mcq-02": "「早醒」與本句語境不同。"
+        "wake-mcq-05": "本句的「wide awake」指「完全清醒」。",
+        "wake-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-05"
     },
@@ -928,11 +864,9 @@ export default {
       "masked": "The noise left me ____.",
       "options": [
         "wake-mcq-05",
-        "wake-mcq-04",
-        "wake-mcq-06",
-        "wake-mcq-03",
-        "wake-mcq-07",
-        "wake-mcq-02"
+        "wake-mcq-08",
+        "wake-mcq-16",
+        "wake-mcq-13"
       ],
       "explanation": "本句的「wide awake」指「完全清醒」。",
       "sentenceIndex": 16,
@@ -941,12 +875,10 @@ export default {
         "wide awake"
       ],
       "optionReasons": {
-        "wake-mcq-05": "本句指「完全清醒」。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。",
-        "wake-mcq-03": "「叫醒某人」與本句語境不同。",
-        "wake-mcq-07": "「清醒時段」與本句語境不同。",
-        "wake-mcq-02": "「早醒」與本句語境不同。"
+        "wake-mcq-05": "本句的「wide awake」指「完全清醒」。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-05"
     },
@@ -958,11 +890,9 @@ export default {
       "masked": "I struggled to ____ during the lecture.",
       "options": [
         "wake-mcq-06",
-        "wake-mcq-05",
-        "wake-mcq-07",
-        "wake-mcq-04",
-        "wake-mcq-08",
-        "wake-mcq-03"
+        "wake-mcq-18",
+        "wake-mcq-10",
+        "wake-mcq-16"
       ],
       "explanation": "本句的「stay awake」指「保持清醒」。",
       "sentenceIndex": 17,
@@ -971,12 +901,10 @@ export default {
         "stay awake"
       ],
       "optionReasons": {
-        "wake-mcq-06": "本句指「保持清醒」。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-07": "「清醒時段」與本句語境不同。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。",
-        "wake-mcq-08": "「開始意識到 X」與本句語境不同。",
-        "wake-mcq-03": "「叫醒某人」與本句語境不同。"
+        "wake-mcq-06": "本句的「stay awake」指「保持清醒」。",
+        "wake-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-06"
     },
@@ -988,11 +916,9 @@ export default {
       "masked": "Coffee helped me ____.",
       "options": [
         "wake-mcq-06",
-        "wake-mcq-05",
-        "wake-mcq-07",
-        "wake-mcq-04",
-        "wake-mcq-08",
-        "wake-mcq-03"
+        "wake-mcq-16",
+        "wake-mcq-13",
+        "wake-pdf-001"
       ],
       "explanation": "本句的「stay awake」指「保持清醒」。",
       "sentenceIndex": 18,
@@ -1001,12 +927,10 @@ export default {
         "stay awake"
       ],
       "optionReasons": {
-        "wake-mcq-06": "本句指「保持清醒」。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-07": "「清醒時段」與本句語境不同。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。",
-        "wake-mcq-08": "「開始意識到 X」與本句語境不同。",
-        "wake-mcq-03": "「叫醒某人」與本句語境不同。"
+        "wake-mcq-06": "本句的「stay awake」指「保持清醒」。",
+        "wake-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wake-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-06"
     },
@@ -1018,11 +942,9 @@ export default {
       "masked": "I spend most of my ____ at work.",
       "options": [
         "wake-mcq-07",
-        "wake-mcq-06",
+        "wake-mcq-17",
         "wake-mcq-08",
-        "wake-mcq-05",
-        "wake-mcq-09",
-        "wake-mcq-04"
+        "wake-mcq-18"
       ],
       "explanation": "本句的「waking hours」指「清醒時段」。",
       "sentenceIndex": 19,
@@ -1031,12 +953,10 @@ export default {
         "waking hours"
       ],
       "optionReasons": {
-        "wake-mcq-07": "本句指「清醒時段」。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。",
-        "wake-mcq-08": "「開始意識到 X」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-09": "「使某人醒覺到 X」與本句語境不同。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。"
+        "wake-mcq-07": "本句的「waking hours」指「清醒時段」。",
+        "wake-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-07"
     },
@@ -1048,11 +968,9 @@ export default {
       "masked": "During his ____, he was constantly checking messages.",
       "options": [
         "wake-mcq-07",
-        "wake-mcq-06",
+        "wake-mcq-13",
         "wake-mcq-08",
-        "wake-mcq-05",
-        "wake-mcq-09",
-        "wake-mcq-04"
+        "wake-mcq-10"
       ],
       "explanation": "本句的「waking hours」指「清醒時段」。",
       "sentenceIndex": 20,
@@ -1061,12 +979,10 @@ export default {
         "waking hours"
       ],
       "optionReasons": {
-        "wake-mcq-07": "本句指「清醒時段」。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。",
-        "wake-mcq-08": "「開始意識到 X」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。",
-        "wake-mcq-09": "「使某人醒覺到 X」與本句語境不同。",
-        "wake-mcq-04": "「醒着的」與本句語境不同。"
+        "wake-mcq-07": "本句的「waking hours」指「清醒時段」。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-07"
     },
@@ -1078,11 +994,9 @@ export default {
       "masked": "He finally ____.",
       "options": [
         "wake-mcq-08",
-        "wake-mcq-07",
+        "wake-mcq-18",
         "wake-mcq-09",
-        "wake-mcq-06",
-        "wake-mcq-10",
-        "wake-mcq-05"
+        "wake-mcq-10"
       ],
       "explanation": "本句的「woke up to the seriousness of the problem」指「開始意識到 X」。",
       "sentenceIndex": 21,
@@ -1091,12 +1005,10 @@ export default {
         "woke up to the seriousness of the problem"
       ],
       "optionReasons": {
-        "wake-mcq-08": "本句指「開始意識到 X」。",
-        "wake-mcq-07": "「清醒時段」與本句語境不同。",
-        "wake-mcq-09": "「使某人醒覺到 X」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。",
-        "wake-mcq-10": "「當頭棒喝；警號」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。"
+        "wake-mcq-08": "本句的「woke up to the seriousness of the problem」指「開始意識到 X」。",
+        "wake-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-08"
     },
@@ -1108,11 +1020,9 @@ export default {
       "masked": "People are beginning to ____.",
       "options": [
         "wake-mcq-08",
-        "wake-mcq-07",
-        "wake-mcq-09",
-        "wake-mcq-06",
-        "wake-mcq-10",
-        "wake-mcq-05"
+        "wake-mcq-03",
+        "wake-mcq-18",
+        "wake-mcq-16"
       ],
       "explanation": "本句的「wake up to the risks」指「開始意識到 X」。",
       "sentenceIndex": 22,
@@ -1121,12 +1031,10 @@ export default {
         "wake up to the risks"
       ],
       "optionReasons": {
-        "wake-mcq-08": "本句指「開始意識到 X」。",
-        "wake-mcq-07": "「清醒時段」與本句語境不同。",
-        "wake-mcq-09": "「使某人醒覺到 X」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。",
-        "wake-mcq-10": "「當頭棒喝；警號」與本句語境不同。",
-        "wake-mcq-05": "「完全清醒」與本句語境不同。"
+        "wake-mcq-08": "本句的「wake up to the risks」指「開始意識到 X」。",
+        "wake-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-08"
     },
@@ -1138,11 +1046,9 @@ export default {
       "masked": "The experience ____.",
       "options": [
         "wake-mcq-09",
+        "wake-mcq-18",
         "wake-mcq-08",
-        "wake-mcq-10",
-        "wake-mcq-07",
-        "wake-mcq-11",
-        "wake-mcq-06"
+        "wake-mcq-17"
       ],
       "explanation": "本句的「woke me up to how badly I was managing my time」指「使某人醒覺到 X」。",
       "sentenceIndex": 23,
@@ -1151,12 +1057,10 @@ export default {
         "woke me up to how badly I was managing my time"
       ],
       "optionReasons": {
-        "wake-mcq-09": "本句指「使某人醒覺到 X」。",
-        "wake-mcq-08": "「開始意識到 X」與本句語境不同。",
-        "wake-mcq-10": "「當頭棒喝；警號」與本句語境不同。",
-        "wake-mcq-07": "「清醒時段」與本句語境不同。",
-        "wake-mcq-11": "「叫醒電話」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。"
+        "wake-mcq-09": "本句的「woke me up to how badly I was managing my time」指「使某人醒覺到 X」。",
+        "wake-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-09"
     },
@@ -1168,11 +1072,9 @@ export default {
       "masked": "The mistake ____.",
       "options": [
         "wake-mcq-09",
-        "wake-mcq-08",
+        "wake-mcq-17",
         "wake-mcq-10",
-        "wake-mcq-07",
-        "wake-mcq-11",
-        "wake-mcq-06"
+        "wake-mcq-13"
       ],
       "explanation": "本句的「woke the team up to the need for better planning」指「使某人醒覺到 X」。",
       "sentenceIndex": 24,
@@ -1181,12 +1083,10 @@ export default {
         "woke the team up to the need for better planning"
       ],
       "optionReasons": {
-        "wake-mcq-09": "本句指「使某人醒覺到 X」。",
-        "wake-mcq-08": "「開始意識到 X」與本句語境不同。",
-        "wake-mcq-10": "「當頭棒喝；警號」與本句語境不同。",
-        "wake-mcq-07": "「清醒時段」與本句語境不同。",
-        "wake-mcq-11": "「叫醒電話」與本句語境不同。",
-        "wake-mcq-06": "「保持清醒」與本句語境不同。"
+        "wake-mcq-09": "本句的「woke the team up to the need for better planning」指「使某人醒覺到 X」。",
+        "wake-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-09"
     },
@@ -1198,11 +1098,9 @@ export default {
       "masked": "Missing the deadline was a ____.",
       "options": [
         "wake-mcq-10",
-        "wake-mcq-09",
-        "wake-mcq-11",
-        "wake-mcq-08",
         "wake-mcq-12",
-        "wake-mcq-07"
+        "wake-pdf-001",
+        "wake-mcq-16"
       ],
       "explanation": "本句的「wake-up call」指「當頭棒喝；警號」。",
       "sentenceIndex": 25,
@@ -1211,12 +1109,10 @@ export default {
         "wake-up call"
       ],
       "optionReasons": {
-        "wake-mcq-10": "本句指「當頭棒喝；警號」。",
-        "wake-mcq-09": "「使某人醒覺到 X」與本句語境不同。",
-        "wake-mcq-11": "「叫醒電話」與本句語境不同。",
-        "wake-mcq-08": "「開始意識到 X」與本句語境不同。",
-        "wake-mcq-12": "「覺醒；醒悟」與本句語境不同。",
-        "wake-mcq-07": "「清醒時段」與本句語境不同。"
+        "wake-mcq-10": "本句的「wake-up call」指「當頭棒喝；警號」。",
+        "wake-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wake-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-10"
     },
@@ -1228,11 +1124,9 @@ export default {
       "masked": "The poor result gave him a ____.",
       "options": [
         "wake-mcq-10",
-        "wake-mcq-09",
-        "wake-mcq-11",
-        "wake-mcq-08",
-        "wake-mcq-12",
-        "wake-mcq-07"
+        "wake-mcq-05",
+        "wake-mcq-18",
+        "wake-mcq-16"
       ],
       "explanation": "本句的「wake-up call」指「當頭棒喝；警號」。",
       "sentenceIndex": 26,
@@ -1241,12 +1135,10 @@ export default {
         "wake-up call"
       ],
       "optionReasons": {
-        "wake-mcq-10": "本句指「當頭棒喝；警號」。",
-        "wake-mcq-09": "「使某人醒覺到 X」與本句語境不同。",
-        "wake-mcq-11": "「叫醒電話」與本句語境不同。",
-        "wake-mcq-08": "「開始意識到 X」與本句語境不同。",
-        "wake-mcq-12": "「覺醒；醒悟」與本句語境不同。",
-        "wake-mcq-07": "「清醒時段」與本句語境不同。"
+        "wake-mcq-10": "本句的「wake-up call」指「當頭棒喝；警號」。",
+        "wake-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-10"
     },
@@ -1259,10 +1151,8 @@ export default {
       "options": [
         "wake-mcq-11",
         "wake-mcq-10",
-        "wake-mcq-12",
-        "wake-mcq-09",
-        "wake-mcq-13",
-        "wake-mcq-08"
+        "wake-mcq-08",
+        "wake-mcq-13"
       ],
       "explanation": "本句的「wake-up call」指「叫醒電話」。",
       "sentenceIndex": 27,
@@ -1271,12 +1161,10 @@ export default {
         "wake-up call"
       ],
       "optionReasons": {
-        "wake-mcq-11": "本句指「叫醒電話」。",
-        "wake-mcq-10": "「當頭棒喝；警號」與本句語境不同。",
-        "wake-mcq-12": "「覺醒；醒悟」與本句語境不同。",
-        "wake-mcq-09": "「使某人醒覺到 X」與本句語境不同。",
-        "wake-mcq-13": "「喚起興趣」與本句語境不同。",
-        "wake-mcq-08": "「開始意識到 X」與本句語境不同。"
+        "wake-mcq-11": "本句的「wake-up call」指「叫醒電話」。",
+        "wake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-11"
     },
@@ -1288,11 +1176,9 @@ export default {
       "masked": "Your ____ is scheduled for 6:30.",
       "options": [
         "wake-mcq-11",
+        "wake-mcq-17",
         "wake-mcq-10",
-        "wake-mcq-12",
-        "wake-mcq-09",
-        "wake-mcq-13",
-        "wake-mcq-08"
+        "wake-mcq-18"
       ],
       "explanation": "本句的「wake-up call」指「叫醒電話」。",
       "sentenceIndex": 28,
@@ -1301,12 +1187,10 @@ export default {
         "wake-up call"
       ],
       "optionReasons": {
-        "wake-mcq-11": "本句指「叫醒電話」。",
-        "wake-mcq-10": "「當頭棒喝；警號」與本句語境不同。",
-        "wake-mcq-12": "「覺醒；醒悟」與本句語境不同。",
-        "wake-mcq-09": "「使某人醒覺到 X」與本句語境不同。",
-        "wake-mcq-13": "「喚起興趣」與本句語境不同。",
-        "wake-mcq-08": "「開始意識到 X」與本句語境不同。"
+        "wake-mcq-11": "本句的「wake-up call」指「叫醒電話」。",
+        "wake-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-11"
     },
@@ -1318,11 +1202,9 @@ export default {
       "masked": "The experience led to an ____ about how I used my time.",
       "options": [
         "wake-mcq-12",
-        "wake-mcq-11",
-        "wake-mcq-13",
-        "wake-mcq-10",
-        "wake-mcq-14",
-        "wake-mcq-09"
+        "wake-mcq-18",
+        "wake-pdf-001",
+        "wake-mcq-13"
       ],
       "explanation": "本句的「awakening」指「覺醒；醒悟」。",
       "sentenceIndex": 29,
@@ -1331,12 +1213,10 @@ export default {
         "awakening"
       ],
       "optionReasons": {
-        "wake-mcq-12": "本句指「覺醒；醒悟」。",
-        "wake-mcq-11": "「叫醒電話」與本句語境不同。",
-        "wake-mcq-13": "「喚起興趣」與本句語境不同。",
-        "wake-mcq-10": "「當頭棒喝；警號」與本句語境不同。",
-        "wake-mcq-14": "「喚起記憶」與本句語境不同。",
-        "wake-mcq-09": "「使某人醒覺到 X」與本句語境不同。"
+        "wake-mcq-12": "本句的「awakening」指「覺醒；醒悟」。",
+        "wake-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wake-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-12"
     },
@@ -1348,11 +1228,9 @@ export default {
       "masked": "There was a growing ____ to the problem.",
       "options": [
         "wake-mcq-12",
-        "wake-mcq-11",
-        "wake-mcq-13",
-        "wake-mcq-10",
-        "wake-mcq-14",
-        "wake-mcq-09"
+        "wake-mcq-17",
+        "wake-mcq-08",
+        "wake-mcq-13"
       ],
       "explanation": "本句的「awakening」指「覺醒；醒悟」。",
       "sentenceIndex": 30,
@@ -1361,12 +1239,10 @@ export default {
         "awakening"
       ],
       "optionReasons": {
-        "wake-mcq-12": "本句指「覺醒；醒悟」。",
-        "wake-mcq-11": "「叫醒電話」與本句語境不同。",
-        "wake-mcq-13": "「喚起興趣」與本句語境不同。",
-        "wake-mcq-10": "「當頭棒喝；警號」與本句語境不同。",
-        "wake-mcq-14": "「喚起記憶」與本句語境不同。",
-        "wake-mcq-09": "「使某人醒覺到 X」與本句語境不同。"
+        "wake-mcq-12": "本句的「awakening」指「覺醒；醒悟」。",
+        "wake-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-12"
     },
@@ -1378,11 +1254,9 @@ export default {
       "masked": "The trip ____.",
       "options": [
         "wake-mcq-13",
-        "wake-mcq-12",
-        "wake-mcq-14",
-        "wake-mcq-11",
-        "wake-mcq-15",
-        "wake-mcq-10"
+        "wake-mcq-03",
+        "wake-mcq-17",
+        "wake-pdf-001"
       ],
       "explanation": "本句的「awakened my interest in history」指「喚起興趣」。",
       "sentenceIndex": 35,
@@ -1391,12 +1265,10 @@ export default {
         "awakened my interest in history"
       ],
       "optionReasons": {
-        "wake-mcq-13": "本句指「喚起興趣」。",
-        "wake-mcq-12": "「覺醒；醒悟」與本句語境不同。",
-        "wake-mcq-14": "「喚起記憶」與本句語境不同。",
-        "wake-mcq-11": "「叫醒電話」與本句語境不同。",
-        "wake-mcq-15": "「船尾流；航跡」與本句語境不同。",
-        "wake-mcq-10": "「當頭棒喝；警號」與本句語境不同。"
+        "wake-mcq-13": "本句的「awakened my interest in history」指「喚起興趣」。",
+        "wake-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wake-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-13"
     },
@@ -1408,11 +1280,9 @@ export default {
       "masked": "The experience ____.",
       "options": [
         "wake-mcq-13",
-        "wake-mcq-12",
-        "wake-mcq-14",
-        "wake-mcq-11",
-        "wake-mcq-15",
-        "wake-mcq-10"
+        "wake-mcq-09",
+        "wake-mcq-17",
+        "wake-mcq-18"
       ],
       "explanation": "本句的「awakened him to the importance of planning」指「喚起興趣」。",
       "sentenceIndex": 36,
@@ -1421,12 +1291,10 @@ export default {
         "awakened him to the importance of planning"
       ],
       "optionReasons": {
-        "wake-mcq-13": "本句指「喚起興趣」。",
-        "wake-mcq-12": "「覺醒；醒悟」與本句語境不同。",
-        "wake-mcq-14": "「喚起記憶」與本句語境不同。",
-        "wake-mcq-11": "「叫醒電話」與本句語境不同。",
-        "wake-mcq-15": "「船尾流；航跡」與本句語境不同。",
-        "wake-mcq-10": "「當頭棒喝；警號」與本句語境不同。"
+        "wake-mcq-13": "本句的「awakened him to the importance of planning」指「喚起興趣」。",
+        "wake-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-13"
     },
@@ -1438,11 +1306,9 @@ export default {
       "masked": "New rules were introduced ____.",
       "options": [
         "wake-mcq-16",
-        "wake-mcq-15",
-        "wake-mcq-17",
-        "wake-mcq-14",
-        "wake-mcq-18",
-        "wake-mcq-13"
+        "wake-mcq-04",
+        "wake-mcq-13",
+        "wake-mcq-10"
       ],
       "explanation": "本句的「in the wake of the accident」指「在……之後／隨之而來」。",
       "sentenceIndex": 39,
@@ -1451,12 +1317,10 @@ export default {
         "in the wake of the accident"
       ],
       "optionReasons": {
-        "wake-mcq-16": "本句指「在……之後／隨之而來」。",
-        "wake-mcq-15": "「船尾流；航跡」與本句語境不同。",
-        "wake-mcq-17": "「在身後留下 X」與本句語境不同。",
-        "wake-mcq-14": "「喚起記憶」與本句語境不同。",
-        "wake-mcq-18": "「守靈；追悼聚會」與本句語境不同。",
-        "wake-mcq-13": "「喚起興趣」與本句語境不同。"
+        "wake-mcq-16": "本句的「in the wake of the accident」指「在……之後／隨之而來」。",
+        "wake-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-16"
     },
@@ -1468,11 +1332,9 @@ export default {
       "masked": "Several changes followed ____.",
       "options": [
         "wake-mcq-16",
-        "wake-mcq-15",
-        "wake-mcq-17",
-        "wake-mcq-14",
-        "wake-mcq-18",
-        "wake-mcq-13"
+        "wake-mcq-03",
+        "wake-mcq-10",
+        "wake-mcq-08"
       ],
       "explanation": "本句的「in the wake of the crisis」指「在……之後／隨之而來」。",
       "sentenceIndex": 40,
@@ -1481,12 +1343,10 @@ export default {
         "in the wake of the crisis"
       ],
       "optionReasons": {
-        "wake-mcq-16": "本句指「在……之後／隨之而來」。",
-        "wake-mcq-15": "「船尾流；航跡」與本句語境不同。",
-        "wake-mcq-17": "「在身後留下 X」與本句語境不同。",
-        "wake-mcq-14": "「喚起記憶」與本句語境不同。",
-        "wake-mcq-18": "「守靈；追悼聚會」與本句語境不同。",
-        "wake-mcq-13": "「喚起興趣」與本句語境不同。"
+        "wake-mcq-16": "本句的「in the wake of the crisis」指「在……之後／隨之而來」。",
+        "wake-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-16"
     },
@@ -1498,11 +1358,9 @@ export default {
       "masked": "The storm left destruction ____.",
       "options": [
         "wake-mcq-17",
-        "wake-mcq-16",
+        "wake-mcq-12",
         "wake-mcq-18",
-        "wake-mcq-15",
-        "wake-mcq-14",
-        "wake-mcq-13"
+        "wake-mcq-08"
       ],
       "explanation": "本句的「in its wake」指「在身後留下 X」。",
       "sentenceIndex": 41,
@@ -1511,12 +1369,10 @@ export default {
         "in its wake"
       ],
       "optionReasons": {
-        "wake-mcq-17": "本句指「在身後留下 X」。",
-        "wake-mcq-16": "「在……之後／隨之而來」與本句語境不同。",
-        "wake-mcq-18": "「守靈；追悼聚會」與本句語境不同。",
-        "wake-mcq-15": "「船尾流；航跡」與本句語境不同。",
-        "wake-mcq-14": "「喚起記憶」與本句語境不同。",
-        "wake-mcq-13": "「喚起興趣」與本句語境不同。"
+        "wake-mcq-17": "本句的「in its wake」指「在身後留下 X」。",
+        "wake-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-17"
     },
@@ -1528,11 +1384,9 @@ export default {
       "masked": "The sudden change left confusion ____.",
       "options": [
         "wake-mcq-17",
-        "wake-mcq-16",
-        "wake-mcq-18",
-        "wake-mcq-15",
-        "wake-mcq-14",
-        "wake-mcq-13"
+        "wake-mcq-13",
+        "wake-mcq-12",
+        "wake-pdf-001"
       ],
       "explanation": "本句的「in its wake」指「在身後留下 X」。",
       "sentenceIndex": 42,
@@ -1541,12 +1395,10 @@ export default {
         "in its wake"
       ],
       "optionReasons": {
-        "wake-mcq-17": "本句指「在身後留下 X」。",
-        "wake-mcq-16": "「在……之後／隨之而來」與本句語境不同。",
-        "wake-mcq-18": "「守靈；追悼聚會」與本句語境不同。",
-        "wake-mcq-15": "「船尾流；航跡」與本句語境不同。",
-        "wake-mcq-14": "「喚起記憶」與本句語境不同。",
-        "wake-mcq-13": "「喚起興趣」與本句語境不同。"
+        "wake-mcq-17": "本句的「in its wake」指「在身後留下 X」。",
+        "wake-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wake-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-17"
     },
@@ -1558,11 +1410,9 @@ export default {
       "masked": "The family held a ____ before the funeral.",
       "options": [
         "wake-mcq-18",
-        "wake-mcq-17",
+        "wake-mcq-07",
         "wake-mcq-16",
-        "wake-mcq-15",
-        "wake-mcq-14",
-        "wake-mcq-13"
+        "wake-mcq-10"
       ],
       "explanation": "本句的「wake」指「守靈；追悼聚會」。",
       "sentenceIndex": 43,
@@ -1571,12 +1421,10 @@ export default {
         "wake"
       ],
       "optionReasons": {
-        "wake-mcq-18": "本句指「守靈；追悼聚會」。",
-        "wake-mcq-17": "「在身後留下 X」與本句語境不同。",
-        "wake-mcq-16": "「在……之後／隨之而來」與本句語境不同。",
-        "wake-mcq-15": "「船尾流；航跡」與本句語境不同。",
-        "wake-mcq-14": "「喚起記憶」與本句語境不同。",
-        "wake-mcq-13": "「喚起興趣」與本句語境不同。"
+        "wake-mcq-18": "本句的「wake」指「守靈；追悼聚會」。",
+        "wake-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-18"
     },
@@ -1588,11 +1436,9 @@ export default {
       "masked": "Friends gathered at the ____.",
       "options": [
         "wake-mcq-18",
-        "wake-mcq-17",
-        "wake-mcq-16",
-        "wake-mcq-15",
-        "wake-mcq-14",
-        "wake-mcq-13"
+        "wake-mcq-01",
+        "wake-mcq-08",
+        "wake-mcq-05"
       ],
       "explanation": "本句的「wake」指「守靈；追悼聚會」。",
       "sentenceIndex": 44,
@@ -1601,12 +1447,10 @@ export default {
         "wake"
       ],
       "optionReasons": {
-        "wake-mcq-18": "本句指「守靈；追悼聚會」。",
-        "wake-mcq-17": "「在身後留下 X」與本句語境不同。",
-        "wake-mcq-16": "「在……之後／隨之而來」與本句語境不同。",
-        "wake-mcq-15": "「船尾流；航跡」與本句語境不同。",
-        "wake-mcq-14": "「喚起記憶」與本句語境不同。",
-        "wake-mcq-13": "「喚起興趣」與本句語境不同。"
+        "wake-mcq-18": "本句的「wake」指「守靈；追悼聚會」。",
+        "wake-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wake-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wake-mcq-18"
     }
@@ -1618,5 +1462,7 @@ export default {
     "sha256": "2e8a96158aa522b33bb05ecf6470e0d5db85c585354cac1ff1a7db6d7d4cc1c2",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

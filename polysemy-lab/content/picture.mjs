@@ -438,11 +438,9 @@ export default {
       "masked": "It feels less like a ____ and more like a window.",
       "options": [
         "picture-mcq-01",
-        "picture-mcq-02",
-        "picture-mcq-03",
-        "picture-mcq-04",
-        "picture-mcq-05",
-        "picture-mcq-06"
+        "picture-mcq-06",
+        "picture-mcq-17",
+        "picture-mcq-02"
       ],
       "explanation": "本句的「picture」指「以繪畫、攝影等方式呈現人物、物件或場景的視覺圖像」。",
       "sentenceIndex": 0,
@@ -451,12 +449,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-01": "本句指「以繪畫、攝影等方式呈現人物、物件或場景的視覺圖像」。",
-        "picture-mcq-02": "「用相機拍攝而成的照片」是「picture — photograph」的用法，與本句語境不同。",
-        "picture-mcq-03": "「電視、影片、顯示器等呈現出的視覺畫面」是「picture — screen image」的用法，與本句語境不同。",
-        "picture-mcq-04": "「對某個事件、問題或情況形成的整體理解／呈現」是「picture — situation」的用法，與本句語境不同。",
-        "picture-mcq-05": "「把所有重要資訊綜合後得到的完整情況」是「full picture」的用法，與本句語境不同。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。"
+        "picture-mcq-01": "本句的「picture」指「以繪畫、攝影等方式呈現人物、物件或場景的視覺圖像」。",
+        "picture-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-01"
     },
@@ -468,11 +464,9 @@ export default {
       "masked": "There was a colourful ____ on the wall.",
       "options": [
         "picture-mcq-01",
-        "picture-mcq-02",
-        "picture-mcq-03",
-        "picture-mcq-04",
+        "picture-mcq-16",
         "picture-mcq-05",
-        "picture-mcq-06"
+        "picture-pdf-001"
       ],
       "explanation": "本句的「picture」指「以繪畫、攝影等方式呈現人物、物件或場景的視覺圖像」。",
       "sentenceIndex": 1,
@@ -481,12 +475,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-01": "本句指「以繪畫、攝影等方式呈現人物、物件或場景的視覺圖像」。",
-        "picture-mcq-02": "「用相機拍攝而成的照片」是「picture — photograph」的用法，與本句語境不同。",
-        "picture-mcq-03": "「電視、影片、顯示器等呈現出的視覺畫面」是「picture — screen image」的用法，與本句語境不同。",
-        "picture-mcq-04": "「對某個事件、問題或情況形成的整體理解／呈現」是「picture — situation」的用法，與本句語境不同。",
-        "picture-mcq-05": "「把所有重要資訊綜合後得到的完整情況」是「full picture」的用法，與本句語境不同。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。"
+        "picture-mcq-01": "本句的「picture」指「以繪畫、攝影等方式呈現人物、物件或場景的視覺圖像」。",
+        "picture-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-01"
     },
@@ -498,11 +490,9 @@ export default {
       "masked": "The book contains ____ of famous paintings.",
       "options": [
         "picture-mcq-01",
-        "picture-mcq-02",
-        "picture-mcq-03",
-        "picture-mcq-04",
-        "picture-mcq-05",
-        "picture-mcq-06"
+        "picture-mcq-06",
+        "picture-pdf-002",
+        "picture-pdf-001"
       ],
       "explanation": "本句的「pictures」指「以繪畫、攝影等方式呈現人物、物件或場景的視覺圖像」。",
       "sentenceIndex": 2,
@@ -511,12 +501,10 @@ export default {
         "pictures"
       ],
       "optionReasons": {
-        "picture-mcq-01": "本句指「以繪畫、攝影等方式呈現人物、物件或場景的視覺圖像」。",
-        "picture-mcq-02": "「用相機拍攝而成的照片」是「picture — photograph」的用法，與本句語境不同。",
-        "picture-mcq-03": "「電視、影片、顯示器等呈現出的視覺畫面」是「picture — screen image」的用法，與本句語境不同。",
-        "picture-mcq-04": "「對某個事件、問題或情況形成的整體理解／呈現」是「picture — situation」的用法，與本句語境不同。",
-        "picture-mcq-05": "「把所有重要資訊綜合後得到的完整情況」是「full picture」的用法，與本句語境不同。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。"
+        "picture-mcq-01": "本句的「pictures」指「以繪畫、攝影等方式呈現人物、物件或場景的視覺圖像」。",
+        "picture-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-01"
     },
@@ -528,11 +516,9 @@ export default {
       "masked": "Can you take a ____ of us?",
       "options": [
         "picture-mcq-02",
-        "picture-mcq-01",
-        "picture-mcq-03",
-        "picture-mcq-04",
         "picture-mcq-05",
-        "picture-mcq-06"
+        "picture-pdf-001",
+        "picture-pdf-002"
       ],
       "explanation": "本句的「picture」指「用相機拍攝而成的照片」。",
       "sentenceIndex": 3,
@@ -541,12 +527,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-02": "本句指「用相機拍攝而成的照片」。",
-        "picture-mcq-01": "「以繪畫、攝影等方式呈現人物、物件或場景的視覺圖像」是「picture — visual representation」的用法，與本句語境不同。",
-        "picture-mcq-03": "「電視、影片、顯示器等呈現出的視覺畫面」是「picture — screen image」的用法，與本句語境不同。",
-        "picture-mcq-04": "「對某個事件、問題或情況形成的整體理解／呈現」是「picture — situation」的用法，與本句語境不同。",
-        "picture-mcq-05": "「把所有重要資訊綜合後得到的完整情況」是「full picture」的用法，與本句語境不同。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。"
+        "picture-mcq-02": "本句的「picture」指「用相機拍攝而成的照片」。",
+        "picture-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-02"
     },
@@ -558,10 +542,8 @@ export default {
       "masked": "She showed me a ____ of her garden.",
       "options": [
         "picture-mcq-02",
-        "picture-mcq-01",
-        "picture-mcq-03",
-        "picture-mcq-04",
-        "picture-mcq-05",
+        "picture-mcq-09",
+        "picture-mcq-17",
         "picture-mcq-06"
       ],
       "explanation": "本句的「picture」指「用相機拍攝而成的照片」。",
@@ -571,12 +553,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-02": "本句指「用相機拍攝而成的照片」。",
-        "picture-mcq-01": "「以繪畫、攝影等方式呈現人物、物件或場景的視覺圖像」是「picture — visual representation」的用法，與本句語境不同。",
-        "picture-mcq-03": "「電視、影片、顯示器等呈現出的視覺畫面」是「picture — screen image」的用法，與本句語境不同。",
-        "picture-mcq-04": "「對某個事件、問題或情況形成的整體理解／呈現」是「picture — situation」的用法，與本句語境不同。",
-        "picture-mcq-05": "「把所有重要資訊綜合後得到的完整情況」是「full picture」的用法，與本句語境不同。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。"
+        "picture-mcq-02": "本句的「picture」指「用相機拍攝而成的照片」。",
+        "picture-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-02"
     },
@@ -588,11 +568,9 @@ export default {
       "masked": "The television has a very clear ____.",
       "options": [
         "picture-mcq-03",
-        "picture-mcq-02",
-        "picture-mcq-04",
-        "picture-mcq-01",
+        "picture-pdf-002",
         "picture-mcq-05",
-        "picture-mcq-06"
+        "picture-mcq-16"
       ],
       "explanation": "本句的「picture」指「電視、影片、顯示器等呈現出的視覺畫面」。",
       "sentenceIndex": 5,
@@ -601,12 +579,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-03": "本句指「電視、影片、顯示器等呈現出的視覺畫面」。",
-        "picture-mcq-02": "「用相機拍攝而成的照片」是「picture — photograph」的用法，與本句語境不同。",
-        "picture-mcq-04": "「對某個事件、問題或情況形成的整體理解／呈現」是「picture — situation」的用法，與本句語境不同。",
-        "picture-mcq-01": "「以繪畫、攝影等方式呈現人物、物件或場景的視覺圖像」是「picture — visual representation」的用法，與本句語境不同。",
-        "picture-mcq-05": "「把所有重要資訊綜合後得到的完整情況」是「full picture」的用法，與本句語境不同。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。"
+        "picture-mcq-03": "本句的「picture」指「電視、影片、顯示器等呈現出的視覺畫面」。",
+        "picture-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-03"
     },
@@ -618,11 +594,9 @@ export default {
       "masked": "The ____ disappeared but the sound continued.",
       "options": [
         "picture-mcq-03",
-        "picture-mcq-02",
-        "picture-mcq-04",
-        "picture-mcq-01",
+        "picture-mcq-16",
         "picture-mcq-05",
-        "picture-mcq-06"
+        "picture-pdf-002"
       ],
       "explanation": "本句的「picture」指「電視、影片、顯示器等呈現出的視覺畫面」。",
       "sentenceIndex": 6,
@@ -631,12 +605,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-03": "本句指「電視、影片、顯示器等呈現出的視覺畫面」。",
-        "picture-mcq-02": "「用相機拍攝而成的照片」是「picture — photograph」的用法，與本句語境不同。",
-        "picture-mcq-04": "「對某個事件、問題或情況形成的整體理解／呈現」是「picture — situation」的用法，與本句語境不同。",
-        "picture-mcq-01": "「以繪畫、攝影等方式呈現人物、物件或場景的視覺圖像」是「picture — visual representation」的用法，與本句語境不同。",
-        "picture-mcq-05": "「把所有重要資訊綜合後得到的完整情況」是「full picture」的用法，與本句語境不同。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。"
+        "picture-mcq-03": "本句的「picture」指「電視、影片、顯示器等呈現出的視覺畫面」。",
+        "picture-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-03"
     },
@@ -648,11 +620,9 @@ export default {
       "masked": "The latest figures give us a clearer ____ of the situation.",
       "options": [
         "picture-mcq-04",
-        "picture-mcq-03",
-        "picture-mcq-05",
-        "picture-mcq-02",
-        "picture-mcq-06",
-        "picture-mcq-01"
+        "picture-pdf-002",
+        "picture-mcq-15",
+        "picture-pdf-001"
       ],
       "explanation": "本句的「picture」指「對某個事件、問題或情況形成的整體理解／呈現」。",
       "sentenceIndex": 7,
@@ -661,12 +631,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-04": "本句指「對某個事件、問題或情況形成的整體理解／呈現」。",
-        "picture-mcq-03": "「電視、影片、顯示器等呈現出的視覺畫面」是「picture — screen image」的用法，與本句語境不同。",
-        "picture-mcq-05": "「把所有重要資訊綜合後得到的完整情況」是「full picture」的用法，與本句語境不同。",
-        "picture-mcq-02": "「用相機拍攝而成的照片」是「picture — photograph」的用法，與本句語境不同。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。",
-        "picture-mcq-01": "「以繪畫、攝影等方式呈現人物、物件或場景的視覺圖像」是「picture — visual representation」的用法，與本句語境不同。"
+        "picture-mcq-04": "本句的「picture」指「對某個事件、問題或情況形成的整體理解／呈現」。",
+        "picture-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-04"
     },
@@ -678,11 +646,9 @@ export default {
       "masked": "We still do not have the full ____.",
       "options": [
         "picture-mcq-04",
-        "picture-mcq-03",
-        "picture-mcq-05",
-        "picture-mcq-02",
-        "picture-mcq-06",
-        "picture-mcq-01"
+        "picture-mcq-17",
+        "picture-pdf-002",
+        "picture-mcq-14"
       ],
       "explanation": "本句的「picture」指「對某個事件、問題或情況形成的整體理解／呈現」。",
       "sentenceIndex": 8,
@@ -691,12 +657,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-04": "本句指「對某個事件、問題或情況形成的整體理解／呈現」。",
-        "picture-mcq-03": "「電視、影片、顯示器等呈現出的視覺畫面」是「picture — screen image」的用法，與本句語境不同。",
-        "picture-mcq-05": "「把所有重要資訊綜合後得到的完整情況」是「full picture」的用法，與本句語境不同。",
-        "picture-mcq-02": "「用相機拍攝而成的照片」是「picture — photograph」的用法，與本句語境不同。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。",
-        "picture-mcq-01": "「以繪畫、攝影等方式呈現人物、物件或場景的視覺圖像」是「picture — visual representation」的用法，與本句語境不同。"
+        "picture-mcq-04": "本句的「picture」指「對某個事件、問題或情況形成的整體理解／呈現」。",
+        "picture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-04"
     },
@@ -708,11 +672,9 @@ export default {
       "masked": "One statistic does not give the ____.",
       "options": [
         "picture-mcq-05",
-        "picture-mcq-04",
-        "picture-mcq-06",
-        "picture-mcq-03",
-        "picture-mcq-07",
-        "picture-mcq-02"
+        "picture-mcq-11",
+        "picture-pdf-001",
+        "picture-mcq-07"
       ],
       "explanation": "本句的「full picture」指「把所有重要資訊綜合後得到的完整情況」。",
       "sentenceIndex": 9,
@@ -721,12 +683,10 @@ export default {
         "full picture"
       ],
       "optionReasons": {
-        "picture-mcq-05": "本句指「把所有重要資訊綜合後得到的完整情況」。",
-        "picture-mcq-04": "「對某個事件、問題或情況形成的整體理解／呈現」是「picture — situation」的用法，與本句語境不同。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。",
-        "picture-mcq-03": "「電視、影片、顯示器等呈現出的視覺畫面」是「picture — screen image」的用法，與本句語境不同。",
-        "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。",
-        "picture-mcq-02": "「用相機拍攝而成的照片」是「picture — photograph」的用法，與本句語境不同。"
+        "picture-mcq-05": "本句的「full picture」指「把所有重要資訊綜合後得到的完整情況」。",
+        "picture-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-05"
     },
@@ -738,11 +698,9 @@ export default {
       "masked": "We need more information before we can see the full ____.",
       "options": [
         "picture-mcq-05",
-        "picture-mcq-04",
-        "picture-mcq-06",
-        "picture-mcq-03",
         "picture-mcq-07",
-        "picture-mcq-02"
+        "picture-mcq-16",
+        "picture-mcq-12"
       ],
       "explanation": "本句的「picture」指「把所有重要資訊綜合後得到的完整情況」。",
       "sentenceIndex": 10,
@@ -751,12 +709,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-05": "本句指「把所有重要資訊綜合後得到的完整情況」。",
-        "picture-mcq-04": "「對某個事件、問題或情況形成的整體理解／呈現」是「picture — situation」的用法，與本句語境不同。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。",
-        "picture-mcq-03": "「電視、影片、顯示器等呈現出的視覺畫面」是「picture — screen image」的用法，與本句語境不同。",
-        "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。",
-        "picture-mcq-02": "「用相機拍攝而成的照片」是「picture — photograph」的用法，與本句語境不同。"
+        "picture-mcq-05": "本句的「picture」指「把所有重要資訊綜合後得到的完整情況」。",
+        "picture-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-05"
     },
@@ -768,11 +724,9 @@ export default {
       "masked": "Try to focus on the ____.",
       "options": [
         "picture-mcq-06",
-        "picture-mcq-05",
-        "picture-mcq-07",
-        "picture-mcq-04",
-        "picture-mcq-08",
-        "picture-mcq-03"
+        "picture-mcq-02",
+        "picture-mcq-13",
+        "picture-mcq-14"
       ],
       "explanation": "本句的「big picture」指「不執著細節、從整體角度理解的局面／大局」。",
       "sentenceIndex": 11,
@@ -781,12 +735,10 @@ export default {
         "big picture"
       ],
       "optionReasons": {
-        "picture-mcq-06": "本句指「不執著細節、從整體角度理解的局面／大局」。",
-        "picture-mcq-05": "「把所有重要資訊綜合後得到的完整情況」是「full picture」的用法，與本句語境不同。",
-        "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。",
-        "picture-mcq-04": "「對某個事件、問題或情況形成的整體理解／呈現」是「picture — situation」的用法，與本句語境不同。",
-        "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。",
-        "picture-mcq-03": "「電視、影片、顯示器等呈現出的視覺畫面」是「picture — screen image」的用法，與本句語境不同。"
+        "picture-mcq-06": "本句的「big picture」指「不執著細節、從整體角度理解的局面／大局」。",
+        "picture-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-06"
     },
@@ -798,11 +750,9 @@ export default {
       "masked": "Small problems matter, but we should not lose sight of the big ____.",
       "options": [
         "picture-mcq-06",
-        "picture-mcq-05",
-        "picture-mcq-07",
-        "picture-mcq-04",
-        "picture-mcq-08",
-        "picture-mcq-03"
+        "picture-mcq-01",
+        "picture-pdf-001",
+        "picture-mcq-17"
       ],
       "explanation": "本句的「picture」指「不執著細節、從整體角度理解的局面／大局」。",
       "sentenceIndex": 12,
@@ -811,12 +761,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-06": "本句指「不執著細節、從整體角度理解的局面／大局」。",
-        "picture-mcq-05": "「把所有重要資訊綜合後得到的完整情況」是「full picture」的用法，與本句語境不同。",
-        "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。",
-        "picture-mcq-04": "「對某個事件、問題或情況形成的整體理解／呈現」是「picture — situation」的用法，與本句語境不同。",
-        "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。",
-        "picture-mcq-03": "「電視、影片、顯示器等呈現出的視覺畫面」是「picture — screen image」的用法，與本句語境不同。"
+        "picture-mcq-06": "本句的「picture」指「不執著細節、從整體角度理解的局面／大局」。",
+        "picture-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-06"
     },
@@ -828,11 +776,9 @@ export default {
       "masked": "I had a clear ____ of the room in my mind.",
       "options": [
         "picture-mcq-07",
-        "picture-mcq-06",
-        "picture-mcq-08",
-        "picture-mcq-05",
-        "picture-mcq-09",
-        "picture-mcq-04"
+        "picture-mcq-14",
+        "picture-mcq-16",
+        "picture-pdf-001"
       ],
       "explanation": "本句的「picture」指「在腦海中形成的視覺印象或想像」。",
       "sentenceIndex": 13,
@@ -841,12 +787,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-07": "本句指「在腦海中形成的視覺印象或想像」。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。",
-        "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。",
-        "picture-mcq-05": "「把所有重要資訊綜合後得到的完整情況」是「full picture」的用法，與本句語境不同。",
-        "picture-mcq-09": "「電影，較舊式或特定行業用法」是「picture — movie」的用法，與本句語境不同。",
-        "picture-mcq-04": "「對某個事件、問題或情況形成的整體理解／呈現」是「picture — situation」的用法，與本句語境不同。"
+        "picture-mcq-07": "本句的「picture」指「在腦海中形成的視覺印象或想像」。",
+        "picture-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-07"
     },
@@ -859,10 +803,8 @@ export default {
       "options": [
         "picture-mcq-07",
         "picture-mcq-06",
-        "picture-mcq-08",
-        "picture-mcq-05",
-        "picture-mcq-09",
-        "picture-mcq-04"
+        "picture-mcq-17",
+        "picture-pdf-001"
       ],
       "explanation": "本句的「picture」指「在腦海中形成的視覺印象或想像」。",
       "sentenceIndex": 14,
@@ -871,12 +813,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-07": "本句指「在腦海中形成的視覺印象或想像」。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。",
-        "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。",
-        "picture-mcq-05": "「把所有重要資訊綜合後得到的完整情況」是「full picture」的用法，與本句語境不同。",
-        "picture-mcq-09": "「電影，較舊式或特定行業用法」是「picture — movie」的用法，與本句語境不同。",
-        "picture-mcq-04": "「對某個事件、問題或情況形成的整體理解／呈現」是「picture — situation」的用法，與本句語境不同。"
+        "picture-mcq-07": "本句的「picture」指「在腦海中形成的視覺印象或想像」。",
+        "picture-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-07"
     },
@@ -888,11 +828,9 @@ export default {
       "masked": "The report gives a worrying ____ of the economy.",
       "options": [
         "picture-mcq-08",
-        "picture-mcq-07",
-        "picture-mcq-09",
-        "picture-mcq-06",
-        "picture-mcq-10",
-        "picture-mcq-05"
+        "picture-mcq-17",
+        "picture-mcq-13",
+        "picture-pdf-002"
       ],
       "explanation": "本句的「picture」指「對某人／某事形成的整體印象或景象」。",
       "sentenceIndex": 15,
@@ -901,12 +839,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-08": "本句指「對某人／某事形成的整體印象或景象」。",
-        "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。",
-        "picture-mcq-09": "「電影，較舊式或特定行業用法」是「picture — movie」的用法，與本句語境不同。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。",
-        "picture-mcq-10": "「在腦海中形成某人、某物或場景的視覺形象」是「picture — verb: imagine」的用法，與本句語境不同。",
-        "picture-mcq-05": "「把所有重要資訊綜合後得到的完整情況」是「full picture」的用法，與本句語境不同。"
+        "picture-mcq-08": "本句的「picture」指「對某人／某事形成的整體印象或景象」。",
+        "picture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-08"
     },
@@ -918,11 +854,9 @@ export default {
       "masked": "His description painted a very different ____ of the city.",
       "options": [
         "picture-mcq-08",
-        "picture-mcq-07",
-        "picture-mcq-09",
-        "picture-mcq-06",
-        "picture-mcq-10",
-        "picture-mcq-05"
+        "picture-pdf-001",
+        "picture-mcq-15",
+        "picture-mcq-16"
       ],
       "explanation": "本句的「picture」指「對某人／某事形成的整體印象或景象」。",
       "sentenceIndex": 16,
@@ -931,12 +865,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-08": "本句指「對某人／某事形成的整體印象或景象」。",
-        "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。",
-        "picture-mcq-09": "「電影，較舊式或特定行業用法」是「picture — movie」的用法，與本句語境不同。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。",
-        "picture-mcq-10": "「在腦海中形成某人、某物或場景的視覺形象」是「picture — verb: imagine」的用法，與本句語境不同。",
-        "picture-mcq-05": "「把所有重要資訊綜合後得到的完整情況」是「full picture」的用法，與本句語境不同。"
+        "picture-mcq-08": "本句的「picture」指「對某人／某事形成的整體印象或景象」。",
+        "picture-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-08"
     },
@@ -948,11 +880,9 @@ export default {
       "masked": "It was one of the most successful ____ of its time.",
       "options": [
         "picture-mcq-09",
-        "picture-mcq-08",
+        "picture-mcq-05",
         "picture-mcq-10",
-        "picture-mcq-07",
-        "picture-mcq-11",
-        "picture-mcq-06"
+        "picture-mcq-16"
       ],
       "explanation": "本句的「pictures」指「電影，較舊式或特定行業用法」。",
       "sentenceIndex": 17,
@@ -961,12 +891,10 @@ export default {
         "pictures"
       ],
       "optionReasons": {
-        "picture-mcq-09": "本句指「電影，較舊式或特定行業用法」。",
-        "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。",
-        "picture-mcq-10": "「在腦海中形成某人、某物或場景的視覺形象」是「picture — verb: imagine」的用法，與本句語境不同。",
-        "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。",
-        "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。"
+        "picture-mcq-09": "本句的「pictures」指「電影，較舊式或特定行業用法」。",
+        "picture-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-09"
     },
@@ -978,11 +906,9 @@ export default {
       "masked": "She appeared in several motion ____.",
       "options": [
         "picture-mcq-09",
-        "picture-mcq-08",
         "picture-mcq-10",
-        "picture-mcq-07",
-        "picture-mcq-11",
-        "picture-mcq-06"
+        "picture-mcq-12",
+        "picture-mcq-05"
       ],
       "explanation": "本句的「pictures」指「電影，較舊式或特定行業用法」。",
       "sentenceIndex": 18,
@@ -991,12 +917,10 @@ export default {
         "pictures"
       ],
       "optionReasons": {
-        "picture-mcq-09": "本句指「電影，較舊式或特定行業用法」。",
-        "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。",
-        "picture-mcq-10": "「在腦海中形成某人、某物或場景的視覺形象」是「picture — verb: imagine」的用法，與本句語境不同。",
-        "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。",
-        "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。"
+        "picture-mcq-09": "本句的「pictures」指「電影，較舊式或特定行業用法」。",
+        "picture-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-09"
     },
@@ -1008,11 +932,9 @@ export default {
       "masked": "They used to go to ____ every Saturday.",
       "options": [
         "picture-pdf-001",
-        "picture-mcq-08",
-        "picture-mcq-10",
-        "picture-mcq-07",
-        "picture-mcq-11",
-        "picture-mcq-06"
+        "picture-mcq-02",
+        "picture-pdf-002",
+        "picture-mcq-14"
       ],
       "explanation": "本句的「the pictures」指「電影院／看電影」。",
       "sentenceIndex": 19,
@@ -1021,12 +943,10 @@ export default {
         "the pictures"
       ],
       "optionReasons": {
-        "picture-pdf-001": "本句指「電影院／看電影」。",
-        "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。",
-        "picture-mcq-10": "「在腦海中形成某人、某物或場景的視覺形象」是「picture — verb: imagine」的用法，與本句語境不同。",
-        "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。",
-        "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。"
+        "picture-pdf-001": "本句的「the pictures」指「電影院／看電影」。",
+        "picture-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-pdf-001"
     },
@@ -1038,11 +958,9 @@ export default {
       "masked": "My grandparents often talked about going to the ____.",
       "options": [
         "picture-pdf-001",
-        "picture-mcq-08",
-        "picture-mcq-10",
-        "picture-mcq-07",
-        "picture-mcq-11",
-        "picture-mcq-06"
+        "picture-mcq-05",
+        "picture-mcq-12",
+        "picture-pdf-002"
       ],
       "explanation": "本句的「pictures」指「電影院／看電影」。",
       "sentenceIndex": 20,
@@ -1051,12 +969,10 @@ export default {
         "pictures"
       ],
       "optionReasons": {
-        "picture-pdf-001": "本句指「電影院／看電影」。",
-        "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。",
-        "picture-mcq-10": "「在腦海中形成某人、某物或場景的視覺形象」是「picture — verb: imagine」的用法，與本句語境不同。",
-        "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。",
-        "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。",
-        "picture-mcq-06": "「不執著細節、從整體角度理解的局面／大局」是「big picture」的用法，與本句語境不同。"
+        "picture-pdf-001": "本句的「pictures」指「電影院／看電影」。",
+        "picture-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-pdf-001"
     },
@@ -1068,11 +984,9 @@ export default {
       "masked": "Can you ____ the room with this painting on the wall?",
       "options": [
         "picture-mcq-10",
-        "picture-mcq-09",
-        "picture-mcq-11",
-        "picture-mcq-08",
         "picture-mcq-12",
-        "picture-mcq-07"
+        "picture-mcq-09",
+        "picture-mcq-06"
       ],
       "explanation": "本句的「picture」指「在腦海中形成某人、某物或場景的視覺形象」。",
       "sentenceIndex": 21,
@@ -1081,12 +995,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-10": "本句指「在腦海中形成某人、某物或場景的視覺形象」。",
-        "picture-mcq-09": "「電影，較舊式或特定行業用法」是「picture — movie」的用法，與本句語境不同。",
-        "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。",
-        "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。",
-        "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。",
-        "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。"
+        "picture-mcq-10": "本句的「picture」指「在腦海中形成某人、某物或場景的視覺形象」。",
+        "picture-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-10"
     },
@@ -1098,11 +1010,9 @@ export default {
       "masked": "I can ____ her sitting beside the pond.",
       "options": [
         "picture-mcq-10",
-        "picture-mcq-09",
-        "picture-mcq-11",
-        "picture-mcq-08",
+        "picture-mcq-17",
         "picture-mcq-12",
-        "picture-mcq-07"
+        "picture-mcq-09"
       ],
       "explanation": "本句的「picture」指「在腦海中形成某人、某物或場景的視覺形象」。",
       "sentenceIndex": 22,
@@ -1111,12 +1021,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-10": "本句指「在腦海中形成某人、某物或場景的視覺形象」。",
-        "picture-mcq-09": "「電影，較舊式或特定行業用法」是「picture — movie」的用法，與本句語境不同。",
-        "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。",
-        "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。",
-        "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。",
-        "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。"
+        "picture-mcq-10": "本句的「picture」指「在腦海中形成某人、某物或場景的視覺形象」。",
+        "picture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-10"
     },
@@ -1128,11 +1036,9 @@ export default {
       "masked": "____ standing in front of Monet’s painting.",
       "options": [
         "picture-pdf-002",
-        "picture-mcq-09",
-        "picture-mcq-11",
-        "picture-mcq-08",
-        "picture-mcq-12",
-        "picture-mcq-07"
+        "picture-mcq-17",
+        "picture-pdf-001",
+        "picture-mcq-14"
       ],
       "explanation": "本句的「Picture yourself」指「在腦海中想像自己處於某種情境」。",
       "sentenceIndex": 23,
@@ -1141,12 +1047,10 @@ export default {
         "Picture yourself"
       ],
       "optionReasons": {
-        "picture-pdf-002": "本句指「在腦海中想像自己處於某種情境」。",
-        "picture-mcq-09": "「電影，較舊式或特定行業用法」是「picture — movie」的用法，與本句語境不同。",
-        "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。",
-        "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。",
-        "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。",
-        "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。"
+        "picture-pdf-002": "本句的「Picture yourself」指「在腦海中想像自己處於某種情境」。",
+        "picture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-pdf-002"
     },
@@ -1158,11 +1062,9 @@ export default {
       "masked": "She could ____ herself living by the sea.",
       "options": [
         "picture-pdf-002",
+        "picture-mcq-16",
         "picture-mcq-09",
-        "picture-mcq-11",
-        "picture-mcq-08",
-        "picture-mcq-12",
-        "picture-mcq-07"
+        "picture-mcq-11"
       ],
       "explanation": "本句的「picture」指「在腦海中想像自己處於某種情境」。",
       "sentenceIndex": 24,
@@ -1171,12 +1073,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-pdf-002": "本句指「在腦海中想像自己處於某種情境」。",
-        "picture-mcq-09": "「電影，較舊式或特定行業用法」是「picture — movie」的用法，與本句語境不同。",
-        "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。",
-        "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。",
-        "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。",
-        "picture-mcq-07": "「在腦海中形成的視覺印象或想像」是「picture — mental image」的用法，與本句語境不同。"
+        "picture-pdf-002": "本句的「picture」指「在腦海中想像自己處於某種情境」。",
+        "picture-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-pdf-002"
     },
@@ -1188,11 +1088,9 @@ export default {
       "masked": "The painting ____ a quiet garden.",
       "options": [
         "picture-mcq-11",
-        "picture-mcq-10",
-        "picture-mcq-12",
-        "picture-mcq-09",
-        "picture-mcq-13",
-        "picture-mcq-08"
+        "picture-mcq-17",
+        "picture-pdf-001",
+        "picture-mcq-06"
       ],
       "explanation": "本句的「pictures」指「用圖片、照片或圖畫把某人／某物呈現出來」。",
       "sentenceIndex": 25,
@@ -1201,12 +1099,10 @@ export default {
         "pictures"
       ],
       "optionReasons": {
-        "picture-mcq-11": "本句指「用圖片、照片或圖畫把某人／某物呈現出來」。",
-        "picture-mcq-10": "「在腦海中形成某人、某物或場景的視覺形象」是「picture — verb: imagine」的用法，與本句語境不同。",
-        "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。",
-        "picture-mcq-09": "「電影，較舊式或特定行業用法」是「picture — movie」的用法，與本句語境不同。",
-        "picture-mcq-13": "「主要以圖片呈現或與圖像有關的」是「pictorial」的用法，與本句語境不同。",
-        "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。"
+        "picture-mcq-11": "本句的「pictures」指「用圖片、照片或圖畫把某人／某物呈現出來」。",
+        "picture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-11"
     },
@@ -1218,11 +1114,9 @@ export default {
       "masked": "The poster ____ several famous landmarks.",
       "options": [
         "picture-mcq-11",
-        "picture-mcq-10",
-        "picture-mcq-12",
-        "picture-mcq-09",
-        "picture-mcq-13",
-        "picture-mcq-08"
+        "picture-mcq-05",
+        "picture-mcq-16",
+        "picture-mcq-07"
       ],
       "explanation": "本句的「pictures」指「用圖片、照片或圖畫把某人／某物呈現出來」。",
       "sentenceIndex": 26,
@@ -1231,12 +1125,10 @@ export default {
         "pictures"
       ],
       "optionReasons": {
-        "picture-mcq-11": "本句指「用圖片、照片或圖畫把某人／某物呈現出來」。",
-        "picture-mcq-10": "「在腦海中形成某人、某物或場景的視覺形象」是「picture — verb: imagine」的用法，與本句語境不同。",
-        "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。",
-        "picture-mcq-09": "「電影，較舊式或特定行業用法」是「picture — movie」的用法，與本句語境不同。",
-        "picture-mcq-13": "「主要以圖片呈現或與圖像有關的」是「pictorial」的用法，與本句語境不同。",
-        "picture-mcq-08": "「對某人／某事形成的整體印象或景象」是「picture — impression」的用法，與本句語境不同。"
+        "picture-mcq-11": "本句的「pictures」指「用圖片、照片或圖畫把某人／某物呈現出來」。",
+        "picture-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-11"
     },
@@ -1248,11 +1140,9 @@ export default {
       "masked": "The artist ____ here is Monet.",
       "options": [
         "picture-mcq-12",
-        "picture-mcq-11",
-        "picture-mcq-13",
-        "picture-mcq-10",
-        "picture-mcq-14",
-        "picture-mcq-09"
+        "picture-mcq-08",
+        "picture-mcq-17",
+        "picture-pdf-001"
       ],
       "explanation": "本句的「pictured」指「在照片、圖畫等圖像中被展示出來的」。",
       "sentenceIndex": 27,
@@ -1261,12 +1151,10 @@ export default {
         "pictured"
       ],
       "optionReasons": {
-        "picture-mcq-12": "本句指「在照片、圖畫等圖像中被展示出來的」。",
-        "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。",
-        "picture-mcq-13": "「主要以圖片呈現或與圖像有關的」是「pictorial」的用法，與本句語境不同。",
-        "picture-mcq-10": "「在腦海中形成某人、某物或場景的視覺形象」是「picture — verb: imagine」的用法，與本句語境不同。",
-        "picture-mcq-14": "「景物漂亮、有特色，彷彿適合入畫的」是「picturesque」的用法，與本句語境不同。",
-        "picture-mcq-09": "「電影，較舊式或特定行業用法」是「picture — movie」的用法，與本句語境不同。"
+        "picture-mcq-12": "本句的「pictured」指「在照片、圖畫等圖像中被展示出來的」。",
+        "picture-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-12"
     },
@@ -1278,11 +1166,9 @@ export default {
       "masked": "The building ____ above is now a museum.",
       "options": [
         "picture-mcq-12",
-        "picture-mcq-11",
-        "picture-mcq-13",
         "picture-mcq-10",
-        "picture-mcq-14",
-        "picture-mcq-09"
+        "picture-mcq-17",
+        "picture-mcq-05"
       ],
       "explanation": "本句的「pictured」指「在照片、圖畫等圖像中被展示出來的」。",
       "sentenceIndex": 28,
@@ -1291,12 +1177,10 @@ export default {
         "pictured"
       ],
       "optionReasons": {
-        "picture-mcq-12": "本句指「在照片、圖畫等圖像中被展示出來的」。",
-        "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。",
-        "picture-mcq-13": "「主要以圖片呈現或與圖像有關的」是「pictorial」的用法，與本句語境不同。",
-        "picture-mcq-10": "「在腦海中形成某人、某物或場景的視覺形象」是「picture — verb: imagine」的用法，與本句語境不同。",
-        "picture-mcq-14": "「景物漂亮、有特色，彷彿適合入畫的」是「picturesque」的用法，與本句語境不同。",
-        "picture-mcq-09": "「電影，較舊式或特定行業用法」是「picture — movie」的用法，與本句語境不同。"
+        "picture-mcq-12": "本句的「pictured」指「在照片、圖畫等圖像中被展示出來的」。",
+        "picture-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-12"
     },
@@ -1308,11 +1192,9 @@ export default {
       "masked": "The book gives a ____ history of the city.",
       "options": [
         "picture-mcq-13",
-        "picture-mcq-12",
-        "picture-mcq-14",
-        "picture-mcq-11",
-        "picture-mcq-15",
-        "picture-mcq-10"
+        "picture-mcq-09",
+        "picture-mcq-10",
+        "picture-mcq-16"
       ],
       "explanation": "本句的「pictorial」指「主要以圖片呈現或與圖像有關的」。",
       "sentenceIndex": 29,
@@ -1321,12 +1203,10 @@ export default {
         "pictorial"
       ],
       "optionReasons": {
-        "picture-mcq-13": "本句指「主要以圖片呈現或與圖像有關的」。",
-        "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。",
-        "picture-mcq-14": "「景物漂亮、有特色，彷彿適合入畫的」是「picturesque」的用法，與本句語境不同。",
-        "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。",
-        "picture-mcq-15": "「外觀看起來極其完美、像精心構圖的照片一樣」是「picture-perfect」的用法，與本句語境不同。",
-        "picture-mcq-10": "「在腦海中形成某人、某物或場景的視覺形象」是「picture — verb: imagine」的用法，與本句語境不同。"
+        "picture-mcq-13": "本句的「pictorial」指「主要以圖片呈現或與圖像有關的」。",
+        "picture-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-13"
     },
@@ -1338,11 +1218,9 @@ export default {
       "masked": "The exhibition includes ____ records of daily life.",
       "options": [
         "picture-mcq-13",
-        "picture-mcq-12",
-        "picture-mcq-14",
-        "picture-mcq-11",
-        "picture-mcq-15",
-        "picture-mcq-10"
+        "picture-pdf-001",
+        "picture-mcq-16",
+        "picture-mcq-08"
       ],
       "explanation": "本句的「pictorial」指「主要以圖片呈現或與圖像有關的」。",
       "sentenceIndex": 30,
@@ -1351,12 +1229,10 @@ export default {
         "pictorial"
       ],
       "optionReasons": {
-        "picture-mcq-13": "本句指「主要以圖片呈現或與圖像有關的」。",
-        "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。",
-        "picture-mcq-14": "「景物漂亮、有特色，彷彿適合入畫的」是「picturesque」的用法，與本句語境不同。",
-        "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。",
-        "picture-mcq-15": "「外觀看起來極其完美、像精心構圖的照片一樣」是「picture-perfect」的用法，與本句語境不同。",
-        "picture-mcq-10": "「在腦海中形成某人、某物或場景的視覺形象」是「picture — verb: imagine」的用法，與本句語境不同。"
+        "picture-mcq-13": "本句的「pictorial」指「主要以圖片呈現或與圖像有關的」。",
+        "picture-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-13"
     },
@@ -1368,11 +1244,9 @@ export default {
       "masked": "They stayed in a ____ village.",
       "options": [
         "picture-mcq-14",
-        "picture-mcq-13",
-        "picture-mcq-15",
-        "picture-mcq-12",
-        "picture-mcq-16",
-        "picture-mcq-11"
+        "picture-pdf-001",
+        "picture-mcq-06",
+        "picture-mcq-13"
       ],
       "explanation": "本句的「picturesque」指「景物漂亮、有特色，彷彿適合入畫的」。",
       "sentenceIndex": 31,
@@ -1381,12 +1255,10 @@ export default {
         "picturesque"
       ],
       "optionReasons": {
-        "picture-mcq-14": "本句指「景物漂亮、有特色，彷彿適合入畫的」。",
-        "picture-mcq-13": "「主要以圖片呈現或與圖像有關的」是「pictorial」的用法，與本句語境不同。",
-        "picture-mcq-15": "「外觀看起來極其完美、像精心構圖的照片一樣」是「picture-perfect」的用法，與本句語境不同。",
-        "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。",
-        "picture-mcq-16": "「對事情有所了解／仍然參與其中」是「in the picture」的用法，與本句語境不同。",
-        "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。"
+        "picture-mcq-14": "本句的「picturesque」指「景物漂亮、有特色，彷彿適合入畫的」。",
+        "picture-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-14"
     },
@@ -1399,10 +1271,8 @@ export default {
       "options": [
         "picture-mcq-14",
         "picture-mcq-13",
-        "picture-mcq-15",
-        "picture-mcq-12",
-        "picture-mcq-16",
-        "picture-mcq-11"
+        "picture-mcq-02",
+        "picture-pdf-001"
       ],
       "explanation": "本句的「picturesque」指「景物漂亮、有特色，彷彿適合入畫的」。",
       "sentenceIndex": 32,
@@ -1411,12 +1281,10 @@ export default {
         "picturesque"
       ],
       "optionReasons": {
-        "picture-mcq-14": "本句指「景物漂亮、有特色，彷彿適合入畫的」。",
-        "picture-mcq-13": "「主要以圖片呈現或與圖像有關的」是「pictorial」的用法，與本句語境不同。",
-        "picture-mcq-15": "「外觀看起來極其完美、像精心構圖的照片一樣」是「picture-perfect」的用法，與本句語境不同。",
-        "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。",
-        "picture-mcq-16": "「對事情有所了解／仍然參與其中」是「in the picture」的用法，與本句語境不同。",
-        "picture-mcq-11": "「用圖片、照片或圖畫把某人／某物呈現出來」是「picture — verb: depict」的用法，與本句語境不同。"
+        "picture-mcq-14": "本句的「picturesque」指「景物漂亮、有特色，彷彿適合入畫的」。",
+        "picture-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-14"
     },
@@ -1428,11 +1296,9 @@ export default {
       "masked": "The garden looked ____ in the morning light.",
       "options": [
         "picture-mcq-15",
-        "picture-mcq-14",
-        "picture-mcq-16",
-        "picture-mcq-13",
         "picture-mcq-17",
-        "picture-mcq-12"
+        "picture-mcq-14",
+        "picture-mcq-04"
       ],
       "explanation": "本句的「picture-perfect」指「外觀看起來極其完美、像精心構圖的照片一樣」。",
       "sentenceIndex": 33,
@@ -1441,12 +1307,10 @@ export default {
         "picture-perfect"
       ],
       "optionReasons": {
-        "picture-mcq-15": "本句指「外觀看起來極其完美、像精心構圖的照片一樣」。",
-        "picture-mcq-14": "「景物漂亮、有特色，彷彿適合入畫的」是「picturesque」的用法，與本句語境不同。",
-        "picture-mcq-16": "「對事情有所了解／仍然參與其中」是「in the picture」的用法，與本句語境不同。",
-        "picture-mcq-13": "「主要以圖片呈現或與圖像有關的」是「pictorial」的用法，與本句語境不同。",
-        "picture-mcq-17": "「不再參與、影響或被納入考慮」是「out of the picture」的用法，與本句語境不同。",
-        "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。"
+        "picture-mcq-15": "本句的「picture-perfect」指「外觀看起來極其完美、像精心構圖的照片一樣」。",
+        "picture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-15"
     },
@@ -1458,11 +1322,9 @@ export default {
       "masked": "They chose a ____ location for the ceremony.",
       "options": [
         "picture-mcq-15",
+        "picture-mcq-09",
         "picture-mcq-14",
-        "picture-mcq-16",
-        "picture-mcq-13",
-        "picture-mcq-17",
-        "picture-mcq-12"
+        "picture-mcq-17"
       ],
       "explanation": "本句的「picture-perfect」指「外觀看起來極其完美、像精心構圖的照片一樣」。",
       "sentenceIndex": 34,
@@ -1471,12 +1333,10 @@ export default {
         "picture-perfect"
       ],
       "optionReasons": {
-        "picture-mcq-15": "本句指「外觀看起來極其完美、像精心構圖的照片一樣」。",
-        "picture-mcq-14": "「景物漂亮、有特色，彷彿適合入畫的」是「picturesque」的用法，與本句語境不同。",
-        "picture-mcq-16": "「對事情有所了解／仍然參與其中」是「in the picture」的用法，與本句語境不同。",
-        "picture-mcq-13": "「主要以圖片呈現或與圖像有關的」是「pictorial」的用法，與本句語境不同。",
-        "picture-mcq-17": "「不再參與、影響或被納入考慮」是「out of the picture」的用法，與本句語境不同。",
-        "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。"
+        "picture-mcq-15": "本句的「picture-perfect」指「外觀看起來極其完美、像精心構圖的照片一樣」。",
+        "picture-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-15"
     },
@@ -1488,11 +1348,9 @@ export default {
       "masked": "Keep me ____ about any changes.",
       "options": [
         "picture-mcq-16",
-        "picture-mcq-15",
-        "picture-mcq-17",
-        "picture-mcq-14",
-        "picture-mcq-13",
-        "picture-mcq-12"
+        "picture-mcq-12",
+        "picture-pdf-001",
+        "picture-mcq-10"
       ],
       "explanation": "本句的「in the picture」指「對事情有所了解／仍然參與其中」。",
       "sentenceIndex": 35,
@@ -1501,12 +1359,10 @@ export default {
         "in the picture"
       ],
       "optionReasons": {
-        "picture-mcq-16": "本句指「對事情有所了解／仍然參與其中」。",
-        "picture-mcq-15": "「外觀看起來極其完美、像精心構圖的照片一樣」是「picture-perfect」的用法，與本句語境不同。",
-        "picture-mcq-17": "「不再參與、影響或被納入考慮」是「out of the picture」的用法，與本句語境不同。",
-        "picture-mcq-14": "「景物漂亮、有特色，彷彿適合入畫的」是「picturesque」的用法，與本句語境不同。",
-        "picture-mcq-13": "「主要以圖片呈現或與圖像有關的」是「pictorial」的用法，與本句語境不同。",
-        "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。"
+        "picture-mcq-16": "本句的「in the picture」指「對事情有所了解／仍然參與其中」。",
+        "picture-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-16"
     },
@@ -1518,11 +1374,9 @@ export default {
       "masked": "She was not fully in the ____.",
       "options": [
         "picture-mcq-16",
-        "picture-mcq-15",
-        "picture-mcq-17",
-        "picture-mcq-14",
+        "picture-pdf-001",
         "picture-mcq-13",
-        "picture-mcq-12"
+        "picture-mcq-02"
       ],
       "explanation": "本句的「picture」指「對事情有所了解／仍然參與其中」。",
       "sentenceIndex": 36,
@@ -1531,12 +1385,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-16": "本句指「對事情有所了解／仍然參與其中」。",
-        "picture-mcq-15": "「外觀看起來極其完美、像精心構圖的照片一樣」是「picture-perfect」的用法，與本句語境不同。",
-        "picture-mcq-17": "「不再參與、影響或被納入考慮」是「out of the picture」的用法，與本句語境不同。",
-        "picture-mcq-14": "「景物漂亮、有特色，彷彿適合入畫的」是「picturesque」的用法，與本句語境不同。",
-        "picture-mcq-13": "「主要以圖片呈現或與圖像有關的」是「pictorial」的用法，與本句語境不同。",
-        "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。"
+        "picture-mcq-16": "本句的「picture」指「對事情有所了解／仍然參與其中」。",
+        "picture-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-16"
     },
@@ -1548,11 +1400,9 @@ export default {
       "masked": "Once that option was ____, they considered other plans.",
       "options": [
         "picture-mcq-17",
-        "picture-mcq-16",
-        "picture-mcq-15",
-        "picture-mcq-14",
-        "picture-mcq-13",
-        "picture-mcq-12"
+        "picture-mcq-02",
+        "picture-mcq-05",
+        "picture-mcq-10"
       ],
       "explanation": "本句的「out of the picture」指「不再參與、影響或被納入考慮」。",
       "sentenceIndex": 37,
@@ -1561,12 +1411,10 @@ export default {
         "out of the picture"
       ],
       "optionReasons": {
-        "picture-mcq-17": "本句指「不再參與、影響或被納入考慮」。",
-        "picture-mcq-16": "「對事情有所了解／仍然參與其中」是「in the picture」的用法，與本句語境不同。",
-        "picture-mcq-15": "「外觀看起來極其完美、像精心構圖的照片一樣」是「picture-perfect」的用法，與本句語境不同。",
-        "picture-mcq-14": "「景物漂亮、有特色，彷彿適合入畫的」是「picturesque」的用法，與本句語境不同。",
-        "picture-mcq-13": "「主要以圖片呈現或與圖像有關的」是「pictorial」的用法，與本句語境不同。",
-        "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。"
+        "picture-mcq-17": "本句的「out of the picture」指「不再參與、影響或被納入考慮」。",
+        "picture-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-17"
     },
@@ -1578,11 +1426,9 @@ export default {
       "masked": "He is no longer in charge, so he is effectively out of the ____.",
       "options": [
         "picture-mcq-17",
-        "picture-mcq-16",
-        "picture-mcq-15",
-        "picture-mcq-14",
-        "picture-mcq-13",
-        "picture-mcq-12"
+        "picture-mcq-04",
+        "picture-pdf-002",
+        "picture-mcq-15"
       ],
       "explanation": "本句的「picture」指「不再參與、影響或被納入考慮」。",
       "sentenceIndex": 38,
@@ -1591,12 +1437,10 @@ export default {
         "picture"
       ],
       "optionReasons": {
-        "picture-mcq-17": "本句指「不再參與、影響或被納入考慮」。",
-        "picture-mcq-16": "「對事情有所了解／仍然參與其中」是「in the picture」的用法，與本句語境不同。",
-        "picture-mcq-15": "「外觀看起來極其完美、像精心構圖的照片一樣」是「picture-perfect」的用法，與本句語境不同。",
-        "picture-mcq-14": "「景物漂亮、有特色，彷彿適合入畫的」是「picturesque」的用法，與本句語境不同。",
-        "picture-mcq-13": "「主要以圖片呈現或與圖像有關的」是「pictorial」的用法，與本句語境不同。",
-        "picture-mcq-12": "「在照片、圖畫等圖像中被展示出來的」是「pictured」的用法，與本句語境不同。"
+        "picture-mcq-17": "本句的「picture」指「不再參與、影響或被納入考慮」。",
+        "picture-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "picture-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "picture-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "picture-mcq-17"
     }
@@ -1608,5 +1452,7 @@ export default {
     "sha256": "4530700caa3427887473cdb87dcf7326910ba5624cf79f6a70e7dd4cb29ad9cf",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

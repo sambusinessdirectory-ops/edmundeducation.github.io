@@ -199,7 +199,7 @@ export default {
     },
     {
       "id": "consideration-mcq-10",
-      "title": "表示自己會辦妥；包在我身上",
+      "title": "自己會辦妥；包在我身上",
       "form": "consider it done",
       "en": "consider it done",
       "zh": "表示自己會辦妥；包在我身上",
@@ -672,11 +672,9 @@ export default {
       "masked": "We need to ____ the problem carefully.",
       "options": [
         "consideration-mcq-01",
-        "consideration-mcq-02",
-        "consideration-mcq-03",
-        "consideration-mcq-04",
-        "consideration-mcq-05",
-        "consideration-mcq-06"
+        "consideration-mcq-26",
+        "consideration-mcq-19",
+        "consideration-pdf-001"
       ],
       "explanation": "本句的「consider」指「對某件事仔細思考／考慮」。",
       "sentenceIndex": 0,
@@ -685,12 +683,10 @@ export default {
         "consider"
       ],
       "optionReasons": {
-        "consideration-mcq-01": "本句指「對某件事仔細思考／考慮」。",
-        "consideration-mcq-02": "「考慮是否做某件事」與本句語境不同。",
-        "consideration-mcq-03": "「思考某個問題應否／如何處理」與本句語境不同。",
-        "consideration-mcq-04": "「把某因素納入判斷，顧及其影響」與本句語境不同。",
-        "consideration-mcq-05": "「顧及別人的需要或感受」與本句語境不同。",
-        "consideration-mcq-06": "「認為／視 X 為 Y」與本句語境不同。"
+        "consideration-mcq-01": "本句的「consider」指「對某件事仔細思考／考慮」。",
+        "consideration-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "consideration-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-01"
     },
@@ -702,11 +698,9 @@ export default {
       "masked": "She paused to ____ her options.",
       "options": [
         "consideration-mcq-01",
-        "consideration-mcq-02",
-        "consideration-mcq-03",
-        "consideration-mcq-04",
-        "consideration-mcq-05",
-        "consideration-mcq-06"
+        "consideration-mcq-32",
+        "consideration-mcq-09",
+        "consideration-mcq-27"
       ],
       "explanation": "本句的「consider」指「對某件事仔細思考／考慮」。",
       "sentenceIndex": 1,
@@ -715,12 +709,10 @@ export default {
         "consider"
       ],
       "optionReasons": {
-        "consideration-mcq-01": "本句指「對某件事仔細思考／考慮」。",
-        "consideration-mcq-02": "「考慮是否做某件事」與本句語境不同。",
-        "consideration-mcq-03": "「思考某個問題應否／如何處理」與本句語境不同。",
-        "consideration-mcq-04": "「把某因素納入判斷，顧及其影響」與本句語境不同。",
-        "consideration-mcq-05": "「顧及別人的需要或感受」與本句語境不同。",
-        "consideration-mcq-06": "「認為／視 X 為 Y」與本句語境不同。"
+        "consideration-mcq-01": "本句的「consider」指「對某件事仔細思考／考慮」。",
+        "consideration-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-01"
     },
@@ -732,11 +724,9 @@ export default {
       "masked": "She is ____ abroad.",
       "options": [
         "consideration-mcq-02",
-        "consideration-mcq-01",
-        "consideration-mcq-03",
-        "consideration-mcq-04",
-        "consideration-mcq-05",
-        "consideration-mcq-06"
+        "consideration-pdf-002",
+        "consideration-mcq-06",
+        "consideration-mcq-27"
       ],
       "explanation": "本句的「considering moving」指「考慮是否做某件事」。",
       "sentenceIndex": 2,
@@ -745,12 +735,10 @@ export default {
         "considering moving"
       ],
       "optionReasons": {
-        "consideration-mcq-02": "本句指「考慮是否做某件事」。",
-        "consideration-mcq-01": "「對某件事仔細思考／考慮」與本句語境不同。",
-        "consideration-mcq-03": "「思考某個問題應否／如何處理」與本句語境不同。",
-        "consideration-mcq-04": "「把某因素納入判斷，顧及其影響」與本句語境不同。",
-        "consideration-mcq-05": "「顧及別人的需要或感受」與本句語境不同。",
-        "consideration-mcq-06": "「認為／視 X 為 Y」與本句語境不同。"
+        "consideration-mcq-02": "本句的「considering moving」指「考慮是否做某件事」。",
+        "consideration-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-02"
     },
@@ -762,11 +750,9 @@ export default {
       "masked": "Have you ever ____ jobs?",
       "options": [
         "consideration-mcq-02",
-        "consideration-mcq-01",
-        "consideration-mcq-03",
-        "consideration-mcq-04",
-        "consideration-mcq-05",
-        "consideration-mcq-06"
+        "consideration-mcq-32",
+        "consideration-mcq-06",
+        "consideration-mcq-10"
       ],
       "explanation": "本句的「considered changing」指「考慮是否做某件事」。",
       "sentenceIndex": 3,
@@ -775,12 +761,10 @@ export default {
         "considered changing"
       ],
       "optionReasons": {
-        "consideration-mcq-02": "本句指「考慮是否做某件事」。",
-        "consideration-mcq-01": "「對某件事仔細思考／考慮」與本句語境不同。",
-        "consideration-mcq-03": "「思考某個問題應否／如何處理」與本句語境不同。",
-        "consideration-mcq-04": "「把某因素納入判斷，顧及其影響」與本句語境不同。",
-        "consideration-mcq-05": "「顧及別人的需要或感受」與本句語境不同。",
-        "consideration-mcq-06": "「認為／視 X 為 Y」與本句語境不同。"
+        "consideration-mcq-02": "本句的「considered changing」指「考慮是否做某件事」。",
+        "consideration-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-02"
     },
@@ -792,11 +776,9 @@ export default {
       "masked": "We should ____ the plan is realistic.",
       "options": [
         "consideration-mcq-03",
-        "consideration-mcq-02",
-        "consideration-mcq-04",
-        "consideration-mcq-01",
-        "consideration-mcq-05",
-        "consideration-mcq-06"
+        "consideration-pdf-001",
+        "consideration-mcq-19",
+        "consideration-mcq-27"
       ],
       "explanation": "本句的「consider whether」指「思考某個問題應否／如何處理」。",
       "sentenceIndex": 4,
@@ -805,12 +787,10 @@ export default {
         "consider whether"
       ],
       "optionReasons": {
-        "consideration-mcq-03": "本句指「思考某個問題應否／如何處理」。",
-        "consideration-mcq-02": "「考慮是否做某件事」與本句語境不同。",
-        "consideration-mcq-04": "「把某因素納入判斷，顧及其影響」與本句語境不同。",
-        "consideration-mcq-01": "「對某件事仔細思考／考慮」與本句語境不同。",
-        "consideration-mcq-05": "「顧及別人的需要或感受」與本句語境不同。",
-        "consideration-mcq-06": "「認為／視 X 為 Y」與本句語境不同。"
+        "consideration-mcq-03": "本句的「consider whether」指「思考某個問題應否／如何處理」。",
+        "consideration-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-03"
     },
@@ -822,11 +802,9 @@ export default {
       "masked": "We must ____ the needs of elderly customers.",
       "options": [
         "consideration-mcq-04",
-        "consideration-mcq-03",
-        "consideration-mcq-05",
-        "consideration-mcq-02",
-        "consideration-mcq-06",
-        "consideration-mcq-01"
+        "consideration-mcq-09",
+        "consideration-mcq-27",
+        "consideration-mcq-14"
       ],
       "explanation": "本句的「consider」指「把某因素納入判斷，顧及其影響」。",
       "sentenceIndex": 7,
@@ -835,12 +813,10 @@ export default {
         "consider"
       ],
       "optionReasons": {
-        "consideration-mcq-04": "本句指「把某因素納入判斷，顧及其影響」。",
-        "consideration-mcq-03": "「思考某個問題應否／如何處理」與本句語境不同。",
-        "consideration-mcq-05": "「顧及別人的需要或感受」與本句語境不同。",
-        "consideration-mcq-02": "「考慮是否做某件事」與本句語境不同。",
-        "consideration-mcq-06": "「認為／視 X 為 Y」與本句語境不同。",
-        "consideration-mcq-01": "「對某件事仔細思考／考慮」與本句語境不同。"
+        "consideration-mcq-04": "本句的「consider」指「把某因素納入判斷，顧及其影響」。",
+        "consideration-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-04"
     },
@@ -852,11 +828,9 @@ export default {
       "masked": "You should ____ the cost before making a decision.",
       "options": [
         "consideration-mcq-04",
-        "consideration-mcq-03",
-        "consideration-mcq-05",
-        "consideration-mcq-02",
-        "consideration-mcq-06",
-        "consideration-mcq-01"
+        "consideration-mcq-32",
+        "consideration-mcq-12",
+        "consideration-mcq-18"
       ],
       "explanation": "本句的「consider」指「把某因素納入判斷，顧及其影響」。",
       "sentenceIndex": 8,
@@ -865,12 +839,10 @@ export default {
         "consider"
       ],
       "optionReasons": {
-        "consideration-mcq-04": "本句指「把某因素納入判斷，顧及其影響」。",
-        "consideration-mcq-03": "「思考某個問題應否／如何處理」與本句語境不同。",
-        "consideration-mcq-05": "「顧及別人的需要或感受」與本句語境不同。",
-        "consideration-mcq-02": "「考慮是否做某件事」與本句語境不同。",
-        "consideration-mcq-06": "「認為／視 X 為 Y」與本句語境不同。",
-        "consideration-mcq-01": "「對某件事仔細思考／考慮」與本句語境不同。"
+        "consideration-mcq-04": "本句的「consider」指「把某因素納入判斷，顧及其影響」。",
+        "consideration-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-04"
     },
@@ -882,11 +854,9 @@ export default {
       "masked": "You need to ____ other people.",
       "options": [
         "consideration-mcq-05",
-        "consideration-mcq-04",
-        "consideration-mcq-06",
-        "consideration-mcq-03",
+        "consideration-mcq-16",
         "consideration-mcq-07",
-        "consideration-mcq-02"
+        "consideration-mcq-14"
       ],
       "explanation": "本句的「consider」指「顧及別人的需要或感受」。",
       "sentenceIndex": 9,
@@ -895,12 +865,10 @@ export default {
         "consider"
       ],
       "optionReasons": {
-        "consideration-mcq-05": "本句指「顧及別人的需要或感受」。",
-        "consideration-mcq-04": "「把某因素納入判斷，顧及其影響」與本句語境不同。",
-        "consideration-mcq-06": "「認為／視 X 為 Y」與本句語境不同。",
-        "consideration-mcq-03": "「思考某個問題應否／如何處理」與本句語境不同。",
-        "consideration-mcq-07": "「認為 X 是 Y」與本句語境不同。",
-        "consideration-mcq-02": "「考慮是否做某件事」與本句語境不同。"
+        "consideration-mcq-05": "本句的「consider」指「顧及別人的需要或感受」。",
+        "consideration-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-05"
     },
@@ -912,11 +880,9 @@ export default {
       "masked": "I ____ him a reliable colleague.",
       "options": [
         "consideration-mcq-06",
-        "consideration-mcq-05",
-        "consideration-mcq-07",
-        "consideration-mcq-04",
-        "consideration-mcq-08",
-        "consideration-mcq-03"
+        "consideration-mcq-19",
+        "consideration-mcq-14",
+        "consideration-mcq-27"
       ],
       "explanation": "本句的「consider」指「認為／視 X 為 Y」。",
       "sentenceIndex": 10,
@@ -925,12 +891,10 @@ export default {
         "consider"
       ],
       "optionReasons": {
-        "consideration-mcq-06": "本句指「認為／視 X 為 Y」。",
-        "consideration-mcq-05": "「顧及別人的需要或感受」與本句語境不同。",
-        "consideration-mcq-07": "「認為 X 是 Y」與本句語境不同。",
-        "consideration-mcq-04": "「把某因素納入判斷，顧及其影響」與本句語境不同。",
-        "consideration-mcq-08": "「被普遍認為／視為 X」與本句語境不同。",
-        "consideration-mcq-03": "「思考某個問題應否／如何處理」與本句語境不同。"
+        "consideration-mcq-06": "本句的「consider」指「認為／視 X 為 Y」。",
+        "consideration-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-06"
     },
@@ -942,11 +906,9 @@ export default {
       "masked": "They ____ the plan unrealistic.",
       "options": [
         "consideration-mcq-06",
-        "consideration-mcq-05",
-        "consideration-mcq-07",
-        "consideration-mcq-04",
-        "consideration-mcq-08",
-        "consideration-mcq-03"
+        "consideration-mcq-14",
+        "consideration-mcq-19",
+        "consideration-mcq-29"
       ],
       "explanation": "本句的「consider」指「認為／視 X 為 Y」。",
       "sentenceIndex": 11,
@@ -955,12 +917,10 @@ export default {
         "consider"
       ],
       "optionReasons": {
-        "consideration-mcq-06": "本句指「認為／視 X 為 Y」。",
-        "consideration-mcq-05": "「顧及別人的需要或感受」與本句語境不同。",
-        "consideration-mcq-07": "「認為 X 是 Y」與本句語境不同。",
-        "consideration-mcq-04": "「把某因素納入判斷，顧及其影響」與本句語境不同。",
-        "consideration-mcq-08": "「被普遍認為／視為 X」與本句語境不同。",
-        "consideration-mcq-03": "「思考某個問題應否／如何處理」與本句語境不同。"
+        "consideration-mcq-06": "本句的「consider」指「認為／視 X 為 Y」。",
+        "consideration-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-06"
     },
@@ -972,11 +932,9 @@ export default {
       "masked": "The building is ____ historically important.",
       "options": [
         "consideration-mcq-07",
-        "consideration-mcq-06",
-        "consideration-mcq-08",
-        "consideration-mcq-05",
-        "consideration-mcq-09",
-        "consideration-mcq-04"
+        "consideration-mcq-02",
+        "consideration-mcq-26",
+        "consideration-pdf-002"
       ],
       "explanation": "本句的「considered to be」指「認為 X 是 Y」。",
       "sentenceIndex": 12,
@@ -985,12 +943,10 @@ export default {
         "considered to be"
       ],
       "optionReasons": {
-        "consideration-mcq-07": "本句指「認為 X 是 Y」。",
-        "consideration-mcq-06": "「認為／視 X 為 Y」與本句語境不同。",
-        "consideration-mcq-08": "「被普遍認為／視為 X」與本句語境不同。",
-        "consideration-mcq-05": "「顧及別人的需要或感受」與本句語境不同。",
-        "consideration-mcq-09": "「評估某人是否適合某職位／機會」與本句語境不同。",
-        "consideration-mcq-04": "「把某因素納入判斷，顧及其影響」與本句語境不同。"
+        "consideration-mcq-07": "本句的「considered to be」指「認為 X 是 Y」。",
+        "consideration-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "consideration-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-07"
     },
@@ -1002,11 +958,9 @@ export default {
       "masked": "She is widely ____ an expert.",
       "options": [
         "consideration-mcq-07",
-        "consideration-mcq-06",
-        "consideration-mcq-08",
-        "consideration-mcq-05",
-        "consideration-mcq-09",
-        "consideration-mcq-04"
+        "consideration-mcq-15",
+        "consideration-mcq-32",
+        "consideration-mcq-05"
       ],
       "explanation": "本句的「considered to be」指「認為 X 是 Y」。",
       "sentenceIndex": 13,
@@ -1015,12 +969,10 @@ export default {
         "considered to be"
       ],
       "optionReasons": {
-        "consideration-mcq-07": "本句指「認為 X 是 Y」。",
-        "consideration-mcq-06": "「認為／視 X 為 Y」與本句語境不同。",
-        "consideration-mcq-08": "「被普遍認為／視為 X」與本句語境不同。",
-        "consideration-mcq-05": "「顧及別人的需要或感受」與本句語境不同。",
-        "consideration-mcq-09": "「評估某人是否適合某職位／機會」與本句語境不同。",
-        "consideration-mcq-04": "「把某因素納入判斷，顧及其影響」與本句語境不同。"
+        "consideration-mcq-07": "本句的「considered to be」指「認為 X 是 Y」。",
+        "consideration-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-07"
     },
@@ -1032,11 +984,9 @@ export default {
       "masked": "The area is ____.",
       "options": [
         "consideration-mcq-07",
-        "consideration-mcq-06",
-        "consideration-mcq-08",
-        "consideration-mcq-05",
-        "consideration-mcq-09",
-        "consideration-mcq-04"
+        "consideration-mcq-19",
+        "consideration-pdf-003",
+        "consideration-mcq-26"
       ],
       "explanation": "本句的「considered safe」指「認為 X 是 Y」。",
       "sentenceIndex": 14,
@@ -1045,12 +995,10 @@ export default {
         "considered safe"
       ],
       "optionReasons": {
-        "consideration-mcq-07": "本句指「認為 X 是 Y」。",
-        "consideration-mcq-06": "「認為／視 X 為 Y」與本句語境不同。",
-        "consideration-mcq-08": "「被普遍認為／視為 X」與本句語境不同。",
-        "consideration-mcq-05": "「顧及別人的需要或感受」與本句語境不同。",
-        "consideration-mcq-09": "「評估某人是否適合某職位／機會」與本句語境不同。",
-        "consideration-mcq-04": "「把某因素納入判斷，顧及其影響」與本句語境不同。"
+        "consideration-mcq-07": "本句的「considered safe」指「認為 X 是 Y」。",
+        "consideration-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "consideration-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-07"
     },
@@ -1062,11 +1010,9 @@ export default {
       "masked": "He is ____.",
       "options": [
         "consideration-mcq-07",
-        "consideration-mcq-06",
-        "consideration-mcq-08",
-        "consideration-mcq-05",
-        "consideration-mcq-09",
-        "consideration-mcq-04"
+        "consideration-mcq-16",
+        "consideration-mcq-18",
+        "consideration-mcq-02"
       ],
       "explanation": "本句的「considered a leading researcher」指「認為 X 是 Y」。",
       "sentenceIndex": 15,
@@ -1075,12 +1021,10 @@ export default {
         "considered a leading researcher"
       ],
       "optionReasons": {
-        "consideration-mcq-07": "本句指「認為 X 是 Y」。",
-        "consideration-mcq-06": "「認為／視 X 為 Y」與本句語境不同。",
-        "consideration-mcq-08": "「被普遍認為／視為 X」與本句語境不同。",
-        "consideration-mcq-05": "「顧及別人的需要或感受」與本句語境不同。",
-        "consideration-mcq-09": "「評估某人是否適合某職位／機會」與本句語境不同。",
-        "consideration-mcq-04": "「把某因素納入判斷，顧及其影響」與本句語境不同。"
+        "consideration-mcq-07": "本句的「considered a leading researcher」指「認為 X 是 Y」。",
+        "consideration-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-07"
     },
@@ -1092,11 +1036,9 @@ export default {
       "masked": "I ____ further investigation is necessary.",
       "options": [
         "consideration-mcq-07",
-        "consideration-mcq-06",
-        "consideration-mcq-08",
-        "consideration-mcq-05",
-        "consideration-mcq-09",
-        "consideration-mcq-04"
+        "consideration-mcq-29",
+        "consideration-mcq-12",
+        "consideration-mcq-26"
       ],
       "explanation": "本句的「consider that」指「認為 X 是 Y」。",
       "sentenceIndex": 16,
@@ -1105,12 +1047,10 @@ export default {
         "consider that"
       ],
       "optionReasons": {
-        "consideration-mcq-07": "本句指「認為 X 是 Y」。",
-        "consideration-mcq-06": "「認為／視 X 為 Y」與本句語境不同。",
-        "consideration-mcq-08": "「被普遍認為／視為 X」與本句語境不同。",
-        "consideration-mcq-05": "「顧及別人的需要或感受」與本句語境不同。",
-        "consideration-mcq-09": "「評估某人是否適合某職位／機會」與本句語境不同。",
-        "consideration-mcq-04": "「把某因素納入判斷，顧及其影響」與本句語境不同。"
+        "consideration-mcq-07": "本句的「consider that」指「認為 X 是 Y」。",
+        "consideration-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-07"
     },
@@ -1122,11 +1062,9 @@ export default {
       "masked": "Can you send the documents today?” > “____",
       "options": [
         "consideration-mcq-10",
-        "consideration-mcq-09",
-        "consideration-mcq-11",
-        "consideration-mcq-08",
-        "consideration-mcq-12",
-        "consideration-mcq-07"
+        "consideration-mcq-14",
+        "consideration-mcq-16",
+        "consideration-mcq-29"
       ],
       "explanation": "本句的「Consider it done.」指「表示自己會辦妥；包在我身上」。",
       "sentenceIndex": 18,
@@ -1135,12 +1073,10 @@ export default {
         "Consider it done."
       ],
       "optionReasons": {
-        "consideration-mcq-10": "本句指「表示自己會辦妥；包在我身上」。",
-        "consideration-mcq-09": "「評估某人是否適合某職位／機會」與本句語境不同。",
-        "consideration-mcq-11": "「把所有相關因素都考慮後；總體而言」與本句語境不同。",
-        "consideration-mcq-08": "「被普遍認為／視為 X」與本句語境不同。",
-        "consideration-mcq-12": "「考慮到；鑑於」與本句語境不同。",
-        "consideration-mcq-07": "「認為 X 是 Y」與本句語境不同。"
+        "consideration-mcq-10": "本句的「Consider it done.」指「表示自己會辦妥；包在我身上」。",
+        "consideration-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-10"
     },
@@ -1152,11 +1088,9 @@ export default {
       "masked": "She is being ____ promotion.",
       "options": [
         "consideration-mcq-09",
-        "consideration-mcq-08",
-        "consideration-mcq-10",
-        "consideration-mcq-07",
-        "consideration-mcq-11",
-        "consideration-mcq-06"
+        "consideration-mcq-26",
+        "consideration-mcq-32",
+        "consideration-mcq-15"
       ],
       "explanation": "本句的「considered for」指「評估某人是否適合某職位／機會」。",
       "sentenceIndex": 19,
@@ -1165,12 +1099,10 @@ export default {
         "considered for"
       ],
       "optionReasons": {
-        "consideration-mcq-09": "本句指「評估某人是否適合某職位／機會」。",
-        "consideration-mcq-08": "「被普遍認為／視為 X」與本句語境不同。",
-        "consideration-mcq-10": "「表示自己會辦妥；包在我身上」與本句語境不同。",
-        "consideration-mcq-07": "「認為 X 是 Y」與本句語境不同。",
-        "consideration-mcq-11": "「把所有相關因素都考慮後；總體而言」與本句語境不同。",
-        "consideration-mcq-06": "「認為／視 X 為 Y」與本句語境不同。"
+        "consideration-mcq-09": "本句的「considered for」指「評估某人是否適合某職位／機會」。",
+        "consideration-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-09"
     },
@@ -1182,11 +1114,9 @@ export default {
       "masked": "Several candidates are under ____ for the position.",
       "options": [
         "consideration-mcq-09",
-        "consideration-mcq-08",
-        "consideration-mcq-10",
-        "consideration-mcq-07",
-        "consideration-mcq-11",
-        "consideration-mcq-06"
+        "consideration-mcq-32",
+        "consideration-mcq-22",
+        "consideration-mcq-15"
       ],
       "explanation": "本句的「consideration」指「評估某人是否適合某職位／機會」。",
       "sentenceIndex": 20,
@@ -1195,12 +1125,10 @@ export default {
         "consideration"
       ],
       "optionReasons": {
-        "consideration-mcq-09": "本句指「評估某人是否適合某職位／機會」。",
-        "consideration-mcq-08": "「被普遍認為／視為 X」與本句語境不同。",
-        "consideration-mcq-10": "「表示自己會辦妥；包在我身上」與本句語境不同。",
-        "consideration-mcq-07": "「認為 X 是 Y」與本句語境不同。",
-        "consideration-mcq-11": "「把所有相關因素都考慮後；總體而言」與本句語境不同。",
-        "consideration-mcq-06": "「認為／視 X 為 Y」與本句語境不同。"
+        "consideration-mcq-09": "本句的「consideration」指「評估某人是否適合某職位／機會」。",
+        "consideration-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-09"
     },
@@ -1212,11 +1140,9 @@ export default {
       "masked": "All things ____, the plan worked quite well.",
       "options": [
         "consideration-mcq-11",
-        "consideration-mcq-10",
-        "consideration-mcq-12",
-        "consideration-mcq-09",
-        "consideration-mcq-13",
-        "consideration-mcq-08"
+        "consideration-pdf-001",
+        "consideration-mcq-27",
+        "consideration-mcq-32"
       ],
       "explanation": "本句的「considered」指「把所有相關因素都考慮後；總體而言」。",
       "sentenceIndex": 21,
@@ -1225,12 +1151,10 @@ export default {
         "considered"
       ],
       "optionReasons": {
-        "consideration-mcq-11": "本句指「把所有相關因素都考慮後；總體而言」。",
-        "consideration-mcq-10": "「表示自己會辦妥；包在我身上」與本句語境不同。",
-        "consideration-mcq-12": "「考慮到；鑑於」與本句語境不同。",
-        "consideration-mcq-09": "「評估某人是否適合某職位／機會」與本句語境不同。",
-        "consideration-mcq-13": "「作決定前的仔細思考／考慮」與本句語境不同。",
-        "consideration-mcq-08": "「被普遍認為／視為 X」與本句語境不同。"
+        "consideration-mcq-11": "本句的「considered」指「把所有相關因素都考慮後；總體而言」。",
+        "consideration-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-11"
     },
@@ -1242,11 +1166,9 @@ export default {
       "masked": "The result was excellent, ____ the limited time.",
       "options": [
         "consideration-mcq-12",
-        "consideration-mcq-11",
-        "consideration-mcq-13",
-        "consideration-mcq-10",
-        "consideration-mcq-14",
-        "consideration-mcq-09"
+        "consideration-mcq-18",
+        "consideration-mcq-06",
+        "consideration-mcq-26"
       ],
       "explanation": "本句的「considering」指「考慮到；鑑於」。",
       "sentenceIndex": 23,
@@ -1255,12 +1177,10 @@ export default {
         "considering"
       ],
       "optionReasons": {
-        "consideration-mcq-12": "本句指「考慮到；鑑於」。",
-        "consideration-mcq-11": "「把所有相關因素都考慮後；總體而言」與本句語境不同。",
-        "consideration-mcq-13": "「作決定前的仔細思考／考慮」與本句語境不同。",
-        "consideration-mcq-10": "「表示自己會辦妥；包在我身上」與本句語境不同。",
-        "consideration-mcq-14": "「正在審議／考慮之中」與本句語境不同。",
-        "consideration-mcq-09": "「評估某人是否適合某職位／機會」與本句語境不同。"
+        "consideration-mcq-12": "本句的「considering」指「考慮到；鑑於」。",
+        "consideration-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-12"
     },
@@ -1272,11 +1192,9 @@ export default {
       "masked": "The restaurant was remarkably quiet, ____ it was lunchtime.",
       "options": [
         "consideration-mcq-12",
-        "consideration-mcq-11",
-        "consideration-mcq-13",
-        "consideration-mcq-10",
-        "consideration-mcq-14",
-        "consideration-mcq-09"
+        "consideration-mcq-27",
+        "consideration-mcq-29",
+        "consideration-mcq-06"
       ],
       "explanation": "本句的「considering that」指「考慮到；鑑於」。",
       "sentenceIndex": 24,
@@ -1285,12 +1203,10 @@ export default {
         "considering that"
       ],
       "optionReasons": {
-        "consideration-mcq-12": "本句指「考慮到；鑑於」。",
-        "consideration-mcq-11": "「把所有相關因素都考慮後；總體而言」與本句語境不同。",
-        "consideration-mcq-13": "「作決定前的仔細思考／考慮」與本句語境不同。",
-        "consideration-mcq-10": "「表示自己會辦妥；包在我身上」與本句語境不同。",
-        "consideration-mcq-14": "「正在審議／考慮之中」與本句語境不同。",
-        "consideration-mcq-09": "「評估某人是否適合某職位／機會」與本句語境不同。"
+        "consideration-mcq-12": "本句的「considering that」指「考慮到；鑑於」。",
+        "consideration-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-12"
     },
@@ -1302,11 +1218,9 @@ export default {
       "masked": "After careful ____, we rejected the proposal.",
       "options": [
         "consideration-mcq-13",
-        "consideration-mcq-12",
-        "consideration-mcq-14",
-        "consideration-mcq-11",
-        "consideration-mcq-15",
-        "consideration-mcq-10"
+        "consideration-mcq-27",
+        "consideration-pdf-002",
+        "consideration-mcq-19"
       ],
       "explanation": "本句的「consideration」指「作決定前的仔細思考／考慮」。",
       "sentenceIndex": 25,
@@ -1315,12 +1229,10 @@ export default {
         "consideration"
       ],
       "optionReasons": {
-        "consideration-mcq-13": "本句指「作決定前的仔細思考／考慮」。",
-        "consideration-mcq-12": "「考慮到；鑑於」與本句語境不同。",
-        "consideration-mcq-14": "「正在審議／考慮之中」與本句語境不同。",
-        "consideration-mcq-11": "「把所有相關因素都考慮後；總體而言」與本句語境不同。",
-        "consideration-mcq-15": "「把某因素考慮在內」與本句語境不同。",
-        "consideration-mcq-10": "「表示自己會辦妥；包在我身上」與本句語境不同。"
+        "consideration-mcq-13": "本句的「consideration」指「作決定前的仔細思考／考慮」。",
+        "consideration-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "consideration-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-13"
     },
@@ -1332,10 +1244,8 @@ export default {
       "masked": "The issue requires further ____.",
       "options": [
         "consideration-mcq-13",
-        "consideration-mcq-12",
-        "consideration-mcq-14",
-        "consideration-mcq-11",
-        "consideration-mcq-15",
+        "consideration-mcq-05",
+        "consideration-mcq-19",
         "consideration-mcq-10"
       ],
       "explanation": "本句的「consideration」指「作決定前的仔細思考／考慮」。",
@@ -1345,12 +1255,10 @@ export default {
         "consideration"
       ],
       "optionReasons": {
-        "consideration-mcq-13": "本句指「作決定前的仔細思考／考慮」。",
-        "consideration-mcq-12": "「考慮到；鑑於」與本句語境不同。",
-        "consideration-mcq-14": "「正在審議／考慮之中」與本句語境不同。",
-        "consideration-mcq-11": "「把所有相關因素都考慮後；總體而言」與本句語境不同。",
-        "consideration-mcq-15": "「把某因素考慮在內」與本句語境不同。",
-        "consideration-mcq-10": "「表示自己會辦妥；包在我身上」與本句語境不同。"
+        "consideration-mcq-13": "本句的「consideration」指「作決定前的仔細思考／考慮」。",
+        "consideration-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-13"
     },
@@ -1362,11 +1270,9 @@ export default {
       "masked": "The committee will give further ____ the proposal.",
       "options": [
         "consideration-mcq-13",
-        "consideration-mcq-12",
-        "consideration-mcq-14",
-        "consideration-mcq-11",
-        "consideration-mcq-15",
-        "consideration-mcq-10"
+        "consideration-mcq-09",
+        "consideration-mcq-10",
+        "consideration-mcq-27"
       ],
       "explanation": "本句的「consideration to」指「作決定前的仔細思考／考慮」。",
       "sentenceIndex": 27,
@@ -1375,12 +1281,10 @@ export default {
         "consideration to"
       ],
       "optionReasons": {
-        "consideration-mcq-13": "本句指「作決定前的仔細思考／考慮」。",
-        "consideration-mcq-12": "「考慮到；鑑於」與本句語境不同。",
-        "consideration-mcq-14": "「正在審議／考慮之中」與本句語境不同。",
-        "consideration-mcq-11": "「把所有相關因素都考慮後；總體而言」與本句語境不同。",
-        "consideration-mcq-15": "「把某因素考慮在內」與本句語境不同。",
-        "consideration-mcq-10": "「表示自己會辦妥；包在我身上」與本句語境不同。"
+        "consideration-mcq-13": "本句的「consideration to」指「作決定前的仔細思考／考慮」。",
+        "consideration-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-13"
     },
@@ -1392,11 +1296,9 @@ export default {
       "masked": "Several options remain ____.",
       "options": [
         "consideration-mcq-14",
-        "consideration-mcq-13",
-        "consideration-mcq-15",
-        "consideration-mcq-12",
-        "consideration-mcq-16",
-        "consideration-mcq-11"
+        "consideration-mcq-27",
+        "consideration-mcq-06",
+        "consideration-pdf-002"
       ],
       "explanation": "本句的「under consideration」指「正在審議／考慮之中」。",
       "sentenceIndex": 28,
@@ -1405,12 +1307,10 @@ export default {
         "under consideration"
       ],
       "optionReasons": {
-        "consideration-mcq-14": "本句指「正在審議／考慮之中」。",
-        "consideration-mcq-13": "「作決定前的仔細思考／考慮」與本句語境不同。",
-        "consideration-mcq-15": "「把某因素考慮在內」與本句語境不同。",
-        "consideration-mcq-12": "「考慮到；鑑於」與本句語境不同。",
-        "consideration-mcq-16": "「會影響決定的考量因素」與本句語境不同。",
-        "consideration-mcq-11": "「把所有相關因素都考慮後；總體而言」與本句語境不同。"
+        "consideration-mcq-14": "本句的「under consideration」指「正在審議／考慮之中」。",
+        "consideration-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "consideration-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-14"
     },
@@ -1422,11 +1322,9 @@ export default {
       "masked": "We must take the needs of staff into ____.",
       "options": [
         "consideration-mcq-15",
-        "consideration-mcq-14",
-        "consideration-mcq-16",
-        "consideration-mcq-13",
-        "consideration-mcq-17",
-        "consideration-mcq-12"
+        "consideration-mcq-07",
+        "consideration-mcq-27",
+        "consideration-mcq-10"
       ],
       "explanation": "本句的「consideration」指「把某因素考慮在內」。",
       "sentenceIndex": 29,
@@ -1435,12 +1333,10 @@ export default {
         "consideration"
       ],
       "optionReasons": {
-        "consideration-mcq-15": "本句指「把某因素考慮在內」。",
-        "consideration-mcq-14": "「正在審議／考慮之中」與本句語境不同。",
-        "consideration-mcq-16": "「會影響決定的考量因素」與本句語境不同。",
-        "consideration-mcq-13": "「作決定前的仔細思考／考慮」與本句語境不同。",
-        "consideration-mcq-17": "「顧及／體諒別人的需要與感受」與本句語境不同。",
-        "consideration-mcq-12": "「考慮到；鑑於」與本句語境不同。"
+        "consideration-mcq-15": "本句的「consideration」指「把某因素考慮在內」。",
+        "consideration-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-15"
     },
@@ -1452,11 +1348,9 @@ export default {
       "masked": "I am sending the proposal for your ____.",
       "options": [
         "consideration-mcq-15",
-        "consideration-mcq-14",
-        "consideration-mcq-16",
-        "consideration-mcq-13",
-        "consideration-mcq-17",
-        "consideration-mcq-12"
+        "consideration-pdf-002",
+        "consideration-mcq-32",
+        "consideration-mcq-19"
       ],
       "explanation": "本句的「consideration」指「把某因素考慮在內」。",
       "sentenceIndex": 30,
@@ -1465,12 +1359,10 @@ export default {
         "consideration"
       ],
       "optionReasons": {
-        "consideration-mcq-15": "本句指「把某因素考慮在內」。",
-        "consideration-mcq-14": "「正在審議／考慮之中」與本句語境不同。",
-        "consideration-mcq-16": "「會影響決定的考量因素」與本句語境不同。",
-        "consideration-mcq-13": "「作決定前的仔細思考／考慮」與本句語境不同。",
-        "consideration-mcq-17": "「顧及／體諒別人的需要與感受」與本句語境不同。",
-        "consideration-mcq-12": "「考慮到；鑑於」與本句語境不同。"
+        "consideration-mcq-15": "本句的「consideration」指「把某因素考慮在內」。",
+        "consideration-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-15"
     },
@@ -1482,11 +1374,9 @@ export default {
       "masked": "Cost is an important ____.",
       "options": [
         "consideration-mcq-16",
-        "consideration-mcq-15",
-        "consideration-mcq-17",
-        "consideration-mcq-14",
-        "consideration-mcq-18",
-        "consideration-mcq-13"
+        "consideration-mcq-19",
+        "consideration-mcq-27",
+        "consideration-mcq-29"
       ],
       "explanation": "本句的「consideration」指「會影響決定的考量因素」。",
       "sentenceIndex": 31,
@@ -1495,12 +1385,10 @@ export default {
         "consideration"
       ],
       "optionReasons": {
-        "consideration-mcq-16": "本句指「會影響決定的考量因素」。",
-        "consideration-mcq-15": "「把某因素考慮在內」與本句語境不同。",
-        "consideration-mcq-17": "「顧及／體諒別人的需要與感受」與本句語境不同。",
-        "consideration-mcq-14": "「正在審議／考慮之中」與本句語境不同。",
-        "consideration-mcq-18": "「出於對某人的體諒」與本句語境不同。",
-        "consideration-mcq-13": "「作決定前的仔細思考／考慮」與本句語境不同。"
+        "consideration-mcq-16": "本句的「consideration」指「會影響決定的考量因素」。",
+        "consideration-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-16"
     },
@@ -1512,11 +1400,9 @@ export default {
       "masked": "Safety ____ must come first.",
       "options": [
         "consideration-mcq-16",
-        "consideration-mcq-15",
-        "consideration-mcq-17",
-        "consideration-mcq-14",
-        "consideration-mcq-18",
-        "consideration-mcq-13"
+        "consideration-mcq-07",
+        "consideration-mcq-27",
+        "consideration-mcq-29"
       ],
       "explanation": "本句的「considerations」指「會影響決定的考量因素」。",
       "sentenceIndex": 32,
@@ -1525,12 +1411,10 @@ export default {
         "considerations"
       ],
       "optionReasons": {
-        "consideration-mcq-16": "本句指「會影響決定的考量因素」。",
-        "consideration-mcq-15": "「把某因素考慮在內」與本句語境不同。",
-        "consideration-mcq-17": "「顧及／體諒別人的需要與感受」與本句語境不同。",
-        "consideration-mcq-14": "「正在審議／考慮之中」與本句語境不同。",
-        "consideration-mcq-18": "「出於對某人的體諒」與本句語境不同。",
-        "consideration-mcq-13": "「作決定前的仔細思考／考慮」與本句語境不同。"
+        "consideration-mcq-16": "本句的「considerations」指「會影響決定的考量因素」。",
+        "consideration-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-16"
     },
@@ -1542,11 +1426,9 @@ export default {
       "masked": "Convenience matters more than ____.",
       "options": [
         "consideration-pdf-001",
-        "consideration-mcq-16",
-        "consideration-mcq-18",
-        "consideration-mcq-15",
-        "consideration-mcq-19",
-        "consideration-mcq-14"
+        "consideration-mcq-07",
+        "consideration-mcq-14",
+        "consideration-mcq-19"
       ],
       "explanation": "本句的「consideration」指「願意想到自己的行為對別人造成甚麼影響」。",
       "sentenceIndex": 33,
@@ -1555,12 +1437,10 @@ export default {
         "consideration"
       ],
       "optionReasons": {
-        "consideration-pdf-001": "本句指「願意想到自己的行為對別人造成甚麼影響」。",
-        "consideration-mcq-16": "「會影響決定的考量因素」與本句語境不同。",
-        "consideration-mcq-18": "「出於對某人的體諒」與本句語境不同。",
-        "consideration-mcq-15": "「把某因素考慮在內」與本句語境不同。",
-        "consideration-mcq-19": "「作為交換而支付的報酬／代價；正式」與本句語境不同。",
-        "consideration-mcq-14": "「正在審議／考慮之中」與本句語境不同。"
+        "consideration-pdf-001": "本句的「consideration」指「願意想到自己的行為對別人造成甚麼影響」。",
+        "consideration-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-pdf-001"
     },
@@ -1572,11 +1452,9 @@ export default {
       "masked": "Please show some ____ for other passengers.",
       "options": [
         "consideration-pdf-001",
-        "consideration-mcq-16",
-        "consideration-mcq-18",
-        "consideration-mcq-15",
-        "consideration-mcq-19",
-        "consideration-mcq-14"
+        "consideration-mcq-14",
+        "consideration-mcq-03",
+        "consideration-mcq-26"
       ],
       "explanation": "本句的「consideration」指「願意想到自己的行為對別人造成甚麼影響」。",
       "sentenceIndex": 34,
@@ -1585,12 +1463,10 @@ export default {
         "consideration"
       ],
       "optionReasons": {
-        "consideration-pdf-001": "本句指「願意想到自己的行為對別人造成甚麼影響」。",
-        "consideration-mcq-16": "「會影響決定的考量因素」與本句語境不同。",
-        "consideration-mcq-18": "「出於對某人的體諒」與本句語境不同。",
-        "consideration-mcq-15": "「把某因素考慮在內」與本句語境不同。",
-        "consideration-mcq-19": "「作為交換而支付的報酬／代價；正式」與本句語境不同。",
-        "consideration-mcq-14": "「正在審議／考慮之中」與本句語境不同。"
+        "consideration-pdf-001": "本句的「consideration」指「願意想到自己的行為對別人造成甚麼影響」。",
+        "consideration-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-pdf-001"
     },
@@ -1602,11 +1478,9 @@ export default {
       "masked": "He has very little ____ for his neighbours.",
       "options": [
         "consideration-pdf-001",
-        "consideration-mcq-16",
-        "consideration-mcq-18",
-        "consideration-mcq-15",
+        "consideration-mcq-06",
         "consideration-mcq-19",
-        "consideration-mcq-14"
+        "consideration-mcq-11"
       ],
       "explanation": "本句的「consideration」指「願意想到自己的行為對別人造成甚麼影響」。",
       "sentenceIndex": 35,
@@ -1615,12 +1489,10 @@ export default {
         "consideration"
       ],
       "optionReasons": {
-        "consideration-pdf-001": "本句指「願意想到自己的行為對別人造成甚麼影響」。",
-        "consideration-mcq-16": "「會影響決定的考量因素」與本句語境不同。",
-        "consideration-mcq-18": "「出於對某人的體諒」與本句語境不同。",
-        "consideration-mcq-15": "「把某因素考慮在內」與本句語境不同。",
-        "consideration-mcq-19": "「作為交換而支付的報酬／代價；正式」與本句語境不同。",
-        "consideration-mcq-14": "「正在審議／考慮之中」與本句語境不同。"
+        "consideration-pdf-001": "本句的「consideration」指「願意想到自己的行為對別人造成甚麼影響」。",
+        "consideration-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-pdf-001"
     },
@@ -1632,11 +1504,9 @@ export default {
       "masked": "They kept the music low out of ____ the neighbours.",
       "options": [
         "consideration-mcq-18",
-        "consideration-mcq-17",
-        "consideration-mcq-19",
         "consideration-mcq-16",
-        "consideration-mcq-20",
-        "consideration-mcq-15"
+        "consideration-mcq-22",
+        "consideration-mcq-10"
       ],
       "explanation": "本句的「consideration for」指「出於對某人的體諒」。",
       "sentenceIndex": 36,
@@ -1645,12 +1515,10 @@ export default {
         "consideration for"
       ],
       "optionReasons": {
-        "consideration-mcq-18": "本句指「出於對某人的體諒」。",
-        "consideration-mcq-17": "「顧及／體諒別人的需要與感受」與本句語境不同。",
-        "consideration-mcq-19": "「作為交換而支付的報酬／代價；正式」與本句語境不同。",
-        "consideration-mcq-16": "「會影響決定的考量因素」與本句語境不同。",
-        "consideration-mcq-20": "「普通法合同中的約因／對價」與本句語境不同。",
-        "consideration-mcq-15": "「把某因素考慮在內」與本句語境不同。"
+        "consideration-mcq-18": "本句的「consideration for」指「出於對某人的體諒」。",
+        "consideration-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-18"
     },
@@ -1662,11 +1530,9 @@ export default {
       "masked": "The payment was made in ____ the services provided.",
       "options": [
         "consideration-mcq-19",
-        "consideration-mcq-18",
-        "consideration-mcq-20",
-        "consideration-mcq-17",
-        "consideration-mcq-21",
-        "consideration-mcq-16"
+        "consideration-mcq-06",
+        "consideration-mcq-32",
+        "consideration-mcq-18"
       ],
       "explanation": "本句的「consideration of」指「作為交換而支付的報酬／代價；正式」。",
       "sentenceIndex": 37,
@@ -1675,12 +1541,10 @@ export default {
         "consideration of"
       ],
       "optionReasons": {
-        "consideration-mcq-19": "本句指「作為交換而支付的報酬／代價；正式」。",
-        "consideration-mcq-18": "「出於對某人的體諒」與本句語境不同。",
-        "consideration-mcq-20": "「普通法合同中的約因／對價」與本句語境不同。",
-        "consideration-mcq-17": "「顧及／體諒別人的需要與感受」與本句語境不同。",
-        "consideration-mcq-21": "「消費者真正納入比較的品牌／選項集合」與本句語境不同。",
-        "consideration-mcq-16": "「會影響決定的考量因素」與本句語境不同。"
+        "consideration-mcq-19": "本句的「consideration of」指「作為交換而支付的報酬／代價；正式」。",
+        "consideration-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-19"
     },
@@ -1692,11 +1556,9 @@ export default {
       "masked": "That is my ____.",
       "options": [
         "consideration-mcq-22",
-        "consideration-mcq-21",
-        "consideration-mcq-23",
-        "consideration-mcq-20",
-        "consideration-mcq-24",
-        "consideration-mcq-19"
+        "consideration-mcq-27",
+        "consideration-mcq-18",
+        "consideration-mcq-16"
       ],
       "explanation": "本句的「considered opinion」指「經過深思熟慮後形成的意見」。",
       "sentenceIndex": 38,
@@ -1705,12 +1567,10 @@ export default {
         "considered opinion"
       ],
       "optionReasons": {
-        "consideration-mcq-22": "本句指「經過深思熟慮後形成的意見」。",
-        "consideration-mcq-21": "「消費者真正納入比較的品牌／選項集合」與本句語境不同。",
-        "consideration-mcq-23": "「經充分而審慎考慮的」與本句語境不同。",
-        "consideration-mcq-20": "「普通法合同中的約因／對價」與本句語境不同。",
-        "consideration-mcq-24": "「欠缺充分考慮、草率的」與本句語境不同。",
-        "consideration-mcq-19": "「作為交換而支付的報酬／代價；正式」與本句語境不同。"
+        "consideration-mcq-22": "本句的「considered opinion」指「經過深思熟慮後形成的意見」。",
+        "consideration-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-22"
     },
@@ -1722,11 +1582,9 @@ export default {
       "masked": "The project requires ____ investment.",
       "options": [
         "consideration-mcq-26",
-        "consideration-mcq-25",
-        "consideration-mcq-27",
-        "consideration-mcq-24",
-        "consideration-mcq-28",
-        "consideration-mcq-23"
+        "consideration-mcq-13",
+        "consideration-mcq-29",
+        "consideration-mcq-19"
       ],
       "explanation": "本句的「considerable」指「數量、程度、重要性等相當大／可觀的」。",
       "sentenceIndex": 39,
@@ -1735,12 +1593,10 @@ export default {
         "considerable"
       ],
       "optionReasons": {
-        "consideration-mcq-26": "本句指「數量、程度、重要性等相當大／可觀的」。",
-        "consideration-mcq-25": "「沒有被充分思考／納入考量的」與本句語境不同。",
-        "consideration-mcq-27": "「大幅地；相當程度地」與本句語境不同。",
-        "consideration-mcq-24": "「欠缺充分考慮、草率的」與本句語境不同。",
-        "consideration-mcq-28": "「願意顧及別人需要、感受和方便的；體貼的」與本句語境不同。",
-        "consideration-mcq-23": "「經充分而審慎考慮的」與本句語境不同。"
+        "consideration-mcq-26": "本句的「considerable」指「數量、程度、重要性等相當大／可觀的」。",
+        "consideration-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-26"
     },
@@ -1752,11 +1608,9 @@ export default {
       "masked": "She has ____ experience.",
       "options": [
         "consideration-mcq-26",
-        "consideration-mcq-25",
-        "consideration-mcq-27",
-        "consideration-mcq-24",
-        "consideration-mcq-28",
-        "consideration-mcq-23"
+        "consideration-mcq-04",
+        "consideration-mcq-02",
+        "consideration-mcq-10"
       ],
       "explanation": "本句的「considerable」指「數量、程度、重要性等相當大／可觀的」。",
       "sentenceIndex": 40,
@@ -1765,12 +1619,10 @@ export default {
         "considerable"
       ],
       "optionReasons": {
-        "consideration-mcq-26": "本句指「數量、程度、重要性等相當大／可觀的」。",
-        "consideration-mcq-25": "「沒有被充分思考／納入考量的」與本句語境不同。",
-        "consideration-mcq-27": "「大幅地；相當程度地」與本句語境不同。",
-        "consideration-mcq-24": "「欠缺充分考慮、草率的」與本句語境不同。",
-        "consideration-mcq-28": "「願意顧及別人需要、感受和方便的；體貼的」與本句語境不同。",
-        "consideration-mcq-23": "「經充分而審慎考慮的」與本句語境不同。"
+        "consideration-mcq-26": "本句的「considerable」指「數量、程度、重要性等相當大／可觀的」。",
+        "consideration-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-26"
     },
@@ -1782,11 +1634,9 @@ export default {
       "masked": "The decision caused ____ concern.",
       "options": [
         "consideration-mcq-26",
-        "consideration-mcq-25",
-        "consideration-mcq-27",
-        "consideration-mcq-24",
-        "consideration-mcq-28",
-        "consideration-mcq-23"
+        "consideration-pdf-001",
+        "consideration-mcq-14",
+        "consideration-mcq-07"
       ],
       "explanation": "本句的「considerable」指「數量、程度、重要性等相當大／可觀的」。",
       "sentenceIndex": 41,
@@ -1795,12 +1645,10 @@ export default {
         "considerable"
       ],
       "optionReasons": {
-        "consideration-mcq-26": "本句指「數量、程度、重要性等相當大／可觀的」。",
-        "consideration-mcq-25": "「沒有被充分思考／納入考量的」與本句語境不同。",
-        "consideration-mcq-27": "「大幅地；相當程度地」與本句語境不同。",
-        "consideration-mcq-24": "「欠缺充分考慮、草率的」與本句語境不同。",
-        "consideration-mcq-28": "「願意顧及別人需要、感受和方便的；體貼的」與本句語境不同。",
-        "consideration-mcq-23": "「經充分而審慎考慮的」與本句語境不同。"
+        "consideration-mcq-26": "本句的「considerable」指「數量、程度、重要性等相當大／可觀的」。",
+        "consideration-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-26"
     },
@@ -1812,11 +1660,9 @@ export default {
       "masked": "Prices have risen ____.",
       "options": [
         "consideration-mcq-27",
-        "consideration-mcq-26",
-        "consideration-mcq-28",
-        "consideration-mcq-25",
-        "consideration-mcq-29",
-        "consideration-mcq-24"
+        "consideration-mcq-12",
+        "consideration-pdf-001",
+        "consideration-mcq-19"
       ],
       "explanation": "本句的「considerably」指「大幅地；相當程度地」。",
       "sentenceIndex": 42,
@@ -1825,12 +1671,10 @@ export default {
         "considerably"
       ],
       "optionReasons": {
-        "consideration-mcq-27": "本句指「大幅地；相當程度地」。",
-        "consideration-mcq-26": "「數量、程度、重要性等相當大／可觀的」與本句語境不同。",
-        "consideration-mcq-28": "「願意顧及別人需要、感受和方便的；體貼的」與本句語境不同。",
-        "consideration-mcq-25": "「沒有被充分思考／納入考量的」與本句語境不同。",
-        "consideration-mcq-29": "「體貼地；顧及別人地」與本句語境不同。",
-        "consideration-mcq-24": "「欠缺充分考慮、草率的」與本句語境不同。"
+        "consideration-mcq-27": "本句的「considerably」指「大幅地；相當程度地」。",
+        "consideration-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "consideration-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-27"
     },
@@ -1842,11 +1686,9 @@ export default {
       "masked": "The second version is ____ better.",
       "options": [
         "consideration-mcq-27",
-        "consideration-mcq-26",
-        "consideration-mcq-28",
-        "consideration-mcq-25",
-        "consideration-mcq-29",
-        "consideration-mcq-24"
+        "consideration-mcq-05",
+        "consideration-mcq-02",
+        "consideration-mcq-10"
       ],
       "explanation": "本句的「considerably」指「大幅地；相當程度地」。",
       "sentenceIndex": 43,
@@ -1855,12 +1697,10 @@ export default {
         "considerably"
       ],
       "optionReasons": {
-        "consideration-mcq-27": "本句指「大幅地；相當程度地」。",
-        "consideration-mcq-26": "「數量、程度、重要性等相當大／可觀的」與本句語境不同。",
-        "consideration-mcq-28": "「願意顧及別人需要、感受和方便的；體貼的」與本句語境不同。",
-        "consideration-mcq-25": "「沒有被充分思考／納入考量的」與本句語境不同。",
-        "consideration-mcq-29": "「體貼地；顧及別人地」與本句語境不同。",
-        "consideration-mcq-24": "「欠缺充分考慮、草率的」與本句語境不同。"
+        "consideration-mcq-27": "本句的「considerably」指「大幅地；相當程度地」。",
+        "consideration-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-27"
     },
@@ -1872,11 +1712,9 @@ export default {
       "masked": "It was ____ of her to keep her voice low.",
       "options": [
         "consideration-pdf-002",
-        "consideration-mcq-27",
-        "consideration-mcq-29",
-        "consideration-mcq-26",
-        "consideration-mcq-30",
-        "consideration-mcq-25"
+        "consideration-mcq-19",
+        "consideration-mcq-12",
+        "consideration-mcq-06"
       ],
       "explanation": "本句的「considerate」指「會主動想到自己的行為對別人的影響，並盡量避免造成麻煩或不適」。",
       "sentenceIndex": 44,
@@ -1885,12 +1723,10 @@ export default {
         "considerate"
       ],
       "optionReasons": {
-        "consideration-pdf-002": "本句指「會主動想到自己的行為對別人的影響，並盡量避免造成麻煩或不適」。",
-        "consideration-mcq-27": "「大幅地；相當程度地」與本句語境不同。",
-        "consideration-mcq-29": "「體貼地；顧及別人地」與本句語境不同。",
-        "consideration-mcq-26": "「數量、程度、重要性等相當大／可觀的」與本句語境不同。",
-        "consideration-mcq-30": "「沒有顧及別人需要／感受的；不體貼的」與本句語境不同。",
-        "consideration-mcq-25": "「沒有被充分思考／納入考量的」與本句語境不同。"
+        "consideration-pdf-002": "本句的「considerate」指「會主動想到自己的行為對別人的影響，並盡量避免造成麻煩或不適」。",
+        "consideration-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-pdf-002"
     },
@@ -1902,11 +1738,9 @@ export default {
       "masked": "Please be ____ of other customers.",
       "options": [
         "consideration-pdf-002",
-        "consideration-mcq-27",
-        "consideration-mcq-29",
-        "consideration-mcq-26",
-        "consideration-mcq-30",
-        "consideration-mcq-25"
+        "consideration-mcq-32",
+        "consideration-mcq-06",
+        "consideration-mcq-15"
       ],
       "explanation": "本句的「considerate」指「會主動想到自己的行為對別人的影響，並盡量避免造成麻煩或不適」。",
       "sentenceIndex": 45,
@@ -1915,12 +1749,10 @@ export default {
         "considerate"
       ],
       "optionReasons": {
-        "consideration-pdf-002": "本句指「會主動想到自己的行為對別人的影響，並盡量避免造成麻煩或不適」。",
-        "consideration-mcq-27": "「大幅地；相當程度地」與本句語境不同。",
-        "consideration-mcq-29": "「體貼地；顧及別人地」與本句語境不同。",
-        "consideration-mcq-26": "「數量、程度、重要性等相當大／可觀的」與本句語境不同。",
-        "consideration-mcq-30": "「沒有顧及別人需要／感受的；不體貼的」與本句語境不同。",
-        "consideration-mcq-25": "「沒有被充分思考／納入考量的」與本句語境不同。"
+        "consideration-pdf-002": "本句的「considerate」指「會主動想到自己的行為對別人的影響，並盡量避免造成麻煩或不適」。",
+        "consideration-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-pdf-002"
     },
@@ -1932,11 +1764,9 @@ export default {
       "masked": "He spoke quietly and ____.",
       "options": [
         "consideration-mcq-29",
-        "consideration-mcq-28",
-        "consideration-mcq-30",
-        "consideration-mcq-27",
-        "consideration-mcq-31",
-        "consideration-mcq-26"
+        "consideration-pdf-004",
+        "consideration-mcq-26",
+        "consideration-mcq-10"
       ],
       "explanation": "本句的「considerately」指「體貼地；顧及別人地」。",
       "sentenceIndex": 46,
@@ -1945,12 +1775,10 @@ export default {
         "considerately"
       ],
       "optionReasons": {
-        "consideration-mcq-29": "本句指「體貼地；顧及別人地」。",
-        "consideration-mcq-28": "「願意顧及別人需要、感受和方便的；體貼的」與本句語境不同。",
-        "consideration-mcq-30": "「沒有顧及別人需要／感受的；不體貼的」與本句語境不同。",
-        "consideration-mcq-27": "「大幅地；相當程度地」與本句語境不同。",
-        "consideration-mcq-31": "「對原有決定、觀點或計劃重新思考」與本句語境不同。",
-        "consideration-mcq-26": "「數量、程度、重要性等相當大／可觀的」與本句語境不同。"
+        "consideration-mcq-29": "本句的「considerately」指「體貼地；顧及別人地」。",
+        "consideration-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-29"
     },
@@ -1962,11 +1790,9 @@ export default {
       "masked": "It was ____ to occupy the table for three hours.",
       "options": [
         "consideration-pdf-003",
-        "consideration-mcq-29",
-        "consideration-mcq-31",
-        "consideration-mcq-28",
-        "consideration-mcq-32",
-        "consideration-mcq-27"
+        "consideration-mcq-26",
+        "consideration-mcq-06",
+        "consideration-mcq-32"
       ],
       "explanation": "本句的「inconsiderate」指「沒有充分考慮自己的行為會怎樣影響其他人」。",
       "sentenceIndex": 47,
@@ -1975,12 +1801,10 @@ export default {
         "inconsiderate"
       ],
       "optionReasons": {
-        "consideration-pdf-003": "本句指「沒有充分考慮自己的行為會怎樣影響其他人」。",
-        "consideration-mcq-29": "「體貼地；顧及別人地」與本句語境不同。",
-        "consideration-mcq-31": "「對原有決定、觀點或計劃重新思考」與本句語境不同。",
-        "consideration-mcq-28": "「願意顧及別人需要、感受和方便的；體貼的」與本句語境不同。",
-        "consideration-mcq-32": "「對原有決定／問題重新審議」與本句語境不同。",
-        "consideration-mcq-27": "「大幅地；相當程度地」與本句語境不同。"
+        "consideration-pdf-003": "本句的「inconsiderate」指「沒有充分考慮自己的行為會怎樣影響其他人」。",
+        "consideration-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-pdf-003"
     },
@@ -1992,10 +1816,8 @@ export default {
       "masked": "The company agreed to ____ its decision.",
       "options": [
         "consideration-pdf-004",
-        "consideration-mcq-30",
-        "consideration-mcq-32",
-        "consideration-mcq-29",
-        "consideration-mcq-28",
+        "consideration-mcq-09",
+        "consideration-mcq-19",
         "consideration-mcq-27"
       ],
       "explanation": "本句的「reconsider」指「因新資料、疑問、反對意見或情況改變而再次思考已考慮／決定過的事情」。",
@@ -2005,12 +1827,10 @@ export default {
         "reconsider"
       ],
       "optionReasons": {
-        "consideration-pdf-004": "本句指「因新資料、疑問、反對意見或情況改變而再次思考已考慮／決定過的事情」。",
-        "consideration-mcq-30": "「沒有顧及別人需要／感受的；不體貼的」與本句語境不同。",
-        "consideration-mcq-32": "「對原有決定／問題重新審議」與本句語境不同。",
-        "consideration-mcq-29": "「體貼地；顧及別人地」與本句語境不同。",
-        "consideration-mcq-28": "「願意顧及別人需要、感受和方便的；體貼的」與本句語境不同。",
-        "consideration-mcq-27": "「大幅地；相當程度地」與本句語境不同。"
+        "consideration-pdf-004": "本句的「reconsider」指「因新資料、疑問、反對意見或情況改變而再次思考已考慮／決定過的事情」。",
+        "consideration-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-pdf-004"
     },
@@ -2022,11 +1842,9 @@ export default {
       "masked": "You may want to ____ your options.",
       "options": [
         "consideration-pdf-004",
-        "consideration-mcq-30",
-        "consideration-mcq-32",
         "consideration-mcq-29",
-        "consideration-mcq-28",
-        "consideration-mcq-27"
+        "consideration-mcq-10",
+        "consideration-mcq-19"
       ],
       "explanation": "本句的「reconsider」指「因新資料、疑問、反對意見或情況改變而再次思考已考慮／決定過的事情」。",
       "sentenceIndex": 49,
@@ -2035,12 +1853,10 @@ export default {
         "reconsider"
       ],
       "optionReasons": {
-        "consideration-pdf-004": "本句指「因新資料、疑問、反對意見或情況改變而再次思考已考慮／決定過的事情」。",
-        "consideration-mcq-30": "「沒有顧及別人需要／感受的；不體貼的」與本句語境不同。",
-        "consideration-mcq-32": "「對原有決定／問題重新審議」與本句語境不同。",
-        "consideration-mcq-29": "「體貼地；顧及別人地」與本句語境不同。",
-        "consideration-mcq-28": "「願意顧及別人需要、感受和方便的；體貼的」與本句語境不同。",
-        "consideration-mcq-27": "「大幅地；相當程度地」與本句語境不同。"
+        "consideration-pdf-004": "本句的「reconsider」指「因新資料、疑問、反對意見或情況改變而再次思考已考慮／決定過的事情」。",
+        "consideration-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-pdf-004"
     },
@@ -2052,11 +1868,9 @@ export default {
       "masked": "The decision is open to ____.",
       "options": [
         "consideration-mcq-32",
-        "consideration-mcq-31",
-        "consideration-mcq-30",
-        "consideration-mcq-29",
-        "consideration-mcq-28",
-        "consideration-mcq-27"
+        "consideration-mcq-27",
+        "consideration-pdf-002",
+        "consideration-mcq-19"
       ],
       "explanation": "本句的「reconsideration」指「對原有決定／問題重新審議」。",
       "sentenceIndex": 50,
@@ -2065,12 +1879,10 @@ export default {
         "reconsideration"
       ],
       "optionReasons": {
-        "consideration-mcq-32": "本句指「對原有決定／問題重新審議」。",
-        "consideration-mcq-31": "「對原有決定、觀點或計劃重新思考」與本句語境不同。",
-        "consideration-mcq-30": "「沒有顧及別人需要／感受的；不體貼的」與本句語境不同。",
-        "consideration-mcq-29": "「體貼地；顧及別人地」與本句語境不同。",
-        "consideration-mcq-28": "「願意顧及別人需要、感受和方便的；體貼的」與本句語境不同。",
-        "consideration-mcq-27": "「大幅地；相當程度地」與本句語境不同。"
+        "consideration-mcq-32": "本句的「reconsideration」指「對原有決定／問題重新審議」。",
+        "consideration-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "consideration-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "consideration-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consideration-mcq-32"
     }
@@ -2082,5 +1894,7 @@ export default {
     "sha256": "399b524acb0e70e44d0dd06a7321810aed52f73de2842d1afd2bb4a999fad552",
     "pages": 39
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

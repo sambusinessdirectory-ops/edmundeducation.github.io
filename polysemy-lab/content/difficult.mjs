@@ -465,7 +465,7 @@ export default {
     },
     {
       "id": "difficult-mcq-22",
-      "title": "表示使……變得困難",
+      "title": "使……變得困難",
       "form": "16. make something difficult",
       "en": "16. make something difficult",
       "zh": "表示使……變得困難",
@@ -487,7 +487,7 @@ export default {
     },
     {
       "id": "difficult-mcq-23",
-      "title": "表示棘手議題；難題",
+      "title": "棘手議題；難題",
       "form": "19. difficult issue",
       "en": "19. difficult issue",
       "zh": "表示棘手議題；難題",
@@ -509,7 +509,7 @@ export default {
     },
     {
       "id": "difficult-mcq-24",
-      "title": "表示難相處的關係；複雜關係",
+      "title": "難相處的關係；複雜關係",
       "form": "20. difficult relationship",
       "en": "20. difficult relationship",
       "zh": "表示難相處的關係；複雜關係",
@@ -540,10 +540,8 @@ export default {
       "options": [
         "difficult-mcq-21",
         "difficult-mcq-20",
-        "difficult-mcq-22",
-        "difficult-mcq-19",
         "difficult-mcq-23",
-        "difficult-mcq-18"
+        "difficult-mcq-11"
       ],
       "explanation": "本句的「difficult concepts」指「難懂的概念；複雜而不容易理解的想法」。",
       "sentenceIndex": 0,
@@ -552,12 +550,10 @@ export default {
         "difficult concepts"
       ],
       "optionReasons": {
-        "difficult-mcq-21": "本句指「難懂的概念；複雜而不容易理解的想法」。",
-        "difficult-mcq-20": "「沒有遇到問題；輕鬆／順利地完成」是「without difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-22": "「表示使……變得困難」是「16. make something difficult」的用法，與本句語境不同。",
-        "difficult-mcq-19": "「花很大努力、費力地完成」是「with difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-23": "「表示棘手議題；難題」是「19. difficult issue」的用法，與本句語境不同。",
-        "difficult-mcq-18": "「覺得做某事很困難」是「have difficulty doing」的用法，與本句語境不同。"
+        "difficult-mcq-21": "本句的「difficult concepts」指「難懂的概念；複雜而不容易理解的想法」。",
+        "difficult-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-21"
     },
@@ -570,10 +566,8 @@ export default {
       "options": [
         "difficult-mcq-21",
         "difficult-mcq-20",
-        "difficult-mcq-22",
-        "difficult-mcq-19",
-        "difficult-mcq-23",
-        "difficult-mcq-18"
+        "difficult-mcq-14",
+        "difficult-mcq-12"
       ],
       "explanation": "本句的「difficult」指「難懂的概念；複雜而不容易理解的想法」。",
       "sentenceIndex": 1,
@@ -582,12 +576,10 @@ export default {
         "difficult"
       ],
       "optionReasons": {
-        "difficult-mcq-21": "本句指「難懂的概念；複雜而不容易理解的想法」。",
-        "difficult-mcq-20": "「沒有遇到問題；輕鬆／順利地完成」是「without difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-22": "「表示使……變得困難」是「16. make something difficult」的用法，與本句語境不同。",
-        "difficult-mcq-19": "「花很大努力、費力地完成」是「with difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-23": "「表示棘手議題；難題」是「19. difficult issue」的用法，與本句語境不同。",
-        "difficult-mcq-18": "「覺得做某事很困難」是「have difficulty doing」的用法，與本句語境不同。"
+        "difficult-mcq-21": "本句的「difficult」指「難懂的概念；複雜而不容易理解的想法」。",
+        "difficult-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-21"
     },
@@ -599,10 +591,8 @@ export default {
       "masked": "This task is quite ____.",
       "options": [
         "difficult-mcq-02",
-        "difficult-mcq-01",
-        "difficult-mcq-03",
-        "difficult-mcq-04",
-        "difficult-mcq-05",
+        "difficult-mcq-20",
+        "difficult-mcq-15",
         "difficult-mcq-06"
       ],
       "explanation": "本句的「difficult」指「因內容複雜、不熟悉或不清楚而難以理解」。",
@@ -612,12 +602,10 @@ export default {
         "difficult"
       ],
       "optionReasons": {
-        "difficult-mcq-02": "本句指「因內容複雜、不熟悉或不清楚而難以理解」。",
-        "difficult-mcq-01": "「需要很多努力、技巧、思考或耐力才能完成；困難的」是「difficult — general」的用法，與本句語境不同。",
-        "difficult-mcq-03": "「不容易理解或掌握的想法／概念」是「difficult idea/concept」的用法，與本句語境不同。",
-        "difficult-mcq-04": "「不容易回答、解決或處理的問題」是「difficult question/problem」的用法，與本句語境不同。",
-        "difficult-mcq-05": "「很難管理、處理或應對的情況」是「difficult situation」的用法，與本句語境不同。",
-        "difficult-mcq-06": "「很難作出取捨或判斷的決定」是「difficult decision/choice」的用法，與本句語境不同。"
+        "difficult-mcq-02": "本句的「difficult」指「因內容複雜、不熟悉或不清楚而難以理解」。",
+        "difficult-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-02"
     },
@@ -629,11 +617,9 @@ export default {
       "masked": "It was ____ everything on time.",
       "options": [
         "difficult-mcq-02",
-        "difficult-mcq-01",
-        "difficult-mcq-03",
-        "difficult-mcq-04",
-        "difficult-mcq-05",
-        "difficult-mcq-06"
+        "difficult-mcq-19",
+        "difficult-mcq-06",
+        "difficult-mcq-15"
       ],
       "explanation": "本句的「difficult to finish」指「因內容複雜、不熟悉或不清楚而難以理解」。",
       "sentenceIndex": 3,
@@ -642,12 +628,10 @@ export default {
         "difficult to finish"
       ],
       "optionReasons": {
-        "difficult-mcq-02": "本句指「因內容複雜、不熟悉或不清楚而難以理解」。",
-        "difficult-mcq-01": "「需要很多努力、技巧、思考或耐力才能完成；困難的」是「difficult — general」的用法，與本句語境不同。",
-        "difficult-mcq-03": "「不容易理解或掌握的想法／概念」是「difficult idea/concept」的用法，與本句語境不同。",
-        "difficult-mcq-04": "「不容易回答、解決或處理的問題」是「difficult question/problem」的用法，與本句語境不同。",
-        "difficult-mcq-05": "「很難管理、處理或應對的情況」是「difficult situation」的用法，與本句語境不同。",
-        "difficult-mcq-06": "「很難作出取捨或判斷的決定」是「difficult decision/choice」的用法，與本句語境不同。"
+        "difficult-mcq-02": "本句的「difficult to finish」指「因內容複雜、不熟悉或不清楚而難以理解」。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-02"
     },
@@ -659,11 +643,9 @@ export default {
       "masked": "The theory is ____ at first.",
       "options": [
         "difficult-mcq-02",
-        "difficult-mcq-01",
-        "difficult-mcq-03",
-        "difficult-mcq-04",
-        "difficult-mcq-05",
-        "difficult-mcq-06"
+        "difficult-mcq-19",
+        "difficult-mcq-06",
+        "difficult-mcq-11"
       ],
       "explanation": "本句的「difficult to understand」指「因內容複雜、不熟悉或不清楚而難以理解」。",
       "sentenceIndex": 4,
@@ -672,12 +654,10 @@ export default {
         "difficult to understand"
       ],
       "optionReasons": {
-        "difficult-mcq-02": "本句指「因內容複雜、不熟悉或不清楚而難以理解」。",
-        "difficult-mcq-01": "「需要很多努力、技巧、思考或耐力才能完成；困難的」是「difficult — general」的用法，與本句語境不同。",
-        "difficult-mcq-03": "「不容易理解或掌握的想法／概念」是「difficult idea/concept」的用法，與本句語境不同。",
-        "difficult-mcq-04": "「不容易回答、解決或處理的問題」是「difficult question/problem」的用法，與本句語境不同。",
-        "difficult-mcq-05": "「很難管理、處理或應對的情況」是「difficult situation」的用法，與本句語境不同。",
-        "difficult-mcq-06": "「很難作出取捨或判斷的決定」是「difficult decision/choice」的用法，與本句語境不同。"
+        "difficult-mcq-02": "本句的「difficult to understand」指「因內容複雜、不熟悉或不清楚而難以理解」。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-02"
     },
@@ -689,11 +669,9 @@ export default {
       "masked": "She made a ____ sound simple.",
       "options": [
         "difficult-mcq-02",
-        "difficult-mcq-01",
-        "difficult-mcq-03",
-        "difficult-mcq-04",
-        "difficult-mcq-05",
-        "difficult-mcq-06"
+        "difficult-mcq-20",
+        "difficult-mcq-15",
+        "difficult-mcq-12"
       ],
       "explanation": "本句的「difficult idea」指「因內容複雜、不熟悉或不清楚而難以理解」。",
       "sentenceIndex": 5,
@@ -702,12 +680,10 @@ export default {
         "difficult idea"
       ],
       "optionReasons": {
-        "difficult-mcq-02": "本句指「因內容複雜、不熟悉或不清楚而難以理解」。",
-        "difficult-mcq-01": "「需要很多努力、技巧、思考或耐力才能完成；困難的」是「difficult — general」的用法，與本句語境不同。",
-        "difficult-mcq-03": "「不容易理解或掌握的想法／概念」是「difficult idea/concept」的用法，與本句語境不同。",
-        "difficult-mcq-04": "「不容易回答、解決或處理的問題」是「difficult question/problem」的用法，與本句語境不同。",
-        "difficult-mcq-05": "「很難管理、處理或應對的情況」是「difficult situation」的用法，與本句語境不同。",
-        "difficult-mcq-06": "「很難作出取捨或判斷的決定」是「difficult decision/choice」的用法，與本句語境不同。"
+        "difficult-mcq-02": "本句的「difficult idea」指「因內容複雜、不熟悉或不清楚而難以理解」。",
+        "difficult-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-02"
     },
@@ -719,11 +695,9 @@ export default {
       "masked": "The teacher asked a ____.",
       "options": [
         "difficult-mcq-04",
-        "difficult-mcq-03",
-        "difficult-mcq-05",
-        "difficult-mcq-02",
-        "difficult-mcq-06",
-        "difficult-mcq-01"
+        "difficult-mcq-11",
+        "difficult-mcq-19",
+        "difficult-mcq-18"
       ],
       "explanation": "本句的「difficult question」指「不容易回答、解決或處理的問題」。",
       "sentenceIndex": 6,
@@ -732,12 +706,10 @@ export default {
         "difficult question"
       ],
       "optionReasons": {
-        "difficult-mcq-04": "本句指「不容易回答、解決或處理的問題」。",
-        "difficult-mcq-03": "「不容易理解或掌握的想法／概念」是「difficult idea/concept」的用法，與本句語境不同。",
-        "difficult-mcq-05": "「很難管理、處理或應對的情況」是「difficult situation」的用法，與本句語境不同。",
-        "difficult-mcq-02": "「因內容複雜、不熟悉或不清楚而難以理解」是「difficult to understand」的用法，與本句語境不同。",
-        "difficult-mcq-06": "「很難作出取捨或判斷的決定」是「difficult decision/choice」的用法，與本句語境不同。",
-        "difficult-mcq-01": "「需要很多努力、技巧、思考或耐力才能完成；困難的」是「difficult — general」的用法，與本句語境不同。"
+        "difficult-mcq-04": "本句的「difficult question」指「不容易回答、解決或處理的問題」。",
+        "difficult-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-04"
     },
@@ -749,11 +721,9 @@ export default {
       "masked": "We are trying to solve a ____.",
       "options": [
         "difficult-mcq-04",
-        "difficult-mcq-03",
-        "difficult-mcq-05",
-        "difficult-mcq-02",
-        "difficult-mcq-06",
-        "difficult-mcq-01"
+        "difficult-mcq-14",
+        "difficult-mcq-12",
+        "difficult-mcq-11"
       ],
       "explanation": "本句的「difficult problem」指「不容易回答、解決或處理的問題」。",
       "sentenceIndex": 7,
@@ -762,12 +732,10 @@ export default {
         "difficult problem"
       ],
       "optionReasons": {
-        "difficult-mcq-04": "本句指「不容易回答、解決或處理的問題」。",
-        "difficult-mcq-03": "「不容易理解或掌握的想法／概念」是「difficult idea/concept」的用法，與本句語境不同。",
-        "difficult-mcq-05": "「很難管理、處理或應對的情況」是「difficult situation」的用法，與本句語境不同。",
-        "difficult-mcq-02": "「因內容複雜、不熟悉或不清楚而難以理解」是「difficult to understand」的用法，與本句語境不同。",
-        "difficult-mcq-06": "「很難作出取捨或判斷的決定」是「difficult decision/choice」的用法，與本句語境不同。",
-        "difficult-mcq-01": "「需要很多努力、技巧、思考或耐力才能完成；困難的」是「difficult — general」的用法，與本句語境不同。"
+        "difficult-mcq-04": "本句的「difficult problem」指「不容易回答、解決或處理的問題」。",
+        "difficult-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-04"
     },
@@ -779,11 +747,9 @@ export default {
       "masked": "She remained calm in a ____.",
       "options": [
         "difficult-mcq-05",
-        "difficult-mcq-04",
-        "difficult-mcq-06",
-        "difficult-mcq-03",
-        "difficult-mcq-07",
-        "difficult-mcq-02"
+        "difficult-mcq-19",
+        "difficult-mcq-15",
+        "difficult-mcq-11"
       ],
       "explanation": "本句的「difficult situation」指「很難管理、處理或應對的情況」。",
       "sentenceIndex": 8,
@@ -792,12 +758,10 @@ export default {
         "difficult situation"
       ],
       "optionReasons": {
-        "difficult-mcq-05": "本句指「很難管理、處理或應對的情況」。",
-        "difficult-mcq-04": "「不容易回答、解決或處理的問題」是「difficult question/problem」的用法，與本句語境不同。",
-        "difficult-mcq-06": "「很難作出取捨或判斷的決定」是「difficult decision/choice」的用法，與本句語境不同。",
-        "difficult-mcq-03": "「不容易理解或掌握的想法／概念」是「difficult idea/concept」的用法，與本句語境不同。",
-        "difficult-mcq-07": "「因態度、行為或個性而難以相處／應付的人」是「difficult person」的用法，與本句語境不同。",
-        "difficult-mcq-02": "「因內容複雜、不熟悉或不清楚而難以理解」是「difficult to understand」的用法，與本句語境不同。"
+        "difficult-mcq-05": "本句的「difficult situation」指「很難管理、處理或應對的情況」。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-05"
     },
@@ -809,11 +773,9 @@ export default {
       "masked": "The manager had to deal with a ____.",
       "options": [
         "difficult-mcq-05",
-        "difficult-mcq-04",
-        "difficult-mcq-06",
-        "difficult-mcq-03",
-        "difficult-mcq-07",
-        "difficult-mcq-02"
+        "difficult-mcq-20",
+        "difficult-mcq-15",
+        "difficult-mcq-11"
       ],
       "explanation": "本句的「difficult situation」指「很難管理、處理或應對的情況」。",
       "sentenceIndex": 9,
@@ -822,12 +784,10 @@ export default {
         "difficult situation"
       ],
       "optionReasons": {
-        "difficult-mcq-05": "本句指「很難管理、處理或應對的情況」。",
-        "difficult-mcq-04": "「不容易回答、解決或處理的問題」是「difficult question/problem」的用法，與本句語境不同。",
-        "difficult-mcq-06": "「很難作出取捨或判斷的決定」是「difficult decision/choice」的用法，與本句語境不同。",
-        "difficult-mcq-03": "「不容易理解或掌握的想法／概念」是「difficult idea/concept」的用法，與本句語境不同。",
-        "difficult-mcq-07": "「因態度、行為或個性而難以相處／應付的人」是「difficult person」的用法，與本句語境不同。",
-        "difficult-mcq-02": "「因內容複雜、不熟悉或不清楚而難以理解」是「difficult to understand」的用法，與本句語境不同。"
+        "difficult-mcq-05": "本句的「difficult situation」指「很難管理、處理或應對的情況」。",
+        "difficult-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-05"
     },
@@ -839,11 +799,9 @@ export default {
       "masked": "Leaving the job was a ____.",
       "options": [
         "difficult-mcq-06",
-        "difficult-mcq-05",
-        "difficult-mcq-07",
-        "difficult-mcq-04",
-        "difficult-mcq-08",
-        "difficult-mcq-03"
+        "difficult-mcq-20",
+        "difficult-mcq-24",
+        "difficult-mcq-14"
       ],
       "explanation": "本句的「difficult decision」指「很難作出取捨或判斷的決定」。",
       "sentenceIndex": 10,
@@ -852,12 +810,10 @@ export default {
         "difficult decision"
       ],
       "optionReasons": {
-        "difficult-mcq-06": "本句指「很難作出取捨或判斷的決定」。",
-        "difficult-mcq-05": "「很難管理、處理或應對的情況」是「difficult situation」的用法，與本句語境不同。",
-        "difficult-mcq-07": "「因態度、行為或個性而難以相處／應付的人」是「difficult person」的用法，與本句語境不同。",
-        "difficult-mcq-04": "「不容易回答、解決或處理的問題」是「difficult question/problem」的用法，與本句語境不同。",
-        "difficult-mcq-08": "「行為或需求較難管理、應對的人」是「difficult student/customer」的用法，與本句語境不同。",
-        "difficult-mcq-03": "「不容易理解或掌握的想法／概念」是「difficult idea/concept」的用法，與本句語境不同。"
+        "difficult-mcq-06": "本句的「difficult decision」指「很難作出取捨或判斷的決定」。",
+        "difficult-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-06"
     },
@@ -869,11 +825,9 @@ export default {
       "masked": "She faced a ____.",
       "options": [
         "difficult-mcq-06",
-        "difficult-mcq-05",
-        "difficult-mcq-07",
-        "difficult-mcq-04",
-        "difficult-mcq-08",
-        "difficult-mcq-03"
+        "difficult-mcq-20",
+        "difficult-mcq-02",
+        "difficult-mcq-23"
       ],
       "explanation": "本句的「difficult choice」指「很難作出取捨或判斷的決定」。",
       "sentenceIndex": 11,
@@ -882,12 +836,10 @@ export default {
         "difficult choice"
       ],
       "optionReasons": {
-        "difficult-mcq-06": "本句指「很難作出取捨或判斷的決定」。",
-        "difficult-mcq-05": "「很難管理、處理或應對的情況」是「difficult situation」的用法，與本句語境不同。",
-        "difficult-mcq-07": "「因態度、行為或個性而難以相處／應付的人」是「difficult person」的用法，與本句語境不同。",
-        "difficult-mcq-04": "「不容易回答、解決或處理的問題」是「difficult question/problem」的用法，與本句語境不同。",
-        "difficult-mcq-08": "「行為或需求較難管理、應對的人」是「difficult student/customer」的用法，與本句語境不同。",
-        "difficult-mcq-03": "「不容易理解或掌握的想法／概念」是「difficult idea/concept」的用法，與本句語境不同。"
+        "difficult-mcq-06": "本句的「difficult choice」指「很難作出取捨或判斷的決定」。",
+        "difficult-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-06"
     },
@@ -899,11 +851,9 @@ export default {
       "masked": "He can be a ____ to work with.",
       "options": [
         "difficult-mcq-07",
-        "difficult-mcq-06",
-        "difficult-mcq-08",
-        "difficult-mcq-05",
-        "difficult-mcq-09",
-        "difficult-mcq-04"
+        "difficult-mcq-15",
+        "difficult-mcq-20",
+        "difficult-mcq-23"
       ],
       "explanation": "本句的「difficult person」指「因態度、行為或個性而難以相處／應付的人」。",
       "sentenceIndex": 12,
@@ -912,12 +862,10 @@ export default {
         "difficult person"
       ],
       "optionReasons": {
-        "difficult-mcq-07": "本句指「因態度、行為或個性而難以相處／應付的人」。",
-        "difficult-mcq-06": "「很難作出取捨或判斷的決定」是「difficult decision/choice」的用法，與本句語境不同。",
-        "difficult-mcq-08": "「行為或需求較難管理、應對的人」是「difficult student/customer」的用法，與本句語境不同。",
-        "difficult-mcq-05": "「很難管理、處理或應對的情況」是「difficult situation」的用法，與本句語境不同。",
-        "difficult-mcq-09": "「很難管理或造成麻煩的行為」是「difficult behavior」的用法，與本句語境不同。",
-        "difficult-mcq-04": "「不容易回答、解決或處理的問題」是「difficult question/problem」的用法，與本句語境不同。"
+        "difficult-mcq-07": "本句的「difficult person」指「因態度、行為或個性而難以相處／應付的人」。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-07"
     },
@@ -929,11 +877,9 @@ export default {
       "masked": "She remained patient with a ____.",
       "options": [
         "difficult-mcq-07",
-        "difficult-mcq-06",
-        "difficult-mcq-08",
-        "difficult-mcq-05",
-        "difficult-mcq-09",
-        "difficult-mcq-04"
+        "difficult-mcq-19",
+        "difficult-mcq-15",
+        "difficult-mcq-10"
       ],
       "explanation": "本句的「difficult customer」指「因態度、行為或個性而難以相處／應付的人」。",
       "sentenceIndex": 13,
@@ -942,12 +888,10 @@ export default {
         "difficult customer"
       ],
       "optionReasons": {
-        "difficult-mcq-07": "本句指「因態度、行為或個性而難以相處／應付的人」。",
-        "difficult-mcq-06": "「很難作出取捨或判斷的決定」是「difficult decision/choice」的用法，與本句語境不同。",
-        "difficult-mcq-08": "「行為或需求較難管理、應對的人」是「difficult student/customer」的用法，與本句語境不同。",
-        "difficult-mcq-05": "「很難管理、處理或應對的情況」是「difficult situation」的用法，與本句語境不同。",
-        "difficult-mcq-09": "「很難管理或造成麻煩的行為」是「difficult behavior」的用法，與本句語境不同。",
-        "difficult-mcq-04": "「不容易回答、解決或處理的問題」是「difficult question/problem」的用法，與本句語境不同。"
+        "difficult-mcq-07": "本句的「difficult customer」指「因態度、行為或個性而難以相處／應付的人」。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-07"
     },
@@ -959,11 +903,9 @@ export default {
       "masked": "The teacher knew how to handle ____.",
       "options": [
         "difficult-mcq-08",
-        "difficult-mcq-07",
-        "difficult-mcq-09",
-        "difficult-mcq-06",
-        "difficult-mcq-10",
-        "difficult-mcq-05"
+        "difficult-mcq-20",
+        "difficult-mcq-15",
+        "difficult-mcq-18"
       ],
       "explanation": "本句的「difficult students」指「行為或需求較難管理、應對的人」。",
       "sentenceIndex": 14,
@@ -972,12 +914,10 @@ export default {
         "difficult students"
       ],
       "optionReasons": {
-        "difficult-mcq-08": "本句指「行為或需求較難管理、應對的人」。",
-        "difficult-mcq-07": "「因態度、行為或個性而難以相處／應付的人」是「difficult person」的用法，與本句語境不同。",
-        "difficult-mcq-09": "「很難管理或造成麻煩的行為」是「difficult behavior」的用法，與本句語境不同。",
-        "difficult-mcq-06": "「很難作出取捨或判斷的決定」是「difficult decision/choice」的用法，與本句語境不同。",
-        "difficult-mcq-10": "「充滿壓力、問題或痛苦的艱難時期」是「difficult time/period」的用法，與本句語境不同。",
-        "difficult-mcq-05": "「很難管理、處理或應對的情況」是「difficult situation」的用法，與本句語境不同。"
+        "difficult-mcq-08": "本句的「difficult students」指「行為或需求較難管理、應對的人」。",
+        "difficult-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-08"
     },
@@ -989,11 +929,9 @@ export default {
       "masked": "Staff are trained to deal with ____.",
       "options": [
         "difficult-mcq-08",
-        "difficult-mcq-07",
-        "difficult-mcq-09",
-        "difficult-mcq-06",
-        "difficult-mcq-10",
-        "difficult-mcq-05"
+        "difficult-mcq-19",
+        "difficult-mcq-15",
+        "difficult-mcq-06"
       ],
       "explanation": "本句的「difficult customers」指「行為或需求較難管理、應對的人」。",
       "sentenceIndex": 15,
@@ -1002,12 +940,10 @@ export default {
         "difficult customers"
       ],
       "optionReasons": {
-        "difficult-mcq-08": "本句指「行為或需求較難管理、應對的人」。",
-        "difficult-mcq-07": "「因態度、行為或個性而難以相處／應付的人」是「difficult person」的用法，與本句語境不同。",
-        "difficult-mcq-09": "「很難管理或造成麻煩的行為」是「difficult behavior」的用法，與本句語境不同。",
-        "difficult-mcq-06": "「很難作出取捨或判斷的決定」是「difficult decision/choice」的用法，與本句語境不同。",
-        "difficult-mcq-10": "「充滿壓力、問題或痛苦的艱難時期」是「difficult time/period」的用法，與本句語境不同。",
-        "difficult-mcq-05": "「很難管理、處理或應對的情況」是「difficult situation」的用法，與本句語境不同。"
+        "difficult-mcq-08": "本句的「difficult customers」指「行為或需求較難管理、應對的人」。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-08"
     },
@@ -1019,11 +955,9 @@ export default {
       "masked": "The child’s ____ improved over time.",
       "options": [
         "difficult-mcq-09",
-        "difficult-mcq-08",
-        "difficult-mcq-10",
-        "difficult-mcq-07",
-        "difficult-mcq-11",
-        "difficult-mcq-06"
+        "difficult-mcq-15",
+        "difficult-mcq-24",
+        "difficult-mcq-23"
       ],
       "explanation": "本句的「difficult behavior」指「很難管理或造成麻煩的行為」。",
       "sentenceIndex": 16,
@@ -1032,12 +966,10 @@ export default {
         "difficult behavior"
       ],
       "optionReasons": {
-        "difficult-mcq-09": "本句指「很難管理或造成麻煩的行為」。",
-        "difficult-mcq-08": "「行為或需求較難管理、應對的人」是「difficult student/customer」的用法，與本句語境不同。",
-        "difficult-mcq-10": "「充滿壓力、問題或痛苦的艱難時期」是「difficult time/period」的用法，與本句語境不同。",
-        "difficult-mcq-07": "「因態度、行為或個性而難以相處／應付的人」是「difficult person」的用法，與本句語境不同。",
-        "difficult-mcq-11": "「令工作或生活更難進行的艱難／惡劣條件」是「difficult conditions」的用法，與本句語境不同。",
-        "difficult-mcq-06": "「很難作出取捨或判斷的決定」是「difficult decision/choice」的用法，與本句語境不同。"
+        "difficult-mcq-09": "本句的「difficult behavior」指「很難管理或造成麻煩的行為」。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-09"
     },
@@ -1049,11 +981,9 @@ export default {
       "masked": "Teachers sometimes need strategies for managing ____.",
       "options": [
         "difficult-mcq-09",
-        "difficult-mcq-08",
+        "difficult-mcq-15",
         "difficult-mcq-10",
-        "difficult-mcq-07",
-        "difficult-mcq-11",
-        "difficult-mcq-06"
+        "difficult-mcq-19"
       ],
       "explanation": "本句的「difficult behavior」指「很難管理或造成麻煩的行為」。",
       "sentenceIndex": 17,
@@ -1062,12 +992,10 @@ export default {
         "difficult behavior"
       ],
       "optionReasons": {
-        "difficult-mcq-09": "本句指「很難管理或造成麻煩的行為」。",
-        "difficult-mcq-08": "「行為或需求較難管理、應對的人」是「difficult student/customer」的用法，與本句語境不同。",
-        "difficult-mcq-10": "「充滿壓力、問題或痛苦的艱難時期」是「difficult time/period」的用法，與本句語境不同。",
-        "difficult-mcq-07": "「因態度、行為或個性而難以相處／應付的人」是「difficult person」的用法，與本句語境不同。",
-        "difficult-mcq-11": "「令工作或生活更難進行的艱難／惡劣條件」是「difficult conditions」的用法，與本句語境不同。",
-        "difficult-mcq-06": "「很難作出取捨或判斷的決定」是「difficult decision/choice」的用法，與本句語境不同。"
+        "difficult-mcq-09": "本句的「difficult behavior」指「很難管理或造成麻煩的行為」。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-09"
     },
@@ -1079,11 +1007,9 @@ export default {
       "masked": "She supported me through a ____.",
       "options": [
         "difficult-mcq-10",
-        "difficult-mcq-09",
-        "difficult-mcq-11",
-        "difficult-mcq-08",
-        "difficult-mcq-12",
-        "difficult-mcq-07"
+        "difficult-mcq-15",
+        "difficult-mcq-02",
+        "difficult-mcq-18"
       ],
       "explanation": "本句的「difficult time」指「充滿壓力、問題或痛苦的艱難時期」。",
       "sentenceIndex": 18,
@@ -1092,12 +1018,10 @@ export default {
         "difficult time"
       ],
       "optionReasons": {
-        "difficult-mcq-10": "本句指「充滿壓力、問題或痛苦的艱難時期」。",
-        "difficult-mcq-09": "「很難管理或造成麻煩的行為」是「difficult behavior」的用法，與本句語境不同。",
-        "difficult-mcq-11": "「令工作或生活更難進行的艱難／惡劣條件」是「difficult conditions」的用法，與本句語境不同。",
-        "difficult-mcq-08": "「行為或需求較難管理、應對的人」是「difficult student/customer」的用法，與本句語境不同。",
-        "difficult-mcq-12": "「很難取得、找到或到達」是「difficult to get/find/reach」的用法，與本句語境不同。",
-        "difficult-mcq-07": "「因態度、行為或個性而難以相處／應付的人」是「difficult person」的用法，與本句語境不同。"
+        "difficult-mcq-10": "本句的「difficult time」指「充滿壓力、問題或痛苦的艱難時期」。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-10"
     },
@@ -1109,11 +1033,9 @@ export default {
       "masked": "The company went through a ____.",
       "options": [
         "difficult-mcq-10",
-        "difficult-mcq-09",
-        "difficult-mcq-11",
-        "difficult-mcq-08",
-        "difficult-mcq-12",
-        "difficult-mcq-07"
+        "difficult-mcq-15",
+        "difficult-mcq-19",
+        "difficult-mcq-24"
       ],
       "explanation": "本句的「difficult period」指「充滿壓力、問題或痛苦的艱難時期」。",
       "sentenceIndex": 19,
@@ -1122,12 +1044,10 @@ export default {
         "difficult period"
       ],
       "optionReasons": {
-        "difficult-mcq-10": "本句指「充滿壓力、問題或痛苦的艱難時期」。",
-        "difficult-mcq-09": "「很難管理或造成麻煩的行為」是「difficult behavior」的用法，與本句語境不同。",
-        "difficult-mcq-11": "「令工作或生活更難進行的艱難／惡劣條件」是「difficult conditions」的用法，與本句語境不同。",
-        "difficult-mcq-08": "「行為或需求較難管理、應對的人」是「difficult student/customer」的用法，與本句語境不同。",
-        "difficult-mcq-12": "「很難取得、找到或到達」是「difficult to get/find/reach」的用法，與本句語境不同。",
-        "difficult-mcq-07": "「因態度、行為或個性而難以相處／應付的人」是「difficult person」的用法，與本句語境不同。"
+        "difficult-mcq-10": "本句的「difficult period」指「充滿壓力、問題或痛苦的艱難時期」。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-10"
     },
@@ -1139,11 +1059,9 @@ export default {
       "masked": "They worked under ____.",
       "options": [
         "difficult-mcq-11",
-        "difficult-mcq-10",
-        "difficult-mcq-12",
-        "difficult-mcq-09",
-        "difficult-mcq-13",
-        "difficult-mcq-08"
+        "difficult-mcq-04",
+        "difficult-mcq-19",
+        "difficult-mcq-18"
       ],
       "explanation": "本句的「difficult conditions」指「令工作或生活更難進行的艱難／惡劣條件」。",
       "sentenceIndex": 20,
@@ -1152,12 +1070,10 @@ export default {
         "difficult conditions"
       ],
       "optionReasons": {
-        "difficult-mcq-11": "本句指「令工作或生活更難進行的艱難／惡劣條件」。",
-        "difficult-mcq-10": "「充滿壓力、問題或痛苦的艱難時期」是「difficult time/period」的用法，與本句語境不同。",
-        "difficult-mcq-12": "「很難取得、找到或到達」是「difficult to get/find/reach」的用法，與本句語境不同。",
-        "difficult-mcq-09": "「很難管理或造成麻煩的行為」是「difficult behavior」的用法，與本句語境不同。",
-        "difficult-mcq-13": "「很難清楚表達、解釋或形容」是「difficult to explain/describe」的用法，與本句語境不同。",
-        "difficult-mcq-08": "「行為或需求較難管理、應對的人」是「difficult student/customer」的用法，與本句語境不同。"
+        "difficult-mcq-11": "本句的「difficult conditions」指「令工作或生活更難進行的艱難／惡劣條件」。",
+        "difficult-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-11"
     },
@@ -1169,11 +1085,9 @@ export default {
       "masked": "The rescue team continued despite ____.",
       "options": [
         "difficult-mcq-11",
-        "difficult-mcq-10",
-        "difficult-mcq-12",
-        "difficult-mcq-09",
-        "difficult-mcq-13",
-        "difficult-mcq-08"
+        "difficult-mcq-04",
+        "difficult-mcq-19",
+        "difficult-mcq-02"
       ],
       "explanation": "本句的「difficult conditions」指「令工作或生活更難進行的艱難／惡劣條件」。",
       "sentenceIndex": 21,
@@ -1182,12 +1096,10 @@ export default {
         "difficult conditions"
       ],
       "optionReasons": {
-        "difficult-mcq-11": "本句指「令工作或生活更難進行的艱難／惡劣條件」。",
-        "difficult-mcq-10": "「充滿壓力、問題或痛苦的艱難時期」是「difficult time/period」的用法，與本句語境不同。",
-        "difficult-mcq-12": "「很難取得、找到或到達」是「difficult to get/find/reach」的用法，與本句語境不同。",
-        "difficult-mcq-09": "「很難管理或造成麻煩的行為」是「difficult behavior」的用法，與本句語境不同。",
-        "difficult-mcq-13": "「很難清楚表達、解釋或形容」是「difficult to explain/describe」的用法，與本句語境不同。",
-        "difficult-mcq-08": "「行為或需求較難管理、應對的人」是「difficult student/customer」的用法，與本句語境不同。"
+        "difficult-mcq-11": "本句的「difficult conditions」指「令工作或生活更難進行的艱難／惡劣條件」。",
+        "difficult-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-11"
     },
@@ -1199,11 +1111,9 @@ export default {
       "masked": "It was a ____ but not impossible.",
       "options": [
         "difficult-mcq-12",
-        "difficult-mcq-11",
-        "difficult-mcq-13",
-        "difficult-mcq-10",
-        "difficult-mcq-14",
-        "difficult-mcq-09"
+        "difficult-mcq-20",
+        "difficult-mcq-15",
+        "difficult-mcq-11"
       ],
       "explanation": "本句的「difficult goal」指「很難取得、找到或到達」。",
       "sentenceIndex": 22,
@@ -1212,12 +1122,10 @@ export default {
         "difficult goal"
       ],
       "optionReasons": {
-        "difficult-mcq-12": "本句指「很難取得、找到或到達」。",
-        "difficult-mcq-11": "「令工作或生活更難進行的艱難／惡劣條件」是「difficult conditions」的用法，與本句語境不同。",
-        "difficult-mcq-13": "「很難清楚表達、解釋或形容」是「difficult to explain/describe」的用法，與本句語境不同。",
-        "difficult-mcq-10": "「充滿壓力、問題或痛苦的艱難時期」是「difficult time/period」的用法，與本句語境不同。",
-        "difficult-mcq-14": "「因令人痛苦、尷尬或有壓力而難以面對」是「difficult — emotionally hard」的用法，與本句語境不同。",
-        "difficult-mcq-09": "「很難管理或造成麻煩的行為」是「difficult behavior」的用法，與本句語境不同。"
+        "difficult-mcq-12": "本句的「difficult goal」指「很難取得、找到或到達」。",
+        "difficult-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-12"
     },
@@ -1229,11 +1137,9 @@ export default {
       "masked": "Explaining the theory clearly was a ____.",
       "options": [
         "difficult-mcq-12",
-        "difficult-mcq-11",
-        "difficult-mcq-13",
-        "difficult-mcq-10",
-        "difficult-mcq-14",
-        "difficult-mcq-09"
+        "difficult-mcq-15",
+        "difficult-mcq-19",
+        "difficult-mcq-10"
       ],
       "explanation": "本句的「difficult task」指「很難取得、找到或到達」。",
       "sentenceIndex": 23,
@@ -1242,12 +1148,10 @@ export default {
         "difficult task"
       ],
       "optionReasons": {
-        "difficult-mcq-12": "本句指「很難取得、找到或到達」。",
-        "difficult-mcq-11": "「令工作或生活更難進行的艱難／惡劣條件」是「difficult conditions」的用法，與本句語境不同。",
-        "difficult-mcq-13": "「很難清楚表達、解釋或形容」是「difficult to explain/describe」的用法，與本句語境不同。",
-        "difficult-mcq-10": "「充滿壓力、問題或痛苦的艱難時期」是「difficult time/period」的用法，與本句語境不同。",
-        "difficult-mcq-14": "「因令人痛苦、尷尬或有壓力而難以面對」是「difficult — emotionally hard」的用法，與本句語境不同。",
-        "difficult-mcq-09": "「很難管理或造成麻煩的行為」是「difficult behavior」的用法，與本句語境不同。"
+        "difficult-mcq-12": "本句的「difficult task」指「很難取得、找到或到達」。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-12"
     },
@@ -1259,11 +1163,9 @@ export default {
       "masked": "Tickets were ____.",
       "options": [
         "difficult-mcq-12",
-        "difficult-mcq-11",
-        "difficult-mcq-13",
-        "difficult-mcq-10",
-        "difficult-mcq-14",
-        "difficult-mcq-09"
+        "difficult-mcq-15",
+        "difficult-mcq-19",
+        "difficult-mcq-11"
       ],
       "explanation": "本句的「difficult to get」指「很難取得、找到或到達」。",
       "sentenceIndex": 24,
@@ -1272,12 +1174,10 @@ export default {
         "difficult to get"
       ],
       "optionReasons": {
-        "difficult-mcq-12": "本句指「很難取得、找到或到達」。",
-        "difficult-mcq-11": "「令工作或生活更難進行的艱難／惡劣條件」是「difficult conditions」的用法，與本句語境不同。",
-        "difficult-mcq-13": "「很難清楚表達、解釋或形容」是「difficult to explain/describe」的用法，與本句語境不同。",
-        "difficult-mcq-10": "「充滿壓力、問題或痛苦的艱難時期」是「difficult time/period」的用法，與本句語境不同。",
-        "difficult-mcq-14": "「因令人痛苦、尷尬或有壓力而難以面對」是「difficult — emotionally hard」的用法，與本句語境不同。",
-        "difficult-mcq-09": "「很難管理或造成麻煩的行為」是「difficult behavior」的用法，與本句語境不同。"
+        "difficult-mcq-12": "本句的「difficult to get」指「很難取得、找到或到達」。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-12"
     },
@@ -1289,11 +1189,9 @@ export default {
       "masked": "The village is ____ in winter.",
       "options": [
         "difficult-mcq-12",
-        "difficult-mcq-11",
-        "difficult-mcq-13",
-        "difficult-mcq-10",
-        "difficult-mcq-14",
-        "difficult-mcq-09"
+        "difficult-mcq-04",
+        "difficult-mcq-19",
+        "difficult-mcq-23"
       ],
       "explanation": "本句的「difficult to reach」指「很難取得、找到或到達」。",
       "sentenceIndex": 25,
@@ -1302,12 +1200,10 @@ export default {
         "difficult to reach"
       ],
       "optionReasons": {
-        "difficult-mcq-12": "本句指「很難取得、找到或到達」。",
-        "difficult-mcq-11": "「令工作或生活更難進行的艱難／惡劣條件」是「difficult conditions」的用法，與本句語境不同。",
-        "difficult-mcq-13": "「很難清楚表達、解釋或形容」是「difficult to explain/describe」的用法，與本句語境不同。",
-        "difficult-mcq-10": "「充滿壓力、問題或痛苦的艱難時期」是「difficult time/period」的用法，與本句語境不同。",
-        "difficult-mcq-14": "「因令人痛苦、尷尬或有壓力而難以面對」是「difficult — emotionally hard」的用法，與本句語境不同。",
-        "difficult-mcq-09": "「很難管理或造成麻煩的行為」是「difficult behavior」的用法，與本句語境不同。"
+        "difficult-mcq-12": "本句的「difficult to reach」指「很難取得、找到或到達」。",
+        "difficult-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-12"
     },
@@ -1319,11 +1215,9 @@ export default {
       "masked": "The feeling is ____.",
       "options": [
         "difficult-mcq-13",
-        "difficult-mcq-12",
-        "difficult-mcq-14",
-        "difficult-mcq-11",
+        "difficult-mcq-20",
         "difficult-mcq-15",
-        "difficult-mcq-10"
+        "difficult-mcq-11"
       ],
       "explanation": "本句的「difficult to describe」指「很難清楚表達、解釋或形容」。",
       "sentenceIndex": 26,
@@ -1332,12 +1226,10 @@ export default {
         "difficult to describe"
       ],
       "optionReasons": {
-        "difficult-mcq-13": "本句指「很難清楚表達、解釋或形容」。",
-        "difficult-mcq-12": "「很難取得、找到或到達」是「difficult to get/find/reach」的用法，與本句語境不同。",
-        "difficult-mcq-14": "「因令人痛苦、尷尬或有壓力而難以面對」是「difficult — emotionally hard」的用法，與本句語境不同。",
-        "difficult-mcq-11": "「令工作或生活更難進行的艱難／惡劣條件」是「difficult conditions」的用法，與本句語境不同。",
-        "difficult-mcq-15": "「對某個特定的人來說不容易」是「difficult for someone」的用法，與本句語境不同。",
-        "difficult-mcq-10": "「充滿壓力、問題或痛苦的艱難時期」是「difficult time/period」的用法，與本句語境不同。"
+        "difficult-mcq-13": "本句的「difficult to describe」指「很難清楚表達、解釋或形容」。",
+        "difficult-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-13"
     },
@@ -1349,11 +1241,9 @@ export default {
       "masked": "The result is ____.",
       "options": [
         "difficult-mcq-13",
-        "difficult-mcq-12",
-        "difficult-mcq-14",
-        "difficult-mcq-11",
+        "difficult-mcq-20",
         "difficult-mcq-15",
-        "difficult-mcq-10"
+        "difficult-mcq-07"
       ],
       "explanation": "本句的「difficult to explain」指「很難清楚表達、解釋或形容」。",
       "sentenceIndex": 27,
@@ -1362,12 +1252,10 @@ export default {
         "difficult to explain"
       ],
       "optionReasons": {
-        "difficult-mcq-13": "本句指「很難清楚表達、解釋或形容」。",
-        "difficult-mcq-12": "「很難取得、找到或到達」是「difficult to get/find/reach」的用法，與本句語境不同。",
-        "difficult-mcq-14": "「因令人痛苦、尷尬或有壓力而難以面對」是「difficult — emotionally hard」的用法，與本句語境不同。",
-        "difficult-mcq-11": "「令工作或生活更難進行的艱難／惡劣條件」是「difficult conditions」的用法，與本句語境不同。",
-        "difficult-mcq-15": "「對某個特定的人來說不容易」是「difficult for someone」的用法，與本句語境不同。",
-        "difficult-mcq-10": "「充滿壓力、問題或痛苦的艱難時期」是「difficult time/period」的用法，與本句語境不同。"
+        "difficult-mcq-13": "本句的「difficult to explain」指「很難清楚表達、解釋或形容」。",
+        "difficult-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-13"
     },
@@ -1379,11 +1267,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "difficult-mcq-14",
-        "difficult-mcq-13",
         "difficult-mcq-15",
-        "difficult-mcq-12",
-        "difficult-mcq-16",
-        "difficult-mcq-11"
+        "difficult-mcq-20",
+        "difficult-mcq-09"
       ],
       "explanation": "本句的「difficult conversation」指「因令人痛苦、尷尬或有壓力而難以面對」。",
       "sentenceIndex": 28,
@@ -1392,12 +1278,10 @@ export default {
         "difficult conversation"
       ],
       "optionReasons": {
-        "difficult-mcq-14": "本句指「因令人痛苦、尷尬或有壓力而難以面對」。",
-        "difficult-mcq-13": "「很難清楚表達、解釋或形容」是「difficult to explain/describe」的用法，與本句語境不同。",
-        "difficult-mcq-15": "「對某個特定的人來說不容易」是「difficult for someone」的用法，與本句語境不同。",
-        "difficult-mcq-12": "「很難取得、找到或到達」是「difficult to get/find/reach」的用法，與本句語境不同。",
-        "difficult-mcq-16": "「做某事時遇到的困難或所需的額外努力」是「difficulty — trouble/effort」的用法，與本句語境不同。",
-        "difficult-mcq-11": "「令工作或生活更難進行的艱難／惡劣條件」是「difficult conditions」的用法，與本句語境不同。"
+        "difficult-mcq-14": "本句的「difficult conversation」指「因令人痛苦、尷尬或有壓力而難以面對」。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-14"
     },
@@ -1409,11 +1293,9 @@ export default {
       "masked": "Saying goodbye was ____.",
       "options": [
         "difficult-mcq-14",
-        "difficult-mcq-13",
+        "difficult-mcq-20",
         "difficult-mcq-15",
-        "difficult-mcq-12",
-        "difficult-mcq-16",
-        "difficult-mcq-11"
+        "difficult-mcq-23"
       ],
       "explanation": "本句的「difficult」指「因令人痛苦、尷尬或有壓力而難以面對」。",
       "sentenceIndex": 29,
@@ -1422,12 +1304,10 @@ export default {
         "difficult"
       ],
       "optionReasons": {
-        "difficult-mcq-14": "本句指「因令人痛苦、尷尬或有壓力而難以面對」。",
-        "difficult-mcq-13": "「很難清楚表達、解釋或形容」是「difficult to explain/describe」的用法，與本句語境不同。",
-        "difficult-mcq-15": "「對某個特定的人來說不容易」是「difficult for someone」的用法，與本句語境不同。",
-        "difficult-mcq-12": "「很難取得、找到或到達」是「difficult to get/find/reach」的用法，與本句語境不同。",
-        "difficult-mcq-16": "「做某事時遇到的困難或所需的額外努力」是「difficulty — trouble/effort」的用法，與本句語境不同。",
-        "difficult-mcq-11": "「令工作或生活更難進行的艱難／惡劣條件」是「difficult conditions」的用法，與本句語境不同。"
+        "difficult-mcq-14": "本句的「difficult」指「因令人痛苦、尷尬或有壓力而難以面對」。",
+        "difficult-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-14"
     },
@@ -1439,11 +1319,8 @@ export default {
       "masked": "Poor communication ____.",
       "options": [
         "difficult-mcq-22",
-        "difficult-mcq-21",
-        "difficult-mcq-23",
-        "difficult-mcq-20",
-        "difficult-mcq-24",
-        "difficult-mcq-19"
+        "difficult-mcq-19",
+        "difficult-mcq-15"
       ],
       "explanation": "本句的「made the situation difficult」指「表示使……變得困難」。",
       "sentenceIndex": 30,
@@ -1452,12 +1329,9 @@ export default {
         "made the situation difficult"
       ],
       "optionReasons": {
-        "difficult-mcq-22": "本句指「表示使……變得困難」。",
-        "difficult-mcq-21": "「難懂的概念；複雜而不容易理解的想法」是「Passage meaning」的用法，與本句語境不同。",
-        "difficult-mcq-23": "「表示棘手議題；難題」是「19. difficult issue」的用法，與本句語境不同。",
-        "difficult-mcq-20": "「沒有遇到問題；輕鬆／順利地完成」是「without difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-24": "「表示難相處的關係；複雜關係」是「20. difficult relationship」的用法，與本句語境不同。",
-        "difficult-mcq-19": "「花很大努力、費力地完成」是「with difficulty」的用法，與本句語境不同。"
+        "difficult-mcq-22": "本句的「made the situation difficult」指「表示使……變得困難」。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-22"
     },
@@ -1469,11 +1343,8 @@ export default {
       "masked": "Lack of sleep ____.",
       "options": [
         "difficult-mcq-22",
-        "difficult-mcq-21",
-        "difficult-mcq-23",
-        "difficult-mcq-20",
-        "difficult-mcq-24",
-        "difficult-mcq-19"
+        "difficult-mcq-19",
+        "difficult-mcq-04"
       ],
       "explanation": "本句的「makes concentration difficult」指「表示使……變得困難」。",
       "sentenceIndex": 31,
@@ -1482,12 +1353,9 @@ export default {
         "makes concentration difficult"
       ],
       "optionReasons": {
-        "difficult-mcq-22": "本句指「表示使……變得困難」。",
-        "difficult-mcq-21": "「難懂的概念；複雜而不容易理解的想法」是「Passage meaning」的用法，與本句語境不同。",
-        "difficult-mcq-23": "「表示棘手議題；難題」是「19. difficult issue」的用法，與本句語境不同。",
-        "difficult-mcq-20": "「沒有遇到問題；輕鬆／順利地完成」是「without difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-24": "「表示難相處的關係；複雜關係」是「20. difficult relationship」的用法，與本句語境不同。",
-        "difficult-mcq-19": "「花很大努力、費力地完成」是「with difficulty」的用法，與本句語境不同。"
+        "difficult-mcq-22": "本句的「makes concentration difficult」指「表示使……變得困難」。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-22"
     },
@@ -1499,11 +1367,9 @@ export default {
       "masked": "It is ____.",
       "options": [
         "difficult-mcq-18",
-        "difficult-mcq-17",
+        "difficult-mcq-04",
         "difficult-mcq-19",
-        "difficult-mcq-16",
-        "difficult-mcq-20",
-        "difficult-mcq-15"
+        "difficult-mcq-24"
       ],
       "explanation": "本句的「difficult to remain calm under pressure」指「覺得做某事很困難」。",
       "sentenceIndex": 32,
@@ -1512,12 +1378,10 @@ export default {
         "difficult to remain calm under pressure"
       ],
       "optionReasons": {
-        "difficult-mcq-18": "本句指「覺得做某事很困難」。",
-        "difficult-mcq-17": "「阻礙事情順利進行的具體問題」是「difficulty — problem」的用法，與本句語境不同。",
-        "difficult-mcq-19": "「花很大努力、費力地完成」是「with difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-16": "「做某事時遇到的困難或所需的額外努力」是「difficulty — trouble/effort」的用法，與本句語境不同。",
-        "difficult-mcq-20": "「沒有遇到問題；輕鬆／順利地完成」是「without difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-15": "「對某個特定的人來說不容易」是「difficult for someone」的用法，與本句語境不同。"
+        "difficult-mcq-18": "本句的「difficult to remain calm under pressure」指「覺得做某事很困難」。",
+        "difficult-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-18"
     },
@@ -1529,11 +1393,9 @@ export default {
       "masked": "It is ____.",
       "options": [
         "difficult-mcq-18",
-        "difficult-mcq-17",
-        "difficult-mcq-19",
-        "difficult-mcq-16",
+        "difficult-mcq-15",
         "difficult-mcq-20",
-        "difficult-mcq-15"
+        "difficult-mcq-13"
       ],
       "explanation": "本句的「difficult to explain the idea without an example」指「覺得做某事很困難」。",
       "sentenceIndex": 33,
@@ -1542,12 +1404,10 @@ export default {
         "difficult to explain the idea without an example"
       ],
       "optionReasons": {
-        "difficult-mcq-18": "本句指「覺得做某事很困難」。",
-        "difficult-mcq-17": "「阻礙事情順利進行的具體問題」是「difficulty — problem」的用法，與本句語境不同。",
-        "difficult-mcq-19": "「花很大努力、費力地完成」是「with difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-16": "「做某事時遇到的困難或所需的額外努力」是「difficulty — trouble/effort」的用法，與本句語境不同。",
-        "difficult-mcq-20": "「沒有遇到問題；輕鬆／順利地完成」是「without difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-15": "「對某個特定的人來說不容易」是「difficult for someone」的用法，與本句語境不同。"
+        "difficult-mcq-18": "本句的「difficult to explain the idea without an example」指「覺得做某事很困難」。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-18"
     },
@@ -1559,11 +1419,9 @@ export default {
       "masked": "Physics was ____ at first.",
       "options": [
         "difficult-mcq-15",
-        "difficult-mcq-14",
-        "difficult-mcq-16",
-        "difficult-mcq-13",
-        "difficult-mcq-17",
-        "difficult-mcq-12"
+        "difficult-mcq-05",
+        "difficult-mcq-11",
+        "difficult-mcq-23"
       ],
       "explanation": "本句的「difficult for me」指「對某個特定的人來說不容易」。",
       "sentenceIndex": 34,
@@ -1572,12 +1430,10 @@ export default {
         "difficult for me"
       ],
       "optionReasons": {
-        "difficult-mcq-15": "本句指「對某個特定的人來說不容易」。",
-        "difficult-mcq-14": "「因令人痛苦、尷尬或有壓力而難以面對」是「difficult — emotionally hard」的用法，與本句語境不同。",
-        "difficult-mcq-16": "「做某事時遇到的困難或所需的額外努力」是「difficulty — trouble/effort」的用法，與本句語境不同。",
-        "difficult-mcq-13": "「很難清楚表達、解釋或形容」是「difficult to explain/describe」的用法，與本句語境不同。",
-        "difficult-mcq-17": "「阻礙事情順利進行的具體問題」是「difficulty — problem」的用法，與本句語境不同。",
-        "difficult-mcq-12": "「很難取得、找到或到達」是「difficult to get/find/reach」的用法，與本句語境不同。"
+        "difficult-mcq-15": "本句的「difficult for me」指「對某個特定的人來說不容易」。",
+        "difficult-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-15"
     },
@@ -1589,10 +1445,8 @@ export default {
       "masked": "Public speaking is ____.",
       "options": [
         "difficult-mcq-15",
-        "difficult-mcq-14",
-        "difficult-mcq-16",
-        "difficult-mcq-13",
-        "difficult-mcq-17",
+        "difficult-mcq-07",
+        "difficult-mcq-19",
         "difficult-mcq-12"
       ],
       "explanation": "本句的「difficult for some students」指「對某個特定的人來說不容易」。",
@@ -1602,12 +1456,10 @@ export default {
         "difficult for some students"
       ],
       "optionReasons": {
-        "difficult-mcq-15": "本句指「對某個特定的人來說不容易」。",
-        "difficult-mcq-14": "「因令人痛苦、尷尬或有壓力而難以面對」是「difficult — emotionally hard」的用法，與本句語境不同。",
-        "difficult-mcq-16": "「做某事時遇到的困難或所需的額外努力」是「difficulty — trouble/effort」的用法，與本句語境不同。",
-        "difficult-mcq-13": "「很難清楚表達、解釋或形容」是「difficult to explain/describe」的用法，與本句語境不同。",
-        "difficult-mcq-17": "「阻礙事情順利進行的具體問題」是「difficulty — problem」的用法，與本句語境不同。",
-        "difficult-mcq-12": "「很難取得、找到或到達」是「difficult to get/find/reach」的用法，與本句語境不同。"
+        "difficult-mcq-15": "本句的「difficult for some students」指「對某個特定的人來說不容易」。",
+        "difficult-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-15"
     },
@@ -1619,11 +1471,9 @@ export default {
       "masked": "The meeting dealt with several ____.",
       "options": [
         "difficult-mcq-23",
-        "difficult-mcq-22",
-        "difficult-mcq-24",
-        "difficult-mcq-21",
-        "difficult-mcq-20",
-        "difficult-mcq-19"
+        "difficult-mcq-19",
+        "difficult-mcq-15",
+        "difficult-mcq-09"
       ],
       "explanation": "本句的「difficult issues」指「表示棘手議題；難題」。",
       "sentenceIndex": 36,
@@ -1632,12 +1482,10 @@ export default {
         "difficult issues"
       ],
       "optionReasons": {
-        "difficult-mcq-23": "本句指「表示棘手議題；難題」。",
-        "difficult-mcq-22": "「表示使……變得困難」是「16. make something difficult」的用法，與本句語境不同。",
-        "difficult-mcq-24": "「表示難相處的關係；複雜關係」是「20. difficult relationship」的用法，與本句語境不同。",
-        "difficult-mcq-21": "「難懂的概念；複雜而不容易理解的想法」是「Passage meaning」的用法，與本句語境不同。",
-        "difficult-mcq-20": "「沒有遇到問題；輕鬆／順利地完成」是「without difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-19": "「花很大努力、費力地完成」是「with difficulty」的用法，與本句語境不同。"
+        "difficult-mcq-23": "本句的「difficult issues」指「表示棘手議題；難題」。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-23"
     },
@@ -1649,11 +1497,9 @@ export default {
       "masked": "This is a ____ with no simple answer.",
       "options": [
         "difficult-mcq-23",
-        "difficult-mcq-22",
-        "difficult-mcq-24",
-        "difficult-mcq-21",
-        "difficult-mcq-20",
-        "difficult-mcq-19"
+        "difficult-mcq-19",
+        "difficult-mcq-15",
+        "difficult-mcq-06"
       ],
       "explanation": "本句的「difficult issue」指「表示棘手議題；難題」。",
       "sentenceIndex": 37,
@@ -1662,12 +1508,10 @@ export default {
         "difficult issue"
       ],
       "optionReasons": {
-        "difficult-mcq-23": "本句指「表示棘手議題；難題」。",
-        "difficult-mcq-22": "「表示使……變得困難」是「16. make something difficult」的用法，與本句語境不同。",
-        "difficult-mcq-24": "「表示難相處的關係；複雜關係」是「20. difficult relationship」的用法，與本句語境不同。",
-        "difficult-mcq-21": "「難懂的概念；複雜而不容易理解的想法」是「Passage meaning」的用法，與本句語境不同。",
-        "difficult-mcq-20": "「沒有遇到問題；輕鬆／順利地完成」是「without difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-19": "「花很大努力、費力地完成」是「with difficulty」的用法，與本句語境不同。"
+        "difficult-mcq-23": "本句的「difficult issue」指「表示棘手議題；難題」。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-23"
     },
@@ -1679,11 +1523,9 @@ export default {
       "masked": "They had a ____ for years.",
       "options": [
         "difficult-mcq-24",
-        "difficult-mcq-23",
-        "difficult-mcq-22",
-        "difficult-mcq-21",
+        "difficult-mcq-15",
         "difficult-mcq-20",
-        "difficult-mcq-19"
+        "difficult-mcq-18"
       ],
       "explanation": "本句的「difficult relationship」指「表示難相處的關係；複雜關係」。",
       "sentenceIndex": 38,
@@ -1692,12 +1534,10 @@ export default {
         "difficult relationship"
       ],
       "optionReasons": {
-        "difficult-mcq-24": "本句指「表示難相處的關係；複雜關係」。",
-        "difficult-mcq-23": "「表示棘手議題；難題」是「19. difficult issue」的用法，與本句語境不同。",
-        "difficult-mcq-22": "「表示使……變得困難」是「16. make something difficult」的用法，與本句語境不同。",
-        "difficult-mcq-21": "「難懂的概念；複雜而不容易理解的想法」是「Passage meaning」的用法，與本句語境不同。",
-        "difficult-mcq-20": "「沒有遇到問題；輕鬆／順利地完成」是「without difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-19": "「花很大努力、費力地完成」是「with difficulty」的用法，與本句語境不同。"
+        "difficult-mcq-24": "本句的「difficult relationship」指「表示難相處的關係；複雜關係」。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-24"
     },
@@ -1709,11 +1549,9 @@ export default {
       "masked": "She had a ____ with her manager.",
       "options": [
         "difficult-mcq-24",
-        "difficult-mcq-23",
-        "difficult-mcq-22",
-        "difficult-mcq-21",
-        "difficult-mcq-20",
-        "difficult-mcq-19"
+        "difficult-mcq-19",
+        "difficult-mcq-15",
+        "difficult-mcq-09"
       ],
       "explanation": "本句的「difficult relationship」指「表示難相處的關係；複雜關係」。",
       "sentenceIndex": 39,
@@ -1722,12 +1560,10 @@ export default {
         "difficult relationship"
       ],
       "optionReasons": {
-        "difficult-mcq-24": "本句指「表示難相處的關係；複雜關係」。",
-        "difficult-mcq-23": "「表示棘手議題；難題」是「19. difficult issue」的用法，與本句語境不同。",
-        "difficult-mcq-22": "「表示使……變得困難」是「16. make something difficult」的用法，與本句語境不同。",
-        "difficult-mcq-21": "「難懂的概念；複雜而不容易理解的想法」是「Passage meaning」的用法，與本句語境不同。",
-        "difficult-mcq-20": "「沒有遇到問題；輕鬆／順利地完成」是「without difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-19": "「花很大努力、費力地完成」是「with difficulty」的用法，與本句語境不同。"
+        "difficult-mcq-24": "本句的「difficult relationship」指「表示難相處的關係；複雜關係」。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-24"
     },
@@ -1739,11 +1575,9 @@ export default {
       "masked": "I had ____.",
       "options": [
         "difficult-mcq-18",
-        "difficult-mcq-17",
-        "difficult-mcq-19",
-        "difficult-mcq-16",
         "difficult-mcq-20",
-        "difficult-mcq-15"
+        "difficult-mcq-15",
+        "difficult-mcq-14"
       ],
       "explanation": "本句的「difficulty following the explanation」指「覺得做某事很困難」。",
       "sentenceIndex": 40,
@@ -1752,12 +1586,10 @@ export default {
         "difficulty following the explanation"
       ],
       "optionReasons": {
-        "difficult-mcq-18": "本句指「覺得做某事很困難」。",
-        "difficult-mcq-17": "「阻礙事情順利進行的具體問題」是「difficulty — problem」的用法，與本句語境不同。",
-        "difficult-mcq-19": "「花很大努力、費力地完成」是「with difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-16": "「做某事時遇到的困難或所需的額外努力」是「difficulty — trouble/effort」的用法，與本句語境不同。",
-        "difficult-mcq-20": "「沒有遇到問題；輕鬆／順利地完成」是「without difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-15": "「對某個特定的人來說不容易」是「difficult for someone」的用法，與本句語境不同。"
+        "difficult-mcq-18": "本句的「difficulty following the explanation」指「覺得做某事很困難」。",
+        "difficult-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-18"
     },
@@ -1769,11 +1601,9 @@ export default {
       "masked": "Some students have ____.",
       "options": [
         "difficult-mcq-18",
-        "difficult-mcq-17",
+        "difficult-mcq-04",
         "difficult-mcq-19",
-        "difficult-mcq-16",
-        "difficult-mcq-20",
-        "difficult-mcq-15"
+        "difficult-mcq-08"
       ],
       "explanation": "本句的「difficulty speaking in public」指「覺得做某事很困難」。",
       "sentenceIndex": 41,
@@ -1782,12 +1612,10 @@ export default {
         "difficulty speaking in public"
       ],
       "optionReasons": {
-        "difficult-mcq-18": "本句指「覺得做某事很困難」。",
-        "difficult-mcq-17": "「阻礙事情順利進行的具體問題」是「difficulty — problem」的用法，與本句語境不同。",
-        "difficult-mcq-19": "「花很大努力、費力地完成」是「with difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-16": "「做某事時遇到的困難或所需的額外努力」是「difficulty — trouble/effort」的用法，與本句語境不同。",
-        "difficult-mcq-20": "「沒有遇到問題；輕鬆／順利地完成」是「without difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-15": "「對某個特定的人來說不容易」是「difficult for someone」的用法，與本句語境不同。"
+        "difficult-mcq-18": "本句的「difficulty speaking in public」指「覺得做某事很困難」。",
+        "difficult-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-18"
     },
@@ -1799,11 +1627,9 @@ export default {
       "masked": "He stood up ____.",
       "options": [
         "difficult-mcq-19",
-        "difficult-mcq-18",
-        "difficult-mcq-20",
-        "difficult-mcq-17",
-        "difficult-mcq-21",
-        "difficult-mcq-16"
+        "difficult-mcq-15",
+        "difficult-mcq-23",
+        "difficult-mcq-08"
       ],
       "explanation": "本句的「with difficulty」指「花很大努力、費力地完成」。",
       "sentenceIndex": 42,
@@ -1812,12 +1638,10 @@ export default {
         "with difficulty"
       ],
       "optionReasons": {
-        "difficult-mcq-19": "本句指「花很大努力、費力地完成」。",
-        "difficult-mcq-18": "「覺得做某事很困難」是「have difficulty doing」的用法，與本句語境不同。",
-        "difficult-mcq-20": "「沒有遇到問題；輕鬆／順利地完成」是「without difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-17": "「阻礙事情順利進行的具體問題」是「difficulty — problem」的用法，與本句語境不同。",
-        "difficult-mcq-21": "「難懂的概念；複雜而不容易理解的想法」是「Passage meaning」的用法，與本句語境不同。",
-        "difficult-mcq-16": "「做某事時遇到的困難或所需的額外努力」是「difficulty — trouble/effort」的用法，與本句語境不同。"
+        "difficult-mcq-19": "本句的「with difficulty」指「花很大努力、費力地完成」。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-19"
     },
@@ -1829,11 +1653,9 @@ export default {
       "masked": "She completed the climb ____.",
       "options": [
         "difficult-mcq-19",
-        "difficult-mcq-18",
-        "difficult-mcq-20",
-        "difficult-mcq-17",
-        "difficult-mcq-21",
-        "difficult-mcq-16"
+        "difficult-mcq-15",
+        "difficult-mcq-02",
+        "difficult-mcq-23"
       ],
       "explanation": "本句的「with difficulty」指「花很大努力、費力地完成」。",
       "sentenceIndex": 43,
@@ -1842,12 +1664,10 @@ export default {
         "with difficulty"
       ],
       "optionReasons": {
-        "difficult-mcq-19": "本句指「花很大努力、費力地完成」。",
-        "difficult-mcq-18": "「覺得做某事很困難」是「have difficulty doing」的用法，與本句語境不同。",
-        "difficult-mcq-20": "「沒有遇到問題；輕鬆／順利地完成」是「without difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-17": "「阻礙事情順利進行的具體問題」是「difficulty — problem」的用法，與本句語境不同。",
-        "difficult-mcq-21": "「難懂的概念；複雜而不容易理解的想法」是「Passage meaning」的用法，與本句語境不同。",
-        "difficult-mcq-16": "「做某事時遇到的困難或所需的額外努力」是「difficulty — trouble/effort」的用法，與本句語境不同。"
+        "difficult-mcq-19": "本句的「with difficulty」指「花很大努力、費力地完成」。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-19"
     },
@@ -1859,11 +1679,8 @@ export default {
       "masked": "She solved the problem ____.",
       "options": [
         "difficult-mcq-20",
-        "difficult-mcq-19",
-        "difficult-mcq-21",
-        "difficult-mcq-18",
         "difficult-mcq-22",
-        "difficult-mcq-17"
+        "difficult-mcq-15"
       ],
       "explanation": "本句的「without difficulty」指「沒有遇到問題；輕鬆／順利地完成」。",
       "sentenceIndex": 44,
@@ -1872,12 +1689,9 @@ export default {
         "without difficulty"
       ],
       "optionReasons": {
-        "difficult-mcq-20": "本句指「沒有遇到問題；輕鬆／順利地完成」。",
-        "difficult-mcq-19": "「花很大努力、費力地完成」是「with difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-21": "「難懂的概念；複雜而不容易理解的想法」是「Passage meaning」的用法，與本句語境不同。",
-        "difficult-mcq-18": "「覺得做某事很困難」是「have difficulty doing」的用法，與本句語境不同。",
-        "difficult-mcq-22": "「表示使……變得困難」是「16. make something difficult」的用法，與本句語境不同。",
-        "difficult-mcq-17": "「阻礙事情順利進行的具體問題」是「difficulty — problem」的用法，與本句語境不同。"
+        "difficult-mcq-20": "本句的「without difficulty」指「沒有遇到問題；輕鬆／順利地完成」。",
+        "difficult-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-20"
     },
@@ -1889,11 +1703,9 @@ export default {
       "masked": "We found the building ____.",
       "options": [
         "difficult-mcq-20",
-        "difficult-mcq-19",
-        "difficult-mcq-21",
-        "difficult-mcq-18",
-        "difficult-mcq-22",
-        "difficult-mcq-17"
+        "difficult-mcq-06",
+        "difficult-mcq-02",
+        "difficult-mcq-11"
       ],
       "explanation": "本句的「without difficulty」指「沒有遇到問題；輕鬆／順利地完成」。",
       "sentenceIndex": 45,
@@ -1902,12 +1714,10 @@ export default {
         "without difficulty"
       ],
       "optionReasons": {
-        "difficult-mcq-20": "本句指「沒有遇到問題；輕鬆／順利地完成」。",
-        "difficult-mcq-19": "「花很大努力、費力地完成」是「with difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-21": "「難懂的概念；複雜而不容易理解的想法」是「Passage meaning」的用法，與本句語境不同。",
-        "difficult-mcq-18": "「覺得做某事很困難」是「have difficulty doing」的用法，與本句語境不同。",
-        "difficult-mcq-22": "「表示使……變得困難」是「16. make something difficult」的用法，與本句語境不同。",
-        "difficult-mcq-17": "「阻礙事情順利進行的具體問題」是「difficulty — problem」的用法，與本句語境不同。"
+        "difficult-mcq-20": "本句的「without difficulty」指「沒有遇到問題；輕鬆／順利地完成」。",
+        "difficult-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-20"
     },
@@ -1919,11 +1729,9 @@ export default {
       "masked": "This chapter is ____ than the last one.",
       "options": [
         "difficult-mcq-20",
-        "difficult-mcq-19",
-        "difficult-mcq-21",
-        "difficult-mcq-18",
-        "difficult-mcq-22",
-        "difficult-mcq-17"
+        "difficult-mcq-12",
+        "difficult-mcq-02",
+        "difficult-mcq-15"
       ],
       "explanation": "本句的「more difficult」指「沒有遇到問題；輕鬆／順利地完成」。",
       "sentenceIndex": 46,
@@ -1932,12 +1740,10 @@ export default {
         "more difficult"
       ],
       "optionReasons": {
-        "difficult-mcq-20": "本句指「沒有遇到問題；輕鬆／順利地完成」。",
-        "difficult-mcq-19": "「花很大努力、費力地完成」是「with difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-21": "「難懂的概念；複雜而不容易理解的想法」是「Passage meaning」的用法，與本句語境不同。",
-        "difficult-mcq-18": "「覺得做某事很困難」是「have difficulty doing」的用法，與本句語境不同。",
-        "difficult-mcq-22": "「表示使……變得困難」是「16. make something difficult」的用法，與本句語境不同。",
-        "difficult-mcq-17": "「阻礙事情順利進行的具體問題」是「difficulty — problem」的用法，與本句語境不同。"
+        "difficult-mcq-20": "本句的「more difficult」指「沒有遇到問題；輕鬆／順利地完成」。",
+        "difficult-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-20"
     },
@@ -1949,11 +1755,9 @@ export default {
       "masked": "That was the ____ part of the exam.",
       "options": [
         "difficult-mcq-20",
-        "difficult-mcq-19",
-        "difficult-mcq-21",
-        "difficult-mcq-18",
-        "difficult-mcq-22",
-        "difficult-mcq-17"
+        "difficult-mcq-05",
+        "difficult-mcq-11",
+        "difficult-mcq-14"
       ],
       "explanation": "本句的「most difficult」指「沒有遇到問題；輕鬆／順利地完成」。",
       "sentenceIndex": 47,
@@ -1962,12 +1766,10 @@ export default {
         "most difficult"
       ],
       "optionReasons": {
-        "difficult-mcq-20": "本句指「沒有遇到問題；輕鬆／順利地完成」。",
-        "difficult-mcq-19": "「花很大努力、費力地完成」是「with difficulty」的用法，與本句語境不同。",
-        "difficult-mcq-21": "「難懂的概念；複雜而不容易理解的想法」是「Passage meaning」的用法，與本句語境不同。",
-        "difficult-mcq-18": "「覺得做某事很困難」是「have difficulty doing」的用法，與本句語境不同。",
-        "difficult-mcq-22": "「表示使……變得困難」是「16. make something difficult」的用法，與本句語境不同。",
-        "difficult-mcq-17": "「阻礙事情順利進行的具體問題」是「difficulty — problem」的用法，與本句語境不同。"
+        "difficult-mcq-20": "本句的「most difficult」指「沒有遇到問題；輕鬆／順利地完成」。",
+        "difficult-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "difficult-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difficult-mcq-20"
     }
@@ -1979,5 +1781,7 @@ export default {
     "sha256": "7624612d1eea882b47cb8a891a5e22f4d035608a472144ae745f5fce9578bdde",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

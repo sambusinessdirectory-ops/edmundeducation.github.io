@@ -236,11 +236,7 @@ export default {
       "masked": "Food is an important part of ____.",
       "options": [
         "culture-mcq-01",
-        "culture-mcq-02",
-        "culture-mcq-03",
-        "culture-mcq-04",
-        "culture-mcq-05",
-        "culture-mcq-06"
+        "contrast-duration"
       ],
       "explanation": "本句的「culture」指「某社會或群體共同形成的信念、價值、習俗、語言、藝術及生活方式」。",
       "sentenceIndex": 0,
@@ -249,12 +245,8 @@ export default {
         "culture"
       ],
       "optionReasons": {
-        "culture-mcq-01": "本句指「某社會或群體共同形成的信念、價值、習俗、語言、藝術及生活方式」。",
-        "culture-mcq-02": "「文學、藝術、音樂、思想等文化藝術及人文活動」與本句語境不同。",
-        "culture-mcq-03": "「組織或群體中共同形成的價值、習慣、行為方式及風氣」與本句語境不同。",
-        "culture-mcq-04": "「在控制條件下培養的細菌、細胞、組織等，或其培養過程」與本句語境不同。",
-        "culture-mcq-05": "「在實驗室等控制條件下培養細胞、細菌或組織」與本句語境不同。",
-        "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。"
+        "culture-mcq-01": "本句的「culture」指「某社會或群體共同形成的信念、價值、習俗、語言、藝術及生活方式」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "culture-mcq-01"
     },
@@ -266,11 +258,7 @@ export default {
       "masked": "Different ____ have different attitudes toward time.",
       "options": [
         "culture-mcq-01",
-        "culture-mcq-02",
-        "culture-mcq-03",
-        "culture-mcq-04",
-        "culture-mcq-05",
-        "culture-mcq-06"
+        "contrast-duration"
       ],
       "explanation": "本句的「cultures」指「某社會或群體共同形成的信念、價值、習俗、語言、藝術及生活方式」。",
       "sentenceIndex": 1,
@@ -279,12 +267,8 @@ export default {
         "cultures"
       ],
       "optionReasons": {
-        "culture-mcq-01": "本句指「某社會或群體共同形成的信念、價值、習俗、語言、藝術及生活方式」。",
-        "culture-mcq-02": "「文學、藝術、音樂、思想等文化藝術及人文活動」與本句語境不同。",
-        "culture-mcq-03": "「組織或群體中共同形成的價值、習慣、行為方式及風氣」與本句語境不同。",
-        "culture-mcq-04": "「在控制條件下培養的細菌、細胞、組織等，或其培養過程」與本句語境不同。",
-        "culture-mcq-05": "「在實驗室等控制條件下培養細胞、細菌或組織」與本句語境不同。",
-        "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。"
+        "culture-mcq-01": "本句的「cultures」指「某社會或群體共同形成的信念、價值、習俗、語言、藝術及生活方式」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "culture-mcq-01"
     },
@@ -296,11 +280,7 @@ export default {
       "masked": "The book explores ancient Greek ____.",
       "options": [
         "culture-mcq-01",
-        "culture-mcq-02",
-        "culture-mcq-03",
-        "culture-mcq-04",
-        "culture-mcq-05",
-        "culture-mcq-06"
+        "contrast-duration"
       ],
       "explanation": "本句的「culture」指「某社會或群體共同形成的信念、價值、習俗、語言、藝術及生活方式」。",
       "sentenceIndex": 2,
@@ -309,12 +289,8 @@ export default {
         "culture"
       ],
       "optionReasons": {
-        "culture-mcq-01": "本句指「某社會或群體共同形成的信念、價值、習俗、語言、藝術及生活方式」。",
-        "culture-mcq-02": "「文學、藝術、音樂、思想等文化藝術及人文活動」與本句語境不同。",
-        "culture-mcq-03": "「組織或群體中共同形成的價值、習慣、行為方式及風氣」與本句語境不同。",
-        "culture-mcq-04": "「在控制條件下培養的細菌、細胞、組織等，或其培養過程」與本句語境不同。",
-        "culture-mcq-05": "「在實驗室等控制條件下培養細胞、細菌或組織」與本句語境不同。",
-        "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。"
+        "culture-mcq-01": "本句的「culture」指「某社會或群體共同形成的信念、價值、習俗、語言、藝術及生活方式」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "culture-mcq-01"
     },
@@ -326,11 +302,7 @@ export default {
       "masked": "The city invests heavily in arts and ____.",
       "options": [
         "culture-mcq-02",
-        "culture-mcq-01",
-        "culture-mcq-03",
-        "culture-mcq-04",
-        "culture-mcq-05",
-        "culture-mcq-06"
+        "culture-mcq-03"
       ],
       "explanation": "本句的「culture」指「文學、藝術、音樂、思想等文化藝術及人文活動」。",
       "sentenceIndex": 3,
@@ -339,12 +311,8 @@ export default {
         "culture"
       ],
       "optionReasons": {
-        "culture-mcq-02": "本句指「文學、藝術、音樂、思想等文化藝術及人文活動」。",
-        "culture-mcq-01": "「某社會或群體共同形成的信念、價值、習俗、語言、藝術及生活方式」與本句語境不同。",
-        "culture-mcq-03": "「組織或群體中共同形成的價值、習慣、行為方式及風氣」與本句語境不同。",
-        "culture-mcq-04": "「在控制條件下培養的細菌、細胞、組織等，或其培養過程」與本句語境不同。",
-        "culture-mcq-05": "「在實驗室等控制條件下培養細胞、細菌或組織」與本句語境不同。",
-        "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。"
+        "culture-mcq-02": "本句的「culture」指「文學、藝術、音樂、思想等文化藝術及人文活動」。",
+        "culture-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "culture-mcq-02"
     },
@@ -356,11 +324,7 @@ export default {
       "masked": "Libraries play an important role in promoting ____.",
       "options": [
         "culture-mcq-02",
-        "culture-mcq-01",
-        "culture-mcq-03",
-        "culture-mcq-04",
-        "culture-mcq-05",
-        "culture-mcq-06"
+        "culture-mcq-03"
       ],
       "explanation": "本句的「culture」指「文學、藝術、音樂、思想等文化藝術及人文活動」。",
       "sentenceIndex": 4,
@@ -369,12 +333,8 @@ export default {
         "culture"
       ],
       "optionReasons": {
-        "culture-mcq-02": "本句指「文學、藝術、音樂、思想等文化藝術及人文活動」。",
-        "culture-mcq-01": "「某社會或群體共同形成的信念、價值、習俗、語言、藝術及生活方式」與本句語境不同。",
-        "culture-mcq-03": "「組織或群體中共同形成的價值、習慣、行為方式及風氣」與本句語境不同。",
-        "culture-mcq-04": "「在控制條件下培養的細菌、細胞、組織等，或其培養過程」與本句語境不同。",
-        "culture-mcq-05": "「在實驗室等控制條件下培養細胞、細菌或組織」與本句語境不同。",
-        "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。"
+        "culture-mcq-02": "本句的「culture」指「文學、藝術、音樂、思想等文化藝術及人文活動」。",
+        "culture-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "culture-mcq-02"
     },
@@ -386,11 +346,7 @@ export default {
       "masked": "The company has a very open ____.",
       "options": [
         "culture-mcq-03",
-        "culture-mcq-02",
-        "culture-mcq-04",
-        "culture-mcq-01",
-        "culture-mcq-05",
-        "culture-mcq-06"
+        "culture-mcq-02"
       ],
       "explanation": "本句的「culture」指「組織或群體中共同形成的價值、習慣、行為方式及風氣」。",
       "sentenceIndex": 5,
@@ -399,12 +355,8 @@ export default {
         "culture"
       ],
       "optionReasons": {
-        "culture-mcq-03": "本句指「組織或群體中共同形成的價值、習慣、行為方式及風氣」。",
-        "culture-mcq-02": "「文學、藝術、音樂、思想等文化藝術及人文活動」與本句語境不同。",
-        "culture-mcq-04": "「在控制條件下培養的細菌、細胞、組織等，或其培養過程」與本句語境不同。",
-        "culture-mcq-01": "「某社會或群體共同形成的信念、價值、習俗、語言、藝術及生活方式」與本句語境不同。",
-        "culture-mcq-05": "「在實驗室等控制條件下培養細胞、細菌或組織」與本句語境不同。",
-        "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。"
+        "culture-mcq-03": "本句的「culture」指「組織或群體中共同形成的價值、習慣、行為方式及風氣」。",
+        "culture-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "culture-mcq-03"
     },
@@ -416,11 +368,7 @@ export default {
       "masked": "The school is trying to build a stronger reading ____.",
       "options": [
         "culture-mcq-03",
-        "culture-mcq-02",
-        "culture-mcq-04",
-        "culture-mcq-01",
-        "culture-mcq-05",
-        "culture-mcq-06"
+        "culture-pdf-001"
       ],
       "explanation": "本句的「culture」指「組織或群體中共同形成的價值、習慣、行為方式及風氣」。",
       "sentenceIndex": 6,
@@ -429,12 +377,8 @@ export default {
         "culture"
       ],
       "optionReasons": {
-        "culture-mcq-03": "本句指「組織或群體中共同形成的價值、習慣、行為方式及風氣」。",
-        "culture-mcq-02": "「文學、藝術、音樂、思想等文化藝術及人文活動」與本句語境不同。",
-        "culture-mcq-04": "「在控制條件下培養的細菌、細胞、組織等，或其培養過程」與本句語境不同。",
-        "culture-mcq-01": "「某社會或群體共同形成的信念、價值、習俗、語言、藝術及生活方式」與本句語境不同。",
-        "culture-mcq-05": "「在實驗室等控制條件下培養細胞、細菌或組織」與本句語境不同。",
-        "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。"
+        "culture-mcq-03": "本句的「culture」指「組織或群體中共同形成的價值、習慣、行為方式及風氣」。",
+        "culture-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "culture-mcq-03"
     },
@@ -446,11 +390,7 @@ export default {
       "masked": "The laboratory grew a bacterial ____.",
       "options": [
         "culture-mcq-05",
-        "culture-mcq-04",
-        "culture-mcq-06",
-        "culture-mcq-03",
-        "culture-mcq-07",
-        "culture-mcq-02"
+        "culture-mcq-11"
       ],
       "explanation": "本句的「culture」指「在實驗室等控制條件下培養細胞、細菌或組織」。",
       "sentenceIndex": 9,
@@ -459,12 +399,8 @@ export default {
         "culture"
       ],
       "optionReasons": {
-        "culture-mcq-05": "本句指「在實驗室等控制條件下培養細胞、細菌或組織」。",
-        "culture-mcq-04": "「在控制條件下培養的細菌、細胞、組織等，或其培養過程」與本句語境不同。",
-        "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。",
-        "culture-mcq-03": "「組織或群體中共同形成的價值、習慣、行為方式及風氣」與本句語境不同。",
-        "culture-mcq-07": "「與文化、藝術、人文活動、習俗或社會生活有關的」與本句語境不同。",
-        "culture-mcq-02": "「文學、藝術、音樂、思想等文化藝術及人文活動」與本句語境不同。"
+        "culture-mcq-05": "本句的「culture」指「在實驗室等控制條件下培養細胞、細菌或組織」。",
+        "culture-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "culture-mcq-05"
     },
@@ -476,11 +412,7 @@ export default {
       "masked": "The sample was sent for ____.",
       "options": [
         "culture-mcq-05",
-        "culture-mcq-04",
-        "culture-mcq-06",
-        "culture-mcq-03",
-        "culture-mcq-07",
-        "culture-mcq-02"
+        "culture-mcq-07"
       ],
       "explanation": "本句的「culture」指「在實驗室等控制條件下培養細胞、細菌或組織」。",
       "sentenceIndex": 10,
@@ -489,12 +421,8 @@ export default {
         "culture"
       ],
       "optionReasons": {
-        "culture-mcq-05": "本句指「在實驗室等控制條件下培養細胞、細菌或組織」。",
-        "culture-mcq-04": "「在控制條件下培養的細菌、細胞、組織等，或其培養過程」與本句語境不同。",
-        "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。",
-        "culture-mcq-03": "「組織或群體中共同形成的價值、習慣、行為方式及風氣」與本句語境不同。",
-        "culture-mcq-07": "「與文化、藝術、人文活動、習俗或社會生活有關的」與本句語境不同。",
-        "culture-mcq-02": "「文學、藝術、音樂、思想等文化藝術及人文活動」與本句語境不同。"
+        "culture-mcq-05": "本句的「culture」指「在實驗室等控制條件下培養細胞、細菌或組織」。",
+        "culture-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "culture-mcq-05"
     },
@@ -506,11 +434,7 @@ export default {
       "masked": "He was a man of considerable ____.",
       "options": [
         "culture-pdf-001",
-        "culture-mcq-07",
-        "culture-mcq-09",
-        "culture-mcq-06",
-        "culture-mcq-10",
-        "culture-mcq-05"
+        "culture-mcq-03"
       ],
       "explanation": "本句的「culture」指「透過教育、藝術、文學和知識培養出來的修養與鑑賞力」。",
       "sentenceIndex": 13,
@@ -519,12 +443,8 @@ export default {
         "culture"
       ],
       "optionReasons": {
-        "culture-pdf-001": "本句指「透過教育、藝術、文學和知識培養出來的修養與鑑賞力」。",
-        "culture-mcq-07": "「與文化、藝術、人文活動、習俗或社會生活有關的」與本句語境不同。",
-        "culture-mcq-09": "「人工培養或養殖的」與本句語境不同。",
-        "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。",
-        "culture-mcq-10": "「大社會內具有獨特價值和生活方式的次文化」與本句語境不同。",
-        "culture-mcq-05": "「在實驗室等控制條件下培養細胞、細菌或組織」與本句語境不同。"
+        "culture-pdf-001": "本句的「culture」指「透過教育、藝術、文學和知識培養出來的修養與鑑賞力」。",
+        "culture-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "culture-pdf-001"
     },
@@ -536,11 +456,7 @@ export default {
       "masked": "She valued education, literature, and ____.",
       "options": [
         "culture-pdf-001",
-        "culture-mcq-07",
-        "culture-mcq-09",
-        "culture-mcq-06",
-        "culture-mcq-10",
-        "culture-mcq-05"
+        "culture-mcq-03"
       ],
       "explanation": "本句的「culture」指「透過教育、藝術、文學和知識培養出來的修養與鑑賞力」。",
       "sentenceIndex": 14,
@@ -549,12 +465,8 @@ export default {
         "culture"
       ],
       "optionReasons": {
-        "culture-pdf-001": "本句指「透過教育、藝術、文學和知識培養出來的修養與鑑賞力」。",
-        "culture-mcq-07": "「與文化、藝術、人文活動、習俗或社會生活有關的」與本句語境不同。",
-        "culture-mcq-09": "「人工培養或養殖的」與本句語境不同。",
-        "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。",
-        "culture-mcq-10": "「大社會內具有獨特價值和生活方式的次文化」與本句語境不同。",
-        "culture-mcq-05": "「在實驗室等控制條件下培養細胞、細菌或組織」與本句語境不同。"
+        "culture-pdf-001": "本句的「culture」指「透過教育、藝術、文學和知識培養出來的修養與鑑賞力」。",
+        "culture-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "culture-pdf-001"
     },
@@ -566,11 +478,7 @@ export default {
       "masked": "There are major ____ differences between the two regions.",
       "options": [
         "culture-mcq-07",
-        "culture-mcq-06",
-        "culture-mcq-08",
-        "culture-mcq-05",
-        "culture-mcq-09",
-        "culture-mcq-04"
+        "culture-mcq-05"
       ],
       "explanation": "本句的「cultural」指「與文化、藝術、人文活動、習俗或社會生活有關的」。",
       "sentenceIndex": 15,
@@ -579,12 +487,8 @@ export default {
         "cultural"
       ],
       "optionReasons": {
-        "culture-mcq-07": "本句指「與文化、藝術、人文活動、習俗或社會生活有關的」。",
-        "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。",
-        "culture-mcq-08": "「有文化修養、有教養、有藝術品味的」與本句語境不同。",
-        "culture-mcq-05": "「在實驗室等控制條件下培養細胞、細菌或組織」與本句語境不同。",
-        "culture-mcq-09": "「人工培養或養殖的」與本句語境不同。",
-        "culture-mcq-04": "「在控制條件下培養的細菌、細胞、組織等，或其培養過程」與本句語境不同。"
+        "culture-mcq-07": "本句的「cultural」指「與文化、藝術、人文活動、習俗或社會生活有關的」。",
+        "culture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "culture-mcq-07"
     },
@@ -596,11 +500,7 @@ export default {
       "masked": "The library hosts many ____ events.",
       "options": [
         "culture-mcq-07",
-        "culture-mcq-06",
-        "culture-mcq-08",
-        "culture-mcq-05",
-        "culture-mcq-09",
-        "culture-mcq-04"
+        "culture-mcq-05"
       ],
       "explanation": "本句的「cultural」指「與文化、藝術、人文活動、習俗或社會生活有關的」。",
       "sentenceIndex": 16,
@@ -609,12 +509,8 @@ export default {
         "cultural"
       ],
       "optionReasons": {
-        "culture-mcq-07": "本句指「與文化、藝術、人文活動、習俗或社會生活有關的」。",
-        "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。",
-        "culture-mcq-08": "「有文化修養、有教養、有藝術品味的」與本句語境不同。",
-        "culture-mcq-05": "「在實驗室等控制條件下培養細胞、細菌或組織」與本句語境不同。",
-        "culture-mcq-09": "「人工培養或養殖的」與本句語境不同。",
-        "culture-mcq-04": "「在控制條件下培養的細菌、細胞、組織等，或其培養過程」與本句語境不同。"
+        "culture-mcq-07": "本句的「cultural」指「與文化、藝術、人文活動、習俗或社會生活有關的」。",
+        "culture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "culture-mcq-07"
     },
@@ -626,11 +522,7 @@ export default {
       "masked": "She is highly ____ and well read.",
       "options": [
         "culture-mcq-08",
-        "culture-mcq-07",
-        "culture-mcq-09",
-        "culture-mcq-06",
-        "culture-mcq-10",
-        "culture-mcq-05"
+        "culture-mcq-03"
       ],
       "explanation": "本句的「cultured」指「有文化修養、有教養、有藝術品味的」。",
       "sentenceIndex": 19,
@@ -639,12 +531,8 @@ export default {
         "cultured"
       ],
       "optionReasons": {
-        "culture-mcq-08": "本句指「有文化修養、有教養、有藝術品味的」。",
-        "culture-mcq-07": "「與文化、藝術、人文活動、習俗或社會生活有關的」與本句語境不同。",
-        "culture-mcq-09": "「人工培養或養殖的」與本句語境不同。",
-        "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。",
-        "culture-mcq-10": "「大社會內具有獨特價值和生活方式的次文化」與本句語境不同。",
-        "culture-mcq-05": "「在實驗室等控制條件下培養細胞、細菌或組織」與本句語境不同。"
+        "culture-mcq-08": "本句的「cultured」指「有文化修養、有教養、有藝術品味的」。",
+        "culture-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "culture-mcq-08"
     },
@@ -656,11 +544,7 @@ export default {
       "masked": "The music developed within a youth ____.",
       "options": [
         "culture-mcq-10",
-        "culture-mcq-09",
-        "culture-mcq-11",
-        "culture-mcq-08",
-        "culture-mcq-07",
-        "culture-mcq-06"
+        "culture-mcq-05"
       ],
       "explanation": "本句的「subculture」指「大社會內具有獨特價值和生活方式的次文化」。",
       "sentenceIndex": 22,
@@ -669,12 +553,8 @@ export default {
         "subculture"
       ],
       "optionReasons": {
-        "culture-mcq-10": "本句指「大社會內具有獨特價值和生活方式的次文化」。",
-        "culture-mcq-09": "「人工培養或養殖的」與本句語境不同。",
-        "culture-mcq-11": "「刻意反對主流社會價值的反主流文化」與本句語境不同。",
-        "culture-mcq-08": "「有文化修養、有教養、有藝術品味的」與本句語境不同。",
-        "culture-mcq-07": "「與文化、藝術、人文活動、習俗或社會生活有關的」與本句語境不同。",
-        "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。"
+        "culture-mcq-10": "本句的「subculture」指「大社會內具有獨特價值和生活方式的次文化」。",
+        "culture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "culture-mcq-10"
     },
@@ -686,11 +566,7 @@ export default {
       "masked": "The movement became part of the 1960s ____.",
       "options": [
         "culture-mcq-11",
-        "culture-mcq-10",
-        "culture-mcq-09",
-        "culture-mcq-08",
-        "culture-mcq-07",
-        "culture-mcq-06"
+        "culture-mcq-05"
       ],
       "explanation": "本句的「counterculture」指「刻意反對主流社會價值的反主流文化」。",
       "sentenceIndex": 23,
@@ -699,12 +575,8 @@ export default {
         "counterculture"
       ],
       "optionReasons": {
-        "culture-mcq-11": "本句指「刻意反對主流社會價值的反主流文化」。",
-        "culture-mcq-10": "「大社會內具有獨特價值和生活方式的次文化」與本句語境不同。",
-        "culture-mcq-09": "「人工培養或養殖的」與本句語境不同。",
-        "culture-mcq-08": "「有文化修養、有教養、有藝術品味的」與本句語境不同。",
-        "culture-mcq-07": "「與文化、藝術、人文活動、習俗或社會生活有關的」與本句語境不同。",
-        "culture-mcq-06": "「因教育、藝術和知識而形成的文化修養與鑑賞力」與本句語境不同。"
+        "culture-mcq-11": "本句的「counterculture」指「刻意反對主流社會價值的反主流文化」。",
+        "culture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "culture-mcq-11"
     }
@@ -716,5 +588,12 @@ export default {
     "sha256": "44a6aead65e741730391e6a6c0183592ac1fe90358ed1edd6d423c0a07cc0ca7",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-duration",
+      "title": "某件事持續的一段時間"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

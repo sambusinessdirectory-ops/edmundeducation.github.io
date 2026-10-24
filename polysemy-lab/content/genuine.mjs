@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "genuine-mcq-01",
-      "title": "表示真誠的；真心的；不做作的；例句：「她的回答聽起來很真誠，不像背好的。」",
+      "title": "真誠的；真心的；不做作的",
       "form": "Passage anchor > “You don't need to sound perfect; you need to sound genuine.",
       "en": "Passage anchor > “You don't need to sound perfect; you need to sound genuine.",
       "zh": "表示真誠的；真心的；不做作的；例句：「她的回答聽起來很真誠，不像背好的。」",
@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "genuine-mcq-02",
-      "title": "表示真誠的；真心的；由衷的；例句：「她對學生表現出真誠的關心。」",
+      "title": "真誠的；真心的；由衷的",
       "form": "genuine — sincere and honest in feelings or behavior = truly felt, meant, or expressed; not fake or pretended 真誠的；真心的；由衷的",
       "en": "genuine — sincere and honest in feelings or behavior = truly felt, meant, or expressed; not fake or pretended 真誠的；真心的；由衷的",
       "zh": "表示真誠的；真心的；由衷的；例句：「她對學生表現出真誠的關心。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "genuine-mcq-03",
-      "title": "表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」",
+      "title": "自然真實的；不做作的",
       "form": "genuine — natural and not artificial in manner = behaving in a way that feels real rather than forced, calculated, or performative 自然真實的；不做作的",
       "en": "genuine — natural and not artificial in manner = behaving in a way that feels real rather than forced, calculated, or performative 自然真實的；不做作的",
       "zh": "表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "genuine-mcq-04",
-      "title": "表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」",
+      "title": "真誠的人；待人真實的人",
       "form": "a genuine person = a person who is sincere, honest, and not pretending to be something they are not 真誠的人；待人真實的人",
       "en": "a genuine person = a person who is sincere, honest, and not pretending to be something they are not 真誠的人；待人真實的人",
       "zh": "表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "genuine-mcq-05",
-      "title": "表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」",
+      "title": "真的；真正的；非仿冒的",
       "form": "genuine — real, not fake or imitation = actually what it claims to be 真的；真正的；非仿冒的",
       "en": "genuine — real, not fake or imitation = actually what it claims to be 真的；真正的；非仿冒的",
       "zh": "表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "genuine-mcq-06",
-      "title": "表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」",
+      "title": "真品；正品；非仿冒品的",
       "form": "genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的",
       "en": "genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的",
       "zh": "表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "genuine-mcq-07",
-      "title": "表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」",
+      "title": "真正的……；純正的……",
       "form": "genuine leather / gold / material = truly made of the stated material rather than imitation material 真正的……；純正的……",
       "en": "genuine leather / gold / material = truly made of the stated material rather than imitation material 真正的……；純正的……",
       "zh": "表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "genuine-mcq-09",
-      "title": "表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」",
+      "title": "真實的；非偽造的",
       "form": "genuine signature / document / evidence = authentic rather than forged or fabricated 真實的；非偽造的",
       "en": "genuine signature / document / evidence = authentic rather than forged or fabricated 真實的；非偽造的",
       "zh": "表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "genuine-mcq-10",
-      "title": "表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」",
+      "title": "真正的；名副其實的",
       "form": "genuine — truly belonging to a category = possessing the essential qualities of the thing described 真正的；名副其實的",
       "en": "genuine — truly belonging to a category = possessing the essential qualities of the thing described 真正的；名副其實的",
       "zh": "表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "genuine-mcq-11",
-      "title": "表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」",
+      "title": "真正存在的；實際的",
       "form": "genuine need / problem / concern = real and substantial rather than imagined, exaggerated, or invented 真正存在的；實際的",
       "en": "genuine need / problem / concern = real and substantial rather than imagined, exaggerated, or invented 真正存在的；實際的",
       "zh": "表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "genuine-mcq-13",
-      "title": "表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」",
+      "title": "真正的驚訝／震驚／喜悅",
       "form": "genuine surprise / shock / pleasure = emotion that is truly felt 真正的驚訝／震驚／喜悅",
       "en": "genuine surprise / shock / pleasure = emotion that is truly felt 真正的驚訝／震驚／喜悅",
       "zh": "表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "genuine-mcq-14",
-      "title": "表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」",
+      "title": "真正的熱情；由衷的熱忱",
       "form": "genuine passion / enthusiasm = sincere and deeply felt interest or excitement 真正的熱情；由衷的熱忱",
       "en": "genuine passion / enthusiasm = sincere and deeply felt interest or excitement 真正的熱情；由衷的熱忱",
       "zh": "表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "genuine-mcq-15",
-      "title": "表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」",
+      "title": "真心的嘗試；認真的努力",
       "form": "genuine attempt / effort = a sincere, serious attempt rather than a token or insincere one 真心的嘗試；認真的努力",
       "en": "genuine attempt / effort = a sincere, serious attempt rather than a token or insincere one 真心的嘗試；認真的努力",
       "zh": "表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "genuine-mcq-16",
-      "title": "表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」",
+      "title": "真正的承諾；真誠的投入",
       "form": "genuine commitment = sincere and real willingness to support or continue something 真正的承諾；真誠的投入",
       "en": "genuine commitment = sincere and real willingness to support or continue something 真正的承諾；真誠的投入",
       "zh": "表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "genuine-mcq-17",
-      "title": "表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」",
+      "title": "真心的願望；真正的意願",
       "form": "genuine desire = a sincerely felt wish 真心的願望；真正的意願",
       "en": "genuine desire = a sincerely felt wish 真心的願望；真正的意願",
       "zh": "表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "genuine-mcq-18",
-      "title": "表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」",
+      "title": "真誠地；真正地；確實地",
       "form": "genuinely = sincerely; really; authentically 真誠地；真正地；確實地",
       "en": "genuinely = sincerely; really; authentically 真誠地；真正地；確實地",
       "zh": "表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "genuine-mcq-19",
-      "title": "表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」",
+      "title": "真誠；真實性；真偽程度",
       "form": "genuineness = the quality of being sincere, real, or authentic 真誠；真實性；真偽程度",
       "en": "genuineness = the quality of being sincere, real, or authentic 真誠；真實性；真偽程度",
       "zh": "表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "genuine-mcq-21",
-      "title": "表示看起來真誠／真實；例句：「她的關心看起來是真心的。」",
+      "title": "看起來真誠／真實",
       "form": "seem / appear genuine = appear sincere or authentic 看起來真誠／真實",
       "en": "seem / appear genuine = appear sincere or authentic 看起來真誠／真實",
       "zh": "表示看起來真誠／真實；例句：「她的關心看起來是真心的。」",
@@ -499,10 +499,6 @@ export default {
       "masked": "Her answer sounded ____, not rehearsed.",
       "options": [
         "genuine-mcq-01",
-        "genuine-mcq-02",
-        "genuine-mcq-03",
-        "genuine-mcq-04",
-        "genuine-mcq-05",
         "genuine-mcq-06"
       ],
       "explanation": "本句的「genuine」指「表示真誠的；真心的；不做作的；例句：「她的回答聽起來很真誠，不像背好的。」」。",
@@ -512,12 +508,8 @@ export default {
         "genuine"
       ],
       "optionReasons": {
-        "genuine-mcq-01": "本句指「表示真誠的；真心的；不做作的；例句：「她的回答聽起來很真誠，不像背好的。」」。",
-        "genuine-mcq-02": "「表示真誠的；真心的；由衷的；例句：「她對學生表現出真誠的關心。」」是「genuine — sincere and honest in feelings or behavior = truly felt, meant, or expressed; not fake or pretended 真誠的；真心的；由衷的」的用法，與本句語境不同。",
-        "genuine-mcq-03": "「表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」」是「genuine — natural and not artificial in manner = behaving in a way that feels real rather than forced, calculated, or performative 自然真實的；不做作的」的用法，與本句語境不同。",
-        "genuine-mcq-04": "「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」是「a genuine person = a person who is sincere, honest, and not pretending to be something they are not 真誠的人；待人真實的人」的用法，與本句語境不同。",
-        "genuine-mcq-05": "「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」是「genuine — real, not fake or imitation = actually what it claims to be 真的；真正的；非仿冒的」的用法，與本句語境不同。",
-        "genuine-mcq-06": "「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」是「genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的」的用法，與本句語境不同。"
+        "genuine-mcq-01": "本句的「genuine」指「表示真誠的；真心的；不做作的；例句：「她的回答聽起來很真誠，不像背好的。」」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-01"
     },
@@ -529,10 +521,6 @@ export default {
       "masked": "People usually respond well when you speak in a ____ way.",
       "options": [
         "genuine-mcq-01",
-        "genuine-mcq-02",
-        "genuine-mcq-03",
-        "genuine-mcq-04",
-        "genuine-mcq-05",
         "genuine-mcq-06"
       ],
       "explanation": "本句的「genuine」指「表示真誠的；真心的；不做作的；例句：「她的回答聽起來很真誠，不像背好的。」」。",
@@ -542,12 +530,8 @@ export default {
         "genuine"
       ],
       "optionReasons": {
-        "genuine-mcq-01": "本句指「表示真誠的；真心的；不做作的；例句：「她的回答聽起來很真誠，不像背好的。」」。",
-        "genuine-mcq-02": "「表示真誠的；真心的；由衷的；例句：「她對學生表現出真誠的關心。」」是「genuine — sincere and honest in feelings or behavior = truly felt, meant, or expressed; not fake or pretended 真誠的；真心的；由衷的」的用法，與本句語境不同。",
-        "genuine-mcq-03": "「表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」」是「genuine — natural and not artificial in manner = behaving in a way that feels real rather than forced, calculated, or performative 自然真實的；不做作的」的用法，與本句語境不同。",
-        "genuine-mcq-04": "「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」是「a genuine person = a person who is sincere, honest, and not pretending to be something they are not 真誠的人；待人真實的人」的用法，與本句語境不同。",
-        "genuine-mcq-05": "「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」是「genuine — real, not fake or imitation = actually what it claims to be 真的；真正的；非仿冒的」的用法，與本句語境不同。",
-        "genuine-mcq-06": "「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」是「genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的」的用法，與本句語境不同。"
+        "genuine-mcq-01": "本句的「genuine」指「表示真誠的；真心的；不做作的；例句：「她的回答聽起來很真誠，不像背好的。」」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-01"
     },
@@ -559,10 +543,6 @@ export default {
       "masked": "She showed ____ for the students.",
       "options": [
         "genuine-mcq-02",
-        "genuine-mcq-01",
-        "genuine-mcq-03",
-        "genuine-mcq-04",
-        "genuine-mcq-05",
         "genuine-mcq-06"
       ],
       "explanation": "本句的「genuine concern」指「表示真誠的；真心的；由衷的；例句：「她對學生表現出真誠的關心。」」。",
@@ -572,12 +552,8 @@ export default {
         "genuine concern"
       ],
       "optionReasons": {
-        "genuine-mcq-02": "本句指「表示真誠的；真心的；由衷的；例句：「她對學生表現出真誠的關心。」」。",
-        "genuine-mcq-01": "「表示真誠的；真心的；不做作的；例句：「她的回答聽起來很真誠，不像背好的。」」是「Passage anchor > “You don't need to sound perfect; you need to sound genuine.」的用法，與本句語境不同。",
-        "genuine-mcq-03": "「表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」」是「genuine — natural and not artificial in manner = behaving in a way that feels real rather than forced, calculated, or performative 自然真實的；不做作的」的用法，與本句語境不同。",
-        "genuine-mcq-04": "「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」是「a genuine person = a person who is sincere, honest, and not pretending to be something they are not 真誠的人；待人真實的人」的用法，與本句語境不同。",
-        "genuine-mcq-05": "「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」是「genuine — real, not fake or imitation = actually what it claims to be 真的；真正的；非仿冒的」的用法，與本句語境不同。",
-        "genuine-mcq-06": "「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」是「genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的」的用法，與本句語境不同。"
+        "genuine-mcq-02": "本句的「genuine concern」指「表示真誠的；真心的；由衷的；例句：「她對學生表現出真誠的關心。」」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-02"
     },
@@ -589,10 +565,6 @@ export default {
       "masked": "He gave me a ____.",
       "options": [
         "genuine-mcq-02",
-        "genuine-mcq-01",
-        "genuine-mcq-03",
-        "genuine-mcq-04",
-        "genuine-mcq-05",
         "genuine-mcq-06"
       ],
       "explanation": "本句的「genuine apology」指「表示真誠的；真心的；由衷的；例句：「她對學生表現出真誠的關心。」」。",
@@ -602,12 +574,8 @@ export default {
         "genuine apology"
       ],
       "optionReasons": {
-        "genuine-mcq-02": "本句指「表示真誠的；真心的；由衷的；例句：「她對學生表現出真誠的關心。」」。",
-        "genuine-mcq-01": "「表示真誠的；真心的；不做作的；例句：「她的回答聽起來很真誠，不像背好的。」」是「Passage anchor > “You don't need to sound perfect; you need to sound genuine.」的用法，與本句語境不同。",
-        "genuine-mcq-03": "「表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」」是「genuine — natural and not artificial in manner = behaving in a way that feels real rather than forced, calculated, or performative 自然真實的；不做作的」的用法，與本句語境不同。",
-        "genuine-mcq-04": "「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」是「a genuine person = a person who is sincere, honest, and not pretending to be something they are not 真誠的人；待人真實的人」的用法，與本句語境不同。",
-        "genuine-mcq-05": "「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」是「genuine — real, not fake or imitation = actually what it claims to be 真的；真正的；非仿冒的」的用法，與本句語境不同。",
-        "genuine-mcq-06": "「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」是「genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的」的用法，與本句語境不同。"
+        "genuine-mcq-02": "本句的「genuine apology」指「表示真誠的；真心的；由衷的；例句：「她對學生表現出真誠的關心。」」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-02"
     },
@@ -619,10 +587,6 @@ export default {
       "masked": "Her smile was warm and ____.",
       "options": [
         "genuine-mcq-03",
-        "genuine-mcq-02",
-        "genuine-mcq-04",
-        "genuine-mcq-01",
-        "genuine-mcq-05",
         "genuine-mcq-06"
       ],
       "explanation": "本句的「genuine」指「表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」」。",
@@ -632,12 +596,8 @@ export default {
         "genuine"
       ],
       "optionReasons": {
-        "genuine-mcq-03": "本句指「表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」」。",
-        "genuine-mcq-02": "「表示真誠的；真心的；由衷的；例句：「她對學生表現出真誠的關心。」」是「genuine — sincere and honest in feelings or behavior = truly felt, meant, or expressed; not fake or pretended 真誠的；真心的；由衷的」的用法，與本句語境不同。",
-        "genuine-mcq-04": "「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」是「a genuine person = a person who is sincere, honest, and not pretending to be something they are not 真誠的人；待人真實的人」的用法，與本句語境不同。",
-        "genuine-mcq-01": "「表示真誠的；真心的；不做作的；例句：「她的回答聽起來很真誠，不像背好的。」」是「Passage anchor > “You don't need to sound perfect; you need to sound genuine.」的用法，與本句語境不同。",
-        "genuine-mcq-05": "「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」是「genuine — real, not fake or imitation = actually what it claims to be 真的；真正的；非仿冒的」的用法，與本句語境不同。",
-        "genuine-mcq-06": "「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」是「genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的」的用法，與本句語境不同。"
+        "genuine-mcq-03": "本句的「genuine」指「表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-03"
     },
@@ -649,10 +609,6 @@ export default {
       "masked": "He comes across as very ____.",
       "options": [
         "genuine-mcq-03",
-        "genuine-mcq-02",
-        "genuine-mcq-04",
-        "genuine-mcq-01",
-        "genuine-mcq-05",
         "genuine-mcq-06"
       ],
       "explanation": "本句的「genuine」指「表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」」。",
@@ -662,12 +618,8 @@ export default {
         "genuine"
       ],
       "optionReasons": {
-        "genuine-mcq-03": "本句指「表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」」。",
-        "genuine-mcq-02": "「表示真誠的；真心的；由衷的；例句：「她對學生表現出真誠的關心。」」是「genuine — sincere and honest in feelings or behavior = truly felt, meant, or expressed; not fake or pretended 真誠的；真心的；由衷的」的用法，與本句語境不同。",
-        "genuine-mcq-04": "「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」是「a genuine person = a person who is sincere, honest, and not pretending to be something they are not 真誠的人；待人真實的人」的用法，與本句語境不同。",
-        "genuine-mcq-01": "「表示真誠的；真心的；不做作的；例句：「她的回答聽起來很真誠，不像背好的。」」是「Passage anchor > “You don't need to sound perfect; you need to sound genuine.」的用法，與本句語境不同。",
-        "genuine-mcq-05": "「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」是「genuine — real, not fake or imitation = actually what it claims to be 真的；真正的；非仿冒的」的用法，與本句語境不同。",
-        "genuine-mcq-06": "「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」是「genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的」的用法，與本句語境不同。"
+        "genuine-mcq-03": "本句的「genuine」指「表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-03"
     },
@@ -679,11 +631,7 @@ export default {
       "masked": "She is one of the most ____ I know.",
       "options": [
         "genuine-mcq-04",
-        "genuine-mcq-03",
-        "genuine-mcq-05",
-        "genuine-mcq-02",
-        "genuine-mcq-06",
-        "genuine-mcq-01"
+        "genuine-mcq-06"
       ],
       "explanation": "本句的「genuine people」指「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」。",
       "sentenceIndex": 6,
@@ -692,12 +640,8 @@ export default {
         "genuine people"
       ],
       "optionReasons": {
-        "genuine-mcq-04": "本句指「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」。",
-        "genuine-mcq-03": "「表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」」是「genuine — natural and not artificial in manner = behaving in a way that feels real rather than forced, calculated, or performative 自然真實的；不做作的」的用法，與本句語境不同。",
-        "genuine-mcq-05": "「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」是「genuine — real, not fake or imitation = actually what it claims to be 真的；真正的；非仿冒的」的用法，與本句語境不同。",
-        "genuine-mcq-02": "「表示真誠的；真心的；由衷的；例句：「她對學生表現出真誠的關心。」」是「genuine — sincere and honest in feelings or behavior = truly felt, meant, or expressed; not fake or pretended 真誠的；真心的；由衷的」的用法，與本句語境不同。",
-        "genuine-mcq-06": "「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」是「genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的」的用法，與本句語境不同。",
-        "genuine-mcq-01": "「表示真誠的；真心的；不做作的；例句：「她的回答聽起來很真誠，不像背好的。」」是「Passage anchor > “You don't need to sound perfect; you need to sound genuine.」的用法，與本句語境不同。"
+        "genuine-mcq-04": "本句的「genuine people」指「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-04"
     },
@@ -709,11 +653,7 @@ export default {
       "masked": "He seems like a ____.",
       "options": [
         "genuine-mcq-04",
-        "genuine-mcq-03",
-        "genuine-mcq-05",
-        "genuine-mcq-02",
-        "genuine-mcq-06",
-        "genuine-mcq-01"
+        "genuine-mcq-06"
       ],
       "explanation": "本句的「genuine person」指「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」。",
       "sentenceIndex": 7,
@@ -722,12 +662,8 @@ export default {
         "genuine person"
       ],
       "optionReasons": {
-        "genuine-mcq-04": "本句指「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」。",
-        "genuine-mcq-03": "「表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」」是「genuine — natural and not artificial in manner = behaving in a way that feels real rather than forced, calculated, or performative 自然真實的；不做作的」的用法，與本句語境不同。",
-        "genuine-mcq-05": "「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」是「genuine — real, not fake or imitation = actually what it claims to be 真的；真正的；非仿冒的」的用法，與本句語境不同。",
-        "genuine-mcq-02": "「表示真誠的；真心的；由衷的；例句：「她對學生表現出真誠的關心。」」是「genuine — sincere and honest in feelings or behavior = truly felt, meant, or expressed; not fake or pretended 真誠的；真心的；由衷的」的用法，與本句語境不同。",
-        "genuine-mcq-06": "「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」是「genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的」的用法，與本句語境不同。",
-        "genuine-mcq-01": "「表示真誠的；真心的；不做作的；例句：「她的回答聽起來很真誠，不像背好的。」」是「Passage anchor > “You don't need to sound perfect; you need to sound genuine.」的用法，與本句語境不同。"
+        "genuine-mcq-04": "本句的「genuine person」指「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-04"
     },
@@ -739,11 +675,7 @@ export default {
       "masked": "Is this a ____ leather bag?",
       "options": [
         "genuine-mcq-05",
-        "genuine-mcq-04",
-        "genuine-mcq-06",
-        "genuine-mcq-03",
-        "genuine-mcq-07",
-        "genuine-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine」指「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」。",
       "sentenceIndex": 8,
@@ -752,12 +684,8 @@ export default {
         "genuine"
       ],
       "optionReasons": {
-        "genuine-mcq-05": "本句指「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」。",
-        "genuine-mcq-04": "「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」是「a genuine person = a person who is sincere, honest, and not pretending to be something they are not 真誠的人；待人真實的人」的用法，與本句語境不同。",
-        "genuine-mcq-06": "「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」是「genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的」的用法，與本句語境不同。",
-        "genuine-mcq-03": "「表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」」是「genuine — natural and not artificial in manner = behaving in a way that feels real rather than forced, calculated, or performative 自然真實的；不做作的」的用法，與本句語境不同。",
-        "genuine-mcq-07": "「表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」」是「genuine leather / gold / material = truly made of the stated material rather than imitation material 真正的……；純正的……」的用法，與本句語境不同。",
-        "genuine-mcq-02": "「表示真誠的；真心的；由衷的；例句：「她對學生表現出真誠的關心。」」是「genuine — sincere and honest in feelings or behavior = truly felt, meant, or expressed; not fake or pretended 真誠的；真心的；由衷的」的用法，與本句語境不同。"
+        "genuine-mcq-05": "本句的「genuine」指「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-05"
     },
@@ -769,11 +697,7 @@ export default {
       "masked": "The painting was confirmed to be ____.",
       "options": [
         "genuine-mcq-05",
-        "genuine-mcq-04",
-        "genuine-mcq-06",
-        "genuine-mcq-03",
-        "genuine-mcq-07",
-        "genuine-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine」指「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」。",
       "sentenceIndex": 9,
@@ -782,12 +706,8 @@ export default {
         "genuine"
       ],
       "optionReasons": {
-        "genuine-mcq-05": "本句指「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」。",
-        "genuine-mcq-04": "「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」是「a genuine person = a person who is sincere, honest, and not pretending to be something they are not 真誠的人；待人真實的人」的用法，與本句語境不同。",
-        "genuine-mcq-06": "「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」是「genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的」的用法，與本句語境不同。",
-        "genuine-mcq-03": "「表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」」是「genuine — natural and not artificial in manner = behaving in a way that feels real rather than forced, calculated, or performative 自然真實的；不做作的」的用法，與本句語境不同。",
-        "genuine-mcq-07": "「表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」」是「genuine leather / gold / material = truly made of the stated material rather than imitation material 真正的……；純正的……」的用法，與本句語境不同。",
-        "genuine-mcq-02": "「表示真誠的；真心的；由衷的；例句：「她對學生表現出真誠的關心。」」是「genuine — sincere and honest in feelings or behavior = truly felt, meant, or expressed; not fake or pretended 真誠的；真心的；由衷的」的用法，與本句語境不同。"
+        "genuine-mcq-05": "本句的「genuine」指「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-05"
     },
@@ -799,10 +719,6 @@ export default {
       "masked": "Make sure you are buying a ____.",
       "options": [
         "genuine-mcq-06",
-        "genuine-mcq-05",
-        "genuine-mcq-07",
-        "genuine-mcq-04",
-        "genuine-mcq-08",
         "genuine-mcq-03"
       ],
       "explanation": "本句的「genuine product」指「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」。",
@@ -812,12 +728,8 @@ export default {
         "genuine product"
       ],
       "optionReasons": {
-        "genuine-mcq-06": "本句指「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」。",
-        "genuine-mcq-05": "「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」是「genuine — real, not fake or imitation = actually what it claims to be 真的；真正的；非仿冒的」的用法，與本句語境不同。",
-        "genuine-mcq-07": "「表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」」是「genuine leather / gold / material = truly made of the stated material rather than imitation material 真正的……；純正的……」的用法，與本句語境不同。",
-        "genuine-mcq-04": "「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」是「a genuine person = a person who is sincere, honest, and not pretending to be something they are not 真誠的人；待人真實的人」的用法，與本句語境不同。",
-        "genuine-mcq-08": "「真實的；貨真價實的；真正屬於……的」是「genuine — authentic; truly belonging to a claimed origin, type, or period = actually originating from the source, period, or category claimed 真實的；貨真價實的；真正屬於……的」的用法，與本句語境不同。",
-        "genuine-mcq-03": "「表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」」是「genuine — natural and not artificial in manner = behaving in a way that feels real rather than forced, calculated, or performative 自然真實的；不做作的」的用法，與本句語境不同。"
+        "genuine-mcq-06": "本句的「genuine product」指「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」。",
+        "genuine-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-06"
     },
@@ -829,10 +741,6 @@ export default {
       "masked": "Experts examined the watch to determine whether it was ____.",
       "options": [
         "genuine-mcq-06",
-        "genuine-mcq-05",
-        "genuine-mcq-07",
-        "genuine-mcq-04",
-        "genuine-mcq-08",
         "genuine-mcq-03"
       ],
       "explanation": "本句的「genuine」指「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」。",
@@ -842,12 +750,8 @@ export default {
         "genuine"
       ],
       "optionReasons": {
-        "genuine-mcq-06": "本句指「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」。",
-        "genuine-mcq-05": "「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」是「genuine — real, not fake or imitation = actually what it claims to be 真的；真正的；非仿冒的」的用法，與本句語境不同。",
-        "genuine-mcq-07": "「表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」」是「genuine leather / gold / material = truly made of the stated material rather than imitation material 真正的……；純正的……」的用法，與本句語境不同。",
-        "genuine-mcq-04": "「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」是「a genuine person = a person who is sincere, honest, and not pretending to be something they are not 真誠的人；待人真實的人」的用法，與本句語境不同。",
-        "genuine-mcq-08": "「真實的；貨真價實的；真正屬於……的」是「genuine — authentic; truly belonging to a claimed origin, type, or period = actually originating from the source, period, or category claimed 真實的；貨真價實的；真正屬於……的」的用法，與本句語境不同。",
-        "genuine-mcq-03": "「表示自然真實的；不做作的；例句：「她的笑容溫暖而真誠自然。」」是「genuine — natural and not artificial in manner = behaving in a way that feels real rather than forced, calculated, or performative 自然真實的；不做作的」的用法，與本句語境不同。"
+        "genuine-mcq-06": "本句的「genuine」指「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」。",
+        "genuine-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-06"
     },
@@ -859,11 +763,7 @@ export default {
       "masked": "The jacket is made from ____.",
       "options": [
         "genuine-mcq-07",
-        "genuine-mcq-06",
-        "genuine-mcq-08",
-        "genuine-mcq-05",
-        "genuine-mcq-09",
-        "genuine-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine leather」指「表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」」。",
       "sentenceIndex": 12,
@@ -872,12 +772,8 @@ export default {
         "genuine leather"
       ],
       "optionReasons": {
-        "genuine-mcq-07": "本句指「表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」」。",
-        "genuine-mcq-06": "「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」是「genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的」的用法，與本句語境不同。",
-        "genuine-mcq-08": "「真實的；貨真價實的；真正屬於……的」是「genuine — authentic; truly belonging to a claimed origin, type, or period = actually originating from the source, period, or category claimed 真實的；貨真價實的；真正屬於……的」的用法，與本句語境不同。",
-        "genuine-mcq-05": "「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」是「genuine — real, not fake or imitation = actually what it claims to be 真的；真正的；非仿冒的」的用法，與本句語境不同。",
-        "genuine-mcq-09": "「表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」」是「genuine signature / document / evidence = authentic rather than forged or fabricated 真實的；非偽造的」的用法，與本句語境不同。",
-        "genuine-mcq-04": "「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」是「a genuine person = a person who is sincere, honest, and not pretending to be something they are not 真誠的人；待人真實的人」的用法，與本句語境不同。"
+        "genuine-mcq-07": "本句的「genuine leather」指「表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-07"
     },
@@ -889,11 +785,7 @@ export default {
       "masked": "The necklace contains ____.",
       "options": [
         "genuine-mcq-07",
-        "genuine-mcq-06",
-        "genuine-mcq-08",
-        "genuine-mcq-05",
-        "genuine-mcq-09",
-        "genuine-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine gold」指「表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」」。",
       "sentenceIndex": 13,
@@ -902,12 +794,8 @@ export default {
         "genuine gold"
       ],
       "optionReasons": {
-        "genuine-mcq-07": "本句指「表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」」。",
-        "genuine-mcq-06": "「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」是「genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的」的用法，與本句語境不同。",
-        "genuine-mcq-08": "「真實的；貨真價實的；真正屬於……的」是「genuine — authentic; truly belonging to a claimed origin, type, or period = actually originating from the source, period, or category claimed 真實的；貨真價實的；真正屬於……的」的用法，與本句語境不同。",
-        "genuine-mcq-05": "「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」是「genuine — real, not fake or imitation = actually what it claims to be 真的；真正的；非仿冒的」的用法，與本句語境不同。",
-        "genuine-mcq-09": "「表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」」是「genuine signature / document / evidence = authentic rather than forged or fabricated 真實的；非偽造的」的用法，與本句語境不同。",
-        "genuine-mcq-04": "「表示真誠的人；待人真實的人；例句：「她是我認識的人當中最真誠的之一。」」是「a genuine person = a person who is sincere, honest, and not pretending to be something they are not 真誠的人；待人真實的人」的用法，與本句語境不同。"
+        "genuine-mcq-07": "本句的「genuine gold」指「表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-07"
     },
@@ -919,11 +807,7 @@ export default {
       "masked": "The museum owns several ____.",
       "options": [
         "genuine-mcq-08",
-        "genuine-mcq-07",
-        "genuine-mcq-09",
-        "genuine-mcq-06",
-        "genuine-mcq-10",
-        "genuine-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine Roman coins」指「真實的；貨真價實的；真正屬於……的」。",
       "sentenceIndex": 14,
@@ -932,12 +816,8 @@ export default {
         "genuine Roman coins"
       ],
       "optionReasons": {
-        "genuine-mcq-08": "本句指「真實的；貨真價實的；真正屬於……的」。",
-        "genuine-mcq-07": "「表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」」是「genuine leather / gold / material = truly made of the stated material rather than imitation material 真正的……；純正的……」的用法，與本句語境不同。",
-        "genuine-mcq-09": "「表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」」是「genuine signature / document / evidence = authentic rather than forged or fabricated 真實的；非偽造的」的用法，與本句語境不同。",
-        "genuine-mcq-06": "「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」是「genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的」的用法，與本句語境不同。",
-        "genuine-mcq-10": "「表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」」是「genuine — truly belonging to a category = possessing the essential qualities of the thing described 真正的；名副其實的」的用法，與本句語境不同。",
-        "genuine-mcq-05": "「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」是「genuine — real, not fake or imitation = actually what it claims to be 真的；真正的；非仿冒的」的用法，與本句語境不同。"
+        "genuine-mcq-08": "本句的「genuine Roman coins」指「真實的；貨真價實的；真正屬於……的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-08"
     },
@@ -949,11 +829,7 @@ export default {
       "masked": "Experts believe the document is ____.",
       "options": [
         "genuine-mcq-08",
-        "genuine-mcq-07",
-        "genuine-mcq-09",
-        "genuine-mcq-06",
-        "genuine-mcq-10",
-        "genuine-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine」指「真實的；貨真價實的；真正屬於……的」。",
       "sentenceIndex": 15,
@@ -962,12 +838,8 @@ export default {
         "genuine"
       ],
       "optionReasons": {
-        "genuine-mcq-08": "本句指「真實的；貨真價實的；真正屬於……的」。",
-        "genuine-mcq-07": "「表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」」是「genuine leather / gold / material = truly made of the stated material rather than imitation material 真正的……；純正的……」的用法，與本句語境不同。",
-        "genuine-mcq-09": "「表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」」是「genuine signature / document / evidence = authentic rather than forged or fabricated 真實的；非偽造的」的用法，與本句語境不同。",
-        "genuine-mcq-06": "「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」是「genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的」的用法，與本句語境不同。",
-        "genuine-mcq-10": "「表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」」是「genuine — truly belonging to a category = possessing the essential qualities of the thing described 真正的；名副其實的」的用法，與本句語境不同。",
-        "genuine-mcq-05": "「表示真的；真正的；非仿冒的；例句：「這是真正的皮革包嗎？」」是「genuine — real, not fake or imitation = actually what it claims to be 真的；真正的；非仿冒的」的用法，與本句語境不同。"
+        "genuine-mcq-08": "本句的「genuine」指「真實的；貨真價實的；真正屬於……的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-08"
     },
@@ -979,11 +851,7 @@ export default {
       "masked": "The police confirmed that the signature was ____.",
       "options": [
         "genuine-mcq-09",
-        "genuine-mcq-08",
-        "genuine-mcq-10",
-        "genuine-mcq-07",
-        "genuine-mcq-11",
-        "genuine-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine」指「表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」」。",
       "sentenceIndex": 16,
@@ -992,12 +860,8 @@ export default {
         "genuine"
       ],
       "optionReasons": {
-        "genuine-mcq-09": "本句指「表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」」。",
-        "genuine-mcq-08": "「真實的；貨真價實的；真正屬於……的」是「genuine — authentic; truly belonging to a claimed origin, type, or period = actually originating from the source, period, or category claimed 真實的；貨真價實的；真正屬於……的」的用法，與本句語境不同。",
-        "genuine-mcq-10": "「表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」」是「genuine — truly belonging to a category = possessing the essential qualities of the thing described 真正的；名副其實的」的用法，與本句語境不同。",
-        "genuine-mcq-07": "「表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」」是「genuine leather / gold / material = truly made of the stated material rather than imitation material 真正的……；純正的……」的用法，與本句語境不同。",
-        "genuine-mcq-11": "「表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」」是「genuine need / problem / concern = real and substantial rather than imagined, exaggerated, or invented 真正存在的；實際的」的用法，與本句語境不同。",
-        "genuine-mcq-06": "「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」是「genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的」的用法，與本句語境不同。"
+        "genuine-mcq-09": "本句的「genuine」指「表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-09"
     },
@@ -1009,11 +873,7 @@ export default {
       "masked": "Investigators questioned whether the document was ____.",
       "options": [
         "genuine-mcq-09",
-        "genuine-mcq-08",
-        "genuine-mcq-10",
-        "genuine-mcq-07",
-        "genuine-mcq-11",
-        "genuine-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine」指「表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」」。",
       "sentenceIndex": 17,
@@ -1022,12 +882,8 @@ export default {
         "genuine"
       ],
       "optionReasons": {
-        "genuine-mcq-09": "本句指「表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」」。",
-        "genuine-mcq-08": "「真實的；貨真價實的；真正屬於……的」是「genuine — authentic; truly belonging to a claimed origin, type, or period = actually originating from the source, period, or category claimed 真實的；貨真價實的；真正屬於……的」的用法，與本句語境不同。",
-        "genuine-mcq-10": "「表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」」是「genuine — truly belonging to a category = possessing the essential qualities of the thing described 真正的；名副其實的」的用法，與本句語境不同。",
-        "genuine-mcq-07": "「表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」」是「genuine leather / gold / material = truly made of the stated material rather than imitation material 真正的……；純正的……」的用法，與本句語境不同。",
-        "genuine-mcq-11": "「表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」」是「genuine need / problem / concern = real and substantial rather than imagined, exaggerated, or invented 真正存在的；實際的」的用法，與本句語境不同。",
-        "genuine-mcq-06": "「表示真品；正品；非仿冒品的；例句：「請確認你買的是正品。」」是「genuine product / article / item = authentic rather than counterfeit or imitation 真品；正品；非仿冒品的」的用法，與本句語境不同。"
+        "genuine-mcq-09": "本句的「genuine」指「表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-09"
     },
@@ -1039,11 +895,7 @@ export default {
       "masked": "This is a ____.",
       "options": [
         "genuine-mcq-10",
-        "genuine-mcq-09",
-        "genuine-mcq-11",
-        "genuine-mcq-08",
-        "genuine-mcq-12",
-        "genuine-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine emergency」指「表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」」。",
       "sentenceIndex": 18,
@@ -1052,12 +904,8 @@ export default {
         "genuine emergency"
       ],
       "optionReasons": {
-        "genuine-mcq-10": "本句指「表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」」。",
-        "genuine-mcq-09": "「表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」」是「genuine signature / document / evidence = authentic rather than forged or fabricated 真實的；非偽造的」的用法，與本句語境不同。",
-        "genuine-mcq-11": "「表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」」是「genuine need / problem / concern = real and substantial rather than imagined, exaggerated, or invented 真正存在的；實際的」的用法，與本句語境不同。",
-        "genuine-mcq-08": "「真實的；貨真價實的；真正屬於……的」是「genuine — authentic; truly belonging to a claimed origin, type, or period = actually originating from the source, period, or category claimed 真實的；貨真價實的；真正屬於……的」的用法，與本句語境不同。",
-        "genuine-mcq-12": "「真實的理由；並非捏造的理由」是「genuine reason / excuse = a real and honest reason rather than a fabricated one 真實的理由；並非捏造的理由」的用法，與本句語境不同。",
-        "genuine-mcq-07": "「表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」」是「genuine leather / gold / material = truly made of the stated material rather than imitation material 真正的……；純正的……」的用法，與本句語境不同。"
+        "genuine-mcq-10": "本句的「genuine emergency」指「表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-10"
     },
@@ -1069,11 +917,7 @@ export default {
       "masked": "The discovery represents a ____.",
       "options": [
         "genuine-mcq-10",
-        "genuine-mcq-09",
-        "genuine-mcq-11",
-        "genuine-mcq-08",
-        "genuine-mcq-12",
-        "genuine-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine breakthrough」指「表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」」。",
       "sentenceIndex": 19,
@@ -1082,12 +926,8 @@ export default {
         "genuine breakthrough"
       ],
       "optionReasons": {
-        "genuine-mcq-10": "本句指「表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」」。",
-        "genuine-mcq-09": "「表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」」是「genuine signature / document / evidence = authentic rather than forged or fabricated 真實的；非偽造的」的用法，與本句語境不同。",
-        "genuine-mcq-11": "「表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」」是「genuine need / problem / concern = real and substantial rather than imagined, exaggerated, or invented 真正存在的；實際的」的用法，與本句語境不同。",
-        "genuine-mcq-08": "「真實的；貨真價實的；真正屬於……的」是「genuine — authentic; truly belonging to a claimed origin, type, or period = actually originating from the source, period, or category claimed 真實的；貨真價實的；真正屬於……的」的用法，與本句語境不同。",
-        "genuine-mcq-12": "「真實的理由；並非捏造的理由」是「genuine reason / excuse = a real and honest reason rather than a fabricated one 真實的理由；並非捏造的理由」的用法，與本句語境不同。",
-        "genuine-mcq-07": "「表示真正的……；純正的……；例句：「這件外套是用真皮製成的。」」是「genuine leather / gold / material = truly made of the stated material rather than imitation material 真正的……；純正的……」的用法，與本句語境不同。"
+        "genuine-mcq-10": "本句的「genuine breakthrough」指「表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-10"
     },
@@ -1099,11 +939,7 @@ export default {
       "masked": "There is a ____ for more affordable housing.",
       "options": [
         "genuine-mcq-11",
-        "genuine-mcq-10",
-        "genuine-mcq-12",
-        "genuine-mcq-09",
-        "genuine-mcq-13",
-        "genuine-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine need」指「表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」」。",
       "sentenceIndex": 20,
@@ -1112,12 +948,8 @@ export default {
         "genuine need"
       ],
       "optionReasons": {
-        "genuine-mcq-11": "本句指「表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」」。",
-        "genuine-mcq-10": "「表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」」是「genuine — truly belonging to a category = possessing the essential qualities of the thing described 真正的；名副其實的」的用法，與本句語境不同。",
-        "genuine-mcq-12": "「真實的理由；並非捏造的理由」是「genuine reason / excuse = a real and honest reason rather than a fabricated one 真實的理由；並非捏造的理由」的用法，與本句語境不同。",
-        "genuine-mcq-09": "「表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」」是「genuine signature / document / evidence = authentic rather than forged or fabricated 真實的；非偽造的」的用法，與本句語境不同。",
-        "genuine-mcq-13": "「表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」」是「genuine surprise / shock / pleasure = emotion that is truly felt 真正的驚訝／震驚／喜悅」的用法，與本句語境不同。",
-        "genuine-mcq-08": "「真實的；貨真價實的；真正屬於……的」是「genuine — authentic; truly belonging to a claimed origin, type, or period = actually originating from the source, period, or category claimed 真實的；貨真價實的；真正屬於……的」的用法，與本句語境不同。"
+        "genuine-mcq-11": "本句的「genuine need」指「表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-11"
     },
@@ -1129,11 +961,7 @@ export default {
       "masked": "Her concerns were ____.",
       "options": [
         "genuine-mcq-11",
-        "genuine-mcq-10",
-        "genuine-mcq-12",
-        "genuine-mcq-09",
-        "genuine-mcq-13",
-        "genuine-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine」指「表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」」。",
       "sentenceIndex": 21,
@@ -1142,12 +970,8 @@ export default {
         "genuine"
       ],
       "optionReasons": {
-        "genuine-mcq-11": "本句指「表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」」。",
-        "genuine-mcq-10": "「表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」」是「genuine — truly belonging to a category = possessing the essential qualities of the thing described 真正的；名副其實的」的用法，與本句語境不同。",
-        "genuine-mcq-12": "「真實的理由；並非捏造的理由」是「genuine reason / excuse = a real and honest reason rather than a fabricated one 真實的理由；並非捏造的理由」的用法，與本句語境不同。",
-        "genuine-mcq-09": "「表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」」是「genuine signature / document / evidence = authentic rather than forged or fabricated 真實的；非偽造的」的用法，與本句語境不同。",
-        "genuine-mcq-13": "「表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」」是「genuine surprise / shock / pleasure = emotion that is truly felt 真正的驚訝／震驚／喜悅」的用法，與本句語境不同。",
-        "genuine-mcq-08": "「真實的；貨真價實的；真正屬於……的」是「genuine — authentic; truly belonging to a claimed origin, type, or period = actually originating from the source, period, or category claimed 真實的；貨真價實的；真正屬於……的」的用法，與本句語境不同。"
+        "genuine-mcq-11": "本句的「genuine」指「表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-11"
     },
@@ -1159,11 +983,7 @@ export default {
       "masked": "He had a ____ for being late.",
       "options": [
         "genuine-mcq-12",
-        "genuine-mcq-11",
-        "genuine-mcq-13",
-        "genuine-mcq-10",
-        "genuine-mcq-14",
-        "genuine-mcq-09"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine reason」指「真實的理由；並非捏造的理由」。",
       "sentenceIndex": 22,
@@ -1172,12 +992,8 @@ export default {
         "genuine reason"
       ],
       "optionReasons": {
-        "genuine-mcq-12": "本句指「真實的理由；並非捏造的理由」。",
-        "genuine-mcq-11": "「表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」」是「genuine need / problem / concern = real and substantial rather than imagined, exaggerated, or invented 真正存在的；實際的」的用法，與本句語境不同。",
-        "genuine-mcq-13": "「表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」」是「genuine surprise / shock / pleasure = emotion that is truly felt 真正的驚訝／震驚／喜悅」的用法，與本句語境不同。",
-        "genuine-mcq-10": "「表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」」是「genuine — truly belonging to a category = possessing the essential qualities of the thing described 真正的；名副其實的」的用法，與本句語境不同。",
-        "genuine-mcq-14": "「表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」」是「genuine passion / enthusiasm = sincere and deeply felt interest or excitement 真正的熱情；由衷的熱忱」的用法，與本句語境不同。",
-        "genuine-mcq-09": "「表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」」是「genuine signature / document / evidence = authentic rather than forged or fabricated 真實的；非偽造的」的用法，與本句語境不同。"
+        "genuine-mcq-12": "本句的「genuine reason」指「真實的理由；並非捏造的理由」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-12"
     },
@@ -1189,11 +1005,7 @@ export default {
       "masked": "If you have a ____, explain it clearly.",
       "options": [
         "genuine-mcq-12",
-        "genuine-mcq-11",
-        "genuine-mcq-13",
-        "genuine-mcq-10",
-        "genuine-mcq-14",
-        "genuine-mcq-09"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine excuse」指「真實的理由；並非捏造的理由」。",
       "sentenceIndex": 23,
@@ -1202,12 +1014,8 @@ export default {
         "genuine excuse"
       ],
       "optionReasons": {
-        "genuine-mcq-12": "本句指「真實的理由；並非捏造的理由」。",
-        "genuine-mcq-11": "「表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」」是「genuine need / problem / concern = real and substantial rather than imagined, exaggerated, or invented 真正存在的；實際的」的用法，與本句語境不同。",
-        "genuine-mcq-13": "「表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」」是「genuine surprise / shock / pleasure = emotion that is truly felt 真正的驚訝／震驚／喜悅」的用法，與本句語境不同。",
-        "genuine-mcq-10": "「表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」」是「genuine — truly belonging to a category = possessing the essential qualities of the thing described 真正的；名副其實的」的用法，與本句語境不同。",
-        "genuine-mcq-14": "「表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」」是「genuine passion / enthusiasm = sincere and deeply felt interest or excitement 真正的熱情；由衷的熱忱」的用法，與本句語境不同。",
-        "genuine-mcq-09": "「表示真實的；非偽造的；例句：「警方確認那個簽名是真實的。」」是「genuine signature / document / evidence = authentic rather than forged or fabricated 真實的；非偽造的」的用法，與本句語境不同。"
+        "genuine-mcq-12": "本句的「genuine excuse」指「真實的理由；並非捏造的理由」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-12"
     },
@@ -1219,11 +1027,7 @@ export default {
       "masked": "Her face showed ____.",
       "options": [
         "genuine-mcq-13",
-        "genuine-mcq-12",
-        "genuine-mcq-14",
-        "genuine-mcq-11",
-        "genuine-mcq-15",
-        "genuine-mcq-10"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine surprise」指「表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」」。",
       "sentenceIndex": 24,
@@ -1232,12 +1036,8 @@ export default {
         "genuine surprise"
       ],
       "optionReasons": {
-        "genuine-mcq-13": "本句指「表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」」。",
-        "genuine-mcq-12": "「真實的理由；並非捏造的理由」是「genuine reason / excuse = a real and honest reason rather than a fabricated one 真實的理由；並非捏造的理由」的用法，與本句語境不同。",
-        "genuine-mcq-14": "「表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」」是「genuine passion / enthusiasm = sincere and deeply felt interest or excitement 真正的熱情；由衷的熱忱」的用法，與本句語境不同。",
-        "genuine-mcq-11": "「表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」」是「genuine need / problem / concern = real and substantial rather than imagined, exaggerated, or invented 真正存在的；實際的」的用法，與本句語境不同。",
-        "genuine-mcq-15": "「表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」」是「genuine attempt / effort = a sincere, serious attempt rather than a token or insincere one 真心的嘗試；認真的努力」的用法，與本句語境不同。",
-        "genuine-mcq-10": "「表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」」是「genuine — truly belonging to a category = possessing the essential qualities of the thing described 真正的；名副其實的」的用法，與本句語境不同。"
+        "genuine-mcq-13": "本句的「genuine surprise」指「表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-13"
     },
@@ -1249,11 +1049,7 @@ export default {
       "masked": "He seemed ____ to see us.",
       "options": [
         "genuine-mcq-13",
-        "genuine-mcq-12",
-        "genuine-mcq-14",
-        "genuine-mcq-11",
-        "genuine-mcq-15",
-        "genuine-mcq-10"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuinely pleased」指「表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」」。",
       "sentenceIndex": 25,
@@ -1262,12 +1058,8 @@ export default {
         "genuinely pleased"
       ],
       "optionReasons": {
-        "genuine-mcq-13": "本句指「表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」」。",
-        "genuine-mcq-12": "「真實的理由；並非捏造的理由」是「genuine reason / excuse = a real and honest reason rather than a fabricated one 真實的理由；並非捏造的理由」的用法，與本句語境不同。",
-        "genuine-mcq-14": "「表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」」是「genuine passion / enthusiasm = sincere and deeply felt interest or excitement 真正的熱情；由衷的熱忱」的用法，與本句語境不同。",
-        "genuine-mcq-11": "「表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」」是「genuine need / problem / concern = real and substantial rather than imagined, exaggerated, or invented 真正存在的；實際的」的用法，與本句語境不同。",
-        "genuine-mcq-15": "「表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」」是「genuine attempt / effort = a sincere, serious attempt rather than a token or insincere one 真心的嘗試；認真的努力」的用法，與本句語境不同。",
-        "genuine-mcq-10": "「表示真正的；名副其實的；例句：「這是一次真正的緊急情況。」」是「genuine — truly belonging to a category = possessing the essential qualities of the thing described 真正的；名副其實的」的用法，與本句語境不同。"
+        "genuine-mcq-13": "本句的「genuinely pleased」指「表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-13"
     },
@@ -1279,11 +1071,7 @@ export default {
       "masked": "She has a ____.",
       "options": [
         "genuine-mcq-14",
-        "genuine-mcq-13",
-        "genuine-mcq-15",
-        "genuine-mcq-12",
-        "genuine-mcq-16",
-        "genuine-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine passion for teaching」指「表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」」。",
       "sentenceIndex": 26,
@@ -1292,12 +1080,8 @@ export default {
         "genuine passion for teaching"
       ],
       "optionReasons": {
-        "genuine-mcq-14": "本句指「表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」」。",
-        "genuine-mcq-13": "「表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」」是「genuine surprise / shock / pleasure = emotion that is truly felt 真正的驚訝／震驚／喜悅」的用法，與本句語境不同。",
-        "genuine-mcq-15": "「表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」」是「genuine attempt / effort = a sincere, serious attempt rather than a token or insincere one 真心的嘗試；認真的努力」的用法，與本句語境不同。",
-        "genuine-mcq-12": "「真實的理由；並非捏造的理由」是「genuine reason / excuse = a real and honest reason rather than a fabricated one 真實的理由；並非捏造的理由」的用法，與本句語境不同。",
-        "genuine-mcq-16": "「表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」」是「genuine commitment = sincere and real willingness to support or continue something 真正的承諾；真誠的投入」的用法，與本句語境不同。",
-        "genuine-mcq-11": "「表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」」是「genuine need / problem / concern = real and substantial rather than imagined, exaggerated, or invented 真正存在的；實際的」的用法，與本句語境不同。"
+        "genuine-mcq-14": "本句的「genuine passion for teaching」指「表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-14"
     },
@@ -1309,11 +1093,7 @@ export default {
       "masked": "His ____ made the presentation engaging.",
       "options": [
         "genuine-mcq-14",
-        "genuine-mcq-13",
-        "genuine-mcq-15",
-        "genuine-mcq-12",
-        "genuine-mcq-16",
-        "genuine-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine enthusiasm」指「表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」」。",
       "sentenceIndex": 27,
@@ -1322,12 +1102,8 @@ export default {
         "genuine enthusiasm"
       ],
       "optionReasons": {
-        "genuine-mcq-14": "本句指「表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」」。",
-        "genuine-mcq-13": "「表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」」是「genuine surprise / shock / pleasure = emotion that is truly felt 真正的驚訝／震驚／喜悅」的用法，與本句語境不同。",
-        "genuine-mcq-15": "「表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」」是「genuine attempt / effort = a sincere, serious attempt rather than a token or insincere one 真心的嘗試；認真的努力」的用法，與本句語境不同。",
-        "genuine-mcq-12": "「真實的理由；並非捏造的理由」是「genuine reason / excuse = a real and honest reason rather than a fabricated one 真實的理由；並非捏造的理由」的用法，與本句語境不同。",
-        "genuine-mcq-16": "「表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」」是「genuine commitment = sincere and real willingness to support or continue something 真正的承諾；真誠的投入」的用法，與本句語境不同。",
-        "genuine-mcq-11": "「表示真正存在的；實際的；例句：「對更多可負擔住房確實存在真正的需求。」」是「genuine need / problem / concern = real and substantial rather than imagined, exaggerated, or invented 真正存在的；實際的」的用法，與本句語境不同。"
+        "genuine-mcq-14": "本句的「genuine enthusiasm」指「表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-14"
     },
@@ -1339,11 +1115,7 @@ export default {
       "masked": "He made a ____ to improve.",
       "options": [
         "genuine-mcq-15",
-        "genuine-mcq-14",
-        "genuine-mcq-16",
-        "genuine-mcq-13",
-        "genuine-mcq-17",
-        "genuine-mcq-12"
+        "genuine-mcq-06"
       ],
       "explanation": "本句的「genuine effort」指「表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」」。",
       "sentenceIndex": 28,
@@ -1352,12 +1124,8 @@ export default {
         "genuine effort"
       ],
       "optionReasons": {
-        "genuine-mcq-15": "本句指「表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」」。",
-        "genuine-mcq-14": "「表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」」是「genuine passion / enthusiasm = sincere and deeply felt interest or excitement 真正的熱情；由衷的熱忱」的用法，與本句語境不同。",
-        "genuine-mcq-16": "「表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」」是「genuine commitment = sincere and real willingness to support or continue something 真正的承諾；真誠的投入」的用法，與本句語境不同。",
-        "genuine-mcq-13": "「表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」」是「genuine surprise / shock / pleasure = emotion that is truly felt 真正的驚訝／震驚／喜悅」的用法，與本句語境不同。",
-        "genuine-mcq-17": "「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」是「genuine desire = a sincerely felt wish 真心的願望；真正的意願」的用法，與本句語境不同。",
-        "genuine-mcq-12": "「真實的理由；並非捏造的理由」是「genuine reason / excuse = a real and honest reason rather than a fabricated one 真實的理由；並非捏造的理由」的用法，與本句語境不同。"
+        "genuine-mcq-15": "本句的「genuine effort」指「表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-15"
     },
@@ -1369,11 +1137,7 @@ export default {
       "masked": "This was a ____ to solve the problem.",
       "options": [
         "genuine-mcq-15",
-        "genuine-mcq-14",
-        "genuine-mcq-16",
-        "genuine-mcq-13",
-        "genuine-mcq-17",
-        "genuine-mcq-12"
+        "genuine-mcq-06"
       ],
       "explanation": "本句的「genuine attempt」指「表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」」。",
       "sentenceIndex": 29,
@@ -1382,12 +1146,8 @@ export default {
         "genuine attempt"
       ],
       "optionReasons": {
-        "genuine-mcq-15": "本句指「表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」」。",
-        "genuine-mcq-14": "「表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」」是「genuine passion / enthusiasm = sincere and deeply felt interest or excitement 真正的熱情；由衷的熱忱」的用法，與本句語境不同。",
-        "genuine-mcq-16": "「表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」」是「genuine commitment = sincere and real willingness to support or continue something 真正的承諾；真誠的投入」的用法，與本句語境不同。",
-        "genuine-mcq-13": "「表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」」是「genuine surprise / shock / pleasure = emotion that is truly felt 真正的驚訝／震驚／喜悅」的用法，與本句語境不同。",
-        "genuine-mcq-17": "「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」是「genuine desire = a sincerely felt wish 真心的願望；真正的意願」的用法，與本句語境不同。",
-        "genuine-mcq-12": "「真實的理由；並非捏造的理由」是「genuine reason / excuse = a real and honest reason rather than a fabricated one 真實的理由；並非捏造的理由」的用法，與本句語境不同。"
+        "genuine-mcq-15": "本句的「genuine attempt」指「表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-15"
     },
@@ -1399,11 +1159,7 @@ export default {
       "masked": "The project requires ____ from everyone.",
       "options": [
         "genuine-mcq-16",
-        "genuine-mcq-15",
-        "genuine-mcq-17",
-        "genuine-mcq-14",
-        "genuine-mcq-18",
-        "genuine-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine commitment」指「表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」」。",
       "sentenceIndex": 30,
@@ -1412,12 +1168,8 @@ export default {
         "genuine commitment"
       ],
       "optionReasons": {
-        "genuine-mcq-16": "本句指「表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」」。",
-        "genuine-mcq-15": "「表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」」是「genuine attempt / effort = a sincere, serious attempt rather than a token or insincere one 真心的嘗試；認真的努力」的用法，與本句語境不同。",
-        "genuine-mcq-17": "「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」是「genuine desire = a sincerely felt wish 真心的願望；真正的意願」的用法，與本句語境不同。",
-        "genuine-mcq-14": "「表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」」是「genuine passion / enthusiasm = sincere and deeply felt interest or excitement 真正的熱情；由衷的熱忱」的用法，與本句語境不同。",
-        "genuine-mcq-18": "「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」是「genuinely = sincerely; really; authentically 真誠地；真正地；確實地」的用法，與本句語境不同。",
-        "genuine-mcq-13": "「表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」」是「genuine surprise / shock / pleasure = emotion that is truly felt 真正的驚訝／震驚／喜悅」的用法，與本句語境不同。"
+        "genuine-mcq-16": "本句的「genuine commitment」指「表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-16"
     },
@@ -1429,11 +1181,7 @@ export default {
       "masked": "She showed ____ to the team.",
       "options": [
         "genuine-mcq-16",
-        "genuine-mcq-15",
-        "genuine-mcq-17",
-        "genuine-mcq-14",
-        "genuine-mcq-18",
-        "genuine-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine commitment」指「表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」」。",
       "sentenceIndex": 31,
@@ -1442,12 +1190,8 @@ export default {
         "genuine commitment"
       ],
       "optionReasons": {
-        "genuine-mcq-16": "本句指「表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」」。",
-        "genuine-mcq-15": "「表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」」是「genuine attempt / effort = a sincere, serious attempt rather than a token or insincere one 真心的嘗試；認真的努力」的用法，與本句語境不同。",
-        "genuine-mcq-17": "「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」是「genuine desire = a sincerely felt wish 真心的願望；真正的意願」的用法，與本句語境不同。",
-        "genuine-mcq-14": "「表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」」是「genuine passion / enthusiasm = sincere and deeply felt interest or excitement 真正的熱情；由衷的熱忱」的用法，與本句語境不同。",
-        "genuine-mcq-18": "「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」是「genuinely = sincerely; really; authentically 真誠地；真正地；確實地」的用法，與本句語境不同。",
-        "genuine-mcq-13": "「表示真正的驚訝／震驚／喜悅；例句：「她臉上露出真實的驚訝。」」是「genuine surprise / shock / pleasure = emotion that is truly felt 真正的驚訝／震驚／喜悅」的用法，與本句語境不同。"
+        "genuine-mcq-16": "本句的「genuine commitment」指「表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-16"
     },
@@ -1459,11 +1203,7 @@ export default {
       "masked": "He showed a ____.",
       "options": [
         "genuine-mcq-17",
-        "genuine-mcq-16",
-        "genuine-mcq-18",
-        "genuine-mcq-15",
-        "genuine-mcq-19",
-        "genuine-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine desire to learn」指「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」。",
       "sentenceIndex": 32,
@@ -1472,12 +1212,8 @@ export default {
         "genuine desire to learn"
       ],
       "optionReasons": {
-        "genuine-mcq-17": "本句指「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」。",
-        "genuine-mcq-16": "「表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」」是「genuine commitment = sincere and real willingness to support or continue something 真正的承諾；真誠的投入」的用法，與本句語境不同。",
-        "genuine-mcq-18": "「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」是「genuinely = sincerely; really; authentically 真誠地；真正地；確實地」的用法，與本句語境不同。",
-        "genuine-mcq-15": "「表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」」是「genuine attempt / effort = a sincere, serious attempt rather than a token or insincere one 真心的嘗試；認真的努力」的用法，與本句語境不同。",
-        "genuine-mcq-19": "「表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」」是「genuineness = the quality of being sincere, real, or authentic 真誠；真實性；真偽程度」的用法，與本句語境不同。",
-        "genuine-mcq-14": "「表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」」是「genuine passion / enthusiasm = sincere and deeply felt interest or excitement 真正的熱情；由衷的熱忱」的用法，與本句語境不同。"
+        "genuine-mcq-17": "本句的「genuine desire to learn」指「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-17"
     },
@@ -1489,11 +1225,7 @@ export default {
       "masked": "Her decision came from a ____.",
       "options": [
         "genuine-mcq-17",
-        "genuine-mcq-16",
-        "genuine-mcq-18",
-        "genuine-mcq-15",
-        "genuine-mcq-19",
-        "genuine-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuine desire to help」指「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」。",
       "sentenceIndex": 33,
@@ -1502,12 +1234,8 @@ export default {
         "genuine desire to help"
       ],
       "optionReasons": {
-        "genuine-mcq-17": "本句指「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」。",
-        "genuine-mcq-16": "「表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」」是「genuine commitment = sincere and real willingness to support or continue something 真正的承諾；真誠的投入」的用法，與本句語境不同。",
-        "genuine-mcq-18": "「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」是「genuinely = sincerely; really; authentically 真誠地；真正地；確實地」的用法，與本句語境不同。",
-        "genuine-mcq-15": "「表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」」是「genuine attempt / effort = a sincere, serious attempt rather than a token or insincere one 真心的嘗試；認真的努力」的用法，與本句語境不同。",
-        "genuine-mcq-19": "「表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」」是「genuineness = the quality of being sincere, real, or authentic 真誠；真實性；真偽程度」的用法，與本句語境不同。",
-        "genuine-mcq-14": "「表示真正的熱情；由衷的熱忱；例句：「她對教學有真心的熱情。」」是「genuine passion / enthusiasm = sincere and deeply felt interest or excitement 真正的熱情；由衷的熱忱」的用法，與本句語境不同。"
+        "genuine-mcq-17": "本句的「genuine desire to help」指「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-17"
     },
@@ -1519,11 +1247,7 @@ export default {
       "masked": "I was ____ by the result.",
       "options": [
         "genuine-mcq-18",
-        "genuine-mcq-17",
-        "genuine-mcq-19",
-        "genuine-mcq-16",
-        "genuine-mcq-20",
-        "genuine-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuinely surprised」指「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」。",
       "sentenceIndex": 34,
@@ -1532,12 +1256,8 @@ export default {
         "genuinely surprised"
       ],
       "optionReasons": {
-        "genuine-mcq-18": "本句指「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」。",
-        "genuine-mcq-17": "「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」是「genuine desire = a sincerely felt wish 真心的願望；真正的意願」的用法，與本句語境不同。",
-        "genuine-mcq-19": "「表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」」是「genuineness = the quality of being sincere, real, or authentic 真誠；真實性；真偽程度」的用法，與本句語境不同。",
-        "genuine-mcq-16": "「表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」」是「genuine commitment = sincere and real willingness to support or continue something 真正的承諾；真誠的投入」的用法，與本句語境不同。",
-        "genuine-mcq-20": "「聽起來真誠；聽起來自然不做作」是「sound genuine = sound sincere and natural rather than artificial or rehearsed 聽起來真誠；聽起來自然不做作 This is the exact passage construction.」的用法，與本句語境不同。",
-        "genuine-mcq-15": "「表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」」是「genuine attempt / effort = a sincere, serious attempt rather than a token or insincere one 真心的嘗試；認真的努力」的用法，與本句語境不同。"
+        "genuine-mcq-18": "本句的「genuinely surprised」指「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-18"
     },
@@ -1549,11 +1269,7 @@ export default {
       "masked": "She ____ about her students.",
       "options": [
         "genuine-mcq-18",
-        "genuine-mcq-17",
-        "genuine-mcq-19",
-        "genuine-mcq-16",
-        "genuine-mcq-20",
-        "genuine-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「genuinely cares」指「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」。",
       "sentenceIndex": 35,
@@ -1562,12 +1278,8 @@ export default {
         "genuinely cares"
       ],
       "optionReasons": {
-        "genuine-mcq-18": "本句指「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」。",
-        "genuine-mcq-17": "「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」是「genuine desire = a sincerely felt wish 真心的願望；真正的意願」的用法，與本句語境不同。",
-        "genuine-mcq-19": "「表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」」是「genuineness = the quality of being sincere, real, or authentic 真誠；真實性；真偽程度」的用法，與本句語境不同。",
-        "genuine-mcq-16": "「表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」」是「genuine commitment = sincere and real willingness to support or continue something 真正的承諾；真誠的投入」的用法，與本句語境不同。",
-        "genuine-mcq-20": "「聽起來真誠；聽起來自然不做作」是「sound genuine = sound sincere and natural rather than artificial or rehearsed 聽起來真誠；聽起來自然不做作 This is the exact passage construction.」的用法，與本句語境不同。",
-        "genuine-mcq-15": "「表示真心的嘗試；認真的努力；例句：「他確實認真努力想要進步。」」是「genuine attempt / effort = a sincere, serious attempt rather than a token or insincere one 真心的嘗試；認真的努力」的用法，與本句語境不同。"
+        "genuine-mcq-18": "本句的「genuinely cares」指「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-18"
     },
@@ -1579,11 +1291,7 @@ export default {
       "masked": "People responded to the ____ of her message.",
       "options": [
         "genuine-mcq-19",
-        "genuine-mcq-18",
-        "genuine-mcq-20",
-        "genuine-mcq-17",
-        "genuine-mcq-21",
-        "genuine-mcq-16"
+        "genuine-mcq-06"
       ],
       "explanation": "本句的「genuineness」指「表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」」。",
       "sentenceIndex": 36,
@@ -1592,12 +1300,8 @@ export default {
         "genuineness"
       ],
       "optionReasons": {
-        "genuine-mcq-19": "本句指「表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」」。",
-        "genuine-mcq-18": "「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」是「genuinely = sincerely; really; authentically 真誠地；真正地；確實地」的用法，與本句語境不同。",
-        "genuine-mcq-20": "「聽起來真誠；聽起來自然不做作」是「sound genuine = sound sincere and natural rather than artificial or rehearsed 聽起來真誠；聽起來自然不做作 This is the exact passage construction.」的用法，與本句語境不同。",
-        "genuine-mcq-17": "「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」是「genuine desire = a sincerely felt wish 真心的願望；真正的意願」的用法，與本句語境不同。",
-        "genuine-mcq-21": "「表示看起來真誠／真實；例句：「她的關心看起來是真心的。」」是「seem / appear genuine = appear sincere or authentic 看起來真誠／真實」的用法，與本句語境不同。",
-        "genuine-mcq-16": "「表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」」是「genuine commitment = sincere and real willingness to support or continue something 真正的承諾；真誠的投入」的用法，與本句語境不同。"
+        "genuine-mcq-19": "本句的「genuineness」指「表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-19"
     },
@@ -1609,11 +1313,7 @@ export default {
       "masked": "Experts questioned the ____ of the painting.",
       "options": [
         "genuine-mcq-19",
-        "genuine-mcq-18",
-        "genuine-mcq-20",
-        "genuine-mcq-17",
-        "genuine-mcq-21",
-        "genuine-mcq-16"
+        "genuine-mcq-06"
       ],
       "explanation": "本句的「genuineness」指「表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」」。",
       "sentenceIndex": 37,
@@ -1622,12 +1322,8 @@ export default {
         "genuineness"
       ],
       "optionReasons": {
-        "genuine-mcq-19": "本句指「表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」」。",
-        "genuine-mcq-18": "「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」是「genuinely = sincerely; really; authentically 真誠地；真正地；確實地」的用法，與本句語境不同。",
-        "genuine-mcq-20": "「聽起來真誠；聽起來自然不做作」是「sound genuine = sound sincere and natural rather than artificial or rehearsed 聽起來真誠；聽起來自然不做作 This is the exact passage construction.」的用法，與本句語境不同。",
-        "genuine-mcq-17": "「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」是「genuine desire = a sincerely felt wish 真心的願望；真正的意願」的用法，與本句語境不同。",
-        "genuine-mcq-21": "「表示看起來真誠／真實；例句：「她的關心看起來是真心的。」」是「seem / appear genuine = appear sincere or authentic 看起來真誠／真實」的用法，與本句語境不同。",
-        "genuine-mcq-16": "「表示真正的承諾；真誠的投入；例句：「這個專案需要每個人都真正投入。」」是「genuine commitment = sincere and real willingness to support or continue something 真正的承諾；真誠的投入」的用法，與本句語境不同。"
+        "genuine-mcq-19": "本句的「genuineness」指「表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-19"
     },
@@ -1639,11 +1335,7 @@ export default {
       "masked": "Try to ____ rather than perfect.",
       "options": [
         "genuine-mcq-20",
-        "genuine-mcq-19",
-        "genuine-mcq-21",
-        "genuine-mcq-18",
-        "genuine-mcq-22",
-        "genuine-mcq-17"
+        "genuine-mcq-06"
       ],
       "explanation": "本句的「sound genuine」指「聽起來真誠；聽起來自然不做作」。",
       "sentenceIndex": 38,
@@ -1652,12 +1344,8 @@ export default {
         "sound genuine"
       ],
       "optionReasons": {
-        "genuine-mcq-20": "本句指「聽起來真誠；聽起來自然不做作」。",
-        "genuine-mcq-19": "「表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」」是「genuineness = the quality of being sincere, real, or authentic 真誠；真實性；真偽程度」的用法，與本句語境不同。",
-        "genuine-mcq-21": "「表示看起來真誠／真實；例句：「她的關心看起來是真心的。」」是「seem / appear genuine = appear sincere or authentic 看起來真誠／真實」的用法，與本句語境不同。",
-        "genuine-mcq-18": "「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」是「genuinely = sincerely; really; authentically 真誠地；真正地；確實地」的用法，與本句語境不同。",
-        "genuine-mcq-22": "「真的感興趣；出自真心地感興趣」是「be genuinely interested = truly have interest rather than pretending to 真的感興趣；出自真心地感興趣」的用法，與本句語境不同。",
-        "genuine-mcq-17": "「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」是「genuine desire = a sincerely felt wish 真心的願望；真正的意願」的用法，與本句語境不同。"
+        "genuine-mcq-20": "本句的「sound genuine」指「聽起來真誠；聽起來自然不做作」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-20"
     },
@@ -1669,11 +1357,7 @@ export default {
       "masked": "His apology did not ____.",
       "options": [
         "genuine-mcq-20",
-        "genuine-mcq-19",
-        "genuine-mcq-21",
-        "genuine-mcq-18",
-        "genuine-mcq-22",
-        "genuine-mcq-17"
+        "genuine-mcq-06"
       ],
       "explanation": "本句的「sound genuine」指「聽起來真誠；聽起來自然不做作」。",
       "sentenceIndex": 39,
@@ -1682,12 +1366,8 @@ export default {
         "sound genuine"
       ],
       "optionReasons": {
-        "genuine-mcq-20": "本句指「聽起來真誠；聽起來自然不做作」。",
-        "genuine-mcq-19": "「表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」」是「genuineness = the quality of being sincere, real, or authentic 真誠；真實性；真偽程度」的用法，與本句語境不同。",
-        "genuine-mcq-21": "「表示看起來真誠／真實；例句：「她的關心看起來是真心的。」」是「seem / appear genuine = appear sincere or authentic 看起來真誠／真實」的用法，與本句語境不同。",
-        "genuine-mcq-18": "「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」是「genuinely = sincerely; really; authentically 真誠地；真正地；確實地」的用法，與本句語境不同。",
-        "genuine-mcq-22": "「真的感興趣；出自真心地感興趣」是「be genuinely interested = truly have interest rather than pretending to 真的感興趣；出自真心地感興趣」的用法，與本句語境不同。",
-        "genuine-mcq-17": "「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」是「genuine desire = a sincerely felt wish 真心的願望；真正的意願」的用法，與本句語境不同。"
+        "genuine-mcq-20": "本句的「sound genuine」指「聽起來真誠；聽起來自然不做作」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-20"
     },
@@ -1699,11 +1379,7 @@ export default {
       "masked": "Her concern seemed ____.",
       "options": [
         "genuine-mcq-21",
-        "genuine-mcq-20",
-        "genuine-mcq-22",
-        "genuine-mcq-19",
-        "genuine-mcq-18",
-        "genuine-mcq-17"
+        "genuine-mcq-06"
       ],
       "explanation": "本句的「genuine」指「表示看起來真誠／真實；例句：「她的關心看起來是真心的。」」。",
       "sentenceIndex": 40,
@@ -1712,12 +1388,8 @@ export default {
         "genuine"
       ],
       "optionReasons": {
-        "genuine-mcq-21": "本句指「表示看起來真誠／真實；例句：「她的關心看起來是真心的。」」。",
-        "genuine-mcq-20": "「聽起來真誠；聽起來自然不做作」是「sound genuine = sound sincere and natural rather than artificial or rehearsed 聽起來真誠；聽起來自然不做作 This is the exact passage construction.」的用法，與本句語境不同。",
-        "genuine-mcq-22": "「真的感興趣；出自真心地感興趣」是「be genuinely interested = truly have interest rather than pretending to 真的感興趣；出自真心地感興趣」的用法，與本句語境不同。",
-        "genuine-mcq-19": "「表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」」是「genuineness = the quality of being sincere, real, or authentic 真誠；真實性；真偽程度」的用法，與本句語境不同。",
-        "genuine-mcq-18": "「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」是「genuinely = sincerely; really; authentically 真誠地；真正地；確實地」的用法，與本句語境不同。",
-        "genuine-mcq-17": "「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」是「genuine desire = a sincerely felt wish 真心的願望；真正的意願」的用法，與本句語境不同。"
+        "genuine-mcq-21": "本句的「genuine」指「表示看起來真誠／真實；例句：「她的關心看起來是真心的。」」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-21"
     },
@@ -1729,11 +1401,7 @@ export default {
       "masked": "The signature appears ____.",
       "options": [
         "genuine-mcq-21",
-        "genuine-mcq-20",
-        "genuine-mcq-22",
-        "genuine-mcq-19",
-        "genuine-mcq-18",
-        "genuine-mcq-17"
+        "genuine-mcq-06"
       ],
       "explanation": "本句的「genuine」指「表示看起來真誠／真實；例句：「她的關心看起來是真心的。」」。",
       "sentenceIndex": 41,
@@ -1742,12 +1410,8 @@ export default {
         "genuine"
       ],
       "optionReasons": {
-        "genuine-mcq-21": "本句指「表示看起來真誠／真實；例句：「她的關心看起來是真心的。」」。",
-        "genuine-mcq-20": "「聽起來真誠；聽起來自然不做作」是「sound genuine = sound sincere and natural rather than artificial or rehearsed 聽起來真誠；聽起來自然不做作 This is the exact passage construction.」的用法，與本句語境不同。",
-        "genuine-mcq-22": "「真的感興趣；出自真心地感興趣」是「be genuinely interested = truly have interest rather than pretending to 真的感興趣；出自真心地感興趣」的用法，與本句語境不同。",
-        "genuine-mcq-19": "「表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」」是「genuineness = the quality of being sincere, real, or authentic 真誠；真實性；真偽程度」的用法，與本句語境不同。",
-        "genuine-mcq-18": "「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」是「genuinely = sincerely; really; authentically 真誠地；真正地；確實地」的用法，與本句語境不同。",
-        "genuine-mcq-17": "「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」是「genuine desire = a sincerely felt wish 真心的願望；真正的意願」的用法，與本句語境不同。"
+        "genuine-mcq-21": "本句的「genuine」指「表示看起來真誠／真實；例句：「她的關心看起來是真心的。」」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-21"
     },
@@ -1759,11 +1423,7 @@ export default {
       "masked": "She was ____ in what I had to say.",
       "options": [
         "genuine-mcq-22",
-        "genuine-mcq-21",
-        "genuine-mcq-20",
-        "genuine-mcq-19",
-        "genuine-mcq-18",
-        "genuine-mcq-17"
+        "genuine-mcq-06"
       ],
       "explanation": "本句的「genuinely interested」指「真的感興趣；出自真心地感興趣」。",
       "sentenceIndex": 42,
@@ -1772,12 +1432,8 @@ export default {
         "genuinely interested"
       ],
       "optionReasons": {
-        "genuine-mcq-22": "本句指「真的感興趣；出自真心地感興趣」。",
-        "genuine-mcq-21": "「表示看起來真誠／真實；例句：「她的關心看起來是真心的。」」是「seem / appear genuine = appear sincere or authentic 看起來真誠／真實」的用法，與本句語境不同。",
-        "genuine-mcq-20": "「聽起來真誠；聽起來自然不做作」是「sound genuine = sound sincere and natural rather than artificial or rehearsed 聽起來真誠；聽起來自然不做作 This is the exact passage construction.」的用法，與本句語境不同。",
-        "genuine-mcq-19": "「表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」」是「genuineness = the quality of being sincere, real, or authentic 真誠；真實性；真偽程度」的用法，與本句語境不同。",
-        "genuine-mcq-18": "「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」是「genuinely = sincerely; really; authentically 真誠地；真正地；確實地」的用法，與本句語境不同。",
-        "genuine-mcq-17": "「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」是「genuine desire = a sincerely felt wish 真心的願望；真正的意願」的用法，與本句語境不同。"
+        "genuine-mcq-22": "本句的「genuinely interested」指「真的感興趣；出自真心地感興趣」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-22"
     },
@@ -1789,11 +1445,7 @@ export default {
       "masked": "Good interviewers are ____ in people.",
       "options": [
         "genuine-mcq-22",
-        "genuine-mcq-21",
-        "genuine-mcq-20",
-        "genuine-mcq-19",
-        "genuine-mcq-18",
-        "genuine-mcq-17"
+        "genuine-mcq-06"
       ],
       "explanation": "本句的「genuinely interested」指「真的感興趣；出自真心地感興趣」。",
       "sentenceIndex": 43,
@@ -1802,12 +1454,8 @@ export default {
         "genuinely interested"
       ],
       "optionReasons": {
-        "genuine-mcq-22": "本句指「真的感興趣；出自真心地感興趣」。",
-        "genuine-mcq-21": "「表示看起來真誠／真實；例句：「她的關心看起來是真心的。」」是「seem / appear genuine = appear sincere or authentic 看起來真誠／真實」的用法，與本句語境不同。",
-        "genuine-mcq-20": "「聽起來真誠；聽起來自然不做作」是「sound genuine = sound sincere and natural rather than artificial or rehearsed 聽起來真誠；聽起來自然不做作 This is the exact passage construction.」的用法，與本句語境不同。",
-        "genuine-mcq-19": "「表示真誠；真實性；真偽程度；例句：「人們對她訊息中的真誠產生了共鳴。」」是「genuineness = the quality of being sincere, real, or authentic 真誠；真實性；真偽程度」的用法，與本句語境不同。",
-        "genuine-mcq-18": "「表示真誠地；真正地；確實地；例句：「我對結果感到真的很驚訝。」」是「genuinely = sincerely; really; authentically 真誠地；真正地；確實地」的用法，與本句語境不同。",
-        "genuine-mcq-17": "「表示真心的願望；真正的意願；例句：「他展現出真心想學習的意願。」」是「genuine desire = a sincerely felt wish 真心的願望；真正的意願」的用法，與本句語境不同。"
+        "genuine-mcq-22": "本句的「genuinely interested」指「真的感興趣；出自真心地感興趣」。",
+        "genuine-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "genuine-mcq-22"
     }
@@ -1819,5 +1467,12 @@ export default {
     "sha256": "5374c8ff36048d6c00921a5baf77d3426c19a2aa976a1d12aa0a05963b150e85",
     "pages": 16
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

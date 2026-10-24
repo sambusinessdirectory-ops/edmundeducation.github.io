@@ -286,7 +286,7 @@ export default {
     },
     {
       "id": "sort-mcq-13",
-      "title": "表示程度並不完全；有點／某程度上",
+      "title": "程度並不完全；有點／某程度上",
       "form": "sort of — somewhat",
       "en": "sort of — somewhat",
       "zh": "表示程度並不完全；有點／某程度上",
@@ -308,7 +308,7 @@ export default {
     },
     {
       "id": "sort-mcq-14",
-      "title": "表示某個描述大致成立但不是完全精確",
+      "title": "某個描述大致成立但不是完全精確",
       "form": "sort of — approximately",
       "en": "sort of — approximately",
       "zh": "表示某個描述大致成立但不是完全精確",
@@ -580,11 +580,9 @@ export default {
       "masked": "She is not the ____ of person who tries to dominate a conversation.",
       "options": [
         "sort-mcq-01",
-        "sort-mcq-02",
-        "sort-mcq-03",
-        "sort-mcq-04",
-        "sort-mcq-05",
-        "sort-mcq-06"
+        "sort-mcq-12",
+        "sort-mcq-13",
+        "sort-mcq-24"
       ],
       "explanation": "本句的「sort」指「按共同特徵、性質或用途所形成的一種類型」。",
       "sentenceIndex": 0,
@@ -593,12 +591,10 @@ export default {
         "sort"
       ],
       "optionReasons": {
-        "sort-mcq-01": "本句指「按共同特徵、性質或用途所形成的一種類型」。",
-        "sort-mcq-02": "「具有某種典型性格、習慣或行為的一類人」是「sort of person」的用法，與本句語境不同。",
-        "sort-mcq-03": "「某一種類型的……」是「sort of + noun」的用法，與本句語境不同。",
-        "sort-mcq-04": "「很多不同種類／類型的」是「all sorts of」的用法，與本句語境不同。",
-        "sort-mcq-05": "「符合某人喜好、口味或偏好的類型」是「my/your sort」的用法，與本句語境不同。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。"
+        "sort-mcq-01": "本句的「sort」指「按共同特徵、性質或用途所形成的一種類型」。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-01"
     },
@@ -610,11 +606,9 @@ export default {
       "masked": "What ____ of music do you like?",
       "options": [
         "sort-mcq-01",
-        "sort-mcq-02",
-        "sort-mcq-03",
-        "sort-mcq-04",
-        "sort-mcq-05",
-        "sort-mcq-06"
+        "sort-mcq-21",
+        "sort-mcq-24",
+        "sort-mcq-13"
       ],
       "explanation": "本句的「sort」指「按共同特徵、性質或用途所形成的一種類型」。",
       "sentenceIndex": 1,
@@ -623,12 +617,10 @@ export default {
         "sort"
       ],
       "optionReasons": {
-        "sort-mcq-01": "本句指「按共同特徵、性質或用途所形成的一種類型」。",
-        "sort-mcq-02": "「具有某種典型性格、習慣或行為的一類人」是「sort of person」的用法，與本句語境不同。",
-        "sort-mcq-03": "「某一種類型的……」是「sort of + noun」的用法，與本句語境不同。",
-        "sort-mcq-04": "「很多不同種類／類型的」是「all sorts of」的用法，與本句語境不同。",
-        "sort-mcq-05": "「符合某人喜好、口味或偏好的類型」是「my/your sort」的用法，與本句語境不同。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。"
+        "sort-mcq-01": "本句的「sort」指「按共同特徵、性質或用途所形成的一種類型」。",
+        "sort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-01"
     },
@@ -640,11 +632,9 @@ export default {
       "masked": "That is exactly the ____ of book I enjoy.",
       "options": [
         "sort-mcq-01",
-        "sort-mcq-02",
-        "sort-mcq-03",
-        "sort-mcq-04",
-        "sort-mcq-05",
-        "sort-mcq-06"
+        "sort-mcq-12",
+        "sort-mcq-11",
+        "sort-mcq-18"
       ],
       "explanation": "本句的「sort」指「按共同特徵、性質或用途所形成的一種類型」。",
       "sentenceIndex": 2,
@@ -653,12 +643,10 @@ export default {
         "sort"
       ],
       "optionReasons": {
-        "sort-mcq-01": "本句指「按共同特徵、性質或用途所形成的一種類型」。",
-        "sort-mcq-02": "「具有某種典型性格、習慣或行為的一類人」是「sort of person」的用法，與本句語境不同。",
-        "sort-mcq-03": "「某一種類型的……」是「sort of + noun」的用法，與本句語境不同。",
-        "sort-mcq-04": "「很多不同種類／類型的」是「all sorts of」的用法，與本句語境不同。",
-        "sort-mcq-05": "「符合某人喜好、口味或偏好的類型」是「my/your sort」的用法，與本句語境不同。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。"
+        "sort-mcq-01": "本句的「sort」指「按共同特徵、性質或用途所形成的一種類型」。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-01"
     },
@@ -670,11 +658,9 @@ export default {
       "masked": "What ____ work does she do?",
       "options": [
         "sort-mcq-03",
-        "sort-mcq-02",
-        "sort-mcq-04",
-        "sort-mcq-01",
-        "sort-mcq-05",
-        "sort-mcq-06"
+        "sort-mcq-10",
+        "sort-mcq-24",
+        "sort-mcq-14"
       ],
       "explanation": "本句的「sort of」指「某一種類型的……」。",
       "sentenceIndex": 3,
@@ -683,12 +669,10 @@ export default {
         "sort of"
       ],
       "optionReasons": {
-        "sort-mcq-03": "本句指「某一種類型的……」。",
-        "sort-mcq-02": "「具有某種典型性格、習慣或行為的一類人」是「sort of person」的用法，與本句語境不同。",
-        "sort-mcq-04": "「很多不同種類／類型的」是「all sorts of」的用法，與本句語境不同。",
-        "sort-mcq-01": "「按共同特徵、性質或用途所形成的一種類型」是「sort — type/kind」的用法，與本句語境不同。",
-        "sort-mcq-05": "「符合某人喜好、口味或偏好的類型」是「my/your sort」的用法，與本句語境不同。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。"
+        "sort-mcq-03": "本句的「sort of」指「某一種類型的……」。",
+        "sort-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-03"
     },
@@ -700,11 +684,9 @@ export default {
       "masked": "This is a different ____ problem.",
       "options": [
         "sort-mcq-03",
-        "sort-mcq-02",
-        "sort-mcq-04",
-        "sort-mcq-01",
-        "sort-mcq-05",
-        "sort-mcq-06"
+        "sort-mcq-17",
+        "sort-mcq-24",
+        "sort-mcq-12"
       ],
       "explanation": "本句的「sort of」指「某一種類型的……」。",
       "sentenceIndex": 4,
@@ -713,12 +695,10 @@ export default {
         "sort of"
       ],
       "optionReasons": {
-        "sort-mcq-03": "本句指「某一種類型的……」。",
-        "sort-mcq-02": "「具有某種典型性格、習慣或行為的一類人」是「sort of person」的用法，與本句語境不同。",
-        "sort-mcq-04": "「很多不同種類／類型的」是「all sorts of」的用法，與本句語境不同。",
-        "sort-mcq-01": "「按共同特徵、性質或用途所形成的一種類型」是「sort — type/kind」的用法，與本句語境不同。",
-        "sort-mcq-05": "「符合某人喜好、口味或偏好的類型」是「my/your sort」的用法，與本句語境不同。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。"
+        "sort-mcq-03": "本句的「sort of」指「某一種類型的……」。",
+        "sort-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-03"
     },
@@ -730,11 +710,9 @@ export default {
       "masked": "She knows ____ people.",
       "options": [
         "sort-mcq-04",
-        "sort-mcq-03",
-        "sort-mcq-05",
-        "sort-mcq-02",
-        "sort-mcq-06",
-        "sort-mcq-01"
+        "sort-mcq-10",
+        "sort-mcq-14",
+        "sort-mcq-12"
       ],
       "explanation": "本句的「all sorts of」指「很多不同種類／類型的」。",
       "sentenceIndex": 5,
@@ -743,12 +721,10 @@ export default {
         "all sorts of"
       ],
       "optionReasons": {
-        "sort-mcq-04": "本句指「很多不同種類／類型的」。",
-        "sort-mcq-03": "「某一種類型的……」是「sort of + noun」的用法，與本句語境不同。",
-        "sort-mcq-05": "「符合某人喜好、口味或偏好的類型」是「my/your sort」的用法，與本句語境不同。",
-        "sort-mcq-02": "「具有某種典型性格、習慣或行為的一類人」是「sort of person」的用法，與本句語境不同。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。",
-        "sort-mcq-01": "「按共同特徵、性質或用途所形成的一種類型」是「sort — type/kind」的用法，與本句語境不同。"
+        "sort-mcq-04": "本句的「all sorts of」指「很多不同種類／類型的」。",
+        "sort-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-04"
     },
@@ -760,11 +736,9 @@ export default {
       "masked": "The shop sells ____ fruit.",
       "options": [
         "sort-mcq-04",
-        "sort-mcq-03",
-        "sort-mcq-05",
-        "sort-mcq-02",
-        "sort-mcq-06",
-        "sort-mcq-01"
+        "sort-mcq-13",
+        "sort-mcq-11",
+        "sort-mcq-24"
       ],
       "explanation": "本句的「all sorts of」指「很多不同種類／類型的」。",
       "sentenceIndex": 6,
@@ -773,12 +747,10 @@ export default {
         "all sorts of"
       ],
       "optionReasons": {
-        "sort-mcq-04": "本句指「很多不同種類／類型的」。",
-        "sort-mcq-03": "「某一種類型的……」是「sort of + noun」的用法，與本句語境不同。",
-        "sort-mcq-05": "「符合某人喜好、口味或偏好的類型」是「my/your sort」的用法，與本句語境不同。",
-        "sort-mcq-02": "「具有某種典型性格、習慣或行為的一類人」是「sort of person」的用法，與本句語境不同。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。",
-        "sort-mcq-01": "「按共同特徵、性質或用途所形成的一種類型」是「sort — type/kind」的用法，與本句語境不同。"
+        "sort-mcq-04": "本句的「all sorts of」指「很多不同種類／類型的」。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-04"
     },
@@ -790,11 +762,9 @@ export default {
       "masked": "There are many different ____ tea.",
       "options": [
         "sort-mcq-03",
-        "sort-mcq-02",
-        "sort-mcq-04",
-        "sort-mcq-01",
-        "sort-mcq-05",
-        "sort-mcq-06"
+        "sort-mcq-12",
+        "sort-mcq-14",
+        "sort-mcq-11"
       ],
       "explanation": "本句的「sorts of」指「某一種類型的……」。",
       "sentenceIndex": 7,
@@ -803,12 +773,10 @@ export default {
         "sorts of"
       ],
       "optionReasons": {
-        "sort-mcq-03": "本句指「某一種類型的……」。",
-        "sort-mcq-02": "「具有某種典型性格、習慣或行為的一類人」是「sort of person」的用法，與本句語境不同。",
-        "sort-mcq-04": "「很多不同種類／類型的」是「all sorts of」的用法，與本句語境不同。",
-        "sort-mcq-01": "「按共同特徵、性質或用途所形成的一種類型」是「sort — type/kind」的用法，與本句語境不同。",
-        "sort-mcq-05": "「符合某人喜好、口味或偏好的類型」是「my/your sort」的用法，與本句語境不同。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。"
+        "sort-mcq-03": "本句的「sorts of」指「某一種類型的……」。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-03"
     },
@@ -820,11 +788,9 @@ export default {
       "masked": "The museum displays several ____ traditional tools.",
       "options": [
         "sort-mcq-03",
-        "sort-mcq-02",
-        "sort-mcq-04",
-        "sort-mcq-01",
-        "sort-mcq-05",
-        "sort-mcq-06"
+        "sort-mcq-11",
+        "sort-mcq-12",
+        "sort-mcq-14"
       ],
       "explanation": "本句的「sorts of」指「某一種類型的……」。",
       "sentenceIndex": 8,
@@ -833,12 +799,10 @@ export default {
         "sorts of"
       ],
       "optionReasons": {
-        "sort-mcq-03": "本句指「某一種類型的……」。",
-        "sort-mcq-02": "「具有某種典型性格、習慣或行為的一類人」是「sort of person」的用法，與本句語境不同。",
-        "sort-mcq-04": "「很多不同種類／類型的」是「all sorts of」的用法，與本句語境不同。",
-        "sort-mcq-01": "「按共同特徵、性質或用途所形成的一種類型」是「sort — type/kind」的用法，與本句語境不同。",
-        "sort-mcq-05": "「符合某人喜好、口味或偏好的類型」是「my/your sort」的用法，與本句語境不同。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。"
+        "sort-mcq-03": "本句的「sorts of」指「某一種類型的……」。",
+        "sort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-03"
     },
@@ -850,11 +814,9 @@ export default {
       "masked": "He is the ____ of person who always arrives early.",
       "options": [
         "sort-mcq-02",
-        "sort-mcq-01",
-        "sort-mcq-03",
-        "sort-mcq-04",
-        "sort-mcq-05",
-        "sort-mcq-06"
+        "sort-mcq-13",
+        "sort-mcq-21",
+        "sort-mcq-18"
       ],
       "explanation": "本句的「sort」指「具有某種典型性格、習慣或行為的一類人」。",
       "sentenceIndex": 9,
@@ -863,12 +825,10 @@ export default {
         "sort"
       ],
       "optionReasons": {
-        "sort-mcq-02": "本句指「具有某種典型性格、習慣或行為的一類人」。",
-        "sort-mcq-01": "「按共同特徵、性質或用途所形成的一種類型」是「sort — type/kind」的用法，與本句語境不同。",
-        "sort-mcq-03": "「某一種類型的……」是「sort of + noun」的用法，與本句語境不同。",
-        "sort-mcq-04": "「很多不同種類／類型的」是「all sorts of」的用法，與本句語境不同。",
-        "sort-mcq-05": "「符合某人喜好、口味或偏好的類型」是「my/your sort」的用法，與本句語境不同。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。"
+        "sort-mcq-02": "本句的「sort」指「具有某種典型性格、習慣或行為的一類人」。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-02"
     },
@@ -880,11 +840,9 @@ export default {
       "masked": "She is not my ____ of person.",
       "options": [
         "sort-mcq-02",
-        "sort-mcq-01",
-        "sort-mcq-03",
-        "sort-mcq-04",
-        "sort-mcq-05",
-        "sort-mcq-06"
+        "sort-mcq-12",
+        "sort-mcq-18",
+        "sort-mcq-13"
       ],
       "explanation": "本句的「sort」指「具有某種典型性格、習慣或行為的一類人」。",
       "sentenceIndex": 10,
@@ -893,12 +851,10 @@ export default {
         "sort"
       ],
       "optionReasons": {
-        "sort-mcq-02": "本句指「具有某種典型性格、習慣或行為的一類人」。",
-        "sort-mcq-01": "「按共同特徵、性質或用途所形成的一種類型」是「sort — type/kind」的用法，與本句語境不同。",
-        "sort-mcq-03": "「某一種類型的……」是「sort of + noun」的用法，與本句語境不同。",
-        "sort-mcq-04": "「很多不同種類／類型的」是「all sorts of」的用法，與本句語境不同。",
-        "sort-mcq-05": "「符合某人喜好、口味或偏好的類型」是「my/your sort」的用法，與本句語境不同。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。"
+        "sort-mcq-02": "本句的「sort」指「具有某種典型性格、習慣或行為的一類人」。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-02"
     },
@@ -910,11 +866,9 @@ export default {
       "masked": "He is not really my ____.",
       "options": [
         "sort-mcq-05",
-        "sort-mcq-04",
-        "sort-mcq-06",
-        "sort-mcq-03",
-        "sort-mcq-07",
-        "sort-mcq-02"
+        "sort-mcq-11",
+        "sort-mcq-17",
+        "sort-mcq-12"
       ],
       "explanation": "本句的「sort」指「符合某人喜好、口味或偏好的類型」。",
       "sentenceIndex": 11,
@@ -923,12 +877,10 @@ export default {
         "sort"
       ],
       "optionReasons": {
-        "sort-mcq-05": "本句指「符合某人喜好、口味或偏好的類型」。",
-        "sort-mcq-04": "「很多不同種類／類型的」是「all sorts of」的用法，與本句語境不同。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。",
-        "sort-mcq-03": "「某一種類型的……」是「sort of + noun」的用法，與本句語境不同。",
-        "sort-mcq-07": "「按某種規則、特徵或類別把東西分組」是「sort — verb: classify」的用法，與本句語境不同。",
-        "sort-mcq-02": "「具有某種典型性格、習慣或行為的一類人」是「sort of person」的用法，與本句語境不同。"
+        "sort-mcq-05": "本句的「sort」指「符合某人喜好、口味或偏好的類型」。",
+        "sort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-05"
     },
@@ -940,11 +892,9 @@ export default {
       "masked": "Is that your ____ of film?",
       "options": [
         "sort-mcq-05",
-        "sort-mcq-04",
-        "sort-mcq-06",
-        "sort-mcq-03",
-        "sort-mcq-07",
-        "sort-mcq-02"
+        "sort-mcq-14",
+        "sort-mcq-12",
+        "sort-mcq-10"
       ],
       "explanation": "本句的「sort」指「符合某人喜好、口味或偏好的類型」。",
       "sentenceIndex": 12,
@@ -953,12 +903,10 @@ export default {
         "sort"
       ],
       "optionReasons": {
-        "sort-mcq-05": "本句指「符合某人喜好、口味或偏好的類型」。",
-        "sort-mcq-04": "「很多不同種類／類型的」是「all sorts of」的用法，與本句語境不同。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。",
-        "sort-mcq-03": "「某一種類型的……」是「sort of + noun」的用法，與本句語境不同。",
-        "sort-mcq-07": "「按某種規則、特徵或類別把東西分組」是「sort — verb: classify」的用法，與本句語境不同。",
-        "sort-mcq-02": "「具有某種典型性格、習慣或行為的一類人」是「sort of person」的用法，與本句語境不同。"
+        "sort-mcq-05": "本句的「sort」指「符合某人喜好、口味或偏好的類型」。",
+        "sort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-05"
     },
@@ -970,11 +918,9 @@ export default {
       "masked": "The items are divided into several ____.",
       "options": [
         "sort-mcq-06",
-        "sort-mcq-05",
-        "sort-mcq-07",
-        "sort-mcq-04",
-        "sort-mcq-08",
-        "sort-mcq-03"
+        "sort-mcq-13",
+        "sort-mcq-12",
+        "sort-mcq-18"
       ],
       "explanation": "本句的「sorts」指「根據共同特徵形成的分類單位」。",
       "sentenceIndex": 13,
@@ -983,12 +929,10 @@ export default {
         "sorts"
       ],
       "optionReasons": {
-        "sort-mcq-06": "本句指「根據共同特徵形成的分類單位」。",
-        "sort-mcq-05": "「符合某人喜好、口味或偏好的類型」是「my/your sort」的用法，與本句語境不同。",
-        "sort-mcq-07": "「按某種規則、特徵或類別把東西分組」是「sort — verb: classify」的用法，與本句語境不同。",
-        "sort-mcq-04": "「很多不同種類／類型的」是「all sorts of」的用法，與本句語境不同。",
-        "sort-mcq-08": "「根據某項標準把資料或物件排列／分類」是「sort by」的用法，與本句語境不同。",
-        "sort-mcq-03": "「某一種類型的……」是「sort of + noun」的用法，與本句語境不同。"
+        "sort-mcq-06": "本句的「sorts」指「根據共同特徵形成的分類單位」。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-06"
     },
@@ -1000,11 +944,9 @@ export default {
       "masked": "Each ____ has different characteristics.",
       "options": [
         "sort-mcq-06",
-        "sort-mcq-05",
-        "sort-mcq-07",
-        "sort-mcq-04",
-        "sort-mcq-08",
-        "sort-mcq-03"
+        "sort-mcq-21",
+        "sort-mcq-13",
+        "sort-mcq-18"
       ],
       "explanation": "本句的「sort」指「根據共同特徵形成的分類單位」。",
       "sentenceIndex": 14,
@@ -1013,12 +955,10 @@ export default {
         "sort"
       ],
       "optionReasons": {
-        "sort-mcq-06": "本句指「根據共同特徵形成的分類單位」。",
-        "sort-mcq-05": "「符合某人喜好、口味或偏好的類型」是「my/your sort」的用法，與本句語境不同。",
-        "sort-mcq-07": "「按某種規則、特徵或類別把東西分組」是「sort — verb: classify」的用法，與本句語境不同。",
-        "sort-mcq-04": "「很多不同種類／類型的」是「all sorts of」的用法，與本句語境不同。",
-        "sort-mcq-08": "「根據某項標準把資料或物件排列／分類」是「sort by」的用法，與本句語境不同。",
-        "sort-mcq-03": "「某一種類型的……」是「sort of + noun」的用法，與本句語境不同。"
+        "sort-mcq-06": "本句的「sort」指「根據共同特徵形成的分類單位」。",
+        "sort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-06"
     },
@@ -1030,11 +970,9 @@ export default {
       "masked": "Please ____ the documents by date.",
       "options": [
         "sort-mcq-07",
-        "sort-mcq-06",
-        "sort-mcq-08",
-        "sort-mcq-05",
-        "sort-mcq-09",
-        "sort-mcq-04"
+        "sort-mcq-11",
+        "sort-mcq-13",
+        "sort-mcq-12"
       ],
       "explanation": "本句的「sort」指「按某種規則、特徵或類別把東西分組」。",
       "sentenceIndex": 15,
@@ -1043,12 +981,10 @@ export default {
         "sort"
       ],
       "optionReasons": {
-        "sort-mcq-07": "本句指「按某種規則、特徵或類別把東西分組」。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。",
-        "sort-mcq-08": "「根據某項標準把資料或物件排列／分類」是「sort by」的用法，與本句語境不同。",
-        "sort-mcq-05": "「符合某人喜好、口味或偏好的類型」是「my/your sort」的用法，與本句語境不同。",
-        "sort-mcq-09": "「把物品分配到不同組別／類別中」是「sort into」的用法，與本句語境不同。",
-        "sort-mcq-04": "「很多不同種類／類型的」是「all sorts of」的用法，與本句語境不同。"
+        "sort-mcq-07": "本句的「sort」指「按某種規則、特徵或類別把東西分組」。",
+        "sort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-07"
     },
@@ -1060,11 +996,9 @@ export default {
       "masked": "She ____ the clothes into different piles.",
       "options": [
         "sort-mcq-07",
-        "sort-mcq-06",
-        "sort-mcq-08",
-        "sort-mcq-05",
-        "sort-mcq-09",
-        "sort-mcq-04"
+        "sort-pdf-001",
+        "sort-mcq-13",
+        "sort-mcq-20"
       ],
       "explanation": "本句的「sorted」指「按某種規則、特徵或類別把東西分組」。",
       "sentenceIndex": 16,
@@ -1073,12 +1007,10 @@ export default {
         "sorted"
       ],
       "optionReasons": {
-        "sort-mcq-07": "本句指「按某種規則、特徵或類別把東西分組」。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。",
-        "sort-mcq-08": "「根據某項標準把資料或物件排列／分類」是「sort by」的用法，與本句語境不同。",
-        "sort-mcq-05": "「符合某人喜好、口味或偏好的類型」是「my/your sort」的用法，與本句語境不同。",
-        "sort-mcq-09": "「把物品分配到不同組別／類別中」是「sort into」的用法，與本句語境不同。",
-        "sort-mcq-04": "「很多不同種類／類型的」是「all sorts of」的用法，與本句語境不同。"
+        "sort-mcq-07": "本句的「sorted」指「按某種規則、特徵或類別把東西分組」。",
+        "sort-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-07"
     },
@@ -1090,11 +1022,9 @@ export default {
       "masked": "You can ____ price.",
       "options": [
         "sort-mcq-08",
-        "sort-mcq-07",
-        "sort-mcq-09",
-        "sort-mcq-06",
-        "sort-mcq-10",
-        "sort-mcq-05"
+        "sort-mcq-12",
+        "sort-mcq-17",
+        "sort-mcq-02"
       ],
       "explanation": "本句的「sort by」指「根據某項標準把資料或物件排列／分類」。",
       "sentenceIndex": 17,
@@ -1103,12 +1033,10 @@ export default {
         "sort by"
       ],
       "optionReasons": {
-        "sort-mcq-08": "本句指「根據某項標準把資料或物件排列／分類」。",
-        "sort-mcq-07": "「按某種規則、特徵或類別把東西分組」是「sort — verb: classify」的用法，與本句語境不同。",
-        "sort-mcq-09": "「把物品分配到不同組別／類別中」是「sort into」的用法，與本句語境不同。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。",
-        "sort-mcq-10": "「按特定順序重新排列資料或項目」是「sort — order」的用法，與本句語境不同。",
-        "sort-mcq-05": "「符合某人喜好、口味或偏好的類型」是「my/your sort」的用法，與本句語境不同。"
+        "sort-mcq-08": "本句的「sort by」指「根據某項標準把資料或物件排列／分類」。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-08"
     },
@@ -1120,11 +1048,9 @@ export default {
       "masked": "The files are ____ name.",
       "options": [
         "sort-mcq-08",
-        "sort-mcq-07",
-        "sort-mcq-09",
-        "sort-mcq-06",
-        "sort-mcq-10",
-        "sort-mcq-05"
+        "sort-mcq-14",
+        "sort-mcq-12",
+        "sort-mcq-02"
       ],
       "explanation": "本句的「sorted by」指「根據某項標準把資料或物件排列／分類」。",
       "sentenceIndex": 18,
@@ -1133,12 +1059,10 @@ export default {
         "sorted by"
       ],
       "optionReasons": {
-        "sort-mcq-08": "本句指「根據某項標準把資料或物件排列／分類」。",
-        "sort-mcq-07": "「按某種規則、特徵或類別把東西分組」是「sort — verb: classify」的用法，與本句語境不同。",
-        "sort-mcq-09": "「把物品分配到不同組別／類別中」是「sort into」的用法，與本句語境不同。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。",
-        "sort-mcq-10": "「按特定順序重新排列資料或項目」是「sort — order」的用法，與本句語境不同。",
-        "sort-mcq-05": "「符合某人喜好、口味或偏好的類型」是「my/your sort」的用法，與本句語境不同。"
+        "sort-mcq-08": "本句的「sorted by」指「根據某項標準把資料或物件排列／分類」。",
+        "sort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-08"
     },
@@ -1150,11 +1074,9 @@ export default {
       "masked": "The books were ____ three groups.",
       "options": [
         "sort-mcq-09",
-        "sort-mcq-08",
+        "sort-mcq-13",
         "sort-mcq-10",
-        "sort-mcq-07",
-        "sort-mcq-11",
-        "sort-mcq-06"
+        "sort-mcq-12"
       ],
       "explanation": "本句的「sorted into」指「把物品分配到不同組別／類別中」。",
       "sentenceIndex": 19,
@@ -1163,12 +1085,10 @@ export default {
         "sorted into"
       ],
       "optionReasons": {
-        "sort-mcq-09": "本句指「把物品分配到不同組別／類別中」。",
-        "sort-mcq-08": "「根據某項標準把資料或物件排列／分類」是「sort by」的用法，與本句語境不同。",
-        "sort-mcq-10": "「按特定順序重新排列資料或項目」是「sort — order」的用法，與本句語境不同。",
-        "sort-mcq-07": "「按某種規則、特徵或類別把東西分組」是「sort — verb: classify」的用法，與本句語境不同。",
-        "sort-mcq-11": "「把混亂的安排、資料或事情整理清楚」是「sort out — organize」的用法，與本句語境不同。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。"
+        "sort-mcq-09": "本句的「sorted into」指「把物品分配到不同組別／類別中」。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-09"
     },
@@ -1180,11 +1100,9 @@ export default {
       "masked": "Please ____ the cards into colours.",
       "options": [
         "sort-mcq-09",
-        "sort-mcq-08",
-        "sort-mcq-10",
-        "sort-mcq-07",
+        "sort-mcq-13",
         "sort-mcq-11",
-        "sort-mcq-06"
+        "sort-mcq-12"
       ],
       "explanation": "本句的「sort」指「把物品分配到不同組別／類別中」。",
       "sentenceIndex": 20,
@@ -1193,12 +1111,10 @@ export default {
         "sort"
       ],
       "optionReasons": {
-        "sort-mcq-09": "本句指「把物品分配到不同組別／類別中」。",
-        "sort-mcq-08": "「根據某項標準把資料或物件排列／分類」是「sort by」的用法，與本句語境不同。",
-        "sort-mcq-10": "「按特定順序重新排列資料或項目」是「sort — order」的用法，與本句語境不同。",
-        "sort-mcq-07": "「按某種規則、特徵或類別把東西分組」是「sort — verb: classify」的用法，與本句語境不同。",
-        "sort-mcq-11": "「把混亂的安排、資料或事情整理清楚」是「sort out — organize」的用法，與本句語境不同。",
-        "sort-mcq-06": "「根據共同特徵形成的分類單位」是「sort — category」的用法，與本句語境不同。"
+        "sort-mcq-09": "本句的「sort」指「把物品分配到不同組別／類別中」。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-09"
     },
@@ -1210,11 +1126,9 @@ export default {
       "masked": "The list is ____ alphabetically.",
       "options": [
         "sort-mcq-10",
-        "sort-mcq-09",
-        "sort-mcq-11",
-        "sort-mcq-08",
-        "sort-mcq-12",
-        "sort-mcq-07"
+        "sort-mcq-05",
+        "sort-mcq-13",
+        "sort-mcq-09"
       ],
       "explanation": "本句的「sorted」指「按特定順序重新排列資料或項目」。",
       "sentenceIndex": 21,
@@ -1223,12 +1137,10 @@ export default {
         "sorted"
       ],
       "optionReasons": {
-        "sort-mcq-10": "本句指「按特定順序重新排列資料或項目」。",
-        "sort-mcq-09": "「把物品分配到不同組別／類別中」是「sort into」的用法，與本句語境不同。",
-        "sort-mcq-11": "「把混亂的安排、資料或事情整理清楚」是「sort out — organize」的用法，與本句語境不同。",
-        "sort-mcq-08": "「根據某項標準把資料或物件排列／分類」是「sort by」的用法，與本句語境不同。",
-        "sort-mcq-12": "「經處理後使問題、衝突或困難得到解決」是「sort out — solve」的用法，與本句語境不同。",
-        "sort-mcq-07": "「按某種規則、特徵或類別把東西分組」是「sort — verb: classify」的用法，與本句語境不同。"
+        "sort-mcq-10": "本句的「sorted」指「按特定順序重新排列資料或項目」。",
+        "sort-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-10"
     },
@@ -1240,11 +1152,9 @@ export default {
       "masked": "Click here to ____ the results from lowest to highest.",
       "options": [
         "sort-mcq-10",
-        "sort-mcq-09",
-        "sort-mcq-11",
-        "sort-mcq-08",
-        "sort-mcq-12",
-        "sort-mcq-07"
+        "sort-mcq-13",
+        "sort-mcq-23",
+        "sort-mcq-12"
       ],
       "explanation": "本句的「sort」指「按特定順序重新排列資料或項目」。",
       "sentenceIndex": 22,
@@ -1253,12 +1163,10 @@ export default {
         "sort"
       ],
       "optionReasons": {
-        "sort-mcq-10": "本句指「按特定順序重新排列資料或項目」。",
-        "sort-mcq-09": "「把物品分配到不同組別／類別中」是「sort into」的用法，與本句語境不同。",
-        "sort-mcq-11": "「把混亂的安排、資料或事情整理清楚」是「sort out — organize」的用法，與本句語境不同。",
-        "sort-mcq-08": "「根據某項標準把資料或物件排列／分類」是「sort by」的用法，與本句語境不同。",
-        "sort-mcq-12": "「經處理後使問題、衝突或困難得到解決」是「sort out — solve」的用法，與本句語境不同。",
-        "sort-mcq-07": "「按某種規則、特徵或類別把東西分組」是「sort — verb: classify」的用法，與本句語境不同。"
+        "sort-mcq-10": "本句的「sort」指「按特定順序重新排列資料或項目」。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-10"
     },
@@ -1270,11 +1178,9 @@ export default {
       "masked": "I need to ____ my schedule.",
       "options": [
         "sort-mcq-11",
-        "sort-mcq-10",
-        "sort-mcq-12",
-        "sort-mcq-09",
-        "sort-mcq-13",
-        "sort-mcq-08"
+        "sort-mcq-05",
+        "sort-mcq-06",
+        "sort-mcq-13"
       ],
       "explanation": "本句的「sort out」指「把混亂的安排、資料或事情整理清楚」。",
       "sentenceIndex": 23,
@@ -1283,12 +1189,10 @@ export default {
         "sort out"
       ],
       "optionReasons": {
-        "sort-mcq-11": "本句指「把混亂的安排、資料或事情整理清楚」。",
-        "sort-mcq-10": "「按特定順序重新排列資料或項目」是「sort — order」的用法，與本句語境不同。",
-        "sort-mcq-12": "「經處理後使問題、衝突或困難得到解決」是「sort out — solve」的用法，與本句語境不同。",
-        "sort-mcq-09": "「把物品分配到不同組別／類別中」是「sort into」的用法，與本句語境不同。",
-        "sort-mcq-13": "「表示程度並不完全；有點／某程度上」是「sort of — somewhat」的用法，與本句語境不同。",
-        "sort-mcq-08": "「根據某項標準把資料或物件排列／分類」是「sort by」的用法，與本句語境不同。"
+        "sort-mcq-11": "本句的「sort out」指「把混亂的安排、資料或事情整理清楚」。",
+        "sort-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-11"
     },
@@ -1300,11 +1204,9 @@ export default {
       "masked": "We need to ____ this problem.",
       "options": [
         "sort-mcq-11",
-        "sort-mcq-10",
-        "sort-mcq-12",
-        "sort-mcq-09",
+        "sort-mcq-24",
         "sort-mcq-13",
-        "sort-mcq-08"
+        "sort-mcq-09"
       ],
       "explanation": "本句的「sort out」指「把混亂的安排、資料或事情整理清楚」。",
       "sentenceIndex": 24,
@@ -1313,12 +1215,10 @@ export default {
         "sort out"
       ],
       "optionReasons": {
-        "sort-mcq-11": "本句指「把混亂的安排、資料或事情整理清楚」。",
-        "sort-mcq-10": "「按特定順序重新排列資料或項目」是「sort — order」的用法，與本句語境不同。",
-        "sort-mcq-12": "「經處理後使問題、衝突或困難得到解決」是「sort out — solve」的用法，與本句語境不同。",
-        "sort-mcq-09": "「把物品分配到不同組別／類別中」是「sort into」的用法，與本句語境不同。",
-        "sort-mcq-13": "「表示程度並不完全；有點／某程度上」是「sort of — somewhat」的用法，與本句語境不同。",
-        "sort-mcq-08": "「根據某項標準把資料或物件排列／分類」是「sort by」的用法，與本句語境不同。"
+        "sort-mcq-11": "本句的「sort out」指「把混亂的安排、資料或事情整理清楚」。",
+        "sort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-11"
     },
@@ -1330,11 +1230,9 @@ export default {
       "masked": "They met to ____ their disagreement.",
       "options": [
         "sort-mcq-12",
-        "sort-mcq-11",
-        "sort-mcq-13",
-        "sort-mcq-10",
-        "sort-mcq-14",
-        "sort-mcq-09"
+        "sort-mcq-23",
+        "sort-mcq-01",
+        "sort-mcq-10"
       ],
       "explanation": "本句的「sort out」指「經處理後使問題、衝突或困難得到解決」。",
       "sentenceIndex": 25,
@@ -1343,12 +1241,10 @@ export default {
         "sort out"
       ],
       "optionReasons": {
-        "sort-mcq-12": "本句指「經處理後使問題、衝突或困難得到解決」。",
-        "sort-mcq-11": "「把混亂的安排、資料或事情整理清楚」是「sort out — organize」的用法，與本句語境不同。",
-        "sort-mcq-13": "「表示程度並不完全；有點／某程度上」是「sort of — somewhat」的用法，與本句語境不同。",
-        "sort-mcq-10": "「按特定順序重新排列資料或項目」是「sort — order」的用法，與本句語境不同。",
-        "sort-mcq-14": "「表示某個描述大致成立但不是完全精確」是「sort of — approximately」的用法，與本句語境不同。",
-        "sort-mcq-09": "「把物品分配到不同組別／類別中」是「sort into」的用法，與本句語境不同。"
+        "sort-mcq-12": "本句的「sort out」指「經處理後使問題、衝突或困難得到解決」。",
+        "sort-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-12"
     },
@@ -1360,11 +1256,9 @@ export default {
       "masked": "She helped us ____ the issue.",
       "options": [
         "sort-mcq-12",
-        "sort-mcq-11",
-        "sort-mcq-13",
-        "sort-mcq-10",
-        "sort-mcq-14",
-        "sort-mcq-09"
+        "sort-mcq-23",
+        "sort-mcq-05",
+        "sort-mcq-17"
       ],
       "explanation": "本句的「sort out」指「經處理後使問題、衝突或困難得到解決」。",
       "sentenceIndex": 26,
@@ -1373,12 +1267,10 @@ export default {
         "sort out"
       ],
       "optionReasons": {
-        "sort-mcq-12": "本句指「經處理後使問題、衝突或困難得到解決」。",
-        "sort-mcq-11": "「把混亂的安排、資料或事情整理清楚」是「sort out — organize」的用法，與本句語境不同。",
-        "sort-mcq-13": "「表示程度並不完全；有點／某程度上」是「sort of — somewhat」的用法，與本句語境不同。",
-        "sort-mcq-10": "「按特定順序重新排列資料或項目」是「sort — order」的用法，與本句語境不同。",
-        "sort-mcq-14": "「表示某個描述大致成立但不是完全精確」是「sort of — approximately」的用法，與本句語境不同。",
-        "sort-mcq-09": "「把物品分配到不同組別／類別中」是「sort into」的用法，與本句語境不同。"
+        "sort-mcq-12": "本句的「sort out」指「經處理後使問題、衝突或困難得到解決」。",
+        "sort-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-12"
     },
@@ -1390,11 +1282,9 @@ export default {
       "masked": "I’m ____ tired.",
       "options": [
         "sort-mcq-13",
-        "sort-mcq-12",
-        "sort-mcq-14",
+        "sort-mcq-04",
         "sort-mcq-11",
-        "sort-mcq-15",
-        "sort-mcq-10"
+        "sort-mcq-12"
       ],
       "explanation": "本句的「sort of」指「表示程度並不完全；有點／某程度上」。",
       "sentenceIndex": 27,
@@ -1403,12 +1293,10 @@ export default {
         "sort of"
       ],
       "optionReasons": {
-        "sort-mcq-13": "本句指「表示程度並不完全；有點／某程度上」。",
-        "sort-mcq-12": "「經處理後使問題、衝突或困難得到解決」是「sort out — solve」的用法，與本句語境不同。",
-        "sort-mcq-14": "「表示某個描述大致成立但不是完全精確」是「sort of — approximately」的用法，與本句語境不同。",
-        "sort-mcq-11": "「把混亂的安排、資料或事情整理清楚」是「sort out — organize」的用法，與本句語境不同。",
-        "sort-mcq-15": "「某種／大致可視為某類的東西」是「a sort of」的用法，與本句語境不同。",
-        "sort-mcq-10": "「按特定順序重新排列資料或項目」是「sort — order」的用法，與本句語境不同。"
+        "sort-mcq-13": "本句的「sort of」指「表示程度並不完全；有點／某程度上」。",
+        "sort-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-13"
     },
@@ -1420,11 +1308,9 @@ export default {
       "masked": "It was ____ strange.",
       "options": [
         "sort-mcq-13",
-        "sort-mcq-12",
-        "sort-mcq-14",
-        "sort-mcq-11",
-        "sort-mcq-15",
-        "sort-mcq-10"
+        "sort-mcq-23",
+        "sort-mcq-05",
+        "sort-mcq-21"
       ],
       "explanation": "本句的「sort of」指「表示程度並不完全；有點／某程度上」。",
       "sentenceIndex": 28,
@@ -1433,12 +1319,10 @@ export default {
         "sort of"
       ],
       "optionReasons": {
-        "sort-mcq-13": "本句指「表示程度並不完全；有點／某程度上」。",
-        "sort-mcq-12": "「經處理後使問題、衝突或困難得到解決」是「sort out — solve」的用法，與本句語境不同。",
-        "sort-mcq-14": "「表示某個描述大致成立但不是完全精確」是「sort of — approximately」的用法，與本句語境不同。",
-        "sort-mcq-11": "「把混亂的安排、資料或事情整理清楚」是「sort out — organize」的用法，與本句語境不同。",
-        "sort-mcq-15": "「某種／大致可視為某類的東西」是「a sort of」的用法，與本句語境不同。",
-        "sort-mcq-10": "「按特定順序重新排列資料或項目」是「sort — order」的用法，與本句語境不同。"
+        "sort-mcq-13": "本句的「sort of」指「表示程度並不完全；有點／某程度上」。",
+        "sort-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-13"
     },
@@ -1450,11 +1334,9 @@ export default {
       "masked": "She is ____ the leader of the group.",
       "options": [
         "sort-mcq-14",
-        "sort-mcq-13",
-        "sort-mcq-15",
-        "sort-mcq-12",
-        "sort-mcq-16",
-        "sort-mcq-11"
+        "sort-mcq-02",
+        "sort-mcq-24",
+        "sort-mcq-07"
       ],
       "explanation": "本句的「sort of」指「表示某個描述大致成立但不是完全精確」。",
       "sentenceIndex": 29,
@@ -1463,12 +1345,10 @@ export default {
         "sort of"
       ],
       "optionReasons": {
-        "sort-mcq-14": "本句指「表示某個描述大致成立但不是完全精確」。",
-        "sort-mcq-13": "「表示程度並不完全；有點／某程度上」是「sort of — somewhat」的用法，與本句語境不同。",
-        "sort-mcq-15": "「某種／大致可視為某類的東西」是「a sort of」的用法，與本句語境不同。",
-        "sort-mcq-12": "「經處理後使問題、衝突或困難得到解決」是「sort out — solve」的用法，與本句語境不同。",
-        "sort-mcq-16": "「勉強可算某種類型，但並非典型或完全理想」是「of a sort」的用法，與本句語境不同。",
-        "sort-mcq-11": "「把混亂的安排、資料或事情整理清楚」是「sort out — organize」的用法，與本句語境不同。"
+        "sort-mcq-14": "本句的「sort of」指「表示某個描述大致成立但不是完全精確」。",
+        "sort-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-14"
     },
@@ -1480,11 +1360,9 @@ export default {
       "masked": "It’s ____ a tradition now.",
       "options": [
         "sort-mcq-14",
-        "sort-mcq-13",
-        "sort-mcq-15",
-        "sort-mcq-12",
-        "sort-mcq-16",
-        "sort-mcq-11"
+        "sort-mcq-07",
+        "sort-mcq-11",
+        "sort-mcq-12"
       ],
       "explanation": "本句的「sort of」指「表示某個描述大致成立但不是完全精確」。",
       "sentenceIndex": 30,
@@ -1493,12 +1371,10 @@ export default {
         "sort of"
       ],
       "optionReasons": {
-        "sort-mcq-14": "本句指「表示某個描述大致成立但不是完全精確」。",
-        "sort-mcq-13": "「表示程度並不完全；有點／某程度上」是「sort of — somewhat」的用法，與本句語境不同。",
-        "sort-mcq-15": "「某種／大致可視為某類的東西」是「a sort of」的用法，與本句語境不同。",
-        "sort-mcq-12": "「經處理後使問題、衝突或困難得到解決」是「sort out — solve」的用法，與本句語境不同。",
-        "sort-mcq-16": "「勉強可算某種類型，但並非典型或完全理想」是「of a sort」的用法，與本句語境不同。",
-        "sort-mcq-11": "「把混亂的安排、資料或事情整理清楚」是「sort out — organize」的用法，與本句語境不同。"
+        "sort-mcq-14": "本句的「sort of」指「表示某個描述大致成立但不是完全精確」。",
+        "sort-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-14"
     },
@@ -1510,11 +1386,9 @@ export default {
       "masked": "It was ____ apology.",
       "options": [
         "sort-mcq-15",
-        "sort-mcq-14",
-        "sort-mcq-16",
+        "sort-mcq-12",
         "sort-mcq-13",
-        "sort-mcq-17",
-        "sort-mcq-12"
+        "sort-mcq-10"
       ],
       "explanation": "本句的「a sort of」指「某種／大致可視為某類的東西」。",
       "sentenceIndex": 31,
@@ -1523,12 +1397,10 @@ export default {
         "a sort of"
       ],
       "optionReasons": {
-        "sort-mcq-15": "本句指「某種／大致可視為某類的東西」。",
-        "sort-mcq-14": "「表示某個描述大致成立但不是完全精確」是「sort of — approximately」的用法，與本句語境不同。",
-        "sort-mcq-16": "「勉強可算某種類型，但並非典型或完全理想」是「of a sort」的用法，與本句語境不同。",
-        "sort-mcq-13": "「表示程度並不完全；有點／某程度上」是「sort of — somewhat」的用法，與本句語境不同。",
-        "sort-mcq-17": "「完全不是剛才所說的那種事情／情況」是「nothing of the sort」的用法，與本句語境不同。",
-        "sort-mcq-12": "「經處理後使問題、衝突或困難得到解決」是「sort out — solve」的用法，與本句語境不同。"
+        "sort-mcq-15": "本句的「a sort of」指「某種／大致可視為某類的東西」。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-15"
     },
@@ -1540,11 +1412,9 @@ export default {
       "masked": "The room has ____ calm atmosphere.",
       "options": [
         "sort-mcq-15",
-        "sort-mcq-14",
-        "sort-mcq-16",
-        "sort-mcq-13",
-        "sort-mcq-17",
-        "sort-mcq-12"
+        "sort-pdf-001",
+        "sort-mcq-24",
+        "sort-mcq-13"
       ],
       "explanation": "本句的「a sort of」指「某種／大致可視為某類的東西」。",
       "sentenceIndex": 32,
@@ -1553,12 +1423,10 @@ export default {
         "a sort of"
       ],
       "optionReasons": {
-        "sort-mcq-15": "本句指「某種／大致可視為某類的東西」。",
-        "sort-mcq-14": "「表示某個描述大致成立但不是完全精確」是「sort of — approximately」的用法，與本句語境不同。",
-        "sort-mcq-16": "「勉強可算某種類型，但並非典型或完全理想」是「of a sort」的用法，與本句語境不同。",
-        "sort-mcq-13": "「表示程度並不完全；有點／某程度上」是「sort of — somewhat」的用法，與本句語境不同。",
-        "sort-mcq-17": "「完全不是剛才所說的那種事情／情況」是「nothing of the sort」的用法，與本句語境不同。",
-        "sort-mcq-12": "「經處理後使問題、衝突或困難得到解決」是「sort out — solve」的用法，與本句語境不同。"
+        "sort-mcq-15": "本句的「a sort of」指「某種／大致可視為某類的東西」。",
+        "sort-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-15"
     },
@@ -1570,11 +1438,9 @@ export default {
       "masked": "They reached an agreement ____.",
       "options": [
         "sort-mcq-16",
-        "sort-mcq-15",
-        "sort-mcq-17",
-        "sort-mcq-14",
-        "sort-mcq-18",
-        "sort-mcq-13"
+        "sort-mcq-24",
+        "sort-mcq-10",
+        "sort-mcq-18"
       ],
       "explanation": "本句的「of a sort」指「勉強可算某種類型，但並非典型或完全理想」。",
       "sentenceIndex": 33,
@@ -1583,12 +1449,10 @@ export default {
         "of a sort"
       ],
       "optionReasons": {
-        "sort-mcq-16": "本句指「勉強可算某種類型，但並非典型或完全理想」。",
-        "sort-mcq-15": "「某種／大致可視為某類的東西」是「a sort of」的用法，與本句語境不同。",
-        "sort-mcq-17": "「完全不是剛才所說的那種事情／情況」是「nothing of the sort」的用法，與本句語境不同。",
-        "sort-mcq-14": "「表示某個描述大致成立但不是完全精確」是「sort of — approximately」的用法，與本句語境不同。",
-        "sort-mcq-18": "「與剛才提到的事物大致相似的東西」是「something of the sort」的用法，與本句語境不同。",
-        "sort-mcq-13": "「表示程度並不完全；有點／某程度上」是「sort of — somewhat」的用法，與本句語境不同。"
+        "sort-mcq-16": "本句的「of a sort」指「勉強可算某種類型，但並非典型或完全理想」。",
+        "sort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-16"
     },
@@ -1600,11 +1464,9 @@ export default {
       "masked": "It was a victory ____.",
       "options": [
         "sort-mcq-16",
-        "sort-mcq-15",
-        "sort-mcq-17",
-        "sort-mcq-14",
         "sort-mcq-18",
-        "sort-mcq-13"
+        "sort-mcq-24",
+        "sort-mcq-10"
       ],
       "explanation": "本句的「of a sort」指「勉強可算某種類型，但並非典型或完全理想」。",
       "sentenceIndex": 34,
@@ -1613,12 +1475,10 @@ export default {
         "of a sort"
       ],
       "optionReasons": {
-        "sort-mcq-16": "本句指「勉強可算某種類型，但並非典型或完全理想」。",
-        "sort-mcq-15": "「某種／大致可視為某類的東西」是「a sort of」的用法，與本句語境不同。",
-        "sort-mcq-17": "「完全不是剛才所說的那種事情／情況」是「nothing of the sort」的用法，與本句語境不同。",
-        "sort-mcq-14": "「表示某個描述大致成立但不是完全精確」是「sort of — approximately」的用法，與本句語境不同。",
-        "sort-mcq-18": "「與剛才提到的事物大致相似的東西」是「something of the sort」的用法，與本句語境不同。",
-        "sort-mcq-13": "「表示程度並不完全；有點／某程度上」是「sort of — somewhat」的用法，與本句語境不同。"
+        "sort-mcq-16": "本句的「of a sort」指「勉強可算某種類型，但並非典型或完全理想」。",
+        "sort-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-16"
     },
@@ -1630,11 +1490,9 @@ export default {
       "masked": "I said ____.",
       "options": [
         "sort-mcq-17",
-        "sort-mcq-16",
-        "sort-mcq-18",
-        "sort-mcq-15",
-        "sort-mcq-19",
-        "sort-mcq-14"
+        "sort-mcq-08",
+        "sort-mcq-05",
+        "sort-mcq-19"
       ],
       "explanation": "本句的「nothing of the sort」指「完全不是剛才所說的那種事情／情況」。",
       "sentenceIndex": 35,
@@ -1643,12 +1501,10 @@ export default {
         "nothing of the sort"
       ],
       "optionReasons": {
-        "sort-mcq-17": "本句指「完全不是剛才所說的那種事情／情況」。",
-        "sort-mcq-16": "「勉強可算某種類型，但並非典型或完全理想」是「of a sort」的用法，與本句語境不同。",
-        "sort-mcq-18": "「與剛才提到的事物大致相似的東西」是「something of the sort」的用法，與本句語境不同。",
-        "sort-mcq-15": "「某種／大致可視為某類的東西」是「a sort of」的用法，與本句語境不同。",
-        "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。",
-        "sort-mcq-14": "「表示某個描述大致成立但不是完全精確」是「sort of — approximately」的用法，與本句語境不同。"
+        "sort-mcq-17": "本句的「nothing of the sort」指「完全不是剛才所說的那種事情／情況」。",
+        "sort-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-17"
     },
@@ -1660,11 +1516,9 @@ export default {
       "masked": "He accused me of being angry, but I felt ____.",
       "options": [
         "sort-mcq-17",
-        "sort-mcq-16",
-        "sort-mcq-18",
-        "sort-mcq-15",
-        "sort-mcq-19",
-        "sort-mcq-14"
+        "sort-mcq-04",
+        "sort-pdf-001",
+        "sort-mcq-24"
       ],
       "explanation": "本句的「nothing of the sort」指「完全不是剛才所說的那種事情／情況」。",
       "sentenceIndex": 36,
@@ -1673,12 +1527,10 @@ export default {
         "nothing of the sort"
       ],
       "optionReasons": {
-        "sort-mcq-17": "本句指「完全不是剛才所說的那種事情／情況」。",
-        "sort-mcq-16": "「勉強可算某種類型，但並非典型或完全理想」是「of a sort」的用法，與本句語境不同。",
-        "sort-mcq-18": "「與剛才提到的事物大致相似的東西」是「something of the sort」的用法，與本句語境不同。",
-        "sort-mcq-15": "「某種／大致可視為某類的東西」是「a sort of」的用法，與本句語境不同。",
-        "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。",
-        "sort-mcq-14": "「表示某個描述大致成立但不是完全精確」是「sort of — approximately」的用法，與本句語境不同。"
+        "sort-mcq-17": "本句的「nothing of the sort」指「完全不是剛才所說的那種事情／情況」。",
+        "sort-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sort-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-17"
     },
@@ -1690,11 +1542,9 @@ export default {
       "masked": "We need a table or ____.",
       "options": [
         "sort-mcq-18",
-        "sort-mcq-17",
-        "sort-mcq-19",
-        "sort-mcq-16",
-        "sort-mcq-20",
-        "sort-mcq-15"
+        "sort-mcq-05",
+        "sort-mcq-24",
+        "sort-pdf-001"
       ],
       "explanation": "本句的「something of the sort」指「與剛才提到的事物大致相似的東西」。",
       "sentenceIndex": 37,
@@ -1703,12 +1553,10 @@ export default {
         "something of the sort"
       ],
       "optionReasons": {
-        "sort-mcq-18": "本句指「與剛才提到的事物大致相似的東西」。",
-        "sort-mcq-17": "「完全不是剛才所說的那種事情／情況」是「nothing of the sort」的用法，與本句語境不同。",
-        "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。",
-        "sort-mcq-16": "「勉強可算某種類型，但並非典型或完全理想」是「of a sort」的用法，與本句語境不同。",
-        "sort-mcq-20": "「某一種類型，但沒有指出確切種類」是「some sort of」的用法，與本句語境不同。",
-        "sort-mcq-15": "「某種／大致可視為某類的東西」是「a sort of」的用法，與本句語境不同。"
+        "sort-mcq-18": "本句的「something of the sort」指「與剛才提到的事物大致相似的東西」。",
+        "sort-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sort-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-18"
     },
@@ -1720,11 +1568,9 @@ export default {
       "masked": "I expected an apology or ____.",
       "options": [
         "sort-mcq-18",
-        "sort-mcq-17",
-        "sort-mcq-19",
+        "sort-mcq-21",
         "sort-mcq-16",
-        "sort-mcq-20",
-        "sort-mcq-15"
+        "sort-mcq-24"
       ],
       "explanation": "本句的「something of the sort」指「與剛才提到的事物大致相似的東西」。",
       "sentenceIndex": 38,
@@ -1733,12 +1579,10 @@ export default {
         "something of the sort"
       ],
       "optionReasons": {
-        "sort-mcq-18": "本句指「與剛才提到的事物大致相似的東西」。",
-        "sort-mcq-17": "「完全不是剛才所說的那種事情／情況」是「nothing of the sort」的用法，與本句語境不同。",
-        "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。",
-        "sort-mcq-16": "「勉強可算某種類型，但並非典型或完全理想」是「of a sort」的用法，與本句語境不同。",
-        "sort-mcq-20": "「某一種類型，但沒有指出確切種類」是「some sort of」的用法，與本句語境不同。",
-        "sort-mcq-15": "「某種／大致可視為某類的東西」是「a sort of」的用法，與本句語境不同。"
+        "sort-mcq-18": "本句的「something of the sort」指「與剛才提到的事物大致相似的東西」。",
+        "sort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-18"
     },
@@ -1750,11 +1594,9 @@ export default {
       "masked": "She enjoys gardening, cooking, and ____.",
       "options": [
         "sort-mcq-19",
-        "sort-mcq-18",
-        "sort-mcq-20",
-        "sort-mcq-17",
-        "sort-mcq-21",
-        "sort-mcq-16"
+        "sort-mcq-13",
+        "sort-pdf-001",
+        "sort-mcq-24"
       ],
       "explanation": "本句的「that sort of thing」指「與前述例子同類的其他事情；諸如此類」。",
       "sentenceIndex": 39,
@@ -1763,12 +1605,10 @@ export default {
         "that sort of thing"
       ],
       "optionReasons": {
-        "sort-mcq-19": "本句指「與前述例子同類的其他事情；諸如此類」。",
-        "sort-mcq-18": "「與剛才提到的事物大致相似的東西」是「something of the sort」的用法，與本句語境不同。",
-        "sort-mcq-20": "「某一種類型，但沒有指出確切種類」是「some sort of」的用法，與本句語境不同。",
-        "sort-mcq-17": "「完全不是剛才所說的那種事情／情況」是「nothing of the sort」的用法，與本句語境不同。",
-        "sort-mcq-21": "「問題、安排或工作已經處理妥當」是「sorted — informal」的用法，與本句語境不同。",
-        "sort-mcq-16": "「勉強可算某種類型，但並非典型或完全理想」是「of a sort」的用法，與本句語境不同。"
+        "sort-mcq-19": "本句的「that sort of thing」指「與前述例子同類的其他事情；諸如此類」。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sort-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-19"
     },
@@ -1781,10 +1621,8 @@ export default {
       "options": [
         "sort-mcq-19",
         "sort-mcq-18",
-        "sort-mcq-20",
-        "sort-mcq-17",
-        "sort-mcq-21",
-        "sort-mcq-16"
+        "sort-mcq-13",
+        "sort-mcq-24"
       ],
       "explanation": "本句的「that sort of thing」指「與前述例子同類的其他事情；諸如此類」。",
       "sentenceIndex": 40,
@@ -1793,12 +1631,10 @@ export default {
         "that sort of thing"
       ],
       "optionReasons": {
-        "sort-mcq-19": "本句指「與前述例子同類的其他事情；諸如此類」。",
-        "sort-mcq-18": "「與剛才提到的事物大致相似的東西」是「something of the sort」的用法，與本句語境不同。",
-        "sort-mcq-20": "「某一種類型，但沒有指出確切種類」是「some sort of」的用法，與本句語境不同。",
-        "sort-mcq-17": "「完全不是剛才所說的那種事情／情況」是「nothing of the sort」的用法，與本句語境不同。",
-        "sort-mcq-21": "「問題、安排或工作已經處理妥當」是「sorted — informal」的用法，與本句語境不同。",
-        "sort-mcq-16": "「勉強可算某種類型，但並非典型或完全理想」是「of a sort」的用法，與本句語境不同。"
+        "sort-mcq-19": "本句的「that sort of thing」指「與前述例子同類的其他事情；諸如此類」。",
+        "sort-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-19"
     },
@@ -1810,11 +1646,9 @@ export default {
       "masked": "There must be ____ mistake.",
       "options": [
         "sort-mcq-20",
-        "sort-mcq-19",
-        "sort-mcq-21",
-        "sort-mcq-18",
-        "sort-mcq-22",
-        "sort-mcq-17"
+        "sort-pdf-001",
+        "sort-mcq-13",
+        "sort-mcq-18"
       ],
       "explanation": "本句的「some sort of」指「某一種類型，但沒有指出確切種類」。",
       "sentenceIndex": 41,
@@ -1823,12 +1657,10 @@ export default {
         "some sort of"
       ],
       "optionReasons": {
-        "sort-mcq-20": "本句指「某一種類型，但沒有指出確切種類」。",
-        "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。",
-        "sort-mcq-21": "「問題、安排或工作已經處理妥當」是「sorted — informal」的用法，與本句語境不同。",
-        "sort-mcq-18": "「與剛才提到的事物大致相似的東西」是「something of the sort」的用法，與本句語境不同。",
-        "sort-mcq-22": "「按類別、特徵或次序整理東西的過程」是「sorting」的用法，與本句語境不同。",
-        "sort-mcq-17": "「完全不是剛才所說的那種事情／情況」是「nothing of the sort」的用法，與本句語境不同。"
+        "sort-mcq-20": "本句的「some sort of」指「某一種類型，但沒有指出確切種類」。",
+        "sort-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-20"
     },
@@ -1840,11 +1672,9 @@ export default {
       "masked": "We need ____ system.",
       "options": [
         "sort-mcq-20",
-        "sort-mcq-19",
-        "sort-mcq-21",
         "sort-mcq-18",
-        "sort-mcq-22",
-        "sort-mcq-17"
+        "sort-mcq-12",
+        "sort-mcq-11"
       ],
       "explanation": "本句的「some sort of」指「某一種類型，但沒有指出確切種類」。",
       "sentenceIndex": 42,
@@ -1853,12 +1683,10 @@ export default {
         "some sort of"
       ],
       "optionReasons": {
-        "sort-mcq-20": "本句指「某一種類型，但沒有指出確切種類」。",
-        "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。",
-        "sort-mcq-21": "「問題、安排或工作已經處理妥當」是「sorted — informal」的用法，與本句語境不同。",
-        "sort-mcq-18": "「與剛才提到的事物大致相似的東西」是「something of the sort」的用法，與本句語境不同。",
-        "sort-mcq-22": "「按類別、特徵或次序整理東西的過程」是「sorting」的用法，與本句語境不同。",
-        "sort-mcq-17": "「完全不是剛才所說的那種事情／情況」是「nothing of the sort」的用法，與本句語境不同。"
+        "sort-mcq-20": "本句的「some sort of」指「某一種類型，但沒有指出確切種類」。",
+        "sort-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-20"
     },
@@ -1870,11 +1698,9 @@ export default {
       "masked": "I need a few days to ____.",
       "options": [
         "sort-pdf-001",
+        "sort-mcq-06",
         "sort-mcq-20",
-        "sort-mcq-22",
-        "sort-mcq-19",
-        "sort-mcq-23",
-        "sort-mcq-18"
+        "sort-mcq-13"
       ],
       "explanation": "本句的「sort myself out」指「把自己的情緒、生活、問題或安排重新整理好」。",
       "sentenceIndex": 43,
@@ -1883,12 +1709,10 @@ export default {
         "sort myself out"
       ],
       "optionReasons": {
-        "sort-pdf-001": "本句指「把自己的情緒、生活、問題或安排重新整理好」。",
-        "sort-mcq-20": "「某一種類型，但沒有指出確切種類」是「some sort of」的用法，與本句語境不同。",
-        "sort-mcq-22": "「按類別、特徵或次序整理東西的過程」是「sorting」的用法，與本句語境不同。",
-        "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。",
-        "sort-mcq-23": "「負責將物品分類的人或設備」是「sorter」的用法，與本句語境不同。",
-        "sort-mcq-18": "「與剛才提到的事物大致相似的東西」是「something of the sort」的用法，與本句語境不同。"
+        "sort-pdf-001": "本句的「sort myself out」指「把自己的情緒、生活、問題或安排重新整理好」。",
+        "sort-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-pdf-001"
     },
@@ -1900,11 +1724,9 @@ export default {
       "masked": "He needs to ____ before making a decision.",
       "options": [
         "sort-pdf-001",
-        "sort-mcq-20",
-        "sort-mcq-22",
-        "sort-mcq-19",
-        "sort-mcq-23",
-        "sort-mcq-18"
+        "sort-mcq-09",
+        "sort-mcq-15",
+        "sort-mcq-02"
       ],
       "explanation": "本句的「sort himself out」指「把自己的情緒、生活、問題或安排重新整理好」。",
       "sentenceIndex": 44,
@@ -1913,12 +1735,10 @@ export default {
         "sort himself out"
       ],
       "optionReasons": {
-        "sort-pdf-001": "本句指「把自己的情緒、生活、問題或安排重新整理好」。",
-        "sort-mcq-20": "「某一種類型，但沒有指出確切種類」是「some sort of」的用法，與本句語境不同。",
-        "sort-mcq-22": "「按類別、特徵或次序整理東西的過程」是「sorting」的用法，與本句語境不同。",
-        "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。",
-        "sort-mcq-23": "「負責將物品分類的人或設備」是「sorter」的用法，與本句語境不同。",
-        "sort-mcq-18": "「與剛才提到的事物大致相似的東西」是「something of the sort」的用法，與本句語境不同。"
+        "sort-pdf-001": "本句的「sort himself out」指「把自己的情緒、生活、問題或安排重新整理好」。",
+        "sort-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-pdf-001"
     },
@@ -1930,11 +1750,9 @@ export default {
       "masked": "Everything is ____.",
       "options": [
         "sort-mcq-21",
-        "sort-mcq-20",
-        "sort-mcq-22",
-        "sort-mcq-19",
-        "sort-mcq-23",
-        "sort-mcq-18"
+        "sort-mcq-04",
+        "sort-mcq-17",
+        "sort-mcq-24"
       ],
       "explanation": "本句的「sorted」指「問題、安排或工作已經處理妥當」。",
       "sentenceIndex": 45,
@@ -1943,12 +1761,10 @@ export default {
         "sorted"
       ],
       "optionReasons": {
-        "sort-mcq-21": "本句指「問題、安排或工作已經處理妥當」。",
-        "sort-mcq-20": "「某一種類型，但沒有指出確切種類」是「some sort of」的用法，與本句語境不同。",
-        "sort-mcq-22": "「按類別、特徵或次序整理東西的過程」是「sorting」的用法，與本句語境不同。",
-        "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。",
-        "sort-mcq-23": "「負責將物品分類的人或設備」是「sorter」的用法，與本句語境不同。",
-        "sort-mcq-18": "「與剛才提到的事物大致相似的東西」是「something of the sort」的用法，與本句語境不同。"
+        "sort-mcq-21": "本句的「sorted」指「問題、安排或工作已經處理妥當」。",
+        "sort-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-21"
     },
@@ -1960,11 +1776,9 @@ export default {
       "masked": "Don’t worry—the booking is ____.",
       "options": [
         "sort-mcq-21",
-        "sort-mcq-20",
-        "sort-mcq-22",
-        "sort-mcq-19",
-        "sort-mcq-23",
-        "sort-mcq-18"
+        "sort-mcq-05",
+        "sort-mcq-07",
+        "sort-mcq-02"
       ],
       "explanation": "本句的「sorted」指「問題、安排或工作已經處理妥當」。",
       "sentenceIndex": 46,
@@ -1973,12 +1787,10 @@ export default {
         "sorted"
       ],
       "optionReasons": {
-        "sort-mcq-21": "本句指「問題、安排或工作已經處理妥當」。",
-        "sort-mcq-20": "「某一種類型，但沒有指出確切種類」是「some sort of」的用法，與本句語境不同。",
-        "sort-mcq-22": "「按類別、特徵或次序整理東西的過程」是「sorting」的用法，與本句語境不同。",
-        "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。",
-        "sort-mcq-23": "「負責將物品分類的人或設備」是「sorter」的用法，與本句語境不同。",
-        "sort-mcq-18": "「與剛才提到的事物大致相似的東西」是「something of the sort」的用法，與本句語境不同。"
+        "sort-mcq-21": "本句的「sorted」指「問題、安排或工作已經處理妥當」。",
+        "sort-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-21"
     },
@@ -1990,11 +1802,9 @@ export default {
       "masked": "The ____ of the files took several hours.",
       "options": [
         "sort-mcq-22",
-        "sort-mcq-21",
-        "sort-mcq-23",
-        "sort-mcq-20",
-        "sort-mcq-24",
-        "sort-mcq-19"
+        "sort-mcq-14",
+        "sort-mcq-02",
+        "sort-mcq-12"
       ],
       "explanation": "本句的「sorting」指「按類別、特徵或次序整理東西的過程」。",
       "sentenceIndex": 47,
@@ -2003,12 +1813,10 @@ export default {
         "sorting"
       ],
       "optionReasons": {
-        "sort-mcq-22": "本句指「按類別、特徵或次序整理東西的過程」。",
-        "sort-mcq-21": "「問題、安排或工作已經處理妥當」是「sorted — informal」的用法，與本句語境不同。",
-        "sort-mcq-23": "「負責將物品分類的人或設備」是「sorter」的用法，與本句語境不同。",
-        "sort-mcq-20": "「某一種類型，但沒有指出確切種類」是「some sort of」的用法，與本句語境不同。",
-        "sort-mcq-24": "「物流／倉儲中系統化或自動進行的分揀過程」是「sortation」的用法，與本句語境不同。",
-        "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。"
+        "sort-mcq-22": "本句的「sorting」指「按類別、特徵或次序整理東西的過程」。",
+        "sort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-22"
     },
@@ -2020,10 +1828,8 @@ export default {
       "masked": "Automated ____ saves time.",
       "options": [
         "sort-mcq-22",
-        "sort-mcq-21",
-        "sort-mcq-23",
-        "sort-mcq-20",
-        "sort-mcq-24",
+        "sort-mcq-14",
+        "sort-mcq-12",
         "sort-mcq-19"
       ],
       "explanation": "本句的「sorting」指「按類別、特徵或次序整理東西的過程」。",
@@ -2033,12 +1839,10 @@ export default {
         "sorting"
       ],
       "optionReasons": {
-        "sort-mcq-22": "本句指「按類別、特徵或次序整理東西的過程」。",
-        "sort-mcq-21": "「問題、安排或工作已經處理妥當」是「sorted — informal」的用法，與本句語境不同。",
-        "sort-mcq-23": "「負責將物品分類的人或設備」是「sorter」的用法，與本句語境不同。",
-        "sort-mcq-20": "「某一種類型，但沒有指出確切種類」是「some sort of」的用法，與本句語境不同。",
-        "sort-mcq-24": "「物流／倉儲中系統化或自動進行的分揀過程」是「sortation」的用法，與本句語境不同。",
-        "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。"
+        "sort-mcq-22": "本句的「sorting」指「按類別、特徵或次序整理東西的過程」。",
+        "sort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-22"
     },
@@ -2050,11 +1854,9 @@ export default {
       "masked": "The parcels pass through an automatic ____.",
       "options": [
         "sort-mcq-23",
-        "sort-mcq-22",
-        "sort-mcq-24",
-        "sort-mcq-21",
-        "sort-mcq-20",
-        "sort-mcq-19"
+        "sort-mcq-17",
+        "sort-mcq-12",
+        "sort-mcq-11"
       ],
       "explanation": "本句的「sorter」指「負責將物品分類的人或設備」。",
       "sentenceIndex": 49,
@@ -2063,12 +1865,10 @@ export default {
         "sorter"
       ],
       "optionReasons": {
-        "sort-mcq-23": "本句指「負責將物品分類的人或設備」。",
-        "sort-mcq-22": "「按類別、特徵或次序整理東西的過程」是「sorting」的用法，與本句語境不同。",
-        "sort-mcq-24": "「物流／倉儲中系統化或自動進行的分揀過程」是「sortation」的用法，與本句語境不同。",
-        "sort-mcq-21": "「問題、安排或工作已經處理妥當」是「sorted — informal」的用法，與本句語境不同。",
-        "sort-mcq-20": "「某一種類型，但沒有指出確切種類」是「some sort of」的用法，與本句語境不同。",
-        "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。"
+        "sort-mcq-23": "本句的「sorter」指「負責將物品分類的人或設備」。",
+        "sort-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-23"
     },
@@ -2080,11 +1880,9 @@ export default {
       "masked": "She worked as a mail ____.",
       "options": [
         "sort-mcq-23",
-        "sort-mcq-22",
-        "sort-mcq-24",
-        "sort-mcq-21",
-        "sort-mcq-20",
-        "sort-mcq-19"
+        "sort-mcq-18",
+        "sort-mcq-11",
+        "sort-mcq-13"
       ],
       "explanation": "本句的「sorter」指「負責將物品分類的人或設備」。",
       "sentenceIndex": 50,
@@ -2093,12 +1891,10 @@ export default {
         "sorter"
       ],
       "optionReasons": {
-        "sort-mcq-23": "本句指「負責將物品分類的人或設備」。",
-        "sort-mcq-22": "「按類別、特徵或次序整理東西的過程」是「sorting」的用法，與本句語境不同。",
-        "sort-mcq-24": "「物流／倉儲中系統化或自動進行的分揀過程」是「sortation」的用法，與本句語境不同。",
-        "sort-mcq-21": "「問題、安排或工作已經處理妥當」是「sorted — informal」的用法，與本句語境不同。",
-        "sort-mcq-20": "「某一種類型，但沒有指出確切種類」是「some sort of」的用法，與本句語境不同。",
-        "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。"
+        "sort-mcq-23": "本句的「sorter」指「負責將物品分類的人或設備」。",
+        "sort-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-23"
     },
@@ -2110,11 +1906,9 @@ export default {
       "masked": "The warehouse uses an automated ____ system.",
       "options": [
         "sort-mcq-24",
-        "sort-mcq-23",
-        "sort-mcq-22",
-        "sort-mcq-21",
-        "sort-mcq-20",
-        "sort-mcq-19"
+        "sort-mcq-14",
+        "sort-mcq-04",
+        "sort-mcq-12"
       ],
       "explanation": "本句的「sortation」指「物流／倉儲中系統化或自動進行的分揀過程」。",
       "sentenceIndex": 51,
@@ -2123,12 +1917,10 @@ export default {
         "sortation"
       ],
       "optionReasons": {
-        "sort-mcq-24": "本句指「物流／倉儲中系統化或自動進行的分揀過程」。",
-        "sort-mcq-23": "「負責將物品分類的人或設備」是「sorter」的用法，與本句語境不同。",
-        "sort-mcq-22": "「按類別、特徵或次序整理東西的過程」是「sorting」的用法，與本句語境不同。",
-        "sort-mcq-21": "「問題、安排或工作已經處理妥當」是「sorted — informal」的用法，與本句語境不同。",
-        "sort-mcq-20": "「某一種類型，但沒有指出確切種類」是「some sort of」的用法，與本句語境不同。",
-        "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。"
+        "sort-mcq-24": "本句的「sortation」指「物流／倉儲中系統化或自動進行的分揀過程」。",
+        "sort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-24"
     },
@@ -2140,11 +1932,9 @@ export default {
       "masked": "Parcel ____ happens overnight.",
       "options": [
         "sort-mcq-24",
-        "sort-mcq-23",
-        "sort-mcq-22",
+        "sort-mcq-15",
         "sort-mcq-21",
-        "sort-mcq-20",
-        "sort-mcq-19"
+        "sort-mcq-16"
       ],
       "explanation": "本句的「sortation」指「物流／倉儲中系統化或自動進行的分揀過程」。",
       "sentenceIndex": 52,
@@ -2153,12 +1943,10 @@ export default {
         "sortation"
       ],
       "optionReasons": {
-        "sort-mcq-24": "本句指「物流／倉儲中系統化或自動進行的分揀過程」。",
-        "sort-mcq-23": "「負責將物品分類的人或設備」是「sorter」的用法，與本句語境不同。",
-        "sort-mcq-22": "「按類別、特徵或次序整理東西的過程」是「sorting」的用法，與本句語境不同。",
-        "sort-mcq-21": "「問題、安排或工作已經處理妥當」是「sorted — informal」的用法，與本句語境不同。",
-        "sort-mcq-20": "「某一種類型，但沒有指出確切種類」是「some sort of」的用法，與本句語境不同。",
-        "sort-mcq-19": "「與前述例子同類的其他事情；諸如此類」是「that sort of thing」的用法，與本句語境不同。"
+        "sort-mcq-24": "本句的「sortation」指「物流／倉儲中系統化或自動進行的分揀過程」。",
+        "sort-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "sort-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sort-mcq-24"
     }
@@ -2170,5 +1958,7 @@ export default {
     "sha256": "9fe651643348be2fe43b0b7b0da88f211ccd6e865860049e306a6e5449cd08d6",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -1208,7 +1208,7 @@ export default {
     },
     {
       "id": "set-mcq-58",
-      "title": "表示盤；局",
+      "title": "盤；局",
       "form": "6. set — division of a tennis or volleyball match",
       "en": "6. set — division of a tennis or volleyball match",
       "zh": "表示盤；局",
@@ -1230,7 +1230,7 @@ export default {
     },
     {
       "id": "set-mcq-59",
-      "title": "表示直落盤數；連勝各盤",
+      "title": "直落盤數；連勝各盤",
       "form": "7. straight sets",
       "en": "7. straight sets",
       "zh": "表示直落盤數；連勝各盤",
@@ -1252,7 +1252,7 @@ export default {
     },
     {
       "id": "set-mcq-60",
-      "title": "表示位置；姿態；形狀",
+      "title": "位置；姿態；形狀",
       "form": "13. set — position or arrangement",
       "en": "13. set — position or arrangement",
       "zh": "表示位置；姿態；形狀",
@@ -1274,7 +1274,7 @@ export default {
     },
     {
       "id": "set-mcq-61",
-      "title": "表示佈置；準備",
+      "title": "佈置；準備",
       "form": "17. set a room / scene / stage",
       "en": "17. set a room / scene / stage",
       "zh": "表示佈置；準備",
@@ -1296,7 +1296,7 @@ export default {
     },
     {
       "id": "set-mcq-62",
-      "title": "表示引發；觸發",
+      "title": "引發；觸發",
       "form": "25. set off something",
       "en": "25. set off something",
       "zh": "表示引發；觸發",
@@ -1318,7 +1318,7 @@ export default {
     },
     {
       "id": "set-mcq-63",
-      "title": "表示日落；日落時間",
+      "title": "日落；日落時間",
       "form": "40. sunset",
       "en": "40. sunset",
       "zh": "表示日落；日落時間",
@@ -1348,11 +1348,9 @@ export default {
       "masked": "We had to complete a ____ at the end of the term.",
       "options": [
         "set-mcq-02",
-        "set-mcq-01",
-        "set-mcq-03",
-        "set-mcq-04",
-        "set-mcq-05",
-        "set-mcq-06"
+        "set-mcq-12",
+        "set-mcq-48",
+        "set-mcq-07"
       ],
       "explanation": "本句的「set of exams」指「一組／一系列考試、問題或指示」。",
       "sentenceIndex": 0,
@@ -1361,12 +1359,10 @@ export default {
         "set of exams"
       ],
       "optionReasons": {
-        "set-mcq-02": "本句指「一組／一系列考試、問題或指示」。",
-        "set-mcq-01": "「被視為同一單位、彼此相關或配套的一組／一套事物」是「set — related group」的用法，與本句語境不同。",
-        "set-mcq-03": "「設計上互相配合的一整套物品」是「matching set」的用法，與本句語境不同。",
-        "set-mcq-04": "「數學中由若干元素組成的集合」是「set — mathematics」的用法，與本句語境不同。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。",
-        "set-mcq-06": "「表演者連續演出的一組曲目／一段演出」是「set — music/performance」的用法，與本句語境不同。"
+        "set-mcq-02": "本句的「set of exams」指「一組／一系列考試、問題或指示」。",
+        "set-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-02"
     },
@@ -1378,11 +1374,9 @@ export default {
       "masked": "The teacher gave us a ____ to answer.",
       "options": [
         "set-mcq-02",
-        "set-mcq-01",
-        "set-mcq-03",
-        "set-mcq-04",
-        "set-mcq-05",
-        "set-mcq-06"
+        "set-mcq-39",
+        "set-mcq-07",
+        "set-mcq-63"
       ],
       "explanation": "本句的「set of questions」指「一組／一系列考試、問題或指示」。",
       "sentenceIndex": 1,
@@ -1391,12 +1385,10 @@ export default {
         "set of questions"
       ],
       "optionReasons": {
-        "set-mcq-02": "本句指「一組／一系列考試、問題或指示」。",
-        "set-mcq-01": "「被視為同一單位、彼此相關或配套的一組／一套事物」是「set — related group」的用法，與本句語境不同。",
-        "set-mcq-03": "「設計上互相配合的一整套物品」是「matching set」的用法，與本句語境不同。",
-        "set-mcq-04": "「數學中由若干元素組成的集合」是「set — mathematics」的用法，與本句語境不同。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。",
-        "set-mcq-06": "「表演者連續演出的一組曲目／一段演出」是「set — music/performance」的用法，與本句語境不同。"
+        "set-mcq-02": "本句的「set of questions」指「一組／一系列考試、問題或指示」。",
+        "set-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-02"
     },
@@ -1408,11 +1400,9 @@ export default {
       "masked": "She bought a ____.",
       "options": [
         "set-mcq-02",
-        "set-mcq-01",
+        "set-mcq-27",
         "set-mcq-03",
-        "set-mcq-04",
-        "set-mcq-05",
-        "set-mcq-06"
+        "set-mcq-30"
       ],
       "explanation": "本句的「set of knives」指「一組／一系列考試、問題或指示」。",
       "sentenceIndex": 2,
@@ -1421,12 +1411,10 @@ export default {
         "set of knives"
       ],
       "optionReasons": {
-        "set-mcq-02": "本句指「一組／一系列考試、問題或指示」。",
-        "set-mcq-01": "「被視為同一單位、彼此相關或配套的一組／一套事物」是「set — related group」的用法，與本句語境不同。",
-        "set-mcq-03": "「設計上互相配合的一整套物品」是「matching set」的用法，與本句語境不同。",
-        "set-mcq-04": "「數學中由若干元素組成的集合」是「set — mathematics」的用法，與本句語境不同。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。",
-        "set-mcq-06": "「表演者連續演出的一組曲目／一段演出」是「set — music/performance」的用法，與本句語境不同。"
+        "set-mcq-02": "本句的「set of knives」指「一組／一系列考試、問題或指示」。",
+        "set-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-02"
     },
@@ -1438,11 +1426,9 @@ export default {
       "masked": "The hotel provides a ____.",
       "options": [
         "set-mcq-02",
-        "set-mcq-01",
-        "set-mcq-03",
-        "set-mcq-04",
-        "set-mcq-05",
-        "set-mcq-06"
+        "set-mcq-44",
+        "set-mcq-10",
+        "set-mcq-61"
       ],
       "explanation": "本句的「set of clean towels」指「一組／一系列考試、問題或指示」。",
       "sentenceIndex": 3,
@@ -1451,12 +1437,10 @@ export default {
         "set of clean towels"
       ],
       "optionReasons": {
-        "set-mcq-02": "本句指「一組／一系列考試、問題或指示」。",
-        "set-mcq-01": "「被視為同一單位、彼此相關或配套的一組／一套事物」是「set — related group」的用法，與本句語境不同。",
-        "set-mcq-03": "「設計上互相配合的一整套物品」是「matching set」的用法，與本句語境不同。",
-        "set-mcq-04": "「數學中由若干元素組成的集合」是「set — mathematics」的用法，與本句語境不同。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。",
-        "set-mcq-06": "「表演者連續演出的一組曲目／一段演出」是「set — music/performance」的用法，與本句語境不同。"
+        "set-mcq-02": "本句的「set of clean towels」指「一組／一系列考試、問題或指示」。",
+        "set-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-02"
     },
@@ -1468,11 +1452,9 @@ export default {
       "masked": "We were given a ____.",
       "options": [
         "set-mcq-02",
-        "set-mcq-01",
-        "set-mcq-03",
-        "set-mcq-04",
-        "set-mcq-05",
-        "set-mcq-06"
+        "set-mcq-15",
+        "set-mcq-28",
+        "set-mcq-57"
       ],
       "explanation": "本句的「set of instructions」指「一組／一系列考試、問題或指示」。",
       "sentenceIndex": 4,
@@ -1481,12 +1463,10 @@ export default {
         "set of instructions"
       ],
       "optionReasons": {
-        "set-mcq-02": "本句指「一組／一系列考試、問題或指示」。",
-        "set-mcq-01": "「被視為同一單位、彼此相關或配套的一組／一套事物」是「set — related group」的用法，與本句語境不同。",
-        "set-mcq-03": "「設計上互相配合的一整套物品」是「matching set」的用法，與本句語境不同。",
-        "set-mcq-04": "「數學中由若干元素組成的集合」是「set — mathematics」的用法，與本句語境不同。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。",
-        "set-mcq-06": "「表演者連續演出的一組曲目／一段演出」是「set — music/performance」的用法，與本句語境不同。"
+        "set-mcq-02": "本句的「set of instructions」指「一組／一系列考試、問題或指示」。",
+        "set-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-02"
     },
@@ -1498,11 +1478,9 @@ export default {
       "masked": "The researchers analysed several ____.",
       "options": [
         "set-mcq-02",
-        "set-mcq-01",
-        "set-mcq-03",
-        "set-mcq-04",
-        "set-mcq-05",
-        "set-mcq-06"
+        "set-mcq-30",
+        "set-mcq-59",
+        "set-mcq-25"
       ],
       "explanation": "本句的「sets of data」指「一組／一系列考試、問題或指示」。",
       "sentenceIndex": 5,
@@ -1511,12 +1489,10 @@ export default {
         "sets of data"
       ],
       "optionReasons": {
-        "set-mcq-02": "本句指「一組／一系列考試、問題或指示」。",
-        "set-mcq-01": "「被視為同一單位、彼此相關或配套的一組／一套事物」是「set — related group」的用法，與本句語境不同。",
-        "set-mcq-03": "「設計上互相配合的一整套物品」是「matching set」的用法，與本句語境不同。",
-        "set-mcq-04": "「數學中由若干元素組成的集合」是「set — mathematics」的用法，與本句語境不同。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。",
-        "set-mcq-06": "「表演者連續演出的一組曲目／一段演出」是「set — music/performance」的用法，與本句語境不同。"
+        "set-mcq-02": "本句的「sets of data」指「一組／一系列考試、問題或指示」。",
+        "set-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-02"
     },
@@ -1528,11 +1504,9 @@ export default {
       "masked": "They bought a ____ of cups and plates.",
       "options": [
         "set-mcq-03",
-        "set-mcq-02",
-        "set-mcq-04",
-        "set-mcq-01",
-        "set-mcq-05",
-        "set-mcq-06"
+        "set-mcq-42",
+        "set-mcq-53",
+        "set-mcq-13"
       ],
       "explanation": "本句的「matching set」指「設計上互相配合的一整套物品」。",
       "sentenceIndex": 6,
@@ -1541,12 +1515,10 @@ export default {
         "matching set"
       ],
       "optionReasons": {
-        "set-mcq-03": "本句指「設計上互相配合的一整套物品」。",
-        "set-mcq-02": "「一組／一系列考試、問題或指示」是「set of exams/questions/instructions」的用法，與本句語境不同。",
-        "set-mcq-04": "「數學中由若干元素組成的集合」是「set — mathematics」的用法，與本句語境不同。",
-        "set-mcq-01": "「被視為同一單位、彼此相關或配套的一組／一套事物」是「set — related group」的用法，與本句語境不同。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。",
-        "set-mcq-06": "「表演者連續演出的一組曲目／一段演出」是「set — music/performance」的用法，與本句語境不同。"
+        "set-mcq-03": "本句的「matching set」指「設計上互相配合的一整套物品」。",
+        "set-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-03"
     },
@@ -1558,11 +1530,9 @@ export default {
       "masked": "The earrings and necklace form a ____.",
       "options": [
         "set-mcq-03",
-        "set-mcq-02",
-        "set-mcq-04",
-        "set-mcq-01",
-        "set-mcq-05",
-        "set-mcq-06"
+        "set-mcq-27",
+        "set-mcq-30",
+        "set-mcq-17"
       ],
       "explanation": "本句的「set」指「設計上互相配合的一整套物品」。",
       "sentenceIndex": 7,
@@ -1571,12 +1541,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-03": "本句指「設計上互相配合的一整套物品」。",
-        "set-mcq-02": "「一組／一系列考試、問題或指示」是「set of exams/questions/instructions」的用法，與本句語境不同。",
-        "set-mcq-04": "「數學中由若干元素組成的集合」是「set — mathematics」的用法，與本句語境不同。",
-        "set-mcq-01": "「被視為同一單位、彼此相關或配套的一組／一套事物」是「set — related group」的用法，與本句語境不同。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。",
-        "set-mcq-06": "「表演者連續演出的一組曲目／一段演出」是「set — music/performance」的用法，與本句語境不同。"
+        "set-mcq-03": "本句的「set」指「設計上互相配合的一整套物品」。",
+        "set-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-03"
     },
@@ -1588,11 +1556,9 @@ export default {
       "masked": "The numbers form a ____.",
       "options": [
         "set-mcq-04",
-        "set-mcq-03",
-        "set-mcq-05",
-        "set-mcq-02",
-        "set-mcq-06",
-        "set-mcq-01"
+        "set-mcq-63",
+        "set-mcq-51",
+        "set-mcq-45"
       ],
       "explanation": "本句的「set」指「數學中由若干元素組成的集合」。",
       "sentenceIndex": 8,
@@ -1601,12 +1567,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-04": "本句指「數學中由若干元素組成的集合」。",
-        "set-mcq-03": "「設計上互相配合的一整套物品」是「matching set」的用法，與本句語境不同。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。",
-        "set-mcq-02": "「一組／一系列考試、問題或指示」是「set of exams/questions/instructions」的用法，與本句語境不同。",
-        "set-mcq-06": "「表演者連續演出的一組曲目／一段演出」是「set — music/performance」的用法，與本句語境不同。",
-        "set-mcq-01": "「被視為同一單位、彼此相關或配套的一組／一套事物」是「set — related group」的用法，與本句語境不同。"
+        "set-mcq-04": "本句的「set」指「數學中由若干元素組成的集合」。",
+        "set-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-04"
     },
@@ -1618,11 +1582,9 @@ export default {
       "masked": "A ____ can contain numbers, symbols, or other objects.",
       "options": [
         "set-mcq-04",
-        "set-mcq-03",
-        "set-mcq-05",
-        "set-mcq-02",
-        "set-mcq-06",
-        "set-mcq-01"
+        "set-mcq-20",
+        "set-mcq-12",
+        "set-mcq-08"
       ],
       "explanation": "本句的「set」指「數學中由若干元素組成的集合」。",
       "sentenceIndex": 9,
@@ -1631,12 +1593,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-04": "本句指「數學中由若干元素組成的集合」。",
-        "set-mcq-03": "「設計上互相配合的一整套物品」是「matching set」的用法，與本句語境不同。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。",
-        "set-mcq-02": "「一組／一系列考試、問題或指示」是「set of exams/questions/instructions」的用法，與本句語境不同。",
-        "set-mcq-06": "「表演者連續演出的一組曲目／一段演出」是「set — music/performance」的用法，與本句語境不同。",
-        "set-mcq-01": "「被視為同一單位、彼此相關或配套的一組／一套事物」是「set — related group」的用法，與本句語境不同。"
+        "set-mcq-04": "本句的「set」指「數學中由若干元素組成的集合」。",
+        "set-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-04"
     },
@@ -1648,11 +1608,9 @@ export default {
       "masked": "She won the first ____ 6–3.",
       "options": [
         "set-mcq-58",
-        "set-mcq-57",
-        "set-mcq-59",
-        "set-mcq-56",
-        "set-mcq-60",
-        "set-mcq-55"
+        "set-mcq-04",
+        "set-mcq-46",
+        "set-mcq-12"
       ],
       "explanation": "本句的「set」指「表示盤；局」。",
       "sentenceIndex": 10,
@@ -1661,12 +1619,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-58": "本句指「表示盤；局」。",
-        "set-mcq-57": "「妨礙進展的挫折／阻礙」是「setback」的用法，與本句語境不同。",
-        "set-mcq-59": "「表示直落盤數；連勝各盤」是「7. straight sets」的用法，與本句語境不同。",
-        "set-mcq-56": "「設置、配置、安排或架構」是「setup」的用法，與本句語境不同。",
-        "set-mcq-60": "「表示位置；姿態；形狀」是「13. set — position or arrangement」的用法，與本句語境不同。",
-        "set-mcq-55": "「環境／故事背景／設備設定值／鑲嵌底座」是「setting」的用法，與本句語境不同。"
+        "set-mcq-58": "本句的「set」指「表示盤；局」。",
+        "set-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-58"
     },
@@ -1678,11 +1634,9 @@ export default {
       "masked": "The team lost the deciding ____.",
       "options": [
         "set-mcq-58",
-        "set-mcq-57",
-        "set-mcq-59",
-        "set-mcq-56",
-        "set-mcq-60",
-        "set-mcq-55"
+        "set-mcq-10",
+        "set-mcq-04",
+        "set-mcq-13"
       ],
       "explanation": "本句的「set」指「表示盤；局」。",
       "sentenceIndex": 11,
@@ -1691,12 +1645,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-58": "本句指「表示盤；局」。",
-        "set-mcq-57": "「妨礙進展的挫折／阻礙」是「setback」的用法，與本句語境不同。",
-        "set-mcq-59": "「表示直落盤數；連勝各盤」是「7. straight sets」的用法，與本句語境不同。",
-        "set-mcq-56": "「設置、配置、安排或架構」是「setup」的用法，與本句語境不同。",
-        "set-mcq-60": "「表示位置；姿態；形狀」是「13. set — position or arrangement」的用法，與本句語境不同。",
-        "set-mcq-55": "「環境／故事背景／設備設定值／鑲嵌底座」是「setting」的用法，與本句語境不同。"
+        "set-mcq-58": "本句的「set」指「表示盤；局」。",
+        "set-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-58"
     },
@@ -1708,11 +1660,9 @@ export default {
       "masked": "He won in ____.",
       "options": [
         "set-mcq-59",
-        "set-mcq-58",
-        "set-mcq-60",
-        "set-mcq-57",
-        "set-mcq-61",
-        "set-mcq-56"
+        "set-mcq-07",
+        "set-mcq-53",
+        "set-mcq-11"
       ],
       "explanation": "本句的「straight sets」指「表示直落盤數；連勝各盤」。",
       "sentenceIndex": 12,
@@ -1721,12 +1671,10 @@ export default {
         "straight sets"
       ],
       "optionReasons": {
-        "set-mcq-59": "本句指「表示直落盤數；連勝各盤」。",
-        "set-mcq-58": "「表示盤；局」是「6. set — division of a tennis or volleyball match」的用法，與本句語境不同。",
-        "set-mcq-60": "「表示位置；姿態；形狀」是「13. set — position or arrangement」的用法，與本句語境不同。",
-        "set-mcq-57": "「妨礙進展的挫折／阻礙」是「setback」的用法，與本句語境不同。",
-        "set-mcq-61": "「表示佈置；準備」是「17. set a room / scene / stage」的用法，與本句語境不同。",
-        "set-mcq-56": "「設置、配置、安排或架構」是「setup」的用法，與本句語境不同。"
+        "set-mcq-59": "本句的「straight sets」指「表示直落盤數；連勝各盤」。",
+        "set-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-59"
     },
@@ -1738,11 +1686,9 @@ export default {
       "masked": "She lost the match in ____.",
       "options": [
         "set-mcq-59",
-        "set-mcq-58",
-        "set-mcq-60",
-        "set-mcq-57",
-        "set-mcq-61",
-        "set-mcq-56"
+        "set-mcq-42",
+        "set-mcq-52",
+        "set-mcq-26"
       ],
       "explanation": "本句的「straight sets」指「表示直落盤數；連勝各盤」。",
       "sentenceIndex": 13,
@@ -1751,12 +1697,10 @@ export default {
         "straight sets"
       ],
       "optionReasons": {
-        "set-mcq-59": "本句指「表示直落盤數；連勝各盤」。",
-        "set-mcq-58": "「表示盤；局」是「6. set — division of a tennis or volleyball match」的用法，與本句語境不同。",
-        "set-mcq-60": "「表示位置；姿態；形狀」是「13. set — position or arrangement」的用法，與本句語境不同。",
-        "set-mcq-57": "「妨礙進展的挫折／阻礙」是「setback」的用法，與本句語境不同。",
-        "set-mcq-61": "「表示佈置；準備」是「17. set a room / scene / stage」的用法，與本句語境不同。",
-        "set-mcq-56": "「設置、配置、安排或架構」是「setup」的用法，與本句語境不同。"
+        "set-mcq-59": "本句的「straight sets」指「表示直落盤數；連勝各盤」。",
+        "set-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-59"
     },
@@ -1768,11 +1712,9 @@ export default {
       "masked": "The band played a forty-minute ____.",
       "options": [
         "set-mcq-06",
-        "set-mcq-05",
-        "set-mcq-07",
-        "set-mcq-04",
-        "set-mcq-08",
-        "set-mcq-03"
+        "set-mcq-57",
+        "set-mcq-62",
+        "set-mcq-11"
       ],
       "explanation": "本句的「set」指「表演者連續演出的一組曲目／一段演出」。",
       "sentenceIndex": 14,
@@ -1781,12 +1723,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-06": "本句指「表演者連續演出的一組曲目／一段演出」。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。",
-        "set-mcq-07": "「電影、電視或舞台演出的佈景／拍攝場景」是「set — film/theatre」的用法，與本句語境不同。",
-        "set-mcq-04": "「數學中由若干元素組成的集合」是「set — mathematics」的用法，與本句語境不同。",
-        "set-mcq-08": "「在電影、電視等拍攝現場」是「on set」的用法，與本句語境不同。",
-        "set-mcq-03": "「設計上互相配合的一整套物品」是「matching set」的用法，與本句語境不同。"
+        "set-mcq-06": "本句的「set」指「表演者連續演出的一組曲目／一段演出」。",
+        "set-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-06"
     },
@@ -1798,10 +1738,8 @@ export default {
       "masked": "Their second ____ was much more energetic.",
       "options": [
         "set-mcq-06",
-        "set-mcq-05",
-        "set-mcq-07",
-        "set-mcq-04",
-        "set-mcq-08",
+        "set-mcq-25",
+        "set-mcq-51",
         "set-mcq-03"
       ],
       "explanation": "本句的「set」指「表演者連續演出的一組曲目／一段演出」。",
@@ -1811,12 +1749,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-06": "本句指「表演者連續演出的一組曲目／一段演出」。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。",
-        "set-mcq-07": "「電影、電視或舞台演出的佈景／拍攝場景」是「set — film/theatre」的用法，與本句語境不同。",
-        "set-mcq-04": "「數學中由若干元素組成的集合」是「set — mathematics」的用法，與本句語境不同。",
-        "set-mcq-08": "「在電影、電視等拍攝現場」是「on set」的用法，與本句語境不同。",
-        "set-mcq-03": "「設計上互相配合的一整套物品」是「matching set」的用法，與本句語境不同。"
+        "set-mcq-06": "本句的「set」指「表演者連續演出的一組曲目／一段演出」。",
+        "set-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-06"
     },
@@ -1828,11 +1764,9 @@ export default {
       "masked": "The festival ended with a live ____.",
       "options": [
         "set-mcq-06",
-        "set-mcq-05",
-        "set-mcq-07",
-        "set-mcq-04",
-        "set-mcq-08",
-        "set-mcq-03"
+        "set-mcq-57",
+        "set-mcq-42",
+        "set-mcq-29"
       ],
       "explanation": "本句的「DJ set」指「表演者連續演出的一組曲目／一段演出」。",
       "sentenceIndex": 16,
@@ -1841,12 +1775,10 @@ export default {
         "DJ set"
       ],
       "optionReasons": {
-        "set-mcq-06": "本句指「表演者連續演出的一組曲目／一段演出」。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。",
-        "set-mcq-07": "「電影、電視或舞台演出的佈景／拍攝場景」是「set — film/theatre」的用法，與本句語境不同。",
-        "set-mcq-04": "「數學中由若干元素組成的集合」是「set — mathematics」的用法，與本句語境不同。",
-        "set-mcq-08": "「在電影、電視等拍攝現場」是「on set」的用法，與本句語境不同。",
-        "set-mcq-03": "「設計上互相配合的一整套物品」是「matching set」的用法，與本句語境不同。"
+        "set-mcq-06": "本句的「DJ set」指「表演者連續演出的一組曲目／一段演出」。",
+        "set-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-06"
     },
@@ -1858,11 +1790,9 @@ export default {
       "masked": "Her ____ lasted two hours.",
       "options": [
         "set-mcq-06",
-        "set-mcq-05",
-        "set-mcq-07",
-        "set-mcq-04",
-        "set-mcq-08",
-        "set-mcq-03"
+        "set-mcq-43",
+        "set-mcq-46",
+        "set-mcq-10"
       ],
       "explanation": "本句的「set」指「表演者連續演出的一組曲目／一段演出」。",
       "sentenceIndex": 17,
@@ -1871,12 +1801,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-06": "本句指「表演者連續演出的一組曲目／一段演出」。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。",
-        "set-mcq-07": "「電影、電視或舞台演出的佈景／拍攝場景」是「set — film/theatre」的用法，與本句語境不同。",
-        "set-mcq-04": "「數學中由若干元素組成的集合」是「set — mathematics」的用法，與本句語境不同。",
-        "set-mcq-08": "「在電影、電視等拍攝現場」是「on set」的用法，與本句語境不同。",
-        "set-mcq-03": "「設計上互相配合的一整套物品」是「matching set」的用法，與本句語境不同。"
+        "set-mcq-06": "本句的「set」指「表演者連續演出的一組曲目／一段演出」。",
+        "set-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-06"
     },
@@ -1888,11 +1816,9 @@ export default {
       "masked": "The scene was filmed on a studio ____.",
       "options": [
         "set-mcq-07",
-        "set-mcq-06",
-        "set-mcq-08",
-        "set-mcq-05",
-        "set-mcq-09",
-        "set-mcq-04"
+        "set-mcq-51",
+        "set-mcq-13",
+        "set-mcq-60"
       ],
       "explanation": "本句的「set」指「電影、電視或舞台演出的佈景／拍攝場景」。",
       "sentenceIndex": 18,
@@ -1901,12 +1827,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-07": "本句指「電影、電視或舞台演出的佈景／拍攝場景」。",
-        "set-mcq-06": "「表演者連續演出的一組曲目／一段演出」是「set — music/performance」的用法，與本句語境不同。",
-        "set-mcq-08": "「在電影、電視等拍攝現場」是「on set」的用法，與本句語境不同。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。",
-        "set-mcq-09": "「具有相似生活方式、背景或興趣的一群人／圈子」是「set — social group」的用法，與本句語境不同。",
-        "set-mcq-04": "「數學中由若干元素組成的集合」是「set — mathematics」的用法，與本句語境不同。"
+        "set-mcq-07": "本句的「set」指「電影、電視或舞台演出的佈景／拍攝場景」。",
+        "set-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-07"
     },
@@ -1918,11 +1842,9 @@ export default {
       "masked": "The castle ____ took months to build.",
       "options": [
         "set-mcq-07",
-        "set-mcq-06",
-        "set-mcq-08",
-        "set-mcq-05",
-        "set-mcq-09",
-        "set-mcq-04"
+        "set-mcq-54",
+        "set-mcq-15",
+        "set-mcq-16"
       ],
       "explanation": "本句的「set」指「電影、電視或舞台演出的佈景／拍攝場景」。",
       "sentenceIndex": 19,
@@ -1931,12 +1853,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-07": "本句指「電影、電視或舞台演出的佈景／拍攝場景」。",
-        "set-mcq-06": "「表演者連續演出的一組曲目／一段演出」是「set — music/performance」的用法，與本句語境不同。",
-        "set-mcq-08": "「在電影、電視等拍攝現場」是「on set」的用法，與本句語境不同。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。",
-        "set-mcq-09": "「具有相似生活方式、背景或興趣的一群人／圈子」是「set — social group」的用法，與本句語境不同。",
-        "set-mcq-04": "「數學中由若干元素組成的集合」是「set — mathematics」的用法，與本句語境不同。"
+        "set-mcq-07": "本句的「set」指「電影、電視或舞台演出的佈景／拍攝場景」。",
+        "set-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-07"
     },
@@ -1948,11 +1868,9 @@ export default {
       "masked": "Actors must arrive ____ early.",
       "options": [
         "set-mcq-08",
-        "set-mcq-07",
-        "set-mcq-09",
-        "set-mcq-06",
-        "set-mcq-10",
-        "set-mcq-05"
+        "set-mcq-62",
+        "set-mcq-47",
+        "set-mcq-06"
       ],
       "explanation": "本句的「on set」指「在電影、電視等拍攝現場」。",
       "sentenceIndex": 20,
@@ -1961,12 +1879,10 @@ export default {
         "on set"
       ],
       "optionReasons": {
-        "set-mcq-08": "本句指「在電影、電視等拍攝現場」。",
-        "set-mcq-07": "「電影、電視或舞台演出的佈景／拍攝場景」是「set — film/theatre」的用法，與本句語境不同。",
-        "set-mcq-09": "「具有相似生活方式、背景或興趣的一群人／圈子」是「set — social group」的用法，與本句語境不同。",
-        "set-mcq-06": "「表演者連續演出的一組曲目／一段演出」是「set — music/performance」的用法，與本句語境不同。",
-        "set-mcq-10": "「有意地把某物放在特定位置」是「set — put/place」的用法，與本句語境不同。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。"
+        "set-mcq-08": "本句的「on set」指「在電影、電視等拍攝現場」。",
+        "set-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-08"
     },
@@ -1978,11 +1894,9 @@ export default {
       "masked": "No visitors were allowed ____.",
       "options": [
         "set-mcq-08",
-        "set-mcq-07",
-        "set-mcq-09",
-        "set-mcq-06",
-        "set-mcq-10",
-        "set-mcq-05"
+        "set-mcq-30",
+        "set-mcq-59",
+        "set-mcq-61"
       ],
       "explanation": "本句的「on set」指「在電影、電視等拍攝現場」。",
       "sentenceIndex": 21,
@@ -1991,12 +1905,10 @@ export default {
         "on set"
       ],
       "optionReasons": {
-        "set-mcq-08": "本句指「在電影、電視等拍攝現場」。",
-        "set-mcq-07": "「電影、電視或舞台演出的佈景／拍攝場景」是「set — film/theatre」的用法，與本句語境不同。",
-        "set-mcq-09": "「具有相似生活方式、背景或興趣的一群人／圈子」是「set — social group」的用法，與本句語境不同。",
-        "set-mcq-06": "「表演者連續演出的一組曲目／一段演出」是「set — music/performance」的用法，與本句語境不同。",
-        "set-mcq-10": "「有意地把某物放在特定位置」是「set — put/place」的用法，與本句語境不同。",
-        "set-mcq-05": "「網球、排球等比賽中的一盤／一局」是「set — sport」的用法，與本句語境不同。"
+        "set-mcq-08": "本句的「on set」指「在電影、電視等拍攝現場」。",
+        "set-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-08"
     },
@@ -2008,11 +1920,9 @@ export default {
       "masked": "She mixed with the artistic ____.",
       "options": [
         "set-mcq-09",
-        "set-mcq-08",
+        "set-mcq-12",
         "set-mcq-10",
-        "set-mcq-07",
-        "set-mcq-11",
-        "set-mcq-06"
+        "set-mcq-47"
       ],
       "explanation": "本句的「set」指「具有相似生活方式、背景或興趣的一群人／圈子」。",
       "sentenceIndex": 22,
@@ -2021,12 +1931,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-09": "本句指「具有相似生活方式、背景或興趣的一群人／圈子」。",
-        "set-mcq-08": "「在電影、電視等拍攝現場」是「on set」的用法，與本句語境不同。",
-        "set-mcq-10": "「有意地把某物放在特定位置」是「set — put/place」的用法，與本句語境不同。",
-        "set-mcq-07": "「電影、電視或舞台演出的佈景／拍攝場景」是「set — film/theatre」的用法，與本句語境不同。",
-        "set-mcq-11": "「擺放用餐所需餐具」是「set the table」的用法，與本句語境不同。",
-        "set-mcq-06": "「表演者連續演出的一組曲目／一段演出」是「set — music/performance」的用法，與本句語境不同。"
+        "set-mcq-09": "本句的「set」指「具有相似生活方式、背景或興趣的一群人／圈子」。",
+        "set-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-09"
     },
@@ -2038,11 +1946,9 @@ export default {
       "masked": "He became popular with the fashionable ____.",
       "options": [
         "set-mcq-09",
-        "set-mcq-08",
-        "set-mcq-10",
-        "set-mcq-07",
-        "set-mcq-11",
-        "set-mcq-06"
+        "set-mcq-17",
+        "set-mcq-03",
+        "set-mcq-54"
       ],
       "explanation": "本句的「set」指「具有相似生活方式、背景或興趣的一群人／圈子」。",
       "sentenceIndex": 23,
@@ -2051,12 +1957,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-09": "本句指「具有相似生活方式、背景或興趣的一群人／圈子」。",
-        "set-mcq-08": "「在電影、電視等拍攝現場」是「on set」的用法，與本句語境不同。",
-        "set-mcq-10": "「有意地把某物放在特定位置」是「set — put/place」的用法，與本句語境不同。",
-        "set-mcq-07": "「電影、電視或舞台演出的佈景／拍攝場景」是「set — film/theatre」的用法，與本句語境不同。",
-        "set-mcq-11": "「擺放用餐所需餐具」是「set the table」的用法，與本句語境不同。",
-        "set-mcq-06": "「表演者連續演出的一組曲目／一段演出」是「set — music/performance」的用法，與本句語境不同。"
+        "set-mcq-09": "本句的「set」指「具有相似生活方式、背景或興趣的一群人／圈子」。",
+        "set-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-09"
     },
@@ -2068,11 +1972,9 @@ export default {
       "masked": "The ____ made him look determined.",
       "options": [
         "set-mcq-60",
-        "set-mcq-59",
-        "set-mcq-61",
-        "set-mcq-58",
-        "set-mcq-62",
-        "set-mcq-57"
+        "set-mcq-30",
+        "set-mcq-31",
+        "set-mcq-17"
       ],
       "explanation": "本句的「set of his jaw」指「表示位置；姿態；形狀」。",
       "sentenceIndex": 24,
@@ -2081,12 +1983,10 @@ export default {
         "set of his jaw"
       ],
       "optionReasons": {
-        "set-mcq-60": "本句指「表示位置；姿態；形狀」。",
-        "set-mcq-59": "「表示直落盤數；連勝各盤」是「7. straight sets」的用法，與本句語境不同。",
-        "set-mcq-61": "「表示佈置；準備」是「17. set a room / scene / stage」的用法，與本句語境不同。",
-        "set-mcq-58": "「表示盤；局」是「6. set — division of a tennis or volleyball match」的用法，與本句語境不同。",
-        "set-mcq-62": "「表示引發；觸發」是「25. set off something」的用法，與本句語境不同。",
-        "set-mcq-57": "「妨礙進展的挫折／阻礙」是「setback」的用法，與本句語境不同。"
+        "set-mcq-60": "本句的「set of his jaw」指「表示位置；姿態；形狀」。",
+        "set-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-60"
     },
@@ -2098,11 +1998,9 @@ export default {
       "masked": "The coat had a neat ____ across the shoulders.",
       "options": [
         "set-mcq-60",
-        "set-mcq-59",
-        "set-mcq-61",
-        "set-mcq-58",
-        "set-mcq-62",
-        "set-mcq-57"
+        "set-mcq-26",
+        "set-mcq-54",
+        "set-mcq-62"
       ],
       "explanation": "本句的「set」指「表示位置；姿態；形狀」。",
       "sentenceIndex": 25,
@@ -2111,12 +2009,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-60": "本句指「表示位置；姿態；形狀」。",
-        "set-mcq-59": "「表示直落盤數；連勝各盤」是「7. straight sets」的用法，與本句語境不同。",
-        "set-mcq-61": "「表示佈置；準備」是「17. set a room / scene / stage」的用法，與本句語境不同。",
-        "set-mcq-58": "「表示盤；局」是「6. set — division of a tennis or volleyball match」的用法，與本句語境不同。",
-        "set-mcq-62": "「表示引發；觸發」是「25. set off something」的用法，與本句語境不同。",
-        "set-mcq-57": "「妨礙進展的挫折／阻礙」是「setback」的用法，與本句語境不同。"
+        "set-mcq-60": "本句的「set」指「表示位置；姿態；形狀」。",
+        "set-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-60"
     },
@@ -2128,11 +2024,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "set-mcq-10",
-        "set-mcq-09",
-        "set-mcq-11",
-        "set-mcq-08",
-        "set-mcq-12",
-        "set-mcq-07"
+        "set-mcq-62",
+        "set-mcq-59",
+        "set-mcq-63"
       ],
       "explanation": "本句的「set the cup on the table」指「有意地把某物放在特定位置」。",
       "sentenceIndex": 26,
@@ -2141,12 +2035,10 @@ export default {
         "set the cup on the table"
       ],
       "optionReasons": {
-        "set-mcq-10": "本句指「有意地把某物放在特定位置」。",
-        "set-mcq-09": "「具有相似生活方式、背景或興趣的一群人／圈子」是「set — social group」的用法，與本句語境不同。",
-        "set-mcq-11": "「擺放用餐所需餐具」是「set the table」的用法，與本句語境不同。",
-        "set-mcq-08": "「在電影、電視等拍攝現場」是「on set」的用法，與本句語境不同。",
-        "set-mcq-12": "「訂定、確定日期、價格、規則、限制等」是「set — fix/determine」的用法，與本句語境不同。",
-        "set-mcq-07": "「電影、電視或舞台演出的佈景／拍攝場景」是「set — film/theatre」的用法，與本句語境不同。"
+        "set-mcq-10": "本句的「set the cup on the table」指「有意地把某物放在特定位置」。",
+        "set-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-10"
     },
@@ -2158,11 +2050,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "set-mcq-10",
-        "set-mcq-09",
-        "set-mcq-11",
-        "set-mcq-08",
-        "set-mcq-12",
-        "set-mcq-07"
+        "set-mcq-63",
+        "set-mcq-48",
+        "set-mcq-27"
       ],
       "explanation": "本句的「set the box beside the door」指「有意地把某物放在特定位置」。",
       "sentenceIndex": 27,
@@ -2171,12 +2061,10 @@ export default {
         "set the box beside the door"
       ],
       "optionReasons": {
-        "set-mcq-10": "本句指「有意地把某物放在特定位置」。",
-        "set-mcq-09": "「具有相似生活方式、背景或興趣的一群人／圈子」是「set — social group」的用法，與本句語境不同。",
-        "set-mcq-11": "「擺放用餐所需餐具」是「set the table」的用法，與本句語境不同。",
-        "set-mcq-08": "「在電影、電視等拍攝現場」是「on set」的用法，與本句語境不同。",
-        "set-mcq-12": "「訂定、確定日期、價格、規則、限制等」是「set — fix/determine」的用法，與本句語境不同。",
-        "set-mcq-07": "「電影、電視或舞台演出的佈景／拍攝場景」是「set — film/theatre」的用法，與本句語境不同。"
+        "set-mcq-10": "本句的「set the box beside the door」指「有意地把某物放在特定位置」。",
+        "set-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-10"
     },
@@ -2188,11 +2076,9 @@ export default {
       "masked": "She ____ carefully.",
       "options": [
         "set-mcq-10",
-        "set-mcq-09",
-        "set-mcq-11",
-        "set-mcq-08",
-        "set-mcq-12",
-        "set-mcq-07"
+        "set-mcq-48",
+        "set-mcq-42",
+        "set-mcq-59"
       ],
       "explanation": "本句的「set the pen down」指「有意地把某物放在特定位置」。",
       "sentenceIndex": 28,
@@ -2201,12 +2087,10 @@ export default {
         "set the pen down"
       ],
       "optionReasons": {
-        "set-mcq-10": "本句指「有意地把某物放在特定位置」。",
-        "set-mcq-09": "「具有相似生活方式、背景或興趣的一群人／圈子」是「set — social group」的用法，與本句語境不同。",
-        "set-mcq-11": "「擺放用餐所需餐具」是「set the table」的用法，與本句語境不同。",
-        "set-mcq-08": "「在電影、電視等拍攝現場」是「on set」的用法，與本句語境不同。",
-        "set-mcq-12": "「訂定、確定日期、價格、規則、限制等」是「set — fix/determine」的用法，與本句語境不同。",
-        "set-mcq-07": "「電影、電視或舞台演出的佈景／拍攝場景」是「set — film/theatre」的用法，與本句語境不同。"
+        "set-mcq-10": "本句的「set the pen down」指「有意地把某物放在特定位置」。",
+        "set-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-10"
     },
@@ -2218,11 +2102,9 @@ export default {
       "masked": "He ____ by the chair.",
       "options": [
         "set-mcq-10",
+        "set-mcq-13",
         "set-mcq-09",
-        "set-mcq-11",
-        "set-mcq-08",
-        "set-mcq-12",
-        "set-mcq-07"
+        "set-mcq-59"
       ],
       "explanation": "本句的「set the bag down」指「有意地把某物放在特定位置」。",
       "sentenceIndex": 29,
@@ -2231,12 +2113,10 @@ export default {
         "set the bag down"
       ],
       "optionReasons": {
-        "set-mcq-10": "本句指「有意地把某物放在特定位置」。",
-        "set-mcq-09": "「具有相似生活方式、背景或興趣的一群人／圈子」是「set — social group」的用法，與本句語境不同。",
-        "set-mcq-11": "「擺放用餐所需餐具」是「set the table」的用法，與本句語境不同。",
-        "set-mcq-08": "「在電影、電視等拍攝現場」是「on set」的用法，與本句語境不同。",
-        "set-mcq-12": "「訂定、確定日期、價格、規則、限制等」是「set — fix/determine」的用法，與本句語境不同。",
-        "set-mcq-07": "「電影、電視或舞台演出的佈景／拍攝場景」是「set — film/theatre」的用法，與本句語境不同。"
+        "set-mcq-10": "本句的「set the bag down」指「有意地把某物放在特定位置」。",
+        "set-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-10"
     },
@@ -2248,11 +2128,9 @@ export default {
       "masked": "Could you ____?",
       "options": [
         "set-mcq-11",
-        "set-mcq-10",
-        "set-mcq-12",
-        "set-mcq-09",
-        "set-mcq-13",
-        "set-mcq-08"
+        "set-mcq-52",
+        "set-mcq-50",
+        "set-mcq-44"
       ],
       "explanation": "本句的「set the table」指「擺放用餐所需餐具」。",
       "sentenceIndex": 30,
@@ -2261,12 +2139,10 @@ export default {
         "set the table"
       ],
       "optionReasons": {
-        "set-mcq-11": "本句指「擺放用餐所需餐具」。",
-        "set-mcq-10": "「有意地把某物放在特定位置」是「set — put/place」的用法，與本句語境不同。",
-        "set-mcq-12": "「訂定、確定日期、價格、規則、限制等」是「set — fix/determine」的用法，與本句語境不同。",
-        "set-mcq-09": "「具有相似生活方式、背景或興趣的一群人／圈子」是「set — social group」的用法，與本句語境不同。",
-        "set-mcq-13": "「訂下日期／時間」是「set a date/time」的用法，與本句語境不同。",
-        "set-mcq-08": "「在電影、電視等拍攝現場」是「on set」的用法，與本句語境不同。"
+        "set-mcq-11": "本句的「set the table」指「擺放用餐所需餐具」。",
+        "set-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-11"
     },
@@ -2278,11 +2154,9 @@ export default {
       "masked": "The table was already ____ for dinner.",
       "options": [
         "set-mcq-11",
-        "set-mcq-10",
-        "set-mcq-12",
-        "set-mcq-09",
-        "set-mcq-13",
-        "set-mcq-08"
+        "set-mcq-46",
+        "set-mcq-04",
+        "set-mcq-22"
       ],
       "explanation": "本句的「set」指「擺放用餐所需餐具」。",
       "sentenceIndex": 31,
@@ -2291,12 +2165,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-11": "本句指「擺放用餐所需餐具」。",
-        "set-mcq-10": "「有意地把某物放在特定位置」是「set — put/place」的用法，與本句語境不同。",
-        "set-mcq-12": "「訂定、確定日期、價格、規則、限制等」是「set — fix/determine」的用法，與本句語境不同。",
-        "set-mcq-09": "「具有相似生活方式、背景或興趣的一群人／圈子」是「set — social group」的用法，與本句語境不同。",
-        "set-mcq-13": "「訂下日期／時間」是「set a date/time」的用法，與本句語境不同。",
-        "set-mcq-08": "「在電影、電視等拍攝現場」是「on set」的用法，與本句語境不同。"
+        "set-mcq-11": "本句的「set」指「擺放用餐所需餐具」。",
+        "set-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-11"
     },
@@ -2308,11 +2180,9 @@ export default {
       "masked": "They ____ for the meeting.",
       "options": [
         "set-mcq-61",
-        "set-mcq-60",
-        "set-mcq-62",
-        "set-mcq-59",
-        "set-mcq-63",
-        "set-mcq-58"
+        "set-mcq-30",
+        "set-mcq-12",
+        "set-mcq-08"
       ],
       "explanation": "本句的「set the room」指「表示佈置；準備」。",
       "sentenceIndex": 32,
@@ -2321,12 +2191,10 @@ export default {
         "set the room"
       ],
       "optionReasons": {
-        "set-mcq-61": "本句指「表示佈置；準備」。",
-        "set-mcq-60": "「表示位置；姿態；形狀」是「13. set — position or arrangement」的用法，與本句語境不同。",
-        "set-mcq-62": "「表示引發；觸發」是「25. set off something」的用法，與本句語境不同。",
-        "set-mcq-59": "「表示直落盤數；連勝各盤」是「7. straight sets」的用法，與本句語境不同。",
-        "set-mcq-63": "「表示日落；日落時間」是「40. sunset」的用法，與本句語境不同。",
-        "set-mcq-58": "「表示盤；局」是「6. set — division of a tennis or volleyball match」的用法，與本句語境不同。"
+        "set-mcq-61": "本句的「set the room」指「表示佈置；準備」。",
+        "set-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-61"
     },
@@ -2338,11 +2206,9 @@ export default {
       "masked": "The lighting helped ____.",
       "options": [
         "set-mcq-61",
-        "set-mcq-60",
-        "set-mcq-62",
+        "set-mcq-51",
         "set-mcq-59",
-        "set-mcq-63",
-        "set-mcq-58"
+        "set-mcq-17"
       ],
       "explanation": "本句的「set the scene」指「表示佈置；準備」。",
       "sentenceIndex": 33,
@@ -2351,12 +2217,10 @@ export default {
         "set the scene"
       ],
       "optionReasons": {
-        "set-mcq-61": "本句指「表示佈置；準備」。",
-        "set-mcq-60": "「表示位置；姿態；形狀」是「13. set — position or arrangement」的用法，與本句語境不同。",
-        "set-mcq-62": "「表示引發；觸發」是「25. set off something」的用法，與本句語境不同。",
-        "set-mcq-59": "「表示直落盤數；連勝各盤」是「7. straight sets」的用法，與本句語境不同。",
-        "set-mcq-63": "「表示日落；日落時間」是「40. sunset」的用法，與本句語境不同。",
-        "set-mcq-58": "「表示盤；局」是「6. set — division of a tennis or volleyball match」的用法，與本句語境不同。"
+        "set-mcq-61": "本句的「set the scene」指「表示佈置；準備」。",
+        "set-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-61"
     },
@@ -2368,11 +2232,9 @@ export default {
       "masked": "They ____ for Friday.",
       "options": [
         "set-mcq-12",
-        "set-mcq-11",
-        "set-mcq-13",
-        "set-mcq-10",
-        "set-mcq-14",
-        "set-mcq-09"
+        "set-mcq-02",
+        "set-mcq-27",
+        "set-mcq-59"
       ],
       "explanation": "本句的「set a deadline」指「訂定、確定日期、價格、規則、限制等」。",
       "sentenceIndex": 34,
@@ -2381,12 +2243,10 @@ export default {
         "set a deadline"
       ],
       "optionReasons": {
-        "set-mcq-12": "本句指「訂定、確定日期、價格、規則、限制等」。",
-        "set-mcq-11": "「擺放用餐所需餐具」是「set the table」的用法，與本句語境不同。",
-        "set-mcq-13": "「訂下日期／時間」是「set a date/time」的用法，與本句語境不同。",
-        "set-mcq-10": "「有意地把某物放在特定位置」是「set — put/place」的用法，與本句語境不同。",
-        "set-mcq-14": "「設定上限或限制」是「set a limit」的用法，與本句語境不同。",
-        "set-mcq-09": "「具有相似生活方式、背景或興趣的一群人／圈子」是「set — social group」的用法，與本句語境不同。"
+        "set-mcq-12": "本句的「set a deadline」指「訂定、確定日期、價格、規則、限制等」。",
+        "set-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-12"
     },
@@ -2398,11 +2258,9 @@ export default {
       "masked": "The company ____ at $50.",
       "options": [
         "set-mcq-12",
-        "set-mcq-11",
-        "set-mcq-13",
-        "set-mcq-10",
-        "set-mcq-14",
-        "set-mcq-09"
+        "set-mcq-53",
+        "set-mcq-06",
+        "set-mcq-03"
       ],
       "explanation": "本句的「set the price」指「訂定、確定日期、價格、規則、限制等」。",
       "sentenceIndex": 35,
@@ -2411,12 +2269,10 @@ export default {
         "set the price"
       ],
       "optionReasons": {
-        "set-mcq-12": "本句指「訂定、確定日期、價格、規則、限制等」。",
-        "set-mcq-11": "「擺放用餐所需餐具」是「set the table」的用法，與本句語境不同。",
-        "set-mcq-13": "「訂下日期／時間」是「set a date/time」的用法，與本句語境不同。",
-        "set-mcq-10": "「有意地把某物放在特定位置」是「set — put/place」的用法，與本句語境不同。",
-        "set-mcq-14": "「設定上限或限制」是「set a limit」的用法，與本句語境不同。",
-        "set-mcq-09": "「具有相似生活方式、背景或興趣的一群人／圈子」是「set — social group」的用法，與本句語境不同。"
+        "set-mcq-12": "本句的「set the price」指「訂定、確定日期、價格、規則、限制等」。",
+        "set-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-12"
     },
@@ -2428,11 +2284,9 @@ export default {
       "masked": "We need to ____ for the meeting.",
       "options": [
         "set-mcq-13",
-        "set-mcq-12",
-        "set-mcq-14",
-        "set-mcq-11",
-        "set-mcq-15",
-        "set-mcq-10"
+        "set-mcq-22",
+        "set-mcq-57",
+        "set-mcq-61"
       ],
       "explanation": "本句的「set a date」指「訂下日期／時間」。",
       "sentenceIndex": 36,
@@ -2441,12 +2295,10 @@ export default {
         "set a date"
       ],
       "optionReasons": {
-        "set-mcq-13": "本句指「訂下日期／時間」。",
-        "set-mcq-12": "「訂定、確定日期、價格、規則、限制等」是「set — fix/determine」的用法，與本句語境不同。",
-        "set-mcq-14": "「設定上限或限制」是「set a limit」的用法，與本句語境不同。",
-        "set-mcq-11": "「擺放用餐所需餐具」是「set the table」的用法，與本句語境不同。",
-        "set-mcq-15": "「設定希望達成的目標」是「set a goal/target」的用法，與本句語境不同。",
-        "set-mcq-10": "「有意地把某物放在特定位置」是「set — put/place」的用法，與本句語境不同。"
+        "set-mcq-13": "本句的「set a date」指「訂下日期／時間」。",
+        "set-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-13"
     },
@@ -2458,11 +2310,9 @@ export default {
       "masked": "They ____ for 3 p.m.",
       "options": [
         "set-mcq-13",
-        "set-mcq-12",
-        "set-mcq-14",
-        "set-mcq-11",
-        "set-mcq-15",
-        "set-mcq-10"
+        "set-mcq-23",
+        "set-mcq-27",
+        "set-mcq-11"
       ],
       "explanation": "本句的「set the time」指「訂下日期／時間」。",
       "sentenceIndex": 37,
@@ -2471,12 +2321,10 @@ export default {
         "set the time"
       ],
       "optionReasons": {
-        "set-mcq-13": "本句指「訂下日期／時間」。",
-        "set-mcq-12": "「訂定、確定日期、價格、規則、限制等」是「set — fix/determine」的用法，與本句語境不同。",
-        "set-mcq-14": "「設定上限或限制」是「set a limit」的用法，與本句語境不同。",
-        "set-mcq-11": "「擺放用餐所需餐具」是「set the table」的用法，與本句語境不同。",
-        "set-mcq-15": "「設定希望達成的目標」是「set a goal/target」的用法，與本句語境不同。",
-        "set-mcq-10": "「有意地把某物放在特定位置」是「set — put/place」的用法，與本句語境不同。"
+        "set-mcq-13": "本句的「set the time」指「訂下日期／時間」。",
+        "set-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-13"
     },
@@ -2489,10 +2337,8 @@ export default {
       "options": [
         "set-mcq-14",
         "set-mcq-13",
-        "set-mcq-15",
-        "set-mcq-12",
-        "set-mcq-16",
-        "set-mcq-11"
+        "set-mcq-18",
+        "set-mcq-49"
       ],
       "explanation": "本句的「set a limit」指「設定上限或限制」。",
       "sentenceIndex": 38,
@@ -2501,12 +2347,10 @@ export default {
         "set a limit"
       ],
       "optionReasons": {
-        "set-mcq-14": "本句指「設定上限或限制」。",
-        "set-mcq-13": "「訂下日期／時間」是「set a date/time」的用法，與本句語境不同。",
-        "set-mcq-15": "「設定希望達成的目標」是「set a goal/target」的用法，與本句語境不同。",
-        "set-mcq-12": "「訂定、確定日期、價格、規則、限制等」是「set — fix/determine」的用法，與本句語境不同。",
-        "set-mcq-16": "「訂立或樹立標準」是「set a standard」的用法，與本句語境不同。",
-        "set-mcq-11": "「擺放用餐所需餐具」是「set the table」的用法，與本句語境不同。"
+        "set-mcq-14": "本句的「set a limit」指「設定上限或限制」。",
+        "set-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-14"
     },
@@ -2518,11 +2362,9 @@ export default {
       "masked": "You should ____.",
       "options": [
         "set-mcq-14",
-        "set-mcq-13",
-        "set-mcq-15",
-        "set-mcq-12",
-        "set-mcq-16",
-        "set-mcq-11"
+        "set-mcq-46",
+        "set-mcq-02",
+        "set-mcq-18"
       ],
       "explanation": "本句的「set a spending limit」指「設定上限或限制」。",
       "sentenceIndex": 39,
@@ -2531,12 +2373,10 @@ export default {
         "set a spending limit"
       ],
       "optionReasons": {
-        "set-mcq-14": "本句指「設定上限或限制」。",
-        "set-mcq-13": "「訂下日期／時間」是「set a date/time」的用法，與本句語境不同。",
-        "set-mcq-15": "「設定希望達成的目標」是「set a goal/target」的用法，與本句語境不同。",
-        "set-mcq-12": "「訂定、確定日期、價格、規則、限制等」是「set — fix/determine」的用法，與本句語境不同。",
-        "set-mcq-16": "「訂立或樹立標準」是「set a standard」的用法，與本句語境不同。",
-        "set-mcq-11": "「擺放用餐所需餐具」是「set the table」的用法，與本句語境不同。"
+        "set-mcq-14": "本句的「set a spending limit」指「設定上限或限制」。",
+        "set-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-14"
     },
@@ -2548,11 +2388,9 @@ export default {
       "masked": "She ____ of reading twenty books.",
       "options": [
         "set-mcq-15",
-        "set-mcq-14",
-        "set-mcq-16",
-        "set-mcq-13",
-        "set-mcq-17",
-        "set-mcq-12"
+        "set-mcq-63",
+        "set-mcq-18",
+        "set-mcq-08"
       ],
       "explanation": "本句的「set herself a goal」指「設定希望達成的目標」。",
       "sentenceIndex": 40,
@@ -2561,12 +2399,10 @@ export default {
         "set herself a goal"
       ],
       "optionReasons": {
-        "set-mcq-15": "本句指「設定希望達成的目標」。",
-        "set-mcq-14": "「設定上限或限制」是「set a limit」的用法，與本句語境不同。",
-        "set-mcq-16": "「訂立或樹立標準」是「set a standard」的用法，與本句語境不同。",
-        "set-mcq-13": "「訂下日期／時間」是「set a date/time」的用法，與本句語境不同。",
-        "set-mcq-17": "「以自己的行為樹立榜樣」是「set an example」的用法，與本句語境不同。",
-        "set-mcq-12": "「訂定、確定日期、價格、規則、限制等」是「set — fix/determine」的用法，與本句語境不同。"
+        "set-mcq-15": "本句的「set herself a goal」指「設定希望達成的目標」。",
+        "set-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-15"
     },
@@ -2578,11 +2414,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "set-mcq-15",
-        "set-mcq-14",
-        "set-mcq-16",
-        "set-mcq-13",
-        "set-mcq-17",
-        "set-mcq-12"
+        "set-mcq-25",
+        "set-mcq-48",
+        "set-mcq-18"
       ],
       "explanation": "本句的「set ambitious targets」指「設定希望達成的目標」。",
       "sentenceIndex": 41,
@@ -2591,12 +2425,10 @@ export default {
         "set ambitious targets"
       ],
       "optionReasons": {
-        "set-mcq-15": "本句指「設定希望達成的目標」。",
-        "set-mcq-14": "「設定上限或限制」是「set a limit」的用法，與本句語境不同。",
-        "set-mcq-16": "「訂立或樹立標準」是「set a standard」的用法，與本句語境不同。",
-        "set-mcq-13": "「訂下日期／時間」是「set a date/time」的用法，與本句語境不同。",
-        "set-mcq-17": "「以自己的行為樹立榜樣」是「set an example」的用法，與本句語境不同。",
-        "set-mcq-12": "「訂定、確定日期、價格、規則、限制等」是「set — fix/determine」的用法，與本句語境不同。"
+        "set-mcq-15": "本句的「set ambitious targets」指「設定希望達成的目標」。",
+        "set-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-15"
     },
@@ -2608,11 +2440,9 @@ export default {
       "masked": "The teacher ____.",
       "options": [
         "set-mcq-16",
-        "set-mcq-15",
-        "set-mcq-17",
-        "set-mcq-14",
-        "set-mcq-18",
-        "set-mcq-13"
+        "set-mcq-56",
+        "set-mcq-03",
+        "set-mcq-27"
       ],
       "explanation": "本句的「set high standards」指「訂立或樹立標準」。",
       "sentenceIndex": 42,
@@ -2621,12 +2451,10 @@ export default {
         "set high standards"
       ],
       "optionReasons": {
-        "set-mcq-16": "本句指「訂立或樹立標準」。",
-        "set-mcq-15": "「設定希望達成的目標」是「set a goal/target」的用法，與本句語境不同。",
-        "set-mcq-17": "「以自己的行為樹立榜樣」是「set an example」的用法，與本句語境不同。",
-        "set-mcq-14": "「設定上限或限制」是「set a limit」的用法，與本句語境不同。",
-        "set-mcq-18": "「使某個過程、行動或連鎖事件開始」是「set in motion」的用法，與本句語境不同。",
-        "set-mcq-13": "「訂下日期／時間」是「set a date/time」的用法，與本句語境不同。"
+        "set-mcq-16": "本句的「set high standards」指「訂立或樹立標準」。",
+        "set-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-16"
     },
@@ -2638,11 +2466,9 @@ export default {
       "masked": "The product ____ for quality.",
       "options": [
         "set-mcq-16",
-        "set-mcq-15",
-        "set-mcq-17",
-        "set-mcq-14",
-        "set-mcq-18",
-        "set-mcq-13"
+        "set-mcq-49",
+        "set-mcq-24",
+        "set-mcq-18"
       ],
       "explanation": "本句的「set a new standard」指「訂立或樹立標準」。",
       "sentenceIndex": 43,
@@ -2651,12 +2477,10 @@ export default {
         "set a new standard"
       ],
       "optionReasons": {
-        "set-mcq-16": "本句指「訂立或樹立標準」。",
-        "set-mcq-15": "「設定希望達成的目標」是「set a goal/target」的用法，與本句語境不同。",
-        "set-mcq-17": "「以自己的行為樹立榜樣」是「set an example」的用法，與本句語境不同。",
-        "set-mcq-14": "「設定上限或限制」是「set a limit」的用法，與本句語境不同。",
-        "set-mcq-18": "「使某個過程、行動或連鎖事件開始」是「set in motion」的用法，與本句語境不同。",
-        "set-mcq-13": "「訂下日期／時間」是「set a date/time」的用法，與本句語境不同。"
+        "set-mcq-16": "本句的「set a new standard」指「訂立或樹立標準」。",
+        "set-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-16"
     },
@@ -2668,11 +2492,9 @@ export default {
       "masked": "Good leaders ____.",
       "options": [
         "set-mcq-17",
-        "set-mcq-16",
-        "set-mcq-18",
-        "set-mcq-15",
-        "set-mcq-19",
-        "set-mcq-14"
+        "set-mcq-48",
+        "set-mcq-27",
+        "set-mcq-29"
       ],
       "explanation": "本句的「set an example」指「以自己的行為樹立榜樣」。",
       "sentenceIndex": 44,
@@ -2681,12 +2503,10 @@ export default {
         "set an example"
       ],
       "optionReasons": {
-        "set-mcq-17": "本句指「以自己的行為樹立榜樣」。",
-        "set-mcq-16": "「訂立或樹立標準」是「set a standard」的用法，與本句語境不同。",
-        "set-mcq-18": "「使某個過程、行動或連鎖事件開始」是「set in motion」的用法，與本句語境不同。",
-        "set-mcq-15": "「設定希望達成的目標」是「set a goal/target」的用法，與本句語境不同。",
-        "set-mcq-19": "「觸發警報、反應、爆炸或一連串事件」是「set off」的用法，與本句語境不同。",
-        "set-mcq-14": "「設定上限或限制」是「set a limit」的用法，與本句語境不同。"
+        "set-mcq-17": "本句的「set an example」指「以自己的行為樹立榜樣」。",
+        "set-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-17"
     },
@@ -2698,11 +2518,9 @@ export default {
       "masked": "She ____ for younger students.",
       "options": [
         "set-mcq-17",
-        "set-mcq-16",
-        "set-mcq-18",
-        "set-mcq-15",
-        "set-mcq-19",
-        "set-mcq-14"
+        "set-mcq-44",
+        "set-mcq-51",
+        "set-mcq-11"
       ],
       "explanation": "本句的「set a positive example」指「以自己的行為樹立榜樣」。",
       "sentenceIndex": 45,
@@ -2711,12 +2529,10 @@ export default {
         "set a positive example"
       ],
       "optionReasons": {
-        "set-mcq-17": "本句指「以自己的行為樹立榜樣」。",
-        "set-mcq-16": "「訂立或樹立標準」是「set a standard」的用法，與本句語境不同。",
-        "set-mcq-18": "「使某個過程、行動或連鎖事件開始」是「set in motion」的用法，與本句語境不同。",
-        "set-mcq-15": "「設定希望達成的目標」是「set a goal/target」的用法，與本句語境不同。",
-        "set-mcq-19": "「觸發警報、反應、爆炸或一連串事件」是「set off」的用法，與本句語境不同。",
-        "set-mcq-14": "「設定上限或限制」是「set a limit」的用法，與本句語境不同。"
+        "set-mcq-17": "本句的「set a positive example」指「以自己的行為樹立榜樣」。",
+        "set-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-17"
     },
@@ -2728,11 +2544,9 @@ export default {
       "masked": "The decision ____.",
       "options": [
         "set-mcq-18",
-        "set-mcq-17",
-        "set-mcq-19",
-        "set-mcq-16",
-        "set-mcq-20",
-        "set-mcq-15"
+        "set-mcq-23",
+        "set-mcq-14",
+        "set-mcq-60"
       ],
       "explanation": "本句的「set several changes in motion」指「使某個過程、行動或連鎖事件開始」。",
       "sentenceIndex": 46,
@@ -2741,12 +2555,10 @@ export default {
         "set several changes in motion"
       ],
       "optionReasons": {
-        "set-mcq-18": "本句指「使某個過程、行動或連鎖事件開始」。",
-        "set-mcq-17": "「以自己的行為樹立榜樣」是「set an example」的用法，與本句語境不同。",
-        "set-mcq-19": "「觸發警報、反應、爆炸或一連串事件」是「set off」的用法，與本句語境不同。",
-        "set-mcq-16": "「訂立或樹立標準」是「set a standard」的用法，與本句語境不同。",
-        "set-mcq-20": "「指定、佈置功課或題目」是「set homework/questions」的用法，與本句語境不同。",
-        "set-mcq-15": "「設定希望達成的目標」是「set a goal/target」的用法，與本句語境不同。"
+        "set-mcq-18": "本句的「set several changes in motion」指「使某個過程、行動或連鎖事件開始」。",
+        "set-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-18"
     },
@@ -2758,11 +2570,9 @@ export default {
       "masked": "One complaint ____.",
       "options": [
         "set-mcq-18",
-        "set-mcq-17",
-        "set-mcq-19",
-        "set-mcq-16",
-        "set-mcq-20",
-        "set-mcq-15"
+        "set-mcq-02",
+        "set-mcq-54",
+        "set-mcq-61"
       ],
       "explanation": "本句的「set the investigation in motion」指「使某個過程、行動或連鎖事件開始」。",
       "sentenceIndex": 47,
@@ -2771,12 +2581,10 @@ export default {
         "set the investigation in motion"
       ],
       "optionReasons": {
-        "set-mcq-18": "本句指「使某個過程、行動或連鎖事件開始」。",
-        "set-mcq-17": "「以自己的行為樹立榜樣」是「set an example」的用法，與本句語境不同。",
-        "set-mcq-19": "「觸發警報、反應、爆炸或一連串事件」是「set off」的用法，與本句語境不同。",
-        "set-mcq-16": "「訂立或樹立標準」是「set a standard」的用法，與本句語境不同。",
-        "set-mcq-20": "「指定、佈置功課或題目」是「set homework/questions」的用法，與本句語境不同。",
-        "set-mcq-15": "「設定希望達成的目標」是「set a goal/target」的用法，與本句語境不同。"
+        "set-mcq-18": "本句的「set the investigation in motion」指「使某個過程、行動或連鎖事件開始」。",
+        "set-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-18"
     },
@@ -2788,11 +2596,9 @@ export default {
       "masked": "Smoke ____.",
       "options": [
         "set-mcq-62",
-        "set-mcq-61",
-        "set-mcq-63",
-        "set-mcq-60",
-        "set-mcq-59",
-        "set-mcq-58"
+        "set-mcq-43",
+        "set-mcq-04",
+        "set-mcq-48"
       ],
       "explanation": "本句的「set off the alarm」指「表示引發；觸發」。",
       "sentenceIndex": 48,
@@ -2801,12 +2607,10 @@ export default {
         "set off the alarm"
       ],
       "optionReasons": {
-        "set-mcq-62": "本句指「表示引發；觸發」。",
-        "set-mcq-61": "「表示佈置；準備」是「17. set a room / scene / stage」的用法，與本句語境不同。",
-        "set-mcq-63": "「表示日落；日落時間」是「40. sunset」的用法，與本句語境不同。",
-        "set-mcq-60": "「表示位置；姿態；形狀」是「13. set — position or arrangement」的用法，與本句語境不同。",
-        "set-mcq-59": "「表示直落盤數；連勝各盤」是「7. straight sets」的用法，與本句語境不同。",
-        "set-mcq-58": "「表示盤；局」是「6. set — division of a tennis or volleyball match」的用法，與本句語境不同。"
+        "set-mcq-62": "本句的「set off the alarm」指「表示引發；觸發」。",
+        "set-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-62"
     },
@@ -2818,11 +2622,9 @@ export default {
       "masked": "The announcement ____.",
       "options": [
         "set-mcq-62",
-        "set-mcq-61",
-        "set-mcq-63",
-        "set-mcq-60",
-        "set-mcq-59",
-        "set-mcq-58"
+        "set-mcq-25",
+        "set-mcq-57",
+        "set-mcq-20"
       ],
       "explanation": "本句的「set off a debate」指「表示引發；觸發」。",
       "sentenceIndex": 49,
@@ -2831,12 +2633,10 @@ export default {
         "set off a debate"
       ],
       "optionReasons": {
-        "set-mcq-62": "本句指「表示引發；觸發」。",
-        "set-mcq-61": "「表示佈置；準備」是「17. set a room / scene / stage」的用法，與本句語境不同。",
-        "set-mcq-63": "「表示日落；日落時間」是「40. sunset」的用法，與本句語境不同。",
-        "set-mcq-60": "「表示位置；姿態；形狀」是「13. set — position or arrangement」的用法，與本句語境不同。",
-        "set-mcq-59": "「表示直落盤數；連勝各盤」是「7. straight sets」的用法，與本句語境不同。",
-        "set-mcq-58": "「表示盤；局」是「6. set — division of a tennis or volleyball match」的用法，與本句語境不同。"
+        "set-mcq-62": "本句的「set off a debate」指「表示引發；觸發」。",
+        "set-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-62"
     },
@@ -2848,11 +2648,9 @@ export default {
       "masked": "The teacher ____.",
       "options": [
         "set-mcq-20",
-        "set-mcq-19",
-        "set-mcq-21",
-        "set-mcq-18",
-        "set-mcq-22",
-        "set-mcq-17"
+        "set-mcq-04",
+        "set-mcq-58",
+        "set-mcq-25"
       ],
       "explanation": "本句的「set us homework」指「指定、佈置功課或題目」。",
       "sentenceIndex": 50,
@@ -2861,12 +2659,10 @@ export default {
         "set us homework"
       ],
       "optionReasons": {
-        "set-mcq-20": "本句指「指定、佈置功課或題目」。",
-        "set-mcq-19": "「觸發警報、反應、爆炸或一連串事件」是「set off」的用法，與本句語境不同。",
-        "set-mcq-21": "「把設備調校到指定數值或狀態」是「set a device/alarm」的用法，與本句語境不同。",
-        "set-mcq-18": "「使某個過程、行動或連鎖事件開始」是「set in motion」的用法，與本句語境不同。",
-        "set-mcq-22": "「液體或軟質材料凝固、硬化、定型」是「set — harden」的用法，與本句語境不同。",
-        "set-mcq-17": "「以自己的行為樹立榜樣」是「set an example」的用法，與本句語境不同。"
+        "set-mcq-20": "本句的「set us homework」指「指定、佈置功課或題目」。",
+        "set-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-20"
     },
@@ -2878,11 +2674,9 @@ export default {
       "masked": "She ____ for the exam.",
       "options": [
         "set-mcq-20",
-        "set-mcq-19",
-        "set-mcq-21",
-        "set-mcq-18",
-        "set-mcq-22",
-        "set-mcq-17"
+        "set-mcq-16",
+        "set-mcq-52",
+        "set-mcq-58"
       ],
       "explanation": "本句的「set three questions」指「指定、佈置功課或題目」。",
       "sentenceIndex": 51,
@@ -2891,12 +2685,10 @@ export default {
         "set three questions"
       ],
       "optionReasons": {
-        "set-mcq-20": "本句指「指定、佈置功課或題目」。",
-        "set-mcq-19": "「觸發警報、反應、爆炸或一連串事件」是「set off」的用法，與本句語境不同。",
-        "set-mcq-21": "「把設備調校到指定數值或狀態」是「set a device/alarm」的用法，與本句語境不同。",
-        "set-mcq-18": "「使某個過程、行動或連鎖事件開始」是「set in motion」的用法，與本句語境不同。",
-        "set-mcq-22": "「液體或軟質材料凝固、硬化、定型」是「set — harden」的用法，與本句語境不同。",
-        "set-mcq-17": "「以自己的行為樹立榜樣」是「set an example」的用法，與本句語境不同。"
+        "set-mcq-20": "本句的「set three questions」指「指定、佈置功課或題目」。",
+        "set-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-20"
     },
@@ -2908,11 +2700,9 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "set-mcq-20",
-        "set-mcq-19",
-        "set-mcq-21",
-        "set-mcq-18",
-        "set-mcq-22",
-        "set-mcq-17"
+        "set-mcq-62",
+        "set-mcq-63",
+        "set-mcq-04"
       ],
       "explanation": "本句的「set the team a difficult task」指「指定、佈置功課或題目」。",
       "sentenceIndex": 52,
@@ -2921,12 +2711,10 @@ export default {
         "set the team a difficult task"
       ],
       "optionReasons": {
-        "set-mcq-20": "本句指「指定、佈置功課或題目」。",
-        "set-mcq-19": "「觸發警報、反應、爆炸或一連串事件」是「set off」的用法，與本句語境不同。",
-        "set-mcq-21": "「把設備調校到指定數值或狀態」是「set a device/alarm」的用法，與本句語境不同。",
-        "set-mcq-18": "「使某個過程、行動或連鎖事件開始」是「set in motion」的用法，與本句語境不同。",
-        "set-mcq-22": "「液體或軟質材料凝固、硬化、定型」是「set — harden」的用法，與本句語境不同。",
-        "set-mcq-17": "「以自己的行為樹立榜樣」是「set an example」的用法，與本句語境不同。"
+        "set-mcq-20": "本句的「set the team a difficult task」指「指定、佈置功課或題目」。",
+        "set-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-20"
     },
@@ -2938,11 +2726,9 @@ export default {
       "masked": "We were ____.",
       "options": [
         "set-mcq-20",
-        "set-mcq-19",
-        "set-mcq-21",
-        "set-mcq-18",
-        "set-mcq-22",
-        "set-mcq-17"
+        "set-mcq-26",
+        "set-mcq-49",
+        "set-mcq-04"
       ],
       "explanation": "本句的「set a challenge」指「指定、佈置功課或題目」。",
       "sentenceIndex": 53,
@@ -2951,12 +2737,10 @@ export default {
         "set a challenge"
       ],
       "optionReasons": {
-        "set-mcq-20": "本句指「指定、佈置功課或題目」。",
-        "set-mcq-19": "「觸發警報、反應、爆炸或一連串事件」是「set off」的用法，與本句語境不同。",
-        "set-mcq-21": "「把設備調校到指定數值或狀態」是「set a device/alarm」的用法，與本句語境不同。",
-        "set-mcq-18": "「使某個過程、行動或連鎖事件開始」是「set in motion」的用法，與本句語境不同。",
-        "set-mcq-22": "「液體或軟質材料凝固、硬化、定型」是「set — harden」的用法，與本句語境不同。",
-        "set-mcq-17": "「以自己的行為樹立榜樣」是「set an example」的用法，與本句語境不同。"
+        "set-mcq-20": "本句的「set a challenge」指「指定、佈置功課或題目」。",
+        "set-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-20"
     },
@@ -2968,11 +2752,9 @@ export default {
       "masked": "____ for seven.",
       "options": [
         "set-mcq-21",
-        "set-mcq-20",
-        "set-mcq-22",
-        "set-mcq-19",
-        "set-mcq-23",
-        "set-mcq-18"
+        "set-mcq-28",
+        "set-mcq-09",
+        "set-mcq-07"
       ],
       "explanation": "本句的「Set the alarm」指「把設備調校到指定數值或狀態」。",
       "sentenceIndex": 54,
@@ -2981,12 +2763,10 @@ export default {
         "Set the alarm"
       ],
       "optionReasons": {
-        "set-mcq-21": "本句指「把設備調校到指定數值或狀態」。",
-        "set-mcq-20": "「指定、佈置功課或題目」是「set homework/questions」的用法，與本句語境不同。",
-        "set-mcq-22": "「液體或軟質材料凝固、硬化、定型」是「set — harden」的用法，與本句語境不同。",
-        "set-mcq-19": "「觸發警報、反應、爆炸或一連串事件」是「set off」的用法，與本句語境不同。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。",
-        "set-mcq-18": "「使某個過程、行動或連鎖事件開始」是「set in motion」的用法，與本句語境不同。"
+        "set-mcq-21": "本句的「Set the alarm」指「把設備調校到指定數值或狀態」。",
+        "set-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-21"
     },
@@ -2998,11 +2778,9 @@ export default {
       "masked": "I ____ to 22 degrees.",
       "options": [
         "set-mcq-21",
-        "set-mcq-20",
-        "set-mcq-22",
-        "set-mcq-19",
-        "set-mcq-23",
-        "set-mcq-18"
+        "set-mcq-16",
+        "set-mcq-11",
+        "set-mcq-63"
       ],
       "explanation": "本句的「set the temperature」指「把設備調校到指定數值或狀態」。",
       "sentenceIndex": 55,
@@ -3011,12 +2789,10 @@ export default {
         "set the temperature"
       ],
       "optionReasons": {
-        "set-mcq-21": "本句指「把設備調校到指定數值或狀態」。",
-        "set-mcq-20": "「指定、佈置功課或題目」是「set homework/questions」的用法，與本句語境不同。",
-        "set-mcq-22": "「液體或軟質材料凝固、硬化、定型」是「set — harden」的用法，與本句語境不同。",
-        "set-mcq-19": "「觸發警報、反應、爆炸或一連串事件」是「set off」的用法，與本句語境不同。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。",
-        "set-mcq-18": "「使某個過程、行動或連鎖事件開始」是「set in motion」的用法，與本句語境不同。"
+        "set-mcq-21": "本句的「set the temperature」指「把設備調校到指定數值或狀態」。",
+        "set-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-21"
     },
@@ -3028,11 +2804,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "set-mcq-21",
-        "set-mcq-20",
-        "set-mcq-22",
-        "set-mcq-19",
-        "set-mcq-23",
-        "set-mcq-18"
+        "set-mcq-06",
+        "set-mcq-53",
+        "set-mcq-28"
       ],
       "explanation": "本句的「set my watch」指「把設備調校到指定數值或狀態」。",
       "sentenceIndex": 56,
@@ -3041,12 +2815,10 @@ export default {
         "set my watch"
       ],
       "optionReasons": {
-        "set-mcq-21": "本句指「把設備調校到指定數值或狀態」。",
-        "set-mcq-20": "「指定、佈置功課或題目」是「set homework/questions」的用法，與本句語境不同。",
-        "set-mcq-22": "「液體或軟質材料凝固、硬化、定型」是「set — harden」的用法，與本句語境不同。",
-        "set-mcq-19": "「觸發警報、反應、爆炸或一連串事件」是「set off」的用法，與本句語境不同。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。",
-        "set-mcq-18": "「使某個過程、行動或連鎖事件開始」是「set in motion」的用法，與本句語境不同。"
+        "set-mcq-21": "本句的「set my watch」指「把設備調校到指定數值或狀態」。",
+        "set-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-21"
     },
@@ -3058,11 +2830,9 @@ export default {
       "masked": "She ____ by one hour.",
       "options": [
         "set-mcq-21",
-        "set-mcq-20",
-        "set-mcq-22",
-        "set-mcq-19",
-        "set-mcq-23",
-        "set-mcq-18"
+        "set-mcq-27",
+        "set-mcq-42",
+        "set-mcq-52"
       ],
       "explanation": "本句的「set the clock forward」指「把設備調校到指定數值或狀態」。",
       "sentenceIndex": 57,
@@ -3071,12 +2841,10 @@ export default {
         "set the clock forward"
       ],
       "optionReasons": {
-        "set-mcq-21": "本句指「把設備調校到指定數值或狀態」。",
-        "set-mcq-20": "「指定、佈置功課或題目」是「set homework/questions」的用法，與本句語境不同。",
-        "set-mcq-22": "「液體或軟質材料凝固、硬化、定型」是「set — harden」的用法，與本句語境不同。",
-        "set-mcq-19": "「觸發警報、反應、爆炸或一連串事件」是「set off」的用法，與本句語境不同。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。",
-        "set-mcq-18": "「使某個過程、行動或連鎖事件開始」是「set in motion」的用法，與本句語境不同。"
+        "set-mcq-21": "本句的「set the clock forward」指「把設備調校到指定數值或狀態」。",
+        "set-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-21"
     },
@@ -3088,11 +2856,9 @@ export default {
       "masked": "Leave the cement to ____.",
       "options": [
         "set-mcq-22",
-        "set-mcq-21",
-        "set-mcq-23",
-        "set-mcq-20",
-        "set-mcq-24",
-        "set-mcq-19"
+        "set-mcq-46",
+        "set-mcq-16",
+        "set-mcq-07"
       ],
       "explanation": "本句的「set」指「液體或軟質材料凝固、硬化、定型」。",
       "sentenceIndex": 58,
@@ -3101,12 +2867,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-22": "本句指「液體或軟質材料凝固、硬化、定型」。",
-        "set-mcq-21": "「把設備調校到指定數值或狀態」是「set a device/alarm」的用法，與本句語境不同。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。",
-        "set-mcq-20": "「指定、佈置功課或題目」是「set homework/questions」的用法，與本句語境不同。",
-        "set-mcq-24": "「把頭髮整理並固定成某種髮型」是「set hair」的用法，與本句語境不同。",
-        "set-mcq-19": "「觸發警報、反應、爆炸或一連串事件」是「set off」的用法，與本句語境不同。"
+        "set-mcq-22": "本句的「set」指「液體或軟質材料凝固、硬化、定型」。",
+        "set-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-22"
     },
@@ -3118,11 +2882,9 @@ export default {
       "masked": "The jelly needs time to ____.",
       "options": [
         "set-mcq-22",
-        "set-mcq-21",
-        "set-mcq-23",
-        "set-mcq-20",
-        "set-mcq-24",
-        "set-mcq-19"
+        "set-mcq-56",
+        "set-mcq-27",
+        "set-mcq-16"
       ],
       "explanation": "本句的「set」指「液體或軟質材料凝固、硬化、定型」。",
       "sentenceIndex": 59,
@@ -3131,12 +2893,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-22": "本句指「液體或軟質材料凝固、硬化、定型」。",
-        "set-mcq-21": "「把設備調校到指定數值或狀態」是「set a device/alarm」的用法，與本句語境不同。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。",
-        "set-mcq-20": "「指定、佈置功課或題目」是「set homework/questions」的用法，與本句語境不同。",
-        "set-mcq-24": "「把頭髮整理並固定成某種髮型」是「set hair」的用法，與本句語境不同。",
-        "set-mcq-19": "「觸發警報、反應、爆炸或一連串事件」是「set off」的用法，與本句語境不同。"
+        "set-mcq-22": "本句的「set」指「液體或軟質材料凝固、硬化、定型」。",
+        "set-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-22"
     },
@@ -3148,11 +2908,9 @@ export default {
       "masked": "The glue takes an hour to ____.",
       "options": [
         "set-mcq-22",
-        "set-mcq-21",
-        "set-mcq-23",
-        "set-mcq-20",
-        "set-mcq-24",
-        "set-mcq-19"
+        "set-mcq-58",
+        "set-mcq-53",
+        "set-mcq-13"
       ],
       "explanation": "本句的「set」指「液體或軟質材料凝固、硬化、定型」。",
       "sentenceIndex": 60,
@@ -3161,12 +2919,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-22": "本句指「液體或軟質材料凝固、硬化、定型」。",
-        "set-mcq-21": "「把設備調校到指定數值或狀態」是「set a device/alarm」的用法，與本句語境不同。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。",
-        "set-mcq-20": "「指定、佈置功課或題目」是「set homework/questions」的用法，與本句語境不同。",
-        "set-mcq-24": "「把頭髮整理並固定成某種髮型」是「set hair」的用法，與本句語境不同。",
-        "set-mcq-19": "「觸發警報、反應、爆炸或一連串事件」是「set off」的用法，與本句語境不同。"
+        "set-mcq-22": "本句的「set」指「液體或軟質材料凝固、硬化、定型」。",
+        "set-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-22"
     },
@@ -3178,11 +2934,9 @@ export default {
       "masked": "The concrete has not fully ____ yet.",
       "options": [
         "set-mcq-22",
-        "set-mcq-21",
-        "set-mcq-23",
-        "set-mcq-20",
-        "set-mcq-24",
-        "set-mcq-19"
+        "set-mcq-17",
+        "set-mcq-25",
+        "set-mcq-63"
       ],
       "explanation": "本句的「set」指「液體或軟質材料凝固、硬化、定型」。",
       "sentenceIndex": 61,
@@ -3191,12 +2945,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-22": "本句指「液體或軟質材料凝固、硬化、定型」。",
-        "set-mcq-21": "「把設備調校到指定數值或狀態」是「set a device/alarm」的用法，與本句語境不同。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。",
-        "set-mcq-20": "「指定、佈置功課或題目」是「set homework/questions」的用法，與本句語境不同。",
-        "set-mcq-24": "「把頭髮整理並固定成某種髮型」是「set hair」的用法，與本句語境不同。",
-        "set-mcq-19": "「觸發警報、反應、爆炸或一連串事件」是「set off」的用法，與本句語境不同。"
+        "set-mcq-22": "本句的「set」指「液體或軟質材料凝固、硬化、定型」。",
+        "set-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-22"
     },
@@ -3208,11 +2960,9 @@ export default {
       "masked": "The doctor ____.",
       "options": [
         "set-mcq-23",
-        "set-mcq-22",
-        "set-mcq-24",
-        "set-mcq-21",
-        "set-mcq-25",
-        "set-mcq-20"
+        "set-mcq-42",
+        "set-mcq-09",
+        "set-mcq-13"
       ],
       "explanation": "本句的「set the broken bone」指「把骨折部位復位以便癒合」。",
       "sentenceIndex": 62,
@@ -3221,12 +2971,10 @@ export default {
         "set the broken bone"
       ],
       "optionReasons": {
-        "set-mcq-23": "本句指「把骨折部位復位以便癒合」。",
-        "set-mcq-22": "「液體或軟質材料凝固、硬化、定型」是「set — harden」的用法，與本句語境不同。",
-        "set-mcq-24": "「把頭髮整理並固定成某種髮型」是「set hair」的用法，與本句語境不同。",
-        "set-mcq-21": "「把設備調校到指定數值或狀態」是「set a device/alarm」的用法，與本句語境不同。",
-        "set-mcq-25": "「排字／排版」是「set type」的用法，與本句語境不同。",
-        "set-mcq-20": "「指定、佈置功課或題目」是「set homework/questions」的用法，與本句語境不同。"
+        "set-mcq-23": "本句的「set the broken bone」指「把骨折部位復位以便癒合」。",
+        "set-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-23"
     },
@@ -3238,11 +2986,9 @@ export default {
       "masked": "His arm had to be ____ and placed in a cast.",
       "options": [
         "set-mcq-23",
-        "set-mcq-22",
-        "set-mcq-24",
-        "set-mcq-21",
-        "set-mcq-25",
-        "set-mcq-20"
+        "set-mcq-31",
+        "set-mcq-54",
+        "set-mcq-43"
       ],
       "explanation": "本句的「set」指「把骨折部位復位以便癒合」。",
       "sentenceIndex": 63,
@@ -3251,12 +2997,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-23": "本句指「把骨折部位復位以便癒合」。",
-        "set-mcq-22": "「液體或軟質材料凝固、硬化、定型」是「set — harden」的用法，與本句語境不同。",
-        "set-mcq-24": "「把頭髮整理並固定成某種髮型」是「set hair」的用法，與本句語境不同。",
-        "set-mcq-21": "「把設備調校到指定數值或狀態」是「set a device/alarm」的用法，與本句語境不同。",
-        "set-mcq-25": "「排字／排版」是「set type」的用法，與本句語境不同。",
-        "set-mcq-20": "「指定、佈置功課或題目」是「set homework/questions」的用法，與本句語境不同。"
+        "set-mcq-23": "本句的「set」指「把骨折部位復位以便癒合」。",
+        "set-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-23"
     },
@@ -3268,11 +3012,9 @@ export default {
       "masked": "She had her hair ____ for the event.",
       "options": [
         "set-mcq-24",
-        "set-mcq-23",
-        "set-mcq-25",
-        "set-mcq-22",
-        "set-mcq-26",
-        "set-mcq-21"
+        "set-mcq-07",
+        "set-mcq-48",
+        "set-mcq-52"
       ],
       "explanation": "本句的「set」指「把頭髮整理並固定成某種髮型」。",
       "sentenceIndex": 64,
@@ -3281,12 +3023,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-24": "本句指「把頭髮整理並固定成某種髮型」。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。",
-        "set-mcq-25": "「排字／排版」是「set type」的用法，與本句語境不同。",
-        "set-mcq-22": "「液體或軟質材料凝固、硬化、定型」是「set — harden」的用法，與本句語境不同。",
-        "set-mcq-26": "「故事、電影等以某地／某時代為背景」是「be set in a place/time」的用法，與本句語境不同。",
-        "set-mcq-21": "「把設備調校到指定數值或狀態」是「set a device/alarm」的用法，與本句語境不同。"
+        "set-mcq-24": "本句的「set」指「把頭髮整理並固定成某種髮型」。",
+        "set-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-24"
     },
@@ -3298,11 +3038,9 @@ export default {
       "masked": "The stylist ____ in waves.",
       "options": [
         "set-mcq-24",
-        "set-mcq-23",
-        "set-mcq-25",
-        "set-mcq-22",
-        "set-mcq-26",
-        "set-mcq-21"
+        "set-mcq-16",
+        "set-mcq-52",
+        "set-mcq-18"
       ],
       "explanation": "本句的「set her hair」指「把頭髮整理並固定成某種髮型」。",
       "sentenceIndex": 65,
@@ -3311,12 +3049,10 @@ export default {
         "set her hair"
       ],
       "optionReasons": {
-        "set-mcq-24": "本句指「把頭髮整理並固定成某種髮型」。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。",
-        "set-mcq-25": "「排字／排版」是「set type」的用法，與本句語境不同。",
-        "set-mcq-22": "「液體或軟質材料凝固、硬化、定型」是「set — harden」的用法，與本句語境不同。",
-        "set-mcq-26": "「故事、電影等以某地／某時代為背景」是「be set in a place/time」的用法，與本句語境不同。",
-        "set-mcq-21": "「把設備調校到指定數值或狀態」是「set a device/alarm」的用法，與本句語境不同。"
+        "set-mcq-24": "本句的「set her hair」指「把頭髮整理並固定成某種髮型」。",
+        "set-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-24"
     },
@@ -3328,11 +3064,9 @@ export default {
       "masked": "The text was ____.",
       "options": [
         "set-mcq-25",
-        "set-mcq-24",
-        "set-mcq-26",
-        "set-mcq-23",
-        "set-mcq-27",
-        "set-mcq-22"
+        "set-mcq-47",
+        "set-mcq-09",
+        "set-mcq-62"
       ],
       "explanation": "本句的「set in a larger typeface」指「排字／排版」。",
       "sentenceIndex": 66,
@@ -3341,12 +3075,10 @@ export default {
         "set in a larger typeface"
       ],
       "optionReasons": {
-        "set-mcq-25": "本句指「排字／排版」。",
-        "set-mcq-24": "「把頭髮整理並固定成某種髮型」是「set hair」的用法，與本句語境不同。",
-        "set-mcq-26": "「故事、電影等以某地／某時代為背景」是「be set in a place/time」的用法，與本句語境不同。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。",
-        "set-mcq-27": "「繃緊臉部，表現出決心」是「set your jaw/face」的用法，與本句語境不同。",
-        "set-mcq-22": "「液體或軟質材料凝固、硬化、定型」是「set — harden」的用法，與本句語境不同。"
+        "set-mcq-25": "本句的「set in a larger typeface」指「排字／排版」。",
+        "set-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-25"
     },
@@ -3358,11 +3090,9 @@ export default {
       "masked": "The printer ____ by hand.",
       "options": [
         "set-mcq-25",
-        "set-mcq-24",
-        "set-mcq-26",
-        "set-mcq-23",
-        "set-mcq-27",
-        "set-mcq-22"
+        "set-mcq-54",
+        "set-mcq-61",
+        "set-mcq-26"
       ],
       "explanation": "本句的「set the type」指「排字／排版」。",
       "sentenceIndex": 67,
@@ -3371,12 +3101,10 @@ export default {
         "set the type"
       ],
       "optionReasons": {
-        "set-mcq-25": "本句指「排字／排版」。",
-        "set-mcq-24": "「把頭髮整理並固定成某種髮型」是「set hair」的用法，與本句語境不同。",
-        "set-mcq-26": "「故事、電影等以某地／某時代為背景」是「be set in a place/time」的用法，與本句語境不同。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。",
-        "set-mcq-27": "「繃緊臉部，表現出決心」是「set your jaw/face」的用法，與本句語境不同。",
-        "set-mcq-22": "「液體或軟質材料凝固、硬化、定型」是「set — harden」的用法，與本句語境不同。"
+        "set-mcq-25": "本句的「set the type」指「排字／排版」。",
+        "set-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-25"
     },
@@ -3388,11 +3116,9 @@ export default {
       "masked": "The book was professionally ____.",
       "options": [
         "set-mcq-25",
-        "set-mcq-24",
-        "set-mcq-26",
-        "set-mcq-23",
-        "set-mcq-27",
-        "set-mcq-22"
+        "set-mcq-60",
+        "set-mcq-42",
+        "set-mcq-06"
       ],
       "explanation": "本句的「typeset」指「排字／排版」。",
       "sentenceIndex": 68,
@@ -3401,12 +3127,10 @@ export default {
         "typeset"
       ],
       "optionReasons": {
-        "set-mcq-25": "本句指「排字／排版」。",
-        "set-mcq-24": "「把頭髮整理並固定成某種髮型」是「set hair」的用法，與本句語境不同。",
-        "set-mcq-26": "「故事、電影等以某地／某時代為背景」是「be set in a place/time」的用法，與本句語境不同。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。",
-        "set-mcq-27": "「繃緊臉部，表現出決心」是「set your jaw/face」的用法，與本句語境不同。",
-        "set-mcq-22": "「液體或軟質材料凝固、硬化、定型」是「set — harden」的用法，與本句語境不同。"
+        "set-mcq-25": "本句的「typeset」指「排字／排版」。",
+        "set-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-25"
     },
@@ -3418,11 +3142,9 @@ export default {
       "masked": "The designer ____.",
       "options": [
         "set-mcq-25",
-        "set-mcq-24",
-        "set-mcq-26",
-        "set-mcq-23",
-        "set-mcq-27",
-        "set-mcq-22"
+        "set-mcq-17",
+        "set-mcq-11",
+        "set-mcq-43"
       ],
       "explanation": "本句的「typeset the article」指「排字／排版」。",
       "sentenceIndex": 69,
@@ -3431,12 +3153,10 @@ export default {
         "typeset the article"
       ],
       "optionReasons": {
-        "set-mcq-25": "本句指「排字／排版」。",
-        "set-mcq-24": "「把頭髮整理並固定成某種髮型」是「set hair」的用法，與本句語境不同。",
-        "set-mcq-26": "「故事、電影等以某地／某時代為背景」是「be set in a place/time」的用法，與本句語境不同。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。",
-        "set-mcq-27": "「繃緊臉部，表現出決心」是「set your jaw/face」的用法，與本句語境不同。",
-        "set-mcq-22": "「液體或軟質材料凝固、硬化、定型」是「set — harden」的用法，與本句語境不同。"
+        "set-mcq-25": "本句的「typeset the article」指「排字／排版」。",
+        "set-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-25"
     },
@@ -3448,11 +3168,9 @@ export default {
       "masked": "The novel is ____.",
       "options": [
         "set-mcq-26",
-        "set-mcq-25",
-        "set-mcq-27",
-        "set-mcq-24",
-        "set-mcq-28",
-        "set-mcq-23"
+        "set-mcq-11",
+        "set-mcq-48",
+        "set-mcq-52"
       ],
       "explanation": "本句的「set in London」指「故事、電影等以某地／某時代為背景」。",
       "sentenceIndex": 70,
@@ -3461,12 +3179,10 @@ export default {
         "set in London"
       ],
       "optionReasons": {
-        "set-mcq-26": "本句指「故事、電影等以某地／某時代為背景」。",
-        "set-mcq-25": "「排字／排版」是「set type」的用法，與本句語境不同。",
-        "set-mcq-27": "「繃緊臉部，表現出決心」是「set your jaw/face」的用法，與本句語境不同。",
-        "set-mcq-24": "「把頭髮整理並固定成某種髮型」是「set hair」的用法，與本句語境不同。",
-        "set-mcq-28": "「太陽／月亮落到地平線以下」是「sun/moon set」的用法，與本句語境不同。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。"
+        "set-mcq-26": "本句的「set in London」指「故事、電影等以某地／某時代為背景」。",
+        "set-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-26"
     },
@@ -3478,11 +3194,9 @@ export default {
       "masked": "The film is ____.",
       "options": [
         "set-mcq-26",
-        "set-mcq-25",
-        "set-mcq-27",
-        "set-mcq-24",
-        "set-mcq-28",
-        "set-mcq-23"
+        "set-mcq-42",
+        "set-mcq-14",
+        "set-mcq-27"
       ],
       "explanation": "本句的「set in the 1980s」指「故事、電影等以某地／某時代為背景」。",
       "sentenceIndex": 71,
@@ -3491,12 +3205,10 @@ export default {
         "set in the 1980s"
       ],
       "optionReasons": {
-        "set-mcq-26": "本句指「故事、電影等以某地／某時代為背景」。",
-        "set-mcq-25": "「排字／排版」是「set type」的用法，與本句語境不同。",
-        "set-mcq-27": "「繃緊臉部，表現出決心」是「set your jaw/face」的用法，與本句語境不同。",
-        "set-mcq-24": "「把頭髮整理並固定成某種髮型」是「set hair」的用法，與本句語境不同。",
-        "set-mcq-28": "「太陽／月亮落到地平線以下」是「sun/moon set」的用法，與本句語境不同。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。"
+        "set-mcq-26": "本句的「set in the 1980s」指「故事、電影等以某地／某時代為背景」。",
+        "set-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-26"
     },
@@ -3508,11 +3220,9 @@ export default {
       "masked": "The story is ____.",
       "options": [
         "set-mcq-26",
-        "set-mcq-25",
-        "set-mcq-27",
-        "set-mcq-24",
-        "set-mcq-28",
-        "set-mcq-23"
+        "set-mcq-16",
+        "set-mcq-10",
+        "set-mcq-24"
       ],
       "explanation": "本句的「set against the background of war」指「故事、電影等以某地／某時代為背景」。",
       "sentenceIndex": 72,
@@ -3521,12 +3231,10 @@ export default {
         "set against the background of war"
       ],
       "optionReasons": {
-        "set-mcq-26": "本句指「故事、電影等以某地／某時代為背景」。",
-        "set-mcq-25": "「排字／排版」是「set type」的用法，與本句語境不同。",
-        "set-mcq-27": "「繃緊臉部，表現出決心」是「set your jaw/face」的用法，與本句語境不同。",
-        "set-mcq-24": "「把頭髮整理並固定成某種髮型」是「set hair」的用法，與本句語境不同。",
-        "set-mcq-28": "「太陽／月亮落到地平線以下」是「sun/moon set」的用法，與本句語境不同。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。"
+        "set-mcq-26": "本句的「set against the background of war」指「故事、電影等以某地／某時代為背景」。",
+        "set-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-26"
     },
@@ -3538,11 +3246,9 @@ export default {
       "masked": "The drama is ____.",
       "options": [
         "set-mcq-26",
-        "set-mcq-25",
-        "set-mcq-27",
-        "set-mcq-24",
         "set-mcq-28",
-        "set-mcq-23"
+        "set-mcq-50",
+        "set-mcq-61"
       ],
       "explanation": "本句的「set in a small village」指「故事、電影等以某地／某時代為背景」。",
       "sentenceIndex": 73,
@@ -3551,12 +3257,10 @@ export default {
         "set in a small village"
       ],
       "optionReasons": {
-        "set-mcq-26": "本句指「故事、電影等以某地／某時代為背景」。",
-        "set-mcq-25": "「排字／排版」是「set type」的用法，與本句語境不同。",
-        "set-mcq-27": "「繃緊臉部，表現出決心」是「set your jaw/face」的用法，與本句語境不同。",
-        "set-mcq-24": "「把頭髮整理並固定成某種髮型」是「set hair」的用法，與本句語境不同。",
-        "set-mcq-28": "「太陽／月亮落到地平線以下」是「sun/moon set」的用法，與本句語境不同。",
-        "set-mcq-23": "「把骨折部位復位以便癒合」是「set a bone」的用法，與本句語境不同。"
+        "set-mcq-26": "本句的「set in a small village」指「故事、電影等以某地／某時代為背景」。",
+        "set-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-26"
     },
@@ -3568,11 +3272,9 @@ export default {
       "masked": "She ____ and continued.",
       "options": [
         "set-mcq-27",
-        "set-mcq-26",
-        "set-mcq-28",
-        "set-mcq-25",
-        "set-mcq-29",
-        "set-mcq-24"
+        "set-mcq-62",
+        "set-mcq-43",
+        "set-mcq-57"
       ],
       "explanation": "本句的「set her jaw」指「繃緊臉部，表現出決心」。",
       "sentenceIndex": 74,
@@ -3581,12 +3283,10 @@ export default {
         "set her jaw"
       ],
       "optionReasons": {
-        "set-mcq-27": "本句指「繃緊臉部，表現出決心」。",
-        "set-mcq-26": "「故事、電影等以某地／某時代為背景」是「be set in a place/time」的用法，與本句語境不同。",
-        "set-mcq-28": "「太陽／月亮落到地平線以下」是「sun/moon set」的用法，與本句語境不同。",
-        "set-mcq-25": "「排字／排版」是「set type」的用法，與本句語境不同。",
-        "set-mcq-29": "「習慣、觀點等逐漸固定、不易改變」是「set — become fixed」的用法，與本句語境不同。",
-        "set-mcq-24": "「把頭髮整理並固定成某種髮型」是「set hair」的用法，與本句語境不同。"
+        "set-mcq-27": "本句的「set her jaw」指「繃緊臉部，表現出決心」。",
+        "set-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-27"
     },
@@ -3598,11 +3298,9 @@ export default {
       "masked": "He ____ in determination.",
       "options": [
         "set-mcq-27",
-        "set-mcq-26",
-        "set-mcq-28",
         "set-mcq-25",
         "set-mcq-29",
-        "set-mcq-24"
+        "set-mcq-28"
       ],
       "explanation": "本句的「set his face」指「繃緊臉部，表現出決心」。",
       "sentenceIndex": 75,
@@ -3611,12 +3309,10 @@ export default {
         "set his face"
       ],
       "optionReasons": {
-        "set-mcq-27": "本句指「繃緊臉部，表現出決心」。",
-        "set-mcq-26": "「故事、電影等以某地／某時代為背景」是「be set in a place/time」的用法，與本句語境不同。",
-        "set-mcq-28": "「太陽／月亮落到地平線以下」是「sun/moon set」的用法，與本句語境不同。",
-        "set-mcq-25": "「排字／排版」是「set type」的用法，與本句語境不同。",
-        "set-mcq-29": "「習慣、觀點等逐漸固定、不易改變」是「set — become fixed」的用法，與本句語境不同。",
-        "set-mcq-24": "「把頭髮整理並固定成某種髮型」是「set hair」的用法，與本句語境不同。"
+        "set-mcq-27": "本句的「set his face」指「繃緊臉部，表現出決心」。",
+        "set-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-27"
     },
@@ -3628,11 +3324,9 @@ export default {
       "masked": "The sun ____ at around six.",
       "options": [
         "set-mcq-28",
-        "set-mcq-27",
-        "set-mcq-29",
-        "set-mcq-26",
-        "set-mcq-30",
-        "set-mcq-25"
+        "set-mcq-39",
+        "set-mcq-24",
+        "set-mcq-06"
       ],
       "explanation": "本句的「sets」指「太陽／月亮落到地平線以下」。",
       "sentenceIndex": 76,
@@ -3641,12 +3335,10 @@ export default {
         "sets"
       ],
       "optionReasons": {
-        "set-mcq-28": "本句指「太陽／月亮落到地平線以下」。",
-        "set-mcq-27": "「繃緊臉部，表現出決心」是「set your jaw/face」的用法，與本句語境不同。",
-        "set-mcq-29": "「習慣、觀點等逐漸固定、不易改變」是「set — become fixed」的用法，與本句語境不同。",
-        "set-mcq-26": "「故事、電影等以某地／某時代為背景」是「be set in a place/time」的用法，與本句語境不同。",
-        "set-mcq-30": "「習慣或觀念固定，不願改變」是「set in your ways」的用法，與本句語境不同。",
-        "set-mcq-25": "「排字／排版」是「set type」的用法，與本句語境不同。"
+        "set-mcq-28": "本句的「sets」指「太陽／月亮落到地平線以下」。",
+        "set-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-28"
     },
@@ -3659,10 +3351,8 @@ export default {
       "options": [
         "set-mcq-28",
         "set-mcq-27",
-        "set-mcq-29",
-        "set-mcq-26",
-        "set-mcq-30",
-        "set-mcq-25"
+        "set-mcq-62",
+        "set-mcq-29"
       ],
       "explanation": "本句的「set」指「太陽／月亮落到地平線以下」。",
       "sentenceIndex": 77,
@@ -3671,12 +3361,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-28": "本句指「太陽／月亮落到地平線以下」。",
-        "set-mcq-27": "「繃緊臉部，表現出決心」是「set your jaw/face」的用法，與本句語境不同。",
-        "set-mcq-29": "「習慣、觀點等逐漸固定、不易改變」是「set — become fixed」的用法，與本句語境不同。",
-        "set-mcq-26": "「故事、電影等以某地／某時代為背景」是「be set in a place/time」的用法，與本句語境不同。",
-        "set-mcq-30": "「習慣或觀念固定，不願改變」是「set in your ways」的用法，與本句語境不同。",
-        "set-mcq-25": "「排字／排版」是「set type」的用法，與本句語境不同。"
+        "set-mcq-28": "本句的「set」指「太陽／月亮落到地平線以下」。",
+        "set-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-28"
     },
@@ -3688,11 +3376,9 @@ export default {
       "masked": "We arrived before ____.",
       "options": [
         "set-mcq-63",
-        "set-mcq-62",
-        "set-mcq-61",
-        "set-mcq-60",
-        "set-mcq-59",
-        "set-mcq-58"
+        "set-mcq-25",
+        "set-mcq-24",
+        "set-mcq-54"
       ],
       "explanation": "本句的「sunset」指「表示日落；日落時間」。",
       "sentenceIndex": 78,
@@ -3701,12 +3387,10 @@ export default {
         "sunset"
       ],
       "optionReasons": {
-        "set-mcq-63": "本句指「表示日落；日落時間」。",
-        "set-mcq-62": "「表示引發；觸發」是「25. set off something」的用法，與本句語境不同。",
-        "set-mcq-61": "「表示佈置；準備」是「17. set a room / scene / stage」的用法，與本句語境不同。",
-        "set-mcq-60": "「表示位置；姿態；形狀」是「13. set — position or arrangement」的用法，與本句語境不同。",
-        "set-mcq-59": "「表示直落盤數；連勝各盤」是「7. straight sets」的用法，與本句語境不同。",
-        "set-mcq-58": "「表示盤；局」是「6. set — division of a tennis or volleyball match」的用法，與本句語境不同。"
+        "set-mcq-63": "本句的「sunset」指「表示日落；日落時間」。",
+        "set-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-63"
     },
@@ -3718,10 +3402,8 @@ export default {
       "masked": "The beach is beautiful at ____.",
       "options": [
         "set-mcq-63",
-        "set-mcq-62",
-        "set-mcq-61",
-        "set-mcq-60",
-        "set-mcq-59",
+        "set-mcq-25",
+        "set-mcq-17",
         "set-mcq-58"
       ],
       "explanation": "本句的「sunset」指「表示日落；日落時間」。",
@@ -3731,12 +3413,10 @@ export default {
         "sunset"
       ],
       "optionReasons": {
-        "set-mcq-63": "本句指「表示日落；日落時間」。",
-        "set-mcq-62": "「表示引發；觸發」是「25. set off something」的用法，與本句語境不同。",
-        "set-mcq-61": "「表示佈置；準備」是「17. set a room / scene / stage」的用法，與本句語境不同。",
-        "set-mcq-60": "「表示位置；姿態；形狀」是「13. set — position or arrangement」的用法，與本句語境不同。",
-        "set-mcq-59": "「表示直落盤數；連勝各盤」是「7. straight sets」的用法，與本句語境不同。",
-        "set-mcq-58": "「表示盤；局」是「6. set — division of a tennis or volleyball match」的用法，與本句語境不同。"
+        "set-mcq-63": "本句的「sunset」指「表示日落；日落時間」。",
+        "set-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-63"
     },
@@ -3748,11 +3428,9 @@ export default {
       "masked": "Habits can become ____ over time.",
       "options": [
         "set-mcq-29",
-        "set-mcq-28",
-        "set-mcq-30",
         "set-mcq-27",
-        "set-mcq-31",
-        "set-mcq-26"
+        "set-mcq-46",
+        "set-mcq-28"
       ],
       "explanation": "本句的「set」指「習慣、觀點等逐漸固定、不易改變」。",
       "sentenceIndex": 80,
@@ -3761,12 +3439,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-29": "本句指「習慣、觀點等逐漸固定、不易改變」。",
-        "set-mcq-28": "「太陽／月亮落到地平線以下」是「sun/moon set」的用法，與本句語境不同。",
-        "set-mcq-30": "「習慣或觀念固定，不願改變」是「set in your ways」的用法，與本句語境不同。",
-        "set-mcq-27": "「繃緊臉部，表現出決心」是「set your jaw/face」的用法，與本句語境不同。",
-        "set-mcq-31": "「某種情況開始出現並持續，常指寒冷、恐慌等」是「set in」的用法，與本句語境不同。",
-        "set-mcq-26": "「故事、電影等以某地／某時代為背景」是「be set in a place/time」的用法，與本句語境不同。"
+        "set-mcq-29": "本句的「set」指「習慣、觀點等逐漸固定、不易改變」。",
+        "set-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-29"
     },
@@ -3778,11 +3454,9 @@ export default {
       "masked": "His views became increasingly ____.",
       "options": [
         "set-mcq-29",
-        "set-mcq-28",
-        "set-mcq-30",
         "set-mcq-27",
-        "set-mcq-31",
-        "set-mcq-26"
+        "set-mcq-13",
+        "set-mcq-62"
       ],
       "explanation": "本句的「set」指「習慣、觀點等逐漸固定、不易改變」。",
       "sentenceIndex": 81,
@@ -3791,12 +3465,10 @@ export default {
         "set"
       ],
       "optionReasons": {
-        "set-mcq-29": "本句指「習慣、觀點等逐漸固定、不易改變」。",
-        "set-mcq-28": "「太陽／月亮落到地平線以下」是「sun/moon set」的用法，與本句語境不同。",
-        "set-mcq-30": "「習慣或觀念固定，不願改變」是「set in your ways」的用法，與本句語境不同。",
-        "set-mcq-27": "「繃緊臉部，表現出決心」是「set your jaw/face」的用法，與本句語境不同。",
-        "set-mcq-31": "「某種情況開始出現並持續，常指寒冷、恐慌等」是「set in」的用法，與本句語境不同。",
-        "set-mcq-26": "「故事、電影等以某地／某時代為背景」是「be set in a place/time」的用法，與本句語境不同。"
+        "set-mcq-29": "本句的「set」指「習慣、觀點等逐漸固定、不易改變」。",
+        "set-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-29"
     },
@@ -3808,11 +3480,9 @@ export default {
       "masked": "He is very ____.",
       "options": [
         "set-mcq-30",
-        "set-mcq-29",
-        "set-mcq-31",
-        "set-mcq-28",
-        "set-mcq-32",
-        "set-mcq-27"
+        "set-mcq-48",
+        "set-mcq-57",
+        "set-mcq-62"
       ],
       "explanation": "本句的「set in his ways」指「習慣或觀念固定，不願改變」。",
       "sentenceIndex": 82,
@@ -3821,12 +3491,10 @@ export default {
         "set in his ways"
       ],
       "optionReasons": {
-        "set-mcq-30": "本句指「習慣或觀念固定，不願改變」。",
-        "set-mcq-29": "「習慣、觀點等逐漸固定、不易改變」是「set — become fixed」的用法，與本句語境不同。",
-        "set-mcq-31": "「某種情況開始出現並持續，常指寒冷、恐慌等」是「set in」的用法，與本句語境不同。",
-        "set-mcq-28": "「太陽／月亮落到地平線以下」是「sun/moon set」的用法，與本句語境不同。",
-        "set-mcq-32": "「出發」是「set out — journey」的用法，與本句語境不同。",
-        "set-mcq-27": "「繃緊臉部，表現出決心」是「set your jaw/face」的用法，與本句語境不同。"
+        "set-mcq-30": "本句的「set in his ways」指「習慣或觀念固定，不願改變」。",
+        "set-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-30"
     },
@@ -3838,11 +3506,9 @@ export default {
       "masked": "People sometimes become more ____ with age.",
       "options": [
         "set-mcq-30",
-        "set-mcq-29",
-        "set-mcq-31",
-        "set-mcq-28",
-        "set-mcq-32",
-        "set-mcq-27"
+        "set-mcq-08",
+        "set-mcq-58",
+        "set-mcq-60"
       ],
       "explanation": "本句的「set in their ways」指「習慣或觀念固定，不願改變」。",
       "sentenceIndex": 83,
@@ -3851,12 +3517,10 @@ export default {
         "set in their ways"
       ],
       "optionReasons": {
-        "set-mcq-30": "本句指「習慣或觀念固定，不願改變」。",
-        "set-mcq-29": "「習慣、觀點等逐漸固定、不易改變」是「set — become fixed」的用法，與本句語境不同。",
-        "set-mcq-31": "「某種情況開始出現並持續，常指寒冷、恐慌等」是「set in」的用法，與本句語境不同。",
-        "set-mcq-28": "「太陽／月亮落到地平線以下」是「sun/moon set」的用法，與本句語境不同。",
-        "set-mcq-32": "「出發」是「set out — journey」的用法，與本句語境不同。",
-        "set-mcq-27": "「繃緊臉部，表現出決心」是「set your jaw/face」的用法，與本句語境不同。"
+        "set-mcq-30": "本句的「set in their ways」指「習慣或觀念固定，不願改變」。",
+        "set-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-30"
     },
@@ -3868,11 +3532,9 @@ export default {
       "masked": "Winter has ____ early this year.",
       "options": [
         "set-mcq-31",
-        "set-mcq-30",
-        "set-mcq-32",
-        "set-mcq-29",
-        "set-mcq-33",
-        "set-mcq-28"
+        "set-mcq-46",
+        "set-mcq-10",
+        "set-mcq-16"
       ],
       "explanation": "本句的「set in」指「某種情況開始出現並持續，常指寒冷、恐慌等」。",
       "sentenceIndex": 84,
@@ -3881,12 +3543,10 @@ export default {
         "set in"
       ],
       "optionReasons": {
-        "set-mcq-31": "本句指「某種情況開始出現並持續，常指寒冷、恐慌等」。",
-        "set-mcq-30": "「習慣或觀念固定，不願改變」是「set in your ways」的用法，與本句語境不同。",
-        "set-mcq-32": "「出發」是「set out — journey」的用法，與本句語境不同。",
-        "set-mcq-29": "「習慣、觀點等逐漸固定、不易改變」是「set — become fixed」的用法，與本句語境不同。",
-        "set-mcq-33": "「著手嘗試做某事」是「set out — intention」的用法，與本句語境不同。",
-        "set-mcq-28": "「太陽／月亮落到地平線以下」是「sun/moon set」的用法，與本句語境不同。"
+        "set-mcq-31": "本句的「set in」指「某種情況開始出現並持續，常指寒冷、恐慌等」。",
+        "set-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-31"
     },
@@ -3898,11 +3558,9 @@ export default {
       "masked": "Panic began to ____.",
       "options": [
         "set-mcq-31",
-        "set-mcq-30",
-        "set-mcq-32",
-        "set-mcq-29",
-        "set-mcq-33",
-        "set-mcq-28"
+        "set-mcq-44",
+        "set-mcq-25",
+        "set-mcq-16"
       ],
       "explanation": "本句的「set in」指「某種情況開始出現並持續，常指寒冷、恐慌等」。",
       "sentenceIndex": 85,
@@ -3911,12 +3569,10 @@ export default {
         "set in"
       ],
       "optionReasons": {
-        "set-mcq-31": "本句指「某種情況開始出現並持續，常指寒冷、恐慌等」。",
-        "set-mcq-30": "「習慣或觀念固定，不願改變」是「set in your ways」的用法，與本句語境不同。",
-        "set-mcq-32": "「出發」是「set out — journey」的用法，與本句語境不同。",
-        "set-mcq-29": "「習慣、觀點等逐漸固定、不易改變」是「set — become fixed」的用法，與本句語境不同。",
-        "set-mcq-33": "「著手嘗試做某事」是「set out — intention」的用法，與本句語境不同。",
-        "set-mcq-28": "「太陽／月亮落到地平線以下」是「sun/moon set」的用法，與本句語境不同。"
+        "set-mcq-31": "本句的「set in」指「某種情況開始出現並持續，常指寒冷、恐慌等」。",
+        "set-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-31"
     },
@@ -3928,11 +3584,9 @@ export default {
       "masked": "She ____ for travel.",
       "options": [
         "set-mcq-39",
-        "set-mcq-38",
-        "set-mcq-40",
-        "set-mcq-37",
-        "set-mcq-41",
-        "set-mcq-36"
+        "set-mcq-17",
+        "set-mcq-42",
+        "set-mcq-11"
       ],
       "explanation": "本句的「set aside some money」指「留作特定用途；暫時擱置」。",
       "sentenceIndex": 86,
@@ -3941,12 +3595,10 @@ export default {
         "set aside some money"
       ],
       "optionReasons": {
-        "set-mcq-39": "本句指「留作特定用途；暫時擱置」。",
-        "set-mcq-38": "「設局陷害」是「set up — frame」的用法，與本句語境不同。",
-        "set-mcq-40": "「使進度延誤」是「set back — delay」的用法，與本句語境不同。",
-        "set-mcq-37": "「安排」是「set up — arrange」的用法，與本句語境不同。",
-        "set-mcq-41": "「使某人花費一筆錢」是「set back — cost」的用法，與本句語境不同。",
-        "set-mcq-36": "「安裝、架設、準備」是「set up — equipment」的用法，與本句語境不同。"
+        "set-mcq-39": "本句的「set aside some money」指「留作特定用途；暫時擱置」。",
+        "set-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-39"
     },
@@ -3958,11 +3610,9 @@ export default {
       "masked": "Let’s ____.",
       "options": [
         "set-mcq-39",
-        "set-mcq-38",
-        "set-mcq-40",
-        "set-mcq-37",
-        "set-mcq-41",
-        "set-mcq-36"
+        "set-mcq-18",
+        "set-mcq-06",
+        "set-mcq-42"
       ],
       "explanation": "本句的「set aside our differences」指「留作特定用途；暫時擱置」。",
       "sentenceIndex": 87,
@@ -3971,12 +3621,10 @@ export default {
         "set aside our differences"
       ],
       "optionReasons": {
-        "set-mcq-39": "本句指「留作特定用途；暫時擱置」。",
-        "set-mcq-38": "「設局陷害」是「set up — frame」的用法，與本句語境不同。",
-        "set-mcq-40": "「使進度延誤」是「set back — delay」的用法，與本句語境不同。",
-        "set-mcq-37": "「安排」是「set up — arrange」的用法，與本句語境不同。",
-        "set-mcq-41": "「使某人花費一筆錢」是「set back — cost」的用法，與本句語境不同。",
-        "set-mcq-36": "「安裝、架設、準備」是「set up — equipment」的用法，與本句語境不同。"
+        "set-mcq-39": "本句的「set aside our differences」指「留作特定用途；暫時擱置」。",
+        "set-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-39"
     },
@@ -3988,11 +3636,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "set-mcq-42",
-        "set-mcq-41",
-        "set-mcq-43",
-        "set-mcq-40",
-        "set-mcq-44",
-        "set-mcq-39"
+        "set-mcq-39",
+        "set-mcq-46",
+        "set-mcq-21"
       ],
       "explanation": "本句的「set about fixing the problem」指「著手做某事」。",
       "sentenceIndex": 88,
@@ -4001,12 +3647,10 @@ export default {
         "set about fixing the problem"
       ],
       "optionReasons": {
-        "set-mcq-42": "本句指「著手做某事」。",
-        "set-mcq-41": "「使某人花費一筆錢」是「set back — cost」的用法，與本句語境不同。",
-        "set-mcq-43": "「預先確定、不變的；固定的」是「set — fixed adjective」的用法，與本句語境不同。",
-        "set-mcq-40": "「使進度延誤」是「set back — delay」的用法，與本句語境不同。",
-        "set-mcq-44": "「固定價格／時間／結構」是「set price/time/structure」的用法，與本句語境不同。",
-        "set-mcq-39": "「留作特定用途；暫時擱置」是「set aside」的用法，與本句語境不同。"
+        "set-mcq-42": "本句的「set about fixing the problem」指「著手做某事」。",
+        "set-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-42"
     },
@@ -4018,11 +3662,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "set-mcq-42",
-        "set-mcq-41",
-        "set-mcq-43",
-        "set-mcq-40",
-        "set-mcq-44",
-        "set-mcq-39"
+        "set-mcq-13",
+        "set-mcq-48",
+        "set-mcq-54"
       ],
       "explanation": "本句的「set about preparing the room」指「著手做某事」。",
       "sentenceIndex": 89,
@@ -4031,12 +3673,10 @@ export default {
         "set about preparing the room"
       ],
       "optionReasons": {
-        "set-mcq-42": "本句指「著手做某事」。",
-        "set-mcq-41": "「使某人花費一筆錢」是「set back — cost」的用法，與本句語境不同。",
-        "set-mcq-43": "「預先確定、不變的；固定的」是「set — fixed adjective」的用法，與本句語境不同。",
-        "set-mcq-40": "「使進度延誤」是「set back — delay」的用法，與本句語境不同。",
-        "set-mcq-44": "「固定價格／時間／結構」是「set price/time/structure」的用法，與本句語境不同。",
-        "set-mcq-39": "「留作特定用途；暫時擱置」是「set aside」的用法，與本句語境不同。"
+        "set-mcq-42": "本句的「set about preparing the room」指「著手做某事」。",
+        "set-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-42"
     },
@@ -4049,10 +3689,8 @@ export default {
       "options": [
         "set-mcq-43",
         "set-mcq-42",
-        "set-mcq-44",
-        "set-mcq-41",
-        "set-mcq-45",
-        "set-mcq-40"
+        "set-mcq-52",
+        "set-mcq-25"
       ],
       "explanation": "本句的「set time」指「預先確定、不變的；固定的」。",
       "sentenceIndex": 90,
@@ -4061,12 +3699,10 @@ export default {
         "set time"
       ],
       "optionReasons": {
-        "set-mcq-43": "本句指「預先確定、不變的；固定的」。",
-        "set-mcq-42": "「著手做某事」是「set about」的用法，與本句語境不同。",
-        "set-mcq-44": "「固定價格／時間／結構」是「set price/time/structure」的用法，與本句語境不同。",
-        "set-mcq-41": "「使某人花費一筆錢」是「set back — cost」的用法，與本句語境不同。",
-        "set-mcq-45": "「準備／預計即將做某事」是「be set to do」的用法，與本句語境不同。",
-        "set-mcq-40": "「使進度延誤」是「set back — delay」的用法，與本句語境不同。"
+        "set-mcq-43": "本句的「set time」指「預先確定、不變的；固定的」。",
+        "set-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-43"
     },
@@ -4078,11 +3714,9 @@ export default {
       "masked": "The course follows a ____.",
       "options": [
         "set-mcq-43",
-        "set-mcq-42",
-        "set-mcq-44",
-        "set-mcq-41",
-        "set-mcq-45",
-        "set-mcq-40"
+        "set-mcq-16",
+        "set-mcq-28",
+        "set-mcq-31"
       ],
       "explanation": "本句的「set structure」指「預先確定、不變的；固定的」。",
       "sentenceIndex": 91,
@@ -4091,12 +3725,10 @@ export default {
         "set structure"
       ],
       "optionReasons": {
-        "set-mcq-43": "本句指「預先確定、不變的；固定的」。",
-        "set-mcq-42": "「著手做某事」是「set about」的用法，與本句語境不同。",
-        "set-mcq-44": "「固定價格／時間／結構」是「set price/time/structure」的用法，與本句語境不同。",
-        "set-mcq-41": "「使某人花費一筆錢」是「set back — cost」的用法，與本句語境不同。",
-        "set-mcq-45": "「準備／預計即將做某事」是「be set to do」的用法，與本句語境不同。",
-        "set-mcq-40": "「使進度延誤」是「set back — delay」的用法，與本句語境不同。"
+        "set-mcq-43": "本句的「set structure」指「預先確定、不變的；固定的」。",
+        "set-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-43"
     },
@@ -4108,11 +3740,9 @@ export default {
       "masked": "The tickets are sold at a ____.",
       "options": [
         "set-mcq-44",
-        "set-mcq-43",
-        "set-mcq-45",
-        "set-mcq-42",
-        "set-mcq-46",
-        "set-mcq-41"
+        "set-mcq-54",
+        "set-mcq-07",
+        "set-mcq-16"
       ],
       "explanation": "本句的「set price」指「固定價格／時間／結構」。",
       "sentenceIndex": 92,
@@ -4121,12 +3751,10 @@ export default {
         "set price"
       ],
       "optionReasons": {
-        "set-mcq-44": "本句指「固定價格／時間／結構」。",
-        "set-mcq-43": "「預先確定、不變的；固定的」是「set — fixed adjective」的用法，與本句語境不同。",
-        "set-mcq-45": "「準備／預計即將做某事」是「be set to do」的用法，與本句語境不同。",
-        "set-mcq-42": "「著手做某事」是「set about」的用法，與本句語境不同。",
-        "set-mcq-46": "「一切準備就緒」是「all set」的用法，與本句語境不同。",
-        "set-mcq-41": "「使某人花費一筆錢」是「set back — cost」的用法，與本句語境不同。"
+        "set-mcq-44": "本句的「set price」指「固定價格／時間／結構」。",
+        "set-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-44"
     },
@@ -4138,11 +3766,9 @@ export default {
       "masked": "There is a ____ for the service.",
       "options": [
         "set-mcq-44",
-        "set-mcq-43",
-        "set-mcq-45",
-        "set-mcq-42",
-        "set-mcq-46",
-        "set-mcq-41"
+        "set-mcq-52",
+        "set-mcq-54",
+        "set-mcq-28"
       ],
       "explanation": "本句的「set price」指「固定價格／時間／結構」。",
       "sentenceIndex": 93,
@@ -4151,12 +3777,10 @@ export default {
         "set price"
       ],
       "optionReasons": {
-        "set-mcq-44": "本句指「固定價格／時間／結構」。",
-        "set-mcq-43": "「預先確定、不變的；固定的」是「set — fixed adjective」的用法，與本句語境不同。",
-        "set-mcq-45": "「準備／預計即將做某事」是「be set to do」的用法，與本句語境不同。",
-        "set-mcq-42": "「著手做某事」是「set about」的用法，與本句語境不同。",
-        "set-mcq-46": "「一切準備就緒」是「all set」的用法，與本句語境不同。",
-        "set-mcq-41": "「使某人花費一筆錢」是「set back — cost」的用法，與本句語境不同。"
+        "set-mcq-44": "本句的「set price」指「固定價格／時間／結構」。",
+        "set-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-44"
     },
@@ -4168,11 +3792,9 @@ export default {
       "masked": "The company is ____ a new product.",
       "options": [
         "set-mcq-45",
-        "set-mcq-44",
-        "set-mcq-46",
-        "set-mcq-43",
-        "set-mcq-47",
-        "set-mcq-42"
+        "set-mcq-12",
+        "set-mcq-50",
+        "set-mcq-02"
       ],
       "explanation": "本句的「set to launch」指「準備／預計即將做某事」。",
       "sentenceIndex": 94,
@@ -4181,12 +3803,10 @@ export default {
         "set to launch"
       ],
       "optionReasons": {
-        "set-mcq-45": "本句指「準備／預計即將做某事」。",
-        "set-mcq-44": "「固定價格／時間／結構」是「set price/time/structure」的用法，與本句語境不同。",
-        "set-mcq-46": "「一切準備就緒」是「all set」的用法，與本句語境不同。",
-        "set-mcq-43": "「預先確定、不變的；固定的」是「set — fixed adjective」的用法，與本句語境不同。",
-        "set-mcq-47": "「下定決心要做某事」是「set on doing」的用法，與本句語境不同。",
-        "set-mcq-42": "「著手做某事」是「set about」的用法，與本句語境不同。"
+        "set-mcq-45": "本句的「set to launch」指「準備／預計即將做某事」。",
+        "set-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-45"
     },
@@ -4198,11 +3818,9 @@ export default {
       "masked": "Prices are ____.",
       "options": [
         "set-mcq-45",
-        "set-mcq-44",
-        "set-mcq-46",
-        "set-mcq-43",
-        "set-mcq-47",
-        "set-mcq-42"
+        "set-mcq-24",
+        "set-mcq-07",
+        "set-mcq-17"
       ],
       "explanation": "本句的「set to rise」指「準備／預計即將做某事」。",
       "sentenceIndex": 95,
@@ -4211,12 +3829,10 @@ export default {
         "set to rise"
       ],
       "optionReasons": {
-        "set-mcq-45": "本句指「準備／預計即將做某事」。",
-        "set-mcq-44": "「固定價格／時間／結構」是「set price/time/structure」的用法，與本句語境不同。",
-        "set-mcq-46": "「一切準備就緒」是「all set」的用法，與本句語境不同。",
-        "set-mcq-43": "「預先確定、不變的；固定的」是「set — fixed adjective」的用法，與本句語境不同。",
-        "set-mcq-47": "「下定決心要做某事」是「set on doing」的用法，與本句語境不同。",
-        "set-mcq-42": "「著手做某事」是「set about」的用法，與本句語境不同。"
+        "set-mcq-45": "本句的「set to rise」指「準備／預計即將做某事」。",
+        "set-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-45"
     },
@@ -4228,11 +3844,9 @@ export default {
       "masked": "Are you ____?",
       "options": [
         "set-mcq-46",
-        "set-mcq-45",
-        "set-mcq-47",
-        "set-mcq-44",
-        "set-mcq-48",
-        "set-mcq-43"
+        "set-mcq-60",
+        "set-mcq-31",
+        "set-mcq-47"
       ],
       "explanation": "本句的「all set」指「一切準備就緒」。",
       "sentenceIndex": 96,
@@ -4241,12 +3855,10 @@ export default {
         "all set"
       ],
       "optionReasons": {
-        "set-mcq-46": "本句指「一切準備就緒」。",
-        "set-mcq-45": "「準備／預計即將做某事」是「be set to do」的用法，與本句語境不同。",
-        "set-mcq-47": "「下定決心要做某事」是「set on doing」的用法，與本句語境不同。",
-        "set-mcq-44": "「固定價格／時間／結構」是「set price/time/structure」的用法，與本句語境不同。",
-        "set-mcq-48": "「堅決支持／反對某事」是「dead set on/against」的用法，與本句語境不同。",
-        "set-mcq-43": "「預先確定、不變的；固定的」是「set — fixed adjective」的用法，與本句語境不同。"
+        "set-mcq-46": "本句的「all set」指「一切準備就緒」。",
+        "set-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-46"
     },
@@ -4258,11 +3870,9 @@ export default {
       "masked": "Everything is ____ for tomorrow.",
       "options": [
         "set-mcq-46",
-        "set-mcq-45",
-        "set-mcq-47",
-        "set-mcq-44",
-        "set-mcq-48",
-        "set-mcq-43"
+        "set-mcq-50",
+        "set-mcq-42",
+        "set-mcq-30"
       ],
       "explanation": "本句的「all set」指「一切準備就緒」。",
       "sentenceIndex": 97,
@@ -4271,12 +3881,10 @@ export default {
         "all set"
       ],
       "optionReasons": {
-        "set-mcq-46": "本句指「一切準備就緒」。",
-        "set-mcq-45": "「準備／預計即將做某事」是「be set to do」的用法，與本句語境不同。",
-        "set-mcq-47": "「下定決心要做某事」是「set on doing」的用法，與本句語境不同。",
-        "set-mcq-44": "「固定價格／時間／結構」是「set price/time/structure」的用法，與本句語境不同。",
-        "set-mcq-48": "「堅決支持／反對某事」是「dead set on/against」的用法，與本句語境不同。",
-        "set-mcq-43": "「預先確定、不變的；固定的」是「set — fixed adjective」的用法，與本句語境不同。"
+        "set-mcq-46": "本句的「all set」指「一切準備就緒」。",
+        "set-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-46"
     },
@@ -4288,11 +3896,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "set-mcq-47",
-        "set-mcq-46",
-        "set-mcq-48",
-        "set-mcq-45",
-        "set-mcq-49",
-        "set-mcq-44"
+        "set-mcq-26",
+        "set-mcq-28",
+        "set-mcq-31"
       ],
       "explanation": "本句的「set on studying abroad」指「下定決心要做某事」。",
       "sentenceIndex": 98,
@@ -4301,12 +3907,10 @@ export default {
         "set on studying abroad"
       ],
       "optionReasons": {
-        "set-mcq-47": "本句指「下定決心要做某事」。",
-        "set-mcq-46": "「一切準備就緒」是「all set」的用法，與本句語境不同。",
-        "set-mcq-48": "「堅決支持／反對某事」是「dead set on/against」的用法，與本句語境不同。",
-        "set-mcq-45": "「準備／預計即將做某事」是「be set to do」的用法，與本句語境不同。",
-        "set-mcq-49": "「澄清錯誤印象、把事實說清楚」是「set the record straight」的用法，與本句語境不同。",
-        "set-mcq-44": "「固定價格／時間／結構」是「set price/time/structure」的用法，與本句語境不同。"
+        "set-mcq-47": "本句的「set on studying abroad」指「下定決心要做某事」。",
+        "set-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-47"
     },
@@ -4318,11 +3922,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "set-mcq-47",
-        "set-mcq-46",
-        "set-mcq-48",
-        "set-mcq-45",
-        "set-mcq-49",
-        "set-mcq-44"
+        "set-mcq-23",
+        "set-mcq-31",
+        "set-mcq-52"
       ],
       "explanation": "本句的「set on buying that car」指「下定決心要做某事」。",
       "sentenceIndex": 99,
@@ -4331,12 +3933,10 @@ export default {
         "set on buying that car"
       ],
       "optionReasons": {
-        "set-mcq-47": "本句指「下定決心要做某事」。",
-        "set-mcq-46": "「一切準備就緒」是「all set」的用法，與本句語境不同。",
-        "set-mcq-48": "「堅決支持／反對某事」是「dead set on/against」的用法，與本句語境不同。",
-        "set-mcq-45": "「準備／預計即將做某事」是「be set to do」的用法，與本句語境不同。",
-        "set-mcq-49": "「澄清錯誤印象、把事實說清楚」是「set the record straight」的用法，與本句語境不同。",
-        "set-mcq-44": "「固定價格／時間／結構」是「set price/time/structure」的用法，與本句語境不同。"
+        "set-mcq-47": "本句的「set on buying that car」指「下定決心要做某事」。",
+        "set-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-47"
     },
@@ -4348,11 +3948,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "set-mcq-48",
-        "set-mcq-47",
-        "set-mcq-49",
-        "set-mcq-46",
-        "set-mcq-50",
-        "set-mcq-45"
+        "set-mcq-24",
+        "set-mcq-08",
+        "set-mcq-12"
       ],
       "explanation": "本句的「dead set on leaving」指「堅決支持／反對某事」。",
       "sentenceIndex": 100,
@@ -4361,12 +3959,10 @@ export default {
         "dead set on leaving"
       ],
       "optionReasons": {
-        "set-mcq-48": "本句指「堅決支持／反對某事」。",
-        "set-mcq-47": "「下定決心要做某事」是「set on doing」的用法，與本句語境不同。",
-        "set-mcq-49": "「澄清錯誤印象、把事實說清楚」是「set the record straight」的用法，與本句語境不同。",
-        "set-mcq-46": "「一切準備就緒」是「all set」的用法，與本句語境不同。",
-        "set-mcq-50": "「下定決心要達成某事」是「set your mind on」的用法，與本句語境不同。",
-        "set-mcq-45": "「準備／預計即將做某事」是「be set to do」的用法，與本句語境不同。"
+        "set-mcq-48": "本句的「dead set on leaving」指「堅決支持／反對某事」。",
+        "set-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-48"
     },
@@ -4378,11 +3974,9 @@ export default {
       "masked": "His parents were ____.",
       "options": [
         "set-mcq-48",
-        "set-mcq-47",
-        "set-mcq-49",
-        "set-mcq-46",
-        "set-mcq-50",
-        "set-mcq-45"
+        "set-mcq-60",
+        "set-mcq-04",
+        "set-mcq-18"
       ],
       "explanation": "本句的「dead set against the idea」指「堅決支持／反對某事」。",
       "sentenceIndex": 101,
@@ -4391,12 +3985,10 @@ export default {
         "dead set against the idea"
       ],
       "optionReasons": {
-        "set-mcq-48": "本句指「堅決支持／反對某事」。",
-        "set-mcq-47": "「下定決心要做某事」是「set on doing」的用法，與本句語境不同。",
-        "set-mcq-49": "「澄清錯誤印象、把事實說清楚」是「set the record straight」的用法，與本句語境不同。",
-        "set-mcq-46": "「一切準備就緒」是「all set」的用法，與本句語境不同。",
-        "set-mcq-50": "「下定決心要達成某事」是「set your mind on」的用法，與本句語境不同。",
-        "set-mcq-45": "「準備／預計即將做某事」是「be set to do」的用法，與本句語境不同。"
+        "set-mcq-48": "本句的「dead set against the idea」指「堅決支持／反對某事」。",
+        "set-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-48"
     },
@@ -4408,11 +4000,9 @@ export default {
       "masked": "She wanted to ____.",
       "options": [
         "set-mcq-49",
-        "set-mcq-48",
-        "set-mcq-50",
-        "set-mcq-47",
-        "set-mcq-51",
-        "set-mcq-46"
+        "set-mcq-60",
+        "set-mcq-12",
+        "set-mcq-48"
       ],
       "explanation": "本句的「set the record straight」指「澄清錯誤印象、把事實說清楚」。",
       "sentenceIndex": 102,
@@ -4421,12 +4011,10 @@ export default {
         "set the record straight"
       ],
       "optionReasons": {
-        "set-mcq-49": "本句指「澄清錯誤印象、把事實說清楚」。",
-        "set-mcq-48": "「堅決支持／反對某事」是「dead set on/against」的用法，與本句語境不同。",
-        "set-mcq-50": "「下定決心要達成某事」是「set your mind on」的用法，與本句語境不同。",
-        "set-mcq-47": "「下定決心要做某事」是「set on doing」的用法，與本句語境不同。",
-        "set-mcq-51": "「為之後的事情定下基調／氣氛」是「set the tone」的用法，與本句語境不同。",
-        "set-mcq-46": "「一切準備就緒」是「all set」的用法，與本句語境不同。"
+        "set-mcq-49": "本句的「set the record straight」指「澄清錯誤印象、把事實說清楚」。",
+        "set-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-49"
     },
@@ -4438,11 +4026,9 @@ export default {
       "masked": "Let me ____ about what happened.",
       "options": [
         "set-mcq-49",
-        "set-mcq-48",
-        "set-mcq-50",
-        "set-mcq-47",
-        "set-mcq-51",
-        "set-mcq-46"
+        "set-mcq-13",
+        "set-mcq-11",
+        "set-mcq-18"
       ],
       "explanation": "本句的「set the record straight」指「澄清錯誤印象、把事實說清楚」。",
       "sentenceIndex": 103,
@@ -4451,12 +4037,10 @@ export default {
         "set the record straight"
       ],
       "optionReasons": {
-        "set-mcq-49": "本句指「澄清錯誤印象、把事實說清楚」。",
-        "set-mcq-48": "「堅決支持／反對某事」是「dead set on/against」的用法，與本句語境不同。",
-        "set-mcq-50": "「下定決心要達成某事」是「set your mind on」的用法，與本句語境不同。",
-        "set-mcq-47": "「下定決心要做某事」是「set on doing」的用法，與本句語境不同。",
-        "set-mcq-51": "「為之後的事情定下基調／氣氛」是「set the tone」的用法，與本句語境不同。",
-        "set-mcq-46": "「一切準備就緒」是「all set」的用法，與本句語境不同。"
+        "set-mcq-49": "本句的「set the record straight」指「澄清錯誤印象、把事實說清楚」。",
+        "set-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-49"
     },
@@ -4468,11 +4052,9 @@ export default {
       "masked": "Once she ____, she rarely gives up.",
       "options": [
         "set-mcq-50",
-        "set-mcq-49",
-        "set-mcq-51",
-        "set-mcq-48",
-        "set-mcq-52",
-        "set-mcq-47"
+        "set-mcq-56",
+        "set-mcq-57",
+        "set-mcq-08"
       ],
       "explanation": "本句的「sets her mind on something」指「下定決心要達成某事」。",
       "sentenceIndex": 104,
@@ -4481,12 +4063,10 @@ export default {
         "sets her mind on something"
       ],
       "optionReasons": {
-        "set-mcq-50": "本句指「下定決心要達成某事」。",
-        "set-mcq-49": "「澄清錯誤印象、把事實說清楚」是「set the record straight」的用法，與本句語境不同。",
-        "set-mcq-51": "「為之後的事情定下基調／氣氛」是「set the tone」的用法，與本句語境不同。",
-        "set-mcq-48": "「堅決支持／反對某事」是「dead set on/against」的用法，與本句語境不同。",
-        "set-mcq-52": "「為某件事創造條件／鋪路」是「set the stage for」的用法，與本句語境不同。",
-        "set-mcq-47": "「下定決心要做某事」是「set on doing」的用法，與本句語境不同。"
+        "set-mcq-50": "本句的「sets her mind on something」指「下定決心要達成某事」。",
+        "set-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-50"
     },
@@ -4498,11 +4078,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "set-mcq-50",
-        "set-mcq-49",
-        "set-mcq-51",
-        "set-mcq-48",
-        "set-mcq-52",
-        "set-mcq-47"
+        "set-mcq-17",
+        "set-mcq-18",
+        "set-mcq-52"
       ],
       "explanation": "本句的「set his mind on becoming a doctor」指「下定決心要達成某事」。",
       "sentenceIndex": 105,
@@ -4511,12 +4089,10 @@ export default {
         "set his mind on becoming a doctor"
       ],
       "optionReasons": {
-        "set-mcq-50": "本句指「下定決心要達成某事」。",
-        "set-mcq-49": "「澄清錯誤印象、把事實說清楚」是「set the record straight」的用法，與本句語境不同。",
-        "set-mcq-51": "「為之後的事情定下基調／氣氛」是「set the tone」的用法，與本句語境不同。",
-        "set-mcq-48": "「堅決支持／反對某事」是「dead set on/against」的用法，與本句語境不同。",
-        "set-mcq-52": "「為某件事創造條件／鋪路」是「set the stage for」的用法，與本句語境不同。",
-        "set-mcq-47": "「下定決心要做某事」是「set on doing」的用法，與本句語境不同。"
+        "set-mcq-50": "本句的「set his mind on becoming a doctor」指「下定決心要達成某事」。",
+        "set-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-50"
     },
@@ -4528,11 +4104,9 @@ export default {
       "masked": "Her opening remarks ____ for the meeting.",
       "options": [
         "set-mcq-51",
-        "set-mcq-50",
-        "set-mcq-52",
+        "set-mcq-25",
         "set-mcq-49",
-        "set-mcq-53",
-        "set-mcq-48"
+        "set-mcq-60"
       ],
       "explanation": "本句的「set the tone」指「為之後的事情定下基調／氣氛」。",
       "sentenceIndex": 106,
@@ -4541,12 +4115,10 @@ export default {
         "set the tone"
       ],
       "optionReasons": {
-        "set-mcq-51": "本句指「為之後的事情定下基調／氣氛」。",
-        "set-mcq-50": "「下定決心要達成某事」是「set your mind on」的用法，與本句語境不同。",
-        "set-mcq-52": "「為某件事創造條件／鋪路」是「set the stage for」的用法，與本句語境不同。",
-        "set-mcq-49": "「澄清錯誤印象、把事實說清楚」是「set the record straight」的用法，與本句語境不同。",
-        "set-mcq-53": "「踏入、進入某地方」是「set foot in/on」的用法，與本句語境不同。",
-        "set-mcq-48": "「堅決支持／反對某事」是「dead set on/against」的用法，與本句語境不同。"
+        "set-mcq-51": "本句的「set the tone」指「為之後的事情定下基調／氣氛」。",
+        "set-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-51"
     },
@@ -4558,11 +4130,9 @@ export default {
       "masked": "The music ____.",
       "options": [
         "set-mcq-51",
-        "set-mcq-50",
-        "set-mcq-52",
-        "set-mcq-49",
         "set-mcq-53",
-        "set-mcq-48"
+        "set-mcq-27",
+        "set-mcq-02"
       ],
       "explanation": "本句的「set a relaxed tone」指「為之後的事情定下基調／氣氛」。",
       "sentenceIndex": 107,
@@ -4571,12 +4141,10 @@ export default {
         "set a relaxed tone"
       ],
       "optionReasons": {
-        "set-mcq-51": "本句指「為之後的事情定下基調／氣氛」。",
-        "set-mcq-50": "「下定決心要達成某事」是「set your mind on」的用法，與本句語境不同。",
-        "set-mcq-52": "「為某件事創造條件／鋪路」是「set the stage for」的用法，與本句語境不同。",
-        "set-mcq-49": "「澄清錯誤印象、把事實說清楚」是「set the record straight」的用法，與本句語境不同。",
-        "set-mcq-53": "「踏入、進入某地方」是「set foot in/on」的用法，與本句語境不同。",
-        "set-mcq-48": "「堅決支持／反對某事」是「dead set on/against」的用法，與本句語境不同。"
+        "set-mcq-51": "本句的「set a relaxed tone」指「為之後的事情定下基調／氣氛」。",
+        "set-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-51"
     },
@@ -4588,11 +4156,9 @@ export default {
       "masked": "The agreement ____.",
       "options": [
         "set-mcq-52",
-        "set-mcq-51",
-        "set-mcq-53",
-        "set-mcq-50",
-        "set-mcq-54",
-        "set-mcq-49"
+        "set-mcq-31",
+        "set-mcq-28",
+        "set-mcq-56"
       ],
       "explanation": "本句的「set the stage for further cooperation」指「為某件事創造條件／鋪路」。",
       "sentenceIndex": 108,
@@ -4601,12 +4167,10 @@ export default {
         "set the stage for further cooperation"
       ],
       "optionReasons": {
-        "set-mcq-52": "本句指「為某件事創造條件／鋪路」。",
-        "set-mcq-51": "「為之後的事情定下基調／氣氛」是「set the tone」的用法，與本句語境不同。",
-        "set-mcq-53": "「踏入、進入某地方」是「set foot in/on」的用法，與本句語境不同。",
-        "set-mcq-50": "「下定決心要達成某事」是「set your mind on」的用法，與本句語境不同。",
-        "set-mcq-54": "「看到，尤其指第一次看見」是「set eyes on」的用法，與本句語境不同。",
-        "set-mcq-49": "「澄清錯誤印象、把事實說清楚」是「set the record straight」的用法，與本句語境不同。"
+        "set-mcq-52": "本句的「set the stage for further cooperation」指「為某件事創造條件／鋪路」。",
+        "set-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-52"
     },
@@ -4618,11 +4182,9 @@ export default {
       "masked": "His early success ____.",
       "options": [
         "set-mcq-52",
-        "set-mcq-51",
-        "set-mcq-53",
-        "set-mcq-50",
-        "set-mcq-54",
-        "set-mcq-49"
+        "set-mcq-14",
+        "set-mcq-60",
+        "set-mcq-51"
       ],
       "explanation": "本句的「set the stage for a long career」指「為某件事創造條件／鋪路」。",
       "sentenceIndex": 109,
@@ -4631,12 +4193,10 @@ export default {
         "set the stage for a long career"
       ],
       "optionReasons": {
-        "set-mcq-52": "本句指「為某件事創造條件／鋪路」。",
-        "set-mcq-51": "「為之後的事情定下基調／氣氛」是「set the tone」的用法，與本句語境不同。",
-        "set-mcq-53": "「踏入、進入某地方」是「set foot in/on」的用法，與本句語境不同。",
-        "set-mcq-50": "「下定決心要達成某事」是「set your mind on」的用法，與本句語境不同。",
-        "set-mcq-54": "「看到，尤其指第一次看見」是「set eyes on」的用法，與本句語境不同。",
-        "set-mcq-49": "「澄清錯誤印象、把事實說清楚」是「set the record straight」的用法，與本句語境不同。"
+        "set-mcq-52": "本句的「set the stage for a long career」指「為某件事創造條件／鋪路」。",
+        "set-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-52"
     },
@@ -4648,11 +4208,9 @@ export default {
       "masked": "I had never ____ the city before.",
       "options": [
         "set-mcq-53",
-        "set-mcq-52",
-        "set-mcq-54",
-        "set-mcq-51",
-        "set-mcq-55",
-        "set-mcq-50"
+        "set-mcq-21",
+        "set-mcq-56",
+        "set-mcq-28"
       ],
       "explanation": "本句的「set foot in」指「踏入、進入某地方」。",
       "sentenceIndex": 110,
@@ -4661,12 +4219,10 @@ export default {
         "set foot in"
       ],
       "optionReasons": {
-        "set-mcq-53": "本句指「踏入、進入某地方」。",
-        "set-mcq-52": "「為某件事創造條件／鋪路」是「set the stage for」的用法，與本句語境不同。",
-        "set-mcq-54": "「看到，尤其指第一次看見」是「set eyes on」的用法，與本句語境不同。",
-        "set-mcq-51": "「為之後的事情定下基調／氣氛」是「set the tone」的用法，與本句語境不同。",
-        "set-mcq-55": "「環境／故事背景／設備設定值／鑲嵌底座」是「setting」的用法，與本句語境不同。",
-        "set-mcq-50": "「下定決心要達成某事」是「set your mind on」的用法，與本句語境不同。"
+        "set-mcq-53": "本句的「set foot in」指「踏入、進入某地方」。",
+        "set-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-53"
     },
@@ -4678,11 +4234,9 @@ export default {
       "masked": "He promised never to ____ the property again.",
       "options": [
         "set-mcq-53",
-        "set-mcq-52",
-        "set-mcq-54",
-        "set-mcq-51",
-        "set-mcq-55",
-        "set-mcq-50"
+        "set-mcq-50",
+        "set-mcq-17",
+        "set-mcq-23"
       ],
       "explanation": "本句的「set foot on」指「踏入、進入某地方」。",
       "sentenceIndex": 111,
@@ -4691,12 +4245,10 @@ export default {
         "set foot on"
       ],
       "optionReasons": {
-        "set-mcq-53": "本句指「踏入、進入某地方」。",
-        "set-mcq-52": "「為某件事創造條件／鋪路」是「set the stage for」的用法，與本句語境不同。",
-        "set-mcq-54": "「看到，尤其指第一次看見」是「set eyes on」的用法，與本句語境不同。",
-        "set-mcq-51": "「為之後的事情定下基調／氣氛」是「set the tone」的用法，與本句語境不同。",
-        "set-mcq-55": "「環境／故事背景／設備設定值／鑲嵌底座」是「setting」的用法，與本句語境不同。",
-        "set-mcq-50": "「下定決心要達成某事」是「set your mind on」的用法，與本句語境不同。"
+        "set-mcq-53": "本句的「set foot on」指「踏入、進入某地方」。",
+        "set-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-53"
     },
@@ -4708,11 +4260,9 @@ export default {
       "masked": "It was the most beautiful place I had ever ____.",
       "options": [
         "set-mcq-54",
-        "set-mcq-53",
-        "set-mcq-55",
         "set-mcq-52",
-        "set-mcq-56",
-        "set-mcq-51"
+        "set-mcq-58",
+        "set-mcq-43"
       ],
       "explanation": "本句的「set eyes on」指「看到，尤其指第一次看見」。",
       "sentenceIndex": 112,
@@ -4721,12 +4271,10 @@ export default {
         "set eyes on"
       ],
       "optionReasons": {
-        "set-mcq-54": "本句指「看到，尤其指第一次看見」。",
-        "set-mcq-53": "「踏入、進入某地方」是「set foot in/on」的用法，與本句語境不同。",
-        "set-mcq-55": "「環境／故事背景／設備設定值／鑲嵌底座」是「setting」的用法，與本句語境不同。",
-        "set-mcq-52": "「為某件事創造條件／鋪路」是「set the stage for」的用法，與本句語境不同。",
-        "set-mcq-56": "「設置、配置、安排或架構」是「setup」的用法，與本句語境不同。",
-        "set-mcq-51": "「為之後的事情定下基調／氣氛」是「set the tone」的用法，與本句語境不同。"
+        "set-mcq-54": "本句的「set eyes on」指「看到，尤其指第一次看見」。",
+        "set-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-54"
     },
@@ -4738,11 +4286,9 @@ export default {
       "masked": "The moment she ____ the painting, she loved it.",
       "options": [
         "set-mcq-54",
-        "set-mcq-53",
-        "set-mcq-55",
-        "set-mcq-52",
-        "set-mcq-56",
-        "set-mcq-51"
+        "set-mcq-49",
+        "set-mcq-44",
+        "set-mcq-04"
       ],
       "explanation": "本句的「set eyes on」指「看到，尤其指第一次看見」。",
       "sentenceIndex": 113,
@@ -4751,12 +4297,10 @@ export default {
         "set eyes on"
       ],
       "optionReasons": {
-        "set-mcq-54": "本句指「看到，尤其指第一次看見」。",
-        "set-mcq-53": "「踏入、進入某地方」是「set foot in/on」的用法，與本句語境不同。",
-        "set-mcq-55": "「環境／故事背景／設備設定值／鑲嵌底座」是「setting」的用法，與本句語境不同。",
-        "set-mcq-52": "「為某件事創造條件／鋪路」是「set the stage for」的用法，與本句語境不同。",
-        "set-mcq-56": "「設置、配置、安排或架構」是「setup」的用法，與本句語境不同。",
-        "set-mcq-51": "「為之後的事情定下基調／氣氛」是「set the tone」的用法，與本句語境不同。"
+        "set-mcq-54": "本句的「set eyes on」指「看到，尤其指第一次看見」。",
+        "set-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-54"
     },
@@ -4768,11 +4312,9 @@ export default {
       "masked": "The recording ____ is quite simple.",
       "options": [
         "set-mcq-56",
-        "set-mcq-55",
-        "set-mcq-57",
-        "set-mcq-54",
-        "set-mcq-58",
-        "set-mcq-53"
+        "set-mcq-18",
+        "set-mcq-28",
+        "set-mcq-52"
       ],
       "explanation": "本句的「setup」指「設置、配置、安排或架構」。",
       "sentenceIndex": 114,
@@ -4781,12 +4323,10 @@ export default {
         "setup"
       ],
       "optionReasons": {
-        "set-mcq-56": "本句指「設置、配置、安排或架構」。",
-        "set-mcq-55": "「環境／故事背景／設備設定值／鑲嵌底座」是「setting」的用法，與本句語境不同。",
-        "set-mcq-57": "「妨礙進展的挫折／阻礙」是「setback」的用法，與本句語境不同。",
-        "set-mcq-54": "「看到，尤其指第一次看見」是「set eyes on」的用法，與本句語境不同。",
-        "set-mcq-58": "「表示盤；局」是「6. set — division of a tennis or volleyball match」的用法，與本句語境不同。",
-        "set-mcq-53": "「踏入、進入某地方」是「set foot in/on」的用法，與本句語境不同。"
+        "set-mcq-56": "本句的「setup」指「設置、配置、安排或架構」。",
+        "set-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-56"
     },
@@ -4798,11 +4338,9 @@ export default {
       "masked": "It was a clever ____.",
       "options": [
         "set-mcq-56",
-        "set-mcq-55",
-        "set-mcq-57",
-        "set-mcq-54",
+        "set-mcq-07",
         "set-mcq-58",
-        "set-mcq-53"
+        "set-mcq-52"
       ],
       "explanation": "本句的「set-up」指「設置、配置、安排或架構」。",
       "sentenceIndex": 115,
@@ -4811,12 +4349,10 @@ export default {
         "set-up"
       ],
       "optionReasons": {
-        "set-mcq-56": "本句指「設置、配置、安排或架構」。",
-        "set-mcq-55": "「環境／故事背景／設備設定值／鑲嵌底座」是「setting」的用法，與本句語境不同。",
-        "set-mcq-57": "「妨礙進展的挫折／阻礙」是「setback」的用法，與本句語境不同。",
-        "set-mcq-54": "「看到，尤其指第一次看見」是「set eyes on」的用法，與本句語境不同。",
-        "set-mcq-58": "「表示盤；局」是「6. set — division of a tennis or volleyball match」的用法，與本句語境不同。",
-        "set-mcq-53": "「踏入、進入某地方」是「set foot in/on」的用法，與本句語境不同。"
+        "set-mcq-56": "本句的「set-up」指「設置、配置、安排或架構」。",
+        "set-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-56"
     },
@@ -4828,10 +4364,8 @@ export default {
       "masked": "The injury was a major ____.",
       "options": [
         "set-mcq-57",
-        "set-mcq-56",
-        "set-mcq-58",
-        "set-mcq-55",
         "set-mcq-59",
+        "set-mcq-26",
         "set-mcq-54"
       ],
       "explanation": "本句的「setback」指「妨礙進展的挫折／阻礙」。",
@@ -4841,12 +4375,10 @@ export default {
         "setback"
       ],
       "optionReasons": {
-        "set-mcq-57": "本句指「妨礙進展的挫折／阻礙」。",
-        "set-mcq-56": "「設置、配置、安排或架構」是「setup」的用法，與本句語境不同。",
-        "set-mcq-58": "「表示盤；局」是「6. set — division of a tennis or volleyball match」的用法，與本句語境不同。",
-        "set-mcq-55": "「環境／故事背景／設備設定值／鑲嵌底座」是「setting」的用法，與本句語境不同。",
-        "set-mcq-59": "「表示直落盤數；連勝各盤」是「7. straight sets」的用法，與本句語境不同。",
-        "set-mcq-54": "「看到，尤其指第一次看見」是「set eyes on」的用法，與本句語境不同。"
+        "set-mcq-57": "本句的「setback」指「妨礙進展的挫折／阻礙」。",
+        "set-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-57"
     },
@@ -4858,11 +4390,9 @@ export default {
       "masked": "The project suffered another ____.",
       "options": [
         "set-mcq-57",
-        "set-mcq-56",
-        "set-mcq-58",
-        "set-mcq-55",
-        "set-mcq-59",
-        "set-mcq-54"
+        "set-mcq-09",
+        "set-mcq-51",
+        "set-mcq-16"
       ],
       "explanation": "本句的「setback」指「妨礙進展的挫折／阻礙」。",
       "sentenceIndex": 117,
@@ -4871,12 +4401,10 @@ export default {
         "setback"
       ],
       "optionReasons": {
-        "set-mcq-57": "本句指「妨礙進展的挫折／阻礙」。",
-        "set-mcq-56": "「設置、配置、安排或架構」是「setup」的用法，與本句語境不同。",
-        "set-mcq-58": "「表示盤；局」是「6. set — division of a tennis or volleyball match」的用法，與本句語境不同。",
-        "set-mcq-55": "「環境／故事背景／設備設定值／鑲嵌底座」是「setting」的用法，與本句語境不同。",
-        "set-mcq-59": "「表示直落盤數；連勝各盤」是「7. straight sets」的用法，與本句語境不同。",
-        "set-mcq-54": "「看到，尤其指第一次看見」是「set eyes on」的用法，與本句語境不同。"
+        "set-mcq-57": "本句的「setback」指「妨礙進展的挫折／阻礙」。",
+        "set-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "set-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "set-mcq-57"
     }
@@ -4888,5 +4416,7 @@ export default {
     "sha256": "cf40ea514ede2ca65702530dc8778d1aa89cb47bfb1f81db6b38f98b21b0591e",
     "pages": 31
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -454,11 +454,9 @@ export default {
       "masked": "The glass has a small ____.",
       "options": [
         "flaw-mcq-01",
-        "flaw-mcq-02",
-        "flaw-mcq-03",
+        "flaw-mcq-12",
         "flaw-mcq-04",
-        "flaw-mcq-05",
-        "flaw-mcq-06"
+        "flaw-mcq-07"
       ],
       "explanation": "本句的「flaw」指「材料、物件表面或結構中的瑕疵／缺陷」。",
       "sentenceIndex": 2,
@@ -467,12 +465,10 @@ export default {
         "flaw"
       ],
       "optionReasons": {
-        "flaw-mcq-01": "本句指「材料、物件表面或結構中的瑕疵／缺陷」。",
-        "flaw-mcq-02": "「會削弱物件安全性或可靠性的結構缺陷」與本句語境不同。",
-        "flaw-mcq-03": "「設計本身存在的缺陷」與本句語境不同。",
-        "flaw-mcq-04": "「軟體／系統中可能造成安全風險的漏洞」與本句語境不同。",
-        "flaw-mcq-05": "「論點、理論或推理中的邏輯漏洞／缺陷」與本句語境不同。",
-        "flaw-mcq-06": "「推理過程中的邏輯錯誤／漏洞」與本句語境不同。"
+        "flaw-mcq-01": "本句的「flaw」指「材料、物件表面或結構中的瑕疵／缺陷」。",
+        "flaw-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-01"
     },
@@ -484,11 +480,9 @@ export default {
       "masked": "The inspector found a ____ in the metal.",
       "options": [
         "flaw-mcq-01",
-        "flaw-mcq-02",
-        "flaw-mcq-03",
+        "flaw-mcq-14",
         "flaw-mcq-04",
-        "flaw-mcq-05",
-        "flaw-mcq-06"
+        "flaw-mcq-07"
       ],
       "explanation": "本句的「flaw」指「材料、物件表面或結構中的瑕疵／缺陷」。",
       "sentenceIndex": 3,
@@ -497,12 +491,10 @@ export default {
         "flaw"
       ],
       "optionReasons": {
-        "flaw-mcq-01": "本句指「材料、物件表面或結構中的瑕疵／缺陷」。",
-        "flaw-mcq-02": "「會削弱物件安全性或可靠性的結構缺陷」與本句語境不同。",
-        "flaw-mcq-03": "「設計本身存在的缺陷」與本句語境不同。",
-        "flaw-mcq-04": "「軟體／系統中可能造成安全風險的漏洞」與本句語境不同。",
-        "flaw-mcq-05": "「論點、理論或推理中的邏輯漏洞／缺陷」與本句語境不同。",
-        "flaw-mcq-06": "「推理過程中的邏輯錯誤／漏洞」與本句語境不同。"
+        "flaw-mcq-01": "本句的「flaw」指「材料、物件表面或結構中的瑕疵／缺陷」。",
+        "flaw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-01"
     },
@@ -514,11 +506,7 @@ export default {
       "masked": "A hidden ____ weakened the bridge.",
       "options": [
         "flaw-mcq-02",
-        "flaw-mcq-01",
-        "flaw-mcq-03",
-        "flaw-mcq-04",
-        "flaw-mcq-05",
-        "flaw-mcq-06"
+        "flaw-mcq-15"
       ],
       "explanation": "本句的「flaw」指「會削弱物件安全性或可靠性的結構缺陷」。",
       "sentenceIndex": 4,
@@ -527,12 +515,8 @@ export default {
         "flaw"
       ],
       "optionReasons": {
-        "flaw-mcq-02": "本句指「會削弱物件安全性或可靠性的結構缺陷」。",
-        "flaw-mcq-01": "「材料、物件表面或結構中的瑕疵／缺陷」與本句語境不同。",
-        "flaw-mcq-03": "「設計本身存在的缺陷」與本句語境不同。",
-        "flaw-mcq-04": "「軟體／系統中可能造成安全風險的漏洞」與本句語境不同。",
-        "flaw-mcq-05": "「論點、理論或推理中的邏輯漏洞／缺陷」與本句語境不同。",
-        "flaw-mcq-06": "「推理過程中的邏輯錯誤／漏洞」與本句語境不同。"
+        "flaw-mcq-02": "本句的「flaw」指「會削弱物件安全性或可靠性的結構缺陷」。",
+        "flaw-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-02"
     },
@@ -544,11 +528,8 @@ export default {
       "masked": "The part failed because of a manufacturing ____.",
       "options": [
         "flaw-mcq-02",
-        "flaw-mcq-01",
-        "flaw-mcq-03",
-        "flaw-mcq-04",
-        "flaw-mcq-05",
-        "flaw-mcq-06"
+        "flaw-mcq-12",
+        "flaw-mcq-16"
       ],
       "explanation": "本句的「flaw」指「會削弱物件安全性或可靠性的結構缺陷」。",
       "sentenceIndex": 5,
@@ -557,12 +538,9 @@ export default {
         "flaw"
       ],
       "optionReasons": {
-        "flaw-mcq-02": "本句指「會削弱物件安全性或可靠性的結構缺陷」。",
-        "flaw-mcq-01": "「材料、物件表面或結構中的瑕疵／缺陷」與本句語境不同。",
-        "flaw-mcq-03": "「設計本身存在的缺陷」與本句語境不同。",
-        "flaw-mcq-04": "「軟體／系統中可能造成安全風險的漏洞」與本句語境不同。",
-        "flaw-mcq-05": "「論點、理論或推理中的邏輯漏洞／缺陷」與本句語境不同。",
-        "flaw-mcq-06": "「推理過程中的邏輯錯誤／漏洞」與本句語境不同。"
+        "flaw-mcq-02": "本句的「flaw」指「會削弱物件安全性或可靠性的結構缺陷」。",
+        "flaw-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-02"
     },
@@ -574,11 +552,9 @@ export default {
       "masked": "The failure was caused by a ____.",
       "options": [
         "flaw-mcq-03",
-        "flaw-mcq-02",
+        "flaw-mcq-12",
         "flaw-mcq-04",
-        "flaw-mcq-01",
-        "flaw-mcq-05",
-        "flaw-mcq-06"
+        "flaw-mcq-16"
       ],
       "explanation": "本句的「design flaw」指「設計本身存在的缺陷」。",
       "sentenceIndex": 8,
@@ -587,12 +563,10 @@ export default {
         "design flaw"
       ],
       "optionReasons": {
-        "flaw-mcq-03": "本句指「設計本身存在的缺陷」。",
-        "flaw-mcq-02": "「會削弱物件安全性或可靠性的結構缺陷」與本句語境不同。",
-        "flaw-mcq-04": "「軟體／系統中可能造成安全風險的漏洞」與本句語境不同。",
-        "flaw-mcq-01": "「材料、物件表面或結構中的瑕疵／缺陷」與本句語境不同。",
-        "flaw-mcq-05": "「論點、理論或推理中的邏輯漏洞／缺陷」與本句語境不同。",
-        "flaw-mcq-06": "「推理過程中的邏輯錯誤／漏洞」與本句語境不同。"
+        "flaw-mcq-03": "本句的「design flaw」指「設計本身存在的缺陷」。",
+        "flaw-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-03"
     },
@@ -604,11 +578,9 @@ export default {
       "masked": "The update fixed a major ____.",
       "options": [
         "flaw-mcq-03",
-        "flaw-mcq-02",
-        "flaw-mcq-04",
-        "flaw-mcq-01",
-        "flaw-mcq-05",
-        "flaw-mcq-06"
+        "flaw-mcq-06",
+        "flaw-mcq-16",
+        "flaw-mcq-07"
       ],
       "explanation": "本句的「design flaw」指「設計本身存在的缺陷」。",
       "sentenceIndex": 9,
@@ -617,12 +589,10 @@ export default {
         "design flaw"
       ],
       "optionReasons": {
-        "flaw-mcq-03": "本句指「設計本身存在的缺陷」。",
-        "flaw-mcq-02": "「會削弱物件安全性或可靠性的結構缺陷」與本句語境不同。",
-        "flaw-mcq-04": "「軟體／系統中可能造成安全風險的漏洞」與本句語境不同。",
-        "flaw-mcq-01": "「材料、物件表面或結構中的瑕疵／缺陷」與本句語境不同。",
-        "flaw-mcq-05": "「論點、理論或推理中的邏輯漏洞／缺陷」與本句語境不同。",
-        "flaw-mcq-06": "「推理過程中的邏輯錯誤／漏洞」與本句語境不同。"
+        "flaw-mcq-03": "本句的「design flaw」指「設計本身存在的缺陷」。",
+        "flaw-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-03"
     },
@@ -634,11 +604,9 @@ export default {
       "masked": "Researchers found a ____ in the software.",
       "options": [
         "flaw-mcq-04",
-        "flaw-mcq-03",
-        "flaw-mcq-05",
-        "flaw-mcq-02",
-        "flaw-mcq-06",
-        "flaw-mcq-01"
+        "flaw-mcq-01",
+        "flaw-mcq-12",
+        "flaw-mcq-07"
       ],
       "explanation": "本句的「security flaw」指「軟體／系統中可能造成安全風險的漏洞」。",
       "sentenceIndex": 10,
@@ -647,12 +615,10 @@ export default {
         "security flaw"
       ],
       "optionReasons": {
-        "flaw-mcq-04": "本句指「軟體／系統中可能造成安全風險的漏洞」。",
-        "flaw-mcq-03": "「設計本身存在的缺陷」與本句語境不同。",
-        "flaw-mcq-05": "「論點、理論或推理中的邏輯漏洞／缺陷」與本句語境不同。",
-        "flaw-mcq-02": "「會削弱物件安全性或可靠性的結構缺陷」與本句語境不同。",
-        "flaw-mcq-06": "「推理過程中的邏輯錯誤／漏洞」與本句語境不同。",
-        "flaw-mcq-01": "「材料、物件表面或結構中的瑕疵／缺陷」與本句語境不同。"
+        "flaw-mcq-04": "本句的「security flaw」指「軟體／系統中可能造成安全風險的漏洞」。",
+        "flaw-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-04"
     },
@@ -664,11 +630,9 @@ export default {
       "masked": "The patch fixes the ____.",
       "options": [
         "flaw-mcq-04",
-        "flaw-mcq-03",
-        "flaw-mcq-05",
-        "flaw-mcq-02",
-        "flaw-mcq-06",
-        "flaw-mcq-01"
+        "flaw-mcq-07",
+        "flaw-mcq-01",
+        "flaw-mcq-14"
       ],
       "explanation": "本句的「security flaw」指「軟體／系統中可能造成安全風險的漏洞」。",
       "sentenceIndex": 11,
@@ -677,12 +641,10 @@ export default {
         "security flaw"
       ],
       "optionReasons": {
-        "flaw-mcq-04": "本句指「軟體／系統中可能造成安全風險的漏洞」。",
-        "flaw-mcq-03": "「設計本身存在的缺陷」與本句語境不同。",
-        "flaw-mcq-05": "「論點、理論或推理中的邏輯漏洞／缺陷」與本句語境不同。",
-        "flaw-mcq-02": "「會削弱物件安全性或可靠性的結構缺陷」與本句語境不同。",
-        "flaw-mcq-06": "「推理過程中的邏輯錯誤／漏洞」與本句語境不同。",
-        "flaw-mcq-01": "「材料、物件表面或結構中的瑕疵／缺陷」與本句語境不同。"
+        "flaw-mcq-04": "本句的「security flaw」指「軟體／系統中可能造成安全風險的漏洞」。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-04"
     },
@@ -694,11 +656,7 @@ export default {
       "masked": "There is a serious ____.",
       "options": [
         "flaw-mcq-05",
-        "flaw-mcq-04",
-        "flaw-mcq-06",
-        "flaw-mcq-03",
-        "flaw-mcq-07",
-        "flaw-mcq-02"
+        "flaw-mcq-15"
       ],
       "explanation": "本句的「flaw in the argument」指「論點、理論或推理中的邏輯漏洞／缺陷」。",
       "sentenceIndex": 12,
@@ -707,12 +665,8 @@ export default {
         "flaw in the argument"
       ],
       "optionReasons": {
-        "flaw-mcq-05": "本句指「論點、理論或推理中的邏輯漏洞／缺陷」。",
-        "flaw-mcq-04": "「軟體／系統中可能造成安全風險的漏洞」與本句語境不同。",
-        "flaw-mcq-06": "「推理過程中的邏輯錯誤／漏洞」與本句語境不同。",
-        "flaw-mcq-03": "「設計本身存在的缺陷」與本句語境不同。",
-        "flaw-mcq-07": "「個人性格中的弱點／缺點」與本句語境不同。",
-        "flaw-mcq-02": "「會削弱物件安全性或可靠性的結構缺陷」與本句語境不同。"
+        "flaw-mcq-05": "本句的「flaw in the argument」指「論點、理論或推理中的邏輯漏洞／缺陷」。",
+        "flaw-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-05"
     },
@@ -724,11 +678,7 @@ export default {
       "masked": "The theory contains several logical ____.",
       "options": [
         "flaw-mcq-05",
-        "flaw-mcq-04",
-        "flaw-mcq-06",
-        "flaw-mcq-03",
-        "flaw-mcq-07",
-        "flaw-mcq-02"
+        "flaw-mcq-14"
       ],
       "explanation": "本句的「flaws」指「論點、理論或推理中的邏輯漏洞／缺陷」。",
       "sentenceIndex": 13,
@@ -737,12 +687,8 @@ export default {
         "flaws"
       ],
       "optionReasons": {
-        "flaw-mcq-05": "本句指「論點、理論或推理中的邏輯漏洞／缺陷」。",
-        "flaw-mcq-04": "「軟體／系統中可能造成安全風險的漏洞」與本句語境不同。",
-        "flaw-mcq-06": "「推理過程中的邏輯錯誤／漏洞」與本句語境不同。",
-        "flaw-mcq-03": "「設計本身存在的缺陷」與本句語境不同。",
-        "flaw-mcq-07": "「個人性格中的弱點／缺點」與本句語境不同。",
-        "flaw-mcq-02": "「會削弱物件安全性或可靠性的結構缺陷」與本句語境不同。"
+        "flaw-mcq-05": "本句的「flaws」指「論點、理論或推理中的邏輯漏洞／缺陷」。",
+        "flaw-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-05"
     },
@@ -754,11 +700,9 @@ export default {
       "masked": "The conclusion depends on a ____.",
       "options": [
         "flaw-mcq-06",
-        "flaw-mcq-05",
-        "flaw-mcq-07",
-        "flaw-mcq-04",
-        "flaw-mcq-08",
-        "flaw-mcq-03"
+        "flaw-mcq-03",
+        "flaw-mcq-16",
+        "flaw-mcq-07"
       ],
       "explanation": "本句的「logical flaw」指「推理過程中的邏輯錯誤／漏洞」。",
       "sentenceIndex": 14,
@@ -767,12 +711,10 @@ export default {
         "logical flaw"
       ],
       "optionReasons": {
-        "flaw-mcq-06": "本句指「推理過程中的邏輯錯誤／漏洞」。",
-        "flaw-mcq-05": "「論點、理論或推理中的邏輯漏洞／缺陷」與本句語境不同。",
-        "flaw-mcq-07": "「個人性格中的弱點／缺點」與本句語境不同。",
-        "flaw-mcq-04": "「軟體／系統中可能造成安全風險的漏洞」與本句語境不同。",
-        "flaw-mcq-08": "「人格或性格方面的缺陷」與本句語境不同。",
-        "flaw-mcq-03": "「設計本身存在的缺陷」與本句語境不同。"
+        "flaw-mcq-06": "本句的「logical flaw」指「推理過程中的邏輯錯誤／漏洞」。",
+        "flaw-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-06"
     },
@@ -784,11 +726,9 @@ export default {
       "masked": "She pointed out a ____.",
       "options": [
         "flaw-mcq-06",
-        "flaw-mcq-05",
+        "flaw-mcq-03",
         "flaw-mcq-07",
-        "flaw-mcq-04",
-        "flaw-mcq-08",
-        "flaw-mcq-03"
+        "flaw-mcq-16"
       ],
       "explanation": "本句的「flaw in his reasoning」指「推理過程中的邏輯錯誤／漏洞」。",
       "sentenceIndex": 15,
@@ -797,12 +737,10 @@ export default {
         "flaw in his reasoning"
       ],
       "optionReasons": {
-        "flaw-mcq-06": "本句指「推理過程中的邏輯錯誤／漏洞」。",
-        "flaw-mcq-05": "「論點、理論或推理中的邏輯漏洞／缺陷」與本句語境不同。",
-        "flaw-mcq-07": "「個人性格中的弱點／缺點」與本句語境不同。",
-        "flaw-mcq-04": "「軟體／系統中可能造成安全風險的漏洞」與本句語境不同。",
-        "flaw-mcq-08": "「人格或性格方面的缺陷」與本句語境不同。",
-        "flaw-mcq-03": "「設計本身存在的缺陷」與本句語境不同。"
+        "flaw-mcq-06": "本句的「flaw in his reasoning」指「推理過程中的邏輯錯誤／漏洞」。",
+        "flaw-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-06"
     },
@@ -814,11 +752,9 @@ export default {
       "masked": "Everyone has character ____.",
       "options": [
         "flaw-mcq-07",
-        "flaw-mcq-06",
-        "flaw-mcq-08",
-        "flaw-mcq-05",
-        "flaw-mcq-09",
-        "flaw-mcq-04"
+        "flaw-mcq-12",
+        "flaw-mcq-04",
+        "flaw-mcq-13"
       ],
       "explanation": "本句的「flaws」指「個人性格中的弱點／缺點」。",
       "sentenceIndex": 16,
@@ -827,12 +763,10 @@ export default {
         "flaws"
       ],
       "optionReasons": {
-        "flaw-mcq-07": "本句指「個人性格中的弱點／缺點」。",
-        "flaw-mcq-06": "「推理過程中的邏輯錯誤／漏洞」與本句語境不同。",
-        "flaw-mcq-08": "「人格或性格方面的缺陷」與本句語境不同。",
-        "flaw-mcq-05": "「論點、理論或推理中的邏輯漏洞／缺陷」與本句語境不同。",
-        "flaw-mcq-09": "「計畫、提議或想法中降低可行性的缺點／漏洞」與本句語境不同。",
-        "flaw-mcq-04": "「軟體／系統中可能造成安全風險的漏洞」與本句語境不同。"
+        "flaw-mcq-07": "本句的「flaws」指「個人性格中的弱點／缺點」。",
+        "flaw-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-07"
     },
@@ -844,11 +778,9 @@ export default {
       "masked": "His greatest ____ is impatience.",
       "options": [
         "flaw-mcq-07",
-        "flaw-mcq-06",
-        "flaw-mcq-08",
-        "flaw-mcq-05",
-        "flaw-mcq-09",
-        "flaw-mcq-04"
+        "flaw-mcq-14",
+        "flaw-mcq-04",
+        "flaw-mcq-19"
       ],
       "explanation": "本句的「flaw」指「個人性格中的弱點／缺點」。",
       "sentenceIndex": 17,
@@ -857,12 +789,10 @@ export default {
         "flaw"
       ],
       "optionReasons": {
-        "flaw-mcq-07": "本句指「個人性格中的弱點／缺點」。",
-        "flaw-mcq-06": "「推理過程中的邏輯錯誤／漏洞」與本句語境不同。",
-        "flaw-mcq-08": "「人格或性格方面的缺陷」與本句語境不同。",
-        "flaw-mcq-05": "「論點、理論或推理中的邏輯漏洞／缺陷」與本句語境不同。",
-        "flaw-mcq-09": "「計畫、提議或想法中降低可行性的缺點／漏洞」與本句語境不同。",
-        "flaw-mcq-04": "「軟體／系統中可能造成安全風險的漏洞」與本句語境不同。"
+        "flaw-mcq-07": "本句的「flaw」指「個人性格中的弱點／缺點」。",
+        "flaw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-07"
     },
@@ -874,11 +804,8 @@ export default {
       "masked": "Pride is his main ____.",
       "options": [
         "flaw-mcq-08",
-        "flaw-mcq-07",
-        "flaw-mcq-09",
-        "flaw-mcq-06",
-        "flaw-mcq-10",
-        "flaw-mcq-05"
+        "flaw-mcq-15",
+        "flaw-mcq-04"
       ],
       "explanation": "本句的「character flaw」指「人格或性格方面的缺陷」。",
       "sentenceIndex": 18,
@@ -887,12 +814,9 @@ export default {
         "character flaw"
       ],
       "optionReasons": {
-        "flaw-mcq-08": "本句指「人格或性格方面的缺陷」。",
-        "flaw-mcq-07": "「個人性格中的弱點／缺點」與本句語境不同。",
-        "flaw-mcq-09": "「計畫、提議或想法中降低可行性的缺點／漏洞」與本句語境不同。",
-        "flaw-mcq-06": "「推理過程中的邏輯錯誤／漏洞」與本句語境不同。",
-        "flaw-mcq-10": "「使某物出現缺陷；削弱其完整性」與本句語境不同。",
-        "flaw-mcq-05": "「論點、理論或推理中的邏輯漏洞／缺陷」與本句語境不同。"
+        "flaw-mcq-08": "本句的「character flaw」指「人格或性格方面的缺陷」。",
+        "flaw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-08"
     },
@@ -904,11 +828,8 @@ export default {
       "masked": "The novel gives each character believable ____.",
       "options": [
         "flaw-mcq-08",
-        "flaw-mcq-07",
-        "flaw-mcq-09",
-        "flaw-mcq-06",
-        "flaw-mcq-10",
-        "flaw-mcq-05"
+        "flaw-mcq-15",
+        "flaw-mcq-04"
       ],
       "explanation": "本句的「flaws」指「人格或性格方面的缺陷」。",
       "sentenceIndex": 19,
@@ -917,12 +838,9 @@ export default {
         "flaws"
       ],
       "optionReasons": {
-        "flaw-mcq-08": "本句指「人格或性格方面的缺陷」。",
-        "flaw-mcq-07": "「個人性格中的弱點／缺點」與本句語境不同。",
-        "flaw-mcq-09": "「計畫、提議或想法中降低可行性的缺點／漏洞」與本句語境不同。",
-        "flaw-mcq-06": "「推理過程中的邏輯錯誤／漏洞」與本句語境不同。",
-        "flaw-mcq-10": "「使某物出現缺陷；削弱其完整性」與本句語境不同。",
-        "flaw-mcq-05": "「論點、理論或推理中的邏輯漏洞／缺陷」與本句語境不同。"
+        "flaw-mcq-08": "本句的「flaws」指「人格或性格方面的缺陷」。",
+        "flaw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-08"
     },
@@ -934,11 +852,8 @@ export default {
       "masked": "The plan has one obvious ____.",
       "options": [
         "flaw-mcq-09",
-        "flaw-mcq-08",
-        "flaw-mcq-10",
-        "flaw-mcq-07",
-        "flaw-mcq-11",
-        "flaw-mcq-06"
+        "flaw-mcq-15",
+        "flaw-mcq-20"
       ],
       "explanation": "本句的「flaw」指「計畫、提議或想法中降低可行性的缺點／漏洞」。",
       "sentenceIndex": 20,
@@ -947,12 +862,9 @@ export default {
         "flaw"
       ],
       "optionReasons": {
-        "flaw-mcq-09": "本句指「計畫、提議或想法中降低可行性的缺點／漏洞」。",
-        "flaw-mcq-08": "「人格或性格方面的缺陷」與本句語境不同。",
-        "flaw-mcq-10": "「使某物出現缺陷；削弱其完整性」與本句語境不同。",
-        "flaw-mcq-07": "「個人性格中的弱點／缺點」與本句語境不同。",
-        "flaw-mcq-11": "「含有錯誤、弱點或缺陷的；不完美的」與本句語境不同。",
-        "flaw-mcq-06": "「推理過程中的邏輯錯誤／漏洞」與本句語境不同。"
+        "flaw-mcq-09": "本句的「flaw」指「計畫、提議或想法中降低可行性的缺點／漏洞」。",
+        "flaw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-09"
     },
@@ -964,11 +876,8 @@ export default {
       "masked": "We identified several ____ in the proposal.",
       "options": [
         "flaw-mcq-09",
-        "flaw-mcq-08",
-        "flaw-mcq-10",
-        "flaw-mcq-07",
-        "flaw-mcq-11",
-        "flaw-mcq-06"
+        "flaw-mcq-14",
+        "flaw-mcq-01"
       ],
       "explanation": "本句的「flaws」指「計畫、提議或想法中降低可行性的缺點／漏洞」。",
       "sentenceIndex": 21,
@@ -977,12 +886,9 @@ export default {
         "flaws"
       ],
       "optionReasons": {
-        "flaw-mcq-09": "本句指「計畫、提議或想法中降低可行性的缺點／漏洞」。",
-        "flaw-mcq-08": "「人格或性格方面的缺陷」與本句語境不同。",
-        "flaw-mcq-10": "「使某物出現缺陷；削弱其完整性」與本句語境不同。",
-        "flaw-mcq-07": "「個人性格中的弱點／缺點」與本句語境不同。",
-        "flaw-mcq-11": "「含有錯誤、弱點或缺陷的；不完美的」與本句語境不同。",
-        "flaw-mcq-06": "「推理過程中的邏輯錯誤／漏洞」與本句語境不同。"
+        "flaw-mcq-09": "本句的「flaws」指「計畫、提議或想法中降低可行性的缺點／漏洞」。",
+        "flaw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-09"
     },
@@ -994,11 +900,7 @@ export default {
       "masked": "The method is fundamentally ____.",
       "options": [
         "flaw-mcq-11",
-        "flaw-mcq-10",
-        "flaw-mcq-12",
-        "flaw-mcq-09",
-        "flaw-mcq-13",
-        "flaw-mcq-08"
+        "flaw-mcq-04"
       ],
       "explanation": "本句的「flawed」指「含有錯誤、弱點或缺陷的；不完美的」。",
       "sentenceIndex": 24,
@@ -1007,12 +909,8 @@ export default {
         "flawed"
       ],
       "optionReasons": {
-        "flaw-mcq-11": "本句指「含有錯誤、弱點或缺陷的；不完美的」。",
-        "flaw-mcq-10": "「使某物出現缺陷；削弱其完整性」與本句語境不同。",
-        "flaw-mcq-12": "「內含邏輯問題或錯誤的推理」與本句語境不同。",
-        "flaw-mcq-09": "「計畫、提議或想法中降低可行性的缺點／漏洞」與本句語境不同。",
-        "flaw-mcq-13": "「沒有任何瑕疵或缺陷的；完美無缺的」與本句語境不同。",
-        "flaw-mcq-08": "「人格或性格方面的缺陷」與本句語境不同。"
+        "flaw-mcq-11": "本句的「flawed」指「含有錯誤、弱點或缺陷的；不完美的」。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-11"
     },
@@ -1024,11 +922,7 @@ export default {
       "masked": "The character is deeply ____ but believable.",
       "options": [
         "flaw-mcq-11",
-        "flaw-mcq-10",
-        "flaw-mcq-12",
-        "flaw-mcq-09",
-        "flaw-mcq-13",
-        "flaw-mcq-08"
+        "flaw-mcq-04"
       ],
       "explanation": "本句的「flawed」指「含有錯誤、弱點或缺陷的；不完美的」。",
       "sentenceIndex": 25,
@@ -1037,12 +931,8 @@ export default {
         "flawed"
       ],
       "optionReasons": {
-        "flaw-mcq-11": "本句指「含有錯誤、弱點或缺陷的；不完美的」。",
-        "flaw-mcq-10": "「使某物出現缺陷；削弱其完整性」與本句語境不同。",
-        "flaw-mcq-12": "「內含邏輯問題或錯誤的推理」與本句語境不同。",
-        "flaw-mcq-09": "「計畫、提議或想法中降低可行性的缺點／漏洞」與本句語境不同。",
-        "flaw-mcq-13": "「沒有任何瑕疵或缺陷的；完美無缺的」與本句語境不同。",
-        "flaw-mcq-08": "「人格或性格方面的缺陷」與本句語境不同。"
+        "flaw-mcq-11": "本句的「flawed」指「含有錯誤、弱點或缺陷的；不完美的」。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-11"
     },
@@ -1054,11 +944,9 @@ export default {
       "masked": "The conclusion is based on ____.",
       "options": [
         "flaw-mcq-12",
-        "flaw-mcq-11",
-        "flaw-mcq-13",
-        "flaw-mcq-10",
-        "flaw-mcq-14",
-        "flaw-mcq-09"
+        "flaw-mcq-08",
+        "flaw-mcq-04",
+        "flaw-mcq-16"
       ],
       "explanation": "本句的「flawed reasoning」指「內含邏輯問題或錯誤的推理」。",
       "sentenceIndex": 26,
@@ -1067,12 +955,10 @@ export default {
         "flawed reasoning"
       ],
       "optionReasons": {
-        "flaw-mcq-12": "本句指「內含邏輯問題或錯誤的推理」。",
-        "flaw-mcq-11": "「含有錯誤、弱點或缺陷的；不完美的」與本句語境不同。",
-        "flaw-mcq-13": "「沒有任何瑕疵或缺陷的；完美無缺的」與本句語境不同。",
-        "flaw-mcq-10": "「使某物出現缺陷；削弱其完整性」與本句語境不同。",
-        "flaw-mcq-14": "「沒有明顯錯誤、無可挑剔的」與本句語境不同。",
-        "flaw-mcq-09": "「計畫、提議或想法中降低可行性的缺點／漏洞」與本句語境不同。"
+        "flaw-mcq-12": "本句的「flawed reasoning」指「內含邏輯問題或錯誤的推理」。",
+        "flaw-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-12"
     },
@@ -1084,11 +970,9 @@ export default {
       "masked": "His argument was logically ____.",
       "options": [
         "flaw-mcq-12",
-        "flaw-mcq-11",
-        "flaw-mcq-13",
-        "flaw-mcq-10",
-        "flaw-mcq-14",
-        "flaw-mcq-09"
+        "flaw-mcq-08",
+        "flaw-mcq-04",
+        "flaw-mcq-16"
       ],
       "explanation": "本句的「flawed」指「內含邏輯問題或錯誤的推理」。",
       "sentenceIndex": 27,
@@ -1097,12 +981,10 @@ export default {
         "flawed"
       ],
       "optionReasons": {
-        "flaw-mcq-12": "本句指「內含邏輯問題或錯誤的推理」。",
-        "flaw-mcq-11": "「含有錯誤、弱點或缺陷的；不完美的」與本句語境不同。",
-        "flaw-mcq-13": "「沒有任何瑕疵或缺陷的；完美無缺的」與本句語境不同。",
-        "flaw-mcq-10": "「使某物出現缺陷；削弱其完整性」與本句語境不同。",
-        "flaw-mcq-14": "「沒有明顯錯誤、無可挑剔的」與本句語境不同。",
-        "flaw-mcq-09": "「計畫、提議或想法中降低可行性的缺點／漏洞」與本句語境不同。"
+        "flaw-mcq-12": "本句的「flawed」指「內含邏輯問題或錯誤的推理」。",
+        "flaw-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-12"
     },
@@ -1115,10 +997,8 @@ export default {
       "options": [
         "flaw-mcq-13",
         "flaw-mcq-12",
-        "flaw-mcq-14",
-        "flaw-mcq-11",
-        "flaw-mcq-15",
-        "flaw-mcq-10"
+        "flaw-mcq-04",
+        "flaw-mcq-07"
       ],
       "explanation": "本句的「flawless」指「沒有任何瑕疵或缺陷的；完美無缺的」。",
       "sentenceIndex": 28,
@@ -1127,12 +1007,10 @@ export default {
         "flawless"
       ],
       "optionReasons": {
-        "flaw-mcq-13": "本句指「沒有任何瑕疵或缺陷的；完美無缺的」。",
-        "flaw-mcq-12": "「內含邏輯問題或錯誤的推理」與本句語境不同。",
-        "flaw-mcq-14": "「沒有明顯錯誤、無可挑剔的」與本句語境不同。",
-        "flaw-mcq-11": "「含有錯誤、弱點或缺陷的；不完美的」與本句語境不同。",
-        "flaw-mcq-15": "「毫無錯誤／瑕疵地；完美地」與本句語境不同。",
-        "flaw-mcq-10": "「使某物出現缺陷；削弱其完整性」與本句語境不同。"
+        "flaw-mcq-13": "本句的「flawless」指「沒有任何瑕疵或缺陷的；完美無缺的」。",
+        "flaw-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-13"
     },
@@ -1144,11 +1022,8 @@ export default {
       "masked": "No system is completely ____.",
       "options": [
         "flaw-mcq-13",
-        "flaw-mcq-12",
-        "flaw-mcq-14",
-        "flaw-mcq-11",
-        "flaw-mcq-15",
-        "flaw-mcq-10"
+        "flaw-mcq-06",
+        "flaw-mcq-07"
       ],
       "explanation": "本句的「flawless」指「沒有任何瑕疵或缺陷的；完美無缺的」。",
       "sentenceIndex": 29,
@@ -1157,12 +1032,9 @@ export default {
         "flawless"
       ],
       "optionReasons": {
-        "flaw-mcq-13": "本句指「沒有任何瑕疵或缺陷的；完美無缺的」。",
-        "flaw-mcq-12": "「內含邏輯問題或錯誤的推理」與本句語境不同。",
-        "flaw-mcq-14": "「沒有明顯錯誤、無可挑剔的」與本句語境不同。",
-        "flaw-mcq-11": "「含有錯誤、弱點或缺陷的；不完美的」與本句語境不同。",
-        "flaw-mcq-15": "「毫無錯誤／瑕疵地；完美地」與本句語境不同。",
-        "flaw-mcq-10": "「使某物出現缺陷；削弱其完整性」與本句語境不同。"
+        "flaw-mcq-13": "本句的「flawless」指「沒有任何瑕疵或缺陷的；完美無缺的」。",
+        "flaw-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-13"
     },
@@ -1174,11 +1046,9 @@ export default {
       "masked": "She gave a ____.",
       "options": [
         "flaw-mcq-14",
-        "flaw-mcq-13",
-        "flaw-mcq-15",
-        "flaw-mcq-12",
-        "flaw-mcq-16",
-        "flaw-mcq-11"
+        "flaw-mcq-04",
+        "flaw-mcq-01",
+        "flaw-mcq-07"
       ],
       "explanation": "本句的「flawless performance」指「沒有明顯錯誤、無可挑剔的」。",
       "sentenceIndex": 30,
@@ -1187,12 +1057,10 @@ export default {
         "flawless performance"
       ],
       "optionReasons": {
-        "flaw-mcq-14": "本句指「沒有明顯錯誤、無可挑剔的」。",
-        "flaw-mcq-13": "「沒有任何瑕疵或缺陷的；完美無缺的」與本句語境不同。",
-        "flaw-mcq-15": "「毫無錯誤／瑕疵地；完美地」與本句語境不同。",
-        "flaw-mcq-12": "「內含邏輯問題或錯誤的推理」與本句語境不同。",
-        "flaw-mcq-16": "「沒有任何瑕疵的狀態；完美無缺」與本句語境不同。",
-        "flaw-mcq-11": "「含有錯誤、弱點或缺陷的；不完美的」與本句語境不同。"
+        "flaw-mcq-14": "本句的「flawless performance」指「沒有明顯錯誤、無可挑剔的」。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-14"
     },
@@ -1204,11 +1072,8 @@ export default {
       "masked": "His pronunciation was nearly ____.",
       "options": [
         "flaw-mcq-14",
-        "flaw-mcq-13",
-        "flaw-mcq-15",
-        "flaw-mcq-12",
-        "flaw-mcq-16",
-        "flaw-mcq-11"
+        "flaw-mcq-08",
+        "flaw-mcq-04"
       ],
       "explanation": "本句的「flawless」指「沒有明顯錯誤、無可挑剔的」。",
       "sentenceIndex": 31,
@@ -1217,12 +1082,9 @@ export default {
         "flawless"
       ],
       "optionReasons": {
-        "flaw-mcq-14": "本句指「沒有明顯錯誤、無可挑剔的」。",
-        "flaw-mcq-13": "「沒有任何瑕疵或缺陷的；完美無缺的」與本句語境不同。",
-        "flaw-mcq-15": "「毫無錯誤／瑕疵地；完美地」與本句語境不同。",
-        "flaw-mcq-12": "「內含邏輯問題或錯誤的推理」與本句語境不同。",
-        "flaw-mcq-16": "「沒有任何瑕疵的狀態；完美無缺」與本句語境不同。",
-        "flaw-mcq-11": "「含有錯誤、弱點或缺陷的；不完美的」與本句語境不同。"
+        "flaw-mcq-14": "本句的「flawless」指「沒有明顯錯誤、無可挑剔的」。",
+        "flaw-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-14"
     },
@@ -1234,11 +1096,8 @@ export default {
       "masked": "The argument would require ____.",
       "options": [
         "flaw-mcq-15",
-        "flaw-mcq-14",
-        "flaw-mcq-16",
-        "flaw-mcq-13",
-        "flaw-mcq-17",
-        "flaw-mcq-12"
+        "flaw-mcq-04",
+        "flaw-mcq-08"
       ],
       "explanation": "本句的「flawless logic」指「毫無錯誤／瑕疵地；完美地」。",
       "sentenceIndex": 32,
@@ -1247,12 +1106,9 @@ export default {
         "flawless logic"
       ],
       "optionReasons": {
-        "flaw-mcq-15": "本句指「毫無錯誤／瑕疵地；完美地」。",
-        "flaw-mcq-14": "「沒有明顯錯誤、無可挑剔的」與本句語境不同。",
-        "flaw-mcq-16": "「沒有任何瑕疵的狀態；完美無缺」與本句語境不同。",
-        "flaw-mcq-13": "「沒有任何瑕疵或缺陷的；完美無缺的」與本句語境不同。",
-        "flaw-mcq-17": "「某物內部存在的缺陷／漏洞」與本句語境不同。",
-        "flaw-mcq-12": "「內含邏輯問題或錯誤的推理」與本句語境不同。"
+        "flaw-mcq-15": "本句的「flawless logic」指「毫無錯誤／瑕疵地；完美地」。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-15"
     },
@@ -1264,11 +1120,8 @@ export default {
       "masked": "The plan required ____.",
       "options": [
         "flaw-mcq-15",
-        "flaw-mcq-14",
-        "flaw-mcq-16",
-        "flaw-mcq-13",
-        "flaw-mcq-17",
-        "flaw-mcq-12"
+        "flaw-mcq-09",
+        "flaw-mcq-18"
       ],
       "explanation": "本句的「flawless execution」指「毫無錯誤／瑕疵地；完美地」。",
       "sentenceIndex": 33,
@@ -1277,12 +1130,9 @@ export default {
         "flawless execution"
       ],
       "optionReasons": {
-        "flaw-mcq-15": "本句指「毫無錯誤／瑕疵地；完美地」。",
-        "flaw-mcq-14": "「沒有明顯錯誤、無可挑剔的」與本句語境不同。",
-        "flaw-mcq-16": "「沒有任何瑕疵的狀態；完美無缺」與本句語境不同。",
-        "flaw-mcq-13": "「沒有任何瑕疵或缺陷的；完美無缺的」與本句語境不同。",
-        "flaw-mcq-17": "「某物內部存在的缺陷／漏洞」與本句語境不同。",
-        "flaw-mcq-12": "「內含邏輯問題或錯誤的推理」與本句語境不同。"
+        "flaw-mcq-15": "本句的「flawless execution」指「毫無錯誤／瑕疵地；完美地」。",
+        "flaw-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-15"
     },
@@ -1294,11 +1144,8 @@ export default {
       "masked": "The system worked ____.",
       "options": [
         "flaw-mcq-15",
-        "flaw-mcq-14",
-        "flaw-mcq-16",
-        "flaw-mcq-13",
-        "flaw-mcq-17",
-        "flaw-mcq-12"
+        "flaw-mcq-04",
+        "flaw-mcq-08"
       ],
       "explanation": "本句的「flawlessly」指「毫無錯誤／瑕疵地；完美地」。",
       "sentenceIndex": 34,
@@ -1307,12 +1154,9 @@ export default {
         "flawlessly"
       ],
       "optionReasons": {
-        "flaw-mcq-15": "本句指「毫無錯誤／瑕疵地；完美地」。",
-        "flaw-mcq-14": "「沒有明顯錯誤、無可挑剔的」與本句語境不同。",
-        "flaw-mcq-16": "「沒有任何瑕疵的狀態；完美無缺」與本句語境不同。",
-        "flaw-mcq-13": "「沒有任何瑕疵或缺陷的；完美無缺的」與本句語境不同。",
-        "flaw-mcq-17": "「某物內部存在的缺陷／漏洞」與本句語境不同。",
-        "flaw-mcq-12": "「內含邏輯問題或錯誤的推理」與本句語境不同。"
+        "flaw-mcq-15": "本句的「flawlessly」指「毫無錯誤／瑕疵地；完美地」。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-15"
     },
@@ -1324,11 +1168,7 @@ export default {
       "masked": "She performed ____.",
       "options": [
         "flaw-mcq-15",
-        "flaw-mcq-14",
-        "flaw-mcq-16",
-        "flaw-mcq-13",
-        "flaw-mcq-17",
-        "flaw-mcq-12"
+        "flaw-mcq-02"
       ],
       "explanation": "本句的「flawlessly」指「毫無錯誤／瑕疵地；完美地」。",
       "sentenceIndex": 35,
@@ -1337,12 +1177,8 @@ export default {
         "flawlessly"
       ],
       "optionReasons": {
-        "flaw-mcq-15": "本句指「毫無錯誤／瑕疵地；完美地」。",
-        "flaw-mcq-14": "「沒有明顯錯誤、無可挑剔的」與本句語境不同。",
-        "flaw-mcq-16": "「沒有任何瑕疵的狀態；完美無缺」與本句語境不同。",
-        "flaw-mcq-13": "「沒有任何瑕疵或缺陷的；完美無缺的」與本句語境不同。",
-        "flaw-mcq-17": "「某物內部存在的缺陷／漏洞」與本句語境不同。",
-        "flaw-mcq-12": "「內含邏輯問題或錯誤的推理」與本句語境不同。"
+        "flaw-mcq-15": "本句的「flawlessly」指「毫無錯誤／瑕疵地；完美地」。",
+        "flaw-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-15"
     },
@@ -1354,11 +1190,8 @@ export default {
       "masked": "Absolute ____ is difficult to achieve.",
       "options": [
         "flaw-mcq-16",
-        "flaw-mcq-15",
-        "flaw-mcq-17",
-        "flaw-mcq-14",
-        "flaw-mcq-18",
-        "flaw-mcq-13"
+        "flaw-mcq-06",
+        "flaw-mcq-08"
       ],
       "explanation": "本句的「flawlessness」指「沒有任何瑕疵的狀態；完美無缺」。",
       "sentenceIndex": 36,
@@ -1367,12 +1200,9 @@ export default {
         "flawlessness"
       ],
       "optionReasons": {
-        "flaw-mcq-16": "本句指「沒有任何瑕疵的狀態；完美無缺」。",
-        "flaw-mcq-15": "「毫無錯誤／瑕疵地；完美地」與本句語境不同。",
-        "flaw-mcq-17": "「某物內部存在的缺陷／漏洞」與本句語境不同。",
-        "flaw-mcq-14": "「沒有明顯錯誤、無可挑剔的」與本句語境不同。",
-        "flaw-mcq-18": "「足以導致整體失敗的致命缺陷」與本句語境不同。",
-        "flaw-mcq-13": "「沒有任何瑕疵或缺陷的；完美無缺的」與本句語境不同。"
+        "flaw-mcq-16": "本句的「flawlessness」指「沒有任何瑕疵的狀態；完美無缺」。",
+        "flaw-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-16"
     },
@@ -1384,11 +1214,9 @@ export default {
       "masked": "The design aims for visual ____.",
       "options": [
         "flaw-mcq-16",
-        "flaw-mcq-15",
-        "flaw-mcq-17",
-        "flaw-mcq-14",
-        "flaw-mcq-18",
-        "flaw-mcq-13"
+        "flaw-mcq-04",
+        "flaw-mcq-12",
+        "flaw-mcq-07"
       ],
       "explanation": "本句的「flawlessness」指「沒有任何瑕疵的狀態；完美無缺」。",
       "sentenceIndex": 37,
@@ -1397,12 +1225,10 @@ export default {
         "flawlessness"
       ],
       "optionReasons": {
-        "flaw-mcq-16": "本句指「沒有任何瑕疵的狀態；完美無缺」。",
-        "flaw-mcq-15": "「毫無錯誤／瑕疵地；完美地」與本句語境不同。",
-        "flaw-mcq-17": "「某物內部存在的缺陷／漏洞」與本句語境不同。",
-        "flaw-mcq-14": "「沒有明顯錯誤、無可挑剔的」與本句語境不同。",
-        "flaw-mcq-18": "「足以導致整體失敗的致命缺陷」與本句語境不同。",
-        "flaw-mcq-13": "「沒有任何瑕疵或缺陷的；完美無缺的」與本句語境不同。"
+        "flaw-mcq-16": "本句的「flawlessness」指「沒有任何瑕疵的狀態；完美無缺」。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-16"
     },
@@ -1414,11 +1240,8 @@ export default {
       "masked": "There is a ____.",
       "options": [
         "flaw-mcq-17",
-        "flaw-mcq-16",
-        "flaw-mcq-18",
-        "flaw-mcq-15",
-        "flaw-mcq-19",
-        "flaw-mcq-14"
+        "flaw-mcq-14",
+        "flaw-mcq-07"
       ],
       "explanation": "本句的「flaw in the system」指「某物內部存在的缺陷／漏洞」。",
       "sentenceIndex": 38,
@@ -1427,12 +1250,9 @@ export default {
         "flaw in the system"
       ],
       "optionReasons": {
-        "flaw-mcq-17": "本句指「某物內部存在的缺陷／漏洞」。",
-        "flaw-mcq-16": "「沒有任何瑕疵的狀態；完美無缺」與本句語境不同。",
-        "flaw-mcq-18": "「足以導致整體失敗的致命缺陷」與本句語境不同。",
-        "flaw-mcq-15": "「毫無錯誤／瑕疵地；完美地」與本句語境不同。",
-        "flaw-mcq-19": "「存在於基本結構或邏輯中的根本缺陷」與本句語境不同。",
-        "flaw-mcq-14": "「沒有明顯錯誤、無可挑剔的」與本句語境不同。"
+        "flaw-mcq-17": "本句的「flaw in the system」指「某物內部存在的缺陷／漏洞」。",
+        "flaw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-17"
     },
@@ -1444,11 +1264,8 @@ export default {
       "masked": "She found a ____.",
       "options": [
         "flaw-mcq-17",
-        "flaw-mcq-16",
-        "flaw-mcq-18",
         "flaw-mcq-15",
-        "flaw-mcq-19",
-        "flaw-mcq-14"
+        "flaw-mcq-07"
       ],
       "explanation": "本句的「flaw in the argument」指「某物內部存在的缺陷／漏洞」。",
       "sentenceIndex": 39,
@@ -1457,12 +1274,9 @@ export default {
         "flaw in the argument"
       ],
       "optionReasons": {
-        "flaw-mcq-17": "本句指「某物內部存在的缺陷／漏洞」。",
-        "flaw-mcq-16": "「沒有任何瑕疵的狀態；完美無缺」與本句語境不同。",
-        "flaw-mcq-18": "「足以導致整體失敗的致命缺陷」與本句語境不同。",
-        "flaw-mcq-15": "「毫無錯誤／瑕疵地；完美地」與本句語境不同。",
-        "flaw-mcq-19": "「存在於基本結構或邏輯中的根本缺陷」與本句語境不同。",
-        "flaw-mcq-14": "「沒有明顯錯誤、無可挑剔的」與本句語境不同。"
+        "flaw-mcq-17": "本句的「flaw in the argument」指「某物內部存在的缺陷／漏洞」。",
+        "flaw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-17"
     },
@@ -1474,11 +1288,8 @@ export default {
       "masked": "The plan had one ____.",
       "options": [
         "flaw-mcq-18",
-        "flaw-mcq-17",
-        "flaw-mcq-19",
-        "flaw-mcq-16",
-        "flaw-mcq-20",
-        "flaw-mcq-15"
+        "flaw-mcq-15",
+        "flaw-mcq-07"
       ],
       "explanation": "本句的「fatal flaw」指「足以導致整體失敗的致命缺陷」。",
       "sentenceIndex": 40,
@@ -1487,12 +1298,9 @@ export default {
         "fatal flaw"
       ],
       "optionReasons": {
-        "flaw-mcq-18": "本句指「足以導致整體失敗的致命缺陷」。",
-        "flaw-mcq-17": "「某物內部存在的缺陷／漏洞」與本句語境不同。",
-        "flaw-mcq-19": "「存在於基本結構或邏輯中的根本缺陷」與本句語境不同。",
-        "flaw-mcq-16": "「沒有任何瑕疵的狀態；完美無缺」與本句語境不同。",
-        "flaw-mcq-20": "「存在嚴重問題或重大缺陷的」與本句語境不同。",
-        "flaw-mcq-15": "「毫無錯誤／瑕疵地；完美地」與本句語境不同。"
+        "flaw-mcq-18": "本句的「fatal flaw」指「足以導致整體失敗的致命缺陷」。",
+        "flaw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-18"
     },
@@ -1504,11 +1312,9 @@ export default {
       "masked": "Overconfidence became his ____.",
       "options": [
         "flaw-mcq-18",
-        "flaw-mcq-17",
-        "flaw-mcq-19",
-        "flaw-mcq-16",
-        "flaw-mcq-20",
-        "flaw-mcq-15"
+        "flaw-mcq-06",
+        "flaw-mcq-07",
+        "flaw-mcq-16"
       ],
       "explanation": "本句的「fatal flaw」指「足以導致整體失敗的致命缺陷」。",
       "sentenceIndex": 41,
@@ -1517,12 +1323,10 @@ export default {
         "fatal flaw"
       ],
       "optionReasons": {
-        "flaw-mcq-18": "本句指「足以導致整體失敗的致命缺陷」。",
-        "flaw-mcq-17": "「某物內部存在的缺陷／漏洞」與本句語境不同。",
-        "flaw-mcq-19": "「存在於基本結構或邏輯中的根本缺陷」與本句語境不同。",
-        "flaw-mcq-16": "「沒有任何瑕疵的狀態；完美無缺」與本句語境不同。",
-        "flaw-mcq-20": "「存在嚴重問題或重大缺陷的」與本句語境不同。",
-        "flaw-mcq-15": "「毫無錯誤／瑕疵地；完美地」與本句語境不同。"
+        "flaw-mcq-18": "本句的「fatal flaw」指「足以導致整體失敗的致命缺陷」。",
+        "flaw-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-18"
     },
@@ -1534,11 +1338,9 @@ export default {
       "masked": "There is a ____ in the model.",
       "options": [
         "flaw-mcq-19",
-        "flaw-mcq-18",
-        "flaw-mcq-20",
-        "flaw-mcq-17",
-        "flaw-mcq-16",
-        "flaw-mcq-15"
+        "flaw-mcq-15",
+        "flaw-mcq-04",
+        "flaw-mcq-07"
       ],
       "explanation": "本句的「fundamental flaw」指「存在於基本結構或邏輯中的根本缺陷」。",
       "sentenceIndex": 42,
@@ -1547,12 +1349,10 @@ export default {
         "fundamental flaw"
       ],
       "optionReasons": {
-        "flaw-mcq-19": "本句指「存在於基本結構或邏輯中的根本缺陷」。",
-        "flaw-mcq-18": "「足以導致整體失敗的致命缺陷」與本句語境不同。",
-        "flaw-mcq-20": "「存在嚴重問題或重大缺陷的」與本句語境不同。",
-        "flaw-mcq-17": "「某物內部存在的缺陷／漏洞」與本句語境不同。",
-        "flaw-mcq-16": "「沒有任何瑕疵的狀態；完美無缺」與本句語境不同。",
-        "flaw-mcq-15": "「毫無錯誤／瑕疵地；完美地」與本句語境不同。"
+        "flaw-mcq-19": "本句的「fundamental flaw」指「存在於基本結構或邏輯中的根本缺陷」。",
+        "flaw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-19"
     },
@@ -1564,11 +1364,9 @@ export default {
       "masked": "The proposal suffers from a ____.",
       "options": [
         "flaw-mcq-19",
-        "flaw-mcq-18",
-        "flaw-mcq-20",
-        "flaw-mcq-17",
-        "flaw-mcq-16",
-        "flaw-mcq-15"
+        "flaw-mcq-15",
+        "flaw-mcq-04",
+        "flaw-mcq-07"
       ],
       "explanation": "本句的「fundamental flaw」指「存在於基本結構或邏輯中的根本缺陷」。",
       "sentenceIndex": 43,
@@ -1577,12 +1375,10 @@ export default {
         "fundamental flaw"
       ],
       "optionReasons": {
-        "flaw-mcq-19": "本句指「存在於基本結構或邏輯中的根本缺陷」。",
-        "flaw-mcq-18": "「足以導致整體失敗的致命缺陷」與本句語境不同。",
-        "flaw-mcq-20": "「存在嚴重問題或重大缺陷的」與本句語境不同。",
-        "flaw-mcq-17": "「某物內部存在的缺陷／漏洞」與本句語境不同。",
-        "flaw-mcq-16": "「沒有任何瑕疵的狀態；完美無缺」與本句語境不同。",
-        "flaw-mcq-15": "「毫無錯誤／瑕疵地；完美地」與本句語境不同。"
+        "flaw-mcq-19": "本句的「fundamental flaw」指「存在於基本結構或邏輯中的根本缺陷」。",
+        "flaw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-19"
     },
@@ -1594,11 +1390,9 @@ export default {
       "masked": "The system is ____.",
       "options": [
         "flaw-mcq-20",
-        "flaw-mcq-19",
-        "flaw-mcq-18",
-        "flaw-mcq-17",
+        "flaw-mcq-06",
         "flaw-mcq-16",
-        "flaw-mcq-15"
+        "flaw-mcq-07"
       ],
       "explanation": "本句的「deeply flawed」指「存在嚴重問題或重大缺陷的」。",
       "sentenceIndex": 44,
@@ -1607,12 +1401,10 @@ export default {
         "deeply flawed"
       ],
       "optionReasons": {
-        "flaw-mcq-20": "本句指「存在嚴重問題或重大缺陷的」。",
-        "flaw-mcq-19": "「存在於基本結構或邏輯中的根本缺陷」與本句語境不同。",
-        "flaw-mcq-18": "「足以導致整體失敗的致命缺陷」與本句語境不同。",
-        "flaw-mcq-17": "「某物內部存在的缺陷／漏洞」與本句語境不同。",
-        "flaw-mcq-16": "「沒有任何瑕疵的狀態；完美無缺」與本句語境不同。",
-        "flaw-mcq-15": "「毫無錯誤／瑕疵地；完美地」與本句語境不同。"
+        "flaw-mcq-20": "本句的「deeply flawed」指「存在嚴重問題或重大缺陷的」。",
+        "flaw-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-20"
     },
@@ -1624,11 +1416,9 @@ export default {
       "masked": "He is a ____ character.",
       "options": [
         "flaw-mcq-20",
-        "flaw-mcq-19",
-        "flaw-mcq-18",
-        "flaw-mcq-17",
-        "flaw-mcq-16",
-        "flaw-mcq-15"
+        "flaw-mcq-04",
+        "flaw-mcq-14",
+        "flaw-mcq-07"
       ],
       "explanation": "本句的「deeply flawed」指「存在嚴重問題或重大缺陷的」。",
       "sentenceIndex": 45,
@@ -1637,12 +1427,10 @@ export default {
         "deeply flawed"
       ],
       "optionReasons": {
-        "flaw-mcq-20": "本句指「存在嚴重問題或重大缺陷的」。",
-        "flaw-mcq-19": "「存在於基本結構或邏輯中的根本缺陷」與本句語境不同。",
-        "flaw-mcq-18": "「足以導致整體失敗的致命缺陷」與本句語境不同。",
-        "flaw-mcq-17": "「某物內部存在的缺陷／漏洞」與本句語境不同。",
-        "flaw-mcq-16": "「沒有任何瑕疵的狀態；完美無缺」與本句語境不同。",
-        "flaw-mcq-15": "「毫無錯誤／瑕疵地；完美地」與本句語境不同。"
+        "flaw-mcq-20": "本句的「deeply flawed」指「存在嚴重問題或重大缺陷的」。",
+        "flaw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "flaw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flaw-mcq-20"
     }
@@ -1654,5 +1442,7 @@ export default {
     "sha256": "33df0c2966bb98f0d40ca79ccbf27318be05223d0b2fab34b935129f5efb6fd7",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -712,11 +712,9 @@ export default {
       "masked": "The room was very ____.",
       "options": [
         "quiet-mcq-01",
-        "quiet-mcq-02",
-        "quiet-mcq-03",
-        "quiet-mcq-04",
-        "quiet-mcq-05",
-        "quiet-mcq-06"
+        "quiet-mcq-10",
+        "quiet-mcq-12",
+        "quiet-pdf-001"
       ],
       "explanation": "本句的「quiet」指「聲音很少、音量很低，沒有明顯噪音的」。",
       "sentenceIndex": 0,
@@ -725,12 +723,10 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-01": "本句指「聲音很少、音量很低，沒有明顯噪音的」。",
-        "quiet-mcq-02": "「不太多說話、不喜歡大聲或主動成為注意焦點的」是「quiet — person」的用法，與本句語境不同。",
-        "quiet-mcq-03": "「沒有太多活動、騷擾或混亂，令人感到平靜的」是「quiet — peaceful place」的用法，與本句語境不同。",
-        "quiet-mcq-04": "「顧客、工作量、活動或事件較少的」是「quiet — not busy」的用法，與本句語境不同。",
-        "quiet-mcq-05": "「沒有重大事情、衝突或忙亂事件發生的」是「quiet — uneventful」的用法，與本句語境不同。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。"
+        "quiet-mcq-01": "本句的「quiet」指「聲音很少、音量很低，沒有明顯噪音的」。",
+        "quiet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "quiet-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-01"
     },
@@ -742,11 +738,9 @@ export default {
       "masked": "It is usually ____ here at night.",
       "options": [
         "quiet-mcq-01",
-        "quiet-mcq-02",
-        "quiet-mcq-03",
-        "quiet-mcq-04",
-        "quiet-mcq-05",
-        "quiet-mcq-06"
+        "quiet-mcq-06",
+        "quiet-mcq-30",
+        "quiet-pdf-001"
       ],
       "explanation": "本句的「quiet」指「聲音很少、音量很低，沒有明顯噪音的」。",
       "sentenceIndex": 1,
@@ -755,12 +749,10 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-01": "本句指「聲音很少、音量很低，沒有明顯噪音的」。",
-        "quiet-mcq-02": "「不太多說話、不喜歡大聲或主動成為注意焦點的」是「quiet — person」的用法，與本句語境不同。",
-        "quiet-mcq-03": "「沒有太多活動、騷擾或混亂，令人感到平靜的」是「quiet — peaceful place」的用法，與本句語境不同。",
-        "quiet-mcq-04": "「顧客、工作量、活動或事件較少的」是「quiet — not busy」的用法，與本句語境不同。",
-        "quiet-mcq-05": "「沒有重大事情、衝突或忙亂事件發生的」是「quiet — uneventful」的用法，與本句語境不同。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。"
+        "quiet-mcq-01": "本句的「quiet」指「聲音很少、音量很低，沒有明顯噪音的」。",
+        "quiet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "quiet-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-01"
     },
@@ -772,11 +764,9 @@ export default {
       "masked": "She is quite a ____ person.",
       "options": [
         "quiet-mcq-02",
-        "quiet-mcq-01",
-        "quiet-mcq-03",
-        "quiet-mcq-04",
-        "quiet-mcq-05",
-        "quiet-mcq-06"
+        "quiet-mcq-14",
+        "quiet-mcq-28",
+        "quiet-pdf-001"
       ],
       "explanation": "本句的「quiet」指「不太多說話、不喜歡大聲或主動成為注意焦點的」。",
       "sentenceIndex": 2,
@@ -785,12 +775,10 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-02": "本句指「不太多說話、不喜歡大聲或主動成為注意焦點的」。",
-        "quiet-mcq-01": "「聲音很少、音量很低，沒有明顯噪音的」是「quiet — sound」的用法，與本句語境不同。",
-        "quiet-mcq-03": "「沒有太多活動、騷擾或混亂，令人感到平靜的」是「quiet — peaceful place」的用法，與本句語境不同。",
-        "quiet-mcq-04": "「顧客、工作量、活動或事件較少的」是「quiet — not busy」的用法，與本句語境不同。",
-        "quiet-mcq-05": "「沒有重大事情、衝突或忙亂事件發生的」是「quiet — uneventful」的用法，與本句語境不同。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。"
+        "quiet-mcq-02": "本句的「quiet」指「不太多說話、不喜歡大聲或主動成為注意焦點的」。",
+        "quiet-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "quiet-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-02"
     },
@@ -802,11 +790,9 @@ export default {
       "masked": "He is ____ around people he does not know well.",
       "options": [
         "quiet-mcq-02",
-        "quiet-mcq-01",
-        "quiet-mcq-03",
-        "quiet-mcq-04",
-        "quiet-mcq-05",
-        "quiet-mcq-06"
+        "quiet-mcq-07",
+        "quiet-mcq-19",
+        "quiet-mcq-28"
       ],
       "explanation": "本句的「quiet」指「不太多說話、不喜歡大聲或主動成為注意焦點的」。",
       "sentenceIndex": 3,
@@ -815,12 +801,10 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-02": "本句指「不太多說話、不喜歡大聲或主動成為注意焦點的」。",
-        "quiet-mcq-01": "「聲音很少、音量很低，沒有明顯噪音的」是「quiet — sound」的用法，與本句語境不同。",
-        "quiet-mcq-03": "「沒有太多活動、騷擾或混亂，令人感到平靜的」是「quiet — peaceful place」的用法，與本句語境不同。",
-        "quiet-mcq-04": "「顧客、工作量、活動或事件較少的」是「quiet — not busy」的用法，與本句語境不同。",
-        "quiet-mcq-05": "「沒有重大事情、衝突或忙亂事件發生的」是「quiet — uneventful」的用法，與本句語境不同。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。"
+        "quiet-mcq-02": "本句的「quiet」指「不太多說話、不喜歡大聲或主動成為注意焦點的」。",
+        "quiet-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-02"
     },
@@ -832,11 +816,9 @@ export default {
       "masked": "They live in a ____ neighbourhood.",
       "options": [
         "quiet-mcq-03",
-        "quiet-mcq-02",
-        "quiet-mcq-04",
-        "quiet-mcq-01",
-        "quiet-mcq-05",
-        "quiet-mcq-06"
+        "quiet-mcq-10",
+        "quiet-mcq-13",
+        "quiet-mcq-17"
       ],
       "explanation": "本句的「quiet」指「沒有太多活動、騷擾或混亂，令人感到平靜的」。",
       "sentenceIndex": 4,
@@ -845,12 +827,10 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-03": "本句指「沒有太多活動、騷擾或混亂，令人感到平靜的」。",
-        "quiet-mcq-02": "「不太多說話、不喜歡大聲或主動成為注意焦點的」是「quiet — person」的用法，與本句語境不同。",
-        "quiet-mcq-04": "「顧客、工作量、活動或事件較少的」是「quiet — not busy」的用法，與本句語境不同。",
-        "quiet-mcq-01": "「聲音很少、音量很低，沒有明顯噪音的」是「quiet — sound」的用法，與本句語境不同。",
-        "quiet-mcq-05": "「沒有重大事情、衝突或忙亂事件發生的」是「quiet — uneventful」的用法，與本句語境不同。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。"
+        "quiet-mcq-03": "本句的「quiet」指「沒有太多活動、騷擾或混亂，令人感到平靜的」。",
+        "quiet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-03"
     },
@@ -862,11 +842,9 @@ export default {
       "masked": "She prefers a ____ life in the countryside.",
       "options": [
         "quiet-mcq-03",
-        "quiet-mcq-02",
-        "quiet-mcq-04",
-        "quiet-mcq-01",
-        "quiet-mcq-05",
-        "quiet-mcq-06"
+        "quiet-mcq-09",
+        "quiet-mcq-17",
+        "quiet-mcq-30"
       ],
       "explanation": "本句的「quiet」指「沒有太多活動、騷擾或混亂，令人感到平靜的」。",
       "sentenceIndex": 5,
@@ -875,12 +853,10 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-03": "本句指「沒有太多活動、騷擾或混亂，令人感到平靜的」。",
-        "quiet-mcq-02": "「不太多說話、不喜歡大聲或主動成為注意焦點的」是「quiet — person」的用法，與本句語境不同。",
-        "quiet-mcq-04": "「顧客、工作量、活動或事件較少的」是「quiet — not busy」的用法，與本句語境不同。",
-        "quiet-mcq-01": "「聲音很少、音量很低，沒有明顯噪音的」是「quiet — sound」的用法，與本句語境不同。",
-        "quiet-mcq-05": "「沒有重大事情、衝突或忙亂事件發生的」是「quiet — uneventful」的用法，與本句語境不同。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。"
+        "quiet-mcq-03": "本句的「quiet」指「沒有太多活動、騷擾或混亂，令人感到平靜的」。",
+        "quiet-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-03"
     },
@@ -892,11 +868,9 @@ export default {
       "masked": "We found a ____ to talk.",
       "options": [
         "quiet-mcq-03",
-        "quiet-mcq-02",
-        "quiet-mcq-04",
-        "quiet-mcq-01",
-        "quiet-mcq-05",
-        "quiet-mcq-06"
+        "quiet-mcq-06",
+        "quiet-mcq-08",
+        "quiet-mcq-30"
       ],
       "explanation": "本句的「quiet place」指「沒有太多活動、騷擾或混亂，令人感到平靜的」。",
       "sentenceIndex": 6,
@@ -905,12 +879,10 @@ export default {
         "quiet place"
       ],
       "optionReasons": {
-        "quiet-mcq-03": "本句指「沒有太多活動、騷擾或混亂，令人感到平靜的」。",
-        "quiet-mcq-02": "「不太多說話、不喜歡大聲或主動成為注意焦點的」是「quiet — person」的用法，與本句語境不同。",
-        "quiet-mcq-04": "「顧客、工作量、活動或事件較少的」是「quiet — not busy」的用法，與本句語境不同。",
-        "quiet-mcq-01": "「聲音很少、音量很低，沒有明顯噪音的」是「quiet — sound」的用法，與本句語境不同。",
-        "quiet-mcq-05": "「沒有重大事情、衝突或忙亂事件發生的」是「quiet — uneventful」的用法，與本句語境不同。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。"
+        "quiet-mcq-03": "本句的「quiet place」指「沒有太多活動、騷擾或混亂，令人感到平靜的」。",
+        "quiet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-03"
     },
@@ -922,11 +894,9 @@ export default {
       "masked": "The street is usually ____ in the afternoon.",
       "options": [
         "quiet-mcq-03",
-        "quiet-mcq-02",
-        "quiet-mcq-04",
-        "quiet-mcq-01",
-        "quiet-mcq-05",
-        "quiet-mcq-06"
+        "quiet-mcq-09",
+        "quiet-mcq-06",
+        "quiet-mcq-30"
       ],
       "explanation": "本句的「quiet」指「沒有太多活動、騷擾或混亂，令人感到平靜的」。",
       "sentenceIndex": 7,
@@ -935,12 +905,10 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-03": "本句指「沒有太多活動、騷擾或混亂，令人感到平靜的」。",
-        "quiet-mcq-02": "「不太多說話、不喜歡大聲或主動成為注意焦點的」是「quiet — person」的用法，與本句語境不同。",
-        "quiet-mcq-04": "「顧客、工作量、活動或事件較少的」是「quiet — not busy」的用法，與本句語境不同。",
-        "quiet-mcq-01": "「聲音很少、音量很低，沒有明顯噪音的」是「quiet — sound」的用法，與本句語境不同。",
-        "quiet-mcq-05": "「沒有重大事情、衝突或忙亂事件發生的」是「quiet — uneventful」的用法，與本句語境不同。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。"
+        "quiet-mcq-03": "本句的「quiet」指「沒有太多活動、騷擾或混亂，令人感到平靜的」。",
+        "quiet-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-03"
     },
@@ -952,11 +920,9 @@ export default {
       "masked": "The restaurant is usually ____ on Monday evenings.",
       "options": [
         "quiet-mcq-04",
-        "quiet-mcq-03",
-        "quiet-mcq-05",
-        "quiet-mcq-02",
         "quiet-mcq-06",
-        "quiet-mcq-01"
+        "quiet-mcq-28",
+        "quiet-mcq-16"
       ],
       "explanation": "本句的「quiet」指「顧客、工作量、活動或事件較少的」。",
       "sentenceIndex": 8,
@@ -965,12 +931,10 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-04": "本句指「顧客、工作量、活動或事件較少的」。",
-        "quiet-mcq-03": "「沒有太多活動、騷擾或混亂，令人感到平靜的」是「quiet — peaceful place」的用法，與本句語境不同。",
-        "quiet-mcq-05": "「沒有重大事情、衝突或忙亂事件發生的」是「quiet — uneventful」的用法，與本句語境不同。",
-        "quiet-mcq-02": "「不太多說話、不喜歡大聲或主動成為注意焦點的」是「quiet — person」的用法，與本句語境不同。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。",
-        "quiet-mcq-01": "「聲音很少、音量很低，沒有明顯噪音的」是「quiet — sound」的用法，與本句語境不同。"
+        "quiet-mcq-04": "本句的「quiet」指「顧客、工作量、活動或事件較少的」。",
+        "quiet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-04"
     },
@@ -982,11 +946,9 @@ export default {
       "masked": "It has been a ____ week at work.",
       "options": [
         "quiet-mcq-04",
-        "quiet-mcq-03",
-        "quiet-mcq-05",
-        "quiet-mcq-02",
-        "quiet-mcq-06",
-        "quiet-mcq-01"
+        "quiet-mcq-13",
+        "quiet-mcq-16",
+        "quiet-mcq-10"
       ],
       "explanation": "本句的「quiet」指「顧客、工作量、活動或事件較少的」。",
       "sentenceIndex": 9,
@@ -995,12 +957,10 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-04": "本句指「顧客、工作量、活動或事件較少的」。",
-        "quiet-mcq-03": "「沒有太多活動、騷擾或混亂，令人感到平靜的」是「quiet — peaceful place」的用法，與本句語境不同。",
-        "quiet-mcq-05": "「沒有重大事情、衝突或忙亂事件發生的」是「quiet — uneventful」的用法，與本句語境不同。",
-        "quiet-mcq-02": "「不太多說話、不喜歡大聲或主動成為注意焦點的」是「quiet — person」的用法，與本句語境不同。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。",
-        "quiet-mcq-01": "「聲音很少、音量很低，沒有明顯噪音的」是「quiet — sound」的用法，與本句語境不同。"
+        "quiet-mcq-04": "本句的「quiet」指「顧客、工作量、活動或事件較少的」。",
+        "quiet-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-04"
     },
@@ -1012,11 +972,9 @@ export default {
       "masked": "We had a ____ weekend at home.",
       "options": [
         "quiet-mcq-05",
-        "quiet-mcq-04",
-        "quiet-mcq-06",
-        "quiet-mcq-03",
-        "quiet-mcq-07",
-        "quiet-mcq-02"
+        "quiet-mcq-29",
+        "quiet-mcq-26",
+        "quiet-mcq-19"
       ],
       "explanation": "本句的「quiet」指「沒有重大事情、衝突或忙亂事件發生的」。",
       "sentenceIndex": 10,
@@ -1025,12 +983,10 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-05": "本句指「沒有重大事情、衝突或忙亂事件發生的」。",
-        "quiet-mcq-04": "「顧客、工作量、活動或事件較少的」是「quiet — not busy」的用法，與本句語境不同。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。",
-        "quiet-mcq-03": "「沒有太多活動、騷擾或混亂，令人感到平靜的」是「quiet — peaceful place」的用法，與本句語境不同。",
-        "quiet-mcq-07": "「某種特質或力量存在，但表現方式低調、內斂、不炫耀」是「quiet — understated」的用法，與本句語境不同。",
-        "quiet-mcq-02": "「不太多說話、不喜歡大聲或主動成為注意焦點的」是「quiet — person」的用法，與本句語境不同。"
+        "quiet-mcq-05": "本句的「quiet」指「沒有重大事情、衝突或忙亂事件發生的」。",
+        "quiet-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-05"
     },
@@ -1042,11 +998,9 @@ export default {
       "masked": "It was a ____ day with nothing unusual happening.",
       "options": [
         "quiet-mcq-05",
-        "quiet-mcq-04",
-        "quiet-mcq-06",
-        "quiet-mcq-03",
-        "quiet-mcq-07",
-        "quiet-mcq-02"
+        "quiet-mcq-27",
+        "quiet-mcq-30",
+        "quiet-mcq-08"
       ],
       "explanation": "本句的「quiet」指「沒有重大事情、衝突或忙亂事件發生的」。",
       "sentenceIndex": 11,
@@ -1055,12 +1009,10 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-05": "本句指「沒有重大事情、衝突或忙亂事件發生的」。",
-        "quiet-mcq-04": "「顧客、工作量、活動或事件較少的」是「quiet — not busy」的用法，與本句語境不同。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。",
-        "quiet-mcq-03": "「沒有太多活動、騷擾或混亂，令人感到平靜的」是「quiet — peaceful place」的用法，與本句語境不同。",
-        "quiet-mcq-07": "「某種特質或力量存在，但表現方式低調、內斂、不炫耀」是「quiet — understated」的用法，與本句語境不同。",
-        "quiet-mcq-02": "「不太多說話、不喜歡大聲或主動成為注意焦點的」是「quiet — person」的用法，與本句語境不同。"
+        "quiet-mcq-05": "本句的「quiet」指「沒有重大事情、衝突或忙亂事件發生的」。",
+        "quiet-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-05"
     },
@@ -1072,11 +1024,9 @@ export default {
       "masked": "They had a ____ conversation after the meeting.",
       "options": [
         "quiet-mcq-06",
-        "quiet-mcq-05",
-        "quiet-mcq-07",
-        "quiet-mcq-04",
-        "quiet-mcq-08",
-        "quiet-mcq-03"
+        "quiet-mcq-11",
+        "quiet-mcq-27",
+        "quiet-mcq-05"
       ],
       "explanation": "本句的「quiet」指「不公開張揚、不刻意吸引別人注意的」。",
       "sentenceIndex": 12,
@@ -1085,12 +1035,10 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-06": "本句指「不公開張揚、不刻意吸引別人注意的」。",
-        "quiet-mcq-05": "「沒有重大事情、衝突或忙亂事件發生的」是「quiet — uneventful」的用法，與本句語境不同。",
-        "quiet-mcq-07": "「某種特質或力量存在，但表現方式低調、內斂、不炫耀」是「quiet — understated」的用法，與本句語境不同。",
-        "quiet-mcq-04": "「顧客、工作量、活動或事件較少的」是「quiet — not busy」的用法，與本句語境不同。",
-        "quiet-mcq-08": "「不高調展示但穩定、持久而堅定的內在力量」是「quiet strength」的用法，與本句語境不同。",
-        "quiet-mcq-03": "「沒有太多活動、騷擾或混亂，令人感到平靜的」是「quiet — peaceful place」的用法，與本句語境不同。"
+        "quiet-mcq-06": "本句的「quiet」指「不公開張揚、不刻意吸引別人注意的」。",
+        "quiet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-06"
     },
@@ -1102,11 +1050,8 @@ export default {
       "masked": "The matter was handled in a ____ way.",
       "options": [
         "quiet-mcq-06",
-        "quiet-mcq-05",
-        "quiet-mcq-07",
-        "quiet-mcq-04",
-        "quiet-mcq-08",
-        "quiet-mcq-03"
+        "quiet-mcq-23",
+        "quiet-mcq-09"
       ],
       "explanation": "本句的「quiet」指「不公開張揚、不刻意吸引別人注意的」。",
       "sentenceIndex": 13,
@@ -1115,12 +1060,9 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-06": "本句指「不公開張揚、不刻意吸引別人注意的」。",
-        "quiet-mcq-05": "「沒有重大事情、衝突或忙亂事件發生的」是「quiet — uneventful」的用法，與本句語境不同。",
-        "quiet-mcq-07": "「某種特質或力量存在，但表現方式低調、內斂、不炫耀」是「quiet — understated」的用法，與本句語境不同。",
-        "quiet-mcq-04": "「顧客、工作量、活動或事件較少的」是「quiet — not busy」的用法，與本句語境不同。",
-        "quiet-mcq-08": "「不高調展示但穩定、持久而堅定的內在力量」是「quiet strength」的用法，與本句語境不同。",
-        "quiet-mcq-03": "「沒有太多活動、騷擾或混亂，令人感到平靜的」是「quiet — peaceful place」的用法，與本句語境不同。"
+        "quiet-mcq-06": "本句的「quiet」指「不公開張揚、不刻意吸引別人注意的」。",
+        "quiet-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-06"
     },
@@ -1132,11 +1074,9 @@ export default {
       "masked": "She has a ____.",
       "options": [
         "quiet-mcq-07",
-        "quiet-mcq-06",
-        "quiet-mcq-08",
         "quiet-mcq-05",
-        "quiet-mcq-09",
-        "quiet-mcq-04"
+        "quiet-mcq-02",
+        "quiet-mcq-20"
       ],
       "explanation": "本句的「quiet confidence」指「某種特質或力量存在，但表現方式低調、內斂、不炫耀」。",
       "sentenceIndex": 14,
@@ -1145,12 +1085,10 @@ export default {
         "quiet confidence"
       ],
       "optionReasons": {
-        "quiet-mcq-07": "本句指「某種特質或力量存在，但表現方式低調、內斂、不炫耀」。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。",
-        "quiet-mcq-08": "「不高調展示但穩定、持久而堅定的內在力量」是「quiet strength」的用法，與本句語境不同。",
-        "quiet-mcq-05": "「沒有重大事情、衝突或忙亂事件發生的」是「quiet — uneventful」的用法，與本句語境不同。",
-        "quiet-mcq-09": "「不需要炫耀，卻明顯相信自己能力的沉著自信」是「quiet confidence」的用法，與本句語境不同。",
-        "quiet-mcq-04": "「顧客、工作量、活動或事件較少的」是「quiet — not busy」的用法，與本句語境不同。"
+        "quiet-mcq-07": "本句的「quiet confidence」指「某種特質或力量存在，但表現方式低調、內斂、不炫耀」。",
+        "quiet-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-07"
     },
@@ -1163,10 +1101,8 @@ export default {
       "options": [
         "quiet-mcq-07",
         "quiet-mcq-06",
-        "quiet-mcq-08",
-        "quiet-mcq-05",
-        "quiet-mcq-09",
-        "quiet-mcq-04"
+        "quiet-mcq-30",
+        "quiet-mcq-18"
       ],
       "explanation": "本句的「quiet」指「某種特質或力量存在，但表現方式低調、內斂、不炫耀」。",
       "sentenceIndex": 15,
@@ -1175,12 +1111,10 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-07": "本句指「某種特質或力量存在，但表現方式低調、內斂、不炫耀」。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。",
-        "quiet-mcq-08": "「不高調展示但穩定、持久而堅定的內在力量」是「quiet strength」的用法，與本句語境不同。",
-        "quiet-mcq-05": "「沒有重大事情、衝突或忙亂事件發生的」是「quiet — uneventful」的用法，與本句語境不同。",
-        "quiet-mcq-09": "「不需要炫耀，卻明顯相信自己能力的沉著自信」是「quiet confidence」的用法，與本句語境不同。",
-        "quiet-mcq-04": "「顧客、工作量、活動或事件較少的」是「quiet — not busy」的用法，與本句語境不同。"
+        "quiet-mcq-07": "本句的「quiet」指「某種特質或力量存在，但表現方式低調、內斂、不炫耀」。",
+        "quiet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-07"
     },
@@ -1192,11 +1126,9 @@ export default {
       "masked": "She has a kind of ____.",
       "options": [
         "quiet-mcq-08",
-        "quiet-mcq-07",
-        "quiet-mcq-09",
-        "quiet-mcq-06",
-        "quiet-mcq-10",
-        "quiet-mcq-05"
+        "quiet-mcq-20",
+        "quiet-mcq-28",
+        "quiet-mcq-02"
       ],
       "explanation": "本句的「quiet strength」指「不高調展示但穩定、持久而堅定的內在力量」。",
       "sentenceIndex": 16,
@@ -1205,12 +1137,10 @@ export default {
         "quiet strength"
       ],
       "optionReasons": {
-        "quiet-mcq-08": "本句指「不高調展示但穩定、持久而堅定的內在力量」。",
-        "quiet-mcq-07": "「某種特質或力量存在，但表現方式低調、內斂、不炫耀」是「quiet — understated」的用法，與本句語境不同。",
-        "quiet-mcq-09": "「不需要炫耀，卻明顯相信自己能力的沉著自信」是「quiet confidence」的用法，與本句語境不同。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。",
-        "quiet-mcq-10": "「不張揚、不激烈，但表現出沉著、自尊和莊重」是「quiet dignity」的用法，與本句語境不同。",
-        "quiet-mcq-05": "「沒有重大事情、衝突或忙亂事件發生的」是「quiet — uneventful」的用法，與本句語境不同。"
+        "quiet-mcq-08": "本句的「quiet strength」指「不高調展示但穩定、持久而堅定的內在力量」。",
+        "quiet-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-08"
     },
@@ -1222,11 +1152,9 @@ export default {
       "masked": "His ____ helped the family through difficult times.",
       "options": [
         "quiet-mcq-08",
-        "quiet-mcq-07",
-        "quiet-mcq-09",
-        "quiet-mcq-06",
-        "quiet-mcq-10",
-        "quiet-mcq-05"
+        "quiet-mcq-27",
+        "quiet-mcq-12",
+        "quiet-mcq-28"
       ],
       "explanation": "本句的「quiet strength」指「不高調展示但穩定、持久而堅定的內在力量」。",
       "sentenceIndex": 17,
@@ -1235,12 +1163,10 @@ export default {
         "quiet strength"
       ],
       "optionReasons": {
-        "quiet-mcq-08": "本句指「不高調展示但穩定、持久而堅定的內在力量」。",
-        "quiet-mcq-07": "「某種特質或力量存在，但表現方式低調、內斂、不炫耀」是「quiet — understated」的用法，與本句語境不同。",
-        "quiet-mcq-09": "「不需要炫耀，卻明顯相信自己能力的沉著自信」是「quiet confidence」的用法，與本句語境不同。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。",
-        "quiet-mcq-10": "「不張揚、不激烈，但表現出沉著、自尊和莊重」是「quiet dignity」的用法，與本句語境不同。",
-        "quiet-mcq-05": "「沒有重大事情、衝突或忙亂事件發生的」是「quiet — uneventful」的用法，與本句語境不同。"
+        "quiet-mcq-08": "本句的「quiet strength」指「不高調展示但穩定、持久而堅定的內在力量」。",
+        "quiet-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-08"
     },
@@ -1252,11 +1178,9 @@ export default {
       "masked": "She spoke with ____.",
       "options": [
         "quiet-mcq-09",
-        "quiet-mcq-08",
-        "quiet-mcq-10",
-        "quiet-mcq-07",
+        "quiet-mcq-05",
         "quiet-mcq-11",
-        "quiet-mcq-06"
+        "quiet-mcq-30"
       ],
       "explanation": "本句的「quiet confidence」指「不需要炫耀，卻明顯相信自己能力的沉著自信」。",
       "sentenceIndex": 18,
@@ -1265,12 +1189,10 @@ export default {
         "quiet confidence"
       ],
       "optionReasons": {
-        "quiet-mcq-09": "本句指「不需要炫耀，卻明顯相信自己能力的沉著自信」。",
-        "quiet-mcq-08": "「不高調展示但穩定、持久而堅定的內在力量」是「quiet strength」的用法，與本句語境不同。",
-        "quiet-mcq-10": "「不張揚、不激烈，但表現出沉著、自尊和莊重」是「quiet dignity」的用法，與本句語境不同。",
-        "quiet-mcq-07": "「某種特質或力量存在，但表現方式低調、內斂、不炫耀」是「quiet — understated」的用法，與本句語境不同。",
-        "quiet-mcq-11": "「以低音量、不製造太多聲音的方式」是「quietly — low sound」的用法，與本句語境不同。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。"
+        "quiet-mcq-09": "本句的「quiet confidence」指「不需要炫耀，卻明顯相信自己能力的沉著自信」。",
+        "quiet-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-09"
     },
@@ -1282,11 +1204,9 @@ export default {
       "masked": "His ____ impressed the interviewers.",
       "options": [
         "quiet-mcq-09",
-        "quiet-mcq-08",
-        "quiet-mcq-10",
-        "quiet-mcq-07",
-        "quiet-mcq-11",
-        "quiet-mcq-06"
+        "quiet-mcq-18",
+        "quiet-mcq-06",
+        "quiet-mcq-28"
       ],
       "explanation": "本句的「quiet confidence」指「不需要炫耀，卻明顯相信自己能力的沉著自信」。",
       "sentenceIndex": 19,
@@ -1295,12 +1215,10 @@ export default {
         "quiet confidence"
       ],
       "optionReasons": {
-        "quiet-mcq-09": "本句指「不需要炫耀，卻明顯相信自己能力的沉著自信」。",
-        "quiet-mcq-08": "「不高調展示但穩定、持久而堅定的內在力量」是「quiet strength」的用法，與本句語境不同。",
-        "quiet-mcq-10": "「不張揚、不激烈，但表現出沉著、自尊和莊重」是「quiet dignity」的用法，與本句語境不同。",
-        "quiet-mcq-07": "「某種特質或力量存在，但表現方式低調、內斂、不炫耀」是「quiet — understated」的用法，與本句語境不同。",
-        "quiet-mcq-11": "「以低音量、不製造太多聲音的方式」是「quietly — low sound」的用法，與本句語境不同。",
-        "quiet-mcq-06": "「不公開張揚、不刻意吸引別人注意的」是「quiet — discreet/private」的用法，與本句語境不同。"
+        "quiet-mcq-09": "本句的「quiet confidence」指「不需要炫耀，卻明顯相信自己能力的沉著自信」。",
+        "quiet-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-09"
     },
@@ -1312,11 +1230,9 @@ export default {
       "masked": "She handled the situation with ____.",
       "options": [
         "quiet-mcq-10",
-        "quiet-mcq-09",
-        "quiet-mcq-11",
-        "quiet-mcq-08",
-        "quiet-mcq-12",
-        "quiet-mcq-07"
+        "quiet-mcq-23",
+        "quiet-mcq-02",
+        "quiet-mcq-19"
       ],
       "explanation": "本句的「quiet dignity」指「不張揚、不激烈，但表現出沉著、自尊和莊重」。",
       "sentenceIndex": 20,
@@ -1325,12 +1241,10 @@ export default {
         "quiet dignity"
       ],
       "optionReasons": {
-        "quiet-mcq-10": "本句指「不張揚、不激烈，但表現出沉著、自尊和莊重」。",
-        "quiet-mcq-09": "「不需要炫耀，卻明顯相信自己能力的沉著自信」是「quiet confidence」的用法，與本句語境不同。",
-        "quiet-mcq-11": "「以低音量、不製造太多聲音的方式」是「quietly — low sound」的用法，與本句語境不同。",
-        "quiet-mcq-08": "「不高調展示但穩定、持久而堅定的內在力量」是「quiet strength」的用法，與本句語境不同。",
-        "quiet-mcq-12": "「以平靜、不吵鬧、不造成騷動的方式」是「quietly — calm」的用法，與本句語境不同。",
-        "quiet-mcq-07": "「某種特質或力量存在，但表現方式低調、內斂、不炫耀」是「quiet — understated」的用法，與本句語境不同。"
+        "quiet-mcq-10": "本句的「quiet dignity」指「不張揚、不激烈，但表現出沉著、自尊和莊重」。",
+        "quiet-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-10"
     },
@@ -1342,11 +1256,9 @@ export default {
       "masked": "He accepted the decision with ____.",
       "options": [
         "quiet-mcq-10",
-        "quiet-mcq-09",
-        "quiet-mcq-11",
-        "quiet-mcq-08",
-        "quiet-mcq-12",
-        "quiet-mcq-07"
+        "quiet-mcq-20",
+        "quiet-mcq-24",
+        "quiet-mcq-19"
       ],
       "explanation": "本句的「quiet dignity」指「不張揚、不激烈，但表現出沉著、自尊和莊重」。",
       "sentenceIndex": 21,
@@ -1355,12 +1267,10 @@ export default {
         "quiet dignity"
       ],
       "optionReasons": {
-        "quiet-mcq-10": "本句指「不張揚、不激烈，但表現出沉著、自尊和莊重」。",
-        "quiet-mcq-09": "「不需要炫耀，卻明顯相信自己能力的沉著自信」是「quiet confidence」的用法，與本句語境不同。",
-        "quiet-mcq-11": "「以低音量、不製造太多聲音的方式」是「quietly — low sound」的用法，與本句語境不同。",
-        "quiet-mcq-08": "「不高調展示但穩定、持久而堅定的內在力量」是「quiet strength」的用法，與本句語境不同。",
-        "quiet-mcq-12": "「以平靜、不吵鬧、不造成騷動的方式」是「quietly — calm」的用法，與本句語境不同。",
-        "quiet-mcq-07": "「某種特質或力量存在，但表現方式低調、內斂、不炫耀」是「quiet — understated」的用法，與本句語境不同。"
+        "quiet-mcq-10": "本句的「quiet dignity」指「不張揚、不激烈，但表現出沉著、自尊和莊重」。",
+        "quiet-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-10"
     },
@@ -1372,11 +1282,9 @@ export default {
       "masked": "There was a ____ in her voice.",
       "options": [
         "quiet-mcq-29",
-        "quiet-mcq-28",
-        "quiet-mcq-30",
-        "quiet-mcq-27",
-        "quiet-mcq-26",
-        "quiet-mcq-25"
+        "quiet-mcq-25",
+        "quiet-mcq-02",
+        "quiet-mcq-12"
       ],
       "explanation": "本句的「quiet sadness」指「某種情感或力量存在，但表達方式含蓄、不強烈外露」。",
       "sentenceIndex": 22,
@@ -1385,12 +1293,10 @@ export default {
         "quiet sadness"
       ],
       "optionReasons": {
-        "quiet-mcq-29": "本句指「某種情感或力量存在，但表達方式含蓄、不強烈外露」。",
-        "quiet-mcq-28": "「在沒有不合理干擾下使用和享用物業的法律權利」是「quiet enjoyment — legal」的用法，與本句語境不同。",
-        "quiet-mcq-30": "「從吵鬧、活躍或激動的狀態變得較安靜」是「20. quiet down — 安靜下來；平靜下來」的用法，與本句語境不同。",
-        "quiet-mcq-27": "「交易、活動或價格波動較少的市場」是「quiet market」的用法，與本句語境不同。",
-        "quiet-mcq-26": "「工作量、顧客、活動或需求較少的時期」是「quiet period/season」的用法，與本句語境不同。",
-        "quiet-mcq-25": "「特意安排的低活動、休息、安靜或獨處時段」是「quiet time」的用法，與本句語境不同。"
+        "quiet-mcq-29": "本句的「quiet sadness」指「某種情感或力量存在，但表達方式含蓄、不強烈外露」。",
+        "quiet-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-29"
     },
@@ -1403,10 +1309,8 @@ export default {
       "options": [
         "quiet-mcq-29",
         "quiet-mcq-28",
-        "quiet-mcq-30",
-        "quiet-mcq-27",
-        "quiet-mcq-26",
-        "quiet-mcq-25"
+        "quiet-mcq-02",
+        "quiet-mcq-30"
       ],
       "explanation": "本句的「quiet emotional power」指「某種情感或力量存在，但表達方式含蓄、不強烈外露」。",
       "sentenceIndex": 23,
@@ -1415,12 +1319,10 @@ export default {
         "quiet emotional power"
       ],
       "optionReasons": {
-        "quiet-mcq-29": "本句指「某種情感或力量存在，但表達方式含蓄、不強烈外露」。",
-        "quiet-mcq-28": "「在沒有不合理干擾下使用和享用物業的法律權利」是「quiet enjoyment — legal」的用法，與本句語境不同。",
-        "quiet-mcq-30": "「從吵鬧、活躍或激動的狀態變得較安靜」是「20. quiet down — 安靜下來；平靜下來」的用法，與本句語境不同。",
-        "quiet-mcq-27": "「交易、活動或價格波動較少的市場」是「quiet market」的用法，與本句語境不同。",
-        "quiet-mcq-26": "「工作量、顧客、活動或需求較少的時期」是「quiet period/season」的用法，與本句語境不同。",
-        "quiet-mcq-25": "「特意安排的低活動、休息、安靜或獨處時段」是「quiet time」的用法，與本句語境不同。"
+        "quiet-mcq-29": "本句的「quiet emotional power」指「某種情感或力量存在，但表達方式含蓄、不強烈外露」。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-29"
     },
@@ -1432,11 +1334,9 @@ export default {
       "masked": "She spoke ____.",
       "options": [
         "quiet-mcq-11",
-        "quiet-mcq-10",
-        "quiet-mcq-12",
-        "quiet-mcq-09",
-        "quiet-mcq-13",
-        "quiet-mcq-08"
+        "quiet-mcq-06",
+        "quiet-mcq-27",
+        "quiet-mcq-28"
       ],
       "explanation": "本句的「quietly」指「以低音量、不製造太多聲音的方式」。",
       "sentenceIndex": 24,
@@ -1445,12 +1345,10 @@ export default {
         "quietly"
       ],
       "optionReasons": {
-        "quiet-mcq-11": "本句指「以低音量、不製造太多聲音的方式」。",
-        "quiet-mcq-10": "「不張揚、不激烈，但表現出沉著、自尊和莊重」是「quiet dignity」的用法，與本句語境不同。",
-        "quiet-mcq-12": "「以平靜、不吵鬧、不造成騷動的方式」是「quietly — calm」的用法，與本句語境不同。",
-        "quiet-mcq-09": "「不需要炫耀，卻明顯相信自己能力的沉著自信」是「quiet confidence」的用法，與本句語境不同。",
-        "quiet-mcq-13": "「以低調、不公開炫耀、不刻意吸引注意的方式」是「quietly — understated」的用法，與本句語境不同。",
-        "quiet-mcq-08": "「不高調展示但穩定、持久而堅定的內在力量」是「quiet strength」的用法，與本句語境不同。"
+        "quiet-mcq-11": "本句的「quietly」指「以低音量、不製造太多聲音的方式」。",
+        "quiet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-11"
     },
@@ -1462,11 +1360,9 @@ export default {
       "masked": "He closed the door ____.",
       "options": [
         "quiet-mcq-11",
-        "quiet-mcq-10",
-        "quiet-mcq-12",
-        "quiet-mcq-09",
-        "quiet-mcq-13",
-        "quiet-mcq-08"
+        "quiet-mcq-21",
+        "quiet-mcq-22",
+        "quiet-mcq-27"
       ],
       "explanation": "本句的「quietly」指「以低音量、不製造太多聲音的方式」。",
       "sentenceIndex": 25,
@@ -1475,12 +1371,10 @@ export default {
         "quietly"
       ],
       "optionReasons": {
-        "quiet-mcq-11": "本句指「以低音量、不製造太多聲音的方式」。",
-        "quiet-mcq-10": "「不張揚、不激烈，但表現出沉著、自尊和莊重」是「quiet dignity」的用法，與本句語境不同。",
-        "quiet-mcq-12": "「以平靜、不吵鬧、不造成騷動的方式」是「quietly — calm」的用法，與本句語境不同。",
-        "quiet-mcq-09": "「不需要炫耀，卻明顯相信自己能力的沉著自信」是「quiet confidence」的用法，與本句語境不同。",
-        "quiet-mcq-13": "「以低調、不公開炫耀、不刻意吸引注意的方式」是「quietly — understated」的用法，與本句語境不同。",
-        "quiet-mcq-08": "「不高調展示但穩定、持久而堅定的內在力量」是「quiet strength」的用法，與本句語境不同。"
+        "quiet-mcq-11": "本句的「quietly」指「以低音量、不製造太多聲音的方式」。",
+        "quiet-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-11"
     },
@@ -1492,11 +1386,9 @@ export default {
       "masked": "She sat ____ and listened.",
       "options": [
         "quiet-mcq-12",
-        "quiet-mcq-11",
-        "quiet-mcq-13",
-        "quiet-mcq-10",
-        "quiet-mcq-14",
-        "quiet-mcq-09"
+        "quiet-mcq-06",
+        "quiet-mcq-05",
+        "quiet-mcq-16"
       ],
       "explanation": "本句的「quietly」指「以平靜、不吵鬧、不造成騷動的方式」。",
       "sentenceIndex": 26,
@@ -1505,12 +1397,10 @@ export default {
         "quietly"
       ],
       "optionReasons": {
-        "quiet-mcq-12": "本句指「以平靜、不吵鬧、不造成騷動的方式」。",
-        "quiet-mcq-11": "「以低音量、不製造太多聲音的方式」是「quietly — low sound」的用法，與本句語境不同。",
-        "quiet-mcq-13": "「以低調、不公開炫耀、不刻意吸引注意的方式」是「quietly — understated」的用法，與本句語境不同。",
-        "quiet-mcq-10": "「不張揚、不激烈，但表現出沉著、自尊和莊重」是「quiet dignity」的用法，與本句語境不同。",
-        "quiet-mcq-14": "「某特質存在而明顯，但表達方式內斂、不張揚」是「quietly + adjective」的用法，與本句語境不同。",
-        "quiet-mcq-09": "「不需要炫耀，卻明顯相信自己能力的沉著自信」是「quiet confidence」的用法，與本句語境不同。"
+        "quiet-mcq-12": "本句的「quietly」指「以平靜、不吵鬧、不造成騷動的方式」。",
+        "quiet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-12"
     },
@@ -1522,11 +1412,9 @@ export default {
       "masked": "The children waited ____.",
       "options": [
         "quiet-mcq-12",
-        "quiet-mcq-11",
-        "quiet-mcq-13",
-        "quiet-mcq-10",
-        "quiet-mcq-14",
-        "quiet-mcq-09"
+        "quiet-mcq-17",
+        "quiet-mcq-05",
+        "quiet-mcq-08"
       ],
       "explanation": "本句的「quietly」指「以平靜、不吵鬧、不造成騷動的方式」。",
       "sentenceIndex": 27,
@@ -1535,12 +1423,10 @@ export default {
         "quietly"
       ],
       "optionReasons": {
-        "quiet-mcq-12": "本句指「以平靜、不吵鬧、不造成騷動的方式」。",
-        "quiet-mcq-11": "「以低音量、不製造太多聲音的方式」是「quietly — low sound」的用法，與本句語境不同。",
-        "quiet-mcq-13": "「以低調、不公開炫耀、不刻意吸引注意的方式」是「quietly — understated」的用法，與本句語境不同。",
-        "quiet-mcq-10": "「不張揚、不激烈，但表現出沉著、自尊和莊重」是「quiet dignity」的用法，與本句語境不同。",
-        "quiet-mcq-14": "「某特質存在而明顯，但表達方式內斂、不張揚」是「quietly + adjective」的用法，與本句語境不同。",
-        "quiet-mcq-09": "「不需要炫耀，卻明顯相信自己能力的沉著自信」是「quiet confidence」的用法，與本句語境不同。"
+        "quiet-mcq-12": "本句的「quietly」指「以平靜、不吵鬧、不造成騷動的方式」。",
+        "quiet-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-12"
     },
@@ -1552,11 +1438,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "quiet-mcq-13",
-        "quiet-mcq-12",
-        "quiet-mcq-14",
-        "quiet-mcq-11",
-        "quiet-mcq-15",
-        "quiet-mcq-10"
+        "quiet-mcq-10",
+        "quiet-mcq-30",
+        "quiet-pdf-001"
       ],
       "explanation": "本句的「quietly wise」指「以低調、不公開炫耀、不刻意吸引注意的方式」。",
       "sentenceIndex": 28,
@@ -1565,12 +1449,10 @@ export default {
         "quietly wise"
       ],
       "optionReasons": {
-        "quiet-mcq-13": "本句指「以低調、不公開炫耀、不刻意吸引注意的方式」。",
-        "quiet-mcq-12": "「以平靜、不吵鬧、不造成騷動的方式」是「quietly — calm」的用法，與本句語境不同。",
-        "quiet-mcq-14": "「某特質存在而明顯，但表達方式內斂、不張揚」是「quietly + adjective」的用法，與本句語境不同。",
-        "quiet-mcq-11": "「以低音量、不製造太多聲音的方式」是「quietly — low sound」的用法，與本句語境不同。",
-        "quiet-mcq-15": "「停止說話或降低聲音／活動量」是「be quiet」的用法，與本句語境不同。",
-        "quiet-mcq-10": "「不張揚、不激烈，但表現出沉著、自尊和莊重」是「quiet dignity」的用法，與本句語境不同。"
+        "quiet-mcq-13": "本句的「quietly wise」指「以低調、不公開炫耀、不刻意吸引注意的方式」。",
+        "quiet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "quiet-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-13"
     },
@@ -1582,11 +1464,9 @@ export default {
       "masked": "He ____ supported the project for years.",
       "options": [
         "quiet-mcq-13",
-        "quiet-mcq-12",
-        "quiet-mcq-14",
-        "quiet-mcq-11",
-        "quiet-mcq-15",
-        "quiet-mcq-10"
+        "quiet-mcq-16",
+        "quiet-mcq-21",
+        "quiet-mcq-30"
       ],
       "explanation": "本句的「quietly」指「以低調、不公開炫耀、不刻意吸引注意的方式」。",
       "sentenceIndex": 29,
@@ -1595,12 +1475,10 @@ export default {
         "quietly"
       ],
       "optionReasons": {
-        "quiet-mcq-13": "本句指「以低調、不公開炫耀、不刻意吸引注意的方式」。",
-        "quiet-mcq-12": "「以平靜、不吵鬧、不造成騷動的方式」是「quietly — calm」的用法，與本句語境不同。",
-        "quiet-mcq-14": "「某特質存在而明顯，但表達方式內斂、不張揚」是「quietly + adjective」的用法，與本句語境不同。",
-        "quiet-mcq-11": "「以低音量、不製造太多聲音的方式」是「quietly — low sound」的用法，與本句語境不同。",
-        "quiet-mcq-15": "「停止說話或降低聲音／活動量」是「be quiet」的用法，與本句語境不同。",
-        "quiet-mcq-10": "「不張揚、不激烈，但表現出沉著、自尊和莊重」是「quiet dignity」的用法，與本句語境不同。"
+        "quiet-mcq-13": "本句的「quietly」指「以低調、不公開炫耀、不刻意吸引注意的方式」。",
+        "quiet-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-13"
     },
@@ -1612,11 +1490,9 @@ export default {
       "masked": "She has ____ become one of the most trusted members of the team.",
       "options": [
         "quiet-mcq-13",
-        "quiet-mcq-12",
-        "quiet-mcq-14",
-        "quiet-mcq-11",
-        "quiet-mcq-15",
-        "quiet-mcq-10"
+        "quiet-mcq-23",
+        "quiet-mcq-29",
+        "quiet-mcq-19"
       ],
       "explanation": "本句的「quietly」指「以低調、不公開炫耀、不刻意吸引注意的方式」。",
       "sentenceIndex": 30,
@@ -1625,12 +1501,10 @@ export default {
         "quietly"
       ],
       "optionReasons": {
-        "quiet-mcq-13": "本句指「以低調、不公開炫耀、不刻意吸引注意的方式」。",
-        "quiet-mcq-12": "「以平靜、不吵鬧、不造成騷動的方式」是「quietly — calm」的用法，與本句語境不同。",
-        "quiet-mcq-14": "「某特質存在而明顯，但表達方式內斂、不張揚」是「quietly + adjective」的用法，與本句語境不同。",
-        "quiet-mcq-11": "「以低音量、不製造太多聲音的方式」是「quietly — low sound」的用法，與本句語境不同。",
-        "quiet-mcq-15": "「停止說話或降低聲音／活動量」是「be quiet」的用法，與本句語境不同。",
-        "quiet-mcq-10": "「不張揚、不激烈，但表現出沉著、自尊和莊重」是「quiet dignity」的用法，與本句語境不同。"
+        "quiet-mcq-13": "本句的「quietly」指「以低調、不公開炫耀、不刻意吸引注意的方式」。",
+        "quiet-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-13"
     },
@@ -1643,10 +1517,8 @@ export default {
       "options": [
         "quiet-mcq-14",
         "quiet-mcq-13",
-        "quiet-mcq-15",
-        "quiet-mcq-12",
-        "quiet-mcq-16",
-        "quiet-mcq-11"
+        "quiet-mcq-27",
+        "quiet-mcq-18"
       ],
       "explanation": "本句的「quietly confident」指「某特質存在而明顯，但表達方式內斂、不張揚」。",
       "sentenceIndex": 31,
@@ -1655,12 +1527,10 @@ export default {
         "quietly confident"
       ],
       "optionReasons": {
-        "quiet-mcq-14": "本句指「某特質存在而明顯，但表達方式內斂、不張揚」。",
-        "quiet-mcq-13": "「以低調、不公開炫耀、不刻意吸引注意的方式」是「quietly — understated」的用法，與本句語境不同。",
-        "quiet-mcq-15": "「停止說話或降低聲音／活動量」是「be quiet」的用法，與本句語境不同。",
-        "quiet-mcq-12": "「以平靜、不吵鬧、不造成騷動的方式」是「quietly — calm」的用法，與本句語境不同。",
-        "quiet-mcq-16": "「持續不說話或不發出太多聲音」是「keep quiet — silence」的用法，與本句語境不同。",
-        "quiet-mcq-11": "「以低音量、不製造太多聲音的方式」是「quietly — low sound」的用法，與本句語境不同。"
+        "quiet-mcq-14": "本句的「quietly confident」指「某特質存在而明顯，但表達方式內斂、不張揚」。",
+        "quiet-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-14"
     },
@@ -1672,10 +1542,8 @@ export default {
       "masked": "The design is ____.",
       "options": [
         "quiet-mcq-14",
-        "quiet-mcq-13",
-        "quiet-mcq-15",
-        "quiet-mcq-12",
-        "quiet-mcq-16",
+        "quiet-mcq-27",
+        "quiet-mcq-05",
         "quiet-mcq-11"
       ],
       "explanation": "本句的「quietly elegant」指「某特質存在而明顯，但表達方式內斂、不張揚」。",
@@ -1685,12 +1553,10 @@ export default {
         "quietly elegant"
       ],
       "optionReasons": {
-        "quiet-mcq-14": "本句指「某特質存在而明顯，但表達方式內斂、不張揚」。",
-        "quiet-mcq-13": "「以低調、不公開炫耀、不刻意吸引注意的方式」是「quietly — understated」的用法，與本句語境不同。",
-        "quiet-mcq-15": "「停止說話或降低聲音／活動量」是「be quiet」的用法，與本句語境不同。",
-        "quiet-mcq-12": "「以平靜、不吵鬧、不造成騷動的方式」是「quietly — calm」的用法，與本句語境不同。",
-        "quiet-mcq-16": "「持續不說話或不發出太多聲音」是「keep quiet — silence」的用法，與本句語境不同。",
-        "quiet-mcq-11": "「以低音量、不製造太多聲音的方式」是「quietly — low sound」的用法，與本句語境不同。"
+        "quiet-mcq-14": "本句的「quietly elegant」指「某特質存在而明顯，但表達方式內斂、不張揚」。",
+        "quiet-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-14"
     },
@@ -1702,11 +1568,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "quiet-mcq-15",
-        "quiet-mcq-14",
-        "quiet-mcq-16",
-        "quiet-mcq-13",
-        "quiet-mcq-17",
-        "quiet-mcq-12"
+        "quiet-mcq-10",
+        "quiet-mcq-28",
+        "quiet-mcq-17"
       ],
       "explanation": "本句的「be quiet」指「停止說話或降低聲音／活動量」。",
       "sentenceIndex": 33,
@@ -1715,12 +1579,10 @@ export default {
         "be quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-15": "本句指「停止說話或降低聲音／活動量」。",
-        "quiet-mcq-14": "「某特質存在而明顯，但表達方式內斂、不張揚」是「quietly + adjective」的用法，與本句語境不同。",
-        "quiet-mcq-16": "「持續不說話或不發出太多聲音」是「keep quiet — silence」的用法，與本句語境不同。",
-        "quiet-mcq-13": "「以低調、不公開炫耀、不刻意吸引注意的方式」是「quietly — understated」的用法，與本句語境不同。",
-        "quiet-mcq-17": "「不向別人透露某件事；保持沉默」是「keep quiet — secrecy」的用法，與本句語境不同。",
-        "quiet-mcq-12": "「以平靜、不吵鬧、不造成騷動的方式」是「quietly — calm」的用法，與本句語境不同。"
+        "quiet-mcq-15": "本句的「be quiet」指「停止說話或降低聲音／活動量」。",
+        "quiet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-15"
     },
@@ -1733,10 +1595,8 @@ export default {
       "options": [
         "quiet-mcq-15",
         "quiet-mcq-14",
-        "quiet-mcq-16",
-        "quiet-mcq-13",
-        "quiet-mcq-17",
-        "quiet-mcq-12"
+        "quiet-mcq-19",
+        "quiet-mcq-28"
       ],
       "explanation": "本句的「be quiet」指「停止說話或降低聲音／活動量」。",
       "sentenceIndex": 34,
@@ -1745,12 +1605,10 @@ export default {
         "be quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-15": "本句指「停止說話或降低聲音／活動量」。",
-        "quiet-mcq-14": "「某特質存在而明顯，但表達方式內斂、不張揚」是「quietly + adjective」的用法，與本句語境不同。",
-        "quiet-mcq-16": "「持續不說話或不發出太多聲音」是「keep quiet — silence」的用法，與本句語境不同。",
-        "quiet-mcq-13": "「以低調、不公開炫耀、不刻意吸引注意的方式」是「quietly — understated」的用法，與本句語境不同。",
-        "quiet-mcq-17": "「不向別人透露某件事；保持沉默」是「keep quiet — secrecy」的用法，與本句語境不同。",
-        "quiet-mcq-12": "「以平靜、不吵鬧、不造成騷動的方式」是「quietly — calm」的用法，與本句語境不同。"
+        "quiet-mcq-15": "本句的「be quiet」指「停止說話或降低聲音／活動量」。",
+        "quiet-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-15"
     },
@@ -1762,10 +1620,8 @@ export default {
       "masked": "Please ____ while she is speaking.",
       "options": [
         "quiet-mcq-16",
-        "quiet-mcq-15",
-        "quiet-mcq-17",
-        "quiet-mcq-14",
-        "quiet-mcq-18",
+        "quiet-pdf-001",
+        "quiet-mcq-25",
         "quiet-mcq-13"
       ],
       "explanation": "本句的「keep quiet」指「持續不說話或不發出太多聲音」。",
@@ -1775,12 +1631,10 @@ export default {
         "keep quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-16": "本句指「持續不說話或不發出太多聲音」。",
-        "quiet-mcq-15": "「停止說話或降低聲音／活動量」是「be quiet」的用法，與本句語境不同。",
-        "quiet-mcq-17": "「不向別人透露某件事；保持沉默」是「keep quiet — secrecy」的用法，與本句語境不同。",
-        "quiet-mcq-14": "「某特質存在而明顯，但表達方式內斂、不張揚」是「quietly + adjective」的用法，與本句語境不同。",
-        "quiet-mcq-18": "「令聲音、情緒、恐懼或騷動減弱／平息」是「quiet — verb」的用法，與本句語境不同。",
-        "quiet-mcq-13": "「以低調、不公開炫耀、不刻意吸引注意的方式」是「quietly — understated」的用法，與本句語境不同。"
+        "quiet-mcq-16": "本句的「keep quiet」指「持續不說話或不發出太多聲音」。",
+        "quiet-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-16"
     },
@@ -1792,11 +1646,9 @@ export default {
       "masked": "The children managed to ____ for a few minutes.",
       "options": [
         "quiet-mcq-16",
-        "quiet-mcq-15",
-        "quiet-mcq-17",
-        "quiet-mcq-14",
-        "quiet-mcq-18",
-        "quiet-mcq-13"
+        "quiet-mcq-28",
+        "quiet-mcq-13",
+        "quiet-mcq-25"
       ],
       "explanation": "本句的「keep quiet」指「持續不說話或不發出太多聲音」。",
       "sentenceIndex": 36,
@@ -1805,12 +1657,10 @@ export default {
         "keep quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-16": "本句指「持續不說話或不發出太多聲音」。",
-        "quiet-mcq-15": "「停止說話或降低聲音／活動量」是「be quiet」的用法，與本句語境不同。",
-        "quiet-mcq-17": "「不向別人透露某件事；保持沉默」是「keep quiet — secrecy」的用法，與本句語境不同。",
-        "quiet-mcq-14": "「某特質存在而明顯，但表達方式內斂、不張揚」是「quietly + adjective」的用法，與本句語境不同。",
-        "quiet-mcq-18": "「令聲音、情緒、恐懼或騷動減弱／平息」是「quiet — verb」的用法，與本句語境不同。",
-        "quiet-mcq-13": "「以低調、不公開炫耀、不刻意吸引注意的方式」是「quietly — understated」的用法，與本句語境不同。"
+        "quiet-mcq-16": "本句的「keep quiet」指「持續不說話或不發出太多聲音」。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-16"
     },
@@ -1822,11 +1672,9 @@ export default {
       "masked": "She knew the secret but ____.",
       "options": [
         "quiet-mcq-17",
-        "quiet-mcq-16",
-        "quiet-mcq-18",
-        "quiet-mcq-15",
-        "quiet-mcq-19",
-        "quiet-mcq-14"
+        "quiet-mcq-13",
+        "quiet-mcq-27",
+        "quiet-mcq-30"
       ],
       "explanation": "本句的「kept quiet」指「不向別人透露某件事；保持沉默」。",
       "sentenceIndex": 37,
@@ -1835,12 +1683,10 @@ export default {
         "kept quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-17": "本句指「不向別人透露某件事；保持沉默」。",
-        "quiet-mcq-16": "「持續不說話或不發出太多聲音」是「keep quiet — silence」的用法，與本句語境不同。",
-        "quiet-mcq-18": "「令聲音、情緒、恐懼或騷動減弱／平息」是「quiet — verb」的用法，與本句語境不同。",
-        "quiet-mcq-15": "「停止說話或降低聲音／活動量」是「be quiet」的用法，與本句語境不同。",
-        "quiet-mcq-19": "「令某人／某處變得較安靜，或本身逐漸安靜」是「quieten」的用法，與本句語境不同。",
-        "quiet-mcq-14": "「某特質存在而明顯，但表達方式內斂、不張揚」是「quietly + adjective」的用法，與本句語境不同。"
+        "quiet-mcq-17": "本句的「kept quiet」指「不向別人透露某件事；保持沉默」。",
+        "quiet-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-17"
     },
@@ -1852,11 +1698,9 @@ export default {
       "masked": "They asked him to ____ about the plan.",
       "options": [
         "quiet-mcq-17",
-        "quiet-mcq-16",
-        "quiet-mcq-18",
-        "quiet-mcq-15",
-        "quiet-mcq-19",
-        "quiet-mcq-14"
+        "quiet-mcq-30",
+        "quiet-mcq-24",
+        "quiet-mcq-26"
       ],
       "explanation": "本句的「keep quiet」指「不向別人透露某件事；保持沉默」。",
       "sentenceIndex": 38,
@@ -1865,12 +1709,10 @@ export default {
         "keep quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-17": "本句指「不向別人透露某件事；保持沉默」。",
-        "quiet-mcq-16": "「持續不說話或不發出太多聲音」是「keep quiet — silence」的用法，與本句語境不同。",
-        "quiet-mcq-18": "「令聲音、情緒、恐懼或騷動減弱／平息」是「quiet — verb」的用法，與本句語境不同。",
-        "quiet-mcq-15": "「停止說話或降低聲音／活動量」是「be quiet」的用法，與本句語境不同。",
-        "quiet-mcq-19": "「令某人／某處變得較安靜，或本身逐漸安靜」是「quieten」的用法，與本句語境不同。",
-        "quiet-mcq-14": "「某特質存在而明顯，但表達方式內斂、不張揚」是「quietly + adjective」的用法，與本句語境不同。"
+        "quiet-mcq-17": "本句的「keep quiet」指「不向別人透露某件事；保持沉默」。",
+        "quiet-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-17"
     },
@@ -1882,11 +1724,9 @@ export default {
       "masked": "The room ____ after the teacher entered.",
       "options": [
         "quiet-mcq-30",
-        "quiet-mcq-29",
-        "quiet-mcq-28",
-        "quiet-mcq-27",
-        "quiet-mcq-26",
-        "quiet-mcq-25"
+        "quiet-mcq-11",
+        "quiet-mcq-05",
+        "quiet-mcq-14"
       ],
       "explanation": "本句的「quieted down」指「從吵鬧、活躍或激動的狀態變得較安靜」。",
       "sentenceIndex": 39,
@@ -1895,12 +1735,10 @@ export default {
         "quieted down"
       ],
       "optionReasons": {
-        "quiet-mcq-30": "本句指「從吵鬧、活躍或激動的狀態變得較安靜」。",
-        "quiet-mcq-29": "「某種情感或力量存在，但表達方式含蓄、不強烈外露」是「12. quiet = restrained/subtle（情感／力量） — 克制的；含蓄的」的用法，與本句語境不同。",
-        "quiet-mcq-28": "「在沒有不合理干擾下使用和享用物業的法律權利」是「quiet enjoyment — legal」的用法，與本句語境不同。",
-        "quiet-mcq-27": "「交易、活動或價格波動較少的市場」是「quiet market」的用法，與本句語境不同。",
-        "quiet-mcq-26": "「工作量、顧客、活動或需求較少的時期」是「quiet period/season」的用法，與本句語境不同。",
-        "quiet-mcq-25": "「特意安排的低活動、休息、安靜或獨處時段」是「quiet time」的用法，與本句語境不同。"
+        "quiet-mcq-30": "本句的「quieted down」指「從吵鬧、活躍或激動的狀態變得較安靜」。",
+        "quiet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-30"
     },
@@ -1912,11 +1750,9 @@ export default {
       "masked": "The children eventually ____.",
       "options": [
         "quiet-mcq-30",
-        "quiet-mcq-29",
-        "quiet-mcq-28",
-        "quiet-mcq-27",
-        "quiet-mcq-26",
-        "quiet-mcq-25"
+        "quiet-mcq-13",
+        "quiet-mcq-05",
+        "quiet-mcq-08"
       ],
       "explanation": "本句的「quieted down」指「從吵鬧、活躍或激動的狀態變得較安靜」。",
       "sentenceIndex": 40,
@@ -1925,12 +1761,10 @@ export default {
         "quieted down"
       ],
       "optionReasons": {
-        "quiet-mcq-30": "本句指「從吵鬧、活躍或激動的狀態變得較安靜」。",
-        "quiet-mcq-29": "「某種情感或力量存在，但表達方式含蓄、不強烈外露」是「12. quiet = restrained/subtle（情感／力量） — 克制的；含蓄的」的用法，與本句語境不同。",
-        "quiet-mcq-28": "「在沒有不合理干擾下使用和享用物業的法律權利」是「quiet enjoyment — legal」的用法，與本句語境不同。",
-        "quiet-mcq-27": "「交易、活動或價格波動較少的市場」是「quiet market」的用法，與本句語境不同。",
-        "quiet-mcq-26": "「工作量、顧客、活動或需求較少的時期」是「quiet period/season」的用法，與本句語境不同。",
-        "quiet-mcq-25": "「特意安排的低活動、休息、安靜或獨處時段」是「quiet time」的用法，與本句語境不同。"
+        "quiet-mcq-30": "本句的「quieted down」指「從吵鬧、活躍或激動的狀態變得較安靜」。",
+        "quiet-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-30"
     },
@@ -1942,11 +1776,9 @@ export default {
       "masked": "She tried to ____ the crying baby.",
       "options": [
         "quiet-mcq-18",
-        "quiet-mcq-17",
-        "quiet-mcq-19",
-        "quiet-mcq-16",
-        "quiet-mcq-20",
-        "quiet-mcq-15"
+        "quiet-mcq-29",
+        "quiet-mcq-28",
+        "quiet-mcq-13"
       ],
       "explanation": "本句的「quiet」指「令聲音、情緒、恐懼或騷動減弱／平息」。",
       "sentenceIndex": 41,
@@ -1955,12 +1787,10 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-18": "本句指「令聲音、情緒、恐懼或騷動減弱／平息」。",
-        "quiet-mcq-17": "「不向別人透露某件事；保持沉默」是「keep quiet — secrecy」的用法，與本句語境不同。",
-        "quiet-mcq-19": "「令某人／某處變得較安靜，或本身逐漸安靜」是「quieten」的用法，與本句語境不同。",
-        "quiet-mcq-16": "「持續不說話或不發出太多聲音」是「keep quiet — silence」的用法，與本句語境不同。",
-        "quiet-mcq-20": "「聲音、活動或騷動很少的狀態」是「quietness — sound/activity」的用法，與本句語境不同。",
-        "quiet-mcq-15": "「停止說話或降低聲音／活動量」是「be quiet」的用法，與本句語境不同。"
+        "quiet-mcq-18": "本句的「quiet」指「令聲音、情緒、恐懼或騷動減弱／平息」。",
+        "quiet-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-18"
     },
@@ -1972,11 +1802,9 @@ export default {
       "masked": "His explanation helped ____ their fears.",
       "options": [
         "quiet-mcq-18",
-        "quiet-mcq-17",
-        "quiet-mcq-19",
-        "quiet-mcq-16",
-        "quiet-mcq-20",
-        "quiet-mcq-15"
+        "quiet-mcq-29",
+        "quiet-mcq-06",
+        "quiet-mcq-28"
       ],
       "explanation": "本句的「quiet」指「令聲音、情緒、恐懼或騷動減弱／平息」。",
       "sentenceIndex": 42,
@@ -1985,12 +1813,10 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-18": "本句指「令聲音、情緒、恐懼或騷動減弱／平息」。",
-        "quiet-mcq-17": "「不向別人透露某件事；保持沉默」是「keep quiet — secrecy」的用法，與本句語境不同。",
-        "quiet-mcq-19": "「令某人／某處變得較安靜，或本身逐漸安靜」是「quieten」的用法，與本句語境不同。",
-        "quiet-mcq-16": "「持續不說話或不發出太多聲音」是「keep quiet — silence」的用法，與本句語境不同。",
-        "quiet-mcq-20": "「聲音、活動或騷動很少的狀態」是「quietness — sound/activity」的用法，與本句語境不同。",
-        "quiet-mcq-15": "「停止說話或降低聲音／活動量」是「be quiet」的用法，與本句語境不同。"
+        "quiet-mcq-18": "本句的「quiet」指「令聲音、情緒、恐懼或騷動減弱／平息」。",
+        "quiet-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-18"
     },
@@ -2002,11 +1828,9 @@ export default {
       "masked": "The doctor’s explanation ____ her fears.",
       "options": [
         "quiet-pdf-001",
-        "quiet-mcq-17",
-        "quiet-mcq-19",
-        "quiet-mcq-16",
         "quiet-mcq-20",
-        "quiet-mcq-15"
+        "quiet-mcq-21",
+        "quiet-mcq-05"
       ],
       "explanation": "本句的「quieted」指「令原本強烈的不安、疑慮或擔憂減弱」。",
       "sentenceIndex": 43,
@@ -2015,12 +1839,10 @@ export default {
         "quieted"
       ],
       "optionReasons": {
-        "quiet-pdf-001": "本句指「令原本強烈的不安、疑慮或擔憂減弱」。",
-        "quiet-mcq-17": "「不向別人透露某件事；保持沉默」是「keep quiet — secrecy」的用法，與本句語境不同。",
-        "quiet-mcq-19": "「令某人／某處變得較安靜，或本身逐漸安靜」是「quieten」的用法，與本句語境不同。",
-        "quiet-mcq-16": "「持續不說話或不發出太多聲音」是「keep quiet — silence」的用法，與本句語境不同。",
-        "quiet-mcq-20": "「聲音、活動或騷動很少的狀態」是「quietness — sound/activity」的用法，與本句語境不同。",
-        "quiet-mcq-15": "「停止說話或降低聲音／活動量」是「be quiet」的用法，與本句語境不同。"
+        "quiet-pdf-001": "本句的「quieted」指「令原本強烈的不安、疑慮或擔憂減弱」。",
+        "quiet-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-pdf-001"
     },
@@ -2032,11 +1854,9 @@ export default {
       "masked": "The new evidence helped ____ doubts about the result.",
       "options": [
         "quiet-pdf-001",
-        "quiet-mcq-17",
-        "quiet-mcq-19",
-        "quiet-mcq-16",
-        "quiet-mcq-20",
-        "quiet-mcq-15"
+        "quiet-mcq-04",
+        "quiet-mcq-06",
+        "quiet-mcq-01"
       ],
       "explanation": "本句的「quiet」指「令原本強烈的不安、疑慮或擔憂減弱」。",
       "sentenceIndex": 44,
@@ -2045,12 +1865,10 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-pdf-001": "本句指「令原本強烈的不安、疑慮或擔憂減弱」。",
-        "quiet-mcq-17": "「不向別人透露某件事；保持沉默」是「keep quiet — secrecy」的用法，與本句語境不同。",
-        "quiet-mcq-19": "「令某人／某處變得較安靜，或本身逐漸安靜」是「quieten」的用法，與本句語境不同。",
-        "quiet-mcq-16": "「持續不說話或不發出太多聲音」是「keep quiet — silence」的用法，與本句語境不同。",
-        "quiet-mcq-20": "「聲音、活動或騷動很少的狀態」是「quietness — sound/activity」的用法，與本句語境不同。",
-        "quiet-mcq-15": "「停止說話或降低聲音／活動量」是「be quiet」的用法，與本句語境不同。"
+        "quiet-pdf-001": "本句的「quiet」指「令原本強烈的不安、疑慮或擔憂減弱」。",
+        "quiet-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-pdf-001"
     },
@@ -2062,11 +1880,9 @@ export default {
       "masked": "The crowd began to ____.",
       "options": [
         "quiet-mcq-19",
-        "quiet-mcq-18",
-        "quiet-mcq-20",
-        "quiet-mcq-17",
-        "quiet-mcq-21",
-        "quiet-mcq-16"
+        "quiet-mcq-05",
+        "quiet-mcq-14",
+        "quiet-mcq-02"
       ],
       "explanation": "本句的「quieten」指「令某人／某處變得較安靜，或本身逐漸安靜」。",
       "sentenceIndex": 45,
@@ -2075,12 +1891,10 @@ export default {
         "quieten"
       ],
       "optionReasons": {
-        "quiet-mcq-19": "本句指「令某人／某處變得較安靜，或本身逐漸安靜」。",
-        "quiet-mcq-18": "「令聲音、情緒、恐懼或騷動減弱／平息」是「quiet — verb」的用法，與本句語境不同。",
-        "quiet-mcq-20": "「聲音、活動或騷動很少的狀態」是「quietness — sound/activity」的用法，與本句語境不同。",
-        "quiet-mcq-17": "「不向別人透露某件事；保持沉默」是「keep quiet — secrecy」的用法，與本句語境不同。",
-        "quiet-mcq-21": "「一個人平靜、少話、不張揚的性格或表現方式」是「quietness — personality」的用法，與本句語境不同。",
-        "quiet-mcq-16": "「持續不說話或不發出太多聲音」是「keep quiet — silence」的用法，與本句語境不同。"
+        "quiet-mcq-19": "本句的「quieten」指「令某人／某處變得較安靜，或本身逐漸安靜」。",
+        "quiet-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-19"
     },
@@ -2092,11 +1906,9 @@ export default {
       "masked": "She tried to ____ the children.",
       "options": [
         "quiet-mcq-19",
-        "quiet-mcq-18",
-        "quiet-mcq-20",
-        "quiet-mcq-17",
-        "quiet-mcq-21",
-        "quiet-mcq-16"
+        "quiet-mcq-02",
+        "quiet-mcq-01",
+        "quiet-mcq-07"
       ],
       "explanation": "本句的「quieten」指「令某人／某處變得較安靜，或本身逐漸安靜」。",
       "sentenceIndex": 46,
@@ -2105,12 +1917,10 @@ export default {
         "quieten"
       ],
       "optionReasons": {
-        "quiet-mcq-19": "本句指「令某人／某處變得較安靜，或本身逐漸安靜」。",
-        "quiet-mcq-18": "「令聲音、情緒、恐懼或騷動減弱／平息」是「quiet — verb」的用法，與本句語境不同。",
-        "quiet-mcq-20": "「聲音、活動或騷動很少的狀態」是「quietness — sound/activity」的用法，與本句語境不同。",
-        "quiet-mcq-17": "「不向別人透露某件事；保持沉默」是「keep quiet — secrecy」的用法，與本句語境不同。",
-        "quiet-mcq-21": "「一個人平靜、少話、不張揚的性格或表現方式」是「quietness — personality」的用法，與本句語境不同。",
-        "quiet-mcq-16": "「持續不說話或不發出太多聲音」是「keep quiet — silence」的用法，與本句語境不同。"
+        "quiet-mcq-19": "本句的「quieten」指「令某人／某處變得較安靜，或本身逐漸安靜」。",
+        "quiet-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-19"
     },
@@ -2123,10 +1933,8 @@ export default {
       "options": [
         "quiet-mcq-20",
         "quiet-mcq-19",
-        "quiet-mcq-21",
-        "quiet-mcq-18",
-        "quiet-mcq-22",
-        "quiet-mcq-17"
+        "quiet-mcq-29",
+        "quiet-mcq-28"
       ],
       "explanation": "本句的「quietness」指「聲音、活動或騷動很少的狀態」。",
       "sentenceIndex": 47,
@@ -2135,12 +1943,10 @@ export default {
         "quietness"
       ],
       "optionReasons": {
-        "quiet-mcq-20": "本句指「聲音、活動或騷動很少的狀態」。",
-        "quiet-mcq-19": "「令某人／某處變得較安靜，或本身逐漸安靜」是「quieten」的用法，與本句語境不同。",
-        "quiet-mcq-21": "「一個人平靜、少話、不張揚的性格或表現方式」是「quietness — personality」的用法，與本句語境不同。",
-        "quiet-mcq-18": "「令聲音、情緒、恐懼或騷動減弱／平息」是「quiet — verb」的用法，與本句語境不同。",
-        "quiet-mcq-22": "「深沉、持續而沒有騷擾的寧靜／靜謐；較文學正式」是「quietude」的用法，與本句語境不同。",
-        "quiet-mcq-17": "「不向別人透露某件事；保持沉默」是「keep quiet — secrecy」的用法，與本句語境不同。"
+        "quiet-mcq-20": "本句的「quietness」指「聲音、活動或騷動很少的狀態」。",
+        "quiet-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-20"
     },
@@ -2152,11 +1958,9 @@ export default {
       "masked": "The ____ of the neighbourhood surprised me.",
       "options": [
         "quiet-mcq-20",
-        "quiet-mcq-19",
-        "quiet-mcq-21",
-        "quiet-mcq-18",
-        "quiet-mcq-22",
-        "quiet-mcq-17"
+        "quiet-mcq-06",
+        "quiet-mcq-28",
+        "quiet-mcq-29"
       ],
       "explanation": "本句的「quietness」指「聲音、活動或騷動很少的狀態」。",
       "sentenceIndex": 48,
@@ -2165,12 +1969,10 @@ export default {
         "quietness"
       ],
       "optionReasons": {
-        "quiet-mcq-20": "本句指「聲音、活動或騷動很少的狀態」。",
-        "quiet-mcq-19": "「令某人／某處變得較安靜，或本身逐漸安靜」是「quieten」的用法，與本句語境不同。",
-        "quiet-mcq-21": "「一個人平靜、少話、不張揚的性格或表現方式」是「quietness — personality」的用法，與本句語境不同。",
-        "quiet-mcq-18": "「令聲音、情緒、恐懼或騷動減弱／平息」是「quiet — verb」的用法，與本句語境不同。",
-        "quiet-mcq-22": "「深沉、持續而沒有騷擾的寧靜／靜謐；較文學正式」是「quietude」的用法，與本句語境不同。",
-        "quiet-mcq-17": "「不向別人透露某件事；保持沉默」是「keep quiet — secrecy」的用法，與本句語境不同。"
+        "quiet-mcq-20": "本句的「quietness」指「聲音、活動或騷動很少的狀態」。",
+        "quiet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-20"
     },
@@ -2182,11 +1984,9 @@ export default {
       "masked": "Her ____ should not be mistaken for weakness.",
       "options": [
         "quiet-mcq-21",
-        "quiet-mcq-20",
-        "quiet-mcq-22",
-        "quiet-mcq-19",
-        "quiet-mcq-23",
-        "quiet-mcq-18"
+        "quiet-pdf-001",
+        "quiet-mcq-05",
+        "quiet-mcq-13"
       ],
       "explanation": "本句的「quietness」指「一個人平靜、少話、不張揚的性格或表現方式」。",
       "sentenceIndex": 49,
@@ -2195,12 +1995,10 @@ export default {
         "quietness"
       ],
       "optionReasons": {
-        "quiet-mcq-21": "本句指「一個人平靜、少話、不張揚的性格或表現方式」。",
-        "quiet-mcq-20": "「聲音、活動或騷動很少的狀態」是「quietness — sound/activity」的用法，與本句語境不同。",
-        "quiet-mcq-22": "「深沉、持續而沒有騷擾的寧靜／靜謐；較文學正式」是「quietude」的用法，與本句語境不同。",
-        "quiet-mcq-19": "「令某人／某處變得較安靜，或本身逐漸安靜」是「quieten」的用法，與本句語境不同。",
-        "quiet-mcq-23": "「沒有噪音、騷擾、壓力或過多活動的清靜環境」是「peace and quiet」的用法，與本句語境不同。",
-        "quiet-mcq-18": "「令聲音、情緒、恐懼或騷動減弱／平息」是「quiet — verb」的用法，與本句語境不同。"
+        "quiet-mcq-21": "本句的「quietness」指「一個人平靜、少話、不張揚的性格或表現方式」。",
+        "quiet-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-21"
     },
@@ -2212,11 +2010,9 @@ export default {
       "masked": "There was a reassuring ____ about her.",
       "options": [
         "quiet-mcq-21",
-        "quiet-mcq-20",
-        "quiet-mcq-22",
-        "quiet-mcq-19",
-        "quiet-mcq-23",
-        "quiet-mcq-18"
+        "quiet-mcq-28",
+        "quiet-mcq-13",
+        "quiet-pdf-001"
       ],
       "explanation": "本句的「quietness」指「一個人平靜、少話、不張揚的性格或表現方式」。",
       "sentenceIndex": 50,
@@ -2225,12 +2021,10 @@ export default {
         "quietness"
       ],
       "optionReasons": {
-        "quiet-mcq-21": "本句指「一個人平靜、少話、不張揚的性格或表現方式」。",
-        "quiet-mcq-20": "「聲音、活動或騷動很少的狀態」是「quietness — sound/activity」的用法，與本句語境不同。",
-        "quiet-mcq-22": "「深沉、持續而沒有騷擾的寧靜／靜謐；較文學正式」是「quietude」的用法，與本句語境不同。",
-        "quiet-mcq-19": "「令某人／某處變得較安靜，或本身逐漸安靜」是「quieten」的用法，與本句語境不同。",
-        "quiet-mcq-23": "「沒有噪音、騷擾、壓力或過多活動的清靜環境」是「peace and quiet」的用法，與本句語境不同。",
-        "quiet-mcq-18": "「令聲音、情緒、恐懼或騷動減弱／平息」是「quiet — verb」的用法，與本句語境不同。"
+        "quiet-mcq-21": "本句的「quietness」指「一個人平靜、少話、不張揚的性格或表現方式」。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quiet-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-21"
     },
@@ -2242,11 +2036,9 @@ export default {
       "masked": "She enjoyed the ____ of the early morning.",
       "options": [
         "quiet-mcq-22",
-        "quiet-mcq-21",
-        "quiet-mcq-23",
-        "quiet-mcq-20",
-        "quiet-mcq-24",
-        "quiet-mcq-19"
+        "quiet-mcq-11",
+        "quiet-mcq-06",
+        "quiet-pdf-001"
       ],
       "explanation": "本句的「quietude」指「深沉、持續而沒有騷擾的寧靜／靜謐；較文學正式」。",
       "sentenceIndex": 51,
@@ -2255,12 +2047,10 @@ export default {
         "quietude"
       ],
       "optionReasons": {
-        "quiet-mcq-22": "本句指「深沉、持續而沒有騷擾的寧靜／靜謐；較文學正式」。",
-        "quiet-mcq-21": "「一個人平靜、少話、不張揚的性格或表現方式」是「quietness — personality」的用法，與本句語境不同。",
-        "quiet-mcq-23": "「沒有噪音、騷擾、壓力或過多活動的清靜環境」是「peace and quiet」的用法，與本句語境不同。",
-        "quiet-mcq-20": "「聲音、活動或騷動很少的狀態」是「quietness — sound/activity」的用法，與本句語境不同。",
-        "quiet-mcq-24": "「沒有太多混亂、壓力或曝光的平靜低調生活」是「quiet life」的用法，與本句語境不同。",
-        "quiet-mcq-19": "「令某人／某處變得較安靜，或本身逐漸安靜」是「quieten」的用法，與本句語境不同。"
+        "quiet-mcq-22": "本句的「quietude」指「深沉、持續而沒有騷擾的寧靜／靜謐；較文學正式」。",
+        "quiet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quiet-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-22"
     },
@@ -2272,11 +2062,9 @@ export default {
       "masked": "The garden offered a rare sense of ____.",
       "options": [
         "quiet-mcq-22",
-        "quiet-mcq-21",
-        "quiet-mcq-23",
-        "quiet-mcq-20",
-        "quiet-mcq-24",
-        "quiet-mcq-19"
+        "quiet-mcq-02",
+        "quiet-pdf-001",
+        "quiet-mcq-25"
       ],
       "explanation": "本句的「quietude」指「深沉、持續而沒有騷擾的寧靜／靜謐；較文學正式」。",
       "sentenceIndex": 52,
@@ -2285,12 +2073,10 @@ export default {
         "quietude"
       ],
       "optionReasons": {
-        "quiet-mcq-22": "本句指「深沉、持續而沒有騷擾的寧靜／靜謐；較文學正式」。",
-        "quiet-mcq-21": "「一個人平靜、少話、不張揚的性格或表現方式」是「quietness — personality」的用法，與本句語境不同。",
-        "quiet-mcq-23": "「沒有噪音、騷擾、壓力或過多活動的清靜環境」是「peace and quiet」的用法，與本句語境不同。",
-        "quiet-mcq-20": "「聲音、活動或騷動很少的狀態」是「quietness — sound/activity」的用法，與本句語境不同。",
-        "quiet-mcq-24": "「沒有太多混亂、壓力或曝光的平靜低調生活」是「quiet life」的用法，與本句語境不同。",
-        "quiet-mcq-19": "「令某人／某處變得較安靜，或本身逐漸安靜」是「quieten」的用法，與本句語境不同。"
+        "quiet-mcq-22": "本句的「quietude」指「深沉、持續而沒有騷擾的寧靜／靜謐；較文學正式」。",
+        "quiet-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "quiet-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-22"
     },
@@ -2302,11 +2088,9 @@ export default {
       "masked": "I just need some ____.",
       "options": [
         "quiet-mcq-23",
-        "quiet-mcq-22",
-        "quiet-mcq-24",
-        "quiet-mcq-21",
-        "quiet-mcq-25",
-        "quiet-mcq-20"
+        "quiet-mcq-13",
+        "quiet-mcq-14",
+        "quiet-pdf-001"
       ],
       "explanation": "本句的「peace and quiet」指「沒有噪音、騷擾、壓力或過多活動的清靜環境」。",
       "sentenceIndex": 53,
@@ -2315,12 +2099,10 @@ export default {
         "peace and quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-23": "本句指「沒有噪音、騷擾、壓力或過多活動的清靜環境」。",
-        "quiet-mcq-22": "「深沉、持續而沒有騷擾的寧靜／靜謐；較文學正式」是「quietude」的用法，與本句語境不同。",
-        "quiet-mcq-24": "「沒有太多混亂、壓力或曝光的平靜低調生活」是「quiet life」的用法，與本句語境不同。",
-        "quiet-mcq-21": "「一個人平靜、少話、不張揚的性格或表現方式」是「quietness — personality」的用法，與本句語境不同。",
-        "quiet-mcq-25": "「特意安排的低活動、休息、安靜或獨處時段」是「quiet time」的用法，與本句語境不同。",
-        "quiet-mcq-20": "「聲音、活動或騷動很少的狀態」是「quietness — sound/activity」的用法，與本句語境不同。"
+        "quiet-mcq-23": "本句的「peace and quiet」指「沒有噪音、騷擾、壓力或過多活動的清靜環境」。",
+        "quiet-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "quiet-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-23"
     },
@@ -2332,11 +2114,9 @@ export default {
       "masked": "She went to the countryside for some ____.",
       "options": [
         "quiet-mcq-23",
-        "quiet-mcq-22",
-        "quiet-mcq-24",
-        "quiet-mcq-21",
-        "quiet-mcq-25",
-        "quiet-mcq-20"
+        "quiet-mcq-17",
+        "quiet-pdf-001",
+        "quiet-mcq-10"
       ],
       "explanation": "本句的「peace and quiet」指「沒有噪音、騷擾、壓力或過多活動的清靜環境」。",
       "sentenceIndex": 54,
@@ -2345,12 +2125,10 @@ export default {
         "peace and quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-23": "本句指「沒有噪音、騷擾、壓力或過多活動的清靜環境」。",
-        "quiet-mcq-22": "「深沉、持續而沒有騷擾的寧靜／靜謐；較文學正式」是「quietude」的用法，與本句語境不同。",
-        "quiet-mcq-24": "「沒有太多混亂、壓力或曝光的平靜低調生活」是「quiet life」的用法，與本句語境不同。",
-        "quiet-mcq-21": "「一個人平靜、少話、不張揚的性格或表現方式」是「quietness — personality」的用法，與本句語境不同。",
-        "quiet-mcq-25": "「特意安排的低活動、休息、安靜或獨處時段」是「quiet time」的用法，與本句語境不同。",
-        "quiet-mcq-20": "「聲音、活動或騷動很少的狀態」是「quietness — sound/activity」的用法，與本句語境不同。"
+        "quiet-mcq-23": "本句的「peace and quiet」指「沒有噪音、騷擾、壓力或過多活動的清靜環境」。",
+        "quiet-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "quiet-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-23"
     },
@@ -2362,11 +2140,9 @@ export default {
       "masked": "She prefers a ____.",
       "options": [
         "quiet-mcq-24",
-        "quiet-mcq-23",
-        "quiet-mcq-25",
-        "quiet-mcq-22",
-        "quiet-mcq-26",
-        "quiet-mcq-21"
+        "quiet-mcq-17",
+        "quiet-mcq-10",
+        "quiet-pdf-001"
       ],
       "explanation": "本句的「quiet life」指「沒有太多混亂、壓力或曝光的平靜低調生活」。",
       "sentenceIndex": 55,
@@ -2375,12 +2151,10 @@ export default {
         "quiet life"
       ],
       "optionReasons": {
-        "quiet-mcq-24": "本句指「沒有太多混亂、壓力或曝光的平靜低調生活」。",
-        "quiet-mcq-23": "「沒有噪音、騷擾、壓力或過多活動的清靜環境」是「peace and quiet」的用法，與本句語境不同。",
-        "quiet-mcq-25": "「特意安排的低活動、休息、安靜或獨處時段」是「quiet time」的用法，與本句語境不同。",
-        "quiet-mcq-22": "「深沉、持續而沒有騷擾的寧靜／靜謐；較文學正式」是「quietude」的用法，與本句語境不同。",
-        "quiet-mcq-26": "「工作量、顧客、活動或需求較少的時期」是「quiet period/season」的用法，與本句語境不同。",
-        "quiet-mcq-21": "「一個人平靜、少話、不張揚的性格或表現方式」是「quietness — personality」的用法，與本句語境不同。"
+        "quiet-mcq-24": "本句的「quiet life」指「沒有太多混亂、壓力或曝光的平靜低調生活」。",
+        "quiet-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "quiet-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-24"
     },
@@ -2392,11 +2166,9 @@ export default {
       "masked": "After retiring, they wanted a ____ by the sea.",
       "options": [
         "quiet-mcq-24",
-        "quiet-mcq-23",
-        "quiet-mcq-25",
-        "quiet-mcq-22",
-        "quiet-mcq-26",
-        "quiet-mcq-21"
+        "quiet-mcq-17",
+        "quiet-pdf-001",
+        "quiet-mcq-10"
       ],
       "explanation": "本句的「quiet life」指「沒有太多混亂、壓力或曝光的平靜低調生活」。",
       "sentenceIndex": 56,
@@ -2405,12 +2177,10 @@ export default {
         "quiet life"
       ],
       "optionReasons": {
-        "quiet-mcq-24": "本句指「沒有太多混亂、壓力或曝光的平靜低調生活」。",
-        "quiet-mcq-23": "「沒有噪音、騷擾、壓力或過多活動的清靜環境」是「peace and quiet」的用法，與本句語境不同。",
-        "quiet-mcq-25": "「特意安排的低活動、休息、安靜或獨處時段」是「quiet time」的用法，與本句語境不同。",
-        "quiet-mcq-22": "「深沉、持續而沒有騷擾的寧靜／靜謐；較文學正式」是「quietude」的用法，與本句語境不同。",
-        "quiet-mcq-26": "「工作量、顧客、活動或需求較少的時期」是「quiet period/season」的用法，與本句語境不同。",
-        "quiet-mcq-21": "「一個人平靜、少話、不張揚的性格或表現方式」是「quietness — personality」的用法，與本句語境不同。"
+        "quiet-mcq-24": "本句的「quiet life」指「沒有太多混亂、壓力或曝光的平靜低調生活」。",
+        "quiet-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "quiet-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-24"
     },
@@ -2422,11 +2192,9 @@ export default {
       "masked": "I need some ____ after work.",
       "options": [
         "quiet-mcq-25",
-        "quiet-mcq-24",
-        "quiet-mcq-26",
-        "quiet-mcq-23",
-        "quiet-mcq-27",
-        "quiet-mcq-22"
+        "quiet-mcq-17",
+        "quiet-mcq-10",
+        "quiet-mcq-05"
       ],
       "explanation": "本句的「quiet time」指「特意安排的低活動、休息、安靜或獨處時段」。",
       "sentenceIndex": 57,
@@ -2435,12 +2203,10 @@ export default {
         "quiet time"
       ],
       "optionReasons": {
-        "quiet-mcq-25": "本句指「特意安排的低活動、休息、安靜或獨處時段」。",
-        "quiet-mcq-24": "「沒有太多混亂、壓力或曝光的平靜低調生活」是「quiet life」的用法，與本句語境不同。",
-        "quiet-mcq-26": "「工作量、顧客、活動或需求較少的時期」是「quiet period/season」的用法，與本句語境不同。",
-        "quiet-mcq-23": "「沒有噪音、騷擾、壓力或過多活動的清靜環境」是「peace and quiet」的用法，與本句語境不同。",
-        "quiet-mcq-27": "「交易、活動或價格波動較少的市場」是「quiet market」的用法，與本句語境不同。",
-        "quiet-mcq-22": "「深沉、持續而沒有騷擾的寧靜／靜謐；較文學正式」是「quietude」的用法，與本句語境不同。"
+        "quiet-mcq-25": "本句的「quiet time」指「特意安排的低活動、休息、安靜或獨處時段」。",
+        "quiet-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-25"
     },
@@ -2452,11 +2218,9 @@ export default {
       "masked": "The children have ____ after lunch.",
       "options": [
         "quiet-mcq-25",
-        "quiet-mcq-24",
-        "quiet-mcq-26",
-        "quiet-mcq-23",
-        "quiet-mcq-27",
-        "quiet-mcq-22"
+        "quiet-mcq-29",
+        "quiet-mcq-28",
+        "quiet-mcq-11"
       ],
       "explanation": "本句的「quiet time」指「特意安排的低活動、休息、安靜或獨處時段」。",
       "sentenceIndex": 58,
@@ -2465,12 +2229,10 @@ export default {
         "quiet time"
       ],
       "optionReasons": {
-        "quiet-mcq-25": "本句指「特意安排的低活動、休息、安靜或獨處時段」。",
-        "quiet-mcq-24": "「沒有太多混亂、壓力或曝光的平靜低調生活」是「quiet life」的用法，與本句語境不同。",
-        "quiet-mcq-26": "「工作量、顧客、活動或需求較少的時期」是「quiet period/season」的用法，與本句語境不同。",
-        "quiet-mcq-23": "「沒有噪音、騷擾、壓力或過多活動的清靜環境」是「peace and quiet」的用法，與本句語境不同。",
-        "quiet-mcq-27": "「交易、活動或價格波動較少的市場」是「quiet market」的用法，與本句語境不同。",
-        "quiet-mcq-22": "「深沉、持續而沒有騷擾的寧靜／靜謐；較文學正式」是「quietude」的用法，與本句語境不同。"
+        "quiet-mcq-25": "本句的「quiet time」指「特意安排的低活動、休息、安靜或獨處時段」。",
+        "quiet-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-25"
     },
@@ -2482,11 +2244,9 @@ export default {
       "masked": "Winter is a ____ for the business.",
       "options": [
         "quiet-mcq-26",
-        "quiet-mcq-25",
-        "quiet-mcq-27",
-        "quiet-mcq-24",
-        "quiet-mcq-28",
-        "quiet-mcq-23"
+        "quiet-mcq-16",
+        "quiet-mcq-10",
+        "quiet-mcq-28"
       ],
       "explanation": "本句的「quiet period」指「工作量、顧客、活動或需求較少的時期」。",
       "sentenceIndex": 59,
@@ -2495,12 +2255,10 @@ export default {
         "quiet period"
       ],
       "optionReasons": {
-        "quiet-mcq-26": "本句指「工作量、顧客、活動或需求較少的時期」。",
-        "quiet-mcq-25": "「特意安排的低活動、休息、安靜或獨處時段」是「quiet time」的用法，與本句語境不同。",
-        "quiet-mcq-27": "「交易、活動或價格波動較少的市場」是「quiet market」的用法，與本句語境不同。",
-        "quiet-mcq-24": "「沒有太多混亂、壓力或曝光的平靜低調生活」是「quiet life」的用法，與本句語境不同。",
-        "quiet-mcq-28": "「在沒有不合理干擾下使用和享用物業的法律權利」是「quiet enjoyment — legal」的用法，與本句語境不同。",
-        "quiet-mcq-23": "「沒有噪音、騷擾、壓力或過多活動的清靜環境」是「peace and quiet」的用法，與本句語境不同。"
+        "quiet-mcq-26": "本句的「quiet period」指「工作量、顧客、活動或需求較少的時期」。",
+        "quiet-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-26"
     },
@@ -2512,11 +2270,9 @@ export default {
       "masked": "The hotel offers discounts during the ____.",
       "options": [
         "quiet-mcq-26",
-        "quiet-mcq-25",
-        "quiet-mcq-27",
-        "quiet-mcq-24",
+        "quiet-mcq-17",
         "quiet-mcq-28",
-        "quiet-mcq-23"
+        "quiet-pdf-001"
       ],
       "explanation": "本句的「quiet season」指「工作量、顧客、活動或需求較少的時期」。",
       "sentenceIndex": 60,
@@ -2525,12 +2281,10 @@ export default {
         "quiet season"
       ],
       "optionReasons": {
-        "quiet-mcq-26": "本句指「工作量、顧客、活動或需求較少的時期」。",
-        "quiet-mcq-25": "「特意安排的低活動、休息、安靜或獨處時段」是「quiet time」的用法，與本句語境不同。",
-        "quiet-mcq-27": "「交易、活動或價格波動較少的市場」是「quiet market」的用法，與本句語境不同。",
-        "quiet-mcq-24": "「沒有太多混亂、壓力或曝光的平靜低調生活」是「quiet life」的用法，與本句語境不同。",
-        "quiet-mcq-28": "「在沒有不合理干擾下使用和享用物業的法律權利」是「quiet enjoyment — legal」的用法，與本句語境不同。",
-        "quiet-mcq-23": "「沒有噪音、騷擾、壓力或過多活動的清靜環境」是「peace and quiet」的用法，與本句語境不同。"
+        "quiet-mcq-26": "本句的「quiet season」指「工作量、顧客、活動或需求較少的時期」。",
+        "quiet-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "quiet-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-26"
     },
@@ -2542,11 +2296,9 @@ export default {
       "masked": "Trading was ____ this morning.",
       "options": [
         "quiet-mcq-27",
-        "quiet-mcq-26",
+        "quiet-mcq-10",
         "quiet-mcq-28",
-        "quiet-mcq-25",
-        "quiet-mcq-29",
-        "quiet-mcq-24"
+        "quiet-mcq-13"
       ],
       "explanation": "本句的「quiet」指「交易、活動或價格波動較少的市場」。",
       "sentenceIndex": 61,
@@ -2555,12 +2307,10 @@ export default {
         "quiet"
       ],
       "optionReasons": {
-        "quiet-mcq-27": "本句指「交易、活動或價格波動較少的市場」。",
-        "quiet-mcq-26": "「工作量、顧客、活動或需求較少的時期」是「quiet period/season」的用法，與本句語境不同。",
-        "quiet-mcq-28": "「在沒有不合理干擾下使用和享用物業的法律權利」是「quiet enjoyment — legal」的用法，與本句語境不同。",
-        "quiet-mcq-25": "「特意安排的低活動、休息、安靜或獨處時段」是「quiet time」的用法，與本句語境不同。",
-        "quiet-mcq-29": "「某種情感或力量存在，但表達方式含蓄、不強烈外露」是「12. quiet = restrained/subtle（情感／力量） — 克制的；含蓄的」的用法，與本句語境不同。",
-        "quiet-mcq-24": "「沒有太多混亂、壓力或曝光的平靜低調生活」是「quiet life」的用法，與本句語境不同。"
+        "quiet-mcq-27": "本句的「quiet」指「交易、活動或價格波動較少的市場」。",
+        "quiet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-27"
     },
@@ -2572,11 +2322,9 @@ export default {
       "masked": "It was a ____ with little price movement.",
       "options": [
         "quiet-mcq-27",
-        "quiet-mcq-26",
+        "quiet-pdf-001",
         "quiet-mcq-28",
-        "quiet-mcq-25",
-        "quiet-mcq-29",
-        "quiet-mcq-24"
+        "quiet-mcq-10"
       ],
       "explanation": "本句的「quiet market」指「交易、活動或價格波動較少的市場」。",
       "sentenceIndex": 62,
@@ -2585,12 +2333,10 @@ export default {
         "quiet market"
       ],
       "optionReasons": {
-        "quiet-mcq-27": "本句指「交易、活動或價格波動較少的市場」。",
-        "quiet-mcq-26": "「工作量、顧客、活動或需求較少的時期」是「quiet period/season」的用法，與本句語境不同。",
-        "quiet-mcq-28": "「在沒有不合理干擾下使用和享用物業的法律權利」是「quiet enjoyment — legal」的用法，與本句語境不同。",
-        "quiet-mcq-25": "「特意安排的低活動、休息、安靜或獨處時段」是「quiet time」的用法，與本句語境不同。",
-        "quiet-mcq-29": "「某種情感或力量存在，但表達方式含蓄、不強烈外露」是「12. quiet = restrained/subtle（情感／力量） — 克制的；含蓄的」的用法，與本句語境不同。",
-        "quiet-mcq-24": "「沒有太多混亂、壓力或曝光的平靜低調生活」是「quiet life」的用法，與本句語境不同。"
+        "quiet-mcq-27": "本句的「quiet market」指「交易、活動或價格波動較少的市場」。",
+        "quiet-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-27"
     },
@@ -2602,11 +2348,9 @@ export default {
       "masked": "Tenants have a right to ____ of the property.",
       "options": [
         "quiet-mcq-28",
-        "quiet-mcq-27",
-        "quiet-mcq-29",
-        "quiet-mcq-26",
-        "quiet-mcq-30",
-        "quiet-mcq-25"
+        "quiet-mcq-15",
+        "quiet-mcq-06",
+        "quiet-mcq-12"
       ],
       "explanation": "本句的「quiet enjoyment」指「在沒有不合理干擾下使用和享用物業的法律權利」。",
       "sentenceIndex": 63,
@@ -2615,12 +2359,10 @@ export default {
         "quiet enjoyment"
       ],
       "optionReasons": {
-        "quiet-mcq-28": "本句指「在沒有不合理干擾下使用和享用物業的法律權利」。",
-        "quiet-mcq-27": "「交易、活動或價格波動較少的市場」是「quiet market」的用法，與本句語境不同。",
-        "quiet-mcq-29": "「某種情感或力量存在，但表達方式含蓄、不強烈外露」是「12. quiet = restrained/subtle（情感／力量） — 克制的；含蓄的」的用法，與本句語境不同。",
-        "quiet-mcq-26": "「工作量、顧客、活動或需求較少的時期」是「quiet period/season」的用法，與本句語境不同。",
-        "quiet-mcq-30": "「從吵鬧、活躍或激動的狀態變得較安靜」是「20. quiet down — 安靜下來；平靜下來」的用法，與本句語境不同。",
-        "quiet-mcq-25": "「特意安排的低活動、休息、安靜或獨處時段」是「quiet time」的用法，與本句語境不同。"
+        "quiet-mcq-28": "本句的「quiet enjoyment」指「在沒有不合理干擾下使用和享用物業的法律權利」。",
+        "quiet-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-28"
     },
@@ -2632,11 +2374,9 @@ export default {
       "masked": "Constant unauthorized entry may interfere with the tenant’s ____.",
       "options": [
         "quiet-mcq-28",
-        "quiet-mcq-27",
-        "quiet-mcq-29",
-        "quiet-mcq-26",
-        "quiet-mcq-30",
-        "quiet-mcq-25"
+        "quiet-mcq-25",
+        "quiet-mcq-11",
+        "quiet-mcq-06"
       ],
       "explanation": "本句的「quiet enjoyment」指「在沒有不合理干擾下使用和享用物業的法律權利」。",
       "sentenceIndex": 64,
@@ -2645,12 +2385,10 @@ export default {
         "quiet enjoyment"
       ],
       "optionReasons": {
-        "quiet-mcq-28": "本句指「在沒有不合理干擾下使用和享用物業的法律權利」。",
-        "quiet-mcq-27": "「交易、活動或價格波動較少的市場」是「quiet market」的用法，與本句語境不同。",
-        "quiet-mcq-29": "「某種情感或力量存在，但表達方式含蓄、不強烈外露」是「12. quiet = restrained/subtle（情感／力量） — 克制的；含蓄的」的用法，與本句語境不同。",
-        "quiet-mcq-26": "「工作量、顧客、活動或需求較少的時期」是「quiet period/season」的用法，與本句語境不同。",
-        "quiet-mcq-30": "「從吵鬧、活躍或激動的狀態變得較安靜」是「20. quiet down — 安靜下來；平靜下來」的用法，與本句語境不同。",
-        "quiet-mcq-25": "「特意安排的低活動、休息、安靜或獨處時段」是「quiet time」的用法，與本句語境不同。"
+        "quiet-mcq-28": "本句的「quiet enjoyment」指「在沒有不合理干擾下使用和享用物業的法律權利」。",
+        "quiet-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "quiet-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quiet-mcq-28"
     }
@@ -2662,5 +2400,7 @@ export default {
     "sha256": "7af86f2d8d551cf08cab84eba2787496541a3fee2a244b850044f4594e58f67f",
     "pages": 26
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

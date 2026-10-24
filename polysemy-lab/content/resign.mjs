@@ -610,11 +610,9 @@ export default {
       "masked": "She decided to ____.",
       "options": [
         "resign-mcq-01",
-        "resign-mcq-02",
-        "resign-mcq-03",
-        "resign-mcq-04",
-        "resign-mcq-05",
-        "resign-mcq-06"
+        "resign-mcq-38",
+        "resign-mcq-39",
+        "resign-mcq-26"
       ],
       "explanation": "本句的「resign」指「由自己正式提出離開現有工作；辭職」。",
       "sentenceIndex": 0,
@@ -623,12 +621,10 @@ export default {
         "resign"
       ],
       "optionReasons": {
-        "resign-mcq-01": "本句指「由自己正式提出離開現有工作；辭職」。",
-        "resign-mcq-02": "「從某公司／工作辭職」與本句語境不同。",
-        "resign-mcq-03": "「辭去 X 這個特定職位／身分」與本句語境不同。",
-        "resign-mcq-04": "「正式辭去自己的職位」與本句語境不同。",
-        "resign-mcq-05": "「辭去所擔任的公職／正式職務」與本句語境不同。",
-        "resign-mcq-06": "「辭去董事／委員會職務」與本句語境不同。"
+        "resign-mcq-01": "本句的「resign」指「由自己正式提出離開現有工作；辭職」。",
+        "resign-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-01"
     },
@@ -640,11 +636,9 @@ export default {
       "masked": "He ____ after five years with the company.",
       "options": [
         "resign-mcq-01",
-        "resign-mcq-02",
-        "resign-mcq-03",
-        "resign-mcq-04",
-        "resign-mcq-05",
-        "resign-mcq-06"
+        "resign-mcq-37",
+        "resign-mcq-26",
+        "resign-mcq-39"
       ],
       "explanation": "本句的「resigned」指「由自己正式提出離開現有工作；辭職」。",
       "sentenceIndex": 1,
@@ -653,12 +647,10 @@ export default {
         "resigned"
       ],
       "optionReasons": {
-        "resign-mcq-01": "本句指「由自己正式提出離開現有工作；辭職」。",
-        "resign-mcq-02": "「從某公司／工作辭職」與本句語境不同。",
-        "resign-mcq-03": "「辭去 X 這個特定職位／身分」與本句語境不同。",
-        "resign-mcq-04": "「正式辭去自己的職位」與本句語境不同。",
-        "resign-mcq-05": "「辭去所擔任的公職／正式職務」與本句語境不同。",
-        "resign-mcq-06": "「辭去董事／委員會職務」與本句語境不同。"
+        "resign-mcq-01": "本句的「resigned」指「由自己正式提出離開現有工作；辭職」。",
+        "resign-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-01"
     },
@@ -670,11 +662,9 @@ export default {
       "masked": "He ____ his position as finance director.",
       "options": [
         "resign-mcq-04",
-        "resign-mcq-03",
-        "resign-mcq-05",
-        "resign-mcq-02",
-        "resign-mcq-06",
-        "resign-mcq-01"
+        "resign-mcq-36",
+        "resign-mcq-26",
+        "resign-mcq-39"
       ],
       "explanation": "本句的「resigned」指「正式辭去自己的職位」。",
       "sentenceIndex": 4,
@@ -683,12 +673,10 @@ export default {
         "resigned"
       ],
       "optionReasons": {
-        "resign-mcq-04": "本句指「正式辭去自己的職位」。",
-        "resign-mcq-03": "「辭去 X 這個特定職位／身分」與本句語境不同。",
-        "resign-mcq-05": "「辭去所擔任的公職／正式職務」與本句語境不同。",
-        "resign-mcq-02": "「從某公司／工作辭職」與本句語境不同。",
-        "resign-mcq-06": "「辭去董事／委員會職務」與本句語境不同。",
-        "resign-mcq-01": "「由自己正式提出離開現有工作；辭職」與本句語境不同。"
+        "resign-mcq-04": "本句的「resigned」指「正式辭去自己的職位」。",
+        "resign-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-04"
     },
@@ -700,11 +688,9 @@ export default {
       "masked": "He ____ from office.",
       "options": [
         "resign-mcq-05",
-        "resign-mcq-04",
-        "resign-mcq-06",
-        "resign-mcq-03",
-        "resign-mcq-07",
-        "resign-mcq-02"
+        "resign-mcq-36",
+        "resign-mcq-26",
+        "resign-mcq-39"
       ],
       "explanation": "本句的「resigned」指「辭去所擔任的公職／正式職務」。",
       "sentenceIndex": 11,
@@ -713,12 +699,10 @@ export default {
         "resigned"
       ],
       "optionReasons": {
-        "resign-mcq-05": "本句指「辭去所擔任的公職／正式職務」。",
-        "resign-mcq-04": "「正式辭去自己的職位」與本句語境不同。",
-        "resign-mcq-06": "「辭去董事／委員會職務」與本句語境不同。",
-        "resign-mcq-03": "「辭去 X 這個特定職位／身分」與本句語境不同。",
-        "resign-mcq-07": "「辭職立即生效」與本句語境不同。",
-        "resign-mcq-02": "「從某公司／工作辭職」與本句語境不同。"
+        "resign-mcq-05": "本句的「resigned」指「辭去所擔任的公職／正式職務」。",
+        "resign-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-05"
     },
@@ -730,11 +714,9 @@ export default {
       "masked": "Two directors ____ from the board.",
       "options": [
         "resign-mcq-06",
-        "resign-mcq-05",
-        "resign-mcq-07",
-        "resign-mcq-04",
-        "resign-mcq-08",
-        "resign-mcq-03"
+        "resign-mcq-31",
+        "resign-mcq-39",
+        "resign-mcq-26"
       ],
       "explanation": "本句的「resigned」指「辭去董事／委員會職務」。",
       "sentenceIndex": 13,
@@ -743,12 +725,10 @@ export default {
         "resigned"
       ],
       "optionReasons": {
-        "resign-mcq-06": "本句指「辭去董事／委員會職務」。",
-        "resign-mcq-05": "「辭去所擔任的公職／正式職務」與本句語境不同。",
-        "resign-mcq-07": "「辭職立即生效」與本句語境不同。",
-        "resign-mcq-04": "「正式辭去自己的職位」與本句語境不同。",
-        "resign-mcq-08": "「因 X 事件／爭議而辭職」與本句語境不同。",
-        "resign-mcq-03": "「辭去 X 這個特定職位／身分」與本句語境不同。"
+        "resign-mcq-06": "本句的「resigned」指「辭去董事／委員會職務」。",
+        "resign-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-06"
     },
@@ -760,11 +740,9 @@ export default {
       "masked": "She gave two months' notice of ____.",
       "options": [
         "resign-mcq-15",
-        "resign-mcq-14",
-        "resign-mcq-16",
-        "resign-mcq-13",
         "resign-mcq-17",
-        "resign-mcq-12"
+        "resign-mcq-31",
+        "resign-mcq-39"
       ],
       "explanation": "本句的「resignation」指「正式通知僱主自己將離職」。",
       "sentenceIndex": 16,
@@ -773,12 +751,10 @@ export default {
         "resignation"
       ],
       "optionReasons": {
-        "resign-mcq-15": "本句指「正式通知僱主自己將離職」。",
-        "resign-mcq-14": "「因醜聞／失敗而聲譽受損地離職」與本句語境不同。",
-        "resign-mcq-16": "「正式通知僱主辭職的辭職信」與本句語境不同。",
-        "resign-mcq-13": "「被要求／迫使以辭職形式離任」與本句語境不同。",
-        "resign-mcq-17": "「遞交辭呈」與本句語境不同。",
-        "resign-mcq-12": "「在外界／組織壓力下辭職」與本句語境不同。"
+        "resign-mcq-15": "本句的「resignation」指「正式通知僱主自己將離職」。",
+        "resign-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-15"
     },
@@ -790,11 +766,9 @@ export default {
       "masked": "He submitted his ____ letter on Monday.",
       "options": [
         "resign-mcq-16",
-        "resign-mcq-15",
-        "resign-mcq-17",
-        "resign-mcq-14",
-        "resign-mcq-18",
-        "resign-mcq-13"
+        "resign-mcq-30",
+        "resign-mcq-39",
+        "resign-mcq-14"
       ],
       "explanation": "本句的「resignation」指「正式通知僱主辭職的辭職信」。",
       "sentenceIndex": 17,
@@ -803,12 +777,10 @@ export default {
         "resignation"
       ],
       "optionReasons": {
-        "resign-mcq-16": "本句指「正式通知僱主辭職的辭職信」。",
-        "resign-mcq-15": "「正式通知僱主自己將離職」與本句語境不同。",
-        "resign-mcq-17": "「遞交辭呈」與本句語境不同。",
-        "resign-mcq-14": "「因醜聞／失敗而聲譽受損地離職」與本句語境不同。",
-        "resign-mcq-18": "「正式提交辭呈」與本句語境不同。",
-        "resign-mcq-13": "「被要求／迫使以辭職形式離任」與本句語境不同。"
+        "resign-mcq-16": "本句的「resignation」指「正式通知僱主辭職的辭職信」。",
+        "resign-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-16"
     },
@@ -820,11 +792,9 @@ export default {
       "masked": "She handed in her ____.",
       "options": [
         "resign-mcq-17",
-        "resign-mcq-16",
-        "resign-mcq-18",
-        "resign-mcq-15",
-        "resign-mcq-19",
-        "resign-mcq-14"
+        "resign-mcq-39",
+        "resign-mcq-30",
+        "resign-mcq-26"
       ],
       "explanation": "本句的「resignation」指「遞交辭呈」。",
       "sentenceIndex": 18,
@@ -833,12 +803,10 @@ export default {
         "resignation"
       ],
       "optionReasons": {
-        "resign-mcq-17": "本句指「遞交辭呈」。",
-        "resign-mcq-16": "「正式通知僱主辭職的辭職信」與本句語境不同。",
-        "resign-mcq-18": "「正式提交辭呈」與本句語境不同。",
-        "resign-mcq-15": "「正式通知僱主自己將離職」與本句語境不同。",
-        "resign-mcq-19": "「非常正式：呈交辭呈」與本句語境不同。",
-        "resign-mcq-14": "「因醜聞／失敗而聲譽受損地離職」與本句語境不同。"
+        "resign-mcq-17": "本句的「resignation」指「遞交辭呈」。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-17"
     },
@@ -850,11 +818,9 @@ export default {
       "masked": "The director submitted his ____.",
       "options": [
         "resign-mcq-18",
-        "resign-mcq-17",
-        "resign-mcq-19",
-        "resign-mcq-16",
-        "resign-mcq-20",
-        "resign-mcq-15"
+        "resign-mcq-36",
+        "resign-mcq-26",
+        "resign-mcq-14"
       ],
       "explanation": "本句的「resignation」指「正式提交辭呈」。",
       "sentenceIndex": 19,
@@ -863,12 +829,10 @@ export default {
         "resignation"
       ],
       "optionReasons": {
-        "resign-mcq-18": "本句指「正式提交辭呈」。",
-        "resign-mcq-17": "「遞交辭呈」與本句語境不同。",
-        "resign-mcq-19": "「非常正式：呈交辭呈」與本句語境不同。",
-        "resign-mcq-16": "「正式通知僱主辭職的辭職信」與本句語境不同。",
-        "resign-mcq-20": "「機構正式接受某人的辭呈」與本句語境不同。",
-        "resign-mcq-15": "「正式通知僱主自己將離職」與本句語境不同。"
+        "resign-mcq-18": "本句的「resignation」指「正式提交辭呈」。",
+        "resign-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-18"
     },
@@ -880,11 +844,9 @@ export default {
       "masked": "She tendered her ____.",
       "options": [
         "resign-mcq-19",
-        "resign-mcq-18",
-        "resign-mcq-20",
-        "resign-mcq-17",
-        "resign-mcq-21",
-        "resign-mcq-16"
+        "resign-mcq-37",
+        "resign-mcq-39",
+        "resign-mcq-26"
       ],
       "explanation": "本句的「resignation」指「非常正式：呈交辭呈」。",
       "sentenceIndex": 20,
@@ -893,12 +855,10 @@ export default {
         "resignation"
       ],
       "optionReasons": {
-        "resign-mcq-19": "本句指「非常正式：呈交辭呈」。",
-        "resign-mcq-18": "「正式提交辭呈」與本句語境不同。",
-        "resign-mcq-20": "「機構正式接受某人的辭呈」與本句語境不同。",
-        "resign-mcq-17": "「遞交辭呈」與本句語境不同。",
-        "resign-mcq-21": "「撤回先前提交的辭職決定／辭呈」與本句語境不同。",
-        "resign-mcq-16": "「正式通知僱主辭職的辭職信」與本句語境不同。"
+        "resign-mcq-19": "本句的「resignation」指「非常正式：呈交辭呈」。",
+        "resign-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-19"
     },
@@ -910,11 +870,9 @@ export default {
       "masked": "The board accepted her ____.",
       "options": [
         "resign-mcq-20",
-        "resign-mcq-19",
-        "resign-mcq-21",
-        "resign-mcq-18",
-        "resign-mcq-22",
-        "resign-mcq-17"
+        "resign-mcq-37",
+        "resign-mcq-39",
+        "resign-mcq-26"
       ],
       "explanation": "本句的「resignation」指「機構正式接受某人的辭呈」。",
       "sentenceIndex": 21,
@@ -923,12 +881,10 @@ export default {
         "resignation"
       ],
       "optionReasons": {
-        "resign-mcq-20": "本句指「機構正式接受某人的辭呈」。",
-        "resign-mcq-19": "「非常正式：呈交辭呈」與本句語境不同。",
-        "resign-mcq-21": "「撤回先前提交的辭職決定／辭呈」與本句語境不同。",
-        "resign-mcq-18": "「正式提交辭呈」與本句語境不同。",
-        "resign-mcq-22": "「辭職正式生效」與本句語境不同。",
-        "resign-mcq-17": "「遞交辭呈」與本句語境不同。"
+        "resign-mcq-20": "本句的「resignation」指「機構正式接受某人的辭呈」。",
+        "resign-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-20"
     },
@@ -940,11 +896,9 @@ export default {
       "masked": "She later asked to withdraw her ____.",
       "options": [
         "resign-mcq-21",
-        "resign-mcq-20",
-        "resign-mcq-22",
-        "resign-mcq-19",
-        "resign-mcq-23",
-        "resign-mcq-18"
+        "resign-mcq-30",
+        "resign-mcq-39",
+        "resign-mcq-26"
       ],
       "explanation": "本句的「resignation」指「撤回先前提交的辭職決定／辭呈」。",
       "sentenceIndex": 23,
@@ -953,12 +907,10 @@ export default {
         "resignation"
       ],
       "optionReasons": {
-        "resign-mcq-21": "本句指「撤回先前提交的辭職決定／辭呈」。",
-        "resign-mcq-20": "「機構正式接受某人的辭呈」與本句語境不同。",
-        "resign-mcq-22": "「辭職正式生效」與本句語境不同。",
-        "resign-mcq-19": "「非常正式：呈交辭呈」與本句語境不同。",
-        "resign-mcq-23": "「多人同時／短時間內集體辭職」與本句語境不同。",
-        "resign-mcq-18": "「正式提交辭呈」與本句語境不同。"
+        "resign-mcq-21": "本句的「resignation」指「撤回先前提交的辭職決定／辭呈」。",
+        "resign-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-21"
     },
@@ -970,11 +922,9 @@ export default {
       "masked": "His ____ takes effect next month.",
       "options": [
         "resign-mcq-22",
-        "resign-mcq-21",
-        "resign-mcq-23",
-        "resign-mcq-20",
-        "resign-mcq-24",
-        "resign-mcq-19"
+        "resign-mcq-31",
+        "resign-mcq-39",
+        "resign-mcq-26"
       ],
       "explanation": "本句的「resignation」指「辭職正式生效」。",
       "sentenceIndex": 24,
@@ -983,12 +933,10 @@ export default {
         "resignation"
       ],
       "optionReasons": {
-        "resign-mcq-22": "本句指「辭職正式生效」。",
-        "resign-mcq-21": "「撤回先前提交的辭職決定／辭呈」與本句語境不同。",
-        "resign-mcq-23": "「多人同時／短時間內集體辭職」與本句語境不同。",
-        "resign-mcq-20": "「機構正式接受某人的辭呈」與本句語境不同。",
-        "resign-mcq-24": "「辭職潮」與本句語境不同。",
-        "resign-mcq-19": "「非常正式：呈交辭呈」與本句語境不同。"
+        "resign-mcq-22": "本句的「resignation」指「辭職正式生效」。",
+        "resign-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-22"
     },
@@ -1000,11 +948,9 @@ export default {
       "masked": "She ____ with immediate effect.",
       "options": [
         "resign-mcq-07",
-        "resign-mcq-06",
-        "resign-mcq-08",
-        "resign-mcq-05",
-        "resign-mcq-09",
-        "resign-mcq-04"
+        "resign-mcq-39",
+        "resign-mcq-30",
+        "resign-mcq-26"
       ],
       "explanation": "本句的「resigned」指「辭職立即生效」。",
       "sentenceIndex": 25,
@@ -1013,12 +959,10 @@ export default {
         "resigned"
       ],
       "optionReasons": {
-        "resign-mcq-07": "本句指「辭職立即生效」。",
-        "resign-mcq-06": "「辭去董事／委員會職務」與本句語境不同。",
-        "resign-mcq-08": "「因 X 事件／爭議而辭職」與本句語境不同。",
-        "resign-mcq-05": "「辭去所擔任的公職／正式職務」與本句語境不同。",
-        "resign-mcq-09": "「因私人原因辭職」與本句語境不同。",
-        "resign-mcq-04": "「正式辭去自己的職位」與本句語境不同。"
+        "resign-mcq-07": "本句的「resigned」指「辭職立即生效」。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-07"
     },
@@ -1030,11 +974,9 @@ export default {
       "masked": "Several members ____ in protest.",
       "options": [
         "resign-mcq-10",
-        "resign-mcq-09",
-        "resign-mcq-11",
-        "resign-mcq-08",
-        "resign-mcq-12",
-        "resign-mcq-07"
+        "resign-mcq-38",
+        "resign-mcq-39",
+        "resign-mcq-14"
       ],
       "explanation": "本句的「resigned」指「以辭職行動表達抗議」。",
       "sentenceIndex": 29,
@@ -1043,12 +985,10 @@ export default {
         "resigned"
       ],
       "optionReasons": {
-        "resign-mcq-10": "本句指「以辭職行動表達抗議」。",
-        "resign-mcq-09": "「因私人原因辭職」與本句語境不同。",
-        "resign-mcq-11": "「因原則問題而辭職」與本句語境不同。",
-        "resign-mcq-08": "「因 X 事件／爭議而辭職」與本句語境不同。",
-        "resign-mcq-12": "「在外界／組織壓力下辭職」與本句語境不同。",
-        "resign-mcq-07": "「辭職立即生效」與本句語境不同。"
+        "resign-mcq-10": "本句的「resigned」指「以辭職行動表達抗議」。",
+        "resign-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-10"
     },
@@ -1060,11 +1000,9 @@ export default {
       "masked": "She ____ on principle rather than approve the decision.",
       "options": [
         "resign-mcq-11",
-        "resign-mcq-10",
-        "resign-mcq-12",
-        "resign-mcq-09",
-        "resign-mcq-13",
-        "resign-mcq-08"
+        "resign-mcq-31",
+        "resign-mcq-26",
+        "resign-mcq-39"
       ],
       "explanation": "本句的「resigned」指「因原則問題而辭職」。",
       "sentenceIndex": 30,
@@ -1073,12 +1011,10 @@ export default {
         "resigned"
       ],
       "optionReasons": {
-        "resign-mcq-11": "本句指「因原則問題而辭職」。",
-        "resign-mcq-10": "「以辭職行動表達抗議」與本句語境不同。",
-        "resign-mcq-12": "「在外界／組織壓力下辭職」與本句語境不同。",
-        "resign-mcq-09": "「因私人原因辭職」與本句語境不同。",
-        "resign-mcq-13": "「被要求／迫使以辭職形式離任」與本句語境不同。",
-        "resign-mcq-08": "「因 X 事件／爭議而辭職」與本句語境不同。"
+        "resign-mcq-11": "本句的「resigned」指「因原則問題而辭職」。",
+        "resign-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-11"
     },
@@ -1090,11 +1026,9 @@ export default {
       "masked": "He eventually ____ under pressure.",
       "options": [
         "resign-mcq-12",
-        "resign-mcq-11",
-        "resign-mcq-13",
-        "resign-mcq-10",
-        "resign-mcq-14",
-        "resign-mcq-09"
+        "resign-mcq-36",
+        "resign-mcq-39",
+        "resign-mcq-26"
       ],
       "explanation": "本句的「resigned」指「在外界／組織壓力下辭職」。",
       "sentenceIndex": 31,
@@ -1103,12 +1037,10 @@ export default {
         "resigned"
       ],
       "optionReasons": {
-        "resign-mcq-12": "本句指「在外界／組織壓力下辭職」。",
-        "resign-mcq-11": "「因原則問題而辭職」與本句語境不同。",
-        "resign-mcq-13": "「被要求／迫使以辭職形式離任」與本句語境不同。",
-        "resign-mcq-10": "「以辭職行動表達抗議」與本句語境不同。",
-        "resign-mcq-14": "「因醜聞／失敗而聲譽受損地離職」與本句語境不同。",
-        "resign-mcq-09": "「因私人原因辭職」與本句語境不同。"
+        "resign-mcq-12": "本句的「resigned」指「在外界／組織壓力下辭職」。",
+        "resign-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-12"
     },
@@ -1120,11 +1052,9 @@ export default {
       "masked": "He ____ in disgrace.",
       "options": [
         "resign-mcq-14",
-        "resign-mcq-13",
-        "resign-mcq-15",
-        "resign-mcq-12",
-        "resign-mcq-16",
-        "resign-mcq-11"
+        "resign-mcq-38",
+        "resign-mcq-39",
+        "resign-mcq-19"
       ],
       "explanation": "本句的「resigned」指「因醜聞／失敗而聲譽受損地離職」。",
       "sentenceIndex": 32,
@@ -1133,12 +1063,10 @@ export default {
         "resigned"
       ],
       "optionReasons": {
-        "resign-mcq-14": "本句指「因醜聞／失敗而聲譽受損地離職」。",
-        "resign-mcq-13": "「被要求／迫使以辭職形式離任」與本句語境不同。",
-        "resign-mcq-15": "「正式通知僱主自己將離職」與本句語境不同。",
-        "resign-mcq-12": "「在外界／組織壓力下辭職」與本句語境不同。",
-        "resign-mcq-16": "「正式通知僱主辭職的辭職信」與本句語境不同。",
-        "resign-mcq-11": "「因原則問題而辭職」與本句語境不同。"
+        "resign-mcq-14": "本句的「resigned」指「因醜聞／失敗而聲譽受損地離職」。",
+        "resign-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-14"
     },
@@ -1150,11 +1078,9 @@ export default {
       "masked": "The organization faced a wave of ____.",
       "options": [
         "resign-mcq-24",
-        "resign-mcq-23",
-        "resign-mcq-25",
-        "resign-mcq-22",
+        "resign-mcq-36",
         "resign-mcq-26",
-        "resign-mcq-21"
+        "resign-mcq-39"
       ],
       "explanation": "本句的「resignations」指「辭職潮」。",
       "sentenceIndex": 34,
@@ -1163,12 +1089,10 @@ export default {
         "resignations"
       ],
       "optionReasons": {
-        "resign-mcq-24": "本句指「辭職潮」。",
-        "resign-mcq-23": "「多人同時／短時間內集體辭職」與本句語境不同。",
-        "resign-mcq-25": "「軍官正式辭去其委任／軍職」與本句語境不同。",
-        "resign-mcq-22": "「辭職正式生效」與本句語境不同。",
-        "resign-mcq-26": "「承認敗局並主動結束比賽；認輸」與本句語境不同。",
-        "resign-mcq-21": "「撤回先前提交的辭職決定／辭呈」與本句語境不同。"
+        "resign-mcq-24": "本句的「resignations」指「辭職潮」。",
+        "resign-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-24"
     },
@@ -1180,11 +1104,9 @@ export default {
       "masked": "He ____ his commission.",
       "options": [
         "resign-mcq-25",
-        "resign-mcq-24",
-        "resign-mcq-26",
-        "resign-mcq-23",
-        "resign-mcq-27",
-        "resign-mcq-22"
+        "resign-mcq-37",
+        "resign-mcq-39",
+        "resign-mcq-26"
       ],
       "explanation": "本句的「resigned」指「軍官正式辭去其委任／軍職」。",
       "sentenceIndex": 35,
@@ -1193,12 +1115,10 @@ export default {
         "resigned"
       ],
       "optionReasons": {
-        "resign-mcq-25": "本句指「軍官正式辭去其委任／軍職」。",
-        "resign-mcq-24": "「辭職潮」與本句語境不同。",
-        "resign-mcq-26": "「承認敗局並主動結束比賽；認輸」與本句語境不同。",
-        "resign-mcq-23": "「多人同時／短時間內集體辭職」與本句語境不同。",
-        "resign-mcq-27": "「主動承認失敗並終止棋局」與本句語境不同。",
-        "resign-mcq-22": "「辭職正式生效」與本句語境不同。"
+        "resign-mcq-25": "本句的「resigned」指「軍官正式辭去其委任／軍職」。",
+        "resign-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-25"
     },
@@ -1210,11 +1130,9 @@ export default {
       "masked": "He ____ the game.",
       "options": [
         "resign-mcq-26",
-        "resign-mcq-25",
-        "resign-mcq-27",
-        "resign-mcq-24",
-        "resign-mcq-28",
-        "resign-mcq-23"
+        "resign-mcq-12",
+        "resign-mcq-30",
+        "resign-mcq-06"
       ],
       "explanation": "本句的「resigned」指「承認敗局並主動結束比賽；認輸」。",
       "sentenceIndex": 38,
@@ -1223,12 +1141,10 @@ export default {
         "resigned"
       ],
       "optionReasons": {
-        "resign-mcq-26": "本句指「承認敗局並主動結束比賽；認輸」。",
-        "resign-mcq-25": "「軍官正式辭去其委任／軍職」與本句語境不同。",
-        "resign-mcq-27": "「主動承認失敗並終止棋局」與本句語境不同。",
-        "resign-mcq-24": "「辭職潮」與本句語境不同。",
-        "resign-mcq-28": "「正式放棄一項權利／主張；較舊式」與本句語境不同。",
-        "resign-mcq-23": "「多人同時／短時間內集體辭職」與本句語境不同。"
+        "resign-mcq-26": "本句的「resigned」指「承認敗局並主動結束比賽；認輸」。",
+        "resign-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-26"
     },
@@ -1240,11 +1156,9 @@ export default {
       "masked": "Eventually he ____ himself to the inevitable.",
       "options": [
         "resign-mcq-30",
-        "resign-mcq-29",
-        "resign-mcq-31",
-        "resign-mcq-28",
-        "resign-mcq-32",
-        "resign-mcq-27"
+        "resign-mcq-10",
+        "resign-mcq-25",
+        "resign-mcq-26"
       ],
       "explanation": "本句的「resigned」指「無奈接受無法避免的事情」。",
       "sentenceIndex": 44,
@@ -1253,12 +1167,10 @@ export default {
         "resigned"
       ],
       "optionReasons": {
-        "resign-mcq-30": "本句指「無奈接受無法避免的事情」。",
-        "resign-mcq-29": "「認為 X 無法改變，因此無奈地接受」與本句語境不同。",
-        "resign-mcq-31": "「已經認命／無奈接受 X」與本句語境不同。",
-        "resign-mcq-28": "「正式放棄一項權利／主張；較舊式」與本句語境不同。",
-        "resign-mcq-32": "「雖不滿意，但已不再抗拒現實的；無奈的」與本句語境不同。",
-        "resign-mcq-27": "「主動承認失敗並終止棋局」與本句語境不同。"
+        "resign-mcq-30": "本句的「resigned」指「無奈接受無法避免的事情」。",
+        "resign-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-30"
     },
@@ -1270,11 +1182,9 @@ export default {
       "masked": "She was ____ to the delay.",
       "options": [
         "resign-mcq-31",
-        "resign-mcq-30",
-        "resign-mcq-32",
-        "resign-mcq-29",
-        "resign-mcq-33",
-        "resign-mcq-28"
+        "resign-mcq-18",
+        "resign-mcq-10",
+        "resign-mcq-06"
       ],
       "explanation": "本句的「resigned」指「已經認命／無奈接受 X」。",
       "sentenceIndex": 45,
@@ -1283,12 +1193,10 @@ export default {
         "resigned"
       ],
       "optionReasons": {
-        "resign-mcq-31": "本句指「已經認命／無奈接受 X」。",
-        "resign-mcq-30": "「無奈接受無法避免的事情」與本句語境不同。",
-        "resign-mcq-32": "「雖不滿意，但已不再抗拒現實的；無奈的」與本句語境不同。",
-        "resign-mcq-29": "「認為 X 無法改變，因此無奈地接受」與本句語境不同。",
-        "resign-mcq-33": "「表現出「無可奈何，只能接受」的眼神／嘆息／微笑」與本句語境不同。",
-        "resign-mcq-28": "「正式放棄一項權利／主張；較舊式」與本句語境不同。"
+        "resign-mcq-31": "本句的「resigned」指「已經認命／無奈接受 X」。",
+        "resign-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-31"
     },
@@ -1300,11 +1208,9 @@ export default {
       "masked": "The board received her ____.",
       "options": [
         "resign-mcq-37",
-        "resign-mcq-36",
-        "resign-mcq-38",
-        "resign-mcq-35",
-        "resign-mcq-39",
-        "resign-mcq-34"
+        "resign-mcq-18",
+        "resign-mcq-10",
+        "resign-mcq-06"
       ],
       "explanation": "本句的「resignation」指「以無奈、認命的態度」。",
       "sentenceIndex": 53,
@@ -1313,12 +1219,10 @@ export default {
         "resignation"
       ],
       "optionReasons": {
-        "resign-mcq-37": "本句指「以無奈、認命的態度」。",
-        "resign-mcq-36": "「對不愉快但似乎無法改變的事所表現出的無奈接受」與本句語境不同。",
-        "resign-mcq-38": "「無奈／認命的情緒或神態」與本句語境不同。",
-        "resign-mcq-35": "「辭去工作／職務的行為或正式通知」與本句語境不同。",
-        "resign-mcq-39": "「與 resign 無關：再次簽署／重新簽約」與本句語境不同。",
-        "resign-mcq-34": "「無奈地、認命地」與本句語境不同。"
+        "resign-mcq-37": "本句的「resignation」指「以無奈、認命的態度」。",
+        "resign-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-37"
     },
@@ -1330,11 +1234,9 @@ export default {
       "masked": "He accepted the result with ____.",
       "options": [
         "resign-mcq-36",
-        "resign-mcq-35",
-        "resign-mcq-37",
-        "resign-mcq-34",
-        "resign-mcq-38",
-        "resign-mcq-33"
+        "resign-mcq-11",
+        "resign-mcq-25",
+        "resign-mcq-26"
       ],
       "explanation": "本句的「resignation」指「對不愉快但似乎無法改變的事所表現出的無奈接受」。",
       "sentenceIndex": 54,
@@ -1343,12 +1245,10 @@ export default {
         "resignation"
       ],
       "optionReasons": {
-        "resign-mcq-36": "本句指「對不愉快但似乎無法改變的事所表現出的無奈接受」。",
-        "resign-mcq-35": "「辭去工作／職務的行為或正式通知」與本句語境不同。",
-        "resign-mcq-37": "「以無奈、認命的態度」與本句語境不同。",
-        "resign-mcq-34": "「無奈地、認命地」與本句語境不同。",
-        "resign-mcq-38": "「無奈／認命的情緒或神態」與本句語境不同。",
-        "resign-mcq-33": "「表現出「無可奈何，只能接受」的眼神／嘆息／微笑」與本句語境不同。"
+        "resign-mcq-36": "本句的「resignation」指「對不愉快但似乎無法改變的事所表現出的無奈接受」。",
+        "resign-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-36"
     },
@@ -1360,11 +1260,9 @@ export default {
       "masked": "He had an air of ____.",
       "options": [
         "resign-mcq-38",
-        "resign-mcq-37",
-        "resign-mcq-39",
-        "resign-mcq-36",
-        "resign-mcq-35",
-        "resign-mcq-34"
+        "resign-mcq-22",
+        "resign-mcq-17",
+        "resign-mcq-14"
       ],
       "explanation": "本句的「resignation」指「無奈／認命的情緒或神態」。",
       "sentenceIndex": 57,
@@ -1373,12 +1271,10 @@ export default {
         "resignation"
       ],
       "optionReasons": {
-        "resign-mcq-38": "本句指「無奈／認命的情緒或神態」。",
-        "resign-mcq-37": "「以無奈、認命的態度」與本句語境不同。",
-        "resign-mcq-39": "「與 resign 無關：再次簽署／重新簽約」與本句語境不同。",
-        "resign-mcq-36": "「對不愉快但似乎無法改變的事所表現出的無奈接受」與本句語境不同。",
-        "resign-mcq-35": "「辭去工作／職務的行為或正式通知」與本句語境不同。",
-        "resign-mcq-34": "「無奈地、認命地」與本句語境不同。"
+        "resign-mcq-38": "本句的「resignation」指「無奈／認命的情緒或神態」。",
+        "resign-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-38"
     },
@@ -1390,11 +1286,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "resign-mcq-36",
-        "resign-mcq-35",
-        "resign-mcq-37",
-        "resign-mcq-34",
-        "resign-mcq-38",
-        "resign-mcq-33"
+        "resign-mcq-24",
+        "resign-mcq-26",
+        "resign-mcq-39"
       ],
       "explanation": "本句的「resigned」指「對不愉快但似乎無法改變的事所表現出的無奈接受」。",
       "sentenceIndex": 58,
@@ -1403,12 +1297,10 @@ export default {
         "resigned"
       ],
       "optionReasons": {
-        "resign-mcq-36": "本句指「對不愉快但似乎無法改變的事所表現出的無奈接受」。",
-        "resign-mcq-35": "「辭去工作／職務的行為或正式通知」與本句語境不同。",
-        "resign-mcq-37": "「以無奈、認命的態度」與本句語境不同。",
-        "resign-mcq-34": "「無奈地、認命地」與本句語境不同。",
-        "resign-mcq-38": "「無奈／認命的情緒或神態」與本句語境不同。",
-        "resign-mcq-33": "「表現出「無可奈何，只能接受」的眼神／嘆息／微笑」與本句語境不同。"
+        "resign-mcq-36": "本句的「resigned」指「對不愉快但似乎無法改變的事所表現出的無奈接受」。",
+        "resign-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-36"
     },
@@ -1420,11 +1312,9 @@ export default {
       "masked": "The player ____ from the club.",
       "options": [
         "resign-mcq-39",
-        "resign-mcq-38",
-        "resign-mcq-37",
-        "resign-mcq-36",
-        "resign-mcq-35",
-        "resign-mcq-34"
+        "resign-mcq-14",
+        "resign-mcq-18",
+        "resign-mcq-06"
       ],
       "explanation": "本句的「resigned」指「與 resign 無關：再次簽署／重新簽約」。",
       "sentenceIndex": 59,
@@ -1433,12 +1323,10 @@ export default {
         "resigned"
       ],
       "optionReasons": {
-        "resign-mcq-39": "本句指「與 resign 無關：再次簽署／重新簽約」。",
-        "resign-mcq-38": "「無奈／認命的情緒或神態」與本句語境不同。",
-        "resign-mcq-37": "「以無奈、認命的態度」與本句語境不同。",
-        "resign-mcq-36": "「對不愉快但似乎無法改變的事所表現出的無奈接受」與本句語境不同。",
-        "resign-mcq-35": "「辭去工作／職務的行為或正式通知」與本句語境不同。",
-        "resign-mcq-34": "「無奈地、認命地」與本句語境不同。"
+        "resign-mcq-39": "本句的「resigned」指「與 resign 無關：再次簽署／重新簽約」。",
+        "resign-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "resign-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resign-mcq-39"
     }
@@ -1450,5 +1338,7 @@ export default {
     "sha256": "e5a5cfe6aa84c5503687c7a058ec78373344d4459839f2b7599d1e71af18fc68",
     "pages": 35
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

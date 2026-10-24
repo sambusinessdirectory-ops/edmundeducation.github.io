@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "like-mcq-01",
-      "title": "表示兩個人／事物在某些特徵上相似但並非完全相同",
+      "title": "兩個人／事物在某些特徵上相似但並非完全相同",
       "form": "like — similarity",
       "en": "like — similarity",
       "zh": "表示兩個人／事物在某些特徵上相似但並非完全相同",
@@ -342,7 +342,7 @@ export default {
     },
     {
       "id": "like-mcq-17",
-      "title": "表示某事特別令人享受，沒有甚麼能比得上",
+      "title": "某事特別令人享受，沒有甚麼能比得上",
       "form": "there's nothing like",
       "en": "there's nothing like",
       "zh": "表示某事特別令人享受，沒有甚麼能比得上",
@@ -712,11 +712,9 @@ export default {
       "masked": "She is a bit ____ an old tree.",
       "options": [
         "like-mcq-02",
-        "like-mcq-01",
-        "like-mcq-03",
-        "like-mcq-04",
-        "like-mcq-05",
-        "like-mcq-06"
+        "like-pdf-001",
+        "like-mcq-19",
+        "like-mcq-27"
       ],
       "explanation": "本句的「like」指「在特質、外觀、行為或感覺上與……相似」。",
       "sentenceIndex": 0,
@@ -725,12 +723,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-02": "本句指「在特質、外觀、行為或感覺上與……相似」。",
-        "like-mcq-01": "「表示兩個人／事物在某些特徵上相似但並非完全相同」是「like — similarity」的用法，與本句語境不同。",
-        "like-mcq-03": "「在外觀或視覺上與某人／某物相似」是「look like」的用法，與本句語境不同。",
-        "like-mcq-04": "「根據聲音或聽到的描述，覺得像某人／某物或符合某種情況」是「sound like」的用法，與本句語境不同。",
-        "like-mcq-05": "「主觀感受令人聯想到某人、某物或某種狀態」是「feel like + noun」的用法，與本句語境不同。",
-        "like-mcq-06": "「當下有做某件事的意願／心情」是「feel like + -ing」的用法，與本句語境不同。"
+        "like-mcq-02": "本句的「like」指「在特質、外觀、行為或感覺上與……相似」。",
+        "like-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-02"
     },
@@ -742,11 +738,9 @@ export default {
       "masked": "He is very ____ his father.",
       "options": [
         "like-mcq-02",
-        "like-mcq-01",
-        "like-mcq-03",
-        "like-mcq-04",
-        "like-mcq-05",
-        "like-mcq-06"
+        "like-mcq-13",
+        "like-mcq-10",
+        "like-mcq-28"
       ],
       "explanation": "本句的「like」指「在特質、外觀、行為或感覺上與……相似」。",
       "sentenceIndex": 1,
@@ -755,12 +749,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-02": "本句指「在特質、外觀、行為或感覺上與……相似」。",
-        "like-mcq-01": "「表示兩個人／事物在某些特徵上相似但並非完全相同」是「like — similarity」的用法，與本句語境不同。",
-        "like-mcq-03": "「在外觀或視覺上與某人／某物相似」是「look like」的用法，與本句語境不同。",
-        "like-mcq-04": "「根據聲音或聽到的描述，覺得像某人／某物或符合某種情況」是「sound like」的用法，與本句語境不同。",
-        "like-mcq-05": "「主觀感受令人聯想到某人、某物或某種狀態」是「feel like + noun」的用法，與本句語境不同。",
-        "like-mcq-06": "「當下有做某件事的意願／心情」是「feel like + -ing」的用法，與本句語境不同。"
+        "like-mcq-02": "本句的「like」指「在特質、外觀、行為或感覺上與……相似」。",
+        "like-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-02"
     },
@@ -772,11 +764,9 @@ export default {
       "masked": "The building is ____ a castle.",
       "options": [
         "like-mcq-02",
-        "like-mcq-01",
-        "like-mcq-03",
-        "like-mcq-04",
-        "like-mcq-05",
-        "like-mcq-06"
+        "like-mcq-09",
+        "like-mcq-29",
+        "like-mcq-19"
       ],
       "explanation": "本句的「like」指「在特質、外觀、行為或感覺上與……相似」。",
       "sentenceIndex": 2,
@@ -785,12 +775,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-02": "本句指「在特質、外觀、行為或感覺上與……相似」。",
-        "like-mcq-01": "「表示兩個人／事物在某些特徵上相似但並非完全相同」是「like — similarity」的用法，與本句語境不同。",
-        "like-mcq-03": "「在外觀或視覺上與某人／某物相似」是「look like」的用法，與本句語境不同。",
-        "like-mcq-04": "「根據聲音或聽到的描述，覺得像某人／某物或符合某種情況」是「sound like」的用法，與本句語境不同。",
-        "like-mcq-05": "「主觀感受令人聯想到某人、某物或某種狀態」是「feel like + noun」的用法，與本句語境不同。",
-        "like-mcq-06": "「當下有做某件事的意願／心情」是「feel like + -ing」的用法，與本句語境不同。"
+        "like-mcq-02": "本句的「like」指「在特質、外觀、行為或感覺上與……相似」。",
+        "like-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-02"
     },
@@ -802,11 +790,9 @@ export default {
       "masked": "She ____ her mother.",
       "options": [
         "like-mcq-03",
-        "like-mcq-02",
-        "like-mcq-04",
-        "like-mcq-01",
-        "like-mcq-05",
-        "like-mcq-06"
+        "like-mcq-12",
+        "like-pdf-001",
+        "like-mcq-27"
       ],
       "explanation": "本句的「looks like」指「在外觀或視覺上與某人／某物相似」。",
       "sentenceIndex": 3,
@@ -815,12 +801,10 @@ export default {
         "looks like"
       ],
       "optionReasons": {
-        "like-mcq-03": "本句指「在外觀或視覺上與某人／某物相似」。",
-        "like-mcq-02": "「在特質、外觀、行為或感覺上與……相似」是「be like」的用法，與本句語境不同。",
-        "like-mcq-04": "「根據聲音或聽到的描述，覺得像某人／某物或符合某種情況」是「sound like」的用法，與本句語境不同。",
-        "like-mcq-01": "「表示兩個人／事物在某些特徵上相似但並非完全相同」是「like — similarity」的用法，與本句語境不同。",
-        "like-mcq-05": "「主觀感受令人聯想到某人、某物或某種狀態」是「feel like + noun」的用法，與本句語境不同。",
-        "like-mcq-06": "「當下有做某件事的意願／心情」是「feel like + -ing」的用法，與本句語境不同。"
+        "like-mcq-03": "本句的「looks like」指「在外觀或視覺上與某人／某物相似」。",
+        "like-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "like-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-03"
     },
@@ -832,11 +816,9 @@ export default {
       "masked": "That cloud ____ a bird.",
       "options": [
         "like-mcq-03",
-        "like-mcq-02",
-        "like-mcq-04",
-        "like-mcq-01",
-        "like-mcq-05",
-        "like-mcq-06"
+        "like-mcq-28",
+        "like-mcq-10",
+        "like-mcq-17"
       ],
       "explanation": "本句的「looks like」指「在外觀或視覺上與某人／某物相似」。",
       "sentenceIndex": 4,
@@ -845,12 +827,10 @@ export default {
         "looks like"
       ],
       "optionReasons": {
-        "like-mcq-03": "本句指「在外觀或視覺上與某人／某物相似」。",
-        "like-mcq-02": "「在特質、外觀、行為或感覺上與……相似」是「be like」的用法，與本句語境不同。",
-        "like-mcq-04": "「根據聲音或聽到的描述，覺得像某人／某物或符合某種情況」是「sound like」的用法，與本句語境不同。",
-        "like-mcq-01": "「表示兩個人／事物在某些特徵上相似但並非完全相同」是「like — similarity」的用法，與本句語境不同。",
-        "like-mcq-05": "「主觀感受令人聯想到某人、某物或某種狀態」是「feel like + noun」的用法，與本句語境不同。",
-        "like-mcq-06": "「當下有做某件事的意願／心情」是「feel like + -ing」的用法，與本句語境不同。"
+        "like-mcq-03": "本句的「looks like」指「在外觀或視覺上與某人／某物相似」。",
+        "like-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-03"
     },
@@ -862,11 +842,9 @@ export default {
       "masked": "You ____ your sister.",
       "options": [
         "like-mcq-04",
-        "like-mcq-03",
-        "like-mcq-05",
-        "like-mcq-02",
-        "like-mcq-06",
-        "like-mcq-01"
+        "like-mcq-09",
+        "like-pdf-001",
+        "like-mcq-29"
       ],
       "explanation": "本句的「sound like」指「根據聲音或聽到的描述，覺得像某人／某物或符合某種情況」。",
       "sentenceIndex": 5,
@@ -875,12 +853,10 @@ export default {
         "sound like"
       ],
       "optionReasons": {
-        "like-mcq-04": "本句指「根據聲音或聽到的描述，覺得像某人／某物或符合某種情況」。",
-        "like-mcq-03": "「在外觀或視覺上與某人／某物相似」是「look like」的用法，與本句語境不同。",
-        "like-mcq-05": "「主觀感受令人聯想到某人、某物或某種狀態」是「feel like + noun」的用法，與本句語境不同。",
-        "like-mcq-02": "「在特質、外觀、行為或感覺上與……相似」是「be like」的用法，與本句語境不同。",
-        "like-mcq-06": "「當下有做某件事的意願／心情」是「feel like + -ing」的用法，與本句語境不同。",
-        "like-mcq-01": "「表示兩個人／事物在某些特徵上相似但並非完全相同」是「like — similarity」的用法，與本句語境不同。"
+        "like-mcq-04": "本句的「sound like」指「根據聲音或聽到的描述，覺得像某人／某物或符合某種情況」。",
+        "like-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "like-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-04"
     },
@@ -892,11 +868,9 @@ export default {
       "masked": "That ____ a good idea.",
       "options": [
         "like-mcq-04",
-        "like-mcq-03",
-        "like-mcq-05",
-        "like-mcq-02",
-        "like-mcq-06",
-        "like-mcq-01"
+        "like-mcq-10",
+        "like-mcq-28",
+        "like-mcq-24"
       ],
       "explanation": "本句的「sounds like」指「根據聲音或聽到的描述，覺得像某人／某物或符合某種情況」。",
       "sentenceIndex": 6,
@@ -905,12 +879,10 @@ export default {
         "sounds like"
       ],
       "optionReasons": {
-        "like-mcq-04": "本句指「根據聲音或聽到的描述，覺得像某人／某物或符合某種情況」。",
-        "like-mcq-03": "「在外觀或視覺上與某人／某物相似」是「look like」的用法，與本句語境不同。",
-        "like-mcq-05": "「主觀感受令人聯想到某人、某物或某種狀態」是「feel like + noun」的用法，與本句語境不同。",
-        "like-mcq-02": "「在特質、外觀、行為或感覺上與……相似」是「be like」的用法，與本句語境不同。",
-        "like-mcq-06": "「當下有做某件事的意願／心情」是「feel like + -ing」的用法，與本句語境不同。",
-        "like-mcq-01": "「表示兩個人／事物在某些特徵上相似但並非完全相同」是「like — similarity」的用法，與本句語境不同。"
+        "like-mcq-04": "本句的「sounds like」指「根據聲音或聽到的描述，覺得像某人／某物或符合某種情況」。",
+        "like-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-04"
     },
@@ -922,11 +894,9 @@ export default {
       "masked": "This room ____ home.",
       "options": [
         "like-mcq-05",
-        "like-mcq-04",
-        "like-mcq-06",
-        "like-mcq-03",
-        "like-mcq-07",
-        "like-mcq-02"
+        "like-mcq-12",
+        "like-mcq-13",
+        "like-mcq-26"
       ],
       "explanation": "本句的「feels like」指「主觀感受令人聯想到某人、某物或某種狀態」。",
       "sentenceIndex": 7,
@@ -935,12 +905,10 @@ export default {
         "feels like"
       ],
       "optionReasons": {
-        "like-mcq-05": "本句指「主觀感受令人聯想到某人、某物或某種狀態」。",
-        "like-mcq-04": "「根據聲音或聽到的描述，覺得像某人／某物或符合某種情況」是「sound like」的用法，與本句語境不同。",
-        "like-mcq-06": "「當下有做某件事的意願／心情」是「feel like + -ing」的用法，與本句語境不同。",
-        "like-mcq-03": "「在外觀或視覺上與某人／某物相似」是「look like」的用法，與本句語境不同。",
-        "like-mcq-07": "「對某人、某事物或活動有正面感受、喜愛或偏好」是「like — enjoy」的用法，與本句語境不同。",
-        "like-mcq-02": "「在特質、外觀、行為或感覺上與……相似」是「be like」的用法，與本句語境不同。"
+        "like-mcq-05": "本句的「feels like」指「主觀感受令人聯想到某人、某物或某種狀態」。",
+        "like-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-05"
     },
@@ -952,11 +920,9 @@ export default {
       "masked": "It ____ a dream.",
       "options": [
         "like-mcq-05",
-        "like-mcq-04",
-        "like-mcq-06",
-        "like-mcq-03",
-        "like-mcq-07",
-        "like-mcq-02"
+        "like-mcq-19",
+        "like-mcq-28",
+        "like-mcq-22"
       ],
       "explanation": "本句的「felt like」指「主觀感受令人聯想到某人、某物或某種狀態」。",
       "sentenceIndex": 8,
@@ -965,12 +931,10 @@ export default {
         "felt like"
       ],
       "optionReasons": {
-        "like-mcq-05": "本句指「主觀感受令人聯想到某人、某物或某種狀態」。",
-        "like-mcq-04": "「根據聲音或聽到的描述，覺得像某人／某物或符合某種情況」是「sound like」的用法，與本句語境不同。",
-        "like-mcq-06": "「當下有做某件事的意願／心情」是「feel like + -ing」的用法，與本句語境不同。",
-        "like-mcq-03": "「在外觀或視覺上與某人／某物相似」是「look like」的用法，與本句語境不同。",
-        "like-mcq-07": "「對某人、某事物或活動有正面感受、喜愛或偏好」是「like — enjoy」的用法，與本句語境不同。",
-        "like-mcq-02": "「在特質、外觀、行為或感覺上與……相似」是「be like」的用法，與本句語境不同。"
+        "like-mcq-05": "本句的「felt like」指「主觀感受令人聯想到某人、某物或某種狀態」。",
+        "like-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-05"
     },
@@ -982,11 +946,9 @@ export default {
       "masked": "I ____ for a walk.",
       "options": [
         "like-mcq-06",
-        "like-mcq-05",
-        "like-mcq-07",
-        "like-mcq-04",
-        "like-mcq-08",
-        "like-mcq-03"
+        "like-mcq-25",
+        "like-mcq-19",
+        "like-mcq-28"
       ],
       "explanation": "本句的「feel like going」指「當下有做某件事的意願／心情」。",
       "sentenceIndex": 9,
@@ -995,12 +957,10 @@ export default {
         "feel like going"
       ],
       "optionReasons": {
-        "like-mcq-06": "本句指「當下有做某件事的意願／心情」。",
-        "like-mcq-05": "「主觀感受令人聯想到某人、某物或某種狀態」是「feel like + noun」的用法，與本句語境不同。",
-        "like-mcq-07": "「對某人、某事物或活動有正面感受、喜愛或偏好」是「like — enjoy」的用法，與本句語境不同。",
-        "like-mcq-04": "「根據聲音或聽到的描述，覺得像某人／某物或符合某種情況」是「sound like」的用法，與本句語境不同。",
-        "like-mcq-08": "「喜歡並享受某項活動」是「like doing/to do」的用法，與本句語境不同。",
-        "like-mcq-03": "「在外觀或視覺上與某人／某物相似」是「look like」的用法，與本句語境不同。"
+        "like-mcq-06": "本句的「feel like going」指「當下有做某件事的意願／心情」。",
+        "like-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-06"
     },
@@ -1012,11 +972,9 @@ export default {
       "masked": "Do you ____ some tea?",
       "options": [
         "like-mcq-06",
-        "like-mcq-05",
-        "like-mcq-07",
-        "like-mcq-04",
-        "like-mcq-08",
-        "like-mcq-03"
+        "like-mcq-13",
+        "like-mcq-20",
+        "like-mcq-24"
       ],
       "explanation": "本句的「feel like having」指「當下有做某件事的意願／心情」。",
       "sentenceIndex": 10,
@@ -1025,12 +983,10 @@ export default {
         "feel like having"
       ],
       "optionReasons": {
-        "like-mcq-06": "本句指「當下有做某件事的意願／心情」。",
-        "like-mcq-05": "「主觀感受令人聯想到某人、某物或某種狀態」是「feel like + noun」的用法，與本句語境不同。",
-        "like-mcq-07": "「對某人、某事物或活動有正面感受、喜愛或偏好」是「like — enjoy」的用法，與本句語境不同。",
-        "like-mcq-04": "「根據聲音或聽到的描述，覺得像某人／某物或符合某種情況」是「sound like」的用法，與本句語境不同。",
-        "like-mcq-08": "「喜歡並享受某項活動」是「like doing/to do」的用法，與本句語境不同。",
-        "like-mcq-03": "「在外觀或視覺上與某人／某物相似」是「look like」的用法，與本句語境不同。"
+        "like-mcq-06": "本句的「feel like having」指「當下有做某件事的意願／心情」。",
+        "like-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-06"
     },
@@ -1043,10 +999,8 @@ export default {
       "options": [
         "like-mcq-07",
         "like-mcq-06",
-        "like-mcq-08",
-        "like-mcq-05",
-        "like-mcq-09",
-        "like-mcq-04"
+        "like-mcq-22",
+        "like-mcq-28"
       ],
       "explanation": "本句的「like」指「對某人、某事物或活動有正面感受、喜愛或偏好」。",
       "sentenceIndex": 11,
@@ -1055,12 +1009,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-07": "本句指「對某人、某事物或活動有正面感受、喜愛或偏好」。",
-        "like-mcq-06": "「當下有做某件事的意願／心情」是「feel like + -ing」的用法，與本句語境不同。",
-        "like-mcq-08": "「喜歡並享受某項活動」是「like doing/to do」的用法，與本句語境不同。",
-        "like-mcq-05": "「主觀感受令人聯想到某人、某物或某種狀態」是「feel like + noun」的用法，與本句語境不同。",
-        "like-mcq-09": "「以較禮貌方式表示想要某物」是「would like + noun」的用法，與本句語境不同。",
-        "like-mcq-04": "「根據聲音或聽到的描述，覺得像某人／某物或符合某種情況」是「sound like」的用法，與本句語境不同。"
+        "like-mcq-07": "本句的「like」指「對某人、某事物或活動有正面感受、喜愛或偏好」。",
+        "like-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-07"
     },
@@ -1072,11 +1024,9 @@ export default {
       "masked": "She ____ tea.",
       "options": [
         "like-mcq-07",
-        "like-mcq-06",
-        "like-mcq-08",
-        "like-mcq-05",
-        "like-mcq-09",
-        "like-mcq-04"
+        "like-mcq-18",
+        "like-pdf-001",
+        "like-mcq-28"
       ],
       "explanation": "本句的「likes」指「對某人、某事物或活動有正面感受、喜愛或偏好」。",
       "sentenceIndex": 12,
@@ -1085,12 +1035,10 @@ export default {
         "likes"
       ],
       "optionReasons": {
-        "like-mcq-07": "本句指「對某人、某事物或活動有正面感受、喜愛或偏好」。",
-        "like-mcq-06": "「當下有做某件事的意願／心情」是「feel like + -ing」的用法，與本句語境不同。",
-        "like-mcq-08": "「喜歡並享受某項活動」是「like doing/to do」的用法，與本句語境不同。",
-        "like-mcq-05": "「主觀感受令人聯想到某人、某物或某種狀態」是「feel like + noun」的用法，與本句語境不同。",
-        "like-mcq-09": "「以較禮貌方式表示想要某物」是「would like + noun」的用法，與本句語境不同。",
-        "like-mcq-04": "「根據聲音或聽到的描述，覺得像某人／某物或符合某種情況」是「sound like」的用法，與本句語境不同。"
+        "like-mcq-07": "本句的「likes」指「對某人、某事物或活動有正面感受、喜愛或偏好」。",
+        "like-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "like-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-07"
     },
@@ -1102,11 +1050,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "like-mcq-08",
-        "like-mcq-07",
-        "like-mcq-09",
-        "like-mcq-06",
-        "like-mcq-10",
-        "like-mcq-05"
+        "like-mcq-15",
+        "like-mcq-26",
+        "like-mcq-12"
       ],
       "explanation": "本句的「likes reading」指「喜歡並享受某項活動」。",
       "sentenceIndex": 13,
@@ -1115,12 +1061,10 @@ export default {
         "likes reading"
       ],
       "optionReasons": {
-        "like-mcq-08": "本句指「喜歡並享受某項活動」。",
-        "like-mcq-07": "「對某人、某事物或活動有正面感受、喜愛或偏好」是「like — enjoy」的用法，與本句語境不同。",
-        "like-mcq-09": "「以較禮貌方式表示想要某物」是「would like + noun」的用法，與本句語境不同。",
-        "like-mcq-06": "「當下有做某件事的意願／心情」是「feel like + -ing」的用法，與本句語境不同。",
-        "like-mcq-10": "「以較禮貌／柔和方式表示想做某事」是「would like to」的用法，與本句語境不同。",
-        "like-mcq-05": "「主觀感受令人聯想到某人、某物或某種狀態」是「feel like + noun」的用法，與本句語境不同。"
+        "like-mcq-08": "本句的「likes reading」指「喜歡並享受某項活動」。",
+        "like-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-08"
     },
@@ -1132,11 +1076,9 @@ export default {
       "masked": "I ____ in the morning.",
       "options": [
         "like-mcq-08",
-        "like-mcq-07",
+        "like-mcq-15",
         "like-mcq-09",
-        "like-mcq-06",
-        "like-mcq-10",
-        "like-mcq-05"
+        "like-pdf-001"
       ],
       "explanation": "本句的「like to walk」指「喜歡並享受某項活動」。",
       "sentenceIndex": 14,
@@ -1145,12 +1087,10 @@ export default {
         "like to walk"
       ],
       "optionReasons": {
-        "like-mcq-08": "本句指「喜歡並享受某項活動」。",
-        "like-mcq-07": "「對某人、某事物或活動有正面感受、喜愛或偏好」是「like — enjoy」的用法，與本句語境不同。",
-        "like-mcq-09": "「以較禮貌方式表示想要某物」是「would like + noun」的用法，與本句語境不同。",
-        "like-mcq-06": "「當下有做某件事的意願／心情」是「feel like + -ing」的用法，與本句語境不同。",
-        "like-mcq-10": "「以較禮貌／柔和方式表示想做某事」是「would like to」的用法，與本句語境不同。",
-        "like-mcq-05": "「主觀感受令人聯想到某人、某物或某種狀態」是「feel like + noun」的用法，與本句語境不同。"
+        "like-mcq-08": "本句的「like to walk」指「喜歡並享受某項活動」。",
+        "like-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "like-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-08"
     },
@@ -1162,11 +1102,9 @@ export default {
       "masked": "I’d ____ some tea.",
       "options": [
         "like-mcq-09",
-        "like-mcq-08",
-        "like-mcq-10",
-        "like-mcq-07",
-        "like-mcq-11",
-        "like-mcq-06"
+        "like-mcq-17",
+        "like-mcq-31",
+        "like-mcq-26"
       ],
       "explanation": "本句的「like」指「以較禮貌方式表示想要某物」。",
       "sentenceIndex": 15,
@@ -1175,12 +1113,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-09": "本句指「以較禮貌方式表示想要某物」。",
-        "like-mcq-08": "「喜歡並享受某項活動」是「like doing/to do」的用法，與本句語境不同。",
-        "like-mcq-10": "「以較禮貌／柔和方式表示想做某事」是「would like to」的用法，與本句語境不同。",
-        "like-mcq-07": "「對某人、某事物或活動有正面感受、喜愛或偏好」是「like — enjoy」的用法，與本句語境不同。",
-        "like-mcq-11": "「如果你願意／想這樣做」是「if you like」的用法，與本句語境不同。",
-        "like-mcq-06": "「當下有做某件事的意願／心情」是「feel like + -ing」的用法，與本句語境不同。"
+        "like-mcq-09": "本句的「like」指「以較禮貌方式表示想要某物」。",
+        "like-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-09"
     },
@@ -1192,11 +1128,9 @@ export default {
       "masked": "Would you ____ some fruit?",
       "options": [
         "like-mcq-09",
-        "like-mcq-08",
-        "like-mcq-10",
-        "like-mcq-07",
-        "like-mcq-11",
-        "like-mcq-06"
+        "like-mcq-25",
+        "like-mcq-19",
+        "like-mcq-27"
       ],
       "explanation": "本句的「like」指「以較禮貌方式表示想要某物」。",
       "sentenceIndex": 16,
@@ -1205,12 +1139,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-09": "本句指「以較禮貌方式表示想要某物」。",
-        "like-mcq-08": "「喜歡並享受某項活動」是「like doing/to do」的用法，與本句語境不同。",
-        "like-mcq-10": "「以較禮貌／柔和方式表示想做某事」是「would like to」的用法，與本句語境不同。",
-        "like-mcq-07": "「對某人、某事物或活動有正面感受、喜愛或偏好」是「like — enjoy」的用法，與本句語境不同。",
-        "like-mcq-11": "「如果你願意／想這樣做」是「if you like」的用法，與本句語境不同。",
-        "like-mcq-06": "「當下有做某件事的意願／心情」是「feel like + -ing」的用法，與本句語境不同。"
+        "like-mcq-09": "本句的「like」指「以較禮貌方式表示想要某物」。",
+        "like-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-09"
     },
@@ -1222,11 +1154,9 @@ export default {
       "masked": "I’d ____ her this weekend.",
       "options": [
         "like-mcq-10",
-        "like-mcq-09",
-        "like-mcq-11",
         "like-mcq-08",
         "like-mcq-12",
-        "like-mcq-07"
+        "like-mcq-24"
       ],
       "explanation": "本句的「like to visit」指「以較禮貌／柔和方式表示想做某事」。",
       "sentenceIndex": 17,
@@ -1235,12 +1165,10 @@ export default {
         "like to visit"
       ],
       "optionReasons": {
-        "like-mcq-10": "本句指「以較禮貌／柔和方式表示想做某事」。",
-        "like-mcq-09": "「以較禮貌方式表示想要某物」是「would like + noun」的用法，與本句語境不同。",
-        "like-mcq-11": "「如果你願意／想這樣做」是「if you like」的用法，與本句語境不同。",
-        "like-mcq-08": "「喜歡並享受某項活動」是「like doing/to do」的用法，與本句語境不同。",
-        "like-mcq-12": "「引出同一類的例子；像……這樣的／例如」是「like — example」的用法，與本句語境不同。",
-        "like-mcq-07": "「對某人、某事物或活動有正面感受、喜愛或偏好」是「like — enjoy」的用法，與本句語境不同。"
+        "like-mcq-10": "本句的「like to visit」指「以較禮貌／柔和方式表示想做某事」。",
+        "like-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-10"
     },
@@ -1252,11 +1180,9 @@ export default {
       "masked": "She would ____ another language.",
       "options": [
         "like-mcq-10",
-        "like-mcq-09",
-        "like-mcq-11",
-        "like-mcq-08",
         "like-mcq-12",
-        "like-mcq-07"
+        "like-mcq-17",
+        "like-mcq-04"
       ],
       "explanation": "本句的「like to learn」指「以較禮貌／柔和方式表示想做某事」。",
       "sentenceIndex": 18,
@@ -1265,12 +1191,10 @@ export default {
         "like to learn"
       ],
       "optionReasons": {
-        "like-mcq-10": "本句指「以較禮貌／柔和方式表示想做某事」。",
-        "like-mcq-09": "「以較禮貌方式表示想要某物」是「would like + noun」的用法，與本句語境不同。",
-        "like-mcq-11": "「如果你願意／想這樣做」是「if you like」的用法，與本句語境不同。",
-        "like-mcq-08": "「喜歡並享受某項活動」是「like doing/to do」的用法，與本句語境不同。",
-        "like-mcq-12": "「引出同一類的例子；像……這樣的／例如」是「like — example」的用法，與本句語境不同。",
-        "like-mcq-07": "「對某人、某事物或活動有正面感受、喜愛或偏好」是「like — enjoy」的用法，與本句語境不同。"
+        "like-mcq-10": "本句的「like to learn」指「以較禮貌／柔和方式表示想做某事」。",
+        "like-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-10"
     },
@@ -1282,11 +1206,9 @@ export default {
       "masked": "I ____ the way she treats people.",
       "options": [
         "like-mcq-31",
-        "like-mcq-30",
-        "like-mcq-29",
-        "like-mcq-28",
-        "like-mcq-27",
-        "like-mcq-26"
+        "like-mcq-26",
+        "like-mcq-14",
+        "like-mcq-09"
       ],
       "explanation": "本句的「like」指「對某人、事物、方法或特質有正面評價」。",
       "sentenceIndex": 19,
@@ -1295,12 +1217,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-31": "本句指「對某人、事物、方法或特質有正面評價」。",
-        "like-mcq-30": "「在觀點、興趣、價值或態度上彼此相近的」是「like-minded」的用法，與本句語境不同。",
-        "like-mcq-29": "「某件事發生的可能程度／概率」是「likelihood」的用法，與本句語境不同。",
-        "like-mcq-28": "「發生機會較低的」是「unlikely」的用法，與本句語境不同。",
-        "like-mcq-27": "「根據現有情況有相當大機會發生的」是「likely」的用法，與本句語境不同。",
-        "like-mcq-26": "「某行為與該人平常性格或習慣不一致」是「unlike someone — characteristic」的用法，與本句語境不同。"
+        "like-mcq-31": "本句的「like」指「對某人、事物、方法或特質有正面評價」。",
+        "like-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-31"
     },
@@ -1312,11 +1232,9 @@ export default {
       "masked": "Do you ____ the new design?",
       "options": [
         "like-mcq-31",
-        "like-mcq-30",
-        "like-mcq-29",
-        "like-mcq-28",
-        "like-mcq-27",
-        "like-mcq-26"
+        "like-mcq-12",
+        "like-mcq-26",
+        "like-mcq-09"
       ],
       "explanation": "本句的「like」指「對某人、事物、方法或特質有正面評價」。",
       "sentenceIndex": 20,
@@ -1325,12 +1243,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-31": "本句指「對某人、事物、方法或特質有正面評價」。",
-        "like-mcq-30": "「在觀點、興趣、價值或態度上彼此相近的」是「like-minded」的用法，與本句語境不同。",
-        "like-mcq-29": "「某件事發生的可能程度／概率」是「likelihood」的用法，與本句語境不同。",
-        "like-mcq-28": "「發生機會較低的」是「unlikely」的用法，與本句語境不同。",
-        "like-mcq-27": "「根據現有情況有相當大機會發生的」是「likely」的用法，與本句語境不同。",
-        "like-mcq-26": "「某行為與該人平常性格或習慣不一致」是「unlike someone — characteristic」的用法，與本句語境不同。"
+        "like-mcq-31": "本句的「like」指「對某人、事物、方法或特質有正面評價」。",
+        "like-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-31"
     },
@@ -1342,11 +1258,9 @@ export default {
       "masked": "If you ____, we can leave early.",
       "options": [
         "like-pdf-001",
-        "like-mcq-11",
-        "like-mcq-13",
-        "like-mcq-10",
-        "like-mcq-14",
-        "like-mcq-09"
+        "like-mcq-19",
+        "like-mcq-02",
+        "like-mcq-29"
       ],
       "explanation": "本句的「like」指「如果你願意／如果你想」。",
       "sentenceIndex": 21,
@@ -1355,12 +1269,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-pdf-001": "本句指「如果你願意／如果你想」。",
-        "like-mcq-11": "「如果你願意／想這樣做」是「if you like」的用法，與本句語境不同。",
-        "like-mcq-13": "「非正式地表示大約的數量、時間或程度」是「like — approximate」的用法，與本句語境不同。",
-        "like-mcq-10": "「以較禮貌／柔和方式表示想做某事」是「would like to」的用法，與本句語境不同。",
-        "like-mcq-14": "「口語中用來停頓、引出反應或模仿說話的語篇標記」是「like — discourse marker」的用法，與本句語境不同。",
-        "like-mcq-09": "「以較禮貌方式表示想要某物」是「would like + noun」的用法，與本句語境不同。"
+        "like-pdf-001": "本句的「like」指「如果你願意／如果你想」。",
+        "like-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-pdf-001"
     },
@@ -1372,11 +1284,9 @@ export default {
       "masked": "You can sit here if you ____.",
       "options": [
         "like-pdf-001",
-        "like-mcq-11",
-        "like-mcq-13",
-        "like-mcq-10",
+        "like-mcq-26",
         "like-mcq-14",
-        "like-mcq-09"
+        "like-mcq-27"
       ],
       "explanation": "本句的「like」指「如果你願意／如果你想」。",
       "sentenceIndex": 22,
@@ -1385,12 +1295,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-pdf-001": "本句指「如果你願意／如果你想」。",
-        "like-mcq-11": "「如果你願意／想這樣做」是「if you like」的用法，與本句語境不同。",
-        "like-mcq-13": "「非正式地表示大約的數量、時間或程度」是「like — approximate」的用法，與本句語境不同。",
-        "like-mcq-10": "「以較禮貌／柔和方式表示想做某事」是「would like to」的用法，與本句語境不同。",
-        "like-mcq-14": "「口語中用來停頓、引出反應或模仿說話的語篇標記」是「like — discourse marker」的用法，與本句語境不同。",
-        "like-mcq-09": "「以較禮貌方式表示想要某物」是「would like + noun」的用法，與本句語境不同。"
+        "like-pdf-001": "本句的「like」指「如果你願意／如果你想」。",
+        "like-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-pdf-001"
     },
@@ -1402,11 +1310,9 @@ export default {
       "masked": "She enjoys quiet activities ____ reading and gardening.",
       "options": [
         "like-mcq-12",
-        "like-mcq-11",
-        "like-mcq-13",
-        "like-mcq-10",
-        "like-mcq-14",
-        "like-mcq-09"
+        "like-mcq-09",
+        "like-mcq-22",
+        "like-mcq-28"
       ],
       "explanation": "本句的「like」指「引出同一類的例子；像……這樣的／例如」。",
       "sentenceIndex": 23,
@@ -1415,12 +1321,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-12": "本句指「引出同一類的例子；像……這樣的／例如」。",
-        "like-mcq-11": "「如果你願意／想這樣做」是「if you like」的用法，與本句語境不同。",
-        "like-mcq-13": "「非正式地表示大約的數量、時間或程度」是「like — approximate」的用法，與本句語境不同。",
-        "like-mcq-10": "「以較禮貌／柔和方式表示想做某事」是「would like to」的用法，與本句語境不同。",
-        "like-mcq-14": "「口語中用來停頓、引出反應或模仿說話的語篇標記」是「like — discourse marker」的用法，與本句語境不同。",
-        "like-mcq-09": "「以較禮貌方式表示想要某物」是「would like + noun」的用法，與本句語境不同。"
+        "like-mcq-12": "本句的「like」指「引出同一類的例子；像……這樣的／例如」。",
+        "like-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-12"
     },
@@ -1432,11 +1336,9 @@ export default {
       "masked": "Cities ____ Tokyo can be very busy.",
       "options": [
         "like-mcq-12",
-        "like-mcq-11",
-        "like-mcq-13",
+        "like-mcq-17",
         "like-mcq-10",
-        "like-mcq-14",
-        "like-mcq-09"
+        "like-mcq-27"
       ],
       "explanation": "本句的「like」指「引出同一類的例子；像……這樣的／例如」。",
       "sentenceIndex": 24,
@@ -1445,12 +1347,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-12": "本句指「引出同一類的例子；像……這樣的／例如」。",
-        "like-mcq-11": "「如果你願意／想這樣做」是「if you like」的用法，與本句語境不同。",
-        "like-mcq-13": "「非正式地表示大約的數量、時間或程度」是「like — approximate」的用法，與本句語境不同。",
-        "like-mcq-10": "「以較禮貌／柔和方式表示想做某事」是「would like to」的用法，與本句語境不同。",
-        "like-mcq-14": "「口語中用來停頓、引出反應或模仿說話的語篇標記」是「like — discourse marker」的用法，與本句語境不同。",
-        "like-mcq-09": "「以較禮貌方式表示想要某物」是「would like + noun」的用法，與本句語境不同。"
+        "like-mcq-12": "本句的「like」指「引出同一類的例子；像……這樣的／例如」。",
+        "like-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-12"
     },
@@ -1462,11 +1362,9 @@ export default {
       "masked": "There were ____ twenty people there.",
       "options": [
         "like-mcq-13",
-        "like-mcq-12",
-        "like-mcq-14",
-        "like-mcq-11",
-        "like-mcq-15",
-        "like-mcq-10"
+        "like-mcq-05",
+        "like-mcq-08",
+        "like-mcq-02"
       ],
       "explanation": "本句的「like」指「非正式地表示大約的數量、時間或程度」。",
       "sentenceIndex": 25,
@@ -1475,12 +1373,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-13": "本句指「非正式地表示大約的數量、時間或程度」。",
-        "like-mcq-12": "「引出同一類的例子；像……這樣的／例如」是「like — example」的用法，與本句語境不同。",
-        "like-mcq-14": "「口語中用來停頓、引出反應或模仿說話的語篇標記」是「like — discourse marker」的用法，與本句語境不同。",
-        "like-mcq-11": "「如果你願意／想這樣做」是「if you like」的用法，與本句語境不同。",
-        "like-mcq-15": "「非正式地引述某人說話、反應或態度」是「be like + quotation」的用法，與本句語境不同。",
-        "like-mcq-10": "「以較禮貌／柔和方式表示想做某事」是「would like to」的用法，與本句語境不同。"
+        "like-mcq-13": "本句的「like」指「非正式地表示大約的數量、時間或程度」。",
+        "like-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-13"
     },
@@ -1492,11 +1388,9 @@ export default {
       "masked": "It took ____ an hour.",
       "options": [
         "like-mcq-13",
-        "like-mcq-12",
-        "like-mcq-14",
-        "like-mcq-11",
-        "like-mcq-15",
-        "like-mcq-10"
+        "like-mcq-25",
+        "like-mcq-08",
+        "like-mcq-06"
       ],
       "explanation": "本句的「like」指「非正式地表示大約的數量、時間或程度」。",
       "sentenceIndex": 26,
@@ -1505,12 +1399,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-13": "本句指「非正式地表示大約的數量、時間或程度」。",
-        "like-mcq-12": "「引出同一類的例子；像……這樣的／例如」是「like — example」的用法，與本句語境不同。",
-        "like-mcq-14": "「口語中用來停頓、引出反應或模仿說話的語篇標記」是「like — discourse marker」的用法，與本句語境不同。",
-        "like-mcq-11": "「如果你願意／想這樣做」是「if you like」的用法，與本句語境不同。",
-        "like-mcq-15": "「非正式地引述某人說話、反應或態度」是「be like + quotation」的用法，與本句語境不同。",
-        "like-mcq-10": "「以較禮貌／柔和方式表示想做某事」是「would like to」的用法，與本句語境不同。"
+        "like-mcq-13": "本句的「like」指「非正式地表示大約的數量、時間或程度」。",
+        "like-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-13"
     },
@@ -1522,11 +1414,9 @@ export default {
       "masked": "I was, ____, really surprised.",
       "options": [
         "like-mcq-14",
-        "like-mcq-13",
-        "like-mcq-15",
-        "like-mcq-12",
-        "like-mcq-16",
-        "like-mcq-11"
+        "like-mcq-07",
+        "like-mcq-10",
+        "like-mcq-28"
       ],
       "explanation": "本句的「like」指「口語中用來停頓、引出反應或模仿說話的語篇標記」。",
       "sentenceIndex": 27,
@@ -1535,12 +1425,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-14": "本句指「口語中用來停頓、引出反應或模仿說話的語篇標記」。",
-        "like-mcq-13": "「非正式地表示大約的數量、時間或程度」是「like — approximate」的用法，與本句語境不同。",
-        "like-mcq-15": "「非正式地引述某人說話、反應或態度」是「be like + quotation」的用法，與本句語境不同。",
-        "like-mcq-12": "「引出同一類的例子；像……這樣的／例如」是「like — example」的用法，與本句語境不同。",
-        "like-mcq-16": "「幾乎沒有相似之處；完全不像」是「nothing like — dissimilar」的用法，與本句語境不同。",
-        "like-mcq-11": "「如果你願意／想這樣做」是「if you like」的用法，與本句語境不同。"
+        "like-mcq-14": "本句的「like」指「口語中用來停頓、引出反應或模仿說話的語篇標記」。",
+        "like-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-14"
     },
@@ -1552,11 +1440,9 @@ export default {
       "masked": "She was ____, ‘What are you doing?’",
       "options": [
         "like-mcq-14",
-        "like-mcq-13",
-        "like-mcq-15",
-        "like-mcq-12",
-        "like-mcq-16",
-        "like-mcq-11"
+        "like-mcq-02",
+        "like-mcq-10",
+        "like-mcq-07"
       ],
       "explanation": "本句的「like」指「口語中用來停頓、引出反應或模仿說話的語篇標記」。",
       "sentenceIndex": 28,
@@ -1565,12 +1451,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-14": "本句指「口語中用來停頓、引出反應或模仿說話的語篇標記」。",
-        "like-mcq-13": "「非正式地表示大約的數量、時間或程度」是「like — approximate」的用法，與本句語境不同。",
-        "like-mcq-15": "「非正式地引述某人說話、反應或態度」是「be like + quotation」的用法，與本句語境不同。",
-        "like-mcq-12": "「引出同一類的例子；像……這樣的／例如」是「like — example」的用法，與本句語境不同。",
-        "like-mcq-16": "「幾乎沒有相似之處；完全不像」是「nothing like — dissimilar」的用法，與本句語境不同。",
-        "like-mcq-11": "「如果你願意／想這樣做」是「if you like」的用法，與本句語境不同。"
+        "like-mcq-14": "本句的「like」指「口語中用來停頓、引出反應或模仿說話的語篇標記」。",
+        "like-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-14"
     },
@@ -1582,11 +1466,9 @@ export default {
       "masked": "He was ____, ‘No way.’",
       "options": [
         "like-mcq-15",
-        "like-mcq-14",
-        "like-mcq-16",
-        "like-mcq-13",
-        "like-mcq-17",
-        "like-mcq-12"
+        "like-mcq-28",
+        "like-mcq-09",
+        "like-mcq-02"
       ],
       "explanation": "本句的「like」指「非正式地引述某人說話、反應或態度」。",
       "sentenceIndex": 29,
@@ -1595,12 +1477,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-15": "本句指「非正式地引述某人說話、反應或態度」。",
-        "like-mcq-14": "「口語中用來停頓、引出反應或模仿說話的語篇標記」是「like — discourse marker」的用法，與本句語境不同。",
-        "like-mcq-16": "「幾乎沒有相似之處；完全不像」是「nothing like — dissimilar」的用法，與本句語境不同。",
-        "like-mcq-13": "「非正式地表示大約的數量、時間或程度」是「like — approximate」的用法，與本句語境不同。",
-        "like-mcq-17": "「表示某事特別令人享受，沒有甚麼能比得上」是「there's nothing like」的用法，與本句語境不同。",
-        "like-mcq-12": "「引出同一類的例子；像……這樣的／例如」是「like — example」的用法，與本句語境不同。"
+        "like-mcq-15": "本句的「like」指「非正式地引述某人說話、反應或態度」。",
+        "like-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-15"
     },
@@ -1612,11 +1492,9 @@ export default {
       "masked": "I was ____, ‘Are you serious?’",
       "options": [
         "like-mcq-15",
-        "like-mcq-14",
-        "like-mcq-16",
-        "like-mcq-13",
         "like-mcq-17",
-        "like-mcq-12"
+        "like-mcq-24",
+        "like-pdf-001"
       ],
       "explanation": "本句的「like」指「非正式地引述某人說話、反應或態度」。",
       "sentenceIndex": 30,
@@ -1625,12 +1503,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-15": "本句指「非正式地引述某人說話、反應或態度」。",
-        "like-mcq-14": "「口語中用來停頓、引出反應或模仿說話的語篇標記」是「like — discourse marker」的用法，與本句語境不同。",
-        "like-mcq-16": "「幾乎沒有相似之處；完全不像」是「nothing like — dissimilar」的用法，與本句語境不同。",
-        "like-mcq-13": "「非正式地表示大約的數量、時間或程度」是「like — approximate」的用法，與本句語境不同。",
-        "like-mcq-17": "「表示某事特別令人享受，沒有甚麼能比得上」是「there's nothing like」的用法，與本句語境不同。",
-        "like-mcq-12": "「引出同一類的例子；像……這樣的／例如」是「like — example」的用法，與本句語境不同。"
+        "like-mcq-15": "本句的「like」指「非正式地引述某人說話、反應或態度」。",
+        "like-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "like-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-15"
     },
@@ -1642,11 +1518,9 @@ export default {
       "masked": "The final result was ____ what I expected.",
       "options": [
         "like-mcq-16",
-        "like-mcq-15",
-        "like-mcq-17",
-        "like-mcq-14",
-        "like-mcq-18",
-        "like-mcq-13"
+        "like-mcq-27",
+        "like-pdf-001",
+        "like-mcq-08"
       ],
       "explanation": "本句的「nothing like」指「幾乎沒有相似之處；完全不像」。",
       "sentenceIndex": 31,
@@ -1655,12 +1529,10 @@ export default {
         "nothing like"
       ],
       "optionReasons": {
-        "like-mcq-16": "本句指「幾乎沒有相似之處；完全不像」。",
-        "like-mcq-15": "「非正式地引述某人說話、反應或態度」是「be like + quotation」的用法，與本句語境不同。",
-        "like-mcq-17": "「表示某事特別令人享受，沒有甚麼能比得上」是「there's nothing like」的用法，與本句語境不同。",
-        "like-mcq-14": "「口語中用來停頓、引出反應或模仿說話的語篇標記」是「like — discourse marker」的用法，與本句語境不同。",
-        "like-mcq-18": "「大約／與某種描述相近但不完全精確」是「something like」的用法，與本句語境不同。",
-        "like-mcq-13": "「非正式地表示大約的數量、時間或程度」是「like — approximate」的用法，與本句語境不同。"
+        "like-mcq-16": "本句的「nothing like」指「幾乎沒有相似之處；完全不像」。",
+        "like-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "like-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-16"
     },
@@ -1672,11 +1544,9 @@ export default {
       "masked": "He is ____ his brother.",
       "options": [
         "like-mcq-16",
-        "like-mcq-15",
-        "like-mcq-17",
-        "like-mcq-14",
-        "like-mcq-18",
-        "like-mcq-13"
+        "like-pdf-001",
+        "like-mcq-13",
+        "like-mcq-21"
       ],
       "explanation": "本句的「nothing like」指「幾乎沒有相似之處；完全不像」。",
       "sentenceIndex": 32,
@@ -1685,12 +1555,10 @@ export default {
         "nothing like"
       ],
       "optionReasons": {
-        "like-mcq-16": "本句指「幾乎沒有相似之處；完全不像」。",
-        "like-mcq-15": "「非正式地引述某人說話、反應或態度」是「be like + quotation」的用法，與本句語境不同。",
-        "like-mcq-17": "「表示某事特別令人享受，沒有甚麼能比得上」是「there's nothing like」的用法，與本句語境不同。",
-        "like-mcq-14": "「口語中用來停頓、引出反應或模仿說話的語篇標記」是「like — discourse marker」的用法，與本句語境不同。",
-        "like-mcq-18": "「大約／與某種描述相近但不完全精確」是「something like」的用法，與本句語境不同。",
-        "like-mcq-13": "「非正式地表示大約的數量、時間或程度」是「like — approximate」的用法，與本句語境不同。"
+        "like-mcq-16": "本句的「nothing like」指「幾乎沒有相似之處；完全不像」。",
+        "like-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-16"
     },
@@ -1702,11 +1570,9 @@ export default {
       "masked": "There’s ____ a hot cup of tea after a long day.",
       "options": [
         "like-mcq-17",
-        "like-mcq-16",
-        "like-mcq-18",
-        "like-mcq-15",
-        "like-mcq-19",
-        "like-mcq-14"
+        "like-mcq-09",
+        "like-mcq-28",
+        "like-mcq-18"
       ],
       "explanation": "本句的「nothing like」指「表示某事特別令人享受，沒有甚麼能比得上」。",
       "sentenceIndex": 33,
@@ -1715,12 +1581,10 @@ export default {
         "nothing like"
       ],
       "optionReasons": {
-        "like-mcq-17": "本句指「表示某事特別令人享受，沒有甚麼能比得上」。",
-        "like-mcq-16": "「幾乎沒有相似之處；完全不像」是「nothing like — dissimilar」的用法，與本句語境不同。",
-        "like-mcq-18": "「大約／與某種描述相近但不完全精確」是「something like」的用法，與本句語境不同。",
-        "like-mcq-15": "「非正式地引述某人說話、反應或態度」是「be like + quotation」的用法，與本句語境不同。",
-        "like-mcq-19": "「修正前述描述，表示另一個說法更準確」是「more like」的用法，與本句語境不同。",
-        "like-mcq-14": "「口語中用來停頓、引出反應或模仿說話的語篇標記」是「like — discourse marker」的用法，與本句語境不同。"
+        "like-mcq-17": "本句的「nothing like」指「表示某事特別令人享受，沒有甚麼能比得上」。",
+        "like-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-17"
     },
@@ -1732,11 +1596,9 @@ export default {
       "masked": "There’s ____ spending time with family.",
       "options": [
         "like-mcq-17",
-        "like-mcq-16",
-        "like-mcq-18",
-        "like-mcq-15",
-        "like-mcq-19",
-        "like-mcq-14"
+        "like-mcq-27",
+        "like-mcq-26",
+        "like-mcq-15"
       ],
       "explanation": "本句的「nothing like」指「表示某事特別令人享受，沒有甚麼能比得上」。",
       "sentenceIndex": 34,
@@ -1745,12 +1607,10 @@ export default {
         "nothing like"
       ],
       "optionReasons": {
-        "like-mcq-17": "本句指「表示某事特別令人享受，沒有甚麼能比得上」。",
-        "like-mcq-16": "「幾乎沒有相似之處；完全不像」是「nothing like — dissimilar」的用法，與本句語境不同。",
-        "like-mcq-18": "「大約／與某種描述相近但不完全精確」是「something like」的用法，與本句語境不同。",
-        "like-mcq-15": "「非正式地引述某人說話、反應或態度」是「be like + quotation」的用法，與本句語境不同。",
-        "like-mcq-19": "「修正前述描述，表示另一個說法更準確」是「more like」的用法，與本句語境不同。",
-        "like-mcq-14": "「口語中用來停頓、引出反應或模仿說話的語篇標記」是「like — discourse marker」的用法，與本句語境不同。"
+        "like-mcq-17": "本句的「nothing like」指「表示某事特別令人享受，沒有甚麼能比得上」。",
+        "like-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-17"
     },
@@ -1762,11 +1622,9 @@ export default {
       "masked": "It cost ____ $200.",
       "options": [
         "like-mcq-18",
-        "like-mcq-17",
-        "like-mcq-19",
-        "like-mcq-16",
-        "like-mcq-20",
-        "like-mcq-15"
+        "like-mcq-23",
+        "like-mcq-10",
+        "like-mcq-29"
       ],
       "explanation": "本句的「something like」指「大約／與某種描述相近但不完全精確」。",
       "sentenceIndex": 35,
@@ -1775,12 +1633,10 @@ export default {
         "something like"
       ],
       "optionReasons": {
-        "like-mcq-18": "本句指「大約／與某種描述相近但不完全精確」。",
-        "like-mcq-17": "「表示某事特別令人享受，沒有甚麼能比得上」是「there's nothing like」的用法，與本句語境不同。",
-        "like-mcq-19": "「修正前述描述，表示另一個說法更準確」是「more like」的用法，與本句語境不同。",
-        "like-mcq-16": "「幾乎沒有相似之處；完全不像」是「nothing like — dissimilar」的用法，與本句語境不同。",
-        "like-mcq-20": "「詢問某人／某物的性格、特質、外觀或整體情況」是「what is X like?」的用法，與本句語境不同。",
-        "like-mcq-15": "「非正式地引述某人說話、反應或態度」是「be like + quotation」的用法，與本句語境不同。"
+        "like-mcq-18": "本句的「something like」指「大約／與某種描述相近但不完全精確」。",
+        "like-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-18"
     },
@@ -1792,11 +1648,9 @@ export default {
       "masked": "She gave me ____ an apology.",
       "options": [
         "like-mcq-18",
-        "like-mcq-17",
-        "like-mcq-19",
-        "like-mcq-16",
-        "like-mcq-20",
-        "like-mcq-15"
+        "like-mcq-29",
+        "like-mcq-08",
+        "like-mcq-05"
       ],
       "explanation": "本句的「something like」指「大約／與某種描述相近但不完全精確」。",
       "sentenceIndex": 36,
@@ -1805,12 +1659,10 @@ export default {
         "something like"
       ],
       "optionReasons": {
-        "like-mcq-18": "本句指「大約／與某種描述相近但不完全精確」。",
-        "like-mcq-17": "「表示某事特別令人享受，沒有甚麼能比得上」是「there's nothing like」的用法，與本句語境不同。",
-        "like-mcq-19": "「修正前述描述，表示另一個說法更準確」是「more like」的用法，與本句語境不同。",
-        "like-mcq-16": "「幾乎沒有相似之處；完全不像」是「nothing like — dissimilar」的用法，與本句語境不同。",
-        "like-mcq-20": "「詢問某人／某物的性格、特質、外觀或整體情況」是「what is X like?」的用法，與本句語境不同。",
-        "like-mcq-15": "「非正式地引述某人說話、反應或態度」是「be like + quotation」的用法，與本句語境不同。"
+        "like-mcq-18": "本句的「something like」指「大約／與某種描述相近但不完全精確」。",
+        "like-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-18"
     },
@@ -1822,10 +1674,8 @@ export default {
       "masked": "It wasn’t a discussion; it was ____ an argument.",
       "options": [
         "like-mcq-19",
-        "like-mcq-18",
-        "like-mcq-20",
-        "like-mcq-17",
-        "like-mcq-21",
+        "like-mcq-27",
+        "like-mcq-06",
         "like-mcq-16"
       ],
       "explanation": "本句的「more like」指「修正前述描述，表示另一個說法更準確」。",
@@ -1835,12 +1685,10 @@ export default {
         "more like"
       ],
       "optionReasons": {
-        "like-mcq-19": "本句指「修正前述描述，表示另一個說法更準確」。",
-        "like-mcq-18": "「大約／與某種描述相近但不完全精確」是「something like」的用法，與本句語境不同。",
-        "like-mcq-20": "「詢問某人／某物的性格、特質、外觀或整體情況」是「what is X like?」的用法，與本句語境不同。",
-        "like-mcq-17": "「表示某事特別令人享受，沒有甚麼能比得上」是「there's nothing like」的用法，與本句語境不同。",
-        "like-mcq-21": "「對某人／某物產生的喜愛、偏好或好感」是「liking」的用法，與本句語境不同。",
-        "like-mcq-16": "「幾乎沒有相似之處；完全不像」是「nothing like — dissimilar」的用法，與本句語境不同。"
+        "like-mcq-19": "本句的「more like」指「修正前述描述，表示另一個說法更準確」。",
+        "like-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-19"
     },
@@ -1852,11 +1700,9 @@ export default {
       "masked": "Twenty minutes? ____ an hour.",
       "options": [
         "like-mcq-19",
-        "like-mcq-18",
-        "like-mcq-20",
-        "like-mcq-17",
+        "like-mcq-06",
         "like-mcq-21",
-        "like-mcq-16"
+        "like-mcq-09"
       ],
       "explanation": "本句的「More like」指「修正前述描述，表示另一個說法更準確」。",
       "sentenceIndex": 38,
@@ -1865,12 +1711,10 @@ export default {
         "More like"
       ],
       "optionReasons": {
-        "like-mcq-19": "本句指「修正前述描述，表示另一個說法更準確」。",
-        "like-mcq-18": "「大約／與某種描述相近但不完全精確」是「something like」的用法，與本句語境不同。",
-        "like-mcq-20": "「詢問某人／某物的性格、特質、外觀或整體情況」是「what is X like?」的用法，與本句語境不同。",
-        "like-mcq-17": "「表示某事特別令人享受，沒有甚麼能比得上」是「there's nothing like」的用法，與本句語境不同。",
-        "like-mcq-21": "「對某人／某物產生的喜愛、偏好或好感」是「liking」的用法，與本句語境不同。",
-        "like-mcq-16": "「幾乎沒有相似之處；完全不像」是「nothing like — dissimilar」的用法，與本句語境不同。"
+        "like-mcq-19": "本句的「More like」指「修正前述描述，表示另一個說法更準確」。",
+        "like-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-19"
     },
@@ -1882,11 +1726,9 @@ export default {
       "masked": "What is your grandmother ____?",
       "options": [
         "like-mcq-20",
+        "like-mcq-27",
         "like-mcq-19",
-        "like-mcq-21",
-        "like-mcq-18",
-        "like-mcq-22",
-        "like-mcq-17"
+        "like-mcq-09"
       ],
       "explanation": "本句的「like」指「詢問某人／某物的性格、特質、外觀或整體情況」。",
       "sentenceIndex": 39,
@@ -1895,12 +1737,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-20": "本句指「詢問某人／某物的性格、特質、外觀或整體情況」。",
-        "like-mcq-19": "「修正前述描述，表示另一個說法更準確」是「more like」的用法，與本句語境不同。",
-        "like-mcq-21": "「對某人／某物產生的喜愛、偏好或好感」是「liking」的用法，與本句語境不同。",
-        "like-mcq-18": "「大約／與某種描述相近但不完全精確」是「something like」的用法，與本句語境不同。",
-        "like-mcq-22": "「兩個人／事物之間的相似程度或相似特徵」是「likeness — similarity」的用法，與本句語境不同。",
-        "like-mcq-17": "「表示某事特別令人享受，沒有甚麼能比得上」是「there's nothing like」的用法，與本句語境不同。"
+        "like-mcq-20": "本句的「like」指「詢問某人／某物的性格、特質、外觀或整體情況」。",
+        "like-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-20"
     },
@@ -1912,11 +1752,9 @@ export default {
       "masked": "What is the neighbourhood ____?",
       "options": [
         "like-mcq-20",
-        "like-mcq-19",
-        "like-mcq-21",
-        "like-mcq-18",
-        "like-mcq-22",
-        "like-mcq-17"
+        "like-mcq-14",
+        "like-mcq-06",
+        "like-mcq-09"
       ],
       "explanation": "本句的「like」指「詢問某人／某物的性格、特質、外觀或整體情況」。",
       "sentenceIndex": 40,
@@ -1925,12 +1763,10 @@ export default {
         "like"
       ],
       "optionReasons": {
-        "like-mcq-20": "本句指「詢問某人／某物的性格、特質、外觀或整體情況」。",
-        "like-mcq-19": "「修正前述描述，表示另一個說法更準確」是「more like」的用法，與本句語境不同。",
-        "like-mcq-21": "「對某人／某物產生的喜愛、偏好或好感」是「liking」的用法，與本句語境不同。",
-        "like-mcq-18": "「大約／與某種描述相近但不完全精確」是「something like」的用法，與本句語境不同。",
-        "like-mcq-22": "「兩個人／事物之間的相似程度或相似特徵」是「likeness — similarity」的用法，與本句語境不同。",
-        "like-mcq-17": "「表示某事特別令人享受，沒有甚麼能比得上」是「there's nothing like」的用法，與本句語境不同。"
+        "like-mcq-20": "本句的「like」指「詢問某人／某物的性格、特質、外觀或整體情況」。",
+        "like-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-20"
     },
@@ -1942,11 +1778,9 @@ export default {
       "masked": "She developed a ____ for classical music.",
       "options": [
         "like-mcq-21",
-        "like-mcq-20",
-        "like-mcq-22",
         "like-mcq-19",
-        "like-mcq-23",
-        "like-mcq-18"
+        "like-mcq-26",
+        "like-mcq-06"
       ],
       "explanation": "本句的「liking」指「對某人／某物產生的喜愛、偏好或好感」。",
       "sentenceIndex": 41,
@@ -1955,12 +1789,10 @@ export default {
         "liking"
       ],
       "optionReasons": {
-        "like-mcq-21": "本句指「對某人／某物產生的喜愛、偏好或好感」。",
-        "like-mcq-20": "「詢問某人／某物的性格、特質、外觀或整體情況」是「what is X like?」的用法，與本句語境不同。",
-        "like-mcq-22": "「兩個人／事物之間的相似程度或相似特徵」是「likeness — similarity」的用法，與本句語境不同。",
-        "like-mcq-19": "「修正前述描述，表示另一個說法更準確」是「more like」的用法，與本句語境不同。",
-        "like-mcq-23": "「對某人外貌所作的圖像、雕像或其他視覺再現」是「likeness — representation」的用法，與本句語境不同。",
-        "like-mcq-18": "「大約／與某種描述相近但不完全精確」是「something like」的用法，與本句語境不同。"
+        "like-mcq-21": "本句的「liking」指「對某人／某物產生的喜愛、偏好或好感」。",
+        "like-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-21"
     },
@@ -1972,11 +1804,9 @@ export default {
       "masked": "I took an immediate ____ to her.",
       "options": [
         "like-mcq-21",
-        "like-mcq-20",
-        "like-mcq-22",
-        "like-mcq-19",
-        "like-mcq-23",
-        "like-mcq-18"
+        "like-mcq-26",
+        "like-mcq-14",
+        "like-mcq-13"
       ],
       "explanation": "本句的「liking」指「對某人／某物產生的喜愛、偏好或好感」。",
       "sentenceIndex": 42,
@@ -1985,12 +1815,10 @@ export default {
         "liking"
       ],
       "optionReasons": {
-        "like-mcq-21": "本句指「對某人／某物產生的喜愛、偏好或好感」。",
-        "like-mcq-20": "「詢問某人／某物的性格、特質、外觀或整體情況」是「what is X like?」的用法，與本句語境不同。",
-        "like-mcq-22": "「兩個人／事物之間的相似程度或相似特徵」是「likeness — similarity」的用法，與本句語境不同。",
-        "like-mcq-19": "「修正前述描述，表示另一個說法更準確」是「more like」的用法，與本句語境不同。",
-        "like-mcq-23": "「對某人外貌所作的圖像、雕像或其他視覺再現」是「likeness — representation」的用法，與本句語境不同。",
-        "like-mcq-18": "「大約／與某種描述相近但不完全精確」是「something like」的用法，與本句語境不同。"
+        "like-mcq-21": "本句的「liking」指「對某人／某物產生的喜愛、偏好或好感」。",
+        "like-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-21"
     },
@@ -2002,11 +1830,9 @@ export default {
       "masked": "The child quickly ____ her.",
       "options": [
         "like-mcq-21",
-        "like-mcq-20",
-        "like-mcq-22",
-        "like-mcq-19",
-        "like-mcq-23",
-        "like-mcq-18"
+        "like-pdf-001",
+        "like-mcq-24",
+        "like-mcq-13"
       ],
       "explanation": "本句的「took a liking to」指「對某人／某物產生的喜愛、偏好或好感」。",
       "sentenceIndex": 43,
@@ -2015,12 +1841,10 @@ export default {
         "took a liking to"
       ],
       "optionReasons": {
-        "like-mcq-21": "本句指「對某人／某物產生的喜愛、偏好或好感」。",
-        "like-mcq-20": "「詢問某人／某物的性格、特質、外觀或整體情況」是「what is X like?」的用法，與本句語境不同。",
-        "like-mcq-22": "「兩個人／事物之間的相似程度或相似特徵」是「likeness — similarity」的用法，與本句語境不同。",
-        "like-mcq-19": "「修正前述描述，表示另一個說法更準確」是「more like」的用法，與本句語境不同。",
-        "like-mcq-23": "「對某人外貌所作的圖像、雕像或其他視覺再現」是「likeness — representation」的用法，與本句語境不同。",
-        "like-mcq-18": "「大約／與某種描述相近但不完全精確」是「something like」的用法，與本句語境不同。"
+        "like-mcq-21": "本句的「took a liking to」指「對某人／某物產生的喜愛、偏好或好感」。",
+        "like-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-21"
     },
@@ -2032,11 +1856,9 @@ export default {
       "masked": "I’ve really ____ this café.",
       "options": [
         "like-mcq-21",
-        "like-mcq-20",
-        "like-mcq-22",
-        "like-mcq-19",
-        "like-mcq-23",
-        "like-mcq-18"
+        "like-mcq-13",
+        "like-mcq-24",
+        "like-mcq-12"
       ],
       "explanation": "本句的「taken a liking to」指「對某人／某物產生的喜愛、偏好或好感」。",
       "sentenceIndex": 44,
@@ -2045,12 +1867,10 @@ export default {
         "taken a liking to"
       ],
       "optionReasons": {
-        "like-mcq-21": "本句指「對某人／某物產生的喜愛、偏好或好感」。",
-        "like-mcq-20": "「詢問某人／某物的性格、特質、外觀或整體情況」是「what is X like?」的用法，與本句語境不同。",
-        "like-mcq-22": "「兩個人／事物之間的相似程度或相似特徵」是「likeness — similarity」的用法，與本句語境不同。",
-        "like-mcq-19": "「修正前述描述，表示另一個說法更準確」是「more like」的用法，與本句語境不同。",
-        "like-mcq-23": "「對某人外貌所作的圖像、雕像或其他視覺再現」是「likeness — representation」的用法，與本句語境不同。",
-        "like-mcq-18": "「大約／與某種描述相近但不完全精確」是「something like」的用法，與本句語境不同。"
+        "like-mcq-21": "本句的「taken a liking to」指「對某人／某物產生的喜愛、偏好或好感」。",
+        "like-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-21"
     },
@@ -2062,10 +1882,8 @@ export default {
       "masked": "There is a strong ____ between the two sisters.",
       "options": [
         "like-mcq-22",
-        "like-mcq-21",
-        "like-mcq-23",
-        "like-mcq-20",
-        "like-mcq-24",
+        "like-mcq-10",
+        "like-mcq-28",
         "like-mcq-19"
       ],
       "explanation": "本句的「likeness」指「兩個人／事物之間的相似程度或相似特徵」。",
@@ -2075,12 +1893,10 @@ export default {
         "likeness"
       ],
       "optionReasons": {
-        "like-mcq-22": "本句指「兩個人／事物之間的相似程度或相似特徵」。",
-        "like-mcq-21": "「對某人／某物產生的喜愛、偏好或好感」是「liking」的用法，與本句語境不同。",
-        "like-mcq-23": "「對某人外貌所作的圖像、雕像或其他視覺再現」是「likeness — representation」的用法，與本句語境不同。",
-        "like-mcq-20": "「詢問某人／某物的性格、特質、外觀或整體情況」是「what is X like?」的用法，與本句語境不同。",
-        "like-mcq-24": "「兩個或以上的人／事物彼此相似」是「alike」的用法，與本句語境不同。",
-        "like-mcq-19": "「修正前述描述，表示另一個說法更準確」是「more like」的用法，與本句語境不同。"
+        "like-mcq-22": "本句的「likeness」指「兩個人／事物之間的相似程度或相似特徵」。",
+        "like-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-22"
     },
@@ -2092,11 +1908,9 @@ export default {
       "masked": "I can see the family ____.",
       "options": [
         "like-mcq-22",
-        "like-mcq-21",
-        "like-mcq-23",
-        "like-mcq-20",
-        "like-mcq-24",
-        "like-mcq-19"
+        "like-mcq-08",
+        "like-mcq-06",
+        "like-mcq-12"
       ],
       "explanation": "本句的「likeness」指「兩個人／事物之間的相似程度或相似特徵」。",
       "sentenceIndex": 46,
@@ -2105,12 +1919,10 @@ export default {
         "likeness"
       ],
       "optionReasons": {
-        "like-mcq-22": "本句指「兩個人／事物之間的相似程度或相似特徵」。",
-        "like-mcq-21": "「對某人／某物產生的喜愛、偏好或好感」是「liking」的用法，與本句語境不同。",
-        "like-mcq-23": "「對某人外貌所作的圖像、雕像或其他視覺再現」是「likeness — representation」的用法，與本句語境不同。",
-        "like-mcq-20": "「詢問某人／某物的性格、特質、外觀或整體情況」是「what is X like?」的用法，與本句語境不同。",
-        "like-mcq-24": "「兩個或以上的人／事物彼此相似」是「alike」的用法，與本句語境不同。",
-        "like-mcq-19": "「修正前述描述，表示另一個說法更準確」是「more like」的用法，與本句語境不同。"
+        "like-mcq-22": "本句的「likeness」指「兩個人／事物之間的相似程度或相似特徵」。",
+        "like-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-22"
     },
@@ -2122,11 +1934,9 @@ export default {
       "masked": "The portrait captured her ____.",
       "options": [
         "like-mcq-23",
-        "like-mcq-22",
-        "like-mcq-24",
-        "like-mcq-21",
-        "like-mcq-25",
-        "like-mcq-20"
+        "like-mcq-14",
+        "like-mcq-30",
+        "like-mcq-29"
       ],
       "explanation": "本句的「likeness」指「對某人外貌所作的圖像、雕像或其他視覺再現」。",
       "sentenceIndex": 47,
@@ -2135,12 +1945,10 @@ export default {
         "likeness"
       ],
       "optionReasons": {
-        "like-mcq-23": "本句指「對某人外貌所作的圖像、雕像或其他視覺再現」。",
-        "like-mcq-22": "「兩個人／事物之間的相似程度或相似特徵」是「likeness — similarity」的用法，與本句語境不同。",
-        "like-mcq-24": "「兩個或以上的人／事物彼此相似」是「alike」的用法，與本句語境不同。",
-        "like-mcq-21": "「對某人／某物產生的喜愛、偏好或好感」是「liking」的用法，與本句語境不同。",
-        "like-mcq-25": "「與某人／某事物在特徵或情況上不同」是「unlike」的用法，與本句語境不同。",
-        "like-mcq-20": "「詢問某人／某物的性格、特質、外觀或整體情況」是「what is X like?」的用法，與本句語境不同。"
+        "like-mcq-23": "本句的「likeness」指「對某人外貌所作的圖像、雕像或其他視覺再現」。",
+        "like-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-23"
     },
@@ -2152,11 +1960,9 @@ export default {
       "masked": "The statue bears his ____.",
       "options": [
         "like-mcq-23",
+        "like-mcq-28",
         "like-mcq-22",
-        "like-mcq-24",
-        "like-mcq-21",
-        "like-mcq-25",
-        "like-mcq-20"
+        "like-mcq-08"
       ],
       "explanation": "本句的「likeness」指「對某人外貌所作的圖像、雕像或其他視覺再現」。",
       "sentenceIndex": 48,
@@ -2165,12 +1971,10 @@ export default {
         "likeness"
       ],
       "optionReasons": {
-        "like-mcq-23": "本句指「對某人外貌所作的圖像、雕像或其他視覺再現」。",
-        "like-mcq-22": "「兩個人／事物之間的相似程度或相似特徵」是「likeness — similarity」的用法，與本句語境不同。",
-        "like-mcq-24": "「兩個或以上的人／事物彼此相似」是「alike」的用法，與本句語境不同。",
-        "like-mcq-21": "「對某人／某物產生的喜愛、偏好或好感」是「liking」的用法，與本句語境不同。",
-        "like-mcq-25": "「與某人／某事物在特徵或情況上不同」是「unlike」的用法，與本句語境不同。",
-        "like-mcq-20": "「詢問某人／某物的性格、特質、外觀或整體情況」是「what is X like?」的用法，與本句語境不同。"
+        "like-mcq-23": "本句的「likeness」指「對某人外貌所作的圖像、雕像或其他視覺再現」。",
+        "like-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-23"
     },
@@ -2182,11 +1986,9 @@ export default {
       "masked": "The two sisters look ____.",
       "options": [
         "like-mcq-24",
-        "like-mcq-23",
-        "like-mcq-25",
-        "like-mcq-22",
-        "like-mcq-26",
-        "like-mcq-21"
+        "like-mcq-07",
+        "like-mcq-19",
+        "like-mcq-28"
       ],
       "explanation": "本句的「alike」指「兩個或以上的人／事物彼此相似」。",
       "sentenceIndex": 49,
@@ -2195,12 +1997,10 @@ export default {
         "alike"
       ],
       "optionReasons": {
-        "like-mcq-24": "本句指「兩個或以上的人／事物彼此相似」。",
-        "like-mcq-23": "「對某人外貌所作的圖像、雕像或其他視覺再現」是「likeness — representation」的用法，與本句語境不同。",
-        "like-mcq-25": "「與某人／某事物在特徵或情況上不同」是「unlike」的用法，與本句語境不同。",
-        "like-mcq-22": "「兩個人／事物之間的相似程度或相似特徵」是「likeness — similarity」的用法，與本句語境不同。",
-        "like-mcq-26": "「某行為與該人平常性格或習慣不一致」是「unlike someone — characteristic」的用法，與本句語境不同。",
-        "like-mcq-21": "「對某人／某物產生的喜愛、偏好或好感」是「liking」的用法，與本句語境不同。"
+        "like-mcq-24": "本句的「alike」指「兩個或以上的人／事物彼此相似」。",
+        "like-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-24"
     },
@@ -2212,11 +2012,9 @@ export default {
       "masked": "The two situations are surprisingly ____.",
       "options": [
         "like-mcq-24",
-        "like-mcq-23",
-        "like-mcq-25",
-        "like-mcq-22",
-        "like-mcq-26",
-        "like-mcq-21"
+        "like-mcq-08",
+        "like-mcq-13",
+        "like-mcq-04"
       ],
       "explanation": "本句的「alike」指「兩個或以上的人／事物彼此相似」。",
       "sentenceIndex": 50,
@@ -2225,12 +2023,10 @@ export default {
         "alike"
       ],
       "optionReasons": {
-        "like-mcq-24": "本句指「兩個或以上的人／事物彼此相似」。",
-        "like-mcq-23": "「對某人外貌所作的圖像、雕像或其他視覺再現」是「likeness — representation」的用法，與本句語境不同。",
-        "like-mcq-25": "「與某人／某事物在特徵或情況上不同」是「unlike」的用法，與本句語境不同。",
-        "like-mcq-22": "「兩個人／事物之間的相似程度或相似特徵」是「likeness — similarity」的用法，與本句語境不同。",
-        "like-mcq-26": "「某行為與該人平常性格或習慣不一致」是「unlike someone — characteristic」的用法，與本句語境不同。",
-        "like-mcq-21": "「對某人／某物產生的喜愛、偏好或好感」是「liking」的用法，與本句語境不同。"
+        "like-mcq-24": "本句的「alike」指「兩個或以上的人／事物彼此相似」。",
+        "like-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-24"
     },
@@ -2242,11 +2038,9 @@ export default {
       "masked": "She is ____ anyone else in the family.",
       "options": [
         "like-mcq-25",
-        "like-mcq-24",
-        "like-mcq-26",
-        "like-mcq-23",
-        "like-mcq-27",
-        "like-mcq-22"
+        "like-mcq-10",
+        "like-mcq-19",
+        "like-pdf-001"
       ],
       "explanation": "本句的「unlike」指「與某人／某事物在特徵或情況上不同」。",
       "sentenceIndex": 51,
@@ -2255,12 +2049,10 @@ export default {
         "unlike"
       ],
       "optionReasons": {
-        "like-mcq-25": "本句指「與某人／某事物在特徵或情況上不同」。",
-        "like-mcq-24": "「兩個或以上的人／事物彼此相似」是「alike」的用法，與本句語境不同。",
-        "like-mcq-26": "「某行為與該人平常性格或習慣不一致」是「unlike someone — characteristic」的用法，與本句語境不同。",
-        "like-mcq-23": "「對某人外貌所作的圖像、雕像或其他視覺再現」是「likeness — representation」的用法，與本句語境不同。",
-        "like-mcq-27": "「根據現有情況有相當大機會發生的」是「likely」的用法，與本句語境不同。",
-        "like-mcq-22": "「兩個人／事物之間的相似程度或相似特徵」是「likeness — similarity」的用法，與本句語境不同。"
+        "like-mcq-25": "本句的「unlike」指「與某人／某事物在特徵或情況上不同」。",
+        "like-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "like-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-25"
     },
@@ -2272,11 +2064,9 @@ export default {
       "masked": "____ his brother, he is very quiet.",
       "options": [
         "like-mcq-25",
-        "like-mcq-24",
-        "like-mcq-26",
-        "like-mcq-23",
-        "like-mcq-27",
-        "like-mcq-22"
+        "like-mcq-09",
+        "like-pdf-001",
+        "like-mcq-08"
       ],
       "explanation": "本句的「Unlike」指「與某人／某事物在特徵或情況上不同」。",
       "sentenceIndex": 52,
@@ -2285,12 +2075,10 @@ export default {
         "Unlike"
       ],
       "optionReasons": {
-        "like-mcq-25": "本句指「與某人／某事物在特徵或情況上不同」。",
-        "like-mcq-24": "「兩個或以上的人／事物彼此相似」是「alike」的用法，與本句語境不同。",
-        "like-mcq-26": "「某行為與該人平常性格或習慣不一致」是「unlike someone — characteristic」的用法，與本句語境不同。",
-        "like-mcq-23": "「對某人外貌所作的圖像、雕像或其他視覺再現」是「likeness — representation」的用法，與本句語境不同。",
-        "like-mcq-27": "「根據現有情況有相當大機會發生的」是「likely」的用法，與本句語境不同。",
-        "like-mcq-22": "「兩個人／事物之間的相似程度或相似特徵」是「likeness — similarity」的用法，與本句語境不同。"
+        "like-mcq-25": "本句的「Unlike」指「與某人／某事物在特徵或情況上不同」。",
+        "like-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "like-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-25"
     },
@@ -2302,11 +2090,9 @@ export default {
       "masked": "It is ____ to be late.",
       "options": [
         "like-mcq-26",
-        "like-mcq-25",
+        "like-mcq-14",
         "like-mcq-27",
-        "like-mcq-24",
-        "like-mcq-28",
-        "like-mcq-23"
+        "like-mcq-08"
       ],
       "explanation": "本句的「unlike her」指「某行為與該人平常性格或習慣不一致」。",
       "sentenceIndex": 53,
@@ -2315,12 +2101,10 @@ export default {
         "unlike her"
       ],
       "optionReasons": {
-        "like-mcq-26": "本句指「某行為與該人平常性格或習慣不一致」。",
-        "like-mcq-25": "「與某人／某事物在特徵或情況上不同」是「unlike」的用法，與本句語境不同。",
-        "like-mcq-27": "「根據現有情況有相當大機會發生的」是「likely」的用法，與本句語境不同。",
-        "like-mcq-24": "「兩個或以上的人／事物彼此相似」是「alike」的用法，與本句語境不同。",
-        "like-mcq-28": "「發生機會較低的」是「unlikely」的用法，與本句語境不同。",
-        "like-mcq-23": "「對某人外貌所作的圖像、雕像或其他視覺再現」是「likeness — representation」的用法，與本句語境不同。"
+        "like-mcq-26": "本句的「unlike her」指「某行為與該人平常性格或習慣不一致」。",
+        "like-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-26"
     },
@@ -2332,11 +2116,9 @@ export default {
       "masked": "That comment was very ____.",
       "options": [
         "like-mcq-26",
-        "like-mcq-25",
-        "like-mcq-27",
-        "like-mcq-24",
-        "like-mcq-28",
-        "like-mcq-23"
+        "like-mcq-06",
+        "like-mcq-07",
+        "like-mcq-13"
       ],
       "explanation": "本句的「unlike him」指「某行為與該人平常性格或習慣不一致」。",
       "sentenceIndex": 54,
@@ -2345,12 +2127,10 @@ export default {
         "unlike him"
       ],
       "optionReasons": {
-        "like-mcq-26": "本句指「某行為與該人平常性格或習慣不一致」。",
-        "like-mcq-25": "「與某人／某事物在特徵或情況上不同」是「unlike」的用法，與本句語境不同。",
-        "like-mcq-27": "「根據現有情況有相當大機會發生的」是「likely」的用法，與本句語境不同。",
-        "like-mcq-24": "「兩個或以上的人／事物彼此相似」是「alike」的用法，與本句語境不同。",
-        "like-mcq-28": "「發生機會較低的」是「unlikely」的用法，與本句語境不同。",
-        "like-mcq-23": "「對某人外貌所作的圖像、雕像或其他視覺再現」是「likeness — representation」的用法，與本句語境不同。"
+        "like-mcq-26": "本句的「unlike him」指「某行為與該人平常性格或習慣不一致」。",
+        "like-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-26"
     },
@@ -2362,11 +2142,9 @@ export default {
       "masked": "Rain is ____ tomorrow.",
       "options": [
         "like-mcq-27",
-        "like-mcq-26",
-        "like-mcq-28",
-        "like-mcq-25",
-        "like-mcq-29",
-        "like-mcq-24"
+        "like-mcq-16",
+        "like-mcq-05",
+        "like-mcq-09"
       ],
       "explanation": "本句的「likely」指「根據現有情況有相當大機會發生的」。",
       "sentenceIndex": 55,
@@ -2375,12 +2153,10 @@ export default {
         "likely"
       ],
       "optionReasons": {
-        "like-mcq-27": "本句指「根據現有情況有相當大機會發生的」。",
-        "like-mcq-26": "「某行為與該人平常性格或習慣不一致」是「unlike someone — characteristic」的用法，與本句語境不同。",
-        "like-mcq-28": "「發生機會較低的」是「unlikely」的用法，與本句語境不同。",
-        "like-mcq-25": "「與某人／某事物在特徵或情況上不同」是「unlike」的用法，與本句語境不同。",
-        "like-mcq-29": "「某件事發生的可能程度／概率」是「likelihood」的用法，與本句語境不同。",
-        "like-mcq-24": "「兩個或以上的人／事物彼此相似」是「alike」的用法，與本句語境不同。"
+        "like-mcq-27": "本句的「likely」指「根據現有情況有相當大機會發生的」。",
+        "like-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-27"
     },
@@ -2392,11 +2168,9 @@ export default {
       "masked": "She is ____ arrive early.",
       "options": [
         "like-mcq-27",
-        "like-mcq-26",
-        "like-mcq-28",
-        "like-mcq-25",
-        "like-mcq-29",
-        "like-mcq-24"
+        "like-mcq-30",
+        "like-mcq-09",
+        "like-pdf-001"
       ],
       "explanation": "本句的「likely to」指「根據現有情況有相當大機會發生的」。",
       "sentenceIndex": 56,
@@ -2405,12 +2179,10 @@ export default {
         "likely to"
       ],
       "optionReasons": {
-        "like-mcq-27": "本句指「根據現有情況有相當大機會發生的」。",
-        "like-mcq-26": "「某行為與該人平常性格或習慣不一致」是「unlike someone — characteristic」的用法，與本句語境不同。",
-        "like-mcq-28": "「發生機會較低的」是「unlikely」的用法，與本句語境不同。",
-        "like-mcq-25": "「與某人／某事物在特徵或情況上不同」是「unlike」的用法，與本句語境不同。",
-        "like-mcq-29": "「某件事發生的可能程度／概率」是「likelihood」的用法，與本句語境不同。",
-        "like-mcq-24": "「兩個或以上的人／事物彼此相似」是「alike」的用法，與本句語境不同。"
+        "like-mcq-27": "本句的「likely to」指「根據現有情況有相當大機會發生的」。",
+        "like-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "like-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-27"
     },
@@ -2422,11 +2194,9 @@ export default {
       "masked": "That outcome is ____.",
       "options": [
         "like-mcq-28",
-        "like-mcq-27",
-        "like-mcq-29",
-        "like-mcq-26",
-        "like-mcq-30",
-        "like-mcq-25"
+        "like-mcq-12",
+        "like-mcq-23",
+        "like-mcq-22"
       ],
       "explanation": "本句的「unlikely」指「發生機會較低的」。",
       "sentenceIndex": 57,
@@ -2435,12 +2205,10 @@ export default {
         "unlikely"
       ],
       "optionReasons": {
-        "like-mcq-28": "本句指「發生機會較低的」。",
-        "like-mcq-27": "「根據現有情況有相當大機會發生的」是「likely」的用法，與本句語境不同。",
-        "like-mcq-29": "「某件事發生的可能程度／概率」是「likelihood」的用法，與本句語境不同。",
-        "like-mcq-26": "「某行為與該人平常性格或習慣不一致」是「unlike someone — characteristic」的用法，與本句語境不同。",
-        "like-mcq-30": "「在觀點、興趣、價值或態度上彼此相近的」是「like-minded」的用法，與本句語境不同。",
-        "like-mcq-25": "「與某人／某事物在特徵或情況上不同」是「unlike」的用法，與本句語境不同。"
+        "like-mcq-28": "本句的「unlikely」指「發生機會較低的」。",
+        "like-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-28"
     },
@@ -2452,11 +2220,9 @@ export default {
       "masked": "She is ____ change her mind.",
       "options": [
         "like-mcq-28",
-        "like-mcq-27",
-        "like-mcq-29",
-        "like-mcq-26",
-        "like-mcq-30",
-        "like-mcq-25"
+        "like-pdf-001",
+        "like-mcq-15",
+        "like-mcq-12"
       ],
       "explanation": "本句的「unlikely to」指「發生機會較低的」。",
       "sentenceIndex": 58,
@@ -2465,12 +2231,10 @@ export default {
         "unlikely to"
       ],
       "optionReasons": {
-        "like-mcq-28": "本句指「發生機會較低的」。",
-        "like-mcq-27": "「根據現有情況有相當大機會發生的」是「likely」的用法，與本句語境不同。",
-        "like-mcq-29": "「某件事發生的可能程度／概率」是「likelihood」的用法，與本句語境不同。",
-        "like-mcq-26": "「某行為與該人平常性格或習慣不一致」是「unlike someone — characteristic」的用法，與本句語境不同。",
-        "like-mcq-30": "「在觀點、興趣、價值或態度上彼此相近的」是「like-minded」的用法，與本句語境不同。",
-        "like-mcq-25": "「與某人／某事物在特徵或情況上不同」是「unlike」的用法，與本句語境不同。"
+        "like-mcq-28": "本句的「unlikely to」指「發生機會較低的」。",
+        "like-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-28"
     },
@@ -2482,11 +2246,9 @@ export default {
       "masked": "There is a high ____ of rain.",
       "options": [
         "like-mcq-29",
-        "like-mcq-28",
-        "like-mcq-30",
-        "like-mcq-27",
-        "like-mcq-31",
-        "like-mcq-26"
+        "like-mcq-20",
+        "like-mcq-17",
+        "like-mcq-24"
       ],
       "explanation": "本句的「likelihood」指「某件事發生的可能程度／概率」。",
       "sentenceIndex": 59,
@@ -2495,12 +2257,10 @@ export default {
         "likelihood"
       ],
       "optionReasons": {
-        "like-mcq-29": "本句指「某件事發生的可能程度／概率」。",
-        "like-mcq-28": "「發生機會較低的」是「unlikely」的用法，與本句語境不同。",
-        "like-mcq-30": "「在觀點、興趣、價值或態度上彼此相近的」是「like-minded」的用法，與本句語境不同。",
-        "like-mcq-27": "「根據現有情況有相當大機會發生的」是「likely」的用法，與本句語境不同。",
-        "like-mcq-31": "「對某人、事物、方法或特質有正面評價」是「10. like = enjoy / approve of（喜愛／認同） — 喜歡；欣賞」的用法，與本句語境不同。",
-        "like-mcq-26": "「某行為與該人平常性格或習慣不一致」是「unlike someone — characteristic」的用法，與本句語境不同。"
+        "like-mcq-29": "本句的「likelihood」指「某件事發生的可能程度／概率」。",
+        "like-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-29"
     },
@@ -2512,11 +2272,9 @@ export default {
       "masked": "The changes reduced the ____ of error.",
       "options": [
         "like-mcq-29",
-        "like-mcq-28",
-        "like-mcq-30",
-        "like-mcq-27",
-        "like-mcq-31",
-        "like-mcq-26"
+        "like-pdf-001",
+        "like-mcq-25",
+        "like-mcq-10"
       ],
       "explanation": "本句的「likelihood」指「某件事發生的可能程度／概率」。",
       "sentenceIndex": 60,
@@ -2525,12 +2283,10 @@ export default {
         "likelihood"
       ],
       "optionReasons": {
-        "like-mcq-29": "本句指「某件事發生的可能程度／概率」。",
-        "like-mcq-28": "「發生機會較低的」是「unlikely」的用法，與本句語境不同。",
-        "like-mcq-30": "「在觀點、興趣、價值或態度上彼此相近的」是「like-minded」的用法，與本句語境不同。",
-        "like-mcq-27": "「根據現有情況有相當大機會發生的」是「likely」的用法，與本句語境不同。",
-        "like-mcq-31": "「對某人、事物、方法或特質有正面評價」是「10. like = enjoy / approve of（喜愛／認同） — 喜歡；欣賞」的用法，與本句語境不同。",
-        "like-mcq-26": "「某行為與該人平常性格或習慣不一致」是「unlike someone — characteristic」的用法，與本句語境不同。"
+        "like-mcq-29": "本句的「likelihood」指「某件事發生的可能程度／概率」。",
+        "like-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-29"
     },
@@ -2542,11 +2298,9 @@ export default {
       "masked": "She enjoys spending time with ____ people.",
       "options": [
         "like-mcq-30",
-        "like-mcq-29",
-        "like-mcq-31",
+        "like-mcq-10",
         "like-mcq-28",
-        "like-mcq-27",
-        "like-mcq-26"
+        "like-mcq-19"
       ],
       "explanation": "本句的「like-minded」指「在觀點、興趣、價值或態度上彼此相近的」。",
       "sentenceIndex": 61,
@@ -2555,12 +2309,10 @@ export default {
         "like-minded"
       ],
       "optionReasons": {
-        "like-mcq-30": "本句指「在觀點、興趣、價值或態度上彼此相近的」。",
-        "like-mcq-29": "「某件事發生的可能程度／概率」是「likelihood」的用法，與本句語境不同。",
-        "like-mcq-31": "「對某人、事物、方法或特質有正面評價」是「10. like = enjoy / approve of（喜愛／認同） — 喜歡；欣賞」的用法，與本句語境不同。",
-        "like-mcq-28": "「發生機會較低的」是「unlikely」的用法，與本句語境不同。",
-        "like-mcq-27": "「根據現有情況有相當大機會發生的」是「likely」的用法，與本句語境不同。",
-        "like-mcq-26": "「某行為與該人平常性格或習慣不一致」是「unlike someone — characteristic」的用法，與本句語境不同。"
+        "like-mcq-30": "本句的「like-minded」指「在觀點、興趣、價值或態度上彼此相近的」。",
+        "like-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-30"
     },
@@ -2572,11 +2324,9 @@ export default {
       "masked": "The group brings together ____ professionals.",
       "options": [
         "like-mcq-30",
-        "like-mcq-29",
-        "like-mcq-31",
-        "like-mcq-28",
         "like-mcq-27",
-        "like-mcq-26"
+        "like-mcq-12",
+        "like-mcq-10"
       ],
       "explanation": "本句的「like-minded」指「在觀點、興趣、價值或態度上彼此相近的」。",
       "sentenceIndex": 62,
@@ -2585,12 +2335,10 @@ export default {
         "like-minded"
       ],
       "optionReasons": {
-        "like-mcq-30": "本句指「在觀點、興趣、價值或態度上彼此相近的」。",
-        "like-mcq-29": "「某件事發生的可能程度／概率」是「likelihood」的用法，與本句語境不同。",
-        "like-mcq-31": "「對某人、事物、方法或特質有正面評價」是「10. like = enjoy / approve of（喜愛／認同） — 喜歡；欣賞」的用法，與本句語境不同。",
-        "like-mcq-28": "「發生機會較低的」是「unlikely」的用法，與本句語境不同。",
-        "like-mcq-27": "「根據現有情況有相當大機會發生的」是「likely」的用法，與本句語境不同。",
-        "like-mcq-26": "「某行為與該人平常性格或習慣不一致」是「unlike someone — characteristic」的用法，與本句語境不同。"
+        "like-mcq-30": "本句的「like-minded」指「在觀點、興趣、價值或態度上彼此相近的」。",
+        "like-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "like-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "like-mcq-30"
     }
@@ -2602,5 +2350,7 @@ export default {
     "sha256": "b9c11d8a64917dd29760ade6b790a2927a06f8345805ca02d391c51eb061cb4c",
     "pages": 24
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

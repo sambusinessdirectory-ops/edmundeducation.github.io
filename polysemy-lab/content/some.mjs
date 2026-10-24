@@ -222,16 +222,6 @@ export default {
       "note": "來源詞義：一段未明確指定長度的時間",
       "examples": [
         [
-          "Some are red, and some are yellow.",
-          "有些是紅色，有些是黃色。",
-          "一段未明確指定長度的時間"
-        ],
-        [
-          "Some people relax by reading; some prefer exercise.",
-          "有些人靠閱讀放鬆；有些人則喜歡運動。",
-          "一段未明確指定長度的時間"
-        ],
-        [
           "I need some time to finish this.",
           "我需要一些時間完成這件事。",
           "一段未明確指定長度的時間"
@@ -398,6 +388,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "some-reviewed-b3090b9182",
+      "title": "把一個群體分成不同未指明部分",
+      "form": "some · source section 10",
+      "en": "把一個群體分成不同未指明部分",
+      "zh": "把一個群體分成不同未指明部分",
+      "note": "對照原始教材第 10 節及例句核實。",
+      "examples": [
+        [
+          "Some are red, and some are yellow.",
+          "有些是紅色，有些是黃色。",
+          "把一個群體分成不同未指明部分"
+        ],
+        [
+          "Some people relax by reading; some prefer exercise.",
+          "有些人靠閱讀放鬆；有些人則喜歡運動。",
+          "把一個群體分成不同未指明部分"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -409,11 +421,9 @@ export default {
       "masked": "She grows ____ on the balcony.",
       "options": [
         "some-mcq-01",
-        "some-mcq-02",
-        "some-mcq-03",
         "some-mcq-04",
-        "some-mcq-05",
-        "some-mcq-06"
+        "some-mcq-08",
+        "some-mcq-12"
       ],
       "explanation": "本句的「some herbs」指「數量未具體指出的若干人／事物；一些／有些」。",
       "sentenceIndex": 0,
@@ -422,12 +432,10 @@ export default {
         "some herbs"
       ],
       "optionReasons": {
-        "some-mcq-01": "本句指「數量未具體指出的若干人／事物；一些／有些」。",
-        "some-mcq-02": "「數量未具體指出的一部分不可數事物」與本句語境不同。",
-        "some-mcq-03": "「已知群體／數量中的一部分，省略後面的名詞」與本句語境不同。",
-        "some-mcq-04": "「某個已限定群體中的一部分」與本句語境不同。",
-        "some-mcq-05": "「某些特定但沒有說明是哪一些的人／事物」與本句語境不同。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。"
+        "some-mcq-01": "本句的「some herbs」指「數量未具體指出的若干人／事物；一些／有些」。",
+        "some-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-01"
     },
@@ -439,11 +447,9 @@ export default {
       "masked": "____ plants need more sunlight.",
       "options": [
         "some-mcq-01",
-        "some-mcq-02",
-        "some-mcq-03",
         "some-mcq-04",
-        "some-mcq-05",
-        "some-mcq-06"
+        "some-mcq-12",
+        "some-mcq-08"
       ],
       "explanation": "本句的「Some」指「數量未具體指出的若干人／事物；一些／有些」。",
       "sentenceIndex": 1,
@@ -452,12 +458,10 @@ export default {
         "Some"
       ],
       "optionReasons": {
-        "some-mcq-01": "本句指「數量未具體指出的若干人／事物；一些／有些」。",
-        "some-mcq-02": "「數量未具體指出的一部分不可數事物」與本句語境不同。",
-        "some-mcq-03": "「已知群體／數量中的一部分，省略後面的名詞」與本句語境不同。",
-        "some-mcq-04": "「某個已限定群體中的一部分」與本句語境不同。",
-        "some-mcq-05": "「某些特定但沒有說明是哪一些的人／事物」與本句語境不同。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。"
+        "some-mcq-01": "本句的「Some」指「數量未具體指出的若干人／事物；一些／有些」。",
+        "some-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-01"
     },
@@ -469,11 +473,9 @@ export default {
       "masked": "Add ____ to the soil.",
       "options": [
         "some-mcq-02",
-        "some-mcq-01",
-        "some-mcq-03",
-        "some-mcq-04",
-        "some-mcq-05",
-        "some-mcq-06"
+        "some-mcq-12",
+        "some-mcq-08",
+        "some-mcq-11"
       ],
       "explanation": "本句的「some water」指「數量未具體指出的一部分不可數事物」。",
       "sentenceIndex": 2,
@@ -482,12 +484,10 @@ export default {
         "some water"
       ],
       "optionReasons": {
-        "some-mcq-02": "本句指「數量未具體指出的一部分不可數事物」。",
-        "some-mcq-01": "「數量未具體指出的若干人／事物；一些／有些」與本句語境不同。",
-        "some-mcq-03": "「已知群體／數量中的一部分，省略後面的名詞」與本句語境不同。",
-        "some-mcq-04": "「某個已限定群體中的一部分」與本句語境不同。",
-        "some-mcq-05": "「某些特定但沒有說明是哪一些的人／事物」與本句語境不同。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。"
+        "some-mcq-02": "本句的「some water」指「數量未具體指出的一部分不可數事物」。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-02"
     },
@@ -499,11 +499,9 @@ export default {
       "masked": "She needs ____ advice.",
       "options": [
         "some-mcq-02",
-        "some-mcq-01",
-        "some-mcq-03",
-        "some-mcq-04",
-        "some-mcq-05",
-        "some-mcq-06"
+        "some-mcq-12",
+        "some-mcq-08",
+        "some-mcq-11"
       ],
       "explanation": "本句的「some」指「數量未具體指出的一部分不可數事物」。",
       "sentenceIndex": 3,
@@ -512,12 +510,10 @@ export default {
         "some"
       ],
       "optionReasons": {
-        "some-mcq-02": "本句指「數量未具體指出的一部分不可數事物」。",
-        "some-mcq-01": "「數量未具體指出的若干人／事物；一些／有些」與本句語境不同。",
-        "some-mcq-03": "「已知群體／數量中的一部分，省略後面的名詞」與本句語境不同。",
-        "some-mcq-04": "「某個已限定群體中的一部分」與本句語境不同。",
-        "some-mcq-05": "「某些特定但沒有說明是哪一些的人／事物」與本句語境不同。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。"
+        "some-mcq-02": "本句的「some」指「數量未具體指出的一部分不可數事物」。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-02"
     },
@@ -529,11 +525,9 @@ export default {
       "masked": "She gives ____ to neighbours.",
       "options": [
         "some-mcq-03",
-        "some-mcq-02",
-        "some-mcq-04",
-        "some-mcq-01",
         "some-mcq-05",
-        "some-mcq-06"
+        "some-mcq-08",
+        "some-mcq-11"
       ],
       "explanation": "本句的「some」指「已知群體／數量中的一部分，省略後面的名詞」。",
       "sentenceIndex": 4,
@@ -542,12 +536,10 @@ export default {
         "some"
       ],
       "optionReasons": {
-        "some-mcq-03": "本句指「已知群體／數量中的一部分，省略後面的名詞」。",
-        "some-mcq-02": "「數量未具體指出的一部分不可數事物」與本句語境不同。",
-        "some-mcq-04": "「某個已限定群體中的一部分」與本句語境不同。",
-        "some-mcq-01": "「數量未具體指出的若干人／事物；一些／有些」與本句語境不同。",
-        "some-mcq-05": "「某些特定但沒有說明是哪一些的人／事物」與本句語境不同。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。"
+        "some-mcq-03": "本句的「some」指「已知群體／數量中的一部分，省略後面的名詞」。",
+        "some-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-03"
     },
@@ -559,11 +551,9 @@ export default {
       "masked": "I bought several lemons and used ____ for the cake.",
       "options": [
         "some-mcq-03",
-        "some-mcq-02",
-        "some-mcq-04",
-        "some-mcq-01",
-        "some-mcq-05",
-        "some-mcq-06"
+        "some-mcq-12",
+        "some-mcq-11",
+        "some-mcq-08"
       ],
       "explanation": "本句的「some」指「已知群體／數量中的一部分，省略後面的名詞」。",
       "sentenceIndex": 5,
@@ -572,12 +562,10 @@ export default {
         "some"
       ],
       "optionReasons": {
-        "some-mcq-03": "本句指「已知群體／數量中的一部分，省略後面的名詞」。",
-        "some-mcq-02": "「數量未具體指出的一部分不可數事物」與本句語境不同。",
-        "some-mcq-04": "「某個已限定群體中的一部分」與本句語境不同。",
-        "some-mcq-01": "「數量未具體指出的若干人／事物；一些／有些」與本句語境不同。",
-        "some-mcq-05": "「某些特定但沒有說明是哪一些的人／事物」與本句語境不同。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。"
+        "some-mcq-03": "本句的「some」指「已知群體／數量中的一部分，省略後面的名詞」。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-03"
     },
@@ -589,11 +577,9 @@ export default {
       "masked": "____ were ripe, but others were still green.",
       "options": [
         "some-mcq-03",
-        "some-mcq-02",
-        "some-mcq-04",
-        "some-mcq-01",
         "some-mcq-05",
-        "some-mcq-06"
+        "some-mcq-11",
+        "some-mcq-08"
       ],
       "explanation": "本句的「Some」指「已知群體／數量中的一部分，省略後面的名詞」。",
       "sentenceIndex": 6,
@@ -602,12 +588,10 @@ export default {
         "Some"
       ],
       "optionReasons": {
-        "some-mcq-03": "本句指「已知群體／數量中的一部分，省略後面的名詞」。",
-        "some-mcq-02": "「數量未具體指出的一部分不可數事物」與本句語境不同。",
-        "some-mcq-04": "「某個已限定群體中的一部分」與本句語境不同。",
-        "some-mcq-01": "「數量未具體指出的若干人／事物；一些／有些」與本句語境不同。",
-        "some-mcq-05": "「某些特定但沒有說明是哪一些的人／事物」與本句語境不同。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。"
+        "some-mcq-03": "本句的「Some」指「已知群體／數量中的一部分，省略後面的名詞」。",
+        "some-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-03"
     },
@@ -619,11 +603,9 @@ export default {
       "masked": "____ need more shade.",
       "options": [
         "some-mcq-04",
-        "some-mcq-03",
-        "some-mcq-05",
-        "some-mcq-02",
-        "some-mcq-06",
-        "some-mcq-01"
+        "some-mcq-16",
+        "some-mcq-12",
+        "some-mcq-13"
       ],
       "explanation": "本句的「Some of these plants」指「某個已限定群體中的一部分」。",
       "sentenceIndex": 7,
@@ -632,12 +614,10 @@ export default {
         "Some of these plants"
       ],
       "optionReasons": {
-        "some-mcq-04": "本句指「某個已限定群體中的一部分」。",
-        "some-mcq-03": "「已知群體／數量中的一部分，省略後面的名詞」與本句語境不同。",
-        "some-mcq-05": "「某些特定但沒有說明是哪一些的人／事物」與本句語境不同。",
-        "some-mcq-02": "「數量未具體指出的一部分不可數事物」與本句語境不同。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。",
-        "some-mcq-01": "「數量未具體指出的若干人／事物；一些／有些」與本句語境不同。"
+        "some-mcq-04": "本句的「Some of these plants」指「某個已限定群體中的一部分」。",
+        "some-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-04"
     },
@@ -649,11 +629,9 @@ export default {
       "masked": "____ of my friends grow herbs.",
       "options": [
         "some-mcq-04",
-        "some-mcq-03",
-        "some-mcq-05",
-        "some-mcq-02",
-        "some-mcq-06",
-        "some-mcq-01"
+        "some-mcq-12",
+        "some-mcq-08",
+        "some-mcq-13"
       ],
       "explanation": "本句的「Some」指「某個已限定群體中的一部分」。",
       "sentenceIndex": 8,
@@ -662,12 +640,10 @@ export default {
         "Some"
       ],
       "optionReasons": {
-        "some-mcq-04": "本句指「某個已限定群體中的一部分」。",
-        "some-mcq-03": "「已知群體／數量中的一部分，省略後面的名詞」與本句語境不同。",
-        "some-mcq-05": "「某些特定但沒有說明是哪一些的人／事物」與本句語境不同。",
-        "some-mcq-02": "「數量未具體指出的一部分不可數事物」與本句語境不同。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。",
-        "some-mcq-01": "「數量未具體指出的若干人／事物；一些／有些」與本句語境不同。"
+        "some-mcq-04": "本句的「Some」指「某個已限定群體中的一部分」。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-04"
     },
@@ -679,11 +655,9 @@ export default {
       "masked": "____ of them are ready.",
       "options": [
         "some-mcq-04",
-        "some-mcq-03",
-        "some-mcq-05",
-        "some-mcq-02",
         "some-mcq-06",
-        "some-mcq-01"
+        "some-mcq-16",
+        "some-mcq-08"
       ],
       "explanation": "本句的「Some」指「某個已限定群體中的一部分」。",
       "sentenceIndex": 9,
@@ -692,12 +666,10 @@ export default {
         "Some"
       ],
       "optionReasons": {
-        "some-mcq-04": "本句指「某個已限定群體中的一部分」。",
-        "some-mcq-03": "「已知群體／數量中的一部分，省略後面的名詞」與本句語境不同。",
-        "some-mcq-05": "「某些特定但沒有說明是哪一些的人／事物」與本句語境不同。",
-        "some-mcq-02": "「數量未具體指出的一部分不可數事物」與本句語境不同。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。",
-        "some-mcq-01": "「數量未具體指出的若干人／事物；一些／有些」與本句語境不同。"
+        "some-mcq-04": "本句的「Some」指「某個已限定群體中的一部分」。",
+        "some-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-04"
     },
@@ -709,11 +681,9 @@ export default {
       "masked": "____ prefer growing vegetables to flowers.",
       "options": [
         "some-mcq-05",
-        "some-mcq-04",
-        "some-mcq-06",
-        "some-mcq-03",
-        "some-mcq-07",
-        "some-mcq-02"
+        "some-mcq-02",
+        "some-mcq-08",
+        "some-mcq-11"
       ],
       "explanation": "本句的「Some people」指「某些特定但沒有說明是哪一些的人／事物」。",
       "sentenceIndex": 10,
@@ -722,12 +692,10 @@ export default {
         "Some people"
       ],
       "optionReasons": {
-        "some-mcq-05": "本句指「某些特定但沒有說明是哪一些的人／事物」。",
-        "some-mcq-04": "「某個已限定群體中的一部分」與本句語境不同。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。",
-        "some-mcq-03": "「已知群體／數量中的一部分，省略後面的名詞」與本句語境不同。",
-        "some-mcq-07": "「大約某個數量；約……」與本句語境不同。",
-        "some-mcq-02": "「數量未具體指出的一部分不可數事物」與本句語境不同。"
+        "some-mcq-05": "本句的「Some people」指「某些特定但沒有說明是哪一些的人／事物」。",
+        "some-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-05"
     },
@@ -739,11 +707,9 @@ export default {
       "masked": "____ varieties grow better in cooler weather.",
       "options": [
         "some-mcq-05",
-        "some-mcq-04",
         "some-mcq-06",
         "some-mcq-03",
-        "some-mcq-07",
-        "some-mcq-02"
+        "some-mcq-08"
       ],
       "explanation": "本句的「Some」指「某些特定但沒有說明是哪一些的人／事物」。",
       "sentenceIndex": 11,
@@ -752,12 +718,10 @@ export default {
         "Some"
       ],
       "optionReasons": {
-        "some-mcq-05": "本句指「某些特定但沒有說明是哪一些的人／事物」。",
-        "some-mcq-04": "「某個已限定群體中的一部分」與本句語境不同。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。",
-        "some-mcq-03": "「已知群體／數量中的一部分，省略後面的名詞」與本句語境不同。",
-        "some-mcq-07": "「大約某個數量；約……」與本句語境不同。",
-        "some-mcq-02": "「數量未具體指出的一部分不可數事物」與本句語境不同。"
+        "some-mcq-05": "本句的「Some」指「某些特定但沒有說明是哪一些的人／事物」。",
+        "some-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-05"
     },
@@ -769,11 +733,9 @@ export default {
       "masked": "____ called while you were out.",
       "options": [
         "some-mcq-06",
-        "some-mcq-05",
-        "some-mcq-07",
-        "some-mcq-04",
-        "some-mcq-08",
-        "some-mcq-03"
+        "some-mcq-12",
+        "some-mcq-16",
+        "some-mcq-04"
       ],
       "explanation": "本句的「Some man」指「某一個身份未知、不重要或未指出的人／事物」。",
       "sentenceIndex": 12,
@@ -782,12 +744,10 @@ export default {
         "Some man"
       ],
       "optionReasons": {
-        "some-mcq-06": "本句指「某一個身份未知、不重要或未指出的人／事物」。",
-        "some-mcq-05": "「某些特定但沒有說明是哪一些的人／事物」與本句語境不同。",
-        "some-mcq-07": "「大約某個數量；約……」與本句語境不同。",
-        "some-mcq-04": "「某個已限定群體中的一部分」與本句語境不同。",
-        "some-mcq-08": "「非同一般、相當突出或令人印象深刻的」與本句語境不同。",
-        "some-mcq-03": "「已知群體／數量中的一部分，省略後面的名詞」與本句語境不同。"
+        "some-mcq-06": "本句的「Some man」指「某一個身份未知、不重要或未指出的人／事物」。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-06"
     },
@@ -799,11 +759,9 @@ export default {
       "masked": "She heard the idea from ____ gardening website.",
       "options": [
         "some-mcq-06",
-        "some-mcq-05",
-        "some-mcq-07",
         "some-mcq-04",
-        "some-mcq-08",
-        "some-mcq-03"
+        "some-mcq-12",
+        "some-mcq-07"
       ],
       "explanation": "本句的「some」指「某一個身份未知、不重要或未指出的人／事物」。",
       "sentenceIndex": 13,
@@ -812,12 +770,10 @@ export default {
         "some"
       ],
       "optionReasons": {
-        "some-mcq-06": "本句指「某一個身份未知、不重要或未指出的人／事物」。",
-        "some-mcq-05": "「某些特定但沒有說明是哪一些的人／事物」與本句語境不同。",
-        "some-mcq-07": "「大約某個數量；約……」與本句語境不同。",
-        "some-mcq-04": "「某個已限定群體中的一部分」與本句語境不同。",
-        "some-mcq-08": "「非同一般、相當突出或令人印象深刻的」與本句語境不同。",
-        "some-mcq-03": "「已知群體／數量中的一部分，省略後面的名詞」與本句語境不同。"
+        "some-mcq-06": "本句的「some」指「某一個身份未知、不重要或未指出的人／事物」。",
+        "some-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-06"
     },
@@ -829,11 +785,9 @@ export default {
       "masked": "The garden contains ____ of plants.",
       "options": [
         "some-mcq-07",
-        "some-mcq-06",
-        "some-mcq-08",
-        "some-mcq-05",
-        "some-mcq-09",
-        "some-mcq-04"
+        "some-mcq-15",
+        "some-mcq-04",
+        "some-mcq-08"
       ],
       "explanation": "本句的「some 30 species」指「大約某個數量；約……」。",
       "sentenceIndex": 14,
@@ -842,12 +796,10 @@ export default {
         "some 30 species"
       ],
       "optionReasons": {
-        "some-mcq-07": "本句指「大約某個數量；約……」。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。",
-        "some-mcq-08": "「非同一般、相當突出或令人印象深刻的」與本句語境不同。",
-        "some-mcq-05": "「某些特定但沒有說明是哪一些的人／事物」與本句語境不同。",
-        "some-mcq-09": "「將群體分為「一些……其他的……」」與本句語境不同。",
-        "some-mcq-04": "「某個已限定群體中的一部分」與本句語境不同。"
+        "some-mcq-07": "本句的「some 30 species」指「大約某個數量；約……」。",
+        "some-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-07"
     },
@@ -859,11 +811,9 @@ export default {
       "masked": "The project took ____ six months to complete.",
       "options": [
         "some-mcq-07",
-        "some-mcq-06",
-        "some-mcq-08",
         "some-mcq-05",
-        "some-mcq-09",
-        "some-mcq-04"
+        "some-mcq-06",
+        "some-mcq-08"
       ],
       "explanation": "本句的「some」指「大約某個數量；約……」。",
       "sentenceIndex": 15,
@@ -872,12 +822,10 @@ export default {
         "some"
       ],
       "optionReasons": {
-        "some-mcq-07": "本句指「大約某個數量；約……」。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。",
-        "some-mcq-08": "「非同一般、相當突出或令人印象深刻的」與本句語境不同。",
-        "some-mcq-05": "「某些特定但沒有說明是哪一些的人／事物」與本句語境不同。",
-        "some-mcq-09": "「將群體分為「一些……其他的……」」與本句語境不同。",
-        "some-mcq-04": "「某個已限定群體中的一部分」與本句語境不同。"
+        "some-mcq-07": "本句的「some」指「大約某個數量；約……」。",
+        "some-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-07"
     },
@@ -889,11 +837,9 @@ export default {
       "masked": "That was ____!",
       "options": [
         "some-mcq-08",
-        "some-mcq-07",
+        "some-mcq-12",
         "some-mcq-09",
-        "some-mcq-06",
-        "some-mcq-10",
-        "some-mcq-05"
+        "some-mcq-10"
       ],
       "explanation": "本句的「some garden」指「非同一般、相當突出或令人印象深刻的」。",
       "sentenceIndex": 16,
@@ -902,12 +848,10 @@ export default {
         "some garden"
       ],
       "optionReasons": {
-        "some-mcq-08": "本句指「非同一般、相當突出或令人印象深刻的」。",
-        "some-mcq-07": "「大約某個數量；約……」與本句語境不同。",
-        "some-mcq-09": "「將群體分為「一些……其他的……」」與本句語境不同。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。",
-        "some-mcq-10": "「一段未明確指定長度的時間」與本句語境不同。",
-        "some-mcq-05": "「某些特定但沒有說明是哪一些的人／事物」與本句語境不同。"
+        "some-mcq-08": "本句的「some garden」指「非同一般、相當突出或令人印象深刻的」。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-08"
     },
@@ -919,11 +863,9 @@ export default {
       "masked": "She is ____ gardener.",
       "options": [
         "some-mcq-08",
-        "some-mcq-07",
-        "some-mcq-09",
-        "some-mcq-06",
-        "some-mcq-10",
-        "some-mcq-05"
+        "some-mcq-04",
+        "some-mcq-16",
+        "some-mcq-11"
       ],
       "explanation": "本句的「some」指「非同一般、相當突出或令人印象深刻的」。",
       "sentenceIndex": 17,
@@ -932,12 +874,10 @@ export default {
         "some"
       ],
       "optionReasons": {
-        "some-mcq-08": "本句指「非同一般、相當突出或令人印象深刻的」。",
-        "some-mcq-07": "「大約某個數量；約……」與本句語境不同。",
-        "some-mcq-09": "「將群體分為「一些……其他的……」」與本句語境不同。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。",
-        "some-mcq-10": "「一段未明確指定長度的時間」與本句語境不同。",
-        "some-mcq-05": "「某些特定但沒有說明是哪一些的人／事物」與本句語境不同。"
+        "some-mcq-08": "本句的「some」指「非同一般、相當突出或令人印象深刻的」。",
+        "some-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-08"
     },
@@ -949,11 +889,9 @@ export default {
       "masked": "____ need full sun; others prefer shade.",
       "options": [
         "some-mcq-09",
-        "some-mcq-08",
-        "some-mcq-10",
-        "some-mcq-07",
         "some-mcq-11",
-        "some-mcq-06"
+        "some-mcq-08",
+        "some-mcq-17"
       ],
       "explanation": "本句的「Some plants」指「將群體分為「一些……其他的……」」。",
       "sentenceIndex": 18,
@@ -962,12 +900,10 @@ export default {
         "Some plants"
       ],
       "optionReasons": {
-        "some-mcq-09": "本句指「將群體分為「一些……其他的……」」。",
-        "some-mcq-08": "「非同一般、相當突出或令人印象深刻的」與本句語境不同。",
-        "some-mcq-10": "「一段未明確指定長度的時間」與本句語境不同。",
-        "some-mcq-07": "「大約某個數量；約……」與本句語境不同。",
-        "some-mcq-11": "「某個未明確指定的時間」與本句語境不同。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。"
+        "some-mcq-09": "本句的「Some plants」指「將群體分為「一些……其他的……」」。",
+        "some-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-09"
     },
@@ -979,11 +915,9 @@ export default {
       "masked": "____ students agreed, while others disagreed.",
       "options": [
         "some-mcq-09",
-        "some-mcq-08",
         "some-mcq-10",
-        "some-mcq-07",
-        "some-mcq-11",
-        "some-mcq-06"
+        "some-mcq-06",
+        "some-mcq-08"
       ],
       "explanation": "本句的「Some」指「將群體分為「一些……其他的……」」。",
       "sentenceIndex": 19,
@@ -992,74 +926,68 @@ export default {
         "Some"
       ],
       "optionReasons": {
-        "some-mcq-09": "本句指「將群體分為「一些……其他的……」」。",
-        "some-mcq-08": "「非同一般、相當突出或令人印象深刻的」與本句語境不同。",
-        "some-mcq-10": "「一段未明確指定長度的時間」與本句語境不同。",
-        "some-mcq-07": "「大約某個數量；約……」與本句語境不同。",
-        "some-mcq-11": "「某個未明確指定的時間」與本句語境不同。",
-        "some-mcq-06": "「某一個身份未知、不重要或未指出的人／事物」與本句語境不同。"
+        "some-mcq-09": "本句的「Some」指「將群體分為「一些……其他的……」」。",
+        "some-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-09"
     },
     {
       "id": "some-10-0",
-      "sense": "some-mcq-10",
+      "sense": "some-reviewed-b3090b9182",
       "en": "Some are red, and some are yellow.",
       "zh": "有些是紅色，有些是黃色。",
       "masked": "____ are red, and some are yellow.",
       "options": [
-        "some-mcq-10",
-        "some-mcq-09",
-        "some-mcq-11",
-        "some-mcq-08",
+        "some-reviewed-b3090b9182",
+        "some-mcq-07",
         "some-mcq-12",
-        "some-mcq-07"
+        "some-mcq-08"
       ],
-      "explanation": "本句的「Some」指「一段未明確指定長度的時間」。",
+      "explanation": "對照完整句子：「有些是紅色，有些是黃色。」。這裡的「Some」表示「把一個群體分成不同未指明部分」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "Some"
       ],
       "optionReasons": {
-        "some-mcq-10": "本句指「一段未明確指定長度的時間」。",
-        "some-mcq-09": "「將群體分為「一些……其他的……」」與本句語境不同。",
-        "some-mcq-11": "「某個未明確指定的時間」與本句語境不同。",
-        "some-mcq-08": "「非同一般、相當突出或令人印象深刻的」與本句語境不同。",
-        "some-mcq-12": "「在某些時候，但不是總是；有時候」與本句語境不同。",
-        "some-mcq-07": "「大約某個數量；約……」與本句語境不同。"
+        "some-reviewed-b3090b9182": "對照完整句子：「有些是紅色，有些是黃色。」。這裡的「Some」表示「把一個群體分成不同未指明部分」。",
+        "some-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "some-mcq-10"
+      "correctOption": "some-reviewed-b3090b9182",
+      "previousCorrectOption": "some-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "some-10-1",
-      "sense": "some-mcq-10",
+      "sense": "some-reviewed-b3090b9182",
       "en": "Some people relax by reading; some prefer exercise.",
       "zh": "有些人靠閱讀放鬆；有些人則喜歡運動。",
       "masked": "____ people relax by reading; some prefer exercise.",
       "options": [
-        "some-mcq-10",
-        "some-mcq-09",
-        "some-mcq-11",
-        "some-mcq-08",
+        "some-reviewed-b3090b9182",
         "some-mcq-12",
-        "some-mcq-07"
+        "some-mcq-07",
+        "some-mcq-08"
       ],
-      "explanation": "本句的「Some」指「一段未明確指定長度的時間」。",
+      "explanation": "對照完整句子：「有些人靠閱讀放鬆；有些人則喜歡運動。」。這裡的「Some」表示「把一個群體分成不同未指明部分」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "Some"
       ],
       "optionReasons": {
-        "some-mcq-10": "本句指「一段未明確指定長度的時間」。",
-        "some-mcq-09": "「將群體分為「一些……其他的……」」與本句語境不同。",
-        "some-mcq-11": "「某個未明確指定的時間」與本句語境不同。",
-        "some-mcq-08": "「非同一般、相當突出或令人印象深刻的」與本句語境不同。",
-        "some-mcq-12": "「在某些時候，但不是總是；有時候」與本句語境不同。",
-        "some-mcq-07": "「大約某個數量；約……」與本句語境不同。"
+        "some-reviewed-b3090b9182": "對照完整句子：「有些人靠閱讀放鬆；有些人則喜歡運動。」。這裡的「Some」表示「把一個群體分成不同未指明部分」。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "some-mcq-10"
+      "correctOption": "some-reviewed-b3090b9182",
+      "previousCorrectOption": "some-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "some-11-0",
@@ -1070,10 +998,8 @@ export default {
       "options": [
         "some-mcq-10",
         "some-mcq-09",
-        "some-mcq-11",
         "some-mcq-08",
-        "some-mcq-12",
-        "some-mcq-07"
+        "some-mcq-12"
       ],
       "explanation": "本句的「some time」指「一段未明確指定長度的時間」。",
       "sentenceIndex": 22,
@@ -1082,12 +1008,10 @@ export default {
         "some time"
       ],
       "optionReasons": {
-        "some-mcq-10": "本句指「一段未明確指定長度的時間」。",
-        "some-mcq-09": "「將群體分為「一些……其他的……」」與本句語境不同。",
-        "some-mcq-11": "「某個未明確指定的時間」與本句語境不同。",
-        "some-mcq-08": "「非同一般、相當突出或令人印象深刻的」與本句語境不同。",
-        "some-mcq-12": "「在某些時候，但不是總是；有時候」與本句語境不同。",
-        "some-mcq-07": "「大約某個數量；約……」與本句語境不同。"
+        "some-mcq-10": "本句的「some time」指「一段未明確指定長度的時間」。",
+        "some-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-10"
     },
@@ -1099,11 +1023,9 @@ export default {
       "masked": "Give the plants ____ time to recover.",
       "options": [
         "some-mcq-10",
-        "some-mcq-09",
-        "some-mcq-11",
         "some-mcq-08",
-        "some-mcq-12",
-        "some-mcq-07"
+        "some-mcq-09",
+        "some-mcq-12"
       ],
       "explanation": "本句的「some」指「一段未明確指定長度的時間」。",
       "sentenceIndex": 23,
@@ -1112,12 +1034,10 @@ export default {
         "some"
       ],
       "optionReasons": {
-        "some-mcq-10": "本句指「一段未明確指定長度的時間」。",
-        "some-mcq-09": "「將群體分為「一些……其他的……」」與本句語境不同。",
-        "some-mcq-11": "「某個未明確指定的時間」與本句語境不同。",
-        "some-mcq-08": "「非同一般、相當突出或令人印象深刻的」與本句語境不同。",
-        "some-mcq-12": "「在某些時候，但不是總是；有時候」與本句語境不同。",
-        "some-mcq-07": "「大約某個數量；約……」與本句語境不同。"
+        "some-mcq-10": "本句的「some」指「一段未明確指定長度的時間」。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-10"
     },
@@ -1129,11 +1049,9 @@ export default {
       "masked": "Let’s visit the garden ____.",
       "options": [
         "some-mcq-11",
-        "some-mcq-10",
-        "some-mcq-12",
         "some-mcq-09",
-        "some-mcq-13",
-        "some-mcq-08"
+        "some-mcq-08",
+        "some-mcq-17"
       ],
       "explanation": "本句的「sometime」指「某個未明確指定的時間」。",
       "sentenceIndex": 24,
@@ -1142,12 +1060,10 @@ export default {
         "sometime"
       ],
       "optionReasons": {
-        "some-mcq-11": "本句指「某個未明確指定的時間」。",
-        "some-mcq-10": "「一段未明確指定長度的時間」與本句語境不同。",
-        "some-mcq-12": "「在某些時候，但不是總是；有時候」與本句語境不同。",
-        "some-mcq-09": "「將群體分為「一些……其他的……」」與本句語境不同。",
-        "some-mcq-13": "「身份未知或未指出的某個人」與本句語境不同。",
-        "some-mcq-08": "「非同一般、相當突出或令人印象深刻的」與本句語境不同。"
+        "some-mcq-11": "本句的「sometime」指「某個未明確指定的時間」。",
+        "some-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-11"
     },
@@ -1159,10 +1075,8 @@ export default {
       "masked": "I met her ____ last year.",
       "options": [
         "some-mcq-11",
-        "some-mcq-10",
-        "some-mcq-12",
+        "some-mcq-16",
         "some-mcq-09",
-        "some-mcq-13",
         "some-mcq-08"
       ],
       "explanation": "本句的「sometime」指「某個未明確指定的時間」。",
@@ -1172,12 +1086,10 @@ export default {
         "sometime"
       ],
       "optionReasons": {
-        "some-mcq-11": "本句指「某個未明確指定的時間」。",
-        "some-mcq-10": "「一段未明確指定長度的時間」與本句語境不同。",
-        "some-mcq-12": "「在某些時候，但不是總是；有時候」與本句語境不同。",
-        "some-mcq-09": "「將群體分為「一些……其他的……」」與本句語境不同。",
-        "some-mcq-13": "「身份未知或未指出的某個人」與本句語境不同。",
-        "some-mcq-08": "「非同一般、相當突出或令人印象深刻的」與本句語境不同。"
+        "some-mcq-11": "本句的「sometime」指「某個未明確指定的時間」。",
+        "some-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-11"
     },
@@ -1189,11 +1101,9 @@ export default {
       "masked": "I ____ water the plants in the evening.",
       "options": [
         "some-mcq-12",
-        "some-mcq-11",
-        "some-mcq-13",
-        "some-mcq-10",
-        "some-mcq-14",
-        "some-mcq-09"
+        "some-reviewed-b3090b9182",
+        "some-mcq-07",
+        "some-mcq-08"
       ],
       "explanation": "本句的「sometimes」指「在某些時候，但不是總是；有時候」。",
       "sentenceIndex": 26,
@@ -1202,12 +1112,10 @@ export default {
         "sometimes"
       ],
       "optionReasons": {
-        "some-mcq-12": "本句指「在某些時候，但不是總是；有時候」。",
-        "some-mcq-11": "「某個未明確指定的時間」與本句語境不同。",
-        "some-mcq-13": "「身份未知或未指出的某個人」與本句語境不同。",
-        "some-mcq-10": "「一段未明確指定長度的時間」與本句語境不同。",
-        "some-mcq-14": "「未具體說明的某物／某件事」與本句語境不同。",
-        "some-mcq-09": "「將群體分為「一些……其他的……」」與本句語境不同。"
+        "some-mcq-12": "本句的「sometimes」指「在某些時候，但不是總是；有時候」。",
+        "some-reviewed-b3090b9182": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-12"
     },
@@ -1219,11 +1127,9 @@ export default {
       "masked": "____ the weather changes quickly.",
       "options": [
         "some-mcq-12",
-        "some-mcq-11",
-        "some-mcq-13",
-        "some-mcq-10",
-        "some-mcq-14",
-        "some-mcq-09"
+        "some-mcq-15",
+        "some-mcq-16",
+        "some-mcq-13"
       ],
       "explanation": "本句的「Sometimes」指「在某些時候，但不是總是；有時候」。",
       "sentenceIndex": 27,
@@ -1232,12 +1138,10 @@ export default {
         "Sometimes"
       ],
       "optionReasons": {
-        "some-mcq-12": "本句指「在某些時候，但不是總是；有時候」。",
-        "some-mcq-11": "「某個未明確指定的時間」與本句語境不同。",
-        "some-mcq-13": "「身份未知或未指出的某個人」與本句語境不同。",
-        "some-mcq-10": "「一段未明確指定長度的時間」與本句語境不同。",
-        "some-mcq-14": "「未具體說明的某物／某件事」與本句語境不同。",
-        "some-mcq-09": "「將群體分為「一些……其他的……」」與本句語境不同。"
+        "some-mcq-12": "本句的「Sometimes」指「在某些時候，但不是總是；有時候」。",
+        "some-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-12"
     },
@@ -1249,11 +1153,9 @@ export default {
       "masked": "Put the pot ____.",
       "options": [
         "some-mcq-15",
-        "some-mcq-14",
-        "some-mcq-16",
-        "some-mcq-13",
-        "some-mcq-17",
-        "some-mcq-12"
+        "some-mcq-08",
+        "some-mcq-12",
+        "some-mcq-07"
       ],
       "explanation": "本句的「somewhere sunny」指「未具體說明的某個地方」。",
       "sentenceIndex": 28,
@@ -1262,12 +1164,10 @@ export default {
         "somewhere sunny"
       ],
       "optionReasons": {
-        "some-mcq-15": "本句指「未具體說明的某個地方」。",
-        "some-mcq-14": "「未具體說明的某物／某件事」與本句語境不同。",
-        "some-mcq-16": "「約莫、大約某個數量」與本句語境不同。",
-        "some-mcq-13": "「身份未知或未指出的某個人」與本句語境不同。",
-        "some-mcq-17": "「比已提到的數量／程度還要更多」與本句語境不同。",
-        "some-mcq-12": "「在某些時候，但不是總是；有時候」與本句語境不同。"
+        "some-mcq-15": "本句的「somewhere sunny」指「未具體說明的某個地方」。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-15"
     },
@@ -1279,10 +1179,8 @@ export default {
       "masked": "I left my keys ____ in the kitchen.",
       "options": [
         "some-mcq-15",
-        "some-mcq-14",
+        "some-mcq-08",
         "some-mcq-16",
-        "some-mcq-13",
-        "some-mcq-17",
         "some-mcq-12"
       ],
       "explanation": "本句的「somewhere」指「未具體說明的某個地方」。",
@@ -1292,12 +1190,10 @@ export default {
         "somewhere"
       ],
       "optionReasons": {
-        "some-mcq-15": "本句指「未具體說明的某個地方」。",
-        "some-mcq-14": "「未具體說明的某物／某件事」與本句語境不同。",
-        "some-mcq-16": "「約莫、大約某個數量」與本句語境不同。",
-        "some-mcq-13": "「身份未知或未指出的某個人」與本句語境不同。",
-        "some-mcq-17": "「比已提到的數量／程度還要更多」與本句語境不同。",
-        "some-mcq-12": "「在某些時候，但不是總是；有時候」與本句語境不同。"
+        "some-mcq-15": "本句的「somewhere」指「未具體說明的某個地方」。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-15"
     },
@@ -1309,11 +1205,9 @@ export default {
       "masked": "____ is at the door.",
       "options": [
         "some-mcq-13",
-        "some-mcq-12",
-        "some-mcq-14",
-        "some-mcq-11",
-        "some-mcq-15",
-        "some-mcq-10"
+        "some-mcq-04",
+        "some-mcq-17",
+        "some-mcq-12"
       ],
       "explanation": "本句的「Someone」指「身份未知或未指出的某個人」。",
       "sentenceIndex": 30,
@@ -1322,12 +1216,10 @@ export default {
         "Someone"
       ],
       "optionReasons": {
-        "some-mcq-13": "本句指「身份未知或未指出的某個人」。",
-        "some-mcq-12": "「在某些時候，但不是總是；有時候」與本句語境不同。",
-        "some-mcq-14": "「未具體說明的某物／某件事」與本句語境不同。",
-        "some-mcq-11": "「某個未明確指定的時間」與本句語境不同。",
-        "some-mcq-15": "「未具體說明的某個地方」與本句語境不同。",
-        "some-mcq-10": "「一段未明確指定長度的時間」與本句語境不同。"
+        "some-mcq-13": "本句的「Someone」指「身份未知或未指出的某個人」。",
+        "some-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-13"
     },
@@ -1339,11 +1231,9 @@ export default {
       "masked": "She gave the flowers to ____ nearby.",
       "options": [
         "some-mcq-13",
+        "some-mcq-07",
         "some-mcq-12",
-        "some-mcq-14",
-        "some-mcq-11",
-        "some-mcq-15",
-        "some-mcq-10"
+        "some-mcq-04"
       ],
       "explanation": "本句的「somebody」指「身份未知或未指出的某個人」。",
       "sentenceIndex": 31,
@@ -1352,12 +1242,10 @@ export default {
         "somebody"
       ],
       "optionReasons": {
-        "some-mcq-13": "本句指「身份未知或未指出的某個人」。",
-        "some-mcq-12": "「在某些時候，但不是總是；有時候」與本句語境不同。",
-        "some-mcq-14": "「未具體說明的某物／某件事」與本句語境不同。",
-        "some-mcq-11": "「某個未明確指定的時間」與本句語境不同。",
-        "some-mcq-15": "「未具體說明的某個地方」與本句語境不同。",
-        "some-mcq-10": "「一段未明確指定長度的時間」與本句語境不同。"
+        "some-mcq-13": "本句的「somebody」指「身份未知或未指出的某個人」。",
+        "some-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-13"
     },
@@ -1369,11 +1257,9 @@ export default {
       "masked": "There is ____ wrong with the plant.",
       "options": [
         "some-mcq-14",
-        "some-mcq-13",
-        "some-mcq-15",
-        "some-mcq-12",
         "some-mcq-16",
-        "some-mcq-11"
+        "some-mcq-12",
+        "some-mcq-08"
       ],
       "explanation": "本句的「something」指「未具體說明的某物／某件事」。",
       "sentenceIndex": 32,
@@ -1382,12 +1268,10 @@ export default {
         "something"
       ],
       "optionReasons": {
-        "some-mcq-14": "本句指「未具體說明的某物／某件事」。",
-        "some-mcq-13": "「身份未知或未指出的某個人」與本句語境不同。",
-        "some-mcq-15": "「未具體說明的某個地方」與本句語境不同。",
-        "some-mcq-12": "「在某些時候，但不是總是；有時候」與本句語境不同。",
-        "some-mcq-16": "「約莫、大約某個數量」與本句語境不同。",
-        "some-mcq-11": "「某個未明確指定的時間」與本句語境不同。"
+        "some-mcq-14": "本句的「something」指「未具體說明的某物／某件事」。",
+        "some-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-14"
     },
@@ -1399,11 +1283,9 @@ export default {
       "masked": "She wants to grow ____ different.",
       "options": [
         "some-mcq-14",
-        "some-mcq-13",
-        "some-mcq-15",
+        "some-mcq-08",
         "some-mcq-12",
-        "some-mcq-16",
-        "some-mcq-11"
+        "some-mcq-16"
       ],
       "explanation": "本句的「something」指「未具體說明的某物／某件事」。",
       "sentenceIndex": 33,
@@ -1412,12 +1294,10 @@ export default {
         "something"
       ],
       "optionReasons": {
-        "some-mcq-14": "本句指「未具體說明的某物／某件事」。",
-        "some-mcq-13": "「身份未知或未指出的某個人」與本句語境不同。",
-        "some-mcq-15": "「未具體說明的某個地方」與本句語境不同。",
-        "some-mcq-12": "「在某些時候，但不是總是；有時候」與本句語境不同。",
-        "some-mcq-16": "「約莫、大約某個數量」與本句語境不同。",
-        "some-mcq-11": "「某個未明確指定的時間」與本句語境不同。"
+        "some-mcq-14": "本句的「something」指「未具體說明的某物／某件事」。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-14"
     },
@@ -1429,11 +1309,9 @@ export default {
       "masked": "There were ____ on the roof.",
       "options": [
         "some-mcq-16",
-        "some-mcq-15",
-        "some-mcq-17",
-        "some-mcq-14",
-        "some-mcq-13",
-        "some-mcq-12"
+        "some-mcq-11",
+        "some-mcq-05",
+        "some-mcq-08"
       ],
       "explanation": "本句的「something like twenty plants」指「約莫、大約某個數量」。",
       "sentenceIndex": 34,
@@ -1442,12 +1320,10 @@ export default {
         "something like twenty plants"
       ],
       "optionReasons": {
-        "some-mcq-16": "本句指「約莫、大約某個數量」。",
-        "some-mcq-15": "「未具體說明的某個地方」與本句語境不同。",
-        "some-mcq-17": "「比已提到的數量／程度還要更多」與本句語境不同。",
-        "some-mcq-14": "「未具體說明的某物／某件事」與本句語境不同。",
-        "some-mcq-13": "「身份未知或未指出的某個人」與本句語境不同。",
-        "some-mcq-12": "「在某些時候，但不是總是；有時候」與本句語境不同。"
+        "some-mcq-16": "本句的「something like twenty plants」指「約莫、大約某個數量」。",
+        "some-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-16"
     },
@@ -1459,10 +1335,8 @@ export default {
       "masked": "It took ____ like an hour.",
       "options": [
         "some-mcq-16",
-        "some-mcq-15",
-        "some-mcq-17",
         "some-mcq-14",
-        "some-mcq-13",
+        "some-mcq-04",
         "some-mcq-12"
       ],
       "explanation": "本句的「something」指「約莫、大約某個數量」。",
@@ -1472,12 +1346,10 @@ export default {
         "something"
       ],
       "optionReasons": {
-        "some-mcq-16": "本句指「約莫、大約某個數量」。",
-        "some-mcq-15": "「未具體說明的某個地方」與本句語境不同。",
-        "some-mcq-17": "「比已提到的數量／程度還要更多」與本句語境不同。",
-        "some-mcq-14": "「未具體說明的某物／某件事」與本句語境不同。",
-        "some-mcq-13": "「身份未知或未指出的某個人」與本句語境不同。",
-        "some-mcq-12": "「在某些時候，但不是總是；有時候」與本句語境不同。"
+        "some-mcq-16": "本句的「something」指「約莫、大約某個數量」。",
+        "some-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-16"
     },
@@ -1489,11 +1361,9 @@ export default {
       "masked": "The repair cost a thousand dollars ____.",
       "options": [
         "some-mcq-17",
-        "some-mcq-16",
-        "some-mcq-15",
         "some-mcq-14",
-        "some-mcq-13",
-        "some-mcq-12"
+        "some-mcq-12",
+        "some-mcq-13"
       ],
       "explanation": "本句的「and then some」指「比已提到的數量／程度還要更多」。",
       "sentenceIndex": 36,
@@ -1502,12 +1372,10 @@ export default {
         "and then some"
       ],
       "optionReasons": {
-        "some-mcq-17": "本句指「比已提到的數量／程度還要更多」。",
-        "some-mcq-16": "「約莫、大約某個數量」與本句語境不同。",
-        "some-mcq-15": "「未具體說明的某個地方」與本句語境不同。",
-        "some-mcq-14": "「未具體說明的某物／某件事」與本句語境不同。",
-        "some-mcq-13": "「身份未知或未指出的某個人」與本句語境不同。",
-        "some-mcq-12": "「在某些時候，但不是總是；有時候」與本句語境不同。"
+        "some-mcq-17": "本句的「and then some」指「比已提到的數量／程度還要更多」。",
+        "some-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-17"
     },
@@ -1519,11 +1387,9 @@ export default {
       "masked": "She grew enough vegetables for the family and then ____.",
       "options": [
         "some-mcq-17",
-        "some-mcq-16",
-        "some-mcq-15",
         "some-mcq-14",
         "some-mcq-13",
-        "some-mcq-12"
+        "some-mcq-08"
       ],
       "explanation": "本句的「some」指「比已提到的數量／程度還要更多」。",
       "sentenceIndex": 37,
@@ -1532,12 +1398,10 @@ export default {
         "some"
       ],
       "optionReasons": {
-        "some-mcq-17": "本句指「比已提到的數量／程度還要更多」。",
-        "some-mcq-16": "「約莫、大約某個數量」與本句語境不同。",
-        "some-mcq-15": "「未具體說明的某個地方」與本句語境不同。",
-        "some-mcq-14": "「未具體說明的某物／某件事」與本句語境不同。",
-        "some-mcq-13": "「身份未知或未指出的某個人」與本句語境不同。",
-        "some-mcq-12": "「在某些時候，但不是總是；有時候」與本句語境不同。"
+        "some-mcq-17": "本句的「some」指「比已提到的數量／程度還要更多」。",
+        "some-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "some-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "some-mcq-17"
     }
@@ -1549,5 +1413,7 @@ export default {
     "sha256": "ed08906af868895ceb4672fa9a9d1f113d015e59a1226c5c29fd7ec336130941",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

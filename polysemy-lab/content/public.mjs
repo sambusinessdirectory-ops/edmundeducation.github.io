@@ -866,11 +866,9 @@ export default {
       "masked": "____ had always made me nervous.",
       "options": [
         "public-mcq-02",
-        "public-mcq-01",
-        "public-mcq-03",
-        "public-mcq-04",
-        "public-mcq-05",
-        "public-mcq-06"
+        "public-mcq-10",
+        "public-mcq-15",
+        "public-mcq-25"
       ],
       "explanation": "本句的「Public speaking」指「在其他人可看到、聽到、出席或知道的情況下公開進行的」。",
       "sentenceIndex": 0,
@@ -879,12 +877,10 @@ export default {
         "Public speaking"
       ],
       "optionReasons": {
-        "public-mcq-02": "本句指「在其他人可看到、聽到、出席或知道的情況下公開進行的」。",
-        "public-mcq-01": "「在觀眾／一群人面前公開發言或演講，而不是私下交談」是「public speaking」的用法，與本句語境不同。",
-        "public-mcq-03": "「在其他人可以看見或聽見的場合，而不是私下」是「in public」的用法，與本句語境不同。",
-        "public-mcq-04": "「一般人可以進入、使用、參與或接觸的，而不是私人限定的」是「public — open access」的用法，與本句語境不同。",
-        "public-mcq-05": "「一般人可以進入或使用的公共場所」是「public place」的用法，與本句語境不同。",
-        "public-mcq-06": "「社會中的一般人／大眾，而不是特定內部或專業群體」是「the public」的用法，與本句語境不同。"
+        "public-mcq-02": "本句的「Public speaking」指「在其他人可看到、聽到、出席或知道的情況下公開進行的」。",
+        "public-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-02"
     },
@@ -896,11 +892,9 @@ export default {
       "masked": "The debate was held in a ____.",
       "options": [
         "public-mcq-02",
-        "public-mcq-01",
-        "public-mcq-03",
-        "public-mcq-04",
-        "public-mcq-05",
-        "public-mcq-06"
+        "public-mcq-09",
+        "public-mcq-25",
+        "public-mcq-14"
       ],
       "explanation": "本句的「public forum」指「在其他人可看到、聽到、出席或知道的情況下公開進行的」。",
       "sentenceIndex": 1,
@@ -909,12 +903,10 @@ export default {
         "public forum"
       ],
       "optionReasons": {
-        "public-mcq-02": "本句指「在其他人可看到、聽到、出席或知道的情況下公開進行的」。",
-        "public-mcq-01": "「在觀眾／一群人面前公開發言或演講，而不是私下交談」是「public speaking」的用法，與本句語境不同。",
-        "public-mcq-03": "「在其他人可以看見或聽見的場合，而不是私下」是「in public」的用法，與本句語境不同。",
-        "public-mcq-04": "「一般人可以進入、使用、參與或接觸的，而不是私人限定的」是「public — open access」的用法，與本句語境不同。",
-        "public-mcq-05": "「一般人可以進入或使用的公共場所」是「public place」的用法，與本句語境不同。",
-        "public-mcq-06": "「社會中的一般人／大眾，而不是特定內部或專業群體」是「the public」的用法，與本句語境不同。"
+        "public-mcq-02": "本句的「public forum」指「在其他人可看到、聽到、出席或知道的情況下公開進行的」。",
+        "public-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-02"
     },
@@ -926,11 +918,9 @@ export default {
       "masked": "She made a ____ about the issue.",
       "options": [
         "public-mcq-02",
-        "public-mcq-01",
-        "public-mcq-03",
-        "public-mcq-04",
-        "public-mcq-05",
-        "public-mcq-06"
+        "public-mcq-10",
+        "public-mcq-15",
+        "public-mcq-36"
       ],
       "explanation": "本句的「public statement」指「在其他人可看到、聽到、出席或知道的情況下公開進行的」。",
       "sentenceIndex": 2,
@@ -939,12 +929,10 @@ export default {
         "public statement"
       ],
       "optionReasons": {
-        "public-mcq-02": "本句指「在其他人可看到、聽到、出席或知道的情況下公開進行的」。",
-        "public-mcq-01": "「在觀眾／一群人面前公開發言或演講，而不是私下交談」是「public speaking」的用法，與本句語境不同。",
-        "public-mcq-03": "「在其他人可以看見或聽見的場合，而不是私下」是「in public」的用法，與本句語境不同。",
-        "public-mcq-04": "「一般人可以進入、使用、參與或接觸的，而不是私人限定的」是「public — open access」的用法，與本句語境不同。",
-        "public-mcq-05": "「一般人可以進入或使用的公共場所」是「public place」的用法，與本句語境不同。",
-        "public-mcq-06": "「社會中的一般人／大眾，而不是特定內部或專業群體」是「the public」的用法，與本句語境不同。"
+        "public-mcq-02": "本句的「public statement」指「在其他人可看到、聽到、出席或知道的情況下公開進行的」。",
+        "public-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-02"
     },
@@ -956,11 +944,9 @@ export default {
       "masked": "I used to hate speaking ____.",
       "options": [
         "public-mcq-03",
-        "public-mcq-02",
-        "public-mcq-04",
-        "public-mcq-01",
-        "public-mcq-05",
-        "public-mcq-06"
+        "public-mcq-25",
+        "public-pdf-001",
+        "public-mcq-17"
       ],
       "explanation": "本句的「in public」指「在其他人可以看見或聽見的場合，而不是私下」。",
       "sentenceIndex": 3,
@@ -969,12 +955,10 @@ export default {
         "in public"
       ],
       "optionReasons": {
-        "public-mcq-03": "本句指「在其他人可以看見或聽見的場合，而不是私下」。",
-        "public-mcq-02": "「在其他人可看到、聽到、出席或知道的情況下公開進行的」是「public + activity/event」的用法，與本句語境不同。",
-        "public-mcq-04": "「一般人可以進入、使用、參與或接觸的，而不是私人限定的」是「public — open access」的用法，與本句語境不同。",
-        "public-mcq-01": "「在觀眾／一群人面前公開發言或演講，而不是私下交談」是「public speaking」的用法，與本句語境不同。",
-        "public-mcq-05": "「一般人可以進入或使用的公共場所」是「public place」的用法，與本句語境不同。",
-        "public-mcq-06": "「社會中的一般人／大眾，而不是特定內部或專業群體」是「the public」的用法，與本句語境不同。"
+        "public-mcq-03": "本句的「in public」指「在其他人可以看見或聽見的場合，而不是私下」。",
+        "public-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "public-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-03"
     },
@@ -986,11 +970,9 @@ export default {
       "masked": "He rarely shows emotion ____.",
       "options": [
         "public-mcq-03",
-        "public-mcq-02",
-        "public-mcq-04",
-        "public-mcq-01",
-        "public-mcq-05",
-        "public-mcq-06"
+        "public-mcq-10",
+        "public-mcq-36",
+        "public-mcq-31"
       ],
       "explanation": "本句的「in public」指「在其他人可以看見或聽見的場合，而不是私下」。",
       "sentenceIndex": 4,
@@ -999,12 +981,10 @@ export default {
         "in public"
       ],
       "optionReasons": {
-        "public-mcq-03": "本句指「在其他人可以看見或聽見的場合，而不是私下」。",
-        "public-mcq-02": "「在其他人可看到、聽到、出席或知道的情況下公開進行的」是「public + activity/event」的用法，與本句語境不同。",
-        "public-mcq-04": "「一般人可以進入、使用、參與或接觸的，而不是私人限定的」是「public — open access」的用法，與本句語境不同。",
-        "public-mcq-01": "「在觀眾／一群人面前公開發言或演講，而不是私下交談」是「public speaking」的用法，與本句語境不同。",
-        "public-mcq-05": "「一般人可以進入或使用的公共場所」是「public place」的用法，與本句語境不同。",
-        "public-mcq-06": "「社會中的一般人／大眾，而不是特定內部或專業群體」是「the public」的用法，與本句語境不同。"
+        "public-mcq-03": "本句的「in public」指「在其他人可以看見或聽見的場合，而不是私下」。",
+        "public-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-03"
     },
@@ -1016,11 +996,9 @@ export default {
       "masked": "The exhibition is open to the ____.",
       "options": [
         "public-mcq-04",
-        "public-mcq-03",
-        "public-mcq-05",
-        "public-mcq-02",
-        "public-mcq-06",
-        "public-mcq-01"
+        "public-mcq-08",
+        "public-mcq-25",
+        "public-mcq-36"
       ],
       "explanation": "本句的「public」指「一般人可以進入、使用、參與或接觸的，而不是私人限定的」。",
       "sentenceIndex": 5,
@@ -1029,12 +1007,10 @@ export default {
         "public"
       ],
       "optionReasons": {
-        "public-mcq-04": "本句指「一般人可以進入、使用、參與或接觸的，而不是私人限定的」。",
-        "public-mcq-03": "「在其他人可以看見或聽見的場合，而不是私下」是「in public」的用法，與本句語境不同。",
-        "public-mcq-05": "「一般人可以進入或使用的公共場所」是「public place」的用法，與本句語境不同。",
-        "public-mcq-02": "「在其他人可看到、聽到、出席或知道的情況下公開進行的」是「public + activity/event」的用法，與本句語境不同。",
-        "public-mcq-06": "「社會中的一般人／大眾，而不是特定內部或專業群體」是「the public」的用法，與本句語境不同。",
-        "public-mcq-01": "「在觀眾／一群人面前公開發言或演講，而不是私下交談」是「public speaking」的用法，與本句語境不同。"
+        "public-mcq-04": "本句的「public」指「一般人可以進入、使用、參與或接觸的，而不是私人限定的」。",
+        "public-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-04"
     },
@@ -1046,11 +1022,9 @@ export default {
       "masked": "This is a ____.",
       "options": [
         "public-mcq-04",
-        "public-mcq-03",
-        "public-mcq-05",
-        "public-mcq-02",
-        "public-mcq-06",
-        "public-mcq-01"
+        "public-mcq-17",
+        "public-mcq-35",
+        "public-mcq-31"
       ],
       "explanation": "本句的「public park」指「一般人可以進入、使用、參與或接觸的，而不是私人限定的」。",
       "sentenceIndex": 6,
@@ -1059,12 +1033,10 @@ export default {
         "public park"
       ],
       "optionReasons": {
-        "public-mcq-04": "本句指「一般人可以進入、使用、參與或接觸的，而不是私人限定的」。",
-        "public-mcq-03": "「在其他人可以看見或聽見的場合，而不是私下」是「in public」的用法，與本句語境不同。",
-        "public-mcq-05": "「一般人可以進入或使用的公共場所」是「public place」的用法，與本句語境不同。",
-        "public-mcq-02": "「在其他人可看到、聽到、出席或知道的情況下公開進行的」是「public + activity/event」的用法，與本句語境不同。",
-        "public-mcq-06": "「社會中的一般人／大眾，而不是特定內部或專業群體」是「the public」的用法，與本句語境不同。",
-        "public-mcq-01": "「在觀眾／一群人面前公開發言或演講，而不是私下交談」是「public speaking」的用法，與本句語境不同。"
+        "public-mcq-04": "本句的「public park」指「一般人可以進入、使用、參與或接觸的，而不是私人限定的」。",
+        "public-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-04"
     },
@@ -1076,11 +1048,9 @@ export default {
       "masked": "Smoking is not allowed in many ____.",
       "options": [
         "public-mcq-05",
-        "public-mcq-04",
-        "public-mcq-06",
-        "public-mcq-03",
-        "public-mcq-07",
-        "public-mcq-02"
+        "public-mcq-08",
+        "public-mcq-15",
+        "public-mcq-25"
       ],
       "explanation": "本句的「public places」指「一般人可以進入或使用的公共場所」。",
       "sentenceIndex": 7,
@@ -1089,12 +1059,10 @@ export default {
         "public places"
       ],
       "optionReasons": {
-        "public-mcq-05": "本句指「一般人可以進入或使用的公共場所」。",
-        "public-mcq-04": "「一般人可以進入、使用、參與或接觸的，而不是私人限定的」是「public — open access」的用法，與本句語境不同。",
-        "public-mcq-06": "「社會中的一般人／大眾，而不是特定內部或專業群體」是「the public」的用法，與本句語境不同。",
-        "public-mcq-03": "「在其他人可以看見或聽見的場合，而不是私下」是「in public」的用法，與本句語境不同。",
-        "public-mcq-07": "「一般社會大眾中的個別人士」是「members of the public」的用法，與本句語境不同。",
-        "public-mcq-02": "「在其他人可看到、聽到、出席或知道的情況下公開進行的」是「public + activity/event」的用法，與本句語境不同。"
+        "public-mcq-05": "本句的「public places」指「一般人可以進入或使用的公共場所」。",
+        "public-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-05"
     },
@@ -1106,11 +1074,9 @@ export default {
       "masked": "Avoid discussing confidential information in a ____.",
       "options": [
         "public-mcq-05",
-        "public-mcq-04",
-        "public-mcq-06",
+        "public-mcq-24",
         "public-mcq-03",
-        "public-mcq-07",
-        "public-mcq-02"
+        "public-mcq-15"
       ],
       "explanation": "本句的「public place」指「一般人可以進入或使用的公共場所」。",
       "sentenceIndex": 8,
@@ -1119,12 +1085,10 @@ export default {
         "public place"
       ],
       "optionReasons": {
-        "public-mcq-05": "本句指「一般人可以進入或使用的公共場所」。",
-        "public-mcq-04": "「一般人可以進入、使用、參與或接觸的，而不是私人限定的」是「public — open access」的用法，與本句語境不同。",
-        "public-mcq-06": "「社會中的一般人／大眾，而不是特定內部或專業群體」是「the public」的用法，與本句語境不同。",
-        "public-mcq-03": "「在其他人可以看見或聽見的場合，而不是私下」是「in public」的用法，與本句語境不同。",
-        "public-mcq-07": "「一般社會大眾中的個別人士」是「members of the public」的用法，與本句語境不同。",
-        "public-mcq-02": "「在其他人可看到、聽到、出席或知道的情況下公開進行的」是「public + activity/event」的用法，與本句語境不同。"
+        "public-mcq-05": "本句的「public place」指「一般人可以進入或使用的公共場所」。",
+        "public-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-05"
     },
@@ -1136,11 +1100,9 @@ export default {
       "masked": "The museum is popular with the ____.",
       "options": [
         "public-mcq-06",
-        "public-mcq-05",
-        "public-mcq-07",
-        "public-mcq-04",
-        "public-mcq-08",
-        "public-mcq-03"
+        "public-mcq-36",
+        "public-mcq-27",
+        "public-mcq-26"
       ],
       "explanation": "本句的「public」指「社會中的一般人／大眾，而不是特定內部或專業群體」。",
       "sentenceIndex": 9,
@@ -1149,12 +1111,10 @@ export default {
         "public"
       ],
       "optionReasons": {
-        "public-mcq-06": "本句指「社會中的一般人／大眾，而不是特定內部或專業群體」。",
-        "public-mcq-05": "「一般人可以進入或使用的公共場所」是「public place」的用法，與本句語境不同。",
-        "public-mcq-07": "「一般社會大眾中的個別人士」是「members of the public」的用法，與本句語境不同。",
-        "public-mcq-04": "「一般人可以進入、使用、參與或接觸的，而不是私人限定的」是「public — open access」的用法，與本句語境不同。",
-        "public-mcq-08": "「社會大眾對某個問題、人物或事情的整體看法」是「public opinion」的用法，與本句語境不同。",
-        "public-mcq-03": "「在其他人可以看見或聽見的場合，而不是私下」是「in public」的用法，與本句語境不同。"
+        "public-mcq-06": "本句的「public」指「社會中的一般人／大眾，而不是特定內部或專業群體」。",
+        "public-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-06"
     },
@@ -1166,11 +1126,9 @@ export default {
       "masked": "The information was released to the ____.",
       "options": [
         "public-mcq-06",
-        "public-mcq-05",
-        "public-mcq-07",
-        "public-mcq-04",
-        "public-mcq-08",
-        "public-mcq-03"
+        "public-mcq-36",
+        "public-mcq-26",
+        "public-mcq-27"
       ],
       "explanation": "本句的「public」指「社會中的一般人／大眾，而不是特定內部或專業群體」。",
       "sentenceIndex": 10,
@@ -1179,12 +1137,10 @@ export default {
         "public"
       ],
       "optionReasons": {
-        "public-mcq-06": "本句指「社會中的一般人／大眾，而不是特定內部或專業群體」。",
-        "public-mcq-05": "「一般人可以進入或使用的公共場所」是「public place」的用法，與本句語境不同。",
-        "public-mcq-07": "「一般社會大眾中的個別人士」是「members of the public」的用法，與本句語境不同。",
-        "public-mcq-04": "「一般人可以進入、使用、參與或接觸的，而不是私人限定的」是「public — open access」的用法，與本句語境不同。",
-        "public-mcq-08": "「社會大眾對某個問題、人物或事情的整體看法」是「public opinion」的用法，與本句語境不同。",
-        "public-mcq-03": "「在其他人可以看見或聽見的場合，而不是私下」是「in public」的用法，與本句語境不同。"
+        "public-mcq-06": "本句的「public」指「社會中的一般人／大眾，而不是特定內部或專業群體」。",
+        "public-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-06"
     },
@@ -1196,11 +1152,9 @@ export default {
       "masked": "Members of the ____ may attend the meeting.",
       "options": [
         "public-mcq-07",
-        "public-mcq-06",
-        "public-mcq-08",
-        "public-mcq-05",
-        "public-mcq-09",
-        "public-mcq-04"
+        "public-mcq-36",
+        "public-mcq-26",
+        "public-mcq-15"
       ],
       "explanation": "本句的「public」指「一般社會大眾中的個別人士」。",
       "sentenceIndex": 11,
@@ -1209,12 +1163,10 @@ export default {
         "public"
       ],
       "optionReasons": {
-        "public-mcq-07": "本句指「一般社會大眾中的個別人士」。",
-        "public-mcq-06": "「社會中的一般人／大眾，而不是特定內部或專業群體」是「the public」的用法，與本句語境不同。",
-        "public-mcq-08": "「社會大眾對某個問題、人物或事情的整體看法」是「public opinion」的用法，與本句語境不同。",
-        "public-mcq-05": "「一般人可以進入或使用的公共場所」是「public place」的用法，與本句語境不同。",
-        "public-mcq-09": "「對社會大眾整體福祉、權益或需要有重要影響的利益」是「public interest」的用法，與本句語境不同。",
-        "public-mcq-04": "「一般人可以進入、使用、參與或接觸的，而不是私人限定的」是「public — open access」的用法，與本句語境不同。"
+        "public-mcq-07": "本句的「public」指「一般社會大眾中的個別人士」。",
+        "public-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-07"
     },
@@ -1226,11 +1178,9 @@ export default {
       "masked": "Several members of the ____ complained.",
       "options": [
         "public-mcq-07",
-        "public-mcq-06",
-        "public-mcq-08",
-        "public-mcq-05",
-        "public-mcq-09",
-        "public-mcq-04"
+        "public-mcq-15",
+        "public-mcq-26",
+        "public-mcq-36"
       ],
       "explanation": "本句的「public」指「一般社會大眾中的個別人士」。",
       "sentenceIndex": 12,
@@ -1239,12 +1189,10 @@ export default {
         "public"
       ],
       "optionReasons": {
-        "public-mcq-07": "本句指「一般社會大眾中的個別人士」。",
-        "public-mcq-06": "「社會中的一般人／大眾，而不是特定內部或專業群體」是「the public」的用法，與本句語境不同。",
-        "public-mcq-08": "「社會大眾對某個問題、人物或事情的整體看法」是「public opinion」的用法，與本句語境不同。",
-        "public-mcq-05": "「一般人可以進入或使用的公共場所」是「public place」的用法，與本句語境不同。",
-        "public-mcq-09": "「對社會大眾整體福祉、權益或需要有重要影響的利益」是「public interest」的用法，與本句語境不同。",
-        "public-mcq-04": "「一般人可以進入、使用、參與或接觸的，而不是私人限定的」是「public — open access」的用法，與本句語境不同。"
+        "public-mcq-07": "本句的「public」指「一般社會大眾中的個別人士」。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-07"
     },
@@ -1256,11 +1204,9 @@ export default {
       "masked": "The decision was influenced by ____.",
       "options": [
         "public-mcq-08",
-        "public-mcq-07",
-        "public-mcq-09",
-        "public-mcq-06",
-        "public-mcq-10",
-        "public-mcq-05"
+        "public-mcq-04",
+        "public-mcq-26",
+        "public-mcq-15"
       ],
       "explanation": "本句的「public opinion」指「社會大眾對某個問題、人物或事情的整體看法」。",
       "sentenceIndex": 13,
@@ -1269,12 +1215,10 @@ export default {
         "public opinion"
       ],
       "optionReasons": {
-        "public-mcq-08": "本句指「社會大眾對某個問題、人物或事情的整體看法」。",
-        "public-mcq-07": "「一般社會大眾中的個別人士」是「members of the public」的用法，與本句語境不同。",
-        "public-mcq-09": "「對社會大眾整體福祉、權益或需要有重要影響的利益」是「public interest」的用法，與本句語境不同。",
-        "public-mcq-06": "「社會中的一般人／大眾，而不是特定內部或專業群體」是「the public」的用法，與本句語境不同。",
-        "public-mcq-10": "「社會大眾普遍關注或擔憂的事情」是「public concern」的用法，與本句語境不同。",
-        "public-mcq-05": "「一般人可以進入或使用的公共場所」是「public place」的用法，與本句語境不同。"
+        "public-mcq-08": "本句的「public opinion」指「社會大眾對某個問題、人物或事情的整體看法」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-08"
     },
@@ -1286,11 +1230,9 @@ export default {
       "masked": "The survey measures ____ on the issue.",
       "options": [
         "public-mcq-08",
-        "public-mcq-07",
-        "public-mcq-09",
-        "public-mcq-06",
-        "public-mcq-10",
-        "public-mcq-05"
+        "public-mcq-26",
+        "public-mcq-15",
+        "public-mcq-04"
       ],
       "explanation": "本句的「public opinion」指「社會大眾對某個問題、人物或事情的整體看法」。",
       "sentenceIndex": 14,
@@ -1299,12 +1241,10 @@ export default {
         "public opinion"
       ],
       "optionReasons": {
-        "public-mcq-08": "本句指「社會大眾對某個問題、人物或事情的整體看法」。",
-        "public-mcq-07": "「一般社會大眾中的個別人士」是「members of the public」的用法，與本句語境不同。",
-        "public-mcq-09": "「對社會大眾整體福祉、權益或需要有重要影響的利益」是「public interest」的用法，與本句語境不同。",
-        "public-mcq-06": "「社會中的一般人／大眾，而不是特定內部或專業群體」是「the public」的用法，與本句語境不同。",
-        "public-mcq-10": "「社會大眾普遍關注或擔憂的事情」是「public concern」的用法，與本句語境不同。",
-        "public-mcq-05": "「一般人可以進入或使用的公共場所」是「public place」的用法，與本句語境不同。"
+        "public-mcq-08": "本句的「public opinion」指「社會大眾對某個問題、人物或事情的整體看法」。",
+        "public-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-08"
     },
@@ -1316,11 +1256,9 @@ export default {
       "masked": "The decision should serve the ____.",
       "options": [
         "public-mcq-09",
-        "public-mcq-08",
-        "public-mcq-10",
-        "public-mcq-07",
-        "public-mcq-11",
-        "public-mcq-06"
+        "public-pdf-002",
+        "public-mcq-04",
+        "public-mcq-15"
       ],
       "explanation": "本句的「public interest」指「對社會大眾整體福祉、權益或需要有重要影響的利益」。",
       "sentenceIndex": 15,
@@ -1329,12 +1267,10 @@ export default {
         "public interest"
       ],
       "optionReasons": {
-        "public-mcq-09": "本句指「對社會大眾整體福祉、權益或需要有重要影響的利益」。",
-        "public-mcq-08": "「社會大眾對某個問題、人物或事情的整體看法」是「public opinion」的用法，與本句語境不同。",
-        "public-mcq-10": "「社會大眾普遍關注或擔憂的事情」是「public concern」的用法，與本句語境不同。",
-        "public-mcq-07": "「一般社會大眾中的個別人士」是「members of the public」的用法，與本句語境不同。",
-        "public-mcq-11": "「由政府／公共機構提供、管理或資助，服務社會大眾的」是「public — government/institutional」的用法，與本句語境不同。",
-        "public-mcq-06": "「社會中的一般人／大眾，而不是特定內部或專業群體」是「the public」的用法，與本句語境不同。"
+        "public-mcq-09": "本句的「public interest」指「對社會大眾整體福祉、權益或需要有重要影響的利益」。",
+        "public-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-09"
     },
@@ -1346,11 +1282,9 @@ export default {
       "masked": "The information was published because it was in the ____.",
       "options": [
         "public-mcq-09",
-        "public-mcq-08",
-        "public-mcq-10",
-        "public-mcq-07",
-        "public-mcq-11",
-        "public-mcq-06"
+        "public-mcq-36",
+        "public-mcq-02",
+        "public-mcq-04"
       ],
       "explanation": "本句的「public interest」指「對社會大眾整體福祉、權益或需要有重要影響的利益」。",
       "sentenceIndex": 16,
@@ -1359,12 +1293,10 @@ export default {
         "public interest"
       ],
       "optionReasons": {
-        "public-mcq-09": "本句指「對社會大眾整體福祉、權益或需要有重要影響的利益」。",
-        "public-mcq-08": "「社會大眾對某個問題、人物或事情的整體看法」是「public opinion」的用法，與本句語境不同。",
-        "public-mcq-10": "「社會大眾普遍關注或擔憂的事情」是「public concern」的用法，與本句語境不同。",
-        "public-mcq-07": "「一般社會大眾中的個別人士」是「members of the public」的用法，與本句語境不同。",
-        "public-mcq-11": "「由政府／公共機構提供、管理或資助，服務社會大眾的」是「public — government/institutional」的用法，與本句語境不同。",
-        "public-mcq-06": "「社會中的一般人／大眾，而不是特定內部或專業群體」是「the public」的用法，與本句語境不同。"
+        "public-mcq-09": "本句的「public interest」指「對社會大眾整體福祉、權益或需要有重要影響的利益」。",
+        "public-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-09"
     },
@@ -1376,11 +1308,9 @@ export default {
       "masked": "The issue has become a matter of ____.",
       "options": [
         "public-mcq-10",
-        "public-mcq-09",
-        "public-mcq-11",
-        "public-mcq-08",
-        "public-mcq-12",
-        "public-mcq-07"
+        "public-pdf-002",
+        "public-mcq-04",
+        "public-mcq-15"
       ],
       "explanation": "本句的「public concern」指「社會大眾普遍關注或擔憂的事情」。",
       "sentenceIndex": 17,
@@ -1389,12 +1319,10 @@ export default {
         "public concern"
       ],
       "optionReasons": {
-        "public-mcq-10": "本句指「社會大眾普遍關注或擔憂的事情」。",
-        "public-mcq-09": "「對社會大眾整體福祉、權益或需要有重要影響的利益」是「public interest」的用法，與本句語境不同。",
-        "public-mcq-11": "「由政府／公共機構提供、管理或資助，服務社會大眾的」是「public — government/institutional」的用法，與本句語境不同。",
-        "public-mcq-08": "「社會大眾對某個問題、人物或事情的整體看法」是「public opinion」的用法，與本句語境不同。",
-        "public-mcq-12": "「由政府或公共機構擁有、管理或資助的經濟／就業部門」是「public sector」的用法，與本句語境不同。",
-        "public-mcq-07": "「一般社會大眾中的個別人士」是「members of the public」的用法，與本句語境不同。"
+        "public-mcq-10": "本句的「public concern」指「社會大眾普遍關注或擔憂的事情」。",
+        "public-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-10"
     },
@@ -1406,11 +1334,9 @@ export default {
       "masked": "There is growing ____ about data privacy.",
       "options": [
         "public-mcq-10",
-        "public-mcq-09",
-        "public-mcq-11",
-        "public-mcq-08",
-        "public-mcq-12",
-        "public-mcq-07"
+        "public-mcq-35",
+        "public-mcq-15",
+        "public-mcq-26"
       ],
       "explanation": "本句的「public concern」指「社會大眾普遍關注或擔憂的事情」。",
       "sentenceIndex": 18,
@@ -1419,12 +1345,10 @@ export default {
         "public concern"
       ],
       "optionReasons": {
-        "public-mcq-10": "本句指「社會大眾普遍關注或擔憂的事情」。",
-        "public-mcq-09": "「對社會大眾整體福祉、權益或需要有重要影響的利益」是「public interest」的用法，與本句語境不同。",
-        "public-mcq-11": "「由政府／公共機構提供、管理或資助，服務社會大眾的」是「public — government/institutional」的用法，與本句語境不同。",
-        "public-mcq-08": "「社會大眾對某個問題、人物或事情的整體看法」是「public opinion」的用法，與本句語境不同。",
-        "public-mcq-12": "「由政府或公共機構擁有、管理或資助的經濟／就業部門」是「public sector」的用法，與本句語境不同。",
-        "public-mcq-07": "「一般社會大眾中的個別人士」是「members of the public」的用法，與本句語境不同。"
+        "public-mcq-10": "本句的「public concern」指「社會大眾普遍關注或擔憂的事情」。",
+        "public-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-10"
     },
@@ -1436,11 +1360,9 @@ export default {
       "masked": "She works in the ____.",
       "options": [
         "public-mcq-11",
-        "public-mcq-10",
-        "public-mcq-12",
-        "public-mcq-09",
-        "public-mcq-13",
-        "public-mcq-08"
+        "public-mcq-04",
+        "public-mcq-15",
+        "public-mcq-27"
       ],
       "explanation": "本句的「public sector」指「由政府／公共機構提供、管理或資助，服務社會大眾的」。",
       "sentenceIndex": 19,
@@ -1449,12 +1371,10 @@ export default {
         "public sector"
       ],
       "optionReasons": {
-        "public-mcq-11": "本句指「由政府／公共機構提供、管理或資助，服務社會大眾的」。",
-        "public-mcq-10": "「社會大眾普遍關注或擔憂的事情」是「public concern」的用法，與本句語境不同。",
-        "public-mcq-12": "「由政府或公共機構擁有、管理或資助的經濟／就業部門」是「public sector」的用法，與本句語境不同。",
-        "public-mcq-09": "「對社會大眾整體福祉、權益或需要有重要影響的利益」是「public interest」的用法，與本句語境不同。",
-        "public-mcq-13": "「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」是「public service」的用法，與本句語境不同。",
-        "public-mcq-08": "「社會大眾對某個問題、人物或事情的整體看法」是「public opinion」的用法，與本句語境不同。"
+        "public-mcq-11": "本句的「public sector」指「由政府／公共機構提供、管理或資助，服務社會大眾的」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-11"
     },
@@ -1466,11 +1386,9 @@ export default {
       "masked": "The government increased funding for ____.",
       "options": [
         "public-mcq-11",
-        "public-mcq-10",
-        "public-mcq-12",
-        "public-mcq-09",
-        "public-mcq-13",
-        "public-mcq-08"
+        "public-mcq-04",
+        "public-mcq-15",
+        "public-mcq-27"
       ],
       "explanation": "本句的「public services」指「由政府／公共機構提供、管理或資助，服務社會大眾的」。",
       "sentenceIndex": 20,
@@ -1479,12 +1397,10 @@ export default {
         "public services"
       ],
       "optionReasons": {
-        "public-mcq-11": "本句指「由政府／公共機構提供、管理或資助，服務社會大眾的」。",
-        "public-mcq-10": "「社會大眾普遍關注或擔憂的事情」是「public concern」的用法，與本句語境不同。",
-        "public-mcq-12": "「由政府或公共機構擁有、管理或資助的經濟／就業部門」是「public sector」的用法，與本句語境不同。",
-        "public-mcq-09": "「對社會大眾整體福祉、權益或需要有重要影響的利益」是「public interest」的用法，與本句語境不同。",
-        "public-mcq-13": "「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」是「public service」的用法，與本句語境不同。",
-        "public-mcq-08": "「社會大眾對某個問題、人物或事情的整體看法」是「public opinion」的用法，與本句語境不同。"
+        "public-mcq-11": "本句的「public services」指「由政府／公共機構提供、管理或資助，服務社會大眾的」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-11"
     },
@@ -1496,11 +1412,9 @@ export default {
       "masked": "Many graduates choose careers in the ____.",
       "options": [
         "public-mcq-12",
-        "public-mcq-11",
-        "public-mcq-13",
-        "public-mcq-10",
-        "public-mcq-14",
-        "public-mcq-09"
+        "public-mcq-29",
+        "public-mcq-04",
+        "public-mcq-30"
       ],
       "explanation": "本句的「public sector」指「由政府或公共機構擁有、管理或資助的經濟／就業部門」。",
       "sentenceIndex": 21,
@@ -1509,12 +1423,10 @@ export default {
         "public sector"
       ],
       "optionReasons": {
-        "public-mcq-12": "本句指「由政府或公共機構擁有、管理或資助的經濟／就業部門」。",
-        "public-mcq-11": "「由政府／公共機構提供、管理或資助，服務社會大眾的」是「public — government/institutional」的用法，與本句語境不同。",
-        "public-mcq-13": "「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」是「public service」的用法，與本句語境不同。",
-        "public-mcq-10": "「社會大眾普遍關注或擔憂的事情」是「public concern」的用法，與本句語境不同。",
-        "public-mcq-14": "「供一般市民共同使用的公共交通服務」是「public transport」的用法，與本句語境不同。",
-        "public-mcq-09": "「對社會大眾整體福祉、權益或需要有重要影響的利益」是「public interest」的用法，與本句語境不同。"
+        "public-mcq-12": "本句的「public sector」指「由政府或公共機構擁有、管理或資助的經濟／就業部門」。",
+        "public-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-12"
     },
@@ -1526,11 +1438,9 @@ export default {
       "masked": "The reforms affected both the private and ____.",
       "options": [
         "public-mcq-12",
-        "public-mcq-11",
-        "public-mcq-13",
         "public-mcq-10",
-        "public-mcq-14",
-        "public-mcq-09"
+        "public-mcq-04",
+        "public-mcq-27"
       ],
       "explanation": "本句的「public sectors」指「由政府或公共機構擁有、管理或資助的經濟／就業部門」。",
       "sentenceIndex": 22,
@@ -1539,12 +1449,10 @@ export default {
         "public sectors"
       ],
       "optionReasons": {
-        "public-mcq-12": "本句指「由政府或公共機構擁有、管理或資助的經濟／就業部門」。",
-        "public-mcq-11": "「由政府／公共機構提供、管理或資助，服務社會大眾的」是「public — government/institutional」的用法，與本句語境不同。",
-        "public-mcq-13": "「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」是「public service」的用法，與本句語境不同。",
-        "public-mcq-10": "「社會大眾普遍關注或擔憂的事情」是「public concern」的用法，與本句語境不同。",
-        "public-mcq-14": "「供一般市民共同使用的公共交通服務」是「public transport」的用法，與本句語境不同。",
-        "public-mcq-09": "「對社會大眾整體福祉、權益或需要有重要影響的利益」是「public interest」的用法，與本句語境不同。"
+        "public-mcq-12": "本句的「public sectors」指「由政府或公共機構擁有、管理或資助的經濟／就業部門」。",
+        "public-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-12"
     },
@@ -1556,11 +1464,9 @@ export default {
       "masked": "Reliable transport is an important ____.",
       "options": [
         "public-mcq-13",
-        "public-mcq-12",
-        "public-mcq-14",
-        "public-mcq-11",
-        "public-mcq-15",
-        "public-mcq-10"
+        "public-mcq-04",
+        "public-mcq-26",
+        "public-mcq-15"
       ],
       "explanation": "本句的「public service」指「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」。",
       "sentenceIndex": 23,
@@ -1569,12 +1475,10 @@ export default {
         "public service"
       ],
       "optionReasons": {
-        "public-mcq-13": "本句指「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」。",
-        "public-mcq-12": "「由政府或公共機構擁有、管理或資助的經濟／就業部門」是「public sector」的用法，與本句語境不同。",
-        "public-mcq-14": "「供一般市民共同使用的公共交通服務」是「public transport」的用法，與本句語境不同。",
-        "public-mcq-11": "「由政府／公共機構提供、管理或資助，服務社會大眾的」是「public — government/institutional」的用法，與本句語境不同。",
-        "public-mcq-15": "「美式通常指公立學校；英式傳統上可指特定收費私立學校」是「public school」的用法，與本句語境不同。",
-        "public-mcq-10": "「社會大眾普遍關注或擔憂的事情」是「public concern」的用法，與本句語境不同。"
+        "public-mcq-13": "本句的「public service」指「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-13"
     },
@@ -1586,11 +1490,9 @@ export default {
       "masked": "He spent thirty years in ____.",
       "options": [
         "public-mcq-13",
-        "public-mcq-12",
-        "public-mcq-14",
-        "public-mcq-11",
+        "public-mcq-04",
         "public-mcq-15",
-        "public-mcq-10"
+        "public-mcq-26"
       ],
       "explanation": "本句的「public service」指「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」。",
       "sentenceIndex": 24,
@@ -1599,12 +1501,10 @@ export default {
         "public service"
       ],
       "optionReasons": {
-        "public-mcq-13": "本句指「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」。",
-        "public-mcq-12": "「由政府或公共機構擁有、管理或資助的經濟／就業部門」是「public sector」的用法，與本句語境不同。",
-        "public-mcq-14": "「供一般市民共同使用的公共交通服務」是「public transport」的用法，與本句語境不同。",
-        "public-mcq-11": "「由政府／公共機構提供、管理或資助，服務社會大眾的」是「public — government/institutional」的用法，與本句語境不同。",
-        "public-mcq-15": "「美式通常指公立學校；英式傳統上可指特定收費私立學校」是「public school」的用法，與本句語境不同。",
-        "public-mcq-10": "「社會大眾普遍關注或擔憂的事情」是「public concern」的用法，與本句語境不同。"
+        "public-mcq-13": "本句的「public service」指「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-13"
     },
@@ -1616,11 +1516,9 @@ export default {
       "masked": "I usually travel by ____.",
       "options": [
         "public-mcq-14",
-        "public-mcq-13",
-        "public-mcq-15",
-        "public-mcq-12",
-        "public-mcq-16",
-        "public-mcq-11"
+        "public-mcq-33",
+        "public-mcq-25",
+        "public-mcq-15"
       ],
       "explanation": "本句的「public transport」指「供一般市民共同使用的公共交通服務」。",
       "sentenceIndex": 25,
@@ -1629,12 +1527,10 @@ export default {
         "public transport"
       ],
       "optionReasons": {
-        "public-mcq-14": "本句指「供一般市民共同使用的公共交通服務」。",
-        "public-mcq-13": "「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」是「public service」的用法，與本句語境不同。",
-        "public-mcq-15": "「美式通常指公立學校；英式傳統上可指特定收費私立學校」是「public school」的用法，與本句語境不同。",
-        "public-mcq-12": "「由政府或公共機構擁有、管理或資助的經濟／就業部門」是「public sector」的用法，與本句語境不同。",
-        "public-mcq-16": "「政府／公共機構中承擔公共權力或責任的正式職位」是「public office」的用法，與本句語境不同。",
-        "public-mcq-11": "「由政府／公共機構提供、管理或資助，服務社會大眾的」是「public — government/institutional」的用法，與本句語境不同。"
+        "public-mcq-14": "本句的「public transport」指「供一般市民共同使用的公共交通服務」。",
+        "public-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-14"
     },
@@ -1646,11 +1542,9 @@ export default {
       "masked": "The city has an efficient ____.",
       "options": [
         "public-mcq-14",
-        "public-mcq-13",
-        "public-mcq-15",
-        "public-mcq-12",
-        "public-mcq-16",
-        "public-mcq-11"
+        "public-mcq-08",
+        "public-mcq-25",
+        "public-mcq-15"
       ],
       "explanation": "本句的「public transport system」指「供一般市民共同使用的公共交通服務」。",
       "sentenceIndex": 26,
@@ -1659,12 +1553,10 @@ export default {
         "public transport system"
       ],
       "optionReasons": {
-        "public-mcq-14": "本句指「供一般市民共同使用的公共交通服務」。",
-        "public-mcq-13": "「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」是「public service」的用法，與本句語境不同。",
-        "public-mcq-15": "「美式通常指公立學校；英式傳統上可指特定收費私立學校」是「public school」的用法，與本句語境不同。",
-        "public-mcq-12": "「由政府或公共機構擁有、管理或資助的經濟／就業部門」是「public sector」的用法，與本句語境不同。",
-        "public-mcq-16": "「政府／公共機構中承擔公共權力或責任的正式職位」是「public office」的用法，與本句語境不同。",
-        "public-mcq-11": "「由政府／公共機構提供、管理或資助，服務社會大眾的」是「public — government/institutional」的用法，與本句語境不同。"
+        "public-mcq-14": "本句的「public transport system」指「供一般市民共同使用的公共交通服務」。",
+        "public-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-14"
     },
@@ -1676,11 +1568,9 @@ export default {
       "masked": "She attended a ____ in California.",
       "options": [
         "public-mcq-15",
-        "public-mcq-14",
-        "public-mcq-16",
-        "public-mcq-13",
-        "public-mcq-17",
-        "public-mcq-12"
+        "public-mcq-29",
+        "public-mcq-38",
+        "public-mcq-27"
       ],
       "explanation": "本句的「public school」指「美式通常指公立學校；英式傳統上可指特定收費私立學校」。",
       "sentenceIndex": 27,
@@ -1689,12 +1579,10 @@ export default {
         "public school"
       ],
       "optionReasons": {
-        "public-mcq-15": "本句指「美式通常指公立學校；英式傳統上可指特定收費私立學校」。",
-        "public-mcq-14": "「供一般市民共同使用的公共交通服務」是「public transport」的用法，與本句語境不同。",
-        "public-mcq-16": "「政府／公共機構中承擔公共權力或責任的正式職位」是「public office」的用法，與本句語境不同。",
-        "public-mcq-13": "「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」是「public service」的用法，與本句語境不同。",
-        "public-mcq-17": "「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」是「public figure」的用法，與本句語境不同。",
-        "public-mcq-12": "「由政府或公共機構擁有、管理或資助的經濟／就業部門」是「public sector」的用法，與本句語境不同。"
+        "public-mcq-15": "本句的「public school」指「美式通常指公立學校；英式傳統上可指特定收費私立學校」。",
+        "public-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-15"
     },
@@ -1706,11 +1594,9 @@ export default {
       "masked": "Some British ____ are privately funded.",
       "options": [
         "public-mcq-15",
-        "public-mcq-14",
-        "public-mcq-16",
-        "public-mcq-13",
-        "public-mcq-17",
-        "public-mcq-12"
+        "public-mcq-33",
+        "public-mcq-26",
+        "public-mcq-27"
       ],
       "explanation": "本句的「public schools」指「美式通常指公立學校；英式傳統上可指特定收費私立學校」。",
       "sentenceIndex": 28,
@@ -1719,12 +1605,10 @@ export default {
         "public schools"
       ],
       "optionReasons": {
-        "public-mcq-15": "本句指「美式通常指公立學校；英式傳統上可指特定收費私立學校」。",
-        "public-mcq-14": "「供一般市民共同使用的公共交通服務」是「public transport」的用法，與本句語境不同。",
-        "public-mcq-16": "「政府／公共機構中承擔公共權力或責任的正式職位」是「public office」的用法，與本句語境不同。",
-        "public-mcq-13": "「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」是「public service」的用法，與本句語境不同。",
-        "public-mcq-17": "「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」是「public figure」的用法，與本句語境不同。",
-        "public-mcq-12": "「由政府或公共機構擁有、管理或資助的經濟／就業部門」是「public sector」的用法，與本句語境不同。"
+        "public-mcq-15": "本句的「public schools」指「美式通常指公立學校；英式傳統上可指特定收費私立學校」。",
+        "public-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-15"
     },
@@ -1736,11 +1620,9 @@ export default {
       "masked": "He was treated at a ____.",
       "options": [
         "public-pdf-001",
-        "public-mcq-15",
-        "public-mcq-17",
-        "public-mcq-14",
-        "public-mcq-18",
-        "public-mcq-13"
+        "public-mcq-33",
+        "public-mcq-31",
+        "public-mcq-26"
       ],
       "explanation": "本句的「public hospital」指「主要由政府／公共資金支持、服務一般市民的醫療系統」。",
       "sentenceIndex": 29,
@@ -1749,12 +1631,10 @@ export default {
         "public hospital"
       ],
       "optionReasons": {
-        "public-pdf-001": "本句指「主要由政府／公共資金支持、服務一般市民的醫療系統」。",
-        "public-mcq-15": "「美式通常指公立學校；英式傳統上可指特定收費私立學校」是「public school」的用法，與本句語境不同。",
-        "public-mcq-17": "「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」是「public figure」的用法，與本句語境不同。",
-        "public-mcq-14": "「供一般市民共同使用的公共交通服務」是「public transport」的用法，與本句語境不同。",
-        "public-mcq-18": "「參與政治、政府、社會領導或其他公眾事務的生活／活動」是「public life」的用法，與本句語境不同。",
-        "public-mcq-13": "「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」是「public service」的用法，與本句語境不同。"
+        "public-pdf-001": "本句的「public hospital」指「主要由政府／公共資金支持、服務一般市民的醫療系統」。",
+        "public-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-pdf-001"
     },
@@ -1766,11 +1646,9 @@ export default {
       "masked": "The country has invested heavily in ____.",
       "options": [
         "public-pdf-001",
-        "public-mcq-15",
-        "public-mcq-17",
-        "public-mcq-14",
-        "public-mcq-18",
-        "public-mcq-13"
+        "public-mcq-19",
+        "public-mcq-30",
+        "public-mcq-15"
       ],
       "explanation": "本句的「public healthcare」指「主要由政府／公共資金支持、服務一般市民的醫療系統」。",
       "sentenceIndex": 30,
@@ -1779,12 +1657,10 @@ export default {
         "public healthcare"
       ],
       "optionReasons": {
-        "public-pdf-001": "本句指「主要由政府／公共資金支持、服務一般市民的醫療系統」。",
-        "public-mcq-15": "「美式通常指公立學校；英式傳統上可指特定收費私立學校」是「public school」的用法，與本句語境不同。",
-        "public-mcq-17": "「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」是「public figure」的用法，與本句語境不同。",
-        "public-mcq-14": "「供一般市民共同使用的公共交通服務」是「public transport」的用法，與本句語境不同。",
-        "public-mcq-18": "「參與政治、政府、社會領導或其他公眾事務的生活／活動」是「public life」的用法，與本句語境不同。",
-        "public-mcq-13": "「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」是「public service」的用法，與本句語境不同。"
+        "public-pdf-001": "本句的「public healthcare」指「主要由政府／公共資金支持、服務一般市民的醫療系統」。",
+        "public-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-pdf-001"
     },
@@ -1796,11 +1672,9 @@ export default {
       "masked": "She has held ____ for many years.",
       "options": [
         "public-mcq-16",
-        "public-mcq-15",
-        "public-mcq-17",
-        "public-mcq-14",
-        "public-mcq-18",
-        "public-mcq-13"
+        "public-mcq-24",
+        "public-mcq-04",
+        "public-mcq-30"
       ],
       "explanation": "本句的「public office」指「政府／公共機構中承擔公共權力或責任的正式職位」。",
       "sentenceIndex": 31,
@@ -1809,12 +1683,10 @@ export default {
         "public office"
       ],
       "optionReasons": {
-        "public-mcq-16": "本句指「政府／公共機構中承擔公共權力或責任的正式職位」。",
-        "public-mcq-15": "「美式通常指公立學校；英式傳統上可指特定收費私立學校」是「public school」的用法，與本句語境不同。",
-        "public-mcq-17": "「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」是「public figure」的用法，與本句語境不同。",
-        "public-mcq-14": "「供一般市民共同使用的公共交通服務」是「public transport」的用法，與本句語境不同。",
-        "public-mcq-18": "「參與政治、政府、社會領導或其他公眾事務的生活／活動」是「public life」的用法，與本句語境不同。",
-        "public-mcq-13": "「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」是「public service」的用法，與本句語境不同。"
+        "public-mcq-16": "本句的「public office」指「政府／公共機構中承擔公共權力或責任的正式職位」。",
+        "public-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-16"
     },
@@ -1826,11 +1698,9 @@ export default {
       "masked": "People in ____ are expected to follow strict ethical rules.",
       "options": [
         "public-mcq-16",
-        "public-mcq-15",
-        "public-mcq-17",
-        "public-mcq-14",
-        "public-mcq-18",
-        "public-mcq-13"
+        "public-mcq-29",
+        "public-mcq-04",
+        "public-mcq-27"
       ],
       "explanation": "本句的「public office」指「政府／公共機構中承擔公共權力或責任的正式職位」。",
       "sentenceIndex": 32,
@@ -1839,12 +1709,10 @@ export default {
         "public office"
       ],
       "optionReasons": {
-        "public-mcq-16": "本句指「政府／公共機構中承擔公共權力或責任的正式職位」。",
-        "public-mcq-15": "「美式通常指公立學校；英式傳統上可指特定收費私立學校」是「public school」的用法，與本句語境不同。",
-        "public-mcq-17": "「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」是「public figure」的用法，與本句語境不同。",
-        "public-mcq-14": "「供一般市民共同使用的公共交通服務」是「public transport」的用法，與本句語境不同。",
-        "public-mcq-18": "「參與政治、政府、社會領導或其他公眾事務的生活／活動」是「public life」的用法，與本句語境不同。",
-        "public-mcq-13": "「由政府／公共機構為社會提供的服務，或服務公眾的職業活動」是「public service」的用法，與本句語境不同。"
+        "public-mcq-16": "本句的「public office」指「政府／公共機構中承擔公共權力或責任的正式職位」。",
+        "public-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-16"
     },
@@ -1856,11 +1724,9 @@ export default {
       "masked": "As a ____, she receives a lot of media attention.",
       "options": [
         "public-mcq-17",
-        "public-mcq-16",
-        "public-mcq-18",
-        "public-mcq-15",
-        "public-mcq-19",
-        "public-mcq-14"
+        "public-mcq-35",
+        "public-mcq-04",
+        "public-mcq-27"
       ],
       "explanation": "本句的「public figure」指「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」。",
       "sentenceIndex": 33,
@@ -1869,12 +1735,10 @@ export default {
         "public figure"
       ],
       "optionReasons": {
-        "public-mcq-17": "本句指「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」。",
-        "public-mcq-16": "「政府／公共機構中承擔公共權力或責任的正式職位」是「public office」的用法，與本句語境不同。",
-        "public-mcq-18": "「參與政治、政府、社會領導或其他公眾事務的生活／活動」是「public life」的用法，與本句語境不同。",
-        "public-mcq-15": "「美式通常指公立學校；英式傳統上可指特定收費私立學校」是「public school」的用法，與本句語境不同。",
-        "public-mcq-19": "「已讓社會大眾知道或可查閱，而不是私人／機密的」是「public — not secret」的用法，與本句語境不同。",
-        "public-mcq-14": "「供一般市民共同使用的公共交通服務」是「public transport」的用法，與本句語境不同。"
+        "public-mcq-17": "本句的「public figure」指「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」。",
+        "public-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-17"
     },
@@ -1886,11 +1750,9 @@ export default {
       "masked": "The actor became a major ____.",
       "options": [
         "public-mcq-17",
-        "public-mcq-16",
-        "public-mcq-18",
-        "public-mcq-15",
-        "public-mcq-19",
-        "public-mcq-14"
+        "public-pdf-002",
+        "public-mcq-04",
+        "public-mcq-26"
       ],
       "explanation": "本句的「public figure」指「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」。",
       "sentenceIndex": 34,
@@ -1899,12 +1761,10 @@ export default {
         "public figure"
       ],
       "optionReasons": {
-        "public-mcq-17": "本句指「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」。",
-        "public-mcq-16": "「政府／公共機構中承擔公共權力或責任的正式職位」是「public office」的用法，與本句語境不同。",
-        "public-mcq-18": "「參與政治、政府、社會領導或其他公眾事務的生活／活動」是「public life」的用法，與本句語境不同。",
-        "public-mcq-15": "「美式通常指公立學校；英式傳統上可指特定收費私立學校」是「public school」的用法，與本句語境不同。",
-        "public-mcq-19": "「已讓社會大眾知道或可查閱，而不是私人／機密的」是「public — not secret」的用法，與本句語境不同。",
-        "public-mcq-14": "「供一般市民共同使用的公共交通服務」是「public transport」的用法，與本句語境不同。"
+        "public-mcq-17": "本句的「public figure」指「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」。",
+        "public-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-17"
     },
@@ -1916,11 +1776,9 @@ export default {
       "masked": "He retired from ____.",
       "options": [
         "public-mcq-18",
-        "public-mcq-17",
-        "public-mcq-19",
-        "public-mcq-16",
-        "public-mcq-20",
-        "public-mcq-15"
+        "public-mcq-15",
+        "public-mcq-05",
+        "public-mcq-20"
       ],
       "explanation": "本句的「public life」指「參與政治、政府、社會領導或其他公眾事務的生活／活動」。",
       "sentenceIndex": 35,
@@ -1929,12 +1787,10 @@ export default {
         "public life"
       ],
       "optionReasons": {
-        "public-mcq-18": "本句指「參與政治、政府、社會領導或其他公眾事務的生活／活動」。",
-        "public-mcq-17": "「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」是「public figure」的用法，與本句語境不同。",
-        "public-mcq-19": "「已讓社會大眾知道或可查閱，而不是私人／機密的」是「public — not secret」的用法，與本句語境不同。",
-        "public-mcq-16": "「政府／公共機構中承擔公共權力或責任的正式職位」是「public office」的用法，與本句語境不同。",
-        "public-mcq-20": "「把原本私人、機密或未公布的資料正式讓大眾知道」是「make something public」的用法，與本句語境不同。",
-        "public-mcq-15": "「美式通常指公立學校；英式傳統上可指特定收費私立學校」是「public school」的用法，與本句語境不同。"
+        "public-mcq-18": "本句的「public life」指「參與政治、政府、社會領導或其他公眾事務的生活／活動」。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-18"
     },
@@ -1946,11 +1802,9 @@ export default {
       "masked": "She has spent decades in ____.",
       "options": [
         "public-mcq-18",
-        "public-mcq-17",
-        "public-mcq-19",
-        "public-mcq-16",
-        "public-mcq-20",
-        "public-mcq-15"
+        "public-mcq-15",
+        "public-mcq-38",
+        "public-mcq-14"
       ],
       "explanation": "本句的「public life」指「參與政治、政府、社會領導或其他公眾事務的生活／活動」。",
       "sentenceIndex": 36,
@@ -1959,12 +1813,10 @@ export default {
         "public life"
       ],
       "optionReasons": {
-        "public-mcq-18": "本句指「參與政治、政府、社會領導或其他公眾事務的生活／活動」。",
-        "public-mcq-17": "「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」是「public figure」的用法，與本句語境不同。",
-        "public-mcq-19": "「已讓社會大眾知道或可查閱，而不是私人／機密的」是「public — not secret」的用法，與本句語境不同。",
-        "public-mcq-16": "「政府／公共機構中承擔公共權力或責任的正式職位」是「public office」的用法，與本句語境不同。",
-        "public-mcq-20": "「把原本私人、機密或未公布的資料正式讓大眾知道」是「make something public」的用法，與本句語境不同。",
-        "public-mcq-15": "「美式通常指公立學校；英式傳統上可指特定收費私立學校」是「public school」的用法，與本句語境不同。"
+        "public-mcq-18": "本句的「public life」指「參與政治、政府、社會領導或其他公眾事務的生活／活動」。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-18"
     },
@@ -1976,11 +1828,9 @@ export default {
       "masked": "The information is already ____.",
       "options": [
         "public-mcq-19",
-        "public-mcq-18",
-        "public-mcq-20",
-        "public-mcq-17",
-        "public-mcq-21",
-        "public-mcq-16"
+        "public-mcq-05",
+        "public-mcq-23",
+        "public-mcq-15"
       ],
       "explanation": "本句的「public」指「已讓社會大眾知道或可查閱，而不是私人／機密的」。",
       "sentenceIndex": 37,
@@ -1989,12 +1839,10 @@ export default {
         "public"
       ],
       "optionReasons": {
-        "public-mcq-19": "本句指「已讓社會大眾知道或可查閱，而不是私人／機密的」。",
-        "public-mcq-18": "「參與政治、政府、社會領導或其他公眾事務的生活／活動」是「public life」的用法，與本句語境不同。",
-        "public-mcq-20": "「把原本私人、機密或未公布的資料正式讓大眾知道」是「make something public」的用法，與本句語境不同。",
-        "public-mcq-17": "「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」是「public figure」的用法，與本句語境不同。",
-        "public-mcq-21": "「把原本私下的事情公開說出／公布」是「go public — reveal」的用法，與本句語境不同。",
-        "public-mcq-16": "「政府／公共機構中承擔公共權力或責任的正式職位」是「public office」的用法，與本句語境不同。"
+        "public-mcq-19": "本句的「public」指「已讓社會大眾知道或可查閱，而不是私人／機密的」。",
+        "public-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-19"
     },
@@ -2006,11 +1854,9 @@ export default {
       "masked": "The report will become ____ next week.",
       "options": [
         "public-mcq-19",
-        "public-mcq-18",
-        "public-mcq-20",
-        "public-mcq-17",
-        "public-mcq-21",
-        "public-mcq-16"
+        "public-mcq-05",
+        "public-mcq-23",
+        "public-mcq-15"
       ],
       "explanation": "本句的「public」指「已讓社會大眾知道或可查閱，而不是私人／機密的」。",
       "sentenceIndex": 38,
@@ -2019,12 +1865,10 @@ export default {
         "public"
       ],
       "optionReasons": {
-        "public-mcq-19": "本句指「已讓社會大眾知道或可查閱，而不是私人／機密的」。",
-        "public-mcq-18": "「參與政治、政府、社會領導或其他公眾事務的生活／活動」是「public life」的用法，與本句語境不同。",
-        "public-mcq-20": "「把原本私人、機密或未公布的資料正式讓大眾知道」是「make something public」的用法，與本句語境不同。",
-        "public-mcq-17": "「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」是「public figure」的用法，與本句語境不同。",
-        "public-mcq-21": "「把原本私下的事情公開說出／公布」是「go public — reveal」的用法，與本句語境不同。",
-        "public-mcq-16": "「政府／公共機構中承擔公共權力或責任的正式職位」是「public office」的用法，與本句語境不同。"
+        "public-mcq-19": "本句的「public」指「已讓社會大眾知道或可查閱，而不是私人／機密的」。",
+        "public-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-19"
     },
@@ -2036,11 +1880,9 @@ export default {
       "masked": "The company decided to ____.",
       "options": [
         "public-mcq-20",
-        "public-mcq-19",
-        "public-mcq-21",
-        "public-mcq-18",
-        "public-mcq-22",
-        "public-mcq-17"
+        "public-mcq-38",
+        "public-mcq-14",
+        "public-mcq-18"
       ],
       "explanation": "本句的「make the results public」指「把原本私人、機密或未公布的資料正式讓大眾知道」。",
       "sentenceIndex": 39,
@@ -2049,12 +1891,10 @@ export default {
         "make the results public"
       ],
       "optionReasons": {
-        "public-mcq-20": "本句指「把原本私人、機密或未公布的資料正式讓大眾知道」。",
-        "public-mcq-19": "「已讓社會大眾知道或可查閱，而不是私人／機密的」是「public — not secret」的用法，與本句語境不同。",
-        "public-mcq-21": "「把原本私下的事情公開說出／公布」是「go public — reveal」的用法，與本句語境不同。",
-        "public-mcq-18": "「參與政治、政府、社會領導或其他公眾事務的生活／活動」是「public life」的用法，與本句語境不同。",
-        "public-mcq-22": "「公司向公眾發售股份／成為上市公司」是「go public — finance」的用法，與本句語境不同。",
-        "public-mcq-17": "「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」是「public figure」的用法，與本句語境不同。"
+        "public-mcq-20": "本句的「make the results public」指「把原本私人、機密或未公布的資料正式讓大眾知道」。",
+        "public-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-20"
     },
@@ -2066,11 +1906,9 @@ export default {
       "masked": "She did not want to ____.",
       "options": [
         "public-mcq-20",
-        "public-mcq-19",
-        "public-mcq-21",
-        "public-mcq-18",
-        "public-mcq-22",
-        "public-mcq-17"
+        "public-mcq-14",
+        "public-mcq-38",
+        "public-mcq-18"
       ],
       "explanation": "本句的「make the dispute public」指「把原本私人、機密或未公布的資料正式讓大眾知道」。",
       "sentenceIndex": 40,
@@ -2079,12 +1917,10 @@ export default {
         "make the dispute public"
       ],
       "optionReasons": {
-        "public-mcq-20": "本句指「把原本私人、機密或未公布的資料正式讓大眾知道」。",
-        "public-mcq-19": "「已讓社會大眾知道或可查閱，而不是私人／機密的」是「public — not secret」的用法，與本句語境不同。",
-        "public-mcq-21": "「把原本私下的事情公開說出／公布」是「go public — reveal」的用法，與本句語境不同。",
-        "public-mcq-18": "「參與政治、政府、社會領導或其他公眾事務的生活／活動」是「public life」的用法，與本句語境不同。",
-        "public-mcq-22": "「公司向公眾發售股份／成為上市公司」是「go public — finance」的用法，與本句語境不同。",
-        "public-mcq-17": "「因地位、職業或知名度而持續受到社會大眾／傳媒注意的人」是「public figure」的用法，與本句語境不同。"
+        "public-mcq-20": "本句的「make the dispute public」指「把原本私人、機密或未公布的資料正式讓大眾知道」。",
+        "public-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-20"
     },
@@ -2096,11 +1932,9 @@ export default {
       "masked": "The business became a ____ after its IPO.",
       "options": [
         "public-mcq-23",
-        "public-mcq-22",
+        "public-mcq-04",
         "public-mcq-24",
-        "public-mcq-21",
-        "public-mcq-25",
-        "public-mcq-20"
+        "public-mcq-15"
       ],
       "explanation": "本句的「public company」指「股份或所有權可由廣泛公眾持有，或依法屬公眾公司的企業」。",
       "sentenceIndex": 41,
@@ -2109,12 +1943,10 @@ export default {
         "public company"
       ],
       "optionReasons": {
-        "public-mcq-23": "本句指「股份或所有權可由廣泛公眾持有，或依法屬公眾公司的企業」。",
-        "public-mcq-22": "「公司向公眾發售股份／成為上市公司」是「go public — finance」的用法，與本句語境不同。",
-        "public-mcq-24": "「社會上很多人已知道、並非秘密的資訊」是「public knowledge」的用法，與本句語境不同。",
-        "public-mcq-21": "「把原本私下的事情公開說出／公布」是「go public — reveal」的用法，與本句語境不同。",
-        "public-mcq-25": "「根據制度／法律可由公眾查閱的官方資料或紀錄」是「public record」的用法，與本句語境不同。",
-        "public-mcq-20": "「把原本私人、機密或未公布的資料正式讓大眾知道」是「make something public」的用法，與本句語境不同。"
+        "public-mcq-23": "本句的「public company」指「股份或所有權可由廣泛公眾持有，或依法屬公眾公司的企業」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-23"
     },
@@ -2126,11 +1958,9 @@ export default {
       "masked": "____ companies face extensive reporting requirements.",
       "options": [
         "public-mcq-23",
-        "public-mcq-22",
         "public-mcq-24",
-        "public-mcq-21",
-        "public-mcq-25",
-        "public-mcq-20"
+        "public-mcq-04",
+        "public-mcq-15"
       ],
       "explanation": "本句的「Public」指「股份或所有權可由廣泛公眾持有，或依法屬公眾公司的企業」。",
       "sentenceIndex": 42,
@@ -2139,12 +1969,10 @@ export default {
         "Public"
       ],
       "optionReasons": {
-        "public-mcq-23": "本句指「股份或所有權可由廣泛公眾持有，或依法屬公眾公司的企業」。",
-        "public-mcq-22": "「公司向公眾發售股份／成為上市公司」是「go public — finance」的用法，與本句語境不同。",
-        "public-mcq-24": "「社會上很多人已知道、並非秘密的資訊」是「public knowledge」的用法，與本句語境不同。",
-        "public-mcq-21": "「把原本私下的事情公開說出／公布」是「go public — reveal」的用法，與本句語境不同。",
-        "public-mcq-25": "「根據制度／法律可由公眾查閱的官方資料或紀錄」是「public record」的用法，與本句語境不同。",
-        "public-mcq-20": "「把原本私人、機密或未公布的資料正式讓大眾知道」是「make something public」的用法，與本句語境不同。"
+        "public-mcq-23": "本句的「Public」指「股份或所有權可由廣泛公眾持有，或依法屬公眾公司的企業」。",
+        "public-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-23"
     },
@@ -2156,11 +1984,9 @@ export default {
       "masked": "The firm is ____.",
       "options": [
         "public-mcq-38",
-        "public-mcq-37",
-        "public-mcq-36",
-        "public-mcq-35",
-        "public-mcq-34",
-        "public-mcq-33"
+        "public-mcq-29",
+        "public-mcq-04",
+        "public-mcq-30"
       ],
       "explanation": "本句的「publicly traded」指「公司股份可在公開證券市場買賣的」。",
       "sentenceIndex": 43,
@@ -2169,12 +1995,10 @@ export default {
         "publicly traded"
       ],
       "optionReasons": {
-        "public-mcq-38": "本句指「公司股份可在公開證券市場買賣的」。",
-        "public-mcq-37": "「對社會整體有益的公共利益；經濟學中亦可指公共財」是「public good」的用法，與本句語境不同。",
-        "public-mcq-36": "「來自政府／公共財政、用於公共用途的資金」是「public funds」的用法，與本句語境不同。",
-        "public-mcq-35": "「由政府／公共機構擁有並供公共用途的財產」是「public property」的用法，與本句語境不同。",
-        "public-mcq-34": "「某人／機構受到公眾注意、認識或媒體曝光的程度」是「public profile」的用法，與本句語境不同。",
-        "public-mcq-33": "「社會大眾對某人／機構形成的整體印象」是「public image」的用法，與本句語境不同。"
+        "public-mcq-38": "本句的「publicly traded」指「公司股份可在公開證券市場買賣的」。",
+        "public-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-38"
     },
@@ -2186,11 +2010,9 @@ export default {
       "masked": "Its shares are ____ on the stock exchange.",
       "options": [
         "public-mcq-38",
-        "public-mcq-37",
-        "public-mcq-36",
-        "public-mcq-35",
-        "public-mcq-34",
-        "public-mcq-33"
+        "public-mcq-24",
+        "public-mcq-04",
+        "public-mcq-27"
       ],
       "explanation": "本句的「publicly traded」指「公司股份可在公開證券市場買賣的」。",
       "sentenceIndex": 44,
@@ -2199,12 +2021,10 @@ export default {
         "publicly traded"
       ],
       "optionReasons": {
-        "public-mcq-38": "本句指「公司股份可在公開證券市場買賣的」。",
-        "public-mcq-37": "「對社會整體有益的公共利益；經濟學中亦可指公共財」是「public good」的用法，與本句語境不同。",
-        "public-mcq-36": "「來自政府／公共財政、用於公共用途的資金」是「public funds」的用法，與本句語境不同。",
-        "public-mcq-35": "「由政府／公共機構擁有並供公共用途的財產」是「public property」的用法，與本句語境不同。",
-        "public-mcq-34": "「某人／機構受到公眾注意、認識或媒體曝光的程度」是「public profile」的用法，與本句語境不同。",
-        "public-mcq-33": "「社會大眾對某人／機構形成的整體印象」是「public image」的用法，與本句語境不同。"
+        "public-mcq-38": "本句的「publicly traded」指「公司股份可在公開證券市場買賣的」。",
+        "public-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-38"
     },
@@ -2217,10 +2037,8 @@ export default {
       "options": [
         "public-mcq-24",
         "public-mcq-23",
-        "public-mcq-25",
-        "public-mcq-22",
-        "public-mcq-26",
-        "public-mcq-21"
+        "public-mcq-05",
+        "public-mcq-15"
       ],
       "explanation": "本句的「public knowledge」指「社會上很多人已知道、並非秘密的資訊」。",
       "sentenceIndex": 45,
@@ -2229,12 +2047,10 @@ export default {
         "public knowledge"
       ],
       "optionReasons": {
-        "public-mcq-24": "本句指「社會上很多人已知道、並非秘密的資訊」。",
-        "public-mcq-23": "「股份或所有權可由廣泛公眾持有，或依法屬公眾公司的企業」是「public company」的用法，與本句語境不同。",
-        "public-mcq-25": "「根據制度／法律可由公眾查閱的官方資料或紀錄」是「public record」的用法，與本句語境不同。",
-        "public-mcq-22": "「公司向公眾發售股份／成為上市公司」是「go public — finance」的用法，與本句語境不同。",
-        "public-mcq-26": "「已公開的信息領域；或不再受原有專有著作權限制的公有領域」是「public domain」的用法，與本句語境不同。",
-        "public-mcq-21": "「把原本私下的事情公開說出／公布」是「go public — reveal」的用法，與本句語境不同。"
+        "public-mcq-24": "本句的「public knowledge」指「社會上很多人已知道、並非秘密的資訊」。",
+        "public-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-24"
     },
@@ -2246,11 +2062,9 @@ export default {
       "masked": "It was ____ that the office would close.",
       "options": [
         "public-mcq-24",
-        "public-mcq-23",
-        "public-mcq-25",
-        "public-mcq-22",
-        "public-mcq-26",
-        "public-mcq-21"
+        "public-mcq-38",
+        "public-mcq-27",
+        "public-mcq-04"
       ],
       "explanation": "本句的「public knowledge」指「社會上很多人已知道、並非秘密的資訊」。",
       "sentenceIndex": 46,
@@ -2259,12 +2073,10 @@ export default {
         "public knowledge"
       ],
       "optionReasons": {
-        "public-mcq-24": "本句指「社會上很多人已知道、並非秘密的資訊」。",
-        "public-mcq-23": "「股份或所有權可由廣泛公眾持有，或依法屬公眾公司的企業」是「public company」的用法，與本句語境不同。",
-        "public-mcq-25": "「根據制度／法律可由公眾查閱的官方資料或紀錄」是「public record」的用法，與本句語境不同。",
-        "public-mcq-22": "「公司向公眾發售股份／成為上市公司」是「go public — finance」的用法，與本句語境不同。",
-        "public-mcq-26": "「已公開的信息領域；或不再受原有專有著作權限制的公有領域」是「public domain」的用法，與本句語境不同。",
-        "public-mcq-21": "「把原本私下的事情公開說出／公布」是「go public — reveal」的用法，與本句語境不同。"
+        "public-mcq-24": "本句的「public knowledge」指「社會上很多人已知道、並非秘密的資訊」。",
+        "public-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-24"
     },
@@ -2276,11 +2088,9 @@ export default {
       "masked": "The information is part of the ____.",
       "options": [
         "public-mcq-25",
-        "public-mcq-24",
-        "public-mcq-26",
-        "public-mcq-23",
-        "public-mcq-27",
-        "public-mcq-22"
+        "public-mcq-04",
+        "public-mcq-09",
+        "public-mcq-38"
       ],
       "explanation": "本句的「public record」指「根據制度／法律可由公眾查閱的官方資料或紀錄」。",
       "sentenceIndex": 47,
@@ -2289,12 +2099,10 @@ export default {
         "public record"
       ],
       "optionReasons": {
-        "public-mcq-25": "本句指「根據制度／法律可由公眾查閱的官方資料或紀錄」。",
-        "public-mcq-24": "「社會上很多人已知道、並非秘密的資訊」是「public knowledge」的用法，與本句語境不同。",
-        "public-mcq-26": "「已公開的信息領域；或不再受原有專有著作權限制的公有領域」是「public domain」的用法，與本句語境不同。",
-        "public-mcq-23": "「股份或所有權可由廣泛公眾持有，或依法屬公眾公司的企業」是「public company」的用法，與本句語境不同。",
-        "public-mcq-27": "「需要直接與公眾／客戶互動，或主要展示給外界看的」是「public-facing」的用法，與本句語境不同。",
-        "public-mcq-22": "「公司向公眾發售股份／成為上市公司」是「go public — finance」的用法，與本句語境不同。"
+        "public-mcq-25": "本句的「public record」指「根據制度／法律可由公眾查閱的官方資料或紀錄」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-25"
     },
@@ -2306,11 +2114,9 @@ export default {
       "masked": "Court decisions are often available as ____.",
       "options": [
         "public-mcq-25",
-        "public-mcq-24",
-        "public-mcq-26",
-        "public-mcq-23",
-        "public-mcq-27",
-        "public-mcq-22"
+        "public-mcq-03",
+        "public-mcq-10",
+        "public-mcq-14"
       ],
       "explanation": "本句的「public records」指「根據制度／法律可由公眾查閱的官方資料或紀錄」。",
       "sentenceIndex": 48,
@@ -2319,12 +2125,10 @@ export default {
         "public records"
       ],
       "optionReasons": {
-        "public-mcq-25": "本句指「根據制度／法律可由公眾查閱的官方資料或紀錄」。",
-        "public-mcq-24": "「社會上很多人已知道、並非秘密的資訊」是「public knowledge」的用法，與本句語境不同。",
-        "public-mcq-26": "「已公開的信息領域；或不再受原有專有著作權限制的公有領域」是「public domain」的用法，與本句語境不同。",
-        "public-mcq-23": "「股份或所有權可由廣泛公眾持有，或依法屬公眾公司的企業」是「public company」的用法，與本句語境不同。",
-        "public-mcq-27": "「需要直接與公眾／客戶互動，或主要展示給外界看的」是「public-facing」的用法，與本句語境不同。",
-        "public-mcq-22": "「公司向公眾發售股份／成為上市公司」是「go public — finance」的用法，與本句語境不同。"
+        "public-mcq-25": "本句的「public records」指「根據制度／法律可由公眾查閱的官方資料或紀錄」。",
+        "public-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-25"
     },
@@ -2336,11 +2140,9 @@ export default {
       "masked": "The work is now in the ____.",
       "options": [
         "public-mcq-26",
-        "public-mcq-25",
-        "public-mcq-27",
-        "public-mcq-24",
-        "public-mcq-28",
-        "public-mcq-23"
+        "public-mcq-08",
+        "public-mcq-15",
+        "public-mcq-36"
       ],
       "explanation": "本句的「public domain」指「已公開的信息領域；或不再受原有專有著作權限制的公有領域」。",
       "sentenceIndex": 49,
@@ -2349,12 +2151,10 @@ export default {
         "public domain"
       ],
       "optionReasons": {
-        "public-mcq-26": "本句指「已公開的信息領域；或不再受原有專有著作權限制的公有領域」。",
-        "public-mcq-25": "「根據制度／法律可由公眾查閱的官方資料或紀錄」是「public record」的用法，與本句語境不同。",
-        "public-mcq-27": "「需要直接與公眾／客戶互動，或主要展示給外界看的」是「public-facing」的用法，與本句語境不同。",
-        "public-mcq-24": "「社會上很多人已知道、並非秘密的資訊」是「public knowledge」的用法，與本句語境不同。",
-        "public-mcq-28": "「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」是「public access」的用法，與本句語境不同。",
-        "public-mcq-23": "「股份或所有權可由廣泛公眾持有，或依法屬公眾公司的企業」是「public company」的用法，與本句語境不同。"
+        "public-mcq-26": "本句的「public domain」指「已公開的信息領域；或不再受原有專有著作權限制的公有領域」。",
+        "public-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-26"
     },
@@ -2366,11 +2166,9 @@ export default {
       "masked": "The information was already in the ____.",
       "options": [
         "public-mcq-26",
-        "public-mcq-25",
-        "public-mcq-27",
-        "public-mcq-24",
-        "public-mcq-28",
-        "public-mcq-23"
+        "public-mcq-29",
+        "public-mcq-35",
+        "public-mcq-27"
       ],
       "explanation": "本句的「public domain」指「已公開的信息領域；或不再受原有專有著作權限制的公有領域」。",
       "sentenceIndex": 50,
@@ -2379,12 +2177,10 @@ export default {
         "public domain"
       ],
       "optionReasons": {
-        "public-mcq-26": "本句指「已公開的信息領域；或不再受原有專有著作權限制的公有領域」。",
-        "public-mcq-25": "「根據制度／法律可由公眾查閱的官方資料或紀錄」是「public record」的用法，與本句語境不同。",
-        "public-mcq-27": "「需要直接與公眾／客戶互動，或主要展示給外界看的」是「public-facing」的用法，與本句語境不同。",
-        "public-mcq-24": "「社會上很多人已知道、並非秘密的資訊」是「public knowledge」的用法，與本句語境不同。",
-        "public-mcq-28": "「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」是「public access」的用法，與本句語境不同。",
-        "public-mcq-23": "「股份或所有權可由廣泛公眾持有，或依法屬公眾公司的企業」是「public company」的用法，與本句語境不同。"
+        "public-mcq-26": "本句的「public domain」指「已公開的信息領域；或不再受原有專有著作權限制的公有領域」。",
+        "public-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-26"
     },
@@ -2396,11 +2192,9 @@ export default {
       "masked": "She works in a ____.",
       "options": [
         "public-mcq-27",
-        "public-mcq-26",
-        "public-mcq-28",
-        "public-mcq-25",
-        "public-mcq-29",
-        "public-mcq-24"
+        "public-mcq-24",
+        "public-mcq-12",
+        "public-mcq-15"
       ],
       "explanation": "本句的「public-facing role」指「需要直接與公眾／客戶互動，或主要展示給外界看的」。",
       "sentenceIndex": 51,
@@ -2409,12 +2203,10 @@ export default {
         "public-facing role"
       ],
       "optionReasons": {
-        "public-mcq-27": "本句指「需要直接與公眾／客戶互動，或主要展示給外界看的」。",
-        "public-mcq-26": "「已公開的信息領域；或不再受原有專有著作權限制的公有領域」是「public domain」的用法，與本句語境不同。",
-        "public-mcq-28": "「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」是「public access」的用法，與本句語境不同。",
-        "public-mcq-25": "「根據制度／法律可由公眾查閱的官方資料或紀錄」是「public record」的用法，與本句語境不同。",
-        "public-mcq-29": "「在社會大眾可以看到、聽到或知道的情況下」是「publicly — openly」的用法，與本句語境不同。",
-        "public-mcq-24": "「社會上很多人已知道、並非秘密的資訊」是「public knowledge」的用法，與本句語境不同。"
+        "public-mcq-27": "本句的「public-facing role」指「需要直接與公眾／客戶互動，或主要展示給外界看的」。",
+        "public-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-27"
     },
@@ -2426,11 +2218,9 @@ export default {
       "masked": "The website is the company’s main ____.",
       "options": [
         "public-mcq-27",
-        "public-mcq-26",
-        "public-mcq-28",
-        "public-mcq-25",
-        "public-mcq-29",
-        "public-mcq-24"
+        "public-mcq-24",
+        "public-mcq-14",
+        "public-mcq-38"
       ],
       "explanation": "本句的「public-facing platform」指「需要直接與公眾／客戶互動，或主要展示給外界看的」。",
       "sentenceIndex": 52,
@@ -2439,12 +2229,10 @@ export default {
         "public-facing platform"
       ],
       "optionReasons": {
-        "public-mcq-27": "本句指「需要直接與公眾／客戶互動，或主要展示給外界看的」。",
-        "public-mcq-26": "「已公開的信息領域；或不再受原有專有著作權限制的公有領域」是「public domain」的用法，與本句語境不同。",
-        "public-mcq-28": "「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」是「public access」的用法，與本句語境不同。",
-        "public-mcq-25": "「根據制度／法律可由公眾查閱的官方資料或紀錄」是「public record」的用法，與本句語境不同。",
-        "public-mcq-29": "「在社會大眾可以看到、聽到或知道的情況下」是「publicly — openly」的用法，與本句語境不同。",
-        "public-mcq-24": "「社會上很多人已知道、並非秘密的資訊」是「public knowledge」的用法，與本句語境不同。"
+        "public-mcq-27": "本句的「public-facing platform」指「需要直接與公眾／客戶互動，或主要展示給外界看的」。",
+        "public-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-27"
     },
@@ -2456,11 +2244,9 @@ export default {
       "masked": "The archive allows ____ to historical records.",
       "options": [
         "public-mcq-28",
-        "public-mcq-27",
-        "public-mcq-29",
-        "public-mcq-26",
-        "public-mcq-30",
-        "public-mcq-25"
+        "public-mcq-03",
+        "public-mcq-15",
+        "public-mcq-24"
       ],
       "explanation": "本句的「public access」指「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」。",
       "sentenceIndex": 53,
@@ -2469,12 +2255,10 @@ export default {
         "public access"
       ],
       "optionReasons": {
-        "public-mcq-28": "本句指「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」。",
-        "public-mcq-27": "「需要直接與公眾／客戶互動，或主要展示給外界看的」是「public-facing」的用法，與本句語境不同。",
-        "public-mcq-29": "「在社會大眾可以看到、聽到或知道的情況下」是「publicly — openly」的用法，與本句語境不同。",
-        "public-mcq-26": "「已公開的信息領域；或不再受原有專有著作權限制的公有領域」是「public domain」的用法，與本句語境不同。",
-        "public-mcq-30": "「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」是「publicity」的用法，與本句語境不同。",
-        "public-mcq-25": "「根據制度／法律可由公眾查閱的官方資料或紀錄」是「public record」的用法，與本句語境不同。"
+        "public-mcq-28": "本句的「public access」指「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」。",
+        "public-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-28"
     },
@@ -2486,11 +2270,9 @@ export default {
       "masked": "The road is closed to ____.",
       "options": [
         "public-mcq-28",
-        "public-mcq-27",
-        "public-mcq-29",
-        "public-mcq-26",
-        "public-mcq-30",
-        "public-mcq-25"
+        "public-mcq-03",
+        "public-mcq-15",
+        "public-mcq-17"
       ],
       "explanation": "本句的「public access」指「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」。",
       "sentenceIndex": 54,
@@ -2499,12 +2281,10 @@ export default {
         "public access"
       ],
       "optionReasons": {
-        "public-mcq-28": "本句指「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」。",
-        "public-mcq-27": "「需要直接與公眾／客戶互動，或主要展示給外界看的」是「public-facing」的用法，與本句語境不同。",
-        "public-mcq-29": "「在社會大眾可以看到、聽到或知道的情況下」是「publicly — openly」的用法，與本句語境不同。",
-        "public-mcq-26": "「已公開的信息領域；或不再受原有專有著作權限制的公有領域」是「public domain」的用法，與本句語境不同。",
-        "public-mcq-30": "「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」是「publicity」的用法，與本句語境不同。",
-        "public-mcq-25": "「根據制度／法律可由公眾查閱的官方資料或紀錄」是「public record」的用法，與本句語境不同。"
+        "public-mcq-28": "本句的「public access」指「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」。",
+        "public-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-28"
     },
@@ -2516,11 +2296,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "public-mcq-29",
-        "public-mcq-28",
-        "public-mcq-30",
-        "public-mcq-27",
-        "public-mcq-31",
-        "public-mcq-26"
+        "public-mcq-38",
+        "public-mcq-14",
+        "public-mcq-15"
       ],
       "explanation": "本句的「publicly apologized」指「在社會大眾可以看到、聽到或知道的情況下」。",
       "sentenceIndex": 55,
@@ -2529,12 +2307,10 @@ export default {
         "publicly apologized"
       ],
       "optionReasons": {
-        "public-mcq-29": "本句指「在社會大眾可以看到、聽到或知道的情況下」。",
-        "public-mcq-28": "「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」是「public access」的用法，與本句語境不同。",
-        "public-mcq-30": "「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」是「publicity」的用法，與本句語境不同。",
-        "public-mcq-27": "「需要直接與公眾／客戶互動，或主要展示給外界看的」是「public-facing」的用法，與本句語境不同。",
-        "public-mcq-31": "「透過媒體、公告等方式令大量公眾知道某件事」是「publicize/publicise」的用法，與本句語境不同。",
-        "public-mcq-26": "「已公開的信息領域；或不再受原有專有著作權限制的公有領域」是「public domain」的用法，與本句語境不同。"
+        "public-mcq-29": "本句的「publicly apologized」指「在社會大眾可以看到、聽到或知道的情況下」。",
+        "public-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-29"
     },
@@ -2546,11 +2322,9 @@ export default {
       "masked": "She had never ____ the experience.",
       "options": [
         "public-mcq-29",
-        "public-mcq-28",
-        "public-mcq-30",
-        "public-mcq-27",
-        "public-mcq-31",
-        "public-mcq-26"
+        "public-pdf-002",
+        "public-mcq-26",
+        "public-mcq-15"
       ],
       "explanation": "本句的「publicly discussed」指「在社會大眾可以看到、聽到或知道的情況下」。",
       "sentenceIndex": 56,
@@ -2559,12 +2333,10 @@ export default {
         "publicly discussed"
       ],
       "optionReasons": {
-        "public-mcq-29": "本句指「在社會大眾可以看到、聽到或知道的情況下」。",
-        "public-mcq-28": "「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」是「public access」的用法，與本句語境不同。",
-        "public-mcq-30": "「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」是「publicity」的用法，與本句語境不同。",
-        "public-mcq-27": "「需要直接與公眾／客戶互動，或主要展示給外界看的」是「public-facing」的用法，與本句語境不同。",
-        "public-mcq-31": "「透過媒體、公告等方式令大量公眾知道某件事」是「publicize/publicise」的用法，與本句語境不同。",
-        "public-mcq-26": "「已公開的信息領域；或不再受原有專有著作權限制的公有領域」是「public domain」的用法，與本句語境不同。"
+        "public-mcq-29": "本句的「publicly discussed」指「在社會大眾可以看到、聽到或知道的情況下」。",
+        "public-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-29"
     },
@@ -2576,11 +2348,9 @@ export default {
       "masked": "The organization is ____.",
       "options": [
         "public-pdf-002",
-        "public-mcq-28",
-        "public-mcq-30",
-        "public-mcq-27",
-        "public-mcq-31",
-        "public-mcq-26"
+        "public-mcq-10",
+        "public-mcq-04",
+        "public-mcq-27"
       ],
       "explanation": "本句的「publicly funded」指「由政府／公共機構資助或擁有」。",
       "sentenceIndex": 57,
@@ -2589,12 +2359,10 @@ export default {
         "publicly funded"
       ],
       "optionReasons": {
-        "public-pdf-002": "本句指「由政府／公共機構資助或擁有」。",
-        "public-mcq-28": "「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」是「public access」的用法，與本句語境不同。",
-        "public-mcq-30": "「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」是「publicity」的用法，與本句語境不同。",
-        "public-mcq-27": "「需要直接與公眾／客戶互動，或主要展示給外界看的」是「public-facing」的用法，與本句語境不同。",
-        "public-mcq-31": "「透過媒體、公告等方式令大量公眾知道某件事」是「publicize/publicise」的用法，與本句語境不同。",
-        "public-mcq-26": "「已公開的信息領域；或不再受原有專有著作權限制的公有領域」是「public domain」的用法，與本句語境不同。"
+        "public-pdf-002": "本句的「publicly funded」指「由政府／公共機構資助或擁有」。",
+        "public-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-pdf-002"
     },
@@ -2606,11 +2374,9 @@ export default {
       "masked": "The service is ____.",
       "options": [
         "public-pdf-002",
-        "public-mcq-28",
-        "public-mcq-30",
-        "public-mcq-27",
-        "public-mcq-31",
-        "public-mcq-26"
+        "public-mcq-09",
+        "public-mcq-04",
+        "public-mcq-30"
       ],
       "explanation": "本句的「publicly owned」指「由政府／公共機構資助或擁有」。",
       "sentenceIndex": 58,
@@ -2619,12 +2385,10 @@ export default {
         "publicly owned"
       ],
       "optionReasons": {
-        "public-pdf-002": "本句指「由政府／公共機構資助或擁有」。",
-        "public-mcq-28": "「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」是「public access」的用法，與本句語境不同。",
-        "public-mcq-30": "「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」是「publicity」的用法，與本句語境不同。",
-        "public-mcq-27": "「需要直接與公眾／客戶互動，或主要展示給外界看的」是「public-facing」的用法，與本句語境不同。",
-        "public-mcq-31": "「透過媒體、公告等方式令大量公眾知道某件事」是「publicize/publicise」的用法，與本句語境不同。",
-        "public-mcq-26": "「已公開的信息領域；或不再受原有專有著作權限制的公有領域」是「public domain」的用法，與本句語境不同。"
+        "public-pdf-002": "本句的「publicly owned」指「由政府／公共機構資助或擁有」。",
+        "public-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-pdf-002"
     },
@@ -2636,11 +2400,9 @@ export default {
       "masked": "The event received a lot of ____.",
       "options": [
         "public-mcq-30",
-        "public-mcq-29",
-        "public-mcq-31",
-        "public-mcq-28",
-        "public-mcq-32",
-        "public-mcq-27"
+        "public-mcq-04",
+        "public-mcq-35",
+        "public-mcq-24"
       ],
       "explanation": "本句的「publicity」指「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」。",
       "sentenceIndex": 59,
@@ -2649,12 +2411,10 @@ export default {
         "publicity"
       ],
       "optionReasons": {
-        "public-mcq-30": "本句指「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」。",
-        "public-mcq-29": "「在社會大眾可以看到、聽到或知道的情況下」是「publicly — openly」的用法，與本句語境不同。",
-        "public-mcq-31": "「透過媒體、公告等方式令大量公眾知道某件事」是「publicize/publicise」的用法，與本句語境不同。",
-        "public-mcq-28": "「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」是「public access」的用法，與本句語境不同。",
-        "public-mcq-32": "「管理機構／人物與公眾、媒體及持份者關係和形象的工作」是「public relations」的用法，與本句語境不同。",
-        "public-mcq-27": "「需要直接與公眾／客戶互動，或主要展示給外界看的」是「public-facing」的用法，與本句語境不同。"
+        "public-mcq-30": "本句的「publicity」指「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-30"
     },
@@ -2666,11 +2426,9 @@ export default {
       "masked": "The company wanted to avoid negative ____.",
       "options": [
         "public-mcq-30",
-        "public-mcq-29",
-        "public-mcq-31",
-        "public-mcq-28",
-        "public-mcq-32",
-        "public-mcq-27"
+        "public-mcq-04",
+        "public-mcq-16",
+        "public-mcq-24"
       ],
       "explanation": "本句的「publicity」指「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」。",
       "sentenceIndex": 60,
@@ -2679,12 +2437,10 @@ export default {
         "publicity"
       ],
       "optionReasons": {
-        "public-mcq-30": "本句指「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」。",
-        "public-mcq-29": "「在社會大眾可以看到、聽到或知道的情況下」是「publicly — openly」的用法，與本句語境不同。",
-        "public-mcq-31": "「透過媒體、公告等方式令大量公眾知道某件事」是「publicize/publicise」的用法，與本句語境不同。",
-        "public-mcq-28": "「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」是「public access」的用法，與本句語境不同。",
-        "public-mcq-32": "「管理機構／人物與公眾、媒體及持份者關係和形象的工作」是「public relations」的用法，與本句語境不同。",
-        "public-mcq-27": "「需要直接與公眾／客戶互動，或主要展示給外界看的」是「public-facing」的用法，與本句語境不同。"
+        "public-mcq-30": "本句的「publicity」指「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-30"
     },
@@ -2696,11 +2452,9 @@ export default {
       "masked": "The campaign generated free ____ for the product.",
       "options": [
         "public-mcq-30",
-        "public-mcq-29",
-        "public-mcq-31",
-        "public-mcq-28",
-        "public-mcq-32",
-        "public-mcq-27"
+        "public-mcq-04",
+        "public-mcq-16",
+        "public-mcq-24"
       ],
       "explanation": "本句的「publicity」指「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」。",
       "sentenceIndex": 61,
@@ -2709,12 +2463,10 @@ export default {
         "publicity"
       ],
       "optionReasons": {
-        "public-mcq-30": "本句指「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」。",
-        "public-mcq-29": "「在社會大眾可以看到、聽到或知道的情況下」是「publicly — openly」的用法，與本句語境不同。",
-        "public-mcq-31": "「透過媒體、公告等方式令大量公眾知道某件事」是「publicize/publicise」的用法，與本句語境不同。",
-        "public-mcq-28": "「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」是「public access」的用法，與本句語境不同。",
-        "public-mcq-32": "「管理機構／人物與公眾、媒體及持份者關係和形象的工作」是「public relations」的用法，與本句語境不同。",
-        "public-mcq-27": "「需要直接與公眾／客戶互動，或主要展示給外界看的」是「public-facing」的用法，與本句語境不同。"
+        "public-mcq-30": "本句的「publicity」指「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-30"
     },
@@ -2726,11 +2478,9 @@ export default {
       "masked": "The launch received extensive ____.",
       "options": [
         "public-mcq-30",
-        "public-mcq-29",
-        "public-mcq-31",
-        "public-mcq-28",
-        "public-mcq-32",
-        "public-mcq-27"
+        "public-mcq-04",
+        "public-mcq-12",
+        "public-mcq-24"
       ],
       "explanation": "本句的「publicity」指「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」。",
       "sentenceIndex": 62,
@@ -2739,12 +2489,10 @@ export default {
         "publicity"
       ],
       "optionReasons": {
-        "public-mcq-30": "本句指「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」。",
-        "public-mcq-29": "「在社會大眾可以看到、聽到或知道的情況下」是「publicly — openly」的用法，與本句語境不同。",
-        "public-mcq-31": "「透過媒體、公告等方式令大量公眾知道某件事」是「publicize/publicise」的用法，與本句語境不同。",
-        "public-mcq-28": "「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」是「public access」的用法，與本句語境不同。",
-        "public-mcq-32": "「管理機構／人物與公眾、媒體及持份者關係和形象的工作」是「public relations」的用法，與本句語境不同。",
-        "public-mcq-27": "「需要直接與公眾／客戶互動，或主要展示給外界看的」是「public-facing」的用法，與本句語境不同。"
+        "public-mcq-30": "本句的「publicity」指「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-30"
     },
@@ -2756,11 +2504,9 @@ export default {
       "masked": "The company ____ the event online.",
       "options": [
         "public-mcq-31",
-        "public-mcq-30",
-        "public-mcq-32",
-        "public-mcq-29",
-        "public-mcq-33",
-        "public-mcq-28"
+        "public-mcq-04",
+        "public-mcq-15",
+        "public-mcq-12"
       ],
       "explanation": "本句的「publicized」指「透過媒體、公告等方式令大量公眾知道某件事」。",
       "sentenceIndex": 63,
@@ -2769,12 +2515,10 @@ export default {
         "publicized"
       ],
       "optionReasons": {
-        "public-mcq-31": "本句指「透過媒體、公告等方式令大量公眾知道某件事」。",
-        "public-mcq-30": "「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」是「publicity」的用法，與本句語境不同。",
-        "public-mcq-32": "「管理機構／人物與公眾、媒體及持份者關係和形象的工作」是「public relations」的用法，與本句語境不同。",
-        "public-mcq-29": "「在社會大眾可以看到、聽到或知道的情況下」是「publicly — openly」的用法，與本句語境不同。",
-        "public-mcq-33": "「社會大眾對某人／機構形成的整體印象」是「public image」的用法，與本句語境不同。",
-        "public-mcq-28": "「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」是「public access」的用法，與本句語境不同。"
+        "public-mcq-31": "本句的「publicized」指「透過媒體、公告等方式令大量公眾知道某件事」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-31"
     },
@@ -2786,11 +2530,9 @@ export default {
       "masked": "The results were widely ____.",
       "options": [
         "public-mcq-31",
-        "public-mcq-30",
-        "public-mcq-32",
-        "public-mcq-29",
-        "public-mcq-33",
-        "public-mcq-28"
+        "public-mcq-04",
+        "public-mcq-36",
+        "public-mcq-26"
       ],
       "explanation": "本句的「publicised」指「透過媒體、公告等方式令大量公眾知道某件事」。",
       "sentenceIndex": 64,
@@ -2799,12 +2541,10 @@ export default {
         "publicised"
       ],
       "optionReasons": {
-        "public-mcq-31": "本句指「透過媒體、公告等方式令大量公眾知道某件事」。",
-        "public-mcq-30": "「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」是「publicity」的用法，與本句語境不同。",
-        "public-mcq-32": "「管理機構／人物與公眾、媒體及持份者關係和形象的工作」是「public relations」的用法，與本句語境不同。",
-        "public-mcq-29": "「在社會大眾可以看到、聽到或知道的情況下」是「publicly — openly」的用法，與本句語境不同。",
-        "public-mcq-33": "「社會大眾對某人／機構形成的整體印象」是「public image」的用法，與本句語境不同。",
-        "public-mcq-28": "「一般公眾進入、使用、閱讀或取得某項資源的權利／可能性」是「public access」的用法，與本句語境不同。"
+        "public-mcq-31": "本句的「publicised」指「透過媒體、公告等方式令大量公眾知道某件事」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-31"
     },
@@ -2816,11 +2556,9 @@ export default {
       "masked": "She works in ____.",
       "options": [
         "public-mcq-32",
-        "public-mcq-31",
-        "public-mcq-33",
-        "public-mcq-30",
-        "public-mcq-34",
-        "public-mcq-29"
+        "public-mcq-04",
+        "public-mcq-24",
+        "public-mcq-15"
       ],
       "explanation": "本句的「public relations」指「管理機構／人物與公眾、媒體及持份者關係和形象的工作」。",
       "sentenceIndex": 65,
@@ -2829,12 +2567,10 @@ export default {
         "public relations"
       ],
       "optionReasons": {
-        "public-mcq-32": "本句指「管理機構／人物與公眾、媒體及持份者關係和形象的工作」。",
-        "public-mcq-31": "「透過媒體、公告等方式令大量公眾知道某件事」是「publicize/publicise」的用法，與本句語境不同。",
-        "public-mcq-33": "「社會大眾對某人／機構形成的整體印象」是「public image」的用法，與本句語境不同。",
-        "public-mcq-30": "「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」是「publicity」的用法，與本句語境不同。",
-        "public-mcq-34": "「某人／機構受到公眾注意、認識或媒體曝光的程度」是「public profile」的用法，與本句語境不同。",
-        "public-mcq-29": "「在社會大眾可以看到、聽到或知道的情況下」是「publicly — openly」的用法，與本句語境不同。"
+        "public-mcq-32": "本句的「public relations」指「管理機構／人物與公眾、媒體及持份者關係和形象的工作」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-32"
     },
@@ -2846,11 +2582,9 @@ export default {
       "masked": "The company hired a ____ consultant.",
       "options": [
         "public-mcq-32",
-        "public-mcq-31",
-        "public-mcq-33",
-        "public-mcq-30",
-        "public-mcq-34",
-        "public-mcq-29"
+        "public-mcq-04",
+        "public-mcq-24",
+        "public-mcq-15"
       ],
       "explanation": "本句的「public relations」指「管理機構／人物與公眾、媒體及持份者關係和形象的工作」。",
       "sentenceIndex": 66,
@@ -2859,12 +2593,10 @@ export default {
         "public relations"
       ],
       "optionReasons": {
-        "public-mcq-32": "本句指「管理機構／人物與公眾、媒體及持份者關係和形象的工作」。",
-        "public-mcq-31": "「透過媒體、公告等方式令大量公眾知道某件事」是「publicize/publicise」的用法，與本句語境不同。",
-        "public-mcq-33": "「社會大眾對某人／機構形成的整體印象」是「public image」的用法，與本句語境不同。",
-        "public-mcq-30": "「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」是「publicity」的用法，與本句語境不同。",
-        "public-mcq-34": "「某人／機構受到公眾注意、認識或媒體曝光的程度」是「public profile」的用法，與本句語境不同。",
-        "public-mcq-29": "「在社會大眾可以看到、聽到或知道的情況下」是「publicly — openly」的用法，與本句語境不同。"
+        "public-mcq-32": "本句的「public relations」指「管理機構／人物與公眾、媒體及持份者關係和形象的工作」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-32"
     },
@@ -2876,11 +2608,9 @@ export default {
       "masked": "The company is trying to improve its ____.",
       "options": [
         "public-mcq-33",
-        "public-mcq-32",
-        "public-mcq-34",
-        "public-mcq-31",
-        "public-mcq-35",
-        "public-mcq-30"
+        "public-mcq-04",
+        "public-mcq-36",
+        "public-mcq-15"
       ],
       "explanation": "本句的「public image」指「社會大眾對某人／機構形成的整體印象」。",
       "sentenceIndex": 67,
@@ -2889,12 +2619,10 @@ export default {
         "public image"
       ],
       "optionReasons": {
-        "public-mcq-33": "本句指「社會大眾對某人／機構形成的整體印象」。",
-        "public-mcq-32": "「管理機構／人物與公眾、媒體及持份者關係和形象的工作」是「public relations」的用法，與本句語境不同。",
-        "public-mcq-34": "「某人／機構受到公眾注意、認識或媒體曝光的程度」是「public profile」的用法，與本句語境不同。",
-        "public-mcq-31": "「透過媒體、公告等方式令大量公眾知道某件事」是「publicize/publicise」的用法，與本句語境不同。",
-        "public-mcq-35": "「由政府／公共機構擁有並供公共用途的財產」是「public property」的用法，與本句語境不同。",
-        "public-mcq-30": "「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」是「publicity」的用法，與本句語境不同。"
+        "public-mcq-33": "本句的「public image」指「社會大眾對某人／機構形成的整體印象」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-33"
     },
@@ -2906,11 +2634,9 @@ export default {
       "masked": "The incident damaged his ____.",
       "options": [
         "public-mcq-33",
-        "public-mcq-32",
-        "public-mcq-34",
-        "public-mcq-31",
-        "public-mcq-35",
-        "public-mcq-30"
+        "public-mcq-36",
+        "public-mcq-26",
+        "public-mcq-15"
       ],
       "explanation": "本句的「public image」指「社會大眾對某人／機構形成的整體印象」。",
       "sentenceIndex": 68,
@@ -2919,12 +2645,10 @@ export default {
         "public image"
       ],
       "optionReasons": {
-        "public-mcq-33": "本句指「社會大眾對某人／機構形成的整體印象」。",
-        "public-mcq-32": "「管理機構／人物與公眾、媒體及持份者關係和形象的工作」是「public relations」的用法，與本句語境不同。",
-        "public-mcq-34": "「某人／機構受到公眾注意、認識或媒體曝光的程度」是「public profile」的用法，與本句語境不同。",
-        "public-mcq-31": "「透過媒體、公告等方式令大量公眾知道某件事」是「publicize/publicise」的用法，與本句語境不同。",
-        "public-mcq-35": "「由政府／公共機構擁有並供公共用途的財產」是「public property」的用法，與本句語境不同。",
-        "public-mcq-30": "「透過新聞、媒體或其他渠道得到的公眾注意／報道／宣傳曝光」是「publicity」的用法，與本句語境不同。"
+        "public-mcq-33": "本句的「public image」指「社會大眾對某人／機構形成的整體印象」。",
+        "public-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-33"
     },
@@ -2936,11 +2660,9 @@ export default {
       "masked": "The role gave her a higher ____.",
       "options": [
         "public-mcq-34",
-        "public-mcq-33",
-        "public-mcq-35",
-        "public-mcq-32",
+        "public-mcq-04",
         "public-mcq-36",
-        "public-mcq-31"
+        "public-mcq-15"
       ],
       "explanation": "本句的「public profile」指「某人／機構受到公眾注意、認識或媒體曝光的程度」。",
       "sentenceIndex": 69,
@@ -2949,12 +2671,10 @@ export default {
         "public profile"
       ],
       "optionReasons": {
-        "public-mcq-34": "本句指「某人／機構受到公眾注意、認識或媒體曝光的程度」。",
-        "public-mcq-33": "「社會大眾對某人／機構形成的整體印象」是「public image」的用法，與本句語境不同。",
-        "public-mcq-35": "「由政府／公共機構擁有並供公共用途的財產」是「public property」的用法，與本句語境不同。",
-        "public-mcq-32": "「管理機構／人物與公眾、媒體及持份者關係和形象的工作」是「public relations」的用法，與本句語境不同。",
-        "public-mcq-36": "「來自政府／公共財政、用於公共用途的資金」是「public funds」的用法，與本句語境不同。",
-        "public-mcq-31": "「透過媒體、公告等方式令大量公眾知道某件事」是「publicize/publicise」的用法，與本句語境不同。"
+        "public-mcq-34": "本句的「public profile」指「某人／機構受到公眾注意、認識或媒體曝光的程度」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-34"
     },
@@ -2966,11 +2686,9 @@ export default {
       "masked": "The organization has a relatively low ____.",
       "options": [
         "public-mcq-34",
-        "public-mcq-33",
-        "public-mcq-35",
-        "public-mcq-32",
-        "public-mcq-36",
-        "public-mcq-31"
+        "public-mcq-04",
+        "public-mcq-15",
+        "public-mcq-36"
       ],
       "explanation": "本句的「public profile」指「某人／機構受到公眾注意、認識或媒體曝光的程度」。",
       "sentenceIndex": 70,
@@ -2979,12 +2697,10 @@ export default {
         "public profile"
       ],
       "optionReasons": {
-        "public-mcq-34": "本句指「某人／機構受到公眾注意、認識或媒體曝光的程度」。",
-        "public-mcq-33": "「社會大眾對某人／機構形成的整體印象」是「public image」的用法，與本句語境不同。",
-        "public-mcq-35": "「由政府／公共機構擁有並供公共用途的財產」是「public property」的用法，與本句語境不同。",
-        "public-mcq-32": "「管理機構／人物與公眾、媒體及持份者關係和形象的工作」是「public relations」的用法，與本句語境不同。",
-        "public-mcq-36": "「來自政府／公共財政、用於公共用途的資金」是「public funds」的用法，與本句語境不同。",
-        "public-mcq-31": "「透過媒體、公告等方式令大量公眾知道某件事」是「publicize/publicise」的用法，與本句語境不同。"
+        "public-mcq-34": "本句的「public profile」指「某人／機構受到公眾注意、認識或媒體曝光的程度」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-34"
     },
@@ -2996,11 +2712,9 @@ export default {
       "masked": "Damaging ____ is illegal.",
       "options": [
         "public-mcq-35",
-        "public-mcq-34",
-        "public-mcq-36",
-        "public-mcq-33",
-        "public-mcq-37",
-        "public-mcq-32"
+        "public-mcq-09",
+        "public-mcq-04",
+        "public-mcq-15"
       ],
       "explanation": "本句的「public property」指「由政府／公共機構擁有並供公共用途的財產」。",
       "sentenceIndex": 71,
@@ -3009,12 +2723,10 @@ export default {
         "public property"
       ],
       "optionReasons": {
-        "public-mcq-35": "本句指「由政府／公共機構擁有並供公共用途的財產」。",
-        "public-mcq-34": "「某人／機構受到公眾注意、認識或媒體曝光的程度」是「public profile」的用法，與本句語境不同。",
-        "public-mcq-36": "「來自政府／公共財政、用於公共用途的資金」是「public funds」的用法，與本句語境不同。",
-        "public-mcq-33": "「社會大眾對某人／機構形成的整體印象」是「public image」的用法，與本句語境不同。",
-        "public-mcq-37": "「對社會整體有益的公共利益；經濟學中亦可指公共財」是「public good」的用法，與本句語境不同。",
-        "public-mcq-32": "「管理機構／人物與公眾、媒體及持份者關係和形象的工作」是「public relations」的用法，與本句語境不同。"
+        "public-mcq-35": "本句的「public property」指「由政府／公共機構擁有並供公共用途的財產」。",
+        "public-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-35"
     },
@@ -3026,11 +2738,9 @@ export default {
       "masked": "The park benches are ____.",
       "options": [
         "public-mcq-35",
-        "public-mcq-34",
-        "public-mcq-36",
-        "public-mcq-33",
-        "public-mcq-37",
-        "public-mcq-32"
+        "public-mcq-04",
+        "public-mcq-17",
+        "public-mcq-31"
       ],
       "explanation": "本句的「public property」指「由政府／公共機構擁有並供公共用途的財產」。",
       "sentenceIndex": 72,
@@ -3039,12 +2749,10 @@ export default {
         "public property"
       ],
       "optionReasons": {
-        "public-mcq-35": "本句指「由政府／公共機構擁有並供公共用途的財產」。",
-        "public-mcq-34": "「某人／機構受到公眾注意、認識或媒體曝光的程度」是「public profile」的用法，與本句語境不同。",
-        "public-mcq-36": "「來自政府／公共財政、用於公共用途的資金」是「public funds」的用法，與本句語境不同。",
-        "public-mcq-33": "「社會大眾對某人／機構形成的整體印象」是「public image」的用法，與本句語境不同。",
-        "public-mcq-37": "「對社會整體有益的公共利益；經濟學中亦可指公共財」是「public good」的用法，與本句語境不同。",
-        "public-mcq-32": "「管理機構／人物與公眾、媒體及持份者關係和形象的工作」是「public relations」的用法，與本句語境不同。"
+        "public-mcq-35": "本句的「public property」指「由政府／公共機構擁有並供公共用途的財產」。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-35"
     },
@@ -3056,11 +2764,9 @@ export default {
       "masked": "The project was paid for with ____.",
       "options": [
         "public-mcq-36",
-        "public-mcq-35",
-        "public-mcq-37",
-        "public-mcq-34",
-        "public-mcq-38",
-        "public-mcq-33"
+        "public-mcq-10",
+        "public-mcq-04",
+        "public-mcq-31"
       ],
       "explanation": "本句的「public funds」指「來自政府／公共財政、用於公共用途的資金」。",
       "sentenceIndex": 73,
@@ -3069,12 +2775,10 @@ export default {
         "public funds"
       ],
       "optionReasons": {
-        "public-mcq-36": "本句指「來自政府／公共財政、用於公共用途的資金」。",
-        "public-mcq-35": "「由政府／公共機構擁有並供公共用途的財產」是「public property」的用法，與本句語境不同。",
-        "public-mcq-37": "「對社會整體有益的公共利益；經濟學中亦可指公共財」是「public good」的用法，與本句語境不同。",
-        "public-mcq-34": "「某人／機構受到公眾注意、認識或媒體曝光的程度」是「public profile」的用法，與本句語境不同。",
-        "public-mcq-38": "「公司股份可在公開證券市場買賣的」是「23. publicly traded（公開上市交易的） — 上市交易的」的用法，與本句語境不同。",
-        "public-mcq-33": "「社會大眾對某人／機構形成的整體印象」是「public image」的用法，與本句語境不同。"
+        "public-mcq-36": "本句的「public funds」指「來自政府／公共財政、用於公共用途的資金」。",
+        "public-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-36"
     },
@@ -3086,11 +2790,9 @@ export default {
       "masked": "Officials must use ____ responsibly.",
       "options": [
         "public-mcq-36",
-        "public-mcq-35",
-        "public-mcq-37",
-        "public-mcq-34",
-        "public-mcq-38",
-        "public-mcq-33"
+        "public-mcq-19",
+        "public-mcq-26",
+        "public-mcq-27"
       ],
       "explanation": "本句的「public funds」指「來自政府／公共財政、用於公共用途的資金」。",
       "sentenceIndex": 74,
@@ -3099,12 +2801,10 @@ export default {
         "public funds"
       ],
       "optionReasons": {
-        "public-mcq-36": "本句指「來自政府／公共財政、用於公共用途的資金」。",
-        "public-mcq-35": "「由政府／公共機構擁有並供公共用途的財產」是「public property」的用法，與本句語境不同。",
-        "public-mcq-37": "「對社會整體有益的公共利益；經濟學中亦可指公共財」是「public good」的用法，與本句語境不同。",
-        "public-mcq-34": "「某人／機構受到公眾注意、認識或媒體曝光的程度」是「public profile」的用法，與本句語境不同。",
-        "public-mcq-38": "「公司股份可在公開證券市場買賣的」是「23. publicly traded（公開上市交易的） — 上市交易的」的用法，與本句語境不同。",
-        "public-mcq-33": "「社會大眾對某人／機構形成的整體印象」是「public image」的用法，與本句語境不同。"
+        "public-mcq-36": "本句的「public funds」指「來自政府／公共財政、用於公共用途的資金」。",
+        "public-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "public-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "public-mcq-36"
     }
@@ -3116,5 +2816,7 @@ export default {
     "sha256": "5332269088006a0202a1293f9831ce6729963a6f451a9ebd2b09dcd99625c645",
     "pages": 30
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -272,11 +272,8 @@ export default {
       "masked": "Learning a language requires ____.",
       "options": [
         "discipline-mcq-01",
-        "discipline-mcq-02",
-        "discipline-mcq-03",
-        "discipline-mcq-04",
-        "discipline-mcq-05",
-        "discipline-mcq-06"
+        "discipline-mcq-07",
+        "discipline-mcq-04"
       ],
       "explanation": "本句的「discipline」指「控制自己行為、習慣、情緒和努力，以持續達成目標的能力；自律」。",
       "sentenceIndex": 0,
@@ -285,12 +282,9 @@ export default {
         "discipline"
       ],
       "optionReasons": {
-        "discipline-mcq-01": "本句指「控制自己行為、習慣、情緒和努力，以持續達成目標的能力；自律」。",
-        "discipline-mcq-02": "「透過規則和行為標準維持秩序的紀律制度」與本句語境不同。",
-        "discipline-mcq-03": "「因違規或不當行為而採取的懲戒／紀律處分」與本句語境不同。",
-        "discipline-mcq-04": "「具有自身理論、方法和研究範圍的學術／專業學科」與本句語境不同。",
-        "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。"
+        "discipline-mcq-01": "本句的「discipline」指「控制自己行為、習慣、情緒和努力，以持續達成目標的能力；自律」。",
+        "discipline-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "discipline-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-01"
     },
@@ -302,11 +296,8 @@ export default {
       "masked": "She has the ____ to practise every day.",
       "options": [
         "discipline-mcq-01",
-        "discipline-mcq-02",
-        "discipline-mcq-03",
-        "discipline-mcq-04",
-        "discipline-mcq-05",
-        "discipline-mcq-06"
+        "discipline-mcq-07",
+        "discipline-mcq-04"
       ],
       "explanation": "本句的「discipline」指「控制自己行為、習慣、情緒和努力，以持續達成目標的能力；自律」。",
       "sentenceIndex": 1,
@@ -315,12 +306,9 @@ export default {
         "discipline"
       ],
       "optionReasons": {
-        "discipline-mcq-01": "本句指「控制自己行為、習慣、情緒和努力，以持續達成目標的能力；自律」。",
-        "discipline-mcq-02": "「透過規則和行為標準維持秩序的紀律制度」與本句語境不同。",
-        "discipline-mcq-03": "「因違規或不當行為而採取的懲戒／紀律處分」與本句語境不同。",
-        "discipline-mcq-04": "「具有自身理論、方法和研究範圍的學術／專業學科」與本句語境不同。",
-        "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。"
+        "discipline-mcq-01": "本句的「discipline」指「控制自己行為、習慣、情緒和努力，以持續達成目標的能力；自律」。",
+        "discipline-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "discipline-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-01"
     },
@@ -332,11 +320,8 @@ export default {
       "masked": "Good study habits take time and ____.",
       "options": [
         "discipline-mcq-01",
-        "discipline-mcq-02",
-        "discipline-mcq-03",
-        "discipline-mcq-04",
-        "discipline-mcq-05",
-        "discipline-mcq-06"
+        "discipline-mcq-07",
+        "discipline-mcq-04"
       ],
       "explanation": "本句的「discipline」指「控制自己行為、習慣、情緒和努力，以持續達成目標的能力；自律」。",
       "sentenceIndex": 2,
@@ -345,12 +330,9 @@ export default {
         "discipline"
       ],
       "optionReasons": {
-        "discipline-mcq-01": "本句指「控制自己行為、習慣、情緒和努力，以持續達成目標的能力；自律」。",
-        "discipline-mcq-02": "「透過規則和行為標準維持秩序的紀律制度」與本句語境不同。",
-        "discipline-mcq-03": "「因違規或不當行為而採取的懲戒／紀律處分」與本句語境不同。",
-        "discipline-mcq-04": "「具有自身理論、方法和研究範圍的學術／專業學科」與本句語境不同。",
-        "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。"
+        "discipline-mcq-01": "本句的「discipline」指「控制自己行為、習慣、情緒和努力，以持續達成目標的能力；自律」。",
+        "discipline-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "discipline-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-01"
     },
@@ -362,11 +344,8 @@ export default {
       "masked": "The school places great importance on ____.",
       "options": [
         "discipline-mcq-02",
-        "discipline-mcq-01",
-        "discipline-mcq-03",
         "discipline-mcq-04",
-        "discipline-mcq-05",
-        "discipline-mcq-06"
+        "discipline-mcq-07"
       ],
       "explanation": "本句的「discipline」指「透過規則和行為標準維持秩序的紀律制度」。",
       "sentenceIndex": 3,
@@ -375,12 +354,9 @@ export default {
         "discipline"
       ],
       "optionReasons": {
-        "discipline-mcq-02": "本句指「透過規則和行為標準維持秩序的紀律制度」。",
-        "discipline-mcq-01": "「控制自己行為、習慣、情緒和努力，以持續達成目標的能力；自律」與本句語境不同。",
-        "discipline-mcq-03": "「因違規或不當行為而採取的懲戒／紀律處分」與本句語境不同。",
-        "discipline-mcq-04": "「具有自身理論、方法和研究範圍的學術／專業學科」與本句語境不同。",
-        "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。"
+        "discipline-mcq-02": "本句的「discipline」指「透過規則和行為標準維持秩序的紀律制度」。",
+        "discipline-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "discipline-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-02"
     },
@@ -392,11 +368,8 @@ export default {
       "masked": "The army depends on strict ____.",
       "options": [
         "discipline-mcq-02",
-        "discipline-mcq-01",
-        "discipline-mcq-03",
         "discipline-mcq-04",
-        "discipline-mcq-05",
-        "discipline-mcq-06"
+        "discipline-mcq-07"
       ],
       "explanation": "本句的「discipline」指「透過規則和行為標準維持秩序的紀律制度」。",
       "sentenceIndex": 4,
@@ -405,12 +378,9 @@ export default {
         "discipline"
       ],
       "optionReasons": {
-        "discipline-mcq-02": "本句指「透過規則和行為標準維持秩序的紀律制度」。",
-        "discipline-mcq-01": "「控制自己行為、習慣、情緒和努力，以持續達成目標的能力；自律」與本句語境不同。",
-        "discipline-mcq-03": "「因違規或不當行為而採取的懲戒／紀律處分」與本句語境不同。",
-        "discipline-mcq-04": "「具有自身理論、方法和研究範圍的學術／專業學科」與本句語境不同。",
-        "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。"
+        "discipline-mcq-02": "本句的「discipline」指「透過規則和行為標準維持秩序的紀律制度」。",
+        "discipline-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "discipline-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-02"
     },
@@ -422,11 +392,8 @@ export default {
       "masked": "The employee faced ____ for repeated misconduct.",
       "options": [
         "discipline-mcq-03",
-        "discipline-mcq-02",
         "discipline-mcq-04",
-        "discipline-mcq-01",
-        "discipline-mcq-05",
-        "discipline-mcq-06"
+        "discipline-pdf-001"
       ],
       "explanation": "本句的「discipline」指「因違規或不當行為而採取的懲戒／紀律處分」。",
       "sentenceIndex": 5,
@@ -435,12 +402,9 @@ export default {
         "discipline"
       ],
       "optionReasons": {
-        "discipline-mcq-03": "本句指「因違規或不當行為而採取的懲戒／紀律處分」。",
-        "discipline-mcq-02": "「透過規則和行為標準維持秩序的紀律制度」與本句語境不同。",
-        "discipline-mcq-04": "「具有自身理論、方法和研究範圍的學術／專業學科」與本句語境不同。",
-        "discipline-mcq-01": "「控制自己行為、習慣、情緒和努力，以持續達成目標的能力；自律」與本句語境不同。",
-        "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。"
+        "discipline-mcq-03": "本句的「discipline」指「因違規或不當行為而採取的懲戒／紀律處分」。",
+        "discipline-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "discipline-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-03"
     },
@@ -452,11 +416,8 @@ export default {
       "masked": "Parents have different views on ____.",
       "options": [
         "discipline-mcq-03",
-        "discipline-mcq-02",
         "discipline-mcq-04",
-        "discipline-mcq-01",
-        "discipline-mcq-05",
-        "discipline-mcq-06"
+        "discipline-pdf-001"
       ],
       "explanation": "本句的「discipline」指「因違規或不當行為而採取的懲戒／紀律處分」。",
       "sentenceIndex": 6,
@@ -465,12 +426,9 @@ export default {
         "discipline"
       ],
       "optionReasons": {
-        "discipline-mcq-03": "本句指「因違規或不當行為而採取的懲戒／紀律處分」。",
-        "discipline-mcq-02": "「透過規則和行為標準維持秩序的紀律制度」與本句語境不同。",
-        "discipline-mcq-04": "「具有自身理論、方法和研究範圍的學術／專業學科」與本句語境不同。",
-        "discipline-mcq-01": "「控制自己行為、習慣、情緒和努力，以持續達成目標的能力；自律」與本句語境不同。",
-        "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。"
+        "discipline-mcq-03": "本句的「discipline」指「因違規或不當行為而採取的懲戒／紀律處分」。",
+        "discipline-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "discipline-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-03"
     },
@@ -482,10 +440,7 @@ export default {
       "masked": "Psychology is an academic ____.",
       "options": [
         "discipline-mcq-04",
-        "discipline-mcq-03",
-        "discipline-mcq-05",
-        "discipline-mcq-02",
-        "discipline-mcq-06",
+        "discipline-mcq-10",
         "discipline-mcq-01"
       ],
       "explanation": "本句的「discipline」指「具有自身理論、方法和研究範圍的學術／專業學科」。",
@@ -495,12 +450,9 @@ export default {
         "discipline"
       ],
       "optionReasons": {
-        "discipline-mcq-04": "本句指「具有自身理論、方法和研究範圍的學術／專業學科」。",
-        "discipline-mcq-03": "「因違規或不當行為而採取的懲戒／紀律處分」與本句語境不同。",
-        "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。",
-        "discipline-mcq-02": "「透過規則和行為標準維持秩序的紀律制度」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。",
-        "discipline-mcq-01": "「控制自己行為、習慣、情緒和努力，以持續達成目標的能力；自律」與本句語境不同。"
+        "discipline-mcq-04": "本句的「discipline」指「具有自身理論、方法和研究範圍的學術／專業學科」。",
+        "discipline-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "discipline-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-04"
     },
@@ -513,10 +465,7 @@ export default {
       "options": [
         "discipline-mcq-04",
         "discipline-mcq-03",
-        "discipline-mcq-05",
-        "discipline-mcq-02",
-        "discipline-mcq-06",
-        "discipline-mcq-01"
+        "discipline-pdf-001"
       ],
       "explanation": "本句的「disciplines」指「具有自身理論、方法和研究範圍的學術／專業學科」。",
       "sentenceIndex": 8,
@@ -525,12 +474,9 @@ export default {
         "disciplines"
       ],
       "optionReasons": {
-        "discipline-mcq-04": "本句指「具有自身理論、方法和研究範圍的學術／專業學科」。",
-        "discipline-mcq-03": "「因違規或不當行為而採取的懲戒／紀律處分」與本句語境不同。",
-        "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。",
-        "discipline-mcq-02": "「透過規則和行為標準維持秩序的紀律制度」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。",
-        "discipline-mcq-01": "「控制自己行為、習慣、情緒和努力，以持續達成目標的能力；自律」與本句語境不同。"
+        "discipline-mcq-04": "本句的「disciplines」指「具有自身理論、方法和研究範圍的學術／專業學科」。",
+        "discipline-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "discipline-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-04"
     },
@@ -542,9 +488,6 @@ export default {
       "masked": "Martial arts require both physical and mental ____.",
       "options": [
         "discipline-mcq-05",
-        "discipline-mcq-04",
-        "discipline-mcq-06",
-        "discipline-mcq-03",
         "discipline-mcq-07",
         "discipline-mcq-02"
       ],
@@ -555,12 +498,9 @@ export default {
         "discipline"
       ],
       "optionReasons": {
-        "discipline-mcq-05": "本句指「需要長期、規律訓練和自我控制的一套修習／訓練」。",
-        "discipline-mcq-04": "「具有自身理論、方法和研究範圍的學術／專業學科」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。",
-        "discipline-mcq-03": "「因違規或不當行為而採取的懲戒／紀律處分」與本句語境不同。",
-        "discipline-mcq-07": "「因違規而正式處分或懲戒某人」與本句語境不同。",
-        "discipline-mcq-02": "「透過規則和行為標準維持秩序的紀律制度」與本句語境不同。"
+        "discipline-mcq-05": "本句的「discipline」指「需要長期、規律訓練和自我控制的一套修習／訓練」。",
+        "discipline-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "discipline-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-05"
     },
@@ -572,9 +512,6 @@ export default {
       "masked": "Meditation became a daily ____ for her.",
       "options": [
         "discipline-mcq-05",
-        "discipline-mcq-04",
-        "discipline-mcq-06",
-        "discipline-mcq-03",
         "discipline-mcq-07",
         "discipline-mcq-02"
       ],
@@ -585,12 +522,9 @@ export default {
         "discipline"
       ],
       "optionReasons": {
-        "discipline-mcq-05": "本句指「需要長期、規律訓練和自我控制的一套修習／訓練」。",
-        "discipline-mcq-04": "「具有自身理論、方法和研究範圍的學術／專業學科」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。",
-        "discipline-mcq-03": "「因違規或不當行為而採取的懲戒／紀律處分」與本句語境不同。",
-        "discipline-mcq-07": "「因違規而正式處分或懲戒某人」與本句語境不同。",
-        "discipline-mcq-02": "「透過規則和行為標準維持秩序的紀律制度」與本句語境不同。"
+        "discipline-mcq-05": "本句的「discipline」指「需要長期、規律訓練和自我控制的一套修習／訓練」。",
+        "discipline-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "discipline-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-05"
     },
@@ -602,10 +536,6 @@ export default {
       "masked": "Children need to learn how to ____ themselves.",
       "options": [
         "discipline-mcq-06",
-        "discipline-mcq-05",
-        "discipline-mcq-07",
-        "discipline-mcq-04",
-        "discipline-mcq-08",
         "discipline-mcq-03"
       ],
       "explanation": "本句的「discipline」指「訓練、管教，使某人學會自我控制並遵守規範」。",
@@ -615,12 +545,8 @@ export default {
         "discipline"
       ],
       "optionReasons": {
-        "discipline-mcq-06": "本句指「訓練、管教，使某人學會自我控制並遵守規範」。",
-        "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。",
-        "discipline-mcq-07": "「因違規而正式處分或懲戒某人」與本句語境不同。",
-        "discipline-mcq-04": "「具有自身理論、方法和研究範圍的學術／專業學科」與本句語境不同。",
-        "discipline-mcq-08": "「自律、有紀律、做事有規律和控制力的」與本句語境不同。",
-        "discipline-mcq-03": "「因違規或不當行為而採取的懲戒／紀律處分」與本句語境不同。"
+        "discipline-mcq-06": "本句的「discipline」指「訓練、管教，使某人學會自我控制並遵守規範」。",
+        "discipline-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-06"
     },
@@ -632,10 +558,6 @@ export default {
       "masked": "The coach ____ the team to follow a strict routine.",
       "options": [
         "discipline-mcq-06",
-        "discipline-mcq-05",
-        "discipline-mcq-07",
-        "discipline-mcq-04",
-        "discipline-mcq-08",
         "discipline-mcq-03"
       ],
       "explanation": "本句的「disciplined」指「訓練、管教，使某人學會自我控制並遵守規範」。",
@@ -645,12 +567,8 @@ export default {
         "disciplined"
       ],
       "optionReasons": {
-        "discipline-mcq-06": "本句指「訓練、管教，使某人學會自我控制並遵守規範」。",
-        "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。",
-        "discipline-mcq-07": "「因違規而正式處分或懲戒某人」與本句語境不同。",
-        "discipline-mcq-04": "「具有自身理論、方法和研究範圍的學術／專業學科」與本句語境不同。",
-        "discipline-mcq-08": "「自律、有紀律、做事有規律和控制力的」與本句語境不同。",
-        "discipline-mcq-03": "「因違規或不當行為而採取的懲戒／紀律處分」與本句語境不同。"
+        "discipline-mcq-06": "本句的「disciplined」指「訓練、管教，使某人學會自我控制並遵守規範」。",
+        "discipline-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-06"
     },
@@ -662,10 +580,7 @@ export default {
       "masked": "The employee was ____ for violating company policy.",
       "options": [
         "discipline-mcq-07",
-        "discipline-mcq-06",
-        "discipline-mcq-08",
-        "discipline-mcq-05",
-        "discipline-mcq-09",
+        "discipline-mcq-01",
         "discipline-mcq-04"
       ],
       "explanation": "本句的「disciplined」指「因違規而正式處分或懲戒某人」。",
@@ -675,12 +590,9 @@ export default {
         "disciplined"
       ],
       "optionReasons": {
-        "discipline-mcq-07": "本句指「因違規而正式處分或懲戒某人」。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。",
-        "discipline-mcq-08": "「自律、有紀律、做事有規律和控制力的」與本句語境不同。",
-        "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。",
-        "discipline-mcq-09": "「與紀律管理、違規處理或處分有關的」與本句語境不同。",
-        "discipline-mcq-04": "「具有自身理論、方法和研究範圍的學術／專業學科」與本句語境不同。"
+        "discipline-mcq-07": "本句的「disciplined」指「因違規而正式處分或懲戒某人」。",
+        "discipline-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "discipline-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-07"
     },
@@ -692,11 +604,8 @@ export default {
       "masked": "The school ____ several students after the incident.",
       "options": [
         "discipline-mcq-07",
-        "discipline-mcq-06",
-        "discipline-mcq-08",
-        "discipline-mcq-05",
-        "discipline-mcq-09",
-        "discipline-mcq-04"
+        "discipline-mcq-04",
+        "discipline-mcq-01"
       ],
       "explanation": "本句的「disciplined」指「因違規而正式處分或懲戒某人」。",
       "sentenceIndex": 14,
@@ -705,12 +614,9 @@ export default {
         "disciplined"
       ],
       "optionReasons": {
-        "discipline-mcq-07": "本句指「因違規而正式處分或懲戒某人」。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。",
-        "discipline-mcq-08": "「自律、有紀律、做事有規律和控制力的」與本句語境不同。",
-        "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。",
-        "discipline-mcq-09": "「與紀律管理、違規處理或處分有關的」與本句語境不同。",
-        "discipline-mcq-04": "「具有自身理論、方法和研究範圍的學術／專業學科」與本句語境不同。"
+        "discipline-mcq-07": "本句的「disciplined」指「因違規而正式處分或懲戒某人」。",
+        "discipline-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "discipline-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-07"
     },
@@ -723,10 +629,7 @@ export default {
       "options": [
         "discipline-pdf-001",
         "discipline-mcq-07",
-        "discipline-mcq-09",
-        "discipline-mcq-06",
-        "discipline-mcq-10",
-        "discipline-mcq-05"
+        "discipline-mcq-04"
       ],
       "explanation": "本句的「disciplined」指「能控制自己、遵守規律，並有系統地持續做應做的事情」。",
       "sentenceIndex": 15,
@@ -735,12 +638,9 @@ export default {
         "disciplined"
       ],
       "optionReasons": {
-        "discipline-pdf-001": "本句指「能控制自己、遵守規律，並有系統地持續做應做的事情」。",
-        "discipline-mcq-07": "「因違規而正式處分或懲戒某人」與本句語境不同。",
-        "discipline-mcq-09": "「與紀律管理、違規處理或處分有關的」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。",
-        "discipline-mcq-10": "「嚴格要求別人遵守規則和紀律的人」與本句語境不同。",
-        "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。"
+        "discipline-pdf-001": "本句的「disciplined」指「能控制自己、遵守規律，並有系統地持續做應做的事情」。",
+        "discipline-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "discipline-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-pdf-001"
     },
@@ -752,11 +652,8 @@ export default {
       "masked": "She is very ____ about her study routine.",
       "options": [
         "discipline-pdf-001",
-        "discipline-mcq-07",
-        "discipline-mcq-09",
-        "discipline-mcq-06",
-        "discipline-mcq-10",
-        "discipline-mcq-05"
+        "discipline-mcq-04",
+        "discipline-mcq-07"
       ],
       "explanation": "本句的「disciplined」指「能控制自己、遵守規律，並有系統地持續做應做的事情」。",
       "sentenceIndex": 16,
@@ -765,12 +662,9 @@ export default {
         "disciplined"
       ],
       "optionReasons": {
-        "discipline-pdf-001": "本句指「能控制自己、遵守規律，並有系統地持續做應做的事情」。",
-        "discipline-mcq-07": "「因違規而正式處分或懲戒某人」與本句語境不同。",
-        "discipline-mcq-09": "「與紀律管理、違規處理或處分有關的」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。",
-        "discipline-mcq-10": "「嚴格要求別人遵守規則和紀律的人」與本句語境不同。",
-        "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。"
+        "discipline-pdf-001": "本句的「disciplined」指「能控制自己、遵守規律，並有系統地持續做應做的事情」。",
+        "discipline-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "discipline-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-pdf-001"
     },
@@ -782,11 +676,8 @@ export default {
       "masked": "The team played in a very ____ way.",
       "options": [
         "discipline-pdf-001",
-        "discipline-mcq-07",
-        "discipline-mcq-09",
-        "discipline-mcq-06",
-        "discipline-mcq-10",
-        "discipline-mcq-05"
+        "discipline-mcq-04",
+        "discipline-mcq-07"
       ],
       "explanation": "本句的「disciplined」指「能控制自己、遵守規律，並有系統地持續做應做的事情」。",
       "sentenceIndex": 17,
@@ -795,12 +686,9 @@ export default {
         "disciplined"
       ],
       "optionReasons": {
-        "discipline-pdf-001": "本句指「能控制自己、遵守規律，並有系統地持續做應做的事情」。",
-        "discipline-mcq-07": "「因違規而正式處分或懲戒某人」與本句語境不同。",
-        "discipline-mcq-09": "「與紀律管理、違規處理或處分有關的」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。",
-        "discipline-mcq-10": "「嚴格要求別人遵守規則和紀律的人」與本句語境不同。",
-        "discipline-mcq-05": "「需要長期、規律訓練和自我控制的一套修習／訓練」與本句語境不同。"
+        "discipline-pdf-001": "本句的「disciplined」指「能控制自己、遵守規律，並有系統地持續做應做的事情」。",
+        "discipline-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "discipline-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-pdf-001"
     },
@@ -812,11 +700,8 @@ export default {
       "masked": "She has a highly ____ approach to research.",
       "options": [
         "discipline-mcq-10",
-        "discipline-mcq-09",
-        "discipline-mcq-11",
-        "discipline-mcq-08",
-        "discipline-mcq-07",
-        "discipline-mcq-06"
+        "discipline-mcq-04",
+        "discipline-mcq-01"
       ],
       "explanation": "本句的「disciplined」指「嚴格要求別人遵守規則和紀律的人」。",
       "sentenceIndex": 18,
@@ -825,12 +710,9 @@ export default {
         "disciplined"
       ],
       "optionReasons": {
-        "discipline-mcq-10": "本句指「嚴格要求別人遵守規則和紀律的人」。",
-        "discipline-mcq-09": "「與紀律管理、違規處理或處分有關的」與本句語境不同。",
-        "discipline-mcq-11": "「不依靠外界監督而能控制自己並持續按目標行事的能力」與本句語境不同。",
-        "discipline-mcq-08": "「自律、有紀律、做事有規律和控制力的」與本句語境不同。",
-        "discipline-mcq-07": "「因違規而正式處分或懲戒某人」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。"
+        "discipline-mcq-10": "本句的「disciplined」指「嚴格要求別人遵守規則和紀律的人」。",
+        "discipline-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "discipline-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-10"
     },
@@ -842,11 +724,8 @@ export default {
       "masked": "The dancers are technically ____.",
       "options": [
         "discipline-mcq-10",
-        "discipline-mcq-09",
-        "discipline-mcq-11",
-        "discipline-mcq-08",
-        "discipline-mcq-07",
-        "discipline-mcq-06"
+        "discipline-mcq-04",
+        "discipline-mcq-01"
       ],
       "explanation": "本句的「disciplined」指「嚴格要求別人遵守規則和紀律的人」。",
       "sentenceIndex": 19,
@@ -855,12 +734,9 @@ export default {
         "disciplined"
       ],
       "optionReasons": {
-        "discipline-mcq-10": "本句指「嚴格要求別人遵守規則和紀律的人」。",
-        "discipline-mcq-09": "「與紀律管理、違規處理或處分有關的」與本句語境不同。",
-        "discipline-mcq-11": "「不依靠外界監督而能控制自己並持續按目標行事的能力」與本句語境不同。",
-        "discipline-mcq-08": "「自律、有紀律、做事有規律和控制力的」與本句語境不同。",
-        "discipline-mcq-07": "「因違規而正式處分或懲戒某人」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。"
+        "discipline-mcq-10": "本句的「disciplined」指「嚴格要求別人遵守規則和紀律的人」。",
+        "discipline-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "discipline-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-10"
     },
@@ -872,11 +748,7 @@ export default {
       "masked": "The company began ____ proceedings.",
       "options": [
         "discipline-mcq-09",
-        "discipline-mcq-08",
-        "discipline-mcq-10",
-        "discipline-mcq-07",
-        "discipline-mcq-11",
-        "discipline-mcq-06"
+        "discipline-mcq-04"
       ],
       "explanation": "本句的「disciplinary」指「與紀律管理、違規處理或處分有關的」。",
       "sentenceIndex": 20,
@@ -885,12 +757,8 @@ export default {
         "disciplinary"
       ],
       "optionReasons": {
-        "discipline-mcq-09": "本句指「與紀律管理、違規處理或處分有關的」。",
-        "discipline-mcq-08": "「自律、有紀律、做事有規律和控制力的」與本句語境不同。",
-        "discipline-mcq-10": "「嚴格要求別人遵守規則和紀律的人」與本句語境不同。",
-        "discipline-mcq-07": "「因違規而正式處分或懲戒某人」與本句語境不同。",
-        "discipline-mcq-11": "「不依靠外界監督而能控制自己並持續按目標行事的能力」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。"
+        "discipline-mcq-09": "本句的「disciplinary」指「與紀律管理、違規處理或處分有關的」。",
+        "discipline-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-09"
     },
@@ -902,11 +770,7 @@ export default {
       "masked": "He attended a ____ hearing.",
       "options": [
         "discipline-mcq-09",
-        "discipline-mcq-08",
-        "discipline-mcq-10",
-        "discipline-mcq-07",
-        "discipline-mcq-11",
-        "discipline-mcq-06"
+        "discipline-mcq-04"
       ],
       "explanation": "本句的「disciplinary」指「與紀律管理、違規處理或處分有關的」。",
       "sentenceIndex": 21,
@@ -915,12 +779,8 @@ export default {
         "disciplinary"
       ],
       "optionReasons": {
-        "discipline-mcq-09": "本句指「與紀律管理、違規處理或處分有關的」。",
-        "discipline-mcq-08": "「自律、有紀律、做事有規律和控制力的」與本句語境不同。",
-        "discipline-mcq-10": "「嚴格要求別人遵守規則和紀律的人」與本句語境不同。",
-        "discipline-mcq-07": "「因違規而正式處分或懲戒某人」與本句語境不同。",
-        "discipline-mcq-11": "「不依靠外界監督而能控制自己並持續按目標行事的能力」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。"
+        "discipline-mcq-09": "本句的「disciplinary」指「與紀律管理、違規處理或處分有關的」。",
+        "discipline-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-09"
     },
@@ -932,11 +792,8 @@ export default {
       "masked": "The head teacher had a reputation as a strict ____.",
       "options": [
         "discipline-mcq-10",
-        "discipline-mcq-09",
-        "discipline-mcq-11",
-        "discipline-mcq-08",
-        "discipline-mcq-07",
-        "discipline-mcq-06"
+        "discipline-mcq-04",
+        "discipline-mcq-01"
       ],
       "explanation": "本句的「disciplinarian」指「嚴格要求別人遵守規則和紀律的人」。",
       "sentenceIndex": 22,
@@ -945,12 +802,9 @@ export default {
         "disciplinarian"
       ],
       "optionReasons": {
-        "discipline-mcq-10": "本句指「嚴格要求別人遵守規則和紀律的人」。",
-        "discipline-mcq-09": "「與紀律管理、違規處理或處分有關的」與本句語境不同。",
-        "discipline-mcq-11": "「不依靠外界監督而能控制自己並持續按目標行事的能力」與本句語境不同。",
-        "discipline-mcq-08": "「自律、有紀律、做事有規律和控制力的」與本句語境不同。",
-        "discipline-mcq-07": "「因違規而正式處分或懲戒某人」與本句語境不同。",
-        "discipline-mcq-06": "「訓練、管教，使某人學會自我控制並遵守規範」與本句語境不同。"
+        "discipline-mcq-10": "本句的「disciplinarian」指「嚴格要求別人遵守規則和紀律的人」。",
+        "discipline-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "discipline-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "discipline-mcq-10"
     }
@@ -962,5 +816,7 @@ export default {
     "sha256": "918cc242ae51abcb2a0ae75a77742def78adef2cbe8816be1edade42af4ffcd0",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

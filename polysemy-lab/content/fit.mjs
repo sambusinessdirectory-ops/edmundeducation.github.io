@@ -254,16 +254,6 @@ export default {
       "note": "來源詞義：用來連接、固定或安裝設備的小型零件",
       "examples": [
         [
-          "She has a dress fitting tomorrow.",
-          "她明天要去試身／試禮服。",
-          "用來連接、固定或安裝設備的小型零件"
-        ],
-        [
-          "The final fitting took thirty minutes.",
-          "最後一次試身用了三十分鐘。",
-          "用來連接、固定或安裝設備的小型零件"
-        ],
-        [
           "The pipe needs a new fitting.",
           "這條喉管需要一個新的接頭／配件。",
           "用來連接、固定或安裝設備的小型零件"
@@ -406,16 +396,6 @@ export default {
       "note": "來源詞義：個體在特定環境中留下後代的相對成功程度",
       "examples": [
         [
-          "Regular exercise improves fitness.",
-          "定期運動可以改善體能。",
-          "個體在特定環境中留下後代的相對成功程度"
-        ],
-        [
-          "The test assesses physical fitness.",
-          "測試評估身體體能。",
-          "個體在特定環境中留下後代的相對成功程度"
-        ],
-        [
           "Evolutionary fitness concerns reproductive success.",
           "演化上的適合度／適應度涉及繁殖成功。",
           "個體在特定環境中留下後代的相對成功程度"
@@ -450,6 +430,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "fit-reviewed-2cf5e1f3a9",
+      "title": "體能；健康狀況",
+      "form": "fit · source section 24",
+      "en": "體能；健康狀況",
+      "zh": "體能；健康狀況",
+      "note": "對照原始教材第 24 節及例句核實。",
+      "examples": [
+        [
+          "Regular exercise improves fitness.",
+          "定期運動可以改善體能。",
+          "體能；健康狀況"
+        ],
+        [
+          "The test assesses physical fitness.",
+          "測試評估身體體能。",
+          "體能；健康狀況"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "fit-reviewed-90549becf7",
+      "title": "試身；試穿；量身",
+      "form": "fit · source section 36",
+      "en": "試身；試穿；量身",
+      "zh": "試身；試穿；量身",
+      "note": "對照原始教材第 36 節及例句核實。",
+      "examples": [
+        [
+          "She has a dress fitting tomorrow.",
+          "她明天要去試身／試禮服。",
+          "試身；試穿；量身"
+        ],
+        [
+          "The final fitting took thirty minutes.",
+          "最後一次試身用了三十分鐘。",
+          "試身；試穿；量身"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -461,11 +485,9 @@ export default {
       "masked": "These shoes ____ me perfectly.",
       "options": [
         "fit-mcq-01",
-        "fit-mcq-02",
-        "fit-mcq-03",
-        "fit-mcq-04",
-        "fit-mcq-05",
-        "fit-mcq-06"
+        "fit-pdf-001",
+        "fit-reviewed-90549becf7",
+        "fit-mcq-02"
       ],
       "explanation": "本句的「fit」指「某物的大小／形狀適合某人或另一物件」。",
       "sentenceIndex": 0,
@@ -474,12 +496,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-01": "本句指「某物的大小／形狀適合某人或另一物件」。",
-        "fit-mcq-02": "「某物可以在有限空間內被容納」與本句語境不同。",
-        "fit-mcq-03": "「在有限時間內安排加入某項活動」與本句語境不同。",
-        "fit-mcq-04": "「把設備／零件安裝到正確位置」與本句語境不同。",
-        "fit-mcq-05": "「某物已安裝／配備指定設備」與本句語境不同。",
-        "fit-mcq-06": "「能有效滿足預定用途或功能要求」與本句語境不同。"
+        "fit-mcq-01": "本句的「fit」指「某物的大小／形狀適合某人或另一物件」。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-90549becf7": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-01"
     },
@@ -491,11 +511,9 @@ export default {
       "masked": "The jacket does not ____ him anymore.",
       "options": [
         "fit-mcq-01",
-        "fit-mcq-02",
-        "fit-mcq-03",
-        "fit-mcq-04",
-        "fit-mcq-05",
-        "fit-mcq-06"
+        "fit-pdf-001",
+        "fit-mcq-07",
+        "fit-mcq-05"
       ],
       "explanation": "本句的「fit」指「某物的大小／形狀適合某人或另一物件」。",
       "sentenceIndex": 1,
@@ -504,12 +522,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-01": "本句指「某物的大小／形狀適合某人或另一物件」。",
-        "fit-mcq-02": "「某物可以在有限空間內被容納」與本句語境不同。",
-        "fit-mcq-03": "「在有限時間內安排加入某項活動」與本句語境不同。",
-        "fit-mcq-04": "「把設備／零件安裝到正確位置」與本句語境不同。",
-        "fit-mcq-05": "「某物已安裝／配備指定設備」與本句語境不同。",
-        "fit-mcq-06": "「能有效滿足預定用途或功能要求」與本句語境不同。"
+        "fit-mcq-01": "本句的「fit」指「某物的大小／形狀適合某人或另一物件」。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-01"
     },
@@ -522,10 +538,8 @@ export default {
       "options": [
         "fit-mcq-02",
         "fit-mcq-01",
-        "fit-mcq-03",
-        "fit-mcq-04",
-        "fit-mcq-05",
-        "fit-mcq-06"
+        "fit-mcq-08",
+        "fit-reviewed-90549becf7"
       ],
       "explanation": "本句的「fit」指「某物可以在有限空間內被容納」。",
       "sentenceIndex": 4,
@@ -534,12 +548,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-02": "本句指「某物可以在有限空間內被容納」。",
-        "fit-mcq-01": "「某物的大小／形狀適合某人或另一物件」與本句語境不同。",
-        "fit-mcq-03": "「在有限時間內安排加入某項活動」與本句語境不同。",
-        "fit-mcq-04": "「把設備／零件安裝到正確位置」與本句語境不同。",
-        "fit-mcq-05": "「某物已安裝／配備指定設備」與本句語境不同。",
-        "fit-mcq-06": "「能有效滿足預定用途或功能要求」與本句語境不同。"
+        "fit-mcq-02": "本句的「fit」指「某物可以在有限空間內被容納」。",
+        "fit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-90549becf7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-02"
     },
@@ -551,11 +563,9 @@ export default {
       "masked": "The charger ____ easily into the storage compartment.",
       "options": [
         "fit-mcq-02",
-        "fit-mcq-01",
-        "fit-mcq-03",
-        "fit-mcq-04",
-        "fit-mcq-05",
-        "fit-mcq-06"
+        "fit-mcq-16",
+        "fit-mcq-18",
+        "fit-mcq-07"
       ],
       "explanation": "本句的「fits」指「某物可以在有限空間內被容納」。",
       "sentenceIndex": 5,
@@ -564,12 +574,10 @@ export default {
         "fits"
       ],
       "optionReasons": {
-        "fit-mcq-02": "本句指「某物可以在有限空間內被容納」。",
-        "fit-mcq-01": "「某物的大小／形狀適合某人或另一物件」與本句語境不同。",
-        "fit-mcq-03": "「在有限時間內安排加入某項活動」與本句語境不同。",
-        "fit-mcq-04": "「把設備／零件安裝到正確位置」與本句語境不同。",
-        "fit-mcq-05": "「某物已安裝／配備指定設備」與本句語境不同。",
-        "fit-mcq-06": "「能有效滿足預定用途或功能要求」與本句語境不同。"
+        "fit-mcq-02": "本句的「fits」指「某物可以在有限空間內被容納」。",
+        "fit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-02"
     },
@@ -581,11 +589,9 @@ export default {
       "masked": "The car is ____ with safety sensors.",
       "options": [
         "fit-mcq-05",
-        "fit-mcq-04",
-        "fit-mcq-06",
-        "fit-mcq-03",
-        "fit-mcq-07",
-        "fit-mcq-02"
+        "fit-mcq-02",
+        "fit-pdf-001",
+        "fit-mcq-18"
       ],
       "explanation": "本句的「fitted」指「某物已安裝／配備指定設備」。",
       "sentenceIndex": 14,
@@ -594,12 +600,10 @@ export default {
         "fitted"
       ],
       "optionReasons": {
-        "fit-mcq-05": "本句指「某物已安裝／配備指定設備」。",
-        "fit-mcq-04": "「把設備／零件安裝到正確位置」與本句語境不同。",
-        "fit-mcq-06": "「能有效滿足預定用途或功能要求」與本句語境不同。",
-        "fit-mcq-03": "「在有限時間內安排加入某項活動」與本句語境不同。",
-        "fit-mcq-07": "「身體健康且具足夠體能」與本句語境不同。",
-        "fit-mcq-02": "「某物可以在有限空間內被容納」與本句語境不同。"
+        "fit-mcq-05": "本句的「fitted」指「某物已安裝／配備指定設備」。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-05"
     },
@@ -611,11 +615,9 @@ export default {
       "masked": "The garage was ____ with a charging point.",
       "options": [
         "fit-mcq-05",
-        "fit-mcq-04",
-        "fit-mcq-06",
-        "fit-mcq-03",
-        "fit-mcq-07",
-        "fit-mcq-02"
+        "fit-mcq-16",
+        "fit-mcq-01",
+        "fit-reviewed-2cf5e1f3a9"
       ],
       "explanation": "本句的「fitted」指「某物已安裝／配備指定設備」。",
       "sentenceIndex": 15,
@@ -624,12 +626,10 @@ export default {
         "fitted"
       ],
       "optionReasons": {
-        "fit-mcq-05": "本句指「某物已安裝／配備指定設備」。",
-        "fit-mcq-04": "「把設備／零件安裝到正確位置」與本句語境不同。",
-        "fit-mcq-06": "「能有效滿足預定用途或功能要求」與本句語境不同。",
-        "fit-mcq-03": "「在有限時間內安排加入某項活動」與本句語境不同。",
-        "fit-mcq-07": "「身體健康且具足夠體能」與本句語境不同。",
-        "fit-mcq-02": "「某物可以在有限空間內被容納」與本句語境不同。"
+        "fit-mcq-05": "本句的「fitted」指「某物已安裝／配備指定設備」。",
+        "fit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-2cf5e1f3a9": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-05"
     },
@@ -641,11 +641,9 @@ export default {
       "masked": "This car is ____ for city driving.",
       "options": [
         "fit-mcq-06",
-        "fit-mcq-05",
-        "fit-mcq-07",
-        "fit-mcq-04",
-        "fit-mcq-08",
-        "fit-mcq-03"
+        "fit-mcq-14",
+        "fit-mcq-02",
+        "fit-pdf-001"
       ],
       "explanation": "本句的「fit」指「能有效滿足預定用途或功能要求」。",
       "sentenceIndex": 24,
@@ -654,12 +652,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-06": "本句指「能有效滿足預定用途或功能要求」。",
-        "fit-mcq-05": "「某物已安裝／配備指定設備」與本句語境不同。",
-        "fit-mcq-07": "「身體健康且具足夠體能」與本句語境不同。",
-        "fit-mcq-04": "「把設備／零件安裝到正確位置」與本句語境不同。",
-        "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。",
-        "fit-mcq-03": "「在有限時間內安排加入某項活動」與本句語境不同。"
+        "fit-mcq-06": "本句的「fit」指「能有效滿足預定用途或功能要求」。",
+        "fit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-06"
     },
@@ -671,11 +667,9 @@ export default {
       "masked": "The building is not ____ for occupation.",
       "options": [
         "fit-mcq-06",
-        "fit-mcq-05",
-        "fit-mcq-07",
-        "fit-mcq-04",
-        "fit-mcq-08",
-        "fit-mcq-03"
+        "fit-pdf-001",
+        "fit-mcq-14",
+        "fit-mcq-02"
       ],
       "explanation": "本句的「fit」指「能有效滿足預定用途或功能要求」。",
       "sentenceIndex": 25,
@@ -684,12 +678,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-06": "本句指「能有效滿足預定用途或功能要求」。",
-        "fit-mcq-05": "「某物已安裝／配備指定設備」與本句語境不同。",
-        "fit-mcq-07": "「身體健康且具足夠體能」與本句語境不同。",
-        "fit-mcq-04": "「把設備／零件安裝到正確位置」與本句語境不同。",
-        "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。",
-        "fit-mcq-03": "「在有限時間內安排加入某項活動」與本句語境不同。"
+        "fit-mcq-06": "本句的「fit」指「能有效滿足預定用途或功能要求」。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-06"
     },
@@ -701,11 +693,9 @@ export default {
       "masked": "The charging network must be ____ for purpose.",
       "options": [
         "fit-mcq-06",
-        "fit-mcq-05",
-        "fit-mcq-07",
-        "fit-mcq-04",
-        "fit-mcq-08",
-        "fit-mcq-03"
+        "fit-pdf-001",
+        "fit-reviewed-90549becf7",
+        "fit-mcq-02"
       ],
       "explanation": "本句的「fit」指「能有效滿足預定用途或功能要求」。",
       "sentenceIndex": 26,
@@ -714,12 +704,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-06": "本句指「能有效滿足預定用途或功能要求」。",
-        "fit-mcq-05": "「某物已安裝／配備指定設備」與本句語境不同。",
-        "fit-mcq-07": "「身體健康且具足夠體能」與本句語境不同。",
-        "fit-mcq-04": "「把設備／零件安裝到正確位置」與本句語境不同。",
-        "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。",
-        "fit-mcq-03": "「在有限時間內安排加入某項活動」與本句語境不同。"
+        "fit-mcq-06": "本句的「fit」指「能有效滿足預定用途或功能要求」。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-90549becf7": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-06"
     },
@@ -731,11 +719,9 @@ export default {
       "masked": "The system was judged not ____ for purpose.",
       "options": [
         "fit-mcq-06",
-        "fit-mcq-05",
-        "fit-mcq-07",
-        "fit-mcq-04",
-        "fit-mcq-08",
-        "fit-mcq-03"
+        "fit-mcq-14",
+        "fit-mcq-09",
+        "fit-pdf-001"
       ],
       "explanation": "本句的「fit」指「能有效滿足預定用途或功能要求」。",
       "sentenceIndex": 27,
@@ -744,12 +730,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-06": "本句指「能有效滿足預定用途或功能要求」。",
-        "fit-mcq-05": "「某物已安裝／配備指定設備」與本句語境不同。",
-        "fit-mcq-07": "「身體健康且具足夠體能」與本句語境不同。",
-        "fit-mcq-04": "「把設備／零件安裝到正確位置」與本句語境不同。",
-        "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。",
-        "fit-mcq-03": "「在有限時間內安排加入某項活動」與本句語境不同。"
+        "fit-mcq-06": "本句的「fit」指「能有效滿足預定用途或功能要求」。",
+        "fit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-06"
     },
@@ -761,11 +745,9 @@ export default {
       "masked": "She keeps ____ by running.",
       "options": [
         "fit-mcq-07",
-        "fit-mcq-06",
-        "fit-mcq-08",
-        "fit-mcq-05",
-        "fit-mcq-09",
-        "fit-mcq-04"
+        "fit-pdf-001",
+        "fit-mcq-01",
+        "fit-mcq-12"
       ],
       "explanation": "本句的「fit」指「身體健康且具足夠體能」。",
       "sentenceIndex": 33,
@@ -774,12 +756,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-07": "本句指「身體健康且具足夠體能」。",
-        "fit-mcq-06": "「能有效滿足預定用途或功能要求」與本句語境不同。",
-        "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。",
-        "fit-mcq-05": "「某物已安裝／配備指定設備」與本句語境不同。",
-        "fit-mcq-09": "「與已有事實／證據吻合」與本句語境不同。",
-        "fit-mcq-04": "「把設備／零件安裝到正確位置」與本句語境不同。"
+        "fit-mcq-07": "本句的「fit」指「身體健康且具足夠體能」。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-07"
     },
@@ -791,11 +771,9 @@ export default {
       "masked": "You need to be physically ____ for this job.",
       "options": [
         "fit-mcq-07",
-        "fit-mcq-06",
-        "fit-mcq-08",
+        "fit-mcq-16",
         "fit-mcq-05",
-        "fit-mcq-09",
-        "fit-mcq-04"
+        "fit-mcq-02"
       ],
       "explanation": "本句的「fit」指「身體健康且具足夠體能」。",
       "sentenceIndex": 34,
@@ -804,12 +782,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-07": "本句指「身體健康且具足夠體能」。",
-        "fit-mcq-06": "「能有效滿足預定用途或功能要求」與本句語境不同。",
-        "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。",
-        "fit-mcq-05": "「某物已安裝／配備指定設備」與本句語境不同。",
-        "fit-mcq-09": "「與已有事實／證據吻合」與本句語境不同。",
-        "fit-mcq-04": "「把設備／零件安裝到正確位置」與本句語境不同。"
+        "fit-mcq-07": "本句的「fit」指「身體健康且具足夠體能」。",
+        "fit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-07"
     },
@@ -821,11 +797,9 @@ export default {
       "masked": "Drivers must be ____ to drive.",
       "options": [
         "fit-mcq-08",
-        "fit-mcq-07",
-        "fit-mcq-09",
-        "fit-mcq-06",
-        "fit-mcq-10",
-        "fit-mcq-05"
+        "fit-pdf-001",
+        "fit-mcq-02",
+        "fit-mcq-10"
       ],
       "explanation": "本句的「fit」指「身體／精神狀況足以安全履行某活動」。",
       "sentenceIndex": 43,
@@ -834,12 +808,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-08": "本句指「身體／精神狀況足以安全履行某活動」。",
-        "fit-mcq-07": "「身體健康且具足夠體能」與本句語境不同。",
-        "fit-mcq-09": "「與已有事實／證據吻合」與本句語境不同。",
-        "fit-mcq-06": "「能有效滿足預定用途或功能要求」與本句語境不同。",
-        "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。",
-        "fit-mcq-05": "「某物已安裝／配備指定設備」與本句語境不同。"
+        "fit-mcq-08": "本句的「fit」指「身體／精神狀況足以安全履行某活動」。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-08"
     },
@@ -851,11 +823,9 @@ export default {
       "masked": "He was too tired to be ____ to drive safely.",
       "options": [
         "fit-mcq-08",
-        "fit-mcq-07",
-        "fit-mcq-09",
-        "fit-mcq-06",
         "fit-mcq-10",
-        "fit-mcq-05"
+        "fit-mcq-02",
+        "fit-pdf-001"
       ],
       "explanation": "本句的「fit」指「身體／精神狀況足以安全履行某活動」。",
       "sentenceIndex": 44,
@@ -864,74 +834,68 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-08": "本句指「身體／精神狀況足以安全履行某活動」。",
-        "fit-mcq-07": "「身體健康且具足夠體能」與本句語境不同。",
-        "fit-mcq-09": "「與已有事實／證據吻合」與本句語境不同。",
-        "fit-mcq-06": "「能有效滿足預定用途或功能要求」與本句語境不同。",
-        "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。",
-        "fit-mcq-05": "「某物已安裝／配備指定設備」與本句語境不同。"
+        "fit-mcq-08": "本句的「fit」指「身體／精神狀況足以安全履行某活動」。",
+        "fit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-08"
     },
     {
       "id": "fit-24-0",
-      "sense": "fit-mcq-19",
+      "sense": "fit-reviewed-2cf5e1f3a9",
       "en": "Regular exercise improves fitness.",
       "zh": "定期運動可以改善體能。",
       "masked": "Regular exercise improves ____.",
       "options": [
-        "fit-mcq-19",
-        "fit-mcq-18",
-        "fit-mcq-17",
-        "fit-mcq-16",
-        "fit-mcq-15",
-        "fit-mcq-14"
+        "fit-reviewed-2cf5e1f3a9",
+        "fit-mcq-12",
+        "fit-mcq-13",
+        "fit-pdf-001"
       ],
-      "explanation": "本句的「fitness」指「個體在特定環境中留下後代的相對成功程度」。",
+      "explanation": "對照完整句子：「定期運動可以改善體能。」。這裡的「fitness」表示「體能；健康狀況」。",
       "sentenceIndex": 45,
       "sourcePractice": 24,
       "targets": [
         "fitness"
       ],
       "optionReasons": {
-        "fit-mcq-19": "本句指「個體在特定環境中留下後代的相對成功程度」。",
-        "fit-mcq-18": "「產品真正滿足市場需求的契合程度」與本句語境不同。",
-        "fit-mcq-17": "「兩個機械零件在尺寸／公差上的配合關係」與本句語境不同。",
-        "fit-mcq-16": "「用觀察數據估計模型參數，使模型與數據擬合」與本句語境不同。",
-        "fit-mcq-15": "「模型與實際數據之間的吻合／擬合程度」與本句語境不同。",
-        "fit-mcq-14": "「突然發生、通常難以控制的一陣生理或情緒發作」與本句語境不同。"
+        "fit-reviewed-2cf5e1f3a9": "對照完整句子：「定期運動可以改善體能。」。這裡的「fitness」表示「體能；健康狀況」。",
+        "fit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "fit-mcq-19"
+      "correctOption": "fit-reviewed-2cf5e1f3a9",
+      "previousCorrectOption": "fit-mcq-19",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "fit-24-1",
-      "sense": "fit-mcq-19",
+      "sense": "fit-reviewed-2cf5e1f3a9",
       "en": "The test assesses physical fitness.",
       "zh": "測試評估身體體能。",
       "masked": "The test assesses physical ____.",
       "options": [
-        "fit-mcq-19",
-        "fit-mcq-18",
-        "fit-mcq-17",
-        "fit-mcq-16",
-        "fit-mcq-15",
-        "fit-mcq-14"
+        "fit-reviewed-2cf5e1f3a9",
+        "fit-mcq-05",
+        "fit-mcq-13",
+        "fit-reviewed-90549becf7"
       ],
-      "explanation": "本句的「fitness」指「個體在特定環境中留下後代的相對成功程度」。",
+      "explanation": "對照完整句子：「測試評估身體體能。」。這裡的「fitness」表示「體能；健康狀況」。",
       "sentenceIndex": 46,
       "sourcePractice": 24,
       "targets": [
         "fitness"
       ],
       "optionReasons": {
-        "fit-mcq-19": "本句指「個體在特定環境中留下後代的相對成功程度」。",
-        "fit-mcq-18": "「產品真正滿足市場需求的契合程度」與本句語境不同。",
-        "fit-mcq-17": "「兩個機械零件在尺寸／公差上的配合關係」與本句語境不同。",
-        "fit-mcq-16": "「用觀察數據估計模型參數，使模型與數據擬合」與本句語境不同。",
-        "fit-mcq-15": "「模型與實際數據之間的吻合／擬合程度」與本句語境不同。",
-        "fit-mcq-14": "「突然發生、通常難以控制的一陣生理或情緒發作」與本句語境不同。"
+        "fit-reviewed-2cf5e1f3a9": "對照完整句子：「測試評估身體體能。」。這裡的「fitness」表示「體能；健康狀況」。",
+        "fit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-90549becf7": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "fit-mcq-19"
+      "correctOption": "fit-reviewed-2cf5e1f3a9",
+      "previousCorrectOption": "fit-mcq-19",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "fit-26-0",
@@ -941,11 +905,9 @@ export default {
       "masked": "The explanation ____ the evidence.",
       "options": [
         "fit-pdf-001",
-        "fit-mcq-08",
-        "fit-mcq-10",
-        "fit-mcq-07",
-        "fit-mcq-11",
-        "fit-mcq-06"
+        "fit-mcq-12",
+        "fit-mcq-13",
+        "fit-mcq-19"
       ],
       "explanation": "本句的「fits」指「與某種模式、資料、情況相互一致」。",
       "sentenceIndex": 49,
@@ -954,12 +916,10 @@ export default {
         "fits"
       ],
       "optionReasons": {
-        "fit-pdf-001": "本句指「與某種模式、資料、情況相互一致」。",
-        "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。",
-        "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。",
-        "fit-mcq-07": "「身體健康且具足夠體能」與本句語境不同。",
-        "fit-mcq-11": "「衣物穿在身上的合身／版型程度」與本句語境不同。",
-        "fit-mcq-06": "「能有效滿足預定用途或功能要求」與本句語境不同。"
+        "fit-pdf-001": "本句的「fits」指「與某種模式、資料、情況相互一致」。",
+        "fit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-pdf-001"
     },
@@ -971,11 +931,9 @@ export default {
       "masked": "The data ____ the pattern.",
       "options": [
         "fit-pdf-001",
-        "fit-mcq-08",
-        "fit-mcq-10",
-        "fit-mcq-07",
+        "fit-mcq-05",
         "fit-mcq-11",
-        "fit-mcq-06"
+        "fit-mcq-02"
       ],
       "explanation": "本句的「fit」指「與某種模式、資料、情況相互一致」。",
       "sentenceIndex": 50,
@@ -984,12 +942,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-pdf-001": "本句指「與某種模式、資料、情況相互一致」。",
-        "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。",
-        "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。",
-        "fit-mcq-07": "「身體健康且具足夠體能」與本句語境不同。",
-        "fit-mcq-11": "「衣物穿在身上的合身／版型程度」與本句語境不同。",
-        "fit-mcq-06": "「能有效滿足預定用途或功能要求」與本句語境不同。"
+        "fit-pdf-001": "本句的「fit」指「與某種模式、資料、情況相互一致」。",
+        "fit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-pdf-001"
     },
@@ -1002,10 +958,8 @@ export default {
       "options": [
         "fit-mcq-09",
         "fit-mcq-08",
-        "fit-mcq-10",
-        "fit-mcq-07",
-        "fit-mcq-11",
-        "fit-mcq-06"
+        "fit-pdf-001",
+        "fit-reviewed-90549becf7"
       ],
       "explanation": "本句的「fit」指「與已有事實／證據吻合」。",
       "sentenceIndex": 51,
@@ -1014,12 +968,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-09": "本句指「與已有事實／證據吻合」。",
-        "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。",
-        "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。",
-        "fit-mcq-07": "「身體健康且具足夠體能」與本句語境不同。",
-        "fit-mcq-11": "「衣物穿在身上的合身／版型程度」與本句語境不同。",
-        "fit-mcq-06": "「能有效滿足預定用途或功能要求」與本句語境不同。"
+        "fit-mcq-09": "本句的「fit」指「與已有事實／證據吻合」。",
+        "fit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-90549becf7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-09"
     },
@@ -1031,11 +983,9 @@ export default {
       "masked": "His story does not ____ the known facts.",
       "options": [
         "fit-mcq-09",
-        "fit-mcq-08",
-        "fit-mcq-10",
-        "fit-mcq-07",
-        "fit-mcq-11",
-        "fit-mcq-06"
+        "fit-mcq-06",
+        "fit-reviewed-90549becf7",
+        "fit-pdf-001"
       ],
       "explanation": "本句的「fit」指「與已有事實／證據吻合」。",
       "sentenceIndex": 52,
@@ -1044,74 +994,68 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-09": "本句指「與已有事實／證據吻合」。",
-        "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。",
-        "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。",
-        "fit-mcq-07": "「身體健康且具足夠體能」與本句語境不同。",
-        "fit-mcq-11": "「衣物穿在身上的合身／版型程度」與本句語境不同。",
-        "fit-mcq-06": "「能有效滿足預定用途或功能要求」與本句語境不同。"
+        "fit-mcq-09": "本句的「fit」指「與已有事實／證據吻合」。",
+        "fit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-90549becf7": "請比較這個意思與句子中標示的用法。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-09"
     },
     {
       "id": "fit-36-0",
-      "sense": "fit-mcq-12",
+      "sense": "fit-reviewed-90549becf7",
       "en": "She has a dress fitting tomorrow.",
       "zh": "她明天要去試身／試禮服。",
       "masked": "She has a dress ____ tomorrow.",
       "options": [
+        "fit-reviewed-90549becf7",
         "fit-mcq-12",
-        "fit-mcq-11",
-        "fit-mcq-13",
-        "fit-mcq-10",
-        "fit-mcq-14",
-        "fit-mcq-09"
+        "fit-mcq-18",
+        "fit-reviewed-2cf5e1f3a9"
       ],
-      "explanation": "本句的「fitting」指「用來連接、固定或安裝設備的小型零件」。",
+      "explanation": "對照完整句子：「她明天要去試身／試禮服。」。這裡的「fitting」表示「試身；試穿；量身」。",
       "sentenceIndex": 69,
       "sourcePractice": 36,
       "targets": [
         "fitting"
       ],
       "optionReasons": {
-        "fit-mcq-12": "本句指「用來連接、固定或安裝設備的小型零件」。",
-        "fit-mcq-11": "「衣物穿在身上的合身／版型程度」與本句語境不同。",
-        "fit-mcq-13": "「與場合／情境非常相稱而恰當的」與本句語境不同。",
-        "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。",
-        "fit-mcq-14": "「突然發生、通常難以控制的一陣生理或情緒發作」與本句語境不同。",
-        "fit-mcq-09": "「與已有事實／證據吻合」與本句語境不同。"
+        "fit-reviewed-90549becf7": "對照完整句子：「她明天要去試身／試禮服。」。這裡的「fitting」表示「試身；試穿；量身」。",
+        "fit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-2cf5e1f3a9": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "fit-mcq-12"
+      "correctOption": "fit-reviewed-90549becf7",
+      "previousCorrectOption": "fit-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "fit-36-1",
-      "sense": "fit-mcq-12",
+      "sense": "fit-reviewed-90549becf7",
       "en": "The final fitting took thirty minutes.",
       "zh": "最後一次試身用了三十分鐘。",
       "masked": "The final ____ took thirty minutes.",
       "options": [
-        "fit-mcq-12",
-        "fit-mcq-11",
-        "fit-mcq-13",
-        "fit-mcq-10",
-        "fit-mcq-14",
-        "fit-mcq-09"
+        "fit-reviewed-90549becf7",
+        "fit-mcq-01",
+        "fit-pdf-001",
+        "fit-reviewed-2cf5e1f3a9"
       ],
-      "explanation": "本句的「fitting」指「用來連接、固定或安裝設備的小型零件」。",
+      "explanation": "對照完整句子：「最後一次試身用了三十分鐘。」。這裡的「fitting」表示「試身；試穿；量身」。",
       "sentenceIndex": 70,
       "sourcePractice": 36,
       "targets": [
         "fitting"
       ],
       "optionReasons": {
-        "fit-mcq-12": "本句指「用來連接、固定或安裝設備的小型零件」。",
-        "fit-mcq-11": "「衣物穿在身上的合身／版型程度」與本句語境不同。",
-        "fit-mcq-13": "「與場合／情境非常相稱而恰當的」與本句語境不同。",
-        "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。",
-        "fit-mcq-14": "「突然發生、通常難以控制的一陣生理或情緒發作」與本句語境不同。",
-        "fit-mcq-09": "「與已有事實／證據吻合」與本句語境不同。"
+        "fit-reviewed-90549becf7": "對照完整句子：「最後一次試身用了三十分鐘。」。這裡的「fitting」表示「試身；試穿；量身」。",
+        "fit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-2cf5e1f3a9": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "fit-mcq-12"
+      "correctOption": "fit-reviewed-90549becf7",
+      "previousCorrectOption": "fit-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "fit-37-0",
@@ -1121,11 +1065,9 @@ export default {
       "masked": "The pipe needs a new ____.",
       "options": [
         "fit-mcq-12",
-        "fit-mcq-11",
-        "fit-mcq-13",
-        "fit-mcq-10",
-        "fit-mcq-14",
-        "fit-mcq-09"
+        "fit-mcq-09",
+        "fit-reviewed-90549becf7",
+        "fit-pdf-001"
       ],
       "explanation": "本句的「fitting」指「用來連接、固定或安裝設備的小型零件」。",
       "sentenceIndex": 71,
@@ -1134,12 +1076,10 @@ export default {
         "fitting"
       ],
       "optionReasons": {
-        "fit-mcq-12": "本句指「用來連接、固定或安裝設備的小型零件」。",
-        "fit-mcq-11": "「衣物穿在身上的合身／版型程度」與本句語境不同。",
-        "fit-mcq-13": "「與場合／情境非常相稱而恰當的」與本句語境不同。",
-        "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。",
-        "fit-mcq-14": "「突然發生、通常難以控制的一陣生理或情緒發作」與本句語境不同。",
-        "fit-mcq-09": "「與已有事實／證據吻合」與本句語境不同。"
+        "fit-mcq-12": "本句的「fitting」指「用來連接、固定或安裝設備的小型零件」。",
+        "fit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-90549becf7": "請比較這個意思與句子中標示的用法。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-12"
     },
@@ -1151,11 +1091,9 @@ export default {
       "masked": "Check all electrical ____.",
       "options": [
         "fit-mcq-12",
-        "fit-mcq-11",
-        "fit-mcq-13",
         "fit-mcq-10",
-        "fit-mcq-14",
-        "fit-mcq-09"
+        "fit-mcq-02",
+        "fit-mcq-07"
       ],
       "explanation": "本句的「fittings」指「用來連接、固定或安裝設備的小型零件」。",
       "sentenceIndex": 72,
@@ -1164,12 +1102,10 @@ export default {
         "fittings"
       ],
       "optionReasons": {
-        "fit-mcq-12": "本句指「用來連接、固定或安裝設備的小型零件」。",
-        "fit-mcq-11": "「衣物穿在身上的合身／版型程度」與本句語境不同。",
-        "fit-mcq-13": "「與場合／情境非常相稱而恰當的」與本句語境不同。",
-        "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。",
-        "fit-mcq-14": "「突然發生、通常難以控制的一陣生理或情緒發作」與本句語境不同。",
-        "fit-mcq-09": "「與已有事實／證據吻合」與本句語境不同。"
+        "fit-mcq-12": "本句的「fittings」指「用來連接、固定或安裝設備的小型零件」。",
+        "fit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-12"
     },
@@ -1181,11 +1117,9 @@ export default {
       "masked": "It was a ____ end to the project.",
       "options": [
         "fit-mcq-13",
-        "fit-mcq-12",
-        "fit-mcq-14",
-        "fit-mcq-11",
-        "fit-mcq-15",
-        "fit-mcq-10"
+        "fit-mcq-02",
+        "fit-mcq-05",
+        "fit-reviewed-2cf5e1f3a9"
       ],
       "explanation": "本句的「fitting」指「與場合／情境非常相稱而恰當的」。",
       "sentenceIndex": 77,
@@ -1194,12 +1128,10 @@ export default {
         "fitting"
       ],
       "optionReasons": {
-        "fit-mcq-13": "本句指「與場合／情境非常相稱而恰當的」。",
-        "fit-mcq-12": "「用來連接、固定或安裝設備的小型零件」與本句語境不同。",
-        "fit-mcq-14": "「突然發生、通常難以控制的一陣生理或情緒發作」與本句語境不同。",
-        "fit-mcq-11": "「衣物穿在身上的合身／版型程度」與本句語境不同。",
-        "fit-mcq-15": "「模型與實際數據之間的吻合／擬合程度」與本句語境不同。",
-        "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。"
+        "fit-mcq-13": "本句的「fitting」指「與場合／情境非常相稱而恰當的」。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-2cf5e1f3a9": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-13"
     },
@@ -1211,11 +1143,9 @@ export default {
       "masked": "The award was a ____ recognition of her work.",
       "options": [
         "fit-mcq-13",
+        "fit-mcq-02",
         "fit-mcq-12",
-        "fit-mcq-14",
-        "fit-mcq-11",
-        "fit-mcq-15",
-        "fit-mcq-10"
+        "fit-reviewed-2cf5e1f3a9"
       ],
       "explanation": "本句的「fitting」指「與場合／情境非常相稱而恰當的」。",
       "sentenceIndex": 78,
@@ -1224,12 +1154,10 @@ export default {
         "fitting"
       ],
       "optionReasons": {
-        "fit-mcq-13": "本句指「與場合／情境非常相稱而恰當的」。",
-        "fit-mcq-12": "「用來連接、固定或安裝設備的小型零件」與本句語境不同。",
-        "fit-mcq-14": "「突然發生、通常難以控制的一陣生理或情緒發作」與本句語境不同。",
-        "fit-mcq-11": "「衣物穿在身上的合身／版型程度」與本句語境不同。",
-        "fit-mcq-15": "「模型與實際數據之間的吻合／擬合程度」與本句語境不同。",
-        "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。"
+        "fit-mcq-13": "本句的「fitting」指「與場合／情境非常相稱而恰當的」。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-2cf5e1f3a9": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-13"
     },
@@ -1241,11 +1169,9 @@ export default {
       "masked": "The child had a ____.",
       "options": [
         "fit-mcq-14",
-        "fit-mcq-13",
-        "fit-mcq-15",
-        "fit-mcq-12",
-        "fit-mcq-16",
-        "fit-mcq-11"
+        "fit-mcq-05",
+        "fit-reviewed-90549becf7",
+        "fit-mcq-10"
       ],
       "explanation": "本句的「fit」指「突然發生、通常難以控制的一陣生理或情緒發作」。",
       "sentenceIndex": 81,
@@ -1254,12 +1180,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-14": "本句指「突然發生、通常難以控制的一陣生理或情緒發作」。",
-        "fit-mcq-13": "「與場合／情境非常相稱而恰當的」與本句語境不同。",
-        "fit-mcq-15": "「模型與實際數據之間的吻合／擬合程度」與本句語境不同。",
-        "fit-mcq-12": "「用來連接、固定或安裝設備的小型零件」與本句語境不同。",
-        "fit-mcq-16": "「用觀察數據估計模型參數，使模型與數據擬合」與本句語境不同。",
-        "fit-mcq-11": "「衣物穿在身上的合身／版型程度」與本句語境不同。"
+        "fit-mcq-14": "本句的「fit」指「突然發生、通常難以控制的一陣生理或情緒發作」。",
+        "fit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-90549becf7": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-14"
     },
@@ -1271,11 +1195,9 @@ export default {
       "masked": "The patient suffered a seizure-like ____.",
       "options": [
         "fit-mcq-14",
-        "fit-mcq-13",
-        "fit-mcq-15",
-        "fit-mcq-12",
-        "fit-mcq-16",
-        "fit-mcq-11"
+        "fit-mcq-18",
+        "fit-pdf-001",
+        "fit-reviewed-90549becf7"
       ],
       "explanation": "本句的「fit」指「突然發生、通常難以控制的一陣生理或情緒發作」。",
       "sentenceIndex": 82,
@@ -1284,12 +1206,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-14": "本句指「突然發生、通常難以控制的一陣生理或情緒發作」。",
-        "fit-mcq-13": "「與場合／情境非常相稱而恰當的」與本句語境不同。",
-        "fit-mcq-15": "「模型與實際數據之間的吻合／擬合程度」與本句語境不同。",
-        "fit-mcq-12": "「用來連接、固定或安裝設備的小型零件」與本句語境不同。",
-        "fit-mcq-16": "「用觀察數據估計模型參數，使模型與數據擬合」與本句語境不同。",
-        "fit-mcq-11": "「衣物穿在身上的合身／版型程度」與本句語境不同。"
+        "fit-mcq-14": "本句的「fit」指「突然發生、通常難以控制的一陣生理或情緒發作」。",
+        "fit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-90549becf7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-14"
     },
@@ -1301,11 +1221,9 @@ export default {
       "masked": "The model provides a good ____ to the data.",
       "options": [
         "fit-mcq-16",
-        "fit-mcq-15",
-        "fit-mcq-17",
+        "fit-mcq-19",
         "fit-mcq-14",
-        "fit-mcq-18",
-        "fit-mcq-13"
+        "fit-mcq-05"
       ],
       "explanation": "本句的「fit」指「用觀察數據估計模型參數，使模型與數據擬合」。",
       "sentenceIndex": 98,
@@ -1314,12 +1232,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-16": "本句指「用觀察數據估計模型參數，使模型與數據擬合」。",
-        "fit-mcq-15": "「模型與實際數據之間的吻合／擬合程度」與本句語境不同。",
-        "fit-mcq-17": "「兩個機械零件在尺寸／公差上的配合關係」與本句語境不同。",
-        "fit-mcq-14": "「突然發生、通常難以控制的一陣生理或情緒發作」與本句語境不同。",
-        "fit-mcq-18": "「產品真正滿足市場需求的契合程度」與本句語境不同。",
-        "fit-mcq-13": "「與場合／情境非常相稱而恰當的」與本句語境不同。"
+        "fit-mcq-16": "本句的「fit」指「用觀察數據估計模型參數，使模型與數據擬合」。",
+        "fit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-16"
     },
@@ -1331,11 +1247,9 @@ export default {
       "masked": "Researchers compared model ____.",
       "options": [
         "fit-mcq-16",
-        "fit-mcq-15",
-        "fit-mcq-17",
-        "fit-mcq-14",
-        "fit-mcq-18",
-        "fit-mcq-13"
+        "fit-mcq-07",
+        "fit-reviewed-90549becf7",
+        "fit-mcq-05"
       ],
       "explanation": "本句的「fit」指「用觀察數據估計模型參數，使模型與數據擬合」。",
       "sentenceIndex": 99,
@@ -1344,12 +1258,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-16": "本句指「用觀察數據估計模型參數，使模型與數據擬合」。",
-        "fit-mcq-15": "「模型與實際數據之間的吻合／擬合程度」與本句語境不同。",
-        "fit-mcq-17": "「兩個機械零件在尺寸／公差上的配合關係」與本句語境不同。",
-        "fit-mcq-14": "「突然發生、通常難以控制的一陣生理或情緒發作」與本句語境不同。",
-        "fit-mcq-18": "「產品真正滿足市場需求的契合程度」與本句語境不同。",
-        "fit-mcq-13": "「與場合／情境非常相稱而恰當的」與本句語境不同。"
+        "fit-mcq-16": "本句的「fit」指「用觀察數據估計模型參數，使模型與數據擬合」。",
+        "fit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-90549becf7": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-16"
     },
@@ -1361,11 +1273,9 @@ export default {
       "masked": "They ____ a regression model to the data.",
       "options": [
         "fit-mcq-16",
-        "fit-mcq-15",
-        "fit-mcq-17",
-        "fit-mcq-14",
-        "fit-mcq-18",
-        "fit-mcq-13"
+        "fit-mcq-19",
+        "fit-reviewed-90549becf7",
+        "fit-mcq-08"
       ],
       "explanation": "本句的「fitted」指「用觀察數據估計模型參數，使模型與數據擬合」。",
       "sentenceIndex": 100,
@@ -1374,12 +1284,10 @@ export default {
         "fitted"
       ],
       "optionReasons": {
-        "fit-mcq-16": "本句指「用觀察數據估計模型參數，使模型與數據擬合」。",
-        "fit-mcq-15": "「模型與實際數據之間的吻合／擬合程度」與本句語境不同。",
-        "fit-mcq-17": "「兩個機械零件在尺寸／公差上的配合關係」與本句語境不同。",
-        "fit-mcq-14": "「突然發生、通常難以控制的一陣生理或情緒發作」與本句語境不同。",
-        "fit-mcq-18": "「產品真正滿足市場需求的契合程度」與本句語境不同。",
-        "fit-mcq-13": "「與場合／情境非常相稱而恰當的」與本句語境不同。"
+        "fit-mcq-16": "本句的「fitted」指「用觀察數據估計模型參數，使模型與數據擬合」。",
+        "fit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-90549becf7": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-16"
     },
@@ -1391,11 +1299,9 @@ export default {
       "masked": "The model was ____ using historical observations.",
       "options": [
         "fit-mcq-16",
-        "fit-mcq-15",
-        "fit-mcq-17",
-        "fit-mcq-14",
-        "fit-mcq-18",
-        "fit-mcq-13"
+        "fit-mcq-06",
+        "fit-mcq-08",
+        "fit-mcq-02"
       ],
       "explanation": "本句的「fitted」指「用觀察數據估計模型參數，使模型與數據擬合」。",
       "sentenceIndex": 101,
@@ -1404,12 +1310,10 @@ export default {
         "fitted"
       ],
       "optionReasons": {
-        "fit-mcq-16": "本句指「用觀察數據估計模型參數，使模型與數據擬合」。",
-        "fit-mcq-15": "「模型與實際數據之間的吻合／擬合程度」與本句語境不同。",
-        "fit-mcq-17": "「兩個機械零件在尺寸／公差上的配合關係」與本句語境不同。",
-        "fit-mcq-14": "「突然發生、通常難以控制的一陣生理或情緒發作」與本句語境不同。",
-        "fit-mcq-18": "「產品真正滿足市場需求的契合程度」與本句語境不同。",
-        "fit-mcq-13": "「與場合／情境非常相稱而恰當的」與本句語境不同。"
+        "fit-mcq-16": "本句的「fitted」指「用觀察數據估計模型參數，使模型與數據擬合」。",
+        "fit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-16"
     },
@@ -1421,11 +1325,9 @@ export default {
       "masked": "This job is a good ____ for her skills.",
       "options": [
         "fit-mcq-10",
-        "fit-mcq-09",
-        "fit-mcq-11",
-        "fit-mcq-08",
-        "fit-mcq-12",
-        "fit-mcq-07"
+        "fit-reviewed-90549becf7",
+        "fit-mcq-14",
+        "fit-mcq-05"
       ],
       "explanation": "本句的「fit」指「與某職位、團隊、用途或需要高度契合」。",
       "sentenceIndex": 121,
@@ -1434,12 +1336,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-10": "本句指「與某職位、團隊、用途或需要高度契合」。",
-        "fit-mcq-09": "「與已有事實／證據吻合」與本句語境不同。",
-        "fit-mcq-11": "「衣物穿在身上的合身／版型程度」與本句語境不同。",
-        "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。",
-        "fit-mcq-12": "「用來連接、固定或安裝設備的小型零件」與本句語境不同。",
-        "fit-mcq-07": "「身體健康且具足夠體能」與本句語境不同。"
+        "fit-mcq-10": "本句的「fit」指「與某職位、團隊、用途或需要高度契合」。",
+        "fit-reviewed-90549becf7": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-10"
     },
@@ -1451,11 +1351,9 @@ export default {
       "masked": "The smaller EV may be a better ____ for urban drivers.",
       "options": [
         "fit-mcq-10",
-        "fit-mcq-09",
-        "fit-mcq-11",
-        "fit-mcq-08",
-        "fit-mcq-12",
-        "fit-mcq-07"
+        "fit-mcq-07",
+        "fit-mcq-05",
+        "fit-mcq-02"
       ],
       "explanation": "本句的「fit」指「與某職位、團隊、用途或需要高度契合」。",
       "sentenceIndex": 122,
@@ -1464,12 +1362,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-10": "本句指「與某職位、團隊、用途或需要高度契合」。",
-        "fit-mcq-09": "「與已有事實／證據吻合」與本句語境不同。",
-        "fit-mcq-11": "「衣物穿在身上的合身／版型程度」與本句語境不同。",
-        "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。",
-        "fit-mcq-12": "「用來連接、固定或安裝設備的小型零件」與本句語境不同。",
-        "fit-mcq-07": "「身體健康且具足夠體能」與本句語境不同。"
+        "fit-mcq-10": "本句的「fit」指「與某職位、團隊、用途或需要高度契合」。",
+        "fit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-10"
     },
@@ -1481,11 +1377,9 @@ export default {
       "masked": "The company is still searching for product-market ____.",
       "options": [
         "fit-mcq-18",
-        "fit-mcq-17",
-        "fit-mcq-19",
-        "fit-mcq-16",
-        "fit-mcq-15",
-        "fit-mcq-14"
+        "fit-mcq-14",
+        "fit-mcq-12",
+        "fit-mcq-02"
       ],
       "explanation": "本句的「fit」指「產品真正滿足市場需求的契合程度」。",
       "sentenceIndex": 125,
@@ -1494,12 +1388,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-18": "本句指「產品真正滿足市場需求的契合程度」。",
-        "fit-mcq-17": "「兩個機械零件在尺寸／公差上的配合關係」與本句語境不同。",
-        "fit-mcq-19": "「個體在特定環境中留下後代的相對成功程度」與本句語境不同。",
-        "fit-mcq-16": "「用觀察數據估計模型參數，使模型與數據擬合」與本句語境不同。",
-        "fit-mcq-15": "「模型與實際數據之間的吻合／擬合程度」與本句語境不同。",
-        "fit-mcq-14": "「突然發生、通常難以控制的一陣生理或情緒發作」與本句語境不同。"
+        "fit-mcq-18": "本句的「fit」指「產品真正滿足市場需求的契合程度」。",
+        "fit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-18"
     },
@@ -1511,11 +1403,9 @@ export default {
       "masked": "Strong product-market ____ means customers genuinely want the product.",
       "options": [
         "fit-mcq-18",
-        "fit-mcq-17",
-        "fit-mcq-19",
-        "fit-mcq-16",
-        "fit-mcq-15",
-        "fit-mcq-14"
+        "fit-mcq-12",
+        "fit-reviewed-2cf5e1f3a9",
+        "fit-mcq-02"
       ],
       "explanation": "本句的「fit」指「產品真正滿足市場需求的契合程度」。",
       "sentenceIndex": 126,
@@ -1524,12 +1414,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-18": "本句指「產品真正滿足市場需求的契合程度」。",
-        "fit-mcq-17": "「兩個機械零件在尺寸／公差上的配合關係」與本句語境不同。",
-        "fit-mcq-19": "「個體在特定環境中留下後代的相對成功程度」與本句語境不同。",
-        "fit-mcq-16": "「用觀察數據估計模型參數，使模型與數據擬合」與本句語境不同。",
-        "fit-mcq-15": "「模型與實際數據之間的吻合／擬合程度」與本句語境不同。",
-        "fit-mcq-14": "「突然發生、通常難以控制的一陣生理或情緒發作」與本句語境不同。"
+        "fit-mcq-18": "本句的「fit」指「產品真正滿足市場需求的契合程度」。",
+        "fit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-2cf5e1f3a9": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-18"
     },
@@ -1541,11 +1429,9 @@ export default {
       "masked": "I like the ____ of this jacket.",
       "options": [
         "fit-mcq-11",
-        "fit-mcq-10",
-        "fit-mcq-12",
-        "fit-mcq-09",
-        "fit-mcq-13",
-        "fit-mcq-08"
+        "fit-pdf-001",
+        "fit-mcq-05",
+        "fit-mcq-06"
       ],
       "explanation": "本句的「fit」指「衣物穿在身上的合身／版型程度」。",
       "sentenceIndex": 135,
@@ -1554,12 +1440,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-11": "本句指「衣物穿在身上的合身／版型程度」。",
-        "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。",
-        "fit-mcq-12": "「用來連接、固定或安裝設備的小型零件」與本句語境不同。",
-        "fit-mcq-09": "「與已有事實／證據吻合」與本句語境不同。",
-        "fit-mcq-13": "「與場合／情境非常相稱而恰當的」與本句語境不同。",
-        "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。"
+        "fit-mcq-11": "本句的「fit」指「衣物穿在身上的合身／版型程度」。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-11"
     },
@@ -1571,11 +1455,9 @@ export default {
       "masked": "The shoes have a comfortable ____.",
       "options": [
         "fit-mcq-11",
-        "fit-mcq-10",
-        "fit-mcq-12",
-        "fit-mcq-09",
-        "fit-mcq-13",
-        "fit-mcq-08"
+        "fit-pdf-001",
+        "fit-mcq-02",
+        "fit-mcq-05"
       ],
       "explanation": "本句的「fit」指「衣物穿在身上的合身／版型程度」。",
       "sentenceIndex": 136,
@@ -1584,12 +1466,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-11": "本句指「衣物穿在身上的合身／版型程度」。",
-        "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。",
-        "fit-mcq-12": "「用來連接、固定或安裝設備的小型零件」與本句語境不同。",
-        "fit-mcq-09": "「與已有事實／證據吻合」與本句語境不同。",
-        "fit-mcq-13": "「與場合／情境非常相稱而恰當的」與本句語境不同。",
-        "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。"
+        "fit-mcq-11": "本句的「fit」指「衣物穿在身上的合身／版型程度」。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-11"
     },
@@ -1601,11 +1481,9 @@ export default {
       "masked": "These jeans have a slim ____.",
       "options": [
         "fit-mcq-11",
-        "fit-mcq-10",
-        "fit-mcq-12",
-        "fit-mcq-09",
-        "fit-mcq-13",
-        "fit-mcq-08"
+        "fit-mcq-02",
+        "fit-pdf-001",
+        "fit-mcq-05"
       ],
       "explanation": "本句的「fit」指「衣物穿在身上的合身／版型程度」。",
       "sentenceIndex": 137,
@@ -1614,12 +1492,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-11": "本句指「衣物穿在身上的合身／版型程度」。",
-        "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。",
-        "fit-mcq-12": "「用來連接、固定或安裝設備的小型零件」與本句語境不同。",
-        "fit-mcq-09": "「與已有事實／證據吻合」與本句語境不同。",
-        "fit-mcq-13": "「與場合／情境非常相稱而恰當的」與本句語境不同。",
-        "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。"
+        "fit-mcq-11": "本句的「fit」指「衣物穿在身上的合身／版型程度」。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-11"
     },
@@ -1631,11 +1507,9 @@ export default {
       "masked": "I prefer a regular ____.",
       "options": [
         "fit-mcq-11",
-        "fit-mcq-10",
-        "fit-mcq-12",
-        "fit-mcq-09",
-        "fit-mcq-13",
-        "fit-mcq-08"
+        "fit-mcq-06",
+        "fit-mcq-02",
+        "fit-pdf-001"
       ],
       "explanation": "本句的「fit」指「衣物穿在身上的合身／版型程度」。",
       "sentenceIndex": 138,
@@ -1644,12 +1518,10 @@ export default {
         "fit"
       ],
       "optionReasons": {
-        "fit-mcq-11": "本句指「衣物穿在身上的合身／版型程度」。",
-        "fit-mcq-10": "「與某職位、團隊、用途或需要高度契合」與本句語境不同。",
-        "fit-mcq-12": "「用來連接、固定或安裝設備的小型零件」與本句語境不同。",
-        "fit-mcq-09": "「與已有事實／證據吻合」與本句語境不同。",
-        "fit-mcq-13": "「與場合／情境非常相稱而恰當的」與本句語境不同。",
-        "fit-mcq-08": "「身體／精神狀況足以安全履行某活動」與本句語境不同。"
+        "fit-mcq-11": "本句的「fit」指「衣物穿在身上的合身／版型程度」。",
+        "fit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-11"
     },
@@ -1661,11 +1533,9 @@ export default {
       "masked": "Evolutionary ____ concerns reproductive success.",
       "options": [
         "fit-mcq-19",
-        "fit-mcq-18",
-        "fit-mcq-17",
-        "fit-mcq-16",
-        "fit-mcq-15",
-        "fit-mcq-14"
+        "fit-pdf-001",
+        "fit-mcq-02",
+        "fit-reviewed-90549becf7"
       ],
       "explanation": "本句的「fitness」指「個體在特定環境中留下後代的相對成功程度」。",
       "sentenceIndex": 146,
@@ -1674,12 +1544,10 @@ export default {
         "fitness"
       ],
       "optionReasons": {
-        "fit-mcq-19": "本句指「個體在特定環境中留下後代的相對成功程度」。",
-        "fit-mcq-18": "「產品真正滿足市場需求的契合程度」與本句語境不同。",
-        "fit-mcq-17": "「兩個機械零件在尺寸／公差上的配合關係」與本句語境不同。",
-        "fit-mcq-16": "「用觀察數據估計模型參數，使模型與數據擬合」與本句語境不同。",
-        "fit-mcq-15": "「模型與實際數據之間的吻合／擬合程度」與本句語境不同。",
-        "fit-mcq-14": "「突然發生、通常難以控制的一陣生理或情緒發作」與本句語境不同。"
+        "fit-mcq-19": "本句的「fitness」指「個體在特定環境中留下後代的相對成功程度」。",
+        "fit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-90549becf7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-19"
     },
@@ -1691,11 +1559,9 @@ export default {
       "masked": "A trait may increase ____ in one environment but not another.",
       "options": [
         "fit-mcq-19",
-        "fit-mcq-18",
-        "fit-mcq-17",
         "fit-mcq-16",
-        "fit-mcq-15",
-        "fit-mcq-14"
+        "fit-reviewed-90549becf7",
+        "fit-mcq-02"
       ],
       "explanation": "本句的「fitness」指「個體在特定環境中留下後代的相對成功程度」。",
       "sentenceIndex": 147,
@@ -1704,12 +1570,10 @@ export default {
         "fitness"
       ],
       "optionReasons": {
-        "fit-mcq-19": "本句指「個體在特定環境中留下後代的相對成功程度」。",
-        "fit-mcq-18": "「產品真正滿足市場需求的契合程度」與本句語境不同。",
-        "fit-mcq-17": "「兩個機械零件在尺寸／公差上的配合關係」與本句語境不同。",
-        "fit-mcq-16": "「用觀察數據估計模型參數，使模型與數據擬合」與本句語境不同。",
-        "fit-mcq-15": "「模型與實際數據之間的吻合／擬合程度」與本句語境不同。",
-        "fit-mcq-14": "「突然發生、通常難以控制的一陣生理或情緒發作」與本句語境不同。"
+        "fit-mcq-19": "本句的「fitness」指「個體在特定環境中留下後代的相對成功程度」。",
+        "fit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fit-reviewed-90549becf7": "請比較這個意思與句子中標示的用法。",
+        "fit-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fit-mcq-19"
     }
@@ -1721,5 +1585,7 @@ export default {
     "sha256": "1221b23bff002ba61753a8727e0f601383ce6aa77170b2b71d2e2111a259ea73",
     "pages": 50
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

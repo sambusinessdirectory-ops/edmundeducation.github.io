@@ -434,7 +434,7 @@ export default {
     },
     {
       "id": "relieve-mcq-21",
-      "title": "表示擔憂消失的鬆一口氣",
+      "title": "擔憂消失的鬆一口氣",
       "form": "sigh of relief",
       "en": "sigh of relief",
       "zh": "表示擔憂消失的鬆一口氣",
@@ -486,11 +486,9 @@ export default {
       "masked": "This medicine helps ____.",
       "options": [
         "relieve-mcq-01",
-        "relieve-mcq-02",
-        "relieve-mcq-03",
-        "relieve-mcq-04",
-        "relieve-mcq-05",
-        "relieve-mcq-06"
+        "relieve-mcq-15",
+        "relieve-mcq-08",
+        "relieve-mcq-10"
       ],
       "explanation": "本句的「relieve pain」指「使疼痛、不適等變得較輕；緩解／減輕」。",
       "sentenceIndex": 2,
@@ -499,12 +497,10 @@ export default {
         "relieve pain"
       ],
       "optionReasons": {
-        "relieve-mcq-01": "本句指「使疼痛、不適等變得較輕；緩解／減輕」。",
-        "relieve-mcq-02": "「減輕精神壓力、緊張或焦慮」與本句語境不同。",
-        "relieve-mcq-03": "「使某人因擔憂減少而感到安心」與本句語境不同。",
-        "relieve-mcq-04": "「因危險、壓力或不確定性結束而感到如釋重負」與本句語境不同。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。"
+        "relieve-mcq-01": "本句的「relieve pain」指「使疼痛、不適等變得較輕；緩解／減輕」。",
+        "relieve-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-01"
     },
@@ -516,11 +512,9 @@ export default {
       "masked": "Talking to someone can ____.",
       "options": [
         "relieve-mcq-01",
-        "relieve-mcq-02",
-        "relieve-mcq-03",
         "relieve-mcq-04",
-        "relieve-mcq-05",
-        "relieve-mcq-06"
+        "relieve-mcq-10",
+        "relieve-mcq-21"
       ],
       "explanation": "本句的「relieve stress」指「使疼痛、不適等變得較輕；緩解／減輕」。",
       "sentenceIndex": 3,
@@ -529,12 +523,10 @@ export default {
         "relieve stress"
       ],
       "optionReasons": {
-        "relieve-mcq-01": "本句指「使疼痛、不適等變得較輕；緩解／減輕」。",
-        "relieve-mcq-02": "「減輕精神壓力、緊張或焦慮」與本句語境不同。",
-        "relieve-mcq-03": "「使某人因擔憂減少而感到安心」與本句語境不同。",
-        "relieve-mcq-04": "「因危險、壓力或不確定性結束而感到如釋重負」與本句語境不同。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。"
+        "relieve-mcq-01": "本句的「relieve stress」指「使疼痛、不適等變得較輕；緩解／減輕」。",
+        "relieve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-01"
     },
@@ -546,11 +538,9 @@ export default {
       "masked": "The treatment helped ____.",
       "options": [
         "relieve-mcq-01",
-        "relieve-mcq-02",
-        "relieve-mcq-03",
-        "relieve-mcq-04",
-        "relieve-mcq-05",
-        "relieve-mcq-06"
+        "relieve-mcq-15",
+        "relieve-mcq-10",
+        "relieve-mcq-19"
       ],
       "explanation": "本句的「relieve the pain」指「使疼痛、不適等變得較輕；緩解／減輕」。",
       "sentenceIndex": 4,
@@ -559,12 +549,10 @@ export default {
         "relieve the pain"
       ],
       "optionReasons": {
-        "relieve-mcq-01": "本句指「使疼痛、不適等變得較輕；緩解／減輕」。",
-        "relieve-mcq-02": "「減輕精神壓力、緊張或焦慮」與本句語境不同。",
-        "relieve-mcq-03": "「使某人因擔憂減少而感到安心」與本句語境不同。",
-        "relieve-mcq-04": "「因危險、壓力或不確定性結束而感到如釋重負」與本句語境不同。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。"
+        "relieve-mcq-01": "本句的「relieve the pain」指「使疼痛、不適等變得較輕；緩解／減輕」。",
+        "relieve-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-01"
     },
@@ -576,11 +564,9 @@ export default {
       "masked": "A warm bath may ____.",
       "options": [
         "relieve-mcq-01",
-        "relieve-mcq-02",
-        "relieve-mcq-03",
-        "relieve-mcq-04",
-        "relieve-mcq-05",
-        "relieve-mcq-06"
+        "relieve-mcq-20",
+        "relieve-mcq-19",
+        "relieve-mcq-05"
       ],
       "explanation": "本句的「relieve muscle pain」指「使疼痛、不適等變得較輕；緩解／減輕」。",
       "sentenceIndex": 5,
@@ -589,12 +575,10 @@ export default {
         "relieve muscle pain"
       ],
       "optionReasons": {
-        "relieve-mcq-01": "本句指「使疼痛、不適等變得較輕；緩解／減輕」。",
-        "relieve-mcq-02": "「減輕精神壓力、緊張或焦慮」與本句語境不同。",
-        "relieve-mcq-03": "「使某人因擔憂減少而感到安心」與本句語境不同。",
-        "relieve-mcq-04": "「因危險、壓力或不確定性結束而感到如釋重負」與本句語境不同。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。"
+        "relieve-mcq-01": "本句的「relieve muscle pain」指「使疼痛、不適等變得較輕；緩解／減輕」。",
+        "relieve-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-01"
     },
@@ -606,11 +590,9 @@ export default {
       "masked": "Exercise can ____.",
       "options": [
         "relieve-mcq-02",
-        "relieve-mcq-01",
-        "relieve-mcq-03",
-        "relieve-mcq-04",
-        "relieve-mcq-05",
-        "relieve-mcq-06"
+        "relieve-mcq-19",
+        "relieve-mcq-20",
+        "relieve-mcq-10"
       ],
       "explanation": "本句的「relieve stress」指「減輕精神壓力、緊張或焦慮」。",
       "sentenceIndex": 6,
@@ -619,12 +601,10 @@ export default {
         "relieve stress"
       ],
       "optionReasons": {
-        "relieve-mcq-02": "本句指「減輕精神壓力、緊張或焦慮」。",
-        "relieve-mcq-01": "「使疼痛、不適等變得較輕；緩解／減輕」與本句語境不同。",
-        "relieve-mcq-03": "「使某人因擔憂減少而感到安心」與本句語境不同。",
-        "relieve-mcq-04": "「因危險、壓力或不確定性結束而感到如釋重負」與本句語境不同。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。"
+        "relieve-mcq-02": "本句的「relieve stress」指「減輕精神壓力、緊張或焦慮」。",
+        "relieve-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-02"
     },
@@ -636,11 +616,9 @@ export default {
       "masked": "The good news ____.",
       "options": [
         "relieve-mcq-02",
-        "relieve-mcq-01",
-        "relieve-mcq-03",
-        "relieve-mcq-04",
         "relieve-mcq-05",
-        "relieve-mcq-06"
+        "relieve-mcq-08",
+        "relieve-mcq-20"
       ],
       "explanation": "本句的「relieved her anxiety」指「減輕精神壓力、緊張或焦慮」。",
       "sentenceIndex": 7,
@@ -649,12 +627,10 @@ export default {
         "relieved her anxiety"
       ],
       "optionReasons": {
-        "relieve-mcq-02": "本句指「減輕精神壓力、緊張或焦慮」。",
-        "relieve-mcq-01": "「使疼痛、不適等變得較輕；緩解／減輕」與本句語境不同。",
-        "relieve-mcq-03": "「使某人因擔憂減少而感到安心」與本句語境不同。",
-        "relieve-mcq-04": "「因危險、壓力或不確定性結束而感到如釋重負」與本句語境不同。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。"
+        "relieve-mcq-02": "本句的「relieved her anxiety」指「減輕精神壓力、緊張或焦慮」。",
+        "relieve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-02"
     },
@@ -666,11 +642,9 @@ export default {
       "masked": "The doctor’s words ____.",
       "options": [
         "relieve-mcq-03",
-        "relieve-mcq-02",
-        "relieve-mcq-04",
-        "relieve-mcq-01",
-        "relieve-mcq-05",
-        "relieve-mcq-06"
+        "relieve-mcq-10",
+        "relieve-mcq-09",
+        "relieve-mcq-19"
       ],
       "explanation": "本句的「relieved her」指「使某人因擔憂減少而感到安心」。",
       "sentenceIndex": 8,
@@ -679,12 +653,10 @@ export default {
         "relieved her"
       ],
       "optionReasons": {
-        "relieve-mcq-03": "本句指「使某人因擔憂減少而感到安心」。",
-        "relieve-mcq-02": "「減輕精神壓力、緊張或焦慮」與本句語境不同。",
-        "relieve-mcq-04": "「因危險、壓力或不確定性結束而感到如釋重負」與本句語境不同。",
-        "relieve-mcq-01": "「使疼痛、不適等變得較輕；緩解／減輕」與本句語境不同。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。"
+        "relieve-mcq-03": "本句的「relieved her」指「使某人因擔憂減少而感到安心」。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-03"
     },
@@ -696,11 +668,9 @@ export default {
       "masked": "I was greatly ____ to hear that everyone was safe.",
       "options": [
         "relieve-mcq-03",
-        "relieve-mcq-02",
-        "relieve-mcq-04",
-        "relieve-mcq-01",
-        "relieve-mcq-05",
-        "relieve-mcq-06"
+        "relieve-mcq-10",
+        "relieve-mcq-08",
+        "relieve-mcq-11"
       ],
       "explanation": "本句的「relieved」指「使某人因擔憂減少而感到安心」。",
       "sentenceIndex": 9,
@@ -709,12 +679,10 @@ export default {
         "relieved"
       ],
       "optionReasons": {
-        "relieve-mcq-03": "本句指「使某人因擔憂減少而感到安心」。",
-        "relieve-mcq-02": "「減輕精神壓力、緊張或焦慮」與本句語境不同。",
-        "relieve-mcq-04": "「因危險、壓力或不確定性結束而感到如釋重負」與本句語境不同。",
-        "relieve-mcq-01": "「使疼痛、不適等變得較輕；緩解／減輕」與本句語境不同。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。"
+        "relieve-mcq-03": "本句的「relieved」指「使某人因擔憂減少而感到安心」。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-03"
     },
@@ -726,11 +694,9 @@ export default {
       "masked": "I was ____ when I passed the exam.",
       "options": [
         "relieve-mcq-04",
-        "relieve-mcq-03",
-        "relieve-mcq-05",
-        "relieve-mcq-02",
+        "relieve-mcq-12",
         "relieve-mcq-06",
-        "relieve-mcq-01"
+        "relieve-mcq-10"
       ],
       "explanation": "本句的「relieved」指「因危險、壓力或不確定性結束而感到如釋重負」。",
       "sentenceIndex": 10,
@@ -739,12 +705,10 @@ export default {
         "relieved"
       ],
       "optionReasons": {
-        "relieve-mcq-04": "本句指「因危險、壓力或不確定性結束而感到如釋重負」。",
-        "relieve-mcq-03": "「使某人因擔憂減少而感到安心」與本句語境不同。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。",
-        "relieve-mcq-02": "「減輕精神壓力、緊張或焦慮」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。",
-        "relieve-mcq-01": "「使疼痛、不適等變得較輕；緩解／減輕」與本句語境不同。"
+        "relieve-mcq-04": "本句的「relieved」指「因危險、壓力或不確定性結束而感到如釋重負」。",
+        "relieve-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-04"
     },
@@ -756,11 +720,9 @@ export default {
       "masked": "She looked ____ after hearing the result.",
       "options": [
         "relieve-mcq-04",
-        "relieve-mcq-03",
-        "relieve-mcq-05",
-        "relieve-mcq-02",
-        "relieve-mcq-06",
-        "relieve-mcq-01"
+        "relieve-mcq-10",
+        "relieve-mcq-08",
+        "relieve-mcq-21"
       ],
       "explanation": "本句的「relieved」指「因危險、壓力或不確定性結束而感到如釋重負」。",
       "sentenceIndex": 11,
@@ -769,12 +731,10 @@ export default {
         "relieved"
       ],
       "optionReasons": {
-        "relieve-mcq-04": "本句指「因危險、壓力或不確定性結束而感到如釋重負」。",
-        "relieve-mcq-03": "「使某人因擔憂減少而感到安心」與本句語境不同。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。",
-        "relieve-mcq-02": "「減輕精神壓力、緊張或焦慮」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。",
-        "relieve-mcq-01": "「使疼痛、不適等變得較輕；緩解／減輕」與本句語境不同。"
+        "relieve-mcq-04": "本句的「relieved」指「因危險、壓力或不確定性結束而感到如釋重負」。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-04"
     },
@@ -786,11 +746,9 @@ export default {
       "masked": "I was ____ that he was okay.",
       "options": [
         "relieve-mcq-05",
-        "relieve-mcq-04",
-        "relieve-mcq-06",
-        "relieve-mcq-03",
-        "relieve-mcq-07",
-        "relieve-mcq-02"
+        "relieve-mcq-19",
+        "relieve-mcq-10",
+        "relieve-mcq-07"
       ],
       "explanation": "本句的「relieved to hear」指「因聽到／知道／看到某好消息而感到安心」。",
       "sentenceIndex": 12,
@@ -799,12 +757,10 @@ export default {
         "relieved to hear"
       ],
       "optionReasons": {
-        "relieve-mcq-05": "本句指「因聽到／知道／看到某好消息而感到安心」。",
-        "relieve-mcq-04": "「因危險、壓力或不確定性結束而感到如釋重負」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。",
-        "relieve-mcq-03": "「使某人因擔憂減少而感到安心」與本句語境不同。",
-        "relieve-mcq-07": "「替某人減輕負擔」與本句語境不同。",
-        "relieve-mcq-02": "「減輕精神壓力、緊張或焦慮」與本句語境不同。"
+        "relieve-mcq-05": "本句的「relieved to hear」指「因聽到／知道／看到某好消息而感到安心」。",
+        "relieve-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-05"
     },
@@ -816,11 +772,9 @@ export default {
       "masked": "She was ____ the problem had been solved.",
       "options": [
         "relieve-mcq-05",
-        "relieve-mcq-04",
-        "relieve-mcq-06",
-        "relieve-mcq-03",
-        "relieve-mcq-07",
-        "relieve-mcq-02"
+        "relieve-mcq-10",
+        "relieve-mcq-13",
+        "relieve-mcq-19"
       ],
       "explanation": "本句的「relieved to know」指「因聽到／知道／看到某好消息而感到安心」。",
       "sentenceIndex": 13,
@@ -829,12 +783,10 @@ export default {
         "relieved to know"
       ],
       "optionReasons": {
-        "relieve-mcq-05": "本句指「因聽到／知道／看到某好消息而感到安心」。",
-        "relieve-mcq-04": "「因危險、壓力或不確定性結束而感到如釋重負」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。",
-        "relieve-mcq-03": "「使某人因擔憂減少而感到安心」與本句語境不同。",
-        "relieve-mcq-07": "「替某人減輕負擔」與本句語境不同。",
-        "relieve-mcq-02": "「減輕精神壓力、緊張或焦慮」與本句語境不同。"
+        "relieve-mcq-05": "本句的「relieved to know」指「因聽到／知道／看到某好消息而感到安心」。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-05"
     },
@@ -846,11 +798,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "relieve-mcq-06",
-        "relieve-mcq-05",
-        "relieve-mcq-07",
-        "relieve-mcq-04",
-        "relieve-mcq-08",
-        "relieve-mcq-03"
+        "relieve-mcq-21",
+        "relieve-mcq-10",
+        "relieve-mcq-04"
       ],
       "explanation": "本句的「relieved of his duties」指「解除某人的工作、職責或責任」。",
       "sentenceIndex": 14,
@@ -859,12 +809,10 @@ export default {
         "relieved of his duties"
       ],
       "optionReasons": {
-        "relieve-mcq-06": "本句指「解除某人的工作、職責或責任」。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。",
-        "relieve-mcq-07": "「替某人減輕負擔」與本句語境不同。",
-        "relieve-mcq-04": "「因危險、壓力或不確定性結束而感到如釋重負」與本句語境不同。",
-        "relieve-mcq-08": "「接替正在值班或工作的人」與本句語境不同。",
-        "relieve-mcq-03": "「使某人因擔憂減少而感到安心」與本句語境不同。"
+        "relieve-mcq-06": "本句的「relieved of his duties」指「解除某人的工作、職責或責任」。",
+        "relieve-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-06"
     },
@@ -876,11 +824,9 @@ export default {
       "masked": "The assistant ____.",
       "options": [
         "relieve-mcq-06",
+        "relieve-mcq-12",
         "relieve-mcq-05",
-        "relieve-mcq-07",
-        "relieve-mcq-04",
-        "relieve-mcq-08",
-        "relieve-mcq-03"
+        "relieve-mcq-21"
       ],
       "explanation": "本句的「relieved her of some responsibility」指「解除某人的工作、職責或責任」。",
       "sentenceIndex": 15,
@@ -889,12 +835,10 @@ export default {
         "relieved her of some responsibility"
       ],
       "optionReasons": {
-        "relieve-mcq-06": "本句指「解除某人的工作、職責或責任」。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。",
-        "relieve-mcq-07": "「替某人減輕負擔」與本句語境不同。",
-        "relieve-mcq-04": "「因危險、壓力或不確定性結束而感到如釋重負」與本句語境不同。",
-        "relieve-mcq-08": "「接替正在值班或工作的人」與本句語境不同。",
-        "relieve-mcq-03": "「使某人因擔憂減少而感到安心」與本句語境不同。"
+        "relieve-mcq-06": "本句的「relieved her of some responsibility」指「解除某人的工作、職責或責任」。",
+        "relieve-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-06"
     },
@@ -906,11 +850,9 @@ export default {
       "masked": "The extra support ____.",
       "options": [
         "relieve-mcq-07",
-        "relieve-mcq-06",
-        "relieve-mcq-08",
+        "relieve-mcq-19",
         "relieve-mcq-05",
-        "relieve-mcq-09",
-        "relieve-mcq-04"
+        "relieve-mcq-10"
       ],
       "explanation": "本句的「relieved her of a heavy burden」指「替某人減輕負擔」。",
       "sentenceIndex": 16,
@@ -919,12 +861,10 @@ export default {
         "relieved her of a heavy burden"
       ],
       "optionReasons": {
-        "relieve-mcq-07": "本句指「替某人減輕負擔」。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。",
-        "relieve-mcq-08": "「接替正在值班或工作的人」與本句語境不同。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。",
-        "relieve-mcq-09": "「接替、增援或為被圍困的部隊／地方解圍」與本句語境不同。",
-        "relieve-mcq-04": "「因危險、壓力或不確定性結束而感到如釋重負」與本句語境不同。"
+        "relieve-mcq-07": "本句的「relieved her of a heavy burden」指「替某人減輕負擔」。",
+        "relieve-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-07"
     },
@@ -936,11 +876,9 @@ export default {
       "masked": "Sharing the work helped ____.",
       "options": [
         "relieve-mcq-07",
-        "relieve-mcq-06",
-        "relieve-mcq-08",
         "relieve-mcq-05",
-        "relieve-mcq-09",
-        "relieve-mcq-04"
+        "relieve-mcq-19",
+        "relieve-mcq-10"
       ],
       "explanation": "本句的「relieve him of some pressure」指「替某人減輕負擔」。",
       "sentenceIndex": 17,
@@ -949,12 +887,10 @@ export default {
         "relieve him of some pressure"
       ],
       "optionReasons": {
-        "relieve-mcq-07": "本句指「替某人減輕負擔」。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。",
-        "relieve-mcq-08": "「接替正在值班或工作的人」與本句語境不同。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。",
-        "relieve-mcq-09": "「接替、增援或為被圍困的部隊／地方解圍」與本句語境不同。",
-        "relieve-mcq-04": "「因危險、壓力或不確定性結束而感到如釋重負」與本句語境不同。"
+        "relieve-mcq-07": "本句的「relieve him of some pressure」指「替某人減輕負擔」。",
+        "relieve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-07"
     },
@@ -966,9 +902,7 @@ export default {
       "masked": "Another guard came to ____ at midnight.",
       "options": [
         "relieve-mcq-08",
-        "relieve-mcq-07",
-        "relieve-mcq-09",
-        "relieve-mcq-06",
+        "relieve-mcq-13",
         "relieve-mcq-10",
         "relieve-mcq-05"
       ],
@@ -979,12 +913,10 @@ export default {
         "relieve him"
       ],
       "optionReasons": {
-        "relieve-mcq-08": "本句指「接替正在值班或工作的人」。",
-        "relieve-mcq-07": "「替某人減輕負擔」與本句語境不同。",
-        "relieve-mcq-09": "「接替、增援或為被圍困的部隊／地方解圍」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。",
-        "relieve-mcq-10": "「委婉指大小便／去洗手間」與本句語境不同。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。"
+        "relieve-mcq-08": "本句的「relieve him」指「接替正在值班或工作的人」。",
+        "relieve-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-08"
     },
@@ -996,10 +928,8 @@ export default {
       "masked": "I’ll ____ at six.",
       "options": [
         "relieve-mcq-08",
-        "relieve-mcq-07",
-        "relieve-mcq-09",
-        "relieve-mcq-06",
-        "relieve-mcq-10",
+        "relieve-mcq-20",
+        "relieve-mcq-12",
         "relieve-mcq-05"
       ],
       "explanation": "本句的「relieve you」指「接替正在值班或工作的人」。",
@@ -1009,12 +939,10 @@ export default {
         "relieve you"
       ],
       "optionReasons": {
-        "relieve-mcq-08": "本句指「接替正在值班或工作的人」。",
-        "relieve-mcq-07": "「替某人減輕負擔」與本句語境不同。",
-        "relieve-mcq-09": "「接替、增援或為被圍困的部隊／地方解圍」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。",
-        "relieve-mcq-10": "「委婉指大小便／去洗手間」與本句語境不同。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。"
+        "relieve-mcq-08": "本句的「relieve you」指「接替正在值班或工作的人」。",
+        "relieve-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-08"
     },
@@ -1026,11 +954,9 @@ export default {
       "masked": "The night team ____.",
       "options": [
         "relieve-mcq-08",
-        "relieve-mcq-07",
-        "relieve-mcq-09",
-        "relieve-mcq-06",
-        "relieve-mcq-10",
-        "relieve-mcq-05"
+        "relieve-mcq-15",
+        "relieve-mcq-12",
+        "relieve-mcq-10"
       ],
       "explanation": "本句的「relieved the day shift」指「接替正在值班或工作的人」。",
       "sentenceIndex": 20,
@@ -1039,12 +965,10 @@ export default {
         "relieved the day shift"
       ],
       "optionReasons": {
-        "relieve-mcq-08": "本句指「接替正在值班或工作的人」。",
-        "relieve-mcq-07": "「替某人減輕負擔」與本句語境不同。",
-        "relieve-mcq-09": "「接替、增援或為被圍困的部隊／地方解圍」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。",
-        "relieve-mcq-10": "「委婉指大小便／去洗手間」與本句語境不同。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。"
+        "relieve-mcq-08": "本句的「relieved the day shift」指「接替正在值班或工作的人」。",
+        "relieve-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-08"
     },
@@ -1056,11 +980,9 @@ export default {
       "masked": "A second officer arrived to ____.",
       "options": [
         "relieve-mcq-08",
-        "relieve-mcq-07",
-        "relieve-mcq-09",
-        "relieve-mcq-06",
-        "relieve-mcq-10",
-        "relieve-mcq-05"
+        "relieve-mcq-22",
+        "relieve-mcq-05",
+        "relieve-mcq-13"
       ],
       "explanation": "本句的「relieve the first」指「接替正在值班或工作的人」。",
       "sentenceIndex": 21,
@@ -1069,12 +991,10 @@ export default {
         "relieve the first"
       ],
       "optionReasons": {
-        "relieve-mcq-08": "本句指「接替正在值班或工作的人」。",
-        "relieve-mcq-07": "「替某人減輕負擔」與本句語境不同。",
-        "relieve-mcq-09": "「接替、增援或為被圍困的部隊／地方解圍」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。",
-        "relieve-mcq-10": "「委婉指大小便／去洗手間」與本句語境不同。",
-        "relieve-mcq-05": "「因聽到／知道／看到某好消息而感到安心」與本句語境不同。"
+        "relieve-mcq-08": "本句的「relieve the first」指「接替正在值班或工作的人」。",
+        "relieve-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-08"
     },
@@ -1086,11 +1006,9 @@ export default {
       "masked": "Reinforcements arrived to ____.",
       "options": [
         "relieve-mcq-09",
-        "relieve-mcq-08",
-        "relieve-mcq-10",
-        "relieve-mcq-07",
+        "relieve-mcq-03",
         "relieve-mcq-11",
-        "relieve-mcq-06"
+        "relieve-mcq-10"
       ],
       "explanation": "本句的「relieve the city」指「接替、增援或為被圍困的部隊／地方解圍」。",
       "sentenceIndex": 22,
@@ -1099,12 +1017,10 @@ export default {
         "relieve the city"
       ],
       "optionReasons": {
-        "relieve-mcq-09": "本句指「接替、增援或為被圍困的部隊／地方解圍」。",
-        "relieve-mcq-08": "「接替正在值班或工作的人」與本句語境不同。",
-        "relieve-mcq-10": "「委婉指大小便／去洗手間」與本句語境不同。",
-        "relieve-mcq-07": "「替某人減輕負擔」與本句語境不同。",
-        "relieve-mcq-11": "「釋放或減低物理、機械或心理壓力」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。"
+        "relieve-mcq-09": "本句的「relieve the city」指「接替、增援或為被圍困的部隊／地方解圍」。",
+        "relieve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-09"
     },
@@ -1116,11 +1032,9 @@ export default {
       "masked": "Fresh troops were sent to ____.",
       "options": [
         "relieve-mcq-09",
-        "relieve-mcq-08",
-        "relieve-mcq-10",
-        "relieve-mcq-07",
+        "relieve-mcq-03",
         "relieve-mcq-11",
-        "relieve-mcq-06"
+        "relieve-mcq-10"
       ],
       "explanation": "本句的「relieve the exhausted unit」指「接替、增援或為被圍困的部隊／地方解圍」。",
       "sentenceIndex": 23,
@@ -1129,12 +1043,10 @@ export default {
         "relieve the exhausted unit"
       ],
       "optionReasons": {
-        "relieve-mcq-09": "本句指「接替、增援或為被圍困的部隊／地方解圍」。",
-        "relieve-mcq-08": "「接替正在值班或工作的人」與本句語境不同。",
-        "relieve-mcq-10": "「委婉指大小便／去洗手間」與本句語境不同。",
-        "relieve-mcq-07": "「替某人減輕負擔」與本句語境不同。",
-        "relieve-mcq-11": "「釋放或減低物理、機械或心理壓力」與本句語境不同。",
-        "relieve-mcq-06": "「解除某人的工作、職責或責任」與本句語境不同。"
+        "relieve-mcq-09": "本句的「relieve the exhausted unit」指「接替、增援或為被圍困的部隊／地方解圍」。",
+        "relieve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-09"
     },
@@ -1146,11 +1058,9 @@ export default {
       "masked": "He stopped by the roadside to ____.",
       "options": [
         "relieve-mcq-10",
-        "relieve-mcq-09",
-        "relieve-mcq-11",
-        "relieve-mcq-08",
-        "relieve-mcq-12",
-        "relieve-mcq-07"
+        "relieve-mcq-15",
+        "relieve-mcq-01",
+        "relieve-mcq-09"
       ],
       "explanation": "本句的「relieve himself」指「委婉指大小便／去洗手間」。",
       "sentenceIndex": 24,
@@ -1159,12 +1069,10 @@ export default {
         "relieve himself"
       ],
       "optionReasons": {
-        "relieve-mcq-10": "本句指「委婉指大小便／去洗手間」。",
-        "relieve-mcq-09": "「接替、增援或為被圍困的部隊／地方解圍」與本句語境不同。",
-        "relieve-mcq-11": "「釋放或減低物理、機械或心理壓力」與本句語境不同。",
-        "relieve-mcq-08": "「接替正在值班或工作的人」與本句語境不同。",
-        "relieve-mcq-12": "「減少交通、鼻腔等的擁堵／阻塞」與本句語境不同。",
-        "relieve-mcq-07": "「替某人減輕負擔」與本句語境不同。"
+        "relieve-mcq-10": "本句的「relieve himself」指「委婉指大小便／去洗手間」。",
+        "relieve-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-10"
     },
@@ -1176,11 +1084,9 @@ export default {
       "masked": "The dog went outside to ____.",
       "options": [
         "relieve-mcq-10",
-        "relieve-mcq-09",
         "relieve-mcq-11",
-        "relieve-mcq-08",
-        "relieve-mcq-12",
-        "relieve-mcq-07"
+        "relieve-mcq-13",
+        "relieve-mcq-15"
       ],
       "explanation": "本句的「relieve itself」指「委婉指大小便／去洗手間」。",
       "sentenceIndex": 25,
@@ -1189,12 +1095,10 @@ export default {
         "relieve itself"
       ],
       "optionReasons": {
-        "relieve-mcq-10": "本句指「委婉指大小便／去洗手間」。",
-        "relieve-mcq-09": "「接替、增援或為被圍困的部隊／地方解圍」與本句語境不同。",
-        "relieve-mcq-11": "「釋放或減低物理、機械或心理壓力」與本句語境不同。",
-        "relieve-mcq-08": "「接替正在值班或工作的人」與本句語境不同。",
-        "relieve-mcq-12": "「減少交通、鼻腔等的擁堵／阻塞」與本句語境不同。",
-        "relieve-mcq-07": "「替某人減輕負擔」與本句語境不同。"
+        "relieve-mcq-10": "本句的「relieve itself」指「委婉指大小便／去洗手間」。",
+        "relieve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-10"
     },
@@ -1206,11 +1110,9 @@ export default {
       "masked": "The valve is designed to ____.",
       "options": [
         "relieve-mcq-11",
-        "relieve-mcq-10",
-        "relieve-mcq-12",
         "relieve-mcq-09",
-        "relieve-mcq-13",
-        "relieve-mcq-08"
+        "relieve-mcq-06",
+        "relieve-mcq-21"
       ],
       "explanation": "本句的「relieve pressure」指「釋放或減低物理、機械或心理壓力」。",
       "sentenceIndex": 26,
@@ -1219,12 +1121,10 @@ export default {
         "relieve pressure"
       ],
       "optionReasons": {
-        "relieve-mcq-11": "本句指「釋放或減低物理、機械或心理壓力」。",
-        "relieve-mcq-10": "「委婉指大小便／去洗手間」與本句語境不同。",
-        "relieve-mcq-12": "「減少交通、鼻腔等的擁堵／阻塞」與本句語境不同。",
-        "relieve-mcq-09": "「接替、增援或為被圍困的部隊／地方解圍」與本句語境不同。",
-        "relieve-mcq-13": "「減輕痛苦或困苦」與本句語境不同。",
-        "relieve-mcq-08": "「接替正在值班或工作的人」與本句語境不同。"
+        "relieve-mcq-11": "本句的「relieve pressure」指「釋放或減低物理、機械或心理壓力」。",
+        "relieve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-11"
     },
@@ -1237,10 +1137,8 @@ export default {
       "options": [
         "relieve-mcq-11",
         "relieve-mcq-10",
-        "relieve-mcq-12",
-        "relieve-mcq-09",
-        "relieve-mcq-13",
-        "relieve-mcq-08"
+        "relieve-mcq-19",
+        "relieve-mcq-20"
       ],
       "explanation": "本句的「relieve traffic pressure」指「釋放或減低物理、機械或心理壓力」。",
       "sentenceIndex": 27,
@@ -1249,12 +1147,10 @@ export default {
         "relieve traffic pressure"
       ],
       "optionReasons": {
-        "relieve-mcq-11": "本句指「釋放或減低物理、機械或心理壓力」。",
-        "relieve-mcq-10": "「委婉指大小便／去洗手間」與本句語境不同。",
-        "relieve-mcq-12": "「減少交通、鼻腔等的擁堵／阻塞」與本句語境不同。",
-        "relieve-mcq-09": "「接替、增援或為被圍困的部隊／地方解圍」與本句語境不同。",
-        "relieve-mcq-13": "「減輕痛苦或困苦」與本句語境不同。",
-        "relieve-mcq-08": "「接替正在值班或工作的人」與本句語境不同。"
+        "relieve-mcq-11": "本句的「relieve traffic pressure」指「釋放或減低物理、機械或心理壓力」。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-11"
     },
@@ -1266,10 +1162,8 @@ export default {
       "masked": "The new line should ____.",
       "options": [
         "relieve-mcq-12",
-        "relieve-mcq-11",
-        "relieve-mcq-13",
+        "relieve-mcq-06",
         "relieve-mcq-10",
-        "relieve-mcq-14",
         "relieve-mcq-09"
       ],
       "explanation": "本句的「relieve traffic congestion」指「減少交通、鼻腔等的擁堵／阻塞」。",
@@ -1279,12 +1173,10 @@ export default {
         "relieve traffic congestion"
       ],
       "optionReasons": {
-        "relieve-mcq-12": "本句指「減少交通、鼻腔等的擁堵／阻塞」。",
-        "relieve-mcq-11": "「釋放或減低物理、機械或心理壓力」與本句語境不同。",
-        "relieve-mcq-13": "「減輕痛苦或困苦」與本句語境不同。",
-        "relieve-mcq-10": "「委婉指大小便／去洗手間」與本句語境不同。",
-        "relieve-mcq-14": "「減輕／救濟貧困」與本句語境不同。",
-        "relieve-mcq-09": "「接替、增援或為被圍困的部隊／地方解圍」與本句語境不同。"
+        "relieve-mcq-12": "本句的「relieve traffic congestion」指「減少交通、鼻腔等的擁堵／阻塞」。",
+        "relieve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-12"
     },
@@ -1296,11 +1188,9 @@ export default {
       "masked": "The medicine may help ____.",
       "options": [
         "relieve-mcq-12",
-        "relieve-mcq-11",
-        "relieve-mcq-13",
-        "relieve-mcq-10",
-        "relieve-mcq-14",
-        "relieve-mcq-09"
+        "relieve-mcq-21",
+        "relieve-mcq-09",
+        "relieve-mcq-04"
       ],
       "explanation": "本句的「relieve nasal congestion」指「減少交通、鼻腔等的擁堵／阻塞」。",
       "sentenceIndex": 29,
@@ -1309,12 +1199,10 @@ export default {
         "relieve nasal congestion"
       ],
       "optionReasons": {
-        "relieve-mcq-12": "本句指「減少交通、鼻腔等的擁堵／阻塞」。",
-        "relieve-mcq-11": "「釋放或減低物理、機械或心理壓力」與本句語境不同。",
-        "relieve-mcq-13": "「減輕痛苦或困苦」與本句語境不同。",
-        "relieve-mcq-10": "「委婉指大小便／去洗手間」與本句語境不同。",
-        "relieve-mcq-14": "「減輕／救濟貧困」與本句語境不同。",
-        "relieve-mcq-09": "「接替、增援或為被圍困的部隊／地方解圍」與本句語境不同。"
+        "relieve-mcq-12": "本句的「relieve nasal congestion」指「減少交通、鼻腔等的擁堵／阻塞」。",
+        "relieve-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-12"
     },
@@ -1326,10 +1214,8 @@ export default {
       "masked": "The charity works to ____.",
       "options": [
         "relieve-mcq-13",
-        "relieve-mcq-12",
-        "relieve-mcq-14",
-        "relieve-mcq-11",
-        "relieve-mcq-15",
+        "relieve-mcq-08",
+        "relieve-mcq-21",
         "relieve-mcq-10"
       ],
       "explanation": "本句的「relieve suffering」指「減輕痛苦或困苦」。",
@@ -1339,12 +1225,10 @@ export default {
         "relieve suffering"
       ],
       "optionReasons": {
-        "relieve-mcq-13": "本句指「減輕痛苦或困苦」。",
-        "relieve-mcq-12": "「減少交通、鼻腔等的擁堵／阻塞」與本句語境不同。",
-        "relieve-mcq-14": "「減輕／救濟貧困」與本句語境不同。",
-        "relieve-mcq-11": "「釋放或減低物理、機械或心理壓力」與本句語境不同。",
-        "relieve-mcq-15": "「感到安心、鬆了一口氣、如釋重負的」與本句語境不同。",
-        "relieve-mcq-10": "「委婉指大小便／去洗手間」與本句語境不同。"
+        "relieve-mcq-13": "本句的「relieve suffering」指「減輕痛苦或困苦」。",
+        "relieve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-13"
     },
@@ -1356,10 +1240,8 @@ export default {
       "masked": "Emergency aid helped ____.",
       "options": [
         "relieve-mcq-13",
-        "relieve-mcq-12",
-        "relieve-mcq-14",
-        "relieve-mcq-11",
         "relieve-mcq-15",
+        "relieve-mcq-06",
         "relieve-mcq-10"
       ],
       "explanation": "本句的「relieve hardship」指「減輕痛苦或困苦」。",
@@ -1369,12 +1251,10 @@ export default {
         "relieve hardship"
       ],
       "optionReasons": {
-        "relieve-mcq-13": "本句指「減輕痛苦或困苦」。",
-        "relieve-mcq-12": "「減少交通、鼻腔等的擁堵／阻塞」與本句語境不同。",
-        "relieve-mcq-14": "「減輕／救濟貧困」與本句語境不同。",
-        "relieve-mcq-11": "「釋放或減低物理、機械或心理壓力」與本句語境不同。",
-        "relieve-mcq-15": "「感到安心、鬆了一口氣、如釋重負的」與本句語境不同。",
-        "relieve-mcq-10": "「委婉指大小便／去洗手間」與本句語境不同。"
+        "relieve-mcq-13": "本句的「relieve hardship」指「減輕痛苦或困苦」。",
+        "relieve-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-13"
     },
@@ -1386,11 +1266,9 @@ export default {
       "masked": "The programme was designed to ____.",
       "options": [
         "relieve-mcq-14",
-        "relieve-mcq-13",
-        "relieve-mcq-15",
-        "relieve-mcq-12",
-        "relieve-mcq-16",
-        "relieve-mcq-11"
+        "relieve-mcq-10",
+        "relieve-mcq-05",
+        "relieve-mcq-21"
       ],
       "explanation": "本句的「relieve poverty」指「減輕／救濟貧困」。",
       "sentenceIndex": 32,
@@ -1399,12 +1277,10 @@ export default {
         "relieve poverty"
       ],
       "optionReasons": {
-        "relieve-mcq-14": "本句指「減輕／救濟貧困」。",
-        "relieve-mcq-13": "「減輕痛苦或困苦」與本句語境不同。",
-        "relieve-mcq-15": "「感到安心、鬆了一口氣、如釋重負的」與本句語境不同。",
-        "relieve-mcq-12": "「減少交通、鼻腔等的擁堵／阻塞」與本句語境不同。",
-        "relieve-mcq-16": "「疼痛、壓力或困難的緩解」與本句語境不同。",
-        "relieve-mcq-11": "「釋放或減低物理、機械或心理壓力」與本句語境不同。"
+        "relieve-mcq-14": "本句的「relieve poverty」指「減輕／救濟貧困」。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-14"
     },
@@ -1416,11 +1292,9 @@ export default {
       "masked": "Local charities helped ____ in the area.",
       "options": [
         "relieve-mcq-14",
-        "relieve-mcq-13",
-        "relieve-mcq-15",
-        "relieve-mcq-12",
-        "relieve-mcq-16",
-        "relieve-mcq-11"
+        "relieve-mcq-22",
+        "relieve-mcq-10",
+        "relieve-mcq-05"
       ],
       "explanation": "本句的「relieve poverty」指「減輕／救濟貧困」。",
       "sentenceIndex": 33,
@@ -1429,12 +1303,10 @@ export default {
         "relieve poverty"
       ],
       "optionReasons": {
-        "relieve-mcq-14": "本句指「減輕／救濟貧困」。",
-        "relieve-mcq-13": "「減輕痛苦或困苦」與本句語境不同。",
-        "relieve-mcq-15": "「感到安心、鬆了一口氣、如釋重負的」與本句語境不同。",
-        "relieve-mcq-12": "「減少交通、鼻腔等的擁堵／阻塞」與本句語境不同。",
-        "relieve-mcq-16": "「疼痛、壓力或困難的緩解」與本句語境不同。",
-        "relieve-mcq-11": "「釋放或減低物理、機械或心理壓力」與本句語境不同。"
+        "relieve-mcq-14": "本句的「relieve poverty」指「減輕／救濟貧困」。",
+        "relieve-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-14"
     },
@@ -1446,11 +1318,9 @@ export default {
       "masked": "She looked ____.",
       "options": [
         "relieve-mcq-15",
-        "relieve-mcq-14",
-        "relieve-mcq-16",
-        "relieve-mcq-13",
-        "relieve-mcq-17",
-        "relieve-mcq-12"
+        "relieve-mcq-19",
+        "relieve-mcq-10",
+        "relieve-mcq-13"
       ],
       "explanation": "本句的「relieved」指「感到安心、鬆了一口氣、如釋重負的」。",
       "sentenceIndex": 34,
@@ -1459,12 +1329,10 @@ export default {
         "relieved"
       ],
       "optionReasons": {
-        "relieve-mcq-15": "本句指「感到安心、鬆了一口氣、如釋重負的」。",
-        "relieve-mcq-14": "「減輕／救濟貧困」與本句語境不同。",
-        "relieve-mcq-16": "「疼痛、壓力或困難的緩解」與本句語境不同。",
-        "relieve-mcq-13": "「減輕痛苦或困苦」與本句語境不同。",
-        "relieve-mcq-17": "「擔憂消失後的安心／如釋重負」與本句語境不同。",
-        "relieve-mcq-12": "「減少交通、鼻腔等的擁堵／阻塞」與本句語境不同。"
+        "relieve-mcq-15": "本句的「relieved」指「感到安心、鬆了一口氣、如釋重負的」。",
+        "relieve-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-15"
     },
@@ -1476,11 +1344,9 @@ export default {
       "masked": "We were all ____ when the news arrived.",
       "options": [
         "relieve-mcq-15",
-        "relieve-mcq-14",
-        "relieve-mcq-16",
-        "relieve-mcq-13",
-        "relieve-mcq-17",
-        "relieve-mcq-12"
+        "relieve-mcq-19",
+        "relieve-mcq-12",
+        "relieve-mcq-09"
       ],
       "explanation": "本句的「relieved」指「感到安心、鬆了一口氣、如釋重負的」。",
       "sentenceIndex": 35,
@@ -1489,12 +1355,10 @@ export default {
         "relieved"
       ],
       "optionReasons": {
-        "relieve-mcq-15": "本句指「感到安心、鬆了一口氣、如釋重負的」。",
-        "relieve-mcq-14": "「減輕／救濟貧困」與本句語境不同。",
-        "relieve-mcq-16": "「疼痛、壓力或困難的緩解」與本句語境不同。",
-        "relieve-mcq-13": "「減輕痛苦或困苦」與本句語境不同。",
-        "relieve-mcq-17": "「擔憂消失後的安心／如釋重負」與本句語境不同。",
-        "relieve-mcq-12": "「減少交通、鼻腔等的擁堵／阻塞」與本句語境不同。"
+        "relieve-mcq-15": "本句的「relieved」指「感到安心、鬆了一口氣、如釋重負的」。",
+        "relieve-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-15"
     },
@@ -1506,11 +1370,9 @@ export default {
       "masked": "Volunteers took part in ____.",
       "options": [
         "relieve-mcq-19",
-        "relieve-mcq-18",
-        "relieve-mcq-20",
-        "relieve-mcq-17",
         "relieve-mcq-21",
-        "relieve-mcq-16"
+        "relieve-mcq-05",
+        "relieve-mcq-12"
       ],
       "explanation": "本句的「relief work」指「救援工作／救濟援助」。",
       "sentenceIndex": 36,
@@ -1519,12 +1381,10 @@ export default {
         "relief work"
       ],
       "optionReasons": {
-        "relieve-mcq-19": "本句指「救援工作／救濟援助」。",
-        "relieve-mcq-18": "「對災民、貧困者等提供的救濟／援助」與本句語境不同。",
-        "relieve-mcq-20": "「令某人鬆一口氣的是……」與本句語境不同。",
-        "relieve-mcq-17": "「擔憂消失後的安心／如釋重負」與本句語境不同。",
-        "relieve-mcq-21": "「表示擔憂消失的鬆一口氣」與本句語境不同。",
-        "relieve-mcq-16": "「疼痛、壓力或困難的緩解」與本句語境不同。"
+        "relieve-mcq-19": "本句的「relief work」指「救援工作／救濟援助」。",
+        "relieve-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-19"
     },
@@ -1536,11 +1396,9 @@ export default {
       "masked": "The region received emergency ____.",
       "options": [
         "relieve-mcq-19",
-        "relieve-mcq-18",
-        "relieve-mcq-20",
-        "relieve-mcq-17",
+        "relieve-mcq-04",
         "relieve-mcq-21",
-        "relieve-mcq-16"
+        "relieve-mcq-13"
       ],
       "explanation": "本句的「relief aid」指「救援工作／救濟援助」。",
       "sentenceIndex": 37,
@@ -1549,12 +1407,10 @@ export default {
         "relief aid"
       ],
       "optionReasons": {
-        "relieve-mcq-19": "本句指「救援工作／救濟援助」。",
-        "relieve-mcq-18": "「對災民、貧困者等提供的救濟／援助」與本句語境不同。",
-        "relieve-mcq-20": "「令某人鬆一口氣的是……」與本句語境不同。",
-        "relieve-mcq-17": "「擔憂消失後的安心／如釋重負」與本句語境不同。",
-        "relieve-mcq-21": "「表示擔憂消失的鬆一口氣」與本句語境不同。",
-        "relieve-mcq-16": "「疼痛、壓力或困難的緩解」與本句語境不同。"
+        "relieve-mcq-19": "本句的「relief aid」指「救援工作／救濟援助」。",
+        "relieve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-19"
     },
@@ -1566,11 +1422,9 @@ export default {
       "masked": "____, the exam was easier than expected.",
       "options": [
         "relieve-mcq-20",
-        "relieve-mcq-19",
-        "relieve-mcq-21",
-        "relieve-mcq-18",
-        "relieve-mcq-22",
-        "relieve-mcq-17"
+        "relieve-mcq-05",
+        "relieve-mcq-13",
+        "relieve-mcq-11"
       ],
       "explanation": "本句的「To my relief」指「令某人鬆一口氣的是……」。",
       "sentenceIndex": 40,
@@ -1579,12 +1433,10 @@ export default {
         "To my relief"
       ],
       "optionReasons": {
-        "relieve-mcq-20": "本句指「令某人鬆一口氣的是……」。",
-        "relieve-mcq-19": "「救援工作／救濟援助」與本句語境不同。",
-        "relieve-mcq-21": "「表示擔憂消失的鬆一口氣」與本句語境不同。",
-        "relieve-mcq-18": "「對災民、貧困者等提供的救濟／援助」與本句語境不同。",
-        "relieve-mcq-22": "「因危機或擔憂解除而鬆一口氣」與本句語境不同。",
-        "relieve-mcq-17": "「擔憂消失後的安心／如釋重負」與本句語境不同。"
+        "relieve-mcq-20": "本句的「To my relief」指「令某人鬆一口氣的是……」。",
+        "relieve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-20"
     },
@@ -1596,11 +1448,9 @@ export default {
       "masked": "____, the child was found safe.",
       "options": [
         "relieve-mcq-20",
-        "relieve-mcq-19",
-        "relieve-mcq-21",
-        "relieve-mcq-18",
-        "relieve-mcq-22",
-        "relieve-mcq-17"
+        "relieve-mcq-13",
+        "relieve-mcq-08",
+        "relieve-mcq-11"
       ],
       "explanation": "本句的「To everyone’s relief」指「令某人鬆一口氣的是……」。",
       "sentenceIndex": 41,
@@ -1609,12 +1459,10 @@ export default {
         "To everyone’s relief"
       ],
       "optionReasons": {
-        "relieve-mcq-20": "本句指「令某人鬆一口氣的是……」。",
-        "relieve-mcq-19": "「救援工作／救濟援助」與本句語境不同。",
-        "relieve-mcq-21": "「表示擔憂消失的鬆一口氣」與本句語境不同。",
-        "relieve-mcq-18": "「對災民、貧困者等提供的救濟／援助」與本句語境不同。",
-        "relieve-mcq-22": "「因危機或擔憂解除而鬆一口氣」與本句語境不同。",
-        "relieve-mcq-17": "「擔憂消失後的安心／如釋重負」與本句語境不同。"
+        "relieve-mcq-20": "本句的「To everyone’s relief」指「令某人鬆一口氣的是……」。",
+        "relieve-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-20"
     },
@@ -1626,11 +1474,9 @@ export default {
       "masked": "She gave a ____.",
       "options": [
         "relieve-mcq-21",
-        "relieve-mcq-20",
-        "relieve-mcq-22",
-        "relieve-mcq-19",
-        "relieve-mcq-18",
-        "relieve-mcq-17"
+        "relieve-mcq-13",
+        "relieve-mcq-08",
+        "relieve-mcq-04"
       ],
       "explanation": "本句的「sigh of relief」指「表示擔憂消失的鬆一口氣」。",
       "sentenceIndex": 42,
@@ -1639,12 +1485,10 @@ export default {
         "sigh of relief"
       ],
       "optionReasons": {
-        "relieve-mcq-21": "本句指「表示擔憂消失的鬆一口氣」。",
-        "relieve-mcq-20": "「令某人鬆一口氣的是……」與本句語境不同。",
-        "relieve-mcq-22": "「因危機或擔憂解除而鬆一口氣」與本句語境不同。",
-        "relieve-mcq-19": "「救援工作／救濟援助」與本句語境不同。",
-        "relieve-mcq-18": "「對災民、貧困者等提供的救濟／援助」與本句語境不同。",
-        "relieve-mcq-17": "「擔憂消失後的安心／如釋重負」與本句語境不同。"
+        "relieve-mcq-21": "本句的「sigh of relief」指「表示擔憂消失的鬆一口氣」。",
+        "relieve-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-21"
     },
@@ -1656,11 +1500,9 @@ export default {
       "masked": "Everyone breathed a ____ when the result came out.",
       "options": [
         "relieve-mcq-21",
-        "relieve-mcq-20",
-        "relieve-mcq-22",
-        "relieve-mcq-19",
-        "relieve-mcq-18",
-        "relieve-mcq-17"
+        "relieve-mcq-06",
+        "relieve-mcq-04",
+        "relieve-mcq-12"
       ],
       "explanation": "本句的「sigh of relief」指「表示擔憂消失的鬆一口氣」。",
       "sentenceIndex": 43,
@@ -1669,12 +1511,10 @@ export default {
         "sigh of relief"
       ],
       "optionReasons": {
-        "relieve-mcq-21": "本句指「表示擔憂消失的鬆一口氣」。",
-        "relieve-mcq-20": "「令某人鬆一口氣的是……」與本句語境不同。",
-        "relieve-mcq-22": "「因危機或擔憂解除而鬆一口氣」與本句語境不同。",
-        "relieve-mcq-19": "「救援工作／救濟援助」與本句語境不同。",
-        "relieve-mcq-18": "「對災民、貧困者等提供的救濟／援助」與本句語境不同。",
-        "relieve-mcq-17": "「擔憂消失後的安心／如釋重負」與本句語境不同。"
+        "relieve-mcq-21": "本句的「sigh of relief」指「表示擔憂消失的鬆一口氣」。",
+        "relieve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-21"
     },
@@ -1686,11 +1526,9 @@ export default {
       "masked": "I ____ when I saw my score.",
       "options": [
         "relieve-mcq-22",
-        "relieve-mcq-21",
-        "relieve-mcq-20",
-        "relieve-mcq-19",
-        "relieve-mcq-18",
-        "relieve-mcq-17"
+        "relieve-mcq-14",
+        "relieve-mcq-08",
+        "relieve-mcq-10"
       ],
       "explanation": "本句的「breathed a sigh of relief」指「因危機或擔憂解除而鬆一口氣」。",
       "sentenceIndex": 44,
@@ -1699,12 +1537,10 @@ export default {
         "breathed a sigh of relief"
       ],
       "optionReasons": {
-        "relieve-mcq-22": "本句指「因危機或擔憂解除而鬆一口氣」。",
-        "relieve-mcq-21": "「表示擔憂消失的鬆一口氣」與本句語境不同。",
-        "relieve-mcq-20": "「令某人鬆一口氣的是……」與本句語境不同。",
-        "relieve-mcq-19": "「救援工作／救濟援助」與本句語境不同。",
-        "relieve-mcq-18": "「對災民、貧困者等提供的救濟／援助」與本句語境不同。",
-        "relieve-mcq-17": "「擔憂消失後的安心／如釋重負」與本句語境不同。"
+        "relieve-mcq-22": "本句的「breathed a sigh of relief」指「因危機或擔憂解除而鬆一口氣」。",
+        "relieve-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-22"
     },
@@ -1716,11 +1552,9 @@ export default {
       "masked": "The team could finally ____.",
       "options": [
         "relieve-mcq-22",
-        "relieve-mcq-21",
-        "relieve-mcq-20",
-        "relieve-mcq-19",
-        "relieve-mcq-18",
-        "relieve-mcq-17"
+        "relieve-mcq-08",
+        "relieve-mcq-14",
+        "relieve-mcq-10"
       ],
       "explanation": "本句的「breathe a sigh of relief」指「因危機或擔憂解除而鬆一口氣」。",
       "sentenceIndex": 45,
@@ -1729,12 +1563,10 @@ export default {
         "breathe a sigh of relief"
       ],
       "optionReasons": {
-        "relieve-mcq-22": "本句指「因危機或擔憂解除而鬆一口氣」。",
-        "relieve-mcq-21": "「表示擔憂消失的鬆一口氣」與本句語境不同。",
-        "relieve-mcq-20": "「令某人鬆一口氣的是……」與本句語境不同。",
-        "relieve-mcq-19": "「救援工作／救濟援助」與本句語境不同。",
-        "relieve-mcq-18": "「對災民、貧困者等提供的救濟／援助」與本句語境不同。",
-        "relieve-mcq-17": "「擔憂消失後的安心／如釋重負」與本句語境不同。"
+        "relieve-mcq-22": "本句的「breathe a sigh of relief」指「因危機或擔憂解除而鬆一口氣」。",
+        "relieve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "relieve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relieve-mcq-22"
     }
@@ -1746,5 +1578,7 @@ export default {
     "sha256": "9882f456e021ebca018004e8ce830964abdf4d5dc22e768a079d94c0828f90a1",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

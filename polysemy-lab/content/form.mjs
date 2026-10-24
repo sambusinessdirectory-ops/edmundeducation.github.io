@@ -144,16 +144,6 @@ export default {
       "note": "來源詞義：藝術形式",
       "examples": [
         [
-          "Went” is the past form of “go.",
-          "went 是 go 的過去式形式。",
-          "藝術形式"
-        ],
-        [
-          "Use the correct verb form.",
-          "請使用正確的動詞形式。",
-          "藝術形式"
-        ],
-        [
           "The novel is a popular literary form.",
           "小說是一種流行的文學形式。",
           "藝術形式"
@@ -259,16 +249,6 @@ export default {
         [
           "The formation of ice can damage pipes.",
           "冰的形成可能損壞水管。",
-          "形成"
-        ],
-        [
-          "The planes flew in formation.",
-          "飛機以編隊飛行。",
-          "形成"
-        ],
-        [
-          "The team changed its formation in the second half.",
-          "球隊在下半場改變了陣形。",
           "形成"
         ],
         [
@@ -608,6 +588,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "form-reviewed-8a184c45b9",
+      "title": "一個字、動詞或語言單位在特定文法功能下所呈現的形式",
+      "form": "form · source section 10",
+      "en": "一個字、動詞或語言單位在特定文法功能下所呈現的形式",
+      "zh": "一個字、動詞或語言單位在特定文法功能下所呈現的形式",
+      "note": "對照原始教材第 10 節及例句核實。",
+      "examples": [
+        [
+          "Went” is the past form of “go.",
+          "went 是 go 的過去式形式。",
+          "一個字、動詞或語言單位在特定文法功能下所呈現的形式"
+        ],
+        [
+          "Use the correct verb form.",
+          "請使用正確的動詞形式。",
+          "一個字、動詞或語言單位在特定文法功能下所呈現的形式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "form-reviewed-18f4885a1e",
+      "title": "人、車輛、飛機或球員等按特定方式排列形成的隊形",
+      "form": "form · source section 25",
+      "en": "人、車輛、飛機或球員等按特定方式排列形成的隊形",
+      "zh": "人、車輛、飛機或球員等按特定方式排列形成的隊形",
+      "note": "對照原始教材第 25 節及例句核實。",
+      "examples": [
+        [
+          "The planes flew in formation.",
+          "飛機以編隊飛行。",
+          "人、車輛、飛機或球員等按特定方式排列形成的隊形"
+        ],
+        [
+          "The team changed its formation in the second half.",
+          "球隊在下半場改變了陣形。",
+          "人、車輛、飛機或球員等按特定方式排列形成的隊形"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -619,11 +643,9 @@ export default {
       "masked": "I attended the school from ____.",
       "options": [
         "form-mcq-16",
-        "form-mcq-15",
+        "form-mcq-07",
         "form-mcq-17",
-        "form-mcq-14",
-        "form-mcq-18",
-        "form-mcq-13"
+        "form-mcq-05"
       ],
       "explanation": "本句的「Form One to Form Six」指「英式或香港教育制度中表示中學年級的方式」。",
       "sentenceIndex": 0,
@@ -632,12 +654,10 @@ export default {
         "Form One to Form Six"
       ],
       "optionReasons": {
-        "form-mcq-16": "本句指「英式或香港教育制度中表示中學年級的方式」。",
-        "form-mcq-15": "「重新形成」是「re-form」的用法，與本句語境不同。",
-        "form-mcq-17": "「有固定欄位、供人填寫資料的文件」是「8. form（表格） — 表格」的用法，與本句語境不同。",
-        "form-mcq-14": "「改革」是「reform」的用法，與本句語境不同。",
-        "form-mcq-18": "「某物逐漸產生、出現或取得明確形態」是「16. form（verb：形成） — 形成；產生」的用法，與本句語境不同。",
-        "form-mcq-13": "「成長關鍵時期」是「formative years」的用法，與本句語境不同。"
+        "form-mcq-16": "本句的「Form One to Form Six」指「英式或香港教育制度中表示中學年級的方式」。",
+        "form-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-16"
     },
@@ -649,11 +669,9 @@ export default {
       "masked": "She is currently in ____.",
       "options": [
         "form-mcq-16",
-        "form-mcq-15",
-        "form-mcq-17",
-        "form-mcq-14",
-        "form-mcq-18",
-        "form-mcq-13"
+        "form-mcq-08",
+        "form-mcq-22",
+        "form-mcq-12"
       ],
       "explanation": "本句的「Form Three」指「英式或香港教育制度中表示中學年級的方式」。",
       "sentenceIndex": 1,
@@ -662,12 +680,10 @@ export default {
         "Form Three"
       ],
       "optionReasons": {
-        "form-mcq-16": "本句指「英式或香港教育制度中表示中學年級的方式」。",
-        "form-mcq-15": "「重新形成」是「re-form」的用法，與本句語境不同。",
-        "form-mcq-17": "「有固定欄位、供人填寫資料的文件」是「8. form（表格） — 表格」的用法，與本句語境不同。",
-        "form-mcq-14": "「改革」是「reform」的用法，與本句語境不同。",
-        "form-mcq-18": "「某物逐漸產生、出現或取得明確形態」是「16. form（verb：形成） — 形成；產生」的用法，與本句語境不同。",
-        "form-mcq-13": "「成長關鍵時期」是「formative years」的用法，與本句語境不同。"
+        "form-mcq-16": "本句的「Form Three」指「英式或香港教育制度中表示中學年級的方式」。",
+        "form-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-16"
     },
@@ -679,11 +695,9 @@ export default {
       "masked": "I first met him when I was in ____.",
       "options": [
         "form-mcq-16",
-        "form-mcq-15",
+        "form-mcq-09",
         "form-mcq-17",
-        "form-mcq-14",
-        "form-mcq-18",
-        "form-mcq-13"
+        "form-mcq-05"
       ],
       "explanation": "本句的「Form Two」指「英式或香港教育制度中表示中學年級的方式」。",
       "sentenceIndex": 2,
@@ -692,12 +706,10 @@ export default {
         "Form Two"
       ],
       "optionReasons": {
-        "form-mcq-16": "本句指「英式或香港教育制度中表示中學年級的方式」。",
-        "form-mcq-15": "「重新形成」是「re-form」的用法，與本句語境不同。",
-        "form-mcq-17": "「有固定欄位、供人填寫資料的文件」是「8. form（表格） — 表格」的用法，與本句語境不同。",
-        "form-mcq-14": "「改革」是「reform」的用法，與本句語境不同。",
-        "form-mcq-18": "「某物逐漸產生、出現或取得明確形態」是「16. form（verb：形成） — 形成；產生」的用法，與本句語境不同。",
-        "form-mcq-13": "「成長關鍵時期」是「formative years」的用法，與本句語境不同。"
+        "form-mcq-16": "本句的「Form Two」指「英式或香港教育制度中表示中學年級的方式」。",
+        "form-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-16"
     },
@@ -709,11 +721,9 @@ export default {
       "masked": "Online learning is one ____.",
       "options": [
         "form-mcq-01",
-        "form-mcq-02",
-        "form-mcq-03",
-        "form-mcq-04",
-        "form-mcq-05",
-        "form-mcq-06"
+        "form-mcq-23",
+        "form-pdf-001",
+        "form-mcq-14"
       ],
       "explanation": "本句的「form of education」指「X 的一種形式」。",
       "sentenceIndex": 3,
@@ -722,12 +732,10 @@ export default {
         "form of education"
       ],
       "optionReasons": {
-        "form-mcq-01": "本句指「X 的一種形式」。",
-        "form-mcq-02": "「以……形式」是「in the form of」的用法，與本句語境不同。",
-        "form-mcq-03": "「採取……形式」是「take the form of」的用法，與本句語境不同。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。"
+        "form-mcq-01": "本句的「form of education」指「X 的一種形式」。",
+        "form-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "form-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-01"
     },
@@ -739,11 +747,9 @@ export default {
       "masked": "Exercise is a useful ____.",
       "options": [
         "form-mcq-01",
-        "form-mcq-02",
-        "form-mcq-03",
-        "form-mcq-04",
-        "form-mcq-05",
-        "form-mcq-06"
+        "form-mcq-17",
+        "form-mcq-16",
+        "form-mcq-21"
       ],
       "explanation": "本句的「form of stress relief」指「X 的一種形式」。",
       "sentenceIndex": 4,
@@ -752,12 +758,10 @@ export default {
         "form of stress relief"
       ],
       "optionReasons": {
-        "form-mcq-01": "本句指「X 的一種形式」。",
-        "form-mcq-02": "「以……形式」是「in the form of」的用法，與本句語境不同。",
-        "form-mcq-03": "「採取……形式」是「take the form of」的用法，與本句語境不同。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。"
+        "form-mcq-01": "本句的「form of stress relief」指「X 的一種形式」。",
+        "form-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-01"
     },
@@ -769,11 +773,9 @@ export default {
       "masked": "Poetry is a ____.",
       "options": [
         "form-mcq-01",
-        "form-mcq-02",
-        "form-mcq-03",
-        "form-mcq-04",
-        "form-mcq-05",
-        "form-mcq-06"
+        "form-mcq-23",
+        "form-mcq-17",
+        "form-mcq-07"
       ],
       "explanation": "本句的「form of literature」指「X 的一種形式」。",
       "sentenceIndex": 5,
@@ -782,12 +784,10 @@ export default {
         "form of literature"
       ],
       "optionReasons": {
-        "form-mcq-01": "本句指「X 的一種形式」。",
-        "form-mcq-02": "「以……形式」是「in the form of」的用法，與本句語境不同。",
-        "form-mcq-03": "「採取……形式」是「take the form of」的用法，與本句語境不同。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。"
+        "form-mcq-01": "本句的「form of literature」指「X 的一種形式」。",
+        "form-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-01"
     },
@@ -799,11 +799,9 @@ export default {
       "masked": "This behaviour may be a ____.",
       "options": [
         "form-mcq-01",
-        "form-mcq-02",
-        "form-mcq-03",
-        "form-mcq-04",
-        "form-mcq-05",
-        "form-mcq-06"
+        "form-mcq-08",
+        "form-mcq-20",
+        "form-mcq-23"
       ],
       "explanation": "本句的「form of protest」指「X 的一種形式」。",
       "sentenceIndex": 6,
@@ -812,12 +810,10 @@ export default {
         "form of protest"
       ],
       "optionReasons": {
-        "form-mcq-01": "本句指「X 的一種形式」。",
-        "form-mcq-02": "「以……形式」是「in the form of」的用法，與本句語境不同。",
-        "form-mcq-03": "「採取……形式」是「take the form of」的用法，與本句語境不同。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。"
+        "form-mcq-01": "本句的「form of protest」指「X 的一種形式」。",
+        "form-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-01"
     },
@@ -829,11 +825,9 @@ export default {
       "masked": "The prize came ____.",
       "options": [
         "form-mcq-02",
-        "form-mcq-01",
-        "form-mcq-03",
-        "form-mcq-04",
-        "form-mcq-05",
-        "form-mcq-06"
+        "form-mcq-17",
+        "form-mcq-08",
+        "form-mcq-05"
       ],
       "explanation": "本句的「in the form of a scholarship」指「以……形式」。",
       "sentenceIndex": 7,
@@ -842,12 +836,10 @@ export default {
         "in the form of a scholarship"
       ],
       "optionReasons": {
-        "form-mcq-02": "本句指「以……形式」。",
-        "form-mcq-01": "「X 的一種形式」是「a form of X」的用法，與本句語境不同。",
-        "form-mcq-03": "「採取……形式」是「take the form of」的用法，與本句語境不同。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。"
+        "form-mcq-02": "本句的「in the form of a scholarship」指「以……形式」。",
+        "form-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-02"
     },
@@ -859,11 +851,9 @@ export default {
       "masked": "Help arrived ____.",
       "options": [
         "form-mcq-02",
-        "form-mcq-01",
-        "form-mcq-03",
-        "form-mcq-04",
-        "form-mcq-05",
-        "form-mcq-06"
+        "form-mcq-20",
+        "form-mcq-13",
+        "form-mcq-09"
       ],
       "explanation": "本句的「in the form of food and medicine」指「以……形式」。",
       "sentenceIndex": 8,
@@ -872,12 +862,10 @@ export default {
         "in the form of food and medicine"
       ],
       "optionReasons": {
-        "form-mcq-02": "本句指「以……形式」。",
-        "form-mcq-01": "「X 的一種形式」是「a form of X」的用法，與本句語境不同。",
-        "form-mcq-03": "「採取……形式」是「take the form of」的用法，與本句語境不同。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。"
+        "form-mcq-02": "本句的「in the form of food and medicine」指「以……形式」。",
+        "form-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-02"
     },
@@ -889,11 +877,9 @@ export default {
       "masked": "The discussion ____.",
       "options": [
         "form-mcq-03",
-        "form-mcq-02",
-        "form-mcq-04",
-        "form-mcq-01",
-        "form-mcq-05",
-        "form-mcq-06"
+        "form-mcq-19",
+        "form-mcq-08",
+        "form-mcq-16"
       ],
       "explanation": "本句的「took the form of a debate」指「採取……形式」。",
       "sentenceIndex": 9,
@@ -902,12 +888,10 @@ export default {
         "took the form of a debate"
       ],
       "optionReasons": {
-        "form-mcq-03": "本句指「採取……形式」。",
-        "form-mcq-02": "「以……形式」是「in the form of」的用法，與本句語境不同。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。",
-        "form-mcq-01": "「X 的一種形式」是「a form of X」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。"
+        "form-mcq-03": "本句的「took the form of a debate」指「採取……形式」。",
+        "form-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-03"
     },
@@ -919,11 +903,9 @@ export default {
       "masked": "The assessment ____.",
       "options": [
         "form-mcq-03",
-        "form-mcq-02",
-        "form-mcq-04",
-        "form-mcq-01",
-        "form-mcq-05",
-        "form-mcq-06"
+        "form-mcq-16",
+        "form-mcq-23",
+        "form-mcq-09"
       ],
       "explanation": "本句的「takes the form of a written test」指「採取……形式」。",
       "sentenceIndex": 10,
@@ -932,12 +914,10 @@ export default {
         "takes the form of a written test"
       ],
       "optionReasons": {
-        "form-mcq-03": "本句指「採取……形式」。",
-        "form-mcq-02": "「以……形式」是「in the form of」的用法，與本句語境不同。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。",
-        "form-mcq-01": "「X 的一種形式」是「a form of X」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。"
+        "form-mcq-03": "本句的「takes the form of a written test」指「採取……形式」。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-03"
     },
@@ -949,11 +929,9 @@ export default {
       "masked": "The sculpture has an unusual ____.",
       "options": [
         "form-mcq-04",
-        "form-mcq-03",
+        "form-mcq-21",
         "form-mcq-05",
-        "form-mcq-02",
-        "form-mcq-06",
-        "form-mcq-01"
+        "form-mcq-16"
       ],
       "explanation": "本句的「form」指「人體形態」。",
       "sentenceIndex": 11,
@@ -962,12 +940,10 @@ export default {
         "form"
       ],
       "optionReasons": {
-        "form-mcq-04": "本句指「人體形態」。",
-        "form-mcq-03": "「採取……形式」是「take the form of」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-02": "「以……形式」是「in the form of」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。",
-        "form-mcq-01": "「X 的一種形式」是「a form of X」的用法，與本句語境不同。"
+        "form-mcq-04": "本句的「form」指「人體形態」。",
+        "form-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-04"
     },
@@ -979,11 +955,9 @@ export default {
       "masked": "We could just make out a dark ____ in the distance.",
       "options": [
         "form-mcq-04",
-        "form-mcq-03",
-        "form-mcq-05",
-        "form-mcq-02",
-        "form-mcq-06",
-        "form-mcq-01"
+        "form-mcq-13",
+        "form-mcq-22",
+        "form-mcq-05"
       ],
       "explanation": "本句的「form」指「人體形態」。",
       "sentenceIndex": 12,
@@ -992,12 +966,10 @@ export default {
         "form"
       ],
       "optionReasons": {
-        "form-mcq-04": "本句指「人體形態」。",
-        "form-mcq-03": "「採取……形式」是「take the form of」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-02": "「以……形式」是「in the form of」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。",
-        "form-mcq-01": "「X 的一種形式」是「a form of X」的用法，與本句語境不同。"
+        "form-mcq-04": "本句的「form」指「人體形態」。",
+        "form-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-04"
     },
@@ -1009,11 +981,9 @@ export default {
       "masked": "The artist studied the ____.",
       "options": [
         "form-mcq-04",
-        "form-mcq-03",
         "form-mcq-05",
-        "form-mcq-02",
-        "form-mcq-06",
-        "form-mcq-01"
+        "form-mcq-12",
+        "form-mcq-22"
       ],
       "explanation": "本句的「human form」指「人體形態」。",
       "sentenceIndex": 13,
@@ -1022,12 +992,10 @@ export default {
         "human form"
       ],
       "optionReasons": {
-        "form-mcq-04": "本句指「人體形態」。",
-        "form-mcq-03": "「採取……形式」是「take the form of」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-02": "「以……形式」是「in the form of」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。",
-        "form-mcq-01": "「X 的一種形式」是「a form of X」的用法，與本句語境不同。"
+        "form-mcq-04": "本句的「human form」指「人體形態」。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-04"
     },
@@ -1039,11 +1007,9 @@ export default {
       "masked": "A shadowy ____ appeared at the door.",
       "options": [
         "form-mcq-04",
-        "form-mcq-03",
-        "form-mcq-05",
-        "form-mcq-02",
-        "form-mcq-06",
-        "form-mcq-01"
+        "form-mcq-16",
+        "form-mcq-22",
+        "form-mcq-14"
       ],
       "explanation": "本句的「human form」指「人體形態」。",
       "sentenceIndex": 14,
@@ -1052,12 +1018,10 @@ export default {
         "human form"
       ],
       "optionReasons": {
-        "form-mcq-04": "本句指「人體形態」。",
-        "form-mcq-03": "「採取……形式」是「take the form of」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-02": "「以……形式」是「in the form of」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。",
-        "form-mcq-01": "「X 的一種形式」是「a form of X」的用法，與本句語境不同。"
+        "form-mcq-04": "本句的「human form」指「人體形態」。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-04"
     },
@@ -1069,11 +1033,9 @@ export default {
       "masked": "Please fill in this ____.",
       "options": [
         "form-mcq-17",
-        "form-mcq-16",
-        "form-mcq-18",
-        "form-mcq-15",
-        "form-mcq-19",
-        "form-mcq-14"
+        "form-mcq-03",
+        "form-mcq-13",
+        "form-mcq-09"
       ],
       "explanation": "本句的「form」指「有固定欄位、供人填寫資料的文件」。",
       "sentenceIndex": 15,
@@ -1082,12 +1044,10 @@ export default {
         "form"
       ],
       "optionReasons": {
-        "form-mcq-17": "本句指「有固定欄位、供人填寫資料的文件」。",
-        "form-mcq-16": "「英式或香港教育制度中表示中學年級的方式」是「1. Form One / Form Six（年級） — 中一／中六」的用法，與本句語境不同。",
-        "form-mcq-18": "「某物逐漸產生、出現或取得明確形態」是「16. form（verb：形成） — 形成；產生」的用法，與本句語境不同。",
-        "form-mcq-15": "「重新形成」是「re-form」的用法，與本句語境不同。",
-        "form-mcq-19": "「把人或事物組織起來，建立成一個新的整體」是「17. form something（組成；建立） — 組成；成立」的用法，與本句語境不同。",
-        "form-mcq-14": "「改革」是「reform」的用法，與本句語境不同。"
+        "form-mcq-17": "本句的「form」指「有固定欄位、供人填寫資料的文件」。",
+        "form-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-17"
     },
@@ -1099,11 +1059,9 @@ export default {
       "masked": "I submitted the application ____ yesterday.",
       "options": [
         "form-mcq-17",
-        "form-mcq-16",
-        "form-mcq-18",
-        "form-mcq-15",
-        "form-mcq-19",
-        "form-mcq-14"
+        "form-mcq-12",
+        "form-mcq-14",
+        "form-mcq-08"
       ],
       "explanation": "本句的「form」指「有固定欄位、供人填寫資料的文件」。",
       "sentenceIndex": 16,
@@ -1112,12 +1070,10 @@ export default {
         "form"
       ],
       "optionReasons": {
-        "form-mcq-17": "本句指「有固定欄位、供人填寫資料的文件」。",
-        "form-mcq-16": "「英式或香港教育制度中表示中學年級的方式」是「1. Form One / Form Six（年級） — 中一／中六」的用法，與本句語境不同。",
-        "form-mcq-18": "「某物逐漸產生、出現或取得明確形態」是「16. form（verb：形成） — 形成；產生」的用法，與本句語境不同。",
-        "form-mcq-15": "「重新形成」是「re-form」的用法，與本句語境不同。",
-        "form-mcq-19": "「把人或事物組織起來，建立成一個新的整體」是「17. form something（組成；建立） — 組成；成立」的用法，與本句語境不同。",
-        "form-mcq-14": "「改革」是「reform」的用法，與本句語境不同。"
+        "form-mcq-17": "本句的「form」指「有固定欄位、供人填寫資料的文件」。",
+        "form-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-17"
     },
@@ -1129,11 +1085,9 @@ export default {
       "masked": "You need to complete an ____.",
       "options": [
         "form-mcq-05",
-        "form-mcq-04",
-        "form-mcq-06",
-        "form-mcq-03",
-        "form-mcq-07",
-        "form-mcq-02"
+        "form-mcq-13",
+        "form-mcq-24",
+        "form-mcq-12"
       ],
       "explanation": "本句的「application form」指「申請表」。",
       "sentenceIndex": 17,
@@ -1142,12 +1096,10 @@ export default {
         "application form"
       ],
       "optionReasons": {
-        "form-mcq-05": "本句指「申請表」。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。",
-        "form-mcq-03": "「採取……形式」是「take the form of」的用法，與本句語境不同。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。",
-        "form-mcq-02": "「以……形式」是「in the form of」的用法，與本句語境不同。"
+        "form-mcq-05": "本句的「application form」指「申請表」。",
+        "form-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-05"
     },
@@ -1159,10 +1111,8 @@ export default {
       "masked": "The ____ is available online.",
       "options": [
         "form-mcq-05",
-        "form-mcq-04",
-        "form-mcq-06",
-        "form-mcq-03",
-        "form-mcq-07",
+        "form-mcq-22",
+        "form-mcq-12",
         "form-mcq-02"
       ],
       "explanation": "本句的「application form」指「申請表」。",
@@ -1172,74 +1122,68 @@ export default {
         "application form"
       ],
       "optionReasons": {
-        "form-mcq-05": "本句指「申請表」。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。",
-        "form-mcq-03": "「採取……形式」是「take the form of」的用法，與本句語境不同。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。",
-        "form-mcq-02": "「以……形式」是「in the form of」的用法，與本句語境不同。"
+        "form-mcq-05": "本句的「application form」指「申請表」。",
+        "form-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-05"
     },
     {
       "id": "form-10-0",
-      "sense": "form-mcq-06",
+      "sense": "form-reviewed-8a184c45b9",
       "en": "Went” is the past form of “go.",
       "zh": "went 是 go 的過去式形式。",
       "masked": "Went” is the past ____ of “go.",
       "options": [
-        "form-mcq-06",
-        "form-mcq-05",
-        "form-mcq-07",
-        "form-mcq-04",
-        "form-mcq-08",
-        "form-mcq-03"
+        "form-reviewed-8a184c45b9",
+        "form-pdf-001",
+        "form-mcq-14",
+        "form-mcq-09"
       ],
-      "explanation": "本句的「form」指「藝術形式」。",
+      "explanation": "對照完整句子：「went 是 go 的過去式形式。」。這裡的「form」表示「一個字、動詞或語言單位在特定文法功能下所呈現的形式」。",
       "sentenceIndex": 19,
       "sourcePractice": 1,
       "targets": [
         "form"
       ],
       "optionReasons": {
-        "form-mcq-06": "本句指「藝術形式」。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-03": "「採取……形式」是「take the form of」的用法，與本句語境不同。"
+        "form-reviewed-8a184c45b9": "對照完整句子：「went 是 go 的過去式形式。」。這裡的「form」表示「一個字、動詞或語言單位在特定文法功能下所呈現的形式」。",
+        "form-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "form-mcq-06"
+      "correctOption": "form-reviewed-8a184c45b9",
+      "previousCorrectOption": "form-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "form-10-1",
-      "sense": "form-mcq-06",
+      "sense": "form-reviewed-8a184c45b9",
       "en": "Use the correct verb form.",
       "zh": "請使用正確的動詞形式。",
       "masked": "Use the correct verb ____.",
       "options": [
-        "form-mcq-06",
-        "form-mcq-05",
-        "form-mcq-07",
-        "form-mcq-04",
-        "form-mcq-08",
-        "form-mcq-03"
+        "form-reviewed-8a184c45b9",
+        "form-mcq-19",
+        "form-mcq-13",
+        "form-mcq-05"
       ],
-      "explanation": "本句的「form」指「藝術形式」。",
+      "explanation": "對照完整句子：「請使用正確的動詞形式。」。這裡的「form」表示「一個字、動詞或語言單位在特定文法功能下所呈現的形式」。",
       "sentenceIndex": 20,
       "sourcePractice": 2,
       "targets": [
         "form"
       ],
       "optionReasons": {
-        "form-mcq-06": "本句指「藝術形式」。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-03": "「採取……形式」是「take the form of」的用法，與本句語境不同。"
+        "form-reviewed-8a184c45b9": "對照完整句子：「請使用正確的動詞形式。」。這裡的「form」表示「一個字、動詞或語言單位在特定文法功能下所呈現的形式」。",
+        "form-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "form-mcq-06"
+      "correctOption": "form-reviewed-8a184c45b9",
+      "previousCorrectOption": "form-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "form-11-0",
@@ -1249,11 +1193,9 @@ export default {
       "masked": "The novel is a popular literary ____.",
       "options": [
         "form-mcq-06",
-        "form-mcq-05",
-        "form-mcq-07",
-        "form-mcq-04",
-        "form-mcq-08",
-        "form-mcq-03"
+        "form-mcq-19",
+        "form-mcq-16",
+        "form-mcq-07"
       ],
       "explanation": "本句的「form」指「藝術形式」。",
       "sentenceIndex": 21,
@@ -1262,12 +1204,10 @@ export default {
         "form"
       ],
       "optionReasons": {
-        "form-mcq-06": "本句指「藝術形式」。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-03": "「採取……形式」是「take the form of」的用法，與本句語境不同。"
+        "form-mcq-06": "本句的「form」指「藝術形式」。",
+        "form-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-06"
     },
@@ -1279,11 +1219,9 @@ export default {
       "masked": "Dance is an expressive art ____.",
       "options": [
         "form-mcq-06",
-        "form-mcq-05",
-        "form-mcq-07",
-        "form-mcq-04",
-        "form-mcq-08",
-        "form-mcq-03"
+        "form-mcq-16",
+        "form-mcq-23",
+        "form-mcq-22"
       ],
       "explanation": "本句的「form」指「藝術形式」。",
       "sentenceIndex": 22,
@@ -1292,12 +1230,10 @@ export default {
         "form"
       ],
       "optionReasons": {
-        "form-mcq-06": "本句指「藝術形式」。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-03": "「採取……形式」是「take the form of」的用法，與本句語境不同。"
+        "form-mcq-06": "本句的「form」指「藝術形式」。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-06"
     },
@@ -1310,10 +1246,8 @@ export default {
       "options": [
         "form-mcq-07",
         "form-mcq-06",
-        "form-mcq-08",
-        "form-mcq-05",
-        "form-mcq-09",
-        "form-mcq-04"
+        "form-mcq-19",
+        "form-mcq-12"
       ],
       "explanation": "本句的「form」指「狀態良好」。",
       "sentenceIndex": 23,
@@ -1322,12 +1256,10 @@ export default {
         "form"
       ],
       "optionReasons": {
-        "form-mcq-07": "本句指「狀態良好」。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。"
+        "form-mcq-07": "本句的「form」指「狀態良好」。",
+        "form-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-07"
     },
@@ -1339,11 +1271,9 @@ export default {
       "masked": "She has been out of ____ recently.",
       "options": [
         "form-mcq-07",
-        "form-mcq-06",
-        "form-mcq-08",
-        "form-mcq-05",
-        "form-mcq-09",
-        "form-mcq-04"
+        "form-reviewed-18f4885a1e",
+        "form-mcq-23",
+        "form-mcq-05"
       ],
       "explanation": "本句的「form」指「狀態良好」。",
       "sentenceIndex": 24,
@@ -1352,12 +1282,10 @@ export default {
         "form"
       ],
       "optionReasons": {
-        "form-mcq-07": "本句指「狀態良好」。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。"
+        "form-mcq-07": "本句的「form」指「狀態良好」。",
+        "form-reviewed-18f4885a1e": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-07"
     },
@@ -1369,11 +1297,9 @@ export default {
       "masked": "The team is in ____ this season.",
       "options": [
         "form-mcq-07",
-        "form-mcq-06",
-        "form-mcq-08",
-        "form-mcq-05",
-        "form-mcq-09",
-        "form-mcq-04"
+        "form-mcq-01",
+        "form-mcq-22",
+        "form-mcq-12"
       ],
       "explanation": "本句的「good form」指「狀態良好」。",
       "sentenceIndex": 25,
@@ -1382,12 +1308,10 @@ export default {
         "good form"
       ],
       "optionReasons": {
-        "form-mcq-07": "本句指「狀態良好」。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。"
+        "form-mcq-07": "本句的「good form」指「狀態良好」。",
+        "form-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-07"
     },
@@ -1399,11 +1323,9 @@ export default {
       "masked": "He looked in ____ during training.",
       "options": [
         "form-mcq-07",
-        "form-mcq-06",
-        "form-mcq-08",
-        "form-mcq-05",
-        "form-mcq-09",
-        "form-mcq-04"
+        "form-mcq-02",
+        "form-mcq-13",
+        "form-mcq-05"
       ],
       "explanation": "本句的「good form」指「狀態良好」。",
       "sentenceIndex": 26,
@@ -1412,12 +1334,10 @@ export default {
         "good form"
       ],
       "optionReasons": {
-        "form-mcq-07": "本句指「狀態良好」。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。",
-        "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。",
-        "form-mcq-04": "「人體形態」是「human form」的用法，與本句語境不同。"
+        "form-mcq-07": "本句的「good form」指「狀態良好」。",
+        "form-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-07"
     },
@@ -1429,11 +1349,9 @@ export default {
       "masked": "The striker has been ____ for weeks.",
       "options": [
         "form-mcq-08",
-        "form-mcq-07",
-        "form-mcq-09",
         "form-mcq-06",
-        "form-mcq-10",
-        "form-mcq-05"
+        "form-mcq-17",
+        "form-mcq-20"
       ],
       "explanation": "本句的「out of form」指「狀態不佳」。",
       "sentenceIndex": 27,
@@ -1442,12 +1360,10 @@ export default {
         "out of form"
       ],
       "optionReasons": {
-        "form-mcq-08": "本句指「狀態不佳」。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。",
-        "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。",
-        "form-mcq-10": "「形成」是「formation」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。"
+        "form-mcq-08": "本句的「out of form」指「狀態不佳」。",
+        "form-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-08"
     },
@@ -1459,11 +1375,9 @@ export default {
       "masked": "I felt completely ____ today.",
       "options": [
         "form-mcq-08",
-        "form-mcq-07",
-        "form-mcq-09",
-        "form-mcq-06",
-        "form-mcq-10",
-        "form-mcq-05"
+        "form-mcq-03",
+        "form-mcq-05",
+        "form-mcq-21"
       ],
       "explanation": "本句的「out of form」指「狀態不佳」。",
       "sentenceIndex": 28,
@@ -1472,12 +1386,10 @@ export default {
         "out of form"
       ],
       "optionReasons": {
-        "form-mcq-08": "本句指「狀態不佳」。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。",
-        "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。",
-        "form-mcq-10": "「形成」是「formation」的用法，與本句語境不同。",
-        "form-mcq-05": "「申請表」是「application form」的用法，與本句語境不同。"
+        "form-mcq-08": "本句的「out of form」指「狀態不佳」。",
+        "form-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-08"
     },
@@ -1490,10 +1402,8 @@ export default {
       "options": [
         "form-mcq-09",
         "form-mcq-08",
-        "form-mcq-10",
-        "form-mcq-07",
-        "form-mcq-11",
-        "form-mcq-06"
+        "form-mcq-17",
+        "form-reviewed-18f4885a1e"
       ],
       "explanation": "本句的「bad form」指「合乎／不合禮節」。",
       "sentenceIndex": 29,
@@ -1502,12 +1412,10 @@ export default {
         "bad form"
       ],
       "optionReasons": {
-        "form-mcq-09": "本句指「合乎／不合禮節」。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-10": "「形成」是「formation」的用法，與本句語境不同。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。",
-        "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。"
+        "form-mcq-09": "本句的「bad form」指「合乎／不合禮節」。",
+        "form-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "form-reviewed-18f4885a1e": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-09"
     },
@@ -1519,11 +1427,9 @@ export default {
       "masked": "Thanking the host is simply ____.",
       "options": [
         "form-mcq-09",
-        "form-mcq-08",
+        "form-mcq-05",
         "form-mcq-10",
-        "form-mcq-07",
-        "form-mcq-11",
-        "form-mcq-06"
+        "form-mcq-07"
       ],
       "explanation": "本句的「good form」指「合乎／不合禮節」。",
       "sentenceIndex": 30,
@@ -1532,12 +1438,10 @@ export default {
         "good form"
       ],
       "optionReasons": {
-        "form-mcq-09": "本句指「合乎／不合禮節」。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-10": "「形成」是「formation」的用法，與本句語境不同。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。",
-        "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。",
-        "form-mcq-06": "「藝術形式」是「art form」的用法，與本句語境不同。"
+        "form-mcq-09": "本句的「good form」指「合乎／不合禮節」。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-09"
     },
@@ -1549,11 +1453,9 @@ export default {
       "masked": "Clouds began to ____ over the hills.",
       "options": [
         "form-mcq-18",
-        "form-mcq-17",
-        "form-mcq-19",
-        "form-mcq-16",
-        "form-mcq-20",
-        "form-mcq-15"
+        "form-mcq-13",
+        "form-mcq-09",
+        "form-mcq-17"
       ],
       "explanation": "本句的「form」指「某物逐漸產生、出現或取得明確形態」。",
       "sentenceIndex": 31,
@@ -1562,12 +1464,10 @@ export default {
         "form"
       ],
       "optionReasons": {
-        "form-mcq-18": "本句指「某物逐漸產生、出現或取得明確形態」。",
-        "form-mcq-17": "「有固定欄位、供人填寫資料的文件」是「8. form（表格） — 表格」的用法，與本句語境不同。",
-        "form-mcq-19": "「把人或事物組織起來，建立成一個新的整體」是「17. form something（組成；建立） — 組成；成立」的用法，與本句語境不同。",
-        "form-mcq-16": "「英式或香港教育制度中表示中學年級的方式」是「1. Form One / Form Six（年級） — 中一／中六」的用法，與本句語境不同。",
-        "form-mcq-20": "「經過觀察或思考後逐漸產生某種看法或印象」是「19. form an opinion / impression — 形成意見／印象」的用法，與本句語境不同。",
-        "form-mcq-15": "「重新形成」是「re-form」的用法，與本句語境不同。"
+        "form-mcq-18": "本句的「form」指「某物逐漸產生、出現或取得明確形態」。",
+        "form-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-18"
     },
@@ -1579,11 +1479,9 @@ export default {
       "masked": "Ice ____ on the surface of the lake.",
       "options": [
         "form-mcq-18",
-        "form-mcq-17",
-        "form-mcq-19",
         "form-mcq-16",
-        "form-mcq-20",
-        "form-mcq-15"
+        "form-mcq-09",
+        "form-mcq-13"
       ],
       "explanation": "本句的「formed」指「某物逐漸產生、出現或取得明確形態」。",
       "sentenceIndex": 32,
@@ -1592,12 +1490,10 @@ export default {
         "formed"
       ],
       "optionReasons": {
-        "form-mcq-18": "本句指「某物逐漸產生、出現或取得明確形態」。",
-        "form-mcq-17": "「有固定欄位、供人填寫資料的文件」是「8. form（表格） — 表格」的用法，與本句語境不同。",
-        "form-mcq-19": "「把人或事物組織起來，建立成一個新的整體」是「17. form something（組成；建立） — 組成；成立」的用法，與本句語境不同。",
-        "form-mcq-16": "「英式或香港教育制度中表示中學年級的方式」是「1. Form One / Form Six（年級） — 中一／中六」的用法，與本句語境不同。",
-        "form-mcq-20": "「經過觀察或思考後逐漸產生某種看法或印象」是「19. form an opinion / impression — 形成意見／印象」的用法，與本句語境不同。",
-        "form-mcq-15": "「重新形成」是「re-form」的用法，與本句語境不同。"
+        "form-mcq-18": "本句的「formed」指「某物逐漸產生、出現或取得明確形態」。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-18"
     },
@@ -1609,11 +1505,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "form-mcq-19",
-        "form-mcq-18",
-        "form-mcq-20",
-        "form-mcq-17",
-        "form-mcq-21",
-        "form-mcq-16"
+        "form-mcq-08",
+        "form-mcq-01",
+        "form-mcq-09"
       ],
       "explanation": "本句的「formed a committee」指「把人或事物組織起來，建立成一個新的整體」。",
       "sentenceIndex": 33,
@@ -1622,12 +1516,10 @@ export default {
         "formed a committee"
       ],
       "optionReasons": {
-        "form-mcq-19": "本句指「把人或事物組織起來，建立成一個新的整體」。",
-        "form-mcq-18": "「某物逐漸產生、出現或取得明確形態」是「16. form（verb：形成） — 形成；產生」的用法，與本句語境不同。",
-        "form-mcq-20": "「經過觀察或思考後逐漸產生某種看法或印象」是「19. form an opinion / impression — 形成意見／印象」的用法，與本句語境不同。",
-        "form-mcq-17": "「有固定欄位、供人填寫資料的文件」是「8. form（表格） — 表格」的用法，與本句語境不同。",
-        "form-mcq-21": "「逐漸產生並組織出清晰的想法或方案」是「20. form an idea / plan — 形成構思／計劃」的用法，與本句語境不同。",
-        "form-mcq-16": "「英式或香港教育制度中表示中學年級的方式」是「1. Form One / Form Six（年級） — 中一／中六」的用法，與本句語境不同。"
+        "form-mcq-19": "本句的「formed a committee」指「把人或事物組織起來，建立成一個新的整體」。",
+        "form-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-19"
     },
@@ -1639,11 +1531,9 @@ export default {
       "masked": "The students ____.",
       "options": [
         "form-mcq-19",
-        "form-mcq-18",
-        "form-mcq-20",
-        "form-mcq-17",
-        "form-mcq-21",
-        "form-mcq-16"
+        "form-mcq-16",
+        "form-mcq-06",
+        "form-mcq-09"
       ],
       "explanation": "本句的「formed small groups」指「把人或事物組織起來，建立成一個新的整體」。",
       "sentenceIndex": 34,
@@ -1652,12 +1542,10 @@ export default {
         "formed small groups"
       ],
       "optionReasons": {
-        "form-mcq-19": "本句指「把人或事物組織起來，建立成一個新的整體」。",
-        "form-mcq-18": "「某物逐漸產生、出現或取得明確形態」是「16. form（verb：形成） — 形成；產生」的用法，與本句語境不同。",
-        "form-mcq-20": "「經過觀察或思考後逐漸產生某種看法或印象」是「19. form an opinion / impression — 形成意見／印象」的用法，與本句語境不同。",
-        "form-mcq-17": "「有固定欄位、供人填寫資料的文件」是「8. form（表格） — 表格」的用法，與本句語境不同。",
-        "form-mcq-21": "「逐漸產生並組織出清晰的想法或方案」是「20. form an idea / plan — 形成構思／計劃」的用法，與本句語境不同。",
-        "form-mcq-16": "「英式或香港教育制度中表示中學年級的方式」是「1. Form One / Form Six（年級） — 中一／中六」的用法，與本句語境不同。"
+        "form-mcq-19": "本句的「formed small groups」指「把人或事物組織起來，建立成一個新的整體」。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-19"
     },
@@ -1669,11 +1557,9 @@ export default {
       "masked": "The children quickly ____.",
       "options": [
         "form-pdf-001",
-        "form-mcq-09",
-        "form-mcq-11",
-        "form-mcq-08",
-        "form-mcq-12",
-        "form-mcq-07"
+        "form-mcq-24",
+        "form-mcq-14",
+        "form-mcq-12"
       ],
       "explanation": "本句的「formed friendships」指「逐漸建立起人際連繫」。",
       "sentenceIndex": 35,
@@ -1682,12 +1568,10 @@ export default {
         "formed friendships"
       ],
       "optionReasons": {
-        "form-pdf-001": "本句指「逐漸建立起人際連繫」。",
-        "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。",
-        "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-12": "「塑造發展的」是「formative」的用法，與本句語境不同。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。"
+        "form-pdf-001": "本句的「formed friendships」指「逐漸建立起人際連繫」。",
+        "form-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-pdf-001"
     },
@@ -1699,10 +1583,8 @@ export default {
       "masked": "She ____ with her teacher.",
       "options": [
         "form-pdf-001",
-        "form-mcq-09",
-        "form-mcq-11",
-        "form-mcq-08",
-        "form-mcq-12",
+        "form-mcq-16",
+        "form-mcq-06",
         "form-mcq-07"
       ],
       "explanation": "本句的「formed a close relationship」指「逐漸建立起人際連繫」。",
@@ -1712,12 +1594,10 @@ export default {
         "formed a close relationship"
       ],
       "optionReasons": {
-        "form-pdf-001": "本句指「逐漸建立起人際連繫」。",
-        "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。",
-        "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-12": "「塑造發展的」是「formative」的用法，與本句語境不同。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。"
+        "form-pdf-001": "本句的「formed a close relationship」指「逐漸建立起人際連繫」。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-pdf-001"
     },
@@ -1729,11 +1609,9 @@ export default {
       "masked": "Don't ____ too quickly.",
       "options": [
         "form-mcq-20",
-        "form-mcq-19",
-        "form-mcq-21",
-        "form-mcq-18",
-        "form-mcq-22",
-        "form-mcq-17"
+        "form-mcq-03",
+        "form-mcq-23",
+        "form-mcq-16"
       ],
       "explanation": "本句的「form an opinion」指「經過觀察或思考後逐漸產生某種看法或印象」。",
       "sentenceIndex": 37,
@@ -1742,12 +1620,10 @@ export default {
         "form an opinion"
       ],
       "optionReasons": {
-        "form-mcq-20": "本句指「經過觀察或思考後逐漸產生某種看法或印象」。",
-        "form-mcq-19": "「把人或事物組織起來，建立成一個新的整體」是「17. form something（組成；建立） — 組成；成立」的用法，與本句語境不同。",
-        "form-mcq-21": "「逐漸產生並組織出清晰的想法或方案」是「20. form an idea / plan — 形成構思／計劃」的用法，與本句語境不同。",
-        "form-mcq-18": "「某物逐漸產生、出現或取得明確形態」是「16. form（verb：形成） — 形成；產生」的用法，與本句語境不同。",
-        "form-mcq-22": "「透過重複行為逐漸建立固定習慣」是「21. form a habit — 養成習慣」的用法，與本句語境不同。",
-        "form-mcq-17": "「有固定欄位、供人填寫資料的文件」是「8. form（表格） — 表格」的用法，與本句語境不同。"
+        "form-mcq-20": "本句的「form an opinion」指「經過觀察或思考後逐漸產生某種看法或印象」。",
+        "form-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-20"
     },
@@ -1759,11 +1635,9 @@ export default {
       "masked": "I ____ of him.",
       "options": [
         "form-mcq-20",
-        "form-mcq-19",
-        "form-mcq-21",
-        "form-mcq-18",
-        "form-mcq-22",
-        "form-mcq-17"
+        "form-mcq-14",
+        "form-mcq-02",
+        "form-mcq-08"
       ],
       "explanation": "本句的「formed a good impression」指「經過觀察或思考後逐漸產生某種看法或印象」。",
       "sentenceIndex": 38,
@@ -1772,12 +1646,10 @@ export default {
         "formed a good impression"
       ],
       "optionReasons": {
-        "form-mcq-20": "本句指「經過觀察或思考後逐漸產生某種看法或印象」。",
-        "form-mcq-19": "「把人或事物組織起來，建立成一個新的整體」是「17. form something（組成；建立） — 組成；成立」的用法，與本句語境不同。",
-        "form-mcq-21": "「逐漸產生並組織出清晰的想法或方案」是「20. form an idea / plan — 形成構思／計劃」的用法，與本句語境不同。",
-        "form-mcq-18": "「某物逐漸產生、出現或取得明確形態」是「16. form（verb：形成） — 形成；產生」的用法，與本句語境不同。",
-        "form-mcq-22": "「透過重複行為逐漸建立固定習慣」是「21. form a habit — 養成習慣」的用法，與本句語境不同。",
-        "form-mcq-17": "「有固定欄位、供人填寫資料的文件」是「8. form（表格） — 表格」的用法，與本句語境不同。"
+        "form-mcq-20": "本句的「formed a good impression」指「經過觀察或思考後逐漸產生某種看法或印象」。",
+        "form-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-20"
     },
@@ -1789,11 +1661,9 @@ export default {
       "masked": "An idea began to ____.",
       "options": [
         "form-mcq-21",
-        "form-mcq-20",
-        "form-mcq-22",
-        "form-mcq-19",
-        "form-mcq-23",
-        "form-mcq-18"
+        "form-mcq-07",
+        "form-mcq-12",
+        "form-mcq-03"
       ],
       "explanation": "本句的「form in her mind」指「逐漸產生並組織出清晰的想法或方案」。",
       "sentenceIndex": 39,
@@ -1802,12 +1672,10 @@ export default {
         "form in her mind"
       ],
       "optionReasons": {
-        "form-mcq-21": "本句指「逐漸產生並組織出清晰的想法或方案」。",
-        "form-mcq-20": "「經過觀察或思考後逐漸產生某種看法或印象」是「19. form an opinion / impression — 形成意見／印象」的用法，與本句語境不同。",
-        "form-mcq-22": "「透過重複行為逐漸建立固定習慣」是「21. form a habit — 養成習慣」的用法，與本句語境不同。",
-        "form-mcq-19": "「把人或事物組織起來，建立成一個新的整體」是「17. form something（組成；建立） — 組成；成立」的用法，與本句語境不同。",
-        "form-mcq-23": "「作為某個更大整體的一部分而存在」是「22. form part of something — 構成……的一部分」的用法，與本句語境不同。",
-        "form-mcq-18": "「某物逐漸產生、出現或取得明確形態」是「16. form（verb：形成） — 形成；產生」的用法，與本句語境不同。"
+        "form-mcq-21": "本句的「form in her mind」指「逐漸產生並組織出清晰的想法或方案」。",
+        "form-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-21"
     },
@@ -1819,11 +1687,9 @@ export default {
       "masked": "We gradually ____.",
       "options": [
         "form-mcq-21",
-        "form-mcq-20",
-        "form-mcq-22",
-        "form-mcq-19",
-        "form-mcq-23",
-        "form-mcq-18"
+        "form-mcq-05",
+        "form-mcq-01",
+        "form-mcq-23"
       ],
       "explanation": "本句的「formed a plan」指「逐漸產生並組織出清晰的想法或方案」。",
       "sentenceIndex": 40,
@@ -1832,12 +1698,10 @@ export default {
         "formed a plan"
       ],
       "optionReasons": {
-        "form-mcq-21": "本句指「逐漸產生並組織出清晰的想法或方案」。",
-        "form-mcq-20": "「經過觀察或思考後逐漸產生某種看法或印象」是「19. form an opinion / impression — 形成意見／印象」的用法，與本句語境不同。",
-        "form-mcq-22": "「透過重複行為逐漸建立固定習慣」是「21. form a habit — 養成習慣」的用法，與本句語境不同。",
-        "form-mcq-19": "「把人或事物組織起來，建立成一個新的整體」是「17. form something（組成；建立） — 組成；成立」的用法，與本句語境不同。",
-        "form-mcq-23": "「作為某個更大整體的一部分而存在」是「22. form part of something — 構成……的一部分」的用法，與本句語境不同。",
-        "form-mcq-18": "「某物逐漸產生、出現或取得明確形態」是「16. form（verb：形成） — 形成；產生」的用法，與本句語境不同。"
+        "form-mcq-21": "本句的「formed a plan」指「逐漸產生並組織出清晰的想法或方案」。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-21"
     },
@@ -1849,11 +1713,9 @@ export default {
       "masked": "It takes time to ____.",
       "options": [
         "form-mcq-22",
-        "form-mcq-21",
-        "form-mcq-23",
-        "form-mcq-20",
-        "form-mcq-24",
-        "form-mcq-19"
+        "form-mcq-01",
+        "form-mcq-05",
+        "form-mcq-16"
       ],
       "explanation": "本句的「form a new habit」指「透過重複行為逐漸建立固定習慣」。",
       "sentenceIndex": 41,
@@ -1862,12 +1724,10 @@ export default {
         "form a new habit"
       ],
       "optionReasons": {
-        "form-mcq-22": "本句指「透過重複行為逐漸建立固定習慣」。",
-        "form-mcq-21": "「逐漸產生並組織出清晰的想法或方案」是「20. form an idea / plan — 形成構思／計劃」的用法，與本句語境不同。",
-        "form-mcq-23": "「作為某個更大整體的一部分而存在」是「22. form part of something — 構成……的一部分」的用法，與本句語境不同。",
-        "form-mcq-20": "「經過觀察或思考後逐漸產生某種看法或印象」是「19. form an opinion / impression — 形成意見／印象」的用法，與本句語境不同。",
-        "form-mcq-24": "「以特定空間排列方式組成一個形狀」是「23. form a line / queue / circle — 排成隊伍／圓圈」的用法，與本句語境不同。",
-        "form-mcq-19": "「把人或事物組織起來，建立成一個新的整體」是「17. form something（組成；建立） — 組成；成立」的用法，與本句語境不同。"
+        "form-mcq-22": "本句的「form a new habit」指「透過重複行為逐漸建立固定習慣」。",
+        "form-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-22"
     },
@@ -1879,11 +1739,9 @@ export default {
       "masked": "Children can ____ very quickly.",
       "options": [
         "form-mcq-22",
-        "form-mcq-21",
-        "form-mcq-23",
-        "form-mcq-20",
-        "form-mcq-24",
-        "form-mcq-19"
+        "form-mcq-14",
+        "form-mcq-02",
+        "form-mcq-16"
       ],
       "explanation": "本句的「form habits」指「透過重複行為逐漸建立固定習慣」。",
       "sentenceIndex": 42,
@@ -1892,12 +1750,10 @@ export default {
         "form habits"
       ],
       "optionReasons": {
-        "form-mcq-22": "本句指「透過重複行為逐漸建立固定習慣」。",
-        "form-mcq-21": "「逐漸產生並組織出清晰的想法或方案」是「20. form an idea / plan — 形成構思／計劃」的用法，與本句語境不同。",
-        "form-mcq-23": "「作為某個更大整體的一部分而存在」是「22. form part of something — 構成……的一部分」的用法，與本句語境不同。",
-        "form-mcq-20": "「經過觀察或思考後逐漸產生某種看法或印象」是「19. form an opinion / impression — 形成意見／印象」的用法，與本句語境不同。",
-        "form-mcq-24": "「以特定空間排列方式組成一個形狀」是「23. form a line / queue / circle — 排成隊伍／圓圈」的用法，與本句語境不同。",
-        "form-mcq-19": "「把人或事物組織起來，建立成一個新的整體」是「17. form something（組成；建立） — 組成；成立」的用法，與本句語境不同。"
+        "form-mcq-22": "本句的「form habits」指「透過重複行為逐漸建立固定習慣」。",
+        "form-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-22"
     },
@@ -1909,11 +1765,9 @@ export default {
       "masked": "These exercises ____.",
       "options": [
         "form-mcq-23",
-        "form-mcq-22",
-        "form-mcq-24",
-        "form-mcq-21",
-        "form-mcq-20",
-        "form-mcq-19"
+        "form-mcq-18",
+        "form-reviewed-8a184c45b9",
+        "form-mcq-13"
       ],
       "explanation": "本句的「form part of the course」指「作為某個更大整體的一部分而存在」。",
       "sentenceIndex": 43,
@@ -1922,12 +1776,10 @@ export default {
         "form part of the course"
       ],
       "optionReasons": {
-        "form-mcq-23": "本句指「作為某個更大整體的一部分而存在」。",
-        "form-mcq-22": "「透過重複行為逐漸建立固定習慣」是「21. form a habit — 養成習慣」的用法，與本句語境不同。",
-        "form-mcq-24": "「以特定空間排列方式組成一個形狀」是「23. form a line / queue / circle — 排成隊伍／圓圈」的用法，與本句語境不同。",
-        "form-mcq-21": "「逐漸產生並組織出清晰的想法或方案」是「20. form an idea / plan — 形成構思／計劃」的用法，與本句語境不同。",
-        "form-mcq-20": "「經過觀察或思考後逐漸產生某種看法或印象」是「19. form an opinion / impression — 形成意見／印象」的用法，與本句語境不同。",
-        "form-mcq-19": "「把人或事物組織起來，建立成一個新的整體」是「17. form something（組成；建立） — 組成；成立」的用法，與本句語境不同。"
+        "form-mcq-23": "本句的「form part of the course」指「作為某個更大整體的一部分而存在」。",
+        "form-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "form-reviewed-8a184c45b9": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-23"
     },
@@ -1939,11 +1791,9 @@ export default {
       "masked": "The islands ____.",
       "options": [
         "form-mcq-23",
-        "form-mcq-22",
-        "form-mcq-24",
-        "form-mcq-21",
-        "form-mcq-20",
-        "form-mcq-19"
+        "form-mcq-07",
+        "form-reviewed-18f4885a1e",
+        "form-mcq-17"
       ],
       "explanation": "本句的「form part of a larger chain」指「作為某個更大整體的一部分而存在」。",
       "sentenceIndex": 44,
@@ -1952,12 +1802,10 @@ export default {
         "form part of a larger chain"
       ],
       "optionReasons": {
-        "form-mcq-23": "本句指「作為某個更大整體的一部分而存在」。",
-        "form-mcq-22": "「透過重複行為逐漸建立固定習慣」是「21. form a habit — 養成習慣」的用法，與本句語境不同。",
-        "form-mcq-24": "「以特定空間排列方式組成一個形狀」是「23. form a line / queue / circle — 排成隊伍／圓圈」的用法，與本句語境不同。",
-        "form-mcq-21": "「逐漸產生並組織出清晰的想法或方案」是「20. form an idea / plan — 形成構思／計劃」的用法，與本句語境不同。",
-        "form-mcq-20": "「經過觀察或思考後逐漸產生某種看法或印象」是「19. form an opinion / impression — 形成意見／印象」的用法，與本句語境不同。",
-        "form-mcq-19": "「把人或事物組織起來，建立成一個新的整體」是「17. form something（組成；建立） — 組成；成立」的用法，與本句語境不同。"
+        "form-mcq-23": "本句的「form part of a larger chain」指「作為某個更大整體的一部分而存在」。",
+        "form-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "form-reviewed-18f4885a1e": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-23"
     },
@@ -1969,11 +1817,9 @@ export default {
       "masked": "The students ____ outside the classroom.",
       "options": [
         "form-mcq-24",
-        "form-mcq-23",
-        "form-mcq-22",
-        "form-mcq-21",
-        "form-mcq-20",
-        "form-mcq-19"
+        "form-mcq-05",
+        "form-mcq-12",
+        "form-mcq-20"
       ],
       "explanation": "本句的「formed a line」指「以特定空間排列方式組成一個形狀」。",
       "sentenceIndex": 45,
@@ -1982,12 +1828,10 @@ export default {
         "formed a line"
       ],
       "optionReasons": {
-        "form-mcq-24": "本句指「以特定空間排列方式組成一個形狀」。",
-        "form-mcq-23": "「作為某個更大整體的一部分而存在」是「22. form part of something — 構成……的一部分」的用法，與本句語境不同。",
-        "form-mcq-22": "「透過重複行為逐漸建立固定習慣」是「21. form a habit — 養成習慣」的用法，與本句語境不同。",
-        "form-mcq-21": "「逐漸產生並組織出清晰的想法或方案」是「20. form an idea / plan — 形成構思／計劃」的用法，與本句語境不同。",
-        "form-mcq-20": "「經過觀察或思考後逐漸產生某種看法或印象」是「19. form an opinion / impression — 形成意見／印象」的用法，與本句語境不同。",
-        "form-mcq-19": "「把人或事物組織起來，建立成一個新的整體」是「17. form something（組成；建立） — 組成；成立」的用法，與本句語境不同。"
+        "form-mcq-24": "本句的「formed a line」指「以特定空間排列方式組成一個形狀」。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-24"
     },
@@ -1999,11 +1843,9 @@ export default {
       "masked": "We ____ around the table.",
       "options": [
         "form-mcq-24",
-        "form-mcq-23",
-        "form-mcq-22",
-        "form-mcq-21",
-        "form-mcq-20",
-        "form-mcq-19"
+        "form-mcq-09",
+        "form-mcq-16",
+        "form-mcq-20"
       ],
       "explanation": "本句的「formed a circle」指「以特定空間排列方式組成一個形狀」。",
       "sentenceIndex": 46,
@@ -2012,12 +1854,10 @@ export default {
         "formed a circle"
       ],
       "optionReasons": {
-        "form-mcq-24": "本句指「以特定空間排列方式組成一個形狀」。",
-        "form-mcq-23": "「作為某個更大整體的一部分而存在」是「22. form part of something — 構成……的一部分」的用法，與本句語境不同。",
-        "form-mcq-22": "「透過重複行為逐漸建立固定習慣」是「21. form a habit — 養成習慣」的用法，與本句語境不同。",
-        "form-mcq-21": "「逐漸產生並組織出清晰的想法或方案」是「20. form an idea / plan — 形成構思／計劃」的用法，與本句語境不同。",
-        "form-mcq-20": "「經過觀察或思考後逐漸產生某種看法或印象」是「19. form an opinion / impression — 形成意見／印象」的用法，與本句語境不同。",
-        "form-mcq-19": "「把人或事物組織起來，建立成一個新的整體」是「17. form something（組成；建立） — 組成；成立」的用法，與本句語境不同。"
+        "form-mcq-24": "本句的「formed a circle」指「以特定空間排列方式組成一個形狀」。",
+        "form-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-24"
     },
@@ -2030,10 +1870,8 @@ export default {
       "options": [
         "form-mcq-10",
         "form-mcq-09",
-        "form-mcq-11",
-        "form-mcq-08",
-        "form-mcq-12",
-        "form-mcq-07"
+        "form-mcq-17",
+        "form-mcq-12"
       ],
       "explanation": "本句的「formation of clouds」指「形成」。",
       "sentenceIndex": 47,
@@ -2042,12 +1880,10 @@ export default {
         "formation of clouds"
       ],
       "optionReasons": {
-        "form-mcq-10": "本句指「形成」。",
-        "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。",
-        "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-12": "「塑造發展的」是「formative」的用法，與本句語境不同。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。"
+        "form-mcq-10": "本句的「formation of clouds」指「形成」。",
+        "form-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-10"
     },
@@ -2059,11 +1895,9 @@ export default {
       "masked": "The ____ can damage pipes.",
       "options": [
         "form-mcq-10",
-        "form-mcq-09",
-        "form-mcq-11",
-        "form-mcq-08",
-        "form-mcq-12",
-        "form-mcq-07"
+        "form-mcq-07",
+        "form-mcq-23",
+        "form-mcq-09"
       ],
       "explanation": "本句的「formation of ice」指「形成」。",
       "sentenceIndex": 48,
@@ -2072,74 +1906,68 @@ export default {
         "formation of ice"
       ],
       "optionReasons": {
-        "form-mcq-10": "本句指「形成」。",
-        "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。",
-        "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-12": "「塑造發展的」是「formative」的用法，與本句語境不同。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。"
+        "form-mcq-10": "本句的「formation of ice」指「形成」。",
+        "form-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-10"
     },
     {
       "id": "form-25-0",
-      "sense": "form-mcq-10",
+      "sense": "form-reviewed-18f4885a1e",
       "en": "The planes flew in formation.",
       "zh": "飛機以編隊飛行。",
       "masked": "The planes flew in ____.",
       "options": [
-        "form-mcq-10",
+        "form-reviewed-18f4885a1e",
         "form-mcq-09",
-        "form-mcq-11",
-        "form-mcq-08",
-        "form-mcq-12",
-        "form-mcq-07"
+        "form-mcq-16",
+        "form-mcq-05"
       ],
-      "explanation": "本句的「formation」指「形成」。",
+      "explanation": "對照完整句子：「飛機以編隊飛行。」。這裡的「formation」表示「人、車輛、飛機或球員等按特定方式排列形成的隊形」。",
       "sentenceIndex": 49,
       "sourcePractice": 1,
       "targets": [
         "formation"
       ],
       "optionReasons": {
-        "form-mcq-10": "本句指「形成」。",
-        "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。",
-        "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-12": "「塑造發展的」是「formative」的用法，與本句語境不同。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。"
+        "form-reviewed-18f4885a1e": "對照完整句子：「飛機以編隊飛行。」。這裡的「formation」表示「人、車輛、飛機或球員等按特定方式排列形成的隊形」。",
+        "form-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "form-mcq-10"
+      "correctOption": "form-reviewed-18f4885a1e",
+      "previousCorrectOption": "form-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "form-25-1",
-      "sense": "form-mcq-10",
+      "sense": "form-reviewed-18f4885a1e",
       "en": "The team changed its formation in the second half.",
       "zh": "球隊在下半場改變了陣形。",
       "masked": "The team changed its ____ in the second half.",
       "options": [
-        "form-mcq-10",
-        "form-mcq-09",
-        "form-mcq-11",
-        "form-mcq-08",
-        "form-mcq-12",
-        "form-mcq-07"
+        "form-reviewed-18f4885a1e",
+        "form-mcq-07",
+        "form-mcq-14",
+        "form-mcq-16"
       ],
-      "explanation": "本句的「formation」指「形成」。",
+      "explanation": "對照完整句子：「球隊在下半場改變了陣形。」。這裡的「formation」表示「人、車輛、飛機或球員等按特定方式排列形成的隊形」。",
       "sentenceIndex": 50,
       "sourcePractice": 2,
       "targets": [
         "formation"
       ],
       "optionReasons": {
-        "form-mcq-10": "本句指「形成」。",
-        "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。",
-        "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-12": "「塑造發展的」是「formative」的用法，與本句語境不同。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。"
+        "form-reviewed-18f4885a1e": "對照完整句子：「球隊在下半場改變了陣形。」。這裡的「formation」表示「人、車輛、飛機或球員等按特定方式排列形成的隊形」。",
+        "form-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "form-mcq-10"
+      "correctOption": "form-reviewed-18f4885a1e",
+      "previousCorrectOption": "form-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "form-26-0",
@@ -2149,11 +1977,9 @@ export default {
       "masked": "The ____ took several weeks.",
       "options": [
         "form-mcq-10",
-        "form-mcq-09",
-        "form-mcq-11",
-        "form-mcq-08",
-        "form-mcq-12",
-        "form-mcq-07"
+        "form-mcq-07",
+        "form-mcq-17",
+        "form-mcq-12"
       ],
       "explanation": "本句的「formation of the committee」指「形成」。",
       "sentenceIndex": 51,
@@ -2162,12 +1988,10 @@ export default {
         "formation of the committee"
       ],
       "optionReasons": {
-        "form-mcq-10": "本句指「形成」。",
-        "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。",
-        "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-12": "「塑造發展的」是「formative」的用法，與本句語境不同。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。"
+        "form-mcq-10": "本句的「formation of the committee」指「形成」。",
+        "form-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-10"
     },
@@ -2179,11 +2003,9 @@ export default {
       "masked": "The agreement led to the ____.",
       "options": [
         "form-mcq-10",
-        "form-mcq-09",
-        "form-mcq-11",
-        "form-mcq-08",
         "form-mcq-12",
-        "form-mcq-07"
+        "form-mcq-05",
+        "form-mcq-17"
       ],
       "explanation": "本句的「formation of a new group」指「形成」。",
       "sentenceIndex": 52,
@@ -2192,12 +2014,10 @@ export default {
         "formation of a new group"
       ],
       "optionReasons": {
-        "form-mcq-10": "本句指「形成」。",
-        "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。",
-        "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。",
-        "form-mcq-08": "「狀態不佳」是「out of form」的用法，與本句語境不同。",
-        "form-mcq-12": "「塑造發展的」是「formative」的用法，與本句語境不同。",
-        "form-mcq-07": "「狀態良好」是「in good form」的用法，與本句語境不同。"
+        "form-mcq-10": "本句的「formation of a new group」指「形成」。",
+        "form-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-10"
     },
@@ -2209,11 +2029,9 @@ export default {
       "masked": "His school years were highly ____.",
       "options": [
         "form-mcq-12",
-        "form-mcq-11",
-        "form-mcq-13",
-        "form-mcq-10",
-        "form-mcq-14",
-        "form-mcq-09"
+        "form-mcq-22",
+        "form-mcq-06",
+        "form-mcq-14"
       ],
       "explanation": "本句的「formative」指「塑造發展的」。",
       "sentenceIndex": 53,
@@ -2222,12 +2040,10 @@ export default {
         "formative"
       ],
       "optionReasons": {
-        "form-mcq-12": "本句指「塑造發展的」。",
-        "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。",
-        "form-mcq-13": "「成長關鍵時期」是「formative years」的用法，與本句語境不同。",
-        "form-mcq-10": "「形成」是「formation」的用法，與本句語境不同。",
-        "form-mcq-14": "「改革」是「reform」的用法，與本句語境不同。",
-        "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。"
+        "form-mcq-12": "本句的「formative」指「塑造發展的」。",
+        "form-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-12"
     },
@@ -2239,11 +2055,9 @@ export default {
       "masked": "That experience was ____ for her career.",
       "options": [
         "form-mcq-12",
-        "form-mcq-11",
-        "form-mcq-13",
-        "form-mcq-10",
-        "form-mcq-14",
-        "form-mcq-09"
+        "form-mcq-05",
+        "form-mcq-21",
+        "form-mcq-14"
       ],
       "explanation": "本句的「formative」指「塑造發展的」。",
       "sentenceIndex": 54,
@@ -2252,12 +2066,10 @@ export default {
         "formative"
       ],
       "optionReasons": {
-        "form-mcq-12": "本句指「塑造發展的」。",
-        "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。",
-        "form-mcq-13": "「成長關鍵時期」是「formative years」的用法，與本句語境不同。",
-        "form-mcq-10": "「形成」是「formation」的用法，與本句語境不同。",
-        "form-mcq-14": "「改革」是「reform」的用法，與本句語境不同。",
-        "form-mcq-09": "「合乎／不合禮節」是「good/bad form」的用法，與本句語境不同。"
+        "form-mcq-12": "本句的「formative」指「塑造發展的」。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-12"
     },
@@ -2269,11 +2081,9 @@ export default {
       "masked": "He spent his ____ in Hong Kong.",
       "options": [
         "form-mcq-13",
-        "form-mcq-12",
-        "form-mcq-14",
-        "form-mcq-11",
-        "form-mcq-15",
-        "form-mcq-10"
+        "form-mcq-18",
+        "form-mcq-16",
+        "form-mcq-05"
       ],
       "explanation": "本句的「formative years」指「成長關鍵時期」。",
       "sentenceIndex": 55,
@@ -2282,12 +2092,10 @@ export default {
         "formative years"
       ],
       "optionReasons": {
-        "form-mcq-13": "本句指「成長關鍵時期」。",
-        "form-mcq-12": "「塑造發展的」是「formative」的用法，與本句語境不同。",
-        "form-mcq-14": "「改革」是「reform」的用法，與本句語境不同。",
-        "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。",
-        "form-mcq-15": "「重新形成」是「re-form」的用法，與本句語境不同。",
-        "form-mcq-10": "「形成」是「formation」的用法，與本句語境不同。"
+        "form-mcq-13": "本句的「formative years」指「成長關鍵時期」。",
+        "form-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-13"
     },
@@ -2299,11 +2107,9 @@ export default {
       "masked": "Experiences during the ____ can have lasting effects.",
       "options": [
         "form-mcq-13",
-        "form-mcq-12",
-        "form-mcq-14",
-        "form-mcq-11",
-        "form-mcq-15",
-        "form-mcq-10"
+        "form-pdf-001",
+        "form-mcq-08",
+        "form-mcq-17"
       ],
       "explanation": "本句的「formative years」指「成長關鍵時期」。",
       "sentenceIndex": 56,
@@ -2312,12 +2118,10 @@ export default {
         "formative years"
       ],
       "optionReasons": {
-        "form-mcq-13": "本句指「成長關鍵時期」。",
-        "form-mcq-12": "「塑造發展的」是「formative」的用法，與本句語境不同。",
-        "form-mcq-14": "「改革」是「reform」的用法，與本句語境不同。",
-        "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。",
-        "form-mcq-15": "「重新形成」是「re-form」的用法，與本句語境不同。",
-        "form-mcq-10": "「形成」是「formation」的用法，與本句語境不同。"
+        "form-mcq-13": "本句的「formative years」指「成長關鍵時期」。",
+        "form-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-13"
     },
@@ -2329,11 +2133,9 @@ export default {
       "masked": "The government plans to ____.",
       "options": [
         "form-mcq-14",
-        "form-mcq-13",
-        "form-mcq-15",
+        "form-reviewed-18f4885a1e",
         "form-mcq-12",
-        "form-mcq-16",
-        "form-mcq-11"
+        "form-mcq-17"
       ],
       "explanation": "本句的「reform the education system」指「改革」。",
       "sentenceIndex": 57,
@@ -2342,12 +2144,10 @@ export default {
         "reform the education system"
       ],
       "optionReasons": {
-        "form-mcq-14": "本句指「改革」。",
-        "form-mcq-13": "「成長關鍵時期」是「formative years」的用法，與本句語境不同。",
-        "form-mcq-15": "「重新形成」是「re-form」的用法，與本句語境不同。",
-        "form-mcq-12": "「塑造發展的」是「formative」的用法，與本句語境不同。",
-        "form-mcq-16": "「英式或香港教育制度中表示中學年級的方式」是「1. Form One / Form Six（年級） — 中一／中六」的用法，與本句語境不同。",
-        "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。"
+        "form-mcq-14": "本句的「reform the education system」指「改革」。",
+        "form-reviewed-18f4885a1e": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-14"
     },
@@ -2359,11 +2159,9 @@ export default {
       "masked": "The law needs major ____.",
       "options": [
         "form-mcq-14",
-        "form-mcq-13",
-        "form-mcq-15",
-        "form-mcq-12",
-        "form-mcq-16",
-        "form-mcq-11"
+        "form-mcq-02",
+        "form-mcq-17",
+        "form-mcq-21"
       ],
       "explanation": "本句的「reform」指「改革」。",
       "sentenceIndex": 58,
@@ -2372,12 +2170,10 @@ export default {
         "reform"
       ],
       "optionReasons": {
-        "form-mcq-14": "本句指「改革」。",
-        "form-mcq-13": "「成長關鍵時期」是「formative years」的用法，與本句語境不同。",
-        "form-mcq-15": "「重新形成」是「re-form」的用法，與本句語境不同。",
-        "form-mcq-12": "「塑造發展的」是「formative」的用法，與本句語境不同。",
-        "form-mcq-16": "「英式或香港教育制度中表示中學年級的方式」是「1. Form One / Form Six（年級） — 中一／中六」的用法，與本句語境不同。",
-        "form-mcq-11": "「隊形；編隊」是「formation (arrangement)」的用法，與本句語境不同。"
+        "form-mcq-14": "本句的「reform」指「改革」。",
+        "form-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-14"
     },
@@ -2389,11 +2185,9 @@ export default {
       "masked": "The group ____ several years later.",
       "options": [
         "form-mcq-15",
-        "form-mcq-14",
+        "form-mcq-23",
         "form-mcq-16",
-        "form-mcq-13",
-        "form-mcq-17",
-        "form-mcq-12"
+        "form-mcq-14"
       ],
       "explanation": "本句的「re-formed」指「重新形成」。",
       "sentenceIndex": 59,
@@ -2402,12 +2196,10 @@ export default {
         "re-formed"
       ],
       "optionReasons": {
-        "form-mcq-15": "本句指「重新形成」。",
-        "form-mcq-14": "「改革」是「reform」的用法，與本句語境不同。",
-        "form-mcq-16": "「英式或香港教育制度中表示中學年級的方式」是「1. Form One / Form Six（年級） — 中一／中六」的用法，與本句語境不同。",
-        "form-mcq-13": "「成長關鍵時期」是「formative years」的用法，與本句語境不同。",
-        "form-mcq-17": "「有固定欄位、供人填寫資料的文件」是「8. form（表格） — 表格」的用法，與本句語境不同。",
-        "form-mcq-12": "「塑造發展的」是「formative」的用法，與本句語境不同。"
+        "form-mcq-15": "本句的「re-formed」指「重新形成」。",
+        "form-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-15"
     },
@@ -2419,10 +2211,8 @@ export default {
       "masked": "The ice began to ____ overnight.",
       "options": [
         "form-mcq-15",
-        "form-mcq-14",
+        "form-mcq-09",
         "form-mcq-16",
-        "form-mcq-13",
-        "form-mcq-17",
         "form-mcq-12"
       ],
       "explanation": "本句的「re-form」指「重新形成」。",
@@ -2432,12 +2222,10 @@ export default {
         "re-form"
       ],
       "optionReasons": {
-        "form-mcq-15": "本句指「重新形成」。",
-        "form-mcq-14": "「改革」是「reform」的用法，與本句語境不同。",
-        "form-mcq-16": "「英式或香港教育制度中表示中學年級的方式」是「1. Form One / Form Six（年級） — 中一／中六」的用法，與本句語境不同。",
-        "form-mcq-13": "「成長關鍵時期」是「formative years」的用法，與本句語境不同。",
-        "form-mcq-17": "「有固定欄位、供人填寫資料的文件」是「8. form（表格） — 表格」的用法，與本句語境不同。",
-        "form-mcq-12": "「塑造發展的」是「formative」的用法，與本句語境不同。"
+        "form-mcq-15": "本句的「re-form」指「重新形成」。",
+        "form-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "form-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "form-mcq-15"
     }
@@ -2449,5 +2237,7 @@ export default {
     "sha256": "9c7e45b5ef0983135b65630dac4b816e29abf5742e7a190a2648623c953dceb4",
     "pages": 25
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -2235,11 +2235,7 @@ export default {
       "masked": "Students should know the ____ criteria before they begin.",
       "options": [
         "assessment-mcq-01",
-        "assessment-mcq-02",
-        "assessment-mcq-03",
-        "assessment-mcq-04",
-        "assessment-mcq-05",
-        "assessment-mcq-06"
+        "assessment-mcq-45"
       ],
       "explanation": "本句的「assessment」指「用來判斷學生作品／表演質素與達標程度的評核準則」。",
       "sentenceIndex": 0,
@@ -2248,12 +2244,8 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-01": "本句指「用來判斷學生作品／表演質素與達標程度的評核準則」。",
-        "assessment-mcq-02": "「收集資料後判斷某事物質素、程度、狀況、價值等的評估」與本句語境不同。",
-        "assessment-mcq-03": "「經分析後得出的看法／判斷」與本句語境不同。",
-        "assessment-mcq-04": "「根據資訊作出評估／判斷」與本句語境不同。",
-        "assessment-mcq-05": "「正式進行評估」與本句語境不同。",
-        "assessment-mcq-06": "「接受專業／正式評估」與本句語境不同。"
+        "assessment-mcq-01": "本句的「assessment」指「用來判斷學生作品／表演質素與達標程度的評核準則」。",
+        "assessment-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-01"
     },
@@ -2265,10 +2257,6 @@ export default {
       "masked": "The teacher used clear ____ criteria to judge the performance.",
       "options": [
         "assessment-mcq-01",
-        "assessment-mcq-02",
-        "assessment-mcq-03",
-        "assessment-mcq-04",
-        "assessment-mcq-05",
         "assessment-mcq-06"
       ],
       "explanation": "本句的「assessment」指「用來判斷學生作品／表演質素與達標程度的評核準則」。",
@@ -2278,12 +2266,8 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-01": "本句指「用來判斷學生作品／表演質素與達標程度的評核準則」。",
-        "assessment-mcq-02": "「收集資料後判斷某事物質素、程度、狀況、價值等的評估」與本句語境不同。",
-        "assessment-mcq-03": "「經分析後得出的看法／判斷」與本句語境不同。",
-        "assessment-mcq-04": "「根據資訊作出評估／判斷」與本句語境不同。",
-        "assessment-mcq-05": "「正式進行評估」與本句語境不同。",
-        "assessment-mcq-06": "「接受專業／正式評估」與本句語境不同。"
+        "assessment-mcq-01": "本句的「assessment」指「用來判斷學生作品／表演質素與達標程度的評核準則」。",
+        "assessment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-01"
     },
@@ -2295,11 +2279,7 @@ export default {
       "masked": "The project begins with an ____ of students’ needs.",
       "options": [
         "assessment-mcq-02",
-        "assessment-mcq-01",
-        "assessment-mcq-03",
-        "assessment-mcq-04",
-        "assessment-mcq-05",
-        "assessment-mcq-06"
+        "assessment-mcq-61"
       ],
       "explanation": "本句的「assessment」指「收集資料後判斷某事物質素、程度、狀況、價值等的評估」。",
       "sentenceIndex": 2,
@@ -2308,12 +2288,8 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-02": "本句指「收集資料後判斷某事物質素、程度、狀況、價值等的評估」。",
-        "assessment-mcq-01": "「用來判斷學生作品／表演質素與達標程度的評核準則」與本句語境不同。",
-        "assessment-mcq-03": "「經分析後得出的看法／判斷」與本句語境不同。",
-        "assessment-mcq-04": "「根據資訊作出評估／判斷」與本句語境不同。",
-        "assessment-mcq-05": "「正式進行評估」與本句語境不同。",
-        "assessment-mcq-06": "「接受專業／正式評估」與本句語境不同。"
+        "assessment-mcq-02": "本句的「assessment」指「收集資料後判斷某事物質素、程度、狀況、價值等的評估」。",
+        "assessment-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-02"
     },
@@ -2325,11 +2301,7 @@ export default {
       "masked": "A full ____ will be carried out.",
       "options": [
         "assessment-mcq-02",
-        "assessment-mcq-01",
-        "assessment-mcq-03",
-        "assessment-mcq-04",
-        "assessment-mcq-05",
-        "assessment-mcq-06"
+        "assessment-mcq-61"
       ],
       "explanation": "本句的「assessment」指「收集資料後判斷某事物質素、程度、狀況、價值等的評估」。",
       "sentenceIndex": 3,
@@ -2338,12 +2310,8 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-02": "本句指「收集資料後判斷某事物質素、程度、狀況、價值等的評估」。",
-        "assessment-mcq-01": "「用來判斷學生作品／表演質素與達標程度的評核準則」與本句語境不同。",
-        "assessment-mcq-03": "「經分析後得出的看法／判斷」與本句語境不同。",
-        "assessment-mcq-04": "「根據資訊作出評估／判斷」與本句語境不同。",
-        "assessment-mcq-05": "「正式進行評估」與本句語境不同。",
-        "assessment-mcq-06": "「接受專業／正式評估」與本句語境不同。"
+        "assessment-mcq-02": "本句的「assessment」指「收集資料後判斷某事物質素、程度、狀況、價值等的評估」。",
+        "assessment-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-02"
     },
@@ -2355,11 +2323,9 @@ export default {
       "masked": "Her ____ of the situation was accurate.",
       "options": [
         "assessment-mcq-03",
-        "assessment-mcq-02",
-        "assessment-mcq-04",
-        "assessment-mcq-01",
-        "assessment-mcq-05",
-        "assessment-mcq-06"
+        "assessment-mcq-26",
+        "assessment-mcq-45",
+        "assessment-mcq-54"
       ],
       "explanation": "本句的「assessment」指「經分析後得出的看法／判斷」。",
       "sentenceIndex": 4,
@@ -2368,12 +2334,10 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-03": "本句指「經分析後得出的看法／判斷」。",
-        "assessment-mcq-02": "「收集資料後判斷某事物質素、程度、狀況、價值等的評估」與本句語境不同。",
-        "assessment-mcq-04": "「根據資訊作出評估／判斷」與本句語境不同。",
-        "assessment-mcq-01": "「用來判斷學生作品／表演質素與達標程度的評核準則」與本句語境不同。",
-        "assessment-mcq-05": "「正式進行評估」與本句語境不同。",
-        "assessment-mcq-06": "「接受專業／正式評估」與本句語境不同。"
+        "assessment-mcq-03": "本句的「assessment」指「經分析後得出的看法／判斷」。",
+        "assessment-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-03"
     },
@@ -2385,11 +2349,9 @@ export default {
       "masked": "I agree with his ____.",
       "options": [
         "assessment-mcq-03",
-        "assessment-mcq-02",
-        "assessment-mcq-04",
-        "assessment-mcq-01",
-        "assessment-mcq-05",
-        "assessment-mcq-06"
+        "assessment-mcq-21",
+        "assessment-mcq-61",
+        "assessment-mcq-54"
       ],
       "explanation": "本句的「assessment」指「經分析後得出的看法／判斷」。",
       "sentenceIndex": 5,
@@ -2398,12 +2360,10 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-03": "本句指「經分析後得出的看法／判斷」。",
-        "assessment-mcq-02": "「收集資料後判斷某事物質素、程度、狀況、價值等的評估」與本句語境不同。",
-        "assessment-mcq-04": "「根據資訊作出評估／判斷」與本句語境不同。",
-        "assessment-mcq-01": "「用來判斷學生作品／表演質素與達標程度的評核準則」與本句語境不同。",
-        "assessment-mcq-05": "「正式進行評估」與本句語境不同。",
-        "assessment-mcq-06": "「接受專業／正式評估」與本句語境不同。"
+        "assessment-mcq-03": "本句的「assessment」指「經分析後得出的看法／判斷」。",
+        "assessment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-03"
     },
@@ -2415,11 +2375,8 @@ export default {
       "masked": "We need more information before we can make an ____.",
       "options": [
         "assessment-mcq-04",
-        "assessment-mcq-03",
-        "assessment-mcq-05",
-        "assessment-mcq-02",
-        "assessment-mcq-06",
-        "assessment-mcq-01"
+        "assessment-mcq-26",
+        "assessment-mcq-54"
       ],
       "explanation": "本句的「assessment」指「根據資訊作出評估／判斷」。",
       "sentenceIndex": 6,
@@ -2428,12 +2385,9 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-04": "本句指「根據資訊作出評估／判斷」。",
-        "assessment-mcq-03": "「經分析後得出的看法／判斷」與本句語境不同。",
-        "assessment-mcq-05": "「正式進行評估」與本句語境不同。",
-        "assessment-mcq-02": "「收集資料後判斷某事物質素、程度、狀況、價值等的評估」與本句語境不同。",
-        "assessment-mcq-06": "「接受專業／正式評估」與本句語境不同。",
-        "assessment-mcq-01": "「用來判斷學生作品／表演質素與達標程度的評核準則」與本句語境不同。"
+        "assessment-mcq-04": "本句的「assessment」指「根據資訊作出評估／判斷」。",
+        "assessment-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-04"
     },
@@ -2445,11 +2399,9 @@ export default {
       "masked": "All candidates must undergo an ____.",
       "options": [
         "assessment-mcq-06",
-        "assessment-mcq-05",
-        "assessment-mcq-07",
-        "assessment-mcq-04",
-        "assessment-mcq-08",
-        "assessment-mcq-03"
+        "assessment-mcq-03",
+        "assessment-mcq-61",
+        "assessment-mcq-54"
       ],
       "explanation": "本句的「assessment」指「接受專業／正式評估」。",
       "sentenceIndex": 8,
@@ -2458,12 +2410,10 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-06": "本句指「接受專業／正式評估」。",
-        "assessment-mcq-05": "「正式進行評估」與本句語境不同。",
-        "assessment-mcq-07": "「完整分析前的初步評估」與本句語境不同。",
-        "assessment-mcq-04": "「根據資訊作出評估／判斷」與本句語境不同。",
-        "assessment-mcq-08": "「一個流程開始時進行的第一次評估」與本句語境不同。",
-        "assessment-mcq-03": "「經分析後得出的看法／判斷」與本句語境不同。"
+        "assessment-mcq-06": "本句的「assessment」指「接受專業／正式評估」。",
+        "assessment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-06"
     },
@@ -2475,11 +2425,8 @@ export default {
       "masked": "The team carried out a preliminary ____.",
       "options": [
         "assessment-mcq-07",
-        "assessment-mcq-06",
-        "assessment-mcq-08",
-        "assessment-mcq-05",
-        "assessment-mcq-09",
-        "assessment-mcq-04"
+        "assessment-mcq-50",
+        "assessment-mcq-54"
       ],
       "explanation": "本句的「assessment」指「完整分析前的初步評估」。",
       "sentenceIndex": 10,
@@ -2488,12 +2435,9 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-07": "本句指「完整分析前的初步評估」。",
-        "assessment-mcq-06": "「接受專業／正式評估」與本句語境不同。",
-        "assessment-mcq-08": "「一個流程開始時進行的第一次評估」與本句語境不同。",
-        "assessment-mcq-05": "「正式進行評估」與本句語境不同。",
-        "assessment-mcq-09": "「涵蓋多個重要範疇的全面評估」與本句語境不同。",
-        "assessment-mcq-04": "「根據資訊作出評估／判斷」與本句語境不同。"
+        "assessment-mcq-07": "本句的「assessment」指「完整分析前的初步評估」。",
+        "assessment-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-07"
     },
@@ -2505,11 +2449,8 @@ export default {
       "masked": "Half the course grade comes from internal ____.",
       "options": [
         "assessment-mcq-12",
-        "assessment-mcq-11",
-        "assessment-mcq-13",
-        "assessment-mcq-10",
-        "assessment-mcq-14",
-        "assessment-mcq-09"
+        "assessment-mcq-03",
+        "assessment-mcq-06"
       ],
       "explanation": "本句的「assessment」指「由機構／學校內部進行的評核」。",
       "sentenceIndex": 11,
@@ -2518,12 +2459,9 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-12": "本句指「由機構／學校內部進行的評核」。",
-        "assessment-mcq-11": "「由相對獨立人士／機構進行的評估」與本句語境不同。",
-        "assessment-mcq-13": "「由機構以外人士／組織進行的評核」與本句語境不同。",
-        "assessment-mcq-10": "「隨過程持續進行的評估」與本句語境不同。",
-        "assessment-mcq-14": "「按既定程序／任務進行的正式評估」與本句語境不同。",
-        "assessment-mcq-09": "「涵蓋多個重要範疇的全面評估」與本句語境不同。"
+        "assessment-mcq-12": "本句的「assessment」指「由機構／學校內部進行的評核」。",
+        "assessment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-12"
     },
@@ -2535,11 +2473,9 @@ export default {
       "masked": "Drama can be used as part of classroom ____.",
       "options": [
         "assessment-mcq-17",
-        "assessment-mcq-16",
-        "assessment-mcq-18",
-        "assessment-mcq-15",
-        "assessment-mcq-19",
-        "assessment-mcq-14"
+        "assessment-mcq-03",
+        "assessment-mcq-54",
+        "assessment-mcq-61"
       ],
       "explanation": "本句的「assessment」指「日常課堂教學中的學習評估」。",
       "sentenceIndex": 12,
@@ -2548,12 +2484,10 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-17": "本句指「日常課堂教學中的學習評估」。",
-        "assessment-mcq-16": "「對學習者、課程或教育成果進行的教育評估」與本句語境不同。",
-        "assessment-mcq-18": "「主要用回饋改善後續學習的促進學習評估」與本句語境不同。",
-        "assessment-mcq-15": "「透過觀察、提問等較非正式方式了解表現」與本句語境不同。",
-        "assessment-mcq-19": "「用來判斷學習成果／成績的評估」與本句語境不同。",
-        "assessment-mcq-14": "「按既定程序／任務進行的正式評估」與本句語境不同。"
+        "assessment-mcq-17": "本句的「assessment」指「日常課堂教學中的學習評估」。",
+        "assessment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-17"
     },
@@ -2565,11 +2499,9 @@ export default {
       "masked": "Feedback is central to ____ for learning.",
       "options": [
         "assessment-mcq-18",
-        "assessment-mcq-17",
-        "assessment-mcq-19",
-        "assessment-mcq-16",
-        "assessment-mcq-20",
-        "assessment-mcq-15"
+        "assessment-mcq-54",
+        "assessment-mcq-61",
+        "assessment-mcq-03"
       ],
       "explanation": "本句的「assessment」指「主要用回饋改善後續學習的促進學習評估」。",
       "sentenceIndex": 13,
@@ -2578,12 +2510,10 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-18": "本句指「主要用回饋改善後續學習的促進學習評估」。",
-        "assessment-mcq-17": "「日常課堂教學中的學習評估」與本句語境不同。",
-        "assessment-mcq-19": "「用來判斷學習成果／成績的評估」與本句語境不同。",
-        "assessment-mcq-16": "「對學習者、課程或教育成果進行的教育評估」與本句語境不同。",
-        "assessment-mcq-20": "「讓學習者透過自評與反思來學習的評估」與本句語境不同。",
-        "assessment-mcq-15": "「透過觀察、提問等較非正式方式了解表現」與本句語境不同。"
+        "assessment-mcq-18": "本句的「assessment」指「主要用回饋改善後續學習的促進學習評估」。",
+        "assessment-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-18"
     },
@@ -2595,11 +2525,9 @@ export default {
       "masked": "The teacher used questions as formative ____.",
       "options": [
         "assessment-mcq-21",
-        "assessment-mcq-20",
-        "assessment-mcq-22",
-        "assessment-mcq-19",
-        "assessment-mcq-23",
-        "assessment-mcq-18"
+        "assessment-mcq-03",
+        "assessment-mcq-54",
+        "assessment-mcq-61"
       ],
       "explanation": "本句的「assessment」指「學習過程中用來發現問題並改善學習的形成性評估」。",
       "sentenceIndex": 14,
@@ -2608,12 +2536,10 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-21": "本句指「學習過程中用來發現問題並改善學習的形成性評估」。",
-        "assessment-mcq-20": "「讓學習者透過自評與反思來學習的評估」與本句語境不同。",
-        "assessment-mcq-22": "「學習階段結束時用來總結成果的總結性評估」與本句語境不同。",
-        "assessment-mcq-19": "「用來判斷學習成果／成績的評估」與本句語境不同。",
-        "assessment-mcq-23": "「用來找出已有能力、弱點與學習需要的診斷性評估」與本句語境不同。",
-        "assessment-mcq-18": "「主要用回饋改善後續學習的促進學習評估」與本句語境不同。"
+        "assessment-mcq-21": "本句的「assessment」指「學習過程中用來發現問題並改善學習的形成性評估」。",
+        "assessment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-21"
     },
@@ -2625,11 +2551,9 @@ export default {
       "masked": "A diagnostic ____ was given at the start of the course.",
       "options": [
         "assessment-mcq-23",
-        "assessment-mcq-22",
-        "assessment-mcq-24",
-        "assessment-mcq-21",
-        "assessment-mcq-25",
-        "assessment-mcq-20"
+        "assessment-mcq-61",
+        "assessment-mcq-54",
+        "assessment-mcq-03"
       ],
       "explanation": "本句的「assessment」指「用來找出已有能力、弱點與學習需要的診斷性評估」。",
       "sentenceIndex": 15,
@@ -2638,12 +2562,10 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-23": "本句指「用來找出已有能力、弱點與學習需要的診斷性評估」。",
-        "assessment-mcq-22": "「學習階段結束時用來總結成果的總結性評估」與本句語境不同。",
-        "assessment-mcq-24": "「作為日後比較基準的起始評估」與本句語境不同。",
-        "assessment-mcq-21": "「學習過程中用來發現問題並改善學習的形成性評估」與本句語境不同。",
-        "assessment-mcq-25": "「用來決定適合班別／程度的分班評估」與本句語境不同。",
-        "assessment-mcq-20": "「讓學習者透過自評與反思來學習的評估」與本句語境不同。"
+        "assessment-mcq-23": "本句的「assessment」指「用來找出已有能力、弱點與學習需要的診斷性評估」。",
+        "assessment-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-23"
     },
@@ -2655,11 +2577,8 @@ export default {
       "masked": "The course uses continuous ____ rather than one final exam.",
       "options": [
         "assessment-mcq-26",
-        "assessment-mcq-25",
-        "assessment-mcq-27",
-        "assessment-mcq-24",
-        "assessment-mcq-28",
-        "assessment-mcq-23"
+        "assessment-mcq-03",
+        "assessment-pdf-plain-050"
       ],
       "explanation": "本句的「assessment」指「整個課程期間持續累積成績的持續評核」。",
       "sentenceIndex": 16,
@@ -2668,12 +2587,9 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-26": "本句指「整個課程期間持續累積成績的持續評核」。",
-        "assessment-mcq-25": "「用來決定適合班別／程度的分班評估」與本句語境不同。",
-        "assessment-mcq-27": "「由學校內部實施並計入正式成績的校本評核」與本句語境不同。",
-        "assessment-mcq-24": "「作為日後比較基準的起始評估」與本句語境不同。",
-        "assessment-mcq-28": "「由教師進行的評估」與本句語境不同。",
-        "assessment-mcq-23": "「用來找出已有能力、弱點與學習需要的診斷性評估」與本句語境不同。"
+        "assessment-mcq-26": "本句的「assessment」指「整個課程期間持續累積成績的持續評核」。",
+        "assessment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assessment-pdf-plain-050": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-26"
     },
@@ -2685,11 +2601,8 @@ export default {
       "masked": "Students used peer ____ after the role-play.",
       "options": [
         "assessment-mcq-29",
-        "assessment-mcq-28",
-        "assessment-mcq-30",
-        "assessment-mcq-27",
-        "assessment-mcq-31",
-        "assessment-mcq-26"
+        "assessment-mcq-03",
+        "assessment-mcq-50"
       ],
       "explanation": "本句的「assessment」指「學習者互相評估作品／表現的同儕評估」。",
       "sentenceIndex": 17,
@@ -2698,12 +2611,9 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-29": "本句指「學習者互相評估作品／表現的同儕評估」。",
-        "assessment-mcq-28": "「由教師進行的評估」與本句語境不同。",
-        "assessment-mcq-30": "「學習者評估自己表現／學習的自我評估」與本句語境不同。",
-        "assessment-mcq-27": "「由學校內部實施並計入正式成績的校本評核」與本句語境不同。",
-        "assessment-mcq-31": "「按統一施測及計分程序進行的標準化評估」與本句語境不同。",
-        "assessment-mcq-26": "「整個課程期間持續累積成績的持續評核」與本句語境不同。"
+        "assessment-mcq-29": "本句的「assessment」指「學習者互相評估作品／表現的同儕評估」。",
+        "assessment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-29"
     },
@@ -2715,11 +2625,8 @@ export default {
       "masked": "Students completed a short self-____.",
       "options": [
         "assessment-pdf-plain-050",
-        "assessment-mcq-143",
-        "assessment-mcq-145",
-        "assessment-mcq-142",
-        "assessment-mcq-146",
-        "assessment-mcq-141"
+        "assessment-mcq-03",
+        "assessment-mcq-50"
       ],
       "explanation": "本句的「assessment」指「自我評估；自行評估自己的作品、表現或能力」。",
       "sentenceIndex": 18,
@@ -2728,12 +2635,9 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-pdf-plain-050": "本句指「自我評估；自行評估自己的作品、表現或能力」。",
-        "assessment-mcq-143": "「評估產品整個生命周期環境影響的方法」與本句語境不同。",
-        "assessment-mcq-145": "「由個人／機構對自己狀況作評估的問卷」與本句語境不同。",
-        "assessment-mcq-142": "「標準／法規：證明產品等是否符合指定要求的合格評定」與本句語境不同。",
-        "assessment-mcq-146": "「記錄評估方法、發現及結論的報告」與本句語境不同。",
-        "assessment-mcq-141": "「評估是否符合規則／要求」與本句語境不同。"
+        "assessment-pdf-plain-050": "本句的「assessment」指「自我評估；自行評估自己的作品、表現或能力」。",
+        "assessment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-pdf-plain-050"
     },
@@ -2745,11 +2649,9 @@ export default {
       "masked": "Students completed a standardized ____.",
       "options": [
         "assessment-mcq-31",
-        "assessment-mcq-30",
-        "assessment-mcq-32",
-        "assessment-mcq-29",
-        "assessment-mcq-33",
-        "assessment-mcq-28"
+        "assessment-mcq-61",
+        "assessment-mcq-03",
+        "assessment-mcq-54"
       ],
       "explanation": "本句的「assessment」指「按統一施測及計分程序進行的標準化評估」。",
       "sentenceIndex": 19,
@@ -2758,12 +2660,10 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-31": "本句指「按統一施測及計分程序進行的標準化評估」。",
-        "assessment-mcq-30": "「學習者評估自己表現／學習的自我評估」與本句語境不同。",
-        "assessment-mcq-32": "「以接近真實世界的任務評核能力的真實性評量」與本句語境不同。",
-        "assessment-mcq-29": "「學習者互相評估作品／表現的同儕評估」與本句語境不同。",
-        "assessment-mcq-33": "「透過實際展示技能／完成任務來評估表現」與本句語境不同。",
-        "assessment-mcq-28": "「由教師進行的評估」與本句語境不同。"
+        "assessment-mcq-31": "本句的「assessment」指「按統一施測及計分程序進行的標準化評估」。",
+        "assessment-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-31"
     },
@@ -2775,11 +2675,8 @@ export default {
       "masked": "The drama task can function as a performance ____.",
       "options": [
         "assessment-mcq-33",
-        "assessment-mcq-32",
-        "assessment-mcq-34",
-        "assessment-mcq-31",
-        "assessment-mcq-35",
-        "assessment-mcq-30"
+        "assessment-mcq-03",
+        "assessment-mcq-12"
       ],
       "explanation": "本句的「assessment」指「透過實際展示技能／完成任務來評估表現」。",
       "sentenceIndex": 20,
@@ -2788,12 +2685,9 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-33": "本句指「透過實際展示技能／完成任務來評估表現」。",
-        "assessment-mcq-32": "「以接近真實世界的任務評核能力的真實性評量」與本句語境不同。",
-        "assessment-mcq-34": "「以實際表現作為主要評估證據的評核」與本句語境不同。",
-        "assessment-mcq-31": "「按統一施測及計分程序進行的標準化評估」與本句語境不同。",
-        "assessment-mcq-35": "「評估實務操作／實際技能的實作評核」與本句語境不同。",
-        "assessment-mcq-30": "「學習者評估自己表現／學習的自我評估」與本句語境不同。"
+        "assessment-mcq-33": "本句的「assessment」指「透過實際展示技能／完成任務來評估表現」。",
+        "assessment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-33"
     },
@@ -2805,11 +2699,8 @@ export default {
       "masked": "The task uses criterion-referenced ____.",
       "options": [
         "assessment-mcq-42",
-        "assessment-mcq-41",
-        "assessment-mcq-43",
-        "assessment-mcq-40",
-        "assessment-mcq-44",
-        "assessment-mcq-39"
+        "assessment-mcq-03",
+        "assessment-mcq-50"
       ],
       "explanation": "本句的「assessment」指「把表現與既定準則比較的準則參照評估」。",
       "sentenceIndex": 21,
@@ -2818,12 +2709,9 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-42": "本句指「把表現與既定準則比較的準則參照評估」。",
-        "assessment-mcq-41": "「把表現分成多項準則逐項評分」與本句語境不同。",
-        "assessment-mcq-43": "「把個人表現與參照群體比較的常模參照評估」與本句語境不同。",
-        "assessment-mcq-40": "「對整體表現作一個綜合判斷」與本句語境不同。",
-        "assessment-mcq-44": "「判斷指定能力是否達標的能力本位評估」與本句語境不同。",
-        "assessment-mcq-39": "「透過直接觀察行為／表現作評估」與本句語境不同。"
+        "assessment-mcq-42": "本句的「assessment」指「把表現與既定準則比較的準則參照評估」。",
+        "assessment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-42"
     },
@@ -2835,11 +2723,9 @@ export default {
       "masked": "Applicants complete a practical skills ____.",
       "options": [
         "assessment-mcq-45",
-        "assessment-mcq-44",
-        "assessment-mcq-46",
-        "assessment-mcq-43",
-        "assessment-mcq-47",
-        "assessment-mcq-42"
+        "assessment-mcq-03",
+        "assessment-mcq-26",
+        "assessment-mcq-54"
       ],
       "explanation": "本句的「assessment」指「評估某人技能水平」。",
       "sentenceIndex": 22,
@@ -2848,12 +2734,10 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-45": "本句指「評估某人技能水平」。",
-        "assessment-mcq-44": "「判斷指定能力是否達標的能力本位評估」與本句語境不同。",
-        "assessment-mcq-46": "「評估語言理解／使用能力的語言評估」與本句語境不同。",
-        "assessment-mcq-43": "「把個人表現與參照群體比較的常模參照評估」與本句語境不同。",
-        "assessment-mcq-47": "「評估口語表現」與本句語境不同。",
-        "assessment-mcq-42": "「把表現與既定準則比較的準則參照評估」與本句語境不同。"
+        "assessment-mcq-45": "本句的「assessment」指「評估某人技能水平」。",
+        "assessment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-45"
     },
@@ -2865,11 +2749,9 @@ export default {
       "masked": "The role-play is an ____ task.",
       "options": [
         "assessment-mcq-50",
-        "assessment-mcq-49",
-        "assessment-mcq-51",
-        "assessment-mcq-48",
-        "assessment-mcq-52",
-        "assessment-mcq-47"
+        "assessment-mcq-03",
+        "assessment-mcq-17",
+        "assessment-mcq-54"
       ],
       "explanation": "本句的「assessment」指「專門用來收集評核證據的任務」。",
       "sentenceIndex": 23,
@@ -2878,12 +2760,10 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-50": "本句指「專門用來收集評核證據的任務」。",
-        "assessment-mcq-49": "「評估閱讀能力／理解」與本句語境不同。",
-        "assessment-mcq-51": "「用來評估學習／表現的方法」與本句語境不同。",
-        "assessment-mcq-48": "「評估寫作能力」與本句語境不同。",
-        "assessment-mcq-52": "「執行評估所使用的量表、測驗、問卷等工具」與本句語境不同。",
-        "assessment-mcq-47": "「評估口語表現」與本句語境不同。"
+        "assessment-mcq-50": "本句的「assessment」指「專門用來收集評核證據的任務」。",
+        "assessment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-50"
     },
@@ -2895,11 +2775,9 @@ export default {
       "masked": "The teacher shared the ____ rubric.",
       "options": [
         "assessment-mcq-54",
-        "assessment-mcq-53",
-        "assessment-mcq-55",
-        "assessment-mcq-52",
-        "assessment-mcq-56",
-        "assessment-mcq-51"
+        "assessment-mcq-61",
+        "assessment-mcq-06",
+        "assessment-mcq-03"
       ],
       "explanation": "本句的「assessment」指「列出準則及不同表現等級的評分規準」。",
       "sentenceIndex": 24,
@@ -2908,12 +2786,10 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-54": "本句指「列出準則及不同表現等級的評分規準」。",
-        "assessment-mcq-53": "「規定評估內容、程序、標準等的整體框架」與本句語境不同。",
-        "assessment-mcq-55": "「用來判斷某一方面表現的一項評核準則」與本句語境不同。",
-        "assessment-mcq-52": "「執行評估所使用的量表、測驗、問卷等工具」與本句語境不同。",
-        "assessment-mcq-56": "「多項用來評核表現的準則」與本句語境不同。",
-        "assessment-mcq-51": "「用來評估學習／表現的方法」與本句語境不同。"
+        "assessment-mcq-54": "本句的「assessment」指「列出準則及不同表現等級的評分規準」。",
+        "assessment-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-54"
     },
@@ -2925,11 +2801,9 @@ export default {
       "masked": "The presentation has a 30% ____ weighting.",
       "options": [
         "assessment-mcq-61",
-        "assessment-mcq-60",
-        "assessment-mcq-62",
-        "assessment-mcq-59",
-        "assessment-mcq-63",
-        "assessment-mcq-58"
+        "assessment-mcq-03",
+        "assessment-mcq-23",
+        "assessment-mcq-54"
       ],
       "explanation": "本句的「assessment」指「某項評核佔整體成績的比例」。",
       "sentenceIndex": 25,
@@ -2938,12 +2812,10 @@ export default {
         "assessment"
       ],
       "optionReasons": {
-        "assessment-mcq-61": "本句指「某項評核佔整體成績的比例」。",
-        "assessment-mcq-60": "「評核所得的等級／成績」與本句語境不同。",
-        "assessment-mcq-62": "「校準不同評核者判斷以提高一致性的評核調整」與本句語境不同。",
-        "assessment-mcq-59": "「評估所得的數值分數」與本句語境不同。",
-        "assessment-mcq-63": "「評估結果是否支持其預定解釋／用途的效度」與本句語境不同。",
-        "assessment-mcq-58": "「評估後得到的結果」與本句語境不同。"
+        "assessment-mcq-61": "本句的「assessment」指「某項評核佔整體成績的比例」。",
+        "assessment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "assessment-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assessment-mcq-61"
     }
@@ -2955,5 +2827,7 @@ export default {
     "sha256": "58db64474981a8f00518f9511b59aaad6762d2b3d5e8272eaec806f006f6f99c",
     "pages": 136
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

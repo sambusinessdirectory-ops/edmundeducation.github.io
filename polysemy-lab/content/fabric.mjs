@@ -1656,23 +1656,7 @@ export default {
       "en": "prefabrication",
       "zh": "預製工法",
       "note": "來源詞義：預製工法",
-      "examples": [
-        [
-          "Product pages should contain accurate fabric descriptions.",
-          "產品頁應提供準確的布料描述。",
-          "預製工法"
-        ],
-        [
-          "Soft fabric” alone may be too vague.",
-          "單寫「柔軟布料」可能過於含糊。",
-          "預製工法"
-        ],
-        [
-          "Better fabric information may reduce avoidable returns.",
-          "更完整的布料資料可能減少可避免的退貨。",
-          "預製工法"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1757,6 +1741,45 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "fabric-reviewed-85deffc032",
+      "title": "布料描述",
+      "form": "fabric · source section 86",
+      "en": "布料描述",
+      "zh": "布料描述",
+      "note": "對照原始教材第 86 節及例句核實。",
+      "examples": [
+        [
+          "Product pages should contain accurate fabric descriptions.",
+          "產品頁應提供準確的布料描述。",
+          "布料描述"
+        ],
+        [
+          "Soft fabric” alone may be too vague.",
+          "單寫「柔軟布料」可能過於含糊。",
+          "布料描述"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "fabric-reviewed-5b4ecc1463",
+      "title": "布料資料",
+      "form": "fabric · source section 87",
+      "en": "布料資料",
+      "zh": "布料資料",
+      "note": "對照原始教材第 87 節及例句核實。",
+      "examples": [
+        [
+          "Better fabric information may reduce avoidable returns.",
+          "更完整的布料資料可能減少可避免的退貨。",
+          "布料資料"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1768,11 +1791,9 @@ export default {
       "masked": "Customers cannot ____ before ordering.",
       "options": [
         "fabric-pdf-001",
-        "fabric-mcq-02",
-        "fabric-mcq-03",
-        "fabric-mcq-04",
-        "fabric-mcq-05",
-        "fabric-mcq-06"
+        "fabric-mcq-48",
+        "fabric-mcq-35",
+        "fabric-mcq-62"
       ],
       "explanation": "本句的「feel the fabric」指「用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物」。",
       "sentenceIndex": 0,
@@ -1781,12 +1802,10 @@ export default {
         "feel the fabric"
       ],
       "optionReasons": {
-        "fabric-pdf-001": "本句指「用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物」。",
-        "fabric-mcq-02": "「感受／觸摸布料」與本句語境不同。",
-        "fabric-mcq-03": "「一種布料」與本句語境不同。",
-        "fabric-mcq-04": "「不同種類布料」與本句語境不同。",
-        "fabric-mcq-05": "「布料種類」與本句語境不同。",
-        "fabric-mcq-06": "「布料成分」與本句語境不同。"
+        "fabric-pdf-001": "本句的「feel the fabric」指「用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物」。",
+        "fabric-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-pdf-001"
     },
@@ -1798,11 +1817,9 @@ export default {
       "masked": "The dress is made from a soft, lightweight ____.",
       "options": [
         "fabric-pdf-001",
-        "fabric-mcq-02",
-        "fabric-mcq-03",
-        "fabric-mcq-04",
-        "fabric-mcq-05",
-        "fabric-mcq-06"
+        "fabric-mcq-35",
+        "fabric-mcq-66",
+        "fabric-mcq-57"
       ],
       "explanation": "本句的「fabric」指「用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物」。",
       "sentenceIndex": 1,
@@ -1811,12 +1828,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-pdf-001": "本句指「用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物」。",
-        "fabric-mcq-02": "「感受／觸摸布料」與本句語境不同。",
-        "fabric-mcq-03": "「一種布料」與本句語境不同。",
-        "fabric-mcq-04": "「不同種類布料」與本句語境不同。",
-        "fabric-mcq-05": "「布料種類」與本句語境不同。",
-        "fabric-mcq-06": "「布料成分」與本句語境不同。"
+        "fabric-pdf-001": "本句的「fabric」指「用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物」。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-pdf-001"
     },
@@ -1828,11 +1843,9 @@ export default {
       "masked": "Different ____ behave differently after washing.",
       "options": [
         "fabric-pdf-001",
-        "fabric-mcq-02",
-        "fabric-mcq-03",
-        "fabric-mcq-04",
-        "fabric-mcq-05",
-        "fabric-mcq-06"
+        "fabric-mcq-58",
+        "fabric-mcq-35",
+        "fabric-pdf-002"
       ],
       "explanation": "本句的「fabrics」指「用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物」。",
       "sentenceIndex": 2,
@@ -1841,12 +1854,10 @@ export default {
         "fabrics"
       ],
       "optionReasons": {
-        "fabric-pdf-001": "本句指「用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物」。",
-        "fabric-mcq-02": "「感受／觸摸布料」與本句語境不同。",
-        "fabric-mcq-03": "「一種布料」與本句語境不同。",
-        "fabric-mcq-04": "「不同種類布料」與本句語境不同。",
-        "fabric-mcq-05": "「布料種類」與本句語境不同。",
-        "fabric-mcq-06": "「布料成分」與本句語境不同。"
+        "fabric-pdf-001": "本句的「fabrics」指「用紗線、纖維等製成，可用來做衣服、窗簾、家具等的布料／織物」。",
+        "fabric-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fabric-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-pdf-001"
     },
@@ -1858,11 +1869,9 @@ export default {
       "masked": "Many customers want to ____ before buying expensive clothing.",
       "options": [
         "fabric-mcq-02",
-        "fabric-mcq-01",
-        "fabric-mcq-03",
-        "fabric-mcq-04",
-        "fabric-mcq-05",
-        "fabric-mcq-06"
+        "fabric-mcq-55",
+        "fabric-mcq-62",
+        "fabric-mcq-67"
       ],
       "explanation": "本句的「feel the fabric」指「感受／觸摸布料」。",
       "sentenceIndex": 3,
@@ -1871,12 +1880,10 @@ export default {
         "feel the fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-02": "本句指「感受／觸摸布料」。",
-        "fabric-mcq-01": "「布料；織物」與本句語境不同。",
-        "fabric-mcq-03": "「一種布料」與本句語境不同。",
-        "fabric-mcq-04": "「不同種類布料」與本句語境不同。",
-        "fabric-mcq-05": "「布料種類」與本句語境不同。",
-        "fabric-mcq-06": "「布料成分」與本句語境不同。"
+        "fabric-mcq-02": "本句的「feel the fabric」指「感受／觸摸布料」。",
+        "fabric-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-02"
     },
@@ -1888,11 +1895,9 @@ export default {
       "masked": "Photos cannot tell you exactly how the ____ feels.",
       "options": [
         "fabric-mcq-02",
-        "fabric-mcq-01",
-        "fabric-mcq-03",
-        "fabric-mcq-04",
-        "fabric-mcq-05",
-        "fabric-mcq-06"
+        "fabric-mcq-72",
+        "fabric-mcq-36",
+        "fabric-mcq-73"
       ],
       "explanation": "本句的「fabric」指「感受／觸摸布料」。",
       "sentenceIndex": 4,
@@ -1901,12 +1906,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-02": "本句指「感受／觸摸布料」。",
-        "fabric-mcq-01": "「布料；織物」與本句語境不同。",
-        "fabric-mcq-03": "「一種布料」與本句語境不同。",
-        "fabric-mcq-04": "「不同種類布料」與本句語境不同。",
-        "fabric-mcq-05": "「布料種類」與本句語境不同。",
-        "fabric-mcq-06": "「布料成分」與本句語境不同。"
+        "fabric-mcq-02": "本句的「fabric」指「感受／觸摸布料」。",
+        "fabric-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-02"
     },
@@ -1918,11 +1921,9 @@ export default {
       "masked": "This ____ is suitable for summer clothing.",
       "options": [
         "fabric-mcq-03",
-        "fabric-mcq-02",
-        "fabric-mcq-04",
-        "fabric-mcq-01",
-        "fabric-mcq-05",
-        "fabric-mcq-06"
+        "fabric-mcq-61",
+        "fabric-mcq-36",
+        "fabric-mcq-72"
       ],
       "explanation": "本句的「fabric」指「一種布料」。",
       "sentenceIndex": 5,
@@ -1931,12 +1932,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-03": "本句指「一種布料」。",
-        "fabric-mcq-02": "「感受／觸摸布料」與本句語境不同。",
-        "fabric-mcq-04": "「不同種類布料」與本句語境不同。",
-        "fabric-mcq-01": "「布料；織物」與本句語境不同。",
-        "fabric-mcq-05": "「布料種類」與本句語境不同。",
-        "fabric-mcq-06": "「布料成分」與本句語境不同。"
+        "fabric-mcq-03": "本句的「fabric」指「一種布料」。",
+        "fabric-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-03"
     },
@@ -1948,11 +1947,9 @@ export default {
       "masked": "We tested several different ____.",
       "options": [
         "fabric-mcq-03",
-        "fabric-mcq-02",
-        "fabric-mcq-04",
-        "fabric-mcq-01",
-        "fabric-mcq-05",
-        "fabric-mcq-06"
+        "fabric-mcq-60",
+        "fabric-mcq-53",
+        "fabric-mcq-63"
       ],
       "explanation": "本句的「fabrics」指「一種布料」。",
       "sentenceIndex": 6,
@@ -1961,12 +1958,10 @@ export default {
         "fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-03": "本句指「一種布料」。",
-        "fabric-mcq-02": "「感受／觸摸布料」與本句語境不同。",
-        "fabric-mcq-04": "「不同種類布料」與本句語境不同。",
-        "fabric-mcq-01": "「布料；織物」與本句語境不同。",
-        "fabric-mcq-05": "「布料種類」與本句語境不同。",
-        "fabric-mcq-06": "「布料成分」與本句語境不同。"
+        "fabric-mcq-03": "本句的「fabrics」指「一種布料」。",
+        "fabric-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-03"
     },
@@ -1978,11 +1973,9 @@ export default {
       "masked": "The website should state the ____ clearly.",
       "options": [
         "fabric-mcq-05",
-        "fabric-mcq-04",
-        "fabric-mcq-06",
-        "fabric-mcq-03",
-        "fabric-mcq-07",
-        "fabric-mcq-02"
+        "fabric-mcq-56",
+        "fabric-mcq-74",
+        "fabric-mcq-35"
       ],
       "explanation": "本句的「fabric type」指「布料種類」。",
       "sentenceIndex": 7,
@@ -1991,12 +1984,10 @@ export default {
         "fabric type"
       ],
       "optionReasons": {
-        "fabric-mcq-05": "本句指「布料種類」。",
-        "fabric-mcq-04": "「不同種類布料」與本句語境不同。",
-        "fabric-mcq-06": "「布料成分」與本句語境不同。",
-        "fabric-mcq-03": "「一種布料」與本句語境不同。",
-        "fabric-mcq-07": "「布料纖維成分」與本句語境不同。",
-        "fabric-mcq-02": "「感受／觸摸布料」與本句語境不同。"
+        "fabric-mcq-05": "本句的「fabric type」指「布料種類」。",
+        "fabric-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-05"
     },
@@ -2008,11 +1999,9 @@ export default {
       "masked": "Different ____ types require different care.",
       "options": [
         "fabric-mcq-05",
-        "fabric-mcq-04",
-        "fabric-mcq-06",
-        "fabric-mcq-03",
-        "fabric-mcq-07",
-        "fabric-mcq-02"
+        "fabric-mcq-54",
+        "fabric-mcq-72",
+        "fabric-pdf-002"
       ],
       "explanation": "本句的「fabric」指「布料種類」。",
       "sentenceIndex": 8,
@@ -2021,12 +2010,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-05": "本句指「布料種類」。",
-        "fabric-mcq-04": "「不同種類布料」與本句語境不同。",
-        "fabric-mcq-06": "「布料成分」與本句語境不同。",
-        "fabric-mcq-03": "「一種布料」與本句語境不同。",
-        "fabric-mcq-07": "「布料纖維成分」與本句語境不同。",
-        "fabric-mcq-02": "「感受／觸摸布料」與本句語境不同。"
+        "fabric-mcq-05": "本句的「fabric」指「布料種類」。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "fabric-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-05"
     },
@@ -2038,11 +2025,9 @@ export default {
       "masked": "Check the ____ before washing the garment.",
       "options": [
         "fabric-mcq-06",
-        "fabric-mcq-05",
-        "fabric-mcq-07",
-        "fabric-mcq-04",
-        "fabric-mcq-08",
-        "fabric-mcq-03"
+        "fabric-mcq-52",
+        "fabric-mcq-54",
+        "fabric-mcq-73"
       ],
       "explanation": "本句的「fabric composition」指「布料成分」。",
       "sentenceIndex": 9,
@@ -2051,12 +2036,10 @@ export default {
         "fabric composition"
       ],
       "optionReasons": {
-        "fabric-mcq-06": "本句指「布料成分」。",
-        "fabric-mcq-05": "「布料種類」與本句語境不同。",
-        "fabric-mcq-07": "「布料纖維成分」與本句語境不同。",
-        "fabric-mcq-04": "「不同種類布料」與本句語境不同。",
-        "fabric-mcq-08": "「布料品質」與本句語境不同。",
-        "fabric-mcq-03": "「一種布料」與本句語境不同。"
+        "fabric-mcq-06": "本句的「fabric composition」指「布料成分」。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-06"
     },
@@ -2068,11 +2051,9 @@ export default {
       "masked": "The product page lists the ____ composition as 95% cotton and 5% elastane.",
       "options": [
         "fabric-mcq-06",
-        "fabric-mcq-05",
-        "fabric-mcq-07",
-        "fabric-mcq-04",
-        "fabric-mcq-08",
-        "fabric-mcq-03"
+        "fabric-mcq-56",
+        "fabric-mcq-70",
+        "fabric-mcq-35"
       ],
       "explanation": "本句的「fabric」指「布料成分」。",
       "sentenceIndex": 10,
@@ -2081,12 +2062,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-06": "本句指「布料成分」。",
-        "fabric-mcq-05": "「布料種類」與本句語境不同。",
-        "fabric-mcq-07": "「布料纖維成分」與本句語境不同。",
-        "fabric-mcq-04": "「不同種類布料」與本句語境不同。",
-        "fabric-mcq-08": "「布料品質」與本句語境不同。",
-        "fabric-mcq-03": "「一種布料」與本句語境不同。"
+        "fabric-mcq-06": "本句的「fabric」指「布料成分」。",
+        "fabric-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-06"
     },
@@ -2098,11 +2077,9 @@ export default {
       "masked": "The label gives the ____.",
       "options": [
         "fabric-mcq-07",
-        "fabric-mcq-06",
-        "fabric-mcq-08",
-        "fabric-mcq-05",
-        "fabric-mcq-09",
-        "fabric-mcq-04"
+        "fabric-mcq-73",
+        "fabric-mcq-54",
+        "fabric-mcq-71"
       ],
       "explanation": "本句的「fabric content」指「布料纖維成分」。",
       "sentenceIndex": 11,
@@ -2111,12 +2088,10 @@ export default {
         "fabric content"
       ],
       "optionReasons": {
-        "fabric-mcq-07": "本句指「布料纖維成分」。",
-        "fabric-mcq-06": "「布料成分」與本句語境不同。",
-        "fabric-mcq-08": "「布料品質」與本句語境不同。",
-        "fabric-mcq-05": "「布料種類」與本句語境不同。",
-        "fabric-mcq-09": "「布料選擇」與本句語境不同。",
-        "fabric-mcq-04": "「不同種類布料」與本句語境不同。"
+        "fabric-mcq-07": "本句的「fabric content」指「布料纖維成分」。",
+        "fabric-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-07"
     },
@@ -2128,11 +2103,9 @@ export default {
       "masked": "____ content can affect stretch and care requirements.",
       "options": [
         "fabric-mcq-07",
-        "fabric-mcq-06",
-        "fabric-mcq-08",
-        "fabric-mcq-05",
-        "fabric-mcq-09",
-        "fabric-mcq-04"
+        "fabric-mcq-62",
+        "fabric-mcq-71",
+        "fabric-mcq-55"
       ],
       "explanation": "本句的「Fabric」指「布料纖維成分」。",
       "sentenceIndex": 12,
@@ -2141,12 +2114,10 @@ export default {
         "Fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-07": "本句指「布料纖維成分」。",
-        "fabric-mcq-06": "「布料成分」與本句語境不同。",
-        "fabric-mcq-08": "「布料品質」與本句語境不同。",
-        "fabric-mcq-05": "「布料種類」與本句語境不同。",
-        "fabric-mcq-09": "「布料選擇」與本句語境不同。",
-        "fabric-mcq-04": "「不同種類布料」與本句語境不同。"
+        "fabric-mcq-07": "本句的「Fabric」指「布料纖維成分」。",
+        "fabric-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-07"
     },
@@ -2158,11 +2129,9 @@ export default {
       "masked": "Customers complained about the ____.",
       "options": [
         "fabric-mcq-08",
-        "fabric-mcq-07",
-        "fabric-mcq-09",
-        "fabric-mcq-06",
-        "fabric-mcq-10",
-        "fabric-mcq-05"
+        "fabric-mcq-67",
+        "fabric-mcq-56",
+        "fabric-mcq-64"
       ],
       "explanation": "本句的「fabric quality」指「布料品質」。",
       "sentenceIndex": 13,
@@ -2171,12 +2140,10 @@ export default {
         "fabric quality"
       ],
       "optionReasons": {
-        "fabric-mcq-08": "本句指「布料品質」。",
-        "fabric-mcq-07": "「布料纖維成分」與本句語境不同。",
-        "fabric-mcq-09": "「布料選擇」與本句語境不同。",
-        "fabric-mcq-06": "「布料成分」與本句語境不同。",
-        "fabric-mcq-10": "「布料樣本」與本句語境不同。",
-        "fabric-mcq-05": "「布料種類」與本句語境不同。"
+        "fabric-mcq-08": "本句的「fabric quality」指「布料品質」。",
+        "fabric-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-08"
     },
@@ -2188,11 +2155,9 @@ export default {
       "masked": "____ quality cannot always be judged accurately from photographs.",
       "options": [
         "fabric-mcq-08",
-        "fabric-mcq-07",
-        "fabric-mcq-09",
-        "fabric-mcq-06",
-        "fabric-mcq-10",
-        "fabric-mcq-05"
+        "fabric-mcq-50",
+        "fabric-mcq-60",
+        "fabric-mcq-68"
       ],
       "explanation": "本句的「Fabric」指「布料品質」。",
       "sentenceIndex": 14,
@@ -2201,12 +2166,10 @@ export default {
         "Fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-08": "本句指「布料品質」。",
-        "fabric-mcq-07": "「布料纖維成分」與本句語境不同。",
-        "fabric-mcq-09": "「布料選擇」與本句語境不同。",
-        "fabric-mcq-06": "「布料成分」與本句語境不同。",
-        "fabric-mcq-10": "「布料樣本」與本句語境不同。",
-        "fabric-mcq-05": "「布料種類」與本句語境不同。"
+        "fabric-mcq-08": "本句的「Fabric」指「布料品質」。",
+        "fabric-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-08"
     },
@@ -2218,11 +2181,9 @@ export default {
       "masked": "The ____ affects how the dress hangs.",
       "options": [
         "fabric-mcq-09",
-        "fabric-mcq-08",
-        "fabric-mcq-10",
-        "fabric-mcq-07",
-        "fabric-mcq-11",
-        "fabric-mcq-06"
+        "fabric-mcq-62",
+        "fabric-mcq-57",
+        "fabric-mcq-55"
       ],
       "explanation": "本句的「fabric choice」指「布料選擇」。",
       "sentenceIndex": 15,
@@ -2231,12 +2192,10 @@ export default {
         "fabric choice"
       ],
       "optionReasons": {
-        "fabric-mcq-09": "本句指「布料選擇」。",
-        "fabric-mcq-08": "「布料品質」與本句語境不同。",
-        "fabric-mcq-10": "「布料樣本」與本句語境不同。",
-        "fabric-mcq-07": "「布料纖維成分」與本句語境不同。",
-        "fabric-mcq-11": "「布辦／布樣」與本句語境不同。",
-        "fabric-mcq-06": "「布料成分」與本句語境不同。"
+        "fabric-mcq-09": "本句的「fabric choice」指「布料選擇」。",
+        "fabric-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-09"
     },
@@ -2248,11 +2207,9 @@ export default {
       "masked": "Good ____ choice is important in clothing design.",
       "options": [
         "fabric-mcq-09",
-        "fabric-mcq-08",
-        "fabric-mcq-10",
-        "fabric-mcq-07",
-        "fabric-mcq-11",
-        "fabric-mcq-06"
+        "fabric-mcq-67",
+        "fabric-mcq-66",
+        "fabric-mcq-57"
       ],
       "explanation": "本句的「fabric」指「布料選擇」。",
       "sentenceIndex": 16,
@@ -2261,12 +2218,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-09": "本句指「布料選擇」。",
-        "fabric-mcq-08": "「布料品質」與本句語境不同。",
-        "fabric-mcq-10": "「布料樣本」與本句語境不同。",
-        "fabric-mcq-07": "「布料纖維成分」與本句語境不同。",
-        "fabric-mcq-11": "「布辦／布樣」與本句語境不同。",
-        "fabric-mcq-06": "「布料成分」與本句語境不同。"
+        "fabric-mcq-09": "本句的「fabric」指「布料選擇」。",
+        "fabric-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-09"
     },
@@ -2278,11 +2233,9 @@ export default {
       "masked": "The supplier sent us a ____.",
       "options": [
         "fabric-mcq-10",
-        "fabric-mcq-09",
-        "fabric-mcq-11",
-        "fabric-mcq-08",
-        "fabric-mcq-12",
-        "fabric-mcq-07"
+        "fabric-mcq-47",
+        "fabric-mcq-71",
+        "fabric-mcq-73"
       ],
       "explanation": "本句的「fabric sample」指「布料樣本」。",
       "sentenceIndex": 17,
@@ -2291,12 +2244,10 @@ export default {
         "fabric sample"
       ],
       "optionReasons": {
-        "fabric-mcq-10": "本句指「布料樣本」。",
-        "fabric-mcq-09": "「布料選擇」與本句語境不同。",
-        "fabric-mcq-11": "「布辦／布樣」與本句語境不同。",
-        "fabric-mcq-08": "「布料品質」與本句語境不同。",
-        "fabric-mcq-12": "「一卷布」與本句語境不同。",
-        "fabric-mcq-07": "「布料纖維成分」與本句語境不同。"
+        "fabric-mcq-10": "本句的「fabric sample」指「布料樣本」。",
+        "fabric-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-10"
     },
@@ -2308,11 +2259,9 @@ export default {
       "masked": "Customers cannot inspect a ____ sample when shopping from a normal product page.",
       "options": [
         "fabric-mcq-10",
-        "fabric-mcq-09",
-        "fabric-mcq-11",
-        "fabric-mcq-08",
-        "fabric-mcq-12",
-        "fabric-mcq-07"
+        "fabric-mcq-64",
+        "fabric-mcq-54",
+        "fabric-mcq-52"
       ],
       "explanation": "本句的「fabric」指「布料樣本」。",
       "sentenceIndex": 18,
@@ -2321,12 +2270,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-10": "本句指「布料樣本」。",
-        "fabric-mcq-09": "「布料選擇」與本句語境不同。",
-        "fabric-mcq-11": "「布辦／布樣」與本句語境不同。",
-        "fabric-mcq-08": "「布料品質」與本句語境不同。",
-        "fabric-mcq-12": "「一卷布」與本句語境不同。",
-        "fabric-mcq-07": "「布料纖維成分」與本句語境不同。"
+        "fabric-mcq-10": "本句的「fabric」指「布料樣本」。",
+        "fabric-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-10"
     },
@@ -2338,11 +2285,9 @@ export default {
       "masked": "The designer compared several ____.",
       "options": [
         "fabric-mcq-11",
-        "fabric-mcq-10",
-        "fabric-mcq-12",
-        "fabric-mcq-09",
-        "fabric-mcq-13",
-        "fabric-mcq-08"
+        "fabric-mcq-36",
+        "fabric-mcq-51",
+        "fabric-mcq-54"
       ],
       "explanation": "本句的「fabric swatches」指「布辦／布樣」。",
       "sentenceIndex": 19,
@@ -2351,12 +2296,10 @@ export default {
         "fabric swatches"
       ],
       "optionReasons": {
-        "fabric-mcq-11": "本句指「布辦／布樣」。",
-        "fabric-mcq-10": "「布料樣本」與本句語境不同。",
-        "fabric-mcq-12": "「一卷布」與本句語境不同。",
-        "fabric-mcq-09": "「布料選擇」與本句語境不同。",
-        "fabric-mcq-13": "「天然布料」與本句語境不同。",
-        "fabric-mcq-08": "「布料品質」與本句語境不同。"
+        "fabric-mcq-11": "本句的「fabric swatches」指「布辦／布樣」。",
+        "fabric-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-11"
     },
@@ -2368,11 +2311,9 @@ export default {
       "masked": "____ swatches help customers compare colour and texture.",
       "options": [
         "fabric-mcq-11",
-        "fabric-mcq-10",
-        "fabric-mcq-12",
-        "fabric-mcq-09",
-        "fabric-mcq-13",
-        "fabric-mcq-08"
+        "fabric-mcq-49",
+        "fabric-mcq-37",
+        "fabric-mcq-47"
       ],
       "explanation": "本句的「Fabric」指「布辦／布樣」。",
       "sentenceIndex": 20,
@@ -2381,12 +2322,10 @@ export default {
         "Fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-11": "本句指「布辦／布樣」。",
-        "fabric-mcq-10": "「布料樣本」與本句語境不同。",
-        "fabric-mcq-12": "「一卷布」與本句語境不同。",
-        "fabric-mcq-09": "「布料選擇」與本句語境不同。",
-        "fabric-mcq-13": "「天然布料」與本句語境不同。",
-        "fabric-mcq-08": "「布料品質」與本句語境不同。"
+        "fabric-mcq-11": "本句的「Fabric」指「布辦／布樣」。",
+        "fabric-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-11"
     },
@@ -2398,11 +2337,9 @@ export default {
       "masked": "The workshop received ten ____.",
       "options": [
         "fabric-mcq-12",
-        "fabric-mcq-11",
-        "fabric-mcq-13",
-        "fabric-mcq-10",
-        "fabric-mcq-14",
-        "fabric-mcq-09"
+        "fabric-mcq-35",
+        "fabric-mcq-52",
+        "fabric-mcq-58"
       ],
       "explanation": "本句的「rolls of fabric」指「一卷布」。",
       "sentenceIndex": 21,
@@ -2411,12 +2348,10 @@ export default {
         "rolls of fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-12": "本句指「一卷布」。",
-        "fabric-mcq-11": "「布辦／布樣」與本句語境不同。",
-        "fabric-mcq-13": "「天然布料」與本句語境不同。",
-        "fabric-mcq-10": "「布料樣本」與本句語境不同。",
-        "fabric-mcq-14": "「合成布料」與本句語境不同。",
-        "fabric-mcq-09": "「布料選擇」與本句語境不同。"
+        "fabric-mcq-12": "本句的「rolls of fabric」指「一卷布」。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-12"
     },
@@ -2428,11 +2363,9 @@ export default {
       "masked": "The ____ is sold by the metre from the roll.",
       "options": [
         "fabric-mcq-12",
-        "fabric-mcq-11",
-        "fabric-mcq-13",
-        "fabric-mcq-10",
-        "fabric-mcq-14",
-        "fabric-mcq-09"
+        "fabric-mcq-36",
+        "fabric-mcq-67",
+        "fabric-mcq-35"
       ],
       "explanation": "本句的「fabric」指「一卷布」。",
       "sentenceIndex": 22,
@@ -2441,12 +2374,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-12": "本句指「一卷布」。",
-        "fabric-mcq-11": "「布辦／布樣」與本句語境不同。",
-        "fabric-mcq-13": "「天然布料」與本句語境不同。",
-        "fabric-mcq-10": "「布料樣本」與本句語境不同。",
-        "fabric-mcq-14": "「合成布料」與本句語境不同。",
-        "fabric-mcq-09": "「布料選擇」與本句語境不同。"
+        "fabric-mcq-12": "本句的「fabric」指「一卷布」。",
+        "fabric-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-12"
     },
@@ -2458,11 +2389,9 @@ export default {
       "masked": "Cotton and linen are commonly used in ____.",
       "options": [
         "fabric-mcq-13",
-        "fabric-mcq-12",
-        "fabric-mcq-14",
-        "fabric-mcq-11",
-        "fabric-mcq-15",
-        "fabric-mcq-10"
+        "fabric-mcq-70",
+        "fabric-mcq-54",
+        "fabric-mcq-64"
       ],
       "explanation": "本句的「natural-fibre fabrics」指「天然布料」。",
       "sentenceIndex": 23,
@@ -2471,12 +2400,10 @@ export default {
         "natural-fibre fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-13": "本句指「天然布料」。",
-        "fabric-mcq-12": "「一卷布」與本句語境不同。",
-        "fabric-mcq-14": "「合成布料」與本句語境不同。",
-        "fabric-mcq-11": "「布辦／布樣」與本句語境不同。",
-        "fabric-mcq-15": "「棉布」與本句語境不同。",
-        "fabric-mcq-10": "「布料樣本」與本句語境不同。"
+        "fabric-mcq-13": "本句的「natural-fibre fabrics」指「天然布料」。",
+        "fabric-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-13"
     },
@@ -2488,11 +2415,9 @@ export default {
       "masked": "Some customers prefer natural ____.",
       "options": [
         "fabric-mcq-13",
-        "fabric-mcq-12",
-        "fabric-mcq-14",
-        "fabric-mcq-11",
-        "fabric-mcq-15",
-        "fabric-mcq-10"
+        "fabric-mcq-55",
+        "fabric-mcq-63",
+        "fabric-mcq-54"
       ],
       "explanation": "本句的「fabrics」指「天然布料」。",
       "sentenceIndex": 24,
@@ -2501,12 +2426,10 @@ export default {
         "fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-13": "本句指「天然布料」。",
-        "fabric-mcq-12": "「一卷布」與本句語境不同。",
-        "fabric-mcq-14": "「合成布料」與本句語境不同。",
-        "fabric-mcq-11": "「布辦／布樣」與本句語境不同。",
-        "fabric-mcq-15": "「棉布」與本句語境不同。",
-        "fabric-mcq-10": "「布料樣本」與本句語境不同。"
+        "fabric-mcq-13": "本句的「fabrics」指「天然布料」。",
+        "fabric-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-13"
     },
@@ -2518,11 +2441,9 @@ export default {
       "masked": "Polyester is widely used in ____.",
       "options": [
         "fabric-mcq-14",
-        "fabric-mcq-13",
-        "fabric-mcq-15",
-        "fabric-mcq-12",
-        "fabric-mcq-16",
-        "fabric-mcq-11"
+        "fabric-mcq-55",
+        "fabric-mcq-72",
+        "fabric-mcq-67"
       ],
       "explanation": "本句的「synthetic fabrics」指「合成布料」。",
       "sentenceIndex": 25,
@@ -2531,12 +2452,10 @@ export default {
         "synthetic fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-14": "本句指「合成布料」。",
-        "fabric-mcq-13": "「天然布料」與本句語境不同。",
-        "fabric-mcq-15": "「棉布」與本句語境不同。",
-        "fabric-mcq-12": "「一卷布」與本句語境不同。",
-        "fabric-mcq-16": "「羊毛布料」與本句語境不同。",
-        "fabric-mcq-11": "「布辦／布樣」與本句語境不同。"
+        "fabric-mcq-14": "本句的「synthetic fabrics」指「合成布料」。",
+        "fabric-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-14"
     },
@@ -2548,11 +2467,9 @@ export default {
       "masked": "Synthetic ____ may have very different properties from natural fabrics.",
       "options": [
         "fabric-mcq-14",
-        "fabric-mcq-13",
-        "fabric-mcq-15",
-        "fabric-mcq-12",
-        "fabric-mcq-16",
-        "fabric-mcq-11"
+        "fabric-mcq-69",
+        "fabric-mcq-66",
+        "fabric-mcq-67"
       ],
       "explanation": "本句的「fabrics」指「合成布料」。",
       "sentenceIndex": 26,
@@ -2561,12 +2478,10 @@ export default {
         "fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-14": "本句指「合成布料」。",
-        "fabric-mcq-13": "「天然布料」與本句語境不同。",
-        "fabric-mcq-15": "「棉布」與本句語境不同。",
-        "fabric-mcq-12": "「一卷布」與本句語境不同。",
-        "fabric-mcq-16": "「羊毛布料」與本句語境不同。",
-        "fabric-mcq-11": "「布辦／布樣」與本句語境不同。"
+        "fabric-mcq-14": "本句的「fabrics」指「合成布料」。",
+        "fabric-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-14"
     },
@@ -2578,11 +2493,9 @@ export default {
       "masked": "The shirt is made from breathable ____.",
       "options": [
         "fabric-mcq-15",
-        "fabric-mcq-14",
-        "fabric-mcq-16",
-        "fabric-mcq-13",
-        "fabric-mcq-17",
-        "fabric-mcq-12"
+        "fabric-pdf-002",
+        "fabric-mcq-36",
+        "fabric-mcq-49"
       ],
       "explanation": "本句的「cotton fabric」指「棉布」。",
       "sentenceIndex": 27,
@@ -2591,12 +2504,10 @@ export default {
         "cotton fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-15": "本句指「棉布」。",
-        "fabric-mcq-14": "「合成布料」與本句語境不同。",
-        "fabric-mcq-16": "「羊毛布料」與本句語境不同。",
-        "fabric-mcq-13": "「天然布料」與本句語境不同。",
-        "fabric-mcq-17": "「絲質布料」與本句語境不同。",
-        "fabric-mcq-12": "「一卷布」與本句語境不同。"
+        "fabric-mcq-15": "本句的「cotton fabric」指「棉布」。",
+        "fabric-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-15"
     },
@@ -2608,11 +2519,9 @@ export default {
       "masked": "Cotton ____ can shrink if washed incorrectly.",
       "options": [
         "fabric-mcq-15",
-        "fabric-mcq-14",
-        "fabric-mcq-16",
-        "fabric-mcq-13",
-        "fabric-mcq-17",
-        "fabric-mcq-12"
+        "fabric-mcq-37",
+        "fabric-mcq-57",
+        "fabric-mcq-55"
       ],
       "explanation": "本句的「fabric」指「棉布」。",
       "sentenceIndex": 28,
@@ -2621,12 +2530,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-15": "本句指「棉布」。",
-        "fabric-mcq-14": "「合成布料」與本句語境不同。",
-        "fabric-mcq-16": "「羊毛布料」與本句語境不同。",
-        "fabric-mcq-13": "「天然布料」與本句語境不同。",
-        "fabric-mcq-17": "「絲質布料」與本句語境不同。",
-        "fabric-mcq-12": "「一卷布」與本句語境不同。"
+        "fabric-mcq-15": "本句的「fabric」指「棉布」。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-15"
     },
@@ -2638,11 +2545,9 @@ export default {
       "masked": "The coat uses heavy ____.",
       "options": [
         "fabric-mcq-16",
-        "fabric-mcq-15",
-        "fabric-mcq-17",
-        "fabric-mcq-14",
-        "fabric-mcq-18",
-        "fabric-mcq-13"
+        "fabric-mcq-53",
+        "fabric-mcq-63",
+        "fabric-mcq-52"
       ],
       "explanation": "本句的「wool fabric」指「羊毛布料」。",
       "sentenceIndex": 29,
@@ -2651,12 +2556,10 @@ export default {
         "wool fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-16": "本句指「羊毛布料」。",
-        "fabric-mcq-15": "「棉布」與本句語境不同。",
-        "fabric-mcq-17": "「絲質布料」與本句語境不同。",
-        "fabric-mcq-14": "「合成布料」與本句語境不同。",
-        "fabric-mcq-18": "「麻布」與本句語境不同。",
-        "fabric-mcq-13": "「天然布料」與本句語境不同。"
+        "fabric-mcq-16": "本句的「wool fabric」指「羊毛布料」。",
+        "fabric-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-16"
     },
@@ -2668,11 +2571,9 @@ export default {
       "masked": "Wool ____ require appropriate care.",
       "options": [
         "fabric-mcq-16",
-        "fabric-mcq-15",
-        "fabric-mcq-17",
-        "fabric-mcq-14",
-        "fabric-mcq-18",
-        "fabric-mcq-13"
+        "fabric-mcq-60",
+        "fabric-mcq-69",
+        "fabric-mcq-52"
       ],
       "explanation": "本句的「fabrics」指「羊毛布料」。",
       "sentenceIndex": 30,
@@ -2681,12 +2582,10 @@ export default {
         "fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-16": "本句指「羊毛布料」。",
-        "fabric-mcq-15": "「棉布」與本句語境不同。",
-        "fabric-mcq-17": "「絲質布料」與本句語境不同。",
-        "fabric-mcq-14": "「合成布料」與本句語境不同。",
-        "fabric-mcq-18": "「麻布」與本句語境不同。",
-        "fabric-mcq-13": "「天然布料」與本句語境不同。"
+        "fabric-mcq-16": "本句的「fabrics」指「羊毛布料」。",
+        "fabric-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-16"
     },
@@ -2698,11 +2597,9 @@ export default {
       "masked": "The dress uses delicate ____.",
       "options": [
         "fabric-mcq-17",
-        "fabric-mcq-16",
-        "fabric-mcq-18",
-        "fabric-mcq-15",
-        "fabric-mcq-19",
-        "fabric-mcq-14"
+        "fabric-mcq-55",
+        "fabric-mcq-57",
+        "fabric-mcq-58"
       ],
       "explanation": "本句的「silk fabric」指「絲質布料」。",
       "sentenceIndex": 31,
@@ -2711,12 +2608,10 @@ export default {
         "silk fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-17": "本句指「絲質布料」。",
-        "fabric-mcq-16": "「羊毛布料」與本句語境不同。",
-        "fabric-mcq-18": "「麻布」與本句語境不同。",
-        "fabric-mcq-15": "「棉布」與本句語境不同。",
-        "fabric-mcq-19": "「梭織布」與本句語境不同。",
-        "fabric-mcq-14": "「合成布料」與本句語境不同。"
+        "fabric-mcq-17": "本句的「silk fabric」指「絲質布料」。",
+        "fabric-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-17"
     },
@@ -2728,11 +2623,9 @@ export default {
       "masked": "Silk ____ can have a very different feel from polyester.",
       "options": [
         "fabric-mcq-17",
-        "fabric-mcq-16",
-        "fabric-mcq-18",
-        "fabric-mcq-15",
-        "fabric-mcq-19",
-        "fabric-mcq-14"
+        "fabric-mcq-50",
+        "fabric-mcq-35",
+        "fabric-mcq-54"
       ],
       "explanation": "本句的「fabric」指「絲質布料」。",
       "sentenceIndex": 32,
@@ -2741,12 +2634,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-17": "本句指「絲質布料」。",
-        "fabric-mcq-16": "「羊毛布料」與本句語境不同。",
-        "fabric-mcq-18": "「麻布」與本句語境不同。",
-        "fabric-mcq-15": "「棉布」與本句語境不同。",
-        "fabric-mcq-19": "「梭織布」與本句語境不同。",
-        "fabric-mcq-14": "「合成布料」與本句語境不同。"
+        "fabric-mcq-17": "本句的「fabric」指「絲質布料」。",
+        "fabric-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-17"
     },
@@ -2758,11 +2649,9 @@ export default {
       "masked": "Linen ____ is popular for summer clothing.",
       "options": [
         "fabric-mcq-18",
-        "fabric-mcq-17",
-        "fabric-mcq-19",
-        "fabric-mcq-16",
-        "fabric-mcq-20",
-        "fabric-mcq-15"
+        "fabric-mcq-67",
+        "fabric-mcq-70",
+        "fabric-mcq-47"
       ],
       "explanation": "本句的「fabric」指「麻布」。",
       "sentenceIndex": 33,
@@ -2771,12 +2660,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-18": "本句指「麻布」。",
-        "fabric-mcq-17": "「絲質布料」與本句語境不同。",
-        "fabric-mcq-19": "「梭織布」與本句語境不同。",
-        "fabric-mcq-16": "「羊毛布料」與本句語境不同。",
-        "fabric-mcq-20": "「針織布」與本句語境不同。",
-        "fabric-mcq-15": "「棉布」與本句語境不同。"
+        "fabric-mcq-18": "本句的「fabric」指「麻布」。",
+        "fabric-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-18"
     },
@@ -2788,11 +2675,9 @@ export default {
       "masked": "This linen ____ wrinkles easily.",
       "options": [
         "fabric-mcq-18",
-        "fabric-mcq-17",
-        "fabric-mcq-19",
-        "fabric-mcq-16",
-        "fabric-mcq-20",
-        "fabric-mcq-15"
+        "fabric-pdf-002",
+        "fabric-mcq-68",
+        "fabric-mcq-64"
       ],
       "explanation": "本句的「fabric」指「麻布」。",
       "sentenceIndex": 34,
@@ -2801,12 +2686,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-18": "本句指「麻布」。",
-        "fabric-mcq-17": "「絲質布料」與本句語境不同。",
-        "fabric-mcq-19": "「梭織布」與本句語境不同。",
-        "fabric-mcq-16": "「羊毛布料」與本句語境不同。",
-        "fabric-mcq-20": "「針織布」與本句語境不同。",
-        "fabric-mcq-15": "「棉布」與本句語境不同。"
+        "fabric-mcq-18": "本句的「fabric」指「麻布」。",
+        "fabric-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-18"
     },
@@ -2818,11 +2701,9 @@ export default {
       "masked": "The trousers are made from a strong ____.",
       "options": [
         "fabric-mcq-19",
-        "fabric-mcq-18",
-        "fabric-mcq-20",
-        "fabric-mcq-17",
-        "fabric-mcq-21",
-        "fabric-mcq-16"
+        "fabric-mcq-55",
+        "fabric-mcq-36",
+        "fabric-mcq-71"
       ],
       "explanation": "本句的「woven fabric」指「梭織布」。",
       "sentenceIndex": 35,
@@ -2831,12 +2712,10 @@ export default {
         "woven fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-19": "本句指「梭織布」。",
-        "fabric-mcq-18": "「麻布」與本句語境不同。",
-        "fabric-mcq-20": "「針織布」與本句語境不同。",
-        "fabric-mcq-17": "「絲質布料」與本句語境不同。",
-        "fabric-mcq-21": "「不織布」與本句語境不同。",
-        "fabric-mcq-16": "「羊毛布料」與本句語境不同。"
+        "fabric-mcq-19": "本句的「woven fabric」指「梭織布」。",
+        "fabric-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-19"
     },
@@ -2848,11 +2727,9 @@ export default {
       "masked": "Woven ____ are constructed by interlacing yarn systems.",
       "options": [
         "fabric-mcq-19",
-        "fabric-mcq-18",
-        "fabric-mcq-20",
-        "fabric-mcq-17",
-        "fabric-mcq-21",
-        "fabric-mcq-16"
+        "fabric-mcq-47",
+        "fabric-mcq-54",
+        "fabric-mcq-52"
       ],
       "explanation": "本句的「fabrics」指「梭織布」。",
       "sentenceIndex": 36,
@@ -2861,12 +2738,10 @@ export default {
         "fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-19": "本句指「梭織布」。",
-        "fabric-mcq-18": "「麻布」與本句語境不同。",
-        "fabric-mcq-20": "「針織布」與本句語境不同。",
-        "fabric-mcq-17": "「絲質布料」與本句語境不同。",
-        "fabric-mcq-21": "「不織布」與本句語境不同。",
-        "fabric-mcq-16": "「羊毛布料」與本句語境不同。"
+        "fabric-mcq-19": "本句的「fabrics」指「梭織布」。",
+        "fabric-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-19"
     },
@@ -2878,11 +2753,9 @@ export default {
       "masked": "T-shirts are often made from ____.",
       "options": [
         "fabric-mcq-20",
-        "fabric-mcq-19",
-        "fabric-mcq-21",
-        "fabric-mcq-18",
-        "fabric-mcq-22",
-        "fabric-mcq-17"
+        "fabric-mcq-66",
+        "fabric-mcq-68",
+        "fabric-mcq-35"
       ],
       "explanation": "本句的「knitted fabric」指「針織布」。",
       "sentenceIndex": 37,
@@ -2891,12 +2764,10 @@ export default {
         "knitted fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-20": "本句指「針織布」。",
-        "fabric-mcq-19": "「梭織布」與本句語境不同。",
-        "fabric-mcq-21": "「不織布」與本句語境不同。",
-        "fabric-mcq-18": "「麻布」與本句語境不同。",
-        "fabric-mcq-22": "「彈性布料」與本句語境不同。",
-        "fabric-mcq-17": "「絲質布料」與本句語境不同。"
+        "fabric-mcq-20": "本句的「knitted fabric」指「針織布」。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-20"
     },
@@ -2908,11 +2779,9 @@ export default {
       "masked": "Knitted ____ can offer more stretch than many woven fabrics.",
       "options": [
         "fabric-mcq-20",
-        "fabric-mcq-19",
-        "fabric-mcq-21",
-        "fabric-mcq-18",
-        "fabric-mcq-22",
-        "fabric-mcq-17"
+        "fabric-mcq-59",
+        "fabric-mcq-49",
+        "fabric-mcq-57"
       ],
       "explanation": "本句的「fabrics」指「針織布」。",
       "sentenceIndex": 38,
@@ -2921,12 +2790,10 @@ export default {
         "fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-20": "本句指「針織布」。",
-        "fabric-mcq-19": "「梭織布」與本句語境不同。",
-        "fabric-mcq-21": "「不織布」與本句語境不同。",
-        "fabric-mcq-18": "「麻布」與本句語境不同。",
-        "fabric-mcq-22": "「彈性布料」與本句語境不同。",
-        "fabric-mcq-17": "「絲質布料」與本句語境不同。"
+        "fabric-mcq-20": "本句的「fabrics」指「針織布」。",
+        "fabric-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-20"
     },
@@ -2938,11 +2805,9 @@ export default {
       "masked": "Some disposable products use ____.",
       "options": [
         "fabric-mcq-21",
-        "fabric-mcq-20",
-        "fabric-mcq-22",
-        "fabric-mcq-19",
-        "fabric-mcq-23",
-        "fabric-mcq-18"
+        "fabric-pdf-002",
+        "fabric-mcq-67",
+        "fabric-mcq-71"
       ],
       "explanation": "本句的「non-woven fabric」指「不織布」。",
       "sentenceIndex": 39,
@@ -2951,12 +2816,10 @@ export default {
         "non-woven fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-21": "本句指「不織布」。",
-        "fabric-mcq-20": "「針織布」與本句語境不同。",
-        "fabric-mcq-22": "「彈性布料」與本句語境不同。",
-        "fabric-mcq-19": "「梭織布」與本句語境不同。",
-        "fabric-mcq-23": "「透氣布料」與本句語境不同。",
-        "fabric-mcq-18": "「麻布」與本句語境不同。"
+        "fabric-mcq-21": "本句的「non-woven fabric」指「不織布」。",
+        "fabric-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-21"
     },
@@ -2968,11 +2831,9 @@ export default {
       "masked": "Non-woven ____ is made without conventional weaving or knitting.",
       "options": [
         "fabric-mcq-21",
-        "fabric-mcq-20",
-        "fabric-mcq-22",
-        "fabric-mcq-19",
-        "fabric-mcq-23",
-        "fabric-mcq-18"
+        "fabric-mcq-69",
+        "fabric-mcq-60",
+        "fabric-mcq-35"
       ],
       "explanation": "本句的「fabric」指「不織布」。",
       "sentenceIndex": 40,
@@ -2981,12 +2842,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-21": "本句指「不織布」。",
-        "fabric-mcq-20": "「針織布」與本句語境不同。",
-        "fabric-mcq-22": "「彈性布料」與本句語境不同。",
-        "fabric-mcq-19": "「梭織布」與本句語境不同。",
-        "fabric-mcq-23": "「透氣布料」與本句語境不同。",
-        "fabric-mcq-18": "「麻布」與本句語境不同。"
+        "fabric-mcq-21": "本句的「fabric」指「不織布」。",
+        "fabric-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-21"
     },
@@ -2998,11 +2857,9 @@ export default {
       "masked": "The jeans use a ____.",
       "options": [
         "fabric-mcq-22",
-        "fabric-mcq-21",
-        "fabric-mcq-23",
-        "fabric-mcq-20",
-        "fabric-mcq-24",
-        "fabric-mcq-19"
+        "fabric-mcq-66",
+        "fabric-mcq-58",
+        "fabric-mcq-36"
       ],
       "explanation": "本句的「stretch fabric」指「彈性布料」。",
       "sentenceIndex": 41,
@@ -3011,12 +2868,10 @@ export default {
         "stretch fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-22": "本句指「彈性布料」。",
-        "fabric-mcq-21": "「不織布」與本句語境不同。",
-        "fabric-mcq-23": "「透氣布料」與本句語境不同。",
-        "fabric-mcq-20": "「針織布」與本句語境不同。",
-        "fabric-mcq-24": "「防水布料」與本句語境不同。",
-        "fabric-mcq-19": "「梭織布」與本句語境不同。"
+        "fabric-mcq-22": "本句的「stretch fabric」指「彈性布料」。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-22"
     },
@@ -3028,11 +2883,9 @@ export default {
       "masked": "Stretch ____ can make sizing more forgiving.",
       "options": [
         "fabric-mcq-22",
-        "fabric-mcq-21",
-        "fabric-mcq-23",
-        "fabric-mcq-20",
-        "fabric-mcq-24",
-        "fabric-mcq-19"
+        "fabric-mcq-63",
+        "fabric-mcq-55",
+        "fabric-mcq-59"
       ],
       "explanation": "本句的「fabric」指「彈性布料」。",
       "sentenceIndex": 42,
@@ -3041,12 +2894,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-22": "本句指「彈性布料」。",
-        "fabric-mcq-21": "「不織布」與本句語境不同。",
-        "fabric-mcq-23": "「透氣布料」與本句語境不同。",
-        "fabric-mcq-20": "「針織布」與本句語境不同。",
-        "fabric-mcq-24": "「防水布料」與本句語境不同。",
-        "fabric-mcq-19": "「梭織布」與本句語境不同。"
+        "fabric-mcq-22": "本句的「fabric」指「彈性布料」。",
+        "fabric-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-22"
     },
@@ -3058,11 +2909,9 @@ export default {
       "masked": "Customers often prefer ____ in summer.",
       "options": [
         "fabric-mcq-23",
-        "fabric-mcq-22",
-        "fabric-mcq-24",
-        "fabric-mcq-21",
-        "fabric-mcq-25",
-        "fabric-mcq-20"
+        "fabric-mcq-37",
+        "fabric-mcq-54",
+        "fabric-mcq-67"
       ],
       "explanation": "本句的「breathable fabrics」指「透氣布料」。",
       "sentenceIndex": 43,
@@ -3071,12 +2920,10 @@ export default {
         "breathable fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-23": "本句指「透氣布料」。",
-        "fabric-mcq-22": "「彈性布料」與本句語境不同。",
-        "fabric-mcq-24": "「防水布料」與本句語境不同。",
-        "fabric-mcq-21": "「不織布」與本句語境不同。",
-        "fabric-mcq-25": "「抗水／防潑水布料」與本句語境不同。",
-        "fabric-mcq-20": "「針織布」與本句語境不同。"
+        "fabric-mcq-23": "本句的「breathable fabrics」指「透氣布料」。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-23"
     },
@@ -3088,11 +2935,9 @@ export default {
       "masked": "Breathable ____ can improve comfort.",
       "options": [
         "fabric-mcq-23",
-        "fabric-mcq-22",
-        "fabric-mcq-24",
-        "fabric-mcq-21",
-        "fabric-mcq-25",
-        "fabric-mcq-20"
+        "fabric-mcq-50",
+        "fabric-mcq-49",
+        "fabric-mcq-72"
       ],
       "explanation": "本句的「fabric」指「透氣布料」。",
       "sentenceIndex": 44,
@@ -3101,12 +2946,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-23": "本句指「透氣布料」。",
-        "fabric-mcq-22": "「彈性布料」與本句語境不同。",
-        "fabric-mcq-24": "「防水布料」與本句語境不同。",
-        "fabric-mcq-21": "「不織布」與本句語境不同。",
-        "fabric-mcq-25": "「抗水／防潑水布料」與本句語境不同。",
-        "fabric-mcq-20": "「針織布」與本句語境不同。"
+        "fabric-mcq-23": "本句的「fabric」指「透氣布料」。",
+        "fabric-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-23"
     },
@@ -3118,11 +2961,9 @@ export default {
       "masked": "The jacket is made from ____.",
       "options": [
         "fabric-mcq-24",
-        "fabric-mcq-23",
-        "fabric-mcq-25",
-        "fabric-mcq-22",
-        "fabric-mcq-26",
-        "fabric-mcq-21"
+        "fabric-mcq-70",
+        "fabric-mcq-62",
+        "fabric-mcq-54"
       ],
       "explanation": "本句的「waterproof fabric」指「防水布料」。",
       "sentenceIndex": 45,
@@ -3131,12 +2972,10 @@ export default {
         "waterproof fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-24": "本句指「防水布料」。",
-        "fabric-mcq-23": "「透氣布料」與本句語境不同。",
-        "fabric-mcq-25": "「抗水／防潑水布料」與本句語境不同。",
-        "fabric-mcq-22": "「彈性布料」與本句語境不同。",
-        "fabric-mcq-26": "「輕薄布料」與本句語境不同。",
-        "fabric-mcq-21": "「不織布」與本句語境不同。"
+        "fabric-mcq-24": "本句的「waterproof fabric」指「防水布料」。",
+        "fabric-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-24"
     },
@@ -3148,11 +2987,9 @@ export default {
       "masked": "Waterproof ____ is designed to prevent water passing through under specified conditions.",
       "options": [
         "fabric-mcq-24",
-        "fabric-mcq-23",
-        "fabric-mcq-25",
-        "fabric-mcq-22",
-        "fabric-mcq-26",
-        "fabric-mcq-21"
+        "fabric-mcq-64",
+        "fabric-mcq-54",
+        "fabric-mcq-50"
       ],
       "explanation": "本句的「fabric」指「防水布料」。",
       "sentenceIndex": 46,
@@ -3161,12 +2998,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-24": "本句指「防水布料」。",
-        "fabric-mcq-23": "「透氣布料」與本句語境不同。",
-        "fabric-mcq-25": "「抗水／防潑水布料」與本句語境不同。",
-        "fabric-mcq-22": "「彈性布料」與本句語境不同。",
-        "fabric-mcq-26": "「輕薄布料」與本句語境不同。",
-        "fabric-mcq-21": "「不織布」與本句語境不同。"
+        "fabric-mcq-24": "本句的「fabric」指「防水布料」。",
+        "fabric-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-24"
     },
@@ -3178,11 +3013,9 @@ export default {
       "masked": "The bag uses ____.",
       "options": [
         "fabric-mcq-25",
-        "fabric-mcq-24",
-        "fabric-mcq-26",
-        "fabric-mcq-23",
-        "fabric-mcq-27",
-        "fabric-mcq-22"
+        "fabric-mcq-35",
+        "fabric-mcq-67",
+        "fabric-mcq-61"
       ],
       "explanation": "本句的「water-resistant fabric」指「抗水／防潑水布料」。",
       "sentenceIndex": 47,
@@ -3191,12 +3024,10 @@ export default {
         "water-resistant fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-25": "本句指「抗水／防潑水布料」。",
-        "fabric-mcq-24": "「防水布料」與本句語境不同。",
-        "fabric-mcq-26": "「輕薄布料」與本句語境不同。",
-        "fabric-mcq-23": "「透氣布料」與本句語境不同。",
-        "fabric-mcq-27": "「厚重布料」與本句語境不同。",
-        "fabric-mcq-22": "「彈性布料」與本句語境不同。"
+        "fabric-mcq-25": "本句的「water-resistant fabric」指「抗水／防潑水布料」。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-25"
     },
@@ -3208,11 +3039,9 @@ export default {
       "masked": "The blouse uses a ____.",
       "options": [
         "fabric-mcq-26",
-        "fabric-mcq-25",
-        "fabric-mcq-27",
-        "fabric-mcq-24",
-        "fabric-mcq-28",
-        "fabric-mcq-23"
+        "fabric-mcq-57",
+        "fabric-mcq-51",
+        "fabric-mcq-37"
       ],
       "explanation": "本句的「lightweight fabric」指「輕薄布料」。",
       "sentenceIndex": 48,
@@ -3221,12 +3050,10 @@ export default {
         "lightweight fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-26": "本句指「輕薄布料」。",
-        "fabric-mcq-25": "「抗水／防潑水布料」與本句語境不同。",
-        "fabric-mcq-27": "「厚重布料」與本句語境不同。",
-        "fabric-mcq-24": "「防水布料」與本句語境不同。",
-        "fabric-mcq-28": "「布重」與本句語境不同。",
-        "fabric-mcq-23": "「透氣布料」與本句語境不同。"
+        "fabric-mcq-26": "本句的「lightweight fabric」指「輕薄布料」。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-26"
     },
@@ -3238,11 +3065,9 @@ export default {
       "masked": "Lightweight ____ may suit warmer weather.",
       "options": [
         "fabric-mcq-26",
-        "fabric-mcq-25",
-        "fabric-mcq-27",
-        "fabric-mcq-24",
-        "fabric-mcq-28",
-        "fabric-mcq-23"
+        "fabric-mcq-58",
+        "fabric-mcq-37",
+        "fabric-mcq-50"
       ],
       "explanation": "本句的「fabrics」指「輕薄布料」。",
       "sentenceIndex": 49,
@@ -3251,12 +3076,10 @@ export default {
         "fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-26": "本句指「輕薄布料」。",
-        "fabric-mcq-25": "「抗水／防潑水布料」與本句語境不同。",
-        "fabric-mcq-27": "「厚重布料」與本句語境不同。",
-        "fabric-mcq-24": "「防水布料」與本句語境不同。",
-        "fabric-mcq-28": "「布重」與本句語境不同。",
-        "fabric-mcq-23": "「透氣布料」與本句語境不同。"
+        "fabric-mcq-26": "本句的「fabrics」指「輕薄布料」。",
+        "fabric-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-26"
     },
@@ -3268,11 +3091,9 @@ export default {
       "masked": "The coat is made from a ____.",
       "options": [
         "fabric-mcq-27",
-        "fabric-mcq-26",
-        "fabric-mcq-28",
-        "fabric-mcq-25",
-        "fabric-mcq-29",
-        "fabric-mcq-24"
+        "fabric-mcq-37",
+        "fabric-mcq-73",
+        "fabric-pdf-002"
       ],
       "explanation": "本句的「heavyweight fabric」指「厚重布料」。",
       "sentenceIndex": 50,
@@ -3281,12 +3102,10 @@ export default {
         "heavyweight fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-27": "本句指「厚重布料」。",
-        "fabric-mcq-26": "「輕薄布料」與本句語境不同。",
-        "fabric-mcq-28": "「布重」與本句語境不同。",
-        "fabric-mcq-25": "「抗水／防潑水布料」與本句語境不同。",
-        "fabric-mcq-29": "「布幅」與本句語境不同。",
-        "fabric-mcq-24": "「防水布料」與本句語境不同。"
+        "fabric-mcq-27": "本句的「heavyweight fabric」指「厚重布料」。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "fabric-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-27"
     },
@@ -3298,11 +3117,9 @@ export default {
       "masked": "____ weight affects the drape and warmth of a garment.",
       "options": [
         "fabric-mcq-27",
-        "fabric-mcq-26",
-        "fabric-mcq-28",
-        "fabric-mcq-25",
-        "fabric-mcq-29",
-        "fabric-mcq-24"
+        "fabric-mcq-57",
+        "fabric-mcq-53",
+        "fabric-mcq-67"
       ],
       "explanation": "本句的「Fabric」指「厚重布料」。",
       "sentenceIndex": 51,
@@ -3311,12 +3128,10 @@ export default {
         "Fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-27": "本句指「厚重布料」。",
-        "fabric-mcq-26": "「輕薄布料」與本句語境不同。",
-        "fabric-mcq-28": "「布重」與本句語境不同。",
-        "fabric-mcq-25": "「抗水／防潑水布料」與本句語境不同。",
-        "fabric-mcq-29": "「布幅」與本句語境不同。",
-        "fabric-mcq-24": "「防水布料」與本句語境不同。"
+        "fabric-mcq-27": "本句的「Fabric」指「厚重布料」。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-27"
     },
@@ -3328,11 +3143,9 @@ export default {
       "masked": "The product description should include the ____ where relevant.",
       "options": [
         "fabric-mcq-28",
-        "fabric-mcq-27",
-        "fabric-mcq-29",
-        "fabric-mcq-26",
-        "fabric-mcq-30",
-        "fabric-mcq-25"
+        "fabric-mcq-47",
+        "fabric-mcq-35",
+        "fabric-mcq-67"
       ],
       "explanation": "本句的「fabric weight」指「布重」。",
       "sentenceIndex": 52,
@@ -3341,12 +3154,10 @@ export default {
         "fabric weight"
       ],
       "optionReasons": {
-        "fabric-mcq-28": "本句指「布重」。",
-        "fabric-mcq-27": "「厚重布料」與本句語境不同。",
-        "fabric-mcq-29": "「布幅」與本句語境不同。",
-        "fabric-mcq-26": "「輕薄布料」與本句語境不同。",
-        "fabric-mcq-30": "「布料縮水」與本句語境不同。",
-        "fabric-mcq-25": "「抗水／防潑水布料」與本句語境不同。"
+        "fabric-mcq-28": "本句的「fabric weight」指「布重」。",
+        "fabric-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-28"
     },
@@ -3358,11 +3169,9 @@ export default {
       "masked": "Two ____ with the same fibre composition can have different weights.",
       "options": [
         "fabric-mcq-28",
-        "fabric-mcq-27",
-        "fabric-mcq-29",
-        "fabric-mcq-26",
-        "fabric-mcq-30",
-        "fabric-mcq-25"
+        "fabric-mcq-50",
+        "fabric-mcq-54",
+        "fabric-mcq-73"
       ],
       "explanation": "本句的「fabrics」指「布重」。",
       "sentenceIndex": 53,
@@ -3371,12 +3180,10 @@ export default {
         "fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-28": "本句指「布重」。",
-        "fabric-mcq-27": "「厚重布料」與本句語境不同。",
-        "fabric-mcq-29": "「布幅」與本句語境不同。",
-        "fabric-mcq-26": "「輕薄布料」與本句語境不同。",
-        "fabric-mcq-30": "「布料縮水」與本句語境不同。",
-        "fabric-mcq-25": "「抗水／防潑水布料」與本句語境不同。"
+        "fabric-mcq-28": "本句的「fabrics」指「布重」。",
+        "fabric-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-28"
     },
@@ -3388,11 +3195,9 @@ export default {
       "masked": "Fabric is sold in several standard ____.",
       "options": [
         "fabric-mcq-29",
-        "fabric-mcq-28",
-        "fabric-mcq-30",
-        "fabric-mcq-27",
-        "fabric-mcq-31",
-        "fabric-mcq-26"
+        "fabric-mcq-66",
+        "fabric-mcq-51",
+        "fabric-mcq-54"
       ],
       "explanation": "本句的「widths」指「布幅」。",
       "sentenceIndex": 54,
@@ -3401,12 +3206,10 @@ export default {
         "widths"
       ],
       "optionReasons": {
-        "fabric-mcq-29": "本句指「布幅」。",
-        "fabric-mcq-28": "「布重」與本句語境不同。",
-        "fabric-mcq-30": "「布料縮水」與本句語境不同。",
-        "fabric-mcq-27": "「厚重布料」與本句語境不同。",
-        "fabric-mcq-31": "「布料拉伸」與本句語境不同。",
-        "fabric-mcq-26": "「輕薄布料」與本句語境不同。"
+        "fabric-mcq-29": "本句的「widths」指「布幅」。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-29"
     },
@@ -3418,11 +3221,9 @@ export default {
       "masked": "____ width affects how much material is needed.",
       "options": [
         "fabric-mcq-29",
-        "fabric-mcq-28",
-        "fabric-mcq-30",
-        "fabric-mcq-27",
-        "fabric-mcq-31",
-        "fabric-mcq-26"
+        "fabric-mcq-37",
+        "fabric-mcq-71",
+        "fabric-mcq-49"
       ],
       "explanation": "本句的「Fabric」指「布幅」。",
       "sentenceIndex": 55,
@@ -3431,12 +3232,10 @@ export default {
         "Fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-29": "本句指「布幅」。",
-        "fabric-mcq-28": "「布重」與本句語境不同。",
-        "fabric-mcq-30": "「布料縮水」與本句語境不同。",
-        "fabric-mcq-27": "「厚重布料」與本句語境不同。",
-        "fabric-mcq-31": "「布料拉伸」與本句語境不同。",
-        "fabric-mcq-26": "「輕薄布料」與本句語境不同。"
+        "fabric-mcq-29": "本句的「Fabric」指「布幅」。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-29"
     },
@@ -3448,11 +3247,9 @@ export default {
       "masked": "This fabric ____.",
       "options": [
         "fabric-mcq-31",
-        "fabric-mcq-30",
-        "fabric-mcq-32",
-        "fabric-mcq-29",
-        "fabric-mcq-33",
-        "fabric-mcq-28"
+        "fabric-mcq-55",
+        "fabric-mcq-58",
+        "fabric-mcq-63"
       ],
       "explanation": "本句的「stretches considerably」指「布料拉伸」。",
       "sentenceIndex": 56,
@@ -3461,12 +3258,10 @@ export default {
         "stretches considerably"
       ],
       "optionReasons": {
-        "fabric-mcq-31": "本句指「布料拉伸」。",
-        "fabric-mcq-30": "「布料縮水」與本句語境不同。",
-        "fabric-mcq-32": "「布料褪色」與本句語境不同。",
-        "fabric-mcq-29": "「布幅」與本句語境不同。",
-        "fabric-mcq-33": "「布料起毛粒」與本句語境不同。",
-        "fabric-mcq-28": "「布重」與本句語境不同。"
+        "fabric-mcq-31": "本句的「stretches considerably」指「布料拉伸」。",
+        "fabric-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-31"
     },
@@ -3478,11 +3273,9 @@ export default {
       "masked": "Customers may choose a different size depending on how much the ____ stretches.",
       "options": [
         "fabric-mcq-31",
-        "fabric-mcq-30",
-        "fabric-mcq-32",
-        "fabric-mcq-29",
-        "fabric-mcq-33",
-        "fabric-mcq-28"
+        "fabric-mcq-57",
+        "fabric-mcq-51",
+        "fabric-mcq-37"
       ],
       "explanation": "本句的「fabric」指「布料拉伸」。",
       "sentenceIndex": 57,
@@ -3491,12 +3284,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-31": "本句指「布料拉伸」。",
-        "fabric-mcq-30": "「布料縮水」與本句語境不同。",
-        "fabric-mcq-32": "「布料褪色」與本句語境不同。",
-        "fabric-mcq-29": "「布幅」與本句語境不同。",
-        "fabric-mcq-33": "「布料起毛粒」與本句語境不同。",
-        "fabric-mcq-28": "「布重」與本句語境不同。"
+        "fabric-mcq-31": "本句的「fabric」指「布料拉伸」。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-31"
     },
@@ -3508,11 +3299,9 @@ export default {
       "masked": "The fabric may ____.",
       "options": [
         "fabric-mcq-30",
-        "fabric-mcq-29",
-        "fabric-mcq-31",
-        "fabric-mcq-28",
-        "fabric-mcq-32",
-        "fabric-mcq-27"
+        "fabric-mcq-62",
+        "fabric-mcq-35",
+        "fabric-mcq-71"
       ],
       "explanation": "本句的「shrink after washing」指「布料縮水」。",
       "sentenceIndex": 58,
@@ -3521,12 +3310,10 @@ export default {
         "shrink after washing"
       ],
       "optionReasons": {
-        "fabric-mcq-30": "本句指「布料縮水」。",
-        "fabric-mcq-29": "「布幅」與本句語境不同。",
-        "fabric-mcq-31": "「布料拉伸」與本句語境不同。",
-        "fabric-mcq-28": "「布重」與本句語境不同。",
-        "fabric-mcq-32": "「布料褪色」與本句語境不同。",
-        "fabric-mcq-27": "「厚重布料」與本句語境不同。"
+        "fabric-mcq-30": "本句的「shrink after washing」指「布料縮水」。",
+        "fabric-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-30"
     },
@@ -3538,11 +3325,9 @@ export default {
       "masked": "Pre-washing can reveal how much a ____ shrinks.",
       "options": [
         "fabric-mcq-30",
-        "fabric-mcq-29",
-        "fabric-mcq-31",
-        "fabric-mcq-28",
-        "fabric-mcq-32",
-        "fabric-mcq-27"
+        "fabric-mcq-71",
+        "fabric-mcq-74",
+        "fabric-mcq-64"
       ],
       "explanation": "本句的「fabric」指「布料縮水」。",
       "sentenceIndex": 59,
@@ -3551,12 +3336,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-30": "本句指「布料縮水」。",
-        "fabric-mcq-29": "「布幅」與本句語境不同。",
-        "fabric-mcq-31": "「布料拉伸」與本句語境不同。",
-        "fabric-mcq-28": "「布重」與本句語境不同。",
-        "fabric-mcq-32": "「布料褪色」與本句語境不同。",
-        "fabric-mcq-27": "「厚重布料」與本句語境不同。"
+        "fabric-mcq-30": "本句的「fabric」指「布料縮水」。",
+        "fabric-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-30"
     },
@@ -3568,11 +3351,9 @@ export default {
       "masked": "Dark fabrics may ____ over time.",
       "options": [
         "fabric-mcq-32",
-        "fabric-mcq-31",
-        "fabric-mcq-33",
-        "fabric-mcq-30",
-        "fabric-mcq-34",
-        "fabric-mcq-29"
+        "fabric-mcq-49",
+        "fabric-mcq-56",
+        "fabric-mcq-61"
       ],
       "explanation": "本句的「fade」指「布料褪色」。",
       "sentenceIndex": 60,
@@ -3581,12 +3362,10 @@ export default {
         "fade"
       ],
       "optionReasons": {
-        "fabric-mcq-32": "本句指「布料褪色」。",
-        "fabric-mcq-31": "「布料拉伸」與本句語境不同。",
-        "fabric-mcq-33": "「布料起毛粒」與本句語境不同。",
-        "fabric-mcq-30": "「布料縮水」與本句語境不同。",
-        "fabric-mcq-34": "「布料護理」與本句語境不同。",
-        "fabric-mcq-29": "「布幅」與本句語境不同。"
+        "fabric-mcq-32": "本句的「fade」指「布料褪色」。",
+        "fabric-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-32"
     },
@@ -3598,11 +3377,9 @@ export default {
       "masked": "The customer complained that the ____ faded after one wash.",
       "options": [
         "fabric-mcq-32",
-        "fabric-mcq-31",
-        "fabric-mcq-33",
-        "fabric-mcq-30",
-        "fabric-mcq-34",
-        "fabric-mcq-29"
+        "fabric-mcq-60",
+        "fabric-mcq-55",
+        "fabric-mcq-69"
       ],
       "explanation": "本句的「fabric」指「布料褪色」。",
       "sentenceIndex": 61,
@@ -3611,12 +3388,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-32": "本句指「布料褪色」。",
-        "fabric-mcq-31": "「布料拉伸」與本句語境不同。",
-        "fabric-mcq-33": "「布料起毛粒」與本句語境不同。",
-        "fabric-mcq-30": "「布料縮水」與本句語境不同。",
-        "fabric-mcq-34": "「布料護理」與本句語境不同。",
-        "fabric-mcq-29": "「布幅」與本句語境不同。"
+        "fabric-mcq-32": "本句的「fabric」指「布料褪色」。",
+        "fabric-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-32"
     },
@@ -3628,11 +3403,9 @@ export default {
       "masked": "The fabric began to ____ after repeated wear.",
       "options": [
         "fabric-mcq-33",
-        "fabric-mcq-32",
-        "fabric-mcq-34",
-        "fabric-mcq-31",
-        "fabric-mcq-35",
-        "fabric-mcq-30"
+        "fabric-mcq-62",
+        "fabric-mcq-64",
+        "fabric-mcq-37"
       ],
       "explanation": "本句的「pill」指「布料起毛粒」。",
       "sentenceIndex": 62,
@@ -3641,12 +3414,10 @@ export default {
         "pill"
       ],
       "optionReasons": {
-        "fabric-mcq-33": "本句指「布料起毛粒」。",
-        "fabric-mcq-32": "「布料褪色」與本句語境不同。",
-        "fabric-mcq-34": "「布料護理」與本句語境不同。",
-        "fabric-mcq-31": "「布料拉伸」與本句語境不同。",
-        "fabric-mcq-35": "「護理標籤」與本句語境不同。",
-        "fabric-mcq-30": "「布料縮水」與本句語境不同。"
+        "fabric-mcq-33": "本句的「pill」指「布料起毛粒」。",
+        "fabric-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-33"
     },
@@ -3658,11 +3429,9 @@ export default {
       "masked": "____ pilling can affect appearance.",
       "options": [
         "fabric-mcq-33",
-        "fabric-mcq-32",
-        "fabric-mcq-34",
-        "fabric-mcq-31",
-        "fabric-mcq-35",
-        "fabric-mcq-30"
+        "fabric-mcq-71",
+        "fabric-mcq-66",
+        "fabric-mcq-57"
       ],
       "explanation": "本句的「Fabric」指「布料起毛粒」。",
       "sentenceIndex": 63,
@@ -3671,12 +3440,10 @@ export default {
         "Fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-33": "本句指「布料起毛粒」。",
-        "fabric-mcq-32": "「布料褪色」與本句語境不同。",
-        "fabric-mcq-34": "「布料護理」與本句語境不同。",
-        "fabric-mcq-31": "「布料拉伸」與本句語境不同。",
-        "fabric-mcq-35": "「護理標籤」與本句語境不同。",
-        "fabric-mcq-30": "「布料縮水」與本句語境不同。"
+        "fabric-mcq-33": "本句的「Fabric」指「布料起毛粒」。",
+        "fabric-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-33"
     },
@@ -3688,11 +3455,9 @@ export default {
       "masked": "This fabric ____.",
       "options": [
         "fabric-mcq-33",
-        "fabric-mcq-32",
-        "fabric-mcq-34",
-        "fabric-mcq-31",
-        "fabric-mcq-35",
-        "fabric-mcq-30"
+        "fabric-mcq-36",
+        "fabric-mcq-47",
+        "fabric-mcq-52"
       ],
       "explanation": "本句的「wrinkles easily」指「布料起毛粒」。",
       "sentenceIndex": 64,
@@ -3701,12 +3466,10 @@ export default {
         "wrinkles easily"
       ],
       "optionReasons": {
-        "fabric-mcq-33": "本句指「布料起毛粒」。",
-        "fabric-mcq-32": "「布料褪色」與本句語境不同。",
-        "fabric-mcq-34": "「布料護理」與本句語境不同。",
-        "fabric-mcq-31": "「布料拉伸」與本句語境不同。",
-        "fabric-mcq-35": "「護理標籤」與本句語境不同。",
-        "fabric-mcq-30": "「布料縮水」與本句語境不同。"
+        "fabric-mcq-33": "本句的「wrinkles easily」指「布料起毛粒」。",
+        "fabric-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-33"
     },
@@ -3718,11 +3481,9 @@ export default {
       "masked": "____ behaviour after washing should be described accurately.",
       "options": [
         "fabric-mcq-33",
-        "fabric-mcq-32",
-        "fabric-mcq-34",
-        "fabric-mcq-31",
-        "fabric-mcq-35",
-        "fabric-mcq-30"
+        "fabric-mcq-51",
+        "fabric-mcq-52",
+        "fabric-mcq-54"
       ],
       "explanation": "本句的「Fabric」指「布料起毛粒」。",
       "sentenceIndex": 65,
@@ -3731,12 +3492,10 @@ export default {
         "Fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-33": "本句指「布料起毛粒」。",
-        "fabric-mcq-32": "「布料褪色」與本句語境不同。",
-        "fabric-mcq-34": "「布料護理」與本句語境不同。",
-        "fabric-mcq-31": "「布料拉伸」與本句語境不同。",
-        "fabric-mcq-35": "「護理標籤」與本句語境不同。",
-        "fabric-mcq-30": "「布料縮水」與本句語境不同。"
+        "fabric-mcq-33": "本句的「Fabric」指「布料起毛粒」。",
+        "fabric-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-33"
     },
@@ -3748,11 +3507,9 @@ export default {
       "masked": "Follow the ____.",
       "options": [
         "fabric-mcq-34",
-        "fabric-mcq-33",
-        "fabric-mcq-35",
-        "fabric-mcq-32",
-        "fabric-mcq-36",
-        "fabric-mcq-31"
+        "fabric-mcq-59",
+        "fabric-mcq-73",
+        "fabric-mcq-70"
       ],
       "explanation": "本句的「fabric-care instructions」指「布料護理」。",
       "sentenceIndex": 66,
@@ -3761,12 +3518,10 @@ export default {
         "fabric-care instructions"
       ],
       "optionReasons": {
-        "fabric-mcq-34": "本句指「布料護理」。",
-        "fabric-mcq-33": "「布料起毛粒」與本句語境不同。",
-        "fabric-mcq-35": "「護理標籤」與本句語境不同。",
-        "fabric-mcq-32": "「布料褪色」與本句語境不同。",
-        "fabric-mcq-36": "「衣物柔順劑」與本句語境不同。",
-        "fabric-mcq-31": "「布料拉伸」與本句語境不同。"
+        "fabric-mcq-34": "本句的「fabric-care instructions」指「布料護理」。",
+        "fabric-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-34"
     },
@@ -3778,11 +3533,9 @@ export default {
       "masked": "Different ____ require different care methods.",
       "options": [
         "fabric-mcq-34",
-        "fabric-mcq-33",
-        "fabric-mcq-35",
-        "fabric-mcq-32",
-        "fabric-mcq-36",
-        "fabric-mcq-31"
+        "fabric-mcq-47",
+        "fabric-mcq-70",
+        "fabric-mcq-36"
       ],
       "explanation": "本句的「fabrics」指「布料護理」。",
       "sentenceIndex": 67,
@@ -3791,12 +3544,10 @@ export default {
         "fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-34": "本句指「布料護理」。",
-        "fabric-mcq-33": "「布料起毛粒」與本句語境不同。",
-        "fabric-mcq-35": "「護理標籤」與本句語境不同。",
-        "fabric-mcq-32": "「布料褪色」與本句語境不同。",
-        "fabric-mcq-36": "「衣物柔順劑」與本句語境不同。",
-        "fabric-mcq-31": "「布料拉伸」與本句語境不同。"
+        "fabric-mcq-34": "本句的「fabrics」指「布料護理」。",
+        "fabric-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-34"
     },
@@ -3808,11 +3559,9 @@ export default {
       "masked": "Read the ____ before washing.",
       "options": [
         "fabric-mcq-35",
-        "fabric-mcq-34",
-        "fabric-mcq-36",
-        "fabric-mcq-33",
+        "fabric-mcq-69",
         "fabric-mcq-32",
-        "fabric-mcq-38"
+        "fabric-mcq-56"
       ],
       "explanation": "本句的「fabric care label」指「護理標籤」。",
       "sentenceIndex": 68,
@@ -3821,12 +3570,10 @@ export default {
         "fabric care label"
       ],
       "optionReasons": {
-        "fabric-mcq-35": "本句指「護理標籤」。",
-        "fabric-mcq-34": "「布料護理」與本句語境不同。",
-        "fabric-mcq-36": "「衣物柔順劑」與本句語境不同。",
-        "fabric-mcq-33": "「布料起毛粒」與本句語境不同。",
-        "fabric-mcq-32": "「布料褪色」與本句語境不同。",
-        "fabric-mcq-38": "「布料染料」與本句語境不同。"
+        "fabric-mcq-35": "本句的「fabric care label」指「護理標籤」。",
+        "fabric-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-35"
     },
@@ -3838,11 +3585,9 @@ export default {
       "masked": "Do not use ____ on this garment.",
       "options": [
         "fabric-mcq-36",
-        "fabric-mcq-35",
-        "fabric-mcq-34",
-        "fabric-mcq-38",
-        "fabric-mcq-33",
-        "fabric-mcq-39"
+        "fabric-mcq-05",
+        "fabric-mcq-53",
+        "fabric-mcq-57"
       ],
       "explanation": "本句的「fabric softener」指「衣物柔順劑」。",
       "sentenceIndex": 69,
@@ -3851,12 +3596,10 @@ export default {
         "fabric softener"
       ],
       "optionReasons": {
-        "fabric-mcq-36": "本句指「衣物柔順劑」。",
-        "fabric-mcq-35": "「護理標籤」與本句語境不同。",
-        "fabric-mcq-34": "「布料護理」與本句語境不同。",
-        "fabric-mcq-38": "「布料染料」與本句語境不同。",
-        "fabric-mcq-33": "「布料起毛粒」與本句語境不同。",
-        "fabric-mcq-39": "「布料顏料」與本句語境不同。"
+        "fabric-mcq-36": "本句的「fabric softener」指「衣物柔順劑」。",
+        "fabric-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-36"
     },
@@ -3868,11 +3611,9 @@ export default {
       "masked": "____ softener can affect some technical fabrics.",
       "options": [
         "fabric-mcq-36",
-        "fabric-mcq-35",
-        "fabric-mcq-34",
-        "fabric-mcq-38",
-        "fabric-mcq-33",
-        "fabric-mcq-39"
+        "fabric-mcq-26",
+        "fabric-mcq-63",
+        "fabric-mcq-53"
       ],
       "explanation": "本句的「Fabric」指「衣物柔順劑」。",
       "sentenceIndex": 70,
@@ -3881,12 +3622,10 @@ export default {
         "Fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-36": "本句指「衣物柔順劑」。",
-        "fabric-mcq-35": "「護理標籤」與本句語境不同。",
-        "fabric-mcq-34": "「布料護理」與本句語境不同。",
-        "fabric-mcq-38": "「布料染料」與本句語境不同。",
-        "fabric-mcq-33": "「布料起毛粒」與本句語境不同。",
-        "fabric-mcq-39": "「布料顏料」與本句語境不同。"
+        "fabric-mcq-36": "本句的「Fabric」指「衣物柔順劑」。",
+        "fabric-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-36"
     },
@@ -3898,11 +3637,9 @@ export default {
       "masked": "Add a small amount of ____.",
       "options": [
         "fabric-mcq-37",
-        "fabric-mcq-38",
         "fabric-mcq-35",
-        "fabric-mcq-39",
-        "fabric-mcq-34",
-        "fabric-mcq-40"
+        "fabric-mcq-44",
+        "fabric-mcq-54"
       ],
       "explanation": "本句的「fabric conditioner」指「衣物柔順劑」。",
       "sentenceIndex": 71,
@@ -3911,12 +3648,10 @@ export default {
         "fabric conditioner"
       ],
       "optionReasons": {
-        "fabric-mcq-37": "本句指「衣物柔順劑」。",
-        "fabric-mcq-38": "「布料染料」與本句語境不同。",
-        "fabric-mcq-35": "「護理標籤」與本句語境不同。",
-        "fabric-mcq-39": "「布料顏料」與本句語境不同。",
-        "fabric-mcq-34": "「布料護理」與本句語境不同。",
-        "fabric-mcq-40": "「布藝膠」與本句語境不同。"
+        "fabric-mcq-37": "本句的「fabric conditioner」指「衣物柔順劑」。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-37"
     },
@@ -3929,10 +3664,8 @@ export default {
       "options": [
         "fabric-mcq-37",
         "fabric-mcq-38",
-        "fabric-mcq-35",
-        "fabric-mcq-39",
-        "fabric-mcq-34",
-        "fabric-mcq-40"
+        "fabric-mcq-72",
+        "fabric-mcq-49"
       ],
       "explanation": "本句的「Fabric」指「衣物柔順劑」。",
       "sentenceIndex": 72,
@@ -3941,12 +3674,10 @@ export default {
         "Fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-37": "本句指「衣物柔順劑」。",
-        "fabric-mcq-38": "「布料染料」與本句語境不同。",
-        "fabric-mcq-35": "「護理標籤」與本句語境不同。",
-        "fabric-mcq-39": "「布料顏料」與本句語境不同。",
-        "fabric-mcq-34": "「布料護理」與本句語境不同。",
-        "fabric-mcq-40": "「布藝膠」與本句語境不同。"
+        "fabric-mcq-37": "本句的「Fabric」指「衣物柔順劑」。",
+        "fabric-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-37"
     },
@@ -3958,11 +3689,9 @@ export default {
       "masked": "Use a suitable ____.",
       "options": [
         "fabric-mcq-38",
-        "fabric-mcq-37",
-        "fabric-mcq-39",
-        "fabric-mcq-40",
-        "fabric-mcq-35",
-        "fabric-mcq-41"
+        "fabric-mcq-53",
+        "fabric-mcq-52",
+        "fabric-mcq-35"
       ],
       "explanation": "本句的「fabric dye」指「布料染料」。",
       "sentenceIndex": 73,
@@ -3971,12 +3700,10 @@ export default {
         "fabric dye"
       ],
       "optionReasons": {
-        "fabric-mcq-38": "本句指「布料染料」。",
-        "fabric-mcq-37": "「衣物柔順劑」與本句語境不同。",
-        "fabric-mcq-39": "「布料顏料」與本句語境不同。",
-        "fabric-mcq-40": "「布藝膠」與本句語境不同。",
-        "fabric-mcq-35": "「護理標籤」與本句語境不同。",
-        "fabric-mcq-41": "「裁布剪」與本句語境不同。"
+        "fabric-mcq-38": "本句的「fabric dye」指「布料染料」。",
+        "fabric-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-38"
     },
@@ -3988,11 +3715,9 @@ export default {
       "masked": "The dye is designed for natural ____.",
       "options": [
         "fabric-mcq-38",
-        "fabric-mcq-37",
-        "fabric-mcq-39",
-        "fabric-mcq-40",
-        "fabric-mcq-35",
-        "fabric-mcq-41"
+        "fabric-mcq-62",
+        "fabric-mcq-50",
+        "fabric-mcq-66"
       ],
       "explanation": "本句的「fabrics」指「布料染料」。",
       "sentenceIndex": 74,
@@ -4001,12 +3726,10 @@ export default {
         "fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-38": "本句指「布料染料」。",
-        "fabric-mcq-37": "「衣物柔順劑」與本句語境不同。",
-        "fabric-mcq-39": "「布料顏料」與本句語境不同。",
-        "fabric-mcq-40": "「布藝膠」與本句語境不同。",
-        "fabric-mcq-35": "「護理標籤」與本句語境不同。",
-        "fabric-mcq-41": "「裁布剪」與本句語境不同。"
+        "fabric-mcq-38": "本句的「fabrics」指「布料染料」。",
+        "fabric-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-38"
     },
@@ -4018,11 +3741,9 @@ export default {
       "masked": "She decorated the bag with ____.",
       "options": [
         "fabric-mcq-39",
-        "fabric-mcq-38",
-        "fabric-mcq-40",
-        "fabric-mcq-37",
-        "fabric-mcq-41",
-        "fabric-mcq-42"
+        "fabric-pdf-002",
+        "fabric-mcq-71",
+        "fabric-mcq-35"
       ],
       "explanation": "本句的「fabric paint」指「布料顏料」。",
       "sentenceIndex": 75,
@@ -4031,12 +3752,10 @@ export default {
         "fabric paint"
       ],
       "optionReasons": {
-        "fabric-mcq-39": "本句指「布料顏料」。",
-        "fabric-mcq-38": "「布料染料」與本句語境不同。",
-        "fabric-mcq-40": "「布藝膠」與本句語境不同。",
-        "fabric-mcq-37": "「衣物柔順劑」與本句語境不同。",
-        "fabric-mcq-41": "「裁布剪」與本句語境不同。",
-        "fabric-mcq-42": "「家具布」與本句語境不同。"
+        "fabric-mcq-39": "本句的「fabric paint」指「布料顏料」。",
+        "fabric-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-39"
     },
@@ -4048,11 +3767,9 @@ export default {
       "masked": "____ paint remains flexible after drying.",
       "options": [
         "fabric-mcq-39",
-        "fabric-mcq-38",
-        "fabric-mcq-40",
-        "fabric-mcq-37",
-        "fabric-mcq-41",
-        "fabric-mcq-42"
+        "fabric-mcq-72",
+        "fabric-mcq-55",
+        "fabric-mcq-52"
       ],
       "explanation": "本句的「Fabric」指「布料顏料」。",
       "sentenceIndex": 76,
@@ -4061,12 +3778,10 @@ export default {
         "Fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-39": "本句指「布料顏料」。",
-        "fabric-mcq-38": "「布料染料」與本句語境不同。",
-        "fabric-mcq-40": "「布藝膠」與本句語境不同。",
-        "fabric-mcq-37": "「衣物柔順劑」與本句語境不同。",
-        "fabric-mcq-41": "「裁布剪」與本句語境不同。",
-        "fabric-mcq-42": "「家具布」與本句語境不同。"
+        "fabric-mcq-39": "本句的「Fabric」指「布料顏料」。",
+        "fabric-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-39"
     },
@@ -4078,11 +3793,9 @@ export default {
       "masked": "Use ____ for the small repair.",
       "options": [
         "fabric-mcq-40",
-        "fabric-mcq-39",
-        "fabric-mcq-41",
-        "fabric-mcq-38",
-        "fabric-mcq-42",
-        "fabric-mcq-37"
+        "fabric-mcq-63",
+        "fabric-mcq-47",
+        "fabric-mcq-49"
       ],
       "explanation": "本句的「fabric glue」指「布藝膠」。",
       "sentenceIndex": 77,
@@ -4091,12 +3804,10 @@ export default {
         "fabric glue"
       ],
       "optionReasons": {
-        "fabric-mcq-40": "本句指「布藝膠」。",
-        "fabric-mcq-39": "「布料顏料」與本句語境不同。",
-        "fabric-mcq-41": "「裁布剪」與本句語境不同。",
-        "fabric-mcq-38": "「布料染料」與本句語境不同。",
-        "fabric-mcq-42": "「家具布」與本句語境不同。",
-        "fabric-mcq-37": "「衣物柔順劑」與本句語境不同。"
+        "fabric-mcq-40": "本句的「fabric glue」指「布藝膠」。",
+        "fabric-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-40"
     },
@@ -4108,11 +3819,9 @@ export default {
       "masked": "____ glue is designed to bond textile materials.",
       "options": [
         "fabric-mcq-40",
-        "fabric-mcq-39",
-        "fabric-mcq-41",
-        "fabric-mcq-38",
-        "fabric-mcq-42",
-        "fabric-mcq-37"
+        "fabric-mcq-62",
+        "fabric-mcq-66",
+        "fabric-mcq-50"
       ],
       "explanation": "本句的「Fabric」指「布藝膠」。",
       "sentenceIndex": 78,
@@ -4121,12 +3830,10 @@ export default {
         "Fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-40": "本句指「布藝膠」。",
-        "fabric-mcq-39": "「布料顏料」與本句語境不同。",
-        "fabric-mcq-41": "「裁布剪」與本句語境不同。",
-        "fabric-mcq-38": "「布料染料」與本句語境不同。",
-        "fabric-mcq-42": "「家具布」與本句語境不同。",
-        "fabric-mcq-37": "「衣物柔順劑」與本句語境不同。"
+        "fabric-mcq-40": "本句的「Fabric」指「布藝膠」。",
+        "fabric-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-40"
     },
@@ -4138,11 +3845,9 @@ export default {
       "masked": "Use sharp ____.",
       "options": [
         "fabric-mcq-41",
-        "fabric-mcq-40",
-        "fabric-mcq-42",
-        "fabric-mcq-39",
-        "fabric-mcq-43",
-        "fabric-mcq-38"
+        "fabric-mcq-48",
+        "fabric-mcq-36",
+        "fabric-mcq-59"
       ],
       "explanation": "本句的「fabric scissors」指「裁布剪」。",
       "sentenceIndex": 79,
@@ -4151,12 +3856,10 @@ export default {
         "fabric scissors"
       ],
       "optionReasons": {
-        "fabric-mcq-41": "本句指「裁布剪」。",
-        "fabric-mcq-40": "「布藝膠」與本句語境不同。",
-        "fabric-mcq-42": "「家具布」與本句語境不同。",
-        "fabric-mcq-39": "「布料顏料」與本句語境不同。",
-        "fabric-mcq-43": "「技術／功能布料」與本句語境不同。",
-        "fabric-mcq-38": "「布料染料」與本句語境不同。"
+        "fabric-mcq-41": "本句的「fabric scissors」指「裁布剪」。",
+        "fabric-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-41"
     },
@@ -4168,11 +3871,9 @@ export default {
       "masked": "____ scissors should not be used for paper if you want to keep them sharp.",
       "options": [
         "fabric-mcq-41",
-        "fabric-mcq-40",
-        "fabric-mcq-42",
-        "fabric-mcq-39",
-        "fabric-mcq-43",
-        "fabric-mcq-38"
+        "fabric-mcq-48",
+        "fabric-mcq-37",
+        "fabric-mcq-73"
       ],
       "explanation": "本句的「Fabric」指「裁布剪」。",
       "sentenceIndex": 80,
@@ -4181,12 +3882,10 @@ export default {
         "Fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-41": "本句指「裁布剪」。",
-        "fabric-mcq-40": "「布藝膠」與本句語境不同。",
-        "fabric-mcq-42": "「家具布」與本句語境不同。",
-        "fabric-mcq-39": "「布料顏料」與本句語境不同。",
-        "fabric-mcq-43": "「技術／功能布料」與本句語境不同。",
-        "fabric-mcq-38": "「布料染料」與本句語境不同。"
+        "fabric-mcq-41": "本句的「Fabric」指「裁布剪」。",
+        "fabric-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-41"
     },
@@ -4198,11 +3897,9 @@ export default {
       "masked": "The sofa is covered in durable ____.",
       "options": [
         "fabric-mcq-42",
-        "fabric-mcq-41",
-        "fabric-mcq-43",
-        "fabric-mcq-40",
-        "fabric-mcq-44",
-        "fabric-mcq-39"
+        "fabric-mcq-47",
+        "fabric-mcq-36",
+        "fabric-mcq-35"
       ],
       "explanation": "本句的「upholstery fabric」指「家具布」。",
       "sentenceIndex": 81,
@@ -4211,12 +3908,10 @@ export default {
         "upholstery fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-42": "本句指「家具布」。",
-        "fabric-mcq-41": "「裁布剪」與本句語境不同。",
-        "fabric-mcq-43": "「技術／功能布料」與本句語境不同。",
-        "fabric-mcq-40": "「布藝膠」與本句語境不同。",
-        "fabric-mcq-44": "「功能性布料」與本句語境不同。",
-        "fabric-mcq-39": "「布料顏料」與本句語境不同。"
+        "fabric-mcq-42": "本句的「upholstery fabric」指「家具布」。",
+        "fabric-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-42"
     },
@@ -4228,11 +3923,9 @@ export default {
       "masked": "Upholstery ____ are designed for heavier wear than many clothing fabrics.",
       "options": [
         "fabric-mcq-42",
-        "fabric-mcq-41",
-        "fabric-mcq-43",
-        "fabric-mcq-40",
-        "fabric-mcq-44",
-        "fabric-mcq-39"
+        "fabric-mcq-53",
+        "fabric-mcq-52",
+        "fabric-mcq-59"
       ],
       "explanation": "本句的「fabrics」指「家具布」。",
       "sentenceIndex": 82,
@@ -4241,12 +3934,10 @@ export default {
         "fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-42": "本句指「家具布」。",
-        "fabric-mcq-41": "「裁布剪」與本句語境不同。",
-        "fabric-mcq-43": "「技術／功能布料」與本句語境不同。",
-        "fabric-mcq-40": "「布藝膠」與本句語境不同。",
-        "fabric-mcq-44": "「功能性布料」與本句語境不同。",
-        "fabric-mcq-39": "「布料顏料」與本句語境不同。"
+        "fabric-mcq-42": "本句的「fabrics」指「家具布」。",
+        "fabric-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-42"
     },
@@ -4258,11 +3949,9 @@ export default {
       "masked": "She chose a heavy ____.",
       "options": [
         "fabric-mcq-42",
-        "fabric-mcq-41",
-        "fabric-mcq-43",
-        "fabric-mcq-40",
-        "fabric-mcq-44",
-        "fabric-mcq-39"
+        "fabric-mcq-56",
+        "fabric-mcq-54",
+        "fabric-mcq-70"
       ],
       "explanation": "本句的「curtain fabric」指「家具布」。",
       "sentenceIndex": 83,
@@ -4271,12 +3960,10 @@ export default {
         "curtain fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-42": "本句指「家具布」。",
-        "fabric-mcq-41": "「裁布剪」與本句語境不同。",
-        "fabric-mcq-43": "「技術／功能布料」與本句語境不同。",
-        "fabric-mcq-40": "「布藝膠」與本句語境不同。",
-        "fabric-mcq-44": "「功能性布料」與本句語境不同。",
-        "fabric-mcq-39": "「布料顏料」與本句語境不同。"
+        "fabric-mcq-42": "本句的「curtain fabric」指「家具布」。",
+        "fabric-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-42"
     },
@@ -4288,11 +3975,9 @@ export default {
       "masked": "The ____ blocks much of the light.",
       "options": [
         "fabric-mcq-42",
-        "fabric-mcq-41",
-        "fabric-mcq-43",
-        "fabric-mcq-40",
-        "fabric-mcq-44",
-        "fabric-mcq-39"
+        "fabric-mcq-50",
+        "fabric-mcq-37",
+        "fabric-mcq-49"
       ],
       "explanation": "本句的「fabric」指「家具布」。",
       "sentenceIndex": 84,
@@ -4301,12 +3986,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-42": "本句指「家具布」。",
-        "fabric-mcq-41": "「裁布剪」與本句語境不同。",
-        "fabric-mcq-43": "「技術／功能布料」與本句語境不同。",
-        "fabric-mcq-40": "「布藝膠」與本句語境不同。",
-        "fabric-mcq-44": "「功能性布料」與本句語境不同。",
-        "fabric-mcq-39": "「布料顏料」與本句語境不同。"
+        "fabric-mcq-42": "本句的「fabric」指「家具布」。",
+        "fabric-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-42"
     },
@@ -4318,11 +4001,9 @@ export default {
       "masked": "The jacket uses a ____ designed for outdoor activity.",
       "options": [
         "fabric-mcq-43",
-        "fabric-mcq-42",
-        "fabric-mcq-44",
-        "fabric-mcq-41",
-        "fabric-mcq-45",
-        "fabric-mcq-40"
+        "fabric-mcq-68",
+        "fabric-mcq-61",
+        "fabric-mcq-64"
       ],
       "explanation": "本句的「technical fabric」指「技術／功能布料」。",
       "sentenceIndex": 85,
@@ -4331,12 +4012,10 @@ export default {
         "technical fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-43": "本句指「技術／功能布料」。",
-        "fabric-mcq-42": "「家具布」與本句語境不同。",
-        "fabric-mcq-44": "「功能性布料」與本句語境不同。",
-        "fabric-mcq-41": "「裁布剪」與本句語境不同。",
-        "fabric-mcq-45": "「再生布料」與本句語境不同。",
-        "fabric-mcq-40": "「布藝膠」與本句語境不同。"
+        "fabric-mcq-43": "本句的「technical fabric」指「技術／功能布料」。",
+        "fabric-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-43"
     },
@@ -4348,11 +4027,9 @@ export default {
       "masked": "Technical ____ may be designed for strength, protection or moisture management.",
       "options": [
         "fabric-mcq-43",
-        "fabric-mcq-42",
-        "fabric-mcq-44",
-        "fabric-mcq-41",
-        "fabric-mcq-45",
-        "fabric-mcq-40"
+        "fabric-mcq-68",
+        "fabric-mcq-57",
+        "fabric-mcq-59"
       ],
       "explanation": "本句的「fabrics」指「技術／功能布料」。",
       "sentenceIndex": 86,
@@ -4361,12 +4038,10 @@ export default {
         "fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-43": "本句指「技術／功能布料」。",
-        "fabric-mcq-42": "「家具布」與本句語境不同。",
-        "fabric-mcq-44": "「功能性布料」與本句語境不同。",
-        "fabric-mcq-41": "「裁布剪」與本句語境不同。",
-        "fabric-mcq-45": "「再生布料」與本句語境不同。",
-        "fabric-mcq-40": "「布藝膠」與本句語境不同。"
+        "fabric-mcq-43": "本句的「fabrics」指「技術／功能布料」。",
+        "fabric-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-43"
     },
@@ -4378,11 +4053,9 @@ export default {
       "masked": "Sportswear often uses ____.",
       "options": [
         "fabric-mcq-44",
-        "fabric-mcq-43",
-        "fabric-mcq-45",
-        "fabric-mcq-42",
-        "fabric-mcq-46",
-        "fabric-mcq-41"
+        "fabric-mcq-74",
+        "fabric-mcq-49",
+        "fabric-mcq-54"
       ],
       "explanation": "本句的「performance fabrics」指「功能性布料」。",
       "sentenceIndex": 87,
@@ -4391,12 +4064,10 @@ export default {
         "performance fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-44": "本句指「功能性布料」。",
-        "fabric-mcq-43": "「技術／功能布料」與本句語境不同。",
-        "fabric-mcq-45": "「再生布料」與本句語境不同。",
-        "fabric-mcq-42": "「家具布」與本句語境不同。",
-        "fabric-mcq-46": "「結構；組織」與本句語境不同。",
-        "fabric-mcq-41": "「裁布剪」與本句語境不同。"
+        "fabric-mcq-44": "本句的「performance fabrics」指「功能性布料」。",
+        "fabric-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-44"
     },
@@ -4408,11 +4079,9 @@ export default {
       "masked": "Performance ____ may stretch, dry quickly or manage moisture.",
       "options": [
         "fabric-mcq-44",
-        "fabric-mcq-43",
-        "fabric-mcq-45",
-        "fabric-mcq-42",
-        "fabric-mcq-46",
-        "fabric-mcq-41"
+        "fabric-mcq-62",
+        "fabric-mcq-53",
+        "fabric-mcq-35"
       ],
       "explanation": "本句的「fabrics」指「功能性布料」。",
       "sentenceIndex": 88,
@@ -4421,12 +4090,10 @@ export default {
         "fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-44": "本句指「功能性布料」。",
-        "fabric-mcq-43": "「技術／功能布料」與本句語境不同。",
-        "fabric-mcq-45": "「再生布料」與本句語境不同。",
-        "fabric-mcq-42": "「家具布」與本句語境不同。",
-        "fabric-mcq-46": "「結構；組織」與本句語境不同。",
-        "fabric-mcq-41": "「裁布剪」與本句語境不同。"
+        "fabric-mcq-44": "本句的「fabrics」指「功能性布料」。",
+        "fabric-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-44"
     },
@@ -4438,11 +4105,9 @@ export default {
       "masked": "The collection uses ____.",
       "options": [
         "fabric-mcq-45",
-        "fabric-mcq-44",
-        "fabric-mcq-46",
-        "fabric-mcq-43",
-        "fabric-mcq-47",
-        "fabric-mcq-42"
+        "fabric-mcq-66",
+        "fabric-mcq-57",
+        "fabric-mcq-73"
       ],
       "explanation": "本句的「recycled fabrics」指「再生布料」。",
       "sentenceIndex": 89,
@@ -4451,12 +4116,10 @@ export default {
         "recycled fabrics"
       ],
       "optionReasons": {
-        "fabric-mcq-45": "本句指「再生布料」。",
-        "fabric-mcq-44": "「功能性布料」與本句語境不同。",
-        "fabric-mcq-46": "「結構；組織」與本句語境不同。",
-        "fabric-mcq-43": "「技術／功能布料」與本句語境不同。",
-        "fabric-mcq-47": "「社會結構」與本句語境不同。",
-        "fabric-mcq-42": "「家具布」與本句語境不同。"
+        "fabric-mcq-45": "本句的「recycled fabrics」指「再生布料」。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-45"
     },
@@ -4468,11 +4131,9 @@ export default {
       "masked": "Recycled ____ can be made from several recovered fibre sources.",
       "options": [
         "fabric-mcq-45",
-        "fabric-mcq-44",
-        "fabric-mcq-46",
-        "fabric-mcq-43",
-        "fabric-mcq-47",
-        "fabric-mcq-42"
+        "fabric-mcq-68",
+        "fabric-mcq-59",
+        "fabric-mcq-57"
       ],
       "explanation": "本句的「fabric」指「再生布料」。",
       "sentenceIndex": 90,
@@ -4481,12 +4142,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-45": "本句指「再生布料」。",
-        "fabric-mcq-44": "「功能性布料」與本句語境不同。",
-        "fabric-mcq-46": "「結構；組織」與本句語境不同。",
-        "fabric-mcq-43": "「技術／功能布料」與本句語境不同。",
-        "fabric-mcq-47": "「社會結構」與本句語境不同。",
-        "fabric-mcq-42": "「家具布」與本句語境不同。"
+        "fabric-mcq-45": "本句的「fabric」指「再生布料」。",
+        "fabric-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-45"
     },
@@ -4498,11 +4157,9 @@ export default {
       "masked": "Trust helps hold together the ____.",
       "options": [
         "fabric-mcq-47",
-        "fabric-mcq-46",
-        "fabric-mcq-48",
-        "fabric-mcq-45",
-        "fabric-mcq-49",
-        "fabric-mcq-44"
+        "fabric-mcq-23",
+        "fabric-mcq-54",
+        "fabric-mcq-66"
       ],
       "explanation": "本句的「fabric of society」指「社會結構」。",
       "sentenceIndex": 93,
@@ -4511,12 +4168,10 @@ export default {
         "fabric of society"
       ],
       "optionReasons": {
-        "fabric-mcq-47": "本句指「社會結構」。",
-        "fabric-mcq-46": "「結構；組織」與本句語境不同。",
-        "fabric-mcq-48": "「社會肌理／結構」與本句語境不同。",
-        "fabric-mcq-45": "「再生布料」與本句語境不同。",
-        "fabric-mcq-49": "「文化肌理」與本句語境不同。",
-        "fabric-mcq-44": "「功能性布料」與本句語境不同。"
+        "fabric-mcq-47": "本句的「fabric of society」指「社會結構」。",
+        "fabric-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-47"
     },
@@ -4528,11 +4183,9 @@ export default {
       "masked": "Severe inequality can weaken the social ____.",
       "options": [
         "fabric-mcq-47",
-        "fabric-mcq-46",
-        "fabric-mcq-48",
-        "fabric-mcq-45",
-        "fabric-mcq-49",
-        "fabric-mcq-44"
+        "fabric-mcq-34",
+        "fabric-mcq-69",
+        "fabric-mcq-66"
       ],
       "explanation": "本句的「fabric」指「社會結構」。",
       "sentenceIndex": 94,
@@ -4541,12 +4194,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-47": "本句指「社會結構」。",
-        "fabric-mcq-46": "「結構；組織」與本句語境不同。",
-        "fabric-mcq-48": "「社會肌理／結構」與本句語境不同。",
-        "fabric-mcq-45": "「再生布料」與本句語境不同。",
-        "fabric-mcq-49": "「文化肌理」與本句語境不同。",
-        "fabric-mcq-44": "「功能性布料」與本句語境不同。"
+        "fabric-mcq-47": "本句的「fabric」指「社會結構」。",
+        "fabric-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-47"
     },
@@ -4558,11 +4209,9 @@ export default {
       "masked": "Community organisations strengthen the ____.",
       "options": [
         "fabric-mcq-48",
-        "fabric-mcq-47",
-        "fabric-mcq-49",
-        "fabric-mcq-46",
-        "fabric-mcq-50",
-        "fabric-mcq-45"
+        "fabric-pdf-001",
+        "fabric-mcq-72",
+        "fabric-mcq-54"
       ],
       "explanation": "本句的「social fabric」指「社會肌理／結構」。",
       "sentenceIndex": 95,
@@ -4571,12 +4220,10 @@ export default {
         "social fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-48": "本句指「社會肌理／結構」。",
-        "fabric-mcq-47": "「社會結構」與本句語境不同。",
-        "fabric-mcq-49": "「文化肌理」與本句語境不同。",
-        "fabric-mcq-46": "「結構；組織」與本句語境不同。",
-        "fabric-mcq-50": "「經濟結構」與本句語境不同。",
-        "fabric-mcq-45": "「再生布料」與本句語境不同。"
+        "fabric-mcq-48": "本句的「social fabric」指「社會肌理／結構」。",
+        "fabric-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-48"
     },
@@ -4588,11 +4235,9 @@ export default {
       "masked": "Conflict can damage the social ____.",
       "options": [
         "fabric-mcq-48",
-        "fabric-mcq-47",
-        "fabric-mcq-49",
-        "fabric-mcq-46",
-        "fabric-mcq-50",
-        "fabric-mcq-45"
+        "fabric-mcq-06",
+        "fabric-mcq-71",
+        "fabric-mcq-73"
       ],
       "explanation": "本句的「fabric」指「社會肌理／結構」。",
       "sentenceIndex": 96,
@@ -4601,12 +4246,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-48": "本句指「社會肌理／結構」。",
-        "fabric-mcq-47": "「社會結構」與本句語境不同。",
-        "fabric-mcq-49": "「文化肌理」與本句語境不同。",
-        "fabric-mcq-46": "「結構；組織」與本句語境不同。",
-        "fabric-mcq-50": "「經濟結構」與本句語境不同。",
-        "fabric-mcq-45": "「再生布料」與本句語境不同。"
+        "fabric-mcq-48": "本句的「fabric」指「社會肌理／結構」。",
+        "fabric-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-48"
     },
@@ -4618,11 +4261,9 @@ export default {
       "masked": "Long-term distrust can ____.",
       "options": [
         "fabric-mcq-48",
-        "fabric-mcq-47",
-        "fabric-mcq-49",
-        "fabric-mcq-46",
-        "fabric-mcq-50",
-        "fabric-mcq-45"
+        "fabric-pdf-001",
+        "fabric-mcq-72",
+        "fabric-mcq-54"
       ],
       "explanation": "本句的「tear at the social fabric」指「社會肌理／結構」。",
       "sentenceIndex": 97,
@@ -4631,12 +4272,10 @@ export default {
         "tear at the social fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-48": "本句指「社會肌理／結構」。",
-        "fabric-mcq-47": "「社會結構」與本句語境不同。",
-        "fabric-mcq-49": "「文化肌理」與本句語境不同。",
-        "fabric-mcq-46": "「結構；組織」與本句語境不同。",
-        "fabric-mcq-50": "「經濟結構」與本句語境不同。",
-        "fabric-mcq-45": "「再生布料」與本句語境不同。"
+        "fabric-mcq-48": "本句的「tear at the social fabric」指「社會肌理／結構」。",
+        "fabric-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-48"
     },
@@ -4648,11 +4287,9 @@ export default {
       "masked": "Small shops are part of the district's ____.",
       "options": [
         "fabric-mcq-49",
-        "fabric-mcq-48",
-        "fabric-mcq-50",
-        "fabric-mcq-47",
-        "fabric-mcq-51",
-        "fabric-mcq-46"
+        "fabric-mcq-14",
+        "fabric-mcq-55",
+        "fabric-mcq-57"
       ],
       "explanation": "本句的「cultural fabric」指「文化肌理」。",
       "sentenceIndex": 98,
@@ -4661,12 +4298,10 @@ export default {
         "cultural fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-49": "本句指「文化肌理」。",
-        "fabric-mcq-48": "「社會肌理／結構」與本句語境不同。",
-        "fabric-mcq-50": "「經濟結構」與本句語境不同。",
-        "fabric-mcq-47": "「社會結構」與本句語境不同。",
-        "fabric-mcq-51": "「制度結構」與本句語境不同。",
-        "fabric-mcq-46": "「結構；組織」與本句語境不同。"
+        "fabric-mcq-49": "本句的「cultural fabric」指「文化肌理」。",
+        "fabric-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-49"
     },
@@ -4678,11 +4313,9 @@ export default {
       "masked": "Migration can reshape a city's cultural ____.",
       "options": [
         "fabric-mcq-49",
-        "fabric-mcq-48",
-        "fabric-mcq-50",
-        "fabric-mcq-47",
-        "fabric-mcq-51",
-        "fabric-mcq-46"
+        "fabric-mcq-63",
+        "fabric-mcq-11",
+        "fabric-mcq-60"
       ],
       "explanation": "本句的「fabric」指「文化肌理」。",
       "sentenceIndex": 99,
@@ -4691,12 +4324,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-49": "本句指「文化肌理」。",
-        "fabric-mcq-48": "「社會肌理／結構」與本句語境不同。",
-        "fabric-mcq-50": "「經濟結構」與本句語境不同。",
-        "fabric-mcq-47": "「社會結構」與本句語境不同。",
-        "fabric-mcq-51": "「制度結構」與本句語境不同。",
-        "fabric-mcq-46": "「結構；組織」與本句語境不同。"
+        "fabric-mcq-49": "本句的「fabric」指「文化肌理」。",
+        "fabric-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-49"
     },
@@ -4708,11 +4339,9 @@ export default {
       "masked": "Small businesses form part of the local ____.",
       "options": [
         "fabric-mcq-50",
-        "fabric-mcq-49",
-        "fabric-mcq-51",
-        "fabric-mcq-48",
-        "fabric-mcq-52",
-        "fabric-mcq-47"
+        "fabric-mcq-36",
+        "fabric-mcq-12",
+        "fabric-mcq-74"
       ],
       "explanation": "本句的「economic fabric」指「經濟結構」。",
       "sentenceIndex": 100,
@@ -4721,12 +4350,10 @@ export default {
         "economic fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-50": "本句指「經濟結構」。",
-        "fabric-mcq-49": "「文化肌理」與本句語境不同。",
-        "fabric-mcq-51": "「制度結構」與本句語境不同。",
-        "fabric-mcq-48": "「社會肌理／結構」與本句語境不同。",
-        "fabric-mcq-52": "「城市肌理」與本句語境不同。",
-        "fabric-mcq-47": "「社會結構」與本句語境不同。"
+        "fabric-mcq-50": "本句的「economic fabric」指「經濟結構」。",
+        "fabric-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-50"
     },
@@ -4738,11 +4365,9 @@ export default {
       "masked": "The closure affected the economic ____ of the town.",
       "options": [
         "fabric-mcq-50",
-        "fabric-mcq-49",
-        "fabric-mcq-51",
-        "fabric-mcq-48",
-        "fabric-mcq-52",
-        "fabric-mcq-47"
+        "fabric-mcq-07",
+        "fabric-mcq-69",
+        "fabric-mcq-52"
       ],
       "explanation": "本句的「fabric」指「經濟結構」。",
       "sentenceIndex": 101,
@@ -4751,12 +4376,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-50": "本句指「經濟結構」。",
-        "fabric-mcq-49": "「文化肌理」與本句語境不同。",
-        "fabric-mcq-51": "「制度結構」與本句語境不同。",
-        "fabric-mcq-48": "「社會肌理／結構」與本句語境不同。",
-        "fabric-mcq-52": "「城市肌理」與本句語境不同。",
-        "fabric-mcq-47": "「社會結構」與本句語境不同。"
+        "fabric-mcq-50": "本句的「fabric」指「經濟結構」。",
+        "fabric-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-50"
     },
@@ -4768,11 +4391,9 @@ export default {
       "masked": "The reforms changed the country's ____.",
       "options": [
         "fabric-mcq-51",
-        "fabric-mcq-50",
-        "fabric-mcq-52",
-        "fabric-mcq-49",
-        "fabric-mcq-53",
-        "fabric-mcq-48"
+        "fabric-mcq-23",
+        "fabric-mcq-66",
+        "fabric-mcq-70"
       ],
       "explanation": "本句的「institutional fabric」指「制度結構」。",
       "sentenceIndex": 102,
@@ -4781,12 +4402,10 @@ export default {
         "institutional fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-51": "本句指「制度結構」。",
-        "fabric-mcq-50": "「經濟結構」與本句語境不同。",
-        "fabric-mcq-52": "「城市肌理」與本句語境不同。",
-        "fabric-mcq-49": "「文化肌理」與本句語境不同。",
-        "fabric-mcq-53": "「建築物本體／圍護結構」與本句語境不同。",
-        "fabric-mcq-48": "「社會肌理／結構」與本句語境不同。"
+        "fabric-mcq-51": "本句的「institutional fabric」指「制度結構」。",
+        "fabric-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-51"
     },
@@ -4798,11 +4417,9 @@ export default {
       "masked": "Schools and hospitals form part of a community's institutional ____.",
       "options": [
         "fabric-mcq-51",
-        "fabric-mcq-50",
-        "fabric-mcq-52",
-        "fabric-mcq-49",
-        "fabric-mcq-53",
-        "fabric-mcq-48"
+        "fabric-mcq-33",
+        "fabric-mcq-68",
+        "fabric-mcq-54"
       ],
       "explanation": "本句的「fabric」指「制度結構」。",
       "sentenceIndex": 103,
@@ -4811,12 +4428,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-51": "本句指「制度結構」。",
-        "fabric-mcq-50": "「經濟結構」與本句語境不同。",
-        "fabric-mcq-52": "「城市肌理」與本句語境不同。",
-        "fabric-mcq-49": "「文化肌理」與本句語境不同。",
-        "fabric-mcq-53": "「建築物本體／圍護結構」與本句語境不同。",
-        "fabric-mcq-48": "「社會肌理／結構」與本句語境不同。"
+        "fabric-mcq-51": "本句的「fabric」指「制度結構」。",
+        "fabric-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-51"
     },
@@ -4828,11 +4443,9 @@ export default {
       "masked": "Smartphones are woven into the ____.",
       "options": [
         "fabric-mcq-51",
-        "fabric-mcq-50",
-        "fabric-mcq-52",
-        "fabric-mcq-49",
-        "fabric-mcq-53",
-        "fabric-mcq-48"
+        "fabric-mcq-05",
+        "fabric-mcq-37",
+        "fabric-mcq-35"
       ],
       "explanation": "本句的「fabric of everyday life」指「制度結構」。",
       "sentenceIndex": 104,
@@ -4841,12 +4454,10 @@ export default {
         "fabric of everyday life"
       ],
       "optionReasons": {
-        "fabric-mcq-51": "本句指「制度結構」。",
-        "fabric-mcq-50": "「經濟結構」與本句語境不同。",
-        "fabric-mcq-52": "「城市肌理」與本句語境不同。",
-        "fabric-mcq-49": "「文化肌理」與本句語境不同。",
-        "fabric-mcq-53": "「建築物本體／圍護結構」與本句語境不同。",
-        "fabric-mcq-48": "「社會肌理／結構」與本句語境不同。"
+        "fabric-mcq-51": "本句的「fabric of everyday life」指「制度結構」。",
+        "fabric-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-51"
     },
@@ -4858,11 +4469,9 @@ export default {
       "masked": "Work patterns can become part of the ____ of family life.",
       "options": [
         "fabric-mcq-51",
-        "fabric-mcq-50",
-        "fabric-mcq-52",
-        "fabric-mcq-49",
-        "fabric-mcq-53",
-        "fabric-mcq-48"
+        "fabric-mcq-18",
+        "fabric-mcq-70",
+        "fabric-mcq-74"
       ],
       "explanation": "本句的「fabric」指「制度結構」。",
       "sentenceIndex": 105,
@@ -4871,12 +4480,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-51": "本句指「制度結構」。",
-        "fabric-mcq-50": "「經濟結構」與本句語境不同。",
-        "fabric-mcq-52": "「城市肌理」與本句語境不同。",
-        "fabric-mcq-49": "「文化肌理」與本句語境不同。",
-        "fabric-mcq-53": "「建築物本體／圍護結構」與本句語境不同。",
-        "fabric-mcq-48": "「社會肌理／結構」與本句語境不同。"
+        "fabric-mcq-51": "本句的「fabric」指「制度結構」。",
+        "fabric-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-51"
     },
@@ -4888,11 +4495,9 @@ export default {
       "masked": "The development should respect the existing ____.",
       "options": [
         "fabric-mcq-52",
-        "fabric-mcq-51",
-        "fabric-mcq-53",
-        "fabric-mcq-50",
-        "fabric-mcq-54",
-        "fabric-mcq-49"
+        "fabric-mcq-30",
+        "fabric-mcq-57",
+        "fabric-mcq-62"
       ],
       "explanation": "本句的「urban fabric」指「城市肌理」。",
       "sentenceIndex": 106,
@@ -4901,12 +4506,10 @@ export default {
         "urban fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-52": "本句指「城市肌理」。",
-        "fabric-mcq-51": "「制度結構」與本句語境不同。",
-        "fabric-mcq-53": "「建築物本體／圍護結構」與本句語境不同。",
-        "fabric-mcq-50": "「經濟結構」與本句語境不同。",
-        "fabric-mcq-54": "「歷史建築原有實體」與本句語境不同。",
-        "fabric-mcq-49": "「文化肌理」與本句語境不同。"
+        "fabric-mcq-52": "本句的「urban fabric」指「城市肌理」。",
+        "fabric-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-52"
     },
@@ -4918,11 +4521,9 @@ export default {
       "masked": "Narrow streets and small blocks shape the urban ____.",
       "options": [
         "fabric-mcq-52",
-        "fabric-mcq-51",
-        "fabric-mcq-53",
-        "fabric-mcq-50",
-        "fabric-mcq-54",
-        "fabric-mcq-49"
+        "fabric-mcq-66",
+        "fabric-mcq-09",
+        "fabric-mcq-70"
       ],
       "explanation": "本句的「fabric」指「城市肌理」。",
       "sentenceIndex": 107,
@@ -4931,12 +4532,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-52": "本句指「城市肌理」。",
-        "fabric-mcq-51": "「制度結構」與本句語境不同。",
-        "fabric-mcq-53": "「建築物本體／圍護結構」與本句語境不同。",
-        "fabric-mcq-50": "「經濟結構」與本句語境不同。",
-        "fabric-mcq-54": "「歷史建築原有實體」與本句語境不同。",
-        "fabric-mcq-49": "「文化肌理」與本句語境不同。"
+        "fabric-mcq-52": "本句的「fabric」指「城市肌理」。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-52"
     },
@@ -4948,11 +4547,9 @@ export default {
       "masked": "The project preserves the ____.",
       "options": [
         "fabric-mcq-52",
-        "fabric-mcq-51",
-        "fabric-mcq-53",
-        "fabric-mcq-50",
-        "fabric-mcq-54",
-        "fabric-mcq-49"
+        "fabric-mcq-30",
+        "fabric-mcq-63",
+        "fabric-mcq-57"
       ],
       "explanation": "本句的「historic urban fabric」指「城市肌理」。",
       "sentenceIndex": 108,
@@ -4961,12 +4558,10 @@ export default {
         "historic urban fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-52": "本句指「城市肌理」。",
-        "fabric-mcq-51": "「制度結構」與本句語境不同。",
-        "fabric-mcq-53": "「建築物本體／圍護結構」與本句語境不同。",
-        "fabric-mcq-50": "「經濟結構」與本句語境不同。",
-        "fabric-mcq-54": "「歷史建築原有實體」與本句語境不同。",
-        "fabric-mcq-49": "「文化肌理」與本句語境不同。"
+        "fabric-mcq-52": "本句的「historic urban fabric」指「城市肌理」。",
+        "fabric-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-52"
     },
@@ -4978,11 +4573,9 @@ export default {
       "masked": "Large-scale demolition can disrupt historic urban ____.",
       "options": [
         "fabric-mcq-52",
-        "fabric-mcq-51",
-        "fabric-mcq-53",
-        "fabric-mcq-50",
-        "fabric-mcq-54",
-        "fabric-mcq-49"
+        "fabric-mcq-12",
+        "fabric-mcq-68",
+        "fabric-mcq-62"
       ],
       "explanation": "本句的「fabric」指「城市肌理」。",
       "sentenceIndex": 109,
@@ -4991,12 +4584,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-52": "本句指「城市肌理」。",
-        "fabric-mcq-51": "「制度結構」與本句語境不同。",
-        "fabric-mcq-53": "「建築物本體／圍護結構」與本句語境不同。",
-        "fabric-mcq-50": "「經濟結構」與本句語境不同。",
-        "fabric-mcq-54": "「歷史建築原有實體」與本句語境不同。",
-        "fabric-mcq-49": "「文化肌理」與本句語境不同。"
+        "fabric-mcq-52": "本句的「fabric」指「城市肌理」。",
+        "fabric-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-52"
     },
@@ -5008,11 +4599,9 @@ export default {
       "masked": "Improving insulation reduces heat loss through the ____.",
       "options": [
         "fabric-mcq-53",
-        "fabric-mcq-52",
-        "fabric-mcq-54",
-        "fabric-mcq-51",
-        "fabric-mcq-55",
-        "fabric-mcq-50"
+        "fabric-mcq-29",
+        "fabric-mcq-73",
+        "fabric-mcq-37"
       ],
       "explanation": "本句的「building fabric」指「建築物本體／圍護結構」。",
       "sentenceIndex": 110,
@@ -5021,12 +4610,10 @@ export default {
         "building fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-53": "本句指「建築物本體／圍護結構」。",
-        "fabric-mcq-52": "「城市肌理」與本句語境不同。",
-        "fabric-mcq-54": "「歷史建築原有實體」與本句語境不同。",
-        "fabric-mcq-51": "「制度結構」與本句語境不同。",
-        "fabric-mcq-55": "「現實結構」與本句語境不同。",
-        "fabric-mcq-50": "「經濟結構」與本句語境不同。"
+        "fabric-mcq-53": "本句的「building fabric」指「建築物本體／圍護結構」。",
+        "fabric-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-53"
     },
@@ -5038,11 +4625,9 @@ export default {
       "masked": "Water penetration damaged the historic building ____.",
       "options": [
         "fabric-mcq-53",
-        "fabric-mcq-52",
-        "fabric-mcq-54",
-        "fabric-mcq-51",
-        "fabric-mcq-55",
-        "fabric-mcq-50"
+        "fabric-reviewed-5b4ecc1463",
+        "fabric-mcq-66",
+        "fabric-mcq-74"
       ],
       "explanation": "本句的「fabric」指「建築物本體／圍護結構」。",
       "sentenceIndex": 111,
@@ -5051,12 +4636,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-53": "本句指「建築物本體／圍護結構」。",
-        "fabric-mcq-52": "「城市肌理」與本句語境不同。",
-        "fabric-mcq-54": "「歷史建築原有實體」與本句語境不同。",
-        "fabric-mcq-51": "「制度結構」與本句語境不同。",
-        "fabric-mcq-55": "「現實結構」與本句語境不同。",
-        "fabric-mcq-50": "「經濟結構」與本句語境不同。"
+        "fabric-mcq-53": "本句的「fabric」指「建築物本體／圍護結構」。",
+        "fabric-reviewed-5b4ecc1463": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-53"
     },
@@ -5068,11 +4651,9 @@ export default {
       "masked": "Repairs should preserve as much ____ as possible.",
       "options": [
         "fabric-mcq-54",
-        "fabric-mcq-53",
-        "fabric-mcq-55",
-        "fabric-mcq-52",
-        "fabric-mcq-56",
-        "fabric-mcq-51"
+        "fabric-mcq-42",
+        "fabric-mcq-61",
+        "fabric-mcq-37"
       ],
       "explanation": "本句的「historic fabric」指「歷史建築原有實體」。",
       "sentenceIndex": 112,
@@ -5081,12 +4662,10 @@ export default {
         "historic fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-54": "本句指「歷史建築原有實體」。",
-        "fabric-mcq-53": "「建築物本體／圍護結構」與本句語境不同。",
-        "fabric-mcq-55": "「現實結構」與本句語境不同。",
-        "fabric-mcq-52": "「城市肌理」與本句語境不同。",
-        "fabric-mcq-56": "「時空結構」與本句語境不同。",
-        "fabric-mcq-51": "「制度結構」與本句語境不同。"
+        "fabric-mcq-54": "本句的「historic fabric」指「歷史建築原有實體」。",
+        "fabric-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-54"
     },
@@ -5098,11 +4677,9 @@ export default {
       "masked": "Original timber is part of the building's historic ____.",
       "options": [
         "fabric-mcq-54",
-        "fabric-mcq-53",
-        "fabric-mcq-55",
-        "fabric-mcq-52",
-        "fabric-mcq-56",
-        "fabric-mcq-51"
+        "fabric-mcq-67",
+        "fabric-mcq-69",
+        "fabric-mcq-09"
       ],
       "explanation": "本句的「fabric」指「歷史建築原有實體」。",
       "sentenceIndex": 113,
@@ -5111,12 +4688,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-54": "本句指「歷史建築原有實體」。",
-        "fabric-mcq-53": "「建築物本體／圍護結構」與本句語境不同。",
-        "fabric-mcq-55": "「現實結構」與本句語境不同。",
-        "fabric-mcq-52": "「城市肌理」與本句語境不同。",
-        "fabric-mcq-56": "「時空結構」與本句語境不同。",
-        "fabric-mcq-51": "「制度結構」與本句語境不同。"
+        "fabric-mcq-54": "本句的「fabric」指「歷史建築原有實體」。",
+        "fabric-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-54"
     },
@@ -5128,11 +4703,9 @@ export default {
       "masked": "The novel imagines a tear in the ____.",
       "options": [
         "fabric-mcq-55",
-        "fabric-mcq-54",
-        "fabric-mcq-56",
-        "fabric-mcq-53",
-        "fabric-mcq-57",
-        "fabric-mcq-52"
+        "fabric-mcq-36",
+        "fabric-mcq-33",
+        "fabric-mcq-68"
       ],
       "explanation": "本句的「fabric of reality」指「現實結構」。",
       "sentenceIndex": 114,
@@ -5141,12 +4714,10 @@ export default {
         "fabric of reality"
       ],
       "optionReasons": {
-        "fabric-mcq-55": "本句指「現實結構」。",
-        "fabric-mcq-54": "「歷史建築原有實體」與本句語境不同。",
-        "fabric-mcq-56": "「時空結構」與本句語境不同。",
-        "fabric-mcq-53": "「建築物本體／圍護結構」與本句語境不同。",
-        "fabric-mcq-57": "「岩石組構」與本句語境不同。",
-        "fabric-mcq-52": "「城市肌理」與本句語境不同。"
+        "fabric-mcq-55": "本句的「fabric of reality」指「現實結構」。",
+        "fabric-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-55"
     },
@@ -5158,11 +4729,9 @@ export default {
       "masked": "____” here is metaphorical, not textile.",
       "options": [
         "fabric-mcq-55",
-        "fabric-mcq-54",
-        "fabric-mcq-56",
-        "fabric-mcq-53",
-        "fabric-mcq-57",
-        "fabric-mcq-52"
+        "fabric-mcq-13",
+        "fabric-mcq-70",
+        "fabric-mcq-63"
       ],
       "explanation": "本句的「Fabric」指「現實結構」。",
       "sentenceIndex": 115,
@@ -5171,12 +4740,10 @@ export default {
         "Fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-55": "本句指「現實結構」。",
-        "fabric-mcq-54": "「歷史建築原有實體」與本句語境不同。",
-        "fabric-mcq-56": "「時空結構」與本句語境不同。",
-        "fabric-mcq-53": "「建築物本體／圍護結構」與本句語境不同。",
-        "fabric-mcq-57": "「岩石組構」與本句語境不同。",
-        "fabric-mcq-52": "「城市肌理」與本句語境不同。"
+        "fabric-mcq-55": "本句的「Fabric」指「現實結構」。",
+        "fabric-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-55"
     },
@@ -5188,11 +4755,9 @@ export default {
       "masked": "Gravity is often described in popular explanations as curvature in the ____.",
       "options": [
         "fabric-mcq-56",
-        "fabric-mcq-55",
-        "fabric-mcq-57",
-        "fabric-mcq-54",
-        "fabric-mcq-58",
-        "fabric-mcq-53"
+        "fabric-mcq-23",
+        "fabric-mcq-35",
+        "fabric-mcq-74"
       ],
       "explanation": "本句的「fabric of spacetime」指「時空結構」。",
       "sentenceIndex": 116,
@@ -5201,12 +4766,10 @@ export default {
         "fabric of spacetime"
       ],
       "optionReasons": {
-        "fabric-mcq-56": "本句指「時空結構」。",
-        "fabric-mcq-55": "「現實結構」與本句語境不同。",
-        "fabric-mcq-57": "「岩石組構」與本句語境不同。",
-        "fabric-mcq-54": "「歷史建築原有實體」與本句語境不同。",
-        "fabric-mcq-58": "「網絡互連架構」與本句語境不同。",
-        "fabric-mcq-53": "「建築物本體／圍護結構」與本句語境不同。"
+        "fabric-mcq-56": "本句的「fabric of spacetime」指「時空結構」。",
+        "fabric-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-56"
     },
@@ -5218,11 +4781,9 @@ export default {
       "masked": "____” is a metaphor for the structure of spacetime, not a literal material cloth.",
       "options": [
         "fabric-mcq-56",
-        "fabric-mcq-55",
-        "fabric-mcq-57",
-        "fabric-mcq-54",
-        "fabric-mcq-58",
-        "fabric-mcq-53"
+        "fabric-mcq-32",
+        "fabric-mcq-63",
+        "fabric-mcq-35"
       ],
       "explanation": "本句的「Fabric」指「時空結構」。",
       "sentenceIndex": 117,
@@ -5231,12 +4792,10 @@ export default {
         "Fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-56": "本句指「時空結構」。",
-        "fabric-mcq-55": "「現實結構」與本句語境不同。",
-        "fabric-mcq-57": "「岩石組構」與本句語境不同。",
-        "fabric-mcq-54": "「歷史建築原有實體」與本句語境不同。",
-        "fabric-mcq-58": "「網絡互連架構」與本句語境不同。",
-        "fabric-mcq-53": "「建築物本體／圍護結構」與本句語境不同。"
+        "fabric-mcq-56": "本句的「Fabric」指「時空結構」。",
+        "fabric-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-56"
     },
@@ -5248,10 +4807,8 @@ export default {
       "masked": "Geologists examined the ____.",
       "options": [
         "fabric-pdf-002",
-        "fabric-mcq-56",
-        "fabric-mcq-58",
-        "fabric-mcq-55",
-        "fabric-mcq-59",
+        "fabric-mcq-63",
+        "fabric-mcq-14",
         "fabric-mcq-54"
       ],
       "explanation": "本句的「fabric of the rock」指「岩石內礦物、顆粒或結構元素的排列、方向和幾何關係」。",
@@ -5261,12 +4818,10 @@ export default {
         "fabric of the rock"
       ],
       "optionReasons": {
-        "fabric-pdf-002": "本句指「岩石內礦物、顆粒或結構元素的排列、方向和幾何關係」。",
-        "fabric-mcq-56": "「時空結構」與本句語境不同。",
-        "fabric-mcq-58": "「網絡互連架構」與本句語境不同。",
-        "fabric-mcq-55": "「現實結構」與本句語境不同。",
-        "fabric-mcq-59": "「交換架構」與本句語境不同。",
-        "fabric-mcq-54": "「歷史建築原有實體」與本句語境不同。"
+        "fabric-pdf-002": "本句的「fabric of the rock」指「岩石內礦物、顆粒或結構元素的排列、方向和幾何關係」。",
+        "fabric-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-pdf-002"
     },
@@ -5278,11 +4833,9 @@ export default {
       "masked": "Mineral alignment can produce a distinct rock ____.",
       "options": [
         "fabric-pdf-002",
-        "fabric-mcq-56",
-        "fabric-mcq-58",
-        "fabric-mcq-55",
-        "fabric-mcq-59",
-        "fabric-mcq-54"
+        "fabric-mcq-66",
+        "fabric-mcq-26",
+        "fabric-mcq-49"
       ],
       "explanation": "本句的「fabric」指「岩石內礦物、顆粒或結構元素的排列、方向和幾何關係」。",
       "sentenceIndex": 119,
@@ -5291,12 +4844,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-pdf-002": "本句指「岩石內礦物、顆粒或結構元素的排列、方向和幾何關係」。",
-        "fabric-mcq-56": "「時空結構」與本句語境不同。",
-        "fabric-mcq-58": "「網絡互連架構」與本句語境不同。",
-        "fabric-mcq-55": "「現實結構」與本句語境不同。",
-        "fabric-mcq-59": "「交換架構」與本句語境不同。",
-        "fabric-mcq-54": "「歷史建築原有實體」與本句語境不同。"
+        "fabric-pdf-002": "本句的「fabric」指「岩石內礦物、顆粒或結構元素的排列、方向和幾何關係」。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-pdf-002"
     },
@@ -5308,11 +4859,9 @@ export default {
       "masked": "Deformation changed the ____.",
       "options": [
         "fabric-mcq-57",
-        "fabric-mcq-56",
-        "fabric-mcq-58",
-        "fabric-mcq-55",
-        "fabric-mcq-59",
-        "fabric-mcq-54"
+        "fabric-mcq-03",
+        "fabric-mcq-35",
+        "fabric-mcq-71"
       ],
       "explanation": "本句的「geological fabric」指「岩石組構」。",
       "sentenceIndex": 120,
@@ -5321,12 +4870,10 @@ export default {
         "geological fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-57": "本句指「岩石組構」。",
-        "fabric-mcq-56": "「時空結構」與本句語境不同。",
-        "fabric-mcq-58": "「網絡互連架構」與本句語境不同。",
-        "fabric-mcq-55": "「現實結構」與本句語境不同。",
-        "fabric-mcq-59": "「交換架構」與本句語境不同。",
-        "fabric-mcq-54": "「歷史建築原有實體」與本句語境不同。"
+        "fabric-mcq-57": "本句的「geological fabric」指「岩石組構」。",
+        "fabric-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-57"
     },
@@ -5338,11 +4885,9 @@ export default {
       "masked": "____ analysis can reveal deformation history.",
       "options": [
         "fabric-mcq-57",
-        "fabric-mcq-56",
-        "fabric-mcq-58",
-        "fabric-mcq-55",
-        "fabric-mcq-59",
-        "fabric-mcq-54"
+        "fabric-reviewed-5b4ecc1463",
+        "fabric-mcq-37",
+        "fabric-mcq-67"
       ],
       "explanation": "本句的「Fabric」指「岩石組構」。",
       "sentenceIndex": 121,
@@ -5351,12 +4896,10 @@ export default {
         "Fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-57": "本句指「岩石組構」。",
-        "fabric-mcq-56": "「時空結構」與本句語境不同。",
-        "fabric-mcq-58": "「網絡互連架構」與本句語境不同。",
-        "fabric-mcq-55": "「現實結構」與本句語境不同。",
-        "fabric-mcq-59": "「交換架構」與本句語境不同。",
-        "fabric-mcq-54": "「歷史建築原有實體」與本句語境不同。"
+        "fabric-mcq-57": "本句的「Fabric」指「岩石組構」。",
+        "fabric-reviewed-5b4ecc1463": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-57"
     },
@@ -5368,11 +4911,9 @@ export default {
       "masked": "The servers are connected through a high-speed ____.",
       "options": [
         "fabric-mcq-58",
-        "fabric-mcq-57",
-        "fabric-mcq-59",
-        "fabric-mcq-56",
-        "fabric-mcq-60",
-        "fabric-mcq-55"
+        "fabric-mcq-07",
+        "fabric-mcq-68",
+        "fabric-mcq-36"
       ],
       "explanation": "本句的「network fabric」指「網絡互連架構」。",
       "sentenceIndex": 122,
@@ -5381,12 +4922,10 @@ export default {
         "network fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-58": "本句指「網絡互連架構」。",
-        "fabric-mcq-57": "「岩石組構」與本句語境不同。",
-        "fabric-mcq-59": "「交換架構」與本句語境不同。",
-        "fabric-mcq-56": "「時空結構」與本句語境不同。",
-        "fabric-mcq-60": "「儲存網絡架構」與本句語境不同。",
-        "fabric-mcq-55": "「現實結構」與本句語境不同。"
+        "fabric-mcq-58": "本句的「network fabric」指「網絡互連架構」。",
+        "fabric-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-58"
     },
@@ -5398,11 +4937,9 @@ export default {
       "masked": "A network ____ connects many devices through an integrated topology.",
       "options": [
         "fabric-mcq-58",
-        "fabric-mcq-57",
-        "fabric-mcq-59",
-        "fabric-mcq-56",
-        "fabric-mcq-60",
-        "fabric-mcq-55"
+        "fabric-mcq-44",
+        "fabric-mcq-35",
+        "fabric-mcq-49"
       ],
       "explanation": "本句的「fabric」指「網絡互連架構」。",
       "sentenceIndex": 123,
@@ -5411,12 +4948,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-58": "本句指「網絡互連架構」。",
-        "fabric-mcq-57": "「岩石組構」與本句語境不同。",
-        "fabric-mcq-59": "「交換架構」與本句語境不同。",
-        "fabric-mcq-56": "「時空結構」與本句語境不同。",
-        "fabric-mcq-60": "「儲存網絡架構」與本句語境不同。",
-        "fabric-mcq-55": "「現實結構」與本句語境不同。"
+        "fabric-mcq-58": "本句的「fabric」指「網絡互連架構」。",
+        "fabric-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-58"
     },
@@ -5428,11 +4963,9 @@ export default {
       "masked": "The switch has a high-capacity ____.",
       "options": [
         "fabric-mcq-59",
-        "fabric-mcq-58",
-        "fabric-mcq-60",
-        "fabric-mcq-57",
-        "fabric-mcq-61",
-        "fabric-mcq-56"
+        "fabric-mcq-32",
+        "fabric-mcq-52",
+        "fabric-mcq-73"
       ],
       "explanation": "本句的「switching fabric」指「交換架構」。",
       "sentenceIndex": 124,
@@ -5441,12 +4974,10 @@ export default {
         "switching fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-59": "本句指「交換架構」。",
-        "fabric-mcq-58": "「網絡互連架構」與本句語境不同。",
-        "fabric-mcq-60": "「儲存網絡架構」與本句語境不同。",
-        "fabric-mcq-57": "「岩石組構」與本句語境不同。",
-        "fabric-mcq-61": "「數據整合架構」與本句語境不同。",
-        "fabric-mcq-56": "「時空結構」與本句語境不同。"
+        "fabric-mcq-59": "本句的「switching fabric」指「交換架構」。",
+        "fabric-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-59"
     },
@@ -5458,11 +4989,9 @@ export default {
       "masked": "The switching ____ moves data between ports.",
       "options": [
         "fabric-mcq-59",
-        "fabric-mcq-58",
-        "fabric-mcq-60",
-        "fabric-mcq-57",
-        "fabric-mcq-61",
-        "fabric-mcq-56"
+        "fabric-mcq-70",
+        "fabric-mcq-27",
+        "fabric-mcq-66"
       ],
       "explanation": "本句的「fabric」指「交換架構」。",
       "sentenceIndex": 125,
@@ -5471,12 +5000,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-59": "本句指「交換架構」。",
-        "fabric-mcq-58": "「網絡互連架構」與本句語境不同。",
-        "fabric-mcq-60": "「儲存網絡架構」與本句語境不同。",
-        "fabric-mcq-57": "「岩石組構」與本句語境不同。",
-        "fabric-mcq-61": "「數據整合架構」與本句語境不同。",
-        "fabric-mcq-56": "「時空結構」與本句語境不同。"
+        "fabric-mcq-59": "本句的「fabric」指「交換架構」。",
+        "fabric-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-59"
     },
@@ -5488,11 +5015,9 @@ export default {
       "masked": "The servers connect to storage through the ____.",
       "options": [
         "fabric-mcq-60",
-        "fabric-mcq-59",
-        "fabric-mcq-61",
-        "fabric-mcq-58",
-        "fabric-mcq-62",
-        "fabric-mcq-57"
+        "fabric-mcq-22",
+        "fabric-mcq-66",
+        "fabric-mcq-70"
       ],
       "explanation": "本句的「storage fabric」指「儲存網絡架構」。",
       "sentenceIndex": 126,
@@ -5501,12 +5026,10 @@ export default {
         "storage fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-60": "本句指「儲存網絡架構」。",
-        "fabric-mcq-59": "「交換架構」與本句語境不同。",
-        "fabric-mcq-61": "「數據整合架構」與本句語境不同。",
-        "fabric-mcq-58": "「網絡互連架構」與本句語境不同。",
-        "fabric-mcq-62": "「運算互連架構」與本句語境不同。",
-        "fabric-mcq-57": "「岩石組構」與本句語境不同。"
+        "fabric-mcq-60": "本句的「storage fabric」指「儲存網絡架構」。",
+        "fabric-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-60"
     },
@@ -5518,11 +5041,9 @@ export default {
       "masked": "A storage ____ may connect many storage and compute systems.",
       "options": [
         "fabric-mcq-60",
-        "fabric-mcq-59",
-        "fabric-mcq-61",
-        "fabric-mcq-58",
-        "fabric-mcq-62",
-        "fabric-mcq-57"
+        "fabric-mcq-23",
+        "fabric-mcq-69",
+        "fabric-mcq-73"
       ],
       "explanation": "本句的「fabric」指「儲存網絡架構」。",
       "sentenceIndex": 127,
@@ -5531,12 +5052,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-60": "本句指「儲存網絡架構」。",
-        "fabric-mcq-59": "「交換架構」與本句語境不同。",
-        "fabric-mcq-61": "「數據整合架構」與本句語境不同。",
-        "fabric-mcq-58": "「網絡互連架構」與本句語境不同。",
-        "fabric-mcq-62": "「運算互連架構」與本句語境不同。",
-        "fabric-mcq-57": "「岩石組構」與本句語境不同。"
+        "fabric-mcq-60": "本句的「fabric」指「儲存網絡架構」。",
+        "fabric-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-60"
     },
@@ -5548,11 +5067,9 @@ export default {
       "masked": "The company is developing a ____ across its systems.",
       "options": [
         "fabric-mcq-61",
-        "fabric-mcq-60",
-        "fabric-mcq-62",
-        "fabric-mcq-59",
-        "fabric-mcq-63",
-        "fabric-mcq-58"
+        "fabric-mcq-29",
+        "fabric-mcq-73",
+        "fabric-mcq-37"
       ],
       "explanation": "本句的「data fabric」指「數據整合架構」。",
       "sentenceIndex": 128,
@@ -5561,12 +5078,10 @@ export default {
         "data fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-61": "本句指「數據整合架構」。",
-        "fabric-mcq-60": "「儲存網絡架構」與本句語境不同。",
-        "fabric-mcq-62": "「運算互連架構」與本句語境不同。",
-        "fabric-mcq-59": "「交換架構」與本句語境不同。",
-        "fabric-mcq-63": "「製造；加工」與本句語境不同。",
-        "fabric-mcq-58": "「網絡互連架構」與本句語境不同。"
+        "fabric-mcq-61": "本句的「data fabric」指「數據整合架構」。",
+        "fabric-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-61"
     },
@@ -5578,11 +5093,9 @@ export default {
       "masked": "A data ____ aims to make data easier to integrate and access across different environments.",
       "options": [
         "fabric-mcq-61",
-        "fabric-mcq-60",
-        "fabric-mcq-62",
-        "fabric-mcq-59",
-        "fabric-mcq-63",
-        "fabric-mcq-58"
+        "fabric-mcq-17",
+        "fabric-mcq-35",
+        "fabric-mcq-74"
       ],
       "explanation": "本句的「fabric」指「數據整合架構」。",
       "sentenceIndex": 129,
@@ -5591,12 +5104,10 @@ export default {
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-61": "本句指「數據整合架構」。",
-        "fabric-mcq-60": "「儲存網絡架構」與本句語境不同。",
-        "fabric-mcq-62": "「運算互連架構」與本句語境不同。",
-        "fabric-mcq-59": "「交換架構」與本句語境不同。",
-        "fabric-mcq-63": "「製造；加工」與本句語境不同。",
-        "fabric-mcq-58": "「網絡互連架構」與本句語境不同。"
+        "fabric-mcq-61": "本句的「fabric」指「數據整合架構」。",
+        "fabric-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-61"
     },
@@ -5608,11 +5119,9 @@ export default {
       "masked": "The system uses a tightly integrated ____.",
       "options": [
         "fabric-mcq-62",
-        "fabric-mcq-61",
-        "fabric-mcq-63",
-        "fabric-mcq-60",
-        "fabric-mcq-64",
-        "fabric-mcq-59"
+        "fabric-mcq-08",
+        "fabric-mcq-52",
+        "fabric-mcq-70"
       ],
       "explanation": "本句的「computing fabric」指「運算互連架構」。",
       "sentenceIndex": 130,
@@ -5621,12 +5130,10 @@ export default {
         "computing fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-62": "本句指「運算互連架構」。",
-        "fabric-mcq-61": "「數據整合架構」與本句語境不同。",
-        "fabric-mcq-63": "「製造；加工」與本句語境不同。",
-        "fabric-mcq-60": "「儲存網絡架構」與本句語境不同。",
-        "fabric-mcq-64": "「加工構件」與本句語境不同。",
-        "fabric-mcq-59": "「交換架構」與本句語境不同。"
+        "fabric-mcq-62": "本句的「computing fabric」指「運算互連架構」。",
+        "fabric-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-62"
     },
@@ -5638,11 +5145,9 @@ export default {
       "masked": "The workshop ____.",
       "options": [
         "fabric-mcq-63",
-        "fabric-mcq-62",
-        "fabric-mcq-64",
-        "fabric-mcq-61",
-        "fabric-mcq-60",
-        "fabric-mcq-66"
+        "fabric-pdf-002",
+        "fabric-mcq-39",
+        "fabric-mcq-54"
       ],
       "explanation": "本句的「fabricates metal frames」指「製造；加工」。",
       "sentenceIndex": 131,
@@ -5651,12 +5156,10 @@ export default {
         "fabricates metal frames"
       ],
       "optionReasons": {
-        "fabric-mcq-63": "本句指「製造；加工」。",
-        "fabric-mcq-62": "「運算互連架構」與本句語境不同。",
-        "fabric-mcq-64": "「加工構件」與本句語境不同。",
-        "fabric-mcq-61": "「數據整合架構」與本句語境不同。",
-        "fabric-mcq-60": "「儲存網絡架構」與本句語境不同。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。"
+        "fabric-mcq-63": "本句的「fabricates metal frames」指「製造；加工」。",
+        "fabric-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-63"
     },
@@ -5668,11 +5171,9 @@ export default {
       "masked": "The components were ____ off-site.",
       "options": [
         "fabric-mcq-63",
-        "fabric-mcq-62",
-        "fabric-mcq-64",
-        "fabric-mcq-61",
-        "fabric-mcq-60",
-        "fabric-mcq-66"
+        "fabric-mcq-55",
+        "fabric-mcq-15",
+        "fabric-mcq-54"
       ],
       "explanation": "本句的「fabricated」指「製造；加工」。",
       "sentenceIndex": 132,
@@ -5681,12 +5182,10 @@ export default {
         "fabricated"
       ],
       "optionReasons": {
-        "fabric-mcq-63": "本句指「製造；加工」。",
-        "fabric-mcq-62": "「運算互連架構」與本句語境不同。",
-        "fabric-mcq-64": "「加工構件」與本句語境不同。",
-        "fabric-mcq-61": "「數據整合架構」與本句語境不同。",
-        "fabric-mcq-60": "「儲存網絡架構」與本句語境不同。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。"
+        "fabric-mcq-63": "本句的「fabricated」指「製造；加工」。",
+        "fabric-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-63"
     },
@@ -5698,11 +5197,9 @@ export default {
       "masked": "The structure contains several ____.",
       "options": [
         "fabric-mcq-64",
-        "fabric-mcq-63",
-        "fabric-mcq-62",
-        "fabric-mcq-66",
-        "fabric-mcq-61",
-        "fabric-mcq-67"
+        "fabric-mcq-11",
+        "fabric-mcq-49",
+        "fabric-mcq-73"
       ],
       "explanation": "本句的「fabricated steel components」指「加工構件」。",
       "sentenceIndex": 133,
@@ -5711,12 +5208,10 @@ export default {
         "fabricated steel components"
       ],
       "optionReasons": {
-        "fabric-mcq-64": "本句指「加工構件」。",
-        "fabric-mcq-63": "「製造；加工」與本句語境不同。",
-        "fabric-mcq-62": "「運算互連架構」與本句語境不同。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。",
-        "fabric-mcq-61": "「數據整合架構」與本句語境不同。",
-        "fabric-mcq-67": "「數碼製造」與本句語境不同。"
+        "fabric-mcq-64": "本句的「fabricated steel components」指「加工構件」。",
+        "fabric-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-64"
     },
@@ -5728,11 +5223,9 @@ export default {
       "masked": "Each ____ component was inspected.",
       "options": [
         "fabric-mcq-64",
-        "fabric-mcq-63",
-        "fabric-mcq-62",
-        "fabric-mcq-66",
-        "fabric-mcq-61",
-        "fabric-mcq-67"
+        "fabric-mcq-27",
+        "fabric-mcq-70",
+        "fabric-mcq-52"
       ],
       "explanation": "本句的「fabricated」指「加工構件」。",
       "sentenceIndex": 134,
@@ -5741,12 +5234,10 @@ export default {
         "fabricated"
       ],
       "optionReasons": {
-        "fabric-mcq-64": "本句指「加工構件」。",
-        "fabric-mcq-63": "「製造；加工」與本句語境不同。",
-        "fabric-mcq-62": "「運算互連架構」與本句語境不同。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。",
-        "fabric-mcq-61": "「數據整合架構」與本句語境不同。",
-        "fabric-mcq-67": "「數碼製造」與本句語境不同。"
+        "fabric-mcq-64": "本句的「fabricated」指「加工構件」。",
+        "fabric-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-64"
     },
@@ -5758,10 +5249,8 @@ export default {
       "masked": "The company ____ for construction projects.",
       "options": [
         "fabric-mcq-64",
-        "fabric-mcq-63",
-        "fabric-mcq-62",
-        "fabric-mcq-66",
-        "fabric-mcq-61",
+        "fabric-mcq-18",
+        "fabric-mcq-37",
         "fabric-mcq-67"
       ],
       "explanation": "本句的「fabricates steel」指「加工構件」。",
@@ -5771,12 +5260,10 @@ export default {
         "fabricates steel"
       ],
       "optionReasons": {
-        "fabric-mcq-64": "本句指「加工構件」。",
-        "fabric-mcq-63": "「製造；加工」與本句語境不同。",
-        "fabric-mcq-62": "「運算互連架構」與本句語境不同。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。",
-        "fabric-mcq-61": "「數據整合架構」與本句語境不同。",
-        "fabric-mcq-67": "「數碼製造」與本句語境不同。"
+        "fabric-mcq-64": "本句的「fabricates steel」指「加工構件」。",
+        "fabric-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-64"
     },
@@ -5788,11 +5275,9 @@ export default {
       "masked": "Metal can be ____ into complex shapes.",
       "options": [
         "fabric-mcq-64",
-        "fabric-mcq-63",
-        "fabric-mcq-62",
-        "fabric-mcq-66",
-        "fabric-mcq-61",
-        "fabric-mcq-67"
+        "fabric-mcq-12",
+        "fabric-mcq-67",
+        "fabric-mcq-52"
       ],
       "explanation": "本句的「fabricated」指「加工構件」。",
       "sentenceIndex": 136,
@@ -5801,12 +5286,10 @@ export default {
         "fabricated"
       ],
       "optionReasons": {
-        "fabric-mcq-64": "本句指「加工構件」。",
-        "fabric-mcq-63": "「製造；加工」與本句語境不同。",
-        "fabric-mcq-62": "「運算互連架構」與本句語境不同。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。",
-        "fabric-mcq-61": "「數據整合架構」與本句語境不同。",
-        "fabric-mcq-67": "「數碼製造」與本句語境不同。"
+        "fabric-mcq-64": "本句的「fabricated」指「加工構件」。",
+        "fabric-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-64"
     },
@@ -5818,11 +5301,9 @@ export default {
       "masked": "The parts are sent for ____.",
       "options": [
         "fabric-pdf-003",
-        "fabric-mcq-64",
-        "fabric-mcq-66",
-        "fabric-mcq-67",
-        "fabric-mcq-62",
-        "fabric-mcq-68"
+        "fabric-mcq-15",
+        "fabric-mcq-54",
+        "fabric-mcq-49"
       ],
       "explanation": "本句的「fabrication」指「把材料加工、組裝成產品或構件的製造過程」。",
       "sentenceIndex": 137,
@@ -5831,12 +5312,10 @@ export default {
         "fabrication"
       ],
       "optionReasons": {
-        "fabric-pdf-003": "本句指「把材料加工、組裝成產品或構件的製造過程」。",
-        "fabric-mcq-64": "「加工構件」與本句語境不同。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。",
-        "fabric-mcq-67": "「數碼製造」與本句語境不同。",
-        "fabric-mcq-62": "「運算互連架構」與本句語境不同。",
-        "fabric-mcq-68": "「捏造故事」與本句語境不同。"
+        "fabric-pdf-003": "本句的「fabrication」指「把材料加工、組裝成產品或構件的製造過程」。",
+        "fabric-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-pdf-003"
     },
@@ -5848,11 +5327,9 @@ export default {
       "masked": "Metal ____ requires specialised equipment.",
       "options": [
         "fabric-pdf-003",
-        "fabric-mcq-64",
-        "fabric-mcq-66",
-        "fabric-mcq-67",
-        "fabric-mcq-62",
-        "fabric-mcq-68"
+        "fabric-mcq-36",
+        "fabric-mcq-29",
+        "fabric-mcq-35"
       ],
       "explanation": "本句的「fabrication」指「把材料加工、組裝成產品或構件的製造過程」。",
       "sentenceIndex": 138,
@@ -5861,12 +5338,10 @@ export default {
         "fabrication"
       ],
       "optionReasons": {
-        "fabric-pdf-003": "本句指「把材料加工、組裝成產品或構件的製造過程」。",
-        "fabric-mcq-64": "「加工構件」與本句語境不同。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。",
-        "fabric-mcq-67": "「數碼製造」與本句語境不同。",
-        "fabric-mcq-62": "「運算互連架構」與本句語境不同。",
-        "fabric-mcq-68": "「捏造故事」與本句語境不同。"
+        "fabric-pdf-003": "本句的「fabrication」指「把材料加工、組裝成產品或構件的製造過程」。",
+        "fabric-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-pdf-003"
     },
@@ -5878,11 +5353,9 @@ export default {
       "masked": "The company specialises in ____.",
       "options": [
         "fabric-mcq-66",
-        "fabric-mcq-65",
-        "fabric-mcq-67",
-        "fabric-mcq-64",
-        "fabric-mcq-68",
-        "fabric-mcq-69"
+        "fabric-mcq-59",
+        "fabric-mcq-53",
+        "fabric-mcq-27"
       ],
       "explanation": "本句的「metal fabrication」指「金屬加工」。",
       "sentenceIndex": 139,
@@ -5891,12 +5364,10 @@ export default {
         "metal fabrication"
       ],
       "optionReasons": {
-        "fabric-mcq-66": "本句指「金屬加工」。",
-        "fabric-mcq-65": "「製造；加工」與本句語境不同。",
-        "fabric-mcq-67": "「數碼製造」與本句語境不同。",
-        "fabric-mcq-64": "「加工構件」與本句語境不同。",
-        "fabric-mcq-68": "「捏造故事」與本句語境不同。",
-        "fabric-mcq-69": "「捏造證據」與本句語境不同。"
+        "fabric-mcq-66": "本句的「metal fabrication」指「金屬加工」。",
+        "fabric-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-66"
     },
@@ -5908,11 +5379,9 @@ export default {
       "masked": "Metal ____ may involve cutting, bending and welding.",
       "options": [
         "fabric-mcq-66",
-        "fabric-mcq-65",
-        "fabric-mcq-67",
-        "fabric-mcq-64",
+        "fabric-mcq-12",
         "fabric-mcq-68",
-        "fabric-mcq-69"
+        "fabric-mcq-59"
       ],
       "explanation": "本句的「fabrication」指「金屬加工」。",
       "sentenceIndex": 140,
@@ -5921,12 +5390,10 @@ export default {
         "fabrication"
       ],
       "optionReasons": {
-        "fabric-mcq-66": "本句指「金屬加工」。",
-        "fabric-mcq-65": "「製造；加工」與本句語境不同。",
-        "fabric-mcq-67": "「數碼製造」與本句語境不同。",
-        "fabric-mcq-64": "「加工構件」與本句語境不同。",
-        "fabric-mcq-68": "「捏造故事」與本句語境不同。",
-        "fabric-mcq-69": "「捏造證據」與本句語境不同。"
+        "fabric-mcq-66": "本句的「fabrication」指「金屬加工」。",
+        "fabric-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-66"
     },
@@ -5938,11 +5405,9 @@ export default {
       "masked": "The ____ takes several days.",
       "options": [
         "fabric-mcq-67",
-        "fabric-mcq-66",
-        "fabric-mcq-68",
-        "fabric-mcq-65",
-        "fabric-mcq-69",
-        "fabric-mcq-64"
+        "fabric-mcq-10",
+        "fabric-mcq-49",
+        "fabric-mcq-35"
       ],
       "explanation": "本句的「fabrication process」指「數碼製造」。",
       "sentenceIndex": 141,
@@ -5951,12 +5416,10 @@ export default {
         "fabrication process"
       ],
       "optionReasons": {
-        "fabric-mcq-67": "本句指「數碼製造」。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。",
-        "fabric-mcq-68": "「捏造故事」與本句語境不同。",
-        "fabric-mcq-65": "「製造；加工」與本句語境不同。",
-        "fabric-mcq-69": "「捏造證據」與本句語境不同。",
-        "fabric-mcq-64": "「加工構件」與本句語境不同。"
+        "fabric-mcq-67": "本句的「fabrication process」指「數碼製造」。",
+        "fabric-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-67"
     },
@@ -5968,11 +5431,9 @@ export default {
       "masked": "Quality checks occur throughout ____.",
       "options": [
         "fabric-mcq-67",
-        "fabric-mcq-66",
-        "fabric-mcq-68",
-        "fabric-mcq-65",
-        "fabric-mcq-69",
-        "fabric-mcq-64"
+        "fabric-mcq-41",
+        "fabric-mcq-52",
+        "fabric-mcq-35"
       ],
       "explanation": "本句的「fabrication」指「數碼製造」。",
       "sentenceIndex": 142,
@@ -5981,12 +5442,10 @@ export default {
         "fabrication"
       ],
       "optionReasons": {
-        "fabric-mcq-67": "本句指「數碼製造」。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。",
-        "fabric-mcq-68": "「捏造故事」與本句語境不同。",
-        "fabric-mcq-65": "「製造；加工」與本句語境不同。",
-        "fabric-mcq-69": "「捏造證據」與本句語境不同。",
-        "fabric-mcq-64": "「加工構件」與本句語境不同。"
+        "fabric-mcq-67": "本句的「fabrication」指「數碼製造」。",
+        "fabric-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-67"
     },
@@ -5998,11 +5457,9 @@ export default {
       "masked": "The laboratory teaches ____.",
       "options": [
         "fabric-mcq-67",
-        "fabric-mcq-66",
-        "fabric-mcq-68",
-        "fabric-mcq-65",
-        "fabric-mcq-69",
-        "fabric-mcq-64"
+        "fabric-mcq-12",
+        "fabric-mcq-35",
+        "fabric-mcq-53"
       ],
       "explanation": "本句的「digital fabrication」指「數碼製造」。",
       "sentenceIndex": 143,
@@ -6011,12 +5468,10 @@ export default {
         "digital fabrication"
       ],
       "optionReasons": {
-        "fabric-mcq-67": "本句指「數碼製造」。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。",
-        "fabric-mcq-68": "「捏造故事」與本句語境不同。",
-        "fabric-mcq-65": "「製造；加工」與本句語境不同。",
-        "fabric-mcq-69": "「捏造證據」與本句語境不同。",
-        "fabric-mcq-64": "「加工構件」與本句語境不同。"
+        "fabric-mcq-67": "本句的「digital fabrication」指「數碼製造」。",
+        "fabric-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-67"
     },
@@ -6028,11 +5483,9 @@ export default {
       "masked": "Digital ____ can include computer-controlled manufacturing methods.",
       "options": [
         "fabric-mcq-67",
-        "fabric-mcq-66",
-        "fabric-mcq-68",
-        "fabric-mcq-65",
-        "fabric-mcq-69",
-        "fabric-mcq-64"
+        "fabric-mcq-37",
+        "fabric-mcq-29",
+        "fabric-mcq-54"
       ],
       "explanation": "本句的「fabrication」指「數碼製造」。",
       "sentenceIndex": 144,
@@ -6041,12 +5494,10 @@ export default {
         "fabrication"
       ],
       "optionReasons": {
-        "fabric-mcq-67": "本句指「數碼製造」。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。",
-        "fabric-mcq-68": "「捏造故事」與本句語境不同。",
-        "fabric-mcq-65": "「製造；加工」與本句語境不同。",
-        "fabric-mcq-69": "「捏造證據」與本句語境不同。",
-        "fabric-mcq-64": "「加工構件」與本句語境不同。"
+        "fabric-mcq-67": "本句的「fabrication」指「數碼製造」。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-67"
     },
@@ -6058,11 +5509,9 @@ export default {
       "masked": "He ____ to explain the missing goods.",
       "options": [
         "fabric-mcq-68",
-        "fabric-mcq-67",
-        "fabric-mcq-69",
-        "fabric-mcq-66",
-        "fabric-mcq-70",
-        "fabric-mcq-65"
+        "fabric-mcq-42",
+        "fabric-mcq-74",
+        "fabric-pdf-002"
       ],
       "explanation": "本句的「fabricated a story」指「捏造故事」。",
       "sentenceIndex": 145,
@@ -6071,12 +5520,10 @@ export default {
         "fabricated a story"
       ],
       "optionReasons": {
-        "fabric-mcq-68": "本句指「捏造故事」。",
-        "fabric-mcq-67": "「數碼製造」與本句語境不同。",
-        "fabric-mcq-69": "「捏造證據」與本句語境不同。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。",
-        "fabric-mcq-70": "「捏造主張」與本句語境不同。",
-        "fabric-mcq-65": "「製造；加工」與本句語境不同。"
+        "fabric-mcq-68": "本句的「fabricated a story」指「捏造故事」。",
+        "fabric-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "fabric-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-68"
     },
@@ -6088,11 +5535,9 @@ export default {
       "masked": "The customer was accused of ____ the complaint.",
       "options": [
         "fabric-mcq-68",
-        "fabric-mcq-67",
-        "fabric-mcq-69",
-        "fabric-mcq-66",
-        "fabric-mcq-70",
-        "fabric-mcq-65"
+        "fabric-mcq-11",
+        "fabric-mcq-57",
+        "fabric-mcq-35"
       ],
       "explanation": "本句的「fabricating」指「捏造故事」。",
       "sentenceIndex": 146,
@@ -6101,12 +5546,10 @@ export default {
         "fabricating"
       ],
       "optionReasons": {
-        "fabric-mcq-68": "本句指「捏造故事」。",
-        "fabric-mcq-67": "「數碼製造」與本句語境不同。",
-        "fabric-mcq-69": "「捏造證據」與本句語境不同。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。",
-        "fabric-mcq-70": "「捏造主張」與本句語境不同。",
-        "fabric-mcq-65": "「製造；加工」與本句語境不同。"
+        "fabric-mcq-68": "本句的「fabricating」指「捏造故事」。",
+        "fabric-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-68"
     },
@@ -6118,11 +5561,9 @@ export default {
       "masked": "Nobody should ____ to support a return claim.",
       "options": [
         "fabric-mcq-69",
-        "fabric-mcq-68",
-        "fabric-mcq-70",
-        "fabric-mcq-67",
-        "fabric-mcq-71",
-        "fabric-mcq-66"
+        "fabric-mcq-20",
+        "fabric-mcq-62",
+        "fabric-mcq-54"
       ],
       "explanation": "本句的「fabricate evidence」指「捏造證據」。",
       "sentenceIndex": 147,
@@ -6131,12 +5572,10 @@ export default {
         "fabricate evidence"
       ],
       "optionReasons": {
-        "fabric-mcq-69": "本句指「捏造證據」。",
-        "fabric-mcq-68": "「捏造故事」與本句語境不同。",
-        "fabric-mcq-70": "「捏造主張」與本句語境不同。",
-        "fabric-mcq-67": "「數碼製造」與本句語境不同。",
-        "fabric-mcq-71": "「捏造的故事／謊言」與本句語境不同。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。"
+        "fabric-mcq-69": "本句的「fabricate evidence」指「捏造證據」。",
+        "fabric-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-69"
     },
@@ -6148,11 +5587,9 @@ export default {
       "masked": "The allegation that evidence had been ____ was investigated.",
       "options": [
         "fabric-mcq-69",
-        "fabric-mcq-68",
-        "fabric-mcq-70",
-        "fabric-mcq-67",
-        "fabric-mcq-71",
-        "fabric-mcq-66"
+        "fabric-reviewed-5b4ecc1463",
+        "fabric-mcq-54",
+        "fabric-mcq-56"
       ],
       "explanation": "本句的「fabricated」指「捏造證據」。",
       "sentenceIndex": 148,
@@ -6161,12 +5598,10 @@ export default {
         "fabricated"
       ],
       "optionReasons": {
-        "fabric-mcq-69": "本句指「捏造證據」。",
-        "fabric-mcq-68": "「捏造故事」與本句語境不同。",
-        "fabric-mcq-70": "「捏造主張」與本句語境不同。",
-        "fabric-mcq-67": "「數碼製造」與本句語境不同。",
-        "fabric-mcq-71": "「捏造的故事／謊言」與本句語境不同。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。"
+        "fabric-mcq-69": "本句的「fabricated」指「捏造證據」。",
+        "fabric-reviewed-5b4ecc1463": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-69"
     },
@@ -6178,11 +5613,9 @@ export default {
       "masked": "He ____ for the delay.",
       "options": [
         "fabric-mcq-69",
-        "fabric-mcq-68",
-        "fabric-mcq-70",
-        "fabric-mcq-67",
-        "fabric-mcq-71",
-        "fabric-mcq-66"
+        "fabric-mcq-22",
+        "fabric-mcq-74",
+        "fabric-mcq-57"
       ],
       "explanation": "本句的「fabricated an excuse」指「捏造證據」。",
       "sentenceIndex": 149,
@@ -6191,12 +5624,10 @@ export default {
         "fabricated an excuse"
       ],
       "optionReasons": {
-        "fabric-mcq-69": "本句指「捏造證據」。",
-        "fabric-mcq-68": "「捏造故事」與本句語境不同。",
-        "fabric-mcq-70": "「捏造主張」與本句語境不同。",
-        "fabric-mcq-67": "「數碼製造」與本句語境不同。",
-        "fabric-mcq-71": "「捏造的故事／謊言」與本句語境不同。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。"
+        "fabric-mcq-69": "本句的「fabricated an excuse」指「捏造證據」。",
+        "fabric-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-69"
     },
@@ -6208,11 +5639,9 @@ export default {
       "masked": "The explanation sounded ____.",
       "options": [
         "fabric-mcq-69",
-        "fabric-mcq-68",
-        "fabric-mcq-70",
-        "fabric-mcq-67",
-        "fabric-mcq-71",
-        "fabric-mcq-66"
+        "fabric-mcq-52",
+        "fabric-mcq-44",
+        "fabric-mcq-59"
       ],
       "explanation": "本句的「fabricated」指「捏造證據」。",
       "sentenceIndex": 150,
@@ -6221,12 +5650,10 @@ export default {
         "fabricated"
       ],
       "optionReasons": {
-        "fabric-mcq-69": "本句指「捏造證據」。",
-        "fabric-mcq-68": "「捏造故事」與本句語境不同。",
-        "fabric-mcq-70": "「捏造主張」與本句語境不同。",
-        "fabric-mcq-67": "「數碼製造」與本句語境不同。",
-        "fabric-mcq-71": "「捏造的故事／謊言」與本句語境不同。",
-        "fabric-mcq-66": "「金屬加工」與本句語境不同。"
+        "fabric-mcq-69": "本句的「fabricated」指「捏造證據」。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-69"
     },
@@ -6238,11 +5665,9 @@ export default {
       "masked": "The company denied the ____.",
       "options": [
         "fabric-mcq-70",
-        "fabric-mcq-69",
-        "fabric-mcq-71",
-        "fabric-mcq-68",
-        "fabric-mcq-72",
-        "fabric-mcq-67"
+        "fabric-mcq-10",
+        "fabric-mcq-56",
+        "fabric-mcq-60"
       ],
       "explanation": "本句的「fabricated allegation」指「捏造主張」。",
       "sentenceIndex": 151,
@@ -6251,12 +5676,10 @@ export default {
         "fabricated allegation"
       ],
       "optionReasons": {
-        "fabric-mcq-70": "本句指「捏造主張」。",
-        "fabric-mcq-69": "「捏造證據」與本句語境不同。",
-        "fabric-mcq-71": "「捏造的故事／謊言」與本句語境不同。",
-        "fabric-mcq-68": "「捏造故事」與本句語境不同。",
-        "fabric-mcq-72": "「加工商／捏造者」與本句語境不同。",
-        "fabric-mcq-67": "「數碼製造」與本句語境不同。"
+        "fabric-mcq-70": "本句的「fabricated allegation」指「捏造主張」。",
+        "fabric-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-70"
     },
@@ -6268,11 +5691,9 @@ export default {
       "masked": "____ claims can damage trust.",
       "options": [
         "fabric-mcq-70",
-        "fabric-mcq-69",
-        "fabric-mcq-71",
-        "fabric-mcq-68",
-        "fabric-mcq-72",
-        "fabric-mcq-67"
+        "fabric-mcq-61",
+        "fabric-mcq-10",
+        "fabric-mcq-66"
       ],
       "explanation": "本句的「Fabricated」指「捏造主張」。",
       "sentenceIndex": 152,
@@ -6281,12 +5702,10 @@ export default {
         "Fabricated"
       ],
       "optionReasons": {
-        "fabric-mcq-70": "本句指「捏造主張」。",
-        "fabric-mcq-69": "「捏造證據」與本句語境不同。",
-        "fabric-mcq-71": "「捏造的故事／謊言」與本句語境不同。",
-        "fabric-mcq-68": "「捏造故事」與本句語境不同。",
-        "fabric-mcq-72": "「加工商／捏造者」與本句語境不同。",
-        "fabric-mcq-67": "「數碼製造」與本句語境不同。"
+        "fabric-mcq-70": "本句的「Fabricated」指「捏造主張」。",
+        "fabric-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-70"
     },
@@ -6298,11 +5717,9 @@ export default {
       "masked": "His explanation was a complete ____.",
       "options": [
         "fabric-mcq-71",
-        "fabric-mcq-70",
-        "fabric-mcq-72",
-        "fabric-mcq-69",
-        "fabric-mcq-73",
-        "fabric-mcq-68"
+        "fabric-mcq-25",
+        "fabric-mcq-59",
+        "fabric-mcq-56"
       ],
       "explanation": "本句的「fabrication」指「捏造的故事／謊言」。",
       "sentenceIndex": 153,
@@ -6311,12 +5728,10 @@ export default {
         "fabrication"
       ],
       "optionReasons": {
-        "fabric-mcq-71": "本句指「捏造的故事／謊言」。",
-        "fabric-mcq-70": "「捏造主張」與本句語境不同。",
-        "fabric-mcq-72": "「加工商／捏造者」與本句語境不同。",
-        "fabric-mcq-69": "「捏造證據」與本句語境不同。",
-        "fabric-mcq-73": "「預製」與本句語境不同。",
-        "fabric-mcq-68": "「捏造故事」與本句語境不同。"
+        "fabric-mcq-71": "本句的「fabrication」指「捏造的故事／謊言」。",
+        "fabric-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-71"
     },
@@ -6328,11 +5743,9 @@ export default {
       "masked": "The claim turned out to be a ____.",
       "options": [
         "fabric-mcq-71",
-        "fabric-mcq-70",
-        "fabric-mcq-72",
-        "fabric-mcq-69",
-        "fabric-mcq-73",
-        "fabric-mcq-68"
+        "fabric-mcq-39",
+        "fabric-mcq-74",
+        "fabric-mcq-58"
       ],
       "explanation": "本句的「fabrication」指「捏造的故事／謊言」。",
       "sentenceIndex": 154,
@@ -6341,12 +5754,10 @@ export default {
         "fabrication"
       ],
       "optionReasons": {
-        "fabric-mcq-71": "本句指「捏造的故事／謊言」。",
-        "fabric-mcq-70": "「捏造主張」與本句語境不同。",
-        "fabric-mcq-72": "「加工商／捏造者」與本句語境不同。",
-        "fabric-mcq-69": "「捏造證據」與本句語境不同。",
-        "fabric-mcq-73": "「預製」與本句語境不同。",
-        "fabric-mcq-68": "「捏造故事」與本句語境不同。"
+        "fabric-mcq-71": "本句的「fabrication」指「捏造的故事／謊言」。",
+        "fabric-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-71"
     },
@@ -6358,11 +5769,9 @@ export default {
       "masked": "The steel ____ supplied the structural components.",
       "options": [
         "fabric-mcq-72",
-        "fabric-mcq-71",
-        "fabric-mcq-73",
-        "fabric-mcq-70",
-        "fabric-mcq-74",
-        "fabric-mcq-69"
+        "fabric-mcq-53",
+        "fabric-reviewed-5b4ecc1463",
+        "fabric-mcq-57"
       ],
       "explanation": "本句的「fabricator」指「加工商／捏造者」。",
       "sentenceIndex": 155,
@@ -6371,12 +5780,10 @@ export default {
         "fabricator"
       ],
       "optionReasons": {
-        "fabric-mcq-72": "本句指「加工商／捏造者」。",
-        "fabric-mcq-71": "「捏造的故事／謊言」與本句語境不同。",
-        "fabric-mcq-73": "「預製」與本句語境不同。",
-        "fabric-mcq-70": "「捏造主張」與本句語境不同。",
-        "fabric-mcq-74": "「預製的」與本句語境不同。",
-        "fabric-mcq-69": "「捏造證據」與本句語境不同。"
+        "fabric-mcq-72": "本句的「fabricator」指「加工商／捏造者」。",
+        "fabric-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "fabric-reviewed-5b4ecc1463": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-72"
     },
@@ -6388,11 +5795,9 @@ export default {
       "masked": "____ turn raw materials into finished components.",
       "options": [
         "fabric-mcq-72",
-        "fabric-mcq-71",
-        "fabric-mcq-73",
-        "fabric-mcq-70",
+        "fabric-mcq-29",
         "fabric-mcq-74",
-        "fabric-mcq-69"
+        "fabric-mcq-54"
       ],
       "explanation": "本句的「Fabricators」指「加工商／捏造者」。",
       "sentenceIndex": 156,
@@ -6401,12 +5806,10 @@ export default {
         "Fabricators"
       ],
       "optionReasons": {
-        "fabric-mcq-72": "本句指「加工商／捏造者」。",
-        "fabric-mcq-71": "「捏造的故事／謊言」與本句語境不同。",
-        "fabric-mcq-73": "「預製」與本句語境不同。",
-        "fabric-mcq-70": "「捏造主張」與本句語境不同。",
-        "fabric-mcq-74": "「預製的」與本句語境不同。",
-        "fabric-mcq-69": "「捏造證據」與本句語境不同。"
+        "fabric-mcq-72": "本句的「Fabricators」指「加工商／捏造者」。",
+        "fabric-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-72"
     },
@@ -6418,11 +5821,9 @@ export default {
       "masked": "The court found that he was the ____ of the false documents.",
       "options": [
         "fabric-mcq-72",
-        "fabric-mcq-71",
-        "fabric-mcq-73",
-        "fabric-mcq-70",
-        "fabric-mcq-74",
-        "fabric-mcq-69"
+        "fabric-mcq-25",
+        "fabric-mcq-49",
+        "fabric-mcq-47"
       ],
       "explanation": "本句的「fabricator」指「加工商／捏造者」。",
       "sentenceIndex": 157,
@@ -6431,12 +5832,10 @@ export default {
         "fabricator"
       ],
       "optionReasons": {
-        "fabric-mcq-72": "本句指「加工商／捏造者」。",
-        "fabric-mcq-71": "「捏造的故事／謊言」與本句語境不同。",
-        "fabric-mcq-73": "「預製」與本句語境不同。",
-        "fabric-mcq-70": "「捏造主張」與本句語境不同。",
-        "fabric-mcq-74": "「預製的」與本句語境不同。",
-        "fabric-mcq-69": "「捏造證據」與本句語境不同。"
+        "fabric-mcq-72": "本句的「fabricator」指「加工商／捏造者」。",
+        "fabric-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-72"
     },
@@ -6448,11 +5847,9 @@ export default {
       "masked": "The building components were ____ in a factory.",
       "options": [
         "fabric-mcq-73",
-        "fabric-mcq-72",
-        "fabric-mcq-74",
-        "fabric-mcq-71",
-        "fabric-mcq-75",
-        "fabric-mcq-70"
+        "fabric-mcq-70",
+        "fabric-mcq-10",
+        "fabric-mcq-48"
       ],
       "explanation": "本句的「prefabricated」指「預製」。",
       "sentenceIndex": 158,
@@ -6461,12 +5858,10 @@ export default {
         "prefabricated"
       ],
       "optionReasons": {
-        "fabric-mcq-73": "本句指「預製」。",
-        "fabric-mcq-72": "「加工商／捏造者」與本句語境不同。",
-        "fabric-mcq-74": "「預製的」與本句語境不同。",
-        "fabric-mcq-71": "「捏造的故事／謊言」與本句語境不同。",
-        "fabric-mcq-75": "「預製工法」與本句語境不同。",
-        "fabric-mcq-70": "「捏造主張」與本句語境不同。"
+        "fabric-mcq-73": "本句的「prefabricated」指「預製」。",
+        "fabric-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-73"
     },
@@ -6478,11 +5873,9 @@ export default {
       "masked": "The school uses a ____.",
       "options": [
         "fabric-mcq-74",
-        "fabric-mcq-73",
-        "fabric-mcq-75",
-        "fabric-mcq-72",
-        "fabric-mcq-76",
-        "fabric-mcq-71"
+        "fabric-pdf-002",
+        "fabric-mcq-31",
+        "fabric-mcq-72"
       ],
       "explanation": "本句的「prefabricated building」指「預製的」。",
       "sentenceIndex": 159,
@@ -6491,12 +5884,10 @@ export default {
         "prefabricated building"
       ],
       "optionReasons": {
-        "fabric-mcq-74": "本句指「預製的」。",
-        "fabric-mcq-73": "「預製」與本句語境不同。",
-        "fabric-mcq-75": "「預製工法」與本句語境不同。",
-        "fabric-mcq-72": "「加工商／捏造者」與本句語境不同。",
-        "fabric-mcq-76": "「預製式的／預製建築」與本句語境不同。",
-        "fabric-mcq-71": "「捏造的故事／謊言」與本句語境不同。"
+        "fabric-mcq-74": "本句的「prefabricated building」指「預製的」。",
+        "fabric-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-74"
     },
@@ -6508,11 +5899,9 @@ export default {
       "masked": "The site received several ____.",
       "options": [
         "fabric-mcq-74",
-        "fabric-mcq-73",
-        "fabric-mcq-75",
-        "fabric-mcq-72",
-        "fabric-mcq-76",
-        "fabric-mcq-71"
+        "fabric-mcq-28",
+        "fabric-mcq-57",
+        "fabric-mcq-37"
       ],
       "explanation": "本句的「prefabricated components」指「預製的」。",
       "sentenceIndex": 160,
@@ -6521,104 +5910,96 @@ export default {
         "prefabricated components"
       ],
       "optionReasons": {
-        "fabric-mcq-74": "本句指「預製的」。",
-        "fabric-mcq-73": "「預製」與本句語境不同。",
-        "fabric-mcq-75": "「預製工法」與本句語境不同。",
-        "fabric-mcq-72": "「加工商／捏造者」與本句語境不同。",
-        "fabric-mcq-76": "「預製式的／預製建築」與本句語境不同。",
-        "fabric-mcq-71": "「捏造的故事／謊言」與本句語境不同。"
+        "fabric-mcq-74": "本句的「prefabricated components」指「預製的」。",
+        "fabric-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fabric-mcq-74"
     },
     {
       "id": "fabric-86-0",
-      "sense": "fabric-mcq-75",
+      "sense": "fabric-reviewed-85deffc032",
       "en": "Product pages should contain accurate fabric descriptions.",
       "zh": "產品頁應提供準確的布料描述。",
       "masked": "Product pages should contain accurate ____.",
       "options": [
-        "fabric-mcq-75",
-        "fabric-mcq-74",
-        "fabric-mcq-76",
-        "fabric-mcq-73",
-        "fabric-mcq-72",
-        "fabric-mcq-71"
+        "fabric-reviewed-85deffc032",
+        "fabric-mcq-61",
+        "fabric-mcq-68",
+        "fabric-mcq-50"
       ],
-      "explanation": "本句的「fabric descriptions」指「預製工法」。",
+      "explanation": "對照完整句子：「產品頁應提供準確的布料描述。」。這裡的「fabric descriptions」表示「布料描述」。",
       "sentenceIndex": 162,
       "sourcePractice": 1,
       "targets": [
         "fabric descriptions"
       ],
       "optionReasons": {
-        "fabric-mcq-75": "本句指「預製工法」。",
-        "fabric-mcq-74": "「預製的」與本句語境不同。",
-        "fabric-mcq-76": "「預製式的／預製建築」與本句語境不同。",
-        "fabric-mcq-73": "「預製」與本句語境不同。",
-        "fabric-mcq-72": "「加工商／捏造者」與本句語境不同。",
-        "fabric-mcq-71": "「捏造的故事／謊言」與本句語境不同。"
+        "fabric-reviewed-85deffc032": "對照完整句子：「產品頁應提供準確的布料描述。」。這裡的「fabric descriptions」表示「布料描述」。",
+        "fabric-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "fabric-mcq-75"
+      "correctOption": "fabric-reviewed-85deffc032",
+      "previousCorrectOption": "fabric-mcq-75",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "fabric-86-1",
-      "sense": "fabric-mcq-75",
+      "sense": "fabric-reviewed-85deffc032",
       "en": "Soft fabric” alone may be too vague.",
       "zh": "單寫「柔軟布料」可能過於含糊。",
       "masked": "Soft ____” alone may be too vague.",
       "options": [
-        "fabric-mcq-75",
-        "fabric-mcq-74",
-        "fabric-mcq-76",
-        "fabric-mcq-73",
-        "fabric-mcq-72",
-        "fabric-mcq-71"
+        "fabric-reviewed-85deffc032",
+        "fabric-mcq-57",
+        "fabric-mcq-60",
+        "fabric-mcq-70"
       ],
-      "explanation": "本句的「fabric」指「預製工法」。",
+      "explanation": "對照完整句子：「單寫「柔軟布料」可能過於含糊。」。這裡的「fabric」表示「布料描述」。",
       "sentenceIndex": 163,
       "sourcePractice": 2,
       "targets": [
         "fabric"
       ],
       "optionReasons": {
-        "fabric-mcq-75": "本句指「預製工法」。",
-        "fabric-mcq-74": "「預製的」與本句語境不同。",
-        "fabric-mcq-76": "「預製式的／預製建築」與本句語境不同。",
-        "fabric-mcq-73": "「預製」與本句語境不同。",
-        "fabric-mcq-72": "「加工商／捏造者」與本句語境不同。",
-        "fabric-mcq-71": "「捏造的故事／謊言」與本句語境不同。"
+        "fabric-reviewed-85deffc032": "對照完整句子：「單寫「柔軟布料」可能過於含糊。」。這裡的「fabric」表示「布料描述」。",
+        "fabric-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "fabric-mcq-75"
+      "correctOption": "fabric-reviewed-85deffc032",
+      "previousCorrectOption": "fabric-mcq-75",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "fabric-87-0",
-      "sense": "fabric-mcq-75",
+      "sense": "fabric-reviewed-5b4ecc1463",
       "en": "Better fabric information may reduce avoidable returns.",
       "zh": "更完整的布料資料可能減少可避免的退貨。",
       "masked": "Better ____ may reduce avoidable returns.",
       "options": [
-        "fabric-mcq-75",
-        "fabric-mcq-74",
-        "fabric-mcq-76",
+        "fabric-reviewed-5b4ecc1463",
+        "fabric-mcq-52",
         "fabric-mcq-73",
-        "fabric-mcq-72",
-        "fabric-mcq-71"
+        "fabric-mcq-59"
       ],
-      "explanation": "本句的「fabric information」指「預製工法」。",
+      "explanation": "對照完整句子：「更完整的布料資料可能減少可避免的退貨。」。這裡的「fabric information」表示「布料資料」。",
       "sentenceIndex": 164,
       "sourcePractice": 1,
       "targets": [
         "fabric information"
       ],
       "optionReasons": {
-        "fabric-mcq-75": "本句指「預製工法」。",
-        "fabric-mcq-74": "「預製的」與本句語境不同。",
-        "fabric-mcq-76": "「預製式的／預製建築」與本句語境不同。",
-        "fabric-mcq-73": "「預製」與本句語境不同。",
-        "fabric-mcq-72": "「加工商／捏造者」與本句語境不同。",
-        "fabric-mcq-71": "「捏造的故事／謊言」與本句語境不同。"
+        "fabric-reviewed-5b4ecc1463": "對照完整句子：「更完整的布料資料可能減少可避免的退貨。」。這裡的「fabric information」表示「布料資料」。",
+        "fabric-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "fabric-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "fabric-mcq-75"
+      "correctOption": "fabric-reviewed-5b4ecc1463",
+      "previousCorrectOption": "fabric-mcq-75",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     }
   ],
   "comparisons": [],
@@ -6628,5 +6009,7 @@ export default {
     "sha256": "57d729bbe992ae1299665ab547f469b7a4ff083c47528971640ae3cde694a6f0",
     "pages": 57
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

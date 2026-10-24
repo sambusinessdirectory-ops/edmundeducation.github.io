@@ -68,16 +68,6 @@ export default {
       "note": "來源詞義：重複、模仿或再次發出相似聲音",
       "examples": [
         [
-          "The hall echoed with laughter.",
-          "大廳裡回蕩著笑聲。",
-          "重複、模仿或再次發出相似聲音"
-        ],
-        [
-          "The room echoed with applause.",
-          "房間裡回蕩著掌聲。",
-          "重複、模仿或再次發出相似聲音"
-        ],
-        [
           "The child echoed the sound.",
           "孩子模仿／重複了那個聲音。",
           "重複、模仿或再次發出相似聲音"
@@ -267,16 +257,6 @@ export default {
           "They were trapped in an online echo chamber.",
           "他們困在一個網上意見回音室／同溫層裡。",
           "相同觀點反覆被重複和強化、外部不同意見很少進入的環境"
-        ],
-        [
-          "The empty hall felt like an echo chamber.",
-          "空蕩的大廳像一個回音室。",
-          "相同觀點反覆被重複和強化、外部不同意見很少進入的環境"
-        ],
-        [
-          "The room acted as an echo chamber.",
-          "這個房間像回音室一樣放大回聲。",
-          "相同觀點反覆被重複和強化、外部不同意見很少進入的環境"
         ]
       ],
       "options": [],
@@ -298,16 +278,6 @@ export default {
         [
           "Her footsteps disappeared down the echoing hall.",
           "她的腳步聲消失在回聲陣陣的大廳裡。",
-          "充滿明顯回聲／聲音不斷回蕩的"
-        ],
-        [
-          "He made an echoing argument about fairness.",
-          "他提出了一個呼應先前公平觀點的論點。",
-          "充滿明顯回聲／聲音不斷回蕩的"
-        ],
-        [
-          "The article contained echoing themes from the earlier work.",
-          "這篇文章包含了與較早作品互相呼應的主題。",
           "充滿明顯回聲／聲音不斷回蕩的"
         ]
       ],
@@ -357,6 +327,72 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "echo-reviewed-a00b883840",
+      "title": "某空間充滿某種聲音的回響",
+      "form": "echo · source section 4",
+      "en": "某空間充滿某種聲音的回響",
+      "zh": "某空間充滿某種聲音的回響",
+      "note": "對照原始教材第 4 節及例句核實。",
+      "examples": [
+        [
+          "The hall echoed with laughter.",
+          "大廳裡回蕩著笑聲。",
+          "某空間充滿某種聲音的回響"
+        ],
+        [
+          "The room echoed with applause.",
+          "房間裡回蕩著掌聲。",
+          "某空間充滿某種聲音的回響"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "echo-reviewed-fa5813e209",
+      "title": "聲音容易被反覆反射的空間",
+      "form": "echo · source section 15",
+      "en": "聲音容易被反覆反射的空間",
+      "zh": "聲音容易被反覆反射的空間",
+      "note": "對照原始教材第 15 節及例句核實。",
+      "examples": [
+        [
+          "The empty hall felt like an echo chamber.",
+          "空蕩的大廳像一個回音室。",
+          "聲音容易被反覆反射的空間"
+        ],
+        [
+          "The room acted as an echo chamber.",
+          "這個房間像回音室一樣放大回聲。",
+          "聲音容易被反覆反射的空間"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "echo-reviewed-19087a0229",
+      "title": "呼應；重複",
+      "form": "echo · source section 17",
+      "en": "呼應；重複",
+      "zh": "呼應；重複",
+      "note": "對照原始教材第 17 節及例句核實。",
+      "examples": [
+        [
+          "He made an echoing argument about fairness.",
+          "他提出了一個呼應先前公平觀點的論點。",
+          "呼應；重複"
+        ],
+        [
+          "The article contained echoing themes from the earlier work.",
+          "這篇文章包含了與較早作品互相呼應的主題。",
+          "呼應；重複"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -368,11 +404,9 @@ export default {
       "masked": "We heard an ____ in the cave.",
       "options": [
         "echo-mcq-01",
-        "echo-mcq-02",
-        "echo-mcq-03",
-        "echo-mcq-04",
+        "echo-mcq-07",
         "echo-mcq-05",
-        "echo-mcq-06"
+        "echo-mcq-14"
       ],
       "explanation": "本句的「echo」指「原聲碰到表面後反射回來，再次被聽見的聲音」。",
       "sentenceIndex": 0,
@@ -381,12 +415,10 @@ export default {
         "echo"
       ],
       "optionReasons": {
-        "echo-mcq-01": "本句指「原聲碰到表面後反射回來，再次被聽見的聲音」。",
-        "echo-mcq-02": "「聲音在空間中反射並持續回蕩」是「echo — verb」的用法，與本句語境不同。",
-        "echo-mcq-03": "「重複、模仿或再次發出相似聲音」是「echo a sound」的用法，與本句語境不同。",
-        "echo-mcq-04": "「重複／再次表達某人說過的內容」是「echo someone’s words」的用法，與本句語境不同。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。"
+        "echo-mcq-01": "本句的「echo」指「原聲碰到表面後反射回來，再次被聽見的聲音」。",
+        "echo-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-01"
     },
@@ -398,11 +430,9 @@ export default {
       "masked": "Her voice produced a clear ____.",
       "options": [
         "echo-mcq-01",
-        "echo-mcq-02",
-        "echo-mcq-03",
-        "echo-mcq-04",
-        "echo-mcq-05",
-        "echo-mcq-06"
+        "echo-reviewed-19087a0229",
+        "echo-mcq-06",
+        "echo-mcq-09"
       ],
       "explanation": "本句的「echo」指「原聲碰到表面後反射回來，再次被聽見的聲音」。",
       "sentenceIndex": 1,
@@ -411,12 +441,10 @@ export default {
         "echo"
       ],
       "optionReasons": {
-        "echo-mcq-01": "本句指「原聲碰到表面後反射回來，再次被聽見的聲音」。",
-        "echo-mcq-02": "「聲音在空間中反射並持續回蕩」是「echo — verb」的用法，與本句語境不同。",
-        "echo-mcq-03": "「重複、模仿或再次發出相似聲音」是「echo a sound」的用法，與本句語境不同。",
-        "echo-mcq-04": "「重複／再次表達某人說過的內容」是「echo someone’s words」的用法，與本句語境不同。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。"
+        "echo-mcq-01": "本句的「echo」指「原聲碰到表面後反射回來，再次被聽見的聲音」。",
+        "echo-reviewed-19087a0229": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-01"
     },
@@ -428,11 +456,9 @@ export default {
       "masked": "The ____ filled the hall.",
       "options": [
         "echo-mcq-01",
-        "echo-mcq-02",
-        "echo-mcq-03",
-        "echo-mcq-04",
-        "echo-mcq-05",
-        "echo-mcq-06"
+        "echo-mcq-07",
+        "echo-reviewed-19087a0229",
+        "echo-mcq-14"
       ],
       "explanation": "本句的「echo of footsteps」指「原聲碰到表面後反射回來，再次被聽見的聲音」。",
       "sentenceIndex": 2,
@@ -441,12 +467,10 @@ export default {
         "echo of footsteps"
       ],
       "optionReasons": {
-        "echo-mcq-01": "本句指「原聲碰到表面後反射回來，再次被聽見的聲音」。",
-        "echo-mcq-02": "「聲音在空間中反射並持續回蕩」是「echo — verb」的用法，與本句語境不同。",
-        "echo-mcq-03": "「重複、模仿或再次發出相似聲音」是「echo a sound」的用法，與本句語境不同。",
-        "echo-mcq-04": "「重複／再次表達某人說過的內容」是「echo someone’s words」的用法，與本句語境不同。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。"
+        "echo-mcq-01": "本句的「echo of footsteps」指「原聲碰到表面後反射回來，再次被聽見的聲音」。",
+        "echo-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "echo-reviewed-19087a0229": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-01"
     },
@@ -458,11 +482,9 @@ export default {
       "masked": "We could hear the ____ of laughter.",
       "options": [
         "echo-mcq-01",
-        "echo-mcq-02",
-        "echo-mcq-03",
-        "echo-mcq-04",
         "echo-mcq-05",
-        "echo-mcq-06"
+        "echo-mcq-06",
+        "echo-mcq-09"
       ],
       "explanation": "本句的「echo」指「原聲碰到表面後反射回來，再次被聽見的聲音」。",
       "sentenceIndex": 3,
@@ -471,12 +493,10 @@ export default {
         "echo"
       ],
       "optionReasons": {
-        "echo-mcq-01": "本句指「原聲碰到表面後反射回來，再次被聽見的聲音」。",
-        "echo-mcq-02": "「聲音在空間中反射並持續回蕩」是「echo — verb」的用法，與本句語境不同。",
-        "echo-mcq-03": "「重複、模仿或再次發出相似聲音」是「echo a sound」的用法，與本句語境不同。",
-        "echo-mcq-04": "「重複／再次表達某人說過的內容」是「echo someone’s words」的用法，與本句語境不同。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。"
+        "echo-mcq-01": "本句的「echo」指「原聲碰到表面後反射回來，再次被聽見的聲音」。",
+        "echo-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-01"
     },
@@ -488,11 +508,8 @@ export default {
       "masked": "Her voice ____.",
       "options": [
         "echo-mcq-02",
-        "echo-mcq-01",
-        "echo-mcq-03",
-        "echo-mcq-04",
         "echo-mcq-05",
-        "echo-mcq-06"
+        "echo-mcq-10"
       ],
       "explanation": "本句的「echoed through the room」指「聲音在空間中反射並持續回蕩」。",
       "sentenceIndex": 4,
@@ -501,12 +518,9 @@ export default {
         "echoed through the room"
       ],
       "optionReasons": {
-        "echo-mcq-02": "本句指「聲音在空間中反射並持續回蕩」。",
-        "echo-mcq-01": "「原聲碰到表面後反射回來，再次被聽見的聲音」是「echo — literal sound」的用法，與本句語境不同。",
-        "echo-mcq-03": "「重複、模仿或再次發出相似聲音」是「echo a sound」的用法，與本句語境不同。",
-        "echo-mcq-04": "「重複／再次表達某人說過的內容」是「echo someone’s words」的用法，與本句語境不同。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。"
+        "echo-mcq-02": "本句的「echoed through the room」指「聲音在空間中反射並持續回蕩」。",
+        "echo-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-02"
     },
@@ -518,11 +532,9 @@ export default {
       "masked": "The shout ____ across the valley.",
       "options": [
         "echo-mcq-02",
-        "echo-mcq-01",
-        "echo-mcq-03",
         "echo-mcq-04",
-        "echo-mcq-05",
-        "echo-mcq-06"
+        "echo-mcq-06",
+        "echo-mcq-14"
       ],
       "explanation": "本句的「echoed」指「聲音在空間中反射並持續回蕩」。",
       "sentenceIndex": 5,
@@ -531,74 +543,68 @@ export default {
         "echoed"
       ],
       "optionReasons": {
-        "echo-mcq-02": "本句指「聲音在空間中反射並持續回蕩」。",
-        "echo-mcq-01": "「原聲碰到表面後反射回來，再次被聽見的聲音」是「echo — literal sound」的用法，與本句語境不同。",
-        "echo-mcq-03": "「重複、模仿或再次發出相似聲音」是「echo a sound」的用法，與本句語境不同。",
-        "echo-mcq-04": "「重複／再次表達某人說過的內容」是「echo someone’s words」的用法，與本句語境不同。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。"
+        "echo-mcq-02": "本句的「echoed」指「聲音在空間中反射並持續回蕩」。",
+        "echo-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-02"
     },
     {
       "id": "echo-04-0",
-      "sense": "echo-mcq-03",
+      "sense": "echo-reviewed-a00b883840",
       "en": "The hall echoed with laughter.",
       "zh": "大廳裡回蕩著笑聲。",
       "masked": "The hall ____.",
       "options": [
-        "echo-mcq-03",
-        "echo-mcq-02",
-        "echo-mcq-04",
-        "echo-mcq-01",
-        "echo-mcq-05",
-        "echo-mcq-06"
+        "echo-reviewed-a00b883840",
+        "echo-mcq-11",
+        "echo-mcq-06",
+        "echo-mcq-08"
       ],
-      "explanation": "本句的「echoed with laughter」指「重複、模仿或再次發出相似聲音」。",
+      "explanation": "對照完整句子：「大廳裡回蕩著笑聲。」。這裡的「echoed with laughter」表示「某空間充滿某種聲音的回響」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "echoed with laughter"
       ],
       "optionReasons": {
-        "echo-mcq-03": "本句指「重複、模仿或再次發出相似聲音」。",
-        "echo-mcq-02": "「聲音在空間中反射並持續回蕩」是「echo — verb」的用法，與本句語境不同。",
-        "echo-mcq-04": "「重複／再次表達某人說過的內容」是「echo someone’s words」的用法，與本句語境不同。",
-        "echo-mcq-01": "「原聲碰到表面後反射回來，再次被聽見的聲音」是「echo — literal sound」的用法，與本句語境不同。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。"
+        "echo-reviewed-a00b883840": "對照完整句子：「大廳裡回蕩著笑聲。」。這裡的「echoed with laughter」表示「某空間充滿某種聲音的回響」。",
+        "echo-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "echo-mcq-03"
+      "correctOption": "echo-reviewed-a00b883840",
+      "previousCorrectOption": "echo-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "echo-04-1",
-      "sense": "echo-mcq-03",
+      "sense": "echo-reviewed-a00b883840",
       "en": "The room echoed with applause.",
       "zh": "房間裡回蕩著掌聲。",
       "masked": "The room ____ with applause.",
       "options": [
-        "echo-mcq-03",
-        "echo-mcq-02",
-        "echo-mcq-04",
-        "echo-mcq-01",
+        "echo-reviewed-a00b883840",
+        "echo-mcq-10",
         "echo-mcq-05",
-        "echo-mcq-06"
+        "echo-mcq-07"
       ],
-      "explanation": "本句的「echoed」指「重複、模仿或再次發出相似聲音」。",
+      "explanation": "對照完整句子：「房間裡回蕩著掌聲。」。這裡的「echoed」表示「某空間充滿某種聲音的回響」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "echoed"
       ],
       "optionReasons": {
-        "echo-mcq-03": "本句指「重複、模仿或再次發出相似聲音」。",
-        "echo-mcq-02": "「聲音在空間中反射並持續回蕩」是「echo — verb」的用法，與本句語境不同。",
-        "echo-mcq-04": "「重複／再次表達某人說過的內容」是「echo someone’s words」的用法，與本句語境不同。",
-        "echo-mcq-01": "「原聲碰到表面後反射回來，再次被聽見的聲音」是「echo — literal sound」的用法，與本句語境不同。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。"
+        "echo-reviewed-a00b883840": "對照完整句子：「房間裡回蕩著掌聲。」。這裡的「echoed」表示「某空間充滿某種聲音的回響」。",
+        "echo-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "echo-mcq-03"
+      "correctOption": "echo-reviewed-a00b883840",
+      "previousCorrectOption": "echo-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "echo-05-0",
@@ -608,11 +614,9 @@ export default {
       "masked": "The child ____.",
       "options": [
         "echo-mcq-03",
-        "echo-mcq-02",
-        "echo-mcq-04",
-        "echo-mcq-01",
-        "echo-mcq-05",
-        "echo-mcq-06"
+        "echo-mcq-08",
+        "echo-mcq-06",
+        "echo-mcq-13"
       ],
       "explanation": "本句的「echoed the sound」指「重複、模仿或再次發出相似聲音」。",
       "sentenceIndex": 8,
@@ -621,12 +625,10 @@ export default {
         "echoed the sound"
       ],
       "optionReasons": {
-        "echo-mcq-03": "本句指「重複、模仿或再次發出相似聲音」。",
-        "echo-mcq-02": "「聲音在空間中反射並持續回蕩」是「echo — verb」的用法，與本句語境不同。",
-        "echo-mcq-04": "「重複／再次表達某人說過的內容」是「echo someone’s words」的用法，與本句語境不同。",
-        "echo-mcq-01": "「原聲碰到表面後反射回來，再次被聽見的聲音」是「echo — literal sound」的用法，與本句語境不同。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。"
+        "echo-mcq-03": "本句的「echoed the sound」指「重複、模仿或再次發出相似聲音」。",
+        "echo-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-03"
     },
@@ -638,11 +640,9 @@ export default {
       "masked": "The birds seemed to ____ each other’s calls.",
       "options": [
         "echo-mcq-03",
-        "echo-mcq-02",
-        "echo-mcq-04",
-        "echo-mcq-01",
-        "echo-mcq-05",
-        "echo-mcq-06"
+        "echo-mcq-08",
+        "echo-mcq-06",
+        "echo-mcq-13"
       ],
       "explanation": "本句的「echo」指「重複、模仿或再次發出相似聲音」。",
       "sentenceIndex": 9,
@@ -651,12 +651,10 @@ export default {
         "echo"
       ],
       "optionReasons": {
-        "echo-mcq-03": "本句指「重複、模仿或再次發出相似聲音」。",
-        "echo-mcq-02": "「聲音在空間中反射並持續回蕩」是「echo — verb」的用法，與本句語境不同。",
-        "echo-mcq-04": "「重複／再次表達某人說過的內容」是「echo someone’s words」的用法，與本句語境不同。",
-        "echo-mcq-01": "「原聲碰到表面後反射回來，再次被聽見的聲音」是「echo — literal sound」的用法，與本句語境不同。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。"
+        "echo-mcq-03": "本句的「echo」指「重複、模仿或再次發出相似聲音」。",
+        "echo-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-03"
     },
@@ -668,11 +666,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "echo-mcq-04",
-        "echo-mcq-03",
-        "echo-mcq-05",
         "echo-mcq-02",
-        "echo-mcq-06",
-        "echo-mcq-01"
+        "echo-mcq-14",
+        "echo-mcq-06"
       ],
       "explanation": "本句的「echoed his words」指「重複／再次表達某人說過的內容」。",
       "sentenceIndex": 10,
@@ -681,12 +677,10 @@ export default {
         "echoed his words"
       ],
       "optionReasons": {
-        "echo-mcq-04": "本句指「重複／再次表達某人說過的內容」。",
-        "echo-mcq-03": "「重複、模仿或再次發出相似聲音」是「echo a sound」的用法，與本句語境不同。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。",
-        "echo-mcq-02": "「聲音在空間中反射並持續回蕩」是「echo — verb」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。",
-        "echo-mcq-01": "「原聲碰到表面後反射回來，再次被聽見的聲音」是「echo — literal sound」的用法，與本句語境不同。"
+        "echo-mcq-04": "本句的「echoed his words」指「重複／再次表達某人說過的內容」。",
+        "echo-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-04"
     },
@@ -698,11 +692,9 @@ export default {
       "masked": "Several students ____ the same concern.",
       "options": [
         "echo-mcq-04",
-        "echo-mcq-03",
-        "echo-mcq-05",
-        "echo-mcq-02",
+        "echo-reviewed-a00b883840",
         "echo-mcq-06",
-        "echo-mcq-01"
+        "echo-mcq-14"
       ],
       "explanation": "本句的「echoed」指「重複／再次表達某人說過的內容」。",
       "sentenceIndex": 11,
@@ -711,12 +703,10 @@ export default {
         "echoed"
       ],
       "optionReasons": {
-        "echo-mcq-04": "本句指「重複／再次表達某人說過的內容」。",
-        "echo-mcq-03": "「重複、模仿或再次發出相似聲音」是「echo a sound」的用法，與本句語境不同。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。",
-        "echo-mcq-02": "「聲音在空間中反射並持續回蕩」是「echo — verb」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。",
-        "echo-mcq-01": "「原聲碰到表面後反射回來，再次被聽見的聲音」是「echo — literal sound」的用法，與本句語境不同。"
+        "echo-mcq-04": "本句的「echoed」指「重複／再次表達某人說過的內容」。",
+        "echo-reviewed-a00b883840": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-04"
     },
@@ -728,11 +718,9 @@ export default {
       "masked": "Her comments ____.",
       "options": [
         "echo-mcq-05",
-        "echo-mcq-04",
-        "echo-mcq-06",
-        "echo-mcq-03",
-        "echo-mcq-07",
-        "echo-mcq-02"
+        "echo-reviewed-a00b883840",
+        "echo-mcq-14",
+        "echo-mcq-07"
       ],
       "explanation": "本句的「echoed my own thoughts」指「表達與先前某個觀點高度相似的想法；呼應」。",
       "sentenceIndex": 12,
@@ -741,12 +729,10 @@ export default {
         "echoed my own thoughts"
       ],
       "optionReasons": {
-        "echo-mcq-05": "本句指「表達與先前某個觀點高度相似的想法；呼應」。",
-        "echo-mcq-04": "「重複／再次表達某人說過的內容」是「echo someone’s words」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。",
-        "echo-mcq-03": "「重複、模仿或再次發出相似聲音」是「echo a sound」的用法，與本句語境不同。",
-        "echo-mcq-07": "「過去某種文化、經驗或風格在現在留下的痕跡」是「an echo of the past」的用法，與本句語境不同。",
-        "echo-mcq-02": "「聲音在空間中反射並持續回蕩」是「echo — verb」的用法，與本句語境不同。"
+        "echo-mcq-05": "本句的「echoed my own thoughts」指「表達與先前某個觀點高度相似的想法；呼應」。",
+        "echo-reviewed-a00b883840": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-05"
     },
@@ -758,11 +744,9 @@ export default {
       "masked": "The report ____ concerns raised earlier.",
       "options": [
         "echo-mcq-05",
-        "echo-mcq-04",
-        "echo-mcq-06",
-        "echo-mcq-03",
-        "echo-mcq-07",
-        "echo-mcq-02"
+        "echo-reviewed-a00b883840",
+        "echo-mcq-08",
+        "echo-mcq-10"
       ],
       "explanation": "本句的「echoes」指「表達與先前某個觀點高度相似的想法；呼應」。",
       "sentenceIndex": 13,
@@ -771,12 +755,10 @@ export default {
         "echoes"
       ],
       "optionReasons": {
-        "echo-mcq-05": "本句指「表達與先前某個觀點高度相似的想法；呼應」。",
-        "echo-mcq-04": "「重複／再次表達某人說過的內容」是「echo someone’s words」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。",
-        "echo-mcq-03": "「重複、模仿或再次發出相似聲音」是「echo a sound」的用法，與本句語境不同。",
-        "echo-mcq-07": "「過去某種文化、經驗或風格在現在留下的痕跡」是「an echo of the past」的用法，與本句語境不同。",
-        "echo-mcq-02": "「聲音在空間中反射並持續回蕩」是「echo — verb」的用法，與本句語境不同。"
+        "echo-mcq-05": "本句的「echoes」指「表達與先前某個觀點高度相似的想法；呼應」。",
+        "echo-reviewed-a00b883840": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-05"
     },
@@ -788,11 +770,9 @@ export default {
       "masked": "The design ____.",
       "options": [
         "echo-mcq-06",
-        "echo-mcq-05",
-        "echo-mcq-07",
-        "echo-mcq-04",
-        "echo-mcq-08",
-        "echo-mcq-03"
+        "echo-mcq-09",
+        "echo-mcq-03",
+        "echo-mcq-13"
       ],
       "explanation": "本句的「echoes traditional architecture」指「在風格、主題或形式上令人想起較早的事物」。",
       "sentenceIndex": 14,
@@ -801,12 +781,10 @@ export default {
         "echoes traditional architecture"
       ],
       "optionReasons": {
-        "echo-mcq-06": "本句指「在風格、主題或形式上令人想起較早的事物」。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。",
-        "echo-mcq-07": "「過去某種文化、經驗或風格在現在留下的痕跡」是「an echo of the past」的用法，與本句語境不同。",
-        "echo-mcq-04": "「重複／再次表達某人說過的內容」是「echo someone’s words」的用法，與本句語境不同。",
-        "echo-mcq-08": "「原來的人／事件已過去，但影響、感受或記憶仍持續存在」是「echo — lingering effect」的用法，與本句語境不同。",
-        "echo-mcq-03": "「重複、模仿或再次發出相似聲音」是「echo a sound」的用法，與本句語境不同。"
+        "echo-mcq-06": "本句的「echoes traditional architecture」指「在風格、主題或形式上令人想起較早的事物」。",
+        "echo-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-06"
     },
@@ -818,11 +796,9 @@ export default {
       "masked": "The speech ____ themes from earlier debates.",
       "options": [
         "echo-mcq-06",
-        "echo-mcq-05",
-        "echo-mcq-07",
-        "echo-mcq-04",
-        "echo-mcq-08",
-        "echo-mcq-03"
+        "echo-mcq-12",
+        "echo-mcq-11",
+        "echo-mcq-08"
       ],
       "explanation": "本句的「echoed」指「在風格、主題或形式上令人想起較早的事物」。",
       "sentenceIndex": 15,
@@ -831,12 +807,10 @@ export default {
         "echoed"
       ],
       "optionReasons": {
-        "echo-mcq-06": "本句指「在風格、主題或形式上令人想起較早的事物」。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。",
-        "echo-mcq-07": "「過去某種文化、經驗或風格在現在留下的痕跡」是「an echo of the past」的用法，與本句語境不同。",
-        "echo-mcq-04": "「重複／再次表達某人說過的內容」是「echo someone’s words」的用法，與本句語境不同。",
-        "echo-mcq-08": "「原來的人／事件已過去，但影響、感受或記憶仍持續存在」是「echo — lingering effect」的用法，與本句語境不同。",
-        "echo-mcq-03": "「重複、模仿或再次發出相似聲音」是「echo a sound」的用法，與本句語境不同。"
+        "echo-mcq-06": "本句的「echoed」指「在風格、主題或形式上令人想起較早的事物」。",
+        "echo-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-06"
     },
@@ -848,11 +822,9 @@ export default {
       "masked": "The old building feels like ____.",
       "options": [
         "echo-mcq-07",
-        "echo-mcq-06",
-        "echo-mcq-08",
-        "echo-mcq-05",
-        "echo-mcq-09",
-        "echo-mcq-04"
+        "echo-reviewed-a00b883840",
+        "echo-reviewed-19087a0229",
+        "echo-mcq-13"
       ],
       "explanation": "本句的「an echo of the past」指「過去某種文化、經驗或風格在現在留下的痕跡」。",
       "sentenceIndex": 16,
@@ -861,12 +833,10 @@ export default {
         "an echo of the past"
       ],
       "optionReasons": {
-        "echo-mcq-07": "本句指「過去某種文化、經驗或風格在現在留下的痕跡」。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。",
-        "echo-mcq-08": "「原來的人／事件已過去，但影響、感受或記憶仍持續存在」是「echo — lingering effect」的用法，與本句語境不同。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。",
-        "echo-mcq-04": "「重複／再次表達某人說過的內容」是「echo someone’s words」的用法，與本句語境不同。"
+        "echo-mcq-07": "本句的「an echo of the past」指「過去某種文化、經驗或風格在現在留下的痕跡」。",
+        "echo-reviewed-a00b883840": "請比較這個意思與句子中標示的用法。",
+        "echo-reviewed-19087a0229": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-07"
     },
@@ -878,11 +848,9 @@ export default {
       "masked": "The tradition is an ____ of an earlier age.",
       "options": [
         "echo-mcq-07",
-        "echo-mcq-06",
-        "echo-mcq-08",
-        "echo-mcq-05",
-        "echo-mcq-09",
-        "echo-mcq-04"
+        "echo-mcq-13",
+        "echo-mcq-12",
+        "echo-mcq-05"
       ],
       "explanation": "本句的「echo」指「過去某種文化、經驗或風格在現在留下的痕跡」。",
       "sentenceIndex": 17,
@@ -891,12 +859,10 @@ export default {
         "echo"
       ],
       "optionReasons": {
-        "echo-mcq-07": "本句指「過去某種文化、經驗或風格在現在留下的痕跡」。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。",
-        "echo-mcq-08": "「原來的人／事件已過去，但影響、感受或記憶仍持續存在」是「echo — lingering effect」的用法，與本句語境不同。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。",
-        "echo-mcq-04": "「重複／再次表達某人說過的內容」是「echo someone’s words」的用法，與本句語境不同。"
+        "echo-mcq-07": "本句的「echo」指「過去某種文化、經驗或風格在現在留下的痕跡」。",
+        "echo-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-07"
     },
@@ -908,10 +874,8 @@ export default {
       "masked": "Some people pass through your life like background noise, while others ____.",
       "options": [
         "echo-mcq-08",
-        "echo-mcq-07",
-        "echo-mcq-09",
         "echo-mcq-06",
-        "echo-mcq-10",
+        "echo-reviewed-fa5813e209",
         "echo-mcq-05"
       ],
       "explanation": "本句的「leave an echo」指「原來的人／事件已過去，但影響、感受或記憶仍持續存在」。",
@@ -921,12 +885,10 @@ export default {
         "leave an echo"
       ],
       "optionReasons": {
-        "echo-mcq-08": "本句指「原來的人／事件已過去，但影響、感受或記憶仍持續存在」。",
-        "echo-mcq-07": "「過去某種文化、經驗或風格在現在留下的痕跡」是「an echo of the past」的用法，與本句語境不同。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。",
-        "echo-mcq-10": "「某種情緒以較微弱、殘留的形式再次出現」是「an echo of emotion」的用法，與本句語境不同。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。"
+        "echo-mcq-08": "本句的「leave an echo」指「原來的人／事件已過去，但影響、感受或記憶仍持續存在」。",
+        "echo-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "echo-reviewed-fa5813e209": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-08"
     },
@@ -938,11 +900,9 @@ export default {
       "masked": "Her advice left an ____ long after the conversation ended.",
       "options": [
         "echo-mcq-08",
-        "echo-mcq-07",
-        "echo-mcq-09",
-        "echo-mcq-06",
+        "echo-reviewed-19087a0229",
         "echo-mcq-10",
-        "echo-mcq-05"
+        "echo-mcq-13"
       ],
       "explanation": "本句的「echo」指「原來的人／事件已過去，但影響、感受或記憶仍持續存在」。",
       "sentenceIndex": 19,
@@ -951,12 +911,10 @@ export default {
         "echo"
       ],
       "optionReasons": {
-        "echo-mcq-08": "本句指「原來的人／事件已過去，但影響、感受或記憶仍持續存在」。",
-        "echo-mcq-07": "「過去某種文化、經驗或風格在現在留下的痕跡」是「an echo of the past」的用法，與本句語境不同。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。",
-        "echo-mcq-10": "「某種情緒以較微弱、殘留的形式再次出現」是「an echo of emotion」的用法，與本句語境不同。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。"
+        "echo-mcq-08": "本句的「echo」指「原來的人／事件已過去，但影響、感受或記憶仍持續存在」。",
+        "echo-reviewed-19087a0229": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-08"
     },
@@ -968,11 +926,9 @@ export default {
       "masked": "The experience left an ____ in his memory.",
       "options": [
         "echo-mcq-08",
-        "echo-mcq-07",
-        "echo-mcq-09",
-        "echo-mcq-06",
-        "echo-mcq-10",
-        "echo-mcq-05"
+        "echo-mcq-13",
+        "echo-mcq-05",
+        "echo-mcq-12"
       ],
       "explanation": "本句的「echo」指「原來的人／事件已過去，但影響、感受或記憶仍持續存在」。",
       "sentenceIndex": 20,
@@ -981,12 +937,10 @@ export default {
         "echo"
       ],
       "optionReasons": {
-        "echo-mcq-08": "本句指「原來的人／事件已過去，但影響、感受或記憶仍持續存在」。",
-        "echo-mcq-07": "「過去某種文化、經驗或風格在現在留下的痕跡」是「an echo of the past」的用法，與本句語境不同。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。",
-        "echo-mcq-10": "「某種情緒以較微弱、殘留的形式再次出現」是「an echo of emotion」的用法，與本句語境不同。",
-        "echo-mcq-05": "「表達與先前某個觀點高度相似的想法；呼應」是「echo an idea/opinion」的用法，與本句語境不同。"
+        "echo-mcq-08": "本句的「echo」指「原來的人／事件已過去，但影響、感受或記憶仍持續存在」。",
+        "echo-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-08"
     },
@@ -998,11 +952,9 @@ export default {
       "masked": "Good teachers can ____ for years.",
       "options": [
         "echo-mcq-09",
-        "echo-mcq-08",
-        "echo-mcq-10",
-        "echo-mcq-07",
-        "echo-mcq-11",
-        "echo-mcq-06"
+        "echo-mcq-06",
+        "echo-mcq-03",
+        "echo-mcq-13"
       ],
       "explanation": "本句的「leave an echo」指「某人／某事結束後仍留下持久、可感受到的影響」。",
       "sentenceIndex": 21,
@@ -1011,12 +963,10 @@ export default {
         "leave an echo"
       ],
       "optionReasons": {
-        "echo-mcq-09": "本句指「某人／某事結束後仍留下持久、可感受到的影響」。",
-        "echo-mcq-08": "「原來的人／事件已過去，但影響、感受或記憶仍持續存在」是「echo — lingering effect」的用法，與本句語境不同。",
-        "echo-mcq-10": "「某種情緒以較微弱、殘留的形式再次出現」是「an echo of emotion」的用法，與本句語境不同。",
-        "echo-mcq-07": "「過去某種文化、經驗或風格在現在留下的痕跡」是「an echo of the past」的用法，與本句語境不同。",
-        "echo-mcq-11": "「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」是「echo chamber」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。"
+        "echo-mcq-09": "本句的「leave an echo」指「某人／某事結束後仍留下持久、可感受到的影響」。",
+        "echo-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-09"
     },
@@ -1028,10 +978,8 @@ export default {
       "masked": "Her kindness left an ____ in the people around her.",
       "options": [
         "echo-mcq-09",
-        "echo-mcq-08",
-        "echo-mcq-10",
-        "echo-mcq-07",
-        "echo-mcq-11",
+        "echo-mcq-05",
+        "echo-mcq-12",
         "echo-mcq-06"
       ],
       "explanation": "本句的「echo」指「某人／某事結束後仍留下持久、可感受到的影響」。",
@@ -1041,12 +989,10 @@ export default {
         "echo"
       ],
       "optionReasons": {
-        "echo-mcq-09": "本句指「某人／某事結束後仍留下持久、可感受到的影響」。",
-        "echo-mcq-08": "「原來的人／事件已過去，但影響、感受或記憶仍持續存在」是「echo — lingering effect」的用法，與本句語境不同。",
-        "echo-mcq-10": "「某種情緒以較微弱、殘留的形式再次出現」是「an echo of emotion」的用法，與本句語境不同。",
-        "echo-mcq-07": "「過去某種文化、經驗或風格在現在留下的痕跡」是「an echo of the past」的用法，與本句語境不同。",
-        "echo-mcq-11": "「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」是「echo chamber」的用法，與本句語境不同。",
-        "echo-mcq-06": "「在風格、主題或形式上令人想起較早的事物」是「echo a style/theme」的用法，與本句語境不同。"
+        "echo-mcq-09": "本句的「echo」指「某人／某事結束後仍留下持久、可感受到的影響」。",
+        "echo-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-09"
     },
@@ -1058,11 +1004,9 @@ export default {
       "masked": "There was an ____ in her voice.",
       "options": [
         "echo-mcq-10",
-        "echo-mcq-09",
-        "echo-mcq-11",
-        "echo-mcq-08",
         "echo-mcq-12",
-        "echo-mcq-07"
+        "echo-mcq-05",
+        "echo-mcq-13"
       ],
       "explanation": "本句的「echo of sadness」指「某種情緒以較微弱、殘留的形式再次出現」。",
       "sentenceIndex": 23,
@@ -1071,12 +1015,10 @@ export default {
         "echo of sadness"
       ],
       "optionReasons": {
-        "echo-mcq-10": "本句指「某種情緒以較微弱、殘留的形式再次出現」。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。",
-        "echo-mcq-11": "「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」是「echo chamber」的用法，與本句語境不同。",
-        "echo-mcq-08": "「原來的人／事件已過去，但影響、感受或記憶仍持續存在」是「echo — lingering effect」的用法，與本句語境不同。",
-        "echo-mcq-12": "「充滿明顯回聲／聲音不斷回蕩的」是「echoing」的用法，與本句語境不同。",
-        "echo-mcq-07": "「過去某種文化、經驗或風格在現在留下的痕跡」是「an echo of the past」的用法，與本句語境不同。"
+        "echo-mcq-10": "本句的「echo of sadness」指「某種情緒以較微弱、殘留的形式再次出現」。",
+        "echo-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-10"
     },
@@ -1088,11 +1030,9 @@ export default {
       "masked": "His smile contained an ____ of his father’s expression.",
       "options": [
         "echo-mcq-10",
-        "echo-mcq-09",
-        "echo-mcq-11",
-        "echo-mcq-08",
         "echo-mcq-12",
-        "echo-mcq-07"
+        "echo-mcq-05",
+        "echo-mcq-13"
       ],
       "explanation": "本句的「echo」指「某種情緒以較微弱、殘留的形式再次出現」。",
       "sentenceIndex": 24,
@@ -1101,12 +1041,10 @@ export default {
         "echo"
       ],
       "optionReasons": {
-        "echo-mcq-10": "本句指「某種情緒以較微弱、殘留的形式再次出現」。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。",
-        "echo-mcq-11": "「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」是「echo chamber」的用法，與本句語境不同。",
-        "echo-mcq-08": "「原來的人／事件已過去，但影響、感受或記憶仍持續存在」是「echo — lingering effect」的用法，與本句語境不同。",
-        "echo-mcq-12": "「充滿明顯回聲／聲音不斷回蕩的」是「echoing」的用法，與本句語境不同。",
-        "echo-mcq-07": "「過去某種文化、經驗或風格在現在留下的痕跡」是「an echo of the past」的用法，與本句語境不同。"
+        "echo-mcq-10": "本句的「echo」指「某種情緒以較微弱、殘留的形式再次出現」。",
+        "echo-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-10"
     },
@@ -1118,11 +1056,9 @@ export default {
       "masked": "The decision had ____ for years afterward.",
       "options": [
         "echo-mcq-14",
-        "echo-mcq-13",
         "echo-mcq-12",
-        "echo-mcq-11",
-        "echo-mcq-10",
-        "echo-mcq-09"
+        "echo-mcq-05",
+        "echo-mcq-06"
       ],
       "explanation": "本句的「echoes」指「原事件的後果／影響在之後仍反覆出現或被感受到」。",
       "sentenceIndex": 25,
@@ -1131,12 +1067,10 @@ export default {
         "echoes"
       ],
       "optionReasons": {
-        "echo-mcq-14": "本句指「原事件的後果／影響在之後仍反覆出現或被感受到」。",
-        "echo-mcq-13": "「聲波、雷達波等反射後返回的訊號／回波」是「echo — signal」的用法，與本句語境不同。",
-        "echo-mcq-12": "「充滿明顯回聲／聲音不斷回蕩的」是「echoing」的用法，與本句語境不同。",
-        "echo-mcq-11": "「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」是「echo chamber」的用法，與本句語境不同。",
-        "echo-mcq-10": "「某種情緒以較微弱、殘留的形式再次出現」是「an echo of emotion」的用法，與本句語境不同。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。"
+        "echo-mcq-14": "本句的「echoes」指「原事件的後果／影響在之後仍反覆出現或被感受到」。",
+        "echo-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-14"
     },
@@ -1148,11 +1082,9 @@ export default {
       "masked": "The conflict still ____ in the community.",
       "options": [
         "echo-mcq-14",
-        "echo-mcq-13",
+        "echo-mcq-04",
         "echo-mcq-12",
-        "echo-mcq-11",
-        "echo-mcq-10",
-        "echo-mcq-09"
+        "echo-mcq-06"
       ],
       "explanation": "本句的「echoes」指「原事件的後果／影響在之後仍反覆出現或被感受到」。",
       "sentenceIndex": 26,
@@ -1161,12 +1093,10 @@ export default {
         "echoes"
       ],
       "optionReasons": {
-        "echo-mcq-14": "本句指「原事件的後果／影響在之後仍反覆出現或被感受到」。",
-        "echo-mcq-13": "「聲波、雷達波等反射後返回的訊號／回波」是「echo — signal」的用法，與本句語境不同。",
-        "echo-mcq-12": "「充滿明顯回聲／聲音不斷回蕩的」是「echoing」的用法，與本句語境不同。",
-        "echo-mcq-11": "「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」是「echo chamber」的用法，與本句語境不同。",
-        "echo-mcq-10": "「某種情緒以較微弱、殘留的形式再次出現」是「an echo of emotion」的用法，與本句語境不同。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。"
+        "echo-mcq-14": "本句的「echoes」指「原事件的後果／影響在之後仍反覆出現或被感受到」。",
+        "echo-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-14"
     },
@@ -1178,11 +1108,9 @@ export default {
       "masked": "Social media can become an ____.",
       "options": [
         "echo-mcq-11",
+        "echo-mcq-08",
         "echo-mcq-10",
-        "echo-mcq-12",
-        "echo-mcq-09",
-        "echo-mcq-13",
-        "echo-mcq-08"
+        "echo-reviewed-a00b883840"
       ],
       "explanation": "本句的「echo chamber」指「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」。",
       "sentenceIndex": 27,
@@ -1191,12 +1119,10 @@ export default {
         "echo chamber"
       ],
       "optionReasons": {
-        "echo-mcq-11": "本句指「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」。",
-        "echo-mcq-10": "「某種情緒以較微弱、殘留的形式再次出現」是「an echo of emotion」的用法，與本句語境不同。",
-        "echo-mcq-12": "「充滿明顯回聲／聲音不斷回蕩的」是「echoing」的用法，與本句語境不同。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。",
-        "echo-mcq-13": "「聲波、雷達波等反射後返回的訊號／回波」是「echo — signal」的用法，與本句語境不同。",
-        "echo-mcq-08": "「原來的人／事件已過去，但影響、感受或記憶仍持續存在」是「echo — lingering effect」的用法，與本句語境不同。"
+        "echo-mcq-11": "本句的「echo chamber」指「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」。",
+        "echo-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "echo-reviewed-a00b883840": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-11"
     },
@@ -1208,11 +1134,9 @@ export default {
       "masked": "They were trapped in an online ____ chamber.",
       "options": [
         "echo-mcq-11",
-        "echo-mcq-10",
+        "echo-mcq-06",
         "echo-mcq-12",
-        "echo-mcq-09",
-        "echo-mcq-13",
-        "echo-mcq-08"
+        "echo-mcq-09"
       ],
       "explanation": "本句的「echo」指「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」。",
       "sentenceIndex": 28,
@@ -1221,74 +1145,68 @@ export default {
         "echo"
       ],
       "optionReasons": {
-        "echo-mcq-11": "本句指「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」。",
-        "echo-mcq-10": "「某種情緒以較微弱、殘留的形式再次出現」是「an echo of emotion」的用法，與本句語境不同。",
-        "echo-mcq-12": "「充滿明顯回聲／聲音不斷回蕩的」是「echoing」的用法，與本句語境不同。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。",
-        "echo-mcq-13": "「聲波、雷達波等反射後返回的訊號／回波」是「echo — signal」的用法，與本句語境不同。",
-        "echo-mcq-08": "「原來的人／事件已過去，但影響、感受或記憶仍持續存在」是「echo — lingering effect」的用法，與本句語境不同。"
+        "echo-mcq-11": "本句的「echo」指「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」。",
+        "echo-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-11"
     },
     {
       "id": "echo-15-0",
-      "sense": "echo-mcq-11",
+      "sense": "echo-reviewed-fa5813e209",
       "en": "The empty hall felt like an echo chamber.",
       "zh": "空蕩的大廳像一個回音室。",
       "masked": "The empty hall felt like an ____.",
       "options": [
-        "echo-mcq-11",
+        "echo-reviewed-fa5813e209",
         "echo-mcq-10",
-        "echo-mcq-12",
-        "echo-mcq-09",
-        "echo-mcq-13",
-        "echo-mcq-08"
+        "echo-mcq-05",
+        "echo-mcq-07"
       ],
-      "explanation": "本句的「echo chamber」指「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」。",
+      "explanation": "對照完整句子：「空蕩的大廳像一個回音室。」。這裡的「echo chamber」表示「聲音容易被反覆反射的空間」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "targets": [
         "echo chamber"
       ],
       "optionReasons": {
-        "echo-mcq-11": "本句指「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」。",
-        "echo-mcq-10": "「某種情緒以較微弱、殘留的形式再次出現」是「an echo of emotion」的用法，與本句語境不同。",
-        "echo-mcq-12": "「充滿明顯回聲／聲音不斷回蕩的」是「echoing」的用法，與本句語境不同。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。",
-        "echo-mcq-13": "「聲波、雷達波等反射後返回的訊號／回波」是「echo — signal」的用法，與本句語境不同。",
-        "echo-mcq-08": "「原來的人／事件已過去，但影響、感受或記憶仍持續存在」是「echo — lingering effect」的用法，與本句語境不同。"
+        "echo-reviewed-fa5813e209": "對照完整句子：「空蕩的大廳像一個回音室。」。這裡的「echo chamber」表示「聲音容易被反覆反射的空間」。",
+        "echo-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "echo-mcq-11"
+      "correctOption": "echo-reviewed-fa5813e209",
+      "previousCorrectOption": "echo-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "echo-15-1",
-      "sense": "echo-mcq-11",
+      "sense": "echo-reviewed-fa5813e209",
       "en": "The room acted as an echo chamber.",
       "zh": "這個房間像回音室一樣放大回聲。",
       "masked": "The room acted as an ____ chamber.",
       "options": [
-        "echo-mcq-11",
+        "echo-reviewed-fa5813e209",
+        "echo-mcq-07",
         "echo-mcq-10",
-        "echo-mcq-12",
-        "echo-mcq-09",
-        "echo-mcq-13",
-        "echo-mcq-08"
+        "echo-reviewed-19087a0229"
       ],
-      "explanation": "本句的「echo」指「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」。",
+      "explanation": "對照完整句子：「這個房間像回音室一樣放大回聲。」。這裡的「echo」表示「聲音容易被反覆反射的空間」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "targets": [
         "echo"
       ],
       "optionReasons": {
-        "echo-mcq-11": "本句指「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」。",
-        "echo-mcq-10": "「某種情緒以較微弱、殘留的形式再次出現」是「an echo of emotion」的用法，與本句語境不同。",
-        "echo-mcq-12": "「充滿明顯回聲／聲音不斷回蕩的」是「echoing」的用法，與本句語境不同。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。",
-        "echo-mcq-13": "「聲波、雷達波等反射後返回的訊號／回波」是「echo — signal」的用法，與本句語境不同。",
-        "echo-mcq-08": "「原來的人／事件已過去，但影響、感受或記憶仍持續存在」是「echo — lingering effect」的用法，與本句語境不同。"
+        "echo-reviewed-fa5813e209": "對照完整句子：「這個房間像回音室一樣放大回聲。」。這裡的「echo」表示「聲音容易被反覆反射的空間」。",
+        "echo-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "echo-reviewed-19087a0229": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "echo-mcq-11"
+      "correctOption": "echo-reviewed-fa5813e209",
+      "previousCorrectOption": "echo-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "echo-16-0",
@@ -1298,11 +1216,9 @@ export default {
       "masked": "They walked through an ____.",
       "options": [
         "echo-mcq-12",
-        "echo-mcq-11",
-        "echo-mcq-13",
-        "echo-mcq-10",
         "echo-mcq-14",
-        "echo-mcq-09"
+        "echo-mcq-07",
+        "echo-reviewed-19087a0229"
       ],
       "explanation": "本句的「echoing corridor」指「充滿明顯回聲／聲音不斷回蕩的」。",
       "sentenceIndex": 31,
@@ -1311,12 +1227,10 @@ export default {
         "echoing corridor"
       ],
       "optionReasons": {
-        "echo-mcq-12": "本句指「充滿明顯回聲／聲音不斷回蕩的」。",
-        "echo-mcq-11": "「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」是「echo chamber」的用法，與本句語境不同。",
-        "echo-mcq-13": "「聲波、雷達波等反射後返回的訊號／回波」是「echo — signal」的用法，與本句語境不同。",
-        "echo-mcq-10": "「某種情緒以較微弱、殘留的形式再次出現」是「an echo of emotion」的用法，與本句語境不同。",
-        "echo-mcq-14": "「原事件的後果／影響在之後仍反覆出現或被感受到」是「13. echo = consequences that continue（後續影響） — 餘波；持續作用」的用法，與本句語境不同。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。"
+        "echo-mcq-12": "本句的「echoing corridor」指「充滿明顯回聲／聲音不斷回蕩的」。",
+        "echo-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "echo-reviewed-19087a0229": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-12"
     },
@@ -1328,11 +1242,9 @@ export default {
       "masked": "Her footsteps disappeared down the ____ hall.",
       "options": [
         "echo-mcq-12",
-        "echo-mcq-11",
-        "echo-mcq-13",
-        "echo-mcq-10",
-        "echo-mcq-14",
-        "echo-mcq-09"
+        "echo-mcq-09",
+        "echo-reviewed-19087a0229",
+        "echo-mcq-06"
       ],
       "explanation": "本句的「echoing」指「充滿明顯回聲／聲音不斷回蕩的」。",
       "sentenceIndex": 32,
@@ -1341,74 +1253,68 @@ export default {
         "echoing"
       ],
       "optionReasons": {
-        "echo-mcq-12": "本句指「充滿明顯回聲／聲音不斷回蕩的」。",
-        "echo-mcq-11": "「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」是「echo chamber」的用法，與本句語境不同。",
-        "echo-mcq-13": "「聲波、雷達波等反射後返回的訊號／回波」是「echo — signal」的用法，與本句語境不同。",
-        "echo-mcq-10": "「某種情緒以較微弱、殘留的形式再次出現」是「an echo of emotion」的用法，與本句語境不同。",
-        "echo-mcq-14": "「原事件的後果／影響在之後仍反覆出現或被感受到」是「13. echo = consequences that continue（後續影響） — 餘波；持續作用」的用法，與本句語境不同。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。"
+        "echo-mcq-12": "本句的「echoing」指「充滿明顯回聲／聲音不斷回蕩的」。",
+        "echo-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "echo-reviewed-19087a0229": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-12"
     },
     {
       "id": "echo-17-0",
-      "sense": "echo-mcq-12",
+      "sense": "echo-reviewed-19087a0229",
       "en": "He made an echoing argument about fairness.",
       "zh": "他提出了一個呼應先前公平觀點的論點。",
       "masked": "He made an ____ about fairness.",
       "options": [
-        "echo-mcq-12",
-        "echo-mcq-11",
-        "echo-mcq-13",
-        "echo-mcq-10",
-        "echo-mcq-14",
-        "echo-mcq-09"
+        "echo-reviewed-19087a0229",
+        "echo-mcq-06",
+        "echo-mcq-01",
+        "echo-mcq-08"
       ],
-      "explanation": "本句的「echoing argument」指「充滿明顯回聲／聲音不斷回蕩的」。",
+      "explanation": "對照完整句子：「他提出了一個呼應先前公平觀點的論點。」。這裡的「echoing argument」表示「呼應；重複」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "echoing argument"
       ],
       "optionReasons": {
-        "echo-mcq-12": "本句指「充滿明顯回聲／聲音不斷回蕩的」。",
-        "echo-mcq-11": "「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」是「echo chamber」的用法，與本句語境不同。",
-        "echo-mcq-13": "「聲波、雷達波等反射後返回的訊號／回波」是「echo — signal」的用法，與本句語境不同。",
-        "echo-mcq-10": "「某種情緒以較微弱、殘留的形式再次出現」是「an echo of emotion」的用法，與本句語境不同。",
-        "echo-mcq-14": "「原事件的後果／影響在之後仍反覆出現或被感受到」是「13. echo = consequences that continue（後續影響） — 餘波；持續作用」的用法，與本句語境不同。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。"
+        "echo-reviewed-19087a0229": "對照完整句子：「他提出了一個呼應先前公平觀點的論點。」。這裡的「echoing argument」表示「呼應；重複」。",
+        "echo-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "echo-mcq-12"
+      "correctOption": "echo-reviewed-19087a0229",
+      "previousCorrectOption": "echo-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "echo-17-1",
-      "sense": "echo-mcq-12",
+      "sense": "echo-reviewed-19087a0229",
       "en": "The article contained echoing themes from the earlier work.",
       "zh": "這篇文章包含了與較早作品互相呼應的主題。",
       "masked": "The article contained ____ themes from the earlier work.",
       "options": [
-        "echo-mcq-12",
-        "echo-mcq-11",
-        "echo-mcq-13",
-        "echo-mcq-10",
-        "echo-mcq-14",
+        "echo-reviewed-19087a0229",
+        "echo-reviewed-fa5813e209",
+        "echo-mcq-06",
         "echo-mcq-09"
       ],
-      "explanation": "本句的「echoing」指「充滿明顯回聲／聲音不斷回蕩的」。",
+      "explanation": "對照完整句子：「這篇文章包含了與較早作品互相呼應的主題。」。這裡的「echoing」表示「呼應；重複」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "echoing"
       ],
       "optionReasons": {
-        "echo-mcq-12": "本句指「充滿明顯回聲／聲音不斷回蕩的」。",
-        "echo-mcq-11": "「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」是「echo chamber」的用法，與本句語境不同。",
-        "echo-mcq-13": "「聲波、雷達波等反射後返回的訊號／回波」是「echo — signal」的用法，與本句語境不同。",
-        "echo-mcq-10": "「某種情緒以較微弱、殘留的形式再次出現」是「an echo of emotion」的用法，與本句語境不同。",
-        "echo-mcq-14": "「原事件的後果／影響在之後仍反覆出現或被感受到」是「13. echo = consequences that continue（後續影響） — 餘波；持續作用」的用法，與本句語境不同。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。"
+        "echo-reviewed-19087a0229": "對照完整句子：「這篇文章包含了與較早作品互相呼應的主題。」。這裡的「echoing」表示「呼應；重複」。",
+        "echo-reviewed-fa5813e209": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "echo-mcq-12"
+      "correctOption": "echo-reviewed-19087a0229",
+      "previousCorrectOption": "echo-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "echo-18-0",
@@ -1418,11 +1324,9 @@ export default {
       "masked": "The radar detected an ____ from the object.",
       "options": [
         "echo-mcq-13",
-        "echo-mcq-12",
-        "echo-mcq-14",
-        "echo-mcq-11",
+        "echo-reviewed-19087a0229",
         "echo-mcq-10",
-        "echo-mcq-09"
+        "echo-mcq-08"
       ],
       "explanation": "本句的「echo」指「聲波、雷達波等反射後返回的訊號／回波」。",
       "sentenceIndex": 35,
@@ -1431,12 +1335,10 @@ export default {
         "echo"
       ],
       "optionReasons": {
-        "echo-mcq-13": "本句指「聲波、雷達波等反射後返回的訊號／回波」。",
-        "echo-mcq-12": "「充滿明顯回聲／聲音不斷回蕩的」是「echoing」的用法，與本句語境不同。",
-        "echo-mcq-14": "「原事件的後果／影響在之後仍反覆出現或被感受到」是「13. echo = consequences that continue（後續影響） — 餘波；持續作用」的用法，與本句語境不同。",
-        "echo-mcq-11": "「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」是「echo chamber」的用法，與本句語境不同。",
-        "echo-mcq-10": "「某種情緒以較微弱、殘留的形式再次出現」是「an echo of emotion」的用法，與本句語境不同。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。"
+        "echo-mcq-13": "本句的「echo」指「聲波、雷達波等反射後返回的訊號／回波」。",
+        "echo-reviewed-19087a0229": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-13"
     },
@@ -1448,11 +1350,9 @@ export default {
       "masked": "The signal produced an unwanted ____.",
       "options": [
         "echo-mcq-13",
-        "echo-mcq-12",
-        "echo-mcq-14",
-        "echo-mcq-11",
         "echo-mcq-10",
-        "echo-mcq-09"
+        "echo-mcq-08",
+        "echo-reviewed-19087a0229"
       ],
       "explanation": "本句的「echo」指「聲波、雷達波等反射後返回的訊號／回波」。",
       "sentenceIndex": 36,
@@ -1461,12 +1361,10 @@ export default {
         "echo"
       ],
       "optionReasons": {
-        "echo-mcq-13": "本句指「聲波、雷達波等反射後返回的訊號／回波」。",
-        "echo-mcq-12": "「充滿明顯回聲／聲音不斷回蕩的」是「echoing」的用法，與本句語境不同。",
-        "echo-mcq-14": "「原事件的後果／影響在之後仍反覆出現或被感受到」是「13. echo = consequences that continue（後續影響） — 餘波；持續作用」的用法，與本句語境不同。",
-        "echo-mcq-11": "「相同觀點反覆被重複和強化、外部不同意見很少進入的環境」是「echo chamber」的用法，與本句語境不同。",
-        "echo-mcq-10": "「某種情緒以較微弱、殘留的形式再次出現」是「an echo of emotion」的用法，與本句語境不同。",
-        "echo-mcq-09": "「某人／某事結束後仍留下持久、可感受到的影響」是「leave an echo」的用法，與本句語境不同。"
+        "echo-mcq-13": "本句的「echo」指「聲波、雷達波等反射後返回的訊號／回波」。",
+        "echo-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "echo-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "echo-reviewed-19087a0229": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "echo-mcq-13"
     }
@@ -1478,5 +1376,7 @@ export default {
     "sha256": "1e90cfa7fb6e51238a5f20068f1ddfb5dc1a6081184a75cc19de3e9160918f48",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

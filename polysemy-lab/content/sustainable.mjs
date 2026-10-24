@@ -229,11 +229,7 @@ export default {
       "masked": "The current arrangement is not ____.",
       "options": [
         "sustainable-mcq-01",
-        "sustainable-mcq-02",
-        "sustainable-mcq-03",
-        "sustainable-mcq-04",
-        "sustainable-mcq-05",
-        "sustainable-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「sustainable」指「能夠長時間繼續，而不因成本、壓力或資源不足而最終無法維持」。",
       "sentenceIndex": 0,
@@ -242,12 +238,8 @@ export default {
         "sustainable"
       ],
       "optionReasons": {
-        "sustainable-mcq-01": "本句指「能夠長時間繼續，而不因成本、壓力或資源不足而最終無法維持」。",
-        "sustainable-mcq-02": "「能長期使用資源而不造成嚴重環境破壞或耗盡資源的」與本句語境不同。",
-        "sustainable-mcq-03": "「使用／開採量不超過資源長期補充及承受能力的」與本句語境不同。",
-        "sustainable-mcq-04": "「收入、資金及成本結構足以讓活動／機構長期運作的」與本句語境不同。",
-        "sustainable-mcq-05": "「人可以長時間承受而不致過勞或崩潰的」與本句語境不同。",
-        "sustainable-mcq-06": "「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」與本句語境不同。"
+        "sustainable-mcq-01": "本句的「sustainable」指「能夠長時間繼續，而不因成本、壓力或資源不足而最終無法維持」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sustainable-mcq-01"
     },
@@ -259,11 +251,7 @@ export default {
       "masked": "Working fourteen hours every day is not ____.",
       "options": [
         "sustainable-mcq-01",
-        "sustainable-mcq-02",
-        "sustainable-mcq-03",
-        "sustainable-mcq-04",
-        "sustainable-mcq-05",
-        "sustainable-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「sustainable」指「能夠長時間繼續，而不因成本、壓力或資源不足而最終無法維持」。",
       "sentenceIndex": 1,
@@ -272,12 +260,8 @@ export default {
         "sustainable"
       ],
       "optionReasons": {
-        "sustainable-mcq-01": "本句指「能夠長時間繼續，而不因成本、壓力或資源不足而最終無法維持」。",
-        "sustainable-mcq-02": "「能長期使用資源而不造成嚴重環境破壞或耗盡資源的」與本句語境不同。",
-        "sustainable-mcq-03": "「使用／開採量不超過資源長期補充及承受能力的」與本句語境不同。",
-        "sustainable-mcq-04": "「收入、資金及成本結構足以讓活動／機構長期運作的」與本句語境不同。",
-        "sustainable-mcq-05": "「人可以長時間承受而不致過勞或崩潰的」與本句語境不同。",
-        "sustainable-mcq-06": "「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」與本句語境不同。"
+        "sustainable-mcq-01": "本句的「sustainable」指「能夠長時間繼續，而不因成本、壓力或資源不足而最終無法維持」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sustainable-mcq-01"
     },
@@ -289,11 +273,7 @@ export default {
       "masked": "The company needs a more ____ growth strategy.",
       "options": [
         "sustainable-mcq-01",
-        "sustainable-mcq-02",
-        "sustainable-mcq-03",
-        "sustainable-mcq-04",
-        "sustainable-mcq-05",
-        "sustainable-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「sustainable」指「能夠長時間繼續，而不因成本、壓力或資源不足而最終無法維持」。",
       "sentenceIndex": 2,
@@ -302,12 +282,8 @@ export default {
         "sustainable"
       ],
       "optionReasons": {
-        "sustainable-mcq-01": "本句指「能夠長時間繼續，而不因成本、壓力或資源不足而最終無法維持」。",
-        "sustainable-mcq-02": "「能長期使用資源而不造成嚴重環境破壞或耗盡資源的」與本句語境不同。",
-        "sustainable-mcq-03": "「使用／開採量不超過資源長期補充及承受能力的」與本句語境不同。",
-        "sustainable-mcq-04": "「收入、資金及成本結構足以讓活動／機構長期運作的」與本句語境不同。",
-        "sustainable-mcq-05": "「人可以長時間承受而不致過勞或崩潰的」與本句語境不同。",
-        "sustainable-mcq-06": "「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」與本句語境不同。"
+        "sustainable-mcq-01": "本句的「sustainable」指「能夠長時間繼續，而不因成本、壓力或資源不足而最終無法維持」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sustainable-mcq-01"
     },
@@ -319,11 +295,7 @@ export default {
       "masked": "The city is investing in more ____ transport.",
       "options": [
         "sustainable-mcq-02",
-        "sustainable-mcq-01",
-        "sustainable-mcq-03",
-        "sustainable-mcq-04",
-        "sustainable-mcq-05",
-        "sustainable-mcq-06"
+        "sustainable-mcq-11"
       ],
       "explanation": "本句的「sustainable」指「能長期使用資源而不造成嚴重環境破壞或耗盡資源的」。",
       "sentenceIndex": 3,
@@ -332,12 +304,8 @@ export default {
         "sustainable"
       ],
       "optionReasons": {
-        "sustainable-mcq-02": "本句指「能長期使用資源而不造成嚴重環境破壞或耗盡資源的」。",
-        "sustainable-mcq-01": "「能夠長時間繼續，而不因成本、壓力或資源不足而最終無法維持」與本句語境不同。",
-        "sustainable-mcq-03": "「使用／開採量不超過資源長期補充及承受能力的」與本句語境不同。",
-        "sustainable-mcq-04": "「收入、資金及成本結構足以讓活動／機構長期運作的」與本句語境不同。",
-        "sustainable-mcq-05": "「人可以長時間承受而不致過勞或崩潰的」與本句語境不同。",
-        "sustainable-mcq-06": "「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」與本句語境不同。"
+        "sustainable-mcq-02": "本句的「sustainable」指「能長期使用資源而不造成嚴重環境破壞或耗盡資源的」。",
+        "sustainable-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sustainable-mcq-02"
     },
@@ -349,10 +317,6 @@ export default {
       "masked": "Consumers are increasingly interested in ____ products.",
       "options": [
         "sustainable-mcq-02",
-        "sustainable-mcq-01",
-        "sustainable-mcq-03",
-        "sustainable-mcq-04",
-        "sustainable-mcq-05",
         "sustainable-mcq-06"
       ],
       "explanation": "本句的「sustainable」指「能長期使用資源而不造成嚴重環境破壞或耗盡資源的」。",
@@ -362,12 +326,8 @@ export default {
         "sustainable"
       ],
       "optionReasons": {
-        "sustainable-mcq-02": "本句指「能長期使用資源而不造成嚴重環境破壞或耗盡資源的」。",
-        "sustainable-mcq-01": "「能夠長時間繼續，而不因成本、壓力或資源不足而最終無法維持」與本句語境不同。",
-        "sustainable-mcq-03": "「使用／開採量不超過資源長期補充及承受能力的」與本句語境不同。",
-        "sustainable-mcq-04": "「收入、資金及成本結構足以讓活動／機構長期運作的」與本句語境不同。",
-        "sustainable-mcq-05": "「人可以長時間承受而不致過勞或崩潰的」與本句語境不同。",
-        "sustainable-mcq-06": "「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」與本句語境不同。"
+        "sustainable-mcq-02": "本句的「sustainable」指「能長期使用資源而不造成嚴重環境破壞或耗盡資源的」。",
+        "sustainable-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sustainable-mcq-02"
     },
@@ -379,10 +339,6 @@ export default {
       "masked": "Fishing must remain at a ____ level.",
       "options": [
         "sustainable-mcq-03",
-        "sustainable-mcq-02",
-        "sustainable-mcq-04",
-        "sustainable-mcq-01",
-        "sustainable-mcq-05",
         "sustainable-mcq-06"
       ],
       "explanation": "本句的「sustainable」指「使用／開採量不超過資源長期補充及承受能力的」。",
@@ -392,12 +348,8 @@ export default {
         "sustainable"
       ],
       "optionReasons": {
-        "sustainable-mcq-03": "本句指「使用／開採量不超過資源長期補充及承受能力的」。",
-        "sustainable-mcq-02": "「能長期使用資源而不造成嚴重環境破壞或耗盡資源的」與本句語境不同。",
-        "sustainable-mcq-04": "「收入、資金及成本結構足以讓活動／機構長期運作的」與本句語境不同。",
-        "sustainable-mcq-01": "「能夠長時間繼續，而不因成本、壓力或資源不足而最終無法維持」與本句語境不同。",
-        "sustainable-mcq-05": "「人可以長時間承受而不致過勞或崩潰的」與本句語境不同。",
-        "sustainable-mcq-06": "「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」與本句語境不同。"
+        "sustainable-mcq-03": "本句的「sustainable」指「使用／開採量不超過資源長期補充及承受能力的」。",
+        "sustainable-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sustainable-mcq-03"
     },
@@ -409,11 +361,7 @@ export default {
       "masked": "The forest is managed for ____ timber production.",
       "options": [
         "sustainable-mcq-03",
-        "sustainable-mcq-02",
-        "sustainable-mcq-04",
-        "sustainable-mcq-01",
-        "sustainable-mcq-05",
-        "sustainable-mcq-06"
+        "sustainable-mcq-11"
       ],
       "explanation": "本句的「sustainable」指「使用／開採量不超過資源長期補充及承受能力的」。",
       "sentenceIndex": 6,
@@ -422,12 +370,8 @@ export default {
         "sustainable"
       ],
       "optionReasons": {
-        "sustainable-mcq-03": "本句指「使用／開採量不超過資源長期補充及承受能力的」。",
-        "sustainable-mcq-02": "「能長期使用資源而不造成嚴重環境破壞或耗盡資源的」與本句語境不同。",
-        "sustainable-mcq-04": "「收入、資金及成本結構足以讓活動／機構長期運作的」與本句語境不同。",
-        "sustainable-mcq-01": "「能夠長時間繼續，而不因成本、壓力或資源不足而最終無法維持」與本句語境不同。",
-        "sustainable-mcq-05": "「人可以長時間承受而不致過勞或崩潰的」與本句語境不同。",
-        "sustainable-mcq-06": "「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」與本句語境不同。"
+        "sustainable-mcq-03": "本句的「sustainable」指「使用／開採量不超過資源長期補充及承受能力的」。",
+        "sustainable-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sustainable-mcq-03"
     },
@@ -439,11 +383,7 @@ export default {
       "masked": "The business needs a financially ____ model.",
       "options": [
         "sustainable-mcq-04",
-        "sustainable-mcq-03",
-        "sustainable-mcq-05",
-        "sustainable-mcq-02",
-        "sustainable-mcq-06",
-        "sustainable-mcq-01"
+        "sustainable-mcq-11"
       ],
       "explanation": "本句的「sustainable」指「收入、資金及成本結構足以讓活動／機構長期運作的」。",
       "sentenceIndex": 7,
@@ -452,12 +392,8 @@ export default {
         "sustainable"
       ],
       "optionReasons": {
-        "sustainable-mcq-04": "本句指「收入、資金及成本結構足以讓活動／機構長期運作的」。",
-        "sustainable-mcq-03": "「使用／開採量不超過資源長期補充及承受能力的」與本句語境不同。",
-        "sustainable-mcq-05": "「人可以長時間承受而不致過勞或崩潰的」與本句語境不同。",
-        "sustainable-mcq-02": "「能長期使用資源而不造成嚴重環境破壞或耗盡資源的」與本句語境不同。",
-        "sustainable-mcq-06": "「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」與本句語境不同。",
-        "sustainable-mcq-01": "「能夠長時間繼續，而不因成本、壓力或資源不足而最終無法維持」與本句語境不同。"
+        "sustainable-mcq-04": "本句的「sustainable」指「收入、資金及成本結構足以讓活動／機構長期運作的」。",
+        "sustainable-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sustainable-mcq-04"
     },
@@ -469,11 +405,7 @@ export default {
       "masked": "The programme is useful, but its current funding model is not ____.",
       "options": [
         "sustainable-mcq-04",
-        "sustainable-mcq-03",
-        "sustainable-mcq-05",
-        "sustainable-mcq-02",
-        "sustainable-mcq-06",
-        "sustainable-mcq-01"
+        "sustainable-mcq-11"
       ],
       "explanation": "本句的「sustainable」指「收入、資金及成本結構足以讓活動／機構長期運作的」。",
       "sentenceIndex": 8,
@@ -482,12 +414,8 @@ export default {
         "sustainable"
       ],
       "optionReasons": {
-        "sustainable-mcq-04": "本句指「收入、資金及成本結構足以讓活動／機構長期運作的」。",
-        "sustainable-mcq-03": "「使用／開採量不超過資源長期補充及承受能力的」與本句語境不同。",
-        "sustainable-mcq-05": "「人可以長時間承受而不致過勞或崩潰的」與本句語境不同。",
-        "sustainable-mcq-02": "「能長期使用資源而不造成嚴重環境破壞或耗盡資源的」與本句語境不同。",
-        "sustainable-mcq-06": "「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」與本句語境不同。",
-        "sustainable-mcq-01": "「能夠長時間繼續，而不因成本、壓力或資源不足而最終無法維持」與本句語境不同。"
+        "sustainable-mcq-04": "本句的「sustainable」指「收入、資金及成本結構足以讓活動／機構長期運作的」。",
+        "sustainable-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sustainable-mcq-04"
     },
@@ -499,11 +427,7 @@ export default {
       "masked": "That conclusion is not ____ on the available evidence.",
       "options": [
         "sustainable-mcq-06",
-        "sustainable-mcq-05",
-        "sustainable-mcq-07",
-        "sustainable-mcq-04",
-        "sustainable-mcq-08",
-        "sustainable-mcq-03"
+        "sustainable-mcq-02"
       ],
       "explanation": "本句的「sustainable」指「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」。",
       "sentenceIndex": 11,
@@ -512,12 +436,8 @@ export default {
         "sustainable"
       ],
       "optionReasons": {
-        "sustainable-mcq-06": "本句指「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」。",
-        "sustainable-mcq-05": "「人可以長時間承受而不致過勞或崩潰的」與本句語境不同。",
-        "sustainable-mcq-07": "「某制度、做法或資源模式能夠長期持續的能力／可持續性」與本句語境不同。",
-        "sustainable-mcq-04": "「收入、資金及成本結構足以讓活動／機構長期運作的」與本句語境不同。",
-        "sustainable-mcq-08": "「在目前條件下無法長時間繼續的；不可持續的」與本句語境不同。",
-        "sustainable-mcq-03": "「使用／開採量不超過資源長期補充及承受能力的」與本句語境不同。"
+        "sustainable-mcq-06": "本句的「sustainable」指「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」。",
+        "sustainable-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sustainable-mcq-06"
     },
@@ -529,10 +449,6 @@ export default {
       "masked": "The argument is legally and logically ____.",
       "options": [
         "sustainable-mcq-06",
-        "sustainable-mcq-05",
-        "sustainable-mcq-07",
-        "sustainable-mcq-04",
-        "sustainable-mcq-08",
         "sustainable-mcq-03"
       ],
       "explanation": "本句的「sustainable」指「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」。",
@@ -542,12 +458,8 @@ export default {
         "sustainable"
       ],
       "optionReasons": {
-        "sustainable-mcq-06": "本句指「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」。",
-        "sustainable-mcq-05": "「人可以長時間承受而不致過勞或崩潰的」與本句語境不同。",
-        "sustainable-mcq-07": "「某制度、做法或資源模式能夠長期持續的能力／可持續性」與本句語境不同。",
-        "sustainable-mcq-04": "「收入、資金及成本結構足以讓活動／機構長期運作的」與本句語境不同。",
-        "sustainable-mcq-08": "「在目前條件下無法長時間繼續的；不可持續的」與本句語境不同。",
-        "sustainable-mcq-03": "「使用／開採量不超過資源長期補充及承受能力的」與本句語境不同。"
+        "sustainable-mcq-06": "本句的「sustainable」指「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」。",
+        "sustainable-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sustainable-mcq-06"
     },
@@ -559,11 +471,7 @@ export default {
       "masked": "The court considered whether the claim was legally ____.",
       "options": [
         "sustainable-mcq-11",
-        "sustainable-mcq-10",
-        "sustainable-mcq-09",
-        "sustainable-mcq-08",
-        "sustainable-mcq-07",
-        "sustainable-mcq-06"
+        "sustainable-mcq-04"
       ],
       "explanation": "本句的「sustainable」指「法律上接納／維持反對；屬於 sustain 的法律義」。",
       "sentenceIndex": 13,
@@ -572,12 +480,8 @@ export default {
         "sustainable"
       ],
       "optionReasons": {
-        "sustainable-mcq-11": "本句指「法律上接納／維持反對；屬於 sustain 的法律義」。",
-        "sustainable-mcq-10": "「遭受損害／受傷；屬於 sustain 的獨立正式義」與本句語境不同。",
-        "sustainable-mcq-09": "「使某事持續／維持某種狀態或水平」與本句語境不同。",
-        "sustainable-mcq-08": "「在目前條件下無法長時間繼續的；不可持續的」與本句語境不同。",
-        "sustainable-mcq-07": "「某制度、做法或資源模式能夠長期持續的能力／可持續性」與本句語境不同。",
-        "sustainable-mcq-06": "「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」與本句語境不同。"
+        "sustainable-mcq-11": "本句的「sustainable」指「法律上接納／維持反對；屬於 sustain 的法律義」。",
+        "sustainable-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sustainable-mcq-11"
     },
@@ -589,11 +493,7 @@ export default {
       "masked": "They questioned the long-term ____ of the project.",
       "options": [
         "sustainable-mcq-07",
-        "sustainable-mcq-06",
-        "sustainable-mcq-08",
-        "sustainable-mcq-05",
-        "sustainable-mcq-09",
-        "sustainable-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「sustainability」指「某制度、做法或資源模式能夠長期持續的能力／可持續性」。",
       "sentenceIndex": 16,
@@ -602,12 +502,8 @@ export default {
         "sustainability"
       ],
       "optionReasons": {
-        "sustainable-mcq-07": "本句指「某制度、做法或資源模式能夠長期持續的能力／可持續性」。",
-        "sustainable-mcq-06": "「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」與本句語境不同。",
-        "sustainable-mcq-08": "「在目前條件下無法長時間繼續的；不可持續的」與本句語境不同。",
-        "sustainable-mcq-05": "「人可以長時間承受而不致過勞或崩潰的」與本句語境不同。",
-        "sustainable-mcq-09": "「使某事持續／維持某種狀態或水平」與本句語境不同。",
-        "sustainable-mcq-04": "「收入、資金及成本結構足以讓活動／機構長期運作的」與本句語境不同。"
+        "sustainable-mcq-07": "本句的「sustainability」指「某制度、做法或資源模式能夠長期持續的能力／可持續性」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sustainable-mcq-07"
     },
@@ -619,11 +515,7 @@ export default {
       "masked": "The company has introduced new ____ targets.",
       "options": [
         "sustainable-mcq-07",
-        "sustainable-mcq-06",
-        "sustainable-mcq-08",
-        "sustainable-mcq-05",
-        "sustainable-mcq-09",
-        "sustainable-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「sustainability」指「某制度、做法或資源模式能夠長期持續的能力／可持續性」。",
       "sentenceIndex": 17,
@@ -632,12 +524,8 @@ export default {
         "sustainability"
       ],
       "optionReasons": {
-        "sustainable-mcq-07": "本句指「某制度、做法或資源模式能夠長期持續的能力／可持續性」。",
-        "sustainable-mcq-06": "「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」與本句語境不同。",
-        "sustainable-mcq-08": "「在目前條件下無法長時間繼續的；不可持續的」與本句語境不同。",
-        "sustainable-mcq-05": "「人可以長時間承受而不致過勞或崩潰的」與本句語境不同。",
-        "sustainable-mcq-09": "「使某事持續／維持某種狀態或水平」與本句語境不同。",
-        "sustainable-mcq-04": "「收入、資金及成本結構足以讓活動／機構長期運作的」與本句語境不同。"
+        "sustainable-mcq-07": "本句的「sustainability」指「某制度、做法或資源模式能夠長期持續的能力／可持續性」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sustainable-mcq-07"
     },
@@ -649,11 +537,7 @@ export default {
       "masked": "The current level of spending is ____.",
       "options": [
         "sustainable-mcq-08",
-        "sustainable-mcq-07",
-        "sustainable-mcq-09",
-        "sustainable-mcq-06",
-        "sustainable-mcq-10",
-        "sustainable-mcq-05"
+        "sustainable-mcq-04"
       ],
       "explanation": "本句的「unsustainable」指「在目前條件下無法長時間繼續的；不可持續的」。",
       "sentenceIndex": 18,
@@ -662,12 +546,8 @@ export default {
         "unsustainable"
       ],
       "optionReasons": {
-        "sustainable-mcq-08": "本句指「在目前條件下無法長時間繼續的；不可持續的」。",
-        "sustainable-mcq-07": "「某制度、做法或資源模式能夠長期持續的能力／可持續性」與本句語境不同。",
-        "sustainable-mcq-09": "「使某事持續／維持某種狀態或水平」與本句語境不同。",
-        "sustainable-mcq-06": "「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」與本句語境不同。",
-        "sustainable-mcq-10": "「遭受損害／受傷；屬於 sustain 的獨立正式義」與本句語境不同。",
-        "sustainable-mcq-05": "「人可以長時間承受而不致過勞或崩潰的」與本句語境不同。"
+        "sustainable-mcq-08": "本句的「unsustainable」指「在目前條件下無法長時間繼續的；不可持續的」。",
+        "sustainable-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sustainable-mcq-08"
     },
@@ -679,11 +559,7 @@ export default {
       "masked": "The farming method is environmentally ____.",
       "options": [
         "sustainable-mcq-08",
-        "sustainable-mcq-07",
-        "sustainable-mcq-09",
-        "sustainable-mcq-06",
-        "sustainable-mcq-10",
-        "sustainable-mcq-05"
+        "sustainable-mcq-04"
       ],
       "explanation": "本句的「unsustainable」指「在目前條件下無法長時間繼續的；不可持續的」。",
       "sentenceIndex": 19,
@@ -692,12 +568,8 @@ export default {
         "unsustainable"
       ],
       "optionReasons": {
-        "sustainable-mcq-08": "本句指「在目前條件下無法長時間繼續的；不可持續的」。",
-        "sustainable-mcq-07": "「某制度、做法或資源模式能夠長期持續的能力／可持續性」與本句語境不同。",
-        "sustainable-mcq-09": "「使某事持續／維持某種狀態或水平」與本句語境不同。",
-        "sustainable-mcq-06": "「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」與本句語境不同。",
-        "sustainable-mcq-10": "「遭受損害／受傷；屬於 sustain 的獨立正式義」與本句語境不同。",
-        "sustainable-mcq-05": "「人可以長時間承受而不致過勞或崩潰的」與本句語境不同。"
+        "sustainable-mcq-08": "本句的「unsustainable」指「在目前條件下無法長時間繼續的；不可持續的」。",
+        "sustainable-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sustainable-mcq-08"
     },
@@ -709,11 +581,7 @@ export default {
       "masked": "Staff are working at an ____ pace.",
       "options": [
         "sustainable-mcq-08",
-        "sustainable-mcq-07",
-        "sustainable-mcq-09",
-        "sustainable-mcq-06",
-        "sustainable-mcq-10",
-        "sustainable-mcq-05"
+        "sustainable-mcq-02"
       ],
       "explanation": "本句的「unsustainable」指「在目前條件下無法長時間繼續的；不可持續的」。",
       "sentenceIndex": 20,
@@ -722,12 +590,8 @@ export default {
         "unsustainable"
       ],
       "optionReasons": {
-        "sustainable-mcq-08": "本句指「在目前條件下無法長時間繼續的；不可持續的」。",
-        "sustainable-mcq-07": "「某制度、做法或資源模式能夠長期持續的能力／可持續性」與本句語境不同。",
-        "sustainable-mcq-09": "「使某事持續／維持某種狀態或水平」與本句語境不同。",
-        "sustainable-mcq-06": "「有足夠證據、理由或法律基礎支持，因而站得住腳／可以維持的」與本句語境不同。",
-        "sustainable-mcq-10": "「遭受損害／受傷；屬於 sustain 的獨立正式義」與本句語境不同。",
-        "sustainable-mcq-05": "「人可以長時間承受而不致過勞或崩潰的」與本句語境不同。"
+        "sustainable-mcq-08": "本句的「unsustainable」指「在目前條件下無法長時間繼續的；不可持續的」。",
+        "sustainable-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sustainable-mcq-08"
     }
@@ -739,5 +603,12 @@ export default {
     "sha256": "3c921c24f19a4bbcb003e9daba0008aa48e85bdfd7634c31304fafe79c5ba4ed",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

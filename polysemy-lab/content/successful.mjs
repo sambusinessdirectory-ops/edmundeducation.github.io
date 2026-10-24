@@ -326,11 +326,8 @@ export default {
       "masked": "The campaign was ____.",
       "options": [
         "successful-mcq-01",
-        "successful-mcq-02",
-        "successful-mcq-03",
-        "successful-mcq-04",
-        "successful-mcq-05",
-        "successful-mcq-06"
+        "successful-mcq-14",
+        "successful-mcq-11"
       ],
       "explanation": "本句的「successful」指「達到原本預期目標或取得理想結果的」。",
       "sentenceIndex": 0,
@@ -339,12 +336,9 @@ export default {
         "successful"
       ],
       "optionReasons": {
-        "successful-mcq-01": "本句指「達到原本預期目標或取得理想結果的」。",
-        "successful-mcq-02": "「在經營、工作或職業發展上取得持續而明顯好成果的」與本句語境不同。",
-        "successful-mcq-03": "「在事業、成就、地位或名聲方面取得顯著成果的」與本句語境不同。",
-        "successful-mcq-04": "「某方法、程序或行動達到預期效果的」與本句語境不同。",
-        "successful-mcq-05": "「活動／項目進行順利並達到預期成果的」與本句語境不同。",
-        "successful-mcq-06": "「申請、甄選或競爭最終獲得批准／通過的」與本句語境不同。"
+        "successful-mcq-01": "本句的「successful」指「達到原本預期目標或取得理想結果的」。",
+        "successful-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-01"
     },
@@ -356,11 +350,8 @@ export default {
       "masked": "The plan was ____ in attracting new customers.",
       "options": [
         "successful-mcq-01",
-        "successful-mcq-02",
-        "successful-mcq-03",
-        "successful-mcq-04",
-        "successful-mcq-05",
-        "successful-mcq-06"
+        "successful-mcq-10",
+        "successful-mcq-11"
       ],
       "explanation": "本句的「successful」指「達到原本預期目標或取得理想結果的」。",
       "sentenceIndex": 1,
@@ -369,12 +360,9 @@ export default {
         "successful"
       ],
       "optionReasons": {
-        "successful-mcq-01": "本句指「達到原本預期目標或取得理想結果的」。",
-        "successful-mcq-02": "「在經營、工作或職業發展上取得持續而明顯好成果的」與本句語境不同。",
-        "successful-mcq-03": "「在事業、成就、地位或名聲方面取得顯著成果的」與本句語境不同。",
-        "successful-mcq-04": "「某方法、程序或行動達到預期效果的」與本句語境不同。",
-        "successful-mcq-05": "「活動／項目進行順利並達到預期成果的」與本句語境不同。",
-        "successful-mcq-06": "「申請、甄選或競爭最終獲得批准／通過的」與本句語境不同。"
+        "successful-mcq-01": "本句的「successful」指「達到原本預期目標或取得理想結果的」。",
+        "successful-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-01"
     },
@@ -386,11 +374,8 @@ export default {
       "masked": "Golden Crust is a ____ small business.",
       "options": [
         "successful-mcq-02",
-        "successful-mcq-01",
-        "successful-mcq-03",
-        "successful-mcq-04",
-        "successful-mcq-05",
-        "successful-mcq-06"
+        "successful-mcq-14",
+        "successful-mcq-13"
       ],
       "explanation": "本句的「successful」指「在經營、工作或職業發展上取得持續而明顯好成果的」。",
       "sentenceIndex": 2,
@@ -399,12 +384,9 @@ export default {
         "successful"
       ],
       "optionReasons": {
-        "successful-mcq-02": "本句指「在經營、工作或職業發展上取得持續而明顯好成果的」。",
-        "successful-mcq-01": "「達到原本預期目標或取得理想結果的」與本句語境不同。",
-        "successful-mcq-03": "「在事業、成就、地位或名聲方面取得顯著成果的」與本句語境不同。",
-        "successful-mcq-04": "「某方法、程序或行動達到預期效果的」與本句語境不同。",
-        "successful-mcq-05": "「活動／項目進行順利並達到預期成果的」與本句語境不同。",
-        "successful-mcq-06": "「申請、甄選或競爭最終獲得批准／通過的」與本句語境不同。"
+        "successful-mcq-02": "本句的「successful」指「在經營、工作或職業發展上取得持續而明顯好成果的」。",
+        "successful-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-02"
     },
@@ -416,11 +398,8 @@ export default {
       "masked": "She built a ____ bakery from a very small shop.",
       "options": [
         "successful-mcq-02",
-        "successful-mcq-01",
-        "successful-mcq-03",
-        "successful-mcq-04",
-        "successful-mcq-05",
-        "successful-mcq-06"
+        "successful-mcq-14",
+        "successful-pdf-002"
       ],
       "explanation": "本句的「successful」指「在經營、工作或職業發展上取得持續而明顯好成果的」。",
       "sentenceIndex": 3,
@@ -429,12 +408,9 @@ export default {
         "successful"
       ],
       "optionReasons": {
-        "successful-mcq-02": "本句指「在經營、工作或職業發展上取得持續而明顯好成果的」。",
-        "successful-mcq-01": "「達到原本預期目標或取得理想結果的」與本句語境不同。",
-        "successful-mcq-03": "「在事業、成就、地位或名聲方面取得顯著成果的」與本句語境不同。",
-        "successful-mcq-04": "「某方法、程序或行動達到預期效果的」與本句語境不同。",
-        "successful-mcq-05": "「活動／項目進行順利並達到預期成果的」與本句語境不同。",
-        "successful-mcq-06": "「申請、甄選或競爭最終獲得批准／通過的」與本句語境不同。"
+        "successful-mcq-02": "本句的「successful」指「在經營、工作或職業發展上取得持續而明顯好成果的」。",
+        "successful-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "successful-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-02"
     },
@@ -446,11 +422,8 @@ export default {
       "masked": "He became a ____ entrepreneur.",
       "options": [
         "successful-mcq-03",
-        "successful-mcq-02",
-        "successful-mcq-04",
-        "successful-mcq-01",
-        "successful-mcq-05",
-        "successful-mcq-06"
+        "successful-mcq-13",
+        "successful-mcq-10"
       ],
       "explanation": "本句的「successful」指「在事業、成就、地位或名聲方面取得顯著成果的」。",
       "sentenceIndex": 4,
@@ -459,12 +432,9 @@ export default {
         "successful"
       ],
       "optionReasons": {
-        "successful-mcq-03": "本句指「在事業、成就、地位或名聲方面取得顯著成果的」。",
-        "successful-mcq-02": "「在經營、工作或職業發展上取得持續而明顯好成果的」與本句語境不同。",
-        "successful-mcq-04": "「某方法、程序或行動達到預期效果的」與本句語境不同。",
-        "successful-mcq-01": "「達到原本預期目標或取得理想結果的」與本句語境不同。",
-        "successful-mcq-05": "「活動／項目進行順利並達到預期成果的」與本句語境不同。",
-        "successful-mcq-06": "「申請、甄選或競爭最終獲得批准／通過的」與本句語境不同。"
+        "successful-mcq-03": "本句的「successful」指「在事業、成就、地位或名聲方面取得顯著成果的」。",
+        "successful-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-03"
     },
@@ -476,11 +446,8 @@ export default {
       "masked": "She is one of the most ____ designers in the city.",
       "options": [
         "successful-mcq-03",
-        "successful-mcq-02",
-        "successful-mcq-04",
-        "successful-mcq-01",
-        "successful-mcq-05",
-        "successful-mcq-06"
+        "successful-mcq-13",
+        "successful-mcq-14"
       ],
       "explanation": "本句的「successful」指「在事業、成就、地位或名聲方面取得顯著成果的」。",
       "sentenceIndex": 5,
@@ -489,12 +456,9 @@ export default {
         "successful"
       ],
       "optionReasons": {
-        "successful-mcq-03": "本句指「在事業、成就、地位或名聲方面取得顯著成果的」。",
-        "successful-mcq-02": "「在經營、工作或職業發展上取得持續而明顯好成果的」與本句語境不同。",
-        "successful-mcq-04": "「某方法、程序或行動達到預期效果的」與本句語境不同。",
-        "successful-mcq-01": "「達到原本預期目標或取得理想結果的」與本句語境不同。",
-        "successful-mcq-05": "「活動／項目進行順利並達到預期成果的」與本句語境不同。",
-        "successful-mcq-06": "「申請、甄選或競爭最終獲得批准／通過的」與本句語境不同。"
+        "successful-mcq-03": "本句的「successful」指「在事業、成就、地位或名聲方面取得顯著成果的」。",
+        "successful-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-03"
     },
@@ -506,11 +470,9 @@ export default {
       "masked": "The new marketing strategy was highly ____.",
       "options": [
         "successful-mcq-04",
-        "successful-mcq-03",
-        "successful-mcq-05",
-        "successful-mcq-02",
-        "successful-mcq-06",
-        "successful-mcq-01"
+        "successful-mcq-10",
+        "successful-mcq-11",
+        "successful-mcq-06"
       ],
       "explanation": "本句的「successful」指「某方法、程序或行動達到預期效果的」。",
       "sentenceIndex": 6,
@@ -519,12 +481,10 @@ export default {
         "successful"
       ],
       "optionReasons": {
-        "successful-mcq-04": "本句指「某方法、程序或行動達到預期效果的」。",
-        "successful-mcq-03": "「在事業、成就、地位或名聲方面取得顯著成果的」與本句語境不同。",
-        "successful-mcq-05": "「活動／項目進行順利並達到預期成果的」與本句語境不同。",
-        "successful-mcq-02": "「在經營、工作或職業發展上取得持續而明顯好成果的」與本句語境不同。",
-        "successful-mcq-06": "「申請、甄選或競爭最終獲得批准／通過的」與本句語境不同。",
-        "successful-mcq-01": "「達到原本預期目標或取得理想結果的」與本句語境不同。"
+        "successful-mcq-04": "本句的「successful」指「某方法、程序或行動達到預期效果的」。",
+        "successful-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-04"
     },
@@ -536,11 +496,9 @@ export default {
       "masked": "The treatment was ____.",
       "options": [
         "successful-mcq-04",
-        "successful-mcq-03",
-        "successful-mcq-05",
-        "successful-mcq-02",
-        "successful-mcq-06",
-        "successful-mcq-01"
+        "successful-mcq-11",
+        "successful-mcq-10",
+        "successful-mcq-06"
       ],
       "explanation": "本句的「successful」指「某方法、程序或行動達到預期效果的」。",
       "sentenceIndex": 7,
@@ -549,12 +507,10 @@ export default {
         "successful"
       ],
       "optionReasons": {
-        "successful-mcq-04": "本句指「某方法、程序或行動達到預期效果的」。",
-        "successful-mcq-03": "「在事業、成就、地位或名聲方面取得顯著成果的」與本句語境不同。",
-        "successful-mcq-05": "「活動／項目進行順利並達到預期成果的」與本句語境不同。",
-        "successful-mcq-02": "「在經營、工作或職業發展上取得持續而明顯好成果的」與本句語境不同。",
-        "successful-mcq-06": "「申請、甄選或競爭最終獲得批准／通過的」與本句語境不同。",
-        "successful-mcq-01": "「達到原本預期目標或取得理想結果的」與本句語境不同。"
+        "successful-mcq-04": "本句的「successful」指「某方法、程序或行動達到預期效果的」。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-04"
     },
@@ -566,11 +522,9 @@ export default {
       "masked": "The opening event was very ____.",
       "options": [
         "successful-mcq-05",
-        "successful-mcq-04",
         "successful-mcq-06",
-        "successful-mcq-03",
-        "successful-mcq-07",
-        "successful-mcq-02"
+        "successful-mcq-11",
+        "successful-mcq-10"
       ],
       "explanation": "本句的「successful」指「活動／項目進行順利並達到預期成果的」。",
       "sentenceIndex": 8,
@@ -579,12 +533,10 @@ export default {
         "successful"
       ],
       "optionReasons": {
-        "successful-mcq-05": "本句指「活動／項目進行順利並達到預期成果的」。",
-        "successful-mcq-04": "「某方法、程序或行動達到預期效果的」與本句語境不同。",
-        "successful-mcq-06": "「申請、甄選或競爭最終獲得批准／通過的」與本句語境不同。",
-        "successful-mcq-03": "「在事業、成就、地位或名聲方面取得顯著成果的」與本句語境不同。",
-        "successful-mcq-07": "「達成預期目標或取得理想成果的狀態」與本句語境不同。",
-        "successful-mcq-02": "「在經營、工作或職業發展上取得持續而明顯好成果的」與本句語境不同。"
+        "successful-mcq-05": "本句的「successful」指「活動／項目進行順利並達到預期成果的」。",
+        "successful-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-05"
     },
@@ -596,11 +548,9 @@ export default {
       "masked": "The project was ____ completed on time.",
       "options": [
         "successful-mcq-05",
-        "successful-mcq-04",
+        "successful-mcq-11",
         "successful-mcq-06",
-        "successful-mcq-03",
-        "successful-mcq-07",
-        "successful-mcq-02"
+        "successful-mcq-10"
       ],
       "explanation": "本句的「successfully」指「活動／項目進行順利並達到預期成果的」。",
       "sentenceIndex": 9,
@@ -609,12 +559,10 @@ export default {
         "successfully"
       ],
       "optionReasons": {
-        "successful-mcq-05": "本句指「活動／項目進行順利並達到預期成果的」。",
-        "successful-mcq-04": "「某方法、程序或行動達到預期效果的」與本句語境不同。",
-        "successful-mcq-06": "「申請、甄選或競爭最終獲得批准／通過的」與本句語境不同。",
-        "successful-mcq-03": "「在事業、成就、地位或名聲方面取得顯著成果的」與本句語境不同。",
-        "successful-mcq-07": "「達成預期目標或取得理想成果的狀態」與本句語境不同。",
-        "successful-mcq-02": "「在經營、工作或職業發展上取得持續而明顯好成果的」與本句語境不同。"
+        "successful-mcq-05": "本句的「successfully」指「活動／項目進行順利並達到預期成果的」。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-05"
     },
@@ -626,11 +574,9 @@ export default {
       "masked": "Her application was ____.",
       "options": [
         "successful-mcq-06",
-        "successful-mcq-05",
-        "successful-mcq-07",
+        "successful-mcq-11",
         "successful-mcq-04",
-        "successful-mcq-08",
-        "successful-mcq-03"
+        "successful-mcq-09"
       ],
       "explanation": "本句的「successful」指「申請、甄選或競爭最終獲得批准／通過的」。",
       "sentenceIndex": 10,
@@ -639,12 +585,10 @@ export default {
         "successful"
       ],
       "optionReasons": {
-        "successful-mcq-06": "本句指「申請、甄選或競爭最終獲得批准／通過的」。",
-        "successful-mcq-05": "「活動／項目進行順利並達到預期成果的」與本句語境不同。",
-        "successful-mcq-07": "「達成預期目標或取得理想成果的狀態」與本句語境不同。",
-        "successful-mcq-04": "「某方法、程序或行動達到預期效果的」與本句語境不同。",
-        "successful-mcq-08": "「一個取得良好成果的人、產品、活動或計劃」與本句語境不同。",
-        "successful-mcq-03": "「在事業、成就、地位或名聲方面取得顯著成果的」與本句語境不同。"
+        "successful-mcq-06": "本句的「successful」指「申請、甄選或競爭最終獲得批准／通過的」。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-06"
     },
@@ -656,11 +600,9 @@ export default {
       "masked": "Only ____ candidates will be contacted.",
       "options": [
         "successful-mcq-06",
-        "successful-mcq-05",
-        "successful-mcq-07",
         "successful-mcq-04",
-        "successful-mcq-08",
-        "successful-mcq-03"
+        "successful-mcq-09",
+        "successful-mcq-11"
       ],
       "explanation": "本句的「successful」指「申請、甄選或競爭最終獲得批准／通過的」。",
       "sentenceIndex": 11,
@@ -669,12 +611,10 @@ export default {
         "successful"
       ],
       "optionReasons": {
-        "successful-mcq-06": "本句指「申請、甄選或競爭最終獲得批准／通過的」。",
-        "successful-mcq-05": "「活動／項目進行順利並達到預期成果的」與本句語境不同。",
-        "successful-mcq-07": "「達成預期目標或取得理想成果的狀態」與本句語境不同。",
-        "successful-mcq-04": "「某方法、程序或行動達到預期效果的」與本句語境不同。",
-        "successful-mcq-08": "「一個取得良好成果的人、產品、活動或計劃」與本句語境不同。",
-        "successful-mcq-03": "「在事業、成就、地位或名聲方面取得顯著成果的」與本句語境不同。"
+        "successful-mcq-06": "本句的「successful」指「申請、甄選或競爭最終獲得批准／通過的」。",
+        "successful-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-06"
     },
@@ -686,11 +626,8 @@ export default {
       "masked": "The business became a ____.",
       "options": [
         "successful-mcq-07",
-        "successful-mcq-06",
-        "successful-mcq-08",
-        "successful-mcq-05",
-        "successful-mcq-09",
-        "successful-mcq-04"
+        "successful-mcq-11",
+        "successful-mcq-14"
       ],
       "explanation": "本句的「success」指「達成預期目標或取得理想成果的狀態」。",
       "sentenceIndex": 12,
@@ -699,12 +636,9 @@ export default {
         "success"
       ],
       "optionReasons": {
-        "successful-mcq-07": "本句指「達成預期目標或取得理想成果的狀態」。",
-        "successful-mcq-06": "「申請、甄選或競爭最終獲得批准／通過的」與本句語境不同。",
-        "successful-mcq-08": "「一個取得良好成果的人、產品、活動或計劃」與本句語境不同。",
-        "successful-mcq-05": "「活動／項目進行順利並達到預期成果的」與本句語境不同。",
-        "successful-mcq-09": "「成功達成自己想要的結果」與本句語境不同。",
-        "successful-mcq-04": "「某方法、程序或行動達到預期效果的」與本句語境不同。"
+        "successful-mcq-07": "本句的「success」指「達成預期目標或取得理想成果的狀態」。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-07"
     },
@@ -716,11 +650,9 @@ export default {
       "masked": "The new cake was a huge ____.",
       "options": [
         "successful-mcq-08",
-        "successful-mcq-07",
-        "successful-mcq-09",
-        "successful-mcq-06",
-        "successful-mcq-10",
-        "successful-mcq-05"
+        "successful-mcq-11",
+        "successful-mcq-14",
+        "successful-mcq-13"
       ],
       "explanation": "本句的「success」指「一個取得良好成果的人、產品、活動或計劃」。",
       "sentenceIndex": 13,
@@ -729,12 +661,10 @@ export default {
         "success"
       ],
       "optionReasons": {
-        "successful-mcq-08": "本句指「一個取得良好成果的人、產品、活動或計劃」。",
-        "successful-mcq-07": "「達成預期目標或取得理想成果的狀態」與本句語境不同。",
-        "successful-mcq-09": "「成功達成自己想要的結果」與本句語境不同。",
-        "successful-mcq-06": "「申請、甄選或競爭最終獲得批准／通過的」與本句語境不同。",
-        "successful-mcq-10": "「經努力後成功完成某件事」與本句語境不同。",
-        "successful-mcq-05": "「活動／項目進行順利並達到預期成果的」與本句語境不同。"
+        "successful-mcq-08": "本句的「success」指「一個取得良好成果的人、產品、活動或計劃」。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-08"
     },
@@ -746,11 +676,8 @@ export default {
       "masked": "People define ____ in different ways.",
       "options": [
         "successful-pdf-001",
-        "successful-mcq-07",
-        "successful-mcq-09",
         "successful-mcq-06",
-        "successful-mcq-10",
-        "successful-mcq-05"
+        "successful-mcq-14"
       ],
       "explanation": "本句的「success」指「一個人在生活、事業或人生目標上所達到的成就」。",
       "sentenceIndex": 14,
@@ -759,12 +686,9 @@ export default {
         "success"
       ],
       "optionReasons": {
-        "successful-pdf-001": "本句指「一個人在生活、事業或人生目標上所達到的成就」。",
-        "successful-mcq-07": "「達成預期目標或取得理想成果的狀態」與本句語境不同。",
-        "successful-mcq-09": "「成功達成自己想要的結果」與本句語境不同。",
-        "successful-mcq-06": "「申請、甄選或競爭最終獲得批准／通過的」與本句語境不同。",
-        "successful-mcq-10": "「經努力後成功完成某件事」與本句語境不同。",
-        "successful-mcq-05": "「活動／項目進行順利並達到預期成果的」與本句語境不同。"
+        "successful-pdf-001": "本句的「success」指「一個人在生活、事業或人生目標上所達到的成就」。",
+        "successful-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-pdf-001"
     },
@@ -776,11 +700,9 @@ export default {
       "masked": "The bakery ____ because it focused on quality.",
       "options": [
         "successful-mcq-09",
-        "successful-mcq-08",
-        "successful-mcq-10",
-        "successful-mcq-07",
+        "successful-mcq-06",
         "successful-mcq-11",
-        "successful-mcq-06"
+        "successful-mcq-04"
       ],
       "explanation": "本句的「succeeded」指「成功達成自己想要的結果」。",
       "sentenceIndex": 15,
@@ -789,12 +711,10 @@ export default {
         "succeeded"
       ],
       "optionReasons": {
-        "successful-mcq-09": "本句指「成功達成自己想要的結果」。",
-        "successful-mcq-08": "「一個取得良好成果的人、產品、活動或計劃」與本句語境不同。",
-        "successful-mcq-10": "「經努力後成功完成某件事」與本句語境不同。",
-        "successful-mcq-07": "「達成預期目標或取得理想成果的狀態」與本句語境不同。",
-        "successful-mcq-11": "「在某人之後接任其職位／地位」與本句語境不同。",
-        "successful-mcq-06": "「申請、甄選或競爭最終獲得批准／通過的」與本句語境不同。"
+        "successful-mcq-09": "本句的「succeeded」指「成功達成自己想要的結果」。",
+        "successful-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-09"
     },
@@ -806,11 +726,9 @@ export default {
       "masked": "The shop ____ customer loyalty.",
       "options": [
         "successful-mcq-10",
-        "successful-mcq-09",
-        "successful-mcq-11",
-        "successful-mcq-08",
-        "successful-mcq-12",
-        "successful-mcq-07"
+        "successful-pdf-002",
+        "successful-mcq-04",
+        "successful-mcq-11"
       ],
       "explanation": "本句的「succeeded in building」指「經努力後成功完成某件事」。",
       "sentenceIndex": 16,
@@ -819,12 +737,10 @@ export default {
         "succeeded in building"
       ],
       "optionReasons": {
-        "successful-mcq-10": "本句指「經努力後成功完成某件事」。",
-        "successful-mcq-09": "「成功達成自己想要的結果」與本句語境不同。",
-        "successful-mcq-11": "「在某人之後接任其職位／地位」與本句語境不同。",
-        "successful-mcq-08": "「一個取得良好成果的人、產品、活動或計劃」與本句語境不同。",
-        "successful-mcq-12": "「正式繼承頭銜、財產或權利」與本句語境不同。",
-        "successful-mcq-07": "「達成預期目標或取得理想成果的狀態」與本句語境不同。"
+        "successful-mcq-10": "本句的「succeeded in building」指「經努力後成功完成某件事」。",
+        "successful-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-10"
     },
@@ -836,11 +752,8 @@ export default {
       "masked": "She ____ him as manager.",
       "options": [
         "successful-mcq-11",
-        "successful-mcq-10",
-        "successful-mcq-12",
-        "successful-mcq-09",
-        "successful-mcq-13",
-        "successful-mcq-08"
+        "successful-mcq-07",
+        "successful-mcq-14"
       ],
       "explanation": "本句的「succeeded」指「在某人之後接任其職位／地位」。",
       "sentenceIndex": 18,
@@ -849,12 +762,9 @@ export default {
         "succeeded"
       ],
       "optionReasons": {
-        "successful-mcq-11": "本句指「在某人之後接任其職位／地位」。",
-        "successful-mcq-10": "「經努力後成功完成某件事」與本句語境不同。",
-        "successful-mcq-12": "「正式繼承頭銜、財產或權利」與本句語境不同。",
-        "successful-mcq-09": "「成功達成自己想要的結果」與本句語境不同。",
-        "successful-mcq-13": "「最後達到預期／理想結果地」與本句語境不同。",
-        "successful-mcq-08": "「一個取得良好成果的人、產品、活動或計劃」與本句語境不同。"
+        "successful-mcq-11": "本句的「succeeded」指「在某人之後接任其職位／地位」。",
+        "successful-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-11"
     },
@@ -866,11 +776,9 @@ export default {
       "masked": "The bakery ____ expanded its menu.",
       "options": [
         "successful-mcq-13",
-        "successful-mcq-12",
         "successful-mcq-14",
-        "successful-mcq-11",
-        "successful-mcq-10",
-        "successful-mcq-09"
+        "successful-mcq-06",
+        "successful-mcq-11"
       ],
       "explanation": "本句的「successfully」指「最後達到預期／理想結果地」。",
       "sentenceIndex": 19,
@@ -879,12 +787,10 @@ export default {
         "successfully"
       ],
       "optionReasons": {
-        "successful-mcq-13": "本句指「最後達到預期／理想結果地」。",
-        "successful-mcq-12": "「正式繼承頭銜、財產或權利」與本句語境不同。",
-        "successful-mcq-14": "「在銷售、收入、盈利或市場表現方面成功的」與本句語境不同。",
-        "successful-mcq-11": "「在某人之後接任其職位／地位」與本句語境不同。",
-        "successful-mcq-10": "「經努力後成功完成某件事」與本句語境不同。",
-        "successful-mcq-09": "「成功達成自己想要的結果」與本句語境不同。"
+        "successful-mcq-13": "本句的「successfully」指「最後達到預期／理想結果地」。",
+        "successful-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-13"
     },
@@ -896,11 +802,9 @@ export default {
       "masked": "The problem was ____ resolved.",
       "options": [
         "successful-mcq-13",
-        "successful-mcq-12",
         "successful-mcq-14",
         "successful-mcq-11",
-        "successful-mcq-10",
-        "successful-mcq-09"
+        "successful-mcq-08"
       ],
       "explanation": "本句的「successfully」指「最後達到預期／理想結果地」。",
       "sentenceIndex": 20,
@@ -909,12 +813,10 @@ export default {
         "successfully"
       ],
       "optionReasons": {
-        "successful-mcq-13": "本句指「最後達到預期／理想結果地」。",
-        "successful-mcq-12": "「正式繼承頭銜、財產或權利」與本句語境不同。",
-        "successful-mcq-14": "「在銷售、收入、盈利或市場表現方面成功的」與本句語境不同。",
-        "successful-mcq-11": "「在某人之後接任其職位／地位」與本句語境不同。",
-        "successful-mcq-10": "「經努力後成功完成某件事」與本句語境不同。",
-        "successful-mcq-09": "「成功達成自己想要的結果」與本句語境不同。"
+        "successful-mcq-13": "本句的「successfully」指「最後達到預期／理想結果地」。",
+        "successful-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-13"
     },
@@ -926,11 +828,8 @@ export default {
       "masked": "The product was ____.",
       "options": [
         "successful-mcq-14",
-        "successful-mcq-13",
-        "successful-mcq-12",
-        "successful-mcq-11",
-        "successful-mcq-10",
-        "successful-mcq-09"
+        "successful-mcq-01",
+        "successful-mcq-11"
       ],
       "explanation": "本句的「commercially successful」指「在銷售、收入、盈利或市場表現方面成功的」。",
       "sentenceIndex": 25,
@@ -939,12 +838,9 @@ export default {
         "commercially successful"
       ],
       "optionReasons": {
-        "successful-mcq-14": "本句指「在銷售、收入、盈利或市場表現方面成功的」。",
-        "successful-mcq-13": "「最後達到預期／理想結果地」與本句語境不同。",
-        "successful-mcq-12": "「正式繼承頭銜、財產或權利」與本句語境不同。",
-        "successful-mcq-11": "「在某人之後接任其職位／地位」與本句語境不同。",
-        "successful-mcq-10": "「經努力後成功完成某件事」與本句語境不同。",
-        "successful-mcq-09": "「成功達成自己想要的結果」與本句語境不同。"
+        "successful-mcq-14": "本句的「commercially successful」指「在銷售、收入、盈利或市場表現方面成功的」。",
+        "successful-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-14"
     },
@@ -956,11 +852,9 @@ export default {
       "masked": "A film can be artistic but not commercially ____.",
       "options": [
         "successful-mcq-14",
-        "successful-mcq-13",
-        "successful-mcq-12",
+        "successful-pdf-002",
         "successful-mcq-11",
-        "successful-mcq-10",
-        "successful-mcq-09"
+        "successful-mcq-04"
       ],
       "explanation": "本句的「successful」指「在銷售、收入、盈利或市場表現方面成功的」。",
       "sentenceIndex": 26,
@@ -969,12 +863,10 @@ export default {
         "successful"
       ],
       "optionReasons": {
-        "successful-mcq-14": "本句指「在銷售、收入、盈利或市場表現方面成功的」。",
-        "successful-mcq-13": "「最後達到預期／理想結果地」與本句語境不同。",
-        "successful-mcq-12": "「正式繼承頭銜、財產或權利」與本句語境不同。",
-        "successful-mcq-11": "「在某人之後接任其職位／地位」與本句語境不同。",
-        "successful-mcq-10": "「經努力後成功完成某件事」與本句語境不同。",
-        "successful-mcq-09": "「成功達成自己想要的結果」與本句語境不同。"
+        "successful-mcq-14": "本句的「successful」指「在銷售、收入、盈利或市場表現方面成功的」。",
+        "successful-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-mcq-14"
     },
@@ -986,11 +878,9 @@ export default {
       "masked": "Careful planning improves the chance of a ____.",
       "options": [
         "successful-pdf-002",
-        "successful-mcq-13",
-        "successful-mcq-12",
-        "successful-mcq-11",
         "successful-mcq-10",
-        "successful-mcq-09"
+        "successful-mcq-11",
+        "successful-mcq-04"
       ],
       "explanation": "本句的「successful outcome」指「最終符合目標／期望的結果」。",
       "sentenceIndex": 27,
@@ -999,12 +889,10 @@ export default {
         "successful outcome"
       ],
       "optionReasons": {
-        "successful-pdf-002": "本句指「最終符合目標／期望的結果」。",
-        "successful-mcq-13": "「最後達到預期／理想結果地」與本句語境不同。",
-        "successful-mcq-12": "「正式繼承頭銜、財產或權利」與本句語境不同。",
-        "successful-mcq-11": "「在某人之後接任其職位／地位」與本句語境不同。",
-        "successful-mcq-10": "「經努力後成功完成某件事」與本句語境不同。",
-        "successful-mcq-09": "「成功達成自己想要的結果」與本句語境不同。"
+        "successful-pdf-002": "本句的「successful outcome」指「最終符合目標／期望的結果」。",
+        "successful-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-pdf-002"
     },
@@ -1016,11 +904,9 @@ export default {
       "masked": "The negotiation ended in a ____ outcome.",
       "options": [
         "successful-pdf-002",
-        "successful-mcq-13",
-        "successful-mcq-12",
-        "successful-mcq-11",
         "successful-mcq-10",
-        "successful-mcq-09"
+        "successful-mcq-11",
+        "successful-mcq-04"
       ],
       "explanation": "本句的「successful」指「最終符合目標／期望的結果」。",
       "sentenceIndex": 28,
@@ -1029,12 +915,10 @@ export default {
         "successful"
       ],
       "optionReasons": {
-        "successful-pdf-002": "本句指「最終符合目標／期望的結果」。",
-        "successful-mcq-13": "「最後達到預期／理想結果地」與本句語境不同。",
-        "successful-mcq-12": "「正式繼承頭銜、財產或權利」與本句語境不同。",
-        "successful-mcq-11": "「在某人之後接任其職位／地位」與本句語境不同。",
-        "successful-mcq-10": "「經努力後成功完成某件事」與本句語境不同。",
-        "successful-mcq-09": "「成功達成自己想要的結果」與本句語境不同。"
+        "successful-pdf-002": "本句的「successful」指「最終符合目標／期望的結果」。",
+        "successful-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "successful-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "successful-pdf-002"
     }
@@ -1046,5 +930,7 @@ export default {
     "sha256": "df418dffe43982b6b1ada2a09b89ab0ba92615a6959aca3aa520b48c84134f2d",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

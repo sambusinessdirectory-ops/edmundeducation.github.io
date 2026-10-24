@@ -602,11 +602,9 @@ export default {
       "masked": "I stopped to ____.",
       "options": [
         "tie-pdf-001",
-        "tie-mcq-02",
-        "tie-mcq-03",
-        "tie-mcq-04",
-        "tie-mcq-05",
-        "tie-mcq-06"
+        "tie-mcq-12",
+        "tie-mcq-18",
+        "tie-mcq-24"
       ],
       "explanation": "本句的「tie my shoelaces」指「把鞋帶打結固定」。",
       "sentenceIndex": 3,
@@ -615,12 +613,10 @@ export default {
         "tie my shoelaces"
       ],
       "optionReasons": {
-        "tie-pdf-001": "本句指「把鞋帶打結固定」。",
-        "tie-mcq-02": "「打結」與本句語境不同。",
-        "tie-mcq-03": "「把 A 綁到 B」與本句語境不同。",
-        "tie-mcq-04": "「把 A 與 B 掛鈎」與本句語境不同。",
-        "tie-mcq-05": "「與……掛鈎／相連」與本句語境不同。",
-        "tie-mcq-06": "「串連／凝聚」與本句語境不同。"
+        "tie-pdf-001": "本句的「tie my shoelaces」指「把鞋帶打結固定」。",
+        "tie-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-pdf-001"
     },
@@ -632,11 +628,9 @@ export default {
       "masked": "Can you ____ by yourself?",
       "options": [
         "tie-pdf-001",
-        "tie-mcq-02",
-        "tie-mcq-03",
+        "tie-pdf-003",
         "tie-mcq-04",
-        "tie-mcq-05",
-        "tie-mcq-06"
+        "tie-mcq-23"
       ],
       "explanation": "本句的「tie your shoes」指「把鞋帶打結固定」。",
       "sentenceIndex": 4,
@@ -645,12 +639,10 @@ export default {
         "tie your shoes"
       ],
       "optionReasons": {
-        "tie-pdf-001": "本句指「把鞋帶打結固定」。",
-        "tie-mcq-02": "「打結」與本句語境不同。",
-        "tie-mcq-03": "「把 A 綁到 B」與本句語境不同。",
-        "tie-mcq-04": "「把 A 與 B 掛鈎」與本句語境不同。",
-        "tie-mcq-05": "「與……掛鈎／相連」與本句語境不同。",
-        "tie-mcq-06": "「串連／凝聚」與本句語境不同。"
+        "tie-pdf-001": "本句的「tie your shoes」指「把鞋帶打結固定」。",
+        "tie-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-pdf-001"
     },
@@ -662,11 +654,9 @@ export default {
       "masked": "____ at the end of the rope.",
       "options": [
         "tie-mcq-02",
-        "tie-mcq-01",
-        "tie-mcq-03",
-        "tie-mcq-04",
-        "tie-mcq-05",
-        "tie-mcq-06"
+        "tie-pdf-003",
+        "tie-mcq-06",
+        "tie-mcq-21"
       ],
       "explanation": "本句的「Tie a knot」指「打結」。",
       "sentenceIndex": 5,
@@ -675,12 +665,10 @@ export default {
         "Tie a knot"
       ],
       "optionReasons": {
-        "tie-mcq-02": "本句指「打結」。",
-        "tie-mcq-01": "「綁；繫」與本句語境不同。",
-        "tie-mcq-03": "「把 A 綁到 B」與本句語境不同。",
-        "tie-mcq-04": "「把 A 與 B 掛鈎」與本句語境不同。",
-        "tie-mcq-05": "「與……掛鈎／相連」與本句語境不同。",
-        "tie-mcq-06": "「串連／凝聚」與本句語境不同。"
+        "tie-mcq-02": "本句的「Tie a knot」指「打結」。",
+        "tie-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-02"
     },
@@ -692,11 +680,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "tie-mcq-02",
-        "tie-mcq-01",
-        "tie-mcq-03",
         "tie-mcq-04",
-        "tie-mcq-05",
-        "tie-mcq-06"
+        "tie-mcq-06",
+        "tie-mcq-03"
       ],
       "explanation": "本句的「tied a tight knot」指「打結」。",
       "sentenceIndex": 6,
@@ -705,12 +691,10 @@ export default {
         "tied a tight knot"
       ],
       "optionReasons": {
-        "tie-mcq-02": "本句指「打結」。",
-        "tie-mcq-01": "「綁；繫」與本句語境不同。",
-        "tie-mcq-03": "「把 A 綁到 B」與本句語境不同。",
-        "tie-mcq-04": "「把 A 與 B 掛鈎」與本句語境不同。",
-        "tie-mcq-05": "「與……掛鈎／相連」與本句語境不同。",
-        "tie-mcq-06": "「串連／凝聚」與本句語境不同。"
+        "tie-mcq-02": "本句的「tied a tight knot」指「打結」。",
+        "tie-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-02"
     },
@@ -722,11 +706,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "tie-mcq-03",
-        "tie-mcq-02",
-        "tie-mcq-04",
-        "tie-mcq-01",
-        "tie-mcq-05",
-        "tie-mcq-06"
+        "tie-mcq-06",
+        "tie-mcq-12",
+        "tie-mcq-02"
       ],
       "explanation": "本句的「tied the bicycle to the fence」指「把 A 綁到 B」。",
       "sentenceIndex": 7,
@@ -735,12 +717,10 @@ export default {
         "tied the bicycle to the fence"
       ],
       "optionReasons": {
-        "tie-mcq-03": "本句指「把 A 綁到 B」。",
-        "tie-mcq-02": "「打結」與本句語境不同。",
-        "tie-mcq-04": "「把 A 與 B 掛鈎」與本句語境不同。",
-        "tie-mcq-01": "「綁；繫」與本句語境不同。",
-        "tie-mcq-05": "「與……掛鈎／相連」與本句語境不同。",
-        "tie-mcq-06": "「串連／凝聚」與本句語境不同。"
+        "tie-mcq-03": "本句的「tied the bicycle to the fence」指「把 A 綁到 B」。",
+        "tie-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-03"
     },
@@ -752,11 +732,9 @@ export default {
       "masked": "The boat was ____.",
       "options": [
         "tie-mcq-03",
-        "tie-mcq-02",
-        "tie-mcq-04",
-        "tie-mcq-01",
-        "tie-mcq-05",
-        "tie-mcq-06"
+        "tie-mcq-20",
+        "tie-mcq-08",
+        "tie-mcq-18"
       ],
       "explanation": "本句的「tied to the dock」指「把 A 綁到 B」。",
       "sentenceIndex": 8,
@@ -765,12 +743,10 @@ export default {
         "tied to the dock"
       ],
       "optionReasons": {
-        "tie-mcq-03": "本句指「把 A 綁到 B」。",
-        "tie-mcq-02": "「打結」與本句語境不同。",
-        "tie-mcq-04": "「把 A 與 B 掛鈎」與本句語境不同。",
-        "tie-mcq-01": "「綁；繫」與本句語境不同。",
-        "tie-mcq-05": "「與……掛鈎／相連」與本句語境不同。",
-        "tie-mcq-06": "「串連／凝聚」與本句語境不同。"
+        "tie-mcq-03": "本句的「tied to the dock」指「把 A 綁到 B」。",
+        "tie-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-03"
     },
@@ -782,11 +758,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "tie-mcq-04",
-        "tie-mcq-03",
-        "tie-mcq-05",
-        "tie-mcq-02",
-        "tie-mcq-06",
-        "tie-mcq-01"
+        "tie-mcq-19",
+        "tie-mcq-13",
+        "tie-mcq-02"
       ],
       "explanation": "本句的「tied bonuses to performance」指「把 A 與 B 掛鈎」。",
       "sentenceIndex": 9,
@@ -795,12 +769,10 @@ export default {
         "tied bonuses to performance"
       ],
       "optionReasons": {
-        "tie-mcq-04": "本句指「把 A 與 B 掛鈎」。",
-        "tie-mcq-03": "「把 A 綁到 B」與本句語境不同。",
-        "tie-mcq-05": "「與……掛鈎／相連」與本句語境不同。",
-        "tie-mcq-02": "「打結」與本句語境不同。",
-        "tie-mcq-06": "「串連／凝聚」與本句語境不同。",
-        "tie-mcq-01": "「綁；繫」與本句語境不同。"
+        "tie-mcq-04": "本句的「tied bonuses to performance」指「把 A 與 B 掛鈎」。",
+        "tie-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-04"
     },
@@ -812,11 +784,9 @@ export default {
       "masked": "Pay should not always be ____.",
       "options": [
         "tie-mcq-04",
-        "tie-mcq-03",
-        "tie-mcq-05",
-        "tie-mcq-02",
-        "tie-mcq-06",
-        "tie-mcq-01"
+        "tie-mcq-24",
+        "tie-mcq-12",
+        "tie-mcq-23"
       ],
       "explanation": "本句的「tied directly to sales figures」指「把 A 與 B 掛鈎」。",
       "sentenceIndex": 10,
@@ -825,12 +795,10 @@ export default {
         "tied directly to sales figures"
       ],
       "optionReasons": {
-        "tie-mcq-04": "本句指「把 A 與 B 掛鈎」。",
-        "tie-mcq-03": "「把 A 綁到 B」與本句語境不同。",
-        "tie-mcq-05": "「與……掛鈎／相連」與本句語境不同。",
-        "tie-mcq-02": "「打結」與本句語境不同。",
-        "tie-mcq-06": "「串連／凝聚」與本句語境不同。",
-        "tie-mcq-01": "「綁；繫」與本句語境不同。"
+        "tie-mcq-04": "本句的「tied directly to sales figures」指「把 A 與 B 掛鈎」。",
+        "tie-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-04"
     },
@@ -842,11 +810,9 @@ export default {
       "masked": "Their performance was ____.",
       "options": [
         "tie-mcq-05",
-        "tie-mcq-04",
-        "tie-mcq-06",
-        "tie-mcq-03",
-        "tie-mcq-07",
-        "tie-mcq-02"
+        "tie-mcq-19",
+        "tie-mcq-08",
+        "tie-mcq-18"
       ],
       "explanation": "本句的「tied to their colleagues' performance」指「與……掛鈎／相連」。",
       "sentenceIndex": 11,
@@ -855,12 +821,10 @@ export default {
         "tied to their colleagues' performance"
       ],
       "optionReasons": {
-        "tie-mcq-05": "本句指「與……掛鈎／相連」。",
-        "tie-mcq-04": "「把 A 與 B 掛鈎」與本句語境不同。",
-        "tie-mcq-06": "「串連／凝聚」與本句語境不同。",
-        "tie-mcq-03": "「把 A 綁到 B」與本句語境不同。",
-        "tie-mcq-07": "「領帶」與本句語境不同。",
-        "tie-mcq-02": "「打結」與本句語境不同。"
+        "tie-mcq-05": "本句的「tied to their colleagues' performance」指「與……掛鈎／相連」。",
+        "tie-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-05"
     },
@@ -872,11 +836,9 @@ export default {
       "masked": "Promotion is partly ____.",
       "options": [
         "tie-mcq-05",
-        "tie-mcq-04",
-        "tie-mcq-06",
-        "tie-mcq-03",
-        "tie-mcq-07",
-        "tie-mcq-02"
+        "tie-mcq-20",
+        "tie-pdf-001",
+        "tie-mcq-18"
       ],
       "explanation": "本句的「tied to performance」指「與……掛鈎／相連」。",
       "sentenceIndex": 12,
@@ -885,12 +847,10 @@ export default {
         "tied to performance"
       ],
       "optionReasons": {
-        "tie-mcq-05": "本句指「與……掛鈎／相連」。",
-        "tie-mcq-04": "「把 A 與 B 掛鈎」與本句語境不同。",
-        "tie-mcq-06": "「串連／凝聚」與本句語境不同。",
-        "tie-mcq-03": "「把 A 綁到 B」與本句語境不同。",
-        "tie-mcq-07": "「領帶」與本句語境不同。",
-        "tie-mcq-02": "「打結」與本句語境不同。"
+        "tie-mcq-05": "本句的「tied to performance」指「與……掛鈎／相連」。",
+        "tie-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tie-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-05"
     },
@@ -902,11 +862,9 @@ export default {
       "masked": "The final result is ____.",
       "options": [
         "tie-mcq-05",
-        "tie-mcq-04",
-        "tie-mcq-06",
-        "tie-mcq-03",
-        "tie-mcq-07",
-        "tie-mcq-02"
+        "tie-mcq-08",
+        "tie-mcq-21",
+        "tie-mcq-03"
       ],
       "explanation": "本句的「tied to how well the whole team performs」指「與……掛鈎／相連」。",
       "sentenceIndex": 13,
@@ -915,12 +873,10 @@ export default {
         "tied to how well the whole team performs"
       ],
       "optionReasons": {
-        "tie-mcq-05": "本句指「與……掛鈎／相連」。",
-        "tie-mcq-04": "「把 A 與 B 掛鈎」與本句語境不同。",
-        "tie-mcq-06": "「串連／凝聚」與本句語境不同。",
-        "tie-mcq-03": "「把 A 綁到 B」與本句語境不同。",
-        "tie-mcq-07": "「領帶」與本句語境不同。",
-        "tie-mcq-02": "「打結」與本句語境不同。"
+        "tie-mcq-05": "本句的「tied to how well the whole team performs」指「與……掛鈎／相連」。",
+        "tie-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-05"
     },
@@ -932,11 +888,9 @@ export default {
       "masked": "This final paragraph ____.",
       "options": [
         "tie-mcq-06",
-        "tie-mcq-05",
-        "tie-mcq-07",
-        "tie-mcq-04",
         "tie-mcq-08",
-        "tie-mcq-03"
+        "tie-mcq-21",
+        "tie-mcq-11"
       ],
       "explanation": "本句的「ties the argument together」指「串連／凝聚」。",
       "sentenceIndex": 16,
@@ -945,12 +899,10 @@ export default {
         "ties the argument together"
       ],
       "optionReasons": {
-        "tie-mcq-06": "本句指「串連／凝聚」。",
-        "tie-mcq-05": "「與……掛鈎／相連」與本句語境不同。",
-        "tie-mcq-07": "「領帶」與本句語境不同。",
-        "tie-mcq-04": "「把 A 與 B 掛鈎」與本句語境不同。",
-        "tie-mcq-08": "「煲呔／蝴蝶領結」與本句語境不同。",
-        "tie-mcq-03": "「把 A 綁到 B」與本句語境不同。"
+        "tie-mcq-06": "本句的「ties the argument together」指「串連／凝聚」。",
+        "tie-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-06"
     },
@@ -962,10 +914,8 @@ export default {
       "masked": "A shared objective can ____.",
       "options": [
         "tie-mcq-06",
-        "tie-mcq-05",
-        "tie-mcq-07",
-        "tie-mcq-04",
-        "tie-mcq-08",
+        "tie-mcq-21",
+        "tie-mcq-23",
         "tie-mcq-03"
       ],
       "explanation": "本句的「tie the team together」指「串連／凝聚」。",
@@ -975,12 +925,10 @@ export default {
         "tie the team together"
       ],
       "optionReasons": {
-        "tie-mcq-06": "本句指「串連／凝聚」。",
-        "tie-mcq-05": "「與……掛鈎／相連」與本句語境不同。",
-        "tie-mcq-07": "「領帶」與本句語境不同。",
-        "tie-mcq-04": "「把 A 與 B 掛鈎」與本句語境不同。",
-        "tie-mcq-08": "「煲呔／蝴蝶領結」與本句語境不同。",
-        "tie-mcq-03": "「把 A 綁到 B」與本句語境不同。"
+        "tie-mcq-06": "本句的「tie the team together」指「串連／凝聚」。",
+        "tie-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-06"
     },
@@ -992,11 +940,9 @@ export default {
       "masked": "He wore a black ____.",
       "options": [
         "tie-mcq-08",
-        "tie-mcq-07",
-        "tie-mcq-09",
-        "tie-mcq-06",
-        "tie-mcq-10",
-        "tie-mcq-05"
+        "tie-pdf-002",
+        "tie-mcq-17",
+        "tie-mcq-19"
       ],
       "explanation": "本句的「bow tie」指「煲呔／蝴蝶領結」。",
       "sentenceIndex": 20,
@@ -1005,12 +951,10 @@ export default {
         "bow tie"
       ],
       "optionReasons": {
-        "tie-mcq-08": "本句指「煲呔／蝴蝶領結」。",
-        "tie-mcq-07": "「領帶」與本句語境不同。",
-        "tie-mcq-09": "「關係；聯繫」與本句語境不同。",
-        "tie-mcq-06": "「串連／凝聚」與本句語境不同。",
-        "tie-mcq-10": "「家庭聯繫」與本句語境不同。",
-        "tie-mcq-05": "「與……掛鈎／相連」與本句語境不同。"
+        "tie-mcq-08": "本句的「bow tie」指「煲呔／蝴蝶領結」。",
+        "tie-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-08"
     },
@@ -1022,11 +966,9 @@ export default {
       "masked": "The waiter was wearing a ____.",
       "options": [
         "tie-mcq-08",
-        "tie-mcq-07",
-        "tie-mcq-09",
-        "tie-mcq-06",
-        "tie-mcq-10",
-        "tie-mcq-05"
+        "tie-mcq-18",
+        "tie-mcq-15",
+        "tie-mcq-24"
       ],
       "explanation": "本句的「bow tie」指「煲呔／蝴蝶領結」。",
       "sentenceIndex": 21,
@@ -1035,12 +977,10 @@ export default {
         "bow tie"
       ],
       "optionReasons": {
-        "tie-mcq-08": "本句指「煲呔／蝴蝶領結」。",
-        "tie-mcq-07": "「領帶」與本句語境不同。",
-        "tie-mcq-09": "「關係；聯繫」與本句語境不同。",
-        "tie-mcq-06": "「串連／凝聚」與本句語境不同。",
-        "tie-mcq-10": "「家庭聯繫」與本句語境不同。",
-        "tie-mcq-05": "「與……掛鈎／相連」與本句語境不同。"
+        "tie-mcq-08": "本句的「bow tie」指「煲呔／蝴蝶領結」。",
+        "tie-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-08"
     },
@@ -1052,11 +992,9 @@ export default {
       "masked": "The two companies have close ____.",
       "options": [
         "tie-pdf-002",
-        "tie-mcq-08",
-        "tie-mcq-10",
-        "tie-mcq-07",
-        "tie-mcq-11",
-        "tie-mcq-06"
+        "tie-mcq-03",
+        "tie-mcq-06",
+        "tie-mcq-20"
       ],
       "explanation": "本句的「ties」指「人、組織或地方之間持續存在的關係或聯繫」。",
       "sentenceIndex": 22,
@@ -1065,12 +1003,10 @@ export default {
         "ties"
       ],
       "optionReasons": {
-        "tie-pdf-002": "本句指「人、組織或地方之間持續存在的關係或聯繫」。",
-        "tie-mcq-08": "「煲呔／蝴蝶領結」與本句語境不同。",
-        "tie-mcq-10": "「家庭聯繫」與本句語境不同。",
-        "tie-mcq-07": "「領帶」與本句語境不同。",
-        "tie-mcq-11": "「商業關係」與本句語境不同。",
-        "tie-mcq-06": "「串連／凝聚」與本句語境不同。"
+        "tie-pdf-002": "本句的「ties」指「人、組織或地方之間持續存在的關係或聯繫」。",
+        "tie-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-pdf-002"
     },
@@ -1082,11 +1018,9 @@ export default {
       "masked": "She maintains strong ____.",
       "options": [
         "tie-pdf-002",
-        "tie-mcq-08",
-        "tie-mcq-10",
-        "tie-mcq-07",
-        "tie-mcq-11",
-        "tie-mcq-06"
+        "tie-mcq-19",
+        "tie-mcq-18",
+        "tie-mcq-02"
       ],
       "explanation": "本句的「ties with her former colleagues」指「人、組織或地方之間持續存在的關係或聯繫」。",
       "sentenceIndex": 23,
@@ -1095,12 +1029,10 @@ export default {
         "ties with her former colleagues"
       ],
       "optionReasons": {
-        "tie-pdf-002": "本句指「人、組織或地方之間持續存在的關係或聯繫」。",
-        "tie-mcq-08": "「煲呔／蝴蝶領結」與本句語境不同。",
-        "tie-mcq-10": "「家庭聯繫」與本句語境不同。",
-        "tie-mcq-07": "「領帶」與本句語境不同。",
-        "tie-mcq-11": "「商業關係」與本句語境不同。",
-        "tie-mcq-06": "「串連／凝聚」與本句語境不同。"
+        "tie-pdf-002": "本句的「ties with her former colleagues」指「人、組織或地方之間持續存在的關係或聯繫」。",
+        "tie-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-pdf-002"
     },
@@ -1112,11 +1044,9 @@ export default {
       "masked": "Strong ____ are important to him.",
       "options": [
         "tie-mcq-10",
-        "tie-mcq-09",
-        "tie-mcq-11",
-        "tie-mcq-08",
-        "tie-mcq-12",
-        "tie-mcq-07"
+        "tie-mcq-17",
+        "tie-mcq-02",
+        "tie-mcq-16"
       ],
       "explanation": "本句的「family ties」指「家庭聯繫」。",
       "sentenceIndex": 24,
@@ -1125,12 +1055,10 @@ export default {
         "family ties"
       ],
       "optionReasons": {
-        "tie-mcq-10": "本句指「家庭聯繫」。",
-        "tie-mcq-09": "「關係；聯繫」與本句語境不同。",
-        "tie-mcq-11": "「商業關係」與本句語境不同。",
-        "tie-mcq-08": "「煲呔／蝴蝶領結」與本句語境不同。",
-        "tie-mcq-12": "「斷絕關係」與本句語境不同。",
-        "tie-mcq-07": "「領帶」與本句語境不同。"
+        "tie-mcq-10": "本句的「family ties」指「家庭聯繫」。",
+        "tie-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-10"
     },
@@ -1142,11 +1070,9 @@ export default {
       "masked": "She returned home because of ____.",
       "options": [
         "tie-mcq-10",
-        "tie-mcq-09",
-        "tie-mcq-11",
         "tie-mcq-08",
-        "tie-mcq-12",
-        "tie-mcq-07"
+        "tie-mcq-19",
+        "tie-mcq-04"
       ],
       "explanation": "本句的「family ties」指「家庭聯繫」。",
       "sentenceIndex": 25,
@@ -1155,12 +1081,10 @@ export default {
         "family ties"
       ],
       "optionReasons": {
-        "tie-mcq-10": "本句指「家庭聯繫」。",
-        "tie-mcq-09": "「關係；聯繫」與本句語境不同。",
-        "tie-mcq-11": "「商業關係」與本句語境不同。",
-        "tie-mcq-08": "「煲呔／蝴蝶領結」與本句語境不同。",
-        "tie-mcq-12": "「斷絕關係」與本句語境不同。",
-        "tie-mcq-07": "「領帶」與本句語境不同。"
+        "tie-mcq-10": "本句的「family ties」指「家庭聯繫」。",
+        "tie-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-10"
     },
@@ -1172,11 +1096,9 @@ export default {
       "masked": "The firms developed closer ____.",
       "options": [
         "tie-mcq-11",
-        "tie-mcq-10",
-        "tie-mcq-12",
-        "tie-mcq-09",
-        "tie-mcq-13",
-        "tie-mcq-08"
+        "tie-mcq-23",
+        "tie-mcq-06",
+        "tie-mcq-16"
       ],
       "explanation": "本句的「business ties」指「商業關係」。",
       "sentenceIndex": 26,
@@ -1185,12 +1107,10 @@ export default {
         "business ties"
       ],
       "optionReasons": {
-        "tie-mcq-11": "本句指「商業關係」。",
-        "tie-mcq-10": "「家庭聯繫」與本句語境不同。",
-        "tie-mcq-12": "「斷絕關係」與本句語境不同。",
-        "tie-mcq-09": "「關係；聯繫」與本句語境不同。",
-        "tie-mcq-13": "「加強關係」與本句語境不同。",
-        "tie-mcq-08": "「煲呔／蝴蝶領結」與本句語境不同。"
+        "tie-mcq-11": "本句的「business ties」指「商業關係」。",
+        "tie-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-11"
     },
@@ -1202,11 +1122,9 @@ export default {
       "masked": "He has strong ____ with the industry.",
       "options": [
         "tie-mcq-11",
-        "tie-mcq-10",
-        "tie-mcq-12",
-        "tie-mcq-09",
-        "tie-mcq-13",
-        "tie-mcq-08"
+        "tie-mcq-19",
+        "tie-mcq-18",
+        "tie-pdf-001"
       ],
       "explanation": "本句的「professional ties」指「商業關係」。",
       "sentenceIndex": 27,
@@ -1215,12 +1133,10 @@ export default {
         "professional ties"
       ],
       "optionReasons": {
-        "tie-mcq-11": "本句指「商業關係」。",
-        "tie-mcq-10": "「家庭聯繫」與本句語境不同。",
-        "tie-mcq-12": "「斷絕關係」與本句語境不同。",
-        "tie-mcq-09": "「關係；聯繫」與本句語境不同。",
-        "tie-mcq-13": "「加強關係」與本句語境不同。",
-        "tie-mcq-08": "「煲呔／蝴蝶領結」與本句語境不同。"
+        "tie-mcq-11": "本句的「professional ties」指「商業關係」。",
+        "tie-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tie-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-11"
     },
@@ -1232,11 +1148,9 @@ export default {
       "masked": "The two countries strengthened economic ____.",
       "options": [
         "tie-pdf-003",
-        "tie-mcq-10",
-        "tie-mcq-12",
-        "tie-mcq-09",
-        "tie-mcq-13",
-        "tie-mcq-08"
+        "tie-mcq-18",
+        "tie-mcq-23",
+        "tie-mcq-22"
       ],
       "explanation": "本句的「ties」指「國家、政府或經濟體之間的正式關係」。",
       "sentenceIndex": 28,
@@ -1245,12 +1159,10 @@ export default {
         "ties"
       ],
       "optionReasons": {
-        "tie-pdf-003": "本句指「國家、政府或經濟體之間的正式關係」。",
-        "tie-mcq-10": "「家庭聯繫」與本句語境不同。",
-        "tie-mcq-12": "「斷絕關係」與本句語境不同。",
-        "tie-mcq-09": "「關係；聯繫」與本句語境不同。",
-        "tie-mcq-13": "「加強關係」與本句語境不同。",
-        "tie-mcq-08": "「煲呔／蝴蝶領結」與本句語境不同。"
+        "tie-pdf-003": "本句的「ties」指「國家、政府或經濟體之間的正式關係」。",
+        "tie-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-pdf-003"
     },
@@ -1262,11 +1174,9 @@ export default {
       "masked": "They restored diplomatic ____.",
       "options": [
         "tie-pdf-003",
-        "tie-mcq-10",
-        "tie-mcq-12",
-        "tie-mcq-09",
-        "tie-mcq-13",
-        "tie-mcq-08"
+        "tie-mcq-15",
+        "tie-pdf-001",
+        "tie-mcq-06"
       ],
       "explanation": "本句的「ties」指「國家、政府或經濟體之間的正式關係」。",
       "sentenceIndex": 29,
@@ -1275,12 +1185,10 @@ export default {
         "ties"
       ],
       "optionReasons": {
-        "tie-pdf-003": "本句指「國家、政府或經濟體之間的正式關係」。",
-        "tie-mcq-10": "「家庭聯繫」與本句語境不同。",
-        "tie-mcq-12": "「斷絕關係」與本句語境不同。",
-        "tie-mcq-09": "「關係；聯繫」與本句語境不同。",
-        "tie-mcq-13": "「加強關係」與本句語境不同。",
-        "tie-mcq-08": "「煲呔／蝴蝶領結」與本句語境不同。"
+        "tie-pdf-003": "本句的「ties」指「國家、政府或經濟體之間的正式關係」。",
+        "tie-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tie-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-pdf-003"
     },
@@ -1292,11 +1200,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "tie-mcq-12",
-        "tie-mcq-11",
-        "tie-mcq-13",
-        "tie-mcq-10",
-        "tie-mcq-14",
-        "tie-mcq-09"
+        "tie-mcq-06",
+        "tie-mcq-17",
+        "tie-mcq-16"
       ],
       "explanation": "本句的「cut ties with the supplier」指「斷絕關係」。",
       "sentenceIndex": 30,
@@ -1305,12 +1211,10 @@ export default {
         "cut ties with the supplier"
       ],
       "optionReasons": {
-        "tie-mcq-12": "本句指「斷絕關係」。",
-        "tie-mcq-11": "「商業關係」與本句語境不同。",
-        "tie-mcq-13": "「加強關係」與本句語境不同。",
-        "tie-mcq-10": "「家庭聯繫」與本句語境不同。",
-        "tie-mcq-14": "「平局；平手」與本句語境不同。",
-        "tie-mcq-09": "「關係；聯繫」與本句語境不同。"
+        "tie-mcq-12": "本句的「cut ties with the supplier」指「斷絕關係」。",
+        "tie-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-12"
     },
@@ -1322,11 +1226,9 @@ export default {
       "masked": "He decided to ____.",
       "options": [
         "tie-mcq-12",
-        "tie-mcq-11",
-        "tie-mcq-13",
-        "tie-mcq-10",
-        "tie-mcq-14",
-        "tie-mcq-09"
+        "tie-mcq-19",
+        "tie-mcq-23",
+        "tie-mcq-18"
       ],
       "explanation": "本句的「break ties with the organisation」指「斷絕關係」。",
       "sentenceIndex": 31,
@@ -1335,12 +1237,10 @@ export default {
         "break ties with the organisation"
       ],
       "optionReasons": {
-        "tie-mcq-12": "本句指「斷絕關係」。",
-        "tie-mcq-11": "「商業關係」與本句語境不同。",
-        "tie-mcq-13": "「加強關係」與本句語境不同。",
-        "tie-mcq-10": "「家庭聯繫」與本句語境不同。",
-        "tie-mcq-14": "「平局；平手」與本句語境不同。",
-        "tie-mcq-09": "「關係；聯繫」與本句語境不同。"
+        "tie-mcq-12": "本句的「break ties with the organisation」指「斷絕關係」。",
+        "tie-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-12"
     },
@@ -1352,11 +1252,9 @@ export default {
       "masked": "The project helped ____.",
       "options": [
         "tie-mcq-13",
-        "tie-mcq-12",
-        "tie-mcq-14",
-        "tie-mcq-11",
+        "tie-mcq-06",
         "tie-mcq-15",
-        "tie-mcq-10"
+        "tie-mcq-08"
       ],
       "explanation": "本句的「strengthen ties between the departments」指「加強關係」。",
       "sentenceIndex": 32,
@@ -1365,12 +1263,10 @@ export default {
         "strengthen ties between the departments"
       ],
       "optionReasons": {
-        "tie-mcq-13": "本句指「加強關係」。",
-        "tie-mcq-12": "「斷絕關係」與本句語境不同。",
-        "tie-mcq-14": "「平局；平手」與本句語境不同。",
-        "tie-mcq-11": "「商業關係」與本句語境不同。",
-        "tie-mcq-15": "「並列第一」與本句語境不同。",
-        "tie-mcq-10": "「家庭聯繫」與本句語境不同。"
+        "tie-mcq-13": "本句的「strengthen ties between the departments」指「加強關係」。",
+        "tie-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-13"
     },
@@ -1382,11 +1278,9 @@ export default {
       "masked": "The visit was intended to ____.",
       "options": [
         "tie-mcq-13",
-        "tie-mcq-12",
-        "tie-mcq-14",
-        "tie-mcq-11",
-        "tie-mcq-15",
-        "tie-mcq-10"
+        "tie-mcq-04",
+        "tie-mcq-17",
+        "tie-mcq-19"
       ],
       "explanation": "本句的「strengthen business ties」指「加強關係」。",
       "sentenceIndex": 33,
@@ -1395,12 +1289,10 @@ export default {
         "strengthen business ties"
       ],
       "optionReasons": {
-        "tie-mcq-13": "本句指「加強關係」。",
-        "tie-mcq-12": "「斷絕關係」與本句語境不同。",
-        "tie-mcq-14": "「平局；平手」與本句語境不同。",
-        "tie-mcq-11": "「商業關係」與本句語境不同。",
-        "tie-mcq-15": "「並列第一」與本句語境不同。",
-        "tie-mcq-10": "「家庭聯繫」與本句語境不同。"
+        "tie-mcq-13": "本句的「strengthen business ties」指「加強關係」。",
+        "tie-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-13"
     },
@@ -1412,11 +1304,9 @@ export default {
       "masked": "Two candidates ____.",
       "options": [
         "tie-mcq-15",
-        "tie-mcq-14",
-        "tie-mcq-16",
-        "tie-mcq-13",
+        "tie-mcq-18",
         "tie-mcq-17",
-        "tie-mcq-12"
+        "tie-pdf-002"
       ],
       "explanation": "本句的「tied for first place」指「並列第一」。",
       "sentenceIndex": 38,
@@ -1425,12 +1315,10 @@ export default {
         "tied for first place"
       ],
       "optionReasons": {
-        "tie-mcq-15": "本句指「並列第一」。",
-        "tie-mcq-14": "「平局；平手」與本句語境不同。",
-        "tie-mcq-16": "「一場淘汰賽對賽」與本句語境不同。",
-        "tie-mcq-13": "「加強關係」與本句語境不同。",
-        "tie-mcq-17": "「綁牢」與本句語境不同。",
-        "tie-mcq-12": "「斷絕關係」與本句語境不同。"
+        "tie-mcq-15": "本句的「tied for first place」指「並列第一」。",
+        "tie-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tie-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-15"
     },
@@ -1442,11 +1330,9 @@ export default {
       "masked": "The teams are currently ____.",
       "options": [
         "tie-mcq-15",
-        "tie-mcq-14",
-        "tie-mcq-16",
         "tie-mcq-13",
-        "tie-mcq-17",
-        "tie-mcq-12"
+        "tie-mcq-04",
+        "tie-mcq-23"
       ],
       "explanation": "本句的「tied for second」指「並列第一」。",
       "sentenceIndex": 39,
@@ -1455,12 +1341,10 @@ export default {
         "tied for second"
       ],
       "optionReasons": {
-        "tie-mcq-15": "本句指「並列第一」。",
-        "tie-mcq-14": "「平局；平手」與本句語境不同。",
-        "tie-mcq-16": "「一場淘汰賽對賽」與本句語境不同。",
-        "tie-mcq-13": "「加強關係」與本句語境不同。",
-        "tie-mcq-17": "「綁牢」與本句語境不同。",
-        "tie-mcq-12": "「斷絕關係」與本句語境不同。"
+        "tie-mcq-15": "本句的「tied for second」指「並列第一」。",
+        "tie-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-15"
     },
@@ -1472,11 +1356,9 @@ export default {
       "masked": "The cup ____ will be played on Saturday.",
       "options": [
         "tie-mcq-16",
-        "tie-mcq-15",
-        "tie-mcq-17",
-        "tie-mcq-14",
-        "tie-mcq-18",
-        "tie-mcq-13"
+        "tie-mcq-23",
+        "tie-mcq-03",
+        "tie-mcq-25"
       ],
       "explanation": "本句的「tie」指「一場淘汰賽對賽」。",
       "sentenceIndex": 40,
@@ -1485,12 +1367,10 @@ export default {
         "tie"
       ],
       "optionReasons": {
-        "tie-mcq-16": "本句指「一場淘汰賽對賽」。",
-        "tie-mcq-15": "「並列第一」與本句語境不同。",
-        "tie-mcq-17": "「綁牢」與本句語境不同。",
-        "tie-mcq-14": "「平局；平手」與本句語境不同。",
-        "tie-mcq-18": "「忙得抽不開身」與本句語境不同。",
-        "tie-mcq-13": "「加強關係」與本句語境不同。"
+        "tie-mcq-16": "本句的「tie」指「一場淘汰賽對賽」。",
+        "tie-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-16"
     },
@@ -1502,11 +1382,9 @@ export default {
       "masked": "They won the ____ over two matches.",
       "options": [
         "tie-mcq-16",
-        "tie-mcq-15",
-        "tie-mcq-17",
-        "tie-mcq-14",
-        "tie-mcq-18",
-        "tie-mcq-13"
+        "tie-mcq-02",
+        "tie-mcq-04",
+        "tie-mcq-22"
       ],
       "explanation": "本句的「tie」指「一場淘汰賽對賽」。",
       "sentenceIndex": 41,
@@ -1515,12 +1393,10 @@ export default {
         "tie"
       ],
       "optionReasons": {
-        "tie-mcq-16": "本句指「一場淘汰賽對賽」。",
-        "tie-mcq-15": "「並列第一」與本句語境不同。",
-        "tie-mcq-17": "「綁牢」與本句語境不同。",
-        "tie-mcq-14": "「平局；平手」與本句語境不同。",
-        "tie-mcq-18": "「忙得抽不開身」與本句語境不同。",
-        "tie-mcq-13": "「加強關係」與本句語境不同。"
+        "tie-mcq-16": "本句的「tie」指「一場淘汰賽對賽」。",
+        "tie-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-16"
     },
@@ -1532,11 +1408,9 @@ export default {
       "masked": "____ before leaving.",
       "options": [
         "tie-mcq-17",
-        "tie-mcq-16",
-        "tie-mcq-18",
-        "tie-mcq-15",
         "tie-mcq-19",
-        "tie-mcq-14"
+        "tie-mcq-02",
+        "tie-pdf-002"
       ],
       "explanation": "本句的「Tie up the boat」指「綁牢」。",
       "sentenceIndex": 42,
@@ -1545,12 +1419,10 @@ export default {
         "Tie up the boat"
       ],
       "optionReasons": {
-        "tie-mcq-17": "本句指「綁牢」。",
-        "tie-mcq-16": "「一場淘汰賽對賽」與本句語境不同。",
-        "tie-mcq-18": "「忙得抽不開身」與本句語境不同。",
-        "tie-mcq-15": "「並列第一」與本句語境不同。",
-        "tie-mcq-19": "「佔用資源」與本句語境不同。",
-        "tie-mcq-14": "「平局；平手」與本句語境不同。"
+        "tie-mcq-17": "本句的「Tie up the boat」指「綁牢」。",
+        "tie-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tie-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-17"
     },
@@ -1562,11 +1434,9 @@ export default {
       "masked": "The boxes were ____.",
       "options": [
         "tie-mcq-17",
-        "tie-mcq-16",
+        "tie-mcq-21",
         "tie-mcq-18",
-        "tie-mcq-15",
-        "tie-mcq-19",
-        "tie-mcq-14"
+        "tie-pdf-003"
       ],
       "explanation": "本句的「tied up with string」指「綁牢」。",
       "sentenceIndex": 43,
@@ -1575,12 +1445,10 @@ export default {
         "tied up with string"
       ],
       "optionReasons": {
-        "tie-mcq-17": "本句指「綁牢」。",
-        "tie-mcq-16": "「一場淘汰賽對賽」與本句語境不同。",
-        "tie-mcq-18": "「忙得抽不開身」與本句語境不同。",
-        "tie-mcq-15": "「並列第一」與本句語境不同。",
-        "tie-mcq-19": "「佔用資源」與本句語境不同。",
-        "tie-mcq-14": "「平局；平手」與本句語境不同。"
+        "tie-mcq-17": "本句的「tied up with string」指「綁牢」。",
+        "tie-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tie-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-17"
     },
@@ -1592,11 +1460,9 @@ export default {
       "masked": "The robber ____.",
       "options": [
         "tie-mcq-17",
-        "tie-mcq-16",
-        "tie-mcq-18",
-        "tie-mcq-15",
-        "tie-mcq-19",
-        "tie-mcq-14"
+        "tie-mcq-04",
+        "tie-mcq-24",
+        "tie-mcq-15"
       ],
       "explanation": "本句的「tied the guard up」指「綁牢」。",
       "sentenceIndex": 44,
@@ -1605,12 +1471,10 @@ export default {
         "tied the guard up"
       ],
       "optionReasons": {
-        "tie-mcq-17": "本句指「綁牢」。",
-        "tie-mcq-16": "「一場淘汰賽對賽」與本句語境不同。",
-        "tie-mcq-18": "「忙得抽不開身」與本句語境不同。",
-        "tie-mcq-15": "「並列第一」與本句語境不同。",
-        "tie-mcq-19": "「佔用資源」與本句語境不同。",
-        "tie-mcq-14": "「平局；平手」與本句語境不同。"
+        "tie-mcq-17": "本句的「tied the guard up」指「綁牢」。",
+        "tie-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-17"
     },
@@ -1622,11 +1486,9 @@ export default {
       "masked": "His hands were ____.",
       "options": [
         "tie-mcq-17",
-        "tie-mcq-16",
-        "tie-mcq-18",
-        "tie-mcq-15",
-        "tie-mcq-19",
-        "tie-mcq-14"
+        "tie-pdf-003",
+        "tie-mcq-06",
+        "tie-mcq-19"
       ],
       "explanation": "本句的「tied up」指「綁牢」。",
       "sentenceIndex": 45,
@@ -1635,12 +1497,10 @@ export default {
         "tied up"
       ],
       "optionReasons": {
-        "tie-mcq-17": "本句指「綁牢」。",
-        "tie-mcq-16": "「一場淘汰賽對賽」與本句語境不同。",
-        "tie-mcq-18": "「忙得抽不開身」與本句語境不同。",
-        "tie-mcq-15": "「並列第一」與本句語境不同。",
-        "tie-mcq-19": "「佔用資源」與本句語境不同。",
-        "tie-mcq-14": "「平局；平手」與本句語境不同。"
+        "tie-mcq-17": "本句的「tied up」指「綁牢」。",
+        "tie-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-17"
     },
@@ -1652,11 +1512,9 @@ export default {
       "masked": "I'm ____ all afternoon.",
       "options": [
         "tie-mcq-18",
-        "tie-mcq-17",
-        "tie-mcq-19",
-        "tie-mcq-16",
         "tie-mcq-20",
-        "tie-mcq-15"
+        "tie-mcq-06",
+        "tie-mcq-16"
       ],
       "explanation": "本句的「tied up in meetings」指「忙得抽不開身」。",
       "sentenceIndex": 46,
@@ -1665,12 +1523,10 @@ export default {
         "tied up in meetings"
       ],
       "optionReasons": {
-        "tie-mcq-18": "本句指「忙得抽不開身」。",
-        "tie-mcq-17": "「綁牢」與本句語境不同。",
-        "tie-mcq-19": "「佔用資源」與本句語境不同。",
-        "tie-mcq-16": "「一場淘汰賽對賽」與本句語境不同。",
-        "tie-mcq-20": "「處理收尾細節」與本句語境不同。",
-        "tie-mcq-15": "「並列第一」與本句語境不同。"
+        "tie-mcq-18": "本句的「tied up in meetings」指「忙得抽不開身」。",
+        "tie-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-18"
     },
@@ -1682,11 +1538,9 @@ export default {
       "masked": "She's ____.",
       "options": [
         "tie-mcq-18",
-        "tie-mcq-17",
-        "tie-mcq-19",
-        "tie-mcq-16",
-        "tie-mcq-20",
-        "tie-mcq-15"
+        "tie-mcq-06",
+        "tie-pdf-002",
+        "tie-mcq-17"
       ],
       "explanation": "本句的「tied up at the moment」指「忙得抽不開身」。",
       "sentenceIndex": 47,
@@ -1695,12 +1549,10 @@ export default {
         "tied up at the moment"
       ],
       "optionReasons": {
-        "tie-mcq-18": "本句指「忙得抽不開身」。",
-        "tie-mcq-17": "「綁牢」與本句語境不同。",
-        "tie-mcq-19": "「佔用資源」與本句語境不同。",
-        "tie-mcq-16": "「一場淘汰賽對賽」與本句語境不同。",
-        "tie-mcq-20": "「處理收尾細節」與本句語境不同。",
-        "tie-mcq-15": "「並列第一」與本句語境不同。"
+        "tie-mcq-18": "本句的「tied up at the moment」指「忙得抽不開身」。",
+        "tie-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tie-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-18"
     },
@@ -1712,11 +1564,9 @@ export default {
       "masked": "The project ____.",
       "options": [
         "tie-mcq-19",
-        "tie-mcq-18",
         "tie-mcq-20",
-        "tie-mcq-17",
-        "tie-mcq-21",
-        "tie-mcq-16"
+        "tie-mcq-03",
+        "tie-mcq-12"
       ],
       "explanation": "本句的「ties up too much capital」指「佔用資源」。",
       "sentenceIndex": 48,
@@ -1725,12 +1575,10 @@ export default {
         "ties up too much capital"
       ],
       "optionReasons": {
-        "tie-mcq-19": "本句指「佔用資源」。",
-        "tie-mcq-18": "「忙得抽不開身」與本句語境不同。",
-        "tie-mcq-20": "「處理收尾細節」與本句語境不同。",
-        "tie-mcq-17": "「綁牢」與本句語境不同。",
-        "tie-mcq-21": "「與……相符／配合」與本句語境不同。",
-        "tie-mcq-16": "「一場淘汰賽對賽」與本句語境不同。"
+        "tie-mcq-19": "本句的「ties up too much capital」指「佔用資源」。",
+        "tie-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-19"
     },
@@ -1742,11 +1590,9 @@ export default {
       "masked": "The delay ____.",
       "options": [
         "tie-mcq-19",
-        "tie-mcq-18",
-        "tie-mcq-20",
-        "tie-mcq-17",
-        "tie-mcq-21",
-        "tie-mcq-16"
+        "tie-mcq-11",
+        "tie-mcq-08",
+        "tie-mcq-23"
       ],
       "explanation": "本句的「tied up staff for several hours」指「佔用資源」。",
       "sentenceIndex": 49,
@@ -1755,12 +1601,10 @@ export default {
         "tied up staff for several hours"
       ],
       "optionReasons": {
-        "tie-mcq-19": "本句指「佔用資源」。",
-        "tie-mcq-18": "「忙得抽不開身」與本句語境不同。",
-        "tie-mcq-20": "「處理收尾細節」與本句語境不同。",
-        "tie-mcq-17": "「綁牢」與本句語境不同。",
-        "tie-mcq-21": "「與……相符／配合」與本句語境不同。",
-        "tie-mcq-16": "「一場淘汰賽對賽」與本句語境不同。"
+        "tie-mcq-19": "本句的「tied up staff for several hours」指「佔用資源」。",
+        "tie-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-19"
     },
@@ -1772,11 +1616,9 @@ export default {
       "masked": "We need to ____ before the launch.",
       "options": [
         "tie-mcq-20",
-        "tie-mcq-19",
-        "tie-mcq-21",
+        "tie-mcq-10",
         "tie-mcq-18",
-        "tie-mcq-22",
-        "tie-mcq-17"
+        "tie-pdf-001"
       ],
       "explanation": "本句的「tie up a few loose ends」指「處理收尾細節」。",
       "sentenceIndex": 50,
@@ -1785,12 +1627,10 @@ export default {
         "tie up a few loose ends"
       ],
       "optionReasons": {
-        "tie-mcq-20": "本句指「處理收尾細節」。",
-        "tie-mcq-19": "「佔用資源」與本句語境不同。",
-        "tie-mcq-21": "「與……相符／配合」與本句語境不同。",
-        "tie-mcq-18": "「忙得抽不開身」與本句語境不同。",
-        "tie-mcq-22": "「聯動／配套」與本句語境不同。",
-        "tie-mcq-17": "「綁牢」與本句語境不同。"
+        "tie-mcq-20": "本句的「tie up a few loose ends」指「處理收尾細節」。",
+        "tie-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tie-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-20"
     },
@@ -1802,11 +1642,9 @@ export default {
       "masked": "She spent the afternoon ____.",
       "options": [
         "tie-mcq-20",
-        "tie-mcq-19",
-        "tie-mcq-21",
-        "tie-mcq-18",
-        "tie-mcq-22",
-        "tie-mcq-17"
+        "tie-mcq-25",
+        "tie-mcq-15",
+        "tie-mcq-16"
       ],
       "explanation": "本句的「tying up loose ends」指「處理收尾細節」。",
       "sentenceIndex": 51,
@@ -1815,12 +1653,10 @@ export default {
         "tying up loose ends"
       ],
       "optionReasons": {
-        "tie-mcq-20": "本句指「處理收尾細節」。",
-        "tie-mcq-19": "「佔用資源」與本句語境不同。",
-        "tie-mcq-21": "「與……相符／配合」與本句語境不同。",
-        "tie-mcq-18": "「忙得抽不開身」與本句語境不同。",
-        "tie-mcq-22": "「聯動／配套」與本句語境不同。",
-        "tie-mcq-17": "「綁牢」與本句語境不同。"
+        "tie-mcq-20": "本句的「tying up loose ends」指「處理收尾細節」。",
+        "tie-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-20"
     },
@@ -1832,11 +1668,9 @@ export default {
       "masked": "The findings ____.",
       "options": [
         "tie-mcq-21",
-        "tie-mcq-20",
-        "tie-mcq-22",
-        "tie-mcq-19",
         "tie-mcq-23",
-        "tie-mcq-18"
+        "tie-mcq-16",
+        "tie-mcq-20"
       ],
       "explanation": "本句的「tie in with earlier research」指「與……相符／配合」。",
       "sentenceIndex": 52,
@@ -1845,12 +1679,10 @@ export default {
         "tie in with earlier research"
       ],
       "optionReasons": {
-        "tie-mcq-21": "本句指「與……相符／配合」。",
-        "tie-mcq-20": "「處理收尾細節」與本句語境不同。",
-        "tie-mcq-22": "「聯動／配套」與本句語境不同。",
-        "tie-mcq-19": "「佔用資源」與本句語境不同。",
-        "tie-mcq-23": "「束縛某人」與本句語境不同。",
-        "tie-mcq-18": "「忙得抽不開身」與本句語境不同。"
+        "tie-mcq-21": "本句的「tie in with earlier research」指「與……相符／配合」。",
+        "tie-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-21"
     },
@@ -1862,11 +1694,9 @@ export default {
       "masked": "This idea ____.",
       "options": [
         "tie-mcq-21",
-        "tie-mcq-20",
-        "tie-mcq-22",
-        "tie-mcq-19",
+        "tie-mcq-24",
         "tie-mcq-23",
-        "tie-mcq-18"
+        "tie-mcq-02"
       ],
       "explanation": "本句的「ties in with our main objective」指「與……相符／配合」。",
       "sentenceIndex": 53,
@@ -1875,12 +1705,10 @@ export default {
         "ties in with our main objective"
       ],
       "optionReasons": {
-        "tie-mcq-21": "本句指「與……相符／配合」。",
-        "tie-mcq-20": "「處理收尾細節」與本句語境不同。",
-        "tie-mcq-22": "「聯動／配套」與本句語境不同。",
-        "tie-mcq-19": "「佔用資源」與本句語境不同。",
-        "tie-mcq-23": "「束縛某人」與本句語境不同。",
-        "tie-mcq-18": "「忙得抽不開身」與本句語境不同。"
+        "tie-mcq-21": "本句的「ties in with our main objective」指「與……相符／配合」。",
+        "tie-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-21"
     },
@@ -1892,11 +1720,9 @@ export default {
       "masked": "The book was released as a film ____.",
       "options": [
         "tie-mcq-22",
-        "tie-mcq-21",
+        "tie-mcq-12",
         "tie-mcq-23",
-        "tie-mcq-20",
-        "tie-mcq-24",
-        "tie-mcq-19"
+        "tie-mcq-20"
       ],
       "explanation": "本句的「tie-in」指「聯動／配套」。",
       "sentenceIndex": 54,
@@ -1905,12 +1731,10 @@ export default {
         "tie-in"
       ],
       "optionReasons": {
-        "tie-mcq-22": "本句指「聯動／配套」。",
-        "tie-mcq-21": "「與……相符／配合」與本句語境不同。",
-        "tie-mcq-23": "「束縛某人」與本句語境不同。",
-        "tie-mcq-20": "「處理收尾細節」與本句語境不同。",
-        "tie-mcq-24": "「鐵路枕木」與本句語境不同。",
-        "tie-mcq-19": "「佔用資源」與本句語境不同。"
+        "tie-mcq-22": "本句的「tie-in」指「聯動／配套」。",
+        "tie-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-22"
     },
@@ -1922,11 +1746,9 @@ export default {
       "masked": "The campaign included several promotional ____.",
       "options": [
         "tie-mcq-22",
-        "tie-mcq-21",
+        "tie-pdf-001",
         "tie-mcq-23",
-        "tie-mcq-20",
-        "tie-mcq-24",
-        "tie-mcq-19"
+        "tie-mcq-16"
       ],
       "explanation": "本句的「tie-ins」指「聯動／配套」。",
       "sentenceIndex": 55,
@@ -1935,12 +1757,10 @@ export default {
         "tie-ins"
       ],
       "optionReasons": {
-        "tie-mcq-22": "本句指「聯動／配套」。",
-        "tie-mcq-21": "「與……相符／配合」與本句語境不同。",
-        "tie-mcq-23": "「束縛某人」與本句語境不同。",
-        "tie-mcq-20": "「處理收尾細節」與本句語境不同。",
-        "tie-mcq-24": "「鐵路枕木」與本句語境不同。",
-        "tie-mcq-19": "「佔用資源」與本句語境不同。"
+        "tie-mcq-22": "本句的「tie-ins」指「聯動／配套」。",
+        "tie-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-22"
     },
@@ -1952,11 +1772,9 @@ export default {
       "masked": "He doesn't want a job that ____.",
       "options": [
         "tie-mcq-23",
+        "tie-mcq-05",
         "tie-mcq-22",
-        "tie-mcq-24",
-        "tie-mcq-21",
-        "tie-mcq-25",
-        "tie-mcq-20"
+        "tie-mcq-03"
       ],
       "explanation": "本句的「ties him down」指「束縛某人」。",
       "sentenceIndex": 56,
@@ -1965,12 +1783,10 @@ export default {
         "ties him down"
       ],
       "optionReasons": {
-        "tie-mcq-23": "本句指「束縛某人」。",
-        "tie-mcq-22": "「聯動／配套」與本句語境不同。",
-        "tie-mcq-24": "「鐵路枕木」與本句語境不同。",
-        "tie-mcq-21": "「與……相符／配合」與本句語境不同。",
-        "tie-mcq-25": "「拉結件；連接件」與本句語境不同。",
-        "tie-mcq-20": "「處理收尾細節」與本句語境不同。"
+        "tie-mcq-23": "本句的「ties him down」指「束縛某人」。",
+        "tie-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-23"
     },
@@ -1982,11 +1798,9 @@ export default {
       "masked": "Family responsibilities can ____.",
       "options": [
         "tie-mcq-23",
-        "tie-mcq-22",
-        "tie-mcq-24",
-        "tie-mcq-21",
-        "tie-mcq-25",
-        "tie-mcq-20"
+        "tie-mcq-04",
+        "tie-mcq-03",
+        "tie-mcq-11"
       ],
       "explanation": "本句的「tie people down」指「束縛某人」。",
       "sentenceIndex": 57,
@@ -1995,12 +1809,10 @@ export default {
         "tie people down"
       ],
       "optionReasons": {
-        "tie-mcq-23": "本句指「束縛某人」。",
-        "tie-mcq-22": "「聯動／配套」與本句語境不同。",
-        "tie-mcq-24": "「鐵路枕木」與本句語境不同。",
-        "tie-mcq-21": "「與……相符／配合」與本句語境不同。",
-        "tie-mcq-25": "「拉結件；連接件」與本句語境不同。",
-        "tie-mcq-20": "「處理收尾細節」與本句語境不同。"
+        "tie-mcq-23": "本句的「tie people down」指「束縛某人」。",
+        "tie-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-23"
     },
@@ -2012,11 +1824,9 @@ export default {
       "masked": "The rails rest on wooden ____.",
       "options": [
         "tie-mcq-24",
-        "tie-mcq-23",
-        "tie-mcq-25",
-        "tie-mcq-22",
-        "tie-mcq-21",
-        "tie-mcq-20"
+        "tie-mcq-06",
+        "tie-mcq-11",
+        "tie-mcq-23"
       ],
       "explanation": "本句的「railroad ties」指「鐵路枕木」。",
       "sentenceIndex": 62,
@@ -2025,12 +1835,10 @@ export default {
         "railroad ties"
       ],
       "optionReasons": {
-        "tie-mcq-24": "本句指「鐵路枕木」。",
-        "tie-mcq-23": "「束縛某人」與本句語境不同。",
-        "tie-mcq-25": "「拉結件；連接件」與本句語境不同。",
-        "tie-mcq-22": "「聯動／配套」與本句語境不同。",
-        "tie-mcq-21": "「與……相符／配合」與本句語境不同。",
-        "tie-mcq-20": "「處理收尾細節」與本句語境不同。"
+        "tie-mcq-24": "本句的「railroad ties」指「鐵路枕木」。",
+        "tie-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-24"
     },
@@ -2042,11 +1850,9 @@ export default {
       "masked": "Several old ____ needed replacing.",
       "options": [
         "tie-mcq-24",
-        "tie-mcq-23",
-        "tie-mcq-25",
-        "tie-mcq-22",
-        "tie-mcq-21",
-        "tie-mcq-20"
+        "tie-mcq-20",
+        "tie-pdf-003",
+        "tie-mcq-18"
       ],
       "explanation": "本句的「ties」指「鐵路枕木」。",
       "sentenceIndex": 63,
@@ -2055,12 +1861,10 @@ export default {
         "ties"
       ],
       "optionReasons": {
-        "tie-mcq-24": "本句指「鐵路枕木」。",
-        "tie-mcq-23": "「束縛某人」與本句語境不同。",
-        "tie-mcq-25": "「拉結件；連接件」與本句語境不同。",
-        "tie-mcq-22": "「聯動／配套」與本句語境不同。",
-        "tie-mcq-21": "「與……相符／配合」與本句語境不同。",
-        "tie-mcq-20": "「處理收尾細節」與本句語境不同。"
+        "tie-mcq-24": "本句的「ties」指「鐵路枕木」。",
+        "tie-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tie-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-24"
     },
@@ -2072,11 +1876,9 @@ export default {
       "masked": "Metal ____ connect the two walls.",
       "options": [
         "tie-mcq-25",
-        "tie-mcq-24",
-        "tie-mcq-23",
-        "tie-mcq-22",
-        "tie-mcq-21",
-        "tie-mcq-20"
+        "tie-mcq-18",
+        "tie-mcq-17",
+        "tie-mcq-04"
       ],
       "explanation": "本句的「ties」指「拉結件；連接件」。",
       "sentenceIndex": 64,
@@ -2085,12 +1887,10 @@ export default {
         "ties"
       ],
       "optionReasons": {
-        "tie-mcq-25": "本句指「拉結件；連接件」。",
-        "tie-mcq-24": "「鐵路枕木」與本句語境不同。",
-        "tie-mcq-23": "「束縛某人」與本句語境不同。",
-        "tie-mcq-22": "「聯動／配套」與本句語境不同。",
-        "tie-mcq-21": "「與……相符／配合」與本句語境不同。",
-        "tie-mcq-20": "「處理收尾細節」與本句語境不同。"
+        "tie-mcq-25": "本句的「ties」指「拉結件；連接件」。",
+        "tie-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-25"
     },
@@ -2102,11 +1902,9 @@ export default {
       "masked": "The structure uses steel ____ for support.",
       "options": [
         "tie-mcq-25",
+        "tie-mcq-17",
         "tie-mcq-24",
-        "tie-mcq-23",
-        "tie-mcq-22",
-        "tie-mcq-21",
-        "tie-mcq-20"
+        "tie-mcq-22"
       ],
       "explanation": "本句的「ties」指「拉結件；連接件」。",
       "sentenceIndex": 65,
@@ -2115,12 +1913,10 @@ export default {
         "ties"
       ],
       "optionReasons": {
-        "tie-mcq-25": "本句指「拉結件；連接件」。",
-        "tie-mcq-24": "「鐵路枕木」與本句語境不同。",
-        "tie-mcq-23": "「束縛某人」與本句語境不同。",
-        "tie-mcq-22": "「聯動／配套」與本句語境不同。",
-        "tie-mcq-21": "「與……相符／配合」與本句語境不同。",
-        "tie-mcq-20": "「處理收尾細節」與本句語境不同。"
+        "tie-mcq-25": "本句的「ties」指「拉結件；連接件」。",
+        "tie-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "tie-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tie-mcq-25"
     }
@@ -2132,5 +1928,7 @@ export default {
     "sha256": "a22e71393a4c59390afa87ad8963533b298658658085ce6b0ed737cf7cc76590",
     "pages": 23
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

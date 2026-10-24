@@ -354,11 +354,9 @@ export default {
       "masked": "Smoke ____ from the oven.",
       "options": [
         "rise-mcq-01",
-        "rise-mcq-02",
-        "rise-mcq-03",
-        "rise-mcq-04",
-        "rise-mcq-05",
-        "rise-mcq-06"
+        "rise-mcq-14",
+        "rise-mcq-07",
+        "rise-mcq-15"
       ],
       "explanation": "本句的「rose」指「從較低位置移到較高位置」。",
       "sentenceIndex": 0,
@@ -367,12 +365,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rise-mcq-01": "本句指「從較低位置移到較高位置」。",
-        "rise-mcq-02": "「從坐著／躺著的位置起身」與本句語境不同。",
-        "rise-mcq-03": "「價格、數量、水平、溫度等提高」與本句語境不同。",
-        "rise-mcq-04": "「數量、價格或水平增加的現象／幅度」與本句語境不同。",
-        "rise-mcq-05": "「工資／薪酬增加」與本句語境不同。",
-        "rise-mcq-06": "「地位、權力、名聲或成功程度提高」與本句語境不同。"
+        "rise-mcq-01": "本句的「rose」指「從較低位置移到較高位置」。",
+        "rise-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-01"
     },
@@ -384,11 +380,9 @@ export default {
       "masked": "He ____ from his chair.",
       "options": [
         "rise-mcq-02",
-        "rise-mcq-01",
-        "rise-mcq-03",
-        "rise-mcq-04",
-        "rise-mcq-05",
-        "rise-mcq-06"
+        "rise-mcq-13",
+        "rise-mcq-09",
+        "rise-mcq-16"
       ],
       "explanation": "本句的「rose」指「從坐著／躺著的位置起身」。",
       "sentenceIndex": 1,
@@ -397,12 +391,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rise-mcq-02": "本句指「從坐著／躺著的位置起身」。",
-        "rise-mcq-01": "「從較低位置移到較高位置」與本句語境不同。",
-        "rise-mcq-03": "「價格、數量、水平、溫度等提高」與本句語境不同。",
-        "rise-mcq-04": "「數量、價格或水平增加的現象／幅度」與本句語境不同。",
-        "rise-mcq-05": "「工資／薪酬增加」與本句語境不同。",
-        "rise-mcq-06": "「地位、權力、名聲或成功程度提高」與本句語境不同。"
+        "rise-mcq-02": "本句的「rose」指「從坐著／躺著的位置起身」。",
+        "rise-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-02"
     },
@@ -414,11 +406,9 @@ export default {
       "masked": "Small businesses face ____.",
       "options": [
         "rise-mcq-03",
-        "rise-mcq-02",
-        "rise-mcq-04",
-        "rise-mcq-01",
-        "rise-mcq-05",
-        "rise-mcq-06"
+        "rise-mcq-16",
+        "rise-mcq-07",
+        "rise-mcq-14"
       ],
       "explanation": "本句的「rising rent」指「價格、數量、水平、溫度等提高」。",
       "sentenceIndex": 2,
@@ -427,12 +417,10 @@ export default {
         "rising rent"
       ],
       "optionReasons": {
-        "rise-mcq-03": "本句指「價格、數量、水平、溫度等提高」。",
-        "rise-mcq-02": "「從坐著／躺著的位置起身」與本句語境不同。",
-        "rise-mcq-04": "「數量、價格或水平增加的現象／幅度」與本句語境不同。",
-        "rise-mcq-01": "「從較低位置移到較高位置」與本句語境不同。",
-        "rise-mcq-05": "「工資／薪酬增加」與本句語境不同。",
-        "rise-mcq-06": "「地位、權力、名聲或成功程度提高」與本句語境不同。"
+        "rise-mcq-03": "本句的「rising rent」指「價格、數量、水平、溫度等提高」。",
+        "rise-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-03"
     },
@@ -444,11 +432,9 @@ export default {
       "masked": "Food prices have ____ sharply.",
       "options": [
         "rise-mcq-03",
-        "rise-mcq-02",
-        "rise-mcq-04",
-        "rise-mcq-01",
-        "rise-mcq-05",
-        "rise-mcq-06"
+        "rise-mcq-14",
+        "rise-mcq-16",
+        "rise-mcq-02"
       ],
       "explanation": "本句的「risen」指「價格、數量、水平、溫度等提高」。",
       "sentenceIndex": 3,
@@ -457,12 +443,10 @@ export default {
         "risen"
       ],
       "optionReasons": {
-        "rise-mcq-03": "本句指「價格、數量、水平、溫度等提高」。",
-        "rise-mcq-02": "「從坐著／躺著的位置起身」與本句語境不同。",
-        "rise-mcq-04": "「數量、價格或水平增加的現象／幅度」與本句語境不同。",
-        "rise-mcq-01": "「從較低位置移到較高位置」與本句語境不同。",
-        "rise-mcq-05": "「工資／薪酬增加」與本句語境不同。",
-        "rise-mcq-06": "「地位、權力、名聲或成功程度提高」與本句語境不同。"
+        "rise-mcq-03": "本句的「risen」指「價格、數量、水平、溫度等提高」。",
+        "rise-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-03"
     },
@@ -474,11 +458,9 @@ export default {
       "masked": "There has been a sharp ____ in rent.",
       "options": [
         "rise-mcq-04",
-        "rise-mcq-03",
-        "rise-mcq-05",
-        "rise-mcq-02",
-        "rise-mcq-06",
-        "rise-mcq-01"
+        "rise-mcq-01",
+        "rise-mcq-07",
+        "rise-mcq-15"
       ],
       "explanation": "本句的「rise」指「數量、價格或水平增加的現象／幅度」。",
       "sentenceIndex": 4,
@@ -487,12 +469,10 @@ export default {
         "rise"
       ],
       "optionReasons": {
-        "rise-mcq-04": "本句指「數量、價格或水平增加的現象／幅度」。",
-        "rise-mcq-03": "「價格、數量、水平、溫度等提高」與本句語境不同。",
-        "rise-mcq-05": "「工資／薪酬增加」與本句語境不同。",
-        "rise-mcq-02": "「從坐著／躺著的位置起身」與本句語境不同。",
-        "rise-mcq-06": "「地位、權力、名聲或成功程度提高」與本句語境不同。",
-        "rise-mcq-01": "「從較低位置移到較高位置」與本句語境不同。"
+        "rise-mcq-04": "本句的「rise」指「數量、價格或水平增加的現象／幅度」。",
+        "rise-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-04"
     },
@@ -504,11 +484,9 @@ export default {
       "masked": "The ____ in costs affected small businesses.",
       "options": [
         "rise-mcq-04",
-        "rise-mcq-03",
-        "rise-mcq-05",
-        "rise-mcq-02",
-        "rise-mcq-06",
-        "rise-mcq-01"
+        "rise-mcq-07",
+        "rise-mcq-12",
+        "rise-mcq-15"
       ],
       "explanation": "本句的「rise」指「數量、價格或水平增加的現象／幅度」。",
       "sentenceIndex": 5,
@@ -517,12 +495,10 @@ export default {
         "rise"
       ],
       "optionReasons": {
-        "rise-mcq-04": "本句指「數量、價格或水平增加的現象／幅度」。",
-        "rise-mcq-03": "「價格、數量、水平、溫度等提高」與本句語境不同。",
-        "rise-mcq-05": "「工資／薪酬增加」與本句語境不同。",
-        "rise-mcq-02": "「從坐著／躺著的位置起身」與本句語境不同。",
-        "rise-mcq-06": "「地位、權力、名聲或成功程度提高」與本句語境不同。",
-        "rise-mcq-01": "「從較低位置移到較高位置」與本句語境不同。"
+        "rise-mcq-04": "本句的「rise」指「數量、價格或水平增加的現象／幅度」。",
+        "rise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-04"
     },
@@ -534,11 +510,9 @@ export default {
       "masked": "She asked for a pay ____.",
       "options": [
         "rise-mcq-05",
-        "rise-mcq-04",
-        "rise-mcq-06",
-        "rise-mcq-03",
+        "rise-mcq-12",
         "rise-mcq-07",
-        "rise-mcq-02"
+        "rise-mcq-14"
       ],
       "explanation": "本句的「rise」指「工資／薪酬增加」。",
       "sentenceIndex": 6,
@@ -547,12 +521,10 @@ export default {
         "rise"
       ],
       "optionReasons": {
-        "rise-mcq-05": "本句指「工資／薪酬增加」。",
-        "rise-mcq-04": "「數量、價格或水平增加的現象／幅度」與本句語境不同。",
-        "rise-mcq-06": "「地位、權力、名聲或成功程度提高」與本句語境不同。",
-        "rise-mcq-03": "「價格、數量、水平、溫度等提高」與本句語境不同。",
-        "rise-mcq-07": "「集體起來反抗權力／統治」與本句語境不同。",
-        "rise-mcq-02": "「從坐著／躺著的位置起身」與本句語境不同。"
+        "rise-mcq-05": "本句的「rise」指「工資／薪酬增加」。",
+        "rise-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-05"
     },
@@ -564,11 +536,9 @@ export default {
       "masked": "Staff received a five per cent ____.",
       "options": [
         "rise-mcq-05",
-        "rise-mcq-04",
-        "rise-mcq-06",
-        "rise-mcq-03",
-        "rise-mcq-07",
-        "rise-mcq-02"
+        "rise-mcq-02",
+        "rise-mcq-15",
+        "rise-mcq-12"
       ],
       "explanation": "本句的「rise」指「工資／薪酬增加」。",
       "sentenceIndex": 7,
@@ -577,12 +547,10 @@ export default {
         "rise"
       ],
       "optionReasons": {
-        "rise-mcq-05": "本句指「工資／薪酬增加」。",
-        "rise-mcq-04": "「數量、價格或水平增加的現象／幅度」與本句語境不同。",
-        "rise-mcq-06": "「地位、權力、名聲或成功程度提高」與本句語境不同。",
-        "rise-mcq-03": "「價格、數量、水平、溫度等提高」與本句語境不同。",
-        "rise-mcq-07": "「集體起來反抗權力／統治」與本句語境不同。",
-        "rise-mcq-02": "「從坐著／躺著的位置起身」與本句語境不同。"
+        "rise-mcq-05": "本句的「rise」指「工資／薪酬增加」。",
+        "rise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-05"
     },
@@ -594,11 +562,9 @@ export default {
       "masked": "The company ____ quickly in the local market.",
       "options": [
         "rise-mcq-06",
-        "rise-mcq-05",
-        "rise-mcq-07",
-        "rise-mcq-04",
         "rise-mcq-08",
-        "rise-mcq-03"
+        "rise-mcq-12",
+        "rise-mcq-09"
       ],
       "explanation": "本句的「rose」指「地位、權力、名聲或成功程度提高」。",
       "sentenceIndex": 8,
@@ -607,12 +573,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rise-mcq-06": "本句指「地位、權力、名聲或成功程度提高」。",
-        "rise-mcq-05": "「工資／薪酬增加」與本句語境不同。",
-        "rise-mcq-07": "「集體起來反抗權力／統治」與本句語境不同。",
-        "rise-mcq-04": "「數量、價格或水平增加的現象／幅度」與本句語境不同。",
-        "rise-mcq-08": "「從地平線下方出現並升起」與本句語境不同。",
-        "rise-mcq-03": "「價格、數量、水平、溫度等提高」與本句語境不同。"
+        "rise-mcq-06": "本句的「rose」指「地位、權力、名聲或成功程度提高」。",
+        "rise-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-06"
     },
@@ -624,11 +588,9 @@ export default {
       "masked": "The people ____ the ruler.",
       "options": [
         "rise-mcq-07",
-        "rise-mcq-06",
-        "rise-mcq-08",
-        "rise-mcq-05",
         "rise-mcq-09",
-        "rise-mcq-04"
+        "rise-mcq-04",
+        "rise-mcq-16"
       ],
       "explanation": "本句的「rose against」指「集體起來反抗權力／統治」。",
       "sentenceIndex": 10,
@@ -637,12 +599,10 @@ export default {
         "rose against"
       ],
       "optionReasons": {
-        "rise-mcq-07": "本句指「集體起來反抗權力／統治」。",
-        "rise-mcq-06": "「地位、權力、名聲或成功程度提高」與本句語境不同。",
-        "rise-mcq-08": "「從地平線下方出現並升起」與本句語境不同。",
-        "rise-mcq-05": "「工資／薪酬增加」與本句語境不同。",
-        "rise-mcq-09": "「麵糰因發酵而膨脹變大」與本句語境不同。",
-        "rise-mcq-04": "「數量、價格或水平增加的現象／幅度」與本句語境不同。"
+        "rise-mcq-07": "本句的「rose against」指「集體起來反抗權力／統治」。",
+        "rise-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-07"
     },
@@ -654,11 +614,9 @@ export default {
       "masked": "The sun ____ in the east.",
       "options": [
         "rise-mcq-08",
-        "rise-mcq-07",
+        "rise-mcq-01",
         "rise-mcq-09",
-        "rise-mcq-06",
-        "rise-mcq-10",
-        "rise-mcq-05"
+        "rise-mcq-12"
       ],
       "explanation": "本句的「rises」指「從地平線下方出現並升起」。",
       "sentenceIndex": 11,
@@ -667,12 +625,10 @@ export default {
         "rises"
       ],
       "optionReasons": {
-        "rise-mcq-08": "本句指「從地平線下方出現並升起」。",
-        "rise-mcq-07": "「集體起來反抗權力／統治」與本句語境不同。",
-        "rise-mcq-09": "「麵糰因發酵而膨脹變大」與本句語境不同。",
-        "rise-mcq-06": "「地位、權力、名聲或成功程度提高」與本句語境不同。",
-        "rise-mcq-10": "「水位／液體高度增加」與本句語境不同。",
-        "rise-mcq-05": "「工資／薪酬增加」與本句語境不同。"
+        "rise-mcq-08": "本句的「rises」指「從地平線下方出現並升起」。",
+        "rise-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-08"
     },
@@ -684,11 +640,9 @@ export default {
       "masked": "The moon had already ____.",
       "options": [
         "rise-mcq-08",
-        "rise-mcq-07",
-        "rise-mcq-09",
-        "rise-mcq-06",
         "rise-mcq-10",
-        "rise-mcq-05"
+        "rise-mcq-15",
+        "rise-mcq-12"
       ],
       "explanation": "本句的「risen」指「從地平線下方出現並升起」。",
       "sentenceIndex": 12,
@@ -697,12 +651,10 @@ export default {
         "risen"
       ],
       "optionReasons": {
-        "rise-mcq-08": "本句指「從地平線下方出現並升起」。",
-        "rise-mcq-07": "「集體起來反抗權力／統治」與本句語境不同。",
-        "rise-mcq-09": "「麵糰因發酵而膨脹變大」與本句語境不同。",
-        "rise-mcq-06": "「地位、權力、名聲或成功程度提高」與本句語境不同。",
-        "rise-mcq-10": "「水位／液體高度增加」與本句語境不同。",
-        "rise-mcq-05": "「工資／薪酬增加」與本句語境不同。"
+        "rise-mcq-08": "本句的「risen」指「從地平線下方出現並升起」。",
+        "rise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-08"
     },
@@ -714,11 +666,9 @@ export default {
       "masked": "Leave the dough to ____.",
       "options": [
         "rise-mcq-09",
-        "rise-mcq-08",
-        "rise-mcq-10",
-        "rise-mcq-07",
-        "rise-mcq-11",
-        "rise-mcq-06"
+        "rise-mcq-04",
+        "rise-mcq-01",
+        "rise-mcq-08"
       ],
       "explanation": "本句的「rise」指「麵糰因發酵而膨脹變大」。",
       "sentenceIndex": 13,
@@ -727,12 +677,10 @@ export default {
         "rise"
       ],
       "optionReasons": {
-        "rise-mcq-09": "本句指「麵糰因發酵而膨脹變大」。",
-        "rise-mcq-08": "「從地平線下方出現並升起」與本句語境不同。",
-        "rise-mcq-10": "「水位／液體高度增加」與本句語境不同。",
-        "rise-mcq-07": "「集體起來反抗權力／統治」與本句語境不同。",
-        "rise-mcq-11": "「聲音、情緒、緊張等程度提高」與本句語境不同。",
-        "rise-mcq-06": "「地位、權力、名聲或成功程度提高」與本句語境不同。"
+        "rise-mcq-09": "本句的「rise」指「麵糰因發酵而膨脹變大」。",
+        "rise-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-09"
     },
@@ -744,11 +692,9 @@ export default {
       "masked": "The water level began to ____.",
       "options": [
         "rise-mcq-10",
-        "rise-mcq-09",
-        "rise-mcq-11",
         "rise-mcq-08",
         "rise-mcq-12",
-        "rise-mcq-07"
+        "rise-mcq-16"
       ],
       "explanation": "本句的「rise」指「水位／液體高度增加」。",
       "sentenceIndex": 14,
@@ -757,12 +703,10 @@ export default {
         "rise"
       ],
       "optionReasons": {
-        "rise-mcq-10": "本句指「水位／液體高度增加」。",
-        "rise-mcq-09": "「麵糰因發酵而膨脹變大」與本句語境不同。",
-        "rise-mcq-11": "「聲音、情緒、緊張等程度提高」與本句語境不同。",
-        "rise-mcq-08": "「從地平線下方出現並升起」與本句語境不同。",
-        "rise-mcq-12": "「山丘、建築等從地面向上延伸」與本句語境不同。",
-        "rise-mcq-07": "「集體起來反抗權力／統治」與本句語境不同。"
+        "rise-mcq-10": "本句的「rise」指「水位／液體高度增加」。",
+        "rise-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-10"
     },
@@ -774,11 +718,9 @@ export default {
       "masked": "Her voice ____ with excitement.",
       "options": [
         "rise-mcq-11",
-        "rise-mcq-10",
-        "rise-mcq-12",
-        "rise-mcq-09",
-        "rise-mcq-13",
-        "rise-mcq-08"
+        "rise-mcq-02",
+        "rise-mcq-08",
+        "rise-mcq-16"
       ],
       "explanation": "本句的「rose」指「聲音、情緒、緊張等程度提高」。",
       "sentenceIndex": 15,
@@ -787,12 +729,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rise-mcq-11": "本句指「聲音、情緒、緊張等程度提高」。",
-        "rise-mcq-10": "「水位／液體高度增加」與本句語境不同。",
-        "rise-mcq-12": "「山丘、建築等從地面向上延伸」與本句語境不同。",
-        "rise-mcq-09": "「麵糰因發酵而膨脹變大」與本句語境不同。",
-        "rise-mcq-13": "「地面／道路向上升高的一段」與本句語境不同。",
-        "rise-mcq-08": "「從地平線下方出現並升起」與本句語境不同。"
+        "rise-mcq-11": "本句的「rose」指「聲音、情緒、緊張等程度提高」。",
+        "rise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-11"
     },
@@ -804,11 +744,9 @@ export default {
       "masked": "Tension ____ during the meeting.",
       "options": [
         "rise-mcq-11",
-        "rise-mcq-10",
-        "rise-mcq-12",
+        "rise-mcq-07",
         "rise-mcq-09",
-        "rise-mcq-13",
-        "rise-mcq-08"
+        "rise-mcq-16"
       ],
       "explanation": "本句的「rose」指「聲音、情緒、緊張等程度提高」。",
       "sentenceIndex": 16,
@@ -817,12 +755,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rise-mcq-11": "本句指「聲音、情緒、緊張等程度提高」。",
-        "rise-mcq-10": "「水位／液體高度增加」與本句語境不同。",
-        "rise-mcq-12": "「山丘、建築等從地面向上延伸」與本句語境不同。",
-        "rise-mcq-09": "「麵糰因發酵而膨脹變大」與本句語境不同。",
-        "rise-mcq-13": "「地面／道路向上升高的一段」與本句語境不同。",
-        "rise-mcq-08": "「從地平線下方出現並升起」與本句語境不同。"
+        "rise-mcq-11": "本句的「rose」指「聲音、情緒、緊張等程度提高」。",
+        "rise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-11"
     },
@@ -834,11 +770,9 @@ export default {
       "masked": "Tall buildings ____ above the street.",
       "options": [
         "rise-mcq-12",
-        "rise-mcq-11",
-        "rise-mcq-13",
-        "rise-mcq-10",
-        "rise-mcq-14",
-        "rise-mcq-09"
+        "rise-mcq-01",
+        "rise-mcq-04",
+        "rise-mcq-15"
       ],
       "explanation": "本句的「rise」指「山丘、建築等從地面向上延伸」。",
       "sentenceIndex": 17,
@@ -847,12 +781,10 @@ export default {
         "rise"
       ],
       "optionReasons": {
-        "rise-mcq-12": "本句指「山丘、建築等從地面向上延伸」。",
-        "rise-mcq-11": "「聲音、情緒、緊張等程度提高」與本句語境不同。",
-        "rise-mcq-13": "「地面／道路向上升高的一段」與本句語境不同。",
-        "rise-mcq-10": "「水位／液體高度增加」與本句語境不同。",
-        "rise-mcq-14": "「某現象、趨勢或群體逐漸興起並變得重要」與本句語境不同。",
-        "rise-mcq-09": "「麵糰因發酵而膨脹變大」與本句語境不同。"
+        "rise-mcq-12": "本句的「rise」指「山丘、建築等從地面向上延伸」。",
+        "rise-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-12"
     },
@@ -864,11 +796,9 @@ export default {
       "masked": "The hills ____ behind the town.",
       "options": [
         "rise-mcq-12",
-        "rise-mcq-11",
-        "rise-mcq-13",
-        "rise-mcq-10",
-        "rise-mcq-14",
-        "rise-mcq-09"
+        "rise-mcq-08",
+        "rise-mcq-16",
+        "rise-mcq-04"
       ],
       "explanation": "本句的「rise」指「山丘、建築等從地面向上延伸」。",
       "sentenceIndex": 18,
@@ -877,12 +807,10 @@ export default {
         "rise"
       ],
       "optionReasons": {
-        "rise-mcq-12": "本句指「山丘、建築等從地面向上延伸」。",
-        "rise-mcq-11": "「聲音、情緒、緊張等程度提高」與本句語境不同。",
-        "rise-mcq-13": "「地面／道路向上升高的一段」與本句語境不同。",
-        "rise-mcq-10": "「水位／液體高度增加」與本句語境不同。",
-        "rise-mcq-14": "「某現象、趨勢或群體逐漸興起並變得重要」與本句語境不同。",
-        "rise-mcq-09": "「麵糰因發酵而膨脹變大」與本句語境不同。"
+        "rise-mcq-12": "本句的「rise」指「山丘、建築等從地面向上延伸」。",
+        "rise-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-12"
     },
@@ -894,11 +822,9 @@ export default {
       "masked": "There is a gentle ____ in the road.",
       "options": [
         "rise-mcq-13",
-        "rise-mcq-12",
+        "rise-mcq-02",
         "rise-mcq-14",
-        "rise-mcq-11",
-        "rise-mcq-15",
-        "rise-mcq-10"
+        "rise-mcq-07"
       ],
       "explanation": "本句的「rise」指「地面／道路向上升高的一段」。",
       "sentenceIndex": 19,
@@ -907,12 +833,10 @@ export default {
         "rise"
       ],
       "optionReasons": {
-        "rise-mcq-13": "本句指「地面／道路向上升高的一段」。",
-        "rise-mcq-12": "「山丘、建築等從地面向上延伸」與本句語境不同。",
-        "rise-mcq-14": "「某現象、趨勢或群體逐漸興起並變得重要」與本句語境不同。",
-        "rise-mcq-11": "「聲音、情緒、緊張等程度提高」與本句語境不同。",
-        "rise-mcq-15": "「造成／引發某個結果或問題」與本句語境不同。",
-        "rise-mcq-10": "「水位／液體高度增加」與本句語境不同。"
+        "rise-mcq-13": "本句的「rise」指「地面／道路向上升高的一段」。",
+        "rise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-13"
     },
@@ -924,11 +848,9 @@ export default {
       "masked": "The house sits on a small ____.",
       "options": [
         "rise-mcq-13",
-        "rise-mcq-12",
-        "rise-mcq-14",
-        "rise-mcq-11",
-        "rise-mcq-15",
-        "rise-mcq-10"
+        "rise-mcq-07",
+        "rise-mcq-02",
+        "rise-mcq-14"
       ],
       "explanation": "本句的「rise」指「地面／道路向上升高的一段」。",
       "sentenceIndex": 20,
@@ -937,12 +859,10 @@ export default {
         "rise"
       ],
       "optionReasons": {
-        "rise-mcq-13": "本句指「地面／道路向上升高的一段」。",
-        "rise-mcq-12": "「山丘、建築等從地面向上延伸」與本句語境不同。",
-        "rise-mcq-14": "「某現象、趨勢或群體逐漸興起並變得重要」與本句語境不同。",
-        "rise-mcq-11": "「聲音、情緒、緊張等程度提高」與本句語境不同。",
-        "rise-mcq-15": "「造成／引發某個結果或問題」與本句語境不同。",
-        "rise-mcq-10": "「水位／液體高度增加」與本句語境不同。"
+        "rise-mcq-13": "本句的「rise」指「地面／道路向上升高的一段」。",
+        "rise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-13"
     },
@@ -954,11 +874,9 @@ export default {
       "masked": "The ____ of online shopping changed retail.",
       "options": [
         "rise-mcq-14",
-        "rise-mcq-13",
-        "rise-mcq-15",
-        "rise-mcq-12",
-        "rise-mcq-16",
-        "rise-mcq-11"
+        "rise-mcq-05",
+        "rise-mcq-01",
+        "rise-mcq-12"
       ],
       "explanation": "本句的「rise」指「某現象、趨勢或群體逐漸興起並變得重要」。",
       "sentenceIndex": 21,
@@ -967,12 +885,10 @@ export default {
         "rise"
       ],
       "optionReasons": {
-        "rise-mcq-14": "本句指「某現象、趨勢或群體逐漸興起並變得重要」。",
-        "rise-mcq-13": "「地面／道路向上升高的一段」與本句語境不同。",
-        "rise-mcq-15": "「造成／引發某個結果或問題」與本句語境不同。",
-        "rise-mcq-12": "「山丘、建築等從地面向上延伸」與本句語境不同。",
-        "rise-mcq-16": "「不被困難／負面情況壓倒並成功超越」與本句語境不同。",
-        "rise-mcq-11": "「聲音、情緒、緊張等程度提高」與本句語境不同。"
+        "rise-mcq-14": "本句的「rise」指「某現象、趨勢或群體逐漸興起並變得重要」。",
+        "rise-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-14"
     },
@@ -984,11 +900,9 @@ export default {
       "masked": "The ____ of small independent bakeries is noticeable.",
       "options": [
         "rise-mcq-14",
-        "rise-mcq-13",
-        "rise-mcq-15",
+        "rise-mcq-06",
         "rise-mcq-12",
-        "rise-mcq-16",
-        "rise-mcq-11"
+        "rise-mcq-15"
       ],
       "explanation": "本句的「rise」指「某現象、趨勢或群體逐漸興起並變得重要」。",
       "sentenceIndex": 22,
@@ -997,12 +911,10 @@ export default {
         "rise"
       ],
       "optionReasons": {
-        "rise-mcq-14": "本句指「某現象、趨勢或群體逐漸興起並變得重要」。",
-        "rise-mcq-13": "「地面／道路向上升高的一段」與本句語境不同。",
-        "rise-mcq-15": "「造成／引發某個結果或問題」與本句語境不同。",
-        "rise-mcq-12": "「山丘、建築等從地面向上延伸」與本句語境不同。",
-        "rise-mcq-16": "「不被困難／負面情況壓倒並成功超越」與本句語境不同。",
-        "rise-mcq-11": "「聲音、情緒、緊張等程度提高」與本句語境不同。"
+        "rise-mcq-14": "本句的「rise」指「某現象、趨勢或群體逐漸興起並變得重要」。",
+        "rise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-14"
     },
@@ -1014,11 +926,9 @@ export default {
       "masked": "Higher costs can ____ higher prices.",
       "options": [
         "rise-mcq-15",
-        "rise-mcq-14",
-        "rise-mcq-16",
-        "rise-mcq-13",
         "rise-mcq-17",
-        "rise-mcq-12"
+        "rise-mcq-01",
+        "rise-mcq-07"
       ],
       "explanation": "本句的「give rise to」指「造成／引發某個結果或問題」。",
       "sentenceIndex": 23,
@@ -1027,12 +937,10 @@ export default {
         "give rise to"
       ],
       "optionReasons": {
-        "rise-mcq-15": "本句指「造成／引發某個結果或問題」。",
-        "rise-mcq-14": "「某現象、趨勢或群體逐漸興起並變得重要」與本句語境不同。",
-        "rise-mcq-16": "「不被困難／負面情況壓倒並成功超越」與本句語境不同。",
-        "rise-mcq-13": "「地面／道路向上升高的一段」與本句語境不同。",
-        "rise-mcq-17": "「數量、水平、重要性或普及程度正在增加」與本句語境不同。",
-        "rise-mcq-12": "「山丘、建築等從地面向上延伸」與本句語境不同。"
+        "rise-mcq-15": "本句的「give rise to」指「造成／引發某個結果或問題」。",
+        "rise-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-15"
     },
@@ -1044,11 +952,9 @@ export default {
       "masked": "The change gave ____ to several problems.",
       "options": [
         "rise-mcq-15",
-        "rise-mcq-14",
-        "rise-mcq-16",
         "rise-mcq-13",
-        "rise-mcq-17",
-        "rise-mcq-12"
+        "rise-mcq-01",
+        "rise-mcq-08"
       ],
       "explanation": "本句的「rise」指「造成／引發某個結果或問題」。",
       "sentenceIndex": 24,
@@ -1057,12 +963,10 @@ export default {
         "rise"
       ],
       "optionReasons": {
-        "rise-mcq-15": "本句指「造成／引發某個結果或問題」。",
-        "rise-mcq-14": "「某現象、趨勢或群體逐漸興起並變得重要」與本句語境不同。",
-        "rise-mcq-16": "「不被困難／負面情況壓倒並成功超越」與本句語境不同。",
-        "rise-mcq-13": "「地面／道路向上升高的一段」與本句語境不同。",
-        "rise-mcq-17": "「數量、水平、重要性或普及程度正在增加」與本句語境不同。",
-        "rise-mcq-12": "「山丘、建築等從地面向上延伸」與本句語境不同。"
+        "rise-mcq-15": "本句的「rise」指「造成／引發某個結果或問題」。",
+        "rise-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-15"
     },
@@ -1074,11 +978,9 @@ export default {
       "masked": "She managed to ____ the criticism.",
       "options": [
         "rise-mcq-16",
-        "rise-mcq-15",
-        "rise-mcq-17",
-        "rise-mcq-14",
         "rise-mcq-13",
-        "rise-mcq-12"
+        "rise-mcq-07",
+        "rise-mcq-02"
       ],
       "explanation": "本句的「rise above」指「不被困難／負面情況壓倒並成功超越」。",
       "sentenceIndex": 25,
@@ -1087,12 +989,10 @@ export default {
         "rise above"
       ],
       "optionReasons": {
-        "rise-mcq-16": "本句指「不被困難／負面情況壓倒並成功超越」。",
-        "rise-mcq-15": "「造成／引發某個結果或問題」與本句語境不同。",
-        "rise-mcq-17": "「數量、水平、重要性或普及程度正在增加」與本句語境不同。",
-        "rise-mcq-14": "「某現象、趨勢或群體逐漸興起並變得重要」與本句語境不同。",
-        "rise-mcq-13": "「地面／道路向上升高的一段」與本句語境不同。",
-        "rise-mcq-12": "「山丘、建築等從地面向上延伸」與本句語境不同。"
+        "rise-mcq-16": "本句的「rise above」指「不被困難／負面情況壓倒並成功超越」。",
+        "rise-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-16"
     },
@@ -1104,11 +1004,9 @@ export default {
       "masked": "Rent is ____.",
       "options": [
         "rise-mcq-17",
-        "rise-mcq-16",
-        "rise-mcq-15",
-        "rise-mcq-14",
-        "rise-mcq-13",
-        "rise-mcq-12"
+        "rise-mcq-07",
+        "rise-mcq-09",
+        "rise-mcq-15"
       ],
       "explanation": "本句的「on the rise」指「數量、水平、重要性或普及程度正在增加」。",
       "sentenceIndex": 26,
@@ -1117,12 +1015,10 @@ export default {
         "on the rise"
       ],
       "optionReasons": {
-        "rise-mcq-17": "本句指「數量、水平、重要性或普及程度正在增加」。",
-        "rise-mcq-16": "「不被困難／負面情況壓倒並成功超越」與本句語境不同。",
-        "rise-mcq-15": "「造成／引發某個結果或問題」與本句語境不同。",
-        "rise-mcq-14": "「某現象、趨勢或群體逐漸興起並變得重要」與本句語境不同。",
-        "rise-mcq-13": "「地面／道路向上升高的一段」與本句語境不同。",
-        "rise-mcq-12": "「山丘、建築等從地面向上延伸」與本句語境不同。"
+        "rise-mcq-17": "本句的「on the rise」指「數量、水平、重要性或普及程度正在增加」。",
+        "rise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-17"
     },
@@ -1134,11 +1030,9 @@ export default {
       "masked": "Independent bakeries are on the ____.",
       "options": [
         "rise-mcq-17",
-        "rise-mcq-16",
-        "rise-mcq-15",
-        "rise-mcq-14",
-        "rise-mcq-13",
-        "rise-mcq-12"
+        "rise-mcq-07",
+        "rise-mcq-09",
+        "rise-mcq-15"
       ],
       "explanation": "本句的「rise」指「數量、水平、重要性或普及程度正在增加」。",
       "sentenceIndex": 27,
@@ -1147,12 +1041,10 @@ export default {
         "rise"
       ],
       "optionReasons": {
-        "rise-mcq-17": "本句指「數量、水平、重要性或普及程度正在增加」。",
-        "rise-mcq-16": "「不被困難／負面情況壓倒並成功超越」與本句語境不同。",
-        "rise-mcq-15": "「造成／引發某個結果或問題」與本句語境不同。",
-        "rise-mcq-14": "「某現象、趨勢或群體逐漸興起並變得重要」與本句語境不同。",
-        "rise-mcq-13": "「地面／道路向上升高的一段」與本句語境不同。",
-        "rise-mcq-12": "「山丘、建築等從地面向上延伸」與本句語境不同。"
+        "rise-mcq-17": "本句的「rise」指「數量、水平、重要性或普及程度正在增加」。",
+        "rise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rise-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rise-mcq-17"
     }
@@ -1164,5 +1056,7 @@ export default {
     "sha256": "e63891a41b24130afa3fcf522ca12801ea1d42979df556e133f20041dc5d4212",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

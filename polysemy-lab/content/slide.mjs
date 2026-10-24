@@ -399,11 +399,9 @@ export default {
       "masked": "The glass ____ across the table.",
       "options": [
         "slide-mcq-01",
-        "slide-mcq-02",
-        "slide-mcq-03",
-        "slide-mcq-04",
-        "slide-mcq-05",
-        "slide-mcq-06"
+        "slide-mcq-06",
+        "slide-mcq-07",
+        "slide-mcq-09"
       ],
       "explanation": "本句的「slid」指「與表面保持接觸並平順地移動」。",
       "sentenceIndex": 0,
@@ -412,12 +410,10 @@ export default {
         "slid"
       ],
       "optionReasons": {
-        "slide-mcq-01": "本句指「與表面保持接觸並平順地移動」。",
-        "slide-mcq-02": "「把某物沿表面平順地推移／移動」是「slide — move something」的用法，與本句語境不同。",
-        "slide-mcq-03": "「因缺乏摩擦力而不受控制地滑動」是「slide — lose grip」的用法，與本句語境不同。",
-        "slide-mcq-04": "「沒有明顯轉折地逐漸進入某種狀態」是「slide into a condition」的用法，與本句語境不同。",
-        "slide-mcq-05": "「數值、價格、表現等持續下降」是「slide — decline」的用法，與本句語境不同。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。"
+        "slide-mcq-01": "本句的「slid」指「與表面保持接觸並平順地移動」。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-01"
     },
@@ -429,11 +425,9 @@ export default {
       "masked": "The drawer ____ open easily.",
       "options": [
         "slide-mcq-01",
-        "slide-mcq-02",
-        "slide-mcq-03",
-        "slide-mcq-04",
-        "slide-mcq-05",
-        "slide-mcq-06"
+        "slide-mcq-06",
+        "slide-mcq-09",
+        "slide-mcq-07"
       ],
       "explanation": "本句的「slides」指「與表面保持接觸並平順地移動」。",
       "sentenceIndex": 1,
@@ -442,12 +436,10 @@ export default {
         "slides"
       ],
       "optionReasons": {
-        "slide-mcq-01": "本句指「與表面保持接觸並平順地移動」。",
-        "slide-mcq-02": "「把某物沿表面平順地推移／移動」是「slide — move something」的用法，與本句語境不同。",
-        "slide-mcq-03": "「因缺乏摩擦力而不受控制地滑動」是「slide — lose grip」的用法，與本句語境不同。",
-        "slide-mcq-04": "「沒有明顯轉折地逐漸進入某種狀態」是「slide into a condition」的用法，與本句語境不同。",
-        "slide-mcq-05": "「數值、價格、表現等持續下降」是「slide — decline」的用法，與本句語境不同。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。"
+        "slide-mcq-01": "本句的「slides」指「與表面保持接觸並平順地移動」。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-01"
     },
@@ -459,11 +451,9 @@ export default {
       "masked": "She ____ the letter under the door.",
       "options": [
         "slide-mcq-02",
-        "slide-mcq-01",
-        "slide-mcq-03",
-        "slide-mcq-04",
-        "slide-mcq-05",
-        "slide-mcq-06"
+        "slide-mcq-06",
+        "slide-mcq-09",
+        "slide-mcq-05"
       ],
       "explanation": "本句的「slid」指「把某物沿表面平順地推移／移動」。",
       "sentenceIndex": 2,
@@ -472,12 +462,10 @@ export default {
         "slid"
       ],
       "optionReasons": {
-        "slide-mcq-02": "本句指「把某物沿表面平順地推移／移動」。",
-        "slide-mcq-01": "「與表面保持接觸並平順地移動」是「slide — physical movement」的用法，與本句語境不同。",
-        "slide-mcq-03": "「因缺乏摩擦力而不受控制地滑動」是「slide — lose grip」的用法，與本句語境不同。",
-        "slide-mcq-04": "「沒有明顯轉折地逐漸進入某種狀態」是「slide into a condition」的用法，與本句語境不同。",
-        "slide-mcq-05": "「數值、價格、表現等持續下降」是「slide — decline」的用法，與本句語境不同。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。"
+        "slide-mcq-02": "本句的「slid」指「把某物沿表面平順地推移／移動」。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-02"
     },
@@ -489,11 +477,9 @@ export default {
       "masked": "He ____ the book across the desk.",
       "options": [
         "slide-mcq-02",
-        "slide-mcq-01",
-        "slide-mcq-03",
-        "slide-mcq-04",
-        "slide-mcq-05",
-        "slide-mcq-06"
+        "slide-mcq-09",
+        "slide-mcq-06",
+        "slide-mcq-05"
       ],
       "explanation": "本句的「slid」指「把某物沿表面平順地推移／移動」。",
       "sentenceIndex": 3,
@@ -502,12 +488,10 @@ export default {
         "slid"
       ],
       "optionReasons": {
-        "slide-mcq-02": "本句指「把某物沿表面平順地推移／移動」。",
-        "slide-mcq-01": "「與表面保持接觸並平順地移動」是「slide — physical movement」的用法，與本句語境不同。",
-        "slide-mcq-03": "「因缺乏摩擦力而不受控制地滑動」是「slide — lose grip」的用法，與本句語境不同。",
-        "slide-mcq-04": "「沒有明顯轉折地逐漸進入某種狀態」是「slide into a condition」的用法，與本句語境不同。",
-        "slide-mcq-05": "「數值、價格、表現等持續下降」是「slide — decline」的用法，與本句語境不同。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。"
+        "slide-mcq-02": "本句的「slid」指「把某物沿表面平順地推移／移動」。",
+        "slide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-02"
     },
@@ -519,10 +503,8 @@ export default {
       "masked": "His foot ____ on the wet floor.",
       "options": [
         "slide-mcq-03",
-        "slide-mcq-02",
-        "slide-mcq-04",
-        "slide-mcq-01",
-        "slide-mcq-05",
+        "slide-mcq-10",
+        "slide-mcq-09",
         "slide-mcq-06"
       ],
       "explanation": "本句的「slid」指「因缺乏摩擦力而不受控制地滑動」。",
@@ -532,12 +514,10 @@ export default {
         "slid"
       ],
       "optionReasons": {
-        "slide-mcq-03": "本句指「因缺乏摩擦力而不受控制地滑動」。",
-        "slide-mcq-02": "「把某物沿表面平順地推移／移動」是「slide — move something」的用法，與本句語境不同。",
-        "slide-mcq-04": "「沒有明顯轉折地逐漸進入某種狀態」是「slide into a condition」的用法，與本句語境不同。",
-        "slide-mcq-01": "「與表面保持接觸並平順地移動」是「slide — physical movement」的用法，與本句語境不同。",
-        "slide-mcq-05": "「數值、價格、表現等持續下降」是「slide — decline」的用法，與本句語境不同。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。"
+        "slide-mcq-03": "本句的「slid」指「因缺乏摩擦力而不受控制地滑動」。",
+        "slide-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-03"
     },
@@ -549,11 +529,9 @@ export default {
       "masked": "The car began to ____ on the ice.",
       "options": [
         "slide-mcq-03",
-        "slide-mcq-02",
-        "slide-mcq-04",
-        "slide-mcq-01",
-        "slide-mcq-05",
-        "slide-mcq-06"
+        "slide-mcq-10",
+        "slide-mcq-09",
+        "slide-mcq-05"
       ],
       "explanation": "本句的「slide」指「因缺乏摩擦力而不受控制地滑動」。",
       "sentenceIndex": 5,
@@ -562,12 +540,10 @@ export default {
         "slide"
       ],
       "optionReasons": {
-        "slide-mcq-03": "本句指「因缺乏摩擦力而不受控制地滑動」。",
-        "slide-mcq-02": "「把某物沿表面平順地推移／移動」是「slide — move something」的用法，與本句語境不同。",
-        "slide-mcq-04": "「沒有明顯轉折地逐漸進入某種狀態」是「slide into a condition」的用法，與本句語境不同。",
-        "slide-mcq-01": "「與表面保持接觸並平順地移動」是「slide — physical movement」的用法，與本句語境不同。",
-        "slide-mcq-05": "「數值、價格、表現等持續下降」是「slide — decline」的用法，與本句語境不同。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。"
+        "slide-mcq-03": "本句的「slide」指「因缺乏摩擦力而不受控制地滑動」。",
+        "slide-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-03"
     },
@@ -579,11 +555,9 @@ export default {
       "masked": "The discussion ____ into an argument.",
       "options": [
         "slide-mcq-04",
-        "slide-mcq-03",
+        "slide-mcq-14",
         "slide-mcq-05",
-        "slide-mcq-02",
-        "slide-mcq-06",
-        "slide-mcq-01"
+        "slide-mcq-09"
       ],
       "explanation": "本句的「slid」指「沒有明顯轉折地逐漸進入某種狀態」。",
       "sentenceIndex": 6,
@@ -592,12 +566,10 @@ export default {
         "slid"
       ],
       "optionReasons": {
-        "slide-mcq-04": "本句指「沒有明顯轉折地逐漸進入某種狀態」。",
-        "slide-mcq-03": "「因缺乏摩擦力而不受控制地滑動」是「slide — lose grip」的用法，與本句語境不同。",
-        "slide-mcq-05": "「數值、價格、表現等持續下降」是「slide — decline」的用法，與本句語境不同。",
-        "slide-mcq-02": "「把某物沿表面平順地推移／移動」是「slide — move something」的用法，與本句語境不同。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。",
-        "slide-mcq-01": "「與表面保持接觸並平順地移動」是「slide — physical movement」的用法，與本句語境不同。"
+        "slide-mcq-04": "本句的「slid」指「沒有明顯轉折地逐漸進入某種狀態」。",
+        "slide-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-04"
     },
@@ -609,11 +581,9 @@ export default {
       "masked": "He slowly ____ into debt.",
       "options": [
         "slide-mcq-04",
-        "slide-mcq-03",
-        "slide-mcq-05",
-        "slide-mcq-02",
-        "slide-mcq-06",
-        "slide-mcq-01"
+        "slide-mcq-14",
+        "slide-mcq-09",
+        "slide-mcq-05"
       ],
       "explanation": "本句的「slid」指「沒有明顯轉折地逐漸進入某種狀態」。",
       "sentenceIndex": 7,
@@ -622,12 +592,10 @@ export default {
         "slid"
       ],
       "optionReasons": {
-        "slide-mcq-04": "本句指「沒有明顯轉折地逐漸進入某種狀態」。",
-        "slide-mcq-03": "「因缺乏摩擦力而不受控制地滑動」是「slide — lose grip」的用法，與本句語境不同。",
-        "slide-mcq-05": "「數值、價格、表現等持續下降」是「slide — decline」的用法，與本句語境不同。",
-        "slide-mcq-02": "「把某物沿表面平順地推移／移動」是「slide — move something」的用法，與本句語境不同。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。",
-        "slide-mcq-01": "「與表面保持接觸並平順地移動」是「slide — physical movement」的用法，與本句語境不同。"
+        "slide-mcq-04": "本句的「slid」指「沒有明顯轉折地逐漸進入某種狀態」。",
+        "slide-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-04"
     },
@@ -639,11 +607,9 @@ export default {
       "masked": "Sales ____ sharply in August.",
       "options": [
         "slide-mcq-05",
-        "slide-mcq-04",
-        "slide-mcq-06",
+        "slide-mcq-02",
         "slide-mcq-03",
-        "slide-mcq-07",
-        "slide-mcq-02"
+        "slide-mcq-09"
       ],
       "explanation": "本句的「slid」指「數值、價格、表現等持續下降」。",
       "sentenceIndex": 8,
@@ -652,12 +618,10 @@ export default {
         "slid"
       ],
       "optionReasons": {
-        "slide-mcq-05": "本句指「數值、價格、表現等持續下降」。",
-        "slide-mcq-04": "「沒有明顯轉折地逐漸進入某種狀態」是「slide into a condition」的用法，與本句語境不同。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。",
-        "slide-mcq-03": "「因缺乏摩擦力而不受控制地滑動」是「slide — lose grip」的用法，與本句語境不同。",
-        "slide-mcq-07": "「人從高處沿光滑斜面滑下的遊樂設施」是「slide — playground」的用法，與本句語境不同。",
-        "slide-mcq-02": "「把某物沿表面平順地推移／移動」是「slide — move something」的用法，與本句語境不同。"
+        "slide-mcq-05": "本句的「slid」指「數值、價格、表現等持續下降」。",
+        "slide-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-05"
     },
@@ -669,11 +633,9 @@ export default {
       "masked": "The company’s share price continued to ____.",
       "options": [
         "slide-mcq-05",
-        "slide-mcq-04",
-        "slide-mcq-06",
         "slide-mcq-03",
-        "slide-mcq-07",
-        "slide-mcq-02"
+        "slide-mcq-08",
+        "slide-mcq-07"
       ],
       "explanation": "本句的「slide」指「數值、價格、表現等持續下降」。",
       "sentenceIndex": 9,
@@ -682,12 +644,10 @@ export default {
         "slide"
       ],
       "optionReasons": {
-        "slide-mcq-05": "本句指「數值、價格、表現等持續下降」。",
-        "slide-mcq-04": "「沒有明顯轉折地逐漸進入某種狀態」是「slide into a condition」的用法，與本句語境不同。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。",
-        "slide-mcq-03": "「因缺乏摩擦力而不受控制地滑動」是「slide — lose grip」的用法，與本句語境不同。",
-        "slide-mcq-07": "「人從高處沿光滑斜面滑下的遊樂設施」是「slide — playground」的用法，與本句語境不同。",
-        "slide-mcq-02": "「把某物沿表面平順地推移／移動」是「slide — move something」的用法，與本句語境不同。"
+        "slide-mcq-05": "本句的「slide」指「數值、價格、表現等持續下降」。",
+        "slide-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-05"
     },
@@ -699,11 +659,9 @@ export default {
       "masked": "Their relationship began to ____.",
       "options": [
         "slide-mcq-06",
-        "slide-mcq-05",
-        "slide-mcq-07",
-        "slide-mcq-04",
-        "slide-mcq-08",
-        "slide-mcq-03"
+        "slide-mcq-11",
+        "slide-mcq-16",
+        "slide-mcq-07"
       ],
       "explanation": "本句的「slide」指「品質、狀況等逐步變差」。",
       "sentenceIndex": 10,
@@ -712,12 +670,10 @@ export default {
         "slide"
       ],
       "optionReasons": {
-        "slide-mcq-06": "本句指「品質、狀況等逐步變差」。",
-        "slide-mcq-05": "「數值、價格、表現等持續下降」是「slide — decline」的用法，與本句語境不同。",
-        "slide-mcq-07": "「人從高處沿光滑斜面滑下的遊樂設施」是「slide — playground」的用法，與本句語境不同。",
-        "slide-mcq-04": "「沒有明顯轉折地逐漸進入某種狀態」是「slide into a condition」的用法，與本句語境不同。",
-        "slide-mcq-08": "「簡報中的單獨一頁視覺內容」是「slide — presentation」的用法，與本句語境不同。",
-        "slide-mcq-03": "「因缺乏摩擦力而不受控制地滑動」是「slide — lose grip」的用法，與本句語境不同。"
+        "slide-mcq-06": "本句的「slide」指「品質、狀況等逐步變差」。",
+        "slide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-06"
     },
@@ -729,11 +685,9 @@ export default {
       "masked": "Standards have been ____ for years.",
       "options": [
         "slide-mcq-06",
-        "slide-mcq-05",
-        "slide-mcq-07",
-        "slide-mcq-04",
-        "slide-mcq-08",
-        "slide-mcq-03"
+        "slide-mcq-02",
+        "slide-mcq-09",
+        "slide-mcq-07"
       ],
       "explanation": "本句的「sliding」指「品質、狀況等逐步變差」。",
       "sentenceIndex": 11,
@@ -742,12 +696,10 @@ export default {
         "sliding"
       ],
       "optionReasons": {
-        "slide-mcq-06": "本句指「品質、狀況等逐步變差」。",
-        "slide-mcq-05": "「數值、價格、表現等持續下降」是「slide — decline」的用法，與本句語境不同。",
-        "slide-mcq-07": "「人從高處沿光滑斜面滑下的遊樂設施」是「slide — playground」的用法，與本句語境不同。",
-        "slide-mcq-04": "「沒有明顯轉折地逐漸進入某種狀態」是「slide into a condition」的用法，與本句語境不同。",
-        "slide-mcq-08": "「簡報中的單獨一頁視覺內容」是「slide — presentation」的用法，與本句語境不同。",
-        "slide-mcq-03": "「因缺乏摩擦力而不受控制地滑動」是「slide — lose grip」的用法，與本句語境不同。"
+        "slide-mcq-06": "本句的「sliding」指「品質、狀況等逐步變差」。",
+        "slide-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-06"
     },
@@ -759,11 +711,9 @@ export default {
       "masked": "The sudden ____ sent the box across the floor.",
       "options": [
         "slide-mcq-17",
-        "slide-mcq-16",
-        "slide-mcq-15",
-        "slide-mcq-14",
-        "slide-mcq-13",
-        "slide-mcq-12"
+        "slide-mcq-10",
+        "slide-mcq-09",
+        "slide-mcq-05"
       ],
       "explanation": "本句的「slide」指「平順滑動或失去抓地力後滑行的動作」。",
       "sentenceIndex": 12,
@@ -772,12 +722,10 @@ export default {
         "slide"
       ],
       "optionReasons": {
-        "slide-mcq-17": "本句指「平順滑動或失去抓地力後滑行的動作」。",
-        "slide-mcq-16": "「利用可滑動刻度進行數學計算的工具」是「slide rule」的用法，與本句語境不同。",
-        "slide-mcq-15": "「按另一條件逐級或連續變動的收費／數值制度」是「sliding scale」的用法，與本句語境不同。",
-        "slide-mcq-14": "「沿軌道或表面滑動運作的門／機制」是「sliding door/mechanism」的用法，與本句語境不同。",
-        "slide-mcq-13": "「可滑動以調整數值的介面控制元件」是「slider」的用法，與本句語境不同。",
-        "slide-mcq-12": "「一系列圖片／投影片按順序展示」是「slideshow」的用法，與本句語境不同。"
+        "slide-mcq-17": "本句的「slide」指「平順滑動或失去抓地力後滑行的動作」。",
+        "slide-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-17"
     },
@@ -789,11 +737,9 @@ export default {
       "masked": "The car went into a ____.",
       "options": [
         "slide-mcq-17",
-        "slide-mcq-16",
-        "slide-mcq-15",
-        "slide-mcq-14",
-        "slide-mcq-13",
-        "slide-mcq-12"
+        "slide-mcq-10",
+        "slide-mcq-09",
+        "slide-mcq-04"
       ],
       "explanation": "本句的「slide」指「平順滑動或失去抓地力後滑行的動作」。",
       "sentenceIndex": 13,
@@ -802,12 +748,10 @@ export default {
         "slide"
       ],
       "optionReasons": {
-        "slide-mcq-17": "本句指「平順滑動或失去抓地力後滑行的動作」。",
-        "slide-mcq-16": "「利用可滑動刻度進行數學計算的工具」是「slide rule」的用法，與本句語境不同。",
-        "slide-mcq-15": "「按另一條件逐級或連續變動的收費／數值制度」是「sliding scale」的用法，與本句語境不同。",
-        "slide-mcq-14": "「沿軌道或表面滑動運作的門／機制」是「sliding door/mechanism」的用法，與本句語境不同。",
-        "slide-mcq-13": "「可滑動以調整數值的介面控制元件」是「slider」的用法，與本句語境不同。",
-        "slide-mcq-12": "「一系列圖片／投影片按順序展示」是「slideshow」的用法，與本句語境不同。"
+        "slide-mcq-17": "本句的「slide」指「平順滑動或失去抓地力後滑行的動作」。",
+        "slide-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-17"
     },
@@ -819,11 +763,9 @@ export default {
       "masked": "The company reported a ____ in profits.",
       "options": [
         "slide-mcq-05",
+        "slide-mcq-17",
         "slide-mcq-04",
-        "slide-mcq-06",
-        "slide-mcq-03",
-        "slide-mcq-07",
-        "slide-mcq-02"
+        "slide-mcq-10"
       ],
       "explanation": "本句的「slide」指「數值、價格、表現等持續下降」。",
       "sentenceIndex": 14,
@@ -832,12 +774,10 @@ export default {
         "slide"
       ],
       "optionReasons": {
-        "slide-mcq-05": "本句指「數值、價格、表現等持續下降」。",
-        "slide-mcq-04": "「沒有明顯轉折地逐漸進入某種狀態」是「slide into a condition」的用法，與本句語境不同。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。",
-        "slide-mcq-03": "「因缺乏摩擦力而不受控制地滑動」是「slide — lose grip」的用法，與本句語境不同。",
-        "slide-mcq-07": "「人從高處沿光滑斜面滑下的遊樂設施」是「slide — playground」的用法，與本句語境不同。",
-        "slide-mcq-02": "「把某物沿表面平順地推移／移動」是「slide — move something」的用法，與本句語境不同。"
+        "slide-mcq-05": "本句的「slide」指「數值、價格、表現等持續下降」。",
+        "slide-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-05"
     },
@@ -849,11 +789,9 @@ export default {
       "masked": "There has been a steady ____ in demand.",
       "options": [
         "slide-mcq-05",
+        "slide-mcq-14",
         "slide-mcq-04",
-        "slide-mcq-06",
-        "slide-mcq-03",
-        "slide-mcq-07",
-        "slide-mcq-02"
+        "slide-mcq-09"
       ],
       "explanation": "本句的「slide」指「數值、價格、表現等持續下降」。",
       "sentenceIndex": 15,
@@ -862,12 +800,10 @@ export default {
         "slide"
       ],
       "optionReasons": {
-        "slide-mcq-05": "本句指「數值、價格、表現等持續下降」。",
-        "slide-mcq-04": "「沒有明顯轉折地逐漸進入某種狀態」是「slide into a condition」的用法，與本句語境不同。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。",
-        "slide-mcq-03": "「因缺乏摩擦力而不受控制地滑動」是「slide — lose grip」的用法，與本句語境不同。",
-        "slide-mcq-07": "「人從高處沿光滑斜面滑下的遊樂設施」是「slide — playground」的用法，與本句語境不同。",
-        "slide-mcq-02": "「把某物沿表面平順地推移／移動」是「slide — move something」的用法，與本句語境不同。"
+        "slide-mcq-05": "本句的「slide」指「數值、價格、表現等持續下降」。",
+        "slide-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-05"
     },
@@ -879,11 +815,9 @@ export default {
       "masked": "The children were playing on the ____.",
       "options": [
         "slide-mcq-07",
-        "slide-mcq-06",
-        "slide-mcq-08",
-        "slide-mcq-05",
-        "slide-mcq-09",
-        "slide-mcq-04"
+        "slide-mcq-10",
+        "slide-mcq-12",
+        "slide-mcq-06"
       ],
       "explanation": "本句的「slide」指「人從高處沿光滑斜面滑下的遊樂設施」。",
       "sentenceIndex": 16,
@@ -892,12 +826,10 @@ export default {
         "slide"
       ],
       "optionReasons": {
-        "slide-mcq-07": "本句指「人從高處沿光滑斜面滑下的遊樂設施」。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。",
-        "slide-mcq-08": "「簡報中的單獨一頁視覺內容」是「slide — presentation」的用法，與本句語境不同。",
-        "slide-mcq-05": "「數值、價格、表現等持續下降」是「slide — decline」的用法，與本句語境不同。",
-        "slide-mcq-09": "「由多張投影片組成的一整套簡報」是「slide deck」的用法，與本句語境不同。",
-        "slide-mcq-04": "「沒有明顯轉折地逐漸進入某種狀態」是「slide into a condition」的用法，與本句語境不同。"
+        "slide-mcq-07": "本句的「slide」指「人從高處沿光滑斜面滑下的遊樂設施」。",
+        "slide-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-07"
     },
@@ -909,11 +841,9 @@ export default {
       "masked": "There is a large ____ in the playground.",
       "options": [
         "slide-mcq-07",
-        "slide-mcq-06",
-        "slide-mcq-08",
-        "slide-mcq-05",
         "slide-mcq-09",
-        "slide-mcq-04"
+        "slide-mcq-06",
+        "slide-mcq-10"
       ],
       "explanation": "本句的「slide」指「人從高處沿光滑斜面滑下的遊樂設施」。",
       "sentenceIndex": 17,
@@ -922,12 +852,10 @@ export default {
         "slide"
       ],
       "optionReasons": {
-        "slide-mcq-07": "本句指「人從高處沿光滑斜面滑下的遊樂設施」。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。",
-        "slide-mcq-08": "「簡報中的單獨一頁視覺內容」是「slide — presentation」的用法，與本句語境不同。",
-        "slide-mcq-05": "「數值、價格、表現等持續下降」是「slide — decline」的用法，與本句語境不同。",
-        "slide-mcq-09": "「由多張投影片組成的一整套簡報」是「slide deck」的用法，與本句語境不同。",
-        "slide-mcq-04": "「沒有明顯轉折地逐漸進入某種狀態」是「slide into a condition」的用法，與本句語境不同。"
+        "slide-mcq-07": "本句的「slide」指「人從高處沿光滑斜面滑下的遊樂設施」。",
+        "slide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-07"
     },
@@ -939,11 +867,9 @@ export default {
       "masked": "The next ____ shows the sales figures.",
       "options": [
         "slide-mcq-08",
-        "slide-mcq-07",
-        "slide-mcq-09",
         "slide-mcq-06",
-        "slide-mcq-10",
-        "slide-mcq-05"
+        "slide-mcq-04",
+        "slide-mcq-16"
       ],
       "explanation": "本句的「slide」指「簡報中的單獨一頁視覺內容」。",
       "sentenceIndex": 18,
@@ -952,12 +878,10 @@ export default {
         "slide"
       ],
       "optionReasons": {
-        "slide-mcq-08": "本句指「簡報中的單獨一頁視覺內容」。",
-        "slide-mcq-07": "「人從高處沿光滑斜面滑下的遊樂設施」是「slide — playground」的用法，與本句語境不同。",
-        "slide-mcq-09": "「由多張投影片組成的一整套簡報」是「slide deck」的用法，與本句語境不同。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。",
-        "slide-mcq-10": "「用來放置樣本供顯微鏡觀察的薄玻璃片」是「microscope slide」的用法，與本句語境不同。",
-        "slide-mcq-05": "「數值、價格、表現等持續下降」是「slide — decline」的用法，與本句語境不同。"
+        "slide-mcq-08": "本句的「slide」指「簡報中的單獨一頁視覺內容」。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-08"
     },
@@ -969,11 +893,9 @@ export default {
       "masked": "Please keep each ____ simple.",
       "options": [
         "slide-mcq-08",
+        "slide-mcq-13",
         "slide-mcq-07",
-        "slide-mcq-09",
-        "slide-mcq-06",
-        "slide-mcq-10",
-        "slide-mcq-05"
+        "slide-mcq-04"
       ],
       "explanation": "本句的「slide」指「簡報中的單獨一頁視覺內容」。",
       "sentenceIndex": 19,
@@ -982,12 +904,10 @@ export default {
         "slide"
       ],
       "optionReasons": {
-        "slide-mcq-08": "本句指「簡報中的單獨一頁視覺內容」。",
-        "slide-mcq-07": "「人從高處沿光滑斜面滑下的遊樂設施」是「slide — playground」的用法，與本句語境不同。",
-        "slide-mcq-09": "「由多張投影片組成的一整套簡報」是「slide deck」的用法，與本句語境不同。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。",
-        "slide-mcq-10": "「用來放置樣本供顯微鏡觀察的薄玻璃片」是「microscope slide」的用法，與本句語境不同。",
-        "slide-mcq-05": "「數值、價格、表現等持續下降」是「slide — decline」的用法，與本句語境不同。"
+        "slide-mcq-08": "本句的「slide」指「簡報中的單獨一頁視覺內容」。",
+        "slide-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-08"
     },
@@ -999,11 +919,9 @@ export default {
       "masked": "She sent me the ____ before the meeting.",
       "options": [
         "slide-mcq-09",
-        "slide-mcq-08",
-        "slide-mcq-10",
         "slide-mcq-07",
-        "slide-mcq-11",
-        "slide-mcq-06"
+        "slide-mcq-03",
+        "slide-mcq-05"
       ],
       "explanation": "本句的「slide deck」指「由多張投影片組成的一整套簡報」。",
       "sentenceIndex": 20,
@@ -1012,12 +930,10 @@ export default {
         "slide deck"
       ],
       "optionReasons": {
-        "slide-mcq-09": "本句指「由多張投影片組成的一整套簡報」。",
-        "slide-mcq-08": "「簡報中的單獨一頁視覺內容」是「slide — presentation」的用法，與本句語境不同。",
-        "slide-mcq-10": "「用來放置樣本供顯微鏡觀察的薄玻璃片」是「microscope slide」的用法，與本句語境不同。",
-        "slide-mcq-07": "「人從高處沿光滑斜面滑下的遊樂設施」是「slide — playground」的用法，與本句語境不同。",
-        "slide-mcq-11": "「可用投影機觀看的透明正片影像」是「photographic slide」的用法，與本句語境不同。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。"
+        "slide-mcq-09": "本句的「slide deck」指「由多張投影片組成的一整套簡報」。",
+        "slide-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-09"
     },
@@ -1029,11 +945,9 @@ export default {
       "masked": "The ____ deck contains twenty pages.",
       "options": [
         "slide-mcq-09",
-        "slide-mcq-08",
-        "slide-mcq-10",
-        "slide-mcq-07",
-        "slide-mcq-11",
-        "slide-mcq-06"
+        "slide-mcq-06",
+        "slide-mcq-15",
+        "slide-mcq-14"
       ],
       "explanation": "本句的「slide」指「由多張投影片組成的一整套簡報」。",
       "sentenceIndex": 21,
@@ -1042,12 +956,10 @@ export default {
         "slide"
       ],
       "optionReasons": {
-        "slide-mcq-09": "本句指「由多張投影片組成的一整套簡報」。",
-        "slide-mcq-08": "「簡報中的單獨一頁視覺內容」是「slide — presentation」的用法，與本句語境不同。",
-        "slide-mcq-10": "「用來放置樣本供顯微鏡觀察的薄玻璃片」是「microscope slide」的用法，與本句語境不同。",
-        "slide-mcq-07": "「人從高處沿光滑斜面滑下的遊樂設施」是「slide — playground」的用法，與本句語境不同。",
-        "slide-mcq-11": "「可用投影機觀看的透明正片影像」是「photographic slide」的用法，與本句語境不同。",
-        "slide-mcq-06": "「品質、狀況等逐步變差」是「slide — deterioration」的用法，與本句語境不同。"
+        "slide-mcq-09": "本句的「slide」指「由多張投影片組成的一整套簡報」。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-09"
     },
@@ -1059,11 +971,9 @@ export default {
       "masked": "Place the sample on a glass ____.",
       "options": [
         "slide-mcq-10",
-        "slide-mcq-09",
-        "slide-mcq-11",
-        "slide-mcq-08",
-        "slide-mcq-12",
-        "slide-mcq-07"
+        "slide-mcq-06",
+        "slide-mcq-07",
+        "slide-mcq-05"
       ],
       "explanation": "本句的「slide」指「用來放置樣本供顯微鏡觀察的薄玻璃片」。",
       "sentenceIndex": 22,
@@ -1072,12 +982,10 @@ export default {
         "slide"
       ],
       "optionReasons": {
-        "slide-mcq-10": "本句指「用來放置樣本供顯微鏡觀察的薄玻璃片」。",
-        "slide-mcq-09": "「由多張投影片組成的一整套簡報」是「slide deck」的用法，與本句語境不同。",
-        "slide-mcq-11": "「可用投影機觀看的透明正片影像」是「photographic slide」的用法，與本句語境不同。",
-        "slide-mcq-08": "「簡報中的單獨一頁視覺內容」是「slide — presentation」的用法，與本句語境不同。",
-        "slide-mcq-12": "「一系列圖片／投影片按順序展示」是「slideshow」的用法，與本句語境不同。",
-        "slide-mcq-07": "「人從高處沿光滑斜面滑下的遊樂設施」是「slide — playground」的用法，與本句語境不同。"
+        "slide-mcq-10": "本句的「slide」指「用來放置樣本供顯微鏡觀察的薄玻璃片」。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-10"
     },
@@ -1089,10 +997,8 @@ export default {
       "masked": "The technician prepared several microscope ____.",
       "options": [
         "slide-mcq-10",
-        "slide-mcq-09",
-        "slide-mcq-11",
-        "slide-mcq-08",
-        "slide-mcq-12",
+        "slide-mcq-06",
+        "slide-mcq-13",
         "slide-mcq-07"
       ],
       "explanation": "本句的「slides」指「用來放置樣本供顯微鏡觀察的薄玻璃片」。",
@@ -1102,12 +1008,10 @@ export default {
         "slides"
       ],
       "optionReasons": {
-        "slide-mcq-10": "本句指「用來放置樣本供顯微鏡觀察的薄玻璃片」。",
-        "slide-mcq-09": "「由多張投影片組成的一整套簡報」是「slide deck」的用法，與本句語境不同。",
-        "slide-mcq-11": "「可用投影機觀看的透明正片影像」是「photographic slide」的用法，與本句語境不同。",
-        "slide-mcq-08": "「簡報中的單獨一頁視覺內容」是「slide — presentation」的用法，與本句語境不同。",
-        "slide-mcq-12": "「一系列圖片／投影片按順序展示」是「slideshow」的用法，與本句語境不同。",
-        "slide-mcq-07": "「人從高處沿光滑斜面滑下的遊樂設施」是「slide — playground」的用法，與本句語境不同。"
+        "slide-mcq-10": "本句的「slides」指「用來放置樣本供顯微鏡觀察的薄玻璃片」。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-10"
     },
@@ -1119,11 +1023,9 @@ export default {
       "masked": "He showed us old holiday ____.",
       "options": [
         "slide-mcq-11",
-        "slide-mcq-10",
-        "slide-mcq-12",
-        "slide-mcq-09",
-        "slide-mcq-13",
-        "slide-mcq-08"
+        "slide-mcq-03",
+        "slide-mcq-07",
+        "slide-mcq-06"
       ],
       "explanation": "本句的「slides」指「可用投影機觀看的透明正片影像」。",
       "sentenceIndex": 24,
@@ -1132,12 +1034,10 @@ export default {
         "slides"
       ],
       "optionReasons": {
-        "slide-mcq-11": "本句指「可用投影機觀看的透明正片影像」。",
-        "slide-mcq-10": "「用來放置樣本供顯微鏡觀察的薄玻璃片」是「microscope slide」的用法，與本句語境不同。",
-        "slide-mcq-12": "「一系列圖片／投影片按順序展示」是「slideshow」的用法，與本句語境不同。",
-        "slide-mcq-09": "「由多張投影片組成的一整套簡報」是「slide deck」的用法，與本句語境不同。",
-        "slide-mcq-13": "「可滑動以調整數值的介面控制元件」是「slider」的用法，與本句語境不同。",
-        "slide-mcq-08": "「簡報中的單獨一頁視覺內容」是「slide — presentation」的用法，與本句語境不同。"
+        "slide-mcq-11": "本句的「slides」指「可用投影機觀看的透明正片影像」。",
+        "slide-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-11"
     },
@@ -1149,11 +1049,9 @@ export default {
       "masked": "The photographs were stored as colour ____.",
       "options": [
         "slide-mcq-11",
-        "slide-mcq-10",
-        "slide-mcq-12",
-        "slide-mcq-09",
-        "slide-mcq-13",
-        "slide-mcq-08"
+        "slide-mcq-03",
+        "slide-mcq-07",
+        "slide-mcq-15"
       ],
       "explanation": "本句的「slides」指「可用投影機觀看的透明正片影像」。",
       "sentenceIndex": 25,
@@ -1162,12 +1060,10 @@ export default {
         "slides"
       ],
       "optionReasons": {
-        "slide-mcq-11": "本句指「可用投影機觀看的透明正片影像」。",
-        "slide-mcq-10": "「用來放置樣本供顯微鏡觀察的薄玻璃片」是「microscope slide」的用法，與本句語境不同。",
-        "slide-mcq-12": "「一系列圖片／投影片按順序展示」是「slideshow」的用法，與本句語境不同。",
-        "slide-mcq-09": "「由多張投影片組成的一整套簡報」是「slide deck」的用法，與本句語境不同。",
-        "slide-mcq-13": "「可滑動以調整數值的介面控制元件」是「slider」的用法，與本句語境不同。",
-        "slide-mcq-08": "「簡報中的單獨一頁視覺內容」是「slide — presentation」的用法，與本句語境不同。"
+        "slide-mcq-11": "本句的「slides」指「可用投影機觀看的透明正片影像」。",
+        "slide-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-11"
     },
@@ -1179,11 +1075,9 @@ export default {
       "masked": "They showed a ____ of the trip.",
       "options": [
         "slide-mcq-12",
-        "slide-mcq-11",
-        "slide-mcq-13",
-        "slide-mcq-10",
-        "slide-mcq-14",
-        "slide-mcq-09"
+        "slide-mcq-08",
+        "slide-mcq-07",
+        "slide-mcq-06"
       ],
       "explanation": "本句的「slideshow」指「一系列圖片／投影片按順序展示」。",
       "sentenceIndex": 26,
@@ -1192,12 +1086,10 @@ export default {
         "slideshow"
       ],
       "optionReasons": {
-        "slide-mcq-12": "本句指「一系列圖片／投影片按順序展示」。",
-        "slide-mcq-11": "「可用投影機觀看的透明正片影像」是「photographic slide」的用法，與本句語境不同。",
-        "slide-mcq-13": "「可滑動以調整數值的介面控制元件」是「slider」的用法，與本句語境不同。",
-        "slide-mcq-10": "「用來放置樣本供顯微鏡觀察的薄玻璃片」是「microscope slide」的用法，與本句語境不同。",
-        "slide-mcq-14": "「沿軌道或表面滑動運作的門／機制」是「sliding door/mechanism」的用法，與本句語境不同。",
-        "slide-mcq-09": "「由多張投影片組成的一整套簡報」是「slide deck」的用法，與本句語境不同。"
+        "slide-mcq-12": "本句的「slideshow」指「一系列圖片／投影片按順序展示」。",
+        "slide-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-12"
     },
@@ -1209,11 +1101,9 @@ export default {
       "masked": "The presentation begins with a short ____.",
       "options": [
         "slide-mcq-12",
-        "slide-mcq-11",
-        "slide-mcq-13",
-        "slide-mcq-10",
-        "slide-mcq-14",
-        "slide-mcq-09"
+        "slide-mcq-03",
+        "slide-mcq-07",
+        "slide-mcq-06"
       ],
       "explanation": "本句的「slideshow」指「一系列圖片／投影片按順序展示」。",
       "sentenceIndex": 27,
@@ -1222,12 +1112,10 @@ export default {
         "slideshow"
       ],
       "optionReasons": {
-        "slide-mcq-12": "本句指「一系列圖片／投影片按順序展示」。",
-        "slide-mcq-11": "「可用投影機觀看的透明正片影像」是「photographic slide」的用法，與本句語境不同。",
-        "slide-mcq-13": "「可滑動以調整數值的介面控制元件」是「slider」的用法，與本句語境不同。",
-        "slide-mcq-10": "「用來放置樣本供顯微鏡觀察的薄玻璃片」是「microscope slide」的用法，與本句語境不同。",
-        "slide-mcq-14": "「沿軌道或表面滑動運作的門／機制」是「sliding door/mechanism」的用法，與本句語境不同。",
-        "slide-mcq-09": "「由多張投影片組成的一整套簡報」是「slide deck」的用法，與本句語境不同。"
+        "slide-mcq-12": "本句的「slideshow」指「一系列圖片／投影片按順序展示」。",
+        "slide-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-12"
     },
@@ -1240,10 +1128,8 @@ export default {
       "options": [
         "slide-mcq-13",
         "slide-mcq-12",
-        "slide-mcq-14",
-        "slide-mcq-11",
-        "slide-mcq-15",
-        "slide-mcq-10"
+        "slide-mcq-08",
+        "slide-mcq-06"
       ],
       "explanation": "本句的「slider」指「可滑動以調整數值的介面控制元件」。",
       "sentenceIndex": 28,
@@ -1252,12 +1138,10 @@ export default {
         "slider"
       ],
       "optionReasons": {
-        "slide-mcq-13": "本句指「可滑動以調整數值的介面控制元件」。",
-        "slide-mcq-12": "「一系列圖片／投影片按順序展示」是「slideshow」的用法，與本句語境不同。",
-        "slide-mcq-14": "「沿軌道或表面滑動運作的門／機制」是「sliding door/mechanism」的用法，與本句語境不同。",
-        "slide-mcq-11": "「可用投影機觀看的透明正片影像」是「photographic slide」的用法，與本句語境不同。",
-        "slide-mcq-15": "「按另一條件逐級或連續變動的收費／數值制度」是「sliding scale」的用法，與本句語境不同。",
-        "slide-mcq-10": "「用來放置樣本供顯微鏡觀察的薄玻璃片」是「microscope slide」的用法，與本句語境不同。"
+        "slide-mcq-13": "本句的「slider」指「可滑動以調整數值的介面控制元件」。",
+        "slide-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-13"
     },
@@ -1269,11 +1153,9 @@ export default {
       "masked": "The volume ____ is at the bottom of the screen.",
       "options": [
         "slide-mcq-13",
-        "slide-mcq-12",
-        "slide-mcq-14",
+        "slide-mcq-04",
         "slide-mcq-11",
-        "slide-mcq-15",
-        "slide-mcq-10"
+        "slide-mcq-06"
       ],
       "explanation": "本句的「slider」指「可滑動以調整數值的介面控制元件」。",
       "sentenceIndex": 29,
@@ -1282,12 +1164,10 @@ export default {
         "slider"
       ],
       "optionReasons": {
-        "slide-mcq-13": "本句指「可滑動以調整數值的介面控制元件」。",
-        "slide-mcq-12": "「一系列圖片／投影片按順序展示」是「slideshow」的用法，與本句語境不同。",
-        "slide-mcq-14": "「沿軌道或表面滑動運作的門／機制」是「sliding door/mechanism」的用法，與本句語境不同。",
-        "slide-mcq-11": "「可用投影機觀看的透明正片影像」是「photographic slide」的用法，與本句語境不同。",
-        "slide-mcq-15": "「按另一條件逐級或連續變動的收費／數值制度」是「sliding scale」的用法，與本句語境不同。",
-        "slide-mcq-10": "「用來放置樣本供顯微鏡觀察的薄玻璃片」是「microscope slide」的用法，與本句語境不同。"
+        "slide-mcq-13": "本句的「slider」指「可滑動以調整數值的介面控制元件」。",
+        "slide-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-13"
     },
@@ -1299,11 +1179,9 @@ export default {
       "masked": "The room has ____.",
       "options": [
         "slide-mcq-14",
-        "slide-mcq-13",
-        "slide-mcq-15",
-        "slide-mcq-12",
-        "slide-mcq-16",
-        "slide-mcq-11"
+        "slide-mcq-04",
+        "slide-mcq-09",
+        "slide-mcq-06"
       ],
       "explanation": "本句的「sliding doors」指「沿軌道或表面滑動運作的門／機制」。",
       "sentenceIndex": 30,
@@ -1312,12 +1190,10 @@ export default {
         "sliding doors"
       ],
       "optionReasons": {
-        "slide-mcq-14": "本句指「沿軌道或表面滑動運作的門／機制」。",
-        "slide-mcq-13": "「可滑動以調整數值的介面控制元件」是「slider」的用法，與本句語境不同。",
-        "slide-mcq-15": "「按另一條件逐級或連續變動的收費／數值制度」是「sliding scale」的用法，與本句語境不同。",
-        "slide-mcq-12": "「一系列圖片／投影片按順序展示」是「slideshow」的用法，與本句語境不同。",
-        "slide-mcq-16": "「利用可滑動刻度進行數學計算的工具」是「slide rule」的用法，與本句語境不同。",
-        "slide-mcq-11": "「可用投影機觀看的透明正片影像」是「photographic slide」的用法，與本句語境不同。"
+        "slide-mcq-14": "本句的「sliding doors」指「沿軌道或表面滑動運作的門／機制」。",
+        "slide-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-14"
     },
@@ -1329,11 +1205,9 @@ export default {
       "masked": "The cabinet uses a ____ mechanism.",
       "options": [
         "slide-mcq-14",
-        "slide-mcq-13",
-        "slide-mcq-15",
-        "slide-mcq-12",
-        "slide-mcq-16",
-        "slide-mcq-11"
+        "slide-mcq-04",
+        "slide-mcq-06",
+        "slide-mcq-12"
       ],
       "explanation": "本句的「sliding」指「沿軌道或表面滑動運作的門／機制」。",
       "sentenceIndex": 31,
@@ -1342,12 +1216,10 @@ export default {
         "sliding"
       ],
       "optionReasons": {
-        "slide-mcq-14": "本句指「沿軌道或表面滑動運作的門／機制」。",
-        "slide-mcq-13": "「可滑動以調整數值的介面控制元件」是「slider」的用法，與本句語境不同。",
-        "slide-mcq-15": "「按另一條件逐級或連續變動的收費／數值制度」是「sliding scale」的用法，與本句語境不同。",
-        "slide-mcq-12": "「一系列圖片／投影片按順序展示」是「slideshow」的用法，與本句語境不同。",
-        "slide-mcq-16": "「利用可滑動刻度進行數學計算的工具」是「slide rule」的用法，與本句語境不同。",
-        "slide-mcq-11": "「可用投影機觀看的透明正片影像」是「photographic slide」的用法，與本句語境不同。"
+        "slide-mcq-14": "本句的「sliding」指「沿軌道或表面滑動運作的門／機制」。",
+        "slide-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-14"
     },
@@ -1359,11 +1231,9 @@ export default {
       "masked": "Fees are charged on a ____ based on income.",
       "options": [
         "slide-mcq-15",
-        "slide-mcq-14",
-        "slide-mcq-16",
-        "slide-mcq-13",
-        "slide-mcq-17",
-        "slide-mcq-12"
+        "slide-mcq-10",
+        "slide-mcq-09",
+        "slide-mcq-07"
       ],
       "explanation": "本句的「sliding scale」指「按另一條件逐級或連續變動的收費／數值制度」。",
       "sentenceIndex": 32,
@@ -1372,12 +1242,10 @@ export default {
         "sliding scale"
       ],
       "optionReasons": {
-        "slide-mcq-15": "本句指「按另一條件逐級或連續變動的收費／數值制度」。",
-        "slide-mcq-14": "「沿軌道或表面滑動運作的門／機制」是「sliding door/mechanism」的用法，與本句語境不同。",
-        "slide-mcq-16": "「利用可滑動刻度進行數學計算的工具」是「slide rule」的用法，與本句語境不同。",
-        "slide-mcq-13": "「可滑動以調整數值的介面控制元件」是「slider」的用法，與本句語境不同。",
-        "slide-mcq-17": "「平順滑動或失去抓地力後滑行的動作」是「7. slide = noun, smooth movement — 滑動；滑行」的用法，與本句語境不同。",
-        "slide-mcq-12": "「一系列圖片／投影片按順序展示」是「slideshow」的用法，與本句語境不同。"
+        "slide-mcq-15": "本句的「sliding scale」指「按另一條件逐級或連續變動的收費／數值制度」。",
+        "slide-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-15"
     },
@@ -1389,10 +1257,8 @@ export default {
       "masked": "The programme uses a ____ scale for discounts.",
       "options": [
         "slide-mcq-15",
-        "slide-mcq-14",
-        "slide-mcq-16",
-        "slide-mcq-13",
-        "slide-mcq-17",
+        "slide-mcq-08",
+        "slide-mcq-07",
         "slide-mcq-12"
       ],
       "explanation": "本句的「sliding」指「按另一條件逐級或連續變動的收費／數值制度」。",
@@ -1402,12 +1268,10 @@ export default {
         "sliding"
       ],
       "optionReasons": {
-        "slide-mcq-15": "本句指「按另一條件逐級或連續變動的收費／數值制度」。",
-        "slide-mcq-14": "「沿軌道或表面滑動運作的門／機制」是「sliding door/mechanism」的用法，與本句語境不同。",
-        "slide-mcq-16": "「利用可滑動刻度進行數學計算的工具」是「slide rule」的用法，與本句語境不同。",
-        "slide-mcq-13": "「可滑動以調整數值的介面控制元件」是「slider」的用法，與本句語境不同。",
-        "slide-mcq-17": "「平順滑動或失去抓地力後滑行的動作」是「7. slide = noun, smooth movement — 滑動；滑行」的用法，與本句語境不同。",
-        "slide-mcq-12": "「一系列圖片／投影片按順序展示」是「slideshow」的用法，與本句語境不同。"
+        "slide-mcq-15": "本句的「sliding」指「按另一條件逐級或連續變動的收費／數值制度」。",
+        "slide-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-15"
     },
@@ -1419,11 +1283,9 @@ export default {
       "masked": "Engineers once used ____ for calculations.",
       "options": [
         "slide-mcq-16",
-        "slide-mcq-15",
-        "slide-mcq-17",
-        "slide-mcq-14",
-        "slide-mcq-13",
-        "slide-mcq-12"
+        "slide-mcq-11",
+        "slide-mcq-06",
+        "slide-mcq-04"
       ],
       "explanation": "本句的「slide rules」指「利用可滑動刻度進行數學計算的工具」。",
       "sentenceIndex": 34,
@@ -1432,12 +1294,10 @@ export default {
         "slide rules"
       ],
       "optionReasons": {
-        "slide-mcq-16": "本句指「利用可滑動刻度進行數學計算的工具」。",
-        "slide-mcq-15": "「按另一條件逐級或連續變動的收費／數值制度」是「sliding scale」的用法，與本句語境不同。",
-        "slide-mcq-17": "「平順滑動或失去抓地力後滑行的動作」是「7. slide = noun, smooth movement — 滑動；滑行」的用法，與本句語境不同。",
-        "slide-mcq-14": "「沿軌道或表面滑動運作的門／機制」是「sliding door/mechanism」的用法，與本句語境不同。",
-        "slide-mcq-13": "「可滑動以調整數值的介面控制元件」是「slider」的用法，與本句語境不同。",
-        "slide-mcq-12": "「一系列圖片／投影片按順序展示」是「slideshow」的用法，與本句語境不同。"
+        "slide-mcq-16": "本句的「slide rules」指「利用可滑動刻度進行數學計算的工具」。",
+        "slide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-16"
     },
@@ -1449,11 +1309,9 @@ export default {
       "masked": "Electronic calculators largely replaced the ____ rule.",
       "options": [
         "slide-mcq-16",
-        "slide-mcq-15",
-        "slide-mcq-17",
-        "slide-mcq-14",
-        "slide-mcq-13",
-        "slide-mcq-12"
+        "slide-mcq-09",
+        "slide-mcq-06",
+        "slide-mcq-10"
       ],
       "explanation": "本句的「slide」指「利用可滑動刻度進行數學計算的工具」。",
       "sentenceIndex": 35,
@@ -1462,12 +1320,10 @@ export default {
         "slide"
       ],
       "optionReasons": {
-        "slide-mcq-16": "本句指「利用可滑動刻度進行數學計算的工具」。",
-        "slide-mcq-15": "「按另一條件逐級或連續變動的收費／數值制度」是「sliding scale」的用法，與本句語境不同。",
-        "slide-mcq-17": "「平順滑動或失去抓地力後滑行的動作」是「7. slide = noun, smooth movement — 滑動；滑行」的用法，與本句語境不同。",
-        "slide-mcq-14": "「沿軌道或表面滑動運作的門／機制」是「sliding door/mechanism」的用法，與本句語境不同。",
-        "slide-mcq-13": "「可滑動以調整數值的介面控制元件」是「slider」的用法，與本句語境不同。",
-        "slide-mcq-12": "「一系列圖片／投影片按順序展示」是「slideshow」的用法，與本句語境不同。"
+        "slide-mcq-16": "本句的「slide」指「利用可滑動刻度進行數學計算的工具」。",
+        "slide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slide-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slide-mcq-16"
     }
@@ -1479,5 +1335,7 @@ export default {
     "sha256": "8da3b066cc4d17f5eb56eb2037baf29ee16a9ed97a5b29beeed5fd790a3c63bf",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

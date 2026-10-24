@@ -571,11 +571,7 @@ export default {
       "masked": "____ plays an important role in society.",
       "options": [
         "education-mcq-01",
-        "education-mcq-02",
-        "education-mcq-03",
-        "education-mcq-04",
-        "education-mcq-05",
-        "education-mcq-06"
+        "contrast-duration"
       ],
       "explanation": "本句的「Education」指「透過教學、學習與經驗發展知識、技能、理解和價值觀的過程；教育」。",
       "sentenceIndex": 2,
@@ -584,12 +580,8 @@ export default {
         "Education"
       ],
       "optionReasons": {
-        "education-mcq-01": "本句指「透過教學、學習與經驗發展知識、技能、理解和價值觀的過程；教育」。",
-        "education-mcq-02": "「某人接受正式學校、大學等教育的經歷／教育背景」與本句語境不同。",
-        "education-mcq-03": "「從事教學、學校管理、學習支援等工作的教育領域／教育界」與本句語境不同。",
-        "education-mcq-04": "「在教育相關職業或機構中工作」與本句語境不同。",
-        "education-mcq-05": "「由學校、政策、課程及相關機構構成的教育制度／體系」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。"
+        "education-mcq-01": "本句的「Education」指「透過教學、學習與經驗發展知識、技能、理解和價值觀的過程；教育」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-01"
     },
@@ -601,11 +593,7 @@ export default {
       "masked": "Good ____ should help students think independently.",
       "options": [
         "education-mcq-01",
-        "education-mcq-02",
-        "education-mcq-03",
-        "education-mcq-04",
-        "education-mcq-05",
-        "education-mcq-06"
+        "contrast-duration"
       ],
       "explanation": "本句的「education」指「透過教學、學習與經驗發展知識、技能、理解和價值觀的過程；教育」。",
       "sentenceIndex": 3,
@@ -614,12 +602,8 @@ export default {
         "education"
       ],
       "optionReasons": {
-        "education-mcq-01": "本句指「透過教學、學習與經驗發展知識、技能、理解和價值觀的過程；教育」。",
-        "education-mcq-02": "「某人接受正式學校、大學等教育的經歷／教育背景」與本句語境不同。",
-        "education-mcq-03": "「從事教學、學校管理、學習支援等工作的教育領域／教育界」與本句語境不同。",
-        "education-mcq-04": "「在教育相關職業或機構中工作」與本句語境不同。",
-        "education-mcq-05": "「由學校、政策、課程及相關機構構成的教育制度／體系」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。"
+        "education-mcq-01": "本句的「education」指「透過教學、學習與經驗發展知識、技能、理解和價值觀的過程；教育」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-01"
     },
@@ -631,11 +615,7 @@ export default {
       "masked": "She received a good ____.",
       "options": [
         "education-mcq-02",
-        "education-mcq-01",
-        "education-mcq-03",
-        "education-mcq-04",
-        "education-mcq-05",
-        "education-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「education」指「某人接受正式學校、大學等教育的經歷／教育背景」。",
       "sentenceIndex": 4,
@@ -644,12 +624,8 @@ export default {
         "education"
       ],
       "optionReasons": {
-        "education-mcq-02": "本句指「某人接受正式學校、大學等教育的經歷／教育背景」。",
-        "education-mcq-01": "「透過教學、學習與經驗發展知識、技能、理解和價值觀的過程；教育」與本句語境不同。",
-        "education-mcq-03": "「從事教學、學校管理、學習支援等工作的教育領域／教育界」與本句語境不同。",
-        "education-mcq-04": "「在教育相關職業或機構中工作」與本句語境不同。",
-        "education-mcq-05": "「由學校、政策、課程及相關機構構成的教育制度／體系」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。"
+        "education-mcq-02": "本句的「education」指「某人接受正式學校、大學等教育的經歷／教育背景」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-02"
     },
@@ -661,11 +637,7 @@ export default {
       "masked": "His ____ was interrupted by family problems.",
       "options": [
         "education-mcq-02",
-        "education-mcq-01",
-        "education-mcq-03",
-        "education-mcq-04",
-        "education-mcq-05",
-        "education-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「education」指「某人接受正式學校、大學等教育的經歷／教育背景」。",
       "sentenceIndex": 5,
@@ -674,12 +646,8 @@ export default {
         "education"
       ],
       "optionReasons": {
-        "education-mcq-02": "本句指「某人接受正式學校、大學等教育的經歷／教育背景」。",
-        "education-mcq-01": "「透過教學、學習與經驗發展知識、技能、理解和價值觀的過程；教育」與本句語境不同。",
-        "education-mcq-03": "「從事教學、學校管理、學習支援等工作的教育領域／教育界」與本句語境不同。",
-        "education-mcq-04": "「在教育相關職業或機構中工作」與本句語境不同。",
-        "education-mcq-05": "「由學校、政策、課程及相關機構構成的教育制度／體系」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。"
+        "education-mcq-02": "本句的「education」指「某人接受正式學校、大學等教育的經歷／教育背景」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-02"
     },
@@ -691,11 +659,7 @@ export default {
       "masked": "Her ____ gave her a strong foundation in science.",
       "options": [
         "education-mcq-02",
-        "education-mcq-01",
-        "education-mcq-03",
-        "education-mcq-04",
-        "education-mcq-05",
-        "education-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「education」指「某人接受正式學校、大學等教育的經歷／教育背景」。",
       "sentenceIndex": 6,
@@ -704,12 +668,8 @@ export default {
         "education"
       ],
       "optionReasons": {
-        "education-mcq-02": "本句指「某人接受正式學校、大學等教育的經歷／教育背景」。",
-        "education-mcq-01": "「透過教學、學習與經驗發展知識、技能、理解和價值觀的過程；教育」與本句語境不同。",
-        "education-mcq-03": "「從事教學、學校管理、學習支援等工作的教育領域／教育界」與本句語境不同。",
-        "education-mcq-04": "「在教育相關職業或機構中工作」與本句語境不同。",
-        "education-mcq-05": "「由學校、政策、課程及相關機構構成的教育制度／體系」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。"
+        "education-mcq-02": "本句的「education」指「某人接受正式學校、大學等教育的經歷／教育背景」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-02"
     },
@@ -721,11 +681,7 @@ export default {
       "masked": "Much of his ____ took place abroad.",
       "options": [
         "education-mcq-02",
-        "education-mcq-01",
-        "education-mcq-03",
-        "education-mcq-04",
-        "education-mcq-05",
-        "education-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「education」指「某人接受正式學校、大學等教育的經歷／教育背景」。",
       "sentenceIndex": 7,
@@ -734,12 +690,8 @@ export default {
         "education"
       ],
       "optionReasons": {
-        "education-mcq-02": "本句指「某人接受正式學校、大學等教育的經歷／教育背景」。",
-        "education-mcq-01": "「透過教學、學習與經驗發展知識、技能、理解和價值觀的過程；教育」與本句語境不同。",
-        "education-mcq-03": "「從事教學、學校管理、學習支援等工作的教育領域／教育界」與本句語境不同。",
-        "education-mcq-04": "「在教育相關職業或機構中工作」與本句語境不同。",
-        "education-mcq-05": "「由學校、政策、課程及相關機構構成的教育制度／體系」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。"
+        "education-mcq-02": "本句的「education」指「某人接受正式學校、大學等教育的經歷／教育背景」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-02"
     },
@@ -751,11 +703,7 @@ export default {
       "masked": "She has spent her entire career in ____.",
       "options": [
         "education-mcq-03",
-        "education-mcq-02",
-        "education-mcq-04",
-        "education-mcq-01",
-        "education-mcq-05",
-        "education-mcq-06"
+        "education-mcq-17"
       ],
       "explanation": "本句的「education」指「從事教學、學校管理、學習支援等工作的教育領域／教育界」。",
       "sentenceIndex": 8,
@@ -764,12 +712,8 @@ export default {
         "education"
       ],
       "optionReasons": {
-        "education-mcq-03": "本句指「從事教學、學校管理、學習支援等工作的教育領域／教育界」。",
-        "education-mcq-02": "「某人接受正式學校、大學等教育的經歷／教育背景」與本句語境不同。",
-        "education-mcq-04": "「在教育相關職業或機構中工作」與本句語境不同。",
-        "education-mcq-01": "「透過教學、學習與經驗發展知識、技能、理解和價值觀的過程；教育」與本句語境不同。",
-        "education-mcq-05": "「由學校、政策、課程及相關機構構成的教育制度／體系」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。"
+        "education-mcq-03": "本句的「education」指「從事教學、學校管理、學習支援等工作的教育領域／教育界」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-03"
     },
@@ -781,11 +725,7 @@ export default {
       "masked": "He wants to work in ____ after university.",
       "options": [
         "education-mcq-03",
-        "education-mcq-02",
-        "education-mcq-04",
-        "education-mcq-01",
-        "education-mcq-05",
-        "education-mcq-06"
+        "education-mcq-17"
       ],
       "explanation": "本句的「education」指「從事教學、學校管理、學習支援等工作的教育領域／教育界」。",
       "sentenceIndex": 9,
@@ -794,12 +734,8 @@ export default {
         "education"
       ],
       "optionReasons": {
-        "education-mcq-03": "本句指「從事教學、學校管理、學習支援等工作的教育領域／教育界」。",
-        "education-mcq-02": "「某人接受正式學校、大學等教育的經歷／教育背景」與本句語境不同。",
-        "education-mcq-04": "「在教育相關職業或機構中工作」與本句語境不同。",
-        "education-mcq-01": "「透過教學、學習與經驗發展知識、技能、理解和價值觀的過程；教育」與本句語境不同。",
-        "education-mcq-05": "「由學校、政策、課程及相關機構構成的教育制度／體系」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。"
+        "education-mcq-03": "本句的「education」指「從事教學、學校管理、學習支援等工作的教育領域／教育界」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-03"
     },
@@ -811,11 +747,7 @@ export default {
       "masked": "Both of her parents ____.",
       "options": [
         "education-mcq-04",
-        "education-mcq-03",
-        "education-mcq-05",
-        "education-mcq-02",
-        "education-mcq-06",
-        "education-mcq-01"
+        "education-mcq-17"
       ],
       "explanation": "本句的「work in education」指「在教育相關職業或機構中工作」。",
       "sentenceIndex": 10,
@@ -824,12 +756,8 @@ export default {
         "work in education"
       ],
       "optionReasons": {
-        "education-mcq-04": "本句指「在教育相關職業或機構中工作」。",
-        "education-mcq-03": "「從事教學、學校管理、學習支援等工作的教育領域／教育界」與本句語境不同。",
-        "education-mcq-05": "「由學校、政策、課程及相關機構構成的教育制度／體系」與本句語境不同。",
-        "education-mcq-02": "「某人接受正式學校、大學等教育的經歷／教育背景」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。",
-        "education-mcq-01": "「透過教學、學習與經驗發展知識、技能、理解和價值觀的過程；教育」與本句語境不同。"
+        "education-mcq-04": "本句的「work in education」指「在教育相關職業或機構中工作」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-04"
     },
@@ -841,11 +769,7 @@ export default {
       "masked": "I have always wanted to ____.",
       "options": [
         "education-mcq-04",
-        "education-mcq-03",
-        "education-mcq-05",
-        "education-mcq-02",
-        "education-mcq-06",
-        "education-mcq-01"
+        "education-mcq-17"
       ],
       "explanation": "本句的「work in education」指「在教育相關職業或機構中工作」。",
       "sentenceIndex": 11,
@@ -854,12 +778,8 @@ export default {
         "work in education"
       ],
       "optionReasons": {
-        "education-mcq-04": "本句指「在教育相關職業或機構中工作」。",
-        "education-mcq-03": "「從事教學、學校管理、學習支援等工作的教育領域／教育界」與本句語境不同。",
-        "education-mcq-05": "「由學校、政策、課程及相關機構構成的教育制度／體系」與本句語境不同。",
-        "education-mcq-02": "「某人接受正式學校、大學等教育的經歷／教育背景」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。",
-        "education-mcq-01": "「透過教學、學習與經驗發展知識、技能、理解和價值觀的過程；教育」與本句語境不同。"
+        "education-mcq-04": "本句的「work in education」指「在教育相關職業或機構中工作」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-04"
     },
@@ -871,11 +791,7 @@ export default {
       "masked": "The country is reforming its ____.",
       "options": [
         "education-mcq-05",
-        "education-mcq-04",
-        "education-mcq-06",
-        "education-mcq-03",
-        "education-mcq-07",
-        "education-mcq-02"
+        "education-mcq-17"
       ],
       "explanation": "本句的「education system」指「由學校、政策、課程及相關機構構成的教育制度／體系」。",
       "sentenceIndex": 12,
@@ -884,12 +800,8 @@ export default {
         "education system"
       ],
       "optionReasons": {
-        "education-mcq-05": "本句指「由學校、政策、課程及相關機構構成的教育制度／體系」。",
-        "education-mcq-04": "「在教育相關職業或機構中工作」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。",
-        "education-mcq-03": "「從事教學、學校管理、學習支援等工作的教育領域／教育界」與本句語境不同。",
-        "education-mcq-07": "「由私立機構提供的教育」與本句語境不同。",
-        "education-mcq-02": "「某人接受正式學校、大學等教育的經歷／教育背景」與本句語境不同。"
+        "education-mcq-05": "本句的「education system」指「由學校、政策、課程及相關機構構成的教育制度／體系」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-05"
     },
@@ -901,11 +813,7 @@ export default {
       "masked": "Technology is changing ____.",
       "options": [
         "education-mcq-05",
-        "education-mcq-04",
-        "education-mcq-06",
-        "education-mcq-03",
-        "education-mcq-07",
-        "education-mcq-02"
+        "education-mcq-17"
       ],
       "explanation": "本句的「education」指「由學校、政策、課程及相關機構構成的教育制度／體系」。",
       "sentenceIndex": 13,
@@ -914,12 +822,8 @@ export default {
         "education"
       ],
       "optionReasons": {
-        "education-mcq-05": "本句指「由學校、政策、課程及相關機構構成的教育制度／體系」。",
-        "education-mcq-04": "「在教育相關職業或機構中工作」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。",
-        "education-mcq-03": "「從事教學、學校管理、學習支援等工作的教育領域／教育界」與本句語境不同。",
-        "education-mcq-07": "「由私立機構提供的教育」與本句語境不同。",
-        "education-mcq-02": "「某人接受正式學校、大學等教育的經歷／教育背景」與本句語境不同。"
+        "education-mcq-05": "本句的「education」指「由學校、政策、課程及相關機構構成的教育制度／體系」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-05"
     },
@@ -931,11 +835,7 @@ export default {
       "masked": "The government increased spending on ____.",
       "options": [
         "education-mcq-06",
-        "education-mcq-05",
-        "education-mcq-07",
-        "education-mcq-04",
-        "education-mcq-08",
-        "education-mcq-03"
+        "education-mcq-17"
       ],
       "explanation": "本句的「public education」指「由政府提供、資助或管理的公共／公立教育」。",
       "sentenceIndex": 14,
@@ -944,12 +844,8 @@ export default {
         "public education"
       ],
       "optionReasons": {
-        "education-mcq-06": "本句指「由政府提供、資助或管理的公共／公立教育」。",
-        "education-mcq-05": "「由學校、政策、課程及相關機構構成的教育制度／體系」與本句語境不同。",
-        "education-mcq-07": "「由私立機構提供的教育」與本句語境不同。",
-        "education-mcq-04": "「在教育相關職業或機構中工作」與本句語境不同。",
-        "education-mcq-08": "「小學階段的正式教育；初等教育」與本句語境不同。",
-        "education-mcq-03": "「從事教學、學校管理、學習支援等工作的教育領域／教育界」與本句語境不同。"
+        "education-mcq-06": "本句的「public education」指「由政府提供、資助或管理的公共／公立教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-06"
     },
@@ -961,11 +857,7 @@ export default {
       "masked": "She has worked in ____ for many years.",
       "options": [
         "education-mcq-06",
-        "education-mcq-05",
-        "education-mcq-07",
-        "education-mcq-04",
-        "education-mcq-08",
-        "education-mcq-03"
+        "education-mcq-17"
       ],
       "explanation": "本句的「public education」指「由政府提供、資助或管理的公共／公立教育」。",
       "sentenceIndex": 15,
@@ -974,12 +866,8 @@ export default {
         "public education"
       ],
       "optionReasons": {
-        "education-mcq-06": "本句指「由政府提供、資助或管理的公共／公立教育」。",
-        "education-mcq-05": "「由學校、政策、課程及相關機構構成的教育制度／體系」與本句語境不同。",
-        "education-mcq-07": "「由私立機構提供的教育」與本句語境不同。",
-        "education-mcq-04": "「在教育相關職業或機構中工作」與本句語境不同。",
-        "education-mcq-08": "「小學階段的正式教育；初等教育」與本句語境不同。",
-        "education-mcq-03": "「從事教學、學校管理、學習支援等工作的教育領域／教育界」與本句語境不同。"
+        "education-mcq-06": "本句的「public education」指「由政府提供、資助或管理的公共／公立教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-06"
     },
@@ -991,11 +879,7 @@ export default {
       "masked": "The family chose ____.",
       "options": [
         "education-mcq-07",
-        "education-mcq-06",
-        "education-mcq-08",
-        "education-mcq-05",
-        "education-mcq-09",
-        "education-mcq-04"
+        "education-mcq-17"
       ],
       "explanation": "本句的「private education」指「由私立機構提供的教育」。",
       "sentenceIndex": 16,
@@ -1004,12 +888,8 @@ export default {
         "private education"
       ],
       "optionReasons": {
-        "education-mcq-07": "本句指「由私立機構提供的教育」。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。",
-        "education-mcq-08": "「小學階段的正式教育；初等教育」與本句語境不同。",
-        "education-mcq-05": "「由學校、政策、課程及相關機構構成的教育制度／體系」與本句語境不同。",
-        "education-mcq-09": "「中學階段的正式教育；中等教育」與本句語境不同。",
-        "education-mcq-04": "「在教育相關職業或機構中工作」與本句語境不同。"
+        "education-mcq-07": "本句的「private education」指「由私立機構提供的教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-07"
     },
@@ -1021,11 +901,7 @@ export default {
       "masked": "He has experience in both public and ____.",
       "options": [
         "education-mcq-07",
-        "education-mcq-06",
-        "education-mcq-08",
-        "education-mcq-05",
-        "education-mcq-09",
-        "education-mcq-04"
+        "education-mcq-17"
       ],
       "explanation": "本句的「private education」指「由私立機構提供的教育」。",
       "sentenceIndex": 17,
@@ -1034,12 +910,8 @@ export default {
         "private education"
       ],
       "optionReasons": {
-        "education-mcq-07": "本句指「由私立機構提供的教育」。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。",
-        "education-mcq-08": "「小學階段的正式教育；初等教育」與本句語境不同。",
-        "education-mcq-05": "「由學校、政策、課程及相關機構構成的教育制度／體系」與本句語境不同。",
-        "education-mcq-09": "「中學階段的正式教育；中等教育」與本句語境不同。",
-        "education-mcq-04": "「在教育相關職業或機構中工作」與本句語境不同。"
+        "education-mcq-07": "本句的「private education」指「由私立機構提供的教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-07"
     },
@@ -1051,11 +923,7 @@ export default {
       "masked": "She specializes in ____.",
       "options": [
         "education-mcq-08",
-        "education-mcq-07",
-        "education-mcq-09",
-        "education-mcq-06",
-        "education-mcq-10",
-        "education-mcq-05"
+        "education-mcq-17"
       ],
       "explanation": "本句的「primary education」指「小學階段的正式教育；初等教育」。",
       "sentenceIndex": 18,
@@ -1064,12 +932,8 @@ export default {
         "primary education"
       ],
       "optionReasons": {
-        "education-mcq-08": "本句指「小學階段的正式教育；初等教育」。",
-        "education-mcq-07": "「由私立機構提供的教育」與本句語境不同。",
-        "education-mcq-09": "「中學階段的正式教育；中等教育」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。",
-        "education-mcq-10": "「中學之後由大學、學院等提供的高等教育」與本句語境不同。",
-        "education-mcq-05": "「由學校、政策、課程及相關機構構成的教育制度／體系」與本句語境不同。"
+        "education-mcq-08": "本句的「primary education」指「小學階段的正式教育；初等教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-08"
     },
@@ -1081,11 +945,7 @@ export default {
       "masked": "Access to ____ has improved.",
       "options": [
         "education-mcq-08",
-        "education-mcq-07",
-        "education-mcq-09",
-        "education-mcq-06",
-        "education-mcq-10",
-        "education-mcq-05"
+        "education-mcq-17"
       ],
       "explanation": "本句的「primary education」指「小學階段的正式教育；初等教育」。",
       "sentenceIndex": 19,
@@ -1094,12 +954,8 @@ export default {
         "primary education"
       ],
       "optionReasons": {
-        "education-mcq-08": "本句指「小學階段的正式教育；初等教育」。",
-        "education-mcq-07": "「由私立機構提供的教育」與本句語境不同。",
-        "education-mcq-09": "「中學階段的正式教育；中等教育」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。",
-        "education-mcq-10": "「中學之後由大學、學院等提供的高等教育」與本句語境不同。",
-        "education-mcq-05": "「由學校、政策、課程及相關機構構成的教育制度／體系」與本句語境不同。"
+        "education-mcq-08": "本句的「primary education」指「小學階段的正式教育；初等教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-08"
     },
@@ -1111,11 +967,7 @@ export default {
       "masked": "She has spent most of her career in ____.",
       "options": [
         "education-mcq-09",
-        "education-mcq-08",
-        "education-mcq-10",
-        "education-mcq-07",
-        "education-mcq-11",
-        "education-mcq-06"
+        "education-mcq-17"
       ],
       "explanation": "本句的「secondary education」指「中學階段的正式教育；中等教育」。",
       "sentenceIndex": 20,
@@ -1124,12 +976,8 @@ export default {
         "secondary education"
       ],
       "optionReasons": {
-        "education-mcq-09": "本句指「中學階段的正式教育；中等教育」。",
-        "education-mcq-08": "「小學階段的正式教育；初等教育」與本句語境不同。",
-        "education-mcq-10": "「中學之後由大學、學院等提供的高等教育」與本句語境不同。",
-        "education-mcq-07": "「由私立機構提供的教育」與本句語境不同。",
-        "education-mcq-11": "「中學後、通常非大學本科形式的進修／延續教育」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。"
+        "education-mcq-09": "本句的「secondary education」指「中學階段的正式教育；中等教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-09"
     },
@@ -1141,11 +989,7 @@ export default {
       "masked": "Science becomes more specialized during ____.",
       "options": [
         "education-mcq-09",
-        "education-mcq-08",
-        "education-mcq-10",
-        "education-mcq-07",
-        "education-mcq-11",
-        "education-mcq-06"
+        "education-mcq-17"
       ],
       "explanation": "本句的「secondary education」指「中學階段的正式教育；中等教育」。",
       "sentenceIndex": 21,
@@ -1154,12 +998,8 @@ export default {
         "secondary education"
       ],
       "optionReasons": {
-        "education-mcq-09": "本句指「中學階段的正式教育；中等教育」。",
-        "education-mcq-08": "「小學階段的正式教育；初等教育」與本句語境不同。",
-        "education-mcq-10": "「中學之後由大學、學院等提供的高等教育」與本句語境不同。",
-        "education-mcq-07": "「由私立機構提供的教育」與本句語境不同。",
-        "education-mcq-11": "「中學後、通常非大學本科形式的進修／延續教育」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。"
+        "education-mcq-09": "本句的「secondary education」指「中學階段的正式教育；中等教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-09"
     },
@@ -1171,11 +1011,7 @@ export default {
       "masked": "Many students continue into ____.",
       "options": [
         "education-mcq-10",
-        "education-mcq-09",
-        "education-mcq-11",
-        "education-mcq-08",
-        "education-mcq-12",
-        "education-mcq-07"
+        "education-mcq-17"
       ],
       "explanation": "本句的「higher education」指「中學之後由大學、學院等提供的高等教育」。",
       "sentenceIndex": 22,
@@ -1184,12 +1020,8 @@ export default {
         "higher education"
       ],
       "optionReasons": {
-        "education-mcq-10": "本句指「中學之後由大學、學院等提供的高等教育」。",
-        "education-mcq-09": "「中學階段的正式教育；中等教育」與本句語境不同。",
-        "education-mcq-11": "「中學後、通常非大學本科形式的進修／延續教育」與本句語境不同。",
-        "education-mcq-08": "「小學階段的正式教育；初等教育」與本句語境不同。",
-        "education-mcq-12": "「為成年人提供的有組織學習；成人教育」與本句語境不同。",
-        "education-mcq-07": "「由私立機構提供的教育」與本句語境不同。"
+        "education-mcq-10": "本句的「higher education」指「中學之後由大學、學院等提供的高等教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-10"
     },
@@ -1201,11 +1033,7 @@ export default {
       "masked": "She works in ____ now.",
       "options": [
         "education-mcq-10",
-        "education-mcq-09",
-        "education-mcq-11",
-        "education-mcq-08",
-        "education-mcq-12",
-        "education-mcq-07"
+        "education-mcq-17"
       ],
       "explanation": "本句的「higher education」指「中學之後由大學、學院等提供的高等教育」。",
       "sentenceIndex": 23,
@@ -1214,12 +1042,8 @@ export default {
         "higher education"
       ],
       "optionReasons": {
-        "education-mcq-10": "本句指「中學之後由大學、學院等提供的高等教育」。",
-        "education-mcq-09": "「中學階段的正式教育；中等教育」與本句語境不同。",
-        "education-mcq-11": "「中學後、通常非大學本科形式的進修／延續教育」與本句語境不同。",
-        "education-mcq-08": "「小學階段的正式教育；初等教育」與本句語境不同。",
-        "education-mcq-12": "「為成年人提供的有組織學習；成人教育」與本句語境不同。",
-        "education-mcq-07": "「由私立機構提供的教育」與本句語境不同。"
+        "education-mcq-10": "本句的「higher education」指「中學之後由大學、學院等提供的高等教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-10"
     },
@@ -1231,11 +1055,7 @@ export default {
       "masked": "He enrolled in a ____ college.",
       "options": [
         "education-mcq-11",
-        "education-mcq-10",
-        "education-mcq-12",
-        "education-mcq-09",
-        "education-mcq-13",
-        "education-mcq-08"
+        "education-mcq-17"
       ],
       "explanation": "本句的「further education」指「中學後、通常非大學本科形式的進修／延續教育」。",
       "sentenceIndex": 24,
@@ -1244,12 +1064,8 @@ export default {
         "further education"
       ],
       "optionReasons": {
-        "education-mcq-11": "本句指「中學後、通常非大學本科形式的進修／延續教育」。",
-        "education-mcq-10": "「中學之後由大學、學院等提供的高等教育」與本句語境不同。",
-        "education-mcq-12": "「為成年人提供的有組織學習；成人教育」與本句語境不同。",
-        "education-mcq-09": "「中學階段的正式教育；中等教育」與本句語境不同。",
-        "education-mcq-13": "「為具有特定學習或支援需要的學生提供的特殊教育」與本句語境不同。",
-        "education-mcq-08": "「小學階段的正式教育；初等教育」與本句語境不同。"
+        "education-mcq-11": "本句的「further education」指「中學後、通常非大學本科形式的進修／延續教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-11"
     },
@@ -1261,11 +1077,7 @@ export default {
       "masked": "____ offers vocational and academic courses.",
       "options": [
         "education-mcq-11",
-        "education-mcq-10",
-        "education-mcq-12",
-        "education-mcq-09",
-        "education-mcq-13",
-        "education-mcq-08"
+        "education-mcq-17"
       ],
       "explanation": "本句的「Further education」指「中學後、通常非大學本科形式的進修／延續教育」。",
       "sentenceIndex": 25,
@@ -1274,12 +1086,8 @@ export default {
         "Further education"
       ],
       "optionReasons": {
-        "education-mcq-11": "本句指「中學後、通常非大學本科形式的進修／延續教育」。",
-        "education-mcq-10": "「中學之後由大學、學院等提供的高等教育」與本句語境不同。",
-        "education-mcq-12": "「為成年人提供的有組織學習；成人教育」與本句語境不同。",
-        "education-mcq-09": "「中學階段的正式教育；中等教育」與本句語境不同。",
-        "education-mcq-13": "「為具有特定學習或支援需要的學生提供的特殊教育」與本句語境不同。",
-        "education-mcq-08": "「小學階段的正式教育；初等教育」與本句語境不同。"
+        "education-mcq-11": "本句的「Further education」指「中學後、通常非大學本科形式的進修／延續教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-11"
     },
@@ -1291,11 +1099,7 @@ export default {
       "masked": "She teaches evening classes in ____.",
       "options": [
         "education-mcq-12",
-        "education-mcq-11",
-        "education-mcq-13",
-        "education-mcq-10",
-        "education-mcq-14",
-        "education-mcq-09"
+        "education-mcq-17"
       ],
       "explanation": "本句的「adult education」指「為成年人提供的有組織學習；成人教育」。",
       "sentenceIndex": 26,
@@ -1304,12 +1108,8 @@ export default {
         "adult education"
       ],
       "optionReasons": {
-        "education-mcq-12": "本句指「為成年人提供的有組織學習；成人教育」。",
-        "education-mcq-11": "「中學後、通常非大學本科形式的進修／延續教育」與本句語境不同。",
-        "education-mcq-13": "「為具有特定學習或支援需要的學生提供的特殊教育」與本句語境不同。",
-        "education-mcq-10": "「中學之後由大學、學院等提供的高等教育」與本句語境不同。",
-        "education-mcq-14": "「科學知識與方法的教學和學習」與本句語境不同。",
-        "education-mcq-09": "「中學階段的正式教育；中等教育」與本句語境不同。"
+        "education-mcq-12": "本句的「adult education」指「為成年人提供的有組織學習；成人教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-12"
     },
@@ -1321,11 +1121,7 @@ export default {
       "masked": "____ can provide opportunities for career changes.",
       "options": [
         "education-mcq-12",
-        "education-mcq-11",
-        "education-mcq-13",
-        "education-mcq-10",
-        "education-mcq-14",
-        "education-mcq-09"
+        "education-mcq-17"
       ],
       "explanation": "本句的「Adult education」指「為成年人提供的有組織學習；成人教育」。",
       "sentenceIndex": 27,
@@ -1334,12 +1130,8 @@ export default {
         "Adult education"
       ],
       "optionReasons": {
-        "education-mcq-12": "本句指「為成年人提供的有組織學習；成人教育」。",
-        "education-mcq-11": "「中學後、通常非大學本科形式的進修／延續教育」與本句語境不同。",
-        "education-mcq-13": "「為具有特定學習或支援需要的學生提供的特殊教育」與本句語境不同。",
-        "education-mcq-10": "「中學之後由大學、學院等提供的高等教育」與本句語境不同。",
-        "education-mcq-14": "「科學知識與方法的教學和學習」與本句語境不同。",
-        "education-mcq-09": "「中學階段的正式教育；中等教育」與本句語境不同。"
+        "education-mcq-12": "本句的「Adult education」指「為成年人提供的有組織學習；成人教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-12"
     },
@@ -1351,11 +1143,7 @@ export default {
       "masked": "She has experience in ____.",
       "options": [
         "education-mcq-13",
-        "education-mcq-12",
-        "education-mcq-14",
-        "education-mcq-11",
-        "education-mcq-15",
-        "education-mcq-10"
+        "education-mcq-17"
       ],
       "explanation": "本句的「special education」指「為具有特定學習或支援需要的學生提供的特殊教育」。",
       "sentenceIndex": 28,
@@ -1364,12 +1152,8 @@ export default {
         "special education"
       ],
       "optionReasons": {
-        "education-mcq-13": "本句指「為具有特定學習或支援需要的學生提供的特殊教育」。",
-        "education-mcq-12": "「為成年人提供的有組織學習；成人教育」與本句語境不同。",
-        "education-mcq-14": "「科學知識與方法的教學和學習」與本句語境不同。",
-        "education-mcq-11": "「中學後、通常非大學本科形式的進修／延續教育」與本句語境不同。",
-        "education-mcq-15": "「以運動、體能與身體發展為內容的體育教育」與本句語境不同。",
-        "education-mcq-10": "「中學之後由大學、學院等提供的高等教育」與本句語境不同。"
+        "education-mcq-13": "本句的「special education」指「為具有特定學習或支援需要的學生提供的特殊教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-13"
     },
@@ -1381,11 +1165,7 @@ export default {
       "masked": "The school provides ____.",
       "options": [
         "education-mcq-13",
-        "education-mcq-12",
-        "education-mcq-14",
-        "education-mcq-11",
-        "education-mcq-15",
-        "education-mcq-10"
+        "education-mcq-17"
       ],
       "explanation": "本句的「special education services」指「為具有特定學習或支援需要的學生提供的特殊教育」。",
       "sentenceIndex": 29,
@@ -1394,12 +1174,8 @@ export default {
         "special education services"
       ],
       "optionReasons": {
-        "education-mcq-13": "本句指「為具有特定學習或支援需要的學生提供的特殊教育」。",
-        "education-mcq-12": "「為成年人提供的有組織學習；成人教育」與本句語境不同。",
-        "education-mcq-14": "「科學知識與方法的教學和學習」與本句語境不同。",
-        "education-mcq-11": "「中學後、通常非大學本科形式的進修／延續教育」與本句語境不同。",
-        "education-mcq-15": "「以運動、體能與身體發展為內容的體育教育」與本句語境不同。",
-        "education-mcq-10": "「中學之後由大學、學院等提供的高等教育」與本句語境不同。"
+        "education-mcq-13": "本句的「special education services」指「為具有特定學習或支援需要的學生提供的特殊教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-13"
     },
@@ -1411,11 +1187,7 @@ export default {
       "masked": "She is interested in ____.",
       "options": [
         "education-mcq-14",
-        "education-mcq-13",
-        "education-mcq-15",
-        "education-mcq-12",
-        "education-mcq-16",
-        "education-mcq-11"
+        "education-mcq-17"
       ],
       "explanation": "本句的「science education」指「科學知識與方法的教學和學習」。",
       "sentenceIndex": 30,
@@ -1424,12 +1196,8 @@ export default {
         "science education"
       ],
       "optionReasons": {
-        "education-mcq-14": "本句指「科學知識與方法的教學和學習」。",
-        "education-mcq-13": "「為具有特定學習或支援需要的學生提供的特殊教育」與本句語境不同。",
-        "education-mcq-15": "「以運動、體能與身體發展為內容的體育教育」與本句語境不同。",
-        "education-mcq-12": "「為成年人提供的有組織學習；成人教育」與本句語境不同。",
-        "education-mcq-16": "「教授健康知識與健康行為的教育」與本句語境不同。",
-        "education-mcq-11": "「中學後、通常非大學本科形式的進修／延續教育」與本句語境不同。"
+        "education-mcq-14": "本句的「science education」指「科學知識與方法的教學和學習」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-14"
     },
@@ -1441,11 +1209,7 @@ export default {
       "masked": "Good ____ encourages students to ask questions.",
       "options": [
         "education-mcq-14",
-        "education-mcq-13",
-        "education-mcq-15",
-        "education-mcq-12",
-        "education-mcq-16",
-        "education-mcq-11"
+        "education-mcq-17"
       ],
       "explanation": "本句的「science education」指「科學知識與方法的教學和學習」。",
       "sentenceIndex": 31,
@@ -1454,12 +1218,8 @@ export default {
         "science education"
       ],
       "optionReasons": {
-        "education-mcq-14": "本句指「科學知識與方法的教學和學習」。",
-        "education-mcq-13": "「為具有特定學習或支援需要的學生提供的特殊教育」與本句語境不同。",
-        "education-mcq-15": "「以運動、體能與身體發展為內容的體育教育」與本句語境不同。",
-        "education-mcq-12": "「為成年人提供的有組織學習；成人教育」與本句語境不同。",
-        "education-mcq-16": "「教授健康知識與健康行為的教育」與本句語境不同。",
-        "education-mcq-11": "「中學後、通常非大學本科形式的進修／延續教育」與本句語境不同。"
+        "education-mcq-14": "本句的「science education」指「科學知識與方法的教學和學習」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-14"
     },
@@ -1471,11 +1231,7 @@ export default {
       "masked": "We had ____ twice a week.",
       "options": [
         "education-mcq-15",
-        "education-mcq-14",
-        "education-mcq-16",
-        "education-mcq-13",
-        "education-mcq-17",
-        "education-mcq-12"
+        "education-mcq-17"
       ],
       "explanation": "本句的「physical education」指「以運動、體能與身體發展為內容的體育教育」。",
       "sentenceIndex": 32,
@@ -1484,12 +1240,8 @@ export default {
         "physical education"
       ],
       "optionReasons": {
-        "education-mcq-15": "本句指「以運動、體能與身體發展為內容的體育教育」。",
-        "education-mcq-14": "「科學知識與方法的教學和學習」與本句語境不同。",
-        "education-mcq-16": "「教授健康知識與健康行為的教育」與本句語境不同。",
-        "education-mcq-13": "「為具有特定學習或支援需要的學生提供的特殊教育」與本句語境不同。",
-        "education-mcq-17": "「一段讓人學到很多、增長見識的經歷」與本句語境不同。",
-        "education-mcq-12": "「為成年人提供的有組織學習；成人教育」與本句語境不同。"
+        "education-mcq-15": "本句的「physical education」指「以運動、體能與身體發展為內容的體育教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-15"
     },
@@ -1501,11 +1253,7 @@ export default {
       "masked": "____ is part of the school curriculum.",
       "options": [
         "education-mcq-15",
-        "education-mcq-14",
-        "education-mcq-16",
-        "education-mcq-13",
-        "education-mcq-17",
-        "education-mcq-12"
+        "education-mcq-17"
       ],
       "explanation": "本句的「Physical education」指「以運動、體能與身體發展為內容的體育教育」。",
       "sentenceIndex": 33,
@@ -1514,12 +1262,8 @@ export default {
         "Physical education"
       ],
       "optionReasons": {
-        "education-mcq-15": "本句指「以運動、體能與身體發展為內容的體育教育」。",
-        "education-mcq-14": "「科學知識與方法的教學和學習」與本句語境不同。",
-        "education-mcq-16": "「教授健康知識與健康行為的教育」與本句語境不同。",
-        "education-mcq-13": "「為具有特定學習或支援需要的學生提供的特殊教育」與本句語境不同。",
-        "education-mcq-17": "「一段讓人學到很多、增長見識的經歷」與本句語境不同。",
-        "education-mcq-12": "「為成年人提供的有組織學習；成人教育」與本句語境不同。"
+        "education-mcq-15": "本句的「Physical education」指「以運動、體能與身體發展為內容的體育教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-15"
     },
@@ -1531,11 +1275,7 @@ export default {
       "masked": "The programme focuses on ____.",
       "options": [
         "education-mcq-16",
-        "education-mcq-15",
-        "education-mcq-17",
-        "education-mcq-14",
-        "education-mcq-18",
-        "education-mcq-13"
+        "education-mcq-17"
       ],
       "explanation": "本句的「health education」指「教授健康知識與健康行為的教育」。",
       "sentenceIndex": 34,
@@ -1544,12 +1284,8 @@ export default {
         "health education"
       ],
       "optionReasons": {
-        "education-mcq-16": "本句指「教授健康知識與健康行為的教育」。",
-        "education-mcq-15": "「以運動、體能與身體發展為內容的體育教育」與本句語境不同。",
-        "education-mcq-17": "「一段讓人學到很多、增長見識的經歷」與本句語境不同。",
-        "education-mcq-14": "「科學知識與方法的教學和學習」與本句語境不同。",
-        "education-mcq-18": "「向一般公眾傳遞某議題知識的宣導教育」與本句語境不同。",
-        "education-mcq-13": "「為具有特定學習或支援需要的學生提供的特殊教育」與本句語境不同。"
+        "education-mcq-16": "本句的「health education」指「教授健康知識與健康行為的教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-16"
     },
@@ -1561,11 +1297,7 @@ export default {
       "masked": "Schools play an important role in ____.",
       "options": [
         "education-mcq-16",
-        "education-mcq-15",
-        "education-mcq-17",
-        "education-mcq-14",
-        "education-mcq-18",
-        "education-mcq-13"
+        "education-mcq-17"
       ],
       "explanation": "本句的「health education」指「教授健康知識與健康行為的教育」。",
       "sentenceIndex": 35,
@@ -1574,12 +1306,8 @@ export default {
         "health education"
       ],
       "optionReasons": {
-        "education-mcq-16": "本句指「教授健康知識與健康行為的教育」。",
-        "education-mcq-15": "「以運動、體能與身體發展為內容的體育教育」與本句語境不同。",
-        "education-mcq-17": "「一段讓人學到很多、增長見識的經歷」與本句語境不同。",
-        "education-mcq-14": "「科學知識與方法的教學和學習」與本句語境不同。",
-        "education-mcq-18": "「向一般公眾傳遞某議題知識的宣導教育」與本句語境不同。",
-        "education-mcq-13": "「為具有特定學習或支援需要的學生提供的特殊教育」與本句語境不同。"
+        "education-mcq-16": "本句的「health education」指「教授健康知識與健康行為的教育」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-16"
     },
@@ -1591,11 +1319,7 @@ export default {
       "masked": "Travel can be an ____.",
       "options": [
         "education-mcq-17",
-        "education-mcq-16",
-        "education-mcq-18",
-        "education-mcq-15",
-        "education-mcq-19",
-        "education-mcq-14"
+        "education-mcq-15"
       ],
       "explanation": "本句的「education in itself」指「一段讓人學到很多、增長見識的經歷」。",
       "sentenceIndex": 36,
@@ -1604,12 +1328,8 @@ export default {
         "education in itself"
       ],
       "optionReasons": {
-        "education-mcq-17": "本句指「一段讓人學到很多、增長見識的經歷」。",
-        "education-mcq-16": "「教授健康知識與健康行為的教育」與本句語境不同。",
-        "education-mcq-18": "「向一般公眾傳遞某議題知識的宣導教育」與本句語境不同。",
-        "education-mcq-15": "「以運動、體能與身體發展為內容的體育教育」與本句語境不同。",
-        "education-mcq-19": "「教導某人，使其獲得知識、技能或理解」與本句語境不同。",
-        "education-mcq-14": "「科學知識與方法的教學和學習」與本句語境不同。"
+        "education-mcq-17": "本句的「education in itself」指「一段讓人學到很多、增長見識的經歷」。",
+        "education-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-17"
     },
@@ -1621,11 +1341,7 @@ export default {
       "masked": "Working with different people was a real ____.",
       "options": [
         "education-mcq-17",
-        "education-mcq-16",
-        "education-mcq-18",
-        "education-mcq-15",
-        "education-mcq-19",
-        "education-mcq-14"
+        "education-mcq-23"
       ],
       "explanation": "本句的「education」指「一段讓人學到很多、增長見識的經歷」。",
       "sentenceIndex": 37,
@@ -1634,12 +1350,8 @@ export default {
         "education"
       ],
       "optionReasons": {
-        "education-mcq-17": "本句指「一段讓人學到很多、增長見識的經歷」。",
-        "education-mcq-16": "「教授健康知識與健康行為的教育」與本句語境不同。",
-        "education-mcq-18": "「向一般公眾傳遞某議題知識的宣導教育」與本句語境不同。",
-        "education-mcq-15": "「以運動、體能與身體發展為內容的體育教育」與本句語境不同。",
-        "education-mcq-19": "「教導某人，使其獲得知識、技能或理解」與本句語境不同。",
-        "education-mcq-14": "「科學知識與方法的教學和學習」與本句語境不同。"
+        "education-mcq-17": "本句的「education」指「一段讓人學到很多、增長見識的經歷」。",
+        "education-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-17"
     },
@@ -1651,11 +1363,7 @@ export default {
       "masked": "Running the project was quite ____.",
       "options": [
         "education-mcq-17",
-        "education-mcq-16",
-        "education-mcq-18",
-        "education-mcq-15",
-        "education-mcq-19",
-        "education-mcq-14"
+        "education-mcq-24"
       ],
       "explanation": "本句的「an education」指「一段讓人學到很多、增長見識的經歷」。",
       "sentenceIndex": 38,
@@ -1664,12 +1372,8 @@ export default {
         "an education"
       ],
       "optionReasons": {
-        "education-mcq-17": "本句指「一段讓人學到很多、增長見識的經歷」。",
-        "education-mcq-16": "「教授健康知識與健康行為的教育」與本句語境不同。",
-        "education-mcq-18": "「向一般公眾傳遞某議題知識的宣導教育」與本句語境不同。",
-        "education-mcq-15": "「以運動、體能與身體發展為內容的體育教育」與本句語境不同。",
-        "education-mcq-19": "「教導某人，使其獲得知識、技能或理解」與本句語境不同。",
-        "education-mcq-14": "「科學知識與方法的教學和學習」與本句語境不同。"
+        "education-mcq-17": "本句的「an education」指「一段讓人學到很多、增長見識的經歷」。",
+        "education-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-17"
     },
@@ -1681,11 +1385,7 @@ export default {
       "masked": "Living abroad was ____.",
       "options": [
         "education-mcq-17",
-        "education-mcq-16",
-        "education-mcq-18",
-        "education-mcq-15",
-        "education-mcq-19",
-        "education-mcq-14"
+        "education-mcq-15"
       ],
       "explanation": "本句的「an education」指「一段讓人學到很多、增長見識的經歷」。",
       "sentenceIndex": 39,
@@ -1694,12 +1394,8 @@ export default {
         "an education"
       ],
       "optionReasons": {
-        "education-mcq-17": "本句指「一段讓人學到很多、增長見識的經歷」。",
-        "education-mcq-16": "「教授健康知識與健康行為的教育」與本句語境不同。",
-        "education-mcq-18": "「向一般公眾傳遞某議題知識的宣導教育」與本句語境不同。",
-        "education-mcq-15": "「以運動、體能與身體發展為內容的體育教育」與本句語境不同。",
-        "education-mcq-19": "「教導某人，使其獲得知識、技能或理解」與本句語境不同。",
-        "education-mcq-14": "「科學知識與方法的教學和學習」與本句語境不同。"
+        "education-mcq-17": "本句的「an education」指「一段讓人學到很多、增長見識的經歷」。",
+        "education-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-17"
     },
@@ -1711,11 +1407,7 @@ export default {
       "masked": "The campaign focuses on ____ about online safety.",
       "options": [
         "education-mcq-18",
-        "education-mcq-17",
-        "education-mcq-19",
-        "education-mcq-16",
-        "education-mcq-20",
-        "education-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「public education」指「向一般公眾傳遞某議題知識的宣導教育」。",
       "sentenceIndex": 40,
@@ -1724,12 +1416,8 @@ export default {
         "public education"
       ],
       "optionReasons": {
-        "education-mcq-18": "本句指「向一般公眾傳遞某議題知識的宣導教育」。",
-        "education-mcq-17": "「一段讓人學到很多、增長見識的經歷」與本句語境不同。",
-        "education-mcq-19": "「教導某人，使其獲得知識、技能或理解」與本句語境不同。",
-        "education-mcq-16": "「教授健康知識與健康行為的教育」與本句語境不同。",
-        "education-mcq-20": "「受過教育的；也可指根據知識作出的，如 educated guess」與本句語境不同。",
-        "education-mcq-15": "「以運動、體能與身體發展為內容的體育教育」與本句語境不同。"
+        "education-mcq-18": "本句的「public education」指「向一般公眾傳遞某議題知識的宣導教育」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-18"
     },
@@ -1741,11 +1429,7 @@ export default {
       "masked": "Better ____ can improve awareness.",
       "options": [
         "education-mcq-18",
-        "education-mcq-17",
-        "education-mcq-19",
-        "education-mcq-16",
-        "education-mcq-20",
-        "education-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「public education」指「向一般公眾傳遞某議題知識的宣導教育」。",
       "sentenceIndex": 41,
@@ -1754,12 +1438,8 @@ export default {
         "public education"
       ],
       "optionReasons": {
-        "education-mcq-18": "本句指「向一般公眾傳遞某議題知識的宣導教育」。",
-        "education-mcq-17": "「一段讓人學到很多、增長見識的經歷」與本句語境不同。",
-        "education-mcq-19": "「教導某人，使其獲得知識、技能或理解」與本句語境不同。",
-        "education-mcq-16": "「教授健康知識與健康行為的教育」與本句語境不同。",
-        "education-mcq-20": "「受過教育的；也可指根據知識作出的，如 educated guess」與本句語境不同。",
-        "education-mcq-15": "「以運動、體能與身體發展為內容的體育教育」與本句語境不同。"
+        "education-mcq-18": "本句的「public education」指「向一般公眾傳遞某議題知識的宣導教育」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-18"
     },
@@ -1771,11 +1451,7 @@ export default {
       "masked": "Schools should ____ for life, not just exams.",
       "options": [
         "education-mcq-19",
-        "education-mcq-18",
-        "education-mcq-20",
-        "education-mcq-17",
-        "education-mcq-21",
-        "education-mcq-16"
+        "education-mcq-17"
       ],
       "explanation": "本句的「educate students」指「教導某人，使其獲得知識、技能或理解」。",
       "sentenceIndex": 42,
@@ -1784,12 +1460,8 @@ export default {
         "educate students"
       ],
       "optionReasons": {
-        "education-mcq-19": "本句指「教導某人，使其獲得知識、技能或理解」。",
-        "education-mcq-18": "「向一般公眾傳遞某議題知識的宣導教育」與本句語境不同。",
-        "education-mcq-20": "「受過教育的；也可指根據知識作出的，如 educated guess」與本句語境不同。",
-        "education-mcq-17": "「一段讓人學到很多、增長見識的經歷」與本句語境不同。",
-        "education-mcq-21": "「與教育有關的；或能讓人學到東西、有教育意義的」與本句語境不同。",
-        "education-mcq-16": "「教授健康知識與健康行為的教育」與本句語境不同。"
+        "education-mcq-19": "本句的「educate students」指「教導某人，使其獲得知識、技能或理解」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-19"
     },
@@ -1801,11 +1473,7 @@ export default {
       "masked": "The campaign aims to ____ about the issue.",
       "options": [
         "education-mcq-19",
-        "education-mcq-18",
-        "education-mcq-20",
-        "education-mcq-17",
-        "education-mcq-21",
-        "education-mcq-16"
+        "education-mcq-17"
       ],
       "explanation": "本句的「educate the public」指「教導某人，使其獲得知識、技能或理解」。",
       "sentenceIndex": 43,
@@ -1814,12 +1482,8 @@ export default {
         "educate the public"
       ],
       "optionReasons": {
-        "education-mcq-19": "本句指「教導某人，使其獲得知識、技能或理解」。",
-        "education-mcq-18": "「向一般公眾傳遞某議題知識的宣導教育」與本句語境不同。",
-        "education-mcq-20": "「受過教育的；也可指根據知識作出的，如 educated guess」與本句語境不同。",
-        "education-mcq-17": "「一段讓人學到很多、增長見識的經歷」與本句語境不同。",
-        "education-mcq-21": "「與教育有關的；或能讓人學到東西、有教育意義的」與本句語境不同。",
-        "education-mcq-16": "「教授健康知識與健康行為的教育」與本句語境不同。"
+        "education-mcq-19": "本句的「educate the public」指「教導某人，使其獲得知識、技能或理解」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-19"
     },
@@ -1831,11 +1495,7 @@ export default {
       "masked": "She is an experienced ____.",
       "options": [
         "education-mcq-22",
-        "education-mcq-21",
-        "education-mcq-23",
-        "education-mcq-20",
-        "education-mcq-24",
-        "education-mcq-19"
+        "education-mcq-17"
       ],
       "explanation": "本句的「educator」指「專業從事教育、教學工作的人；教育工作者」。",
       "sentenceIndex": 44,
@@ -1844,12 +1504,8 @@ export default {
         "educator"
       ],
       "optionReasons": {
-        "education-mcq-22": "本句指「專業從事教育、教學工作的人；教育工作者」。",
-        "education-mcq-21": "「與教育有關的；或能讓人學到東西、有教育意義的」與本句語境不同。",
-        "education-mcq-23": "「獲得或接受教育的機會」與本句語境不同。",
-        "education-mcq-20": "「受過教育的；也可指根據知識作出的，如 educated guess」與本句語境不同。",
-        "education-mcq-24": "「社會／產業中與教育有關的專業領域；教育界」與本句語境不同。",
-        "education-mcq-19": "「教導某人，使其獲得知識、技能或理解」與本句語境不同。"
+        "education-mcq-22": "本句的「educator」指「專業從事教育、教學工作的人；教育工作者」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-22"
     },
@@ -1861,11 +1517,7 @@ export default {
       "masked": "Good ____ adapt their teaching to their students.",
       "options": [
         "education-mcq-22",
-        "education-mcq-21",
-        "education-mcq-23",
-        "education-mcq-20",
-        "education-mcq-24",
-        "education-mcq-19"
+        "education-mcq-17"
       ],
       "explanation": "本句的「educators」指「專業從事教育、教學工作的人；教育工作者」。",
       "sentenceIndex": 45,
@@ -1874,12 +1526,8 @@ export default {
         "educators"
       ],
       "optionReasons": {
-        "education-mcq-22": "本句指「專業從事教育、教學工作的人；教育工作者」。",
-        "education-mcq-21": "「與教育有關的；或能讓人學到東西、有教育意義的」與本句語境不同。",
-        "education-mcq-23": "「獲得或接受教育的機會」與本句語境不同。",
-        "education-mcq-20": "「受過教育的；也可指根據知識作出的，如 educated guess」與本句語境不同。",
-        "education-mcq-24": "「社會／產業中與教育有關的專業領域；教育界」與本句語境不同。",
-        "education-mcq-19": "「教導某人，使其獲得知識、技能或理解」與本句語境不同。"
+        "education-mcq-22": "本句的「educators」指「專業從事教育、教學工作的人；教育工作者」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-22"
     },
@@ -1891,11 +1539,7 @@ export default {
       "masked": "The programme is ____.",
       "options": [
         "education-mcq-23",
-        "education-mcq-22",
-        "education-mcq-24",
-        "education-mcq-21",
-        "education-mcq-20",
-        "education-mcq-19"
+        "education-mcq-17"
       ],
       "explanation": "本句的「educationally valuable」指「獲得或接受教育的機會」。",
       "sentenceIndex": 46,
@@ -1904,12 +1548,8 @@ export default {
         "educationally valuable"
       ],
       "optionReasons": {
-        "education-mcq-23": "本句指「獲得或接受教育的機會」。",
-        "education-mcq-22": "「專業從事教育、教學工作的人；教育工作者」與本句語境不同。",
-        "education-mcq-24": "「社會／產業中與教育有關的專業領域；教育界」與本句語境不同。",
-        "education-mcq-21": "「與教育有關的；或能讓人學到東西、有教育意義的」與本句語境不同。",
-        "education-mcq-20": "「受過教育的；也可指根據知識作出的，如 educated guess」與本句語境不同。",
-        "education-mcq-19": "「教導某人，使其獲得知識、技能或理解」與本句語境不同。"
+        "education-mcq-23": "本句的「educationally valuable」指「獲得或接受教育的機會」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-23"
     },
@@ -1921,11 +1561,7 @@ export default {
       "masked": "The activity is both enjoyable and ____.",
       "options": [
         "education-mcq-23",
-        "education-mcq-22",
-        "education-mcq-24",
-        "education-mcq-21",
-        "education-mcq-20",
-        "education-mcq-19"
+        "education-mcq-17"
       ],
       "explanation": "本句的「educationally useful」指「獲得或接受教育的機會」。",
       "sentenceIndex": 47,
@@ -1934,12 +1570,8 @@ export default {
         "educationally useful"
       ],
       "optionReasons": {
-        "education-mcq-23": "本句指「獲得或接受教育的機會」。",
-        "education-mcq-22": "「專業從事教育、教學工作的人；教育工作者」與本句語境不同。",
-        "education-mcq-24": "「社會／產業中與教育有關的專業領域；教育界」與本句語境不同。",
-        "education-mcq-21": "「與教育有關的；或能讓人學到東西、有教育意義的」與本句語境不同。",
-        "education-mcq-20": "「受過教育的；也可指根據知識作出的，如 educated guess」與本句語境不同。",
-        "education-mcq-19": "「教導某人，使其獲得知識、技能或理解」與本句語境不同。"
+        "education-mcq-23": "本句的「educationally useful」指「獲得或接受教育的機會」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-23"
     },
@@ -1951,11 +1583,7 @@ export default {
       "masked": "Every child should have the opportunity to ____.",
       "options": [
         "education-mcq-23",
-        "education-mcq-22",
-        "education-mcq-24",
-        "education-mcq-21",
-        "education-mcq-20",
-        "education-mcq-19"
+        "education-mcq-17"
       ],
       "explanation": "本句的「receive an education」指「獲得或接受教育的機會」。",
       "sentenceIndex": 48,
@@ -1964,12 +1592,8 @@ export default {
         "receive an education"
       ],
       "optionReasons": {
-        "education-mcq-23": "本句指「獲得或接受教育的機會」。",
-        "education-mcq-22": "「專業從事教育、教學工作的人；教育工作者」與本句語境不同。",
-        "education-mcq-24": "「社會／產業中與教育有關的專業領域；教育界」與本句語境不同。",
-        "education-mcq-21": "「與教育有關的；或能讓人學到東西、有教育意義的」與本句語境不同。",
-        "education-mcq-20": "「受過教育的；也可指根據知識作出的，如 educated guess」與本句語境不同。",
-        "education-mcq-19": "「教導某人，使其獲得知識、技能或理解」與本句語境不同。"
+        "education-mcq-23": "本句的「receive an education」指「獲得或接受教育的機會」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-23"
     },
@@ -1981,11 +1605,7 @@ export default {
       "masked": "She ____.",
       "options": [
         "education-mcq-23",
-        "education-mcq-22",
-        "education-mcq-24",
-        "education-mcq-21",
-        "education-mcq-20",
-        "education-mcq-19"
+        "education-mcq-17"
       ],
       "explanation": "本句的「got a good education」指「獲得或接受教育的機會」。",
       "sentenceIndex": 49,
@@ -1994,12 +1614,8 @@ export default {
         "got a good education"
       ],
       "optionReasons": {
-        "education-mcq-23": "本句指「獲得或接受教育的機會」。",
-        "education-mcq-22": "「專業從事教育、教學工作的人；教育工作者」與本句語境不同。",
-        "education-mcq-24": "「社會／產業中與教育有關的專業領域；教育界」與本句語境不同。",
-        "education-mcq-21": "「與教育有關的；或能讓人學到東西、有教育意義的」與本句語境不同。",
-        "education-mcq-20": "「受過教育的；也可指根據知識作出的，如 educated guess」與本句語境不同。",
-        "education-mcq-19": "「教導某人，使其獲得知識、技能或理解」與本句語境不同。"
+        "education-mcq-23": "本句的「got a good education」指「獲得或接受教育的機會」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-23"
     },
@@ -2011,11 +1627,7 @@ export default {
       "masked": "The programme improves ____.",
       "options": [
         "education-mcq-23",
-        "education-mcq-22",
-        "education-mcq-24",
-        "education-mcq-21",
-        "education-mcq-20",
-        "education-mcq-19"
+        "education-mcq-17"
       ],
       "explanation": "本句的「access to education」指「獲得或接受教育的機會」。",
       "sentenceIndex": 50,
@@ -2024,12 +1636,8 @@ export default {
         "access to education"
       ],
       "optionReasons": {
-        "education-mcq-23": "本句指「獲得或接受教育的機會」。",
-        "education-mcq-22": "「專業從事教育、教學工作的人；教育工作者」與本句語境不同。",
-        "education-mcq-24": "「社會／產業中與教育有關的專業領域；教育界」與本句語境不同。",
-        "education-mcq-21": "「與教育有關的；或能讓人學到東西、有教育意義的」與本句語境不同。",
-        "education-mcq-20": "「受過教育的；也可指根據知識作出的，如 educated guess」與本句語境不同。",
-        "education-mcq-19": "「教導某人，使其獲得知識、技能或理解」與本句語境不同。"
+        "education-mcq-23": "本句的「access to education」指「獲得或接受教育的機會」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-23"
     },
@@ -2041,11 +1649,7 @@ export default {
       "masked": "Distance can limit ____.",
       "options": [
         "education-mcq-23",
-        "education-mcq-22",
-        "education-mcq-24",
-        "education-mcq-21",
-        "education-mcq-20",
-        "education-mcq-19"
+        "education-mcq-17"
       ],
       "explanation": "本句的「access to education」指「獲得或接受教育的機會」。",
       "sentenceIndex": 51,
@@ -2054,12 +1658,8 @@ export default {
         "access to education"
       ],
       "optionReasons": {
-        "education-mcq-23": "本句指「獲得或接受教育的機會」。",
-        "education-mcq-22": "「專業從事教育、教學工作的人；教育工作者」與本句語境不同。",
-        "education-mcq-24": "「社會／產業中與教育有關的專業領域；教育界」與本句語境不同。",
-        "education-mcq-21": "「與教育有關的；或能讓人學到東西、有教育意義的」與本句語境不同。",
-        "education-mcq-20": "「受過教育的；也可指根據知識作出的，如 educated guess」與本句語境不同。",
-        "education-mcq-19": "「教導某人，使其獲得知識、技能或理解」與本句語境不同。"
+        "education-mcq-23": "本句的「access to education」指「獲得或接受教育的機會」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-23"
     },
@@ -2071,11 +1671,7 @@ export default {
       "masked": "The ____ is changing.",
       "options": [
         "education-mcq-05",
-        "education-mcq-04",
-        "education-mcq-06",
-        "education-mcq-03",
-        "education-mcq-07",
-        "education-mcq-02"
+        "education-mcq-17"
       ],
       "explanation": "本句的「education system」指「由學校、政策、課程及相關機構構成的教育制度／體系」。",
       "sentenceIndex": 52,
@@ -2084,12 +1680,8 @@ export default {
         "education system"
       ],
       "optionReasons": {
-        "education-mcq-05": "本句指「由學校、政策、課程及相關機構構成的教育制度／體系」。",
-        "education-mcq-04": "「在教育相關職業或機構中工作」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。",
-        "education-mcq-03": "「從事教學、學校管理、學習支援等工作的教育領域／教育界」與本句語境不同。",
-        "education-mcq-07": "「由私立機構提供的教育」與本句語境不同。",
-        "education-mcq-02": "「某人接受正式學校、大學等教育的經歷／教育背景」與本句語境不同。"
+        "education-mcq-05": "本句的「education system」指「由學校、政策、課程及相關機構構成的教育制度／體系」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-05"
     },
@@ -2101,11 +1693,7 @@ export default {
       "masked": "Teachers play a central role in the ____.",
       "options": [
         "education-mcq-05",
-        "education-mcq-04",
-        "education-mcq-06",
-        "education-mcq-03",
-        "education-mcq-07",
-        "education-mcq-02"
+        "education-mcq-17"
       ],
       "explanation": "本句的「education system」指「由學校、政策、課程及相關機構構成的教育制度／體系」。",
       "sentenceIndex": 53,
@@ -2114,12 +1702,8 @@ export default {
         "education system"
       ],
       "optionReasons": {
-        "education-mcq-05": "本句指「由學校、政策、課程及相關機構構成的教育制度／體系」。",
-        "education-mcq-04": "「在教育相關職業或機構中工作」與本句語境不同。",
-        "education-mcq-06": "「由政府提供、資助或管理的公共／公立教育」與本句語境不同。",
-        "education-mcq-03": "「從事教學、學校管理、學習支援等工作的教育領域／教育界」與本句語境不同。",
-        "education-mcq-07": "「由私立機構提供的教育」與本句語境不同。",
-        "education-mcq-02": "「某人接受正式學校、大學等教育的經歷／教育背景」與本句語境不同。"
+        "education-mcq-05": "本句的「education system」指「由學校、政策、課程及相關機構構成的教育制度／體系」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-05"
     },
@@ -2131,11 +1715,7 @@ export default {
       "masked": "She works in the ____.",
       "options": [
         "education-mcq-24",
-        "education-mcq-23",
-        "education-mcq-22",
-        "education-mcq-21",
-        "education-mcq-20",
-        "education-mcq-19"
+        "education-mcq-17"
       ],
       "explanation": "本句的「education sector」指「社會／產業中與教育有關的專業領域；教育界」。",
       "sentenceIndex": 54,
@@ -2144,12 +1724,8 @@ export default {
         "education sector"
       ],
       "optionReasons": {
-        "education-mcq-24": "本句指「社會／產業中與教育有關的專業領域；教育界」。",
-        "education-mcq-23": "「獲得或接受教育的機會」與本句語境不同。",
-        "education-mcq-22": "「專業從事教育、教學工作的人；教育工作者」與本句語境不同。",
-        "education-mcq-21": "「與教育有關的；或能讓人學到東西、有教育意義的」與本句語境不同。",
-        "education-mcq-20": "「受過教育的；也可指根據知識作出的，如 educated guess」與本句語境不同。",
-        "education-mcq-19": "「教導某人，使其獲得知識、技能或理解」與本句語境不同。"
+        "education-mcq-24": "本句的「education sector」指「社會／產業中與教育有關的專業領域；教育界」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-24"
     },
@@ -2161,11 +1737,7 @@ export default {
       "masked": "Technology companies are investing heavily in the ____.",
       "options": [
         "education-mcq-24",
-        "education-mcq-23",
-        "education-mcq-22",
-        "education-mcq-21",
-        "education-mcq-20",
-        "education-mcq-19"
+        "education-mcq-17"
       ],
       "explanation": "本句的「education sector」指「社會／產業中與教育有關的專業領域；教育界」。",
       "sentenceIndex": 55,
@@ -2174,12 +1746,8 @@ export default {
         "education sector"
       ],
       "optionReasons": {
-        "education-mcq-24": "本句指「社會／產業中與教育有關的專業領域；教育界」。",
-        "education-mcq-23": "「獲得或接受教育的機會」與本句語境不同。",
-        "education-mcq-22": "「專業從事教育、教學工作的人；教育工作者」與本句語境不同。",
-        "education-mcq-21": "「與教育有關的；或能讓人學到東西、有教育意義的」與本句語境不同。",
-        "education-mcq-20": "「受過教育的；也可指根據知識作出的，如 educated guess」與本句語境不同。",
-        "education-mcq-19": "「教導某人，使其獲得知識、技能或理解」與本句語境不同。"
+        "education-mcq-24": "本句的「education sector」指「社會／產業中與教育有關的專業領域；教育界」。",
+        "education-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "education-mcq-24"
     }
@@ -2191,5 +1759,16 @@ export default {
     "sha256": "bab7d05235ed24f05c1ab7c2625ed000528e675629215b8a74bfb7f06a3bd082",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-duration",
+      "title": "某件事持續的一段時間"
+    },
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -331,11 +331,8 @@ export default {
       "masked": "The police confirmed his ____.",
       "options": [
         "identity-mcq-01",
-        "identity-mcq-02",
-        "identity-mcq-03",
-        "identity-mcq-04",
-        "identity-mcq-05",
-        "identity-mcq-06"
+        "identity-mcq-06",
+        "identity-mcq-15"
       ],
       "explanation": "本句的「identity」指「一個人究竟是誰、其真實身份」。",
       "sentenceIndex": 0,
@@ -344,12 +341,9 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-01": "本句指「一個人究竟是誰、其真實身份」。",
-        "identity-mcq-02": "「用來正式證明某人是誰的身分資料／識別資訊」與本句語境不同。",
-        "identity-mcq-03": "「一個人對自己是誰、屬於甚麼群體及重視甚麼的內在理解」與本句語境不同。",
-        "identity-mcq-04": "「群體因文化、語言、背景等形成的共同認同」與本句語境不同。",
-        "identity-mcq-05": "「令品牌／機構可被辨識的風格、價值、個性和定位」與本句語境不同。",
-        "identity-mcq-06": "「品牌透過名稱、標誌、價值、語氣等建立的整體識別」與本句語境不同。"
+        "identity-mcq-01": "本句的「identity」指「一個人究竟是誰、其真實身份」。",
+        "identity-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-01"
     },
@@ -361,11 +355,9 @@ export default {
       "masked": "Her ____ was kept secret.",
       "options": [
         "identity-mcq-01",
-        "identity-mcq-02",
-        "identity-mcq-03",
-        "identity-mcq-04",
-        "identity-mcq-05",
-        "identity-mcq-06"
+        "identity-mcq-07",
+        "identity-mcq-10",
+        "identity-mcq-15"
       ],
       "explanation": "本句的「identity」指「一個人究竟是誰、其真實身份」。",
       "sentenceIndex": 1,
@@ -374,12 +366,10 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-01": "本句指「一個人究竟是誰、其真實身份」。",
-        "identity-mcq-02": "「用來正式證明某人是誰的身分資料／識別資訊」與本句語境不同。",
-        "identity-mcq-03": "「一個人對自己是誰、屬於甚麼群體及重視甚麼的內在理解」與本句語境不同。",
-        "identity-mcq-04": "「群體因文化、語言、背景等形成的共同認同」與本句語境不同。",
-        "identity-mcq-05": "「令品牌／機構可被辨識的風格、價值、個性和定位」與本句語境不同。",
-        "identity-mcq-06": "「品牌透過名稱、標誌、價值、語氣等建立的整體識別」與本句語境不同。"
+        "identity-mcq-01": "本句的「identity」指「一個人究竟是誰、其真實身份」。",
+        "identity-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-01"
     },
@@ -391,11 +381,7 @@ export default {
       "masked": "You may need to prove your ____.",
       "options": [
         "identity-mcq-02",
-        "identity-mcq-01",
-        "identity-mcq-03",
-        "identity-mcq-04",
-        "identity-mcq-05",
-        "identity-mcq-06"
+        "identity-mcq-16"
       ],
       "explanation": "本句的「identity」指「用來正式證明某人是誰的身分資料／識別資訊」。",
       "sentenceIndex": 2,
@@ -404,12 +390,8 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-02": "本句指「用來正式證明某人是誰的身分資料／識別資訊」。",
-        "identity-mcq-01": "「一個人究竟是誰、其真實身份」與本句語境不同。",
-        "identity-mcq-03": "「一個人對自己是誰、屬於甚麼群體及重視甚麼的內在理解」與本句語境不同。",
-        "identity-mcq-04": "「群體因文化、語言、背景等形成的共同認同」與本句語境不同。",
-        "identity-mcq-05": "「令品牌／機構可被辨識的風格、價值、個性和定位」與本句語境不同。",
-        "identity-mcq-06": "「品牌透過名稱、標誌、價值、語氣等建立的整體識別」與本句語境不同。"
+        "identity-mcq-02": "本句的「identity」指「用來正式證明某人是誰的身分資料／識別資訊」。",
+        "identity-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-02"
     },
@@ -421,11 +403,7 @@ export default {
       "masked": "The bank checks customers’ ____ before opening an account.",
       "options": [
         "identity-mcq-02",
-        "identity-mcq-01",
-        "identity-mcq-03",
-        "identity-mcq-04",
-        "identity-mcq-05",
-        "identity-mcq-06"
+        "identity-mcq-09"
       ],
       "explanation": "本句的「identity」指「用來正式證明某人是誰的身分資料／識別資訊」。",
       "sentenceIndex": 3,
@@ -434,12 +412,8 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-02": "本句指「用來正式證明某人是誰的身分資料／識別資訊」。",
-        "identity-mcq-01": "「一個人究竟是誰、其真實身份」與本句語境不同。",
-        "identity-mcq-03": "「一個人對自己是誰、屬於甚麼群體及重視甚麼的內在理解」與本句語境不同。",
-        "identity-mcq-04": "「群體因文化、語言、背景等形成的共同認同」與本句語境不同。",
-        "identity-mcq-05": "「令品牌／機構可被辨識的風格、價值、個性和定位」與本句語境不同。",
-        "identity-mcq-06": "「品牌透過名稱、標誌、價值、語氣等建立的整體識別」與本句語境不同。"
+        "identity-mcq-02": "本句的「identity」指「用來正式證明某人是誰的身分資料／識別資訊」。",
+        "identity-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-02"
     },
@@ -451,11 +425,9 @@ export default {
       "masked": "Moving abroad changed her sense of ____.",
       "options": [
         "identity-mcq-03",
-        "identity-mcq-02",
-        "identity-mcq-04",
-        "identity-mcq-01",
-        "identity-mcq-05",
-        "identity-mcq-06"
+        "identity-mcq-13",
+        "identity-mcq-10",
+        "identity-mcq-14"
       ],
       "explanation": "本句的「identity」指「一個人對自己是誰、屬於甚麼群體及重視甚麼的內在理解」。",
       "sentenceIndex": 4,
@@ -464,12 +436,10 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-03": "本句指「一個人對自己是誰、屬於甚麼群體及重視甚麼的內在理解」。",
-        "identity-mcq-02": "「用來正式證明某人是誰的身分資料／識別資訊」與本句語境不同。",
-        "identity-mcq-04": "「群體因文化、語言、背景等形成的共同認同」與本句語境不同。",
-        "identity-mcq-01": "「一個人究竟是誰、其真實身份」與本句語境不同。",
-        "identity-mcq-05": "「令品牌／機構可被辨識的風格、價值、個性和定位」與本句語境不同。",
-        "identity-mcq-06": "「品牌透過名稱、標誌、價值、語氣等建立的整體識別」與本句語境不同。"
+        "identity-mcq-03": "本句的「identity」指「一個人對自己是誰、屬於甚麼群體及重視甚麼的內在理解」。",
+        "identity-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-03"
     },
@@ -481,11 +451,9 @@ export default {
       "masked": "Teenagers often explore their ____.",
       "options": [
         "identity-mcq-03",
-        "identity-mcq-02",
-        "identity-mcq-04",
-        "identity-mcq-01",
-        "identity-mcq-05",
-        "identity-mcq-06"
+        "identity-mcq-15",
+        "identity-mcq-10",
+        "identity-mcq-14"
       ],
       "explanation": "本句的「identity」指「一個人對自己是誰、屬於甚麼群體及重視甚麼的內在理解」。",
       "sentenceIndex": 5,
@@ -494,12 +462,10 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-03": "本句指「一個人對自己是誰、屬於甚麼群體及重視甚麼的內在理解」。",
-        "identity-mcq-02": "「用來正式證明某人是誰的身分資料／識別資訊」與本句語境不同。",
-        "identity-mcq-04": "「群體因文化、語言、背景等形成的共同認同」與本句語境不同。",
-        "identity-mcq-01": "「一個人究竟是誰、其真實身份」與本句語境不同。",
-        "identity-mcq-05": "「令品牌／機構可被辨識的風格、價值、個性和定位」與本句語境不同。",
-        "identity-mcq-06": "「品牌透過名稱、標誌、價值、語氣等建立的整體識別」與本句語境不同。"
+        "identity-mcq-03": "本句的「identity」指「一個人對自己是誰、屬於甚麼群體及重視甚麼的內在理解」。",
+        "identity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-03"
     },
@@ -511,11 +477,9 @@ export default {
       "masked": "Language is an important part of cultural ____.",
       "options": [
         "identity-mcq-04",
-        "identity-mcq-03",
-        "identity-mcq-05",
-        "identity-mcq-02",
-        "identity-mcq-06",
-        "identity-mcq-01"
+        "identity-mcq-14",
+        "identity-mcq-15",
+        "identity-mcq-10"
       ],
       "explanation": "本句的「identity」指「群體因文化、語言、背景等形成的共同認同」。",
       "sentenceIndex": 6,
@@ -524,12 +488,10 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-04": "本句指「群體因文化、語言、背景等形成的共同認同」。",
-        "identity-mcq-03": "「一個人對自己是誰、屬於甚麼群體及重視甚麼的內在理解」與本句語境不同。",
-        "identity-mcq-05": "「令品牌／機構可被辨識的風格、價值、個性和定位」與本句語境不同。",
-        "identity-mcq-02": "「用來正式證明某人是誰的身分資料／識別資訊」與本句語境不同。",
-        "identity-mcq-06": "「品牌透過名稱、標誌、價值、語氣等建立的整體識別」與本句語境不同。",
-        "identity-mcq-01": "「一個人究竟是誰、其真實身份」與本句語境不同。"
+        "identity-mcq-04": "本句的「identity」指「群體因文化、語言、背景等形成的共同認同」。",
+        "identity-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-04"
     },
@@ -541,11 +503,8 @@ export default {
       "masked": "Food can play a role in community ____.",
       "options": [
         "identity-mcq-04",
-        "identity-mcq-03",
-        "identity-mcq-05",
-        "identity-mcq-02",
-        "identity-mcq-06",
-        "identity-mcq-01"
+        "identity-mcq-14",
+        "identity-mcq-09"
       ],
       "explanation": "本句的「identity」指「群體因文化、語言、背景等形成的共同認同」。",
       "sentenceIndex": 7,
@@ -554,12 +513,9 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-04": "本句指「群體因文化、語言、背景等形成的共同認同」。",
-        "identity-mcq-03": "「一個人對自己是誰、屬於甚麼群體及重視甚麼的內在理解」與本句語境不同。",
-        "identity-mcq-05": "「令品牌／機構可被辨識的風格、價值、個性和定位」與本句語境不同。",
-        "identity-mcq-02": "「用來正式證明某人是誰的身分資料／識別資訊」與本句語境不同。",
-        "identity-mcq-06": "「品牌透過名稱、標誌、價值、語氣等建立的整體識別」與本句語境不同。",
-        "identity-mcq-01": "「一個人究竟是誰、其真實身份」與本句語境不同。"
+        "identity-mcq-04": "本句的「identity」指「群體因文化、語言、背景等形成的共同認同」。",
+        "identity-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-04"
     },
@@ -571,11 +527,8 @@ export default {
       "masked": "The bakery needs to keep its ____.",
       "options": [
         "identity-mcq-05",
-        "identity-mcq-04",
-        "identity-mcq-06",
-        "identity-mcq-03",
-        "identity-mcq-07",
-        "identity-mcq-02"
+        "identity-mcq-16",
+        "identity-mcq-14"
       ],
       "explanation": "本句的「identity」指「令品牌／機構可被辨識的風格、價值、個性和定位」。",
       "sentenceIndex": 8,
@@ -584,12 +537,9 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-05": "本句指「令品牌／機構可被辨識的風格、價值、個性和定位」。",
-        "identity-mcq-04": "「群體因文化、語言、背景等形成的共同認同」與本句語境不同。",
-        "identity-mcq-06": "「品牌透過名稱、標誌、價值、語氣等建立的整體識別」與本句語境不同。",
-        "identity-mcq-03": "「一個人對自己是誰、屬於甚麼群體及重視甚麼的內在理解」與本句語境不同。",
-        "identity-mcq-07": "「品牌透過標誌、色彩、字體、圖像形成的視覺識別系統」與本句語境不同。",
-        "identity-mcq-02": "「用來正式證明某人是誰的身分資料／識別資訊」與本句語境不同。"
+        "identity-mcq-05": "本句的「identity」指「令品牌／機構可被辨識的風格、價值、個性和定位」。",
+        "identity-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-05"
     },
@@ -601,11 +551,8 @@ export default {
       "masked": "The café has a strong visual ____.",
       "options": [
         "identity-mcq-05",
-        "identity-mcq-04",
-        "identity-mcq-06",
-        "identity-mcq-03",
-        "identity-mcq-07",
-        "identity-mcq-02"
+        "identity-mcq-09",
+        "identity-mcq-14"
       ],
       "explanation": "本句的「identity」指「令品牌／機構可被辨識的風格、價值、個性和定位」。",
       "sentenceIndex": 9,
@@ -614,12 +561,9 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-05": "本句指「令品牌／機構可被辨識的風格、價值、個性和定位」。",
-        "identity-mcq-04": "「群體因文化、語言、背景等形成的共同認同」與本句語境不同。",
-        "identity-mcq-06": "「品牌透過名稱、標誌、價值、語氣等建立的整體識別」與本句語境不同。",
-        "identity-mcq-03": "「一個人對自己是誰、屬於甚麼群體及重視甚麼的內在理解」與本句語境不同。",
-        "identity-mcq-07": "「品牌透過標誌、色彩、字體、圖像形成的視覺識別系統」與本句語境不同。",
-        "identity-mcq-02": "「用來正式證明某人是誰的身分資料／識別資訊」與本句語境不同。"
+        "identity-mcq-05": "本句的「identity」指「令品牌／機構可被辨識的風格、價值、個性和定位」。",
+        "identity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-05"
     },
@@ -631,11 +575,8 @@ export default {
       "masked": "The company redesigned its ____.",
       "options": [
         "identity-mcq-06",
-        "identity-mcq-05",
-        "identity-mcq-07",
-        "identity-mcq-04",
         "identity-mcq-08",
-        "identity-mcq-03"
+        "identity-mcq-15"
       ],
       "explanation": "本句的「brand identity」指「品牌透過名稱、標誌、價值、語氣等建立的整體識別」。",
       "sentenceIndex": 10,
@@ -644,12 +585,9 @@ export default {
         "brand identity"
       ],
       "optionReasons": {
-        "identity-mcq-06": "本句指「品牌透過名稱、標誌、價值、語氣等建立的整體識別」。",
-        "identity-mcq-05": "「令品牌／機構可被辨識的風格、價值、個性和定位」與本句語境不同。",
-        "identity-mcq-07": "「品牌透過標誌、色彩、字體、圖像形成的視覺識別系統」與本句語境不同。",
-        "identity-mcq-04": "「群體因文化、語言、背景等形成的共同認同」與本句語境不同。",
-        "identity-mcq-08": "「令地方、機構或事物保持自身獨特性的核心特徵」與本句語境不同。",
-        "identity-mcq-03": "「一個人對自己是誰、屬於甚麼群體及重視甚麼的內在理解」與本句語境不同。"
+        "identity-mcq-06": "本句的「brand identity」指「品牌透過名稱、標誌、價值、語氣等建立的整體識別」。",
+        "identity-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-06"
     },
@@ -661,11 +599,7 @@ export default {
       "masked": "Colour and typography are part of brand ____.",
       "options": [
         "identity-mcq-06",
-        "identity-mcq-05",
-        "identity-mcq-07",
-        "identity-mcq-04",
-        "identity-mcq-08",
-        "identity-mcq-03"
+        "identity-mcq-11"
       ],
       "explanation": "本句的「identity」指「品牌透過名稱、標誌、價值、語氣等建立的整體識別」。",
       "sentenceIndex": 11,
@@ -674,12 +608,8 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-06": "本句指「品牌透過名稱、標誌、價值、語氣等建立的整體識別」。",
-        "identity-mcq-05": "「令品牌／機構可被辨識的風格、價值、個性和定位」與本句語境不同。",
-        "identity-mcq-07": "「品牌透過標誌、色彩、字體、圖像形成的視覺識別系統」與本句語境不同。",
-        "identity-mcq-04": "「群體因文化、語言、背景等形成的共同認同」與本句語境不同。",
-        "identity-mcq-08": "「令地方、機構或事物保持自身獨特性的核心特徵」與本句語境不同。",
-        "identity-mcq-03": "「一個人對自己是誰、屬於甚麼群體及重視甚麼的內在理解」與本句語境不同。"
+        "identity-mcq-06": "本句的「identity」指「品牌透過名稱、標誌、價值、語氣等建立的整體識別」。",
+        "identity-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-06"
     },
@@ -691,11 +621,8 @@ export default {
       "masked": "The bakery’s packaging creates a clear ____.",
       "options": [
         "identity-mcq-07",
-        "identity-mcq-06",
-        "identity-mcq-08",
-        "identity-mcq-05",
         "identity-mcq-09",
-        "identity-mcq-04"
+        "identity-mcq-11"
       ],
       "explanation": "本句的「visual identity」指「品牌透過標誌、色彩、字體、圖像形成的視覺識別系統」。",
       "sentenceIndex": 12,
@@ -704,12 +631,9 @@ export default {
         "visual identity"
       ],
       "optionReasons": {
-        "identity-mcq-07": "本句指「品牌透過標誌、色彩、字體、圖像形成的視覺識別系統」。",
-        "identity-mcq-06": "「品牌透過名稱、標誌、價值、語氣等建立的整體識別」與本句語境不同。",
-        "identity-mcq-08": "「令地方、機構或事物保持自身獨特性的核心特徵」與本句語境不同。",
-        "identity-mcq-05": "「令品牌／機構可被辨識的風格、價值、個性和定位」與本句語境不同。",
-        "identity-mcq-09": "「兩者實際上是同一事物／完全相同的關係」與本句語境不同。",
-        "identity-mcq-04": "「群體因文化、語言、背景等形成的共同認同」與本句語境不同。"
+        "identity-mcq-07": "本句的「visual identity」指「品牌透過標誌、色彩、字體、圖像形成的視覺識別系統」。",
+        "identity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-07"
     },
@@ -721,11 +645,8 @@ export default {
       "masked": "The logo is central to the company’s visual ____.",
       "options": [
         "identity-mcq-07",
-        "identity-mcq-06",
-        "identity-mcq-08",
-        "identity-mcq-05",
-        "identity-mcq-09",
-        "identity-mcq-04"
+        "identity-mcq-11",
+        "identity-mcq-16"
       ],
       "explanation": "本句的「identity」指「品牌透過標誌、色彩、字體、圖像形成的視覺識別系統」。",
       "sentenceIndex": 13,
@@ -734,12 +655,9 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-07": "本句指「品牌透過標誌、色彩、字體、圖像形成的視覺識別系統」。",
-        "identity-mcq-06": "「品牌透過名稱、標誌、價值、語氣等建立的整體識別」與本句語境不同。",
-        "identity-mcq-08": "「令地方、機構或事物保持自身獨特性的核心特徵」與本句語境不同。",
-        "identity-mcq-05": "「令品牌／機構可被辨識的風格、價值、個性和定位」與本句語境不同。",
-        "identity-mcq-09": "「兩者實際上是同一事物／完全相同的關係」與本句語境不同。",
-        "identity-mcq-04": "「群體因文化、語言、背景等形成的共同認同」與本句語境不同。"
+        "identity-mcq-07": "本句的「identity」指「品牌透過標誌、色彩、字體、圖像形成的視覺識別系統」。",
+        "identity-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-07"
     },
@@ -751,11 +669,9 @@ export default {
       "masked": "The neighbourhood has kept its ____ despite rapid development.",
       "options": [
         "identity-mcq-08",
-        "identity-mcq-07",
-        "identity-mcq-09",
-        "identity-mcq-06",
         "identity-mcq-10",
-        "identity-mcq-05"
+        "identity-mcq-13",
+        "identity-mcq-14"
       ],
       "explanation": "本句的「identity」指「令地方、機構或事物保持自身獨特性的核心特徵」。",
       "sentenceIndex": 14,
@@ -764,12 +680,10 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-08": "本句指「令地方、機構或事物保持自身獨特性的核心特徵」。",
-        "identity-mcq-07": "「品牌透過標誌、色彩、字體、圖像形成的視覺識別系統」與本句語境不同。",
-        "identity-mcq-09": "「兩者實際上是同一事物／完全相同的關係」與本句語境不同。",
-        "identity-mcq-06": "「品牌透過名稱、標誌、價值、語氣等建立的整體識別」與本句語境不同。",
-        "identity-mcq-10": "「對所有適用變量值都成立的等式；恆等式」與本句語境不同。",
-        "identity-mcq-05": "「令品牌／機構可被辨識的風格、價值、個性和定位」與本句語境不同。"
+        "identity-mcq-08": "本句的「identity」指「令地方、機構或事物保持自身獨特性的核心特徵」。",
+        "identity-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-08"
     },
@@ -782,10 +696,8 @@ export default {
       "options": [
         "identity-mcq-08",
         "identity-mcq-07",
-        "identity-mcq-09",
-        "identity-mcq-06",
-        "identity-mcq-10",
-        "identity-mcq-05"
+        "identity-mcq-15",
+        "identity-mcq-10"
       ],
       "explanation": "本句的「identity」指「令地方、機構或事物保持自身獨特性的核心特徵」。",
       "sentenceIndex": 15,
@@ -794,12 +706,10 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-08": "本句指「令地方、機構或事物保持自身獨特性的核心特徵」。",
-        "identity-mcq-07": "「品牌透過標誌、色彩、字體、圖像形成的視覺識別系統」與本句語境不同。",
-        "identity-mcq-09": "「兩者實際上是同一事物／完全相同的關係」與本句語境不同。",
-        "identity-mcq-06": "「品牌透過名稱、標誌、價值、語氣等建立的整體識別」與本句語境不同。",
-        "identity-mcq-10": "「對所有適用變量值都成立的等式；恆等式」與本句語境不同。",
-        "identity-mcq-05": "「令品牌／機構可被辨識的風格、價值、個性和定位」與本句語境不同。"
+        "identity-mcq-08": "本句的「identity」指「令地方、機構或事物保持自身獨特性的核心特徵」。",
+        "identity-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-08"
     },
@@ -811,11 +721,8 @@ export default {
       "masked": "The argument depends on the ____ of the two concepts.",
       "options": [
         "identity-mcq-09",
-        "identity-mcq-08",
-        "identity-mcq-10",
-        "identity-mcq-07",
-        "identity-mcq-11",
-        "identity-mcq-06"
+        "identity-mcq-05",
+        "identity-mcq-14"
       ],
       "explanation": "本句的「identity」指「兩者實際上是同一事物／完全相同的關係」。",
       "sentenceIndex": 16,
@@ -824,12 +731,9 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-09": "本句指「兩者實際上是同一事物／完全相同的關係」。",
-        "identity-mcq-08": "「令地方、機構或事物保持自身獨特性的核心特徵」與本句語境不同。",
-        "identity-mcq-10": "「對所有適用變量值都成立的等式；恆等式」與本句語境不同。",
-        "identity-mcq-07": "「品牌透過標誌、色彩、字體、圖像形成的視覺識別系統」與本句語境不同。",
-        "identity-mcq-11": "「確認某人／某物是誰或是甚麼」與本句語境不同。",
-        "identity-mcq-06": "「品牌透過名稱、標誌、價值、語氣等建立的整體識別」與本句語境不同。"
+        "identity-mcq-09": "本句的「identity」指「兩者實際上是同一事物／完全相同的關係」。",
+        "identity-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-09"
     },
@@ -841,11 +745,7 @@ export default {
       "masked": "The ____ between the two expressions must be established.",
       "options": [
         "identity-mcq-09",
-        "identity-mcq-08",
-        "identity-mcq-10",
-        "identity-mcq-07",
-        "identity-mcq-11",
-        "identity-mcq-06"
+        "identity-mcq-02"
       ],
       "explanation": "本句的「identity」指「兩者實際上是同一事物／完全相同的關係」。",
       "sentenceIndex": 17,
@@ -854,12 +754,8 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-09": "本句指「兩者實際上是同一事物／完全相同的關係」。",
-        "identity-mcq-08": "「令地方、機構或事物保持自身獨特性的核心特徵」與本句語境不同。",
-        "identity-mcq-10": "「對所有適用變量值都成立的等式；恆等式」與本句語境不同。",
-        "identity-mcq-07": "「品牌透過標誌、色彩、字體、圖像形成的視覺識別系統」與本句語境不同。",
-        "identity-mcq-11": "「確認某人／某物是誰或是甚麼」與本句語境不同。",
-        "identity-mcq-06": "「品牌透過名稱、標誌、價值、語氣等建立的整體識別」與本句語境不同。"
+        "identity-mcq-09": "本句的「identity」指「兩者實際上是同一事物／完全相同的關係」。",
+        "identity-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-09"
     },
@@ -871,11 +767,9 @@ export default {
       "masked": "This equation is a mathematical ____.",
       "options": [
         "identity-mcq-10",
-        "identity-mcq-09",
-        "identity-mcq-11",
-        "identity-mcq-08",
-        "identity-mcq-12",
-        "identity-mcq-07"
+        "identity-mcq-03",
+        "identity-mcq-14",
+        "identity-mcq-15"
       ],
       "explanation": "本句的「identity」指「對所有適用變量值都成立的等式；恆等式」。",
       "sentenceIndex": 18,
@@ -884,12 +778,10 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-10": "本句指「對所有適用變量值都成立的等式；恆等式」。",
-        "identity-mcq-09": "「兩者實際上是同一事物／完全相同的關係」與本句語境不同。",
-        "identity-mcq-11": "「確認某人／某物是誰或是甚麼」與本句語境不同。",
-        "identity-mcq-08": "「令地方、機構或事物保持自身獨特性的核心特徵」與本句語境不同。",
-        "identity-mcq-12": "「找出並明確指出某個問題、特徵、模式或原因」與本句語境不同。",
-        "identity-mcq-07": "「品牌透過標誌、色彩、字體、圖像形成的視覺識別系統」與本句語境不同。"
+        "identity-mcq-10": "本句的「identity」指「對所有適用變量值都成立的等式；恆等式」。",
+        "identity-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-10"
     },
@@ -901,10 +793,8 @@ export default {
       "masked": "The ____ is true for all permitted values.",
       "options": [
         "identity-mcq-10",
-        "identity-mcq-09",
-        "identity-mcq-11",
-        "identity-mcq-08",
-        "identity-mcq-12",
+        "identity-mcq-15",
+        "identity-mcq-01",
         "identity-mcq-07"
       ],
       "explanation": "本句的「identity」指「對所有適用變量值都成立的等式；恆等式」。",
@@ -914,12 +804,10 @@ export default {
         "identity"
       ],
       "optionReasons": {
-        "identity-mcq-10": "本句指「對所有適用變量值都成立的等式；恆等式」。",
-        "identity-mcq-09": "「兩者實際上是同一事物／完全相同的關係」與本句語境不同。",
-        "identity-mcq-11": "「確認某人／某物是誰或是甚麼」與本句語境不同。",
-        "identity-mcq-08": "「令地方、機構或事物保持自身獨特性的核心特徵」與本句語境不同。",
-        "identity-mcq-12": "「找出並明確指出某個問題、特徵、模式或原因」與本句語境不同。",
-        "identity-mcq-07": "「品牌透過標誌、色彩、字體、圖像形成的視覺識別系統」與本句語境不同。"
+        "identity-mcq-10": "本句的「identity」指「對所有適用變量值都成立的等式；恆等式」。",
+        "identity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-10"
     },
@@ -931,11 +819,8 @@ export default {
       "masked": "Can you ____ the person in the photograph?",
       "options": [
         "identity-mcq-11",
-        "identity-mcq-10",
-        "identity-mcq-12",
-        "identity-mcq-09",
-        "identity-mcq-13",
-        "identity-mcq-08"
+        "identity-mcq-07",
+        "identity-mcq-16"
       ],
       "explanation": "本句的「identify」指「確認某人／某物是誰或是甚麼」。",
       "sentenceIndex": 20,
@@ -944,12 +829,9 @@ export default {
         "identify"
       ],
       "optionReasons": {
-        "identity-mcq-11": "本句指「確認某人／某物是誰或是甚麼」。",
-        "identity-mcq-10": "「對所有適用變量值都成立的等式；恆等式」與本句語境不同。",
-        "identity-mcq-12": "「找出並明確指出某個問題、特徵、模式或原因」與本句語境不同。",
-        "identity-mcq-09": "「兩者實際上是同一事物／完全相同的關係」與本句語境不同。",
-        "identity-mcq-13": "「因經歷、價值或感受相近而產生認同／共鳴」與本句語境不同。",
-        "identity-mcq-08": "「令地方、機構或事物保持自身獨特性的核心特徵」與本句語境不同。"
+        "identity-mcq-11": "本句的「identify」指「確認某人／某物是誰或是甚麼」。",
+        "identity-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-11"
     },
@@ -961,10 +843,8 @@ export default {
       "masked": "Customers ____ the bakery’s values.",
       "options": [
         "identity-mcq-13",
-        "identity-mcq-12",
         "identity-mcq-14",
-        "identity-mcq-11",
-        "identity-mcq-15",
+        "identity-mcq-03",
         "identity-mcq-10"
       ],
       "explanation": "本句的「identify with」指「因經歷、價值或感受相近而產生認同／共鳴」。",
@@ -974,12 +854,10 @@ export default {
         "identify with"
       ],
       "optionReasons": {
-        "identity-mcq-13": "本句指「因經歷、價值或感受相近而產生認同／共鳴」。",
-        "identity-mcq-12": "「找出並明確指出某個問題、特徵、模式或原因」與本句語境不同。",
-        "identity-mcq-14": "「身份識別過程，或用來證明身份的正式證件」與本句語境不同。",
-        "identity-mcq-11": "「確認某人／某物是誰或是甚麼」與本句語境不同。",
-        "identity-mcq-15": "「能被辨認、確認或區別出來的」與本句語境不同。",
-        "identity-mcq-10": "「對所有適用變量值都成立的等式；恆等式」與本句語境不同。"
+        "identity-mcq-13": "本句的「identify with」指「因經歷、價值或感受相近而產生認同／共鳴」。",
+        "identity-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-13"
     },
@@ -991,11 +869,8 @@ export default {
       "masked": "Please bring photo ____.",
       "options": [
         "identity-mcq-14",
-        "identity-mcq-13",
-        "identity-mcq-15",
-        "identity-mcq-12",
-        "identity-mcq-16",
-        "identity-mcq-11"
+        "identity-mcq-11",
+        "identity-mcq-16"
       ],
       "explanation": "本句的「identification」指「身份識別過程，或用來證明身份的正式證件」。",
       "sentenceIndex": 22,
@@ -1004,12 +879,9 @@ export default {
         "identification"
       ],
       "optionReasons": {
-        "identity-mcq-14": "本句指「身份識別過程，或用來證明身份的正式證件」。",
-        "identity-mcq-13": "「因經歷、價值或感受相近而產生認同／共鳴」與本句語境不同。",
-        "identity-mcq-15": "「能被辨認、確認或區別出來的」與本句語境不同。",
-        "identity-mcq-12": "「找出並明確指出某個問題、特徵、模式或原因」與本句語境不同。",
-        "identity-mcq-16": "「在相關方面完全相同、沒有實質差異的」與本句語境不同。",
-        "identity-mcq-11": "「確認某人／某物是誰或是甚麼」與本句語境不同。"
+        "identity-mcq-14": "本句的「identification」指「身份識別過程，或用來證明身份的正式證件」。",
+        "identity-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-14"
     },
@@ -1021,11 +893,9 @@ export default {
       "masked": "The bakery has an easily ____ style.",
       "options": [
         "identity-mcq-15",
-        "identity-mcq-14",
-        "identity-mcq-16",
-        "identity-mcq-13",
-        "identity-mcq-12",
-        "identity-mcq-11"
+        "identity-mcq-01",
+        "identity-mcq-10",
+        "identity-mcq-07"
       ],
       "explanation": "本句的「identifiable」指「能被辨認、確認或區別出來的」。",
       "sentenceIndex": 23,
@@ -1034,12 +904,10 @@ export default {
         "identifiable"
       ],
       "optionReasons": {
-        "identity-mcq-15": "本句指「能被辨認、確認或區別出來的」。",
-        "identity-mcq-14": "「身份識別過程，或用來證明身份的正式證件」與本句語境不同。",
-        "identity-mcq-16": "「在相關方面完全相同、沒有實質差異的」與本句語境不同。",
-        "identity-mcq-13": "「因經歷、價值或感受相近而產生認同／共鳴」與本句語境不同。",
-        "identity-mcq-12": "「找出並明確指出某個問題、特徵、模式或原因」與本句語境不同。",
-        "identity-mcq-11": "「確認某人／某物是誰或是甚麼」與本句語境不同。"
+        "identity-mcq-15": "本句的「identifiable」指「能被辨認、確認或區別出來的」。",
+        "identity-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "identity-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-15"
     },
@@ -1051,11 +919,7 @@ export default {
       "masked": "The two boxes look ____.",
       "options": [
         "identity-mcq-16",
-        "identity-mcq-15",
-        "identity-mcq-14",
-        "identity-mcq-13",
-        "identity-mcq-12",
-        "identity-mcq-11"
+        "identity-mcq-02"
       ],
       "explanation": "本句的「identical」指「在相關方面完全相同、沒有實質差異的」。",
       "sentenceIndex": 24,
@@ -1064,12 +928,8 @@ export default {
         "identical"
       ],
       "optionReasons": {
-        "identity-mcq-16": "本句指「在相關方面完全相同、沒有實質差異的」。",
-        "identity-mcq-15": "「能被辨認、確認或區別出來的」與本句語境不同。",
-        "identity-mcq-14": "「身份識別過程，或用來證明身份的正式證件」與本句語境不同。",
-        "identity-mcq-13": "「因經歷、價值或感受相近而產生認同／共鳴」與本句語境不同。",
-        "identity-mcq-12": "「找出並明確指出某個問題、特徵、模式或原因」與本句語境不同。",
-        "identity-mcq-11": "「確認某人／某物是誰或是甚麼」與本句語境不同。"
+        "identity-mcq-16": "本句的「identical」指「在相關方面完全相同、沒有實質差異的」。",
+        "identity-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "identity-mcq-16"
     }
@@ -1081,5 +941,7 @@ export default {
     "sha256": "b108982ea4bef2338b373a2c323336ef8789144ad8d2e0b566332610775d91b4",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

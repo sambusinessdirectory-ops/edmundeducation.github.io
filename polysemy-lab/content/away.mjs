@@ -122,7 +122,7 @@ export default {
     },
     {
       "id": "away-mcq-06",
-      "title": "表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法",
+      "title": "可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法",
       "form": "ask/fire away",
       "en": "ask/fire away",
       "zh": "表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法",
@@ -196,9 +196,6 @@ export default {
       "masked": "I often walk ____ feeling lighter and more awake.",
       "options": [
         "away-mcq-01",
-        "away-mcq-02",
-        "away-mcq-03",
-        "away-mcq-04",
         "away-mcq-05",
         "away-mcq-06"
       ],
@@ -209,12 +206,9 @@ export default {
         "away"
       ],
       "optionReasons": {
-        "away-mcq-01": "本句指「從某個人、地方或參照點離開，或位於距離該點一段距離的位置」。",
-        "away-mcq-02": "「暫時不在平常或預期所在的地方；屬於「離開參照地點」的同一核心概念」是「be away — absent」的用法，與本句語境不同。",
-        "away-mcq-03": "「某個動作持續或反覆進行一段時間」是「verb + away — continuous action」的用法，與本句語境不同。",
-        "away-mcq-04": "「某物逐漸被移走、減弱、消失或離開原來狀態」是「away — removal/disappearance」的用法，與本句語境不同。",
-        "away-mcq-05": "「在對手主場而不是自己的主場進行比賽；作客／客場」是「away — sports」的用法，與本句語境不同。",
-        "away-mcq-06": "「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」是「ask/fire away」的用法，與本句語境不同。"
+        "away-mcq-01": "本句的「away」指「從某個人、地方或參照點離開，或位於距離該點一段距離的位置」。",
+        "away-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "away-mcq-01"
     },
@@ -226,9 +220,6 @@ export default {
       "masked": "She turned and walked ____.",
       "options": [
         "away-mcq-01",
-        "away-mcq-02",
-        "away-mcq-03",
-        "away-mcq-04",
         "away-mcq-05",
         "away-mcq-06"
       ],
@@ -239,12 +230,9 @@ export default {
         "away"
       ],
       "optionReasons": {
-        "away-mcq-01": "本句指「從某個人、地方或參照點離開，或位於距離該點一段距離的位置」。",
-        "away-mcq-02": "「暫時不在平常或預期所在的地方；屬於「離開參照地點」的同一核心概念」是「be away — absent」的用法，與本句語境不同。",
-        "away-mcq-03": "「某個動作持續或反覆進行一段時間」是「verb + away — continuous action」的用法，與本句語境不同。",
-        "away-mcq-04": "「某物逐漸被移走、減弱、消失或離開原來狀態」是「away — removal/disappearance」的用法，與本句語境不同。",
-        "away-mcq-05": "「在對手主場而不是自己的主場進行比賽；作客／客場」是「away — sports」的用法，與本句語境不同。",
-        "away-mcq-06": "「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」是「ask/fire away」的用法，與本句語境不同。"
+        "away-mcq-01": "本句的「away」指「從某個人、地方或參照點離開，或位於距離該點一段距離的位置」。",
+        "away-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "away-mcq-01"
     },
@@ -256,9 +244,6 @@ export default {
       "masked": "He lives several kilometres ____.",
       "options": [
         "away-mcq-01",
-        "away-mcq-02",
-        "away-mcq-03",
-        "away-mcq-04",
         "away-mcq-05",
         "away-mcq-06"
       ],
@@ -269,12 +254,9 @@ export default {
         "away"
       ],
       "optionReasons": {
-        "away-mcq-01": "本句指「從某個人、地方或參照點離開，或位於距離該點一段距離的位置」。",
-        "away-mcq-02": "「暫時不在平常或預期所在的地方；屬於「離開參照地點」的同一核心概念」是「be away — absent」的用法，與本句語境不同。",
-        "away-mcq-03": "「某個動作持續或反覆進行一段時間」是「verb + away — continuous action」的用法，與本句語境不同。",
-        "away-mcq-04": "「某物逐漸被移走、減弱、消失或離開原來狀態」是「away — removal/disappearance」的用法，與本句語境不同。",
-        "away-mcq-05": "「在對手主場而不是自己的主場進行比賽；作客／客場」是「away — sports」的用法，與本句語境不同。",
-        "away-mcq-06": "「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」是「ask/fire away」的用法，與本句語境不同。"
+        "away-mcq-01": "本句的「away」指「從某個人、地方或參照點離開，或位於距離該點一段距離的位置」。",
+        "away-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "away-mcq-01"
     },
@@ -286,11 +268,7 @@ export default {
       "masked": "She is ____ this week.",
       "options": [
         "away-mcq-02",
-        "away-mcq-01",
-        "away-mcq-03",
-        "away-mcq-04",
-        "away-mcq-05",
-        "away-mcq-06"
+        "away-mcq-05"
       ],
       "explanation": "本句的「away」指「暫時不在平常或預期所在的地方；屬於「離開參照地點」的同一核心概念」。",
       "sentenceIndex": 3,
@@ -299,12 +277,8 @@ export default {
         "away"
       ],
       "optionReasons": {
-        "away-mcq-02": "本句指「暫時不在平常或預期所在的地方；屬於「離開參照地點」的同一核心概念」。",
-        "away-mcq-01": "「從某個人、地方或參照點離開，或位於距離該點一段距離的位置」是「away — distance/separation」的用法，與本句語境不同。",
-        "away-mcq-03": "「某個動作持續或反覆進行一段時間」是「verb + away — continuous action」的用法，與本句語境不同。",
-        "away-mcq-04": "「某物逐漸被移走、減弱、消失或離開原來狀態」是「away — removal/disappearance」的用法，與本句語境不同。",
-        "away-mcq-05": "「在對手主場而不是自己的主場進行比賽；作客／客場」是「away — sports」的用法，與本句語境不同。",
-        "away-mcq-06": "「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」是「ask/fire away」的用法，與本句語境不同。"
+        "away-mcq-02": "本句的「away」指「暫時不在平常或預期所在的地方；屬於「離開參照地點」的同一核心概念」。",
+        "away-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "away-mcq-02"
     },
@@ -316,11 +290,7 @@ export default {
       "masked": "He is ____.",
       "options": [
         "away-mcq-02",
-        "away-mcq-01",
-        "away-mcq-03",
-        "away-mcq-04",
-        "away-mcq-05",
-        "away-mcq-06"
+        "away-mcq-05"
       ],
       "explanation": "本句的「away on business」指「暫時不在平常或預期所在的地方；屬於「離開參照地點」的同一核心概念」。",
       "sentenceIndex": 4,
@@ -329,12 +299,8 @@ export default {
         "away on business"
       ],
       "optionReasons": {
-        "away-mcq-02": "本句指「暫時不在平常或預期所在的地方；屬於「離開參照地點」的同一核心概念」。",
-        "away-mcq-01": "「從某個人、地方或參照點離開，或位於距離該點一段距離的位置」是「away — distance/separation」的用法，與本句語境不同。",
-        "away-mcq-03": "「某個動作持續或反覆進行一段時間」是「verb + away — continuous action」的用法，與本句語境不同。",
-        "away-mcq-04": "「某物逐漸被移走、減弱、消失或離開原來狀態」是「away — removal/disappearance」的用法，與本句語境不同。",
-        "away-mcq-05": "「在對手主場而不是自己的主場進行比賽；作客／客場」是「away — sports」的用法，與本句語境不同。",
-        "away-mcq-06": "「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」是「ask/fire away」的用法，與本句語境不同。"
+        "away-mcq-02": "本句的「away on business」指「暫時不在平常或預期所在的地方；屬於「離開參照地點」的同一核心概念」。",
+        "away-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "away-mcq-02"
     },
@@ -346,11 +312,8 @@ export default {
       "masked": "She was typing ____ at her computer.",
       "options": [
         "away-mcq-03",
-        "away-mcq-02",
         "away-mcq-04",
-        "away-mcq-01",
-        "away-mcq-05",
-        "away-mcq-06"
+        "away-mcq-07"
       ],
       "explanation": "本句的「away」指「某個動作持續或反覆進行一段時間」。",
       "sentenceIndex": 5,
@@ -359,12 +322,9 @@ export default {
         "away"
       ],
       "optionReasons": {
-        "away-mcq-03": "本句指「某個動作持續或反覆進行一段時間」。",
-        "away-mcq-02": "「暫時不在平常或預期所在的地方；屬於「離開參照地點」的同一核心概念」是「be away — absent」的用法，與本句語境不同。",
-        "away-mcq-04": "「某物逐漸被移走、減弱、消失或離開原來狀態」是「away — removal/disappearance」的用法，與本句語境不同。",
-        "away-mcq-01": "「從某個人、地方或參照點離開，或位於距離該點一段距離的位置」是「away — distance/separation」的用法，與本句語境不同。",
-        "away-mcq-05": "「在對手主場而不是自己的主場進行比賽；作客／客場」是「away — sports」的用法，與本句語境不同。",
-        "away-mcq-06": "「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」是「ask/fire away」的用法，與本句語境不同。"
+        "away-mcq-03": "本句的「away」指「某個動作持續或反覆進行一段時間」。",
+        "away-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "away-mcq-03"
     },
@@ -376,11 +336,8 @@ export default {
       "masked": "The children chatted ____ happily.",
       "options": [
         "away-mcq-03",
-        "away-mcq-02",
         "away-mcq-04",
-        "away-mcq-01",
-        "away-mcq-05",
-        "away-mcq-06"
+        "away-mcq-07"
       ],
       "explanation": "本句的「away」指「某個動作持續或反覆進行一段時間」。",
       "sentenceIndex": 6,
@@ -389,12 +346,9 @@ export default {
         "away"
       ],
       "optionReasons": {
-        "away-mcq-03": "本句指「某個動作持續或反覆進行一段時間」。",
-        "away-mcq-02": "「暫時不在平常或預期所在的地方；屬於「離開參照地點」的同一核心概念」是「be away — absent」的用法，與本句語境不同。",
-        "away-mcq-04": "「某物逐漸被移走、減弱、消失或離開原來狀態」是「away — removal/disappearance」的用法，與本句語境不同。",
-        "away-mcq-01": "「從某個人、地方或參照點離開，或位於距離該點一段距離的位置」是「away — distance/separation」的用法，與本句語境不同。",
-        "away-mcq-05": "「在對手主場而不是自己的主場進行比賽；作客／客場」是「away — sports」的用法，與本句語境不同。",
-        "away-mcq-06": "「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」是「ask/fire away」的用法，與本句語境不同。"
+        "away-mcq-03": "本句的「away」指「某個動作持續或反覆進行一段時間」。",
+        "away-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "away-mcq-03"
     },
@@ -407,10 +361,7 @@ export default {
       "options": [
         "away-mcq-04",
         "away-mcq-03",
-        "away-mcq-05",
-        "away-mcq-02",
-        "away-mcq-06",
-        "away-mcq-01"
+        "away-mcq-07"
       ],
       "explanation": "本句的「away」指「某物逐漸被移走、減弱、消失或離開原來狀態」。",
       "sentenceIndex": 7,
@@ -419,12 +370,9 @@ export default {
         "away"
       ],
       "optionReasons": {
-        "away-mcq-04": "本句指「某物逐漸被移走、減弱、消失或離開原來狀態」。",
-        "away-mcq-03": "「某個動作持續或反覆進行一段時間」是「verb + away — continuous action」的用法，與本句語境不同。",
-        "away-mcq-05": "「在對手主場而不是自己的主場進行比賽；作客／客場」是「away — sports」的用法，與本句語境不同。",
-        "away-mcq-02": "「暫時不在平常或預期所在的地方；屬於「離開參照地點」的同一核心概念」是「be away — absent」的用法，與本句語境不同。",
-        "away-mcq-06": "「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」是「ask/fire away」的用法，與本句語境不同。",
-        "away-mcq-01": "「從某個人、地方或參照點離開，或位於距離該點一段距離的位置」是「away — distance/separation」的用法，與本句語境不同。"
+        "away-mcq-04": "本句的「away」指「某物逐漸被移走、減弱、消失或離開原來狀態」。",
+        "away-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "away-mcq-04"
     },
@@ -437,10 +385,7 @@ export default {
       "options": [
         "away-mcq-04",
         "away-mcq-03",
-        "away-mcq-05",
-        "away-mcq-02",
-        "away-mcq-06",
-        "away-mcq-01"
+        "away-mcq-07"
       ],
       "explanation": "本句的「away」指「某物逐漸被移走、減弱、消失或離開原來狀態」。",
       "sentenceIndex": 8,
@@ -449,12 +394,9 @@ export default {
         "away"
       ],
       "optionReasons": {
-        "away-mcq-04": "本句指「某物逐漸被移走、減弱、消失或離開原來狀態」。",
-        "away-mcq-03": "「某個動作持續或反覆進行一段時間」是「verb + away — continuous action」的用法，與本句語境不同。",
-        "away-mcq-05": "「在對手主場而不是自己的主場進行比賽；作客／客場」是「away — sports」的用法，與本句語境不同。",
-        "away-mcq-02": "「暫時不在平常或預期所在的地方；屬於「離開參照地點」的同一核心概念」是「be away — absent」的用法，與本句語境不同。",
-        "away-mcq-06": "「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」是「ask/fire away」的用法，與本句語境不同。",
-        "away-mcq-01": "「從某個人、地方或參照點離開，或位於距離該點一段距離的位置」是「away — distance/separation」的用法，與本句語境不同。"
+        "away-mcq-04": "本句的「away」指「某物逐漸被移走、減弱、消失或離開原來狀態」。",
+        "away-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "away-mcq-04"
     },
@@ -466,11 +408,9 @@ export default {
       "masked": "Please put the books ____.",
       "options": [
         "away-mcq-07",
-        "away-mcq-06",
-        "away-mcq-08",
         "away-mcq-05",
-        "away-mcq-04",
-        "away-mcq-03"
+        "away-mcq-06",
+        "away-mcq-04"
       ],
       "explanation": "本句的「away」指「把物件移離眼前或日常使用位置，放到指定的收納地方」。",
       "sentenceIndex": 9,
@@ -479,12 +419,10 @@ export default {
         "away"
       ],
       "optionReasons": {
-        "away-mcq-07": "本句指「把物件移離眼前或日常使用位置，放到指定的收納地方」。",
-        "away-mcq-06": "「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」是「ask/fire away」的用法，與本句語境不同。",
-        "away-mcq-08": "「向遠處移動，最後不再留在原處或不再能被感知」是「6. away = into the distance / no longer present（消失於遠處） — 遠去；離去」的用法，與本句語境不同。",
-        "away-mcq-05": "「在對手主場而不是自己的主場進行比賽；作客／客場」是「away — sports」的用法，與本句語境不同。",
-        "away-mcq-04": "「某物逐漸被移走、減弱、消失或離開原來狀態」是「away — removal/disappearance」的用法，與本句語境不同。",
-        "away-mcq-03": "「某個動作持續或反覆進行一段時間」是「verb + away — continuous action」的用法，與本句語境不同。"
+        "away-mcq-07": "本句的「away」指「把物件移離眼前或日常使用位置，放到指定的收納地方」。",
+        "away-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "away-mcq-07"
     },
@@ -496,11 +434,9 @@ export default {
       "masked": "She packed the winter clothes ____.",
       "options": [
         "away-mcq-07",
-        "away-mcq-06",
-        "away-mcq-08",
         "away-mcq-05",
-        "away-mcq-04",
-        "away-mcq-03"
+        "away-mcq-06",
+        "away-mcq-04"
       ],
       "explanation": "本句的「away」指「把物件移離眼前或日常使用位置，放到指定的收納地方」。",
       "sentenceIndex": 10,
@@ -509,12 +445,10 @@ export default {
         "away"
       ],
       "optionReasons": {
-        "away-mcq-07": "本句指「把物件移離眼前或日常使用位置，放到指定的收納地方」。",
-        "away-mcq-06": "「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」是「ask/fire away」的用法，與本句語境不同。",
-        "away-mcq-08": "「向遠處移動，最後不再留在原處或不再能被感知」是「6. away = into the distance / no longer present（消失於遠處） — 遠去；離去」的用法，與本句語境不同。",
-        "away-mcq-05": "「在對手主場而不是自己的主場進行比賽；作客／客場」是「away — sports」的用法，與本句語境不同。",
-        "away-mcq-04": "「某物逐漸被移走、減弱、消失或離開原來狀態」是「away — removal/disappearance」的用法，與本句語境不同。",
-        "away-mcq-03": "「某個動作持續或反覆進行一段時間」是「verb + away — continuous action」的用法，與本句語境不同。"
+        "away-mcq-07": "本句的「away」指「把物件移離眼前或日常使用位置，放到指定的收納地方」。",
+        "away-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "away-mcq-07"
     },
@@ -526,11 +460,8 @@ export default {
       "masked": "The car drove ____.",
       "options": [
         "away-mcq-08",
-        "away-mcq-07",
-        "away-mcq-06",
         "away-mcq-05",
-        "away-mcq-04",
-        "away-mcq-03"
+        "away-mcq-07"
       ],
       "explanation": "本句的「away」指「向遠處移動，最後不再留在原處或不再能被感知」。",
       "sentenceIndex": 11,
@@ -539,12 +470,9 @@ export default {
         "away"
       ],
       "optionReasons": {
-        "away-mcq-08": "本句指「向遠處移動，最後不再留在原處或不再能被感知」。",
-        "away-mcq-07": "「把物件移離眼前或日常使用位置，放到指定的收納地方」是「5. away = stored/put aside（存起／收起） — 收好；存起來」的用法，與本句語境不同。",
-        "away-mcq-06": "「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」是「ask/fire away」的用法，與本句語境不同。",
-        "away-mcq-05": "「在對手主場而不是自己的主場進行比賽；作客／客場」是「away — sports」的用法，與本句語境不同。",
-        "away-mcq-04": "「某物逐漸被移走、減弱、消失或離開原來狀態」是「away — removal/disappearance」的用法，與本句語境不同。",
-        "away-mcq-03": "「某個動作持續或反覆進行一段時間」是「verb + away — continuous action」的用法，與本句語境不同。"
+        "away-mcq-08": "本句的「away」指「向遠處移動，最後不再留在原處或不再能被感知」。",
+        "away-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "away-mcq-08"
     },
@@ -556,11 +484,8 @@ export default {
       "masked": "The sound gradually died ____.",
       "options": [
         "away-mcq-08",
-        "away-mcq-07",
-        "away-mcq-06",
         "away-mcq-05",
-        "away-mcq-04",
-        "away-mcq-03"
+        "away-mcq-07"
       ],
       "explanation": "本句的「away」指「向遠處移動，最後不再留在原處或不再能被感知」。",
       "sentenceIndex": 12,
@@ -569,12 +494,9 @@ export default {
         "away"
       ],
       "optionReasons": {
-        "away-mcq-08": "本句指「向遠處移動，最後不再留在原處或不再能被感知」。",
-        "away-mcq-07": "「把物件移離眼前或日常使用位置，放到指定的收納地方」是「5. away = stored/put aside（存起／收起） — 收好；存起來」的用法，與本句語境不同。",
-        "away-mcq-06": "「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」是「ask/fire away」的用法，與本句語境不同。",
-        "away-mcq-05": "「在對手主場而不是自己的主場進行比賽；作客／客場」是「away — sports」的用法，與本句語境不同。",
-        "away-mcq-04": "「某物逐漸被移走、減弱、消失或離開原來狀態」是「away — removal/disappearance」的用法，與本句語境不同。",
-        "away-mcq-03": "「某個動作持續或反覆進行一段時間」是「verb + away — continuous action」的用法，與本句語境不同。"
+        "away-mcq-08": "本句的「away」指「向遠處移動，最後不再留在原處或不再能被感知」。",
+        "away-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "away-mcq-08"
     },
@@ -587,10 +509,8 @@ export default {
       "options": [
         "away-mcq-06",
         "away-mcq-05",
-        "away-mcq-07",
         "away-mcq-04",
-        "away-mcq-08",
-        "away-mcq-03"
+        "away-mcq-07"
       ],
       "explanation": "本句的「away」指「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」。",
       "sentenceIndex": 13,
@@ -599,12 +519,10 @@ export default {
         "away"
       ],
       "optionReasons": {
-        "away-mcq-06": "本句指「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」。",
-        "away-mcq-05": "「在對手主場而不是自己的主場進行比賽；作客／客場」是「away — sports」的用法，與本句語境不同。",
-        "away-mcq-07": "「把物件移離眼前或日常使用位置，放到指定的收納地方」是「5. away = stored/put aside（存起／收起） — 收好；存起來」的用法，與本句語境不同。",
-        "away-mcq-04": "「某物逐漸被移走、減弱、消失或離開原來狀態」是「away — removal/disappearance」的用法，與本句語境不同。",
-        "away-mcq-08": "「向遠處移動，最後不再留在原處或不再能被感知」是「6. away = into the distance / no longer present（消失於遠處） — 遠去；離去」的用法，與本句語境不同。",
-        "away-mcq-03": "「某個動作持續或反覆進行一段時間」是「verb + away — continuous action」的用法，與本句語境不同。"
+        "away-mcq-06": "本句的「away」指「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」。",
+        "away-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "away-mcq-06"
     },
@@ -616,11 +534,8 @@ export default {
       "masked": "If you have questions, fire ____.",
       "options": [
         "away-mcq-06",
-        "away-mcq-05",
-        "away-mcq-07",
-        "away-mcq-04",
-        "away-mcq-08",
-        "away-mcq-03"
+        "away-mcq-01",
+        "away-mcq-05"
       ],
       "explanation": "本句的「away」指「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」。",
       "sentenceIndex": 14,
@@ -629,12 +544,9 @@ export default {
         "away"
       ],
       "optionReasons": {
-        "away-mcq-06": "本句指「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」。",
-        "away-mcq-05": "「在對手主場而不是自己的主場進行比賽；作客／客場」是「away — sports」的用法，與本句語境不同。",
-        "away-mcq-07": "「把物件移離眼前或日常使用位置，放到指定的收納地方」是「5. away = stored/put aside（存起／收起） — 收好；存起來」的用法，與本句語境不同。",
-        "away-mcq-04": "「某物逐漸被移走、減弱、消失或離開原來狀態」是「away — removal/disappearance」的用法，與本句語境不同。",
-        "away-mcq-08": "「向遠處移動，最後不再留在原處或不再能被感知」是「6. away = into the distance / no longer present（消失於遠處） — 遠去；離去」的用法，與本句語境不同。",
-        "away-mcq-03": "「某個動作持續或反覆進行一段時間」是「verb + away — continuous action」的用法，與本句語境不同。"
+        "away-mcq-06": "本句的「away」指「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」。",
+        "away-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "away-mcq-06"
     },
@@ -646,11 +558,8 @@ export default {
       "masked": "They have an ____ game this weekend.",
       "options": [
         "away-mcq-05",
-        "away-mcq-04",
-        "away-mcq-06",
-        "away-mcq-03",
-        "away-mcq-07",
-        "away-mcq-02"
+        "away-mcq-08",
+        "away-mcq-07"
       ],
       "explanation": "本句的「away」指「在對手主場而不是自己的主場進行比賽；作客／客場」。",
       "sentenceIndex": 15,
@@ -659,12 +568,9 @@ export default {
         "away"
       ],
       "optionReasons": {
-        "away-mcq-05": "本句指「在對手主場而不是自己的主場進行比賽；作客／客場」。",
-        "away-mcq-04": "「某物逐漸被移走、減弱、消失或離開原來狀態」是「away — removal/disappearance」的用法，與本句語境不同。",
-        "away-mcq-06": "「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」是「ask/fire away」的用法，與本句語境不同。",
-        "away-mcq-03": "「某個動作持續或反覆進行一段時間」是「verb + away — continuous action」的用法，與本句語境不同。",
-        "away-mcq-07": "「把物件移離眼前或日常使用位置，放到指定的收納地方」是「5. away = stored/put aside（存起／收起） — 收好；存起來」的用法，與本句語境不同。",
-        "away-mcq-02": "「暫時不在平常或預期所在的地方；屬於「離開參照地點」的同一核心概念」是「be away — absent」的用法，與本句語境不同。"
+        "away-mcq-05": "本句的「away」指「在對手主場而不是自己的主場進行比賽；作客／客場」。",
+        "away-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "away-mcq-05"
     },
@@ -676,11 +582,8 @@ export default {
       "masked": "The team won 2–0 ____.",
       "options": [
         "away-mcq-05",
-        "away-mcq-04",
-        "away-mcq-06",
-        "away-mcq-03",
-        "away-mcq-07",
-        "away-mcq-02"
+        "away-mcq-01",
+        "away-mcq-06"
       ],
       "explanation": "本句的「away」指「在對手主場而不是自己的主場進行比賽；作客／客場」。",
       "sentenceIndex": 16,
@@ -689,12 +592,9 @@ export default {
         "away"
       ],
       "optionReasons": {
-        "away-mcq-05": "本句指「在對手主場而不是自己的主場進行比賽；作客／客場」。",
-        "away-mcq-04": "「某物逐漸被移走、減弱、消失或離開原來狀態」是「away — removal/disappearance」的用法，與本句語境不同。",
-        "away-mcq-06": "「表示可以毫不猶豫地開始或繼續某個行動；屬於固定口語用法」是「ask/fire away」的用法，與本句語境不同。",
-        "away-mcq-03": "「某個動作持續或反覆進行一段時間」是「verb + away — continuous action」的用法，與本句語境不同。",
-        "away-mcq-07": "「把物件移離眼前或日常使用位置，放到指定的收納地方」是「5. away = stored/put aside（存起／收起） — 收好；存起來」的用法，與本句語境不同。",
-        "away-mcq-02": "「暫時不在平常或預期所在的地方；屬於「離開參照地點」的同一核心概念」是「be away — absent」的用法，與本句語境不同。"
+        "away-mcq-05": "本句的「away」指「在對手主場而不是自己的主場進行比賽；作客／客場」。",
+        "away-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "away-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "away-mcq-05"
     }
@@ -706,5 +606,7 @@ export default {
     "sha256": "ef261ad992b664f0e170c0f02640b01bbd0f51ade49c1817ab7c0133a14eb8f9",
     "pages": 9
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

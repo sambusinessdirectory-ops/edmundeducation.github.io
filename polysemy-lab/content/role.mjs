@@ -416,10 +416,7 @@ export default {
       "masked": "Confidence plays a major ____ in public speaking.",
       "options": [
         "role-mcq-02",
-        "role-mcq-01",
-        "role-mcq-03",
-        "role-mcq-04",
-        "role-mcq-05",
+        "role-mcq-16",
         "role-mcq-06"
       ],
       "explanation": "本句的「role」指「對某件事的發展、結果或運作產生作用／影響」。",
@@ -429,12 +426,9 @@ export default {
         "role"
       ],
       "optionReasons": {
-        "role-mcq-02": "本句指「對某件事的發展、結果或運作產生作用／影響」。",
-        "role-mcq-01": "「某人在特定情況、群體或活動中所承擔的功能、部分或職責」與本句語境不同。",
-        "role-mcq-03": "「在某件事中發揮特別重要或關鍵的作用」與本句語境不同。",
-        "role-mcq-04": "「在組織中負責的特定職務、功能或責任範圍」與本句語境不同。",
-        "role-mcq-05": "「需要帶領、影響或指導他人的領導職責／職位」與本句語境不同。",
-        "role-mcq-06": "「開始承擔某項角色、功能或責任」與本句語境不同。"
+        "role-mcq-02": "本句的「role」指「對某件事的發展、結果或運作產生作用／影響」。",
+        "role-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-02"
     },
@@ -446,11 +440,8 @@ export default {
       "masked": "Diet can play a ____ in overall health.",
       "options": [
         "role-mcq-02",
-        "role-mcq-01",
-        "role-mcq-03",
-        "role-mcq-04",
-        "role-mcq-05",
-        "role-mcq-06"
+        "role-mcq-07",
+        "role-mcq-08"
       ],
       "explanation": "本句的「role」指「對某件事的發展、結果或運作產生作用／影響」。",
       "sentenceIndex": 5,
@@ -459,12 +450,9 @@ export default {
         "role"
       ],
       "optionReasons": {
-        "role-mcq-02": "本句指「對某件事的發展、結果或運作產生作用／影響」。",
-        "role-mcq-01": "「某人在特定情況、群體或活動中所承擔的功能、部分或職責」與本句語境不同。",
-        "role-mcq-03": "「在某件事中發揮特別重要或關鍵的作用」與本句語境不同。",
-        "role-mcq-04": "「在組織中負責的特定職務、功能或責任範圍」與本句語境不同。",
-        "role-mcq-05": "「需要帶領、影響或指導他人的領導職責／職位」與本句語境不同。",
-        "role-mcq-06": "「開始承擔某項角色、功能或責任」與本句語境不同。"
+        "role-mcq-02": "本句的「role」指「對某件事的發展、結果或運作產生作用／影響」。",
+        "role-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-02"
     },
@@ -476,11 +464,8 @@ export default {
       "masked": "Communication plays a ____ in teamwork.",
       "options": [
         "role-mcq-03",
-        "role-mcq-02",
-        "role-mcq-04",
-        "role-mcq-01",
-        "role-mcq-05",
-        "role-mcq-06"
+        "role-mcq-09",
+        "role-mcq-08"
       ],
       "explanation": "本句的「key role」指「在某件事中發揮特別重要或關鍵的作用」。",
       "sentenceIndex": 6,
@@ -489,12 +474,9 @@ export default {
         "key role"
       ],
       "optionReasons": {
-        "role-mcq-03": "本句指「在某件事中發揮特別重要或關鍵的作用」。",
-        "role-mcq-02": "「對某件事的發展、結果或運作產生作用／影響」與本句語境不同。",
-        "role-mcq-04": "「在組織中負責的特定職務、功能或責任範圍」與本句語境不同。",
-        "role-mcq-01": "「某人在特定情況、群體或活動中所承擔的功能、部分或職責」與本句語境不同。",
-        "role-mcq-05": "「需要帶領、影響或指導他人的領導職責／職位」與本句語境不同。",
-        "role-mcq-06": "「開始承擔某項角色、功能或責任」與本句語境不同。"
+        "role-mcq-03": "本句的「key role」指「在某件事中發揮特別重要或關鍵的作用」。",
+        "role-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-03"
     },
@@ -506,11 +488,8 @@ export default {
       "masked": "Technology has played a ____ in changing how people work.",
       "options": [
         "role-mcq-03",
-        "role-mcq-02",
-        "role-mcq-04",
-        "role-mcq-01",
-        "role-mcq-05",
-        "role-mcq-06"
+        "role-mcq-14",
+        "role-mcq-16"
       ],
       "explanation": "本句的「major role」指「在某件事中發揮特別重要或關鍵的作用」。",
       "sentenceIndex": 7,
@@ -519,12 +498,9 @@ export default {
         "major role"
       ],
       "optionReasons": {
-        "role-mcq-03": "本句指「在某件事中發揮特別重要或關鍵的作用」。",
-        "role-mcq-02": "「對某件事的發展、結果或運作產生作用／影響」與本句語境不同。",
-        "role-mcq-04": "「在組織中負責的特定職務、功能或責任範圍」與本句語境不同。",
-        "role-mcq-01": "「某人在特定情況、群體或活動中所承擔的功能、部分或職責」與本句語境不同。",
-        "role-mcq-05": "「需要帶領、影響或指導他人的領導職責／職位」與本句語境不同。",
-        "role-mcq-06": "「開始承擔某項角色、功能或責任」與本句語境不同。"
+        "role-mcq-03": "本句的「major role」指「在某件事中發揮特別重要或關鍵的作用」。",
+        "role-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-03"
     },
@@ -536,11 +512,8 @@ export default {
       "masked": "She applied for a new ____ in the company.",
       "options": [
         "role-mcq-04",
-        "role-mcq-03",
-        "role-mcq-05",
-        "role-mcq-02",
-        "role-mcq-06",
-        "role-mcq-01"
+        "role-mcq-09",
+        "role-mcq-02"
       ],
       "explanation": "本句的「role」指「在組織中負責的特定職務、功能或責任範圍」。",
       "sentenceIndex": 8,
@@ -549,12 +522,9 @@ export default {
         "role"
       ],
       "optionReasons": {
-        "role-mcq-04": "本句指「在組織中負責的特定職務、功能或責任範圍」。",
-        "role-mcq-03": "「在某件事中發揮特別重要或關鍵的作用」與本句語境不同。",
-        "role-mcq-05": "「需要帶領、影響或指導他人的領導職責／職位」與本句語境不同。",
-        "role-mcq-02": "「對某件事的發展、結果或運作產生作用／影響」與本句語境不同。",
-        "role-mcq-06": "「開始承擔某項角色、功能或責任」與本句語境不同。",
-        "role-mcq-01": "「某人在特定情況、群體或活動中所承擔的功能、部分或職責」與本句語境不同。"
+        "role-mcq-04": "本句的「role」指「在組織中負責的特定職務、功能或責任範圍」。",
+        "role-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-04"
     },
@@ -566,11 +536,8 @@ export default {
       "masked": "His ____ involves training new staff.",
       "options": [
         "role-mcq-04",
-        "role-mcq-03",
-        "role-mcq-05",
         "role-mcq-02",
-        "role-mcq-06",
-        "role-mcq-01"
+        "role-mcq-10"
       ],
       "explanation": "本句的「role」指「在組織中負責的特定職務、功能或責任範圍」。",
       "sentenceIndex": 9,
@@ -579,12 +546,9 @@ export default {
         "role"
       ],
       "optionReasons": {
-        "role-mcq-04": "本句指「在組織中負責的特定職務、功能或責任範圍」。",
-        "role-mcq-03": "「在某件事中發揮特別重要或關鍵的作用」與本句語境不同。",
-        "role-mcq-05": "「需要帶領、影響或指導他人的領導職責／職位」與本句語境不同。",
-        "role-mcq-02": "「對某件事的發展、結果或運作產生作用／影響」與本句語境不同。",
-        "role-mcq-06": "「開始承擔某項角色、功能或責任」與本句語境不同。",
-        "role-mcq-01": "「某人在特定情況、群體或活動中所承擔的功能、部分或職責」與本句語境不同。"
+        "role-mcq-04": "本句的「role」指「在組織中負責的特定職務、功能或責任範圍」。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-04"
     },
@@ -596,11 +560,8 @@ export default {
       "masked": "She took on a ____ in the project.",
       "options": [
         "role-mcq-05",
-        "role-mcq-04",
-        "role-mcq-06",
-        "role-mcq-03",
-        "role-mcq-07",
-        "role-mcq-02"
+        "role-mcq-15",
+        "role-mcq-03"
       ],
       "explanation": "本句的「leadership role」指「需要帶領、影響或指導他人的領導職責／職位」。",
       "sentenceIndex": 10,
@@ -609,12 +570,9 @@ export default {
         "leadership role"
       ],
       "optionReasons": {
-        "role-mcq-05": "本句指「需要帶領、影響或指導他人的領導職責／職位」。",
-        "role-mcq-04": "「在組織中負責的特定職務、功能或責任範圍」與本句語境不同。",
-        "role-mcq-06": "「開始承擔某項角色、功能或責任」與本句語境不同。",
-        "role-mcq-03": "「在某件事中發揮特別重要或關鍵的作用」與本句語境不同。",
-        "role-mcq-07": "「實際履行某項角色所包含的職責」與本句語境不同。",
-        "role-mcq-02": "「對某件事的發展、結果或運作產生作用／影響」與本句語境不同。"
+        "role-mcq-05": "本句的「leadership role」指「需要帶領、影響或指導他人的領導職責／職位」。",
+        "role-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-05"
     },
@@ -626,11 +584,8 @@ export default {
       "masked": "He hopes to move into a ____ in the future.",
       "options": [
         "role-mcq-05",
-        "role-mcq-04",
-        "role-mcq-06",
-        "role-mcq-03",
-        "role-mcq-07",
-        "role-mcq-02"
+        "role-mcq-15",
+        "role-mcq-03"
       ],
       "explanation": "本句的「leadership role」指「需要帶領、影響或指導他人的領導職責／職位」。",
       "sentenceIndex": 11,
@@ -639,12 +594,9 @@ export default {
         "leadership role"
       ],
       "optionReasons": {
-        "role-mcq-05": "本句指「需要帶領、影響或指導他人的領導職責／職位」。",
-        "role-mcq-04": "「在組織中負責的特定職務、功能或責任範圍」與本句語境不同。",
-        "role-mcq-06": "「開始承擔某項角色、功能或責任」與本句語境不同。",
-        "role-mcq-03": "「在某件事中發揮特別重要或關鍵的作用」與本句語境不同。",
-        "role-mcq-07": "「實際履行某項角色所包含的職責」與本句語境不同。",
-        "role-mcq-02": "「對某件事的發展、結果或運作產生作用／影響」與本句語境不同。"
+        "role-mcq-05": "本句的「leadership role」指「需要帶領、影響或指導他人的領導職責／職位」。",
+        "role-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-05"
     },
@@ -656,11 +608,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "role-mcq-06",
-        "role-mcq-05",
-        "role-mcq-07",
-        "role-mcq-04",
-        "role-mcq-08",
-        "role-mcq-03"
+        "role-mcq-02",
+        "role-mcq-16"
       ],
       "explanation": "本句的「took on the role of mentor」指「開始承擔某項角色、功能或責任」。",
       "sentenceIndex": 12,
@@ -669,12 +618,9 @@ export default {
         "took on the role of mentor"
       ],
       "optionReasons": {
-        "role-mcq-06": "本句指「開始承擔某項角色、功能或責任」。",
-        "role-mcq-05": "「需要帶領、影響或指導他人的領導職責／職位」與本句語境不同。",
-        "role-mcq-07": "「實際履行某項角色所包含的職責」與本句語境不同。",
-        "role-mcq-04": "「在組織中負責的特定職務、功能或責任範圍」與本句語境不同。",
-        "role-mcq-08": "「社會或群體中與某種身分相關的預期行為與功能」與本句語境不同。",
-        "role-mcq-03": "「在某件事中發揮特別重要或關鍵的作用」與本句語境不同。"
+        "role-mcq-06": "本句的「took on the role of mentor」指「開始承擔某項角色、功能或責任」。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-06"
     },
@@ -686,11 +632,8 @@ export default {
       "masked": "He ____ last year.",
       "options": [
         "role-mcq-06",
-        "role-mcq-05",
-        "role-mcq-07",
-        "role-mcq-04",
-        "role-mcq-08",
-        "role-mcq-03"
+        "role-mcq-02",
+        "role-mcq-16"
       ],
       "explanation": "本句的「took on a more senior role」指「開始承擔某項角色、功能或責任」。",
       "sentenceIndex": 13,
@@ -699,12 +642,9 @@ export default {
         "took on a more senior role"
       ],
       "optionReasons": {
-        "role-mcq-06": "本句指「開始承擔某項角色、功能或責任」。",
-        "role-mcq-05": "「需要帶領、影響或指導他人的領導職責／職位」與本句語境不同。",
-        "role-mcq-07": "「實際履行某項角色所包含的職責」與本句語境不同。",
-        "role-mcq-04": "「在組織中負責的特定職務、功能或責任範圍」與本句語境不同。",
-        "role-mcq-08": "「社會或群體中與某種身分相關的預期行為與功能」與本句語境不同。",
-        "role-mcq-03": "「在某件事中發揮特別重要或關鍵的作用」與本句語境不同。"
+        "role-mcq-06": "本句的「took on a more senior role」指「開始承擔某項角色、功能或責任」。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-06"
     },
@@ -716,11 +656,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "role-mcq-06",
-        "role-mcq-05",
-        "role-mcq-07",
-        "role-mcq-04",
-        "role-mcq-08",
-        "role-mcq-03"
+        "role-mcq-03",
+        "role-mcq-16"
       ],
       "explanation": "本句的「assumed the role of team leader」指「開始承擔某項角色、功能或責任」。",
       "sentenceIndex": 14,
@@ -729,12 +666,9 @@ export default {
         "assumed the role of team leader"
       ],
       "optionReasons": {
-        "role-mcq-06": "本句指「開始承擔某項角色、功能或責任」。",
-        "role-mcq-05": "「需要帶領、影響或指導他人的領導職責／職位」與本句語境不同。",
-        "role-mcq-07": "「實際履行某項角色所包含的職責」與本句語境不同。",
-        "role-mcq-04": "「在組織中負責的特定職務、功能或責任範圍」與本句語境不同。",
-        "role-mcq-08": "「社會或群體中與某種身分相關的預期行為與功能」與本句語境不同。",
-        "role-mcq-03": "「在某件事中發揮特別重要或關鍵的作用」與本句語境不同。"
+        "role-mcq-06": "本句的「assumed the role of team leader」指「開始承擔某項角色、功能或責任」。",
+        "role-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-06"
     },
@@ -746,11 +680,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "role-mcq-06",
-        "role-mcq-05",
-        "role-mcq-07",
-        "role-mcq-04",
-        "role-mcq-08",
-        "role-mcq-03"
+        "role-mcq-03",
+        "role-mcq-16"
       ],
       "explanation": "本句的「assumed a supervisory role」指「開始承擔某項角色、功能或責任」。",
       "sentenceIndex": 15,
@@ -759,12 +690,9 @@ export default {
         "assumed a supervisory role"
       ],
       "optionReasons": {
-        "role-mcq-06": "本句指「開始承擔某項角色、功能或責任」。",
-        "role-mcq-05": "「需要帶領、影響或指導他人的領導職責／職位」與本句語境不同。",
-        "role-mcq-07": "「實際履行某項角色所包含的職責」與本句語境不同。",
-        "role-mcq-04": "「在組織中負責的特定職務、功能或責任範圍」與本句語境不同。",
-        "role-mcq-08": "「社會或群體中與某種身分相關的預期行為與功能」與本句語境不同。",
-        "role-mcq-03": "「在某件事中發揮特別重要或關鍵的作用」與本句語境不同。"
+        "role-mcq-06": "本句的「assumed a supervisory role」指「開始承擔某項角色、功能或責任」。",
+        "role-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-06"
     },
@@ -776,11 +704,8 @@ export default {
       "masked": "She ____ effectively.",
       "options": [
         "role-mcq-07",
-        "role-mcq-06",
-        "role-mcq-08",
-        "role-mcq-05",
-        "role-mcq-09",
-        "role-mcq-04"
+        "role-mcq-02",
+        "role-mcq-12"
       ],
       "explanation": "本句的「fulfilled her role」指「實際履行某項角色所包含的職責」。",
       "sentenceIndex": 16,
@@ -789,12 +714,9 @@ export default {
         "fulfilled her role"
       ],
       "optionReasons": {
-        "role-mcq-07": "本句指「實際履行某項角色所包含的職責」。",
-        "role-mcq-06": "「開始承擔某項角色、功能或責任」與本句語境不同。",
-        "role-mcq-08": "「社會或群體中與某種身分相關的預期行為與功能」與本句語境不同。",
-        "role-mcq-05": "「需要帶領、影響或指導他人的領導職責／職位」與本句語境不同。",
-        "role-mcq-09": "「演員在戲劇、電影等作品中所飾演的角色」與本句語境不同。",
-        "role-mcq-04": "「在組織中負責的特定職務、功能或責任範圍」與本句語境不同。"
+        "role-mcq-07": "本句的「fulfilled her role」指「實際履行某項角色所包含的職責」。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-07"
     },
@@ -806,11 +728,8 @@ export default {
       "masked": "Each department ____.",
       "options": [
         "role-mcq-07",
-        "role-mcq-06",
-        "role-mcq-08",
-        "role-mcq-05",
-        "role-mcq-09",
-        "role-mcq-04"
+        "role-mcq-12",
+        "role-mcq-02"
       ],
       "explanation": "本句的「performs a different role」指「實際履行某項角色所包含的職責」。",
       "sentenceIndex": 17,
@@ -819,12 +738,9 @@ export default {
         "performs a different role"
       ],
       "optionReasons": {
-        "role-mcq-07": "本句指「實際履行某項角色所包含的職責」。",
-        "role-mcq-06": "「開始承擔某項角色、功能或責任」與本句語境不同。",
-        "role-mcq-08": "「社會或群體中與某種身分相關的預期行為與功能」與本句語境不同。",
-        "role-mcq-05": "「需要帶領、影響或指導他人的領導職責／職位」與本句語境不同。",
-        "role-mcq-09": "「演員在戲劇、電影等作品中所飾演的角色」與本句語境不同。",
-        "role-mcq-04": "「在組織中負責的特定職務、功能或責任範圍」與本句語境不同。"
+        "role-mcq-07": "本句的「performs a different role」指「實際履行某項角色所包含的職責」。",
+        "role-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-07"
     },
@@ -836,11 +752,8 @@ export default {
       "masked": "People often perform several different ____.",
       "options": [
         "role-mcq-08",
-        "role-mcq-07",
-        "role-mcq-09",
-        "role-mcq-06",
-        "role-mcq-10",
-        "role-mcq-05"
+        "role-mcq-11",
+        "role-mcq-02"
       ],
       "explanation": "本句的「social roles」指「社會或群體中與某種身分相關的預期行為與功能」。",
       "sentenceIndex": 18,
@@ -849,12 +762,9 @@ export default {
         "social roles"
       ],
       "optionReasons": {
-        "role-mcq-08": "本句指「社會或群體中與某種身分相關的預期行為與功能」。",
-        "role-mcq-07": "「實際履行某項角色所包含的職責」與本句語境不同。",
-        "role-mcq-09": "「演員在戲劇、電影等作品中所飾演的角色」與本句語境不同。",
-        "role-mcq-06": "「開始承擔某項角色、功能或責任」與本句語境不同。",
-        "role-mcq-10": "「作品中的主要演出角色；主角」與本句語境不同。",
-        "role-mcq-05": "「需要帶領、影響或指導他人的領導職責／職位」與本句語境不同。"
+        "role-mcq-08": "本句的「social roles」指「社會或群體中與某種身分相關的預期行為與功能」。",
+        "role-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-08"
     },
@@ -866,11 +776,8 @@ export default {
       "masked": "Ideas about gender ____ have changed over time.",
       "options": [
         "role-mcq-08",
-        "role-mcq-07",
         "role-mcq-09",
-        "role-mcq-06",
-        "role-mcq-10",
-        "role-mcq-05"
+        "role-mcq-03"
       ],
       "explanation": "本句的「roles」指「社會或群體中與某種身分相關的預期行為與功能」。",
       "sentenceIndex": 19,
@@ -879,12 +786,9 @@ export default {
         "roles"
       ],
       "optionReasons": {
-        "role-mcq-08": "本句指「社會或群體中與某種身分相關的預期行為與功能」。",
-        "role-mcq-07": "「實際履行某項角色所包含的職責」與本句語境不同。",
-        "role-mcq-09": "「演員在戲劇、電影等作品中所飾演的角色」與本句語境不同。",
-        "role-mcq-06": "「開始承擔某項角色、功能或責任」與本句語境不同。",
-        "role-mcq-10": "「作品中的主要演出角色；主角」與本句語境不同。",
-        "role-mcq-05": "「需要帶領、影響或指導他人的領導職責／職位」與本句語境不同。"
+        "role-mcq-08": "本句的「roles」指「社會或群體中與某種身分相關的預期行為與功能」。",
+        "role-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-08"
     },
@@ -896,11 +800,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "role-mcq-09",
-        "role-mcq-08",
-        "role-mcq-10",
-        "role-mcq-07",
-        "role-mcq-11",
-        "role-mcq-06"
+        "role-mcq-12",
+        "role-mcq-03"
       ],
       "explanation": "本句的「played the role of Juliet」指「演員在戲劇、電影等作品中所飾演的角色」。",
       "sentenceIndex": 24,
@@ -909,12 +810,9 @@ export default {
         "played the role of Juliet"
       ],
       "optionReasons": {
-        "role-mcq-09": "本句指「演員在戲劇、電影等作品中所飾演的角色」。",
-        "role-mcq-08": "「社會或群體中與某種身分相關的預期行為與功能」與本句語境不同。",
-        "role-mcq-10": "「作品中的主要演出角色；主角」與本句語境不同。",
-        "role-mcq-07": "「實際履行某項角色所包含的職責」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。",
-        "role-mcq-06": "「開始承擔某項角色、功能或責任」與本句語境不同。"
+        "role-mcq-09": "本句的「played the role of Juliet」指「演員在戲劇、電影等作品中所飾演的角色」。",
+        "role-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-09"
     },
@@ -926,11 +824,8 @@ export default {
       "masked": "He has played several comic ____.",
       "options": [
         "role-mcq-09",
-        "role-mcq-08",
-        "role-mcq-10",
-        "role-mcq-07",
-        "role-mcq-11",
-        "role-mcq-06"
+        "role-mcq-03",
+        "role-mcq-12"
       ],
       "explanation": "本句的「roles」指「演員在戲劇、電影等作品中所飾演的角色」。",
       "sentenceIndex": 25,
@@ -939,12 +834,9 @@ export default {
         "roles"
       ],
       "optionReasons": {
-        "role-mcq-09": "本句指「演員在戲劇、電影等作品中所飾演的角色」。",
-        "role-mcq-08": "「社會或群體中與某種身分相關的預期行為與功能」與本句語境不同。",
-        "role-mcq-10": "「作品中的主要演出角色；主角」與本句語境不同。",
-        "role-mcq-07": "「實際履行某項角色所包含的職責」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。",
-        "role-mcq-06": "「開始承擔某項角色、功能或責任」與本句語境不同。"
+        "role-mcq-09": "本句的「roles」指「演員在戲劇、電影等作品中所飾演的角色」。",
+        "role-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-09"
     },
@@ -956,11 +848,8 @@ export default {
       "masked": "She got the ____ in the play.",
       "options": [
         "role-mcq-10",
-        "role-mcq-09",
-        "role-mcq-11",
         "role-mcq-08",
-        "role-mcq-12",
-        "role-mcq-07"
+        "role-mcq-02"
       ],
       "explanation": "本句的「lead role」指「作品中的主要演出角色；主角」。",
       "sentenceIndex": 26,
@@ -969,12 +858,9 @@ export default {
         "lead role"
       ],
       "optionReasons": {
-        "role-mcq-10": "本句指「作品中的主要演出角色；主角」。",
-        "role-mcq-09": "「演員在戲劇、電影等作品中所飾演的角色」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。",
-        "role-mcq-08": "「社會或群體中與某種身分相關的預期行為與功能」與本句語境不同。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-07": "「實際履行某項角色所包含的職責」與本句語境不同。"
+        "role-mcq-10": "本句的「lead role」指「作品中的主要演出角色；主角」。",
+        "role-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-10"
     },
@@ -986,11 +872,8 @@ export default {
       "masked": "He is best known for a ____ in a television drama.",
       "options": [
         "role-mcq-10",
-        "role-mcq-09",
-        "role-mcq-11",
         "role-mcq-08",
-        "role-mcq-12",
-        "role-mcq-07"
+        "role-mcq-02"
       ],
       "explanation": "本句的「lead role」指「作品中的主要演出角色；主角」。",
       "sentenceIndex": 27,
@@ -999,12 +882,9 @@ export default {
         "lead role"
       ],
       "optionReasons": {
-        "role-mcq-10": "本句指「作品中的主要演出角色；主角」。",
-        "role-mcq-09": "「演員在戲劇、電影等作品中所飾演的角色」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。",
-        "role-mcq-08": "「社會或群體中與某種身分相關的預期行為與功能」與本句語境不同。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-07": "「實際履行某項角色所包含的職責」與本句語境不同。"
+        "role-mcq-10": "本句的「lead role」指「作品中的主要演出角色；主角」。",
+        "role-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-10"
     },
@@ -1016,11 +896,8 @@ export default {
       "masked": "He won an award for best ____.",
       "options": [
         "role-mcq-11",
-        "role-mcq-10",
-        "role-mcq-12",
-        "role-mcq-09",
-        "role-mcq-13",
-        "role-mcq-08"
+        "role-mcq-02",
+        "role-mcq-16"
       ],
       "explanation": "本句的「supporting role」指「次於主角的重要演出角色；配角」。",
       "sentenceIndex": 28,
@@ -1029,12 +906,9 @@ export default {
         "supporting role"
       ],
       "optionReasons": {
-        "role-mcq-11": "本句指「次於主角的重要演出角色；配角」。",
-        "role-mcq-10": "「作品中的主要演出角色；主角」與本句語境不同。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-09": "「演員在戲劇、電影等作品中所飾演的角色」與本句語境不同。",
-        "role-mcq-13": "「某人的主要職責／功能是做……」與本句語境不同。",
-        "role-mcq-08": "「社會或群體中與某種身分相關的預期行為與功能」與本句語境不同。"
+        "role-mcq-11": "本句的「supporting role」指「次於主角的重要演出角色；配角」。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-11"
     },
@@ -1046,11 +920,8 @@ export default {
       "masked": "She appears in a ____.",
       "options": [
         "role-mcq-11",
-        "role-mcq-10",
-        "role-mcq-12",
-        "role-mcq-09",
-        "role-mcq-13",
-        "role-mcq-08"
+        "role-mcq-04",
+        "role-mcq-02"
       ],
       "explanation": "本句的「supporting role」指「次於主角的重要演出角色；配角」。",
       "sentenceIndex": 29,
@@ -1059,12 +930,9 @@ export default {
         "supporting role"
       ],
       "optionReasons": {
-        "role-mcq-11": "本句指「次於主角的重要演出角色；配角」。",
-        "role-mcq-10": "「作品中的主要演出角色；主角」與本句語境不同。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-09": "「演員在戲劇、電影等作品中所飾演的角色」與本句語境不同。",
-        "role-mcq-13": "「某人的主要職責／功能是做……」與本句語境不同。",
-        "role-mcq-08": "「社會或群體中與某種身分相關的預期行為與功能」與本句語境不同。"
+        "role-mcq-11": "本句的「supporting role」指「次於主角的重要演出角色；配角」。",
+        "role-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-11"
     },
@@ -1076,11 +944,8 @@ export default {
       "masked": "Water plays an essential ____ in the body.",
       "options": [
         "role-mcq-12",
-        "role-mcq-11",
-        "role-mcq-13",
-        "role-mcq-10",
-        "role-mcq-14",
-        "role-mcq-09"
+        "role-mcq-02",
+        "role-mcq-15"
       ],
       "explanation": "本句的「role」指「某事物、機構或因素在整體系統中的功能或作用」。",
       "sentenceIndex": 30,
@@ -1089,12 +954,9 @@ export default {
         "role"
       ],
       "optionReasons": {
-        "role-mcq-12": "本句指「某事物、機構或因素在整體系統中的功能或作用」。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。",
-        "role-mcq-13": "「某人的主要職責／功能是做……」與本句語境不同。",
-        "role-mcq-10": "「作品中的主要演出角色；主角」與本句語境不同。",
-        "role-mcq-14": "「原本不同的人交換彼此通常的角色或責任」與本句語境不同。",
-        "role-mcq-09": "「演員在戲劇、電影等作品中所飾演的角色」與本句語境不同。"
+        "role-mcq-12": "本句的「role」指「某事物、機構或因素在整體系統中的功能或作用」。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-12"
     },
@@ -1106,11 +968,8 @@ export default {
       "masked": "The committee’s ____ is to provide advice.",
       "options": [
         "role-mcq-12",
-        "role-mcq-11",
-        "role-mcq-13",
-        "role-mcq-10",
-        "role-mcq-14",
-        "role-mcq-09"
+        "role-mcq-15",
+        "role-mcq-03"
       ],
       "explanation": "本句的「role」指「某事物、機構或因素在整體系統中的功能或作用」。",
       "sentenceIndex": 31,
@@ -1119,12 +978,9 @@ export default {
         "role"
       ],
       "optionReasons": {
-        "role-mcq-12": "本句指「某事物、機構或因素在整體系統中的功能或作用」。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。",
-        "role-mcq-13": "「某人的主要職責／功能是做……」與本句語境不同。",
-        "role-mcq-10": "「作品中的主要演出角色；主角」與本句語境不同。",
-        "role-mcq-14": "「原本不同的人交換彼此通常的角色或責任」與本句語境不同。",
-        "role-mcq-09": "「演員在戲劇、電影等作品中所飾演的角色」與本句語境不同。"
+        "role-mcq-12": "本句的「role」指「某事物、機構或因素在整體系統中的功能或作用」。",
+        "role-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-12"
     },
@@ -1136,11 +992,8 @@ export default {
       "masked": "Stress may play a ____ sleep problems.",
       "options": [
         "role-mcq-12",
-        "role-mcq-11",
-        "role-mcq-13",
-        "role-mcq-10",
         "role-mcq-14",
-        "role-mcq-09"
+        "role-mcq-03"
       ],
       "explanation": "本句的「role in causing」指「某事物、機構或因素在整體系統中的功能或作用」。",
       "sentenceIndex": 32,
@@ -1149,12 +1002,9 @@ export default {
         "role in causing"
       ],
       "optionReasons": {
-        "role-mcq-12": "本句指「某事物、機構或因素在整體系統中的功能或作用」。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。",
-        "role-mcq-13": "「某人的主要職責／功能是做……」與本句語境不同。",
-        "role-mcq-10": "「作品中的主要演出角色；主角」與本句語境不同。",
-        "role-mcq-14": "「原本不同的人交換彼此通常的角色或責任」與本句語境不同。",
-        "role-mcq-09": "「演員在戲劇、電影等作品中所飾演的角色」與本句語境不同。"
+        "role-mcq-12": "本句的「role in causing」指「某事物、機構或因素在整體系統中的功能或作用」。",
+        "role-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-12"
     },
@@ -1166,11 +1016,8 @@ export default {
       "masked": "Education has a ____ misinformation.",
       "options": [
         "role-mcq-12",
-        "role-mcq-11",
-        "role-mcq-13",
-        "role-mcq-10",
-        "role-mcq-14",
-        "role-mcq-09"
+        "role-mcq-09",
+        "role-mcq-02"
       ],
       "explanation": "本句的「role in preventing」指「某事物、機構或因素在整體系統中的功能或作用」。",
       "sentenceIndex": 33,
@@ -1179,12 +1026,9 @@ export default {
         "role in preventing"
       ],
       "optionReasons": {
-        "role-mcq-12": "本句指「某事物、機構或因素在整體系統中的功能或作用」。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。",
-        "role-mcq-13": "「某人的主要職責／功能是做……」與本句語境不同。",
-        "role-mcq-10": "「作品中的主要演出角色；主角」與本句語境不同。",
-        "role-mcq-14": "「原本不同的人交換彼此通常的角色或責任」與本句語境不同。",
-        "role-mcq-09": "「演員在戲劇、電影等作品中所飾演的角色」與本句語境不同。"
+        "role-mcq-12": "本句的「role in preventing」指「某事物、機構或因素在整體系統中的功能或作用」。",
+        "role-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-12"
     },
@@ -1196,11 +1040,8 @@ export default {
       "masked": "My ____.",
       "options": [
         "role-mcq-13",
-        "role-mcq-12",
-        "role-mcq-14",
-        "role-mcq-11",
-        "role-mcq-15",
-        "role-mcq-10"
+        "role-mcq-02",
+        "role-mcq-09"
       ],
       "explanation": "本句的「role is to support the team」指「某人的主要職責／功能是做……」。",
       "sentenceIndex": 34,
@@ -1209,12 +1050,9 @@ export default {
         "role is to support the team"
       ],
       "optionReasons": {
-        "role-mcq-13": "本句指「某人的主要職責／功能是做……」。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-14": "「原本不同的人交換彼此通常的角色或責任」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。",
-        "role-mcq-15": "「為練習或模擬情境而扮演特定角色」與本句語境不同。",
-        "role-mcq-10": "「作品中的主要演出角色；主角」與本句語境不同。"
+        "role-mcq-13": "本句的「role is to support the team」指「某人的主要職責／功能是做……」。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-13"
     },
@@ -1226,11 +1064,8 @@ export default {
       "masked": "A mentor’s ____.",
       "options": [
         "role-mcq-13",
-        "role-mcq-12",
-        "role-mcq-14",
-        "role-mcq-11",
-        "role-mcq-15",
-        "role-mcq-10"
+        "role-mcq-02",
+        "role-mcq-15"
       ],
       "explanation": "本句的「role is to guide, not control」指「某人的主要職責／功能是做……」。",
       "sentenceIndex": 35,
@@ -1239,12 +1074,9 @@ export default {
         "role is to guide, not control"
       ],
       "optionReasons": {
-        "role-mcq-13": "本句指「某人的主要職責／功能是做……」。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-14": "「原本不同的人交換彼此通常的角色或責任」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。",
-        "role-mcq-15": "「為練習或模擬情境而扮演特定角色」與本句語境不同。",
-        "role-mcq-10": "「作品中的主要演出角色；主角」與本句語境不同。"
+        "role-mcq-13": "本句的「role is to guide, not control」指「某人的主要職責／功能是做……」。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-13"
     },
@@ -1256,11 +1088,8 @@ export default {
       "masked": "Everyone needs to ____.",
       "options": [
         "role-mcq-13",
-        "role-mcq-12",
-        "role-mcq-14",
-        "role-mcq-11",
-        "role-mcq-15",
-        "role-mcq-10"
+        "role-mcq-09",
+        "role-mcq-02"
       ],
       "explanation": "本句的「know their role」指「某人的主要職責／功能是做……」。",
       "sentenceIndex": 36,
@@ -1269,12 +1098,9 @@ export default {
         "know their role"
       ],
       "optionReasons": {
-        "role-mcq-13": "本句指「某人的主要職責／功能是做……」。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-14": "「原本不同的人交換彼此通常的角色或責任」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。",
-        "role-mcq-15": "「為練習或模擬情境而扮演特定角色」與本句語境不同。",
-        "role-mcq-10": "「作品中的主要演出角色；主角」與本句語境不同。"
+        "role-mcq-13": "本句的「know their role」指「某人的主要職責／功能是做……」。",
+        "role-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-13"
     },
@@ -1286,11 +1112,8 @@ export default {
       "masked": "Clear teams work better when members ____.",
       "options": [
         "role-mcq-13",
-        "role-mcq-12",
-        "role-mcq-14",
-        "role-mcq-11",
-        "role-mcq-15",
-        "role-mcq-10"
+        "role-mcq-09",
+        "role-mcq-02"
       ],
       "explanation": "本句的「know their roles」指「某人的主要職責／功能是做……」。",
       "sentenceIndex": 37,
@@ -1299,12 +1122,9 @@ export default {
         "know their roles"
       ],
       "optionReasons": {
-        "role-mcq-13": "本句指「某人的主要職責／功能是做……」。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-14": "「原本不同的人交換彼此通常的角色或責任」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。",
-        "role-mcq-15": "「為練習或模擬情境而扮演特定角色」與本句語境不同。",
-        "role-mcq-10": "「作品中的主要演出角色；主角」與本句語境不同。"
+        "role-mcq-13": "本句的「know their roles」指「某人的主要職責／功能是做……」。",
+        "role-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-13"
     },
@@ -1316,11 +1136,8 @@ export default {
       "masked": "Genetics may ____ the condition.",
       "options": [
         "role-mcq-02",
-        "role-mcq-01",
-        "role-mcq-03",
-        "role-mcq-04",
-        "role-mcq-05",
-        "role-mcq-06"
+        "role-mcq-06",
+        "role-mcq-16"
       ],
       "explanation": "本句的「have a role in」指「對某件事的發展、結果或運作產生作用／影響」。",
       "sentenceIndex": 38,
@@ -1329,12 +1146,9 @@ export default {
         "have a role in"
       ],
       "optionReasons": {
-        "role-mcq-02": "本句指「對某件事的發展、結果或運作產生作用／影響」。",
-        "role-mcq-01": "「某人在特定情況、群體或活動中所承擔的功能、部分或職責」與本句語境不同。",
-        "role-mcq-03": "「在某件事中發揮特別重要或關鍵的作用」與本句語境不同。",
-        "role-mcq-04": "「在組織中負責的特定職務、功能或責任範圍」與本句語境不同。",
-        "role-mcq-05": "「需要帶領、影響或指導他人的領導職責／職位」與本句語境不同。",
-        "role-mcq-06": "「開始承擔某項角色、功能或責任」與本句語境不同。"
+        "role-mcq-02": "本句的「have a role in」指「對某件事的發展、結果或運作產生作用／影響」。",
+        "role-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-02"
     },
@@ -1346,11 +1160,8 @@ export default {
       "masked": "Several factors ____ the final decision.",
       "options": [
         "role-mcq-02",
-        "role-mcq-01",
-        "role-mcq-03",
-        "role-mcq-04",
-        "role-mcq-05",
-        "role-mcq-06"
+        "role-mcq-16",
+        "role-mcq-10"
       ],
       "explanation": "本句的「had a role in」指「對某件事的發展、結果或運作產生作用／影響」。",
       "sentenceIndex": 39,
@@ -1359,12 +1170,9 @@ export default {
         "had a role in"
       ],
       "optionReasons": {
-        "role-mcq-02": "本句指「對某件事的發展、結果或運作產生作用／影響」。",
-        "role-mcq-01": "「某人在特定情況、群體或活動中所承擔的功能、部分或職責」與本句語境不同。",
-        "role-mcq-03": "「在某件事中發揮特別重要或關鍵的作用」與本句語境不同。",
-        "role-mcq-04": "「在組織中負責的特定職務、功能或責任範圍」與本句語境不同。",
-        "role-mcq-05": "「需要帶領、影響或指導他人的領導職責／職位」與本句語境不同。",
-        "role-mcq-06": "「開始承擔某項角色、功能或責任」與本句語境不同。"
+        "role-mcq-02": "本句的「had a role in」指「對某件事的發展、結果或運作產生作用／影響」。",
+        "role-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-02"
     },
@@ -1376,11 +1184,8 @@ export default {
       "masked": "The story involves an interesting ____.",
       "options": [
         "role-mcq-14",
-        "role-mcq-13",
-        "role-mcq-15",
         "role-mcq-12",
-        "role-mcq-16",
-        "role-mcq-11"
+        "role-mcq-02"
       ],
       "explanation": "本句的「role reversal」指「原本不同的人交換彼此通常的角色或責任」。",
       "sentenceIndex": 42,
@@ -1389,12 +1194,9 @@ export default {
         "role reversal"
       ],
       "optionReasons": {
-        "role-mcq-14": "本句指「原本不同的人交換彼此通常的角色或責任」。",
-        "role-mcq-13": "「某人的主要職責／功能是做……」與本句語境不同。",
-        "role-mcq-15": "「為練習或模擬情境而扮演特定角色」與本句語境不同。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-16": "「行為、品格或成就值得他人學習模仿的人；榜樣」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。"
+        "role-mcq-14": "本句的「role reversal」指「原本不同的人交換彼此通常的角色或責任」。",
+        "role-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-14"
     },
@@ -1406,11 +1208,8 @@ export default {
       "masked": "Caring for an aging parent can sometimes create a ____.",
       "options": [
         "role-mcq-14",
-        "role-mcq-13",
-        "role-mcq-15",
-        "role-mcq-12",
-        "role-mcq-16",
-        "role-mcq-11"
+        "role-mcq-02",
+        "role-mcq-08"
       ],
       "explanation": "本句的「role reversal」指「原本不同的人交換彼此通常的角色或責任」。",
       "sentenceIndex": 43,
@@ -1419,12 +1218,9 @@ export default {
         "role reversal"
       ],
       "optionReasons": {
-        "role-mcq-14": "本句指「原本不同的人交換彼此通常的角色或責任」。",
-        "role-mcq-13": "「某人的主要職責／功能是做……」與本句語境不同。",
-        "role-mcq-15": "「為練習或模擬情境而扮演特定角色」與本句語境不同。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-16": "「行為、品格或成就值得他人學習模仿的人；榜樣」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。"
+        "role-mcq-14": "本句的「role reversal」指「原本不同的人交換彼此通常的角色或責任」。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-14"
     },
@@ -1436,11 +1232,8 @@ export default {
       "masked": "We practiced interviews through ____.",
       "options": [
         "role-mcq-15",
-        "role-mcq-14",
-        "role-mcq-16",
         "role-mcq-13",
-        "role-mcq-12",
-        "role-mcq-11"
+        "role-mcq-02"
       ],
       "explanation": "本句的「role-play」指「為練習或模擬情境而扮演特定角色」。",
       "sentenceIndex": 46,
@@ -1449,12 +1242,9 @@ export default {
         "role-play"
       ],
       "optionReasons": {
-        "role-mcq-15": "本句指「為練習或模擬情境而扮演特定角色」。",
-        "role-mcq-14": "「原本不同的人交換彼此通常的角色或責任」與本句語境不同。",
-        "role-mcq-16": "「行為、品格或成就值得他人學習模仿的人；榜樣」與本句語境不同。",
-        "role-mcq-13": "「某人的主要職責／功能是做……」與本句語境不同。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。"
+        "role-mcq-15": "本句的「role-play」指「為練習或模擬情境而扮演特定角色」。",
+        "role-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-15"
     },
@@ -1466,11 +1256,8 @@ export default {
       "masked": "The lesson included a customer-service ____.",
       "options": [
         "role-mcq-15",
-        "role-mcq-14",
-        "role-mcq-16",
-        "role-mcq-13",
         "role-mcq-12",
-        "role-mcq-11"
+        "role-mcq-02"
       ],
       "explanation": "本句的「role-play」指「為練習或模擬情境而扮演特定角色」。",
       "sentenceIndex": 47,
@@ -1479,12 +1266,9 @@ export default {
         "role-play"
       ],
       "optionReasons": {
-        "role-mcq-15": "本句指「為練習或模擬情境而扮演特定角色」。",
-        "role-mcq-14": "「原本不同的人交換彼此通常的角色或責任」與本句語境不同。",
-        "role-mcq-16": "「行為、品格或成就值得他人學習模仿的人；榜樣」與本句語境不同。",
-        "role-mcq-13": "「某人的主要職責／功能是做……」與本句語境不同。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。"
+        "role-mcq-15": "本句的「role-play」指「為練習或模擬情境而扮演特定角色」。",
+        "role-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-15"
     },
@@ -1496,11 +1280,8 @@ export default {
       "masked": "Students ____.",
       "options": [
         "role-mcq-15",
-        "role-mcq-14",
-        "role-mcq-16",
         "role-mcq-13",
-        "role-mcq-12",
-        "role-mcq-11"
+        "role-mcq-02"
       ],
       "explanation": "本句的「role-played a job interview」指「為練習或模擬情境而扮演特定角色」。",
       "sentenceIndex": 48,
@@ -1509,12 +1290,9 @@ export default {
         "role-played a job interview"
       ],
       "optionReasons": {
-        "role-mcq-15": "本句指「為練習或模擬情境而扮演特定角色」。",
-        "role-mcq-14": "「原本不同的人交換彼此通常的角色或責任」與本句語境不同。",
-        "role-mcq-16": "「行為、品格或成就值得他人學習模仿的人；榜樣」與本句語境不同。",
-        "role-mcq-13": "「某人的主要職責／功能是做……」與本句語境不同。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。"
+        "role-mcq-15": "本句的「role-played a job interview」指「為練習或模擬情境而扮演特定角色」。",
+        "role-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-15"
     },
@@ -1526,11 +1304,8 @@ export default {
       "masked": "Let’s ____ first.",
       "options": [
         "role-mcq-15",
-        "role-mcq-14",
-        "role-mcq-16",
-        "role-mcq-13",
-        "role-mcq-12",
-        "role-mcq-11"
+        "role-mcq-02",
+        "role-mcq-08"
       ],
       "explanation": "本句的「role-play the conversation」指「為練習或模擬情境而扮演特定角色」。",
       "sentenceIndex": 49,
@@ -1539,12 +1314,9 @@ export default {
         "role-play the conversation"
       ],
       "optionReasons": {
-        "role-mcq-15": "本句指「為練習或模擬情境而扮演特定角色」。",
-        "role-mcq-14": "「原本不同的人交換彼此通常的角色或責任」與本句語境不同。",
-        "role-mcq-16": "「行為、品格或成就值得他人學習模仿的人；榜樣」與本句語境不同。",
-        "role-mcq-13": "「某人的主要職責／功能是做……」與本句語境不同。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。"
+        "role-mcq-15": "本句的「role-play the conversation」指「為練習或模擬情境而扮演特定角色」。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-15"
     },
@@ -1556,11 +1328,8 @@ export default {
       "masked": "____ can improve speaking confidence.",
       "options": [
         "role-mcq-15",
-        "role-mcq-14",
-        "role-mcq-16",
-        "role-mcq-13",
         "role-mcq-12",
-        "role-mcq-11"
+        "role-mcq-02"
       ],
       "explanation": "本句的「Role-playing」指「為練習或模擬情境而扮演特定角色」。",
       "sentenceIndex": 50,
@@ -1569,12 +1338,9 @@ export default {
         "Role-playing"
       ],
       "optionReasons": {
-        "role-mcq-15": "本句指「為練習或模擬情境而扮演特定角色」。",
-        "role-mcq-14": "「原本不同的人交換彼此通常的角色或責任」與本句語境不同。",
-        "role-mcq-16": "「行為、品格或成就值得他人學習模仿的人；榜樣」與本句語境不同。",
-        "role-mcq-13": "「某人的主要職責／功能是做……」與本句語境不同。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。"
+        "role-mcq-15": "本句的「Role-playing」指「為練習或模擬情境而扮演特定角色」。",
+        "role-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-15"
     },
@@ -1586,11 +1352,8 @@ export default {
       "masked": "She enjoys ____.",
       "options": [
         "role-mcq-15",
-        "role-mcq-14",
-        "role-mcq-16",
-        "role-mcq-13",
         "role-mcq-12",
-        "role-mcq-11"
+        "role-mcq-02"
       ],
       "explanation": "本句的「role-playing games」指「為練習或模擬情境而扮演特定角色」。",
       "sentenceIndex": 51,
@@ -1599,12 +1362,9 @@ export default {
         "role-playing games"
       ],
       "optionReasons": {
-        "role-mcq-15": "本句指「為練習或模擬情境而扮演特定角色」。",
-        "role-mcq-14": "「原本不同的人交換彼此通常的角色或責任」與本句語境不同。",
-        "role-mcq-16": "「行為、品格或成就值得他人學習模仿的人；榜樣」與本句語境不同。",
-        "role-mcq-13": "「某人的主要職責／功能是做……」與本句語境不同。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。"
+        "role-mcq-15": "本句的「role-playing games」指「為練習或模擬情境而扮演特定角色」。",
+        "role-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-15"
     },
@@ -1616,11 +1376,8 @@ export default {
       "masked": "Her teacher became a ____ for her.",
       "options": [
         "role-mcq-16",
-        "role-mcq-15",
-        "role-mcq-14",
-        "role-mcq-13",
-        "role-mcq-12",
-        "role-mcq-11"
+        "role-mcq-06",
+        "role-mcq-03"
       ],
       "explanation": "本句的「role model」指「行為、品格或成就值得他人學習模仿的人；榜樣」。",
       "sentenceIndex": 52,
@@ -1629,12 +1386,9 @@ export default {
         "role model"
       ],
       "optionReasons": {
-        "role-mcq-16": "本句指「行為、品格或成就值得他人學習模仿的人；榜樣」。",
-        "role-mcq-15": "「為練習或模擬情境而扮演特定角色」與本句語境不同。",
-        "role-mcq-14": "「原本不同的人交換彼此通常的角色或責任」與本句語境不同。",
-        "role-mcq-13": "「某人的主要職責／功能是做……」與本句語境不同。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。"
+        "role-mcq-16": "本句的「role model」指「行為、品格或成就值得他人學習模仿的人；榜樣」。",
+        "role-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-16"
     },
@@ -1646,11 +1400,8 @@ export default {
       "masked": "Young people need positive ____.",
       "options": [
         "role-mcq-16",
-        "role-mcq-15",
-        "role-mcq-14",
-        "role-mcq-13",
-        "role-mcq-12",
-        "role-mcq-11"
+        "role-mcq-11",
+        "role-mcq-02"
       ],
       "explanation": "本句的「role models」指「行為、品格或成就值得他人學習模仿的人；榜樣」。",
       "sentenceIndex": 53,
@@ -1659,12 +1410,9 @@ export default {
         "role models"
       ],
       "optionReasons": {
-        "role-mcq-16": "本句指「行為、品格或成就值得他人學習模仿的人；榜樣」。",
-        "role-mcq-15": "「為練習或模擬情境而扮演特定角色」與本句語境不同。",
-        "role-mcq-14": "「原本不同的人交換彼此通常的角色或責任」與本句語境不同。",
-        "role-mcq-13": "「某人的主要職責／功能是做……」與本句語境不同。",
-        "role-mcq-12": "「某事物、機構或因素在整體系統中的功能或作用」與本句語境不同。",
-        "role-mcq-11": "「次於主角的重要演出角色；配角」與本句語境不同。"
+        "role-mcq-16": "本句的「role models」指「行為、品格或成就值得他人學習模仿的人；榜樣」。",
+        "role-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "role-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "role-mcq-16"
     }
@@ -1676,5 +1424,7 @@ export default {
     "sha256": "978728c9ca1a60fd116605c8209f49ced37b418b6a9d8482d624547c1e1e0317",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -99,7 +99,7 @@ export default {
     },
     {
       "id": "well-mcq-05",
-      "title": "表示某狀態達到很高、充分的程度",
+      "title": "某狀態達到很高、充分的程度",
       "form": "well + adjective/participle",
       "en": "well + adjective/participle",
       "zh": "表示某狀態達到很高、充分的程度",
@@ -547,11 +547,9 @@ export default {
       "masked": "The advertisement ____.",
       "options": [
         "well-mcq-01",
-        "well-mcq-02",
-        "well-mcq-03",
-        "well-mcq-04",
-        "well-mcq-05",
-        "well-mcq-06"
+        "well-mcq-17",
+        "well-mcq-22",
+        "well-mcq-23"
       ],
       "explanation": "本句的「worked very well」指「某項行動、方法或系統成功達到預期目的，效果令人滿意地」。",
       "sentenceIndex": 0,
@@ -560,12 +558,10 @@ export default {
         "worked very well"
       ],
       "optionReasons": {
-        "well-mcq-01": "本句指「某項行動、方法或系統成功達到預期目的，效果令人滿意地」。",
-        "well-mcq-02": "「某項技能或表現達到良好／高水準地」是「well — skillfully」的用法，與本句語境不同。",
-        "well-mcq-03": "「某件事情進展或結果順利、令人滿意地」是「well — satisfactory progress」的用法，與本句語境不同。",
-        "well-mcq-04": "「某件事進行得充分、徹底或深入地」是「well — thoroughly」的用法，與本句語境不同。",
-        "well-mcq-05": "「表示某狀態達到很高、充分的程度」是「well + adjective/participle」的用法，與本句語境不同。",
-        "well-mcq-06": "「與某個時間、數量或程度界線相差很遠地」是「well — degree」的用法，與本句語境不同。"
+        "well-mcq-01": "本句的「worked very well」指「某項行動、方法或系統成功達到預期目的，效果令人滿意地」。",
+        "well-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-01"
     },
@@ -577,11 +573,9 @@ export default {
       "masked": "The new system works ____.",
       "options": [
         "well-mcq-01",
-        "well-mcq-02",
-        "well-mcq-03",
-        "well-mcq-04",
-        "well-mcq-05",
-        "well-mcq-06"
+        "well-mcq-22",
+        "well-mcq-17",
+        "well-mcq-07"
       ],
       "explanation": "本句的「well」指「某項行動、方法或系統成功達到預期目的，效果令人滿意地」。",
       "sentenceIndex": 1,
@@ -590,12 +584,10 @@ export default {
         "well"
       ],
       "optionReasons": {
-        "well-mcq-01": "本句指「某項行動、方法或系統成功達到預期目的，效果令人滿意地」。",
-        "well-mcq-02": "「某項技能或表現達到良好／高水準地」是「well — skillfully」的用法，與本句語境不同。",
-        "well-mcq-03": "「某件事情進展或結果順利、令人滿意地」是「well — satisfactory progress」的用法，與本句語境不同。",
-        "well-mcq-04": "「某件事進行得充分、徹底或深入地」是「well — thoroughly」的用法，與本句語境不同。",
-        "well-mcq-05": "「表示某狀態達到很高、充分的程度」是「well + adjective/participle」的用法，與本句語境不同。",
-        "well-mcq-06": "「與某個時間、數量或程度界線相差很遠地」是「well — degree」的用法，與本句語境不同。"
+        "well-mcq-01": "本句的「well」指「某項行動、方法或系統成功達到預期目的，效果令人滿意地」。",
+        "well-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-01"
     },
@@ -607,11 +599,9 @@ export default {
       "masked": "The treatment worked surprisingly ____.",
       "options": [
         "well-mcq-01",
-        "well-mcq-02",
-        "well-mcq-03",
-        "well-mcq-04",
-        "well-mcq-05",
-        "well-mcq-06"
+        "well-mcq-06",
+        "well-mcq-20",
+        "well-mcq-17"
       ],
       "explanation": "本句的「well」指「某項行動、方法或系統成功達到預期目的，效果令人滿意地」。",
       "sentenceIndex": 2,
@@ -620,12 +610,10 @@ export default {
         "well"
       ],
       "optionReasons": {
-        "well-mcq-01": "本句指「某項行動、方法或系統成功達到預期目的，效果令人滿意地」。",
-        "well-mcq-02": "「某項技能或表現達到良好／高水準地」是「well — skillfully」的用法，與本句語境不同。",
-        "well-mcq-03": "「某件事情進展或結果順利、令人滿意地」是「well — satisfactory progress」的用法，與本句語境不同。",
-        "well-mcq-04": "「某件事進行得充分、徹底或深入地」是「well — thoroughly」的用法，與本句語境不同。",
-        "well-mcq-05": "「表示某狀態達到很高、充分的程度」是「well + adjective/participle」的用法，與本句語境不同。",
-        "well-mcq-06": "「與某個時間、數量或程度界線相差很遠地」是「well — degree」的用法，與本句語境不同。"
+        "well-mcq-01": "本句的「well」指「某項行動、方法或系統成功達到預期目的，效果令人滿意地」。",
+        "well-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-01"
     },
@@ -637,11 +625,9 @@ export default {
       "masked": "She speaks English very ____.",
       "options": [
         "well-mcq-02",
-        "well-mcq-01",
+        "well-mcq-15",
         "well-mcq-03",
-        "well-mcq-04",
-        "well-mcq-05",
-        "well-mcq-06"
+        "well-mcq-18"
       ],
       "explanation": "本句的「well」指「某項技能或表現達到良好／高水準地」。",
       "sentenceIndex": 3,
@@ -650,12 +636,10 @@ export default {
         "well"
       ],
       "optionReasons": {
-        "well-mcq-02": "本句指「某項技能或表現達到良好／高水準地」。",
-        "well-mcq-01": "「某項行動、方法或系統成功達到預期目的，效果令人滿意地」是「well — effectively」的用法，與本句語境不同。",
-        "well-mcq-03": "「某件事情進展或結果順利、令人滿意地」是「well — satisfactory progress」的用法，與本句語境不同。",
-        "well-mcq-04": "「某件事進行得充分、徹底或深入地」是「well — thoroughly」的用法，與本句語境不同。",
-        "well-mcq-05": "「表示某狀態達到很高、充分的程度」是「well + adjective/participle」的用法，與本句語境不同。",
-        "well-mcq-06": "「與某個時間、數量或程度界線相差很遠地」是「well — degree」的用法，與本句語境不同。"
+        "well-mcq-02": "本句的「well」指「某項技能或表現達到良好／高水準地」。",
+        "well-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-02"
     },
@@ -667,11 +651,9 @@ export default {
       "masked": "He played the piano ____.",
       "options": [
         "well-mcq-02",
-        "well-mcq-01",
-        "well-mcq-03",
-        "well-mcq-04",
-        "well-mcq-05",
-        "well-mcq-06"
+        "well-mcq-12",
+        "well-mcq-22",
+        "well-mcq-24"
       ],
       "explanation": "本句的「well」指「某項技能或表現達到良好／高水準地」。",
       "sentenceIndex": 4,
@@ -680,12 +662,10 @@ export default {
         "well"
       ],
       "optionReasons": {
-        "well-mcq-02": "本句指「某項技能或表現達到良好／高水準地」。",
-        "well-mcq-01": "「某項行動、方法或系統成功達到預期目的，效果令人滿意地」是「well — effectively」的用法，與本句語境不同。",
-        "well-mcq-03": "「某件事情進展或結果順利、令人滿意地」是「well — satisfactory progress」的用法，與本句語境不同。",
-        "well-mcq-04": "「某件事進行得充分、徹底或深入地」是「well — thoroughly」的用法，與本句語境不同。",
-        "well-mcq-05": "「表示某狀態達到很高、充分的程度」是「well + adjective/participle」的用法，與本句語境不同。",
-        "well-mcq-06": "「與某個時間、數量或程度界線相差很遠地」是「well — degree」的用法，與本句語境不同。"
+        "well-mcq-02": "本句的「well」指「某項技能或表現達到良好／高水準地」。",
+        "well-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-02"
     },
@@ -697,11 +677,9 @@ export default {
       "masked": "The meeting went ____.",
       "options": [
         "well-mcq-03",
-        "well-mcq-02",
-        "well-mcq-04",
-        "well-mcq-01",
-        "well-mcq-05",
-        "well-mcq-06"
+        "well-mcq-21",
+        "well-mcq-12",
+        "well-mcq-10"
       ],
       "explanation": "本句的「well」指「某件事情進展或結果順利、令人滿意地」。",
       "sentenceIndex": 5,
@@ -710,12 +688,10 @@ export default {
         "well"
       ],
       "optionReasons": {
-        "well-mcq-03": "本句指「某件事情進展或結果順利、令人滿意地」。",
-        "well-mcq-02": "「某項技能或表現達到良好／高水準地」是「well — skillfully」的用法，與本句語境不同。",
-        "well-mcq-04": "「某件事進行得充分、徹底或深入地」是「well — thoroughly」的用法，與本句語境不同。",
-        "well-mcq-01": "「某項行動、方法或系統成功達到預期目的，效果令人滿意地」是「well — effectively」的用法，與本句語境不同。",
-        "well-mcq-05": "「表示某狀態達到很高、充分的程度」是「well + adjective/participle」的用法，與本句語境不同。",
-        "well-mcq-06": "「與某個時間、數量或程度界線相差很遠地」是「well — degree」的用法，與本句語境不同。"
+        "well-mcq-03": "本句的「well」指「某件事情進展或結果順利、令人滿意地」。",
+        "well-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-03"
     },
@@ -727,11 +703,9 @@ export default {
       "masked": "Everything went ____ during the trip.",
       "options": [
         "well-mcq-03",
-        "well-mcq-02",
-        "well-mcq-04",
-        "well-mcq-01",
-        "well-mcq-05",
-        "well-mcq-06"
+        "well-mcq-20",
+        "well-mcq-18",
+        "well-mcq-13"
       ],
       "explanation": "本句的「well」指「某件事情進展或結果順利、令人滿意地」。",
       "sentenceIndex": 6,
@@ -740,12 +714,10 @@ export default {
         "well"
       ],
       "optionReasons": {
-        "well-mcq-03": "本句指「某件事情進展或結果順利、令人滿意地」。",
-        "well-mcq-02": "「某項技能或表現達到良好／高水準地」是「well — skillfully」的用法，與本句語境不同。",
-        "well-mcq-04": "「某件事進行得充分、徹底或深入地」是「well — thoroughly」的用法，與本句語境不同。",
-        "well-mcq-01": "「某項行動、方法或系統成功達到預期目的，效果令人滿意地」是「well — effectively」的用法，與本句語境不同。",
-        "well-mcq-05": "「表示某狀態達到很高、充分的程度」是「well + adjective/participle」的用法，與本句語境不同。",
-        "well-mcq-06": "「與某個時間、數量或程度界線相差很遠地」是「well — degree」的用法，與本句語境不同。"
+        "well-mcq-03": "本句的「well」指「某件事情進展或結果順利、令人滿意地」。",
+        "well-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-03"
     },
@@ -757,11 +729,9 @@ export default {
       "masked": "I know the area ____.",
       "options": [
         "well-mcq-04",
-        "well-mcq-03",
-        "well-mcq-05",
-        "well-mcq-02",
-        "well-mcq-06",
-        "well-mcq-01"
+        "well-mcq-22",
+        "well-mcq-17",
+        "well-mcq-09"
       ],
       "explanation": "本句的「well」指「某件事進行得充分、徹底或深入地」。",
       "sentenceIndex": 7,
@@ -770,12 +740,10 @@ export default {
         "well"
       ],
       "optionReasons": {
-        "well-mcq-04": "本句指「某件事進行得充分、徹底或深入地」。",
-        "well-mcq-03": "「某件事情進展或結果順利、令人滿意地」是「well — satisfactory progress」的用法，與本句語境不同。",
-        "well-mcq-05": "「表示某狀態達到很高、充分的程度」是「well + adjective/participle」的用法，與本句語境不同。",
-        "well-mcq-02": "「某項技能或表現達到良好／高水準地」是「well — skillfully」的用法，與本句語境不同。",
-        "well-mcq-06": "「與某個時間、數量或程度界線相差很遠地」是「well — degree」的用法，與本句語境不同。",
-        "well-mcq-01": "「某項行動、方法或系統成功達到預期目的，效果令人滿意地」是「well — effectively」的用法，與本句語境不同。"
+        "well-mcq-04": "本句的「well」指「某件事進行得充分、徹底或深入地」。",
+        "well-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-04"
     },
@@ -787,11 +755,9 @@ export default {
       "masked": "Make sure the material is ____ mixed.",
       "options": [
         "well-mcq-04",
-        "well-mcq-03",
-        "well-mcq-05",
-        "well-mcq-02",
+        "well-mcq-12",
         "well-mcq-06",
-        "well-mcq-01"
+        "well-mcq-02"
       ],
       "explanation": "本句的「well」指「某件事進行得充分、徹底或深入地」。",
       "sentenceIndex": 8,
@@ -800,12 +766,10 @@ export default {
         "well"
       ],
       "optionReasons": {
-        "well-mcq-04": "本句指「某件事進行得充分、徹底或深入地」。",
-        "well-mcq-03": "「某件事情進展或結果順利、令人滿意地」是「well — satisfactory progress」的用法，與本句語境不同。",
-        "well-mcq-05": "「表示某狀態達到很高、充分的程度」是「well + adjective/participle」的用法，與本句語境不同。",
-        "well-mcq-02": "「某項技能或表現達到良好／高水準地」是「well — skillfully」的用法，與本句語境不同。",
-        "well-mcq-06": "「與某個時間、數量或程度界線相差很遠地」是「well — degree」的用法，與本句語境不同。",
-        "well-mcq-01": "「某項行動、方法或系統成功達到預期目的，效果令人滿意地」是「well — effectively」的用法，與本句語境不同。"
+        "well-mcq-04": "本句的「well」指「某件事進行得充分、徹底或深入地」。",
+        "well-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-04"
     },
@@ -817,11 +781,9 @@ export default {
       "masked": "She is ____ of the risks.",
       "options": [
         "well-mcq-05",
-        "well-mcq-04",
-        "well-mcq-06",
-        "well-mcq-03",
-        "well-mcq-07",
-        "well-mcq-02"
+        "well-mcq-19",
+        "well-mcq-12",
+        "well-mcq-17"
       ],
       "explanation": "本句的「well aware」指「表示某狀態達到很高、充分的程度」。",
       "sentenceIndex": 9,
@@ -830,12 +792,10 @@ export default {
         "well aware"
       ],
       "optionReasons": {
-        "well-mcq-05": "本句指「表示某狀態達到很高、充分的程度」。",
-        "well-mcq-04": "「某件事進行得充分、徹底或深入地」是「well — thoroughly」的用法，與本句語境不同。",
-        "well-mcq-06": "「與某個時間、數量或程度界線相差很遠地」是「well — degree」的用法，與本句語境不同。",
-        "well-mcq-03": "「某件事情進展或結果順利、令人滿意地」是「well — satisfactory progress」的用法，與本句語境不同。",
-        "well-mcq-07": "「價值／好處足夠高，因此非常值得」是「well worth」的用法，與本句語境不同。",
-        "well-mcq-02": "「某項技能或表現達到良好／高水準地」是「well — skillfully」的用法，與本句語境不同。"
+        "well-mcq-05": "本句的「well aware」指「表示某狀態達到很高、充分的程度」。",
+        "well-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-05"
     },
@@ -847,11 +807,9 @@ export default {
       "masked": "The issue is ____.",
       "options": [
         "well-mcq-05",
-        "well-mcq-04",
-        "well-mcq-06",
-        "well-mcq-03",
-        "well-mcq-07",
-        "well-mcq-02"
+        "well-mcq-16",
+        "well-mcq-19",
+        "well-mcq-09"
       ],
       "explanation": "本句的「well understood」指「表示某狀態達到很高、充分的程度」。",
       "sentenceIndex": 10,
@@ -860,12 +818,10 @@ export default {
         "well understood"
       ],
       "optionReasons": {
-        "well-mcq-05": "本句指「表示某狀態達到很高、充分的程度」。",
-        "well-mcq-04": "「某件事進行得充分、徹底或深入地」是「well — thoroughly」的用法，與本句語境不同。",
-        "well-mcq-06": "「與某個時間、數量或程度界線相差很遠地」是「well — degree」的用法，與本句語境不同。",
-        "well-mcq-03": "「某件事情進展或結果順利、令人滿意地」是「well — satisfactory progress」的用法，與本句語境不同。",
-        "well-mcq-07": "「價值／好處足夠高，因此非常值得」是「well worth」的用法，與本句語境不同。",
-        "well-mcq-02": "「某項技能或表現達到良好／高水準地」是「well — skillfully」的用法，與本句語境不同。"
+        "well-mcq-05": "本句的「well understood」指「表示某狀態達到很高、充分的程度」。",
+        "well-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-05"
     },
@@ -877,11 +833,9 @@ export default {
       "masked": "We arrived ____ the meeting started.",
       "options": [
         "well-mcq-06",
-        "well-mcq-05",
-        "well-mcq-07",
-        "well-mcq-04",
+        "well-mcq-03",
         "well-mcq-08",
-        "well-mcq-03"
+        "well-mcq-15"
       ],
       "explanation": "本句的「well before」指「與某個時間、數量或程度界線相差很遠地」。",
       "sentenceIndex": 11,
@@ -890,12 +844,10 @@ export default {
         "well before"
       ],
       "optionReasons": {
-        "well-mcq-06": "本句指「與某個時間、數量或程度界線相差很遠地」。",
-        "well-mcq-05": "「表示某狀態達到很高、充分的程度」是「well + adjective/participle」的用法，與本句語境不同。",
-        "well-mcq-07": "「價值／好處足夠高，因此非常值得」是「well worth」的用法，與本句語境不同。",
-        "well-mcq-04": "「某件事進行得充分、徹底或深入地」是「well — thoroughly」的用法，與本句語境不同。",
-        "well-mcq-08": "「身體健康、沒有生病或明顯不適的」是「well — healthy」的用法，與本句語境不同。",
-        "well-mcq-03": "「某件事情進展或結果順利、令人滿意地」是「well — satisfactory progress」的用法，與本句語境不同。"
+        "well-mcq-06": "本句的「well before」指「與某個時間、數量或程度界線相差很遠地」。",
+        "well-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-06"
     },
@@ -907,11 +859,9 @@ export default {
       "masked": "The price is ____ $100.",
       "options": [
         "well-mcq-06",
-        "well-mcq-05",
-        "well-mcq-07",
-        "well-mcq-04",
-        "well-mcq-08",
-        "well-mcq-03"
+        "well-mcq-19",
+        "well-mcq-03",
+        "well-mcq-10"
       ],
       "explanation": "本句的「well over」指「與某個時間、數量或程度界線相差很遠地」。",
       "sentenceIndex": 12,
@@ -920,12 +870,10 @@ export default {
         "well over"
       ],
       "optionReasons": {
-        "well-mcq-06": "本句指「與某個時間、數量或程度界線相差很遠地」。",
-        "well-mcq-05": "「表示某狀態達到很高、充分的程度」是「well + adjective/participle」的用法，與本句語境不同。",
-        "well-mcq-07": "「價值／好處足夠高，因此非常值得」是「well worth」的用法，與本句語境不同。",
-        "well-mcq-04": "「某件事進行得充分、徹底或深入地」是「well — thoroughly」的用法，與本句語境不同。",
-        "well-mcq-08": "「身體健康、沒有生病或明顯不適的」是「well — healthy」的用法，與本句語境不同。",
-        "well-mcq-03": "「某件事情進展或結果順利、令人滿意地」是「well — satisfactory progress」的用法，與本句語境不同。"
+        "well-mcq-06": "本句的「well over」指「與某個時間、數量或程度界線相差很遠地」。",
+        "well-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-06"
     },
@@ -937,11 +885,9 @@ export default {
       "masked": "The headphones are ____ the price.",
       "options": [
         "well-mcq-07",
-        "well-mcq-06",
-        "well-mcq-08",
-        "well-mcq-05",
-        "well-mcq-09",
-        "well-mcq-04"
+        "well-mcq-01",
+        "well-mcq-13",
+        "well-mcq-06"
       ],
       "explanation": "本句的「well worth」指「價值／好處足夠高，因此非常值得」。",
       "sentenceIndex": 13,
@@ -950,12 +896,10 @@ export default {
         "well worth"
       ],
       "optionReasons": {
-        "well-mcq-07": "本句指「價值／好處足夠高，因此非常值得」。",
-        "well-mcq-06": "「與某個時間、數量或程度界線相差很遠地」是「well — degree」的用法，與本句語境不同。",
-        "well-mcq-08": "「身體健康、沒有生病或明顯不適的」是「well — healthy」的用法，與本句語境不同。",
-        "well-mcq-05": "「表示某狀態達到很高、充分的程度」是「well + adjective/participle」的用法，與本句語境不同。",
-        "well-mcq-09": "「情況正常、令人安心、沒有問題的」是「well — satisfactory state」的用法，與本句語境不同。",
-        "well-mcq-04": "「某件事進行得充分、徹底或深入地」是「well — thoroughly」的用法，與本句語境不同。"
+        "well-mcq-07": "本句的「well worth」指「價值／好處足夠高，因此非常值得」。",
+        "well-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-07"
     },
@@ -967,11 +911,9 @@ export default {
       "masked": "The museum is ____.",
       "options": [
         "well-mcq-07",
-        "well-mcq-06",
-        "well-mcq-08",
-        "well-mcq-05",
-        "well-mcq-09",
-        "well-mcq-04"
+        "well-mcq-11",
+        "well-mcq-12",
+        "well-mcq-16"
       ],
       "explanation": "本句的「well worth visiting」指「價值／好處足夠高，因此非常值得」。",
       "sentenceIndex": 14,
@@ -980,12 +922,10 @@ export default {
         "well worth visiting"
       ],
       "optionReasons": {
-        "well-mcq-07": "本句指「價值／好處足夠高，因此非常值得」。",
-        "well-mcq-06": "「與某個時間、數量或程度界線相差很遠地」是「well — degree」的用法，與本句語境不同。",
-        "well-mcq-08": "「身體健康、沒有生病或明顯不適的」是「well — healthy」的用法，與本句語境不同。",
-        "well-mcq-05": "「表示某狀態達到很高、充分的程度」是「well + adjective/participle」的用法，與本句語境不同。",
-        "well-mcq-09": "「情況正常、令人安心、沒有問題的」是「well — satisfactory state」的用法，與本句語境不同。",
-        "well-mcq-04": "「某件事進行得充分、徹底或深入地」是「well — thoroughly」的用法，與本句語境不同。"
+        "well-mcq-07": "本句的「well worth visiting」指「價值／好處足夠高，因此非常值得」。",
+        "well-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-07"
     },
@@ -997,11 +937,9 @@ export default {
       "masked": "You don’t look ____.",
       "options": [
         "well-mcq-08",
-        "well-mcq-07",
-        "well-mcq-09",
         "well-mcq-06",
-        "well-mcq-10",
-        "well-mcq-05"
+        "well-mcq-03",
+        "well-mcq-07"
       ],
       "explanation": "本句的「well」指「身體健康、沒有生病或明顯不適的」。",
       "sentenceIndex": 15,
@@ -1010,12 +948,10 @@ export default {
         "well"
       ],
       "optionReasons": {
-        "well-mcq-08": "本句指「身體健康、沒有生病或明顯不適的」。",
-        "well-mcq-07": "「價值／好處足夠高，因此非常值得」是「well worth」的用法，與本句語境不同。",
-        "well-mcq-09": "「情況正常、令人安心、沒有問題的」是「well — satisfactory state」的用法，與本句語境不同。",
-        "well-mcq-06": "「與某個時間、數量或程度界線相差很遠地」是「well — degree」的用法，與本句語境不同。",
-        "well-mcq-10": "「用來整理思緒、緩和語氣、引出回答或轉換話題」是「Well, ...」的用法，與本句語境不同。",
-        "well-mcq-05": "「表示某狀態達到很高、充分的程度」是「well + adjective/participle」的用法，與本句語境不同。"
+        "well-mcq-08": "本句的「well」指「身體健康、沒有生病或明顯不適的」。",
+        "well-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-08"
     },
@@ -1027,11 +963,9 @@ export default {
       "masked": "She wasn’t ____ enough to go to work.",
       "options": [
         "well-mcq-08",
-        "well-mcq-07",
-        "well-mcq-09",
-        "well-mcq-06",
-        "well-mcq-10",
-        "well-mcq-05"
+        "well-mcq-15",
+        "well-mcq-13",
+        "well-mcq-11"
       ],
       "explanation": "本句的「well」指「身體健康、沒有生病或明顯不適的」。",
       "sentenceIndex": 16,
@@ -1040,12 +974,10 @@ export default {
         "well"
       ],
       "optionReasons": {
-        "well-mcq-08": "本句指「身體健康、沒有生病或明顯不適的」。",
-        "well-mcq-07": "「價值／好處足夠高，因此非常值得」是「well worth」的用法，與本句語境不同。",
-        "well-mcq-09": "「情況正常、令人安心、沒有問題的」是「well — satisfactory state」的用法，與本句語境不同。",
-        "well-mcq-06": "「與某個時間、數量或程度界線相差很遠地」是「well — degree」的用法，與本句語境不同。",
-        "well-mcq-10": "「用來整理思緒、緩和語氣、引出回答或轉換話題」是「Well, ...」的用法，與本句語境不同。",
-        "well-mcq-05": "「表示某狀態達到很高、充分的程度」是「well + adjective/participle」的用法，與本句語境不同。"
+        "well-mcq-08": "本句的「well」指「身體健康、沒有生病或明顯不適的」。",
+        "well-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-08"
     },
@@ -1057,11 +989,9 @@ export default {
       "masked": "All is ____.",
       "options": [
         "well-mcq-09",
-        "well-mcq-08",
-        "well-mcq-10",
-        "well-mcq-07",
-        "well-mcq-11",
-        "well-mcq-06"
+        "well-mcq-18",
+        "well-mcq-16",
+        "well-mcq-23"
       ],
       "explanation": "本句的「well」指「情況正常、令人安心、沒有問題的」。",
       "sentenceIndex": 17,
@@ -1070,12 +1000,10 @@ export default {
         "well"
       ],
       "optionReasons": {
-        "well-mcq-09": "本句指「情況正常、令人安心、沒有問題的」。",
-        "well-mcq-08": "「身體健康、沒有生病或明顯不適的」是「well — healthy」的用法，與本句語境不同。",
-        "well-mcq-10": "「用來整理思緒、緩和語氣、引出回答或轉換話題」是「Well, ...」的用法，與本句語境不同。",
-        "well-mcq-07": "「價值／好處足夠高，因此非常值得」是「well worth」的用法，與本句語境不同。",
-        "well-mcq-11": "「催促對方回答、繼續說或告知結果」是「Well?」的用法，與本句語境不同。",
-        "well-mcq-06": "「與某個時間、數量或程度界線相差很遠地」是「well — degree」的用法，與本句語境不同。"
+        "well-mcq-09": "本句的「well」指「情況正常、令人安心、沒有問題的」。",
+        "well-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-09"
     },
@@ -1087,11 +1015,9 @@ export default {
       "masked": "Everything appears to be ____.",
       "options": [
         "well-mcq-09",
-        "well-mcq-08",
-        "well-mcq-10",
-        "well-mcq-07",
+        "well-mcq-13",
         "well-mcq-11",
-        "well-mcq-06"
+        "well-mcq-18"
       ],
       "explanation": "本句的「well」指「情況正常、令人安心、沒有問題的」。",
       "sentenceIndex": 18,
@@ -1100,12 +1026,10 @@ export default {
         "well"
       ],
       "optionReasons": {
-        "well-mcq-09": "本句指「情況正常、令人安心、沒有問題的」。",
-        "well-mcq-08": "「身體健康、沒有生病或明顯不適的」是「well — healthy」的用法，與本句語境不同。",
-        "well-mcq-10": "「用來整理思緒、緩和語氣、引出回答或轉換話題」是「Well, ...」的用法，與本句語境不同。",
-        "well-mcq-07": "「價值／好處足夠高，因此非常值得」是「well worth」的用法，與本句語境不同。",
-        "well-mcq-11": "「催促對方回答、繼續說或告知結果」是「Well?」的用法，與本句語境不同。",
-        "well-mcq-06": "「與某個時間、數量或程度界線相差很遠地」是「well — degree」的用法，與本句語境不同。"
+        "well-mcq-09": "本句的「well」指「情況正常、令人安心、沒有問題的」。",
+        "well-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-09"
     },
@@ -1117,11 +1041,9 @@ export default {
       "masked": "____, I’m not completely sure.",
       "options": [
         "well-mcq-10",
-        "well-mcq-09",
-        "well-mcq-11",
-        "well-mcq-08",
-        "well-mcq-12",
-        "well-mcq-07"
+        "well-mcq-24",
+        "well-mcq-04",
+        "well-mcq-22"
       ],
       "explanation": "本句的「Well」指「用來整理思緒、緩和語氣、引出回答或轉換話題」。",
       "sentenceIndex": 19,
@@ -1130,12 +1052,10 @@ export default {
         "Well"
       ],
       "optionReasons": {
-        "well-mcq-10": "本句指「用來整理思緒、緩和語氣、引出回答或轉換話題」。",
-        "well-mcq-09": "「情況正常、令人安心、沒有問題的」是「well — satisfactory state」的用法，與本句語境不同。",
-        "well-mcq-11": "「催促對方回答、繼續說或告知結果」是「Well?」的用法，與本句語境不同。",
-        "well-mcq-08": "「身體健康、沒有生病或明顯不適的」是「well — healthy」的用法，與本句語境不同。",
-        "well-mcq-12": "「另外也包括某人／某事；也」是「as well」的用法，與本句語境不同。",
-        "well-mcq-07": "「價值／好處足夠高，因此非常值得」是「well worth」的用法，與本句語境不同。"
+        "well-mcq-10": "本句的「Well」指「用來整理思緒、緩和語氣、引出回答或轉換話題」。",
+        "well-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-10"
     },
@@ -1147,11 +1067,9 @@ export default {
       "masked": "____, what should we do next?",
       "options": [
         "well-mcq-10",
-        "well-mcq-09",
-        "well-mcq-11",
-        "well-mcq-08",
         "well-mcq-12",
-        "well-mcq-07"
+        "well-mcq-04",
+        "well-mcq-08"
       ],
       "explanation": "本句的「Well」指「用來整理思緒、緩和語氣、引出回答或轉換話題」。",
       "sentenceIndex": 20,
@@ -1160,12 +1078,10 @@ export default {
         "Well"
       ],
       "optionReasons": {
-        "well-mcq-10": "本句指「用來整理思緒、緩和語氣、引出回答或轉換話題」。",
-        "well-mcq-09": "「情況正常、令人安心、沒有問題的」是「well — satisfactory state」的用法，與本句語境不同。",
-        "well-mcq-11": "「催促對方回答、繼續說或告知結果」是「Well?」的用法，與本句語境不同。",
-        "well-mcq-08": "「身體健康、沒有生病或明顯不適的」是「well — healthy」的用法，與本句語境不同。",
-        "well-mcq-12": "「另外也包括某人／某事；也」是「as well」的用法，與本句語境不同。",
-        "well-mcq-07": "「價值／好處足夠高，因此非常值得」是「well worth」的用法，與本句語境不同。"
+        "well-mcq-10": "本句的「Well」指「用來整理思緒、緩和語氣、引出回答或轉換話題」。",
+        "well-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-10"
     },
@@ -1177,11 +1093,9 @@ export default {
       "masked": "____ What did she say?",
       "options": [
         "well-mcq-11",
-        "well-mcq-10",
-        "well-mcq-12",
-        "well-mcq-09",
-        "well-mcq-13",
-        "well-mcq-08"
+        "well-mcq-16",
+        "well-mcq-05",
+        "well-mcq-09"
       ],
       "explanation": "本句的「Well?」指「催促對方回答、繼續說或告知結果」。",
       "sentenceIndex": 21,
@@ -1190,12 +1104,10 @@ export default {
         "Well?"
       ],
       "optionReasons": {
-        "well-mcq-11": "本句指「催促對方回答、繼續說或告知結果」。",
-        "well-mcq-10": "「用來整理思緒、緩和語氣、引出回答或轉換話題」是「Well, ...」的用法，與本句語境不同。",
-        "well-mcq-12": "「另外也包括某人／某事；也」是「as well」的用法，與本句語境不同。",
-        "well-mcq-09": "「情況正常、令人安心、沒有問題的」是「well — satisfactory state」的用法，與本句語境不同。",
-        "well-mcq-13": "「除了某人／某事之外，另一項亦包括在內」是「as well as」的用法，與本句語境不同。",
-        "well-mcq-08": "「身體健康、沒有生病或明顯不適的」是「well — healthy」的用法，與本句語境不同。"
+        "well-mcq-11": "本句的「Well?」指「催促對方回答、繼續說或告知結果」。",
+        "well-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-11"
     },
@@ -1207,11 +1119,9 @@ export default {
       "masked": "____ Did you pass?",
       "options": [
         "well-mcq-11",
-        "well-mcq-10",
+        "well-mcq-04",
         "well-mcq-12",
-        "well-mcq-09",
-        "well-mcq-13",
-        "well-mcq-08"
+        "well-mcq-18"
       ],
       "explanation": "本句的「Well?」指「催促對方回答、繼續說或告知結果」。",
       "sentenceIndex": 22,
@@ -1220,12 +1130,10 @@ export default {
         "Well?"
       ],
       "optionReasons": {
-        "well-mcq-11": "本句指「催促對方回答、繼續說或告知結果」。",
-        "well-mcq-10": "「用來整理思緒、緩和語氣、引出回答或轉換話題」是「Well, ...」的用法，與本句語境不同。",
-        "well-mcq-12": "「另外也包括某人／某事；也」是「as well」的用法，與本句語境不同。",
-        "well-mcq-09": "「情況正常、令人安心、沒有問題的」是「well — satisfactory state」的用法，與本句語境不同。",
-        "well-mcq-13": "「除了某人／某事之外，另一項亦包括在內」是「as well as」的用法，與本句語境不同。",
-        "well-mcq-08": "「身體健康、沒有生病或明顯不適的」是「well — healthy」的用法，與本句語境不同。"
+        "well-mcq-11": "本句的「Well?」指「催促對方回答、繼續說或告知結果」。",
+        "well-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-11"
     },
@@ -1237,11 +1145,9 @@ export default {
       "masked": "I bought the headphones and a new charger ____.",
       "options": [
         "well-mcq-12",
-        "well-mcq-11",
-        "well-mcq-13",
-        "well-mcq-10",
-        "well-mcq-14",
-        "well-mcq-09"
+        "well-mcq-19",
+        "well-mcq-03",
+        "well-mcq-14"
       ],
       "explanation": "本句的「as well」指「另外也包括某人／某事；也」。",
       "sentenceIndex": 23,
@@ -1250,12 +1156,10 @@ export default {
         "as well"
       ],
       "optionReasons": {
-        "well-mcq-12": "本句指「另外也包括某人／某事；也」。",
-        "well-mcq-11": "「催促對方回答、繼續說或告知結果」是「Well?」的用法，與本句語境不同。",
-        "well-mcq-13": "「除了某人／某事之外，另一項亦包括在內」是「as well as」的用法，與本句語境不同。",
-        "well-mcq-10": "「用來整理思緒、緩和語氣、引出回答或轉換話題」是「Well, ...」的用法，與本句語境不同。",
-        "well-mcq-14": "「在現有情況下，某行動是合理或沒有更好替代的做法」是「may/might as well」的用法，與本句語境不同。",
-        "well-mcq-09": "「情況正常、令人安心、沒有問題的」是「well — satisfactory state」的用法，與本句語境不同。"
+        "well-mcq-12": "本句的「as well」指「另外也包括某人／某事；也」。",
+        "well-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-12"
     },
@@ -1267,11 +1171,9 @@ export default {
       "masked": "She speaks French and Spanish ____.",
       "options": [
         "well-mcq-12",
-        "well-mcq-11",
-        "well-mcq-13",
-        "well-mcq-10",
-        "well-mcq-14",
-        "well-mcq-09"
+        "well-mcq-02",
+        "well-mcq-18",
+        "well-mcq-16"
       ],
       "explanation": "本句的「as well」指「另外也包括某人／某事；也」。",
       "sentenceIndex": 24,
@@ -1280,12 +1182,10 @@ export default {
         "as well"
       ],
       "optionReasons": {
-        "well-mcq-12": "本句指「另外也包括某人／某事；也」。",
-        "well-mcq-11": "「催促對方回答、繼續說或告知結果」是「Well?」的用法，與本句語境不同。",
-        "well-mcq-13": "「除了某人／某事之外，另一項亦包括在內」是「as well as」的用法，與本句語境不同。",
-        "well-mcq-10": "「用來整理思緒、緩和語氣、引出回答或轉換話題」是「Well, ...」的用法，與本句語境不同。",
-        "well-mcq-14": "「在現有情況下，某行動是合理或沒有更好替代的做法」是「may/might as well」的用法，與本句語境不同。",
-        "well-mcq-09": "「情況正常、令人安心、沒有問題的」是「well — satisfactory state」的用法，與本句語境不同。"
+        "well-mcq-12": "本句的「as well」指「另外也包括某人／某事；也」。",
+        "well-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-12"
     },
@@ -1297,11 +1197,9 @@ export default {
       "masked": "The headphones are comfortable ____ practical.",
       "options": [
         "well-mcq-13",
-        "well-mcq-12",
-        "well-mcq-14",
-        "well-mcq-11",
-        "well-mcq-15",
-        "well-mcq-10"
+        "well-mcq-04",
+        "well-mcq-06",
+        "well-mcq-08"
       ],
       "explanation": "本句的「as well as」指「除了某人／某事之外，另一項亦包括在內」。",
       "sentenceIndex": 25,
@@ -1310,12 +1208,10 @@ export default {
         "as well as"
       ],
       "optionReasons": {
-        "well-mcq-13": "本句指「除了某人／某事之外，另一項亦包括在內」。",
-        "well-mcq-12": "「另外也包括某人／某事；也」是「as well」的用法，與本句語境不同。",
-        "well-mcq-14": "「在現有情況下，某行動是合理或沒有更好替代的做法」是「may/might as well」的用法，與本句語境不同。",
-        "well-mcq-11": "「催促對方回答、繼續說或告知結果」是「Well?」的用法，與本句語境不同。",
-        "well-mcq-15": "「強調某狀態完整、徹底而確實成立」是「well and truly」的用法，與本句語境不同。",
-        "well-mcq-10": "「用來整理思緒、緩和語氣、引出回答或轉換話題」是「Well, ...」的用法，與本句語境不同。"
+        "well-mcq-13": "本句的「as well as」指「除了某人／某事之外，另一項亦包括在內」。",
+        "well-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-13"
     },
@@ -1327,11 +1223,9 @@ export default {
       "masked": "She enjoys travelling ____ learning languages.",
       "options": [
         "well-mcq-13",
-        "well-mcq-12",
-        "well-mcq-14",
-        "well-mcq-11",
-        "well-mcq-15",
-        "well-mcq-10"
+        "well-mcq-05",
+        "well-mcq-17",
+        "well-mcq-14"
       ],
       "explanation": "本句的「as well as」指「除了某人／某事之外，另一項亦包括在內」。",
       "sentenceIndex": 26,
@@ -1340,12 +1234,10 @@ export default {
         "as well as"
       ],
       "optionReasons": {
-        "well-mcq-13": "本句指「除了某人／某事之外，另一項亦包括在內」。",
-        "well-mcq-12": "「另外也包括某人／某事；也」是「as well」的用法，與本句語境不同。",
-        "well-mcq-14": "「在現有情況下，某行動是合理或沒有更好替代的做法」是「may/might as well」的用法，與本句語境不同。",
-        "well-mcq-11": "「催促對方回答、繼續說或告知結果」是「Well?」的用法，與本句語境不同。",
-        "well-mcq-15": "「強調某狀態完整、徹底而確實成立」是「well and truly」的用法，與本句語境不同。",
-        "well-mcq-10": "「用來整理思緒、緩和語氣、引出回答或轉換話題」是「Well, ...」的用法，與本句語境不同。"
+        "well-mcq-13": "本句的「as well as」指「除了某人／某事之外，另一項亦包括在內」。",
+        "well-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-13"
     },
@@ -1357,11 +1249,9 @@ export default {
       "masked": "We’re already here, so we ____.",
       "options": [
         "well-mcq-14",
-        "well-mcq-13",
-        "well-mcq-15",
-        "well-mcq-12",
-        "well-mcq-16",
-        "well-mcq-11"
+        "well-mcq-21",
+        "well-mcq-22",
+        "well-mcq-18"
       ],
       "explanation": "本句的「might as well stay」指「在現有情況下，某行動是合理或沒有更好替代的做法」。",
       "sentenceIndex": 27,
@@ -1370,12 +1260,10 @@ export default {
         "might as well stay"
       ],
       "optionReasons": {
-        "well-mcq-14": "本句指「在現有情況下，某行動是合理或沒有更好替代的做法」。",
-        "well-mcq-13": "「除了某人／某事之外，另一項亦包括在內」是「as well as」的用法，與本句語境不同。",
-        "well-mcq-15": "「強調某狀態完整、徹底而確實成立」是「well and truly」的用法，與本句語境不同。",
-        "well-mcq-12": "「另外也包括某人／某事；也」是「as well」的用法，與本句語境不同。",
-        "well-mcq-16": "「為取得地下水而挖／鑽的深洞」是「well — noun: water」的用法，與本句語境不同。",
-        "well-mcq-11": "「催促對方回答、繼續說或告知結果」是「Well?」的用法，與本句語境不同。"
+        "well-mcq-14": "本句的「might as well stay」指「在現有情況下，某行動是合理或沒有更好替代的做法」。",
+        "well-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-14"
     },
@@ -1387,11 +1275,9 @@ export default {
       "masked": "If the repair costs that much, we ____ a new one.",
       "options": [
         "well-mcq-14",
-        "well-mcq-13",
-        "well-mcq-15",
-        "well-mcq-12",
-        "well-mcq-16",
-        "well-mcq-11"
+        "well-mcq-17",
+        "well-mcq-22",
+        "well-mcq-03"
       ],
       "explanation": "本句的「may as well buy」指「在現有情況下，某行動是合理或沒有更好替代的做法」。",
       "sentenceIndex": 28,
@@ -1400,12 +1286,10 @@ export default {
         "may as well buy"
       ],
       "optionReasons": {
-        "well-mcq-14": "本句指「在現有情況下，某行動是合理或沒有更好替代的做法」。",
-        "well-mcq-13": "「除了某人／某事之外，另一項亦包括在內」是「as well as」的用法，與本句語境不同。",
-        "well-mcq-15": "「強調某狀態完整、徹底而確實成立」是「well and truly」的用法，與本句語境不同。",
-        "well-mcq-12": "「另外也包括某人／某事；也」是「as well」的用法，與本句語境不同。",
-        "well-mcq-16": "「為取得地下水而挖／鑽的深洞」是「well — noun: water」的用法，與本句語境不同。",
-        "well-mcq-11": "「催促對方回答、繼續說或告知結果」是「Well?」的用法，與本句語境不同。"
+        "well-mcq-14": "本句的「may as well buy」指「在現有情況下，某行動是合理或沒有更好替代的做法」。",
+        "well-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-14"
     },
@@ -1417,11 +1301,9 @@ export default {
       "masked": "We were ____ lost.",
       "options": [
         "well-mcq-15",
-        "well-mcq-14",
-        "well-mcq-16",
-        "well-mcq-13",
-        "well-mcq-17",
-        "well-mcq-12"
+        "well-mcq-09",
+        "well-mcq-11",
+        "well-mcq-13"
       ],
       "explanation": "本句的「well and truly」指「強調某狀態完整、徹底而確實成立」。",
       "sentenceIndex": 29,
@@ -1430,12 +1312,10 @@ export default {
         "well and truly"
       ],
       "optionReasons": {
-        "well-mcq-15": "本句指「強調某狀態完整、徹底而確實成立」。",
-        "well-mcq-14": "「在現有情況下，某行動是合理或沒有更好替代的做法」是「may/might as well」的用法，與本句語境不同。",
-        "well-mcq-16": "「為取得地下水而挖／鑽的深洞」是「well — noun: water」的用法，與本句語境不同。",
-        "well-mcq-13": "「除了某人／某事之外，另一項亦包括在內」是「as well as」的用法，與本句語境不同。",
-        "well-mcq-17": "「為抽取地下石油或天然氣而鑽出的井」是「well — noun: oil/gas」的用法，與本句語境不同。",
-        "well-mcq-12": "「另外也包括某人／某事；也」是「as well」的用法，與本句語境不同。"
+        "well-mcq-15": "本句的「well and truly」指「強調某狀態完整、徹底而確實成立」。",
+        "well-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-15"
     },
@@ -1447,11 +1327,9 @@ export default {
       "masked": "The old system is ____ outdated.",
       "options": [
         "well-mcq-15",
-        "well-mcq-14",
-        "well-mcq-16",
-        "well-mcq-13",
-        "well-mcq-17",
-        "well-mcq-12"
+        "well-mcq-02",
+        "well-mcq-22",
+        "well-mcq-09"
       ],
       "explanation": "本句的「well and truly」指「強調某狀態完整、徹底而確實成立」。",
       "sentenceIndex": 30,
@@ -1460,12 +1338,10 @@ export default {
         "well and truly"
       ],
       "optionReasons": {
-        "well-mcq-15": "本句指「強調某狀態完整、徹底而確實成立」。",
-        "well-mcq-14": "「在現有情況下，某行動是合理或沒有更好替代的做法」是「may/might as well」的用法，與本句語境不同。",
-        "well-mcq-16": "「為取得地下水而挖／鑽的深洞」是「well — noun: water」的用法，與本句語境不同。",
-        "well-mcq-13": "「除了某人／某事之外，另一項亦包括在內」是「as well as」的用法，與本句語境不同。",
-        "well-mcq-17": "「為抽取地下石油或天然氣而鑽出的井」是「well — noun: oil/gas」的用法，與本句語境不同。",
-        "well-mcq-12": "「另外也包括某人／某事；也」是「as well」的用法，與本句語境不同。"
+        "well-mcq-15": "本句的「well and truly」指「強調某狀態完整、徹底而確實成立」。",
+        "well-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-15"
     },
@@ -1477,11 +1353,9 @@ export default {
       "masked": "The village gets water from a ____.",
       "options": [
         "well-mcq-16",
-        "well-mcq-15",
-        "well-mcq-17",
         "well-mcq-14",
-        "well-mcq-18",
-        "well-mcq-13"
+        "well-mcq-19",
+        "well-mcq-05"
       ],
       "explanation": "本句的「well」指「為取得地下水而挖／鑽的深洞」。",
       "sentenceIndex": 31,
@@ -1490,12 +1364,10 @@ export default {
         "well"
       ],
       "optionReasons": {
-        "well-mcq-16": "本句指「為取得地下水而挖／鑽的深洞」。",
-        "well-mcq-15": "「強調某狀態完整、徹底而確實成立」是「well and truly」的用法，與本句語境不同。",
-        "well-mcq-17": "「為抽取地下石油或天然氣而鑽出的井」是「well — noun: oil/gas」的用法，與本句語境不同。",
-        "well-mcq-14": "「在現有情況下，某行動是合理或沒有更好替代的做法」是「may/might as well」的用法，與本句語境不同。",
-        "well-mcq-18": "「液體由內部逐漸湧出、升起或積聚」是「well — verb」的用法，與本句語境不同。",
-        "well-mcq-13": "「除了某人／某事之外，另一項亦包括在內」是「as well as」的用法，與本句語境不同。"
+        "well-mcq-16": "本句的「well」指「為取得地下水而挖／鑽的深洞」。",
+        "well-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-16"
     },
@@ -1508,10 +1380,8 @@ export default {
       "options": [
         "well-mcq-16",
         "well-mcq-15",
-        "well-mcq-17",
-        "well-mcq-14",
-        "well-mcq-18",
-        "well-mcq-13"
+        "well-mcq-09",
+        "well-mcq-12"
       ],
       "explanation": "本句的「well」指「為取得地下水而挖／鑽的深洞」。",
       "sentenceIndex": 32,
@@ -1520,12 +1390,10 @@ export default {
         "well"
       ],
       "optionReasons": {
-        "well-mcq-16": "本句指「為取得地下水而挖／鑽的深洞」。",
-        "well-mcq-15": "「強調某狀態完整、徹底而確實成立」是「well and truly」的用法，與本句語境不同。",
-        "well-mcq-17": "「為抽取地下石油或天然氣而鑽出的井」是「well — noun: oil/gas」的用法，與本句語境不同。",
-        "well-mcq-14": "「在現有情況下，某行動是合理或沒有更好替代的做法」是「may/might as well」的用法，與本句語境不同。",
-        "well-mcq-18": "「液體由內部逐漸湧出、升起或積聚」是「well — verb」的用法，與本句語境不同。",
-        "well-mcq-13": "「除了某人／某事之外，另一項亦包括在內」是「as well as」的用法，與本句語境不同。"
+        "well-mcq-16": "本句的「well」指「為取得地下水而挖／鑽的深洞」。",
+        "well-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-16"
     },
@@ -1537,11 +1405,9 @@ export default {
       "masked": "The company drilled a new oil ____.",
       "options": [
         "well-mcq-17",
-        "well-mcq-16",
-        "well-mcq-18",
-        "well-mcq-15",
-        "well-mcq-19",
-        "well-mcq-14"
+        "well-mcq-22",
+        "well-mcq-14",
+        "well-mcq-15"
       ],
       "explanation": "本句的「well」指「為抽取地下石油或天然氣而鑽出的井」。",
       "sentenceIndex": 33,
@@ -1550,12 +1416,10 @@ export default {
         "well"
       ],
       "optionReasons": {
-        "well-mcq-17": "本句指「為抽取地下石油或天然氣而鑽出的井」。",
-        "well-mcq-16": "「為取得地下水而挖／鑽的深洞」是「well — noun: water」的用法，與本句語境不同。",
-        "well-mcq-18": "「液體由內部逐漸湧出、升起或積聚」是「well — verb」的用法，與本句語境不同。",
-        "well-mcq-15": "「強調某狀態完整、徹底而確實成立」是「well and truly」的用法，與本句語境不同。",
-        "well-mcq-19": "「強烈情緒像液體一樣逐漸湧起」是「well — emotion」的用法，與本句語境不同。",
-        "well-mcq-14": "「在現有情況下，某行動是合理或沒有更好替代的做法」是「may/might as well」的用法，與本句語境不同。"
+        "well-mcq-17": "本句的「well」指「為抽取地下石油或天然氣而鑽出的井」。",
+        "well-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-17"
     },
@@ -1567,11 +1431,9 @@ export default {
       "masked": "The gas ____ began production last year.",
       "options": [
         "well-mcq-17",
-        "well-mcq-16",
-        "well-mcq-18",
-        "well-mcq-15",
-        "well-mcq-19",
-        "well-mcq-14"
+        "well-mcq-06",
+        "well-mcq-04",
+        "well-mcq-13"
       ],
       "explanation": "本句的「well」指「為抽取地下石油或天然氣而鑽出的井」。",
       "sentenceIndex": 34,
@@ -1580,12 +1442,10 @@ export default {
         "well"
       ],
       "optionReasons": {
-        "well-mcq-17": "本句指「為抽取地下石油或天然氣而鑽出的井」。",
-        "well-mcq-16": "「為取得地下水而挖／鑽的深洞」是「well — noun: water」的用法，與本句語境不同。",
-        "well-mcq-18": "「液體由內部逐漸湧出、升起或積聚」是「well — verb」的用法，與本句語境不同。",
-        "well-mcq-15": "「強調某狀態完整、徹底而確實成立」是「well and truly」的用法，與本句語境不同。",
-        "well-mcq-19": "「強烈情緒像液體一樣逐漸湧起」是「well — emotion」的用法，與本句語境不同。",
-        "well-mcq-14": "「在現有情況下，某行動是合理或沒有更好替代的做法」是「may/might as well」的用法，與本句語境不同。"
+        "well-mcq-17": "本句的「well」指「為抽取地下石油或天然氣而鑽出的井」。",
+        "well-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-17"
     },
@@ -1598,9 +1458,7 @@ export default {
       "options": [
         "well-mcq-24",
         "well-mcq-23",
-        "well-mcq-22",
-        "well-mcq-21",
-        "well-mcq-20",
+        "well-mcq-12",
         "well-mcq-19"
       ],
       "explanation": "本句的「stairwell」指「建築或機械結構中向下／向上延伸的井狀空間」。",
@@ -1610,12 +1468,10 @@ export default {
         "stairwell"
       ],
       "optionReasons": {
-        "well-mcq-24": "本句指「建築或機械結構中向下／向上延伸的井狀空間」。",
-        "well-mcq-23": "「經濟條件良好、生活較富裕的」是「well-off」的用法，與本句語境不同。",
-        "well-mcq-22": "「被很多人認識、知道的；廣為人知的」是「well-known」的用法，與本句語境不同。",
-        "well-mcq-21": "「維持和提升整體健康的狀態／健康實踐概念」是「wellness」的用法，與本句語境不同。",
-        "well-mcq-20": "「身體、心理和生活整體健康安穩的狀態／福祉」是「well-being」的用法，與本句語境不同。",
-        "well-mcq-19": "「強烈情緒像液體一樣逐漸湧起」是「well — emotion」的用法，與本句語境不同。"
+        "well-mcq-24": "本句的「stairwell」指「建築或機械結構中向下／向上延伸的井狀空間」。",
+        "well-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-24"
     },
@@ -1627,11 +1483,9 @@ export default {
       "masked": "The lift moves inside a vertical ____.",
       "options": [
         "well-mcq-24",
-        "well-mcq-23",
-        "well-mcq-22",
-        "well-mcq-21",
-        "well-mcq-20",
-        "well-mcq-19"
+        "well-mcq-10",
+        "well-mcq-18",
+        "well-mcq-02"
       ],
       "explanation": "本句的「well」指「建築或機械結構中向下／向上延伸的井狀空間」。",
       "sentenceIndex": 36,
@@ -1640,12 +1494,10 @@ export default {
         "well"
       ],
       "optionReasons": {
-        "well-mcq-24": "本句指「建築或機械結構中向下／向上延伸的井狀空間」。",
-        "well-mcq-23": "「經濟條件良好、生活較富裕的」是「well-off」的用法，與本句語境不同。",
-        "well-mcq-22": "「被很多人認識、知道的；廣為人知的」是「well-known」的用法，與本句語境不同。",
-        "well-mcq-21": "「維持和提升整體健康的狀態／健康實踐概念」是「wellness」的用法，與本句語境不同。",
-        "well-mcq-20": "「身體、心理和生活整體健康安穩的狀態／福祉」是「well-being」的用法，與本句語境不同。",
-        "well-mcq-19": "「強烈情緒像液體一樣逐漸湧起」是「well — emotion」的用法，與本句語境不同。"
+        "well-mcq-24": "本句的「well」指「建築或機械結構中向下／向上延伸的井狀空間」。",
+        "well-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-24"
     },
@@ -1657,11 +1509,9 @@ export default {
       "masked": "Tears ____ in her eyes.",
       "options": [
         "well-mcq-18",
-        "well-mcq-17",
-        "well-mcq-19",
-        "well-mcq-16",
-        "well-mcq-20",
-        "well-mcq-15"
+        "well-mcq-23",
+        "well-mcq-05",
+        "well-mcq-03"
       ],
       "explanation": "本句的「welled」指「液體由內部逐漸湧出、升起或積聚」。",
       "sentenceIndex": 37,
@@ -1670,12 +1520,10 @@ export default {
         "welled"
       ],
       "optionReasons": {
-        "well-mcq-18": "本句指「液體由內部逐漸湧出、升起或積聚」。",
-        "well-mcq-17": "「為抽取地下石油或天然氣而鑽出的井」是「well — noun: oil/gas」的用法，與本句語境不同。",
-        "well-mcq-19": "「強烈情緒像液體一樣逐漸湧起」是「well — emotion」的用法，與本句語境不同。",
-        "well-mcq-16": "「為取得地下水而挖／鑽的深洞」是「well — noun: water」的用法，與本句語境不同。",
-        "well-mcq-20": "「身體、心理和生活整體健康安穩的狀態／福祉」是「well-being」的用法，與本句語境不同。",
-        "well-mcq-15": "「強調某狀態完整、徹底而確實成立」是「well and truly」的用法，與本句語境不同。"
+        "well-mcq-18": "本句的「welled」指「液體由內部逐漸湧出、升起或積聚」。",
+        "well-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-18"
     },
@@ -1687,11 +1535,9 @@ export default {
       "masked": "Water ____ from the ground.",
       "options": [
         "well-mcq-18",
-        "well-mcq-17",
-        "well-mcq-19",
-        "well-mcq-16",
-        "well-mcq-20",
-        "well-mcq-15"
+        "well-mcq-15",
+        "well-mcq-24",
+        "well-mcq-16"
       ],
       "explanation": "本句的「welled」指「液體由內部逐漸湧出、升起或積聚」。",
       "sentenceIndex": 38,
@@ -1700,12 +1546,10 @@ export default {
         "welled"
       ],
       "optionReasons": {
-        "well-mcq-18": "本句指「液體由內部逐漸湧出、升起或積聚」。",
-        "well-mcq-17": "「為抽取地下石油或天然氣而鑽出的井」是「well — noun: oil/gas」的用法，與本句語境不同。",
-        "well-mcq-19": "「強烈情緒像液體一樣逐漸湧起」是「well — emotion」的用法，與本句語境不同。",
-        "well-mcq-16": "「為取得地下水而挖／鑽的深洞」是「well — noun: water」的用法，與本句語境不同。",
-        "well-mcq-20": "「身體、心理和生活整體健康安穩的狀態／福祉」是「well-being」的用法，與本句語境不同。",
-        "well-mcq-15": "「強調某狀態完整、徹底而確實成立」是「well and truly」的用法，與本句語境不同。"
+        "well-mcq-18": "本句的「welled」指「液體由內部逐漸湧出、升起或積聚」。",
+        "well-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-18"
     },
@@ -1717,11 +1561,9 @@ export default {
       "masked": "Anger ____ inside him.",
       "options": [
         "well-mcq-19",
-        "well-mcq-18",
-        "well-mcq-20",
-        "well-mcq-17",
-        "well-mcq-21",
-        "well-mcq-16"
+        "well-mcq-11",
+        "well-mcq-24",
+        "well-mcq-07"
       ],
       "explanation": "本句的「welled」指「強烈情緒像液體一樣逐漸湧起」。",
       "sentenceIndex": 39,
@@ -1730,12 +1572,10 @@ export default {
         "welled"
       ],
       "optionReasons": {
-        "well-mcq-19": "本句指「強烈情緒像液體一樣逐漸湧起」。",
-        "well-mcq-18": "「液體由內部逐漸湧出、升起或積聚」是「well — verb」的用法，與本句語境不同。",
-        "well-mcq-20": "「身體、心理和生活整體健康安穩的狀態／福祉」是「well-being」的用法，與本句語境不同。",
-        "well-mcq-17": "「為抽取地下石油或天然氣而鑽出的井」是「well — noun: oil/gas」的用法，與本句語境不同。",
-        "well-mcq-21": "「維持和提升整體健康的狀態／健康實踐概念」是「wellness」的用法，與本句語境不同。",
-        "well-mcq-16": "「為取得地下水而挖／鑽的深洞」是「well — noun: water」的用法，與本句語境不同。"
+        "well-mcq-19": "本句的「welled」指「強烈情緒像液體一樣逐漸湧起」。",
+        "well-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-19"
     },
@@ -1747,11 +1587,9 @@ export default {
       "masked": "A feeling of relief ____ inside her.",
       "options": [
         "well-mcq-19",
-        "well-mcq-18",
-        "well-mcq-20",
-        "well-mcq-17",
-        "well-mcq-21",
-        "well-mcq-16"
+        "well-mcq-06",
+        "well-mcq-24",
+        "well-mcq-22"
       ],
       "explanation": "本句的「welled」指「強烈情緒像液體一樣逐漸湧起」。",
       "sentenceIndex": 40,
@@ -1760,12 +1598,10 @@ export default {
         "welled"
       ],
       "optionReasons": {
-        "well-mcq-19": "本句指「強烈情緒像液體一樣逐漸湧起」。",
-        "well-mcq-18": "「液體由內部逐漸湧出、升起或積聚」是「well — verb」的用法，與本句語境不同。",
-        "well-mcq-20": "「身體、心理和生活整體健康安穩的狀態／福祉」是「well-being」的用法，與本句語境不同。",
-        "well-mcq-17": "「為抽取地下石油或天然氣而鑽出的井」是「well — noun: oil/gas」的用法，與本句語境不同。",
-        "well-mcq-21": "「維持和提升整體健康的狀態／健康實踐概念」是「wellness」的用法，與本句語境不同。",
-        "well-mcq-16": "「為取得地下水而挖／鑽的深洞」是「well — noun: water」的用法，與本句語境不同。"
+        "well-mcq-19": "本句的「welled」指「強烈情緒像液體一樣逐漸湧起」。",
+        "well-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-19"
     },
@@ -1777,11 +1613,9 @@ export default {
       "masked": "Sleep is important for your ____.",
       "options": [
         "well-mcq-20",
-        "well-mcq-19",
-        "well-mcq-21",
-        "well-mcq-18",
+        "well-mcq-12",
         "well-mcq-22",
-        "well-mcq-17"
+        "well-mcq-03"
       ],
       "explanation": "本句的「well-being」指「身體、心理和生活整體健康安穩的狀態／福祉」。",
       "sentenceIndex": 41,
@@ -1790,12 +1624,10 @@ export default {
         "well-being"
       ],
       "optionReasons": {
-        "well-mcq-20": "本句指「身體、心理和生活整體健康安穩的狀態／福祉」。",
-        "well-mcq-19": "「強烈情緒像液體一樣逐漸湧起」是「well — emotion」的用法，與本句語境不同。",
-        "well-mcq-21": "「維持和提升整體健康的狀態／健康實踐概念」是「wellness」的用法，與本句語境不同。",
-        "well-mcq-18": "「液體由內部逐漸湧出、升起或積聚」是「well — verb」的用法，與本句語境不同。",
-        "well-mcq-22": "「被很多人認識、知道的；廣為人知的」是「well-known」的用法，與本句語境不同。",
-        "well-mcq-17": "「為抽取地下石油或天然氣而鑽出的井」是「well — noun: oil/gas」的用法，與本句語境不同。"
+        "well-mcq-20": "本句的「well-being」指「身體、心理和生活整體健康安穩的狀態／福祉」。",
+        "well-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-20"
     },
@@ -1807,11 +1639,9 @@ export default {
       "masked": "The company introduced policies to improve employee ____.",
       "options": [
         "well-mcq-20",
-        "well-mcq-19",
-        "well-mcq-21",
-        "well-mcq-18",
-        "well-mcq-22",
-        "well-mcq-17"
+        "well-mcq-16",
+        "well-mcq-03",
+        "well-mcq-13"
       ],
       "explanation": "本句的「well-being」指「身體、心理和生活整體健康安穩的狀態／福祉」。",
       "sentenceIndex": 42,
@@ -1820,12 +1650,10 @@ export default {
         "well-being"
       ],
       "optionReasons": {
-        "well-mcq-20": "本句指「身體、心理和生活整體健康安穩的狀態／福祉」。",
-        "well-mcq-19": "「強烈情緒像液體一樣逐漸湧起」是「well — emotion」的用法，與本句語境不同。",
-        "well-mcq-21": "「維持和提升整體健康的狀態／健康實踐概念」是「wellness」的用法，與本句語境不同。",
-        "well-mcq-18": "「液體由內部逐漸湧出、升起或積聚」是「well — verb」的用法，與本句語境不同。",
-        "well-mcq-22": "「被很多人認識、知道的；廣為人知的」是「well-known」的用法，與本句語境不同。",
-        "well-mcq-17": "「為抽取地下石油或天然氣而鑽出的井」是「well — noun: oil/gas」的用法，與本句語境不同。"
+        "well-mcq-20": "本句的「well-being」指「身體、心理和生活整體健康安穩的狀態／福祉」。",
+        "well-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-20"
     },
@@ -1837,11 +1665,9 @@ export default {
       "masked": "The hotel has a large ____ centre.",
       "options": [
         "well-mcq-21",
-        "well-mcq-20",
-        "well-mcq-22",
-        "well-mcq-19",
-        "well-mcq-23",
-        "well-mcq-18"
+        "well-mcq-02",
+        "well-mcq-06",
+        "well-mcq-03"
       ],
       "explanation": "本句的「wellness」指「維持和提升整體健康的狀態／健康實踐概念」。",
       "sentenceIndex": 43,
@@ -1850,12 +1676,10 @@ export default {
         "wellness"
       ],
       "optionReasons": {
-        "well-mcq-21": "本句指「維持和提升整體健康的狀態／健康實踐概念」。",
-        "well-mcq-20": "「身體、心理和生活整體健康安穩的狀態／福祉」是「well-being」的用法，與本句語境不同。",
-        "well-mcq-22": "「被很多人認識、知道的；廣為人知的」是「well-known」的用法，與本句語境不同。",
-        "well-mcq-19": "「強烈情緒像液體一樣逐漸湧起」是「well — emotion」的用法，與本句語境不同。",
-        "well-mcq-23": "「經濟條件良好、生活較富裕的」是「well-off」的用法，與本句語境不同。",
-        "well-mcq-18": "「液體由內部逐漸湧出、升起或積聚」是「well — verb」的用法，與本句語境不同。"
+        "well-mcq-21": "本句的「wellness」指「維持和提升整體健康的狀態／健康實踐概念」。",
+        "well-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-21"
     },
@@ -1867,11 +1691,9 @@ export default {
       "masked": "Employee ____ programmes have become more common.",
       "options": [
         "well-mcq-21",
-        "well-mcq-20",
-        "well-mcq-22",
-        "well-mcq-19",
-        "well-mcq-23",
-        "well-mcq-18"
+        "well-mcq-01",
+        "well-mcq-12",
+        "well-mcq-16"
       ],
       "explanation": "本句的「wellness」指「維持和提升整體健康的狀態／健康實踐概念」。",
       "sentenceIndex": 44,
@@ -1880,12 +1702,10 @@ export default {
         "wellness"
       ],
       "optionReasons": {
-        "well-mcq-21": "本句指「維持和提升整體健康的狀態／健康實踐概念」。",
-        "well-mcq-20": "「身體、心理和生活整體健康安穩的狀態／福祉」是「well-being」的用法，與本句語境不同。",
-        "well-mcq-22": "「被很多人認識、知道的；廣為人知的」是「well-known」的用法，與本句語境不同。",
-        "well-mcq-19": "「強烈情緒像液體一樣逐漸湧起」是「well — emotion」的用法，與本句語境不同。",
-        "well-mcq-23": "「經濟條件良好、生活較富裕的」是「well-off」的用法，與本句語境不同。",
-        "well-mcq-18": "「液體由內部逐漸湧出、升起或積聚」是「well — verb」的用法，與本句語境不同。"
+        "well-mcq-21": "本句的「wellness」指「維持和提升整體健康的狀態／健康實踐概念」。",
+        "well-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-21"
     },
@@ -1897,11 +1717,9 @@ export default {
       "masked": "It is a ____ brand.",
       "options": [
         "well-mcq-22",
-        "well-mcq-21",
-        "well-mcq-23",
-        "well-mcq-20",
-        "well-mcq-24",
-        "well-mcq-19"
+        "well-mcq-01",
+        "well-mcq-13",
+        "well-mcq-10"
       ],
       "explanation": "本句的「well-known」指「被很多人認識、知道的；廣為人知的」。",
       "sentenceIndex": 45,
@@ -1910,12 +1728,10 @@ export default {
         "well-known"
       ],
       "optionReasons": {
-        "well-mcq-22": "本句指「被很多人認識、知道的；廣為人知的」。",
-        "well-mcq-21": "「維持和提升整體健康的狀態／健康實踐概念」是「wellness」的用法，與本句語境不同。",
-        "well-mcq-23": "「經濟條件良好、生活較富裕的」是「well-off」的用法，與本句語境不同。",
-        "well-mcq-20": "「身體、心理和生活整體健康安穩的狀態／福祉」是「well-being」的用法，與本句語境不同。",
-        "well-mcq-24": "「建築或機械結構中向下／向上延伸的井狀空間」是「18. well = enclosed/recessed vertical space（建築／結構） — 井狀空間；豎井」的用法，與本句語境不同。",
-        "well-mcq-19": "「強烈情緒像液體一樣逐漸湧起」是「well — emotion」的用法，與本句語境不同。"
+        "well-mcq-22": "本句的「well-known」指「被很多人認識、知道的；廣為人知的」。",
+        "well-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-22"
     },
@@ -1927,11 +1743,9 @@ export default {
       "masked": "She is ____ for her research.",
       "options": [
         "well-mcq-22",
-        "well-mcq-21",
-        "well-mcq-23",
-        "well-mcq-20",
-        "well-mcq-24",
-        "well-mcq-19"
+        "well-mcq-10",
+        "well-mcq-15",
+        "well-mcq-12"
       ],
       "explanation": "本句的「well known」指「被很多人認識、知道的；廣為人知的」。",
       "sentenceIndex": 46,
@@ -1940,12 +1754,10 @@ export default {
         "well known"
       ],
       "optionReasons": {
-        "well-mcq-22": "本句指「被很多人認識、知道的；廣為人知的」。",
-        "well-mcq-21": "「維持和提升整體健康的狀態／健康實踐概念」是「wellness」的用法，與本句語境不同。",
-        "well-mcq-23": "「經濟條件良好、生活較富裕的」是「well-off」的用法，與本句語境不同。",
-        "well-mcq-20": "「身體、心理和生活整體健康安穩的狀態／福祉」是「well-being」的用法，與本句語境不同。",
-        "well-mcq-24": "「建築或機械結構中向下／向上延伸的井狀空間」是「18. well = enclosed/recessed vertical space（建築／結構） — 井狀空間；豎井」的用法，與本句語境不同。",
-        "well-mcq-19": "「強烈情緒像液體一樣逐漸湧起」是「well — emotion」的用法，與本句語境不同。"
+        "well-mcq-22": "本句的「well known」指「被很多人認識、知道的；廣為人知的」。",
+        "well-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-22"
     },
@@ -1957,11 +1769,9 @@ export default {
       "masked": "They are relatively ____.",
       "options": [
         "well-mcq-23",
-        "well-mcq-22",
-        "well-mcq-24",
         "well-mcq-21",
-        "well-mcq-20",
-        "well-mcq-19"
+        "well-mcq-01",
+        "well-mcq-10"
       ],
       "explanation": "本句的「well-off」指「經濟條件良好、生活較富裕的」。",
       "sentenceIndex": 47,
@@ -1970,12 +1780,10 @@ export default {
         "well-off"
       ],
       "optionReasons": {
-        "well-mcq-23": "本句指「經濟條件良好、生活較富裕的」。",
-        "well-mcq-22": "「被很多人認識、知道的；廣為人知的」是「well-known」的用法，與本句語境不同。",
-        "well-mcq-24": "「建築或機械結構中向下／向上延伸的井狀空間」是「18. well = enclosed/recessed vertical space（建築／結構） — 井狀空間；豎井」的用法，與本句語境不同。",
-        "well-mcq-21": "「維持和提升整體健康的狀態／健康實踐概念」是「wellness」的用法，與本句語境不同。",
-        "well-mcq-20": "「身體、心理和生活整體健康安穩的狀態／福祉」是「well-being」的用法，與本句語境不同。",
-        "well-mcq-19": "「強烈情緒像液體一樣逐漸湧起」是「well — emotion」的用法，與本句語境不同。"
+        "well-mcq-23": "本句的「well-off」指「經濟條件良好、生活較富裕的」。",
+        "well-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-23"
     },
@@ -1987,10 +1795,8 @@ export default {
       "masked": "The area is popular with ____ families.",
       "options": [
         "well-mcq-23",
-        "well-mcq-22",
         "well-mcq-24",
-        "well-mcq-21",
-        "well-mcq-20",
+        "well-mcq-16",
         "well-mcq-19"
       ],
       "explanation": "本句的「well-off」指「經濟條件良好、生活較富裕的」。",
@@ -2000,12 +1806,10 @@ export default {
         "well-off"
       ],
       "optionReasons": {
-        "well-mcq-23": "本句指「經濟條件良好、生活較富裕的」。",
-        "well-mcq-22": "「被很多人認識、知道的；廣為人知的」是「well-known」的用法，與本句語境不同。",
-        "well-mcq-24": "「建築或機械結構中向下／向上延伸的井狀空間」是「18. well = enclosed/recessed vertical space（建築／結構） — 井狀空間；豎井」的用法，與本句語境不同。",
-        "well-mcq-21": "「維持和提升整體健康的狀態／健康實踐概念」是「wellness」的用法，與本句語境不同。",
-        "well-mcq-20": "「身體、心理和生活整體健康安穩的狀態／福祉」是「well-being」的用法，與本句語境不同。",
-        "well-mcq-19": "「強烈情緒像液體一樣逐漸湧起」是「well — emotion」的用法，與本句語境不同。"
+        "well-mcq-23": "本句的「well-off」指「經濟條件良好、生活較富裕的」。",
+        "well-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "well-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "well-mcq-23"
     }
@@ -2017,5 +1821,7 @@ export default {
     "sha256": "7176341c652d8d9bd60667d091ffb5b552be236a94348bb191f2cca3edabedf1",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

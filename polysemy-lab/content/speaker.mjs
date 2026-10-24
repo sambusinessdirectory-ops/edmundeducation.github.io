@@ -359,16 +359,6 @@ export default {
       "note": "來源詞義：講者備註",
       "examples": [
         [
-          "Put the call on speaker.",
-          "把通話轉到免提模式。",
-          "講者備註"
-        ],
-        [
-          "You're on speaker, so everyone can hear you.",
-          "你現在開了揚聲器／免提，所以大家都聽得到你。",
-          "講者備註"
-        ],
-        [
           "I added speaker notes under each slide.",
           "我在每張投影片下加入了講者備註。",
           "講者備註"
@@ -480,6 +470,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "speaker-reviewed-3460894835",
+      "title": "電話透過外置揚聲器播放通話聲音，而不是只從聽筒輸出",
+      "form": "speaker · source section 18",
+      "en": "電話透過外置揚聲器播放通話聲音，而不是只從聽筒輸出",
+      "zh": "電話透過外置揚聲器播放通話聲音，而不是只從聽筒輸出",
+      "note": "對照原始教材第 18 節及例句核實。",
+      "examples": [
+        [
+          "Put the call on speaker.",
+          "把通話轉到免提模式。",
+          "電話透過外置揚聲器播放通話聲音，而不是只從聽筒輸出"
+        ],
+        [
+          "You're on speaker, so everyone can hear you.",
+          "你現在開了揚聲器／免提，所以大家都聽得到你。",
+          "電話透過外置揚聲器播放通話聲音，而不是只從聽筒輸出"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -491,11 +503,9 @@ export default {
       "masked": "I was checking the order of ____.",
       "options": [
         "speaker-mcq-01",
-        "speaker-mcq-02",
-        "speaker-mcq-03",
-        "speaker-mcq-04",
-        "speaker-mcq-05",
-        "speaker-mcq-06"
+        "speaker-mcq-10",
+        "speaker-mcq-16",
+        "speaker-mcq-05"
       ],
       "explanation": "本句的「speakers」指「講者；發言者」。",
       "sentenceIndex": 0,
@@ -504,12 +514,10 @@ export default {
         "speakers"
       ],
       "optionReasons": {
-        "speaker-mcq-01": "本句指「講者；發言者」。",
-        "speaker-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。",
-        "speaker-mcq-03": "「公開演講者」是「public speaker」的用法，與本句語境不同。",
-        "speaker-mcq-04": "「嘉賓講者」是「guest speaker」的用法，與本句語境不同。",
-        "speaker-mcq-05": "「主題演講嘉賓」是「keynote speaker」的用法，與本句語境不同。",
-        "speaker-mcq-06": "「主要講者」是「main speaker」的用法，與本句語境不同。"
+        "speaker-mcq-01": "本句的「speakers」指「講者；發言者」。",
+        "speaker-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-01"
     },
@@ -521,11 +529,9 @@ export default {
       "masked": "Each ____ had five minutes to present.",
       "options": [
         "speaker-mcq-01",
-        "speaker-mcq-02",
-        "speaker-mcq-03",
-        "speaker-mcq-04",
-        "speaker-mcq-05",
-        "speaker-mcq-06"
+        "speaker-mcq-12",
+        "speaker-mcq-15",
+        "speaker-mcq-11"
       ],
       "explanation": "本句的「speaker」指「講者；發言者」。",
       "sentenceIndex": 1,
@@ -534,12 +540,10 @@ export default {
         "speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-01": "本句指「講者；發言者」。",
-        "speaker-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。",
-        "speaker-mcq-03": "「公開演講者」是「public speaker」的用法，與本句語境不同。",
-        "speaker-mcq-04": "「嘉賓講者」是「guest speaker」的用法，與本句語境不同。",
-        "speaker-mcq-05": "「主題演講嘉賓」是「keynote speaker」的用法，與本句語境不同。",
-        "speaker-mcq-06": "「主要講者」是「main speaker」的用法，與本句語境不同。"
+        "speaker-mcq-01": "本句的「speaker」指「講者；發言者」。",
+        "speaker-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-01"
     },
@@ -551,11 +555,9 @@ export default {
       "masked": "The next ____ walked to the front of the room.",
       "options": [
         "speaker-mcq-01",
-        "speaker-mcq-02",
-        "speaker-mcq-03",
-        "speaker-mcq-04",
-        "speaker-mcq-05",
-        "speaker-mcq-06"
+        "speaker-mcq-10",
+        "speaker-mcq-15",
+        "speaker-mcq-09"
       ],
       "explanation": "本句的「speaker」指「講者；發言者」。",
       "sentenceIndex": 2,
@@ -564,12 +566,10 @@ export default {
         "speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-01": "本句指「講者；發言者」。",
-        "speaker-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。",
-        "speaker-mcq-03": "「公開演講者」是「public speaker」的用法，與本句語境不同。",
-        "speaker-mcq-04": "「嘉賓講者」是「guest speaker」的用法，與本句語境不同。",
-        "speaker-mcq-05": "「主題演講嘉賓」是「keynote speaker」的用法，與本句語境不同。",
-        "speaker-mcq-06": "「主要講者」是「main speaker」的用法，與本句語境不同。"
+        "speaker-mcq-01": "本句的「speaker」指「講者；發言者」。",
+        "speaker-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-01"
     },
@@ -581,11 +581,9 @@ export default {
       "masked": "She is a confident ____.",
       "options": [
         "speaker-mcq-03",
-        "speaker-mcq-02",
-        "speaker-mcq-04",
-        "speaker-mcq-01",
-        "speaker-mcq-05",
-        "speaker-mcq-06"
+        "speaker-mcq-13",
+        "speaker-pdf-001",
+        "speaker-mcq-12"
       ],
       "explanation": "本句的「public speaker」指「公開演講者」。",
       "sentenceIndex": 3,
@@ -594,12 +592,10 @@ export default {
         "public speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-03": "本句指「公開演講者」。",
-        "speaker-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。",
-        "speaker-mcq-04": "「嘉賓講者」是「guest speaker」的用法，與本句語境不同。",
-        "speaker-mcq-01": "「講者；發言者」是「speaker (person)」的用法，與本句語境不同。",
-        "speaker-mcq-05": "「主題演講嘉賓」是「keynote speaker」的用法，與本句語境不同。",
-        "speaker-mcq-06": "「主要講者」是「main speaker」的用法，與本句語境不同。"
+        "speaker-mcq-03": "本句的「public speaker」指「公開演講者」。",
+        "speaker-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "speaker-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-03"
     },
@@ -611,11 +607,9 @@ export default {
       "masked": "Good ____ know how to hold an audience's attention.",
       "options": [
         "speaker-mcq-03",
-        "speaker-mcq-02",
-        "speaker-mcq-04",
-        "speaker-mcq-01",
-        "speaker-mcq-05",
-        "speaker-mcq-06"
+        "speaker-mcq-15",
+        "speaker-reviewed-3460894835",
+        "speaker-pdf-001"
       ],
       "explanation": "本句的「public speakers」指「公開演講者」。",
       "sentenceIndex": 4,
@@ -624,12 +618,10 @@ export default {
         "public speakers"
       ],
       "optionReasons": {
-        "speaker-mcq-03": "本句指「公開演講者」。",
-        "speaker-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。",
-        "speaker-mcq-04": "「嘉賓講者」是「guest speaker」的用法，與本句語境不同。",
-        "speaker-mcq-01": "「講者；發言者」是「speaker (person)」的用法，與本句語境不同。",
-        "speaker-mcq-05": "「主題演講嘉賓」是「keynote speaker」的用法，與本句語境不同。",
-        "speaker-mcq-06": "「主要講者」是「main speaker」的用法，與本句語境不同。"
+        "speaker-mcq-03": "本句的「public speakers」指「公開演講者」。",
+        "speaker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "speaker-reviewed-3460894835": "請比較這個意思與句子中標示的用法。",
+        "speaker-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-03"
     },
@@ -641,11 +633,9 @@ export default {
       "masked": "The university invited a ____.",
       "options": [
         "speaker-mcq-04",
-        "speaker-mcq-03",
-        "speaker-mcq-05",
-        "speaker-mcq-02",
-        "speaker-mcq-06",
-        "speaker-mcq-01"
+        "speaker-mcq-10",
+        "speaker-mcq-19",
+        "speaker-pdf-001"
       ],
       "explanation": "本句的「guest speaker」指「嘉賓講者」。",
       "sentenceIndex": 5,
@@ -654,12 +644,10 @@ export default {
         "guest speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-04": "本句指「嘉賓講者」。",
-        "speaker-mcq-03": "「公開演講者」是「public speaker」的用法，與本句語境不同。",
-        "speaker-mcq-05": "「主題演講嘉賓」是「keynote speaker」的用法，與本句語境不同。",
-        "speaker-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。",
-        "speaker-mcq-06": "「主要講者」是「main speaker」的用法，與本句語境不同。",
-        "speaker-mcq-01": "「講者；發言者」是「speaker (person)」的用法，與本句語境不同。"
+        "speaker-mcq-04": "本句的「guest speaker」指「嘉賓講者」。",
+        "speaker-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "speaker-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-04"
     },
@@ -671,11 +659,9 @@ export default {
       "masked": "Today's ____ works in the technology industry.",
       "options": [
         "speaker-mcq-04",
-        "speaker-mcq-03",
-        "speaker-mcq-05",
-        "speaker-mcq-02",
-        "speaker-mcq-06",
-        "speaker-mcq-01"
+        "speaker-mcq-16",
+        "speaker-mcq-13",
+        "speaker-mcq-12"
       ],
       "explanation": "本句的「guest speaker」指「嘉賓講者」。",
       "sentenceIndex": 6,
@@ -684,12 +670,10 @@ export default {
         "guest speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-04": "本句指「嘉賓講者」。",
-        "speaker-mcq-03": "「公開演講者」是「public speaker」的用法，與本句語境不同。",
-        "speaker-mcq-05": "「主題演講嘉賓」是「keynote speaker」的用法，與本句語境不同。",
-        "speaker-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。",
-        "speaker-mcq-06": "「主要講者」是「main speaker」的用法，與本句語境不同。",
-        "speaker-mcq-01": "「講者；發言者」是「speaker (person)」的用法，與本句語境不同。"
+        "speaker-mcq-04": "本句的「guest speaker」指「嘉賓講者」。",
+        "speaker-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-04"
     },
@@ -701,11 +685,9 @@ export default {
       "masked": "She was the ____ at the conference.",
       "options": [
         "speaker-mcq-05",
-        "speaker-mcq-04",
-        "speaker-mcq-06",
-        "speaker-mcq-03",
-        "speaker-mcq-07",
-        "speaker-mcq-02"
+        "speaker-pdf-001",
+        "speaker-mcq-19",
+        "speaker-mcq-11"
       ],
       "explanation": "本句的「keynote speaker」指「主題演講嘉賓」。",
       "sentenceIndex": 7,
@@ -714,12 +696,10 @@ export default {
         "keynote speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-05": "本句指「主題演講嘉賓」。",
-        "speaker-mcq-04": "「嘉賓講者」是「guest speaker」的用法，與本句語境不同。",
-        "speaker-mcq-06": "「主要講者」是「main speaker」的用法，與本句語境不同。",
-        "speaker-mcq-03": "「公開演講者」是「public speaker」的用法，與本句語境不同。",
-        "speaker-mcq-07": "「某語言使用者」是「speaker (language)」的用法，與本句語境不同。",
-        "speaker-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。"
+        "speaker-mcq-05": "本句的「keynote speaker」指「主題演講嘉賓」。",
+        "speaker-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-05"
     },
@@ -731,11 +711,9 @@ export default {
       "masked": "The ____ opened the event.",
       "options": [
         "speaker-mcq-05",
-        "speaker-mcq-04",
-        "speaker-mcq-06",
-        "speaker-mcq-03",
-        "speaker-mcq-07",
-        "speaker-mcq-02"
+        "speaker-mcq-20",
+        "speaker-mcq-15",
+        "speaker-mcq-09"
       ],
       "explanation": "本句的「keynote speaker」指「主題演講嘉賓」。",
       "sentenceIndex": 8,
@@ -744,12 +722,10 @@ export default {
         "keynote speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-05": "本句指「主題演講嘉賓」。",
-        "speaker-mcq-04": "「嘉賓講者」是「guest speaker」的用法，與本句語境不同。",
-        "speaker-mcq-06": "「主要講者」是「main speaker」的用法，與本句語境不同。",
-        "speaker-mcq-03": "「公開演講者」是「public speaker」的用法，與本句語境不同。",
-        "speaker-mcq-07": "「某語言使用者」是「speaker (language)」的用法，與本句語境不同。",
-        "speaker-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。"
+        "speaker-mcq-05": "本句的「keynote speaker」指「主題演講嘉賓」。",
+        "speaker-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-05"
     },
@@ -761,11 +737,9 @@ export default {
       "masked": "He was the ____ at the event.",
       "options": [
         "speaker-mcq-06",
-        "speaker-mcq-05",
-        "speaker-mcq-07",
-        "speaker-mcq-04",
-        "speaker-mcq-08",
-        "speaker-mcq-03"
+        "speaker-mcq-13",
+        "speaker-mcq-16",
+        "speaker-pdf-001"
       ],
       "explanation": "本句的「main speaker」指「主要講者」。",
       "sentenceIndex": 9,
@@ -774,12 +748,10 @@ export default {
         "main speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-06": "本句指「主要講者」。",
-        "speaker-mcq-05": "「主題演講嘉賓」是「keynote speaker」的用法，與本句語境不同。",
-        "speaker-mcq-07": "「某語言使用者」是「speaker (language)」的用法，與本句語境不同。",
-        "speaker-mcq-04": "「嘉賓講者」是「guest speaker」的用法，與本句語境不同。",
-        "speaker-mcq-08": "「母語者」是「native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-03": "「公開演講者」是「public speaker」的用法，與本句語境不同。"
+        "speaker-mcq-06": "本句的「main speaker」指「主要講者」。",
+        "speaker-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "speaker-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-06"
     },
@@ -791,11 +763,9 @@ export default {
       "masked": "The ____ arrived early to prepare.",
       "options": [
         "speaker-mcq-06",
-        "speaker-mcq-05",
-        "speaker-mcq-07",
-        "speaker-mcq-04",
-        "speaker-mcq-08",
-        "speaker-mcq-03"
+        "speaker-pdf-001",
+        "speaker-mcq-11",
+        "speaker-mcq-16"
       ],
       "explanation": "本句的「main speaker」指「主要講者」。",
       "sentenceIndex": 10,
@@ -804,12 +774,10 @@ export default {
         "main speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-06": "本句指「主要講者」。",
-        "speaker-mcq-05": "「主題演講嘉賓」是「keynote speaker」的用法，與本句語境不同。",
-        "speaker-mcq-07": "「某語言使用者」是「speaker (language)」的用法，與本句語境不同。",
-        "speaker-mcq-04": "「嘉賓講者」是「guest speaker」的用法，與本句語境不同。",
-        "speaker-mcq-08": "「母語者」是「native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-03": "「公開演講者」是「public speaker」的用法，與本句語境不同。"
+        "speaker-mcq-06": "本句的「main speaker」指「主要講者」。",
+        "speaker-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-06"
     },
@@ -821,9 +789,7 @@ export default {
       "masked": "The ____ is Kevin.",
       "options": [
         "speaker-mcq-20",
-        "speaker-mcq-19",
-        "speaker-mcq-21",
-        "speaker-mcq-18",
+        "speaker-mcq-13",
         "speaker-mcq-17",
         "speaker-mcq-16"
       ],
@@ -834,12 +800,10 @@ export default {
         "next speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-20": "本句指「在發言次序中下一位／上一位說話的人」。",
-        "speaker-mcq-19": "「議長職位／任期」是「speakership」的用法，與本句語境不同。",
-        "speaker-mcq-21": "「文學作品，尤其詩歌中發出說話聲音的角色或敘述者」是「21. speaker（文學／詩歌中的說話者） — 詩中說話者；敘述聲音」的用法，與本句語境不同。",
-        "speaker-mcq-18": "「詩中說話者」是「speaker (literature)」的用法，與本句語境不同。",
-        "speaker-mcq-17": "「講者備註」是「speaker notes」的用法，與本句語境不同。",
-        "speaker-mcq-16": "「議院／眾議院議長」是「Speaker of the House」的用法，與本句語境不同。"
+        "speaker-mcq-20": "本句的「next speaker」指「在發言次序中下一位／上一位說話的人」。",
+        "speaker-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-20"
     },
@@ -851,11 +815,9 @@ export default {
       "masked": "The ____ raised an interesting point.",
       "options": [
         "speaker-mcq-20",
-        "speaker-mcq-19",
-        "speaker-mcq-21",
-        "speaker-mcq-18",
-        "speaker-mcq-17",
-        "speaker-mcq-16"
+        "speaker-mcq-12",
+        "speaker-mcq-08",
+        "speaker-mcq-11"
       ],
       "explanation": "本句的「previous speaker」指「在發言次序中下一位／上一位說話的人」。",
       "sentenceIndex": 12,
@@ -864,12 +826,10 @@ export default {
         "previous speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-20": "本句指「在發言次序中下一位／上一位說話的人」。",
-        "speaker-mcq-19": "「議長職位／任期」是「speakership」的用法，與本句語境不同。",
-        "speaker-mcq-21": "「文學作品，尤其詩歌中發出說話聲音的角色或敘述者」是「21. speaker（文學／詩歌中的說話者） — 詩中說話者；敘述聲音」的用法，與本句語境不同。",
-        "speaker-mcq-18": "「詩中說話者」是「speaker (literature)」的用法，與本句語境不同。",
-        "speaker-mcq-17": "「講者備註」是「speaker notes」的用法，與本句語境不同。",
-        "speaker-mcq-16": "「議院／眾議院議長」是「Speaker of the House」的用法，與本句語境不同。"
+        "speaker-mcq-20": "本句的「previous speaker」指「在發言次序中下一位／上一位說話的人」。",
+        "speaker-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-20"
     },
@@ -881,11 +841,9 @@ export default {
       "masked": "She is a fluent English ____.",
       "options": [
         "speaker-mcq-07",
-        "speaker-mcq-06",
-        "speaker-mcq-08",
-        "speaker-mcq-05",
-        "speaker-mcq-09",
-        "speaker-mcq-04"
+        "speaker-mcq-16",
+        "speaker-mcq-12",
+        "speaker-mcq-05"
       ],
       "explanation": "本句的「speaker」指「某語言使用者」。",
       "sentenceIndex": 13,
@@ -894,12 +852,10 @@ export default {
         "speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-07": "本句指「某語言使用者」。",
-        "speaker-mcq-06": "「主要講者」是「main speaker」的用法，與本句語境不同。",
-        "speaker-mcq-08": "「母語者」是「native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-05": "「主題演講嘉賓」是「keynote speaker」的用法，與本句語境不同。",
-        "speaker-mcq-09": "「非母語者」是「non-native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-04": "「嘉賓講者」是「guest speaker」的用法，與本句語境不同。"
+        "speaker-mcq-07": "本句的「speaker」指「某語言使用者」。",
+        "speaker-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-07"
     },
@@ -911,11 +867,9 @@ export default {
       "masked": "The course is designed for Cantonese ____.",
       "options": [
         "speaker-mcq-07",
-        "speaker-mcq-06",
-        "speaker-mcq-08",
-        "speaker-mcq-05",
-        "speaker-mcq-09",
-        "speaker-mcq-04"
+        "speaker-mcq-11",
+        "speaker-mcq-15",
+        "speaker-mcq-12"
       ],
       "explanation": "本句的「speakers」指「某語言使用者」。",
       "sentenceIndex": 14,
@@ -924,12 +878,10 @@ export default {
         "speakers"
       ],
       "optionReasons": {
-        "speaker-mcq-07": "本句指「某語言使用者」。",
-        "speaker-mcq-06": "「主要講者」是「main speaker」的用法，與本句語境不同。",
-        "speaker-mcq-08": "「母語者」是「native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-05": "「主題演講嘉賓」是「keynote speaker」的用法，與本句語境不同。",
-        "speaker-mcq-09": "「非母語者」是「non-native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-04": "「嘉賓講者」是「guest speaker」的用法，與本句語境不同。"
+        "speaker-mcq-07": "本句的「speakers」指「某語言使用者」。",
+        "speaker-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-07"
     },
@@ -941,11 +893,9 @@ export default {
       "masked": "She is a ____ of English.",
       "options": [
         "speaker-mcq-08",
-        "speaker-mcq-07",
-        "speaker-mcq-09",
-        "speaker-mcq-06",
-        "speaker-mcq-10",
-        "speaker-mcq-05"
+        "speaker-mcq-11",
+        "speaker-mcq-12",
+        "speaker-mcq-16"
       ],
       "explanation": "本句的「native speaker」指「母語者」。",
       "sentenceIndex": 15,
@@ -954,12 +904,10 @@ export default {
         "native speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-08": "本句指「母語者」。",
-        "speaker-mcq-07": "「某語言使用者」是「speaker (language)」的用法，與本句語境不同。",
-        "speaker-mcq-09": "「非母語者」是「non-native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-06": "「主要講者」是「main speaker」的用法，與本句語境不同。",
-        "speaker-mcq-10": "「揚聲器；喇叭」是「speaker (device)」的用法，與本句語境不同。",
-        "speaker-mcq-05": "「主題演講嘉賓」是「keynote speaker」的用法，與本句語境不同。"
+        "speaker-mcq-08": "本句的「native speaker」指「母語者」。",
+        "speaker-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-08"
     },
@@ -971,11 +919,9 @@ export default {
       "masked": "You don't need to sound exactly like a ____.",
       "options": [
         "speaker-mcq-08",
-        "speaker-mcq-07",
-        "speaker-mcq-09",
-        "speaker-mcq-06",
         "speaker-mcq-10",
-        "speaker-mcq-05"
+        "speaker-mcq-15",
+        "speaker-mcq-20"
       ],
       "explanation": "本句的「native speaker」指「母語者」。",
       "sentenceIndex": 16,
@@ -984,12 +930,10 @@ export default {
         "native speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-08": "本句指「母語者」。",
-        "speaker-mcq-07": "「某語言使用者」是「speaker (language)」的用法，與本句語境不同。",
-        "speaker-mcq-09": "「非母語者」是「non-native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-06": "「主要講者」是「main speaker」的用法，與本句語境不同。",
-        "speaker-mcq-10": "「揚聲器；喇叭」是「speaker (device)」的用法，與本句語境不同。",
-        "speaker-mcq-05": "「主題演講嘉賓」是「keynote speaker」的用法，與本句語境不同。"
+        "speaker-mcq-08": "本句的「native speaker」指「母語者」。",
+        "speaker-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-08"
     },
@@ -1001,11 +945,9 @@ export default {
       "masked": "The book is written for ____.",
       "options": [
         "speaker-mcq-09",
-        "speaker-mcq-08",
-        "speaker-mcq-10",
-        "speaker-mcq-07",
-        "speaker-mcq-11",
-        "speaker-mcq-06"
+        "speaker-mcq-12",
+        "speaker-mcq-05",
+        "speaker-mcq-16"
       ],
       "explanation": "本句的「non-native speakers」指「非母語者」。",
       "sentenceIndex": 17,
@@ -1014,12 +956,10 @@ export default {
         "non-native speakers"
       ],
       "optionReasons": {
-        "speaker-mcq-09": "本句指「非母語者」。",
-        "speaker-mcq-08": "「母語者」是「native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-10": "「揚聲器；喇叭」是「speaker (device)」的用法，與本句語境不同。",
-        "speaker-mcq-07": "「某語言使用者」是「speaker (language)」的用法，與本句語境不同。",
-        "speaker-mcq-11": "「擴音器；揚聲器」是「loudspeaker」的用法，與本句語境不同。",
-        "speaker-mcq-06": "「主要講者」是「main speaker」的用法，與本句語境不同。"
+        "speaker-mcq-09": "本句的「non-native speakers」指「非母語者」。",
+        "speaker-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-09"
     },
@@ -1031,11 +971,9 @@ export default {
       "masked": "Many ____ use English professionally.",
       "options": [
         "speaker-mcq-09",
-        "speaker-mcq-08",
         "speaker-mcq-10",
-        "speaker-mcq-07",
-        "speaker-mcq-11",
-        "speaker-mcq-06"
+        "speaker-mcq-15",
+        "speaker-mcq-05"
       ],
       "explanation": "本句的「non-native speakers」指「非母語者」。",
       "sentenceIndex": 18,
@@ -1044,12 +982,10 @@ export default {
         "non-native speakers"
       ],
       "optionReasons": {
-        "speaker-mcq-09": "本句指「非母語者」。",
-        "speaker-mcq-08": "「母語者」是「native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-10": "「揚聲器；喇叭」是「speaker (device)」的用法，與本句語境不同。",
-        "speaker-mcq-07": "「某語言使用者」是「speaker (language)」的用法，與本句語境不同。",
-        "speaker-mcq-11": "「擴音器；揚聲器」是「loudspeaker」的用法，與本句語境不同。",
-        "speaker-mcq-06": "「主要講者」是「main speaker」的用法，與本句語境不同。"
+        "speaker-mcq-09": "本句的「non-native speakers」指「非母語者」。",
+        "speaker-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-09"
     },
@@ -1061,11 +997,9 @@ export default {
       "masked": "He is a ____.",
       "options": [
         "speaker-pdf-001",
-        "speaker-mcq-09",
-        "speaker-mcq-11",
-        "speaker-mcq-08",
-        "speaker-mcq-12",
-        "speaker-mcq-07"
+        "speaker-mcq-13",
+        "speaker-mcq-16",
+        "speaker-mcq-03"
       ],
       "explanation": "本句的「speaker of several languages」指「能夠用 X 語言說話的人」。",
       "sentenceIndex": 19,
@@ -1074,12 +1008,10 @@ export default {
         "speaker of several languages"
       ],
       "optionReasons": {
-        "speaker-pdf-001": "本句指「能夠用 X 語言說話的人」。",
-        "speaker-mcq-09": "「非母語者」是「non-native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-11": "「擴音器；揚聲器」是「loudspeaker」的用法，與本句語境不同。",
-        "speaker-mcq-08": "「母語者」是「native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-12": "「藍牙喇叭」是「Bluetooth speaker」的用法，與本句語境不同。",
-        "speaker-mcq-07": "「某語言使用者」是「speaker (language)」的用法，與本句語境不同。"
+        "speaker-pdf-001": "本句的「speaker of several languages」指「能夠用 X 語言說話的人」。",
+        "speaker-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-pdf-001"
     },
@@ -1091,11 +1023,9 @@ export default {
       "masked": "The region has millions of Spanish ____.",
       "options": [
         "speaker-pdf-001",
-        "speaker-mcq-09",
-        "speaker-mcq-11",
-        "speaker-mcq-08",
-        "speaker-mcq-12",
-        "speaker-mcq-07"
+        "speaker-mcq-16",
+        "speaker-mcq-06",
+        "speaker-mcq-12"
       ],
       "explanation": "本句的「speakers」指「能夠用 X 語言說話的人」。",
       "sentenceIndex": 20,
@@ -1104,12 +1034,10 @@ export default {
         "speakers"
       ],
       "optionReasons": {
-        "speaker-pdf-001": "本句指「能夠用 X 語言說話的人」。",
-        "speaker-mcq-09": "「非母語者」是「non-native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-11": "「擴音器；揚聲器」是「loudspeaker」的用法，與本句語境不同。",
-        "speaker-mcq-08": "「母語者」是「native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-12": "「藍牙喇叭」是「Bluetooth speaker」的用法，與本句語境不同。",
-        "speaker-mcq-07": "「某語言使用者」是「speaker (language)」的用法，與本句語境不同。"
+        "speaker-pdf-001": "本句的「speakers」指「能夠用 X 語言說話的人」。",
+        "speaker-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-pdf-001"
     },
@@ -1121,11 +1049,9 @@ export default {
       "masked": "The music is coming from that ____.",
       "options": [
         "speaker-mcq-10",
-        "speaker-mcq-09",
-        "speaker-mcq-11",
-        "speaker-mcq-08",
-        "speaker-mcq-12",
-        "speaker-mcq-07"
+        "speaker-mcq-20",
+        "speaker-mcq-05",
+        "speaker-mcq-19"
       ],
       "explanation": "本句的「speaker」指「揚聲器；喇叭」。",
       "sentenceIndex": 21,
@@ -1134,12 +1060,10 @@ export default {
         "speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-10": "本句指「揚聲器；喇叭」。",
-        "speaker-mcq-09": "「非母語者」是「non-native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-11": "「擴音器；揚聲器」是「loudspeaker」的用法，與本句語境不同。",
-        "speaker-mcq-08": "「母語者」是「native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-12": "「藍牙喇叭」是「Bluetooth speaker」的用法，與本句語境不同。",
-        "speaker-mcq-07": "「某語言使用者」是「speaker (language)」的用法，與本句語境不同。"
+        "speaker-mcq-10": "本句的「speaker」指「揚聲器；喇叭」。",
+        "speaker-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-10"
     },
@@ -1151,11 +1075,9 @@ export default {
       "masked": "One of the ____ isn't working.",
       "options": [
         "speaker-mcq-10",
-        "speaker-mcq-09",
-        "speaker-mcq-11",
-        "speaker-mcq-08",
-        "speaker-mcq-12",
-        "speaker-mcq-07"
+        "speaker-mcq-07",
+        "speaker-mcq-16",
+        "speaker-mcq-05"
       ],
       "explanation": "本句的「speakers」指「揚聲器；喇叭」。",
       "sentenceIndex": 22,
@@ -1164,12 +1086,10 @@ export default {
         "speakers"
       ],
       "optionReasons": {
-        "speaker-mcq-10": "本句指「揚聲器；喇叭」。",
-        "speaker-mcq-09": "「非母語者」是「non-native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-11": "「擴音器；揚聲器」是「loudspeaker」的用法，與本句語境不同。",
-        "speaker-mcq-08": "「母語者」是「native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-12": "「藍牙喇叭」是「Bluetooth speaker」的用法，與本句語境不同。",
-        "speaker-mcq-07": "「某語言使用者」是「speaker (language)」的用法，與本句語境不同。"
+        "speaker-mcq-10": "本句的「speakers」指「揚聲器；喇叭」。",
+        "speaker-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-10"
     },
@@ -1181,11 +1101,9 @@ export default {
       "masked": "The announcement came through the ____.",
       "options": [
         "speaker-mcq-11",
-        "speaker-mcq-10",
-        "speaker-mcq-12",
-        "speaker-mcq-09",
-        "speaker-mcq-13",
-        "speaker-mcq-08"
+        "speaker-pdf-001",
+        "speaker-mcq-06",
+        "speaker-mcq-12"
       ],
       "explanation": "本句的「loudspeaker」指「擴音器；揚聲器」。",
       "sentenceIndex": 23,
@@ -1194,12 +1112,10 @@ export default {
         "loudspeaker"
       ],
       "optionReasons": {
-        "speaker-mcq-11": "本句指「擴音器；揚聲器」。",
-        "speaker-mcq-10": "「揚聲器；喇叭」是「speaker (device)」的用法，與本句語境不同。",
-        "speaker-mcq-12": "「藍牙喇叭」是「Bluetooth speaker」的用法，與本句語境不同。",
-        "speaker-mcq-09": "「非母語者」是「non-native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-13": "「揚聲器／音響系統」是「speaker system」的用法，與本句語境不同。",
-        "speaker-mcq-08": "「母語者」是「native speaker」的用法，與本句語境不同。"
+        "speaker-mcq-11": "本句的「loudspeaker」指「擴音器；揚聲器」。",
+        "speaker-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-11"
     },
@@ -1211,11 +1127,9 @@ export default {
       "masked": "A ____ was installed in the hall.",
       "options": [
         "speaker-mcq-11",
-        "speaker-mcq-10",
-        "speaker-mcq-12",
-        "speaker-mcq-09",
-        "speaker-mcq-13",
-        "speaker-mcq-08"
+        "speaker-mcq-07",
+        "speaker-mcq-16",
+        "speaker-mcq-05"
       ],
       "explanation": "本句的「loudspeaker」指「擴音器；揚聲器」。",
       "sentenceIndex": 24,
@@ -1224,12 +1138,10 @@ export default {
         "loudspeaker"
       ],
       "optionReasons": {
-        "speaker-mcq-11": "本句指「擴音器；揚聲器」。",
-        "speaker-mcq-10": "「揚聲器；喇叭」是「speaker (device)」的用法，與本句語境不同。",
-        "speaker-mcq-12": "「藍牙喇叭」是「Bluetooth speaker」的用法，與本句語境不同。",
-        "speaker-mcq-09": "「非母語者」是「non-native speaker」的用法，與本句語境不同。",
-        "speaker-mcq-13": "「揚聲器／音響系統」是「speaker system」的用法，與本句語境不同。",
-        "speaker-mcq-08": "「母語者」是「native speaker」的用法，與本句語境不同。"
+        "speaker-mcq-11": "本句的「loudspeaker」指「擴音器；揚聲器」。",
+        "speaker-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-11"
     },
@@ -1241,11 +1153,9 @@ export default {
       "masked": "I connected my phone to the ____.",
       "options": [
         "speaker-mcq-12",
-        "speaker-mcq-11",
-        "speaker-mcq-13",
-        "speaker-mcq-10",
-        "speaker-mcq-14",
-        "speaker-mcq-09"
+        "speaker-mcq-06",
+        "speaker-mcq-20",
+        "speaker-mcq-19"
       ],
       "explanation": "本句的「Bluetooth speaker」指「藍牙喇叭」。",
       "sentenceIndex": 25,
@@ -1254,12 +1164,10 @@ export default {
         "Bluetooth speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-12": "本句指「藍牙喇叭」。",
-        "speaker-mcq-11": "「擴音器；揚聲器」是「loudspeaker」的用法，與本句語境不同。",
-        "speaker-mcq-13": "「揚聲器／音響系統」是「speaker system」的用法，與本句語境不同。",
-        "speaker-mcq-10": "「揚聲器；喇叭」是「speaker (device)」的用法，與本句語境不同。",
-        "speaker-mcq-14": "「開免提」是「on speaker」的用法，與本句語境不同。",
-        "speaker-mcq-09": "「非母語者」是「non-native speaker」的用法，與本句語境不同。"
+        "speaker-mcq-12": "本句的「Bluetooth speaker」指「藍牙喇叭」。",
+        "speaker-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-12"
     },
@@ -1271,11 +1179,9 @@ export default {
       "masked": "The ____ is small but powerful.",
       "options": [
         "speaker-mcq-12",
-        "speaker-mcq-11",
-        "speaker-mcq-13",
-        "speaker-mcq-10",
-        "speaker-mcq-14",
-        "speaker-mcq-09"
+        "speaker-mcq-06",
+        "speaker-pdf-001",
+        "speaker-mcq-19"
       ],
       "explanation": "本句的「Bluetooth speaker」指「藍牙喇叭」。",
       "sentenceIndex": 26,
@@ -1284,12 +1190,10 @@ export default {
         "Bluetooth speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-12": "本句指「藍牙喇叭」。",
-        "speaker-mcq-11": "「擴音器；揚聲器」是「loudspeaker」的用法，與本句語境不同。",
-        "speaker-mcq-13": "「揚聲器／音響系統」是「speaker system」的用法，與本句語境不同。",
-        "speaker-mcq-10": "「揚聲器；喇叭」是「speaker (device)」的用法，與本句語境不同。",
-        "speaker-mcq-14": "「開免提」是「on speaker」的用法，與本句語境不同。",
-        "speaker-mcq-09": "「非母語者」是「non-native speaker」的用法，與本句語境不同。"
+        "speaker-mcq-12": "本句的「Bluetooth speaker」指「藍牙喇叭」。",
+        "speaker-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "speaker-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-12"
     },
@@ -1301,11 +1205,9 @@ export default {
       "masked": "The room has two stereo ____.",
       "options": [
         "speaker-mcq-13",
-        "speaker-mcq-12",
-        "speaker-mcq-14",
-        "speaker-mcq-11",
-        "speaker-mcq-15",
-        "speaker-mcq-10"
+        "speaker-mcq-16",
+        "speaker-mcq-03",
+        "speaker-mcq-20"
       ],
       "explanation": "本句的「speakers」指「揚聲器／音響系統」。",
       "sentenceIndex": 27,
@@ -1314,12 +1216,10 @@ export default {
         "speakers"
       ],
       "optionReasons": {
-        "speaker-mcq-13": "本句指「揚聲器／音響系統」。",
-        "speaker-mcq-12": "「藍牙喇叭」是「Bluetooth speaker」的用法，與本句語境不同。",
-        "speaker-mcq-14": "「開免提」是「on speaker」的用法，與本句語境不同。",
-        "speaker-mcq-11": "「擴音器；揚聲器」是「loudspeaker」的用法，與本句語境不同。",
-        "speaker-mcq-15": "「議長」是「Speaker」的用法，與本句語境不同。",
-        "speaker-mcq-10": "「揚聲器；喇叭」是「speaker (device)」的用法，與本句語境不同。"
+        "speaker-mcq-13": "本句的「speakers」指「揚聲器／音響系統」。",
+        "speaker-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-13"
     },
@@ -1331,11 +1231,9 @@ export default {
       "masked": "Good ____ improve the sound quality.",
       "options": [
         "speaker-mcq-13",
-        "speaker-mcq-12",
-        "speaker-mcq-14",
-        "speaker-mcq-11",
+        "speaker-mcq-07",
         "speaker-mcq-15",
-        "speaker-mcq-10"
+        "speaker-mcq-12"
       ],
       "explanation": "本句的「speakers」指「揚聲器／音響系統」。",
       "sentenceIndex": 28,
@@ -1344,12 +1242,10 @@ export default {
         "speakers"
       ],
       "optionReasons": {
-        "speaker-mcq-13": "本句指「揚聲器／音響系統」。",
-        "speaker-mcq-12": "「藍牙喇叭」是「Bluetooth speaker」的用法，與本句語境不同。",
-        "speaker-mcq-14": "「開免提」是「on speaker」的用法，與本句語境不同。",
-        "speaker-mcq-11": "「擴音器；揚聲器」是「loudspeaker」的用法，與本句語境不同。",
-        "speaker-mcq-15": "「議長」是「Speaker」的用法，與本句語境不同。",
-        "speaker-mcq-10": "「揚聲器；喇叭」是「speaker (device)」的用法，與本句語境不同。"
+        "speaker-mcq-13": "本句的「speakers」指「揚聲器／音響系統」。",
+        "speaker-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-13"
     },
@@ -1361,11 +1257,9 @@ export default {
       "masked": "The room has a built-in ____.",
       "options": [
         "speaker-mcq-13",
-        "speaker-mcq-12",
-        "speaker-mcq-14",
-        "speaker-mcq-11",
+        "speaker-mcq-01",
         "speaker-mcq-15",
-        "speaker-mcq-10"
+        "speaker-mcq-09"
       ],
       "explanation": "本句的「speaker system」指「揚聲器／音響系統」。",
       "sentenceIndex": 29,
@@ -1374,12 +1268,10 @@ export default {
         "speaker system"
       ],
       "optionReasons": {
-        "speaker-mcq-13": "本句指「揚聲器／音響系統」。",
-        "speaker-mcq-12": "「藍牙喇叭」是「Bluetooth speaker」的用法，與本句語境不同。",
-        "speaker-mcq-14": "「開免提」是「on speaker」的用法，與本句語境不同。",
-        "speaker-mcq-11": "「擴音器；揚聲器」是「loudspeaker」的用法，與本句語境不同。",
-        "speaker-mcq-15": "「議長」是「Speaker」的用法，與本句語境不同。",
-        "speaker-mcq-10": "「揚聲器；喇叭」是「speaker (device)」的用法，與本句語境不同。"
+        "speaker-mcq-13": "本句的「speaker system」指「揚聲器／音響系統」。",
+        "speaker-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-13"
     },
@@ -1391,11 +1283,9 @@ export default {
       "masked": "We tested the ____ before the presentation.",
       "options": [
         "speaker-mcq-13",
-        "speaker-mcq-12",
-        "speaker-mcq-14",
-        "speaker-mcq-11",
-        "speaker-mcq-15",
-        "speaker-mcq-10"
+        "speaker-mcq-16",
+        "speaker-mcq-20",
+        "speaker-mcq-04"
       ],
       "explanation": "本句的「speaker system」指「揚聲器／音響系統」。",
       "sentenceIndex": 30,
@@ -1404,12 +1294,10 @@ export default {
         "speaker system"
       ],
       "optionReasons": {
-        "speaker-mcq-13": "本句指「揚聲器／音響系統」。",
-        "speaker-mcq-12": "「藍牙喇叭」是「Bluetooth speaker」的用法，與本句語境不同。",
-        "speaker-mcq-14": "「開免提」是「on speaker」的用法，與本句語境不同。",
-        "speaker-mcq-11": "「擴音器；揚聲器」是「loudspeaker」的用法，與本句語境不同。",
-        "speaker-mcq-15": "「議長」是「Speaker」的用法，與本句語境不同。",
-        "speaker-mcq-10": "「揚聲器；喇叭」是「speaker (device)」的用法，與本句語境不同。"
+        "speaker-mcq-13": "本句的「speaker system」指「揚聲器／音響系統」。",
+        "speaker-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-13"
     },
@@ -1421,11 +1309,9 @@ export default {
       "masked": "The ____ called the meeting to order.",
       "options": [
         "speaker-mcq-15",
-        "speaker-mcq-14",
-        "speaker-mcq-16",
-        "speaker-mcq-13",
-        "speaker-mcq-17",
-        "speaker-mcq-12"
+        "speaker-mcq-01",
+        "speaker-mcq-09",
+        "speaker-mcq-13"
       ],
       "explanation": "本句的「Speaker」指「議長」。",
       "sentenceIndex": 31,
@@ -1434,12 +1320,10 @@ export default {
         "Speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-15": "本句指「議長」。",
-        "speaker-mcq-14": "「開免提」是「on speaker」的用法，與本句語境不同。",
-        "speaker-mcq-16": "「議院／眾議院議長」是「Speaker of the House」的用法，與本句語境不同。",
-        "speaker-mcq-13": "「揚聲器／音響系統」是「speaker system」的用法，與本句語境不同。",
-        "speaker-mcq-17": "「講者備註」是「speaker notes」的用法，與本句語境不同。",
-        "speaker-mcq-12": "「藍牙喇叭」是「Bluetooth speaker」的用法，與本句語境不同。"
+        "speaker-mcq-15": "本句的「Speaker」指「議長」。",
+        "speaker-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-15"
     },
@@ -1451,10 +1335,8 @@ export default {
       "masked": "Members addressed their remarks through the ____.",
       "options": [
         "speaker-mcq-15",
-        "speaker-mcq-14",
-        "speaker-mcq-16",
-        "speaker-mcq-13",
-        "speaker-mcq-17",
+        "speaker-mcq-07",
+        "speaker-reviewed-3460894835",
         "speaker-mcq-12"
       ],
       "explanation": "本句的「Speaker」指「議長」。",
@@ -1464,12 +1346,10 @@ export default {
         "Speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-15": "本句指「議長」。",
-        "speaker-mcq-14": "「開免提」是「on speaker」的用法，與本句語境不同。",
-        "speaker-mcq-16": "「議院／眾議院議長」是「Speaker of the House」的用法，與本句語境不同。",
-        "speaker-mcq-13": "「揚聲器／音響系統」是「speaker system」的用法，與本句語境不同。",
-        "speaker-mcq-17": "「講者備註」是「speaker notes」的用法，與本句語境不同。",
-        "speaker-mcq-12": "「藍牙喇叭」是「Bluetooth speaker」的用法，與本句語境不同。"
+        "speaker-mcq-15": "本句的「Speaker」指「議長」。",
+        "speaker-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "speaker-reviewed-3460894835": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-15"
     },
@@ -1481,11 +1361,9 @@ export default {
       "masked": "The ____ presided over the session.",
       "options": [
         "speaker-mcq-16",
-        "speaker-mcq-15",
-        "speaker-mcq-17",
-        "speaker-mcq-14",
-        "speaker-mcq-18",
-        "speaker-mcq-13"
+        "speaker-mcq-01",
+        "speaker-mcq-12",
+        "speaker-mcq-11"
       ],
       "explanation": "本句的「Speaker of the House」指「議院／眾議院議長」。",
       "sentenceIndex": 33,
@@ -1494,12 +1372,10 @@ export default {
         "Speaker of the House"
       ],
       "optionReasons": {
-        "speaker-mcq-16": "本句指「議院／眾議院議長」。",
-        "speaker-mcq-15": "「議長」是「Speaker」的用法，與本句語境不同。",
-        "speaker-mcq-17": "「講者備註」是「speaker notes」的用法，與本句語境不同。",
-        "speaker-mcq-14": "「開免提」是「on speaker」的用法，與本句語境不同。",
-        "speaker-mcq-18": "「詩中說話者」是「speaker (literature)」的用法，與本句語境不同。",
-        "speaker-mcq-13": "「揚聲器／音響系統」是「speaker system」的用法，與本句語境不同。"
+        "speaker-mcq-16": "本句的「Speaker of the House」指「議院／眾議院議長」。",
+        "speaker-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-16"
     },
@@ -1511,11 +1387,9 @@ export default {
       "masked": "The members elected a new ____.",
       "options": [
         "speaker-mcq-16",
-        "speaker-mcq-15",
-        "speaker-mcq-17",
-        "speaker-mcq-14",
-        "speaker-mcq-18",
-        "speaker-mcq-13"
+        "speaker-mcq-04",
+        "speaker-mcq-11",
+        "speaker-pdf-001"
       ],
       "explanation": "本句的「Speaker」指「議院／眾議院議長」。",
       "sentenceIndex": 34,
@@ -1524,74 +1398,68 @@ export default {
         "Speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-16": "本句指「議院／眾議院議長」。",
-        "speaker-mcq-15": "「議長」是「Speaker」的用法，與本句語境不同。",
-        "speaker-mcq-17": "「講者備註」是「speaker notes」的用法，與本句語境不同。",
-        "speaker-mcq-14": "「開免提」是「on speaker」的用法，與本句語境不同。",
-        "speaker-mcq-18": "「詩中說話者」是「speaker (literature)」的用法，與本句語境不同。",
-        "speaker-mcq-13": "「揚聲器／音響系統」是「speaker system」的用法，與本句語境不同。"
+        "speaker-mcq-16": "本句的「Speaker」指「議院／眾議院議長」。",
+        "speaker-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "speaker-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-16"
     },
     {
       "id": "speaker-18-0",
-      "sense": "speaker-mcq-17",
+      "sense": "speaker-reviewed-3460894835",
       "en": "Put the call on speaker.",
       "zh": "把通話轉到免提模式。",
       "masked": "Put the call on ____.",
       "options": [
-        "speaker-mcq-17",
-        "speaker-mcq-16",
-        "speaker-mcq-18",
+        "speaker-reviewed-3460894835",
         "speaker-mcq-15",
-        "speaker-mcq-19",
-        "speaker-mcq-14"
+        "speaker-mcq-06",
+        "speaker-mcq-09"
       ],
-      "explanation": "本句的「speaker」指「講者備註」。",
+      "explanation": "對照完整句子：「把通話轉到免提模式。」。這裡的「speaker」表示「電話透過外置揚聲器播放通話聲音，而不是只從聽筒輸出」。",
       "sentenceIndex": 35,
       "sourcePractice": 1,
       "targets": [
         "speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-17": "本句指「講者備註」。",
-        "speaker-mcq-16": "「議院／眾議院議長」是「Speaker of the House」的用法，與本句語境不同。",
-        "speaker-mcq-18": "「詩中說話者」是「speaker (literature)」的用法，與本句語境不同。",
-        "speaker-mcq-15": "「議長」是「Speaker」的用法，與本句語境不同。",
-        "speaker-mcq-19": "「議長職位／任期」是「speakership」的用法，與本句語境不同。",
-        "speaker-mcq-14": "「開免提」是「on speaker」的用法，與本句語境不同。"
+        "speaker-reviewed-3460894835": "對照完整句子：「把通話轉到免提模式。」。這裡的「speaker」表示「電話透過外置揚聲器播放通話聲音，而不是只從聽筒輸出」。",
+        "speaker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "speaker-mcq-17"
+      "correctOption": "speaker-reviewed-3460894835",
+      "previousCorrectOption": "speaker-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "speaker-18-1",
-      "sense": "speaker-mcq-17",
+      "sense": "speaker-reviewed-3460894835",
       "en": "You're on speaker, so everyone can hear you.",
       "zh": "你現在開了揚聲器／免提，所以大家都聽得到你。",
       "masked": "You're on ____, so everyone can hear you.",
       "options": [
-        "speaker-mcq-17",
-        "speaker-mcq-16",
-        "speaker-mcq-18",
+        "speaker-reviewed-3460894835",
         "speaker-mcq-15",
-        "speaker-mcq-19",
-        "speaker-mcq-14"
+        "speaker-mcq-06",
+        "speaker-mcq-09"
       ],
-      "explanation": "本句的「speaker」指「講者備註」。",
+      "explanation": "對照完整句子：「你現在開了揚聲器／免提，所以大家都聽得到你。」。這裡的「speaker」表示「電話透過外置揚聲器播放通話聲音，而不是只從聽筒輸出」。",
       "sentenceIndex": 36,
       "sourcePractice": 2,
       "targets": [
         "speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-17": "本句指「講者備註」。",
-        "speaker-mcq-16": "「議院／眾議院議長」是「Speaker of the House」的用法，與本句語境不同。",
-        "speaker-mcq-18": "「詩中說話者」是「speaker (literature)」的用法，與本句語境不同。",
-        "speaker-mcq-15": "「議長」是「Speaker」的用法，與本句語境不同。",
-        "speaker-mcq-19": "「議長職位／任期」是「speakership」的用法，與本句語境不同。",
-        "speaker-mcq-14": "「開免提」是「on speaker」的用法，與本句語境不同。"
+        "speaker-reviewed-3460894835": "對照完整句子：「你現在開了揚聲器／免提，所以大家都聽得到你。」。這裡的「speaker」表示「電話透過外置揚聲器播放通話聲音，而不是只從聽筒輸出」。",
+        "speaker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "speaker-mcq-17"
+      "correctOption": "speaker-reviewed-3460894835",
+      "previousCorrectOption": "speaker-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "speaker-19-0",
@@ -1601,11 +1469,9 @@ export default {
       "masked": "I added ____ under each slide.",
       "options": [
         "speaker-mcq-17",
-        "speaker-mcq-16",
-        "speaker-mcq-18",
+        "speaker-pdf-001",
         "speaker-mcq-15",
-        "speaker-mcq-19",
-        "speaker-mcq-14"
+        "speaker-reviewed-3460894835"
       ],
       "explanation": "本句的「speaker notes」指「講者備註」。",
       "sentenceIndex": 37,
@@ -1614,12 +1480,10 @@ export default {
         "speaker notes"
       ],
       "optionReasons": {
-        "speaker-mcq-17": "本句指「講者備註」。",
-        "speaker-mcq-16": "「議院／眾議院議長」是「Speaker of the House」的用法，與本句語境不同。",
-        "speaker-mcq-18": "「詩中說話者」是「speaker (literature)」的用法，與本句語境不同。",
-        "speaker-mcq-15": "「議長」是「Speaker」的用法，與本句語境不同。",
-        "speaker-mcq-19": "「議長職位／任期」是「speakership」的用法，與本句語境不同。",
-        "speaker-mcq-14": "「開免提」是「on speaker」的用法，與本句語境不同。"
+        "speaker-mcq-17": "本句的「speaker notes」指「講者備註」。",
+        "speaker-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "speaker-reviewed-3460894835": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-17"
     },
@@ -1631,11 +1495,9 @@ export default {
       "masked": "Only the presenter can see the ____.",
       "options": [
         "speaker-mcq-17",
-        "speaker-mcq-16",
-        "speaker-mcq-18",
-        "speaker-mcq-15",
+        "speaker-pdf-001",
         "speaker-mcq-19",
-        "speaker-mcq-14"
+        "speaker-mcq-11"
       ],
       "explanation": "本句的「speaker notes」指「講者備註」。",
       "sentenceIndex": 38,
@@ -1644,12 +1506,10 @@ export default {
         "speaker notes"
       ],
       "optionReasons": {
-        "speaker-mcq-17": "本句指「講者備註」。",
-        "speaker-mcq-16": "「議院／眾議院議長」是「Speaker of the House」的用法，與本句語境不同。",
-        "speaker-mcq-18": "「詩中說話者」是「speaker (literature)」的用法，與本句語境不同。",
-        "speaker-mcq-15": "「議長」是「Speaker」的用法，與本句語境不同。",
-        "speaker-mcq-19": "「議長職位／任期」是「speakership」的用法，與本句語境不同。",
-        "speaker-mcq-14": "「開免提」是「on speaker」的用法，與本句語境不同。"
+        "speaker-mcq-17": "本句的「speaker notes」指「講者備註」。",
+        "speaker-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-17"
     },
@@ -1661,11 +1521,9 @@ export default {
       "masked": "The ____ carries important procedural responsibilities.",
       "options": [
         "speaker-mcq-19",
-        "speaker-mcq-18",
-        "speaker-mcq-20",
-        "speaker-mcq-17",
+        "speaker-mcq-04",
         "speaker-mcq-21",
-        "speaker-mcq-16"
+        "speaker-mcq-09"
       ],
       "explanation": "本句的「speakership」指「議長職位／任期」。",
       "sentenceIndex": 39,
@@ -1674,12 +1532,10 @@ export default {
         "speakership"
       ],
       "optionReasons": {
-        "speaker-mcq-19": "本句指「議長職位／任期」。",
-        "speaker-mcq-18": "「詩中說話者」是「speaker (literature)」的用法，與本句語境不同。",
-        "speaker-mcq-20": "「在發言次序中下一位／上一位說話的人」是「6. next speaker / previous speaker — 下一位／上一位講者」的用法，與本句語境不同。",
-        "speaker-mcq-17": "「講者備註」是「speaker notes」的用法，與本句語境不同。",
-        "speaker-mcq-21": "「文學作品，尤其詩歌中發出說話聲音的角色或敘述者」是「21. speaker（文學／詩歌中的說話者） — 詩中說話者；敘述聲音」的用法，與本句語境不同。",
-        "speaker-mcq-16": "「議院／眾議院議長」是「Speaker of the House」的用法，與本句語境不同。"
+        "speaker-mcq-19": "本句的「speakership」指「議長職位／任期」。",
+        "speaker-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-19"
     },
@@ -1691,11 +1547,9 @@ export default {
       "masked": "His ____ lasted several years.",
       "options": [
         "speaker-mcq-19",
-        "speaker-mcq-18",
-        "speaker-mcq-20",
-        "speaker-mcq-17",
+        "speaker-mcq-03",
         "speaker-mcq-21",
-        "speaker-mcq-16"
+        "speaker-mcq-09"
       ],
       "explanation": "本句的「speakership」指「議長職位／任期」。",
       "sentenceIndex": 40,
@@ -1704,12 +1558,10 @@ export default {
         "speakership"
       ],
       "optionReasons": {
-        "speaker-mcq-19": "本句指「議長職位／任期」。",
-        "speaker-mcq-18": "「詩中說話者」是「speaker (literature)」的用法，與本句語境不同。",
-        "speaker-mcq-20": "「在發言次序中下一位／上一位說話的人」是「6. next speaker / previous speaker — 下一位／上一位講者」的用法，與本句語境不同。",
-        "speaker-mcq-17": "「講者備註」是「speaker notes」的用法，與本句語境不同。",
-        "speaker-mcq-21": "「文學作品，尤其詩歌中發出說話聲音的角色或敘述者」是「21. speaker（文學／詩歌中的說話者） — 詩中說話者；敘述聲音」的用法，與本句語境不同。",
-        "speaker-mcq-16": "「議院／眾議院議長」是「Speaker of the House」的用法，與本句語境不同。"
+        "speaker-mcq-19": "本句的「speakership」指「議長職位／任期」。",
+        "speaker-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-19"
     },
@@ -1721,10 +1573,8 @@ export default {
       "masked": "The ____ in the poem feels lonely.",
       "options": [
         "speaker-mcq-21",
-        "speaker-mcq-20",
-        "speaker-mcq-19",
-        "speaker-mcq-18",
-        "speaker-mcq-17",
+        "speaker-mcq-05",
+        "speaker-mcq-12",
         "speaker-mcq-16"
       ],
       "explanation": "本句的「speaker」指「文學作品，尤其詩歌中發出說話聲音的角色或敘述者」。",
@@ -1734,12 +1584,10 @@ export default {
         "speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-21": "本句指「文學作品，尤其詩歌中發出說話聲音的角色或敘述者」。",
-        "speaker-mcq-20": "「在發言次序中下一位／上一位說話的人」是「6. next speaker / previous speaker — 下一位／上一位講者」的用法，與本句語境不同。",
-        "speaker-mcq-19": "「議長職位／任期」是「speakership」的用法，與本句語境不同。",
-        "speaker-mcq-18": "「詩中說話者」是「speaker (literature)」的用法，與本句語境不同。",
-        "speaker-mcq-17": "「講者備註」是「speaker notes」的用法，與本句語境不同。",
-        "speaker-mcq-16": "「議院／眾議院議長」是「Speaker of the House」的用法，與本句語境不同。"
+        "speaker-mcq-21": "本句的「speaker」指「文學作品，尤其詩歌中發出說話聲音的角色或敘述者」。",
+        "speaker-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-21"
     },
@@ -1751,11 +1599,9 @@ export default {
       "masked": "We should not automatically assume that the ____ is the poet.",
       "options": [
         "speaker-mcq-21",
-        "speaker-mcq-20",
-        "speaker-mcq-19",
-        "speaker-mcq-18",
-        "speaker-mcq-17",
-        "speaker-mcq-16"
+        "speaker-mcq-15",
+        "speaker-mcq-12",
+        "speaker-mcq-05"
       ],
       "explanation": "本句的「speaker」指「文學作品，尤其詩歌中發出說話聲音的角色或敘述者」。",
       "sentenceIndex": 42,
@@ -1764,12 +1610,10 @@ export default {
         "speaker"
       ],
       "optionReasons": {
-        "speaker-mcq-21": "本句指「文學作品，尤其詩歌中發出說話聲音的角色或敘述者」。",
-        "speaker-mcq-20": "「在發言次序中下一位／上一位說話的人」是「6. next speaker / previous speaker — 下一位／上一位講者」的用法，與本句語境不同。",
-        "speaker-mcq-19": "「議長職位／任期」是「speakership」的用法，與本句語境不同。",
-        "speaker-mcq-18": "「詩中說話者」是「speaker (literature)」的用法，與本句語境不同。",
-        "speaker-mcq-17": "「講者備註」是「speaker notes」的用法，與本句語境不同。",
-        "speaker-mcq-16": "「議院／眾議院議長」是「Speaker of the House」的用法，與本句語境不同。"
+        "speaker-mcq-21": "本句的「speaker」指「文學作品，尤其詩歌中發出說話聲音的角色或敘述者」。",
+        "speaker-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speaker-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speaker-mcq-21"
     }
@@ -1781,5 +1625,7 @@ export default {
     "sha256": "cb956dde5368d67340a9c4c6cbbe7d6ecf35365b37f01ae0ceea1715da6e49a4",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

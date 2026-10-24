@@ -206,10 +206,6 @@ export default {
       "masked": "The headphones seemed like a small escape from everyday ____.",
       "options": [
         "chaos-mcq-01",
-        "chaos-mcq-02",
-        "chaos-mcq-03",
-        "chaos-mcq-04",
-        "chaos-mcq-05",
         "chaos-mcq-06"
       ],
       "explanation": "本句的「chaos」指「缺乏秩序和控制，使事情變得混亂、難以管理或令人不知所措的狀態」。",
@@ -219,12 +215,8 @@ export default {
         "chaos"
       ],
       "optionReasons": {
-        "chaos-mcq-01": "本句指「缺乏秩序和控制，使事情變得混亂、難以管理或令人不知所措的狀態」。",
-        "chaos-mcq-02": "「日常事情過多或缺乏整理而形成的一團忙亂與失序」與本句語境不同。",
-        "chaos-mcq-03": "「較大型機構、制度或環境失去正常協調和運作秩序的狀態」與本句語境不同。",
-        "chaos-mcq-04": "「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」與本句語境不同。",
-        "chaos-mcq-05": "「缺乏秩序、協調或清晰安排，以致令人難以應付的」與本句語境不同。",
-        "chaos-mcq-06": "「對初始條件高度敏感並呈現混沌行為的」與本句語境不同。"
+        "chaos-mcq-01": "本句的「chaos」指「缺乏秩序和控制，使事情變得混亂、難以管理或令人不知所措的狀態」。",
+        "chaos-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-01"
     },
@@ -236,10 +228,6 @@ export default {
       "masked": "The office was in ____ after the computer system failed.",
       "options": [
         "chaos-mcq-01",
-        "chaos-mcq-02",
-        "chaos-mcq-03",
-        "chaos-mcq-04",
-        "chaos-mcq-05",
         "chaos-mcq-06"
       ],
       "explanation": "本句的「chaos」指「缺乏秩序和控制，使事情變得混亂、難以管理或令人不知所措的狀態」。",
@@ -249,12 +237,8 @@ export default {
         "chaos"
       ],
       "optionReasons": {
-        "chaos-mcq-01": "本句指「缺乏秩序和控制，使事情變得混亂、難以管理或令人不知所措的狀態」。",
-        "chaos-mcq-02": "「日常事情過多或缺乏整理而形成的一團忙亂與失序」與本句語境不同。",
-        "chaos-mcq-03": "「較大型機構、制度或環境失去正常協調和運作秩序的狀態」與本句語境不同。",
-        "chaos-mcq-04": "「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」與本句語境不同。",
-        "chaos-mcq-05": "「缺乏秩序、協調或清晰安排，以致令人難以應付的」與本句語境不同。",
-        "chaos-mcq-06": "「對初始條件高度敏感並呈現混沌行為的」與本句語境不同。"
+        "chaos-mcq-01": "本句的「chaos」指「缺乏秩序和控制，使事情變得混亂、難以管理或令人不知所措的狀態」。",
+        "chaos-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-01"
     },
@@ -266,10 +250,6 @@ export default {
       "masked": "The sudden cancellation caused ____ at the airport.",
       "options": [
         "chaos-mcq-01",
-        "chaos-mcq-02",
-        "chaos-mcq-03",
-        "chaos-mcq-04",
-        "chaos-mcq-05",
         "chaos-mcq-06"
       ],
       "explanation": "本句的「chaos」指「缺乏秩序和控制，使事情變得混亂、難以管理或令人不知所措的狀態」。",
@@ -279,12 +259,8 @@ export default {
         "chaos"
       ],
       "optionReasons": {
-        "chaos-mcq-01": "本句指「缺乏秩序和控制，使事情變得混亂、難以管理或令人不知所措的狀態」。",
-        "chaos-mcq-02": "「日常事情過多或缺乏整理而形成的一團忙亂與失序」與本句語境不同。",
-        "chaos-mcq-03": "「較大型機構、制度或環境失去正常協調和運作秩序的狀態」與本句語境不同。",
-        "chaos-mcq-04": "「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」與本句語境不同。",
-        "chaos-mcq-05": "「缺乏秩序、協調或清晰安排，以致令人難以應付的」與本句語境不同。",
-        "chaos-mcq-06": "「對初始條件高度敏感並呈現混沌行為的」與本句語境不同。"
+        "chaos-mcq-01": "本句的「chaos」指「缺乏秩序和控制，使事情變得混亂、難以管理或令人不知所措的狀態」。",
+        "chaos-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-01"
     },
@@ -296,11 +272,8 @@ export default {
       "masked": "My life has been complete ____ this week.",
       "options": [
         "chaos-mcq-02",
-        "chaos-mcq-01",
-        "chaos-mcq-03",
-        "chaos-mcq-04",
-        "chaos-mcq-05",
-        "chaos-mcq-06"
+        "chaos-mcq-06",
+        "chaos-mcq-03"
       ],
       "explanation": "本句的「chaos」指「日常事情過多或缺乏整理而形成的一團忙亂與失序」。",
       "sentenceIndex": 3,
@@ -309,12 +282,9 @@ export default {
         "chaos"
       ],
       "optionReasons": {
-        "chaos-mcq-02": "本句指「日常事情過多或缺乏整理而形成的一團忙亂與失序」。",
-        "chaos-mcq-01": "「缺乏秩序和控制，使事情變得混亂、難以管理或令人不知所措的狀態」與本句語境不同。",
-        "chaos-mcq-03": "「較大型機構、制度或環境失去正常協調和運作秩序的狀態」與本句語境不同。",
-        "chaos-mcq-04": "「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」與本句語境不同。",
-        "chaos-mcq-05": "「缺乏秩序、協調或清晰安排，以致令人難以應付的」與本句語境不同。",
-        "chaos-mcq-06": "「對初始條件高度敏感並呈現混沌行為的」與本句語境不同。"
+        "chaos-mcq-02": "本句的「chaos」指「日常事情過多或缺乏整理而形成的一團忙亂與失序」。",
+        "chaos-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chaos-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-02"
     },
@@ -326,11 +296,8 @@ export default {
       "masked": "The house was in ____ after the children’s party.",
       "options": [
         "chaos-mcq-02",
-        "chaos-mcq-01",
-        "chaos-mcq-03",
-        "chaos-mcq-04",
-        "chaos-mcq-05",
-        "chaos-mcq-06"
+        "chaos-mcq-06",
+        "chaos-mcq-03"
       ],
       "explanation": "本句的「chaos」指「日常事情過多或缺乏整理而形成的一團忙亂與失序」。",
       "sentenceIndex": 4,
@@ -339,12 +306,9 @@ export default {
         "chaos"
       ],
       "optionReasons": {
-        "chaos-mcq-02": "本句指「日常事情過多或缺乏整理而形成的一團忙亂與失序」。",
-        "chaos-mcq-01": "「缺乏秩序和控制，使事情變得混亂、難以管理或令人不知所措的狀態」與本句語境不同。",
-        "chaos-mcq-03": "「較大型機構、制度或環境失去正常協調和運作秩序的狀態」與本句語境不同。",
-        "chaos-mcq-04": "「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」與本句語境不同。",
-        "chaos-mcq-05": "「缺乏秩序、協調或清晰安排，以致令人難以應付的」與本句語境不同。",
-        "chaos-mcq-06": "「對初始條件高度敏感並呈現混沌行為的」與本句語境不同。"
+        "chaos-mcq-02": "本句的「chaos」指「日常事情過多或缺乏整理而形成的一團忙亂與失序」。",
+        "chaos-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chaos-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-02"
     },
@@ -356,11 +320,7 @@ export default {
       "masked": "The sudden shutdown threw the transport system into ____.",
       "options": [
         "chaos-mcq-03",
-        "chaos-mcq-02",
-        "chaos-mcq-04",
-        "chaos-mcq-01",
-        "chaos-mcq-05",
-        "chaos-mcq-06"
+        "chaos-mcq-08"
       ],
       "explanation": "本句的「chaos」指「較大型機構、制度或環境失去正常協調和運作秩序的狀態」。",
       "sentenceIndex": 5,
@@ -369,12 +329,8 @@ export default {
         "chaos"
       ],
       "optionReasons": {
-        "chaos-mcq-03": "本句指「較大型機構、制度或環境失去正常協調和運作秩序的狀態」。",
-        "chaos-mcq-02": "「日常事情過多或缺乏整理而形成的一團忙亂與失序」與本句語境不同。",
-        "chaos-mcq-04": "「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」與本句語境不同。",
-        "chaos-mcq-01": "「缺乏秩序和控制，使事情變得混亂、難以管理或令人不知所措的狀態」與本句語境不同。",
-        "chaos-mcq-05": "「缺乏秩序、協調或清晰安排，以致令人難以應付的」與本句語境不同。",
-        "chaos-mcq-06": "「對初始條件高度敏感並呈現混沌行為的」與本句語境不同。"
+        "chaos-mcq-03": "本句的「chaos」指「較大型機構、制度或環境失去正常協調和運作秩序的狀態」。",
+        "chaos-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-03"
     },
@@ -386,11 +342,8 @@ export default {
       "masked": "Without clear leadership, the organization descended into ____.",
       "options": [
         "chaos-mcq-03",
-        "chaos-mcq-02",
-        "chaos-mcq-04",
-        "chaos-mcq-01",
-        "chaos-mcq-05",
-        "chaos-mcq-06"
+        "chaos-mcq-06",
+        "chaos-mcq-02"
       ],
       "explanation": "本句的「chaos」指「較大型機構、制度或環境失去正常協調和運作秩序的狀態」。",
       "sentenceIndex": 6,
@@ -399,12 +352,9 @@ export default {
         "chaos"
       ],
       "optionReasons": {
-        "chaos-mcq-03": "本句指「較大型機構、制度或環境失去正常協調和運作秩序的狀態」。",
-        "chaos-mcq-02": "「日常事情過多或缺乏整理而形成的一團忙亂與失序」與本句語境不同。",
-        "chaos-mcq-04": "「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」與本句語境不同。",
-        "chaos-mcq-01": "「缺乏秩序和控制，使事情變得混亂、難以管理或令人不知所措的狀態」與本句語境不同。",
-        "chaos-mcq-05": "「缺乏秩序、協調或清晰安排，以致令人難以應付的」與本句語境不同。",
-        "chaos-mcq-06": "「對初始條件高度敏感並呈現混沌行為的」與本句語境不同。"
+        "chaos-mcq-03": "本句的「chaos」指「較大型機構、制度或環境失去正常協調和運作秩序的狀態」。",
+        "chaos-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chaos-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-03"
     },
@@ -416,11 +366,7 @@ export default {
       "masked": "Scientists study ____ in weather systems.",
       "options": [
         "chaos-mcq-04",
-        "chaos-mcq-03",
-        "chaos-mcq-05",
-        "chaos-mcq-02",
-        "chaos-mcq-06",
-        "chaos-mcq-01"
+        "chaos-mcq-03"
       ],
       "explanation": "本句的「chaos」指「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」。",
       "sentenceIndex": 7,
@@ -429,12 +375,8 @@ export default {
         "chaos"
       ],
       "optionReasons": {
-        "chaos-mcq-04": "本句指「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」。",
-        "chaos-mcq-03": "「較大型機構、制度或環境失去正常協調和運作秩序的狀態」與本句語境不同。",
-        "chaos-mcq-05": "「缺乏秩序、協調或清晰安排，以致令人難以應付的」與本句語境不同。",
-        "chaos-mcq-02": "「日常事情過多或缺乏整理而形成的一團忙亂與失序」與本句語境不同。",
-        "chaos-mcq-06": "「對初始條件高度敏感並呈現混沌行為的」與本句語境不同。",
-        "chaos-mcq-01": "「缺乏秩序和控制，使事情變得混亂、難以管理或令人不知所措的狀態」與本句語境不同。"
+        "chaos-mcq-04": "本句的「chaos」指「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」。",
+        "chaos-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-04"
     },
@@ -446,11 +388,7 @@ export default {
       "masked": "The model shows how simple rules can produce ____.",
       "options": [
         "chaos-mcq-04",
-        "chaos-mcq-03",
-        "chaos-mcq-05",
-        "chaos-mcq-02",
-        "chaos-mcq-06",
-        "chaos-mcq-01"
+        "chaos-mcq-03"
       ],
       "explanation": "本句的「chaos」指「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」。",
       "sentenceIndex": 8,
@@ -459,12 +397,8 @@ export default {
         "chaos"
       ],
       "optionReasons": {
-        "chaos-mcq-04": "本句指「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」。",
-        "chaos-mcq-03": "「較大型機構、制度或環境失去正常協調和運作秩序的狀態」與本句語境不同。",
-        "chaos-mcq-05": "「缺乏秩序、協調或清晰安排，以致令人難以應付的」與本句語境不同。",
-        "chaos-mcq-02": "「日常事情過多或缺乏整理而形成的一團忙亂與失序」與本句語境不同。",
-        "chaos-mcq-06": "「對初始條件高度敏感並呈現混沌行為的」與本句語境不同。",
-        "chaos-mcq-01": "「缺乏秩序和控制，使事情變得混亂、難以管理或令人不知所措的狀態」與本句語境不同。"
+        "chaos-mcq-04": "本句的「chaos」指「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」。",
+        "chaos-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-04"
     },
@@ -476,11 +410,7 @@ export default {
       "masked": "The first few minutes of the meeting were ____.",
       "options": [
         "chaos-mcq-05",
-        "chaos-mcq-04",
-        "chaos-mcq-06",
-        "chaos-mcq-03",
-        "chaos-mcq-07",
-        "chaos-mcq-02"
+        "chaos-mcq-06"
       ],
       "explanation": "本句的「chaotic」指「缺乏秩序、協調或清晰安排，以致令人難以應付的」。",
       "sentenceIndex": 9,
@@ -489,12 +419,8 @@ export default {
         "chaotic"
       ],
       "optionReasons": {
-        "chaos-mcq-05": "本句指「缺乏秩序、協調或清晰安排，以致令人難以應付的」。",
-        "chaos-mcq-04": "「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」與本句語境不同。",
-        "chaos-mcq-06": "「對初始條件高度敏感並呈現混沌行為的」與本句語境不同。",
-        "chaos-mcq-03": "「較大型機構、制度或環境失去正常協調和運作秩序的狀態」與本句語境不同。",
-        "chaos-mcq-07": "「以缺乏秩序、協調或系統的方式」與本句語境不同。",
-        "chaos-mcq-02": "「日常事情過多或缺乏整理而形成的一團忙亂與失序」與本句語境不同。"
+        "chaos-mcq-05": "本句的「chaotic」指「缺乏秩序、協調或清晰安排，以致令人難以應付的」。",
+        "chaos-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-05"
     },
@@ -506,11 +432,7 @@ export default {
       "masked": "The station became ____ after several trains were cancelled.",
       "options": [
         "chaos-mcq-05",
-        "chaos-mcq-04",
-        "chaos-mcq-06",
-        "chaos-mcq-03",
-        "chaos-mcq-07",
-        "chaos-mcq-02"
+        "chaos-mcq-06"
       ],
       "explanation": "本句的「chaotic」指「缺乏秩序、協調或清晰安排，以致令人難以應付的」。",
       "sentenceIndex": 10,
@@ -519,12 +441,8 @@ export default {
         "chaotic"
       ],
       "optionReasons": {
-        "chaos-mcq-05": "本句指「缺乏秩序、協調或清晰安排，以致令人難以應付的」。",
-        "chaos-mcq-04": "「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」與本句語境不同。",
-        "chaos-mcq-06": "「對初始條件高度敏感並呈現混沌行為的」與本句語境不同。",
-        "chaos-mcq-03": "「較大型機構、制度或環境失去正常協調和運作秩序的狀態」與本句語境不同。",
-        "chaos-mcq-07": "「以缺乏秩序、協調或系統的方式」與本句語境不同。",
-        "chaos-mcq-02": "「日常事情過多或缺乏整理而形成的一團忙亂與失序」與本句語境不同。"
+        "chaos-mcq-05": "本句的「chaotic」指「缺乏秩序、協調或清晰安排，以致令人難以應付的」。",
+        "chaos-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-05"
     },
@@ -536,11 +454,7 @@ export default {
       "masked": "Her schedule has been ____ lately.",
       "options": [
         "chaos-mcq-05",
-        "chaos-mcq-04",
-        "chaos-mcq-06",
-        "chaos-mcq-03",
-        "chaos-mcq-07",
-        "chaos-mcq-02"
+        "chaos-mcq-06"
       ],
       "explanation": "本句的「chaotic」指「缺乏秩序、協調或清晰安排，以致令人難以應付的」。",
       "sentenceIndex": 11,
@@ -549,12 +463,8 @@ export default {
         "chaotic"
       ],
       "optionReasons": {
-        "chaos-mcq-05": "本句指「缺乏秩序、協調或清晰安排，以致令人難以應付的」。",
-        "chaos-mcq-04": "「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」與本句語境不同。",
-        "chaos-mcq-06": "「對初始條件高度敏感並呈現混沌行為的」與本句語境不同。",
-        "chaos-mcq-03": "「較大型機構、制度或環境失去正常協調和運作秩序的狀態」與本句語境不同。",
-        "chaos-mcq-07": "「以缺乏秩序、協調或系統的方式」與本句語境不同。",
-        "chaos-mcq-02": "「日常事情過多或缺乏整理而形成的一團忙亂與失序」與本句語境不同。"
+        "chaos-mcq-05": "本句的「chaotic」指「缺乏秩序、協調或清晰安排，以致令人難以應付的」。",
+        "chaos-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-05"
     },
@@ -566,11 +476,7 @@ export default {
       "masked": "I can’t concentrate in such a ____ environment.",
       "options": [
         "chaos-mcq-05",
-        "chaos-mcq-04",
-        "chaos-mcq-06",
-        "chaos-mcq-03",
-        "chaos-mcq-07",
-        "chaos-mcq-02"
+        "chaos-mcq-06"
       ],
       "explanation": "本句的「chaotic」指「缺乏秩序、協調或清晰安排，以致令人難以應付的」。",
       "sentenceIndex": 12,
@@ -579,12 +485,8 @@ export default {
         "chaotic"
       ],
       "optionReasons": {
-        "chaos-mcq-05": "本句指「缺乏秩序、協調或清晰安排，以致令人難以應付的」。",
-        "chaos-mcq-04": "「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」與本句語境不同。",
-        "chaos-mcq-06": "「對初始條件高度敏感並呈現混沌行為的」與本句語境不同。",
-        "chaos-mcq-03": "「較大型機構、制度或環境失去正常協調和運作秩序的狀態」與本句語境不同。",
-        "chaos-mcq-07": "「以缺乏秩序、協調或系統的方式」與本句語境不同。",
-        "chaos-mcq-02": "「日常事情過多或缺乏整理而形成的一團忙亂與失序」與本句語境不同。"
+        "chaos-mcq-05": "本句的「chaotic」指「缺乏秩序、協調或清晰安排，以致令人難以應付的」。",
+        "chaos-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-05"
     },
@@ -596,11 +498,7 @@ export default {
       "masked": "Weather is a ____ system.",
       "options": [
         "chaos-mcq-06",
-        "chaos-mcq-05",
-        "chaos-mcq-07",
-        "chaos-mcq-04",
-        "chaos-mcq-08",
-        "chaos-mcq-03"
+        "chaos-mcq-07"
       ],
       "explanation": "本句的「chaotic」指「對初始條件高度敏感並呈現混沌行為的」。",
       "sentenceIndex": 13,
@@ -609,12 +507,8 @@ export default {
         "chaotic"
       ],
       "optionReasons": {
-        "chaos-mcq-06": "本句指「對初始條件高度敏感並呈現混沌行為的」。",
-        "chaos-mcq-05": "「缺乏秩序、協調或清晰安排，以致令人難以應付的」與本句語境不同。",
-        "chaos-mcq-07": "「以缺乏秩序、協調或系統的方式」與本句語境不同。",
-        "chaos-mcq-04": "「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」與本句語境不同。",
-        "chaos-mcq-08": "「研究確定性系統如何因對初始條件高度敏感而產生複雜難測行為的理論」與本句語境不同。",
-        "chaos-mcq-03": "「較大型機構、制度或環境失去正常協調和運作秩序的狀態」與本句語境不同。"
+        "chaos-mcq-06": "本句的「chaotic」指「對初始條件高度敏感並呈現混沌行為的」。",
+        "chaos-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-06"
     },
@@ -626,10 +520,7 @@ export default {
       "masked": "The researchers observed ____ behaviour in the model.",
       "options": [
         "chaos-mcq-06",
-        "chaos-mcq-05",
-        "chaos-mcq-07",
-        "chaos-mcq-04",
-        "chaos-mcq-08",
+        "chaos-mcq-02",
         "chaos-mcq-03"
       ],
       "explanation": "本句的「chaotic」指「對初始條件高度敏感並呈現混沌行為的」。",
@@ -639,12 +530,9 @@ export default {
         "chaotic"
       ],
       "optionReasons": {
-        "chaos-mcq-06": "本句指「對初始條件高度敏感並呈現混沌行為的」。",
-        "chaos-mcq-05": "「缺乏秩序、協調或清晰安排，以致令人難以應付的」與本句語境不同。",
-        "chaos-mcq-07": "「以缺乏秩序、協調或系統的方式」與本句語境不同。",
-        "chaos-mcq-04": "「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」與本句語境不同。",
-        "chaos-mcq-08": "「研究確定性系統如何因對初始條件高度敏感而產生複雜難測行為的理論」與本句語境不同。",
-        "chaos-mcq-03": "「較大型機構、制度或環境失去正常協調和運作秩序的狀態」與本句語境不同。"
+        "chaos-mcq-06": "本句的「chaotic」指「對初始條件高度敏感並呈現混沌行為的」。",
+        "chaos-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chaos-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-06"
     },
@@ -656,11 +544,7 @@ export default {
       "masked": "People moved ____ around the station.",
       "options": [
         "chaos-mcq-07",
-        "chaos-mcq-06",
-        "chaos-mcq-08",
-        "chaos-mcq-05",
-        "chaos-mcq-04",
-        "chaos-mcq-03"
+        "chaos-mcq-06"
       ],
       "explanation": "本句的「chaotically」指「以缺乏秩序、協調或系統的方式」。",
       "sentenceIndex": 15,
@@ -669,12 +553,8 @@ export default {
         "chaotically"
       ],
       "optionReasons": {
-        "chaos-mcq-07": "本句指「以缺乏秩序、協調或系統的方式」。",
-        "chaos-mcq-06": "「對初始條件高度敏感並呈現混沌行為的」與本句語境不同。",
-        "chaos-mcq-08": "「研究確定性系統如何因對初始條件高度敏感而產生複雜難測行為的理論」與本句語境不同。",
-        "chaos-mcq-05": "「缺乏秩序、協調或清晰安排，以致令人難以應付的」與本句語境不同。",
-        "chaos-mcq-04": "「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」與本句語境不同。",
-        "chaos-mcq-03": "「較大型機構、制度或環境失去正常協調和運作秩序的狀態」與本句語境不同。"
+        "chaos-mcq-07": "本句的「chaotically」指「以缺乏秩序、協調或系統的方式」。",
+        "chaos-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-07"
     },
@@ -686,11 +566,7 @@ export default {
       "masked": "The files had been arranged ____.",
       "options": [
         "chaos-mcq-07",
-        "chaos-mcq-06",
-        "chaos-mcq-08",
-        "chaos-mcq-05",
-        "chaos-mcq-04",
-        "chaos-mcq-03"
+        "chaos-mcq-06"
       ],
       "explanation": "本句的「chaotically」指「以缺乏秩序、協調或系統的方式」。",
       "sentenceIndex": 16,
@@ -699,12 +575,8 @@ export default {
         "chaotically"
       ],
       "optionReasons": {
-        "chaos-mcq-07": "本句指「以缺乏秩序、協調或系統的方式」。",
-        "chaos-mcq-06": "「對初始條件高度敏感並呈現混沌行為的」與本句語境不同。",
-        "chaos-mcq-08": "「研究確定性系統如何因對初始條件高度敏感而產生複雜難測行為的理論」與本句語境不同。",
-        "chaos-mcq-05": "「缺乏秩序、協調或清晰安排，以致令人難以應付的」與本句語境不同。",
-        "chaos-mcq-04": "「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」與本句語境不同。",
-        "chaos-mcq-03": "「較大型機構、制度或環境失去正常協調和運作秩序的狀態」與本句語境不同。"
+        "chaos-mcq-07": "本句的「chaotically」指「以缺乏秩序、協調或系統的方式」。",
+        "chaos-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-07"
     },
@@ -716,10 +588,6 @@ export default {
       "masked": "____ is often discussed in relation to weather prediction.",
       "options": [
         "chaos-mcq-08",
-        "chaos-mcq-07",
-        "chaos-mcq-06",
-        "chaos-mcq-05",
-        "chaos-mcq-04",
         "chaos-mcq-03"
       ],
       "explanation": "本句的「Chaos theory」指「研究確定性系統如何因對初始條件高度敏感而產生複雜難測行為的理論」。",
@@ -729,12 +597,8 @@ export default {
         "Chaos theory"
       ],
       "optionReasons": {
-        "chaos-mcq-08": "本句指「研究確定性系統如何因對初始條件高度敏感而產生複雜難測行為的理論」。",
-        "chaos-mcq-07": "「以缺乏秩序、協調或系統的方式」與本句語境不同。",
-        "chaos-mcq-06": "「對初始條件高度敏感並呈現混沌行為的」與本句語境不同。",
-        "chaos-mcq-05": "「缺乏秩序、協調或清晰安排，以致令人難以應付的」與本句語境不同。",
-        "chaos-mcq-04": "「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」與本句語境不同。",
-        "chaos-mcq-03": "「較大型機構、制度或環境失去正常協調和運作秩序的狀態」與本句語境不同。"
+        "chaos-mcq-08": "本句的「Chaos theory」指「研究確定性系統如何因對初始條件高度敏感而產生複雜難測行為的理論」。",
+        "chaos-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-08"
     },
@@ -746,11 +610,7 @@ export default {
       "masked": "He studied ____ as part of applied mathematics.",
       "options": [
         "chaos-mcq-08",
-        "chaos-mcq-07",
-        "chaos-mcq-06",
-        "chaos-mcq-05",
-        "chaos-mcq-04",
-        "chaos-mcq-03"
+        "chaos-mcq-05"
       ],
       "explanation": "本句的「chaos theory」指「研究確定性系統如何因對初始條件高度敏感而產生複雜難測行為的理論」。",
       "sentenceIndex": 18,
@@ -759,12 +619,8 @@ export default {
         "chaos theory"
       ],
       "optionReasons": {
-        "chaos-mcq-08": "本句指「研究確定性系統如何因對初始條件高度敏感而產生複雜難測行為的理論」。",
-        "chaos-mcq-07": "「以缺乏秩序、協調或系統的方式」與本句語境不同。",
-        "chaos-mcq-06": "「對初始條件高度敏感並呈現混沌行為的」與本句語境不同。",
-        "chaos-mcq-05": "「缺乏秩序、協調或清晰安排，以致令人難以應付的」與本句語境不同。",
-        "chaos-mcq-04": "「確定性系統因對初始條件高度敏感而產生難以長期預測的複雜行為」與本句語境不同。",
-        "chaos-mcq-03": "「較大型機構、制度或環境失去正常協調和運作秩序的狀態」與本句語境不同。"
+        "chaos-mcq-08": "本句的「chaos theory」指「研究確定性系統如何因對初始條件高度敏感而產生複雜難測行為的理論」。",
+        "chaos-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chaos-mcq-08"
     }
@@ -776,5 +632,7 @@ export default {
     "sha256": "1b0fd5aea638c604bbba7e55ff9feaaa804e813779cb3c559ebb0ae0a446a793",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "join-mcq-04",
-      "title": "兩條道路、河流、線條等在某一點相接或匯合；屬於",
+      "title": "兩條道路、河流、線條等在某一點相接或匯合",
       "form": "things join — meet/connect",
       "en": "things join — meet/connect",
       "zh": "兩條道路、河流、線條等在某一點相接或匯合；屬於",
@@ -169,11 +169,8 @@ export default {
       "masked": "She ____ the school club last year.",
       "options": [
         "join-mcq-01",
-        "join-mcq-02",
-        "join-mcq-03",
-        "join-mcq-04",
-        "join-mcq-05",
-        "join-mcq-06"
+        "join-mcq-07",
+        "join-mcq-04"
       ],
       "explanation": "本句的「joined」指「成為某個團體、組織、機構或隊伍的一員」。",
       "sentenceIndex": 0,
@@ -182,12 +179,9 @@ export default {
         "joined"
       ],
       "optionReasons": {
-        "join-mcq-01": "本句指「成為某個團體、組織、機構或隊伍的一員」。",
-        "join-mcq-02": "「與別人會合並一起參與某項活動、談話或行程」是「join — participate/be with others」的用法，與本句語境不同。",
-        "join-mcq-03": "「把原本分開的物件、部分、線路或位置連接成一體」是「join — connect things」的用法，與本句語境不同。",
-        "join-mcq-04": "「兩條道路、河流、線條等在某一點相接或匯合；屬於」是「things join — meet/connect」的用法，與本句語境不同。",
-        "join-mcq-05": "「把力量、資源或努力結合起來共同做某件事」是「join forces/hands」的用法，與本句語境不同。",
-        "join-mcq-06": "「由兩個或以上的人／機構共同進行、擁有或安排的」是「joint — shared」的用法，與本句語境不同。"
+        "join-mcq-01": "本句的「joined」指「成為某個團體、組織、機構或隊伍的一員」。",
+        "join-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "join-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "join-mcq-01"
     },
@@ -199,11 +193,8 @@ export default {
       "masked": "He plans to ____ the company after graduation.",
       "options": [
         "join-mcq-01",
-        "join-mcq-02",
-        "join-mcq-03",
         "join-mcq-04",
-        "join-mcq-05",
-        "join-mcq-06"
+        "join-mcq-05"
       ],
       "explanation": "本句的「join」指「成為某個團體、組織、機構或隊伍的一員」。",
       "sentenceIndex": 1,
@@ -212,12 +203,9 @@ export default {
         "join"
       ],
       "optionReasons": {
-        "join-mcq-01": "本句指「成為某個團體、組織、機構或隊伍的一員」。",
-        "join-mcq-02": "「與別人會合並一起參與某項活動、談話或行程」是「join — participate/be with others」的用法，與本句語境不同。",
-        "join-mcq-03": "「把原本分開的物件、部分、線路或位置連接成一體」是「join — connect things」的用法，與本句語境不同。",
-        "join-mcq-04": "「兩條道路、河流、線條等在某一點相接或匯合；屬於」是「things join — meet/connect」的用法，與本句語境不同。",
-        "join-mcq-05": "「把力量、資源或努力結合起來共同做某件事」是「join forces/hands」的用法，與本句語境不同。",
-        "join-mcq-06": "「由兩個或以上的人／機構共同進行、擁有或安排的」是「joint — shared」的用法，與本句語境不同。"
+        "join-mcq-01": "本句的「join」指「成為某個團體、組織、機構或隊伍的一員」。",
+        "join-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "join-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "join-mcq-01"
     },
@@ -229,11 +217,8 @@ export default {
       "masked": "Would you like to ____ for lunch?",
       "options": [
         "join-mcq-02",
-        "join-mcq-01",
         "join-mcq-03",
-        "join-mcq-04",
-        "join-mcq-05",
-        "join-mcq-06"
+        "join-mcq-04"
       ],
       "explanation": "本句的「join us」指「與別人會合並一起參與某項活動、談話或行程」。",
       "sentenceIndex": 2,
@@ -242,12 +227,9 @@ export default {
         "join us"
       ],
       "optionReasons": {
-        "join-mcq-02": "本句指「與別人會合並一起參與某項活動、談話或行程」。",
-        "join-mcq-01": "「成為某個團體、組織、機構或隊伍的一員」是「join — become a member」的用法，與本句語境不同。",
-        "join-mcq-03": "「把原本分開的物件、部分、線路或位置連接成一體」是「join — connect things」的用法，與本句語境不同。",
-        "join-mcq-04": "「兩條道路、河流、線條等在某一點相接或匯合；屬於」是「things join — meet/connect」的用法，與本句語境不同。",
-        "join-mcq-05": "「把力量、資源或努力結合起來共同做某件事」是「join forces/hands」的用法，與本句語境不同。",
-        "join-mcq-06": "「由兩個或以上的人／機構共同進行、擁有或安排的」是「joint — shared」的用法，與本句語境不同。"
+        "join-mcq-02": "本句的「join us」指「與別人會合並一起參與某項活動、談話或行程」。",
+        "join-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "join-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "join-mcq-02"
     },
@@ -259,11 +241,8 @@ export default {
       "masked": "She ____ the discussion halfway through.",
       "options": [
         "join-mcq-02",
-        "join-mcq-01",
         "join-mcq-03",
-        "join-mcq-04",
-        "join-mcq-05",
-        "join-mcq-06"
+        "join-mcq-04"
       ],
       "explanation": "本句的「joined」指「與別人會合並一起參與某項活動、談話或行程」。",
       "sentenceIndex": 3,
@@ -272,12 +251,9 @@ export default {
         "joined"
       ],
       "optionReasons": {
-        "join-mcq-02": "本句指「與別人會合並一起參與某項活動、談話或行程」。",
-        "join-mcq-01": "「成為某個團體、組織、機構或隊伍的一員」是「join — become a member」的用法，與本句語境不同。",
-        "join-mcq-03": "「把原本分開的物件、部分、線路或位置連接成一體」是「join — connect things」的用法，與本句語境不同。",
-        "join-mcq-04": "「兩條道路、河流、線條等在某一點相接或匯合；屬於」是「things join — meet/connect」的用法，與本句語境不同。",
-        "join-mcq-05": "「把力量、資源或努力結合起來共同做某件事」是「join forces/hands」的用法，與本句語境不同。",
-        "join-mcq-06": "「由兩個或以上的人／機構共同進行、擁有或安排的」是「joint — shared」的用法，與本句語境不同。"
+        "join-mcq-02": "本句的「joined」指「與別人會合並一起參與某項活動、談話或行程」。",
+        "join-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "join-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "join-mcq-02"
     },
@@ -290,10 +266,7 @@ export default {
       "options": [
         "join-mcq-03",
         "join-mcq-02",
-        "join-mcq-04",
-        "join-mcq-01",
-        "join-mcq-05",
-        "join-mcq-06"
+        "join-mcq-04"
       ],
       "explanation": "本句的「joins」指「把原本分開的物件、部分、線路或位置連接成一體」。",
       "sentenceIndex": 4,
@@ -302,12 +275,9 @@ export default {
         "joins"
       ],
       "optionReasons": {
-        "join-mcq-03": "本句指「把原本分開的物件、部分、線路或位置連接成一體」。",
-        "join-mcq-02": "「與別人會合並一起參與某項活動、談話或行程」是「join — participate/be with others」的用法，與本句語境不同。",
-        "join-mcq-04": "「兩條道路、河流、線條等在某一點相接或匯合；屬於」是「things join — meet/connect」的用法，與本句語境不同。",
-        "join-mcq-01": "「成為某個團體、組織、機構或隊伍的一員」是「join — become a member」的用法，與本句語境不同。",
-        "join-mcq-05": "「把力量、資源或努力結合起來共同做某件事」是「join forces/hands」的用法，與本句語境不同。",
-        "join-mcq-06": "「由兩個或以上的人／機構共同進行、擁有或安排的」是「joint — shared」的用法，與本句語境不同。"
+        "join-mcq-03": "本句的「joins」指「把原本分開的物件、部分、線路或位置連接成一體」。",
+        "join-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "join-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "join-mcq-03"
     },
@@ -319,11 +289,8 @@ export default {
       "masked": "The two pieces are ____ together with glue.",
       "options": [
         "join-mcq-03",
-        "join-mcq-02",
-        "join-mcq-04",
-        "join-mcq-01",
-        "join-mcq-05",
-        "join-mcq-06"
+        "join-mcq-06",
+        "join-mcq-04"
       ],
       "explanation": "本句的「joined」指「把原本分開的物件、部分、線路或位置連接成一體」。",
       "sentenceIndex": 5,
@@ -332,12 +299,9 @@ export default {
         "joined"
       ],
       "optionReasons": {
-        "join-mcq-03": "本句指「把原本分開的物件、部分、線路或位置連接成一體」。",
-        "join-mcq-02": "「與別人會合並一起參與某項活動、談話或行程」是「join — participate/be with others」的用法，與本句語境不同。",
-        "join-mcq-04": "「兩條道路、河流、線條等在某一點相接或匯合；屬於」是「things join — meet/connect」的用法，與本句語境不同。",
-        "join-mcq-01": "「成為某個團體、組織、機構或隊伍的一員」是「join — become a member」的用法，與本句語境不同。",
-        "join-mcq-05": "「把力量、資源或努力結合起來共同做某件事」是「join forces/hands」的用法，與本句語境不同。",
-        "join-mcq-06": "「由兩個或以上的人／機構共同進行、擁有或安排的」是「joint — shared」的用法，與本句語境不同。"
+        "join-mcq-03": "本句的「joined」指「把原本分開的物件、部分、線路或位置連接成一體」。",
+        "join-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "join-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "join-mcq-03"
     },
@@ -349,11 +313,8 @@ export default {
       "masked": "The two roads ____ near the station.",
       "options": [
         "join-mcq-04",
-        "join-mcq-03",
-        "join-mcq-05",
-        "join-mcq-02",
-        "join-mcq-06",
-        "join-mcq-01"
+        "join-mcq-01",
+        "join-mcq-05"
       ],
       "explanation": "本句的「join」指「兩條道路、河流、線條等在某一點相接或匯合；屬於」。",
       "sentenceIndex": 6,
@@ -362,12 +323,9 @@ export default {
         "join"
       ],
       "optionReasons": {
-        "join-mcq-04": "本句指「兩條道路、河流、線條等在某一點相接或匯合；屬於」。",
-        "join-mcq-03": "「把原本分開的物件、部分、線路或位置連接成一體」是「join — connect things」的用法，與本句語境不同。",
-        "join-mcq-05": "「把力量、資源或努力結合起來共同做某件事」是「join forces/hands」的用法，與本句語境不同。",
-        "join-mcq-02": "「與別人會合並一起參與某項活動、談話或行程」是「join — participate/be with others」的用法，與本句語境不同。",
-        "join-mcq-06": "「由兩個或以上的人／機構共同進行、擁有或安排的」是「joint — shared」的用法，與本句語境不同。",
-        "join-mcq-01": "「成為某個團體、組織、機構或隊伍的一員」是「join — become a member」的用法，與本句語境不同。"
+        "join-mcq-04": "本句的「join」指「兩條道路、河流、線條等在某一點相接或匯合；屬於」。",
+        "join-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "join-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "join-mcq-04"
     },
@@ -379,11 +337,8 @@ export default {
       "masked": "The smaller river ____ the main river further north.",
       "options": [
         "join-mcq-04",
-        "join-mcq-03",
-        "join-mcq-05",
-        "join-mcq-02",
-        "join-mcq-06",
-        "join-mcq-01"
+        "join-mcq-01",
+        "join-mcq-05"
       ],
       "explanation": "本句的「joins」指「兩條道路、河流、線條等在某一點相接或匯合；屬於」。",
       "sentenceIndex": 7,
@@ -392,12 +347,9 @@ export default {
         "joins"
       ],
       "optionReasons": {
-        "join-mcq-04": "本句指「兩條道路、河流、線條等在某一點相接或匯合；屬於」。",
-        "join-mcq-03": "「把原本分開的物件、部分、線路或位置連接成一體」是「join — connect things」的用法，與本句語境不同。",
-        "join-mcq-05": "「把力量、資源或努力結合起來共同做某件事」是「join forces/hands」的用法，與本句語境不同。",
-        "join-mcq-02": "「與別人會合並一起參與某項活動、談話或行程」是「join — participate/be with others」的用法，與本句語境不同。",
-        "join-mcq-06": "「由兩個或以上的人／機構共同進行、擁有或安排的」是「joint — shared」的用法，與本句語境不同。",
-        "join-mcq-01": "「成為某個團體、組織、機構或隊伍的一員」是「join — become a member」的用法，與本句語境不同。"
+        "join-mcq-04": "本句的「joins」指「兩條道路、河流、線條等在某一點相接或匯合；屬於」。",
+        "join-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "join-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "join-mcq-04"
     },
@@ -409,11 +361,8 @@ export default {
       "masked": "The two organizations ____ to support the project.",
       "options": [
         "join-mcq-05",
-        "join-mcq-04",
-        "join-mcq-06",
-        "join-mcq-03",
-        "join-mcq-07",
-        "join-mcq-02"
+        "join-mcq-01",
+        "join-mcq-04"
       ],
       "explanation": "本句的「joined forces」指「把力量、資源或努力結合起來共同做某件事」。",
       "sentenceIndex": 8,
@@ -422,12 +371,9 @@ export default {
         "joined forces"
       ],
       "optionReasons": {
-        "join-mcq-05": "本句指「把力量、資源或努力結合起來共同做某件事」。",
-        "join-mcq-04": "「兩條道路、河流、線條等在某一點相接或匯合；屬於」是「things join — meet/connect」的用法，與本句語境不同。",
-        "join-mcq-06": "「由兩個或以上的人／機構共同進行、擁有或安排的」是「joint — shared」的用法，與本句語境不同。",
-        "join-mcq-03": "「把原本分開的物件、部分、線路或位置連接成一體」是「join — connect things」的用法，與本句語境不同。",
-        "join-mcq-07": "「兩個人關係非常親密，幾乎總是在一起；形影不離」是「joined at the hip」的用法，與本句語境不同。",
-        "join-mcq-02": "「與別人會合並一起參與某項活動、談話或行程」是「join — participate/be with others」的用法，與本句語境不同。"
+        "join-mcq-05": "本句的「joined forces」指「把力量、資源或努力結合起來共同做某件事」。",
+        "join-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "join-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "join-mcq-05"
     },
@@ -439,11 +385,8 @@ export default {
       "masked": "The community ____ to help the family.",
       "options": [
         "join-mcq-05",
-        "join-mcq-04",
-        "join-mcq-06",
-        "join-mcq-03",
-        "join-mcq-07",
-        "join-mcq-02"
+        "join-mcq-01",
+        "join-mcq-04"
       ],
       "explanation": "本句的「joined hands」指「把力量、資源或努力結合起來共同做某件事」。",
       "sentenceIndex": 9,
@@ -452,12 +395,9 @@ export default {
         "joined hands"
       ],
       "optionReasons": {
-        "join-mcq-05": "本句指「把力量、資源或努力結合起來共同做某件事」。",
-        "join-mcq-04": "「兩條道路、河流、線條等在某一點相接或匯合；屬於」是「things join — meet/connect」的用法，與本句語境不同。",
-        "join-mcq-06": "「由兩個或以上的人／機構共同進行、擁有或安排的」是「joint — shared」的用法，與本句語境不同。",
-        "join-mcq-03": "「把原本分開的物件、部分、線路或位置連接成一體」是「join — connect things」的用法，與本句語境不同。",
-        "join-mcq-07": "「兩個人關係非常親密，幾乎總是在一起；形影不離」是「joined at the hip」的用法，與本句語境不同。",
-        "join-mcq-02": "「與別人會合並一起參與某項活動、談話或行程」是「join — participate/be with others」的用法，與本句語境不同。"
+        "join-mcq-05": "本句的「joined hands」指「把力量、資源或努力結合起來共同做某件事」。",
+        "join-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "join-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "join-mcq-05"
     },
@@ -469,11 +409,8 @@ export default {
       "masked": "For a few years, we were almost ____.",
       "options": [
         "join-mcq-07",
-        "join-mcq-06",
-        "join-mcq-05",
-        "join-mcq-04",
-        "join-mcq-03",
-        "join-mcq-02"
+        "join-mcq-01",
+        "join-mcq-04"
       ],
       "explanation": "本句的「joined at the hip」指「兩個人關係非常親密，幾乎總是在一起；形影不離」。",
       "sentenceIndex": 10,
@@ -482,12 +419,9 @@ export default {
         "joined at the hip"
       ],
       "optionReasons": {
-        "join-mcq-07": "本句指「兩個人關係非常親密，幾乎總是在一起；形影不離」。",
-        "join-mcq-06": "「由兩個或以上的人／機構共同進行、擁有或安排的」是「joint — shared」的用法，與本句語境不同。",
-        "join-mcq-05": "「把力量、資源或努力結合起來共同做某件事」是「join forces/hands」的用法，與本句語境不同。",
-        "join-mcq-04": "「兩條道路、河流、線條等在某一點相接或匯合；屬於」是「things join — meet/connect」的用法，與本句語境不同。",
-        "join-mcq-03": "「把原本分開的物件、部分、線路或位置連接成一體」是「join — connect things」的用法，與本句語境不同。",
-        "join-mcq-02": "「與別人會合並一起參與某項活動、談話或行程」是「join — participate/be with others」的用法，與本句語境不同。"
+        "join-mcq-07": "本句的「joined at the hip」指「兩個人關係非常親密，幾乎總是在一起；形影不離」。",
+        "join-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "join-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "join-mcq-07"
     },
@@ -499,11 +433,8 @@ export default {
       "masked": "Those two have been ____ since university.",
       "options": [
         "join-mcq-07",
-        "join-mcq-06",
-        "join-mcq-05",
-        "join-mcq-04",
-        "join-mcq-03",
-        "join-mcq-02"
+        "join-mcq-01",
+        "join-mcq-04"
       ],
       "explanation": "本句的「joined at the hip」指「兩個人關係非常親密，幾乎總是在一起；形影不離」。",
       "sentenceIndex": 11,
@@ -512,12 +443,9 @@ export default {
         "joined at the hip"
       ],
       "optionReasons": {
-        "join-mcq-07": "本句指「兩個人關係非常親密，幾乎總是在一起；形影不離」。",
-        "join-mcq-06": "「由兩個或以上的人／機構共同進行、擁有或安排的」是「joint — shared」的用法，與本句語境不同。",
-        "join-mcq-05": "「把力量、資源或努力結合起來共同做某件事」是「join forces/hands」的用法，與本句語境不同。",
-        "join-mcq-04": "「兩條道路、河流、線條等在某一點相接或匯合；屬於」是「things join — meet/connect」的用法，與本句語境不同。",
-        "join-mcq-03": "「把原本分開的物件、部分、線路或位置連接成一體」是「join — connect things」的用法，與本句語境不同。",
-        "join-mcq-02": "「與別人會合並一起參與某項活動、談話或行程」是「join — participate/be with others」的用法，與本句語境不同。"
+        "join-mcq-07": "本句的「joined at the hip」指「兩個人關係非常親密，幾乎總是在一起；形影不離」。",
+        "join-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "join-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "join-mcq-07"
     },
@@ -529,11 +457,8 @@ export default {
       "masked": "They made a ____ decision.",
       "options": [
         "join-mcq-06",
-        "join-mcq-05",
-        "join-mcq-07",
-        "join-mcq-04",
         "join-mcq-03",
-        "join-mcq-02"
+        "join-mcq-04"
       ],
       "explanation": "本句的「joint」指「由兩個或以上的人／機構共同進行、擁有或安排的」。",
       "sentenceIndex": 12,
@@ -542,12 +467,9 @@ export default {
         "joint"
       ],
       "optionReasons": {
-        "join-mcq-06": "本句指「由兩個或以上的人／機構共同進行、擁有或安排的」。",
-        "join-mcq-05": "「把力量、資源或努力結合起來共同做某件事」是「join forces/hands」的用法，與本句語境不同。",
-        "join-mcq-07": "「兩個人關係非常親密，幾乎總是在一起；形影不離」是「joined at the hip」的用法，與本句語境不同。",
-        "join-mcq-04": "「兩條道路、河流、線條等在某一點相接或匯合；屬於」是「things join — meet/connect」的用法，與本句語境不同。",
-        "join-mcq-03": "「把原本分開的物件、部分、線路或位置連接成一體」是「join — connect things」的用法，與本句語境不同。",
-        "join-mcq-02": "「與別人會合並一起參與某項活動、談話或行程」是「join — participate/be with others」的用法，與本句語境不同。"
+        "join-mcq-06": "本句的「joint」指「由兩個或以上的人／機構共同進行、擁有或安排的」。",
+        "join-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "join-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "join-mcq-06"
     },
@@ -559,11 +481,8 @@ export default {
       "masked": "The two schools organized a ____ event.",
       "options": [
         "join-mcq-06",
-        "join-mcq-05",
-        "join-mcq-07",
-        "join-mcq-04",
         "join-mcq-03",
-        "join-mcq-02"
+        "join-mcq-04"
       ],
       "explanation": "本句的「joint」指「由兩個或以上的人／機構共同進行、擁有或安排的」。",
       "sentenceIndex": 13,
@@ -572,12 +491,9 @@ export default {
         "joint"
       ],
       "optionReasons": {
-        "join-mcq-06": "本句指「由兩個或以上的人／機構共同進行、擁有或安排的」。",
-        "join-mcq-05": "「把力量、資源或努力結合起來共同做某件事」是「join forces/hands」的用法，與本句語境不同。",
-        "join-mcq-07": "「兩個人關係非常親密，幾乎總是在一起；形影不離」是「joined at the hip」的用法，與本句語境不同。",
-        "join-mcq-04": "「兩條道路、河流、線條等在某一點相接或匯合；屬於」是「things join — meet/connect」的用法，與本句語境不同。",
-        "join-mcq-03": "「把原本分開的物件、部分、線路或位置連接成一體」是「join — connect things」的用法，與本句語境不同。",
-        "join-mcq-02": "「與別人會合並一起參與某項活動、談話或行程」是「join — participate/be with others」的用法，與本句語境不同。"
+        "join-mcq-06": "本句的「joint」指「由兩個或以上的人／機構共同進行、擁有或安排的」。",
+        "join-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "join-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "join-mcq-06"
     }
@@ -589,5 +505,7 @@ export default {
     "sha256": "57cee4965af83dca453f3d426eef87e05c0c2d252ad748f7bcaa846db6103ab6",
     "pages": 8
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

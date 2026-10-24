@@ -368,7 +368,7 @@ export default {
     },
     {
       "id": "regret-mcq-18",
-      "title": "表示後悔；遺憾",
+      "title": "後悔；遺憾",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示後悔；遺憾",
@@ -398,11 +398,7 @@ export default {
       "masked": "The novel explores ____ and the choices people wish they had made differently.",
       "options": [
         "regret-mcq-18",
-        "regret-mcq-17",
-        "regret-mcq-16",
-        "regret-mcq-15",
-        "regret-mcq-14",
-        "regret-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「regret」指「表示後悔；遺憾」。",
       "sentenceIndex": 0,
@@ -411,12 +407,8 @@ export default {
         "regret"
       ],
       "optionReasons": {
-        "regret-mcq-18": "本句指「表示後悔；遺憾」。",
-        "regret-mcq-17": "「令我感到遺憾的是」是「to my regret」的用法，與本句語境不同。",
-        "regret-mcq-16": "「長期帶著對過去的後悔／遺憾生活」是「live with regret」的用法，與本句語境不同。",
-        "regret-mcq-15": "「很遺憾地；令人遺憾的是」是「regrettably」的用法，與本句語境不同。",
-        "regret-mcq-14": "「情況、行為等令人遺憾的」是「regrettable」的用法，與本句語境不同。",
-        "regret-mcq-13": "「帶著後悔／遺憾地」是「regretfully」的用法，與本句語境不同。"
+        "regret-mcq-18": "本句的「regret」指「表示後悔；遺憾」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-18"
     },
@@ -428,11 +420,7 @@ export default {
       "masked": "She felt deep ____ about the opportunity she had missed.",
       "options": [
         "regret-mcq-18",
-        "regret-mcq-17",
-        "regret-mcq-16",
-        "regret-mcq-15",
-        "regret-mcq-14",
-        "regret-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「regret」指「表示後悔；遺憾」。",
       "sentenceIndex": 1,
@@ -441,12 +429,8 @@ export default {
         "regret"
       ],
       "optionReasons": {
-        "regret-mcq-18": "本句指「表示後悔；遺憾」。",
-        "regret-mcq-17": "「令我感到遺憾的是」是「to my regret」的用法，與本句語境不同。",
-        "regret-mcq-16": "「長期帶著對過去的後悔／遺憾生活」是「live with regret」的用法，與本句語境不同。",
-        "regret-mcq-15": "「很遺憾地；令人遺憾的是」是「regrettably」的用法，與本句語境不同。",
-        "regret-mcq-14": "「情況、行為等令人遺憾的」是「regrettable」的用法，與本句語境不同。",
-        "regret-mcq-13": "「帶著後悔／遺憾地」是「regretfully」的用法，與本句語境不同。"
+        "regret-mcq-18": "本句的「regret」指「表示後悔；遺憾」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-18"
     },
@@ -458,11 +442,7 @@ export default {
       "masked": "He spoke with obvious ____ about the decision.",
       "options": [
         "regret-mcq-02",
-        "regret-mcq-01",
-        "regret-mcq-03",
-        "regret-mcq-04",
-        "regret-mcq-05",
-        "regret-mcq-06"
+        "contrast-energy"
       ],
       "explanation": "本句的「regret」指「對某件已發生的事情感到後悔或遺憾」。",
       "sentenceIndex": 2,
@@ -471,12 +451,8 @@ export default {
         "regret"
       ],
       "optionReasons": {
-        "regret-mcq-02": "本句指「對某件已發生的事情感到後悔或遺憾」。",
-        "regret-mcq-01": "「因過去的決定、行動或錯失而希望事情不同；後悔／遺憾」是「regret — noun feeling」的用法，與本句語境不同。",
-        "regret-mcq-03": "「對自己做過、說過或選擇過的事情感到後悔」是「regret — verb」的用法，與本句語境不同。",
-        "regret-mcq-04": "「後悔自己已經做過某事」是「regret doing something」的用法，與本句語境不同。",
-        "regret-mcq-05": "「後悔自己當初沒有做某事」是「regret not doing something」的用法，與本句語境不同。",
-        "regret-mcq-06": "「正式用法：很遺憾現在必須說／通知某件不好的事情」是「regret to do something」的用法，與本句語境不同。"
+        "regret-mcq-02": "本句的「regret」指「對某件已發生的事情感到後悔或遺憾」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-02"
     },
@@ -488,11 +464,7 @@ export default {
       "masked": "She has no ____ about changing careers.",
       "options": [
         "regret-mcq-02",
-        "regret-mcq-01",
-        "regret-mcq-03",
-        "regret-mcq-04",
-        "regret-mcq-05",
-        "regret-mcq-06"
+        "contrast-energy"
       ],
       "explanation": "本句的「regrets」指「對某件已發生的事情感到後悔或遺憾」。",
       "sentenceIndex": 3,
@@ -501,12 +473,8 @@ export default {
         "regrets"
       ],
       "optionReasons": {
-        "regret-mcq-02": "本句指「對某件已發生的事情感到後悔或遺憾」。",
-        "regret-mcq-01": "「因過去的決定、行動或錯失而希望事情不同；後悔／遺憾」是「regret — noun feeling」的用法，與本句語境不同。",
-        "regret-mcq-03": "「對自己做過、說過或選擇過的事情感到後悔」是「regret — verb」的用法，與本句語境不同。",
-        "regret-mcq-04": "「後悔自己已經做過某事」是「regret doing something」的用法，與本句語境不同。",
-        "regret-mcq-05": "「後悔自己當初沒有做某事」是「regret not doing something」的用法，與本句語境不同。",
-        "regret-mcq-06": "「正式用法：很遺憾現在必須說／通知某件不好的事情」是「regret to do something」的用法，與本句語境不同。"
+        "regret-mcq-02": "本句的「regrets」指「對某件已發生的事情感到後悔或遺憾」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-02"
     },
@@ -518,11 +486,7 @@ export default {
       "masked": "He expressed ____ what had happened.",
       "options": [
         "regret-mcq-02",
-        "regret-mcq-01",
-        "regret-mcq-03",
-        "regret-mcq-04",
-        "regret-mcq-05",
-        "regret-mcq-06"
+        "contrast-energy"
       ],
       "explanation": "本句的「regret over」指「對某件已發生的事情感到後悔或遺憾」。",
       "sentenceIndex": 4,
@@ -531,12 +495,8 @@ export default {
         "regret over"
       ],
       "optionReasons": {
-        "regret-mcq-02": "本句指「對某件已發生的事情感到後悔或遺憾」。",
-        "regret-mcq-01": "「因過去的決定、行動或錯失而希望事情不同；後悔／遺憾」是「regret — noun feeling」的用法，與本句語境不同。",
-        "regret-mcq-03": "「對自己做過、說過或選擇過的事情感到後悔」是「regret — verb」的用法，與本句語境不同。",
-        "regret-mcq-04": "「後悔自己已經做過某事」是「regret doing something」的用法，與本句語境不同。",
-        "regret-mcq-05": "「後悔自己當初沒有做某事」是「regret not doing something」的用法，與本句語境不同。",
-        "regret-mcq-06": "「正式用法：很遺憾現在必須說／通知某件不好的事情」是「regret to do something」的用法，與本句語境不同。"
+        "regret-mcq-02": "本句的「regret over」指「對某件已發生的事情感到後悔或遺憾」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-02"
     },
@@ -548,11 +508,7 @@ export default {
       "masked": "She felt ____ leaving so suddenly.",
       "options": [
         "regret-mcq-02",
-        "regret-mcq-01",
-        "regret-mcq-03",
-        "regret-mcq-04",
-        "regret-mcq-05",
-        "regret-mcq-06"
+        "contrast-energy"
       ],
       "explanation": "本句的「regret about」指「對某件已發生的事情感到後悔或遺憾」。",
       "sentenceIndex": 5,
@@ -561,12 +517,8 @@ export default {
         "regret about"
       ],
       "optionReasons": {
-        "regret-mcq-02": "本句指「對某件已發生的事情感到後悔或遺憾」。",
-        "regret-mcq-01": "「因過去的決定、行動或錯失而希望事情不同；後悔／遺憾」是「regret — noun feeling」的用法，與本句語境不同。",
-        "regret-mcq-03": "「對自己做過、說過或選擇過的事情感到後悔」是「regret — verb」的用法，與本句語境不同。",
-        "regret-mcq-04": "「後悔自己已經做過某事」是「regret doing something」的用法，與本句語境不同。",
-        "regret-mcq-05": "「後悔自己當初沒有做某事」是「regret not doing something」的用法，與本句語境不同。",
-        "regret-mcq-06": "「正式用法：很遺憾現在必須說／通知某件不好的事情」是「regret to do something」的用法，與本句語境不同。"
+        "regret-mcq-02": "本句的「regret about」指「對某件已發生的事情感到後悔或遺憾」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-02"
     },
@@ -578,11 +530,7 @@ export default {
       "masked": "I ____.",
       "options": [
         "regret-mcq-04",
-        "regret-mcq-03",
-        "regret-mcq-05",
-        "regret-mcq-02",
-        "regret-mcq-06",
-        "regret-mcq-01"
+        "regret-mcq-10"
       ],
       "explanation": "本句的「regret that decision」指「後悔自己已經做過某事」。",
       "sentenceIndex": 6,
@@ -591,12 +539,8 @@ export default {
         "regret that decision"
       ],
       "optionReasons": {
-        "regret-mcq-04": "本句指「後悔自己已經做過某事」。",
-        "regret-mcq-03": "「對自己做過、說過或選擇過的事情感到後悔」是「regret — verb」的用法，與本句語境不同。",
-        "regret-mcq-05": "「後悔自己當初沒有做某事」是「regret not doing something」的用法，與本句語境不同。",
-        "regret-mcq-02": "「對某件已發生的事情感到後悔或遺憾」是「regret about/over something」的用法，與本句語境不同。",
-        "regret-mcq-06": "「正式用法：很遺憾現在必須說／通知某件不好的事情」是「regret to do something」的用法，與本句語境不同。",
-        "regret-mcq-01": "「因過去的決定、行動或錯失而希望事情不同；後悔／遺憾」是「regret — noun feeling」的用法，與本句語境不同。"
+        "regret-mcq-04": "本句的「regret that decision」指「後悔自己已經做過某事」。",
+        "regret-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-04"
     },
@@ -608,11 +552,7 @@ export default {
       "masked": "She immediately ____.",
       "options": [
         "regret-mcq-04",
-        "regret-mcq-03",
-        "regret-mcq-05",
-        "regret-mcq-02",
-        "regret-mcq-06",
-        "regret-mcq-01"
+        "regret-mcq-10"
       ],
       "explanation": "本句的「regretted her words」指「後悔自己已經做過某事」。",
       "sentenceIndex": 7,
@@ -621,12 +561,8 @@ export default {
         "regretted her words"
       ],
       "optionReasons": {
-        "regret-mcq-04": "本句指「後悔自己已經做過某事」。",
-        "regret-mcq-03": "「對自己做過、說過或選擇過的事情感到後悔」是「regret — verb」的用法，與本句語境不同。",
-        "regret-mcq-05": "「後悔自己當初沒有做某事」是「regret not doing something」的用法，與本句語境不同。",
-        "regret-mcq-02": "「對某件已發生的事情感到後悔或遺憾」是「regret about/over something」的用法，與本句語境不同。",
-        "regret-mcq-06": "「正式用法：很遺憾現在必須說／通知某件不好的事情」是「regret to do something」的用法，與本句語境不同。",
-        "regret-mcq-01": "「因過去的決定、行動或錯失而希望事情不同；後悔／遺憾」是「regret — noun feeling」的用法，與本句語境不同。"
+        "regret-mcq-04": "本句的「regretted her words」指「後悔自己已經做過某事」。",
+        "regret-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-04"
     },
@@ -638,11 +574,7 @@ export default {
       "masked": "I ____ that.",
       "options": [
         "regret-mcq-04",
-        "regret-mcq-03",
-        "regret-mcq-05",
-        "regret-mcq-02",
-        "regret-mcq-06",
-        "regret-mcq-01"
+        "regret-mcq-14"
       ],
       "explanation": "本句的「regret saying」指「後悔自己已經做過某事」。",
       "sentenceIndex": 8,
@@ -651,12 +583,8 @@ export default {
         "regret saying"
       ],
       "optionReasons": {
-        "regret-mcq-04": "本句指「後悔自己已經做過某事」。",
-        "regret-mcq-03": "「對自己做過、說過或選擇過的事情感到後悔」是「regret — verb」的用法，與本句語境不同。",
-        "regret-mcq-05": "「後悔自己當初沒有做某事」是「regret not doing something」的用法，與本句語境不同。",
-        "regret-mcq-02": "「對某件已發生的事情感到後悔或遺憾」是「regret about/over something」的用法，與本句語境不同。",
-        "regret-mcq-06": "「正式用法：很遺憾現在必須說／通知某件不好的事情」是「regret to do something」的用法，與本句語境不同。",
-        "regret-mcq-01": "「因過去的決定、行動或錯失而希望事情不同；後悔／遺憾」是「regret — noun feeling」的用法，與本句語境不同。"
+        "regret-mcq-04": "本句的「regret saying」指「後悔自己已經做過某事」。",
+        "regret-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-04"
     },
@@ -668,11 +596,7 @@ export default {
       "masked": "He ____ the job so quickly.",
       "options": [
         "regret-mcq-04",
-        "regret-mcq-03",
-        "regret-mcq-05",
-        "regret-mcq-02",
-        "regret-mcq-06",
-        "regret-mcq-01"
+        "regret-mcq-06"
       ],
       "explanation": "本句的「regretted leaving」指「後悔自己已經做過某事」。",
       "sentenceIndex": 9,
@@ -681,12 +605,8 @@ export default {
         "regretted leaving"
       ],
       "optionReasons": {
-        "regret-mcq-04": "本句指「後悔自己已經做過某事」。",
-        "regret-mcq-03": "「對自己做過、說過或選擇過的事情感到後悔」是「regret — verb」的用法，與本句語境不同。",
-        "regret-mcq-05": "「後悔自己當初沒有做某事」是「regret not doing something」的用法，與本句語境不同。",
-        "regret-mcq-02": "「對某件已發生的事情感到後悔或遺憾」是「regret about/over something」的用法，與本句語境不同。",
-        "regret-mcq-06": "「正式用法：很遺憾現在必須說／通知某件不好的事情」是「regret to do something」的用法，與本句語境不同。",
-        "regret-mcq-01": "「因過去的決定、行動或錯失而希望事情不同；後悔／遺憾」是「regret — noun feeling」的用法，與本句語境不同。"
+        "regret-mcq-04": "本句的「regretted leaving」指「後悔自己已經做過某事」。",
+        "regret-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-04"
     },
@@ -698,11 +618,7 @@ export default {
       "masked": "She ____ abroad.",
       "options": [
         "regret-mcq-05",
-        "regret-mcq-04",
-        "regret-mcq-06",
-        "regret-mcq-03",
-        "regret-mcq-07",
-        "regret-mcq-02"
+        "regret-mcq-14"
       ],
       "explanation": "本句的「regrets not studying」指「後悔自己當初沒有做某事」。",
       "sentenceIndex": 10,
@@ -711,12 +627,8 @@ export default {
         "regrets not studying"
       ],
       "optionReasons": {
-        "regret-mcq-05": "本句指「後悔自己當初沒有做某事」。",
-        "regret-mcq-04": "「後悔自己已經做過某事」是「regret doing something」的用法，與本句語境不同。",
-        "regret-mcq-06": "「正式用法：很遺憾現在必須說／通知某件不好的事情」是「regret to do something」的用法，與本句語境不同。",
-        "regret-mcq-03": "「對自己做過、說過或選擇過的事情感到後悔」是「regret — verb」的用法，與本句語境不同。",
-        "regret-mcq-07": "「對某情況正式表示遺憾」是「regret that...」的用法，與本句語境不同。",
-        "regret-mcq-02": "「對某件已發生的事情感到後悔或遺憾」是「regret about/over something」的用法，與本句語境不同。"
+        "regret-mcq-05": "本句的「regrets not studying」指「後悔自己當初沒有做某事」。",
+        "regret-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-05"
     },
@@ -728,11 +640,7 @@ export default {
       "masked": "I ____ more questions.",
       "options": [
         "regret-mcq-05",
-        "regret-mcq-04",
-        "regret-mcq-06",
-        "regret-mcq-03",
-        "regret-mcq-07",
-        "regret-mcq-02"
+        "regret-mcq-17"
       ],
       "explanation": "本句的「regret not asking」指「後悔自己當初沒有做某事」。",
       "sentenceIndex": 11,
@@ -741,12 +649,8 @@ export default {
         "regret not asking"
       ],
       "optionReasons": {
-        "regret-mcq-05": "本句指「後悔自己當初沒有做某事」。",
-        "regret-mcq-04": "「後悔自己已經做過某事」是「regret doing something」的用法，與本句語境不同。",
-        "regret-mcq-06": "「正式用法：很遺憾現在必須說／通知某件不好的事情」是「regret to do something」的用法，與本句語境不同。",
-        "regret-mcq-03": "「對自己做過、說過或選擇過的事情感到後悔」是「regret — verb」的用法，與本句語境不同。",
-        "regret-mcq-07": "「對某情況正式表示遺憾」是「regret that...」的用法，與本句語境不同。",
-        "regret-mcq-02": "「對某件已發生的事情感到後悔或遺憾」是「regret about/over something」的用法，與本句語境不同。"
+        "regret-mcq-05": "本句的「regret not asking」指「後悔自己當初沒有做某事」。",
+        "regret-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-05"
     },
@@ -758,11 +662,7 @@ export default {
       "masked": "We ____ that your application was unsuccessful.",
       "options": [
         "regret-mcq-06",
-        "regret-mcq-05",
-        "regret-mcq-07",
-        "regret-mcq-04",
-        "regret-mcq-08",
-        "regret-mcq-03"
+        "regret-mcq-04"
       ],
       "explanation": "本句的「regret to inform you」指「正式用法：很遺憾現在必須說／通知某件不好的事情」。",
       "sentenceIndex": 12,
@@ -771,12 +671,8 @@ export default {
         "regret to inform you"
       ],
       "optionReasons": {
-        "regret-mcq-06": "本句指「正式用法：很遺憾現在必須說／通知某件不好的事情」。",
-        "regret-mcq-05": "「後悔自己當初沒有做某事」是「regret not doing something」的用法，與本句語境不同。",
-        "regret-mcq-07": "「對某情況正式表示遺憾」是「regret that...」的用法，與本句語境不同。",
-        "regret-mcq-04": "「後悔自己已經做過某事」是「regret doing something」的用法，與本句語境不同。",
-        "regret-mcq-08": "「一件希望當初能不同的後悔／遺憾之事」是「a regret」的用法，與本句語境不同。",
-        "regret-mcq-03": "「對自己做過、說過或選擇過的事情感到後悔」是「regret — verb」的用法，與本句語境不同。"
+        "regret-mcq-06": "本句的「regret to inform you」指「正式用法：很遺憾現在必須說／通知某件不好的事情」。",
+        "regret-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-06"
     },
@@ -788,11 +684,7 @@ export default {
       "masked": "I ____ that the event has been cancelled.",
       "options": [
         "regret-mcq-06",
-        "regret-mcq-05",
-        "regret-mcq-07",
-        "regret-mcq-04",
-        "regret-mcq-08",
-        "regret-mcq-03"
+        "regret-mcq-04"
       ],
       "explanation": "本句的「regret to say」指「正式用法：很遺憾現在必須說／通知某件不好的事情」。",
       "sentenceIndex": 13,
@@ -801,12 +693,8 @@ export default {
         "regret to say"
       ],
       "optionReasons": {
-        "regret-mcq-06": "本句指「正式用法：很遺憾現在必須說／通知某件不好的事情」。",
-        "regret-mcq-05": "「後悔自己當初沒有做某事」是「regret not doing something」的用法，與本句語境不同。",
-        "regret-mcq-07": "「對某情況正式表示遺憾」是「regret that...」的用法，與本句語境不同。",
-        "regret-mcq-04": "「後悔自己已經做過某事」是「regret doing something」的用法，與本句語境不同。",
-        "regret-mcq-08": "「一件希望當初能不同的後悔／遺憾之事」是「a regret」的用法，與本句語境不同。",
-        "regret-mcq-03": "「對自己做過、說過或選擇過的事情感到後悔」是「regret — verb」的用法，與本句語境不同。"
+        "regret-mcq-06": "本句的「regret to say」指「正式用法：很遺憾現在必須說／通知某件不好的事情」。",
+        "regret-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-06"
     },
@@ -818,11 +706,7 @@ export default {
       "masked": "We ____ the service was delayed.",
       "options": [
         "regret-mcq-07",
-        "regret-mcq-06",
-        "regret-mcq-08",
-        "regret-mcq-05",
-        "regret-mcq-09",
-        "regret-mcq-04"
+        "regret-mcq-12"
       ],
       "explanation": "本句的「regret that」指「對某情況正式表示遺憾」。",
       "sentenceIndex": 14,
@@ -831,12 +715,8 @@ export default {
         "regret that"
       ],
       "optionReasons": {
-        "regret-mcq-07": "本句指「對某情況正式表示遺憾」。",
-        "regret-mcq-06": "「正式用法：很遺憾現在必須說／通知某件不好的事情」是「regret to do something」的用法，與本句語境不同。",
-        "regret-mcq-08": "「一件希望當初能不同的後悔／遺憾之事」是「a regret」的用法，與本句語境不同。",
-        "regret-mcq-05": "「後悔自己當初沒有做某事」是「regret not doing something」的用法，與本句語境不同。",
-        "regret-mcq-09": "「對過去的選擇沒有後悔」是「no regrets」的用法，與本句語境不同。",
-        "regret-mcq-04": "「後悔自己已經做過某事」是「regret doing something」的用法，與本句語境不同。"
+        "regret-mcq-07": "本句的「regret that」指「對某情況正式表示遺憾」。",
+        "regret-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-07"
     },
@@ -848,10 +728,6 @@ export default {
       "masked": "I ____ we cannot offer further assistance.",
       "options": [
         "regret-mcq-07",
-        "regret-mcq-06",
-        "regret-mcq-08",
-        "regret-mcq-05",
-        "regret-mcq-09",
         "regret-mcq-04"
       ],
       "explanation": "本句的「regret that」指「對某情況正式表示遺憾」。",
@@ -861,12 +737,8 @@ export default {
         "regret that"
       ],
       "optionReasons": {
-        "regret-mcq-07": "本句指「對某情況正式表示遺憾」。",
-        "regret-mcq-06": "「正式用法：很遺憾現在必須說／通知某件不好的事情」是「regret to do something」的用法，與本句語境不同。",
-        "regret-mcq-08": "「一件希望當初能不同的後悔／遺憾之事」是「a regret」的用法，與本句語境不同。",
-        "regret-mcq-05": "「後悔自己當初沒有做某事」是「regret not doing something」的用法，與本句語境不同。",
-        "regret-mcq-09": "「對過去的選擇沒有後悔」是「no regrets」的用法，與本句語境不同。",
-        "regret-mcq-04": "「後悔自己已經做過某事」是「regret doing something」的用法，與本句語境不同。"
+        "regret-mcq-07": "本句的「regret that」指「對某情況正式表示遺憾」。",
+        "regret-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-07"
     },
@@ -878,11 +750,7 @@ export default {
       "masked": "My biggest ____ is not travelling more when I was younger.",
       "options": [
         "regret-mcq-08",
-        "regret-mcq-07",
-        "regret-mcq-09",
-        "regret-mcq-06",
-        "regret-mcq-10",
-        "regret-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「regret」指「一件希望當初能不同的後悔／遺憾之事」。",
       "sentenceIndex": 16,
@@ -891,12 +759,8 @@ export default {
         "regret"
       ],
       "optionReasons": {
-        "regret-mcq-08": "本句指「一件希望當初能不同的後悔／遺憾之事」。",
-        "regret-mcq-07": "「對某情況正式表示遺憾」是「regret that...」的用法，與本句語境不同。",
-        "regret-mcq-09": "「對過去的選擇沒有後悔」是「no regrets」的用法，與本句語境不同。",
-        "regret-mcq-06": "「正式用法：很遺憾現在必須說／通知某件不好的事情」是「regret to do something」的用法，與本句語境不同。",
-        "regret-mcq-10": "「正式表示對某件事情感到遺憾」是「express regret」的用法，與本句語境不同。",
-        "regret-mcq-05": "「後悔自己當初沒有做某事」是「regret not doing something」的用法，與本句語境不同。"
+        "regret-mcq-08": "本句的「regret」指「一件希望當初能不同的後悔／遺憾之事」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-08"
     },
@@ -908,11 +772,7 @@ export default {
       "masked": "He described the decision as one of his few ____.",
       "options": [
         "regret-mcq-08",
-        "regret-mcq-07",
-        "regret-mcq-09",
-        "regret-mcq-06",
-        "regret-mcq-10",
-        "regret-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「regrets」指「一件希望當初能不同的後悔／遺憾之事」。",
       "sentenceIndex": 17,
@@ -921,12 +781,8 @@ export default {
         "regrets"
       ],
       "optionReasons": {
-        "regret-mcq-08": "本句指「一件希望當初能不同的後悔／遺憾之事」。",
-        "regret-mcq-07": "「對某情況正式表示遺憾」是「regret that...」的用法，與本句語境不同。",
-        "regret-mcq-09": "「對過去的選擇沒有後悔」是「no regrets」的用法，與本句語境不同。",
-        "regret-mcq-06": "「正式用法：很遺憾現在必須說／通知某件不好的事情」是「regret to do something」的用法，與本句語境不同。",
-        "regret-mcq-10": "「正式表示對某件事情感到遺憾」是「express regret」的用法，與本句語境不同。",
-        "regret-mcq-05": "「後悔自己當初沒有做某事」是「regret not doing something」的用法，與本句語境不同。"
+        "regret-mcq-08": "本句的「regrets」指「一件希望當初能不同的後悔／遺憾之事」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-08"
     },
@@ -938,10 +794,6 @@ export default {
       "masked": "I have ____ about the choice I made.",
       "options": [
         "regret-mcq-09",
-        "regret-mcq-08",
-        "regret-mcq-10",
-        "regret-mcq-07",
-        "regret-mcq-11",
         "regret-mcq-06"
       ],
       "explanation": "本句的「no regrets」指「對過去的選擇沒有後悔」。",
@@ -951,12 +803,8 @@ export default {
         "no regrets"
       ],
       "optionReasons": {
-        "regret-mcq-09": "本句指「對過去的選擇沒有後悔」。",
-        "regret-mcq-08": "「一件希望當初能不同的後悔／遺憾之事」是「a regret」的用法，與本句語境不同。",
-        "regret-mcq-10": "「正式表示對某件事情感到遺憾」是「express regret」的用法，與本句語境不同。",
-        "regret-mcq-07": "「對某情況正式表示遺憾」是「regret that...」的用法，與本句語境不同。",
-        "regret-mcq-11": "「帶著遺憾地；很遺憾地」是「with regret」的用法，與本句語境不同。",
-        "regret-mcq-06": "「正式用法：很遺憾現在必須說／通知某件不好的事情」是「regret to do something」的用法，與本句語境不同。"
+        "regret-mcq-09": "本句的「no regrets」指「對過去的選擇沒有後悔」。",
+        "regret-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-09"
     },
@@ -968,11 +816,7 @@ export default {
       "masked": "She left with ____.",
       "options": [
         "regret-mcq-09",
-        "regret-mcq-08",
-        "regret-mcq-10",
-        "regret-mcq-07",
-        "regret-mcq-11",
-        "regret-mcq-06"
+        "regret-mcq-14"
       ],
       "explanation": "本句的「no regrets」指「對過去的選擇沒有後悔」。",
       "sentenceIndex": 19,
@@ -981,12 +825,8 @@ export default {
         "no regrets"
       ],
       "optionReasons": {
-        "regret-mcq-09": "本句指「對過去的選擇沒有後悔」。",
-        "regret-mcq-08": "「一件希望當初能不同的後悔／遺憾之事」是「a regret」的用法，與本句語境不同。",
-        "regret-mcq-10": "「正式表示對某件事情感到遺憾」是「express regret」的用法，與本句語境不同。",
-        "regret-mcq-07": "「對某情況正式表示遺憾」是「regret that...」的用法，與本句語境不同。",
-        "regret-mcq-11": "「帶著遺憾地；很遺憾地」是「with regret」的用法，與本句語境不同。",
-        "regret-mcq-06": "「正式用法：很遺憾現在必須說／通知某件不好的事情」是「regret to do something」的用法，與本句語境不同。"
+        "regret-mcq-09": "本句的「no regrets」指「對過去的選擇沒有後悔」。",
+        "regret-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-09"
     },
@@ -998,11 +838,7 @@ export default {
       "masked": "The company ____ over the mistake.",
       "options": [
         "regret-mcq-10",
-        "regret-mcq-09",
-        "regret-mcq-11",
-        "regret-mcq-08",
-        "regret-mcq-12",
-        "regret-mcq-07"
+        "regret-mcq-05"
       ],
       "explanation": "本句的「expressed regret」指「正式表示對某件事情感到遺憾」。",
       "sentenceIndex": 20,
@@ -1011,12 +847,8 @@ export default {
         "expressed regret"
       ],
       "optionReasons": {
-        "regret-mcq-10": "本句指「正式表示對某件事情感到遺憾」。",
-        "regret-mcq-09": "「對過去的選擇沒有後悔」是「no regrets」的用法，與本句語境不同。",
-        "regret-mcq-11": "「帶著遺憾地；很遺憾地」是「with regret」的用法，與本句語境不同。",
-        "regret-mcq-08": "「一件希望當初能不同的後悔／遺憾之事」是「a regret」的用法，與本句語境不同。",
-        "regret-mcq-12": "「自己感到或表現出後悔的」是「regretful」的用法，與本句語境不同。",
-        "regret-mcq-07": "「對某情況正式表示遺憾」是「regret that...」的用法，與本句語境不同。"
+        "regret-mcq-10": "本句的「expressed regret」指「正式表示對某件事情感到遺憾」。",
+        "regret-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-10"
     },
@@ -1028,11 +860,7 @@ export default {
       "masked": "He ____ for his comments.",
       "options": [
         "regret-mcq-10",
-        "regret-mcq-09",
-        "regret-mcq-11",
-        "regret-mcq-08",
-        "regret-mcq-12",
-        "regret-mcq-07"
+        "regret-mcq-04"
       ],
       "explanation": "本句的「expressed deep regret」指「正式表示對某件事情感到遺憾」。",
       "sentenceIndex": 21,
@@ -1041,12 +869,8 @@ export default {
         "expressed deep regret"
       ],
       "optionReasons": {
-        "regret-mcq-10": "本句指「正式表示對某件事情感到遺憾」。",
-        "regret-mcq-09": "「對過去的選擇沒有後悔」是「no regrets」的用法，與本句語境不同。",
-        "regret-mcq-11": "「帶著遺憾地；很遺憾地」是「with regret」的用法，與本句語境不同。",
-        "regret-mcq-08": "「一件希望當初能不同的後悔／遺憾之事」是「a regret」的用法，與本句語境不同。",
-        "regret-mcq-12": "「自己感到或表現出後悔的」是「regretful」的用法，與本句語境不同。",
-        "regret-mcq-07": "「對某情況正式表示遺憾」是「regret that...」的用法，與本句語境不同。"
+        "regret-mcq-10": "本句的「expressed deep regret」指「正式表示對某件事情感到遺憾」。",
+        "regret-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-10"
     },
@@ -1058,11 +882,7 @@ export default {
       "masked": "____, we must decline the invitation.",
       "options": [
         "regret-mcq-11",
-        "regret-mcq-10",
-        "regret-mcq-12",
-        "regret-mcq-09",
-        "regret-mcq-13",
-        "regret-mcq-08"
+        "regret-mcq-05"
       ],
       "explanation": "本句的「With regret」指「帶著遺憾地；很遺憾地」。",
       "sentenceIndex": 22,
@@ -1071,12 +891,8 @@ export default {
         "With regret"
       ],
       "optionReasons": {
-        "regret-mcq-11": "本句指「帶著遺憾地；很遺憾地」。",
-        "regret-mcq-10": "「正式表示對某件事情感到遺憾」是「express regret」的用法，與本句語境不同。",
-        "regret-mcq-12": "「自己感到或表現出後悔的」是「regretful」的用法，與本句語境不同。",
-        "regret-mcq-09": "「對過去的選擇沒有後悔」是「no regrets」的用法，與本句語境不同。",
-        "regret-mcq-13": "「帶著後悔／遺憾地」是「regretfully」的用法，與本句語境不同。",
-        "regret-mcq-08": "「一件希望當初能不同的後悔／遺憾之事」是「a regret」的用法，與本句語境不同。"
+        "regret-mcq-11": "本句的「With regret」指「帶著遺憾地；很遺憾地」。",
+        "regret-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-11"
     },
@@ -1088,11 +904,7 @@ export default {
       "masked": "She accepted his resignation ____.",
       "options": [
         "regret-mcq-11",
-        "regret-mcq-10",
-        "regret-mcq-12",
-        "regret-mcq-09",
-        "regret-mcq-13",
-        "regret-mcq-08"
+        "regret-mcq-09"
       ],
       "explanation": "本句的「with regret」指「帶著遺憾地；很遺憾地」。",
       "sentenceIndex": 23,
@@ -1101,12 +913,8 @@ export default {
         "with regret"
       ],
       "optionReasons": {
-        "regret-mcq-11": "本句指「帶著遺憾地；很遺憾地」。",
-        "regret-mcq-10": "「正式表示對某件事情感到遺憾」是「express regret」的用法，與本句語境不同。",
-        "regret-mcq-12": "「自己感到或表現出後悔的」是「regretful」的用法，與本句語境不同。",
-        "regret-mcq-09": "「對過去的選擇沒有後悔」是「no regrets」的用法，與本句語境不同。",
-        "regret-mcq-13": "「帶著後悔／遺憾地」是「regretfully」的用法，與本句語境不同。",
-        "regret-mcq-08": "「一件希望當初能不同的後悔／遺憾之事」是「a regret」的用法，與本句語境不同。"
+        "regret-mcq-11": "本句的「with regret」指「帶著遺憾地；很遺憾地」。",
+        "regret-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-11"
     },
@@ -1118,11 +926,7 @@ export default {
       "masked": "He sounded ____.",
       "options": [
         "regret-mcq-12",
-        "regret-mcq-11",
-        "regret-mcq-13",
-        "regret-mcq-10",
-        "regret-mcq-14",
-        "regret-mcq-09"
+        "regret-mcq-14"
       ],
       "explanation": "本句的「regretful」指「自己感到或表現出後悔的」。",
       "sentenceIndex": 24,
@@ -1131,12 +935,8 @@ export default {
         "regretful"
       ],
       "optionReasons": {
-        "regret-mcq-12": "本句指「自己感到或表現出後悔的」。",
-        "regret-mcq-11": "「帶著遺憾地；很遺憾地」是「with regret」的用法，與本句語境不同。",
-        "regret-mcq-13": "「帶著後悔／遺憾地」是「regretfully」的用法，與本句語境不同。",
-        "regret-mcq-10": "「正式表示對某件事情感到遺憾」是「express regret」的用法，與本句語境不同。",
-        "regret-mcq-14": "「情況、行為等令人遺憾的」是「regrettable」的用法，與本句語境不同。",
-        "regret-mcq-09": "「對過去的選擇沒有後悔」是「no regrets」的用法，與本句語境不同。"
+        "regret-mcq-12": "本句的「regretful」指「自己感到或表現出後悔的」。",
+        "regret-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-12"
     },
@@ -1148,11 +948,7 @@ export default {
       "masked": "She gave me a ____.",
       "options": [
         "regret-mcq-12",
-        "regret-mcq-11",
-        "regret-mcq-13",
-        "regret-mcq-10",
-        "regret-mcq-14",
-        "regret-mcq-09"
+        "regret-mcq-15"
       ],
       "explanation": "本句的「regretful smile」指「自己感到或表現出後悔的」。",
       "sentenceIndex": 25,
@@ -1161,12 +957,8 @@ export default {
         "regretful smile"
       ],
       "optionReasons": {
-        "regret-mcq-12": "本句指「自己感到或表現出後悔的」。",
-        "regret-mcq-11": "「帶著遺憾地；很遺憾地」是「with regret」的用法，與本句語境不同。",
-        "regret-mcq-13": "「帶著後悔／遺憾地」是「regretfully」的用法，與本句語境不同。",
-        "regret-mcq-10": "「正式表示對某件事情感到遺憾」是「express regret」的用法，與本句語境不同。",
-        "regret-mcq-14": "「情況、行為等令人遺憾的」是「regrettable」的用法，與本句語境不同。",
-        "regret-mcq-09": "「對過去的選擇沒有後悔」是「no regrets」的用法，與本句語境不同。"
+        "regret-mcq-12": "本句的「regretful smile」指「自己感到或表現出後悔的」。",
+        "regret-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-12"
     },
@@ -1178,11 +970,7 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "regret-mcq-14",
-        "regret-mcq-13",
-        "regret-mcq-15",
-        "regret-mcq-12",
-        "regret-mcq-16",
-        "regret-mcq-11"
+        "regret-mcq-09"
       ],
       "explanation": "本句的「regrettable mistake」指「情況、行為等令人遺憾的」。",
       "sentenceIndex": 26,
@@ -1191,12 +979,8 @@ export default {
         "regrettable mistake"
       ],
       "optionReasons": {
-        "regret-mcq-14": "本句指「情況、行為等令人遺憾的」。",
-        "regret-mcq-13": "「帶著後悔／遺憾地」是「regretfully」的用法，與本句語境不同。",
-        "regret-mcq-15": "「很遺憾地；令人遺憾的是」是「regrettably」的用法，與本句語境不同。",
-        "regret-mcq-12": "「自己感到或表現出後悔的」是「regretful」的用法，與本句語境不同。",
-        "regret-mcq-16": "「長期帶著對過去的後悔／遺憾生活」是「live with regret」的用法，與本句語境不同。",
-        "regret-mcq-11": "「帶著遺憾地；很遺憾地」是「with regret」的用法，與本句語境不同。"
+        "regret-mcq-14": "本句的「regrettable mistake」指「情況、行為等令人遺憾的」。",
+        "regret-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-14"
     },
@@ -1208,11 +992,7 @@ export default {
       "masked": "The delay was ____.",
       "options": [
         "regret-mcq-14",
-        "regret-mcq-13",
-        "regret-mcq-15",
-        "regret-mcq-12",
-        "regret-mcq-16",
-        "regret-mcq-11"
+        "regret-mcq-09"
       ],
       "explanation": "本句的「regrettable」指「情況、行為等令人遺憾的」。",
       "sentenceIndex": 27,
@@ -1221,12 +1001,8 @@ export default {
         "regrettable"
       ],
       "optionReasons": {
-        "regret-mcq-14": "本句指「情況、行為等令人遺憾的」。",
-        "regret-mcq-13": "「帶著後悔／遺憾地」是「regretfully」的用法，與本句語境不同。",
-        "regret-mcq-15": "「很遺憾地；令人遺憾的是」是「regrettably」的用法，與本句語境不同。",
-        "regret-mcq-12": "「自己感到或表現出後悔的」是「regretful」的用法，與本句語境不同。",
-        "regret-mcq-16": "「長期帶著對過去的後悔／遺憾生活」是「live with regret」的用法，與本句語境不同。",
-        "regret-mcq-11": "「帶著遺憾地；很遺憾地」是「with regret」的用法，與本句語境不同。"
+        "regret-mcq-14": "本句的「regrettable」指「情況、行為等令人遺憾的」。",
+        "regret-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-14"
     },
@@ -1238,10 +1014,6 @@ export default {
       "masked": "____, the event has been cancelled.",
       "options": [
         "regret-mcq-15",
-        "regret-mcq-14",
-        "regret-mcq-16",
-        "regret-mcq-13",
-        "regret-mcq-17",
         "regret-mcq-12"
       ],
       "explanation": "本句的「Regrettably」指「很遺憾地；令人遺憾的是」。",
@@ -1251,12 +1023,8 @@ export default {
         "Regrettably"
       ],
       "optionReasons": {
-        "regret-mcq-15": "本句指「很遺憾地；令人遺憾的是」。",
-        "regret-mcq-14": "「情況、行為等令人遺憾的」是「regrettable」的用法，與本句語境不同。",
-        "regret-mcq-16": "「長期帶著對過去的後悔／遺憾生活」是「live with regret」的用法，與本句語境不同。",
-        "regret-mcq-13": "「帶著後悔／遺憾地」是「regretfully」的用法，與本句語境不同。",
-        "regret-mcq-17": "「令我感到遺憾的是」是「to my regret」的用法，與本句語境不同。",
-        "regret-mcq-12": "「自己感到或表現出後悔的」是「regretful」的用法，與本句語境不同。"
+        "regret-mcq-15": "本句的「Regrettably」指「很遺憾地；令人遺憾的是」。",
+        "regret-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-15"
     },
@@ -1268,10 +1036,6 @@ export default {
       "masked": "The plan, ____, could not continue.",
       "options": [
         "regret-mcq-15",
-        "regret-mcq-14",
-        "regret-mcq-16",
-        "regret-mcq-13",
-        "regret-mcq-17",
         "regret-mcq-12"
       ],
       "explanation": "本句的「regrettably」指「很遺憾地；令人遺憾的是」。",
@@ -1281,12 +1045,8 @@ export default {
         "regrettably"
       ],
       "optionReasons": {
-        "regret-mcq-15": "本句指「很遺憾地；令人遺憾的是」。",
-        "regret-mcq-14": "「情況、行為等令人遺憾的」是「regrettable」的用法，與本句語境不同。",
-        "regret-mcq-16": "「長期帶著對過去的後悔／遺憾生活」是「live with regret」的用法，與本句語境不同。",
-        "regret-mcq-13": "「帶著後悔／遺憾地」是「regretfully」的用法，與本句語境不同。",
-        "regret-mcq-17": "「令我感到遺憾的是」是「to my regret」的用法，與本句語境不同。",
-        "regret-mcq-12": "「自己感到或表現出後悔的」是「regretful」的用法，與本句語境不同。"
+        "regret-mcq-15": "本句的「regrettably」指「很遺憾地；令人遺憾的是」。",
+        "regret-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-15"
     },
@@ -1298,11 +1058,7 @@ export default {
       "masked": "He did not want to ____.",
       "options": [
         "regret-mcq-16",
-        "regret-mcq-15",
-        "regret-mcq-17",
-        "regret-mcq-14",
-        "regret-mcq-18",
-        "regret-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「live with regret」指「長期帶著對過去的後悔／遺憾生活」。",
       "sentenceIndex": 30,
@@ -1311,12 +1067,8 @@ export default {
         "live with regret"
       ],
       "optionReasons": {
-        "regret-mcq-16": "本句指「長期帶著對過去的後悔／遺憾生活」。",
-        "regret-mcq-15": "「很遺憾地；令人遺憾的是」是「regrettably」的用法，與本句語境不同。",
-        "regret-mcq-17": "「令我感到遺憾的是」是「to my regret」的用法，與本句語境不同。",
-        "regret-mcq-14": "「情況、行為等令人遺憾的」是「regrettable」的用法，與本句語境不同。",
-        "regret-mcq-18": "「表示後悔；遺憾」是「Passage meaning」的用法，與本句語境不同。",
-        "regret-mcq-13": "「帶著後悔／遺憾地」是「regretfully」的用法，與本句語境不同。"
+        "regret-mcq-16": "本句的「live with regret」指「長期帶著對過去的後悔／遺憾生活」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-16"
     },
@@ -1328,11 +1080,7 @@ export default {
       "masked": "She chose to act rather than ____.",
       "options": [
         "regret-mcq-16",
-        "regret-mcq-15",
-        "regret-mcq-17",
-        "regret-mcq-14",
-        "regret-mcq-18",
-        "regret-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「live with regret」指「長期帶著對過去的後悔／遺憾生活」。",
       "sentenceIndex": 31,
@@ -1341,12 +1089,8 @@ export default {
         "live with regret"
       ],
       "optionReasons": {
-        "regret-mcq-16": "本句指「長期帶著對過去的後悔／遺憾生活」。",
-        "regret-mcq-15": "「很遺憾地；令人遺憾的是」是「regrettably」的用法，與本句語境不同。",
-        "regret-mcq-17": "「令我感到遺憾的是」是「to my regret」的用法，與本句語境不同。",
-        "regret-mcq-14": "「情況、行為等令人遺憾的」是「regrettable」的用法，與本句語境不同。",
-        "regret-mcq-18": "「表示後悔；遺憾」是「Passage meaning」的用法，與本句語境不同。",
-        "regret-mcq-13": "「帶著後悔／遺憾地」是「regretfully」的用法，與本句語境不同。"
+        "regret-mcq-16": "本句的「live with regret」指「長期帶著對過去的後悔／遺憾生活」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-16"
     },
@@ -1358,11 +1102,7 @@ export default {
       "masked": "____, I never saw him again.",
       "options": [
         "regret-mcq-17",
-        "regret-mcq-16",
-        "regret-mcq-18",
-        "regret-mcq-15",
-        "regret-mcq-14",
-        "regret-mcq-13"
+        "regret-mcq-09"
       ],
       "explanation": "本句的「To my regret」指「令我感到遺憾的是」。",
       "sentenceIndex": 32,
@@ -1371,12 +1111,8 @@ export default {
         "To my regret"
       ],
       "optionReasons": {
-        "regret-mcq-17": "本句指「令我感到遺憾的是」。",
-        "regret-mcq-16": "「長期帶著對過去的後悔／遺憾生活」是「live with regret」的用法，與本句語境不同。",
-        "regret-mcq-18": "「表示後悔；遺憾」是「Passage meaning」的用法，與本句語境不同。",
-        "regret-mcq-15": "「很遺憾地；令人遺憾的是」是「regrettably」的用法，與本句語境不同。",
-        "regret-mcq-14": "「情況、行為等令人遺憾的」是「regrettable」的用法，與本句語境不同。",
-        "regret-mcq-13": "「帶著後悔／遺憾地」是「regretfully」的用法，與本句語境不同。"
+        "regret-mcq-17": "本句的「To my regret」指「令我感到遺憾的是」。",
+        "regret-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-17"
     },
@@ -1388,11 +1124,7 @@ export default {
       "masked": "____, the opportunity had already passed.",
       "options": [
         "regret-mcq-17",
-        "regret-mcq-16",
-        "regret-mcq-18",
-        "regret-mcq-15",
-        "regret-mcq-14",
-        "regret-mcq-13"
+        "regret-mcq-05"
       ],
       "explanation": "本句的「To her regret」指「令我感到遺憾的是」。",
       "sentenceIndex": 33,
@@ -1401,12 +1133,8 @@ export default {
         "To her regret"
       ],
       "optionReasons": {
-        "regret-mcq-17": "本句指「令我感到遺憾的是」。",
-        "regret-mcq-16": "「長期帶著對過去的後悔／遺憾生活」是「live with regret」的用法，與本句語境不同。",
-        "regret-mcq-18": "「表示後悔；遺憾」是「Passage meaning」的用法，與本句語境不同。",
-        "regret-mcq-15": "「很遺憾地；令人遺憾的是」是「regrettably」的用法，與本句語境不同。",
-        "regret-mcq-14": "「情況、行為等令人遺憾的」是「regrettable」的用法，與本句語境不同。",
-        "regret-mcq-13": "「帶著後悔／遺憾地」是「regretfully」的用法，與本句語境不同。"
+        "regret-mcq-17": "本句的「To her regret」指「令我感到遺憾的是」。",
+        "regret-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regret-mcq-17"
     }
@@ -1418,5 +1146,16 @@ export default {
     "sha256": "3586853d348f857d4563366f7c7f928bb93d2691f0c196ee5d0fe01130c45cda",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    },
+    {
+      "id": "contrast-energy",
+      "title": "消耗身體的體力或精力"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

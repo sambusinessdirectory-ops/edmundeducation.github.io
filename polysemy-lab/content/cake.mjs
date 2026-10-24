@@ -315,11 +315,9 @@ export default {
       "masked": "The shop sells handmade ____.",
       "options": [
         "cake-mcq-01",
-        "cake-mcq-02",
-        "cake-mcq-03",
-        "cake-mcq-04",
-        "cake-mcq-05",
-        "cake-mcq-06"
+        "cake-pdf-002",
+        "cake-mcq-10",
+        "cake-mcq-11"
       ],
       "explanation": "本句的「cakes」指「以麵粉、糖、蛋、油脂等材料烘焙而成的甜點」。",
       "sentenceIndex": 0,
@@ -328,12 +326,10 @@ export default {
         "cakes"
       ],
       "optionReasons": {
-        "cake-mcq-01": "本句指「以麵粉、糖、蛋、油脂等材料烘焙而成的甜點」。",
-        "cake-mcq-02": "「一個完整的蛋糕」與本句語境不同。",
-        "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
-        "cake-mcq-04": "「把食材混合、壓成扁平或圓形的一塊食品」與本句語境不同。",
-        "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。"
+        "cake-mcq-01": "本句的「cakes」指「以麵粉、糖、蛋、油脂等材料烘焙而成的甜點」。",
+        "cake-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-01"
     },
@@ -345,11 +341,9 @@ export default {
       "masked": "She baked a chocolate ____ for the party.",
       "options": [
         "cake-mcq-01",
-        "cake-mcq-02",
-        "cake-mcq-03",
-        "cake-mcq-04",
-        "cake-mcq-05",
-        "cake-mcq-06"
+        "cake-mcq-11",
+        "cake-pdf-002",
+        "cake-mcq-10"
       ],
       "explanation": "本句的「cake」指「以麵粉、糖、蛋、油脂等材料烘焙而成的甜點」。",
       "sentenceIndex": 1,
@@ -358,12 +352,10 @@ export default {
         "cake"
       ],
       "optionReasons": {
-        "cake-mcq-01": "本句指「以麵粉、糖、蛋、油脂等材料烘焙而成的甜點」。",
-        "cake-mcq-02": "「一個完整的蛋糕」與本句語境不同。",
-        "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
-        "cake-mcq-04": "「把食材混合、壓成扁平或圓形的一塊食品」與本句語境不同。",
-        "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。"
+        "cake-mcq-01": "本句的「cake」指「以麵粉、糖、蛋、油脂等材料烘焙而成的甜點」。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cake-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-01"
     },
@@ -375,11 +367,9 @@ export default {
       "masked": "Would you like a slice of ____?",
       "options": [
         "cake-mcq-01",
-        "cake-mcq-02",
-        "cake-mcq-03",
-        "cake-mcq-04",
-        "cake-mcq-05",
-        "cake-mcq-06"
+        "cake-mcq-10",
+        "cake-mcq-11",
+        "cake-pdf-002"
       ],
       "explanation": "本句的「cake」指「以麵粉、糖、蛋、油脂等材料烘焙而成的甜點」。",
       "sentenceIndex": 2,
@@ -388,12 +378,10 @@ export default {
         "cake"
       ],
       "optionReasons": {
-        "cake-mcq-01": "本句指「以麵粉、糖、蛋、油脂等材料烘焙而成的甜點」。",
-        "cake-mcq-02": "「一個完整的蛋糕」與本句語境不同。",
-        "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
-        "cake-mcq-04": "「把食材混合、壓成扁平或圓形的一塊食品」與本句語境不同。",
-        "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。"
+        "cake-mcq-01": "本句的「cake」指「以麵粉、糖、蛋、油脂等材料烘焙而成的甜點」。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cake-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-01"
     },
@@ -405,11 +393,9 @@ export default {
       "masked": "There are three ____ on the table.",
       "options": [
         "cake-mcq-02",
-        "cake-mcq-01",
-        "cake-mcq-03",
-        "cake-mcq-04",
-        "cake-mcq-05",
-        "cake-mcq-06"
+        "cake-mcq-07",
+        "cake-mcq-08",
+        "cake-mcq-04"
       ],
       "explanation": "本句的「cakes」指「一個完整的蛋糕」。",
       "sentenceIndex": 3,
@@ -418,12 +404,10 @@ export default {
         "cakes"
       ],
       "optionReasons": {
-        "cake-mcq-02": "本句指「一個完整的蛋糕」。",
-        "cake-mcq-01": "「以麵粉、糖、蛋、油脂等材料烘焙而成的甜點」與本句語境不同。",
-        "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
-        "cake-mcq-04": "「把食材混合、壓成扁平或圓形的一塊食品」與本句語境不同。",
-        "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。"
+        "cake-mcq-02": "本句的「cakes」指「一個完整的蛋糕」。",
+        "cake-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-02"
     },
@@ -435,11 +419,9 @@ export default {
       "masked": "I don’t eat much ____.",
       "options": [
         "cake-mcq-02",
-        "cake-mcq-01",
-        "cake-mcq-03",
-        "cake-mcq-04",
-        "cake-mcq-05",
-        "cake-mcq-06"
+        "cake-mcq-10",
+        "cake-mcq-08",
+        "cake-mcq-11"
       ],
       "explanation": "本句的「cake」指「一個完整的蛋糕」。",
       "sentenceIndex": 4,
@@ -448,12 +430,10 @@ export default {
         "cake"
       ],
       "optionReasons": {
-        "cake-mcq-02": "本句指「一個完整的蛋糕」。",
-        "cake-mcq-01": "「以麵粉、糖、蛋、油脂等材料烘焙而成的甜點」與本句語境不同。",
-        "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
-        "cake-mcq-04": "「把食材混合、壓成扁平或圓形的一塊食品」與本句語境不同。",
-        "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。"
+        "cake-mcq-02": "本句的「cake」指「一個完整的蛋糕」。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-02"
     },
@@ -465,11 +445,9 @@ export default {
       "masked": "She ordered a ____.",
       "options": [
         "cake-mcq-04",
-        "cake-mcq-03",
-        "cake-mcq-05",
-        "cake-mcq-02",
-        "cake-mcq-06",
-        "cake-mcq-01"
+        "cake-mcq-10",
+        "cake-mcq-11",
+        "cake-mcq-02"
       ],
       "explanation": "本句的「fish cake」指「把食材混合、壓成扁平或圓形的一塊食品」。",
       "sentenceIndex": 5,
@@ -478,12 +456,10 @@ export default {
         "fish cake"
       ],
       "optionReasons": {
-        "cake-mcq-04": "本句指「把食材混合、壓成扁平或圓形的一塊食品」。",
-        "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
-        "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。",
-        "cake-mcq-02": "「一個完整的蛋糕」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
-        "cake-mcq-01": "「以麵粉、糖、蛋、油脂等材料烘焙而成的甜點」與本句語境不同。"
+        "cake-mcq-04": "本句的「fish cake」指「把食材混合、壓成扁平或圓形的一塊食品」。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-04"
     },
@@ -495,11 +471,9 @@ export default {
       "masked": "The meal came with two rice ____.",
       "options": [
         "cake-mcq-04",
-        "cake-mcq-03",
-        "cake-mcq-05",
-        "cake-mcq-02",
-        "cake-mcq-06",
-        "cake-mcq-01"
+        "cake-mcq-10",
+        "cake-mcq-11",
+        "cake-mcq-02"
       ],
       "explanation": "本句的「cakes」指「把食材混合、壓成扁平或圓形的一塊食品」。",
       "sentenceIndex": 6,
@@ -508,12 +482,10 @@ export default {
         "cakes"
       ],
       "optionReasons": {
-        "cake-mcq-04": "本句指「把食材混合、壓成扁平或圓形的一塊食品」。",
-        "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
-        "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。",
-        "cake-mcq-02": "「一個完整的蛋糕」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
-        "cake-mcq-01": "「以麵粉、糖、蛋、油脂等材料烘焙而成的甜點」與本句語境不同。"
+        "cake-mcq-04": "本句的「cakes」指「把食材混合、壓成扁平或圓形的一塊食品」。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-04"
     },
@@ -525,11 +497,9 @@ export default {
       "masked": "She bought some ____.",
       "options": [
         "cake-pdf-001",
-        "cake-mcq-03",
-        "cake-mcq-05",
-        "cake-mcq-02",
-        "cake-mcq-06",
-        "cake-mcq-01"
+        "cake-mcq-11",
+        "cake-mcq-10",
+        "cake-mcq-02"
       ],
       "explanation": "本句的「rice cakes」指「以米製成、壓成塊狀或餅狀的食品」。",
       "sentenceIndex": 9,
@@ -538,12 +508,10 @@ export default {
         "rice cakes"
       ],
       "optionReasons": {
-        "cake-pdf-001": "本句指「以米製成、壓成塊狀或餅狀的食品」。",
-        "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
-        "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。",
-        "cake-mcq-02": "「一個完整的蛋糕」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
-        "cake-mcq-01": "「以麵粉、糖、蛋、油脂等材料烘焙而成的甜點」與本句語境不同。"
+        "cake-pdf-001": "本句的「rice cakes」指「以米製成、壓成塊狀或餅狀的食品」。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-pdf-001"
     },
@@ -555,11 +523,9 @@ export default {
       "masked": "Rice ____ can be sweet or savoury.",
       "options": [
         "cake-pdf-001",
-        "cake-mcq-03",
-        "cake-mcq-05",
         "cake-mcq-02",
-        "cake-mcq-06",
-        "cake-mcq-01"
+        "cake-mcq-10",
+        "cake-mcq-11"
       ],
       "explanation": "本句的「cakes」指「以米製成、壓成塊狀或餅狀的食品」。",
       "sentenceIndex": 10,
@@ -568,12 +534,10 @@ export default {
         "cakes"
       ],
       "optionReasons": {
-        "cake-pdf-001": "本句指「以米製成、壓成塊狀或餅狀的食品」。",
-        "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
-        "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。",
-        "cake-mcq-02": "「一個完整的蛋糕」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
-        "cake-mcq-01": "「以麵粉、糖、蛋、油脂等材料烘焙而成的甜點」與本句語境不同。"
+        "cake-pdf-001": "本句的「cakes」指「以米製成、壓成塊狀或餅狀的食品」。",
+        "cake-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-pdf-001"
     },
@@ -585,11 +549,9 @@ export default {
       "masked": "He bought a ____.",
       "options": [
         "cake-mcq-05",
-        "cake-mcq-04",
-        "cake-mcq-06",
-        "cake-mcq-03",
-        "cake-mcq-07",
-        "cake-mcq-02"
+        "cake-mcq-02",
+        "cake-mcq-10",
+        "cake-mcq-11"
       ],
       "explanation": "本句的「cake of soap」指「被壓實、製成厚實塊狀的一團物質」。",
       "sentenceIndex": 11,
@@ -598,12 +560,10 @@ export default {
         "cake of soap"
       ],
       "optionReasons": {
-        "cake-mcq-05": "本句指「被壓實、製成厚實塊狀的一團物質」。",
-        "cake-mcq-04": "「把食材混合、壓成扁平或圓形的一塊食品」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
-        "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-02": "「一個完整的蛋糕」與本句語境不同。"
+        "cake-mcq-05": "本句的「cake of soap」指「被壓實、製成厚實塊狀的一團物質」。",
+        "cake-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-05"
     },
@@ -615,10 +575,8 @@ export default {
       "masked": "The pigment came in small ____.",
       "options": [
         "cake-mcq-05",
-        "cake-mcq-04",
-        "cake-mcq-06",
-        "cake-mcq-03",
-        "cake-mcq-07",
+        "cake-mcq-11",
+        "cake-mcq-10",
         "cake-mcq-02"
       ],
       "explanation": "本句的「cakes」指「被壓實、製成厚實塊狀的一團物質」。",
@@ -628,12 +586,10 @@ export default {
         "cakes"
       ],
       "optionReasons": {
-        "cake-mcq-05": "本句指「被壓實、製成厚實塊狀的一團物質」。",
-        "cake-mcq-04": "「把食材混合、壓成扁平或圓形的一塊食品」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
-        "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-02": "「一個完整的蛋糕」與本句語境不同。"
+        "cake-mcq-05": "本句的「cakes」指「被壓實、製成厚實塊狀的一團物質」。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-05"
     },
@@ -645,11 +601,9 @@ export default {
       "masked": "There was a fresh ____ by the sink.",
       "options": [
         "cake-pdf-002",
-        "cake-mcq-04",
-        "cake-mcq-06",
-        "cake-mcq-03",
-        "cake-mcq-07",
-        "cake-mcq-02"
+        "cake-mcq-09",
+        "cake-mcq-10",
+        "cake-mcq-11"
       ],
       "explanation": "本句的「cake of soap」指「一整塊固體肥皂」。",
       "sentenceIndex": 13,
@@ -658,12 +612,10 @@ export default {
         "cake of soap"
       ],
       "optionReasons": {
-        "cake-pdf-002": "本句指「一整塊固體肥皂」。",
-        "cake-mcq-04": "「把食材混合、壓成扁平或圓形的一塊食品」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
-        "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-02": "「一個完整的蛋糕」與本句語境不同。"
+        "cake-pdf-002": "本句的「cake of soap」指「一整塊固體肥皂」。",
+        "cake-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-pdf-002"
     },
@@ -675,11 +627,9 @@ export default {
       "masked": "She wrapped each ____ of soap separately.",
       "options": [
         "cake-pdf-002",
-        "cake-mcq-04",
-        "cake-mcq-06",
-        "cake-mcq-03",
         "cake-mcq-07",
-        "cake-mcq-02"
+        "cake-mcq-09",
+        "cake-mcq-10"
       ],
       "explanation": "本句的「cake」指「一整塊固體肥皂」。",
       "sentenceIndex": 14,
@@ -688,12 +638,10 @@ export default {
         "cake"
       ],
       "optionReasons": {
-        "cake-pdf-002": "本句指「一整塊固體肥皂」。",
-        "cake-mcq-04": "「把食材混合、壓成扁平或圓形的一塊食品」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
-        "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-02": "「一個完整的蛋糕」與本句語境不同。"
+        "cake-pdf-002": "本句的「cake」指「一整塊固體肥皂」。",
+        "cake-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-pdf-002"
     },
@@ -705,11 +653,9 @@ export default {
       "masked": "The powder comes in a compact ____.",
       "options": [
         "cake-mcq-05",
-        "cake-mcq-04",
-        "cake-mcq-06",
-        "cake-mcq-03",
-        "cake-mcq-07",
-        "cake-mcq-02"
+        "cake-mcq-11",
+        "cake-mcq-02",
+        "cake-mcq-10"
       ],
       "explanation": "本句的「cake」指「被壓實、製成厚實塊狀的一團物質」。",
       "sentenceIndex": 15,
@@ -718,12 +664,10 @@ export default {
         "cake"
       ],
       "optionReasons": {
-        "cake-mcq-05": "本句指「被壓實、製成厚實塊狀的一團物質」。",
-        "cake-mcq-04": "「把食材混合、壓成扁平或圓形的一塊食品」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
-        "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-02": "「一個完整的蛋糕」與本句語境不同。"
+        "cake-mcq-05": "本句的「cake」指「被壓實、製成厚實塊狀的一團物質」。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-05"
     },
@@ -735,11 +679,9 @@ export default {
       "masked": "She applied colour from a small ____ of makeup.",
       "options": [
         "cake-mcq-05",
-        "cake-mcq-04",
-        "cake-mcq-06",
-        "cake-mcq-03",
-        "cake-mcq-07",
-        "cake-mcq-02"
+        "cake-mcq-11",
+        "cake-mcq-02",
+        "cake-mcq-10"
       ],
       "explanation": "本句的「cake」指「被壓實、製成厚實塊狀的一團物質」。",
       "sentenceIndex": 16,
@@ -748,12 +690,10 @@ export default {
         "cake"
       ],
       "optionReasons": {
-        "cake-mcq-05": "本句指「被壓實、製成厚實塊狀的一團物質」。",
-        "cake-mcq-04": "「把食材混合、壓成扁平或圓形的一塊食品」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
-        "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-02": "「一個完整的蛋糕」與本句語境不同。"
+        "cake-mcq-05": "本句的「cake」指「被壓實、製成厚實塊狀的一團物質」。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-05"
     },
@@ -765,11 +705,9 @@ export default {
       "masked": "Mud ____ on his shoes.",
       "options": [
         "cake-mcq-06",
-        "cake-mcq-05",
-        "cake-mcq-07",
-        "cake-mcq-04",
-        "cake-mcq-08",
-        "cake-mcq-03"
+        "cake-mcq-10",
+        "cake-mcq-02",
+        "cake-mcq-11"
       ],
       "explanation": "本句的「caked」指「濕／粉狀物質在表面累積並乾結成厚層或硬塊」。",
       "sentenceIndex": 17,
@@ -778,12 +716,10 @@ export default {
         "caked"
       ],
       "optionReasons": {
-        "cake-mcq-06": "本句指「濕／粉狀物質在表面累積並乾結成厚層或硬塊」。",
-        "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-04": "「把食材混合、壓成扁平或圓形的一塊食品」與本句語境不同。",
-        "cake-mcq-08": "「已乾結、積成厚層或硬塊的」與本句語境不同。",
-        "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。"
+        "cake-mcq-06": "本句的「caked」指「濕／粉狀物質在表面累積並乾結成厚層或硬塊」。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-06"
     },
@@ -795,11 +731,9 @@ export default {
       "masked": "The paint had ____ around the edge of the container.",
       "options": [
         "cake-mcq-06",
-        "cake-mcq-05",
-        "cake-mcq-07",
-        "cake-mcq-04",
-        "cake-mcq-08",
-        "cake-mcq-03"
+        "cake-mcq-11",
+        "cake-mcq-10",
+        "cake-mcq-02"
       ],
       "explanation": "本句的「caked」指「濕／粉狀物質在表面累積並乾結成厚層或硬塊」。",
       "sentenceIndex": 18,
@@ -808,12 +742,10 @@ export default {
         "caked"
       ],
       "optionReasons": {
-        "cake-mcq-06": "本句指「濕／粉狀物質在表面累積並乾結成厚層或硬塊」。",
-        "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-04": "「把食材混合、壓成扁平或圓形的一塊食品」與本句語境不同。",
-        "cake-mcq-08": "「已乾結、積成厚層或硬塊的」與本句語境不同。",
-        "cake-mcq-03": "「作為食物種類／份量來說的蛋糕」與本句語境不同。"
+        "cake-mcq-06": "本句的「caked」指「濕／粉狀物質在表面累積並乾結成厚層或硬塊」。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-06"
     },
@@ -825,11 +757,9 @@ export default {
       "masked": "His boots were ____.",
       "options": [
         "cake-mcq-07",
-        "cake-mcq-06",
-        "cake-mcq-08",
-        "cake-mcq-05",
+        "cake-mcq-10",
         "cake-mcq-09",
-        "cake-mcq-04"
+        "cake-mcq-02"
       ],
       "explanation": "本句的「caked with mud」指「表面被一層厚厚的泥、塵、化妝品等覆蓋」。",
       "sentenceIndex": 19,
@@ -838,12 +768,10 @@ export default {
         "caked with mud"
       ],
       "optionReasons": {
-        "cake-mcq-07": "本句指「表面被一層厚厚的泥、塵、化妝品等覆蓋」。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
-        "cake-mcq-08": "「已乾結、積成厚層或硬塊的」與本句語境不同。",
-        "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。",
-        "cake-mcq-09": "「非常容易完成的事」與本句語境不同。",
-        "cake-mcq-04": "「把食材混合、壓成扁平或圓形的一塊食品」與本句語境不同。"
+        "cake-mcq-07": "本句的「caked with mud」指「表面被一層厚厚的泥、塵、化妝品等覆蓋」。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-07"
     },
@@ -855,11 +783,9 @@ export default {
       "masked": "The old frame was ____ in dust.",
       "options": [
         "cake-mcq-07",
-        "cake-mcq-06",
-        "cake-mcq-08",
-        "cake-mcq-05",
-        "cake-mcq-09",
-        "cake-mcq-04"
+        "cake-mcq-10",
+        "cake-mcq-11",
+        "cake-mcq-02"
       ],
       "explanation": "本句的「caked」指「表面被一層厚厚的泥、塵、化妝品等覆蓋」。",
       "sentenceIndex": 20,
@@ -868,12 +794,10 @@ export default {
         "caked"
       ],
       "optionReasons": {
-        "cake-mcq-07": "本句指「表面被一層厚厚的泥、塵、化妝品等覆蓋」。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
-        "cake-mcq-08": "「已乾結、積成厚層或硬塊的」與本句語境不同。",
-        "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。",
-        "cake-mcq-09": "「非常容易完成的事」與本句語境不同。",
-        "cake-mcq-04": "「把食材混合、壓成扁平或圓形的一塊食品」與本句語境不同。"
+        "cake-mcq-07": "本句的「caked」指「表面被一層厚厚的泥、塵、化妝品等覆蓋」。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-07"
     },
@@ -885,11 +809,9 @@ export default {
       "masked": "The ____ mud was difficult to remove.",
       "options": [
         "cake-mcq-08",
-        "cake-mcq-07",
-        "cake-mcq-09",
-        "cake-mcq-06",
         "cake-mcq-10",
-        "cake-mcq-05"
+        "cake-mcq-11",
+        "cake-mcq-02"
       ],
       "explanation": "本句的「caked」指「已乾結、積成厚層或硬塊的」。",
       "sentenceIndex": 21,
@@ -898,12 +820,10 @@ export default {
         "caked"
       ],
       "optionReasons": {
-        "cake-mcq-08": "本句指「已乾結、積成厚層或硬塊的」。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-09": "「非常容易完成的事」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
-        "cake-mcq-10": "「想同時得到兩個彼此衝突、不能兼得的好處」與本句語境不同。",
-        "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。"
+        "cake-mcq-08": "本句的「caked」指「已乾結、積成厚層或硬塊的」。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-08"
     },
@@ -915,11 +835,9 @@ export default {
       "masked": "____ powder had formed around the lid.",
       "options": [
         "cake-mcq-08",
-        "cake-mcq-07",
-        "cake-mcq-09",
-        "cake-mcq-06",
+        "cake-mcq-11",
         "cake-mcq-10",
-        "cake-mcq-05"
+        "cake-mcq-02"
       ],
       "explanation": "本句的「Caked」指「已乾結、積成厚層或硬塊的」。",
       "sentenceIndex": 22,
@@ -928,12 +846,10 @@ export default {
         "Caked"
       ],
       "optionReasons": {
-        "cake-mcq-08": "本句指「已乾結、積成厚層或硬塊的」。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-09": "「非常容易完成的事」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
-        "cake-mcq-10": "「想同時得到兩個彼此衝突、不能兼得的好處」與本句語境不同。",
-        "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。"
+        "cake-mcq-08": "本句的「Caked」指「已乾結、積成厚層或硬塊的」。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-08"
     },
@@ -945,11 +861,9 @@ export default {
       "masked": "The makeup had ____ around her eyes.",
       "options": [
         "cake-mcq-08",
-        "cake-mcq-07",
-        "cake-mcq-09",
-        "cake-mcq-06",
         "cake-mcq-10",
-        "cake-mcq-05"
+        "cake-mcq-11",
+        "cake-mcq-02"
       ],
       "explanation": "本句的「caked」指「已乾結、積成厚層或硬塊的」。",
       "sentenceIndex": 23,
@@ -958,12 +872,10 @@ export default {
         "caked"
       ],
       "optionReasons": {
-        "cake-mcq-08": "本句指「已乾結、積成厚層或硬塊的」。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-09": "「非常容易完成的事」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
-        "cake-mcq-10": "「想同時得到兩個彼此衝突、不能兼得的好處」與本句語境不同。",
-        "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。"
+        "cake-mcq-08": "本句的「caked」指「已乾結、積成厚層或硬塊的」。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-08"
     },
@@ -975,11 +887,9 @@ export default {
       "masked": "Too much powder can ____ on dry skin.",
       "options": [
         "cake-mcq-08",
-        "cake-mcq-07",
-        "cake-mcq-09",
-        "cake-mcq-06",
-        "cake-mcq-10",
-        "cake-mcq-05"
+        "cake-mcq-11",
+        "cake-mcq-02",
+        "cake-mcq-10"
       ],
       "explanation": "本句的「cake」指「已乾結、積成厚層或硬塊的」。",
       "sentenceIndex": 24,
@@ -988,12 +898,10 @@ export default {
         "cake"
       ],
       "optionReasons": {
-        "cake-mcq-08": "本句指「已乾結、積成厚層或硬塊的」。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-09": "「非常容易完成的事」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。",
-        "cake-mcq-10": "「想同時得到兩個彼此衝突、不能兼得的好處」與本句語境不同。",
-        "cake-mcq-05": "「被壓實、製成厚實塊狀的一團物質」與本句語境不同。"
+        "cake-mcq-08": "本句的「cake」指「已乾結、積成厚層或硬塊的」。",
+        "cake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-08"
     },
@@ -1005,11 +913,9 @@ export default {
       "masked": "The test was a ____.",
       "options": [
         "cake-mcq-09",
-        "cake-mcq-08",
+        "cake-pdf-002",
         "cake-mcq-10",
-        "cake-mcq-07",
-        "cake-mcq-11",
-        "cake-mcq-06"
+        "cake-mcq-07"
       ],
       "explanation": "本句的「piece of cake」指「非常容易完成的事」。",
       "sentenceIndex": 25,
@@ -1018,12 +924,10 @@ export default {
         "piece of cake"
       ],
       "optionReasons": {
-        "cake-mcq-09": "本句指「非常容易完成的事」。",
-        "cake-mcq-08": "「已乾結、積成厚層或硬塊的」與本句語境不同。",
-        "cake-mcq-10": "「想同時得到兩個彼此衝突、不能兼得的好處」與本句語境不同。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-11": "「在某方面最突出；常可表示最出色或最離譜」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。"
+        "cake-mcq-09": "本句的「piece of cake」指「非常容易完成的事」。",
+        "cake-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-09"
     },
@@ -1035,11 +939,9 @@ export default {
       "masked": "Once you understand the system, it’s a piece of ____.",
       "options": [
         "cake-mcq-09",
-        "cake-mcq-08",
-        "cake-mcq-10",
         "cake-mcq-07",
-        "cake-mcq-11",
-        "cake-mcq-06"
+        "cake-pdf-002",
+        "cake-mcq-10"
       ],
       "explanation": "本句的「cake」指「非常容易完成的事」。",
       "sentenceIndex": 26,
@@ -1048,12 +950,10 @@ export default {
         "cake"
       ],
       "optionReasons": {
-        "cake-mcq-09": "本句指「非常容易完成的事」。",
-        "cake-mcq-08": "「已乾結、積成厚層或硬塊的」與本句語境不同。",
-        "cake-mcq-10": "「想同時得到兩個彼此衝突、不能兼得的好處」與本句語境不同。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-11": "「在某方面最突出；常可表示最出色或最離譜」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。"
+        "cake-mcq-09": "本句的「cake」指「非常容易完成的事」。",
+        "cake-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cake-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-09"
     },
@@ -1065,11 +965,9 @@ export default {
       "masked": "You can’t ____.",
       "options": [
         "cake-mcq-10",
-        "cake-mcq-09",
-        "cake-mcq-11",
-        "cake-mcq-08",
         "cake-mcq-07",
-        "cake-mcq-06"
+        "cake-mcq-09",
+        "cake-mcq-05"
       ],
       "explanation": "本句的「have your cake and eat it too」指「想同時得到兩個彼此衝突、不能兼得的好處」。",
       "sentenceIndex": 27,
@@ -1078,12 +976,10 @@ export default {
         "have your cake and eat it too"
       ],
       "optionReasons": {
-        "cake-mcq-10": "本句指「想同時得到兩個彼此衝突、不能兼得的好處」。",
-        "cake-mcq-09": "「非常容易完成的事」與本句語境不同。",
-        "cake-mcq-11": "「在某方面最突出；常可表示最出色或最離譜」與本句語境不同。",
-        "cake-mcq-08": "「已乾結、積成厚層或硬塊的」與本句語境不同。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。"
+        "cake-mcq-10": "本句的「have your cake and eat it too」指「想同時得到兩個彼此衝突、不能兼得的好處」。",
+        "cake-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-10"
     },
@@ -1095,11 +991,9 @@ export default {
       "masked": "He wants lower prices and higher profits, but he can’t have his ____ and eat it too.",
       "options": [
         "cake-mcq-10",
-        "cake-mcq-09",
-        "cake-mcq-11",
-        "cake-mcq-08",
-        "cake-mcq-07",
-        "cake-mcq-06"
+        "cake-mcq-01",
+        "cake-mcq-06",
+        "cake-mcq-02"
       ],
       "explanation": "本句的「cake」指「想同時得到兩個彼此衝突、不能兼得的好處」。",
       "sentenceIndex": 28,
@@ -1108,12 +1002,10 @@ export default {
         "cake"
       ],
       "optionReasons": {
-        "cake-mcq-10": "本句指「想同時得到兩個彼此衝突、不能兼得的好處」。",
-        "cake-mcq-09": "「非常容易完成的事」與本句語境不同。",
-        "cake-mcq-11": "「在某方面最突出；常可表示最出色或最離譜」與本句語境不同。",
-        "cake-mcq-08": "「已乾結、積成厚層或硬塊的」與本句語境不同。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。"
+        "cake-mcq-10": "本句的「cake」指「想同時得到兩個彼此衝突、不能兼得的好處」。",
+        "cake-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-10"
     },
@@ -1125,11 +1017,9 @@ export default {
       "masked": "I’ve heard many excuses, but that one ____.",
       "options": [
         "cake-mcq-11",
-        "cake-mcq-10",
-        "cake-mcq-09",
         "cake-mcq-08",
-        "cake-mcq-07",
-        "cake-mcq-06"
+        "cake-mcq-01",
+        "cake-mcq-07"
       ],
       "explanation": "本句的「takes the cake」指「在某方面最突出；常可表示最出色或最離譜」。",
       "sentenceIndex": 29,
@@ -1138,12 +1028,10 @@ export default {
         "takes the cake"
       ],
       "optionReasons": {
-        "cake-mcq-11": "本句指「在某方面最突出；常可表示最出色或最離譜」。",
-        "cake-mcq-10": "「想同時得到兩個彼此衝突、不能兼得的好處」與本句語境不同。",
-        "cake-mcq-09": "「非常容易完成的事」與本句語境不同。",
-        "cake-mcq-08": "「已乾結、積成厚層或硬塊的」與本句語境不同。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。"
+        "cake-mcq-11": "本句的「takes the cake」指「在某方面最突出；常可表示最出色或最離譜」。",
+        "cake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-11"
     },
@@ -1155,11 +1043,9 @@ export default {
       "masked": "Of all the beautiful desserts, this one takes the ____.",
       "options": [
         "cake-mcq-11",
-        "cake-mcq-10",
-        "cake-mcq-09",
         "cake-mcq-08",
         "cake-mcq-07",
-        "cake-mcq-06"
+        "cake-mcq-01"
       ],
       "explanation": "本句的「cake」指「在某方面最突出；常可表示最出色或最離譜」。",
       "sentenceIndex": 30,
@@ -1168,12 +1054,10 @@ export default {
         "cake"
       ],
       "optionReasons": {
-        "cake-mcq-11": "本句指「在某方面最突出；常可表示最出色或最離譜」。",
-        "cake-mcq-10": "「想同時得到兩個彼此衝突、不能兼得的好處」與本句語境不同。",
-        "cake-mcq-09": "「非常容易完成的事」與本句語境不同。",
-        "cake-mcq-08": "「已乾結、積成厚層或硬塊的」與本句語境不同。",
-        "cake-mcq-07": "「表面被一層厚厚的泥、塵、化妝品等覆蓋」與本句語境不同。",
-        "cake-mcq-06": "「濕／粉狀物質在表面累積並乾結成厚層或硬塊」與本句語境不同。"
+        "cake-mcq-11": "本句的「cake」指「在某方面最突出；常可表示最出色或最離譜」。",
+        "cake-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cake-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cake-mcq-11"
     }
@@ -1185,5 +1069,7 @@ export default {
     "sha256": "8d63434d6888ce3bc7cd8c5e3b1457d77f14cf9abd133d80324dee69eb0c3c0f",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

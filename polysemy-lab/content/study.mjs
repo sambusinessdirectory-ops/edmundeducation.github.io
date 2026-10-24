@@ -479,7 +479,7 @@ export default {
     },
     {
       "id": "study-mcq-23",
-      "title": "表示學習；讀書；研讀",
+      "title": "學習；讀書；研讀",
       "form": "Core learner meaning",
       "en": "Core learner meaning",
       "zh": "表示學習；讀書；研讀",
@@ -501,7 +501,7 @@ export default {
     },
     {
       "id": "study-mcq-24",
-      "title": "表示學習筆記；讀書資料",
+      "title": "學習筆記；讀書資料",
       "form": "17. study notes / study materials",
       "en": "17. study notes / study materials",
       "zh": "表示學習筆記；讀書資料",
@@ -523,7 +523,7 @@ export default {
     },
     {
       "id": "study-mcq-25",
-      "title": "表示書房",
+      "title": "書房",
       "form": "20. study — room used for reading or working",
       "en": "20. study — room used for reading or working",
       "zh": "表示書房",
@@ -545,7 +545,7 @@ export default {
     },
     {
       "id": "study-mcq-26",
-      "title": "表示仔細端詳；觀察",
+      "title": "仔細端詳；觀察",
       "form": "23. study someone’s face / expression",
       "en": "23. study someone’s face / expression",
       "zh": "表示仔細端詳；觀察",
@@ -575,11 +575,8 @@ export default {
       "masked": "I used to ____ every evening.",
       "options": [
         "study-mcq-23",
-        "study-mcq-22",
-        "study-mcq-24",
-        "study-mcq-21",
-        "study-mcq-25",
-        "study-mcq-20"
+        "study-mcq-26",
+        "study-mcq-19"
       ],
       "explanation": "本句的「study English」指「表示學習；讀書；研讀」。",
       "sentenceIndex": 0,
@@ -588,12 +585,9 @@ export default {
         "study English"
       ],
       "optionReasons": {
-        "study-mcq-23": "本句指「表示學習；讀書；研讀」。",
-        "study-mcq-22": "「認真讀書、勤奮好學的」是「studious」的用法，與本句語境不同。",
-        "study-mcq-24": "「表示學習筆記；讀書資料」是「17. study notes / study materials」的用法，與本句語境不同。",
-        "study-mcq-21": "「正在學校、課程或老師指導下學習的人；學生」是「student」的用法，與本句語境不同。",
-        "study-mcq-25": "「表示書房」是「20. study — room used for reading or working」的用法，與本句語境不同。",
-        "study-mcq-20": "「用於練習特定演奏技巧的練習曲」是「study — music」的用法，與本句語境不同。"
+        "study-mcq-23": "本句的「study English」指「表示學習；讀書；研讀」。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-23"
     },
@@ -605,11 +599,8 @@ export default {
       "masked": "She encouraged us to ____ with curiosity rather than fear of mistakes.",
       "options": [
         "study-mcq-23",
-        "study-mcq-22",
-        "study-mcq-24",
-        "study-mcq-21",
-        "study-mcq-25",
-        "study-mcq-20"
+        "study-mcq-26",
+        "study-mcq-19"
       ],
       "explanation": "本句的「study」指「表示學習；讀書；研讀」。",
       "sentenceIndex": 1,
@@ -618,12 +609,9 @@ export default {
         "study"
       ],
       "optionReasons": {
-        "study-mcq-23": "本句指「表示學習；讀書；研讀」。",
-        "study-mcq-22": "「認真讀書、勤奮好學的」是「studious」的用法，與本句語境不同。",
-        "study-mcq-24": "「表示學習筆記；讀書資料」是「17. study notes / study materials」的用法，與本句語境不同。",
-        "study-mcq-21": "「正在學校、課程或老師指導下學習的人；學生」是「student」的用法，與本句語境不同。",
-        "study-mcq-25": "「表示書房」是「20. study — room used for reading or working」的用法，與本句語境不同。",
-        "study-mcq-20": "「用於練習特定演奏技巧的練習曲」是「study — music」的用法，與本句語境不同。"
+        "study-mcq-23": "本句的「study」指「表示學習；讀書；研讀」。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-23"
     },
@@ -635,11 +623,9 @@ export default {
       "masked": "She ____ at university.",
       "options": [
         "study-mcq-02",
-        "study-mcq-01",
-        "study-mcq-03",
-        "study-mcq-04",
-        "study-mcq-05",
-        "study-mcq-06"
+        "study-mcq-25",
+        "study-mcq-26",
+        "study-mcq-19"
       ],
       "explanation": "本句的「studies English」指「學習、研讀或攻讀某一學科」。",
       "sentenceIndex": 2,
@@ -648,12 +634,10 @@ export default {
         "studies English"
       ],
       "optionReasons": {
-        "study-mcq-02": "本句指「學習、研讀或攻讀某一學科」。",
-        "study-mcq-01": "「花時間學習某個科目、知識或技能；學習／研讀」是「study — academic verb」的用法，與本句語境不同。",
-        "study-mcq-03": "「在某所學校、大學或教育機構就讀」是「study at + institution」的用法，與本句語境不同。",
-        "study-mcq-04": "「為考試或資格而讀書準備」是「study for + exam/qualification」的用法，與本句語境不同。",
-        "study-mcq-05": "「修讀相關課程，準備從事某職業」是「study to become...」的用法，與本句語境不同。",
-        "study-mcq-06": "「花時間讀書、溫習、做學術準備」是「study — do academic work」的用法，與本句語境不同。"
+        "study-mcq-02": "本句的「studies English」指「學習、研讀或攻讀某一學科」。",
+        "study-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-02"
     },
@@ -665,11 +649,9 @@ export default {
       "masked": "We ____ last term.",
       "options": [
         "study-mcq-02",
-        "study-mcq-01",
-        "study-mcq-03",
-        "study-mcq-04",
-        "study-mcq-05",
-        "study-mcq-06"
+        "study-mcq-25",
+        "study-mcq-26",
+        "study-mcq-19"
       ],
       "explanation": "本句的「studied history」指「學習、研讀或攻讀某一學科」。",
       "sentenceIndex": 3,
@@ -678,12 +660,10 @@ export default {
         "studied history"
       ],
       "optionReasons": {
-        "study-mcq-02": "本句指「學習、研讀或攻讀某一學科」。",
-        "study-mcq-01": "「花時間學習某個科目、知識或技能；學習／研讀」是「study — academic verb」的用法，與本句語境不同。",
-        "study-mcq-03": "「在某所學校、大學或教育機構就讀」是「study at + institution」的用法，與本句語境不同。",
-        "study-mcq-04": "「為考試或資格而讀書準備」是「study for + exam/qualification」的用法，與本句語境不同。",
-        "study-mcq-05": "「修讀相關課程，準備從事某職業」是「study to become...」的用法，與本句語境不同。",
-        "study-mcq-06": "「花時間讀書、溫習、做學術準備」是「study — do academic work」的用法，與本句語境不同。"
+        "study-mcq-02": "本句的「studied history」指「學習、研讀或攻讀某一學科」。",
+        "study-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-02"
     },
@@ -695,11 +675,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "study-mcq-03",
-        "study-mcq-02",
-        "study-mcq-04",
-        "study-mcq-01",
-        "study-mcq-05",
-        "study-mcq-06"
+        "study-mcq-19",
+        "study-mcq-26",
+        "study-mcq-25"
       ],
       "explanation": "本句的「studies at a university in London」指「在某所學校、大學或教育機構就讀」。",
       "sentenceIndex": 4,
@@ -708,12 +686,10 @@ export default {
         "studies at a university in London"
       ],
       "optionReasons": {
-        "study-mcq-03": "本句指「在某所學校、大學或教育機構就讀」。",
-        "study-mcq-02": "「學習、研讀或攻讀某一學科」是「study + subject」的用法，與本句語境不同。",
-        "study-mcq-04": "「為考試或資格而讀書準備」是「study for + exam/qualification」的用法，與本句語境不同。",
-        "study-mcq-01": "「花時間學習某個科目、知識或技能；學習／研讀」是「study — academic verb」的用法，與本句語境不同。",
-        "study-mcq-05": "「修讀相關課程，準備從事某職業」是「study to become...」的用法，與本句語境不同。",
-        "study-mcq-06": "「花時間讀書、溫習、做學術準備」是「study — do academic work」的用法，與本句語境不同。"
+        "study-mcq-03": "本句的「studies at a university in London」指「在某所學校、大學或教育機構就讀」。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-03"
     },
@@ -725,11 +701,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "study-mcq-03",
-        "study-mcq-02",
-        "study-mcq-04",
-        "study-mcq-01",
-        "study-mcq-05",
-        "study-mcq-06"
+        "study-mcq-19",
+        "study-mcq-25",
+        "study-mcq-26"
       ],
       "explanation": "本句的「studied at a local secondary school」指「在某所學校、大學或教育機構就讀」。",
       "sentenceIndex": 5,
@@ -738,12 +712,10 @@ export default {
         "studied at a local secondary school"
       ],
       "optionReasons": {
-        "study-mcq-03": "本句指「在某所學校、大學或教育機構就讀」。",
-        "study-mcq-02": "「學習、研讀或攻讀某一學科」是「study + subject」的用法，與本句語境不同。",
-        "study-mcq-04": "「為考試或資格而讀書準備」是「study for + exam/qualification」的用法，與本句語境不同。",
-        "study-mcq-01": "「花時間學習某個科目、知識或技能；學習／研讀」是「study — academic verb」的用法，與本句語境不同。",
-        "study-mcq-05": "「修讀相關課程，準備從事某職業」是「study to become...」的用法，與本句語境不同。",
-        "study-mcq-06": "「花時間讀書、溫習、做學術準備」是「study — do academic work」的用法，與本句語境不同。"
+        "study-mcq-03": "本句的「studied at a local secondary school」指「在某所學校、大學或教育機構就讀」。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-03"
     },
@@ -755,11 +727,8 @@ export default {
       "masked": "I’m ____.",
       "options": [
         "study-mcq-04",
-        "study-mcq-03",
-        "study-mcq-05",
-        "study-mcq-02",
-        "study-mcq-06",
-        "study-mcq-01"
+        "study-mcq-21",
+        "study-mcq-26"
       ],
       "explanation": "本句的「studying for my final exams」指「為考試或資格而讀書準備」。",
       "sentenceIndex": 6,
@@ -768,12 +737,9 @@ export default {
         "studying for my final exams"
       ],
       "optionReasons": {
-        "study-mcq-04": "本句指「為考試或資格而讀書準備」。",
-        "study-mcq-03": "「在某所學校、大學或教育機構就讀」是「study at + institution」的用法，與本句語境不同。",
-        "study-mcq-05": "「修讀相關課程，準備從事某職業」是「study to become...」的用法，與本句語境不同。",
-        "study-mcq-02": "「學習、研讀或攻讀某一學科」是「study + subject」的用法，與本句語境不同。",
-        "study-mcq-06": "「花時間讀書、溫習、做學術準備」是「study — do academic work」的用法，與本句語境不同。",
-        "study-mcq-01": "「花時間學習某個科目、知識或技能；學習／研讀」是「study — academic verb」的用法，與本句語境不同。"
+        "study-mcq-04": "本句的「studying for my final exams」指「為考試或資格而讀書準備」。",
+        "study-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-04"
     },
@@ -785,11 +751,8 @@ export default {
       "masked": "She is ____.",
       "options": [
         "study-mcq-04",
-        "study-mcq-03",
-        "study-mcq-05",
-        "study-mcq-02",
-        "study-mcq-06",
-        "study-mcq-01"
+        "study-mcq-26",
+        "study-mcq-13"
       ],
       "explanation": "本句的「studying for a professional qualification」指「為考試或資格而讀書準備」。",
       "sentenceIndex": 7,
@@ -798,12 +761,9 @@ export default {
         "studying for a professional qualification"
       ],
       "optionReasons": {
-        "study-mcq-04": "本句指「為考試或資格而讀書準備」。",
-        "study-mcq-03": "「在某所學校、大學或教育機構就讀」是「study at + institution」的用法，與本句語境不同。",
-        "study-mcq-05": "「修讀相關課程，準備從事某職業」是「study to become...」的用法，與本句語境不同。",
-        "study-mcq-02": "「學習、研讀或攻讀某一學科」是「study + subject」的用法，與本句語境不同。",
-        "study-mcq-06": "「花時間讀書、溫習、做學術準備」是「study — do academic work」的用法，與本句語境不同。",
-        "study-mcq-01": "「花時間學習某個科目、知識或技能；學習／研讀」是「study — academic verb」的用法，與本句語境不同。"
+        "study-mcq-04": "本句的「studying for a professional qualification」指「為考試或資格而讀書準備」。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-04"
     },
@@ -815,11 +775,8 @@ export default {
       "masked": "He is ____.",
       "options": [
         "study-mcq-05",
-        "study-mcq-04",
-        "study-mcq-06",
-        "study-mcq-03",
-        "study-mcq-07",
-        "study-mcq-02"
+        "study-mcq-25",
+        "study-mcq-26"
       ],
       "explanation": "本句的「studying to become a doctor」指「修讀相關課程，準備從事某職業」。",
       "sentenceIndex": 8,
@@ -828,12 +785,9 @@ export default {
         "studying to become a doctor"
       ],
       "optionReasons": {
-        "study-mcq-05": "本句指「修讀相關課程，準備從事某職業」。",
-        "study-mcq-04": "「為考試或資格而讀書準備」是「study for + exam/qualification」的用法，與本句語境不同。",
-        "study-mcq-06": "「花時間讀書、溫習、做學術準備」是「study — do academic work」的用法，與本句語境不同。",
-        "study-mcq-03": "「在某所學校、大學或教育機構就讀」是「study at + institution」的用法，與本句語境不同。",
-        "study-mcq-07": "「很用功、投入大量努力讀書」是「study hard」的用法，與本句語境不同。",
-        "study-mcq-02": "「學習、研讀或攻讀某一學科」是「study + subject」的用法，與本句語境不同。"
+        "study-mcq-05": "本句的「studying to become a doctor」指「修讀相關課程，準備從事某職業」。",
+        "study-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-05"
     },
@@ -845,11 +799,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "study-mcq-05",
-        "study-mcq-04",
-        "study-mcq-06",
-        "study-mcq-03",
-        "study-mcq-07",
-        "study-mcq-02"
+        "study-mcq-25",
+        "study-mcq-26"
       ],
       "explanation": "本句的「studied to be a teacher」指「修讀相關課程，準備從事某職業」。",
       "sentenceIndex": 9,
@@ -858,12 +809,9 @@ export default {
         "studied to be a teacher"
       ],
       "optionReasons": {
-        "study-mcq-05": "本句指「修讀相關課程，準備從事某職業」。",
-        "study-mcq-04": "「為考試或資格而讀書準備」是「study for + exam/qualification」的用法，與本句語境不同。",
-        "study-mcq-06": "「花時間讀書、溫習、做學術準備」是「study — do academic work」的用法，與本句語境不同。",
-        "study-mcq-03": "「在某所學校、大學或教育機構就讀」是「study at + institution」的用法，與本句語境不同。",
-        "study-mcq-07": "「很用功、投入大量努力讀書」是「study hard」的用法，與本句語境不同。",
-        "study-mcq-02": "「學習、研讀或攻讀某一學科」是「study + subject」的用法，與本句語境不同。"
+        "study-mcq-05": "本句的「studied to be a teacher」指「修讀相關課程，準備從事某職業」。",
+        "study-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-05"
     },
@@ -875,11 +823,7 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "study-mcq-06",
-        "study-mcq-05",
-        "study-mcq-07",
-        "study-mcq-04",
-        "study-mcq-08",
-        "study-mcq-03"
+        "study-mcq-26"
       ],
       "explanation": "本句的「study tonight」指「花時間讀書、溫習、做學術準備」。",
       "sentenceIndex": 10,
@@ -888,12 +832,8 @@ export default {
         "study tonight"
       ],
       "optionReasons": {
-        "study-mcq-06": "本句指「花時間讀書、溫習、做學術準備」。",
-        "study-mcq-05": "「修讀相關課程，準備從事某職業」是「study to become...」的用法，與本句語境不同。",
-        "study-mcq-07": "「很用功、投入大量努力讀書」是「study hard」的用法，與本句語境不同。",
-        "study-mcq-04": "「為考試或資格而讀書準備」是「study for + exam/qualification」的用法，與本句語境不同。",
-        "study-mcq-08": "「仔細觀察、分析或研究某人／某物」是「study — examine carefully」的用法，與本句語境不同。",
-        "study-mcq-03": "「在某所學校、大學或教育機構就讀」是「study at + institution」的用法，與本句語境不同。"
+        "study-mcq-06": "本句的「study tonight」指「花時間讀書、溫習、做學術準備」。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-06"
     },
@@ -905,11 +845,7 @@ export default {
       "masked": "She spends several hours ____ every day.",
       "options": [
         "study-mcq-06",
-        "study-mcq-05",
-        "study-mcq-07",
-        "study-mcq-04",
-        "study-mcq-08",
-        "study-mcq-03"
+        "study-mcq-26"
       ],
       "explanation": "本句的「studying」指「花時間讀書、溫習、做學術準備」。",
       "sentenceIndex": 11,
@@ -918,12 +854,8 @@ export default {
         "studying"
       ],
       "optionReasons": {
-        "study-mcq-06": "本句指「花時間讀書、溫習、做學術準備」。",
-        "study-mcq-05": "「修讀相關課程，準備從事某職業」是「study to become...」的用法，與本句語境不同。",
-        "study-mcq-07": "「很用功、投入大量努力讀書」是「study hard」的用法，與本句語境不同。",
-        "study-mcq-04": "「為考試或資格而讀書準備」是「study for + exam/qualification」的用法，與本句語境不同。",
-        "study-mcq-08": "「仔細觀察、分析或研究某人／某物」是「study — examine carefully」的用法，與本句語境不同。",
-        "study-mcq-03": "「在某所學校、大學或教育機構就讀」是「study at + institution」的用法，與本句語境不同。"
+        "study-mcq-06": "本句的「studying」指「花時間讀書、溫習、做學術準備」。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-06"
     },
@@ -935,11 +867,9 @@ export default {
       "masked": "You need to ____ for the exam.",
       "options": [
         "study-mcq-07",
-        "study-mcq-06",
-        "study-mcq-08",
-        "study-mcq-05",
-        "study-mcq-09",
-        "study-mcq-04"
+        "study-mcq-11",
+        "study-mcq-26",
+        "study-mcq-19"
       ],
       "explanation": "本句的「study hard」指「很用功、投入大量努力讀書」。",
       "sentenceIndex": 12,
@@ -948,12 +878,10 @@ export default {
         "study hard"
       ],
       "optionReasons": {
-        "study-mcq-07": "本句指「很用功、投入大量努力讀書」。",
-        "study-mcq-06": "「花時間讀書、溫習、做學術準備」是「study — do academic work」的用法，與本句語境不同。",
-        "study-mcq-08": "「仔細觀察、分析或研究某人／某物」是「study — examine carefully」的用法，與本句語境不同。",
-        "study-mcq-05": "「修讀相關課程，準備從事某職業」是「study to become...」的用法，與本句語境不同。",
-        "study-mcq-09": "「系統性研究某問題或情況，以便理解或作決定」是「study a problem/situation」的用法，與本句語境不同。",
-        "study-mcq-04": "「為考試或資格而讀書準備」是「study for + exam/qualification」的用法，與本句語境不同。"
+        "study-mcq-07": "本句的「study hard」指「很用功、投入大量努力讀書」。",
+        "study-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-07"
     },
@@ -965,11 +893,8 @@ export default {
       "masked": "He ____ throughout the semester.",
       "options": [
         "study-mcq-07",
-        "study-mcq-06",
-        "study-mcq-08",
-        "study-mcq-05",
-        "study-mcq-09",
-        "study-mcq-04"
+        "study-mcq-13",
+        "study-mcq-26"
       ],
       "explanation": "本句的「studied hard」指「很用功、投入大量努力讀書」。",
       "sentenceIndex": 13,
@@ -978,12 +903,9 @@ export default {
         "studied hard"
       ],
       "optionReasons": {
-        "study-mcq-07": "本句指「很用功、投入大量努力讀書」。",
-        "study-mcq-06": "「花時間讀書、溫習、做學術準備」是「study — do academic work」的用法，與本句語境不同。",
-        "study-mcq-08": "「仔細觀察、分析或研究某人／某物」是「study — examine carefully」的用法，與本句語境不同。",
-        "study-mcq-05": "「修讀相關課程，準備從事某職業」是「study to become...」的用法，與本句語境不同。",
-        "study-mcq-09": "「系統性研究某問題或情況，以便理解或作決定」是「study a problem/situation」的用法，與本句語境不同。",
-        "study-mcq-04": "「為考試或資格而讀書準備」是「study for + exam/qualification」的用法，與本句語境不同。"
+        "study-mcq-07": "本句的「studied hard」指「很用功、投入大量努力讀書」。",
+        "study-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-07"
     },
@@ -995,11 +917,7 @@ export default {
       "masked": "She ____.",
       "options": [
         "study-mcq-08",
-        "study-mcq-07",
-        "study-mcq-09",
-        "study-mcq-06",
-        "study-mcq-10",
-        "study-mcq-05"
+        "study-mcq-17"
       ],
       "explanation": "本句的「studied the map carefully」指「仔細觀察、分析或研究某人／某物」。",
       "sentenceIndex": 14,
@@ -1008,12 +926,8 @@ export default {
         "studied the map carefully"
       ],
       "optionReasons": {
-        "study-mcq-08": "本句指「仔細觀察、分析或研究某人／某物」。",
-        "study-mcq-07": "「很用功、投入大量努力讀書」是「study hard」的用法，與本句語境不同。",
-        "study-mcq-09": "「系統性研究某問題或情況，以便理解或作決定」是「study a problem/situation」的用法，與本句語境不同。",
-        "study-mcq-06": "「花時間讀書、溫習、做學術準備」是「study — do academic work」的用法，與本句語境不同。",
-        "study-mcq-10": "「學習或研讀這項活動本身」是「study — learning activity」的用法，與本句語境不同。",
-        "study-mcq-05": "「修讀相關課程，準備從事某職業」是「study to become...」的用法，與本句語境不同。"
+        "study-mcq-08": "本句的「studied the map carefully」指「仔細觀察、分析或研究某人／某物」。",
+        "study-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-08"
     },
@@ -1025,11 +939,7 @@ export default {
       "masked": "He ____ before answering.",
       "options": [
         "study-mcq-08",
-        "study-mcq-07",
-        "study-mcq-09",
-        "study-mcq-06",
-        "study-mcq-10",
-        "study-mcq-05"
+        "study-mcq-17"
       ],
       "explanation": "本句的「studied her expression」指「仔細觀察、分析或研究某人／某物」。",
       "sentenceIndex": 15,
@@ -1038,12 +948,8 @@ export default {
         "studied her expression"
       ],
       "optionReasons": {
-        "study-mcq-08": "本句指「仔細觀察、分析或研究某人／某物」。",
-        "study-mcq-07": "「很用功、投入大量努力讀書」是「study hard」的用法，與本句語境不同。",
-        "study-mcq-09": "「系統性研究某問題或情況，以便理解或作決定」是「study a problem/situation」的用法，與本句語境不同。",
-        "study-mcq-06": "「花時間讀書、溫習、做學術準備」是「study — do academic work」的用法，與本句語境不同。",
-        "study-mcq-10": "「學習或研讀這項活動本身」是「study — learning activity」的用法，與本句語境不同。",
-        "study-mcq-05": "「修讀相關課程，準備從事某職業」是「study to become...」的用法，與本句語境不同。"
+        "study-mcq-08": "本句的「studied her expression」指「仔細觀察、分析或研究某人／某物」。",
+        "study-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-08"
     },
@@ -1055,11 +961,9 @@ export default {
       "masked": "The committee will ____ before making a recommendation.",
       "options": [
         "study-mcq-09",
-        "study-mcq-08",
-        "study-mcq-10",
-        "study-mcq-07",
-        "study-mcq-11",
-        "study-mcq-06"
+        "study-mcq-25",
+        "study-mcq-26",
+        "study-mcq-19"
       ],
       "explanation": "本句的「study the problem」指「系統性研究某問題或情況，以便理解或作決定」。",
       "sentenceIndex": 16,
@@ -1068,12 +972,10 @@ export default {
         "study the problem"
       ],
       "optionReasons": {
-        "study-mcq-09": "本句指「系統性研究某問題或情況，以便理解或作決定」。",
-        "study-mcq-08": "「仔細觀察、分析或研究某人／某物」是「study — examine carefully」的用法，與本句語境不同。",
-        "study-mcq-10": "「學習或研讀這項活動本身」是「study — learning activity」的用法，與本句語境不同。",
-        "study-mcq-07": "「很用功、投入大量努力讀書」是「study hard」的用法，與本句語境不同。",
-        "study-mcq-11": "「某人的學業、課業或整體學習活動」是「studies — academic work」的用法，與本句語境不同。",
-        "study-mcq-06": "「花時間讀書、溫習、做學術準備」是「study — do academic work」的用法，與本句語境不同。"
+        "study-mcq-09": "本句的「study the problem」指「系統性研究某問題或情況，以便理解或作決定」。",
+        "study-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-09"
     },
@@ -1085,11 +987,9 @@ export default {
       "masked": "Experts are ____.",
       "options": [
         "study-mcq-09",
-        "study-mcq-08",
-        "study-mcq-10",
         "study-mcq-07",
-        "study-mcq-11",
-        "study-mcq-06"
+        "study-mcq-26",
+        "study-mcq-19"
       ],
       "explanation": "本句的「studying the effects of the change」指「系統性研究某問題或情況，以便理解或作決定」。",
       "sentenceIndex": 17,
@@ -1098,12 +998,10 @@ export default {
         "studying the effects of the change"
       ],
       "optionReasons": {
-        "study-mcq-09": "本句指「系統性研究某問題或情況，以便理解或作決定」。",
-        "study-mcq-08": "「仔細觀察、分析或研究某人／某物」是「study — examine carefully」的用法，與本句語境不同。",
-        "study-mcq-10": "「學習或研讀這項活動本身」是「study — learning activity」的用法，與本句語境不同。",
-        "study-mcq-07": "「很用功、投入大量努力讀書」是「study hard」的用法，與本句語境不同。",
-        "study-mcq-11": "「某人的學業、課業或整體學習活動」是「studies — academic work」的用法，與本句語境不同。",
-        "study-mcq-06": "「花時間讀書、溫習、做學術準備」是「study — do academic work」的用法，與本句語境不同。"
+        "study-mcq-09": "本句的「studying the effects of the change」指「系統性研究某問題或情況，以便理解或作決定」。",
+        "study-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-09"
     },
@@ -1115,11 +1013,9 @@ export default {
       "masked": "Language ____ requires regular practice.",
       "options": [
         "study-mcq-10",
-        "study-mcq-09",
-        "study-mcq-11",
-        "study-mcq-08",
-        "study-mcq-12",
-        "study-mcq-07"
+        "study-mcq-26",
+        "study-mcq-25",
+        "study-mcq-19"
       ],
       "explanation": "本句的「study」指「學習或研讀這項活動本身」。",
       "sentenceIndex": 18,
@@ -1128,12 +1024,10 @@ export default {
         "study"
       ],
       "optionReasons": {
-        "study-mcq-10": "本句指「學習或研讀這項活動本身」。",
-        "study-mcq-09": "「系統性研究某問題或情況，以便理解或作決定」是「study a problem/situation」的用法，與本句語境不同。",
-        "study-mcq-11": "「某人的學業、課業或整體學習活動」是「studies — academic work」的用法，與本句語境不同。",
-        "study-mcq-08": "「仔細觀察、分析或研究某人／某物」是「study — examine carefully」的用法，與本句語境不同。",
-        "study-mcq-12": "「為取得資料或驗證假設而進行的一項研究」是「study — research investigation」的用法，與本句語境不同。",
-        "study-mcq-07": "「很用功、投入大量努力讀書」是「study hard」的用法，與本句語境不同。"
+        "study-mcq-10": "本句的「study」指「學習或研讀這項活動本身」。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-10"
     },
@@ -1145,11 +1039,9 @@ export default {
       "masked": "The course combines independent ____ with classroom discussion.",
       "options": [
         "study-mcq-10",
-        "study-mcq-09",
-        "study-mcq-11",
-        "study-mcq-08",
-        "study-mcq-12",
-        "study-mcq-07"
+        "study-mcq-25",
+        "study-mcq-26",
+        "study-mcq-19"
       ],
       "explanation": "本句的「study」指「學習或研讀這項活動本身」。",
       "sentenceIndex": 19,
@@ -1158,12 +1050,10 @@ export default {
         "study"
       ],
       "optionReasons": {
-        "study-mcq-10": "本句指「學習或研讀這項活動本身」。",
-        "study-mcq-09": "「系統性研究某問題或情況，以便理解或作決定」是「study a problem/situation」的用法，與本句語境不同。",
-        "study-mcq-11": "「某人的學業、課業或整體學習活動」是「studies — academic work」的用法，與本句語境不同。",
-        "study-mcq-08": "「仔細觀察、分析或研究某人／某物」是「study — examine carefully」的用法，與本句語境不同。",
-        "study-mcq-12": "「為取得資料或驗證假設而進行的一項研究」是「study — research investigation」的用法，與本句語境不同。",
-        "study-mcq-07": "「很用功、投入大量努力讀書」是「study hard」的用法，與本句語境不同。"
+        "study-mcq-10": "本句的「study」指「學習或研讀這項活動本身」。",
+        "study-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-10"
     },
@@ -1175,11 +1065,8 @@ export default {
       "masked": "She is doing well in her ____.",
       "options": [
         "study-mcq-11",
-        "study-mcq-10",
-        "study-mcq-12",
-        "study-mcq-09",
-        "study-mcq-13",
-        "study-mcq-08"
+        "study-mcq-17",
+        "study-mcq-26"
       ],
       "explanation": "本句的「studies」指「某人的學業、課業或整體學習活動」。",
       "sentenceIndex": 20,
@@ -1188,12 +1075,9 @@ export default {
         "studies"
       ],
       "optionReasons": {
-        "study-mcq-11": "本句指「某人的學業、課業或整體學習活動」。",
-        "study-mcq-10": "「學習或研讀這項活動本身」是「study — learning activity」的用法，與本句語境不同。",
-        "study-mcq-12": "「為取得資料或驗證假設而進行的一項研究」是「study — research investigation」的用法，與本句語境不同。",
-        "study-mcq-09": "「系統性研究某問題或情況，以便理解或作決定」是「study a problem/situation」的用法，與本句語境不同。",
-        "study-mcq-13": "「進行一項正式研究」是「conduct/carry out a study」的用法，與本句語境不同。",
-        "study-mcq-08": "「仔細觀察、分析或研究某人／某物」是「study — examine carefully」的用法，與本句語境不同。"
+        "study-mcq-11": "本句的「studies」指「某人的學業、課業或整體學習活動」。",
+        "study-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-11"
     },
@@ -1205,11 +1089,9 @@ export default {
       "masked": "He returned home to continue his ____.",
       "options": [
         "study-mcq-11",
-        "study-mcq-10",
-        "study-mcq-12",
-        "study-mcq-09",
-        "study-mcq-13",
-        "study-mcq-08"
+        "study-mcq-07",
+        "study-mcq-26",
+        "study-mcq-19"
       ],
       "explanation": "本句的「studies」指「某人的學業、課業或整體學習活動」。",
       "sentenceIndex": 21,
@@ -1218,12 +1100,10 @@ export default {
         "studies"
       ],
       "optionReasons": {
-        "study-mcq-11": "本句指「某人的學業、課業或整體學習活動」。",
-        "study-mcq-10": "「學習或研讀這項活動本身」是「study — learning activity」的用法，與本句語境不同。",
-        "study-mcq-12": "「為取得資料或驗證假設而進行的一項研究」是「study — research investigation」的用法，與本句語境不同。",
-        "study-mcq-09": "「系統性研究某問題或情況，以便理解或作決定」是「study a problem/situation」的用法，與本句語境不同。",
-        "study-mcq-13": "「進行一項正式研究」是「conduct/carry out a study」的用法，與本句語境不同。",
-        "study-mcq-08": "「仔細觀察、分析或研究某人／某物」是「study — examine carefully」的用法，與本句語境不同。"
+        "study-mcq-11": "本句的「studies」指「某人的學業、課業或整體學習活動」。",
+        "study-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-11"
     },
@@ -1235,11 +1115,9 @@ export default {
       "masked": "A recent ____ examined sleep habits among teenagers.",
       "options": [
         "study-mcq-12",
-        "study-mcq-11",
-        "study-mcq-13",
-        "study-mcq-10",
-        "study-mcq-14",
-        "study-mcq-09"
+        "study-mcq-07",
+        "study-mcq-26",
+        "study-mcq-19"
       ],
       "explanation": "本句的「study」指「為取得資料或驗證假設而進行的一項研究」。",
       "sentenceIndex": 22,
@@ -1248,12 +1126,10 @@ export default {
         "study"
       ],
       "optionReasons": {
-        "study-mcq-12": "本句指「為取得資料或驗證假設而進行的一項研究」。",
-        "study-mcq-11": "「某人的學業、課業或整體學習活動」是「studies — academic work」的用法，與本句語境不同。",
-        "study-mcq-13": "「進行一項正式研究」是「conduct/carry out a study」的用法，與本句語境不同。",
-        "study-mcq-10": "「學習或研讀這項活動本身」是「study — learning activity」的用法，與本句語境不同。",
-        "study-mcq-14": "「對某主題進行的研究／學術探討」是「study of something」的用法，與本句語境不同。",
-        "study-mcq-09": "「系統性研究某問題或情況，以便理解或作決定」是「study a problem/situation」的用法，與本句語境不同。"
+        "study-mcq-12": "本句的「study」指「為取得資料或驗證假設而進行的一項研究」。",
+        "study-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-12"
     },
@@ -1265,11 +1141,9 @@ export default {
       "masked": "The ____ involved more than 500 participants.",
       "options": [
         "study-mcq-12",
-        "study-mcq-11",
-        "study-mcq-13",
-        "study-mcq-10",
-        "study-mcq-14",
-        "study-mcq-09"
+        "study-mcq-26",
+        "study-mcq-25",
+        "study-mcq-19"
       ],
       "explanation": "本句的「study」指「為取得資料或驗證假設而進行的一項研究」。",
       "sentenceIndex": 23,
@@ -1278,12 +1152,10 @@ export default {
         "study"
       ],
       "optionReasons": {
-        "study-mcq-12": "本句指「為取得資料或驗證假設而進行的一項研究」。",
-        "study-mcq-11": "「某人的學業、課業或整體學習活動」是「studies — academic work」的用法，與本句語境不同。",
-        "study-mcq-13": "「進行一項正式研究」是「conduct/carry out a study」的用法，與本句語境不同。",
-        "study-mcq-10": "「學習或研讀這項活動本身」是「study — learning activity」的用法，與本句語境不同。",
-        "study-mcq-14": "「對某主題進行的研究／學術探討」是「study of something」的用法，與本句語境不同。",
-        "study-mcq-09": "「系統性研究某問題或情況，以便理解或作決定」是「study a problem/situation」的用法，與本句語境不同。"
+        "study-mcq-12": "本句的「study」指「為取得資料或驗證假設而進行的一項研究」。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-12"
     },
@@ -1295,11 +1167,8 @@ export default {
       "masked": "Researchers ____ on language learning.",
       "options": [
         "study-mcq-13",
-        "study-mcq-12",
-        "study-mcq-14",
-        "study-mcq-11",
-        "study-mcq-15",
-        "study-mcq-10"
+        "study-mcq-22",
+        "study-mcq-26"
       ],
       "explanation": "本句的「conducted a study」指「進行一項正式研究」。",
       "sentenceIndex": 24,
@@ -1308,12 +1177,9 @@ export default {
         "conducted a study"
       ],
       "optionReasons": {
-        "study-mcq-13": "本句指「進行一項正式研究」。",
-        "study-mcq-12": "「為取得資料或驗證假設而進行的一項研究」是「study — research investigation」的用法，與本句語境不同。",
-        "study-mcq-14": "「對某主題進行的研究／學術探討」是「study of something」的用法，與本句語境不同。",
-        "study-mcq-11": "「某人的學業、課業或整體學習活動」是「studies — academic work」的用法，與本句語境不同。",
-        "study-mcq-15": "「某人主要學習或研究的學科領域」是「field/area of study」的用法，與本句語境不同。",
-        "study-mcq-10": "「學習或研讀這項活動本身」是「study — learning activity」的用法，與本句語境不同。"
+        "study-mcq-13": "本句的「conducted a study」指「進行一項正式研究」。",
+        "study-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-13"
     },
@@ -1325,11 +1191,8 @@ export default {
       "masked": "The university ____ of student wellbeing.",
       "options": [
         "study-mcq-13",
-        "study-mcq-12",
-        "study-mcq-14",
-        "study-mcq-11",
-        "study-mcq-15",
-        "study-mcq-10"
+        "study-mcq-17",
+        "study-mcq-26"
       ],
       "explanation": "本句的「carried out a study」指「進行一項正式研究」。",
       "sentenceIndex": 25,
@@ -1338,12 +1201,9 @@ export default {
         "carried out a study"
       ],
       "optionReasons": {
-        "study-mcq-13": "本句指「進行一項正式研究」。",
-        "study-mcq-12": "「為取得資料或驗證假設而進行的一項研究」是「study — research investigation」的用法，與本句語境不同。",
-        "study-mcq-14": "「對某主題進行的研究／學術探討」是「study of something」的用法，與本句語境不同。",
-        "study-mcq-11": "「某人的學業、課業或整體學習活動」是「studies — academic work」的用法，與本句語境不同。",
-        "study-mcq-15": "「某人主要學習或研究的學科領域」是「field/area of study」的用法，與本句語境不同。",
-        "study-mcq-10": "「學習或研讀這項活動本身」是「study — learning activity」的用法，與本句語境不同。"
+        "study-mcq-13": "本句的「carried out a study」指「進行一項正式研究」。",
+        "study-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-13"
     },
@@ -1355,11 +1215,8 @@ export default {
       "masked": "The report presents a ____.",
       "options": [
         "study-mcq-14",
-        "study-mcq-13",
-        "study-mcq-15",
-        "study-mcq-12",
-        "study-mcq-16",
-        "study-mcq-11"
+        "study-mcq-04",
+        "study-mcq-26"
       ],
       "explanation": "本句的「study of classroom behavior」指「對某主題進行的研究／學術探討」。",
       "sentenceIndex": 26,
@@ -1368,12 +1225,9 @@ export default {
         "study of classroom behavior"
       ],
       "optionReasons": {
-        "study-mcq-14": "本句指「對某主題進行的研究／學術探討」。",
-        "study-mcq-13": "「進行一項正式研究」是「conduct/carry out a study」的用法，與本句語境不同。",
-        "study-mcq-15": "「某人主要學習或研究的學科領域」是「field/area of study」的用法，與本句語境不同。",
-        "study-mcq-12": "「為取得資料或驗證假設而進行的一項研究」是「study — research investigation」的用法，與本句語境不同。",
-        "study-mcq-16": "「一起讀書或學習的小組」是「study group」的用法，與本句語境不同。",
-        "study-mcq-11": "「某人的學業、課業或整體學習活動」是「studies — academic work」的用法，與本句語境不同。"
+        "study-mcq-14": "本句的「study of classroom behavior」指「對某主題進行的研究／學術探討」。",
+        "study-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-14"
     },
@@ -1385,11 +1239,9 @@ export default {
       "masked": "She specializes in the ____.",
       "options": [
         "study-mcq-14",
-        "study-mcq-13",
-        "study-mcq-15",
-        "study-mcq-12",
-        "study-mcq-16",
-        "study-mcq-11"
+        "study-mcq-26",
+        "study-mcq-07",
+        "study-mcq-19"
       ],
       "explanation": "本句的「study of language development」指「對某主題進行的研究／學術探討」。",
       "sentenceIndex": 27,
@@ -1398,12 +1250,10 @@ export default {
         "study of language development"
       ],
       "optionReasons": {
-        "study-mcq-14": "本句指「對某主題進行的研究／學術探討」。",
-        "study-mcq-13": "「進行一項正式研究」是「conduct/carry out a study」的用法，與本句語境不同。",
-        "study-mcq-15": "「某人主要學習或研究的學科領域」是「field/area of study」的用法，與本句語境不同。",
-        "study-mcq-12": "「為取得資料或驗證假設而進行的一項研究」是「study — research investigation」的用法，與本句語境不同。",
-        "study-mcq-16": "「一起讀書或學習的小組」是「study group」的用法，與本句語境不同。",
-        "study-mcq-11": "「某人的學業、課業或整體學習活動」是「studies — academic work」的用法，與本句語境不同。"
+        "study-mcq-14": "本句的「study of language development」指「對某主題進行的研究／學術探討」。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-14"
     },
@@ -1415,11 +1265,9 @@ export default {
       "masked": "Linguistics is the ____.",
       "options": [
         "study-mcq-14",
-        "study-mcq-13",
-        "study-mcq-15",
-        "study-mcq-12",
-        "study-mcq-16",
-        "study-mcq-11"
+        "study-mcq-25",
+        "study-mcq-26",
+        "study-mcq-19"
       ],
       "explanation": "本句的「study of language」指「對某主題進行的研究／學術探討」。",
       "sentenceIndex": 28,
@@ -1428,12 +1276,10 @@ export default {
         "study of language"
       ],
       "optionReasons": {
-        "study-mcq-14": "本句指「對某主題進行的研究／學術探討」。",
-        "study-mcq-13": "「進行一項正式研究」是「conduct/carry out a study」的用法，與本句語境不同。",
-        "study-mcq-15": "「某人主要學習或研究的學科領域」是「field/area of study」的用法，與本句語境不同。",
-        "study-mcq-12": "「為取得資料或驗證假設而進行的一項研究」是「study — research investigation」的用法，與本句語境不同。",
-        "study-mcq-16": "「一起讀書或學習的小組」是「study group」的用法，與本句語境不同。",
-        "study-mcq-11": "「某人的學業、課業或整體學習活動」是「studies — academic work」的用法，與本句語境不同。"
+        "study-mcq-14": "本句的「study of language」指「對某主題進行的研究／學術探討」。",
+        "study-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-14"
     },
@@ -1445,11 +1291,9 @@ export default {
       "masked": "Psychology includes the ____.",
       "options": [
         "study-mcq-14",
-        "study-mcq-13",
-        "study-mcq-15",
-        "study-mcq-12",
-        "study-mcq-16",
-        "study-mcq-11"
+        "study-mcq-25",
+        "study-mcq-26",
+        "study-mcq-19"
       ],
       "explanation": "本句的「study of human behavior」指「對某主題進行的研究／學術探討」。",
       "sentenceIndex": 29,
@@ -1458,12 +1302,10 @@ export default {
         "study of human behavior"
       ],
       "optionReasons": {
-        "study-mcq-14": "本句指「對某主題進行的研究／學術探討」。",
-        "study-mcq-13": "「進行一項正式研究」是「conduct/carry out a study」的用法，與本句語境不同。",
-        "study-mcq-15": "「某人主要學習或研究的學科領域」是「field/area of study」的用法，與本句語境不同。",
-        "study-mcq-12": "「為取得資料或驗證假設而進行的一項研究」是「study — research investigation」的用法，與本句語境不同。",
-        "study-mcq-16": "「一起讀書或學習的小組」是「study group」的用法，與本句語境不同。",
-        "study-mcq-11": "「某人的學業、課業或整體學習活動」是「studies — academic work」的用法，與本句語境不同。"
+        "study-mcq-14": "本句的「study of human behavior」指「對某主題進行的研究／學術探討」。",
+        "study-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-14"
     },
@@ -1475,11 +1317,8 @@ export default {
       "masked": "Education is her main ____.",
       "options": [
         "study-mcq-15",
-        "study-mcq-14",
-        "study-mcq-16",
-        "study-mcq-13",
-        "study-mcq-17",
-        "study-mcq-12"
+        "study-mcq-04",
+        "study-mcq-26"
       ],
       "explanation": "本句的「field of study」指「某人主要學習或研究的學科領域」。",
       "sentenceIndex": 30,
@@ -1488,12 +1327,9 @@ export default {
         "field of study"
       ],
       "optionReasons": {
-        "study-mcq-15": "本句指「某人主要學習或研究的學科領域」。",
-        "study-mcq-14": "「對某主題進行的研究／學術探討」是「study of something」的用法，與本句語境不同。",
-        "study-mcq-16": "「一起讀書或學習的小組」是「study group」的用法，與本句語境不同。",
-        "study-mcq-13": "「進行一項正式研究」是「conduct/carry out a study」的用法，與本句語境不同。",
-        "study-mcq-17": "「專門安排來讀書的一段時間」是「study session」的用法，與本句語境不同。",
-        "study-mcq-12": "「為取得資料或驗證假設而進行的一項研究」是「study — research investigation」的用法，與本句語境不同。"
+        "study-mcq-15": "本句的「field of study」指「某人主要學習或研究的學科領域」。",
+        "study-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-15"
     },
@@ -1505,11 +1341,9 @@ export default {
       "masked": "What is your ____?",
       "options": [
         "study-mcq-15",
-        "study-mcq-14",
-        "study-mcq-16",
-        "study-mcq-13",
-        "study-mcq-17",
-        "study-mcq-12"
+        "study-mcq-26",
+        "study-mcq-25",
+        "study-mcq-19"
       ],
       "explanation": "本句的「area of study」指「某人主要學習或研究的學科領域」。",
       "sentenceIndex": 31,
@@ -1518,12 +1352,10 @@ export default {
         "area of study"
       ],
       "optionReasons": {
-        "study-mcq-15": "本句指「某人主要學習或研究的學科領域」。",
-        "study-mcq-14": "「對某主題進行的研究／學術探討」是「study of something」的用法，與本句語境不同。",
-        "study-mcq-16": "「一起讀書或學習的小組」是「study group」的用法，與本句語境不同。",
-        "study-mcq-13": "「進行一項正式研究」是「conduct/carry out a study」的用法，與本句語境不同。",
-        "study-mcq-17": "「專門安排來讀書的一段時間」是「study session」的用法，與本句語境不同。",
-        "study-mcq-12": "「為取得資料或驗證假設而進行的一項研究」是「study — research investigation」的用法，與本句語境不同。"
+        "study-mcq-15": "本句的「area of study」指「某人主要學習或研究的學科領域」。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-15"
     },
@@ -1535,11 +1367,8 @@ export default {
       "masked": "I organized my ____ before the exam.",
       "options": [
         "study-mcq-24",
-        "study-mcq-23",
-        "study-mcq-25",
-        "study-mcq-22",
         "study-mcq-26",
-        "study-mcq-21"
+        "study-mcq-19"
       ],
       "explanation": "本句的「study notes」指「表示學習筆記；讀書資料」。",
       "sentenceIndex": 32,
@@ -1548,12 +1377,9 @@ export default {
         "study notes"
       ],
       "optionReasons": {
-        "study-mcq-24": "本句指「表示學習筆記；讀書資料」。",
-        "study-mcq-23": "「表示學習；讀書；研讀」是「Core learner meaning」的用法，與本句語境不同。",
-        "study-mcq-25": "「表示書房」是「20. study — room used for reading or working」的用法，與本句語境不同。",
-        "study-mcq-22": "「認真讀書、勤奮好學的」是「studious」的用法，與本句語境不同。",
-        "study-mcq-26": "「表示仔細端詳；觀察」是「23. study someone’s face / expression」的用法，與本句語境不同。",
-        "study-mcq-21": "「正在學校、課程或老師指導下學習的人；學生」是「student」的用法，與本句語境不同。"
+        "study-mcq-24": "本句的「study notes」指「表示學習筆記；讀書資料」。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-24"
     },
@@ -1565,11 +1391,8 @@ export default {
       "masked": "The teacher uploaded extra ____.",
       "options": [
         "study-mcq-24",
-        "study-mcq-23",
-        "study-mcq-25",
-        "study-mcq-22",
         "study-mcq-26",
-        "study-mcq-21"
+        "study-mcq-19"
       ],
       "explanation": "本句的「study materials」指「表示學習筆記；讀書資料」。",
       "sentenceIndex": 33,
@@ -1578,12 +1401,9 @@ export default {
         "study materials"
       ],
       "optionReasons": {
-        "study-mcq-24": "本句指「表示學習筆記；讀書資料」。",
-        "study-mcq-23": "「表示學習；讀書；研讀」是「Core learner meaning」的用法，與本句語境不同。",
-        "study-mcq-25": "「表示書房」是「20. study — room used for reading or working」的用法，與本句語境不同。",
-        "study-mcq-22": "「認真讀書、勤奮好學的」是「studious」的用法，與本句語境不同。",
-        "study-mcq-26": "「表示仔細端詳；觀察」是「23. study someone’s face / expression」的用法，與本句語境不同。",
-        "study-mcq-21": "「正在學校、課程或老師指導下學習的人；學生」是「student」的用法，與本句語境不同。"
+        "study-mcq-24": "本句的「study materials」指「表示學習筆記；讀書資料」。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-24"
     },
@@ -1595,11 +1415,8 @@ export default {
       "masked": "We planned a two-hour ____.",
       "options": [
         "study-mcq-17",
-        "study-mcq-16",
-        "study-mcq-18",
-        "study-mcq-15",
-        "study-mcq-19",
-        "study-mcq-14"
+        "study-mcq-21",
+        "study-mcq-26"
       ],
       "explanation": "本句的「study session」指「專門安排來讀書的一段時間」。",
       "sentenceIndex": 34,
@@ -1608,12 +1425,9 @@ export default {
         "study session"
       ],
       "optionReasons": {
-        "study-mcq-17": "本句指「專門安排來讀書的一段時間」。",
-        "study-mcq-16": "「一起讀書或學習的小組」是「study group」的用法，與本句語境不同。",
-        "study-mcq-18": "「家中用來閱讀、寫作或工作的書房」是「study — room」的用法，與本句語境不同。",
-        "study-mcq-15": "「某人主要學習或研究的學科領域」是「field/area of study」的用法，與本句語境不同。",
-        "study-mcq-19": "「為正式作品做準備的藝術習作／草圖」是「study — artistic work」的用法，與本句語境不同。",
-        "study-mcq-14": "「對某主題進行的研究／學術探討」是「study of something」的用法，與本句語境不同。"
+        "study-mcq-17": "本句的「study session」指「專門安排來讀書的一段時間」。",
+        "study-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-17"
     },
@@ -1625,11 +1439,8 @@ export default {
       "masked": "Short, focused ____ can be effective.",
       "options": [
         "study-mcq-17",
-        "study-mcq-16",
-        "study-mcq-18",
-        "study-mcq-15",
-        "study-mcq-19",
-        "study-mcq-14"
+        "study-mcq-21",
+        "study-mcq-26"
       ],
       "explanation": "本句的「study sessions」指「專門安排來讀書的一段時間」。",
       "sentenceIndex": 35,
@@ -1638,12 +1449,9 @@ export default {
         "study sessions"
       ],
       "optionReasons": {
-        "study-mcq-17": "本句指「專門安排來讀書的一段時間」。",
-        "study-mcq-16": "「一起讀書或學習的小組」是「study group」的用法，與本句語境不同。",
-        "study-mcq-18": "「家中用來閱讀、寫作或工作的書房」是「study — room」的用法，與本句語境不同。",
-        "study-mcq-15": "「某人主要學習或研究的學科領域」是「field/area of study」的用法，與本句語境不同。",
-        "study-mcq-19": "「為正式作品做準備的藝術習作／草圖」是「study — artistic work」的用法，與本句語境不同。",
-        "study-mcq-14": "「對某主題進行的研究／學術探討」是「study of something」的用法，與本句語境不同。"
+        "study-mcq-17": "本句的「study sessions」指「專門安排來讀書的一段時間」。",
+        "study-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-17"
     },
@@ -1655,11 +1463,8 @@ export default {
       "masked": "We formed a ____ before the exam.",
       "options": [
         "study-mcq-16",
-        "study-mcq-15",
-        "study-mcq-17",
-        "study-mcq-14",
-        "study-mcq-18",
-        "study-mcq-13"
+        "study-mcq-26",
+        "study-mcq-19"
       ],
       "explanation": "本句的「study group」指「一起讀書或學習的小組」。",
       "sentenceIndex": 36,
@@ -1668,12 +1473,9 @@ export default {
         "study group"
       ],
       "optionReasons": {
-        "study-mcq-16": "本句指「一起讀書或學習的小組」。",
-        "study-mcq-15": "「某人主要學習或研究的學科領域」是「field/area of study」的用法，與本句語境不同。",
-        "study-mcq-17": "「專門安排來讀書的一段時間」是「study session」的用法，與本句語境不同。",
-        "study-mcq-14": "「對某主題進行的研究／學術探討」是「study of something」的用法，與本句語境不同。",
-        "study-mcq-18": "「家中用來閱讀、寫作或工作的書房」是「study — room」的用法，與本句語境不同。",
-        "study-mcq-13": "「進行一項正式研究」是「conduct/carry out a study」的用法，與本句語境不同。"
+        "study-mcq-16": "本句的「study group」指「一起讀書或學習的小組」。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-16"
     },
@@ -1685,11 +1487,8 @@ export default {
       "masked": "The ____ meets every Wednesday.",
       "options": [
         "study-mcq-16",
-        "study-mcq-15",
-        "study-mcq-17",
-        "study-mcq-14",
-        "study-mcq-18",
-        "study-mcq-13"
+        "study-mcq-26",
+        "study-mcq-19"
       ],
       "explanation": "本句的「study group」指「一起讀書或學習的小組」。",
       "sentenceIndex": 37,
@@ -1698,12 +1497,9 @@ export default {
         "study group"
       ],
       "optionReasons": {
-        "study-mcq-16": "本句指「一起讀書或學習的小組」。",
-        "study-mcq-15": "「某人主要學習或研究的學科領域」是「field/area of study」的用法，與本句語境不同。",
-        "study-mcq-17": "「專門安排來讀書的一段時間」是「study session」的用法，與本句語境不同。",
-        "study-mcq-14": "「對某主題進行的研究／學術探討」是「study of something」的用法，與本句語境不同。",
-        "study-mcq-18": "「家中用來閱讀、寫作或工作的書房」是「study — room」的用法，與本句語境不同。",
-        "study-mcq-13": "「進行一項正式研究」是「conduct/carry out a study」的用法，與本句語境不同。"
+        "study-mcq-16": "本句的「study group」指「一起讀書或學習的小組」。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-16"
     },
@@ -1715,11 +1511,9 @@ export default {
       "masked": "He was working in his ____.",
       "options": [
         "study-mcq-25",
-        "study-mcq-24",
-        "study-mcq-26",
-        "study-mcq-23",
-        "study-mcq-22",
-        "study-mcq-21"
+        "study-mcq-03",
+        "study-mcq-19",
+        "study-mcq-26"
       ],
       "explanation": "本句的「study」指「表示書房」。",
       "sentenceIndex": 38,
@@ -1728,12 +1522,10 @@ export default {
         "study"
       ],
       "optionReasons": {
-        "study-mcq-25": "本句指「表示書房」。",
-        "study-mcq-24": "「表示學習筆記；讀書資料」是「17. study notes / study materials」的用法，與本句語境不同。",
-        "study-mcq-26": "「表示仔細端詳；觀察」是「23. study someone’s face / expression」的用法，與本句語境不同。",
-        "study-mcq-23": "「表示學習；讀書；研讀」是「Core learner meaning」的用法，與本句語境不同。",
-        "study-mcq-22": "「認真讀書、勤奮好學的」是「studious」的用法，與本句語境不同。",
-        "study-mcq-21": "「正在學校、課程或老師指導下學習的人；學生」是「student」的用法，與本句語境不同。"
+        "study-mcq-25": "本句的「study」指「表示書房」。",
+        "study-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-25"
     },
@@ -1745,11 +1537,9 @@ export default {
       "masked": "The house has a small ____ upstairs.",
       "options": [
         "study-mcq-25",
-        "study-mcq-24",
         "study-mcq-26",
-        "study-mcq-23",
-        "study-mcq-22",
-        "study-mcq-21"
+        "study-mcq-02",
+        "study-mcq-19"
       ],
       "explanation": "本句的「study」指「表示書房」。",
       "sentenceIndex": 39,
@@ -1758,12 +1548,10 @@ export default {
         "study"
       ],
       "optionReasons": {
-        "study-mcq-25": "本句指「表示書房」。",
-        "study-mcq-24": "「表示學習筆記；讀書資料」是「17. study notes / study materials」的用法，與本句語境不同。",
-        "study-mcq-26": "「表示仔細端詳；觀察」是「23. study someone’s face / expression」的用法，與本句語境不同。",
-        "study-mcq-23": "「表示學習；讀書；研讀」是「Core learner meaning」的用法，與本句語境不同。",
-        "study-mcq-22": "「認真讀書、勤奮好學的」是「studious」的用法，與本句語境不同。",
-        "study-mcq-21": "「正在學校、課程或老師指導下學習的人；學生」是「student」的用法，與本句語境不同。"
+        "study-mcq-25": "本句的「study」指「表示書房」。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-25"
     },
@@ -1775,11 +1563,9 @@ export default {
       "masked": "The museum displayed several pencil ____ for the final painting.",
       "options": [
         "study-mcq-19",
-        "study-mcq-18",
-        "study-mcq-20",
-        "study-mcq-17",
-        "study-mcq-21",
-        "study-mcq-16"
+        "study-mcq-03",
+        "study-mcq-22",
+        "study-mcq-26"
       ],
       "explanation": "本句的「studies」指「為正式作品做準備的藝術習作／草圖」。",
       "sentenceIndex": 40,
@@ -1788,12 +1574,10 @@ export default {
         "studies"
       ],
       "optionReasons": {
-        "study-mcq-19": "本句指「為正式作品做準備的藝術習作／草圖」。",
-        "study-mcq-18": "「家中用來閱讀、寫作或工作的書房」是「study — room」的用法，與本句語境不同。",
-        "study-mcq-20": "「用於練習特定演奏技巧的練習曲」是「study — music」的用法，與本句語境不同。",
-        "study-mcq-17": "「專門安排來讀書的一段時間」是「study session」的用法，與本句語境不同。",
-        "study-mcq-21": "「正在學校、課程或老師指導下學習的人；學生」是「student」的用法，與本句語境不同。",
-        "study-mcq-16": "「一起讀書或學習的小組」是「study group」的用法，與本句語境不同。"
+        "study-mcq-19": "本句的「studies」指「為正式作品做準備的藝術習作／草圖」。",
+        "study-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-19"
     },
@@ -1805,11 +1589,9 @@ export default {
       "masked": "The artist produced a ____.",
       "options": [
         "study-mcq-19",
-        "study-mcq-18",
-        "study-mcq-20",
-        "study-mcq-17",
-        "study-mcq-21",
-        "study-mcq-16"
+        "study-mcq-12",
+        "study-mcq-22",
+        "study-mcq-26"
       ],
       "explanation": "本句的「study of the human hand」指「為正式作品做準備的藝術習作／草圖」。",
       "sentenceIndex": 41,
@@ -1818,12 +1600,10 @@ export default {
         "study of the human hand"
       ],
       "optionReasons": {
-        "study-mcq-19": "本句指「為正式作品做準備的藝術習作／草圖」。",
-        "study-mcq-18": "「家中用來閱讀、寫作或工作的書房」是「study — room」的用法，與本句語境不同。",
-        "study-mcq-20": "「用於練習特定演奏技巧的練習曲」是「study — music」的用法，與本句語境不同。",
-        "study-mcq-17": "「專門安排來讀書的一段時間」是「study session」的用法，與本句語境不同。",
-        "study-mcq-21": "「正在學校、課程或老師指導下學習的人；學生」是「student」的用法，與本句語境不同。",
-        "study-mcq-16": "「一起讀書或學習的小組」是「study group」的用法，與本句語境不同。"
+        "study-mcq-19": "本句的「study of the human hand」指「為正式作品做準備的藝術習作／草圖」。",
+        "study-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-19"
     },
@@ -1835,11 +1615,9 @@ export default {
       "masked": "She played a piano ____ by Chopin.",
       "options": [
         "study-mcq-20",
-        "study-mcq-19",
-        "study-mcq-21",
-        "study-mcq-18",
         "study-mcq-22",
-        "study-mcq-17"
+        "study-mcq-26",
+        "study-mcq-19"
       ],
       "explanation": "本句的「study」指「用於練習特定演奏技巧的練習曲」。",
       "sentenceIndex": 42,
@@ -1848,12 +1626,10 @@ export default {
         "study"
       ],
       "optionReasons": {
-        "study-mcq-20": "本句指「用於練習特定演奏技巧的練習曲」。",
-        "study-mcq-19": "「為正式作品做準備的藝術習作／草圖」是「study — artistic work」的用法，與本句語境不同。",
-        "study-mcq-21": "「正在學校、課程或老師指導下學習的人；學生」是「student」的用法，與本句語境不同。",
-        "study-mcq-18": "「家中用來閱讀、寫作或工作的書房」是「study — room」的用法，與本句語境不同。",
-        "study-mcq-22": "「認真讀書、勤奮好學的」是「studious」的用法，與本句語境不同。",
-        "study-mcq-17": "「專門安排來讀書的一段時間」是「study session」的用法，與本句語境不同。"
+        "study-mcq-20": "本句的「study」指「用於練習特定演奏技巧的練習曲」。",
+        "study-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-20"
     },
@@ -1865,11 +1641,8 @@ export default {
       "masked": "The piece began as a technical ____.",
       "options": [
         "study-mcq-20",
-        "study-mcq-19",
-        "study-mcq-21",
-        "study-mcq-18",
-        "study-mcq-22",
-        "study-mcq-17"
+        "study-mcq-17",
+        "study-mcq-26"
       ],
       "explanation": "本句的「study」指「用於練習特定演奏技巧的練習曲」。",
       "sentenceIndex": 43,
@@ -1878,12 +1651,9 @@ export default {
         "study"
       ],
       "optionReasons": {
-        "study-mcq-20": "本句指「用於練習特定演奏技巧的練習曲」。",
-        "study-mcq-19": "「為正式作品做準備的藝術習作／草圖」是「study — artistic work」的用法，與本句語境不同。",
-        "study-mcq-21": "「正在學校、課程或老師指導下學習的人；學生」是「student」的用法，與本句語境不同。",
-        "study-mcq-18": "「家中用來閱讀、寫作或工作的書房」是「study — room」的用法，與本句語境不同。",
-        "study-mcq-22": "「認真讀書、勤奮好學的」是「studious」的用法，與本句語境不同。",
-        "study-mcq-17": "「專門安排來讀書的一段時間」是「study session」的用法，與本句語境不同。"
+        "study-mcq-20": "本句的「study」指「用於練習特定演奏技巧的練習曲」。",
+        "study-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-20"
     },
@@ -1895,11 +1665,8 @@ export default {
       "masked": "She ____ for a reaction.",
       "options": [
         "study-mcq-26",
-        "study-mcq-25",
-        "study-mcq-24",
-        "study-mcq-23",
-        "study-mcq-22",
-        "study-mcq-21"
+        "study-mcq-05",
+        "study-mcq-22"
       ],
       "explanation": "本句的「studied his face」指「表示仔細端詳；觀察」。",
       "sentenceIndex": 44,
@@ -1908,12 +1675,9 @@ export default {
         "studied his face"
       ],
       "optionReasons": {
-        "study-mcq-26": "本句指「表示仔細端詳；觀察」。",
-        "study-mcq-25": "「表示書房」是「20. study — room used for reading or working」的用法，與本句語境不同。",
-        "study-mcq-24": "「表示學習筆記；讀書資料」是「17. study notes / study materials」的用法，與本句語境不同。",
-        "study-mcq-23": "「表示學習；讀書；研讀」是「Core learner meaning」的用法，與本句語境不同。",
-        "study-mcq-22": "「認真讀書、勤奮好學的」是「studious」的用法，與本句語境不同。",
-        "study-mcq-21": "「正在學校、課程或老師指導下學習的人；學生」是「student」的用法，與本句語境不同。"
+        "study-mcq-26": "本句的「studied his face」指「表示仔細端詳；觀察」。",
+        "study-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-26"
     },
@@ -1925,11 +1689,9 @@ export default {
       "masked": "He ____ before replying.",
       "options": [
         "study-mcq-26",
-        "study-mcq-25",
-        "study-mcq-24",
-        "study-mcq-23",
-        "study-mcq-22",
-        "study-mcq-21"
+        "study-mcq-14",
+        "study-mcq-19",
+        "study-mcq-07"
       ],
       "explanation": "本句的「studied her expression」指「表示仔細端詳；觀察」。",
       "sentenceIndex": 45,
@@ -1938,12 +1700,10 @@ export default {
         "studied her expression"
       ],
       "optionReasons": {
-        "study-mcq-26": "本句指「表示仔細端詳；觀察」。",
-        "study-mcq-25": "「表示書房」是「20. study — room used for reading or working」的用法，與本句語境不同。",
-        "study-mcq-24": "「表示學習筆記；讀書資料」是「17. study notes / study materials」的用法，與本句語境不同。",
-        "study-mcq-23": "「表示學習；讀書；研讀」是「Core learner meaning」的用法，與本句語境不同。",
-        "study-mcq-22": "「認真讀書、勤奮好學的」是「studious」的用法，與本句語境不同。",
-        "study-mcq-21": "「正在學校、課程或老師指導下學習的人；學生」是「student」的用法，與本句語境不同。"
+        "study-mcq-26": "本句的「studied her expression」指「表示仔細端詳；觀察」。",
+        "study-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-26"
     },
@@ -1955,11 +1715,8 @@ export default {
       "masked": "She was my English ____ for two years.",
       "options": [
         "study-mcq-21",
-        "study-mcq-20",
-        "study-mcq-22",
-        "study-mcq-19",
-        "study-mcq-23",
-        "study-mcq-18"
+        "study-mcq-26",
+        "study-mcq-17"
       ],
       "explanation": "本句的「student」指「正在學校、課程或老師指導下學習的人；學生」。",
       "sentenceIndex": 46,
@@ -1968,12 +1725,9 @@ export default {
         "student"
       ],
       "optionReasons": {
-        "study-mcq-21": "本句指「正在學校、課程或老師指導下學習的人；學生」。",
-        "study-mcq-20": "「用於練習特定演奏技巧的練習曲」是「study — music」的用法，與本句語境不同。",
-        "study-mcq-22": "「認真讀書、勤奮好學的」是「studious」的用法，與本句語境不同。",
-        "study-mcq-19": "「為正式作品做準備的藝術習作／草圖」是「study — artistic work」的用法，與本句語境不同。",
-        "study-mcq-23": "「表示學習；讀書；研讀」是「Core learner meaning」的用法，與本句語境不同。",
-        "study-mcq-18": "「家中用來閱讀、寫作或工作的書房」是「study — room」的用法，與本句語境不同。"
+        "study-mcq-21": "本句的「student」指「正在學校、課程或老師指導下學習的人；學生」。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-21"
     },
@@ -1985,11 +1739,8 @@ export default {
       "masked": "The teacher encouraged every ____ to participate.",
       "options": [
         "study-mcq-21",
-        "study-mcq-20",
-        "study-mcq-22",
-        "study-mcq-19",
-        "study-mcq-23",
-        "study-mcq-18"
+        "study-mcq-17",
+        "study-mcq-26"
       ],
       "explanation": "本句的「student」指「正在學校、課程或老師指導下學習的人；學生」。",
       "sentenceIndex": 47,
@@ -1998,12 +1749,9 @@ export default {
         "student"
       ],
       "optionReasons": {
-        "study-mcq-21": "本句指「正在學校、課程或老師指導下學習的人；學生」。",
-        "study-mcq-20": "「用於練習特定演奏技巧的練習曲」是「study — music」的用法，與本句語境不同。",
-        "study-mcq-22": "「認真讀書、勤奮好學的」是「studious」的用法，與本句語境不同。",
-        "study-mcq-19": "「為正式作品做準備的藝術習作／草圖」是「study — artistic work」的用法，與本句語境不同。",
-        "study-mcq-23": "「表示學習；讀書；研讀」是「Core learner meaning」的用法，與本句語境不同。",
-        "study-mcq-18": "「家中用來閱讀、寫作或工作的書房」是「study — room」的用法，與本句語境不同。"
+        "study-mcq-21": "本句的「student」指「正在學校、課程或老師指導下學習的人；學生」。",
+        "study-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-21"
     },
@@ -2015,11 +1763,9 @@ export default {
       "masked": "She was a quiet, ____ child.",
       "options": [
         "study-mcq-22",
-        "study-mcq-21",
-        "study-mcq-23",
-        "study-mcq-20",
-        "study-mcq-24",
-        "study-mcq-19"
+        "study-mcq-19",
+        "study-mcq-09",
+        "study-mcq-26"
       ],
       "explanation": "本句的「studious」指「認真讀書、勤奮好學的」。",
       "sentenceIndex": 48,
@@ -2028,12 +1774,10 @@ export default {
         "studious"
       ],
       "optionReasons": {
-        "study-mcq-22": "本句指「認真讀書、勤奮好學的」。",
-        "study-mcq-21": "「正在學校、課程或老師指導下學習的人；學生」是「student」的用法，與本句語境不同。",
-        "study-mcq-23": "「表示學習；讀書；研讀」是「Core learner meaning」的用法，與本句語境不同。",
-        "study-mcq-20": "「用於練習特定演奏技巧的練習曲」是「study — music」的用法，與本句語境不同。",
-        "study-mcq-24": "「表示學習筆記；讀書資料」是「17. study notes / study materials」的用法，與本句語境不同。",
-        "study-mcq-19": "「為正式作品做準備的藝術習作／草圖」是「study — artistic work」的用法，與本句語境不同。"
+        "study-mcq-22": "本句的「studious」指「認真讀書、勤奮好學的」。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-22"
     },
@@ -2045,10 +1789,8 @@ export default {
       "masked": "He became much more ____ before the exams.",
       "options": [
         "study-mcq-22",
-        "study-mcq-21",
-        "study-mcq-23",
+        "study-mcq-26",
         "study-mcq-20",
-        "study-mcq-24",
         "study-mcq-19"
       ],
       "explanation": "本句的「studious」指「認真讀書、勤奮好學的」。",
@@ -2058,12 +1800,10 @@ export default {
         "studious"
       ],
       "optionReasons": {
-        "study-mcq-22": "本句指「認真讀書、勤奮好學的」。",
-        "study-mcq-21": "「正在學校、課程或老師指導下學習的人；學生」是「student」的用法，與本句語境不同。",
-        "study-mcq-23": "「表示學習；讀書；研讀」是「Core learner meaning」的用法，與本句語境不同。",
-        "study-mcq-20": "「用於練習特定演奏技巧的練習曲」是「study — music」的用法，與本句語境不同。",
-        "study-mcq-24": "「表示學習筆記；讀書資料」是「17. study notes / study materials」的用法，與本句語境不同。",
-        "study-mcq-19": "「為正式作品做準備的藝術習作／草圖」是「study — artistic work」的用法，與本句語境不同。"
+        "study-mcq-22": "本句的「studious」指「認真讀書、勤奮好學的」。",
+        "study-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "study-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "study-mcq-22"
     }
@@ -2075,5 +1815,7 @@ export default {
     "sha256": "47c53708a8b72d401bd838fd6908960fd7b6e407da22dfed59a24597cbadfc84",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

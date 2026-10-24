@@ -536,7 +536,7 @@ export default {
     },
     {
       "id": "main-mcq-23",
-      "title": "表示與 secondary/minor 相對，屬最重要／核心層級",
+      "title": "與 secondary/minor 相對，屬最重要／核心層級",
       "form": "27. main = principal rather than secondary（主要而非次要） — 首要；核心",
       "en": "27. main = principal rather than secondary（主要而非次要） — 首要；核心",
       "zh": "表示與 secondary/minor 相對，屬最重要／核心層級",
@@ -566,11 +566,8 @@ export default {
       "masked": "The ____ I like her so much is that she makes me feel accepted.",
       "options": [
         "main-mcq-01",
-        "main-mcq-02",
-        "main-mcq-03",
-        "main-mcq-04",
-        "main-mcq-05",
-        "main-mcq-06"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main reason」指「在數個人、原因、目標、問題或部分之中最重要／最核心的」。",
       "sentenceIndex": 0,
@@ -579,12 +576,9 @@ export default {
         "main reason"
       ],
       "optionReasons": {
-        "main-mcq-01": "本句指「在數個人、原因、目標、問題或部分之中最重要／最核心的」。",
-        "main-mcq-02": "「多個原因中最重要、影響最大的一個」是「main reason/cause」的用法，與本句語境不同。",
-        "main-mcq-03": "「說話、文章或討論中最重要的核心意思」是「main point」的用法，與本句語境不同。",
-        "main-mcq-04": "「統領文章、段落或構思其他內容的中心思想」是「main idea」的用法，與本句語境不同。",
-        "main-mcq-05": "「某項活動最重要、最核心的目的」是「main purpose/aim」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。"
+        "main-mcq-01": "本句的「main reason」指「在數個人、原因、目標、問題或部分之中最重要／最核心的」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-01"
     },
@@ -596,11 +590,8 @@ export default {
       "masked": "Our ____ is to improve communication.",
       "options": [
         "main-mcq-01",
-        "main-mcq-02",
-        "main-mcq-03",
-        "main-mcq-04",
-        "main-mcq-05",
-        "main-mcq-06"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main goal」指「在數個人、原因、目標、問題或部分之中最重要／最核心的」。",
       "sentenceIndex": 1,
@@ -609,12 +600,9 @@ export default {
         "main goal"
       ],
       "optionReasons": {
-        "main-mcq-01": "本句指「在數個人、原因、目標、問題或部分之中最重要／最核心的」。",
-        "main-mcq-02": "「多個原因中最重要、影響最大的一個」是「main reason/cause」的用法，與本句語境不同。",
-        "main-mcq-03": "「說話、文章或討論中最重要的核心意思」是「main point」的用法，與本句語境不同。",
-        "main-mcq-04": "「統領文章、段落或構思其他內容的中心思想」是「main idea」的用法，與本句語境不同。",
-        "main-mcq-05": "「某項活動最重要、最核心的目的」是「main purpose/aim」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。"
+        "main-mcq-01": "本句的「main goal」指「在數個人、原因、目標、問題或部分之中最重要／最核心的」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-01"
     },
@@ -626,11 +614,8 @@ export default {
       "masked": "The ____ is lack of time.",
       "options": [
         "main-mcq-01",
-        "main-mcq-02",
-        "main-mcq-03",
-        "main-mcq-04",
-        "main-mcq-05",
-        "main-mcq-06"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main problem」指「在數個人、原因、目標、問題或部分之中最重要／最核心的」。",
       "sentenceIndex": 2,
@@ -639,12 +624,9 @@ export default {
         "main problem"
       ],
       "optionReasons": {
-        "main-mcq-01": "本句指「在數個人、原因、目標、問題或部分之中最重要／最核心的」。",
-        "main-mcq-02": "「多個原因中最重要、影響最大的一個」是「main reason/cause」的用法，與本句語境不同。",
-        "main-mcq-03": "「說話、文章或討論中最重要的核心意思」是「main point」的用法，與本句語境不同。",
-        "main-mcq-04": "「統領文章、段落或構思其他內容的中心思想」是「main idea」的用法，與本句語境不同。",
-        "main-mcq-05": "「某項活動最重要、最核心的目的」是「main purpose/aim」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。"
+        "main-mcq-01": "本句的「main problem」指「在數個人、原因、目標、問題或部分之中最重要／最核心的」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-01"
     },
@@ -656,11 +638,8 @@ export default {
       "masked": "The ____ for the delay was bad weather.",
       "options": [
         "main-mcq-02",
-        "main-mcq-01",
-        "main-mcq-03",
-        "main-mcq-04",
-        "main-mcq-05",
-        "main-mcq-06"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main reason」指「多個原因中最重要、影響最大的一個」。",
       "sentenceIndex": 3,
@@ -669,12 +648,9 @@ export default {
         "main reason"
       ],
       "optionReasons": {
-        "main-mcq-02": "本句指「多個原因中最重要、影響最大的一個」。",
-        "main-mcq-01": "「在數個人、原因、目標、問題或部分之中最重要／最核心的」是「main — principal」的用法，與本句語境不同。",
-        "main-mcq-03": "「說話、文章或討論中最重要的核心意思」是「main point」的用法，與本句語境不同。",
-        "main-mcq-04": "「統領文章、段落或構思其他內容的中心思想」是「main idea」的用法，與本句語境不同。",
-        "main-mcq-05": "「某項活動最重要、最核心的目的」是「main purpose/aim」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。"
+        "main-mcq-02": "本句的「main reason」指「多個原因中最重要、影響最大的一個」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-02"
     },
@@ -686,11 +662,8 @@ export default {
       "masked": "Stress was the ____ of the problem.",
       "options": [
         "main-mcq-02",
-        "main-mcq-01",
-        "main-mcq-03",
-        "main-mcq-04",
-        "main-mcq-05",
-        "main-mcq-06"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main cause」指「多個原因中最重要、影響最大的一個」。",
       "sentenceIndex": 4,
@@ -699,12 +672,9 @@ export default {
         "main cause"
       ],
       "optionReasons": {
-        "main-mcq-02": "本句指「多個原因中最重要、影響最大的一個」。",
-        "main-mcq-01": "「在數個人、原因、目標、問題或部分之中最重要／最核心的」是「main — principal」的用法，與本句語境不同。",
-        "main-mcq-03": "「說話、文章或討論中最重要的核心意思」是「main point」的用法，與本句語境不同。",
-        "main-mcq-04": "「統領文章、段落或構思其他內容的中心思想」是「main idea」的用法，與本句語境不同。",
-        "main-mcq-05": "「某項活動最重要、最核心的目的」是「main purpose/aim」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。"
+        "main-mcq-02": "本句的「main cause」指「多個原因中最重要、影響最大的一個」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-02"
     },
@@ -716,11 +686,8 @@ export default {
       "masked": "What is the ____ of the article?",
       "options": [
         "main-mcq-03",
-        "main-mcq-02",
-        "main-mcq-04",
-        "main-mcq-01",
-        "main-mcq-05",
-        "main-mcq-06"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main point」指「說話、文章或討論中最重要的核心意思」。",
       "sentenceIndex": 5,
@@ -729,12 +696,9 @@ export default {
         "main point"
       ],
       "optionReasons": {
-        "main-mcq-03": "本句指「說話、文章或討論中最重要的核心意思」。",
-        "main-mcq-02": "「多個原因中最重要、影響最大的一個」是「main reason/cause」的用法，與本句語境不同。",
-        "main-mcq-04": "「統領文章、段落或構思其他內容的中心思想」是「main idea」的用法，與本句語境不同。",
-        "main-mcq-01": "「在數個人、原因、目標、問題或部分之中最重要／最核心的」是「main — principal」的用法，與本句語境不同。",
-        "main-mcq-05": "「某項活動最重要、最核心的目的」是「main purpose/aim」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。"
+        "main-mcq-03": "本句的「main point」指「說話、文章或討論中最重要的核心意思」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-03"
     },
@@ -746,11 +710,8 @@ export default {
       "masked": "Try to remember the ____.",
       "options": [
         "main-mcq-03",
-        "main-mcq-02",
-        "main-mcq-04",
-        "main-mcq-01",
-        "main-mcq-05",
-        "main-mcq-06"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main points」指「說話、文章或討論中最重要的核心意思」。",
       "sentenceIndex": 6,
@@ -759,12 +720,9 @@ export default {
         "main points"
       ],
       "optionReasons": {
-        "main-mcq-03": "本句指「說話、文章或討論中最重要的核心意思」。",
-        "main-mcq-02": "「多個原因中最重要、影響最大的一個」是「main reason/cause」的用法，與本句語境不同。",
-        "main-mcq-04": "「統領文章、段落或構思其他內容的中心思想」是「main idea」的用法，與本句語境不同。",
-        "main-mcq-01": "「在數個人、原因、目標、問題或部分之中最重要／最核心的」是「main — principal」的用法，與本句語境不同。",
-        "main-mcq-05": "「某項活動最重要、最核心的目的」是「main purpose/aim」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。"
+        "main-mcq-03": "本句的「main points」指「說話、文章或討論中最重要的核心意思」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-03"
     },
@@ -776,11 +734,8 @@ export default {
       "masked": "The ____ is easy to understand.",
       "options": [
         "main-mcq-04",
-        "main-mcq-03",
-        "main-mcq-05",
-        "main-mcq-02",
-        "main-mcq-06",
-        "main-mcq-01"
+        "main-mcq-15",
+        "main-mcq-19"
       ],
       "explanation": "本句的「main idea」指「統領文章、段落或構思其他內容的中心思想」。",
       "sentenceIndex": 7,
@@ -789,12 +744,9 @@ export default {
         "main idea"
       ],
       "optionReasons": {
-        "main-mcq-04": "本句指「統領文章、段落或構思其他內容的中心思想」。",
-        "main-mcq-03": "「說話、文章或討論中最重要的核心意思」是「main point」的用法，與本句語境不同。",
-        "main-mcq-05": "「某項活動最重要、最核心的目的」是「main purpose/aim」的用法，與本句語境不同。",
-        "main-mcq-02": "「多個原因中最重要、影響最大的一個」是「main reason/cause」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。",
-        "main-mcq-01": "「在數個人、原因、目標、問題或部分之中最重要／最核心的」是「main — principal」的用法，與本句語境不同。"
+        "main-mcq-04": "本句的「main idea」指「統領文章、段落或構思其他內容的中心思想」。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-04"
     },
@@ -806,11 +758,8 @@ export default {
       "masked": "Each paragraph should support the ____ idea.",
       "options": [
         "main-mcq-04",
-        "main-mcq-03",
-        "main-mcq-05",
-        "main-mcq-02",
-        "main-mcq-06",
-        "main-mcq-01"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main」指「統領文章、段落或構思其他內容的中心思想」。",
       "sentenceIndex": 8,
@@ -819,12 +768,9 @@ export default {
         "main"
       ],
       "optionReasons": {
-        "main-mcq-04": "本句指「統領文章、段落或構思其他內容的中心思想」。",
-        "main-mcq-03": "「說話、文章或討論中最重要的核心意思」是「main point」的用法，與本句語境不同。",
-        "main-mcq-05": "「某項活動最重要、最核心的目的」是「main purpose/aim」的用法，與本句語境不同。",
-        "main-mcq-02": "「多個原因中最重要、影響最大的一個」是「main reason/cause」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。",
-        "main-mcq-01": "「在數個人、原因、目標、問題或部分之中最重要／最核心的」是「main — principal」的用法，與本句語境不同。"
+        "main-mcq-04": "本句的「main」指「統領文章、段落或構思其他內容的中心思想」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-04"
     },
@@ -836,11 +782,8 @@ export default {
       "masked": "The ____ of the meeting is to make a decision.",
       "options": [
         "main-mcq-05",
-        "main-mcq-04",
-        "main-mcq-06",
-        "main-mcq-03",
-        "main-mcq-07",
-        "main-mcq-02"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main purpose」指「某項活動最重要、最核心的目的」。",
       "sentenceIndex": 9,
@@ -849,12 +792,9 @@ export default {
         "main purpose"
       ],
       "optionReasons": {
-        "main-mcq-05": "本句指「某項活動最重要、最核心的目的」。",
-        "main-mcq-04": "「統領文章、段落或構思其他內容的中心思想」是「main idea」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。",
-        "main-mcq-03": "「說話、文章或討論中最重要的核心意思」是「main point」的用法，與本句語境不同。",
-        "main-mcq-07": "「討論、文章或研究集中處理的主要題目」是「main topic/subject」的用法，與本句語境不同。",
-        "main-mcq-02": "「多個原因中最重要、影響最大的一個」是「main reason/cause」的用法，與本句語境不同。"
+        "main-mcq-05": "本句的「main purpose」指「某項活動最重要、最核心的目的」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-05"
     },
@@ -866,11 +806,8 @@ export default {
       "masked": "Her ____ aim is to help people.",
       "options": [
         "main-mcq-05",
-        "main-mcq-04",
-        "main-mcq-06",
-        "main-mcq-03",
-        "main-mcq-07",
-        "main-mcq-02"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main」指「某項活動最重要、最核心的目的」。",
       "sentenceIndex": 10,
@@ -879,12 +816,9 @@ export default {
         "main"
       ],
       "optionReasons": {
-        "main-mcq-05": "本句指「某項活動最重要、最核心的目的」。",
-        "main-mcq-04": "「統領文章、段落或構思其他內容的中心思想」是「main idea」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。",
-        "main-mcq-03": "「說話、文章或討論中最重要的核心意思」是「main point」的用法，與本句語境不同。",
-        "main-mcq-07": "「討論、文章或研究集中處理的主要題目」是「main topic/subject」的用法，與本句語境不同。",
-        "main-mcq-02": "「多個原因中最重要、影響最大的一個」是「main reason/cause」的用法，與本句語境不同。"
+        "main-mcq-05": "本句的「main」指「某項活動最重要、最核心的目的」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-05"
     },
@@ -896,11 +830,7 @@ export default {
       "masked": "She is the ____ in the story.",
       "options": [
         "main-mcq-06",
-        "main-mcq-05",
-        "main-mcq-07",
-        "main-mcq-04",
-        "main-mcq-08",
-        "main-mcq-03"
+        "main-mcq-19"
       ],
       "explanation": "本句的「main character」指「故事、電影或戲劇中最主要、最受關注的人物」。",
       "sentenceIndex": 11,
@@ -909,12 +839,8 @@ export default {
         "main character"
       ],
       "optionReasons": {
-        "main-mcq-06": "本句指「故事、電影或戲劇中最主要、最受關注的人物」。",
-        "main-mcq-05": "「某項活動最重要、最核心的目的」是「main purpose/aim」的用法，與本句語境不同。",
-        "main-mcq-07": "「討論、文章或研究集中處理的主要題目」是「main topic/subject」的用法，與本句語境不同。",
-        "main-mcq-04": "「統領文章、段落或構思其他內容的中心思想」是「main idea」的用法，與本句語境不同。",
-        "main-mcq-08": "「整體中最主要、最核心的部分」是「main part/body」的用法，與本句語境不同。",
-        "main-mcq-03": "「說話、文章或討論中最重要的核心意思」是「main point」的用法，與本句語境不同。"
+        "main-mcq-06": "本句的「main character」指「故事、電影或戲劇中最主要、最受關注的人物」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-06"
     },
@@ -926,11 +852,7 @@ export default {
       "masked": "The film follows the ____ character’s life.",
       "options": [
         "main-mcq-06",
-        "main-mcq-05",
-        "main-mcq-07",
-        "main-mcq-04",
-        "main-mcq-08",
-        "main-mcq-03"
+        "main-mcq-19"
       ],
       "explanation": "本句的「main」指「故事、電影或戲劇中最主要、最受關注的人物」。",
       "sentenceIndex": 12,
@@ -939,12 +861,8 @@ export default {
         "main"
       ],
       "optionReasons": {
-        "main-mcq-06": "本句指「故事、電影或戲劇中最主要、最受關注的人物」。",
-        "main-mcq-05": "「某項活動最重要、最核心的目的」是「main purpose/aim」的用法，與本句語境不同。",
-        "main-mcq-07": "「討論、文章或研究集中處理的主要題目」是「main topic/subject」的用法，與本句語境不同。",
-        "main-mcq-04": "「統領文章、段落或構思其他內容的中心思想」是「main idea」的用法，與本句語境不同。",
-        "main-mcq-08": "「整體中最主要、最核心的部分」是「main part/body」的用法，與本句語境不同。",
-        "main-mcq-03": "「說話、文章或討論中最重要的核心意思」是「main point」的用法，與本句語境不同。"
+        "main-mcq-06": "本句的「main」指「故事、電影或戲劇中最主要、最受關注的人物」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-06"
     },
@@ -956,11 +874,8 @@ export default {
       "masked": "The ____ of the discussion was family.",
       "options": [
         "main-mcq-07",
-        "main-mcq-06",
-        "main-mcq-08",
-        "main-mcq-05",
-        "main-mcq-09",
-        "main-mcq-04"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main topic」指「討論、文章或研究集中處理的主要題目」。",
       "sentenceIndex": 13,
@@ -969,12 +884,9 @@ export default {
         "main topic"
       ],
       "optionReasons": {
-        "main-mcq-07": "本句指「討論、文章或研究集中處理的主要題目」。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。",
-        "main-mcq-08": "「整體中最主要、最核心的部分」是「main part/body」的用法，與本句語境不同。",
-        "main-mcq-05": "「某項活動最重要、最核心的目的」是「main purpose/aim」的用法，與本句語境不同。",
-        "main-mcq-09": "「建築物最主要、通常最常使用的入口」是「main entrance」的用法，與本句語境不同。",
-        "main-mcq-04": "「統領文章、段落或構思其他內容的中心思想」是「main idea」的用法，與本句語境不同。"
+        "main-mcq-07": "本句的「main topic」指「討論、文章或研究集中處理的主要題目」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-07"
     },
@@ -986,11 +898,8 @@ export default {
       "masked": "Education is the ____ subject of the report.",
       "options": [
         "main-mcq-07",
-        "main-mcq-06",
-        "main-mcq-08",
-        "main-mcq-05",
-        "main-mcq-09",
-        "main-mcq-04"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main」指「討論、文章或研究集中處理的主要題目」。",
       "sentenceIndex": 14,
@@ -999,12 +908,9 @@ export default {
         "main"
       ],
       "optionReasons": {
-        "main-mcq-07": "本句指「討論、文章或研究集中處理的主要題目」。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。",
-        "main-mcq-08": "「整體中最主要、最核心的部分」是「main part/body」的用法，與本句語境不同。",
-        "main-mcq-05": "「某項活動最重要、最核心的目的」是「main purpose/aim」的用法，與本句語境不同。",
-        "main-mcq-09": "「建築物最主要、通常最常使用的入口」是「main entrance」的用法，與本句語境不同。",
-        "main-mcq-04": "「統領文章、段落或構思其他內容的中心思想」是「main idea」的用法，與本句語境不同。"
+        "main-mcq-07": "本句的「main」指「討論、文章或研究集中處理的主要題目」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-07"
     },
@@ -1016,11 +922,8 @@ export default {
       "masked": "The ____ of the building is still standing.",
       "options": [
         "main-mcq-08",
-        "main-mcq-07",
-        "main-mcq-09",
-        "main-mcq-06",
-        "main-mcq-10",
-        "main-mcq-05"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main part」指「整體中最主要、最核心的部分」。",
       "sentenceIndex": 15,
@@ -1029,12 +932,9 @@ export default {
         "main part"
       ],
       "optionReasons": {
-        "main-mcq-08": "本句指「整體中最主要、最核心的部分」。",
-        "main-mcq-07": "「討論、文章或研究集中處理的主要題目」是「main topic/subject」的用法，與本句語境不同。",
-        "main-mcq-09": "「建築物最主要、通常最常使用的入口」是「main entrance」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。",
-        "main-mcq-10": "「一組建築中最主要／核心的大樓」是「main building」的用法，與本句語境不同。",
-        "main-mcq-05": "「某項活動最重要、最核心的目的」是「main purpose/aim」的用法，與本句語境不同。"
+        "main-mcq-08": "本句的「main part」指「整體中最主要、最核心的部分」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-08"
     },
@@ -1046,11 +946,8 @@ export default {
       "masked": "The introduction is short, but the ____ section is detailed.",
       "options": [
         "main-mcq-08",
-        "main-mcq-07",
-        "main-mcq-09",
-        "main-mcq-06",
-        "main-mcq-10",
-        "main-mcq-05"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main」指「整體中最主要、最核心的部分」。",
       "sentenceIndex": 16,
@@ -1059,12 +956,9 @@ export default {
         "main"
       ],
       "optionReasons": {
-        "main-mcq-08": "本句指「整體中最主要、最核心的部分」。",
-        "main-mcq-07": "「討論、文章或研究集中處理的主要題目」是「main topic/subject」的用法，與本句語境不同。",
-        "main-mcq-09": "「建築物最主要、通常最常使用的入口」是「main entrance」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。",
-        "main-mcq-10": "「一組建築中最主要／核心的大樓」是「main building」的用法，與本句語境不同。",
-        "main-mcq-05": "「某項活動最重要、最核心的目的」是「main purpose/aim」的用法，與本句語境不同。"
+        "main-mcq-08": "本句的「main」指「整體中最主要、最核心的部分」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-08"
     },
@@ -1076,11 +970,8 @@ export default {
       "masked": "Put the details in the ____ of the report.",
       "options": [
         "main-mcq-08",
-        "main-mcq-07",
-        "main-mcq-09",
-        "main-mcq-06",
-        "main-mcq-10",
-        "main-mcq-05"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main body」指「整體中最主要、最核心的部分」。",
       "sentenceIndex": 17,
@@ -1089,12 +980,9 @@ export default {
         "main body"
       ],
       "optionReasons": {
-        "main-mcq-08": "本句指「整體中最主要、最核心的部分」。",
-        "main-mcq-07": "「討論、文章或研究集中處理的主要題目」是「main topic/subject」的用法，與本句語境不同。",
-        "main-mcq-09": "「建築物最主要、通常最常使用的入口」是「main entrance」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。",
-        "main-mcq-10": "「一組建築中最主要／核心的大樓」是「main building」的用法，與本句語境不同。",
-        "main-mcq-05": "「某項活動最重要、最核心的目的」是「main purpose/aim」的用法，與本句語境不同。"
+        "main-mcq-08": "本句的「main body」指「整體中最主要、最核心的部分」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-08"
     },
@@ -1106,11 +994,8 @@ export default {
       "masked": "The appendix is separate from the ____ body.",
       "options": [
         "main-mcq-08",
-        "main-mcq-07",
-        "main-mcq-09",
-        "main-mcq-06",
-        "main-mcq-10",
-        "main-mcq-05"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main」指「整體中最主要、最核心的部分」。",
       "sentenceIndex": 18,
@@ -1119,12 +1004,9 @@ export default {
         "main"
       ],
       "optionReasons": {
-        "main-mcq-08": "本句指「整體中最主要、最核心的部分」。",
-        "main-mcq-07": "「討論、文章或研究集中處理的主要題目」是「main topic/subject」的用法，與本句語境不同。",
-        "main-mcq-09": "「建築物最主要、通常最常使用的入口」是「main entrance」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。",
-        "main-mcq-10": "「一組建築中最主要／核心的大樓」是「main building」的用法，與本句語境不同。",
-        "main-mcq-05": "「某項活動最重要、最核心的目的」是「main purpose/aim」的用法，與本句語境不同。"
+        "main-mcq-08": "本句的「main」指「整體中最主要、最核心的部分」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-08"
     },
@@ -1136,11 +1018,7 @@ export default {
       "masked": "Use the ____.",
       "options": [
         "main-mcq-09",
-        "main-mcq-08",
-        "main-mcq-10",
-        "main-mcq-07",
-        "main-mcq-11",
-        "main-mcq-06"
+        "main-mcq-15"
       ],
       "explanation": "本句的「main entrance」指「建築物最主要、通常最常使用的入口」。",
       "sentenceIndex": 19,
@@ -1149,12 +1027,8 @@ export default {
         "main entrance"
       ],
       "optionReasons": {
-        "main-mcq-09": "本句指「建築物最主要、通常最常使用的入口」。",
-        "main-mcq-08": "「整體中最主要、最核心的部分」是「main part/body」的用法，與本句語境不同。",
-        "main-mcq-10": "「一組建築中最主要／核心的大樓」是「main building」的用法，與本句語境不同。",
-        "main-mcq-07": "「討論、文章或研究集中處理的主要題目」是「main topic/subject」的用法，與本句語境不同。",
-        "main-mcq-11": "「區內較重要、通常交通量較大的主要道路」是「main road」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。"
+        "main-mcq-09": "本句的「main entrance」指「建築物最主要、通常最常使用的入口」。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-09"
     },
@@ -1166,11 +1040,7 @@ export default {
       "masked": "The office is in the ____.",
       "options": [
         "main-mcq-09",
-        "main-mcq-08",
-        "main-mcq-10",
-        "main-mcq-07",
-        "main-mcq-11",
-        "main-mcq-06"
+        "main-mcq-15"
       ],
       "explanation": "本句的「main building」指「建築物最主要、通常最常使用的入口」。",
       "sentenceIndex": 20,
@@ -1179,12 +1049,8 @@ export default {
         "main building"
       ],
       "optionReasons": {
-        "main-mcq-09": "本句指「建築物最主要、通常最常使用的入口」。",
-        "main-mcq-08": "「整體中最主要、最核心的部分」是「main part/body」的用法，與本句語境不同。",
-        "main-mcq-10": "「一組建築中最主要／核心的大樓」是「main building」的用法，與本句語境不同。",
-        "main-mcq-07": "「討論、文章或研究集中處理的主要題目」是「main topic/subject」的用法，與本句語境不同。",
-        "main-mcq-11": "「區內較重要、通常交通量較大的主要道路」是「main road」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。"
+        "main-mcq-09": "本句的「main building」指「建築物最主要、通常最常使用的入口」。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-09"
     },
@@ -1196,11 +1062,8 @@ export default {
       "masked": "The hotel is on the ____.",
       "options": [
         "main-mcq-11",
-        "main-mcq-10",
-        "main-mcq-12",
-        "main-mcq-09",
-        "main-mcq-13",
-        "main-mcq-08"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main road」指「區內較重要、通常交通量較大的主要道路」。",
       "sentenceIndex": 21,
@@ -1209,12 +1072,9 @@ export default {
         "main road"
       ],
       "optionReasons": {
-        "main-mcq-11": "本句指「區內較重要、通常交通量較大的主要道路」。",
-        "main-mcq-10": "「一組建築中最主要／核心的大樓」是「main building」的用法，與本句語境不同。",
-        "main-mcq-12": "「系統中最主要的鐵路／運輸／其他線路」是「main line」的用法，與本句語境不同。",
-        "main-mcq-09": "「建築物最主要、通常最常使用的入口」是「main entrance」的用法，與本句語境不同。",
-        "main-mcq-13": "「一餐中最主要、通常份量最大的一道菜」是「main course」的用法，與本句語境不同。",
-        "main-mcq-08": "「整體中最主要、最核心的部分」是「main part/body」的用法，與本句語境不同。"
+        "main-mcq-11": "本句的「main road」指「區內較重要、通常交通量較大的主要道路」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-11"
     },
@@ -1226,11 +1086,8 @@ export default {
       "masked": "Avoid the ____ road during rush hour.",
       "options": [
         "main-mcq-11",
-        "main-mcq-10",
-        "main-mcq-12",
-        "main-mcq-09",
-        "main-mcq-13",
-        "main-mcq-08"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main」指「區內較重要、通常交通量較大的主要道路」。",
       "sentenceIndex": 22,
@@ -1239,12 +1096,9 @@ export default {
         "main"
       ],
       "optionReasons": {
-        "main-mcq-11": "本句指「區內較重要、通常交通量較大的主要道路」。",
-        "main-mcq-10": "「一組建築中最主要／核心的大樓」是「main building」的用法，與本句語境不同。",
-        "main-mcq-12": "「系統中最主要的鐵路／運輸／其他線路」是「main line」的用法，與本句語境不同。",
-        "main-mcq-09": "「建築物最主要、通常最常使用的入口」是「main entrance」的用法，與本句語境不同。",
-        "main-mcq-13": "「一餐中最主要、通常份量最大的一道菜」是「main course」的用法，與本句語境不同。",
-        "main-mcq-08": "「整體中最主要、最核心的部分」是「main part/body」的用法，與本句語境不同。"
+        "main-mcq-11": "本句的「main」指「區內較重要、通常交通量較大的主要道路」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-11"
     },
@@ -1256,11 +1110,7 @@ export default {
       "masked": "Please meet me at the ____.",
       "options": [
         "main-mcq-09",
-        "main-mcq-08",
-        "main-mcq-10",
-        "main-mcq-07",
-        "main-mcq-11",
-        "main-mcq-06"
+        "main-mcq-15"
       ],
       "explanation": "本句的「main entrance」指「建築物最主要、通常最常使用的入口」。",
       "sentenceIndex": 23,
@@ -1269,12 +1119,8 @@ export default {
         "main entrance"
       ],
       "optionReasons": {
-        "main-mcq-09": "本句指「建築物最主要、通常最常使用的入口」。",
-        "main-mcq-08": "「整體中最主要、最核心的部分」是「main part/body」的用法，與本句語境不同。",
-        "main-mcq-10": "「一組建築中最主要／核心的大樓」是「main building」的用法，與本句語境不同。",
-        "main-mcq-07": "「討論、文章或研究集中處理的主要題目」是「main topic/subject」的用法，與本句語境不同。",
-        "main-mcq-11": "「區內較重要、通常交通量較大的主要道路」是「main road」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。"
+        "main-mcq-09": "本句的「main entrance」指「建築物最主要、通常最常使用的入口」。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-09"
     },
@@ -1286,11 +1132,7 @@ export default {
       "masked": "The ____ entrance faces the street.",
       "options": [
         "main-mcq-09",
-        "main-mcq-08",
-        "main-mcq-10",
-        "main-mcq-07",
-        "main-mcq-11",
-        "main-mcq-06"
+        "main-mcq-15"
       ],
       "explanation": "本句的「main」指「建築物最主要、通常最常使用的入口」。",
       "sentenceIndex": 24,
@@ -1299,12 +1141,8 @@ export default {
         "main"
       ],
       "optionReasons": {
-        "main-mcq-09": "本句指「建築物最主要、通常最常使用的入口」。",
-        "main-mcq-08": "「整體中最主要、最核心的部分」是「main part/body」的用法，與本句語境不同。",
-        "main-mcq-10": "「一組建築中最主要／核心的大樓」是「main building」的用法，與本句語境不同。",
-        "main-mcq-07": "「討論、文章或研究集中處理的主要題目」是「main topic/subject」的用法，與本句語境不同。",
-        "main-mcq-11": "「區內較重要、通常交通量較大的主要道路」是「main road」的用法，與本句語境不同。",
-        "main-mcq-06": "「故事、電影或戲劇中最主要、最受關注的人物」是「main character」的用法，與本句語境不同。"
+        "main-mcq-09": "本句的「main」指「建築物最主要、通常最常使用的入口」。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-09"
     },
@@ -1316,11 +1154,7 @@ export default {
       "masked": "The meeting room is in the ____.",
       "options": [
         "main-mcq-10",
-        "main-mcq-09",
-        "main-mcq-11",
-        "main-mcq-08",
-        "main-mcq-12",
-        "main-mcq-07"
+        "main-mcq-15"
       ],
       "explanation": "本句的「main building」指「一組建築中最主要／核心的大樓」。",
       "sentenceIndex": 25,
@@ -1329,12 +1163,8 @@ export default {
         "main building"
       ],
       "optionReasons": {
-        "main-mcq-10": "本句指「一組建築中最主要／核心的大樓」。",
-        "main-mcq-09": "「建築物最主要、通常最常使用的入口」是「main entrance」的用法，與本句語境不同。",
-        "main-mcq-11": "「區內較重要、通常交通量較大的主要道路」是「main road」的用法，與本句語境不同。",
-        "main-mcq-08": "「整體中最主要、最核心的部分」是「main part/body」的用法，與本句語境不同。",
-        "main-mcq-12": "「系統中最主要的鐵路／運輸／其他線路」是「main line」的用法，與本句語境不同。",
-        "main-mcq-07": "「討論、文章或研究集中處理的主要題目」是「main topic/subject」的用法，與本句語境不同。"
+        "main-mcq-10": "本句的「main building」指「一組建築中最主要／核心的大樓」。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-10"
     },
@@ -1346,11 +1176,7 @@ export default {
       "masked": "The smaller offices are behind the ____ building.",
       "options": [
         "main-mcq-10",
-        "main-mcq-09",
-        "main-mcq-11",
-        "main-mcq-08",
-        "main-mcq-12",
-        "main-mcq-07"
+        "main-mcq-15"
       ],
       "explanation": "本句的「main」指「一組建築中最主要／核心的大樓」。",
       "sentenceIndex": 26,
@@ -1359,12 +1185,8 @@ export default {
         "main"
       ],
       "optionReasons": {
-        "main-mcq-10": "本句指「一組建築中最主要／核心的大樓」。",
-        "main-mcq-09": "「建築物最主要、通常最常使用的入口」是「main entrance」的用法，與本句語境不同。",
-        "main-mcq-11": "「區內較重要、通常交通量較大的主要道路」是「main road」的用法，與本句語境不同。",
-        "main-mcq-08": "「整體中最主要、最核心的部分」是「main part/body」的用法，與本句語境不同。",
-        "main-mcq-12": "「系統中最主要的鐵路／運輸／其他線路」是「main line」的用法，與本句語境不同。",
-        "main-mcq-07": "「討論、文章或研究集中處理的主要題目」是「main topic/subject」的用法，與本句語境不同。"
+        "main-mcq-10": "本句的「main」指「一組建築中最主要／核心的大樓」。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-10"
     },
@@ -1376,11 +1198,8 @@ export default {
       "masked": "What would you like for your ____?",
       "options": [
         "main-mcq-13",
-        "main-mcq-12",
-        "main-mcq-14",
-        "main-mcq-11",
-        "main-mcq-15",
-        "main-mcq-10"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main course」指「一餐中最主要、通常份量最大的一道菜」。",
       "sentenceIndex": 27,
@@ -1389,12 +1208,9 @@ export default {
         "main course"
       ],
       "optionReasons": {
-        "main-mcq-13": "本句指「一餐中最主要、通常份量最大的一道菜」。",
-        "main-mcq-12": "「系統中最主要的鐵路／運輸／其他線路」是「main line」的用法，與本句語境不同。",
-        "main-mcq-14": "「一系列活動中最重要、最受關注的活動」是「main event」的用法，與本句語境不同。",
-        "main-mcq-11": "「區內較重要、通常交通量較大的主要道路」是「main road」的用法，與本句語境不同。",
-        "main-mcq-15": "「最能吸引人前往、觀看或關注的事物」是「main attraction」的用法，與本句語境不同。",
-        "main-mcq-10": "「一組建築中最主要／核心的大樓」是「main building」的用法，與本句語境不同。"
+        "main-mcq-13": "本句的「main course」指「一餐中最主要、通常份量最大的一道菜」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-13"
     },
@@ -1406,11 +1222,8 @@ export default {
       "masked": "The ____ course was served after the soup.",
       "options": [
         "main-mcq-13",
-        "main-mcq-12",
-        "main-mcq-14",
-        "main-mcq-11",
-        "main-mcq-15",
-        "main-mcq-10"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main」指「一餐中最主要、通常份量最大的一道菜」。",
       "sentenceIndex": 28,
@@ -1419,12 +1232,9 @@ export default {
         "main"
       ],
       "optionReasons": {
-        "main-mcq-13": "本句指「一餐中最主要、通常份量最大的一道菜」。",
-        "main-mcq-12": "「系統中最主要的鐵路／運輸／其他線路」是「main line」的用法，與本句語境不同。",
-        "main-mcq-14": "「一系列活動中最重要、最受關注的活動」是「main event」的用法，與本句語境不同。",
-        "main-mcq-11": "「區內較重要、通常交通量較大的主要道路」是「main road」的用法，與本句語境不同。",
-        "main-mcq-15": "「最能吸引人前往、觀看或關注的事物」是「main attraction」的用法，與本句語境不同。",
-        "main-mcq-10": "「一組建築中最主要／核心的大樓」是「main building」的用法，與本句語境不同。"
+        "main-mcq-13": "本句的「main」指「一餐中最主要、通常份量最大的一道菜」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-13"
     },
@@ -1436,11 +1246,7 @@ export default {
       "masked": "The concert is the ____ of the evening.",
       "options": [
         "main-mcq-14",
-        "main-mcq-13",
-        "main-mcq-15",
-        "main-mcq-12",
-        "main-mcq-16",
-        "main-mcq-11"
+        "main-mcq-19"
       ],
       "explanation": "本句的「main event」指「一系列活動中最重要、最受關注的活動」。",
       "sentenceIndex": 29,
@@ -1449,12 +1255,8 @@ export default {
         "main event"
       ],
       "optionReasons": {
-        "main-mcq-14": "本句指「一系列活動中最重要、最受關注的活動」。",
-        "main-mcq-13": "「一餐中最主要、通常份量最大的一道菜」是「main course」的用法，與本句語境不同。",
-        "main-mcq-15": "「最能吸引人前往、觀看或關注的事物」是「main attraction」的用法，與本句語境不同。",
-        "main-mcq-12": "「系統中最主要的鐵路／運輸／其他線路」是「main line」的用法，與本句語境不同。",
-        "main-mcq-16": "「主要地；在原因、比例或組成上大部分屬於某一項」是「mainly」的用法，與本句語境不同。",
-        "main-mcq-11": "「區內較重要、通常交通量較大的主要道路」是「main road」的用法，與本句語境不同。"
+        "main-mcq-14": "本句的「main event」指「一系列活動中最重要、最受關注的活動」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-14"
     },
@@ -1466,11 +1268,7 @@ export default {
       "masked": "Everyone was waiting for the ____ event.",
       "options": [
         "main-mcq-14",
-        "main-mcq-13",
-        "main-mcq-15",
-        "main-mcq-12",
-        "main-mcq-16",
-        "main-mcq-11"
+        "main-mcq-19"
       ],
       "explanation": "本句的「main」指「一系列活動中最重要、最受關注的活動」。",
       "sentenceIndex": 30,
@@ -1479,12 +1277,8 @@ export default {
         "main"
       ],
       "optionReasons": {
-        "main-mcq-14": "本句指「一系列活動中最重要、最受關注的活動」。",
-        "main-mcq-13": "「一餐中最主要、通常份量最大的一道菜」是「main course」的用法，與本句語境不同。",
-        "main-mcq-15": "「最能吸引人前往、觀看或關注的事物」是「main attraction」的用法，與本句語境不同。",
-        "main-mcq-12": "「系統中最主要的鐵路／運輸／其他線路」是「main line」的用法，與本句語境不同。",
-        "main-mcq-16": "「主要地；在原因、比例或組成上大部分屬於某一項」是「mainly」的用法，與本句語境不同。",
-        "main-mcq-11": "「區內較重要、通常交通量較大的主要道路」是「main road」的用法，與本句語境不同。"
+        "main-mcq-14": "本句的「main」指「一系列活動中最重要、最受關注的活動」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-14"
     },
@@ -1496,11 +1290,7 @@ export default {
       "masked": "The garden is the hotel’s ____.",
       "options": [
         "main-mcq-15",
-        "main-mcq-14",
-        "main-mcq-16",
-        "main-mcq-13",
-        "main-mcq-17",
-        "main-mcq-12"
+        "main-mcq-21"
       ],
       "explanation": "本句的「main attraction」指「最能吸引人前往、觀看或關注的事物」。",
       "sentenceIndex": 31,
@@ -1509,12 +1299,8 @@ export default {
         "main attraction"
       ],
       "optionReasons": {
-        "main-mcq-15": "本句指「最能吸引人前往、觀看或關注的事物」。",
-        "main-mcq-14": "「一系列活動中最重要、最受關注的活動」是「main event」的用法，與本句語境不同。",
-        "main-mcq-16": "「主要地；在原因、比例或組成上大部分屬於某一項」是「mainly」的用法，與本句語境不同。",
-        "main-mcq-13": "「一餐中最主要、通常份量最大的一道菜」是「main course」的用法，與本句語境不同。",
-        "main-mcq-17": "「社會、文化或某領域中最普遍／最被接受的主要趨勢」是「mainstream」的用法，與本句語境不同。",
-        "main-mcq-12": "「系統中最主要的鐵路／運輸／其他線路」是「main line」的用法，與本句語境不同。"
+        "main-mcq-15": "本句的「main attraction」指「最能吸引人前往、觀看或關注的事物」。",
+        "main-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-15"
     },
@@ -1526,11 +1312,8 @@ export default {
       "masked": "The museum is the town’s ____ attraction.",
       "options": [
         "main-mcq-15",
-        "main-mcq-14",
         "main-mcq-16",
-        "main-mcq-13",
-        "main-mcq-17",
-        "main-mcq-12"
+        "main-mcq-19"
       ],
       "explanation": "本句的「main」指「最能吸引人前往、觀看或關注的事物」。",
       "sentenceIndex": 32,
@@ -1539,12 +1322,9 @@ export default {
         "main"
       ],
       "optionReasons": {
-        "main-mcq-15": "本句指「最能吸引人前往、觀看或關注的事物」。",
-        "main-mcq-14": "「一系列活動中最重要、最受關注的活動」是「main event」的用法，與本句語境不同。",
-        "main-mcq-16": "「主要地；在原因、比例或組成上大部分屬於某一項」是「mainly」的用法，與本句語境不同。",
-        "main-mcq-13": "「一餐中最主要、通常份量最大的一道菜」是「main course」的用法，與本句語境不同。",
-        "main-mcq-17": "「社會、文化或某領域中最普遍／最被接受的主要趨勢」是「mainstream」的用法，與本句語境不同。",
-        "main-mcq-12": "「系統中最主要的鐵路／運輸／其他線路」是「main line」的用法，與本句語境不同。"
+        "main-mcq-15": "本句的「main」指「最能吸引人前往、觀看或關注的事物」。",
+        "main-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-15"
     },
@@ -1556,11 +1336,8 @@ export default {
       "masked": "Tourism is the country’s ____.",
       "options": [
         "main-mcq-22",
-        "main-mcq-21",
-        "main-mcq-23",
-        "main-mcq-20",
         "main-mcq-19",
-        "main-mcq-18"
+        "main-mcq-15"
       ],
       "explanation": "本句的「main source of income」指「在多種來源、方式、渠道中最常用／最重要的一個」。",
       "sentenceIndex": 33,
@@ -1569,12 +1346,9 @@ export default {
         "main source of income"
       ],
       "optionReasons": {
-        "main-mcq-22": "本句指「在多種來源、方式、渠道中最常用／最重要的一個」。",
-        "main-mcq-21": "「公共煤氣供應系統中的主要輸送管道」是「gas main」的用法，與本句語境不同。",
-        "main-mcq-23": "「表示與 secondary/minor 相對，屬最重要／核心層級」是「27. main = principal rather than secondary（主要而非次要） — 首要；核心」的用法，與本句語境不同。",
-        "main-mcq-20": "「公共供水系統中的大型主要水管」是「water main」的用法，與本句語境不同。",
-        "main-mcq-19": "「由公共電網供應到建築物的市電」是「mains electricity」的用法，與本句語境不同。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。"
+        "main-mcq-22": "本句的「main source of income」指「在多種來源、方式、渠道中最常用／最重要的一個」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-22"
     },
@@ -1586,11 +1360,8 @@ export default {
       "masked": "Email is our ____ form of communication.",
       "options": [
         "main-mcq-22",
-        "main-mcq-21",
-        "main-mcq-23",
-        "main-mcq-20",
         "main-mcq-19",
-        "main-mcq-18"
+        "main-mcq-15"
       ],
       "explanation": "本句的「main」指「在多種來源、方式、渠道中最常用／最重要的一個」。",
       "sentenceIndex": 34,
@@ -1599,12 +1370,9 @@ export default {
         "main"
       ],
       "optionReasons": {
-        "main-mcq-22": "本句指「在多種來源、方式、渠道中最常用／最重要的一個」。",
-        "main-mcq-21": "「公共煤氣供應系統中的主要輸送管道」是「gas main」的用法，與本句語境不同。",
-        "main-mcq-23": "「表示與 secondary/minor 相對，屬最重要／核心層級」是「27. main = principal rather than secondary（主要而非次要） — 首要；核心」的用法，與本句語境不同。",
-        "main-mcq-20": "「公共供水系統中的大型主要水管」是「water main」的用法，與本句語境不同。",
-        "main-mcq-19": "「由公共電網供應到建築物的市電」是「mains electricity」的用法，與本句語境不同。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。"
+        "main-mcq-22": "本句的「main」指「在多種來源、方式、渠道中最常用／最重要的一個」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-22"
     },
@@ -1616,11 +1384,7 @@ export default {
       "masked": "The idea gradually entered the ____.",
       "options": [
         "main-mcq-17",
-        "main-mcq-16",
-        "main-mcq-18",
-        "main-mcq-15",
-        "main-mcq-19",
-        "main-mcq-14"
+        "main-mcq-15"
       ],
       "explanation": "本句的「mainstream」指「社會、文化或某領域中最普遍／最被接受的主要趨勢」。",
       "sentenceIndex": 35,
@@ -1629,12 +1393,8 @@ export default {
         "mainstream"
       ],
       "optionReasons": {
-        "main-mcq-17": "本句指「社會、文化或某領域中最普遍／最被接受的主要趨勢」。",
-        "main-mcq-16": "「主要地；在原因、比例或組成上大部分屬於某一項」是「mainly」的用法，與本句語境不同。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。",
-        "main-mcq-15": "「最能吸引人前往、觀看或關注的事物」是「main attraction」的用法，與本句語境不同。",
-        "main-mcq-19": "「由公共電網供應到建築物的市電」是「mains electricity」的用法，與本句語境不同。",
-        "main-mcq-14": "「一系列活動中最重要、最受關注的活動」是「main event」的用法，與本句語境不同。"
+        "main-mcq-17": "本句的「mainstream」指「社會、文化或某領域中最普遍／最被接受的主要趨勢」。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-17"
     },
@@ -1646,11 +1406,7 @@ export default {
       "masked": "The film was successful with ____ audiences.",
       "options": [
         "main-mcq-17",
-        "main-mcq-16",
-        "main-mcq-18",
-        "main-mcq-15",
-        "main-mcq-19",
-        "main-mcq-14"
+        "main-mcq-15"
       ],
       "explanation": "本句的「mainstream」指「社會、文化或某領域中最普遍／最被接受的主要趨勢」。",
       "sentenceIndex": 36,
@@ -1659,12 +1415,8 @@ export default {
         "mainstream"
       ],
       "optionReasons": {
-        "main-mcq-17": "本句指「社會、文化或某領域中最普遍／最被接受的主要趨勢」。",
-        "main-mcq-16": "「主要地；在原因、比例或組成上大部分屬於某一項」是「mainly」的用法，與本句語境不同。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。",
-        "main-mcq-15": "「最能吸引人前往、觀看或關注的事物」是「main attraction」的用法，與本句語境不同。",
-        "main-mcq-19": "「由公共電網供應到建築物的市電」是「mains electricity」的用法，與本句語境不同。",
-        "main-mcq-14": "「一系列活動中最重要、最受關注的活動」是「main event」的用法，與本句語境不同。"
+        "main-mcq-17": "本句的「mainstream」指「社會、文化或某領域中最普遍／最被接受的主要趨勢」。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-17"
     },
@@ -1676,11 +1428,8 @@ export default {
       "masked": "I visit her ____ on Sundays.",
       "options": [
         "main-mcq-16",
-        "main-mcq-15",
-        "main-mcq-17",
-        "main-mcq-14",
-        "main-mcq-18",
-        "main-mcq-13"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「mainly」指「主要地；在原因、比例或組成上大部分屬於某一項」。",
       "sentenceIndex": 37,
@@ -1689,12 +1438,9 @@ export default {
         "mainly"
       ],
       "optionReasons": {
-        "main-mcq-16": "本句指「主要地；在原因、比例或組成上大部分屬於某一項」。",
-        "main-mcq-15": "「最能吸引人前往、觀看或關注的事物」是「main attraction」的用法，與本句語境不同。",
-        "main-mcq-17": "「社會、文化或某領域中最普遍／最被接受的主要趨勢」是「mainstream」的用法，與本句語境不同。",
-        "main-mcq-14": "「一系列活動中最重要、最受關注的活動」是「main event」的用法，與本句語境不同。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。",
-        "main-mcq-13": "「一餐中最主要、通常份量最大的一道菜」是「main course」的用法，與本句語境不同。"
+        "main-mcq-16": "本句的「mainly」指「主要地；在原因、比例或組成上大部分屬於某一項」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-16"
     },
@@ -1706,11 +1452,8 @@ export default {
       "masked": "The audience consisted ____ of students.",
       "options": [
         "main-mcq-16",
-        "main-mcq-15",
-        "main-mcq-17",
-        "main-mcq-14",
-        "main-mcq-18",
-        "main-mcq-13"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「mainly」指「主要地；在原因、比例或組成上大部分屬於某一項」。",
       "sentenceIndex": 38,
@@ -1719,12 +1462,9 @@ export default {
         "mainly"
       ],
       "optionReasons": {
-        "main-mcq-16": "本句指「主要地；在原因、比例或組成上大部分屬於某一項」。",
-        "main-mcq-15": "「最能吸引人前往、觀看或關注的事物」是「main attraction」的用法，與本句語境不同。",
-        "main-mcq-17": "「社會、文化或某領域中最普遍／最被接受的主要趨勢」是「mainstream」的用法，與本句語境不同。",
-        "main-mcq-14": "「一系列活動中最重要、最受關注的活動」是「main event」的用法，與本句語境不同。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。",
-        "main-mcq-13": "「一餐中最主要、通常份量最大的一道菜」是「main course」的用法，與本句語境不同。"
+        "main-mcq-16": "本句的「mainly」指「主要地；在原因、比例或組成上大部分屬於某一項」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-16"
     },
@@ -1737,10 +1477,7 @@ export default {
       "options": [
         "main-mcq-16",
         "main-mcq-15",
-        "main-mcq-17",
-        "main-mcq-14",
-        "main-mcq-18",
-        "main-mcq-13"
+        "main-mcq-19"
       ],
       "explanation": "本句的「mainly because」指「主要地；在原因、比例或組成上大部分屬於某一項」。",
       "sentenceIndex": 39,
@@ -1749,12 +1486,9 @@ export default {
         "mainly because"
       ],
       "optionReasons": {
-        "main-mcq-16": "本句指「主要地；在原因、比例或組成上大部分屬於某一項」。",
-        "main-mcq-15": "「最能吸引人前往、觀看或關注的事物」是「main attraction」的用法，與本句語境不同。",
-        "main-mcq-17": "「社會、文化或某領域中最普遍／最被接受的主要趨勢」是「mainstream」的用法，與本句語境不同。",
-        "main-mcq-14": "「一系列活動中最重要、最受關注的活動」是「main event」的用法，與本句語境不同。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。",
-        "main-mcq-13": "「一餐中最主要、通常份量最大的一道菜」是「main course」的用法，與本句語境不同。"
+        "main-mcq-16": "本句的「mainly because」指「主要地；在原因、比例或組成上大部分屬於某一項」。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-16"
     },
@@ -1766,11 +1500,8 @@ export default {
       "masked": "She stayed ____ because of her family.",
       "options": [
         "main-mcq-16",
-        "main-mcq-15",
-        "main-mcq-17",
-        "main-mcq-14",
-        "main-mcq-18",
-        "main-mcq-13"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「mainly」指「主要地；在原因、比例或組成上大部分屬於某一項」。",
       "sentenceIndex": 40,
@@ -1779,12 +1510,9 @@ export default {
         "mainly"
       ],
       "optionReasons": {
-        "main-mcq-16": "本句指「主要地；在原因、比例或組成上大部分屬於某一項」。",
-        "main-mcq-15": "「最能吸引人前往、觀看或關注的事物」是「main attraction」的用法，與本句語境不同。",
-        "main-mcq-17": "「社會、文化或某領域中最普遍／最被接受的主要趨勢」是「mainstream」的用法，與本句語境不同。",
-        "main-mcq-14": "「一系列活動中最重要、最受關注的活動」是「main event」的用法，與本句語境不同。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。",
-        "main-mcq-13": "「一餐中最主要、通常份量最大的一道菜」是「main course」的用法，與本句語境不同。"
+        "main-mcq-16": "本句的「mainly」指「主要地；在原因、比例或組成上大部分屬於某一項」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-16"
     },
@@ -1796,11 +1524,8 @@ export default {
       "masked": "The group is ____ made up of older people.",
       "options": [
         "main-mcq-16",
-        "main-mcq-15",
-        "main-mcq-17",
-        "main-mcq-14",
-        "main-mcq-18",
-        "main-mcq-13"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「mainly」指「主要地；在原因、比例或組成上大部分屬於某一項」。",
       "sentenceIndex": 41,
@@ -1809,12 +1534,9 @@ export default {
         "mainly"
       ],
       "optionReasons": {
-        "main-mcq-16": "本句指「主要地；在原因、比例或組成上大部分屬於某一項」。",
-        "main-mcq-15": "「最能吸引人前往、觀看或關注的事物」是「main attraction」的用法，與本句語境不同。",
-        "main-mcq-17": "「社會、文化或某領域中最普遍／最被接受的主要趨勢」是「mainstream」的用法，與本句語境不同。",
-        "main-mcq-14": "「一系列活動中最重要、最受關注的活動」是「main event」的用法，與本句語境不同。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。",
-        "main-mcq-13": "「一餐中最主要、通常份量最大的一道菜」是「main course」的用法，與本句語境不同。"
+        "main-mcq-16": "本句的「mainly」指「主要地；在原因、比例或組成上大部分屬於某一項」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-16"
     },
@@ -1826,11 +1548,8 @@ export default {
       "masked": "The area is ____ residential.",
       "options": [
         "main-mcq-16",
-        "main-mcq-15",
-        "main-mcq-17",
-        "main-mcq-14",
-        "main-mcq-18",
-        "main-mcq-13"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「mainly」指「主要地；在原因、比例或組成上大部分屬於某一項」。",
       "sentenceIndex": 42,
@@ -1839,12 +1558,9 @@ export default {
         "mainly"
       ],
       "optionReasons": {
-        "main-mcq-16": "本句指「主要地；在原因、比例或組成上大部分屬於某一項」。",
-        "main-mcq-15": "「最能吸引人前往、觀看或關注的事物」是「main attraction」的用法，與本句語境不同。",
-        "main-mcq-17": "「社會、文化或某領域中最普遍／最被接受的主要趨勢」是「mainstream」的用法，與本句語境不同。",
-        "main-mcq-14": "「一系列活動中最重要、最受關注的活動」是「main event」的用法，與本句語境不同。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。",
-        "main-mcq-13": "「一餐中最主要、通常份量最大的一道菜」是「main course」的用法，與本句語境不同。"
+        "main-mcq-16": "本句的「mainly」指「主要地；在原因、比例或組成上大部分屬於某一項」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-16"
     },
@@ -1856,10 +1572,6 @@ export default {
       "masked": "The house is connected to the ____.",
       "options": [
         "main-mcq-18",
-        "main-mcq-17",
-        "main-mcq-19",
-        "main-mcq-16",
-        "main-mcq-20",
         "main-mcq-15"
       ],
       "explanation": "本句的「mains」指「公共供電、供水、煤氣等主要輸送／供應網絡」。",
@@ -1869,12 +1581,8 @@ export default {
         "mains"
       ],
       "optionReasons": {
-        "main-mcq-18": "本句指「公共供電、供水、煤氣等主要輸送／供應網絡」。",
-        "main-mcq-17": "「社會、文化或某領域中最普遍／最被接受的主要趨勢」是「mainstream」的用法，與本句語境不同。",
-        "main-mcq-19": "「由公共電網供應到建築物的市電」是「mains electricity」的用法，與本句語境不同。",
-        "main-mcq-16": "「主要地；在原因、比例或組成上大部分屬於某一項」是「mainly」的用法，與本句語境不同。",
-        "main-mcq-20": "「公共供水系統中的大型主要水管」是「water main」的用法，與本句語境不同。",
-        "main-mcq-15": "「最能吸引人前往、觀看或關注的事物」是「main attraction」的用法，與本句語境不同。"
+        "main-mcq-18": "本句的「mains」指「公共供電、供水、煤氣等主要輸送／供應網絡」。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-18"
     },
@@ -1886,10 +1594,6 @@ export default {
       "masked": "The device runs on ____ electricity.",
       "options": [
         "main-mcq-18",
-        "main-mcq-17",
-        "main-mcq-19",
-        "main-mcq-16",
-        "main-mcq-20",
         "main-mcq-15"
       ],
       "explanation": "本句的「mains」指「公共供電、供水、煤氣等主要輸送／供應網絡」。",
@@ -1899,12 +1603,8 @@ export default {
         "mains"
       ],
       "optionReasons": {
-        "main-mcq-18": "本句指「公共供電、供水、煤氣等主要輸送／供應網絡」。",
-        "main-mcq-17": "「社會、文化或某領域中最普遍／最被接受的主要趨勢」是「mainstream」的用法，與本句語境不同。",
-        "main-mcq-19": "「由公共電網供應到建築物的市電」是「mains electricity」的用法，與本句語境不同。",
-        "main-mcq-16": "「主要地；在原因、比例或組成上大部分屬於某一項」是「mainly」的用法，與本句語境不同。",
-        "main-mcq-20": "「公共供水系統中的大型主要水管」是「water main」的用法，與本句語境不同。",
-        "main-mcq-15": "「最能吸引人前往、觀看或關注的事物」是「main attraction」的用法，與本句語境不同。"
+        "main-mcq-18": "本句的「mains」指「公共供電、供水、煤氣等主要輸送／供應網絡」。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-18"
     },
@@ -1916,11 +1616,8 @@ export default {
       "masked": "The machine needs ____.",
       "options": [
         "main-mcq-19",
-        "main-mcq-18",
-        "main-mcq-20",
-        "main-mcq-17",
-        "main-mcq-21",
-        "main-mcq-16"
+        "main-mcq-15",
+        "main-mcq-08"
       ],
       "explanation": "本句的「mains power」指「由公共電網供應到建築物的市電」。",
       "sentenceIndex": 45,
@@ -1929,12 +1626,9 @@ export default {
         "mains power"
       ],
       "optionReasons": {
-        "main-mcq-19": "本句指「由公共電網供應到建築物的市電」。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。",
-        "main-mcq-20": "「公共供水系統中的大型主要水管」是「water main」的用法，與本句語境不同。",
-        "main-mcq-17": "「社會、文化或某領域中最普遍／最被接受的主要趨勢」是「mainstream」的用法，與本句語境不同。",
-        "main-mcq-21": "「公共煤氣供應系統中的主要輸送管道」是「gas main」的用法，與本句語境不同。",
-        "main-mcq-16": "「主要地；在原因、比例或組成上大部分屬於某一項」是「mainly」的用法，與本句語境不同。"
+        "main-mcq-19": "本句的「mains power」指「由公共電網供應到建築物的市電」。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-19"
     },
@@ -1946,11 +1640,8 @@ export default {
       "masked": "Disconnect the device from the ____.",
       "options": [
         "main-mcq-19",
-        "main-mcq-18",
-        "main-mcq-20",
-        "main-mcq-17",
-        "main-mcq-21",
-        "main-mcq-16"
+        "main-mcq-04",
+        "main-mcq-15"
       ],
       "explanation": "本句的「mains」指「由公共電網供應到建築物的市電」。",
       "sentenceIndex": 46,
@@ -1959,12 +1650,9 @@ export default {
         "mains"
       ],
       "optionReasons": {
-        "main-mcq-19": "本句指「由公共電網供應到建築物的市電」。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。",
-        "main-mcq-20": "「公共供水系統中的大型主要水管」是「water main」的用法，與本句語境不同。",
-        "main-mcq-17": "「社會、文化或某領域中最普遍／最被接受的主要趨勢」是「mainstream」的用法，與本句語境不同。",
-        "main-mcq-21": "「公共煤氣供應系統中的主要輸送管道」是「gas main」的用法，與本句語境不同。",
-        "main-mcq-16": "「主要地；在原因、比例或組成上大部分屬於某一項」是「mainly」的用法，與本句語境不同。"
+        "main-mcq-19": "本句的「mains」指「由公共電網供應到建築物的市電」。",
+        "main-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-19"
     },
@@ -1976,11 +1664,7 @@ export default {
       "masked": "A ____ burst overnight.",
       "options": [
         "main-mcq-20",
-        "main-mcq-19",
-        "main-mcq-21",
-        "main-mcq-18",
-        "main-mcq-22",
-        "main-mcq-17"
+        "main-mcq-15"
       ],
       "explanation": "本句的「water main」指「公共供水系統中的大型主要水管」。",
       "sentenceIndex": 47,
@@ -1989,12 +1673,8 @@ export default {
         "water main"
       ],
       "optionReasons": {
-        "main-mcq-20": "本句指「公共供水系統中的大型主要水管」。",
-        "main-mcq-19": "「由公共電網供應到建築物的市電」是「mains electricity」的用法，與本句語境不同。",
-        "main-mcq-21": "「公共煤氣供應系統中的主要輸送管道」是「gas main」的用法，與本句語境不同。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。",
-        "main-mcq-22": "「在多種來源、方式、渠道中最常用／最重要的一個」是「17. main = chief source/supply/channel（主要來源／渠道） — 主要的；核心的」的用法，與本句語境不同。",
-        "main-mcq-17": "「社會、文化或某領域中最普遍／最被接受的主要趨勢」是「mainstream」的用法，與本句語境不同。"
+        "main-mcq-20": "本句的「water main」指「公共供水系統中的大型主要水管」。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-20"
     },
@@ -2006,11 +1686,7 @@ export default {
       "masked": "Workers repaired the damaged water ____.",
       "options": [
         "main-mcq-20",
-        "main-mcq-19",
-        "main-mcq-21",
-        "main-mcq-18",
-        "main-mcq-22",
-        "main-mcq-17"
+        "main-mcq-15"
       ],
       "explanation": "本句的「main」指「公共供水系統中的大型主要水管」。",
       "sentenceIndex": 48,
@@ -2019,12 +1695,8 @@ export default {
         "main"
       ],
       "optionReasons": {
-        "main-mcq-20": "本句指「公共供水系統中的大型主要水管」。",
-        "main-mcq-19": "「由公共電網供應到建築物的市電」是「mains electricity」的用法，與本句語境不同。",
-        "main-mcq-21": "「公共煤氣供應系統中的主要輸送管道」是「gas main」的用法，與本句語境不同。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。",
-        "main-mcq-22": "「在多種來源、方式、渠道中最常用／最重要的一個」是「17. main = chief source/supply/channel（主要來源／渠道） — 主要的；核心的」的用法，與本句語境不同。",
-        "main-mcq-17": "「社會、文化或某領域中最普遍／最被接受的主要趨勢」是「mainstream」的用法，與本句語境不同。"
+        "main-mcq-20": "本句的「main」指「公共供水系統中的大型主要水管」。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-20"
     },
@@ -2036,11 +1708,7 @@ export default {
       "masked": "The road was closed because of a damaged ____.",
       "options": [
         "main-mcq-21",
-        "main-mcq-20",
-        "main-mcq-22",
-        "main-mcq-19",
-        "main-mcq-23",
-        "main-mcq-18"
+        "main-mcq-15"
       ],
       "explanation": "本句的「gas main」指「公共煤氣供應系統中的主要輸送管道」。",
       "sentenceIndex": 49,
@@ -2049,12 +1717,8 @@ export default {
         "gas main"
       ],
       "optionReasons": {
-        "main-mcq-21": "本句指「公共煤氣供應系統中的主要輸送管道」。",
-        "main-mcq-20": "「公共供水系統中的大型主要水管」是「water main」的用法，與本句語境不同。",
-        "main-mcq-22": "「在多種來源、方式、渠道中最常用／最重要的一個」是「17. main = chief source/supply/channel（主要來源／渠道） — 主要的；核心的」的用法，與本句語境不同。",
-        "main-mcq-19": "「由公共電網供應到建築物的市電」是「mains electricity」的用法，與本句語境不同。",
-        "main-mcq-23": "「表示與 secondary/minor 相對，屬最重要／核心層級」是「27. main = principal rather than secondary（主要而非次要） — 首要；核心」的用法，與本句語境不同。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。"
+        "main-mcq-21": "本句的「gas main」指「公共煤氣供應系統中的主要輸送管道」。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-21"
     },
@@ -2066,11 +1730,7 @@ export default {
       "masked": "Engineers checked the gas ____.",
       "options": [
         "main-mcq-21",
-        "main-mcq-20",
-        "main-mcq-22",
-        "main-mcq-19",
-        "main-mcq-23",
-        "main-mcq-18"
+        "main-mcq-15"
       ],
       "explanation": "本句的「main」指「公共煤氣供應系統中的主要輸送管道」。",
       "sentenceIndex": 50,
@@ -2079,12 +1739,8 @@ export default {
         "main"
       ],
       "optionReasons": {
-        "main-mcq-21": "本句指「公共煤氣供應系統中的主要輸送管道」。",
-        "main-mcq-20": "「公共供水系統中的大型主要水管」是「water main」的用法，與本句語境不同。",
-        "main-mcq-22": "「在多種來源、方式、渠道中最常用／最重要的一個」是「17. main = chief source/supply/channel（主要來源／渠道） — 主要的；核心的」的用法，與本句語境不同。",
-        "main-mcq-19": "「由公共電網供應到建築物的市電」是「mains electricity」的用法，與本句語境不同。",
-        "main-mcq-23": "「表示與 secondary/minor 相對，屬最重要／核心層級」是「27. main = principal rather than secondary（主要而非次要） — 首要；核心」的用法，與本句語境不同。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。"
+        "main-mcq-21": "本句的「main」指「公共煤氣供應系統中的主要輸送管道」。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-21"
     },
@@ -2096,11 +1752,8 @@ export default {
       "masked": "The station is on the ____.",
       "options": [
         "main-mcq-12",
-        "main-mcq-11",
-        "main-mcq-13",
-        "main-mcq-10",
-        "main-mcq-14",
-        "main-mcq-09"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main line」指「系統中最主要的鐵路／運輸／其他線路」。",
       "sentenceIndex": 51,
@@ -2109,12 +1762,9 @@ export default {
         "main line"
       ],
       "optionReasons": {
-        "main-mcq-12": "本句指「系統中最主要的鐵路／運輸／其他線路」。",
-        "main-mcq-11": "「區內較重要、通常交通量較大的主要道路」是「main road」的用法，與本句語境不同。",
-        "main-mcq-13": "「一餐中最主要、通常份量最大的一道菜」是「main course」的用法，與本句語境不同。",
-        "main-mcq-10": "「一組建築中最主要／核心的大樓」是「main building」的用法，與本句語境不同。",
-        "main-mcq-14": "「一系列活動中最重要、最受關注的活動」是「main event」的用法，與本句語境不同。",
-        "main-mcq-09": "「建築物最主要、通常最常使用的入口」是「main entrance」的用法，與本句語境不同。"
+        "main-mcq-12": "本句的「main line」指「系統中最主要的鐵路／運輸／其他線路」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-12"
     },
@@ -2126,11 +1776,8 @@ export default {
       "masked": "The branch connects to the ____ line.",
       "options": [
         "main-mcq-12",
-        "main-mcq-11",
-        "main-mcq-13",
-        "main-mcq-10",
-        "main-mcq-14",
-        "main-mcq-09"
+        "main-mcq-19",
+        "main-mcq-15"
       ],
       "explanation": "本句的「main」指「系統中最主要的鐵路／運輸／其他線路」。",
       "sentenceIndex": 52,
@@ -2139,12 +1786,9 @@ export default {
         "main"
       ],
       "optionReasons": {
-        "main-mcq-12": "本句指「系統中最主要的鐵路／運輸／其他線路」。",
-        "main-mcq-11": "「區內較重要、通常交通量較大的主要道路」是「main road」的用法，與本句語境不同。",
-        "main-mcq-13": "「一餐中最主要、通常份量最大的一道菜」是「main course」的用法，與本句語境不同。",
-        "main-mcq-10": "「一組建築中最主要／核心的大樓」是「main building」的用法，與本句語境不同。",
-        "main-mcq-14": "「一系列活動中最重要、最受關注的活動」是「main event」的用法，與本句語境不同。",
-        "main-mcq-09": "「建築物最主要、通常最常使用的入口」是「main entrance」的用法，與本句語境不同。"
+        "main-mcq-12": "本句的「main」指「系統中最主要的鐵路／運輸／其他線路」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-12"
     },
@@ -2156,11 +1800,8 @@ export default {
       "masked": "Ignore the minor details and focus on the ____.",
       "options": [
         "main-mcq-23",
-        "main-mcq-22",
-        "main-mcq-21",
-        "main-mcq-20",
         "main-mcq-19",
-        "main-mcq-18"
+        "main-mcq-15"
       ],
       "explanation": "本句的「main issue」指「表示與 secondary/minor 相對，屬最重要／核心層級」。",
       "sentenceIndex": 53,
@@ -2169,12 +1810,9 @@ export default {
         "main issue"
       ],
       "optionReasons": {
-        "main-mcq-23": "本句指「表示與 secondary/minor 相對，屬最重要／核心層級」。",
-        "main-mcq-22": "「在多種來源、方式、渠道中最常用／最重要的一個」是「17. main = chief source/supply/channel（主要來源／渠道） — 主要的；核心的」的用法，與本句語境不同。",
-        "main-mcq-21": "「公共煤氣供應系統中的主要輸送管道」是「gas main」的用法，與本句語境不同。",
-        "main-mcq-20": "「公共供水系統中的大型主要水管」是「water main」的用法，與本句語境不同。",
-        "main-mcq-19": "「由公共電網供應到建築物的市電」是「mains electricity」的用法，與本句語境不同。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。"
+        "main-mcq-23": "本句的「main issue」指「表示與 secondary/minor 相對，屬最重要／核心層級」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-23"
     },
@@ -2186,11 +1824,8 @@ export default {
       "masked": "We need to separate the ____ problems from the smaller ones.",
       "options": [
         "main-mcq-23",
-        "main-mcq-22",
-        "main-mcq-21",
-        "main-mcq-20",
         "main-mcq-19",
-        "main-mcq-18"
+        "main-mcq-15"
       ],
       "explanation": "本句的「main」指「表示與 secondary/minor 相對，屬最重要／核心層級」。",
       "sentenceIndex": 54,
@@ -2199,12 +1834,9 @@ export default {
         "main"
       ],
       "optionReasons": {
-        "main-mcq-23": "本句指「表示與 secondary/minor 相對，屬最重要／核心層級」。",
-        "main-mcq-22": "「在多種來源、方式、渠道中最常用／最重要的一個」是「17. main = chief source/supply/channel（主要來源／渠道） — 主要的；核心的」的用法，與本句語境不同。",
-        "main-mcq-21": "「公共煤氣供應系統中的主要輸送管道」是「gas main」的用法，與本句語境不同。",
-        "main-mcq-20": "「公共供水系統中的大型主要水管」是「water main」的用法，與本句語境不同。",
-        "main-mcq-19": "「由公共電網供應到建築物的市電」是「mains electricity」的用法，與本句語境不同。",
-        "main-mcq-18": "「公共供電、供水、煤氣等主要輸送／供應網絡」是「the mains」的用法，與本句語境不同。"
+        "main-mcq-23": "本句的「main」指「表示與 secondary/minor 相對，屬最重要／核心層級」。",
+        "main-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "main-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "main-mcq-23"
     }
@@ -2216,5 +1848,7 @@ export default {
     "sha256": "fdbba90b2be8ec533275f909cf53ca85f0ac05dfce1c777ee8fb1da688f55d83",
     "pages": 26
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

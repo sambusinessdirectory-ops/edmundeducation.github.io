@@ -630,11 +630,9 @@ export default {
       "masked": "Our ____ leaves at eight.",
       "options": [
         "flight-mcq-01",
-        "flight-mcq-02",
-        "flight-mcq-03",
-        "flight-mcq-04",
-        "flight-mcq-05",
-        "flight-mcq-06"
+        "flight-mcq-10",
+        "flight-mcq-11",
+        "flight-mcq-21"
       ],
       "explanation": "本句的「flight」指「乘飛機進行的一段旅程／航班」。",
       "sentenceIndex": 2,
@@ -643,12 +641,10 @@ export default {
         "flight"
       ],
       "optionReasons": {
-        "flight-mcq-01": "本句指「乘飛機進行的一段旅程／航班」。",
-        "flight-mcq-02": "「按特定時間與航線運行的一班飛機；航班」與本句語境不同。",
-        "flight-mcq-03": "「鳥、飛機等在空中飛行／飛翔」與本句語境不同。",
-        "flight-mcq-04": "「正在飛行中」與本句語境不同。",
-        "flight-mcq-05": "「兩個平台／樓層之間一段連續的樓梯」與本句語境不同。",
-        "flight-mcq-06": "「樓梯的一段連續梯級」與本句語境不同。"
+        "flight-mcq-01": "本句的「flight」指「乘飛機進行的一段旅程／航班」。",
+        "flight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-01"
     },
@@ -660,11 +656,9 @@ export default {
       "masked": "The ____ from London to Hong Kong takes many hours.",
       "options": [
         "flight-mcq-01",
-        "flight-mcq-02",
-        "flight-mcq-03",
-        "flight-mcq-04",
-        "flight-mcq-05",
-        "flight-mcq-06"
+        "flight-mcq-11",
+        "flight-mcq-22",
+        "flight-mcq-10"
       ],
       "explanation": "本句的「flight」指「乘飛機進行的一段旅程／航班」。",
       "sentenceIndex": 3,
@@ -673,12 +667,10 @@ export default {
         "flight"
       ],
       "optionReasons": {
-        "flight-mcq-01": "本句指「乘飛機進行的一段旅程／航班」。",
-        "flight-mcq-02": "「按特定時間與航線運行的一班飛機；航班」與本句語境不同。",
-        "flight-mcq-03": "「鳥、飛機等在空中飛行／飛翔」與本句語境不同。",
-        "flight-mcq-04": "「正在飛行中」與本句語境不同。",
-        "flight-mcq-05": "「兩個平台／樓層之間一段連續的樓梯」與本句語境不同。",
-        "flight-mcq-06": "「樓梯的一段連續梯級」與本句語境不同。"
+        "flight-mcq-01": "本句的「flight」指「乘飛機進行的一段旅程／航班」。",
+        "flight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-01"
     },
@@ -690,11 +682,9 @@ export default {
       "masked": "My ____ was delayed.",
       "options": [
         "flight-mcq-02",
-        "flight-mcq-01",
-        "flight-mcq-03",
-        "flight-mcq-04",
-        "flight-mcq-05",
-        "flight-mcq-06"
+        "flight-mcq-21",
+        "flight-mcq-26",
+        "flight-mcq-07"
       ],
       "explanation": "本句的「flight」指「按特定時間與航線運行的一班飛機；航班」。",
       "sentenceIndex": 4,
@@ -703,12 +693,10 @@ export default {
         "flight"
       ],
       "optionReasons": {
-        "flight-mcq-02": "本句指「按特定時間與航線運行的一班飛機；航班」。",
-        "flight-mcq-01": "「乘飛機進行的一段旅程／航班」與本句語境不同。",
-        "flight-mcq-03": "「鳥、飛機等在空中飛行／飛翔」與本句語境不同。",
-        "flight-mcq-04": "「正在飛行中」與本句語境不同。",
-        "flight-mcq-05": "「兩個平台／樓層之間一段連續的樓梯」與本句語境不同。",
-        "flight-mcq-06": "「樓梯的一段連續梯級」與本句語境不同。"
+        "flight-mcq-02": "本句的「flight」指「按特定時間與航線運行的一班飛機；航班」。",
+        "flight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-02"
     },
@@ -720,11 +708,9 @@ export default {
       "masked": "Which ____ are you on?",
       "options": [
         "flight-mcq-02",
-        "flight-mcq-01",
-        "flight-mcq-03",
-        "flight-mcq-04",
-        "flight-mcq-05",
-        "flight-mcq-06"
+        "flight-mcq-09",
+        "flight-mcq-22",
+        "flight-mcq-20"
       ],
       "explanation": "本句的「flight」指「按特定時間與航線運行的一班飛機；航班」。",
       "sentenceIndex": 5,
@@ -733,12 +719,10 @@ export default {
         "flight"
       ],
       "optionReasons": {
-        "flight-mcq-02": "本句指「按特定時間與航線運行的一班飛機；航班」。",
-        "flight-mcq-01": "「乘飛機進行的一段旅程／航班」與本句語境不同。",
-        "flight-mcq-03": "「鳥、飛機等在空中飛行／飛翔」與本句語境不同。",
-        "flight-mcq-04": "「正在飛行中」與本句語境不同。",
-        "flight-mcq-05": "「兩個平台／樓層之間一段連續的樓梯」與本句語境不同。",
-        "flight-mcq-06": "「樓梯的一段連續梯級」與本句語境不同。"
+        "flight-mcq-02": "本句的「flight」指「按特定時間與航線運行的一班飛機；航班」。",
+        "flight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-02"
     },
@@ -750,11 +734,9 @@ export default {
       "masked": "The bird took ____.",
       "options": [
         "flight-mcq-03",
-        "flight-mcq-02",
-        "flight-mcq-04",
-        "flight-mcq-01",
-        "flight-mcq-05",
-        "flight-mcq-06"
+        "flight-mcq-26",
+        "flight-mcq-21",
+        "flight-mcq-11"
       ],
       "explanation": "本句的「flight」指「鳥、飛機等在空中飛行／飛翔」。",
       "sentenceIndex": 6,
@@ -763,12 +745,10 @@ export default {
         "flight"
       ],
       "optionReasons": {
-        "flight-mcq-03": "本句指「鳥、飛機等在空中飛行／飛翔」。",
-        "flight-mcq-02": "「按特定時間與航線運行的一班飛機；航班」與本句語境不同。",
-        "flight-mcq-04": "「正在飛行中」與本句語境不同。",
-        "flight-mcq-01": "「乘飛機進行的一段旅程／航班」與本句語境不同。",
-        "flight-mcq-05": "「兩個平台／樓層之間一段連續的樓梯」與本句語境不同。",
-        "flight-mcq-06": "「樓梯的一段連續梯級」與本句語境不同。"
+        "flight-mcq-03": "本句的「flight」指「鳥、飛機等在空中飛行／飛翔」。",
+        "flight-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-03"
     },
@@ -780,11 +760,9 @@ export default {
       "masked": "Scientists studied the ____ of insects.",
       "options": [
         "flight-mcq-03",
-        "flight-mcq-02",
-        "flight-mcq-04",
-        "flight-mcq-01",
-        "flight-mcq-05",
-        "flight-mcq-06"
+        "flight-mcq-10",
+        "flight-mcq-22",
+        "flight-mcq-20"
       ],
       "explanation": "本句的「flight」指「鳥、飛機等在空中飛行／飛翔」。",
       "sentenceIndex": 7,
@@ -793,12 +771,10 @@ export default {
         "flight"
       ],
       "optionReasons": {
-        "flight-mcq-03": "本句指「鳥、飛機等在空中飛行／飛翔」。",
-        "flight-mcq-02": "「按特定時間與航線運行的一班飛機；航班」與本句語境不同。",
-        "flight-mcq-04": "「正在飛行中」與本句語境不同。",
-        "flight-mcq-01": "「乘飛機進行的一段旅程／航班」與本句語境不同。",
-        "flight-mcq-05": "「兩個平台／樓層之間一段連續的樓梯」與本句語境不同。",
-        "flight-mcq-06": "「樓梯的一段連續梯級」與本句語境不同。"
+        "flight-mcq-03": "本句的「flight」指「鳥、飛機等在空中飛行／飛翔」。",
+        "flight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-03"
     },
@@ -810,11 +786,9 @@ export default {
       "masked": "The bird changed direction ____.",
       "options": [
         "flight-mcq-04",
-        "flight-mcq-03",
-        "flight-mcq-05",
-        "flight-mcq-02",
-        "flight-mcq-06",
-        "flight-mcq-01"
+        "flight-mcq-25",
+        "flight-mcq-22",
+        "flight-mcq-10"
       ],
       "explanation": "本句的「in flight」指「正在飛行中」。",
       "sentenceIndex": 8,
@@ -823,12 +797,10 @@ export default {
         "in flight"
       ],
       "optionReasons": {
-        "flight-mcq-04": "本句指「正在飛行中」。",
-        "flight-mcq-03": "「鳥、飛機等在空中飛行／飛翔」與本句語境不同。",
-        "flight-mcq-05": "「兩個平台／樓層之間一段連續的樓梯」與本句語境不同。",
-        "flight-mcq-02": "「按特定時間與航線運行的一班飛機；航班」與本句語境不同。",
-        "flight-mcq-06": "「樓梯的一段連續梯級」與本句語境不同。",
-        "flight-mcq-01": "「乘飛機進行的一段旅程／航班」與本句語境不同。"
+        "flight-mcq-04": "本句的「in flight」指「正在飛行中」。",
+        "flight-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-04"
     },
@@ -840,11 +812,9 @@ export default {
       "masked": "The aircraft was refueled ____.",
       "options": [
         "flight-mcq-04",
-        "flight-mcq-03",
-        "flight-mcq-05",
-        "flight-mcq-02",
-        "flight-mcq-06",
-        "flight-mcq-01"
+        "flight-mcq-22",
+        "flight-mcq-09",
+        "flight-mcq-11"
       ],
       "explanation": "本句的「in flight」指「正在飛行中」。",
       "sentenceIndex": 9,
@@ -853,12 +823,10 @@ export default {
         "in flight"
       ],
       "optionReasons": {
-        "flight-mcq-04": "本句指「正在飛行中」。",
-        "flight-mcq-03": "「鳥、飛機等在空中飛行／飛翔」與本句語境不同。",
-        "flight-mcq-05": "「兩個平台／樓層之間一段連續的樓梯」與本句語境不同。",
-        "flight-mcq-02": "「按特定時間與航線運行的一班飛機；航班」與本句語境不同。",
-        "flight-mcq-06": "「樓梯的一段連續梯級」與本句語境不同。",
-        "flight-mcq-01": "「乘飛機進行的一段旅程／航班」與本句語境不同。"
+        "flight-mcq-04": "本句的「in flight」指「正在飛行中」。",
+        "flight-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-04"
     },
@@ -870,11 +838,9 @@ export default {
       "masked": "We walked up a ____.",
       "options": [
         "flight-mcq-05",
-        "flight-mcq-04",
-        "flight-mcq-06",
+        "flight-mcq-26",
         "flight-mcq-03",
-        "flight-mcq-07",
-        "flight-mcq-02"
+        "flight-mcq-09"
       ],
       "explanation": "本句的「flight of stairs」指「兩個平台／樓層之間一段連續的樓梯」。",
       "sentenceIndex": 10,
@@ -883,12 +849,10 @@ export default {
         "flight of stairs"
       ],
       "optionReasons": {
-        "flight-mcq-05": "本句指「兩個平台／樓層之間一段連續的樓梯」。",
-        "flight-mcq-04": "「正在飛行中」與本句語境不同。",
-        "flight-mcq-06": "「樓梯的一段連續梯級」與本句語境不同。",
-        "flight-mcq-03": "「鳥、飛機等在空中飛行／飛翔」與本句語境不同。",
-        "flight-mcq-07": "「正式：從危險、衝突等逃走／逃亡」與本句語境不同。",
-        "flight-mcq-02": "「按特定時間與航線運行的一班飛機；航班」與本句語境不同。"
+        "flight-mcq-05": "本句的「flight of stairs」指「兩個平台／樓層之間一段連續的樓梯」。",
+        "flight-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-05"
     },
@@ -900,11 +864,9 @@ export default {
       "masked": "The office is two ____.",
       "options": [
         "flight-mcq-05",
-        "flight-mcq-04",
-        "flight-mcq-06",
-        "flight-mcq-03",
+        "flight-mcq-23",
         "flight-mcq-07",
-        "flight-mcq-02"
+        "flight-mcq-26"
       ],
       "explanation": "本句的「flights up」指「兩個平台／樓層之間一段連續的樓梯」。",
       "sentenceIndex": 11,
@@ -913,12 +875,10 @@ export default {
         "flights up"
       ],
       "optionReasons": {
-        "flight-mcq-05": "本句指「兩個平台／樓層之間一段連續的樓梯」。",
-        "flight-mcq-04": "「正在飛行中」與本句語境不同。",
-        "flight-mcq-06": "「樓梯的一段連續梯級」與本句語境不同。",
-        "flight-mcq-03": "「鳥、飛機等在空中飛行／飛翔」與本句語境不同。",
-        "flight-mcq-07": "「正式：從危險、衝突等逃走／逃亡」與本句語境不同。",
-        "flight-mcq-02": "「按特定時間與航線運行的一班飛機；航班」與本句語境不同。"
+        "flight-mcq-05": "本句的「flights up」指「兩個平台／樓層之間一段連續的樓梯」。",
+        "flight-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-05"
     },
@@ -930,11 +890,9 @@ export default {
       "masked": "There is another ____ after the landing.",
       "options": [
         "flight-mcq-06",
-        "flight-mcq-05",
-        "flight-mcq-07",
-        "flight-mcq-04",
-        "flight-mcq-08",
-        "flight-mcq-03"
+        "flight-mcq-03",
+        "flight-mcq-21",
+        "flight-mcq-26"
       ],
       "explanation": "本句的「flight」指「樓梯的一段連續梯級」。",
       "sentenceIndex": 12,
@@ -943,12 +901,10 @@ export default {
         "flight"
       ],
       "optionReasons": {
-        "flight-mcq-06": "本句指「樓梯的一段連續梯級」。",
-        "flight-mcq-05": "「兩個平台／樓層之間一段連續的樓梯」與本句語境不同。",
-        "flight-mcq-07": "「正式：從危險、衝突等逃走／逃亡」與本句語境不同。",
-        "flight-mcq-04": "「正在飛行中」與本句語境不同。",
-        "flight-mcq-08": "「起飛／飛走」與本句語境不同。",
-        "flight-mcq-03": "「鳥、飛機等在空中飛行／飛翔」與本句語境不同。"
+        "flight-mcq-06": "本句的「flight」指「樓梯的一段連續梯級」。",
+        "flight-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-06"
     },
@@ -960,11 +916,9 @@ export default {
       "masked": "The building has several short ____ connected by landings.",
       "options": [
         "flight-mcq-06",
-        "flight-mcq-05",
-        "flight-mcq-07",
-        "flight-mcq-04",
-        "flight-mcq-08",
-        "flight-mcq-03"
+        "flight-mcq-23",
+        "flight-mcq-10",
+        "flight-mcq-21"
       ],
       "explanation": "本句的「flights」指「樓梯的一段連續梯級」。",
       "sentenceIndex": 13,
@@ -973,12 +927,10 @@ export default {
         "flights"
       ],
       "optionReasons": {
-        "flight-mcq-06": "本句指「樓梯的一段連續梯級」。",
-        "flight-mcq-05": "「兩個平台／樓層之間一段連續的樓梯」與本句語境不同。",
-        "flight-mcq-07": "「正式：從危險、衝突等逃走／逃亡」與本句語境不同。",
-        "flight-mcq-04": "「正在飛行中」與本句語境不同。",
-        "flight-mcq-08": "「起飛／飛走」與本句語境不同。",
-        "flight-mcq-03": "「鳥、飛機等在空中飛行／飛翔」與本句語境不同。"
+        "flight-mcq-06": "本句的「flights」指「樓梯的一段連續梯級」。",
+        "flight-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-06"
     },
@@ -990,11 +942,9 @@ export default {
       "masked": "Thousands were forced into ____ by the fighting.",
       "options": [
         "flight-mcq-07",
+        "flight-mcq-24",
         "flight-mcq-06",
-        "flight-mcq-08",
-        "flight-mcq-05",
-        "flight-mcq-09",
-        "flight-mcq-04"
+        "flight-mcq-26"
       ],
       "explanation": "本句的「flight」指「正式：從危險、衝突等逃走／逃亡」。",
       "sentenceIndex": 14,
@@ -1003,12 +953,10 @@ export default {
         "flight"
       ],
       "optionReasons": {
-        "flight-mcq-07": "本句指「正式：從危險、衝突等逃走／逃亡」。",
-        "flight-mcq-06": "「樓梯的一段連續梯級」與本句語境不同。",
-        "flight-mcq-08": "「起飛／飛走」與本句語境不同。",
-        "flight-mcq-05": "「兩個平台／樓層之間一段連續的樓梯」與本句語境不同。",
-        "flight-mcq-09": "「突然逃走／逃離」與本句語境不同。",
-        "flight-mcq-04": "「正在飛行中」與本句語境不同。"
+        "flight-mcq-07": "本句的「flight」指「正式：從危險、衝突等逃走／逃亡」。",
+        "flight-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-07"
     },
@@ -1020,11 +968,9 @@ export default {
       "masked": "His sudden ____ raised suspicion.",
       "options": [
         "flight-mcq-07",
-        "flight-mcq-06",
-        "flight-mcq-08",
-        "flight-mcq-05",
-        "flight-mcq-09",
-        "flight-mcq-04"
+        "flight-mcq-28",
+        "flight-mcq-20",
+        "flight-mcq-06"
       ],
       "explanation": "本句的「flight」指「正式：從危險、衝突等逃走／逃亡」。",
       "sentenceIndex": 15,
@@ -1033,12 +979,10 @@ export default {
         "flight"
       ],
       "optionReasons": {
-        "flight-mcq-07": "本句指「正式：從危險、衝突等逃走／逃亡」。",
-        "flight-mcq-06": "「樓梯的一段連續梯級」與本句語境不同。",
-        "flight-mcq-08": "「起飛／飛走」與本句語境不同。",
-        "flight-mcq-05": "「兩個平台／樓層之間一段連續的樓梯」與本句語境不同。",
-        "flight-mcq-09": "「突然逃走／逃離」與本句語境不同。",
-        "flight-mcq-04": "「正在飛行中」與本句語境不同。"
+        "flight-mcq-07": "本句的「flight」指「正式：從危險、衝突等逃走／逃亡」。",
+        "flight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-07"
     },
@@ -1050,11 +994,9 @@ export default {
       "masked": "The suspects ____ when the police arrived.",
       "options": [
         "flight-mcq-09",
-        "flight-mcq-08",
-        "flight-mcq-10",
-        "flight-mcq-07",
-        "flight-mcq-11",
-        "flight-mcq-06"
+        "flight-mcq-18",
+        "flight-mcq-01",
+        "flight-mcq-20"
       ],
       "explanation": "本句的「took flight」指「突然逃走／逃離」。",
       "sentenceIndex": 16,
@@ -1063,12 +1005,10 @@ export default {
         "took flight"
       ],
       "optionReasons": {
-        "flight-mcq-09": "本句指「突然逃走／逃離」。",
-        "flight-mcq-08": "「起飛／飛走」與本句語境不同。",
-        "flight-mcq-10": "「迫使某人逃走／把對方擊退」與本句語境不同。",
-        "flight-mcq-07": "「正式：從危險、衝突等逃走／逃亡」與本句語境不同。",
-        "flight-mcq-11": "「面對危險時身體準備戰鬥或逃跑的反應」與本句語境不同。",
-        "flight-mcq-06": "「樓梯的一段連續梯級」與本句語境不同。"
+        "flight-mcq-09": "本句的「took flight」指「突然逃走／逃離」。",
+        "flight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-09"
     },
@@ -1080,11 +1020,9 @@ export default {
       "masked": "The animals ____ at the sound.",
       "options": [
         "flight-mcq-09",
-        "flight-mcq-08",
-        "flight-mcq-10",
-        "flight-mcq-07",
-        "flight-mcq-11",
-        "flight-mcq-06"
+        "flight-mcq-06",
+        "flight-mcq-20",
+        "flight-mcq-12"
       ],
       "explanation": "本句的「took flight」指「突然逃走／逃離」。",
       "sentenceIndex": 17,
@@ -1093,12 +1031,10 @@ export default {
         "took flight"
       ],
       "optionReasons": {
-        "flight-mcq-09": "本句指「突然逃走／逃離」。",
-        "flight-mcq-08": "「起飛／飛走」與本句語境不同。",
-        "flight-mcq-10": "「迫使某人逃走／把對方擊退」與本句語境不同。",
-        "flight-mcq-07": "「正式：從危險、衝突等逃走／逃亡」與本句語境不同。",
-        "flight-mcq-11": "「面對危險時身體準備戰鬥或逃跑的反應」與本句語境不同。",
-        "flight-mcq-06": "「樓梯的一段連續梯級」與本句語境不同。"
+        "flight-mcq-09": "本句的「took flight」指「突然逃走／逃離」。",
+        "flight-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-09"
     },
@@ -1110,11 +1046,9 @@ export default {
       "masked": "The defenders ____.",
       "options": [
         "flight-mcq-10",
-        "flight-mcq-09",
-        "flight-mcq-11",
-        "flight-mcq-08",
-        "flight-mcq-12",
-        "flight-mcq-07"
+        "flight-mcq-05",
+        "flight-mcq-21",
+        "flight-mcq-03"
       ],
       "explanation": "本句的「put the attackers to flight」指「迫使某人逃走／把對方擊退」。",
       "sentenceIndex": 18,
@@ -1123,12 +1057,10 @@ export default {
         "put the attackers to flight"
       ],
       "optionReasons": {
-        "flight-mcq-10": "本句指「迫使某人逃走／把對方擊退」。",
-        "flight-mcq-09": "「突然逃走／逃離」與本句語境不同。",
-        "flight-mcq-11": "「面對危險時身體準備戰鬥或逃跑的反應」與本句語境不同。",
-        "flight-mcq-08": "「起飛／飛走」與本句語境不同。",
-        "flight-mcq-12": "「球、箭等物體在空中的飛行路徑／軌跡」與本句語境不同。",
-        "flight-mcq-07": "「正式：從危險、衝突等逃走／逃亡」與本句語境不同。"
+        "flight-mcq-10": "本句的「put the attackers to flight」指「迫使某人逃走／把對方擊退」。",
+        "flight-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-10"
     },
@@ -1140,11 +1072,9 @@ export default {
       "masked": "The sudden noise ____.",
       "options": [
         "flight-mcq-10",
-        "flight-mcq-09",
-        "flight-mcq-11",
-        "flight-mcq-08",
-        "flight-mcq-12",
-        "flight-mcq-07"
+        "flight-mcq-05",
+        "flight-mcq-14",
+        "flight-mcq-20"
       ],
       "explanation": "本句的「put the animals to flight」指「迫使某人逃走／把對方擊退」。",
       "sentenceIndex": 19,
@@ -1153,12 +1083,10 @@ export default {
         "put the animals to flight"
       ],
       "optionReasons": {
-        "flight-mcq-10": "本句指「迫使某人逃走／把對方擊退」。",
-        "flight-mcq-09": "「突然逃走／逃離」與本句語境不同。",
-        "flight-mcq-11": "「面對危險時身體準備戰鬥或逃跑的反應」與本句語境不同。",
-        "flight-mcq-08": "「起飛／飛走」與本句語境不同。",
-        "flight-mcq-12": "「球、箭等物體在空中的飛行路徑／軌跡」與本句語境不同。",
-        "flight-mcq-07": "「正式：從危險、衝突等逃走／逃亡」與本句語境不同。"
+        "flight-mcq-10": "本句的「put the animals to flight」指「迫使某人逃走／把對方擊退」。",
+        "flight-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-10"
     },
@@ -1170,11 +1098,9 @@ export default {
       "masked": "Stress can trigger the ____.",
       "options": [
         "flight-mcq-11",
-        "flight-mcq-10",
-        "flight-mcq-12",
-        "flight-mcq-09",
-        "flight-mcq-13",
-        "flight-mcq-08"
+        "flight-mcq-06",
+        "flight-mcq-20",
+        "flight-mcq-24"
       ],
       "explanation": "本句的「fight-or-flight response」指「面對危險時身體準備戰鬥或逃跑的反應」。",
       "sentenceIndex": 20,
@@ -1183,12 +1109,10 @@ export default {
         "fight-or-flight response"
       ],
       "optionReasons": {
-        "flight-mcq-11": "本句指「面對危險時身體準備戰鬥或逃跑的反應」。",
-        "flight-mcq-10": "「迫使某人逃走／把對方擊退」與本句語境不同。",
-        "flight-mcq-12": "「球、箭等物體在空中的飛行路徑／軌跡」與本句語境不同。",
-        "flight-mcq-09": "「突然逃走／逃離」與本句語境不同。",
-        "flight-mcq-13": "「飛機、鳥、投射物等通過空中的飛行路線」與本句語境不同。",
-        "flight-mcq-08": "「起飛／飛走」與本句語境不同。"
+        "flight-mcq-11": "本句的「fight-or-flight response」指「面對危險時身體準備戰鬥或逃跑的反應」。",
+        "flight-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-11"
     },
@@ -1200,11 +1124,9 @@ export default {
       "masked": "The body releases hormones during a ____.",
       "options": [
         "flight-mcq-11",
-        "flight-mcq-10",
-        "flight-mcq-12",
-        "flight-mcq-09",
+        "flight-mcq-20",
         "flight-mcq-13",
-        "flight-mcq-08"
+        "flight-mcq-26"
       ],
       "explanation": "本句的「fight-or-flight response」指「面對危險時身體準備戰鬥或逃跑的反應」。",
       "sentenceIndex": 21,
@@ -1213,12 +1135,10 @@ export default {
         "fight-or-flight response"
       ],
       "optionReasons": {
-        "flight-mcq-11": "本句指「面對危險時身體準備戰鬥或逃跑的反應」。",
-        "flight-mcq-10": "「迫使某人逃走／把對方擊退」與本句語境不同。",
-        "flight-mcq-12": "「球、箭等物體在空中的飛行路徑／軌跡」與本句語境不同。",
-        "flight-mcq-09": "「突然逃走／逃離」與本句語境不同。",
-        "flight-mcq-13": "「飛機、鳥、投射物等通過空中的飛行路線」與本句語境不同。",
-        "flight-mcq-08": "「起飛／飛走」與本句語境不同。"
+        "flight-mcq-11": "本句的「fight-or-flight response」指「面對危險時身體準備戰鬥或逃跑的反應」。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-11"
     },
@@ -1230,11 +1150,9 @@ export default {
       "masked": "The camera followed the ____.",
       "options": [
         "flight-mcq-12",
-        "flight-mcq-11",
-        "flight-mcq-13",
+        "flight-mcq-05",
         "flight-mcq-10",
-        "flight-mcq-14",
-        "flight-mcq-09"
+        "flight-mcq-20"
       ],
       "explanation": "本句的「flight of the ball」指「球、箭等物體在空中的飛行路徑／軌跡」。",
       "sentenceIndex": 22,
@@ -1243,12 +1161,10 @@ export default {
         "flight of the ball"
       ],
       "optionReasons": {
-        "flight-mcq-12": "本句指「球、箭等物體在空中的飛行路徑／軌跡」。",
-        "flight-mcq-11": "「面對危險時身體準備戰鬥或逃跑的反應」與本句語境不同。",
-        "flight-mcq-13": "「飛機、鳥、投射物等通過空中的飛行路線」與本句語境不同。",
-        "flight-mcq-10": "「迫使某人逃走／把對方擊退」與本句語境不同。",
-        "flight-mcq-14": "「飛機在空中飛行所需／累積的時間」與本句語境不同。",
-        "flight-mcq-09": "「突然逃走／逃離」與本句語境不同。"
+        "flight-mcq-12": "本句的「flight of the ball」指「球、箭等物體在空中的飛行路徑／軌跡」。",
+        "flight-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-12"
     },
@@ -1260,11 +1176,9 @@ export default {
       "masked": "Wind affected the arrow’s ____.",
       "options": [
         "flight-mcq-12",
-        "flight-mcq-11",
-        "flight-mcq-13",
         "flight-mcq-10",
-        "flight-mcq-14",
-        "flight-mcq-09"
+        "flight-mcq-20",
+        "flight-mcq-26"
       ],
       "explanation": "本句的「flight」指「球、箭等物體在空中的飛行路徑／軌跡」。",
       "sentenceIndex": 23,
@@ -1273,12 +1187,10 @@ export default {
         "flight"
       ],
       "optionReasons": {
-        "flight-mcq-12": "本句指「球、箭等物體在空中的飛行路徑／軌跡」。",
-        "flight-mcq-11": "「面對危險時身體準備戰鬥或逃跑的反應」與本句語境不同。",
-        "flight-mcq-13": "「飛機、鳥、投射物等通過空中的飛行路線」與本句語境不同。",
-        "flight-mcq-10": "「迫使某人逃走／把對方擊退」與本句語境不同。",
-        "flight-mcq-14": "「飛機在空中飛行所需／累積的時間」與本句語境不同。",
-        "flight-mcq-09": "「突然逃走／逃離」與本句語境不同。"
+        "flight-mcq-12": "本句的「flight」指「球、箭等物體在空中的飛行路徑／軌跡」。",
+        "flight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-12"
     },
@@ -1290,11 +1202,9 @@ export default {
       "masked": "The spin changed the ____.",
       "options": [
         "flight-mcq-12",
-        "flight-mcq-11",
-        "flight-mcq-13",
-        "flight-mcq-10",
-        "flight-mcq-14",
-        "flight-mcq-09"
+        "flight-mcq-09",
+        "flight-mcq-26",
+        "flight-mcq-05"
       ],
       "explanation": "本句的「flight of the ball」指「球、箭等物體在空中的飛行路徑／軌跡」。",
       "sentenceIndex": 24,
@@ -1303,12 +1213,10 @@ export default {
         "flight of the ball"
       ],
       "optionReasons": {
-        "flight-mcq-12": "本句指「球、箭等物體在空中的飛行路徑／軌跡」。",
-        "flight-mcq-11": "「面對危險時身體準備戰鬥或逃跑的反應」與本句語境不同。",
-        "flight-mcq-13": "「飛機、鳥、投射物等通過空中的飛行路線」與本句語境不同。",
-        "flight-mcq-10": "「迫使某人逃走／把對方擊退」與本句語境不同。",
-        "flight-mcq-14": "「飛機在空中飛行所需／累積的時間」與本句語境不同。",
-        "flight-mcq-09": "「突然逃走／逃離」與本句語境不同。"
+        "flight-mcq-12": "本句的「flight of the ball」指「球、箭等物體在空中的飛行路徑／軌跡」。",
+        "flight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-12"
     },
@@ -1320,11 +1228,9 @@ export default {
       "masked": "The arrow maintained a straight ____.",
       "options": [
         "flight-mcq-12",
-        "flight-mcq-11",
-        "flight-mcq-13",
-        "flight-mcq-10",
-        "flight-mcq-14",
-        "flight-mcq-09"
+        "flight-mcq-09",
+        "flight-mcq-26",
+        "flight-mcq-22"
       ],
       "explanation": "本句的「flight」指「球、箭等物體在空中的飛行路徑／軌跡」。",
       "sentenceIndex": 25,
@@ -1333,12 +1239,10 @@ export default {
         "flight"
       ],
       "optionReasons": {
-        "flight-mcq-12": "本句指「球、箭等物體在空中的飛行路徑／軌跡」。",
-        "flight-mcq-11": "「面對危險時身體準備戰鬥或逃跑的反應」與本句語境不同。",
-        "flight-mcq-13": "「飛機、鳥、投射物等通過空中的飛行路線」與本句語境不同。",
-        "flight-mcq-10": "「迫使某人逃走／把對方擊退」與本句語境不同。",
-        "flight-mcq-14": "「飛機在空中飛行所需／累積的時間」與本句語境不同。",
-        "flight-mcq-09": "「突然逃走／逃離」與本句語境不同。"
+        "flight-mcq-12": "本句的「flight」指「球、箭等物體在空中的飛行路徑／軌跡」。",
+        "flight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-12"
     },
@@ -1350,11 +1254,9 @@ export default {
       "masked": "The aircraft changed its ____.",
       "options": [
         "flight-mcq-13",
-        "flight-mcq-12",
-        "flight-mcq-14",
-        "flight-mcq-11",
-        "flight-mcq-15",
-        "flight-mcq-10"
+        "flight-mcq-05",
+        "flight-mcq-09",
+        "flight-mcq-22"
       ],
       "explanation": "本句的「flight path」指「飛機、鳥、投射物等通過空中的飛行路線」。",
       "sentenceIndex": 26,
@@ -1363,12 +1265,10 @@ export default {
         "flight path"
       ],
       "optionReasons": {
-        "flight-mcq-13": "本句指「飛機、鳥、投射物等通過空中的飛行路線」。",
-        "flight-mcq-12": "「球、箭等物體在空中的飛行路徑／軌跡」與本句語境不同。",
-        "flight-mcq-14": "「飛機在空中飛行所需／累積的時間」與本句語境不同。",
-        "flight-mcq-11": "「面對危險時身體準備戰鬥或逃跑的反應」與本句語境不同。",
-        "flight-mcq-15": "「在飛機上服務乘客及協助安全工作的空服員」與本句語境不同。",
-        "flight-mcq-10": "「迫使某人逃走／把對方擊退」與本句語境不同。"
+        "flight-mcq-13": "本句的「flight path」指「飛機、鳥、投射物等通過空中的飛行路線」。",
+        "flight-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-13"
     },
@@ -1380,11 +1280,9 @@ export default {
       "masked": "The building lies under a major ____.",
       "options": [
         "flight-mcq-13",
-        "flight-mcq-12",
-        "flight-mcq-14",
-        "flight-mcq-11",
-        "flight-mcq-15",
-        "flight-mcq-10"
+        "flight-mcq-10",
+        "flight-mcq-26",
+        "flight-mcq-22"
       ],
       "explanation": "本句的「flight path」指「飛機、鳥、投射物等通過空中的飛行路線」。",
       "sentenceIndex": 27,
@@ -1393,12 +1291,10 @@ export default {
         "flight path"
       ],
       "optionReasons": {
-        "flight-mcq-13": "本句指「飛機、鳥、投射物等通過空中的飛行路線」。",
-        "flight-mcq-12": "「球、箭等物體在空中的飛行路徑／軌跡」與本句語境不同。",
-        "flight-mcq-14": "「飛機在空中飛行所需／累積的時間」與本句語境不同。",
-        "flight-mcq-11": "「面對危險時身體準備戰鬥或逃跑的反應」與本句語境不同。",
-        "flight-mcq-15": "「在飛機上服務乘客及協助安全工作的空服員」與本句語境不同。",
-        "flight-mcq-10": "「迫使某人逃走／把對方擊退」與本句語境不同。"
+        "flight-mcq-13": "本句的「flight path」指「飛機、鳥、投射物等通過空中的飛行路線」。",
+        "flight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-13"
     },
@@ -1410,11 +1306,9 @@ export default {
       "masked": "The ____ is about twelve hours.",
       "options": [
         "flight-mcq-14",
-        "flight-mcq-13",
-        "flight-mcq-15",
-        "flight-mcq-12",
-        "flight-mcq-16",
-        "flight-mcq-11"
+        "flight-mcq-19",
+        "flight-mcq-26",
+        "flight-mcq-21"
       ],
       "explanation": "本句的「flight time」指「飛機在空中飛行所需／累積的時間」。",
       "sentenceIndex": 28,
@@ -1423,12 +1317,10 @@ export default {
         "flight time"
       ],
       "optionReasons": {
-        "flight-mcq-14": "本句指「飛機在空中飛行所需／累積的時間」。",
-        "flight-mcq-13": "「飛機、鳥、投射物等通過空中的飛行路線」與本句語境不同。",
-        "flight-mcq-15": "「在飛機上服務乘客及協助安全工作的空服員」與本句語境不同。",
-        "flight-mcq-12": "「球、箭等物體在空中的飛行路徑／軌跡」與本句語境不同。",
-        "flight-mcq-16": "「負責飛行及機上運作的機組人員」與本句語境不同。",
-        "flight-mcq-11": "「面對危險時身體準備戰鬥或逃跑的反應」與本句語境不同。"
+        "flight-mcq-14": "本句的「flight time」指「飛機在空中飛行所需／累積的時間」。",
+        "flight-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-14"
     },
@@ -1440,11 +1332,9 @@ export default {
       "masked": "Strong winds increased the ____.",
       "options": [
         "flight-mcq-14",
-        "flight-mcq-13",
-        "flight-mcq-15",
-        "flight-mcq-12",
-        "flight-mcq-16",
-        "flight-mcq-11"
+        "flight-mcq-19",
+        "flight-mcq-20",
+        "flight-mcq-26"
       ],
       "explanation": "本句的「flight time」指「飛機在空中飛行所需／累積的時間」。",
       "sentenceIndex": 29,
@@ -1453,12 +1343,10 @@ export default {
         "flight time"
       ],
       "optionReasons": {
-        "flight-mcq-14": "本句指「飛機在空中飛行所需／累積的時間」。",
-        "flight-mcq-13": "「飛機、鳥、投射物等通過空中的飛行路線」與本句語境不同。",
-        "flight-mcq-15": "「在飛機上服務乘客及協助安全工作的空服員」與本句語境不同。",
-        "flight-mcq-12": "「球、箭等物體在空中的飛行路徑／軌跡」與本句語境不同。",
-        "flight-mcq-16": "「負責飛行及機上運作的機組人員」與本句語境不同。",
-        "flight-mcq-11": "「面對危險時身體準備戰鬥或逃跑的反應」與本句語境不同。"
+        "flight-mcq-14": "本句的「flight time」指「飛機在空中飛行所需／累積的時間」。",
+        "flight-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-14"
     },
@@ -1470,11 +1358,9 @@ export default {
       "masked": "A ____ showed us our seats.",
       "options": [
         "flight-mcq-15",
-        "flight-mcq-14",
-        "flight-mcq-16",
-        "flight-mcq-13",
-        "flight-mcq-17",
-        "flight-mcq-12"
+        "flight-mcq-20",
+        "flight-mcq-06",
+        "flight-mcq-09"
       ],
       "explanation": "本句的「flight attendant」指「在飛機上服務乘客及協助安全工作的空服員」。",
       "sentenceIndex": 30,
@@ -1483,12 +1369,10 @@ export default {
         "flight attendant"
       ],
       "optionReasons": {
-        "flight-mcq-15": "本句指「在飛機上服務乘客及協助安全工作的空服員」。",
-        "flight-mcq-14": "「飛機在空中飛行所需／累積的時間」與本句語境不同。",
-        "flight-mcq-16": "「負責飛行及機上運作的機組人員」與本句語境不同。",
-        "flight-mcq-13": "「飛機、鳥、投射物等通過空中的飛行路線」與本句語境不同。",
-        "flight-mcq-17": "「飛機駕駛艙；航空母艦等的飛行甲板」與本句語境不同。",
-        "flight-mcq-12": "「球、箭等物體在空中的飛行路徑／軌跡」與本句語境不同。"
+        "flight-mcq-15": "本句的「flight attendant」指「在飛機上服務乘客及協助安全工作的空服員」。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-15"
     },
@@ -1500,11 +1384,9 @@ export default {
       "masked": "The ____ prepared the cabin for landing.",
       "options": [
         "flight-mcq-15",
-        "flight-mcq-14",
-        "flight-mcq-16",
-        "flight-mcq-13",
-        "flight-mcq-17",
-        "flight-mcq-12"
+        "flight-mcq-06",
+        "flight-mcq-10",
+        "flight-mcq-21"
       ],
       "explanation": "本句的「flight attendants」指「在飛機上服務乘客及協助安全工作的空服員」。",
       "sentenceIndex": 31,
@@ -1513,12 +1395,10 @@ export default {
         "flight attendants"
       ],
       "optionReasons": {
-        "flight-mcq-15": "本句指「在飛機上服務乘客及協助安全工作的空服員」。",
-        "flight-mcq-14": "「飛機在空中飛行所需／累積的時間」與本句語境不同。",
-        "flight-mcq-16": "「負責飛行及機上運作的機組人員」與本句語境不同。",
-        "flight-mcq-13": "「飛機、鳥、投射物等通過空中的飛行路線」與本句語境不同。",
-        "flight-mcq-17": "「飛機駕駛艙；航空母艦等的飛行甲板」與本句語境不同。",
-        "flight-mcq-12": "「球、箭等物體在空中的飛行路徑／軌跡」與本句語境不同。"
+        "flight-mcq-15": "本句的「flight attendants」指「在飛機上服務乘客及協助安全工作的空服員」。",
+        "flight-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-15"
     },
@@ -1530,11 +1410,9 @@ export default {
       "masked": "The ____ completed the safety checks.",
       "options": [
         "flight-mcq-16",
-        "flight-mcq-15",
-        "flight-mcq-17",
-        "flight-mcq-14",
-        "flight-mcq-18",
-        "flight-mcq-13"
+        "flight-mcq-09",
+        "flight-mcq-06",
+        "flight-mcq-20"
       ],
       "explanation": "本句的「flight crew」指「負責飛行及機上運作的機組人員」。",
       "sentenceIndex": 32,
@@ -1543,12 +1421,10 @@ export default {
         "flight crew"
       ],
       "optionReasons": {
-        "flight-mcq-16": "本句指「負責飛行及機上運作的機組人員」。",
-        "flight-mcq-15": "「在飛機上服務乘客及協助安全工作的空服員」與本句語境不同。",
-        "flight-mcq-17": "「飛機駕駛艙；航空母艦等的飛行甲板」與本句語境不同。",
-        "flight-mcq-14": "「飛機在空中飛行所需／累積的時間」與本句語境不同。",
-        "flight-mcq-18": "「記錄飛行資料／駕駛艙音訊的飛行記錄器」與本句語境不同。",
-        "flight-mcq-13": "「飛機、鳥、投射物等通過空中的飛行路線」與本句語境不同。"
+        "flight-mcq-16": "本句的「flight crew」指「負責飛行及機上運作的機組人員」。",
+        "flight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-16"
     },
@@ -1560,11 +1436,9 @@ export default {
       "masked": "The captain briefed the ____.",
       "options": [
         "flight-mcq-16",
-        "flight-mcq-15",
-        "flight-mcq-17",
-        "flight-mcq-14",
-        "flight-mcq-18",
-        "flight-mcq-13"
+        "flight-mcq-11",
+        "flight-mcq-09",
+        "flight-mcq-20"
       ],
       "explanation": "本句的「flight crew」指「負責飛行及機上運作的機組人員」。",
       "sentenceIndex": 33,
@@ -1573,12 +1447,10 @@ export default {
         "flight crew"
       ],
       "optionReasons": {
-        "flight-mcq-16": "本句指「負責飛行及機上運作的機組人員」。",
-        "flight-mcq-15": "「在飛機上服務乘客及協助安全工作的空服員」與本句語境不同。",
-        "flight-mcq-17": "「飛機駕駛艙；航空母艦等的飛行甲板」與本句語境不同。",
-        "flight-mcq-14": "「飛機在空中飛行所需／累積的時間」與本句語境不同。",
-        "flight-mcq-18": "「記錄飛行資料／駕駛艙音訊的飛行記錄器」與本句語境不同。",
-        "flight-mcq-13": "「飛機、鳥、投射物等通過空中的飛行路線」與本句語境不同。"
+        "flight-mcq-16": "本句的「flight crew」指「負責飛行及機上運作的機組人員」。",
+        "flight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-16"
     },
@@ -1590,11 +1462,9 @@ export default {
       "masked": "Only authorized personnel may enter the ____.",
       "options": [
         "flight-mcq-17",
-        "flight-mcq-16",
-        "flight-mcq-18",
-        "flight-mcq-15",
-        "flight-mcq-19",
-        "flight-mcq-14"
+        "flight-mcq-20",
+        "flight-mcq-11",
+        "flight-mcq-06"
       ],
       "explanation": "本句的「flight deck」指「飛機駕駛艙；航空母艦等的飛行甲板」。",
       "sentenceIndex": 34,
@@ -1603,12 +1473,10 @@ export default {
         "flight deck"
       ],
       "optionReasons": {
-        "flight-mcq-17": "本句指「飛機駕駛艙；航空母艦等的飛行甲板」。",
-        "flight-mcq-16": "「負責飛行及機上運作的機組人員」與本句語境不同。",
-        "flight-mcq-18": "「記錄飛行資料／駕駛艙音訊的飛行記錄器」與本句語境不同。",
-        "flight-mcq-15": "「在飛機上服務乘客及協助安全工作的空服員」與本句語境不同。",
-        "flight-mcq-19": "「被認為很可能逃走以避開審訊等的人／潛逃風險」與本句語境不同。",
-        "flight-mcq-14": "「飛機在空中飛行所需／累積的時間」與本句語境不同。"
+        "flight-mcq-17": "本句的「flight deck」指「飛機駕駛艙；航空母艦等的飛行甲板」。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-17"
     },
@@ -1620,11 +1488,9 @@ export default {
       "masked": "Aircraft were moved across the carrier’s ____.",
       "options": [
         "flight-mcq-17",
-        "flight-mcq-16",
-        "flight-mcq-18",
-        "flight-mcq-15",
-        "flight-mcq-19",
-        "flight-mcq-14"
+        "flight-mcq-21",
+        "flight-mcq-06",
+        "flight-mcq-11"
       ],
       "explanation": "本句的「flight deck」指「飛機駕駛艙；航空母艦等的飛行甲板」。",
       "sentenceIndex": 35,
@@ -1633,12 +1499,10 @@ export default {
         "flight deck"
       ],
       "optionReasons": {
-        "flight-mcq-17": "本句指「飛機駕駛艙；航空母艦等的飛行甲板」。",
-        "flight-mcq-16": "「負責飛行及機上運作的機組人員」與本句語境不同。",
-        "flight-mcq-18": "「記錄飛行資料／駕駛艙音訊的飛行記錄器」與本句語境不同。",
-        "flight-mcq-15": "「在飛機上服務乘客及協助安全工作的空服員」與本句語境不同。",
-        "flight-mcq-19": "「被認為很可能逃走以避開審訊等的人／潛逃風險」與本句語境不同。",
-        "flight-mcq-14": "「飛機在空中飛行所需／累積的時間」與本句語境不同。"
+        "flight-mcq-17": "本句的「flight deck」指「飛機駕駛艙；航空母艦等的飛行甲板」。",
+        "flight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-17"
     },
@@ -1650,11 +1514,9 @@ export default {
       "masked": "Investigators recovered the ____.",
       "options": [
         "flight-mcq-18",
-        "flight-mcq-17",
-        "flight-mcq-19",
-        "flight-mcq-16",
-        "flight-mcq-20",
-        "flight-mcq-15"
+        "flight-mcq-22",
+        "flight-mcq-05",
+        "flight-mcq-20"
       ],
       "explanation": "本句的「flight recorder」指「記錄飛行資料／駕駛艙音訊的飛行記錄器」。",
       "sentenceIndex": 36,
@@ -1663,12 +1525,10 @@ export default {
         "flight recorder"
       ],
       "optionReasons": {
-        "flight-mcq-18": "本句指「記錄飛行資料／駕駛艙音訊的飛行記錄器」。",
-        "flight-mcq-17": "「飛機駕駛艙；航空母艦等的飛行甲板」與本句語境不同。",
-        "flight-mcq-19": "「被認為很可能逃走以避開審訊等的人／潛逃風險」與本句語境不同。",
-        "flight-mcq-16": "「負責飛行及機上運作的機組人員」與本句語境不同。",
-        "flight-mcq-20": "「不切實際、富想像力的幻想」與本句語境不同。",
-        "flight-mcq-15": "「在飛機上服務乘客及協助安全工作的空服員」與本句語境不同。"
+        "flight-mcq-18": "本句的「flight recorder」指「記錄飛行資料／駕駛艙音訊的飛行記錄器」。",
+        "flight-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-18"
     },
@@ -1680,11 +1540,9 @@ export default {
       "masked": "Data from the ____ was examined.",
       "options": [
         "flight-mcq-18",
-        "flight-mcq-17",
-        "flight-mcq-19",
-        "flight-mcq-16",
+        "flight-mcq-10",
         "flight-mcq-20",
-        "flight-mcq-15"
+        "flight-mcq-05"
       ],
       "explanation": "本句的「flight recorder」指「記錄飛行資料／駕駛艙音訊的飛行記錄器」。",
       "sentenceIndex": 37,
@@ -1693,12 +1551,10 @@ export default {
         "flight recorder"
       ],
       "optionReasons": {
-        "flight-mcq-18": "本句指「記錄飛行資料／駕駛艙音訊的飛行記錄器」。",
-        "flight-mcq-17": "「飛機駕駛艙；航空母艦等的飛行甲板」與本句語境不同。",
-        "flight-mcq-19": "「被認為很可能逃走以避開審訊等的人／潛逃風險」與本句語境不同。",
-        "flight-mcq-16": "「負責飛行及機上運作的機組人員」與本句語境不同。",
-        "flight-mcq-20": "「不切實際、富想像力的幻想」與本句語境不同。",
-        "flight-mcq-15": "「在飛機上服務乘客及協助安全工作的空服員」與本句語境不同。"
+        "flight-mcq-18": "本句的「flight recorder」指「記錄飛行資料／駕駛艙音訊的飛行記錄器」。",
+        "flight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-18"
     },
@@ -1710,11 +1566,9 @@ export default {
       "masked": "The court considered him a ____.",
       "options": [
         "flight-mcq-19",
-        "flight-mcq-18",
-        "flight-mcq-20",
-        "flight-mcq-17",
-        "flight-mcq-21",
-        "flight-mcq-16"
+        "flight-mcq-05",
+        "flight-mcq-27",
+        "flight-mcq-20"
       ],
       "explanation": "本句的「flight risk」指「被認為很可能逃走以避開審訊等的人／潛逃風險」。",
       "sentenceIndex": 38,
@@ -1723,12 +1577,10 @@ export default {
         "flight risk"
       ],
       "optionReasons": {
-        "flight-mcq-19": "本句指「被認為很可能逃走以避開審訊等的人／潛逃風險」。",
-        "flight-mcq-18": "「記錄飛行資料／駕駛艙音訊的飛行記錄器」與本句語境不同。",
-        "flight-mcq-20": "「不切實際、富想像力的幻想」與本句語境不同。",
-        "flight-mcq-17": "「飛機駕駛艙；航空母艦等的飛行甲板」與本句語境不同。",
-        "flight-mcq-21": "「想像力的自由馳騁／大膽想像」與本句語境不同。",
-        "flight-mcq-16": "「負責飛行及機上運作的機組人員」與本句語境不同。"
+        "flight-mcq-19": "本句的「flight risk」指「被認為很可能逃走以避開審訊等的人／潛逃風險」。",
+        "flight-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-19"
     },
@@ -1740,11 +1592,9 @@ export default {
       "masked": "Bail was refused because of the ____.",
       "options": [
         "flight-mcq-19",
-        "flight-mcq-18",
         "flight-mcq-20",
-        "flight-mcq-17",
-        "flight-mcq-21",
-        "flight-mcq-16"
+        "flight-mcq-01",
+        "flight-mcq-26"
       ],
       "explanation": "本句的「flight risk」指「被認為很可能逃走以避開審訊等的人／潛逃風險」。",
       "sentenceIndex": 39,
@@ -1753,12 +1603,10 @@ export default {
         "flight risk"
       ],
       "optionReasons": {
-        "flight-mcq-19": "本句指「被認為很可能逃走以避開審訊等的人／潛逃風險」。",
-        "flight-mcq-18": "「記錄飛行資料／駕駛艙音訊的飛行記錄器」與本句語境不同。",
-        "flight-mcq-20": "「不切實際、富想像力的幻想」與本句語境不同。",
-        "flight-mcq-17": "「飛機駕駛艙；航空母艦等的飛行甲板」與本句語境不同。",
-        "flight-mcq-21": "「想像力的自由馳騁／大膽想像」與本句語境不同。",
-        "flight-mcq-16": "「負責飛行及機上運作的機組人員」與本句語境不同。"
+        "flight-mcq-19": "本句的「flight risk」指「被認為很可能逃走以避開審訊等的人／潛逃風險」。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-19"
     },
@@ -1770,11 +1618,9 @@ export default {
       "masked": "The plan sounded like a ____.",
       "options": [
         "flight-mcq-20",
-        "flight-mcq-19",
-        "flight-mcq-21",
-        "flight-mcq-18",
-        "flight-mcq-22",
-        "flight-mcq-17"
+        "flight-mcq-28",
+        "flight-mcq-07",
+        "flight-mcq-06"
       ],
       "explanation": "本句的「flight of fancy」指「不切實際、富想像力的幻想」。",
       "sentenceIndex": 40,
@@ -1783,12 +1629,10 @@ export default {
         "flight of fancy"
       ],
       "optionReasons": {
-        "flight-mcq-20": "本句指「不切實際、富想像力的幻想」。",
-        "flight-mcq-19": "「被認為很可能逃走以避開審訊等的人／潛逃風險」與本句語境不同。",
-        "flight-mcq-21": "「想像力的自由馳騁／大膽想像」與本句語境不同。",
-        "flight-mcq-18": "「記錄飛行資料／駕駛艙音訊的飛行記錄器」與本句語境不同。",
-        "flight-mcq-22": "「一組供比較的小份試飲／試食樣品」與本句語境不同。",
-        "flight-mcq-17": "「飛機駕駛艙；航空母艦等的飛行甲板」與本句語境不同。"
+        "flight-mcq-20": "本句的「flight of fancy」指「不切實際、富想像力的幻想」。",
+        "flight-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-20"
     },
@@ -1800,11 +1644,9 @@ export default {
       "masked": "At first, the idea seemed merely a ____.",
       "options": [
         "flight-mcq-20",
-        "flight-mcq-19",
-        "flight-mcq-21",
-        "flight-mcq-18",
-        "flight-mcq-22",
-        "flight-mcq-17"
+        "flight-mcq-09",
+        "flight-mcq-11",
+        "flight-mcq-03"
       ],
       "explanation": "本句的「flight of fancy」指「不切實際、富想像力的幻想」。",
       "sentenceIndex": 41,
@@ -1813,12 +1655,10 @@ export default {
         "flight of fancy"
       ],
       "optionReasons": {
-        "flight-mcq-20": "本句指「不切實際、富想像力的幻想」。",
-        "flight-mcq-19": "「被認為很可能逃走以避開審訊等的人／潛逃風險」與本句語境不同。",
-        "flight-mcq-21": "「想像力的自由馳騁／大膽想像」與本句語境不同。",
-        "flight-mcq-18": "「記錄飛行資料／駕駛艙音訊的飛行記錄器」與本句語境不同。",
-        "flight-mcq-22": "「一組供比較的小份試飲／試食樣品」與本句語境不同。",
-        "flight-mcq-17": "「飛機駕駛艙；航空母艦等的飛行甲板」與本句語境不同。"
+        "flight-mcq-20": "本句的「flight of fancy」指「不切實際、富想像力的幻想」。",
+        "flight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-20"
     },
@@ -1830,11 +1670,9 @@ export default {
       "masked": "The novel is a remarkable ____.",
       "options": [
         "flight-mcq-21",
-        "flight-mcq-20",
-        "flight-mcq-22",
-        "flight-mcq-19",
-        "flight-mcq-23",
-        "flight-mcq-18"
+        "flight-mcq-01",
+        "flight-mcq-09",
+        "flight-mcq-11"
       ],
       "explanation": "本句的「flight of imagination」指「想像力的自由馳騁／大膽想像」。",
       "sentenceIndex": 42,
@@ -1843,12 +1681,10 @@ export default {
         "flight of imagination"
       ],
       "optionReasons": {
-        "flight-mcq-21": "本句指「想像力的自由馳騁／大膽想像」。",
-        "flight-mcq-20": "「不切實際、富想像力的幻想」與本句語境不同。",
-        "flight-mcq-22": "「一組供比較的小份試飲／試食樣品」與本句語境不同。",
-        "flight-mcq-19": "「被認為很可能逃走以避開審訊等的人／潛逃風險」與本句語境不同。",
-        "flight-mcq-23": "「一群一起飛行的鳥／飛行編隊」與本句語境不同。",
-        "flight-mcq-18": "「記錄飛行資料／駕駛艙音訊的飛行記錄器」與本句語境不同。"
+        "flight-mcq-21": "本句的「flight of imagination」指「想像力的自由馳騁／大膽想像」。",
+        "flight-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-21"
     },
@@ -1860,11 +1696,9 @@ export default {
       "masked": "The design began as a ____.",
       "options": [
         "flight-mcq-21",
-        "flight-mcq-20",
-        "flight-mcq-22",
-        "flight-mcq-19",
-        "flight-mcq-23",
-        "flight-mcq-18"
+        "flight-mcq-09",
+        "flight-mcq-27",
+        "flight-mcq-22"
       ],
       "explanation": "本句的「flight of imagination」指「想像力的自由馳騁／大膽想像」。",
       "sentenceIndex": 43,
@@ -1873,12 +1707,10 @@ export default {
         "flight of imagination"
       ],
       "optionReasons": {
-        "flight-mcq-21": "本句指「想像力的自由馳騁／大膽想像」。",
-        "flight-mcq-20": "「不切實際、富想像力的幻想」與本句語境不同。",
-        "flight-mcq-22": "「一組供比較的小份試飲／試食樣品」與本句語境不同。",
-        "flight-mcq-19": "「被認為很可能逃走以避開審訊等的人／潛逃風險」與本句語境不同。",
-        "flight-mcq-23": "「一群一起飛行的鳥／飛行編隊」與本句語境不同。",
-        "flight-mcq-18": "「記錄飛行資料／駕駛艙音訊的飛行記錄器」與本句語境不同。"
+        "flight-mcq-21": "本句的「flight of imagination」指「想像力的自由馳騁／大膽想像」。",
+        "flight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-21"
     },
@@ -1890,11 +1722,9 @@ export default {
       "masked": "We ordered a coffee ____.",
       "options": [
         "flight-mcq-22",
-        "flight-mcq-21",
-        "flight-mcq-23",
-        "flight-mcq-20",
-        "flight-mcq-24",
-        "flight-mcq-19"
+        "flight-mcq-05",
+        "flight-mcq-09",
+        "flight-mcq-04"
       ],
       "explanation": "本句的「flight」指「一組供比較的小份試飲／試食樣品」。",
       "sentenceIndex": 44,
@@ -1903,12 +1733,10 @@ export default {
         "flight"
       ],
       "optionReasons": {
-        "flight-mcq-22": "本句指「一組供比較的小份試飲／試食樣品」。",
-        "flight-mcq-21": "「想像力的自由馳騁／大膽想像」與本句語境不同。",
-        "flight-mcq-23": "「一群一起飛行的鳥／飛行編隊」與本句語境不同。",
-        "flight-mcq-20": "「不切實際、富想像力的幻想」與本句語境不同。",
-        "flight-mcq-24": "「軍事航空中的飛行小隊／分隊」與本句語境不同。",
-        "flight-mcq-19": "「被認為很可能逃走以避開審訊等的人／潛逃風險」與本句語境不同。"
+        "flight-mcq-22": "本句的「flight」指「一組供比較的小份試飲／試食樣品」。",
+        "flight-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-22"
     },
@@ -1920,11 +1748,9 @@ export default {
       "masked": "The restaurant serves a dessert ____.",
       "options": [
         "flight-mcq-22",
-        "flight-mcq-21",
-        "flight-mcq-23",
+        "flight-mcq-02",
         "flight-mcq-20",
-        "flight-mcq-24",
-        "flight-mcq-19"
+        "flight-mcq-10"
       ],
       "explanation": "本句的「flight」指「一組供比較的小份試飲／試食樣品」。",
       "sentenceIndex": 45,
@@ -1933,12 +1759,10 @@ export default {
         "flight"
       ],
       "optionReasons": {
-        "flight-mcq-22": "本句指「一組供比較的小份試飲／試食樣品」。",
-        "flight-mcq-21": "「想像力的自由馳騁／大膽想像」與本句語境不同。",
-        "flight-mcq-23": "「一群一起飛行的鳥／飛行編隊」與本句語境不同。",
-        "flight-mcq-20": "「不切實際、富想像力的幻想」與本句語境不同。",
-        "flight-mcq-24": "「軍事航空中的飛行小隊／分隊」與本句語境不同。",
-        "flight-mcq-19": "「被認為很可能逃走以避開審訊等的人／潛逃風險」與本句語境不同。"
+        "flight-mcq-22": "本句的「flight」指「一組供比較的小份試飲／試食樣品」。",
+        "flight-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-22"
     },
@@ -1950,11 +1774,9 @@ export default {
       "masked": "A ____ crossed the sky.",
       "options": [
         "flight-mcq-23",
-        "flight-mcq-22",
-        "flight-mcq-24",
-        "flight-mcq-21",
         "flight-mcq-25",
-        "flight-mcq-20"
+        "flight-mcq-21",
+        "flight-mcq-22"
       ],
       "explanation": "本句的「flight of birds」指「一群一起飛行的鳥／飛行編隊」。",
       "sentenceIndex": 48,
@@ -1963,12 +1785,10 @@ export default {
         "flight of birds"
       ],
       "optionReasons": {
-        "flight-mcq-23": "本句指「一群一起飛行的鳥／飛行編隊」。",
-        "flight-mcq-22": "「一組供比較的小份試飲／試食樣品」與本句語境不同。",
-        "flight-mcq-24": "「軍事航空中的飛行小隊／分隊」與本句語境不同。",
-        "flight-mcq-21": "「想像力的自由馳騁／大膽想像」與本句語境不同。",
-        "flight-mcq-25": "「某些比賽按水平等劃分的組別／級別」與本句語境不同。",
-        "flight-mcq-20": "「不切實際、富想像力的幻想」與本句語境不同。"
+        "flight-mcq-23": "本句的「flight of birds」指「一群一起飛行的鳥／飛行編隊」。",
+        "flight-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-23"
     },
@@ -1980,11 +1800,9 @@ export default {
       "masked": "A ____ approached the area.",
       "options": [
         "flight-mcq-23",
-        "flight-mcq-22",
-        "flight-mcq-24",
+        "flight-mcq-11",
         "flight-mcq-21",
-        "flight-mcq-25",
-        "flight-mcq-20"
+        "flight-mcq-09"
       ],
       "explanation": "本句的「flight of aircraft」指「一群一起飛行的鳥／飛行編隊」。",
       "sentenceIndex": 49,
@@ -1993,12 +1811,10 @@ export default {
         "flight of aircraft"
       ],
       "optionReasons": {
-        "flight-mcq-23": "本句指「一群一起飛行的鳥／飛行編隊」。",
-        "flight-mcq-22": "「一組供比較的小份試飲／試食樣品」與本句語境不同。",
-        "flight-mcq-24": "「軍事航空中的飛行小隊／分隊」與本句語境不同。",
-        "flight-mcq-21": "「想像力的自由馳騁／大膽想像」與本句語境不同。",
-        "flight-mcq-25": "「某些比賽按水平等劃分的組別／級別」與本句語境不同。",
-        "flight-mcq-20": "「不切實際、富想像力的幻想」與本句語境不同。"
+        "flight-mcq-23": "本句的「flight of aircraft」指「一群一起飛行的鳥／飛行編隊」。",
+        "flight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-23"
     },
@@ -2010,11 +1826,9 @@ export default {
       "masked": "The squadron was divided into several ____.",
       "options": [
         "flight-mcq-24",
-        "flight-mcq-23",
-        "flight-mcq-25",
-        "flight-mcq-22",
-        "flight-mcq-26",
-        "flight-mcq-21"
+        "flight-mcq-07",
+        "flight-mcq-21",
+        "flight-mcq-05"
       ],
       "explanation": "本句的「flights」指「軍事航空中的飛行小隊／分隊」。",
       "sentenceIndex": 50,
@@ -2023,12 +1837,10 @@ export default {
         "flights"
       ],
       "optionReasons": {
-        "flight-mcq-24": "本句指「軍事航空中的飛行小隊／分隊」。",
-        "flight-mcq-23": "「一群一起飛行的鳥／飛行編隊」與本句語境不同。",
-        "flight-mcq-25": "「某些比賽按水平等劃分的組別／級別」與本句語境不同。",
-        "flight-mcq-22": "「一組供比較的小份試飲／試食樣品」與本句語境不同。",
-        "flight-mcq-26": "「容易分心、善變或不夠穩重的」與本句語境不同。",
-        "flight-mcq-21": "「想像力的自由馳騁／大膽想像」與本句語境不同。"
+        "flight-mcq-24": "本句的「flights」指「軍事航空中的飛行小隊／分隊」。",
+        "flight-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-24"
     },
@@ -2040,11 +1852,9 @@ export default {
       "masked": "He commanded a ____ of aircraft.",
       "options": [
         "flight-mcq-24",
-        "flight-mcq-23",
-        "flight-mcq-25",
-        "flight-mcq-22",
-        "flight-mcq-26",
-        "flight-mcq-21"
+        "flight-mcq-19",
+        "flight-mcq-06",
+        "flight-mcq-20"
       ],
       "explanation": "本句的「flight」指「軍事航空中的飛行小隊／分隊」。",
       "sentenceIndex": 51,
@@ -2053,12 +1863,10 @@ export default {
         "flight"
       ],
       "optionReasons": {
-        "flight-mcq-24": "本句指「軍事航空中的飛行小隊／分隊」。",
-        "flight-mcq-23": "「一群一起飛行的鳥／飛行編隊」與本句語境不同。",
-        "flight-mcq-25": "「某些比賽按水平等劃分的組別／級別」與本句語境不同。",
-        "flight-mcq-22": "「一組供比較的小份試飲／試食樣品」與本句語境不同。",
-        "flight-mcq-26": "「容易分心、善變或不夠穩重的」與本句語境不同。",
-        "flight-mcq-21": "「想像力的自由馳騁／大膽想像」與本句語境不同。"
+        "flight-mcq-24": "本句的「flight」指「軍事航空中的飛行小隊／分隊」。",
+        "flight-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-24"
     },
@@ -2070,11 +1878,9 @@ export default {
       "masked": "Players were divided into separate ____.",
       "options": [
         "flight-mcq-25",
-        "flight-mcq-24",
-        "flight-mcq-26",
-        "flight-mcq-23",
-        "flight-mcq-27",
-        "flight-mcq-22"
+        "flight-mcq-10",
+        "flight-mcq-14",
+        "flight-mcq-20"
       ],
       "explanation": "本句的「flights」指「某些比賽按水平等劃分的組別／級別」。",
       "sentenceIndex": 52,
@@ -2083,12 +1889,10 @@ export default {
         "flights"
       ],
       "optionReasons": {
-        "flight-mcq-25": "本句指「某些比賽按水平等劃分的組別／級別」。",
-        "flight-mcq-24": "「軍事航空中的飛行小隊／分隊」與本句語境不同。",
-        "flight-mcq-26": "「容易分心、善變或不夠穩重的」與本句語境不同。",
-        "flight-mcq-23": "「一群一起飛行的鳥／飛行編隊」與本句語境不同。",
-        "flight-mcq-27": "「無法飛行的」與本句語境不同。",
-        "flight-mcq-22": "「一組供比較的小份試飲／試食樣品」與本句語境不同。"
+        "flight-mcq-25": "本句的「flights」指「某些比賽按水平等劃分的組別／級別」。",
+        "flight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-25"
     },
@@ -2100,11 +1904,9 @@ export default {
       "masked": "She won the second ____ of the competition.",
       "options": [
         "flight-mcq-25",
-        "flight-mcq-24",
-        "flight-mcq-26",
-        "flight-mcq-23",
-        "flight-mcq-27",
-        "flight-mcq-22"
+        "flight-mcq-15",
+        "flight-mcq-09",
+        "flight-mcq-18"
       ],
       "explanation": "本句的「flight」指「某些比賽按水平等劃分的組別／級別」。",
       "sentenceIndex": 53,
@@ -2113,12 +1915,10 @@ export default {
         "flight"
       ],
       "optionReasons": {
-        "flight-mcq-25": "本句指「某些比賽按水平等劃分的組別／級別」。",
-        "flight-mcq-24": "「軍事航空中的飛行小隊／分隊」與本句語境不同。",
-        "flight-mcq-26": "「容易分心、善變或不夠穩重的」與本句語境不同。",
-        "flight-mcq-23": "「一群一起飛行的鳥／飛行編隊」與本句語境不同。",
-        "flight-mcq-27": "「無法飛行的」與本句語境不同。",
-        "flight-mcq-22": "「一組供比較的小份試飲／試食樣品」與本句語境不同。"
+        "flight-mcq-25": "本句的「flight」指「某些比賽按水平等劃分的組別／級別」。",
+        "flight-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-25"
     },
@@ -2130,11 +1930,9 @@ export default {
       "masked": "He seemed rather ____ when he was younger.",
       "options": [
         "flight-mcq-26",
-        "flight-mcq-25",
-        "flight-mcq-27",
-        "flight-mcq-24",
-        "flight-mcq-28",
-        "flight-mcq-23"
+        "flight-mcq-17",
+        "flight-mcq-21",
+        "flight-mcq-06"
       ],
       "explanation": "本句的「flighty」指「容易分心、善變或不夠穩重的」。",
       "sentenceIndex": 56,
@@ -2143,12 +1941,10 @@ export default {
         "flighty"
       ],
       "optionReasons": {
-        "flight-mcq-26": "本句指「容易分心、善變或不夠穩重的」。",
-        "flight-mcq-25": "「某些比賽按水平等劃分的組別／級別」與本句語境不同。",
-        "flight-mcq-27": "「無法飛行的」與本句語境不同。",
-        "flight-mcq-24": "「軍事航空中的飛行小隊／分隊」與本句語境不同。",
-        "flight-mcq-28": "「飛行期間發生／提供的；機上的」與本句語境不同。",
-        "flight-mcq-23": "「一群一起飛行的鳥／飛行編隊」與本句語境不同。"
+        "flight-mcq-26": "本句的「flighty」指「容易分心、善變或不夠穩重的」。",
+        "flight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-26"
     },
@@ -2160,11 +1956,9 @@ export default {
       "masked": "She is sometimes unfairly described as ____.",
       "options": [
         "flight-mcq-26",
-        "flight-mcq-25",
-        "flight-mcq-27",
-        "flight-mcq-24",
-        "flight-mcq-28",
-        "flight-mcq-23"
+        "flight-mcq-22",
+        "flight-mcq-20",
+        "flight-mcq-28"
       ],
       "explanation": "本句的「flighty」指「容易分心、善變或不夠穩重的」。",
       "sentenceIndex": 57,
@@ -2173,12 +1967,10 @@ export default {
         "flighty"
       ],
       "optionReasons": {
-        "flight-mcq-26": "本句指「容易分心、善變或不夠穩重的」。",
-        "flight-mcq-25": "「某些比賽按水平等劃分的組別／級別」與本句語境不同。",
-        "flight-mcq-27": "「無法飛行的」與本句語境不同。",
-        "flight-mcq-24": "「軍事航空中的飛行小隊／分隊」與本句語境不同。",
-        "flight-mcq-28": "「飛行期間發生／提供的；機上的」與本句語境不同。",
-        "flight-mcq-23": "「一群一起飛行的鳥／飛行編隊」與本句語境不同。"
+        "flight-mcq-26": "本句的「flighty」指「容易分心、善變或不夠穩重的」。",
+        "flight-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-26"
     },
@@ -2190,11 +1982,9 @@ export default {
       "masked": "Penguins are ____.",
       "options": [
         "flight-mcq-27",
-        "flight-mcq-26",
-        "flight-mcq-28",
-        "flight-mcq-25",
-        "flight-mcq-24",
-        "flight-mcq-23"
+        "flight-mcq-21",
+        "flight-mcq-05",
+        "flight-mcq-25"
       ],
       "explanation": "本句的「flightless birds」指「無法飛行的」。",
       "sentenceIndex": 58,
@@ -2203,12 +1993,10 @@ export default {
         "flightless birds"
       ],
       "optionReasons": {
-        "flight-mcq-27": "本句指「無法飛行的」。",
-        "flight-mcq-26": "「容易分心、善變或不夠穩重的」與本句語境不同。",
-        "flight-mcq-28": "「飛行期間發生／提供的；機上的」與本句語境不同。",
-        "flight-mcq-25": "「某些比賽按水平等劃分的組別／級別」與本句語境不同。",
-        "flight-mcq-24": "「軍事航空中的飛行小隊／分隊」與本句語境不同。",
-        "flight-mcq-23": "「一群一起飛行的鳥／飛行編隊」與本句語境不同。"
+        "flight-mcq-27": "本句的「flightless birds」指「無法飛行的」。",
+        "flight-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-27"
     },
@@ -2220,11 +2008,9 @@ export default {
       "masked": "Some island birds became ____ over time.",
       "options": [
         "flight-mcq-27",
-        "flight-mcq-26",
-        "flight-mcq-28",
-        "flight-mcq-25",
-        "flight-mcq-24",
-        "flight-mcq-23"
+        "flight-mcq-10",
+        "flight-mcq-20",
+        "flight-mcq-11"
       ],
       "explanation": "本句的「flightless」指「無法飛行的」。",
       "sentenceIndex": 59,
@@ -2233,12 +2019,10 @@ export default {
         "flightless"
       ],
       "optionReasons": {
-        "flight-mcq-27": "本句指「無法飛行的」。",
-        "flight-mcq-26": "「容易分心、善變或不夠穩重的」與本句語境不同。",
-        "flight-mcq-28": "「飛行期間發生／提供的；機上的」與本句語境不同。",
-        "flight-mcq-25": "「某些比賽按水平等劃分的組別／級別」與本句語境不同。",
-        "flight-mcq-24": "「軍事航空中的飛行小隊／分隊」與本句語境不同。",
-        "flight-mcq-23": "「一群一起飛行的鳥／飛行編隊」與本句語境不同。"
+        "flight-mcq-27": "本句的「flightless」指「無法飛行的」。",
+        "flight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-27"
     },
@@ -2250,11 +2034,9 @@ export default {
       "masked": "The airline provides ____.",
       "options": [
         "flight-mcq-28",
-        "flight-mcq-27",
-        "flight-mcq-26",
-        "flight-mcq-25",
-        "flight-mcq-24",
-        "flight-mcq-23"
+        "flight-mcq-10",
+        "flight-mcq-11",
+        "flight-mcq-20"
       ],
       "explanation": "本句的「in-flight entertainment」指「飛行期間發生／提供的；機上的」。",
       "sentenceIndex": 60,
@@ -2263,12 +2045,10 @@ export default {
         "in-flight entertainment"
       ],
       "optionReasons": {
-        "flight-mcq-28": "本句指「飛行期間發生／提供的；機上的」。",
-        "flight-mcq-27": "「無法飛行的」與本句語境不同。",
-        "flight-mcq-26": "「容易分心、善變或不夠穩重的」與本句語境不同。",
-        "flight-mcq-25": "「某些比賽按水平等劃分的組別／級別」與本句語境不同。",
-        "flight-mcq-24": "「軍事航空中的飛行小隊／分隊」與本句語境不同。",
-        "flight-mcq-23": "「一群一起飛行的鳥／飛行編隊」與本句語境不同。"
+        "flight-mcq-28": "本句的「in-flight entertainment」指「飛行期間發生／提供的；機上的」。",
+        "flight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-28"
     },
@@ -2280,11 +2060,9 @@ export default {
       "masked": "We ordered an ____.",
       "options": [
         "flight-mcq-28",
-        "flight-mcq-27",
-        "flight-mcq-26",
-        "flight-mcq-25",
-        "flight-mcq-24",
-        "flight-mcq-23"
+        "flight-mcq-20",
+        "flight-mcq-07",
+        "flight-mcq-26"
       ],
       "explanation": "本句的「in-flight meal」指「飛行期間發生／提供的；機上的」。",
       "sentenceIndex": 61,
@@ -2293,12 +2071,10 @@ export default {
         "in-flight meal"
       ],
       "optionReasons": {
-        "flight-mcq-28": "本句指「飛行期間發生／提供的；機上的」。",
-        "flight-mcq-27": "「無法飛行的」與本句語境不同。",
-        "flight-mcq-26": "「容易分心、善變或不夠穩重的」與本句語境不同。",
-        "flight-mcq-25": "「某些比賽按水平等劃分的組別／級別」與本句語境不同。",
-        "flight-mcq-24": "「軍事航空中的飛行小隊／分隊」與本句語境不同。",
-        "flight-mcq-23": "「一群一起飛行的鳥／飛行編隊」與本句語境不同。"
+        "flight-mcq-28": "本句的「in-flight meal」指「飛行期間發生／提供的；機上的」。",
+        "flight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flight-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flight-mcq-28"
     }
@@ -2310,5 +2086,7 @@ export default {
     "sha256": "a914a518d3e3a4e967bbdaa33a459c4117397806e9116fdcd007f2e419a6fbe9",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

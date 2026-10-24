@@ -359,11 +359,8 @@ export default {
       "masked": "She is strong and ____.",
       "options": [
         "healthy-mcq-01",
-        "healthy-mcq-02",
-        "healthy-mcq-03",
-        "healthy-mcq-04",
-        "healthy-mcq-05",
-        "healthy-mcq-06"
+        "healthy-mcq-08",
+        "healthy-mcq-09"
       ],
       "explanation": "本句的「healthy」指「身體運作正常、沒有疾病或明顯健康問題的」。",
       "sentenceIndex": 0,
@@ -372,12 +369,9 @@ export default {
         "healthy"
       ],
       "optionReasons": {
-        "healthy-mcq-01": "本句指「身體運作正常、沒有疾病或明顯健康問題的」。",
-        "healthy-mcq-02": "「生長正常、強健有活力而沒有明顯病害的」與本句語境不同。",
-        "healthy-mcq-03": "「對身體或心理健康有益、有助維持良好狀態的」與本句語境不同。",
-        "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。"
+        "healthy-mcq-01": "本句的「healthy」指「身體運作正常、沒有疾病或明顯健康問題的」。",
+        "healthy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-01"
     },
@@ -389,11 +383,9 @@ export default {
       "masked": "The puppy looks happy and ____.",
       "options": [
         "healthy-mcq-01",
-        "healthy-mcq-02",
-        "healthy-mcq-03",
-        "healthy-mcq-04",
-        "healthy-mcq-05",
-        "healthy-mcq-06"
+        "healthy-mcq-08",
+        "healthy-mcq-07",
+        "healthy-mcq-15"
       ],
       "explanation": "本句的「healthy」指「身體運作正常、沒有疾病或明顯健康問題的」。",
       "sentenceIndex": 1,
@@ -402,12 +394,10 @@ export default {
         "healthy"
       ],
       "optionReasons": {
-        "healthy-mcq-01": "本句指「身體運作正常、沒有疾病或明顯健康問題的」。",
-        "healthy-mcq-02": "「生長正常、強健有活力而沒有明顯病害的」與本句語境不同。",
-        "healthy-mcq-03": "「對身體或心理健康有益、有助維持良好狀態的」與本句語境不同。",
-        "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。"
+        "healthy-mcq-01": "本句的「healthy」指「身體運作正常、沒有疾病或明顯健康問題的」。",
+        "healthy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-01"
     },
@@ -419,11 +409,9 @@ export default {
       "masked": "The seeds turn into something alive and ____.",
       "options": [
         "healthy-mcq-02",
-        "healthy-mcq-01",
-        "healthy-mcq-03",
-        "healthy-mcq-04",
-        "healthy-mcq-05",
-        "healthy-mcq-06"
+        "healthy-mcq-08",
+        "healthy-mcq-09",
+        "healthy-mcq-14"
       ],
       "explanation": "本句的「healthy」指「生長正常、強健有活力而沒有明顯病害的」。",
       "sentenceIndex": 2,
@@ -432,12 +420,10 @@ export default {
         "healthy"
       ],
       "optionReasons": {
-        "healthy-mcq-02": "本句指「生長正常、強健有活力而沒有明顯病害的」。",
-        "healthy-mcq-01": "「身體運作正常、沒有疾病或明顯健康問題的」與本句語境不同。",
-        "healthy-mcq-03": "「對身體或心理健康有益、有助維持良好狀態的」與本句語境不同。",
-        "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。"
+        "healthy-mcq-02": "本句的「healthy」指「生長正常、強健有活力而沒有明顯病害的」。",
+        "healthy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-02"
     },
@@ -449,11 +435,9 @@ export default {
       "masked": "The leaves are green and ____.",
       "options": [
         "healthy-mcq-02",
-        "healthy-mcq-01",
-        "healthy-mcq-03",
-        "healthy-mcq-04",
-        "healthy-mcq-05",
-        "healthy-mcq-06"
+        "healthy-mcq-09",
+        "healthy-mcq-08",
+        "healthy-mcq-10"
       ],
       "explanation": "本句的「healthy」指「生長正常、強健有活力而沒有明顯病害的」。",
       "sentenceIndex": 3,
@@ -462,12 +446,10 @@ export default {
         "healthy"
       ],
       "optionReasons": {
-        "healthy-mcq-02": "本句指「生長正常、強健有活力而沒有明顯病害的」。",
-        "healthy-mcq-01": "「身體運作正常、沒有疾病或明顯健康問題的」與本句語境不同。",
-        "healthy-mcq-03": "「對身體或心理健康有益、有助維持良好狀態的」與本句語境不同。",
-        "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。"
+        "healthy-mcq-02": "本句的「healthy」指「生長正常、強健有活力而沒有明顯病害的」。",
+        "healthy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-02"
     },
@@ -479,11 +461,9 @@ export default {
       "masked": "____ roots are essential for strong plants.",
       "options": [
         "healthy-mcq-02",
-        "healthy-mcq-01",
-        "healthy-mcq-03",
-        "healthy-mcq-04",
-        "healthy-mcq-05",
-        "healthy-mcq-06"
+        "healthy-mcq-09",
+        "healthy-mcq-08",
+        "healthy-mcq-10"
       ],
       "explanation": "本句的「Healthy」指「生長正常、強健有活力而沒有明顯病害的」。",
       "sentenceIndex": 4,
@@ -492,12 +472,10 @@ export default {
         "Healthy"
       ],
       "optionReasons": {
-        "healthy-mcq-02": "本句指「生長正常、強健有活力而沒有明顯病害的」。",
-        "healthy-mcq-01": "「身體運作正常、沒有疾病或明顯健康問題的」與本句語境不同。",
-        "healthy-mcq-03": "「對身體或心理健康有益、有助維持良好狀態的」與本句語境不同。",
-        "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。"
+        "healthy-mcq-02": "本句的「Healthy」指「生長正常、強健有活力而沒有明顯病害的」。",
+        "healthy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-02"
     },
@@ -509,11 +487,8 @@ export default {
       "masked": "Vegetables are part of a ____.",
       "options": [
         "healthy-mcq-03",
-        "healthy-mcq-02",
-        "healthy-mcq-04",
-        "healthy-mcq-01",
         "healthy-mcq-05",
-        "healthy-mcq-06"
+        "healthy-mcq-07"
       ],
       "explanation": "本句的「healthy diet」指「對身體或心理健康有益、有助維持良好狀態的」。",
       "sentenceIndex": 5,
@@ -522,12 +497,9 @@ export default {
         "healthy diet"
       ],
       "optionReasons": {
-        "healthy-mcq-03": "本句指「對身體或心理健康有益、有助維持良好狀態的」。",
-        "healthy-mcq-02": "「生長正常、強健有活力而沒有明顯病害的」與本句語境不同。",
-        "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。",
-        "healthy-mcq-01": "「身體運作正常、沒有疾病或明顯健康問題的」與本句語境不同。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。"
+        "healthy-mcq-03": "本句的「healthy diet」指「對身體或心理健康有益、有助維持良好狀態的」。",
+        "healthy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-03"
     },
@@ -539,11 +511,8 @@ export default {
       "masked": "Walking every day is a ____ habit.",
       "options": [
         "healthy-mcq-03",
-        "healthy-mcq-02",
-        "healthy-mcq-04",
-        "healthy-mcq-01",
         "healthy-mcq-05",
-        "healthy-mcq-06"
+        "healthy-mcq-07"
       ],
       "explanation": "本句的「healthy」指「對身體或心理健康有益、有助維持良好狀態的」。",
       "sentenceIndex": 6,
@@ -552,12 +521,9 @@ export default {
         "healthy"
       ],
       "optionReasons": {
-        "healthy-mcq-03": "本句指「對身體或心理健康有益、有助維持良好狀態的」。",
-        "healthy-mcq-02": "「生長正常、強健有活力而沒有明顯病害的」與本句語境不同。",
-        "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。",
-        "healthy-mcq-01": "「身體運作正常、沒有疾病或明顯健康問題的」與本句語境不同。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。"
+        "healthy-mcq-03": "本句的「healthy」指「對身體或心理健康有益、有助維持良好狀態的」。",
+        "healthy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-03"
     },
@@ -569,11 +535,9 @@ export default {
       "masked": "She cooks simple, ____.",
       "options": [
         "healthy-pdf-001",
-        "healthy-mcq-02",
-        "healthy-mcq-04",
-        "healthy-mcq-01",
-        "healthy-mcq-05",
-        "healthy-mcq-06"
+        "healthy-mcq-08",
+        "healthy-mcq-13",
+        "healthy-mcq-07"
       ],
       "explanation": "本句的「healthy meals」指「營養較均衡，通常脂肪、糖、鹽等不過量，並有助維持健康的食物／餐點」。",
       "sentenceIndex": 7,
@@ -582,12 +546,10 @@ export default {
         "healthy meals"
       ],
       "optionReasons": {
-        "healthy-pdf-001": "本句指「營養較均衡，通常脂肪、糖、鹽等不過量，並有助維持健康的食物／餐點」。",
-        "healthy-mcq-02": "「生長正常、強健有活力而沒有明顯病害的」與本句語境不同。",
-        "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。",
-        "healthy-mcq-01": "「身體運作正常、沒有疾病或明顯健康問題的」與本句語境不同。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。"
+        "healthy-pdf-001": "本句的「healthy meals」指「營養較均衡，通常脂肪、糖、鹽等不過量，並有助維持健康的食物／餐點」。",
+        "healthy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-pdf-001"
     },
@@ -599,11 +561,8 @@ export default {
       "masked": "It is ____ to talk about your feelings.",
       "options": [
         "healthy-mcq-04",
-        "healthy-mcq-03",
-        "healthy-mcq-05",
-        "healthy-mcq-02",
-        "healthy-mcq-06",
-        "healthy-mcq-01"
+        "healthy-mcq-07",
+        "healthy-mcq-05"
       ],
       "explanation": "本句的「healthy」指「有助情緒穩定、成熟處理問題和保持良好心理狀態的」。",
       "sentenceIndex": 8,
@@ -612,12 +571,9 @@ export default {
         "healthy"
       ],
       "optionReasons": {
-        "healthy-mcq-04": "本句指「有助情緒穩定、成熟處理問題和保持良好心理狀態的」。",
-        "healthy-mcq-03": "「對身體或心理健康有益、有助維持良好狀態的」與本句語境不同。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
-        "healthy-mcq-02": "「生長正常、強健有活力而沒有明顯病害的」與本句語境不同。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。",
-        "healthy-mcq-01": "「身體運作正常、沒有疾病或明顯健康問題的」與本句語境不同。"
+        "healthy-mcq-04": "本句的「healthy」指「有助情緒穩定、成熟處理問題和保持良好心理狀態的」。",
+        "healthy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-04"
     },
@@ -629,11 +585,8 @@ export default {
       "masked": "She has a ____ attitude toward failure.",
       "options": [
         "healthy-mcq-04",
-        "healthy-mcq-03",
-        "healthy-mcq-05",
-        "healthy-mcq-02",
-        "healthy-mcq-06",
-        "healthy-mcq-01"
+        "healthy-mcq-07",
+        "healthy-mcq-05"
       ],
       "explanation": "本句的「healthy」指「有助情緒穩定、成熟處理問題和保持良好心理狀態的」。",
       "sentenceIndex": 9,
@@ -642,12 +595,9 @@ export default {
         "healthy"
       ],
       "optionReasons": {
-        "healthy-mcq-04": "本句指「有助情緒穩定、成熟處理問題和保持良好心理狀態的」。",
-        "healthy-mcq-03": "「對身體或心理健康有益、有助維持良好狀態的」與本句語境不同。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
-        "healthy-mcq-02": "「生長正常、強健有活力而沒有明顯病害的」與本句語境不同。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。",
-        "healthy-mcq-01": "「身體運作正常、沒有疾病或明顯健康問題的」與本句語境不同。"
+        "healthy-mcq-04": "本句的「healthy」指「有助情緒穩定、成熟處理問題和保持良好心理狀態的」。",
+        "healthy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-04"
     },
@@ -659,11 +609,9 @@ export default {
       "masked": "They have a ____.",
       "options": [
         "healthy-mcq-05",
-        "healthy-mcq-04",
-        "healthy-mcq-06",
-        "healthy-mcq-03",
-        "healthy-mcq-07",
-        "healthy-mcq-02"
+        "healthy-mcq-11",
+        "healthy-mcq-13",
+        "healthy-pdf-001"
       ],
       "explanation": "本句的「healthy relationship」指「關係運作平衡、互相尊重、不具明顯傷害性的」。",
       "sentenceIndex": 10,
@@ -672,12 +620,10 @@ export default {
         "healthy relationship"
       ],
       "optionReasons": {
-        "healthy-mcq-05": "本句指「關係運作平衡、互相尊重、不具明顯傷害性的」。",
-        "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。",
-        "healthy-mcq-03": "「對身體或心理健康有益、有助維持良好狀態的」與本句語境不同。",
-        "healthy-mcq-07": "「數量、增長或利益相當大而令人滿意的；可觀的」與本句語境不同。",
-        "healthy-mcq-02": "「生長正常、強健有活力而沒有明顯病害的」與本句語境不同。"
+        "healthy-mcq-05": "本句的「healthy relationship」指「關係運作平衡、互相尊重、不具明顯傷害性的」。",
+        "healthy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "healthy-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-05"
     },
@@ -689,11 +635,8 @@ export default {
       "masked": "____ communication requires honesty and respect.",
       "options": [
         "healthy-mcq-05",
-        "healthy-mcq-04",
-        "healthy-mcq-06",
-        "healthy-mcq-03",
-        "healthy-mcq-07",
-        "healthy-mcq-02"
+        "healthy-mcq-14",
+        "healthy-mcq-11"
       ],
       "explanation": "本句的「Healthy」指「關係運作平衡、互相尊重、不具明顯傷害性的」。",
       "sentenceIndex": 11,
@@ -702,12 +645,9 @@ export default {
         "Healthy"
       ],
       "optionReasons": {
-        "healthy-mcq-05": "本句指「關係運作平衡、互相尊重、不具明顯傷害性的」。",
-        "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。",
-        "healthy-mcq-03": "「對身體或心理健康有益、有助維持良好狀態的」與本句語境不同。",
-        "healthy-mcq-07": "「數量、增長或利益相當大而令人滿意的；可觀的」與本句語境不同。",
-        "healthy-mcq-02": "「生長正常、強健有活力而沒有明顯病害的」與本句語境不同。"
+        "healthy-mcq-05": "本句的「Healthy」指「關係運作平衡、互相尊重、不具明顯傷害性的」。",
+        "healthy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-05"
     },
@@ -719,11 +659,9 @@ export default {
       "masked": "The company is in a ____.",
       "options": [
         "healthy-mcq-06",
-        "healthy-mcq-05",
         "healthy-mcq-07",
-        "healthy-mcq-04",
-        "healthy-mcq-08",
-        "healthy-mcq-03"
+        "healthy-mcq-13",
+        "healthy-mcq-15"
       ],
       "explanation": "本句的「healthy financial position」指「運作穩定、健全並具有持續能力的」。",
       "sentenceIndex": 12,
@@ -732,12 +670,10 @@ export default {
         "healthy financial position"
       ],
       "optionReasons": {
-        "healthy-mcq-06": "本句指「運作穩定、健全並具有持續能力的」。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
-        "healthy-mcq-07": "「數量、增長或利益相當大而令人滿意的；可觀的」與本句語境不同。",
-        "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。",
-        "healthy-mcq-08": "「能促進進步而不具破壞性的良性競爭」與本句語境不同。",
-        "healthy-mcq-03": "「對身體或心理健康有益、有助維持良好狀態的」與本句語境不同。"
+        "healthy-mcq-06": "本句的「healthy financial position」指「運作穩定、健全並具有持續能力的」。",
+        "healthy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-06"
     },
@@ -749,11 +685,9 @@ export default {
       "masked": "A ____ economy needs stable growth.",
       "options": [
         "healthy-mcq-06",
-        "healthy-mcq-05",
+        "healthy-mcq-13",
         "healthy-mcq-07",
-        "healthy-mcq-04",
-        "healthy-mcq-08",
-        "healthy-mcq-03"
+        "healthy-mcq-15"
       ],
       "explanation": "本句的「healthy」指「運作穩定、健全並具有持續能力的」。",
       "sentenceIndex": 13,
@@ -762,12 +696,10 @@ export default {
         "healthy"
       ],
       "optionReasons": {
-        "healthy-mcq-06": "本句指「運作穩定、健全並具有持續能力的」。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
-        "healthy-mcq-07": "「數量、增長或利益相當大而令人滿意的；可觀的」與本句語境不同。",
-        "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。",
-        "healthy-mcq-08": "「能促進進步而不具破壞性的良性競爭」與本句語境不同。",
-        "healthy-mcq-03": "「對身體或心理健康有益、有助維持良好狀態的」與本句語境不同。"
+        "healthy-mcq-06": "本句的「healthy」指「運作穩定、健全並具有持續能力的」。",
+        "healthy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-06"
     },
@@ -779,11 +711,9 @@ export default {
       "masked": "The company made a ____.",
       "options": [
         "healthy-mcq-07",
-        "healthy-mcq-06",
-        "healthy-mcq-08",
-        "healthy-mcq-05",
-        "healthy-mcq-09",
-        "healthy-mcq-04"
+        "healthy-mcq-01",
+        "healthy-pdf-002",
+        "healthy-mcq-15"
       ],
       "explanation": "本句的「healthy profit」指「數量、增長或利益相當大而令人滿意的；可觀的」。",
       "sentenceIndex": 14,
@@ -792,12 +722,10 @@ export default {
         "healthy profit"
       ],
       "optionReasons": {
-        "healthy-mcq-07": "本句指「數量、增長或利益相當大而令人滿意的；可觀的」。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。",
-        "healthy-mcq-08": "「能促進進步而不具破壞性的良性競爭」與本句語境不同。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
-        "healthy-mcq-09": "「程度合理並有助安全／理性判斷的敬畏或警惕」與本句語境不同。",
-        "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。"
+        "healthy-mcq-07": "本句的「healthy profit」指「數量、增長或利益相當大而令人滿意的；可觀的」。",
+        "healthy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "healthy-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-07"
     },
@@ -810,10 +738,8 @@ export default {
       "options": [
         "healthy-mcq-07",
         "healthy-mcq-06",
-        "healthy-mcq-08",
-        "healthy-mcq-05",
-        "healthy-mcq-09",
-        "healthy-mcq-04"
+        "healthy-mcq-15",
+        "healthy-mcq-08"
       ],
       "explanation": "本句的「healthy」指「數量、增長或利益相當大而令人滿意的；可觀的」。",
       "sentenceIndex": 15,
@@ -822,12 +748,10 @@ export default {
         "healthy"
       ],
       "optionReasons": {
-        "healthy-mcq-07": "本句指「數量、增長或利益相當大而令人滿意的；可觀的」。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。",
-        "healthy-mcq-08": "「能促進進步而不具破壞性的良性競爭」與本句語境不同。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
-        "healthy-mcq-09": "「程度合理並有助安全／理性判斷的敬畏或警惕」與本句語境不同。",
-        "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。"
+        "healthy-mcq-07": "本句的「healthy」指「數量、增長或利益相當大而令人滿意的；可觀的」。",
+        "healthy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-07"
     },
@@ -839,11 +763,8 @@ export default {
       "masked": "There is ____ competition between the two teams.",
       "options": [
         "healthy-pdf-002",
-        "healthy-mcq-06",
-        "healthy-mcq-08",
-        "healthy-mcq-05",
-        "healthy-mcq-09",
-        "healthy-mcq-04"
+        "healthy-mcq-07",
+        "healthy-mcq-14"
       ],
       "explanation": "本句的「healthy」指「活躍而不失平衡、具有足夠活力和持續性的」。",
       "sentenceIndex": 16,
@@ -852,12 +773,9 @@ export default {
         "healthy"
       ],
       "optionReasons": {
-        "healthy-pdf-002": "本句指「活躍而不失平衡、具有足夠活力和持續性的」。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。",
-        "healthy-mcq-08": "「能促進進步而不具破壞性的良性競爭」與本句語境不同。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
-        "healthy-mcq-09": "「程度合理並有助安全／理性判斷的敬畏或警惕」與本句語境不同。",
-        "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。"
+        "healthy-pdf-002": "本句的「healthy」指「活躍而不失平衡、具有足夠活力和持續性的」。",
+        "healthy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-pdf-002"
     },
@@ -869,11 +787,9 @@ export default {
       "masked": "The market shows ____ demand.",
       "options": [
         "healthy-pdf-002",
-        "healthy-mcq-06",
-        "healthy-mcq-08",
-        "healthy-mcq-05",
-        "healthy-mcq-09",
-        "healthy-mcq-04"
+        "healthy-mcq-12",
+        "healthy-mcq-11",
+        "healthy-mcq-15"
       ],
       "explanation": "本句的「healthy」指「活躍而不失平衡、具有足夠活力和持續性的」。",
       "sentenceIndex": 17,
@@ -882,12 +798,10 @@ export default {
         "healthy"
       ],
       "optionReasons": {
-        "healthy-pdf-002": "本句指「活躍而不失平衡、具有足夠活力和持續性的」。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。",
-        "healthy-mcq-08": "「能促進進步而不具破壞性的良性競爭」與本句語境不同。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。",
-        "healthy-mcq-09": "「程度合理並有助安全／理性判斷的敬畏或警惕」與本句語境不同。",
-        "healthy-mcq-04": "「有助情緒穩定、成熟處理問題和保持良好心理狀態的」與本句語境不同。"
+        "healthy-pdf-002": "本句的「healthy」指「活躍而不失平衡、具有足夠活力和持續性的」。",
+        "healthy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-pdf-002"
     },
@@ -899,11 +813,9 @@ export default {
       "masked": "A little ____ can improve performance.",
       "options": [
         "healthy-mcq-08",
-        "healthy-mcq-07",
-        "healthy-mcq-09",
-        "healthy-mcq-06",
-        "healthy-mcq-10",
-        "healthy-mcq-05"
+        "healthy-mcq-02",
+        "healthy-mcq-11",
+        "healthy-pdf-001"
       ],
       "explanation": "本句的「healthy competition」指「能促進進步而不具破壞性的良性競爭」。",
       "sentenceIndex": 18,
@@ -912,12 +824,10 @@ export default {
         "healthy competition"
       ],
       "optionReasons": {
-        "healthy-mcq-08": "本句指「能促進進步而不具破壞性的良性競爭」。",
-        "healthy-mcq-07": "「數量、增長或利益相當大而令人滿意的；可觀的」與本句語境不同。",
-        "healthy-mcq-09": "「程度合理並有助安全／理性判斷的敬畏或警惕」與本句語境不同。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。",
-        "healthy-mcq-10": "「身體或心理的整體健康狀況」與本句語境不同。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。"
+        "healthy-mcq-08": "本句的「healthy competition」指「能促進進步而不具破壞性的良性競爭」。",
+        "healthy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "healthy-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-08"
     },
@@ -929,11 +839,9 @@ export default {
       "masked": "The teacher encouraged ____ competition among the students.",
       "options": [
         "healthy-mcq-08",
+        "healthy-mcq-01",
         "healthy-mcq-07",
-        "healthy-mcq-09",
-        "healthy-mcq-06",
-        "healthy-mcq-10",
-        "healthy-mcq-05"
+        "healthy-mcq-15"
       ],
       "explanation": "本句的「healthy」指「能促進進步而不具破壞性的良性競爭」。",
       "sentenceIndex": 19,
@@ -942,12 +850,10 @@ export default {
         "healthy"
       ],
       "optionReasons": {
-        "healthy-mcq-08": "本句指「能促進進步而不具破壞性的良性競爭」。",
-        "healthy-mcq-07": "「數量、增長或利益相當大而令人滿意的；可觀的」與本句語境不同。",
-        "healthy-mcq-09": "「程度合理並有助安全／理性判斷的敬畏或警惕」與本句語境不同。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。",
-        "healthy-mcq-10": "「身體或心理的整體健康狀況」與本句語境不同。",
-        "healthy-mcq-05": "「關係運作平衡、互相尊重、不具明顯傷害性的」與本句語境不同。"
+        "healthy-mcq-08": "本句的「healthy」指「能促進進步而不具破壞性的良性競爭」。",
+        "healthy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-08"
     },
@@ -959,11 +865,8 @@ export default {
       "masked": "You should have a ____ for the sea.",
       "options": [
         "healthy-mcq-09",
-        "healthy-mcq-08",
-        "healthy-mcq-10",
-        "healthy-mcq-07",
-        "healthy-mcq-11",
-        "healthy-mcq-06"
+        "healthy-mcq-13",
+        "healthy-mcq-05"
       ],
       "explanation": "本句的「healthy respect」指「程度合理並有助安全／理性判斷的敬畏或警惕」。",
       "sentenceIndex": 20,
@@ -972,12 +875,9 @@ export default {
         "healthy respect"
       ],
       "optionReasons": {
-        "healthy-mcq-09": "本句指「程度合理並有助安全／理性判斷的敬畏或警惕」。",
-        "healthy-mcq-08": "「能促進進步而不具破壞性的良性競爭」與本句語境不同。",
-        "healthy-mcq-10": "「身體或心理的整體健康狀況」與本句語境不同。",
-        "healthy-mcq-07": "「數量、增長或利益相當大而令人滿意的；可觀的」與本句語境不同。",
-        "healthy-mcq-11": "「系統、組織或經濟體的穩定和健全程度」與本句語境不同。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。"
+        "healthy-mcq-09": "本句的「healthy respect」指「程度合理並有助安全／理性判斷的敬畏或警惕」。",
+        "healthy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-09"
     },
@@ -989,11 +889,8 @@ export default {
       "masked": "He has a ____ fear of taking unnecessary risks.",
       "options": [
         "healthy-mcq-09",
-        "healthy-mcq-08",
-        "healthy-mcq-10",
-        "healthy-mcq-07",
-        "healthy-mcq-11",
-        "healthy-mcq-06"
+        "healthy-mcq-12",
+        "healthy-mcq-05"
       ],
       "explanation": "本句的「healthy」指「程度合理並有助安全／理性判斷的敬畏或警惕」。",
       "sentenceIndex": 21,
@@ -1002,12 +899,9 @@ export default {
         "healthy"
       ],
       "optionReasons": {
-        "healthy-mcq-09": "本句指「程度合理並有助安全／理性判斷的敬畏或警惕」。",
-        "healthy-mcq-08": "「能促進進步而不具破壞性的良性競爭」與本句語境不同。",
-        "healthy-mcq-10": "「身體或心理的整體健康狀況」與本句語境不同。",
-        "healthy-mcq-07": "「數量、增長或利益相當大而令人滿意的；可觀的」與本句語境不同。",
-        "healthy-mcq-11": "「系統、組織或經濟體的穩定和健全程度」與本句語境不同。",
-        "healthy-mcq-06": "「運作穩定、健全並具有持續能力的」與本句語境不同。"
+        "healthy-mcq-09": "本句的「healthy」指「程度合理並有助安全／理性判斷的敬畏或警惕」。",
+        "healthy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-09"
     },
@@ -1019,10 +913,7 @@ export default {
       "masked": "Regular exercise is good for your ____.",
       "options": [
         "healthy-mcq-10",
-        "healthy-mcq-09",
-        "healthy-mcq-11",
-        "healthy-mcq-08",
-        "healthy-mcq-12",
+        "healthy-mcq-05",
         "healthy-mcq-07"
       ],
       "explanation": "本句的「health」指「身體或心理的整體健康狀況」。",
@@ -1032,12 +923,9 @@ export default {
         "health"
       ],
       "optionReasons": {
-        "healthy-mcq-10": "本句指「身體或心理的整體健康狀況」。",
-        "healthy-mcq-09": "「程度合理並有助安全／理性判斷的敬畏或警惕」與本句語境不同。",
-        "healthy-mcq-11": "「系統、組織或經濟體的穩定和健全程度」與本句語境不同。",
-        "healthy-mcq-08": "「能促進進步而不具破壞性的良性競爭」與本句語境不同。",
-        "healthy-mcq-12": "「以有益健康或顯示良好生長狀態的方式」與本句語境不同。",
-        "healthy-mcq-07": "「數量、增長或利益相當大而令人滿意的；可觀的」與本句語境不同。"
+        "healthy-mcq-10": "本句的「health」指「身體或心理的整體健康狀況」。",
+        "healthy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-10"
     },
@@ -1049,11 +937,9 @@ export default {
       "masked": "The report examines the ____.",
       "options": [
         "healthy-mcq-11",
-        "healthy-mcq-10",
-        "healthy-mcq-12",
-        "healthy-mcq-09",
-        "healthy-mcq-13",
-        "healthy-mcq-08"
+        "healthy-mcq-05",
+        "healthy-pdf-001",
+        "healthy-mcq-13"
       ],
       "explanation": "本句的「health of the economy」指「系統、組織或經濟體的穩定和健全程度」。",
       "sentenceIndex": 25,
@@ -1062,12 +948,10 @@ export default {
         "health of the economy"
       ],
       "optionReasons": {
-        "healthy-mcq-11": "本句指「系統、組織或經濟體的穩定和健全程度」。",
-        "healthy-mcq-10": "「身體或心理的整體健康狀況」與本句語境不同。",
-        "healthy-mcq-12": "「以有益健康或顯示良好生長狀態的方式」與本句語境不同。",
-        "healthy-mcq-09": "「程度合理並有助安全／理性判斷的敬畏或警惕」與本句語境不同。",
-        "healthy-mcq-13": "「身體／生物狀態不佳或生長不良的」與本句語境不同。",
-        "healthy-mcq-08": "「能促進進步而不具破壞性的良性競爭」與本句語境不同。"
+        "healthy-mcq-11": "本句的「health of the economy」指「系統、組織或經濟體的穩定和健全程度」。",
+        "healthy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "healthy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-11"
     },
@@ -1079,11 +963,9 @@ export default {
       "masked": "She eats ____ most of the time.",
       "options": [
         "healthy-mcq-12",
-        "healthy-mcq-11",
-        "healthy-mcq-13",
-        "healthy-mcq-10",
-        "healthy-mcq-14",
-        "healthy-mcq-09"
+        "healthy-pdf-002",
+        "healthy-mcq-15",
+        "healthy-mcq-11"
       ],
       "explanation": "本句的「healthily」指「以有益健康或顯示良好生長狀態的方式」。",
       "sentenceIndex": 26,
@@ -1092,12 +974,10 @@ export default {
         "healthily"
       ],
       "optionReasons": {
-        "healthy-mcq-12": "本句指「以有益健康或顯示良好生長狀態的方式」。",
-        "healthy-mcq-11": "「系統、組織或經濟體的穩定和健全程度」與本句語境不同。",
-        "healthy-mcq-13": "「身體／生物狀態不佳或生長不良的」與本句語境不同。",
-        "healthy-mcq-10": "「身體或心理的整體健康狀況」與本句語境不同。",
-        "healthy-mcq-14": "「對身體或心理健康有負面影響的」與本句語境不同。",
-        "healthy-mcq-09": "「程度合理並有助安全／理性判斷的敬畏或警惕」與本句語境不同。"
+        "healthy-mcq-12": "本句的「healthily」指「以有益健康或顯示良好生長狀態的方式」。",
+        "healthy-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-12"
     },
@@ -1109,11 +989,9 @@ export default {
       "masked": "The plant looks ____.",
       "options": [
         "healthy-mcq-13",
-        "healthy-mcq-12",
-        "healthy-mcq-14",
-        "healthy-mcq-11",
-        "healthy-mcq-15",
-        "healthy-mcq-10"
+        "healthy-mcq-09",
+        "healthy-mcq-06",
+        "healthy-mcq-08"
       ],
       "explanation": "本句的「unhealthy」指「身體／生物狀態不佳或生長不良的」。",
       "sentenceIndex": 27,
@@ -1122,12 +1000,10 @@ export default {
         "unhealthy"
       ],
       "optionReasons": {
-        "healthy-mcq-13": "本句指「身體／生物狀態不佳或生長不良的」。",
-        "healthy-mcq-12": "「以有益健康或顯示良好生長狀態的方式」與本句語境不同。",
-        "healthy-mcq-14": "「對身體或心理健康有負面影響的」與本句語境不同。",
-        "healthy-mcq-11": "「系統、組織或經濟體的穩定和健全程度」與本句語境不同。",
-        "healthy-mcq-15": "「關係、習慣或心理模式失衡並可能造成傷害的」與本句語境不同。",
-        "healthy-mcq-10": "「身體或心理的整體健康狀況」與本句語境不同。"
+        "healthy-mcq-13": "本句的「unhealthy」指「身體／生物狀態不佳或生長不良的」。",
+        "healthy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-13"
     },
@@ -1139,11 +1015,8 @@ export default {
       "masked": "Too much sugar can be ____.",
       "options": [
         "healthy-mcq-14",
-        "healthy-mcq-13",
-        "healthy-mcq-15",
-        "healthy-mcq-12",
-        "healthy-mcq-11",
-        "healthy-mcq-10"
+        "healthy-pdf-002",
+        "healthy-mcq-07"
       ],
       "explanation": "本句的「unhealthy」指「對身體或心理健康有負面影響的」。",
       "sentenceIndex": 28,
@@ -1152,12 +1025,9 @@ export default {
         "unhealthy"
       ],
       "optionReasons": {
-        "healthy-mcq-14": "本句指「對身體或心理健康有負面影響的」。",
-        "healthy-mcq-13": "「身體／生物狀態不佳或生長不良的」與本句語境不同。",
-        "healthy-mcq-15": "「關係、習慣或心理模式失衡並可能造成傷害的」與本句語境不同。",
-        "healthy-mcq-12": "「以有益健康或顯示良好生長狀態的方式」與本句語境不同。",
-        "healthy-mcq-11": "「系統、組織或經濟體的穩定和健全程度」與本句語境不同。",
-        "healthy-mcq-10": "「身體或心理的整體健康狀況」與本句語境不同。"
+        "healthy-mcq-14": "本句的「unhealthy」指「對身體或心理健康有負面影響的」。",
+        "healthy-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-14"
     },
@@ -1169,11 +1039,9 @@ export default {
       "masked": "Their relationship became ____.",
       "options": [
         "healthy-mcq-15",
-        "healthy-mcq-14",
-        "healthy-mcq-13",
-        "healthy-mcq-12",
+        "healthy-mcq-08",
         "healthy-mcq-11",
-        "healthy-mcq-10"
+        "healthy-mcq-12"
       ],
       "explanation": "本句的「unhealthy」指「關係、習慣或心理模式失衡並可能造成傷害的」。",
       "sentenceIndex": 29,
@@ -1182,12 +1050,10 @@ export default {
         "unhealthy"
       ],
       "optionReasons": {
-        "healthy-mcq-15": "本句指「關係、習慣或心理模式失衡並可能造成傷害的」。",
-        "healthy-mcq-14": "「對身體或心理健康有負面影響的」與本句語境不同。",
-        "healthy-mcq-13": "「身體／生物狀態不佳或生長不良的」與本句語境不同。",
-        "healthy-mcq-12": "「以有益健康或顯示良好生長狀態的方式」與本句語境不同。",
-        "healthy-mcq-11": "「系統、組織或經濟體的穩定和健全程度」與本句語境不同。",
-        "healthy-mcq-10": "「身體或心理的整體健康狀況」與本句語境不同。"
+        "healthy-mcq-15": "本句的「unhealthy」指「關係、習慣或心理模式失衡並可能造成傷害的」。",
+        "healthy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "healthy-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "healthy-mcq-15"
     }
@@ -1199,5 +1065,7 @@ export default {
     "sha256": "a5ef27ba40c95531cf3e362baa35cc1ea6594fec9db7c7c18933447cc895d6b2",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

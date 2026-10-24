@@ -323,11 +323,7 @@ export default {
       "masked": "Rain ____ the view through the window.",
       "options": [
         "blur-mcq-01",
-        "blur-mcq-02",
-        "blur-mcq-03",
-        "blur-mcq-04",
-        "blur-mcq-05",
-        "blur-mcq-06"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blurred」指「令影像、輪廓或細節變得不清楚、不銳利」。",
       "sentenceIndex": 0,
@@ -336,12 +332,8 @@ export default {
         "blurred"
       ],
       "optionReasons": {
-        "blur-mcq-01": "本句指「令影像、輪廓或細節變得不清楚、不銳利」。",
-        "blur-mcq-02": "「影像、視線或輪廓本身逐漸變得不清楚」與本句語境不同。",
-        "blur-mcq-03": "「視覺細節、邊界或輪廓不清楚的」與本句語境不同。",
-        "blur-mcq-04": "「看起來失焦、不清晰的」與本句語境不同。",
-        "blur-mcq-05": "「看不清楚的影像、形狀或快速掠過的東西」與本句語境不同。",
-        "blur-mcq-06": "「令記憶中的細節、先後或區別變得不清楚」與本句語境不同。"
+        "blur-mcq-01": "本句的「blurred」指「令影像、輪廓或細節變得不清楚、不銳利」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-01"
     },
@@ -353,11 +345,7 @@ export default {
       "masked": "Movement ____ the photograph.",
       "options": [
         "blur-mcq-01",
-        "blur-mcq-02",
-        "blur-mcq-03",
-        "blur-mcq-04",
-        "blur-mcq-05",
-        "blur-mcq-06"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blurred」指「令影像、輪廓或細節變得不清楚、不銳利」。",
       "sentenceIndex": 1,
@@ -366,12 +354,8 @@ export default {
         "blurred"
       ],
       "optionReasons": {
-        "blur-mcq-01": "本句指「令影像、輪廓或細節變得不清楚、不銳利」。",
-        "blur-mcq-02": "「影像、視線或輪廓本身逐漸變得不清楚」與本句語境不同。",
-        "blur-mcq-03": "「視覺細節、邊界或輪廓不清楚的」與本句語境不同。",
-        "blur-mcq-04": "「看起來失焦、不清晰的」與本句語境不同。",
-        "blur-mcq-05": "「看不清楚的影像、形狀或快速掠過的東西」與本句語境不同。",
-        "blur-mcq-06": "「令記憶中的細節、先後或區別變得不清楚」與本句語境不同。"
+        "blur-mcq-01": "本句的「blurred」指「令影像、輪廓或細節變得不清楚、不銳利」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-01"
     },
@@ -383,11 +367,7 @@ export default {
       "masked": "The lights ____ in the distance.",
       "options": [
         "blur-mcq-02",
-        "blur-mcq-01",
-        "blur-mcq-03",
-        "blur-mcq-04",
-        "blur-mcq-05",
-        "blur-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「blurred」指「影像、視線或輪廓本身逐漸變得不清楚」。",
       "sentenceIndex": 2,
@@ -396,12 +376,8 @@ export default {
         "blurred"
       ],
       "optionReasons": {
-        "blur-mcq-02": "本句指「影像、視線或輪廓本身逐漸變得不清楚」。",
-        "blur-mcq-01": "「令影像、輪廓或細節變得不清楚、不銳利」與本句語境不同。",
-        "blur-mcq-03": "「視覺細節、邊界或輪廓不清楚的」與本句語境不同。",
-        "blur-mcq-04": "「看起來失焦、不清晰的」與本句語境不同。",
-        "blur-mcq-05": "「看不清楚的影像、形狀或快速掠過的東西」與本句語境不同。",
-        "blur-mcq-06": "「令記憶中的細節、先後或區別變得不清楚」與本句語境不同。"
+        "blur-mcq-02": "本句的「blurred」指「影像、視線或輪廓本身逐漸變得不清楚」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-02"
     },
@@ -413,11 +389,7 @@ export default {
       "masked": "Her vision ____ for a moment.",
       "options": [
         "blur-mcq-02",
-        "blur-mcq-01",
-        "blur-mcq-03",
-        "blur-mcq-04",
-        "blur-mcq-05",
-        "blur-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「blurred」指「影像、視線或輪廓本身逐漸變得不清楚」。",
       "sentenceIndex": 3,
@@ -426,12 +398,8 @@ export default {
         "blurred"
       ],
       "optionReasons": {
-        "blur-mcq-02": "本句指「影像、視線或輪廓本身逐漸變得不清楚」。",
-        "blur-mcq-01": "「令影像、輪廓或細節變得不清楚、不銳利」與本句語境不同。",
-        "blur-mcq-03": "「視覺細節、邊界或輪廓不清楚的」與本句語境不同。",
-        "blur-mcq-04": "「看起來失焦、不清晰的」與本句語境不同。",
-        "blur-mcq-05": "「看不清楚的影像、形狀或快速掠過的東西」與本句語境不同。",
-        "blur-mcq-06": "「令記憶中的細節、先後或區別變得不清楚」與本句語境不同。"
+        "blur-mcq-02": "本句的「blurred」指「影像、視線或輪廓本身逐漸變得不清楚」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-02"
     },
@@ -443,11 +411,7 @@ export default {
       "masked": "I noticed the ____.",
       "options": [
         "blur-mcq-03",
-        "blur-mcq-02",
-        "blur-mcq-04",
-        "blur-mcq-01",
-        "blur-mcq-05",
-        "blur-mcq-06"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blurred reflections」指「視覺細節、邊界或輪廓不清楚的」。",
       "sentenceIndex": 4,
@@ -456,12 +420,8 @@ export default {
         "blurred reflections"
       ],
       "optionReasons": {
-        "blur-mcq-03": "本句指「視覺細節、邊界或輪廓不清楚的」。",
-        "blur-mcq-02": "「影像、視線或輪廓本身逐漸變得不清楚」與本句語境不同。",
-        "blur-mcq-04": "「看起來失焦、不清晰的」與本句語境不同。",
-        "blur-mcq-01": "「令影像、輪廓或細節變得不清楚、不銳利」與本句語境不同。",
-        "blur-mcq-05": "「看不清楚的影像、形狀或快速掠過的東西」與本句語境不同。",
-        "blur-mcq-06": "「令記憶中的細節、先後或區別變得不清楚」與本句語境不同。"
+        "blur-mcq-03": "本句的「blurred reflections」指「視覺細節、邊界或輪廓不清楚的」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-03"
     },
@@ -473,11 +433,7 @@ export default {
       "masked": "The mountains appeared ____ in the mist.",
       "options": [
         "blur-mcq-03",
-        "blur-mcq-02",
-        "blur-mcq-04",
-        "blur-mcq-01",
-        "blur-mcq-05",
-        "blur-mcq-06"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blurred」指「視覺細節、邊界或輪廓不清楚的」。",
       "sentenceIndex": 5,
@@ -486,12 +442,8 @@ export default {
         "blurred"
       ],
       "optionReasons": {
-        "blur-mcq-03": "本句指「視覺細節、邊界或輪廓不清楚的」。",
-        "blur-mcq-02": "「影像、視線或輪廓本身逐漸變得不清楚」與本句語境不同。",
-        "blur-mcq-04": "「看起來失焦、不清晰的」與本句語境不同。",
-        "blur-mcq-01": "「令影像、輪廓或細節變得不清楚、不銳利」與本句語境不同。",
-        "blur-mcq-05": "「看不清楚的影像、形狀或快速掠過的東西」與本句語境不同。",
-        "blur-mcq-06": "「令記憶中的細節、先後或區別變得不清楚」與本句語境不同。"
+        "blur-mcq-03": "本句的「blurred」指「視覺細節、邊界或輪廓不清楚的」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-03"
     },
@@ -503,11 +455,7 @@ export default {
       "masked": "The photo is ____.",
       "options": [
         "blur-mcq-04",
-        "blur-mcq-03",
-        "blur-mcq-05",
-        "blur-mcq-02",
-        "blur-mcq-06",
-        "blur-mcq-01"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blurry」指「看起來失焦、不清晰的」。",
       "sentenceIndex": 6,
@@ -516,12 +464,8 @@ export default {
         "blurry"
       ],
       "optionReasons": {
-        "blur-mcq-04": "本句指「看起來失焦、不清晰的」。",
-        "blur-mcq-03": "「視覺細節、邊界或輪廓不清楚的」與本句語境不同。",
-        "blur-mcq-05": "「看不清楚的影像、形狀或快速掠過的東西」與本句語境不同。",
-        "blur-mcq-02": "「影像、視線或輪廓本身逐漸變得不清楚」與本句語境不同。",
-        "blur-mcq-06": "「令記憶中的細節、先後或區別變得不清楚」與本句語境不同。",
-        "blur-mcq-01": "「令影像、輪廓或細節變得不清楚、不銳利」與本句語境不同。"
+        "blur-mcq-04": "本句的「blurry」指「看起來失焦、不清晰的」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-04"
     },
@@ -533,11 +477,7 @@ export default {
       "masked": "My vision gets ____ when I am tired.",
       "options": [
         "blur-mcq-04",
-        "blur-mcq-03",
-        "blur-mcq-05",
-        "blur-mcq-02",
-        "blur-mcq-06",
-        "blur-mcq-01"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blurry」指「看起來失焦、不清晰的」。",
       "sentenceIndex": 7,
@@ -546,12 +486,8 @@ export default {
         "blurry"
       ],
       "optionReasons": {
-        "blur-mcq-04": "本句指「看起來失焦、不清晰的」。",
-        "blur-mcq-03": "「視覺細節、邊界或輪廓不清楚的」與本句語境不同。",
-        "blur-mcq-05": "「看不清楚的影像、形狀或快速掠過的東西」與本句語境不同。",
-        "blur-mcq-02": "「影像、視線或輪廓本身逐漸變得不清楚」與本句語境不同。",
-        "blur-mcq-06": "「令記憶中的細節、先後或區別變得不清楚」與本句語境不同。",
-        "blur-mcq-01": "「令影像、輪廓或細節變得不清楚、不銳利」與本句語境不同。"
+        "blur-mcq-04": "本句的「blurry」指「看起來失焦、不清晰的」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-04"
     },
@@ -563,11 +499,7 @@ export default {
       "masked": "The car passed in a ____.",
       "options": [
         "blur-mcq-05",
-        "blur-mcq-04",
-        "blur-mcq-06",
-        "blur-mcq-03",
-        "blur-mcq-07",
-        "blur-mcq-02"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blur」指「看不清楚的影像、形狀或快速掠過的東西」。",
       "sentenceIndex": 8,
@@ -576,12 +508,8 @@ export default {
         "blur"
       ],
       "optionReasons": {
-        "blur-mcq-05": "本句指「看不清楚的影像、形狀或快速掠過的東西」。",
-        "blur-mcq-04": "「看起來失焦、不清晰的」與本句語境不同。",
-        "blur-mcq-06": "「令記憶中的細節、先後或區別變得不清楚」與本句語境不同。",
-        "blur-mcq-03": "「視覺細節、邊界或輪廓不清楚的」與本句語境不同。",
-        "blur-mcq-07": "「令兩個類別、概念或界線之間的差異變得不明確」與本句語境不同。",
-        "blur-mcq-02": "「影像、視線或輪廓本身逐漸變得不清楚」與本句語境不同。"
+        "blur-mcq-05": "本句的「blur」指「看不清楚的影像、形狀或快速掠過的東西」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-05"
     },
@@ -593,11 +521,7 @@ export default {
       "masked": "Without my glasses, everything is a ____.",
       "options": [
         "blur-mcq-05",
-        "blur-mcq-04",
-        "blur-mcq-06",
-        "blur-mcq-03",
-        "blur-mcq-07",
-        "blur-mcq-02"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blur」指「看不清楚的影像、形狀或快速掠過的東西」。",
       "sentenceIndex": 9,
@@ -606,12 +530,8 @@ export default {
         "blur"
       ],
       "optionReasons": {
-        "blur-mcq-05": "本句指「看不清楚的影像、形狀或快速掠過的東西」。",
-        "blur-mcq-04": "「看起來失焦、不清晰的」與本句語境不同。",
-        "blur-mcq-06": "「令記憶中的細節、先後或區別變得不清楚」與本句語境不同。",
-        "blur-mcq-03": "「視覺細節、邊界或輪廓不清楚的」與本句語境不同。",
-        "blur-mcq-07": "「令兩個類別、概念或界線之間的差異變得不明確」與本句語境不同。",
-        "blur-mcq-02": "「影像、視線或輪廓本身逐漸變得不清楚」與本句語境不同。"
+        "blur-mcq-05": "本句的「blur」指「看不清楚的影像、形狀或快速掠過的東西」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-05"
     },
@@ -623,11 +543,7 @@ export default {
       "masked": "Time has ____ some of the details.",
       "options": [
         "blur-mcq-06",
-        "blur-mcq-05",
-        "blur-mcq-07",
-        "blur-mcq-04",
-        "blur-mcq-08",
-        "blur-mcq-03"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blurred」指「令記憶中的細節、先後或區別變得不清楚」。",
       "sentenceIndex": 10,
@@ -636,12 +552,8 @@ export default {
         "blurred"
       ],
       "optionReasons": {
-        "blur-mcq-06": "本句指「令記憶中的細節、先後或區別變得不清楚」。",
-        "blur-mcq-05": "「看不清楚的影像、形狀或快速掠過的東西」與本句語境不同。",
-        "blur-mcq-07": "「令兩個類別、概念或界線之間的差異變得不明確」與本句語境不同。",
-        "blur-mcq-04": "「看起來失焦、不清晰的」與本句語境不同。",
-        "blur-mcq-08": "「原本可分辨的事物逐漸混在一起、難以區分」與本句語境不同。",
-        "blur-mcq-03": "「視覺細節、邊界或輪廓不清楚的」與本句語境不同。"
+        "blur-mcq-06": "本句的「blurred」指「令記憶中的細節、先後或區別變得不清楚」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-06"
     },
@@ -653,11 +565,7 @@ export default {
       "masked": "The events began to ____ together in my memory.",
       "options": [
         "blur-mcq-06",
-        "blur-mcq-05",
-        "blur-mcq-07",
-        "blur-mcq-04",
-        "blur-mcq-08",
-        "blur-mcq-03"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blur」指「令記憶中的細節、先後或區別變得不清楚」。",
       "sentenceIndex": 11,
@@ -666,12 +574,8 @@ export default {
         "blur"
       ],
       "optionReasons": {
-        "blur-mcq-06": "本句指「令記憶中的細節、先後或區別變得不清楚」。",
-        "blur-mcq-05": "「看不清楚的影像、形狀或快速掠過的東西」與本句語境不同。",
-        "blur-mcq-07": "「令兩個類別、概念或界線之間的差異變得不明確」與本句語境不同。",
-        "blur-mcq-04": "「看起來失焦、不清晰的」與本句語境不同。",
-        "blur-mcq-08": "「原本可分辨的事物逐漸混在一起、難以區分」與本句語境不同。",
-        "blur-mcq-03": "「視覺細節、邊界或輪廓不清楚的」與本句語境不同。"
+        "blur-mcq-06": "本句的「blur」指「令記憶中的細節、先後或區別變得不清楚」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-06"
     },
@@ -683,11 +587,7 @@ export default {
       "masked": "The film ____ between reality and imagination.",
       "options": [
         "blur-mcq-07",
-        "blur-mcq-06",
-        "blur-mcq-08",
-        "blur-mcq-05",
-        "blur-mcq-09",
-        "blur-mcq-04"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blurs the line」指「令兩個類別、概念或界線之間的差異變得不明確」。",
       "sentenceIndex": 12,
@@ -696,12 +596,8 @@ export default {
         "blurs the line"
       ],
       "optionReasons": {
-        "blur-mcq-07": "本句指「令兩個類別、概念或界線之間的差異變得不明確」。",
-        "blur-mcq-06": "「令記憶中的細節、先後或區別變得不清楚」與本句語境不同。",
-        "blur-mcq-08": "「原本可分辨的事物逐漸混在一起、難以區分」與本句語境不同。",
-        "blur-mcq-05": "「看不清楚的影像、形狀或快速掠過的東西」與本句語境不同。",
-        "blur-mcq-09": "「因移動速度過快而令形狀／細節無法清楚看見」與本句語境不同。",
-        "blur-mcq-04": "「看起來失焦、不清晰的」與本句語境不同。"
+        "blur-mcq-07": "本句的「blurs the line」指「令兩個類別、概念或界線之間的差異變得不明確」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-07"
     },
@@ -713,11 +609,7 @@ export default {
       "masked": "Technology can ____ the boundary between work and home.",
       "options": [
         "blur-mcq-07",
-        "blur-mcq-06",
-        "blur-mcq-08",
-        "blur-mcq-05",
-        "blur-mcq-09",
-        "blur-mcq-04"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blur」指「令兩個類別、概念或界線之間的差異變得不明確」。",
       "sentenceIndex": 13,
@@ -726,12 +618,8 @@ export default {
         "blur"
       ],
       "optionReasons": {
-        "blur-mcq-07": "本句指「令兩個類別、概念或界線之間的差異變得不明確」。",
-        "blur-mcq-06": "「令記憶中的細節、先後或區別變得不清楚」與本句語境不同。",
-        "blur-mcq-08": "「原本可分辨的事物逐漸混在一起、難以區分」與本句語境不同。",
-        "blur-mcq-05": "「看不清楚的影像、形狀或快速掠過的東西」與本句語境不同。",
-        "blur-mcq-09": "「因移動速度過快而令形狀／細節無法清楚看見」與本句語境不同。",
-        "blur-mcq-04": "「看起來失焦、不清晰的」與本句語境不同。"
+        "blur-mcq-07": "本句的「blur」指「令兩個類別、概念或界線之間的差異變得不明確」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-07"
     },
@@ -743,11 +631,7 @@ export default {
       "masked": "After hours of studying, the words began to ____.",
       "options": [
         "blur-mcq-08",
-        "blur-mcq-07",
-        "blur-mcq-09",
-        "blur-mcq-06",
-        "blur-mcq-10",
-        "blur-mcq-05"
+        "blur-mcq-09"
       ],
       "explanation": "本句的「blur together」指「原本可分辨的事物逐漸混在一起、難以區分」。",
       "sentenceIndex": 14,
@@ -756,12 +640,8 @@ export default {
         "blur together"
       ],
       "optionReasons": {
-        "blur-mcq-08": "本句指「原本可分辨的事物逐漸混在一起、難以區分」。",
-        "blur-mcq-07": "「令兩個類別、概念或界線之間的差異變得不明確」與本句語境不同。",
-        "blur-mcq-09": "「因移動速度過快而令形狀／細節無法清楚看見」與本句語境不同。",
-        "blur-mcq-06": "「令記憶中的細節、先後或區別變得不清楚」與本句語境不同。",
-        "blur-mcq-10": "「因忙亂、情緒或事情太多而記不清楚的一段經歷」與本句語境不同。",
-        "blur-mcq-05": "「看不清楚的影像、形狀或快速掠過的東西」與本句語境不同。"
+        "blur-mcq-08": "本句的「blur together」指「原本可分辨的事物逐漸混在一起、難以區分」。",
+        "blur-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-08"
     },
@@ -773,11 +653,7 @@ export default {
       "masked": "The days ____ together during the long trip.",
       "options": [
         "blur-mcq-08",
-        "blur-mcq-07",
-        "blur-mcq-09",
-        "blur-mcq-06",
-        "blur-mcq-10",
-        "blur-mcq-05"
+        "blur-mcq-12"
       ],
       "explanation": "本句的「blurred」指「原本可分辨的事物逐漸混在一起、難以區分」。",
       "sentenceIndex": 15,
@@ -786,12 +662,8 @@ export default {
         "blurred"
       ],
       "optionReasons": {
-        "blur-mcq-08": "本句指「原本可分辨的事物逐漸混在一起、難以區分」。",
-        "blur-mcq-07": "「令兩個類別、概念或界線之間的差異變得不明確」與本句語境不同。",
-        "blur-mcq-09": "「因移動速度過快而令形狀／細節無法清楚看見」與本句語境不同。",
-        "blur-mcq-06": "「令記憶中的細節、先後或區別變得不清楚」與本句語境不同。",
-        "blur-mcq-10": "「因忙亂、情緒或事情太多而記不清楚的一段經歷」與本句語境不同。",
-        "blur-mcq-05": "「看不清楚的影像、形狀或快速掠過的東西」與本句語境不同。"
+        "blur-mcq-08": "本句的「blurred」指「原本可分辨的事物逐漸混在一起、難以區分」。",
+        "blur-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-08"
     },
@@ -803,11 +675,7 @@ export default {
       "masked": "The cyclist shot past in a ____.",
       "options": [
         "blur-mcq-09",
-        "blur-mcq-08",
-        "blur-mcq-10",
-        "blur-mcq-07",
-        "blur-mcq-11",
-        "blur-mcq-06"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blur」指「因移動速度過快而令形狀／細節無法清楚看見」。",
       "sentenceIndex": 16,
@@ -816,12 +684,8 @@ export default {
         "blur"
       ],
       "optionReasons": {
-        "blur-mcq-09": "本句指「因移動速度過快而令形狀／細節無法清楚看見」。",
-        "blur-mcq-08": "「原本可分辨的事物逐漸混在一起、難以區分」與本句語境不同。",
-        "blur-mcq-10": "「因忙亂、情緒或事情太多而記不清楚的一段經歷」與本句語境不同。",
-        "blur-mcq-07": "「令兩個類別、概念或界線之間的差異變得不明確」與本句語境不同。",
-        "blur-mcq-11": "「透過影像處理令某部分看不清，以隱藏資訊或保護私隱」與本句語境不同。",
-        "blur-mcq-06": "「令記憶中的細節、先後或區別變得不清楚」與本句語境不同。"
+        "blur-mcq-09": "本句的「blur」指「因移動速度過快而令形狀／細節無法清楚看見」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-09"
     },
@@ -833,11 +697,7 @@ export default {
       "masked": "The scenery ____ as the train sped up.",
       "options": [
         "blur-mcq-09",
-        "blur-mcq-08",
-        "blur-mcq-10",
-        "blur-mcq-07",
-        "blur-mcq-11",
-        "blur-mcq-06"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blurred」指「因移動速度過快而令形狀／細節無法清楚看見」。",
       "sentenceIndex": 17,
@@ -846,12 +706,8 @@ export default {
         "blurred"
       ],
       "optionReasons": {
-        "blur-mcq-09": "本句指「因移動速度過快而令形狀／細節無法清楚看見」。",
-        "blur-mcq-08": "「原本可分辨的事物逐漸混在一起、難以區分」與本句語境不同。",
-        "blur-mcq-10": "「因忙亂、情緒或事情太多而記不清楚的一段經歷」與本句語境不同。",
-        "blur-mcq-07": "「令兩個類別、概念或界線之間的差異變得不明確」與本句語境不同。",
-        "blur-mcq-11": "「透過影像處理令某部分看不清，以隱藏資訊或保護私隱」與本句語境不同。",
-        "blur-mcq-06": "「令記憶中的細節、先後或區別變得不清楚」與本句語境不同。"
+        "blur-mcq-09": "本句的「blurred」指「因移動速度過快而令形狀／細節無法清楚看見」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-09"
     },
@@ -863,11 +719,7 @@ export default {
       "masked": "The whole week was a ____.",
       "options": [
         "blur-mcq-10",
-        "blur-mcq-09",
-        "blur-mcq-11",
-        "blur-mcq-08",
-        "blur-mcq-12",
-        "blur-mcq-07"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blur」指「因忙亂、情緒或事情太多而記不清楚的一段經歷」。",
       "sentenceIndex": 18,
@@ -876,12 +728,8 @@ export default {
         "blur"
       ],
       "optionReasons": {
-        "blur-mcq-10": "本句指「因忙亂、情緒或事情太多而記不清楚的一段經歷」。",
-        "blur-mcq-09": "「因移動速度過快而令形狀／細節無法清楚看見」與本句語境不同。",
-        "blur-mcq-11": "「透過影像處理令某部分看不清，以隱藏資訊或保護私隱」與本句語境不同。",
-        "blur-mcq-08": "「原本可分辨的事物逐漸混在一起、難以區分」與本句語境不同。",
-        "blur-mcq-12": "「人為降低影像清晰度所形成的視覺效果」與本句語境不同。",
-        "blur-mcq-07": "「令兩個類別、概念或界線之間的差異變得不明確」與本句語境不同。"
+        "blur-mcq-10": "本句的「blur」指「因忙亂、情緒或事情太多而記不清楚的一段經歷」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-10"
     },
@@ -893,11 +741,7 @@ export default {
       "masked": "The first few days after the move were a ____.",
       "options": [
         "blur-mcq-10",
-        "blur-mcq-09",
-        "blur-mcq-11",
-        "blur-mcq-08",
-        "blur-mcq-12",
-        "blur-mcq-07"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blur」指「因忙亂、情緒或事情太多而記不清楚的一段經歷」。",
       "sentenceIndex": 19,
@@ -906,12 +750,8 @@ export default {
         "blur"
       ],
       "optionReasons": {
-        "blur-mcq-10": "本句指「因忙亂、情緒或事情太多而記不清楚的一段經歷」。",
-        "blur-mcq-09": "「因移動速度過快而令形狀／細節無法清楚看見」與本句語境不同。",
-        "blur-mcq-11": "「透過影像處理令某部分看不清，以隱藏資訊或保護私隱」與本句語境不同。",
-        "blur-mcq-08": "「原本可分辨的事物逐漸混在一起、難以區分」與本句語境不同。",
-        "blur-mcq-12": "「人為降低影像清晰度所形成的視覺效果」與本句語境不同。",
-        "blur-mcq-07": "「令兩個類別、概念或界線之間的差異變得不明確」與本句語境不同。"
+        "blur-mcq-10": "本句的「blur」指「因忙亂、情緒或事情太多而記不清楚的一段經歷」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-10"
     },
@@ -923,10 +763,6 @@ export default {
       "masked": "The faces were ____ for privacy.",
       "options": [
         "blur-mcq-11",
-        "blur-mcq-10",
-        "blur-mcq-12",
-        "blur-mcq-09",
-        "blur-mcq-13",
         "blur-mcq-08"
       ],
       "explanation": "本句的「blurred」指「透過影像處理令某部分看不清，以隱藏資訊或保護私隱」。",
@@ -936,12 +772,8 @@ export default {
         "blurred"
       ],
       "optionReasons": {
-        "blur-mcq-11": "本句指「透過影像處理令某部分看不清，以隱藏資訊或保護私隱」。",
-        "blur-mcq-10": "「因忙亂、情緒或事情太多而記不清楚的一段經歷」與本句語境不同。",
-        "blur-mcq-12": "「人為降低影像清晰度所形成的視覺效果」與本句語境不同。",
-        "blur-mcq-09": "「因移動速度過快而令形狀／細節無法清楚看見」與本句語境不同。",
-        "blur-mcq-13": "「移動物體因拍攝／顯示而留下的模糊拖影」與本句語境不同。",
-        "blur-mcq-08": "「原本可分辨的事物逐漸混在一起、難以區分」與本句語境不同。"
+        "blur-mcq-11": "本句的「blurred」指「透過影像處理令某部分看不清，以隱藏資訊或保護私隱」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-11"
     },
@@ -953,10 +785,6 @@ export default {
       "masked": "The licence plate was ____ in the video.",
       "options": [
         "blur-mcq-11",
-        "blur-mcq-10",
-        "blur-mcq-12",
-        "blur-mcq-09",
-        "blur-mcq-13",
         "blur-mcq-08"
       ],
       "explanation": "本句的「blurred」指「透過影像處理令某部分看不清，以隱藏資訊或保護私隱」。",
@@ -966,12 +794,8 @@ export default {
         "blurred"
       ],
       "optionReasons": {
-        "blur-mcq-11": "本句指「透過影像處理令某部分看不清，以隱藏資訊或保護私隱」。",
-        "blur-mcq-10": "「因忙亂、情緒或事情太多而記不清楚的一段經歷」與本句語境不同。",
-        "blur-mcq-12": "「人為降低影像清晰度所形成的視覺效果」與本句語境不同。",
-        "blur-mcq-09": "「因移動速度過快而令形狀／細節無法清楚看見」與本句語境不同。",
-        "blur-mcq-13": "「移動物體因拍攝／顯示而留下的模糊拖影」與本句語境不同。",
-        "blur-mcq-08": "「原本可分辨的事物逐漸混在一起、難以區分」與本句語境不同。"
+        "blur-mcq-11": "本句的「blurred」指「透過影像處理令某部分看不清，以隱藏資訊或保護私隱」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-11"
     },
@@ -983,11 +807,7 @@ export default {
       "masked": "The photographer used ____ to emphasize the subject.",
       "options": [
         "blur-mcq-12",
-        "blur-mcq-11",
-        "blur-mcq-13",
-        "blur-mcq-10",
-        "blur-mcq-14",
-        "blur-mcq-09"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「background blur」指「人為降低影像清晰度所形成的視覺效果」。",
       "sentenceIndex": 22,
@@ -996,12 +816,8 @@ export default {
         "background blur"
       ],
       "optionReasons": {
-        "blur-mcq-12": "本句指「人為降低影像清晰度所形成的視覺效果」。",
-        "blur-mcq-11": "「透過影像處理令某部分看不清，以隱藏資訊或保護私隱」與本句語境不同。",
-        "blur-mcq-13": "「移動物體因拍攝／顯示而留下的模糊拖影」與本句語境不同。",
-        "blur-mcq-10": "「因忙亂、情緒或事情太多而記不清楚的一段經歷」與本句語境不同。",
-        "blur-mcq-14": "「影像、視線或輪廓缺乏清晰度的狀態／程度」與本句語境不同。",
-        "blur-mcq-09": "「因移動速度過快而令形狀／細節無法清楚看見」與本句語境不同。"
+        "blur-mcq-12": "本句的「background blur」指「人為降低影像清晰度所形成的視覺效果」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-12"
     },
@@ -1013,11 +829,7 @@ export default {
       "masked": "The app adds a ____ effect to the image.",
       "options": [
         "blur-mcq-12",
-        "blur-mcq-11",
-        "blur-mcq-13",
-        "blur-mcq-10",
-        "blur-mcq-14",
-        "blur-mcq-09"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blur」指「人為降低影像清晰度所形成的視覺效果」。",
       "sentenceIndex": 23,
@@ -1026,12 +838,8 @@ export default {
         "blur"
       ],
       "optionReasons": {
-        "blur-mcq-12": "本句指「人為降低影像清晰度所形成的視覺效果」。",
-        "blur-mcq-11": "「透過影像處理令某部分看不清，以隱藏資訊或保護私隱」與本句語境不同。",
-        "blur-mcq-13": "「移動物體因拍攝／顯示而留下的模糊拖影」與本句語境不同。",
-        "blur-mcq-10": "「因忙亂、情緒或事情太多而記不清楚的一段經歷」與本句語境不同。",
-        "blur-mcq-14": "「影像、視線或輪廓缺乏清晰度的狀態／程度」與本句語境不同。",
-        "blur-mcq-09": "「因移動速度過快而令形狀／細節無法清楚看見」與本句語境不同。"
+        "blur-mcq-12": "本句的「blur」指「人為降低影像清晰度所形成的視覺效果」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-12"
     },
@@ -1043,11 +851,7 @@ export default {
       "masked": "The photograph shows strong ____.",
       "options": [
         "blur-mcq-13",
-        "blur-mcq-12",
-        "blur-mcq-14",
-        "blur-mcq-11",
-        "blur-mcq-10",
-        "blur-mcq-09"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「motion blur」指「移動物體因拍攝／顯示而留下的模糊拖影」。",
       "sentenceIndex": 24,
@@ -1056,12 +860,8 @@ export default {
         "motion blur"
       ],
       "optionReasons": {
-        "blur-mcq-13": "本句指「移動物體因拍攝／顯示而留下的模糊拖影」。",
-        "blur-mcq-12": "「人為降低影像清晰度所形成的視覺效果」與本句語境不同。",
-        "blur-mcq-14": "「影像、視線或輪廓缺乏清晰度的狀態／程度」與本句語境不同。",
-        "blur-mcq-11": "「透過影像處理令某部分看不清，以隱藏資訊或保護私隱」與本句語境不同。",
-        "blur-mcq-10": "「因忙亂、情緒或事情太多而記不清楚的一段經歷」與本句語境不同。",
-        "blur-mcq-09": "「因移動速度過快而令形狀／細節無法清楚看見」與本句語境不同。"
+        "blur-mcq-13": "本句的「motion blur」指「移動物體因拍攝／顯示而留下的模糊拖影」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-13"
     },
@@ -1073,11 +873,7 @@ export default {
       "masked": "A slower shutter speed can create motion ____.",
       "options": [
         "blur-mcq-13",
-        "blur-mcq-12",
-        "blur-mcq-14",
-        "blur-mcq-11",
-        "blur-mcq-10",
-        "blur-mcq-09"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blur」指「移動物體因拍攝／顯示而留下的模糊拖影」。",
       "sentenceIndex": 25,
@@ -1086,12 +882,8 @@ export default {
         "blur"
       ],
       "optionReasons": {
-        "blur-mcq-13": "本句指「移動物體因拍攝／顯示而留下的模糊拖影」。",
-        "blur-mcq-12": "「人為降低影像清晰度所形成的視覺效果」與本句語境不同。",
-        "blur-mcq-14": "「影像、視線或輪廓缺乏清晰度的狀態／程度」與本句語境不同。",
-        "blur-mcq-11": "「透過影像處理令某部分看不清，以隱藏資訊或保護私隱」與本句語境不同。",
-        "blur-mcq-10": "「因忙亂、情緒或事情太多而記不清楚的一段經歷」與本句語境不同。",
-        "blur-mcq-09": "「因移動速度過快而令形狀／細節無法清楚看見」與本句語境不同。"
+        "blur-mcq-13": "本句的「blur」指「移動物體因拍攝／顯示而留下的模糊拖影」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-13"
     },
@@ -1103,11 +895,7 @@ export default {
       "masked": "The ____ of the image made the text hard to read.",
       "options": [
         "blur-mcq-14",
-        "blur-mcq-13",
-        "blur-mcq-12",
-        "blur-mcq-11",
-        "blur-mcq-10",
-        "blur-mcq-09"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blurriness」指「影像、視線或輪廓缺乏清晰度的狀態／程度」。",
       "sentenceIndex": 28,
@@ -1116,12 +904,8 @@ export default {
         "blurriness"
       ],
       "optionReasons": {
-        "blur-mcq-14": "本句指「影像、視線或輪廓缺乏清晰度的狀態／程度」。",
-        "blur-mcq-13": "「移動物體因拍攝／顯示而留下的模糊拖影」與本句語境不同。",
-        "blur-mcq-12": "「人為降低影像清晰度所形成的視覺效果」與本句語境不同。",
-        "blur-mcq-11": "「透過影像處理令某部分看不清，以隱藏資訊或保護私隱」與本句語境不同。",
-        "blur-mcq-10": "「因忙亂、情緒或事情太多而記不清楚的一段經歷」與本句語境不同。",
-        "blur-mcq-09": "「因移動速度過快而令形狀／細節無法清楚看見」與本句語境不同。"
+        "blur-mcq-14": "本句的「blurriness」指「影像、視線或輪廓缺乏清晰度的狀態／程度」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-14"
     },
@@ -1133,11 +917,7 @@ export default {
       "masked": "Some ____ was caused by camera movement.",
       "options": [
         "blur-mcq-14",
-        "blur-mcq-13",
-        "blur-mcq-12",
-        "blur-mcq-11",
-        "blur-mcq-10",
-        "blur-mcq-09"
+        "blur-mcq-08"
       ],
       "explanation": "本句的「blurriness」指「影像、視線或輪廓缺乏清晰度的狀態／程度」。",
       "sentenceIndex": 29,
@@ -1146,12 +926,8 @@ export default {
         "blurriness"
       ],
       "optionReasons": {
-        "blur-mcq-14": "本句指「影像、視線或輪廓缺乏清晰度的狀態／程度」。",
-        "blur-mcq-13": "「移動物體因拍攝／顯示而留下的模糊拖影」與本句語境不同。",
-        "blur-mcq-12": "「人為降低影像清晰度所形成的視覺效果」與本句語境不同。",
-        "blur-mcq-11": "「透過影像處理令某部分看不清，以隱藏資訊或保護私隱」與本句語境不同。",
-        "blur-mcq-10": "「因忙亂、情緒或事情太多而記不清楚的一段經歷」與本句語境不同。",
-        "blur-mcq-09": "「因移動速度過快而令形狀／細節無法清楚看見」與本句語境不同。"
+        "blur-mcq-14": "本句的「blurriness」指「影像、視線或輪廓缺乏清晰度的狀態／程度」。",
+        "blur-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blur-mcq-14"
     }
@@ -1163,5 +939,12 @@ export default {
     "sha256": "378394afa6c20c63bb122f902bd3328f221de69f7dd6dce466d0432534ad0e71",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

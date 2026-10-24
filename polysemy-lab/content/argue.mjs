@@ -400,13 +400,7 @@ export default {
       "en": "argumentative — person",
       "zh": "愛爭辯、容易與別人爭論的",
       "note": "來源詞義：愛爭辯、容易與別人爭論的",
-      "examples": [
-        [
-          "Students must write an argumentative essay.",
-          "學生必須寫一篇議論文／論證性文章。",
-          "愛爭辯、容易與別人爭論的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -417,13 +411,7 @@ export default {
       "en": "argumentative — essay/writing",
       "zh": "以明確立場、論據和證據進行論證的",
       "note": "來源詞義：以明確立場、論據和證據進行論證的",
-      "examples": [
-        [
-          "He becomes argumentative when he is tired.",
-          "他累的時候很容易變得愛爭辯／愛抬槓。",
-          "以明確立場、論據和證據進行論證的"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -438,11 +426,6 @@ export default {
         [
           "The course teaches critical thinking and argumentation.",
           "課程教授批判思考和論證技巧。",
-          "建構、分析和評估論證的過程／方法"
-        ],
-        [
-          "The assignment requires an argumentative structure.",
-          "這份作業要求採用論證性結構。",
           "建構、分析和評估論證的過程／方法"
         ]
       ],
@@ -664,6 +647,57 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "argue-reviewed-8cd89d7305",
+      "title": "提出立場並用理由和證據支持的議論文",
+      "form": "argue · source section 61",
+      "en": "提出立場並用理由和證據支持的議論文",
+      "zh": "提出立場並用理由和證據支持的議論文",
+      "note": "對照原始教材第 61 節及例句核實。",
+      "examples": [
+        [
+          "Students must write an argumentative essay.",
+          "學生必須寫一篇議論文／論證性文章。",
+          "提出立場並用理由和證據支持的議論文"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "argue-reviewed-320f7ccf3b",
+      "title": "愛爭辯、好爭論的",
+      "form": "argue · source section 66",
+      "en": "愛爭辯、好爭論的",
+      "zh": "愛爭辯、好爭論的",
+      "note": "對照原始教材第 66 節及例句核實。",
+      "examples": [
+        [
+          "He becomes argumentative when he is tired.",
+          "他累的時候很容易變得愛爭辯／愛抬槓。",
+          "愛爭辯、好爭論的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "argue-reviewed-e15dbda163",
+      "title": "提出理由以支持某個立場的；論證性的",
+      "form": "argue · source section 69",
+      "en": "提出理由以支持某個立場的；論證性的",
+      "zh": "提出理由以支持某個立場的；論證性的",
+      "note": "對照原始教材第 69 節及例句核實。",
+      "examples": [
+        [
+          "The assignment requires an argumentative structure.",
+          "這份作業要求採用論證性結構。",
+          "提出理由以支持某個立場的；論證性的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -675,11 +709,8 @@ export default {
       "masked": "Some people ____ restaurants provide students with much-needed study space.",
       "options": [
         "argue-mcq-01",
-        "argue-mcq-02",
-        "argue-mcq-03",
-        "argue-mcq-04",
-        "argue-mcq-05",
-        "argue-mcq-06"
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argue that」指「提出理由支持「X 為真／合理」這項主張」。",
       "sentenceIndex": 0,
@@ -688,12 +719,9 @@ export default {
         "argue that"
       ],
       "optionReasons": {
-        "argue-mcq-01": "本句指「提出理由支持「X 為真／合理」這項主張」。",
-        "argue-mcq-02": "「提出論據支持 X」與本句語境不同。",
-        "argue-mcq-03": "「提出論據反對 X」與本句語境不同。",
-        "argue-mcq-04": "「有系統地陳述支持自己立場／要求的理由」與本句語境不同。",
-        "argue-mcq-05": "「論證某個具體觀點／立場」與本句語境不同。",
-        "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。"
+        "argue-mcq-01": "本句的「argue that」指「提出理由支持「X 為真／合理」這項主張」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-01"
     },
@@ -705,11 +733,8 @@ export default {
       "masked": "Researchers ____ the change could improve efficiency.",
       "options": [
         "argue-mcq-01",
-        "argue-mcq-02",
-        "argue-mcq-03",
-        "argue-mcq-04",
-        "argue-mcq-05",
-        "argue-mcq-06"
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argue that」指「提出理由支持「X 為真／合理」這項主張」。",
       "sentenceIndex": 1,
@@ -718,12 +743,9 @@ export default {
         "argue that"
       ],
       "optionReasons": {
-        "argue-mcq-01": "本句指「提出理由支持「X 為真／合理」這項主張」。",
-        "argue-mcq-02": "「提出論據支持 X」與本句語境不同。",
-        "argue-mcq-03": "「提出論據反對 X」與本句語境不同。",
-        "argue-mcq-04": "「有系統地陳述支持自己立場／要求的理由」與本句語境不同。",
-        "argue-mcq-05": "「論證某個具體觀點／立場」與本句語境不同。",
-        "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。"
+        "argue-mcq-01": "本句的「argue that」指「提出理由支持「X 為真／合理」這項主張」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-01"
     },
@@ -735,11 +757,8 @@ export default {
       "masked": "She ____ the evidence was insufficient.",
       "options": [
         "argue-mcq-01",
-        "argue-mcq-02",
-        "argue-mcq-03",
-        "argue-mcq-04",
-        "argue-mcq-05",
-        "argue-mcq-06"
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argued that」指「提出理由支持「X 為真／合理」這項主張」。",
       "sentenceIndex": 2,
@@ -748,12 +767,9 @@ export default {
         "argued that"
       ],
       "optionReasons": {
-        "argue-mcq-01": "本句指「提出理由支持「X 為真／合理」這項主張」。",
-        "argue-mcq-02": "「提出論據支持 X」與本句語境不同。",
-        "argue-mcq-03": "「提出論據反對 X」與本句語境不同。",
-        "argue-mcq-04": "「有系統地陳述支持自己立場／要求的理由」與本句語境不同。",
-        "argue-mcq-05": "「論證某個具體觀點／立場」與本句語境不同。",
-        "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。"
+        "argue-mcq-01": "本句的「argued that」指「提出理由支持「X 為真／合理」這項主張」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-01"
     },
@@ -765,11 +781,8 @@ export default {
       "masked": "The report ____ greater investment in public facilities.",
       "options": [
         "argue-pdf-001",
-        "argue-mcq-01",
-        "argue-mcq-03",
-        "argue-mcq-04",
-        "argue-mcq-05",
-        "argue-mcq-06"
+        "argue-mcq-37",
+        "argue-mcq-09"
       ],
       "explanation": "本句的「argues for」指「說明為甚麼 X 應該被接受、採取或相信」。",
       "sentenceIndex": 3,
@@ -778,12 +791,9 @@ export default {
         "argues for"
       ],
       "optionReasons": {
-        "argue-pdf-001": "本句指「說明為甚麼 X 應該被接受、採取或相信」。",
-        "argue-mcq-01": "「提出理由支持「X 為真／合理」這項主張」與本句語境不同。",
-        "argue-mcq-03": "「提出論據反對 X」與本句語境不同。",
-        "argue-mcq-04": "「有系統地陳述支持自己立場／要求的理由」與本句語境不同。",
-        "argue-mcq-05": "「論證某個具體觀點／立場」與本句語境不同。",
-        "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。"
+        "argue-pdf-001": "本句的「argues for」指「說明為甚麼 X 應該被接受、採取或相信」。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-pdf-001"
     },
@@ -795,11 +805,8 @@ export default {
       "masked": "She argued strongly ____ the proposal.",
       "options": [
         "argue-pdf-001",
-        "argue-mcq-01",
-        "argue-mcq-03",
-        "argue-mcq-04",
-        "argue-mcq-05",
-        "argue-mcq-06"
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「for」指「說明為甚麼 X 應該被接受、採取或相信」。",
       "sentenceIndex": 4,
@@ -808,12 +815,9 @@ export default {
         "for"
       ],
       "optionReasons": {
-        "argue-pdf-001": "本句指「說明為甚麼 X 應該被接受、採取或相信」。",
-        "argue-mcq-01": "「提出理由支持「X 為真／合理」這項主張」與本句語境不同。",
-        "argue-mcq-03": "「提出論據反對 X」與本句語境不同。",
-        "argue-mcq-04": "「有系統地陳述支持自己立場／要求的理由」與本句語境不同。",
-        "argue-mcq-05": "「論證某個具體觀點／立場」與本句語境不同。",
-        "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。"
+        "argue-pdf-001": "本句的「for」指「說明為甚麼 X 應該被接受、採取或相信」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-pdf-001"
     },
@@ -825,11 +829,8 @@ export default {
       "masked": "He ____ introducing the new rule.",
       "options": [
         "argue-mcq-03",
-        "argue-mcq-02",
-        "argue-mcq-04",
-        "argue-mcq-01",
-        "argue-mcq-05",
-        "argue-mcq-06"
+        "argue-mcq-39",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argued against」指「提出論據反對 X」。",
       "sentenceIndex": 5,
@@ -838,12 +839,9 @@ export default {
         "argued against"
       ],
       "optionReasons": {
-        "argue-mcq-03": "本句指「提出論據反對 X」。",
-        "argue-mcq-02": "「提出論據支持 X」與本句語境不同。",
-        "argue-mcq-04": "「有系統地陳述支持自己立場／要求的理由」與本句語境不同。",
-        "argue-mcq-01": "「提出理由支持「X 為真／合理」這項主張」與本句語境不同。",
-        "argue-mcq-05": "「論證某個具體觀點／立場」與本句語境不同。",
-        "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。"
+        "argue-mcq-03": "本句的「argued against」指「提出論據反對 X」。",
+        "argue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-03"
     },
@@ -855,11 +853,8 @@ export default {
       "masked": "Several speakers ____ against the proposal.",
       "options": [
         "argue-mcq-03",
-        "argue-mcq-02",
-        "argue-mcq-04",
-        "argue-mcq-01",
-        "argue-mcq-05",
-        "argue-mcq-06"
+        "argue-mcq-39",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argued」指「提出論據反對 X」。",
       "sentenceIndex": 6,
@@ -868,12 +863,9 @@ export default {
         "argued"
       ],
       "optionReasons": {
-        "argue-mcq-03": "本句指「提出論據反對 X」。",
-        "argue-mcq-02": "「提出論據支持 X」與本句語境不同。",
-        "argue-mcq-04": "「有系統地陳述支持自己立場／要求的理由」與本句語境不同。",
-        "argue-mcq-01": "「提出理由支持「X 為真／合理」這項主張」與本句語境不同。",
-        "argue-mcq-05": "「論證某個具體觀點／立場」與本句語境不同。",
-        "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。"
+        "argue-mcq-03": "本句的「argued」指「提出論據反對 X」。",
+        "argue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-03"
     },
@@ -885,11 +877,8 @@ export default {
       "masked": "The author ____ the case for reform.",
       "options": [
         "argue-mcq-03",
-        "argue-mcq-02",
-        "argue-mcq-04",
-        "argue-mcq-01",
-        "argue-mcq-05",
-        "argue-mcq-06"
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argues」指「提出論據反對 X」。",
       "sentenceIndex": 8,
@@ -898,12 +887,9 @@ export default {
         "argues"
       ],
       "optionReasons": {
-        "argue-mcq-03": "本句指「提出論據反對 X」。",
-        "argue-mcq-02": "「提出論據支持 X」與本句語境不同。",
-        "argue-mcq-04": "「有系統地陳述支持自己立場／要求的理由」與本句語境不同。",
-        "argue-mcq-01": "「提出理由支持「X 為真／合理」這項主張」與本句語境不同。",
-        "argue-mcq-05": "「論證某個具體觀點／立場」與本句語境不同。",
-        "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。"
+        "argue-mcq-03": "本句的「argues」指「提出論據反對 X」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-03"
     },
@@ -915,11 +901,8 @@ export default {
       "masked": "Give her a chance to ____.",
       "options": [
         "argue-mcq-04",
-        "argue-mcq-03",
-        "argue-mcq-05",
-        "argue-mcq-02",
-        "argue-mcq-06",
-        "argue-mcq-01"
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argue her case」指「有系統地陳述支持自己立場／要求的理由」。",
       "sentenceIndex": 9,
@@ -928,12 +911,9 @@ export default {
         "argue her case"
       ],
       "optionReasons": {
-        "argue-mcq-04": "本句指「有系統地陳述支持自己立場／要求的理由」。",
-        "argue-mcq-03": "「提出論據反對 X」與本句語境不同。",
-        "argue-mcq-05": "「論證某個具體觀點／立場」與本句語境不同。",
-        "argue-mcq-02": "「提出論據支持 X」與本句語境不同。",
-        "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。",
-        "argue-mcq-01": "「提出理由支持「X 為真／合理」這項主張」與本句語境不同。"
+        "argue-mcq-04": "本句的「argue her case」指「有系統地陳述支持自己立場／要求的理由」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-04"
     },
@@ -945,11 +925,8 @@ export default {
       "masked": "He ____ the point very effectively.",
       "options": [
         "argue-mcq-05",
-        "argue-mcq-04",
-        "argue-mcq-06",
-        "argue-mcq-03",
-        "argue-mcq-07",
-        "argue-mcq-02"
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argued」指「論證某個具體觀點／立場」。",
       "sentenceIndex": 10,
@@ -958,12 +935,9 @@ export default {
         "argued"
       ],
       "optionReasons": {
-        "argue-mcq-05": "本句指「論證某個具體觀點／立場」。",
-        "argue-mcq-04": "「有系統地陳述支持自己立場／要求的理由」與本句語境不同。",
-        "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。",
-        "argue-mcq-03": "「提出論據反對 X」與本句語境不同。",
-        "argue-mcq-07": "「與某人發生口頭爭論／爭吵」與本句語境不同。",
-        "argue-mcq-02": "「提出論據支持 X」與本句語境不同。"
+        "argue-mcq-05": "本句的「argued」指「論證某個具體觀點／立場」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-05"
     },
@@ -975,11 +949,8 @@ export default {
       "masked": "A strong essay should understand and, where appropriate, ____.",
       "options": [
         "argue-mcq-05",
-        "argue-mcq-04",
-        "argue-mcq-06",
-        "argue-mcq-03",
-        "argue-mcq-07",
-        "argue-mcq-02"
+        "argue-mcq-39",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argue both sides」指「論證某個具體觀點／立場」。",
       "sentenceIndex": 11,
@@ -988,12 +959,9 @@ export default {
         "argue both sides"
       ],
       "optionReasons": {
-        "argue-mcq-05": "本句指「論證某個具體觀點／立場」。",
-        "argue-mcq-04": "「有系統地陳述支持自己立場／要求的理由」與本句語境不同。",
-        "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。",
-        "argue-mcq-03": "「提出論據反對 X」與本句語境不同。",
-        "argue-mcq-07": "「與某人發生口頭爭論／爭吵」與本句語境不同。",
-        "argue-mcq-02": "「提出論據支持 X」與本句語境不同。"
+        "argue-mcq-05": "本句的「argue both sides」指「論證某個具體觀點／立場」。",
+        "argue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-05"
     },
@@ -1005,11 +973,8 @@ export default {
       "masked": "The author ____ historical evidence.",
       "options": [
         "argue-mcq-06",
-        "argue-mcq-05",
-        "argue-mcq-07",
-        "argue-mcq-04",
-        "argue-mcq-08",
-        "argue-mcq-03"
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argues from」指「以證據／原則作為推論基礎」。",
       "sentenceIndex": 12,
@@ -1018,12 +983,9 @@ export default {
         "argues from"
       ],
       "optionReasons": {
-        "argue-mcq-06": "本句指「以證據／原則作為推論基礎」。",
-        "argue-mcq-05": "「論證某個具體觀點／立場」與本句語境不同。",
-        "argue-mcq-07": "「與某人發生口頭爭論／爭吵」與本句語境不同。",
-        "argue-mcq-04": "「有系統地陳述支持自己立場／要求的理由」與本句語境不同。",
-        "argue-mcq-08": "「因 X 而意見不合、爭論」與本句語境不同。",
-        "argue-mcq-03": "「提出論據反對 X」與本句語境不同。"
+        "argue-mcq-06": "本句的「argues from」指「以證據／原則作為推論基礎」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-06"
     },
@@ -1035,11 +997,8 @@ export default {
       "masked": "They ____ on the basis of the available data.",
       "options": [
         "argue-mcq-06",
-        "argue-mcq-05",
-        "argue-mcq-07",
-        "argue-mcq-04",
-        "argue-mcq-08",
-        "argue-mcq-03"
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argued」指「以證據／原則作為推論基礎」。",
       "sentenceIndex": 13,
@@ -1048,12 +1007,9 @@ export default {
         "argued"
       ],
       "optionReasons": {
-        "argue-mcq-06": "本句指「以證據／原則作為推論基礎」。",
-        "argue-mcq-05": "「論證某個具體觀點／立場」與本句語境不同。",
-        "argue-mcq-07": "「與某人發生口頭爭論／爭吵」與本句語境不同。",
-        "argue-mcq-04": "「有系統地陳述支持自己立場／要求的理由」與本句語境不同。",
-        "argue-mcq-08": "「因 X 而意見不合、爭論」與本句語境不同。",
-        "argue-mcq-03": "「提出論據反對 X」與本句語境不同。"
+        "argue-mcq-06": "本句的「argued」指「以證據／原則作為推論基礎」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-06"
     },
@@ -1065,11 +1021,8 @@ export default {
       "masked": "I don't want to ____ you.",
       "options": [
         "argue-mcq-07",
-        "argue-mcq-06",
-        "argue-mcq-08",
-        "argue-mcq-05",
         "argue-mcq-09",
-        "argue-mcq-04"
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argue with」指「與某人發生口頭爭論／爭吵」。",
       "sentenceIndex": 17,
@@ -1078,12 +1031,9 @@ export default {
         "argue with"
       ],
       "optionReasons": {
-        "argue-mcq-07": "本句指「與某人發生口頭爭論／爭吵」。",
-        "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。",
-        "argue-mcq-08": "「因 X 而意見不合、爭論」與本句語境不同。",
-        "argue-mcq-05": "「論證某個具體觀點／立場」與本句語境不同。",
-        "argue-mcq-09": "「對權威／批評回嘴、頂嘴」與本句語境不同。",
-        "argue-mcq-04": "「有系統地陳述支持自己立場／要求的理由」與本句語境不同。"
+        "argue-mcq-07": "本句的「argue with」指「與某人發生口頭爭論／爭吵」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-07"
     },
@@ -1095,11 +1045,8 @@ export default {
       "masked": "The two customers began ____.",
       "options": [
         "argue-mcq-07",
-        "argue-mcq-06",
-        "argue-mcq-08",
-        "argue-mcq-05",
-        "argue-mcq-09",
-        "argue-mcq-04"
+        "argue-mcq-39",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「arguing」指「與某人發生口頭爭論／爭吵」。",
       "sentenceIndex": 18,
@@ -1108,12 +1055,9 @@ export default {
         "arguing"
       ],
       "optionReasons": {
-        "argue-mcq-07": "本句指「與某人發生口頭爭論／爭吵」。",
-        "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。",
-        "argue-mcq-08": "「因 X 而意見不合、爭論」與本句語境不同。",
-        "argue-mcq-05": "「論證某個具體觀點／立場」與本句語境不同。",
-        "argue-mcq-09": "「對權威／批評回嘴、頂嘴」與本句語境不同。",
-        "argue-mcq-04": "「有系統地陳述支持自己立場／要求的理由」與本句語境不同。"
+        "argue-mcq-07": "本句的「arguing」指「與某人發生口頭爭論／爭吵」。",
+        "argue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-07"
     },
@@ -1125,11 +1069,8 @@ export default {
       "masked": "They were ____ money.",
       "options": [
         "argue-mcq-08",
-        "argue-mcq-07",
         "argue-mcq-09",
-        "argue-mcq-06",
-        "argue-mcq-10",
-        "argue-mcq-05"
+        "argue-mcq-37"
       ],
       "explanation": "本句的「arguing about」指「因 X 而意見不合、爭論」。",
       "sentenceIndex": 19,
@@ -1138,12 +1079,9 @@ export default {
         "arguing about"
       ],
       "optionReasons": {
-        "argue-mcq-08": "本句指「因 X 而意見不合、爭論」。",
-        "argue-mcq-07": "「與某人發生口頭爭論／爭吵」與本句語境不同。",
-        "argue-mcq-09": "「對權威／批評回嘴、頂嘴」與本句語境不同。",
-        "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。",
-        "argue-mcq-10": "「用理由說服某人做／接受 X」與本句語境不同。",
-        "argue-mcq-05": "「論證某個具體觀點／立場」與本句語境不同。"
+        "argue-mcq-08": "本句的「arguing about」指「因 X 而意見不合、爭論」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-08"
     },
@@ -1155,11 +1093,8 @@ export default {
       "masked": "The children ____ who should sit by the window.",
       "options": [
         "argue-mcq-08",
-        "argue-mcq-07",
         "argue-mcq-09",
-        "argue-mcq-06",
-        "argue-mcq-10",
-        "argue-mcq-05"
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argued over」指「因 X 而意見不合、爭論」。",
       "sentenceIndex": 20,
@@ -1168,12 +1103,9 @@ export default {
         "argued over"
       ],
       "optionReasons": {
-        "argue-mcq-08": "本句指「因 X 而意見不合、爭論」。",
-        "argue-mcq-07": "「與某人發生口頭爭論／爭吵」與本句語境不同。",
-        "argue-mcq-09": "「對權威／批評回嘴、頂嘴」與本句語境不同。",
-        "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。",
-        "argue-mcq-10": "「用理由說服某人做／接受 X」與本句語境不同。",
-        "argue-mcq-05": "「論證某個具體觀點／立場」與本句語境不同。"
+        "argue-mcq-08": "本句的「argued over」指「因 X 而意見不合、爭論」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-08"
     },
@@ -1185,11 +1117,8 @@ export default {
       "masked": "Don't ____ when I'm explaining the rules.",
       "options": [
         "argue-mcq-09",
-        "argue-mcq-08",
-        "argue-mcq-10",
-        "argue-mcq-07",
-        "argue-mcq-11",
-        "argue-mcq-06"
+        "argue-mcq-27",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argue back」指「對權威／批評回嘴、頂嘴」。",
       "sentenceIndex": 21,
@@ -1198,12 +1127,9 @@ export default {
         "argue back"
       ],
       "optionReasons": {
-        "argue-mcq-09": "本句指「對權威／批評回嘴、頂嘴」。",
-        "argue-mcq-08": "「因 X 而意見不合、爭論」與本句語境不同。",
-        "argue-mcq-10": "「用理由說服某人做／接受 X」與本句語境不同。",
-        "argue-mcq-07": "「與某人發生口頭爭論／爭吵」與本句語境不同。",
-        "argue-mcq-11": "「用理由說服某人不要做／放棄 X」與本句語境不同。",
-        "argue-mcq-06": "「以證據／原則作為推論基礎」與本句語境不同。"
+        "argue-mcq-09": "本句的「argue back」指「對權威／批評回嘴、頂嘴」。",
+        "argue-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-09"
     },
@@ -1215,11 +1141,8 @@ export default {
       "masked": "They ____ staying.",
       "options": [
         "argue-mcq-10",
-        "argue-mcq-09",
-        "argue-mcq-11",
-        "argue-mcq-08",
-        "argue-mcq-12",
-        "argue-mcq-07"
+        "argue-mcq-37",
+        "argue-mcq-09"
       ],
       "explanation": "本句的「argued him into」指「用理由說服某人做／接受 X」。",
       "sentenceIndex": 23,
@@ -1228,12 +1151,9 @@ export default {
         "argued him into"
       ],
       "optionReasons": {
-        "argue-mcq-10": "本句指「用理由說服某人做／接受 X」。",
-        "argue-mcq-09": "「對權威／批評回嘴、頂嘴」與本句語境不同。",
-        "argue-mcq-11": "「用理由說服某人不要做／放棄 X」與本句語境不同。",
-        "argue-mcq-08": "「因 X 而意見不合、爭論」與本句語境不同。",
-        "argue-mcq-12": "「在法庭上提出支持一方的法律陳詞／論證」與本句語境不同。",
-        "argue-mcq-07": "「與某人發生口頭爭論／爭吵」與本句語境不同。"
+        "argue-mcq-10": "本句的「argued him into」指「用理由說服某人做／接受 X」。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-10"
     },
@@ -1245,11 +1165,8 @@ export default {
       "masked": "She ____ resigning.",
       "options": [
         "argue-mcq-11",
-        "argue-mcq-10",
-        "argue-mcq-12",
-        "argue-mcq-09",
-        "argue-mcq-13",
-        "argue-mcq-08"
+        "argue-mcq-37",
+        "argue-mcq-09"
       ],
       "explanation": "本句的「argued me out of」指「用理由說服某人不要做／放棄 X」。",
       "sentenceIndex": 24,
@@ -1258,12 +1175,9 @@ export default {
         "argued me out of"
       ],
       "optionReasons": {
-        "argue-mcq-11": "本句指「用理由說服某人不要做／放棄 X」。",
-        "argue-mcq-10": "「用理由說服某人做／接受 X」與本句語境不同。",
-        "argue-mcq-12": "「在法庭上提出支持一方的法律陳詞／論證」與本句語境不同。",
-        "argue-mcq-09": "「對權威／批評回嘴、頂嘴」與本句語境不同。",
-        "argue-mcq-13": "「法庭上的正式口頭法律陳詞」與本句語境不同。",
-        "argue-mcq-08": "「因 X 而意見不合、爭論」與本句語境不同。"
+        "argue-mcq-11": "本句的「argued me out of」指「用理由說服某人不要做／放棄 X」。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-11"
     },
@@ -1275,11 +1189,8 @@ export default {
       "masked": "Counsel ____ before the court.",
       "options": [
         "argue-mcq-12",
-        "argue-mcq-11",
-        "argue-mcq-13",
-        "argue-mcq-10",
-        "argue-mcq-14",
-        "argue-mcq-09"
+        "argue-mcq-39",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argued the case」指「在法庭上提出支持一方的法律陳詞／論證」。",
       "sentenceIndex": 25,
@@ -1288,12 +1199,9 @@ export default {
         "argued the case"
       ],
       "optionReasons": {
-        "argue-mcq-12": "本句指「在法庭上提出支持一方的法律陳詞／論證」。",
-        "argue-mcq-11": "「用理由說服某人不要做／放棄 X」與本句語境不同。",
-        "argue-mcq-13": "「法庭上的正式口頭法律陳詞」與本句語境不同。",
-        "argue-mcq-10": "「用理由說服某人做／接受 X」與本句語境不同。",
-        "argue-mcq-14": "「審訊結束前的總結性辯護／控方陳詞」與本句語境不同。",
-        "argue-mcq-09": "「對權威／批評回嘴、頂嘴」與本句語境不同。"
+        "argue-mcq-12": "本句的「argued the case」指「在法庭上提出支持一方的法律陳詞／論證」。",
+        "argue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-12"
     },
@@ -1305,11 +1213,8 @@ export default {
       "masked": "They had an ____ about money.",
       "options": [
         "argue-mcq-15",
-        "argue-mcq-14",
-        "argue-mcq-16",
-        "argue-mcq-13",
-        "argue-mcq-17",
-        "argue-mcq-12"
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argument」指「人與人之間的爭論／爭吵」。",
       "sentenceIndex": 26,
@@ -1318,12 +1223,9 @@ export default {
         "argument"
       ],
       "optionReasons": {
-        "argue-mcq-15": "本句指「人與人之間的爭論／爭吵」。",
-        "argue-mcq-14": "「審訊結束前的總結性辯護／控方陳詞」與本句語境不同。",
-        "argue-mcq-16": "「支持或反對某結論的一項理由／論據」與本句語境不同。",
-        "argue-mcq-13": "「法庭上的正式口頭法律陳詞」與本句語境不同。",
-        "argue-mcq-17": "「一整套有組織的論證思路」與本句語境不同。",
-        "argue-mcq-12": "「在法庭上提出支持一方的法律陳詞／論證」與本句語境不同。"
+        "argue-mcq-15": "本句的「argument」指「人與人之間的爭論／爭吵」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-15"
     },
@@ -1335,11 +1237,8 @@ export default {
       "masked": "An ____ broke out near the entrance.",
       "options": [
         "argue-mcq-15",
-        "argue-mcq-14",
-        "argue-mcq-16",
-        "argue-mcq-13",
-        "argue-mcq-17",
-        "argue-mcq-12"
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argument」指「人與人之間的爭論／爭吵」。",
       "sentenceIndex": 27,
@@ -1348,12 +1247,9 @@ export default {
         "argument"
       ],
       "optionReasons": {
-        "argue-mcq-15": "本句指「人與人之間的爭論／爭吵」。",
-        "argue-mcq-14": "「審訊結束前的總結性辯護／控方陳詞」與本句語境不同。",
-        "argue-mcq-16": "「支持或反對某結論的一項理由／論據」與本句語境不同。",
-        "argue-mcq-13": "「法庭上的正式口頭法律陳詞」與本句語境不同。",
-        "argue-mcq-17": "「一整套有組織的論證思路」與本句語境不同。",
-        "argue-mcq-12": "「在法庭上提出支持一方的法律陳詞／論證」與本句語境不同。"
+        "argue-mcq-15": "本句的「argument」指「人與人之間的爭論／爭吵」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-15"
     },
@@ -1365,11 +1261,8 @@ export default {
       "masked": "That is a strong ____ for expanding public study space.",
       "options": [
         "argue-mcq-16",
-        "argue-mcq-15",
-        "argue-mcq-17",
-        "argue-mcq-14",
-        "argue-mcq-18",
-        "argue-mcq-13"
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argument」指「支持或反對某結論的一項理由／論據」。",
       "sentenceIndex": 28,
@@ -1378,12 +1271,9 @@ export default {
         "argument"
       ],
       "optionReasons": {
-        "argue-mcq-16": "本句指「支持或反對某結論的一項理由／論據」。",
-        "argue-mcq-15": "「人與人之間的爭論／爭吵」與本句語境不同。",
-        "argue-mcq-17": "「一整套有組織的論證思路」與本句語境不同。",
-        "argue-mcq-14": "「審訊結束前的總結性辯護／控方陳詞」與本句語境不同。",
-        "argue-mcq-18": "「論證的發展方向／推理路線」與本句語境不同。",
-        "argue-mcq-13": "「法庭上的正式口頭法律陳詞」與本句語境不同。"
+        "argue-mcq-16": "本句的「argument」指「支持或反對某結論的一項理由／論據」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-16"
     },
@@ -1395,11 +1285,8 @@ export default {
       "masked": "The main ____ the proposal is its cost.",
       "options": [
         "argue-mcq-16",
-        "argue-mcq-15",
-        "argue-mcq-17",
-        "argue-mcq-14",
-        "argue-mcq-18",
-        "argue-mcq-13"
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argument against」指「支持或反對某結論的一項理由／論據」。",
       "sentenceIndex": 29,
@@ -1408,12 +1295,9 @@ export default {
         "argument against"
       ],
       "optionReasons": {
-        "argue-mcq-16": "本句指「支持或反對某結論的一項理由／論據」。",
-        "argue-mcq-15": "「人與人之間的爭論／爭吵」與本句語境不同。",
-        "argue-mcq-17": "「一整套有組織的論證思路」與本句語境不同。",
-        "argue-mcq-14": "「審訊結束前的總結性辯護／控方陳詞」與本句語境不同。",
-        "argue-mcq-18": "「論證的發展方向／推理路線」與本句語境不同。",
-        "argue-mcq-13": "「法庭上的正式口頭法律陳詞」與本句語境不同。"
+        "argue-mcq-16": "本句的「argument against」指「支持或反對某結論的一項理由／論據」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-16"
     },
@@ -1425,11 +1309,8 @@ export default {
       "masked": "A strong essay should address the main ____.",
       "options": [
         "argue-mcq-19",
-        "argue-mcq-18",
-        "argue-mcq-20",
-        "argue-mcq-17",
-        "argue-mcq-21",
-        "argue-mcq-16"
+        "argue-mcq-39",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「counterargument」指「針對另一論點提出的反方論證」。",
       "sentenceIndex": 30,
@@ -1438,12 +1319,9 @@ export default {
         "counterargument"
       ],
       "optionReasons": {
-        "argue-mcq-19": "本句指「針對另一論點提出的反方論證」。",
-        "argue-mcq-18": "「論證的發展方向／推理路線」與本句語境不同。",
-        "argue-mcq-20": "「由前提與結論組成、聲稱前提支持結論的論證」與本句語境不同。",
-        "argue-mcq-17": "「一整套有組織的論證思路」與本句語境不同。",
-        "argue-mcq-21": "「從邏輯形式而言，前提真時結論不可能假的演繹論證」與本句語境不同。",
-        "argue-mcq-16": "「支持或反對某結論的一項理由／論據」與本句語境不同。"
+        "argue-mcq-19": "本句的「counterargument」指「針對另一論點提出的反方論證」。",
+        "argue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-19"
     },
@@ -1455,11 +1333,8 @@ export default {
       "masked": "The author's ____ develops over three chapters.",
       "options": [
         "argue-mcq-17",
-        "argue-mcq-16",
-        "argue-mcq-18",
-        "argue-mcq-15",
-        "argue-mcq-19",
-        "argue-mcq-14"
+        "argue-mcq-39",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argument」指「一整套有組織的論證思路」。",
       "sentenceIndex": 31,
@@ -1468,12 +1343,9 @@ export default {
         "argument"
       ],
       "optionReasons": {
-        "argue-mcq-17": "本句指「一整套有組織的論證思路」。",
-        "argue-mcq-16": "「支持或反對某結論的一項理由／論據」與本句語境不同。",
-        "argue-mcq-18": "「論證的發展方向／推理路線」與本句語境不同。",
-        "argue-mcq-15": "「人與人之間的爭論／爭吵」與本句語境不同。",
-        "argue-mcq-19": "「針對另一論點提出的反方論證」與本句語境不同。",
-        "argue-mcq-14": "「審訊結束前的總結性辯護／控方陳詞」與本句語境不同。"
+        "argue-mcq-17": "本句的「argument」指「一整套有組織的論證思路」。",
+        "argue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-17"
     },
@@ -1485,11 +1357,8 @@ export default {
       "masked": "I found his line of ____ difficult to follow.",
       "options": [
         "argue-mcq-18",
-        "argue-mcq-17",
-        "argue-mcq-19",
-        "argue-mcq-16",
-        "argue-mcq-20",
-        "argue-mcq-15"
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argument」指「論證的發展方向／推理路線」。",
       "sentenceIndex": 32,
@@ -1498,44 +1367,37 @@ export default {
         "argument"
       ],
       "optionReasons": {
-        "argue-mcq-18": "本句指「論證的發展方向／推理路線」。",
-        "argue-mcq-17": "「一整套有組織的論證思路」與本句語境不同。",
-        "argue-mcq-19": "「針對另一論點提出的反方論證」與本句語境不同。",
-        "argue-mcq-16": "「支持或反對某結論的一項理由／論據」與本句語境不同。",
-        "argue-mcq-20": "「由前提與結論組成、聲稱前提支持結論的論證」與本句語境不同。",
-        "argue-mcq-15": "「人與人之間的爭論／爭吵」與本句語境不同。"
+        "argue-mcq-18": "本句的「argument」指「論證的發展方向／推理路線」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-18"
     },
     {
       "id": "argue-61-0",
-      "sense": "argue-mcq-23",
+      "sense": "argue-reviewed-8cd89d7305",
       "en": "Students must write an argumentative essay.",
       "zh": "學生必須寫一篇議論文／論證性文章。",
       "masked": "Students must write an ____.",
       "options": [
-        "argue-mcq-23",
-        "argue-mcq-22",
-        "argue-mcq-24",
-        "argue-mcq-21",
-        "argue-mcq-25",
-        "argue-mcq-20"
+        "argue-reviewed-8cd89d7305",
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
-      "explanation": "本句的「argumentative essay」指「愛爭辯、容易與別人爭論的」。",
+      "explanation": "對照完整句子：「學生必須寫一篇議論文／論證性文章。」。這裡的「argumentative essay」表示「提出立場並用理由和證據支持的議論文」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "argumentative essay"
       ],
       "optionReasons": {
-        "argue-mcq-23": "本句指「愛爭辯、容易與別人爭論的」。",
-        "argue-mcq-22": "「有效且前提為真的演繹論證」與本句語境不同。",
-        "argue-mcq-24": "「以明確立場、論據和證據進行論證的」與本句語境不同。",
-        "argue-mcq-21": "「從邏輯形式而言，前提真時結論不可能假的演繹論證」與本句語境不同。",
-        "argue-mcq-25": "「建構、分析和評估論證的過程／方法」與本句語境不同。",
-        "argue-mcq-20": "「由前提與結論組成、聲稱前提支持結論的論證」與本句語境不同。"
+        "argue-reviewed-8cd89d7305": "對照完整句子：「學生必須寫一篇議論文／論證性文章。」。這裡的「argumentative essay」表示「提出立場並用理由和證據支持的議論文」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "argue-mcq-23"
+      "correctOption": "argue-reviewed-8cd89d7305",
+      "previousCorrectOption": "argue-mcq-23",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "argue-63-0",
@@ -1545,11 +1407,8 @@ export default {
       "masked": "The course teaches critical thinking and ____.",
       "options": [
         "argue-mcq-25",
-        "argue-mcq-24",
-        "argue-mcq-26",
-        "argue-mcq-23",
-        "argue-mcq-27",
-        "argue-mcq-22"
+        "argue-mcq-39",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argumentation」指「建構、分析和評估論證的過程／方法」。",
       "sentenceIndex": 34,
@@ -1558,74 +1417,63 @@ export default {
         "argumentation"
       ],
       "optionReasons": {
-        "argue-mcq-25": "本句指「建構、分析和評估論證的過程／方法」。",
-        "argue-mcq-24": "「以明確立場、論據和證據進行論證的」與本句語境不同。",
-        "argue-mcq-26": "「有合理論據可支持、站得住腳的」與本句語境不同。",
-        "argue-mcq-23": "「愛爭辯、容易與別人爭論的」與本句語境不同。",
-        "argue-mcq-27": "「可以爭論／值得商榷的」與本句語境不同。",
-        "argue-mcq-22": "「有效且前提為真的演繹論證」與本句語境不同。"
+        "argue-mcq-25": "本句的「argumentation」指「建構、分析和評估論證的過程／方法」。",
+        "argue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-25"
     },
     {
       "id": "argue-66-0",
-      "sense": "argue-mcq-24",
+      "sense": "argue-reviewed-320f7ccf3b",
       "en": "He becomes argumentative when he is tired.",
       "zh": "他累的時候很容易變得愛爭辯／愛抬槓。",
       "masked": "He becomes ____ when he is tired.",
       "options": [
-        "argue-mcq-24",
-        "argue-mcq-23",
-        "argue-mcq-25",
-        "argue-mcq-22",
-        "argue-mcq-26",
-        "argue-mcq-21"
+        "argue-reviewed-320f7ccf3b",
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
-      "explanation": "本句的「argumentative」指「以明確立場、論據和證據進行論證的」。",
+      "explanation": "對照完整句子：「他累的時候很容易變得愛爭辯／愛抬槓。」。這裡的「argumentative」表示「愛爭辯、好爭論的」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "argumentative"
       ],
       "optionReasons": {
-        "argue-mcq-24": "本句指「以明確立場、論據和證據進行論證的」。",
-        "argue-mcq-23": "「愛爭辯、容易與別人爭論的」與本句語境不同。",
-        "argue-mcq-25": "「建構、分析和評估論證的過程／方法」與本句語境不同。",
-        "argue-mcq-22": "「有效且前提為真的演繹論證」與本句語境不同。",
-        "argue-mcq-26": "「有合理論據可支持、站得住腳的」與本句語境不同。",
-        "argue-mcq-21": "「從邏輯形式而言，前提真時結論不可能假的演繹論證」與本句語境不同。"
+        "argue-reviewed-320f7ccf3b": "對照完整句子：「他累的時候很容易變得愛爭辯／愛抬槓。」。這裡的「argumentative」表示「愛爭辯、好爭論的」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "argue-mcq-24"
+      "correctOption": "argue-reviewed-320f7ccf3b",
+      "previousCorrectOption": "argue-mcq-24",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "argue-69-0",
-      "sense": "argue-mcq-25",
+      "sense": "argue-reviewed-e15dbda163",
       "en": "The assignment requires an argumentative structure.",
       "zh": "這份作業要求採用論證性結構。",
       "masked": "The assignment requires an ____ structure.",
       "options": [
-        "argue-mcq-25",
-        "argue-mcq-24",
-        "argue-mcq-26",
-        "argue-mcq-23",
-        "argue-mcq-27",
-        "argue-mcq-22"
+        "argue-reviewed-e15dbda163",
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
-      "explanation": "本句的「argumentative」指「建構、分析和評估論證的過程／方法」。",
+      "explanation": "對照完整句子：「這份作業要求採用論證性結構。」。這裡的「argumentative」表示「提出理由以支持某個立場的；論證性的」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "argumentative"
       ],
       "optionReasons": {
-        "argue-mcq-25": "本句指「建構、分析和評估論證的過程／方法」。",
-        "argue-mcq-24": "「以明確立場、論據和證據進行論證的」與本句語境不同。",
-        "argue-mcq-26": "「有合理論據可支持、站得住腳的」與本句語境不同。",
-        "argue-mcq-23": "「愛爭辯、容易與別人爭論的」與本句語境不同。",
-        "argue-mcq-27": "「可以爭論／值得商榷的」與本句語境不同。",
-        "argue-mcq-22": "「有效且前提為真的演繹論證」與本句語境不同。"
+        "argue-reviewed-e15dbda163": "對照完整句子：「這份作業要求採用論證性結構。」。這裡的「argumentative」表示「提出理由以支持某個立場的；論證性的」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "argue-mcq-25"
+      "correctOption": "argue-reviewed-e15dbda163",
+      "previousCorrectOption": "argue-mcq-25",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "argue-74-0",
@@ -1635,11 +1483,8 @@ export default {
       "masked": "Whether this is the best solution is ____.",
       "options": [
         "argue-mcq-27",
-        "argue-mcq-26",
-        "argue-mcq-28",
-        "argue-mcq-25",
-        "argue-mcq-29",
-        "argue-mcq-24"
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「arguable」指「可以爭論／值得商榷的」。",
       "sentenceIndex": 38,
@@ -1648,12 +1493,9 @@ export default {
         "arguable"
       ],
       "optionReasons": {
-        "argue-mcq-27": "本句指「可以爭論／值得商榷的」。",
-        "argue-mcq-26": "「有合理論據可支持、站得住腳的」與本句語境不同。",
-        "argue-mcq-28": "「有合理理由可以說；可以說是」與本句語境不同。",
-        "argue-mcq-25": "「建構、分析和評估論證的過程／方法」與本句語境不同。",
-        "argue-mcq-29": "「無可爭辯、難以否認的」與本句語境不同。",
-        "argue-mcq-24": "「以明確立場、論據和證據進行論證的」與本句語境不同。"
+        "argue-mcq-27": "本句的「arguable」指「可以爭論／值得商榷的」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-27"
     },
@@ -1665,11 +1507,8 @@ export default {
       "masked": "This is ____ the most important issue in the report.",
       "options": [
         "argue-mcq-28",
-        "argue-mcq-27",
-        "argue-mcq-29",
-        "argue-mcq-26",
-        "argue-mcq-30",
-        "argue-mcq-25"
+        "argue-mcq-37",
+        "argue-mcq-09"
       ],
       "explanation": "本句的「arguably」指「有合理理由可以說；可以說是」。",
       "sentenceIndex": 39,
@@ -1678,12 +1517,9 @@ export default {
         "arguably"
       ],
       "optionReasons": {
-        "argue-mcq-28": "本句指「有合理理由可以說；可以說是」。",
-        "argue-mcq-27": "「可以爭論／值得商榷的」與本句語境不同。",
-        "argue-mcq-29": "「無可爭辯、難以否認的」與本句語境不同。",
-        "argue-mcq-26": "「有合理論據可支持、站得住腳的」與本句語境不同。",
-        "argue-mcq-30": "「函數所取的輸入／自變量」與本句語境不同。",
-        "argue-mcq-25": "「建構、分析和評估論證的過程／方法」與本句語境不同。"
+        "argue-mcq-28": "本句的「arguably」指「有合理理由可以說；可以說是」。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-28"
     },
@@ -1695,11 +1531,8 @@ export default {
       "masked": "She is ____ the team's most versatile player.",
       "options": [
         "argue-mcq-28",
-        "argue-mcq-27",
-        "argue-mcq-29",
-        "argue-mcq-26",
-        "argue-mcq-30",
-        "argue-mcq-25"
+        "argue-mcq-09",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「arguably」指「有合理理由可以說；可以說是」。",
       "sentenceIndex": 40,
@@ -1708,12 +1541,9 @@ export default {
         "arguably"
       ],
       "optionReasons": {
-        "argue-mcq-28": "本句指「有合理理由可以說；可以說是」。",
-        "argue-mcq-27": "「可以爭論／值得商榷的」與本句語境不同。",
-        "argue-mcq-29": "「無可爭辯、難以否認的」與本句語境不同。",
-        "argue-mcq-26": "「有合理論據可支持、站得住腳的」與本句語境不同。",
-        "argue-mcq-30": "「函數所取的輸入／自變量」與本句語境不同。",
-        "argue-mcq-25": "「建構、分析和評估論證的過程／方法」與本句語境不同。"
+        "argue-mcq-28": "本句的「arguably」指「有合理理由可以說；可以說是」。",
+        "argue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-28"
     },
@@ -1725,11 +1555,8 @@ export default {
       "masked": "For the sake of ____, suppose the plan costs nothing.",
       "options": [
         "argue-mcq-37",
-        "argue-mcq-36",
-        "argue-mcq-38",
-        "argue-mcq-35",
         "argue-mcq-39",
-        "argue-mcq-34"
+        "argue-pdf-001"
       ],
       "explanation": "本句的「argument」指「為方便討論而暫時假設某命題成立」。",
       "sentenceIndex": 41,
@@ -1738,12 +1565,9 @@ export default {
         "argument"
       ],
       "optionReasons": {
-        "argue-mcq-37": "本句指「為方便討論而暫時假設某命題成立」。",
-        "argue-mcq-36": "「舊式文學作品前的內容梗概／主旨摘要」與本句語境不同。",
-        "argue-mcq-38": "「為討論方便；亦可指純粹為爭辯而爭辯」與本句語境不同。",
-        "argue-mcq-35": "「一個謂詞與其論元之間的結構關係」與本句語境不同。",
-        "argue-mcq-39": "「X 太明顯／有力，難以合理否認」與本句語境不同。",
-        "argue-mcq-34": "「謂詞在語義／句法上選擇或要求的論元」與本句語境不同。"
+        "argue-mcq-37": "本句的「argument」指「為方便討論而暫時假設某命題成立」。",
+        "argue-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "argue-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-37"
     },
@@ -1755,11 +1579,8 @@ export default {
       "masked": "You can't ____ the results.",
       "options": [
         "argue-mcq-39",
-        "argue-mcq-38",
-        "argue-mcq-40",
-        "argue-mcq-37",
-        "argue-mcq-36",
-        "argue-mcq-35"
+        "argue-mcq-19",
+        "argue-mcq-37"
       ],
       "explanation": "本句的「argue with」指「X 太明顯／有力，難以合理否認」。",
       "sentenceIndex": 42,
@@ -1768,12 +1589,9 @@ export default {
         "argue with"
       ],
       "optionReasons": {
-        "argue-mcq-39": "本句指「X 太明顯／有力，難以合理否認」。",
-        "argue-mcq-38": "「為討論方便；亦可指純粹為爭辯而爭辯」與本句語境不同。",
-        "argue-mcq-40": "「與某人吵起來／陷入爭論」與本句語境不同。",
-        "argue-mcq-37": "「為方便討論而暫時假設某命題成立」與本句語境不同。",
-        "argue-mcq-36": "「舊式文學作品前的內容梗概／主旨摘要」與本句語境不同。",
-        "argue-mcq-35": "「一個謂詞與其論元之間的結構關係」與本句語境不同。"
+        "argue-mcq-39": "本句的「argue with」指「X 太明顯／有力，難以合理否認」。",
+        "argue-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "argue-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "argue-mcq-39"
     }
@@ -1785,5 +1603,7 @@ export default {
     "sha256": "2f1fa0d62d6749b19829af13e56f0c3dfc4893c4d757bb884c19dc6c450f17f9",
     "pages": 46
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

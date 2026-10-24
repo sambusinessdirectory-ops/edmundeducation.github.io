@@ -420,11 +420,7 @@ export default {
       "masked": "She ____.",
       "options": [
         "underestimate-mcq-02",
-        "underestimate-mcq-01",
-        "underestimate-mcq-04",
-        "underestimate-mcq-05",
-        "underestimate-mcq-06",
-        "underestimate-mcq-07"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated how long the journey would take」指「低估所需時間」。",
       "sentenceIndex": 3,
@@ -433,12 +429,8 @@ export default {
         "underestimated how long the journey would take"
       ],
       "optionReasons": {
-        "underestimate-mcq-02": "本句指「低估所需時間」。",
-        "underestimate-mcq-01": "「低估」與本句語境不同。",
-        "underestimate-mcq-04": "「低估成本」與本句語境不同。",
-        "underestimate-mcq-05": "「低估難度」與本句語境不同。",
-        "underestimate-mcq-06": "「低估規模」與本句語境不同。",
-        "underestimate-mcq-07": "「低估嚴重性」與本句語境不同。"
+        "underestimate-mcq-02": "本句的「underestimated how long the journey would take」指「低估所需時間」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-02"
     },
@@ -450,11 +442,7 @@ export default {
       "masked": "People often ____.",
       "options": [
         "underestimate-mcq-02",
-        "underestimate-mcq-01",
-        "underestimate-mcq-04",
-        "underestimate-mcq-05",
-        "underestimate-mcq-06",
-        "underestimate-mcq-07"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimate how long revision takes」指「低估所需時間」。",
       "sentenceIndex": 4,
@@ -463,12 +451,8 @@ export default {
         "underestimate how long revision takes"
       ],
       "optionReasons": {
-        "underestimate-mcq-02": "本句指「低估所需時間」。",
-        "underestimate-mcq-01": "「低估」與本句語境不同。",
-        "underestimate-mcq-04": "「低估成本」與本句語境不同。",
-        "underestimate-mcq-05": "「低估難度」與本句語境不同。",
-        "underestimate-mcq-06": "「低估規模」與本句語境不同。",
-        "underestimate-mcq-07": "「低估嚴重性」與本句語境不同。"
+        "underestimate-mcq-02": "本句的「underestimate how long revision takes」指「低估所需時間」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-02"
     },
@@ -480,11 +464,7 @@ export default {
       "masked": "I ____ to finish the report.",
       "options": [
         "underestimate-mcq-03",
-        "underestimate-mcq-04",
-        "underestimate-mcq-01",
-        "underestimate-mcq-05",
-        "underestimate-mcq-06",
-        "underestimate-mcq-07"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated the time needed」指「低估所需時間」。",
       "sentenceIndex": 5,
@@ -493,12 +473,8 @@ export default {
         "underestimated the time needed"
       ],
       "optionReasons": {
-        "underestimate-mcq-03": "本句指「低估所需時間」。",
-        "underestimate-mcq-04": "「低估成本」與本句語境不同。",
-        "underestimate-mcq-01": "「低估」與本句語境不同。",
-        "underestimate-mcq-05": "「低估難度」與本句語境不同。",
-        "underestimate-mcq-06": "「低估規模」與本句語境不同。",
-        "underestimate-mcq-07": "「低估嚴重性」與本句語境不同。"
+        "underestimate-mcq-03": "本句的「underestimated the time needed」指「低估所需時間」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-03"
     },
@@ -510,11 +486,7 @@ export default {
       "masked": "They had ____ for repairs.",
       "options": [
         "underestimate-mcq-03",
-        "underestimate-mcq-04",
-        "underestimate-mcq-01",
-        "underestimate-mcq-05",
-        "underestimate-mcq-06",
-        "underestimate-mcq-07"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated the time required」指「低估所需時間」。",
       "sentenceIndex": 6,
@@ -523,12 +495,8 @@ export default {
         "underestimated the time required"
       ],
       "optionReasons": {
-        "underestimate-mcq-03": "本句指「低估所需時間」。",
-        "underestimate-mcq-04": "「低估成本」與本句語境不同。",
-        "underestimate-mcq-01": "「低估」與本句語境不同。",
-        "underestimate-mcq-05": "「低估難度」與本句語境不同。",
-        "underestimate-mcq-06": "「低估規模」與本句語境不同。",
-        "underestimate-mcq-07": "「低估嚴重性」與本句語境不同。"
+        "underestimate-mcq-03": "本句的「underestimated the time required」指「低估所需時間」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-03"
     },
@@ -540,11 +508,7 @@ export default {
       "masked": "We ____ of the renovation.",
       "options": [
         "underestimate-mcq-04",
-        "underestimate-mcq-03",
-        "underestimate-mcq-05",
-        "underestimate-mcq-06",
-        "underestimate-mcq-01",
-        "underestimate-mcq-07"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated the cost」指「低估成本」。",
       "sentenceIndex": 7,
@@ -553,12 +517,8 @@ export default {
         "underestimated the cost"
       ],
       "optionReasons": {
-        "underestimate-mcq-04": "本句指「低估成本」。",
-        "underestimate-mcq-03": "「低估所需時間」與本句語境不同。",
-        "underestimate-mcq-05": "「低估難度」與本句語境不同。",
-        "underestimate-mcq-06": "「低估規模」與本句語境不同。",
-        "underestimate-mcq-01": "「低估」與本句語境不同。",
-        "underestimate-mcq-07": "「低估嚴重性」與本句語境不同。"
+        "underestimate-mcq-04": "本句的「underestimated the cost」指「低估成本」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-04"
     },
@@ -570,11 +530,7 @@ export default {
       "masked": "The original budget ____.",
       "options": [
         "underestimate-mcq-04",
-        "underestimate-mcq-03",
-        "underestimate-mcq-05",
-        "underestimate-mcq-06",
-        "underestimate-mcq-01",
-        "underestimate-mcq-07"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated the total cost」指「低估成本」。",
       "sentenceIndex": 8,
@@ -583,12 +539,8 @@ export default {
         "underestimated the total cost"
       ],
       "optionReasons": {
-        "underestimate-mcq-04": "本句指「低估成本」。",
-        "underestimate-mcq-03": "「低估所需時間」與本句語境不同。",
-        "underestimate-mcq-05": "「低估難度」與本句語境不同。",
-        "underestimate-mcq-06": "「低估規模」與本句語境不同。",
-        "underestimate-mcq-01": "「低估」與本句語境不同。",
-        "underestimate-mcq-07": "「低估嚴重性」與本句語境不同。"
+        "underestimate-mcq-04": "本句的「underestimated the total cost」指「低估成本」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-04"
     },
@@ -600,11 +552,7 @@ export default {
       "masked": "I completely ____.",
       "options": [
         "underestimate-mcq-05",
-        "underestimate-mcq-04",
-        "underestimate-mcq-06",
-        "underestimate-mcq-03",
-        "underestimate-mcq-07",
-        "underestimate-mcq-08"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated the difficulty of the exam」指「低估難度」。",
       "sentenceIndex": 9,
@@ -613,12 +561,8 @@ export default {
         "underestimated the difficulty of the exam"
       ],
       "optionReasons": {
-        "underestimate-mcq-05": "本句指「低估難度」。",
-        "underestimate-mcq-04": "「低估成本」與本句語境不同。",
-        "underestimate-mcq-06": "「低估規模」與本句語境不同。",
-        "underestimate-mcq-03": "「低估所需時間」與本句語境不同。",
-        "underestimate-mcq-07": "「低估嚴重性」與本句語境不同。",
-        "underestimate-mcq-08": "「低估風險」與本句語境不同。"
+        "underestimate-mcq-05": "本句的「underestimated the difficulty of the exam」指「低估難度」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-05"
     },
@@ -630,11 +574,7 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "underestimate-mcq-05",
-        "underestimate-mcq-04",
-        "underestimate-mcq-06",
-        "underestimate-mcq-03",
-        "underestimate-mcq-07",
-        "underestimate-mcq-08"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimate how difficult the task is」指「低估難度」。",
       "sentenceIndex": 10,
@@ -643,12 +583,8 @@ export default {
         "underestimate how difficult the task is"
       ],
       "optionReasons": {
-        "underestimate-mcq-05": "本句指「低估難度」。",
-        "underestimate-mcq-04": "「低估成本」與本句語境不同。",
-        "underestimate-mcq-06": "「低估規模」與本句語境不同。",
-        "underestimate-mcq-03": "「低估所需時間」與本句語境不同。",
-        "underestimate-mcq-07": "「低估嚴重性」與本句語境不同。",
-        "underestimate-mcq-08": "「低估風險」與本句語境不同。"
+        "underestimate-mcq-05": "本句的「underestimate how difficult the task is」指「低估難度」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-05"
     },
@@ -660,11 +596,7 @@ export default {
       "masked": "They ____.",
       "options": [
         "underestimate-mcq-06",
-        "underestimate-mcq-05",
-        "underestimate-mcq-07",
-        "underestimate-mcq-04",
-        "underestimate-mcq-08",
-        "underestimate-mcq-03"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated the scale of the problem」指「低估規模」。",
       "sentenceIndex": 11,
@@ -673,12 +605,8 @@ export default {
         "underestimated the scale of the problem"
       ],
       "optionReasons": {
-        "underestimate-mcq-06": "本句指「低估規模」。",
-        "underestimate-mcq-05": "「低估難度」與本句語境不同。",
-        "underestimate-mcq-07": "「低估嚴重性」與本句語境不同。",
-        "underestimate-mcq-04": "「低估成本」與本句語境不同。",
-        "underestimate-mcq-08": "「低估風險」與本句語境不同。",
-        "underestimate-mcq-03": "「低估所需時間」與本句語境不同。"
+        "underestimate-mcq-06": "本句的「underestimated the scale of the problem」指「低估規模」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-06"
     },
@@ -690,11 +618,7 @@ export default {
       "masked": "We had ____.",
       "options": [
         "underestimate-mcq-06",
-        "underestimate-mcq-05",
-        "underestimate-mcq-07",
-        "underestimate-mcq-04",
-        "underestimate-mcq-08",
-        "underestimate-mcq-03"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated the size of the audience」指「低估規模」。",
       "sentenceIndex": 12,
@@ -703,12 +627,8 @@ export default {
         "underestimated the size of the audience"
       ],
       "optionReasons": {
-        "underestimate-mcq-06": "本句指「低估規模」。",
-        "underestimate-mcq-05": "「低估難度」與本句語境不同。",
-        "underestimate-mcq-07": "「低估嚴重性」與本句語境不同。",
-        "underestimate-mcq-04": "「低估成本」與本句語境不同。",
-        "underestimate-mcq-08": "「低估風險」與本句語境不同。",
-        "underestimate-mcq-03": "「低估所需時間」與本句語境不同。"
+        "underestimate-mcq-06": "本句的「underestimated the size of the audience」指「低估規模」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-06"
     },
@@ -720,11 +640,7 @@ export default {
       "masked": "At first, we ____.",
       "options": [
         "underestimate-mcq-07",
-        "underestimate-mcq-06",
-        "underestimate-mcq-08",
-        "underestimate-mcq-05",
-        "underestimate-mcq-09",
-        "underestimate-mcq-04"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated the seriousness of the situation」指「低估嚴重性」。",
       "sentenceIndex": 13,
@@ -733,12 +649,8 @@ export default {
         "underestimated the seriousness of the situation"
       ],
       "optionReasons": {
-        "underestimate-mcq-07": "本句指「低估嚴重性」。",
-        "underestimate-mcq-06": "「低估規模」與本句語境不同。",
-        "underestimate-mcq-08": "「低估風險」與本句語境不同。",
-        "underestimate-mcq-05": "「低估難度」與本句語境不同。",
-        "underestimate-mcq-09": "「低估影響」與本句語境不同。",
-        "underestimate-mcq-04": "「低估成本」與本句語境不同。"
+        "underestimate-mcq-07": "本句的「underestimated the seriousness of the situation」指「低估嚴重性」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-07"
     },
@@ -750,11 +662,7 @@ export default {
       "masked": "He had ____.",
       "options": [
         "underestimate-mcq-07",
-        "underestimate-mcq-06",
-        "underestimate-mcq-08",
-        "underestimate-mcq-05",
-        "underestimate-mcq-09",
-        "underestimate-mcq-04"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated the severity of the damage」指「低估嚴重性」。",
       "sentenceIndex": 14,
@@ -763,12 +671,8 @@ export default {
         "underestimated the severity of the damage"
       ],
       "optionReasons": {
-        "underestimate-mcq-07": "本句指「低估嚴重性」。",
-        "underestimate-mcq-06": "「低估規模」與本句語境不同。",
-        "underestimate-mcq-08": "「低估風險」與本句語境不同。",
-        "underestimate-mcq-05": "「低估難度」與本句語境不同。",
-        "underestimate-mcq-09": "「低估影響」與本句語境不同。",
-        "underestimate-mcq-04": "「低估成本」與本句語境不同。"
+        "underestimate-mcq-07": "本句的「underestimated the severity of the damage」指「低估嚴重性」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-07"
     },
@@ -780,11 +684,7 @@ export default {
       "masked": "Never ____ of rushing important work.",
       "options": [
         "underestimate-mcq-08",
-        "underestimate-mcq-07",
-        "underestimate-mcq-09",
-        "underestimate-mcq-06",
-        "underestimate-mcq-10",
-        "underestimate-mcq-05"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimate the risk」指「低估風險」。",
       "sentenceIndex": 15,
@@ -793,12 +693,8 @@ export default {
         "underestimate the risk"
       ],
       "optionReasons": {
-        "underestimate-mcq-08": "本句指「低估風險」。",
-        "underestimate-mcq-07": "「低估嚴重性」與本句語境不同。",
-        "underestimate-mcq-09": "「低估影響」與本句語境不同。",
-        "underestimate-mcq-06": "「低估規模」與本句語境不同。",
-        "underestimate-mcq-10": "「低估重要性」與本句語境不同。",
-        "underestimate-mcq-05": "「低估難度」與本句語境不同。"
+        "underestimate-mcq-08": "本句的「underestimate the risk」指「低估風險」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-08"
     },
@@ -810,11 +706,7 @@ export default {
       "masked": "Investors had ____.",
       "options": [
         "underestimate-mcq-08",
-        "underestimate-mcq-07",
-        "underestimate-mcq-09",
-        "underestimate-mcq-06",
-        "underestimate-mcq-10",
-        "underestimate-mcq-05"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated the risks involved」指「低估風險」。",
       "sentenceIndex": 16,
@@ -823,12 +715,8 @@ export default {
         "underestimated the risks involved"
       ],
       "optionReasons": {
-        "underestimate-mcq-08": "本句指「低估風險」。",
-        "underestimate-mcq-07": "「低估嚴重性」與本句語境不同。",
-        "underestimate-mcq-09": "「低估影響」與本句語境不同。",
-        "underestimate-mcq-06": "「低估規模」與本句語境不同。",
-        "underestimate-mcq-10": "「低估重要性」與本句語境不同。",
-        "underestimate-mcq-05": "「低估難度」與本句語境不同。"
+        "underestimate-mcq-08": "本句的「underestimated the risks involved」指「低估風險」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-08"
     },
@@ -840,11 +728,7 @@ export default {
       "masked": "I ____ that poor sleep had on my concentration.",
       "options": [
         "underestimate-mcq-09",
-        "underestimate-mcq-08",
-        "underestimate-mcq-10",
-        "underestimate-mcq-07",
-        "underestimate-mcq-11",
-        "underestimate-mcq-06"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated the impact」指「低估影響」。",
       "sentenceIndex": 17,
@@ -853,12 +737,8 @@ export default {
         "underestimated the impact"
       ],
       "optionReasons": {
-        "underestimate-mcq-09": "本句指「低估影響」。",
-        "underestimate-mcq-08": "「低估風險」與本句語境不同。",
-        "underestimate-mcq-10": "「低估重要性」與本句語境不同。",
-        "underestimate-mcq-07": "「低估嚴重性」與本句語境不同。",
-        "underestimate-mcq-11": "「低估某人」與本句語境不同。",
-        "underestimate-mcq-06": "「低估規模」與本句語境不同。"
+        "underestimate-mcq-09": "本句的「underestimated the impact」指「低估影響」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-09"
     },
@@ -870,11 +750,7 @@ export default {
       "masked": "Don't ____ of small habits.",
       "options": [
         "underestimate-mcq-09",
-        "underestimate-mcq-08",
-        "underestimate-mcq-10",
-        "underestimate-mcq-07",
-        "underestimate-mcq-11",
-        "underestimate-mcq-06"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimate the effect」指「低估影響」。",
       "sentenceIndex": 18,
@@ -883,12 +759,8 @@ export default {
         "underestimate the effect"
       ],
       "optionReasons": {
-        "underestimate-mcq-09": "本句指「低估影響」。",
-        "underestimate-mcq-08": "「低估風險」與本句語境不同。",
-        "underestimate-mcq-10": "「低估重要性」與本句語境不同。",
-        "underestimate-mcq-07": "「低估嚴重性」與本句語境不同。",
-        "underestimate-mcq-11": "「低估某人」與本句語境不同。",
-        "underestimate-mcq-06": "「低估規模」與本句語境不同。"
+        "underestimate-mcq-09": "本句的「underestimate the effect」指「低估影響」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-09"
     },
@@ -900,11 +772,7 @@ export default {
       "masked": "People often ____.",
       "options": [
         "underestimate-mcq-10",
-        "underestimate-mcq-09",
-        "underestimate-mcq-11",
-        "underestimate-mcq-08",
-        "underestimate-mcq-12",
-        "underestimate-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「underestimate the importance of preparation」指「低估重要性」。",
       "sentenceIndex": 19,
@@ -913,12 +781,8 @@ export default {
         "underestimate the importance of preparation"
       ],
       "optionReasons": {
-        "underestimate-mcq-10": "本句指「低估重要性」。",
-        "underestimate-mcq-09": "「低估影響」與本句語境不同。",
-        "underestimate-mcq-11": "「低估某人」與本句語境不同。",
-        "underestimate-mcq-08": "「低估風險」與本句語境不同。",
-        "underestimate-mcq-12": "「低估某人實力」與本句語境不同。",
-        "underestimate-mcq-07": "「低估嚴重性」與本句語境不同。"
+        "underestimate-mcq-10": "本句的「underestimate the importance of preparation」指「低估重要性」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-10"
     },
@@ -930,11 +794,7 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "underestimate-mcq-10",
-        "underestimate-mcq-09",
-        "underestimate-mcq-11",
-        "underestimate-mcq-08",
-        "underestimate-mcq-12",
-        "underestimate-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「underestimate the value of a good routine」指「低估重要性」。",
       "sentenceIndex": 20,
@@ -943,12 +803,8 @@ export default {
         "underestimate the value of a good routine"
       ],
       "optionReasons": {
-        "underestimate-mcq-10": "本句指「低估重要性」。",
-        "underestimate-mcq-09": "「低估影響」與本句語境不同。",
-        "underestimate-mcq-11": "「低估某人」與本句語境不同。",
-        "underestimate-mcq-08": "「低估風險」與本句語境不同。",
-        "underestimate-mcq-12": "「低估某人實力」與本句語境不同。",
-        "underestimate-mcq-07": "「低估嚴重性」與本句語境不同。"
+        "underestimate-mcq-10": "本句的「underestimate the value of a good routine」指「低估重要性」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-10"
     },
@@ -960,11 +816,7 @@ export default {
       "masked": "His opponents ____.",
       "options": [
         "underestimate-mcq-11",
-        "underestimate-mcq-10",
-        "underestimate-mcq-12",
-        "underestimate-mcq-09",
-        "underestimate-mcq-13",
-        "underestimate-mcq-08"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated him」指「低估某人」。",
       "sentenceIndex": 21,
@@ -973,12 +825,8 @@ export default {
         "underestimated him"
       ],
       "optionReasons": {
-        "underestimate-mcq-11": "本句指「低估某人」。",
-        "underestimate-mcq-10": "「低估重要性」與本句語境不同。",
-        "underestimate-mcq-12": "「低估某人實力」與本句語境不同。",
-        "underestimate-mcq-09": "「低估影響」與本句語境不同。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。",
-        "underestimate-mcq-08": "「低估風險」與本句語境不同。"
+        "underestimate-mcq-11": "本句的「underestimated him」指「低估某人」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-11"
     },
@@ -990,11 +838,7 @@ export default {
       "masked": "Don't ____ just because she is quiet.",
       "options": [
         "underestimate-mcq-11",
-        "underestimate-mcq-10",
-        "underestimate-mcq-12",
-        "underestimate-mcq-09",
-        "underestimate-mcq-13",
-        "underestimate-mcq-08"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimate her」指「低估某人」。",
       "sentenceIndex": 22,
@@ -1003,12 +847,8 @@ export default {
         "underestimate her"
       ],
       "optionReasons": {
-        "underestimate-mcq-11": "本句指「低估某人」。",
-        "underestimate-mcq-10": "「低估重要性」與本句語境不同。",
-        "underestimate-mcq-12": "「低估某人實力」與本句語境不同。",
-        "underestimate-mcq-09": "「低估影響」與本句語境不同。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。",
-        "underestimate-mcq-08": "「低估風險」與本句語境不同。"
+        "underestimate-mcq-11": "本句的「underestimate her」指「低估某人」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-11"
     },
@@ -1020,11 +860,7 @@ export default {
       "masked": "The teacher had ____.",
       "options": [
         "underestimate-mcq-11",
-        "underestimate-mcq-10",
-        "underestimate-mcq-12",
-        "underestimate-mcq-09",
-        "underestimate-mcq-13",
-        "underestimate-mcq-08"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated his ability」指「低估某人」。",
       "sentenceIndex": 23,
@@ -1033,12 +869,8 @@ export default {
         "underestimated his ability"
       ],
       "optionReasons": {
-        "underestimate-mcq-11": "本句指「低估某人」。",
-        "underestimate-mcq-10": "「低估重要性」與本句語境不同。",
-        "underestimate-mcq-12": "「低估某人實力」與本句語境不同。",
-        "underestimate-mcq-09": "「低估影響」與本句語境不同。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。",
-        "underestimate-mcq-08": "「低估風險」與本句語境不同。"
+        "underestimate-mcq-11": "本句的「underestimated his ability」指「低估某人」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-11"
     },
@@ -1050,11 +882,7 @@ export default {
       "masked": "I think we ____.",
       "options": [
         "underestimate-mcq-11",
-        "underestimate-mcq-10",
-        "underestimate-mcq-12",
-        "underestimate-mcq-09",
-        "underestimate-mcq-13",
-        "underestimate-mcq-08"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated what she was capable of」指「低估某人」。",
       "sentenceIndex": 24,
@@ -1063,12 +891,8 @@ export default {
         "underestimated what she was capable of"
       ],
       "optionReasons": {
-        "underestimate-mcq-11": "本句指「低估某人」。",
-        "underestimate-mcq-10": "「低估重要性」與本句語境不同。",
-        "underestimate-mcq-12": "「低估某人實力」與本句語境不同。",
-        "underestimate-mcq-09": "「低估影響」與本句語境不同。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。",
-        "underestimate-mcq-08": "「低估風險」與本句語境不同。"
+        "underestimate-mcq-11": "本句的「underestimated what she was capable of」指「低估某人」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-11"
     },
@@ -1080,11 +904,7 @@ export default {
       "masked": "The team ____.",
       "options": [
         "underestimate-mcq-12",
-        "underestimate-mcq-11",
-        "underestimate-mcq-13",
-        "underestimate-mcq-10",
-        "underestimate-mcq-14",
-        "underestimate-mcq-09"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated their opponents' strength」指「低估某人實力」。",
       "sentenceIndex": 25,
@@ -1093,12 +913,8 @@ export default {
         "underestimated their opponents' strength"
       ],
       "optionReasons": {
-        "underestimate-mcq-12": "本句指「低估某人實力」。",
-        "underestimate-mcq-11": "「低估某人」與本句語境不同。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。",
-        "underestimate-mcq-10": "「低估重要性」與本句語境不同。",
-        "underestimate-mcq-14": "「不要小看 X」與本句語境不同。",
-        "underestimate-mcq-09": "「低估影響」與本句語境不同。"
+        "underestimate-mcq-12": "本句的「underestimated their opponents' strength」指「低估某人實力」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-12"
     },
@@ -1110,11 +926,7 @@ export default {
       "masked": "Never ____.",
       "options": [
         "underestimate-mcq-12",
-        "underestimate-mcq-11",
-        "underestimate-mcq-13",
-        "underestimate-mcq-10",
-        "underestimate-mcq-14",
-        "underestimate-mcq-09"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimate your own strength」指「低估某人實力」。",
       "sentenceIndex": 26,
@@ -1123,12 +935,8 @@ export default {
         "underestimate your own strength"
       ],
       "optionReasons": {
-        "underestimate-mcq-12": "本句指「低估某人實力」。",
-        "underestimate-mcq-11": "「低估某人」與本句語境不同。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。",
-        "underestimate-mcq-10": "「低估重要性」與本句語境不同。",
-        "underestimate-mcq-14": "「不要小看 X」與本句語境不同。",
-        "underestimate-mcq-09": "「低估影響」與本句語境不同。"
+        "underestimate-mcq-12": "本句的「underestimate your own strength」指「低估某人實力」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-12"
     },
@@ -1140,11 +948,7 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "underestimate-mcq-13",
-        "underestimate-mcq-12",
-        "underestimate-mcq-14",
-        "underestimate-mcq-11",
-        "underestimate-mcq-15",
-        "underestimate-mcq-10"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimate a child's potential」指「低估潛力」。",
       "sentenceIndex": 27,
@@ -1153,12 +957,8 @@ export default {
         "underestimate a child's potential"
       ],
       "optionReasons": {
-        "underestimate-mcq-13": "本句指「低估潛力」。",
-        "underestimate-mcq-12": "「低估某人實力」與本句語境不同。",
-        "underestimate-mcq-14": "「不要小看 X」與本句語境不同。",
-        "underestimate-mcq-11": "「低估某人」與本句語境不同。",
-        "underestimate-mcq-15": "「嚴重低估」與本句語境不同。",
-        "underestimate-mcq-10": "「低估重要性」與本句語境不同。"
+        "underestimate-mcq-13": "本句的「underestimate a child's potential」指「低估潛力」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-13"
     },
@@ -1170,11 +970,7 @@ export default {
       "masked": "His managers initially ____.",
       "options": [
         "underestimate-mcq-13",
-        "underestimate-mcq-12",
-        "underestimate-mcq-14",
-        "underestimate-mcq-11",
-        "underestimate-mcq-15",
-        "underestimate-mcq-10"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated his potential」指「低估潛力」。",
       "sentenceIndex": 28,
@@ -1183,12 +979,8 @@ export default {
         "underestimated his potential"
       ],
       "optionReasons": {
-        "underestimate-mcq-13": "本句指「低估潛力」。",
-        "underestimate-mcq-12": "「低估某人實力」與本句語境不同。",
-        "underestimate-mcq-14": "「不要小看 X」與本句語境不同。",
-        "underestimate-mcq-11": "「低估某人」與本句語境不同。",
-        "underestimate-mcq-15": "「嚴重低估」與本句語境不同。",
-        "underestimate-mcq-10": "「低估重要性」與本句語境不同。"
+        "underestimate-mcq-13": "本句的「underestimated his potential」指「低估潛力」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-13"
     },
@@ -1200,11 +992,7 @@ export default {
       "masked": "____ how much preparation you need.",
       "options": [
         "underestimate-mcq-14",
-        "underestimate-mcq-13",
-        "underestimate-mcq-15",
-        "underestimate-mcq-12",
-        "underestimate-mcq-16",
-        "underestimate-mcq-11"
+        "underestimate-mcq-07"
       ],
       "explanation": "本句的「Don't underestimate」指「不要小看 X」。",
       "sentenceIndex": 29,
@@ -1213,12 +1001,8 @@ export default {
         "Don't underestimate"
       ],
       "optionReasons": {
-        "underestimate-mcq-14": "本句指「不要小看 X」。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。",
-        "underestimate-mcq-15": "「嚴重低估」與本句語境不同。",
-        "underestimate-mcq-12": "「低估某人實力」與本句語境不同。",
-        "underestimate-mcq-16": "「被低估的」與本句語境不同。",
-        "underestimate-mcq-11": "「低估某人」與本句語境不同。"
+        "underestimate-mcq-14": "本句的「Don't underestimate」指「不要小看 X」。",
+        "underestimate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-14"
     },
@@ -1230,11 +1014,7 @@ export default {
       "masked": "____ the power of a sincere apology.",
       "options": [
         "underestimate-mcq-14",
-        "underestimate-mcq-13",
-        "underestimate-mcq-15",
-        "underestimate-mcq-12",
-        "underestimate-mcq-16",
-        "underestimate-mcq-11"
+        "underestimate-mcq-02"
       ],
       "explanation": "本句的「Don't underestimate」指「不要小看 X」。",
       "sentenceIndex": 30,
@@ -1243,12 +1023,8 @@ export default {
         "Don't underestimate"
       ],
       "optionReasons": {
-        "underestimate-mcq-14": "本句指「不要小看 X」。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。",
-        "underestimate-mcq-15": "「嚴重低估」與本句語境不同。",
-        "underestimate-mcq-12": "「低估某人實力」與本句語境不同。",
-        "underestimate-mcq-16": "「被低估的」與本句語境不同。",
-        "underestimate-mcq-11": "「低估某人」與本句語境不同。"
+        "underestimate-mcq-14": "本句的「Don't underestimate」指「不要小看 X」。",
+        "underestimate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-14"
     },
@@ -1260,11 +1036,7 @@ export default {
       "masked": "I ____ the workload.",
       "options": [
         "underestimate-mcq-15",
-        "underestimate-mcq-14",
-        "underestimate-mcq-16",
-        "underestimate-mcq-13",
-        "underestimate-mcq-17",
-        "underestimate-mcq-12"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「seriously underestimated」指「嚴重低估」。",
       "sentenceIndex": 31,
@@ -1273,12 +1045,8 @@ export default {
         "seriously underestimated"
       ],
       "optionReasons": {
-        "underestimate-mcq-15": "本句指「嚴重低估」。",
-        "underestimate-mcq-14": "「不要小看 X」與本句語境不同。",
-        "underestimate-mcq-16": "「被低估的」與本句語境不同。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。",
-        "underestimate-mcq-17": "「過低的估計」與本句語境不同。",
-        "underestimate-mcq-12": "「低估某人實力」與本句語境不同。"
+        "underestimate-mcq-15": "本句的「seriously underestimated」指「嚴重低估」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-15"
     },
@@ -1290,11 +1058,7 @@ export default {
       "masked": "They had ____ demand.",
       "options": [
         "underestimate-mcq-15",
-        "underestimate-mcq-14",
-        "underestimate-mcq-16",
-        "underestimate-mcq-13",
-        "underestimate-mcq-17",
-        "underestimate-mcq-12"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「greatly underestimated」指「嚴重低估」。",
       "sentenceIndex": 32,
@@ -1303,12 +1067,8 @@ export default {
         "greatly underestimated"
       ],
       "optionReasons": {
-        "underestimate-mcq-15": "本句指「嚴重低估」。",
-        "underestimate-mcq-14": "「不要小看 X」與本句語境不同。",
-        "underestimate-mcq-16": "「被低估的」與本句語境不同。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。",
-        "underestimate-mcq-17": "「過低的估計」與本句語境不同。",
-        "underestimate-mcq-12": "「低估某人實力」與本句語境不同。"
+        "underestimate-mcq-15": "本句的「greatly underestimated」指「嚴重低估」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-15"
     },
@@ -1320,11 +1080,7 @@ export default {
       "masked": "She is an ____.",
       "options": [
         "underestimate-mcq-16",
-        "underestimate-mcq-15",
-        "underestimate-mcq-17",
-        "underestimate-mcq-14",
-        "underestimate-mcq-18",
-        "underestimate-mcq-13"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated player」指「被低估的」。",
       "sentenceIndex": 33,
@@ -1333,12 +1089,8 @@ export default {
         "underestimated player"
       ],
       "optionReasons": {
-        "underestimate-mcq-16": "本句指「被低估的」。",
-        "underestimate-mcq-15": "「嚴重低估」與本句語境不同。",
-        "underestimate-mcq-17": "「過低的估計」與本句語境不同。",
-        "underestimate-mcq-14": "「不要小看 X」與本句語境不同。",
-        "underestimate-mcq-18": "「低估；估計不足」與本句語境不同。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。"
+        "underestimate-mcq-16": "本句的「underestimated player」指「被低估的」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-16"
     },
@@ -1350,11 +1102,7 @@ export default {
       "masked": "Sleep is an ____.",
       "options": [
         "underestimate-mcq-16",
-        "underestimate-mcq-15",
-        "underestimate-mcq-17",
-        "underestimate-mcq-14",
-        "underestimate-mcq-18",
-        "underestimate-mcq-13"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimated part of productivity」指「被低估的」。",
       "sentenceIndex": 34,
@@ -1363,12 +1111,8 @@ export default {
         "underestimated part of productivity"
       ],
       "optionReasons": {
-        "underestimate-mcq-16": "本句指「被低估的」。",
-        "underestimate-mcq-15": "「嚴重低估」與本句語境不同。",
-        "underestimate-mcq-17": "「過低的估計」與本句語境不同。",
-        "underestimate-mcq-14": "「不要小看 X」與本句語境不同。",
-        "underestimate-mcq-18": "「低估；估計不足」與本句語境不同。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。"
+        "underestimate-mcq-16": "本句的「underestimated part of productivity」指「被低估的」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-16"
     },
@@ -1380,11 +1124,7 @@ export default {
       "masked": "The original figure was a serious ____.",
       "options": [
         "underestimate-mcq-17",
-        "underestimate-mcq-16",
-        "underestimate-mcq-18",
-        "underestimate-mcq-15",
-        "underestimate-mcq-14",
-        "underestimate-mcq-13"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimate」指「過低的估計」。",
       "sentenceIndex": 37,
@@ -1393,12 +1133,8 @@ export default {
         "underestimate"
       ],
       "optionReasons": {
-        "underestimate-mcq-17": "本句指「過低的估計」。",
-        "underestimate-mcq-16": "「被低估的」與本句語境不同。",
-        "underestimate-mcq-18": "「低估；估計不足」與本句語境不同。",
-        "underestimate-mcq-15": "「嚴重低估」與本句語境不同。",
-        "underestimate-mcq-14": "「不要小看 X」與本句語境不同。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。"
+        "underestimate-mcq-17": "本句的「underestimate」指「過低的估計」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-17"
     },
@@ -1410,11 +1146,7 @@ export default {
       "masked": "Ten hours turned out to be an ____.",
       "options": [
         "underestimate-mcq-17",
-        "underestimate-mcq-16",
-        "underestimate-mcq-18",
-        "underestimate-mcq-15",
-        "underestimate-mcq-14",
-        "underestimate-mcq-13"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimate」指「過低的估計」。",
       "sentenceIndex": 38,
@@ -1423,12 +1155,8 @@ export default {
         "underestimate"
       ],
       "optionReasons": {
-        "underestimate-mcq-17": "本句指「過低的估計」。",
-        "underestimate-mcq-16": "「被低估的」與本句語境不同。",
-        "underestimate-mcq-18": "「低估；估計不足」與本句語境不同。",
-        "underestimate-mcq-15": "「嚴重低估」與本句語境不同。",
-        "underestimate-mcq-14": "「不要小看 X」與本句語境不同。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。"
+        "underestimate-mcq-17": "本句的「underestimate」指「過低的估計」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-17"
     },
@@ -1440,11 +1168,7 @@ export default {
       "masked": "The delay resulted from an ____.",
       "options": [
         "underestimate-mcq-18",
-        "underestimate-mcq-17",
-        "underestimate-mcq-16",
-        "underestimate-mcq-15",
-        "underestimate-mcq-14",
-        "underestimate-mcq-13"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimation of the workload」指「低估；估計不足」。",
       "sentenceIndex": 39,
@@ -1453,12 +1177,8 @@ export default {
         "underestimation of the workload"
       ],
       "optionReasons": {
-        "underestimate-mcq-18": "本句指「低估；估計不足」。",
-        "underestimate-mcq-17": "「過低的估計」與本句語境不同。",
-        "underestimate-mcq-16": "「被低估的」與本句語境不同。",
-        "underestimate-mcq-15": "「嚴重低估」與本句語境不同。",
-        "underestimate-mcq-14": "「不要小看 X」與本句語境不同。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。"
+        "underestimate-mcq-18": "本句的「underestimation of the workload」指「低估；估計不足」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-18"
     },
@@ -1470,11 +1190,7 @@ export default {
       "masked": "Their ____ created problems later.",
       "options": [
         "underestimate-mcq-18",
-        "underestimate-mcq-17",
-        "underestimate-mcq-16",
-        "underestimate-mcq-15",
-        "underestimate-mcq-14",
-        "underestimate-mcq-13"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimation of the costs」指「低估；估計不足」。",
       "sentenceIndex": 40,
@@ -1483,12 +1199,8 @@ export default {
         "underestimation of the costs"
       ],
       "optionReasons": {
-        "underestimate-mcq-18": "本句指「低估；估計不足」。",
-        "underestimate-mcq-17": "「過低的估計」與本句語境不同。",
-        "underestimate-mcq-16": "「被低估的」與本句語境不同。",
-        "underestimate-mcq-15": "「嚴重低估」與本句語境不同。",
-        "underestimate-mcq-14": "「不要小看 X」與本句語境不同。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。"
+        "underestimate-mcq-18": "本句的「underestimation of the costs」指「低估；估計不足」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-18"
     },
@@ -1500,11 +1212,7 @@ export default {
       "masked": "Poor planning often involves an ____.",
       "options": [
         "underestimate-mcq-18",
-        "underestimate-mcq-17",
-        "underestimate-mcq-16",
-        "underestimate-mcq-15",
-        "underestimate-mcq-14",
-        "underestimate-mcq-13"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimation of time requirements」指「低估；估計不足」。",
       "sentenceIndex": 41,
@@ -1513,12 +1221,8 @@ export default {
         "underestimation of time requirements"
       ],
       "optionReasons": {
-        "underestimate-mcq-18": "本句指「低估；估計不足」。",
-        "underestimate-mcq-17": "「過低的估計」與本句語境不同。",
-        "underestimate-mcq-16": "「被低估的」與本句語境不同。",
-        "underestimate-mcq-15": "「嚴重低估」與本句語境不同。",
-        "underestimate-mcq-14": "「不要小看 X」與本句語境不同。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。"
+        "underestimate-mcq-18": "本句的「underestimation of time requirements」指「低估；估計不足」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-18"
     },
@@ -1530,11 +1234,7 @@ export default {
       "masked": "The ____ made us late.",
       "options": [
         "underestimate-mcq-18",
-        "underestimate-mcq-17",
-        "underestimate-mcq-16",
-        "underestimate-mcq-15",
-        "underestimate-mcq-14",
-        "underestimate-mcq-13"
+        "underestimate-mcq-14"
       ],
       "explanation": "本句的「underestimation of travel time」指「低估；估計不足」。",
       "sentenceIndex": 42,
@@ -1543,12 +1243,8 @@ export default {
         "underestimation of travel time"
       ],
       "optionReasons": {
-        "underestimate-mcq-18": "本句指「低估；估計不足」。",
-        "underestimate-mcq-17": "「過低的估計」與本句語境不同。",
-        "underestimate-mcq-16": "「被低估的」與本句語境不同。",
-        "underestimate-mcq-15": "「嚴重低估」與本句語境不同。",
-        "underestimate-mcq-14": "「不要小看 X」與本句語境不同。",
-        "underestimate-mcq-13": "「低估潛力」與本句語境不同。"
+        "underestimate-mcq-18": "本句的「underestimation of travel time」指「低估；估計不足」。",
+        "underestimate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "underestimate-mcq-18"
     }
@@ -1560,5 +1256,12 @@ export default {
     "sha256": "dc402ad8df7b2f85865434777814733a4209219249396ef28b6b11b696009977",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -360,11 +360,7 @@ export default {
       "masked": "____, I bought the headphones.",
       "options": [
         "few-mcq-01",
-        "few-mcq-02",
-        "few-mcq-03",
-        "few-mcq-04",
-        "few-mcq-05",
-        "few-mcq-06"
+        "few-mcq-04"
       ],
       "explanation": "本句的「A few weeks later」指「數量不多但確實存在的一些人／事物；幾個」。",
       "sentenceIndex": 0,
@@ -373,12 +369,8 @@ export default {
         "A few weeks later"
       ],
       "optionReasons": {
-        "few-mcq-01": "本句指「數量不多但確實存在的一些人／事物；幾個」。",
-        "few-mcq-02": "「數量很少，往往帶有不足或比預期少的意味」是「few + plural noun」的用法，與本句語境不同。",
-        "few-mcq-03": "「前文對象已清楚時，指其中少量幾個」是「a few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-04": "「某個群體中只有極少數符合某情況」是「few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-05": "「數量極少，只佔整體很小部分」是「very few」的用法，與本句語境不同。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。"
+        "few-mcq-01": "本句的「A few weeks later」指「數量不多但確實存在的一些人／事物；幾個」。",
+        "few-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-01"
     },
@@ -390,11 +382,7 @@ export default {
       "masked": "I need ____ to finish this.",
       "options": [
         "few-mcq-01",
-        "few-mcq-02",
-        "few-mcq-03",
-        "few-mcq-04",
-        "few-mcq-05",
-        "few-mcq-06"
+        "few-mcq-11"
       ],
       "explanation": "本句的「a few minutes」指「數量不多但確實存在的一些人／事物；幾個」。",
       "sentenceIndex": 1,
@@ -403,12 +391,8 @@ export default {
         "a few minutes"
       ],
       "optionReasons": {
-        "few-mcq-01": "本句指「數量不多但確實存在的一些人／事物；幾個」。",
-        "few-mcq-02": "「數量很少，往往帶有不足或比預期少的意味」是「few + plural noun」的用法，與本句語境不同。",
-        "few-mcq-03": "「前文對象已清楚時，指其中少量幾個」是「a few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-04": "「某個群體中只有極少數符合某情況」是「few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-05": "「數量極少，只佔整體很小部分」是「very few」的用法，與本句語境不同。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。"
+        "few-mcq-01": "本句的「a few minutes」指「數量不多但確實存在的一些人／事物；幾個」。",
+        "few-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-01"
     },
@@ -420,11 +404,7 @@ export default {
       "masked": "We invited ____ over for dinner.",
       "options": [
         "few-mcq-01",
-        "few-mcq-02",
-        "few-mcq-03",
-        "few-mcq-04",
-        "few-mcq-05",
-        "few-mcq-06"
+        "few-mcq-11"
       ],
       "explanation": "本句的「a few friends」指「數量不多但確實存在的一些人／事物；幾個」。",
       "sentenceIndex": 2,
@@ -433,12 +413,8 @@ export default {
         "a few friends"
       ],
       "optionReasons": {
-        "few-mcq-01": "本句指「數量不多但確實存在的一些人／事物；幾個」。",
-        "few-mcq-02": "「數量很少，往往帶有不足或比預期少的意味」是「few + plural noun」的用法，與本句語境不同。",
-        "few-mcq-03": "「前文對象已清楚時，指其中少量幾個」是「a few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-04": "「某個群體中只有極少數符合某情況」是「few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-05": "「數量極少，只佔整體很小部分」是「very few」的用法，與本句語境不同。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。"
+        "few-mcq-01": "本句的「a few friends」指「數量不多但確實存在的一些人／事物；幾個」。",
+        "few-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-01"
     },
@@ -450,11 +426,8 @@ export default {
       "masked": "____ understood the instructions.",
       "options": [
         "few-mcq-02",
-        "few-mcq-01",
-        "few-mcq-03",
-        "few-mcq-04",
-        "few-mcq-05",
-        "few-mcq-06"
+        "few-mcq-07",
+        "few-mcq-04"
       ],
       "explanation": "本句的「Few people」指「數量很少，往往帶有不足或比預期少的意味」。",
       "sentenceIndex": 3,
@@ -463,12 +436,9 @@ export default {
         "Few people"
       ],
       "optionReasons": {
-        "few-mcq-02": "本句指「數量很少，往往帶有不足或比預期少的意味」。",
-        "few-mcq-01": "「數量不多但確實存在的一些人／事物；幾個」是「a few + plural noun」的用法，與本句語境不同。",
-        "few-mcq-03": "「前文對象已清楚時，指其中少量幾個」是「a few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-04": "「某個群體中只有極少數符合某情況」是「few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-05": "「數量極少，只佔整體很小部分」是「very few」的用法，與本句語境不同。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。"
+        "few-mcq-02": "本句的「Few people」指「數量很少，往往帶有不足或比預期少的意味」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-02"
     },
@@ -480,11 +450,8 @@ export default {
       "masked": "There are ____ for promotion.",
       "options": [
         "few-mcq-02",
-        "few-mcq-01",
-        "few-mcq-03",
-        "few-mcq-04",
-        "few-mcq-05",
-        "few-mcq-06"
+        "few-mcq-07",
+        "few-mcq-04"
       ],
       "explanation": "本句的「few opportunities」指「數量很少，往往帶有不足或比預期少的意味」。",
       "sentenceIndex": 4,
@@ -493,12 +460,9 @@ export default {
         "few opportunities"
       ],
       "optionReasons": {
-        "few-mcq-02": "本句指「數量很少，往往帶有不足或比預期少的意味」。",
-        "few-mcq-01": "「數量不多但確實存在的一些人／事物；幾個」是「a few + plural noun」的用法，與本句語境不同。",
-        "few-mcq-03": "「前文對象已清楚時，指其中少量幾個」是「a few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-04": "「某個群體中只有極少數符合某情況」是「few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-05": "「數量極少，只佔整體很小部分」是「very few」的用法，與本句語境不同。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。"
+        "few-mcq-02": "本句的「few opportunities」指「數量很少，往往帶有不足或比預期少的意味」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-02"
     },
@@ -510,11 +474,8 @@ export default {
       "masked": "I took several photos, but only ____ were good.",
       "options": [
         "few-mcq-03",
-        "few-mcq-02",
-        "few-mcq-04",
-        "few-mcq-01",
-        "few-mcq-05",
-        "few-mcq-06"
+        "few-mcq-10",
+        "few-mcq-14"
       ],
       "explanation": "本句的「a few」指「前文對象已清楚時，指其中少量幾個」。",
       "sentenceIndex": 5,
@@ -523,12 +484,9 @@ export default {
         "a few"
       ],
       "optionReasons": {
-        "few-mcq-03": "本句指「前文對象已清楚時，指其中少量幾個」。",
-        "few-mcq-02": "「數量很少，往往帶有不足或比預期少的意味」是「few + plural noun」的用法，與本句語境不同。",
-        "few-mcq-04": "「某個群體中只有極少數符合某情況」是「few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-01": "「數量不多但確實存在的一些人／事物；幾個」是「a few + plural noun」的用法，與本句語境不同。",
-        "few-mcq-05": "「數量極少，只佔整體很小部分」是「very few」的用法，與本句語境不同。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。"
+        "few-mcq-03": "本句的「a few」指「前文對象已清楚時，指其中少量幾個」。",
+        "few-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-03"
     },
@@ -540,10 +498,7 @@ export default {
       "masked": "We invited twenty people, but only ____ came.",
       "options": [
         "few-mcq-03",
-        "few-mcq-02",
-        "few-mcq-04",
-        "few-mcq-01",
-        "few-mcq-05",
+        "few-mcq-11",
         "few-mcq-06"
       ],
       "explanation": "本句的「a few」指「前文對象已清楚時，指其中少量幾個」。",
@@ -553,12 +508,9 @@ export default {
         "a few"
       ],
       "optionReasons": {
-        "few-mcq-03": "本句指「前文對象已清楚時，指其中少量幾個」。",
-        "few-mcq-02": "「數量很少，往往帶有不足或比預期少的意味」是「few + plural noun」的用法，與本句語境不同。",
-        "few-mcq-04": "「某個群體中只有極少數符合某情況」是「few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-01": "「數量不多但確實存在的一些人／事物；幾個」是「a few + plural noun」的用法，與本句語境不同。",
-        "few-mcq-05": "「數量極少，只佔整體很小部分」是「very few」的用法，與本句語境不同。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。"
+        "few-mcq-03": "本句的「a few」指「前文對象已清楚時，指其中少量幾個」。",
+        "few-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-03"
     },
@@ -570,11 +522,8 @@ export default {
       "masked": "Many applied, but ____ were accepted.",
       "options": [
         "few-mcq-04",
-        "few-mcq-03",
-        "few-mcq-05",
-        "few-mcq-02",
-        "few-mcq-06",
-        "few-mcq-01"
+        "few-mcq-07",
+        "few-mcq-13"
       ],
       "explanation": "本句的「few」指「某個群體中只有極少數符合某情況」。",
       "sentenceIndex": 7,
@@ -583,12 +532,9 @@ export default {
         "few"
       ],
       "optionReasons": {
-        "few-mcq-04": "本句指「某個群體中只有極少數符合某情況」。",
-        "few-mcq-03": "「前文對象已清楚時，指其中少量幾個」是「a few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-05": "「數量極少，只佔整體很小部分」是「very few」的用法，與本句語境不同。",
-        "few-mcq-02": "「數量很少，往往帶有不足或比預期少的意味」是「few + plural noun」的用法，與本句語境不同。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。",
-        "few-mcq-01": "「數量不多但確實存在的一些人／事物；幾個」是「a few + plural noun」的用法，與本句語境不同。"
+        "few-mcq-04": "本句的「few」指「某個群體中只有極少數符合某情況」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-04"
     },
@@ -600,11 +546,8 @@ export default {
       "masked": "The problem is complicated, and ____ understand it fully.",
       "options": [
         "few-mcq-04",
-        "few-mcq-03",
-        "few-mcq-05",
-        "few-mcq-02",
-        "few-mcq-06",
-        "few-mcq-01"
+        "few-mcq-07",
+        "few-mcq-09"
       ],
       "explanation": "本句的「few」指「某個群體中只有極少數符合某情況」。",
       "sentenceIndex": 8,
@@ -613,12 +556,9 @@ export default {
         "few"
       ],
       "optionReasons": {
-        "few-mcq-04": "本句指「某個群體中只有極少數符合某情況」。",
-        "few-mcq-03": "「前文對象已清楚時，指其中少量幾個」是「a few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-05": "「數量極少，只佔整體很小部分」是「very few」的用法，與本句語境不同。",
-        "few-mcq-02": "「數量很少，往往帶有不足或比預期少的意味」是「few + plural noun」的用法，與本句語境不同。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。",
-        "few-mcq-01": "「數量不多但確實存在的一些人／事物；幾個」是「a few + plural noun」的用法，與本句語境不同。"
+        "few-mcq-04": "本句的「few」指「某個群體中只有極少數符合某情況」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-04"
     },
@@ -630,11 +570,7 @@ export default {
       "masked": "____ complained.",
       "options": [
         "few-mcq-05",
-        "few-mcq-04",
-        "few-mcq-06",
-        "few-mcq-03",
-        "few-mcq-07",
-        "few-mcq-02"
+        "few-mcq-07"
       ],
       "explanation": "本句的「Very few customers」指「數量極少，只佔整體很小部分」。",
       "sentenceIndex": 9,
@@ -643,12 +579,8 @@ export default {
         "Very few customers"
       ],
       "optionReasons": {
-        "few-mcq-05": "本句指「數量極少，只佔整體很小部分」。",
-        "few-mcq-04": "「某個群體中只有極少數符合某情況」是「few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。",
-        "few-mcq-03": "「前文對象已清楚時，指其中少量幾個」是「a few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-07": "「好幾個／相當多，尤其常見於英式英語」是「a good few」的用法，與本句語境不同。",
-        "few-mcq-02": "「數量很少，往往帶有不足或比預期少的意味」是「few + plural noun」的用法，與本句語境不同。"
+        "few-mcq-05": "本句的「Very few customers」指「數量極少，只佔整體很小部分」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-05"
     },
@@ -660,11 +592,7 @@ export default {
       "masked": "Very ____ can do this perfectly.",
       "options": [
         "few-mcq-05",
-        "few-mcq-04",
-        "few-mcq-06",
-        "few-mcq-03",
-        "few-mcq-07",
-        "few-mcq-02"
+        "few-mcq-07"
       ],
       "explanation": "本句的「few people」指「數量極少，只佔整體很小部分」。",
       "sentenceIndex": 10,
@@ -673,12 +601,8 @@ export default {
         "few people"
       ],
       "optionReasons": {
-        "few-mcq-05": "本句指「數量極少，只佔整體很小部分」。",
-        "few-mcq-04": "「某個群體中只有極少數符合某情況」是「few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。",
-        "few-mcq-03": "「前文對象已清楚時，指其中少量幾個」是「a few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-07": "「好幾個／相當多，尤其常見於英式英語」是「a good few」的用法，與本句語境不同。",
-        "few-mcq-02": "「數量很少，往往帶有不足或比預期少的意味」是「few + plural noun」的用法，與本句語境不同。"
+        "few-mcq-05": "本句的「few people」指「數量極少，只佔整體很小部分」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-05"
     },
@@ -690,10 +614,7 @@ export default {
       "masked": "____ attended the event.",
       "options": [
         "few-mcq-06",
-        "few-mcq-05",
-        "few-mcq-07",
-        "few-mcq-04",
-        "few-mcq-08",
+        "few-mcq-11",
         "few-mcq-03"
       ],
       "explanation": "本句的「Quite a few people」指「數量相當多，比普通 a few 明顯更多」。",
@@ -703,12 +624,9 @@ export default {
         "Quite a few people"
       ],
       "optionReasons": {
-        "few-mcq-06": "本句指「數量相當多，比普通 a few 明顯更多」。",
-        "few-mcq-05": "「數量極少，只佔整體很小部分」是「very few」的用法，與本句語境不同。",
-        "few-mcq-07": "「好幾個／相當多，尤其常見於英式英語」是「a good few」的用法，與本句語境不同。",
-        "few-mcq-04": "「某個群體中只有極少數符合某情況」是「few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-08": "「與另一數量相比，可數的人／事物較少」是「fewer」的用法，與本句語境不同。",
-        "few-mcq-03": "「前文對象已清楚時，指其中少量幾個」是「a few — pronoun」的用法，與本句語境不同。"
+        "few-mcq-06": "本句的「Quite a few people」指「數量相當多，比普通 a few 明顯更多」。",
+        "few-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-06"
     },
@@ -720,10 +638,7 @@ export default {
       "masked": "I’ve watched that film ____.",
       "options": [
         "few-mcq-06",
-        "few-mcq-05",
-        "few-mcq-07",
         "few-mcq-04",
-        "few-mcq-08",
         "few-mcq-03"
       ],
       "explanation": "本句的「quite a few times」指「數量相當多，比普通 a few 明顯更多」。",
@@ -733,12 +648,9 @@ export default {
         "quite a few times"
       ],
       "optionReasons": {
-        "few-mcq-06": "本句指「數量相當多，比普通 a few 明顯更多」。",
-        "few-mcq-05": "「數量極少，只佔整體很小部分」是「very few」的用法，與本句語境不同。",
-        "few-mcq-07": "「好幾個／相當多，尤其常見於英式英語」是「a good few」的用法，與本句語境不同。",
-        "few-mcq-04": "「某個群體中只有極少數符合某情況」是「few — pronoun」的用法，與本句語境不同。",
-        "few-mcq-08": "「與另一數量相比，可數的人／事物較少」是「fewer」的用法，與本句語境不同。",
-        "few-mcq-03": "「前文對象已清楚時，指其中少量幾個」是「a few — pronoun」的用法，與本句語境不同。"
+        "few-mcq-06": "本句的「quite a few times」指「數量相當多，比普通 a few 明顯更多」。",
+        "few-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-06"
     },
@@ -750,11 +662,7 @@ export default {
       "masked": "It took ____ to finish.",
       "options": [
         "few-mcq-07",
-        "few-mcq-06",
-        "few-mcq-08",
-        "few-mcq-05",
-        "few-mcq-09",
-        "few-mcq-04"
+        "few-mcq-05"
       ],
       "explanation": "本句的「a good few hours」指「好幾個／相當多，尤其常見於英式英語」。",
       "sentenceIndex": 13,
@@ -763,12 +671,8 @@ export default {
         "a good few hours"
       ],
       "optionReasons": {
-        "few-mcq-07": "本句指「好幾個／相當多，尤其常見於英式英語」。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。",
-        "few-mcq-08": "「與另一數量相比，可數的人／事物較少」是「fewer」的用法，與本句語境不同。",
-        "few-mcq-05": "「數量極少，只佔整體很小部分」是「very few」的用法，與本句語境不同。",
-        "few-mcq-09": "「在多個比較對象中，可數的人／事物數量最少」是「fewest」的用法，與本句語境不同。",
-        "few-mcq-04": "「某個群體中只有極少數符合某情況」是「few — pronoun」的用法，與本句語境不同。"
+        "few-mcq-07": "本句的「a good few hours」指「好幾個／相當多，尤其常見於英式英語」。",
+        "few-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-07"
     },
@@ -780,11 +684,8 @@ export default {
       "masked": "I’ve been there ____.",
       "options": [
         "few-mcq-07",
-        "few-mcq-06",
-        "few-mcq-08",
-        "few-mcq-05",
-        "few-mcq-09",
-        "few-mcq-04"
+        "few-mcq-04",
+        "few-mcq-02"
       ],
       "explanation": "本句的「a good few times」指「好幾個／相當多，尤其常見於英式英語」。",
       "sentenceIndex": 14,
@@ -793,12 +694,9 @@ export default {
         "a good few times"
       ],
       "optionReasons": {
-        "few-mcq-07": "本句指「好幾個／相當多，尤其常見於英式英語」。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。",
-        "few-mcq-08": "「與另一數量相比，可數的人／事物較少」是「fewer」的用法，與本句語境不同。",
-        "few-mcq-05": "「數量極少，只佔整體很小部分」是「very few」的用法，與本句語境不同。",
-        "few-mcq-09": "「在多個比較對象中，可數的人／事物數量最少」是「fewest」的用法，與本句語境不同。",
-        "few-mcq-04": "「某個群體中只有極少數符合某情況」是「few — pronoun」的用法，與本句語境不同。"
+        "few-mcq-07": "本句的「a good few times」指「好幾個／相當多，尤其常見於英式英語」。",
+        "few-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-07"
     },
@@ -810,11 +708,7 @@ export default {
       "masked": "This model has ____.",
       "options": [
         "few-mcq-08",
-        "few-mcq-07",
-        "few-mcq-09",
-        "few-mcq-06",
-        "few-mcq-10",
-        "few-mcq-05"
+        "few-mcq-07"
       ],
       "explanation": "本句的「fewer buttons」指「與另一數量相比，可數的人／事物較少」。",
       "sentenceIndex": 15,
@@ -823,12 +717,8 @@ export default {
         "fewer buttons"
       ],
       "optionReasons": {
-        "few-mcq-08": "本句指「與另一數量相比，可數的人／事物較少」。",
-        "few-mcq-07": "「好幾個／相當多，尤其常見於英式英語」是「a good few」的用法，與本句語境不同。",
-        "few-mcq-09": "「在多個比較對象中，可數的人／事物數量最少」是「fewest」的用法，與本句語境不同。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。",
-        "few-mcq-10": "「某群體中數量非常有限的那一小部分」是「the few」的用法，與本句語境不同。",
-        "few-mcq-05": "「數量極少，只佔整體很小部分」是「very few」的用法，與本句語境不同。"
+        "few-mcq-08": "本句的「fewer buttons」指「與另一數量相比，可數的人／事物較少」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-08"
     },
@@ -840,11 +730,7 @@ export default {
       "masked": "____ people attended this year.",
       "options": [
         "few-mcq-08",
-        "few-mcq-07",
-        "few-mcq-09",
-        "few-mcq-06",
-        "few-mcq-10",
-        "few-mcq-05"
+        "few-mcq-07"
       ],
       "explanation": "本句的「Fewer」指「與另一數量相比，可數的人／事物較少」。",
       "sentenceIndex": 16,
@@ -853,12 +739,8 @@ export default {
         "Fewer"
       ],
       "optionReasons": {
-        "few-mcq-08": "本句指「與另一數量相比，可數的人／事物較少」。",
-        "few-mcq-07": "「好幾個／相當多，尤其常見於英式英語」是「a good few」的用法，與本句語境不同。",
-        "few-mcq-09": "「在多個比較對象中，可數的人／事物數量最少」是「fewest」的用法，與本句語境不同。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。",
-        "few-mcq-10": "「某群體中數量非常有限的那一小部分」是「the few」的用法，與本句語境不同。",
-        "few-mcq-05": "「數量極少，只佔整體很小部分」是「very few」的用法，與本句語境不同。"
+        "few-mcq-08": "本句的「Fewer」指「與另一數量相比，可數的人／事物較少」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-08"
     },
@@ -870,11 +752,7 @@ export default {
       "masked": "____ attended the meeting.",
       "options": [
         "few-mcq-08",
-        "few-mcq-07",
-        "few-mcq-09",
-        "few-mcq-06",
-        "few-mcq-10",
-        "few-mcq-05"
+        "few-mcq-07"
       ],
       "explanation": "本句的「Fewer than ten people」指「與另一數量相比，可數的人／事物較少」。",
       "sentenceIndex": 17,
@@ -883,12 +761,8 @@ export default {
         "Fewer than ten people"
       ],
       "optionReasons": {
-        "few-mcq-08": "本句指「與另一數量相比，可數的人／事物較少」。",
-        "few-mcq-07": "「好幾個／相當多，尤其常見於英式英語」是「a good few」的用法，與本句語境不同。",
-        "few-mcq-09": "「在多個比較對象中，可數的人／事物數量最少」是「fewest」的用法，與本句語境不同。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。",
-        "few-mcq-10": "「某群體中數量非常有限的那一小部分」是「the few」的用法，與本句語境不同。",
-        "few-mcq-05": "「數量極少，只佔整體很小部分」是「very few」的用法，與本句語境不同。"
+        "few-mcq-08": "本句的「Fewer than ten people」指「與另一數量相比，可數的人／事物較少」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-08"
     },
@@ -900,11 +774,7 @@ export default {
       "masked": "The repair took ____.",
       "options": [
         "few-mcq-08",
-        "few-mcq-07",
-        "few-mcq-09",
-        "few-mcq-06",
-        "few-mcq-10",
-        "few-mcq-05"
+        "few-mcq-07"
       ],
       "explanation": "本句的「fewer than three hours」指「與另一數量相比，可數的人／事物較少」。",
       "sentenceIndex": 18,
@@ -913,12 +783,8 @@ export default {
         "fewer than three hours"
       ],
       "optionReasons": {
-        "few-mcq-08": "本句指「與另一數量相比，可數的人／事物較少」。",
-        "few-mcq-07": "「好幾個／相當多，尤其常見於英式英語」是「a good few」的用法，與本句語境不同。",
-        "few-mcq-09": "「在多個比較對象中，可數的人／事物數量最少」是「fewest」的用法，與本句語境不同。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。",
-        "few-mcq-10": "「某群體中數量非常有限的那一小部分」是「the few」的用法，與本句語境不同。",
-        "few-mcq-05": "「數量極少，只佔整體很小部分」是「very few」的用法，與本句語境不同。"
+        "few-mcq-08": "本句的「fewer than three hours」指「與另一數量相比，可數的人／事物較少」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-08"
     },
@@ -930,11 +796,8 @@ export default {
       "masked": "This option has the ____.",
       "options": [
         "few-mcq-09",
-        "few-mcq-08",
-        "few-mcq-10",
         "few-mcq-07",
-        "few-mcq-11",
-        "few-mcq-06"
+        "few-mcq-04"
       ],
       "explanation": "本句的「fewest problems」指「在多個比較對象中，可數的人／事物數量最少」。",
       "sentenceIndex": 19,
@@ -943,12 +806,9 @@ export default {
         "fewest problems"
       ],
       "optionReasons": {
-        "few-mcq-09": "本句指「在多個比較對象中，可數的人／事物數量最少」。",
-        "few-mcq-08": "「與另一數量相比，可數的人／事物較少」是「fewer」的用法，與本句語境不同。",
-        "few-mcq-10": "「某群體中數量非常有限的那一小部分」是「the few」的用法，與本句語境不同。",
-        "few-mcq-07": "「好幾個／相當多，尤其常見於英式英語」是「a good few」的用法，與本句語境不同。",
-        "few-mcq-11": "「在只有極少數符合某條件的人／事物中，其中之一」是「one of the few」的用法，與本句語境不同。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。"
+        "few-mcq-09": "本句的「fewest problems」指「在多個比較對象中，可數的人／事物數量最少」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-09"
     },
@@ -960,11 +820,8 @@ export default {
       "masked": "Which team made the ____?",
       "options": [
         "few-mcq-09",
-        "few-mcq-08",
-        "few-mcq-10",
         "few-mcq-07",
-        "few-mcq-11",
-        "few-mcq-06"
+        "few-mcq-04"
       ],
       "explanation": "本句的「fewest mistakes」指「在多個比較對象中，可數的人／事物數量最少」。",
       "sentenceIndex": 20,
@@ -973,12 +830,9 @@ export default {
         "fewest mistakes"
       ],
       "optionReasons": {
-        "few-mcq-09": "本句指「在多個比較對象中，可數的人／事物數量最少」。",
-        "few-mcq-08": "「與另一數量相比，可數的人／事物較少」是「fewer」的用法，與本句語境不同。",
-        "few-mcq-10": "「某群體中數量非常有限的那一小部分」是「the few」的用法，與本句語境不同。",
-        "few-mcq-07": "「好幾個／相當多，尤其常見於英式英語」是「a good few」的用法，與本句語境不同。",
-        "few-mcq-11": "「在只有極少數符合某條件的人／事物中，其中之一」是「one of the few」的用法，與本句語境不同。",
-        "few-mcq-06": "「數量相當多，比普通 a few 明顯更多」是「quite a few」的用法，與本句語境不同。"
+        "few-mcq-09": "本句的「fewest mistakes」指「在多個比較對象中，可數的人／事物數量最少」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-09"
     },
@@ -990,11 +844,8 @@ export default {
       "masked": "She was one of ____ who supported the idea.",
       "options": [
         "few-mcq-10",
-        "few-mcq-09",
-        "few-mcq-11",
-        "few-mcq-08",
-        "few-mcq-12",
-        "few-mcq-07"
+        "few-mcq-03",
+        "few-mcq-11"
       ],
       "explanation": "本句的「the few」指「某群體中數量非常有限的那一小部分」。",
       "sentenceIndex": 21,
@@ -1003,12 +854,9 @@ export default {
         "the few"
       ],
       "optionReasons": {
-        "few-mcq-10": "本句指「某群體中數量非常有限的那一小部分」。",
-        "few-mcq-09": "「在多個比較對象中，可數的人／事物數量最少」是「fewest」的用法，與本句語境不同。",
-        "few-mcq-11": "「在只有極少數符合某條件的人／事物中，其中之一」是「one of the few」的用法，與本句語境不同。",
-        "few-mcq-08": "「與另一數量相比，可數的人／事物較少」是「fewer」的用法，與本句語境不同。",
-        "few-mcq-12": "「數量極少而不常出現；非常罕見」是「few and far between」的用法，與本句語境不同。",
-        "few-mcq-07": "「好幾個／相當多，尤其常見於英式英語」是「a good few」的用法，與本句語境不同。"
+        "few-mcq-10": "本句的「the few」指「某群體中數量非常有限的那一小部分」。",
+        "few-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-10"
     },
@@ -1020,11 +868,8 @@ export default {
       "masked": "These are among ____ buildings that survived.",
       "options": [
         "few-mcq-10",
-        "few-mcq-09",
-        "few-mcq-11",
-        "few-mcq-08",
-        "few-mcq-12",
-        "few-mcq-07"
+        "few-mcq-07",
+        "few-mcq-11"
       ],
       "explanation": "本句的「the few」指「某群體中數量非常有限的那一小部分」。",
       "sentenceIndex": 22,
@@ -1033,12 +878,9 @@ export default {
         "the few"
       ],
       "optionReasons": {
-        "few-mcq-10": "本句指「某群體中數量非常有限的那一小部分」。",
-        "few-mcq-09": "「在多個比較對象中，可數的人／事物數量最少」是「fewest」的用法，與本句語境不同。",
-        "few-mcq-11": "「在只有極少數符合某條件的人／事物中，其中之一」是「one of the few」的用法，與本句語境不同。",
-        "few-mcq-08": "「與另一數量相比，可數的人／事物較少」是「fewer」的用法，與本句語境不同。",
-        "few-mcq-12": "「數量極少而不常出現；非常罕見」是「few and far between」的用法，與本句語境不同。",
-        "few-mcq-07": "「好幾個／相當多，尤其常見於英式英語」是「a good few」的用法，與本句語境不同。"
+        "few-mcq-10": "本句的「the few」指「某群體中數量非常有限的那一小部分」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-10"
     },
@@ -1050,11 +892,8 @@ export default {
       "masked": "He is ____ knows the full story.",
       "options": [
         "few-mcq-11",
-        "few-mcq-10",
-        "few-mcq-12",
-        "few-mcq-09",
-        "few-mcq-13",
-        "few-mcq-08"
+        "few-mcq-07",
+        "few-mcq-10"
       ],
       "explanation": "本句的「one of the few people who」指「在只有極少數符合某條件的人／事物中，其中之一」。",
       "sentenceIndex": 23,
@@ -1063,12 +902,9 @@ export default {
         "one of the few people who"
       ],
       "optionReasons": {
-        "few-mcq-11": "本句指「在只有極少數符合某條件的人／事物中，其中之一」。",
-        "few-mcq-10": "「某群體中數量非常有限的那一小部分」是「the few」的用法，與本句語境不同。",
-        "few-mcq-12": "「數量極少而不常出現；非常罕見」是「few and far between」的用法，與本句語境不同。",
-        "few-mcq-09": "「在多個比較對象中，可數的人／事物數量最少」是「fewest」的用法，與本句語境不同。",
-        "few-mcq-13": "「不少於某個數字，常用來強調數量之多」是「no fewer than」的用法，與本句語境不同。",
-        "few-mcq-08": "「與另一數量相比，可數的人／事物較少」是「fewer」的用法，與本句語境不同。"
+        "few-mcq-11": "本句的「one of the few people who」指「在只有極少數符合某條件的人／事物中，其中之一」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-11"
     },
@@ -1080,11 +916,8 @@ export default {
       "masked": "This is ____ stays open late.",
       "options": [
         "few-mcq-11",
-        "few-mcq-10",
-        "few-mcq-12",
-        "few-mcq-09",
-        "few-mcq-13",
-        "few-mcq-08"
+        "few-mcq-07",
+        "few-mcq-10"
       ],
       "explanation": "本句的「one of the few restaurants that」指「在只有極少數符合某條件的人／事物中，其中之一」。",
       "sentenceIndex": 24,
@@ -1093,12 +926,9 @@ export default {
         "one of the few restaurants that"
       ],
       "optionReasons": {
-        "few-mcq-11": "本句指「在只有極少數符合某條件的人／事物中，其中之一」。",
-        "few-mcq-10": "「某群體中數量非常有限的那一小部分」是「the few」的用法，與本句語境不同。",
-        "few-mcq-12": "「數量極少而不常出現；非常罕見」是「few and far between」的用法，與本句語境不同。",
-        "few-mcq-09": "「在多個比較對象中，可數的人／事物數量最少」是「fewest」的用法，與本句語境不同。",
-        "few-mcq-13": "「不少於某個數字，常用來強調數量之多」是「no fewer than」的用法，與本句語境不同。",
-        "few-mcq-08": "「與另一數量相比，可數的人／事物較少」是「fewer」的用法，與本句語境不同。"
+        "few-mcq-11": "本句的「one of the few restaurants that」指「在只有極少數符合某條件的人／事物中，其中之一」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-11"
     },
@@ -1110,11 +940,7 @@ export default {
       "masked": "Cheap apartments in this area are ____.",
       "options": [
         "few-mcq-12",
-        "few-mcq-11",
-        "few-mcq-13",
-        "few-mcq-10",
-        "few-mcq-14",
-        "few-mcq-09"
+        "few-mcq-07"
       ],
       "explanation": "本句的「few and far between」指「數量極少而不常出現；非常罕見」。",
       "sentenceIndex": 25,
@@ -1123,12 +949,8 @@ export default {
         "few and far between"
       ],
       "optionReasons": {
-        "few-mcq-12": "本句指「數量極少而不常出現；非常罕見」。",
-        "few-mcq-11": "「在只有極少數符合某條件的人／事物中，其中之一」是「one of the few」的用法，與本句語境不同。",
-        "few-mcq-13": "「不少於某個數字，常用來強調數量之多」是「no fewer than」的用法，與本句語境不同。",
-        "few-mcq-10": "「某群體中數量非常有限的那一小部分」是「the few」的用法，與本句語境不同。",
-        "few-mcq-14": "「並非少數，即不少／相當多；較正式」是「not a few」的用法，與本句語境不同。",
-        "few-mcq-09": "「在多個比較對象中，可數的人／事物數量最少」是「fewest」的用法，與本句語境不同。"
+        "few-mcq-12": "本句的「few and far between」指「數量極少而不常出現；非常罕見」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-12"
     },
@@ -1140,11 +962,7 @@ export default {
       "masked": "Truly excellent products are ____.",
       "options": [
         "few-mcq-12",
-        "few-mcq-11",
-        "few-mcq-13",
-        "few-mcq-10",
-        "few-mcq-14",
-        "few-mcq-09"
+        "few-mcq-07"
       ],
       "explanation": "本句的「few and far between」指「數量極少而不常出現；非常罕見」。",
       "sentenceIndex": 26,
@@ -1153,12 +971,8 @@ export default {
         "few and far between"
       ],
       "optionReasons": {
-        "few-mcq-12": "本句指「數量極少而不常出現；非常罕見」。",
-        "few-mcq-11": "「在只有極少數符合某條件的人／事物中，其中之一」是「one of the few」的用法，與本句語境不同。",
-        "few-mcq-13": "「不少於某個數字，常用來強調數量之多」是「no fewer than」的用法，與本句語境不同。",
-        "few-mcq-10": "「某群體中數量非常有限的那一小部分」是「the few」的用法，與本句語境不同。",
-        "few-mcq-14": "「並非少數，即不少／相當多；較正式」是「not a few」的用法，與本句語境不同。",
-        "few-mcq-09": "「在多個比較對象中，可數的人／事物數量最少」是「fewest」的用法，與本句語境不同。"
+        "few-mcq-12": "本句的「few and far between」指「數量極少而不常出現；非常罕見」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-12"
     },
@@ -1170,11 +984,8 @@ export default {
       "masked": "No ____ than fifty people applied.",
       "options": [
         "few-mcq-13",
-        "few-mcq-12",
-        "few-mcq-14",
-        "few-mcq-11",
-        "few-mcq-15",
-        "few-mcq-10"
+        "few-mcq-07",
+        "few-mcq-11"
       ],
       "explanation": "本句的「fewer」指「不少於某個數字，常用來強調數量之多」。",
       "sentenceIndex": 27,
@@ -1183,12 +994,9 @@ export default {
         "fewer"
       ],
       "optionReasons": {
-        "few-mcq-13": "本句指「不少於某個數字，常用來強調數量之多」。",
-        "few-mcq-12": "「數量極少而不常出現；非常罕見」是「few and far between」的用法，與本句語境不同。",
-        "few-mcq-14": "「並非少數，即不少／相當多；較正式」是「not a few」的用法，與本句語境不同。",
-        "few-mcq-11": "「在只有極少數符合某條件的人／事物中，其中之一」是「one of the few」的用法，與本句語境不同。",
-        "few-mcq-15": "「數量即使不是零也極少」是「few, if any」的用法，與本句語境不同。",
-        "few-mcq-10": "「某群體中數量非常有限的那一小部分」是「the few」的用法，與本句語境不同。"
+        "few-mcq-13": "本句的「fewer」指「不少於某個數字，常用來強調數量之多」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-13"
     },
@@ -1200,11 +1008,8 @@ export default {
       "masked": "The book has been translated into ____.",
       "options": [
         "few-mcq-13",
-        "few-mcq-12",
-        "few-mcq-14",
-        "few-mcq-11",
-        "few-mcq-15",
-        "few-mcq-10"
+        "few-mcq-07",
+        "few-mcq-11"
       ],
       "explanation": "本句的「no fewer than twenty languages」指「不少於某個數字，常用來強調數量之多」。",
       "sentenceIndex": 28,
@@ -1213,12 +1018,9 @@ export default {
         "no fewer than twenty languages"
       ],
       "optionReasons": {
-        "few-mcq-13": "本句指「不少於某個數字，常用來強調數量之多」。",
-        "few-mcq-12": "「數量極少而不常出現；非常罕見」是「few and far between」的用法，與本句語境不同。",
-        "few-mcq-14": "「並非少數，即不少／相當多；較正式」是「not a few」的用法，與本句語境不同。",
-        "few-mcq-11": "「在只有極少數符合某條件的人／事物中，其中之一」是「one of the few」的用法，與本句語境不同。",
-        "few-mcq-15": "「數量即使不是零也極少」是「few, if any」的用法，與本句語境不同。",
-        "few-mcq-10": "「某群體中數量非常有限的那一小部分」是「the few」的用法，與本句語境不同。"
+        "few-mcq-13": "本句的「no fewer than twenty languages」指「不少於某個數字，常用來強調數量之多」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-13"
     },
@@ -1230,11 +1032,8 @@ export default {
       "masked": "The decision caused ____.",
       "options": [
         "few-mcq-14",
-        "few-mcq-13",
-        "few-mcq-15",
-        "few-mcq-12",
-        "few-mcq-11",
-        "few-mcq-10"
+        "few-mcq-03",
+        "few-mcq-05"
       ],
       "explanation": "本句的「not a few problems」指「並非少數，即不少／相當多；較正式」。",
       "sentenceIndex": 29,
@@ -1243,12 +1042,9 @@ export default {
         "not a few problems"
       ],
       "optionReasons": {
-        "few-mcq-14": "本句指「並非少數，即不少／相當多；較正式」。",
-        "few-mcq-13": "「不少於某個數字，常用來強調數量之多」是「no fewer than」的用法，與本句語境不同。",
-        "few-mcq-15": "「數量即使不是零也極少」是「few, if any」的用法，與本句語境不同。",
-        "few-mcq-12": "「數量極少而不常出現；非常罕見」是「few and far between」的用法，與本句語境不同。",
-        "few-mcq-11": "「在只有極少數符合某條件的人／事物中，其中之一」是「one of the few」的用法，與本句語境不同。",
-        "few-mcq-10": "「某群體中數量非常有限的那一小部分」是「the few」的用法，與本句語境不同。"
+        "few-mcq-14": "本句的「not a few problems」指「並非少數，即不少／相當多；較正式」。",
+        "few-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "few-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-14"
     },
@@ -1260,11 +1056,7 @@ export default {
       "masked": "Not a ____ people disagreed with the proposal.",
       "options": [
         "few-mcq-14",
-        "few-mcq-13",
-        "few-mcq-15",
-        "few-mcq-12",
-        "few-mcq-11",
-        "few-mcq-10"
+        "few-mcq-01"
       ],
       "explanation": "本句的「few」指「並非少數，即不少／相當多；較正式」。",
       "sentenceIndex": 30,
@@ -1273,12 +1065,8 @@ export default {
         "few"
       ],
       "optionReasons": {
-        "few-mcq-14": "本句指「並非少數，即不少／相當多；較正式」。",
-        "few-mcq-13": "「不少於某個數字，常用來強調數量之多」是「no fewer than」的用法，與本句語境不同。",
-        "few-mcq-15": "「數量即使不是零也極少」是「few, if any」的用法，與本句語境不同。",
-        "few-mcq-12": "「數量極少而不常出現；非常罕見」是「few and far between」的用法，與本句語境不同。",
-        "few-mcq-11": "「在只有極少數符合某條件的人／事物中，其中之一」是「one of the few」的用法，與本句語境不同。",
-        "few-mcq-10": "「某群體中數量非常有限的那一小部分」是「the few」的用法，與本句語境不同。"
+        "few-mcq-14": "本句的「few」指「並非少數，即不少／相當多；較正式」。",
+        "few-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-14"
     },
@@ -1290,11 +1078,7 @@ export default {
       "masked": "____, if any, customers noticed the difference.",
       "options": [
         "few-mcq-15",
-        "few-mcq-14",
-        "few-mcq-13",
-        "few-mcq-12",
-        "few-mcq-11",
-        "few-mcq-10"
+        "few-mcq-07"
       ],
       "explanation": "本句的「Few」指「數量即使不是零也極少」。",
       "sentenceIndex": 31,
@@ -1303,12 +1087,8 @@ export default {
         "Few"
       ],
       "optionReasons": {
-        "few-mcq-15": "本句指「數量即使不是零也極少」。",
-        "few-mcq-14": "「並非少數，即不少／相當多；較正式」是「not a few」的用法，與本句語境不同。",
-        "few-mcq-13": "「不少於某個數字，常用來強調數量之多」是「no fewer than」的用法，與本句語境不同。",
-        "few-mcq-12": "「數量極少而不常出現；非常罕見」是「few and far between」的用法，與本句語境不同。",
-        "few-mcq-11": "「在只有極少數符合某條件的人／事物中，其中之一」是「one of the few」的用法，與本句語境不同。",
-        "few-mcq-10": "「某群體中數量非常有限的那一小部分」是「the few」的用法，與本句語境不同。"
+        "few-mcq-15": "本句的「Few」指「數量即使不是零也極少」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-15"
     },
@@ -1320,11 +1100,7 @@ export default {
       "masked": "There are ____, if any, simple solutions.",
       "options": [
         "few-mcq-15",
-        "few-mcq-14",
-        "few-mcq-13",
-        "few-mcq-12",
-        "few-mcq-11",
-        "few-mcq-10"
+        "few-mcq-07"
       ],
       "explanation": "本句的「few」指「數量即使不是零也極少」。",
       "sentenceIndex": 32,
@@ -1333,12 +1109,8 @@ export default {
         "few"
       ],
       "optionReasons": {
-        "few-mcq-15": "本句指「數量即使不是零也極少」。",
-        "few-mcq-14": "「並非少數，即不少／相當多；較正式」是「not a few」的用法，與本句語境不同。",
-        "few-mcq-13": "「不少於某個數字，常用來強調數量之多」是「no fewer than」的用法，與本句語境不同。",
-        "few-mcq-12": "「數量極少而不常出現；非常罕見」是「few and far between」的用法，與本句語境不同。",
-        "few-mcq-11": "「在只有極少數符合某條件的人／事物中，其中之一」是「one of the few」的用法，與本句語境不同。",
-        "few-mcq-10": "「某群體中數量非常有限的那一小部分」是「the few」的用法，與本句語境不同。"
+        "few-mcq-15": "本句的「few」指「數量即使不是零也極少」。",
+        "few-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "few-mcq-15"
     }
@@ -1350,5 +1122,7 @@ export default {
     "sha256": "75637e116f920bba5f471828feb91727bcb9a148b062748dda00cf45d0ad98ba",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -196,11 +196,7 @@ export default {
       "masked": "The course introduces several important economic ____.",
       "options": [
         "theory-mcq-01",
-        "theory-mcq-02",
-        "theory-mcq-03",
-        "theory-mcq-04",
-        "theory-mcq-05",
-        "theory-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「theories」指「用一組有系統的概念、原則或命題解釋某種現象的理論／學說」。",
       "sentenceIndex": 0,
@@ -209,12 +205,8 @@ export default {
         "theories"
       ],
       "optionReasons": {
-        "theory-mcq-01": "本句指「用一組有系統的概念、原則或命題解釋某種現象的理論／學說」。",
-        "theory-mcq-02": "「抽象的知識、原則或概念，相對於實際操作與經驗」與本句語境不同。",
-        "theory-mcq-03": "「對事情原因提出的一種解釋或推測，未必已獲證實」與本句語境不同。",
-        "theory-mcq-04": "「從理論、原則或假設角度來看，而不一定等於實際情況」與本句語境不同。",
-        "theory-mcq-05": "「與理論有關的；或只在理論上可能存在的」與本句語境不同。",
-        "theory-mcq-06": "「研究、建立或發展理論的人」與本句語境不同。"
+        "theory-mcq-01": "本句的「theories」指「用一組有系統的概念、原則或命題解釋某種現象的理論／學說」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theory-mcq-01"
     },
@@ -226,11 +218,7 @@ export default {
       "masked": "Scientists developed a new ____ to explain the results.",
       "options": [
         "theory-mcq-01",
-        "theory-mcq-02",
-        "theory-mcq-03",
-        "theory-mcq-04",
-        "theory-mcq-05",
-        "theory-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「theory」指「用一組有系統的概念、原則或命題解釋某種現象的理論／學說」。",
       "sentenceIndex": 1,
@@ -239,12 +227,8 @@ export default {
         "theory"
       ],
       "optionReasons": {
-        "theory-mcq-01": "本句指「用一組有系統的概念、原則或命題解釋某種現象的理論／學說」。",
-        "theory-mcq-02": "「抽象的知識、原則或概念，相對於實際操作與經驗」與本句語境不同。",
-        "theory-mcq-03": "「對事情原因提出的一種解釋或推測，未必已獲證實」與本句語境不同。",
-        "theory-mcq-04": "「從理論、原則或假設角度來看，而不一定等於實際情況」與本句語境不同。",
-        "theory-mcq-05": "「與理論有關的；或只在理論上可能存在的」與本句語境不同。",
-        "theory-mcq-06": "「研究、建立或發展理論的人」與本句語境不同。"
+        "theory-mcq-01": "本句的「theory」指「用一組有系統的概念、原則或命題解釋某種現象的理論／學說」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theory-mcq-01"
     },
@@ -256,11 +240,8 @@ export default {
       "masked": "He did not teach me through ____ alone.",
       "options": [
         "theory-mcq-02",
-        "theory-mcq-01",
-        "theory-mcq-03",
-        "theory-mcq-04",
-        "theory-mcq-05",
-        "theory-mcq-06"
+        "theory-mcq-06",
+        "theory-mcq-03"
       ],
       "explanation": "本句的「theory」指「抽象的知識、原則或概念，相對於實際操作與經驗」。",
       "sentenceIndex": 2,
@@ -269,12 +250,9 @@ export default {
         "theory"
       ],
       "optionReasons": {
-        "theory-mcq-02": "本句指「抽象的知識、原則或概念，相對於實際操作與經驗」。",
-        "theory-mcq-01": "「用一組有系統的概念、原則或命題解釋某種現象的理論／學說」與本句語境不同。",
-        "theory-mcq-03": "「對事情原因提出的一種解釋或推測，未必已獲證實」與本句語境不同。",
-        "theory-mcq-04": "「從理論、原則或假設角度來看，而不一定等於實際情況」與本句語境不同。",
-        "theory-mcq-05": "「與理論有關的；或只在理論上可能存在的」與本句語境不同。",
-        "theory-mcq-06": "「研究、建立或發展理論的人」與本句語境不同。"
+        "theory-mcq-02": "本句的「theory」指「抽象的知識、原則或概念，相對於實際操作與經驗」。",
+        "theory-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "theory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theory-mcq-02"
     },
@@ -286,11 +264,8 @@ export default {
       "masked": "The course combines ____ with practical training.",
       "options": [
         "theory-mcq-02",
-        "theory-mcq-01",
-        "theory-mcq-03",
-        "theory-mcq-04",
-        "theory-mcq-05",
-        "theory-mcq-06"
+        "theory-mcq-06",
+        "theory-mcq-03"
       ],
       "explanation": "本句的「theory」指「抽象的知識、原則或概念，相對於實際操作與經驗」。",
       "sentenceIndex": 3,
@@ -299,12 +274,9 @@ export default {
         "theory"
       ],
       "optionReasons": {
-        "theory-mcq-02": "本句指「抽象的知識、原則或概念，相對於實際操作與經驗」。",
-        "theory-mcq-01": "「用一組有系統的概念、原則或命題解釋某種現象的理論／學說」與本句語境不同。",
-        "theory-mcq-03": "「對事情原因提出的一種解釋或推測，未必已獲證實」與本句語境不同。",
-        "theory-mcq-04": "「從理論、原則或假設角度來看，而不一定等於實際情況」與本句語境不同。",
-        "theory-mcq-05": "「與理論有關的；或只在理論上可能存在的」與本句語境不同。",
-        "theory-mcq-06": "「研究、建立或發展理論的人」與本句語境不同。"
+        "theory-mcq-02": "本句的「theory」指「抽象的知識、原則或概念，相對於實際操作與經驗」。",
+        "theory-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "theory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theory-mcq-02"
     },
@@ -316,11 +288,7 @@ export default {
       "masked": "It sounds easy in ____, but it is difficult in practice.",
       "options": [
         "theory-mcq-02",
-        "theory-mcq-01",
-        "theory-mcq-03",
-        "theory-mcq-04",
-        "theory-mcq-05",
-        "theory-mcq-06"
+        "theory-mcq-07"
       ],
       "explanation": "本句的「theory」指「抽象的知識、原則或概念，相對於實際操作與經驗」。",
       "sentenceIndex": 4,
@@ -329,12 +297,8 @@ export default {
         "theory"
       ],
       "optionReasons": {
-        "theory-mcq-02": "本句指「抽象的知識、原則或概念，相對於實際操作與經驗」。",
-        "theory-mcq-01": "「用一組有系統的概念、原則或命題解釋某種現象的理論／學說」與本句語境不同。",
-        "theory-mcq-03": "「對事情原因提出的一種解釋或推測，未必已獲證實」與本句語境不同。",
-        "theory-mcq-04": "「從理論、原則或假設角度來看，而不一定等於實際情況」與本句語境不同。",
-        "theory-mcq-05": "「與理論有關的；或只在理論上可能存在的」與本句語境不同。",
-        "theory-mcq-06": "「研究、建立或發展理論的人」與本句語境不同。"
+        "theory-mcq-02": "本句的「theory」指「抽象的知識、原則或概念，相對於實際操作與經驗」。",
+        "theory-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theory-mcq-02"
     },
@@ -346,11 +310,8 @@ export default {
       "masked": "My ____ is that he left early because he was tired.",
       "options": [
         "theory-mcq-03",
-        "theory-mcq-02",
-        "theory-mcq-04",
-        "theory-mcq-01",
         "theory-mcq-05",
-        "theory-mcq-06"
+        "theory-mcq-02"
       ],
       "explanation": "本句的「theory」指「對事情原因提出的一種解釋或推測，未必已獲證實」。",
       "sentenceIndex": 5,
@@ -359,12 +320,9 @@ export default {
         "theory"
       ],
       "optionReasons": {
-        "theory-mcq-03": "本句指「對事情原因提出的一種解釋或推測，未必已獲證實」。",
-        "theory-mcq-02": "「抽象的知識、原則或概念，相對於實際操作與經驗」與本句語境不同。",
-        "theory-mcq-04": "「從理論、原則或假設角度來看，而不一定等於實際情況」與本句語境不同。",
-        "theory-mcq-01": "「用一組有系統的概念、原則或命題解釋某種現象的理論／學說」與本句語境不同。",
-        "theory-mcq-05": "「與理論有關的；或只在理論上可能存在的」與本句語境不同。",
-        "theory-mcq-06": "「研究、建立或發展理論的人」與本句語境不同。"
+        "theory-mcq-03": "本句的「theory」指「對事情原因提出的一種解釋或推測，未必已獲證實」。",
+        "theory-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "theory-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theory-mcq-03"
     },
@@ -376,11 +334,8 @@ export default {
       "masked": "The police are considering several ____ about what happened.",
       "options": [
         "theory-mcq-03",
-        "theory-mcq-02",
-        "theory-mcq-04",
-        "theory-mcq-01",
-        "theory-mcq-05",
-        "theory-mcq-06"
+        "theory-mcq-06",
+        "theory-mcq-02"
       ],
       "explanation": "本句的「theories」指「對事情原因提出的一種解釋或推測，未必已獲證實」。",
       "sentenceIndex": 6,
@@ -389,12 +344,9 @@ export default {
         "theories"
       ],
       "optionReasons": {
-        "theory-mcq-03": "本句指「對事情原因提出的一種解釋或推測，未必已獲證實」。",
-        "theory-mcq-02": "「抽象的知識、原則或概念，相對於實際操作與經驗」與本句語境不同。",
-        "theory-mcq-04": "「從理論、原則或假設角度來看，而不一定等於實際情況」與本句語境不同。",
-        "theory-mcq-01": "「用一組有系統的概念、原則或命題解釋某種現象的理論／學說」與本句語境不同。",
-        "theory-mcq-05": "「與理論有關的；或只在理論上可能存在的」與本句語境不同。",
-        "theory-mcq-06": "「研究、建立或發展理論的人」與本句語境不同。"
+        "theory-mcq-03": "本句的「theories」指「對事情原因提出的一種解釋或推測，未必已獲證實」。",
+        "theory-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "theory-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theory-mcq-03"
     },
@@ -406,11 +358,7 @@ export default {
       "masked": "In ____, the plan should work.",
       "options": [
         "theory-mcq-04",
-        "theory-mcq-03",
-        "theory-mcq-05",
-        "theory-mcq-02",
-        "theory-mcq-06",
-        "theory-mcq-01"
+        "theory-mcq-03"
       ],
       "explanation": "本句的「theory」指「從理論、原則或假設角度來看，而不一定等於實際情況」。",
       "sentenceIndex": 7,
@@ -419,12 +367,8 @@ export default {
         "theory"
       ],
       "optionReasons": {
-        "theory-mcq-04": "本句指「從理論、原則或假設角度來看，而不一定等於實際情況」。",
-        "theory-mcq-03": "「對事情原因提出的一種解釋或推測，未必已獲證實」與本句語境不同。",
-        "theory-mcq-05": "「與理論有關的；或只在理論上可能存在的」與本句語境不同。",
-        "theory-mcq-02": "「抽象的知識、原則或概念，相對於實際操作與經驗」與本句語境不同。",
-        "theory-mcq-06": "「研究、建立或發展理論的人」與本句語境不同。",
-        "theory-mcq-01": "「用一組有系統的概念、原則或命題解釋某種現象的理論／學說」與本句語境不同。"
+        "theory-mcq-04": "本句的「theory」指「從理論、原則或假設角度來看，而不一定等於實際情況」。",
+        "theory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theory-mcq-04"
     },
@@ -436,11 +380,7 @@ export default {
       "masked": "The system is simple in ____, but difficult to use.",
       "options": [
         "theory-mcq-04",
-        "theory-mcq-03",
-        "theory-mcq-05",
-        "theory-mcq-02",
-        "theory-mcq-06",
-        "theory-mcq-01"
+        "theory-mcq-03"
       ],
       "explanation": "本句的「theory」指「從理論、原則或假設角度來看，而不一定等於實際情況」。",
       "sentenceIndex": 8,
@@ -449,12 +389,8 @@ export default {
         "theory"
       ],
       "optionReasons": {
-        "theory-mcq-04": "本句指「從理論、原則或假設角度來看，而不一定等於實際情況」。",
-        "theory-mcq-03": "「對事情原因提出的一種解釋或推測，未必已獲證實」與本句語境不同。",
-        "theory-mcq-05": "「與理論有關的；或只在理論上可能存在的」與本句語境不同。",
-        "theory-mcq-02": "「抽象的知識、原則或概念，相對於實際操作與經驗」與本句語境不同。",
-        "theory-mcq-06": "「研究、建立或發展理論的人」與本句語境不同。",
-        "theory-mcq-01": "「用一組有系統的概念、原則或命題解釋某種現象的理論／學說」與本句語境不同。"
+        "theory-mcq-04": "本句的「theory」指「從理論、原則或假設角度來看，而不一定等於實際情況」。",
+        "theory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theory-mcq-04"
     },
@@ -466,11 +402,8 @@ export default {
       "masked": "The course includes both practical and ____ work.",
       "options": [
         "theory-mcq-05",
-        "theory-mcq-04",
-        "theory-mcq-06",
-        "theory-mcq-03",
-        "theory-mcq-07",
-        "theory-mcq-02"
+        "theory-mcq-02",
+        "theory-mcq-03"
       ],
       "explanation": "本句的「theoretical」指「與理論有關的；或只在理論上可能存在的」。",
       "sentenceIndex": 9,
@@ -479,12 +412,9 @@ export default {
         "theoretical"
       ],
       "optionReasons": {
-        "theory-mcq-05": "本句指「與理論有關的；或只在理論上可能存在的」。",
-        "theory-mcq-04": "「從理論、原則或假設角度來看，而不一定等於實際情況」與本句語境不同。",
-        "theory-mcq-06": "「研究、建立或發展理論的人」與本句語境不同。",
-        "theory-mcq-03": "「對事情原因提出的一種解釋或推測，未必已獲證實」與本句語境不同。",
-        "theory-mcq-07": "「提出、建立或推測某個理論／解釋」與本句語境不同。",
-        "theory-mcq-02": "「抽象的知識、原則或概念，相對於實際操作與經驗」與本句語境不同。"
+        "theory-mcq-05": "本句的「theoretical」指「與理論有關的；或只在理論上可能存在的」。",
+        "theory-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "theory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theory-mcq-05"
     },
@@ -496,11 +426,7 @@ export default {
       "masked": "There is a ____ possibility that the system could fail.",
       "options": [
         "theory-pdf-001",
-        "theory-mcq-04",
-        "theory-mcq-06",
-        "theory-mcq-03",
-        "theory-mcq-07",
-        "theory-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「theoretical」指「根據理論推算可以存在，但未必實際發生或存在的」。",
       "sentenceIndex": 10,
@@ -509,12 +435,8 @@ export default {
         "theoretical"
       ],
       "optionReasons": {
-        "theory-pdf-001": "本句指「根據理論推算可以存在，但未必實際發生或存在的」。",
-        "theory-mcq-04": "「從理論、原則或假設角度來看，而不一定等於實際情況」與本句語境不同。",
-        "theory-mcq-06": "「研究、建立或發展理論的人」與本句語境不同。",
-        "theory-mcq-03": "「對事情原因提出的一種解釋或推測，未必已獲證實」與本句語境不同。",
-        "theory-mcq-07": "「提出、建立或推測某個理論／解釋」與本句語境不同。",
-        "theory-mcq-02": "「抽象的知識、原則或概念，相對於實際操作與經驗」與本句語境不同。"
+        "theory-pdf-001": "本句的「theoretical」指「根據理論推算可以存在，但未必實際發生或存在的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theory-pdf-001"
     },
@@ -526,11 +448,7 @@ export default {
       "masked": "____, the machine could run forever.",
       "options": [
         "theory-mcq-04",
-        "theory-mcq-03",
-        "theory-mcq-05",
-        "theory-mcq-02",
-        "theory-mcq-06",
-        "theory-mcq-01"
+        "theory-mcq-03"
       ],
       "explanation": "本句的「Theoretically」指「從理論、原則或假設角度來看，而不一定等於實際情況」。",
       "sentenceIndex": 11,
@@ -539,12 +457,8 @@ export default {
         "Theoretically"
       ],
       "optionReasons": {
-        "theory-mcq-04": "本句指「從理論、原則或假設角度來看，而不一定等於實際情況」。",
-        "theory-mcq-03": "「對事情原因提出的一種解釋或推測，未必已獲證實」與本句語境不同。",
-        "theory-mcq-05": "「與理論有關的；或只在理論上可能存在的」與本句語境不同。",
-        "theory-mcq-02": "「抽象的知識、原則或概念，相對於實際操作與經驗」與本句語境不同。",
-        "theory-mcq-06": "「研究、建立或發展理論的人」與本句語境不同。",
-        "theory-mcq-01": "「用一組有系統的概念、原則或命題解釋某種現象的理論／學說」與本句語境不同。"
+        "theory-mcq-04": "本句的「Theoretically」指「從理論、原則或假設角度來看，而不一定等於實際情況」。",
+        "theory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theory-mcq-04"
     },
@@ -556,11 +470,7 @@ export default {
       "masked": "The two methods are ____ similar.",
       "options": [
         "theory-mcq-04",
-        "theory-mcq-03",
-        "theory-mcq-05",
-        "theory-mcq-02",
-        "theory-mcq-06",
-        "theory-mcq-01"
+        "theory-mcq-03"
       ],
       "explanation": "本句的「theoretically」指「從理論、原則或假設角度來看，而不一定等於實際情況」。",
       "sentenceIndex": 12,
@@ -569,12 +479,8 @@ export default {
         "theoretically"
       ],
       "optionReasons": {
-        "theory-mcq-04": "本句指「從理論、原則或假設角度來看，而不一定等於實際情況」。",
-        "theory-mcq-03": "「對事情原因提出的一種解釋或推測，未必已獲證實」與本句語境不同。",
-        "theory-mcq-05": "「與理論有關的；或只在理論上可能存在的」與本句語境不同。",
-        "theory-mcq-02": "「抽象的知識、原則或概念，相對於實際操作與經驗」與本句語境不同。",
-        "theory-mcq-06": "「研究、建立或發展理論的人」與本句語境不同。",
-        "theory-mcq-01": "「用一組有系統的概念、原則或命題解釋某種現象的理論／學說」與本句語境不同。"
+        "theory-mcq-04": "本句的「theoretically」指「從理論、原則或假設角度來看，而不一定等於實際情況」。",
+        "theory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theory-mcq-04"
     },
@@ -586,11 +492,8 @@ export default {
       "masked": "He became an influential political ____.",
       "options": [
         "theory-mcq-06",
-        "theory-mcq-05",
-        "theory-mcq-07",
-        "theory-mcq-04",
-        "theory-mcq-03",
-        "theory-mcq-02"
+        "theory-mcq-02",
+        "theory-mcq-03"
       ],
       "explanation": "本句的「theorist」指「研究、建立或發展理論的人」。",
       "sentenceIndex": 13,
@@ -599,12 +502,9 @@ export default {
         "theorist"
       ],
       "optionReasons": {
-        "theory-mcq-06": "本句指「研究、建立或發展理論的人」。",
-        "theory-mcq-05": "「與理論有關的；或只在理論上可能存在的」與本句語境不同。",
-        "theory-mcq-07": "「提出、建立或推測某個理論／解釋」與本句語境不同。",
-        "theory-mcq-04": "「從理論、原則或假設角度來看，而不一定等於實際情況」與本句語境不同。",
-        "theory-mcq-03": "「對事情原因提出的一種解釋或推測，未必已獲證實」與本句語境不同。",
-        "theory-mcq-02": "「抽象的知識、原則或概念，相對於實際操作與經驗」與本句語境不同。"
+        "theory-mcq-06": "本句的「theorist」指「研究、建立或發展理論的人」。",
+        "theory-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "theory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theory-mcq-06"
     },
@@ -616,11 +516,8 @@ export default {
       "masked": "Several educational ____ have examined this question.",
       "options": [
         "theory-mcq-06",
-        "theory-mcq-05",
-        "theory-mcq-07",
-        "theory-mcq-04",
-        "theory-mcq-03",
-        "theory-mcq-02"
+        "theory-mcq-02",
+        "theory-mcq-03"
       ],
       "explanation": "本句的「theorists」指「研究、建立或發展理論的人」。",
       "sentenceIndex": 14,
@@ -629,12 +526,9 @@ export default {
         "theorists"
       ],
       "optionReasons": {
-        "theory-mcq-06": "本句指「研究、建立或發展理論的人」。",
-        "theory-mcq-05": "「與理論有關的；或只在理論上可能存在的」與本句語境不同。",
-        "theory-mcq-07": "「提出、建立或推測某個理論／解釋」與本句語境不同。",
-        "theory-mcq-04": "「從理論、原則或假設角度來看，而不一定等於實際情況」與本句語境不同。",
-        "theory-mcq-03": "「對事情原因提出的一種解釋或推測，未必已獲證實」與本句語境不同。",
-        "theory-mcq-02": "「抽象的知識、原則或概念，相對於實際操作與經驗」與本句語境不同。"
+        "theory-mcq-06": "本句的「theorists」指「研究、建立或發展理論的人」。",
+        "theory-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "theory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theory-mcq-06"
     },
@@ -646,10 +540,6 @@ export default {
       "masked": "Researchers ____ that the change was caused by temperature.",
       "options": [
         "theory-mcq-07",
-        "theory-mcq-06",
-        "theory-mcq-05",
-        "theory-mcq-04",
-        "theory-mcq-03",
         "theory-mcq-02"
       ],
       "explanation": "本句的「theorized」指「提出、建立或推測某個理論／解釋」。",
@@ -659,12 +549,8 @@ export default {
         "theorized"
       ],
       "optionReasons": {
-        "theory-mcq-07": "本句指「提出、建立或推測某個理論／解釋」。",
-        "theory-mcq-06": "「研究、建立或發展理論的人」與本句語境不同。",
-        "theory-mcq-05": "「與理論有關的；或只在理論上可能存在的」與本句語境不同。",
-        "theory-mcq-04": "「從理論、原則或假設角度來看，而不一定等於實際情況」與本句語境不同。",
-        "theory-mcq-03": "「對事情原因提出的一種解釋或推測，未必已獲證實」與本句語境不同。",
-        "theory-mcq-02": "「抽象的知識、原則或概念，相對於實際操作與經驗」與本句語境不同。"
+        "theory-mcq-07": "本句的「theorized」指「提出、建立或推測某個理論／解釋」。",
+        "theory-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theory-mcq-07"
     },
@@ -676,10 +562,6 @@ export default {
       "masked": "Scholars have long ____ about why the pattern appears.",
       "options": [
         "theory-mcq-07",
-        "theory-mcq-06",
-        "theory-mcq-05",
-        "theory-mcq-04",
-        "theory-mcq-03",
         "theory-mcq-02"
       ],
       "explanation": "本句的「theorised」指「提出、建立或推測某個理論／解釋」。",
@@ -689,12 +571,8 @@ export default {
         "theorised"
       ],
       "optionReasons": {
-        "theory-mcq-07": "本句指「提出、建立或推測某個理論／解釋」。",
-        "theory-mcq-06": "「研究、建立或發展理論的人」與本句語境不同。",
-        "theory-mcq-05": "「與理論有關的；或只在理論上可能存在的」與本句語境不同。",
-        "theory-mcq-04": "「從理論、原則或假設角度來看，而不一定等於實際情況」與本句語境不同。",
-        "theory-mcq-03": "「對事情原因提出的一種解釋或推測，未必已獲證實」與本句語境不同。",
-        "theory-mcq-02": "「抽象的知識、原則或概念，相對於實際操作與經驗」與本句語境不同。"
+        "theory-mcq-07": "本句的「theorised」指「提出、建立或推測某個理論／解釋」。",
+        "theory-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theory-mcq-07"
     }
@@ -706,5 +584,12 @@ export default {
     "sha256": "417a6ee0a0d77f79c94e32666ede9e974fc2eaa7c0e3bddc90819c4058edff4a",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

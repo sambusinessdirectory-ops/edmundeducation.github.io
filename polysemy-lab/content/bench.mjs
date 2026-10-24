@@ -476,11 +476,9 @@ export default {
       "masked": "We sat on a ____ and drank lemonade.",
       "options": [
         "bench-mcq-01",
-        "bench-mcq-02",
-        "bench-mcq-03",
         "bench-mcq-04",
-        "bench-mcq-05",
-        "bench-mcq-06"
+        "bench-mcq-12",
+        "bench-mcq-21"
       ],
       "explanation": "本句的「bench」指「可供多人坐的長椅／長凳」。",
       "sentenceIndex": 0,
@@ -489,12 +487,10 @@ export default {
         "bench"
       ],
       "optionReasons": {
-        "bench-mcq-01": "本句指「可供多人坐的長椅／長凳」。",
-        "bench-mcq-02": "「設於公園或公共戶外空間的長椅」與本句語境不同。",
-        "bench-mcq-03": "「未上場球員坐的後備席；亦可指替補球員整體」與本句語境不同。",
-        "bench-mcq-04": "「作為替補而沒有上場」與本句語境不同。",
-        "bench-mcq-05": "「把球員換下／安排坐後備席」與本句語境不同。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。"
+        "bench-mcq-01": "本句的「bench」指「可供多人坐的長椅／長凳」。",
+        "bench-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-01"
     },
@@ -506,11 +502,9 @@ export default {
       "masked": "An old man was resting on a park ____.",
       "options": [
         "bench-mcq-01",
-        "bench-mcq-02",
-        "bench-mcq-03",
-        "bench-mcq-04",
-        "bench-mcq-05",
-        "bench-mcq-06"
+        "bench-mcq-13",
+        "bench-mcq-07",
+        "bench-mcq-04"
       ],
       "explanation": "本句的「bench」指「可供多人坐的長椅／長凳」。",
       "sentenceIndex": 1,
@@ -519,12 +513,10 @@ export default {
         "bench"
       ],
       "optionReasons": {
-        "bench-mcq-01": "本句指「可供多人坐的長椅／長凳」。",
-        "bench-mcq-02": "「設於公園或公共戶外空間的長椅」與本句語境不同。",
-        "bench-mcq-03": "「未上場球員坐的後備席；亦可指替補球員整體」與本句語境不同。",
-        "bench-mcq-04": "「作為替補而沒有上場」與本句語境不同。",
-        "bench-mcq-05": "「把球員換下／安排坐後備席」與本句語境不同。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。"
+        "bench-mcq-01": "本句的「bench」指「可供多人坐的長椅／長凳」。",
+        "bench-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-01"
     },
@@ -536,11 +528,9 @@ export default {
       "masked": "She sat down on a wooden ____.",
       "options": [
         "bench-mcq-01",
-        "bench-mcq-02",
-        "bench-mcq-03",
-        "bench-mcq-04",
-        "bench-mcq-05",
-        "bench-mcq-06"
+        "bench-mcq-18",
+        "bench-mcq-07",
+        "bench-mcq-15"
       ],
       "explanation": "本句的「bench」指「可供多人坐的長椅／長凳」。",
       "sentenceIndex": 2,
@@ -549,12 +539,10 @@ export default {
         "bench"
       ],
       "optionReasons": {
-        "bench-mcq-01": "本句指「可供多人坐的長椅／長凳」。",
-        "bench-mcq-02": "「設於公園或公共戶外空間的長椅」與本句語境不同。",
-        "bench-mcq-03": "「未上場球員坐的後備席；亦可指替補球員整體」與本句語境不同。",
-        "bench-mcq-04": "「作為替補而沒有上場」與本句語境不同。",
-        "bench-mcq-05": "「把球員換下／安排坐後備席」與本句語境不同。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。"
+        "bench-mcq-01": "本句的「bench」指「可供多人坐的長椅／長凳」。",
+        "bench-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-01"
     },
@@ -566,11 +554,9 @@ export default {
       "masked": "There are several ____ beside the lake.",
       "options": [
         "bench-mcq-01",
-        "bench-mcq-02",
-        "bench-mcq-03",
-        "bench-mcq-04",
-        "bench-mcq-05",
-        "bench-mcq-06"
+        "bench-mcq-13",
+        "bench-mcq-09",
+        "bench-mcq-17"
       ],
       "explanation": "本句的「benches」指「可供多人坐的長椅／長凳」。",
       "sentenceIndex": 3,
@@ -579,12 +565,10 @@ export default {
         "benches"
       ],
       "optionReasons": {
-        "bench-mcq-01": "本句指「可供多人坐的長椅／長凳」。",
-        "bench-mcq-02": "「設於公園或公共戶外空間的長椅」與本句語境不同。",
-        "bench-mcq-03": "「未上場球員坐的後備席；亦可指替補球員整體」與本句語境不同。",
-        "bench-mcq-04": "「作為替補而沒有上場」與本句語境不同。",
-        "bench-mcq-05": "「把球員換下／安排坐後備席」與本句語境不同。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。"
+        "bench-mcq-01": "本句的「benches」指「可供多人坐的長椅／長凳」。",
+        "bench-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-01"
     },
@@ -596,11 +580,9 @@ export default {
       "masked": "They talked on a ____.",
       "options": [
         "bench-mcq-02",
-        "bench-mcq-01",
-        "bench-mcq-03",
-        "bench-mcq-04",
-        "bench-mcq-05",
-        "bench-mcq-06"
+        "bench-mcq-14",
+        "bench-mcq-07",
+        "bench-mcq-15"
       ],
       "explanation": "本句的「park bench」指「設於公園或公共戶外空間的長椅」。",
       "sentenceIndex": 4,
@@ -609,12 +591,10 @@ export default {
         "park bench"
       ],
       "optionReasons": {
-        "bench-mcq-02": "本句指「設於公園或公共戶外空間的長椅」。",
-        "bench-mcq-01": "「可供多人坐的長椅／長凳」與本句語境不同。",
-        "bench-mcq-03": "「未上場球員坐的後備席；亦可指替補球員整體」與本句語境不同。",
-        "bench-mcq-04": "「作為替補而沒有上場」與本句語境不同。",
-        "bench-mcq-05": "「把球員換下／安排坐後備席」與本句語境不同。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。"
+        "bench-mcq-02": "本句的「park bench」指「設於公園或公共戶外空間的長椅」。",
+        "bench-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-02"
     },
@@ -626,11 +606,9 @@ export default {
       "masked": "He left his bag beside the ____.",
       "options": [
         "bench-mcq-02",
-        "bench-mcq-01",
-        "bench-mcq-03",
-        "bench-mcq-04",
-        "bench-mcq-05",
-        "bench-mcq-06"
+        "bench-mcq-17",
+        "bench-mcq-08",
+        "bench-mcq-15"
       ],
       "explanation": "本句的「park bench」指「設於公園或公共戶外空間的長椅」。",
       "sentenceIndex": 5,
@@ -639,12 +617,10 @@ export default {
         "park bench"
       ],
       "optionReasons": {
-        "bench-mcq-02": "本句指「設於公園或公共戶外空間的長椅」。",
-        "bench-mcq-01": "「可供多人坐的長椅／長凳」與本句語境不同。",
-        "bench-mcq-03": "「未上場球員坐的後備席；亦可指替補球員整體」與本句語境不同。",
-        "bench-mcq-04": "「作為替補而沒有上場」與本句語境不同。",
-        "bench-mcq-05": "「把球員換下／安排坐後備席」與本句語境不同。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。"
+        "bench-mcq-02": "本句的「park bench」指「設於公園或公共戶外空間的長椅」。",
+        "bench-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-02"
     },
@@ -656,11 +632,9 @@ export default {
       "masked": "He started the game on the ____.",
       "options": [
         "bench-mcq-03",
-        "bench-mcq-02",
-        "bench-mcq-04",
-        "bench-mcq-01",
-        "bench-mcq-05",
-        "bench-mcq-06"
+        "bench-mcq-19",
+        "bench-mcq-15",
+        "bench-mcq-14"
       ],
       "explanation": "本句的「bench」指「未上場球員坐的後備席；亦可指替補球員整體」。",
       "sentenceIndex": 6,
@@ -669,12 +643,10 @@ export default {
         "bench"
       ],
       "optionReasons": {
-        "bench-mcq-03": "本句指「未上場球員坐的後備席；亦可指替補球員整體」。",
-        "bench-mcq-02": "「設於公園或公共戶外空間的長椅」與本句語境不同。",
-        "bench-mcq-04": "「作為替補而沒有上場」與本句語境不同。",
-        "bench-mcq-01": "「可供多人坐的長椅／長凳」與本句語境不同。",
-        "bench-mcq-05": "「把球員換下／安排坐後備席」與本句語境不同。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。"
+        "bench-mcq-03": "本句的「bench」指「未上場球員坐的後備席；亦可指替補球員整體」。",
+        "bench-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-03"
     },
@@ -686,11 +658,9 @@ export default {
       "masked": "The coach turned to the ____ in the second half.",
       "options": [
         "bench-mcq-03",
-        "bench-mcq-02",
-        "bench-mcq-04",
-        "bench-mcq-01",
-        "bench-mcq-05",
-        "bench-mcq-06"
+        "bench-mcq-15",
+        "bench-mcq-14",
+        "bench-mcq-08"
       ],
       "explanation": "本句的「bench」指「未上場球員坐的後備席；亦可指替補球員整體」。",
       "sentenceIndex": 7,
@@ -699,12 +669,10 @@ export default {
         "bench"
       ],
       "optionReasons": {
-        "bench-mcq-03": "本句指「未上場球員坐的後備席；亦可指替補球員整體」。",
-        "bench-mcq-02": "「設於公園或公共戶外空間的長椅」與本句語境不同。",
-        "bench-mcq-04": "「作為替補而沒有上場」與本句語境不同。",
-        "bench-mcq-01": "「可供多人坐的長椅／長凳」與本句語境不同。",
-        "bench-mcq-05": "「把球員換下／安排坐後備席」與本句語境不同。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。"
+        "bench-mcq-03": "本句的「bench」指「未上場球員坐的後備席；亦可指替補球員整體」。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-03"
     },
@@ -716,11 +684,9 @@ export default {
       "masked": "She spent most of the match ____.",
       "options": [
         "bench-mcq-04",
-        "bench-mcq-03",
-        "bench-mcq-05",
-        "bench-mcq-02",
-        "bench-mcq-06",
-        "bench-mcq-01"
+        "bench-mcq-09",
+        "bench-mcq-18",
+        "bench-mcq-15"
       ],
       "explanation": "本句的「on the bench」指「作為替補而沒有上場」。",
       "sentenceIndex": 8,
@@ -729,12 +695,10 @@ export default {
         "on the bench"
       ],
       "optionReasons": {
-        "bench-mcq-04": "本句指「作為替補而沒有上場」。",
-        "bench-mcq-03": "「未上場球員坐的後備席；亦可指替補球員整體」與本句語境不同。",
-        "bench-mcq-05": "「把球員換下／安排坐後備席」與本句語境不同。",
-        "bench-mcq-02": "「設於公園或公共戶外空間的長椅」與本句語境不同。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。",
-        "bench-mcq-01": "「可供多人坐的長椅／長凳」與本句語境不同。"
+        "bench-mcq-04": "本句的「on the bench」指「作為替補而沒有上場」。",
+        "bench-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-04"
     },
@@ -746,11 +710,9 @@ export default {
       "masked": "He was left ____ for the final.",
       "options": [
         "bench-mcq-04",
-        "bench-mcq-03",
         "bench-mcq-05",
-        "bench-mcq-02",
-        "bench-mcq-06",
-        "bench-mcq-01"
+        "bench-mcq-14",
+        "bench-mcq-06"
       ],
       "explanation": "本句的「on the bench」指「作為替補而沒有上場」。",
       "sentenceIndex": 9,
@@ -759,12 +721,10 @@ export default {
         "on the bench"
       ],
       "optionReasons": {
-        "bench-mcq-04": "本句指「作為替補而沒有上場」。",
-        "bench-mcq-03": "「未上場球員坐的後備席；亦可指替補球員整體」與本句語境不同。",
-        "bench-mcq-05": "「把球員換下／安排坐後備席」與本句語境不同。",
-        "bench-mcq-02": "「設於公園或公共戶外空間的長椅」與本句語境不同。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。",
-        "bench-mcq-01": "「可供多人坐的長椅／長凳」與本句語境不同。"
+        "bench-mcq-04": "本句的「on the bench」指「作為替補而沒有上場」。",
+        "bench-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-04"
     },
@@ -776,11 +736,9 @@ export default {
       "masked": "The coach ____ him after several mistakes.",
       "options": [
         "bench-mcq-05",
-        "bench-mcq-04",
         "bench-mcq-06",
-        "bench-mcq-03",
-        "bench-mcq-07",
-        "bench-mcq-02"
+        "bench-mcq-02",
+        "bench-mcq-14"
       ],
       "explanation": "本句的「benched」指「把球員換下／安排坐後備席」。",
       "sentenceIndex": 10,
@@ -789,12 +747,10 @@ export default {
         "benched"
       ],
       "optionReasons": {
-        "bench-mcq-05": "本句指「把球員換下／安排坐後備席」。",
-        "bench-mcq-04": "「作為替補而沒有上場」與本句語境不同。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。",
-        "bench-mcq-03": "「未上場球員坐的後備席；亦可指替補球員整體」與本句語境不同。",
-        "bench-mcq-07": "「法官群體／法官席／司法機構」與本句語境不同。",
-        "bench-mcq-02": "「設於公園或公共戶外空間的長椅」與本句語境不同。"
+        "bench-mcq-05": "本句的「benched」指「把球員換下／安排坐後備席」。",
+        "bench-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-05"
     },
@@ -807,10 +763,8 @@ export default {
       "options": [
         "bench-mcq-05",
         "bench-mcq-04",
-        "bench-mcq-06",
-        "bench-mcq-03",
-        "bench-mcq-07",
-        "bench-mcq-02"
+        "bench-mcq-10",
+        "bench-mcq-14"
       ],
       "explanation": "本句的「benched」指「把球員換下／安排坐後備席」。",
       "sentenceIndex": 11,
@@ -819,12 +773,10 @@ export default {
         "benched"
       ],
       "optionReasons": {
-        "bench-mcq-05": "本句指「把球員換下／安排坐後備席」。",
-        "bench-mcq-04": "「作為替補而沒有上場」與本句語境不同。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。",
-        "bench-mcq-03": "「未上場球員坐的後備席；亦可指替補球員整體」與本句語境不同。",
-        "bench-mcq-07": "「法官群體／法官席／司法機構」與本句語境不同。",
-        "bench-mcq-02": "「設於公園或公共戶外空間的長椅」與本句語境不同。"
+        "bench-mcq-05": "本句的「benched」指「把球員換下／安排坐後備席」。",
+        "bench-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-05"
     },
@@ -837,10 +789,8 @@ export default {
       "options": [
         "bench-mcq-06",
         "bench-mcq-05",
-        "bench-mcq-07",
-        "bench-mcq-04",
-        "bench-mcq-08",
-        "bench-mcq-03"
+        "bench-mcq-09",
+        "bench-mcq-15"
       ],
       "explanation": "本句的「benched」指「暫時把某人撤離活躍角色／工作」。",
       "sentenceIndex": 12,
@@ -849,12 +799,10 @@ export default {
         "benched"
       ],
       "optionReasons": {
-        "bench-mcq-06": "本句指「暫時把某人撤離活躍角色／工作」。",
-        "bench-mcq-05": "「把球員換下／安排坐後備席」與本句語境不同。",
-        "bench-mcq-07": "「法官群體／法官席／司法機構」與本句語境不同。",
-        "bench-mcq-04": "「作為替補而沒有上場」與本句語境不同。",
-        "bench-mcq-08": "「法官職位；任職司法機關」與本句語境不同。",
-        "bench-mcq-03": "「未上場球員坐的後備席；亦可指替補球員整體」與本句語境不同。"
+        "bench-mcq-06": "本句的「benched」指「暫時把某人撤離活躍角色／工作」。",
+        "bench-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-06"
     },
@@ -866,11 +814,9 @@ export default {
       "masked": "He was effectively ____ after the dispute.",
       "options": [
         "bench-mcq-06",
-        "bench-mcq-05",
-        "bench-mcq-07",
-        "bench-mcq-04",
-        "bench-mcq-08",
-        "bench-mcq-03"
+        "bench-mcq-17",
+        "bench-mcq-01",
+        "bench-mcq-14"
       ],
       "explanation": "本句的「benched」指「暫時把某人撤離活躍角色／工作」。",
       "sentenceIndex": 13,
@@ -879,12 +825,10 @@ export default {
         "benched"
       ],
       "optionReasons": {
-        "bench-mcq-06": "本句指「暫時把某人撤離活躍角色／工作」。",
-        "bench-mcq-05": "「把球員換下／安排坐後備席」與本句語境不同。",
-        "bench-mcq-07": "「法官群體／法官席／司法機構」與本句語境不同。",
-        "bench-mcq-04": "「作為替補而沒有上場」與本句語境不同。",
-        "bench-mcq-08": "「法官職位；任職司法機關」與本句語境不同。",
-        "bench-mcq-03": "「未上場球員坐的後備席；亦可指替補球員整體」與本句語境不同。"
+        "bench-mcq-06": "本句的「benched」指「暫時把某人撤離活躍角色／工作」。",
+        "bench-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-06"
     },
@@ -896,11 +840,9 @@ export default {
       "masked": "The case was heard by a three-judge ____.",
       "options": [
         "bench-mcq-07",
-        "bench-mcq-06",
-        "bench-mcq-08",
-        "bench-mcq-05",
-        "bench-mcq-09",
-        "bench-mcq-04"
+        "bench-mcq-14",
+        "bench-mcq-18",
+        "bench-mcq-02"
       ],
       "explanation": "本句的「bench」指「法官群體／法官席／司法機構」。",
       "sentenceIndex": 14,
@@ -909,12 +851,10 @@ export default {
         "bench"
       ],
       "optionReasons": {
-        "bench-mcq-07": "本句指「法官群體／法官席／司法機構」。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。",
-        "bench-mcq-08": "「法官職位；任職司法機關」與本句語境不同。",
-        "bench-mcq-05": "「把球員換下／安排坐後備席」與本句語境不同。",
-        "bench-mcq-09": "「不設陪審團、由法官直接裁決的審訊」與本句語境不同。",
-        "bench-mcq-04": "「作為替補而沒有上場」與本句語境不同。"
+        "bench-mcq-07": "本句的「bench」指「法官群體／法官席／司法機構」。",
+        "bench-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-07"
     },
@@ -926,11 +866,9 @@ export default {
       "masked": "The ____ questioned the lawyer closely.",
       "options": [
         "bench-mcq-07",
-        "bench-mcq-06",
-        "bench-mcq-08",
-        "bench-mcq-05",
-        "bench-mcq-09",
-        "bench-mcq-04"
+        "bench-mcq-02",
+        "bench-mcq-12",
+        "bench-mcq-15"
       ],
       "explanation": "本句的「bench」指「法官群體／法官席／司法機構」。",
       "sentenceIndex": 15,
@@ -939,12 +877,10 @@ export default {
         "bench"
       ],
       "optionReasons": {
-        "bench-mcq-07": "本句指「法官群體／法官席／司法機構」。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。",
-        "bench-mcq-08": "「法官職位；任職司法機關」與本句語境不同。",
-        "bench-mcq-05": "「把球員換下／安排坐後備席」與本句語境不同。",
-        "bench-mcq-09": "「不設陪審團、由法官直接裁決的審訊」與本句語境不同。",
-        "bench-mcq-04": "「作為替補而沒有上場」與本句語境不同。"
+        "bench-mcq-07": "本句的「bench」指「法官群體／法官席／司法機構」。",
+        "bench-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-07"
     },
@@ -956,11 +892,9 @@ export default {
       "masked": "The judge returned to the ____.",
       "options": [
         "bench-mcq-08",
-        "bench-mcq-07",
-        "bench-mcq-09",
-        "bench-mcq-06",
-        "bench-mcq-10",
-        "bench-mcq-05"
+        "bench-mcq-17",
+        "bench-mcq-14",
+        "bench-mcq-15"
       ],
       "explanation": "本句的「bench」指「法官職位；任職司法機關」。",
       "sentenceIndex": 16,
@@ -969,12 +903,10 @@ export default {
         "bench"
       ],
       "optionReasons": {
-        "bench-mcq-08": "本句指「法官職位；任職司法機關」。",
-        "bench-mcq-07": "「法官群體／法官席／司法機構」與本句語境不同。",
-        "bench-mcq-09": "「不設陪審團、由法官直接裁決的審訊」與本句語境不同。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。",
-        "bench-mcq-10": "「用於手工、技術工作的堅固工作台」與本句語境不同。",
-        "bench-mcq-05": "「把球員換下／安排坐後備席」與本句語境不同。"
+        "bench-mcq-08": "本句的「bench」指「法官職位；任職司法機關」。",
+        "bench-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-08"
     },
@@ -986,10 +918,8 @@ export default {
       "masked": "She was appointed to the federal ____.",
       "options": [
         "bench-mcq-08",
-        "bench-mcq-07",
-        "bench-mcq-09",
-        "bench-mcq-06",
-        "bench-mcq-10",
+        "bench-mcq-04",
+        "bench-mcq-15",
         "bench-mcq-05"
       ],
       "explanation": "本句的「bench」指「法官職位；任職司法機關」。",
@@ -999,12 +929,10 @@ export default {
         "bench"
       ],
       "optionReasons": {
-        "bench-mcq-08": "本句指「法官職位；任職司法機關」。",
-        "bench-mcq-07": "「法官群體／法官席／司法機構」與本句語境不同。",
-        "bench-mcq-09": "「不設陪審團、由法官直接裁決的審訊」與本句語境不同。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。",
-        "bench-mcq-10": "「用於手工、技術工作的堅固工作台」與本句語境不同。",
-        "bench-mcq-05": "「把球員換下／安排坐後備席」與本句語境不同。"
+        "bench-mcq-08": "本句的「bench」指「法官職位；任職司法機關」。",
+        "bench-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-08"
     },
@@ -1016,11 +944,9 @@ export default {
       "masked": "The defendant chose a ____.",
       "options": [
         "bench-mcq-09",
-        "bench-mcq-08",
-        "bench-mcq-10",
-        "bench-mcq-07",
-        "bench-mcq-11",
-        "bench-mcq-06"
+        "bench-mcq-03",
+        "bench-mcq-12",
+        "bench-mcq-15"
       ],
       "explanation": "本句的「bench trial」指「不設陪審團、由法官直接裁決的審訊」。",
       "sentenceIndex": 18,
@@ -1029,12 +955,10 @@ export default {
         "bench trial"
       ],
       "optionReasons": {
-        "bench-mcq-09": "本句指「不設陪審團、由法官直接裁決的審訊」。",
-        "bench-mcq-08": "「法官職位；任職司法機關」與本句語境不同。",
-        "bench-mcq-10": "「用於手工、技術工作的堅固工作台」與本句語境不同。",
-        "bench-mcq-07": "「法官群體／法官席／司法機構」與本句語境不同。",
-        "bench-mcq-11": "「供手工／技術操作使用的工作台」與本句語境不同。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。"
+        "bench-mcq-09": "本句的「bench trial」指「不設陪審團、由法官直接裁決的審訊」。",
+        "bench-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-09"
     },
@@ -1046,10 +970,8 @@ export default {
       "masked": "The case proceeded as a ____.",
       "options": [
         "bench-mcq-09",
-        "bench-mcq-08",
-        "bench-mcq-10",
-        "bench-mcq-07",
-        "bench-mcq-11",
+        "bench-mcq-17",
+        "bench-mcq-15",
         "bench-mcq-06"
       ],
       "explanation": "本句的「bench trial」指「不設陪審團、由法官直接裁決的審訊」。",
@@ -1059,12 +981,10 @@ export default {
         "bench trial"
       ],
       "optionReasons": {
-        "bench-mcq-09": "本句指「不設陪審團、由法官直接裁決的審訊」。",
-        "bench-mcq-08": "「法官職位；任職司法機關」與本句語境不同。",
-        "bench-mcq-10": "「用於手工、技術工作的堅固工作台」與本句語境不同。",
-        "bench-mcq-07": "「法官群體／法官席／司法機構」與本句語境不同。",
-        "bench-mcq-11": "「供手工／技術操作使用的工作台」與本句語境不同。",
-        "bench-mcq-06": "「暫時把某人撤離活躍角色／工作」與本句語境不同。"
+        "bench-mcq-09": "本句的「bench trial」指「不設陪審團、由法官直接裁決的審訊」。",
+        "bench-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-09"
     },
@@ -1076,11 +996,9 @@ export default {
       "masked": "The tools were spread across the ____.",
       "options": [
         "bench-mcq-10",
-        "bench-mcq-09",
-        "bench-mcq-11",
-        "bench-mcq-08",
-        "bench-mcq-12",
-        "bench-mcq-07"
+        "bench-mcq-21",
+        "bench-mcq-04",
+        "bench-mcq-15"
       ],
       "explanation": "本句的「bench」指「用於手工、技術工作的堅固工作台」。",
       "sentenceIndex": 20,
@@ -1089,12 +1007,10 @@ export default {
         "bench"
       ],
       "optionReasons": {
-        "bench-mcq-10": "本句指「用於手工、技術工作的堅固工作台」。",
-        "bench-mcq-09": "「不設陪審團、由法官直接裁決的審訊」與本句語境不同。",
-        "bench-mcq-11": "「供手工／技術操作使用的工作台」與本句語境不同。",
-        "bench-mcq-08": "「法官職位；任職司法機關」與本句語境不同。",
-        "bench-mcq-12": "「實驗室內進行實驗的工作台」與本句語境不同。",
-        "bench-mcq-07": "「法官群體／法官席／司法機構」與本句語境不同。"
+        "bench-mcq-10": "本句的「bench」指「用於手工、技術工作的堅固工作台」。",
+        "bench-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-10"
     },
@@ -1106,11 +1022,9 @@ export default {
       "masked": "He repaired the device at his ____.",
       "options": [
         "bench-mcq-10",
+        "bench-mcq-02",
         "bench-mcq-09",
-        "bench-mcq-11",
-        "bench-mcq-08",
-        "bench-mcq-12",
-        "bench-mcq-07"
+        "bench-mcq-17"
       ],
       "explanation": "本句的「bench」指「用於手工、技術工作的堅固工作台」。",
       "sentenceIndex": 21,
@@ -1119,12 +1033,10 @@ export default {
         "bench"
       ],
       "optionReasons": {
-        "bench-mcq-10": "本句指「用於手工、技術工作的堅固工作台」。",
-        "bench-mcq-09": "「不設陪審團、由法官直接裁決的審訊」與本句語境不同。",
-        "bench-mcq-11": "「供手工／技術操作使用的工作台」與本句語境不同。",
-        "bench-mcq-08": "「法官職位；任職司法機關」與本句語境不同。",
-        "bench-mcq-12": "「實驗室內進行實驗的工作台」與本句語境不同。",
-        "bench-mcq-07": "「法官群體／法官席／司法機構」與本句語境不同。"
+        "bench-mcq-10": "本句的「bench」指「用於手工、技術工作的堅固工作台」。",
+        "bench-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-10"
     },
@@ -1136,11 +1048,9 @@ export default {
       "masked": "The carpenter worked at a wooden ____.",
       "options": [
         "bench-mcq-11",
-        "bench-mcq-10",
-        "bench-mcq-12",
-        "bench-mcq-09",
-        "bench-mcq-13",
-        "bench-mcq-08"
+        "bench-mcq-05",
+        "bench-mcq-15",
+        "bench-mcq-04"
       ],
       "explanation": "本句的「workbench」指「供手工／技術操作使用的工作台」。",
       "sentenceIndex": 22,
@@ -1149,12 +1059,10 @@ export default {
         "workbench"
       ],
       "optionReasons": {
-        "bench-mcq-11": "本句指「供手工／技術操作使用的工作台」。",
-        "bench-mcq-10": "「用於手工、技術工作的堅固工作台」與本句語境不同。",
-        "bench-mcq-12": "「實驗室內進行實驗的工作台」與本句語境不同。",
-        "bench-mcq-09": "「不設陪審團、由法官直接裁決的審訊」與本句語境不同。",
-        "bench-mcq-13": "「在實驗台／工作台進行的實作工作」與本句語境不同。",
-        "bench-mcq-08": "「法官職位；任職司法機關」與本句語境不同。"
+        "bench-mcq-11": "本句的「workbench」指「供手工／技術操作使用的工作台」。",
+        "bench-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-11"
     },
@@ -1166,11 +1074,9 @@ export default {
       "masked": "Keep the tools beside the ____.",
       "options": [
         "bench-mcq-11",
-        "bench-mcq-10",
-        "bench-mcq-12",
-        "bench-mcq-09",
-        "bench-mcq-13",
-        "bench-mcq-08"
+        "bench-mcq-03",
+        "bench-mcq-21",
+        "bench-mcq-15"
       ],
       "explanation": "本句的「workbench」指「供手工／技術操作使用的工作台」。",
       "sentenceIndex": 23,
@@ -1179,12 +1085,10 @@ export default {
         "workbench"
       ],
       "optionReasons": {
-        "bench-mcq-11": "本句指「供手工／技術操作使用的工作台」。",
-        "bench-mcq-10": "「用於手工、技術工作的堅固工作台」與本句語境不同。",
-        "bench-mcq-12": "「實驗室內進行實驗的工作台」與本句語境不同。",
-        "bench-mcq-09": "「不設陪審團、由法官直接裁決的審訊」與本句語境不同。",
-        "bench-mcq-13": "「在實驗台／工作台進行的實作工作」與本句語境不同。",
-        "bench-mcq-08": "「法官職位；任職司法機關」與本句語境不同。"
+        "bench-mcq-11": "本句的「workbench」指「供手工／技術操作使用的工作台」。",
+        "bench-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-11"
     },
@@ -1196,11 +1100,9 @@ export default {
       "masked": "The samples were left on the ____.",
       "options": [
         "bench-mcq-12",
-        "bench-mcq-11",
-        "bench-mcq-13",
-        "bench-mcq-10",
-        "bench-mcq-14",
-        "bench-mcq-09"
+        "bench-mcq-01",
+        "bench-mcq-09",
+        "bench-mcq-15"
       ],
       "explanation": "本句的「lab bench」指「實驗室內進行實驗的工作台」。",
       "sentenceIndex": 24,
@@ -1209,12 +1111,10 @@ export default {
         "lab bench"
       ],
       "optionReasons": {
-        "bench-mcq-12": "本句指「實驗室內進行實驗的工作台」。",
-        "bench-mcq-11": "「供手工／技術操作使用的工作台」與本句語境不同。",
-        "bench-mcq-13": "「在實驗台／工作台進行的實作工作」與本句語境不同。",
-        "bench-mcq-10": "「用於手工、技術工作的堅固工作台」與本句語境不同。",
-        "bench-mcq-14": "「在受控環境下進行的台架／實驗室測試」與本句語境不同。",
-        "bench-mcq-09": "「不設陪審團、由法官直接裁決的審訊」與本句語境不同。"
+        "bench-mcq-12": "本句的「lab bench」指「實驗室內進行實驗的工作台」。",
+        "bench-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-12"
     },
@@ -1226,11 +1126,9 @@ export default {
       "masked": "She spent the morning working at the ____.",
       "options": [
         "bench-mcq-12",
-        "bench-mcq-11",
-        "bench-mcq-13",
-        "bench-mcq-10",
-        "bench-mcq-14",
-        "bench-mcq-09"
+        "bench-mcq-02",
+        "bench-mcq-07",
+        "bench-mcq-17"
       ],
       "explanation": "本句的「bench」指「實驗室內進行實驗的工作台」。",
       "sentenceIndex": 25,
@@ -1239,12 +1137,10 @@ export default {
         "bench"
       ],
       "optionReasons": {
-        "bench-mcq-12": "本句指「實驗室內進行實驗的工作台」。",
-        "bench-mcq-11": "「供手工／技術操作使用的工作台」與本句語境不同。",
-        "bench-mcq-13": "「在實驗台／工作台進行的實作工作」與本句語境不同。",
-        "bench-mcq-10": "「用於手工、技術工作的堅固工作台」與本句語境不同。",
-        "bench-mcq-14": "「在受控環境下進行的台架／實驗室測試」與本句語境不同。",
-        "bench-mcq-09": "「不設陪審團、由法官直接裁決的審訊」與本句語境不同。"
+        "bench-mcq-12": "本句的「bench」指「實驗室內進行實驗的工作台」。",
+        "bench-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-12"
     },
@@ -1256,11 +1152,9 @@ export default {
       "masked": "The role involves both analysis and ____.",
       "options": [
         "bench-mcq-13",
-        "bench-mcq-12",
-        "bench-mcq-14",
-        "bench-mcq-11",
+        "bench-mcq-03",
         "bench-mcq-15",
-        "bench-mcq-10"
+        "bench-mcq-21"
       ],
       "explanation": "本句的「bench work」指「在實驗台／工作台進行的實作工作」。",
       "sentenceIndex": 26,
@@ -1269,12 +1163,10 @@ export default {
         "bench work"
       ],
       "optionReasons": {
-        "bench-mcq-13": "本句指「在實驗台／工作台進行的實作工作」。",
-        "bench-mcq-12": "「實驗室內進行實驗的工作台」與本句語境不同。",
-        "bench-mcq-14": "「在受控環境下進行的台架／實驗室測試」與本句語境不同。",
-        "bench-mcq-11": "「供手工／技術操作使用的工作台」與本句語境不同。",
-        "bench-mcq-15": "「山坡、河谷等上的平坦階地／岩階」與本句語境不同。",
-        "bench-mcq-10": "「用於手工、技術工作的堅固工作台」與本句語境不同。"
+        "bench-mcq-13": "本句的「bench work」指「在實驗台／工作台進行的實作工作」。",
+        "bench-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-13"
     },
@@ -1286,11 +1178,9 @@ export default {
       "masked": "He prefers ____ to administrative tasks.",
       "options": [
         "bench-mcq-13",
-        "bench-mcq-12",
-        "bench-mcq-14",
-        "bench-mcq-11",
-        "bench-mcq-15",
-        "bench-mcq-10"
+        "bench-mcq-21",
+        "bench-mcq-02",
+        "bench-mcq-15"
       ],
       "explanation": "本句的「bench work」指「在實驗台／工作台進行的實作工作」。",
       "sentenceIndex": 27,
@@ -1299,12 +1189,10 @@ export default {
         "bench work"
       ],
       "optionReasons": {
-        "bench-mcq-13": "本句指「在實驗台／工作台進行的實作工作」。",
-        "bench-mcq-12": "「實驗室內進行實驗的工作台」與本句語境不同。",
-        "bench-mcq-14": "「在受控環境下進行的台架／實驗室測試」與本句語境不同。",
-        "bench-mcq-11": "「供手工／技術操作使用的工作台」與本句語境不同。",
-        "bench-mcq-15": "「山坡、河谷等上的平坦階地／岩階」與本句語境不同。",
-        "bench-mcq-10": "「用於手工、技術工作的堅固工作台」與本句語境不同。"
+        "bench-mcq-13": "本句的「bench work」指「在實驗台／工作台進行的實作工作」。",
+        "bench-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-13"
     },
@@ -1316,11 +1204,9 @@ export default {
       "masked": "The motor passed the ____.",
       "options": [
         "bench-mcq-14",
-        "bench-mcq-13",
-        "bench-mcq-15",
-        "bench-mcq-12",
-        "bench-mcq-16",
-        "bench-mcq-11"
+        "bench-mcq-09",
+        "bench-mcq-01",
+        "bench-mcq-15"
       ],
       "explanation": "本句的「bench test」指「在受控環境下進行的台架／實驗室測試」。",
       "sentenceIndex": 28,
@@ -1329,12 +1215,10 @@ export default {
         "bench test"
       ],
       "optionReasons": {
-        "bench-mcq-14": "本句指「在受控環境下進行的台架／實驗室測試」。",
-        "bench-mcq-13": "「在實驗台／工作台進行的實作工作」與本句語境不同。",
-        "bench-mcq-15": "「山坡、河谷等上的平坦階地／岩階」與本句語境不同。",
-        "bench-mcq-12": "「實驗室內進行實驗的工作台」與本句語境不同。",
-        "bench-mcq-16": "「露天礦、採石場中的水平台階平台」與本句語境不同。",
-        "bench-mcq-11": "「供手工／技術操作使用的工作台」與本句語境不同。"
+        "bench-mcq-14": "本句的「bench test」指「在受控環境下進行的台架／實驗室測試」。",
+        "bench-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-14"
     },
@@ -1346,11 +1230,9 @@ export default {
       "masked": "Engineers carried out a ____ before field trials.",
       "options": [
         "bench-mcq-14",
-        "bench-mcq-13",
-        "bench-mcq-15",
-        "bench-mcq-12",
-        "bench-mcq-16",
-        "bench-mcq-11"
+        "bench-mcq-02",
+        "bench-mcq-07",
+        "bench-mcq-03"
       ],
       "explanation": "本句的「bench test」指「在受控環境下進行的台架／實驗室測試」。",
       "sentenceIndex": 29,
@@ -1359,12 +1241,10 @@ export default {
         "bench test"
       ],
       "optionReasons": {
-        "bench-mcq-14": "本句指「在受控環境下進行的台架／實驗室測試」。",
-        "bench-mcq-13": "「在實驗台／工作台進行的實作工作」與本句語境不同。",
-        "bench-mcq-15": "「山坡、河谷等上的平坦階地／岩階」與本句語境不同。",
-        "bench-mcq-12": "「實驗室內進行實驗的工作台」與本句語境不同。",
-        "bench-mcq-16": "「露天礦、採石場中的水平台階平台」與本句語境不同。",
-        "bench-mcq-11": "「供手工／技術操作使用的工作台」與本句語境不同。"
+        "bench-mcq-14": "本句的「bench test」指「在受控環境下進行的台架／實驗室測試」。",
+        "bench-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-14"
     },
@@ -1376,11 +1256,9 @@ export default {
       "masked": "The trail crossed a narrow rocky ____.",
       "options": [
         "bench-mcq-15",
-        "bench-mcq-14",
-        "bench-mcq-16",
         "bench-mcq-13",
-        "bench-mcq-17",
-        "bench-mcq-12"
+        "bench-mcq-03",
+        "bench-mcq-09"
       ],
       "explanation": "本句的「bench」指「山坡、河谷等上的平坦階地／岩階」。",
       "sentenceIndex": 30,
@@ -1389,12 +1267,10 @@ export default {
         "bench"
       ],
       "optionReasons": {
-        "bench-mcq-15": "本句指「山坡、河谷等上的平坦階地／岩階」。",
-        "bench-mcq-14": "「在受控環境下進行的台架／實驗室測試」與本句語境不同。",
-        "bench-mcq-16": "「露天礦、採石場中的水平台階平台」與本句語境不同。",
-        "bench-mcq-13": "「在實驗台／工作台進行的實作工作」與本句語境不同。",
-        "bench-mcq-17": "「球隊替補球員的整體質素與深度」與本句語境不同。",
-        "bench-mcq-12": "「實驗室內進行實驗的工作台」與本句語境不同。"
+        "bench-mcq-15": "本句的「bench」指「山坡、河谷等上的平坦階地／岩階」。",
+        "bench-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-15"
     },
@@ -1406,11 +1282,9 @@ export default {
       "masked": "The river had cut a ____ into the valley side.",
       "options": [
         "bench-mcq-15",
-        "bench-mcq-14",
-        "bench-mcq-16",
-        "bench-mcq-13",
-        "bench-mcq-17",
-        "bench-mcq-12"
+        "bench-mcq-10",
+        "bench-mcq-05",
+        "bench-mcq-14"
       ],
       "explanation": "本句的「bench」指「山坡、河谷等上的平坦階地／岩階」。",
       "sentenceIndex": 31,
@@ -1419,12 +1293,10 @@ export default {
         "bench"
       ],
       "optionReasons": {
-        "bench-mcq-15": "本句指「山坡、河谷等上的平坦階地／岩階」。",
-        "bench-mcq-14": "「在受控環境下進行的台架／實驗室測試」與本句語境不同。",
-        "bench-mcq-16": "「露天礦、採石場中的水平台階平台」與本句語境不同。",
-        "bench-mcq-13": "「在實驗台／工作台進行的實作工作」與本句語境不同。",
-        "bench-mcq-17": "「球隊替補球員的整體質素與深度」與本句語境不同。",
-        "bench-mcq-12": "「實驗室內進行實驗的工作台」與本句語境不同。"
+        "bench-mcq-15": "本句的「bench」指「山坡、河谷等上的平坦階地／岩階」。",
+        "bench-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-15"
     },
@@ -1436,10 +1308,8 @@ export default {
       "masked": "The team has excellent ____.",
       "options": [
         "bench-mcq-17",
-        "bench-mcq-16",
-        "bench-mcq-18",
-        "bench-mcq-15",
-        "bench-mcq-19",
+        "bench-mcq-21",
+        "bench-mcq-11",
         "bench-mcq-14"
       ],
       "explanation": "本句的「bench strength」指「球隊替補球員的整體質素與深度」。",
@@ -1449,12 +1319,10 @@ export default {
         "bench strength"
       ],
       "optionReasons": {
-        "bench-mcq-17": "本句指「球隊替補球員的整體質素與深度」。",
-        "bench-mcq-16": "「露天礦、採石場中的水平台階平台」與本句語境不同。",
-        "bench-mcq-18": "「可隨時接任重要職位的後備人才實力」與本句語境不同。",
-        "bench-mcq-15": "「山坡、河谷等上的平坦階地／岩階」與本句語境不同。",
-        "bench-mcq-19": "「擔任法官／處於司法職位」與本句語境不同。",
-        "bench-mcq-14": "「在受控環境下進行的台架／實驗室測試」與本句語境不同。"
+        "bench-mcq-17": "本句的「bench strength」指「球隊替補球員的整體質素與深度」。",
+        "bench-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-17"
     },
@@ -1466,10 +1334,8 @@ export default {
       "masked": "Their ____ helped them late in the match.",
       "options": [
         "bench-mcq-17",
-        "bench-mcq-16",
-        "bench-mcq-18",
-        "bench-mcq-15",
-        "bench-mcq-19",
+        "bench-mcq-06",
+        "bench-mcq-09",
         "bench-mcq-14"
       ],
       "explanation": "本句的「bench strength」指「球隊替補球員的整體質素與深度」。",
@@ -1479,12 +1345,10 @@ export default {
         "bench strength"
       ],
       "optionReasons": {
-        "bench-mcq-17": "本句指「球隊替補球員的整體質素與深度」。",
-        "bench-mcq-16": "「露天礦、採石場中的水平台階平台」與本句語境不同。",
-        "bench-mcq-18": "「可隨時接任重要職位的後備人才實力」與本句語境不同。",
-        "bench-mcq-15": "「山坡、河谷等上的平坦階地／岩階」與本句語境不同。",
-        "bench-mcq-19": "「擔任法官／處於司法職位」與本句語境不同。",
-        "bench-mcq-14": "「在受控環境下進行的台架／實驗室測試」與本句語境不同。"
+        "bench-mcq-17": "本句的「bench strength」指「球隊替補球員的整體質素與深度」。",
+        "bench-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-17"
     },
@@ -1496,11 +1360,9 @@ export default {
       "masked": "The company needs stronger leadership ____.",
       "options": [
         "bench-mcq-18",
-        "bench-mcq-17",
-        "bench-mcq-19",
-        "bench-mcq-16",
-        "bench-mcq-20",
-        "bench-mcq-15"
+        "bench-mcq-02",
+        "bench-mcq-07",
+        "bench-mcq-17"
       ],
       "explanation": "本句的「bench strength」指「可隨時接任重要職位的後備人才實力」。",
       "sentenceIndex": 36,
@@ -1509,12 +1371,10 @@ export default {
         "bench strength"
       ],
       "optionReasons": {
-        "bench-mcq-18": "本句指「可隨時接任重要職位的後備人才實力」。",
-        "bench-mcq-17": "「球隊替補球員的整體質素與深度」與本句語境不同。",
-        "bench-mcq-19": "「擔任法官／處於司法職位」與本句語境不同。",
-        "bench-mcq-16": "「露天礦、採石場中的水平台階平台」與本句語境不同。",
-        "bench-mcq-20": "「由法官／法官席當庭作出」與本句語境不同。",
-        "bench-mcq-15": "「山坡、河谷等上的平坦階地／岩階」與本句語境不同。"
+        "bench-mcq-18": "本句的「bench strength」指「可隨時接任重要職位的後備人才實力」。",
+        "bench-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-18"
     },
@@ -1527,10 +1387,8 @@ export default {
       "options": [
         "bench-mcq-18",
         "bench-mcq-17",
-        "bench-mcq-19",
-        "bench-mcq-16",
-        "bench-mcq-20",
-        "bench-mcq-15"
+        "bench-mcq-02",
+        "bench-mcq-21"
       ],
       "explanation": "本句的「bench strength」指「可隨時接任重要職位的後備人才實力」。",
       "sentenceIndex": 37,
@@ -1539,12 +1397,10 @@ export default {
         "bench strength"
       ],
       "optionReasons": {
-        "bench-mcq-18": "本句指「可隨時接任重要職位的後備人才實力」。",
-        "bench-mcq-17": "「球隊替補球員的整體質素與深度」與本句語境不同。",
-        "bench-mcq-19": "「擔任法官／處於司法職位」與本句語境不同。",
-        "bench-mcq-16": "「露天礦、採石場中的水平台階平台」與本句語境不同。",
-        "bench-mcq-20": "「由法官／法官席當庭作出」與本句語境不同。",
-        "bench-mcq-15": "「山坡、河谷等上的平坦階地／岩階」與本句語境不同。"
+        "bench-mcq-18": "本句的「bench strength」指「可隨時接任重要職位的後備人才實力」。",
+        "bench-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-18"
     },
@@ -1556,11 +1412,9 @@ export default {
       "masked": "She served ____ for twenty years.",
       "options": [
         "bench-mcq-19",
-        "bench-mcq-18",
-        "bench-mcq-20",
-        "bench-mcq-17",
-        "bench-mcq-21",
-        "bench-mcq-16"
+        "bench-mcq-15",
+        "bench-mcq-04",
+        "bench-mcq-01"
       ],
       "explanation": "本句的「on the bench」指「擔任法官／處於司法職位」。",
       "sentenceIndex": 38,
@@ -1569,12 +1423,10 @@ export default {
         "on the bench"
       ],
       "optionReasons": {
-        "bench-mcq-19": "本句指「擔任法官／處於司法職位」。",
-        "bench-mcq-18": "「可隨時接任重要職位的後備人才實力」與本句語境不同。",
-        "bench-mcq-20": "「由法官／法官席當庭作出」與本句語境不同。",
-        "bench-mcq-17": "「球隊替補球員的整體質素與深度」與本句語境不同。",
-        "bench-mcq-21": "「由法官簽發、常因未出庭而發出的拘捕令」與本句語境不同。",
-        "bench-mcq-16": "「露天礦、採石場中的水平台階平台」與本句語境不同。"
+        "bench-mcq-19": "本句的「on the bench」指「擔任法官／處於司法職位」。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-19"
     },
@@ -1586,11 +1438,9 @@ export default {
       "masked": "He is one of the most experienced judges ____.",
       "options": [
         "bench-mcq-19",
-        "bench-mcq-18",
-        "bench-mcq-20",
-        "bench-mcq-17",
-        "bench-mcq-21",
-        "bench-mcq-16"
+        "bench-mcq-05",
+        "bench-mcq-04",
+        "bench-mcq-15"
       ],
       "explanation": "本句的「on the bench」指「擔任法官／處於司法職位」。",
       "sentenceIndex": 39,
@@ -1599,12 +1449,10 @@ export default {
         "on the bench"
       ],
       "optionReasons": {
-        "bench-mcq-19": "本句指「擔任法官／處於司法職位」。",
-        "bench-mcq-18": "「可隨時接任重要職位的後備人才實力」與本句語境不同。",
-        "bench-mcq-20": "「由法官／法官席當庭作出」與本句語境不同。",
-        "bench-mcq-17": "「球隊替補球員的整體質素與深度」與本句語境不同。",
-        "bench-mcq-21": "「由法官簽發、常因未出庭而發出的拘捕令」與本句語境不同。",
-        "bench-mcq-16": "「露天礦、採石場中的水平台階平台」與本句語境不同。"
+        "bench-mcq-19": "本句的「on the bench」指「擔任法官／處於司法職位」。",
+        "bench-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-19"
     },
@@ -1616,11 +1464,9 @@ export default {
       "masked": "The ruling came ____.",
       "options": [
         "bench-mcq-20",
-        "bench-mcq-19",
-        "bench-mcq-21",
-        "bench-mcq-18",
-        "bench-mcq-17",
-        "bench-mcq-16"
+        "bench-mcq-01",
+        "bench-mcq-04",
+        "bench-mcq-10"
       ],
       "explanation": "本句的「from the bench」指「由法官／法官席當庭作出」。",
       "sentenceIndex": 40,
@@ -1629,12 +1475,10 @@ export default {
         "from the bench"
       ],
       "optionReasons": {
-        "bench-mcq-20": "本句指「由法官／法官席當庭作出」。",
-        "bench-mcq-19": "「擔任法官／處於司法職位」與本句語境不同。",
-        "bench-mcq-21": "「由法官簽發、常因未出庭而發出的拘捕令」與本句語境不同。",
-        "bench-mcq-18": "「可隨時接任重要職位的後備人才實力」與本句語境不同。",
-        "bench-mcq-17": "「球隊替補球員的整體質素與深度」與本句語境不同。",
-        "bench-mcq-16": "「露天礦、採石場中的水平台階平台」與本句語境不同。"
+        "bench-mcq-20": "本句的「from the bench」指「由法官／法官席當庭作出」。",
+        "bench-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-20"
     },
@@ -1646,11 +1490,9 @@ export default {
       "masked": "The judge spoke ____.",
       "options": [
         "bench-mcq-20",
-        "bench-mcq-19",
-        "bench-mcq-21",
-        "bench-mcq-18",
-        "bench-mcq-17",
-        "bench-mcq-16"
+        "bench-mcq-13",
+        "bench-mcq-02",
+        "bench-mcq-15"
       ],
       "explanation": "本句的「from the bench」指「由法官／法官席當庭作出」。",
       "sentenceIndex": 41,
@@ -1659,12 +1501,10 @@ export default {
         "from the bench"
       ],
       "optionReasons": {
-        "bench-mcq-20": "本句指「由法官／法官席當庭作出」。",
-        "bench-mcq-19": "「擔任法官／處於司法職位」與本句語境不同。",
-        "bench-mcq-21": "「由法官簽發、常因未出庭而發出的拘捕令」與本句語境不同。",
-        "bench-mcq-18": "「可隨時接任重要職位的後備人才實力」與本句語境不同。",
-        "bench-mcq-17": "「球隊替補球員的整體質素與深度」與本句語境不同。",
-        "bench-mcq-16": "「露天礦、採石場中的水平台階平台」與本句語境不同。"
+        "bench-mcq-20": "本句的「from the bench」指「由法官／法官席當庭作出」。",
+        "bench-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-20"
     },
@@ -1676,11 +1516,9 @@ export default {
       "masked": "The judge issued a ____.",
       "options": [
         "bench-mcq-21",
-        "bench-mcq-20",
-        "bench-mcq-19",
-        "bench-mcq-18",
-        "bench-mcq-17",
-        "bench-mcq-16"
+        "bench-mcq-11",
+        "bench-mcq-14",
+        "bench-mcq-15"
       ],
       "explanation": "本句的「bench warrant」指「由法官簽發、常因未出庭而發出的拘捕令」。",
       "sentenceIndex": 42,
@@ -1689,12 +1527,10 @@ export default {
         "bench warrant"
       ],
       "optionReasons": {
-        "bench-mcq-21": "本句指「由法官簽發、常因未出庭而發出的拘捕令」。",
-        "bench-mcq-20": "「由法官／法官席當庭作出」與本句語境不同。",
-        "bench-mcq-19": "「擔任法官／處於司法職位」與本句語境不同。",
-        "bench-mcq-18": "「可隨時接任重要職位的後備人才實力」與本句語境不同。",
-        "bench-mcq-17": "「球隊替補球員的整體質素與深度」與本句語境不同。",
-        "bench-mcq-16": "「露天礦、採石場中的水平台階平台」與本句語境不同。"
+        "bench-mcq-21": "本句的「bench warrant」指「由法官簽發、常因未出庭而發出的拘捕令」。",
+        "bench-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-21"
     },
@@ -1706,11 +1542,9 @@ export default {
       "masked": "A ____ was issued after he failed to appear.",
       "options": [
         "bench-mcq-21",
-        "bench-mcq-20",
-        "bench-mcq-19",
-        "bench-mcq-18",
-        "bench-mcq-17",
-        "bench-mcq-16"
+        "bench-mcq-01",
+        "bench-mcq-10",
+        "bench-mcq-15"
       ],
       "explanation": "本句的「bench warrant」指「由法官簽發、常因未出庭而發出的拘捕令」。",
       "sentenceIndex": 43,
@@ -1719,12 +1553,10 @@ export default {
         "bench warrant"
       ],
       "optionReasons": {
-        "bench-mcq-21": "本句指「由法官簽發、常因未出庭而發出的拘捕令」。",
-        "bench-mcq-20": "「由法官／法官席當庭作出」與本句語境不同。",
-        "bench-mcq-19": "「擔任法官／處於司法職位」與本句語境不同。",
-        "bench-mcq-18": "「可隨時接任重要職位的後備人才實力」與本句語境不同。",
-        "bench-mcq-17": "「球隊替補球員的整體質素與深度」與本句語境不同。",
-        "bench-mcq-16": "「露天礦、採石場中的水平台階平台」與本句語境不同。"
+        "bench-mcq-21": "本句的「bench warrant」指「由法官簽發、常因未出庭而發出的拘捕令」。",
+        "bench-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bench-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bench-mcq-21"
     }
@@ -1736,5 +1568,7 @@ export default {
     "sha256": "0ba072a8960552c00611485631f9394de14ec1ff5f6eee6768b8e9f4c15866c7",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

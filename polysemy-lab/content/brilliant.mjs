@@ -397,11 +397,9 @@ export default {
       "masked": "She is academically ____, but she never shows off.",
       "options": [
         "brilliant-mcq-01",
-        "brilliant-mcq-02",
-        "brilliant-mcq-03",
-        "brilliant-mcq-04",
-        "brilliant-mcq-05",
-        "brilliant-mcq-06"
+        "brilliant-mcq-11",
+        "brilliant-mcq-10",
+        "brilliant-mcq-05"
       ],
       "explanation": "本句的「brilliant」指「智力或才能遠高於一般水平；極聰明的／才華出眾的」。",
       "sentenceIndex": 0,
@@ -410,12 +408,10 @@ export default {
         "brilliant"
       ],
       "optionReasons": {
-        "brilliant-mcq-01": "本句指「智力或才能遠高於一般水平；極聰明的／才華出眾的」。",
-        "brilliant-mcq-02": "「在某項活動、技能或學科上表現極為出色」與本句語境不同。",
-        "brilliant-mcq-03": "「品質、結果、體驗或表現極好；精彩的／出色的」與本句語境不同。",
-        "brilliant-mcq-04": "「非常聰明、巧妙或有效的主意／解決方案」與本句語境不同。",
-        "brilliant-mcq-05": "「極為精彩、令人印象深刻的表現」與本句語境不同。",
-        "brilliant-mcq-06": "「發出或反射非常強烈的光；明亮的／耀眼的」與本句語境不同。"
+        "brilliant-mcq-01": "本句的「brilliant」指「智力或才能遠高於一般水平；極聰明的／才華出眾的」。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-01"
     },
@@ -427,11 +423,9 @@ export default {
       "masked": "He is a ____ student with a deep understanding of mathematics.",
       "options": [
         "brilliant-mcq-01",
-        "brilliant-mcq-02",
-        "brilliant-mcq-03",
-        "brilliant-mcq-04",
-        "brilliant-mcq-05",
-        "brilliant-mcq-06"
+        "brilliant-mcq-11",
+        "brilliant-mcq-10",
+        "brilliant-mcq-09"
       ],
       "explanation": "本句的「brilliant」指「智力或才能遠高於一般水平；極聰明的／才華出眾的」。",
       "sentenceIndex": 1,
@@ -440,12 +434,10 @@ export default {
         "brilliant"
       ],
       "optionReasons": {
-        "brilliant-mcq-01": "本句指「智力或才能遠高於一般水平；極聰明的／才華出眾的」。",
-        "brilliant-mcq-02": "「在某項活動、技能或學科上表現極為出色」與本句語境不同。",
-        "brilliant-mcq-03": "「品質、結果、體驗或表現極好；精彩的／出色的」與本句語境不同。",
-        "brilliant-mcq-04": "「非常聰明、巧妙或有效的主意／解決方案」與本句語境不同。",
-        "brilliant-mcq-05": "「極為精彩、令人印象深刻的表現」與本句語境不同。",
-        "brilliant-mcq-06": "「發出或反射非常強烈的光；明亮的／耀眼的」與本句語境不同。"
+        "brilliant-mcq-01": "本句的「brilliant」指「智力或才能遠高於一般水平；極聰明的／才華出眾的」。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-01"
     },
@@ -457,11 +449,9 @@ export default {
       "masked": "She is a ____.",
       "options": [
         "brilliant-mcq-10",
+        "brilliant-mcq-01",
         "brilliant-mcq-09",
-        "brilliant-mcq-11",
-        "brilliant-mcq-08",
-        "brilliant-mcq-12",
-        "brilliant-mcq-07"
+        "brilliant-mcq-11"
       ],
       "explanation": "本句的「brilliant scientist」指「非正式表示「非常好、太棒了」」。",
       "sentenceIndex": 2,
@@ -470,12 +460,10 @@ export default {
         "brilliant scientist"
       ],
       "optionReasons": {
-        "brilliant-mcq-10": "本句指「非正式表示「非常好、太棒了」」。",
-        "brilliant-mcq-09": "「反射出強烈光芒、顯得璀璨的」與本句語境不同。",
-        "brilliant-mcq-11": "「用反諷語氣表示事情其實很糟；「真棒啊」」與本句語境不同。",
-        "brilliant-mcq-08": "「色彩非常鮮明、強烈；鮮豔的」與本句語境不同。",
-        "brilliant-mcq-12": "「以非常出色、精彩的方式」與本句語境不同。",
-        "brilliant-mcq-07": "「非常明亮、強烈或燦爛的陽光／光線」與本句語境不同。"
+        "brilliant-mcq-10": "本句的「brilliant scientist」指「非正式表示「非常好、太棒了」」。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-10"
     },
@@ -488,10 +476,8 @@ export default {
       "options": [
         "brilliant-mcq-10",
         "brilliant-mcq-09",
-        "brilliant-mcq-11",
-        "brilliant-mcq-08",
-        "brilliant-mcq-12",
-        "brilliant-mcq-07"
+        "brilliant-mcq-01",
+        "brilliant-mcq-11"
       ],
       "explanation": "本句的「brilliant student」指「非正式表示「非常好、太棒了」」。",
       "sentenceIndex": 3,
@@ -500,12 +486,10 @@ export default {
         "brilliant student"
       ],
       "optionReasons": {
-        "brilliant-mcq-10": "本句指「非正式表示「非常好、太棒了」」。",
-        "brilliant-mcq-09": "「反射出強烈光芒、顯得璀璨的」與本句語境不同。",
-        "brilliant-mcq-11": "「用反諷語氣表示事情其實很糟；「真棒啊」」與本句語境不同。",
-        "brilliant-mcq-08": "「色彩非常鮮明、強烈；鮮豔的」與本句語境不同。",
-        "brilliant-mcq-12": "「以非常出色、精彩的方式」與本句語境不同。",
-        "brilliant-mcq-07": "「非常明亮、強烈或燦爛的陽光／光線」與本句語境不同。"
+        "brilliant-mcq-10": "本句的「brilliant student」指「非正式表示「非常好、太棒了」」。",
+        "brilliant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-10"
     },
@@ -517,11 +501,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "brilliant-mcq-02",
-        "brilliant-mcq-01",
-        "brilliant-mcq-03",
-        "brilliant-mcq-04",
-        "brilliant-mcq-05",
-        "brilliant-mcq-06"
+        "brilliant-mcq-10",
+        "brilliant-mcq-11",
+        "brilliant-mcq-01"
       ],
       "explanation": "本句的「brilliant at explaining difficult ideas」指「在某項活動、技能或學科上表現極為出色」。",
       "sentenceIndex": 4,
@@ -530,12 +512,10 @@ export default {
         "brilliant at explaining difficult ideas"
       ],
       "optionReasons": {
-        "brilliant-mcq-02": "本句指「在某項活動、技能或學科上表現極為出色」。",
-        "brilliant-mcq-01": "「智力或才能遠高於一般水平；極聰明的／才華出眾的」與本句語境不同。",
-        "brilliant-mcq-03": "「品質、結果、體驗或表現極好；精彩的／出色的」與本句語境不同。",
-        "brilliant-mcq-04": "「非常聰明、巧妙或有效的主意／解決方案」與本句語境不同。",
-        "brilliant-mcq-05": "「極為精彩、令人印象深刻的表現」與本句語境不同。",
-        "brilliant-mcq-06": "「發出或反射非常強烈的光；明亮的／耀眼的」與本句語境不同。"
+        "brilliant-mcq-02": "本句的「brilliant at explaining difficult ideas」指「在某項活動、技能或學科上表現極為出色」。",
+        "brilliant-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-02"
     },
@@ -547,11 +527,8 @@ export default {
       "masked": "He is ____.",
       "options": [
         "brilliant-mcq-02",
-        "brilliant-mcq-01",
-        "brilliant-mcq-03",
         "brilliant-mcq-04",
-        "brilliant-mcq-05",
-        "brilliant-mcq-06"
+        "brilliant-mcq-11"
       ],
       "explanation": "本句的「brilliant at mathematics」指「在某項活動、技能或學科上表現極為出色」。",
       "sentenceIndex": 5,
@@ -560,12 +537,9 @@ export default {
         "brilliant at mathematics"
       ],
       "optionReasons": {
-        "brilliant-mcq-02": "本句指「在某項活動、技能或學科上表現極為出色」。",
-        "brilliant-mcq-01": "「智力或才能遠高於一般水平；極聰明的／才華出眾的」與本句語境不同。",
-        "brilliant-mcq-03": "「品質、結果、體驗或表現極好；精彩的／出色的」與本句語境不同。",
-        "brilliant-mcq-04": "「非常聰明、巧妙或有效的主意／解決方案」與本句語境不同。",
-        "brilliant-mcq-05": "「極為精彩、令人印象深刻的表現」與本句語境不同。",
-        "brilliant-mcq-06": "「發出或反射非常強烈的光；明亮的／耀眼的」與本句語境不同。"
+        "brilliant-mcq-02": "本句的「brilliant at mathematics」指「在某項活動、技能或學科上表現極為出色」。",
+        "brilliant-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-02"
     },
@@ -577,11 +551,8 @@ export default {
       "masked": "That was a ____.",
       "options": [
         "brilliant-mcq-03",
-        "brilliant-mcq-02",
         "brilliant-mcq-04",
-        "brilliant-mcq-01",
-        "brilliant-mcq-05",
-        "brilliant-mcq-06"
+        "brilliant-mcq-11"
       ],
       "explanation": "本句的「brilliant presentation」指「品質、結果、體驗或表現極好；精彩的／出色的」。",
       "sentenceIndex": 6,
@@ -590,12 +561,9 @@ export default {
         "brilliant presentation"
       ],
       "optionReasons": {
-        "brilliant-mcq-03": "本句指「品質、結果、體驗或表現極好；精彩的／出色的」。",
-        "brilliant-mcq-02": "「在某項活動、技能或學科上表現極為出色」與本句語境不同。",
-        "brilliant-mcq-04": "「非常聰明、巧妙或有效的主意／解決方案」與本句語境不同。",
-        "brilliant-mcq-01": "「智力或才能遠高於一般水平；極聰明的／才華出眾的」與本句語境不同。",
-        "brilliant-mcq-05": "「極為精彩、令人印象深刻的表現」與本句語境不同。",
-        "brilliant-mcq-06": "「發出或反射非常強烈的光；明亮的／耀眼的」與本句語境不同。"
+        "brilliant-mcq-03": "本句的「brilliant presentation」指「品質、結果、體驗或表現極好；精彩的／出色的」。",
+        "brilliant-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-03"
     },
@@ -607,11 +575,9 @@ export default {
       "masked": "We had a ____.",
       "options": [
         "brilliant-mcq-03",
-        "brilliant-mcq-02",
-        "brilliant-mcq-04",
-        "brilliant-mcq-01",
-        "brilliant-mcq-05",
-        "brilliant-mcq-06"
+        "brilliant-mcq-07",
+        "brilliant-mcq-11",
+        "brilliant-mcq-01"
       ],
       "explanation": "本句的「brilliant time」指「品質、結果、體驗或表現極好；精彩的／出色的」。",
       "sentenceIndex": 7,
@@ -620,12 +586,10 @@ export default {
         "brilliant time"
       ],
       "optionReasons": {
-        "brilliant-mcq-03": "本句指「品質、結果、體驗或表現極好；精彩的／出色的」。",
-        "brilliant-mcq-02": "「在某項活動、技能或學科上表現極為出色」與本句語境不同。",
-        "brilliant-mcq-04": "「非常聰明、巧妙或有效的主意／解決方案」與本句語境不同。",
-        "brilliant-mcq-01": "「智力或才能遠高於一般水平；極聰明的／才華出眾的」與本句語境不同。",
-        "brilliant-mcq-05": "「極為精彩、令人印象深刻的表現」與本句語境不同。",
-        "brilliant-mcq-06": "「發出或反射非常強烈的光；明亮的／耀眼的」與本句語境不同。"
+        "brilliant-mcq-03": "本句的「brilliant time」指「品質、結果、體驗或表現極好；精彩的／出色的」。",
+        "brilliant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-03"
     },
@@ -638,10 +602,7 @@ export default {
       "options": [
         "brilliant-mcq-04",
         "brilliant-mcq-03",
-        "brilliant-mcq-05",
-        "brilliant-mcq-02",
-        "brilliant-mcq-06",
-        "brilliant-mcq-01"
+        "brilliant-mcq-11"
       ],
       "explanation": "本句的「brilliant idea」指「非常聰明、巧妙或有效的主意／解決方案」。",
       "sentenceIndex": 8,
@@ -650,12 +611,9 @@ export default {
         "brilliant idea"
       ],
       "optionReasons": {
-        "brilliant-mcq-04": "本句指「非常聰明、巧妙或有效的主意／解決方案」。",
-        "brilliant-mcq-03": "「品質、結果、體驗或表現極好；精彩的／出色的」與本句語境不同。",
-        "brilliant-mcq-05": "「極為精彩、令人印象深刻的表現」與本句語境不同。",
-        "brilliant-mcq-02": "「在某項活動、技能或學科上表現極為出色」與本句語境不同。",
-        "brilliant-mcq-06": "「發出或反射非常強烈的光；明亮的／耀眼的」與本句語境不同。",
-        "brilliant-mcq-01": "「智力或才能遠高於一般水平；極聰明的／才華出眾的」與本句語境不同。"
+        "brilliant-mcq-04": "本句的「brilliant idea」指「非常聰明、巧妙或有效的主意／解決方案」。",
+        "brilliant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-04"
     },
@@ -667,11 +625,8 @@ export default {
       "masked": "She came up with a ____.",
       "options": [
         "brilliant-mcq-04",
-        "brilliant-mcq-03",
-        "brilliant-mcq-05",
-        "brilliant-mcq-02",
-        "brilliant-mcq-06",
-        "brilliant-mcq-01"
+        "brilliant-mcq-11",
+        "brilliant-mcq-09"
       ],
       "explanation": "本句的「brilliant solution」指「非常聰明、巧妙或有效的主意／解決方案」。",
       "sentenceIndex": 9,
@@ -680,12 +635,9 @@ export default {
         "brilliant solution"
       ],
       "optionReasons": {
-        "brilliant-mcq-04": "本句指「非常聰明、巧妙或有效的主意／解決方案」。",
-        "brilliant-mcq-03": "「品質、結果、體驗或表現極好；精彩的／出色的」與本句語境不同。",
-        "brilliant-mcq-05": "「極為精彩、令人印象深刻的表現」與本句語境不同。",
-        "brilliant-mcq-02": "「在某項活動、技能或學科上表現極為出色」與本句語境不同。",
-        "brilliant-mcq-06": "「發出或反射非常強烈的光；明亮的／耀眼的」與本句語境不同。",
-        "brilliant-mcq-01": "「智力或才能遠高於一般水平；極聰明的／才華出眾的」與本句語境不同。"
+        "brilliant-mcq-04": "本句的「brilliant solution」指「非常聰明、巧妙或有效的主意／解決方案」。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-04"
     },
@@ -697,11 +649,9 @@ export default {
       "masked": "She gave a ____.",
       "options": [
         "brilliant-mcq-05",
-        "brilliant-mcq-04",
-        "brilliant-mcq-06",
-        "brilliant-mcq-03",
         "brilliant-mcq-07",
-        "brilliant-mcq-02"
+        "brilliant-mcq-11",
+        "brilliant-mcq-01"
       ],
       "explanation": "本句的「brilliant performance」指「極為精彩、令人印象深刻的表現」。",
       "sentenceIndex": 10,
@@ -710,12 +660,10 @@ export default {
         "brilliant performance"
       ],
       "optionReasons": {
-        "brilliant-mcq-05": "本句指「極為精彩、令人印象深刻的表現」。",
-        "brilliant-mcq-04": "「非常聰明、巧妙或有效的主意／解決方案」與本句語境不同。",
-        "brilliant-mcq-06": "「發出或反射非常強烈的光；明亮的／耀眼的」與本句語境不同。",
-        "brilliant-mcq-03": "「品質、結果、體驗或表現極好；精彩的／出色的」與本句語境不同。",
-        "brilliant-mcq-07": "「非常明亮、強烈或燦爛的陽光／光線」與本句語境不同。",
-        "brilliant-mcq-02": "「在某項活動、技能或學科上表現極為出色」與本句語境不同。"
+        "brilliant-mcq-05": "本句的「brilliant performance」指「極為精彩、令人印象深刻的表現」。",
+        "brilliant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-05"
     },
@@ -727,11 +675,9 @@ export default {
       "masked": "The team produced a ____ under pressure.",
       "options": [
         "brilliant-mcq-05",
-        "brilliant-mcq-04",
-        "brilliant-mcq-06",
-        "brilliant-mcq-03",
-        "brilliant-mcq-07",
-        "brilliant-mcq-02"
+        "brilliant-mcq-11",
+        "brilliant-mcq-18",
+        "brilliant-mcq-17"
       ],
       "explanation": "本句的「brilliant performance」指「極為精彩、令人印象深刻的表現」。",
       "sentenceIndex": 11,
@@ -740,12 +686,10 @@ export default {
         "brilliant performance"
       ],
       "optionReasons": {
-        "brilliant-mcq-05": "本句指「極為精彩、令人印象深刻的表現」。",
-        "brilliant-mcq-04": "「非常聰明、巧妙或有效的主意／解決方案」與本句語境不同。",
-        "brilliant-mcq-06": "「發出或反射非常強烈的光；明亮的／耀眼的」與本句語境不同。",
-        "brilliant-mcq-03": "「品質、結果、體驗或表現極好；精彩的／出色的」與本句語境不同。",
-        "brilliant-mcq-07": "「非常明亮、強烈或燦爛的陽光／光線」與本句語境不同。",
-        "brilliant-mcq-02": "「在某項活動、技能或學科上表現極為出色」與本句語境不同。"
+        "brilliant-mcq-05": "本句的「brilliant performance」指「極為精彩、令人印象深刻的表現」。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-05"
     },
@@ -758,10 +702,8 @@ export default {
       "options": [
         "brilliant-mcq-06",
         "brilliant-mcq-05",
-        "brilliant-mcq-07",
-        "brilliant-mcq-04",
-        "brilliant-mcq-08",
-        "brilliant-mcq-03"
+        "brilliant-mcq-11",
+        "brilliant-mcq-01"
       ],
       "explanation": "本句的「brilliant light」指「發出或反射非常強烈的光；明亮的／耀眼的」。",
       "sentenceIndex": 12,
@@ -770,12 +712,10 @@ export default {
         "brilliant light"
       ],
       "optionReasons": {
-        "brilliant-mcq-06": "本句指「發出或反射非常強烈的光；明亮的／耀眼的」。",
-        "brilliant-mcq-05": "「極為精彩、令人印象深刻的表現」與本句語境不同。",
-        "brilliant-mcq-07": "「非常明亮、強烈或燦爛的陽光／光線」與本句語境不同。",
-        "brilliant-mcq-04": "「非常聰明、巧妙或有效的主意／解決方案」與本句語境不同。",
-        "brilliant-mcq-08": "「色彩非常鮮明、強烈；鮮豔的」與本句語境不同。",
-        "brilliant-mcq-03": "「品質、結果、體驗或表現極好；精彩的／出色的」與本句語境不同。"
+        "brilliant-mcq-06": "本句的「brilliant light」指「發出或反射非常強烈的光；明亮的／耀眼的」。",
+        "brilliant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-06"
     },
@@ -788,10 +728,8 @@ export default {
       "options": [
         "brilliant-mcq-06",
         "brilliant-mcq-05",
-        "brilliant-mcq-07",
-        "brilliant-mcq-04",
-        "brilliant-mcq-08",
-        "brilliant-mcq-03"
+        "brilliant-mcq-11",
+        "brilliant-mcq-01"
       ],
       "explanation": "本句的「brilliant flash」指「發出或反射非常強烈的光；明亮的／耀眼的」。",
       "sentenceIndex": 13,
@@ -800,12 +738,10 @@ export default {
         "brilliant flash"
       ],
       "optionReasons": {
-        "brilliant-mcq-06": "本句指「發出或反射非常強烈的光；明亮的／耀眼的」。",
-        "brilliant-mcq-05": "「極為精彩、令人印象深刻的表現」與本句語境不同。",
-        "brilliant-mcq-07": "「非常明亮、強烈或燦爛的陽光／光線」與本句語境不同。",
-        "brilliant-mcq-04": "「非常聰明、巧妙或有效的主意／解決方案」與本句語境不同。",
-        "brilliant-mcq-08": "「色彩非常鮮明、強烈；鮮豔的」與本句語境不同。",
-        "brilliant-mcq-03": "「品質、結果、體驗或表現極好；精彩的／出色的」與本句語境不同。"
+        "brilliant-mcq-06": "本句的「brilliant flash」指「發出或反射非常強烈的光；明亮的／耀眼的」。",
+        "brilliant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-06"
     },
@@ -817,11 +753,9 @@ export default {
       "masked": "We walked outside in ____.",
       "options": [
         "brilliant-mcq-07",
-        "brilliant-mcq-06",
-        "brilliant-mcq-08",
-        "brilliant-mcq-05",
-        "brilliant-mcq-09",
-        "brilliant-mcq-04"
+        "brilliant-mcq-03",
+        "brilliant-mcq-11",
+        "brilliant-mcq-01"
       ],
       "explanation": "本句的「brilliant sunshine」指「非常明亮、強烈或燦爛的陽光／光線」。",
       "sentenceIndex": 14,
@@ -830,12 +764,10 @@ export default {
         "brilliant sunshine"
       ],
       "optionReasons": {
-        "brilliant-mcq-07": "本句指「非常明亮、強烈或燦爛的陽光／光線」。",
-        "brilliant-mcq-06": "「發出或反射非常強烈的光；明亮的／耀眼的」與本句語境不同。",
-        "brilliant-mcq-08": "「色彩非常鮮明、強烈；鮮豔的」與本句語境不同。",
-        "brilliant-mcq-05": "「極為精彩、令人印象深刻的表現」與本句語境不同。",
-        "brilliant-mcq-09": "「反射出強烈光芒、顯得璀璨的」與本句語境不同。",
-        "brilliant-mcq-04": "「非常聰明、巧妙或有效的主意／解決方案」與本句語境不同。"
+        "brilliant-mcq-07": "本句的「brilliant sunshine」指「非常明亮、強烈或燦爛的陽光／光線」。",
+        "brilliant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-07"
     },
@@ -847,11 +779,9 @@ export default {
       "masked": "The snow reflected the ____.",
       "options": [
         "brilliant-mcq-07",
-        "brilliant-mcq-06",
-        "brilliant-mcq-08",
+        "brilliant-mcq-11",
         "brilliant-mcq-05",
-        "brilliant-mcq-09",
-        "brilliant-mcq-04"
+        "brilliant-mcq-01"
       ],
       "explanation": "本句的「brilliant sunlight」指「非常明亮、強烈或燦爛的陽光／光線」。",
       "sentenceIndex": 15,
@@ -860,12 +790,10 @@ export default {
         "brilliant sunlight"
       ],
       "optionReasons": {
-        "brilliant-mcq-07": "本句指「非常明亮、強烈或燦爛的陽光／光線」。",
-        "brilliant-mcq-06": "「發出或反射非常強烈的光；明亮的／耀眼的」與本句語境不同。",
-        "brilliant-mcq-08": "「色彩非常鮮明、強烈；鮮豔的」與本句語境不同。",
-        "brilliant-mcq-05": "「極為精彩、令人印象深刻的表現」與本句語境不同。",
-        "brilliant-mcq-09": "「反射出強烈光芒、顯得璀璨的」與本句語境不同。",
-        "brilliant-mcq-04": "「非常聰明、巧妙或有效的主意／解決方案」與本句語境不同。"
+        "brilliant-mcq-07": "本句的「brilliant sunlight」指「非常明亮、強烈或燦爛的陽光／光線」。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-07"
     },
@@ -877,11 +805,9 @@ export default {
       "masked": "The bird had ____.",
       "options": [
         "brilliant-mcq-08",
-        "brilliant-mcq-07",
-        "brilliant-mcq-09",
-        "brilliant-mcq-06",
-        "brilliant-mcq-10",
-        "brilliant-mcq-05"
+        "brilliant-mcq-11",
+        "brilliant-mcq-05",
+        "brilliant-mcq-01"
       ],
       "explanation": "本句的「brilliant blue feathers」指「色彩非常鮮明、強烈；鮮豔的」。",
       "sentenceIndex": 16,
@@ -890,12 +816,10 @@ export default {
         "brilliant blue feathers"
       ],
       "optionReasons": {
-        "brilliant-mcq-08": "本句指「色彩非常鮮明、強烈；鮮豔的」。",
-        "brilliant-mcq-07": "「非常明亮、強烈或燦爛的陽光／光線」與本句語境不同。",
-        "brilliant-mcq-09": "「反射出強烈光芒、顯得璀璨的」與本句語境不同。",
-        "brilliant-mcq-06": "「發出或反射非常強烈的光；明亮的／耀眼的」與本句語境不同。",
-        "brilliant-mcq-10": "「非正式表示「非常好、太棒了」」與本句語境不同。",
-        "brilliant-mcq-05": "「極為精彩、令人印象深刻的表現」與本句語境不同。"
+        "brilliant-mcq-08": "本句的「brilliant blue feathers」指「色彩非常鮮明、強烈；鮮豔的」。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-08"
     },
@@ -907,11 +831,9 @@ export default {
       "masked": "She wore a dress in ____.",
       "options": [
         "brilliant-mcq-08",
-        "brilliant-mcq-07",
-        "brilliant-mcq-09",
-        "brilliant-mcq-06",
-        "brilliant-mcq-10",
-        "brilliant-mcq-05"
+        "brilliant-mcq-11",
+        "brilliant-mcq-05",
+        "brilliant-mcq-01"
       ],
       "explanation": "本句的「brilliant red」指「色彩非常鮮明、強烈；鮮豔的」。",
       "sentenceIndex": 17,
@@ -920,12 +842,10 @@ export default {
         "brilliant red"
       ],
       "optionReasons": {
-        "brilliant-mcq-08": "本句指「色彩非常鮮明、強烈；鮮豔的」。",
-        "brilliant-mcq-07": "「非常明亮、強烈或燦爛的陽光／光線」與本句語境不同。",
-        "brilliant-mcq-09": "「反射出強烈光芒、顯得璀璨的」與本句語境不同。",
-        "brilliant-mcq-06": "「發出或反射非常強烈的光；明亮的／耀眼的」與本句語境不同。",
-        "brilliant-mcq-10": "「非正式表示「非常好、太棒了」」與本句語境不同。",
-        "brilliant-mcq-05": "「極為精彩、令人印象深刻的表現」與本句語境不同。"
+        "brilliant-mcq-08": "本句的「brilliant red」指「色彩非常鮮明、強烈；鮮豔的」。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-08"
     },
@@ -937,11 +857,8 @@ export default {
       "masked": "The diamond looked ____ under the lights.",
       "options": [
         "brilliant-mcq-09",
-        "brilliant-mcq-08",
-        "brilliant-mcq-10",
-        "brilliant-mcq-07",
-        "brilliant-mcq-11",
-        "brilliant-mcq-06"
+        "brilliant-mcq-04",
+        "brilliant-mcq-11"
       ],
       "explanation": "本句的「brilliant」指「反射出強烈光芒、顯得璀璨的」。",
       "sentenceIndex": 18,
@@ -950,12 +867,9 @@ export default {
         "brilliant"
       ],
       "optionReasons": {
-        "brilliant-mcq-09": "本句指「反射出強烈光芒、顯得璀璨的」。",
-        "brilliant-mcq-08": "「色彩非常鮮明、強烈；鮮豔的」與本句語境不同。",
-        "brilliant-mcq-10": "「非正式表示「非常好、太棒了」」與本句語境不同。",
-        "brilliant-mcq-07": "「非常明亮、強烈或燦爛的陽光／光線」與本句語境不同。",
-        "brilliant-mcq-11": "「用反諷語氣表示事情其實很糟；「真棒啊」」與本句語境不同。",
-        "brilliant-mcq-06": "「發出或反射非常強烈的光；明亮的／耀眼的」與本句語境不同。"
+        "brilliant-mcq-09": "本句的「brilliant」指「反射出強烈光芒、顯得璀璨的」。",
+        "brilliant-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-09"
     },
@@ -967,11 +881,8 @@ export default {
       "masked": "The jewels gave off a ____.",
       "options": [
         "brilliant-mcq-09",
-        "brilliant-mcq-08",
-        "brilliant-mcq-10",
-        "brilliant-mcq-07",
-        "brilliant-mcq-11",
-        "brilliant-mcq-06"
+        "brilliant-mcq-04",
+        "brilliant-mcq-11"
       ],
       "explanation": "本句的「brilliant sparkle」指「反射出強烈光芒、顯得璀璨的」。",
       "sentenceIndex": 19,
@@ -980,12 +891,9 @@ export default {
         "brilliant sparkle"
       ],
       "optionReasons": {
-        "brilliant-mcq-09": "本句指「反射出強烈光芒、顯得璀璨的」。",
-        "brilliant-mcq-08": "「色彩非常鮮明、強烈；鮮豔的」與本句語境不同。",
-        "brilliant-mcq-10": "「非正式表示「非常好、太棒了」」與本句語境不同。",
-        "brilliant-mcq-07": "「非常明亮、強烈或燦爛的陽光／光線」與本句語境不同。",
-        "brilliant-mcq-11": "「用反諷語氣表示事情其實很糟；「真棒啊」」與本句語境不同。",
-        "brilliant-mcq-06": "「發出或反射非常強烈的光；明亮的／耀眼的」與本句語境不同。"
+        "brilliant-mcq-09": "本句的「brilliant sparkle」指「反射出強烈光芒、顯得璀璨的」。",
+        "brilliant-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-09"
     },
@@ -997,11 +905,9 @@ export default {
       "masked": "The ring contains a round ____ diamond.",
       "options": [
         "brilliant-mcq-10",
-        "brilliant-mcq-09",
-        "brilliant-mcq-11",
-        "brilliant-mcq-08",
-        "brilliant-mcq-12",
-        "brilliant-mcq-07"
+        "brilliant-mcq-05",
+        "brilliant-mcq-01",
+        "brilliant-mcq-11"
       ],
       "explanation": "本句的「brilliant」指「非正式表示「非常好、太棒了」」。",
       "sentenceIndex": 20,
@@ -1010,12 +916,10 @@ export default {
         "brilliant"
       ],
       "optionReasons": {
-        "brilliant-mcq-10": "本句指「非正式表示「非常好、太棒了」」。",
-        "brilliant-mcq-09": "「反射出強烈光芒、顯得璀璨的」與本句語境不同。",
-        "brilliant-mcq-11": "「用反諷語氣表示事情其實很糟；「真棒啊」」與本句語境不同。",
-        "brilliant-mcq-08": "「色彩非常鮮明、強烈；鮮豔的」與本句語境不同。",
-        "brilliant-mcq-12": "「以非常出色、精彩的方式」與本句語境不同。",
-        "brilliant-mcq-07": "「非常明亮、強烈或燦爛的陽光／光線」與本句語境不同。"
+        "brilliant-mcq-10": "本句的「brilliant」指「非正式表示「非常好、太棒了」」。",
+        "brilliant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-10"
     },
@@ -1027,11 +931,9 @@ export default {
       "masked": "The stone was cut as a ____.",
       "options": [
         "brilliant-mcq-10",
-        "brilliant-mcq-09",
-        "brilliant-mcq-11",
-        "brilliant-mcq-08",
-        "brilliant-mcq-12",
-        "brilliant-mcq-07"
+        "brilliant-mcq-02",
+        "brilliant-mcq-01",
+        "brilliant-mcq-11"
       ],
       "explanation": "本句的「brilliant」指「非正式表示「非常好、太棒了」」。",
       "sentenceIndex": 21,
@@ -1040,12 +942,10 @@ export default {
         "brilliant"
       ],
       "optionReasons": {
-        "brilliant-mcq-10": "本句指「非正式表示「非常好、太棒了」」。",
-        "brilliant-mcq-09": "「反射出強烈光芒、顯得璀璨的」與本句語境不同。",
-        "brilliant-mcq-11": "「用反諷語氣表示事情其實很糟；「真棒啊」」與本句語境不同。",
-        "brilliant-mcq-08": "「色彩非常鮮明、強烈；鮮豔的」與本句語境不同。",
-        "brilliant-mcq-12": "「以非常出色、精彩的方式」與本句語境不同。",
-        "brilliant-mcq-07": "「非常明亮、強烈或燦爛的陽光／光線」與本句語境不同。"
+        "brilliant-mcq-10": "本句的「brilliant」指「非正式表示「非常好、太棒了」」。",
+        "brilliant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-10"
     },
@@ -1057,11 +957,9 @@ export default {
       "masked": "We finished early.” “____",
       "options": [
         "brilliant-mcq-10",
-        "brilliant-mcq-09",
-        "brilliant-mcq-11",
-        "brilliant-mcq-08",
-        "brilliant-mcq-12",
-        "brilliant-mcq-07"
+        "brilliant-mcq-02",
+        "brilliant-mcq-01",
+        "brilliant-mcq-11"
       ],
       "explanation": "本句的「Brilliant!」指「非正式表示「非常好、太棒了」」。",
       "sentenceIndex": 22,
@@ -1070,12 +968,10 @@ export default {
         "Brilliant!"
       ],
       "optionReasons": {
-        "brilliant-mcq-10": "本句指「非正式表示「非常好、太棒了」」。",
-        "brilliant-mcq-09": "「反射出強烈光芒、顯得璀璨的」與本句語境不同。",
-        "brilliant-mcq-11": "「用反諷語氣表示事情其實很糟；「真棒啊」」與本句語境不同。",
-        "brilliant-mcq-08": "「色彩非常鮮明、強烈；鮮豔的」與本句語境不同。",
-        "brilliant-mcq-12": "「以非常出色、精彩的方式」與本句語境不同。",
-        "brilliant-mcq-07": "「非常明亮、強烈或燦爛的陽光／光線」與本句語境不同。"
+        "brilliant-mcq-10": "本句的「Brilliant!」指「非正式表示「非常好、太棒了」」。",
+        "brilliant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-10"
     },
@@ -1088,10 +984,8 @@ export default {
       "options": [
         "brilliant-mcq-10",
         "brilliant-mcq-09",
-        "brilliant-mcq-11",
-        "brilliant-mcq-08",
-        "brilliant-mcq-12",
-        "brilliant-mcq-07"
+        "brilliant-mcq-01",
+        "brilliant-mcq-11"
       ],
       "explanation": "本句的「Brilliant!」指「非正式表示「非常好、太棒了」」。",
       "sentenceIndex": 23,
@@ -1100,12 +994,10 @@ export default {
         "Brilliant!"
       ],
       "optionReasons": {
-        "brilliant-mcq-10": "本句指「非正式表示「非常好、太棒了」」。",
-        "brilliant-mcq-09": "「反射出強烈光芒、顯得璀璨的」與本句語境不同。",
-        "brilliant-mcq-11": "「用反諷語氣表示事情其實很糟；「真棒啊」」與本句語境不同。",
-        "brilliant-mcq-08": "「色彩非常鮮明、強烈；鮮豔的」與本句語境不同。",
-        "brilliant-mcq-12": "「以非常出色、精彩的方式」與本句語境不同。",
-        "brilliant-mcq-07": "「非常明亮、強烈或燦爛的陽光／光線」與本句語境不同。"
+        "brilliant-mcq-10": "本句的「Brilliant!」指「非正式表示「非常好、太棒了」」。",
+        "brilliant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-10"
     },
@@ -1117,11 +1009,9 @@ export default {
       "masked": "The printer is broken again.” “____",
       "options": [
         "brilliant-mcq-11",
-        "brilliant-mcq-10",
-        "brilliant-mcq-12",
-        "brilliant-mcq-09",
-        "brilliant-mcq-13",
-        "brilliant-mcq-08"
+        "brilliant-mcq-08",
+        "brilliant-mcq-01",
+        "brilliant-mcq-05"
       ],
       "explanation": "本句的「Brilliant.」指「用反諷語氣表示事情其實很糟；「真棒啊」」。",
       "sentenceIndex": 24,
@@ -1130,12 +1020,10 @@ export default {
         "Brilliant."
       ],
       "optionReasons": {
-        "brilliant-mcq-11": "本句指「用反諷語氣表示事情其實很糟；「真棒啊」」。",
-        "brilliant-mcq-10": "「非正式表示「非常好、太棒了」」與本句語境不同。",
-        "brilliant-mcq-12": "「以非常出色、精彩的方式」與本句語境不同。",
-        "brilliant-mcq-09": "「反射出強烈光芒、顯得璀璨的」與本句語境不同。",
-        "brilliant-mcq-13": "「以非常明亮、耀眼的方式」與本句語境不同。",
-        "brilliant-mcq-08": "「色彩非常鮮明、強烈；鮮豔的」與本句語境不同。"
+        "brilliant-mcq-11": "本句的「Brilliant.」指「用反諷語氣表示事情其實很糟；「真棒啊」」。",
+        "brilliant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-11"
     },
@@ -1147,11 +1035,9 @@ export default {
       "masked": "We missed the last train.” “____",
       "options": [
         "brilliant-mcq-11",
-        "brilliant-mcq-10",
-        "brilliant-mcq-12",
-        "brilliant-mcq-09",
-        "brilliant-mcq-13",
-        "brilliant-mcq-08"
+        "brilliant-mcq-18",
+        "brilliant-mcq-02",
+        "brilliant-mcq-01"
       ],
       "explanation": "本句的「Brilliant.」指「用反諷語氣表示事情其實很糟；「真棒啊」」。",
       "sentenceIndex": 25,
@@ -1160,12 +1046,10 @@ export default {
         "Brilliant."
       ],
       "optionReasons": {
-        "brilliant-mcq-11": "本句指「用反諷語氣表示事情其實很糟；「真棒啊」」。",
-        "brilliant-mcq-10": "「非正式表示「非常好、太棒了」」與本句語境不同。",
-        "brilliant-mcq-12": "「以非常出色、精彩的方式」與本句語境不同。",
-        "brilliant-mcq-09": "「反射出強烈光芒、顯得璀璨的」與本句語境不同。",
-        "brilliant-mcq-13": "「以非常明亮、耀眼的方式」與本句語境不同。",
-        "brilliant-mcq-08": "「色彩非常鮮明、強烈；鮮豔的」與本句語境不同。"
+        "brilliant-mcq-11": "本句的「Brilliant.」指「用反諷語氣表示事情其實很糟；「真棒啊」」。",
+        "brilliant-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-11"
     },
@@ -1178,10 +1062,8 @@ export default {
       "options": [
         "brilliant-mcq-12",
         "brilliant-mcq-11",
-        "brilliant-mcq-13",
-        "brilliant-mcq-10",
-        "brilliant-mcq-14",
-        "brilliant-mcq-09"
+        "brilliant-mcq-09",
+        "brilliant-mcq-01"
       ],
       "explanation": "本句的「absolutely brilliant」指「以非常出色、精彩的方式」。",
       "sentenceIndex": 26,
@@ -1190,12 +1072,10 @@ export default {
         "absolutely brilliant"
       ],
       "optionReasons": {
-        "brilliant-mcq-12": "本句指「以非常出色、精彩的方式」。",
-        "brilliant-mcq-11": "「用反諷語氣表示事情其實很糟；「真棒啊」」與本句語境不同。",
-        "brilliant-mcq-13": "「以非常明亮、耀眼的方式」與本句語境不同。",
-        "brilliant-mcq-10": "「非正式表示「非常好、太棒了」」與本句語境不同。",
-        "brilliant-mcq-14": "「非凡的才智、卓越才能」與本句語境不同。",
-        "brilliant-mcq-09": "「反射出強烈光芒、顯得璀璨的」與本句語境不同。"
+        "brilliant-mcq-12": "本句的「absolutely brilliant」指「以非常出色、精彩的方式」。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-12"
     },
@@ -1208,10 +1088,8 @@ export default {
       "options": [
         "brilliant-mcq-12",
         "brilliant-mcq-11",
-        "brilliant-mcq-13",
-        "brilliant-mcq-10",
-        "brilliant-mcq-14",
-        "brilliant-mcq-09"
+        "brilliant-mcq-09",
+        "brilliant-mcq-01"
       ],
       "explanation": "本句的「absolutely brilliant」指「以非常出色、精彩的方式」。",
       "sentenceIndex": 27,
@@ -1220,12 +1098,10 @@ export default {
         "absolutely brilliant"
       ],
       "optionReasons": {
-        "brilliant-mcq-12": "本句指「以非常出色、精彩的方式」。",
-        "brilliant-mcq-11": "「用反諷語氣表示事情其實很糟；「真棒啊」」與本句語境不同。",
-        "brilliant-mcq-13": "「以非常明亮、耀眼的方式」與本句語境不同。",
-        "brilliant-mcq-10": "「非正式表示「非常好、太棒了」」與本句語境不同。",
-        "brilliant-mcq-14": "「非凡的才智、卓越才能」與本句語境不同。",
-        "brilliant-mcq-09": "「反射出強烈光芒、顯得璀璨的」與本句語境不同。"
+        "brilliant-mcq-12": "本句的「absolutely brilliant」指「以非常出色、精彩的方式」。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-12"
     },
@@ -1237,11 +1113,9 @@ export default {
       "masked": "She has a ____.",
       "options": [
         "brilliant-mcq-17",
-        "brilliant-mcq-16",
-        "brilliant-mcq-18",
-        "brilliant-mcq-15",
-        "brilliant-mcq-14",
-        "brilliant-mcq-13"
+        "brilliant-mcq-11",
+        "brilliant-mcq-05",
+        "brilliant-mcq-10"
       ],
       "explanation": "本句的「brilliant mind」指「極其聰明、有非凡思考能力的頭腦／人物」。",
       "sentenceIndex": 28,
@@ -1250,12 +1124,10 @@ export default {
         "brilliant mind"
       ],
       "optionReasons": {
-        "brilliant-mcq-17": "本句指「極其聰明、有非凡思考能力的頭腦／人物」。",
-        "brilliant-mcq-16": "「色彩的鮮豔與亮麗」與本句語境不同。",
-        "brilliant-mcq-18": "「成就非常突出的輝煌職涯」與本句語境不同。",
-        "brilliant-mcq-15": "「強烈的光輝／耀眼程度」與本句語境不同。",
-        "brilliant-mcq-14": "「非凡的才智、卓越才能」與本句語境不同。",
-        "brilliant-mcq-13": "「以非常明亮、耀眼的方式」與本句語境不同。"
+        "brilliant-mcq-17": "本句的「brilliant mind」指「極其聰明、有非凡思考能力的頭腦／人物」。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-17"
     },
@@ -1267,11 +1139,9 @@ export default {
       "masked": "The discovery came from a ____.",
       "options": [
         "brilliant-mcq-17",
-        "brilliant-mcq-16",
-        "brilliant-mcq-18",
-        "brilliant-mcq-15",
-        "brilliant-mcq-14",
-        "brilliant-mcq-13"
+        "brilliant-mcq-11",
+        "brilliant-mcq-05",
+        "brilliant-mcq-18"
       ],
       "explanation": "本句的「brilliant mind」指「極其聰明、有非凡思考能力的頭腦／人物」。",
       "sentenceIndex": 29,
@@ -1280,12 +1150,10 @@ export default {
         "brilliant mind"
       ],
       "optionReasons": {
-        "brilliant-mcq-17": "本句指「極其聰明、有非凡思考能力的頭腦／人物」。",
-        "brilliant-mcq-16": "「色彩的鮮豔與亮麗」與本句語境不同。",
-        "brilliant-mcq-18": "「成就非常突出的輝煌職涯」與本句語境不同。",
-        "brilliant-mcq-15": "「強烈的光輝／耀眼程度」與本句語境不同。",
-        "brilliant-mcq-14": "「非凡的才智、卓越才能」與本句語境不同。",
-        "brilliant-mcq-13": "「以非常明亮、耀眼的方式」與本句語境不同。"
+        "brilliant-mcq-17": "本句的「brilliant mind」指「極其聰明、有非凡思考能力的頭腦／人物」。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-17"
     },
@@ -1297,11 +1165,9 @@ export default {
       "masked": "She had a ____ in science.",
       "options": [
         "brilliant-mcq-18",
-        "brilliant-mcq-17",
-        "brilliant-mcq-16",
-        "brilliant-mcq-15",
-        "brilliant-mcq-14",
-        "brilliant-mcq-13"
+        "brilliant-mcq-11",
+        "brilliant-mcq-05",
+        "brilliant-mcq-01"
       ],
       "explanation": "本句的「brilliant career」指「成就非常突出的輝煌職涯」。",
       "sentenceIndex": 30,
@@ -1310,12 +1176,10 @@ export default {
         "brilliant career"
       ],
       "optionReasons": {
-        "brilliant-mcq-18": "本句指「成就非常突出的輝煌職涯」。",
-        "brilliant-mcq-17": "「極其聰明、有非凡思考能力的頭腦／人物」與本句語境不同。",
-        "brilliant-mcq-16": "「色彩的鮮豔與亮麗」與本句語境不同。",
-        "brilliant-mcq-15": "「強烈的光輝／耀眼程度」與本句語境不同。",
-        "brilliant-mcq-14": "「非凡的才智、卓越才能」與本句語境不同。",
-        "brilliant-mcq-13": "「以非常明亮、耀眼的方式」與本句語境不同。"
+        "brilliant-mcq-18": "本句的「brilliant career」指「成就非常突出的輝煌職涯」。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-18"
     },
@@ -1327,11 +1191,9 @@ export default {
       "masked": "He went on to have a ____ as a researcher.",
       "options": [
         "brilliant-mcq-18",
-        "brilliant-mcq-17",
-        "brilliant-mcq-16",
-        "brilliant-mcq-15",
-        "brilliant-mcq-14",
-        "brilliant-mcq-13"
+        "brilliant-mcq-05",
+        "brilliant-mcq-11",
+        "brilliant-mcq-01"
       ],
       "explanation": "本句的「brilliant career」指「成就非常突出的輝煌職涯」。",
       "sentenceIndex": 31,
@@ -1340,12 +1202,10 @@ export default {
         "brilliant career"
       ],
       "optionReasons": {
-        "brilliant-mcq-18": "本句指「成就非常突出的輝煌職涯」。",
-        "brilliant-mcq-17": "「極其聰明、有非凡思考能力的頭腦／人物」與本句語境不同。",
-        "brilliant-mcq-16": "「色彩的鮮豔與亮麗」與本句語境不同。",
-        "brilliant-mcq-15": "「強烈的光輝／耀眼程度」與本句語境不同。",
-        "brilliant-mcq-14": "「非凡的才智、卓越才能」與本句語境不同。",
-        "brilliant-mcq-13": "「以非常明亮、耀眼的方式」與本句語境不同。"
+        "brilliant-mcq-18": "本句的「brilliant career」指「成就非常突出的輝煌職涯」。",
+        "brilliant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-18"
     },
@@ -1357,11 +1217,9 @@ export default {
       "masked": "The experiment was a ____.",
       "options": [
         "brilliant-mcq-18",
-        "brilliant-mcq-17",
-        "brilliant-mcq-16",
-        "brilliant-mcq-15",
-        "brilliant-mcq-14",
-        "brilliant-mcq-13"
+        "brilliant-mcq-05",
+        "brilliant-mcq-11",
+        "brilliant-mcq-17"
       ],
       "explanation": "本句的「brilliant success」指「成就非常突出的輝煌職涯」。",
       "sentenceIndex": 32,
@@ -1370,12 +1228,10 @@ export default {
         "brilliant success"
       ],
       "optionReasons": {
-        "brilliant-mcq-18": "本句指「成就非常突出的輝煌職涯」。",
-        "brilliant-mcq-17": "「極其聰明、有非凡思考能力的頭腦／人物」與本句語境不同。",
-        "brilliant-mcq-16": "「色彩的鮮豔與亮麗」與本句語境不同。",
-        "brilliant-mcq-15": "「強烈的光輝／耀眼程度」與本句語境不同。",
-        "brilliant-mcq-14": "「非凡的才智、卓越才能」與本句語境不同。",
-        "brilliant-mcq-13": "「以非常明亮、耀眼的方式」與本句語境不同。"
+        "brilliant-mcq-18": "本句的「brilliant success」指「成就非常突出的輝煌職涯」。",
+        "brilliant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-18"
     },
@@ -1387,11 +1243,9 @@ export default {
       "masked": "The event was a ____.",
       "options": [
         "brilliant-mcq-18",
-        "brilliant-mcq-17",
-        "brilliant-mcq-16",
-        "brilliant-mcq-15",
-        "brilliant-mcq-14",
-        "brilliant-mcq-13"
+        "brilliant-mcq-05",
+        "brilliant-mcq-11",
+        "brilliant-mcq-01"
       ],
       "explanation": "本句的「brilliant success」指「成就非常突出的輝煌職涯」。",
       "sentenceIndex": 33,
@@ -1400,12 +1254,10 @@ export default {
         "brilliant success"
       ],
       "optionReasons": {
-        "brilliant-mcq-18": "本句指「成就非常突出的輝煌職涯」。",
-        "brilliant-mcq-17": "「極其聰明、有非凡思考能力的頭腦／人物」與本句語境不同。",
-        "brilliant-mcq-16": "「色彩的鮮豔與亮麗」與本句語境不同。",
-        "brilliant-mcq-15": "「強烈的光輝／耀眼程度」與本句語境不同。",
-        "brilliant-mcq-14": "「非凡的才智、卓越才能」與本句語境不同。",
-        "brilliant-mcq-13": "「以非常明亮、耀眼的方式」與本句語境不同。"
+        "brilliant-mcq-18": "本句的「brilliant success」指「成就非常突出的輝煌職涯」。",
+        "brilliant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brilliant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brilliant-mcq-18"
     }
@@ -1417,5 +1269,7 @@ export default {
     "sha256": "f29c50340a78900485a8967933ec521e7bd3f49e8a1fd9c20b949a7d8d9a8b54",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

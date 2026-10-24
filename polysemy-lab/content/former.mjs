@@ -86,8 +86,7 @@ export default {
       "masked": "One person I find genuinely interesting is my ____, Mr. Wong.",
       "options": [
         "former-mcq-01",
-        "former-mcq-02",
-        "former-mcq-03"
+        "former-mcq-02"
       ],
       "explanation": "本句的「former neighbour」指「以前曾具有某種身分、角色、關係或狀態，但現在已經不再如此」。",
       "sentenceIndex": 0,
@@ -96,9 +95,8 @@ export default {
         "former neighbour"
       ],
       "optionReasons": {
-        "former-mcq-01": "本句指「以前曾具有某種身分、角色、關係或狀態，但現在已經不再如此」。",
-        "former-mcq-02": "「在剛才提到的兩個人、事物或選項之中，指第一個；前者」是「the former」的用法，與本句語境不同。",
-        "former-mcq-03": "「某件事情、身分、名稱或狀態在較早時期曾經如此，但現在已經不同；以前／從前」是「formerly」的用法，與本句語境不同。"
+        "former-mcq-01": "本句的「former neighbour」指「以前曾具有某種身分、角色、關係或狀態，但現在已經不再如此」。",
+        "former-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "former-mcq-01"
     },
@@ -110,8 +108,7 @@ export default {
       "masked": "She had lunch with a ____ from her old company.",
       "options": [
         "former-mcq-01",
-        "former-mcq-02",
-        "former-mcq-03"
+        "former-mcq-02"
       ],
       "explanation": "本句的「former colleague」指「以前曾具有某種身分、角色、關係或狀態，但現在已經不再如此」。",
       "sentenceIndex": 1,
@@ -120,9 +117,8 @@ export default {
         "former colleague"
       ],
       "optionReasons": {
-        "former-mcq-01": "本句指「以前曾具有某種身分、角色、關係或狀態，但現在已經不再如此」。",
-        "former-mcq-02": "「在剛才提到的兩個人、事物或選項之中，指第一個；前者」是「the former」的用法，與本句語境不同。",
-        "former-mcq-03": "「某件事情、身分、名稱或狀態在較早時期曾經如此，但現在已經不同；以前／從前」是「formerly」的用法，與本句語境不同。"
+        "former-mcq-01": "本句的「former colleague」指「以前曾具有某種身分、角色、關係或狀態，但現在已經不再如此」。",
+        "former-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "former-mcq-01"
     },
@@ -134,8 +130,7 @@ export default {
       "masked": "The ____ still appears regularly at public events.",
       "options": [
         "former-mcq-01",
-        "former-mcq-02",
-        "former-mcq-03"
+        "former-mcq-02"
       ],
       "explanation": "本句的「former president」指「以前曾具有某種身分、角色、關係或狀態，但現在已經不再如此」。",
       "sentenceIndex": 2,
@@ -144,9 +139,8 @@ export default {
         "former president"
       ],
       "optionReasons": {
-        "former-mcq-01": "本句指「以前曾具有某種身分、角色、關係或狀態，但現在已經不再如此」。",
-        "former-mcq-02": "「在剛才提到的兩個人、事物或選項之中，指第一個；前者」是「the former」的用法，與本句語境不同。",
-        "former-mcq-03": "「某件事情、身分、名稱或狀態在較早時期曾經如此，但現在已經不同；以前／從前」是「formerly」的用法，與本句語境不同。"
+        "former-mcq-01": "本句的「former president」指「以前曾具有某種身分、角色、關係或狀態，但現在已經不再如此」。",
+        "former-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "former-mcq-01"
     },
@@ -158,7 +152,6 @@ export default {
       "masked": "We could travel by train or by bus, but I prefer ____.",
       "options": [
         "former-mcq-02",
-        "former-mcq-01",
         "former-mcq-03"
       ],
       "explanation": "本句的「the former」指「在剛才提到的兩個人、事物或選項之中，指第一個；前者」。",
@@ -168,9 +161,8 @@ export default {
         "the former"
       ],
       "optionReasons": {
-        "former-mcq-02": "本句指「在剛才提到的兩個人、事物或選項之中，指第一個；前者」。",
-        "former-mcq-01": "「以前曾具有某種身分、角色、關係或狀態，但現在已經不再如此」是「former + role/status/relationship」的用法，與本句語境不同。",
-        "former-mcq-03": "「某件事情、身分、名稱或狀態在較早時期曾經如此，但現在已經不同；以前／從前」是「formerly」的用法，與本句語境不同。"
+        "former-mcq-02": "本句的「the former」指「在剛才提到的兩個人、事物或選項之中，指第一個；前者」。",
+        "former-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "former-mcq-02"
     },
@@ -182,8 +174,7 @@ export default {
       "masked": "Both history and literature interest him, although ____ is his main subject.",
       "options": [
         "former-mcq-02",
-        "former-mcq-01",
-        "former-mcq-03"
+        "former-mcq-01"
       ],
       "explanation": "本句的「the former」指「在剛才提到的兩個人、事物或選項之中，指第一個；前者」。",
       "sentenceIndex": 4,
@@ -192,9 +183,8 @@ export default {
         "the former"
       ],
       "optionReasons": {
-        "former-mcq-02": "本句指「在剛才提到的兩個人、事物或選項之中，指第一個；前者」。",
-        "former-mcq-01": "「以前曾具有某種身分、角色、關係或狀態，但現在已經不再如此」是「former + role/status/relationship」的用法，與本句語境不同。",
-        "former-mcq-03": "「某件事情、身分、名稱或狀態在較早時期曾經如此，但現在已經不同；以前／從前」是「formerly」的用法，與本句語境不同。"
+        "former-mcq-02": "本句的「the former」指「在剛才提到的兩個人、事物或選項之中，指第一個；前者」。",
+        "former-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "former-mcq-02"
     },
@@ -206,8 +196,7 @@ export default {
       "masked": "The building was ____ a hotel.",
       "options": [
         "former-mcq-03",
-        "former-mcq-02",
-        "former-mcq-01"
+        "former-mcq-02"
       ],
       "explanation": "本句的「formerly」指「某件事情、身分、名稱或狀態在較早時期曾經如此，但現在已經不同；以前／從前」。",
       "sentenceIndex": 5,
@@ -216,9 +205,8 @@ export default {
         "formerly"
       ],
       "optionReasons": {
-        "former-mcq-03": "本句指「某件事情、身分、名稱或狀態在較早時期曾經如此，但現在已經不同；以前／從前」。",
-        "former-mcq-02": "「在剛才提到的兩個人、事物或選項之中，指第一個；前者」是「the former」的用法，與本句語境不同。",
-        "former-mcq-01": "「以前曾具有某種身分、角色、關係或狀態，但現在已經不再如此」是「former + role/status/relationship」的用法，與本句語境不同。"
+        "former-mcq-03": "本句的「formerly」指「某件事情、身分、名稱或狀態在較早時期曾經如此，但現在已經不同；以前／從前」。",
+        "former-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "former-mcq-03"
     },
@@ -230,8 +218,7 @@ export default {
       "masked": "She was ____ the head of the department.",
       "options": [
         "former-mcq-03",
-        "former-mcq-02",
-        "former-mcq-01"
+        "former-mcq-02"
       ],
       "explanation": "本句的「formerly」指「某件事情、身分、名稱或狀態在較早時期曾經如此，但現在已經不同；以前／從前」。",
       "sentenceIndex": 6,
@@ -240,9 +227,8 @@ export default {
         "formerly"
       ],
       "optionReasons": {
-        "former-mcq-03": "本句指「某件事情、身分、名稱或狀態在較早時期曾經如此，但現在已經不同；以前／從前」。",
-        "former-mcq-02": "「在剛才提到的兩個人、事物或選項之中，指第一個；前者」是「the former」的用法，與本句語境不同。",
-        "former-mcq-01": "「以前曾具有某種身分、角色、關係或狀態，但現在已經不再如此」是「former + role/status/relationship」的用法，與本句語境不同。"
+        "former-mcq-03": "本句的「formerly」指「某件事情、身分、名稱或狀態在較早時期曾經如此，但現在已經不同；以前／從前」。",
+        "former-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "former-mcq-03"
     }
@@ -254,5 +240,7 @@ export default {
     "sha256": "82c9cc211dc029d5aca471d9a554a990b1409d2a1f6fc31be6ddcf0532aff64e",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -240,11 +240,8 @@ export default {
       "masked": "The room was ____ and sunny.",
       "options": [
         "bright-mcq-01",
-        "bright-mcq-02",
-        "bright-mcq-03",
-        "bright-mcq-04",
-        "bright-mcq-05",
-        "bright-mcq-06"
+        "bright-mcq-07",
+        "bright-mcq-03"
       ],
       "explanation": "本句的「bright」指「發出、反射或具有大量光線的；明亮的」。",
       "sentenceIndex": 0,
@@ -253,12 +250,9 @@ export default {
         "bright"
       ],
       "optionReasons": {
-        "bright-mcq-01": "本句指「發出、反射或具有大量光線的；明亮的」。",
-        "bright-mcq-02": "「色彩鮮明、強烈、不暗淡的；鮮豔的」與本句語境不同。",
-        "bright-mcq-03": "「理解力強、學習快、頭腦靈活的；聰明的」與本句語境不同。",
-        "bright-mcq-04": "「性格或表現開朗、有活力、積極並令人感到愉快的」與本句語境不同。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。"
+        "bright-mcq-01": "本句的「bright」指「發出、反射或具有大量光線的；明亮的」。",
+        "bright-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-01"
     },
@@ -270,11 +264,8 @@ export default {
       "masked": "A ____ light appeared in the distance.",
       "options": [
         "bright-mcq-01",
-        "bright-mcq-02",
-        "bright-mcq-03",
         "bright-mcq-04",
-        "bright-mcq-05",
-        "bright-mcq-06"
+        "bright-mcq-03"
       ],
       "explanation": "本句的「bright」指「發出、反射或具有大量光線的；明亮的」。",
       "sentenceIndex": 1,
@@ -283,12 +274,9 @@ export default {
         "bright"
       ],
       "optionReasons": {
-        "bright-mcq-01": "本句指「發出、反射或具有大量光線的；明亮的」。",
-        "bright-mcq-02": "「色彩鮮明、強烈、不暗淡的；鮮豔的」與本句語境不同。",
-        "bright-mcq-03": "「理解力強、學習快、頭腦靈活的；聰明的」與本句語境不同。",
-        "bright-mcq-04": "「性格或表現開朗、有活力、積極並令人感到愉快的」與本句語境不同。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。"
+        "bright-mcq-01": "本句的「bright」指「發出、反射或具有大量光線的；明亮的」。",
+        "bright-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-01"
     },
@@ -300,11 +288,8 @@ export default {
       "masked": "She wore a ____ red jacket.",
       "options": [
         "bright-mcq-02",
-        "bright-mcq-01",
-        "bright-mcq-03",
-        "bright-mcq-04",
-        "bright-mcq-05",
-        "bright-mcq-06"
+        "bright-mcq-07",
+        "bright-mcq-05"
       ],
       "explanation": "本句的「bright」指「色彩鮮明、強烈、不暗淡的；鮮豔的」。",
       "sentenceIndex": 2,
@@ -313,12 +298,9 @@ export default {
         "bright"
       ],
       "optionReasons": {
-        "bright-mcq-02": "本句指「色彩鮮明、強烈、不暗淡的；鮮豔的」。",
-        "bright-mcq-01": "「發出、反射或具有大量光線的；明亮的」與本句語境不同。",
-        "bright-mcq-03": "「理解力強、學習快、頭腦靈活的；聰明的」與本句語境不同。",
-        "bright-mcq-04": "「性格或表現開朗、有活力、積極並令人感到愉快的」與本句語境不同。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。"
+        "bright-mcq-02": "本句的「bright」指「色彩鮮明、強烈、不暗淡的；鮮豔的」。",
+        "bright-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-02"
     },
@@ -330,11 +312,8 @@ export default {
       "masked": "The room was decorated in ____ colours.",
       "options": [
         "bright-mcq-02",
-        "bright-mcq-01",
-        "bright-mcq-03",
         "bright-mcq-04",
-        "bright-mcq-05",
-        "bright-mcq-06"
+        "bright-mcq-05"
       ],
       "explanation": "本句的「bright」指「色彩鮮明、強烈、不暗淡的；鮮豔的」。",
       "sentenceIndex": 3,
@@ -343,12 +322,9 @@ export default {
         "bright"
       ],
       "optionReasons": {
-        "bright-mcq-02": "本句指「色彩鮮明、強烈、不暗淡的；鮮豔的」。",
-        "bright-mcq-01": "「發出、反射或具有大量光線的；明亮的」與本句語境不同。",
-        "bright-mcq-03": "「理解力強、學習快、頭腦靈活的；聰明的」與本句語境不同。",
-        "bright-mcq-04": "「性格或表現開朗、有活力、積極並令人感到愉快的」與本句語境不同。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。"
+        "bright-mcq-02": "本句的「bright」指「色彩鮮明、強烈、不暗淡的；鮮豔的」。",
+        "bright-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-02"
     },
@@ -360,11 +336,8 @@ export default {
       "masked": "She is a very ____ student.",
       "options": [
         "bright-mcq-03",
-        "bright-mcq-02",
-        "bright-mcq-04",
-        "bright-mcq-01",
-        "bright-mcq-05",
-        "bright-mcq-06"
+        "bright-mcq-06",
+        "bright-mcq-04"
       ],
       "explanation": "本句的「bright」指「理解力強、學習快、頭腦靈活的；聰明的」。",
       "sentenceIndex": 4,
@@ -373,12 +346,9 @@ export default {
         "bright"
       ],
       "optionReasons": {
-        "bright-mcq-03": "本句指「理解力強、學習快、頭腦靈活的；聰明的」。",
-        "bright-mcq-02": "「色彩鮮明、強烈、不暗淡的；鮮豔的」與本句語境不同。",
-        "bright-mcq-04": "「性格或表現開朗、有活力、積極並令人感到愉快的」與本句語境不同。",
-        "bright-mcq-01": "「發出、反射或具有大量光線的；明亮的」與本句語境不同。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。"
+        "bright-mcq-03": "本句的「bright」指「理解力強、學習快、頭腦靈活的；聰明的」。",
+        "bright-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-03"
     },
@@ -390,11 +360,8 @@ export default {
       "masked": "He was ____ enough to understand the idea immediately.",
       "options": [
         "bright-mcq-03",
-        "bright-mcq-02",
-        "bright-mcq-04",
-        "bright-mcq-01",
-        "bright-mcq-05",
-        "bright-mcq-06"
+        "bright-mcq-09",
+        "bright-mcq-07"
       ],
       "explanation": "本句的「bright」指「理解力強、學習快、頭腦靈活的；聰明的」。",
       "sentenceIndex": 5,
@@ -403,12 +370,9 @@ export default {
         "bright"
       ],
       "optionReasons": {
-        "bright-mcq-03": "本句指「理解力強、學習快、頭腦靈活的；聰明的」。",
-        "bright-mcq-02": "「色彩鮮明、強烈、不暗淡的；鮮豔的」與本句語境不同。",
-        "bright-mcq-04": "「性格或表現開朗、有活力、積極並令人感到愉快的」與本句語境不同。",
-        "bright-mcq-01": "「發出、反射或具有大量光線的；明亮的」與本句語境不同。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。"
+        "bright-mcq-03": "本句的「bright」指「理解力強、學習快、頭腦靈活的；聰明的」。",
+        "bright-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-03"
     },
@@ -420,11 +384,8 @@ export default {
       "masked": "He was like sunshine in human form: warm, ____, and able to make ordinary days feel special.",
       "options": [
         "bright-mcq-04",
-        "bright-mcq-03",
         "bright-mcq-05",
-        "bright-mcq-02",
-        "bright-mcq-06",
-        "bright-mcq-01"
+        "bright-mcq-02"
       ],
       "explanation": "本句的「bright」指「性格或表現開朗、有活力、積極並令人感到愉快的」。",
       "sentenceIndex": 6,
@@ -433,12 +394,9 @@ export default {
         "bright"
       ],
       "optionReasons": {
-        "bright-mcq-04": "本句指「性格或表現開朗、有活力、積極並令人感到愉快的」。",
-        "bright-mcq-03": "「理解力強、學習快、頭腦靈活的；聰明的」與本句語境不同。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。",
-        "bright-mcq-02": "「色彩鮮明、強烈、不暗淡的；鮮豔的」與本句語境不同。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。",
-        "bright-mcq-01": "「發出、反射或具有大量光線的；明亮的」與本句語境不同。"
+        "bright-mcq-04": "本句的「bright」指「性格或表現開朗、有活力、積極並令人感到愉快的」。",
+        "bright-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-04"
     },
@@ -450,11 +408,8 @@ export default {
       "masked": "She has a ____, cheerful personality.",
       "options": [
         "bright-mcq-04",
-        "bright-mcq-03",
-        "bright-mcq-05",
-        "bright-mcq-02",
-        "bright-mcq-06",
-        "bright-mcq-01"
+        "bright-mcq-09",
+        "bright-mcq-05"
       ],
       "explanation": "本句的「bright」指「性格或表現開朗、有活力、積極並令人感到愉快的」。",
       "sentenceIndex": 7,
@@ -463,12 +418,9 @@ export default {
         "bright"
       ],
       "optionReasons": {
-        "bright-mcq-04": "本句指「性格或表現開朗、有活力、積極並令人感到愉快的」。",
-        "bright-mcq-03": "「理解力強、學習快、頭腦靈活的；聰明的」與本句語境不同。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。",
-        "bright-mcq-02": "「色彩鮮明、強烈、不暗淡的；鮮豔的」與本句語境不同。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。",
-        "bright-mcq-01": "「發出、反射或具有大量光線的；明亮的」與本句語境不同。"
+        "bright-mcq-04": "本句的「bright」指「性格或表現開朗、有活力、積極並令人感到愉快的」。",
+        "bright-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-04"
     },
@@ -480,11 +432,8 @@ export default {
       "masked": "His ____ manner immediately made everyone feel more relaxed.",
       "options": [
         "bright-mcq-04",
-        "bright-mcq-03",
-        "bright-mcq-05",
-        "bright-mcq-02",
         "bright-mcq-06",
-        "bright-mcq-01"
+        "bright-mcq-05"
       ],
       "explanation": "本句的「bright」指「性格或表現開朗、有活力、積極並令人感到愉快的」。",
       "sentenceIndex": 8,
@@ -493,12 +442,9 @@ export default {
         "bright"
       ],
       "optionReasons": {
-        "bright-mcq-04": "本句指「性格或表現開朗、有活力、積極並令人感到愉快的」。",
-        "bright-mcq-03": "「理解力強、學習快、頭腦靈活的；聰明的」與本句語境不同。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。",
-        "bright-mcq-02": "「色彩鮮明、強烈、不暗淡的；鮮豔的」與本句語境不同。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。",
-        "bright-mcq-01": "「發出、反射或具有大量光線的；明亮的」與本句語境不同。"
+        "bright-mcq-04": "本句的「bright」指「性格或表現開朗、有活力、積極並令人感到愉快的」。",
+        "bright-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-04"
     },
@@ -511,9 +457,6 @@ export default {
       "options": [
         "bright-mcq-05",
         "bright-mcq-04",
-        "bright-mcq-06",
-        "bright-mcq-03",
-        "bright-mcq-07",
         "bright-mcq-02"
       ],
       "explanation": "本句的「bright」指「未來或前景很有希望、很可能成功的；光明的」。",
@@ -523,12 +466,9 @@ export default {
         "bright"
       ],
       "optionReasons": {
-        "bright-mcq-05": "本句指「未來或前景很有希望、很可能成功的；光明的」。",
-        "bright-mcq-04": "「性格或表現開朗、有活力、積極並令人感到愉快的」與本句語境不同。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。",
-        "bright-mcq-03": "「理解力強、學習快、頭腦靈活的；聰明的」與本句語境不同。",
-        "bright-mcq-07": "「看起來充滿精神、情緒或活力的；介乎 literal-light 與 lively 義之間」與本句語境不同。",
-        "bright-mcq-02": "「色彩鮮明、強烈、不暗淡的；鮮豔的」與本句語境不同。"
+        "bright-mcq-05": "本句的「bright」指「未來或前景很有希望、很可能成功的；光明的」。",
+        "bright-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-05"
     },
@@ -541,10 +481,7 @@ export default {
       "options": [
         "bright-mcq-05",
         "bright-mcq-04",
-        "bright-mcq-06",
-        "bright-mcq-03",
-        "bright-mcq-07",
-        "bright-mcq-02"
+        "bright-mcq-09"
       ],
       "explanation": "本句的「bright」指「未來或前景很有希望、很可能成功的；光明的」。",
       "sentenceIndex": 10,
@@ -553,12 +490,9 @@ export default {
         "bright"
       ],
       "optionReasons": {
-        "bright-mcq-05": "本句指「未來或前景很有希望、很可能成功的；光明的」。",
-        "bright-mcq-04": "「性格或表現開朗、有活力、積極並令人感到愉快的」與本句語境不同。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。",
-        "bright-mcq-03": "「理解力強、學習快、頭腦靈活的；聰明的」與本句語境不同。",
-        "bright-mcq-07": "「看起來充滿精神、情緒或活力的；介乎 literal-light 與 lively 義之間」與本句語境不同。",
-        "bright-mcq-02": "「色彩鮮明、強烈、不暗淡的；鮮豔的」與本句語境不同。"
+        "bright-mcq-05": "本句的「bright」指「未來或前景很有希望、很可能成功的；光明的」。",
+        "bright-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-05"
     },
@@ -570,10 +504,7 @@ export default {
       "masked": "It was a ____ spring morning.",
       "options": [
         "bright-mcq-06",
-        "bright-mcq-05",
-        "bright-mcq-07",
         "bright-mcq-04",
-        "bright-mcq-08",
         "bright-mcq-03"
       ],
       "explanation": "本句的「bright」指「天空明亮、陽光充足的；屬於 literal-light 義」。",
@@ -583,12 +514,9 @@ export default {
         "bright"
       ],
       "optionReasons": {
-        "bright-mcq-06": "本句指「天空明亮、陽光充足的；屬於 literal-light 義」。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。",
-        "bright-mcq-07": "「看起來充滿精神、情緒或活力的；介乎 literal-light 與 lively 義之間」與本句語境不同。",
-        "bright-mcq-04": "「性格或表現開朗、有活力、積極並令人感到愉快的」與本句語境不同。",
-        "bright-mcq-08": "「明亮地、鮮明地；亦可指開朗愉快地」與本句語境不同。",
-        "bright-mcq-03": "「理解力強、學習快、頭腦靈活的；聰明的」與本句語境不同。"
+        "bright-mcq-06": "本句的「bright」指「天空明亮、陽光充足的；屬於 literal-light 義」。",
+        "bright-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-06"
     },
@@ -600,10 +528,7 @@ export default {
       "masked": "Tomorrow should be ____ and dry.",
       "options": [
         "bright-mcq-06",
-        "bright-mcq-05",
-        "bright-mcq-07",
         "bright-mcq-04",
-        "bright-mcq-08",
         "bright-mcq-03"
       ],
       "explanation": "本句的「bright」指「天空明亮、陽光充足的；屬於 literal-light 義」。",
@@ -613,12 +538,9 @@ export default {
         "bright"
       ],
       "optionReasons": {
-        "bright-mcq-06": "本句指「天空明亮、陽光充足的；屬於 literal-light 義」。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。",
-        "bright-mcq-07": "「看起來充滿精神、情緒或活力的；介乎 literal-light 與 lively 義之間」與本句語境不同。",
-        "bright-mcq-04": "「性格或表現開朗、有活力、積極並令人感到愉快的」與本句語境不同。",
-        "bright-mcq-08": "「明亮地、鮮明地；亦可指開朗愉快地」與本句語境不同。",
-        "bright-mcq-03": "「理解力強、學習快、頭腦靈活的；聰明的」與本句語境不同。"
+        "bright-mcq-06": "本句的「bright」指「天空明亮、陽光充足的；屬於 literal-light 義」。",
+        "bright-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-06"
     },
@@ -630,11 +552,8 @@ export default {
       "masked": "Her eyes were ____ with excitement.",
       "options": [
         "bright-mcq-07",
-        "bright-mcq-06",
-        "bright-mcq-08",
-        "bright-mcq-05",
         "bright-mcq-09",
-        "bright-mcq-04"
+        "bright-mcq-05"
       ],
       "explanation": "本句的「bright」指「看起來充滿精神、情緒或活力的；介乎 literal-light 與 lively 義之間」。",
       "sentenceIndex": 13,
@@ -643,12 +562,9 @@ export default {
         "bright"
       ],
       "optionReasons": {
-        "bright-mcq-07": "本句指「看起來充滿精神、情緒或活力的；介乎 literal-light 與 lively 義之間」。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。",
-        "bright-mcq-08": "「明亮地、鮮明地；亦可指開朗愉快地」與本句語境不同。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。",
-        "bright-mcq-09": "「明亮程度或明亮特質；亮度」與本句語境不同。",
-        "bright-mcq-04": "「性格或表現開朗、有活力、積極並令人感到愉快的」與本句語境不同。"
+        "bright-mcq-07": "本句的「bright」指「看起來充滿精神、情緒或活力的；介乎 literal-light 與 lively 義之間」。",
+        "bright-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-07"
     },
@@ -660,11 +576,8 @@ export default {
       "masked": "He looked tired, but his eyes were still ____.",
       "options": [
         "bright-mcq-07",
-        "bright-mcq-06",
         "bright-mcq-08",
-        "bright-mcq-05",
-        "bright-mcq-09",
-        "bright-mcq-04"
+        "bright-mcq-05"
       ],
       "explanation": "本句的「bright」指「看起來充滿精神、情緒或活力的；介乎 literal-light 與 lively 義之間」。",
       "sentenceIndex": 14,
@@ -673,12 +586,9 @@ export default {
         "bright"
       ],
       "optionReasons": {
-        "bright-mcq-07": "本句指「看起來充滿精神、情緒或活力的；介乎 literal-light 與 lively 義之間」。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。",
-        "bright-mcq-08": "「明亮地、鮮明地；亦可指開朗愉快地」與本句語境不同。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。",
-        "bright-mcq-09": "「明亮程度或明亮特質；亮度」與本句語境不同。",
-        "bright-mcq-04": "「性格或表現開朗、有活力、積極並令人感到愉快的」與本句語境不同。"
+        "bright-mcq-07": "本句的「bright」指「看起來充滿精神、情緒或活力的；介乎 literal-light 與 lively 義之間」。",
+        "bright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-07"
     },
@@ -691,9 +601,6 @@ export default {
       "options": [
         "bright-mcq-08",
         "bright-mcq-07",
-        "bright-mcq-09",
-        "bright-mcq-06",
-        "bright-mcq-10",
         "bright-mcq-05"
       ],
       "explanation": "本句的「brightly」指「明亮地、鮮明地；亦可指開朗愉快地」。",
@@ -703,12 +610,9 @@ export default {
         "brightly"
       ],
       "optionReasons": {
-        "bright-mcq-08": "本句指「明亮地、鮮明地；亦可指開朗愉快地」。",
-        "bright-mcq-07": "「看起來充滿精神、情緒或活力的；介乎 literal-light 與 lively 義之間」與本句語境不同。",
-        "bright-mcq-09": "「明亮程度或明亮特質；亮度」與本句語境不同。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。",
-        "bright-mcq-10": "「使／變得更明亮；亦可比喻使心情或氣氛更愉快」與本句語境不同。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。"
+        "bright-mcq-08": "本句的「brightly」指「明亮地、鮮明地；亦可指開朗愉快地」。",
+        "bright-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-08"
     },
@@ -721,9 +625,6 @@ export default {
       "options": [
         "bright-mcq-08",
         "bright-mcq-07",
-        "bright-mcq-09",
-        "bright-mcq-06",
-        "bright-mcq-10",
         "bright-mcq-05"
       ],
       "explanation": "本句的「brightly」指「明亮地、鮮明地；亦可指開朗愉快地」。",
@@ -733,12 +634,9 @@ export default {
         "brightly"
       ],
       "optionReasons": {
-        "bright-mcq-08": "本句指「明亮地、鮮明地；亦可指開朗愉快地」。",
-        "bright-mcq-07": "「看起來充滿精神、情緒或活力的；介乎 literal-light 與 lively 義之間」與本句語境不同。",
-        "bright-mcq-09": "「明亮程度或明亮特質；亮度」與本句語境不同。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。",
-        "bright-mcq-10": "「使／變得更明亮；亦可比喻使心情或氣氛更愉快」與本句語境不同。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。"
+        "bright-mcq-08": "本句的「brightly」指「明亮地、鮮明地；亦可指開朗愉快地」。",
+        "bright-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-08"
     },
@@ -750,10 +648,7 @@ export default {
       "masked": "You can adjust the screen ____.",
       "options": [
         "bright-mcq-09",
-        "bright-mcq-08",
-        "bright-mcq-10",
         "bright-mcq-07",
-        "bright-mcq-06",
         "bright-mcq-05"
       ],
       "explanation": "本句的「brightness」指「明亮程度或明亮特質；亮度」。",
@@ -763,12 +658,9 @@ export default {
         "brightness"
       ],
       "optionReasons": {
-        "bright-mcq-09": "本句指「明亮程度或明亮特質；亮度」。",
-        "bright-mcq-08": "「明亮地、鮮明地；亦可指開朗愉快地」與本句語境不同。",
-        "bright-mcq-10": "「使／變得更明亮；亦可比喻使心情或氣氛更愉快」與本句語境不同。",
-        "bright-mcq-07": "「看起來充滿精神、情緒或活力的；介乎 literal-light 與 lively 義之間」與本句語境不同。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。"
+        "bright-mcq-09": "本句的「brightness」指「明亮程度或明亮特質；亮度」。",
+        "bright-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-09"
     },
@@ -780,11 +672,8 @@ export default {
       "masked": "The ____ of the room made it feel welcoming.",
       "options": [
         "bright-mcq-09",
-        "bright-mcq-08",
-        "bright-mcq-10",
-        "bright-mcq-07",
-        "bright-mcq-06",
-        "bright-mcq-05"
+        "bright-mcq-04",
+        "bright-mcq-03"
       ],
       "explanation": "本句的「brightness」指「明亮程度或明亮特質；亮度」。",
       "sentenceIndex": 18,
@@ -793,12 +682,9 @@ export default {
         "brightness"
       ],
       "optionReasons": {
-        "bright-mcq-09": "本句指「明亮程度或明亮特質；亮度」。",
-        "bright-mcq-08": "「明亮地、鮮明地；亦可指開朗愉快地」與本句語境不同。",
-        "bright-mcq-10": "「使／變得更明亮；亦可比喻使心情或氣氛更愉快」與本句語境不同。",
-        "bright-mcq-07": "「看起來充滿精神、情緒或活力的；介乎 literal-light 與 lively 義之間」與本句語境不同。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。"
+        "bright-mcq-09": "本句的「brightness」指「明亮程度或明亮特質；亮度」。",
+        "bright-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-09"
     },
@@ -810,10 +696,7 @@ export default {
       "masked": "The morning sun ____ the room.",
       "options": [
         "bright-mcq-10",
-        "bright-mcq-09",
-        "bright-mcq-08",
         "bright-mcq-07",
-        "bright-mcq-06",
         "bright-mcq-05"
       ],
       "explanation": "本句的「brightened」指「使／變得更明亮；亦可比喻使心情或氣氛更愉快」。",
@@ -823,12 +706,9 @@ export default {
         "brightened"
       ],
       "optionReasons": {
-        "bright-mcq-10": "本句指「使／變得更明亮；亦可比喻使心情或氣氛更愉快」。",
-        "bright-mcq-09": "「明亮程度或明亮特質；亮度」與本句語境不同。",
-        "bright-mcq-08": "「明亮地、鮮明地；亦可指開朗愉快地」與本句語境不同。",
-        "bright-mcq-07": "「看起來充滿精神、情緒或活力的；介乎 literal-light 與 lively 義之間」與本句語境不同。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。"
+        "bright-mcq-10": "本句的「brightened」指「使／變得更明亮；亦可比喻使心情或氣氛更愉快」。",
+        "bright-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-10"
     },
@@ -840,10 +720,7 @@ export default {
       "masked": "Her message really ____ my day.",
       "options": [
         "bright-mcq-10",
-        "bright-mcq-09",
-        "bright-mcq-08",
         "bright-mcq-07",
-        "bright-mcq-06",
         "bright-mcq-05"
       ],
       "explanation": "本句的「brightened」指「使／變得更明亮；亦可比喻使心情或氣氛更愉快」。",
@@ -853,12 +730,9 @@ export default {
         "brightened"
       ],
       "optionReasons": {
-        "bright-mcq-10": "本句指「使／變得更明亮；亦可比喻使心情或氣氛更愉快」。",
-        "bright-mcq-09": "「明亮程度或明亮特質；亮度」與本句語境不同。",
-        "bright-mcq-08": "「明亮地、鮮明地；亦可指開朗愉快地」與本句語境不同。",
-        "bright-mcq-07": "「看起來充滿精神、情緒或活力的；介乎 literal-light 與 lively 義之間」與本句語境不同。",
-        "bright-mcq-06": "「天空明亮、陽光充足的；屬於 literal-light 義」與本句語境不同。",
-        "bright-mcq-05": "「未來或前景很有希望、很可能成功的；光明的」與本句語境不同。"
+        "bright-mcq-10": "本句的「brightened」指「使／變得更明亮；亦可比喻使心情或氣氛更愉快」。",
+        "bright-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bright-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bright-mcq-10"
     }
@@ -870,5 +744,7 @@ export default {
     "sha256": "790dd3a5a642a7e5e3e83f1b7f7b77919a4e929377645da119e1867db0c2a6b3",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

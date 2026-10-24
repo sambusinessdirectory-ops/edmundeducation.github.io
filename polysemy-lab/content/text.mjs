@@ -1546,11 +1546,9 @@ export default {
       "masked": "Compare the role-play with the original ____.",
       "options": [
         "text-mcq-01",
-        "text-mcq-02",
-        "text-mcq-03",
-        "text-mcq-04",
-        "text-mcq-05",
-        "text-mcq-06"
+        "text-mcq-58",
+        "text-mcq-30",
+        "text-mcq-25"
       ],
       "explanation": "本句的「text」指「學生表演所依據的原來書面作品／原文」。",
       "sentenceIndex": 0,
@@ -1559,12 +1557,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-01": "本句指「學生表演所依據的原來書面作品／原文」。",
-        "text-mcq-02": "「與圖片、聲音等相對的文字內容」與本句語境不同。",
-        "text-mcq-03": "「可作閱讀、分析或研究的一篇／一部書面作品」與本句語境不同。",
-        "text-mcq-04": "「詩、小說、戲劇等文學作品／文本」與本句語境不同。",
-        "text-mcq-05": "「主要目的並非文學創作的非文學文本」與本句語境不同。",
-        "text-mcq-06": "「學術用途的文章／文本」與本句語境不同。"
+        "text-mcq-01": "本句的「text」指「學生表演所依據的原來書面作品／原文」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-01"
     },
@@ -1576,11 +1572,9 @@ export default {
       "masked": "The actor’s interpretation was slightly different from the ____.",
       "options": [
         "text-mcq-01",
-        "text-mcq-02",
-        "text-mcq-03",
-        "text-mcq-04",
-        "text-mcq-05",
-        "text-mcq-06"
+        "text-mcq-58",
+        "text-mcq-25",
+        "text-mcq-28"
       ],
       "explanation": "本句的「text」指「學生表演所依據的原來書面作品／原文」。",
       "sentenceIndex": 1,
@@ -1589,12 +1583,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-01": "本句指「學生表演所依據的原來書面作品／原文」。",
-        "text-mcq-02": "「與圖片、聲音等相對的文字內容」與本句語境不同。",
-        "text-mcq-03": "「可作閱讀、分析或研究的一篇／一部書面作品」與本句語境不同。",
-        "text-mcq-04": "「詩、小說、戲劇等文學作品／文本」與本句語境不同。",
-        "text-mcq-05": "「主要目的並非文學創作的非文學文本」與本句語境不同。",
-        "text-mcq-06": "「學術用途的文章／文本」與本句語境不同。"
+        "text-mcq-01": "本句的「text」指「學生表演所依據的原來書面作品／原文」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-01"
     },
@@ -1606,11 +1598,9 @@ export default {
       "masked": "Read the original ____ before watching the adaptation.",
       "options": [
         "text-mcq-01",
-        "text-mcq-02",
-        "text-mcq-03",
-        "text-mcq-04",
-        "text-mcq-05",
-        "text-mcq-06"
+        "text-mcq-58",
+        "text-mcq-25",
+        "text-mcq-28"
       ],
       "explanation": "本句的「text」指「學生表演所依據的原來書面作品／原文」。",
       "sentenceIndex": 2,
@@ -1619,12 +1609,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-01": "本句指「學生表演所依據的原來書面作品／原文」。",
-        "text-mcq-02": "「與圖片、聲音等相對的文字內容」與本句語境不同。",
-        "text-mcq-03": "「可作閱讀、分析或研究的一篇／一部書面作品」與本句語境不同。",
-        "text-mcq-04": "「詩、小說、戲劇等文學作品／文本」與本句語境不同。",
-        "text-mcq-05": "「主要目的並非文學創作的非文學文本」與本句語境不同。",
-        "text-mcq-06": "「學術用途的文章／文本」與本句語境不同。"
+        "text-mcq-01": "本句的「text」指「學生表演所依據的原來書面作品／原文」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-01"
     },
@@ -1636,11 +1624,9 @@ export default {
       "masked": "The performance changes several details from the original ____.",
       "options": [
         "text-mcq-01",
-        "text-mcq-02",
-        "text-mcq-03",
-        "text-mcq-04",
-        "text-mcq-05",
-        "text-mcq-06"
+        "text-mcq-58",
+        "text-mcq-25",
+        "text-mcq-30"
       ],
       "explanation": "本句的「text」指「學生表演所依據的原來書面作品／原文」。",
       "sentenceIndex": 3,
@@ -1649,12 +1635,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-01": "本句指「學生表演所依據的原來書面作品／原文」。",
-        "text-mcq-02": "「與圖片、聲音等相對的文字內容」與本句語境不同。",
-        "text-mcq-03": "「可作閱讀、分析或研究的一篇／一部書面作品」與本句語境不同。",
-        "text-mcq-04": "「詩、小說、戲劇等文學作品／文本」與本句語境不同。",
-        "text-mcq-05": "「主要目的並非文學創作的非文學文本」與本句語境不同。",
-        "text-mcq-06": "「學術用途的文章／文本」與本句語境不同。"
+        "text-mcq-01": "本句的「text」指「學生表演所依據的原來書面作品／原文」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-01"
     },
@@ -1666,11 +1650,9 @@ export default {
       "masked": "The page contains both images and ____.",
       "options": [
         "text-mcq-02",
-        "text-mcq-01",
-        "text-mcq-03",
-        "text-mcq-04",
-        "text-mcq-05",
-        "text-mcq-06"
+        "text-mcq-58",
+        "text-mcq-25",
+        "text-mcq-28"
       ],
       "explanation": "本句的「text」指「與圖片、聲音等相對的文字內容」。",
       "sentenceIndex": 4,
@@ -1679,12 +1661,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-02": "本句指「與圖片、聲音等相對的文字內容」。",
-        "text-mcq-01": "「學生表演所依據的原來書面作品／原文」與本句語境不同。",
-        "text-mcq-03": "「可作閱讀、分析或研究的一篇／一部書面作品」與本句語境不同。",
-        "text-mcq-04": "「詩、小說、戲劇等文學作品／文本」與本句語境不同。",
-        "text-mcq-05": "「主要目的並非文學創作的非文學文本」與本句語境不同。",
-        "text-mcq-06": "「學術用途的文章／文本」與本句語境不同。"
+        "text-mcq-02": "本句的「text」指「與圖片、聲音等相對的文字內容」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-02"
     },
@@ -1696,11 +1676,9 @@ export default {
       "masked": "Make the ____ larger.",
       "options": [
         "text-mcq-02",
-        "text-mcq-01",
-        "text-mcq-03",
-        "text-mcq-04",
-        "text-mcq-05",
-        "text-mcq-06"
+        "text-mcq-58",
+        "text-mcq-28",
+        "text-mcq-25"
       ],
       "explanation": "本句的「text」指「與圖片、聲音等相對的文字內容」。",
       "sentenceIndex": 5,
@@ -1709,12 +1687,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-02": "本句指「與圖片、聲音等相對的文字內容」。",
-        "text-mcq-01": "「學生表演所依據的原來書面作品／原文」與本句語境不同。",
-        "text-mcq-03": "「可作閱讀、分析或研究的一篇／一部書面作品」與本句語境不同。",
-        "text-mcq-04": "「詩、小說、戲劇等文學作品／文本」與本句語境不同。",
-        "text-mcq-05": "「主要目的並非文學創作的非文學文本」與本句語境不同。",
-        "text-mcq-06": "「學術用途的文章／文本」與本句語境不同。"
+        "text-mcq-02": "本句的「text」指「與圖片、聲音等相對的文字內容」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-02"
     },
@@ -1726,11 +1702,9 @@ export default {
       "masked": "The website combines ____ and images.",
       "options": [
         "text-mcq-02",
-        "text-mcq-01",
-        "text-mcq-03",
-        "text-mcq-04",
-        "text-mcq-05",
-        "text-mcq-06"
+        "text-mcq-58",
+        "text-mcq-28",
+        "text-mcq-25"
       ],
       "explanation": "本句的「text」指「與圖片、聲音等相對的文字內容」。",
       "sentenceIndex": 6,
@@ -1739,12 +1713,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-02": "本句指「與圖片、聲音等相對的文字內容」。",
-        "text-mcq-01": "「學生表演所依據的原來書面作品／原文」與本句語境不同。",
-        "text-mcq-03": "「可作閱讀、分析或研究的一篇／一部書面作品」與本句語境不同。",
-        "text-mcq-04": "「詩、小說、戲劇等文學作品／文本」與本句語境不同。",
-        "text-mcq-05": "「主要目的並非文學創作的非文學文本」與本句語境不同。",
-        "text-mcq-06": "「學術用途的文章／文本」與本句語境不同。"
+        "text-mcq-02": "本句的「text」指「與圖片、聲音等相對的文字內容」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-02"
     },
@@ -1756,11 +1728,9 @@ export default {
       "masked": "Students learn how to analyze a literary ____.",
       "options": [
         "text-mcq-04",
-        "text-mcq-03",
-        "text-mcq-05",
-        "text-mcq-02",
-        "text-mcq-06",
-        "text-mcq-01"
+        "text-mcq-58",
+        "text-mcq-28",
+        "text-mcq-25"
       ],
       "explanation": "本句的「text」指「詩、小說、戲劇等文學作品／文本」。",
       "sentenceIndex": 9,
@@ -1769,12 +1739,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-04": "本句指「詩、小說、戲劇等文學作品／文本」。",
-        "text-mcq-03": "「可作閱讀、分析或研究的一篇／一部書面作品」與本句語境不同。",
-        "text-mcq-05": "「主要目的並非文學創作的非文學文本」與本句語境不同。",
-        "text-mcq-02": "「與圖片、聲音等相對的文字內容」與本句語境不同。",
-        "text-mcq-06": "「學術用途的文章／文本」與本句語境不同。",
-        "text-mcq-01": "「學生表演所依據的原來書面作品／原文」與本句語境不同。"
+        "text-mcq-04": "本句的「text」指「詩、小說、戲劇等文學作品／文本」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-04"
     },
@@ -1786,11 +1754,9 @@ export default {
       "masked": "Websites are often treated as multimodal ____.",
       "options": [
         "text-mcq-12",
-        "text-mcq-11",
-        "text-mcq-13",
-        "text-mcq-10",
-        "text-mcq-14",
-        "text-mcq-09"
+        "text-mcq-58",
+        "text-mcq-28",
+        "text-mcq-25"
       ],
       "explanation": "本句的「texts」指「結合文字、圖像、聲音等多種模式傳達意義的文本」。",
       "sentenceIndex": 10,
@@ -1799,12 +1765,10 @@ export default {
         "texts"
       ],
       "optionReasons": {
-        "text-mcq-12": "本句指「結合文字、圖像、聲音等多種模式傳達意義的文本」。",
-        "text-mcq-11": "「用步驟告訴讀者如何做某事的程序文本」與本句語境不同。",
-        "text-mcq-13": "「在語言研究中作為完整單位分析的口語語篇／文本」與本句語境不同。",
-        "text-mcq-10": "「用來解釋、說明資訊的說明性文本」與本句語境不同。",
-        "text-mcq-14": "「高階學術：任何可被當作結構化意義系統來解讀的文化「文本」」與本句語境不同。",
-        "text-mcq-09": "「旨在說服／論證立場的文本」與本句語境不同。"
+        "text-mcq-12": "本句的「texts」指「結合文字、圖像、聲音等多種模式傳達意義的文本」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-12"
     },
@@ -1816,11 +1780,9 @@ export default {
       "masked": "Translators must understand the source ____ accurately.",
       "options": [
         "text-mcq-15",
-        "text-mcq-14",
-        "text-mcq-16",
-        "text-mcq-13",
-        "text-mcq-17",
-        "text-mcq-12"
+        "text-mcq-58",
+        "text-mcq-28",
+        "text-mcq-25"
       ],
       "explanation": "本句的「text」指「翻譯／轉換所依據的原文／源文本」。",
       "sentenceIndex": 13,
@@ -1829,12 +1791,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-15": "本句指「翻譯／轉換所依據的原文／源文本」。",
-        "text-mcq-14": "「高階學術：任何可被當作結構化意義系統來解讀的文化「文本」」與本句語境不同。",
-        "text-mcq-16": "「由源文本翻譯產生的譯文／目標文本」與本句語境不同。",
-        "text-mcq-13": "「在語言研究中作為完整單位分析的口語語篇／文本」與本句語境不同。",
-        "text-mcq-17": "「被直接研究的原著／原始文本」與本句語境不同。",
-        "text-mcq-12": "「結合文字、圖像、聲音等多種模式傳達意義的文本」與本句語境不同。"
+        "text-mcq-15": "本句的「text」指「翻譯／轉換所依據的原文／源文本」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-15"
     },
@@ -1846,11 +1806,9 @@ export default {
       "masked": "The target ____ should sound natural in Chinese.",
       "options": [
         "text-mcq-16",
-        "text-mcq-15",
-        "text-mcq-17",
-        "text-mcq-14",
-        "text-mcq-18",
-        "text-mcq-13"
+        "text-mcq-58",
+        "text-mcq-25",
+        "text-mcq-28"
       ],
       "explanation": "本句的「text」指「由源文本翻譯產生的譯文／目標文本」。",
       "sentenceIndex": 14,
@@ -1859,12 +1817,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-16": "本句指「由源文本翻譯產生的譯文／目標文本」。",
-        "text-mcq-15": "「翻譯／轉換所依據的原文／源文本」與本句語境不同。",
-        "text-mcq-17": "「被直接研究的原著／原始文本」與本句語境不同。",
-        "text-mcq-14": "「高階學術：任何可被當作結構化意義系統來解讀的文化「文本」」與本句語境不同。",
-        "text-mcq-18": "「對原始文本作評論／分析的二手文本」與本句語境不同。",
-        "text-mcq-13": "「在語言研究中作為完整單位分析的口語語篇／文本」與本句語境不同。"
+        "text-mcq-16": "本句的「text」指「由源文本翻譯產生的譯文／目標文本」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-16"
     },
@@ -1876,11 +1832,9 @@ export default {
       "masked": "Students should quote evidence from the primary ____.",
       "options": [
         "text-mcq-17",
-        "text-mcq-16",
-        "text-mcq-18",
-        "text-mcq-15",
-        "text-mcq-19",
-        "text-mcq-14"
+        "text-mcq-58",
+        "text-mcq-30",
+        "text-mcq-25"
       ],
       "explanation": "本句的「text」指「被直接研究的原著／原始文本」。",
       "sentenceIndex": 15,
@@ -1889,12 +1843,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-17": "本句指「被直接研究的原著／原始文本」。",
-        "text-mcq-16": "「由源文本翻譯產生的譯文／目標文本」與本句語境不同。",
-        "text-mcq-18": "「對原始文本作評論／分析的二手文本」與本句語境不同。",
-        "text-mcq-15": "「翻譯／轉換所依據的原文／源文本」與本句語境不同。",
-        "text-mcq-19": "「尤其英式教育：課程／考試指定研讀的文本」與本句語境不同。",
-        "text-mcq-14": "「高階學術：任何可被當作結構化意義系統來解讀的文化「文本」」與本句語境不同。"
+        "text-mcq-17": "本句的「text」指「被直接研究的原著／原始文本」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-17"
     },
@@ -1906,11 +1858,9 @@ export default {
       "masked": "The novel is one of this year’s set ____.",
       "options": [
         "text-mcq-19",
-        "text-mcq-18",
-        "text-mcq-20",
-        "text-mcq-17",
-        "text-mcq-21",
-        "text-mcq-16"
+        "text-mcq-58",
+        "text-mcq-30",
+        "text-mcq-25"
       ],
       "explanation": "本句的「texts」指「尤其英式教育：課程／考試指定研讀的文本」。",
       "sentenceIndex": 16,
@@ -1919,12 +1869,10 @@ export default {
         "texts"
       ],
       "optionReasons": {
-        "text-mcq-19": "本句指「尤其英式教育：課程／考試指定研讀的文本」。",
-        "text-mcq-18": "「對原始文本作評論／分析的二手文本」與本句語境不同。",
-        "text-mcq-20": "「官方指定必須研讀的文本」與本句語境不同。",
-        "text-mcq-17": "「被直接研究的原著／原始文本」與本句語境不同。",
-        "text-mcq-21": "「課程主要指定讀本」與本句語境不同。",
-        "text-mcq-16": "「由源文本翻譯產生的譯文／目標文本」與本句語境不同。"
+        "text-mcq-19": "本句的「texts」指「尤其英式教育：課程／考試指定研讀的文本」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-19"
     },
@@ -1936,11 +1884,9 @@ export default {
       "masked": "The full ____ of the agreement was published.",
       "options": [
         "text-mcq-31",
-        "text-mcq-30",
-        "text-mcq-32",
-        "text-mcq-29",
-        "text-mcq-33",
-        "text-mcq-28"
+        "text-mcq-58",
+        "text-mcq-28",
+        "text-mcq-30"
       ],
       "explanation": "本句的「text」指「一字不差的確切文字」。",
       "sentenceIndex": 18,
@@ -1949,12 +1895,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-31": "本句指「一字不差的確切文字」。",
-        "text-mcq-30": "「與標題、註腳等相對的正文」與本句語境不同。",
-        "text-mcq-32": "「與文本／原文措辭有關的」與本句語境不同。",
-        "text-mcq-29": "「可取得完整正文、而非只有摘要的文章」與本句語境不同。",
-        "text-mcq-33": "「從原文直接取得、支持分析的文本證據」與本句語境不同。",
-        "text-mcq-28": "「沒有省略的完整全文」與本句語境不同。"
+        "text-mcq-31": "本句的「text」指「一字不差的確切文字」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-31"
     },
@@ -1966,11 +1910,9 @@ export default {
       "masked": "We need to examine the exact ____ of the law.",
       "options": [
         "text-mcq-31",
+        "text-mcq-58",
         "text-mcq-30",
-        "text-mcq-32",
-        "text-mcq-29",
-        "text-mcq-33",
-        "text-mcq-28"
+        "text-mcq-25"
       ],
       "explanation": "本句的「text」指「一字不差的確切文字」。",
       "sentenceIndex": 19,
@@ -1979,12 +1921,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-31": "本句指「一字不差的確切文字」。",
-        "text-mcq-30": "「與標題、註腳等相對的正文」與本句語境不同。",
-        "text-mcq-32": "「與文本／原文措辭有關的」與本句語境不同。",
-        "text-mcq-29": "「可取得完整正文、而非只有摘要的文章」與本句語境不同。",
-        "text-mcq-33": "「從原文直接取得、支持分析的文本證據」與本句語境不同。",
-        "text-mcq-28": "「沒有省略的完整全文」與本句語境不同。"
+        "text-mcq-31": "本句的「text」指「一字不差的確切文字」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-31"
     },
@@ -1996,11 +1936,9 @@ export default {
       "masked": "The answer depends on the precise ____ of the statute.",
       "options": [
         "text-mcq-25",
-        "text-mcq-24",
-        "text-mcq-26",
-        "text-mcq-23",
         "text-mcq-27",
-        "text-mcq-22"
+        "text-mcq-58",
+        "text-mcq-30"
       ],
       "explanation": "本句的「text」指「法例的具體法律條文」。",
       "sentenceIndex": 20,
@@ -2009,12 +1947,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-25": "本句指「法例的具體法律條文」。",
-        "text-mcq-24": "「法律、演說、協議等的完整／確切文字內容」與本句語境不同。",
-        "text-mcq-26": "「條約／協議的正式文字內容」與本句語境不同。",
-        "text-mcq-23": "「講道所依據的一段經文」與本句語境不同。",
-        "text-mcq-27": "「演講／演說的完整書面稿」與本句語境不同。",
-        "text-mcq-22": "「宗教聖典／宗教文本」與本句語境不同。"
+        "text-mcq-25": "本句的「text」指「法例的具體法律條文」。",
+        "text-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-25"
     },
@@ -2026,11 +1962,9 @@ export default {
       "masked": "The full ____ of the speech is available online.",
       "options": [
         "text-mcq-27",
-        "text-mcq-26",
-        "text-mcq-28",
         "text-mcq-25",
-        "text-mcq-29",
-        "text-mcq-24"
+        "text-mcq-58",
+        "text-mcq-30"
       ],
       "explanation": "本句的「text」指「演講／演說的完整書面稿」。",
       "sentenceIndex": 21,
@@ -2039,12 +1973,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-27": "本句指「演講／演說的完整書面稿」。",
-        "text-mcq-26": "「條約／協議的正式文字內容」與本句語境不同。",
-        "text-mcq-28": "「沒有省略的完整全文」與本句語境不同。",
-        "text-mcq-25": "「法例的具體法律條文」與本句語境不同。",
-        "text-mcq-29": "「可取得完整正文、而非只有摘要的文章」與本句語境不同。",
-        "text-mcq-24": "「法律、演說、協議等的完整／確切文字內容」與本句語境不同。"
+        "text-mcq-27": "本句的「text」指「演講／演說的完整書面稿」。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-27"
     },
@@ -2056,11 +1988,9 @@ export default {
       "masked": "Read the full ____ of the article.",
       "options": [
         "text-mcq-28",
-        "text-mcq-27",
-        "text-mcq-29",
-        "text-mcq-26",
-        "text-mcq-30",
-        "text-mcq-25"
+        "text-mcq-58",
+        "text-mcq-25",
+        "text-mcq-17"
       ],
       "explanation": "本句的「text」指「沒有省略的完整全文」。",
       "sentenceIndex": 22,
@@ -2069,12 +1999,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-28": "本句指「沒有省略的完整全文」。",
-        "text-mcq-27": "「演講／演說的完整書面稿」與本句語境不同。",
-        "text-mcq-29": "「可取得完整正文、而非只有摘要的文章」與本句語境不同。",
-        "text-mcq-26": "「條約／協議的正式文字內容」與本句語境不同。",
-        "text-mcq-30": "「與標題、註腳等相對的正文」與本句語境不同。",
-        "text-mcq-25": "「法例的具體法律條文」與本句語境不同。"
+        "text-mcq-28": "本句的「text」指「沒有省略的完整全文」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-28"
     },
@@ -2086,11 +2014,9 @@ export default {
       "masked": "Use a readable font for the body ____.",
       "options": [
         "text-mcq-30",
-        "text-mcq-29",
-        "text-mcq-31",
-        "text-mcq-28",
-        "text-mcq-32",
-        "text-mcq-27"
+        "text-mcq-58",
+        "text-mcq-27",
+        "text-mcq-25"
       ],
       "explanation": "本句的「text」指「與標題、註腳等相對的正文」。",
       "sentenceIndex": 23,
@@ -2099,12 +2025,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-30": "本句指「與標題、註腳等相對的正文」。",
-        "text-mcq-29": "「可取得完整正文、而非只有摘要的文章」與本句語境不同。",
-        "text-mcq-31": "「一字不差的確切文字」與本句語境不同。",
-        "text-mcq-28": "「沒有省略的完整全文」與本句語境不同。",
-        "text-mcq-32": "「與文本／原文措辭有關的」與本句語境不同。",
-        "text-mcq-27": "「演講／演說的完整書面稿」與本句語境不同。"
+        "text-mcq-30": "本句的「text」指「與標題、註腳等相對的正文」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-30"
     },
@@ -2116,10 +2040,8 @@ export default {
       "masked": "Please provide the exact ____ of the message.",
       "options": [
         "text-mcq-31",
-        "text-mcq-30",
-        "text-mcq-32",
-        "text-mcq-29",
-        "text-mcq-33",
+        "text-mcq-58",
+        "text-mcq-25",
         "text-mcq-28"
       ],
       "explanation": "本句的「text」指「一字不差的確切文字」。",
@@ -2129,12 +2051,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-31": "本句指「一字不差的確切文字」。",
-        "text-mcq-30": "「與標題、註腳等相對的正文」與本句語境不同。",
-        "text-mcq-32": "「與文本／原文措辭有關的」與本句語境不同。",
-        "text-mcq-29": "「可取得完整正文、而非只有摘要的文章」與本句語境不同。",
-        "text-mcq-33": "「從原文直接取得、支持分析的文本證據」與本句語境不同。",
-        "text-mcq-28": "「沒有省略的完整全文」與本句語境不同。"
+        "text-mcq-31": "本句的「text」指「一字不差的確切文字」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-31"
     },
@@ -2146,11 +2066,9 @@ export default {
       "masked": "Support your answer with ____ evidence.",
       "options": [
         "text-mcq-33",
-        "text-mcq-32",
-        "text-mcq-34",
-        "text-mcq-31",
-        "text-mcq-35",
-        "text-mcq-30"
+        "text-mcq-58",
+        "text-mcq-25",
+        "text-mcq-28"
       ],
       "explanation": "本句的「textual」指「從原文直接取得、支持分析的文本證據」。",
       "sentenceIndex": 27,
@@ -2159,12 +2077,10 @@ export default {
         "textual"
       ],
       "optionReasons": {
-        "text-mcq-33": "本句指「從原文直接取得、支持分析的文本證據」。",
-        "text-mcq-32": "「與文本／原文措辭有關的」與本句語境不同。",
-        "text-mcq-34": "「對文本的語言、結構、意義等作分析」與本句語境不同。",
-        "text-mcq-31": "「一字不差的確切文字」與本句語境不同。",
-        "text-mcq-35": "「對文本意義的解讀／詮釋」與本句語境不同。",
-        "text-mcq-30": "「與標題、註腳等相對的正文」與本句語境不同。"
+        "text-mcq-33": "本句的「textual」指「從原文直接取得、支持分析的文本證據」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-33"
     },
@@ -2176,11 +2092,9 @@ export default {
       "masked": "I sent her a ____ message.",
       "options": [
         "text-mcq-51",
-        "text-mcq-50",
-        "text-mcq-52",
-        "text-mcq-49",
-        "text-mcq-53",
-        "text-mcq-48"
+        "text-mcq-25",
+        "text-mcq-28",
+        "text-mcq-30"
       ],
       "explanation": "本句的「text」指「以電話／通訊服務發送的文字短訊」。",
       "sentenceIndex": 29,
@@ -2189,12 +2103,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-51": "本句指「以電話／通訊服務發送的文字短訊」。",
-        "text-mcq-50": "「可透過超連結非線性瀏覽的電子超文本」與本句語境不同。",
-        "text-mcq-52": "「非正式：一則文字短訊」與本句語境不同。",
-        "text-mcq-49": "「封面、標題、序言等圍繞正文並影響閱讀的副文本」與本句語境不同。",
-        "text-mcq-53": "「發送／收到一則短訊」與本句語境不同。",
-        "text-mcq-48": "「沒有明說但隱藏於表面文字下的潛台詞」與本句語境不同。"
+        "text-mcq-51": "本句的「text」指「以電話／通訊服務發送的文字短訊」。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-51"
     },
@@ -2206,11 +2118,9 @@ export default {
       "masked": "Why didn’t you ____ back?",
       "options": [
         "text-mcq-56",
-        "text-mcq-55",
-        "text-mcq-57",
-        "text-mcq-54",
-        "text-mcq-58",
-        "text-mcq-53"
+        "text-mcq-28",
+        "text-mcq-25",
+        "text-mcq-30"
       ],
       "explanation": "本句的「text」指「用文字訊息回覆」。",
       "sentenceIndex": 36,
@@ -2219,12 +2129,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-56": "本句指「用文字訊息回覆」。",
-        "text-mcq-55": "「以短訊把某項資料傳給某人」與本句語境不同。",
-        "text-mcq-57": "「傳送／接收文字短訊的行為」與本句語境不同。",
-        "text-mcq-54": "「向某人傳文字訊息」與本句語境不同。",
-        "text-mcq-58": "「有多名參與者的群組短訊」與本句語境不同。",
-        "text-mcq-53": "「發送／收到一則短訊」與本句語境不同。"
+        "text-mcq-56": "本句的「text」指「用文字訊息回覆」。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-56"
     },
@@ -2236,11 +2144,9 @@ export default {
       "masked": "Add me to the group ____.",
       "options": [
         "text-mcq-58",
-        "text-mcq-57",
-        "text-mcq-59",
-        "text-mcq-56",
-        "text-mcq-60",
-        "text-mcq-55"
+        "text-mcq-15",
+        "text-mcq-30",
+        "text-mcq-28"
       ],
       "explanation": "本句的「text」指「有多名參與者的群組短訊」。",
       "sentenceIndex": 38,
@@ -2249,12 +2155,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-58": "本句指「有多名參與者的群組短訊」。",
-        "text-mcq-57": "「傳送／接收文字短訊的行為」與本句語境不同。",
-        "text-mcq-59": "「同一短訊對話的完整訊息串」與本句語境不同。",
-        "text-mcq-56": "「用文字訊息回覆」與本句語境不同。",
-        "text-mcq-60": "「以字元表示、可供電腦處理的文字資料」與本句語境不同。",
-        "text-mcq-55": "「以短訊把某項資料傳給某人」與本句語境不同。"
+        "text-mcq-58": "本句的「text」指「有多名參與者的群組短訊」。",
+        "text-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-58"
     },
@@ -2266,11 +2170,9 @@ export default {
       "masked": "Save the file as plain ____.",
       "options": [
         "text-mcq-61",
-        "text-mcq-60",
-        "text-mcq-62",
-        "text-mcq-59",
-        "text-mcq-63",
-        "text-mcq-58"
+        "text-mcq-58",
+        "text-mcq-28",
+        "text-mcq-25"
       ],
       "explanation": "本句的「text」指「不含複雜字型／版面格式的純文字」。",
       "sentenceIndex": 40,
@@ -2279,12 +2181,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-61": "本句指「不含複雜字型／版面格式的純文字」。",
-        "text-mcq-60": "「以字元表示、可供電腦處理的文字資料」與本句語境不同。",
-        "text-mcq-62": "「帶有字型、粗體、顏色等格式資訊的文字」與本句語境不同。",
-        "text-mcq-59": "「同一短訊對話的完整訊息串」與本句語境不同。",
-        "text-mcq-63": "「主要儲存文字資料的文字檔」與本句語境不同。",
-        "text-mcq-58": "「有多名參與者的群組短訊」與本句語境不同。"
+        "text-mcq-61": "本句的「text」指「不含複雜字型／版面格式的純文字」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-61"
     },
@@ -2296,11 +2196,9 @@ export default {
       "masked": "Open the ____ file in an editor.",
       "options": [
         "text-mcq-63",
-        "text-mcq-62",
-        "text-mcq-64",
-        "text-mcq-61",
-        "text-mcq-65",
-        "text-mcq-60"
+        "text-mcq-58",
+        "text-mcq-25",
+        "text-mcq-28"
       ],
       "explanation": "本句的「text」指「主要儲存文字資料的文字檔」。",
       "sentenceIndex": 41,
@@ -2309,12 +2207,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-63": "本句指「主要儲存文字資料的文字檔」。",
-        "text-mcq-62": "「帶有字型、粗體、顏色等格式資訊的文字」與本句語境不同。",
-        "text-mcq-64": "「用來編輯純文字／程式文字的文字編輯器」與本句語境不同。",
-        "text-mcq-61": "「不含複雜字型／版面格式的純文字」與本句語境不同。",
-        "text-mcq-65": "「讓使用者輸入文字的欄位」與本句語境不同。",
-        "text-mcq-60": "「以字元表示、可供電腦處理的文字資料」與本句語境不同。"
+        "text-mcq-63": "本句的「text」指「主要儲存文字資料的文字檔」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-63"
     },
@@ -2326,11 +2222,9 @@ export default {
       "masked": "The software performs automated ____ processing.",
       "options": [
         "text-mcq-72",
-        "text-mcq-71",
-        "text-mcq-73",
-        "text-mcq-70",
-        "text-mcq-74",
-        "text-mcq-69"
+        "text-mcq-58",
+        "text-mcq-28",
+        "text-mcq-25"
       ],
       "explanation": "本句的「text」指「由電腦對文字進行轉換、分析、處理」。",
       "sentenceIndex": 42,
@@ -2339,12 +2233,10 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-72": "本句指「由電腦對文字進行轉換、分析、處理」。",
-        "text-mcq-71": "「把文字字元映射成電腦代碼的編碼方式」與本句語境不同。",
-        "text-mcq-73": "「對文字資料進行分析」與本句語境不同。",
-        "text-mcq-70": "「由一連串字元構成的文字字串」與本句語境不同。",
-        "text-mcq-74": "「從大量文本中自動找出模式／資訊的文本挖掘」與本句語境不同。",
-        "text-mcq-69": "「以語言文字形式保存的資料」與本句語境不同。"
+        "text-mcq-72": "本句的「text」指「由電腦對文字進行轉換、分析、處理」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-72"
     },
@@ -2356,11 +2248,9 @@ export default {
       "masked": "The app supports ____.",
       "options": [
         "text-mcq-80",
-        "text-mcq-79",
-        "text-mcq-81",
-        "text-mcq-78",
-        "text-mcq-82",
-        "text-mcq-77"
+        "text-mcq-58",
+        "text-mcq-30",
+        "text-mcq-25"
       ],
       "explanation": "本句的「text-to-speech」指「把書面文字轉成合成語音」。",
       "sentenceIndex": 43,
@@ -2369,12 +2259,10 @@ export default {
         "text-to-speech"
       ],
       "optionReasons": {
-        "text-mcq-80": "本句指「把書面文字轉成合成語音」。",
-        "text-mcq-79": "「從影像等辨識文字」與本句語境不同。",
-        "text-mcq-81": "「把語音轉錄成文字」與本句語境不同。",
-        "text-mcq-78": "「從文件／圖片等擷取文字」與本句語境不同。",
-        "text-mcq-82": "「搜尋文件完整正文內容的全文搜尋」與本句語境不同。",
-        "text-mcq-77": "「把長文本轉成較短摘要的文本摘要」與本句語境不同。"
+        "text-mcq-80": "本句的「text-to-speech」指「把書面文字轉成合成語音」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-80"
     },
@@ -2386,11 +2274,8 @@ export default {
       "masked": "The database supports full-____ search.",
       "options": [
         "text-mcq-82",
-        "text-mcq-81",
-        "text-mcq-83",
-        "text-mcq-80",
-        "text-mcq-84",
-        "text-mcq-79"
+        "text-mcq-58",
+        "text-mcq-25"
       ],
       "explanation": "本句的「text」指「搜尋文件完整正文內容的全文搜尋」。",
       "sentenceIndex": 44,
@@ -2399,12 +2284,9 @@ export default {
         "text"
       ],
       "optionReasons": {
-        "text-mcq-82": "本句指「搜尋文件完整正文內容的全文搜尋」。",
-        "text-mcq-81": "「把語音轉錄成文字」與本句語境不同。",
-        "text-mcq-83": "「為分析而收集整理的一批文本語料」與本句語境不同。",
-        "text-mcq-80": "「把書面文字轉成合成語音」與本句語境不同。",
-        "text-mcq-84": "「把文本轉成一致、標準形式的處理」與本句語境不同。",
-        "text-mcq-79": "「從影像等辨識文字」與本句語境不同。"
+        "text-mcq-82": "本句的「text」指「搜尋文件完整正文內容的全文搜尋」。",
+        "text-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "text-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "text-mcq-82"
     }
@@ -2416,5 +2298,7 @@ export default {
     "sha256": "1adedb46e5d125eb4fec7f4c1145f8a800b451b54ef2be6ae49e3f607a77d8c5",
     "pages": 103
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

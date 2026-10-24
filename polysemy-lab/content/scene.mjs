@@ -262,11 +262,8 @@ export default {
       "masked": "He can take a small, everyday ____ and turn it into a story.",
       "options": [
         "scene-mcq-01",
-        "scene-mcq-02",
-        "scene-mcq-03",
-        "scene-mcq-04",
-        "scene-mcq-05",
-        "scene-mcq-06"
+        "scene-mcq-10",
+        "scene-mcq-05"
       ],
       "explanation": "本句的「scene」指「在某個具體時間和地方可以看到的一個情境、場面或生活畫面」。",
       "sentenceIndex": 0,
@@ -275,12 +272,9 @@ export default {
         "scene"
       ],
       "optionReasons": {
-        "scene-mcq-01": "本句指「在某個具體時間和地方可以看到的一個情境、場面或生活畫面」。",
-        "scene-mcq-02": "「戲劇、電影或故事中構成整體作品的一個相對完整片段，通常發生在特定時間、地方或」是「scene = part of a play/film/story（戲劇／電影／故事的一幕）」的用法，與本句語境不同。",
-        "scene-mcq-03": "「某件事故、罪案、事件或其他事情實際發生的地方」是「scene = place where something happened（事件發生地點）」的用法，與本句語境不同。",
-        "scene-mcq-04": "「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」是「scene = area of social/cultural activity（活動圈／界別）」的用法，與本句語境不同。",
-        "scene-mcq-05": "「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」是「scene = public display of strong emotion（公開吵鬧／情緒爆發）」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。"
+        "scene-mcq-01": "本句的「scene」指「在某個具體時間和地方可以看到的一個情境、場面或生活畫面」。",
+        "scene-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "scene-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-01"
     },
@@ -292,11 +286,8 @@ export default {
       "masked": "The photographer captured a quiet street ____ early in the morning.",
       "options": [
         "scene-mcq-01",
-        "scene-mcq-02",
-        "scene-mcq-03",
-        "scene-mcq-04",
-        "scene-mcq-05",
-        "scene-mcq-06"
+        "scene-mcq-10",
+        "scene-mcq-05"
       ],
       "explanation": "本句的「scene」指「在某個具體時間和地方可以看到的一個情境、場面或生活畫面」。",
       "sentenceIndex": 1,
@@ -305,12 +296,9 @@ export default {
         "scene"
       ],
       "optionReasons": {
-        "scene-mcq-01": "本句指「在某個具體時間和地方可以看到的一個情境、場面或生活畫面」。",
-        "scene-mcq-02": "「戲劇、電影或故事中構成整體作品的一個相對完整片段，通常發生在特定時間、地方或」是「scene = part of a play/film/story（戲劇／電影／故事的一幕）」的用法，與本句語境不同。",
-        "scene-mcq-03": "「某件事故、罪案、事件或其他事情實際發生的地方」是「scene = place where something happened（事件發生地點）」的用法，與本句語境不同。",
-        "scene-mcq-04": "「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」是「scene = area of social/cultural activity（活動圈／界別）」的用法，與本句語境不同。",
-        "scene-mcq-05": "「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」是「scene = public display of strong emotion（公開吵鬧／情緒爆發）」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。"
+        "scene-mcq-01": "本句的「scene」指「在某個具體時間和地方可以看到的一個情境、場面或生活畫面」。",
+        "scene-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "scene-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-01"
     },
@@ -322,11 +310,8 @@ export default {
       "masked": "It was a familiar ____: commuters rushing towards the station.",
       "options": [
         "scene-mcq-01",
-        "scene-mcq-02",
-        "scene-mcq-03",
-        "scene-mcq-04",
-        "scene-mcq-05",
-        "scene-mcq-06"
+        "scene-mcq-10",
+        "scene-mcq-05"
       ],
       "explanation": "本句的「scene」指「在某個具體時間和地方可以看到的一個情境、場面或生活畫面」。",
       "sentenceIndex": 2,
@@ -335,12 +320,9 @@ export default {
         "scene"
       ],
       "optionReasons": {
-        "scene-mcq-01": "本句指「在某個具體時間和地方可以看到的一個情境、場面或生活畫面」。",
-        "scene-mcq-02": "「戲劇、電影或故事中構成整體作品的一個相對完整片段，通常發生在特定時間、地方或」是「scene = part of a play/film/story（戲劇／電影／故事的一幕）」的用法，與本句語境不同。",
-        "scene-mcq-03": "「某件事故、罪案、事件或其他事情實際發生的地方」是「scene = place where something happened（事件發生地點）」的用法，與本句語境不同。",
-        "scene-mcq-04": "「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」是「scene = area of social/cultural activity（活動圈／界別）」的用法，與本句語境不同。",
-        "scene-mcq-05": "「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」是「scene = public display of strong emotion（公開吵鬧／情緒爆發）」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。"
+        "scene-mcq-01": "本句的「scene」指「在某個具體時間和地方可以看到的一個情境、場面或生活畫面」。",
+        "scene-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "scene-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-01"
     },
@@ -352,11 +334,8 @@ export default {
       "masked": "My favourite ____ in the film takes place at the railway station.",
       "options": [
         "scene-mcq-02",
-        "scene-mcq-01",
-        "scene-mcq-03",
-        "scene-mcq-04",
         "scene-mcq-05",
-        "scene-mcq-06"
+        "scene-mcq-10"
       ],
       "explanation": "本句的「scene」指「戲劇、電影或故事中構成整體作品的一個相對完整片段，通常發生在特定時間、地方或」。",
       "sentenceIndex": 3,
@@ -365,12 +344,9 @@ export default {
         "scene"
       ],
       "optionReasons": {
-        "scene-mcq-02": "本句指「戲劇、電影或故事中構成整體作品的一個相對完整片段，通常發生在特定時間、地方或」。",
-        "scene-mcq-01": "「在某個具體時間和地方可以看到的一個情境、場面或生活畫面」是「scene = situation/view taking place before you（現實中的場面／情境）」的用法，與本句語境不同。",
-        "scene-mcq-03": "「某件事故、罪案、事件或其他事情實際發生的地方」是「scene = place where something happened（事件發生地點）」的用法，與本句語境不同。",
-        "scene-mcq-04": "「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」是「scene = area of social/cultural activity（活動圈／界別）」的用法，與本句語境不同。",
-        "scene-mcq-05": "「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」是「scene = public display of strong emotion（公開吵鬧／情緒爆發）」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。"
+        "scene-mcq-02": "本句的「scene」指「戲劇、電影或故事中構成整體作品的一個相對完整片段，通常發生在特定時間、地方或」。",
+        "scene-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "scene-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-02"
     },
@@ -382,11 +358,8 @@ export default {
       "masked": "The final ____ of the play was very emotional.",
       "options": [
         "scene-mcq-02",
-        "scene-mcq-01",
-        "scene-mcq-03",
-        "scene-mcq-04",
-        "scene-mcq-05",
-        "scene-mcq-06"
+        "scene-mcq-10",
+        "scene-mcq-05"
       ],
       "explanation": "本句的「scene」指「戲劇、電影或故事中構成整體作品的一個相對完整片段，通常發生在特定時間、地方或」。",
       "sentenceIndex": 4,
@@ -395,12 +368,9 @@ export default {
         "scene"
       ],
       "optionReasons": {
-        "scene-mcq-02": "本句指「戲劇、電影或故事中構成整體作品的一個相對完整片段，通常發生在特定時間、地方或」。",
-        "scene-mcq-01": "「在某個具體時間和地方可以看到的一個情境、場面或生活畫面」是「scene = situation/view taking place before you（現實中的場面／情境）」的用法，與本句語境不同。",
-        "scene-mcq-03": "「某件事故、罪案、事件或其他事情實際發生的地方」是「scene = place where something happened（事件發生地點）」的用法，與本句語境不同。",
-        "scene-mcq-04": "「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」是「scene = area of social/cultural activity（活動圈／界別）」的用法，與本句語境不同。",
-        "scene-mcq-05": "「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」是「scene = public display of strong emotion（公開吵鬧／情緒爆發）」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。"
+        "scene-mcq-02": "本句的「scene」指「戲劇、電影或故事中構成整體作品的一個相對完整片段，通常發生在特定時間、地方或」。",
+        "scene-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "scene-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-02"
     },
@@ -412,11 +382,8 @@ export default {
       "masked": "Police arrived at the ____ within minutes.",
       "options": [
         "scene-mcq-03",
-        "scene-mcq-02",
-        "scene-mcq-04",
-        "scene-mcq-01",
         "scene-mcq-05",
-        "scene-mcq-06"
+        "scene-mcq-10"
       ],
       "explanation": "本句的「scene」指「某件事故、罪案、事件或其他事情實際發生的地方」。",
       "sentenceIndex": 5,
@@ -425,12 +392,9 @@ export default {
         "scene"
       ],
       "optionReasons": {
-        "scene-mcq-03": "本句指「某件事故、罪案、事件或其他事情實際發生的地方」。",
-        "scene-mcq-02": "「戲劇、電影或故事中構成整體作品的一個相對完整片段，通常發生在特定時間、地方或」是「scene = part of a play/film/story（戲劇／電影／故事的一幕）」的用法，與本句語境不同。",
-        "scene-mcq-04": "「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」是「scene = area of social/cultural activity（活動圈／界別）」的用法，與本句語境不同。",
-        "scene-mcq-01": "「在某個具體時間和地方可以看到的一個情境、場面或生活畫面」是「scene = situation/view taking place before you（現實中的場面／情境）」的用法，與本句語境不同。",
-        "scene-mcq-05": "「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」是「scene = public display of strong emotion（公開吵鬧／情緒爆發）」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。"
+        "scene-mcq-03": "本句的「scene」指「某件事故、罪案、事件或其他事情實際發生的地方」。",
+        "scene-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "scene-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-03"
     },
@@ -442,11 +406,8 @@ export default {
       "masked": "Several ambulances were sent to the ____.",
       "options": [
         "scene-mcq-03",
-        "scene-mcq-02",
-        "scene-mcq-04",
-        "scene-mcq-01",
         "scene-mcq-05",
-        "scene-mcq-06"
+        "scene-mcq-10"
       ],
       "explanation": "本句的「scene of the accident」指「某件事故、罪案、事件或其他事情實際發生的地方」。",
       "sentenceIndex": 6,
@@ -455,12 +416,9 @@ export default {
         "scene of the accident"
       ],
       "optionReasons": {
-        "scene-mcq-03": "本句指「某件事故、罪案、事件或其他事情實際發生的地方」。",
-        "scene-mcq-02": "「戲劇、電影或故事中構成整體作品的一個相對完整片段，通常發生在特定時間、地方或」是「scene = part of a play/film/story（戲劇／電影／故事的一幕）」的用法，與本句語境不同。",
-        "scene-mcq-04": "「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」是「scene = area of social/cultural activity（活動圈／界別）」的用法，與本句語境不同。",
-        "scene-mcq-01": "「在某個具體時間和地方可以看到的一個情境、場面或生活畫面」是「scene = situation/view taking place before you（現實中的場面／情境）」的用法，與本句語境不同。",
-        "scene-mcq-05": "「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」是「scene = public display of strong emotion（公開吵鬧／情緒爆發）」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。"
+        "scene-mcq-03": "本句的「scene of the accident」指「某件事故、罪案、事件或其他事情實際發生的地方」。",
+        "scene-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "scene-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-03"
     },
@@ -472,11 +430,7 @@ export default {
       "masked": "She has been part of the local music ____ for years.",
       "options": [
         "scene-mcq-04",
-        "scene-mcq-03",
-        "scene-mcq-05",
-        "scene-mcq-02",
-        "scene-mcq-06",
-        "scene-mcq-01"
+        "scene-mcq-10"
       ],
       "explanation": "本句的「scene」指「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」。",
       "sentenceIndex": 7,
@@ -485,12 +439,8 @@ export default {
         "scene"
       ],
       "optionReasons": {
-        "scene-mcq-04": "本句指「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」。",
-        "scene-mcq-03": "「某件事故、罪案、事件或其他事情實際發生的地方」是「scene = place where something happened（事件發生地點）」的用法，與本句語境不同。",
-        "scene-mcq-05": "「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」是「scene = public display of strong emotion（公開吵鬧／情緒爆發）」的用法，與本句語境不同。",
-        "scene-mcq-02": "「戲劇、電影或故事中構成整體作品的一個相對完整片段，通常發生在特定時間、地方或」是「scene = part of a play/film/story（戲劇／電影／故事的一幕）」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。",
-        "scene-mcq-01": "「在某個具體時間和地方可以看到的一個情境、場面或生活畫面」是「scene = situation/view taking place before you（現實中的場面／情境）」的用法，與本句語境不同。"
+        "scene-mcq-04": "本句的「scene」指「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」。",
+        "scene-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-04"
     },
@@ -502,11 +452,7 @@ export default {
       "masked": "The city has a lively restaurant ____.",
       "options": [
         "scene-mcq-04",
-        "scene-mcq-03",
-        "scene-mcq-05",
-        "scene-mcq-02",
-        "scene-mcq-06",
-        "scene-mcq-01"
+        "scene-mcq-10"
       ],
       "explanation": "本句的「scene」指「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」。",
       "sentenceIndex": 8,
@@ -515,12 +461,8 @@ export default {
         "scene"
       ],
       "optionReasons": {
-        "scene-mcq-04": "本句指「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」。",
-        "scene-mcq-03": "「某件事故、罪案、事件或其他事情實際發生的地方」是「scene = place where something happened（事件發生地點）」的用法，與本句語境不同。",
-        "scene-mcq-05": "「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」是「scene = public display of strong emotion（公開吵鬧／情緒爆發）」的用法，與本句語境不同。",
-        "scene-mcq-02": "「戲劇、電影或故事中構成整體作品的一個相對完整片段，通常發生在特定時間、地方或」是「scene = part of a play/film/story（戲劇／電影／故事的一幕）」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。",
-        "scene-mcq-01": "「在某個具體時間和地方可以看到的一個情境、場面或生活畫面」是「scene = situation/view taking place before you（現實中的場面／情境）」的用法，與本句語境不同。"
+        "scene-mcq-04": "本句的「scene」指「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」。",
+        "scene-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-04"
     },
@@ -532,11 +474,8 @@ export default {
       "masked": "She became angry and made a ____ in the restaurant.",
       "options": [
         "scene-mcq-05",
-        "scene-mcq-04",
-        "scene-mcq-06",
-        "scene-mcq-03",
-        "scene-mcq-07",
-        "scene-mcq-02"
+        "scene-mcq-01",
+        "scene-mcq-10"
       ],
       "explanation": "本句的「scene」指「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」。",
       "sentenceIndex": 9,
@@ -545,12 +484,9 @@ export default {
         "scene"
       ],
       "optionReasons": {
-        "scene-mcq-05": "本句指「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」。",
-        "scene-mcq-04": "「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」是「scene = area of social/cultural activity（活動圈／界別）」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。",
-        "scene-mcq-03": "「某件事故、罪案、事件或其他事情實際發生的地方」是「scene = place where something happened（事件發生地點）」的用法，與本句語境不同。",
-        "scene-mcq-07": "「在公眾看不到的地方進行；指幕後工作、安排或影響」是「Fixed expression: behind the scenes — 幕後；在不公開的情況下」的用法，與本句語境不同。",
-        "scene-mcq-02": "「戲劇、電影或故事中構成整體作品的一個相對完整片段，通常發生在特定時間、地方或」是「scene = part of a play/film/story（戲劇／電影／故事的一幕）」的用法，與本句語境不同。"
+        "scene-mcq-05": "本句的「scene」指「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」。",
+        "scene-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "scene-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-05"
     },
@@ -562,11 +498,8 @@ export default {
       "masked": "I didn’t want to cause a ____, so I left quietly.",
       "options": [
         "scene-mcq-05",
-        "scene-mcq-04",
-        "scene-mcq-06",
-        "scene-mcq-03",
-        "scene-mcq-07",
-        "scene-mcq-02"
+        "scene-mcq-02",
+        "scene-mcq-10"
       ],
       "explanation": "本句的「scene」指「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」。",
       "sentenceIndex": 10,
@@ -575,12 +508,9 @@ export default {
         "scene"
       ],
       "optionReasons": {
-        "scene-mcq-05": "本句指「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」。",
-        "scene-mcq-04": "「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」是「scene = area of social/cultural activity（活動圈／界別）」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。",
-        "scene-mcq-03": "「某件事故、罪案、事件或其他事情實際發生的地方」是「scene = place where something happened（事件發生地點）」的用法，與本句語境不同。",
-        "scene-mcq-07": "「在公眾看不到的地方進行；指幕後工作、安排或影響」是「Fixed expression: behind the scenes — 幕後；在不公開的情況下」的用法，與本句語境不同。",
-        "scene-mcq-02": "「戲劇、電影或故事中構成整體作品的一個相對完整片段，通常發生在特定時間、地方或」是「scene = part of a play/film/story（戲劇／電影／故事的一幕）」的用法，與本句語境不同。"
+        "scene-mcq-05": "本句的「scene」指「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」。",
+        "scene-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "scene-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-05"
     },
@@ -592,11 +522,7 @@ export default {
       "masked": "The window looked out onto a peaceful rural ____.",
       "options": [
         "scene-mcq-06",
-        "scene-mcq-05",
-        "scene-mcq-07",
-        "scene-mcq-04",
-        "scene-mcq-08",
-        "scene-mcq-03"
+        "scene-mcq-09"
       ],
       "explanation": "本句的「scene」指「某個地方呈現在眼前的整體視覺景象或畫面」。",
       "sentenceIndex": 11,
@@ -605,12 +531,8 @@ export default {
         "scene"
       ],
       "optionReasons": {
-        "scene-mcq-06": "本句指「某個地方呈現在眼前的整體視覺景象或畫面」。",
-        "scene-mcq-05": "「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」是「scene = public display of strong emotion（公開吵鬧／情緒爆發）」的用法，與本句語境不同。",
-        "scene-mcq-07": "「在公眾看不到的地方進行；指幕後工作、安排或影響」是「Fixed expression: behind the scenes — 幕後；在不公開的情況下」的用法，與本句語境不同。",
-        "scene-mcq-04": "「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」是「scene = area of social/cultural activity（活動圈／界別）」的用法，與本句語境不同。",
-        "scene-mcq-08": "「到達某件事情發生的地方；或開始出現在某個活動領域中」是「Fixed expression: on the scene — 到場；出現；活躍於某領域」的用法，與本句語境不同。",
-        "scene-mcq-03": "「某件事故、罪案、事件或其他事情實際發生的地方」是「scene = place where something happened（事件發生地點）」的用法，與本句語境不同。"
+        "scene-mcq-06": "本句的「scene」指「某個地方呈現在眼前的整體視覺景象或畫面」。",
+        "scene-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-06"
     },
@@ -622,11 +544,7 @@ export default {
       "masked": "The artist painted a winter ____.",
       "options": [
         "scene-mcq-06",
-        "scene-mcq-05",
-        "scene-mcq-07",
-        "scene-mcq-04",
-        "scene-mcq-08",
-        "scene-mcq-03"
+        "scene-mcq-10"
       ],
       "explanation": "本句的「scene」指「某個地方呈現在眼前的整體視覺景象或畫面」。",
       "sentenceIndex": 12,
@@ -635,12 +553,8 @@ export default {
         "scene"
       ],
       "optionReasons": {
-        "scene-mcq-06": "本句指「某個地方呈現在眼前的整體視覺景象或畫面」。",
-        "scene-mcq-05": "「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」是「scene = public display of strong emotion（公開吵鬧／情緒爆發）」的用法，與本句語境不同。",
-        "scene-mcq-07": "「在公眾看不到的地方進行；指幕後工作、安排或影響」是「Fixed expression: behind the scenes — 幕後；在不公開的情況下」的用法，與本句語境不同。",
-        "scene-mcq-04": "「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」是「scene = area of social/cultural activity（活動圈／界別）」的用法，與本句語境不同。",
-        "scene-mcq-08": "「到達某件事情發生的地方；或開始出現在某個活動領域中」是「Fixed expression: on the scene — 到場；出現；活躍於某領域」的用法，與本句語境不同。",
-        "scene-mcq-03": "「某件事故、罪案、事件或其他事情實際發生的地方」是「scene = place where something happened（事件發生地點）」的用法，與本句語境不同。"
+        "scene-mcq-06": "本句的「scene」指「某個地方呈現在眼前的整體視覺景象或畫面」。",
+        "scene-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-06"
     },
@@ -652,11 +566,8 @@ export default {
       "masked": "A lot of work happens ____.",
       "options": [
         "scene-mcq-07",
-        "scene-mcq-06",
-        "scene-mcq-08",
         "scene-mcq-05",
-        "scene-mcq-09",
-        "scene-mcq-04"
+        "scene-mcq-10"
       ],
       "explanation": "本句的「behind the scenes」指「在公眾看不到的地方進行；指幕後工作、安排或影響」。",
       "sentenceIndex": 13,
@@ -665,12 +576,9 @@ export default {
         "behind the scenes"
       ],
       "optionReasons": {
-        "scene-mcq-07": "本句指「在公眾看不到的地方進行；指幕後工作、安排或影響」。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。",
-        "scene-mcq-08": "「到達某件事情發生的地方；或開始出現在某個活動領域中」是「Fixed expression: on the scene — 到場；出現；活躍於某領域」的用法，與本句語境不同。",
-        "scene-mcq-05": "「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」是「scene = public display of strong emotion（公開吵鬧／情緒爆發）」的用法，與本句語境不同。",
-        "scene-mcq-09": "「提供背景資料或營造環境，使別人能理解接下來發生的事情」是「Fixed expression: set the scene — 交代背景；營造情境」的用法，與本句語境不同。",
-        "scene-mcq-04": "「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」是「scene = area of social/cultural activity（活動圈／界別）」的用法，與本句語境不同。"
+        "scene-mcq-07": "本句的「behind the scenes」指「在公眾看不到的地方進行；指幕後工作、安排或影響」。",
+        "scene-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "scene-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-07"
     },
@@ -682,11 +590,8 @@ export default {
       "masked": "She played an important role ____.",
       "options": [
         "scene-mcq-07",
-        "scene-mcq-06",
-        "scene-mcq-08",
         "scene-mcq-05",
-        "scene-mcq-09",
-        "scene-mcq-04"
+        "scene-mcq-10"
       ],
       "explanation": "本句的「behind the scenes」指「在公眾看不到的地方進行；指幕後工作、安排或影響」。",
       "sentenceIndex": 14,
@@ -695,12 +600,9 @@ export default {
         "behind the scenes"
       ],
       "optionReasons": {
-        "scene-mcq-07": "本句指「在公眾看不到的地方進行；指幕後工作、安排或影響」。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。",
-        "scene-mcq-08": "「到達某件事情發生的地方；或開始出現在某個活動領域中」是「Fixed expression: on the scene — 到場；出現；活躍於某領域」的用法，與本句語境不同。",
-        "scene-mcq-05": "「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」是「scene = public display of strong emotion（公開吵鬧／情緒爆發）」的用法，與本句語境不同。",
-        "scene-mcq-09": "「提供背景資料或營造環境，使別人能理解接下來發生的事情」是「Fixed expression: set the scene — 交代背景；營造情境」的用法，與本句語境不同。",
-        "scene-mcq-04": "「圍繞某種文化、藝術、社交或活動所形成的人物、場所及活動圈子」是「scene = area of social/cultural activity（活動圈／界別）」的用法，與本句語境不同。"
+        "scene-mcq-07": "本句的「behind the scenes」指「在公眾看不到的地方進行；指幕後工作、安排或影響」。",
+        "scene-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "scene-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-07"
     },
@@ -712,11 +614,7 @@ export default {
       "masked": "Paramedics were quickly ____.",
       "options": [
         "scene-mcq-08",
-        "scene-mcq-07",
-        "scene-mcq-09",
-        "scene-mcq-06",
-        "scene-mcq-10",
-        "scene-mcq-05"
+        "scene-mcq-10"
       ],
       "explanation": "本句的「on the scene」指「到達某件事情發生的地方；或開始出現在某個活動領域中」。",
       "sentenceIndex": 15,
@@ -725,12 +623,8 @@ export default {
         "on the scene"
       ],
       "optionReasons": {
-        "scene-mcq-08": "本句指「到達某件事情發生的地方；或開始出現在某個活動領域中」。",
-        "scene-mcq-07": "「在公眾看不到的地方進行；指幕後工作、安排或影響」是「Fixed expression: behind the scenes — 幕後；在不公開的情況下」的用法，與本句語境不同。",
-        "scene-mcq-09": "「提供背景資料或營造環境，使別人能理解接下來發生的事情」是「Fixed expression: set the scene — 交代背景；營造情境」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。",
-        "scene-mcq-10": "「景色優美、值得欣賞自然風景的」是「Related form: scenic」的用法，與本句語境不同。",
-        "scene-mcq-05": "「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」是「scene = public display of strong emotion（公開吵鬧／情緒爆發）」的用法，與本句語境不同。"
+        "scene-mcq-08": "本句的「on the scene」指「到達某件事情發生的地方；或開始出現在某個活動領域中」。",
+        "scene-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-08"
     },
@@ -742,11 +636,7 @@ export default {
       "masked": "The company arrived ____ in the late 1990s.",
       "options": [
         "scene-mcq-08",
-        "scene-mcq-07",
-        "scene-mcq-09",
-        "scene-mcq-06",
-        "scene-mcq-10",
-        "scene-mcq-05"
+        "scene-mcq-10"
       ],
       "explanation": "本句的「on the scene」指「到達某件事情發生的地方；或開始出現在某個活動領域中」。",
       "sentenceIndex": 16,
@@ -755,12 +645,8 @@ export default {
         "on the scene"
       ],
       "optionReasons": {
-        "scene-mcq-08": "本句指「到達某件事情發生的地方；或開始出現在某個活動領域中」。",
-        "scene-mcq-07": "「在公眾看不到的地方進行；指幕後工作、安排或影響」是「Fixed expression: behind the scenes — 幕後；在不公開的情況下」的用法，與本句語境不同。",
-        "scene-mcq-09": "「提供背景資料或營造環境，使別人能理解接下來發生的事情」是「Fixed expression: set the scene — 交代背景；營造情境」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。",
-        "scene-mcq-10": "「景色優美、值得欣賞自然風景的」是「Related form: scenic」的用法，與本句語境不同。",
-        "scene-mcq-05": "「在別人面前出現激烈、吵鬧或令人尷尬的情緒表現」是「scene = public display of strong emotion（公開吵鬧／情緒爆發）」的用法，與本句語境不同。"
+        "scene-mcq-08": "本句的「on the scene」指「到達某件事情發生的地方；或開始出現在某個活動領域中」。",
+        "scene-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-08"
     },
@@ -772,11 +658,7 @@ export default {
       "masked": "The opening paragraph ____ for the rest of the story.",
       "options": [
         "scene-mcq-09",
-        "scene-mcq-08",
-        "scene-mcq-10",
-        "scene-mcq-07",
-        "scene-mcq-11",
-        "scene-mcq-06"
+        "scene-mcq-07"
       ],
       "explanation": "本句的「sets the scene」指「提供背景資料或營造環境，使別人能理解接下來發生的事情」。",
       "sentenceIndex": 17,
@@ -785,12 +667,8 @@ export default {
         "sets the scene"
       ],
       "optionReasons": {
-        "scene-mcq-09": "本句指「提供背景資料或營造環境，使別人能理解接下來發生的事情」。",
-        "scene-mcq-08": "「到達某件事情發生的地方；或開始出現在某個活動領域中」是「Fixed expression: on the scene — 到場；出現；活躍於某領域」的用法，與本句語境不同。",
-        "scene-mcq-10": "「景色優美、值得欣賞自然風景的」是「Related form: scenic」的用法，與本句語境不同。",
-        "scene-mcq-07": "「在公眾看不到的地方進行；指幕後工作、安排或影響」是「Fixed expression: behind the scenes — 幕後；在不公開的情況下」的用法，與本句語境不同。",
-        "scene-mcq-11": "「某個地方呈現在眼前的自然景物和整體景觀」是「Related form: scenery」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。"
+        "scene-mcq-09": "本句的「sets the scene」指「提供背景資料或營造環境，使別人能理解接下來發生的事情」。",
+        "scene-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-09"
     },
@@ -802,11 +680,7 @@ export default {
       "masked": "Let me ____ before I explain what happened.",
       "options": [
         "scene-mcq-09",
-        "scene-mcq-08",
-        "scene-mcq-10",
-        "scene-mcq-07",
-        "scene-mcq-11",
-        "scene-mcq-06"
+        "scene-mcq-07"
       ],
       "explanation": "本句的「set the scene」指「提供背景資料或營造環境，使別人能理解接下來發生的事情」。",
       "sentenceIndex": 18,
@@ -815,12 +689,8 @@ export default {
         "set the scene"
       ],
       "optionReasons": {
-        "scene-mcq-09": "本句指「提供背景資料或營造環境，使別人能理解接下來發生的事情」。",
-        "scene-mcq-08": "「到達某件事情發生的地方；或開始出現在某個活動領域中」是「Fixed expression: on the scene — 到場；出現；活躍於某領域」的用法，與本句語境不同。",
-        "scene-mcq-10": "「景色優美、值得欣賞自然風景的」是「Related form: scenic」的用法，與本句語境不同。",
-        "scene-mcq-07": "「在公眾看不到的地方進行；指幕後工作、安排或影響」是「Fixed expression: behind the scenes — 幕後；在不公開的情況下」的用法，與本句語境不同。",
-        "scene-mcq-11": "「某個地方呈現在眼前的自然景物和整體景觀」是「Related form: scenery」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。"
+        "scene-mcq-09": "本句的「set the scene」指「提供背景資料或營造環境，使別人能理解接下來發生的事情」。",
+        "scene-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-09"
     },
@@ -832,11 +702,7 @@ export default {
       "masked": "We took the ____ along the coast.",
       "options": [
         "scene-mcq-10",
-        "scene-mcq-09",
-        "scene-mcq-11",
-        "scene-mcq-08",
-        "scene-mcq-07",
-        "scene-mcq-06"
+        "scene-mcq-04"
       ],
       "explanation": "本句的「scenic route」指「景色優美、值得欣賞自然風景的」。",
       "sentenceIndex": 19,
@@ -845,12 +711,8 @@ export default {
         "scenic route"
       ],
       "optionReasons": {
-        "scene-mcq-10": "本句指「景色優美、值得欣賞自然風景的」。",
-        "scene-mcq-09": "「提供背景資料或營造環境，使別人能理解接下來發生的事情」是「Fixed expression: set the scene — 交代背景；營造情境」的用法，與本句語境不同。",
-        "scene-mcq-11": "「某個地方呈現在眼前的自然景物和整體景觀」是「Related form: scenery」的用法，與本句語境不同。",
-        "scene-mcq-08": "「到達某件事情發生的地方；或開始出現在某個活動領域中」是「Fixed expression: on the scene — 到場；出現；活躍於某領域」的用法，與本句語境不同。",
-        "scene-mcq-07": "「在公眾看不到的地方進行；指幕後工作、安排或影響」是「Fixed expression: behind the scenes — 幕後；在不公開的情況下」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。"
+        "scene-mcq-10": "本句的「scenic route」指「景色優美、值得欣賞自然風景的」。",
+        "scene-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-10"
     },
@@ -862,11 +724,8 @@ export default {
       "masked": "The town is surrounded by ____ mountains.",
       "options": [
         "scene-mcq-10",
-        "scene-mcq-09",
-        "scene-mcq-11",
-        "scene-mcq-08",
-        "scene-mcq-07",
-        "scene-mcq-06"
+        "scene-mcq-05",
+        "scene-mcq-02"
       ],
       "explanation": "本句的「scenic」指「景色優美、值得欣賞自然風景的」。",
       "sentenceIndex": 20,
@@ -875,12 +734,9 @@ export default {
         "scenic"
       ],
       "optionReasons": {
-        "scene-mcq-10": "本句指「景色優美、值得欣賞自然風景的」。",
-        "scene-mcq-09": "「提供背景資料或營造環境，使別人能理解接下來發生的事情」是「Fixed expression: set the scene — 交代背景；營造情境」的用法，與本句語境不同。",
-        "scene-mcq-11": "「某個地方呈現在眼前的自然景物和整體景觀」是「Related form: scenery」的用法，與本句語境不同。",
-        "scene-mcq-08": "「到達某件事情發生的地方；或開始出現在某個活動領域中」是「Fixed expression: on the scene — 到場；出現；活躍於某領域」的用法，與本句語境不同。",
-        "scene-mcq-07": "「在公眾看不到的地方進行；指幕後工作、安排或影響」是「Fixed expression: behind the scenes — 幕後；在不公開的情況下」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。"
+        "scene-mcq-10": "本句的「scenic」指「景色優美、值得欣賞自然風景的」。",
+        "scene-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "scene-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-10"
     },
@@ -892,11 +748,7 @@ export default {
       "masked": "The mountain ____ was spectacular.",
       "options": [
         "scene-mcq-11",
-        "scene-mcq-10",
-        "scene-mcq-09",
-        "scene-mcq-08",
-        "scene-mcq-07",
-        "scene-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「scenery」指「某個地方呈現在眼前的自然景物和整體景觀」。",
       "sentenceIndex": 21,
@@ -905,12 +757,8 @@ export default {
         "scenery"
       ],
       "optionReasons": {
-        "scene-mcq-11": "本句指「某個地方呈現在眼前的自然景物和整體景觀」。",
-        "scene-mcq-10": "「景色優美、值得欣賞自然風景的」是「Related form: scenic」的用法，與本句語境不同。",
-        "scene-mcq-09": "「提供背景資料或營造環境，使別人能理解接下來發生的事情」是「Fixed expression: set the scene — 交代背景；營造情境」的用法，與本句語境不同。",
-        "scene-mcq-08": "「到達某件事情發生的地方；或開始出現在某個活動領域中」是「Fixed expression: on the scene — 到場；出現；活躍於某領域」的用法，與本句語境不同。",
-        "scene-mcq-07": "「在公眾看不到的地方進行；指幕後工作、安排或影響」是「Fixed expression: behind the scenes — 幕後；在不公開的情況下」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。"
+        "scene-mcq-11": "本句的「scenery」指「某個地方呈現在眼前的自然景物和整體景觀」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-11"
     },
@@ -922,11 +770,7 @@ export default {
       "masked": "We stopped several times to enjoy the ____.",
       "options": [
         "scene-mcq-11",
-        "scene-mcq-10",
-        "scene-mcq-09",
-        "scene-mcq-08",
-        "scene-mcq-07",
-        "scene-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「scenery」指「某個地方呈現在眼前的自然景物和整體景觀」。",
       "sentenceIndex": 22,
@@ -935,12 +779,8 @@ export default {
         "scenery"
       ],
       "optionReasons": {
-        "scene-mcq-11": "本句指「某個地方呈現在眼前的自然景物和整體景觀」。",
-        "scene-mcq-10": "「景色優美、值得欣賞自然風景的」是「Related form: scenic」的用法，與本句語境不同。",
-        "scene-mcq-09": "「提供背景資料或營造環境，使別人能理解接下來發生的事情」是「Fixed expression: set the scene — 交代背景；營造情境」的用法，與本句語境不同。",
-        "scene-mcq-08": "「到達某件事情發生的地方；或開始出現在某個活動領域中」是「Fixed expression: on the scene — 到場；出現；活躍於某領域」的用法，與本句語境不同。",
-        "scene-mcq-07": "「在公眾看不到的地方進行；指幕後工作、安排或影響」是「Fixed expression: behind the scenes — 幕後；在不公開的情況下」的用法，與本句語境不同。",
-        "scene-mcq-06": "「某個地方呈現在眼前的整體視覺景象或畫面」是「scene = view or visual appearance of a place（景象）」的用法，與本句語境不同。"
+        "scene-mcq-11": "本句的「scenery」指「某個地方呈現在眼前的自然景物和整體景觀」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "scene-mcq-11"
     }
@@ -952,5 +792,12 @@ export default {
     "sha256": "4c7be72b1e018758a253ea88f17b865b6ebf8059c744e981db4735228f16b3e9",
     "pages": 13
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

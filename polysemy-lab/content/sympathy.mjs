@@ -554,11 +554,8 @@ export default {
       "masked": "We can feel ____ for students who have nowhere quiet to study.",
       "options": [
         "sympathy-pdf-001",
-        "sympathy-mcq-02",
-        "sympathy-mcq-03",
-        "sympathy-mcq-04",
-        "sympathy-mcq-05",
-        "sympathy-mcq-06"
+        "sympathy-mcq-08",
+        "sympathy-mcq-10"
       ],
       "explanation": "本句的「sympathy」指「知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒」。",
       "sentenceIndex": 0,
@@ -567,12 +564,9 @@ export default {
         "sympathy"
       ],
       "optionReasons": {
-        "sympathy-pdf-001": "本句指「知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒」。",
-        "sympathy-mcq-02": "「對某人的困難表示理解和體諒」與本句語境不同。",
-        "sympathy-mcq-03": "「表達同情或關心」與本句語境不同。",
-        "sympathy-mcq-04": "「引起別人的同情」與本句語境不同。",
-        "sympathy-mcq-05": "「令別人開始更同情／理解／支持自己」與本句語境不同。",
-        "sympathy-mcq-06": "「對某人／某事缺乏同情、體諒或認同」與本句語境不同。"
+        "sympathy-pdf-001": "本句的「sympathy」指「知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒」。",
+        "sympathy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-pdf-001"
     },
@@ -584,11 +578,8 @@ export default {
       "masked": "She felt great ____ for the family.",
       "options": [
         "sympathy-pdf-001",
-        "sympathy-mcq-02",
-        "sympathy-mcq-03",
-        "sympathy-mcq-04",
-        "sympathy-mcq-05",
-        "sympathy-mcq-06"
+        "sympathy-mcq-10",
+        "sympathy-mcq-07"
       ],
       "explanation": "本句的「sympathy」指「知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒」。",
       "sentenceIndex": 1,
@@ -597,12 +588,9 @@ export default {
         "sympathy"
       ],
       "optionReasons": {
-        "sympathy-pdf-001": "本句指「知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒」。",
-        "sympathy-mcq-02": "「對某人的困難表示理解和體諒」與本句語境不同。",
-        "sympathy-mcq-03": "「表達同情或關心」與本句語境不同。",
-        "sympathy-mcq-04": "「引起別人的同情」與本句語境不同。",
-        "sympathy-mcq-05": "「令別人開始更同情／理解／支持自己」與本句語境不同。",
-        "sympathy-mcq-06": "「對某人／某事缺乏同情、體諒或認同」與本句語境不同。"
+        "sympathy-pdf-001": "本句的「sympathy」指「知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒」。",
+        "sympathy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-pdf-001"
     },
@@ -614,11 +602,8 @@ export default {
       "masked": "His situation deserves our ____.",
       "options": [
         "sympathy-pdf-001",
-        "sympathy-mcq-02",
-        "sympathy-mcq-03",
-        "sympathy-mcq-04",
-        "sympathy-mcq-05",
-        "sympathy-mcq-06"
+        "sympathy-mcq-07",
+        "sympathy-mcq-10"
       ],
       "explanation": "本句的「sympathy」指「知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒」。",
       "sentenceIndex": 2,
@@ -627,12 +612,9 @@ export default {
         "sympathy"
       ],
       "optionReasons": {
-        "sympathy-pdf-001": "本句指「知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒」。",
-        "sympathy-mcq-02": "「對某人的困難表示理解和體諒」與本句語境不同。",
-        "sympathy-mcq-03": "「表達同情或關心」與本句語境不同。",
-        "sympathy-mcq-04": "「引起別人的同情」與本句語境不同。",
-        "sympathy-mcq-05": "「令別人開始更同情／理解／支持自己」與本句語境不同。",
-        "sympathy-mcq-06": "「對某人／某事缺乏同情、體諒或認同」與本句語境不同。"
+        "sympathy-pdf-001": "本句的「sympathy」指「知道別人正在受苦／面對困難，因此對其產生關心、難過或體諒」。",
+        "sympathy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-pdf-001"
     },
@@ -644,11 +626,8 @@ export default {
       "masked": "I feel ____ anyone working under that pressure.",
       "options": [
         "sympathy-mcq-02",
-        "sympathy-mcq-01",
-        "sympathy-mcq-03",
-        "sympathy-mcq-04",
-        "sympathy-mcq-05",
-        "sympathy-mcq-06"
+        "sympathy-mcq-12",
+        "sympathy-mcq-08"
       ],
       "explanation": "本句的「sympathy for」指「對某人的困難表示理解和體諒」。",
       "sentenceIndex": 3,
@@ -657,12 +636,9 @@ export default {
         "sympathy for"
       ],
       "optionReasons": {
-        "sympathy-mcq-02": "本句指「對某人的困難表示理解和體諒」。",
-        "sympathy-mcq-01": "「因別人的痛苦／困境而產生的同情、關懷和體諒」與本句語境不同。",
-        "sympathy-mcq-03": "「表達同情或關心」與本句語境不同。",
-        "sympathy-mcq-04": "「引起別人的同情」與本句語境不同。",
-        "sympathy-mcq-05": "「令別人開始更同情／理解／支持自己」與本句語境不同。",
-        "sympathy-mcq-06": "「對某人／某事缺乏同情、體諒或認同」與本句語境不同。"
+        "sympathy-mcq-02": "本句的「sympathy for」指「對某人的困難表示理解和體諒」。",
+        "sympathy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-02"
     },
@@ -674,11 +650,8 @@ export default {
       "masked": "I have considerable ____ students living in cramped homes.",
       "options": [
         "sympathy-mcq-02",
-        "sympathy-mcq-01",
-        "sympathy-mcq-03",
-        "sympathy-mcq-04",
-        "sympathy-mcq-05",
-        "sympathy-mcq-06"
+        "sympathy-mcq-08",
+        "sympathy-mcq-12"
       ],
       "explanation": "本句的「sympathy for」指「對某人的困難表示理解和體諒」。",
       "sentenceIndex": 4,
@@ -687,12 +660,9 @@ export default {
         "sympathy for"
       ],
       "optionReasons": {
-        "sympathy-mcq-02": "本句指「對某人的困難表示理解和體諒」。",
-        "sympathy-mcq-01": "「因別人的痛苦／困境而產生的同情、關懷和體諒」與本句語境不同。",
-        "sympathy-mcq-03": "「表達同情或關心」與本句語境不同。",
-        "sympathy-mcq-04": "「引起別人的同情」與本句語境不同。",
-        "sympathy-mcq-05": "「令別人開始更同情／理解／支持自己」與本句語境不同。",
-        "sympathy-mcq-06": "「對某人／某事缺乏同情、體諒或認同」與本句語境不同。"
+        "sympathy-mcq-02": "本句的「sympathy for」指「對某人的困難表示理解和體諒」。",
+        "sympathy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-02"
     },
@@ -704,11 +674,8 @@ export default {
       "masked": "Her story ____.",
       "options": [
         "sympathy-mcq-04",
-        "sympathy-mcq-03",
-        "sympathy-mcq-05",
-        "sympathy-mcq-02",
-        "sympathy-mcq-06",
-        "sympathy-mcq-01"
+        "sympathy-mcq-18",
+        "sympathy-mcq-07"
       ],
       "explanation": "本句的「aroused considerable sympathy」指「引起別人的同情」。",
       "sentenceIndex": 5,
@@ -717,12 +684,9 @@ export default {
         "aroused considerable sympathy"
       ],
       "optionReasons": {
-        "sympathy-mcq-04": "本句指「引起別人的同情」。",
-        "sympathy-mcq-03": "「表達同情或關心」與本句語境不同。",
-        "sympathy-mcq-05": "「令別人開始更同情／理解／支持自己」與本句語境不同。",
-        "sympathy-mcq-02": "「對某人的困難表示理解和體諒」與本句語境不同。",
-        "sympathy-mcq-06": "「對某人／某事缺乏同情、體諒或認同」與本句語境不同。",
-        "sympathy-mcq-01": "「因別人的痛苦／困境而產生的同情、關懷和體諒」與本句語境不同。"
+        "sympathy-mcq-04": "本句的「aroused considerable sympathy」指「引起別人的同情」。",
+        "sympathy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-04"
     },
@@ -734,11 +698,7 @@ export default {
       "masked": "His explanation won him some ____.",
       "options": [
         "sympathy-mcq-05",
-        "sympathy-mcq-04",
-        "sympathy-mcq-06",
-        "sympathy-mcq-03",
-        "sympathy-mcq-07",
-        "sympathy-mcq-02"
+        "sympathy-mcq-08"
       ],
       "explanation": "本句的「sympathy」指「令別人開始更同情／理解／支持自己」。",
       "sentenceIndex": 6,
@@ -747,12 +707,8 @@ export default {
         "sympathy"
       ],
       "optionReasons": {
-        "sympathy-mcq-05": "本句指「令別人開始更同情／理解／支持自己」。",
-        "sympathy-mcq-04": "「引起別人的同情」與本句語境不同。",
-        "sympathy-mcq-06": "「對某人／某事缺乏同情、體諒或認同」與本句語境不同。",
-        "sympathy-mcq-03": "「表達同情或關心」與本句語境不同。",
-        "sympathy-mcq-07": "「對喪親者表達的哀悼／慰問」與本句語境不同。",
-        "sympathy-mcq-02": "「對某人的困難表示理解和體諒」與本句語境不同。"
+        "sympathy-mcq-05": "本句的「sympathy」指「令別人開始更同情／理解／支持自己」。",
+        "sympathy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-05"
     },
@@ -764,11 +720,8 @@ export default {
       "masked": "She had little ____ people who deliberately ignored the rules.",
       "options": [
         "sympathy-mcq-06",
-        "sympathy-mcq-05",
-        "sympathy-mcq-07",
-        "sympathy-mcq-04",
-        "sympathy-mcq-08",
-        "sympathy-mcq-03"
+        "sympathy-mcq-12",
+        "sympathy-mcq-08"
       ],
       "explanation": "本句的「sympathy for」指「對某人／某事缺乏同情、體諒或認同」。",
       "sentenceIndex": 7,
@@ -777,12 +730,9 @@ export default {
         "sympathy for"
       ],
       "optionReasons": {
-        "sympathy-mcq-06": "本句指「對某人／某事缺乏同情、體諒或認同」。",
-        "sympathy-mcq-05": "「令別人開始更同情／理解／支持自己」與本句語境不同。",
-        "sympathy-mcq-07": "「對喪親者表達的哀悼／慰問」與本句語境不同。",
-        "sympathy-mcq-04": "「引起別人的同情」與本句語境不同。",
-        "sympathy-mcq-08": "「最深切的慰問」與本句語境不同。",
-        "sympathy-mcq-03": "「表達同情或關心」與本句語境不同。"
+        "sympathy-mcq-06": "本句的「sympathy for」指「對某人／某事缺乏同情、體諒或認同」。",
+        "sympathy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-06"
     },
@@ -794,10 +744,7 @@ export default {
       "masked": "Please accept my deepest ____.",
       "options": [
         "sympathy-mcq-07",
-        "sympathy-mcq-06",
-        "sympathy-mcq-08",
-        "sympathy-mcq-05",
-        "sympathy-mcq-09",
+        "sympathy-mcq-12",
         "sympathy-mcq-04"
       ],
       "explanation": "本句的「sympathy」指「對喪親者表達的哀悼／慰問」。",
@@ -807,12 +754,9 @@ export default {
         "sympathy"
       ],
       "optionReasons": {
-        "sympathy-mcq-07": "本句指「對喪親者表達的哀悼／慰問」。",
-        "sympathy-mcq-06": "「對某人／某事缺乏同情、體諒或認同」與本句語境不同。",
-        "sympathy-mcq-08": "「最深切的慰問」與本句語境不同。",
-        "sympathy-mcq-05": "「令別人開始更同情／理解／支持自己」與本句語境不同。",
-        "sympathy-mcq-09": "「慰問卡／慰問信息」與本句語境不同。",
-        "sympathy-mcq-04": "「引起別人的同情」與本句語境不同。"
+        "sympathy-mcq-07": "本句的「sympathy」指「對喪親者表達的哀悼／慰問」。",
+        "sympathy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-07"
     },
@@ -824,11 +768,7 @@ export default {
       "masked": "We sent our ____ to the family.",
       "options": [
         "sympathy-mcq-07",
-        "sympathy-mcq-06",
-        "sympathy-mcq-08",
-        "sympathy-mcq-05",
-        "sympathy-mcq-09",
-        "sympathy-mcq-04"
+        "sympathy-mcq-05"
       ],
       "explanation": "本句的「sympathy」指「對喪親者表達的哀悼／慰問」。",
       "sentenceIndex": 9,
@@ -837,12 +777,8 @@ export default {
         "sympathy"
       ],
       "optionReasons": {
-        "sympathy-mcq-07": "本句指「對喪親者表達的哀悼／慰問」。",
-        "sympathy-mcq-06": "「對某人／某事缺乏同情、體諒或認同」與本句語境不同。",
-        "sympathy-mcq-08": "「最深切的慰問」與本句語境不同。",
-        "sympathy-mcq-05": "「令別人開始更同情／理解／支持自己」與本句語境不同。",
-        "sympathy-mcq-09": "「慰問卡／慰問信息」與本句語境不同。",
-        "sympathy-mcq-04": "「引起別人的同情」與本句語境不同。"
+        "sympathy-mcq-07": "本句的「sympathy」指「對喪親者表達的哀悼／慰問」。",
+        "sympathy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-07"
     },
@@ -854,11 +790,8 @@ export default {
       "masked": "She called to express her ____.",
       "options": [
         "sympathy-mcq-08",
-        "sympathy-mcq-07",
-        "sympathy-mcq-09",
         "sympathy-mcq-06",
-        "sympathy-mcq-10",
-        "sympathy-mcq-05"
+        "sympathy-mcq-12"
       ],
       "explanation": "本句的「sympathy」指「最深切的慰問」。",
       "sentenceIndex": 10,
@@ -867,12 +800,9 @@ export default {
         "sympathy"
       ],
       "optionReasons": {
-        "sympathy-mcq-08": "本句指「最深切的慰問」。",
-        "sympathy-mcq-07": "「對喪親者表達的哀悼／慰問」與本句語境不同。",
-        "sympathy-mcq-09": "「慰問卡／慰問信息」與本句語境不同。",
-        "sympathy-mcq-06": "「對某人／某事缺乏同情、體諒或認同」與本句語境不同。",
-        "sympathy-mcq-10": "「對某個立場、理念或一方有一定程度的認同／支持」與本句語境不同。",
-        "sympathy-mcq-05": "「令別人開始更同情／理解／支持自己」與本句語境不同。"
+        "sympathy-mcq-08": "本句的「sympathy」指「最深切的慰問」。",
+        "sympathy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-08"
     },
@@ -885,10 +815,8 @@ export default {
       "options": [
         "sympathy-mcq-19",
         "sympathy-mcq-18",
-        "sympathy-mcq-20",
-        "sympathy-mcq-17",
-        "sympathy-mcq-21",
-        "sympathy-mcq-16"
+        "sympathy-mcq-07",
+        "sympathy-mcq-20"
       ],
       "explanation": "本句的「sympathetic ear」指「願意耐心、體諒地聆聽別人的人」。",
       "sentenceIndex": 12,
@@ -897,12 +825,10 @@ export default {
         "sympathetic ear"
       ],
       "optionReasons": {
-        "sympathy-mcq-19": "本句指「願意耐心、體諒地聆聽別人的人」。",
-        "sympathy-mcq-18": "「對某想法／理念持較支持、正面的態度」與本句語境不同。",
-        "sympathy-mcq-20": "「能令觀眾理解、認同或產生同情的角色」與本句語境不同。",
-        "sympathy-mcq-17": "「對他人的困難表現出理解、同情和體諒的」與本句語境不同。",
-        "sympathy-mcq-21": "「以較具理解、同情或人性化方式描寫」與本句語境不同。",
-        "sympathy-mcq-16": "「對某團體／理念表示支持但未必是正式成員的人」與本句語境不同。"
+        "sympathy-mcq-19": "本句的「sympathetic ear」指「願意耐心、體諒地聆聽別人的人」。",
+        "sympathy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-19"
     },
@@ -914,11 +840,8 @@ export default {
       "masked": "She has some ____ that argument.",
       "options": [
         "sympathy-mcq-10",
-        "sympathy-mcq-09",
-        "sympathy-mcq-11",
-        "sympathy-mcq-08",
-        "sympathy-mcq-12",
-        "sympathy-mcq-07"
+        "sympathy-pdf-001",
+        "sympathy-mcq-08"
       ],
       "explanation": "本句的「sympathy with」指「對某個立場、理念或一方有一定程度的認同／支持」。",
       "sentenceIndex": 13,
@@ -927,12 +850,9 @@ export default {
         "sympathy with"
       ],
       "optionReasons": {
-        "sympathy-mcq-10": "本句指「對某個立場、理念或一方有一定程度的認同／支持」。",
-        "sympathy-mcq-09": "「慰問卡／慰問信息」與本句語境不同。",
-        "sympathy-mcq-11": "「自己的立場／情感較傾向支持 X」與本句語境不同。",
-        "sympathy-mcq-08": "「最深切的慰問」與本句語境不同。",
-        "sympathy-mcq-12": "「與某立場一致／表示支持」與本句語境不同。",
-        "sympathy-mcq-07": "「對喪親者表達的哀悼／慰問」與本句語境不同。"
+        "sympathy-mcq-10": "本句的「sympathy with」指「對某個立場、理念或一方有一定程度的認同／支持」。",
+        "sympathy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-10"
     },
@@ -944,10 +864,7 @@ export default {
       "masked": "I have some ____ with that view, although I do not fully agree.",
       "options": [
         "sympathy-mcq-10",
-        "sympathy-mcq-09",
-        "sympathy-mcq-11",
-        "sympathy-mcq-08",
-        "sympathy-mcq-12",
+        "sympathy-mcq-19",
         "sympathy-mcq-07"
       ],
       "explanation": "本句的「sympathy」指「對某個立場、理念或一方有一定程度的認同／支持」。",
@@ -957,12 +874,9 @@ export default {
         "sympathy"
       ],
       "optionReasons": {
-        "sympathy-mcq-10": "本句指「對某個立場、理念或一方有一定程度的認同／支持」。",
-        "sympathy-mcq-09": "「慰問卡／慰問信息」與本句語境不同。",
-        "sympathy-mcq-11": "「自己的立場／情感較傾向支持 X」與本句語境不同。",
-        "sympathy-mcq-08": "「最深切的慰問」與本句語境不同。",
-        "sympathy-mcq-12": "「與某立場一致／表示支持」與本句語境不同。",
-        "sympathy-mcq-07": "「對喪親者表達的哀悼／慰問」與本句語境不同。"
+        "sympathy-mcq-10": "本句的「sympathy」指「對某個立場、理念或一方有一定程度的認同／支持」。",
+        "sympathy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-10"
     },
@@ -974,11 +888,9 @@ export default {
       "masked": "Many employees were in ____ with the proposal.",
       "options": [
         "sympathy-mcq-12",
-        "sympathy-mcq-11",
-        "sympathy-mcq-13",
-        "sympathy-mcq-10",
-        "sympathy-mcq-14",
-        "sympathy-mcq-09"
+        "sympathy-mcq-20",
+        "sympathy-mcq-19",
+        "sympathy-mcq-08"
       ],
       "explanation": "本句的「sympathy」指「與某立場一致／表示支持」。",
       "sentenceIndex": 15,
@@ -987,12 +899,10 @@ export default {
         "sympathy"
       ],
       "optionReasons": {
-        "sympathy-mcq-12": "本句指「與某立場一致／表示支持」。",
-        "sympathy-mcq-11": "「自己的立場／情感較傾向支持 X」與本句語境不同。",
-        "sympathy-mcq-13": "「不再認同某人的觀點／理念」與本句語境不同。",
-        "sympathy-mcq-10": "「對某個立場、理念或一方有一定程度的認同／支持」與本句語境不同。",
-        "sympathy-mcq-14": "「理解並同情／體諒某人的困境」與本句語境不同。",
-        "sympathy-mcq-09": "「慰問卡／慰問信息」與本句語境不同。"
+        "sympathy-mcq-12": "本句的「sympathy」指「與某立場一致／表示支持」。",
+        "sympathy-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-12"
     },
@@ -1004,11 +914,8 @@ export default {
       "masked": "I ____ students who struggle to find quiet study space.",
       "options": [
         "sympathy-mcq-14",
-        "sympathy-mcq-13",
-        "sympathy-mcq-15",
         "sympathy-mcq-12",
-        "sympathy-mcq-16",
-        "sympathy-mcq-11"
+        "sympathy-mcq-07"
       ],
       "explanation": "本句的「sympathise with」指「理解並同情／體諒某人的困境」。",
       "sentenceIndex": 16,
@@ -1017,12 +924,9 @@ export default {
         "sympathise with"
       ],
       "optionReasons": {
-        "sympathy-mcq-14": "本句指「理解並同情／體諒某人的困境」。",
-        "sympathy-mcq-13": "「不再認同某人的觀點／理念」與本句語境不同。",
-        "sympathy-mcq-15": "「認同／支持某觀點或理念」與本句語境不同。",
-        "sympathy-mcq-12": "「與某立場一致／表示支持」與本句語境不同。",
-        "sympathy-mcq-16": "「對某團體／理念表示支持但未必是正式成員的人」與本句語境不同。",
-        "sympathy-mcq-11": "「自己的立場／情感較傾向支持 X」與本句語境不同。"
+        "sympathy-mcq-14": "本句的「sympathise with」指「理解並同情／體諒某人的困境」。",
+        "sympathy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-14"
     },
@@ -1034,11 +938,8 @@ export default {
       "masked": "The teacher was very ____.",
       "options": [
         "sympathy-mcq-17",
-        "sympathy-mcq-16",
-        "sympathy-mcq-18",
-        "sympathy-mcq-15",
-        "sympathy-mcq-19",
-        "sympathy-mcq-14"
+        "sympathy-mcq-12",
+        "sympathy-mcq-08"
       ],
       "explanation": "本句的「sympathetic」指「對他人的困難表現出理解、同情和體諒的」。",
       "sentenceIndex": 17,
@@ -1047,12 +948,9 @@ export default {
         "sympathetic"
       ],
       "optionReasons": {
-        "sympathy-mcq-17": "本句指「對他人的困難表現出理解、同情和體諒的」。",
-        "sympathy-mcq-16": "「對某團體／理念表示支持但未必是正式成員的人」與本句語境不同。",
-        "sympathy-mcq-18": "「對某想法／理念持較支持、正面的態度」與本句語境不同。",
-        "sympathy-mcq-15": "「認同／支持某觀點或理念」與本句語境不同。",
-        "sympathy-mcq-19": "「願意耐心、體諒地聆聽別人的人」與本句語境不同。",
-        "sympathy-mcq-14": "「理解並同情／體諒某人的困境」與本句語境不同。"
+        "sympathy-mcq-17": "本句的「sympathetic」指「對他人的困難表現出理解、同情和體諒的」。",
+        "sympathy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-17"
     },
@@ -1064,11 +962,9 @@ export default {
       "masked": "She is broadly ____ the proposal.",
       "options": [
         "sympathy-mcq-18",
-        "sympathy-mcq-17",
         "sympathy-mcq-19",
-        "sympathy-mcq-16",
-        "sympathy-mcq-20",
-        "sympathy-mcq-15"
+        "sympathy-mcq-07",
+        "sympathy-mcq-20"
       ],
       "explanation": "本句的「sympathetic to」指「對某想法／理念持較支持、正面的態度」。",
       "sentenceIndex": 18,
@@ -1077,12 +973,10 @@ export default {
         "sympathetic to"
       ],
       "optionReasons": {
-        "sympathy-mcq-18": "本句指「對某想法／理念持較支持、正面的態度」。",
-        "sympathy-mcq-17": "「對他人的困難表現出理解、同情和體諒的」與本句語境不同。",
-        "sympathy-mcq-19": "「願意耐心、體諒地聆聽別人的人」與本句語境不同。",
-        "sympathy-mcq-16": "「對某團體／理念表示支持但未必是正式成員的人」與本句語境不同。",
-        "sympathy-mcq-20": "「能令觀眾理解、認同或產生同情的角色」與本句語境不同。",
-        "sympathy-mcq-15": "「認同／支持某觀點或理念」與本句語境不同。"
+        "sympathy-mcq-18": "本句的「sympathetic to」指「對某想法／理念持較支持、正面的態度」。",
+        "sympathy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-18"
     },
@@ -1094,11 +988,9 @@ export default {
       "masked": "The film turns him into a more ____.",
       "options": [
         "sympathy-mcq-20",
-        "sympathy-mcq-19",
-        "sympathy-mcq-21",
-        "sympathy-mcq-18",
-        "sympathy-mcq-22",
-        "sympathy-mcq-17"
+        "sympathy-mcq-12",
+        "sympathy-mcq-07",
+        "sympathy-mcq-19"
       ],
       "explanation": "本句的「sympathetic character」指「能令觀眾理解、認同或產生同情的角色」。",
       "sentenceIndex": 19,
@@ -1107,12 +999,10 @@ export default {
         "sympathetic character"
       ],
       "optionReasons": {
-        "sympathy-mcq-20": "本句指「能令觀眾理解、認同或產生同情的角色」。",
-        "sympathy-mcq-19": "「願意耐心、體諒地聆聽別人的人」與本句語境不同。",
-        "sympathy-mcq-21": "「以較具理解、同情或人性化方式描寫」與本句語境不同。",
-        "sympathy-mcq-18": "「對某想法／理念持較支持、正面的態度」與本句語境不同。",
-        "sympathy-mcq-22": "「與原有風格／環境協調並尊重其特質的設計／修復」與本句語境不同。",
-        "sympathy-mcq-17": "「對他人的困難表現出理解、同情和體諒的」與本句語境不同。"
+        "sympathy-mcq-20": "本句的「sympathetic character」指「能令觀眾理解、認同或產生同情的角色」。",
+        "sympathy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-20"
     },
@@ -1124,11 +1014,8 @@ export default {
       "masked": "The manager was surprisingly ____.",
       "options": [
         "sympathy-mcq-35",
-        "sympathy-mcq-34",
-        "sympathy-mcq-36",
-        "sympathy-mcq-33",
-        "sympathy-mcq-37",
-        "sympathy-mcq-32"
+        "sympathy-mcq-07",
+        "sympathy-mcq-12"
       ],
       "explanation": "本句的「unsympathetic」指「對別人困難缺乏同情和理解的」。",
       "sentenceIndex": 20,
@@ -1137,12 +1024,9 @@ export default {
         "unsympathetic"
       ],
       "optionReasons": {
-        "sympathy-mcq-35": "本句指「對別人困難缺乏同情和理解的」。",
-        "sympathy-mcq-34": "「舊稱隱形墨水」與本句語境不同。",
-        "sympathy-mcq-36": "「不認同／不支持某想法」與本句語境不同。",
-        "sympathy-mcq-33": "「建基於相似／聯繫能產生影響等觀念的交感巫術」與本句語境不同。",
-        "sympathy-mcq-37": "「難以令觀眾同情、認同或喜歡的角色」與本句語境不同。",
-        "sympathy-mcq-32": "「因同情某人處境而給予的票／支持」與本句語境不同。"
+        "sympathy-mcq-35": "本句的「unsympathetic」指「對別人困難缺乏同情和理解的」。",
+        "sympathy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-35"
     },
@@ -1154,11 +1038,8 @@ export default {
       "masked": "The committee was largely ____ the proposal.",
       "options": [
         "sympathy-mcq-36",
-        "sympathy-mcq-35",
-        "sympathy-mcq-37",
-        "sympathy-mcq-34",
-        "sympathy-mcq-33",
-        "sympathy-mcq-32"
+        "sympathy-pdf-001",
+        "sympathy-mcq-08"
       ],
       "explanation": "本句的「unsympathetic to」指「不認同／不支持某想法」。",
       "sentenceIndex": 21,
@@ -1167,12 +1048,9 @@ export default {
         "unsympathetic to"
       ],
       "optionReasons": {
-        "sympathy-mcq-36": "本句指「不認同／不支持某想法」。",
-        "sympathy-mcq-35": "「對別人困難缺乏同情和理解的」與本句語境不同。",
-        "sympathy-mcq-37": "「難以令觀眾同情、認同或喜歡的角色」與本句語境不同。",
-        "sympathy-mcq-34": "「舊稱隱形墨水」與本句語境不同。",
-        "sympathy-mcq-33": "「建基於相似／聯繫能產生影響等觀念的交感巫術」與本句語境不同。",
-        "sympathy-mcq-32": "「因同情某人處境而給予的票／支持」與本句語境不同。"
+        "sympathy-mcq-36": "本句的「unsympathetic to」指「不認同／不支持某想法」。",
+        "sympathy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "sympathy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sympathy-mcq-36"
     }
@@ -1184,5 +1062,7 @@ export default {
     "sha256": "31a9ec69449a8f615cbd06c03c9b0a49a37286ed4895b1e1838154600d7d402a",
     "pages": 36
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

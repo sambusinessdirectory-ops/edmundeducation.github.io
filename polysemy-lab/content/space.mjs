@@ -580,11 +580,9 @@ export default {
       "masked": "The living room becomes a ____.",
       "options": [
         "space-mcq-01",
-        "space-mcq-02",
-        "space-mcq-03",
-        "space-mcq-04",
-        "space-mcq-05",
-        "space-mcq-06"
+        "space-mcq-19",
+        "space-mcq-15",
+        "space-mcq-11"
       ],
       "explanation": "本句的「space station」指「地球大氣層以外的宇宙空間」。",
       "sentenceIndex": 0,
@@ -593,12 +591,10 @@ export default {
         "space station"
       ],
       "optionReasons": {
-        "space-mcq-01": "本句指「地球大氣層以外的宇宙空間」。",
-        "space-mcq-02": "「在太空中運行、供太空人生活／工作／研究的設施」是「space station」的用法，與本句語境不同。",
-        "space-mcq-03": "「可供人、物或活動佔用的空地方／範圍」是「space — available area」的用法，與本句語境不同。",
-        "space-mcq-04": "「兩個物件、文字或位置之間的空白距離」是「space — distance」的用法，與本句語境不同。",
-        "space-mcq-05": "「紙張、表格或螢幕上未被內容佔用的區域」是「space — blank area」的用法，與本句語境不同。",
-        "space-mcq-06": "「為某種特定用途預留或可使用的位置」是「space — designated place」的用法，與本句語境不同。"
+        "space-mcq-01": "本句的「space station」指「地球大氣層以外的宇宙空間」。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-01"
     },
@@ -610,11 +606,9 @@ export default {
       "masked": "Humans have sent many satellites into ____.",
       "options": [
         "space-mcq-01",
-        "space-mcq-02",
-        "space-mcq-03",
-        "space-mcq-04",
-        "space-mcq-05",
-        "space-mcq-06"
+        "space-mcq-11",
+        "space-mcq-16",
+        "space-mcq-19"
       ],
       "explanation": "本句的「space」指「地球大氣層以外的宇宙空間」。",
       "sentenceIndex": 1,
@@ -623,12 +617,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-01": "本句指「地球大氣層以外的宇宙空間」。",
-        "space-mcq-02": "「在太空中運行、供太空人生活／工作／研究的設施」是「space station」的用法，與本句語境不同。",
-        "space-mcq-03": "「可供人、物或活動佔用的空地方／範圍」是「space — available area」的用法，與本句語境不同。",
-        "space-mcq-04": "「兩個物件、文字或位置之間的空白距離」是「space — distance」的用法，與本句語境不同。",
-        "space-mcq-05": "「紙張、表格或螢幕上未被內容佔用的區域」是「space — blank area」的用法，與本句語境不同。",
-        "space-mcq-06": "「為某種特定用途預留或可使用的位置」是「space — designated place」的用法，與本句語境不同。"
+        "space-mcq-01": "本句的「space」指「地球大氣層以外的宇宙空間」。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-01"
     },
@@ -640,11 +632,9 @@ export default {
       "masked": "Scientists study how people live in ____.",
       "options": [
         "space-mcq-01",
-        "space-mcq-02",
-        "space-mcq-03",
-        "space-mcq-04",
-        "space-mcq-05",
-        "space-mcq-06"
+        "space-mcq-19",
+        "space-mcq-15",
+        "space-mcq-11"
       ],
       "explanation": "本句的「space」指「地球大氣層以外的宇宙空間」。",
       "sentenceIndex": 2,
@@ -653,12 +643,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-01": "本句指「地球大氣層以外的宇宙空間」。",
-        "space-mcq-02": "「在太空中運行、供太空人生活／工作／研究的設施」是「space station」的用法，與本句語境不同。",
-        "space-mcq-03": "「可供人、物或活動佔用的空地方／範圍」是「space — available area」的用法，與本句語境不同。",
-        "space-mcq-04": "「兩個物件、文字或位置之間的空白距離」是「space — distance」的用法，與本句語境不同。",
-        "space-mcq-05": "「紙張、表格或螢幕上未被內容佔用的區域」是「space — blank area」的用法，與本句語境不同。",
-        "space-mcq-06": "「為某種特定用途預留或可使用的位置」是「space — designated place」的用法，與本句語境不同。"
+        "space-mcq-01": "本句的「space」指「地球大氣層以外的宇宙空間」。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-01"
     },
@@ -670,11 +658,9 @@ export default {
       "masked": "Astronauts live and work on the ____.",
       "options": [
         "space-mcq-02",
-        "space-mcq-01",
-        "space-mcq-03",
-        "space-mcq-04",
-        "space-mcq-05",
-        "space-mcq-06"
+        "space-mcq-16",
+        "space-mcq-19",
+        "space-mcq-22"
       ],
       "explanation": "本句的「space station」指「在太空中運行、供太空人生活／工作／研究的設施」。",
       "sentenceIndex": 3,
@@ -683,12 +669,10 @@ export default {
         "space station"
       ],
       "optionReasons": {
-        "space-mcq-02": "本句指「在太空中運行、供太空人生活／工作／研究的設施」。",
-        "space-mcq-01": "「地球大氣層以外的宇宙空間」是「space — outer space」的用法，與本句語境不同。",
-        "space-mcq-03": "「可供人、物或活動佔用的空地方／範圍」是「space — available area」的用法，與本句語境不同。",
-        "space-mcq-04": "「兩個物件、文字或位置之間的空白距離」是「space — distance」的用法，與本句語境不同。",
-        "space-mcq-05": "「紙張、表格或螢幕上未被內容佔用的區域」是「space — blank area」的用法，與本句語境不同。",
-        "space-mcq-06": "「為某種特定用途預留或可使用的位置」是「space — designated place」的用法，與本句語境不同。"
+        "space-mcq-02": "本句的「space station」指「在太空中運行、供太空人生活／工作／研究的設施」。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-02"
     },
@@ -700,11 +684,9 @@ export default {
       "masked": "The children pretended the room was a ____.",
       "options": [
         "space-mcq-02",
-        "space-mcq-01",
-        "space-mcq-03",
-        "space-mcq-04",
-        "space-mcq-05",
-        "space-mcq-06"
+        "space-mcq-16",
+        "space-mcq-13",
+        "space-mcq-11"
       ],
       "explanation": "本句的「space station」指「在太空中運行、供太空人生活／工作／研究的設施」。",
       "sentenceIndex": 4,
@@ -713,12 +695,10 @@ export default {
         "space station"
       ],
       "optionReasons": {
-        "space-mcq-02": "本句指「在太空中運行、供太空人生活／工作／研究的設施」。",
-        "space-mcq-01": "「地球大氣層以外的宇宙空間」是「space — outer space」的用法，與本句語境不同。",
-        "space-mcq-03": "「可供人、物或活動佔用的空地方／範圍」是「space — available area」的用法，與本句語境不同。",
-        "space-mcq-04": "「兩個物件、文字或位置之間的空白距離」是「space — distance」的用法，與本句語境不同。",
-        "space-mcq-05": "「紙張、表格或螢幕上未被內容佔用的區域」是「space — blank area」的用法，與本句語境不同。",
-        "space-mcq-06": "「為某種特定用途預留或可使用的位置」是「space — designated place」的用法，與本句語境不同。"
+        "space-mcq-02": "本句的「space station」指「在太空中運行、供太空人生活／工作／研究的設施」。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-02"
     },
@@ -730,11 +710,9 @@ export default {
       "masked": "There isn’t enough ____ for another table.",
       "options": [
         "space-mcq-03",
-        "space-mcq-02",
-        "space-mcq-04",
-        "space-mcq-01",
-        "space-mcq-05",
-        "space-mcq-06"
+        "space-mcq-18",
+        "space-mcq-16",
+        "space-mcq-11"
       ],
       "explanation": "本句的「space」指「可供人、物或活動佔用的空地方／範圍」。",
       "sentenceIndex": 5,
@@ -743,12 +721,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-03": "本句指「可供人、物或活動佔用的空地方／範圍」。",
-        "space-mcq-02": "「在太空中運行、供太空人生活／工作／研究的設施」是「space station」的用法，與本句語境不同。",
-        "space-mcq-04": "「兩個物件、文字或位置之間的空白距離」是「space — distance」的用法，與本句語境不同。",
-        "space-mcq-01": "「地球大氣層以外的宇宙空間」是「space — outer space」的用法，與本句語境不同。",
-        "space-mcq-05": "「紙張、表格或螢幕上未被內容佔用的區域」是「space — blank area」的用法，與本句語境不同。",
-        "space-mcq-06": "「為某種特定用途預留或可使用的位置」是「space — designated place」的用法，與本句語境不同。"
+        "space-mcq-03": "本句的「space」指「可供人、物或活動佔用的空地方／範圍」。",
+        "space-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-03"
     },
@@ -760,11 +736,9 @@ export default {
       "masked": "We need more ____ to work.",
       "options": [
         "space-mcq-03",
-        "space-mcq-02",
-        "space-mcq-04",
-        "space-mcq-01",
-        "space-mcq-05",
-        "space-mcq-06"
+        "space-mcq-18",
+        "space-mcq-11",
+        "space-mcq-19"
       ],
       "explanation": "本句的「space」指「可供人、物或活動佔用的空地方／範圍」。",
       "sentenceIndex": 6,
@@ -773,12 +747,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-03": "本句指「可供人、物或活動佔用的空地方／範圍」。",
-        "space-mcq-02": "「在太空中運行、供太空人生活／工作／研究的設施」是「space station」的用法，與本句語境不同。",
-        "space-mcq-04": "「兩個物件、文字或位置之間的空白距離」是「space — distance」的用法，與本句語境不同。",
-        "space-mcq-01": "「地球大氣層以外的宇宙空間」是「space — outer space」的用法，與本句語境不同。",
-        "space-mcq-05": "「紙張、表格或螢幕上未被內容佔用的區域」是「space — blank area」的用法，與本句語境不同。",
-        "space-mcq-06": "「為某種特定用途預留或可使用的位置」是「space — designated place」的用法，與本句語境不同。"
+        "space-mcq-03": "本句的「space」指「可供人、物或活動佔用的空地方／範圍」。",
+        "space-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-03"
     },
@@ -790,11 +762,9 @@ export default {
       "masked": "Leave some ____ between the chairs.",
       "options": [
         "space-mcq-04",
-        "space-mcq-03",
-        "space-mcq-05",
-        "space-mcq-02",
-        "space-mcq-06",
-        "space-mcq-01"
+        "space-mcq-19",
+        "space-mcq-15",
+        "space-mcq-11"
       ],
       "explanation": "本句的「space」指「兩個物件、文字或位置之間的空白距離」。",
       "sentenceIndex": 7,
@@ -803,12 +773,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-04": "本句指「兩個物件、文字或位置之間的空白距離」。",
-        "space-mcq-03": "「可供人、物或活動佔用的空地方／範圍」是「space — available area」的用法，與本句語境不同。",
-        "space-mcq-05": "「紙張、表格或螢幕上未被內容佔用的區域」是「space — blank area」的用法，與本句語境不同。",
-        "space-mcq-02": "「在太空中運行、供太空人生活／工作／研究的設施」是「space station」的用法，與本句語境不同。",
-        "space-mcq-06": "「為某種特定用途預留或可使用的位置」是「space — designated place」的用法，與本句語境不同。",
-        "space-mcq-01": "「地球大氣層以外的宇宙空間」是「space — outer space」的用法，與本句語境不同。"
+        "space-mcq-04": "本句的「space」指「兩個物件、文字或位置之間的空白距離」。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-04"
     },
@@ -820,11 +788,9 @@ export default {
       "masked": "There should be more ____ between the words.",
       "options": [
         "space-mcq-04",
-        "space-mcq-03",
-        "space-mcq-05",
-        "space-mcq-02",
-        "space-mcq-06",
-        "space-mcq-01"
+        "space-mcq-16",
+        "space-mcq-19",
+        "space-mcq-11"
       ],
       "explanation": "本句的「space」指「兩個物件、文字或位置之間的空白距離」。",
       "sentenceIndex": 8,
@@ -833,12 +799,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-04": "本句指「兩個物件、文字或位置之間的空白距離」。",
-        "space-mcq-03": "「可供人、物或活動佔用的空地方／範圍」是「space — available area」的用法，與本句語境不同。",
-        "space-mcq-05": "「紙張、表格或螢幕上未被內容佔用的區域」是「space — blank area」的用法，與本句語境不同。",
-        "space-mcq-02": "「在太空中運行、供太空人生活／工作／研究的設施」是「space station」的用法，與本句語境不同。",
-        "space-mcq-06": "「為某種特定用途預留或可使用的位置」是「space — designated place」的用法，與本句語境不同。",
-        "space-mcq-01": "「地球大氣層以外的宇宙空間」是「space — outer space」的用法，與本句語境不同。"
+        "space-mcq-04": "本句的「space」指「兩個物件、文字或位置之間的空白距離」。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-04"
     },
@@ -850,11 +814,9 @@ export default {
       "masked": "Write your name in the ____ below.",
       "options": [
         "space-mcq-05",
-        "space-mcq-04",
-        "space-mcq-06",
-        "space-mcq-03",
-        "space-mcq-07",
-        "space-mcq-02"
+        "space-mcq-11",
+        "space-mcq-16",
+        "space-mcq-19"
       ],
       "explanation": "本句的「space」指「紙張、表格或螢幕上未被內容佔用的區域」。",
       "sentenceIndex": 9,
@@ -863,12 +825,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-05": "本句指「紙張、表格或螢幕上未被內容佔用的區域」。",
-        "space-mcq-04": "「兩個物件、文字或位置之間的空白距離」是「space — distance」的用法，與本句語境不同。",
-        "space-mcq-06": "「為某種特定用途預留或可使用的位置」是「space — designated place」的用法，與本句語境不同。",
-        "space-mcq-03": "「可供人、物或活動佔用的空地方／範圍」是「space — available area」的用法，與本句語境不同。",
-        "space-mcq-07": "「專供一輛車停泊的位置」是「parking space」的用法，與本句語境不同。",
-        "space-mcq-02": "「在太空中運行、供太空人生活／工作／研究的設施」是「space station」的用法，與本句語境不同。"
+        "space-mcq-05": "本句的「space」指「紙張、表格或螢幕上未被內容佔用的區域」。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-05"
     },
@@ -880,11 +840,9 @@ export default {
       "masked": "There isn’t enough ____ on the page.",
       "options": [
         "space-mcq-05",
-        "space-mcq-04",
-        "space-mcq-06",
-        "space-mcq-03",
-        "space-mcq-07",
-        "space-mcq-02"
+        "space-mcq-19",
+        "space-mcq-17",
+        "space-mcq-11"
       ],
       "explanation": "本句的「space」指「紙張、表格或螢幕上未被內容佔用的區域」。",
       "sentenceIndex": 10,
@@ -893,12 +851,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-05": "本句指「紙張、表格或螢幕上未被內容佔用的區域」。",
-        "space-mcq-04": "「兩個物件、文字或位置之間的空白距離」是「space — distance」的用法，與本句語境不同。",
-        "space-mcq-06": "「為某種特定用途預留或可使用的位置」是「space — designated place」的用法，與本句語境不同。",
-        "space-mcq-03": "「可供人、物或活動佔用的空地方／範圍」是「space — available area」的用法，與本句語境不同。",
-        "space-mcq-07": "「專供一輛車停泊的位置」是「parking space」的用法，與本句語境不同。",
-        "space-mcq-02": "「在太空中運行、供太空人生活／工作／研究的設施」是「space station」的用法，與本句語境不同。"
+        "space-mcq-05": "本句的「space」指「紙張、表格或螢幕上未被內容佔用的區域」。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-05"
     },
@@ -910,11 +866,9 @@ export default {
       "masked": "We found a parking ____.",
       "options": [
         "space-mcq-06",
-        "space-mcq-05",
-        "space-mcq-07",
-        "space-mcq-04",
-        "space-mcq-08",
-        "space-mcq-03"
+        "space-mcq-14",
+        "space-mcq-15",
+        "space-mcq-19"
       ],
       "explanation": "本句的「space」指「為某種特定用途預留或可使用的位置」。",
       "sentenceIndex": 11,
@@ -923,12 +877,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-06": "本句指「為某種特定用途預留或可使用的位置」。",
-        "space-mcq-05": "「紙張、表格或螢幕上未被內容佔用的區域」是「space — blank area」的用法，與本句語境不同。",
-        "space-mcq-07": "「專供一輛車停泊的位置」是「parking space」的用法，與本句語境不同。",
-        "space-mcq-04": "「兩個物件、文字或位置之間的空白距離」是「space — distance」的用法，與本句語境不同。",
-        "space-mcq-08": "「供人日常居住和活動使用的空間」是「living space」的用法，與本句語境不同。",
-        "space-mcq-03": "「可供人、物或活動佔用的空地方／範圍」是「space — available area」的用法，與本句語境不同。"
+        "space-mcq-06": "本句的「space」指「為某種特定用途預留或可使用的位置」。",
+        "space-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-06"
     },
@@ -940,11 +892,9 @@ export default {
       "masked": "The building has plenty of office ____.",
       "options": [
         "space-mcq-06",
-        "space-mcq-05",
-        "space-mcq-07",
-        "space-mcq-04",
-        "space-mcq-08",
-        "space-mcq-03"
+        "space-mcq-14",
+        "space-mcq-16",
+        "space-mcq-11"
       ],
       "explanation": "本句的「space」指「為某種特定用途預留或可使用的位置」。",
       "sentenceIndex": 12,
@@ -953,12 +903,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-06": "本句指「為某種特定用途預留或可使用的位置」。",
-        "space-mcq-05": "「紙張、表格或螢幕上未被內容佔用的區域」是「space — blank area」的用法，與本句語境不同。",
-        "space-mcq-07": "「專供一輛車停泊的位置」是「parking space」的用法，與本句語境不同。",
-        "space-mcq-04": "「兩個物件、文字或位置之間的空白距離」是「space — distance」的用法，與本句語境不同。",
-        "space-mcq-08": "「供人日常居住和活動使用的空間」是「living space」的用法，與本句語境不同。",
-        "space-mcq-03": "「可供人、物或活動佔用的空地方／範圍」是「space — available area」的用法，與本句語境不同。"
+        "space-mcq-06": "本句的「space」指「為某種特定用途預留或可使用的位置」。",
+        "space-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-06"
     },
@@ -970,11 +918,9 @@ export default {
       "masked": "Is there a free ____ nearby?",
       "options": [
         "space-mcq-07",
-        "space-mcq-06",
-        "space-mcq-08",
-        "space-mcq-05",
-        "space-mcq-09",
-        "space-mcq-04"
+        "space-mcq-11",
+        "space-mcq-14",
+        "space-mcq-15"
       ],
       "explanation": "本句的「parking space」指「專供一輛車停泊的位置」。",
       "sentenceIndex": 13,
@@ -983,12 +929,10 @@ export default {
         "parking space"
       ],
       "optionReasons": {
-        "space-mcq-07": "本句指「專供一輛車停泊的位置」。",
-        "space-mcq-06": "「為某種特定用途預留或可使用的位置」是「space — designated place」的用法，與本句語境不同。",
-        "space-mcq-08": "「供人日常居住和活動使用的空間」是「living space」的用法，與本句語境不同。",
-        "space-mcq-05": "「紙張、表格或螢幕上未被內容佔用的區域」是「space — blank area」的用法，與本句語境不同。",
-        "space-mcq-09": "「一個人希望他人不要隨意侵入的私人距離／心理空間」是「personal space」的用法，與本句語境不同。",
-        "space-mcq-04": "「兩個物件、文字或位置之間的空白距離」是「space — distance」的用法，與本句語境不同。"
+        "space-mcq-07": "本句的「parking space」指「專供一輛車停泊的位置」。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-07"
     },
@@ -1000,11 +944,9 @@ export default {
       "masked": "She parked in the last available ____.",
       "options": [
         "space-mcq-07",
-        "space-mcq-06",
-        "space-mcq-08",
-        "space-mcq-05",
-        "space-mcq-09",
-        "space-mcq-04"
+        "space-mcq-14",
+        "space-mcq-11",
+        "space-mcq-19"
       ],
       "explanation": "本句的「space」指「專供一輛車停泊的位置」。",
       "sentenceIndex": 14,
@@ -1013,12 +955,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-07": "本句指「專供一輛車停泊的位置」。",
-        "space-mcq-06": "「為某種特定用途預留或可使用的位置」是「space — designated place」的用法，與本句語境不同。",
-        "space-mcq-08": "「供人日常居住和活動使用的空間」是「living space」的用法，與本句語境不同。",
-        "space-mcq-05": "「紙張、表格或螢幕上未被內容佔用的區域」是「space — blank area」的用法，與本句語境不同。",
-        "space-mcq-09": "「一個人希望他人不要隨意侵入的私人距離／心理空間」是「personal space」的用法，與本句語境不同。",
-        "space-mcq-04": "「兩個物件、文字或位置之間的空白距離」是「space — distance」的用法，與本句語境不同。"
+        "space-mcq-07": "本句的「space」指「專供一輛車停泊的位置」。",
+        "space-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-07"
     },
@@ -1030,11 +970,9 @@ export default {
       "masked": "The apartment has limited ____.",
       "options": [
         "space-mcq-08",
-        "space-mcq-07",
-        "space-mcq-09",
-        "space-mcq-06",
-        "space-mcq-10",
-        "space-mcq-05"
+        "space-mcq-19",
+        "space-mcq-16",
+        "space-mcq-11"
       ],
       "explanation": "本句的「living space」指「供人日常居住和活動使用的空間」。",
       "sentenceIndex": 15,
@@ -1043,12 +981,10 @@ export default {
         "living space"
       ],
       "optionReasons": {
-        "space-mcq-08": "本句指「供人日常居住和活動使用的空間」。",
-        "space-mcq-07": "「專供一輛車停泊的位置」是「parking space」的用法，與本句語境不同。",
-        "space-mcq-09": "「一個人希望他人不要隨意侵入的私人距離／心理空間」是「personal space」的用法，與本句語境不同。",
-        "space-mcq-06": "「為某種特定用途預留或可使用的位置」是「space — designated place」的用法，與本句語境不同。",
-        "space-mcq-10": "「可獨處、思考、冷靜或不受干擾的空間」是「space — privacy/freedom」的用法，與本句語境不同。",
-        "space-mcq-05": "「紙張、表格或螢幕上未被內容佔用的區域」是「space — blank area」的用法，與本句語境不同。"
+        "space-mcq-08": "本句的「living space」指「供人日常居住和活動使用的空間」。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-08"
     },
@@ -1060,11 +996,9 @@ export default {
       "masked": "They redesigned the house to create more ____.",
       "options": [
         "space-mcq-08",
-        "space-mcq-07",
-        "space-mcq-09",
-        "space-mcq-06",
-        "space-mcq-10",
-        "space-mcq-05"
+        "space-mcq-11",
+        "space-mcq-19",
+        "space-mcq-16"
       ],
       "explanation": "本句的「living space」指「供人日常居住和活動使用的空間」。",
       "sentenceIndex": 16,
@@ -1073,12 +1007,10 @@ export default {
         "living space"
       ],
       "optionReasons": {
-        "space-mcq-08": "本句指「供人日常居住和活動使用的空間」。",
-        "space-mcq-07": "「專供一輛車停泊的位置」是「parking space」的用法，與本句語境不同。",
-        "space-mcq-09": "「一個人希望他人不要隨意侵入的私人距離／心理空間」是「personal space」的用法，與本句語境不同。",
-        "space-mcq-06": "「為某種特定用途預留或可使用的位置」是「space — designated place」的用法，與本句語境不同。",
-        "space-mcq-10": "「可獨處、思考、冷靜或不受干擾的空間」是「space — privacy/freedom」的用法，與本句語境不同。",
-        "space-mcq-05": "「紙張、表格或螢幕上未被內容佔用的區域」是「space — blank area」的用法，與本句語境不同。"
+        "space-mcq-08": "本句的「living space」指「供人日常居住和活動使用的空間」。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-08"
     },
@@ -1090,11 +1022,9 @@ export default {
       "masked": "Some people need more ____ than others.",
       "options": [
         "space-mcq-09",
-        "space-mcq-08",
-        "space-mcq-10",
-        "space-mcq-07",
-        "space-mcq-11",
-        "space-mcq-06"
+        "space-mcq-19",
+        "space-mcq-16",
+        "space-mcq-02"
       ],
       "explanation": "本句的「personal space」指「一個人希望他人不要隨意侵入的私人距離／心理空間」。",
       "sentenceIndex": 17,
@@ -1103,12 +1033,10 @@ export default {
         "personal space"
       ],
       "optionReasons": {
-        "space-mcq-09": "本句指「一個人希望他人不要隨意侵入的私人距離／心理空間」。",
-        "space-mcq-08": "「供人日常居住和活動使用的空間」是「living space」的用法，與本句語境不同。",
-        "space-mcq-10": "「可獨處、思考、冷靜或不受干擾的空間」是「space — privacy/freedom」的用法，與本句語境不同。",
-        "space-mcq-07": "「專供一輛車停泊的位置」是「parking space」的用法，與本句語境不同。",
-        "space-mcq-11": "「讓某人發展、探索、表達或嘗試的自由／餘地」是「space — opportunity」的用法，與本句語境不同。",
-        "space-mcq-06": "「為某種特定用途預留或可使用的位置」是「space — designated place」的用法，與本句語境不同。"
+        "space-mcq-09": "本句的「personal space」指「一個人希望他人不要隨意侵入的私人距離／心理空間」。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-09"
     },
@@ -1120,11 +1048,9 @@ export default {
       "masked": "He stood too close and entered my ____.",
       "options": [
         "space-mcq-09",
-        "space-mcq-08",
-        "space-mcq-10",
-        "space-mcq-07",
-        "space-mcq-11",
-        "space-mcq-06"
+        "space-mcq-15",
+        "space-mcq-19",
+        "space-mcq-02"
       ],
       "explanation": "本句的「personal space」指「一個人希望他人不要隨意侵入的私人距離／心理空間」。",
       "sentenceIndex": 18,
@@ -1133,12 +1059,10 @@ export default {
         "personal space"
       ],
       "optionReasons": {
-        "space-mcq-09": "本句指「一個人希望他人不要隨意侵入的私人距離／心理空間」。",
-        "space-mcq-08": "「供人日常居住和活動使用的空間」是「living space」的用法，與本句語境不同。",
-        "space-mcq-10": "「可獨處、思考、冷靜或不受干擾的空間」是「space — privacy/freedom」的用法，與本句語境不同。",
-        "space-mcq-07": "「專供一輛車停泊的位置」是「parking space」的用法，與本句語境不同。",
-        "space-mcq-11": "「讓某人發展、探索、表達或嘗試的自由／餘地」是「space — opportunity」的用法，與本句語境不同。",
-        "space-mcq-06": "「為某種特定用途預留或可使用的位置」是「space — designated place」的用法，與本句語境不同。"
+        "space-mcq-09": "本句的「personal space」指「一個人希望他人不要隨意侵入的私人距離／心理空間」。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-09"
     },
@@ -1150,11 +1074,9 @@ export default {
       "masked": "I need some ____ to think.",
       "options": [
         "space-mcq-10",
-        "space-mcq-09",
         "space-mcq-11",
-        "space-mcq-08",
-        "space-mcq-12",
-        "space-mcq-07"
+        "space-mcq-16",
+        "space-mcq-19"
       ],
       "explanation": "本句的「space」指「可獨處、思考、冷靜或不受干擾的空間」。",
       "sentenceIndex": 19,
@@ -1163,12 +1085,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-10": "本句指「可獨處、思考、冷靜或不受干擾的空間」。",
-        "space-mcq-09": "「一個人希望他人不要隨意侵入的私人距離／心理空間」是「personal space」的用法，與本句語境不同。",
-        "space-mcq-11": "「讓某人發展、探索、表達或嘗試的自由／餘地」是「space — opportunity」的用法，與本句語境不同。",
-        "space-mcq-08": "「供人日常居住和活動使用的空間」是「living space」的用法，與本句語境不同。",
-        "space-mcq-12": "「版面中刻意保留、改善清晰度和平衡的空白區域」是「white space」的用法，與本句語境不同。",
-        "space-mcq-07": "「專供一輛車停泊的位置」是「parking space」的用法，與本句語境不同。"
+        "space-mcq-10": "本句的「space」指「可獨處、思考、冷靜或不受干擾的空間」。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-10"
     },
@@ -1180,11 +1100,9 @@ export default {
       "masked": "Give her some ____.",
       "options": [
         "space-mcq-10",
-        "space-mcq-09",
         "space-mcq-11",
-        "space-mcq-08",
-        "space-mcq-12",
-        "space-mcq-07"
+        "space-mcq-19",
+        "space-mcq-15"
       ],
       "explanation": "本句的「space」指「可獨處、思考、冷靜或不受干擾的空間」。",
       "sentenceIndex": 20,
@@ -1193,12 +1111,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-10": "本句指「可獨處、思考、冷靜或不受干擾的空間」。",
-        "space-mcq-09": "「一個人希望他人不要隨意侵入的私人距離／心理空間」是「personal space」的用法，與本句語境不同。",
-        "space-mcq-11": "「讓某人發展、探索、表達或嘗試的自由／餘地」是「space — opportunity」的用法，與本句語境不同。",
-        "space-mcq-08": "「供人日常居住和活動使用的空間」是「living space」的用法，與本句語境不同。",
-        "space-mcq-12": "「版面中刻意保留、改善清晰度和平衡的空白區域」是「white space」的用法，與本句語境不同。",
-        "space-mcq-07": "「專供一輛車停泊的位置」是「parking space」的用法，與本句語境不同。"
+        "space-mcq-10": "本句的「space」指「可獨處、思考、冷靜或不受干擾的空間」。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-10"
     },
@@ -1210,11 +1126,9 @@ export default {
       "masked": "Children need ____ to be creative.",
       "options": [
         "space-mcq-11",
-        "space-mcq-10",
-        "space-mcq-12",
-        "space-mcq-09",
-        "space-mcq-13",
-        "space-mcq-08"
+        "space-mcq-24",
+        "space-mcq-22",
+        "space-mcq-15"
       ],
       "explanation": "本句的「space」指「讓某人發展、探索、表達或嘗試的自由／餘地」。",
       "sentenceIndex": 21,
@@ -1223,12 +1137,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-11": "本句指「讓某人發展、探索、表達或嘗試的自由／餘地」。",
-        "space-mcq-10": "「可獨處、思考、冷靜或不受干擾的空間」是「space — privacy/freedom」的用法，與本句語境不同。",
-        "space-mcq-12": "「版面中刻意保留、改善清晰度和平衡的空白區域」是「white space」的用法，與本句語境不同。",
-        "space-mcq-09": "「一個人希望他人不要隨意侵入的私人距離／心理空間」是「personal space」的用法，與本句語境不同。",
-        "space-mcq-13": "「一段時間或兩件事之間的時間間隔」是「space — time interval」的用法，與本句語境不同。",
-        "space-mcq-08": "「供人日常居住和活動使用的空間」是「living space」的用法，與本句語境不同。"
+        "space-mcq-11": "本句的「space」指「讓某人發展、探索、表達或嘗試的自由／餘地」。",
+        "space-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-11"
     },
@@ -1240,11 +1152,9 @@ export default {
       "masked": "The project gives students ____ to experiment.",
       "options": [
         "space-mcq-11",
-        "space-mcq-10",
-        "space-mcq-12",
-        "space-mcq-09",
-        "space-mcq-13",
-        "space-mcq-08"
+        "space-mcq-14",
+        "space-mcq-06",
+        "space-mcq-22"
       ],
       "explanation": "本句的「space」指「讓某人發展、探索、表達或嘗試的自由／餘地」。",
       "sentenceIndex": 22,
@@ -1253,12 +1163,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-11": "本句指「讓某人發展、探索、表達或嘗試的自由／餘地」。",
-        "space-mcq-10": "「可獨處、思考、冷靜或不受干擾的空間」是「space — privacy/freedom」的用法，與本句語境不同。",
-        "space-mcq-12": "「版面中刻意保留、改善清晰度和平衡的空白區域」是「white space」的用法，與本句語境不同。",
-        "space-mcq-09": "「一個人希望他人不要隨意侵入的私人距離／心理空間」是「personal space」的用法，與本句語境不同。",
-        "space-mcq-13": "「一段時間或兩件事之間的時間間隔」是「space — time interval」的用法，與本句語境不同。",
-        "space-mcq-08": "「供人日常居住和活動使用的空間」是「living space」的用法，與本句語境不同。"
+        "space-mcq-11": "本句的「space」指「讓某人發展、探索、表達或嘗試的自由／餘地」。",
+        "space-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-11"
     },
@@ -1270,11 +1178,9 @@ export default {
       "masked": "The design uses white ____ effectively.",
       "options": [
         "space-mcq-25",
-        "space-mcq-24",
-        "space-mcq-23",
-        "space-mcq-22",
-        "space-mcq-21",
-        "space-mcq-20"
+        "space-mcq-18",
+        "space-mcq-19",
+        "space-mcq-16"
       ],
       "explanation": "本句的「space」指「版面設計中未被文字、圖像或其他元素佔用的區域」。",
       "sentenceIndex": 23,
@@ -1283,12 +1189,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-25": "本句指「版面設計中未被文字、圖像或其他元素佔用的區域」。",
-        "space-mcq-24": "「就空間位置／關係而言」是「spatially」的用法，與本句語境不同。",
-        "space-mcq-23": "「與位置、距離、方向或空間關係有關的」是「spatial」的用法，與本句語境不同。",
-        "space-mcq-22": "「物件、文字或事件之間的距離／間隔」是「spacing」的用法，與本句語境不同。",
-        "space-mcq-21": "「某地方顯得寬敞、開放的程度／感覺」是「spaciousness」的用法，與本句語境不同。",
-        "space-mcq-20": "「有大量可用空間、不擠迫的」是「spacious」的用法，與本句語境不同。"
+        "space-mcq-25": "本句的「space」指「版面設計中未被文字、圖像或其他元素佔用的區域」。",
+        "space-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-25"
     },
@@ -1300,11 +1204,9 @@ export default {
       "masked": "There is too much empty ____ on the page.",
       "options": [
         "space-mcq-25",
-        "space-mcq-24",
-        "space-mcq-23",
-        "space-mcq-22",
-        "space-mcq-21",
-        "space-mcq-20"
+        "space-mcq-18",
+        "space-mcq-16",
+        "space-mcq-19"
       ],
       "explanation": "本句的「space」指「版面設計中未被文字、圖像或其他元素佔用的區域」。",
       "sentenceIndex": 24,
@@ -1313,12 +1215,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-25": "本句指「版面設計中未被文字、圖像或其他元素佔用的區域」。",
-        "space-mcq-24": "「就空間位置／關係而言」是「spatially」的用法，與本句語境不同。",
-        "space-mcq-23": "「與位置、距離、方向或空間關係有關的」是「spatial」的用法，與本句語境不同。",
-        "space-mcq-22": "「物件、文字或事件之間的距離／間隔」是「spacing」的用法，與本句語境不同。",
-        "space-mcq-21": "「某地方顯得寬敞、開放的程度／感覺」是「spaciousness」的用法，與本句語境不同。",
-        "space-mcq-20": "「有大量可用空間、不擠迫的」是「spacious」的用法，與本句語境不同。"
+        "space-mcq-25": "本句的「space」指「版面設計中未被文字、圖像或其他元素佔用的區域」。",
+        "space-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-25"
     },
@@ -1330,11 +1230,9 @@ export default {
       "masked": "Good use of ____ makes a page easier to read.",
       "options": [
         "space-mcq-12",
-        "space-mcq-11",
-        "space-mcq-13",
-        "space-mcq-10",
-        "space-mcq-14",
-        "space-mcq-09"
+        "space-mcq-18",
+        "space-mcq-16",
+        "space-mcq-11"
       ],
       "explanation": "本句的「white space」指「版面中刻意保留、改善清晰度和平衡的空白區域」。",
       "sentenceIndex": 25,
@@ -1343,12 +1241,10 @@ export default {
         "white space"
       ],
       "optionReasons": {
-        "space-mcq-12": "本句指「版面中刻意保留、改善清晰度和平衡的空白區域」。",
-        "space-mcq-11": "「讓某人發展、探索、表達或嘗試的自由／餘地」是「space — opportunity」的用法，與本句語境不同。",
-        "space-mcq-13": "「一段時間或兩件事之間的時間間隔」是「space — time interval」的用法，與本句語境不同。",
-        "space-mcq-10": "「可獨處、思考、冷靜或不受干擾的空間」是「space — privacy/freedom」的用法，與本句語境不同。",
-        "space-mcq-14": "「在某段有限時間之內」是「in the space of X」的用法，與本句語境不同。",
-        "space-mcq-09": "「一個人希望他人不要隨意侵入的私人距離／心理空間」是「personal space」的用法，與本句語境不同。"
+        "space-mcq-12": "本句的「white space」指「版面中刻意保留、改善清晰度和平衡的空白區域」。",
+        "space-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-12"
     },
@@ -1360,11 +1256,9 @@ export default {
       "masked": "The poster needs more ____.",
       "options": [
         "space-mcq-12",
-        "space-mcq-11",
         "space-mcq-13",
-        "space-mcq-10",
-        "space-mcq-14",
-        "space-mcq-09"
+        "space-mcq-11",
+        "space-mcq-16"
       ],
       "explanation": "本句的「white space」指「版面中刻意保留、改善清晰度和平衡的空白區域」。",
       "sentenceIndex": 26,
@@ -1373,12 +1267,10 @@ export default {
         "white space"
       ],
       "optionReasons": {
-        "space-mcq-12": "本句指「版面中刻意保留、改善清晰度和平衡的空白區域」。",
-        "space-mcq-11": "「讓某人發展、探索、表達或嘗試的自由／餘地」是「space — opportunity」的用法，與本句語境不同。",
-        "space-mcq-13": "「一段時間或兩件事之間的時間間隔」是「space — time interval」的用法，與本句語境不同。",
-        "space-mcq-10": "「可獨處、思考、冷靜或不受干擾的空間」是「space — privacy/freedom」的用法，與本句語境不同。",
-        "space-mcq-14": "「在某段有限時間之內」是「in the space of X」的用法，與本句語境不同。",
-        "space-mcq-09": "「一個人希望他人不要隨意侵入的私人距離／心理空間」是「personal space」的用法，與本句語境不同。"
+        "space-mcq-12": "本句的「white space」指「版面中刻意保留、改善清晰度和平衡的空白區域」。",
+        "space-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-12"
     },
@@ -1390,11 +1282,9 @@ export default {
       "masked": "The two events happened within a short ____ of time.",
       "options": [
         "space-mcq-13",
-        "space-mcq-12",
-        "space-mcq-14",
-        "space-mcq-11",
-        "space-mcq-15",
-        "space-mcq-10"
+        "space-mcq-21",
+        "space-mcq-02",
+        "space-mcq-16"
       ],
       "explanation": "本句的「space」指「一段時間或兩件事之間的時間間隔」。",
       "sentenceIndex": 27,
@@ -1403,12 +1293,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-13": "本句指「一段時間或兩件事之間的時間間隔」。",
-        "space-mcq-12": "「版面中刻意保留、改善清晰度和平衡的空白區域」是「white space」的用法，與本句語境不同。",
-        "space-mcq-14": "「在某段有限時間之內」是「in the space of X」的用法，與本句語境不同。",
-        "space-mcq-11": "「讓某人發展、探索、表達或嘗試的自由／餘地」是「space — opportunity」的用法，與本句語境不同。",
-        "space-mcq-15": "「某個產業、技術、商業或活動領域」是「space — field/domain」的用法，與本句語境不同。",
-        "space-mcq-10": "「可獨處、思考、冷靜或不受干擾的空間」是「space — privacy/freedom」的用法，與本句語境不同。"
+        "space-mcq-13": "本句的「space」指「一段時間或兩件事之間的時間間隔」。",
+        "space-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-13"
     },
@@ -1421,10 +1309,8 @@ export default {
       "options": [
         "space-mcq-13",
         "space-mcq-12",
-        "space-mcq-14",
-        "space-mcq-11",
-        "space-mcq-15",
-        "space-mcq-10"
+        "space-mcq-02",
+        "space-mcq-15"
       ],
       "explanation": "本句的「space」指「一段時間或兩件事之間的時間間隔」。",
       "sentenceIndex": 28,
@@ -1433,12 +1319,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-13": "本句指「一段時間或兩件事之間的時間間隔」。",
-        "space-mcq-12": "「版面中刻意保留、改善清晰度和平衡的空白區域」是「white space」的用法，與本句語境不同。",
-        "space-mcq-14": "「在某段有限時間之內」是「in the space of X」的用法，與本句語境不同。",
-        "space-mcq-11": "「讓某人發展、探索、表達或嘗試的自由／餘地」是「space — opportunity」的用法，與本句語境不同。",
-        "space-mcq-15": "「某個產業、技術、商業或活動領域」是「space — field/domain」的用法，與本句語境不同。",
-        "space-mcq-10": "「可獨處、思考、冷靜或不受干擾的空間」是「space — privacy/freedom」的用法，與本句語境不同。"
+        "space-mcq-13": "本句的「space」指「一段時間或兩件事之間的時間間隔」。",
+        "space-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-13"
     },
@@ -1450,10 +1334,8 @@ export default {
       "masked": "The city changed completely in the ____.",
       "options": [
         "space-mcq-14",
-        "space-mcq-13",
-        "space-mcq-15",
-        "space-mcq-12",
-        "space-mcq-16",
+        "space-mcq-25",
+        "space-mcq-02",
         "space-mcq-11"
       ],
       "explanation": "本句的「space of ten years」指「在某段有限時間之內」。",
@@ -1463,12 +1345,10 @@ export default {
         "space of ten years"
       ],
       "optionReasons": {
-        "space-mcq-14": "本句指「在某段有限時間之內」。",
-        "space-mcq-13": "「一段時間或兩件事之間的時間間隔」是「space — time interval」的用法，與本句語境不同。",
-        "space-mcq-15": "「某個產業、技術、商業或活動領域」是「space — field/domain」的用法，與本句語境不同。",
-        "space-mcq-12": "「版面中刻意保留、改善清晰度和平衡的空白區域」是「white space」的用法，與本句語境不同。",
-        "space-mcq-16": "「由互聯網和數碼網絡形成的虛擬環境」是「cyberspace」的用法，與本句語境不同。",
-        "space-mcq-11": "「讓某人發展、探索、表達或嘗試的自由／餘地」是「space — opportunity」的用法，與本句語境不同。"
+        "space-mcq-14": "本句的「space of ten years」指「在某段有限時間之內」。",
+        "space-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-14"
     },
@@ -1480,11 +1360,9 @@ export default {
       "masked": "He answered three questions in the ____.",
       "options": [
         "space-mcq-14",
-        "space-mcq-13",
-        "space-mcq-15",
         "space-mcq-12",
-        "space-mcq-16",
-        "space-mcq-11"
+        "space-mcq-15",
+        "space-mcq-02"
       ],
       "explanation": "本句的「space of a minute」指「在某段有限時間之內」。",
       "sentenceIndex": 30,
@@ -1493,12 +1371,10 @@ export default {
         "space of a minute"
       ],
       "optionReasons": {
-        "space-mcq-14": "本句指「在某段有限時間之內」。",
-        "space-mcq-13": "「一段時間或兩件事之間的時間間隔」是「space — time interval」的用法，與本句語境不同。",
-        "space-mcq-15": "「某個產業、技術、商業或活動領域」是「space — field/domain」的用法，與本句語境不同。",
-        "space-mcq-12": "「版面中刻意保留、改善清晰度和平衡的空白區域」是「white space」的用法，與本句語境不同。",
-        "space-mcq-16": "「由互聯網和數碼網絡形成的虛擬環境」是「cyberspace」的用法，與本句語境不同。",
-        "space-mcq-11": "「讓某人發展、探索、表達或嘗試的自由／餘地」是「space — opportunity」的用法，與本句語境不同。"
+        "space-mcq-14": "本句的「space of a minute」指「在某段有限時間之內」。",
+        "space-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-14"
     },
@@ -1510,11 +1386,9 @@ export default {
       "masked": "Several companies are entering the AI ____.",
       "options": [
         "space-mcq-15",
-        "space-mcq-14",
-        "space-mcq-16",
+        "space-mcq-09",
         "space-mcq-13",
-        "space-mcq-17",
-        "space-mcq-12"
+        "space-mcq-19"
       ],
       "explanation": "本句的「space」指「某個產業、技術、商業或活動領域」。",
       "sentenceIndex": 31,
@@ -1523,12 +1397,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-15": "本句指「某個產業、技術、商業或活動領域」。",
-        "space-mcq-14": "「在某段有限時間之內」是「in the space of X」的用法，與本句語境不同。",
-        "space-mcq-16": "「由互聯網和數碼網絡形成的虛擬環境」是「cyberspace」的用法，與本句語境不同。",
-        "space-mcq-13": "「一段時間或兩件事之間的時間間隔」是「space — time interval」的用法，與本句語境不同。",
-        "space-mcq-17": "「安排物件之間保持一定距離」是「space — verb」的用法，與本句語境不同。",
-        "space-mcq-12": "「版面中刻意保留、改善清晰度和平衡的空白區域」是「white space」的用法，與本句語境不同。"
+        "space-mcq-15": "本句的「space」指「某個產業、技術、商業或活動領域」。",
+        "space-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-15"
     },
@@ -1540,11 +1412,9 @@ export default {
       "masked": "She works in the education technology ____.",
       "options": [
         "space-mcq-15",
-        "space-mcq-14",
-        "space-mcq-16",
-        "space-mcq-13",
+        "space-mcq-24",
         "space-mcq-17",
-        "space-mcq-12"
+        "space-mcq-11"
       ],
       "explanation": "本句的「space」指「某個產業、技術、商業或活動領域」。",
       "sentenceIndex": 32,
@@ -1553,12 +1423,10 @@ export default {
         "space"
       ],
       "optionReasons": {
-        "space-mcq-15": "本句指「某個產業、技術、商業或活動領域」。",
-        "space-mcq-14": "「在某段有限時間之內」是「in the space of X」的用法，與本句語境不同。",
-        "space-mcq-16": "「由互聯網和數碼網絡形成的虛擬環境」是「cyberspace」的用法，與本句語境不同。",
-        "space-mcq-13": "「一段時間或兩件事之間的時間間隔」是「space — time interval」的用法，與本句語境不同。",
-        "space-mcq-17": "「安排物件之間保持一定距離」是「space — verb」的用法，與本句語境不同。",
-        "space-mcq-12": "「版面中刻意保留、改善清晰度和平衡的空白區域」是「white space」的用法，與本句語境不同。"
+        "space-mcq-15": "本句的「space」指「某個產業、技術、商業或活動領域」。",
+        "space-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-15"
     },
@@ -1570,11 +1438,9 @@ export default {
       "masked": "The information spread quickly through ____.",
       "options": [
         "space-mcq-16",
-        "space-mcq-15",
-        "space-mcq-17",
-        "space-mcq-14",
-        "space-mcq-18",
-        "space-mcq-13"
+        "space-mcq-21",
+        "space-mcq-13",
+        "space-mcq-02"
       ],
       "explanation": "本句的「cyberspace」指「由互聯網和數碼網絡形成的虛擬環境」。",
       "sentenceIndex": 33,
@@ -1583,12 +1449,10 @@ export default {
         "cyberspace"
       ],
       "optionReasons": {
-        "space-mcq-16": "本句指「由互聯網和數碼網絡形成的虛擬環境」。",
-        "space-mcq-15": "「某個產業、技術、商業或活動領域」是「space — field/domain」的用法，與本句語境不同。",
-        "space-mcq-17": "「安排物件之間保持一定距離」是「space — verb」的用法，與本句語境不同。",
-        "space-mcq-14": "「在某段有限時間之內」是「in the space of X」的用法，與本句語境不同。",
-        "space-mcq-18": "「把事物按距離／時間分散安排」是「space out — arrange」的用法，與本句語境不同。",
-        "space-mcq-13": "「一段時間或兩件事之間的時間間隔」是「space — time interval」的用法，與本句語境不同。"
+        "space-mcq-16": "本句的「cyberspace」指「由互聯網和數碼網絡形成的虛擬環境」。",
+        "space-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-16"
     },
@@ -1600,11 +1464,9 @@ export default {
       "masked": "Privacy is an important issue in ____.",
       "options": [
         "space-mcq-16",
-        "space-mcq-15",
-        "space-mcq-17",
-        "space-mcq-14",
-        "space-mcq-18",
-        "space-mcq-13"
+        "space-mcq-09",
+        "space-mcq-13",
+        "space-mcq-02"
       ],
       "explanation": "本句的「cyberspace」指「由互聯網和數碼網絡形成的虛擬環境」。",
       "sentenceIndex": 34,
@@ -1613,12 +1475,10 @@ export default {
         "cyberspace"
       ],
       "optionReasons": {
-        "space-mcq-16": "本句指「由互聯網和數碼網絡形成的虛擬環境」。",
-        "space-mcq-15": "「某個產業、技術、商業或活動領域」是「space — field/domain」的用法，與本句語境不同。",
-        "space-mcq-17": "「安排物件之間保持一定距離」是「space — verb」的用法，與本句語境不同。",
-        "space-mcq-14": "「在某段有限時間之內」是「in the space of X」的用法，與本句語境不同。",
-        "space-mcq-18": "「把事物按距離／時間分散安排」是「space out — arrange」的用法，與本句語境不同。",
-        "space-mcq-13": "「一段時間或兩件事之間的時間間隔」是「space — time interval」的用法，與本句語境不同。"
+        "space-mcq-16": "本句的「cyberspace」指「由互聯網和數碼網絡形成的虛擬環境」。",
+        "space-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-16"
     },
@@ -1631,10 +1491,8 @@ export default {
       "options": [
         "space-mcq-17",
         "space-mcq-16",
-        "space-mcq-18",
-        "space-mcq-15",
-        "space-mcq-19",
-        "space-mcq-14"
+        "space-mcq-21",
+        "space-mcq-02"
       ],
       "explanation": "本句的「Space」指「安排物件之間保持一定距離」。",
       "sentenceIndex": 35,
@@ -1643,12 +1501,10 @@ export default {
         "Space"
       ],
       "optionReasons": {
-        "space-mcq-17": "本句指「安排物件之間保持一定距離」。",
-        "space-mcq-16": "「由互聯網和數碼網絡形成的虛擬環境」是「cyberspace」的用法，與本句語境不同。",
-        "space-mcq-18": "「把事物按距離／時間分散安排」是「space out — arrange」的用法，與本句語境不同。",
-        "space-mcq-15": "「某個產業、技術、商業或活動領域」是「space — field/domain」的用法，與本句語境不同。",
-        "space-mcq-19": "「暫時失去集中力、走神或發呆」是「space out — concentration」的用法，與本句語境不同。",
-        "space-mcq-14": "「在某段有限時間之內」是「in the space of X」的用法，與本句語境不同。"
+        "space-mcq-17": "本句的「Space」指「安排物件之間保持一定距離」。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-17"
     },
@@ -1660,11 +1516,9 @@ export default {
       "masked": "The plants should be ____ one metre apart.",
       "options": [
         "space-mcq-17",
-        "space-mcq-16",
-        "space-mcq-18",
         "space-mcq-15",
-        "space-mcq-19",
-        "space-mcq-14"
+        "space-mcq-02",
+        "space-mcq-25"
       ],
       "explanation": "本句的「spaced」指「安排物件之間保持一定距離」。",
       "sentenceIndex": 36,
@@ -1673,12 +1527,10 @@ export default {
         "spaced"
       ],
       "optionReasons": {
-        "space-mcq-17": "本句指「安排物件之間保持一定距離」。",
-        "space-mcq-16": "「由互聯網和數碼網絡形成的虛擬環境」是「cyberspace」的用法，與本句語境不同。",
-        "space-mcq-18": "「把事物按距離／時間分散安排」是「space out — arrange」的用法，與本句語境不同。",
-        "space-mcq-15": "「某個產業、技術、商業或活動領域」是「space — field/domain」的用法，與本句語境不同。",
-        "space-mcq-19": "「暫時失去集中力、走神或發呆」是「space out — concentration」的用法，與本句語境不同。",
-        "space-mcq-14": "「在某段有限時間之內」是「in the space of X」的用法，與本句語境不同。"
+        "space-mcq-17": "本句的「spaced」指「安排物件之間保持一定距離」。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-17"
     },
@@ -1690,10 +1542,8 @@ export default {
       "masked": "____ the meetings throughout the week.",
       "options": [
         "space-mcq-18",
-        "space-mcq-17",
-        "space-mcq-19",
-        "space-mcq-16",
-        "space-mcq-20",
+        "space-mcq-11",
+        "space-mcq-06",
         "space-mcq-15"
       ],
       "explanation": "本句的「Space out」指「把事物按距離／時間分散安排」。",
@@ -1703,12 +1553,10 @@ export default {
         "Space out"
       ],
       "optionReasons": {
-        "space-mcq-18": "本句指「把事物按距離／時間分散安排」。",
-        "space-mcq-17": "「安排物件之間保持一定距離」是「space — verb」的用法，與本句語境不同。",
-        "space-mcq-19": "「暫時失去集中力、走神或發呆」是「space out — concentration」的用法，與本句語境不同。",
-        "space-mcq-16": "「由互聯網和數碼網絡形成的虛擬環境」是「cyberspace」的用法，與本句語境不同。",
-        "space-mcq-20": "「有大量可用空間、不擠迫的」是「spacious」的用法，與本句語境不同。",
-        "space-mcq-15": "「某個產業、技術、商業或活動領域」是「space — field/domain」的用法，與本句語境不同。"
+        "space-mcq-18": "本句的「Space out」指「把事物按距離／時間分散安排」。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-18"
     },
@@ -1720,11 +1568,9 @@ export default {
       "masked": "The trees are evenly ____.",
       "options": [
         "space-mcq-18",
-        "space-mcq-17",
-        "space-mcq-19",
-        "space-mcq-16",
-        "space-mcq-20",
-        "space-mcq-15"
+        "space-mcq-12",
+        "space-mcq-15",
+        "space-mcq-02"
       ],
       "explanation": "本句的「spaced out」指「把事物按距離／時間分散安排」。",
       "sentenceIndex": 38,
@@ -1733,12 +1579,10 @@ export default {
         "spaced out"
       ],
       "optionReasons": {
-        "space-mcq-18": "本句指「把事物按距離／時間分散安排」。",
-        "space-mcq-17": "「安排物件之間保持一定距離」是「space — verb」的用法，與本句語境不同。",
-        "space-mcq-19": "「暫時失去集中力、走神或發呆」是「space out — concentration」的用法，與本句語境不同。",
-        "space-mcq-16": "「由互聯網和數碼網絡形成的虛擬環境」是「cyberspace」的用法，與本句語境不同。",
-        "space-mcq-20": "「有大量可用空間、不擠迫的」是「spacious」的用法，與本句語境不同。",
-        "space-mcq-15": "「某個產業、技術、商業或活動領域」是「space — field/domain」的用法，與本句語境不同。"
+        "space-mcq-18": "本句的「spaced out」指「把事物按距離／時間分散安排」。",
+        "space-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-18"
     },
@@ -1750,11 +1594,9 @@ export default {
       "masked": "Sorry, I ____ for a moment.",
       "options": [
         "space-mcq-19",
-        "space-mcq-18",
-        "space-mcq-20",
-        "space-mcq-17",
-        "space-mcq-21",
-        "space-mcq-16"
+        "space-mcq-16",
+        "space-mcq-22",
+        "space-mcq-24"
       ],
       "explanation": "本句的「spaced out」指「暫時失去集中力、走神或發呆」。",
       "sentenceIndex": 39,
@@ -1763,12 +1605,10 @@ export default {
         "spaced out"
       ],
       "optionReasons": {
-        "space-mcq-19": "本句指「暫時失去集中力、走神或發呆」。",
-        "space-mcq-18": "「把事物按距離／時間分散安排」是「space out — arrange」的用法，與本句語境不同。",
-        "space-mcq-20": "「有大量可用空間、不擠迫的」是「spacious」的用法，與本句語境不同。",
-        "space-mcq-17": "「安排物件之間保持一定距離」是「space — verb」的用法，與本句語境不同。",
-        "space-mcq-21": "「某地方顯得寬敞、開放的程度／感覺」是「spaciousness」的用法，與本句語境不同。",
-        "space-mcq-16": "「由互聯網和數碼網絡形成的虛擬環境」是「cyberspace」的用法，與本句語境不同。"
+        "space-mcq-19": "本句的「spaced out」指「暫時失去集中力、走神或發呆」。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-19"
     },
@@ -1780,11 +1620,9 @@ export default {
       "masked": "He tends to ____ when he is tired.",
       "options": [
         "space-mcq-19",
-        "space-mcq-18",
-        "space-mcq-20",
-        "space-mcq-17",
-        "space-mcq-21",
-        "space-mcq-16"
+        "space-mcq-15",
+        "space-mcq-07",
+        "space-mcq-17"
       ],
       "explanation": "本句的「space out」指「暫時失去集中力、走神或發呆」。",
       "sentenceIndex": 40,
@@ -1793,12 +1631,10 @@ export default {
         "space out"
       ],
       "optionReasons": {
-        "space-mcq-19": "本句指「暫時失去集中力、走神或發呆」。",
-        "space-mcq-18": "「把事物按距離／時間分散安排」是「space out — arrange」的用法，與本句語境不同。",
-        "space-mcq-20": "「有大量可用空間、不擠迫的」是「spacious」的用法，與本句語境不同。",
-        "space-mcq-17": "「安排物件之間保持一定距離」是「space — verb」的用法，與本句語境不同。",
-        "space-mcq-21": "「某地方顯得寬敞、開放的程度／感覺」是「spaciousness」的用法，與本句語境不同。",
-        "space-mcq-16": "「由互聯網和數碼網絡形成的虛擬環境」是「cyberspace」的用法，與本句語境不同。"
+        "space-mcq-19": "本句的「space out」指「暫時失去集中力、走神或發呆」。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-19"
     },
@@ -1811,10 +1647,8 @@ export default {
       "options": [
         "space-mcq-20",
         "space-mcq-19",
-        "space-mcq-21",
-        "space-mcq-18",
-        "space-mcq-22",
-        "space-mcq-17"
+        "space-mcq-15",
+        "space-mcq-11"
       ],
       "explanation": "本句的「spacious」指「有大量可用空間、不擠迫的」。",
       "sentenceIndex": 41,
@@ -1823,12 +1657,10 @@ export default {
         "spacious"
       ],
       "optionReasons": {
-        "space-mcq-20": "本句指「有大量可用空間、不擠迫的」。",
-        "space-mcq-19": "「暫時失去集中力、走神或發呆」是「space out — concentration」的用法，與本句語境不同。",
-        "space-mcq-21": "「某地方顯得寬敞、開放的程度／感覺」是「spaciousness」的用法，與本句語境不同。",
-        "space-mcq-18": "「把事物按距離／時間分散安排」是「space out — arrange」的用法，與本句語境不同。",
-        "space-mcq-22": "「物件、文字或事件之間的距離／間隔」是「spacing」的用法，與本句語境不同。",
-        "space-mcq-17": "「安排物件之間保持一定距離」是「space — verb」的用法，與本句語境不同。"
+        "space-mcq-20": "本句的「spacious」指「有大量可用空間、不擠迫的」。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-20"
     },
@@ -1840,11 +1672,9 @@ export default {
       "masked": "They moved into a ____ apartment.",
       "options": [
         "space-mcq-20",
-        "space-mcq-19",
-        "space-mcq-21",
-        "space-mcq-18",
-        "space-mcq-22",
-        "space-mcq-17"
+        "space-mcq-16",
+        "space-mcq-11",
+        "space-mcq-19"
       ],
       "explanation": "本句的「spacious」指「有大量可用空間、不擠迫的」。",
       "sentenceIndex": 42,
@@ -1853,12 +1683,10 @@ export default {
         "spacious"
       ],
       "optionReasons": {
-        "space-mcq-20": "本句指「有大量可用空間、不擠迫的」。",
-        "space-mcq-19": "「暫時失去集中力、走神或發呆」是「space out — concentration」的用法，與本句語境不同。",
-        "space-mcq-21": "「某地方顯得寬敞、開放的程度／感覺」是「spaciousness」的用法，與本句語境不同。",
-        "space-mcq-18": "「把事物按距離／時間分散安排」是「space out — arrange」的用法，與本句語境不同。",
-        "space-mcq-22": "「物件、文字或事件之間的距離／間隔」是「spacing」的用法，與本句語境不同。",
-        "space-mcq-17": "「安排物件之間保持一定距離」是「space — verb」的用法，與本句語境不同。"
+        "space-mcq-20": "本句的「spacious」指「有大量可用空間、不擠迫的」。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-20"
     },
@@ -1870,11 +1698,9 @@ export default {
       "masked": "Large windows add to the ____ of the room.",
       "options": [
         "space-mcq-21",
-        "space-mcq-20",
-        "space-mcq-22",
-        "space-mcq-19",
-        "space-mcq-23",
-        "space-mcq-18"
+        "space-mcq-02",
+        "space-mcq-13",
+        "space-mcq-15"
       ],
       "explanation": "本句的「spaciousness」指「某地方顯得寬敞、開放的程度／感覺」。",
       "sentenceIndex": 43,
@@ -1883,12 +1709,10 @@ export default {
         "spaciousness"
       ],
       "optionReasons": {
-        "space-mcq-21": "本句指「某地方顯得寬敞、開放的程度／感覺」。",
-        "space-mcq-20": "「有大量可用空間、不擠迫的」是「spacious」的用法，與本句語境不同。",
-        "space-mcq-22": "「物件、文字或事件之間的距離／間隔」是「spacing」的用法，與本句語境不同。",
-        "space-mcq-19": "「暫時失去集中力、走神或發呆」是「space out — concentration」的用法，與本句語境不同。",
-        "space-mcq-23": "「與位置、距離、方向或空間關係有關的」是「spatial」的用法，與本句語境不同。",
-        "space-mcq-18": "「把事物按距離／時間分散安排」是「space out — arrange」的用法，與本句語境不同。"
+        "space-mcq-21": "本句的「spaciousness」指「某地方顯得寬敞、開放的程度／感覺」。",
+        "space-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-21"
     },
@@ -1900,11 +1724,9 @@ export default {
       "masked": "I like the ____ of the design.",
       "options": [
         "space-mcq-21",
-        "space-mcq-20",
-        "space-mcq-22",
-        "space-mcq-19",
-        "space-mcq-23",
-        "space-mcq-18"
+        "space-mcq-02",
+        "space-mcq-14",
+        "space-mcq-15"
       ],
       "explanation": "本句的「spaciousness」指「某地方顯得寬敞、開放的程度／感覺」。",
       "sentenceIndex": 44,
@@ -1913,12 +1735,10 @@ export default {
         "spaciousness"
       ],
       "optionReasons": {
-        "space-mcq-21": "本句指「某地方顯得寬敞、開放的程度／感覺」。",
-        "space-mcq-20": "「有大量可用空間、不擠迫的」是「spacious」的用法，與本句語境不同。",
-        "space-mcq-22": "「物件、文字或事件之間的距離／間隔」是「spacing」的用法，與本句語境不同。",
-        "space-mcq-19": "「暫時失去集中力、走神或發呆」是「space out — concentration」的用法，與本句語境不同。",
-        "space-mcq-23": "「與位置、距離、方向或空間關係有關的」是「spatial」的用法，與本句語境不同。",
-        "space-mcq-18": "「把事物按距離／時間分散安排」是「space out — arrange」的用法，與本句語境不同。"
+        "space-mcq-21": "本句的「spaciousness」指「某地方顯得寬敞、開放的程度／感覺」。",
+        "space-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-21"
     },
@@ -1930,11 +1750,9 @@ export default {
       "masked": "Check the ____ between the lines.",
       "options": [
         "space-mcq-22",
-        "space-mcq-21",
-        "space-mcq-23",
-        "space-mcq-20",
-        "space-mcq-24",
-        "space-mcq-19"
+        "space-mcq-06",
+        "space-mcq-11",
+        "space-mcq-02"
       ],
       "explanation": "本句的「spacing」指「物件、文字或事件之間的距離／間隔」。",
       "sentenceIndex": 45,
@@ -1943,12 +1761,10 @@ export default {
         "spacing"
       ],
       "optionReasons": {
-        "space-mcq-22": "本句指「物件、文字或事件之間的距離／間隔」。",
-        "space-mcq-21": "「某地方顯得寬敞、開放的程度／感覺」是「spaciousness」的用法，與本句語境不同。",
-        "space-mcq-23": "「與位置、距離、方向或空間關係有關的」是「spatial」的用法，與本句語境不同。",
-        "space-mcq-20": "「有大量可用空間、不擠迫的」是「spacious」的用法，與本句語境不同。",
-        "space-mcq-24": "「就空間位置／關係而言」是「spatially」的用法，與本句語境不同。",
-        "space-mcq-19": "「暫時失去集中力、走神或發呆」是「space out — concentration」的用法，與本句語境不同。"
+        "space-mcq-22": "本句的「spacing」指「物件、文字或事件之間的距離／間隔」。",
+        "space-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-22"
     },
@@ -1960,11 +1776,9 @@ export default {
       "masked": "The ____ of the chairs is uneven.",
       "options": [
         "space-mcq-22",
-        "space-mcq-21",
-        "space-mcq-23",
-        "space-mcq-20",
-        "space-mcq-24",
-        "space-mcq-19"
+        "space-mcq-19",
+        "space-mcq-06",
+        "space-mcq-15"
       ],
       "explanation": "本句的「spacing」指「物件、文字或事件之間的距離／間隔」。",
       "sentenceIndex": 46,
@@ -1973,12 +1787,10 @@ export default {
         "spacing"
       ],
       "optionReasons": {
-        "space-mcq-22": "本句指「物件、文字或事件之間的距離／間隔」。",
-        "space-mcq-21": "「某地方顯得寬敞、開放的程度／感覺」是「spaciousness」的用法，與本句語境不同。",
-        "space-mcq-23": "「與位置、距離、方向或空間關係有關的」是「spatial」的用法，與本句語境不同。",
-        "space-mcq-20": "「有大量可用空間、不擠迫的」是「spacious」的用法，與本句語境不同。",
-        "space-mcq-24": "「就空間位置／關係而言」是「spatially」的用法，與本句語境不同。",
-        "space-mcq-19": "「暫時失去集中力、走神或發呆」是「space out — concentration」的用法，與本句語境不同。"
+        "space-mcq-22": "本句的「spacing」指「物件、文字或事件之間的距離／間隔」。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-22"
     },
@@ -1990,11 +1802,9 @@ export default {
       "masked": "The task tests ____.",
       "options": [
         "space-mcq-23",
-        "space-mcq-22",
-        "space-mcq-24",
-        "space-mcq-21",
-        "space-mcq-25",
-        "space-mcq-20"
+        "space-mcq-11",
+        "space-mcq-16",
+        "space-mcq-19"
       ],
       "explanation": "本句的「spatial awareness」指「與位置、距離、方向或空間關係有關的」。",
       "sentenceIndex": 47,
@@ -2003,12 +1813,10 @@ export default {
         "spatial awareness"
       ],
       "optionReasons": {
-        "space-mcq-23": "本句指「與位置、距離、方向或空間關係有關的」。",
-        "space-mcq-22": "「物件、文字或事件之間的距離／間隔」是「spacing」的用法，與本句語境不同。",
-        "space-mcq-24": "「就空間位置／關係而言」是「spatially」的用法，與本句語境不同。",
-        "space-mcq-21": "「某地方顯得寬敞、開放的程度／感覺」是「spaciousness」的用法，與本句語境不同。",
-        "space-mcq-25": "「版面設計中未被文字、圖像或其他元素佔用的區域」是「12. space = area in text/layout/design（版面空間） — 版面；留白」的用法，與本句語境不同。",
-        "space-mcq-20": "「有大量可用空間、不擠迫的」是「spacious」的用法，與本句語境不同。"
+        "space-mcq-23": "本句的「spatial awareness」指「與位置、距離、方向或空間關係有關的」。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-23"
     },
@@ -2020,11 +1828,9 @@ export default {
       "masked": "Children develop ____ through play.",
       "options": [
         "space-mcq-23",
-        "space-mcq-22",
-        "space-mcq-24",
-        "space-mcq-21",
-        "space-mcq-25",
-        "space-mcq-20"
+        "space-mcq-19",
+        "space-mcq-16",
+        "space-mcq-11"
       ],
       "explanation": "本句的「spatial skills」指「與位置、距離、方向或空間關係有關的」。",
       "sentenceIndex": 48,
@@ -2033,12 +1839,10 @@ export default {
         "spatial skills"
       ],
       "optionReasons": {
-        "space-mcq-23": "本句指「與位置、距離、方向或空間關係有關的」。",
-        "space-mcq-22": "「物件、文字或事件之間的距離／間隔」是「spacing」的用法，與本句語境不同。",
-        "space-mcq-24": "「就空間位置／關係而言」是「spatially」的用法，與本句語境不同。",
-        "space-mcq-21": "「某地方顯得寬敞、開放的程度／感覺」是「spaciousness」的用法，與本句語境不同。",
-        "space-mcq-25": "「版面設計中未被文字、圖像或其他元素佔用的區域」是「12. space = area in text/layout/design（版面空間） — 版面；留白」的用法，與本句語境不同。",
-        "space-mcq-20": "「有大量可用空間、不擠迫的」是「spacious」的用法，與本句語境不同。"
+        "space-mcq-23": "本句的「spatial skills」指「與位置、距離、方向或空間關係有關的」。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-23"
     },
@@ -2050,11 +1854,9 @@ export default {
       "masked": "Building with Lego can improve ____.",
       "options": [
         "space-mcq-23",
-        "space-mcq-22",
-        "space-mcq-24",
-        "space-mcq-21",
-        "space-mcq-25",
-        "space-mcq-20"
+        "space-mcq-19",
+        "space-mcq-11",
+        "space-mcq-16"
       ],
       "explanation": "本句的「spatial awareness」指「與位置、距離、方向或空間關係有關的」。",
       "sentenceIndex": 49,
@@ -2063,12 +1865,10 @@ export default {
         "spatial awareness"
       ],
       "optionReasons": {
-        "space-mcq-23": "本句指「與位置、距離、方向或空間關係有關的」。",
-        "space-mcq-22": "「物件、文字或事件之間的距離／間隔」是「spacing」的用法，與本句語境不同。",
-        "space-mcq-24": "「就空間位置／關係而言」是「spatially」的用法，與本句語境不同。",
-        "space-mcq-21": "「某地方顯得寬敞、開放的程度／感覺」是「spaciousness」的用法，與本句語境不同。",
-        "space-mcq-25": "「版面設計中未被文字、圖像或其他元素佔用的區域」是「12. space = area in text/layout/design（版面空間） — 版面；留白」的用法，與本句語境不同。",
-        "space-mcq-20": "「有大量可用空間、不擠迫的」是「spacious」的用法，與本句語境不同。"
+        "space-mcq-23": "本句的「spatial awareness」指「與位置、距離、方向或空間關係有關的」。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-23"
     },
@@ -2080,11 +1880,9 @@ export default {
       "masked": "Good ____ helps when driving.",
       "options": [
         "space-mcq-23",
-        "space-mcq-22",
-        "space-mcq-24",
-        "space-mcq-21",
-        "space-mcq-25",
-        "space-mcq-20"
+        "space-mcq-19",
+        "space-mcq-11",
+        "space-mcq-15"
       ],
       "explanation": "本句的「spatial awareness」指「與位置、距離、方向或空間關係有關的」。",
       "sentenceIndex": 50,
@@ -2093,12 +1891,10 @@ export default {
         "spatial awareness"
       ],
       "optionReasons": {
-        "space-mcq-23": "本句指「與位置、距離、方向或空間關係有關的」。",
-        "space-mcq-22": "「物件、文字或事件之間的距離／間隔」是「spacing」的用法，與本句語境不同。",
-        "space-mcq-24": "「就空間位置／關係而言」是「spatially」的用法，與本句語境不同。",
-        "space-mcq-21": "「某地方顯得寬敞、開放的程度／感覺」是「spaciousness」的用法，與本句語境不同。",
-        "space-mcq-25": "「版面設計中未被文字、圖像或其他元素佔用的區域」是「12. space = area in text/layout/design（版面空間） — 版面；留白」的用法，與本句語境不同。",
-        "space-mcq-20": "「有大量可用空間、不擠迫的」是「spacious」的用法，與本句語境不同。"
+        "space-mcq-23": "本句的「spatial awareness」指「與位置、距離、方向或空間關係有關的」。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-23"
     },
@@ -2110,11 +1906,9 @@ export default {
       "masked": "The objects are ____ separated.",
       "options": [
         "space-mcq-24",
-        "space-mcq-23",
-        "space-mcq-25",
-        "space-mcq-22",
-        "space-mcq-21",
-        "space-mcq-20"
+        "space-mcq-16",
+        "space-mcq-11",
+        "space-mcq-19"
       ],
       "explanation": "本句的「spatially」指「就空間位置／關係而言」。",
       "sentenceIndex": 51,
@@ -2123,12 +1917,10 @@ export default {
         "spatially"
       ],
       "optionReasons": {
-        "space-mcq-24": "本句指「就空間位置／關係而言」。",
-        "space-mcq-23": "「與位置、距離、方向或空間關係有關的」是「spatial」的用法，與本句語境不同。",
-        "space-mcq-25": "「版面設計中未被文字、圖像或其他元素佔用的區域」是「12. space = area in text/layout/design（版面空間） — 版面；留白」的用法，與本句語境不同。",
-        "space-mcq-22": "「物件、文字或事件之間的距離／間隔」是「spacing」的用法，與本句語境不同。",
-        "space-mcq-21": "「某地方顯得寬敞、開放的程度／感覺」是「spaciousness」的用法，與本句語境不同。",
-        "space-mcq-20": "「有大量可用空間、不擠迫的」是「spacious」的用法，與本句語境不同。"
+        "space-mcq-24": "本句的「spatially」指「就空間位置／關係而言」。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-24"
     },
@@ -2140,11 +1932,9 @@ export default {
       "masked": "The information is organized ____.",
       "options": [
         "space-mcq-24",
-        "space-mcq-23",
-        "space-mcq-25",
-        "space-mcq-22",
-        "space-mcq-21",
-        "space-mcq-20"
+        "space-mcq-16",
+        "space-mcq-19",
+        "space-mcq-11"
       ],
       "explanation": "本句的「spatially」指「就空間位置／關係而言」。",
       "sentenceIndex": 52,
@@ -2153,12 +1943,10 @@ export default {
         "spatially"
       ],
       "optionReasons": {
-        "space-mcq-24": "本句指「就空間位置／關係而言」。",
-        "space-mcq-23": "「與位置、距離、方向或空間關係有關的」是「spatial」的用法，與本句語境不同。",
-        "space-mcq-25": "「版面設計中未被文字、圖像或其他元素佔用的區域」是「12. space = area in text/layout/design（版面空間） — 版面；留白」的用法，與本句語境不同。",
-        "space-mcq-22": "「物件、文字或事件之間的距離／間隔」是「spacing」的用法，與本句語境不同。",
-        "space-mcq-21": "「某地方顯得寬敞、開放的程度／感覺」是「spaciousness」的用法，與本句語境不同。",
-        "space-mcq-20": "「有大量可用空間、不擠迫的」是「spacious」的用法，與本句語境不同。"
+        "space-mcq-24": "本句的「spatially」指「就空間位置／關係而言」。",
+        "space-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "space-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "space-mcq-24"
     }
@@ -2170,5 +1958,7 @@ export default {
     "sha256": "7aaff59bea45e2f628855e80d52a20247c5249fe218355eded4fedbba3818ca7",
     "pages": 22
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

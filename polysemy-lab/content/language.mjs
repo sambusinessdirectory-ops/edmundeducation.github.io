@@ -1783,11 +1783,9 @@ export default {
       "masked": "Her body ____ showed that she was uncomfortable.",
       "options": [
         "language-mcq-01",
-        "language-mcq-02",
-        "language-mcq-03",
-        "language-mcq-04",
-        "language-mcq-05",
-        "language-mcq-06"
+        "language-mcq-87",
+        "language-mcq-54",
+        "language-mcq-17"
       ],
       "explanation": "本句的「language」指「透過姿勢、表情、眼神、手勢、動作等傳達意思的肢體語言」。",
       "sentenceIndex": 0,
@@ -1796,12 +1794,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-01": "本句指「透過姿勢、表情、眼神、手勢、動作等傳達意思的肢體語言」。",
-        "language-mcq-02": "「人類用聲音、符號、詞彙、語法等傳遞意義的語言系統」與本句語境不同。",
-        "language-mcq-03": "「英語、中文等一套特定的語言系統」與本句語境不同。",
-        "language-mcq-04": "「以口頭聲音表達的語言；口語」與本句語境不同。",
-        "language-mcq-05": "「以文字表達的語言；書面語」與本句語境不同。",
-        "language-mcq-06": "「主要透過手形、動作、位置等構成的完整自然手語」與本句語境不同。"
+        "language-mcq-01": "本句的「language」指「透過姿勢、表情、眼神、手勢、動作等傳達意思的肢體語言」。",
+        "language-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-01"
     },
@@ -1813,11 +1809,9 @@ export default {
       "masked": "Actors must think carefully about both words and body ____.",
       "options": [
         "language-mcq-01",
-        "language-mcq-02",
-        "language-mcq-03",
-        "language-mcq-04",
-        "language-mcq-05",
-        "language-mcq-06"
+        "language-mcq-70",
+        "language-mcq-15",
+        "language-mcq-95"
       ],
       "explanation": "本句的「language」指「透過姿勢、表情、眼神、手勢、動作等傳達意思的肢體語言」。",
       "sentenceIndex": 1,
@@ -1826,12 +1820,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-01": "本句指「透過姿勢、表情、眼神、手勢、動作等傳達意思的肢體語言」。",
-        "language-mcq-02": "「人類用聲音、符號、詞彙、語法等傳遞意義的語言系統」與本句語境不同。",
-        "language-mcq-03": "「英語、中文等一套特定的語言系統」與本句語境不同。",
-        "language-mcq-04": "「以口頭聲音表達的語言；口語」與本句語境不同。",
-        "language-mcq-05": "「以文字表達的語言；書面語」與本句語境不同。",
-        "language-mcq-06": "「主要透過手形、動作、位置等構成的完整自然手語」與本句語境不同。"
+        "language-mcq-01": "本句的「language」指「透過姿勢、表情、眼神、手勢、動作等傳達意思的肢體語言」。",
+        "language-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-95": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-01"
     },
@@ -1843,11 +1835,9 @@ export default {
       "masked": "____ allows people to share complex ideas.",
       "options": [
         "language-mcq-08",
-        "language-mcq-07",
-        "language-mcq-09",
-        "language-mcq-06",
-        "language-mcq-10",
-        "language-mcq-05"
+        "language-mcq-95",
+        "language-mcq-87",
+        "language-mcq-17"
       ],
       "explanation": "本句的「Language」指「人類所具有／使用的語言系統」。",
       "sentenceIndex": 2,
@@ -1856,12 +1846,10 @@ export default {
         "Language"
       ],
       "optionReasons": {
-        "language-mcq-08": "本句指「人類所具有／使用的語言系統」。",
-        "language-mcq-07": "「自然在人類社群中發展的語言」與本句語境不同。",
-        "language-mcq-09": "「一個人最早習得的第一語言」與本句語境不同。",
-        "language-mcq-06": "「主要透過手形、動作、位置等構成的完整自然手語」與本句語境不同。",
-        "language-mcq-10": "「自幼自然習得的母語」與本句語境不同。",
-        "language-mcq-05": "「以文字表達的語言；書面語」與本句語境不同。"
+        "language-mcq-08": "本句的「Language」指「人類所具有／使用的語言系統」。",
+        "language-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-08"
     },
@@ -1873,11 +1861,9 @@ export default {
       "masked": "Children develop ____ rapidly in early childhood.",
       "options": [
         "language-mcq-08",
-        "language-mcq-07",
-        "language-mcq-09",
-        "language-mcq-06",
-        "language-mcq-10",
-        "language-mcq-05"
+        "language-mcq-97",
+        "language-mcq-69",
+        "language-mcq-54"
       ],
       "explanation": "本句的「language」指「人類所具有／使用的語言系統」。",
       "sentenceIndex": 3,
@@ -1886,12 +1872,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-08": "本句指「人類所具有／使用的語言系統」。",
-        "language-mcq-07": "「自然在人類社群中發展的語言」與本句語境不同。",
-        "language-mcq-09": "「一個人最早習得的第一語言」與本句語境不同。",
-        "language-mcq-06": "「主要透過手形、動作、位置等構成的完整自然手語」與本句語境不同。",
-        "language-mcq-10": "「自幼自然習得的母語」與本句語境不同。",
-        "language-mcq-05": "「以文字表達的語言；書面語」與本句語境不同。"
+        "language-mcq-08": "本句的「language」指「人類所具有／使用的語言系統」。",
+        "language-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-08"
     },
@@ -1903,11 +1887,9 @@ export default {
       "masked": "Spoken ____ often differs from formal writing.",
       "options": [
         "language-mcq-04",
-        "language-mcq-03",
-        "language-mcq-05",
-        "language-mcq-02",
-        "language-mcq-06",
-        "language-mcq-01"
+        "language-mcq-69",
+        "language-mcq-15",
+        "language-mcq-17"
       ],
       "explanation": "本句的「language」指「以口頭聲音表達的語言；口語」。",
       "sentenceIndex": 6,
@@ -1916,12 +1898,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-04": "本句指「以口頭聲音表達的語言；口語」。",
-        "language-mcq-03": "「英語、中文等一套特定的語言系統」與本句語境不同。",
-        "language-mcq-05": "「以文字表達的語言；書面語」與本句語境不同。",
-        "language-mcq-02": "「人類用聲音、符號、詞彙、語法等傳遞意義的語言系統」與本句語境不同。",
-        "language-mcq-06": "「主要透過手形、動作、位置等構成的完整自然手語」與本句語境不同。",
-        "language-mcq-01": "「透過姿勢、表情、眼神、手勢、動作等傳達意思的肢體語言」與本句語境不同。"
+        "language-mcq-04": "本句的「language」指「以口頭聲音表達的語言；口語」。",
+        "language-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-04"
     },
@@ -1933,11 +1913,9 @@ export default {
       "masked": "Academic written ____ can be highly formal.",
       "options": [
         "language-mcq-05",
-        "language-mcq-04",
-        "language-mcq-06",
-        "language-mcq-03",
-        "language-mcq-07",
-        "language-mcq-02"
+        "language-mcq-70",
+        "language-mcq-72",
+        "language-mcq-10"
       ],
       "explanation": "本句的「language」指「以文字表達的語言；書面語」。",
       "sentenceIndex": 7,
@@ -1946,12 +1924,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-05": "本句指「以文字表達的語言；書面語」。",
-        "language-mcq-04": "「以口頭聲音表達的語言；口語」與本句語境不同。",
-        "language-mcq-06": "「主要透過手形、動作、位置等構成的完整自然手語」與本句語境不同。",
-        "language-mcq-03": "「英語、中文等一套特定的語言系統」與本句語境不同。",
-        "language-mcq-07": "「自然在人類社群中發展的語言」與本句語境不同。",
-        "language-mcq-02": "「人類用聲音、符號、詞彙、語法等傳遞意義的語言系統」與本句語境不同。"
+        "language-mcq-05": "本句的「language」指「以文字表達的語言；書面語」。",
+        "language-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-05"
     },
@@ -1963,11 +1939,9 @@ export default {
       "masked": "She communicates using sign ____.",
       "options": [
         "language-mcq-06",
-        "language-mcq-05",
-        "language-mcq-07",
-        "language-mcq-04",
-        "language-mcq-08",
-        "language-mcq-03"
+        "language-mcq-95",
+        "language-mcq-69",
+        "language-mcq-08"
       ],
       "explanation": "本句的「language」指「主要透過手形、動作、位置等構成的完整自然手語」。",
       "sentenceIndex": 8,
@@ -1976,12 +1950,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-06": "本句指「主要透過手形、動作、位置等構成的完整自然手語」。",
-        "language-mcq-05": "「以文字表達的語言；書面語」與本句語境不同。",
-        "language-mcq-07": "「自然在人類社群中發展的語言」與本句語境不同。",
-        "language-mcq-04": "「以口頭聲音表達的語言；口語」與本句語境不同。",
-        "language-mcq-08": "「人類所具有／使用的語言系統」與本句語境不同。",
-        "language-mcq-03": "「英語、中文等一套特定的語言系統」與本句語境不同。"
+        "language-mcq-06": "本句的「language」指「主要透過手形、動作、位置等構成的完整自然手語」。",
+        "language-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-06"
     },
@@ -1993,11 +1965,9 @@ export default {
       "masked": "Computers increasingly process natural ____.",
       "options": [
         "language-mcq-07",
-        "language-mcq-06",
-        "language-mcq-08",
-        "language-mcq-05",
-        "language-mcq-09",
-        "language-mcq-04"
+        "language-mcq-87",
+        "language-mcq-97",
+        "language-mcq-59"
       ],
       "explanation": "本句的「language」指「自然在人類社群中發展的語言」。",
       "sentenceIndex": 9,
@@ -2006,12 +1976,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-07": "本句指「自然在人類社群中發展的語言」。",
-        "language-mcq-06": "「主要透過手形、動作、位置等構成的完整自然手語」與本句語境不同。",
-        "language-mcq-08": "「人類所具有／使用的語言系統」與本句語境不同。",
-        "language-mcq-05": "「以文字表達的語言；書面語」與本句語境不同。",
-        "language-mcq-09": "「一個人最早習得的第一語言」與本句語境不同。",
-        "language-mcq-04": "「以口頭聲音表達的語言；口語」與本句語境不同。"
+        "language-mcq-07": "本句的「language」指「自然在人類社群中發展的語言」。",
+        "language-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-07"
     },
@@ -2023,11 +1991,9 @@ export default {
       "masked": "Cantonese is her first ____.",
       "options": [
         "language-mcq-09",
-        "language-mcq-08",
-        "language-mcq-10",
-        "language-mcq-07",
-        "language-mcq-11",
-        "language-mcq-06"
+        "language-mcq-60",
+        "language-mcq-95",
+        "language-mcq-17"
       ],
       "explanation": "本句的「language」指「一個人最早習得的第一語言」。",
       "sentenceIndex": 10,
@@ -2036,12 +2002,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-09": "本句指「一個人最早習得的第一語言」。",
-        "language-mcq-08": "「人類所具有／使用的語言系統」與本句語境不同。",
-        "language-mcq-10": "「自幼自然習得的母語」與本句語境不同。",
-        "language-mcq-07": "「自然在人類社群中發展的語言」與本句語境不同。",
-        "language-mcq-11": "「母語」與本句語境不同。",
-        "language-mcq-06": "「主要透過手形、動作、位置等構成的完整自然手語」與本句語境不同。"
+        "language-mcq-09": "本句的「language」指「一個人最早習得的第一語言」。",
+        "language-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-09"
     },
@@ -2053,11 +2017,9 @@ export default {
       "masked": "English is not his native ____.",
       "options": [
         "language-mcq-10",
-        "language-mcq-09",
-        "language-mcq-11",
-        "language-mcq-08",
-        "language-mcq-12",
-        "language-mcq-07"
+        "language-mcq-87",
+        "language-mcq-100",
+        "language-mcq-43"
       ],
       "explanation": "本句的「language」指「自幼自然習得的母語」。",
       "sentenceIndex": 11,
@@ -2066,12 +2028,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-10": "本句指「自幼自然習得的母語」。",
-        "language-mcq-09": "「一個人最早習得的第一語言」與本句語境不同。",
-        "language-mcq-11": "「母語」與本句語境不同。",
-        "language-mcq-08": "「人類所具有／使用的語言系統」與本句語境不同。",
-        "language-mcq-12": "「在第一語言以外學習／使用的第二語言」與本句語境不同。",
-        "language-mcq-07": "「自然在人類社群中發展的語言」與本句語境不同。"
+        "language-mcq-10": "本句的「language」指「自幼自然習得的母語」。",
+        "language-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-100": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-10"
     },
@@ -2083,11 +2043,9 @@ export default {
       "masked": "She learned English as a second ____.",
       "options": [
         "language-mcq-12",
-        "language-mcq-11",
-        "language-mcq-13",
-        "language-mcq-10",
-        "language-mcq-14",
-        "language-mcq-09"
+        "language-mcq-97",
+        "language-mcq-87",
+        "language-mcq-54"
       ],
       "explanation": "本句的「language」指「在第一語言以外學習／使用的第二語言」。",
       "sentenceIndex": 12,
@@ -2096,12 +2054,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-12": "本句指「在第一語言以外學習／使用的第二語言」。",
-        "language-mcq-11": "「母語」與本句語境不同。",
-        "language-mcq-13": "「本地環境中非主要使用的外國語言」與本句語境不同。",
-        "language-mcq-10": "「自幼自然習得的母語」與本句語境不同。",
-        "language-mcq-14": "「在已有語言之外再學習的語言」與本句語境不同。",
-        "language-mcq-09": "「一個人最早習得的第一語言」與本句語境不同。"
+        "language-mcq-12": "本句的「language」指「在第一語言以外學習／使用的第二語言」。",
+        "language-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-12"
     },
@@ -2113,11 +2069,9 @@ export default {
       "masked": "Students study a foreign ____ at school.",
       "options": [
         "language-mcq-13",
-        "language-mcq-12",
-        "language-mcq-14",
-        "language-mcq-11",
-        "language-mcq-15",
-        "language-mcq-10"
+        "language-mcq-69",
+        "language-mcq-100",
+        "language-mcq-15"
       ],
       "explanation": "本句的「language」指「本地環境中非主要使用的外國語言」。",
       "sentenceIndex": 13,
@@ -2126,12 +2080,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-13": "本句指「本地環境中非主要使用的外國語言」。",
-        "language-mcq-12": "「在第一語言以外學習／使用的第二語言」與本句語境不同。",
-        "language-mcq-14": "「在已有語言之外再學習的語言」與本句語境不同。",
-        "language-mcq-11": "「母語」與本句語境不同。",
-        "language-mcq-15": "「學習者正在學習的目標語」與本句語境不同。",
-        "language-mcq-10": "「自幼自然習得的母語」與本句語境不同。"
+        "language-mcq-13": "本句的「language」指「本地環境中非主要使用的外國語言」。",
+        "language-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-100": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-13"
     },
@@ -2143,11 +2095,9 @@ export default {
       "masked": "Try to use the target ____ during the activity.",
       "options": [
         "language-mcq-15",
-        "language-mcq-14",
-        "language-mcq-16",
-        "language-mcq-13",
-        "language-mcq-17",
-        "language-mcq-12"
+        "language-mcq-70",
+        "language-mcq-100",
+        "language-mcq-06"
       ],
       "explanation": "本句的「language」指「學習者正在學習的目標語」。",
       "sentenceIndex": 14,
@@ -2156,12 +2106,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-15": "本句指「學習者正在學習的目標語」。",
-        "language-mcq-14": "「在已有語言之外再學習的語言」與本句語境不同。",
-        "language-mcq-16": "「翻譯所譯入的語言」與本句語境不同。",
-        "language-mcq-13": "「本地環境中非主要使用的外國語言」與本句語境不同。",
-        "language-mcq-17": "「翻譯原文所使用的源語」與本句語境不同。",
-        "language-mcq-12": "「在第一語言以外學習／使用的第二語言」與本句語境不同。"
+        "language-mcq-15": "本句的「language」指「學習者正在學習的目標語」。",
+        "language-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-100": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-15"
     },
@@ -2173,11 +2121,9 @@ export default {
       "masked": "English was the source ____, and Chinese was the target language.",
       "options": [
         "language-mcq-17",
-        "language-mcq-16",
-        "language-mcq-18",
-        "language-mcq-15",
-        "language-mcq-19",
-        "language-mcq-14"
+        "language-mcq-70",
+        "language-mcq-100",
+        "language-mcq-08"
       ],
       "explanation": "本句的「language」指「翻譯原文所使用的源語」。",
       "sentenceIndex": 15,
@@ -2186,12 +2132,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-17": "本句指「翻譯原文所使用的源語」。",
-        "language-mcq-16": "「翻譯所譯入的語言」與本句語境不同。",
-        "language-mcq-18": "「與家庭／族群傳承相關的傳承語」與本句語境不同。",
-        "language-mcq-15": "「學習者正在學習的目標語」與本句語境不同。",
-        "language-mcq-19": "「某社群內使用的語言」與本句語境不同。",
-        "language-mcq-14": "「在已有語言之外再學習的語言」與本句語境不同。"
+        "language-mcq-17": "本句的「language」指「翻譯原文所使用的源語」。",
+        "language-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-100": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-17"
     },
@@ -2203,11 +2147,9 @@ export default {
       "masked": "The school offers classes for heritage ____ learners.",
       "options": [
         "language-mcq-18",
-        "language-mcq-17",
-        "language-mcq-19",
-        "language-mcq-16",
-        "language-mcq-20",
-        "language-mcq-15"
+        "language-mcq-87",
+        "language-mcq-100",
+        "language-mcq-75"
       ],
       "explanation": "本句的「language」指「與家庭／族群傳承相關的傳承語」。",
       "sentenceIndex": 16,
@@ -2216,12 +2158,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-18": "本句指「與家庭／族群傳承相關的傳承語」。",
-        "language-mcq-17": "「翻譯原文所使用的源語」與本句語境不同。",
-        "language-mcq-19": "「某社群內使用的語言」與本句語境不同。",
-        "language-mcq-16": "「翻譯所譯入的語言」與本句語境不同。",
-        "language-mcq-20": "「少數群體所使用的語言」與本句語境不同。",
-        "language-mcq-15": "「學習者正在學習的目標語」與本句語境不同。"
+        "language-mcq-18": "本句的「language」指「與家庭／族群傳承相關的傳承語」。",
+        "language-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-100": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-18"
     },
@@ -2233,11 +2173,9 @@ export default {
       "masked": "The country has several official ____.",
       "options": [
         "language-mcq-22",
-        "language-mcq-21",
-        "language-mcq-23",
-        "language-mcq-20",
-        "language-mcq-24",
-        "language-mcq-19"
+        "language-mcq-69",
+        "language-mcq-97",
+        "language-mcq-17"
       ],
       "explanation": "本句的「languages」指「獲政府／制度正式指定使用的官方語言」。",
       "sentenceIndex": 17,
@@ -2246,12 +2184,10 @@ export default {
         "languages"
       ],
       "optionReasons": {
-        "language-mcq-22": "本句指「獲政府／制度正式指定使用的官方語言」。",
-        "language-mcq-21": "「在社會／制度上較具主導地位的語言」與本句語境不同。",
-        "language-mcq-23": "「與國家身分具有正式／象徵關係的國家語言」與本句語境不同。",
-        "language-mcq-20": "「少數群體所使用的語言」與本句語境不同。",
-        "language-mcq-24": "「各方共同能使用的語言；亦可比喻共同語彙／框架」與本句語境不同。",
-        "language-mcq-19": "「某社群內使用的語言」與本句語境不同。"
+        "language-mcq-22": "本句的「languages」指「獲政府／制度正式指定使用的官方語言」。",
+        "language-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-22"
     },
@@ -2263,11 +2199,9 @@ export default {
       "masked": "Researchers are documenting endangered ____.",
       "options": [
         "language-mcq-29",
-        "language-mcq-28",
-        "language-mcq-30",
-        "language-mcq-27",
-        "language-mcq-31",
-        "language-mcq-26"
+        "language-mcq-70",
+        "language-mcq-95",
+        "language-mcq-10"
       ],
       "explanation": "本句的「languages」指「使用者逐漸減少、有消亡風險的瀕危語言」。",
       "sentenceIndex": 20,
@@ -2276,12 +2210,10 @@ export default {
         "languages"
       ],
       "optionReasons": {
-        "language-mcq-29": "本句指「使用者逐漸減少、有消亡風險的瀕危語言」。",
-        "language-mcq-28": "「已沒有使用者的滅絕語言」與本句語境不同。",
-        "language-mcq-30": "「恢復／加強瀕危語言使用及傳承的語言復振」與本句語境不同。",
-        "language-mcq-27": "「已不再作為社群日常母語傳承的語言」與本句語境不同。",
-        "language-mcq-31": "「具有重要歷史／文學傳統的古典語言」與本句語境不同。",
-        "language-mcq-26": "「仍被社群日常自然使用的活語言」與本句語境不同。"
+        "language-mcq-29": "本句的「languages」指「使用者逐漸減少、有消亡風險的瀕危語言」。",
+        "language-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-29"
     },
@@ -2293,11 +2225,9 @@ export default {
       "masked": "English belongs to the Indo-European ____ family.",
       "options": [
         "language-mcq-34",
-        "language-mcq-33",
-        "language-mcq-35",
-        "language-mcq-32",
-        "language-mcq-36",
-        "language-mcq-31"
+        "language-mcq-60",
+        "language-mcq-95",
+        "language-mcq-06"
       ],
       "explanation": "本句的「language」指「由共同祖語發展出的語言群；語系」。",
       "sentenceIndex": 21,
@@ -2306,12 +2236,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-34": "本句指「由共同祖語發展出的語言群；語系」。",
-        "language-mcq-33": "「人工設計而非自然演變的語言／形式系統」與本句語境不同。",
-        "language-mcq-35": "「因地區、社群、情境等形成的語言變體」與本句語境不同。",
-        "language-mcq-32": "「人為有意設計的人工構造語」與本句語境不同。",
-        "language-mcq-36": "「經制度／教育標準化的標準語」與本句語境不同。",
-        "language-mcq-31": "「具有重要歷史／文學傳統的古典語言」與本句語境不同。"
+        "language-mcq-34": "本句的「language」指「由共同祖語發展出的語言群；語系」。",
+        "language-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-34"
     },
@@ -2323,11 +2251,9 @@ export default {
       "masked": "Researchers study early ____ acquisition.",
       "options": [
         "language-mcq-37",
-        "language-mcq-36",
-        "language-mcq-38",
-        "language-mcq-35",
-        "language-mcq-39",
-        "language-mcq-34"
+        "language-mcq-97",
+        "language-mcq-87",
+        "language-mcq-54"
       ],
       "explanation": "本句的「language」指「語言能力逐步形成的語言習得過程」。",
       "sentenceIndex": 22,
@@ -2336,12 +2262,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-37": "本句指「語言能力逐步形成的語言習得過程」。",
-        "language-mcq-36": "「經制度／教育標準化的標準語」與本句語境不同。",
-        "language-mcq-38": "「第二／額外語言習得」與本句語境不同。",
-        "language-mcq-35": "「因地區、社群、情境等形成的語言變體」與本句語境不同。",
-        "language-mcq-39": "「學習一種語言的過程」與本句語境不同。",
-        "language-mcq-34": "「由共同祖語發展出的語言群；語系」與本句語境不同。"
+        "language-mcq-37": "本句的「language」指「語言能力逐步形成的語言習得過程」。",
+        "language-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-37"
     },
@@ -2353,11 +2277,9 @@ export default {
       "masked": "Reading supports children’s ____ development.",
       "options": [
         "language-mcq-40",
-        "language-mcq-39",
-        "language-mcq-41",
-        "language-mcq-38",
-        "language-mcq-42",
-        "language-mcq-37"
+        "language-mcq-60",
+        "language-mcq-18",
+        "language-mcq-72"
       ],
       "explanation": "本句的「language」指「語言理解與表達能力隨時間發展的過程」。",
       "sentenceIndex": 23,
@@ -2366,12 +2288,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-40": "本句指「語言理解與表達能力隨時間發展的過程」。",
-        "language-mcq-39": "「學習一種語言的過程」與本句語境不同。",
-        "language-mcq-41": "「聽、說、讀、寫等語言技能」與本句語境不同。",
-        "language-mcq-38": "「第二／額外語言習得」與本句語境不同。",
-        "language-mcq-42": "「使用某語言的熟練程度」與本句語境不同。",
-        "language-mcq-37": "「語言能力逐步形成的語言習得過程」與本句語境不同。"
+        "language-mcq-40": "本句的「language」指「語言理解與表達能力隨時間發展的過程」。",
+        "language-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-40"
     },
@@ -2383,11 +2303,9 @@ export default {
       "masked": "Applicants must demonstrate sufficient ____ proficiency.",
       "options": [
         "language-mcq-42",
-        "language-mcq-41",
-        "language-mcq-43",
-        "language-mcq-40",
-        "language-mcq-44",
-        "language-mcq-39"
+        "language-mcq-95",
+        "language-mcq-69",
+        "language-mcq-72"
       ],
       "explanation": "本句的「language」指「使用某語言的熟練程度」。",
       "sentenceIndex": 24,
@@ -2396,12 +2314,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-42": "本句指「使用某語言的熟練程度」。",
-        "language-mcq-41": "「聽、說、讀、寫等語言技能」與本句語境不同。",
-        "language-mcq-43": "「因沒有足夠共同語言而產生的溝通障礙」與本句語境不同。",
-        "language-mcq-40": "「語言理解與表達能力隨時間發展的過程」與本句語境不同。",
-        "language-mcq-44": "「兩人／多人互助練習彼此語言的語言交換」與本句語境不同。",
-        "language-mcq-39": "「學習一種語言的過程」與本句語境不同。"
+        "language-mcq-42": "本句的「language」指「使用某語言的熟練程度」。",
+        "language-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-42"
     },
@@ -2413,11 +2329,9 @@ export default {
       "masked": "A ____ barrier made communication difficult.",
       "options": [
         "language-mcq-43",
-        "language-mcq-42",
-        "language-mcq-44",
-        "language-mcq-41",
-        "language-mcq-45",
-        "language-mcq-40"
+        "language-mcq-95",
+        "language-mcq-60",
+        "language-mcq-17"
       ],
       "explanation": "本句的「language」指「因沒有足夠共同語言而產生的溝通障礙」。",
       "sentenceIndex": 25,
@@ -2426,12 +2340,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-43": "本句指「因沒有足夠共同語言而產生的溝通障礙」。",
-        "language-mcq-42": "「使用某語言的熟練程度」與本句語境不同。",
-        "language-mcq-44": "「兩人／多人互助練習彼此語言的語言交換」與本句語境不同。",
-        "language-mcq-41": "「聽、說、讀、寫等語言技能」與本句語境不同。",
-        "language-mcq-45": "「大量使用／接觸目標語的沉浸式學習」與本句語境不同。",
-        "language-mcq-40": "「語言理解與表達能力隨時間發展的過程」與本句語境不同。"
+        "language-mcq-43": "本句的「language」指「因沒有足夠共同語言而產生的溝通障礙」。",
+        "language-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-43"
     },
@@ -2443,11 +2355,9 @@ export default {
       "masked": "English is the ____ of instruction.",
       "options": [
         "language-mcq-46",
-        "language-mcq-45",
-        "language-mcq-47",
-        "language-mcq-44",
-        "language-mcq-48",
-        "language-mcq-43"
+        "language-mcq-87",
+        "language-mcq-95",
+        "language-mcq-54"
       ],
       "explanation": "本句的「language」指「學校／課程用來教授內容的授課語言」。",
       "sentenceIndex": 26,
@@ -2456,12 +2366,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-46": "本句指「學校／課程用來教授內容的授課語言」。",
-        "language-mcq-45": "「大量使用／接觸目標語的沉浸式學習」與本句語境不同。",
-        "language-mcq-47": "「規管／引導機構或社會語言使用的語言政策」與本句語境不同。",
-        "language-mcq-44": "「兩人／多人互助練習彼此語言的語言交換」與本句語境不同。",
-        "language-mcq-48": "「有組織地影響語言地位、形式或使用的語言規劃」與本句語境不同。",
-        "language-mcq-43": "「因沒有足夠共同語言而產生的溝通障礙」與本句語境不同。"
+        "language-mcq-46": "本句的「language」指「學校／課程用來教授內容的授課語言」。",
+        "language-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-46"
     },
@@ -2473,11 +2381,9 @@ export default {
       "masked": "The guide is written in plain ____.",
       "options": [
         "language-mcq-54",
-        "language-mcq-53",
-        "language-mcq-55",
-        "language-mcq-52",
-        "language-mcq-56",
-        "language-mcq-51"
+        "language-mcq-87",
+        "language-mcq-95",
+        "language-mcq-13"
       ],
       "explanation": "本句的「language」指「為方便讀者理解而使用的直接、淺白用語」。",
       "sentenceIndex": 29,
@@ -2486,12 +2392,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-54": "本句指「為方便讀者理解而使用的直接、淺白用語」。",
-        "language-mcq-53": "「某文件／說話中使用的詞語與措辭」與本句語境不同。",
-        "language-mcq-55": "「適合正式情境的正式用語／語體」與本句語境不同。",
-        "language-mcq-52": "「社群持續維持並傳承某語言」與本句語境不同。",
-        "language-mcq-56": "「較輕鬆、口語化的非正式用語」與本句語境不同。",
-        "language-mcq-51": "「社群逐步改用另一語言的語言轉移」與本句語境不同。"
+        "language-mcq-54": "本句的「language」指「為方便讀者理解而使用的直接、淺白用語」。",
+        "language-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-54"
     },
@@ -2503,11 +2407,9 @@ export default {
       "masked": "The letter uses highly formal ____.",
       "options": [
         "language-mcq-55",
-        "language-mcq-54",
-        "language-mcq-56",
-        "language-mcq-53",
-        "language-mcq-57",
-        "language-mcq-52"
+        "language-mcq-60",
+        "language-mcq-97",
+        "language-mcq-76"
       ],
       "explanation": "本句的「language」指「適合正式情境的正式用語／語體」。",
       "sentenceIndex": 30,
@@ -2516,12 +2418,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-55": "本句指「適合正式情境的正式用語／語體」。",
-        "language-mcq-54": "「為方便讀者理解而使用的直接、淺白用語」與本句語境不同。",
-        "language-mcq-56": "「較輕鬆、口語化的非正式用語」與本句語境不同。",
-        "language-mcq-53": "「某文件／說話中使用的詞語與措辭」與本句語境不同。",
-        "language-mcq-57": "「日常口語式表達」與本句語境不同。",
-        "language-mcq-52": "「社群持續維持並傳承某語言」與本句語境不同。"
+        "language-mcq-55": "本句的「language」指「適合正式情境的正式用語／語體」。",
+        "language-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-55"
     },
@@ -2533,11 +2433,9 @@ export default {
       "masked": "The manual contains a lot of technical ____.",
       "options": [
         "language-mcq-59",
-        "language-mcq-58",
-        "language-mcq-60",
-        "language-mcq-57",
-        "language-mcq-61",
-        "language-mcq-56"
+        "language-mcq-97",
+        "language-mcq-70",
+        "language-mcq-06"
       ],
       "explanation": "本句的「language」指「某技術領域的專門用語」。",
       "sentenceIndex": 31,
@@ -2546,12 +2444,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-59": "本句指「某技術領域的專門用語」。",
-        "language-mcq-58": "「學術學習與寫作常用的語言形式」與本句語境不同。",
-        "language-mcq-60": "「法律文件／法律領域使用的專業措辭」與本句語境不同。",
-        "language-mcq-57": "「日常口語式表達」與本句語境不同。",
-        "language-mcq-61": "「醫學專業用語」與本句語境不同。",
-        "language-mcq-56": "「較輕鬆、口語化的非正式用語」與本句語境不同。"
+        "language-mcq-59": "本句的「language」指「某技術領域的專門用語」。",
+        "language-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-59"
     },
@@ -2563,11 +2459,9 @@ export default {
       "masked": "The agreement contains difficult legal ____.",
       "options": [
         "language-mcq-60",
-        "language-mcq-59",
-        "language-mcq-61",
-        "language-mcq-58",
-        "language-mcq-62",
-        "language-mcq-57"
+        "language-mcq-12",
+        "language-mcq-72",
+        "language-mcq-95"
       ],
       "explanation": "本句的「language」指「法律文件／法律領域使用的專業措辭」。",
       "sentenceIndex": 32,
@@ -2576,12 +2470,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-60": "本句指「法律文件／法律領域使用的專業措辭」。",
-        "language-mcq-59": "「某技術領域的專門用語」與本句語境不同。",
-        "language-mcq-61": "「醫學專業用語」與本句語境不同。",
-        "language-mcq-58": "「學術學習與寫作常用的語言形式」與本句語境不同。",
-        "language-mcq-62": "「某行業／群體使用、外人可能難懂的行話」與本句語境不同。",
-        "language-mcq-57": "「日常口語式表達」與本句語境不同。"
+        "language-mcq-60": "本句的「language」指「法律文件／法律領域使用的專業措辭」。",
+        "language-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-95": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-60"
     },
@@ -2593,11 +2485,9 @@ export default {
       "masked": "Poetry often uses figurative ____.",
       "options": [
         "language-mcq-65",
-        "language-mcq-64",
-        "language-mcq-66",
-        "language-mcq-63",
-        "language-mcq-67",
-        "language-mcq-62"
+        "language-mcq-100",
+        "language-mcq-69",
+        "language-mcq-10"
       ],
       "explanation": "本句的「language」指「使用比喻、擬人等非純字面意義的修辭語言」。",
       "sentenceIndex": 33,
@@ -2606,12 +2496,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-65": "本句指「使用比喻、擬人等非純字面意義的修辭語言」。",
-        "language-mcq-64": "「某句／文件精確選用和排列的措辭」與本句語境不同。",
-        "language-mcq-66": "「按直接字面意思表達的語言」與本句語境不同。",
-        "language-mcq-63": "「某專業領域的一整套術語」與本句語境不同。",
-        "language-mcq-67": "「用於生動描寫事物的語言」與本句語境不同。",
-        "language-mcq-62": "「某行業／群體使用、外人可能難懂的行話」與本句語境不同。"
+        "language-mcq-65": "本句的「language」指「使用比喻、擬人等非純字面意義的修辭語言」。",
+        "language-mcq-100": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-65"
     },
@@ -2623,11 +2511,9 @@ export default {
       "masked": "The advertisement uses highly emotive ____.",
       "options": [
         "language-mcq-69",
-        "language-mcq-68",
-        "language-mcq-70",
-        "language-mcq-67",
-        "language-mcq-71",
-        "language-mcq-66"
+        "language-mcq-42",
+        "language-mcq-100",
+        "language-mcq-15"
       ],
       "explanation": "本句的「language」指「用來引起強烈情緒反應的情感性措辭」。",
       "sentenceIndex": 34,
@@ -2636,12 +2522,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-69": "本句指「用來引起強烈情緒反應的情感性措辭」。",
-        "language-mcq-68": "「旨在影響他人觀點／行為的說服性語言」與本句語境不同。",
-        "language-mcq-70": "「帶有強烈聯想、評價或傾向的措辭」與本句語境不同。",
-        "language-mcq-67": "「用於生動描寫事物的語言」與本句語境不同。",
-        "language-mcq-71": "「盡量避免強烈價值判斷的中性用語」與本句語境不同。",
-        "language-mcq-66": "「按直接字面意思表達的語言」與本句語境不同。"
+        "language-mcq-69": "本句的「language」指「用來引起強烈情緒反應的情感性措辭」。",
+        "language-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-100": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-69"
     },
@@ -2653,11 +2537,9 @@ export default {
       "masked": "Avoid loaded ____ in a neutral report.",
       "options": [
         "language-mcq-70",
-        "language-mcq-69",
-        "language-mcq-71",
-        "language-mcq-68",
+        "language-mcq-29",
         "language-mcq-72",
-        "language-mcq-67"
+        "language-mcq-18"
       ],
       "explanation": "本句的「language」指「帶有強烈聯想、評價或傾向的措辭」。",
       "sentenceIndex": 35,
@@ -2666,12 +2548,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-70": "本句指「帶有強烈聯想、評價或傾向的措辭」。",
-        "language-mcq-69": "「用來引起強烈情緒反應的情感性措辭」與本句語境不同。",
-        "language-mcq-71": "「盡量避免強烈價值判斷的中性用語」與本句語境不同。",
-        "language-mcq-68": "「旨在影響他人觀點／行為的說服性語言」與本句語境不同。",
-        "language-mcq-72": "「盡量避免排斥／污名化群體的共融用語」與本句語境不同。",
-        "language-mcq-67": "「用於生動描寫事物的語言」與本句語境不同。"
+        "language-mcq-70": "本句的「language」指「帶有強烈聯想、評價或傾向的措辭」。",
+        "language-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-70"
     },
@@ -2683,11 +2563,9 @@ export default {
       "masked": "The guide recommends inclusive ____.",
       "options": [
         "language-mcq-72",
-        "language-mcq-71",
-        "language-mcq-73",
-        "language-mcq-70",
-        "language-mcq-74",
-        "language-mcq-69"
+        "language-mcq-95",
+        "language-mcq-60",
+        "language-mcq-08"
       ],
       "explanation": "本句的「language」指「盡量避免排斥／污名化群體的共融用語」。",
       "sentenceIndex": 36,
@@ -2696,12 +2574,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-72": "本句指「盡量避免排斥／污名化群體的共融用語」。",
-        "language-mcq-71": "「盡量避免強烈價值判斷的中性用語」與本句語境不同。",
-        "language-mcq-73": "「帶有歧視意味的語言」與本句語境不同。",
-        "language-mcq-70": "「帶有強烈聯想、評價或傾向的措辭」與本句語境不同。",
-        "language-mcq-74": "「可能冒犯、侮辱他人的用語」與本句語境不同。",
-        "language-mcq-69": "「用來引起強烈情緒反應的情感性措辭」與本句語境不同。"
+        "language-mcq-72": "本句的「language」指「盡量避免排斥／污名化群體的共融用語」。",
+        "language-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-72"
     },
@@ -2713,11 +2589,9 @@ export default {
       "masked": "The film contains strong ____.",
       "options": [
         "language-mcq-75",
-        "language-mcq-74",
-        "language-mcq-76",
-        "language-mcq-73",
-        "language-mcq-77",
-        "language-mcq-72"
+        "language-mcq-95",
+        "language-mcq-87",
+        "language-mcq-07"
       ],
       "explanation": "本句的「language」指「尤其媒體警示：強烈、粗俗或帶髒話的用語」。",
       "sentenceIndex": 37,
@@ -2726,12 +2600,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-75": "本句指「尤其媒體警示：強烈、粗俗或帶髒話的用語」。",
-        "language-mcq-74": "「可能冒犯、侮辱他人的用語」與本句語境不同。",
-        "language-mcq-76": "「粗言穢語；髒話」與本句語境不同。",
-        "language-mcq-73": "「帶有歧視意味的語言」與本句語境不同。",
-        "language-mcq-77": "「粗俗、猥褻或嚴重冒犯性的粗言」與本句語境不同。",
-        "language-mcq-72": "「盡量避免排斥／污名化群體的共融用語」與本句語境不同。"
+        "language-mcq-75": "本句的「language」指「尤其媒體警示：強烈、粗俗或帶髒話的用語」。",
+        "language-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-75"
     },
@@ -2743,11 +2615,9 @@ export default {
       "masked": "The teacher warned him about using bad ____.",
       "options": [
         "language-mcq-76",
-        "language-mcq-75",
-        "language-mcq-77",
-        "language-mcq-74",
-        "language-mcq-78",
-        "language-mcq-73"
+        "language-mcq-97",
+        "language-mcq-87",
+        "language-mcq-10"
       ],
       "explanation": "本句的「language」指「粗言穢語；髒話」。",
       "sentenceIndex": 38,
@@ -2756,12 +2626,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-76": "本句指「粗言穢語；髒話」。",
-        "language-mcq-75": "「尤其媒體警示：強烈、粗俗或帶髒話的用語」與本句語境不同。",
-        "language-mcq-77": "「粗俗、猥褻或嚴重冒犯性的粗言」與本句語境不同。",
-        "language-mcq-74": "「可能冒犯、侮辱他人的用語」與本句語境不同。",
-        "language-mcq-78": "「對他人作辱罵、羞辱等的言語」與本句語境不同。",
-        "language-mcq-73": "「帶有歧視意味的語言」與本句語境不同。"
+        "language-mcq-76": "本句的「language」指「粗言穢語；髒話」。",
+        "language-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-76"
     },
@@ -2773,11 +2641,9 @@ export default {
       "masked": "The writer’s ____ is simple but powerful.",
       "options": [
         "language-mcq-84",
-        "language-mcq-83",
-        "language-mcq-85",
-        "language-mcq-82",
-        "language-mcq-86",
-        "language-mcq-81"
+        "language-mcq-87",
+        "language-mcq-06",
+        "language-mcq-75"
       ],
       "explanation": "本句的「language」指「某作者／人物所採用的表達方式與語言風格」。",
       "sentenceIndex": 40,
@@ -2786,12 +2652,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-84": "本句指「某作者／人物所採用的表達方式與語言風格」。",
-        "language-mcq-83": "「為剛才／即將使用的粗俗、強烈措辭致歉」與本句語境不同。",
-        "language-mcq-85": "「富有詩意／詩歌特徵的語言」與本句語境不同。",
-        "language-mcq-82": "「注意用詞；不要說髒話／無禮說話」與本句語境不同。",
-        "language-mcq-86": "「文學作品特有的表達方式」與本句語境不同。",
-        "language-mcq-81": "「可指生動措辭；亦可委婉指粗俗／強烈用語」與本句語境不同。"
+        "language-mcq-84": "本句的「language」指「某作者／人物所採用的表達方式與語言風格」。",
+        "language-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-84"
     },
@@ -2803,11 +2667,9 @@ export default {
       "masked": "The poem’s ____ is highly symbolic.",
       "options": [
         "language-mcq-84",
-        "language-mcq-83",
-        "language-mcq-85",
-        "language-mcq-82",
-        "language-mcq-86",
-        "language-mcq-81"
+        "language-mcq-87",
+        "language-mcq-59",
+        "language-mcq-06"
       ],
       "explanation": "本句的「language」指「某作者／人物所採用的表達方式與語言風格」。",
       "sentenceIndex": 41,
@@ -2816,12 +2678,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-84": "本句指「某作者／人物所採用的表達方式與語言風格」。",
-        "language-mcq-83": "「為剛才／即將使用的粗俗、強烈措辭致歉」與本句語境不同。",
-        "language-mcq-85": "「富有詩意／詩歌特徵的語言」與本句語境不同。",
-        "language-mcq-82": "「注意用詞；不要說髒話／無禮說話」與本句語境不同。",
-        "language-mcq-86": "「文學作品特有的表達方式」與本句語境不同。",
-        "language-mcq-81": "「可指生動措辭；亦可委婉指粗俗／強烈用語」與本句語境不同。"
+        "language-mcq-84": "本句的「language」指「某作者／人物所採用的表達方式與語言風格」。",
+        "language-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-84"
     },
@@ -2833,11 +2693,9 @@ export default {
       "masked": "The statement used carefully chosen diplomatic ____.",
       "options": [
         "language-mcq-87",
-        "language-mcq-86",
-        "language-mcq-88",
-        "language-mcq-85",
-        "language-mcq-89",
-        "language-mcq-84"
+        "language-mcq-101",
+        "language-mcq-17",
+        "language-mcq-15"
       ],
       "explanation": "本句的「language」指「為避免衝突而使用的委婉、謹慎措辭」。",
       "sentenceIndex": 42,
@@ -2846,12 +2704,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-87": "本句指「為避免衝突而使用的委婉、謹慎措辭」。",
-        "language-mcq-86": "「文學作品特有的表達方式」與本句語境不同。",
-        "language-mcq-88": "「意義準確、界線清楚的用語」與本句語境不同。",
-        "language-mcq-85": "「富有詩意／詩歌特徵的語言」與本句語境不同。",
-        "language-mcq-89": "「缺乏精確意思的模糊用語」與本句語境不同。",
-        "language-mcq-84": "「某作者／人物所採用的表達方式與語言風格」與本句語境不同。"
+        "language-mcq-87": "本句的「language」指「為避免衝突而使用的委婉、謹慎措辭」。",
+        "language-mcq-101": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-87"
     },
@@ -2863,11 +2719,9 @@ export default {
       "masked": "Actors learn to read body ____.",
       "options": [
         "language-mcq-91",
-        "language-mcq-90",
-        "language-mcq-92",
-        "language-mcq-89",
-        "language-mcq-93",
-        "language-mcq-88"
+        "language-mcq-87",
+        "language-mcq-95",
+        "language-mcq-59"
       ],
       "explanation": "本句的「language」指「解讀某人的姿勢、表情、手勢等非語言訊息」。",
       "sentenceIndex": 43,
@@ -2876,12 +2730,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-91": "本句指「解讀某人的姿勢、表情、手勢等非語言訊息」。",
-        "language-mcq-90": "「可以有多於一種理解的歧義性用語」與本句語境不同。",
-        "language-mcq-92": "「某領域用來表達意思的一整套符號／形式／慣例」與本句語境不同。",
-        "language-mcq-89": "「缺乏精確意思的模糊用語」與本句語境不同。",
-        "language-mcq-93": "「透過色彩、形狀、構圖等傳達意思的視覺語言」與本句語境不同。",
-        "language-mcq-88": "「意義準確、界線清楚的用語」與本句語境不同。"
+        "language-mcq-91": "本句的「language」指「解讀某人的姿勢、表情、手勢等非語言訊息」。",
+        "language-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-91"
     },
@@ -2893,11 +2745,9 @@ export default {
       "masked": "The brand has a distinctive visual ____.",
       "options": [
         "language-mcq-93",
-        "language-mcq-92",
-        "language-mcq-94",
-        "language-mcq-91",
-        "language-mcq-95",
-        "language-mcq-90"
+        "language-mcq-60",
+        "language-mcq-72",
+        "language-mcq-17"
       ],
       "explanation": "本句的「language」指「透過色彩、形狀、構圖等傳達意思的視覺語言」。",
       "sentenceIndex": 44,
@@ -2906,12 +2756,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-93": "本句指「透過色彩、形狀、構圖等傳達意思的視覺語言」。",
-        "language-mcq-92": "「某領域用來表達意思的一整套符號／形式／慣例」與本句語境不同。",
-        "language-mcq-94": "「電影利用鏡頭、剪接、聲音等建立的表達系統」與本句語境不同。",
-        "language-mcq-91": "「解讀某人的姿勢、表情、手勢等非語言訊息」與本句語境不同。",
-        "language-mcq-95": "「音樂作品／作曲家特有的音樂表達方式」與本句語境不同。",
-        "language-mcq-90": "「可以有多於一種理解的歧義性用語」與本句語境不同。"
+        "language-mcq-93": "本句的「language」指「透過色彩、形狀、構圖等傳達意思的視覺語言」。",
+        "language-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-93"
     },
@@ -2923,11 +2771,9 @@ export default {
       "masked": "The composer developed a distinctive musical ____.",
       "options": [
         "language-mcq-95",
-        "language-mcq-94",
-        "language-mcq-96",
-        "language-mcq-93",
-        "language-mcq-97",
-        "language-mcq-92"
+        "language-mcq-69",
+        "language-mcq-07",
+        "language-mcq-17"
       ],
       "explanation": "本句的「language」指「音樂作品／作曲家特有的音樂表達方式」。",
       "sentenceIndex": 45,
@@ -2936,12 +2782,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-95": "本句指「音樂作品／作曲家特有的音樂表達方式」。",
-        "language-mcq-94": "「電影利用鏡頭、剪接、聲音等建立的表達系統」與本句語境不同。",
-        "language-mcq-96": "「數學符號、術語及表達規則構成的數學語言」與本句語境不同。",
-        "language-mcq-93": "「透過色彩、形狀、構圖等傳達意思的視覺語言」與本句語境不同。",
-        "language-mcq-97": "「流行關係框架中一個人偏好的愛意表達／接收方式」與本句語境不同。",
-        "language-mcq-92": "「某領域用來表達意思的一整套符號／形式／慣例」與本句語境不同。"
+        "language-mcq-95": "本句的「language」指「音樂作品／作曲家特有的音樂表達方式」。",
+        "language-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-95"
     },
@@ -2953,11 +2797,9 @@ export default {
       "masked": "They talked about their different love ____.",
       "options": [
         "language-mcq-97",
-        "language-mcq-96",
-        "language-mcq-98",
-        "language-mcq-95",
-        "language-mcq-99",
-        "language-mcq-94"
+        "language-mcq-17",
+        "language-mcq-60",
+        "language-mcq-55"
       ],
       "explanation": "本句的「languages」指「流行關係框架中一個人偏好的愛意表達／接收方式」。",
       "sentenceIndex": 46,
@@ -2966,12 +2808,10 @@ export default {
         "languages"
       ],
       "optionReasons": {
-        "language-mcq-97": "本句指「流行關係框架中一個人偏好的愛意表達／接收方式」。",
-        "language-mcq-96": "「數學符號、術語及表達規則構成的數學語言」與本句語境不同。",
-        "language-mcq-98": "「能使用同一種語言」與本句語境不同。",
-        "language-mcq-95": "「音樂作品／作曲家特有的音樂表達方式」與本句語境不同。",
-        "language-mcq-99": "「有共同想法／共同語彙，容易互相理解」與本句語境不同。",
-        "language-mcq-94": "「電影利用鏡頭、剪接、聲音等建立的表達系統」與本句語境不同。"
+        "language-mcq-97": "本句的「languages」指「流行關係框架中一個人偏好的愛意表達／接收方式」。",
+        "language-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-97"
     },
@@ -2983,11 +2823,8 @@ export default {
       "masked": "The designers and engineers finally began to speak the same ____.",
       "options": [
         "language-mcq-98",
-        "language-mcq-97",
-        "language-mcq-99",
-        "language-mcq-96",
-        "language-mcq-100",
-        "language-mcq-95"
+        "language-mcq-70",
+        "language-mcq-97"
       ],
       "explanation": "本句的「language」指「能使用同一種語言」。",
       "sentenceIndex": 47,
@@ -2996,12 +2833,9 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-98": "本句指「能使用同一種語言」。",
-        "language-mcq-97": "「流行關係框架中一個人偏好的愛意表達／接收方式」與本句語境不同。",
-        "language-mcq-99": "「有共同想法／共同語彙，容易互相理解」與本句語境不同。",
-        "language-mcq-96": "「數學符號、術語及表達規則構成的數學語言」與本句語境不同。",
-        "language-mcq-100": "「用對方特別能理解／認同的方式表達；說到對方心坎」與本句語境不同。",
-        "language-mcq-95": "「音樂作品／作曲家特有的音樂表達方式」與本句語境不同。"
+        "language-mcq-98": "本句的「language」指「能使用同一種語言」。",
+        "language-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-97": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-98"
     },
@@ -3013,11 +2847,9 @@ export default {
       "masked": "More flexibility and less paperwork? Now you’re speaking my ____.",
       "options": [
         "language-mcq-100",
-        "language-mcq-99",
-        "language-mcq-101",
-        "language-mcq-98",
-        "language-mcq-102",
-        "language-mcq-97"
+        "language-mcq-22",
+        "language-mcq-18",
+        "language-mcq-70"
       ],
       "explanation": "本句的「language」指「用對方特別能理解／認同的方式表達；說到對方心坎」。",
       "sentenceIndex": 48,
@@ -3026,12 +2858,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-100": "本句指「用對方特別能理解／認同的方式表達；說到對方心坎」。",
-        "language-mcq-99": "「有共同想法／共同語彙，容易互相理解」與本句語境不同。",
-        "language-mcq-101": "「用來編寫電腦程式的形式語言」與本句語境不同。",
-        "language-mcq-98": "「能使用同一種語言」與本句語境不同。",
-        "language-mcq-102": "「與硬體細節較抽離的高階程式語言」與本句語境不同。",
-        "language-mcq-97": "「流行關係框架中一個人偏好的愛意表達／接收方式」與本句語境不同。"
+        "language-mcq-100": "本句的「language」指「用對方特別能理解／認同的方式表達；說到對方心坎」。",
+        "language-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-100"
     },
@@ -3043,11 +2873,9 @@ export default {
       "masked": "Python is a programming ____.",
       "options": [
         "language-mcq-101",
+        "language-mcq-70",
         "language-mcq-100",
-        "language-mcq-102",
-        "language-mcq-99",
-        "language-mcq-103",
-        "language-mcq-98"
+        "language-mcq-10"
       ],
       "explanation": "本句的「language」指「用來編寫電腦程式的形式語言」。",
       "sentenceIndex": 50,
@@ -3056,12 +2884,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-101": "本句指「用來編寫電腦程式的形式語言」。",
-        "language-mcq-100": "「用對方特別能理解／認同的方式表達；說到對方心坎」與本句語境不同。",
-        "language-mcq-102": "「與硬體細節較抽離的高階程式語言」與本句語境不同。",
-        "language-mcq-99": "「有共同想法／共同語彙，容易互相理解」與本句語境不同。",
-        "language-mcq-103": "「接近硬體／機器指令的低階程式語言」與本句語境不同。",
-        "language-mcq-98": "「能使用同一種語言」與本句語境不同。"
+        "language-mcq-101": "本句的「language」指「用來編寫電腦程式的形式語言」。",
+        "language-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-100": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-101"
     },
@@ -3073,11 +2899,9 @@ export default {
       "masked": "Processors ultimately execute machine ____.",
       "options": [
         "language-mcq-104",
-        "language-mcq-103",
-        "language-mcq-105",
-        "language-mcq-102",
-        "language-mcq-106",
-        "language-mcq-101"
+        "language-mcq-60",
+        "language-mcq-95",
+        "language-mcq-55"
       ],
       "explanation": "本句的「language」指「處理器可直接執行的機器語言」。",
       "sentenceIndex": 51,
@@ -3086,12 +2910,10 @@ export default {
         "language"
       ],
       "optionReasons": {
-        "language-mcq-104": "本句指「處理器可直接執行的機器語言」。",
-        "language-mcq-103": "「接近硬體／機器指令的低階程式語言」與本句語境不同。",
-        "language-mcq-105": "「以符號指令表示機器操作的組合語言」與本句語境不同。",
-        "language-mcq-102": "「與硬體細節較抽離的高階程式語言」與本句語境不同。",
-        "language-mcq-106": "「常用於自動化／腳本工作的程式語言」與本句語境不同。",
-        "language-mcq-101": "「用來編寫電腦程式的形式語言」與本句語境不同。"
+        "language-mcq-104": "本句的「language」指「處理器可直接執行的機器語言」。",
+        "language-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "language-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "language-mcq-104"
     }
@@ -3103,5 +2925,7 @@ export default {
     "sha256": "64cc1999e85c20fe07d685d38f180a1740fbe1f9adf83c4534e2f2d8f3a5f285",
     "pages": 96
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

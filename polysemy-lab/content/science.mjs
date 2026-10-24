@@ -476,11 +476,7 @@ export default {
       "masked": "____ helps us understand how the natural world works.",
       "options": [
         "science-mcq-04",
-        "science-mcq-03",
-        "science-mcq-05",
-        "science-mcq-02",
-        "science-mcq-06",
-        "science-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Science」指「一個具系統理論與研究方法的科學領域」。",
       "sentenceIndex": 2,
@@ -489,12 +485,8 @@ export default {
         "Science"
       ],
       "optionReasons": {
-        "science-mcq-04": "本句指「一個具系統理論與研究方法的科學領域」。",
-        "science-mcq-03": "「正式學習或修讀科學類科目」與本句語境不同。",
-        "science-mcq-05": "「多個科學學科的總稱；各門科學」與本句語境不同。",
-        "science-mcq-02": "「在學校中學習物理、化學、生物等內容的科學科／理科」與本句語境不同。",
-        "science-mcq-06": "「研究自然界、物質世界與生物世界的自然科學」與本句語境不同。",
-        "science-mcq-01": "「透過觀察、證據與實驗系統研究自然世界的科學」與本句語境不同。"
+        "science-mcq-04": "本句的「Science」指「一個具系統理論與研究方法的科學領域」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-04"
     },
@@ -506,11 +498,7 @@ export default {
       "masked": "Modern ____ depends on evidence and testing.",
       "options": [
         "science-mcq-04",
-        "science-mcq-03",
-        "science-mcq-05",
-        "science-mcq-02",
-        "science-mcq-06",
-        "science-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「science」指「一個具系統理論與研究方法的科學領域」。",
       "sentenceIndex": 3,
@@ -519,12 +507,8 @@ export default {
         "science"
       ],
       "optionReasons": {
-        "science-mcq-04": "本句指「一個具系統理論與研究方法的科學領域」。",
-        "science-mcq-03": "「正式學習或修讀科學類科目」與本句語境不同。",
-        "science-mcq-05": "「多個科學學科的總稱；各門科學」與本句語境不同。",
-        "science-mcq-02": "「在學校中學習物理、化學、生物等內容的科學科／理科」與本句語境不同。",
-        "science-mcq-06": "「研究自然界、物質世界與生物世界的自然科學」與本句語境不同。",
-        "science-mcq-01": "「透過觀察、證據與實驗系統研究自然世界的科學」與本句語境不同。"
+        "science-mcq-04": "本句的「science」指「一個具系統理論與研究方法的科學領域」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-04"
     },
@@ -536,11 +520,7 @@ export default {
       "masked": "____ was my favourite subject in primary school.",
       "options": [
         "science-mcq-02",
-        "science-mcq-01",
-        "science-mcq-03",
-        "science-mcq-04",
-        "science-mcq-05",
-        "science-mcq-06"
+        "science-mcq-14"
       ],
       "explanation": "本句的「Science」指「在學校中學習物理、化學、生物等內容的科學科／理科」。",
       "sentenceIndex": 4,
@@ -549,12 +529,8 @@ export default {
         "Science"
       ],
       "optionReasons": {
-        "science-mcq-02": "本句指「在學校中學習物理、化學、生物等內容的科學科／理科」。",
-        "science-mcq-01": "「透過觀察、證據與實驗系統研究自然世界的科學」與本句語境不同。",
-        "science-mcq-03": "「正式學習或修讀科學類科目」與本句語境不同。",
-        "science-mcq-04": "「一個具系統理論與研究方法的科學領域」與本句語境不同。",
-        "science-mcq-05": "「多個科學學科的總稱；各門科學」與本句語境不同。",
-        "science-mcq-06": "「研究自然界、物質世界與生物世界的自然科學」與本句語境不同。"
+        "science-mcq-02": "本句的「Science」指「在學校中學習物理、化學、生物等內容的科學科／理科」。",
+        "science-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-02"
     },
@@ -566,11 +542,7 @@ export default {
       "masked": "We had a ____ this morning.",
       "options": [
         "science-mcq-02",
-        "science-mcq-01",
-        "science-mcq-03",
-        "science-mcq-04",
-        "science-mcq-05",
-        "science-mcq-06"
+        "science-mcq-14"
       ],
       "explanation": "本句的「science lesson」指「在學校中學習物理、化學、生物等內容的科學科／理科」。",
       "sentenceIndex": 5,
@@ -579,12 +551,8 @@ export default {
         "science lesson"
       ],
       "optionReasons": {
-        "science-mcq-02": "本句指「在學校中學習物理、化學、生物等內容的科學科／理科」。",
-        "science-mcq-01": "「透過觀察、證據與實驗系統研究自然世界的科學」與本句語境不同。",
-        "science-mcq-03": "「正式學習或修讀科學類科目」與本句語境不同。",
-        "science-mcq-04": "「一個具系統理論與研究方法的科學領域」與本句語境不同。",
-        "science-mcq-05": "「多個科學學科的總稱；各門科學」與本句語境不同。",
-        "science-mcq-06": "「研究自然界、物質世界與生物世界的自然科學」與本句語境不同。"
+        "science-mcq-02": "本句的「science lesson」指「在學校中學習物理、化學、生物等內容的科學科／理科」。",
+        "science-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-02"
     },
@@ -596,11 +564,7 @@ export default {
       "masked": "She wants to ____ at university.",
       "options": [
         "science-mcq-03",
-        "science-mcq-02",
-        "science-mcq-04",
-        "science-mcq-01",
-        "science-mcq-05",
-        "science-mcq-06"
+        "science-mcq-14"
       ],
       "explanation": "本句的「study science」指「正式學習或修讀科學類科目」。",
       "sentenceIndex": 6,
@@ -609,12 +573,8 @@ export default {
         "study science"
       ],
       "optionReasons": {
-        "science-mcq-03": "本句指「正式學習或修讀科學類科目」。",
-        "science-mcq-02": "「在學校中學習物理、化學、生物等內容的科學科／理科」與本句語境不同。",
-        "science-mcq-04": "「一個具系統理論與研究方法的科學領域」與本句語境不同。",
-        "science-mcq-01": "「透過觀察、證據與實驗系統研究自然世界的科學」與本句語境不同。",
-        "science-mcq-05": "「多個科學學科的總稱；各門科學」與本句語境不同。",
-        "science-mcq-06": "「研究自然界、物質世界與生物世界的自然科學」與本句語境不同。"
+        "science-mcq-03": "本句的「study science」指「正式學習或修讀科學類科目」。",
+        "science-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-03"
     },
@@ -626,11 +586,7 @@ export default {
       "masked": "Students who ____ often take laboratory classes.",
       "options": [
         "science-mcq-03",
-        "science-mcq-02",
-        "science-mcq-04",
-        "science-mcq-01",
-        "science-mcq-05",
-        "science-mcq-06"
+        "science-mcq-14"
       ],
       "explanation": "本句的「study science」指「正式學習或修讀科學類科目」。",
       "sentenceIndex": 7,
@@ -639,12 +595,8 @@ export default {
         "study science"
       ],
       "optionReasons": {
-        "science-mcq-03": "本句指「正式學習或修讀科學類科目」。",
-        "science-mcq-02": "「在學校中學習物理、化學、生物等內容的科學科／理科」與本句語境不同。",
-        "science-mcq-04": "「一個具系統理論與研究方法的科學領域」與本句語境不同。",
-        "science-mcq-01": "「透過觀察、證據與實驗系統研究自然世界的科學」與本句語境不同。",
-        "science-mcq-05": "「多個科學學科的總稱；各門科學」與本句語境不同。",
-        "science-mcq-06": "「研究自然界、物質世界與生物世界的自然科學」與本句語境不同。"
+        "science-mcq-03": "本句的「study science」指「正式學習或修讀科學類科目」。",
+        "science-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-03"
     },
@@ -656,11 +608,7 @@ export default {
       "masked": "Biology is a ____.",
       "options": [
         "science-mcq-04",
-        "science-mcq-03",
-        "science-mcq-05",
-        "science-mcq-02",
-        "science-mcq-06",
-        "science-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「science」指「一個具系統理論與研究方法的科學領域」。",
       "sentenceIndex": 8,
@@ -669,12 +617,8 @@ export default {
         "science"
       ],
       "optionReasons": {
-        "science-mcq-04": "本句指「一個具系統理論與研究方法的科學領域」。",
-        "science-mcq-03": "「正式學習或修讀科學類科目」與本句語境不同。",
-        "science-mcq-05": "「多個科學學科的總稱；各門科學」與本句語境不同。",
-        "science-mcq-02": "「在學校中學習物理、化學、生物等內容的科學科／理科」與本句語境不同。",
-        "science-mcq-06": "「研究自然界、物質世界與生物世界的自然科學」與本句語境不同。",
-        "science-mcq-01": "「透過觀察、證據與實驗系統研究自然世界的科學」與本句語境不同。"
+        "science-mcq-04": "本句的「science」指「一個具系統理論與研究方法的科學領域」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-04"
     },
@@ -686,11 +630,7 @@ export default {
       "masked": "Astronomy developed into a modern ____ over time.",
       "options": [
         "science-mcq-04",
-        "science-mcq-03",
-        "science-mcq-05",
-        "science-mcq-02",
-        "science-mcq-06",
-        "science-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「science」指「一個具系統理論與研究方法的科學領域」。",
       "sentenceIndex": 9,
@@ -699,12 +639,8 @@ export default {
         "science"
       ],
       "optionReasons": {
-        "science-mcq-04": "本句指「一個具系統理論與研究方法的科學領域」。",
-        "science-mcq-03": "「正式學習或修讀科學類科目」與本句語境不同。",
-        "science-mcq-05": "「多個科學學科的總稱；各門科學」與本句語境不同。",
-        "science-mcq-02": "「在學校中學習物理、化學、生物等內容的科學科／理科」與本句語境不同。",
-        "science-mcq-06": "「研究自然界、物質世界與生物世界的自然科學」與本句語境不同。",
-        "science-mcq-01": "「透過觀察、證據與實驗系統研究自然世界的科學」與本句語境不同。"
+        "science-mcq-04": "本句的「science」指「一個具系統理論與研究方法的科學領域」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-04"
     },
@@ -716,11 +652,7 @@ export default {
       "masked": "Mathematics is important in many of ____.",
       "options": [
         "science-mcq-05",
-        "science-mcq-04",
-        "science-mcq-06",
-        "science-mcq-03",
-        "science-mcq-07",
-        "science-mcq-02"
+        "science-mcq-14"
       ],
       "explanation": "本句的「the sciences」指「多個科學學科的總稱；各門科學」。",
       "sentenceIndex": 10,
@@ -729,12 +661,8 @@ export default {
         "the sciences"
       ],
       "optionReasons": {
-        "science-mcq-05": "本句指「多個科學學科的總稱；各門科學」。",
-        "science-mcq-04": "「一個具系統理論與研究方法的科學領域」與本句語境不同。",
-        "science-mcq-06": "「研究自然界、物質世界與生物世界的自然科學」與本句語境不同。",
-        "science-mcq-03": "「正式學習或修讀科學類科目」與本句語境不同。",
-        "science-mcq-07": "「系統研究人類社會與社會行為的社會科學」與本句語境不同。",
-        "science-mcq-02": "「在學校中學習物理、化學、生物等內容的科學科／理科」與本句語境不同。"
+        "science-mcq-05": "本句的「the sciences」指「多個科學學科的總稱；各門科學」。",
+        "science-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-05"
     },
@@ -746,11 +674,7 @@ export default {
       "masked": "The university is strong in ____.",
       "options": [
         "science-mcq-05",
-        "science-mcq-04",
-        "science-mcq-06",
-        "science-mcq-03",
-        "science-mcq-07",
-        "science-mcq-02"
+        "science-mcq-14"
       ],
       "explanation": "本句的「the sciences」指「多個科學學科的總稱；各門科學」。",
       "sentenceIndex": 11,
@@ -759,12 +683,8 @@ export default {
         "the sciences"
       ],
       "optionReasons": {
-        "science-mcq-05": "本句指「多個科學學科的總稱；各門科學」。",
-        "science-mcq-04": "「一個具系統理論與研究方法的科學領域」與本句語境不同。",
-        "science-mcq-06": "「研究自然界、物質世界與生物世界的自然科學」與本句語境不同。",
-        "science-mcq-03": "「正式學習或修讀科學類科目」與本句語境不同。",
-        "science-mcq-07": "「系統研究人類社會與社會行為的社會科學」與本句語境不同。",
-        "science-mcq-02": "「在學校中學習物理、化學、生物等內容的科學科／理科」與本句語境不同。"
+        "science-mcq-05": "本句的「the sciences」指「多個科學學科的總稱；各門科學」。",
+        "science-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-05"
     },
@@ -776,11 +696,7 @@ export default {
       "masked": "Physics, chemistry, and biology are major ____.",
       "options": [
         "science-mcq-06",
-        "science-mcq-05",
-        "science-mcq-07",
-        "science-mcq-04",
-        "science-mcq-08",
-        "science-mcq-03"
+        "science-mcq-14"
       ],
       "explanation": "本句的「natural sciences」指「研究自然界、物質世界與生物世界的自然科學」。",
       "sentenceIndex": 12,
@@ -789,12 +705,8 @@ export default {
         "natural sciences"
       ],
       "optionReasons": {
-        "science-mcq-06": "本句指「研究自然界、物質世界與生物世界的自然科學」。",
-        "science-mcq-05": "「多個科學學科的總稱；各門科學」與本句語境不同。",
-        "science-mcq-07": "「系統研究人類社會與社會行為的社會科學」與本句語境不同。",
-        "science-mcq-04": "「一個具系統理論與研究方法的科學領域」與本句語境不同。",
-        "science-mcq-08": "「研究計算、演算法、軟體等的電腦科學」與本句語境不同。",
-        "science-mcq-03": "「正式學習或修讀科學類科目」與本句語境不同。"
+        "science-mcq-06": "本句的「natural sciences」指「研究自然界、物質世界與生物世界的自然科學」。",
+        "science-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-06"
     },
@@ -806,11 +718,7 @@ export default {
       "masked": "She has always been interested in ____.",
       "options": [
         "science-mcq-06",
-        "science-mcq-05",
-        "science-mcq-07",
-        "science-mcq-04",
-        "science-mcq-08",
-        "science-mcq-03"
+        "science-mcq-14"
       ],
       "explanation": "本句的「natural science」指「研究自然界、物質世界與生物世界的自然科學」。",
       "sentenceIndex": 13,
@@ -819,12 +727,8 @@ export default {
         "natural science"
       ],
       "optionReasons": {
-        "science-mcq-06": "本句指「研究自然界、物質世界與生物世界的自然科學」。",
-        "science-mcq-05": "「多個科學學科的總稱；各門科學」與本句語境不同。",
-        "science-mcq-07": "「系統研究人類社會與社會行為的社會科學」與本句語境不同。",
-        "science-mcq-04": "「一個具系統理論與研究方法的科學領域」與本句語境不同。",
-        "science-mcq-08": "「研究計算、演算法、軟體等的電腦科學」與本句語境不同。",
-        "science-mcq-03": "「正式學習或修讀科學類科目」與本句語境不同。"
+        "science-mcq-06": "本句的「natural science」指「研究自然界、物質世界與生物世界的自然科學」。",
+        "science-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-06"
     },
@@ -836,11 +740,7 @@ export default {
       "masked": "Economics is generally considered a ____.",
       "options": [
         "science-mcq-07",
-        "science-mcq-06",
-        "science-mcq-08",
-        "science-mcq-05",
-        "science-mcq-09",
-        "science-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「social science」指「系統研究人類社會與社會行為的社會科學」。",
       "sentenceIndex": 14,
@@ -849,12 +749,8 @@ export default {
         "social science"
       ],
       "optionReasons": {
-        "science-mcq-07": "本句指「系統研究人類社會與社會行為的社會科學」。",
-        "science-mcq-06": "「研究自然界、物質世界與生物世界的自然科學」與本句語境不同。",
-        "science-mcq-08": "「研究計算、演算法、軟體等的電腦科學」與本句語境不同。",
-        "science-mcq-05": "「多個科學學科的總稱；各門科學」與本句語境不同。",
-        "science-mcq-09": "「利用統計、運算與分析方法從資料中獲取知識的資料科學」與本句語境不同。",
-        "science-mcq-04": "「一個具系統理論與研究方法的科學領域」與本句語境不同。"
+        "science-mcq-07": "本句的「social science」指「系統研究人類社會與社會行為的社會科學」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-07"
     },
@@ -866,11 +762,7 @@ export default {
       "masked": "She studies ____ at university.",
       "options": [
         "science-mcq-07",
-        "science-mcq-06",
-        "science-mcq-08",
-        "science-mcq-05",
-        "science-mcq-09",
-        "science-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「social science」指「系統研究人類社會與社會行為的社會科學」。",
       "sentenceIndex": 15,
@@ -879,12 +771,8 @@ export default {
         "social science"
       ],
       "optionReasons": {
-        "science-mcq-07": "本句指「系統研究人類社會與社會行為的社會科學」。",
-        "science-mcq-06": "「研究自然界、物質世界與生物世界的自然科學」與本句語境不同。",
-        "science-mcq-08": "「研究計算、演算法、軟體等的電腦科學」與本句語境不同。",
-        "science-mcq-05": "「多個科學學科的總稱；各門科學」與本句語境不同。",
-        "science-mcq-09": "「利用統計、運算與分析方法從資料中獲取知識的資料科學」與本句語境不同。",
-        "science-mcq-04": "「一個具系統理論與研究方法的科學領域」與本句語境不同。"
+        "science-mcq-07": "本句的「social science」指「系統研究人類社會與社會行為的社會科學」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-07"
     },
@@ -896,11 +784,7 @@ export default {
       "masked": "He studies ____.",
       "options": [
         "science-mcq-08",
-        "science-mcq-07",
-        "science-mcq-09",
-        "science-mcq-06",
-        "science-mcq-10",
-        "science-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「computer science」指「研究計算、演算法、軟體等的電腦科學」。",
       "sentenceIndex": 16,
@@ -909,12 +793,8 @@ export default {
         "computer science"
       ],
       "optionReasons": {
-        "science-mcq-08": "本句指「研究計算、演算法、軟體等的電腦科學」。",
-        "science-mcq-07": "「系統研究人類社會與社會行為的社會科學」與本句語境不同。",
-        "science-mcq-09": "「利用統計、運算與分析方法從資料中獲取知識的資料科學」與本句語境不同。",
-        "science-mcq-06": "「研究自然界、物質世界與生物世界的自然科學」與本句語境不同。",
-        "science-mcq-10": "「研究環境及其系統的環境科學」與本句語境不同。",
-        "science-mcq-05": "「多個科學學科的總稱；各門科學」與本句語境不同。"
+        "science-mcq-08": "本句的「computer science」指「研究計算、演算法、軟體等的電腦科學」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-08"
     },
@@ -926,11 +806,7 @@ export default {
       "masked": "____ includes both theory and practical applications.",
       "options": [
         "science-mcq-08",
-        "science-mcq-07",
-        "science-mcq-09",
-        "science-mcq-06",
-        "science-mcq-10",
-        "science-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Computer science」指「研究計算、演算法、軟體等的電腦科學」。",
       "sentenceIndex": 17,
@@ -939,12 +815,8 @@ export default {
         "Computer science"
       ],
       "optionReasons": {
-        "science-mcq-08": "本句指「研究計算、演算法、軟體等的電腦科學」。",
-        "science-mcq-07": "「系統研究人類社會與社會行為的社會科學」與本句語境不同。",
-        "science-mcq-09": "「利用統計、運算與分析方法從資料中獲取知識的資料科學」與本句語境不同。",
-        "science-mcq-06": "「研究自然界、物質世界與生物世界的自然科學」與本句語境不同。",
-        "science-mcq-10": "「研究環境及其系統的環境科學」與本句語境不同。",
-        "science-mcq-05": "「多個科學學科的總稱；各門科學」與本句語境不同。"
+        "science-mcq-08": "本句的「Computer science」指「研究計算、演算法、軟體等的電腦科學」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-08"
     },
@@ -956,11 +828,7 @@ export default {
       "masked": "She works in ____.",
       "options": [
         "science-mcq-09",
-        "science-mcq-08",
-        "science-mcq-10",
-        "science-mcq-07",
-        "science-mcq-11",
-        "science-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「data science」指「利用統計、運算與分析方法從資料中獲取知識的資料科學」。",
       "sentenceIndex": 18,
@@ -969,12 +837,8 @@ export default {
         "data science"
       ],
       "optionReasons": {
-        "science-mcq-09": "本句指「利用統計、運算與分析方法從資料中獲取知識的資料科學」。",
-        "science-mcq-08": "「研究計算、演算法、軟體等的電腦科學」與本句語境不同。",
-        "science-mcq-10": "「研究環境及其系統的環境科學」與本句語境不同。",
-        "science-mcq-07": "「系統研究人類社會與社會行為的社會科學」與本句語境不同。",
-        "science-mcq-11": "「某議題已有的科學研究、證據與知識」與本句語境不同。",
-        "science-mcq-06": "「研究自然界、物質世界與生物世界的自然科學」與本句語境不同。"
+        "science-mcq-09": "本句的「data science」指「利用統計、運算與分析方法從資料中獲取知識的資料科學」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-09"
     },
@@ -986,11 +850,7 @@ export default {
       "masked": "____ combines programming, statistics, and analysis.",
       "options": [
         "science-mcq-09",
-        "science-mcq-08",
-        "science-mcq-10",
-        "science-mcq-07",
-        "science-mcq-11",
-        "science-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Data science」指「利用統計、運算與分析方法從資料中獲取知識的資料科學」。",
       "sentenceIndex": 19,
@@ -999,12 +859,8 @@ export default {
         "Data science"
       ],
       "optionReasons": {
-        "science-mcq-09": "本句指「利用統計、運算與分析方法從資料中獲取知識的資料科學」。",
-        "science-mcq-08": "「研究計算、演算法、軟體等的電腦科學」與本句語境不同。",
-        "science-mcq-10": "「研究環境及其系統的環境科學」與本句語境不同。",
-        "science-mcq-07": "「系統研究人類社會與社會行為的社會科學」與本句語境不同。",
-        "science-mcq-11": "「某議題已有的科學研究、證據與知識」與本句語境不同。",
-        "science-mcq-06": "「研究自然界、物質世界與生物世界的自然科學」與本句語境不同。"
+        "science-mcq-09": "本句的「Data science」指「利用統計、運算與分析方法從資料中獲取知識的資料科學」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-09"
     },
@@ -1016,11 +872,7 @@ export default {
       "masked": "She studied ____ at university.",
       "options": [
         "science-mcq-10",
-        "science-mcq-09",
-        "science-mcq-11",
-        "science-mcq-08",
-        "science-mcq-12",
-        "science-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「environmental science」指「研究環境及其系統的環境科學」。",
       "sentenceIndex": 20,
@@ -1029,12 +881,8 @@ export default {
         "environmental science"
       ],
       "optionReasons": {
-        "science-mcq-10": "本句指「研究環境及其系統的環境科學」。",
-        "science-mcq-09": "「利用統計、運算與分析方法從資料中獲取知識的資料科學」與本句語境不同。",
-        "science-mcq-11": "「某議題已有的科學研究、證據與知識」與本句語境不同。",
-        "science-mcq-08": "「研究計算、演算法、軟體等的電腦科學」與本句語境不同。",
-        "science-mcq-12": "「解釋某現象如何運作的科學原理」與本句語境不同。",
-        "science-mcq-07": "「系統研究人類社會與社會行為的社會科學」與本句語境不同。"
+        "science-mcq-10": "本句的「environmental science」指「研究環境及其系統的環境科學」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-10"
     },
@@ -1046,11 +894,7 @@ export default {
       "masked": "____ examines interactions between natural systems and human activity.",
       "options": [
         "science-mcq-10",
-        "science-mcq-09",
-        "science-mcq-11",
-        "science-mcq-08",
-        "science-mcq-12",
-        "science-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Environmental science」指「研究環境及其系統的環境科學」。",
       "sentenceIndex": 21,
@@ -1059,12 +903,8 @@ export default {
         "Environmental science"
       ],
       "optionReasons": {
-        "science-mcq-10": "本句指「研究環境及其系統的環境科學」。",
-        "science-mcq-09": "「利用統計、運算與分析方法從資料中獲取知識的資料科學」與本句語境不同。",
-        "science-mcq-11": "「某議題已有的科學研究、證據與知識」與本句語境不同。",
-        "science-mcq-08": "「研究計算、演算法、軟體等的電腦科學」與本句語境不同。",
-        "science-mcq-12": "「解釋某現象如何運作的科學原理」與本句語境不同。",
-        "science-mcq-07": "「系統研究人類社會與社會行為的社會科學」與本句語境不同。"
+        "science-mcq-10": "本句的「Environmental science」指「研究環境及其系統的環境科學」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-10"
     },
@@ -1076,11 +916,7 @@ export default {
       "masked": "The treatment is supported by ____.",
       "options": [
         "science-mcq-11",
-        "science-mcq-10",
-        "science-mcq-12",
-        "science-mcq-09",
-        "science-mcq-13",
-        "science-mcq-08"
+        "science-mcq-14"
       ],
       "explanation": "本句的「science」指「某議題已有的科學研究、證據與知識」。",
       "sentenceIndex": 22,
@@ -1089,12 +925,8 @@ export default {
         "science"
       ],
       "optionReasons": {
-        "science-mcq-11": "本句指「某議題已有的科學研究、證據與知識」。",
-        "science-mcq-10": "「研究環境及其系統的環境科學」與本句語境不同。",
-        "science-mcq-12": "「解釋某現象如何運作的科學原理」與本句語境不同。",
-        "science-mcq-09": "「利用統計、運算與分析方法從資料中獲取知識的資料科學」與本句語境不同。",
-        "science-mcq-13": "「一套可系統研究、分析和掌握的方法或學問」與本句語境不同。",
-        "science-mcq-08": "「研究計算、演算法、軟體等的電腦科學」與本句語境不同。"
+        "science-mcq-11": "本句的「science」指「某議題已有的科學研究、證據與知識」。",
+        "science-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-11"
     },
@@ -1106,11 +938,7 @@ export default {
       "masked": "Good policy should take account of the ____.",
       "options": [
         "science-mcq-11",
-        "science-mcq-10",
-        "science-mcq-12",
-        "science-mcq-09",
-        "science-mcq-13",
-        "science-mcq-08"
+        "science-mcq-14"
       ],
       "explanation": "本句的「science」指「某議題已有的科學研究、證據與知識」。",
       "sentenceIndex": 23,
@@ -1119,12 +947,8 @@ export default {
         "science"
       ],
       "optionReasons": {
-        "science-mcq-11": "本句指「某議題已有的科學研究、證據與知識」。",
-        "science-mcq-10": "「研究環境及其系統的環境科學」與本句語境不同。",
-        "science-mcq-12": "「解釋某現象如何運作的科學原理」與本句語境不同。",
-        "science-mcq-09": "「利用統計、運算與分析方法從資料中獲取知識的資料科學」與本句語境不同。",
-        "science-mcq-13": "「一套可系統研究、分析和掌握的方法或學問」與本句語境不同。",
-        "science-mcq-08": "「研究計算、演算法、軟體等的電腦科學」與本句語境不同。"
+        "science-mcq-11": "本句的「science」指「某議題已有的科學研究、證據與知識」。",
+        "science-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-11"
     },
@@ -1136,11 +960,7 @@ export default {
       "masked": "The programme explains the ____.",
       "options": [
         "science-mcq-12",
-        "science-mcq-11",
-        "science-mcq-13",
-        "science-mcq-10",
-        "science-mcq-14",
-        "science-mcq-09"
+        "science-mcq-14"
       ],
       "explanation": "本句的「science behind sleep」指「解釋某現象如何運作的科學原理」。",
       "sentenceIndex": 24,
@@ -1149,12 +969,8 @@ export default {
         "science behind sleep"
       ],
       "optionReasons": {
-        "science-mcq-12": "本句指「解釋某現象如何運作的科學原理」。",
-        "science-mcq-11": "「某議題已有的科學研究、證據與知識」與本句語境不同。",
-        "science-mcq-13": "「一套可系統研究、分析和掌握的方法或學問」與本句語境不同。",
-        "science-mcq-10": "「研究環境及其系統的環境科學」與本句語境不同。",
-        "science-mcq-14": "「同時需要創意判斷和系統方法的活動」與本句語境不同。",
-        "science-mcq-09": "「利用統計、運算與分析方法從資料中獲取知識的資料科學」與本句語境不同。"
+        "science-mcq-12": "本句的「science behind sleep」指「解釋某現象如何運作的科學原理」。",
+        "science-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-12"
     },
@@ -1166,11 +982,7 @@ export default {
       "masked": "I wanted to understand the ____.",
       "options": [
         "science-mcq-12",
-        "science-mcq-11",
-        "science-mcq-13",
-        "science-mcq-10",
-        "science-mcq-14",
-        "science-mcq-09"
+        "science-mcq-14"
       ],
       "explanation": "本句的「science behind the experiment」指「解釋某現象如何運作的科學原理」。",
       "sentenceIndex": 25,
@@ -1179,12 +991,8 @@ export default {
         "science behind the experiment"
       ],
       "optionReasons": {
-        "science-mcq-12": "本句指「解釋某現象如何運作的科學原理」。",
-        "science-mcq-11": "「某議題已有的科學研究、證據與知識」與本句語境不同。",
-        "science-mcq-13": "「一套可系統研究、分析和掌握的方法或學問」與本句語境不同。",
-        "science-mcq-10": "「研究環境及其系統的環境科學」與本句語境不同。",
-        "science-mcq-14": "「同時需要創意判斷和系統方法的活動」與本句語境不同。",
-        "science-mcq-09": "「利用統計、運算與分析方法從資料中獲取知識的資料科學」與本句語境不同。"
+        "science-mcq-12": "本句的「science behind the experiment」指「解釋某現象如何運作的科學原理」。",
+        "science-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-12"
     },
@@ -1196,11 +1004,7 @@ export default {
       "masked": "There is a ____.",
       "options": [
         "science-mcq-13",
-        "science-mcq-12",
-        "science-mcq-14",
-        "science-mcq-11",
-        "science-mcq-15",
-        "science-mcq-10"
+        "science-mcq-12"
       ],
       "explanation": "本句的「science to good teaching」指「一套可系統研究、分析和掌握的方法或學問」。",
       "sentenceIndex": 26,
@@ -1209,12 +1013,8 @@ export default {
         "science to good teaching"
       ],
       "optionReasons": {
-        "science-mcq-13": "本句指「一套可系統研究、分析和掌握的方法或學問」。",
-        "science-mcq-12": "「解釋某現象如何運作的科學原理」與本句語境不同。",
-        "science-mcq-14": "「同時需要創意判斷和系統方法的活動」與本句語境不同。",
-        "science-mcq-11": "「某議題已有的科學研究、證據與知識」與本句語境不同。",
-        "science-mcq-15": "「以科學活動、實驗與學習為主的科學學會／科學社」與本句語境不同。",
-        "science-mcq-10": "「研究環境及其系統的環境科學」與本句語境不同。"
+        "science-mcq-13": "本句的「science to good teaching」指「一套可系統研究、分析和掌握的方法或學問」。",
+        "science-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-13"
     },
@@ -1226,11 +1026,7 @@ export default {
       "masked": "Negotiation is partly an art and partly a ____.",
       "options": [
         "science-mcq-13",
-        "science-mcq-12",
-        "science-mcq-14",
-        "science-mcq-11",
-        "science-mcq-15",
-        "science-mcq-10"
+        "science-mcq-05"
       ],
       "explanation": "本句的「science」指「一套可系統研究、分析和掌握的方法或學問」。",
       "sentenceIndex": 27,
@@ -1239,12 +1035,8 @@ export default {
         "science"
       ],
       "optionReasons": {
-        "science-mcq-13": "本句指「一套可系統研究、分析和掌握的方法或學問」。",
-        "science-mcq-12": "「解釋某現象如何運作的科學原理」與本句語境不同。",
-        "science-mcq-14": "「同時需要創意判斷和系統方法的活動」與本句語境不同。",
-        "science-mcq-11": "「某議題已有的科學研究、證據與知識」與本句語境不同。",
-        "science-mcq-15": "「以科學活動、實驗與學習為主的科學學會／科學社」與本句語境不同。",
-        "science-mcq-10": "「研究環境及其系統的環境科學」與本句語境不同。"
+        "science-mcq-13": "本句的「science」指「一套可系統研究、分析和掌握的方法或學問」。",
+        "science-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-13"
     },
@@ -1256,11 +1048,7 @@ export default {
       "masked": "Good leadership is both an art and a ____.",
       "options": [
         "science-mcq-14",
-        "science-mcq-13",
-        "science-mcq-15",
-        "science-mcq-12",
-        "science-mcq-16",
-        "science-mcq-11"
+        "science-mcq-12"
       ],
       "explanation": "本句的「science」指「同時需要創意判斷和系統方法的活動」。",
       "sentenceIndex": 28,
@@ -1269,12 +1057,8 @@ export default {
         "science"
       ],
       "optionReasons": {
-        "science-mcq-14": "本句指「同時需要創意判斷和系統方法的活動」。",
-        "science-mcq-13": "「一套可系統研究、分析和掌握的方法或學問」與本句語境不同。",
-        "science-mcq-15": "「以科學活動、實驗與學習為主的科學學會／科學社」與本句語境不同。",
-        "science-mcq-12": "「解釋某現象如何運作的科學原理」與本句語境不同。",
-        "science-mcq-16": "「與科學知識、研究或應用有關的學術／職業領域」與本句語境不同。",
-        "science-mcq-11": "「某議題已有的科學研究、證據與知識」與本句語境不同。"
+        "science-mcq-14": "本句的「science」指「同時需要創意判斷和系統方法的活動」。",
+        "science-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-14"
     },
@@ -1286,10 +1070,6 @@ export default {
       "masked": "Teaching can be seen as both an art and a ____.",
       "options": [
         "science-mcq-14",
-        "science-mcq-13",
-        "science-mcq-15",
-        "science-mcq-12",
-        "science-mcq-16",
         "science-mcq-11"
       ],
       "explanation": "本句的「science」指「同時需要創意判斷和系統方法的活動」。",
@@ -1299,12 +1079,8 @@ export default {
         "science"
       ],
       "optionReasons": {
-        "science-mcq-14": "本句指「同時需要創意判斷和系統方法的活動」。",
-        "science-mcq-13": "「一套可系統研究、分析和掌握的方法或學問」與本句語境不同。",
-        "science-mcq-15": "「以科學活動、實驗與學習為主的科學學會／科學社」與本句語境不同。",
-        "science-mcq-12": "「解釋某現象如何運作的科學原理」與本句語境不同。",
-        "science-mcq-16": "「與科學知識、研究或應用有關的學術／職業領域」與本句語境不同。",
-        "science-mcq-11": "「某議題已有的科學研究、證據與知識」與本句語境不同。"
+        "science-mcq-14": "本句的「science」指「同時需要創意判斷和系統方法的活動」。",
+        "science-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-14"
     },
@@ -1316,11 +1092,7 @@ export default {
       "masked": "She helps run the school ____.",
       "options": [
         "science-mcq-15",
-        "science-mcq-14",
-        "science-mcq-16",
-        "science-mcq-13",
-        "science-mcq-17",
-        "science-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「science club」指「以科學活動、實驗與學習為主的科學學會／科學社」。",
       "sentenceIndex": 30,
@@ -1329,12 +1101,8 @@ export default {
         "science club"
       ],
       "optionReasons": {
-        "science-mcq-15": "本句指「以科學活動、實驗與學習為主的科學學會／科學社」。",
-        "science-mcq-14": "「同時需要創意判斷和系統方法的活動」與本句語境不同。",
-        "science-mcq-16": "「與科學知識、研究或應用有關的學術／職業領域」與本句語境不同。",
-        "science-mcq-13": "「一套可系統研究、分析和掌握的方法或學問」與本句語境不同。",
-        "science-mcq-17": "「科學知識與方法的教學和學習；科學教育」與本句語境不同。",
-        "science-mcq-12": "「解釋某現象如何運作的科學原理」與本句語境不同。"
+        "science-mcq-15": "本句的「science club」指「以科學活動、實驗與學習為主的科學學會／科學社」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-15"
     },
@@ -1346,11 +1114,7 @@ export default {
       "masked": "The ____ organizes experiments and competitions.",
       "options": [
         "science-mcq-15",
-        "science-mcq-14",
-        "science-mcq-16",
-        "science-mcq-13",
-        "science-mcq-17",
-        "science-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「science club」指「以科學活動、實驗與學習為主的科學學會／科學社」。",
       "sentenceIndex": 31,
@@ -1359,12 +1123,8 @@ export default {
         "science club"
       ],
       "optionReasons": {
-        "science-mcq-15": "本句指「以科學活動、實驗與學習為主的科學學會／科學社」。",
-        "science-mcq-14": "「同時需要創意判斷和系統方法的活動」與本句語境不同。",
-        "science-mcq-16": "「與科學知識、研究或應用有關的學術／職業領域」與本句語境不同。",
-        "science-mcq-13": "「一套可系統研究、分析和掌握的方法或學問」與本句語境不同。",
-        "science-mcq-17": "「科學知識與方法的教學和學習；科學教育」與本句語境不同。",
-        "science-mcq-12": "「解釋某現象如何運作的科學原理」與本句語境不同。"
+        "science-mcq-15": "本句的「science club」指「以科學活動、實驗與學習為主的科學學會／科學社」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-15"
     },
@@ -1376,11 +1136,7 @@ export default {
       "masked": "Many students want to enter ____.",
       "options": [
         "science-mcq-16",
-        "science-mcq-15",
-        "science-mcq-17",
-        "science-mcq-14",
-        "science-mcq-18",
-        "science-mcq-13"
+        "science-mcq-14"
       ],
       "explanation": "本句的「science-related fields」指「與科學知識、研究或應用有關的學術／職業領域」。",
       "sentenceIndex": 32,
@@ -1389,12 +1145,8 @@ export default {
         "science-related fields"
       ],
       "optionReasons": {
-        "science-mcq-16": "本句指「與科學知識、研究或應用有關的學術／職業領域」。",
-        "science-mcq-15": "「以科學活動、實驗與學習為主的科學學會／科學社」與本句語境不同。",
-        "science-mcq-17": "「科學知識與方法的教學和學習；科學教育」與本句語境不同。",
-        "science-mcq-14": "「同時需要創意判斷和系統方法的活動」與本句語境不同。",
-        "science-mcq-18": "「專業從事科學研究的人；科學家」與本句語境不同。",
-        "science-mcq-13": "「一套可系統研究、分析和掌握的方法或學問」與本句語境不同。"
+        "science-mcq-16": "本句的「science-related fields」指「與科學知識、研究或應用有關的學術／職業領域」。",
+        "science-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-16"
     },
@@ -1406,11 +1158,7 @@ export default {
       "masked": "Engineering is closely connected with several ____.",
       "options": [
         "science-mcq-16",
-        "science-mcq-15",
-        "science-mcq-17",
-        "science-mcq-14",
-        "science-mcq-18",
-        "science-mcq-13"
+        "science-mcq-14"
       ],
       "explanation": "本句的「science-related fields」指「與科學知識、研究或應用有關的學術／職業領域」。",
       "sentenceIndex": 33,
@@ -1419,12 +1167,8 @@ export default {
         "science-related fields"
       ],
       "optionReasons": {
-        "science-mcq-16": "本句指「與科學知識、研究或應用有關的學術／職業領域」。",
-        "science-mcq-15": "「以科學活動、實驗與學習為主的科學學會／科學社」與本句語境不同。",
-        "science-mcq-17": "「科學知識與方法的教學和學習；科學教育」與本句語境不同。",
-        "science-mcq-14": "「同時需要創意判斷和系統方法的活動」與本句語境不同。",
-        "science-mcq-18": "「專業從事科學研究的人；科學家」與本句語境不同。",
-        "science-mcq-13": "「一套可系統研究、分析和掌握的方法或學問」與本句語境不同。"
+        "science-mcq-16": "本句的「science-related fields」指「與科學知識、研究或應用有關的學術／職業領域」。",
+        "science-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-16"
     },
@@ -1436,11 +1180,7 @@ export default {
       "masked": "She has worked in ____ for many years.",
       "options": [
         "science-mcq-17",
-        "science-mcq-16",
-        "science-mcq-18",
-        "science-mcq-15",
-        "science-mcq-19",
-        "science-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「science education」指「科學知識與方法的教學和學習；科學教育」。",
       "sentenceIndex": 34,
@@ -1449,12 +1189,8 @@ export default {
         "science education"
       ],
       "optionReasons": {
-        "science-mcq-17": "本句指「科學知識與方法的教學和學習；科學教育」。",
-        "science-mcq-16": "「與科學知識、研究或應用有關的學術／職業領域」與本句語境不同。",
-        "science-mcq-18": "「專業從事科學研究的人；科學家」與本句語境不同。",
-        "science-mcq-15": "「以科學活動、實驗與學習為主的科學學會／科學社」與本句語境不同。",
-        "science-mcq-19": "「與科學有關或按照科學方法進行的」與本句語境不同。",
-        "science-mcq-14": "「同時需要創意判斷和系統方法的活動」與本句語境不同。"
+        "science-mcq-17": "本句的「science education」指「科學知識與方法的教學和學習；科學教育」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-17"
     },
@@ -1466,11 +1202,7 @@ export default {
       "masked": "Good ____ encourages curiosity and evidence-based thinking.",
       "options": [
         "science-mcq-17",
-        "science-mcq-16",
-        "science-mcq-18",
-        "science-mcq-15",
-        "science-mcq-19",
-        "science-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「science education」指「科學知識與方法的教學和學習；科學教育」。",
       "sentenceIndex": 35,
@@ -1479,12 +1211,8 @@ export default {
         "science education"
       ],
       "optionReasons": {
-        "science-mcq-17": "本句指「科學知識與方法的教學和學習；科學教育」。",
-        "science-mcq-16": "「與科學知識、研究或應用有關的學術／職業領域」與本句語境不同。",
-        "science-mcq-18": "「專業從事科學研究的人；科學家」與本句語境不同。",
-        "science-mcq-15": "「以科學活動、實驗與學習為主的科學學會／科學社」與本句語境不同。",
-        "science-mcq-19": "「與科學有關或按照科學方法進行的」與本句語境不同。",
-        "science-mcq-14": "「同時需要創意判斷和系統方法的活動」與本句語境不同。"
+        "science-mcq-17": "本句的「science education」指「科學知識與方法的教學和學習；科學教育」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-17"
     },
@@ -1496,11 +1224,7 @@ export default {
       "masked": "She hopes to become a ____.",
       "options": [
         "science-mcq-18",
-        "science-mcq-17",
-        "science-mcq-19",
-        "science-mcq-16",
-        "science-mcq-20",
-        "science-mcq-15"
+        "science-mcq-14"
       ],
       "explanation": "本句的「scientist」指「專業從事科學研究的人；科學家」。",
       "sentenceIndex": 36,
@@ -1509,12 +1233,8 @@ export default {
         "scientist"
       ],
       "optionReasons": {
-        "science-mcq-18": "本句指「專業從事科學研究的人；科學家」。",
-        "science-mcq-17": "「科學知識與方法的教學和學習；科學教育」與本句語境不同。",
-        "science-mcq-19": "「與科學有關或按照科學方法進行的」與本句語境不同。",
-        "science-mcq-16": "「與科學知識、研究或應用有關的學術／職業領域」與本句語境不同。",
-        "science-mcq-20": "「以科學方法或從科學角度」與本句語境不同。",
-        "science-mcq-15": "「以科學活動、實驗與學習為主的科學學會／科學社」與本句語境不同。"
+        "science-mcq-18": "本句的「scientist」指「專業從事科學研究的人；科學家」。",
+        "science-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-18"
     },
@@ -1526,11 +1246,7 @@ export default {
       "masked": "The ____ tested the new theory.",
       "options": [
         "science-mcq-18",
-        "science-mcq-17",
-        "science-mcq-19",
-        "science-mcq-16",
-        "science-mcq-20",
-        "science-mcq-15"
+        "science-mcq-14"
       ],
       "explanation": "本句的「scientists」指「專業從事科學研究的人；科學家」。",
       "sentenceIndex": 37,
@@ -1539,12 +1255,8 @@ export default {
         "scientists"
       ],
       "optionReasons": {
-        "science-mcq-18": "本句指「專業從事科學研究的人；科學家」。",
-        "science-mcq-17": "「科學知識與方法的教學和學習；科學教育」與本句語境不同。",
-        "science-mcq-19": "「與科學有關或按照科學方法進行的」與本句語境不同。",
-        "science-mcq-16": "「與科學知識、研究或應用有關的學術／職業領域」與本句語境不同。",
-        "science-mcq-20": "「以科學方法或從科學角度」與本句語境不同。",
-        "science-mcq-15": "「以科學活動、實驗與學習為主的科學學會／科學社」與本句語境不同。"
+        "science-mcq-18": "本句的「scientists」指「專業從事科學研究的人；科學家」。",
+        "science-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-18"
     },
@@ -1556,11 +1268,7 @@ export default {
       "masked": "The claim needs ____.",
       "options": [
         "science-mcq-19",
-        "science-mcq-18",
-        "science-mcq-20",
-        "science-mcq-17",
-        "science-mcq-21",
-        "science-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「scientific evidence」指「與科學有關或按照科學方法進行的」。",
       "sentenceIndex": 38,
@@ -1569,12 +1277,8 @@ export default {
         "scientific evidence"
       ],
       "optionReasons": {
-        "science-mcq-19": "本句指「與科學有關或按照科學方法進行的」。",
-        "science-mcq-18": "「專業從事科學研究的人；科學家」與本句語境不同。",
-        "science-mcq-20": "「以科學方法或從科學角度」與本句語境不同。",
-        "science-mcq-17": "「科學知識與方法的教學和學習；科學教育」與本句語境不同。",
-        "science-mcq-21": "「缺乏科學方法或證據支持的；不科學的」與本句語境不同。",
-        "science-mcq-16": "「與科學知識、研究或應用有關的學術／職業領域」與本句語境不同。"
+        "science-mcq-19": "本句的「scientific evidence」指「與科學有關或按照科學方法進行的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-19"
     },
@@ -1586,11 +1290,7 @@ export default {
       "masked": "The researchers used a ____.",
       "options": [
         "science-mcq-19",
-        "science-mcq-18",
-        "science-mcq-20",
-        "science-mcq-17",
-        "science-mcq-21",
-        "science-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「scientific method」指「與科學有關或按照科學方法進行的」。",
       "sentenceIndex": 39,
@@ -1599,12 +1299,8 @@ export default {
         "scientific method"
       ],
       "optionReasons": {
-        "science-mcq-19": "本句指「與科學有關或按照科學方法進行的」。",
-        "science-mcq-18": "「專業從事科學研究的人；科學家」與本句語境不同。",
-        "science-mcq-20": "「以科學方法或從科學角度」與本句語境不同。",
-        "science-mcq-17": "「科學知識與方法的教學和學習；科學教育」與本句語境不同。",
-        "science-mcq-21": "「缺乏科學方法或證據支持的；不科學的」與本句語境不同。",
-        "science-mcq-16": "「與科學知識、研究或應用有關的學術／職業領域」與本句語境不同。"
+        "science-mcq-19": "本句的「scientific method」指「與科學有關或按照科學方法進行的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-19"
     },
@@ -1616,11 +1312,7 @@ export default {
       "masked": "The idea has not been ____.",
       "options": [
         "science-mcq-20",
-        "science-mcq-19",
-        "science-mcq-21",
-        "science-mcq-18",
-        "science-mcq-17",
-        "science-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「scientifically tested」指「以科學方法或從科學角度」。",
       "sentenceIndex": 40,
@@ -1629,12 +1321,8 @@ export default {
         "scientifically tested"
       ],
       "optionReasons": {
-        "science-mcq-20": "本句指「以科學方法或從科學角度」。",
-        "science-mcq-19": "「與科學有關或按照科學方法進行的」與本句語境不同。",
-        "science-mcq-21": "「缺乏科學方法或證據支持的；不科學的」與本句語境不同。",
-        "science-mcq-18": "「專業從事科學研究的人；科學家」與本句語境不同。",
-        "science-mcq-17": "「科學知識與方法的教學和學習；科學教育」與本句語境不同。",
-        "science-mcq-16": "「與科學知識、研究或應用有關的學術／職業領域」與本句語境不同。"
+        "science-mcq-20": "本句的「scientifically tested」指「以科學方法或從科學角度」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-20"
     },
@@ -1646,11 +1334,7 @@ export default {
       "masked": "The phenomenon can be explained ____.",
       "options": [
         "science-mcq-20",
-        "science-mcq-19",
-        "science-mcq-21",
-        "science-mcq-18",
-        "science-mcq-17",
-        "science-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「scientifically」指「以科學方法或從科學角度」。",
       "sentenceIndex": 41,
@@ -1659,12 +1343,8 @@ export default {
         "scientifically"
       ],
       "optionReasons": {
-        "science-mcq-20": "本句指「以科學方法或從科學角度」。",
-        "science-mcq-19": "「與科學有關或按照科學方法進行的」與本句語境不同。",
-        "science-mcq-21": "「缺乏科學方法或證據支持的；不科學的」與本句語境不同。",
-        "science-mcq-18": "「專業從事科學研究的人；科學家」與本句語境不同。",
-        "science-mcq-17": "「科學知識與方法的教學和學習；科學教育」與本句語境不同。",
-        "science-mcq-16": "「與科學知識、研究或應用有關的學術／職業領域」與本句語境不同。"
+        "science-mcq-20": "本句的「scientifically」指「以科學方法或從科學角度」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-20"
     },
@@ -1676,11 +1356,7 @@ export default {
       "masked": "The claim is ____.",
       "options": [
         "science-mcq-21",
-        "science-mcq-20",
-        "science-mcq-19",
-        "science-mcq-18",
-        "science-mcq-17",
-        "science-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「unscientific」指「缺乏科學方法或證據支持的；不科學的」。",
       "sentenceIndex": 42,
@@ -1689,12 +1365,8 @@ export default {
         "unscientific"
       ],
       "optionReasons": {
-        "science-mcq-21": "本句指「缺乏科學方法或證據支持的；不科學的」。",
-        "science-mcq-20": "「以科學方法或從科學角度」與本句語境不同。",
-        "science-mcq-19": "「與科學有關或按照科學方法進行的」與本句語境不同。",
-        "science-mcq-18": "「專業從事科學研究的人；科學家」與本句語境不同。",
-        "science-mcq-17": "「科學知識與方法的教學和學習；科學教育」與本句語境不同。",
-        "science-mcq-16": "「與科學知識、研究或應用有關的學術／職業領域」與本句語境不同。"
+        "science-mcq-21": "本句的「unscientific」指「缺乏科學方法或證據支持的；不科學的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-21"
     },
@@ -1706,11 +1378,7 @@ export default {
       "masked": "The method was criticized as ____.",
       "options": [
         "science-mcq-21",
-        "science-mcq-20",
-        "science-mcq-19",
-        "science-mcq-18",
-        "science-mcq-17",
-        "science-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「unscientific」指「缺乏科學方法或證據支持的；不科學的」。",
       "sentenceIndex": 43,
@@ -1719,12 +1387,8 @@ export default {
         "unscientific"
       ],
       "optionReasons": {
-        "science-mcq-21": "本句指「缺乏科學方法或證據支持的；不科學的」。",
-        "science-mcq-20": "「以科學方法或從科學角度」與本句語境不同。",
-        "science-mcq-19": "「與科學有關或按照科學方法進行的」與本句語境不同。",
-        "science-mcq-18": "「專業從事科學研究的人；科學家」與本句語境不同。",
-        "science-mcq-17": "「科學知識與方法的教學和學習；科學教育」與本句語境不同。",
-        "science-mcq-16": "「與科學知識、研究或應用有關的學術／職業領域」與本句語境不同。"
+        "science-mcq-21": "本句的「unscientific」指「缺乏科學方法或證據支持的；不科學的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "science-mcq-21"
     }
@@ -1736,5 +1400,12 @@ export default {
     "sha256": "f438ad46c6318bb7d2df3b713d1e4a67c6ce7d35383a64c053dfe68f3bfc7ddb",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

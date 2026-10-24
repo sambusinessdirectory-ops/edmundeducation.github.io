@@ -354,11 +354,7 @@ export default {
       "masked": "Small businesses face strong ____.",
       "options": [
         "competition-mcq-01",
-        "competition-mcq-02",
-        "competition-mcq-03",
-        "competition-mcq-04",
-        "competition-mcq-05",
-        "competition-mcq-06"
+        "competition-pdf-002"
       ],
       "explanation": "本句的「competition」指「多個人／組織為取得同一目標、資源或優勢而互相較量」。",
       "sentenceIndex": 0,
@@ -367,12 +363,8 @@ export default {
         "competition"
       ],
       "optionReasons": {
-        "competition-mcq-01": "本句指「多個人／組織為取得同一目標、資源或優勢而互相較量」。",
-        "competition-mcq-02": "「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」與本句語境不同。",
-        "competition-mcq-03": "「有正式規則、參賽者和結果的比賽／競賽」與本句語境不同。",
-        "competition-mcq-04": "「與自己爭奪同一市場、獎項或目標的對手」與本句語境不同。",
-        "competition-mcq-05": "「因競爭者存在而產生的市場／表現壓力」與本句語境不同。",
-        "competition-mcq-06": "「生物為有限的食物、空間、光、水等資源而互相爭奪」與本句語境不同。"
+        "competition-mcq-01": "本句的「competition」指「多個人／組織為取得同一目標、資源或優勢而互相較量」。",
+        "competition-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-01"
     },
@@ -384,11 +376,7 @@ export default {
       "masked": "There is intense ____ between local cafés.",
       "options": [
         "competition-mcq-01",
-        "competition-mcq-02",
-        "competition-mcq-03",
-        "competition-mcq-04",
-        "competition-mcq-05",
-        "competition-mcq-06"
+        "competition-mcq-10"
       ],
       "explanation": "本句的「competition」指「多個人／組織為取得同一目標、資源或優勢而互相較量」。",
       "sentenceIndex": 1,
@@ -397,12 +385,8 @@ export default {
         "competition"
       ],
       "optionReasons": {
-        "competition-mcq-01": "本句指「多個人／組織為取得同一目標、資源或優勢而互相較量」。",
-        "competition-mcq-02": "「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」與本句語境不同。",
-        "competition-mcq-03": "「有正式規則、參賽者和結果的比賽／競賽」與本句語境不同。",
-        "competition-mcq-04": "「與自己爭奪同一市場、獎項或目標的對手」與本句語境不同。",
-        "competition-mcq-05": "「因競爭者存在而產生的市場／表現壓力」與本句語境不同。",
-        "competition-mcq-06": "「生物為有限的食物、空間、光、水等資源而互相爭奪」與本句語境不同。"
+        "competition-mcq-01": "本句的「competition」指「多個人／組織為取得同一目標、資源或優勢而互相較量」。",
+        "competition-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-01"
     },
@@ -414,11 +398,7 @@ export default {
       "masked": "____ can encourage businesses to improve.",
       "options": [
         "competition-mcq-01",
-        "competition-mcq-02",
-        "competition-mcq-03",
-        "competition-mcq-04",
-        "competition-mcq-05",
-        "competition-mcq-06"
+        "competition-mcq-10"
       ],
       "explanation": "本句的「Competition」指「多個人／組織為取得同一目標、資源或優勢而互相較量」。",
       "sentenceIndex": 2,
@@ -427,12 +407,8 @@ export default {
         "Competition"
       ],
       "optionReasons": {
-        "competition-mcq-01": "本句指「多個人／組織為取得同一目標、資源或優勢而互相較量」。",
-        "competition-mcq-02": "「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」與本句語境不同。",
-        "competition-mcq-03": "「有正式規則、參賽者和結果的比賽／競賽」與本句語境不同。",
-        "competition-mcq-04": "「與自己爭奪同一市場、獎項或目標的對手」與本句語境不同。",
-        "competition-mcq-05": "「因競爭者存在而產生的市場／表現壓力」與本句語境不同。",
-        "competition-mcq-06": "「生物為有限的食物、空間、光、水等資源而互相爭奪」與本句語境不同。"
+        "competition-mcq-01": "本句的「Competition」指「多個人／組織為取得同一目標、資源或優勢而互相較量」。",
+        "competition-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-01"
     },
@@ -444,10 +420,7 @@ export default {
       "masked": "The bakery faces ____ from large chains.",
       "options": [
         "competition-mcq-02",
-        "competition-mcq-01",
-        "competition-mcq-03",
-        "competition-mcq-04",
-        "competition-mcq-05",
+        "competition-mcq-13",
         "competition-mcq-06"
       ],
       "explanation": "本句的「competition」指「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」。",
@@ -457,12 +430,9 @@ export default {
         "competition"
       ],
       "optionReasons": {
-        "competition-mcq-02": "本句指「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」。",
-        "competition-mcq-01": "「多個人／組織為取得同一目標、資源或優勢而互相較量」與本句語境不同。",
-        "competition-mcq-03": "「有正式規則、參賽者和結果的比賽／競賽」與本句語境不同。",
-        "competition-mcq-04": "「與自己爭奪同一市場、獎項或目標的對手」與本句語境不同。",
-        "competition-mcq-05": "「因競爭者存在而產生的市場／表現壓力」與本句語境不同。",
-        "competition-mcq-06": "「生物為有限的食物、空間、光、水等資源而互相爭奪」與本句語境不同。"
+        "competition-mcq-02": "本句的「competition」指「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」。",
+        "competition-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "competition-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-02"
     },
@@ -474,10 +444,7 @@ export default {
       "masked": "Strong ____ has pushed prices down.",
       "options": [
         "competition-mcq-02",
-        "competition-mcq-01",
-        "competition-mcq-03",
-        "competition-mcq-04",
-        "competition-mcq-05",
+        "competition-mcq-13",
         "competition-mcq-06"
       ],
       "explanation": "本句的「competition」指「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」。",
@@ -487,12 +454,9 @@ export default {
         "competition"
       ],
       "optionReasons": {
-        "competition-mcq-02": "本句指「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」。",
-        "competition-mcq-01": "「多個人／組織為取得同一目標、資源或優勢而互相較量」與本句語境不同。",
-        "competition-mcq-03": "「有正式規則、參賽者和結果的比賽／競賽」與本句語境不同。",
-        "competition-mcq-04": "「與自己爭奪同一市場、獎項或目標的對手」與本句語境不同。",
-        "competition-mcq-05": "「因競爭者存在而產生的市場／表現壓力」與本句語境不同。",
-        "competition-mcq-06": "「生物為有限的食物、空間、光、水等資源而互相爭奪」與本句語境不同。"
+        "competition-mcq-02": "本句的「competition」指「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」。",
+        "competition-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "competition-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-02"
     },
@@ -504,11 +468,8 @@ export default {
       "masked": "She entered a baking ____.",
       "options": [
         "competition-mcq-03",
-        "competition-mcq-02",
-        "competition-mcq-04",
-        "competition-mcq-01",
-        "competition-mcq-05",
-        "competition-mcq-06"
+        "competition-mcq-07",
+        "competition-mcq-15"
       ],
       "explanation": "本句的「competition」指「有正式規則、參賽者和結果的比賽／競賽」。",
       "sentenceIndex": 5,
@@ -517,12 +478,9 @@ export default {
         "competition"
       ],
       "optionReasons": {
-        "competition-mcq-03": "本句指「有正式規則、參賽者和結果的比賽／競賽」。",
-        "competition-mcq-02": "「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」與本句語境不同。",
-        "competition-mcq-04": "「與自己爭奪同一市場、獎項或目標的對手」與本句語境不同。",
-        "competition-mcq-01": "「多個人／組織為取得同一目標、資源或優勢而互相較量」與本句語境不同。",
-        "competition-mcq-05": "「因競爭者存在而產生的市場／表現壓力」與本句語境不同。",
-        "competition-mcq-06": "「生物為有限的食物、空間、光、水等資源而互相爭奪」與本句語境不同。"
+        "competition-mcq-03": "本句的「competition」指「有正式規則、參賽者和結果的比賽／競賽」。",
+        "competition-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "competition-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-03"
     },
@@ -534,11 +492,8 @@ export default {
       "masked": "The photography ____ attracted hundreds of entries.",
       "options": [
         "competition-mcq-03",
-        "competition-mcq-02",
-        "competition-mcq-04",
-        "competition-mcq-01",
-        "competition-mcq-05",
-        "competition-mcq-06"
+        "competition-mcq-07",
+        "competition-mcq-15"
       ],
       "explanation": "本句的「competition」指「有正式規則、參賽者和結果的比賽／競賽」。",
       "sentenceIndex": 6,
@@ -547,12 +502,9 @@ export default {
         "competition"
       ],
       "optionReasons": {
-        "competition-mcq-03": "本句指「有正式規則、參賽者和結果的比賽／競賽」。",
-        "competition-mcq-02": "「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」與本句語境不同。",
-        "competition-mcq-04": "「與自己爭奪同一市場、獎項或目標的對手」與本句語境不同。",
-        "competition-mcq-01": "「多個人／組織為取得同一目標、資源或優勢而互相較量」與本句語境不同。",
-        "competition-mcq-05": "「因競爭者存在而產生的市場／表現壓力」與本句語境不同。",
-        "competition-mcq-06": "「生物為有限的食物、空間、光、水等資源而互相爭奪」與本句語境不同。"
+        "competition-mcq-03": "本句的「competition」指「有正式規則、參賽者和結果的比賽／競賽」。",
+        "competition-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "competition-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-03"
     },
@@ -564,11 +516,9 @@ export default {
       "masked": "The teams are in direct ____.",
       "options": [
         "competition-pdf-001",
-        "competition-mcq-02",
-        "competition-mcq-04",
-        "competition-mcq-01",
-        "competition-mcq-05",
-        "competition-mcq-06"
+        "competition-mcq-06",
+        "competition-mcq-14",
+        "competition-mcq-03"
       ],
       "explanation": "本句的「competition」指「為取得同一目標而持續比較、較量的過程」。",
       "sentenceIndex": 7,
@@ -577,12 +527,10 @@ export default {
         "competition"
       ],
       "optionReasons": {
-        "competition-pdf-001": "本句指「為取得同一目標而持續比較、較量的過程」。",
-        "competition-mcq-02": "「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」與本句語境不同。",
-        "competition-mcq-04": "「與自己爭奪同一市場、獎項或目標的對手」與本句語境不同。",
-        "competition-mcq-01": "「多個人／組織為取得同一目標、資源或優勢而互相較量」與本句語境不同。",
-        "competition-mcq-05": "「因競爭者存在而產生的市場／表現壓力」與本句語境不同。",
-        "competition-mcq-06": "「生物為有限的食物、空間、光、水等資源而互相爭奪」與本句語境不同。"
+        "competition-pdf-001": "本句的「competition」指「為取得同一目標而持續比較、較量的過程」。",
+        "competition-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "competition-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "competition-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-pdf-001"
     },
@@ -594,10 +542,7 @@ export default {
       "masked": "The award created healthy ____ among the students.",
       "options": [
         "competition-pdf-001",
-        "competition-mcq-02",
-        "competition-mcq-04",
-        "competition-mcq-01",
-        "competition-mcq-05",
+        "competition-pdf-002",
         "competition-mcq-06"
       ],
       "explanation": "本句的「competition」指「為取得同一目標而持續比較、較量的過程」。",
@@ -607,12 +552,9 @@ export default {
         "competition"
       ],
       "optionReasons": {
-        "competition-pdf-001": "本句指「為取得同一目標而持續比較、較量的過程」。",
-        "competition-mcq-02": "「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」與本句語境不同。",
-        "competition-mcq-04": "「與自己爭奪同一市場、獎項或目標的對手」與本句語境不同。",
-        "competition-mcq-01": "「多個人／組織為取得同一目標、資源或優勢而互相較量」與本句語境不同。",
-        "competition-mcq-05": "「因競爭者存在而產生的市場／表現壓力」與本句語境不同。",
-        "competition-mcq-06": "「生物為有限的食物、空間、光、水等資源而互相爭奪」與本句語境不同。"
+        "competition-pdf-001": "本句的「competition」指「為取得同一目標而持續比較、較量的過程」。",
+        "competition-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "competition-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-pdf-001"
     },
@@ -624,11 +566,7 @@ export default {
       "masked": "The bakery is doing better than ____.",
       "options": [
         "competition-mcq-04",
-        "competition-mcq-03",
-        "competition-mcq-05",
-        "competition-mcq-02",
-        "competition-mcq-06",
-        "competition-mcq-01"
+        "competition-mcq-13"
       ],
       "explanation": "本句的「the competition」指「與自己爭奪同一市場、獎項或目標的對手」。",
       "sentenceIndex": 9,
@@ -637,12 +575,8 @@ export default {
         "the competition"
       ],
       "optionReasons": {
-        "competition-mcq-04": "本句指「與自己爭奪同一市場、獎項或目標的對手」。",
-        "competition-mcq-03": "「有正式規則、參賽者和結果的比賽／競賽」與本句語境不同。",
-        "competition-mcq-05": "「因競爭者存在而產生的市場／表現壓力」與本句語境不同。",
-        "competition-mcq-02": "「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」與本句語境不同。",
-        "competition-mcq-06": "「生物為有限的食物、空間、光、水等資源而互相爭奪」與本句語境不同。",
-        "competition-mcq-01": "「多個人／組織為取得同一目標、資源或優勢而互相較量」與本句語境不同。"
+        "competition-mcq-04": "本句的「the competition」指「與自己爭奪同一市場、獎項或目標的對手」。",
+        "competition-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-04"
     },
@@ -654,11 +588,7 @@ export default {
       "masked": "We need to understand what the ____ is offering.",
       "options": [
         "competition-mcq-04",
-        "competition-mcq-03",
-        "competition-mcq-05",
-        "competition-mcq-02",
-        "competition-mcq-06",
-        "competition-mcq-01"
+        "competition-mcq-07"
       ],
       "explanation": "本句的「competition」指「與自己爭奪同一市場、獎項或目標的對手」。",
       "sentenceIndex": 10,
@@ -667,12 +597,8 @@ export default {
         "competition"
       ],
       "optionReasons": {
-        "competition-mcq-04": "本句指「與自己爭奪同一市場、獎項或目標的對手」。",
-        "competition-mcq-03": "「有正式規則、參賽者和結果的比賽／競賽」與本句語境不同。",
-        "competition-mcq-05": "「因競爭者存在而產生的市場／表現壓力」與本句語境不同。",
-        "competition-mcq-02": "「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」與本句語境不同。",
-        "competition-mcq-06": "「生物為有限的食物、空間、光、水等資源而互相爭奪」與本句語境不同。",
-        "competition-mcq-01": "「多個人／組織為取得同一目標、資源或優勢而互相較量」與本句語境不同。"
+        "competition-mcq-04": "本句的「competition」指「與自己爭奪同一市場、獎項或目標的對手」。",
+        "competition-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-04"
     },
@@ -684,11 +610,7 @@ export default {
       "masked": "____ is forcing shops to improve service.",
       "options": [
         "competition-mcq-05",
-        "competition-mcq-04",
-        "competition-mcq-06",
-        "competition-mcq-03",
-        "competition-mcq-07",
-        "competition-mcq-02"
+        "competition-mcq-07"
       ],
       "explanation": "本句的「Competition」指「因競爭者存在而產生的市場／表現壓力」。",
       "sentenceIndex": 11,
@@ -697,12 +619,8 @@ export default {
         "Competition"
       ],
       "optionReasons": {
-        "competition-mcq-05": "本句指「因競爭者存在而產生的市場／表現壓力」。",
-        "competition-mcq-04": "「與自己爭奪同一市場、獎項或目標的對手」與本句語境不同。",
-        "competition-mcq-06": "「生物為有限的食物、空間、光、水等資源而互相爭奪」與本句語境不同。",
-        "competition-mcq-03": "「有正式規則、參賽者和結果的比賽／競賽」與本句語境不同。",
-        "competition-mcq-07": "「為勝出、取得資源或優勢而與他人較量」與本句語境不同。",
-        "competition-mcq-02": "「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」與本句語境不同。"
+        "competition-mcq-05": "本句的「Competition」指「因競爭者存在而產生的市場／表現壓力」。",
+        "competition-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-05"
     },
@@ -714,11 +632,8 @@ export default {
       "masked": "The company struggled under growing ____.",
       "options": [
         "competition-mcq-05",
-        "competition-mcq-04",
-        "competition-mcq-06",
-        "competition-mcq-03",
-        "competition-mcq-07",
-        "competition-mcq-02"
+        "competition-mcq-13",
+        "competition-mcq-06"
       ],
       "explanation": "本句的「competition」指「因競爭者存在而產生的市場／表現壓力」。",
       "sentenceIndex": 12,
@@ -727,12 +642,9 @@ export default {
         "competition"
       ],
       "optionReasons": {
-        "competition-mcq-05": "本句指「因競爭者存在而產生的市場／表現壓力」。",
-        "competition-mcq-04": "「與自己爭奪同一市場、獎項或目標的對手」與本句語境不同。",
-        "competition-mcq-06": "「生物為有限的食物、空間、光、水等資源而互相爭奪」與本句語境不同。",
-        "competition-mcq-03": "「有正式規則、參賽者和結果的比賽／競賽」與本句語境不同。",
-        "competition-mcq-07": "「為勝出、取得資源或優勢而與他人較量」與本句語境不同。",
-        "competition-mcq-02": "「同行企業為客戶、市佔率、收入或優勢而競爭的狀態」與本句語境不同。"
+        "competition-mcq-05": "本句的「competition」指「因競爭者存在而產生的市場／表現壓力」。",
+        "competition-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "competition-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-05"
     },
@@ -744,11 +656,8 @@ export default {
       "masked": "Plants face ____ for light and water.",
       "options": [
         "competition-mcq-06",
-        "competition-mcq-05",
-        "competition-mcq-07",
-        "competition-mcq-04",
-        "competition-mcq-08",
-        "competition-mcq-03"
+        "competition-mcq-14",
+        "competition-mcq-13"
       ],
       "explanation": "本句的「competition」指「生物為有限的食物、空間、光、水等資源而互相爭奪」。",
       "sentenceIndex": 13,
@@ -757,12 +666,9 @@ export default {
         "competition"
       ],
       "optionReasons": {
-        "competition-mcq-06": "本句指「生物為有限的食物、空間、光、水等資源而互相爭奪」。",
-        "competition-mcq-05": "「因競爭者存在而產生的市場／表現壓力」與本句語境不同。",
-        "competition-mcq-07": "「為勝出、取得資源或優勢而與他人較量」與本句語境不同。",
-        "competition-mcq-04": "「與自己爭奪同一市場、獎項或目標的對手」與本句語境不同。",
-        "competition-mcq-08": "「與某個明確對手競爭」與本句語境不同。",
-        "competition-mcq-03": "「有正式規則、參賽者和結果的比賽／競賽」與本句語境不同。"
+        "competition-mcq-06": "本句的「competition」指「生物為有限的食物、空間、光、水等資源而互相爭奪」。",
+        "competition-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "competition-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-06"
     },
@@ -774,11 +680,8 @@ export default {
       "masked": "____ between species can affect population size.",
       "options": [
         "competition-mcq-06",
-        "competition-mcq-05",
-        "competition-mcq-07",
-        "competition-mcq-04",
-        "competition-mcq-08",
-        "competition-mcq-03"
+        "competition-mcq-13",
+        "competition-mcq-14"
       ],
       "explanation": "本句的「Competition」指「生物為有限的食物、空間、光、水等資源而互相爭奪」。",
       "sentenceIndex": 14,
@@ -787,12 +690,9 @@ export default {
         "Competition"
       ],
       "optionReasons": {
-        "competition-mcq-06": "本句指「生物為有限的食物、空間、光、水等資源而互相爭奪」。",
-        "competition-mcq-05": "「因競爭者存在而產生的市場／表現壓力」與本句語境不同。",
-        "competition-mcq-07": "「為勝出、取得資源或優勢而與他人較量」與本句語境不同。",
-        "competition-mcq-04": "「與自己爭奪同一市場、獎項或目標的對手」與本句語境不同。",
-        "competition-mcq-08": "「與某個明確對手競爭」與本句語境不同。",
-        "competition-mcq-03": "「有正式規則、參賽者和結果的比賽／競賽」與本句語境不同。"
+        "competition-mcq-06": "本句的「Competition」指「生物為有限的食物、空間、光、水等資源而互相爭奪」。",
+        "competition-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "competition-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-06"
     },
@@ -804,10 +704,6 @@ export default {
       "masked": "Small bakeries must ____ with large chains.",
       "options": [
         "competition-mcq-07",
-        "competition-mcq-06",
-        "competition-mcq-08",
-        "competition-mcq-05",
-        "competition-mcq-09",
         "competition-mcq-04"
       ],
       "explanation": "本句的「compete」指「為勝出、取得資源或優勢而與他人較量」。",
@@ -817,12 +713,8 @@ export default {
         "compete"
       ],
       "optionReasons": {
-        "competition-mcq-07": "本句指「為勝出、取得資源或優勢而與他人較量」。",
-        "competition-mcq-06": "「生物為有限的食物、空間、光、水等資源而互相爭奪」與本句語境不同。",
-        "competition-mcq-08": "「與某個明確對手競爭」與本句語境不同。",
-        "competition-mcq-05": "「因競爭者存在而產生的市場／表現壓力」與本句語境不同。",
-        "competition-mcq-09": "「為取得某個目標、資源、名次或獎項而競爭」與本句語境不同。",
-        "competition-mcq-04": "「與自己爭奪同一市場、獎項或目標的對手」與本句語境不同。"
+        "competition-mcq-07": "本句的「compete」指「為勝出、取得資源或優勢而與他人較量」。",
+        "competition-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-07"
     },
@@ -834,11 +726,7 @@ export default {
       "masked": "She competes in baking ____.",
       "options": [
         "competition-mcq-10",
-        "competition-mcq-09",
-        "competition-mcq-11",
-        "competition-mcq-08",
-        "competition-mcq-12",
-        "competition-mcq-07"
+        "competition-mcq-01"
       ],
       "explanation": "本句的「competitions」指「在某個比賽、運動、行業或市場中參與競爭」。",
       "sentenceIndex": 16,
@@ -847,12 +735,8 @@ export default {
         "competitions"
       ],
       "optionReasons": {
-        "competition-mcq-10": "本句指「在某個比賽、運動、行業或市場中參與競爭」。",
-        "competition-mcq-09": "「為取得某個目標、資源、名次或獎項而競爭」與本句語境不同。",
-        "competition-mcq-11": "「與自己競爭同一市場、目標或名次的人／企業」與本句語境不同。",
-        "competition-mcq-08": "「與某個明確對手競爭」與本句語境不同。",
-        "competition-mcq-12": "「有很多參與者互相爭奪優勢，因此競爭激烈的」與本句語境不同。",
-        "competition-mcq-07": "「為勝出、取得資源或優勢而與他人較量」與本句語境不同。"
+        "competition-mcq-10": "本句的「competitions」指「在某個比賽、運動、行業或市場中參與競爭」。",
+        "competition-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-10"
     },
@@ -864,11 +748,7 @@ export default {
       "masked": "A new ____ opened nearby.",
       "options": [
         "competition-mcq-11",
-        "competition-mcq-10",
-        "competition-mcq-12",
-        "competition-mcq-09",
-        "competition-mcq-13",
-        "competition-mcq-08"
+        "competition-mcq-07"
       ],
       "explanation": "本句的「competitor」指「與自己競爭同一市場、目標或名次的人／企業」。",
       "sentenceIndex": 17,
@@ -877,12 +757,8 @@ export default {
         "competitor"
       ],
       "optionReasons": {
-        "competition-mcq-11": "本句指「與自己競爭同一市場、目標或名次的人／企業」。",
-        "competition-mcq-10": "「在某個比賽、運動、行業或市場中參與競爭」與本句語境不同。",
-        "competition-mcq-12": "「有很多參與者互相爭奪優勢，因此競爭激烈的」與本句語境不同。",
-        "competition-mcq-09": "「為取得某個目標、資源、名次或獎項而競爭」與本句語境不同。",
-        "competition-mcq-13": "「很想勝過別人、取得較好結果的；好勝的」與本句語境不同。",
-        "competition-mcq-08": "「與某個明確對手競爭」與本句語境不同。"
+        "competition-mcq-11": "本句的「competitor」指「與自己競爭同一市場、目標或名次的人／企業」。",
+        "competition-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-11"
     },
@@ -894,11 +770,8 @@ export default {
       "masked": "The bakery market is highly ____.",
       "options": [
         "competition-mcq-12",
-        "competition-mcq-11",
         "competition-mcq-13",
-        "competition-mcq-10",
-        "competition-mcq-14",
-        "competition-mcq-09"
+        "competition-mcq-15"
       ],
       "explanation": "本句的「competitive」指「有很多參與者互相爭奪優勢，因此競爭激烈的」。",
       "sentenceIndex": 18,
@@ -907,12 +780,9 @@ export default {
         "competitive"
       ],
       "optionReasons": {
-        "competition-mcq-12": "本句指「有很多參與者互相爭奪優勢，因此競爭激烈的」。",
-        "competition-mcq-11": "「與自己競爭同一市場、目標或名次的人／企業」與本句語境不同。",
-        "competition-mcq-13": "「很想勝過別人、取得較好結果的；好勝的」與本句語境不同。",
-        "competition-mcq-10": "「在某個比賽、運動、行業或市場中參與競爭」與本句語境不同。",
-        "competition-mcq-14": "「具備足夠優勢，可與市場上的其他選項抗衡的」與本句語境不同。",
-        "competition-mcq-09": "「為取得某個目標、資源、名次或獎項而競爭」與本句語境不同。"
+        "competition-mcq-12": "本句的「competitive」指「有很多參與者互相爭奪優勢，因此競爭激烈的」。",
+        "competition-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "competition-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-12"
     },
@@ -924,11 +794,8 @@ export default {
       "masked": "She is extremely ____.",
       "options": [
         "competition-mcq-13",
-        "competition-mcq-12",
         "competition-mcq-14",
-        "competition-mcq-11",
-        "competition-mcq-15",
-        "competition-mcq-10"
+        "competition-mcq-06"
       ],
       "explanation": "本句的「competitive」指「很想勝過別人、取得較好結果的；好勝的」。",
       "sentenceIndex": 19,
@@ -937,12 +804,9 @@ export default {
         "competitive"
       ],
       "optionReasons": {
-        "competition-mcq-13": "本句指「很想勝過別人、取得較好結果的；好勝的」。",
-        "competition-mcq-12": "「有很多參與者互相爭奪優勢，因此競爭激烈的」與本句語境不同。",
-        "competition-mcq-14": "「具備足夠優勢，可與市場上的其他選項抗衡的」與本句語境不同。",
-        "competition-mcq-11": "「與自己競爭同一市場、目標或名次的人／企業」與本句語境不同。",
-        "competition-mcq-15": "「與其他市場價格相比具有足夠吸引力的價格」與本句語境不同。",
-        "competition-mcq-10": "「在某個比賽、運動、行業或市場中參與競爭」與本句語境不同。"
+        "competition-mcq-13": "本句的「competitive」指「很想勝過別人、取得較好結果的；好勝的」。",
+        "competition-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "competition-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-13"
     },
@@ -954,11 +818,9 @@ export default {
       "masked": "The bakery needs to remain ____.",
       "options": [
         "competition-mcq-14",
-        "competition-mcq-13",
-        "competition-mcq-15",
-        "competition-mcq-12",
-        "competition-mcq-16",
-        "competition-mcq-11"
+        "competition-mcq-03",
+        "competition-pdf-001",
+        "competition-mcq-06"
       ],
       "explanation": "本句的「competitive」指「具備足夠優勢，可與市場上的其他選項抗衡的」。",
       "sentenceIndex": 20,
@@ -967,12 +829,10 @@ export default {
         "competitive"
       ],
       "optionReasons": {
-        "competition-mcq-14": "本句指「具備足夠優勢，可與市場上的其他選項抗衡的」。",
-        "competition-mcq-13": "「很想勝過別人、取得較好結果的；好勝的」與本句語境不同。",
-        "competition-mcq-15": "「與其他市場價格相比具有足夠吸引力的價格」與本句語境不同。",
-        "competition-mcq-12": "「有很多參與者互相爭奪優勢，因此競爭激烈的」與本句語境不同。",
-        "competition-mcq-16": "「令企業比競爭對手更容易取得市場優勢的特點」與本句語境不同。",
-        "competition-mcq-11": "「與自己競爭同一市場、目標或名次的人／企業」與本句語境不同。"
+        "competition-mcq-14": "本句的「competitive」指「具備足夠優勢，可與市場上的其他選項抗衡的」。",
+        "competition-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "competition-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "competition-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-14"
     },
@@ -984,11 +844,8 @@ export default {
       "masked": "The shop offers ____.",
       "options": [
         "competition-mcq-15",
-        "competition-mcq-14",
-        "competition-mcq-16",
-        "competition-mcq-13",
         "competition-mcq-12",
-        "competition-mcq-11"
+        "competition-mcq-13"
       ],
       "explanation": "本句的「competitive prices」指「與其他市場價格相比具有足夠吸引力的價格」。",
       "sentenceIndex": 21,
@@ -997,12 +854,9 @@ export default {
         "competitive prices"
       ],
       "optionReasons": {
-        "competition-mcq-15": "本句指「與其他市場價格相比具有足夠吸引力的價格」。",
-        "competition-mcq-14": "「具備足夠優勢，可與市場上的其他選項抗衡的」與本句語境不同。",
-        "competition-mcq-16": "「令企業比競爭對手更容易取得市場優勢的特點」與本句語境不同。",
-        "competition-mcq-13": "「很想勝過別人、取得較好結果的；好勝的」與本句語境不同。",
-        "competition-mcq-12": "「有很多參與者互相爭奪優勢，因此競爭激烈的」與本句語境不同。",
-        "competition-mcq-11": "「與自己競爭同一市場、目標或名次的人／企業」與本句語境不同。"
+        "competition-mcq-15": "本句的「competitive prices」指「與其他市場價格相比具有足夠吸引力的價格」。",
+        "competition-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "competition-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-15"
     },
@@ -1014,11 +868,8 @@ export default {
       "masked": "The products are ____.",
       "options": [
         "competition-pdf-002",
-        "competition-mcq-14",
-        "competition-mcq-16",
-        "competition-mcq-13",
-        "competition-mcq-12",
-        "competition-mcq-11"
+        "competition-pdf-001",
+        "competition-mcq-06"
       ],
       "explanation": "本句的「competitively priced」指「價格設定得足以和市場其他選項競爭」。",
       "sentenceIndex": 22,
@@ -1027,12 +878,9 @@ export default {
         "competitively priced"
       ],
       "optionReasons": {
-        "competition-pdf-002": "本句指「價格設定得足以和市場其他選項競爭」。",
-        "competition-mcq-14": "「具備足夠優勢，可與市場上的其他選項抗衡的」與本句語境不同。",
-        "competition-mcq-16": "「令企業比競爭對手更容易取得市場優勢的特點」與本句語境不同。",
-        "competition-mcq-13": "「很想勝過別人、取得較好結果的；好勝的」與本句語境不同。",
-        "competition-mcq-12": "「有很多參與者互相爭奪優勢，因此競爭激烈的」與本句語境不同。",
-        "competition-mcq-11": "「與自己競爭同一市場、目標或名次的人／企業」與本句語境不同。"
+        "competition-pdf-002": "本句的「competitively priced」指「價格設定得足以和市場其他選項競爭」。",
+        "competition-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "competition-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-pdf-002"
     },
@@ -1044,11 +892,7 @@ export default {
       "masked": "Fresh bread gives the bakery a ____.",
       "options": [
         "competition-mcq-16",
-        "competition-mcq-15",
-        "competition-mcq-14",
-        "competition-mcq-13",
-        "competition-mcq-12",
-        "competition-mcq-11"
+        "competition-mcq-06"
       ],
       "explanation": "本句的「competitive advantage」指「令企業比競爭對手更容易取得市場優勢的特點」。",
       "sentenceIndex": 24,
@@ -1057,12 +901,8 @@ export default {
         "competitive advantage"
       ],
       "optionReasons": {
-        "competition-mcq-16": "本句指「令企業比競爭對手更容易取得市場優勢的特點」。",
-        "competition-mcq-15": "「與其他市場價格相比具有足夠吸引力的價格」與本句語境不同。",
-        "competition-mcq-14": "「具備足夠優勢，可與市場上的其他選項抗衡的」與本句語境不同。",
-        "competition-mcq-13": "「很想勝過別人、取得較好結果的；好勝的」與本句語境不同。",
-        "competition-mcq-12": "「有很多參與者互相爭奪優勢，因此競爭激烈的」與本句語境不同。",
-        "competition-mcq-11": "「與自己競爭同一市場、目標或名次的人／企業」與本句語境不同。"
+        "competition-mcq-16": "本句的「competitive advantage」指「令企業比競爭對手更容易取得市場優勢的特點」。",
+        "competition-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-16"
     },
@@ -1074,11 +914,7 @@ export default {
       "masked": "The activity is ____.",
       "options": [
         "competition-mcq-16",
-        "competition-mcq-15",
-        "competition-mcq-14",
-        "competition-mcq-13",
-        "competition-mcq-12",
-        "competition-mcq-11"
+        "competition-mcq-06"
       ],
       "explanation": "本句的「non-competitive」指「令企業比競爭對手更容易取得市場優勢的特點」。",
       "sentenceIndex": 25,
@@ -1087,12 +923,8 @@ export default {
         "non-competitive"
       ],
       "optionReasons": {
-        "competition-mcq-16": "本句指「令企業比競爭對手更容易取得市場優勢的特點」。",
-        "competition-mcq-15": "「與其他市場價格相比具有足夠吸引力的價格」與本句語境不同。",
-        "competition-mcq-14": "「具備足夠優勢，可與市場上的其他選項抗衡的」與本句語境不同。",
-        "competition-mcq-13": "「很想勝過別人、取得較好結果的；好勝的」與本句語境不同。",
-        "competition-mcq-12": "「有很多參與者互相爭奪優勢，因此競爭激烈的」與本句語境不同。",
-        "competition-mcq-11": "「與自己競爭同一市場、目標或名次的人／企業」與本句語境不同。"
+        "competition-mcq-16": "本句的「non-competitive」指「令企業比競爭對手更容易取得市場優勢的特點」。",
+        "competition-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "competition-mcq-16"
     }
@@ -1104,5 +936,7 @@ export default {
     "sha256": "db989e764a56a8e746176d822eac306e44d26687823e629084cec5b81cd2e00b",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

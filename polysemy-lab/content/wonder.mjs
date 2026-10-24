@@ -412,7 +412,7 @@ export default {
     },
     {
       "id": "wonder-mcq-19",
-      "title": "表示我想知道……；我在想……",
+      "title": "我想知道……；我在想……",
       "form": "18. I wonder...",
       "en": "18. I wonder...",
       "zh": "表示我想知道……；我在想……",
@@ -442,10 +442,8 @@ export default {
       "masked": "I sometimes ____ I made the right choice.",
       "options": [
         "wonder-mcq-01",
-        "wonder-mcq-02",
-        "wonder-mcq-03",
+        "wonder-mcq-14",
         "wonder-mcq-04",
-        "wonder-mcq-05",
         "wonder-mcq-06"
       ],
       "explanation": "本句的「wonder whether」指「因不知道答案而思考、想知道」。",
@@ -455,12 +453,10 @@ export default {
         "wonder whether"
       ],
       "optionReasons": {
-        "wonder-mcq-01": "本句指「因不知道答案而思考、想知道」。",
-        "wonder-mcq-02": "「想知道某事是否成立／可能；不禁想」是「wonder if/whether」的用法，與本句語境不同。",
-        "wonder-mcq-03": "「想知道某事的內容、原因、方法或位置」是「wonder what/why/how/where」的用法，與本句語境不同。",
-        "wonder-mcq-04": "「以較委婉方式提出要求、問題或建議」是「I wonder if... — polite」的用法，與本句語境不同。",
-        "wonder-mcq-05": "「因非凡或美好事物產生的驚奇／驚嘆」是「wonder — noun amazement」的用法，與本句語境不同。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。"
+        "wonder-mcq-01": "本句的「wonder whether」指「因不知道答案而思考、想知道」。",
+        "wonder-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-01"
     },
@@ -472,11 +468,9 @@ export default {
       "masked": "She ____ things would have been different.",
       "options": [
         "wonder-mcq-01",
-        "wonder-mcq-02",
-        "wonder-mcq-03",
-        "wonder-mcq-04",
-        "wonder-mcq-05",
-        "wonder-mcq-06"
+        "wonder-mcq-16",
+        "wonder-mcq-09",
+        "wonder-mcq-11"
       ],
       "explanation": "本句的「wondered if」指「因不知道答案而思考、想知道」。",
       "sentenceIndex": 1,
@@ -485,12 +479,10 @@ export default {
         "wondered if"
       ],
       "optionReasons": {
-        "wonder-mcq-01": "本句指「因不知道答案而思考、想知道」。",
-        "wonder-mcq-02": "「想知道某事是否成立／可能；不禁想」是「wonder if/whether」的用法，與本句語境不同。",
-        "wonder-mcq-03": "「想知道某事的內容、原因、方法或位置」是「wonder what/why/how/where」的用法，與本句語境不同。",
-        "wonder-mcq-04": "「以較委婉方式提出要求、問題或建議」是「I wonder if... — polite」的用法，與本句語境不同。",
-        "wonder-mcq-05": "「因非凡或美好事物產生的驚奇／驚嘆」是「wonder — noun amazement」的用法，與本句語境不同。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。"
+        "wonder-mcq-01": "本句的「wondered if」指「因不知道答案而思考、想知道」。",
+        "wonder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-01"
     },
@@ -502,11 +494,9 @@ export default {
       "masked": "I ____ what happened.",
       "options": [
         "wonder-mcq-01",
-        "wonder-mcq-02",
-        "wonder-mcq-03",
-        "wonder-mcq-04",
-        "wonder-mcq-05",
-        "wonder-mcq-06"
+        "wonder-mcq-16",
+        "wonder-mcq-09",
+        "wonder-mcq-04"
       ],
       "explanation": "本句的「wonder」指「因不知道答案而思考、想知道」。",
       "sentenceIndex": 2,
@@ -515,12 +505,10 @@ export default {
         "wonder"
       ],
       "optionReasons": {
-        "wonder-mcq-01": "本句指「因不知道答案而思考、想知道」。",
-        "wonder-mcq-02": "「想知道某事是否成立／可能；不禁想」是「wonder if/whether」的用法，與本句語境不同。",
-        "wonder-mcq-03": "「想知道某事的內容、原因、方法或位置」是「wonder what/why/how/where」的用法，與本句語境不同。",
-        "wonder-mcq-04": "「以較委婉方式提出要求、問題或建議」是「I wonder if... — polite」的用法，與本句語境不同。",
-        "wonder-mcq-05": "「因非凡或美好事物產生的驚奇／驚嘆」是「wonder — noun amazement」的用法，與本句語境不同。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。"
+        "wonder-mcq-01": "本句的「wonder」指「因不知道答案而思考、想知道」。",
+        "wonder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-01"
     },
@@ -532,11 +520,9 @@ export default {
       "masked": "She ____ why he had left so early.",
       "options": [
         "wonder-mcq-01",
-        "wonder-mcq-02",
-        "wonder-mcq-03",
-        "wonder-mcq-04",
-        "wonder-mcq-05",
-        "wonder-mcq-06"
+        "wonder-mcq-12",
+        "wonder-mcq-18",
+        "wonder-mcq-11"
       ],
       "explanation": "本句的「wondered」指「因不知道答案而思考、想知道」。",
       "sentenceIndex": 3,
@@ -545,12 +531,10 @@ export default {
         "wondered"
       ],
       "optionReasons": {
-        "wonder-mcq-01": "本句指「因不知道答案而思考、想知道」。",
-        "wonder-mcq-02": "「想知道某事是否成立／可能；不禁想」是「wonder if/whether」的用法，與本句語境不同。",
-        "wonder-mcq-03": "「想知道某事的內容、原因、方法或位置」是「wonder what/why/how/where」的用法，與本句語境不同。",
-        "wonder-mcq-04": "「以較委婉方式提出要求、問題或建議」是「I wonder if... — polite」的用法，與本句語境不同。",
-        "wonder-mcq-05": "「因非凡或美好事物產生的驚奇／驚嘆」是「wonder — noun amazement」的用法，與本句語境不同。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。"
+        "wonder-mcq-01": "本句的「wondered」指「因不知道答案而思考、想知道」。",
+        "wonder-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-01"
     },
@@ -562,11 +546,9 @@ export default {
       "masked": "I ____ he remembers me.",
       "options": [
         "wonder-mcq-02",
-        "wonder-mcq-01",
-        "wonder-mcq-03",
-        "wonder-mcq-04",
+        "wonder-mcq-13",
         "wonder-mcq-05",
-        "wonder-mcq-06"
+        "wonder-mcq-04"
       ],
       "explanation": "本句的「wonder if」指「想知道某事是否成立／可能；不禁想」。",
       "sentenceIndex": 4,
@@ -575,12 +557,10 @@ export default {
         "wonder if"
       ],
       "optionReasons": {
-        "wonder-mcq-02": "本句指「想知道某事是否成立／可能；不禁想」。",
-        "wonder-mcq-01": "「因不知道答案而思考、想知道」是「wonder — verb curiosity」的用法，與本句語境不同。",
-        "wonder-mcq-03": "「想知道某事的內容、原因、方法或位置」是「wonder what/why/how/where」的用法，與本句語境不同。",
-        "wonder-mcq-04": "「以較委婉方式提出要求、問題或建議」是「I wonder if... — polite」的用法，與本句語境不同。",
-        "wonder-mcq-05": "「因非凡或美好事物產生的驚奇／驚嘆」是「wonder — noun amazement」的用法，與本句語境不同。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。"
+        "wonder-mcq-02": "本句的「wonder if」指「想知道某事是否成立／可能；不禁想」。",
+        "wonder-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-02"
     },
@@ -592,11 +572,9 @@ export default {
       "masked": "They ____ the plan would work.",
       "options": [
         "wonder-mcq-02",
-        "wonder-mcq-01",
-        "wonder-mcq-03",
-        "wonder-mcq-04",
         "wonder-mcq-05",
-        "wonder-mcq-06"
+        "wonder-mcq-13",
+        "wonder-mcq-04"
       ],
       "explanation": "本句的「wondered whether」指「想知道某事是否成立／可能；不禁想」。",
       "sentenceIndex": 5,
@@ -605,12 +583,10 @@ export default {
         "wondered whether"
       ],
       "optionReasons": {
-        "wonder-mcq-02": "本句指「想知道某事是否成立／可能；不禁想」。",
-        "wonder-mcq-01": "「因不知道答案而思考、想知道」是「wonder — verb curiosity」的用法，與本句語境不同。",
-        "wonder-mcq-03": "「想知道某事的內容、原因、方法或位置」是「wonder what/why/how/where」的用法，與本句語境不同。",
-        "wonder-mcq-04": "「以較委婉方式提出要求、問題或建議」是「I wonder if... — polite」的用法，與本句語境不同。",
-        "wonder-mcq-05": "「因非凡或美好事物產生的驚奇／驚嘆」是「wonder — noun amazement」的用法，與本句語境不同。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。"
+        "wonder-mcq-02": "本句的「wondered whether」指「想知道某事是否成立／可能；不禁想」。",
+        "wonder-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-02"
     },
@@ -622,11 +598,9 @@ export default {
       "masked": "I ____ she changed her mind.",
       "options": [
         "wonder-mcq-03",
-        "wonder-mcq-02",
-        "wonder-mcq-04",
-        "wonder-mcq-01",
-        "wonder-mcq-05",
-        "wonder-mcq-06"
+        "wonder-mcq-14",
+        "wonder-mcq-16",
+        "wonder-mcq-17"
       ],
       "explanation": "本句的「wonder why」指「想知道某事的內容、原因、方法或位置」。",
       "sentenceIndex": 6,
@@ -635,12 +609,10 @@ export default {
         "wonder why"
       ],
       "optionReasons": {
-        "wonder-mcq-03": "本句指「想知道某事的內容、原因、方法或位置」。",
-        "wonder-mcq-02": "「想知道某事是否成立／可能；不禁想」是「wonder if/whether」的用法，與本句語境不同。",
-        "wonder-mcq-04": "「以較委婉方式提出要求、問題或建議」是「I wonder if... — polite」的用法，與本句語境不同。",
-        "wonder-mcq-01": "「因不知道答案而思考、想知道」是「wonder — verb curiosity」的用法，與本句語境不同。",
-        "wonder-mcq-05": "「因非凡或美好事物產生的驚奇／驚嘆」是「wonder — noun amazement」的用法，與本句語境不同。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。"
+        "wonder-mcq-03": "本句的「wonder why」指「想知道某事的內容、原因、方法或位置」。",
+        "wonder-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-03"
     },
@@ -652,11 +624,9 @@ export default {
       "masked": "He ____ the machine worked.",
       "options": [
         "wonder-mcq-03",
-        "wonder-mcq-02",
-        "wonder-mcq-04",
-        "wonder-mcq-01",
-        "wonder-mcq-05",
-        "wonder-mcq-06"
+        "wonder-mcq-12",
+        "wonder-mcq-14",
+        "wonder-mcq-11"
       ],
       "explanation": "本句的「wondered how」指「想知道某事的內容、原因、方法或位置」。",
       "sentenceIndex": 7,
@@ -665,12 +635,10 @@ export default {
         "wondered how"
       ],
       "optionReasons": {
-        "wonder-mcq-03": "本句指「想知道某事的內容、原因、方法或位置」。",
-        "wonder-mcq-02": "「想知道某事是否成立／可能；不禁想」是「wonder if/whether」的用法，與本句語境不同。",
-        "wonder-mcq-04": "「以較委婉方式提出要求、問題或建議」是「I wonder if... — polite」的用法，與本句語境不同。",
-        "wonder-mcq-01": "「因不知道答案而思考、想知道」是「wonder — verb curiosity」的用法，與本句語境不同。",
-        "wonder-mcq-05": "「因非凡或美好事物產生的驚奇／驚嘆」是「wonder — noun amazement」的用法，與本句語境不同。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。"
+        "wonder-mcq-03": "本句的「wondered how」指「想知道某事的內容、原因、方法或位置」。",
+        "wonder-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-03"
     },
@@ -682,11 +650,9 @@ export default {
       "masked": "____ you could help me.",
       "options": [
         "wonder-mcq-04",
-        "wonder-mcq-03",
-        "wonder-mcq-05",
-        "wonder-mcq-02",
-        "wonder-mcq-06",
-        "wonder-mcq-01"
+        "wonder-mcq-18",
+        "wonder-mcq-01",
+        "wonder-mcq-11"
       ],
       "explanation": "本句的「I wonder if」指「以較委婉方式提出要求、問題或建議」。",
       "sentenceIndex": 8,
@@ -695,12 +661,10 @@ export default {
         "I wonder if"
       ],
       "optionReasons": {
-        "wonder-mcq-04": "本句指「以較委婉方式提出要求、問題或建議」。",
-        "wonder-mcq-03": "「想知道某事的內容、原因、方法或位置」是「wonder what/why/how/where」的用法，與本句語境不同。",
-        "wonder-mcq-05": "「因非凡或美好事物產生的驚奇／驚嘆」是「wonder — noun amazement」的用法，與本句語境不同。",
-        "wonder-mcq-02": "「想知道某事是否成立／可能；不禁想」是「wonder if/whether」的用法，與本句語境不同。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。",
-        "wonder-mcq-01": "「因不知道答案而思考、想知道」是「wonder — verb curiosity」的用法，與本句語境不同。"
+        "wonder-mcq-04": "本句的「I wonder if」指「以較委婉方式提出要求、問題或建議」。",
+        "wonder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-04"
     },
@@ -712,10 +676,8 @@ export default {
       "masked": "____ you had a moment.",
       "options": [
         "wonder-mcq-04",
-        "wonder-mcq-03",
         "wonder-mcq-05",
-        "wonder-mcq-02",
-        "wonder-mcq-06",
+        "wonder-mcq-11",
         "wonder-mcq-01"
       ],
       "explanation": "本句的「I was wondering if」指「以較委婉方式提出要求、問題或建議」。",
@@ -725,12 +687,10 @@ export default {
         "I was wondering if"
       ],
       "optionReasons": {
-        "wonder-mcq-04": "本句指「以較委婉方式提出要求、問題或建議」。",
-        "wonder-mcq-03": "「想知道某事的內容、原因、方法或位置」是「wonder what/why/how/where」的用法，與本句語境不同。",
-        "wonder-mcq-05": "「因非凡或美好事物產生的驚奇／驚嘆」是「wonder — noun amazement」的用法，與本句語境不同。",
-        "wonder-mcq-02": "「想知道某事是否成立／可能；不禁想」是「wonder if/whether」的用法，與本句語境不同。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。",
-        "wonder-mcq-01": "「因不知道答案而思考、想知道」是「wonder — verb curiosity」的用法，與本句語境不同。"
+        "wonder-mcq-04": "本句的「I was wondering if」指「以較委婉方式提出要求、問題或建議」。",
+        "wonder-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-04"
     },
@@ -742,11 +702,9 @@ export default {
       "masked": "She looked at the stars in ____.",
       "options": [
         "wonder-mcq-05",
+        "wonder-mcq-10",
         "wonder-mcq-04",
-        "wonder-mcq-06",
-        "wonder-mcq-03",
-        "wonder-mcq-07",
-        "wonder-mcq-02"
+        "wonder-mcq-18"
       ],
       "explanation": "本句的「wonder」指「因非凡或美好事物產生的驚奇／驚嘆」。",
       "sentenceIndex": 10,
@@ -755,12 +713,10 @@ export default {
         "wonder"
       ],
       "optionReasons": {
-        "wonder-mcq-05": "本句指「因非凡或美好事物產生的驚奇／驚嘆」。",
-        "wonder-mcq-04": "「以較委婉方式提出要求、問題或建議」是「I wonder if... — polite」的用法，與本句語境不同。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。",
-        "wonder-mcq-03": "「想知道某事的內容、原因、方法或位置」是「wonder what/why/how/where」的用法，與本句語境不同。",
-        "wonder-mcq-07": "「令人非常驚嘆的奇觀／非凡事物」是「wonder — remarkable thing」的用法，與本句語境不同。",
-        "wonder-mcq-02": "「想知道某事是否成立／可能；不禁想」是「wonder if/whether」的用法，與本句語境不同。"
+        "wonder-mcq-05": "本句的「wonder」指「因非凡或美好事物產生的驚奇／驚嘆」。",
+        "wonder-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-05"
     },
@@ -772,11 +728,9 @@ export default {
       "masked": "The children stared in ____.",
       "options": [
         "wonder-mcq-05",
+        "wonder-mcq-19",
         "wonder-mcq-04",
-        "wonder-mcq-06",
-        "wonder-mcq-03",
-        "wonder-mcq-07",
-        "wonder-mcq-02"
+        "wonder-mcq-11"
       ],
       "explanation": "本句的「wonder」指「因非凡或美好事物產生的驚奇／驚嘆」。",
       "sentenceIndex": 11,
@@ -785,12 +739,10 @@ export default {
         "wonder"
       ],
       "optionReasons": {
-        "wonder-mcq-05": "本句指「因非凡或美好事物產生的驚奇／驚嘆」。",
-        "wonder-mcq-04": "「以較委婉方式提出要求、問題或建議」是「I wonder if... — polite」的用法，與本句語境不同。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。",
-        "wonder-mcq-03": "「想知道某事的內容、原因、方法或位置」是「wonder what/why/how/where」的用法，與本句語境不同。",
-        "wonder-mcq-07": "「令人非常驚嘆的奇觀／非凡事物」是「wonder — remarkable thing」的用法，與本句語境不同。",
-        "wonder-mcq-02": "「想知道某事是否成立／可能；不禁想」是「wonder if/whether」的用法，與本句語境不同。"
+        "wonder-mcq-05": "本句的「wonder」指「因非凡或美好事物產生的驚奇／驚嘆」。",
+        "wonder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-05"
     },
@@ -802,11 +754,9 @@ export default {
       "masked": "He watched the performance ____.",
       "options": [
         "wonder-mcq-06",
-        "wonder-mcq-05",
-        "wonder-mcq-07",
-        "wonder-mcq-04",
-        "wonder-mcq-08",
-        "wonder-mcq-03"
+        "wonder-mcq-13",
+        "wonder-mcq-19",
+        "wonder-mcq-17"
       ],
       "explanation": "本句的「in wonder」指「帶著驚奇、讚嘆地」。",
       "sentenceIndex": 12,
@@ -815,12 +765,10 @@ export default {
         "in wonder"
       ],
       "optionReasons": {
-        "wonder-mcq-06": "本句指「帶著驚奇、讚嘆地」。",
-        "wonder-mcq-05": "「因非凡或美好事物產生的驚奇／驚嘆」是「wonder — noun amazement」的用法，與本句語境不同。",
-        "wonder-mcq-07": "「令人非常驚嘆的奇觀／非凡事物」是「wonder — remarkable thing」的用法，與本句語境不同。",
-        "wonder-mcq-04": "「以較委婉方式提出要求、問題或建議」是「I wonder if... — polite」的用法，與本句語境不同。",
-        "wonder-mcq-08": "「令人驚嘆的景象、成果或事物」是「wonders」的用法，與本句語境不同。",
-        "wonder-mcq-03": "「想知道某事的內容、原因、方法或位置」是「wonder what/why/how/where」的用法，與本句語境不同。"
+        "wonder-mcq-06": "本句的「in wonder」指「帶著驚奇、讚嘆地」。",
+        "wonder-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-06"
     },
@@ -832,11 +780,9 @@ export default {
       "masked": "She listened ____.",
       "options": [
         "wonder-mcq-06",
-        "wonder-mcq-05",
-        "wonder-mcq-07",
-        "wonder-mcq-04",
-        "wonder-mcq-08",
-        "wonder-mcq-03"
+        "wonder-mcq-13",
+        "wonder-mcq-03",
+        "wonder-mcq-17"
       ],
       "explanation": "本句的「with wonder」指「帶著驚奇、讚嘆地」。",
       "sentenceIndex": 13,
@@ -845,12 +791,10 @@ export default {
         "with wonder"
       ],
       "optionReasons": {
-        "wonder-mcq-06": "本句指「帶著驚奇、讚嘆地」。",
-        "wonder-mcq-05": "「因非凡或美好事物產生的驚奇／驚嘆」是「wonder — noun amazement」的用法，與本句語境不同。",
-        "wonder-mcq-07": "「令人非常驚嘆的奇觀／非凡事物」是「wonder — remarkable thing」的用法，與本句語境不同。",
-        "wonder-mcq-04": "「以較委婉方式提出要求、問題或建議」是「I wonder if... — polite」的用法，與本句語境不同。",
-        "wonder-mcq-08": "「令人驚嘆的景象、成果或事物」是「wonders」的用法，與本句語境不同。",
-        "wonder-mcq-03": "「想知道某事的內容、原因、方法或位置」是「wonder what/why/how/where」的用法，與本句語境不同。"
+        "wonder-mcq-06": "本句的「with wonder」指「帶著驚奇、讚嘆地」。",
+        "wonder-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-06"
     },
@@ -862,11 +806,9 @@ export default {
       "masked": "The building is an engineering ____.",
       "options": [
         "wonder-mcq-07",
-        "wonder-mcq-06",
-        "wonder-mcq-08",
-        "wonder-mcq-05",
-        "wonder-mcq-09",
-        "wonder-mcq-04"
+        "wonder-mcq-02",
+        "wonder-mcq-04",
+        "wonder-mcq-11"
       ],
       "explanation": "本句的「wonder」指「令人非常驚嘆的奇觀／非凡事物」。",
       "sentenceIndex": 14,
@@ -875,12 +817,10 @@ export default {
         "wonder"
       ],
       "optionReasons": {
-        "wonder-mcq-07": "本句指「令人非常驚嘆的奇觀／非凡事物」。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。",
-        "wonder-mcq-08": "「令人驚嘆的景象、成果或事物」是「wonders」的用法，與本句語境不同。",
-        "wonder-mcq-05": "「因非凡或美好事物產生的驚奇／驚嘆」是「wonder — noun amazement」的用法，與本句語境不同。",
-        "wonder-mcq-09": "「產生非常好的效果；有奇效」是「work wonders」的用法，與本句語境不同。",
-        "wonder-mcq-04": "「以較委婉方式提出要求、問題或建議」是「I wonder if... — polite」的用法，與本句語境不同。"
+        "wonder-mcq-07": "本句的「wonder」指「令人非常驚嘆的奇觀／非凡事物」。",
+        "wonder-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-07"
     },
@@ -892,10 +832,8 @@ export default {
       "masked": "The human brain is a ____ of nature.",
       "options": [
         "wonder-mcq-07",
-        "wonder-mcq-06",
-        "wonder-mcq-08",
-        "wonder-mcq-05",
-        "wonder-mcq-09",
+        "wonder-mcq-19",
+        "wonder-mcq-17",
         "wonder-mcq-04"
       ],
       "explanation": "本句的「wonder」指「令人非常驚嘆的奇觀／非凡事物」。",
@@ -905,12 +843,10 @@ export default {
         "wonder"
       ],
       "optionReasons": {
-        "wonder-mcq-07": "本句指「令人非常驚嘆的奇觀／非凡事物」。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。",
-        "wonder-mcq-08": "「令人驚嘆的景象、成果或事物」是「wonders」的用法，與本句語境不同。",
-        "wonder-mcq-05": "「因非凡或美好事物產生的驚奇／驚嘆」是「wonder — noun amazement」的用法，與本句語境不同。",
-        "wonder-mcq-09": "「產生非常好的效果；有奇效」是「work wonders」的用法，與本句語境不同。",
-        "wonder-mcq-04": "「以較委婉方式提出要求、問題或建議」是「I wonder if... — polite」的用法，與本句語境不同。"
+        "wonder-mcq-07": "本句的「wonder」指「令人非常驚嘆的奇觀／非凡事物」。",
+        "wonder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-07"
     },
@@ -922,11 +858,9 @@ export default {
       "masked": "The city is famous for its architectural ____.",
       "options": [
         "wonder-mcq-07",
-        "wonder-mcq-06",
-        "wonder-mcq-08",
-        "wonder-mcq-05",
-        "wonder-mcq-09",
-        "wonder-mcq-04"
+        "wonder-mcq-19",
+        "wonder-mcq-04",
+        "wonder-mcq-17"
       ],
       "explanation": "本句的「wonders」指「令人非常驚嘆的奇觀／非凡事物」。",
       "sentenceIndex": 16,
@@ -935,12 +869,10 @@ export default {
         "wonders"
       ],
       "optionReasons": {
-        "wonder-mcq-07": "本句指「令人非常驚嘆的奇觀／非凡事物」。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。",
-        "wonder-mcq-08": "「令人驚嘆的景象、成果或事物」是「wonders」的用法，與本句語境不同。",
-        "wonder-mcq-05": "「因非凡或美好事物產生的驚奇／驚嘆」是「wonder — noun amazement」的用法，與本句語境不同。",
-        "wonder-mcq-09": "「產生非常好的效果；有奇效」是「work wonders」的用法，與本句語境不同。",
-        "wonder-mcq-04": "「以較委婉方式提出要求、問題或建議」是「I wonder if... — polite」的用法，與本句語境不同。"
+        "wonder-mcq-07": "本句的「wonders」指「令人非常驚嘆的奇觀／非凡事物」。",
+        "wonder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-07"
     },
@@ -952,11 +884,9 @@ export default {
       "masked": "Modern medicine can work ____.",
       "options": [
         "wonder-mcq-07",
-        "wonder-mcq-06",
-        "wonder-mcq-08",
-        "wonder-mcq-05",
-        "wonder-mcq-09",
-        "wonder-mcq-04"
+        "wonder-mcq-17",
+        "wonder-mcq-04",
+        "wonder-mcq-10"
       ],
       "explanation": "本句的「wonders」指「令人非常驚嘆的奇觀／非凡事物」。",
       "sentenceIndex": 17,
@@ -965,12 +895,10 @@ export default {
         "wonders"
       ],
       "optionReasons": {
-        "wonder-mcq-07": "本句指「令人非常驚嘆的奇觀／非凡事物」。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。",
-        "wonder-mcq-08": "「令人驚嘆的景象、成果或事物」是「wonders」的用法，與本句語境不同。",
-        "wonder-mcq-05": "「因非凡或美好事物產生的驚奇／驚嘆」是「wonder — noun amazement」的用法，與本句語境不同。",
-        "wonder-mcq-09": "「產生非常好的效果；有奇效」是「work wonders」的用法，與本句語境不同。",
-        "wonder-mcq-04": "「以較委婉方式提出要求、問題或建議」是「I wonder if... — polite」的用法，與本句語境不同。"
+        "wonder-mcq-07": "本句的「wonders」指「令人非常驚嘆的奇觀／非凡事物」。",
+        "wonder-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-07"
     },
@@ -982,11 +910,9 @@ export default {
       "masked": "A short break can ____.",
       "options": [
         "wonder-mcq-09",
-        "wonder-mcq-08",
-        "wonder-mcq-10",
-        "wonder-mcq-07",
-        "wonder-mcq-11",
-        "wonder-mcq-06"
+        "wonder-mcq-12",
+        "wonder-mcq-02",
+        "wonder-mcq-04"
       ],
       "explanation": "本句的「work wonders」指「產生非常好的效果；有奇效」。",
       "sentenceIndex": 18,
@@ -995,12 +921,10 @@ export default {
         "work wonders"
       ],
       "optionReasons": {
-        "wonder-mcq-09": "本句指「產生非常好的效果；有奇效」。",
-        "wonder-mcq-08": "「令人驚嘆的景象、成果或事物」是「wonders」的用法，與本句語境不同。",
-        "wonder-mcq-10": "「情況完全可以理解；難怪／怪不得」是「no wonder」的用法，與本句語境不同。",
-        "wonder-mcq-07": "「令人非常驚嘆的奇觀／非凡事物」是「wonder — remarkable thing」的用法，與本句語境不同。",
-        "wonder-mcq-11": "「不足為奇；難怪」是「little wonder」的用法，與本句語境不同。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。"
+        "wonder-mcq-09": "本句的「work wonders」指「產生非常好的效果；有奇效」。",
+        "wonder-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-09"
     },
@@ -1012,11 +936,9 @@ export default {
       "masked": "The new treatment ____ for her recovery.",
       "options": [
         "wonder-mcq-09",
-        "wonder-mcq-08",
-        "wonder-mcq-10",
-        "wonder-mcq-07",
-        "wonder-mcq-11",
-        "wonder-mcq-06"
+        "wonder-mcq-02",
+        "wonder-mcq-04",
+        "wonder-mcq-12"
       ],
       "explanation": "本句的「worked wonders」指「產生非常好的效果；有奇效」。",
       "sentenceIndex": 19,
@@ -1025,12 +947,10 @@ export default {
         "worked wonders"
       ],
       "optionReasons": {
-        "wonder-mcq-09": "本句指「產生非常好的效果；有奇效」。",
-        "wonder-mcq-08": "「令人驚嘆的景象、成果或事物」是「wonders」的用法，與本句語境不同。",
-        "wonder-mcq-10": "「情況完全可以理解；難怪／怪不得」是「no wonder」的用法，與本句語境不同。",
-        "wonder-mcq-07": "「令人非常驚嘆的奇觀／非凡事物」是「wonder — remarkable thing」的用法，與本句語境不同。",
-        "wonder-mcq-11": "「不足為奇；難怪」是「little wonder」的用法，與本句語境不同。",
-        "wonder-mcq-06": "「帶著驚奇、讚嘆地」是「in/with wonder」的用法，與本句語境不同。"
+        "wonder-mcq-09": "本句的「worked wonders」指「產生非常好的效果；有奇效」。",
+        "wonder-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-09"
     },
@@ -1042,11 +962,9 @@ export default {
       "masked": "____ you’re tired—you barely slept.",
       "options": [
         "wonder-mcq-10",
-        "wonder-mcq-09",
-        "wonder-mcq-11",
-        "wonder-mcq-08",
-        "wonder-mcq-12",
-        "wonder-mcq-07"
+        "wonder-mcq-16",
+        "wonder-mcq-13",
+        "wonder-mcq-04"
       ],
       "explanation": "本句的「No wonder」指「情況完全可以理解；難怪／怪不得」。",
       "sentenceIndex": 20,
@@ -1055,12 +973,10 @@ export default {
         "No wonder"
       ],
       "optionReasons": {
-        "wonder-mcq-10": "本句指「情況完全可以理解；難怪／怪不得」。",
-        "wonder-mcq-09": "「產生非常好的效果；有奇效」是「work wonders」的用法，與本句語境不同。",
-        "wonder-mcq-11": "「不足為奇；難怪」是「little wonder」的用法，與本句語境不同。",
-        "wonder-mcq-08": "「令人驚嘆的景象、成果或事物」是「wonders」的用法，與本句語境不同。",
-        "wonder-mcq-12": "「對某事感到驚訝、驚嘆」是「wonder at something」的用法，與本句語境不同。",
-        "wonder-mcq-07": "「令人非常驚嘆的奇觀／非凡事物」是「wonder — remarkable thing」的用法，與本句語境不同。"
+        "wonder-mcq-10": "本句的「No wonder」指「情況完全可以理解；難怪／怪不得」。",
+        "wonder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-10"
     },
@@ -1072,11 +988,9 @@ export default {
       "masked": "____ the book stayed in her mind.",
       "options": [
         "wonder-mcq-10",
-        "wonder-mcq-09",
-        "wonder-mcq-11",
-        "wonder-mcq-08",
-        "wonder-mcq-12",
-        "wonder-mcq-07"
+        "wonder-mcq-04",
+        "wonder-mcq-07",
+        "wonder-mcq-17"
       ],
       "explanation": "本句的「No wonder」指「情況完全可以理解；難怪／怪不得」。",
       "sentenceIndex": 21,
@@ -1085,12 +999,10 @@ export default {
         "No wonder"
       ],
       "optionReasons": {
-        "wonder-mcq-10": "本句指「情況完全可以理解；難怪／怪不得」。",
-        "wonder-mcq-09": "「產生非常好的效果；有奇效」是「work wonders」的用法，與本句語境不同。",
-        "wonder-mcq-11": "「不足為奇；難怪」是「little wonder」的用法，與本句語境不同。",
-        "wonder-mcq-08": "「令人驚嘆的景象、成果或事物」是「wonders」的用法，與本句語境不同。",
-        "wonder-mcq-12": "「對某事感到驚訝、驚嘆」是「wonder at something」的用法，與本句語境不同。",
-        "wonder-mcq-07": "「令人非常驚嘆的奇觀／非凡事物」是「wonder — remarkable thing」的用法，與本句語境不同。"
+        "wonder-mcq-10": "本句的「No wonder」指「情況完全可以理解；難怪／怪不得」。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-10"
     },
@@ -1102,11 +1014,9 @@ export default {
       "masked": "____ she was upset.",
       "options": [
         "wonder-mcq-11",
-        "wonder-mcq-10",
+        "wonder-mcq-01",
         "wonder-mcq-12",
-        "wonder-mcq-09",
-        "wonder-mcq-13",
-        "wonder-mcq-08"
+        "wonder-mcq-14"
       ],
       "explanation": "本句的「Little wonder」指「不足為奇；難怪」。",
       "sentenceIndex": 22,
@@ -1115,12 +1025,10 @@ export default {
         "Little wonder"
       ],
       "optionReasons": {
-        "wonder-mcq-11": "本句指「不足為奇；難怪」。",
-        "wonder-mcq-10": "「情況完全可以理解；難怪／怪不得」是「no wonder」的用法，與本句語境不同。",
-        "wonder-mcq-12": "「對某事感到驚訝、驚嘆」是「wonder at something」的用法，與本句語境不同。",
-        "wonder-mcq-09": "「產生非常好的效果；有奇效」是「work wonders」的用法，與本句語境不同。",
-        "wonder-mcq-13": "「非常好、令人愉快或出色的」是「wonderful」的用法，與本句語境不同。",
-        "wonder-mcq-08": "「令人驚嘆的景象、成果或事物」是「wonders」的用法，與本句語境不同。"
+        "wonder-mcq-11": "本句的「Little wonder」指「不足為奇；難怪」。",
+        "wonder-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-11"
     },
@@ -1132,11 +1040,9 @@ export default {
       "masked": "____ the idea became popular.",
       "options": [
         "wonder-mcq-11",
-        "wonder-mcq-10",
-        "wonder-mcq-12",
-        "wonder-mcq-09",
         "wonder-mcq-13",
-        "wonder-mcq-08"
+        "wonder-mcq-03",
+        "wonder-mcq-04"
       ],
       "explanation": "本句的「Little wonder」指「不足為奇；難怪」。",
       "sentenceIndex": 23,
@@ -1145,12 +1051,10 @@ export default {
         "Little wonder"
       ],
       "optionReasons": {
-        "wonder-mcq-11": "本句指「不足為奇；難怪」。",
-        "wonder-mcq-10": "「情況完全可以理解；難怪／怪不得」是「no wonder」的用法，與本句語境不同。",
-        "wonder-mcq-12": "「對某事感到驚訝、驚嘆」是「wonder at something」的用法，與本句語境不同。",
-        "wonder-mcq-09": "「產生非常好的效果；有奇效」是「work wonders」的用法，與本句語境不同。",
-        "wonder-mcq-13": "「非常好、令人愉快或出色的」是「wonderful」的用法，與本句語境不同。",
-        "wonder-mcq-08": "「令人驚嘆的景象、成果或事物」是「wonders」的用法，與本句語境不同。"
+        "wonder-mcq-11": "本句的「Little wonder」指「不足為奇；難怪」。",
+        "wonder-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-11"
     },
@@ -1162,11 +1066,9 @@ export default {
       "masked": "We ____ the size of the building.",
       "options": [
         "wonder-mcq-12",
-        "wonder-mcq-11",
-        "wonder-mcq-13",
-        "wonder-mcq-10",
+        "wonder-mcq-02",
         "wonder-mcq-14",
-        "wonder-mcq-09"
+        "wonder-mcq-11"
       ],
       "explanation": "本句的「wondered at」指「對某事感到驚訝、驚嘆」。",
       "sentenceIndex": 24,
@@ -1175,12 +1077,10 @@ export default {
         "wondered at"
       ],
       "optionReasons": {
-        "wonder-mcq-12": "本句指「對某事感到驚訝、驚嘆」。",
-        "wonder-mcq-11": "「不足為奇；難怪」是「little wonder」的用法，與本句語境不同。",
-        "wonder-mcq-13": "「非常好、令人愉快或出色的」是「wonderful」的用法，與本句語境不同。",
-        "wonder-mcq-10": "「情況完全可以理解；難怪／怪不得」是「no wonder」的用法，與本句語境不同。",
-        "wonder-mcq-14": "「非常好地／精彩地」是「wonderfully」的用法，與本句語境不同。",
-        "wonder-mcq-09": "「產生非常好的效果；有奇效」是「work wonders」的用法，與本句語境不同。"
+        "wonder-mcq-12": "本句的「wondered at」指「對某事感到驚訝、驚嘆」。",
+        "wonder-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-12"
     },
@@ -1192,11 +1092,9 @@ export default {
       "masked": "She ____ how quickly things had changed.",
       "options": [
         "wonder-mcq-12",
-        "wonder-mcq-11",
-        "wonder-mcq-13",
-        "wonder-mcq-10",
-        "wonder-mcq-14",
-        "wonder-mcq-09"
+        "wonder-mcq-04",
+        "wonder-mcq-03",
+        "wonder-mcq-18"
       ],
       "explanation": "本句的「wondered at」指「對某事感到驚訝、驚嘆」。",
       "sentenceIndex": 25,
@@ -1205,12 +1103,10 @@ export default {
         "wondered at"
       ],
       "optionReasons": {
-        "wonder-mcq-12": "本句指「對某事感到驚訝、驚嘆」。",
-        "wonder-mcq-11": "「不足為奇；難怪」是「little wonder」的用法，與本句語境不同。",
-        "wonder-mcq-13": "「非常好、令人愉快或出色的」是「wonderful」的用法，與本句語境不同。",
-        "wonder-mcq-10": "「情況完全可以理解；難怪／怪不得」是「no wonder」的用法，與本句語境不同。",
-        "wonder-mcq-14": "「非常好地／精彩地」是「wonderfully」的用法，與本句語境不同。",
-        "wonder-mcq-09": "「產生非常好的效果；有奇效」是「work wonders」的用法，與本句語境不同。"
+        "wonder-mcq-12": "本句的「wondered at」指「對某事感到驚訝、驚嘆」。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-12"
     },
@@ -1223,10 +1119,8 @@ export default {
       "options": [
         "wonder-mcq-13",
         "wonder-mcq-12",
-        "wonder-mcq-14",
-        "wonder-mcq-11",
-        "wonder-mcq-15",
-        "wonder-mcq-10"
+        "wonder-mcq-03",
+        "wonder-mcq-17"
       ],
       "explanation": "本句的「wonderful」指「非常好、令人愉快或出色的」。",
       "sentenceIndex": 26,
@@ -1235,12 +1129,10 @@ export default {
         "wonderful"
       ],
       "optionReasons": {
-        "wonder-mcq-13": "本句指「非常好、令人愉快或出色的」。",
-        "wonder-mcq-12": "「對某事感到驚訝、驚嘆」是「wonder at something」的用法，與本句語境不同。",
-        "wonder-mcq-14": "「非常好地／精彩地」是「wonderfully」的用法，與本句語境不同。",
-        "wonder-mcq-11": "「不足為奇；難怪」是「little wonder」的用法，與本句語境不同。",
-        "wonder-mcq-15": "「令人驚嘆、奇妙的，較文學化」是「wondrous」的用法，與本句語境不同。",
-        "wonder-mcq-10": "「情況完全可以理解；難怪／怪不得」是「no wonder」的用法，與本句語境不同。"
+        "wonder-mcq-13": "本句的「wonderful」指「非常好、令人愉快或出色的」。",
+        "wonder-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-13"
     },
@@ -1252,10 +1144,8 @@ export default {
       "masked": "That’s a ____ idea.",
       "options": [
         "wonder-mcq-13",
+        "wonder-mcq-17",
         "wonder-mcq-12",
-        "wonder-mcq-14",
-        "wonder-mcq-11",
-        "wonder-mcq-15",
         "wonder-mcq-10"
       ],
       "explanation": "本句的「wonderful」指「非常好、令人愉快或出色的」。",
@@ -1265,12 +1155,10 @@ export default {
         "wonderful"
       ],
       "optionReasons": {
-        "wonder-mcq-13": "本句指「非常好、令人愉快或出色的」。",
-        "wonder-mcq-12": "「對某事感到驚訝、驚嘆」是「wonder at something」的用法，與本句語境不同。",
-        "wonder-mcq-14": "「非常好地／精彩地」是「wonderfully」的用法，與本句語境不同。",
-        "wonder-mcq-11": "「不足為奇；難怪」是「little wonder」的用法，與本句語境不同。",
-        "wonder-mcq-15": "「令人驚嘆、奇妙的，較文學化」是「wondrous」的用法，與本句語境不同。",
-        "wonder-mcq-10": "「情況完全可以理解；難怪／怪不得」是「no wonder」的用法，與本句語境不同。"
+        "wonder-mcq-13": "本句的「wonderful」指「非常好、令人愉快或出色的」。",
+        "wonder-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-13"
     },
@@ -1282,11 +1170,9 @@ export default {
       "masked": "The plan worked ____.",
       "options": [
         "wonder-mcq-14",
-        "wonder-mcq-13",
-        "wonder-mcq-15",
-        "wonder-mcq-12",
-        "wonder-mcq-16",
-        "wonder-mcq-11"
+        "wonder-mcq-19",
+        "wonder-mcq-06",
+        "wonder-mcq-04"
       ],
       "explanation": "本句的「wonderfully」指「非常好地／精彩地」。",
       "sentenceIndex": 28,
@@ -1295,12 +1181,10 @@ export default {
         "wonderfully"
       ],
       "optionReasons": {
-        "wonder-mcq-14": "本句指「非常好地／精彩地」。",
-        "wonder-mcq-13": "「非常好、令人愉快或出色的」是「wonderful」的用法，與本句語境不同。",
-        "wonder-mcq-15": "「令人驚嘆、奇妙的，較文學化」是「wondrous」的用法，與本句語境不同。",
-        "wonder-mcq-12": "「對某事感到驚訝、驚嘆」是「wonder at something」的用法，與本句語境不同。",
-        "wonder-mcq-16": "「驚奇、驚嘆的感受」是「wonderment」的用法，與本句語境不同。",
-        "wonder-mcq-11": "「不足為奇；難怪」是「little wonder」的用法，與本句語境不同。"
+        "wonder-mcq-14": "本句的「wonderfully」指「非常好地／精彩地」。",
+        "wonder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-14"
     },
@@ -1312,11 +1196,9 @@ export default {
       "masked": "She sang ____.",
       "options": [
         "wonder-mcq-14",
-        "wonder-mcq-13",
-        "wonder-mcq-15",
+        "wonder-mcq-04",
         "wonder-mcq-12",
-        "wonder-mcq-16",
-        "wonder-mcq-11"
+        "wonder-mcq-01"
       ],
       "explanation": "本句的「wonderfully」指「非常好地／精彩地」。",
       "sentenceIndex": 29,
@@ -1325,12 +1207,10 @@ export default {
         "wonderfully"
       ],
       "optionReasons": {
-        "wonder-mcq-14": "本句指「非常好地／精彩地」。",
-        "wonder-mcq-13": "「非常好、令人愉快或出色的」是「wonderful」的用法，與本句語境不同。",
-        "wonder-mcq-15": "「令人驚嘆、奇妙的，較文學化」是「wondrous」的用法，與本句語境不同。",
-        "wonder-mcq-12": "「對某事感到驚訝、驚嘆」是「wonder at something」的用法，與本句語境不同。",
-        "wonder-mcq-16": "「驚奇、驚嘆的感受」是「wonderment」的用法，與本句語境不同。",
-        "wonder-mcq-11": "「不足為奇；難怪」是「little wonder」的用法，與本句語境不同。"
+        "wonder-mcq-14": "本句的「wonderfully」指「非常好地／精彩地」。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-14"
     },
@@ -1342,11 +1222,9 @@ export default {
       "masked": "They entered a ____ landscape.",
       "options": [
         "wonder-mcq-15",
+        "wonder-mcq-01",
         "wonder-mcq-14",
-        "wonder-mcq-16",
-        "wonder-mcq-13",
-        "wonder-mcq-17",
-        "wonder-mcq-12"
+        "wonder-mcq-04"
       ],
       "explanation": "本句的「wondrous」指「令人驚嘆、奇妙的，較文學化」。",
       "sentenceIndex": 30,
@@ -1355,12 +1233,10 @@ export default {
         "wondrous"
       ],
       "optionReasons": {
-        "wonder-mcq-15": "本句指「令人驚嘆、奇妙的，較文學化」。",
-        "wonder-mcq-14": "「非常好地／精彩地」是「wonderfully」的用法，與本句語境不同。",
-        "wonder-mcq-16": "「驚奇、驚嘆的感受」是「wonderment」的用法，與本句語境不同。",
-        "wonder-mcq-13": "「非常好、令人愉快或出色的」是「wonderful」的用法，與本句語境不同。",
-        "wonder-mcq-17": "「使人不禁思考／產生疑問」是「it makes you wonder」的用法，與本句語境不同。",
-        "wonder-mcq-12": "「對某事感到驚訝、驚嘆」是「wonder at something」的用法，與本句語境不同。"
+        "wonder-mcq-15": "本句的「wondrous」指「令人驚嘆、奇妙的，較文學化」。",
+        "wonder-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-15"
     },
@@ -1373,10 +1249,8 @@ export default {
       "options": [
         "wonder-mcq-15",
         "wonder-mcq-14",
-        "wonder-mcq-16",
-        "wonder-mcq-13",
-        "wonder-mcq-17",
-        "wonder-mcq-12"
+        "wonder-mcq-02",
+        "wonder-mcq-04"
       ],
       "explanation": "本句的「wondrous」指「令人驚嘆、奇妙的，較文學化」。",
       "sentenceIndex": 31,
@@ -1385,12 +1259,10 @@ export default {
         "wondrous"
       ],
       "optionReasons": {
-        "wonder-mcq-15": "本句指「令人驚嘆、奇妙的，較文學化」。",
-        "wonder-mcq-14": "「非常好地／精彩地」是「wonderfully」的用法，與本句語境不同。",
-        "wonder-mcq-16": "「驚奇、驚嘆的感受」是「wonderment」的用法，與本句語境不同。",
-        "wonder-mcq-13": "「非常好、令人愉快或出色的」是「wonderful」的用法，與本句語境不同。",
-        "wonder-mcq-17": "「使人不禁思考／產生疑問」是「it makes you wonder」的用法，與本句語境不同。",
-        "wonder-mcq-12": "「對某事感到驚訝、驚嘆」是「wonder at something」的用法，與本句語境不同。"
+        "wonder-mcq-15": "本句的「wondrous」指「令人驚嘆、奇妙的，較文學化」。",
+        "wonder-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-15"
     },
@@ -1402,11 +1274,9 @@ export default {
       "masked": "The child stared in ____.",
       "options": [
         "wonder-mcq-16",
-        "wonder-mcq-15",
-        "wonder-mcq-17",
-        "wonder-mcq-14",
-        "wonder-mcq-18",
-        "wonder-mcq-13"
+        "wonder-mcq-19",
+        "wonder-mcq-13",
+        "wonder-mcq-17"
       ],
       "explanation": "本句的「wonderment」指「驚奇、驚嘆的感受」。",
       "sentenceIndex": 32,
@@ -1415,12 +1285,10 @@ export default {
         "wonderment"
       ],
       "optionReasons": {
-        "wonder-mcq-16": "本句指「驚奇、驚嘆的感受」。",
-        "wonder-mcq-15": "「令人驚嘆、奇妙的，較文學化」是「wondrous」的用法，與本句語境不同。",
-        "wonder-mcq-17": "「使人不禁思考／產生疑問」是「it makes you wonder」的用法，與本句語境不同。",
-        "wonder-mcq-14": "「非常好地／精彩地」是「wonderfully」的用法，與本句語境不同。",
-        "wonder-mcq-18": "「非常令人意外的事情；真是奇事」是「wonder of wonders」的用法，與本句語境不同。",
-        "wonder-mcq-13": "「非常好、令人愉快或出色的」是「wonderful」的用法，與本句語境不同。"
+        "wonder-mcq-16": "本句的「wonderment」指「驚奇、驚嘆的感受」。",
+        "wonder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-16"
     },
@@ -1432,11 +1300,9 @@ export default {
       "masked": "Her face showed pure ____.",
       "options": [
         "wonder-mcq-16",
-        "wonder-mcq-15",
-        "wonder-mcq-17",
-        "wonder-mcq-14",
-        "wonder-mcq-18",
-        "wonder-mcq-13"
+        "wonder-mcq-02",
+        "wonder-mcq-13",
+        "wonder-mcq-04"
       ],
       "explanation": "本句的「wonderment」指「驚奇、驚嘆的感受」。",
       "sentenceIndex": 33,
@@ -1445,12 +1311,10 @@ export default {
         "wonderment"
       ],
       "optionReasons": {
-        "wonder-mcq-16": "本句指「驚奇、驚嘆的感受」。",
-        "wonder-mcq-15": "「令人驚嘆、奇妙的，較文學化」是「wondrous」的用法，與本句語境不同。",
-        "wonder-mcq-17": "「使人不禁思考／產生疑問」是「it makes you wonder」的用法，與本句語境不同。",
-        "wonder-mcq-14": "「非常好地／精彩地」是「wonderfully」的用法，與本句語境不同。",
-        "wonder-mcq-18": "「非常令人意外的事情；真是奇事」是「wonder of wonders」的用法，與本句語境不同。",
-        "wonder-mcq-13": "「非常好、令人愉快或出色的」是「wonderful」的用法，與本句語境不同。"
+        "wonder-mcq-16": "本句的「wonderment」指「驚奇、驚嘆的感受」。",
+        "wonder-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-16"
     },
@@ -1462,11 +1326,9 @@ export default {
       "masked": "____ what she meant.",
       "options": [
         "wonder-mcq-19",
-        "wonder-mcq-18",
-        "wonder-mcq-17",
-        "wonder-mcq-16",
-        "wonder-mcq-15",
-        "wonder-mcq-14"
+        "wonder-mcq-12",
+        "wonder-mcq-11",
+        "wonder-mcq-09"
       ],
       "explanation": "本句的「I wonder」指「表示我想知道……；我在想……」。",
       "sentenceIndex": 34,
@@ -1475,12 +1337,10 @@ export default {
         "I wonder"
       ],
       "optionReasons": {
-        "wonder-mcq-19": "本句指「表示我想知道……；我在想……」。",
-        "wonder-mcq-18": "「非常令人意外的事情；真是奇事」是「wonder of wonders」的用法，與本句語境不同。",
-        "wonder-mcq-17": "「使人不禁思考／產生疑問」是「it makes you wonder」的用法，與本句語境不同。",
-        "wonder-mcq-16": "「驚奇、驚嘆的感受」是「wonderment」的用法，與本句語境不同。",
-        "wonder-mcq-15": "「令人驚嘆、奇妙的，較文學化」是「wondrous」的用法，與本句語境不同。",
-        "wonder-mcq-14": "「非常好地／精彩地」是「wonderfully」的用法，與本句語境不同。"
+        "wonder-mcq-19": "本句的「I wonder」指「表示我想知道……；我在想……」。",
+        "wonder-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-19"
     },
@@ -1492,11 +1352,9 @@ export default {
       "masked": "____ where he went.",
       "options": [
         "wonder-mcq-19",
-        "wonder-mcq-18",
-        "wonder-mcq-17",
         "wonder-mcq-16",
-        "wonder-mcq-15",
-        "wonder-mcq-14"
+        "wonder-mcq-14",
+        "wonder-mcq-11"
       ],
       "explanation": "本句的「I wonder」指「表示我想知道……；我在想……」。",
       "sentenceIndex": 35,
@@ -1505,12 +1363,10 @@ export default {
         "I wonder"
       ],
       "optionReasons": {
-        "wonder-mcq-19": "本句指「表示我想知道……；我在想……」。",
-        "wonder-mcq-18": "「非常令人意外的事情；真是奇事」是「wonder of wonders」的用法，與本句語境不同。",
-        "wonder-mcq-17": "「使人不禁思考／產生疑問」是「it makes you wonder」的用法，與本句語境不同。",
-        "wonder-mcq-16": "「驚奇、驚嘆的感受」是「wonderment」的用法，與本句語境不同。",
-        "wonder-mcq-15": "「令人驚嘆、奇妙的，較文學化」是「wondrous」的用法，與本句語境不同。",
-        "wonder-mcq-14": "「非常好地／精彩地」是「wonderfully」的用法，與本句語境不同。"
+        "wonder-mcq-19": "本句的「I wonder」指「表示我想知道……；我在想……」。",
+        "wonder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-19"
     },
@@ -1522,11 +1378,9 @@ export default {
       "masked": "The result ____ what really happened.",
       "options": [
         "wonder-mcq-17",
-        "wonder-mcq-16",
-        "wonder-mcq-18",
-        "wonder-mcq-15",
         "wonder-mcq-19",
-        "wonder-mcq-14"
+        "wonder-mcq-07",
+        "wonder-mcq-11"
       ],
       "explanation": "本句的「makes you wonder」指「使人不禁思考／產生疑問」。",
       "sentenceIndex": 36,
@@ -1535,12 +1389,10 @@ export default {
         "makes you wonder"
       ],
       "optionReasons": {
-        "wonder-mcq-17": "本句指「使人不禁思考／產生疑問」。",
-        "wonder-mcq-16": "「驚奇、驚嘆的感受」是「wonderment」的用法，與本句語境不同。",
-        "wonder-mcq-18": "「非常令人意外的事情；真是奇事」是「wonder of wonders」的用法，與本句語境不同。",
-        "wonder-mcq-15": "「令人驚嘆、奇妙的，較文學化」是「wondrous」的用法，與本句語境不同。",
-        "wonder-mcq-19": "「表示我想知道……；我在想……」是「18. I wonder...」的用法，與本句語境不同。",
-        "wonder-mcq-14": "「非常好地／精彩地」是「wonderfully」的用法，與本句語境不同。"
+        "wonder-mcq-17": "本句的「makes you wonder」指「使人不禁思考／產生疑問」。",
+        "wonder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-17"
     },
@@ -1552,11 +1404,9 @@ export default {
       "masked": "The story ____ how different life could be.",
       "options": [
         "wonder-mcq-17",
-        "wonder-mcq-16",
-        "wonder-mcq-18",
-        "wonder-mcq-15",
-        "wonder-mcq-19",
-        "wonder-mcq-14"
+        "wonder-mcq-03",
+        "wonder-mcq-13",
+        "wonder-mcq-12"
       ],
       "explanation": "本句的「makes you wonder」指「使人不禁思考／產生疑問」。",
       "sentenceIndex": 37,
@@ -1565,12 +1415,10 @@ export default {
         "makes you wonder"
       ],
       "optionReasons": {
-        "wonder-mcq-17": "本句指「使人不禁思考／產生疑問」。",
-        "wonder-mcq-16": "「驚奇、驚嘆的感受」是「wonderment」的用法，與本句語境不同。",
-        "wonder-mcq-18": "「非常令人意外的事情；真是奇事」是「wonder of wonders」的用法，與本句語境不同。",
-        "wonder-mcq-15": "「令人驚嘆、奇妙的，較文學化」是「wondrous」的用法，與本句語境不同。",
-        "wonder-mcq-19": "「表示我想知道……；我在想……」是「18. I wonder...」的用法，與本句語境不同。",
-        "wonder-mcq-14": "「非常好地／精彩地」是「wonderfully」的用法，與本句語境不同。"
+        "wonder-mcq-17": "本句的「makes you wonder」指「使人不禁思考／產生疑問」。",
+        "wonder-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-17"
     },
@@ -1582,11 +1430,9 @@ export default {
       "masked": "____, he arrived early.",
       "options": [
         "wonder-mcq-18",
-        "wonder-mcq-17",
         "wonder-mcq-19",
-        "wonder-mcq-16",
-        "wonder-mcq-15",
-        "wonder-mcq-14"
+        "wonder-mcq-12",
+        "wonder-mcq-17"
       ],
       "explanation": "本句的「Wonder of wonders」指「非常令人意外的事情；真是奇事」。",
       "sentenceIndex": 38,
@@ -1595,12 +1441,10 @@ export default {
         "Wonder of wonders"
       ],
       "optionReasons": {
-        "wonder-mcq-18": "本句指「非常令人意外的事情；真是奇事」。",
-        "wonder-mcq-17": "「使人不禁思考／產生疑問」是「it makes you wonder」的用法，與本句語境不同。",
-        "wonder-mcq-19": "「表示我想知道……；我在想……」是「18. I wonder...」的用法，與本句語境不同。",
-        "wonder-mcq-16": "「驚奇、驚嘆的感受」是「wonderment」的用法，與本句語境不同。",
-        "wonder-mcq-15": "「令人驚嘆、奇妙的，較文學化」是「wondrous」的用法，與本句語境不同。",
-        "wonder-mcq-14": "「非常好地／精彩地」是「wonderfully」的用法，與本句語境不同。"
+        "wonder-mcq-18": "本句的「Wonder of wonders」指「非常令人意外的事情；真是奇事」。",
+        "wonder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-18"
     },
@@ -1612,11 +1456,9 @@ export default {
       "masked": "____, the old machine still worked.",
       "options": [
         "wonder-mcq-18",
-        "wonder-mcq-17",
-        "wonder-mcq-19",
-        "wonder-mcq-16",
-        "wonder-mcq-15",
-        "wonder-mcq-14"
+        "wonder-mcq-01",
+        "wonder-mcq-04",
+        "wonder-mcq-12"
       ],
       "explanation": "本句的「Wonder of wonders」指「非常令人意外的事情；真是奇事」。",
       "sentenceIndex": 39,
@@ -1625,12 +1467,10 @@ export default {
         "Wonder of wonders"
       ],
       "optionReasons": {
-        "wonder-mcq-18": "本句指「非常令人意外的事情；真是奇事」。",
-        "wonder-mcq-17": "「使人不禁思考／產生疑問」是「it makes you wonder」的用法，與本句語境不同。",
-        "wonder-mcq-19": "「表示我想知道……；我在想……」是「18. I wonder...」的用法，與本句語境不同。",
-        "wonder-mcq-16": "「驚奇、驚嘆的感受」是「wonderment」的用法，與本句語境不同。",
-        "wonder-mcq-15": "「令人驚嘆、奇妙的，較文學化」是「wondrous」的用法，與本句語境不同。",
-        "wonder-mcq-14": "「非常好地／精彩地」是「wonderfully」的用法，與本句語境不同。"
+        "wonder-mcq-18": "本句的「Wonder of wonders」指「非常令人意外的事情；真是奇事」。",
+        "wonder-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wonder-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wonder-mcq-18"
     }
@@ -1642,5 +1482,7 @@ export default {
     "sha256": "b3483c8a682c5fbb1538ef47b5fd8ffad5f447ab6a2127b4c10ffa33729fdd9d",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

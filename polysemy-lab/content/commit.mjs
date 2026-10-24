@@ -684,11 +684,9 @@ export default {
       "masked": "Some colleagues were ____.",
       "options": [
         "commit-mcq-01",
-        "commit-mcq-02",
-        "commit-mcq-03",
-        "commit-mcq-04",
-        "commit-mcq-05",
-        "commit-mcq-06"
+        "commit-mcq-09",
+        "commit-mcq-16",
+        "commit-mcq-10"
       ],
       "explanation": "本句的「less committed to the group work」指「致力於 X；投入 X」。",
       "sentenceIndex": 0,
@@ -697,12 +695,10 @@ export default {
         "less committed to the group work"
       ],
       "optionReasons": {
-        "commit-mcq-01": "本句指「致力於 X；投入 X」。",
-        "commit-mcq-02": "「投入而負責的員工」與本句語境不同。",
-        "commit-mcq-03": "「全心投入 X」與本句語境不同。",
-        "commit-mcq-04": "「承諾／決心做 X」與本句語境不同。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。"
+        "commit-mcq-01": "本句的「less committed to the group work」指「致力於 X；投入 X」。",
+        "commit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-01"
     },
@@ -714,11 +710,9 @@ export default {
       "masked": "She is deeply ____.",
       "options": [
         "commit-mcq-01",
-        "commit-mcq-02",
-        "commit-mcq-03",
-        "commit-mcq-04",
-        "commit-mcq-05",
-        "commit-mcq-06"
+        "commit-pdf-002",
+        "commit-mcq-22",
+        "commit-mcq-16"
       ],
       "explanation": "本句的「committed to her work」指「致力於 X；投入 X」。",
       "sentenceIndex": 1,
@@ -727,12 +721,10 @@ export default {
         "committed to her work"
       ],
       "optionReasons": {
-        "commit-mcq-01": "本句指「致力於 X；投入 X」。",
-        "commit-mcq-02": "「投入而負責的員工」與本句語境不同。",
-        "commit-mcq-03": "「全心投入 X」與本句語境不同。",
-        "commit-mcq-04": "「承諾／決心做 X」與本句語境不同。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。"
+        "commit-mcq-01": "本句的「committed to her work」指「致力於 X；投入 X」。",
+        "commit-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-01"
     },
@@ -744,11 +736,9 @@ export default {
       "masked": "Everyone needs to be ____.",
       "options": [
         "commit-mcq-01",
-        "commit-mcq-02",
-        "commit-mcq-03",
-        "commit-mcq-04",
-        "commit-mcq-05",
-        "commit-mcq-06"
+        "commit-mcq-25",
+        "commit-mcq-27",
+        "commit-pdf-002"
       ],
       "explanation": "本句的「committed to the team's success」指「致力於 X；投入 X」。",
       "sentenceIndex": 2,
@@ -757,12 +747,10 @@ export default {
         "committed to the team's success"
       ],
       "optionReasons": {
-        "commit-mcq-01": "本句指「致力於 X；投入 X」。",
-        "commit-mcq-02": "「投入而負責的員工」與本句語境不同。",
-        "commit-mcq-03": "「全心投入 X」與本句語境不同。",
-        "commit-mcq-04": "「承諾／決心做 X」與本句語境不同。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。"
+        "commit-mcq-01": "本句的「committed to the team's success」指「致力於 X；投入 X」。",
+        "commit-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "commit-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-01"
     },
@@ -774,11 +762,9 @@ export default {
       "masked": "She is a highly ____.",
       "options": [
         "commit-mcq-02",
-        "commit-mcq-01",
-        "commit-mcq-03",
+        "commit-pdf-001",
         "commit-mcq-04",
-        "commit-mcq-05",
-        "commit-mcq-06"
+        "commit-mcq-10"
       ],
       "explanation": "本句的「committed employee」指「投入而負責的員工」。",
       "sentenceIndex": 3,
@@ -787,12 +773,10 @@ export default {
         "committed employee"
       ],
       "optionReasons": {
-        "commit-mcq-02": "本句指「投入而負責的員工」。",
-        "commit-mcq-01": "「致力於 X；投入 X」與本句語境不同。",
-        "commit-mcq-03": "「全心投入 X」與本句語境不同。",
-        "commit-mcq-04": "「承諾／決心做 X」與本句語境不同。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。"
+        "commit-mcq-02": "本句的「committed employee」指「投入而負責的員工」。",
+        "commit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-02"
     },
@@ -804,11 +788,9 @@ export default {
       "masked": "____ are more likely to take ownership of their tasks.",
       "options": [
         "commit-mcq-02",
-        "commit-mcq-01",
-        "commit-mcq-03",
-        "commit-mcq-04",
-        "commit-mcq-05",
-        "commit-mcq-06"
+        "commit-mcq-10",
+        "commit-mcq-17",
+        "commit-mcq-11"
       ],
       "explanation": "本句的「Committed workers」指「投入而負責的員工」。",
       "sentenceIndex": 4,
@@ -817,12 +799,10 @@ export default {
         "Committed workers"
       ],
       "optionReasons": {
-        "commit-mcq-02": "本句指「投入而負責的員工」。",
-        "commit-mcq-01": "「致力於 X；投入 X」與本句語境不同。",
-        "commit-mcq-03": "「全心投入 X」與本句語境不同。",
-        "commit-mcq-04": "「承諾／決心做 X」與本句語境不同。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。"
+        "commit-mcq-02": "本句的「Committed workers」指「投入而負責的員工」。",
+        "commit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-02"
     },
@@ -834,11 +814,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "commit-mcq-03",
-        "commit-mcq-02",
-        "commit-mcq-04",
-        "commit-mcq-01",
-        "commit-mcq-05",
-        "commit-mcq-06"
+        "commit-mcq-24",
+        "commit-mcq-27",
+        "commit-mcq-22"
       ],
       "explanation": "本句的「committed himself to improving communication」指「全心投入 X」。",
       "sentenceIndex": 5,
@@ -847,12 +825,10 @@ export default {
         "committed himself to improving communication"
       ],
       "optionReasons": {
-        "commit-mcq-03": "本句指「全心投入 X」。",
-        "commit-mcq-02": "「投入而負責的員工」與本句語境不同。",
-        "commit-mcq-04": "「承諾／決心做 X」與本句語境不同。",
-        "commit-mcq-01": "「致力於 X；投入 X」與本句語境不同。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。"
+        "commit-mcq-03": "本句的「committed himself to improving communication」指「全心投入 X」。",
+        "commit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-03"
     },
@@ -864,11 +840,9 @@ export default {
       "masked": "Once you ____, you need to keep working towards it.",
       "options": [
         "commit-mcq-03",
-        "commit-mcq-02",
-        "commit-mcq-04",
-        "commit-mcq-01",
-        "commit-mcq-05",
-        "commit-mcq-06"
+        "commit-mcq-08",
+        "commit-mcq-23",
+        "commit-pdf-001"
       ],
       "explanation": "本句的「commit yourself to a goal」指「全心投入 X」。",
       "sentenceIndex": 6,
@@ -877,12 +851,10 @@ export default {
         "commit yourself to a goal"
       ],
       "optionReasons": {
-        "commit-mcq-03": "本句指「全心投入 X」。",
-        "commit-mcq-02": "「投入而負責的員工」與本句語境不同。",
-        "commit-mcq-04": "「承諾／決心做 X」與本句語境不同。",
-        "commit-mcq-01": "「致力於 X；投入 X」與本句語境不同。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。"
+        "commit-mcq-03": "本句的「commit yourself to a goal」指「全心投入 X」。",
+        "commit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "commit-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-03"
     },
@@ -894,11 +866,9 @@ export default {
       "masked": "The team ____.",
       "options": [
         "commit-mcq-04",
-        "commit-mcq-03",
-        "commit-mcq-05",
-        "commit-mcq-02",
-        "commit-mcq-06",
-        "commit-mcq-01"
+        "commit-mcq-12",
+        "commit-mcq-28",
+        "commit-mcq-08"
       ],
       "explanation": "本句的「committed to meeting every week」指「承諾／決心做 X」。",
       "sentenceIndex": 7,
@@ -907,12 +877,10 @@ export default {
         "committed to meeting every week"
       ],
       "optionReasons": {
-        "commit-mcq-04": "本句指「承諾／決心做 X」。",
-        "commit-mcq-03": "「全心投入 X」與本句語境不同。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。",
-        "commit-mcq-02": "「投入而負責的員工」與本句語境不同。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。",
-        "commit-mcq-01": "「致力於 X；投入 X」與本句語境不同。"
+        "commit-mcq-04": "本句的「committed to meeting every week」指「承諾／決心做 X」。",
+        "commit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-04"
     },
@@ -924,11 +892,9 @@ export default {
       "masked": "Managers must ____.",
       "options": [
         "commit-mcq-04",
-        "commit-mcq-03",
-        "commit-mcq-05",
-        "commit-mcq-02",
-        "commit-mcq-06",
-        "commit-mcq-01"
+        "commit-mcq-28",
+        "commit-mcq-01",
+        "commit-mcq-10"
       ],
       "explanation": "本句的「commit to communicating clearly」指「承諾／決心做 X」。",
       "sentenceIndex": 8,
@@ -937,12 +903,10 @@ export default {
         "commit to communicating clearly"
       ],
       "optionReasons": {
-        "commit-mcq-04": "本句指「承諾／決心做 X」。",
-        "commit-mcq-03": "「全心投入 X」與本句語境不同。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。",
-        "commit-mcq-02": "「投入而負責的員工」與本句語境不同。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。",
-        "commit-mcq-01": "「致力於 X；投入 X」與本句語境不同。"
+        "commit-mcq-04": "本句的「commit to communicating clearly」指「承諾／決心做 X」。",
+        "commit-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-04"
     },
@@ -954,11 +918,9 @@ export default {
       "masked": "The company has ____.",
       "options": [
         "commit-mcq-04",
-        "commit-mcq-03",
-        "commit-mcq-05",
-        "commit-mcq-02",
-        "commit-mcq-06",
-        "commit-mcq-01"
+        "commit-mcq-07",
+        "commit-pdf-001",
+        "commit-mcq-23"
       ],
       "explanation": "本句的「committed to the new policy」指「承諾／決心做 X」。",
       "sentenceIndex": 9,
@@ -967,12 +929,10 @@ export default {
         "committed to the new policy"
       ],
       "optionReasons": {
-        "commit-mcq-04": "本句指「承諾／決心做 X」。",
-        "commit-mcq-03": "「全心投入 X」與本句語境不同。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。",
-        "commit-mcq-02": "「投入而負責的員工」與本句語境不同。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。",
-        "commit-mcq-01": "「致力於 X；投入 X」與本句語境不同。"
+        "commit-mcq-04": "本句的「committed to the new policy」指「承諾／決心做 X」。",
+        "commit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "commit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-04"
     },
@@ -984,10 +944,8 @@ export default {
       "masked": "She was not ready to ____.",
       "options": [
         "commit-mcq-04",
-        "commit-mcq-03",
-        "commit-mcq-05",
-        "commit-mcq-02",
-        "commit-mcq-06",
+        "commit-mcq-14",
+        "commit-pdf-001",
         "commit-mcq-01"
       ],
       "explanation": "本句的「commit to a final decision」指「承諾／決心做 X」。",
@@ -997,12 +955,10 @@ export default {
         "commit to a final decision"
       ],
       "optionReasons": {
-        "commit-mcq-04": "本句指「承諾／決心做 X」。",
-        "commit-mcq-03": "「全心投入 X」與本句語境不同。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。",
-        "commit-mcq-02": "「投入而負責的員工」與本句語境不同。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。",
-        "commit-mcq-01": "「致力於 X；投入 X」與本句語境不同。"
+        "commit-mcq-04": "本句的「commit to a final decision」指「承諾／決心做 X」。",
+        "commit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "commit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-04"
     },
@@ -1014,11 +970,9 @@ export default {
       "masked": "Each member must ____.",
       "options": [
         "commit-mcq-05",
-        "commit-mcq-04",
-        "commit-mcq-06",
-        "commit-mcq-03",
-        "commit-mcq-07",
-        "commit-mcq-02"
+        "commit-mcq-27",
+        "commit-mcq-09",
+        "commit-pdf-002"
       ],
       "explanation": "本句的「commit enough time to the project」指「投入時間／心力」。",
       "sentenceIndex": 11,
@@ -1027,12 +981,10 @@ export default {
         "commit enough time to the project"
       ],
       "optionReasons": {
-        "commit-mcq-05": "本句指「投入時間／心力」。",
-        "commit-mcq-04": "「承諾／決心做 X」與本句語境不同。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。",
-        "commit-mcq-03": "「全心投入 X」與本句語境不同。",
-        "commit-mcq-07": "「犯罪」與本句語境不同。",
-        "commit-mcq-02": "「投入而負責的員工」與本句語境不同。"
+        "commit-mcq-05": "本句的「commit enough time to the project」指「投入時間／心力」。",
+        "commit-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "commit-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-05"
     },
@@ -1044,11 +996,9 @@ export default {
       "masked": "She was willing to ____ than the others.",
       "options": [
         "commit-mcq-05",
-        "commit-mcq-04",
-        "commit-mcq-06",
-        "commit-mcq-03",
-        "commit-mcq-07",
-        "commit-mcq-02"
+        "commit-mcq-11",
+        "commit-pdf-001",
+        "commit-mcq-25"
       ],
       "explanation": "本句的「commit more effort」指「投入時間／心力」。",
       "sentenceIndex": 12,
@@ -1057,12 +1007,10 @@ export default {
         "commit more effort"
       ],
       "optionReasons": {
-        "commit-mcq-05": "本句指「投入時間／心力」。",
-        "commit-mcq-04": "「承諾／決心做 X」與本句語境不同。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。",
-        "commit-mcq-03": "「全心投入 X」與本句語境不同。",
-        "commit-mcq-07": "「犯罪」與本句語境不同。",
-        "commit-mcq-02": "「投入而負責的員工」與本句語境不同。"
+        "commit-mcq-05": "本句的「commit more effort」指「投入時間／心力」。",
+        "commit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "commit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-05"
     },
@@ -1074,11 +1022,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "commit-mcq-06",
-        "commit-mcq-05",
-        "commit-mcq-07",
-        "commit-mcq-04",
-        "commit-mcq-08",
-        "commit-mcq-03"
+        "commit-mcq-16",
+        "commit-mcq-24",
+        "commit-mcq-10"
       ],
       "explanation": "本句的「committed additional resources to the project」指「撥出資金／資源」。",
       "sentenceIndex": 13,
@@ -1087,12 +1033,10 @@ export default {
         "committed additional resources to the project"
       ],
       "optionReasons": {
-        "commit-mcq-06": "本句指「撥出資金／資源」。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。",
-        "commit-mcq-07": "「犯罪」與本句語境不同。",
-        "commit-mcq-04": "「承諾／決心做 X」與本句語境不同。",
-        "commit-mcq-08": "「犯下罪行／違規」與本句語境不同。",
-        "commit-mcq-03": "「全心投入 X」與本句語境不同。"
+        "commit-mcq-06": "本句的「committed additional resources to the project」指「撥出資金／資源」。",
+        "commit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-06"
     },
@@ -1104,11 +1048,9 @@ export default {
       "masked": "They have ____.",
       "options": [
         "commit-mcq-06",
-        "commit-mcq-05",
-        "commit-mcq-07",
-        "commit-mcq-04",
-        "commit-mcq-08",
-        "commit-mcq-03"
+        "commit-mcq-23",
+        "commit-mcq-10",
+        "commit-mcq-16"
       ],
       "explanation": "本句的「committed millions of dollars to research」指「撥出資金／資源」。",
       "sentenceIndex": 14,
@@ -1117,12 +1059,10 @@ export default {
         "committed millions of dollars to research"
       ],
       "optionReasons": {
-        "commit-mcq-06": "本句指「撥出資金／資源」。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。",
-        "commit-mcq-07": "「犯罪」與本句語境不同。",
-        "commit-mcq-04": "「承諾／決心做 X」與本句語境不同。",
-        "commit-mcq-08": "「犯下罪行／違規」與本句語境不同。",
-        "commit-mcq-03": "「全心投入 X」與本句語境不同。"
+        "commit-mcq-06": "本句的「committed millions of dollars to research」指「撥出資金／資源」。",
+        "commit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-06"
     },
@@ -1134,11 +1074,9 @@ export default {
       "masked": "He was accused of ____.",
       "options": [
         "commit-mcq-07",
-        "commit-mcq-06",
-        "commit-mcq-08",
-        "commit-mcq-05",
-        "commit-mcq-09",
-        "commit-mcq-04"
+        "commit-mcq-16",
+        "commit-mcq-23",
+        "commit-mcq-11"
       ],
       "explanation": "本句的「committing a crime」指「犯罪」。",
       "sentenceIndex": 17,
@@ -1147,12 +1085,10 @@ export default {
         "committing a crime"
       ],
       "optionReasons": {
-        "commit-mcq-07": "本句指「犯罪」。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。",
-        "commit-mcq-08": "「犯下罪行／違規」與本句語境不同。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。",
-        "commit-mcq-09": "「犯錯」與本句語境不同。",
-        "commit-mcq-04": "「承諾／決心做 X」與本句語境不同。"
+        "commit-mcq-07": "本句的「committing a crime」指「犯罪」。",
+        "commit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-07"
     },
@@ -1164,11 +1100,9 @@ export default {
       "masked": "The investigation found that several offences had been ____.",
       "options": [
         "commit-mcq-07",
-        "commit-mcq-06",
-        "commit-mcq-08",
-        "commit-mcq-05",
-        "commit-mcq-09",
-        "commit-mcq-04"
+        "commit-mcq-28",
+        "commit-mcq-14",
+        "commit-mcq-19"
       ],
       "explanation": "本句的「committed」指「犯罪」。",
       "sentenceIndex": 18,
@@ -1177,12 +1111,10 @@ export default {
         "committed"
       ],
       "optionReasons": {
-        "commit-mcq-07": "本句指「犯罪」。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。",
-        "commit-mcq-08": "「犯下罪行／違規」與本句語境不同。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。",
-        "commit-mcq-09": "「犯錯」與本句語境不同。",
-        "commit-mcq-04": "「承諾／決心做 X」與本句語境不同。"
+        "commit-mcq-07": "本句的「committed」指「犯罪」。",
+        "commit-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-07"
     },
@@ -1194,11 +1126,9 @@ export default {
       "masked": "Anyone who ____ may face legal consequences.",
       "options": [
         "commit-mcq-07",
-        "commit-mcq-06",
-        "commit-mcq-08",
-        "commit-mcq-05",
-        "commit-mcq-09",
-        "commit-mcq-04"
+        "commit-mcq-11",
+        "commit-mcq-24",
+        "commit-mcq-14"
       ],
       "explanation": "本句的「commits a crime」指「犯罪」。",
       "sentenceIndex": 19,
@@ -1207,12 +1137,10 @@ export default {
         "commits a crime"
       ],
       "optionReasons": {
-        "commit-mcq-07": "本句指「犯罪」。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。",
-        "commit-mcq-08": "「犯下罪行／違規」與本句語境不同。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。",
-        "commit-mcq-09": "「犯錯」與本句語境不同。",
-        "commit-mcq-04": "「承諾／決心做 X」與本句語境不同。"
+        "commit-mcq-07": "本句的「commits a crime」指「犯罪」。",
+        "commit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-07"
     },
@@ -1224,11 +1152,9 @@ export default {
       "masked": "Police were trying to identify who had ____.",
       "options": [
         "commit-mcq-07",
-        "commit-mcq-06",
-        "commit-mcq-08",
-        "commit-mcq-05",
-        "commit-mcq-09",
-        "commit-mcq-04"
+        "commit-mcq-15",
+        "commit-mcq-03",
+        "commit-mcq-11"
       ],
       "explanation": "本句的「committed the crime」指「犯罪」。",
       "sentenceIndex": 20,
@@ -1237,12 +1163,10 @@ export default {
         "committed the crime"
       ],
       "optionReasons": {
-        "commit-mcq-07": "本句指「犯罪」。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。",
-        "commit-mcq-08": "「犯下罪行／違規」與本句語境不同。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。",
-        "commit-mcq-09": "「犯錯」與本句語境不同。",
-        "commit-mcq-04": "「承諾／決心做 X」與本句語境不同。"
+        "commit-mcq-07": "本句的「committed the crime」指「犯罪」。",
+        "commit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-07"
     },
@@ -1254,11 +1178,9 @@ export default {
       "masked": "He was charged with ____.",
       "options": [
         "commit-mcq-08",
-        "commit-mcq-07",
-        "commit-mcq-09",
-        "commit-mcq-06",
-        "commit-mcq-10",
-        "commit-mcq-05"
+        "commit-mcq-01",
+        "commit-mcq-16",
+        "commit-mcq-28"
       ],
       "explanation": "本句的「committing an offence」指「犯下罪行／違規」。",
       "sentenceIndex": 21,
@@ -1267,12 +1189,10 @@ export default {
         "committing an offence"
       ],
       "optionReasons": {
-        "commit-mcq-08": "本句指「犯下罪行／違規」。",
-        "commit-mcq-07": "「犯罪」與本句語境不同。",
-        "commit-mcq-09": "「犯錯」與本句語境不同。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。",
-        "commit-mcq-10": "「把 X 記牢」與本句語境不同。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。"
+        "commit-mcq-08": "本句的「committing an offence」指「犯下罪行／違規」。",
+        "commit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-08"
     },
@@ -1284,11 +1204,9 @@ export default {
       "masked": "Drivers who ____ may lose their licence.",
       "options": [
         "commit-mcq-08",
-        "commit-mcq-07",
-        "commit-mcq-09",
-        "commit-mcq-06",
-        "commit-mcq-10",
-        "commit-mcq-05"
+        "commit-mcq-25",
+        "commit-mcq-15",
+        "commit-mcq-10"
       ],
       "explanation": "本句的「commit serious offences」指「犯下罪行／違規」。",
       "sentenceIndex": 22,
@@ -1297,12 +1215,10 @@ export default {
         "commit serious offences"
       ],
       "optionReasons": {
-        "commit-mcq-08": "本句指「犯下罪行／違規」。",
-        "commit-mcq-07": "「犯罪」與本句語境不同。",
-        "commit-mcq-09": "「犯錯」與本句語境不同。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。",
-        "commit-mcq-10": "「把 X 記牢」與本句語境不同。",
-        "commit-mcq-05": "「投入時間／心力」與本句語境不同。"
+        "commit-mcq-08": "本句的「commit serious offences」指「犯下罪行／違規」。",
+        "commit-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-08"
     },
@@ -1314,11 +1230,9 @@ export default {
       "masked": "The system ____ during processing.",
       "options": [
         "commit-mcq-09",
-        "commit-mcq-08",
-        "commit-mcq-10",
-        "commit-mcq-07",
-        "commit-mcq-11",
-        "commit-mcq-06"
+        "commit-mcq-17",
+        "commit-mcq-02",
+        "commit-mcq-24"
       ],
       "explanation": "本句的「committed an error」指「犯錯」。",
       "sentenceIndex": 23,
@@ -1327,12 +1241,10 @@ export default {
         "committed an error"
       ],
       "optionReasons": {
-        "commit-mcq-09": "本句指「犯錯」。",
-        "commit-mcq-08": "「犯下罪行／違規」與本句語境不同。",
-        "commit-mcq-10": "「把 X 記牢」與本句語境不同。",
-        "commit-mcq-07": "「犯罪」與本句語境不同。",
-        "commit-mcq-11": "「把 X 寫成書面」與本句語境不同。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。"
+        "commit-mcq-09": "本句的「committed an error」指「犯錯」。",
+        "commit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-09"
     },
@@ -1344,11 +1256,9 @@ export default {
       "masked": "Several procedural errors were ____.",
       "options": [
         "commit-mcq-09",
-        "commit-mcq-08",
-        "commit-mcq-10",
-        "commit-mcq-07",
+        "commit-mcq-27",
         "commit-mcq-11",
-        "commit-mcq-06"
+        "commit-mcq-23"
       ],
       "explanation": "本句的「committed」指「犯錯」。",
       "sentenceIndex": 24,
@@ -1357,12 +1267,10 @@ export default {
         "committed"
       ],
       "optionReasons": {
-        "commit-mcq-09": "本句指「犯錯」。",
-        "commit-mcq-08": "「犯下罪行／違規」與本句語境不同。",
-        "commit-mcq-10": "「把 X 記牢」與本句語境不同。",
-        "commit-mcq-07": "「犯罪」與本句語境不同。",
-        "commit-mcq-11": "「把 X 寫成書面」與本句語境不同。",
-        "commit-mcq-06": "「撥出資金／資源」與本句語境不同。"
+        "commit-mcq-09": "本句的「committed」指「犯錯」。",
+        "commit-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-09"
     },
@@ -1374,11 +1282,9 @@ export default {
       "masked": "Try to ____.",
       "options": [
         "commit-mcq-10",
-        "commit-mcq-09",
-        "commit-mcq-11",
-        "commit-mcq-08",
-        "commit-mcq-12",
-        "commit-mcq-07"
+        "commit-mcq-15",
+        "commit-mcq-01",
+        "commit-mcq-24"
       ],
       "explanation": "本句的「commit these words to memory」指「把 X 記牢」。",
       "sentenceIndex": 25,
@@ -1387,12 +1293,10 @@ export default {
         "commit these words to memory"
       ],
       "optionReasons": {
-        "commit-mcq-10": "本句指「把 X 記牢」。",
-        "commit-mcq-09": "「犯錯」與本句語境不同。",
-        "commit-mcq-11": "「把 X 寫成書面」與本句語境不同。",
-        "commit-mcq-08": "「犯下罪行／違規」與本句語境不同。",
-        "commit-mcq-12": "「正式送入機構」與本句語境不同。",
-        "commit-mcq-07": "「犯罪」與本句語境不同。"
+        "commit-mcq-10": "本句的「commit these words to memory」指「把 X 記牢」。",
+        "commit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-10"
     },
@@ -1404,11 +1308,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "commit-mcq-10",
+        "commit-pdf-001",
         "commit-mcq-09",
-        "commit-mcq-11",
-        "commit-mcq-08",
-        "commit-mcq-12",
-        "commit-mcq-07"
+        "commit-mcq-05"
       ],
       "explanation": "本句的「committed the speech to memory」指「把 X 記牢」。",
       "sentenceIndex": 26,
@@ -1417,12 +1319,10 @@ export default {
         "committed the speech to memory"
       ],
       "optionReasons": {
-        "commit-mcq-10": "本句指「把 X 記牢」。",
-        "commit-mcq-09": "「犯錯」與本句語境不同。",
-        "commit-mcq-11": "「把 X 寫成書面」與本句語境不同。",
-        "commit-mcq-08": "「犯下罪行／違規」與本句語境不同。",
-        "commit-mcq-12": "「正式送入機構」與本句語境不同。",
-        "commit-mcq-07": "「犯罪」與本句語境不同。"
+        "commit-mcq-10": "本句的「committed the speech to memory」指「把 X 記牢」。",
+        "commit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-10"
     },
@@ -1434,11 +1334,9 @@ export default {
       "masked": "We should ____.",
       "options": [
         "commit-mcq-11",
-        "commit-mcq-10",
-        "commit-mcq-12",
-        "commit-mcq-09",
-        "commit-mcq-13",
-        "commit-mcq-08"
+        "commit-mcq-24",
+        "commit-mcq-08",
+        "commit-mcq-18"
       ],
       "explanation": "本句的「commit the agreement to writing」指「把 X 寫成書面」。",
       "sentenceIndex": 27,
@@ -1447,12 +1345,10 @@ export default {
         "commit the agreement to writing"
       ],
       "optionReasons": {
-        "commit-mcq-11": "本句指「把 X 寫成書面」。",
-        "commit-mcq-10": "「把 X 記牢」與本句語境不同。",
-        "commit-mcq-12": "「正式送入機構」與本句語境不同。",
-        "commit-mcq-09": "「犯錯」與本句語境不同。",
-        "commit-mcq-13": "「提交程式碼」與本句語境不同。",
-        "commit-mcq-08": "「犯下罪行／違規」與本句語境不同。"
+        "commit-mcq-11": "本句的「commit the agreement to writing」指「把 X 寫成書面」。",
+        "commit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-11"
     },
@@ -1464,11 +1360,9 @@ export default {
       "masked": "He refused to ____.",
       "options": [
         "commit-mcq-11",
-        "commit-mcq-10",
-        "commit-mcq-12",
-        "commit-mcq-09",
-        "commit-mcq-13",
-        "commit-mcq-08"
+        "commit-mcq-20",
+        "commit-mcq-04",
+        "commit-mcq-23"
       ],
       "explanation": "本句的「commit his promise to writing」指「把 X 寫成書面」。",
       "sentenceIndex": 28,
@@ -1477,12 +1371,10 @@ export default {
         "commit his promise to writing"
       ],
       "optionReasons": {
-        "commit-mcq-11": "本句指「把 X 寫成書面」。",
-        "commit-mcq-10": "「把 X 記牢」與本句語境不同。",
-        "commit-mcq-12": "「正式送入機構」與本句語境不同。",
-        "commit-mcq-09": "「犯錯」與本句語境不同。",
-        "commit-mcq-13": "「提交程式碼」與本句語境不同。",
-        "commit-mcq-08": "「犯下罪行／違規」與本句語境不同。"
+        "commit-mcq-11": "本句的「commit his promise to writing」指「把 X 寫成書面」。",
+        "commit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-11"
     },
@@ -1494,11 +1386,9 @@ export default {
       "masked": "The court ordered that he be ____.",
       "options": [
         "commit-mcq-12",
-        "commit-mcq-11",
-        "commit-mcq-13",
-        "commit-mcq-10",
-        "commit-mcq-14",
-        "commit-mcq-09"
+        "commit-mcq-06",
+        "commit-mcq-15",
+        "commit-mcq-07"
       ],
       "explanation": "本句的「committed to a secure institution」指「正式送入機構」。",
       "sentenceIndex": 31,
@@ -1507,12 +1397,10 @@ export default {
         "committed to a secure institution"
       ],
       "optionReasons": {
-        "commit-mcq-12": "本句指「正式送入機構」。",
-        "commit-mcq-11": "「把 X 寫成書面」與本句語境不同。",
-        "commit-mcq-13": "「提交程式碼」與本句語境不同。",
-        "commit-mcq-10": "「把 X 記牢」與本句語境不同。",
-        "commit-mcq-14": "「一次提交紀錄」與本句語境不同。",
-        "commit-mcq-09": "「犯錯」與本句語境不同。"
+        "commit-mcq-12": "本句的「committed to a secure institution」指「正式送入機構」。",
+        "commit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-12"
     },
@@ -1524,11 +1412,9 @@ export default {
       "masked": "In some legal systems, a person may be ____ under specific conditions.",
       "options": [
         "commit-mcq-12",
-        "commit-mcq-11",
-        "commit-mcq-13",
-        "commit-mcq-10",
-        "commit-mcq-14",
-        "commit-mcq-09"
+        "commit-mcq-15",
+        "commit-mcq-25",
+        "commit-mcq-18"
       ],
       "explanation": "本句的「committed to hospital」指「正式送入機構」。",
       "sentenceIndex": 32,
@@ -1537,12 +1423,10 @@ export default {
         "committed to hospital"
       ],
       "optionReasons": {
-        "commit-mcq-12": "本句指「正式送入機構」。",
-        "commit-mcq-11": "「把 X 寫成書面」與本句語境不同。",
-        "commit-mcq-13": "「提交程式碼」與本句語境不同。",
-        "commit-mcq-10": "「把 X 記牢」與本句語境不同。",
-        "commit-mcq-14": "「一次提交紀錄」與本句語境不同。",
-        "commit-mcq-09": "「犯錯」與本句語境不同。"
+        "commit-mcq-12": "本句的「committed to hospital」指「正式送入機構」。",
+        "commit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-12"
     },
@@ -1554,11 +1438,9 @@ export default {
       "masked": "The defendant was ____.",
       "options": [
         "commit-pdf-001",
-        "commit-mcq-11",
-        "commit-mcq-13",
         "commit-mcq-10",
-        "commit-mcq-14",
-        "commit-mcq-09"
+        "commit-mcq-05",
+        "commit-mcq-04"
       ],
       "explanation": "本句的「committed for trial」指「formal/legal: 正式把案件送交較高級法院審理」。",
       "sentenceIndex": 33,
@@ -1567,12 +1449,10 @@ export default {
         "committed for trial"
       ],
       "optionReasons": {
-        "commit-pdf-001": "本句指「formal/legal: 正式把案件送交較高級法院審理」。",
-        "commit-mcq-11": "「把 X 寫成書面」與本句語境不同。",
-        "commit-mcq-13": "「提交程式碼」與本句語境不同。",
-        "commit-mcq-10": "「把 X 記牢」與本句語境不同。",
-        "commit-mcq-14": "「一次提交紀錄」與本句語境不同。",
-        "commit-mcq-09": "「犯錯」與本句語境不同。"
+        "commit-pdf-001": "本句的「committed for trial」指「formal/legal: 正式把案件送交較高級法院審理」。",
+        "commit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-pdf-001"
     },
@@ -1584,11 +1464,9 @@ export default {
       "masked": "The case was serious enough for the accused to be ____.",
       "options": [
         "commit-pdf-001",
-        "commit-mcq-11",
-        "commit-mcq-13",
         "commit-mcq-10",
-        "commit-mcq-14",
-        "commit-mcq-09"
+        "commit-mcq-09",
+        "commit-mcq-22"
       ],
       "explanation": "本句的「committed for trial」指「formal/legal: 正式把案件送交較高級法院審理」。",
       "sentenceIndex": 34,
@@ -1597,12 +1475,10 @@ export default {
         "committed for trial"
       ],
       "optionReasons": {
-        "commit-pdf-001": "本句指「formal/legal: 正式把案件送交較高級法院審理」。",
-        "commit-mcq-11": "「把 X 寫成書面」與本句語境不同。",
-        "commit-mcq-13": "「提交程式碼」與本句語境不同。",
-        "commit-mcq-10": "「把 X 記牢」與本句語境不同。",
-        "commit-mcq-14": "「一次提交紀錄」與本句語境不同。",
-        "commit-mcq-09": "「犯錯」與本句語境不同。"
+        "commit-pdf-001": "本句的「committed for trial」指「formal/legal: 正式把案件送交較高級法院審理」。",
+        "commit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-pdf-001"
     },
@@ -1614,11 +1490,9 @@ export default {
       "masked": "I ____ to the repository.",
       "options": [
         "commit-pdf-002",
-        "commit-mcq-12",
-        "commit-mcq-14",
-        "commit-mcq-11",
-        "commit-mcq-15",
-        "commit-mcq-10"
+        "commit-mcq-16",
+        "commit-mcq-08",
+        "commit-mcq-19"
       ],
       "explanation": "本句的「committed the changes」指「在版本控制系統中正式記錄一組修改」。",
       "sentenceIndex": 35,
@@ -1627,12 +1501,10 @@ export default {
         "committed the changes"
       ],
       "optionReasons": {
-        "commit-pdf-002": "本句指「在版本控制系統中正式記錄一組修改」。",
-        "commit-mcq-12": "「正式送入機構」與本句語境不同。",
-        "commit-mcq-14": "「一次提交紀錄」與本句語境不同。",
-        "commit-mcq-11": "「把 X 寫成書面」與本句語境不同。",
-        "commit-mcq-15": "「提交／確認交易」與本句語境不同。",
-        "commit-mcq-10": "「把 X 記牢」與本句語境不同。"
+        "commit-pdf-002": "本句的「committed the changes」指「在版本控制系統中正式記錄一組修改」。",
+        "commit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-pdf-002"
     },
@@ -1644,11 +1516,9 @@ export default {
       "masked": "Remember to ____ before switching branches.",
       "options": [
         "commit-pdf-002",
-        "commit-mcq-12",
-        "commit-mcq-14",
-        "commit-mcq-11",
-        "commit-mcq-15",
-        "commit-mcq-10"
+        "commit-mcq-17",
+        "commit-mcq-07",
+        "commit-mcq-03"
       ],
       "explanation": "本句的「commit your code」指「在版本控制系統中正式記錄一組修改」。",
       "sentenceIndex": 36,
@@ -1657,12 +1527,10 @@ export default {
         "commit your code"
       ],
       "optionReasons": {
-        "commit-pdf-002": "本句指「在版本控制系統中正式記錄一組修改」。",
-        "commit-mcq-12": "「正式送入機構」與本句語境不同。",
-        "commit-mcq-14": "「一次提交紀錄」與本句語境不同。",
-        "commit-mcq-11": "「把 X 寫成書面」與本句語境不同。",
-        "commit-mcq-15": "「提交／確認交易」與本句語境不同。",
-        "commit-mcq-10": "「把 X 記牢」與本句語境不同。"
+        "commit-pdf-002": "本句的「commit your code」指「在版本控制系統中正式記錄一組修改」。",
+        "commit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-pdf-002"
     },
@@ -1674,11 +1542,9 @@ export default {
       "masked": "The latest ____ fixed the bug.",
       "options": [
         "commit-mcq-14",
-        "commit-mcq-13",
-        "commit-mcq-15",
-        "commit-mcq-12",
-        "commit-mcq-16",
-        "commit-mcq-11"
+        "commit-mcq-08",
+        "commit-mcq-19",
+        "commit-mcq-04"
       ],
       "explanation": "本句的「commit」指「一次提交紀錄」。",
       "sentenceIndex": 37,
@@ -1687,12 +1553,10 @@ export default {
         "commit"
       ],
       "optionReasons": {
-        "commit-mcq-14": "本句指「一次提交紀錄」。",
-        "commit-mcq-13": "「提交程式碼」與本句語境不同。",
-        "commit-mcq-15": "「提交／確認交易」與本句語境不同。",
-        "commit-mcq-12": "「正式送入機構」與本句語境不同。",
-        "commit-mcq-16": "「承諾」與本句語境不同。",
-        "commit-mcq-11": "「把 X 寫成書面」與本句語境不同。"
+        "commit-mcq-14": "本句的「commit」指「一次提交紀錄」。",
+        "commit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-14"
     },
@@ -1704,11 +1568,9 @@ export default {
       "masked": "Each ____ has its own identifier.",
       "options": [
         "commit-mcq-14",
-        "commit-mcq-13",
-        "commit-mcq-15",
-        "commit-mcq-12",
-        "commit-mcq-16",
-        "commit-mcq-11"
+        "commit-mcq-17",
+        "commit-mcq-19",
+        "commit-mcq-22"
       ],
       "explanation": "本句的「commit」指「一次提交紀錄」。",
       "sentenceIndex": 38,
@@ -1717,12 +1579,10 @@ export default {
         "commit"
       ],
       "optionReasons": {
-        "commit-mcq-14": "本句指「一次提交紀錄」。",
-        "commit-mcq-13": "「提交程式碼」與本句語境不同。",
-        "commit-mcq-15": "「提交／確認交易」與本句語境不同。",
-        "commit-mcq-12": "「正式送入機構」與本句語境不同。",
-        "commit-mcq-16": "「承諾」與本句語境不同。",
-        "commit-mcq-11": "「把 X 寫成書面」與本句語境不同。"
+        "commit-mcq-14": "本句的「commit」指「一次提交紀錄」。",
+        "commit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-14"
     },
@@ -1734,11 +1594,9 @@ export default {
       "masked": "The database ____ after all checks pass.",
       "options": [
         "commit-mcq-15",
-        "commit-mcq-14",
-        "commit-mcq-16",
-        "commit-mcq-13",
-        "commit-mcq-17",
-        "commit-mcq-12"
+        "commit-mcq-20",
+        "commit-mcq-12",
+        "commit-mcq-11"
       ],
       "explanation": "本句的「commits the transaction」指「提交／確認交易」。",
       "sentenceIndex": 39,
@@ -1747,12 +1605,10 @@ export default {
         "commits the transaction"
       ],
       "optionReasons": {
-        "commit-mcq-15": "本句指「提交／確認交易」。",
-        "commit-mcq-14": "「一次提交紀錄」與本句語境不同。",
-        "commit-mcq-16": "「承諾」與本句語境不同。",
-        "commit-mcq-13": "「提交程式碼」與本句語境不同。",
-        "commit-mcq-17": "「作出承諾」與本句語境不同。",
-        "commit-mcq-12": "「正式送入機構」與本句語境不同。"
+        "commit-mcq-15": "本句的「commits the transaction」指「提交／確認交易」。",
+        "commit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-15"
     },
@@ -1764,11 +1620,9 @@ export default {
       "masked": "Changes are not permanent until the transaction is ____.",
       "options": [
         "commit-mcq-15",
-        "commit-mcq-14",
-        "commit-mcq-16",
-        "commit-mcq-13",
-        "commit-mcq-17",
-        "commit-mcq-12"
+        "commit-mcq-01",
+        "commit-mcq-18",
+        "commit-mcq-10"
       ],
       "explanation": "本句的「committed」指「提交／確認交易」。",
       "sentenceIndex": 40,
@@ -1777,12 +1631,10 @@ export default {
         "committed"
       ],
       "optionReasons": {
-        "commit-mcq-15": "本句指「提交／確認交易」。",
-        "commit-mcq-14": "「一次提交紀錄」與本句語境不同。",
-        "commit-mcq-16": "「承諾」與本句語境不同。",
-        "commit-mcq-13": "「提交程式碼」與本句語境不同。",
-        "commit-mcq-17": "「作出承諾」與本句語境不同。",
-        "commit-mcq-12": "「正式送入機構」與本句語境不同。"
+        "commit-mcq-15": "本句的「committed」指「提交／確認交易」。",
+        "commit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-15"
     },
@@ -1794,11 +1646,9 @@ export default {
       "masked": "She made a ____.",
       "options": [
         "commit-mcq-16",
-        "commit-mcq-15",
-        "commit-mcq-17",
-        "commit-mcq-14",
-        "commit-mcq-18",
-        "commit-mcq-13"
+        "commit-mcq-06",
+        "commit-mcq-22",
+        "commit-mcq-24"
       ],
       "explanation": "本句的「commitment to improve communication」指「承諾」。",
       "sentenceIndex": 41,
@@ -1807,12 +1657,10 @@ export default {
         "commitment to improve communication"
       ],
       "optionReasons": {
-        "commit-mcq-16": "本句指「承諾」。",
-        "commit-mcq-15": "「提交／確認交易」與本句語境不同。",
-        "commit-mcq-17": "「作出承諾」與本句語境不同。",
-        "commit-mcq-14": "「一次提交紀錄」與本句語境不同。",
-        "commit-mcq-18": "「履行承諾」與本句語境不同。",
-        "commit-mcq-13": "「提交程式碼」與本句語境不同。"
+        "commit-mcq-16": "本句的「commitment to improve communication」指「承諾」。",
+        "commit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-16"
     },
@@ -1824,11 +1672,9 @@ export default {
       "masked": "The company has made a long-term ____ to staff training.",
       "options": [
         "commit-mcq-16",
+        "commit-mcq-02",
         "commit-mcq-15",
-        "commit-mcq-17",
-        "commit-mcq-14",
-        "commit-mcq-18",
-        "commit-mcq-13"
+        "commit-mcq-10"
       ],
       "explanation": "本句的「commitment」指「承諾」。",
       "sentenceIndex": 42,
@@ -1837,12 +1683,10 @@ export default {
         "commitment"
       ],
       "optionReasons": {
-        "commit-mcq-16": "本句指「承諾」。",
-        "commit-mcq-15": "「提交／確認交易」與本句語境不同。",
-        "commit-mcq-17": "「作出承諾」與本句語境不同。",
-        "commit-mcq-14": "「一次提交紀錄」與本句語境不同。",
-        "commit-mcq-18": "「履行承諾」與本句語境不同。",
-        "commit-mcq-13": "「提交程式碼」與本句語境不同。"
+        "commit-mcq-16": "本句的「commitment」指「承諾」。",
+        "commit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-16"
     },
@@ -1854,11 +1698,9 @@ export default {
       "masked": "Everyone must ____.",
       "options": [
         "commit-mcq-17",
-        "commit-mcq-16",
-        "commit-mcq-18",
-        "commit-mcq-15",
-        "commit-mcq-19",
-        "commit-mcq-14"
+        "commit-mcq-24",
+        "commit-mcq-10",
+        "commit-mcq-11"
       ],
       "explanation": "本句的「make a commitment to the team's goals」指「作出承諾」。",
       "sentenceIndex": 43,
@@ -1867,12 +1709,10 @@ export default {
         "make a commitment to the team's goals"
       ],
       "optionReasons": {
-        "commit-mcq-17": "本句指「作出承諾」。",
-        "commit-mcq-16": "「承諾」與本句語境不同。",
-        "commit-mcq-18": "「履行承諾」與本句語境不同。",
-        "commit-mcq-15": "「提交／確認交易」與本句語境不同。",
-        "commit-mcq-19": "「投入；奉獻」與本句語境不同。",
-        "commit-mcq-14": "「一次提交紀錄」與本句語境不同。"
+        "commit-mcq-17": "本句的「make a commitment to the team's goals」指「作出承諾」。",
+        "commit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-17"
     },
@@ -1884,11 +1724,9 @@ export default {
       "masked": "She was not ready to ____.",
       "options": [
         "commit-mcq-17",
-        "commit-mcq-16",
-        "commit-mcq-18",
-        "commit-mcq-15",
-        "commit-mcq-19",
-        "commit-mcq-14"
+        "commit-pdf-001",
+        "commit-mcq-01",
+        "commit-mcq-09"
       ],
       "explanation": "本句的「make a long-term commitment」指「作出承諾」。",
       "sentenceIndex": 44,
@@ -1897,12 +1735,10 @@ export default {
         "make a long-term commitment"
       ],
       "optionReasons": {
-        "commit-mcq-17": "本句指「作出承諾」。",
-        "commit-mcq-16": "「承諾」與本句語境不同。",
-        "commit-mcq-18": "「履行承諾」與本句語境不同。",
-        "commit-mcq-15": "「提交／確認交易」與本句語境不同。",
-        "commit-mcq-19": "「投入；奉獻」與本句語境不同。",
-        "commit-mcq-14": "「一次提交紀錄」與本句語境不同。"
+        "commit-mcq-17": "本句的「make a long-term commitment」指「作出承諾」。",
+        "commit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-17"
     },
@@ -1914,11 +1750,9 @@ export default {
       "masked": "The company must ____.",
       "options": [
         "commit-mcq-18",
-        "commit-mcq-17",
-        "commit-mcq-19",
-        "commit-mcq-16",
-        "commit-mcq-20",
-        "commit-mcq-15"
+        "commit-mcq-01",
+        "commit-mcq-28",
+        "commit-mcq-14"
       ],
       "explanation": "本句的「honour its commitments」指「履行承諾」。",
       "sentenceIndex": 45,
@@ -1927,12 +1761,10 @@ export default {
         "honour its commitments"
       ],
       "optionReasons": {
-        "commit-mcq-18": "本句指「履行承諾」。",
-        "commit-mcq-17": "「作出承諾」與本句語境不同。",
-        "commit-mcq-19": "「投入；奉獻」與本句語境不同。",
-        "commit-mcq-16": "「承諾」與本句語境不同。",
-        "commit-mcq-20": "「展現投入」與本句語境不同。",
-        "commit-mcq-15": "「提交／確認交易」與本句語境不同。"
+        "commit-mcq-18": "本句的「honour its commitments」指「履行承諾」。",
+        "commit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-18"
     },
@@ -1944,11 +1776,9 @@ export default {
       "masked": "He always ____.",
       "options": [
         "commit-mcq-18",
-        "commit-mcq-17",
-        "commit-mcq-19",
-        "commit-mcq-16",
-        "commit-mcq-20",
-        "commit-mcq-15"
+        "commit-mcq-06",
+        "commit-mcq-14",
+        "commit-mcq-10"
       ],
       "explanation": "本句的「fulfils his commitments」指「履行承諾」。",
       "sentenceIndex": 46,
@@ -1957,12 +1787,10 @@ export default {
         "fulfils his commitments"
       ],
       "optionReasons": {
-        "commit-mcq-18": "本句指「履行承諾」。",
-        "commit-mcq-17": "「作出承諾」與本句語境不同。",
-        "commit-mcq-19": "「投入；奉獻」與本句語境不同。",
-        "commit-mcq-16": "「承諾」與本句語境不同。",
-        "commit-mcq-20": "「展現投入」與本句語境不同。",
-        "commit-mcq-15": "「提交／確認交易」與本句語境不同。"
+        "commit-mcq-18": "本句的「fulfils his commitments」指「履行承諾」。",
+        "commit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-18"
     },
@@ -1974,11 +1802,9 @@ export default {
       "masked": "Her ____ was obvious.",
       "options": [
         "commit-mcq-19",
-        "commit-mcq-18",
-        "commit-mcq-20",
-        "commit-mcq-17",
-        "commit-mcq-21",
-        "commit-mcq-16"
+        "commit-mcq-07",
+        "commit-mcq-24",
+        "commit-mcq-18"
       ],
       "explanation": "本句的「commitment to the team」指「投入；奉獻」。",
       "sentenceIndex": 47,
@@ -1987,12 +1813,10 @@ export default {
         "commitment to the team"
       ],
       "optionReasons": {
-        "commit-mcq-19": "本句指「投入；奉獻」。",
-        "commit-mcq-18": "「履行承諾」與本句語境不同。",
-        "commit-mcq-20": "「展現投入」與本句語境不同。",
-        "commit-mcq-17": "「作出承諾」與本句語境不同。",
-        "commit-mcq-21": "「長期承諾／投入」與本句語境不同。",
-        "commit-mcq-16": "「承諾」與本句語境不同。"
+        "commit-mcq-19": "本句的「commitment to the team」指「投入；奉獻」。",
+        "commit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-19"
     },
@@ -2004,11 +1828,9 @@ export default {
       "masked": "The project requires real ____.",
       "options": [
         "commit-mcq-19",
-        "commit-mcq-18",
-        "commit-mcq-20",
-        "commit-mcq-17",
-        "commit-mcq-21",
-        "commit-mcq-16"
+        "commit-mcq-22",
+        "commit-pdf-001",
+        "commit-mcq-11"
       ],
       "explanation": "本句的「commitment」指「投入；奉獻」。",
       "sentenceIndex": 48,
@@ -2017,12 +1839,10 @@ export default {
         "commitment"
       ],
       "optionReasons": {
-        "commit-mcq-19": "本句指「投入；奉獻」。",
-        "commit-mcq-18": "「履行承諾」與本句語境不同。",
-        "commit-mcq-20": "「展現投入」與本句語境不同。",
-        "commit-mcq-17": "「作出承諾」與本句語境不同。",
-        "commit-mcq-21": "「長期承諾／投入」與本句語境不同。",
-        "commit-mcq-16": "「承諾」與本句語境不同。"
+        "commit-mcq-19": "本句的「commitment」指「投入；奉獻」。",
+        "commit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "commit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-19"
     },
@@ -2034,11 +1854,9 @@ export default {
       "masked": "Employees need to ____ to the project.",
       "options": [
         "commit-mcq-20",
-        "commit-mcq-19",
-        "commit-mcq-21",
-        "commit-mcq-18",
-        "commit-mcq-22",
-        "commit-mcq-17"
+        "commit-mcq-28",
+        "commit-mcq-23",
+        "commit-pdf-002"
       ],
       "explanation": "本句的「show commitment」指「展現投入」。",
       "sentenceIndex": 49,
@@ -2047,12 +1865,10 @@ export default {
         "show commitment"
       ],
       "optionReasons": {
-        "commit-mcq-20": "本句指「展現投入」。",
-        "commit-mcq-19": "「投入；奉獻」與本句語境不同。",
-        "commit-mcq-21": "「長期承諾／投入」與本句語境不同。",
-        "commit-mcq-18": "「履行承諾」與本句語境不同。",
-        "commit-mcq-22": "「穩定認真的感情關係」與本句語境不同。",
-        "commit-mcq-17": "「作出承諾」與本句語境不同。"
+        "commit-mcq-20": "本句的「show commitment」指「展現投入」。",
+        "commit-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "commit-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-20"
     },
@@ -2064,11 +1880,9 @@ export default {
       "masked": "She ____ by taking on extra work.",
       "options": [
         "commit-mcq-20",
-        "commit-mcq-19",
-        "commit-mcq-21",
-        "commit-mcq-18",
-        "commit-mcq-22",
-        "commit-mcq-17"
+        "commit-pdf-001",
+        "commit-mcq-16",
+        "commit-mcq-14"
       ],
       "explanation": "本句的「demonstrated commitment」指「展現投入」。",
       "sentenceIndex": 50,
@@ -2077,12 +1891,10 @@ export default {
         "demonstrated commitment"
       ],
       "optionReasons": {
-        "commit-mcq-20": "本句指「展現投入」。",
-        "commit-mcq-19": "「投入；奉獻」與本句語境不同。",
-        "commit-mcq-21": "「長期承諾／投入」與本句語境不同。",
-        "commit-mcq-18": "「履行承諾」與本句語境不同。",
-        "commit-mcq-22": "「穩定認真的感情關係」與本句語境不同。",
-        "commit-mcq-17": "「作出承諾」與本句語境不同。"
+        "commit-mcq-20": "本句的「demonstrated commitment」指「展現投入」。",
+        "commit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-20"
     },
@@ -2094,11 +1906,9 @@ export default {
       "masked": "Learning a language requires ____.",
       "options": [
         "commit-mcq-21",
-        "commit-mcq-20",
-        "commit-mcq-22",
-        "commit-mcq-19",
-        "commit-mcq-23",
-        "commit-mcq-18"
+        "commit-mcq-24",
+        "commit-mcq-10",
+        "commit-mcq-07"
       ],
       "explanation": "本句的「long-term commitment」指「長期承諾／投入」。",
       "sentenceIndex": 51,
@@ -2107,12 +1917,10 @@ export default {
         "long-term commitment"
       ],
       "optionReasons": {
-        "commit-mcq-21": "本句指「長期承諾／投入」。",
-        "commit-mcq-20": "「展現投入」與本句語境不同。",
-        "commit-mcq-22": "「穩定認真的感情關係」與本句語境不同。",
-        "commit-mcq-19": "「投入；奉獻」與本句語境不同。",
-        "commit-mcq-23": "「責任；既定安排」與本句語境不同。",
-        "commit-mcq-18": "「履行承諾」與本句語境不同。"
+        "commit-mcq-21": "本句的「long-term commitment」指「長期承諾／投入」。",
+        "commit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-21"
     },
@@ -2124,11 +1932,9 @@ export default {
       "masked": "The project represents a ____.",
       "options": [
         "commit-mcq-21",
-        "commit-mcq-20",
-        "commit-mcq-22",
-        "commit-mcq-19",
-        "commit-mcq-23",
-        "commit-mcq-18"
+        "commit-mcq-11",
+        "commit-mcq-28",
+        "commit-pdf-001"
       ],
       "explanation": "本句的「long-term commitment」指「長期承諾／投入」。",
       "sentenceIndex": 52,
@@ -2137,12 +1943,10 @@ export default {
         "long-term commitment"
       ],
       "optionReasons": {
-        "commit-mcq-21": "本句指「長期承諾／投入」。",
-        "commit-mcq-20": "「展現投入」與本句語境不同。",
-        "commit-mcq-22": "「穩定認真的感情關係」與本句語境不同。",
-        "commit-mcq-19": "「投入；奉獻」與本句語境不同。",
-        "commit-mcq-23": "「責任；既定安排」與本句語境不同。",
-        "commit-mcq-18": "「履行承諾」與本句語境不同。"
+        "commit-mcq-21": "本句的「long-term commitment」指「長期承諾／投入」。",
+        "commit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "commit-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-21"
     },
@@ -2154,11 +1958,9 @@ export default {
       "masked": "They are in a ____.",
       "options": [
         "commit-mcq-22",
-        "commit-mcq-21",
-        "commit-mcq-23",
-        "commit-mcq-20",
-        "commit-mcq-24",
-        "commit-mcq-19"
+        "commit-mcq-26",
+        "commit-mcq-16",
+        "commit-mcq-11"
       ],
       "explanation": "本句的「committed relationship」指「穩定認真的感情關係」。",
       "sentenceIndex": 53,
@@ -2167,12 +1969,10 @@ export default {
         "committed relationship"
       ],
       "optionReasons": {
-        "commit-mcq-22": "本句指「穩定認真的感情關係」。",
-        "commit-mcq-21": "「長期承諾／投入」與本句語境不同。",
-        "commit-mcq-23": "「責任；既定安排」與本句語境不同。",
-        "commit-mcq-20": "「展現投入」與本句語境不同。",
-        "commit-mcq-24": "「先前已有安排」與本句語境不同。",
-        "commit-mcq-19": "「投入；奉獻」與本句語境不同。"
+        "commit-mcq-22": "本句的「committed relationship」指「穩定認真的感情關係」。",
+        "commit-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-22"
     },
@@ -2184,11 +1984,9 @@ export default {
       "masked": "He was looking for a ____, not something casual.",
       "options": [
         "commit-mcq-22",
-        "commit-mcq-21",
-        "commit-mcq-23",
-        "commit-mcq-20",
-        "commit-mcq-24",
-        "commit-mcq-19"
+        "commit-mcq-17",
+        "commit-mcq-03",
+        "commit-mcq-24"
       ],
       "explanation": "本句的「committed relationship」指「穩定認真的感情關係」。",
       "sentenceIndex": 54,
@@ -2197,12 +1995,10 @@ export default {
         "committed relationship"
       ],
       "optionReasons": {
-        "commit-mcq-22": "本句指「穩定認真的感情關係」。",
-        "commit-mcq-21": "「長期承諾／投入」與本句語境不同。",
-        "commit-mcq-23": "「責任；既定安排」與本句語境不同。",
-        "commit-mcq-20": "「展現投入」與本句語境不同。",
-        "commit-mcq-24": "「先前已有安排」與本句語境不同。",
-        "commit-mcq-19": "「投入；奉獻」與本句語境不同。"
+        "commit-mcq-22": "本句的「committed relationship」指「穩定認真的感情關係」。",
+        "commit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-22"
     },
@@ -2214,11 +2010,9 @@ export default {
       "masked": "I can't attend because I have another ____.",
       "options": [
         "commit-mcq-23",
-        "commit-mcq-22",
-        "commit-mcq-24",
-        "commit-mcq-21",
-        "commit-mcq-25",
-        "commit-mcq-20"
+        "commit-mcq-01",
+        "commit-mcq-11",
+        "commit-mcq-08"
       ],
       "explanation": "本句的「commitment」指「責任；既定安排」。",
       "sentenceIndex": 55,
@@ -2227,12 +2021,10 @@ export default {
         "commitment"
       ],
       "optionReasons": {
-        "commit-mcq-23": "本句指「責任；既定安排」。",
-        "commit-mcq-22": "「穩定認真的感情關係」與本句語境不同。",
-        "commit-mcq-24": "「先前已有安排」與本句語境不同。",
-        "commit-mcq-21": "「長期承諾／投入」與本句語境不同。",
-        "commit-mcq-25": "「財務承擔」與本句語境不同。",
-        "commit-mcq-20": "「展現投入」與本句語境不同。"
+        "commit-mcq-23": "本句的「commitment」指「責任；既定安排」。",
+        "commit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-23"
     },
@@ -2244,11 +2036,9 @@ export default {
       "masked": "She has too many work and family ____.",
       "options": [
         "commit-mcq-23",
-        "commit-mcq-22",
-        "commit-mcq-24",
-        "commit-mcq-21",
-        "commit-mcq-25",
-        "commit-mcq-20"
+        "commit-mcq-12",
+        "commit-mcq-06",
+        "commit-mcq-14"
       ],
       "explanation": "本句的「commitments」指「責任；既定安排」。",
       "sentenceIndex": 56,
@@ -2257,12 +2047,10 @@ export default {
         "commitments"
       ],
       "optionReasons": {
-        "commit-mcq-23": "本句指「責任；既定安排」。",
-        "commit-mcq-22": "「穩定認真的感情關係」與本句語境不同。",
-        "commit-mcq-24": "「先前已有安排」與本句語境不同。",
-        "commit-mcq-21": "「長期承諾／投入」與本句語境不同。",
-        "commit-mcq-25": "「財務承擔」與本句語境不同。",
-        "commit-mcq-20": "「展現投入」與本句語境不同。"
+        "commit-mcq-23": "本句的「commitments」指「責任；既定安排」。",
+        "commit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-23"
     },
@@ -2274,11 +2062,9 @@ export default {
       "masked": "I have a ____ that evening.",
       "options": [
         "commit-mcq-24",
-        "commit-mcq-23",
-        "commit-mcq-25",
-        "commit-mcq-22",
-        "commit-mcq-26",
-        "commit-mcq-21"
+        "commit-mcq-19",
+        "commit-mcq-18",
+        "commit-mcq-14"
       ],
       "explanation": "本句的「prior commitment」指「先前已有安排」。",
       "sentenceIndex": 57,
@@ -2287,12 +2073,10 @@ export default {
         "prior commitment"
       ],
       "optionReasons": {
-        "commit-mcq-24": "本句指「先前已有安排」。",
-        "commit-mcq-23": "「責任；既定安排」與本句語境不同。",
-        "commit-mcq-25": "「財務承擔」與本句語境不同。",
-        "commit-mcq-22": "「穩定認真的感情關係」與本句語境不同。",
-        "commit-mcq-26": "「資源投入」與本句語境不同。",
-        "commit-mcq-21": "「長期承諾／投入」與本句語境不同。"
+        "commit-mcq-24": "本句的「prior commitment」指「先前已有安排」。",
+        "commit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-24"
     },
@@ -2304,11 +2088,9 @@ export default {
       "masked": "He declined because of an ____.",
       "options": [
         "commit-mcq-24",
-        "commit-mcq-23",
-        "commit-mcq-25",
-        "commit-mcq-22",
-        "commit-mcq-26",
-        "commit-mcq-21"
+        "commit-pdf-002",
+        "commit-mcq-17",
+        "commit-mcq-28"
       ],
       "explanation": "本句的「existing commitment」指「先前已有安排」。",
       "sentenceIndex": 58,
@@ -2317,12 +2099,10 @@ export default {
         "existing commitment"
       ],
       "optionReasons": {
-        "commit-mcq-24": "本句指「先前已有安排」。",
-        "commit-mcq-23": "「責任；既定安排」與本句語境不同。",
-        "commit-mcq-25": "「財務承擔」與本句語境不同。",
-        "commit-mcq-22": "「穩定認真的感情關係」與本句語境不同。",
-        "commit-mcq-26": "「資源投入」與本句語境不同。",
-        "commit-mcq-21": "「長期承諾／投入」與本句語境不同。"
+        "commit-mcq-24": "本句的「existing commitment」指「先前已有安排」。",
+        "commit-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-24"
     },
@@ -2334,11 +2114,9 @@ export default {
       "masked": "Buying a home is a major ____.",
       "options": [
         "commit-mcq-25",
-        "commit-mcq-24",
-        "commit-mcq-26",
-        "commit-mcq-23",
-        "commit-mcq-27",
-        "commit-mcq-22"
+        "commit-mcq-15",
+        "commit-mcq-20",
+        "commit-mcq-07"
       ],
       "explanation": "本句的「financial commitment」指「財務承擔」。",
       "sentenceIndex": 59,
@@ -2347,12 +2125,10 @@ export default {
         "financial commitment"
       ],
       "optionReasons": {
-        "commit-mcq-25": "本句指「財務承擔」。",
-        "commit-mcq-24": "「先前已有安排」與本句語境不同。",
-        "commit-mcq-26": "「資源投入」與本句語境不同。",
-        "commit-mcq-23": "「責任；既定安排」與本句語境不同。",
-        "commit-mcq-27": "「未承諾／未表態的」與本句語境不同。",
-        "commit-mcq-22": "「穩定認真的感情關係」與本句語境不同。"
+        "commit-mcq-25": "本句的「financial commitment」指「財務承擔」。",
+        "commit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-25"
     },
@@ -2364,11 +2140,9 @@ export default {
       "masked": "The project involves a substantial ____.",
       "options": [
         "commit-mcq-25",
-        "commit-mcq-24",
-        "commit-mcq-26",
-        "commit-mcq-23",
-        "commit-mcq-27",
-        "commit-mcq-22"
+        "commit-mcq-22",
+        "commit-mcq-05",
+        "commit-mcq-08"
       ],
       "explanation": "本句的「financial commitment」指「財務承擔」。",
       "sentenceIndex": 60,
@@ -2377,12 +2151,10 @@ export default {
         "financial commitment"
       ],
       "optionReasons": {
-        "commit-mcq-25": "本句指「財務承擔」。",
-        "commit-mcq-24": "「先前已有安排」與本句語境不同。",
-        "commit-mcq-26": "「資源投入」與本句語境不同。",
-        "commit-mcq-23": "「責任；既定安排」與本句語境不同。",
-        "commit-mcq-27": "「未承諾／未表態的」與本句語境不同。",
-        "commit-mcq-22": "「穩定認真的感情關係」與本句語境不同。"
+        "commit-mcq-25": "本句的「financial commitment」指「財務承擔」。",
+        "commit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-25"
     },
@@ -2394,11 +2166,9 @@ export default {
       "masked": "The project requires a significant ____.",
       "options": [
         "commit-mcq-26",
-        "commit-mcq-25",
-        "commit-mcq-27",
-        "commit-mcq-24",
-        "commit-mcq-28",
-        "commit-mcq-23"
+        "commit-mcq-08",
+        "commit-mcq-18",
+        "commit-mcq-11"
       ],
       "explanation": "本句的「commitment of resources」指「資源投入」。",
       "sentenceIndex": 61,
@@ -2407,12 +2177,10 @@ export default {
         "commitment of resources"
       ],
       "optionReasons": {
-        "commit-mcq-26": "本句指「資源投入」。",
-        "commit-mcq-25": "「財務承擔」與本句語境不同。",
-        "commit-mcq-27": "「未承諾／未表態的」與本句語境不同。",
-        "commit-mcq-24": "「先前已有安排」與本句語境不同。",
-        "commit-mcq-28": "「尚未撥用的資金」與本句語境不同。",
-        "commit-mcq-23": "「責任；既定安排」與本句語境不同。"
+        "commit-mcq-26": "本句的「commitment of resources」指「資源投入」。",
+        "commit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-26"
     },
@@ -2424,11 +2192,9 @@ export default {
       "masked": "Management approved the ____.",
       "options": [
         "commit-mcq-26",
-        "commit-mcq-25",
-        "commit-mcq-27",
-        "commit-mcq-24",
-        "commit-mcq-28",
-        "commit-mcq-23"
+        "commit-pdf-001",
+        "commit-mcq-09",
+        "commit-mcq-16"
       ],
       "explanation": "本句的「resource commitment」指「資源投入」。",
       "sentenceIndex": 62,
@@ -2437,12 +2203,10 @@ export default {
         "resource commitment"
       ],
       "optionReasons": {
-        "commit-mcq-26": "本句指「資源投入」。",
-        "commit-mcq-25": "「財務承擔」與本句語境不同。",
-        "commit-mcq-27": "「未承諾／未表態的」與本句語境不同。",
-        "commit-mcq-24": "「先前已有安排」與本句語境不同。",
-        "commit-mcq-28": "「尚未撥用的資金」與本句語境不同。",
-        "commit-mcq-23": "「責任；既定安排」與本句語境不同。"
+        "commit-mcq-26": "本句的「resource commitment」指「資源投入」。",
+        "commit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-26"
     },
@@ -2454,10 +2218,8 @@ export default {
       "masked": "Several members remained ____.",
       "options": [
         "commit-mcq-27",
-        "commit-mcq-26",
-        "commit-mcq-28",
-        "commit-mcq-25",
-        "commit-mcq-24",
+        "commit-pdf-002",
+        "commit-mcq-05",
         "commit-mcq-23"
       ],
       "explanation": "本句的「uncommitted」指「未承諾／未表態的」。",
@@ -2467,12 +2229,10 @@ export default {
         "uncommitted"
       ],
       "optionReasons": {
-        "commit-mcq-27": "本句指「未承諾／未表態的」。",
-        "commit-mcq-26": "「資源投入」與本句語境不同。",
-        "commit-mcq-28": "「尚未撥用的資金」與本句語境不同。",
-        "commit-mcq-25": "「財務承擔」與本句語境不同。",
-        "commit-mcq-24": "「先前已有安排」與本句語境不同。",
-        "commit-mcq-23": "「責任；既定安排」與本句語境不同。"
+        "commit-mcq-27": "本句的「uncommitted」指「未承諾／未表態的」。",
+        "commit-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-27"
     },
@@ -2484,11 +2244,9 @@ export default {
       "masked": "The money remains ____.",
       "options": [
         "commit-mcq-27",
-        "commit-mcq-26",
-        "commit-mcq-28",
-        "commit-mcq-25",
-        "commit-mcq-24",
-        "commit-mcq-23"
+        "commit-mcq-05",
+        "commit-mcq-22",
+        "commit-mcq-08"
       ],
       "explanation": "本句的「uncommitted」指「未承諾／未表態的」。",
       "sentenceIndex": 64,
@@ -2497,12 +2255,10 @@ export default {
         "uncommitted"
       ],
       "optionReasons": {
-        "commit-mcq-27": "本句指「未承諾／未表態的」。",
-        "commit-mcq-26": "「資源投入」與本句語境不同。",
-        "commit-mcq-28": "「尚未撥用的資金」與本句語境不同。",
-        "commit-mcq-25": "「財務承擔」與本句語境不同。",
-        "commit-mcq-24": "「先前已有安排」與本句語境不同。",
-        "commit-mcq-23": "「責任；既定安排」與本句語境不同。"
+        "commit-mcq-27": "本句的「uncommitted」指「未承諾／未表態的」。",
+        "commit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-27"
     },
@@ -2514,11 +2270,9 @@ export default {
       "masked": "The department still has some ____.",
       "options": [
         "commit-mcq-28",
-        "commit-mcq-27",
-        "commit-mcq-26",
-        "commit-mcq-25",
-        "commit-mcq-24",
-        "commit-mcq-23"
+        "commit-mcq-23",
+        "commit-mcq-08",
+        "commit-mcq-12"
       ],
       "explanation": "本句的「uncommitted funds」指「尚未撥用的資金」。",
       "sentenceIndex": 65,
@@ -2527,12 +2281,10 @@ export default {
         "uncommitted funds"
       ],
       "optionReasons": {
-        "commit-mcq-28": "本句指「尚未撥用的資金」。",
-        "commit-mcq-27": "「未承諾／未表態的」與本句語境不同。",
-        "commit-mcq-26": "「資源投入」與本句語境不同。",
-        "commit-mcq-25": "「財務承擔」與本句語境不同。",
-        "commit-mcq-24": "「先前已有安排」與本句語境不同。",
-        "commit-mcq-23": "「責任；既定安排」與本句語境不同。"
+        "commit-mcq-28": "本句的「uncommitted funds」指「尚未撥用的資金」。",
+        "commit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "commit-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "commit-mcq-28"
     }
@@ -2544,5 +2296,7 @@ export default {
     "sha256": "12d8413e6f9762bccc4643aab570d8b58e269c268bf2e40716fa640f464cc0a2",
     "pages": 25
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

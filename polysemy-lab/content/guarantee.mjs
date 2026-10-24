@@ -322,11 +322,8 @@ export default {
       "masked": "Good quality does not ____ success.",
       "options": [
         "guarantee-mcq-01",
-        "guarantee-mcq-02",
-        "guarantee-mcq-03",
-        "guarantee-mcq-04",
-        "guarantee-mcq-05",
-        "guarantee-mcq-06"
+        "guarantee-mcq-07",
+        "guarantee-mcq-10"
       ],
       "explanation": "本句的「guarantee」指「明確保證／使某結果一定會發生或某事一定屬實」。",
       "sentenceIndex": 0,
@@ -335,12 +332,9 @@ export default {
         "guarantee"
       ],
       "optionReasons": {
-        "guarantee-mcq-01": "本句指「明確保證／使某結果一定會發生或某事一定屬實」。",
-        "guarantee-mcq-02": "「某結果被視為確定、必然或有正式保證」與本句語境不同。",
-        "guarantee-mcq-03": "「確保某項結果、權利或利益」與本句語境不同。",
-        "guarantee-mcq-04": "「正式保證某個完整陳述為真或會實現」與本句語境不同。",
-        "guarantee-mcq-05": "「正式保證某人可以得到某項權利／利益」與本句語境不同。",
-        "guarantee-mcq-06": "「對產品品質、維修、更換或退款作出的正式承諾」與本句語境不同。"
+        "guarantee-mcq-01": "本句的「guarantee」指「明確保證／使某結果一定會發生或某事一定屬實」。",
+        "guarantee-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-01"
     },
@@ -352,10 +346,7 @@ export default {
       "masked": "Nothing can ____ that customers will return.",
       "options": [
         "guarantee-mcq-01",
-        "guarantee-mcq-02",
-        "guarantee-mcq-03",
-        "guarantee-mcq-04",
-        "guarantee-mcq-05",
+        "guarantee-mcq-10",
         "guarantee-mcq-06"
       ],
       "explanation": "本句的「guarantee」指「明確保證／使某結果一定會發生或某事一定屬實」。",
@@ -365,12 +356,9 @@ export default {
         "guarantee"
       ],
       "optionReasons": {
-        "guarantee-mcq-01": "本句指「明確保證／使某結果一定會發生或某事一定屬實」。",
-        "guarantee-mcq-02": "「某結果被視為確定、必然或有正式保證」與本句語境不同。",
-        "guarantee-mcq-03": "「確保某項結果、權利或利益」與本句語境不同。",
-        "guarantee-mcq-04": "「正式保證某個完整陳述為真或會實現」與本句語境不同。",
-        "guarantee-mcq-05": "「正式保證某人可以得到某項權利／利益」與本句語境不同。",
-        "guarantee-mcq-06": "「對產品品質、維修、更換或退款作出的正式承諾」與本句語境不同。"
+        "guarantee-mcq-01": "本句的「guarantee」指「明確保證／使某結果一定會發生或某事一定屬實」。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-01"
     },
@@ -382,11 +370,8 @@ export default {
       "masked": "Success is never ____.",
       "options": [
         "guarantee-mcq-02",
-        "guarantee-mcq-01",
-        "guarantee-mcq-03",
-        "guarantee-mcq-04",
-        "guarantee-mcq-05",
-        "guarantee-mcq-06"
+        "guarantee-mcq-10",
+        "guarantee-mcq-12"
       ],
       "explanation": "本句的「guaranteed」指「某結果被視為確定、必然或有正式保證」。",
       "sentenceIndex": 2,
@@ -395,12 +380,9 @@ export default {
         "guaranteed"
       ],
       "optionReasons": {
-        "guarantee-mcq-02": "本句指「某結果被視為確定、必然或有正式保證」。",
-        "guarantee-mcq-01": "「明確保證／使某結果一定會發生或某事一定屬實」與本句語境不同。",
-        "guarantee-mcq-03": "「確保某項結果、權利或利益」與本句語境不同。",
-        "guarantee-mcq-04": "「正式保證某個完整陳述為真或會實現」與本句語境不同。",
-        "guarantee-mcq-05": "「正式保證某人可以得到某項權利／利益」與本句語境不同。",
-        "guarantee-mcq-06": "「對產品品質、維修、更換或退款作出的正式承諾」與本句語境不同。"
+        "guarantee-mcq-02": "本句的「guaranteed」指「某結果被視為確定、必然或有正式保證」。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-02"
     },
@@ -412,11 +394,8 @@ export default {
       "masked": "A profit is not ____.",
       "options": [
         "guarantee-mcq-02",
-        "guarantee-mcq-01",
-        "guarantee-mcq-03",
-        "guarantee-mcq-04",
-        "guarantee-mcq-05",
-        "guarantee-mcq-06"
+        "guarantee-mcq-10",
+        "guarantee-mcq-12"
       ],
       "explanation": "本句的「guaranteed」指「某結果被視為確定、必然或有正式保證」。",
       "sentenceIndex": 3,
@@ -425,12 +404,9 @@ export default {
         "guaranteed"
       ],
       "optionReasons": {
-        "guarantee-mcq-02": "本句指「某結果被視為確定、必然或有正式保證」。",
-        "guarantee-mcq-01": "「明確保證／使某結果一定會發生或某事一定屬實」與本句語境不同。",
-        "guarantee-mcq-03": "「確保某項結果、權利或利益」與本句語境不同。",
-        "guarantee-mcq-04": "「正式保證某個完整陳述為真或會實現」與本句語境不同。",
-        "guarantee-mcq-05": "「正式保證某人可以得到某項權利／利益」與本句語境不同。",
-        "guarantee-mcq-06": "「對產品品質、維修、更換或退款作出的正式承諾」與本句語境不同。"
+        "guarantee-mcq-02": "本句的「guaranteed」指「某結果被視為確定、必然或有正式保證」。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-02"
     },
@@ -442,10 +418,7 @@ export default {
       "masked": "The policy ____ equal access.",
       "options": [
         "guarantee-mcq-03",
-        "guarantee-mcq-02",
-        "guarantee-mcq-04",
-        "guarantee-mcq-01",
-        "guarantee-mcq-05",
+        "guarantee-mcq-10",
         "guarantee-mcq-06"
       ],
       "explanation": "本句的「guarantees」指「確保某項結果、權利或利益」。",
@@ -455,12 +428,9 @@ export default {
         "guarantees"
       ],
       "optionReasons": {
-        "guarantee-mcq-03": "本句指「確保某項結果、權利或利益」。",
-        "guarantee-mcq-02": "「某結果被視為確定、必然或有正式保證」與本句語境不同。",
-        "guarantee-mcq-04": "「正式保證某個完整陳述為真或會實現」與本句語境不同。",
-        "guarantee-mcq-01": "「明確保證／使某結果一定會發生或某事一定屬實」與本句語境不同。",
-        "guarantee-mcq-05": "「正式保證某人可以得到某項權利／利益」與本句語境不同。",
-        "guarantee-mcq-06": "「對產品品質、維修、更換或退款作出的正式承諾」與本句語境不同。"
+        "guarantee-mcq-03": "本句的「guarantees」指「確保某項結果、權利或利益」。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-03"
     },
@@ -472,11 +442,8 @@ export default {
       "masked": "The system ____ secure payment.",
       "options": [
         "guarantee-mcq-03",
-        "guarantee-mcq-02",
-        "guarantee-mcq-04",
-        "guarantee-mcq-01",
-        "guarantee-mcq-05",
-        "guarantee-mcq-06"
+        "guarantee-mcq-06",
+        "guarantee-mcq-10"
       ],
       "explanation": "本句的「guarantees」指「確保某項結果、權利或利益」。",
       "sentenceIndex": 5,
@@ -485,12 +452,9 @@ export default {
         "guarantees"
       ],
       "optionReasons": {
-        "guarantee-mcq-03": "本句指「確保某項結果、權利或利益」。",
-        "guarantee-mcq-02": "「某結果被視為確定、必然或有正式保證」與本句語境不同。",
-        "guarantee-mcq-04": "「正式保證某個完整陳述為真或會實現」與本句語境不同。",
-        "guarantee-mcq-01": "「明確保證／使某結果一定會發生或某事一定屬實」與本句語境不同。",
-        "guarantee-mcq-05": "「正式保證某人可以得到某項權利／利益」與本句語境不同。",
-        "guarantee-mcq-06": "「對產品品質、維修、更換或退款作出的正式承諾」與本句語境不同。"
+        "guarantee-mcq-03": "本句的「guarantees」指「確保某項結果、權利或利益」。",
+        "guarantee-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-03"
     },
@@ -502,11 +466,9 @@ export default {
       "masked": "We cannot ____ the bakery will expand.",
       "options": [
         "guarantee-mcq-04",
-        "guarantee-mcq-03",
-        "guarantee-mcq-05",
-        "guarantee-mcq-02",
-        "guarantee-mcq-06",
-        "guarantee-mcq-01"
+        "guarantee-pdf-001",
+        "guarantee-mcq-10",
+        "guarantee-mcq-12"
       ],
       "explanation": "本句的「guarantee that」指「正式保證某個完整陳述為真或會實現」。",
       "sentenceIndex": 6,
@@ -515,12 +477,10 @@ export default {
         "guarantee that"
       ],
       "optionReasons": {
-        "guarantee-mcq-04": "本句指「正式保證某個完整陳述為真或會實現」。",
-        "guarantee-mcq-03": "「確保某項結果、權利或利益」與本句語境不同。",
-        "guarantee-mcq-05": "「正式保證某人可以得到某項權利／利益」與本句語境不同。",
-        "guarantee-mcq-02": "「某結果被視為確定、必然或有正式保證」與本句語境不同。",
-        "guarantee-mcq-06": "「對產品品質、維修、更換或退款作出的正式承諾」與本句語境不同。",
-        "guarantee-mcq-01": "「明確保證／使某結果一定會發生或某事一定屬實」與本句語境不同。"
+        "guarantee-mcq-04": "本句的「guarantee that」指「正式保證某個完整陳述為真或會實現」。",
+        "guarantee-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-04"
     },
@@ -532,11 +492,9 @@ export default {
       "masked": "The company ____ that all products are fresh.",
       "options": [
         "guarantee-mcq-04",
-        "guarantee-mcq-03",
-        "guarantee-mcq-05",
-        "guarantee-mcq-02",
-        "guarantee-mcq-06",
-        "guarantee-mcq-01"
+        "guarantee-mcq-10",
+        "guarantee-mcq-11",
+        "guarantee-mcq-12"
       ],
       "explanation": "本句的「guarantees」指「正式保證某個完整陳述為真或會實現」。",
       "sentenceIndex": 7,
@@ -545,12 +503,10 @@ export default {
         "guarantees"
       ],
       "optionReasons": {
-        "guarantee-mcq-04": "本句指「正式保證某個完整陳述為真或會實現」。",
-        "guarantee-mcq-03": "「確保某項結果、權利或利益」與本句語境不同。",
-        "guarantee-mcq-05": "「正式保證某人可以得到某項權利／利益」與本句語境不同。",
-        "guarantee-mcq-02": "「某結果被視為確定、必然或有正式保證」與本句語境不同。",
-        "guarantee-mcq-06": "「對產品品質、維修、更換或退款作出的正式承諾」與本句語境不同。",
-        "guarantee-mcq-01": "「明確保證／使某結果一定會發生或某事一定屬實」與本句語境不同。"
+        "guarantee-mcq-04": "本句的「guarantees」指「正式保證某個完整陳述為真或會實現」。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-04"
     },
@@ -562,11 +518,8 @@ export default {
       "masked": "The contract ____ paid leave.",
       "options": [
         "guarantee-mcq-05",
-        "guarantee-mcq-04",
-        "guarantee-mcq-06",
-        "guarantee-mcq-03",
-        "guarantee-mcq-07",
-        "guarantee-mcq-02"
+        "guarantee-pdf-001",
+        "guarantee-mcq-12"
       ],
       "explanation": "本句的「guarantees employees」指「正式保證某人可以得到某項權利／利益」。",
       "sentenceIndex": 8,
@@ -575,12 +528,9 @@ export default {
         "guarantees employees"
       ],
       "optionReasons": {
-        "guarantee-mcq-05": "本句指「正式保證某人可以得到某項權利／利益」。",
-        "guarantee-mcq-04": "「正式保證某個完整陳述為真或會實現」與本句語境不同。",
-        "guarantee-mcq-06": "「對產品品質、維修、更換或退款作出的正式承諾」與本句語境不同。",
-        "guarantee-mcq-03": "「確保某項結果、權利或利益」與本句語境不同。",
-        "guarantee-mcq-07": "「條件符合時可退回款項的正式承諾」與本句語境不同。",
-        "guarantee-mcq-02": "「某結果被視為確定、必然或有正式保證」與本句語境不同。"
+        "guarantee-mcq-05": "本句的「guarantees employees」指「正式保證某人可以得到某項權利／利益」。",
+        "guarantee-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-05"
     },
@@ -592,11 +542,8 @@ export default {
       "masked": "The scheme ____ customers a refund.",
       "options": [
         "guarantee-mcq-05",
-        "guarantee-mcq-04",
-        "guarantee-mcq-06",
-        "guarantee-mcq-03",
-        "guarantee-mcq-07",
-        "guarantee-mcq-02"
+        "guarantee-mcq-11",
+        "guarantee-mcq-12"
       ],
       "explanation": "本句的「guarantees」指「正式保證某人可以得到某項權利／利益」。",
       "sentenceIndex": 9,
@@ -605,12 +552,9 @@ export default {
         "guarantees"
       ],
       "optionReasons": {
-        "guarantee-mcq-05": "本句指「正式保證某人可以得到某項權利／利益」。",
-        "guarantee-mcq-04": "「正式保證某個完整陳述為真或會實現」與本句語境不同。",
-        "guarantee-mcq-06": "「對產品品質、維修、更換或退款作出的正式承諾」與本句語境不同。",
-        "guarantee-mcq-03": "「確保某項結果、權利或利益」與本句語境不同。",
-        "guarantee-mcq-07": "「條件符合時可退回款項的正式承諾」與本句語境不同。",
-        "guarantee-mcq-02": "「某結果被視為確定、必然或有正式保證」與本句語境不同。"
+        "guarantee-mcq-05": "本句的「guarantees」指「正式保證某人可以得到某項權利／利益」。",
+        "guarantee-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-05"
     },
@@ -622,11 +566,8 @@ export default {
       "masked": "The machine comes with a two-year ____.",
       "options": [
         "guarantee-mcq-06",
-        "guarantee-mcq-05",
-        "guarantee-mcq-07",
-        "guarantee-mcq-04",
-        "guarantee-mcq-08",
-        "guarantee-mcq-03"
+        "guarantee-mcq-01",
+        "guarantee-mcq-10"
       ],
       "explanation": "本句的「guarantee」指「對產品品質、維修、更換或退款作出的正式承諾」。",
       "sentenceIndex": 10,
@@ -635,12 +576,9 @@ export default {
         "guarantee"
       ],
       "optionReasons": {
-        "guarantee-mcq-06": "本句指「對產品品質、維修、更換或退款作出的正式承諾」。",
-        "guarantee-mcq-05": "「正式保證某人可以得到某項權利／利益」與本句語境不同。",
-        "guarantee-mcq-07": "「條件符合時可退回款項的正式承諾」與本句語境不同。",
-        "guarantee-mcq-04": "「正式保證某個完整陳述為真或會實現」與本句語境不同。",
-        "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。",
-        "guarantee-mcq-03": "「確保某項結果、權利或利益」與本句語境不同。"
+        "guarantee-mcq-06": "本句的「guarantee」指「對產品品質、維修、更換或退款作出的正式承諾」。",
+        "guarantee-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-06"
     },
@@ -652,11 +590,8 @@ export default {
       "masked": "Keep the receipt and the ____.",
       "options": [
         "guarantee-mcq-06",
-        "guarantee-mcq-05",
-        "guarantee-mcq-07",
-        "guarantee-mcq-04",
-        "guarantee-mcq-08",
-        "guarantee-mcq-03"
+        "guarantee-mcq-01",
+        "guarantee-mcq-10"
       ],
       "explanation": "本句的「guarantee」指「對產品品質、維修、更換或退款作出的正式承諾」。",
       "sentenceIndex": 11,
@@ -665,12 +600,9 @@ export default {
         "guarantee"
       ],
       "optionReasons": {
-        "guarantee-mcq-06": "本句指「對產品品質、維修、更換或退款作出的正式承諾」。",
-        "guarantee-mcq-05": "「正式保證某人可以得到某項權利／利益」與本句語境不同。",
-        "guarantee-mcq-07": "「條件符合時可退回款項的正式承諾」與本句語境不同。",
-        "guarantee-mcq-04": "「正式保證某個完整陳述為真或會實現」與本句語境不同。",
-        "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。",
-        "guarantee-mcq-03": "「確保某項結果、權利或利益」與本句語境不同。"
+        "guarantee-mcq-06": "本句的「guarantee」指「對產品品質、維修、更換或退款作出的正式承諾」。",
+        "guarantee-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-06"
     },
@@ -682,11 +614,8 @@ export default {
       "masked": "The product comes with a ____.",
       "options": [
         "guarantee-mcq-07",
-        "guarantee-mcq-06",
-        "guarantee-mcq-08",
-        "guarantee-mcq-05",
-        "guarantee-mcq-09",
-        "guarantee-mcq-04"
+        "guarantee-pdf-001",
+        "guarantee-mcq-10"
       ],
       "explanation": "本句的「money-back guarantee」指「條件符合時可退回款項的正式承諾」。",
       "sentenceIndex": 12,
@@ -695,12 +624,9 @@ export default {
         "money-back guarantee"
       ],
       "optionReasons": {
-        "guarantee-mcq-07": "本句指「條件符合時可退回款項的正式承諾」。",
-        "guarantee-mcq-06": "「對產品品質、維修、更換或退款作出的正式承諾」與本句語境不同。",
-        "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。",
-        "guarantee-mcq-05": "「正式保證某人可以得到某項權利／利益」與本句語境不同。",
-        "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
-        "guarantee-mcq-04": "「正式保證某個完整陳述為真或會實現」與本句語境不同。"
+        "guarantee-mcq-07": "本句的「money-back guarantee」指「條件符合時可退回款項的正式承諾」。",
+        "guarantee-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-07"
     },
@@ -712,11 +638,8 @@ export default {
       "masked": "They offer a thirty-day money-back ____.",
       "options": [
         "guarantee-mcq-07",
-        "guarantee-mcq-06",
-        "guarantee-mcq-08",
-        "guarantee-mcq-05",
-        "guarantee-mcq-09",
-        "guarantee-mcq-04"
+        "guarantee-mcq-01",
+        "guarantee-mcq-10"
       ],
       "explanation": "本句的「guarantee」指「條件符合時可退回款項的正式承諾」。",
       "sentenceIndex": 13,
@@ -725,12 +648,9 @@ export default {
         "guarantee"
       ],
       "optionReasons": {
-        "guarantee-mcq-07": "本句指「條件符合時可退回款項的正式承諾」。",
-        "guarantee-mcq-06": "「對產品品質、維修、更換或退款作出的正式承諾」與本句語境不同。",
-        "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。",
-        "guarantee-mcq-05": "「正式保證某人可以得到某項權利／利益」與本句語境不同。",
-        "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
-        "guarantee-mcq-04": "「正式保證某個完整陳述為真或會實現」與本句語境不同。"
+        "guarantee-mcq-07": "本句的「guarantee」指「條件符合時可退回款項的正式承諾」。",
+        "guarantee-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-07"
     },
@@ -742,11 +662,8 @@ export default {
       "masked": "The bank required a personal ____.",
       "options": [
         "guarantee-mcq-08",
-        "guarantee-mcq-07",
-        "guarantee-mcq-09",
-        "guarantee-mcq-06",
-        "guarantee-mcq-10",
-        "guarantee-mcq-05"
+        "guarantee-pdf-001",
+        "guarantee-mcq-12"
       ],
       "explanation": "本句的「guarantee」指「對付款、債務或責任會被履行作出的正式擔保」。",
       "sentenceIndex": 14,
@@ -755,12 +672,9 @@ export default {
         "guarantee"
       ],
       "optionReasons": {
-        "guarantee-mcq-08": "本句指「對付款、債務或責任會被履行作出的正式擔保」。",
-        "guarantee-mcq-07": "「條件符合時可退回款項的正式承諾」與本句語境不同。",
-        "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
-        "guarantee-mcq-06": "「對產品品質、維修、更換或退款作出的正式承諾」與本句語境不同。",
-        "guarantee-mcq-10": "「在他人未履行付款／合約責任時代為負責的人／機構」與本句語境不同。",
-        "guarantee-mcq-05": "「正式保證某人可以得到某項權利／利益」與本句語境不同。"
+        "guarantee-mcq-08": "本句的「guarantee」指「對付款、債務或責任會被履行作出的正式擔保」。",
+        "guarantee-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-08"
     },
@@ -772,11 +686,8 @@ export default {
       "masked": "The loan was approved with a ____.",
       "options": [
         "guarantee-mcq-08",
-        "guarantee-mcq-07",
-        "guarantee-mcq-09",
-        "guarantee-mcq-06",
-        "guarantee-mcq-10",
-        "guarantee-mcq-05"
+        "guarantee-pdf-001",
+        "guarantee-mcq-12"
       ],
       "explanation": "本句的「guarantee」指「對付款、債務或責任會被履行作出的正式擔保」。",
       "sentenceIndex": 15,
@@ -785,12 +696,9 @@ export default {
         "guarantee"
       ],
       "optionReasons": {
-        "guarantee-mcq-08": "本句指「對付款、債務或責任會被履行作出的正式擔保」。",
-        "guarantee-mcq-07": "「條件符合時可退回款項的正式承諾」與本句語境不同。",
-        "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
-        "guarantee-mcq-06": "「對產品品質、維修、更換或退款作出的正式承諾」與本句語境不同。",
-        "guarantee-mcq-10": "「在他人未履行付款／合約責任時代為負責的人／機構」與本句語境不同。",
-        "guarantee-mcq-05": "「正式保證某人可以得到某項權利／利益」與本句語境不同。"
+        "guarantee-mcq-08": "本句的「guarantee」指「對付款、債務或責任會被履行作出的正式擔保」。",
+        "guarantee-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-08"
     },
@@ -802,11 +710,9 @@ export default {
       "masked": "The bank asked for a ____.",
       "options": [
         "guarantee-mcq-10",
-        "guarantee-mcq-09",
-        "guarantee-mcq-11",
-        "guarantee-mcq-08",
-        "guarantee-mcq-12",
-        "guarantee-mcq-07"
+        "guarantee-mcq-04",
+        "guarantee-pdf-001",
+        "guarantee-mcq-12"
       ],
       "explanation": "本句的「guarantor」指「在他人未履行付款／合約責任時代為負責的人／機構」。",
       "sentenceIndex": 18,
@@ -815,12 +721,10 @@ export default {
         "guarantor"
       ],
       "optionReasons": {
-        "guarantee-mcq-10": "本句指「在他人未履行付款／合約責任時代為負責的人／機構」。",
-        "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
-        "guarantee-mcq-11": "「被視為肯定會產生某個結果／行動」與本句語境不同。",
-        "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。",
-        "guarantee-mcq-12": "「能確保 X 出現的因素／條件」與本句語境不同。",
-        "guarantee-mcq-07": "「條件符合時可退回款項的正式承諾」與本句語境不同。"
+        "guarantee-mcq-10": "本句的「guarantor」指「在他人未履行付款／合約責任時代為負責的人／機構」。",
+        "guarantee-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "guarantee-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-10"
     },
@@ -832,11 +736,8 @@ export default {
       "masked": "The ____ is responsible if the borrower fails to pay.",
       "options": [
         "guarantee-mcq-10",
-        "guarantee-mcq-09",
-        "guarantee-mcq-11",
-        "guarantee-mcq-08",
-        "guarantee-mcq-12",
-        "guarantee-mcq-07"
+        "guarantee-mcq-13",
+        "guarantee-mcq-04"
       ],
       "explanation": "本句的「guarantor」指「在他人未履行付款／合約責任時代為負責的人／機構」。",
       "sentenceIndex": 19,
@@ -845,12 +746,9 @@ export default {
         "guarantor"
       ],
       "optionReasons": {
-        "guarantee-mcq-10": "本句指「在他人未履行付款／合約責任時代為負責的人／機構」。",
-        "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
-        "guarantee-mcq-11": "「被視為肯定會產生某個結果／行動」與本句語境不同。",
-        "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。",
-        "guarantee-mcq-12": "「能確保 X 出現的因素／條件」與本句語境不同。",
-        "guarantee-mcq-07": "「條件符合時可退回款項的正式承諾」與本句語境不同。"
+        "guarantee-mcq-10": "本句的「guarantor」指「在他人未履行付款／合約責任時代為負責的人／機構」。",
+        "guarantee-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-10"
     },
@@ -862,11 +760,8 @@ export default {
       "masked": "Careful planning cannot ____ success, but it helps.",
       "options": [
         "guarantee-pdf-001",
-        "guarantee-mcq-10",
-        "guarantee-mcq-12",
-        "guarantee-mcq-09",
-        "guarantee-mcq-13",
-        "guarantee-mcq-08"
+        "guarantee-mcq-08",
+        "guarantee-mcq-12"
       ],
       "explanation": "本句的「guarantee」指「使某結果變得確定／必然」。",
       "sentenceIndex": 20,
@@ -875,12 +770,9 @@ export default {
         "guarantee"
       ],
       "optionReasons": {
-        "guarantee-pdf-001": "本句指「使某結果變得確定／必然」。",
-        "guarantee-mcq-10": "「在他人未履行付款／合約責任時代為負責的人／機構」與本句語境不同。",
-        "guarantee-mcq-12": "「能確保 X 出現的因素／條件」與本句語境不同。",
-        "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
-        "guarantee-mcq-13": "「某條件並不能確保另一結果一定出現」與本句語境不同。",
-        "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。"
+        "guarantee-pdf-001": "本句的「guarantee」指「使某結果變得確定／必然」。",
+        "guarantee-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-pdf-001"
     },
@@ -892,11 +784,8 @@ export default {
       "masked": "High demand does not automatically ____ profit.",
       "options": [
         "guarantee-pdf-001",
-        "guarantee-mcq-10",
-        "guarantee-mcq-12",
-        "guarantee-mcq-09",
-        "guarantee-mcq-13",
-        "guarantee-mcq-08"
+        "guarantee-mcq-07",
+        "guarantee-mcq-10"
       ],
       "explanation": "本句的「guarantee」指「使某結果變得確定／必然」。",
       "sentenceIndex": 21,
@@ -905,12 +794,9 @@ export default {
         "guarantee"
       ],
       "optionReasons": {
-        "guarantee-pdf-001": "本句指「使某結果變得確定／必然」。",
-        "guarantee-mcq-10": "「在他人未履行付款／合約責任時代為負責的人／機構」與本句語境不同。",
-        "guarantee-mcq-12": "「能確保 X 出現的因素／條件」與本句語境不同。",
-        "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
-        "guarantee-mcq-13": "「某條件並不能確保另一結果一定出現」與本句語境不同。",
-        "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。"
+        "guarantee-pdf-001": "本句的「guarantee」指「使某結果變得確定／必然」。",
+        "guarantee-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-pdf-001"
     },
@@ -922,11 +808,8 @@ export default {
       "masked": "There is no ____ way to build customer loyalty.",
       "options": [
         "guarantee-mcq-11",
-        "guarantee-mcq-10",
-        "guarantee-mcq-12",
-        "guarantee-mcq-09",
-        "guarantee-mcq-13",
-        "guarantee-mcq-08"
+        "guarantee-mcq-05",
+        "guarantee-mcq-12"
       ],
       "explanation": "本句的「guaranteed」指「被視為肯定會產生某個結果／行動」。",
       "sentenceIndex": 22,
@@ -935,12 +818,9 @@ export default {
         "guaranteed"
       ],
       "optionReasons": {
-        "guarantee-mcq-11": "本句指「被視為肯定會產生某個結果／行動」。",
-        "guarantee-mcq-10": "「在他人未履行付款／合約責任時代為負責的人／機構」與本句語境不同。",
-        "guarantee-mcq-12": "「能確保 X 出現的因素／條件」與本句語境不同。",
-        "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
-        "guarantee-mcq-13": "「某條件並不能確保另一結果一定出現」與本句語境不同。",
-        "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。"
+        "guarantee-mcq-11": "本句的「guaranteed」指「被視為肯定會產生某個結果／行動」。",
+        "guarantee-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-11"
     },
@@ -952,11 +832,9 @@ export default {
       "masked": "The strategy is not ____ to work.",
       "options": [
         "guarantee-mcq-11",
-        "guarantee-mcq-10",
         "guarantee-mcq-12",
-        "guarantee-mcq-09",
-        "guarantee-mcq-13",
-        "guarantee-mcq-08"
+        "guarantee-mcq-04",
+        "guarantee-mcq-10"
       ],
       "explanation": "本句的「guaranteed」指「被視為肯定會產生某個結果／行動」。",
       "sentenceIndex": 23,
@@ -965,12 +843,10 @@ export default {
         "guaranteed"
       ],
       "optionReasons": {
-        "guarantee-mcq-11": "本句指「被視為肯定會產生某個結果／行動」。",
-        "guarantee-mcq-10": "「在他人未履行付款／合約責任時代為負責的人／機構」與本句語境不同。",
-        "guarantee-mcq-12": "「能確保 X 出現的因素／條件」與本句語境不同。",
-        "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
-        "guarantee-mcq-13": "「某條件並不能確保另一結果一定出現」與本句語境不同。",
-        "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。"
+        "guarantee-mcq-11": "本句的「guaranteed」指「被視為肯定會產生某個結果／行動」。",
+        "guarantee-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-11"
     },
@@ -982,11 +858,9 @@ export default {
       "masked": "This recipe is ____ impress.",
       "options": [
         "guarantee-mcq-11",
-        "guarantee-mcq-10",
+        "guarantee-mcq-04",
         "guarantee-mcq-12",
-        "guarantee-mcq-09",
-        "guarantee-mcq-13",
-        "guarantee-mcq-08"
+        "guarantee-mcq-10"
       ],
       "explanation": "本句的「guaranteed to」指「被視為肯定會產生某個結果／行動」。",
       "sentenceIndex": 24,
@@ -995,12 +869,10 @@ export default {
         "guaranteed to"
       ],
       "optionReasons": {
-        "guarantee-mcq-11": "本句指「被視為肯定會產生某個結果／行動」。",
-        "guarantee-mcq-10": "「在他人未履行付款／合約責任時代為負責的人／機構」與本句語境不同。",
-        "guarantee-mcq-12": "「能確保 X 出現的因素／條件」與本句語境不同。",
-        "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
-        "guarantee-mcq-13": "「某條件並不能確保另一結果一定出現」與本句語境不同。",
-        "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。"
+        "guarantee-mcq-11": "本句的「guaranteed to」指「被視為肯定會產生某個結果／行動」。",
+        "guarantee-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-11"
     },
@@ -1012,11 +884,8 @@ export default {
       "masked": "A quiet shop is not ____ to attract customers.",
       "options": [
         "guarantee-mcq-11",
-        "guarantee-mcq-10",
         "guarantee-mcq-12",
-        "guarantee-mcq-09",
-        "guarantee-mcq-13",
-        "guarantee-mcq-08"
+        "guarantee-mcq-05"
       ],
       "explanation": "本句的「guaranteed」指「被視為肯定會產生某個結果／行動」。",
       "sentenceIndex": 25,
@@ -1025,12 +894,9 @@ export default {
         "guaranteed"
       ],
       "optionReasons": {
-        "guarantee-mcq-11": "本句指「被視為肯定會產生某個結果／行動」。",
-        "guarantee-mcq-10": "「在他人未履行付款／合約責任時代為負責的人／機構」與本句語境不同。",
-        "guarantee-mcq-12": "「能確保 X 出現的因素／條件」與本句語境不同。",
-        "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
-        "guarantee-mcq-13": "「某條件並不能確保另一結果一定出現」與本句語境不同。",
-        "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。"
+        "guarantee-mcq-11": "本句的「guaranteed」指「被視為肯定會產生某個結果／行動」。",
+        "guarantee-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-11"
     },
@@ -1043,10 +909,8 @@ export default {
       "options": [
         "guarantee-mcq-12",
         "guarantee-mcq-11",
-        "guarantee-mcq-13",
         "guarantee-mcq-10",
-        "guarantee-mcq-09",
-        "guarantee-mcq-08"
+        "guarantee-mcq-06"
       ],
       "explanation": "本句的「guarantee」指「能確保 X 出現的因素／條件」。",
       "sentenceIndex": 26,
@@ -1055,12 +919,10 @@ export default {
         "guarantee"
       ],
       "optionReasons": {
-        "guarantee-mcq-12": "本句指「能確保 X 出現的因素／條件」。",
-        "guarantee-mcq-11": "「被視為肯定會產生某個結果／行動」與本句語境不同。",
-        "guarantee-mcq-13": "「某條件並不能確保另一結果一定出現」與本句語境不同。",
-        "guarantee-mcq-10": "「在他人未履行付款／合約責任時代為負責的人／機構」與本句語境不同。",
-        "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
-        "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。"
+        "guarantee-mcq-12": "本句的「guarantee」指「能確保 X 出現的因素／條件」。",
+        "guarantee-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-12"
     },
@@ -1073,10 +935,8 @@ export default {
       "options": [
         "guarantee-mcq-12",
         "guarantee-mcq-11",
-        "guarantee-mcq-13",
         "guarantee-mcq-10",
-        "guarantee-mcq-09",
-        "guarantee-mcq-08"
+        "guarantee-mcq-06"
       ],
       "explanation": "本句的「guarantee」指「能確保 X 出現的因素／條件」。",
       "sentenceIndex": 27,
@@ -1085,12 +945,10 @@ export default {
         "guarantee"
       ],
       "optionReasons": {
-        "guarantee-mcq-12": "本句指「能確保 X 出現的因素／條件」。",
-        "guarantee-mcq-11": "「被視為肯定會產生某個結果／行動」與本句語境不同。",
-        "guarantee-mcq-13": "「某條件並不能確保另一結果一定出現」與本句語境不同。",
-        "guarantee-mcq-10": "「在他人未履行付款／合約責任時代為負責的人／機構」與本句語境不同。",
-        "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
-        "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。"
+        "guarantee-mcq-12": "本句的「guarantee」指「能確保 X 出現的因素／條件」。",
+        "guarantee-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-12"
     },
@@ -1102,11 +960,8 @@ export default {
       "masked": "Popularity is ____ of long-term success.",
       "options": [
         "guarantee-mcq-13",
-        "guarantee-mcq-12",
-        "guarantee-mcq-11",
         "guarantee-mcq-10",
-        "guarantee-mcq-09",
-        "guarantee-mcq-08"
+        "guarantee-mcq-06"
       ],
       "explanation": "本句的「no guarantee」指「某條件並不能確保另一結果一定出現」。",
       "sentenceIndex": 28,
@@ -1115,12 +970,9 @@ export default {
         "no guarantee"
       ],
       "optionReasons": {
-        "guarantee-mcq-13": "本句指「某條件並不能確保另一結果一定出現」。",
-        "guarantee-mcq-12": "「能確保 X 出現的因素／條件」與本句語境不同。",
-        "guarantee-mcq-11": "「被視為肯定會產生某個結果／行動」與本句語境不同。",
-        "guarantee-mcq-10": "「在他人未履行付款／合約責任時代為負責的人／機構」與本句語境不同。",
-        "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
-        "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。"
+        "guarantee-mcq-13": "本句的「no guarantee」指「某條件並不能確保另一結果一定出現」。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-13"
     },
@@ -1132,11 +984,8 @@ export default {
       "masked": "Low prices are no ____ of quality.",
       "options": [
         "guarantee-mcq-13",
-        "guarantee-mcq-12",
-        "guarantee-mcq-11",
         "guarantee-mcq-10",
-        "guarantee-mcq-09",
-        "guarantee-mcq-08"
+        "guarantee-mcq-06"
       ],
       "explanation": "本句的「guarantee」指「某條件並不能確保另一結果一定出現」。",
       "sentenceIndex": 29,
@@ -1145,12 +994,9 @@ export default {
         "guarantee"
       ],
       "optionReasons": {
-        "guarantee-mcq-13": "本句指「某條件並不能確保另一結果一定出現」。",
-        "guarantee-mcq-12": "「能確保 X 出現的因素／條件」與本句語境不同。",
-        "guarantee-mcq-11": "「被視為肯定會產生某個結果／行動」與本句語境不同。",
-        "guarantee-mcq-10": "「在他人未履行付款／合約責任時代為負責的人／機構」與本句語境不同。",
-        "guarantee-mcq-09": "「若主要責任人未履行義務，承諾代為負責」與本句語境不同。",
-        "guarantee-mcq-08": "「對付款、債務或責任會被履行作出的正式擔保」與本句語境不同。"
+        "guarantee-mcq-13": "本句的「guarantee」指「某條件並不能確保另一結果一定出現」。",
+        "guarantee-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "guarantee-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guarantee-mcq-13"
     }
@@ -1162,5 +1008,7 @@ export default {
     "sha256": "084d30209c2a553e0e357f920173d716be85e60c7788aff22f01ebe38c16510c",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

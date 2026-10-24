@@ -317,11 +317,7 @@ export default {
       "masked": "As ____ of my club team, I learned to perform under pressure.",
       "options": [
         "captain-mcq-01",
-        "captain-mcq-02",
-        "captain-mcq-03",
-        "captain-mcq-04",
-        "captain-mcq-05",
-        "captain-mcq-06"
+        "captain-mcq-13"
       ],
       "explanation": "本句的「captain」指「在隊伍中被正式指定為領導者，並負責代表及帶領其他成員的人」。",
       "sentenceIndex": 0,
@@ -330,12 +326,8 @@ export default {
         "captain"
       ],
       "optionReasons": {
-        "captain-mcq-01": "本句指「在隊伍中被正式指定為領導者，並負責代表及帶領其他成員的人」。",
-        "captain-mcq-02": "「對船隻、船員、航行及船上安全負主要指揮責任的人」與本句語境不同。",
-        "captain-mcq-03": "「對飛機操作、飛行及安全負最終指揮責任的機長」與本句語境不同。",
-        "captain-mcq-04": "「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」與本句語境不同。",
-        "captain-mcq-05": "「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」與本句語境不同。",
-        "captain-mcq-06": "「某些紀律或制服組織中帶有管理和指揮責任的正式職級」與本句語境不同。"
+        "captain-mcq-01": "本句的「captain」指「在隊伍中被正式指定為領導者，並負責代表及帶領其他成員的人」。",
+        "captain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-01"
     },
@@ -347,11 +339,7 @@ export default {
       "masked": "The ____ spoke to the players before the championship final.",
       "options": [
         "captain-mcq-01",
-        "captain-mcq-02",
-        "captain-mcq-03",
-        "captain-mcq-04",
-        "captain-mcq-05",
-        "captain-mcq-06"
+        "captain-mcq-13"
       ],
       "explanation": "本句的「captain」指「在隊伍中被正式指定為領導者，並負責代表及帶領其他成員的人」。",
       "sentenceIndex": 1,
@@ -360,12 +348,8 @@ export default {
         "captain"
       ],
       "optionReasons": {
-        "captain-mcq-01": "本句指「在隊伍中被正式指定為領導者，並負責代表及帶領其他成員的人」。",
-        "captain-mcq-02": "「對船隻、船員、航行及船上安全負主要指揮責任的人」與本句語境不同。",
-        "captain-mcq-03": "「對飛機操作、飛行及安全負最終指揮責任的機長」與本句語境不同。",
-        "captain-mcq-04": "「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」與本句語境不同。",
-        "captain-mcq-05": "「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」與本句語境不同。",
-        "captain-mcq-06": "「某些紀律或制服組織中帶有管理和指揮責任的正式職級」與本句語境不同。"
+        "captain-mcq-01": "本句的「captain」指「在隊伍中被正式指定為領導者，並負責代表及帶領其他成員的人」。",
+        "captain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-01"
     },
@@ -377,11 +361,7 @@ export default {
       "masked": "She was chosen as ____ because the team trusted her leadership.",
       "options": [
         "captain-mcq-01",
-        "captain-mcq-02",
-        "captain-mcq-03",
-        "captain-mcq-04",
-        "captain-mcq-05",
-        "captain-mcq-06"
+        "captain-mcq-13"
       ],
       "explanation": "本句的「captain」指「在隊伍中被正式指定為領導者，並負責代表及帶領其他成員的人」。",
       "sentenceIndex": 2,
@@ -390,12 +370,8 @@ export default {
         "captain"
       ],
       "optionReasons": {
-        "captain-mcq-01": "本句指「在隊伍中被正式指定為領導者，並負責代表及帶領其他成員的人」。",
-        "captain-mcq-02": "「對船隻、船員、航行及船上安全負主要指揮責任的人」與本句語境不同。",
-        "captain-mcq-03": "「對飛機操作、飛行及安全負最終指揮責任的機長」與本句語境不同。",
-        "captain-mcq-04": "「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」與本句語境不同。",
-        "captain-mcq-05": "「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」與本句語境不同。",
-        "captain-mcq-06": "「某些紀律或制服組織中帶有管理和指揮責任的正式職級」與本句語境不同。"
+        "captain-mcq-01": "本句的「captain」指「在隊伍中被正式指定為領導者，並負責代表及帶領其他成員的人」。",
+        "captain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-01"
     },
@@ -407,11 +383,8 @@ export default {
       "masked": "The ____ ordered the crew to return to port.",
       "options": [
         "captain-mcq-02",
-        "captain-mcq-01",
-        "captain-mcq-03",
-        "captain-mcq-04",
-        "captain-mcq-05",
-        "captain-mcq-06"
+        "captain-mcq-08",
+        "captain-mcq-05"
       ],
       "explanation": "本句的「captain」指「對船隻、船員、航行及船上安全負主要指揮責任的人」。",
       "sentenceIndex": 3,
@@ -420,12 +393,9 @@ export default {
         "captain"
       ],
       "optionReasons": {
-        "captain-mcq-02": "本句指「對船隻、船員、航行及船上安全負主要指揮責任的人」。",
-        "captain-mcq-01": "「在隊伍中被正式指定為領導者，並負責代表及帶領其他成員的人」與本句語境不同。",
-        "captain-mcq-03": "「對飛機操作、飛行及安全負最終指揮責任的機長」與本句語境不同。",
-        "captain-mcq-04": "「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」與本句語境不同。",
-        "captain-mcq-05": "「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」與本句語境不同。",
-        "captain-mcq-06": "「某些紀律或制服組織中帶有管理和指揮責任的正式職級」與本句語境不同。"
+        "captain-mcq-02": "本句的「captain」指「對船隻、船員、航行及船上安全負主要指揮責任的人」。",
+        "captain-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-02"
     },
@@ -437,11 +407,8 @@ export default {
       "masked": "The ship’s ____ was responsible for everyone on board.",
       "options": [
         "captain-mcq-02",
-        "captain-mcq-01",
-        "captain-mcq-03",
-        "captain-mcq-04",
         "captain-mcq-05",
-        "captain-mcq-06"
+        "captain-mcq-08"
       ],
       "explanation": "本句的「captain」指「對船隻、船員、航行及船上安全負主要指揮責任的人」。",
       "sentenceIndex": 4,
@@ -450,12 +417,9 @@ export default {
         "captain"
       ],
       "optionReasons": {
-        "captain-mcq-02": "本句指「對船隻、船員、航行及船上安全負主要指揮責任的人」。",
-        "captain-mcq-01": "「在隊伍中被正式指定為領導者，並負責代表及帶領其他成員的人」與本句語境不同。",
-        "captain-mcq-03": "「對飛機操作、飛行及安全負最終指揮責任的機長」與本句語境不同。",
-        "captain-mcq-04": "「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」與本句語境不同。",
-        "captain-mcq-05": "「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」與本句語境不同。",
-        "captain-mcq-06": "「某些紀律或制服組織中帶有管理和指揮責任的正式職級」與本句語境不同。"
+        "captain-mcq-02": "本句的「captain」指「對船隻、船員、航行及船上安全負主要指揮責任的人」。",
+        "captain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-02"
     },
@@ -467,11 +431,9 @@ export default {
       "masked": "The ____ welcomed passengers before take-off.",
       "options": [
         "captain-mcq-03",
-        "captain-mcq-02",
         "captain-mcq-04",
-        "captain-mcq-01",
-        "captain-mcq-05",
-        "captain-mcq-06"
+        "captain-mcq-13",
+        "captain-mcq-08"
       ],
       "explanation": "本句的「captain」指「對飛機操作、飛行及安全負最終指揮責任的機長」。",
       "sentenceIndex": 5,
@@ -480,12 +442,10 @@ export default {
         "captain"
       ],
       "optionReasons": {
-        "captain-mcq-03": "本句指「對飛機操作、飛行及安全負最終指揮責任的機長」。",
-        "captain-mcq-02": "「對船隻、船員、航行及船上安全負主要指揮責任的人」與本句語境不同。",
-        "captain-mcq-04": "「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」與本句語境不同。",
-        "captain-mcq-01": "「在隊伍中被正式指定為領導者，並負責代表及帶領其他成員的人」與本句語境不同。",
-        "captain-mcq-05": "「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」與本句語境不同。",
-        "captain-mcq-06": "「某些紀律或制服組織中帶有管理和指揮責任的正式職級」與本句語境不同。"
+        "captain-mcq-03": "本句的「captain」指「對飛機操作、飛行及安全負最終指揮責任的機長」。",
+        "captain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-03"
     },
@@ -497,11 +457,9 @@ export default {
       "masked": "The first officer discussed the weather with the ____.",
       "options": [
         "captain-mcq-03",
-        "captain-mcq-02",
+        "captain-mcq-13",
         "captain-mcq-04",
-        "captain-mcq-01",
-        "captain-mcq-05",
-        "captain-mcq-06"
+        "captain-mcq-08"
       ],
       "explanation": "本句的「captain」指「對飛機操作、飛行及安全負最終指揮責任的機長」。",
       "sentenceIndex": 6,
@@ -510,12 +468,10 @@ export default {
         "captain"
       ],
       "optionReasons": {
-        "captain-mcq-03": "本句指「對飛機操作、飛行及安全負最終指揮責任的機長」。",
-        "captain-mcq-02": "「對船隻、船員、航行及船上安全負主要指揮責任的人」與本句語境不同。",
-        "captain-mcq-04": "「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」與本句語境不同。",
-        "captain-mcq-01": "「在隊伍中被正式指定為領導者，並負責代表及帶領其他成員的人」與本句語境不同。",
-        "captain-mcq-05": "「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」與本句語境不同。",
-        "captain-mcq-06": "「某些紀律或制服組織中帶有管理和指揮責任的正式職級」與本句語境不同。"
+        "captain-mcq-03": "本句的「captain」指「對飛機操作、飛行及安全負最終指揮責任的機長」。",
+        "captain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-03"
     },
@@ -527,11 +483,8 @@ export default {
       "masked": "He was promoted to ____ after several years of service.",
       "options": [
         "captain-mcq-04",
-        "captain-mcq-03",
-        "captain-mcq-05",
-        "captain-mcq-02",
-        "captain-mcq-06",
-        "captain-mcq-01"
+        "captain-mcq-10",
+        "captain-mcq-13"
       ],
       "explanation": "本句的「captain」指「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」。",
       "sentenceIndex": 7,
@@ -540,12 +493,9 @@ export default {
         "captain"
       ],
       "optionReasons": {
-        "captain-mcq-04": "本句指「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」。",
-        "captain-mcq-03": "「對飛機操作、飛行及安全負最終指揮責任的機長」與本句語境不同。",
-        "captain-mcq-05": "「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」與本句語境不同。",
-        "captain-mcq-02": "「對船隻、船員、航行及船上安全負主要指揮責任的人」與本句語境不同。",
-        "captain-mcq-06": "「某些紀律或制服組織中帶有管理和指揮責任的正式職級」與本句語境不同。",
-        "captain-mcq-01": "「在隊伍中被正式指定為領導者，並負責代表及帶領其他成員的人」與本句語境不同。"
+        "captain-mcq-04": "本句的「captain」指「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」。",
+        "captain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-04"
     },
@@ -557,11 +507,9 @@ export default {
       "masked": "____ Chan was placed in command of the company.",
       "options": [
         "captain-mcq-04",
-        "captain-mcq-03",
-        "captain-mcq-05",
-        "captain-mcq-02",
-        "captain-mcq-06",
-        "captain-mcq-01"
+        "captain-mcq-13",
+        "captain-mcq-08",
+        "captain-mcq-07"
       ],
       "explanation": "本句的「Captain」指「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」。",
       "sentenceIndex": 8,
@@ -570,12 +518,10 @@ export default {
         "Captain"
       ],
       "optionReasons": {
-        "captain-mcq-04": "本句指「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」。",
-        "captain-mcq-03": "「對飛機操作、飛行及安全負最終指揮責任的機長」與本句語境不同。",
-        "captain-mcq-05": "「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」與本句語境不同。",
-        "captain-mcq-02": "「對船隻、船員、航行及船上安全負主要指揮責任的人」與本句語境不同。",
-        "captain-mcq-06": "「某些紀律或制服組織中帶有管理和指揮責任的正式職級」與本句語境不同。",
-        "captain-mcq-01": "「在隊伍中被正式指定為領導者，並負責代表及帶領其他成員的人」與本句語境不同。"
+        "captain-mcq-04": "本句的「Captain」指「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」。",
+        "captain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-04"
     },
@@ -587,11 +533,9 @@ export default {
       "masked": "She was promoted to ____ in the navy.",
       "options": [
         "captain-mcq-05",
-        "captain-mcq-04",
-        "captain-mcq-06",
+        "captain-mcq-13",
         "captain-mcq-03",
-        "captain-mcq-07",
-        "captain-mcq-02"
+        "captain-mcq-08"
       ],
       "explanation": "本句的「Captain」指「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」。",
       "sentenceIndex": 9,
@@ -600,12 +544,10 @@ export default {
         "Captain"
       ],
       "optionReasons": {
-        "captain-mcq-05": "本句指「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」。",
-        "captain-mcq-04": "「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」與本句語境不同。",
-        "captain-mcq-06": "「某些紀律或制服組織中帶有管理和指揮責任的正式職級」與本句語境不同。",
-        "captain-mcq-03": "「對飛機操作、飛行及安全負最終指揮責任的機長」與本句語境不同。",
-        "captain-mcq-07": "「某些餐飲或服務環境中負責監督員工或服務區域的高級服務人員」與本句語境不同。",
-        "captain-mcq-02": "「對船隻、船員、航行及船上安全負主要指揮責任的人」與本句語境不同。"
+        "captain-mcq-05": "本句的「Captain」指「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」。",
+        "captain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-05"
     },
@@ -617,11 +559,9 @@ export default {
       "masked": "The officer had held the rank of ____ for three years.",
       "options": [
         "captain-mcq-05",
-        "captain-mcq-04",
-        "captain-mcq-06",
         "captain-mcq-03",
-        "captain-mcq-07",
-        "captain-mcq-02"
+        "captain-mcq-13",
+        "captain-mcq-08"
       ],
       "explanation": "本句的「Captain」指「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」。",
       "sentenceIndex": 10,
@@ -630,12 +570,10 @@ export default {
         "Captain"
       ],
       "optionReasons": {
-        "captain-mcq-05": "本句指「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」。",
-        "captain-mcq-04": "「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」與本句語境不同。",
-        "captain-mcq-06": "「某些紀律或制服組織中帶有管理和指揮責任的正式職級」與本句語境不同。",
-        "captain-mcq-03": "「對飛機操作、飛行及安全負最終指揮責任的機長」與本句語境不同。",
-        "captain-mcq-07": "「某些餐飲或服務環境中負責監督員工或服務區域的高級服務人員」與本句語境不同。",
-        "captain-mcq-02": "「對船隻、船員、航行及船上安全負主要指揮責任的人」與本句語境不同。"
+        "captain-mcq-05": "本句的「Captain」指「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」。",
+        "captain-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-05"
     },
@@ -647,11 +585,8 @@ export default {
       "masked": "The police ____ spoke to reporters after the incident.",
       "options": [
         "captain-mcq-06",
-        "captain-mcq-05",
-        "captain-mcq-07",
-        "captain-mcq-04",
-        "captain-mcq-08",
-        "captain-mcq-03"
+        "captain-mcq-13",
+        "captain-mcq-08"
       ],
       "explanation": "本句的「captain」指「某些紀律或制服組織中帶有管理和指揮責任的正式職級」。",
       "sentenceIndex": 11,
@@ -660,12 +595,9 @@ export default {
         "captain"
       ],
       "optionReasons": {
-        "captain-mcq-06": "本句指「某些紀律或制服組織中帶有管理和指揮責任的正式職級」。",
-        "captain-mcq-05": "「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」與本句語境不同。",
-        "captain-mcq-07": "「某些餐飲或服務環境中負責監督員工或服務區域的高級服務人員」與本句語境不同。",
-        "captain-mcq-04": "「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」與本句語境不同。",
-        "captain-mcq-08": "「以隊長身分帶領並代表某支隊伍」與本句語境不同。",
-        "captain-mcq-03": "「對飛機操作、飛行及安全負最終指揮責任的機長」與本句語境不同。"
+        "captain-mcq-06": "本句的「captain」指「某些紀律或制服組織中帶有管理和指揮責任的正式職級」。",
+        "captain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-06"
     },
@@ -677,11 +609,8 @@ export default {
       "masked": "The fire ____ coordinated the crews at the scene.",
       "options": [
         "captain-mcq-06",
-        "captain-mcq-05",
-        "captain-mcq-07",
-        "captain-mcq-04",
-        "captain-mcq-08",
-        "captain-mcq-03"
+        "captain-mcq-13",
+        "captain-mcq-08"
       ],
       "explanation": "本句的「captain」指「某些紀律或制服組織中帶有管理和指揮責任的正式職級」。",
       "sentenceIndex": 12,
@@ -690,12 +619,9 @@ export default {
         "captain"
       ],
       "optionReasons": {
-        "captain-mcq-06": "本句指「某些紀律或制服組織中帶有管理和指揮責任的正式職級」。",
-        "captain-mcq-05": "「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」與本句語境不同。",
-        "captain-mcq-07": "「某些餐飲或服務環境中負責監督員工或服務區域的高級服務人員」與本句語境不同。",
-        "captain-mcq-04": "「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」與本句語境不同。",
-        "captain-mcq-08": "「以隊長身分帶領並代表某支隊伍」與本句語境不同。",
-        "captain-mcq-03": "「對飛機操作、飛行及安全負最終指揮責任的機長」與本句語境不同。"
+        "captain-mcq-06": "本句的「captain」指「某些紀律或制服組織中帶有管理和指揮責任的正式職級」。",
+        "captain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-06"
     },
@@ -707,11 +633,9 @@ export default {
       "masked": "The restaurant ____ checked that every table had been served.",
       "options": [
         "captain-mcq-07",
-        "captain-mcq-06",
+        "captain-mcq-04",
         "captain-mcq-08",
-        "captain-mcq-05",
-        "captain-mcq-09",
-        "captain-mcq-04"
+        "captain-mcq-13"
       ],
       "explanation": "本句的「captain」指「某些餐飲或服務環境中負責監督員工或服務區域的高級服務人員」。",
       "sentenceIndex": 13,
@@ -720,12 +644,10 @@ export default {
         "captain"
       ],
       "optionReasons": {
-        "captain-mcq-07": "本句指「某些餐飲或服務環境中負責監督員工或服務區域的高級服務人員」。",
-        "captain-mcq-06": "「某些紀律或制服組織中帶有管理和指揮責任的正式職級」與本句語境不同。",
-        "captain-mcq-08": "「以隊長身分帶領並代表某支隊伍」與本句語境不同。",
-        "captain-mcq-05": "「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」與本句語境不同。",
-        "captain-mcq-09": "「以船長或最高指揮者身分負責和帶領某艘船或單位」與本句語境不同。",
-        "captain-mcq-04": "「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」與本句語境不同。"
+        "captain-mcq-07": "本句的「captain」指「某些餐飲或服務環境中負責監督員工或服務區域的高級服務人員」。",
+        "captain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-07"
     },
@@ -737,11 +659,9 @@ export default {
       "masked": "Please speak to the floor ____ if you need assistance.",
       "options": [
         "captain-mcq-07",
-        "captain-mcq-06",
+        "captain-mcq-04",
         "captain-mcq-08",
-        "captain-mcq-05",
-        "captain-mcq-09",
-        "captain-mcq-04"
+        "captain-mcq-13"
       ],
       "explanation": "本句的「captain」指「某些餐飲或服務環境中負責監督員工或服務區域的高級服務人員」。",
       "sentenceIndex": 14,
@@ -750,12 +670,10 @@ export default {
         "captain"
       ],
       "optionReasons": {
-        "captain-mcq-07": "本句指「某些餐飲或服務環境中負責監督員工或服務區域的高級服務人員」。",
-        "captain-mcq-06": "「某些紀律或制服組織中帶有管理和指揮責任的正式職級」與本句語境不同。",
-        "captain-mcq-08": "「以隊長身分帶領並代表某支隊伍」與本句語境不同。",
-        "captain-mcq-05": "「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」與本句語境不同。",
-        "captain-mcq-09": "「以船長或最高指揮者身分負責和帶領某艘船或單位」與本句語境不同。",
-        "captain-mcq-04": "「在陸軍或相近軍階制度中的正式軍官軍階，通常譯作上尉」與本句語境不同。"
+        "captain-mcq-07": "本句的「captain」指「某些餐飲或服務環境中負責監督員工或服務區域的高級服務人員」。",
+        "captain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-07"
     },
@@ -767,11 +685,8 @@ export default {
       "masked": "She ____ Hong Kong at the regional championships.",
       "options": [
         "captain-mcq-08",
-        "captain-mcq-07",
-        "captain-mcq-09",
-        "captain-mcq-06",
-        "captain-mcq-10",
-        "captain-mcq-05"
+        "captain-mcq-04",
+        "captain-mcq-02"
       ],
       "explanation": "本句的「captained」指「以隊長身分帶領並代表某支隊伍」。",
       "sentenceIndex": 15,
@@ -780,12 +695,9 @@ export default {
         "captained"
       ],
       "optionReasons": {
-        "captain-mcq-08": "本句指「以隊長身分帶領並代表某支隊伍」。",
-        "captain-mcq-07": "「某些餐飲或服務環境中負責監督員工或服務區域的高級服務人員」與本句語境不同。",
-        "captain-mcq-09": "「以船長或最高指揮者身分負責和帶領某艘船或單位」與本句語境不同。",
-        "captain-mcq-06": "「某些紀律或制服組織中帶有管理和指揮責任的正式職級」與本句語境不同。",
-        "captain-mcq-10": "「擔任隊長的職位、責任、身分或任期」與本句語境不同。",
-        "captain-mcq-05": "「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」與本句語境不同。"
+        "captain-mcq-08": "本句的「captained」指「以隊長身分帶領並代表某支隊伍」。",
+        "captain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-08"
     },
@@ -797,11 +709,8 @@ export default {
       "masked": "He has ____ the club for three seasons.",
       "options": [
         "captain-mcq-08",
-        "captain-mcq-07",
-        "captain-mcq-09",
-        "captain-mcq-06",
-        "captain-mcq-10",
-        "captain-mcq-05"
+        "captain-mcq-02",
+        "captain-mcq-04"
       ],
       "explanation": "本句的「captained」指「以隊長身分帶領並代表某支隊伍」。",
       "sentenceIndex": 16,
@@ -810,12 +719,9 @@ export default {
         "captained"
       ],
       "optionReasons": {
-        "captain-mcq-08": "本句指「以隊長身分帶領並代表某支隊伍」。",
-        "captain-mcq-07": "「某些餐飲或服務環境中負責監督員工或服務區域的高級服務人員」與本句語境不同。",
-        "captain-mcq-09": "「以船長或最高指揮者身分負責和帶領某艘船或單位」與本句語境不同。",
-        "captain-mcq-06": "「某些紀律或制服組織中帶有管理和指揮責任的正式職級」與本句語境不同。",
-        "captain-mcq-10": "「擔任隊長的職位、責任、身分或任期」與本句語境不同。",
-        "captain-mcq-05": "「海軍中的正式高級軍官軍階，與陸軍 captain 的階級並不相同」與本句語境不同。"
+        "captain-mcq-08": "本句的「captained」指「以隊長身分帶領並代表某支隊伍」。",
+        "captain-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-08"
     },
@@ -827,11 +733,8 @@ export default {
       "masked": "She ____ the research vessel across the Pacific.",
       "options": [
         "captain-mcq-09",
-        "captain-mcq-08",
-        "captain-mcq-10",
-        "captain-mcq-07",
-        "captain-mcq-11",
-        "captain-mcq-06"
+        "captain-mcq-04",
+        "captain-mcq-13"
       ],
       "explanation": "本句的「captained」指「以船長或最高指揮者身分負責和帶領某艘船或單位」。",
       "sentenceIndex": 17,
@@ -840,12 +743,9 @@ export default {
         "captained"
       ],
       "optionReasons": {
-        "captain-mcq-09": "本句指「以船長或最高指揮者身分負責和帶領某艘船或單位」。",
-        "captain-mcq-08": "「以隊長身分帶領並代表某支隊伍」與本句語境不同。",
-        "captain-mcq-10": "「擔任隊長的職位、責任、身分或任期」與本句語境不同。",
-        "captain-mcq-07": "「某些餐飲或服務環境中負責監督員工或服務區域的高級服務人員」與本句語境不同。",
-        "captain-mcq-11": "「協助隊長並在需要時代行其職責的副隊長」與本句語境不同。",
-        "captain-mcq-06": "「某些紀律或制服組織中帶有管理和指揮責任的正式職級」與本句語境不同。"
+        "captain-mcq-09": "本句的「captained」指「以船長或最高指揮者身分負責和帶領某艘船或單位」。",
+        "captain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-09"
     },
@@ -857,11 +757,8 @@ export default {
       "masked": "He had previously ____ several commercial ships.",
       "options": [
         "captain-mcq-09",
-        "captain-mcq-08",
-        "captain-mcq-10",
-        "captain-mcq-07",
-        "captain-mcq-11",
-        "captain-mcq-06"
+        "captain-mcq-04",
+        "captain-mcq-13"
       ],
       "explanation": "本句的「captained」指「以船長或最高指揮者身分負責和帶領某艘船或單位」。",
       "sentenceIndex": 18,
@@ -870,12 +767,9 @@ export default {
         "captained"
       ],
       "optionReasons": {
-        "captain-mcq-09": "本句指「以船長或最高指揮者身分負責和帶領某艘船或單位」。",
-        "captain-mcq-08": "「以隊長身分帶領並代表某支隊伍」與本句語境不同。",
-        "captain-mcq-10": "「擔任隊長的職位、責任、身分或任期」與本句語境不同。",
-        "captain-mcq-07": "「某些餐飲或服務環境中負責監督員工或服務區域的高級服務人員」與本句語境不同。",
-        "captain-mcq-11": "「協助隊長並在需要時代行其職責的副隊長」與本句語境不同。",
-        "captain-mcq-06": "「某些紀律或制服組織中帶有管理和指揮責任的正式職級」與本句語境不同。"
+        "captain-mcq-09": "本句的「captained」指「以船長或最高指揮者身分負責和帶領某艘船或單位」。",
+        "captain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-09"
     },
@@ -887,11 +781,8 @@ export default {
       "masked": "She accepted the ____ at the beginning of the season.",
       "options": [
         "captain-mcq-10",
-        "captain-mcq-09",
-        "captain-mcq-11",
-        "captain-mcq-08",
-        "captain-mcq-12",
-        "captain-mcq-07"
+        "captain-mcq-04",
+        "captain-mcq-13"
       ],
       "explanation": "本句的「captaincy」指「擔任隊長的職位、責任、身分或任期」。",
       "sentenceIndex": 19,
@@ -900,12 +791,9 @@ export default {
         "captaincy"
       ],
       "optionReasons": {
-        "captain-mcq-10": "本句指「擔任隊長的職位、責任、身分或任期」。",
-        "captain-mcq-09": "「以船長或最高指揮者身分負責和帶領某艘船或單位」與本句語境不同。",
-        "captain-mcq-11": "「協助隊長並在需要時代行其職責的副隊長」與本句語境不同。",
-        "captain-mcq-08": "「以隊長身分帶領並代表某支隊伍」與本句語境不同。",
-        "captain-mcq-12": "「與其他人共同承擔隊長職責的人」與本句語境不同。",
-        "captain-mcq-07": "「某些餐飲或服務環境中負責監督員工或服務區域的高級服務人員」與本句語境不同。"
+        "captain-mcq-10": "本句的「captaincy」指「擔任隊長的職位、責任、身分或任期」。",
+        "captain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-10"
     },
@@ -917,11 +805,8 @@ export default {
       "masked": "The team improved considerably during his ____.",
       "options": [
         "captain-mcq-10",
-        "captain-mcq-09",
-        "captain-mcq-11",
-        "captain-mcq-08",
-        "captain-mcq-12",
-        "captain-mcq-07"
+        "captain-mcq-13",
+        "captain-mcq-04"
       ],
       "explanation": "本句的「captaincy」指「擔任隊長的職位、責任、身分或任期」。",
       "sentenceIndex": 20,
@@ -930,12 +815,9 @@ export default {
         "captaincy"
       ],
       "optionReasons": {
-        "captain-mcq-10": "本句指「擔任隊長的職位、責任、身分或任期」。",
-        "captain-mcq-09": "「以船長或最高指揮者身分負責和帶領某艘船或單位」與本句語境不同。",
-        "captain-mcq-11": "「協助隊長並在需要時代行其職責的副隊長」與本句語境不同。",
-        "captain-mcq-08": "「以隊長身分帶領並代表某支隊伍」與本句語境不同。",
-        "captain-mcq-12": "「與其他人共同承擔隊長職責的人」與本句語境不同。",
-        "captain-mcq-07": "「某些餐飲或服務環境中負責監督員工或服務區域的高級服務人員」與本句語境不同。"
+        "captain-mcq-10": "本句的「captaincy」指「擔任隊長的職位、責任、身分或任期」。",
+        "captain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-10"
     },
@@ -947,11 +829,8 @@ export default {
       "masked": "He became one of the country’s leading ____.",
       "options": [
         "captain-mcq-13",
-        "captain-mcq-12",
-        "captain-mcq-14",
-        "captain-mcq-11",
-        "captain-mcq-15",
-        "captain-mcq-10"
+        "captain-mcq-10",
+        "captain-mcq-04"
       ],
       "explanation": "本句的「captains of industry」指「在大型企業或產業中具有重大影響力的工商界領袖」。",
       "sentenceIndex": 21,
@@ -960,12 +839,9 @@ export default {
         "captains of industry"
       ],
       "optionReasons": {
-        "captain-mcq-13": "本句指「在大型企業或產業中具有重大影響力的工商界領袖」。",
-        "captain-mcq-12": "「與其他人共同承擔隊長職責的人」與本句語境不同。",
-        "captain-mcq-14": "「負責管理酒店行李服務人員的主管」與本句語境不同。",
-        "captain-mcq-11": "「協助隊長並在需要時代行其職責的副隊長」與本句語境不同。",
-        "captain-mcq-15": "「一種具有扶手和支撐式椅背的船長椅式座椅」與本句語境不同。",
-        "captain-mcq-10": "「擔任隊長的職位、責任、身分或任期」與本句語境不同。"
+        "captain-mcq-13": "本句的「captains of industry」指「在大型企業或產業中具有重大影響力的工商界領袖」。",
+        "captain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-13"
     },
@@ -977,11 +853,9 @@ export default {
       "masked": "Several ____ of industry attended the economic forum.",
       "options": [
         "captain-mcq-13",
-        "captain-mcq-12",
-        "captain-mcq-14",
-        "captain-mcq-11",
-        "captain-mcq-15",
-        "captain-mcq-10"
+        "captain-mcq-03",
+        "captain-mcq-05",
+        "captain-mcq-08"
       ],
       "explanation": "本句的「captains」指「在大型企業或產業中具有重大影響力的工商界領袖」。",
       "sentenceIndex": 22,
@@ -990,12 +864,10 @@ export default {
         "captains"
       ],
       "optionReasons": {
-        "captain-mcq-13": "本句指「在大型企業或產業中具有重大影響力的工商界領袖」。",
-        "captain-mcq-12": "「與其他人共同承擔隊長職責的人」與本句語境不同。",
-        "captain-mcq-14": "「負責管理酒店行李服務人員的主管」與本句語境不同。",
-        "captain-mcq-11": "「協助隊長並在需要時代行其職責的副隊長」與本句語境不同。",
-        "captain-mcq-15": "「一種具有扶手和支撐式椅背的船長椅式座椅」與本句語境不同。",
-        "captain-mcq-10": "「擔任隊長的職位、責任、身分或任期」與本句語境不同。"
+        "captain-mcq-13": "本句的「captains」指「在大型企業或產業中具有重大影響力的工商界領袖」。",
+        "captain-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "captain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "captain-mcq-13"
     }
@@ -1007,5 +879,7 @@ export default {
     "sha256": "4f338d37d88654e32891f1a9de88ba4687a657a95e18f6a5546c2e804001407e",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -220,7 +220,7 @@ export default {
     },
     {
       "id": "speak-mcq-11",
-      "title": "表示某人的意見只能代表自己，不能代表其他人",
+      "title": "某人的意見只能代表自己，不能代表其他人",
       "form": "speak for yourself",
       "en": "speak for yourself",
       "zh": "表示某人的意見只能代表自己，不能代表其他人",
@@ -725,7 +725,7 @@ export default {
     },
     {
       "id": "speak-mcq-34",
-      "title": "表示某種說法帶比喻或近似意味；可以這樣說",
+      "title": "某種說法帶比喻或近似意味；可以這樣說",
       "form": "so to speak",
       "en": "so to speak",
       "zh": "表示某種說法帶比喻或近似意味；可以這樣說",
@@ -865,11 +865,9 @@ export default {
       "masked": "She was too nervous to ____.",
       "options": [
         "speak-mcq-01",
-        "speak-mcq-02",
-        "speak-mcq-03",
-        "speak-mcq-04",
-        "speak-mcq-05",
-        "speak-mcq-06"
+        "speak-mcq-38",
+        "speak-mcq-13",
+        "speak-mcq-08"
       ],
       "explanation": "本句的「speak」指「用聲音說出語言內容；說話」。",
       "sentenceIndex": 0,
@@ -878,12 +876,10 @@ export default {
         "speak"
       ],
       "optionReasons": {
-        "speak-mcq-01": "本句指「用聲音說出語言內容；說話」。",
-        "speak-mcq-02": "「與某人進行口頭交流或交談」是「speak to/with someone」的用法，與本句語境不同。",
-        "speak-mcq-03": "「以講者身份向一群聽眾正式或半正式地發言」是「speak to an audience」的用法，與本句語境不同。",
-        "speak-mcq-04": "「在一群人面前公開發言／演講」是「speak in public」的用法，與本句語境不同。",
-        "speak-mcq-05": "「向觀眾公開演講這項活動或能力」是「public speaking」的用法，與本句語境不同。",
-        "speak-mcq-06": "「能夠使用某種語言進行口頭交流」是「speak + language」的用法，與本句語境不同。"
+        "speak-mcq-01": "本句的「speak」指「用聲音說出語言內容；說話」。",
+        "speak-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-01"
     },
@@ -895,11 +891,9 @@ export default {
       "masked": "Please ____ clearly.",
       "options": [
         "speak-mcq-01",
-        "speak-mcq-02",
-        "speak-mcq-03",
-        "speak-mcq-04",
-        "speak-mcq-05",
-        "speak-mcq-06"
+        "speak-mcq-11",
+        "speak-mcq-22",
+        "speak-mcq-12"
       ],
       "explanation": "本句的「speak」指「用聲音說出語言內容；說話」。",
       "sentenceIndex": 1,
@@ -908,12 +902,10 @@ export default {
         "speak"
       ],
       "optionReasons": {
-        "speak-mcq-01": "本句指「用聲音說出語言內容；說話」。",
-        "speak-mcq-02": "「與某人進行口頭交流或交談」是「speak to/with someone」的用法，與本句語境不同。",
-        "speak-mcq-03": "「以講者身份向一群聽眾正式或半正式地發言」是「speak to an audience」的用法，與本句語境不同。",
-        "speak-mcq-04": "「在一群人面前公開發言／演講」是「speak in public」的用法，與本句語境不同。",
-        "speak-mcq-05": "「向觀眾公開演講這項活動或能力」是「public speaking」的用法，與本句語境不同。",
-        "speak-mcq-06": "「能夠使用某種語言進行口頭交流」是「speak + language」的用法，與本句語境不同。"
+        "speak-mcq-01": "本句的「speak」指「用聲音說出語言內容；說話」。",
+        "speak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-01"
     },
@@ -925,11 +917,9 @@ export default {
       "masked": "Can I ____ your manager?",
       "options": [
         "speak-mcq-02",
-        "speak-mcq-01",
-        "speak-mcq-03",
-        "speak-mcq-04",
-        "speak-mcq-05",
-        "speak-mcq-06"
+        "speak-mcq-12",
+        "speak-mcq-31",
+        "speak-mcq-21"
       ],
       "explanation": "本句的「speak to」指「與某人進行口頭交流或交談」。",
       "sentenceIndex": 2,
@@ -938,12 +928,10 @@ export default {
         "speak to"
       ],
       "optionReasons": {
-        "speak-mcq-02": "本句指「與某人進行口頭交流或交談」。",
-        "speak-mcq-01": "「用聲音說出語言內容；說話」是「speak — basic」的用法，與本句語境不同。",
-        "speak-mcq-03": "「以講者身份向一群聽眾正式或半正式地發言」是「speak to an audience」的用法，與本句語境不同。",
-        "speak-mcq-04": "「在一群人面前公開發言／演講」是「speak in public」的用法，與本句語境不同。",
-        "speak-mcq-05": "「向觀眾公開演講這項活動或能力」是「public speaking」的用法，與本句語境不同。",
-        "speak-mcq-06": "「能夠使用某種語言進行口頭交流」是「speak + language」的用法，與本句語境不同。"
+        "speak-mcq-02": "本句的「speak to」指「與某人進行口頭交流或交談」。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-02"
     },
@@ -955,11 +943,9 @@ export default {
       "masked": "I ____ my supervisor before the event.",
       "options": [
         "speak-mcq-02",
-        "speak-mcq-01",
-        "speak-mcq-03",
-        "speak-mcq-04",
-        "speak-mcq-05",
-        "speak-mcq-06"
+        "speak-mcq-34",
+        "speak-mcq-12",
+        "speak-mcq-31"
       ],
       "explanation": "本句的「spoke with」指「與某人進行口頭交流或交談」。",
       "sentenceIndex": 3,
@@ -968,12 +954,10 @@ export default {
         "spoke with"
       ],
       "optionReasons": {
-        "speak-mcq-02": "本句指「與某人進行口頭交流或交談」。",
-        "speak-mcq-01": "「用聲音說出語言內容；說話」是「speak — basic」的用法，與本句語境不同。",
-        "speak-mcq-03": "「以講者身份向一群聽眾正式或半正式地發言」是「speak to an audience」的用法，與本句語境不同。",
-        "speak-mcq-04": "「在一群人面前公開發言／演講」是「speak in public」的用法，與本句語境不同。",
-        "speak-mcq-05": "「向觀眾公開演講這項活動或能力」是「public speaking」的用法，與本句語境不同。",
-        "speak-mcq-06": "「能夠使用某種語言進行口頭交流」是「speak + language」的用法，與本句語境不同。"
+        "speak-mcq-02": "本句的「spoke with」指「與某人進行口頭交流或交談」。",
+        "speak-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-02"
     },
@@ -985,11 +969,9 @@ export default {
       "masked": "I had never ____ in English before.",
       "options": [
         "speak-mcq-03",
-        "speak-mcq-02",
-        "speak-mcq-04",
-        "speak-mcq-01",
-        "speak-mcq-05",
-        "speak-mcq-06"
+        "speak-mcq-36",
+        "speak-mcq-14",
+        "speak-mcq-33"
       ],
       "explanation": "本句的「spoken to such a large audience」指「以講者身份向一群聽眾正式或半正式地發言」。",
       "sentenceIndex": 4,
@@ -998,12 +980,10 @@ export default {
         "spoken to such a large audience"
       ],
       "optionReasons": {
-        "speak-mcq-03": "本句指「以講者身份向一群聽眾正式或半正式地發言」。",
-        "speak-mcq-02": "「與某人進行口頭交流或交談」是「speak to/with someone」的用法，與本句語境不同。",
-        "speak-mcq-04": "「在一群人面前公開發言／演講」是「speak in public」的用法，與本句語境不同。",
-        "speak-mcq-01": "「用聲音說出語言內容；說話」是「speak — basic」的用法，與本句語境不同。",
-        "speak-mcq-05": "「向觀眾公開演講這項活動或能力」是「public speaking」的用法，與本句語境不同。",
-        "speak-mcq-06": "「能夠使用某種語言進行口頭交流」是「speak + language」的用法，與本句語境不同。"
+        "speak-mcq-03": "本句的「spoken to such a large audience」指「以講者身份向一群聽眾正式或半正式地發言」。",
+        "speak-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-03"
     },
@@ -1015,11 +995,9 @@ export default {
       "masked": "She was invited to ____ more than five hundred employees.",
       "options": [
         "speak-mcq-03",
-        "speak-mcq-02",
-        "speak-mcq-04",
-        "speak-mcq-01",
-        "speak-mcq-05",
-        "speak-mcq-06"
+        "speak-mcq-33",
+        "speak-mcq-38",
+        "speak-mcq-34"
       ],
       "explanation": "本句的「speak to」指「以講者身份向一群聽眾正式或半正式地發言」。",
       "sentenceIndex": 5,
@@ -1028,12 +1006,10 @@ export default {
         "speak to"
       ],
       "optionReasons": {
-        "speak-mcq-03": "本句指「以講者身份向一群聽眾正式或半正式地發言」。",
-        "speak-mcq-02": "「與某人進行口頭交流或交談」是「speak to/with someone」的用法，與本句語境不同。",
-        "speak-mcq-04": "「在一群人面前公開發言／演講」是「speak in public」的用法，與本句語境不同。",
-        "speak-mcq-01": "「用聲音說出語言內容；說話」是「speak — basic」的用法，與本句語境不同。",
-        "speak-mcq-05": "「向觀眾公開演講這項活動或能力」是「public speaking」的用法，與本句語境不同。",
-        "speak-mcq-06": "「能夠使用某種語言進行口頭交流」是「speak + language」的用法，與本句語境不同。"
+        "speak-mcq-03": "本句的「speak to」指「以講者身份向一群聽眾正式或半正式地發言」。",
+        "speak-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-03"
     },
@@ -1045,11 +1021,9 @@ export default {
       "masked": "He regularly ____ at conferences.",
       "options": [
         "speak-mcq-03",
-        "speak-mcq-02",
-        "speak-mcq-04",
-        "speak-mcq-01",
-        "speak-mcq-05",
-        "speak-mcq-06"
+        "speak-mcq-11",
+        "speak-mcq-33",
+        "speak-mcq-37"
       ],
       "explanation": "本句的「speaks to large audiences」指「以講者身份向一群聽眾正式或半正式地發言」。",
       "sentenceIndex": 6,
@@ -1058,12 +1032,10 @@ export default {
         "speaks to large audiences"
       ],
       "optionReasons": {
-        "speak-mcq-03": "本句指「以講者身份向一群聽眾正式或半正式地發言」。",
-        "speak-mcq-02": "「與某人進行口頭交流或交談」是「speak to/with someone」的用法，與本句語境不同。",
-        "speak-mcq-04": "「在一群人面前公開發言／演講」是「speak in public」的用法，與本句語境不同。",
-        "speak-mcq-01": "「用聲音說出語言內容；說話」是「speak — basic」的用法，與本句語境不同。",
-        "speak-mcq-05": "「向觀眾公開演講這項活動或能力」是「public speaking」的用法，與本句語境不同。",
-        "speak-mcq-06": "「能夠使用某種語言進行口頭交流」是「speak + language」的用法，與本句語境不同。"
+        "speak-mcq-03": "本句的「speaks to large audiences」指「以講者身份向一群聽眾正式或半正式地發言」。",
+        "speak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-03"
     },
@@ -1075,11 +1047,9 @@ export default {
       "masked": "I used to be afraid of ____.",
       "options": [
         "speak-mcq-04",
-        "speak-mcq-03",
-        "speak-mcq-05",
-        "speak-mcq-02",
-        "speak-mcq-06",
-        "speak-mcq-01"
+        "speak-mcq-22",
+        "speak-mcq-36",
+        "speak-mcq-13"
       ],
       "explanation": "本句的「speaking in public」指「在一群人面前公開發言／演講」。",
       "sentenceIndex": 7,
@@ -1088,12 +1058,10 @@ export default {
         "speaking in public"
       ],
       "optionReasons": {
-        "speak-mcq-04": "本句指「在一群人面前公開發言／演講」。",
-        "speak-mcq-03": "「以講者身份向一群聽眾正式或半正式地發言」是「speak to an audience」的用法，與本句語境不同。",
-        "speak-mcq-05": "「向觀眾公開演講這項活動或能力」是「public speaking」的用法，與本句語境不同。",
-        "speak-mcq-02": "「與某人進行口頭交流或交談」是「speak to/with someone」的用法，與本句語境不同。",
-        "speak-mcq-06": "「能夠使用某種語言進行口頭交流」是「speak + language」的用法，與本句語境不同。",
-        "speak-mcq-01": "「用聲音說出語言內容；說話」是「speak — basic」的用法，與本句語境不同。"
+        "speak-mcq-04": "本句的「speaking in public」指「在一群人面前公開發言／演講」。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-04"
     },
@@ -1105,11 +1073,9 @@ export default {
       "masked": "____ becomes easier with practice.",
       "options": [
         "speak-mcq-04",
-        "speak-mcq-03",
-        "speak-mcq-05",
-        "speak-mcq-02",
-        "speak-mcq-06",
-        "speak-mcq-01"
+        "speak-mcq-13",
+        "speak-mcq-36",
+        "speak-mcq-22"
       ],
       "explanation": "本句的「Public speaking」指「在一群人面前公開發言／演講」。",
       "sentenceIndex": 8,
@@ -1118,12 +1084,10 @@ export default {
         "Public speaking"
       ],
       "optionReasons": {
-        "speak-mcq-04": "本句指「在一群人面前公開發言／演講」。",
-        "speak-mcq-03": "「以講者身份向一群聽眾正式或半正式地發言」是「speak to an audience」的用法，與本句語境不同。",
-        "speak-mcq-05": "「向觀眾公開演講這項活動或能力」是「public speaking」的用法，與本句語境不同。",
-        "speak-mcq-02": "「與某人進行口頭交流或交談」是「speak to/with someone」的用法，與本句語境不同。",
-        "speak-mcq-06": "「能夠使用某種語言進行口頭交流」是「speak + language」的用法，與本句語境不同。",
-        "speak-mcq-01": "「用聲音說出語言內容；說話」是「speak — basic」的用法，與本句語境不同。"
+        "speak-mcq-04": "本句的「Public speaking」指「在一群人面前公開發言／演講」。",
+        "speak-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-04"
     },
@@ -1135,11 +1099,9 @@ export default {
       "masked": "She ____ fluently.",
       "options": [
         "speak-mcq-06",
-        "speak-mcq-05",
-        "speak-mcq-07",
-        "speak-mcq-04",
-        "speak-mcq-08",
-        "speak-mcq-03"
+        "speak-mcq-11",
+        "speak-mcq-12",
+        "speak-mcq-33"
       ],
       "explanation": "本句的「speaks English」指「能夠使用某種語言進行口頭交流」。",
       "sentenceIndex": 9,
@@ -1148,12 +1110,10 @@ export default {
         "speaks English"
       ],
       "optionReasons": {
-        "speak-mcq-06": "本句指「能夠使用某種語言進行口頭交流」。",
-        "speak-mcq-05": "「向觀眾公開演講這項活動或能力」是「public speaking」的用法，與本句語境不同。",
-        "speak-mcq-07": "「在某個具體場合使用指定語言口頭表達」是「speak in + language」的用法，與本句語境不同。",
-        "speak-mcq-04": "「在一群人面前公開發言／演講」是「speak in public」的用法，與本句語境不同。",
-        "speak-mcq-08": "「以口頭方式討論、講解或發表某個主題」是「speak about/on a topic」的用法，與本句語境不同。",
-        "speak-mcq-03": "「以講者身份向一群聽眾正式或半正式地發言」是「speak to an audience」的用法，與本句語境不同。"
+        "speak-mcq-06": "本句的「speaks English」指「能夠使用某種語言進行口頭交流」。",
+        "speak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-06"
     },
@@ -1165,11 +1125,9 @@ export default {
       "masked": "Do you ____?",
       "options": [
         "speak-mcq-06",
-        "speak-mcq-05",
-        "speak-mcq-07",
-        "speak-mcq-04",
-        "speak-mcq-08",
-        "speak-mcq-03"
+        "speak-mcq-37",
+        "speak-mcq-10",
+        "speak-mcq-33"
       ],
       "explanation": "本句的「speak Cantonese」指「能夠使用某種語言進行口頭交流」。",
       "sentenceIndex": 10,
@@ -1178,12 +1136,10 @@ export default {
         "speak Cantonese"
       ],
       "optionReasons": {
-        "speak-mcq-06": "本句指「能夠使用某種語言進行口頭交流」。",
-        "speak-mcq-05": "「向觀眾公開演講這項活動或能力」是「public speaking」的用法，與本句語境不同。",
-        "speak-mcq-07": "「在某個具體場合使用指定語言口頭表達」是「speak in + language」的用法，與本句語境不同。",
-        "speak-mcq-04": "「在一群人面前公開發言／演講」是「speak in public」的用法，與本句語境不同。",
-        "speak-mcq-08": "「以口頭方式討論、講解或發表某個主題」是「speak about/on a topic」的用法，與本句語境不同。",
-        "speak-mcq-03": "「以講者身份向一群聽眾正式或半正式地發言」是「speak to an audience」的用法，與本句語境不同。"
+        "speak-mcq-06": "本句的「speak Cantonese」指「能夠使用某種語言進行口頭交流」。",
+        "speak-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-06"
     },
@@ -1195,11 +1151,9 @@ export default {
       "masked": "I had to ____ during the presentation.",
       "options": [
         "speak-mcq-07",
-        "speak-mcq-06",
-        "speak-mcq-08",
-        "speak-mcq-05",
-        "speak-mcq-09",
-        "speak-mcq-04"
+        "speak-mcq-11",
+        "speak-mcq-33",
+        "speak-mcq-34"
       ],
       "explanation": "本句的「speak in English」指「在某個具體場合使用指定語言口頭表達」。",
       "sentenceIndex": 11,
@@ -1208,12 +1162,10 @@ export default {
         "speak in English"
       ],
       "optionReasons": {
-        "speak-mcq-07": "本句指「在某個具體場合使用指定語言口頭表達」。",
-        "speak-mcq-06": "「能夠使用某種語言進行口頭交流」是「speak + language」的用法，與本句語境不同。",
-        "speak-mcq-08": "「以口頭方式討論、講解或發表某個主題」是「speak about/on a topic」的用法，與本句語境不同。",
-        "speak-mcq-05": "「向觀眾公開演講這項活動或能力」是「public speaking」的用法，與本句語境不同。",
-        "speak-mcq-09": "「在某項活動、會議或場合中以講者身份發言」是「speak at an event」的用法，與本句語境不同。",
-        "speak-mcq-04": "「在一群人面前公開發言／演講」是「speak in public」的用法，與本句語境不同。"
+        "speak-mcq-07": "本句的「speak in English」指「在某個具體場合使用指定語言口頭表達」。",
+        "speak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-07"
     },
@@ -1225,11 +1177,9 @@ export default {
       "masked": "Please ____ during the exercise.",
       "options": [
         "speak-mcq-07",
-        "speak-mcq-06",
-        "speak-mcq-08",
-        "speak-mcq-05",
-        "speak-mcq-09",
-        "speak-mcq-04"
+        "speak-mcq-13",
+        "speak-mcq-22",
+        "speak-mcq-34"
       ],
       "explanation": "本句的「speak in English」指「在某個具體場合使用指定語言口頭表達」。",
       "sentenceIndex": 12,
@@ -1238,12 +1188,10 @@ export default {
         "speak in English"
       ],
       "optionReasons": {
-        "speak-mcq-07": "本句指「在某個具體場合使用指定語言口頭表達」。",
-        "speak-mcq-06": "「能夠使用某種語言進行口頭交流」是「speak + language」的用法，與本句語境不同。",
-        "speak-mcq-08": "「以口頭方式討論、講解或發表某個主題」是「speak about/on a topic」的用法，與本句語境不同。",
-        "speak-mcq-05": "「向觀眾公開演講這項活動或能力」是「public speaking」的用法，與本句語境不同。",
-        "speak-mcq-09": "「在某項活動、會議或場合中以講者身份發言」是「speak at an event」的用法，與本句語境不同。",
-        "speak-mcq-04": "「在一群人面前公開發言／演講」是「speak in public」的用法，與本句語境不同。"
+        "speak-mcq-07": "本句的「speak in English」指「在某個具體場合使用指定語言口頭表達」。",
+        "speak-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-07"
     },
@@ -1255,11 +1203,9 @@ export default {
       "masked": "She ____ the challenges of leading a team.",
       "options": [
         "speak-mcq-08",
-        "speak-mcq-07",
-        "speak-mcq-09",
-        "speak-mcq-06",
-        "speak-mcq-10",
-        "speak-mcq-05"
+        "speak-mcq-17",
+        "speak-mcq-34",
+        "speak-mcq-30"
       ],
       "explanation": "本句的「spoke about」指「以口頭方式討論、講解或發表某個主題」。",
       "sentenceIndex": 13,
@@ -1268,12 +1214,10 @@ export default {
         "spoke about"
       ],
       "optionReasons": {
-        "speak-mcq-08": "本句指「以口頭方式討論、講解或發表某個主題」。",
-        "speak-mcq-07": "「在某個具體場合使用指定語言口頭表達」是「speak in + language」的用法，與本句語境不同。",
-        "speak-mcq-09": "「在某項活動、會議或場合中以講者身份發言」是「speak at an event」的用法，與本句語境不同。",
-        "speak-mcq-06": "「能夠使用某種語言進行口頭交流」是「speak + language」的用法，與本句語境不同。",
-        "speak-mcq-10": "「代表某人／團體表達其立場、意見或決定」是「speak for someone/group」的用法，與本句語境不同。",
-        "speak-mcq-05": "「向觀眾公開演講這項活動或能力」是「public speaking」的用法，與本句語境不同。"
+        "speak-mcq-08": "本句的「spoke about」指「以口頭方式討論、講解或發表某個主題」。",
+        "speak-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-08"
     },
@@ -1285,11 +1229,9 @@ export default {
       "masked": "The professor will ____ climate policy.",
       "options": [
         "speak-mcq-08",
-        "speak-mcq-07",
-        "speak-mcq-09",
-        "speak-mcq-06",
-        "speak-mcq-10",
-        "speak-mcq-05"
+        "speak-mcq-31",
+        "speak-mcq-23",
+        "speak-mcq-11"
       ],
       "explanation": "本句的「speak on」指「以口頭方式討論、講解或發表某個主題」。",
       "sentenceIndex": 14,
@@ -1298,12 +1240,10 @@ export default {
         "speak on"
       ],
       "optionReasons": {
-        "speak-mcq-08": "本句指「以口頭方式討論、講解或發表某個主題」。",
-        "speak-mcq-07": "「在某個具體場合使用指定語言口頭表達」是「speak in + language」的用法，與本句語境不同。",
-        "speak-mcq-09": "「在某項活動、會議或場合中以講者身份發言」是「speak at an event」的用法，與本句語境不同。",
-        "speak-mcq-06": "「能夠使用某種語言進行口頭交流」是「speak + language」的用法，與本句語境不同。",
-        "speak-mcq-10": "「代表某人／團體表達其立場、意見或決定」是「speak for someone/group」的用法，與本句語境不同。",
-        "speak-mcq-05": "「向觀眾公開演講這項活動或能力」是「public speaking」的用法，與本句語境不同。"
+        "speak-mcq-08": "本句的「speak on」指「以口頭方式討論、講解或發表某個主題」。",
+        "speak-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-08"
     },
@@ -1315,11 +1255,9 @@ export default {
       "masked": "She ____ the annual conference.",
       "options": [
         "speak-mcq-09",
-        "speak-mcq-08",
-        "speak-mcq-10",
-        "speak-mcq-07",
+        "speak-mcq-33",
         "speak-mcq-11",
-        "speak-mcq-06"
+        "speak-mcq-37"
       ],
       "explanation": "本句的「spoke at」指「在某項活動、會議或場合中以講者身份發言」。",
       "sentenceIndex": 15,
@@ -1328,12 +1266,10 @@ export default {
         "spoke at"
       ],
       "optionReasons": {
-        "speak-mcq-09": "本句指「在某項活動、會議或場合中以講者身份發言」。",
-        "speak-mcq-08": "「以口頭方式討論、講解或發表某個主題」是「speak about/on a topic」的用法，與本句語境不同。",
-        "speak-mcq-10": "「代表某人／團體表達其立場、意見或決定」是「speak for someone/group」的用法，與本句語境不同。",
-        "speak-mcq-07": "「在某個具體場合使用指定語言口頭表達」是「speak in + language」的用法，與本句語境不同。",
-        "speak-mcq-11": "「表示某人的意見只能代表自己，不能代表其他人」是「speak for yourself」的用法，與本句語境不同。",
-        "speak-mcq-06": "「能夠使用某種語言進行口頭交流」是「speak + language」的用法，與本句語境不同。"
+        "speak-mcq-09": "本句的「spoke at」指「在某項活動、會議或場合中以講者身份發言」。",
+        "speak-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-09"
     },
@@ -1345,11 +1281,9 @@ export default {
       "masked": "He has been invited to ____ the company event.",
       "options": [
         "speak-mcq-09",
-        "speak-mcq-08",
-        "speak-mcq-10",
-        "speak-mcq-07",
-        "speak-mcq-11",
-        "speak-mcq-06"
+        "speak-mcq-14",
+        "speak-mcq-21",
+        "speak-mcq-34"
       ],
       "explanation": "本句的「speak at」指「在某項活動、會議或場合中以講者身份發言」。",
       "sentenceIndex": 16,
@@ -1358,12 +1292,10 @@ export default {
         "speak at"
       ],
       "optionReasons": {
-        "speak-mcq-09": "本句指「在某項活動、會議或場合中以講者身份發言」。",
-        "speak-mcq-08": "「以口頭方式討論、講解或發表某個主題」是「speak about/on a topic」的用法，與本句語境不同。",
-        "speak-mcq-10": "「代表某人／團體表達其立場、意見或決定」是「speak for someone/group」的用法，與本句語境不同。",
-        "speak-mcq-07": "「在某個具體場合使用指定語言口頭表達」是「speak in + language」的用法，與本句語境不同。",
-        "speak-mcq-11": "「表示某人的意見只能代表自己，不能代表其他人」是「speak for yourself」的用法，與本句語境不同。",
-        "speak-mcq-06": "「能夠使用某種語言進行口頭交流」是「speak + language」的用法，與本句語境不同。"
+        "speak-mcq-09": "本句的「speak at」指「在某項活動、會議或場合中以講者身份發言」。",
+        "speak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-09"
     },
@@ -1375,11 +1307,9 @@ export default {
       "masked": "I cannot ____ the whole team.",
       "options": [
         "speak-mcq-10",
-        "speak-mcq-09",
-        "speak-mcq-11",
-        "speak-mcq-08",
-        "speak-mcq-12",
-        "speak-mcq-07"
+        "speak-mcq-20",
+        "speak-mcq-37",
+        "speak-mcq-08"
       ],
       "explanation": "本句的「speak for」指「代表某人／團體表達其立場、意見或決定」。",
       "sentenceIndex": 17,
@@ -1388,12 +1318,10 @@ export default {
         "speak for"
       ],
       "optionReasons": {
-        "speak-mcq-10": "本句指「代表某人／團體表達其立場、意見或決定」。",
-        "speak-mcq-09": "「在某項活動、會議或場合中以講者身份發言」是「speak at an event」的用法，與本句語境不同。",
-        "speak-mcq-11": "「表示某人的意見只能代表自己，不能代表其他人」是「speak for yourself」的用法，與本句語境不同。",
-        "speak-mcq-08": "「以口頭方式討論、講解或發表某個主題」是「speak about/on a topic」的用法，與本句語境不同。",
-        "speak-mcq-12": "「證據／結果已經非常清楚，不需要額外解釋」是「something speaks for itself」的用法，與本句語境不同。",
-        "speak-mcq-07": "「在某個具體場合使用指定語言口頭表達」是「speak in + language」的用法，與本句語境不同。"
+        "speak-mcq-10": "本句的「speak for」指「代表某人／團體表達其立場、意見或決定」。",
+        "speak-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-10"
     },
@@ -1405,11 +1333,9 @@ export default {
       "masked": "She was authorized to ____ the organization.",
       "options": [
         "speak-mcq-10",
-        "speak-mcq-09",
-        "speak-mcq-11",
         "speak-mcq-08",
         "speak-mcq-12",
-        "speak-mcq-07"
+        "speak-mcq-21"
       ],
       "explanation": "本句的「speak for」指「代表某人／團體表達其立場、意見或決定」。",
       "sentenceIndex": 18,
@@ -1418,12 +1344,10 @@ export default {
         "speak for"
       ],
       "optionReasons": {
-        "speak-mcq-10": "本句指「代表某人／團體表達其立場、意見或決定」。",
-        "speak-mcq-09": "「在某項活動、會議或場合中以講者身份發言」是「speak at an event」的用法，與本句語境不同。",
-        "speak-mcq-11": "「表示某人的意見只能代表自己，不能代表其他人」是「speak for yourself」的用法，與本句語境不同。",
-        "speak-mcq-08": "「以口頭方式討論、講解或發表某個主題」是「speak about/on a topic」的用法，與本句語境不同。",
-        "speak-mcq-12": "「證據／結果已經非常清楚，不需要額外解釋」是「something speaks for itself」的用法，與本句語境不同。",
-        "speak-mcq-07": "「在某個具體場合使用指定語言口頭表達」是「speak in + language」的用法，與本句語境不同。"
+        "speak-mcq-10": "本句的「speak for」指「代表某人／團體表達其立場、意見或決定」。",
+        "speak-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-10"
     },
@@ -1435,11 +1359,9 @@ export default {
       "masked": "____",
       "options": [
         "speak-mcq-11",
-        "speak-mcq-10",
-        "speak-mcq-12",
-        "speak-mcq-09",
-        "speak-mcq-13",
-        "speak-mcq-08"
+        "speak-mcq-06",
+        "speak-mcq-32",
+        "speak-mcq-12"
       ],
       "explanation": "本句的「Speak for yourself.」指「表示某人的意見只能代表自己，不能代表其他人」。",
       "sentenceIndex": 19,
@@ -1448,12 +1370,10 @@ export default {
         "Speak for yourself."
       ],
       "optionReasons": {
-        "speak-mcq-11": "本句指「表示某人的意見只能代表自己，不能代表其他人」。",
-        "speak-mcq-10": "「代表某人／團體表達其立場、意見或決定」是「speak for someone/group」的用法，與本句語境不同。",
-        "speak-mcq-12": "「證據／結果已經非常清楚，不需要額外解釋」是「something speaks for itself」的用法，與本句語境不同。",
-        "speak-mcq-09": "「在某項活動、會議或場合中以講者身份發言」是「speak at an event」的用法，與本句語境不同。",
-        "speak-mcq-13": "「以正面、讚賞的方式談論某人／某事」是「speak highly/well of」的用法，與本句語境不同。",
-        "speak-mcq-08": "「以口頭方式討論、講解或發表某個主題」是「speak about/on a topic」的用法，與本句語境不同。"
+        "speak-mcq-11": "本句的「Speak for yourself.」指「表示某人的意見只能代表自己，不能代表其他人」。",
+        "speak-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-11"
     },
@@ -1465,11 +1385,9 @@ export default {
       "masked": "____ I like it.",
       "options": [
         "speak-mcq-11",
-        "speak-mcq-10",
-        "speak-mcq-12",
-        "speak-mcq-09",
-        "speak-mcq-13",
-        "speak-mcq-08"
+        "speak-mcq-07",
+        "speak-mcq-22",
+        "speak-mcq-31"
       ],
       "explanation": "本句的「Speak for yourself.」指「表示某人的意見只能代表自己，不能代表其他人」。",
       "sentenceIndex": 20,
@@ -1478,12 +1396,10 @@ export default {
         "Speak for yourself."
       ],
       "optionReasons": {
-        "speak-mcq-11": "本句指「表示某人的意見只能代表自己，不能代表其他人」。",
-        "speak-mcq-10": "「代表某人／團體表達其立場、意見或決定」是「speak for someone/group」的用法，與本句語境不同。",
-        "speak-mcq-12": "「證據／結果已經非常清楚，不需要額外解釋」是「something speaks for itself」的用法，與本句語境不同。",
-        "speak-mcq-09": "「在某項活動、會議或場合中以講者身份發言」是「speak at an event」的用法，與本句語境不同。",
-        "speak-mcq-13": "「以正面、讚賞的方式談論某人／某事」是「speak highly/well of」的用法，與本句語境不同。",
-        "speak-mcq-08": "「以口頭方式討論、講解或發表某個主題」是「speak about/on a topic」的用法，與本句語境不同。"
+        "speak-mcq-11": "本句的「Speak for yourself.」指「表示某人的意見只能代表自己，不能代表其他人」。",
+        "speak-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-11"
     },
@@ -1495,11 +1411,9 @@ export default {
       "masked": "The improvement in sales ____.",
       "options": [
         "speak-mcq-12",
-        "speak-mcq-11",
-        "speak-mcq-13",
-        "speak-mcq-10",
-        "speak-mcq-14",
-        "speak-mcq-09"
+        "speak-mcq-18",
+        "speak-mcq-32",
+        "speak-mcq-28"
       ],
       "explanation": "本句的「speaks for itself」指「證據／結果已經非常清楚，不需要額外解釋」。",
       "sentenceIndex": 21,
@@ -1508,12 +1422,10 @@ export default {
         "speaks for itself"
       ],
       "optionReasons": {
-        "speak-mcq-12": "本句指「證據／結果已經非常清楚，不需要額外解釋」。",
-        "speak-mcq-11": "「表示某人的意見只能代表自己，不能代表其他人」是「speak for yourself」的用法，與本句語境不同。",
-        "speak-mcq-13": "「以正面、讚賞的方式談論某人／某事」是「speak highly/well of」的用法，與本句語境不同。",
-        "speak-mcq-10": "「代表某人／團體表達其立場、意見或決定」是「speak for someone/group」的用法，與本句語境不同。",
-        "speak-mcq-14": "「對某人／某事作負面評論」是「speak badly/poorly of」的用法，與本句語境不同。",
-        "speak-mcq-09": "「在某項活動、會議或場合中以講者身份發言」是「speak at an event」的用法，與本句語境不同。"
+        "speak-mcq-12": "本句的「speaks for itself」指「證據／結果已經非常清楚，不需要額外解釋」。",
+        "speak-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-12"
     },
@@ -1525,11 +1437,9 @@ export default {
       "masked": "Her results ____.",
       "options": [
         "speak-mcq-12",
-        "speak-mcq-11",
-        "speak-mcq-13",
-        "speak-mcq-10",
-        "speak-mcq-14",
-        "speak-mcq-09"
+        "speak-mcq-39",
+        "speak-mcq-32",
+        "speak-mcq-28"
       ],
       "explanation": "本句的「speak for themselves」指「證據／結果已經非常清楚，不需要額外解釋」。",
       "sentenceIndex": 22,
@@ -1538,12 +1448,10 @@ export default {
         "speak for themselves"
       ],
       "optionReasons": {
-        "speak-mcq-12": "本句指「證據／結果已經非常清楚，不需要額外解釋」。",
-        "speak-mcq-11": "「表示某人的意見只能代表自己，不能代表其他人」是「speak for yourself」的用法，與本句語境不同。",
-        "speak-mcq-13": "「以正面、讚賞的方式談論某人／某事」是「speak highly/well of」的用法，與本句語境不同。",
-        "speak-mcq-10": "「代表某人／團體表達其立場、意見或決定」是「speak for someone/group」的用法，與本句語境不同。",
-        "speak-mcq-14": "「對某人／某事作負面評論」是「speak badly/poorly of」的用法，與本句語境不同。",
-        "speak-mcq-09": "「在某項活動、會議或場合中以講者身份發言」是「speak at an event」的用法，與本句語境不同。"
+        "speak-mcq-12": "本句的「speak for themselves」指「證據／結果已經非常清楚，不需要額外解釋」。",
+        "speak-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-12"
     },
@@ -1555,11 +1463,9 @@ export default {
       "masked": "Her colleagues ____ her work.",
       "options": [
         "speak-mcq-13",
-        "speak-mcq-12",
-        "speak-mcq-14",
-        "speak-mcq-11",
-        "speak-mcq-15",
-        "speak-mcq-10"
+        "speak-mcq-04",
+        "speak-mcq-31",
+        "speak-mcq-37"
       ],
       "explanation": "本句的「spoke highly of」指「以正面、讚賞的方式談論某人／某事」。",
       "sentenceIndex": 23,
@@ -1568,12 +1474,10 @@ export default {
         "spoke highly of"
       ],
       "optionReasons": {
-        "speak-mcq-13": "本句指「以正面、讚賞的方式談論某人／某事」。",
-        "speak-mcq-12": "「證據／結果已經非常清楚，不需要額外解釋」是「something speaks for itself」的用法，與本句語境不同。",
-        "speak-mcq-14": "「對某人／某事作負面評論」是「speak badly/poorly of」的用法，與本句語境不同。",
-        "speak-mcq-11": "「表示某人的意見只能代表自己，不能代表其他人」是「speak for yourself」的用法，與本句語境不同。",
-        "speak-mcq-15": "「坦率直接地說出自己真正的想法或感受」是「speak your mind」的用法，與本句語境不同。",
-        "speak-mcq-10": "「代表某人／團體表達其立場、意見或決定」是「speak for someone/group」的用法，與本句語境不同。"
+        "speak-mcq-13": "本句的「spoke highly of」指「以正面、讚賞的方式談論某人／某事」。",
+        "speak-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-13"
     },
@@ -1585,11 +1489,9 @@ export default {
       "masked": "The manager ____ your presentation.",
       "options": [
         "speak-mcq-13",
-        "speak-mcq-12",
-        "speak-mcq-14",
-        "speak-mcq-11",
-        "speak-mcq-15",
-        "speak-mcq-10"
+        "speak-mcq-32",
+        "speak-mcq-34",
+        "speak-mcq-12"
       ],
       "explanation": "本句的「spoke well of」指「以正面、讚賞的方式談論某人／某事」。",
       "sentenceIndex": 24,
@@ -1598,12 +1500,10 @@ export default {
         "spoke well of"
       ],
       "optionReasons": {
-        "speak-mcq-13": "本句指「以正面、讚賞的方式談論某人／某事」。",
-        "speak-mcq-12": "「證據／結果已經非常清楚，不需要額外解釋」是「something speaks for itself」的用法，與本句語境不同。",
-        "speak-mcq-14": "「對某人／某事作負面評論」是「speak badly/poorly of」的用法，與本句語境不同。",
-        "speak-mcq-11": "「表示某人的意見只能代表自己，不能代表其他人」是「speak for yourself」的用法，與本句語境不同。",
-        "speak-mcq-15": "「坦率直接地說出自己真正的想法或感受」是「speak your mind」的用法，與本句語境不同。",
-        "speak-mcq-10": "「代表某人／團體表達其立場、意見或決定」是「speak for someone/group」的用法，與本句語境不同。"
+        "speak-mcq-13": "本句的「spoke well of」指「以正面、讚賞的方式談論某人／某事」。",
+        "speak-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-13"
     },
@@ -1615,11 +1515,9 @@ export default {
       "masked": "He never ____ former colleagues.",
       "options": [
         "speak-mcq-14",
-        "speak-mcq-13",
-        "speak-mcq-15",
-        "speak-mcq-12",
-        "speak-mcq-16",
-        "speak-mcq-11"
+        "speak-mcq-20",
+        "speak-mcq-31",
+        "speak-mcq-33"
       ],
       "explanation": "本句的「speaks badly of」指「對某人／某事作負面評論」。",
       "sentenceIndex": 25,
@@ -1628,12 +1526,10 @@ export default {
         "speaks badly of"
       ],
       "optionReasons": {
-        "speak-mcq-14": "本句指「對某人／某事作負面評論」。",
-        "speak-mcq-13": "「以正面、讚賞的方式談論某人／某事」是「speak highly/well of」的用法，與本句語境不同。",
-        "speak-mcq-15": "「坦率直接地說出自己真正的想法或感受」是「speak your mind」的用法，與本句語境不同。",
-        "speak-mcq-12": "「證據／結果已經非常清楚，不需要額外解釋」是「something speaks for itself」的用法，與本句語境不同。",
-        "speak-mcq-16": "「雙方關係至少維持到仍願意彼此交談」是「on speaking terms」的用法，與本句語境不同。",
-        "speak-mcq-11": "「表示某人的意見只能代表自己，不能代表其他人」是「speak for yourself」的用法，與本句語境不同。"
+        "speak-mcq-14": "本句的「speaks badly of」指「對某人／某事作負面評論」。",
+        "speak-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-14"
     },
@@ -1645,11 +1541,9 @@ export default {
       "masked": "It is unprofessional to ____ clients.",
       "options": [
         "speak-mcq-14",
-        "speak-mcq-13",
-        "speak-mcq-15",
-        "speak-mcq-12",
-        "speak-mcq-16",
-        "speak-mcq-11"
+        "speak-mcq-25",
+        "speak-mcq-34",
+        "speak-mcq-12"
       ],
       "explanation": "本句的「speak poorly of」指「對某人／某事作負面評論」。",
       "sentenceIndex": 26,
@@ -1658,12 +1552,10 @@ export default {
         "speak poorly of"
       ],
       "optionReasons": {
-        "speak-mcq-14": "本句指「對某人／某事作負面評論」。",
-        "speak-mcq-13": "「以正面、讚賞的方式談論某人／某事」是「speak highly/well of」的用法，與本句語境不同。",
-        "speak-mcq-15": "「坦率直接地說出自己真正的想法或感受」是「speak your mind」的用法，與本句語境不同。",
-        "speak-mcq-12": "「證據／結果已經非常清楚，不需要額外解釋」是「something speaks for itself」的用法，與本句語境不同。",
-        "speak-mcq-16": "「雙方關係至少維持到仍願意彼此交談」是「on speaking terms」的用法，與本句語境不同。",
-        "speak-mcq-11": "「表示某人的意見只能代表自己，不能代表其他人」是「speak for yourself」的用法，與本句語境不同。"
+        "speak-mcq-14": "本句的「speak poorly of」指「對某人／某事作負面評論」。",
+        "speak-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-14"
     },
@@ -1675,11 +1567,9 @@ export default {
       "masked": "She is not afraid to ____.",
       "options": [
         "speak-mcq-15",
-        "speak-mcq-14",
-        "speak-mcq-16",
-        "speak-mcq-13",
-        "speak-mcq-17",
-        "speak-mcq-12"
+        "speak-mcq-12",
+        "speak-mcq-32",
+        "speak-mcq-08"
       ],
       "explanation": "本句的「speak her mind」指「坦率直接地說出自己真正的想法或感受」。",
       "sentenceIndex": 27,
@@ -1688,12 +1578,10 @@ export default {
         "speak her mind"
       ],
       "optionReasons": {
-        "speak-mcq-15": "本句指「坦率直接地說出自己真正的想法或感受」。",
-        "speak-mcq-14": "「對某人／某事作負面評論」是「speak badly/poorly of」的用法，與本句語境不同。",
-        "speak-mcq-16": "「雙方關係至少維持到仍願意彼此交談」是「on speaking terms」的用法，與本句語境不同。",
-        "speak-mcq-13": "「以正面、讚賞的方式談論某人／某事」是「speak highly/well of」的用法，與本句語境不同。",
-        "speak-mcq-17": "「一個人在正常說話時所使用的聲線／聲量」是「speaking voice」的用法，與本句語境不同。",
-        "speak-mcq-12": "「證據／結果已經非常清楚，不需要額外解釋」是「something speaks for itself」的用法，與本句語境不同。"
+        "speak-mcq-15": "本句的「speak her mind」指「坦率直接地說出自己真正的想法或感受」。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-15"
     },
@@ -1705,11 +1593,9 @@ export default {
       "masked": "I decided to ____ during the meeting.",
       "options": [
         "speak-mcq-15",
-        "speak-mcq-14",
-        "speak-mcq-16",
-        "speak-mcq-13",
-        "speak-mcq-17",
-        "speak-mcq-12"
+        "speak-mcq-30",
+        "speak-mcq-21",
+        "speak-mcq-14"
       ],
       "explanation": "本句的「speak my mind」指「坦率直接地說出自己真正的想法或感受」。",
       "sentenceIndex": 28,
@@ -1718,12 +1604,10 @@ export default {
         "speak my mind"
       ],
       "optionReasons": {
-        "speak-mcq-15": "本句指「坦率直接地說出自己真正的想法或感受」。",
-        "speak-mcq-14": "「對某人／某事作負面評論」是「speak badly/poorly of」的用法，與本句語境不同。",
-        "speak-mcq-16": "「雙方關係至少維持到仍願意彼此交談」是「on speaking terms」的用法，與本句語境不同。",
-        "speak-mcq-13": "「以正面、讚賞的方式談論某人／某事」是「speak highly/well of」的用法，與本句語境不同。",
-        "speak-mcq-17": "「一個人在正常說話時所使用的聲線／聲量」是「speaking voice」的用法，與本句語境不同。",
-        "speak-mcq-12": "「證據／結果已經非常清楚，不需要額外解釋」是「something speaks for itself」的用法，與本句語境不同。"
+        "speak-mcq-15": "本句的「speak my mind」指「坦率直接地說出自己真正的想法或感受」。",
+        "speak-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-15"
     },
@@ -1735,11 +1619,9 @@ export default {
       "masked": "Several employees ____ about the problem.",
       "options": [
         "speak-mcq-38",
-        "speak-mcq-37",
-        "speak-mcq-39",
-        "speak-mcq-36",
-        "speak-mcq-35",
-        "speak-mcq-34"
+        "speak-mcq-24",
+        "speak-mcq-13",
+        "speak-mcq-30"
       ],
       "explanation": "本句的「spoke out」指「公開而明確地表達意見，尤其針對問題或不公」。",
       "sentenceIndex": 29,
@@ -1748,12 +1630,10 @@ export default {
         "spoke out"
       ],
       "optionReasons": {
-        "speak-mcq-38": "本句指「公開而明確地表達意見，尤其針對問題或不公」。",
-        "speak-mcq-37": "「在電影、戲劇等作品中有台詞需要說的角色」是「speaking role/part」的用法，與本句語境不同。",
-        "speak-mcq-39": "「因生氣、衝突等而不願跟某人交談」是「17. not speak to someone（不理某人／不跟某人說話） — 不跟……說話」的用法，與本句語境不同。",
-        "speak-mcq-36": "「實際行動比口頭說法更能證明態度、能力或誠意」是「actions speak louder than words」的用法，與本句語境不同。",
-        "speak-mcq-35": "「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」是「speak volumes」的用法，與本句語境不同。",
-        "speak-mcq-34": "「表示某種說法帶比喻或近似意味；可以這樣說」是「so to speak」的用法，與本句語境不同。"
+        "speak-mcq-38": "本句的「spoke out」指「公開而明確地表達意見，尤其針對問題或不公」。",
+        "speak-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-38"
     },
@@ -1765,11 +1645,9 @@ export default {
       "masked": "She decided to ____ against unfair treatment.",
       "options": [
         "speak-mcq-38",
-        "speak-mcq-37",
-        "speak-mcq-39",
-        "speak-mcq-36",
-        "speak-mcq-35",
-        "speak-mcq-34"
+        "speak-mcq-01",
+        "speak-mcq-22",
+        "speak-mcq-32"
       ],
       "explanation": "本句的「speak out」指「公開而明確地表達意見，尤其針對問題或不公」。",
       "sentenceIndex": 30,
@@ -1778,12 +1656,10 @@ export default {
         "speak out"
       ],
       "optionReasons": {
-        "speak-mcq-38": "本句指「公開而明確地表達意見，尤其針對問題或不公」。",
-        "speak-mcq-37": "「在電影、戲劇等作品中有台詞需要說的角色」是「speaking role/part」的用法，與本句語境不同。",
-        "speak-mcq-39": "「因生氣、衝突等而不願跟某人交談」是「17. not speak to someone（不理某人／不跟某人說話） — 不跟……說話」的用法，與本句語境不同。",
-        "speak-mcq-36": "「實際行動比口頭說法更能證明態度、能力或誠意」是「actions speak louder than words」的用法，與本句語境不同。",
-        "speak-mcq-35": "「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」是「speak volumes」的用法，與本句語境不同。",
-        "speak-mcq-34": "「表示某種說法帶比喻或近似意味；可以這樣說」是「so to speak」的用法，與本句語境不同。"
+        "speak-mcq-38": "本句的「speak out」指「公開而明確地表達意見，尤其針對問題或不公」。",
+        "speak-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-38"
     },
@@ -1795,10 +1671,8 @@ export default {
       "masked": "They argued and didn’t ____ for a week.",
       "options": [
         "speak-mcq-39",
-        "speak-mcq-38",
-        "speak-mcq-37",
-        "speak-mcq-36",
-        "speak-mcq-35",
+        "speak-mcq-21",
+        "speak-mcq-22",
         "speak-mcq-34"
       ],
       "explanation": "本句的「speak to each other」指「因生氣、衝突等而不願跟某人交談」。",
@@ -1808,12 +1682,10 @@ export default {
         "speak to each other"
       ],
       "optionReasons": {
-        "speak-mcq-39": "本句指「因生氣、衝突等而不願跟某人交談」。",
-        "speak-mcq-38": "「公開而明確地表達意見，尤其針對問題或不公」是「15. speak out（公開表態） — 公開說出意見」的用法，與本句語境不同。",
-        "speak-mcq-37": "「在電影、戲劇等作品中有台詞需要說的角色」是「speaking role/part」的用法，與本句語境不同。",
-        "speak-mcq-36": "「實際行動比口頭說法更能證明態度、能力或誠意」是「actions speak louder than words」的用法，與本句語境不同。",
-        "speak-mcq-35": "「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」是「speak volumes」的用法，與本句語境不同。",
-        "speak-mcq-34": "「表示某種說法帶比喻或近似意味；可以這樣說」是「so to speak」的用法，與本句語境不同。"
+        "speak-mcq-39": "本句的「speak to each other」指「因生氣、衝突等而不願跟某人交談」。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-39"
     },
@@ -1825,11 +1697,9 @@ export default {
       "masked": "She was so angry that she refused to ____.",
       "options": [
         "speak-mcq-39",
-        "speak-mcq-38",
-        "speak-mcq-37",
-        "speak-mcq-36",
-        "speak-mcq-35",
-        "speak-mcq-34"
+        "speak-mcq-12",
+        "speak-mcq-08",
+        "speak-mcq-28"
       ],
       "explanation": "本句的「speak to him」指「因生氣、衝突等而不願跟某人交談」。",
       "sentenceIndex": 32,
@@ -1838,12 +1708,10 @@ export default {
         "speak to him"
       ],
       "optionReasons": {
-        "speak-mcq-39": "本句指「因生氣、衝突等而不願跟某人交談」。",
-        "speak-mcq-38": "「公開而明確地表達意見，尤其針對問題或不公」是「15. speak out（公開表態） — 公開說出意見」的用法，與本句語境不同。",
-        "speak-mcq-37": "「在電影、戲劇等作品中有台詞需要說的角色」是「speaking role/part」的用法，與本句語境不同。",
-        "speak-mcq-36": "「實際行動比口頭說法更能證明態度、能力或誠意」是「actions speak louder than words」的用法，與本句語境不同。",
-        "speak-mcq-35": "「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」是「speak volumes」的用法，與本句語境不同。",
-        "speak-mcq-34": "「表示某種說法帶比喻或近似意味；可以這樣說」是「so to speak」的用法，與本句語境不同。"
+        "speak-mcq-39": "本句的「speak to him」指「因生氣、衝突等而不願跟某人交談」。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-39"
     },
@@ -1855,11 +1723,9 @@ export default {
       "masked": "They disagree often, but they are still ____.",
       "options": [
         "speak-mcq-16",
-        "speak-mcq-15",
-        "speak-mcq-17",
-        "speak-mcq-14",
-        "speak-mcq-18",
-        "speak-mcq-13"
+        "speak-mcq-30",
+        "speak-mcq-24",
+        "speak-mcq-37"
       ],
       "explanation": "本句的「on speaking terms」指「雙方關係至少維持到仍願意彼此交談」。",
       "sentenceIndex": 33,
@@ -1868,12 +1734,10 @@ export default {
         "on speaking terms"
       ],
       "optionReasons": {
-        "speak-mcq-16": "本句指「雙方關係至少維持到仍願意彼此交談」。",
-        "speak-mcq-15": "「坦率直接地說出自己真正的想法或感受」是「speak your mind」的用法，與本句語境不同。",
-        "speak-mcq-17": "「一個人在正常說話時所使用的聲線／聲量」是「speaking voice」的用法，與本句語境不同。",
-        "speak-mcq-14": "「對某人／某事作負面評論」是「speak badly/poorly of」的用法，與本句語境不同。",
-        "speak-mcq-18": "「以口頭形式實際使用的英語／語言，而不是書面語」是「spoken English/language」的用法，與本句語境不同。",
-        "speak-mcq-13": "「以正面、讚賞的方式談論某人／某事」是「speak highly/well of」的用法，與本句語境不同。"
+        "speak-mcq-16": "本句的「on speaking terms」指「雙方關係至少維持到仍願意彼此交談」。",
+        "speak-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-16"
     },
@@ -1885,11 +1749,9 @@ export default {
       "masked": "After the argument, they were no longer ____.",
       "options": [
         "speak-mcq-16",
-        "speak-mcq-15",
-        "speak-mcq-17",
-        "speak-mcq-14",
-        "speak-mcq-18",
-        "speak-mcq-13"
+        "speak-mcq-33",
+        "speak-mcq-37",
+        "speak-mcq-24"
       ],
       "explanation": "本句的「on speaking terms」指「雙方關係至少維持到仍願意彼此交談」。",
       "sentenceIndex": 34,
@@ -1898,12 +1760,10 @@ export default {
         "on speaking terms"
       ],
       "optionReasons": {
-        "speak-mcq-16": "本句指「雙方關係至少維持到仍願意彼此交談」。",
-        "speak-mcq-15": "「坦率直接地說出自己真正的想法或感受」是「speak your mind」的用法，與本句語境不同。",
-        "speak-mcq-17": "「一個人在正常說話時所使用的聲線／聲量」是「speaking voice」的用法，與本句語境不同。",
-        "speak-mcq-14": "「對某人／某事作負面評論」是「speak badly/poorly of」的用法，與本句語境不同。",
-        "speak-mcq-18": "「以口頭形式實際使用的英語／語言，而不是書面語」是「spoken English/language」的用法，與本句語境不同。",
-        "speak-mcq-13": "「以正面、讚賞的方式談論某人／某事」是「speak highly/well of」的用法，與本句語境不同。"
+        "speak-mcq-16": "本句的「on speaking terms」指「雙方關係至少維持到仍願意彼此交談」。",
+        "speak-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-16"
     },
@@ -1915,11 +1775,9 @@ export default {
       "masked": "She has a calm ____.",
       "options": [
         "speak-mcq-17",
-        "speak-mcq-16",
-        "speak-mcq-18",
-        "speak-mcq-15",
-        "speak-mcq-19",
-        "speak-mcq-14"
+        "speak-mcq-31",
+        "speak-mcq-28",
+        "speak-mcq-08"
       ],
       "explanation": "本句的「speaking voice」指「一個人在正常說話時所使用的聲線／聲量」。",
       "sentenceIndex": 35,
@@ -1928,12 +1786,10 @@ export default {
         "speaking voice"
       ],
       "optionReasons": {
-        "speak-mcq-17": "本句指「一個人在正常說話時所使用的聲線／聲量」。",
-        "speak-mcq-16": "「雙方關係至少維持到仍願意彼此交談」是「on speaking terms」的用法，與本句語境不同。",
-        "speak-mcq-18": "「以口頭形式實際使用的英語／語言，而不是書面語」是「spoken English/language」的用法，與本句語境不同。",
-        "speak-mcq-15": "「坦率直接地說出自己真正的想法或感受」是「speak your mind」的用法，與本句語境不同。",
-        "speak-mcq-19": "「以口頭語言表達的內容；亦可指朗誦表演形式」是「spoken word」的用法，與本句語境不同。",
-        "speak-mcq-14": "「對某人／某事作負面評論」是「speak badly/poorly of」的用法，與本句語境不同。"
+        "speak-mcq-17": "本句的「speaking voice」指「一個人在正常說話時所使用的聲線／聲量」。",
+        "speak-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-17"
     },
@@ -1945,11 +1801,9 @@ export default {
       "masked": "Use your normal ____.",
       "options": [
         "speak-mcq-17",
-        "speak-mcq-16",
-        "speak-mcq-18",
-        "speak-mcq-15",
-        "speak-mcq-19",
-        "speak-mcq-14"
+        "speak-mcq-38",
+        "speak-mcq-30",
+        "speak-mcq-08"
       ],
       "explanation": "本句的「speaking voice」指「一個人在正常說話時所使用的聲線／聲量」。",
       "sentenceIndex": 36,
@@ -1958,12 +1812,10 @@ export default {
         "speaking voice"
       ],
       "optionReasons": {
-        "speak-mcq-17": "本句指「一個人在正常說話時所使用的聲線／聲量」。",
-        "speak-mcq-16": "「雙方關係至少維持到仍願意彼此交談」是「on speaking terms」的用法，與本句語境不同。",
-        "speak-mcq-18": "「以口頭形式實際使用的英語／語言，而不是書面語」是「spoken English/language」的用法，與本句語境不同。",
-        "speak-mcq-15": "「坦率直接地說出自己真正的想法或感受」是「speak your mind」的用法，與本句語境不同。",
-        "speak-mcq-19": "「以口頭語言表達的內容；亦可指朗誦表演形式」是「spoken word」的用法，與本句語境不同。",
-        "speak-mcq-14": "「對某人／某事作負面評論」是「speak badly/poorly of」的用法，與本句語境不同。"
+        "speak-mcq-17": "本句的「speaking voice」指「一個人在正常說話時所使用的聲線／聲量」。",
+        "speak-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-17"
     },
@@ -1975,11 +1827,9 @@ export default {
       "masked": "His ____ has improved a lot.",
       "options": [
         "speak-mcq-18",
-        "speak-mcq-17",
-        "speak-mcq-19",
-        "speak-mcq-16",
-        "speak-mcq-20",
-        "speak-mcq-15"
+        "speak-mcq-14",
+        "speak-mcq-37",
+        "speak-mcq-21"
       ],
       "explanation": "本句的「spoken English」指「以口頭形式實際使用的英語／語言，而不是書面語」。",
       "sentenceIndex": 37,
@@ -1988,12 +1838,10 @@ export default {
         "spoken English"
       ],
       "optionReasons": {
-        "speak-mcq-18": "本句指「以口頭形式實際使用的英語／語言，而不是書面語」。",
-        "speak-mcq-17": "「一個人在正常說話時所使用的聲線／聲量」是「speaking voice」的用法，與本句語境不同。",
-        "speak-mcq-19": "「以口頭語言表達的內容；亦可指朗誦表演形式」是「spoken word」的用法，與本句語境不同。",
-        "speak-mcq-16": "「雙方關係至少維持到仍願意彼此交談」是「on speaking terms」的用法，與本句語境不同。",
-        "speak-mcq-20": "「正在發言、演講或向觀眾說話的人」是「speaker — person」的用法，與本句語境不同。",
-        "speak-mcq-15": "「坦率直接地說出自己真正的想法或感受」是「speak your mind」的用法，與本句語境不同。"
+        "speak-mcq-18": "本句的「spoken English」指「以口頭形式實際使用的英語／語言，而不是書面語」。",
+        "speak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-18"
     },
@@ -2005,11 +1853,9 @@ export default {
       "masked": "There is often a difference between written and ____.",
       "options": [
         "speak-mcq-18",
-        "speak-mcq-17",
-        "speak-mcq-19",
-        "speak-mcq-16",
-        "speak-mcq-20",
-        "speak-mcq-15"
+        "speak-mcq-33",
+        "speak-mcq-38",
+        "speak-mcq-37"
       ],
       "explanation": "本句的「spoken language」指「以口頭形式實際使用的英語／語言，而不是書面語」。",
       "sentenceIndex": 38,
@@ -2018,12 +1864,10 @@ export default {
         "spoken language"
       ],
       "optionReasons": {
-        "speak-mcq-18": "本句指「以口頭形式實際使用的英語／語言，而不是書面語」。",
-        "speak-mcq-17": "「一個人在正常說話時所使用的聲線／聲量」是「speaking voice」的用法，與本句語境不同。",
-        "speak-mcq-19": "「以口頭語言表達的內容；亦可指朗誦表演形式」是「spoken word」的用法，與本句語境不同。",
-        "speak-mcq-16": "「雙方關係至少維持到仍願意彼此交談」是「on speaking terms」的用法，與本句語境不同。",
-        "speak-mcq-20": "「正在發言、演講或向觀眾說話的人」是「speaker — person」的用法，與本句語境不同。",
-        "speak-mcq-15": "「坦率直接地說出自己真正的想法或感受」是「speak your mind」的用法，與本句語境不同。"
+        "speak-mcq-18": "本句的「spoken language」指「以口頭形式實際使用的英語／語言，而不是書面語」。",
+        "speak-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-18"
     },
@@ -2035,11 +1879,9 @@ export default {
       "masked": "The ____ answered questions after the presentation.",
       "options": [
         "speak-mcq-20",
-        "speak-mcq-19",
-        "speak-mcq-21",
-        "speak-mcq-18",
-        "speak-mcq-22",
-        "speak-mcq-17"
+        "speak-mcq-14",
+        "speak-mcq-12",
+        "speak-mcq-21"
       ],
       "explanation": "本句的「speaker」指「正在發言、演講或向觀眾說話的人」。",
       "sentenceIndex": 39,
@@ -2048,12 +1890,10 @@ export default {
         "speaker"
       ],
       "optionReasons": {
-        "speak-mcq-20": "本句指「正在發言、演講或向觀眾說話的人」。",
-        "speak-mcq-19": "「以口頭語言表達的內容；亦可指朗誦表演形式」是「spoken word」的用法，與本句語境不同。",
-        "speak-mcq-21": "「把電子音訊轉換為可聽聲音的揚聲器／喇叭」是「speaker — device」的用法，與本句語境不同。",
-        "speak-mcq-18": "「以口頭形式實際使用的英語／語言，而不是書面語」是「spoken English/language」的用法，與本句語境不同。",
-        "speak-mcq-22": "「負責主持議會或正式立法會議的議長」是「Speaker — institutional title」的用法，與本句語境不同。",
-        "speak-mcq-17": "「一個人在正常說話時所使用的聲線／聲量」是「speaking voice」的用法，與本句語境不同。"
+        "speak-mcq-20": "本句的「speaker」指「正在發言、演講或向觀眾說話的人」。",
+        "speak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-20"
     },
@@ -2065,11 +1905,9 @@ export default {
       "masked": "Each ____ has ten minutes.",
       "options": [
         "speak-mcq-20",
-        "speak-mcq-19",
-        "speak-mcq-21",
-        "speak-mcq-18",
-        "speak-mcq-22",
-        "speak-mcq-17"
+        "speak-mcq-12",
+        "speak-mcq-10",
+        "speak-mcq-21"
       ],
       "explanation": "本句的「speaker」指「正在發言、演講或向觀眾說話的人」。",
       "sentenceIndex": 40,
@@ -2078,12 +1916,10 @@ export default {
         "speaker"
       ],
       "optionReasons": {
-        "speak-mcq-20": "本句指「正在發言、演講或向觀眾說話的人」。",
-        "speak-mcq-19": "「以口頭語言表達的內容；亦可指朗誦表演形式」是「spoken word」的用法，與本句語境不同。",
-        "speak-mcq-21": "「把電子音訊轉換為可聽聲音的揚聲器／喇叭」是「speaker — device」的用法，與本句語境不同。",
-        "speak-mcq-18": "「以口頭形式實際使用的英語／語言，而不是書面語」是「spoken English/language」的用法，與本句語境不同。",
-        "speak-mcq-22": "「負責主持議會或正式立法會議的議長」是「Speaker — institutional title」的用法，與本句語境不同。",
-        "speak-mcq-17": "「一個人在正常說話時所使用的聲線／聲量」是「speaking voice」的用法，與本句語境不同。"
+        "speak-mcq-20": "本句的「speaker」指「正在發言、演講或向觀眾說話的人」。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-20"
     },
@@ -2095,11 +1931,9 @@ export default {
       "masked": "The music was coming from a small ____.",
       "options": [
         "speak-mcq-21",
-        "speak-mcq-20",
-        "speak-mcq-22",
-        "speak-mcq-19",
-        "speak-mcq-23",
-        "speak-mcq-18"
+        "speak-mcq-27",
+        "speak-mcq-38",
+        "speak-mcq-22"
       ],
       "explanation": "本句的「speaker」指「把電子音訊轉換為可聽聲音的揚聲器／喇叭」。",
       "sentenceIndex": 41,
@@ -2108,12 +1942,10 @@ export default {
         "speaker"
       ],
       "optionReasons": {
-        "speak-mcq-21": "本句指「把電子音訊轉換為可聽聲音的揚聲器／喇叭」。",
-        "speak-mcq-20": "「正在發言、演講或向觀眾說話的人」是「speaker — person」的用法，與本句語境不同。",
-        "speak-mcq-22": "「負責主持議會或正式立法會議的議長」是「Speaker — institutional title」的用法，與本句語境不同。",
-        "speak-mcq-19": "「以口頭語言表達的內容；亦可指朗誦表演形式」是「spoken word」的用法，與本句語境不同。",
-        "speak-mcq-23": "「能使用某種語言說話的人」是「speaker of a language」的用法，與本句語境不同。",
-        "speak-mcq-18": "「以口頭形式實際使用的英語／語言，而不是書面語」是「spoken English/language」的用法，與本句語境不同。"
+        "speak-mcq-21": "本句的「speaker」指「把電子音訊轉換為可聽聲音的揚聲器／喇叭」。",
+        "speak-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-21"
     },
@@ -2125,11 +1957,9 @@ export default {
       "masked": "The room has built-in ____.",
       "options": [
         "speak-mcq-21",
-        "speak-mcq-20",
-        "speak-mcq-22",
-        "speak-mcq-19",
-        "speak-mcq-23",
-        "speak-mcq-18"
+        "speak-mcq-15",
+        "speak-mcq-14",
+        "speak-mcq-24"
       ],
       "explanation": "本句的「speakers」指「把電子音訊轉換為可聽聲音的揚聲器／喇叭」。",
       "sentenceIndex": 42,
@@ -2138,12 +1968,10 @@ export default {
         "speakers"
       ],
       "optionReasons": {
-        "speak-mcq-21": "本句指「把電子音訊轉換為可聽聲音的揚聲器／喇叭」。",
-        "speak-mcq-20": "「正在發言、演講或向觀眾說話的人」是「speaker — person」的用法，與本句語境不同。",
-        "speak-mcq-22": "「負責主持議會或正式立法會議的議長」是「Speaker — institutional title」的用法，與本句語境不同。",
-        "speak-mcq-19": "「以口頭語言表達的內容；亦可指朗誦表演形式」是「spoken word」的用法，與本句語境不同。",
-        "speak-mcq-23": "「能使用某種語言說話的人」是「speaker of a language」的用法，與本句語境不同。",
-        "speak-mcq-18": "「以口頭形式實際使用的英語／語言，而不是書面語」是「spoken English/language」的用法，與本句語境不同。"
+        "speak-mcq-21": "本句的「speakers」指「把電子音訊轉換為可聽聲音的揚聲器／喇叭」。",
+        "speak-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-21"
     },
@@ -2155,11 +1983,9 @@ export default {
       "masked": "The ____ called the meeting to order.",
       "options": [
         "speak-mcq-22",
-        "speak-mcq-21",
-        "speak-mcq-23",
-        "speak-mcq-20",
-        "speak-mcq-24",
-        "speak-mcq-19"
+        "speak-mcq-18",
+        "speak-mcq-33",
+        "speak-mcq-37"
       ],
       "explanation": "本句的「Speaker」指「負責主持議會或正式立法會議的議長」。",
       "sentenceIndex": 43,
@@ -2168,12 +1994,10 @@ export default {
         "Speaker"
       ],
       "optionReasons": {
-        "speak-mcq-22": "本句指「負責主持議會或正式立法會議的議長」。",
-        "speak-mcq-21": "「把電子音訊轉換為可聽聲音的揚聲器／喇叭」是「speaker — device」的用法，與本句語境不同。",
-        "speak-mcq-23": "「能使用某種語言說話的人」是「speaker of a language」的用法，與本句語境不同。",
-        "speak-mcq-20": "「正在發言、演講或向觀眾說話的人」是「speaker — person」的用法，與本句語境不同。",
-        "speak-mcq-24": "「向觀眾正式發表的一段口頭內容／演講」是「speech — formal talk」的用法，與本句語境不同。",
-        "speak-mcq-19": "「以口頭語言表達的內容；亦可指朗誦表演形式」是「spoken word」的用法，與本句語境不同。"
+        "speak-mcq-22": "本句的「Speaker」指「負責主持議會或正式立法會議的議長」。",
+        "speak-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-22"
     },
@@ -2186,10 +2010,8 @@ export default {
       "options": [
         "speak-mcq-22",
         "speak-mcq-21",
-        "speak-mcq-23",
-        "speak-mcq-20",
-        "speak-mcq-24",
-        "speak-mcq-19"
+        "speak-mcq-12",
+        "speak-mcq-11"
       ],
       "explanation": "本句的「Speaker」指「負責主持議會或正式立法會議的議長」。",
       "sentenceIndex": 44,
@@ -2198,12 +2020,10 @@ export default {
         "Speaker"
       ],
       "optionReasons": {
-        "speak-mcq-22": "本句指「負責主持議會或正式立法會議的議長」。",
-        "speak-mcq-21": "「把電子音訊轉換為可聽聲音的揚聲器／喇叭」是「speaker — device」的用法，與本句語境不同。",
-        "speak-mcq-23": "「能使用某種語言說話的人」是「speaker of a language」的用法，與本句語境不同。",
-        "speak-mcq-20": "「正在發言、演講或向觀眾說話的人」是「speaker — person」的用法，與本句語境不同。",
-        "speak-mcq-24": "「向觀眾正式發表的一段口頭內容／演講」是「speech — formal talk」的用法，與本句語境不同。",
-        "speak-mcq-19": "「以口頭語言表達的內容；亦可指朗誦表演形式」是「spoken word」的用法，與本句語境不同。"
+        "speak-mcq-22": "本句的「Speaker」指「負責主持議會或正式立法會議的議長」。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-22"
     },
@@ -2215,11 +2035,9 @@ export default {
       "masked": "She gave a short ____ at the event.",
       "options": [
         "speak-mcq-24",
-        "speak-mcq-23",
-        "speak-mcq-25",
-        "speak-mcq-22",
-        "speak-mcq-26",
-        "speak-mcq-21"
+        "speak-mcq-31",
+        "speak-mcq-14",
+        "speak-mcq-38"
       ],
       "explanation": "本句的「speech」指「向觀眾正式發表的一段口頭內容／演講」。",
       "sentenceIndex": 45,
@@ -2228,12 +2046,10 @@ export default {
         "speech"
       ],
       "optionReasons": {
-        "speak-mcq-24": "本句指「向觀眾正式發表的一段口頭內容／演講」。",
-        "speak-mcq-23": "「能使用某種語言說話的人」是「speaker of a language」的用法，與本句語境不同。",
-        "speak-mcq-25": "「人類產生口語、說話和發音的能力」是「speech — ability」的用法，與本句語境不同。",
-        "speak-mcq-22": "「負責主持議會或正式立法會議的議長」是「Speaker — institutional title」的用法，與本句語境不同。",
-        "speak-mcq-26": "「實際說話時的聲音、速度、節奏、發音等整體表現」是「speech — way of speaking」的用法，與本句語境不同。",
-        "speak-mcq-21": "「把電子音訊轉換為可聽聲音的揚聲器／喇叭」是「speaker — device」的用法，與本句語境不同。"
+        "speak-mcq-24": "本句的「speech」指「向觀眾正式發表的一段口頭內容／演講」。",
+        "speak-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-24"
     },
@@ -2245,11 +2061,9 @@ export default {
       "masked": "His ____ focused on teamwork.",
       "options": [
         "speak-mcq-24",
-        "speak-mcq-23",
-        "speak-mcq-25",
-        "speak-mcq-22",
-        "speak-mcq-26",
-        "speak-mcq-21"
+        "speak-mcq-16",
+        "speak-mcq-31",
+        "speak-mcq-14"
       ],
       "explanation": "本句的「speech」指「向觀眾正式發表的一段口頭內容／演講」。",
       "sentenceIndex": 46,
@@ -2258,12 +2072,10 @@ export default {
         "speech"
       ],
       "optionReasons": {
-        "speak-mcq-24": "本句指「向觀眾正式發表的一段口頭內容／演講」。",
-        "speak-mcq-23": "「能使用某種語言說話的人」是「speaker of a language」的用法，與本句語境不同。",
-        "speak-mcq-25": "「人類產生口語、說話和發音的能力」是「speech — ability」的用法，與本句語境不同。",
-        "speak-mcq-22": "「負責主持議會或正式立法會議的議長」是「Speaker — institutional title」的用法，與本句語境不同。",
-        "speak-mcq-26": "「實際說話時的聲音、速度、節奏、發音等整體表現」是「speech — way of speaking」的用法，與本句語境不同。",
-        "speak-mcq-21": "「把電子音訊轉換為可聽聲音的揚聲器／喇叭」是「speaker — device」的用法，與本句語境不同。"
+        "speak-mcq-24": "本句的「speech」指「向觀眾正式發表的一段口頭內容／演講」。",
+        "speak-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-24"
     },
@@ -2275,11 +2087,9 @@ export default {
       "masked": "The injury temporarily affected his ____.",
       "options": [
         "speak-mcq-25",
-        "speak-mcq-24",
-        "speak-mcq-26",
-        "speak-mcq-23",
-        "speak-mcq-27",
-        "speak-mcq-22"
+        "speak-mcq-22",
+        "speak-mcq-10",
+        "speak-mcq-12"
       ],
       "explanation": "本句的「speech」指「人類產生口語、說話和發音的能力」。",
       "sentenceIndex": 47,
@@ -2288,12 +2098,10 @@ export default {
         "speech"
       ],
       "optionReasons": {
-        "speak-mcq-25": "本句指「人類產生口語、說話和發音的能力」。",
-        "speak-mcq-24": "「向觀眾正式發表的一段口頭內容／演講」是「speech — formal talk」的用法，與本句語境不同。",
-        "speak-mcq-26": "「實際說話時的聲音、速度、節奏、發音等整體表現」是「speech — way of speaking」的用法，與本句語境不同。",
-        "speak-mcq-23": "「能使用某種語言說話的人」是「speaker of a language」的用法，與本句語境不同。",
-        "speak-mcq-27": "「日常實際使用的口頭語言，而不是書面文字」是「speech — spoken language」的用法，與本句語境不同。",
-        "speak-mcq-22": "「負責主持議會或正式立法會議的議長」是「Speaker — institutional title」的用法，與本句語境不同。"
+        "speak-mcq-25": "本句的「speech」指「人類產生口語、說話和發音的能力」。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-25"
     },
@@ -2305,11 +2113,9 @@ export default {
       "masked": "The child’s ____ developed normally.",
       "options": [
         "speak-mcq-25",
-        "speak-mcq-24",
-        "speak-mcq-26",
-        "speak-mcq-23",
-        "speak-mcq-27",
-        "speak-mcq-22"
+        "speak-mcq-38",
+        "speak-mcq-32",
+        "speak-mcq-13"
       ],
       "explanation": "本句的「speech」指「人類產生口語、說話和發音的能力」。",
       "sentenceIndex": 48,
@@ -2318,12 +2124,10 @@ export default {
         "speech"
       ],
       "optionReasons": {
-        "speak-mcq-25": "本句指「人類產生口語、說話和發音的能力」。",
-        "speak-mcq-24": "「向觀眾正式發表的一段口頭內容／演講」是「speech — formal talk」的用法，與本句語境不同。",
-        "speak-mcq-26": "「實際說話時的聲音、速度、節奏、發音等整體表現」是「speech — way of speaking」的用法，與本句語境不同。",
-        "speak-mcq-23": "「能使用某種語言說話的人」是「speaker of a language」的用法，與本句語境不同。",
-        "speak-mcq-27": "「日常實際使用的口頭語言，而不是書面文字」是「speech — spoken language」的用法，與本句語境不同。",
-        "speak-mcq-22": "「負責主持議會或正式立法會議的議長」是「Speaker — institutional title」的用法，與本句語境不同。"
+        "speak-mcq-25": "本句的「speech」指「人類產生口語、說話和發音的能力」。",
+        "speak-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-25"
     },
@@ -2335,11 +2139,9 @@ export default {
       "masked": "His ____ became faster when he was nervous.",
       "options": [
         "speak-mcq-26",
-        "speak-mcq-25",
-        "speak-mcq-27",
-        "speak-mcq-24",
-        "speak-mcq-28",
-        "speak-mcq-23"
+        "speak-mcq-14",
+        "speak-mcq-12",
+        "speak-mcq-34"
       ],
       "explanation": "本句的「speech」指「實際說話時的聲音、速度、節奏、發音等整體表現」。",
       "sentenceIndex": 49,
@@ -2348,12 +2150,10 @@ export default {
         "speech"
       ],
       "optionReasons": {
-        "speak-mcq-26": "本句指「實際說話時的聲音、速度、節奏、發音等整體表現」。",
-        "speak-mcq-25": "「人類產生口語、說話和發音的能力」是「speech — ability」的用法，與本句語境不同。",
-        "speak-mcq-27": "「日常實際使用的口頭語言，而不是書面文字」是「speech — spoken language」的用法，與本句語境不同。",
-        "speak-mcq-24": "「向觀眾正式發表的一段口頭內容／演講」是「speech — formal talk」的用法，與本句語境不同。",
-        "speak-mcq-28": "「公開表達思想、觀點和意見的權利；言論自由」是「freedom of speech」的用法，與本句語境不同。",
-        "speak-mcq-23": "「能使用某種語言說話的人」是「speaker of a language」的用法，與本句語境不同。"
+        "speak-mcq-26": "本句的「speech」指「實際說話時的聲音、速度、節奏、發音等整體表現」。",
+        "speak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-26"
     },
@@ -2365,11 +2165,9 @@ export default {
       "masked": "The software analyzes patterns in human ____.",
       "options": [
         "speak-mcq-26",
-        "speak-mcq-25",
-        "speak-mcq-27",
-        "speak-mcq-24",
-        "speak-mcq-28",
-        "speak-mcq-23"
+        "speak-mcq-11",
+        "speak-mcq-12",
+        "speak-mcq-22"
       ],
       "explanation": "本句的「speech」指「實際說話時的聲音、速度、節奏、發音等整體表現」。",
       "sentenceIndex": 50,
@@ -2378,12 +2176,10 @@ export default {
         "speech"
       ],
       "optionReasons": {
-        "speak-mcq-26": "本句指「實際說話時的聲音、速度、節奏、發音等整體表現」。",
-        "speak-mcq-25": "「人類產生口語、說話和發音的能力」是「speech — ability」的用法，與本句語境不同。",
-        "speak-mcq-27": "「日常實際使用的口頭語言，而不是書面文字」是「speech — spoken language」的用法，與本句語境不同。",
-        "speak-mcq-24": "「向觀眾正式發表的一段口頭內容／演講」是「speech — formal talk」的用法，與本句語境不同。",
-        "speak-mcq-28": "「公開表達思想、觀點和意見的權利；言論自由」是「freedom of speech」的用法，與本句語境不同。",
-        "speak-mcq-23": "「能使用某種語言說話的人」是「speaker of a language」的用法，與本句語境不同。"
+        "speak-mcq-26": "本句的「speech」指「實際說話時的聲音、速度、節奏、發音等整體表現」。",
+        "speak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-26"
     },
@@ -2395,11 +2191,9 @@ export default {
       "masked": "The expression is common in everyday ____.",
       "options": [
         "speak-mcq-27",
-        "speak-mcq-26",
-        "speak-mcq-28",
-        "speak-mcq-25",
-        "speak-mcq-29",
-        "speak-mcq-24"
+        "speak-mcq-33",
+        "speak-mcq-34",
+        "speak-mcq-13"
       ],
       "explanation": "本句的「speech」指「日常實際使用的口頭語言，而不是書面文字」。",
       "sentenceIndex": 51,
@@ -2408,12 +2202,10 @@ export default {
         "speech"
       ],
       "optionReasons": {
-        "speak-mcq-27": "本句指「日常實際使用的口頭語言，而不是書面文字」。",
-        "speak-mcq-26": "「實際說話時的聲音、速度、節奏、發音等整體表現」是「speech — way of speaking」的用法，與本句語境不同。",
-        "speak-mcq-28": "「公開表達思想、觀點和意見的權利；言論自由」是「freedom of speech」的用法，與本句語境不同。",
-        "speak-mcq-25": "「人類產生口語、說話和發音的能力」是「speech — ability」的用法，與本句語境不同。",
-        "speak-mcq-29": "「不完全按字面意思使用語言的修辭表達方式」是「figure of speech」的用法，與本句語境不同。",
-        "speak-mcq-24": "「向觀眾正式發表的一段口頭內容／演講」是「speech — formal talk」的用法，與本句語境不同。"
+        "speak-mcq-27": "本句的「speech」指「日常實際使用的口頭語言，而不是書面文字」。",
+        "speak-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-27"
     },
@@ -2425,11 +2217,9 @@ export default {
       "masked": "Written English is often more formal than everyday ____.",
       "options": [
         "speak-mcq-27",
-        "speak-mcq-26",
-        "speak-mcq-28",
-        "speak-mcq-25",
-        "speak-mcq-29",
-        "speak-mcq-24"
+        "speak-mcq-21",
+        "speak-mcq-34",
+        "speak-mcq-33"
       ],
       "explanation": "本句的「speech」指「日常實際使用的口頭語言，而不是書面文字」。",
       "sentenceIndex": 52,
@@ -2438,12 +2228,10 @@ export default {
         "speech"
       ],
       "optionReasons": {
-        "speak-mcq-27": "本句指「日常實際使用的口頭語言，而不是書面文字」。",
-        "speak-mcq-26": "「實際說話時的聲音、速度、節奏、發音等整體表現」是「speech — way of speaking」的用法，與本句語境不同。",
-        "speak-mcq-28": "「公開表達思想、觀點和意見的權利；言論自由」是「freedom of speech」的用法，與本句語境不同。",
-        "speak-mcq-25": "「人類產生口語、說話和發音的能力」是「speech — ability」的用法，與本句語境不同。",
-        "speak-mcq-29": "「不完全按字面意思使用語言的修辭表達方式」是「figure of speech」的用法，與本句語境不同。",
-        "speak-mcq-24": "「向觀眾正式發表的一段口頭內容／演講」是「speech — formal talk」的用法，與本句語境不同。"
+        "speak-mcq-27": "本句的「speech」指「日常實際使用的口頭語言，而不是書面文字」。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-27"
     },
@@ -2455,11 +2243,9 @@ export default {
       "masked": "The law protects ____.",
       "options": [
         "speak-mcq-28",
-        "speak-mcq-27",
-        "speak-mcq-29",
-        "speak-mcq-26",
-        "speak-mcq-30",
-        "speak-mcq-25"
+        "speak-mcq-22",
+        "speak-mcq-12",
+        "speak-mcq-02"
       ],
       "explanation": "本句的「freedom of speech」指「公開表達思想、觀點和意見的權利；言論自由」。",
       "sentenceIndex": 53,
@@ -2468,12 +2254,10 @@ export default {
         "freedom of speech"
       ],
       "optionReasons": {
-        "speak-mcq-28": "本句指「公開表達思想、觀點和意見的權利；言論自由」。",
-        "speak-mcq-27": "「日常實際使用的口頭語言，而不是書面文字」是「speech — spoken language」的用法，與本句語境不同。",
-        "speak-mcq-29": "「不完全按字面意思使用語言的修辭表達方式」是「figure of speech」的用法，與本句語境不同。",
-        "speak-mcq-26": "「實際說話時的聲音、速度、節奏、發音等整體表現」是「speech — way of speaking」的用法，與本句語境不同。",
-        "speak-mcq-30": "「從整體／一般情況而言」是「generally speaking」的用法，與本句語境不同。",
-        "speak-mcq-25": "「人類產生口語、說話和發音的能力」是「speech — ability」的用法，與本句語境不同。"
+        "speak-mcq-28": "本句的「freedom of speech」指「公開表達思想、觀點和意見的權利；言論自由」。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-28"
     },
@@ -2485,11 +2269,9 @@ export default {
       "masked": "The debate raised questions about ____.",
       "options": [
         "speak-mcq-28",
-        "speak-mcq-27",
-        "speak-mcq-29",
-        "speak-mcq-26",
-        "speak-mcq-30",
-        "speak-mcq-25"
+        "speak-mcq-22",
+        "speak-mcq-39",
+        "speak-mcq-37"
       ],
       "explanation": "本句的「free speech」指「公開表達思想、觀點和意見的權利；言論自由」。",
       "sentenceIndex": 54,
@@ -2498,12 +2280,10 @@ export default {
         "free speech"
       ],
       "optionReasons": {
-        "speak-mcq-28": "本句指「公開表達思想、觀點和意見的權利；言論自由」。",
-        "speak-mcq-27": "「日常實際使用的口頭語言，而不是書面文字」是「speech — spoken language」的用法，與本句語境不同。",
-        "speak-mcq-29": "「不完全按字面意思使用語言的修辭表達方式」是「figure of speech」的用法，與本句語境不同。",
-        "speak-mcq-26": "「實際說話時的聲音、速度、節奏、發音等整體表現」是「speech — way of speaking」的用法，與本句語境不同。",
-        "speak-mcq-30": "「從整體／一般情況而言」是「generally speaking」的用法，與本句語境不同。",
-        "speak-mcq-25": "「人類產生口語、說話和發音的能力」是「speech — ability」的用法，與本句語境不同。"
+        "speak-mcq-28": "本句的「free speech」指「公開表達思想、觀點和意見的權利；言論自由」。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-28"
     },
@@ -2515,11 +2295,9 @@ export default {
       "masked": "That expression is a ____.",
       "options": [
         "speak-mcq-29",
-        "speak-mcq-28",
-        "speak-mcq-30",
-        "speak-mcq-27",
-        "speak-mcq-31",
-        "speak-mcq-26"
+        "speak-mcq-21",
+        "speak-mcq-14",
+        "speak-mcq-12"
       ],
       "explanation": "本句的「figure of speech」指「不完全按字面意思使用語言的修辭表達方式」。",
       "sentenceIndex": 55,
@@ -2528,12 +2306,10 @@ export default {
         "figure of speech"
       ],
       "optionReasons": {
-        "speak-mcq-29": "本句指「不完全按字面意思使用語言的修辭表達方式」。",
-        "speak-mcq-28": "「公開表達思想、觀點和意見的權利；言論自由」是「freedom of speech」的用法，與本句語境不同。",
-        "speak-mcq-30": "「從整體／一般情況而言」是「generally speaking」的用法，與本句語境不同。",
-        "speak-mcq-27": "「日常實際使用的口頭語言，而不是書面文字」是「speech — spoken language」的用法，與本句語境不同。",
-        "speak-mcq-31": "「按最準確、最嚴格的定義而言」是「strictly speaking」的用法，與本句語境不同。",
-        "speak-mcq-26": "「實際說話時的聲音、速度、節奏、發音等整體表現」是「speech — way of speaking」的用法，與本句語境不同。"
+        "speak-mcq-29": "本句的「figure of speech」指「不完全按字面意思使用語言的修辭表達方式」。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-29"
     },
@@ -2545,11 +2321,9 @@ export default {
       "masked": "The phrase should not be understood literally; it is a ____.",
       "options": [
         "speak-mcq-29",
-        "speak-mcq-28",
-        "speak-mcq-30",
-        "speak-mcq-27",
-        "speak-mcq-31",
-        "speak-mcq-26"
+        "speak-mcq-37",
+        "speak-mcq-08",
+        "speak-mcq-33"
       ],
       "explanation": "本句的「figure of speech」指「不完全按字面意思使用語言的修辭表達方式」。",
       "sentenceIndex": 56,
@@ -2558,12 +2332,10 @@ export default {
         "figure of speech"
       ],
       "optionReasons": {
-        "speak-mcq-29": "本句指「不完全按字面意思使用語言的修辭表達方式」。",
-        "speak-mcq-28": "「公開表達思想、觀點和意見的權利；言論自由」是「freedom of speech」的用法，與本句語境不同。",
-        "speak-mcq-30": "「從整體／一般情況而言」是「generally speaking」的用法，與本句語境不同。",
-        "speak-mcq-27": "「日常實際使用的口頭語言，而不是書面文字」是「speech — spoken language」的用法，與本句語境不同。",
-        "speak-mcq-31": "「按最準確、最嚴格的定義而言」是「strictly speaking」的用法，與本句語境不同。",
-        "speak-mcq-26": "「實際說話時的聲音、速度、節奏、發音等整體表現」是「speech — way of speaking」的用法，與本句語境不同。"
+        "speak-mcq-29": "本句的「figure of speech」指「不完全按字面意思使用語言的修辭表達方式」。",
+        "speak-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-29"
     },
@@ -2575,11 +2347,9 @@ export default {
       "masked": "____, preparation reduces nervousness.",
       "options": [
         "speak-mcq-30",
-        "speak-mcq-29",
-        "speak-mcq-31",
-        "speak-mcq-28",
-        "speak-mcq-32",
-        "speak-mcq-27"
+        "speak-mcq-11",
+        "speak-mcq-37",
+        "speak-mcq-24"
       ],
       "explanation": "本句的「Generally speaking」指「從整體／一般情況而言」。",
       "sentenceIndex": 57,
@@ -2588,12 +2358,10 @@ export default {
         "Generally speaking"
       ],
       "optionReasons": {
-        "speak-mcq-30": "本句指「從整體／一般情況而言」。",
-        "speak-mcq-29": "「不完全按字面意思使用語言的修辭表達方式」是「figure of speech」的用法，與本句語境不同。",
-        "speak-mcq-31": "「按最準確、最嚴格的定義而言」是「strictly speaking」的用法，與本句語境不同。",
-        "speak-mcq-28": "「公開表達思想、觀點和意見的權利；言論自由」是「freedom of speech」的用法，與本句語境不同。",
-        "speak-mcq-32": "「從專業、技術或嚴格定義的角度而言」是「technically speaking」的用法，與本句語境不同。",
-        "speak-mcq-27": "「日常實際使用的口頭語言，而不是書面文字」是「speech — spoken language」的用法，與本句語境不同。"
+        "speak-mcq-30": "本句的「Generally speaking」指「從整體／一般情況而言」。",
+        "speak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-30"
     },
@@ -2605,11 +2373,9 @@ export default {
       "masked": "____, larger audiences require more preparation.",
       "options": [
         "speak-mcq-30",
-        "speak-mcq-29",
-        "speak-mcq-31",
-        "speak-mcq-28",
-        "speak-mcq-32",
-        "speak-mcq-27"
+        "speak-mcq-14",
+        "speak-mcq-12",
+        "speak-mcq-34"
       ],
       "explanation": "本句的「Generally speaking」指「從整體／一般情況而言」。",
       "sentenceIndex": 58,
@@ -2618,12 +2384,10 @@ export default {
         "Generally speaking"
       ],
       "optionReasons": {
-        "speak-mcq-30": "本句指「從整體／一般情況而言」。",
-        "speak-mcq-29": "「不完全按字面意思使用語言的修辭表達方式」是「figure of speech」的用法，與本句語境不同。",
-        "speak-mcq-31": "「按最準確、最嚴格的定義而言」是「strictly speaking」的用法，與本句語境不同。",
-        "speak-mcq-28": "「公開表達思想、觀點和意見的權利；言論自由」是「freedom of speech」的用法，與本句語境不同。",
-        "speak-mcq-32": "「從專業、技術或嚴格定義的角度而言」是「technically speaking」的用法，與本句語境不同。",
-        "speak-mcq-27": "「日常實際使用的口頭語言，而不是書面文字」是「speech — spoken language」的用法，與本句語境不同。"
+        "speak-mcq-30": "本句的「Generally speaking」指「從整體／一般情況而言」。",
+        "speak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-30"
     },
@@ -2635,11 +2399,9 @@ export default {
       "masked": "____, this is not a formal requirement.",
       "options": [
         "speak-mcq-31",
-        "speak-mcq-30",
-        "speak-mcq-32",
-        "speak-mcq-29",
-        "speak-mcq-33",
-        "speak-mcq-28"
+        "speak-mcq-21",
+        "speak-mcq-14",
+        "speak-mcq-12"
       ],
       "explanation": "本句的「Strictly speaking」指「按最準確、最嚴格的定義而言」。",
       "sentenceIndex": 59,
@@ -2648,12 +2410,10 @@ export default {
         "Strictly speaking"
       ],
       "optionReasons": {
-        "speak-mcq-31": "本句指「按最準確、最嚴格的定義而言」。",
-        "speak-mcq-30": "「從整體／一般情況而言」是「generally speaking」的用法，與本句語境不同。",
-        "speak-mcq-32": "「從專業、技術或嚴格定義的角度而言」是「technically speaking」的用法，與本句語境不同。",
-        "speak-mcq-29": "「不完全按字面意思使用語言的修辭表達方式」是「figure of speech」的用法，與本句語境不同。",
-        "speak-mcq-33": "「因前面話題聯想到相關事情而轉入另一話題；說到……」是「speaking of」的用法，與本句語境不同。",
-        "speak-mcq-28": "「公開表達思想、觀點和意見的權利；言論自由」是「freedom of speech」的用法，與本句語境不同。"
+        "speak-mcq-31": "本句的「Strictly speaking」指「按最準確、最嚴格的定義而言」。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-31"
     },
@@ -2665,11 +2425,9 @@ export default {
       "masked": "____, the two words are not exact synonyms.",
       "options": [
         "speak-mcq-31",
-        "speak-mcq-30",
-        "speak-mcq-32",
-        "speak-mcq-29",
-        "speak-mcq-33",
-        "speak-mcq-28"
+        "speak-mcq-24",
+        "speak-mcq-11",
+        "speak-mcq-12"
       ],
       "explanation": "本句的「Strictly speaking」指「按最準確、最嚴格的定義而言」。",
       "sentenceIndex": 60,
@@ -2678,12 +2436,10 @@ export default {
         "Strictly speaking"
       ],
       "optionReasons": {
-        "speak-mcq-31": "本句指「按最準確、最嚴格的定義而言」。",
-        "speak-mcq-30": "「從整體／一般情況而言」是「generally speaking」的用法，與本句語境不同。",
-        "speak-mcq-32": "「從專業、技術或嚴格定義的角度而言」是「technically speaking」的用法，與本句語境不同。",
-        "speak-mcq-29": "「不完全按字面意思使用語言的修辭表達方式」是「figure of speech」的用法，與本句語境不同。",
-        "speak-mcq-33": "「因前面話題聯想到相關事情而轉入另一話題；說到……」是「speaking of」的用法，與本句語境不同。",
-        "speak-mcq-28": "「公開表達思想、觀點和意見的權利；言論自由」是「freedom of speech」的用法，與本句語境不同。"
+        "speak-mcq-31": "本句的「Strictly speaking」指「按最準確、最嚴格的定義而言」。",
+        "speak-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-31"
     },
@@ -2695,11 +2451,9 @@ export default {
       "masked": "____, the project was already complete.",
       "options": [
         "speak-mcq-32",
-        "speak-mcq-31",
-        "speak-mcq-33",
-        "speak-mcq-30",
-        "speak-mcq-34",
-        "speak-mcq-29"
+        "speak-mcq-25",
+        "speak-mcq-11",
+        "speak-mcq-22"
       ],
       "explanation": "本句的「Technically speaking」指「從專業、技術或嚴格定義的角度而言」。",
       "sentenceIndex": 61,
@@ -2708,12 +2462,10 @@ export default {
         "Technically speaking"
       ],
       "optionReasons": {
-        "speak-mcq-32": "本句指「從專業、技術或嚴格定義的角度而言」。",
-        "speak-mcq-31": "「按最準確、最嚴格的定義而言」是「strictly speaking」的用法，與本句語境不同。",
-        "speak-mcq-33": "「因前面話題聯想到相關事情而轉入另一話題；說到……」是「speaking of」的用法，與本句語境不同。",
-        "speak-mcq-30": "「從整體／一般情況而言」是「generally speaking」的用法，與本句語境不同。",
-        "speak-mcq-34": "「表示某種說法帶比喻或近似意味；可以這樣說」是「so to speak」的用法，與本句語境不同。",
-        "speak-mcq-29": "「不完全按字面意思使用語言的修辭表達方式」是「figure of speech」的用法，與本句語境不同。"
+        "speak-mcq-32": "本句的「Technically speaking」指「從專業、技術或嚴格定義的角度而言」。",
+        "speak-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-32"
     },
@@ -2725,11 +2477,9 @@ export default {
       "masked": "____, the device is a computer.",
       "options": [
         "speak-mcq-32",
-        "speak-mcq-31",
-        "speak-mcq-33",
-        "speak-mcq-30",
-        "speak-mcq-34",
-        "speak-mcq-29"
+        "speak-mcq-08",
+        "speak-mcq-35",
+        "speak-mcq-22"
       ],
       "explanation": "本句的「Technically speaking」指「從專業、技術或嚴格定義的角度而言」。",
       "sentenceIndex": 62,
@@ -2738,12 +2488,10 @@ export default {
         "Technically speaking"
       ],
       "optionReasons": {
-        "speak-mcq-32": "本句指「從專業、技術或嚴格定義的角度而言」。",
-        "speak-mcq-31": "「按最準確、最嚴格的定義而言」是「strictly speaking」的用法，與本句語境不同。",
-        "speak-mcq-33": "「因前面話題聯想到相關事情而轉入另一話題；說到……」是「speaking of」的用法，與本句語境不同。",
-        "speak-mcq-30": "「從整體／一般情況而言」是「generally speaking」的用法，與本句語境不同。",
-        "speak-mcq-34": "「表示某種說法帶比喻或近似意味；可以這樣說」是「so to speak」的用法，與本句語境不同。",
-        "speak-mcq-29": "「不完全按字面意思使用語言的修辭表達方式」是「figure of speech」的用法，與本句語境不同。"
+        "speak-mcq-32": "本句的「Technically speaking」指「從專業、技術或嚴格定義的角度而言」。",
+        "speak-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-32"
     },
@@ -2755,11 +2503,9 @@ export default {
       "masked": "____, how did yours go?",
       "options": [
         "speak-mcq-33",
-        "speak-mcq-32",
-        "speak-mcq-34",
-        "speak-mcq-31",
-        "speak-mcq-35",
-        "speak-mcq-30"
+        "speak-mcq-22",
+        "speak-mcq-13",
+        "speak-mcq-16"
       ],
       "explanation": "本句的「Speaking of presentations」指「因前面話題聯想到相關事情而轉入另一話題；說到……」。",
       "sentenceIndex": 63,
@@ -2768,12 +2514,10 @@ export default {
         "Speaking of presentations"
       ],
       "optionReasons": {
-        "speak-mcq-33": "本句指「因前面話題聯想到相關事情而轉入另一話題；說到……」。",
-        "speak-mcq-32": "「從專業、技術或嚴格定義的角度而言」是「technically speaking」的用法，與本句語境不同。",
-        "speak-mcq-34": "「表示某種說法帶比喻或近似意味；可以這樣說」是「so to speak」的用法，與本句語境不同。",
-        "speak-mcq-31": "「按最準確、最嚴格的定義而言」是「strictly speaking」的用法，與本句語境不同。",
-        "speak-mcq-35": "「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」是「speak volumes」的用法，與本句語境不同。",
-        "speak-mcq-30": "「從整體／一般情況而言」是「generally speaking」的用法，與本句語境不同。"
+        "speak-mcq-33": "本句的「Speaking of presentations」指「因前面話題聯想到相關事情而轉入另一話題；說到……」。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-33"
     },
@@ -2785,11 +2529,9 @@ export default {
       "masked": "____, have you finished the report?",
       "options": [
         "speak-mcq-33",
-        "speak-mcq-32",
-        "speak-mcq-34",
-        "speak-mcq-31",
-        "speak-mcq-35",
-        "speak-mcq-30"
+        "speak-mcq-06",
+        "speak-mcq-12",
+        "speak-mcq-22"
       ],
       "explanation": "本句的「Speaking of work」指「因前面話題聯想到相關事情而轉入另一話題；說到……」。",
       "sentenceIndex": 64,
@@ -2798,12 +2540,10 @@ export default {
         "Speaking of work"
       ],
       "optionReasons": {
-        "speak-mcq-33": "本句指「因前面話題聯想到相關事情而轉入另一話題；說到……」。",
-        "speak-mcq-32": "「從專業、技術或嚴格定義的角度而言」是「technically speaking」的用法，與本句語境不同。",
-        "speak-mcq-34": "「表示某種說法帶比喻或近似意味；可以這樣說」是「so to speak」的用法，與本句語境不同。",
-        "speak-mcq-31": "「按最準確、最嚴格的定義而言」是「strictly speaking」的用法，與本句語境不同。",
-        "speak-mcq-35": "「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」是「speak volumes」的用法，與本句語境不同。",
-        "speak-mcq-30": "「從整體／一般情況而言」是「generally speaking」的用法，與本句語境不同。"
+        "speak-mcq-33": "本句的「Speaking of work」指「因前面話題聯想到相關事情而轉入另一話題；說到……」。",
+        "speak-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-33"
     },
@@ -2815,11 +2555,9 @@ export default {
       "masked": "The presentation was my first real test, ____.",
       "options": [
         "speak-mcq-34",
-        "speak-mcq-33",
-        "speak-mcq-35",
-        "speak-mcq-32",
-        "speak-mcq-36",
-        "speak-mcq-31"
+        "speak-mcq-06",
+        "speak-mcq-14",
+        "speak-mcq-21"
       ],
       "explanation": "本句的「so to speak」指「表示某種說法帶比喻或近似意味；可以這樣說」。",
       "sentenceIndex": 65,
@@ -2828,12 +2566,10 @@ export default {
         "so to speak"
       ],
       "optionReasons": {
-        "speak-mcq-34": "本句指「表示某種說法帶比喻或近似意味；可以這樣說」。",
-        "speak-mcq-33": "「因前面話題聯想到相關事情而轉入另一話題；說到……」是「speaking of」的用法，與本句語境不同。",
-        "speak-mcq-35": "「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」是「speak volumes」的用法，與本句語境不同。",
-        "speak-mcq-32": "「從專業、技術或嚴格定義的角度而言」是「technically speaking」的用法，與本句語境不同。",
-        "speak-mcq-36": "「實際行動比口頭說法更能證明態度、能力或誠意」是「actions speak louder than words」的用法，與本句語境不同。",
-        "speak-mcq-31": "「按最準確、最嚴格的定義而言」是「strictly speaking」的用法，與本句語境不同。"
+        "speak-mcq-34": "本句的「so to speak」指「表示某種說法帶比喻或近似意味；可以這樣說」。",
+        "speak-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-34"
     },
@@ -2845,11 +2581,9 @@ export default {
       "masked": "He became the face of the team, ____.",
       "options": [
         "speak-mcq-34",
-        "speak-mcq-33",
-        "speak-mcq-35",
-        "speak-mcq-32",
-        "speak-mcq-36",
-        "speak-mcq-31"
+        "speak-mcq-09",
+        "speak-mcq-13",
+        "speak-mcq-12"
       ],
       "explanation": "本句的「so to speak」指「表示某種說法帶比喻或近似意味；可以這樣說」。",
       "sentenceIndex": 66,
@@ -2858,12 +2592,10 @@ export default {
         "so to speak"
       ],
       "optionReasons": {
-        "speak-mcq-34": "本句指「表示某種說法帶比喻或近似意味；可以這樣說」。",
-        "speak-mcq-33": "「因前面話題聯想到相關事情而轉入另一話題；說到……」是「speaking of」的用法，與本句語境不同。",
-        "speak-mcq-35": "「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」是「speak volumes」的用法，與本句語境不同。",
-        "speak-mcq-32": "「從專業、技術或嚴格定義的角度而言」是「technically speaking」的用法，與本句語境不同。",
-        "speak-mcq-36": "「實際行動比口頭說法更能證明態度、能力或誠意」是「actions speak louder than words」的用法，與本句語境不同。",
-        "speak-mcq-31": "「按最準確、最嚴格的定義而言」是「strictly speaking」的用法，與本句語境不同。"
+        "speak-mcq-34": "本句的「so to speak」指「表示某種說法帶比喻或近似意味；可以這樣說」。",
+        "speak-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-34"
     },
@@ -2875,11 +2607,9 @@ export default {
       "masked": "Her calm response ____ about her confidence.",
       "options": [
         "speak-mcq-35",
-        "speak-mcq-34",
-        "speak-mcq-36",
-        "speak-mcq-33",
-        "speak-mcq-37",
-        "speak-mcq-32"
+        "speak-mcq-21",
+        "speak-mcq-11",
+        "speak-mcq-08"
       ],
       "explanation": "本句的「spoke volumes」指「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」。",
       "sentenceIndex": 67,
@@ -2888,12 +2618,10 @@ export default {
         "spoke volumes"
       ],
       "optionReasons": {
-        "speak-mcq-35": "本句指「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」。",
-        "speak-mcq-34": "「表示某種說法帶比喻或近似意味；可以這樣說」是「so to speak」的用法，與本句語境不同。",
-        "speak-mcq-36": "「實際行動比口頭說法更能證明態度、能力或誠意」是「actions speak louder than words」的用法，與本句語境不同。",
-        "speak-mcq-33": "「因前面話題聯想到相關事情而轉入另一話題；說到……」是「speaking of」的用法，與本句語境不同。",
-        "speak-mcq-37": "「在電影、戲劇等作品中有台詞需要說的角色」是「speaking role/part」的用法，與本句語境不同。",
-        "speak-mcq-32": "「從專業、技術或嚴格定義的角度而言」是「technically speaking」的用法，與本句語境不同。"
+        "speak-mcq-35": "本句的「spoke volumes」指「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-35"
     },
@@ -2905,11 +2633,9 @@ export default {
       "masked": "The audience’s silence ____.",
       "options": [
         "speak-mcq-35",
-        "speak-mcq-34",
-        "speak-mcq-36",
-        "speak-mcq-33",
-        "speak-mcq-37",
-        "speak-mcq-32"
+        "speak-mcq-11",
+        "speak-mcq-21",
+        "speak-mcq-22"
       ],
       "explanation": "本句的「spoke volumes」指「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」。",
       "sentenceIndex": 68,
@@ -2918,12 +2644,10 @@ export default {
         "spoke volumes"
       ],
       "optionReasons": {
-        "speak-mcq-35": "本句指「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」。",
-        "speak-mcq-34": "「表示某種說法帶比喻或近似意味；可以這樣說」是「so to speak」的用法，與本句語境不同。",
-        "speak-mcq-36": "「實際行動比口頭說法更能證明態度、能力或誠意」是「actions speak louder than words」的用法，與本句語境不同。",
-        "speak-mcq-33": "「因前面話題聯想到相關事情而轉入另一話題；說到……」是「speaking of」的用法，與本句語境不同。",
-        "speak-mcq-37": "「在電影、戲劇等作品中有台詞需要說的角色」是「speaking role/part」的用法，與本句語境不同。",
-        "speak-mcq-32": "「從專業、技術或嚴格定義的角度而言」是「technically speaking」的用法，與本句語境不同。"
+        "speak-mcq-35": "本句的「spoke volumes」指「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」。",
+        "speak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-35"
     },
@@ -2935,11 +2659,9 @@ export default {
       "masked": "Her results ____.",
       "options": [
         "speak-mcq-36",
-        "speak-mcq-35",
-        "speak-mcq-37",
-        "speak-mcq-34",
-        "speak-mcq-38",
-        "speak-mcq-33"
+        "speak-mcq-13",
+        "speak-mcq-04",
+        "speak-mcq-30"
       ],
       "explanation": "本句的「speak louder than words」指「實際行動比口頭說法更能證明態度、能力或誠意」。",
       "sentenceIndex": 69,
@@ -2948,12 +2670,10 @@ export default {
         "speak louder than words"
       ],
       "optionReasons": {
-        "speak-mcq-36": "本句指「實際行動比口頭說法更能證明態度、能力或誠意」。",
-        "speak-mcq-35": "「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」是「speak volumes」的用法，與本句語境不同。",
-        "speak-mcq-37": "「在電影、戲劇等作品中有台詞需要說的角色」是「speaking role/part」的用法，與本句語境不同。",
-        "speak-mcq-34": "「表示某種說法帶比喻或近似意味；可以這樣說」是「so to speak」的用法，與本句語境不同。",
-        "speak-mcq-38": "「公開而明確地表達意見，尤其針對問題或不公」是「15. speak out（公開表態） — 公開說出意見」的用法，與本句語境不同。",
-        "speak-mcq-33": "「因前面話題聯想到相關事情而轉入另一話題；說到……」是「speaking of」的用法，與本句語境不同。"
+        "speak-mcq-36": "本句的「speak louder than words」指「實際行動比口頭說法更能證明態度、能力或誠意」。",
+        "speak-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-36"
     },
@@ -2965,11 +2685,9 @@ export default {
       "masked": "In leadership, actions often ____.",
       "options": [
         "speak-mcq-36",
-        "speak-mcq-35",
-        "speak-mcq-37",
-        "speak-mcq-34",
-        "speak-mcq-38",
-        "speak-mcq-33"
+        "speak-mcq-04",
+        "speak-mcq-30",
+        "speak-mcq-21"
       ],
       "explanation": "本句的「speak louder than words」指「實際行動比口頭說法更能證明態度、能力或誠意」。",
       "sentenceIndex": 70,
@@ -2978,12 +2696,10 @@ export default {
         "speak louder than words"
       ],
       "optionReasons": {
-        "speak-mcq-36": "本句指「實際行動比口頭說法更能證明態度、能力或誠意」。",
-        "speak-mcq-35": "「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」是「speak volumes」的用法，與本句語境不同。",
-        "speak-mcq-37": "「在電影、戲劇等作品中有台詞需要說的角色」是「speaking role/part」的用法，與本句語境不同。",
-        "speak-mcq-34": "「表示某種說法帶比喻或近似意味；可以這樣說」是「so to speak」的用法，與本句語境不同。",
-        "speak-mcq-38": "「公開而明確地表達意見，尤其針對問題或不公」是「15. speak out（公開表態） — 公開說出意見」的用法，與本句語境不同。",
-        "speak-mcq-33": "「因前面話題聯想到相關事情而轉入另一話題；說到……」是「speaking of」的用法，與本句語境不同。"
+        "speak-mcq-36": "本句的「speak louder than words」指「實際行動比口頭說法更能證明態度、能力或誠意」。",
+        "speak-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-36"
     },
@@ -2995,11 +2711,9 @@ export default {
       "masked": "They are no longer on ____.",
       "options": [
         "speak-mcq-16",
-        "speak-mcq-15",
-        "speak-mcq-17",
-        "speak-mcq-14",
-        "speak-mcq-18",
-        "speak-mcq-13"
+        "speak-mcq-12",
+        "speak-mcq-31",
+        "speak-mcq-21"
       ],
       "explanation": "本句的「speaking terms」指「雙方關係至少維持到仍願意彼此交談」。",
       "sentenceIndex": 71,
@@ -3008,12 +2722,10 @@ export default {
         "speaking terms"
       ],
       "optionReasons": {
-        "speak-mcq-16": "本句指「雙方關係至少維持到仍願意彼此交談」。",
-        "speak-mcq-15": "「坦率直接地說出自己真正的想法或感受」是「speak your mind」的用法，與本句語境不同。",
-        "speak-mcq-17": "「一個人在正常說話時所使用的聲線／聲量」是「speaking voice」的用法，與本句語境不同。",
-        "speak-mcq-14": "「對某人／某事作負面評論」是「speak badly/poorly of」的用法，與本句語境不同。",
-        "speak-mcq-18": "「以口頭形式實際使用的英語／語言，而不是書面語」是「spoken English/language」的用法，與本句語境不同。",
-        "speak-mcq-13": "「以正面、讚賞的方式談論某人／某事」是「speak highly/well of」的用法，與本句語境不同。"
+        "speak-mcq-16": "本句的「speaking terms」指「雙方關係至少維持到仍願意彼此交談」。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-16"
     },
@@ -3025,11 +2737,9 @@ export default {
       "masked": "At least they are still on ____.",
       "options": [
         "speak-mcq-16",
-        "speak-mcq-15",
-        "speak-mcq-17",
-        "speak-mcq-14",
-        "speak-mcq-18",
-        "speak-mcq-13"
+        "speak-mcq-12",
+        "speak-mcq-08",
+        "speak-mcq-33"
       ],
       "explanation": "本句的「speaking terms」指「雙方關係至少維持到仍願意彼此交談」。",
       "sentenceIndex": 72,
@@ -3038,12 +2748,10 @@ export default {
         "speaking terms"
       ],
       "optionReasons": {
-        "speak-mcq-16": "本句指「雙方關係至少維持到仍願意彼此交談」。",
-        "speak-mcq-15": "「坦率直接地說出自己真正的想法或感受」是「speak your mind」的用法，與本句語境不同。",
-        "speak-mcq-17": "「一個人在正常說話時所使用的聲線／聲量」是「speaking voice」的用法，與本句語境不同。",
-        "speak-mcq-14": "「對某人／某事作負面評論」是「speak badly/poorly of」的用法，與本句語境不同。",
-        "speak-mcq-18": "「以口頭形式實際使用的英語／語言，而不是書面語」是「spoken English/language」的用法，與本句語境不同。",
-        "speak-mcq-13": "「以正面、讚賞的方式談論某人／某事」是「speak highly/well of」的用法，與本句語境不同。"
+        "speak-mcq-16": "本句的「speaking terms」指「雙方關係至少維持到仍願意彼此交談」。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-16"
     },
@@ -3055,11 +2763,9 @@ export default {
       "masked": "She got a small ____ in the film.",
       "options": [
         "speak-mcq-37",
-        "speak-mcq-36",
-        "speak-mcq-38",
-        "speak-mcq-35",
-        "speak-mcq-39",
-        "speak-mcq-34"
+        "speak-mcq-02",
+        "speak-mcq-22",
+        "speak-mcq-31"
       ],
       "explanation": "本句的「speaking role」指「在電影、戲劇等作品中有台詞需要說的角色」。",
       "sentenceIndex": 73,
@@ -3068,12 +2774,10 @@ export default {
         "speaking role"
       ],
       "optionReasons": {
-        "speak-mcq-37": "本句指「在電影、戲劇等作品中有台詞需要說的角色」。",
-        "speak-mcq-36": "「實際行動比口頭說法更能證明態度、能力或誠意」是「actions speak louder than words」的用法，與本句語境不同。",
-        "speak-mcq-38": "「公開而明確地表達意見，尤其針對問題或不公」是「15. speak out（公開表態） — 公開說出意見」的用法，與本句語境不同。",
-        "speak-mcq-35": "「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」是「speak volumes」的用法，與本句語境不同。",
-        "speak-mcq-39": "「因生氣、衝突等而不願跟某人交談」是「17. not speak to someone（不理某人／不跟某人說話） — 不跟……說話」的用法，與本句語境不同。",
-        "speak-mcq-34": "「表示某種說法帶比喻或近似意味；可以這樣說」是「so to speak」的用法，與本句語境不同。"
+        "speak-mcq-37": "本句的「speaking role」指「在電影、戲劇等作品中有台詞需要說的角色」。",
+        "speak-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-37"
     },
@@ -3085,11 +2789,9 @@ export default {
       "masked": "Several extras were upgraded to ____.",
       "options": [
         "speak-mcq-37",
-        "speak-mcq-36",
-        "speak-mcq-38",
-        "speak-mcq-35",
-        "speak-mcq-39",
-        "speak-mcq-34"
+        "speak-mcq-31",
+        "speak-mcq-24",
+        "speak-mcq-28"
       ],
       "explanation": "本句的「speaking parts」指「在電影、戲劇等作品中有台詞需要說的角色」。",
       "sentenceIndex": 74,
@@ -3098,12 +2800,10 @@ export default {
         "speaking parts"
       ],
       "optionReasons": {
-        "speak-mcq-37": "本句指「在電影、戲劇等作品中有台詞需要說的角色」。",
-        "speak-mcq-36": "「實際行動比口頭說法更能證明態度、能力或誠意」是「actions speak louder than words」的用法，與本句語境不同。",
-        "speak-mcq-38": "「公開而明確地表達意見，尤其針對問題或不公」是「15. speak out（公開表態） — 公開說出意見」的用法，與本句語境不同。",
-        "speak-mcq-35": "「某種反應、行為或證據雖未直接說明，卻已傳達大量信息」是「speak volumes」的用法，與本句語境不同。",
-        "speak-mcq-39": "「因生氣、衝突等而不願跟某人交談」是「17. not speak to someone（不理某人／不跟某人說話） — 不跟……說話」的用法，與本句語境不同。",
-        "speak-mcq-34": "「表示某種說法帶比喻或近似意味；可以這樣說」是「so to speak」的用法，與本句語境不同。"
+        "speak-mcq-37": "本句的「speaking parts」指「在電影、戲劇等作品中有台詞需要說的角色」。",
+        "speak-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-37"
     },
@@ -3115,11 +2815,9 @@ export default {
       "masked": "She is a native English ____.",
       "options": [
         "speak-mcq-23",
-        "speak-mcq-22",
+        "speak-mcq-12",
         "speak-mcq-24",
-        "speak-mcq-21",
-        "speak-mcq-25",
-        "speak-mcq-20"
+        "speak-mcq-13"
       ],
       "explanation": "本句的「speaker」指「能使用某種語言說話的人」。",
       "sentenceIndex": 75,
@@ -3128,12 +2826,10 @@ export default {
         "speaker"
       ],
       "optionReasons": {
-        "speak-mcq-23": "本句指「能使用某種語言說話的人」。",
-        "speak-mcq-22": "「負責主持議會或正式立法會議的議長」是「Speaker — institutional title」的用法，與本句語境不同。",
-        "speak-mcq-24": "「向觀眾正式發表的一段口頭內容／演講」是「speech — formal talk」的用法，與本句語境不同。",
-        "speak-mcq-21": "「把電子音訊轉換為可聽聲音的揚聲器／喇叭」是「speaker — device」的用法，與本句語境不同。",
-        "speak-mcq-25": "「人類產生口語、說話和發音的能力」是「speech — ability」的用法，與本句語境不同。",
-        "speak-mcq-20": "「正在發言、演講或向觀眾說話的人」是「speaker — person」的用法，與本句語境不同。"
+        "speak-mcq-23": "本句的「speaker」指「能使用某種語言說話的人」。",
+        "speak-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-23"
     },
@@ -3145,11 +2841,9 @@ export default {
       "masked": "The course is designed for non-native ____.",
       "options": [
         "speak-mcq-23",
-        "speak-mcq-22",
-        "speak-mcq-24",
+        "speak-mcq-11",
         "speak-mcq-21",
-        "speak-mcq-25",
-        "speak-mcq-20"
+        "speak-mcq-24"
       ],
       "explanation": "本句的「speakers」指「能使用某種語言說話的人」。",
       "sentenceIndex": 76,
@@ -3158,12 +2852,10 @@ export default {
         "speakers"
       ],
       "optionReasons": {
-        "speak-mcq-23": "本句指「能使用某種語言說話的人」。",
-        "speak-mcq-22": "「負責主持議會或正式立法會議的議長」是「Speaker — institutional title」的用法，與本句語境不同。",
-        "speak-mcq-24": "「向觀眾正式發表的一段口頭內容／演講」是「speech — formal talk」的用法，與本句語境不同。",
-        "speak-mcq-21": "「把電子音訊轉換為可聽聲音的揚聲器／喇叭」是「speaker — device」的用法，與本句語境不同。",
-        "speak-mcq-25": "「人類產生口語、說話和發音的能力」是「speech — ability」的用法，與本句語境不同。",
-        "speak-mcq-20": "「正在發言、演講或向觀眾說話的人」是「speaker — person」的用法，與本句語境不同。"
+        "speak-mcq-23": "本句的「speakers」指「能使用某種語言說話的人」。",
+        "speak-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "speak-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speak-mcq-23"
     }
@@ -3175,5 +2867,7 @@ export default {
     "sha256": "997f088e9505591a729df838c3471b5ac288ad56f6d16489defc25ba26d96d7f",
     "pages": 34
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

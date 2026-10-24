@@ -284,11 +284,9 @@ export default {
       "masked": "Can you ____ over here for a moment?",
       "options": [
         "come-mcq-11",
-        "come-mcq-10",
-        "come-mcq-12",
-        "come-mcq-09",
         "come-mcq-08",
-        "come-mcq-07"
+        "come-mcq-09",
+        "come-mcq-05"
       ],
       "explanation": "本句的「come」指「朝說話者、某個參照人物或指定地點移動」。",
       "sentenceIndex": 0,
@@ -297,12 +295,10 @@ export default {
         "come"
       ],
       "optionReasons": {
-        "come-mcq-11": "本句指「朝說話者、某個參照人物或指定地點移動」。",
-        "come-mcq-10": "「即將到來、屬於接下來一段時間的」是「coming + time」的用法，與本句語境不同。",
-        "come-mcq-12": "「某個時間、事件、機會或階段到來或開始出現」是「3. come = happen/arrive in time（事件／時期） — 到來；發生」的用法，與本句語境不同。",
-        "come-mcq-09": "「某個想法、答案或記憶開始在腦中浮現」是「come to mind」的用法，與本句語境不同。",
-        "come-mcq-08": "「某件產品、服務或安排本身附帶或包括某項東西」是「come with + item/feature」的用法，與本句語境不同。",
-        "come-mcq-07": "「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」是「come in + form/size/colour」的用法，與本句語境不同。"
+        "come-mcq-11": "本句的「come」指「朝說話者、某個參照人物或指定地點移動」。",
+        "come-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-11"
     },
@@ -314,11 +310,9 @@ export default {
       "masked": "She ____ into the room and sat beside me.",
       "options": [
         "come-mcq-11",
-        "come-mcq-10",
-        "come-mcq-12",
-        "come-mcq-09",
         "come-mcq-08",
-        "come-mcq-07"
+        "come-mcq-05",
+        "come-mcq-06"
       ],
       "explanation": "本句的「came」指「朝說話者、某個參照人物或指定地點移動」。",
       "sentenceIndex": 1,
@@ -327,12 +321,10 @@ export default {
         "came"
       ],
       "optionReasons": {
-        "come-mcq-11": "本句指「朝說話者、某個參照人物或指定地點移動」。",
-        "come-mcq-10": "「即將到來、屬於接下來一段時間的」是「coming + time」的用法，與本句語境不同。",
-        "come-mcq-12": "「某個時間、事件、機會或階段到來或開始出現」是「3. come = happen/arrive in time（事件／時期） — 到來；發生」的用法，與本句語境不同。",
-        "come-mcq-09": "「某個想法、答案或記憶開始在腦中浮現」是「come to mind」的用法，與本句語境不同。",
-        "come-mcq-08": "「某件產品、服務或安排本身附帶或包括某項東西」是「come with + item/feature」的用法，與本句語境不同。",
-        "come-mcq-07": "「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」是「come in + form/size/colour」的用法，與本句語境不同。"
+        "come-mcq-11": "本句的「came」指「朝說話者、某個參照人物或指定地點移動」。",
+        "come-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-11"
     },
@@ -344,11 +336,9 @@ export default {
       "masked": "What time did you ____ home last night?",
       "options": [
         "come-pdf-001",
-        "come-mcq-02",
-        "come-mcq-03",
-        "come-mcq-04",
-        "come-mcq-05",
-        "come-mcq-06"
+        "come-mcq-06",
+        "come-mcq-08",
+        "come-mcq-09"
       ],
       "explanation": "本句的「come」指「經過移動後到達某個地方或位置」。",
       "sentenceIndex": 2,
@@ -357,12 +347,10 @@ export default {
         "come"
       ],
       "optionReasons": {
-        "come-pdf-001": "本句指「經過移動後到達某個地方或位置」。",
-        "come-mcq-02": "「某個時間、事件、機會或階段開始出現或到來」是「time/event/opportunity comes」的用法，與本句語境不同。",
-        "come-mcq-03": "「從原本的情況轉變並進入另一種狀態」是「come + adjective/state」的用法，與本句語境不同。",
-        "come-mcq-04": "「起源或來源是某個地方、人物、原因或資料來源」是「come from + source」的用法，與本句語境不同。",
-        "come-mcq-05": "「經過一段過程後達到某個結果、結論或認知狀態」是「come to + decision/conclusion/understanding」的用法，與本句語境不同。",
-        "come-mcq-06": "「在比賽、評選或排名中取得某個名次」是「come first/second/etc.」的用法，與本句語境不同。"
+        "come-pdf-001": "本句的「come」指「經過移動後到達某個地方或位置」。",
+        "come-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-pdf-001"
     },
@@ -374,11 +362,9 @@ export default {
       "masked": "The train ____ into the station shortly after nine.",
       "options": [
         "come-pdf-001",
-        "come-mcq-02",
-        "come-mcq-03",
-        "come-mcq-04",
-        "come-mcq-05",
-        "come-mcq-06"
+        "come-mcq-08",
+        "come-mcq-06",
+        "come-mcq-10"
       ],
       "explanation": "本句的「came」指「經過移動後到達某個地方或位置」。",
       "sentenceIndex": 3,
@@ -387,12 +373,10 @@ export default {
         "came"
       ],
       "optionReasons": {
-        "come-pdf-001": "本句指「經過移動後到達某個地方或位置」。",
-        "come-mcq-02": "「某個時間、事件、機會或階段開始出現或到來」是「time/event/opportunity comes」的用法，與本句語境不同。",
-        "come-mcq-03": "「從原本的情況轉變並進入另一種狀態」是「come + adjective/state」的用法，與本句語境不同。",
-        "come-mcq-04": "「起源或來源是某個地方、人物、原因或資料來源」是「come from + source」的用法，與本句語境不同。",
-        "come-mcq-05": "「經過一段過程後達到某個結果、結論或認知狀態」是「come to + decision/conclusion/understanding」的用法，與本句語境不同。",
-        "come-mcq-06": "「在比賽、評選或排名中取得某個名次」是「come first/second/etc.」的用法，與本句語境不同。"
+        "come-pdf-001": "本句的「came」指「經過移動後到達某個地方或位置」。",
+        "come-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-pdf-001"
     },
@@ -404,11 +388,9 @@ export default {
       "masked": "Spring ____ early that year.",
       "options": [
         "come-mcq-12",
-        "come-mcq-11",
-        "come-mcq-10",
-        "come-mcq-09",
-        "come-mcq-08",
-        "come-mcq-07"
+        "come-mcq-03",
+        "come-mcq-06",
+        "come-mcq-08"
       ],
       "explanation": "本句的「came」指「某個時間、事件、機會或階段到來或開始出現」。",
       "sentenceIndex": 4,
@@ -417,12 +399,10 @@ export default {
         "came"
       ],
       "optionReasons": {
-        "come-mcq-12": "本句指「某個時間、事件、機會或階段到來或開始出現」。",
-        "come-mcq-11": "「朝說話者、某個參照人物或指定地點移動」是「1. come + toward speaker/reference point（移動） — 來；來到」的用法，與本句語境不同。",
-        "come-mcq-10": "「即將到來、屬於接下來一段時間的」是「coming + time」的用法，與本句語境不同。",
-        "come-mcq-09": "「某個想法、答案或記憶開始在腦中浮現」是「come to mind」的用法，與本句語境不同。",
-        "come-mcq-08": "「某件產品、服務或安排本身附帶或包括某項東西」是「come with + item/feature」的用法，與本句語境不同。",
-        "come-mcq-07": "「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」是「come in + form/size/colour」的用法，與本句語境不同。"
+        "come-mcq-12": "本句的「came」指「某個時間、事件、機會或階段到來或開始出現」。",
+        "come-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-12"
     },
@@ -435,10 +415,8 @@ export default {
       "options": [
         "come-mcq-12",
         "come-mcq-11",
-        "come-mcq-10",
-        "come-mcq-09",
-        "come-mcq-08",
-        "come-mcq-07"
+        "come-mcq-06",
+        "come-mcq-05"
       ],
       "explanation": "本句的「came」指「某個時間、事件、機會或階段到來或開始出現」。",
       "sentenceIndex": 5,
@@ -447,12 +425,10 @@ export default {
         "came"
       ],
       "optionReasons": {
-        "come-mcq-12": "本句指「某個時間、事件、機會或階段到來或開始出現」。",
-        "come-mcq-11": "「朝說話者、某個參照人物或指定地點移動」是「1. come + toward speaker/reference point（移動） — 來；來到」的用法，與本句語境不同。",
-        "come-mcq-10": "「即將到來、屬於接下來一段時間的」是「coming + time」的用法，與本句語境不同。",
-        "come-mcq-09": "「某個想法、答案或記憶開始在腦中浮現」是「come to mind」的用法，與本句語境不同。",
-        "come-mcq-08": "「某件產品、服務或安排本身附帶或包括某項東西」是「come with + item/feature」的用法，與本句語境不同。",
-        "come-mcq-07": "「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」是「come in + form/size/colour」的用法，與本句語境不同。"
+        "come-mcq-12": "本句的「came」指「某個時間、事件、機會或階段到來或開始出現」。",
+        "come-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-12"
     },
@@ -464,11 +440,9 @@ export default {
       "masked": "When he speaks, everything ____.",
       "options": [
         "come-mcq-03",
-        "come-mcq-02",
-        "come-mcq-04",
-        "come-mcq-01",
-        "come-mcq-05",
-        "come-mcq-06"
+        "come-mcq-12",
+        "come-mcq-06",
+        "come-mcq-08"
       ],
       "explanation": "本句的「comes alive」指「從原本的情況轉變並進入另一種狀態」。",
       "sentenceIndex": 6,
@@ -477,12 +451,10 @@ export default {
         "comes alive"
       ],
       "optionReasons": {
-        "come-mcq-03": "本句指「從原本的情況轉變並進入另一種狀態」。",
-        "come-mcq-02": "「某個時間、事件、機會或階段開始出現或到來」是「time/event/opportunity comes」的用法，與本句語境不同。",
-        "come-mcq-04": "「起源或來源是某個地方、人物、原因或資料來源」是「come from + source」的用法，與本句語境不同。",
-        "come-mcq-01": "「朝說話者、參照人物或指定地方移動並到達該處」是「come — physical movement/arrival」的用法，與本句語境不同。",
-        "come-mcq-05": "「經過一段過程後達到某個結果、結論或認知狀態」是「come to + decision/conclusion/understanding」的用法，與本句語境不同。",
-        "come-mcq-06": "「在比賽、評選或排名中取得某個名次」是「come first/second/etc.」的用法，與本句語境不同。"
+        "come-mcq-03": "本句的「comes alive」指「從原本的情況轉變並進入另一種狀態」。",
+        "come-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-03"
     },
@@ -494,11 +466,9 @@ export default {
       "masked": "The handle ____ after years of use.",
       "options": [
         "come-mcq-03",
-        "come-mcq-02",
-        "come-mcq-04",
-        "come-mcq-01",
-        "come-mcq-05",
-        "come-mcq-06"
+        "come-mcq-06",
+        "come-mcq-10",
+        "come-mcq-09"
       ],
       "explanation": "本句的「came loose」指「從原本的情況轉變並進入另一種狀態」。",
       "sentenceIndex": 7,
@@ -507,12 +477,10 @@ export default {
         "came loose"
       ],
       "optionReasons": {
-        "come-mcq-03": "本句指「從原本的情況轉變並進入另一種狀態」。",
-        "come-mcq-02": "「某個時間、事件、機會或階段開始出現或到來」是「time/event/opportunity comes」的用法，與本句語境不同。",
-        "come-mcq-04": "「起源或來源是某個地方、人物、原因或資料來源」是「come from + source」的用法，與本句語境不同。",
-        "come-mcq-01": "「朝說話者、參照人物或指定地方移動並到達該處」是「come — physical movement/arrival」的用法，與本句語境不同。",
-        "come-mcq-05": "「經過一段過程後達到某個結果、結論或認知狀態」是「come to + decision/conclusion/understanding」的用法，與本句語境不同。",
-        "come-mcq-06": "「在比賽、評選或排名中取得某個名次」是「come first/second/etc.」的用法，與本句語境不同。"
+        "come-mcq-03": "本句的「came loose」指「從原本的情況轉變並進入另一種狀態」。",
+        "come-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-03"
     },
@@ -524,11 +492,9 @@ export default {
       "masked": "Her dream finally ____.",
       "options": [
         "come-mcq-03",
-        "come-mcq-02",
-        "come-mcq-04",
-        "come-mcq-01",
-        "come-mcq-05",
-        "come-mcq-06"
+        "come-mcq-12",
+        "come-mcq-06",
+        "come-mcq-04"
       ],
       "explanation": "本句的「came true」指「從原本的情況轉變並進入另一種狀態」。",
       "sentenceIndex": 8,
@@ -537,12 +503,10 @@ export default {
         "came true"
       ],
       "optionReasons": {
-        "come-mcq-03": "本句指「從原本的情況轉變並進入另一種狀態」。",
-        "come-mcq-02": "「某個時間、事件、機會或階段開始出現或到來」是「time/event/opportunity comes」的用法，與本句語境不同。",
-        "come-mcq-04": "「起源或來源是某個地方、人物、原因或資料來源」是「come from + source」的用法，與本句語境不同。",
-        "come-mcq-01": "「朝說話者、參照人物或指定地方移動並到達該處」是「come — physical movement/arrival」的用法，與本句語境不同。",
-        "come-mcq-05": "「經過一段過程後達到某個結果、結論或認知狀態」是「come to + decision/conclusion/understanding」的用法，與本句語境不同。",
-        "come-mcq-06": "「在比賽、評選或排名中取得某個名次」是「come first/second/etc.」的用法，與本句語境不同。"
+        "come-mcq-03": "本句的「came true」指「從原本的情況轉變並進入另一種狀態」。",
+        "come-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-03"
     },
@@ -554,11 +518,9 @@ export default {
       "masked": "This tea ____ Taiwan.",
       "options": [
         "come-mcq-04",
-        "come-mcq-03",
-        "come-mcq-05",
-        "come-mcq-02",
+        "come-mcq-09",
         "come-mcq-06",
-        "come-mcq-01"
+        "come-mcq-05"
       ],
       "explanation": "本句的「comes from」指「起源或來源是某個地方、人物、原因或資料來源」。",
       "sentenceIndex": 9,
@@ -567,12 +529,10 @@ export default {
         "comes from"
       ],
       "optionReasons": {
-        "come-mcq-04": "本句指「起源或來源是某個地方、人物、原因或資料來源」。",
-        "come-mcq-03": "「從原本的情況轉變並進入另一種狀態」是「come + adjective/state」的用法，與本句語境不同。",
-        "come-mcq-05": "「經過一段過程後達到某個結果、結論或認知狀態」是「come to + decision/conclusion/understanding」的用法，與本句語境不同。",
-        "come-mcq-02": "「某個時間、事件、機會或階段開始出現或到來」是「time/event/opportunity comes」的用法，與本句語境不同。",
-        "come-mcq-06": "「在比賽、評選或排名中取得某個名次」是「come first/second/etc.」的用法，與本句語境不同。",
-        "come-mcq-01": "「朝說話者、參照人物或指定地方移動並到達該處」是「come — physical movement/arrival」的用法，與本句語境不同。"
+        "come-mcq-04": "本句的「comes from」指「起源或來源是某個地方、人物、原因或資料來源」。",
+        "come-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-04"
     },
@@ -584,11 +544,9 @@ export default {
       "masked": "Most of the information ____ interviews.",
       "options": [
         "come-mcq-04",
-        "come-mcq-03",
+        "come-mcq-07",
         "come-mcq-05",
-        "come-mcq-02",
-        "come-mcq-06",
-        "come-mcq-01"
+        "come-mcq-09"
       ],
       "explanation": "本句的「came from」指「起源或來源是某個地方、人物、原因或資料來源」。",
       "sentenceIndex": 10,
@@ -597,12 +555,10 @@ export default {
         "came from"
       ],
       "optionReasons": {
-        "come-mcq-04": "本句指「起源或來源是某個地方、人物、原因或資料來源」。",
-        "come-mcq-03": "「從原本的情況轉變並進入另一種狀態」是「come + adjective/state」的用法，與本句語境不同。",
-        "come-mcq-05": "「經過一段過程後達到某個結果、結論或認知狀態」是「come to + decision/conclusion/understanding」的用法，與本句語境不同。",
-        "come-mcq-02": "「某個時間、事件、機會或階段開始出現或到來」是「time/event/opportunity comes」的用法，與本句語境不同。",
-        "come-mcq-06": "「在比賽、評選或排名中取得某個名次」是「come first/second/etc.」的用法，與本句語境不同。",
-        "come-mcq-01": "「朝說話者、參照人物或指定地方移動並到達該處」是「come — physical movement/arrival」的用法，與本句語境不同。"
+        "come-mcq-04": "本句的「came from」指「起源或來源是某個地方、人物、原因或資料來源」。",
+        "come-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-04"
     },
@@ -614,11 +570,9 @@ export default {
       "masked": "We eventually ____.",
       "options": [
         "come-mcq-05",
-        "come-mcq-04",
+        "come-mcq-08",
         "come-mcq-06",
-        "come-mcq-03",
-        "come-mcq-07",
-        "come-mcq-02"
+        "come-mcq-09"
       ],
       "explanation": "本句的「came to a decision」指「經過一段過程後達到某個結果、結論或認知狀態」。",
       "sentenceIndex": 11,
@@ -627,12 +581,10 @@ export default {
         "came to a decision"
       ],
       "optionReasons": {
-        "come-mcq-05": "本句指「經過一段過程後達到某個結果、結論或認知狀態」。",
-        "come-mcq-04": "「起源或來源是某個地方、人物、原因或資料來源」是「come from + source」的用法，與本句語境不同。",
-        "come-mcq-06": "「在比賽、評選或排名中取得某個名次」是「come first/second/etc.」的用法，與本句語境不同。",
-        "come-mcq-03": "「從原本的情況轉變並進入另一種狀態」是「come + adjective/state」的用法，與本句語境不同。",
-        "come-mcq-07": "「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」是「come in + form/size/colour」的用法，與本句語境不同。",
-        "come-mcq-02": "「某個時間、事件、機會或階段開始出現或到來」是「time/event/opportunity comes」的用法，與本句語境不同。"
+        "come-mcq-05": "本句的「came to a decision」指「經過一段過程後達到某個結果、結論或認知狀態」。",
+        "come-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-05"
     },
@@ -644,11 +596,9 @@ export default {
       "masked": "She slowly ____ why he had left.",
       "options": [
         "come-mcq-05",
-        "come-mcq-04",
-        "come-mcq-06",
-        "come-mcq-03",
         "come-mcq-07",
-        "come-mcq-02"
+        "come-mcq-04",
+        "come-mcq-09"
       ],
       "explanation": "本句的「came to understand」指「經過一段過程後達到某個結果、結論或認知狀態」。",
       "sentenceIndex": 12,
@@ -657,12 +607,10 @@ export default {
         "came to understand"
       ],
       "optionReasons": {
-        "come-mcq-05": "本句指「經過一段過程後達到某個結果、結論或認知狀態」。",
-        "come-mcq-04": "「起源或來源是某個地方、人物、原因或資料來源」是「come from + source」的用法，與本句語境不同。",
-        "come-mcq-06": "「在比賽、評選或排名中取得某個名次」是「come first/second/etc.」的用法，與本句語境不同。",
-        "come-mcq-03": "「從原本的情況轉變並進入另一種狀態」是「come + adjective/state」的用法，與本句語境不同。",
-        "come-mcq-07": "「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」是「come in + form/size/colour」的用法，與本句語境不同。",
-        "come-mcq-02": "「某個時間、事件、機會或階段開始出現或到來」是「time/event/opportunity comes」的用法，與本句語境不同。"
+        "come-mcq-05": "本句的「came to understand」指「經過一段過程後達到某個結果、結論或認知狀態」。",
+        "come-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-05"
     },
@@ -674,11 +622,9 @@ export default {
       "masked": "She ____ in the competition.",
       "options": [
         "come-mcq-06",
-        "come-mcq-05",
-        "come-mcq-07",
-        "come-mcq-04",
-        "come-mcq-08",
-        "come-mcq-03"
+        "come-mcq-03",
+        "come-mcq-12",
+        "come-mcq-04"
       ],
       "explanation": "本句的「came first」指「在比賽、評選或排名中取得某個名次」。",
       "sentenceIndex": 13,
@@ -687,12 +633,10 @@ export default {
         "came first"
       ],
       "optionReasons": {
-        "come-mcq-06": "本句指「在比賽、評選或排名中取得某個名次」。",
-        "come-mcq-05": "「經過一段過程後達到某個結果、結論或認知狀態」是「come to + decision/conclusion/understanding」的用法，與本句語境不同。",
-        "come-mcq-07": "「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」是「come in + form/size/colour」的用法，與本句語境不同。",
-        "come-mcq-04": "「起源或來源是某個地方、人物、原因或資料來源」是「come from + source」的用法，與本句語境不同。",
-        "come-mcq-08": "「某件產品、服務或安排本身附帶或包括某項東西」是「come with + item/feature」的用法，與本句語境不同。",
-        "come-mcq-03": "「從原本的情況轉變並進入另一種狀態」是「come + adjective/state」的用法，與本句語境不同。"
+        "come-mcq-06": "本句的「came first」指「在比賽、評選或排名中取得某個名次」。",
+        "come-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-06"
     },
@@ -704,11 +648,9 @@ export default {
       "masked": "Our team ____.",
       "options": [
         "come-mcq-06",
-        "come-mcq-05",
-        "come-mcq-07",
-        "come-mcq-04",
-        "come-mcq-08",
-        "come-mcq-03"
+        "come-pdf-001",
+        "come-mcq-12",
+        "come-mcq-08"
       ],
       "explanation": "本句的「came second」指「在比賽、評選或排名中取得某個名次」。",
       "sentenceIndex": 14,
@@ -717,12 +659,10 @@ export default {
         "came second"
       ],
       "optionReasons": {
-        "come-mcq-06": "本句指「在比賽、評選或排名中取得某個名次」。",
-        "come-mcq-05": "「經過一段過程後達到某個結果、結論或認知狀態」是「come to + decision/conclusion/understanding」的用法，與本句語境不同。",
-        "come-mcq-07": "「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」是「come in + form/size/colour」的用法，與本句語境不同。",
-        "come-mcq-04": "「起源或來源是某個地方、人物、原因或資料來源」是「come from + source」的用法，與本句語境不同。",
-        "come-mcq-08": "「某件產品、服務或安排本身附帶或包括某項東西」是「come with + item/feature」的用法，與本句語境不同。",
-        "come-mcq-03": "「從原本的情況轉變並進入另一種狀態」是「come + adjective/state」的用法，與本句語境不同。"
+        "come-mcq-06": "本句的「came second」指「在比賽、評選或排名中取得某個名次」。",
+        "come-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-06"
     },
@@ -734,10 +674,8 @@ export default {
       "masked": "The shirt ____ three colours.",
       "options": [
         "come-mcq-07",
-        "come-mcq-06",
-        "come-mcq-08",
-        "come-mcq-05",
         "come-mcq-09",
+        "come-mcq-05",
         "come-mcq-04"
       ],
       "explanation": "本句的「comes in」指「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」。",
@@ -747,12 +685,10 @@ export default {
         "comes in"
       ],
       "optionReasons": {
-        "come-mcq-07": "本句指「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」。",
-        "come-mcq-06": "「在比賽、評選或排名中取得某個名次」是「come first/second/etc.」的用法，與本句語境不同。",
-        "come-mcq-08": "「某件產品、服務或安排本身附帶或包括某項東西」是「come with + item/feature」的用法，與本句語境不同。",
-        "come-mcq-05": "「經過一段過程後達到某個結果、結論或認知狀態」是「come to + decision/conclusion/understanding」的用法，與本句語境不同。",
-        "come-mcq-09": "「某個想法、答案或記憶開始在腦中浮現」是「come to mind」的用法，與本句語境不同。",
-        "come-mcq-04": "「起源或來源是某個地方、人物、原因或資料來源」是「come from + source」的用法，與本句語境不同。"
+        "come-mcq-07": "本句的「comes in」指「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」。",
+        "come-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-07"
     },
@@ -764,11 +700,9 @@ export default {
       "masked": "The headphones ____ two different sizes.",
       "options": [
         "come-mcq-07",
-        "come-mcq-06",
-        "come-mcq-08",
-        "come-mcq-05",
+        "come-pdf-001",
         "come-mcq-09",
-        "come-mcq-04"
+        "come-mcq-10"
       ],
       "explanation": "本句的「come in」指「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」。",
       "sentenceIndex": 16,
@@ -777,12 +711,10 @@ export default {
         "come in"
       ],
       "optionReasons": {
-        "come-mcq-07": "本句指「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」。",
-        "come-mcq-06": "「在比賽、評選或排名中取得某個名次」是「come first/second/etc.」的用法，與本句語境不同。",
-        "come-mcq-08": "「某件產品、服務或安排本身附帶或包括某項東西」是「come with + item/feature」的用法，與本句語境不同。",
-        "come-mcq-05": "「經過一段過程後達到某個結果、結論或認知狀態」是「come to + decision/conclusion/understanding」的用法，與本句語境不同。",
-        "come-mcq-09": "「某個想法、答案或記憶開始在腦中浮現」是「come to mind」的用法，與本句語境不同。",
-        "come-mcq-04": "「起源或來源是某個地方、人物、原因或資料來源」是「come from + source」的用法，與本句語境不同。"
+        "come-mcq-07": "本句的「come in」指「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」。",
+        "come-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-07"
     },
@@ -794,11 +726,9 @@ export default {
       "masked": "The camera ____ a carrying case.",
       "options": [
         "come-mcq-08",
-        "come-mcq-07",
-        "come-mcq-09",
-        "come-mcq-06",
-        "come-mcq-10",
-        "come-mcq-05"
+        "come-mcq-05",
+        "come-mcq-11",
+        "come-mcq-09"
       ],
       "explanation": "本句的「comes with」指「某件產品、服務或安排本身附帶或包括某項東西」。",
       "sentenceIndex": 17,
@@ -807,12 +737,10 @@ export default {
         "comes with"
       ],
       "optionReasons": {
-        "come-mcq-08": "本句指「某件產品、服務或安排本身附帶或包括某項東西」。",
-        "come-mcq-07": "「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」是「come in + form/size/colour」的用法，與本句語境不同。",
-        "come-mcq-09": "「某個想法、答案或記憶開始在腦中浮現」是「come to mind」的用法，與本句語境不同。",
-        "come-mcq-06": "「在比賽、評選或排名中取得某個名次」是「come first/second/etc.」的用法，與本句語境不同。",
-        "come-mcq-10": "「即將到來、屬於接下來一段時間的」是「coming + time」的用法，與本句語境不同。",
-        "come-mcq-05": "「經過一段過程後達到某個結果、結論或認知狀態」是「come to + decision/conclusion/understanding」的用法，與本句語境不同。"
+        "come-mcq-08": "本句的「comes with」指「某件產品、服務或安排本身附帶或包括某項東西」。",
+        "come-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-08"
     },
@@ -824,11 +752,9 @@ export default {
       "masked": "The apartment ____ a parking space.",
       "options": [
         "come-mcq-08",
-        "come-mcq-07",
-        "come-mcq-09",
-        "come-mcq-06",
-        "come-mcq-10",
-        "come-mcq-05"
+        "come-mcq-11",
+        "come-mcq-05",
+        "come-mcq-09"
       ],
       "explanation": "本句的「comes with」指「某件產品、服務或安排本身附帶或包括某項東西」。",
       "sentenceIndex": 18,
@@ -837,12 +763,10 @@ export default {
         "comes with"
       ],
       "optionReasons": {
-        "come-mcq-08": "本句指「某件產品、服務或安排本身附帶或包括某項東西」。",
-        "come-mcq-07": "「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」是「come in + form/size/colour」的用法，與本句語境不同。",
-        "come-mcq-09": "「某個想法、答案或記憶開始在腦中浮現」是「come to mind」的用法，與本句語境不同。",
-        "come-mcq-06": "「在比賽、評選或排名中取得某個名次」是「come first/second/etc.」的用法，與本句語境不同。",
-        "come-mcq-10": "「即將到來、屬於接下來一段時間的」是「coming + time」的用法，與本句語境不同。",
-        "come-mcq-05": "「經過一段過程後達到某個結果、結論或認知狀態」是「come to + decision/conclusion/understanding」的用法，與本句語境不同。"
+        "come-mcq-08": "本句的「comes with」指「某件產品、服務或安排本身附帶或包括某項東西」。",
+        "come-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-08"
     },
@@ -854,10 +778,8 @@ export default {
       "masked": "The answer suddenly ____.",
       "options": [
         "come-mcq-09",
+        "come-pdf-001",
         "come-mcq-08",
-        "come-mcq-10",
-        "come-mcq-07",
-        "come-mcq-11",
         "come-mcq-06"
       ],
       "explanation": "本句的「came to me」指「某個想法、答案或記憶開始在腦中浮現」。",
@@ -867,12 +789,10 @@ export default {
         "came to me"
       ],
       "optionReasons": {
-        "come-mcq-09": "本句指「某個想法、答案或記憶開始在腦中浮現」。",
-        "come-mcq-08": "「某件產品、服務或安排本身附帶或包括某項東西」是「come with + item/feature」的用法，與本句語境不同。",
-        "come-mcq-10": "「即將到來、屬於接下來一段時間的」是「coming + time」的用法，與本句語境不同。",
-        "come-mcq-07": "「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」是「come in + form/size/colour」的用法，與本句語境不同。",
-        "come-mcq-11": "「朝說話者、某個參照人物或指定地點移動」是「1. come + toward speaker/reference point（移動） — 來；來到」的用法，與本句語境不同。",
-        "come-mcq-06": "「在比賽、評選或排名中取得某個名次」是「come first/second/etc.」的用法，與本句語境不同。"
+        "come-mcq-09": "本句的「came to me」指「某個想法、答案或記憶開始在腦中浮現」。",
+        "come-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-09"
     },
@@ -884,11 +804,9 @@ export default {
       "masked": "Nothing ____ immediately.",
       "options": [
         "come-mcq-09",
+        "come-mcq-06",
         "come-mcq-08",
-        "come-mcq-10",
-        "come-mcq-07",
-        "come-mcq-11",
-        "come-mcq-06"
+        "come-mcq-05"
       ],
       "explanation": "本句的「comes to mind」指「某個想法、答案或記憶開始在腦中浮現」。",
       "sentenceIndex": 20,
@@ -897,12 +815,10 @@ export default {
         "comes to mind"
       ],
       "optionReasons": {
-        "come-mcq-09": "本句指「某個想法、答案或記憶開始在腦中浮現」。",
-        "come-mcq-08": "「某件產品、服務或安排本身附帶或包括某項東西」是「come with + item/feature」的用法，與本句語境不同。",
-        "come-mcq-10": "「即將到來、屬於接下來一段時間的」是「coming + time」的用法，與本句語境不同。",
-        "come-mcq-07": "「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」是「come in + form/size/colour」的用法，與本句語境不同。",
-        "come-mcq-11": "「朝說話者、某個參照人物或指定地點移動」是「1. come + toward speaker/reference point（移動） — 來；來到」的用法，與本句語境不同。",
-        "come-mcq-06": "「在比賽、評選或排名中取得某個名次」是「come first/second/etc.」的用法，與本句語境不同。"
+        "come-mcq-09": "本句的「comes to mind」指「某個想法、答案或記憶開始在腦中浮現」。",
+        "come-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-09"
     },
@@ -914,11 +830,9 @@ export default {
       "masked": "We’ll discuss that in the ____.",
       "options": [
         "come-mcq-10",
-        "come-mcq-09",
+        "come-mcq-06",
         "come-mcq-11",
-        "come-mcq-08",
-        "come-mcq-12",
-        "come-mcq-07"
+        "come-mcq-08"
       ],
       "explanation": "本句的「coming weeks」指「即將到來、屬於接下來一段時間的」。",
       "sentenceIndex": 21,
@@ -927,12 +841,10 @@ export default {
         "coming weeks"
       ],
       "optionReasons": {
-        "come-mcq-10": "本句指「即將到來、屬於接下來一段時間的」。",
-        "come-mcq-09": "「某個想法、答案或記憶開始在腦中浮現」是「come to mind」的用法，與本句語境不同。",
-        "come-mcq-11": "「朝說話者、某個參照人物或指定地點移動」是「1. come + toward speaker/reference point（移動） — 來；來到」的用法，與本句語境不同。",
-        "come-mcq-08": "「某件產品、服務或安排本身附帶或包括某項東西」是「come with + item/feature」的用法，與本句語境不同。",
-        "come-mcq-12": "「某個時間、事件、機會或階段到來或開始出現」是「3. come = happen/arrive in time（事件／時期） — 到來；發生」的用法，與本句語境不同。",
-        "come-mcq-07": "「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」是「come in + form/size/colour」的用法，與本句語境不同。"
+        "come-mcq-10": "本句的「coming weeks」指「即將到來、屬於接下來一段時間的」。",
+        "come-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-10"
     },
@@ -944,11 +856,9 @@ export default {
       "masked": "The ____ will be important for the company.",
       "options": [
         "come-mcq-10",
+        "come-mcq-06",
         "come-mcq-09",
-        "come-mcq-11",
-        "come-mcq-08",
-        "come-mcq-12",
-        "come-mcq-07"
+        "come-mcq-11"
       ],
       "explanation": "本句的「coming year」指「即將到來、屬於接下來一段時間的」。",
       "sentenceIndex": 22,
@@ -957,12 +867,10 @@ export default {
         "coming year"
       ],
       "optionReasons": {
-        "come-mcq-10": "本句指「即將到來、屬於接下來一段時間的」。",
-        "come-mcq-09": "「某個想法、答案或記憶開始在腦中浮現」是「come to mind」的用法，與本句語境不同。",
-        "come-mcq-11": "「朝說話者、某個參照人物或指定地點移動」是「1. come + toward speaker/reference point（移動） — 來；來到」的用法，與本句語境不同。",
-        "come-mcq-08": "「某件產品、服務或安排本身附帶或包括某項東西」是「come with + item/feature」的用法，與本句語境不同。",
-        "come-mcq-12": "「某個時間、事件、機會或階段到來或開始出現」是「3. come = happen/arrive in time（事件／時期） — 到來；發生」的用法，與本句語境不同。",
-        "come-mcq-07": "「某件產品或事物以指定款式、尺寸、版本或形式存在／供應」是「come in + form/size/colour」的用法，與本句語境不同。"
+        "come-mcq-10": "本句的「coming year」指「即將到來、屬於接下來一段時間的」。",
+        "come-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "come-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "come-mcq-10"
     }
@@ -974,5 +882,7 @@ export default {
     "sha256": "1c23773057f7d0fdf97c393068d27523e95aef4e7766cfcf8f24d4a8c96f6d02",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

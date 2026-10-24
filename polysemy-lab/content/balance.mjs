@@ -581,11 +581,9 @@ export default {
       "masked": "He was firm, but fair, and that ____ is not easy to find.",
       "options": [
         "balance-mcq-01",
-        "balance-mcq-02",
-        "balance-mcq-03",
-        "balance-mcq-04",
-        "balance-mcq-06",
-        "balance-mcq-07"
+        "balance-mcq-24",
+        "balance-mcq-16",
+        "balance-mcq-15"
       ],
       "explanation": "本句的「balance」指「A 與 B 之間的平衡」。",
       "sentenceIndex": 0,
@@ -594,12 +592,10 @@ export default {
         "balance"
       ],
       "optionReasons": {
-        "balance-mcq-01": "本句指「A 與 B 之間的平衡」。",
-        "balance-mcq-02": "「取得平衡」與本句語境不同。",
-        "balance-mcq-03": "「保持平衡」與本句語境不同。",
-        "balance-mcq-04": "「身體平衡」與本句語境不同。",
-        "balance-mcq-06": "「失去平衡」與本句語境不同。",
-        "balance-mcq-07": "「平衡感」與本句語境不同。"
+        "balance-mcq-01": "本句的「balance」指「A 與 B 之間的平衡」。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-01"
     },
@@ -611,11 +607,9 @@ export default {
       "masked": "Good teaching requires a ____.",
       "options": [
         "balance-mcq-01",
-        "balance-mcq-02",
-        "balance-mcq-03",
-        "balance-mcq-04",
-        "balance-mcq-06",
-        "balance-mcq-07"
+        "balance-mcq-16",
+        "balance-mcq-22",
+        "balance-mcq-15"
       ],
       "explanation": "本句的「balance between discipline and flexibility」指「A 與 B 之間的平衡」。",
       "sentenceIndex": 1,
@@ -624,12 +618,10 @@ export default {
         "balance between discipline and flexibility"
       ],
       "optionReasons": {
-        "balance-mcq-01": "本句指「A 與 B 之間的平衡」。",
-        "balance-mcq-02": "「取得平衡」與本句語境不同。",
-        "balance-mcq-03": "「保持平衡」與本句語境不同。",
-        "balance-mcq-04": "「身體平衡」與本句語境不同。",
-        "balance-mcq-06": "「失去平衡」與本句語境不同。",
-        "balance-mcq-07": "「平衡感」與本句語境不同。"
+        "balance-mcq-01": "本句的「balance between discipline and flexibility」指「A 與 B 之間的平衡」。",
+        "balance-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-01"
     },
@@ -641,11 +633,9 @@ export default {
       "masked": "She tries to maintain a ____.",
       "options": [
         "balance-mcq-01",
-        "balance-mcq-02",
-        "balance-mcq-03",
-        "balance-mcq-04",
-        "balance-mcq-06",
-        "balance-mcq-07"
+        "balance-mcq-18",
+        "balance-mcq-22",
+        "balance-mcq-15"
       ],
       "explanation": "本句的「balance between work and family life」指「A 與 B 之間的平衡」。",
       "sentenceIndex": 2,
@@ -654,12 +644,10 @@ export default {
         "balance between work and family life"
       ],
       "optionReasons": {
-        "balance-mcq-01": "本句指「A 與 B 之間的平衡」。",
-        "balance-mcq-02": "「取得平衡」與本句語境不同。",
-        "balance-mcq-03": "「保持平衡」與本句語境不同。",
-        "balance-mcq-04": "「身體平衡」與本句語境不同。",
-        "balance-mcq-06": "「失去平衡」與本句語境不同。",
-        "balance-mcq-07": "「平衡感」與本句語境不同。"
+        "balance-mcq-01": "本句的「balance between work and family life」指「A 與 B 之間的平衡」。",
+        "balance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-01"
     },
@@ -671,11 +659,9 @@ export default {
       "masked": "Teachers need to ____ between support and independence.",
       "options": [
         "balance-mcq-02",
-        "balance-mcq-01",
-        "balance-mcq-03",
-        "balance-mcq-04",
-        "balance-mcq-06",
-        "balance-mcq-07"
+        "balance-mcq-24",
+        "balance-mcq-18",
+        "balance-mcq-22"
       ],
       "explanation": "本句的「find a balance」指「取得平衡」。",
       "sentenceIndex": 3,
@@ -684,12 +670,10 @@ export default {
         "find a balance"
       ],
       "optionReasons": {
-        "balance-mcq-02": "本句指「取得平衡」。",
-        "balance-mcq-01": "「A 與 B 之間的平衡」與本句語境不同。",
-        "balance-mcq-03": "「保持平衡」與本句語境不同。",
-        "balance-mcq-04": "「身體平衡」與本句語境不同。",
-        "balance-mcq-06": "「失去平衡」與本句語境不同。",
-        "balance-mcq-07": "「平衡感」與本句語境不同。"
+        "balance-mcq-02": "本句的「find a balance」指「取得平衡」。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-02"
     },
@@ -701,11 +685,9 @@ export default {
       "masked": "It's difficult to ____.",
       "options": [
         "balance-mcq-02",
-        "balance-mcq-01",
-        "balance-mcq-03",
-        "balance-mcq-04",
-        "balance-mcq-06",
-        "balance-mcq-07"
+        "balance-mcq-16",
+        "balance-mcq-15",
+        "balance-mcq-24"
       ],
       "explanation": "本句的「strike the right balance」指「取得平衡」。",
       "sentenceIndex": 4,
@@ -714,12 +696,10 @@ export default {
         "strike the right balance"
       ],
       "optionReasons": {
-        "balance-mcq-02": "本句指「取得平衡」。",
-        "balance-mcq-01": "「A 與 B 之間的平衡」與本句語境不同。",
-        "balance-mcq-03": "「保持平衡」與本句語境不同。",
-        "balance-mcq-04": "「身體平衡」與本句語境不同。",
-        "balance-mcq-06": "「失去平衡」與本句語境不同。",
-        "balance-mcq-07": "「平衡感」與本句語境不同。"
+        "balance-mcq-02": "本句的「strike the right balance」指「取得平衡」。",
+        "balance-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-02"
     },
@@ -731,11 +711,9 @@ export default {
       "masked": "We need to ____ between speed and quality.",
       "options": [
         "balance-mcq-03",
-        "balance-mcq-02",
-        "balance-mcq-04",
-        "balance-mcq-01",
-        "balance-mcq-06",
-        "balance-mcq-07"
+        "balance-mcq-19",
+        "balance-mcq-15",
+        "balance-mcq-22"
       ],
       "explanation": "本句的「maintain a balance」指「保持平衡」。",
       "sentenceIndex": 5,
@@ -744,12 +722,10 @@ export default {
         "maintain a balance"
       ],
       "optionReasons": {
-        "balance-mcq-03": "本句指「保持平衡」。",
-        "balance-mcq-02": "「取得平衡」與本句語境不同。",
-        "balance-mcq-04": "「身體平衡」與本句語境不同。",
-        "balance-mcq-01": "「A 與 B 之間的平衡」與本句語境不同。",
-        "balance-mcq-06": "「失去平衡」與本句語境不同。",
-        "balance-mcq-07": "「平衡感」與本句語境不同。"
+        "balance-mcq-03": "本句的「maintain a balance」指「保持平衡」。",
+        "balance-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-03"
     },
@@ -761,11 +737,9 @@ export default {
       "masked": "The policy tries to ____ between freedom and safety.",
       "options": [
         "balance-mcq-03",
-        "balance-mcq-02",
-        "balance-mcq-04",
-        "balance-mcq-01",
-        "balance-mcq-06",
-        "balance-mcq-07"
+        "balance-mcq-16",
+        "balance-mcq-15",
+        "balance-mcq-24"
       ],
       "explanation": "本句的「keep a balance」指「保持平衡」。",
       "sentenceIndex": 6,
@@ -774,12 +748,10 @@ export default {
         "keep a balance"
       ],
       "optionReasons": {
-        "balance-mcq-03": "本句指「保持平衡」。",
-        "balance-mcq-02": "「取得平衡」與本句語境不同。",
-        "balance-mcq-04": "「身體平衡」與本句語境不同。",
-        "balance-mcq-01": "「A 與 B 之間的平衡」與本句語境不同。",
-        "balance-mcq-06": "「失去平衡」與本句語境不同。",
-        "balance-mcq-07": "「平衡感」與本句語境不同。"
+        "balance-mcq-03": "本句的「keep a balance」指「保持平衡」。",
+        "balance-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-03"
     },
@@ -791,11 +763,9 @@ export default {
       "masked": "She lost her ____ and fell.",
       "options": [
         "balance-mcq-04",
-        "balance-mcq-03",
-        "balance-mcq-02",
-        "balance-mcq-06",
-        "balance-mcq-01",
-        "balance-mcq-07"
+        "balance-mcq-18",
+        "balance-mcq-22",
+        "balance-mcq-24"
       ],
       "explanation": "本句的「balance」指「身體平衡」。",
       "sentenceIndex": 7,
@@ -804,12 +774,10 @@ export default {
         "balance"
       ],
       "optionReasons": {
-        "balance-mcq-04": "本句指「身體平衡」。",
-        "balance-mcq-03": "「保持平衡」與本句語境不同。",
-        "balance-mcq-02": "「取得平衡」與本句語境不同。",
-        "balance-mcq-06": "「失去平衡」與本句語境不同。",
-        "balance-mcq-01": "「A 與 B 之間的平衡」與本句語境不同。",
-        "balance-mcq-07": "「平衡感」與本句語境不同。"
+        "balance-mcq-04": "本句的「balance」指「身體平衡」。",
+        "balance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-04"
     },
@@ -821,11 +789,9 @@ export default {
       "masked": "Standing on one leg tests your ____.",
       "options": [
         "balance-mcq-04",
-        "balance-mcq-03",
-        "balance-mcq-02",
-        "balance-mcq-06",
-        "balance-mcq-01",
-        "balance-mcq-07"
+        "balance-mcq-15",
+        "balance-mcq-18",
+        "balance-mcq-24"
       ],
       "explanation": "本句的「balance」指「身體平衡」。",
       "sentenceIndex": 8,
@@ -834,12 +800,10 @@ export default {
         "balance"
       ],
       "optionReasons": {
-        "balance-mcq-04": "本句指「身體平衡」。",
-        "balance-mcq-03": "「保持平衡」與本句語境不同。",
-        "balance-mcq-02": "「取得平衡」與本句語境不同。",
-        "balance-mcq-06": "「失去平衡」與本句語境不同。",
-        "balance-mcq-01": "「A 與 B 之間的平衡」與本句語境不同。",
-        "balance-mcq-07": "「平衡感」與本句語境不同。"
+        "balance-mcq-04": "本句的「balance」指「身體平衡」。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-04"
     },
@@ -851,11 +815,9 @@ export default {
       "masked": "He struggled to ____ on the wet floor.",
       "options": [
         "balance-mcq-06",
-        "balance-mcq-05",
-        "balance-mcq-07",
-        "balance-mcq-04",
-        "balance-mcq-08",
-        "balance-mcq-09"
+        "balance-mcq-24",
+        "balance-mcq-18",
+        "balance-mcq-15"
       ],
       "explanation": "本句的「keep his balance」指「失去平衡」。",
       "sentenceIndex": 9,
@@ -864,12 +826,10 @@ export default {
         "keep his balance"
       ],
       "optionReasons": {
-        "balance-mcq-06": "本句指「失去平衡」。",
-        "balance-mcq-05": "「保持平衡」與本句語境不同。",
-        "balance-mcq-07": "「平衡感」與本句語境不同。",
-        "balance-mcq-04": "「身體平衡」與本句語境不同。",
-        "balance-mcq-08": "「使某物平衡」與本句語境不同。",
-        "balance-mcq-09": "「在 X 上保持平衡」與本句語境不同。"
+        "balance-mcq-06": "本句的「keep his balance」指「失去平衡」。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-06"
     },
@@ -881,11 +841,9 @@ export default {
       "masked": "I ____ on the stairs.",
       "options": [
         "balance-mcq-06",
-        "balance-mcq-05",
-        "balance-mcq-07",
-        "balance-mcq-04",
-        "balance-mcq-08",
-        "balance-mcq-09"
+        "balance-mcq-16",
+        "balance-mcq-15",
+        "balance-mcq-22"
       ],
       "explanation": "本句的「lost my balance」指「失去平衡」。",
       "sentenceIndex": 10,
@@ -894,12 +852,10 @@ export default {
         "lost my balance"
       ],
       "optionReasons": {
-        "balance-mcq-06": "本句指「失去平衡」。",
-        "balance-mcq-05": "「保持平衡」與本句語境不同。",
-        "balance-mcq-07": "「平衡感」與本句語境不同。",
-        "balance-mcq-04": "「身體平衡」與本句語境不同。",
-        "balance-mcq-08": "「使某物平衡」與本句語境不同。",
-        "balance-mcq-09": "「在 X 上保持平衡」與本句語境不同。"
+        "balance-mcq-06": "本句的「lost my balance」指「失去平衡」。",
+        "balance-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-06"
     },
@@ -911,11 +867,9 @@ export default {
       "masked": "Dancers need a strong ____.",
       "options": [
         "balance-mcq-07",
-        "balance-mcq-06",
-        "balance-mcq-08",
-        "balance-mcq-05",
-        "balance-mcq-09",
-        "balance-mcq-04"
+        "balance-mcq-19",
+        "balance-mcq-22",
+        "balance-mcq-24"
       ],
       "explanation": "本句的「sense of balance」指「平衡感」。",
       "sentenceIndex": 11,
@@ -924,12 +878,10 @@ export default {
         "sense of balance"
       ],
       "optionReasons": {
-        "balance-mcq-07": "本句指「平衡感」。",
-        "balance-mcq-06": "「失去平衡」與本句語境不同。",
-        "balance-mcq-08": "「使某物平衡」與本句語境不同。",
-        "balance-mcq-05": "「保持平衡」與本句語境不同。",
-        "balance-mcq-09": "「在 X 上保持平衡」與本句語境不同。",
-        "balance-mcq-04": "「身體平衡」與本句語境不同。"
+        "balance-mcq-07": "本句的「sense of balance」指「平衡感」。",
+        "balance-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-07"
     },
@@ -941,11 +893,9 @@ export default {
       "masked": "His ____ improved with practice.",
       "options": [
         "balance-mcq-07",
-        "balance-mcq-06",
-        "balance-mcq-08",
-        "balance-mcq-05",
-        "balance-mcq-09",
-        "balance-mcq-04"
+        "balance-mcq-17",
+        "balance-mcq-15",
+        "balance-mcq-24"
       ],
       "explanation": "本句的「sense of balance」指「平衡感」。",
       "sentenceIndex": 12,
@@ -954,12 +904,10 @@ export default {
         "sense of balance"
       ],
       "optionReasons": {
-        "balance-mcq-07": "本句指「平衡感」。",
-        "balance-mcq-06": "「失去平衡」與本句語境不同。",
-        "balance-mcq-08": "「使某物平衡」與本句語境不同。",
-        "balance-mcq-05": "「保持平衡」與本句語境不同。",
-        "balance-mcq-09": "「在 X 上保持平衡」與本句語境不同。",
-        "balance-mcq-04": "「身體平衡」與本句語境不同。"
+        "balance-mcq-07": "本句的「sense of balance」指「平衡感」。",
+        "balance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-07"
     },
@@ -971,11 +919,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "balance-mcq-08",
-        "balance-mcq-07",
-        "balance-mcq-09",
-        "balance-mcq-06",
-        "balance-mcq-10",
-        "balance-mcq-05"
+        "balance-mcq-18",
+        "balance-mcq-22",
+        "balance-mcq-24"
       ],
       "explanation": "本句的「balanced the book on her head」指「使某物平衡」。",
       "sentenceIndex": 13,
@@ -984,12 +930,10 @@ export default {
         "balanced the book on her head"
       ],
       "optionReasons": {
-        "balance-mcq-08": "本句指「使某物平衡」。",
-        "balance-mcq-07": "「平衡感」與本句語境不同。",
-        "balance-mcq-09": "「在 X 上保持平衡」與本句語境不同。",
-        "balance-mcq-06": "「失去平衡」與本句語境不同。",
-        "balance-mcq-10": "「權衡優先事項」與本句語境不同。",
-        "balance-mcq-05": "「保持平衡」與本句語境不同。"
+        "balance-mcq-08": "本句的「balanced the book on her head」指「使某物平衡」。",
+        "balance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-08"
     },
@@ -1001,11 +945,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "balance-mcq-08",
-        "balance-mcq-07",
-        "balance-mcq-09",
-        "balance-mcq-06",
-        "balance-mcq-10",
-        "balance-mcq-05"
+        "balance-mcq-24",
+        "balance-mcq-18",
+        "balance-mcq-15"
       ],
       "explanation": "本句的「balanced the tray carefully」指「使某物平衡」。",
       "sentenceIndex": 14,
@@ -1014,12 +956,10 @@ export default {
         "balanced the tray carefully"
       ],
       "optionReasons": {
-        "balance-mcq-08": "本句指「使某物平衡」。",
-        "balance-mcq-07": "「平衡感」與本句語境不同。",
-        "balance-mcq-09": "「在 X 上保持平衡」與本句語境不同。",
-        "balance-mcq-06": "「失去平衡」與本句語境不同。",
-        "balance-mcq-10": "「權衡優先事項」與本句語境不同。",
-        "balance-mcq-05": "「保持平衡」與本句語境不同。"
+        "balance-mcq-08": "本句的「balanced the tray carefully」指「使某物平衡」。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-08"
     },
@@ -1031,11 +971,9 @@ export default {
       "masked": "The child ____.",
       "options": [
         "balance-mcq-09",
-        "balance-mcq-08",
-        "balance-mcq-10",
-        "balance-mcq-07",
-        "balance-mcq-11",
-        "balance-mcq-06"
+        "balance-mcq-15",
+        "balance-mcq-19",
+        "balance-mcq-22"
       ],
       "explanation": "本句的「balanced on one foot」指「在 X 上保持平衡」。",
       "sentenceIndex": 15,
@@ -1044,12 +982,10 @@ export default {
         "balanced on one foot"
       ],
       "optionReasons": {
-        "balance-mcq-09": "本句指「在 X 上保持平衡」。",
-        "balance-mcq-08": "「使某物平衡」與本句語境不同。",
-        "balance-mcq-10": "「權衡優先事項」與本句語境不同。",
-        "balance-mcq-07": "「平衡感」與本句語境不同。",
-        "balance-mcq-11": "「兼顧 A 和 B」與本句語境不同。",
-        "balance-mcq-06": "「失去平衡」與本句語境不同。"
+        "balance-mcq-09": "本句的「balanced on one foot」指「在 X 上保持平衡」。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-09"
     },
@@ -1061,11 +997,9 @@ export default {
       "masked": "The bird ____.",
       "options": [
         "balance-mcq-09",
-        "balance-mcq-08",
-        "balance-mcq-10",
-        "balance-mcq-07",
-        "balance-mcq-11",
-        "balance-mcq-06"
+        "balance-mcq-22",
+        "balance-mcq-15",
+        "balance-mcq-19"
       ],
       "explanation": "本句的「balanced on the branch」指「在 X 上保持平衡」。",
       "sentenceIndex": 16,
@@ -1074,12 +1008,10 @@ export default {
         "balanced on the branch"
       ],
       "optionReasons": {
-        "balance-mcq-09": "本句指「在 X 上保持平衡」。",
-        "balance-mcq-08": "「使某物平衡」與本句語境不同。",
-        "balance-mcq-10": "「權衡優先事項」與本句語境不同。",
-        "balance-mcq-07": "「平衡感」與本句語境不同。",
-        "balance-mcq-11": "「兼顧 A 和 B」與本句語境不同。",
-        "balance-mcq-06": "「失去平衡」與本句語境不同。"
+        "balance-mcq-09": "本句的「balanced on the branch」指「在 X 上保持平衡」。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-09"
     },
@@ -1091,11 +1023,9 @@ export default {
       "masked": "Managers must ____.",
       "options": [
         "balance-mcq-10",
-        "balance-mcq-09",
-        "balance-mcq-11",
-        "balance-mcq-08",
-        "balance-mcq-12",
-        "balance-mcq-07"
+        "balance-mcq-24",
+        "balance-mcq-17",
+        "balance-mcq-15"
       ],
       "explanation": "本句的「balance different priorities」指「權衡優先事項」。",
       "sentenceIndex": 17,
@@ -1104,12 +1034,10 @@ export default {
         "balance different priorities"
       ],
       "optionReasons": {
-        "balance-mcq-10": "本句指「權衡優先事項」。",
-        "balance-mcq-09": "「在 X 上保持平衡」與本句語境不同。",
-        "balance-mcq-11": "「兼顧 A 和 B」與本句語境不同。",
-        "balance-mcq-08": "「使某物平衡」與本句語境不同。",
-        "balance-mcq-12": "「工作與生活平衡」與本句語境不同。",
-        "balance-mcq-07": "「平衡感」與本句語境不同。"
+        "balance-mcq-10": "本句的「balance different priorities」指「權衡優先事項」。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-10"
     },
@@ -1121,11 +1049,9 @@ export default {
       "masked": "Parents often have to ____.",
       "options": [
         "balance-mcq-10",
-        "balance-mcq-09",
-        "balance-mcq-11",
-        "balance-mcq-08",
-        "balance-mcq-12",
-        "balance-mcq-07"
+        "balance-mcq-18",
+        "balance-mcq-22",
+        "balance-mcq-15"
       ],
       "explanation": "本句的「balance work and childcare」指「權衡優先事項」。",
       "sentenceIndex": 18,
@@ -1134,12 +1060,10 @@ export default {
         "balance work and childcare"
       ],
       "optionReasons": {
-        "balance-mcq-10": "本句指「權衡優先事項」。",
-        "balance-mcq-09": "「在 X 上保持平衡」與本句語境不同。",
-        "balance-mcq-11": "「兼顧 A 和 B」與本句語境不同。",
-        "balance-mcq-08": "「使某物平衡」與本句語境不同。",
-        "balance-mcq-12": "「工作與生活平衡」與本句語境不同。",
-        "balance-mcq-07": "「平衡感」與本句語境不同。"
+        "balance-mcq-10": "本句的「balance work and childcare」指「權衡優先事項」。",
+        "balance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-10"
     },
@@ -1151,11 +1075,9 @@ export default {
       "masked": "Good ____ is important.",
       "options": [
         "balance-mcq-12",
-        "balance-mcq-11",
-        "balance-mcq-13",
-        "balance-mcq-10",
-        "balance-mcq-14",
-        "balance-mcq-09"
+        "balance-mcq-24",
+        "balance-mcq-16",
+        "balance-mcq-22"
       ],
       "explanation": "本句的「work-life balance」指「工作與生活平衡」。",
       "sentenceIndex": 21,
@@ -1164,12 +1086,10 @@ export default {
         "work-life balance"
       ],
       "optionReasons": {
-        "balance-mcq-12": "本句指「工作與生活平衡」。",
-        "balance-mcq-11": "「兼顧 A 和 B」與本句語境不同。",
-        "balance-mcq-13": "「均衡飲食」與本句語境不同。",
-        "balance-mcq-10": "「權衡優先事項」與本句語境不同。",
-        "balance-mcq-14": "「平衡客觀的觀點」與本句語境不同。",
-        "balance-mcq-09": "「在 X 上保持平衡」與本句語境不同。"
+        "balance-mcq-12": "本句的「work-life balance」指「工作與生活平衡」。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-12"
     },
@@ -1181,11 +1101,9 @@ export default {
       "masked": "She changed jobs to improve her ____.",
       "options": [
         "balance-mcq-12",
-        "balance-mcq-11",
-        "balance-mcq-13",
-        "balance-mcq-10",
-        "balance-mcq-14",
-        "balance-mcq-09"
+        "balance-mcq-16",
+        "balance-mcq-15",
+        "balance-mcq-24"
       ],
       "explanation": "本句的「work-life balance」指「工作與生活平衡」。",
       "sentenceIndex": 22,
@@ -1194,12 +1112,10 @@ export default {
         "work-life balance"
       ],
       "optionReasons": {
-        "balance-mcq-12": "本句指「工作與生活平衡」。",
-        "balance-mcq-11": "「兼顧 A 和 B」與本句語境不同。",
-        "balance-mcq-13": "「均衡飲食」與本句語境不同。",
-        "balance-mcq-10": "「權衡優先事項」與本句語境不同。",
-        "balance-mcq-14": "「平衡客觀的觀點」與本句語境不同。",
-        "balance-mcq-09": "「在 X 上保持平衡」與本句語境不同。"
+        "balance-mcq-12": "本句的「work-life balance」指「工作與生活平衡」。",
+        "balance-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-12"
     },
@@ -1211,11 +1127,9 @@ export default {
       "masked": "Children need a ____.",
       "options": [
         "balance-mcq-13",
-        "balance-mcq-12",
-        "balance-mcq-14",
-        "balance-mcq-11",
-        "balance-mcq-15",
-        "balance-mcq-10"
+        "balance-mcq-18",
+        "balance-mcq-22",
+        "balance-mcq-24"
       ],
       "explanation": "本句的「balanced diet」指「均衡飲食」。",
       "sentenceIndex": 23,
@@ -1224,12 +1138,10 @@ export default {
         "balanced diet"
       ],
       "optionReasons": {
-        "balance-mcq-13": "本句指「均衡飲食」。",
-        "balance-mcq-12": "「工作與生活平衡」與本句語境不同。",
-        "balance-mcq-14": "「平衡客觀的觀點」與本句語境不同。",
-        "balance-mcq-11": "「兼顧 A 和 B」與本句語境不同。",
-        "balance-mcq-15": "「性格／情緒穩定的人」與本句語境不同。",
-        "balance-mcq-10": "「權衡優先事項」與本句語境不同。"
+        "balance-mcq-13": "本句的「balanced diet」指「均衡飲食」。",
+        "balance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-13"
     },
@@ -1241,11 +1153,9 @@ export default {
       "masked": "A ____ includes a variety of foods.",
       "options": [
         "balance-mcq-13",
-        "balance-mcq-12",
-        "balance-mcq-14",
-        "balance-mcq-11",
-        "balance-mcq-15",
-        "balance-mcq-10"
+        "balance-mcq-24",
+        "balance-mcq-17",
+        "balance-mcq-15"
       ],
       "explanation": "本句的「balanced diet」指「均衡飲食」。",
       "sentenceIndex": 24,
@@ -1254,12 +1164,10 @@ export default {
         "balanced diet"
       ],
       "optionReasons": {
-        "balance-mcq-13": "本句指「均衡飲食」。",
-        "balance-mcq-12": "「工作與生活平衡」與本句語境不同。",
-        "balance-mcq-14": "「平衡客觀的觀點」與本句語境不同。",
-        "balance-mcq-11": "「兼顧 A 和 B」與本句語境不同。",
-        "balance-mcq-15": "「性格／情緒穩定的人」與本句語境不同。",
-        "balance-mcq-10": "「權衡優先事項」與本句語境不同。"
+        "balance-mcq-13": "本句的「balanced diet」指「均衡飲食」。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-13"
     },
@@ -1271,11 +1179,9 @@ export default {
       "masked": "The article gives a ____ of the issue.",
       "options": [
         "balance-mcq-14",
-        "balance-mcq-13",
+        "balance-mcq-17",
         "balance-mcq-15",
-        "balance-mcq-12",
-        "balance-mcq-16",
-        "balance-mcq-11"
+        "balance-mcq-22"
       ],
       "explanation": "本句的「balanced view」指「平衡客觀的觀點」。",
       "sentenceIndex": 25,
@@ -1284,12 +1190,10 @@ export default {
         "balanced view"
       ],
       "optionReasons": {
-        "balance-mcq-14": "本句指「平衡客觀的觀點」。",
-        "balance-mcq-13": "「均衡飲食」與本句語境不同。",
-        "balance-mcq-15": "「性格／情緒穩定的人」與本句語境不同。",
-        "balance-mcq-12": "「工作與生活平衡」與本句語境不同。",
-        "balance-mcq-16": "「餘額；結餘」與本句語境不同。",
-        "balance-mcq-11": "「兼顧 A 和 B」與本句語境不同。"
+        "balance-mcq-14": "本句的「balanced view」指「平衡客觀的觀點」。",
+        "balance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-14"
     },
@@ -1301,11 +1205,9 @@ export default {
       "masked": "A good essay should present a ____.",
       "options": [
         "balance-mcq-14",
-        "balance-mcq-13",
-        "balance-mcq-15",
-        "balance-mcq-12",
+        "balance-mcq-22",
         "balance-mcq-16",
-        "balance-mcq-11"
+        "balance-mcq-15"
       ],
       "explanation": "本句的「balanced argument」指「平衡客觀的觀點」。",
       "sentenceIndex": 26,
@@ -1314,12 +1216,10 @@ export default {
         "balanced argument"
       ],
       "optionReasons": {
-        "balance-mcq-14": "本句指「平衡客觀的觀點」。",
-        "balance-mcq-13": "「均衡飲食」與本句語境不同。",
-        "balance-mcq-15": "「性格／情緒穩定的人」與本句語境不同。",
-        "balance-mcq-12": "「工作與生活平衡」與本句語境不同。",
-        "balance-mcq-16": "「餘額；結餘」與本句語境不同。",
-        "balance-mcq-11": "「兼顧 A 和 B」與本句語境不同。"
+        "balance-mcq-14": "本句的「balanced argument」指「平衡客觀的觀點」。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-14"
     },
@@ -1331,11 +1231,9 @@ export default {
       "masked": "She is calm and ____.",
       "options": [
         "balance-mcq-15",
-        "balance-mcq-14",
-        "balance-mcq-16",
-        "balance-mcq-13",
-        "balance-mcq-17",
-        "balance-mcq-12"
+        "balance-mcq-01",
+        "balance-mcq-22",
+        "balance-mcq-16"
       ],
       "explanation": "本句的「well-balanced」指「性格／情緒穩定的人」。",
       "sentenceIndex": 27,
@@ -1344,12 +1242,10 @@ export default {
         "well-balanced"
       ],
       "optionReasons": {
-        "balance-mcq-15": "本句指「性格／情緒穩定的人」。",
-        "balance-mcq-14": "「平衡客觀的觀點」與本句語境不同。",
-        "balance-mcq-16": "「餘額；結餘」與本句語境不同。",
-        "balance-mcq-13": "「均衡飲食」與本句語境不同。",
-        "balance-mcq-17": "「戶口餘額」與本句語境不同。",
-        "balance-mcq-12": "「工作與生活平衡」與本句語境不同。"
+        "balance-mcq-15": "本句的「well-balanced」指「性格／情緒穩定的人」。",
+        "balance-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-15"
     },
@@ -1361,11 +1257,9 @@ export default {
       "masked": "He seems emotionally ____.",
       "options": [
         "balance-mcq-15",
-        "balance-mcq-14",
-        "balance-mcq-16",
-        "balance-mcq-13",
-        "balance-mcq-17",
-        "balance-mcq-12"
+        "balance-mcq-25",
+        "balance-mcq-24",
+        "balance-mcq-18"
       ],
       "explanation": "本句的「balanced」指「性格／情緒穩定的人」。",
       "sentenceIndex": 28,
@@ -1374,12 +1268,10 @@ export default {
         "balanced"
       ],
       "optionReasons": {
-        "balance-mcq-15": "本句指「性格／情緒穩定的人」。",
-        "balance-mcq-14": "「平衡客觀的觀點」與本句語境不同。",
-        "balance-mcq-16": "「餘額；結餘」與本句語境不同。",
-        "balance-mcq-13": "「均衡飲食」與本句語境不同。",
-        "balance-mcq-17": "「戶口餘額」與本句語境不同。",
-        "balance-mcq-12": "「工作與生活平衡」與本句語境不同。"
+        "balance-mcq-15": "本句的「balanced」指「性格／情緒穩定的人」。",
+        "balance-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-15"
     },
@@ -1391,11 +1283,9 @@ export default {
       "masked": "What's the ____ in your account?",
       "options": [
         "balance-mcq-16",
+        "balance-mcq-26",
         "balance-mcq-15",
-        "balance-mcq-17",
-        "balance-mcq-14",
-        "balance-mcq-18",
-        "balance-mcq-13"
+        "balance-mcq-22"
       ],
       "explanation": "本句的「balance」指「餘額；結餘」。",
       "sentenceIndex": 29,
@@ -1404,12 +1294,10 @@ export default {
         "balance"
       ],
       "optionReasons": {
-        "balance-mcq-16": "本句指「餘額；結餘」。",
-        "balance-mcq-15": "「性格／情緒穩定的人」與本句語境不同。",
-        "balance-mcq-17": "「戶口餘額」與本句語境不同。",
-        "balance-mcq-14": "「平衡客觀的觀點」與本句語境不同。",
-        "balance-mcq-18": "「餘款」與本句語境不同。",
-        "balance-mcq-13": "「均衡飲食」與本句語境不同。"
+        "balance-mcq-16": "本句的「balance」指「餘額；結餘」。",
+        "balance-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-16"
     },
@@ -1421,11 +1309,9 @@ export default {
       "masked": "The account has a low ____.",
       "options": [
         "balance-mcq-16",
-        "balance-mcq-15",
-        "balance-mcq-17",
-        "balance-mcq-14",
-        "balance-mcq-18",
-        "balance-mcq-13"
+        "balance-mcq-26",
+        "balance-mcq-24",
+        "balance-mcq-15"
       ],
       "explanation": "本句的「balance」指「餘額；結餘」。",
       "sentenceIndex": 30,
@@ -1434,12 +1320,10 @@ export default {
         "balance"
       ],
       "optionReasons": {
-        "balance-mcq-16": "本句指「餘額；結餘」。",
-        "balance-mcq-15": "「性格／情緒穩定的人」與本句語境不同。",
-        "balance-mcq-17": "「戶口餘額」與本句語境不同。",
-        "balance-mcq-14": "「平衡客觀的觀點」與本句語境不同。",
-        "balance-mcq-18": "「餘款」與本句語境不同。",
-        "balance-mcq-13": "「均衡飲食」與本句語境不同。"
+        "balance-mcq-16": "本句的「balance」指「餘額；結餘」。",
+        "balance-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-16"
     },
@@ -1451,11 +1335,9 @@ export default {
       "masked": "You can check your ____ online.",
       "options": [
         "balance-mcq-17",
-        "balance-mcq-16",
-        "balance-mcq-18",
-        "balance-mcq-15",
-        "balance-mcq-19",
-        "balance-mcq-14"
+        "balance-mcq-20",
+        "balance-mcq-13",
+        "balance-mcq-24"
       ],
       "explanation": "本句的「account balance」指「戶口餘額」。",
       "sentenceIndex": 31,
@@ -1464,12 +1346,10 @@ export default {
         "account balance"
       ],
       "optionReasons": {
-        "balance-mcq-17": "本句指「戶口餘額」。",
-        "balance-mcq-16": "「餘額；結餘」與本句語境不同。",
-        "balance-mcq-18": "「餘款」與本句語境不同。",
-        "balance-mcq-15": "「性格／情緒穩定的人」與本句語境不同。",
-        "balance-mcq-19": "「應付餘額」與本句語境不同。",
-        "balance-mcq-14": "「平衡客觀的觀點」與本句語境不同。"
+        "balance-mcq-17": "本句的「account balance」指「戶口餘額」。",
+        "balance-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-17"
     },
@@ -1481,11 +1361,9 @@ export default {
       "masked": "My ____ is lower than I expected.",
       "options": [
         "balance-mcq-17",
-        "balance-mcq-16",
-        "balance-mcq-18",
-        "balance-mcq-15",
-        "balance-mcq-19",
-        "balance-mcq-14"
+        "balance-mcq-08",
+        "balance-mcq-22",
+        "balance-mcq-15"
       ],
       "explanation": "本句的「account balance」指「戶口餘額」。",
       "sentenceIndex": 32,
@@ -1494,12 +1372,10 @@ export default {
         "account balance"
       ],
       "optionReasons": {
-        "balance-mcq-17": "本句指「戶口餘額」。",
-        "balance-mcq-16": "「餘額；結餘」與本句語境不同。",
-        "balance-mcq-18": "「餘款」與本句語境不同。",
-        "balance-mcq-15": "「性格／情緒穩定的人」與本句語境不同。",
-        "balance-mcq-19": "「應付餘額」與本句語境不同。",
-        "balance-mcq-14": "「平衡客觀的觀點」與本句語境不同。"
+        "balance-mcq-17": "本句的「account balance」指「戶口餘額」。",
+        "balance-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-17"
     },
@@ -1511,11 +1387,9 @@ export default {
       "masked": "Please pay the ____ by Friday.",
       "options": [
         "balance-mcq-18",
-        "balance-mcq-17",
-        "balance-mcq-19",
-        "balance-mcq-16",
-        "balance-mcq-20",
-        "balance-mcq-15"
+        "balance-mcq-07",
+        "balance-mcq-15",
+        "balance-mcq-22"
       ],
       "explanation": "本句的「remaining balance」指「餘款」。",
       "sentenceIndex": 33,
@@ -1524,12 +1398,10 @@ export default {
         "remaining balance"
       ],
       "optionReasons": {
-        "balance-mcq-18": "本句指「餘款」。",
-        "balance-mcq-17": "「戶口餘額」與本句語境不同。",
-        "balance-mcq-19": "「應付餘額」與本句語境不同。",
-        "balance-mcq-16": "「餘額；結餘」與本句語境不同。",
-        "balance-mcq-20": "「使收支平衡」與本句語境不同。",
-        "balance-mcq-15": "「性格／情緒穩定的人」與本句語境不同。"
+        "balance-mcq-18": "本句的「remaining balance」指「餘款」。",
+        "balance-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-18"
     },
@@ -1541,10 +1413,8 @@ export default {
       "masked": "The ____ must be paid in full.",
       "options": [
         "balance-mcq-18",
-        "balance-mcq-17",
-        "balance-mcq-19",
-        "balance-mcq-16",
-        "balance-mcq-20",
+        "balance-mcq-26",
+        "balance-mcq-24",
         "balance-mcq-15"
       ],
       "explanation": "本句的「balance」指「餘款」。",
@@ -1554,12 +1424,10 @@ export default {
         "balance"
       ],
       "optionReasons": {
-        "balance-mcq-18": "本句指「餘款」。",
-        "balance-mcq-17": "「戶口餘額」與本句語境不同。",
-        "balance-mcq-19": "「應付餘額」與本句語境不同。",
-        "balance-mcq-16": "「餘額；結餘」與本句語境不同。",
-        "balance-mcq-20": "「使收支平衡」與本句語境不同。",
-        "balance-mcq-15": "「性格／情緒穩定的人」與本句語境不同。"
+        "balance-mcq-18": "本句的「balance」指「餘款」。",
+        "balance-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-18"
     },
@@ -1571,11 +1439,9 @@ export default {
       "masked": "The ____ is $200.",
       "options": [
         "balance-mcq-19",
-        "balance-mcq-18",
-        "balance-mcq-20",
-        "balance-mcq-17",
-        "balance-mcq-21",
-        "balance-mcq-16"
+        "balance-mcq-23",
+        "balance-mcq-13",
+        "balance-mcq-22"
       ],
       "explanation": "本句的「balance due」指「應付餘額」。",
       "sentenceIndex": 35,
@@ -1584,12 +1450,10 @@ export default {
         "balance due"
       ],
       "optionReasons": {
-        "balance-mcq-19": "本句指「應付餘額」。",
-        "balance-mcq-18": "「餘款」與本句語境不同。",
-        "balance-mcq-20": "「使收支平衡」與本句語境不同。",
-        "balance-mcq-17": "「戶口餘額」與本句語境不同。",
-        "balance-mcq-21": "「天平」與本句語境不同。",
-        "balance-mcq-16": "「餘額；結餘」與本句語境不同。"
+        "balance-mcq-19": "本句的「balance due」指「應付餘額」。",
+        "balance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-19"
     },
@@ -1601,11 +1465,9 @@ export default {
       "masked": "Please settle the ____ within 30 days.",
       "options": [
         "balance-mcq-19",
-        "balance-mcq-18",
-        "balance-mcq-20",
-        "balance-mcq-17",
-        "balance-mcq-21",
-        "balance-mcq-16"
+        "balance-mcq-27",
+        "balance-mcq-15",
+        "balance-mcq-24"
       ],
       "explanation": "本句的「balance due」指「應付餘額」。",
       "sentenceIndex": 36,
@@ -1614,12 +1476,10 @@ export default {
         "balance due"
       ],
       "optionReasons": {
-        "balance-mcq-19": "本句指「應付餘額」。",
-        "balance-mcq-18": "「餘款」與本句語境不同。",
-        "balance-mcq-20": "「使收支平衡」與本句語境不同。",
-        "balance-mcq-17": "「戶口餘額」與本句語境不同。",
-        "balance-mcq-21": "「天平」與本句語境不同。",
-        "balance-mcq-16": "「餘額；結餘」與本句語境不同。"
+        "balance-mcq-19": "本句的「balance due」指「應付餘額」。",
+        "balance-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-19"
     },
@@ -1631,11 +1491,9 @@ export default {
       "masked": "The company is trying to ____.",
       "options": [
         "balance-mcq-20",
-        "balance-mcq-19",
-        "balance-mcq-21",
-        "balance-mcq-18",
+        "balance-mcq-17",
         "balance-mcq-22",
-        "balance-mcq-17"
+        "balance-mcq-15"
       ],
       "explanation": "本句的「balance the books」指「使收支平衡」。",
       "sentenceIndex": 37,
@@ -1644,12 +1502,10 @@ export default {
         "balance the books"
       ],
       "optionReasons": {
-        "balance-mcq-20": "本句指「使收支平衡」。",
-        "balance-mcq-19": "「應付餘額」與本句語境不同。",
-        "balance-mcq-21": "「天平」與本句語境不同。",
-        "balance-mcq-18": "「餘款」與本句語境不同。",
-        "balance-mcq-22": "「綜合考慮」與本句語境不同。",
-        "balance-mcq-17": "「戶口餘額」與本句語境不同。"
+        "balance-mcq-20": "本句的「balance the books」指「使收支平衡」。",
+        "balance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-20"
     },
@@ -1661,11 +1517,9 @@ export default {
       "masked": "Higher revenue helped them ____.",
       "options": [
         "balance-mcq-20",
-        "balance-mcq-19",
-        "balance-mcq-21",
-        "balance-mcq-18",
+        "balance-mcq-15",
         "balance-mcq-22",
-        "balance-mcq-17"
+        "balance-mcq-24"
       ],
       "explanation": "本句的「balance the books」指「使收支平衡」。",
       "sentenceIndex": 38,
@@ -1674,12 +1528,10 @@ export default {
         "balance the books"
       ],
       "optionReasons": {
-        "balance-mcq-20": "本句指「使收支平衡」。",
-        "balance-mcq-19": "「應付餘額」與本句語境不同。",
-        "balance-mcq-21": "「天平」與本句語境不同。",
-        "balance-mcq-18": "「餘款」與本句語境不同。",
-        "balance-mcq-22": "「綜合考慮」與本句語境不同。",
-        "balance-mcq-17": "「戶口餘額」與本句語境不同。"
+        "balance-mcq-20": "本句的「balance the books」指「使收支平衡」。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-20"
     },
@@ -1691,10 +1543,8 @@ export default {
       "masked": "____, I think the plan is a good one.",
       "options": [
         "balance-mcq-22",
-        "balance-mcq-21",
-        "balance-mcq-23",
-        "balance-mcq-20",
-        "balance-mcq-24",
+        "balance-mcq-06",
+        "balance-mcq-10",
         "balance-mcq-19"
       ],
       "explanation": "本句的「On balance」指「綜合考慮」。",
@@ -1704,12 +1554,10 @@ export default {
         "On balance"
       ],
       "optionReasons": {
-        "balance-mcq-22": "本句指「綜合考慮」。",
-        "balance-mcq-21": "「天平」與本句語境不同。",
-        "balance-mcq-23": "「扭轉平衡」與本句語境不同。",
-        "balance-mcq-20": "「使收支平衡」與本句語境不同。",
-        "balance-mcq-24": "「懸而未決」與本句語境不同。",
-        "balance-mcq-19": "「應付餘額」與本句語境不同。"
+        "balance-mcq-22": "本句的「On balance」指「綜合考慮」。",
+        "balance-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-22"
     },
@@ -1721,11 +1569,9 @@ export default {
       "masked": "____, the advantages outweigh the disadvantages.",
       "options": [
         "balance-mcq-22",
-        "balance-mcq-21",
-        "balance-mcq-23",
-        "balance-mcq-20",
-        "balance-mcq-24",
-        "balance-mcq-19"
+        "balance-mcq-09",
+        "balance-mcq-18",
+        "balance-mcq-10"
       ],
       "explanation": "本句的「On balance」指「綜合考慮」。",
       "sentenceIndex": 44,
@@ -1734,12 +1580,10 @@ export default {
         "On balance"
       ],
       "optionReasons": {
-        "balance-mcq-22": "本句指「綜合考慮」。",
-        "balance-mcq-21": "「天平」與本句語境不同。",
-        "balance-mcq-23": "「扭轉平衡」與本句語境不同。",
-        "balance-mcq-20": "「使收支平衡」與本句語境不同。",
-        "balance-mcq-24": "「懸而未決」與本句語境不同。",
-        "balance-mcq-19": "「應付餘額」與本句語境不同。"
+        "balance-mcq-22": "本句的「On balance」指「綜合考慮」。",
+        "balance-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-22"
     },
@@ -1751,11 +1595,9 @@ export default {
       "masked": "One vote could ____.",
       "options": [
         "balance-mcq-23",
-        "balance-mcq-22",
+        "balance-mcq-19",
         "balance-mcq-24",
-        "balance-mcq-21",
-        "balance-mcq-25",
-        "balance-mcq-20"
+        "balance-mcq-22"
       ],
       "explanation": "本句的「tip the balance」指「扭轉平衡」。",
       "sentenceIndex": 45,
@@ -1764,12 +1606,10 @@ export default {
         "tip the balance"
       ],
       "optionReasons": {
-        "balance-mcq-23": "本句指「扭轉平衡」。",
-        "balance-mcq-22": "「綜合考慮」與本句語境不同。",
-        "balance-mcq-24": "「懸而未決」與本句語境不同。",
-        "balance-mcq-21": "「天平」與本句語境不同。",
-        "balance-mcq-25": "「恢復平衡」與本句語境不同。",
-        "balance-mcq-20": "「使收支平衡」與本句語境不同。"
+        "balance-mcq-23": "本句的「tip the balance」指「扭轉平衡」。",
+        "balance-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-23"
     },
@@ -1782,10 +1622,8 @@ export default {
       "options": [
         "balance-mcq-23",
         "balance-mcq-22",
-        "balance-mcq-24",
-        "balance-mcq-21",
-        "balance-mcq-25",
-        "balance-mcq-20"
+        "balance-mcq-18",
+        "balance-mcq-15"
       ],
       "explanation": "本句的「tipped the balance in her favour」指「扭轉平衡」。",
       "sentenceIndex": 46,
@@ -1794,12 +1632,10 @@ export default {
         "tipped the balance in her favour"
       ],
       "optionReasons": {
-        "balance-mcq-23": "本句指「扭轉平衡」。",
-        "balance-mcq-22": "「綜合考慮」與本句語境不同。",
-        "balance-mcq-24": "「懸而未決」與本句語境不同。",
-        "balance-mcq-21": "「天平」與本句語境不同。",
-        "balance-mcq-25": "「恢復平衡」與本句語境不同。",
-        "balance-mcq-20": "「使收支平衡」與本句語境不同。"
+        "balance-mcq-23": "本句的「tipped the balance in her favour」指「扭轉平衡」。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-23"
     },
@@ -1811,11 +1647,9 @@ export default {
       "masked": "The future of the project ____.",
       "options": [
         "balance-mcq-24",
-        "balance-mcq-23",
-        "balance-mcq-25",
-        "balance-mcq-22",
-        "balance-mcq-26",
-        "balance-mcq-21"
+        "balance-mcq-27",
+        "balance-mcq-16",
+        "balance-mcq-15"
       ],
       "explanation": "本句的「hangs in the balance」指「懸而未決」。",
       "sentenceIndex": 47,
@@ -1824,12 +1658,10 @@ export default {
         "hangs in the balance"
       ],
       "optionReasons": {
-        "balance-mcq-24": "本句指「懸而未決」。",
-        "balance-mcq-23": "「扭轉平衡」與本句語境不同。",
-        "balance-mcq-25": "「恢復平衡」與本句語境不同。",
-        "balance-mcq-22": "「綜合考慮」與本句語境不同。",
-        "balance-mcq-26": "「失衡」與本句語境不同。",
-        "balance-mcq-21": "「天平」與本句語境不同。"
+        "balance-mcq-24": "本句的「hangs in the balance」指「懸而未決」。",
+        "balance-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-24"
     },
@@ -1841,11 +1673,9 @@ export default {
       "masked": "His career ____.",
       "options": [
         "balance-mcq-24",
-        "balance-mcq-23",
-        "balance-mcq-25",
-        "balance-mcq-22",
-        "balance-mcq-26",
-        "balance-mcq-21"
+        "balance-mcq-13",
+        "balance-mcq-14",
+        "balance-mcq-17"
       ],
       "explanation": "本句的「hung in the balance」指「懸而未決」。",
       "sentenceIndex": 48,
@@ -1854,12 +1684,10 @@ export default {
         "hung in the balance"
       ],
       "optionReasons": {
-        "balance-mcq-24": "本句指「懸而未決」。",
-        "balance-mcq-23": "「扭轉平衡」與本句語境不同。",
-        "balance-mcq-25": "「恢復平衡」與本句語境不同。",
-        "balance-mcq-22": "「綜合考慮」與本句語境不同。",
-        "balance-mcq-26": "「失衡」與本句語境不同。",
-        "balance-mcq-21": "「天平」與本句語境不同。"
+        "balance-mcq-24": "本句的「hung in the balance」指「懸而未決」。",
+        "balance-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-24"
     },
@@ -1871,11 +1699,9 @@ export default {
       "masked": "The policy aims to ____.",
       "options": [
         "balance-mcq-25",
+        "balance-mcq-19",
         "balance-mcq-24",
-        "balance-mcq-26",
-        "balance-mcq-23",
-        "balance-mcq-27",
-        "balance-mcq-22"
+        "balance-mcq-15"
       ],
       "explanation": "本句的「restore the balance」指「恢復平衡」。",
       "sentenceIndex": 49,
@@ -1884,12 +1710,10 @@ export default {
         "restore the balance"
       ],
       "optionReasons": {
-        "balance-mcq-25": "本句指「恢復平衡」。",
-        "balance-mcq-24": "「懸而未決」與本句語境不同。",
-        "balance-mcq-26": "「失衡」與本句語境不同。",
-        "balance-mcq-23": "「扭轉平衡」與本句語境不同。",
-        "balance-mcq-27": "「不平衡的」與本句語境不同。",
-        "balance-mcq-22": "「綜合考慮」與本句語境不同。"
+        "balance-mcq-25": "本句的「restore the balance」指「恢復平衡」。",
+        "balance-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-25"
     },
@@ -1901,11 +1725,9 @@ export default {
       "masked": "More support is needed to ____.",
       "options": [
         "balance-mcq-25",
+        "balance-mcq-16",
         "balance-mcq-24",
-        "balance-mcq-26",
-        "balance-mcq-23",
-        "balance-mcq-27",
-        "balance-mcq-22"
+        "balance-mcq-15"
       ],
       "explanation": "本句的「redress the balance」指「恢復平衡」。",
       "sentenceIndex": 50,
@@ -1914,12 +1736,10 @@ export default {
         "redress the balance"
       ],
       "optionReasons": {
-        "balance-mcq-25": "本句指「恢復平衡」。",
-        "balance-mcq-24": "「懸而未決」與本句語境不同。",
-        "balance-mcq-26": "「失衡」與本句語境不同。",
-        "balance-mcq-23": "「扭轉平衡」與本句語境不同。",
-        "balance-mcq-27": "「不平衡的」與本句語境不同。",
-        "balance-mcq-22": "「綜合考慮」與本句語境不同。"
+        "balance-mcq-25": "本句的「redress the balance」指「恢復平衡」。",
+        "balance-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-25"
     },
@@ -1931,11 +1751,9 @@ export default {
       "masked": "There is a serious ____ between supply and demand.",
       "options": [
         "balance-mcq-26",
-        "balance-mcq-25",
-        "balance-mcq-27",
-        "balance-mcq-24",
-        "balance-mcq-23",
-        "balance-mcq-22"
+        "balance-mcq-22",
+        "balance-mcq-15",
+        "balance-mcq-17"
       ],
       "explanation": "本句的「imbalance」指「失衡」。",
       "sentenceIndex": 51,
@@ -1944,12 +1762,10 @@ export default {
         "imbalance"
       ],
       "optionReasons": {
-        "balance-mcq-26": "本句指「失衡」。",
-        "balance-mcq-25": "「恢復平衡」與本句語境不同。",
-        "balance-mcq-27": "「不平衡的」與本句語境不同。",
-        "balance-mcq-24": "「懸而未決」與本句語境不同。",
-        "balance-mcq-23": "「扭轉平衡」與本句語境不同。",
-        "balance-mcq-22": "「綜合考慮」與本句語境不同。"
+        "balance-mcq-26": "本句的「imbalance」指「失衡」。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-26"
     },
@@ -1961,11 +1777,9 @@ export default {
       "masked": "The policy created a regional ____.",
       "options": [
         "balance-mcq-26",
-        "balance-mcq-25",
-        "balance-mcq-27",
-        "balance-mcq-24",
-        "balance-mcq-23",
-        "balance-mcq-22"
+        "balance-mcq-15",
+        "balance-mcq-16",
+        "balance-mcq-24"
       ],
       "explanation": "本句的「imbalance」指「失衡」。",
       "sentenceIndex": 52,
@@ -1974,12 +1788,10 @@ export default {
         "imbalance"
       ],
       "optionReasons": {
-        "balance-mcq-26": "本句指「失衡」。",
-        "balance-mcq-25": "「恢復平衡」與本句語境不同。",
-        "balance-mcq-27": "「不平衡的」與本句語境不同。",
-        "balance-mcq-24": "「懸而未決」與本句語境不同。",
-        "balance-mcq-23": "「扭轉平衡」與本句語境不同。",
-        "balance-mcq-22": "「綜合考慮」與本句語境不同。"
+        "balance-mcq-26": "本句的「imbalance」指「失衡」。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-26"
     },
@@ -1991,10 +1803,8 @@ export default {
       "masked": "The load is ____.",
       "options": [
         "balance-mcq-27",
-        "balance-mcq-26",
-        "balance-mcq-25",
-        "balance-mcq-24",
-        "balance-mcq-23",
+        "balance-mcq-15",
+        "balance-mcq-16",
         "balance-mcq-22"
       ],
       "explanation": "本句的「unbalanced」指「不平衡的」。",
@@ -2004,12 +1814,10 @@ export default {
         "unbalanced"
       ],
       "optionReasons": {
-        "balance-mcq-27": "本句指「不平衡的」。",
-        "balance-mcq-26": "「失衡」與本句語境不同。",
-        "balance-mcq-25": "「恢復平衡」與本句語境不同。",
-        "balance-mcq-24": "「懸而未決」與本句語境不同。",
-        "balance-mcq-23": "「扭轉平衡」與本句語境不同。",
-        "balance-mcq-22": "「綜合考慮」與本句語境不同。"
+        "balance-mcq-27": "本句的「unbalanced」指「不平衡的」。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-27"
     },
@@ -2021,11 +1829,9 @@ export default {
       "masked": "The report gives an ____ of the issue.",
       "options": [
         "balance-mcq-27",
-        "balance-mcq-26",
-        "balance-mcq-25",
+        "balance-mcq-16",
         "balance-mcq-24",
-        "balance-mcq-23",
-        "balance-mcq-22"
+        "balance-mcq-15"
       ],
       "explanation": "本句的「unbalanced view」指「不平衡的」。",
       "sentenceIndex": 54,
@@ -2034,12 +1840,10 @@ export default {
         "unbalanced view"
       ],
       "optionReasons": {
-        "balance-mcq-27": "本句指「不平衡的」。",
-        "balance-mcq-26": "「失衡」與本句語境不同。",
-        "balance-mcq-25": "「恢復平衡」與本句語境不同。",
-        "balance-mcq-24": "「懸而未決」與本句語境不同。",
-        "balance-mcq-23": "「扭轉平衡」與本句語境不同。",
-        "balance-mcq-22": "「綜合考慮」與本句語境不同。"
+        "balance-mcq-27": "本句的「unbalanced view」指「不平衡的」。",
+        "balance-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "balance-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "balance-mcq-27"
     }
@@ -2051,5 +1855,7 @@ export default {
     "sha256": "3cd11f08ba63f4705b8567b0e10d1bfea994e5f0d35ee540130bc10be0975d2c",
     "pages": 22
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

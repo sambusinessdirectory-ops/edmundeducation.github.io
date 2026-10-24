@@ -560,7 +560,7 @@ export default {
     },
     {
       "id": "once-mcq-25",
-      "title": "表示過去曾存在過的狀態／身份",
+      "title": "過去曾存在過的狀態／身份",
       "form": "6. once + past state（以前曾經……） — 曾經；一度",
       "en": "6. once + past state（以前曾經……） — 曾經；一度",
       "zh": "表示過去曾存在過的狀態／身份",
@@ -604,7 +604,7 @@ export default {
     },
     {
       "id": "once-mcq-27",
-      "title": "表示前面事件成立後，後面結果／行動隨即或自然發生",
+      "title": "前面事件成立後，後面結果／行動隨即或自然發生",
       "form": "12. once you…, then…（一旦……便……） — 一旦；當……之後",
       "en": "12. once you…, then…（一旦……便……） — 一旦；當……之後",
       "zh": "表示前面事件成立後，後面結果／行動隨即或自然發生",
@@ -634,11 +634,9 @@ export default {
       "masked": "I called her ____.",
       "options": [
         "once-mcq-01",
-        "once-mcq-02",
-        "once-mcq-03",
-        "once-mcq-04",
-        "once-mcq-05",
-        "once-mcq-06"
+        "once-mcq-11",
+        "once-mcq-06",
+        "once-mcq-13"
       ],
       "explanation": "本句的「once」指「某個動作只發生一次」。",
       "sentenceIndex": 0,
@@ -647,12 +645,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-01": "本句指「某個動作只發生一次」。",
-        "once-mcq-02": "「每個指定時間週期內發生一次」是「once a week/day/etc.」的用法，與本句語境不同。",
-        "once-mcq-03": "「每隔指定時間發生一次」是「once every X」的用法，與本句語境不同。",
-        "once-mcq-04": "「強調某事只有一次、沒有更多次」是「only/just once」的用法，與本句語境不同。",
-        "once-mcq-05": "「在過去某個時候曾經如此，但現在未必仍然如此」是「once — formerly」的用法，與本句語境不同。",
-        "once-mcq-06": "「曾經具有某個特徵，但現在情況已可能改變」是「once + adjective」的用法，與本句語境不同。"
+        "once-mcq-01": "本句的「once」指「某個動作只發生一次」。",
+        "once-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-01"
     },
@@ -664,11 +660,9 @@ export default {
       "masked": "I’ve only met him ____.",
       "options": [
         "once-mcq-01",
-        "once-mcq-02",
-        "once-mcq-03",
-        "once-mcq-04",
-        "once-mcq-05",
-        "once-mcq-06"
+        "once-mcq-26",
+        "once-mcq-19",
+        "once-mcq-13"
       ],
       "explanation": "本句的「once」指「某個動作只發生一次」。",
       "sentenceIndex": 1,
@@ -677,12 +671,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-01": "本句指「某個動作只發生一次」。",
-        "once-mcq-02": "「每個指定時間週期內發生一次」是「once a week/day/etc.」的用法，與本句語境不同。",
-        "once-mcq-03": "「每隔指定時間發生一次」是「once every X」的用法，與本句語境不同。",
-        "once-mcq-04": "「強調某事只有一次、沒有更多次」是「only/just once」的用法，與本句語境不同。",
-        "once-mcq-05": "「在過去某個時候曾經如此，但現在未必仍然如此」是「once — formerly」的用法，與本句語境不同。",
-        "once-mcq-06": "「曾經具有某個特徵，但現在情況已可能改變」是「once + adjective」的用法，與本句語境不同。"
+        "once-mcq-01": "本句的「once」指「某個動作只發生一次」。",
+        "once-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-01"
     },
@@ -694,10 +686,8 @@ export default {
       "masked": "I usually see her ____.",
       "options": [
         "once-mcq-02",
-        "once-mcq-01",
-        "once-mcq-03",
-        "once-mcq-04",
-        "once-mcq-05",
+        "once-mcq-25",
+        "once-mcq-19",
         "once-mcq-06"
       ],
       "explanation": "本句的「once a week」指「每個指定時間週期內發生一次」。",
@@ -707,12 +697,10 @@ export default {
         "once a week"
       ],
       "optionReasons": {
-        "once-mcq-02": "本句指「每個指定時間週期內發生一次」。",
-        "once-mcq-01": "「某個動作只發生一次」是「once — one time」的用法，與本句語境不同。",
-        "once-mcq-03": "「每隔指定時間發生一次」是「once every X」的用法，與本句語境不同。",
-        "once-mcq-04": "「強調某事只有一次、沒有更多次」是「only/just once」的用法，與本句語境不同。",
-        "once-mcq-05": "「在過去某個時候曾經如此，但現在未必仍然如此」是「once — formerly」的用法，與本句語境不同。",
-        "once-mcq-06": "「曾經具有某個特徵，但現在情況已可能改變」是「once + adjective」的用法，與本句語境不同。"
+        "once-mcq-02": "本句的「once a week」指「每個指定時間週期內發生一次」。",
+        "once-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-02"
     },
@@ -724,11 +712,9 @@ export default {
       "masked": "We meet ____.",
       "options": [
         "once-mcq-02",
-        "once-mcq-01",
-        "once-mcq-03",
-        "once-mcq-04",
-        "once-mcq-05",
-        "once-mcq-06"
+        "once-mcq-23",
+        "once-mcq-06",
+        "once-mcq-13"
       ],
       "explanation": "本句的「once a month」指「每個指定時間週期內發生一次」。",
       "sentenceIndex": 3,
@@ -737,12 +723,10 @@ export default {
         "once a month"
       ],
       "optionReasons": {
-        "once-mcq-02": "本句指「每個指定時間週期內發生一次」。",
-        "once-mcq-01": "「某個動作只發生一次」是「once — one time」的用法，與本句語境不同。",
-        "once-mcq-03": "「每隔指定時間發生一次」是「once every X」的用法，與本句語境不同。",
-        "once-mcq-04": "「強調某事只有一次、沒有更多次」是「only/just once」的用法，與本句語境不同。",
-        "once-mcq-05": "「在過去某個時候曾經如此，但現在未必仍然如此」是「once — formerly」的用法，與本句語境不同。",
-        "once-mcq-06": "「曾經具有某個特徵，但現在情況已可能改變」是「once + adjective」的用法，與本句語境不同。"
+        "once-mcq-02": "本句的「once a month」指「每個指定時間週期內發生一次」。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-02"
     },
@@ -754,11 +738,9 @@ export default {
       "masked": "Take this medicine ____.",
       "options": [
         "once-mcq-02",
-        "once-mcq-01",
-        "once-mcq-03",
-        "once-mcq-04",
-        "once-mcq-05",
-        "once-mcq-06"
+        "once-mcq-25",
+        "once-mcq-19",
+        "once-mcq-13"
       ],
       "explanation": "本句的「once a day」指「每個指定時間週期內發生一次」。",
       "sentenceIndex": 4,
@@ -767,12 +749,10 @@ export default {
         "once a day"
       ],
       "optionReasons": {
-        "once-mcq-02": "本句指「每個指定時間週期內發生一次」。",
-        "once-mcq-01": "「某個動作只發生一次」是「once — one time」的用法，與本句語境不同。",
-        "once-mcq-03": "「每隔指定時間發生一次」是「once every X」的用法，與本句語境不同。",
-        "once-mcq-04": "「強調某事只有一次、沒有更多次」是「only/just once」的用法，與本句語境不同。",
-        "once-mcq-05": "「在過去某個時候曾經如此，但現在未必仍然如此」是「once — formerly」的用法，與本句語境不同。",
-        "once-mcq-06": "「曾經具有某個特徵，但現在情況已可能改變」是「once + adjective」的用法，與本句語境不同。"
+        "once-mcq-02": "本句的「once a day」指「每個指定時間週期內發生一次」。",
+        "once-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-02"
     },
@@ -784,11 +764,9 @@ export default {
       "masked": "We meet ____.",
       "options": [
         "once-mcq-03",
-        "once-mcq-02",
-        "once-mcq-04",
-        "once-mcq-01",
-        "once-mcq-05",
-        "once-mcq-06"
+        "once-mcq-25",
+        "once-mcq-06",
+        "once-mcq-13"
       ],
       "explanation": "本句的「once every two weeks」指「每隔指定時間發生一次」。",
       "sentenceIndex": 5,
@@ -797,12 +775,10 @@ export default {
         "once every two weeks"
       ],
       "optionReasons": {
-        "once-mcq-03": "本句指「每隔指定時間發生一次」。",
-        "once-mcq-02": "「每個指定時間週期內發生一次」是「once a week/day/etc.」的用法，與本句語境不同。",
-        "once-mcq-04": "「強調某事只有一次、沒有更多次」是「only/just once」的用法，與本句語境不同。",
-        "once-mcq-01": "「某個動作只發生一次」是「once — one time」的用法，與本句語境不同。",
-        "once-mcq-05": "「在過去某個時候曾經如此，但現在未必仍然如此」是「once — formerly」的用法，與本句語境不同。",
-        "once-mcq-06": "「曾經具有某個特徵，但現在情況已可能改變」是「once + adjective」的用法，與本句語境不同。"
+        "once-mcq-03": "本句的「once every two weeks」指「每隔指定時間發生一次」。",
+        "once-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-03"
     },
@@ -814,11 +790,9 @@ export default {
       "masked": "The system is checked ____.",
       "options": [
         "once-mcq-03",
-        "once-mcq-02",
-        "once-mcq-04",
-        "once-mcq-01",
-        "once-mcq-05",
-        "once-mcq-06"
+        "once-mcq-13",
+        "once-mcq-23",
+        "once-mcq-25"
       ],
       "explanation": "本句的「once every six months」指「每隔指定時間發生一次」。",
       "sentenceIndex": 6,
@@ -827,12 +801,10 @@ export default {
         "once every six months"
       ],
       "optionReasons": {
-        "once-mcq-03": "本句指「每隔指定時間發生一次」。",
-        "once-mcq-02": "「每個指定時間週期內發生一次」是「once a week/day/etc.」的用法，與本句語境不同。",
-        "once-mcq-04": "「強調某事只有一次、沒有更多次」是「only/just once」的用法，與本句語境不同。",
-        "once-mcq-01": "「某個動作只發生一次」是「once — one time」的用法，與本句語境不同。",
-        "once-mcq-05": "「在過去某個時候曾經如此，但現在未必仍然如此」是「once — formerly」的用法，與本句語境不同。",
-        "once-mcq-06": "「曾經具有某個特徵，但現在情況已可能改變」是「once + adjective」的用法，與本句語境不同。"
+        "once-mcq-03": "本句的「once every six months」指「每隔指定時間發生一次」。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-03"
     },
@@ -844,11 +816,9 @@ export default {
       "masked": "I made that mistake ____.",
       "options": [
         "once-mcq-04",
-        "once-mcq-03",
-        "once-mcq-05",
-        "once-mcq-02",
-        "once-mcq-06",
-        "once-mcq-01"
+        "once-mcq-26",
+        "once-mcq-11",
+        "once-mcq-16"
       ],
       "explanation": "本句的「only once」指「強調某事只有一次、沒有更多次」。",
       "sentenceIndex": 7,
@@ -857,12 +827,10 @@ export default {
         "only once"
       ],
       "optionReasons": {
-        "once-mcq-04": "本句指「強調某事只有一次、沒有更多次」。",
-        "once-mcq-03": "「每隔指定時間發生一次」是「once every X」的用法，與本句語境不同。",
-        "once-mcq-05": "「在過去某個時候曾經如此，但現在未必仍然如此」是「once — formerly」的用法，與本句語境不同。",
-        "once-mcq-02": "「每個指定時間週期內發生一次」是「once a week/day/etc.」的用法，與本句語境不同。",
-        "once-mcq-06": "「曾經具有某個特徵，但現在情況已可能改變」是「once + adjective」的用法，與本句語境不同。",
-        "once-mcq-01": "「某個動作只發生一次」是「once — one time」的用法，與本句語境不同。"
+        "once-mcq-04": "本句的「only once」指「強調某事只有一次、沒有更多次」。",
+        "once-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-04"
     },
@@ -874,11 +842,9 @@ export default {
       "masked": "Can you explain it ____ more?",
       "options": [
         "once-mcq-04",
-        "once-mcq-03",
-        "once-mcq-05",
-        "once-mcq-02",
-        "once-mcq-06",
-        "once-mcq-01"
+        "once-mcq-12",
+        "once-mcq-26",
+        "once-mcq-23"
       ],
       "explanation": "本句的「just once」指「強調某事只有一次、沒有更多次」。",
       "sentenceIndex": 8,
@@ -887,12 +853,10 @@ export default {
         "just once"
       ],
       "optionReasons": {
-        "once-mcq-04": "本句指「強調某事只有一次、沒有更多次」。",
-        "once-mcq-03": "「每隔指定時間發生一次」是「once every X」的用法，與本句語境不同。",
-        "once-mcq-05": "「在過去某個時候曾經如此，但現在未必仍然如此」是「once — formerly」的用法，與本句語境不同。",
-        "once-mcq-02": "「每個指定時間週期內發生一次」是「once a week/day/etc.」的用法，與本句語境不同。",
-        "once-mcq-06": "「曾經具有某個特徵，但現在情況已可能改變」是「once + adjective」的用法，與本句語境不同。",
-        "once-mcq-01": "「某個動作只發生一次」是「once — one time」的用法，與本句語境不同。"
+        "once-mcq-04": "本句的「just once」指「強調某事只有一次、沒有更多次」。",
+        "once-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-04"
     },
@@ -904,11 +868,9 @@ export default {
       "masked": "I ____ lived near here.",
       "options": [
         "once-mcq-05",
-        "once-mcq-04",
-        "once-mcq-06",
-        "once-mcq-03",
-        "once-mcq-07",
-        "once-mcq-02"
+        "once-mcq-13",
+        "once-mcq-23",
+        "once-mcq-08"
       ],
       "explanation": "本句的「once」指「在過去某個時候曾經如此，但現在未必仍然如此」。",
       "sentenceIndex": 9,
@@ -917,12 +879,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-05": "本句指「在過去某個時候曾經如此，但現在未必仍然如此」。",
-        "once-mcq-04": "「強調某事只有一次、沒有更多次」是「only/just once」的用法，與本句語境不同。",
-        "once-mcq-06": "「曾經具有某個特徵，但現在情況已可能改變」是「once + adjective」的用法，與本句語境不同。",
-        "once-mcq-03": "「每隔指定時間發生一次」是「once every X」的用法，與本句語境不同。",
-        "once-mcq-07": "「在目前／所談時間之前曾經發生過一次」是「once before」的用法，與本句語境不同。",
-        "once-mcq-02": "「每個指定時間週期內發生一次」是「once a week/day/etc.」的用法，與本句語境不同。"
+        "once-mcq-05": "本句的「once」指「在過去某個時候曾經如此，但現在未必仍然如此」。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-05"
     },
@@ -934,11 +894,9 @@ export default {
       "masked": "She was ____ very shy.",
       "options": [
         "once-mcq-05",
-        "once-mcq-04",
-        "once-mcq-06",
-        "once-mcq-03",
-        "once-mcq-07",
-        "once-mcq-02"
+        "once-mcq-17",
+        "once-mcq-18",
+        "once-mcq-13"
       ],
       "explanation": "本句的「once」指「在過去某個時候曾經如此，但現在未必仍然如此」。",
       "sentenceIndex": 10,
@@ -947,12 +905,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-05": "本句指「在過去某個時候曾經如此，但現在未必仍然如此」。",
-        "once-mcq-04": "「強調某事只有一次、沒有更多次」是「only/just once」的用法，與本句語境不同。",
-        "once-mcq-06": "「曾經具有某個特徵，但現在情況已可能改變」是「once + adjective」的用法，與本句語境不同。",
-        "once-mcq-03": "「每隔指定時間發生一次」是「once every X」的用法，與本句語境不同。",
-        "once-mcq-07": "「在目前／所談時間之前曾經發生過一次」是「once before」的用法，與本句語境不同。",
-        "once-mcq-02": "「每個指定時間週期內發生一次」是「once a week/day/etc.」的用法，與本句語境不同。"
+        "once-mcq-05": "本句的「once」指「在過去某個時候曾經如此，但現在未必仍然如此」。",
+        "once-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-05"
     },
@@ -964,11 +920,9 @@ export default {
       "masked": "He ____ for that company.",
       "options": [
         "once-mcq-25",
-        "once-mcq-24",
-        "once-mcq-26",
-        "once-mcq-23",
         "once-mcq-27",
-        "once-mcq-22"
+        "once-mcq-11",
+        "once-mcq-23"
       ],
       "explanation": "本句的「once worked」指「表示過去曾存在過的狀態／身份」。",
       "sentenceIndex": 11,
@@ -977,12 +931,10 @@ export default {
         "once worked"
       ],
       "optionReasons": {
-        "once-mcq-25": "本句指「表示過去曾存在過的狀態／身份」。",
-        "once-mcq-24": "「快速但整體地查看／檢查某物一次」是「once-over」的用法，與本句語境不同。",
-        "once-mcq-26": "「曾經處於某種狀態、現在已不一定如此」是「7. once-famous / once-popular（曾經著名／流行） — 曾經……的」的用法，與本句語境不同。",
-        "once-mcq-23": "「非常罕見地；極少」是「once in a blue moon」的用法，與本句語境不同。",
-        "once-mcq-27": "「表示前面事件成立後，後面結果／行動隨即或自然發生」是「12. once you…, then…（一旦……便……） — 一旦；當……之後」的用法，與本句語境不同。",
-        "once-mcq-22": "「極其罕見，可能一生只會遇到一次」是「once in a lifetime」的用法，與本句語境不同。"
+        "once-mcq-25": "本句的「once worked」指「表示過去曾存在過的狀態／身份」。",
+        "once-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-25"
     },
@@ -994,11 +946,9 @@ export default {
       "masked": "This building was ____ a school.",
       "options": [
         "once-mcq-25",
-        "once-mcq-24",
-        "once-mcq-26",
-        "once-mcq-23",
         "once-mcq-27",
-        "once-mcq-22"
+        "once-mcq-20",
+        "once-mcq-17"
       ],
       "explanation": "本句的「once」指「表示過去曾存在過的狀態／身份」。",
       "sentenceIndex": 12,
@@ -1007,12 +957,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-25": "本句指「表示過去曾存在過的狀態／身份」。",
-        "once-mcq-24": "「快速但整體地查看／檢查某物一次」是「once-over」的用法，與本句語境不同。",
-        "once-mcq-26": "「曾經處於某種狀態、現在已不一定如此」是「7. once-famous / once-popular（曾經著名／流行） — 曾經……的」的用法，與本句語境不同。",
-        "once-mcq-23": "「非常罕見地；極少」是「once in a blue moon」的用法，與本句語境不同。",
-        "once-mcq-27": "「表示前面事件成立後，後面結果／行動隨即或自然發生」是「12. once you…, then…（一旦……便……） — 一旦；當……之後」的用法，與本句語境不同。",
-        "once-mcq-22": "「極其罕見，可能一生只會遇到一次」是「once in a lifetime」的用法，與本句語境不同。"
+        "once-mcq-25": "本句的「once」指「表示過去曾存在過的狀態／身份」。",
+        "once-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-25"
     },
@@ -1024,11 +972,9 @@ export default {
       "masked": "The ____ restaurant has now closed.",
       "options": [
         "once-mcq-26",
-        "once-mcq-25",
         "once-mcq-27",
-        "once-mcq-24",
         "once-mcq-23",
-        "once-mcq-22"
+        "once-mcq-04"
       ],
       "explanation": "本句的「once-famous」指「曾經處於某種狀態、現在已不一定如此」。",
       "sentenceIndex": 13,
@@ -1037,12 +983,10 @@ export default {
         "once-famous"
       ],
       "optionReasons": {
-        "once-mcq-26": "本句指「曾經處於某種狀態、現在已不一定如此」。",
-        "once-mcq-25": "「表示過去曾存在過的狀態／身份」是「6. once + past state（以前曾經……） — 曾經；一度」的用法，與本句語境不同。",
-        "once-mcq-27": "「表示前面事件成立後，後面結果／行動隨即或自然發生」是「12. once you…, then…（一旦……便……） — 一旦；當……之後」的用法，與本句語境不同。",
-        "once-mcq-24": "「快速但整體地查看／檢查某物一次」是「once-over」的用法，與本句語境不同。",
-        "once-mcq-23": "「非常罕見地；極少」是「once in a blue moon」的用法，與本句語境不同。",
-        "once-mcq-22": "「極其罕見，可能一生只會遇到一次」是「once in a lifetime」的用法，與本句語境不同。"
+        "once-mcq-26": "本句的「once-famous」指「曾經處於某種狀態、現在已不一定如此」。",
+        "once-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-26"
     },
@@ -1054,11 +998,9 @@ export default {
       "masked": "The ____ product disappeared from the market.",
       "options": [
         "once-mcq-26",
-        "once-mcq-25",
-        "once-mcq-27",
         "once-mcq-24",
         "once-mcq-23",
-        "once-mcq-22"
+        "once-mcq-19"
       ],
       "explanation": "本句的「once-popular」指「曾經處於某種狀態、現在已不一定如此」。",
       "sentenceIndex": 14,
@@ -1067,12 +1009,10 @@ export default {
         "once-popular"
       ],
       "optionReasons": {
-        "once-mcq-26": "本句指「曾經處於某種狀態、現在已不一定如此」。",
-        "once-mcq-25": "「表示過去曾存在過的狀態／身份」是「6. once + past state（以前曾經……） — 曾經；一度」的用法，與本句語境不同。",
-        "once-mcq-27": "「表示前面事件成立後，後面結果／行動隨即或自然發生」是「12. once you…, then…（一旦……便……） — 一旦；當……之後」的用法，與本句語境不同。",
-        "once-mcq-24": "「快速但整體地查看／檢查某物一次」是「once-over」的用法，與本句語境不同。",
-        "once-mcq-23": "「非常罕見地；極少」是「once in a blue moon」的用法，與本句語境不同。",
-        "once-mcq-22": "「極其罕見，可能一生只會遇到一次」是「once in a lifetime」的用法，與本句語境不同。"
+        "once-mcq-26": "本句的「once-popular」指「曾經處於某種狀態、現在已不一定如此」。",
+        "once-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-26"
     },
@@ -1084,11 +1024,9 @@ export default {
       "masked": "I’ve done this ____.",
       "options": [
         "once-mcq-07",
-        "once-mcq-06",
-        "once-mcq-08",
-        "once-mcq-05",
-        "once-mcq-09",
-        "once-mcq-04"
+        "once-mcq-13",
+        "once-mcq-23",
+        "once-mcq-17"
       ],
       "explanation": "本句的「once before」指「在目前／所談時間之前曾經發生過一次」。",
       "sentenceIndex": 15,
@@ -1097,12 +1035,10 @@ export default {
         "once before"
       ],
       "optionReasons": {
-        "once-mcq-07": "本句指「在目前／所談時間之前曾經發生過一次」。",
-        "once-mcq-06": "「曾經具有某個特徵，但現在情況已可能改變」是「once + adjective」的用法，與本句語境不同。",
-        "once-mcq-08": "「同一動作／情況再次發生」是「once again」的用法，與本句語境不同。",
-        "once-mcq-05": "「在過去某個時候曾經如此，但現在未必仍然如此」是「once — formerly」的用法，與本句語境不同。",
-        "once-mcq-09": "「再做一次／再次」是「once more」的用法，與本句語境不同。",
-        "once-mcq-04": "「強調某事只有一次、沒有更多次」是「only/just once」的用法，與本句語境不同。"
+        "once-mcq-07": "本句的「once before」指「在目前／所談時間之前曾經發生過一次」。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-07"
     },
@@ -1114,11 +1050,9 @@ export default {
       "masked": "She had visited the city ____ before.",
       "options": [
         "once-mcq-07",
-        "once-mcq-06",
-        "once-mcq-08",
-        "once-mcq-05",
-        "once-mcq-09",
-        "once-mcq-04"
+        "once-mcq-23",
+        "once-mcq-13",
+        "once-mcq-17"
       ],
       "explanation": "本句的「once」指「在目前／所談時間之前曾經發生過一次」。",
       "sentenceIndex": 16,
@@ -1127,12 +1061,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-07": "本句指「在目前／所談時間之前曾經發生過一次」。",
-        "once-mcq-06": "「曾經具有某個特徵，但現在情況已可能改變」是「once + adjective」的用法，與本句語境不同。",
-        "once-mcq-08": "「同一動作／情況再次發生」是「once again」的用法，與本句語境不同。",
-        "once-mcq-05": "「在過去某個時候曾經如此，但現在未必仍然如此」是「once — formerly」的用法，與本句語境不同。",
-        "once-mcq-09": "「再做一次／再次」是「once more」的用法，與本句語境不同。",
-        "once-mcq-04": "「強調某事只有一次、沒有更多次」是「only/just once」的用法，與本句語境不同。"
+        "once-mcq-07": "本句的「once」指「在目前／所談時間之前曾經發生過一次」。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-07"
     },
@@ -1144,11 +1076,9 @@ export default {
       "masked": "I’d like to thank you ____.",
       "options": [
         "once-mcq-08",
-        "once-mcq-07",
-        "once-mcq-09",
-        "once-mcq-06",
-        "once-mcq-10",
-        "once-mcq-05"
+        "once-mcq-05",
+        "once-mcq-19",
+        "once-mcq-23"
       ],
       "explanation": "本句的「once again」指「同一動作／情況再次發生」。",
       "sentenceIndex": 17,
@@ -1157,12 +1087,10 @@ export default {
         "once again"
       ],
       "optionReasons": {
-        "once-mcq-08": "本句指「同一動作／情況再次發生」。",
-        "once-mcq-07": "「在目前／所談時間之前曾經發生過一次」是「once before」的用法，與本句語境不同。",
-        "once-mcq-09": "「再做一次／再次」是「once more」的用法，與本句語境不同。",
-        "once-mcq-06": "「曾經具有某個特徵，但現在情況已可能改變」是「once + adjective」的用法，與本句語境不同。",
-        "once-mcq-10": "「當某件事一發生／完成後，另一事情便會發生」是「once + clause」的用法，與本句語境不同。",
-        "once-mcq-05": "「在過去某個時候曾經如此，但現在未必仍然如此」是「once — formerly」的用法，與本句語境不同。"
+        "once-mcq-08": "本句的「once again」指「同一動作／情況再次發生」。",
+        "once-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-08"
     },
@@ -1174,11 +1102,9 @@ export default {
       "masked": "She tried ____.",
       "options": [
         "once-mcq-08",
-        "once-mcq-07",
-        "once-mcq-09",
-        "once-mcq-06",
-        "once-mcq-10",
-        "once-mcq-05"
+        "once-mcq-11",
+        "once-mcq-26",
+        "once-mcq-13"
       ],
       "explanation": "本句的「once again」指「同一動作／情況再次發生」。",
       "sentenceIndex": 18,
@@ -1187,12 +1113,10 @@ export default {
         "once again"
       ],
       "optionReasons": {
-        "once-mcq-08": "本句指「同一動作／情況再次發生」。",
-        "once-mcq-07": "「在目前／所談時間之前曾經發生過一次」是「once before」的用法，與本句語境不同。",
-        "once-mcq-09": "「再做一次／再次」是「once more」的用法，與本句語境不同。",
-        "once-mcq-06": "「曾經具有某個特徵，但現在情況已可能改變」是「once + adjective」的用法，與本句語境不同。",
-        "once-mcq-10": "「當某件事一發生／完成後，另一事情便會發生」是「once + clause」的用法，與本句語境不同。",
-        "once-mcq-05": "「在過去某個時候曾經如此，但現在未必仍然如此」是「once — formerly」的用法，與本句語境不同。"
+        "once-mcq-08": "本句的「once again」指「同一動作／情況再次發生」。",
+        "once-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-08"
     },
@@ -1204,11 +1128,9 @@ export default {
       "masked": "Please say that ____.",
       "options": [
         "once-mcq-09",
-        "once-mcq-08",
-        "once-mcq-10",
-        "once-mcq-07",
-        "once-mcq-11",
-        "once-mcq-06"
+        "once-mcq-06",
+        "once-mcq-23",
+        "once-mcq-16"
       ],
       "explanation": "本句的「once more」指「再做一次／再次」。",
       "sentenceIndex": 19,
@@ -1217,12 +1139,10 @@ export default {
         "once more"
       ],
       "optionReasons": {
-        "once-mcq-09": "本句指「再做一次／再次」。",
-        "once-mcq-08": "「同一動作／情況再次發生」是「once again」的用法，與本句語境不同。",
-        "once-mcq-10": "「當某件事一發生／完成後，另一事情便會發生」是「once + clause」的用法，與本句語境不同。",
-        "once-mcq-07": "「在目前／所談時間之前曾經發生過一次」是「once before」的用法，與本句語境不同。",
-        "once-mcq-11": "「故事開頭表示很久以前某個不確定時間」是「once upon a time」的用法，與本句語境不同。",
-        "once-mcq-06": "「曾經具有某個特徵，但現在情況已可能改變」是「once + adjective」的用法，與本句語境不同。"
+        "once-mcq-09": "本句的「once more」指「再做一次／再次」。",
+        "once-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-09"
     },
@@ -1234,11 +1154,9 @@ export default {
       "masked": "He checked the figures ____.",
       "options": [
         "once-mcq-09",
-        "once-mcq-08",
-        "once-mcq-10",
-        "once-mcq-07",
-        "once-mcq-11",
-        "once-mcq-06"
+        "once-mcq-27",
+        "once-mcq-05",
+        "once-mcq-23"
       ],
       "explanation": "本句的「once more」指「再做一次／再次」。",
       "sentenceIndex": 20,
@@ -1247,12 +1165,10 @@ export default {
         "once more"
       ],
       "optionReasons": {
-        "once-mcq-09": "本句指「再做一次／再次」。",
-        "once-mcq-08": "「同一動作／情況再次發生」是「once again」的用法，與本句語境不同。",
-        "once-mcq-10": "「當某件事一發生／完成後，另一事情便會發生」是「once + clause」的用法，與本句語境不同。",
-        "once-mcq-07": "「在目前／所談時間之前曾經發生過一次」是「once before」的用法，與本句語境不同。",
-        "once-mcq-11": "「故事開頭表示很久以前某個不確定時間」是「once upon a time」的用法，與本句語境不同。",
-        "once-mcq-06": "「曾經具有某個特徵，但現在情況已可能改變」是「once + adjective」的用法，與本句語境不同。"
+        "once-mcq-09": "本句的「once more」指「再做一次／再次」。",
+        "once-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-09"
     },
@@ -1264,11 +1180,9 @@ export default {
       "masked": "____ you understand the rule, it becomes easy.",
       "options": [
         "once-mcq-10",
-        "once-mcq-09",
+        "once-mcq-06",
         "once-mcq-11",
-        "once-mcq-08",
-        "once-mcq-12",
-        "once-mcq-07"
+        "once-mcq-13"
       ],
       "explanation": "本句的「Once」指「當某件事一發生／完成後，另一事情便會發生」。",
       "sentenceIndex": 21,
@@ -1277,12 +1191,10 @@ export default {
         "Once"
       ],
       "optionReasons": {
-        "once-mcq-10": "本句指「當某件事一發生／完成後，另一事情便會發生」。",
-        "once-mcq-09": "「再做一次／再次」是「once more」的用法，與本句語境不同。",
-        "once-mcq-11": "「故事開頭表示很久以前某個不確定時間」是「once upon a time」的用法，與本句語境不同。",
-        "once-mcq-08": "「同一動作／情況再次發生」是「once again」的用法，與本句語境不同。",
-        "once-mcq-12": "「不經常，但偶爾會發生」是「once in a while」的用法，與本句語境不同。",
-        "once-mcq-07": "「在目前／所談時間之前曾經發生過一次」是「once before」的用法，與本句語境不同。"
+        "once-mcq-10": "本句的「Once」指「當某件事一發生／完成後，另一事情便會發生」。",
+        "once-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-10"
     },
@@ -1294,11 +1206,9 @@ export default {
       "masked": "____ the meeting ends, I’ll call you.",
       "options": [
         "once-mcq-10",
-        "once-mcq-09",
-        "once-mcq-11",
-        "once-mcq-08",
-        "once-mcq-12",
-        "once-mcq-07"
+        "once-mcq-05",
+        "once-mcq-04",
+        "once-mcq-11"
       ],
       "explanation": "本句的「Once」指「當某件事一發生／完成後，另一事情便會發生」。",
       "sentenceIndex": 22,
@@ -1307,12 +1217,10 @@ export default {
         "Once"
       ],
       "optionReasons": {
-        "once-mcq-10": "本句指「當某件事一發生／完成後，另一事情便會發生」。",
-        "once-mcq-09": "「再做一次／再次」是「once more」的用法，與本句語境不同。",
-        "once-mcq-11": "「故事開頭表示很久以前某個不確定時間」是「once upon a time」的用法，與本句語境不同。",
-        "once-mcq-08": "「同一動作／情況再次發生」是「once again」的用法，與本句語境不同。",
-        "once-mcq-12": "「不經常，但偶爾會發生」是「once in a while」的用法，與本句語境不同。",
-        "once-mcq-07": "「在目前／所談時間之前曾經發生過一次」是「once before」的用法，與本句語境不同。"
+        "once-mcq-10": "本句的「Once」指「當某件事一發生／完成後，另一事情便會發生」。",
+        "once-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-10"
     },
@@ -1324,11 +1232,9 @@ export default {
       "masked": "____, it gets easier.",
       "options": [
         "once-mcq-27",
-        "once-mcq-26",
-        "once-mcq-25",
-        "once-mcq-24",
         "once-mcq-23",
-        "once-mcq-22"
+        "once-mcq-26",
+        "once-mcq-09"
       ],
       "explanation": "本句的「Once you start」指「表示前面事件成立後，後面結果／行動隨即或自然發生」。",
       "sentenceIndex": 23,
@@ -1337,12 +1243,10 @@ export default {
         "Once you start"
       ],
       "optionReasons": {
-        "once-mcq-27": "本句指「表示前面事件成立後，後面結果／行動隨即或自然發生」。",
-        "once-mcq-26": "「曾經處於某種狀態、現在已不一定如此」是「7. once-famous / once-popular（曾經著名／流行） — 曾經……的」的用法，與本句語境不同。",
-        "once-mcq-25": "「表示過去曾存在過的狀態／身份」是「6. once + past state（以前曾經……） — 曾經；一度」的用法，與本句語境不同。",
-        "once-mcq-24": "「快速但整體地查看／檢查某物一次」是「once-over」的用法，與本句語境不同。",
-        "once-mcq-23": "「非常罕見地；極少」是「once in a blue moon」的用法，與本句語境不同。",
-        "once-mcq-22": "「極其罕見，可能一生只會遇到一次」是「once in a lifetime」的用法，與本句語境不同。"
+        "once-mcq-27": "本句的「Once you start」指「表示前面事件成立後，後面結果／行動隨即或自然發生」。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-27"
     },
@@ -1354,11 +1258,9 @@ export default {
       "masked": "____ she arrives, we can begin.",
       "options": [
         "once-mcq-27",
-        "once-mcq-26",
-        "once-mcq-25",
-        "once-mcq-24",
         "once-mcq-23",
-        "once-mcq-22"
+        "once-mcq-26",
+        "once-mcq-20"
       ],
       "explanation": "本句的「Once」指「表示前面事件成立後，後面結果／行動隨即或自然發生」。",
       "sentenceIndex": 24,
@@ -1367,12 +1269,10 @@ export default {
         "Once"
       ],
       "optionReasons": {
-        "once-mcq-27": "本句指「表示前面事件成立後，後面結果／行動隨即或自然發生」。",
-        "once-mcq-26": "「曾經處於某種狀態、現在已不一定如此」是「7. once-famous / once-popular（曾經著名／流行） — 曾經……的」的用法，與本句語境不同。",
-        "once-mcq-25": "「表示過去曾存在過的狀態／身份」是「6. once + past state（以前曾經……） — 曾經；一度」的用法，與本句語境不同。",
-        "once-mcq-24": "「快速但整體地查看／檢查某物一次」是「once-over」的用法，與本句語境不同。",
-        "once-mcq-23": "「非常罕見地；極少」是「once in a blue moon」的用法，與本句語境不同。",
-        "once-mcq-22": "「極其罕見，可能一生只會遇到一次」是「once in a lifetime」的用法，與本句語境不同。"
+        "once-mcq-27": "本句的「Once」指「表示前面事件成立後，後面結果／行動隨即或自然發生」。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-27"
     },
@@ -1384,11 +1284,9 @@ export default {
       "masked": "I relaxed ____ the presentation was over.",
       "options": [
         "once-mcq-10",
-        "once-mcq-09",
-        "once-mcq-11",
-        "once-mcq-08",
-        "once-mcq-12",
-        "once-mcq-07"
+        "once-mcq-24",
+        "once-mcq-05",
+        "once-mcq-13"
       ],
       "explanation": "本句的「once」指「當某件事一發生／完成後，另一事情便會發生」。",
       "sentenceIndex": 25,
@@ -1397,12 +1295,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-10": "本句指「當某件事一發生／完成後，另一事情便會發生」。",
-        "once-mcq-09": "「再做一次／再次」是「once more」的用法，與本句語境不同。",
-        "once-mcq-11": "「故事開頭表示很久以前某個不確定時間」是「once upon a time」的用法，與本句語境不同。",
-        "once-mcq-08": "「同一動作／情況再次發生」是「once again」的用法，與本句語境不同。",
-        "once-mcq-12": "「不經常，但偶爾會發生」是「once in a while」的用法，與本句語境不同。",
-        "once-mcq-07": "「在目前／所談時間之前曾經發生過一次」是「once before」的用法，與本句語境不同。"
+        "once-mcq-10": "本句的「once」指「當某件事一發生／完成後，另一事情便會發生」。",
+        "once-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-10"
     },
@@ -1414,11 +1310,9 @@ export default {
       "masked": "The problem became obvious ____ we checked the data.",
       "options": [
         "once-mcq-10",
-        "once-mcq-09",
-        "once-mcq-11",
-        "once-mcq-08",
-        "once-mcq-12",
-        "once-mcq-07"
+        "once-mcq-23",
+        "once-mcq-04",
+        "once-mcq-26"
       ],
       "explanation": "本句的「once」指「當某件事一發生／完成後，另一事情便會發生」。",
       "sentenceIndex": 26,
@@ -1427,12 +1321,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-10": "本句指「當某件事一發生／完成後，另一事情便會發生」。",
-        "once-mcq-09": "「再做一次／再次」是「once more」的用法，與本句語境不同。",
-        "once-mcq-11": "「故事開頭表示很久以前某個不確定時間」是「once upon a time」的用法，與本句語境不同。",
-        "once-mcq-08": "「同一動作／情況再次發生」是「once again」的用法，與本句語境不同。",
-        "once-mcq-12": "「不經常，但偶爾會發生」是「once in a while」的用法，與本句語境不同。",
-        "once-mcq-07": "「在目前／所談時間之前曾經發生過一次」是「once before」的用法，與本句語境不同。"
+        "once-mcq-10": "本句的「once」指「當某件事一發生／完成後，另一事情便會發生」。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-10"
     },
@@ -1444,11 +1336,9 @@ export default {
       "masked": "____, there was a small village.",
       "options": [
         "once-mcq-11",
-        "once-mcq-10",
+        "once-mcq-25",
         "once-mcq-12",
-        "once-mcq-09",
-        "once-mcq-13",
-        "once-mcq-08"
+        "once-mcq-20"
       ],
       "explanation": "本句的「Once upon a time」指「故事開頭表示很久以前某個不確定時間」。",
       "sentenceIndex": 27,
@@ -1457,12 +1347,10 @@ export default {
         "Once upon a time"
       ],
       "optionReasons": {
-        "once-mcq-11": "本句指「故事開頭表示很久以前某個不確定時間」。",
-        "once-mcq-10": "「當某件事一發生／完成後，另一事情便會發生」是「once + clause」的用法，與本句語境不同。",
-        "once-mcq-12": "「不經常，但偶爾會發生」是「once in a while」的用法，與本句語境不同。",
-        "once-mcq-09": "「再做一次／再次」是「once more」的用法，與本句語境不同。",
-        "once-mcq-13": "「沒有延誤地立即做某事」是「at once — immediately」的用法，與本句語境不同。",
-        "once-mcq-08": "「同一動作／情況再次發生」是「once again」的用法，與本句語境不同。"
+        "once-mcq-11": "本句的「Once upon a time」指「故事開頭表示很久以前某個不確定時間」。",
+        "once-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-11"
     },
@@ -1474,11 +1362,9 @@ export default {
       "masked": "____ upon a time, people travelled much more slowly.",
       "options": [
         "once-mcq-11",
-        "once-mcq-10",
-        "once-mcq-12",
-        "once-mcq-09",
-        "once-mcq-13",
-        "once-mcq-08"
+        "once-mcq-18",
+        "once-mcq-08",
+        "once-mcq-25"
       ],
       "explanation": "本句的「Once」指「故事開頭表示很久以前某個不確定時間」。",
       "sentenceIndex": 28,
@@ -1487,12 +1373,10 @@ export default {
         "Once"
       ],
       "optionReasons": {
-        "once-mcq-11": "本句指「故事開頭表示很久以前某個不確定時間」。",
-        "once-mcq-10": "「當某件事一發生／完成後，另一事情便會發生」是「once + clause」的用法，與本句語境不同。",
-        "once-mcq-12": "「不經常，但偶爾會發生」是「once in a while」的用法，與本句語境不同。",
-        "once-mcq-09": "「再做一次／再次」是「once more」的用法，與本句語境不同。",
-        "once-mcq-13": "「沒有延誤地立即做某事」是「at once — immediately」的用法，與本句語境不同。",
-        "once-mcq-08": "「同一動作／情況再次發生」是「once again」的用法，與本句語境不同。"
+        "once-mcq-11": "本句的「Once」指「故事開頭表示很久以前某個不確定時間」。",
+        "once-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-11"
     },
@@ -1504,11 +1388,9 @@ export default {
       "masked": "I still feel nervous ____.",
       "options": [
         "once-mcq-12",
+        "once-mcq-04",
         "once-mcq-11",
-        "once-mcq-13",
-        "once-mcq-10",
-        "once-mcq-14",
-        "once-mcq-09"
+        "once-mcq-25"
       ],
       "explanation": "本句的「once in a while」指「不經常，但偶爾會發生」。",
       "sentenceIndex": 29,
@@ -1517,12 +1399,10 @@ export default {
         "once in a while"
       ],
       "optionReasons": {
-        "once-mcq-12": "本句指「不經常，但偶爾會發生」。",
-        "once-mcq-11": "「故事開頭表示很久以前某個不確定時間」是「once upon a time」的用法，與本句語境不同。",
-        "once-mcq-13": "「沒有延誤地立即做某事」是「at once — immediately」的用法，與本句語境不同。",
-        "once-mcq-10": "「當某件事一發生／完成後，另一事情便會發生」是「once + clause」的用法，與本句語境不同。",
-        "once-mcq-14": "「多件事情在同一時間發生」是「at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-09": "「再做一次／再次」是「once more」的用法，與本句語境不同。"
+        "once-mcq-12": "本句的「once in a while」指「不經常，但偶爾會發生」。",
+        "once-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-12"
     },
@@ -1534,11 +1414,9 @@ export default {
       "masked": "We eat out ____ in a while.",
       "options": [
         "once-mcq-12",
-        "once-mcq-11",
-        "once-mcq-13",
-        "once-mcq-10",
-        "once-mcq-14",
-        "once-mcq-09"
+        "once-mcq-18",
+        "once-mcq-25",
+        "once-mcq-13"
       ],
       "explanation": "本句的「once」指「不經常，但偶爾會發生」。",
       "sentenceIndex": 30,
@@ -1547,12 +1425,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-12": "本句指「不經常，但偶爾會發生」。",
-        "once-mcq-11": "「故事開頭表示很久以前某個不確定時間」是「once upon a time」的用法，與本句語境不同。",
-        "once-mcq-13": "「沒有延誤地立即做某事」是「at once — immediately」的用法，與本句語境不同。",
-        "once-mcq-10": "「當某件事一發生／完成後，另一事情便會發生」是「once + clause」的用法，與本句語境不同。",
-        "once-mcq-14": "「多件事情在同一時間發生」是「at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-09": "「再做一次／再次」是「once more」的用法，與本句語境不同。"
+        "once-mcq-12": "本句的「once」指「不經常，但偶爾會發生」。",
+        "once-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-12"
     },
@@ -1565,10 +1441,8 @@ export default {
       "options": [
         "once-mcq-12",
         "once-mcq-11",
-        "once-mcq-13",
-        "once-mcq-10",
-        "once-mcq-14",
-        "once-mcq-09"
+        "once-mcq-18",
+        "once-mcq-19"
       ],
       "explanation": "本句的「once」指「不經常，但偶爾會發生」。",
       "sentenceIndex": 31,
@@ -1577,12 +1451,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-12": "本句指「不經常，但偶爾會發生」。",
-        "once-mcq-11": "「故事開頭表示很久以前某個不確定時間」是「once upon a time」的用法，與本句語境不同。",
-        "once-mcq-13": "「沒有延誤地立即做某事」是「at once — immediately」的用法，與本句語境不同。",
-        "once-mcq-10": "「當某件事一發生／完成後，另一事情便會發生」是「once + clause」的用法，與本句語境不同。",
-        "once-mcq-14": "「多件事情在同一時間發生」是「at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-09": "「再做一次／再次」是「once more」的用法，與本句語境不同。"
+        "once-mcq-12": "本句的「once」指「不經常，但偶爾會發生」。",
+        "once-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-12"
     },
@@ -1595,10 +1467,8 @@ export default {
       "options": [
         "once-mcq-12",
         "once-mcq-11",
-        "once-mcq-13",
-        "once-mcq-10",
-        "once-mcq-14",
-        "once-mcq-09"
+        "once-mcq-21",
+        "once-mcq-13"
       ],
       "explanation": "本句的「once」指「不經常，但偶爾會發生」。",
       "sentenceIndex": 32,
@@ -1607,12 +1477,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-12": "本句指「不經常，但偶爾會發生」。",
-        "once-mcq-11": "「故事開頭表示很久以前某個不確定時間」是「once upon a time」的用法，與本句語境不同。",
-        "once-mcq-13": "「沒有延誤地立即做某事」是「at once — immediately」的用法，與本句語境不同。",
-        "once-mcq-10": "「當某件事一發生／完成後，另一事情便會發生」是「once + clause」的用法，與本句語境不同。",
-        "once-mcq-14": "「多件事情在同一時間發生」是「at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-09": "「再做一次／再次」是「once more」的用法，與本句語境不同。"
+        "once-mcq-12": "本句的「once」指「不經常，但偶爾會發生」。",
+        "once-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-12"
     },
@@ -1624,11 +1492,9 @@ export default {
       "masked": "Come here ____.",
       "options": [
         "once-mcq-13",
-        "once-mcq-12",
-        "once-mcq-14",
-        "once-mcq-11",
-        "once-mcq-15",
-        "once-mcq-10"
+        "once-mcq-26",
+        "once-mcq-23",
+        "once-mcq-20"
       ],
       "explanation": "本句的「at once」指「沒有延誤地立即做某事」。",
       "sentenceIndex": 33,
@@ -1637,12 +1503,10 @@ export default {
         "at once"
       ],
       "optionReasons": {
-        "once-mcq-13": "本句指「沒有延誤地立即做某事」。",
-        "once-mcq-12": "「不經常，但偶爾會發生」是「once in a while」的用法，與本句語境不同。",
-        "once-mcq-14": "「多件事情在同一時間發生」是「at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-11": "「故事開頭表示很久以前某個不確定時間」是「once upon a time」的用法，與本句語境不同。",
-        "once-mcq-15": "「某件事情突然發生」是「all at once — suddenly」的用法，與本句語境不同。",
-        "once-mcq-10": "「當某件事一發生／完成後，另一事情便會發生」是「once + clause」的用法，與本句語境不同。"
+        "once-mcq-13": "本句的「at once」指「沒有延誤地立即做某事」。",
+        "once-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-13"
     },
@@ -1654,11 +1518,9 @@ export default {
       "masked": "She answered ____.",
       "options": [
         "once-mcq-13",
-        "once-mcq-12",
-        "once-mcq-14",
-        "once-mcq-11",
-        "once-mcq-15",
-        "once-mcq-10"
+        "once-mcq-19",
+        "once-mcq-23",
+        "once-mcq-21"
       ],
       "explanation": "本句的「at once」指「沒有延誤地立即做某事」。",
       "sentenceIndex": 34,
@@ -1667,12 +1529,10 @@ export default {
         "at once"
       ],
       "optionReasons": {
-        "once-mcq-13": "本句指「沒有延誤地立即做某事」。",
-        "once-mcq-12": "「不經常，但偶爾會發生」是「once in a while」的用法，與本句語境不同。",
-        "once-mcq-14": "「多件事情在同一時間發生」是「at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-11": "「故事開頭表示很久以前某個不確定時間」是「once upon a time」的用法，與本句語境不同。",
-        "once-mcq-15": "「某件事情突然發生」是「all at once — suddenly」的用法，與本句語境不同。",
-        "once-mcq-10": "「當某件事一發生／完成後，另一事情便會發生」是「once + clause」的用法，與本句語境不同。"
+        "once-mcq-13": "本句的「at once」指「沒有延誤地立即做某事」。",
+        "once-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-13"
     },
@@ -1684,11 +1544,9 @@ export default {
       "masked": "I can’t do three things ____.",
       "options": [
         "once-mcq-14",
-        "once-mcq-13",
-        "once-mcq-15",
-        "once-mcq-12",
-        "once-mcq-16",
-        "once-mcq-11"
+        "once-mcq-26",
+        "once-mcq-04",
+        "once-mcq-17"
       ],
       "explanation": "本句的「at once」指「多件事情在同一時間發生」。",
       "sentenceIndex": 35,
@@ -1697,12 +1555,10 @@ export default {
         "at once"
       ],
       "optionReasons": {
-        "once-mcq-14": "本句指「多件事情在同一時間發生」。",
-        "once-mcq-13": "「沒有延誤地立即做某事」是「at once — immediately」的用法，與本句語境不同。",
-        "once-mcq-15": "「某件事情突然發生」是「all at once — suddenly」的用法，與本句語境不同。",
-        "once-mcq-12": "「不經常，但偶爾會發生」是「once in a while」的用法，與本句語境不同。",
-        "once-mcq-16": "「多個人／事物一下子同時發生」是「all at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-11": "「故事開頭表示很久以前某個不確定時間」是「once upon a time」的用法，與本句語境不同。"
+        "once-mcq-14": "本句的「at once」指「多件事情在同一時間發生」。",
+        "once-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-14"
     },
@@ -1715,10 +1571,8 @@ export default {
       "options": [
         "once-mcq-14",
         "once-mcq-13",
-        "once-mcq-15",
-        "once-mcq-12",
-        "once-mcq-16",
-        "once-mcq-11"
+        "once-mcq-17",
+        "once-mcq-21"
       ],
       "explanation": "本句的「at once」指「多件事情在同一時間發生」。",
       "sentenceIndex": 36,
@@ -1727,12 +1581,10 @@ export default {
         "at once"
       ],
       "optionReasons": {
-        "once-mcq-14": "本句指「多件事情在同一時間發生」。",
-        "once-mcq-13": "「沒有延誤地立即做某事」是「at once — immediately」的用法，與本句語境不同。",
-        "once-mcq-15": "「某件事情突然發生」是「all at once — suddenly」的用法，與本句語境不同。",
-        "once-mcq-12": "「不經常，但偶爾會發生」是「once in a while」的用法，與本句語境不同。",
-        "once-mcq-16": "「多個人／事物一下子同時發生」是「all at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-11": "「故事開頭表示很久以前某個不確定時間」是「once upon a time」的用法，與本句語境不同。"
+        "once-mcq-14": "本句的「at once」指「多件事情在同一時間發生」。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-14"
     },
@@ -1744,11 +1596,9 @@ export default {
       "masked": "____, the room went quiet.",
       "options": [
         "once-mcq-15",
-        "once-mcq-14",
-        "once-mcq-16",
-        "once-mcq-13",
-        "once-mcq-17",
-        "once-mcq-12"
+        "once-mcq-18",
+        "once-mcq-11",
+        "once-mcq-19"
       ],
       "explanation": "本句的「All at once」指「某件事情突然發生」。",
       "sentenceIndex": 37,
@@ -1757,12 +1607,10 @@ export default {
         "All at once"
       ],
       "optionReasons": {
-        "once-mcq-15": "本句指「某件事情突然發生」。",
-        "once-mcq-14": "「多件事情在同一時間發生」是「at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-16": "「多個人／事物一下子同時發生」是「all at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-13": "「沒有延誤地立即做某事」是「at once — immediately」的用法，與本句語境不同。",
-        "once-mcq-17": "「最後而徹底地處理某事，使其毋須再次處理」是「once and for all」的用法，與本句語境不同。",
-        "once-mcq-12": "「不經常，但偶爾會發生」是「once in a while」的用法，與本句語境不同。"
+        "once-mcq-15": "本句的「All at once」指「某件事情突然發生」。",
+        "once-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-15"
     },
@@ -1774,11 +1622,9 @@ export default {
       "masked": "All at ____, I remembered the answer.",
       "options": [
         "once-mcq-15",
-        "once-mcq-14",
-        "once-mcq-16",
-        "once-mcq-13",
         "once-mcq-17",
-        "once-mcq-12"
+        "once-mcq-20",
+        "once-mcq-23"
       ],
       "explanation": "本句的「once」指「某件事情突然發生」。",
       "sentenceIndex": 38,
@@ -1787,12 +1633,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-15": "本句指「某件事情突然發生」。",
-        "once-mcq-14": "「多件事情在同一時間發生」是「at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-16": "「多個人／事物一下子同時發生」是「all at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-13": "「沒有延誤地立即做某事」是「at once — immediately」的用法，與本句語境不同。",
-        "once-mcq-17": "「最後而徹底地處理某事，使其毋須再次處理」是「once and for all」的用法，與本句語境不同。",
-        "once-mcq-12": "「不經常，但偶爾會發生」是「once in a while」的用法，與本句語境不同。"
+        "once-mcq-15": "本句的「once」指「某件事情突然發生」。",
+        "once-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-15"
     },
@@ -1804,11 +1648,9 @@ export default {
       "masked": "Don’t answer ____.",
       "options": [
         "once-mcq-16",
-        "once-mcq-15",
-        "once-mcq-17",
-        "once-mcq-14",
-        "once-mcq-18",
-        "once-mcq-13"
+        "once-mcq-21",
+        "once-mcq-19",
+        "once-mcq-06"
       ],
       "explanation": "本句的「all at once」指「多個人／事物一下子同時發生」。",
       "sentenceIndex": 39,
@@ -1817,12 +1659,10 @@ export default {
         "all at once"
       ],
       "optionReasons": {
-        "once-mcq-16": "本句指「多個人／事物一下子同時發生」。",
-        "once-mcq-15": "「某件事情突然發生」是「all at once — suddenly」的用法，與本句語境不同。",
-        "once-mcq-17": "「最後而徹底地處理某事，使其毋須再次處理」是「once and for all」的用法，與本句語境不同。",
-        "once-mcq-14": "「多件事情在同一時間發生」是「at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-18": "「一次或兩次；泛指極少次數」是「once or twice」的用法，與本句語境不同。",
-        "once-mcq-13": "「沒有延誤地立即做某事」是「at once — immediately」的用法，與本句語境不同。"
+        "once-mcq-16": "本句的「all at once」指「多個人／事物一下子同時發生」。",
+        "once-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-16"
     },
@@ -1834,11 +1674,9 @@ export default {
       "masked": "The problems appeared all at ____.",
       "options": [
         "once-mcq-16",
-        "once-mcq-15",
-        "once-mcq-17",
-        "once-mcq-14",
-        "once-mcq-18",
-        "once-mcq-13"
+        "once-mcq-24",
+        "once-mcq-19",
+        "once-mcq-06"
       ],
       "explanation": "本句的「once」指「多個人／事物一下子同時發生」。",
       "sentenceIndex": 40,
@@ -1847,12 +1685,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-16": "本句指「多個人／事物一下子同時發生」。",
-        "once-mcq-15": "「某件事情突然發生」是「all at once — suddenly」的用法，與本句語境不同。",
-        "once-mcq-17": "「最後而徹底地處理某事，使其毋須再次處理」是「once and for all」的用法，與本句語境不同。",
-        "once-mcq-14": "「多件事情在同一時間發生」是「at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-18": "「一次或兩次；泛指極少次數」是「once or twice」的用法，與本句語境不同。",
-        "once-mcq-13": "「沒有延誤地立即做某事」是「at once — immediately」的用法，與本句語境不同。"
+        "once-mcq-16": "本句的「once」指「多個人／事物一下子同時發生」。",
+        "once-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-16"
     },
@@ -1864,11 +1700,9 @@ export default {
       "masked": "Let’s solve the problem ____.",
       "options": [
         "once-mcq-17",
-        "once-mcq-16",
-        "once-mcq-18",
-        "once-mcq-15",
-        "once-mcq-19",
-        "once-mcq-14"
+        "once-mcq-23",
+        "once-mcq-12",
+        "once-mcq-06"
       ],
       "explanation": "本句的「once and for all」指「最後而徹底地處理某事，使其毋須再次處理」。",
       "sentenceIndex": 41,
@@ -1877,12 +1711,10 @@ export default {
         "once and for all"
       ],
       "optionReasons": {
-        "once-mcq-17": "本句指「最後而徹底地處理某事，使其毋須再次處理」。",
-        "once-mcq-16": "「多個人／事物一下子同時發生」是「all at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-18": "「一次或兩次；泛指極少次數」是「once or twice」的用法，與本句語境不同。",
-        "once-mcq-15": "「某件事情突然發生」是「all at once — suddenly」的用法，與本句語境不同。",
-        "once-mcq-19": "「某種行為重複過多，終於造成不良後果」是「once too often」的用法，與本句語境不同。",
-        "once-mcq-14": "「多件事情在同一時間發生」是「at once — simultaneously」的用法，與本句語境不同。"
+        "once-mcq-17": "本句的「once and for all」指「最後而徹底地處理某事，使其毋須再次處理」。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-17"
     },
@@ -1894,11 +1726,9 @@ export default {
       "masked": "She wanted to prove ____ and for all that she could do it.",
       "options": [
         "once-mcq-17",
-        "once-mcq-16",
-        "once-mcq-18",
         "once-mcq-15",
-        "once-mcq-19",
-        "once-mcq-14"
+        "once-mcq-06",
+        "once-mcq-23"
       ],
       "explanation": "本句的「once」指「最後而徹底地處理某事，使其毋須再次處理」。",
       "sentenceIndex": 42,
@@ -1907,12 +1737,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-17": "本句指「最後而徹底地處理某事，使其毋須再次處理」。",
-        "once-mcq-16": "「多個人／事物一下子同時發生」是「all at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-18": "「一次或兩次；泛指極少次數」是「once or twice」的用法，與本句語境不同。",
-        "once-mcq-15": "「某件事情突然發生」是「all at once — suddenly」的用法，與本句語境不同。",
-        "once-mcq-19": "「某種行為重複過多，終於造成不良後果」是「once too often」的用法，與本句語境不同。",
-        "once-mcq-14": "「多件事情在同一時間發生」是「at once — simultaneously」的用法，與本句語境不同。"
+        "once-mcq-17": "本句的「once」指「最後而徹底地處理某事，使其毋須再次處理」。",
+        "once-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-17"
     },
@@ -1924,11 +1752,9 @@ export default {
       "masked": "I’ve made that mistake ____.",
       "options": [
         "once-mcq-18",
-        "once-mcq-17",
-        "once-mcq-19",
         "once-mcq-16",
-        "once-mcq-20",
-        "once-mcq-15"
+        "once-mcq-13",
+        "once-mcq-06"
       ],
       "explanation": "本句的「once or twice」指「一次或兩次；泛指極少次數」。",
       "sentenceIndex": 43,
@@ -1937,12 +1763,10 @@ export default {
         "once or twice"
       ],
       "optionReasons": {
-        "once-mcq-18": "本句指「一次或兩次；泛指極少次數」。",
-        "once-mcq-17": "「最後而徹底地處理某事，使其毋須再次處理」是「once and for all」的用法，與本句語境不同。",
-        "once-mcq-19": "「某種行為重複過多，終於造成不良後果」是「once too often」的用法，與本句語境不同。",
-        "once-mcq-16": "「多個人／事物一下子同時發生」是「all at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-20": "「與平常不同，這一次難得出現某種情況」是「for once」的用法，與本句語境不同。",
-        "once-mcq-15": "「某件事情突然發生」是「all at once — suddenly」的用法，與本句語境不同。"
+        "once-mcq-18": "本句的「once or twice」指「一次或兩次；泛指極少次數」。",
+        "once-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-18"
     },
@@ -1954,11 +1778,9 @@ export default {
       "masked": "We met ____ or twice before.",
       "options": [
         "once-mcq-18",
-        "once-mcq-17",
-        "once-mcq-19",
+        "once-mcq-25",
         "once-mcq-16",
-        "once-mcq-20",
-        "once-mcq-15"
+        "once-mcq-19"
       ],
       "explanation": "本句的「once」指「一次或兩次；泛指極少次數」。",
       "sentenceIndex": 44,
@@ -1967,12 +1789,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-18": "本句指「一次或兩次；泛指極少次數」。",
-        "once-mcq-17": "「最後而徹底地處理某事，使其毋須再次處理」是「once and for all」的用法，與本句語境不同。",
-        "once-mcq-19": "「某種行為重複過多，終於造成不良後果」是「once too often」的用法，與本句語境不同。",
-        "once-mcq-16": "「多個人／事物一下子同時發生」是「all at once — simultaneously」的用法，與本句語境不同。",
-        "once-mcq-20": "「與平常不同，這一次難得出現某種情況」是「for once」的用法，與本句語境不同。",
-        "once-mcq-15": "「某件事情突然發生」是「all at once — suddenly」的用法，與本句語境不同。"
+        "once-mcq-18": "本句的「once」指「一次或兩次；泛指極少次數」。",
+        "once-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-18"
     },
@@ -1985,10 +1805,8 @@ export default {
       "options": [
         "once-mcq-19",
         "once-mcq-18",
-        "once-mcq-20",
-        "once-mcq-17",
-        "once-mcq-21",
-        "once-mcq-16"
+        "once-mcq-15",
+        "once-mcq-11"
       ],
       "explanation": "本句的「once too often」指「某種行為重複過多，終於造成不良後果」。",
       "sentenceIndex": 45,
@@ -1997,12 +1815,10 @@ export default {
         "once too often"
       ],
       "optionReasons": {
-        "once-mcq-19": "本句指「某種行為重複過多，終於造成不良後果」。",
-        "once-mcq-18": "「一次或兩次；泛指極少次數」是「once or twice」的用法，與本句語境不同。",
-        "once-mcq-20": "「與平常不同，這一次難得出現某種情況」是「for once」的用法，與本句語境不同。",
-        "once-mcq-17": "「最後而徹底地處理某事，使其毋須再次處理」是「once and for all」的用法，與本句語境不同。",
-        "once-mcq-21": "「只限這一次，不代表將來亦可如此」是「just this once」的用法，與本句語境不同。",
-        "once-mcq-16": "「多個人／事物一下子同時發生」是「all at once — simultaneously」的用法，與本句語境不同。"
+        "once-mcq-19": "本句的「once too often」指「某種行為重複過多，終於造成不良後果」。",
+        "once-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-19"
     },
@@ -2014,11 +1830,9 @@ export default {
       "masked": "She arrived late ____ too often.",
       "options": [
         "once-mcq-19",
-        "once-mcq-18",
         "once-mcq-20",
-        "once-mcq-17",
-        "once-mcq-21",
-        "once-mcq-16"
+        "once-mcq-11",
+        "once-mcq-06"
       ],
       "explanation": "本句的「once」指「某種行為重複過多，終於造成不良後果」。",
       "sentenceIndex": 46,
@@ -2027,12 +1841,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-19": "本句指「某種行為重複過多，終於造成不良後果」。",
-        "once-mcq-18": "「一次或兩次；泛指極少次數」是「once or twice」的用法，與本句語境不同。",
-        "once-mcq-20": "「與平常不同，這一次難得出現某種情況」是「for once」的用法，與本句語境不同。",
-        "once-mcq-17": "「最後而徹底地處理某事，使其毋須再次處理」是「once and for all」的用法，與本句語境不同。",
-        "once-mcq-21": "「只限這一次，不代表將來亦可如此」是「just this once」的用法，與本句語境不同。",
-        "once-mcq-16": "「多個人／事物一下子同時發生」是「all at once — simultaneously」的用法，與本句語境不同。"
+        "once-mcq-19": "本句的「once」指「某種行為重複過多，終於造成不良後果」。",
+        "once-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-19"
     },
@@ -2045,10 +1857,8 @@ export default {
       "options": [
         "once-mcq-20",
         "once-mcq-19",
-        "once-mcq-21",
-        "once-mcq-18",
-        "once-mcq-22",
-        "once-mcq-17"
+        "once-mcq-25",
+        "once-mcq-10"
       ],
       "explanation": "本句的「For once」指「與平常不同，這一次難得出現某種情況」。",
       "sentenceIndex": 47,
@@ -2057,12 +1867,10 @@ export default {
         "For once"
       ],
       "optionReasons": {
-        "once-mcq-20": "本句指「與平常不同，這一次難得出現某種情況」。",
-        "once-mcq-19": "「某種行為重複過多，終於造成不良後果」是「once too often」的用法，與本句語境不同。",
-        "once-mcq-21": "「只限這一次，不代表將來亦可如此」是「just this once」的用法，與本句語境不同。",
-        "once-mcq-18": "「一次或兩次；泛指極少次數」是「once or twice」的用法，與本句語境不同。",
-        "once-mcq-22": "「極其罕見，可能一生只會遇到一次」是「once in a lifetime」的用法，與本句語境不同。",
-        "once-mcq-17": "「最後而徹底地處理某事，使其毋須再次處理」是「once and for all」的用法，與本句語境不同。"
+        "once-mcq-20": "本句的「For once」指「與平常不同，這一次難得出現某種情況」。",
+        "once-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-20"
     },
@@ -2075,10 +1883,8 @@ export default {
       "options": [
         "once-mcq-20",
         "once-mcq-19",
-        "once-mcq-21",
-        "once-mcq-18",
-        "once-mcq-22",
-        "once-mcq-17"
+        "once-mcq-25",
+        "once-mcq-15"
       ],
       "explanation": "本句的「once」指「與平常不同，這一次難得出現某種情況」。",
       "sentenceIndex": 48,
@@ -2087,12 +1893,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-20": "本句指「與平常不同，這一次難得出現某種情況」。",
-        "once-mcq-19": "「某種行為重複過多，終於造成不良後果」是「once too often」的用法，與本句語境不同。",
-        "once-mcq-21": "「只限這一次，不代表將來亦可如此」是「just this once」的用法，與本句語境不同。",
-        "once-mcq-18": "「一次或兩次；泛指極少次數」是「once or twice」的用法，與本句語境不同。",
-        "once-mcq-22": "「極其罕見，可能一生只會遇到一次」是「once in a lifetime」的用法，與本句語境不同。",
-        "once-mcq-17": "「最後而徹底地處理某事，使其毋須再次處理」是「once and for all」的用法，與本句語境不同。"
+        "once-mcq-20": "本句的「once」指「與平常不同，這一次難得出現某種情況」。",
+        "once-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-20"
     },
@@ -2104,11 +1908,9 @@ export default {
       "masked": "I’ll help you ____.",
       "options": [
         "once-mcq-21",
-        "once-mcq-20",
-        "once-mcq-22",
-        "once-mcq-19",
-        "once-mcq-23",
-        "once-mcq-18"
+        "once-mcq-12",
+        "once-mcq-13",
+        "once-mcq-23"
       ],
       "explanation": "本句的「just this once」指「只限這一次，不代表將來亦可如此」。",
       "sentenceIndex": 49,
@@ -2117,12 +1919,10 @@ export default {
         "just this once"
       ],
       "optionReasons": {
-        "once-mcq-21": "本句指「只限這一次，不代表將來亦可如此」。",
-        "once-mcq-20": "「與平常不同，這一次難得出現某種情況」是「for once」的用法，與本句語境不同。",
-        "once-mcq-22": "「極其罕見，可能一生只會遇到一次」是「once in a lifetime」的用法，與本句語境不同。",
-        "once-mcq-19": "「某種行為重複過多，終於造成不良後果」是「once too often」的用法，與本句語境不同。",
-        "once-mcq-23": "「非常罕見地；極少」是「once in a blue moon」的用法，與本句語境不同。",
-        "once-mcq-18": "「一次或兩次；泛指極少次數」是「once or twice」的用法，與本句語境不同。"
+        "once-mcq-21": "本句的「just this once」指「只限這一次，不代表將來亦可如此」。",
+        "once-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-21"
     },
@@ -2134,11 +1934,9 @@ export default {
       "masked": "Can we make an exception just this ____?",
       "options": [
         "once-mcq-21",
-        "once-mcq-20",
-        "once-mcq-22",
-        "once-mcq-19",
-        "once-mcq-23",
-        "once-mcq-18"
+        "once-mcq-16",
+        "once-mcq-11",
+        "once-mcq-23"
       ],
       "explanation": "本句的「once」指「只限這一次，不代表將來亦可如此」。",
       "sentenceIndex": 50,
@@ -2147,12 +1945,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-21": "本句指「只限這一次，不代表將來亦可如此」。",
-        "once-mcq-20": "「與平常不同，這一次難得出現某種情況」是「for once」的用法，與本句語境不同。",
-        "once-mcq-22": "「極其罕見，可能一生只會遇到一次」是「once in a lifetime」的用法，與本句語境不同。",
-        "once-mcq-19": "「某種行為重複過多，終於造成不良後果」是「once too often」的用法，與本句語境不同。",
-        "once-mcq-23": "「非常罕見地；極少」是「once in a blue moon」的用法，與本句語境不同。",
-        "once-mcq-18": "「一次或兩次；泛指極少次數」是「once or twice」的用法，與本句語境不同。"
+        "once-mcq-21": "本句的「once」指「只限這一次，不代表將來亦可如此」。",
+        "once-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-21"
     },
@@ -2164,11 +1960,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "once-mcq-22",
-        "once-mcq-21",
-        "once-mcq-23",
-        "once-mcq-20",
-        "once-mcq-24",
-        "once-mcq-19"
+        "once-mcq-19",
+        "once-mcq-26",
+        "once-mcq-13"
       ],
       "explanation": "本句的「once-in-a-lifetime opportunity」指「極其罕見，可能一生只會遇到一次」。",
       "sentenceIndex": 51,
@@ -2177,12 +1971,10 @@ export default {
         "once-in-a-lifetime opportunity"
       ],
       "optionReasons": {
-        "once-mcq-22": "本句指「極其罕見，可能一生只會遇到一次」。",
-        "once-mcq-21": "「只限這一次，不代表將來亦可如此」是「just this once」的用法，與本句語境不同。",
-        "once-mcq-23": "「非常罕見地；極少」是「once in a blue moon」的用法，與本句語境不同。",
-        "once-mcq-20": "「與平常不同，這一次難得出現某種情況」是「for once」的用法，與本句語境不同。",
-        "once-mcq-24": "「快速但整體地查看／檢查某物一次」是「once-over」的用法，與本句語境不同。",
-        "once-mcq-19": "「某種行為重複過多，終於造成不良後果」是「once too often」的用法，與本句語境不同。"
+        "once-mcq-22": "本句的「once-in-a-lifetime opportunity」指「極其罕見，可能一生只會遇到一次」。",
+        "once-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-22"
     },
@@ -2194,10 +1986,8 @@ export default {
       "masked": "For her, the trip was a ____ experience.",
       "options": [
         "once-mcq-22",
-        "once-mcq-21",
-        "once-mcq-23",
-        "once-mcq-20",
-        "once-mcq-24",
+        "once-mcq-13",
+        "once-mcq-26",
         "once-mcq-19"
       ],
       "explanation": "本句的「once-in-a-lifetime」指「極其罕見，可能一生只會遇到一次」。",
@@ -2207,12 +1997,10 @@ export default {
         "once-in-a-lifetime"
       ],
       "optionReasons": {
-        "once-mcq-22": "本句指「極其罕見，可能一生只會遇到一次」。",
-        "once-mcq-21": "「只限這一次，不代表將來亦可如此」是「just this once」的用法，與本句語境不同。",
-        "once-mcq-23": "「非常罕見地；極少」是「once in a blue moon」的用法，與本句語境不同。",
-        "once-mcq-20": "「與平常不同，這一次難得出現某種情況」是「for once」的用法，與本句語境不同。",
-        "once-mcq-24": "「快速但整體地查看／檢查某物一次」是「once-over」的用法，與本句語境不同。",
-        "once-mcq-19": "「某種行為重複過多，終於造成不良後果」是「once too often」的用法，與本句語境不同。"
+        "once-mcq-22": "本句的「once-in-a-lifetime」指「極其罕見，可能一生只會遇到一次」。",
+        "once-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-22"
     },
@@ -2224,11 +2012,9 @@ export default {
       "masked": "He cooks ____.",
       "options": [
         "once-mcq-23",
-        "once-mcq-22",
         "once-mcq-24",
-        "once-mcq-21",
-        "once-mcq-25",
-        "once-mcq-20"
+        "once-mcq-08",
+        "once-mcq-11"
       ],
       "explanation": "本句的「once in a blue moon」指「非常罕見地；極少」。",
       "sentenceIndex": 53,
@@ -2237,12 +2023,10 @@ export default {
         "once in a blue moon"
       ],
       "optionReasons": {
-        "once-mcq-23": "本句指「非常罕見地；極少」。",
-        "once-mcq-22": "「極其罕見，可能一生只會遇到一次」是「once in a lifetime」的用法，與本句語境不同。",
-        "once-mcq-24": "「快速但整體地查看／檢查某物一次」是「once-over」的用法，與本句語境不同。",
-        "once-mcq-21": "「只限這一次，不代表將來亦可如此」是「just this once」的用法，與本句語境不同。",
-        "once-mcq-25": "「表示過去曾存在過的狀態／身份」是「6. once + past state（以前曾經……） — 曾經；一度」的用法，與本句語境不同。",
-        "once-mcq-20": "「與平常不同，這一次難得出現某種情況」是「for once」的用法，與本句語境不同。"
+        "once-mcq-23": "本句的「once in a blue moon」指「非常罕見地；極少」。",
+        "once-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-23"
     },
@@ -2254,11 +2038,9 @@ export default {
       "masked": "We see each other ____ in a blue moon.",
       "options": [
         "once-mcq-23",
-        "once-mcq-22",
-        "once-mcq-24",
-        "once-mcq-21",
+        "once-mcq-11",
         "once-mcq-25",
-        "once-mcq-20"
+        "once-mcq-21"
       ],
       "explanation": "本句的「once」指「非常罕見地；極少」。",
       "sentenceIndex": 54,
@@ -2267,12 +2049,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-23": "本句指「非常罕見地；極少」。",
-        "once-mcq-22": "「極其罕見，可能一生只會遇到一次」是「once in a lifetime」的用法，與本句語境不同。",
-        "once-mcq-24": "「快速但整體地查看／檢查某物一次」是「once-over」的用法，與本句語境不同。",
-        "once-mcq-21": "「只限這一次，不代表將來亦可如此」是「just this once」的用法，與本句語境不同。",
-        "once-mcq-25": "「表示過去曾存在過的狀態／身份」是「6. once + past state（以前曾經……） — 曾經；一度」的用法，與本句語境不同。",
-        "once-mcq-20": "「與平常不同，這一次難得出現某種情況」是「for once」的用法，與本句語境不同。"
+        "once-mcq-23": "本句的「once」指「非常罕見地；極少」。",
+        "once-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-23"
     },
@@ -2284,11 +2064,9 @@ export default {
       "masked": "Give the report a quick ____.",
       "options": [
         "once-mcq-24",
-        "once-mcq-23",
+        "once-mcq-16",
         "once-mcq-25",
-        "once-mcq-22",
-        "once-mcq-26",
-        "once-mcq-21"
+        "once-mcq-11"
       ],
       "explanation": "本句的「once-over」指「快速但整體地查看／檢查某物一次」。",
       "sentenceIndex": 55,
@@ -2297,12 +2075,10 @@ export default {
         "once-over"
       ],
       "optionReasons": {
-        "once-mcq-24": "本句指「快速但整體地查看／檢查某物一次」。",
-        "once-mcq-23": "「非常罕見地；極少」是「once in a blue moon」的用法，與本句語境不同。",
-        "once-mcq-25": "「表示過去曾存在過的狀態／身份」是「6. once + past state（以前曾經……） — 曾經；一度」的用法，與本句語境不同。",
-        "once-mcq-22": "「極其罕見，可能一生只會遇到一次」是「once in a lifetime」的用法，與本句語境不同。",
-        "once-mcq-26": "「曾經處於某種狀態、現在已不一定如此」是「7. once-famous / once-popular（曾經著名／流行） — 曾經……的」的用法，與本句語境不同。",
-        "once-mcq-21": "「只限這一次，不代表將來亦可如此」是「just this once」的用法，與本句語境不同。"
+        "once-mcq-24": "本句的「once-over」指「快速但整體地查看／檢查某物一次」。",
+        "once-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-24"
     },
@@ -2314,11 +2090,9 @@ export default {
       "masked": "I gave the room a ____ before the guests arrived.",
       "options": [
         "once-mcq-24",
-        "once-mcq-23",
+        "once-mcq-16",
         "once-mcq-25",
-        "once-mcq-22",
-        "once-mcq-26",
-        "once-mcq-21"
+        "once-mcq-11"
       ],
       "explanation": "本句的「once-over」指「快速但整體地查看／檢查某物一次」。",
       "sentenceIndex": 56,
@@ -2327,12 +2101,10 @@ export default {
         "once-over"
       ],
       "optionReasons": {
-        "once-mcq-24": "本句指「快速但整體地查看／檢查某物一次」。",
-        "once-mcq-23": "「非常罕見地；極少」是「once in a blue moon」的用法，與本句語境不同。",
-        "once-mcq-25": "「表示過去曾存在過的狀態／身份」是「6. once + past state（以前曾經……） — 曾經；一度」的用法，與本句語境不同。",
-        "once-mcq-22": "「極其罕見，可能一生只會遇到一次」是「once in a lifetime」的用法，與本句語境不同。",
-        "once-mcq-26": "「曾經處於某種狀態、現在已不一定如此」是「7. once-famous / once-popular（曾經著名／流行） — 曾經……的」的用法，與本句語境不同。",
-        "once-mcq-21": "「只限這一次，不代表將來亦可如此」是「just this once」的用法，與本句語境不同。"
+        "once-mcq-24": "本句的「once-over」指「快速但整體地查看／檢查某物一次」。",
+        "once-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-24"
     },
@@ -2344,11 +2116,9 @@ export default {
       "masked": "The ____ powerful company became much smaller.",
       "options": [
         "once-mcq-06",
-        "once-mcq-05",
-        "once-mcq-07",
+        "once-mcq-15",
         "once-mcq-04",
-        "once-mcq-08",
-        "once-mcq-03"
+        "once-mcq-23"
       ],
       "explanation": "本句的「once」指「曾經具有某個特徵，但現在情況已可能改變」。",
       "sentenceIndex": 57,
@@ -2357,12 +2127,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-06": "本句指「曾經具有某個特徵，但現在情況已可能改變」。",
-        "once-mcq-05": "「在過去某個時候曾經如此，但現在未必仍然如此」是「once — formerly」的用法，與本句語境不同。",
-        "once-mcq-07": "「在目前／所談時間之前曾經發生過一次」是「once before」的用法，與本句語境不同。",
-        "once-mcq-04": "「強調某事只有一次、沒有更多次」是「only/just once」的用法，與本句語境不同。",
-        "once-mcq-08": "「同一動作／情況再次發生」是「once again」的用法，與本句語境不同。",
-        "once-mcq-03": "「每隔指定時間發生一次」是「once every X」的用法，與本句語境不同。"
+        "once-mcq-06": "本句的「once」指「曾經具有某個特徵，但現在情況已可能改變」。",
+        "once-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-06"
     },
@@ -2374,11 +2142,9 @@ export default {
       "masked": "The ____ quiet neighbourhood became busy.",
       "options": [
         "once-mcq-06",
-        "once-mcq-05",
-        "once-mcq-07",
-        "once-mcq-04",
-        "once-mcq-08",
-        "once-mcq-03"
+        "once-mcq-14",
+        "once-mcq-17",
+        "once-mcq-04"
       ],
       "explanation": "本句的「once」指「曾經具有某個特徵，但現在情況已可能改變」。",
       "sentenceIndex": 58,
@@ -2387,12 +2153,10 @@ export default {
         "once"
       ],
       "optionReasons": {
-        "once-mcq-06": "本句指「曾經具有某個特徵，但現在情況已可能改變」。",
-        "once-mcq-05": "「在過去某個時候曾經如此，但現在未必仍然如此」是「once — formerly」的用法，與本句語境不同。",
-        "once-mcq-07": "「在目前／所談時間之前曾經發生過一次」是「once before」的用法，與本句語境不同。",
-        "once-mcq-04": "「強調某事只有一次、沒有更多次」是「only/just once」的用法，與本句語境不同。",
-        "once-mcq-08": "「同一動作／情況再次發生」是「once again」的用法，與本句語境不同。",
-        "once-mcq-03": "「每隔指定時間發生一次」是「once every X」的用法，與本句語境不同。"
+        "once-mcq-06": "本句的「once」指「曾經具有某個特徵，但現在情況已可能改變」。",
+        "once-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "once-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "once-mcq-06"
     }
@@ -2404,5 +2168,7 @@ export default {
     "sha256": "c25d9b3611c0d584a87fa8d43f4a6b874db8a3ea2965f7439746b370730b82b3",
     "pages": 27
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

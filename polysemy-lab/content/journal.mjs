@@ -399,11 +399,8 @@ export default {
       "masked": "I keep a ____ beside my bed.",
       "options": [
         "journal-mcq-01",
-        "journal-mcq-02",
-        "journal-mcq-03",
-        "journal-mcq-04",
-        "journal-mcq-05",
-        "journal-mcq-06"
+        "journal-mcq-16",
+        "journal-mcq-10"
       ],
       "explanation": "本句的「journal」指「定期記錄個人經歷、想法、感受的日記／札記」。",
       "sentenceIndex": 0,
@@ -412,12 +409,9 @@ export default {
         "journal"
       ],
       "optionReasons": {
-        "journal-mcq-01": "本句指「定期記錄個人經歷、想法、感受的日記／札記」。",
-        "journal-mcq-02": "「持續寫日記或個人反思記錄」與本句語境不同。",
-        "journal-mcq-03": "「定期刊登研究、論文等的學術／專業期刊」與本句語境不同。",
-        "journal-mcq-04": "「文章出版前經專家審查的同行評審期刊」與本句語境不同。",
-        "journal-mcq-05": "「定期記錄活動、觀察或進展的日誌／紀錄簿」與本句語境不同。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。"
+        "journal-mcq-01": "本句的「journal」指「定期記錄個人經歷、想法、感受的日記／札記」。",
+        "journal-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-01"
     },
@@ -429,11 +423,8 @@ export default {
       "masked": "She writes in her ____ every evening.",
       "options": [
         "journal-mcq-01",
-        "journal-mcq-02",
-        "journal-mcq-03",
-        "journal-mcq-04",
-        "journal-mcq-05",
-        "journal-mcq-06"
+        "journal-mcq-16",
+        "journal-mcq-10"
       ],
       "explanation": "本句的「journal」指「定期記錄個人經歷、想法、感受的日記／札記」。",
       "sentenceIndex": 1,
@@ -442,12 +433,9 @@ export default {
         "journal"
       ],
       "optionReasons": {
-        "journal-mcq-01": "本句指「定期記錄個人經歷、想法、感受的日記／札記」。",
-        "journal-mcq-02": "「持續寫日記或個人反思記錄」與本句語境不同。",
-        "journal-mcq-03": "「定期刊登研究、論文等的學術／專業期刊」與本句語境不同。",
-        "journal-mcq-04": "「文章出版前經專家審查的同行評審期刊」與本句語境不同。",
-        "journal-mcq-05": "「定期記錄活動、觀察或進展的日誌／紀錄簿」與本句語境不同。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。"
+        "journal-mcq-01": "本句的「journal」指「定期記錄個人經歷、想法、感受的日記／札記」。",
+        "journal-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-01"
     },
@@ -459,11 +447,8 @@ export default {
       "masked": "He kept a travel ____ during the trip.",
       "options": [
         "journal-mcq-01",
-        "journal-mcq-02",
-        "journal-mcq-03",
-        "journal-mcq-04",
-        "journal-mcq-05",
-        "journal-mcq-06"
+        "journal-mcq-16",
+        "journal-mcq-10"
       ],
       "explanation": "本句的「journal」指「定期記錄個人經歷、想法、感受的日記／札記」。",
       "sentenceIndex": 2,
@@ -472,12 +457,9 @@ export default {
         "journal"
       ],
       "optionReasons": {
-        "journal-mcq-01": "本句指「定期記錄個人經歷、想法、感受的日記／札記」。",
-        "journal-mcq-02": "「持續寫日記或個人反思記錄」與本句語境不同。",
-        "journal-mcq-03": "「定期刊登研究、論文等的學術／專業期刊」與本句語境不同。",
-        "journal-mcq-04": "「文章出版前經專家審查的同行評審期刊」與本句語境不同。",
-        "journal-mcq-05": "「定期記錄活動、觀察或進展的日誌／紀錄簿」與本句語境不同。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。"
+        "journal-mcq-01": "本句的「journal」指「定期記錄個人經歷、想法、感受的日記／札記」。",
+        "journal-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-01"
     },
@@ -489,11 +471,8 @@ export default {
       "masked": "Writing a ____ helped her organize her thoughts.",
       "options": [
         "journal-mcq-01",
-        "journal-mcq-02",
-        "journal-mcq-03",
-        "journal-mcq-04",
-        "journal-mcq-05",
-        "journal-mcq-06"
+        "journal-mcq-17",
+        "journal-mcq-10"
       ],
       "explanation": "本句的「journal」指「定期記錄個人經歷、想法、感受的日記／札記」。",
       "sentenceIndex": 3,
@@ -502,12 +481,9 @@ export default {
         "journal"
       ],
       "optionReasons": {
-        "journal-mcq-01": "本句指「定期記錄個人經歷、想法、感受的日記／札記」。",
-        "journal-mcq-02": "「持續寫日記或個人反思記錄」與本句語境不同。",
-        "journal-mcq-03": "「定期刊登研究、論文等的學術／專業期刊」與本句語境不同。",
-        "journal-mcq-04": "「文章出版前經專家審查的同行評審期刊」與本句語境不同。",
-        "journal-mcq-05": "「定期記錄活動、觀察或進展的日誌／紀錄簿」與本句語境不同。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。"
+        "journal-mcq-01": "本句的「journal」指「定期記錄個人經歷、想法、感受的日記／札記」。",
+        "journal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-01"
     },
@@ -519,11 +495,8 @@ export default {
       "masked": "I’ve ____ for years.",
       "options": [
         "journal-mcq-02",
-        "journal-mcq-01",
-        "journal-mcq-03",
-        "journal-mcq-04",
-        "journal-mcq-05",
-        "journal-mcq-06"
+        "journal-mcq-17",
+        "journal-mcq-10"
       ],
       "explanation": "本句的「kept a journal」指「持續寫日記或個人反思記錄」。",
       "sentenceIndex": 4,
@@ -532,12 +505,9 @@ export default {
         "kept a journal"
       ],
       "optionReasons": {
-        "journal-mcq-02": "本句指「持續寫日記或個人反思記錄」。",
-        "journal-mcq-01": "「定期記錄個人經歷、想法、感受的日記／札記」與本句語境不同。",
-        "journal-mcq-03": "「定期刊登研究、論文等的學術／專業期刊」與本句語境不同。",
-        "journal-mcq-04": "「文章出版前經專家審查的同行評審期刊」與本句語境不同。",
-        "journal-mcq-05": "「定期記錄活動、觀察或進展的日誌／紀錄簿」與本句語境不同。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。"
+        "journal-mcq-02": "本句的「kept a journal」指「持續寫日記或個人反思記錄」。",
+        "journal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-02"
     },
@@ -549,11 +519,7 @@ export default {
       "masked": "She began to ____ at university.",
       "options": [
         "journal-mcq-02",
-        "journal-mcq-01",
-        "journal-mcq-03",
-        "journal-mcq-04",
-        "journal-mcq-05",
-        "journal-mcq-06"
+        "journal-mcq-03"
       ],
       "explanation": "本句的「keep a journal」指「持續寫日記或個人反思記錄」。",
       "sentenceIndex": 5,
@@ -562,12 +528,8 @@ export default {
         "keep a journal"
       ],
       "optionReasons": {
-        "journal-mcq-02": "本句指「持續寫日記或個人反思記錄」。",
-        "journal-mcq-01": "「定期記錄個人經歷、想法、感受的日記／札記」與本句語境不同。",
-        "journal-mcq-03": "「定期刊登研究、論文等的學術／專業期刊」與本句語境不同。",
-        "journal-mcq-04": "「文章出版前經專家審查的同行評審期刊」與本句語境不同。",
-        "journal-mcq-05": "「定期記錄活動、觀察或進展的日誌／紀錄簿」與本句語境不同。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。"
+        "journal-mcq-02": "本句的「keep a journal」指「持續寫日記或個人反思記錄」。",
+        "journal-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-02"
     },
@@ -579,11 +541,7 @@ export default {
       "masked": "The study was published in a medical ____.",
       "options": [
         "journal-mcq-03",
-        "journal-mcq-02",
-        "journal-mcq-04",
-        "journal-mcq-01",
-        "journal-mcq-05",
-        "journal-mcq-06"
+        "journal-mcq-14"
       ],
       "explanation": "本句的「journal」指「定期刊登研究、論文等的學術／專業期刊」。",
       "sentenceIndex": 6,
@@ -592,12 +550,8 @@ export default {
         "journal"
       ],
       "optionReasons": {
-        "journal-mcq-03": "本句指「定期刊登研究、論文等的學術／專業期刊」。",
-        "journal-mcq-02": "「持續寫日記或個人反思記錄」與本句語境不同。",
-        "journal-mcq-04": "「文章出版前經專家審查的同行評審期刊」與本句語境不同。",
-        "journal-mcq-01": "「定期記錄個人經歷、想法、感受的日記／札記」與本句語境不同。",
-        "journal-mcq-05": "「定期記錄活動、觀察或進展的日誌／紀錄簿」與本句語境不同。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。"
+        "journal-mcq-03": "本句的「journal」指「定期刊登研究、論文等的學術／專業期刊」。",
+        "journal-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-03"
     },
@@ -609,11 +563,7 @@ export default {
       "masked": "She reads several academic ____ every month.",
       "options": [
         "journal-mcq-03",
-        "journal-mcq-02",
-        "journal-mcq-04",
-        "journal-mcq-01",
-        "journal-mcq-05",
-        "journal-mcq-06"
+        "journal-mcq-02"
       ],
       "explanation": "本句的「journals」指「定期刊登研究、論文等的學術／專業期刊」。",
       "sentenceIndex": 7,
@@ -622,12 +572,8 @@ export default {
         "journals"
       ],
       "optionReasons": {
-        "journal-mcq-03": "本句指「定期刊登研究、論文等的學術／專業期刊」。",
-        "journal-mcq-02": "「持續寫日記或個人反思記錄」與本句語境不同。",
-        "journal-mcq-04": "「文章出版前經專家審查的同行評審期刊」與本句語境不同。",
-        "journal-mcq-01": "「定期記錄個人經歷、想法、感受的日記／札記」與本句語境不同。",
-        "journal-mcq-05": "「定期記錄活動、觀察或進展的日誌／紀錄簿」與本句語境不同。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。"
+        "journal-mcq-03": "本句的「journals」指「定期刊登研究、論文等的學術／專業期刊」。",
+        "journal-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-03"
     },
@@ -639,11 +585,8 @@ export default {
       "masked": "The article appeared in a ____.",
       "options": [
         "journal-mcq-04",
-        "journal-mcq-03",
-        "journal-mcq-05",
-        "journal-mcq-02",
-        "journal-mcq-06",
-        "journal-mcq-01"
+        "journal-mcq-17",
+        "journal-mcq-09"
       ],
       "explanation": "本句的「peer-reviewed journal」指「文章出版前經專家審查的同行評審期刊」。",
       "sentenceIndex": 8,
@@ -652,12 +595,9 @@ export default {
         "peer-reviewed journal"
       ],
       "optionReasons": {
-        "journal-mcq-04": "本句指「文章出版前經專家審查的同行評審期刊」。",
-        "journal-mcq-03": "「定期刊登研究、論文等的學術／專業期刊」與本句語境不同。",
-        "journal-mcq-05": "「定期記錄活動、觀察或進展的日誌／紀錄簿」與本句語境不同。",
-        "journal-mcq-02": "「持續寫日記或個人反思記錄」與本句語境不同。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。",
-        "journal-mcq-01": "「定期記錄個人經歷、想法、感受的日記／札記」與本句語境不同。"
+        "journal-mcq-04": "本句的「peer-reviewed journal」指「文章出版前經專家審查的同行評審期刊」。",
+        "journal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-04"
     },
@@ -669,11 +609,8 @@ export default {
       "masked": "Researchers are encouraged to publish in ____.",
       "options": [
         "journal-mcq-04",
-        "journal-mcq-03",
-        "journal-mcq-05",
-        "journal-mcq-02",
-        "journal-mcq-06",
-        "journal-mcq-01"
+        "journal-mcq-16",
+        "journal-mcq-09"
       ],
       "explanation": "本句的「peer-reviewed journals」指「文章出版前經專家審查的同行評審期刊」。",
       "sentenceIndex": 9,
@@ -682,12 +619,9 @@ export default {
         "peer-reviewed journals"
       ],
       "optionReasons": {
-        "journal-mcq-04": "本句指「文章出版前經專家審查的同行評審期刊」。",
-        "journal-mcq-03": "「定期刊登研究、論文等的學術／專業期刊」與本句語境不同。",
-        "journal-mcq-05": "「定期記錄活動、觀察或進展的日誌／紀錄簿」與本句語境不同。",
-        "journal-mcq-02": "「持續寫日記或個人反思記錄」與本句語境不同。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。",
-        "journal-mcq-01": "「定期記錄個人經歷、想法、感受的日記／札記」與本句語境不同。"
+        "journal-mcq-04": "本句的「peer-reviewed journals」指「文章出版前經專家審查的同行評審期刊」。",
+        "journal-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-04"
     },
@@ -699,11 +633,8 @@ export default {
       "masked": "The captain kept a ship’s ____.",
       "options": [
         "journal-mcq-05",
-        "journal-mcq-04",
-        "journal-mcq-06",
-        "journal-mcq-03",
-        "journal-mcq-07",
-        "journal-mcq-02"
+        "journal-mcq-17",
+        "journal-mcq-10"
       ],
       "explanation": "本句的「journal」指「定期記錄活動、觀察或進展的日誌／紀錄簿」。",
       "sentenceIndex": 12,
@@ -712,12 +643,9 @@ export default {
         "journal"
       ],
       "optionReasons": {
-        "journal-mcq-05": "本句指「定期記錄活動、觀察或進展的日誌／紀錄簿」。",
-        "journal-mcq-04": "「文章出版前經專家審查的同行評審期刊」與本句語境不同。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。",
-        "journal-mcq-03": "「定期刊登研究、論文等的學術／專業期刊」與本句語境不同。",
-        "journal-mcq-07": "「用於記錄學習過程與反思的學習／反思日誌」與本句語境不同。",
-        "journal-mcq-02": "「持續寫日記或個人反思記錄」與本句語境不同。"
+        "journal-mcq-05": "本句的「journal」指「定期記錄活動、觀察或進展的日誌／紀錄簿」。",
+        "journal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-05"
     },
@@ -729,11 +657,8 @@ export default {
       "masked": "Students were asked to keep a learning ____.",
       "options": [
         "journal-mcq-05",
-        "journal-mcq-04",
-        "journal-mcq-06",
-        "journal-mcq-03",
-        "journal-mcq-07",
-        "journal-mcq-02"
+        "journal-mcq-16",
+        "journal-mcq-10"
       ],
       "explanation": "本句的「journal」指「定期記錄活動、觀察或進展的日誌／紀錄簿」。",
       "sentenceIndex": 13,
@@ -742,12 +667,9 @@ export default {
         "journal"
       ],
       "optionReasons": {
-        "journal-mcq-05": "本句指「定期記錄活動、觀察或進展的日誌／紀錄簿」。",
-        "journal-mcq-04": "「文章出版前經專家審查的同行評審期刊」與本句語境不同。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。",
-        "journal-mcq-03": "「定期刊登研究、論文等的學術／專業期刊」與本句語境不同。",
-        "journal-mcq-07": "「用於記錄學習過程與反思的學習／反思日誌」與本句語境不同。",
-        "journal-mcq-02": "「持續寫日記或個人反思記錄」與本句語境不同。"
+        "journal-mcq-05": "本句的「journal」指「定期記錄活動、觀察或進展的日誌／紀錄簿」。",
+        "journal-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-05"
     },
@@ -759,10 +681,6 @@ export default {
       "masked": "She filled her ____ with sketches and notes.",
       "options": [
         "journal-mcq-06",
-        "journal-mcq-05",
-        "journal-mcq-07",
-        "journal-mcq-04",
-        "journal-mcq-08",
         "journal-mcq-03"
       ],
       "explanation": "本句的「travel journal」指「記錄旅行經歷與觀察的旅遊日誌」。",
@@ -772,12 +690,8 @@ export default {
         "travel journal"
       ],
       "optionReasons": {
-        "journal-mcq-06": "本句指「記錄旅行經歷與觀察的旅遊日誌」。",
-        "journal-mcq-05": "「定期記錄活動、觀察或進展的日誌／紀錄簿」與本句語境不同。",
-        "journal-mcq-07": "「用於記錄學習過程與反思的學習／反思日誌」與本句語境不同。",
-        "journal-mcq-04": "「文章出版前經專家審查的同行評審期刊」與本句語境不同。",
-        "journal-mcq-08": "「按時間順序記錄財務交易的日記帳」與本句語境不同。",
-        "journal-mcq-03": "「定期刊登研究、論文等的學術／專業期刊」與本句語境不同。"
+        "journal-mcq-06": "本句的「travel journal」指「記錄旅行經歷與觀察的旅遊日誌」。",
+        "journal-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-06"
     },
@@ -789,10 +703,6 @@ export default {
       "masked": "His ____ later became a book.",
       "options": [
         "journal-mcq-06",
-        "journal-mcq-05",
-        "journal-mcq-07",
-        "journal-mcq-04",
-        "journal-mcq-08",
         "journal-mcq-03"
       ],
       "explanation": "本句的「travel journal」指「記錄旅行經歷與觀察的旅遊日誌」。",
@@ -802,12 +712,8 @@ export default {
         "travel journal"
       ],
       "optionReasons": {
-        "journal-mcq-06": "本句指「記錄旅行經歷與觀察的旅遊日誌」。",
-        "journal-mcq-05": "「定期記錄活動、觀察或進展的日誌／紀錄簿」與本句語境不同。",
-        "journal-mcq-07": "「用於記錄學習過程與反思的學習／反思日誌」與本句語境不同。",
-        "journal-mcq-04": "「文章出版前經專家審查的同行評審期刊」與本句語境不同。",
-        "journal-mcq-08": "「按時間順序記錄財務交易的日記帳」與本句語境不同。",
-        "journal-mcq-03": "「定期刊登研究、論文等的學術／專業期刊」與本句語境不同。"
+        "journal-mcq-06": "本句的「travel journal」指「記錄旅行經歷與觀察的旅遊日誌」。",
+        "journal-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-06"
     },
@@ -819,11 +725,8 @@ export default {
       "masked": "We had to submit a ____.",
       "options": [
         "journal-mcq-07",
-        "journal-mcq-06",
-        "journal-mcq-08",
-        "journal-mcq-05",
-        "journal-mcq-09",
-        "journal-mcq-04"
+        "journal-mcq-10",
+        "journal-mcq-17"
       ],
       "explanation": "本句的「reflective journal」指「用於記錄學習過程與反思的學習／反思日誌」。",
       "sentenceIndex": 16,
@@ -832,12 +735,9 @@ export default {
         "reflective journal"
       ],
       "optionReasons": {
-        "journal-mcq-07": "本句指「用於記錄學習過程與反思的學習／反思日誌」。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。",
-        "journal-mcq-08": "「按時間順序記錄財務交易的日記帳」與本句語境不同。",
-        "journal-mcq-05": "「定期記錄活動、觀察或進展的日誌／紀錄簿」與本句語境不同。",
-        "journal-mcq-09": "「日記帳中的一筆會計分錄」與本句語境不同。",
-        "journal-mcq-04": "「文章出版前經專家審查的同行評審期刊」與本句語境不同。"
+        "journal-mcq-07": "本句的「reflective journal」指「用於記錄學習過程與反思的學習／反思日誌」。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-07"
     },
@@ -849,11 +749,8 @@ export default {
       "masked": "A ____ can help track progress.",
       "options": [
         "journal-mcq-07",
-        "journal-mcq-06",
-        "journal-mcq-08",
-        "journal-mcq-05",
-        "journal-mcq-09",
-        "journal-mcq-04"
+        "journal-mcq-16",
+        "journal-mcq-10"
       ],
       "explanation": "本句的「learning journal」指「用於記錄學習過程與反思的學習／反思日誌」。",
       "sentenceIndex": 17,
@@ -862,12 +759,9 @@ export default {
         "learning journal"
       ],
       "optionReasons": {
-        "journal-mcq-07": "本句指「用於記錄學習過程與反思的學習／反思日誌」。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。",
-        "journal-mcq-08": "「按時間順序記錄財務交易的日記帳」與本句語境不同。",
-        "journal-mcq-05": "「定期記錄活動、觀察或進展的日誌／紀錄簿」與本句語境不同。",
-        "journal-mcq-09": "「日記帳中的一筆會計分錄」與本句語境不同。",
-        "journal-mcq-04": "「文章出版前經專家審查的同行評審期刊」與本句語境不同。"
+        "journal-mcq-07": "本句的「learning journal」指「用於記錄學習過程與反思的學習／反思日誌」。",
+        "journal-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-07"
     },
@@ -879,11 +773,8 @@ export default {
       "masked": "The accountant entered the transaction in the ____.",
       "options": [
         "journal-mcq-08",
-        "journal-mcq-07",
-        "journal-mcq-09",
-        "journal-mcq-06",
-        "journal-mcq-10",
-        "journal-mcq-05"
+        "journal-mcq-17",
+        "journal-mcq-10"
       ],
       "explanation": "本句的「journal」指「按時間順序記錄財務交易的日記帳」。",
       "sentenceIndex": 18,
@@ -892,12 +783,9 @@ export default {
         "journal"
       ],
       "optionReasons": {
-        "journal-mcq-08": "本句指「按時間順序記錄財務交易的日記帳」。",
-        "journal-mcq-07": "「用於記錄學習過程與反思的學習／反思日誌」與本句語境不同。",
-        "journal-mcq-09": "「日記帳中的一筆會計分錄」與本句語境不同。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。",
-        "journal-mcq-10": "「較正式或刊名中使用的報刊／期刊」與本句語境不同。",
-        "journal-mcq-05": "「定期記錄活動、觀察或進展的日誌／紀錄簿」與本句語境不同。"
+        "journal-mcq-08": "本句的「journal」指「按時間順序記錄財務交易的日記帳」。",
+        "journal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-08"
     },
@@ -909,11 +797,7 @@ export default {
       "masked": "Each entry in the ____ must balance.",
       "options": [
         "journal-mcq-08",
-        "journal-mcq-07",
-        "journal-mcq-09",
-        "journal-mcq-06",
-        "journal-mcq-10",
-        "journal-mcq-05"
+        "journal-mcq-03"
       ],
       "explanation": "本句的「journal」指「按時間順序記錄財務交易的日記帳」。",
       "sentenceIndex": 19,
@@ -922,12 +806,8 @@ export default {
         "journal"
       ],
       "optionReasons": {
-        "journal-mcq-08": "本句指「按時間順序記錄財務交易的日記帳」。",
-        "journal-mcq-07": "「用於記錄學習過程與反思的學習／反思日誌」與本句語境不同。",
-        "journal-mcq-09": "「日記帳中的一筆會計分錄」與本句語境不同。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。",
-        "journal-mcq-10": "「較正式或刊名中使用的報刊／期刊」與本句語境不同。",
-        "journal-mcq-05": "「定期記錄活動、觀察或進展的日誌／紀錄簿」與本句語境不同。"
+        "journal-mcq-08": "本句的「journal」指「按時間順序記錄財務交易的日記帳」。",
+        "journal-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-08"
     },
@@ -939,11 +819,8 @@ export default {
       "masked": "She made a ____ for the payment.",
       "options": [
         "journal-mcq-09",
-        "journal-mcq-08",
-        "journal-mcq-10",
-        "journal-mcq-07",
-        "journal-mcq-11",
-        "journal-mcq-06"
+        "journal-mcq-04",
+        "journal-mcq-17"
       ],
       "explanation": "本句的「journal entry」指「日記帳中的一筆會計分錄」。",
       "sentenceIndex": 20,
@@ -952,12 +829,9 @@ export default {
         "journal entry"
       ],
       "optionReasons": {
-        "journal-mcq-09": "本句指「日記帳中的一筆會計分錄」。",
-        "journal-mcq-08": "「按時間順序記錄財務交易的日記帳」與本句語境不同。",
-        "journal-mcq-10": "「較正式或刊名中使用的報刊／期刊」與本句語境不同。",
-        "journal-mcq-07": "「用於記錄學習過程與反思的學習／反思日誌」與本句語境不同。",
-        "journal-mcq-11": "「定期寫下個人思想、經歷或反思；寫日記」與本句語境不同。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。"
+        "journal-mcq-09": "本句的「journal entry」指「日記帳中的一筆會計分錄」。",
+        "journal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-09"
     },
@@ -969,11 +843,7 @@ export default {
       "masked": "The incorrect ____ had to be reversed.",
       "options": [
         "journal-mcq-09",
-        "journal-mcq-08",
-        "journal-mcq-10",
-        "journal-mcq-07",
-        "journal-mcq-11",
-        "journal-mcq-06"
+        "journal-mcq-03"
       ],
       "explanation": "本句的「journal entry」指「日記帳中的一筆會計分錄」。",
       "sentenceIndex": 21,
@@ -982,12 +852,8 @@ export default {
         "journal entry"
       ],
       "optionReasons": {
-        "journal-mcq-09": "本句指「日記帳中的一筆會計分錄」。",
-        "journal-mcq-08": "「按時間順序記錄財務交易的日記帳」與本句語境不同。",
-        "journal-mcq-10": "「較正式或刊名中使用的報刊／期刊」與本句語境不同。",
-        "journal-mcq-07": "「用於記錄學習過程與反思的學習／反思日誌」與本句語境不同。",
-        "journal-mcq-11": "「定期寫下個人思想、經歷或反思；寫日記」與本句語境不同。",
-        "journal-mcq-06": "「記錄旅行經歷與觀察的旅遊日誌」與本句語境不同。"
+        "journal-mcq-09": "本句的「journal entry」指「日記帳中的一筆會計分錄」。",
+        "journal-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-09"
     },
@@ -1000,10 +866,7 @@ export default {
       "options": [
         "journal-mcq-10",
         "journal-mcq-09",
-        "journal-mcq-11",
-        "journal-mcq-08",
-        "journal-mcq-12",
-        "journal-mcq-07"
+        "journal-mcq-15"
       ],
       "explanation": "本句的「journal」指「較正式或刊名中使用的報刊／期刊」。",
       "sentenceIndex": 22,
@@ -1012,12 +875,9 @@ export default {
         "journal"
       ],
       "optionReasons": {
-        "journal-mcq-10": "本句指「較正式或刊名中使用的報刊／期刊」。",
-        "journal-mcq-09": "「日記帳中的一筆會計分錄」與本句語境不同。",
-        "journal-mcq-11": "「定期寫下個人思想、經歷或反思；寫日記」與本句語境不同。",
-        "journal-mcq-08": "「按時間順序記錄財務交易的日記帳」與本句語境不同。",
-        "journal-mcq-12": "「持續進行日記／反思書寫的習慣」與本句語境不同。",
-        "journal-mcq-07": "「用於記錄學習過程與反思的學習／反思日誌」與本句語境不同。"
+        "journal-mcq-10": "本句的「journal」指「較正式或刊名中使用的報刊／期刊」。",
+        "journal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-10"
     },
@@ -1029,11 +889,8 @@ export default {
       "masked": "Several publications use ____ in their titles.",
       "options": [
         "journal-mcq-10",
-        "journal-mcq-09",
-        "journal-mcq-11",
-        "journal-mcq-08",
-        "journal-mcq-12",
-        "journal-mcq-07"
+        "journal-mcq-02",
+        "journal-mcq-16"
       ],
       "explanation": "本句的「Journal」指「較正式或刊名中使用的報刊／期刊」。",
       "sentenceIndex": 23,
@@ -1042,12 +899,9 @@ export default {
         "Journal"
       ],
       "optionReasons": {
-        "journal-mcq-10": "本句指「較正式或刊名中使用的報刊／期刊」。",
-        "journal-mcq-09": "「日記帳中的一筆會計分錄」與本句語境不同。",
-        "journal-mcq-11": "「定期寫下個人思想、經歷或反思；寫日記」與本句語境不同。",
-        "journal-mcq-08": "「按時間順序記錄財務交易的日記帳」與本句語境不同。",
-        "journal-mcq-12": "「持續進行日記／反思書寫的習慣」與本句語境不同。",
-        "journal-mcq-07": "「用於記錄學習過程與反思的學習／反思日誌」與本句語境不同。"
+        "journal-mcq-10": "本句的「Journal」指「較正式或刊名中使用的報刊／期刊」。",
+        "journal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-10"
     },
@@ -1059,11 +913,9 @@ export default {
       "masked": "She ____ every morning.",
       "options": [
         "journal-mcq-11",
+        "journal-mcq-17",
         "journal-mcq-10",
-        "journal-mcq-12",
-        "journal-mcq-09",
-        "journal-mcq-13",
-        "journal-mcq-08"
+        "journal-mcq-14"
       ],
       "explanation": "本句的「journals」指「定期寫下個人思想、經歷或反思；寫日記」。",
       "sentenceIndex": 24,
@@ -1072,12 +924,10 @@ export default {
         "journals"
       ],
       "optionReasons": {
-        "journal-mcq-11": "本句指「定期寫下個人思想、經歷或反思；寫日記」。",
-        "journal-mcq-10": "「較正式或刊名中使用的報刊／期刊」與本句語境不同。",
-        "journal-mcq-12": "「持續進行日記／反思書寫的習慣」與本句語境不同。",
-        "journal-mcq-09": "「日記帳中的一筆會計分錄」與本句語境不同。",
-        "journal-mcq-13": "「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」與本句語境不同。",
-        "journal-mcq-08": "「按時間順序記錄財務交易的日記帳」與本句語境不同。"
+        "journal-mcq-11": "本句的「journals」指「定期寫下個人思想、經歷或反思；寫日記」。",
+        "journal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-11"
     },
@@ -1089,11 +939,9 @@ export default {
       "masked": "I started ____ during a stressful period.",
       "options": [
         "journal-mcq-11",
+        "journal-mcq-17",
         "journal-mcq-10",
-        "journal-mcq-12",
-        "journal-mcq-09",
-        "journal-mcq-13",
-        "journal-mcq-08"
+        "journal-mcq-14"
       ],
       "explanation": "本句的「journaling」指「定期寫下個人思想、經歷或反思；寫日記」。",
       "sentenceIndex": 25,
@@ -1102,12 +950,10 @@ export default {
         "journaling"
       ],
       "optionReasons": {
-        "journal-mcq-11": "本句指「定期寫下個人思想、經歷或反思；寫日記」。",
-        "journal-mcq-10": "「較正式或刊名中使用的報刊／期刊」與本句語境不同。",
-        "journal-mcq-12": "「持續進行日記／反思書寫的習慣」與本句語境不同。",
-        "journal-mcq-09": "「日記帳中的一筆會計分錄」與本句語境不同。",
-        "journal-mcq-13": "「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」與本句語境不同。",
-        "journal-mcq-08": "「按時間順序記錄財務交易的日記帳」與本句語境不同。"
+        "journal-mcq-11": "本句的「journaling」指「定期寫下個人思想、經歷或反思；寫日記」。",
+        "journal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-11"
     },
@@ -1119,11 +965,8 @@ export default {
       "masked": "____ helps me clear my mind.",
       "options": [
         "journal-mcq-12",
-        "journal-mcq-11",
-        "journal-mcq-13",
         "journal-mcq-10",
-        "journal-mcq-14",
-        "journal-mcq-09"
+        "journal-mcq-17"
       ],
       "explanation": "本句的「Journaling」指「持續進行日記／反思書寫的習慣」。",
       "sentenceIndex": 26,
@@ -1132,12 +975,9 @@ export default {
         "Journaling"
       ],
       "optionReasons": {
-        "journal-mcq-12": "本句指「持續進行日記／反思書寫的習慣」。",
-        "journal-mcq-11": "「定期寫下個人思想、經歷或反思；寫日記」與本句語境不同。",
-        "journal-mcq-13": "「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」與本句語境不同。",
-        "journal-mcq-10": "「較正式或刊名中使用的報刊／期刊」與本句語境不同。",
-        "journal-mcq-14": "「記錄實驗程序、觀察與結果的實驗日誌」與本句語境不同。",
-        "journal-mcq-09": "「日記帳中的一筆會計分錄」與本句語境不同。"
+        "journal-mcq-12": "本句的「Journaling」指「持續進行日記／反思書寫的習慣」。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-12"
     },
@@ -1149,11 +989,8 @@ export default {
       "masked": "She uses ____ as part of her morning routine.",
       "options": [
         "journal-mcq-12",
-        "journal-mcq-11",
-        "journal-mcq-13",
         "journal-mcq-10",
-        "journal-mcq-14",
-        "journal-mcq-09"
+        "journal-mcq-17"
       ],
       "explanation": "本句的「journaling」指「持續進行日記／反思書寫的習慣」。",
       "sentenceIndex": 27,
@@ -1162,12 +999,9 @@ export default {
         "journaling"
       ],
       "optionReasons": {
-        "journal-mcq-12": "本句指「持續進行日記／反思書寫的習慣」。",
-        "journal-mcq-11": "「定期寫下個人思想、經歷或反思；寫日記」與本句語境不同。",
-        "journal-mcq-13": "「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」與本句語境不同。",
-        "journal-mcq-10": "「較正式或刊名中使用的報刊／期刊」與本句語境不同。",
-        "journal-mcq-14": "「記錄實驗程序、觀察與結果的實驗日誌」與本句語境不同。",
-        "journal-mcq-09": "「日記帳中的一筆會計分錄」與本句語境不同。"
+        "journal-mcq-12": "本句的「journaling」指「持續進行日記／反思書寫的習慣」。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-12"
     },
@@ -1179,11 +1013,8 @@ export default {
       "masked": "She organizes her week with a ____.",
       "options": [
         "journal-mcq-13",
-        "journal-mcq-12",
-        "journal-mcq-14",
-        "journal-mcq-11",
-        "journal-mcq-15",
-        "journal-mcq-10"
+        "journal-mcq-10",
+        "journal-mcq-11"
       ],
       "explanation": "本句的「bullet journal」指「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」。",
       "sentenceIndex": 28,
@@ -1192,12 +1023,9 @@ export default {
         "bullet journal"
       ],
       "optionReasons": {
-        "journal-mcq-13": "本句指「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」。",
-        "journal-mcq-12": "「持續進行日記／反思書寫的習慣」與本句語境不同。",
-        "journal-mcq-14": "「記錄實驗程序、觀察與結果的實驗日誌」與本句語境不同。",
-        "journal-mcq-11": "「定期寫下個人思想、經歷或反思；寫日記」與本句語境不同。",
-        "journal-mcq-15": "「採訪、撰寫或製作新聞的記者／新聞工作者」與本句語境不同。",
-        "journal-mcq-10": "「較正式或刊名中使用的報刊／期刊」與本句語境不同。"
+        "journal-mcq-13": "本句的「bullet journal」指「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-13"
     },
@@ -1209,11 +1037,8 @@ export default {
       "masked": "A ____ can combine calendars, lists, and notes.",
       "options": [
         "journal-mcq-13",
-        "journal-mcq-12",
-        "journal-mcq-14",
-        "journal-mcq-11",
-        "journal-mcq-15",
-        "journal-mcq-10"
+        "journal-mcq-10",
+        "journal-mcq-11"
       ],
       "explanation": "本句的「bullet journal」指「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」。",
       "sentenceIndex": 29,
@@ -1222,12 +1047,9 @@ export default {
         "bullet journal"
       ],
       "optionReasons": {
-        "journal-mcq-13": "本句指「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」。",
-        "journal-mcq-12": "「持續進行日記／反思書寫的習慣」與本句語境不同。",
-        "journal-mcq-14": "「記錄實驗程序、觀察與結果的實驗日誌」與本句語境不同。",
-        "journal-mcq-11": "「定期寫下個人思想、經歷或反思；寫日記」與本句語境不同。",
-        "journal-mcq-15": "「採訪、撰寫或製作新聞的記者／新聞工作者」與本句語境不同。",
-        "journal-mcq-10": "「較正式或刊名中使用的報刊／期刊」與本句語境不同。"
+        "journal-mcq-13": "本句的「bullet journal」指「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-13"
     },
@@ -1239,10 +1061,8 @@ export default {
       "masked": "Researchers recorded the results in a ____.",
       "options": [
         "journal-mcq-14",
-        "journal-mcq-13",
-        "journal-mcq-15",
-        "journal-mcq-12",
-        "journal-mcq-16",
+        "journal-mcq-10",
+        "journal-mcq-17",
         "journal-mcq-11"
       ],
       "explanation": "本句的「laboratory journal」指「記錄實驗程序、觀察與結果的實驗日誌」。",
@@ -1252,12 +1072,10 @@ export default {
         "laboratory journal"
       ],
       "optionReasons": {
-        "journal-mcq-14": "本句指「記錄實驗程序、觀察與結果的實驗日誌」。",
-        "journal-mcq-13": "「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」與本句語境不同。",
-        "journal-mcq-15": "「採訪、撰寫或製作新聞的記者／新聞工作者」與本句語境不同。",
-        "journal-mcq-12": "「持續進行日記／反思書寫的習慣」與本句語境不同。",
-        "journal-mcq-16": "「採訪、撰寫、編輯與傳播新聞的工作／新聞業」與本句語境不同。",
-        "journal-mcq-11": "「定期寫下個人思想、經歷或反思；寫日記」與本句語境不同。"
+        "journal-mcq-14": "本句的「laboratory journal」指「記錄實驗程序、觀察與結果的實驗日誌」。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-14"
     },
@@ -1269,11 +1087,7 @@ export default {
       "masked": "Keep your ____ up to date.",
       "options": [
         "journal-mcq-14",
-        "journal-mcq-13",
-        "journal-mcq-15",
-        "journal-mcq-12",
-        "journal-mcq-16",
-        "journal-mcq-11"
+        "journal-mcq-03"
       ],
       "explanation": "本句的「lab journal」指「記錄實驗程序、觀察與結果的實驗日誌」。",
       "sentenceIndex": 31,
@@ -1282,12 +1096,8 @@ export default {
         "lab journal"
       ],
       "optionReasons": {
-        "journal-mcq-14": "本句指「記錄實驗程序、觀察與結果的實驗日誌」。",
-        "journal-mcq-13": "「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」與本句語境不同。",
-        "journal-mcq-15": "「採訪、撰寫或製作新聞的記者／新聞工作者」與本句語境不同。",
-        "journal-mcq-12": "「持續進行日記／反思書寫的習慣」與本句語境不同。",
-        "journal-mcq-16": "「採訪、撰寫、編輯與傳播新聞的工作／新聞業」與本句語境不同。",
-        "journal-mcq-11": "「定期寫下個人思想、經歷或反思；寫日記」與本句語境不同。"
+        "journal-mcq-14": "本句的「lab journal」指「記錄實驗程序、觀察與結果的實驗日誌」。",
+        "journal-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-14"
     },
@@ -1299,11 +1109,8 @@ export default {
       "masked": "She works as a ____.",
       "options": [
         "journal-mcq-15",
-        "journal-mcq-14",
-        "journal-mcq-16",
-        "journal-mcq-13",
-        "journal-mcq-17",
-        "journal-mcq-12"
+        "journal-mcq-10",
+        "journal-mcq-05"
       ],
       "explanation": "本句的「journalist」指「採訪、撰寫或製作新聞的記者／新聞工作者」。",
       "sentenceIndex": 32,
@@ -1312,12 +1119,9 @@ export default {
         "journalist"
       ],
       "optionReasons": {
-        "journal-mcq-15": "本句指「採訪、撰寫或製作新聞的記者／新聞工作者」。",
-        "journal-mcq-14": "「記錄實驗程序、觀察與結果的實驗日誌」與本句語境不同。",
-        "journal-mcq-16": "「採訪、撰寫、編輯與傳播新聞的工作／新聞業」與本句語境不同。",
-        "journal-mcq-13": "「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」與本句語境不同。",
-        "journal-mcq-17": "「與新聞工作或新聞報導風格有關的」與本句語境不同。",
-        "journal-mcq-12": "「持續進行日記／反思書寫的習慣」與本句語境不同。"
+        "journal-mcq-15": "本句的「journalist」指「採訪、撰寫或製作新聞的記者／新聞工作者」。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-15"
     },
@@ -1329,11 +1133,9 @@ export default {
       "masked": "The ____ interviewed several witnesses.",
       "options": [
         "journal-mcq-15",
+        "journal-mcq-10",
         "journal-mcq-14",
-        "journal-mcq-16",
-        "journal-mcq-13",
-        "journal-mcq-17",
-        "journal-mcq-12"
+        "journal-mcq-11"
       ],
       "explanation": "本句的「journalist」指「採訪、撰寫或製作新聞的記者／新聞工作者」。",
       "sentenceIndex": 33,
@@ -1342,12 +1144,10 @@ export default {
         "journalist"
       ],
       "optionReasons": {
-        "journal-mcq-15": "本句指「採訪、撰寫或製作新聞的記者／新聞工作者」。",
-        "journal-mcq-14": "「記錄實驗程序、觀察與結果的實驗日誌」與本句語境不同。",
-        "journal-mcq-16": "「採訪、撰寫、編輯與傳播新聞的工作／新聞業」與本句語境不同。",
-        "journal-mcq-13": "「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」與本句語境不同。",
-        "journal-mcq-17": "「與新聞工作或新聞報導風格有關的」與本句語境不同。",
-        "journal-mcq-12": "「持續進行日記／反思書寫的習慣」與本句語境不同。"
+        "journal-mcq-15": "本句的「journalist」指「採訪、撰寫或製作新聞的記者／新聞工作者」。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-15"
     },
@@ -1359,11 +1159,8 @@ export default {
       "masked": "She studied ____ at university.",
       "options": [
         "journal-mcq-16",
-        "journal-mcq-15",
-        "journal-mcq-17",
-        "journal-mcq-14",
-        "journal-mcq-13",
-        "journal-mcq-12"
+        "journal-mcq-06",
+        "journal-mcq-10"
       ],
       "explanation": "本句的「journalism」指「採訪、撰寫、編輯與傳播新聞的工作／新聞業」。",
       "sentenceIndex": 34,
@@ -1372,12 +1169,9 @@ export default {
         "journalism"
       ],
       "optionReasons": {
-        "journal-mcq-16": "本句指「採訪、撰寫、編輯與傳播新聞的工作／新聞業」。",
-        "journal-mcq-15": "「採訪、撰寫或製作新聞的記者／新聞工作者」與本句語境不同。",
-        "journal-mcq-17": "「與新聞工作或新聞報導風格有關的」與本句語境不同。",
-        "journal-mcq-14": "「記錄實驗程序、觀察與結果的實驗日誌」與本句語境不同。",
-        "journal-mcq-13": "「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」與本句語境不同。",
-        "journal-mcq-12": "「持續進行日記／反思書寫的習慣」與本句語境不同。"
+        "journal-mcq-16": "本句的「journalism」指「採訪、撰寫、編輯與傳播新聞的工作／新聞業」。",
+        "journal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-16"
     },
@@ -1389,11 +1183,8 @@ export default {
       "masked": "Good ____ requires careful verification.",
       "options": [
         "journal-mcq-16",
-        "journal-mcq-15",
-        "journal-mcq-17",
-        "journal-mcq-14",
-        "journal-mcq-13",
-        "journal-mcq-12"
+        "journal-mcq-05",
+        "journal-mcq-10"
       ],
       "explanation": "本句的「journalism」指「採訪、撰寫、編輯與傳播新聞的工作／新聞業」。",
       "sentenceIndex": 35,
@@ -1402,12 +1193,9 @@ export default {
         "journalism"
       ],
       "optionReasons": {
-        "journal-mcq-16": "本句指「採訪、撰寫、編輯與傳播新聞的工作／新聞業」。",
-        "journal-mcq-15": "「採訪、撰寫或製作新聞的記者／新聞工作者」與本句語境不同。",
-        "journal-mcq-17": "「與新聞工作或新聞報導風格有關的」與本句語境不同。",
-        "journal-mcq-14": "「記錄實驗程序、觀察與結果的實驗日誌」與本句語境不同。",
-        "journal-mcq-13": "「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」與本句語境不同。",
-        "journal-mcq-12": "「持續進行日記／反思書寫的習慣」與本句語境不同。"
+        "journal-mcq-16": "本句的「journalism」指「採訪、撰寫、編輯與傳播新聞的工作／新聞業」。",
+        "journal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-16"
     },
@@ -1419,11 +1207,8 @@ export default {
       "masked": "The article has a ____.",
       "options": [
         "journal-mcq-17",
-        "journal-mcq-16",
-        "journal-mcq-15",
-        "journal-mcq-14",
-        "journal-mcq-13",
-        "journal-mcq-12"
+        "journal-mcq-04",
+        "journal-mcq-09"
       ],
       "explanation": "本句的「journalistic style」指「與新聞工作或新聞報導風格有關的」。",
       "sentenceIndex": 36,
@@ -1432,12 +1217,9 @@ export default {
         "journalistic style"
       ],
       "optionReasons": {
-        "journal-mcq-17": "本句指「與新聞工作或新聞報導風格有關的」。",
-        "journal-mcq-16": "「採訪、撰寫、編輯與傳播新聞的工作／新聞業」與本句語境不同。",
-        "journal-mcq-15": "「採訪、撰寫或製作新聞的記者／新聞工作者」與本句語境不同。",
-        "journal-mcq-14": "「記錄實驗程序、觀察與結果的實驗日誌」與本句語境不同。",
-        "journal-mcq-13": "「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」與本句語境不同。",
-        "journal-mcq-12": "「持續進行日記／反思書寫的習慣」與本句語境不同。"
+        "journal-mcq-17": "本句的「journalistic style」指「與新聞工作或新聞報導風格有關的」。",
+        "journal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-17"
     },
@@ -1449,11 +1231,8 @@ export default {
       "masked": "She developed strong ____.",
       "options": [
         "journal-mcq-17",
-        "journal-mcq-16",
-        "journal-mcq-15",
-        "journal-mcq-14",
-        "journal-mcq-13",
-        "journal-mcq-12"
+        "journal-mcq-01",
+        "journal-mcq-10"
       ],
       "explanation": "本句的「journalistic skills」指「與新聞工作或新聞報導風格有關的」。",
       "sentenceIndex": 37,
@@ -1462,12 +1241,9 @@ export default {
         "journalistic skills"
       ],
       "optionReasons": {
-        "journal-mcq-17": "本句指「與新聞工作或新聞報導風格有關的」。",
-        "journal-mcq-16": "「採訪、撰寫、編輯與傳播新聞的工作／新聞業」與本句語境不同。",
-        "journal-mcq-15": "「採訪、撰寫或製作新聞的記者／新聞工作者」與本句語境不同。",
-        "journal-mcq-14": "「記錄實驗程序、觀察與結果的實驗日誌」與本句語境不同。",
-        "journal-mcq-13": "「結合規劃、任務追蹤、清單與筆記的子彈筆記系統」與本句語境不同。",
-        "journal-mcq-12": "「持續進行日記／反思書寫的習慣」與本句語境不同。"
+        "journal-mcq-17": "本句的「journalistic skills」指「與新聞工作或新聞報導風格有關的」。",
+        "journal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "journal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "journal-mcq-17"
     }
@@ -1479,5 +1255,7 @@ export default {
     "sha256": "4c8082ba73ac93b34869381729ca3918580a46b8f8c13e0c13842ad058d5a05a",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

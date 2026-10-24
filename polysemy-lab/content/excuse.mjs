@@ -610,11 +610,9 @@ export default {
       "masked": "He did not make weak ____.",
       "options": [
         "excuse-mcq-01",
-        "excuse-mcq-02",
-        "excuse-mcq-03",
-        "excuse-mcq-04",
-        "excuse-mcq-05",
-        "excuse-mcq-06"
+        "excuse-mcq-13",
+        "excuse-mcq-19",
+        "excuse-mcq-16"
       ],
       "explanation": "本句的「excuses」指「藉口；理由」。",
       "sentenceIndex": 0,
@@ -623,12 +621,10 @@ export default {
         "excuses"
       ],
       "optionReasons": {
-        "excuse-mcq-01": "本句指「藉口；理由」。",
-        "excuse-mcq-02": "「找藉口」是「make an excuse」的用法，與本句語境不同。",
-        "excuse-mcq-03": "「不斷找藉口」是「make excuses」的用法，與本句語境不同。",
-        "excuse-mcq-04": "「無力的藉口」是「weak excuse」的用法，與本句語境不同。",
-        "excuse-mcq-05": "「很差的藉口」是「poor excuse」的用法，與本句語境不同。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。"
+        "excuse-mcq-01": "本句的「excuses」指「藉口；理由」。",
+        "excuse-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-01"
     },
@@ -640,11 +636,9 @@ export default {
       "masked": "Stop making ____ and take responsibility.",
       "options": [
         "excuse-mcq-01",
-        "excuse-mcq-02",
-        "excuse-mcq-03",
-        "excuse-mcq-04",
-        "excuse-mcq-05",
-        "excuse-mcq-06"
+        "excuse-mcq-11",
+        "excuse-pdf-002",
+        "excuse-mcq-19"
       ],
       "explanation": "本句的「excuses」指「藉口；理由」。",
       "sentenceIndex": 1,
@@ -653,12 +647,10 @@ export default {
         "excuses"
       ],
       "optionReasons": {
-        "excuse-mcq-01": "本句指「藉口；理由」。",
-        "excuse-mcq-02": "「找藉口」是「make an excuse」的用法，與本句語境不同。",
-        "excuse-mcq-03": "「不斷找藉口」是「make excuses」的用法，與本句語境不同。",
-        "excuse-mcq-04": "「無力的藉口」是「weak excuse」的用法，與本句語境不同。",
-        "excuse-mcq-05": "「很差的藉口」是「poor excuse」的用法，與本句語境不同。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。"
+        "excuse-mcq-01": "本句的「excuses」指「藉口；理由」。",
+        "excuse-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "excuse-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-01"
     },
@@ -670,11 +662,9 @@ export default {
       "masked": "His explanation sounded more like an ____.",
       "options": [
         "excuse-mcq-01",
-        "excuse-mcq-02",
-        "excuse-mcq-03",
-        "excuse-mcq-04",
-        "excuse-mcq-05",
-        "excuse-mcq-06"
+        "excuse-mcq-11",
+        "excuse-mcq-23",
+        "excuse-mcq-18"
       ],
       "explanation": "本句的「excuse」指「藉口；理由」。",
       "sentenceIndex": 2,
@@ -683,12 +673,10 @@ export default {
         "excuse"
       ],
       "optionReasons": {
-        "excuse-mcq-01": "本句指「藉口；理由」。",
-        "excuse-mcq-02": "「找藉口」是「make an excuse」的用法，與本句語境不同。",
-        "excuse-mcq-03": "「不斷找藉口」是「make excuses」的用法，與本句語境不同。",
-        "excuse-mcq-04": "「無力的藉口」是「weak excuse」的用法，與本句語境不同。",
-        "excuse-mcq-05": "「很差的藉口」是「poor excuse」的用法，與本句語境不同。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。"
+        "excuse-mcq-01": "本句的「excuse」指「藉口；理由」。",
+        "excuse-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-01"
     },
@@ -700,11 +688,9 @@ export default {
       "masked": "He ____ for being late.",
       "options": [
         "excuse-mcq-02",
-        "excuse-mcq-01",
-        "excuse-mcq-03",
-        "excuse-mcq-04",
-        "excuse-mcq-05",
-        "excuse-mcq-06"
+        "excuse-mcq-21",
+        "excuse-mcq-24",
+        "excuse-mcq-18"
       ],
       "explanation": "本句的「made an excuse」指「找藉口」。",
       "sentenceIndex": 3,
@@ -713,12 +699,10 @@ export default {
         "made an excuse"
       ],
       "optionReasons": {
-        "excuse-mcq-02": "本句指「找藉口」。",
-        "excuse-mcq-01": "「藉口；理由」是「excuse (noun)」的用法，與本句語境不同。",
-        "excuse-mcq-03": "「不斷找藉口」是「make excuses」的用法，與本句語境不同。",
-        "excuse-mcq-04": "「無力的藉口」是「weak excuse」的用法，與本句語境不同。",
-        "excuse-mcq-05": "「很差的藉口」是「poor excuse」的用法，與本句語境不同。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。"
+        "excuse-mcq-02": "本句的「made an excuse」指「找藉口」。",
+        "excuse-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-02"
     },
@@ -730,11 +714,9 @@ export default {
       "masked": "She always ____ when something goes wrong.",
       "options": [
         "excuse-mcq-02",
-        "excuse-mcq-01",
-        "excuse-mcq-03",
-        "excuse-mcq-04",
-        "excuse-mcq-05",
-        "excuse-mcq-06"
+        "excuse-mcq-16",
+        "excuse-mcq-22",
+        "excuse-mcq-18"
       ],
       "explanation": "本句的「makes excuses」指「找藉口」。",
       "sentenceIndex": 4,
@@ -743,12 +725,10 @@ export default {
         "makes excuses"
       ],
       "optionReasons": {
-        "excuse-mcq-02": "本句指「找藉口」。",
-        "excuse-mcq-01": "「藉口；理由」是「excuse (noun)」的用法，與本句語境不同。",
-        "excuse-mcq-03": "「不斷找藉口」是「make excuses」的用法，與本句語境不同。",
-        "excuse-mcq-04": "「無力的藉口」是「weak excuse」的用法，與本句語境不同。",
-        "excuse-mcq-05": "「很差的藉口」是「poor excuse」的用法，與本句語境不同。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。"
+        "excuse-mcq-02": "本句的「makes excuses」指「找藉口」。",
+        "excuse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-02"
     },
@@ -760,11 +740,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "excuse-mcq-03",
-        "excuse-mcq-02",
-        "excuse-mcq-04",
-        "excuse-mcq-01",
-        "excuse-mcq-05",
-        "excuse-mcq-06"
+        "excuse-mcq-19",
+        "excuse-mcq-07",
+        "excuse-mcq-11"
       ],
       "explanation": "本句的「make excuses」指「不斷找藉口」。",
       "sentenceIndex": 5,
@@ -773,12 +751,10 @@ export default {
         "make excuses"
       ],
       "optionReasons": {
-        "excuse-mcq-03": "本句指「不斷找藉口」。",
-        "excuse-mcq-02": "「找藉口」是「make an excuse」的用法，與本句語境不同。",
-        "excuse-mcq-04": "「無力的藉口」是「weak excuse」的用法，與本句語境不同。",
-        "excuse-mcq-01": "「藉口；理由」是「excuse (noun)」的用法，與本句語境不同。",
-        "excuse-mcq-05": "「很差的藉口」是「poor excuse」的用法，與本句語境不同。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。"
+        "excuse-mcq-03": "本句的「make excuses」指「不斷找藉口」。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-03"
     },
@@ -790,11 +766,9 @@ export default {
       "masked": "He kept ____ instead of fixing the problem.",
       "options": [
         "excuse-mcq-03",
-        "excuse-mcq-02",
-        "excuse-mcq-04",
-        "excuse-mcq-01",
-        "excuse-mcq-05",
-        "excuse-mcq-06"
+        "excuse-pdf-001",
+        "excuse-mcq-13",
+        "excuse-mcq-17"
       ],
       "explanation": "本句的「making excuses」指「不斷找藉口」。",
       "sentenceIndex": 6,
@@ -803,12 +777,10 @@ export default {
         "making excuses"
       ],
       "optionReasons": {
-        "excuse-mcq-03": "本句指「不斷找藉口」。",
-        "excuse-mcq-02": "「找藉口」是「make an excuse」的用法，與本句語境不同。",
-        "excuse-mcq-04": "「無力的藉口」是「weak excuse」的用法，與本句語境不同。",
-        "excuse-mcq-01": "「藉口；理由」是「excuse (noun)」的用法，與本句語境不同。",
-        "excuse-mcq-05": "「很差的藉口」是「poor excuse」的用法，與本句語境不同。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。"
+        "excuse-mcq-03": "本句的「making excuses」指「不斷找藉口」。",
+        "excuse-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-03"
     },
@@ -820,11 +792,9 @@ export default {
       "masked": "He didn't make any ____.",
       "options": [
         "excuse-mcq-04",
-        "excuse-mcq-03",
-        "excuse-mcq-05",
-        "excuse-mcq-02",
-        "excuse-mcq-06",
-        "excuse-mcq-01"
+        "excuse-mcq-12",
+        "excuse-mcq-07",
+        "excuse-mcq-18"
       ],
       "explanation": "本句的「weak excuses」指「無力的藉口」。",
       "sentenceIndex": 7,
@@ -833,12 +803,10 @@ export default {
         "weak excuses"
       ],
       "optionReasons": {
-        "excuse-mcq-04": "本句指「無力的藉口」。",
-        "excuse-mcq-03": "「不斷找藉口」是「make excuses」的用法，與本句語境不同。",
-        "excuse-mcq-05": "「很差的藉口」是「poor excuse」的用法，與本句語境不同。",
-        "excuse-mcq-02": "「找藉口」是「make an excuse」的用法，與本句語境不同。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。",
-        "excuse-mcq-01": "「藉口；理由」是「excuse (noun)」的用法，與本句語境不同。"
+        "excuse-mcq-04": "本句的「weak excuses」指「無力的藉口」。",
+        "excuse-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-04"
     },
@@ -850,11 +818,9 @@ export default {
       "masked": "I forgot” is a pretty ____.",
       "options": [
         "excuse-mcq-04",
-        "excuse-mcq-03",
-        "excuse-mcq-05",
-        "excuse-mcq-02",
-        "excuse-mcq-06",
-        "excuse-mcq-01"
+        "excuse-mcq-19",
+        "excuse-mcq-23",
+        "excuse-mcq-07"
       ],
       "explanation": "本句的「weak excuse」指「無力的藉口」。",
       "sentenceIndex": 8,
@@ -863,12 +829,10 @@ export default {
         "weak excuse"
       ],
       "optionReasons": {
-        "excuse-mcq-04": "本句指「無力的藉口」。",
-        "excuse-mcq-03": "「不斷找藉口」是「make excuses」的用法，與本句語境不同。",
-        "excuse-mcq-05": "「很差的藉口」是「poor excuse」的用法，與本句語境不同。",
-        "excuse-mcq-02": "「找藉口」是「make an excuse」的用法，與本句語境不同。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。",
-        "excuse-mcq-01": "「藉口；理由」是「excuse (noun)」的用法，與本句語境不同。"
+        "excuse-mcq-04": "本句的「weak excuse」指「無力的藉口」。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-04"
     },
@@ -880,11 +844,9 @@ export default {
       "masked": "That's a ____ for missing the deadline.",
       "options": [
         "excuse-mcq-05",
-        "excuse-mcq-04",
-        "excuse-mcq-06",
-        "excuse-mcq-03",
-        "excuse-mcq-07",
-        "excuse-mcq-02"
+        "excuse-mcq-13",
+        "excuse-mcq-09",
+        "excuse-mcq-17"
       ],
       "explanation": "本句的「poor excuse」指「很差的藉口」。",
       "sentenceIndex": 9,
@@ -893,12 +855,10 @@ export default {
         "poor excuse"
       ],
       "optionReasons": {
-        "excuse-mcq-05": "本句指「很差的藉口」。",
-        "excuse-mcq-04": "「無力的藉口」是「weak excuse」的用法，與本句語境不同。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。",
-        "excuse-mcq-03": "「不斷找藉口」是「make excuses」的用法，與本句語境不同。",
-        "excuse-mcq-07": "「正當理由」是「reasonable excuse」的用法，與本句語境不同。",
-        "excuse-mcq-02": "「找藉口」是「make an excuse」的用法，與本句語境不同。"
+        "excuse-mcq-05": "本句的「poor excuse」指「很差的藉口」。",
+        "excuse-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-05"
     },
@@ -910,11 +870,9 @@ export default {
       "masked": "Being tired is a ____ for treating people badly.",
       "options": [
         "excuse-mcq-05",
-        "excuse-mcq-04",
-        "excuse-mcq-06",
-        "excuse-mcq-03",
-        "excuse-mcq-07",
-        "excuse-mcq-02"
+        "excuse-mcq-23",
+        "excuse-mcq-16",
+        "excuse-mcq-18"
       ],
       "explanation": "本句的「poor excuse」指「很差的藉口」。",
       "sentenceIndex": 10,
@@ -923,12 +881,10 @@ export default {
         "poor excuse"
       ],
       "optionReasons": {
-        "excuse-mcq-05": "本句指「很差的藉口」。",
-        "excuse-mcq-04": "「無力的藉口」是「weak excuse」的用法，與本句語境不同。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。",
-        "excuse-mcq-03": "「不斷找藉口」是「make excuses」的用法，與本句語境不同。",
-        "excuse-mcq-07": "「正當理由」是「reasonable excuse」的用法，與本句語境不同。",
-        "excuse-mcq-02": "「找藉口」是「make an excuse」的用法，與本句語境不同。"
+        "excuse-mcq-05": "本句的「poor excuse」指「很差的藉口」。",
+        "excuse-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-05"
     },
@@ -940,11 +896,9 @@ export default {
       "masked": "Illness may be a ____ for absence.",
       "options": [
         "excuse-mcq-07",
-        "excuse-mcq-06",
-        "excuse-mcq-08",
-        "excuse-mcq-05",
-        "excuse-mcq-09",
-        "excuse-mcq-04"
+        "excuse-mcq-12",
+        "excuse-mcq-04",
+        "excuse-mcq-15"
       ],
       "explanation": "本句的「valid excuse」指「正當理由」。",
       "sentenceIndex": 11,
@@ -953,12 +907,10 @@ export default {
         "valid excuse"
       ],
       "optionReasons": {
-        "excuse-mcq-07": "本句指「正當理由」。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。",
-        "excuse-mcq-08": "「為 X 的藉口」是「excuse for X」的用法，與本句語境不同。",
-        "excuse-mcq-05": "「很差的藉口」是「poor excuse」的用法，與本句語境不同。",
-        "excuse-mcq-09": "「沒理由為 X 開脫」是「no excuse for X」的用法，與本句語境不同。",
-        "excuse-mcq-04": "「無力的藉口」是「weak excuse」的用法，與本句語境不同。"
+        "excuse-mcq-07": "本句的「valid excuse」指「正當理由」。",
+        "excuse-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-07"
     },
@@ -970,11 +922,9 @@ export default {
       "masked": "She had a ____ for arriving late.",
       "options": [
         "excuse-mcq-07",
-        "excuse-mcq-06",
-        "excuse-mcq-08",
         "excuse-mcq-05",
-        "excuse-mcq-09",
-        "excuse-mcq-04"
+        "excuse-mcq-21",
+        "excuse-mcq-19"
       ],
       "explanation": "本句的「reasonable excuse」指「正當理由」。",
       "sentenceIndex": 12,
@@ -983,12 +933,10 @@ export default {
         "reasonable excuse"
       ],
       "optionReasons": {
-        "excuse-mcq-07": "本句指「正當理由」。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。",
-        "excuse-mcq-08": "「為 X 的藉口」是「excuse for X」的用法，與本句語境不同。",
-        "excuse-mcq-05": "「很差的藉口」是「poor excuse」的用法，與本句語境不同。",
-        "excuse-mcq-09": "「沒理由為 X 開脫」是「no excuse for X」的用法，與本句語境不同。",
-        "excuse-mcq-04": "「無力的藉口」是「weak excuse」的用法，與本句語境不同。"
+        "excuse-mcq-07": "本句的「reasonable excuse」指「正當理由」。",
+        "excuse-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-07"
     },
@@ -1000,11 +948,9 @@ export default {
       "masked": "What's your ____?",
       "options": [
         "excuse-mcq-08",
-        "excuse-mcq-07",
-        "excuse-mcq-09",
-        "excuse-mcq-06",
-        "excuse-mcq-10",
-        "excuse-mcq-05"
+        "excuse-mcq-12",
+        "excuse-mcq-19",
+        "excuse-mcq-17"
       ],
       "explanation": "本句的「excuse for the delay」指「為 X 的藉口」。",
       "sentenceIndex": 13,
@@ -1013,12 +959,10 @@ export default {
         "excuse for the delay"
       ],
       "optionReasons": {
-        "excuse-mcq-08": "本句指「為 X 的藉口」。",
-        "excuse-mcq-07": "「正當理由」是「reasonable excuse」的用法，與本句語境不同。",
-        "excuse-mcq-09": "「沒理由為 X 開脫」是「no excuse for X」的用法，與本句語境不同。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。",
-        "excuse-mcq-10": "「拿 X 當藉口」是「use X as an excuse」的用法，與本句語境不同。",
-        "excuse-mcq-05": "「很差的藉口」是「poor excuse」的用法，與本句語境不同。"
+        "excuse-mcq-08": "本句的「excuse for the delay」指「為 X 的藉口」。",
+        "excuse-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-08"
     },
@@ -1030,11 +974,9 @@ export default {
       "masked": "There was no good ____.",
       "options": [
         "excuse-mcq-08",
-        "excuse-mcq-07",
-        "excuse-mcq-09",
-        "excuse-mcq-06",
-        "excuse-mcq-10",
-        "excuse-mcq-05"
+        "excuse-pdf-001",
+        "excuse-mcq-19",
+        "excuse-mcq-15"
       ],
       "explanation": "本句的「excuse for his behaviour」指「為 X 的藉口」。",
       "sentenceIndex": 14,
@@ -1043,12 +985,10 @@ export default {
         "excuse for his behaviour"
       ],
       "optionReasons": {
-        "excuse-mcq-08": "本句指「為 X 的藉口」。",
-        "excuse-mcq-07": "「正當理由」是「reasonable excuse」的用法，與本句語境不同。",
-        "excuse-mcq-09": "「沒理由為 X 開脫」是「no excuse for X」的用法，與本句語境不同。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。",
-        "excuse-mcq-10": "「拿 X 當藉口」是「use X as an excuse」的用法，與本句語境不同。",
-        "excuse-mcq-05": "「很差的藉口」是「poor excuse」的用法，與本句語境不同。"
+        "excuse-mcq-08": "本句的「excuse for his behaviour」指「為 X 的藉口」。",
+        "excuse-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-08"
     },
@@ -1060,11 +1000,9 @@ export default {
       "masked": "He had no ____.",
       "options": [
         "excuse-pdf-001",
-        "excuse-mcq-08",
-        "excuse-mcq-10",
-        "excuse-mcq-07",
-        "excuse-mcq-11",
-        "excuse-mcq-06"
+        "excuse-mcq-13",
+        "excuse-mcq-03",
+        "excuse-mcq-15"
       ],
       "explanation": "本句的「excuse for shouting at her」指「用來為做 X 辯解或減輕責任的理由」。",
       "sentenceIndex": 15,
@@ -1073,12 +1011,10 @@ export default {
         "excuse for shouting at her"
       ],
       "optionReasons": {
-        "excuse-pdf-001": "本句指「用來為做 X 辯解或減輕責任的理由」。",
-        "excuse-mcq-08": "「為 X 的藉口」是「excuse for X」的用法，與本句語境不同。",
-        "excuse-mcq-10": "「拿 X 當藉口」是「use X as an excuse」的用法，與本句語境不同。",
-        "excuse-mcq-07": "「正當理由」是「reasonable excuse」的用法，與本句語境不同。",
-        "excuse-mcq-11": "「原諒；諒解」是「excuse (verb)」的用法，與本句語境不同。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。"
+        "excuse-pdf-001": "本句的「excuse for shouting at her」指「用來為做 X 辯解或減輕責任的理由」。",
+        "excuse-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-pdf-001"
     },
@@ -1090,11 +1026,9 @@ export default {
       "masked": "Stress is not always an ____.",
       "options": [
         "excuse-pdf-001",
-        "excuse-mcq-08",
-        "excuse-mcq-10",
-        "excuse-mcq-07",
-        "excuse-mcq-11",
-        "excuse-mcq-06"
+        "excuse-mcq-02",
+        "excuse-pdf-002",
+        "excuse-mcq-19"
       ],
       "explanation": "本句的「excuse for treating people badly」指「用來為做 X 辯解或減輕責任的理由」。",
       "sentenceIndex": 16,
@@ -1103,12 +1037,10 @@ export default {
         "excuse for treating people badly"
       ],
       "optionReasons": {
-        "excuse-pdf-001": "本句指「用來為做 X 辯解或減輕責任的理由」。",
-        "excuse-mcq-08": "「為 X 的藉口」是「excuse for X」的用法，與本句語境不同。",
-        "excuse-mcq-10": "「拿 X 當藉口」是「use X as an excuse」的用法，與本句語境不同。",
-        "excuse-mcq-07": "「正當理由」是「reasonable excuse」的用法，與本句語境不同。",
-        "excuse-mcq-11": "「原諒；諒解」是「excuse (verb)」的用法，與本句語境不同。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。"
+        "excuse-pdf-001": "本句的「excuse for treating people badly」指「用來為做 X 辯解或減輕責任的理由」。",
+        "excuse-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "excuse-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-pdf-001"
     },
@@ -1120,11 +1052,9 @@ export default {
       "masked": "There is ____.",
       "options": [
         "excuse-mcq-09",
-        "excuse-mcq-08",
-        "excuse-mcq-10",
-        "excuse-mcq-07",
-        "excuse-mcq-11",
-        "excuse-mcq-06"
+        "excuse-mcq-13",
+        "excuse-mcq-17",
+        "excuse-mcq-10"
       ],
       "explanation": "本句的「no excuse for cheating」指「沒理由為 X 開脫」。",
       "sentenceIndex": 17,
@@ -1133,12 +1063,10 @@ export default {
         "no excuse for cheating"
       ],
       "optionReasons": {
-        "excuse-mcq-09": "本句指「沒理由為 X 開脫」。",
-        "excuse-mcq-08": "「為 X 的藉口」是「excuse for X」的用法，與本句語境不同。",
-        "excuse-mcq-10": "「拿 X 當藉口」是「use X as an excuse」的用法，與本句語境不同。",
-        "excuse-mcq-07": "「正當理由」是「reasonable excuse」的用法，與本句語境不同。",
-        "excuse-mcq-11": "「原諒；諒解」是「excuse (verb)」的用法，與本句語境不同。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。"
+        "excuse-mcq-09": "本句的「no excuse for cheating」指「沒理由為 X 開脫」。",
+        "excuse-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-09"
     },
@@ -1150,11 +1078,9 @@ export default {
       "masked": "Being angry is ____.",
       "options": [
         "excuse-mcq-09",
-        "excuse-mcq-08",
-        "excuse-mcq-10",
-        "excuse-mcq-07",
         "excuse-mcq-11",
-        "excuse-mcq-06"
+        "excuse-mcq-10",
+        "excuse-mcq-17"
       ],
       "explanation": "本句的「no excuse for insulting someone」指「沒理由為 X 開脫」。",
       "sentenceIndex": 18,
@@ -1163,12 +1089,10 @@ export default {
         "no excuse for insulting someone"
       ],
       "optionReasons": {
-        "excuse-mcq-09": "本句指「沒理由為 X 開脫」。",
-        "excuse-mcq-08": "「為 X 的藉口」是「excuse for X」的用法，與本句語境不同。",
-        "excuse-mcq-10": "「拿 X 當藉口」是「use X as an excuse」的用法，與本句語境不同。",
-        "excuse-mcq-07": "「正當理由」是「reasonable excuse」的用法，與本句語境不同。",
-        "excuse-mcq-11": "「原諒；諒解」是「excuse (verb)」的用法，與本句語境不同。",
-        "excuse-mcq-06": "「合理理由」是「valid excuse」的用法，與本句語境不同。"
+        "excuse-mcq-09": "本句的「no excuse for insulting someone」指「沒理由為 X 開脫」。",
+        "excuse-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-09"
     },
@@ -1180,11 +1104,9 @@ export default {
       "masked": "I was tired.” > “That's ____.",
       "options": [
         "excuse-mcq-22",
+        "excuse-mcq-19",
         "excuse-mcq-21",
-        "excuse-mcq-23",
-        "excuse-mcq-20",
-        "excuse-mcq-24",
-        "excuse-mcq-19"
+        "excuse-mcq-08"
       ],
       "explanation": "本句的「no excuse」指「那個理由不足以合理化某人的行為」。",
       "sentenceIndex": 19,
@@ -1193,12 +1115,10 @@ export default {
         "no excuse"
       ],
       "optionReasons": {
-        "excuse-mcq-22": "本句指「那個理由不足以合理化某人的行為」。",
-        "excuse-mcq-21": "「不可原諒的；無可辯解的」是「inexcusable」的用法，與本句語境不同。",
-        "excuse-mcq-23": "「正式允許某人不用參與、執行或承擔 X」是「17. excuse someone from something — 免除某人某項責任」的用法，與本句語境不同。",
-        "excuse-mcq-20": "「情有可原的」是「excusable」的用法，與本句語境不同。",
-        "excuse-mcq-24": "「沒有任何合理理由能夠為 X 開脫」是「28. inexcusable behaviour / mistake — 不可原諒的行為／錯誤」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。"
+        "excuse-mcq-22": "本句的「no excuse」指「那個理由不足以合理化某人的行為」。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-22"
     },
@@ -1210,11 +1130,9 @@ export default {
       "masked": "Everyone was under pressure, but that's ____ for blaming you unfairly.",
       "options": [
         "excuse-mcq-22",
-        "excuse-mcq-21",
-        "excuse-mcq-23",
-        "excuse-mcq-20",
-        "excuse-mcq-24",
-        "excuse-mcq-19"
+        "excuse-mcq-10",
+        "excuse-mcq-18",
+        "excuse-mcq-11"
       ],
       "explanation": "本句的「no excuse」指「那個理由不足以合理化某人的行為」。",
       "sentenceIndex": 20,
@@ -1223,12 +1141,10 @@ export default {
         "no excuse"
       ],
       "optionReasons": {
-        "excuse-mcq-22": "本句指「那個理由不足以合理化某人的行為」。",
-        "excuse-mcq-21": "「不可原諒的；無可辯解的」是「inexcusable」的用法，與本句語境不同。",
-        "excuse-mcq-23": "「正式允許某人不用參與、執行或承擔 X」是「17. excuse someone from something — 免除某人某項責任」的用法，與本句語境不同。",
-        "excuse-mcq-20": "「情有可原的」是「excusable」的用法，與本句語境不同。",
-        "excuse-mcq-24": "「沒有任何合理理由能夠為 X 開脫」是「28. inexcusable behaviour / mistake — 不可原諒的行為／錯誤」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。"
+        "excuse-mcq-22": "本句的「no excuse」指「那個理由不足以合理化某人的行為」。",
+        "excuse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-22"
     },
@@ -1240,11 +1156,9 @@ export default {
       "masked": "He ____ for losing his temper.",
       "options": [
         "excuse-mcq-10",
-        "excuse-mcq-09",
-        "excuse-mcq-11",
-        "excuse-mcq-08",
-        "excuse-mcq-12",
-        "excuse-mcq-07"
+        "excuse-mcq-13",
+        "excuse-mcq-17",
+        "excuse-mcq-09"
       ],
       "explanation": "本句的「used stress as an excuse」指「拿 X 當藉口」。",
       "sentenceIndex": 21,
@@ -1253,12 +1167,10 @@ export default {
         "used stress as an excuse"
       ],
       "optionReasons": {
-        "excuse-mcq-10": "本句指「拿 X 當藉口」。",
-        "excuse-mcq-09": "「沒理由為 X 開脫」是「no excuse for X」的用法，與本句語境不同。",
-        "excuse-mcq-11": "「原諒；諒解」是「excuse (verb)」的用法，與本句語境不同。",
-        "excuse-mcq-08": "「為 X 的藉口」是「excuse for X」的用法，與本句語境不同。",
-        "excuse-mcq-12": "「為行為開脫／原諒」是「excuse behaviour」的用法，與本句語境不同。",
-        "excuse-mcq-07": "「正當理由」是「reasonable excuse」的用法，與本句語境不同。"
+        "excuse-mcq-10": "本句的「used stress as an excuse」指「拿 X 當藉口」。",
+        "excuse-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-10"
     },
@@ -1270,11 +1182,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "excuse-mcq-10",
-        "excuse-mcq-09",
-        "excuse-mcq-11",
-        "excuse-mcq-08",
-        "excuse-mcq-12",
-        "excuse-mcq-07"
+        "excuse-pdf-001",
+        "excuse-mcq-13",
+        "excuse-mcq-19"
       ],
       "explanation": "本句的「use being busy as an excuse」指「拿 X 當藉口」。",
       "sentenceIndex": 22,
@@ -1283,12 +1193,10 @@ export default {
         "use being busy as an excuse"
       ],
       "optionReasons": {
-        "excuse-mcq-10": "本句指「拿 X 當藉口」。",
-        "excuse-mcq-09": "「沒理由為 X 開脫」是「no excuse for X」的用法，與本句語境不同。",
-        "excuse-mcq-11": "「原諒；諒解」是「excuse (verb)」的用法，與本句語境不同。",
-        "excuse-mcq-08": "「為 X 的藉口」是「excuse for X」的用法，與本句語境不同。",
-        "excuse-mcq-12": "「為行為開脫／原諒」是「excuse behaviour」的用法，與本句語境不同。",
-        "excuse-mcq-07": "「正當理由」是「reasonable excuse」的用法，與本句語境不同。"
+        "excuse-mcq-10": "本句的「use being busy as an excuse」指「拿 X 當藉口」。",
+        "excuse-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-10"
     },
@@ -1300,11 +1208,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "excuse-mcq-11",
-        "excuse-mcq-10",
-        "excuse-mcq-12",
-        "excuse-mcq-09",
-        "excuse-mcq-13",
-        "excuse-mcq-08"
+        "excuse-mcq-22",
+        "excuse-mcq-15",
+        "excuse-mcq-16"
       ],
       "explanation": "本句的「excuse my mistake」指「原諒；諒解」。",
       "sentenceIndex": 23,
@@ -1313,12 +1219,10 @@ export default {
         "excuse my mistake"
       ],
       "optionReasons": {
-        "excuse-mcq-11": "本句指「原諒；諒解」。",
-        "excuse-mcq-10": "「拿 X 當藉口」是「use X as an excuse」的用法，與本句語境不同。",
-        "excuse-mcq-12": "「為行為開脫／原諒」是「excuse behaviour」的用法，與本句語境不同。",
-        "excuse-mcq-09": "「沒理由為 X 開脫」是「no excuse for X」的用法，與本句語境不同。",
-        "excuse-mcq-13": "「原諒某人 X」是「excuse someone for X」的用法，與本句語境不同。",
-        "excuse-mcq-08": "「為 X 的藉口」是「excuse for X」的用法，與本句語境不同。"
+        "excuse-mcq-11": "本句的「excuse my mistake」指「原諒；諒解」。",
+        "excuse-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-11"
     },
@@ -1330,11 +1234,9 @@ export default {
       "masked": "You'll have to ____; he's had a difficult day.",
       "options": [
         "excuse-mcq-11",
-        "excuse-mcq-10",
-        "excuse-mcq-12",
-        "excuse-mcq-09",
-        "excuse-mcq-13",
-        "excuse-mcq-08"
+        "excuse-mcq-07",
+        "excuse-mcq-08",
+        "excuse-mcq-23"
       ],
       "explanation": "本句的「excuse him」指「原諒；諒解」。",
       "sentenceIndex": 24,
@@ -1343,12 +1245,10 @@ export default {
         "excuse him"
       ],
       "optionReasons": {
-        "excuse-mcq-11": "本句指「原諒；諒解」。",
-        "excuse-mcq-10": "「拿 X 當藉口」是「use X as an excuse」的用法，與本句語境不同。",
-        "excuse-mcq-12": "「為行為開脫／原諒」是「excuse behaviour」的用法，與本句語境不同。",
-        "excuse-mcq-09": "「沒理由為 X 開脫」是「no excuse for X」的用法，與本句語境不同。",
-        "excuse-mcq-13": "「原諒某人 X」是「excuse someone for X」的用法，與本句語境不同。",
-        "excuse-mcq-08": "「為 X 的藉口」是「excuse for X」的用法，與本句語境不同。"
+        "excuse-mcq-11": "本句的「excuse him」指「原諒；諒解」。",
+        "excuse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-11"
     },
@@ -1360,11 +1260,9 @@ export default {
       "masked": "Nothing can ____.",
       "options": [
         "excuse-mcq-12",
-        "excuse-mcq-11",
-        "excuse-mcq-13",
-        "excuse-mcq-10",
-        "excuse-mcq-14",
-        "excuse-mcq-09"
+        "excuse-mcq-17",
+        "excuse-mcq-16",
+        "excuse-mcq-08"
       ],
       "explanation": "本句的「excuse his behaviour」指「為行為開脫／原諒」。",
       "sentenceIndex": 25,
@@ -1373,12 +1271,10 @@ export default {
         "excuse his behaviour"
       ],
       "optionReasons": {
-        "excuse-mcq-12": "本句指「為行為開脫／原諒」。",
-        "excuse-mcq-11": "「原諒；諒解」是「excuse (verb)」的用法，與本句語境不同。",
-        "excuse-mcq-13": "「原諒某人 X」是「excuse someone for X」的用法，與本句語境不同。",
-        "excuse-mcq-10": "「拿 X 當藉口」是「use X as an excuse」的用法，與本句語境不同。",
-        "excuse-mcq-14": "「免除某人 X」是「excuse someone from X」的用法，與本句語境不同。",
-        "excuse-mcq-09": "「沒理由為 X 開脫」是「no excuse for X」的用法，與本句語境不同。"
+        "excuse-mcq-12": "本句的「excuse his behaviour」指「為行為開脫／原諒」。",
+        "excuse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-12"
     },
@@ -1390,11 +1286,9 @@ export default {
       "masked": "Stress may explain the behaviour, but it does not ____.",
       "options": [
         "excuse-mcq-12",
-        "excuse-mcq-11",
-        "excuse-mcq-13",
-        "excuse-mcq-10",
-        "excuse-mcq-14",
-        "excuse-mcq-09"
+        "excuse-mcq-17",
+        "excuse-mcq-07",
+        "excuse-mcq-19"
       ],
       "explanation": "本句的「excuse it」指「為行為開脫／原諒」。",
       "sentenceIndex": 26,
@@ -1403,12 +1297,10 @@ export default {
         "excuse it"
       ],
       "optionReasons": {
-        "excuse-mcq-12": "本句指「為行為開脫／原諒」。",
-        "excuse-mcq-11": "「原諒；諒解」是「excuse (verb)」的用法，與本句語境不同。",
-        "excuse-mcq-13": "「原諒某人 X」是「excuse someone for X」的用法，與本句語境不同。",
-        "excuse-mcq-10": "「拿 X 當藉口」是「use X as an excuse」的用法，與本句語境不同。",
-        "excuse-mcq-14": "「免除某人 X」是「excuse someone from X」的用法，與本句語境不同。",
-        "excuse-mcq-09": "「沒理由為 X 開脫」是「no excuse for X」的用法，與本句語境不同。"
+        "excuse-mcq-12": "本句的「excuse it」指「為行為開脫／原諒」。",
+        "excuse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-12"
     },
@@ -1420,11 +1312,9 @@ export default {
       "masked": "I can ____ once.",
       "options": [
         "excuse-mcq-13",
-        "excuse-mcq-12",
-        "excuse-mcq-14",
-        "excuse-mcq-11",
-        "excuse-mcq-15",
-        "excuse-mcq-10"
+        "excuse-mcq-07",
+        "excuse-mcq-03",
+        "excuse-mcq-17"
       ],
       "explanation": "本句的「excuse him for being late」指「原諒某人 X」。",
       "sentenceIndex": 27,
@@ -1433,12 +1323,10 @@ export default {
         "excuse him for being late"
       ],
       "optionReasons": {
-        "excuse-mcq-13": "本句指「原諒某人 X」。",
-        "excuse-mcq-12": "「為行為開脫／原諒」是「excuse behaviour」的用法，與本句語境不同。",
-        "excuse-mcq-14": "「免除某人 X」是「excuse someone from X」的用法，與本句語境不同。",
-        "excuse-mcq-11": "「原諒；諒解」是「excuse (verb)」的用法，與本句語境不同。",
-        "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。",
-        "excuse-mcq-10": "「拿 X 當藉口」是「use X as an excuse」的用法，與本句語境不同。"
+        "excuse-mcq-13": "本句的「excuse him for being late」指「原諒某人 X」。",
+        "excuse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-13"
     },
@@ -1450,11 +1338,9 @@ export default {
       "masked": "She couldn't ____.",
       "options": [
         "excuse-mcq-13",
-        "excuse-mcq-12",
-        "excuse-mcq-14",
-        "excuse-mcq-11",
-        "excuse-mcq-15",
-        "excuse-mcq-10"
+        "excuse-mcq-04",
+        "excuse-mcq-17",
+        "excuse-mcq-15"
       ],
       "explanation": "本句的「excuse him for lying」指「原諒某人 X」。",
       "sentenceIndex": 28,
@@ -1463,12 +1349,10 @@ export default {
         "excuse him for lying"
       ],
       "optionReasons": {
-        "excuse-mcq-13": "本句指「原諒某人 X」。",
-        "excuse-mcq-12": "「為行為開脫／原諒」是「excuse behaviour」的用法，與本句語境不同。",
-        "excuse-mcq-14": "「免除某人 X」是「excuse someone from X」的用法，與本句語境不同。",
-        "excuse-mcq-11": "「原諒；諒解」是「excuse (verb)」的用法，與本句語境不同。",
-        "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。",
-        "excuse-mcq-10": "「拿 X 當藉口」是「use X as an excuse」的用法，與本句語境不同。"
+        "excuse-mcq-13": "本句的「excuse him for lying」指「原諒某人 X」。",
+        "excuse-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-13"
     },
@@ -1480,11 +1364,9 @@ export default {
       "masked": "The teacher ____.",
       "options": [
         "excuse-pdf-002",
-        "excuse-mcq-13",
-        "excuse-mcq-15",
-        "excuse-mcq-12",
-        "excuse-mcq-16",
-        "excuse-mcq-11"
+        "excuse-mcq-19",
+        "excuse-mcq-21",
+        "excuse-mcq-05"
       ],
       "explanation": "本句的「excused me from class early」指「准許某人離開某場合或不再參與當下活動」。",
       "sentenceIndex": 29,
@@ -1493,12 +1375,10 @@ export default {
         "excused me from class early"
       ],
       "optionReasons": {
-        "excuse-pdf-002": "本句指「准許某人離開某場合或不再參與當下活動」。",
-        "excuse-mcq-13": "「原諒某人 X」是「excuse someone for X」的用法，與本句語境不同。",
-        "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。",
-        "excuse-mcq-12": "「為行為開脫／原諒」是「excuse behaviour」的用法，與本句語境不同。",
-        "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。",
-        "excuse-mcq-11": "「原諒；諒解」是「excuse (verb)」的用法，與本句語境不同。"
+        "excuse-pdf-002": "本句的「excused me from class early」指「准許某人離開某場合或不再參與當下活動」。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-pdf-002"
     },
@@ -1510,11 +1390,9 @@ export default {
       "masked": "Please ____ for a moment.",
       "options": [
         "excuse-pdf-002",
-        "excuse-mcq-13",
-        "excuse-mcq-15",
-        "excuse-mcq-12",
-        "excuse-mcq-16",
-        "excuse-mcq-11"
+        "excuse-mcq-20",
+        "excuse-mcq-04",
+        "excuse-mcq-19"
       ],
       "explanation": "本句的「excuse me」指「准許某人離開某場合或不再參與當下活動」。",
       "sentenceIndex": 30,
@@ -1523,12 +1401,10 @@ export default {
         "excuse me"
       ],
       "optionReasons": {
-        "excuse-pdf-002": "本句指「准許某人離開某場合或不再參與當下活動」。",
-        "excuse-mcq-13": "「原諒某人 X」是「excuse someone for X」的用法，與本句語境不同。",
-        "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。",
-        "excuse-mcq-12": "「為行為開脫／原諒」是「excuse behaviour」的用法，與本句語境不同。",
-        "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。",
-        "excuse-mcq-11": "「原諒；諒解」是「excuse (verb)」的用法，與本句語境不同。"
+        "excuse-pdf-002": "本句的「excuse me」指「准許某人離開某場合或不再參與當下活動」。",
+        "excuse-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-pdf-002"
     },
@@ -1540,11 +1416,9 @@ export default {
       "masked": "May I ____?",
       "options": [
         "excuse-mcq-15",
-        "excuse-mcq-14",
-        "excuse-mcq-16",
-        "excuse-mcq-13",
+        "excuse-mcq-21",
         "excuse-mcq-17",
-        "excuse-mcq-12"
+        "excuse-mcq-02"
       ],
       "explanation": "本句的「be excused」指「獲准離開」。",
       "sentenceIndex": 31,
@@ -1553,12 +1427,10 @@ export default {
         "be excused"
       ],
       "optionReasons": {
-        "excuse-mcq-15": "本句指「獲准離開」。",
-        "excuse-mcq-14": "「免除某人 X」是「excuse someone from X」的用法，與本句語境不同。",
-        "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。",
-        "excuse-mcq-13": "「原諒某人 X」是「excuse someone for X」的用法，與本句語境不同。",
-        "excuse-mcq-17": "「不好意思／勞駕／請問」是「Excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-12": "「為行為開脫／原諒」是「excuse behaviour」的用法，與本句語境不同。"
+        "excuse-mcq-15": "本句的「be excused」指「獲准離開」。",
+        "excuse-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-15"
     },
@@ -1570,11 +1442,9 @@ export default {
       "masked": "Students may ____ after finishing the test.",
       "options": [
         "excuse-mcq-15",
-        "excuse-mcq-14",
-        "excuse-mcq-16",
+        "excuse-mcq-02",
         "excuse-mcq-13",
-        "excuse-mcq-17",
-        "excuse-mcq-12"
+        "excuse-mcq-07"
       ],
       "explanation": "本句的「be excused」指「獲准離開」。",
       "sentenceIndex": 32,
@@ -1583,12 +1453,10 @@ export default {
         "be excused"
       ],
       "optionReasons": {
-        "excuse-mcq-15": "本句指「獲准離開」。",
-        "excuse-mcq-14": "「免除某人 X」是「excuse someone from X」的用法，與本句語境不同。",
-        "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。",
-        "excuse-mcq-13": "「原諒某人 X」是「excuse someone for X」的用法，與本句語境不同。",
-        "excuse-mcq-17": "「不好意思／勞駕／請問」是「Excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-12": "「為行為開脫／原諒」是「excuse behaviour」的用法，與本句語境不同。"
+        "excuse-mcq-15": "本句的「be excused」指「獲准離開」。",
+        "excuse-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-15"
     },
@@ -1600,11 +1468,9 @@ export default {
       "masked": "The doctor ____.",
       "options": [
         "excuse-mcq-23",
-        "excuse-mcq-22",
+        "excuse-mcq-08",
         "excuse-mcq-24",
-        "excuse-mcq-21",
-        "excuse-mcq-20",
-        "excuse-mcq-19"
+        "excuse-mcq-11"
       ],
       "explanation": "本句的「excused him from physical activity」指「正式允許某人不用參與、執行或承擔 X」。",
       "sentenceIndex": 33,
@@ -1613,12 +1479,10 @@ export default {
         "excused him from physical activity"
       ],
       "optionReasons": {
-        "excuse-mcq-23": "本句指「正式允許某人不用參與、執行或承擔 X」。",
-        "excuse-mcq-22": "「那個理由不足以合理化某人的行為」是「10. That's no excuse. — 那不是理由；別拿這個當藉口」的用法，與本句語境不同。",
-        "excuse-mcq-24": "「沒有任何合理理由能夠為 X 開脫」是「28. inexcusable behaviour / mistake — 不可原諒的行為／錯誤」的用法，與本句語境不同。",
-        "excuse-mcq-21": "「不可原諒的；無可辯解的」是「inexcusable」的用法，與本句語境不同。",
-        "excuse-mcq-20": "「情有可原的」是「excusable」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。"
+        "excuse-mcq-23": "本句的「excused him from physical activity」指「正式允許某人不用參與、執行或承擔 X」。",
+        "excuse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-23"
     },
@@ -1630,11 +1494,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "excuse-mcq-23",
-        "excuse-mcq-22",
-        "excuse-mcq-24",
-        "excuse-mcq-21",
-        "excuse-mcq-20",
-        "excuse-mcq-19"
+        "excuse-mcq-02",
+        "excuse-mcq-18",
+        "excuse-mcq-24"
       ],
       "explanation": "本句的「excused from the meeting」指「正式允許某人不用參與、執行或承擔 X」。",
       "sentenceIndex": 34,
@@ -1643,12 +1505,10 @@ export default {
         "excused from the meeting"
       ],
       "optionReasons": {
-        "excuse-mcq-23": "本句指「正式允許某人不用參與、執行或承擔 X」。",
-        "excuse-mcq-22": "「那個理由不足以合理化某人的行為」是「10. That's no excuse. — 那不是理由；別拿這個當藉口」的用法，與本句語境不同。",
-        "excuse-mcq-24": "「沒有任何合理理由能夠為 X 開脫」是「28. inexcusable behaviour / mistake — 不可原諒的行為／錯誤」的用法，與本句語境不同。",
-        "excuse-mcq-21": "「不可原諒的；無可辯解的」是「inexcusable」的用法，與本句語境不同。",
-        "excuse-mcq-20": "「情有可原的」是「excusable」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。"
+        "excuse-mcq-23": "本句的「excused from the meeting」指「正式允許某人不用參與、執行或承擔 X」。",
+        "excuse-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-23"
     },
@@ -1660,11 +1520,9 @@ export default {
       "masked": "He was ____ for medical reasons.",
       "options": [
         "excuse-mcq-16",
-        "excuse-mcq-15",
-        "excuse-mcq-17",
-        "excuse-mcq-14",
-        "excuse-mcq-18",
-        "excuse-mcq-13"
+        "excuse-mcq-19",
+        "excuse-mcq-01",
+        "excuse-pdf-002"
       ],
       "explanation": "本句的「excused from duty」指「獲免除職務」。",
       "sentenceIndex": 35,
@@ -1673,12 +1531,10 @@ export default {
         "excused from duty"
       ],
       "optionReasons": {
-        "excuse-mcq-16": "本句指「獲免除職務」。",
-        "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。",
-        "excuse-mcq-17": "「不好意思／勞駕／請問」是「Excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-14": "「免除某人 X」是「excuse someone from X」的用法，與本句語境不同。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。",
-        "excuse-mcq-13": "「原諒某人 X」是「excuse someone for X」的用法，與本句語境不同。"
+        "excuse-mcq-16": "本句的「excused from duty」指「獲免除職務」。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "excuse-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-16"
     },
@@ -1690,11 +1546,9 @@ export default {
       "masked": "She was ____ that afternoon.",
       "options": [
         "excuse-mcq-16",
-        "excuse-mcq-15",
-        "excuse-mcq-17",
-        "excuse-mcq-14",
+        "excuse-mcq-08",
         "excuse-mcq-18",
-        "excuse-mcq-13"
+        "excuse-mcq-07"
       ],
       "explanation": "本句的「excused from class」指「獲免除職務」。",
       "sentenceIndex": 36,
@@ -1703,12 +1557,10 @@ export default {
         "excused from class"
       ],
       "optionReasons": {
-        "excuse-mcq-16": "本句指「獲免除職務」。",
-        "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。",
-        "excuse-mcq-17": "「不好意思／勞駕／請問」是「Excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-14": "「免除某人 X」是「excuse someone from X」的用法，與本句語境不同。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。",
-        "excuse-mcq-13": "「原諒某人 X」是「excuse someone for X」的用法，與本句語境不同。"
+        "excuse-mcq-16": "本句的「excused from class」指「獲免除職務」。",
+        "excuse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-16"
     },
@@ -1720,11 +1572,9 @@ export default {
       "masked": "____, where is the station?",
       "options": [
         "excuse-mcq-17",
-        "excuse-mcq-16",
-        "excuse-mcq-18",
-        "excuse-mcq-15",
-        "excuse-mcq-19",
-        "excuse-mcq-14"
+        "excuse-mcq-04",
+        "excuse-mcq-21",
+        "excuse-mcq-24"
       ],
       "explanation": "本句的「Excuse me」指「不好意思／勞駕／請問」。",
       "sentenceIndex": 37,
@@ -1733,12 +1583,10 @@ export default {
         "Excuse me"
       ],
       "optionReasons": {
-        "excuse-mcq-17": "本句指「不好意思／勞駕／請問」。",
-        "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。",
-        "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-14": "「免除某人 X」是「excuse someone from X」的用法，與本句語境不同。"
+        "excuse-mcq-17": "本句的「Excuse me」指「不好意思／勞駕／請問」。",
+        "excuse-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-17"
     },
@@ -1750,11 +1598,9 @@ export default {
       "masked": "____, could you help me?",
       "options": [
         "excuse-mcq-17",
-        "excuse-mcq-16",
-        "excuse-mcq-18",
-        "excuse-mcq-15",
-        "excuse-mcq-19",
-        "excuse-mcq-14"
+        "excuse-mcq-13",
+        "excuse-mcq-24",
+        "excuse-mcq-08"
       ],
       "explanation": "本句的「Excuse me」指「不好意思／勞駕／請問」。",
       "sentenceIndex": 38,
@@ -1763,12 +1609,10 @@ export default {
         "Excuse me"
       ],
       "optionReasons": {
-        "excuse-mcq-17": "本句指「不好意思／勞駕／請問」。",
-        "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。",
-        "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-14": "「免除某人 X」是「excuse someone from X」的用法，與本句語境不同。"
+        "excuse-mcq-17": "本句的「Excuse me」指「不好意思／勞駕／請問」。",
+        "excuse-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-17"
     },
@@ -1780,11 +1624,9 @@ export default {
       "masked": "____, can I get past?",
       "options": [
         "excuse-mcq-17",
-        "excuse-mcq-16",
-        "excuse-mcq-18",
-        "excuse-mcq-15",
-        "excuse-mcq-19",
-        "excuse-mcq-14"
+        "excuse-mcq-20",
+        "excuse-mcq-08",
+        "excuse-mcq-09"
       ],
       "explanation": "本句的「Excuse me」指「不好意思／勞駕／請問」。",
       "sentenceIndex": 39,
@@ -1793,12 +1635,10 @@ export default {
         "Excuse me"
       ],
       "optionReasons": {
-        "excuse-mcq-17": "本句指「不好意思／勞駕／請問」。",
-        "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。",
-        "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-14": "「免除某人 X」是「excuse someone from X」的用法，與本句語境不同。"
+        "excuse-mcq-17": "本句的「Excuse me」指「不好意思／勞駕／請問」。",
+        "excuse-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-17"
     },
@@ -1810,11 +1650,9 @@ export default {
       "masked": "____, you're blocking the door.",
       "options": [
         "excuse-mcq-17",
-        "excuse-mcq-16",
-        "excuse-mcq-18",
-        "excuse-mcq-15",
-        "excuse-mcq-19",
-        "excuse-mcq-14"
+        "excuse-mcq-13",
+        "excuse-mcq-01",
+        "excuse-mcq-19"
       ],
       "explanation": "本句的「Excuse me」指「不好意思／勞駕／請問」。",
       "sentenceIndex": 40,
@@ -1823,12 +1661,10 @@ export default {
         "Excuse me"
       ],
       "optionReasons": {
-        "excuse-mcq-17": "本句指「不好意思／勞駕／請問」。",
-        "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。",
-        "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-14": "「免除某人 X」是「excuse someone from X」的用法，與本句語境不同。"
+        "excuse-mcq-17": "本句的「Excuse me」指「不好意思／勞駕／請問」。",
+        "excuse-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-17"
     },
@@ -1840,11 +1676,9 @@ export default {
       "masked": "____, I didn't mean to interrupt.",
       "options": [
         "excuse-mcq-17",
-        "excuse-mcq-16",
-        "excuse-mcq-18",
-        "excuse-mcq-15",
-        "excuse-mcq-19",
-        "excuse-mcq-14"
+        "excuse-mcq-05",
+        "excuse-mcq-12",
+        "excuse-mcq-23"
       ],
       "explanation": "本句的「Excuse me」指「不好意思／勞駕／請問」。",
       "sentenceIndex": 41,
@@ -1853,12 +1687,10 @@ export default {
         "Excuse me"
       ],
       "optionReasons": {
-        "excuse-mcq-17": "本句指「不好意思／勞駕／請問」。",
-        "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。",
-        "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-14": "「免除某人 X」是「excuse someone from X」的用法，與本句語境不同。"
+        "excuse-mcq-17": "本句的「Excuse me」指「不好意思／勞駕／請問」。",
+        "excuse-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-17"
     },
@@ -1871,10 +1703,8 @@ export default {
       "options": [
         "excuse-mcq-17",
         "excuse-mcq-16",
-        "excuse-mcq-18",
-        "excuse-mcq-15",
-        "excuse-mcq-19",
-        "excuse-mcq-14"
+        "excuse-mcq-10",
+        "excuse-mcq-22"
       ],
       "explanation": "本句的「Excuse me」指「不好意思／勞駕／請問」。",
       "sentenceIndex": 42,
@@ -1883,12 +1713,10 @@ export default {
         "Excuse me"
       ],
       "optionReasons": {
-        "excuse-mcq-17": "本句指「不好意思／勞駕／請問」。",
-        "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。",
-        "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-14": "「免除某人 X」是「excuse someone from X」的用法，與本句語境不同。"
+        "excuse-mcq-17": "本句的「Excuse me」指「不好意思／勞駕／請問」。",
+        "excuse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-17"
     },
@@ -1900,11 +1728,9 @@ export default {
       "masked": "The meeting starts at six.” > “____",
       "options": [
         "excuse-mcq-17",
-        "excuse-mcq-16",
-        "excuse-mcq-18",
-        "excuse-mcq-15",
+        "excuse-mcq-09",
         "excuse-mcq-19",
-        "excuse-mcq-14"
+        "excuse-mcq-13"
       ],
       "explanation": "本句的「Excuse me?」指「不好意思／勞駕／請問」。",
       "sentenceIndex": 43,
@@ -1913,12 +1739,10 @@ export default {
         "Excuse me?"
       ],
       "optionReasons": {
-        "excuse-mcq-17": "本句指「不好意思／勞駕／請問」。",
-        "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。",
-        "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-14": "「免除某人 X」是「excuse someone from X」的用法，與本句語境不同。"
+        "excuse-mcq-17": "本句的「Excuse me?」指「不好意思／勞駕／請問」。",
+        "excuse-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-17"
     },
@@ -1930,11 +1754,9 @@ export default {
       "masked": "____ I didn't hear the last part.",
       "options": [
         "excuse-mcq-17",
-        "excuse-mcq-16",
-        "excuse-mcq-18",
-        "excuse-mcq-15",
-        "excuse-mcq-19",
-        "excuse-mcq-14"
+        "excuse-mcq-20",
+        "excuse-pdf-001",
+        "excuse-mcq-02"
       ],
       "explanation": "本句的「Excuse me?」指「不好意思／勞駕／請問」。",
       "sentenceIndex": 44,
@@ -1943,12 +1765,10 @@ export default {
         "Excuse me?"
       ],
       "optionReasons": {
-        "excuse-mcq-17": "本句指「不好意思／勞駕／請問」。",
-        "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。",
-        "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-14": "「免除某人 X」是「excuse someone from X」的用法，與本句語境不同。"
+        "excuse-mcq-17": "本句的「Excuse me?」指「不好意思／勞駕／請問」。",
+        "excuse-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "excuse-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-17"
     },
@@ -1960,11 +1780,9 @@ export default {
       "masked": "You caused the whole problem.” > “____",
       "options": [
         "excuse-mcq-18",
-        "excuse-mcq-17",
-        "excuse-mcq-19",
+        "excuse-mcq-12",
         "excuse-mcq-16",
-        "excuse-mcq-20",
-        "excuse-mcq-15"
+        "excuse-mcq-19"
       ],
       "explanation": "本句的「Excuse me?」指「請再說一次／你說甚麼？」。",
       "sentenceIndex": 45,
@@ -1973,12 +1791,10 @@ export default {
         "Excuse me?"
       ],
       "optionReasons": {
-        "excuse-mcq-18": "本句指「請再說一次／你說甚麼？」。",
-        "excuse-mcq-17": "「不好意思／勞駕／請問」是「Excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。",
-        "excuse-mcq-20": "「情有可原的」是「excusable」的用法，與本句語境不同。",
-        "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。"
+        "excuse-mcq-18": "本句的「Excuse me?」指「請再說一次／你說甚麼？」。",
+        "excuse-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-18"
     },
@@ -1990,10 +1806,8 @@ export default {
       "masked": "____ That's not what happened.",
       "options": [
         "excuse-mcq-18",
-        "excuse-mcq-17",
-        "excuse-mcq-19",
-        "excuse-mcq-16",
-        "excuse-mcq-20",
+        "excuse-mcq-21",
+        "excuse-mcq-05",
         "excuse-mcq-15"
       ],
       "explanation": "本句的「Excuse me?」指「請再說一次／你說甚麼？」。",
@@ -2003,12 +1817,10 @@ export default {
         "Excuse me?"
       ],
       "optionReasons": {
-        "excuse-mcq-18": "本句指「請再說一次／你說甚麼？」。",
-        "excuse-mcq-17": "「不好意思／勞駕／請問」是「Excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。",
-        "excuse-mcq-20": "「情有可原的」是「excusable」的用法，與本句語境不同。",
-        "excuse-mcq-15": "「獲准離開」是「be excused」的用法，與本句語境不同。"
+        "excuse-mcq-18": "本句的「Excuse me?」指「請再說一次／你說甚麼？」。",
+        "excuse-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-18"
     },
@@ -2020,11 +1832,9 @@ export default {
       "masked": "____, I need to make a phone call.",
       "options": [
         "excuse-mcq-19",
-        "excuse-mcq-18",
-        "excuse-mcq-20",
-        "excuse-mcq-17",
+        "excuse-mcq-16",
         "excuse-mcq-21",
-        "excuse-mcq-16"
+        "excuse-mcq-05"
       ],
       "explanation": "本句的「If you'll excuse me」指「失陪」。",
       "sentenceIndex": 47,
@@ -2033,12 +1843,10 @@ export default {
         "If you'll excuse me"
       ],
       "optionReasons": {
-        "excuse-mcq-19": "本句指「失陪」。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。",
-        "excuse-mcq-20": "「情有可原的」是「excusable」的用法，與本句語境不同。",
-        "excuse-mcq-17": "「不好意思／勞駕／請問」是「Excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-21": "「不可原諒的；無可辯解的」是「inexcusable」的用法，與本句語境不同。",
-        "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。"
+        "excuse-mcq-19": "本句的「If you'll excuse me」指「失陪」。",
+        "excuse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-19"
     },
@@ -2050,11 +1858,9 @@ export default {
       "masked": "____, I should get back to work.",
       "options": [
         "excuse-mcq-19",
-        "excuse-mcq-18",
-        "excuse-mcq-20",
-        "excuse-mcq-17",
-        "excuse-mcq-21",
-        "excuse-mcq-16"
+        "excuse-mcq-12",
+        "excuse-mcq-07",
+        "excuse-pdf-002"
       ],
       "explanation": "本句的「If you'll excuse me」指「失陪」。",
       "sentenceIndex": 48,
@@ -2063,12 +1869,10 @@ export default {
         "If you'll excuse me"
       ],
       "optionReasons": {
-        "excuse-mcq-19": "本句指「失陪」。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。",
-        "excuse-mcq-20": "「情有可原的」是「excusable」的用法，與本句語境不同。",
-        "excuse-mcq-17": "「不好意思／勞駕／請問」是「Excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-21": "「不可原諒的；無可辯解的」是「inexcusable」的用法，與本句語境不同。",
-        "excuse-mcq-16": "「獲免除職務」是「be excused from duty」的用法，與本句語境不同。"
+        "excuse-mcq-19": "本句的「If you'll excuse me」指「失陪」。",
+        "excuse-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "excuse-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-19"
     },
@@ -2080,11 +1884,9 @@ export default {
       "masked": "His mistake was ____.",
       "options": [
         "excuse-mcq-20",
-        "excuse-mcq-19",
-        "excuse-mcq-21",
-        "excuse-mcq-18",
-        "excuse-mcq-22",
-        "excuse-mcq-17"
+        "excuse-mcq-07",
+        "excuse-mcq-10",
+        "excuse-mcq-18"
       ],
       "explanation": "本句的「excusable」指「情有可原的」。",
       "sentenceIndex": 49,
@@ -2093,12 +1895,10 @@ export default {
         "excusable"
       ],
       "optionReasons": {
-        "excuse-mcq-20": "本句指「情有可原的」。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-21": "「不可原諒的；無可辯解的」是「inexcusable」的用法，與本句語境不同。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。",
-        "excuse-mcq-22": "「那個理由不足以合理化某人的行為」是「10. That's no excuse. — 那不是理由；別拿這個當藉口」的用法，與本句語境不同。",
-        "excuse-mcq-17": "「不好意思／勞駕／請問」是「Excuse me」的用法，與本句語境不同。"
+        "excuse-mcq-20": "本句的「excusable」指「情有可原的」。",
+        "excuse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-20"
     },
@@ -2110,11 +1910,9 @@ export default {
       "masked": "A small mistake under those circumstances is ____.",
       "options": [
         "excuse-mcq-20",
-        "excuse-mcq-19",
-        "excuse-mcq-21",
-        "excuse-mcq-18",
-        "excuse-mcq-22",
-        "excuse-mcq-17"
+        "excuse-mcq-15",
+        "excuse-mcq-10",
+        "excuse-mcq-24"
       ],
       "explanation": "本句的「excusable」指「情有可原的」。",
       "sentenceIndex": 50,
@@ -2123,12 +1921,10 @@ export default {
         "excusable"
       ],
       "optionReasons": {
-        "excuse-mcq-20": "本句指「情有可原的」。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-21": "「不可原諒的；無可辯解的」是「inexcusable」的用法，與本句語境不同。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。",
-        "excuse-mcq-22": "「那個理由不足以合理化某人的行為」是「10. That's no excuse. — 那不是理由；別拿這個當藉口」的用法，與本句語境不同。",
-        "excuse-mcq-17": "「不好意思／勞駕／請問」是「Excuse me」的用法，與本句語境不同。"
+        "excuse-mcq-20": "本句的「excusable」指「情有可原的」。",
+        "excuse-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-20"
     },
@@ -2140,11 +1936,9 @@ export default {
       "masked": "It was an ____.",
       "options": [
         "excuse-mcq-20",
-        "excuse-mcq-19",
-        "excuse-mcq-21",
-        "excuse-mcq-18",
-        "excuse-mcq-22",
-        "excuse-mcq-17"
+        "excuse-mcq-01",
+        "excuse-mcq-16",
+        "excuse-mcq-19"
       ],
       "explanation": "本句的「excusable mistake」指「情有可原的」。",
       "sentenceIndex": 51,
@@ -2153,12 +1947,10 @@ export default {
         "excusable mistake"
       ],
       "optionReasons": {
-        "excuse-mcq-20": "本句指「情有可原的」。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-21": "「不可原諒的；無可辯解的」是「inexcusable」的用法，與本句語境不同。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。",
-        "excuse-mcq-22": "「那個理由不足以合理化某人的行為」是「10. That's no excuse. — 那不是理由；別拿這個當藉口」的用法，與本句語境不同。",
-        "excuse-mcq-17": "「不好意思／勞駕／請問」是「Excuse me」的用法，與本句語境不同。"
+        "excuse-mcq-20": "本句的「excusable mistake」指「情有可原的」。",
+        "excuse-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-20"
     },
@@ -2170,11 +1962,9 @@ export default {
       "masked": "Confusing the two names was probably ____.",
       "options": [
         "excuse-mcq-20",
-        "excuse-mcq-19",
-        "excuse-mcq-21",
-        "excuse-mcq-18",
-        "excuse-mcq-22",
-        "excuse-mcq-17"
+        "excuse-mcq-15",
+        "excuse-mcq-04",
+        "excuse-mcq-19"
       ],
       "explanation": "本句的「excusable」指「情有可原的」。",
       "sentenceIndex": 52,
@@ -2183,12 +1973,10 @@ export default {
         "excusable"
       ],
       "optionReasons": {
-        "excuse-mcq-20": "本句指「情有可原的」。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-21": "「不可原諒的；無可辯解的」是「inexcusable」的用法，與本句語境不同。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。",
-        "excuse-mcq-22": "「那個理由不足以合理化某人的行為」是「10. That's no excuse. — 那不是理由；別拿這個當藉口」的用法，與本句語境不同。",
-        "excuse-mcq-17": "「不好意思／勞駕／請問」是「Excuse me」的用法，與本句語境不同。"
+        "excuse-mcq-20": "本句的「excusable」指「情有可原的」。",
+        "excuse-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-20"
     },
@@ -2200,10 +1988,8 @@ export default {
       "masked": "His behaviour was ____.",
       "options": [
         "excuse-mcq-21",
-        "excuse-mcq-20",
         "excuse-mcq-22",
-        "excuse-mcq-19",
-        "excuse-mcq-23",
+        "excuse-mcq-16",
         "excuse-mcq-18"
       ],
       "explanation": "本句的「inexcusable」指「不可原諒的；無可辯解的」。",
@@ -2213,12 +1999,10 @@ export default {
         "inexcusable"
       ],
       "optionReasons": {
-        "excuse-mcq-21": "本句指「不可原諒的；無可辯解的」。",
-        "excuse-mcq-20": "「情有可原的」是「excusable」的用法，與本句語境不同。",
-        "excuse-mcq-22": "「那個理由不足以合理化某人的行為」是「10. That's no excuse. — 那不是理由；別拿這個當藉口」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-23": "「正式允許某人不用參與、執行或承擔 X」是「17. excuse someone from something — 免除某人某項責任」的用法，與本句語境不同。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。"
+        "excuse-mcq-21": "本句的「inexcusable」指「不可原諒的；無可辯解的」。",
+        "excuse-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-21"
     },
@@ -2230,11 +2014,9 @@ export default {
       "masked": "Publicly humiliating someone without checking the facts is ____.",
       "options": [
         "excuse-mcq-21",
-        "excuse-mcq-20",
         "excuse-mcq-22",
-        "excuse-mcq-19",
-        "excuse-mcq-23",
-        "excuse-mcq-18"
+        "excuse-mcq-16",
+        "excuse-mcq-08"
       ],
       "explanation": "本句的「inexcusable」指「不可原諒的；無可辯解的」。",
       "sentenceIndex": 54,
@@ -2243,12 +2025,10 @@ export default {
         "inexcusable"
       ],
       "optionReasons": {
-        "excuse-mcq-21": "本句指「不可原諒的；無可辯解的」。",
-        "excuse-mcq-20": "「情有可原的」是「excusable」的用法，與本句語境不同。",
-        "excuse-mcq-22": "「那個理由不足以合理化某人的行為」是「10. That's no excuse. — 那不是理由；別拿這個當藉口」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。",
-        "excuse-mcq-23": "「正式允許某人不用參與、執行或承擔 X」是「17. excuse someone from something — 免除某人某項責任」的用法，與本句語境不同。",
-        "excuse-mcq-18": "「請再說一次／你說甚麼？」是「Excuse me?」的用法，與本句語境不同。"
+        "excuse-mcq-21": "本句的「inexcusable」指「不可原諒的；無可辯解的」。",
+        "excuse-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-21"
     },
@@ -2260,11 +2040,9 @@ export default {
       "masked": "The delay was unfortunate, but the rude response was ____.",
       "options": [
         "excuse-mcq-24",
-        "excuse-mcq-23",
-        "excuse-mcq-22",
-        "excuse-mcq-21",
-        "excuse-mcq-20",
-        "excuse-mcq-19"
+        "excuse-mcq-02",
+        "excuse-mcq-17",
+        "excuse-mcq-16"
       ],
       "explanation": "本句的「inexcusable」指「沒有任何合理理由能夠為 X 開脫」。",
       "sentenceIndex": 55,
@@ -2273,12 +2051,10 @@ export default {
         "inexcusable"
       ],
       "optionReasons": {
-        "excuse-mcq-24": "本句指「沒有任何合理理由能夠為 X 開脫」。",
-        "excuse-mcq-23": "「正式允許某人不用參與、執行或承擔 X」是「17. excuse someone from something — 免除某人某項責任」的用法，與本句語境不同。",
-        "excuse-mcq-22": "「那個理由不足以合理化某人的行為」是「10. That's no excuse. — 那不是理由；別拿這個當藉口」的用法，與本句語境不同。",
-        "excuse-mcq-21": "「不可原諒的；無可辯解的」是「inexcusable」的用法，與本句語境不同。",
-        "excuse-mcq-20": "「情有可原的」是「excusable」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。"
+        "excuse-mcq-24": "本句的「inexcusable」指「沒有任何合理理由能夠為 X 開脫」。",
+        "excuse-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-24"
     },
@@ -2290,11 +2066,9 @@ export default {
       "masked": "That was an ____.",
       "options": [
         "excuse-mcq-24",
-        "excuse-mcq-23",
-        "excuse-mcq-22",
-        "excuse-mcq-21",
-        "excuse-mcq-20",
-        "excuse-mcq-19"
+        "excuse-mcq-17",
+        "excuse-mcq-11",
+        "excuse-mcq-02"
       ],
       "explanation": "本句的「inexcusable error」指「沒有任何合理理由能夠為 X 開脫」。",
       "sentenceIndex": 56,
@@ -2303,12 +2077,10 @@ export default {
         "inexcusable error"
       ],
       "optionReasons": {
-        "excuse-mcq-24": "本句指「沒有任何合理理由能夠為 X 開脫」。",
-        "excuse-mcq-23": "「正式允許某人不用參與、執行或承擔 X」是「17. excuse someone from something — 免除某人某項責任」的用法，與本句語境不同。",
-        "excuse-mcq-22": "「那個理由不足以合理化某人的行為」是「10. That's no excuse. — 那不是理由；別拿這個當藉口」的用法，與本句語境不同。",
-        "excuse-mcq-21": "「不可原諒的；無可辯解的」是「inexcusable」的用法，與本句語境不同。",
-        "excuse-mcq-20": "「情有可原的」是「excusable」的用法，與本句語境不同。",
-        "excuse-mcq-19": "「失陪」是「If you'll excuse me」的用法，與本句語境不同。"
+        "excuse-mcq-24": "本句的「inexcusable error」指「沒有任何合理理由能夠為 X 開脫」。",
+        "excuse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "excuse-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "excuse-mcq-24"
     }
@@ -2320,5 +2092,7 @@ export default {
     "sha256": "e27396d6c018677cf834b1e5396093d2789e883d105113e1fd9c6defdbf3ba69",
     "pages": 22
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

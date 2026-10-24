@@ -526,11 +526,8 @@ export default {
       "masked": "What stayed with me was the ____.",
       "options": [
         "sincerity-mcq-01",
-        "sincerity-mcq-02",
-        "sincerity-mcq-03",
-        "sincerity-mcq-04",
-        "sincerity-mcq-05",
-        "sincerity-mcq-06"
+        "sincerity-mcq-09",
+        "sincerity-mcq-17"
       ],
       "explanation": "本句的「sincerity behind the apology」指「真誠；誠意」。",
       "sentenceIndex": 0,
@@ -539,12 +536,9 @@ export default {
         "sincerity behind the apology"
       ],
       "optionReasons": {
-        "sincerity-mcq-01": "本句指「真誠；誠意」。",
-        "sincerity-mcq-02": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。",
-        "sincerity-mcq-03": "「真誠地」是「with sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-04": "「表現誠意」是「show sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-05": "「證明誠意」是「prove sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-06": "「質疑誠意」是「question sincerity」的用法，與本句語境不同。"
+        "sincerity-mcq-01": "本句的「sincerity behind the apology」指「真誠；誠意」。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-01"
     },
@@ -556,11 +550,8 @@ export default {
       "masked": "I could hear the ____ in her voice.",
       "options": [
         "sincerity-mcq-01",
-        "sincerity-mcq-02",
-        "sincerity-mcq-03",
-        "sincerity-mcq-04",
-        "sincerity-mcq-05",
-        "sincerity-mcq-06"
+        "sincerity-mcq-17",
+        "sincerity-mcq-09"
       ],
       "explanation": "本句的「sincerity」指「真誠；誠意」。",
       "sentenceIndex": 1,
@@ -569,12 +560,9 @@ export default {
         "sincerity"
       ],
       "optionReasons": {
-        "sincerity-mcq-01": "本句指「真誠；誠意」。",
-        "sincerity-mcq-02": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。",
-        "sincerity-mcq-03": "「真誠地」是「with sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-04": "「表現誠意」是「show sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-05": "「證明誠意」是「prove sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-06": "「質疑誠意」是「question sincerity」的用法，與本句語境不同。"
+        "sincerity-mcq-01": "本句的「sincerity」指「真誠；誠意」。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-01"
     },
@@ -586,11 +574,8 @@ export default {
       "masked": "His ____ made the apology easier to accept.",
       "options": [
         "sincerity-mcq-01",
-        "sincerity-mcq-02",
-        "sincerity-mcq-03",
-        "sincerity-mcq-04",
-        "sincerity-mcq-05",
-        "sincerity-mcq-06"
+        "sincerity-mcq-15",
+        "sincerity-mcq-17"
       ],
       "explanation": "本句的「sincerity」指「真誠；誠意」。",
       "sentenceIndex": 2,
@@ -599,12 +584,9 @@ export default {
         "sincerity"
       ],
       "optionReasons": {
-        "sincerity-mcq-01": "本句指「真誠；誠意」。",
-        "sincerity-mcq-02": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。",
-        "sincerity-mcq-03": "「真誠地」是「with sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-04": "「表現誠意」是「show sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-05": "「證明誠意」是「prove sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-06": "「質疑誠意」是「question sincerity」的用法，與本句語境不同。"
+        "sincerity-mcq-01": "本句的「sincerity」指「真誠；誠意」。",
+        "sincerity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-01"
     },
@@ -616,11 +598,9 @@ export default {
       "masked": "I appreciated the ____.",
       "options": [
         "sincerity-mcq-02",
-        "sincerity-mcq-01",
-        "sincerity-mcq-03",
-        "sincerity-mcq-04",
-        "sincerity-mcq-05",
-        "sincerity-mcq-06"
+        "sincerity-mcq-17",
+        "sincerity-mcq-09",
+        "sincerity-mcq-05"
       ],
       "explanation": "本句的「sincerity behind his words」指「X 背後的真誠」。",
       "sentenceIndex": 3,
@@ -629,12 +609,10 @@ export default {
         "sincerity behind his words"
       ],
       "optionReasons": {
-        "sincerity-mcq-02": "本句指「X 背後的真誠」。",
-        "sincerity-mcq-01": "「真誠；誠意」是「sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-03": "「真誠地」是「with sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-04": "「表現誠意」是「show sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-05": "「證明誠意」是「prove sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-06": "「質疑誠意」是「question sincerity」的用法，與本句語境不同。"
+        "sincerity-mcq-02": "本句的「sincerity behind his words」指「X 背後的真誠」。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-02"
     },
@@ -646,10 +624,8 @@ export default {
       "masked": "The gift was simple, but the ____ made it meaningful.",
       "options": [
         "sincerity-mcq-02",
-        "sincerity-mcq-01",
-        "sincerity-mcq-03",
-        "sincerity-mcq-04",
-        "sincerity-mcq-05",
+        "sincerity-mcq-15",
+        "sincerity-mcq-17",
         "sincerity-mcq-06"
       ],
       "explanation": "本句的「sincerity behind it」指「X 背後的真誠」。",
@@ -659,12 +635,10 @@ export default {
         "sincerity behind it"
       ],
       "optionReasons": {
-        "sincerity-mcq-02": "本句指「X 背後的真誠」。",
-        "sincerity-mcq-01": "「真誠；誠意」是「sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-03": "「真誠地」是「with sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-04": "「表現誠意」是「show sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-05": "「證明誠意」是「prove sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-06": "「質疑誠意」是「question sincerity」的用法，與本句語境不同。"
+        "sincerity-mcq-02": "本句的「sincerity behind it」指「X 背後的真誠」。",
+        "sincerity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-02"
     },
@@ -676,11 +650,8 @@ export default {
       "masked": "He spoke ____.",
       "options": [
         "sincerity-mcq-03",
-        "sincerity-mcq-02",
-        "sincerity-mcq-04",
-        "sincerity-mcq-01",
-        "sincerity-mcq-05",
-        "sincerity-mcq-06"
+        "sincerity-mcq-09",
+        "sincerity-mcq-17"
       ],
       "explanation": "本句的「with sincerity」指「真誠地」。",
       "sentenceIndex": 5,
@@ -689,12 +660,9 @@ export default {
         "with sincerity"
       ],
       "optionReasons": {
-        "sincerity-mcq-03": "本句指「真誠地」。",
-        "sincerity-mcq-02": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。",
-        "sincerity-mcq-04": "「表現誠意」是「show sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-01": "「真誠；誠意」是「sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-05": "「證明誠意」是「prove sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-06": "「質疑誠意」是「question sincerity」的用法，與本句語境不同。"
+        "sincerity-mcq-03": "本句的「with sincerity」指「真誠地」。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-03"
     },
@@ -706,11 +674,8 @@ export default {
       "masked": "The apology was delivered ____.",
       "options": [
         "sincerity-mcq-03",
-        "sincerity-mcq-02",
-        "sincerity-mcq-04",
-        "sincerity-mcq-01",
-        "sincerity-mcq-05",
-        "sincerity-mcq-06"
+        "sincerity-mcq-09",
+        "sincerity-mcq-17"
       ],
       "explanation": "本句的「with sincerity」指「真誠地」。",
       "sentenceIndex": 6,
@@ -719,12 +684,9 @@ export default {
         "with sincerity"
       ],
       "optionReasons": {
-        "sincerity-mcq-03": "本句指「真誠地」。",
-        "sincerity-mcq-02": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。",
-        "sincerity-mcq-04": "「表現誠意」是「show sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-01": "「真誠；誠意」是「sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-05": "「證明誠意」是「prove sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-06": "「質疑誠意」是「question sincerity」的用法，與本句語境不同。"
+        "sincerity-mcq-03": "本句的「with sincerity」指「真誠地」。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-03"
     },
@@ -736,11 +698,9 @@ export default {
       "masked": "He ____ by accepting responsibility.",
       "options": [
         "sincerity-mcq-04",
-        "sincerity-mcq-03",
-        "sincerity-mcq-05",
-        "sincerity-mcq-02",
-        "sincerity-mcq-06",
-        "sincerity-mcq-01"
+        "sincerity-mcq-12",
+        "sincerity-mcq-09",
+        "sincerity-mcq-17"
       ],
       "explanation": "本句的「showed sincerity」指「表現誠意」。",
       "sentenceIndex": 7,
@@ -749,12 +709,10 @@ export default {
         "showed sincerity"
       ],
       "optionReasons": {
-        "sincerity-mcq-04": "本句指「表現誠意」。",
-        "sincerity-mcq-03": "「真誠地」是「with sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-05": "「證明誠意」是「prove sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-02": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。",
-        "sincerity-mcq-06": "「質疑誠意」是「question sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-01": "「真誠；誠意」是「sincerity」的用法，與本句語境不同。"
+        "sincerity-mcq-04": "本句的「showed sincerity」指「表現誠意」。",
+        "sincerity-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-04"
     },
@@ -766,11 +724,9 @@ export default {
       "masked": "Actions often ____ better than words.",
       "options": [
         "sincerity-mcq-04",
-        "sincerity-mcq-03",
-        "sincerity-mcq-05",
-        "sincerity-mcq-02",
-        "sincerity-mcq-06",
-        "sincerity-mcq-01"
+        "sincerity-mcq-22",
+        "sincerity-mcq-17",
+        "sincerity-mcq-15"
       ],
       "explanation": "本句的「show sincerity」指「表現誠意」。",
       "sentenceIndex": 8,
@@ -779,12 +735,10 @@ export default {
         "show sincerity"
       ],
       "optionReasons": {
-        "sincerity-mcq-04": "本句指「表現誠意」。",
-        "sincerity-mcq-03": "「真誠地」是「with sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-05": "「證明誠意」是「prove sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-02": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。",
-        "sincerity-mcq-06": "「質疑誠意」是「question sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-01": "「真誠；誠意」是「sincerity」的用法，與本句語境不同。"
+        "sincerity-mcq-04": "本句的「show sincerity」指「表現誠意」。",
+        "sincerity-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-04"
     },
@@ -796,11 +750,8 @@ export default {
       "masked": "He tried to ____ through his actions.",
       "options": [
         "sincerity-mcq-05",
-        "sincerity-mcq-04",
-        "sincerity-mcq-06",
-        "sincerity-mcq-03",
-        "sincerity-mcq-07",
-        "sincerity-mcq-02"
+        "sincerity-mcq-16",
+        "sincerity-mcq-17"
       ],
       "explanation": "本句的「prove his sincerity」指「證明誠意」。",
       "sentenceIndex": 9,
@@ -809,12 +760,9 @@ export default {
         "prove his sincerity"
       ],
       "optionReasons": {
-        "sincerity-mcq-05": "本句指「證明誠意」。",
-        "sincerity-mcq-04": "「表現誠意」是「show sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-06": "「質疑誠意」是「question sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-03": "「真誠地」是「with sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-07": "「真誠的」是「sincere」的用法，與本句語境不同。",
-        "sincerity-mcq-02": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。"
+        "sincerity-mcq-05": "本句的「prove his sincerity」指「證明誠意」。",
+        "sincerity-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-05"
     },
@@ -826,11 +774,9 @@ export default {
       "masked": "It takes time to ____.",
       "options": [
         "sincerity-mcq-05",
-        "sincerity-mcq-04",
-        "sincerity-mcq-06",
-        "sincerity-mcq-03",
-        "sincerity-mcq-07",
-        "sincerity-mcq-02"
+        "sincerity-mcq-15",
+        "sincerity-mcq-22",
+        "sincerity-mcq-17"
       ],
       "explanation": "本句的「prove your sincerity」指「證明誠意」。",
       "sentenceIndex": 10,
@@ -839,12 +785,10 @@ export default {
         "prove your sincerity"
       ],
       "optionReasons": {
-        "sincerity-mcq-05": "本句指「證明誠意」。",
-        "sincerity-mcq-04": "「表現誠意」是「show sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-06": "「質疑誠意」是「question sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-03": "「真誠地」是「with sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-07": "「真誠的」是「sincere」的用法，與本句語境不同。",
-        "sincerity-mcq-02": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。"
+        "sincerity-mcq-05": "本句的「prove your sincerity」指「證明誠意」。",
+        "sincerity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-05"
     },
@@ -856,11 +800,9 @@ export default {
       "masked": "Some people ____.",
       "options": [
         "sincerity-mcq-06",
-        "sincerity-mcq-05",
-        "sincerity-mcq-07",
-        "sincerity-mcq-04",
-        "sincerity-mcq-08",
-        "sincerity-mcq-03"
+        "sincerity-mcq-22",
+        "sincerity-mcq-17",
+        "sincerity-mcq-15"
       ],
       "explanation": "本句的「questioned his sincerity」指「質疑誠意」。",
       "sentenceIndex": 11,
@@ -869,12 +811,10 @@ export default {
         "questioned his sincerity"
       ],
       "optionReasons": {
-        "sincerity-mcq-06": "本句指「質疑誠意」。",
-        "sincerity-mcq-05": "「證明誠意」是「prove sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-07": "「真誠的」是「sincere」的用法，與本句語境不同。",
-        "sincerity-mcq-04": "「表現誠意」是「show sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-08": "「真誠道歉」是「sincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-03": "「真誠地」是「with sincerity」的用法，與本句語境不同。"
+        "sincerity-mcq-06": "本句的「questioned his sincerity」指「質疑誠意」。",
+        "sincerity-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-06"
     },
@@ -886,11 +826,8 @@ export default {
       "masked": "I had no reason to ____.",
       "options": [
         "sincerity-mcq-06",
-        "sincerity-mcq-05",
-        "sincerity-mcq-07",
-        "sincerity-mcq-04",
-        "sincerity-mcq-08",
-        "sincerity-mcq-03"
+        "sincerity-mcq-16",
+        "sincerity-mcq-17"
       ],
       "explanation": "本句的「question her sincerity」指「質疑誠意」。",
       "sentenceIndex": 12,
@@ -899,12 +836,9 @@ export default {
         "question her sincerity"
       ],
       "optionReasons": {
-        "sincerity-mcq-06": "本句指「質疑誠意」。",
-        "sincerity-mcq-05": "「證明誠意」是「prove sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-07": "「真誠的」是「sincere」的用法，與本句語境不同。",
-        "sincerity-mcq-04": "「表現誠意」是「show sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-08": "「真誠道歉」是「sincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-03": "「真誠地」是「with sincerity」的用法，與本句語境不同。"
+        "sincerity-mcq-06": "本句的「question her sincerity」指「質疑誠意」。",
+        "sincerity-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-06"
     },
@@ -916,11 +850,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "sincerity-mcq-22",
-        "sincerity-mcq-21",
-        "sincerity-mcq-23",
-        "sincerity-mcq-20",
-        "sincerity-mcq-19",
-        "sincerity-mcq-18"
+        "sincerity-mcq-05",
+        "sincerity-mcq-17",
+        "sincerity-mcq-08"
       ],
       "explanation": "本句的「doubted the sincerity of his apology」指「不確定某人的說話、感受或承諾是否真心」。",
       "sentenceIndex": 13,
@@ -929,12 +861,10 @@ export default {
         "doubted the sincerity of his apology"
       ],
       "optionReasons": {
-        "sincerity-mcq-22": "本句指「不確定某人的說話、感受或承諾是否真心」。",
-        "sincerity-mcq-21": "「不真誠；虛情假意」是「insincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-23": "「對自己的目標或意圖是真心認真的，而不是裝模作樣」是「23. sincerity of purpose — 目標／意圖的真誠」的用法，與本句語境不同。",
-        "sincerity-mcq-20": "「不真誠地」是「insincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-19": "「敷衍／不真誠的道歉」是「insincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-18": "「不真誠的」是「insincere」的用法，與本句語境不同。"
+        "sincerity-mcq-22": "本句的「doubted the sincerity of his apology」指「不確定某人的說話、感受或承諾是否真心」。",
+        "sincerity-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-22"
     },
@@ -946,11 +876,9 @@ export default {
       "masked": "Nobody ____.",
       "options": [
         "sincerity-mcq-22",
-        "sincerity-mcq-21",
-        "sincerity-mcq-23",
-        "sincerity-mcq-20",
-        "sincerity-mcq-19",
-        "sincerity-mcq-18"
+        "sincerity-mcq-17",
+        "sincerity-mcq-04",
+        "sincerity-mcq-15"
       ],
       "explanation": "本句的「doubted his sincerity」指「不確定某人的說話、感受或承諾是否真心」。",
       "sentenceIndex": 14,
@@ -959,12 +887,10 @@ export default {
         "doubted his sincerity"
       ],
       "optionReasons": {
-        "sincerity-mcq-22": "本句指「不確定某人的說話、感受或承諾是否真心」。",
-        "sincerity-mcq-21": "「不真誠；虛情假意」是「insincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-23": "「對自己的目標或意圖是真心認真的，而不是裝模作樣」是「23. sincerity of purpose — 目標／意圖的真誠」的用法，與本句語境不同。",
-        "sincerity-mcq-20": "「不真誠地」是「insincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-19": "「敷衍／不真誠的道歉」是「insincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-18": "「不真誠的」是「insincere」的用法，與本句語境不同。"
+        "sincerity-mcq-22": "本句的「doubted his sincerity」指「不確定某人的說話、感受或承諾是否真心」。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-22"
     },
@@ -976,11 +902,8 @@ export default {
       "masked": "He gave me a ____.",
       "options": [
         "sincerity-mcq-07",
-        "sincerity-mcq-06",
-        "sincerity-mcq-08",
-        "sincerity-mcq-05",
-        "sincerity-mcq-09",
-        "sincerity-mcq-04"
+        "sincerity-mcq-17",
+        "sincerity-mcq-15"
       ],
       "explanation": "本句的「sincere apology」指「真誠的」。",
       "sentenceIndex": 15,
@@ -989,12 +912,9 @@ export default {
         "sincere apology"
       ],
       "optionReasons": {
-        "sincerity-mcq-07": "本句指「真誠的」。",
-        "sincerity-mcq-06": "「質疑誠意」是「question sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-08": "「真誠道歉」是「sincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-05": "「證明誠意」是「prove sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-09": "「衷心感謝」是「sincere thanks」的用法，與本句語境不同。",
-        "sincerity-mcq-04": "「表現誠意」是「show sincerity」的用法，與本句語境不同。"
+        "sincerity-mcq-07": "本句的「sincere apology」指「真誠的」。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-07"
     },
@@ -1006,11 +926,8 @@ export default {
       "masked": "Her concern seemed ____.",
       "options": [
         "sincerity-mcq-07",
-        "sincerity-mcq-06",
-        "sincerity-mcq-08",
-        "sincerity-mcq-05",
         "sincerity-mcq-09",
-        "sincerity-mcq-04"
+        "sincerity-mcq-17"
       ],
       "explanation": "本句的「sincere」指「真誠的」。",
       "sentenceIndex": 16,
@@ -1019,12 +936,9 @@ export default {
         "sincere"
       ],
       "optionReasons": {
-        "sincerity-mcq-07": "本句指「真誠的」。",
-        "sincerity-mcq-06": "「質疑誠意」是「question sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-08": "「真誠道歉」是「sincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-05": "「證明誠意」是「prove sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-09": "「衷心感謝」是「sincere thanks」的用法，與本句語境不同。",
-        "sincerity-mcq-04": "「表現誠意」是「show sincerity」的用法，與本句語境不同。"
+        "sincerity-mcq-07": "本句的「sincere」指「真誠的」。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-07"
     },
@@ -1036,11 +950,9 @@ export default {
       "masked": "A ____ can rebuild trust.",
       "options": [
         "sincerity-mcq-08",
-        "sincerity-mcq-07",
+        "sincerity-mcq-17",
         "sincerity-mcq-09",
-        "sincerity-mcq-06",
-        "sincerity-mcq-10",
-        "sincerity-mcq-05"
+        "sincerity-mcq-06"
       ],
       "explanation": "本句的「sincere apology」指「真誠道歉」。",
       "sentenceIndex": 17,
@@ -1049,12 +961,10 @@ export default {
         "sincere apology"
       ],
       "optionReasons": {
-        "sincerity-mcq-08": "本句指「真誠道歉」。",
-        "sincerity-mcq-07": "「真誠的」是「sincere」的用法，與本句語境不同。",
-        "sincerity-mcq-09": "「衷心感謝」是「sincere thanks」的用法，與本句語境不同。",
-        "sincerity-mcq-06": "「質疑誠意」是「question sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-10": "「真誠悔意」是「sincere regret」的用法，與本句語境不同。",
-        "sincerity-mcq-05": "「證明誠意」是「prove sincerity」的用法，與本句語境不同。"
+        "sincerity-mcq-08": "本句的「sincere apology」指「真誠道歉」。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-08"
     },
@@ -1066,11 +976,9 @@ export default {
       "masked": "He offered a ____ for embarrassing me.",
       "options": [
         "sincerity-mcq-08",
-        "sincerity-mcq-07",
-        "sincerity-mcq-09",
-        "sincerity-mcq-06",
-        "sincerity-mcq-10",
-        "sincerity-mcq-05"
+        "sincerity-mcq-15",
+        "sincerity-mcq-17",
+        "sincerity-mcq-22"
       ],
       "explanation": "本句的「sincere apology」指「真誠道歉」。",
       "sentenceIndex": 18,
@@ -1079,12 +987,10 @@ export default {
         "sincere apology"
       ],
       "optionReasons": {
-        "sincerity-mcq-08": "本句指「真誠道歉」。",
-        "sincerity-mcq-07": "「真誠的」是「sincere」的用法，與本句語境不同。",
-        "sincerity-mcq-09": "「衷心感謝」是「sincere thanks」的用法，與本句語境不同。",
-        "sincerity-mcq-06": "「質疑誠意」是「question sincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-10": "「真誠悔意」是「sincere regret」的用法，與本句語境不同。",
-        "sincerity-mcq-05": "「證明誠意」是「prove sincerity」的用法，與本句語境不同。"
+        "sincerity-mcq-08": "本句的「sincere apology」指「真誠道歉」。",
+        "sincerity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-08"
     },
@@ -1096,11 +1002,9 @@ export default {
       "masked": "Please accept my ____.",
       "options": [
         "sincerity-mcq-09",
-        "sincerity-mcq-08",
-        "sincerity-mcq-10",
-        "sincerity-mcq-07",
-        "sincerity-mcq-11",
-        "sincerity-mcq-06"
+        "sincerity-mcq-04",
+        "sincerity-mcq-17",
+        "sincerity-mcq-12"
       ],
       "explanation": "本句的「sincere thanks」指「衷心感謝」。",
       "sentenceIndex": 19,
@@ -1109,12 +1013,10 @@ export default {
         "sincere thanks"
       ],
       "optionReasons": {
-        "sincerity-mcq-09": "本句指「衷心感謝」。",
-        "sincerity-mcq-08": "「真誠道歉」是「sincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-10": "「真誠悔意」是「sincere regret」的用法，與本句語境不同。",
-        "sincerity-mcq-07": "「真誠的」是「sincere」的用法，與本句語境不同。",
-        "sincerity-mcq-11": "「真切關心」是「sincere concern」的用法，與本句語境不同。",
-        "sincerity-mcq-06": "「質疑誠意」是「question sincerity」的用法，與本句語境不同。"
+        "sincerity-mcq-09": "本句的「sincere thanks」指「衷心感謝」。",
+        "sincerity-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-09"
     },
@@ -1126,11 +1028,9 @@ export default {
       "masked": "She expressed her ____ to the team.",
       "options": [
         "sincerity-mcq-09",
-        "sincerity-mcq-08",
-        "sincerity-mcq-10",
-        "sincerity-mcq-07",
-        "sincerity-mcq-11",
-        "sincerity-mcq-06"
+        "sincerity-mcq-21",
+        "sincerity-mcq-17",
+        "sincerity-mcq-12"
       ],
       "explanation": "本句的「sincere thanks」指「衷心感謝」。",
       "sentenceIndex": 20,
@@ -1139,12 +1039,10 @@ export default {
         "sincere thanks"
       ],
       "optionReasons": {
-        "sincerity-mcq-09": "本句指「衷心感謝」。",
-        "sincerity-mcq-08": "「真誠道歉」是「sincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-10": "「真誠悔意」是「sincere regret」的用法，與本句語境不同。",
-        "sincerity-mcq-07": "「真誠的」是「sincere」的用法，與本句語境不同。",
-        "sincerity-mcq-11": "「真切關心」是「sincere concern」的用法，與本句語境不同。",
-        "sincerity-mcq-06": "「質疑誠意」是「question sincerity」的用法，與本句語境不同。"
+        "sincerity-mcq-09": "本句的「sincere thanks」指「衷心感謝」。",
+        "sincerity-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-09"
     },
@@ -1156,11 +1054,9 @@ export default {
       "masked": "He expressed ____ for his actions.",
       "options": [
         "sincerity-mcq-10",
-        "sincerity-mcq-09",
-        "sincerity-mcq-11",
-        "sincerity-mcq-08",
-        "sincerity-mcq-12",
-        "sincerity-mcq-07"
+        "sincerity-mcq-15",
+        "sincerity-mcq-17",
+        "sincerity-mcq-22"
       ],
       "explanation": "本句的「sincere regret」指「真誠悔意」。",
       "sentenceIndex": 21,
@@ -1169,12 +1065,10 @@ export default {
         "sincere regret"
       ],
       "optionReasons": {
-        "sincerity-mcq-10": "本句指「真誠悔意」。",
-        "sincerity-mcq-09": "「衷心感謝」是「sincere thanks」的用法，與本句語境不同。",
-        "sincerity-mcq-11": "「真切關心」是「sincere concern」的用法，與本句語境不同。",
-        "sincerity-mcq-08": "「真誠道歉」是「sincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-12": "「真心信念」是「sincere belief」的用法，與本句語境不同。",
-        "sincerity-mcq-07": "「真誠的」是「sincere」的用法，與本句語境不同。"
+        "sincerity-mcq-10": "本句的「sincere regret」指「真誠悔意」。",
+        "sincerity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-10"
     },
@@ -1186,11 +1080,9 @@ export default {
       "masked": "The statement showed ____.",
       "options": [
         "sincerity-mcq-10",
+        "sincerity-mcq-17",
         "sincerity-mcq-09",
-        "sincerity-mcq-11",
-        "sincerity-mcq-08",
-        "sincerity-mcq-12",
-        "sincerity-mcq-07"
+        "sincerity-mcq-12"
       ],
       "explanation": "本句的「sincere regret」指「真誠悔意」。",
       "sentenceIndex": 22,
@@ -1199,12 +1091,10 @@ export default {
         "sincere regret"
       ],
       "optionReasons": {
-        "sincerity-mcq-10": "本句指「真誠悔意」。",
-        "sincerity-mcq-09": "「衷心感謝」是「sincere thanks」的用法，與本句語境不同。",
-        "sincerity-mcq-11": "「真切關心」是「sincere concern」的用法，與本句語境不同。",
-        "sincerity-mcq-08": "「真誠道歉」是「sincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-12": "「真心信念」是「sincere belief」的用法，與本句語境不同。",
-        "sincerity-mcq-07": "「真誠的」是「sincere」的用法，與本句語境不同。"
+        "sincerity-mcq-10": "本句的「sincere regret」指「真誠悔意」。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-10"
     },
@@ -1216,11 +1106,8 @@ export default {
       "masked": "She showed ____ for his health.",
       "options": [
         "sincerity-mcq-11",
-        "sincerity-mcq-10",
-        "sincerity-mcq-12",
-        "sincerity-mcq-09",
-        "sincerity-mcq-13",
-        "sincerity-mcq-08"
+        "sincerity-mcq-06",
+        "sincerity-mcq-17"
       ],
       "explanation": "本句的「sincere concern」指「真切關心」。",
       "sentenceIndex": 23,
@@ -1229,12 +1116,9 @@ export default {
         "sincere concern"
       ],
       "optionReasons": {
-        "sincerity-mcq-11": "本句指「真切關心」。",
-        "sincerity-mcq-10": "「真誠悔意」是「sincere regret」的用法，與本句語境不同。",
-        "sincerity-mcq-12": "「真心信念」是「sincere belief」的用法，與本句語境不同。",
-        "sincerity-mcq-09": "「衷心感謝」是「sincere thanks」的用法，與本句語境不同。",
-        "sincerity-mcq-13": "「真誠地」是「sincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-08": "「真誠道歉」是「sincere apology」的用法，與本句語境不同。"
+        "sincerity-mcq-11": "本句的「sincere concern」指「真切關心」。",
+        "sincerity-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-11"
     },
@@ -1246,11 +1130,8 @@ export default {
       "masked": "His concern seemed completely ____.",
       "options": [
         "sincerity-mcq-11",
-        "sincerity-mcq-10",
-        "sincerity-mcq-12",
-        "sincerity-mcq-09",
-        "sincerity-mcq-13",
-        "sincerity-mcq-08"
+        "sincerity-mcq-17",
+        "sincerity-mcq-05"
       ],
       "explanation": "本句的「sincere」指「真切關心」。",
       "sentenceIndex": 24,
@@ -1259,12 +1140,9 @@ export default {
         "sincere"
       ],
       "optionReasons": {
-        "sincerity-mcq-11": "本句指「真切關心」。",
-        "sincerity-mcq-10": "「真誠悔意」是「sincere regret」的用法，與本句語境不同。",
-        "sincerity-mcq-12": "「真心信念」是「sincere belief」的用法，與本句語境不同。",
-        "sincerity-mcq-09": "「衷心感謝」是「sincere thanks」的用法，與本句語境不同。",
-        "sincerity-mcq-13": "「真誠地」是「sincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-08": "「真誠道歉」是「sincere apology」的用法，與本句語境不同。"
+        "sincerity-mcq-11": "本句的「sincere」指「真切關心」。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-11"
     },
@@ -1276,10 +1154,8 @@ export default {
       "masked": "It was his ____ that the plan would work.",
       "options": [
         "sincerity-mcq-12",
-        "sincerity-mcq-11",
-        "sincerity-mcq-13",
-        "sincerity-mcq-10",
-        "sincerity-mcq-14",
+        "sincerity-mcq-04",
+        "sincerity-mcq-17",
         "sincerity-mcq-09"
       ],
       "explanation": "本句的「sincere belief」指「真心信念」。",
@@ -1289,12 +1165,10 @@ export default {
         "sincere belief"
       ],
       "optionReasons": {
-        "sincerity-mcq-12": "本句指「真心信念」。",
-        "sincerity-mcq-11": "「真切關心」是「sincere concern」的用法，與本句語境不同。",
-        "sincerity-mcq-13": "「真誠地」是「sincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-10": "「真誠悔意」是「sincere regret」的用法，與本句語境不同。",
-        "sincerity-mcq-14": "「真誠道歉」是「sincerely apologise」的用法，與本句語境不同。",
-        "sincerity-mcq-09": "「衷心感謝」是「sincere thanks」的用法，與本句語境不同。"
+        "sincerity-mcq-12": "本句的「sincere belief」指「真心信念」。",
+        "sincerity-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-12"
     },
@@ -1306,11 +1180,9 @@ export default {
       "masked": "She expressed a ____ in the value of education.",
       "options": [
         "sincerity-mcq-12",
-        "sincerity-mcq-11",
-        "sincerity-mcq-13",
-        "sincerity-mcq-10",
-        "sincerity-mcq-14",
-        "sincerity-mcq-09"
+        "sincerity-mcq-04",
+        "sincerity-mcq-17",
+        "sincerity-mcq-15"
       ],
       "explanation": "本句的「sincere belief」指「真心信念」。",
       "sentenceIndex": 26,
@@ -1319,12 +1191,10 @@ export default {
         "sincere belief"
       ],
       "optionReasons": {
-        "sincerity-mcq-12": "本句指「真心信念」。",
-        "sincerity-mcq-11": "「真切關心」是「sincere concern」的用法，與本句語境不同。",
-        "sincerity-mcq-13": "「真誠地」是「sincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-10": "「真誠悔意」是「sincere regret」的用法，與本句語境不同。",
-        "sincerity-mcq-14": "「真誠道歉」是「sincerely apologise」的用法，與本句語境不同。",
-        "sincerity-mcq-09": "「衷心感謝」是「sincere thanks」的用法，與本句語境不同。"
+        "sincerity-mcq-12": "本句的「sincere belief」指「真心信念」。",
+        "sincerity-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-12"
     },
@@ -1336,11 +1206,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "sincerity-mcq-13",
-        "sincerity-mcq-12",
-        "sincerity-mcq-14",
-        "sincerity-mcq-11",
         "sincerity-mcq-15",
-        "sincerity-mcq-10"
+        "sincerity-mcq-17"
       ],
       "explanation": "本句的「sincerely apologised」指「真誠地」。",
       "sentenceIndex": 27,
@@ -1349,12 +1216,9 @@ export default {
         "sincerely apologised"
       ],
       "optionReasons": {
-        "sincerity-mcq-13": "本句指「真誠地」。",
-        "sincerity-mcq-12": "「真心信念」是「sincere belief」的用法，與本句語境不同。",
-        "sincerity-mcq-14": "「真誠道歉」是「sincerely apologise」的用法，與本句語境不同。",
-        "sincerity-mcq-11": "「真切關心」是「sincere concern」的用法，與本句語境不同。",
-        "sincerity-mcq-15": "「衷心希望」是「sincerely hope」的用法，與本句語境不同。",
-        "sincerity-mcq-10": "「真誠悔意」是「sincere regret」的用法，與本句語境不同。"
+        "sincerity-mcq-13": "本句的「sincerely apologised」指「真誠地」。",
+        "sincerity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-13"
     },
@@ -1366,11 +1230,8 @@ export default {
       "masked": "I ____ for your help.",
       "options": [
         "sincerity-mcq-13",
-        "sincerity-mcq-12",
-        "sincerity-mcq-14",
-        "sincerity-mcq-11",
-        "sincerity-mcq-15",
-        "sincerity-mcq-10"
+        "sincerity-mcq-09",
+        "sincerity-mcq-17"
       ],
       "explanation": "本句的「sincerely thank you」指「真誠地」。",
       "sentenceIndex": 28,
@@ -1379,12 +1240,9 @@ export default {
         "sincerely thank you"
       ],
       "optionReasons": {
-        "sincerity-mcq-13": "本句指「真誠地」。",
-        "sincerity-mcq-12": "「真心信念」是「sincere belief」的用法，與本句語境不同。",
-        "sincerity-mcq-14": "「真誠道歉」是「sincerely apologise」的用法，與本句語境不同。",
-        "sincerity-mcq-11": "「真切關心」是「sincere concern」的用法，與本句語境不同。",
-        "sincerity-mcq-15": "「衷心希望」是「sincerely hope」的用法，與本句語境不同。",
-        "sincerity-mcq-10": "「真誠悔意」是「sincere regret」的用法，與本句語境不同。"
+        "sincerity-mcq-13": "本句的「sincerely thank you」指「真誠地」。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-13"
     },
@@ -1396,11 +1254,9 @@ export default {
       "masked": "I ____ for what happened.",
       "options": [
         "sincerity-mcq-14",
-        "sincerity-mcq-13",
+        "sincerity-mcq-17",
         "sincerity-mcq-15",
-        "sincerity-mcq-12",
-        "sincerity-mcq-16",
-        "sincerity-mcq-11"
+        "sincerity-mcq-12"
       ],
       "explanation": "本句的「sincerely apologise」指「真誠道歉」。",
       "sentenceIndex": 29,
@@ -1409,12 +1265,10 @@ export default {
         "sincerely apologise"
       ],
       "optionReasons": {
-        "sincerity-mcq-14": "本句指「真誠道歉」。",
-        "sincerity-mcq-13": "「真誠地」是「sincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-15": "「衷心希望」是「sincerely hope」的用法，與本句語境不同。",
-        "sincerity-mcq-12": "「真心信念」是「sincere belief」的用法，與本句語境不同。",
-        "sincerity-mcq-16": "「真心相信」是「sincerely believe」的用法，與本句語境不同。",
-        "sincerity-mcq-11": "「真切關心」是「sincere concern」的用法，與本句語境不同。"
+        "sincerity-mcq-14": "本句的「sincerely apologise」指「真誠道歉」。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-14"
     },
@@ -1426,11 +1280,9 @@ export default {
       "masked": "He ____ to the whole group.",
       "options": [
         "sincerity-mcq-14",
-        "sincerity-mcq-13",
-        "sincerity-mcq-15",
-        "sincerity-mcq-12",
-        "sincerity-mcq-16",
-        "sincerity-mcq-11"
+        "sincerity-mcq-09",
+        "sincerity-mcq-17",
+        "sincerity-mcq-05"
       ],
       "explanation": "本句的「sincerely apologised」指「真誠道歉」。",
       "sentenceIndex": 30,
@@ -1439,12 +1291,10 @@ export default {
         "sincerely apologised"
       ],
       "optionReasons": {
-        "sincerity-mcq-14": "本句指「真誠道歉」。",
-        "sincerity-mcq-13": "「真誠地」是「sincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-15": "「衷心希望」是「sincerely hope」的用法，與本句語境不同。",
-        "sincerity-mcq-12": "「真心信念」是「sincere belief」的用法，與本句語境不同。",
-        "sincerity-mcq-16": "「真心相信」是「sincerely believe」的用法，與本句語境不同。",
-        "sincerity-mcq-11": "「真切關心」是「sincere concern」的用法，與本句語境不同。"
+        "sincerity-mcq-14": "本句的「sincerely apologised」指「真誠道歉」。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-14"
     },
@@ -1456,11 +1306,9 @@ export default {
       "masked": "I ____ things improve.",
       "options": [
         "sincerity-mcq-15",
-        "sincerity-mcq-14",
-        "sincerity-mcq-16",
-        "sincerity-mcq-13",
+        "sincerity-mcq-10",
         "sincerity-mcq-17",
-        "sincerity-mcq-12"
+        "sincerity-mcq-22"
       ],
       "explanation": "本句的「sincerely hope」指「衷心希望」。",
       "sentenceIndex": 31,
@@ -1469,12 +1317,10 @@ export default {
         "sincerely hope"
       ],
       "optionReasons": {
-        "sincerity-mcq-15": "本句指「衷心希望」。",
-        "sincerity-mcq-14": "「真誠道歉」是「sincerely apologise」的用法，與本句語境不同。",
-        "sincerity-mcq-16": "「真心相信」是「sincerely believe」的用法，與本句語境不同。",
-        "sincerity-mcq-13": "「真誠地」是「sincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-17": "「謹啟／敬上」是「Yours sincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-12": "「真心信念」是「sincere belief」的用法，與本句語境不同。"
+        "sincerity-mcq-15": "本句的「sincerely hope」指「衷心希望」。",
+        "sincerity-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-15"
     },
@@ -1486,11 +1332,9 @@ export default {
       "masked": "We ____ you enjoy the event.",
       "options": [
         "sincerity-mcq-15",
-        "sincerity-mcq-14",
-        "sincerity-mcq-16",
-        "sincerity-mcq-13",
+        "sincerity-mcq-10",
         "sincerity-mcq-17",
-        "sincerity-mcq-12"
+        "sincerity-mcq-22"
       ],
       "explanation": "本句的「sincerely hope」指「衷心希望」。",
       "sentenceIndex": 32,
@@ -1499,12 +1343,10 @@ export default {
         "sincerely hope"
       ],
       "optionReasons": {
-        "sincerity-mcq-15": "本句指「衷心希望」。",
-        "sincerity-mcq-14": "「真誠道歉」是「sincerely apologise」的用法，與本句語境不同。",
-        "sincerity-mcq-16": "「真心相信」是「sincerely believe」的用法，與本句語境不同。",
-        "sincerity-mcq-13": "「真誠地」是「sincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-17": "「謹啟／敬上」是「Yours sincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-12": "「真心信念」是「sincere belief」的用法，與本句語境不同。"
+        "sincerity-mcq-15": "本句的「sincerely hope」指「衷心希望」。",
+        "sincerity-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-15"
     },
@@ -1516,11 +1358,8 @@ export default {
       "masked": "I ____ he learned from the mistake.",
       "options": [
         "sincerity-mcq-16",
-        "sincerity-mcq-15",
-        "sincerity-mcq-17",
-        "sincerity-mcq-14",
-        "sincerity-mcq-18",
-        "sincerity-mcq-13"
+        "sincerity-mcq-05",
+        "sincerity-mcq-17"
       ],
       "explanation": "本句的「sincerely believe」指「真心相信」。",
       "sentenceIndex": 33,
@@ -1529,12 +1368,9 @@ export default {
         "sincerely believe"
       ],
       "optionReasons": {
-        "sincerity-mcq-16": "本句指「真心相信」。",
-        "sincerity-mcq-15": "「衷心希望」是「sincerely hope」的用法，與本句語境不同。",
-        "sincerity-mcq-17": "「謹啟／敬上」是「Yours sincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-14": "「真誠道歉」是「sincerely apologise」的用法，與本句語境不同。",
-        "sincerity-mcq-18": "「不真誠的」是「insincere」的用法，與本句語境不同。",
-        "sincerity-mcq-13": "「真誠地」是「sincerely」的用法，與本句語境不同。"
+        "sincerity-mcq-16": "本句的「sincerely believe」指「真心相信」。",
+        "sincerity-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-16"
     },
@@ -1546,11 +1382,8 @@ export default {
       "masked": "She ____ she was doing the right thing.",
       "options": [
         "sincerity-mcq-16",
-        "sincerity-mcq-15",
-        "sincerity-mcq-17",
-        "sincerity-mcq-14",
-        "sincerity-mcq-18",
-        "sincerity-mcq-13"
+        "sincerity-mcq-06",
+        "sincerity-mcq-17"
       ],
       "explanation": "本句的「sincerely believed」指「真心相信」。",
       "sentenceIndex": 34,
@@ -1559,12 +1392,9 @@ export default {
         "sincerely believed"
       ],
       "optionReasons": {
-        "sincerity-mcq-16": "本句指「真心相信」。",
-        "sincerity-mcq-15": "「衷心希望」是「sincerely hope」的用法，與本句語境不同。",
-        "sincerity-mcq-17": "「謹啟／敬上」是「Yours sincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-14": "「真誠道歉」是「sincerely apologise」的用法，與本句語境不同。",
-        "sincerity-mcq-18": "「不真誠的」是「insincere」的用法，與本句語境不同。",
-        "sincerity-mcq-13": "「真誠地」是「sincerely」的用法，與本句語境不同。"
+        "sincerity-mcq-16": "本句的「sincerely believed」指「真心相信」。",
+        "sincerity-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-16"
     },
@@ -1576,11 +1406,9 @@ export default {
       "masked": "The letter ended with “____",
       "options": [
         "sincerity-mcq-17",
-        "sincerity-mcq-16",
-        "sincerity-mcq-18",
-        "sincerity-mcq-15",
-        "sincerity-mcq-19",
-        "sincerity-mcq-14"
+        "sincerity-mcq-12",
+        "sincerity-mcq-04",
+        "sincerity-mcq-09"
       ],
       "explanation": "本句的「Yours sincerely.」指「謹啟／敬上」。",
       "sentenceIndex": 35,
@@ -1589,12 +1417,10 @@ export default {
         "Yours sincerely."
       ],
       "optionReasons": {
-        "sincerity-mcq-17": "本句指「謹啟／敬上」。",
-        "sincerity-mcq-16": "「真心相信」是「sincerely believe」的用法，與本句語境不同。",
-        "sincerity-mcq-18": "「不真誠的」是「insincere」的用法，與本句語境不同。",
-        "sincerity-mcq-15": "「衷心希望」是「sincerely hope」的用法，與本句語境不同。",
-        "sincerity-mcq-19": "「敷衍／不真誠的道歉」是「insincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-14": "「真誠道歉」是「sincerely apologise」的用法，與本句語境不同。"
+        "sincerity-mcq-17": "本句的「Yours sincerely.」指「謹啟／敬上」。",
+        "sincerity-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-17"
     },
@@ -1606,11 +1432,9 @@ export default {
       "masked": "In traditional British correspondence, ____ is commonly used when the recipient is addressed by name.",
       "options": [
         "sincerity-mcq-17",
-        "sincerity-mcq-16",
-        "sincerity-mcq-18",
-        "sincerity-mcq-15",
-        "sincerity-mcq-19",
-        "sincerity-mcq-14"
+        "sincerity-mcq-21",
+        "sincerity-mcq-12",
+        "sincerity-mcq-15"
       ],
       "explanation": "本句的「Yours sincerely」指「謹啟／敬上」。",
       "sentenceIndex": 36,
@@ -1619,12 +1443,10 @@ export default {
         "Yours sincerely"
       ],
       "optionReasons": {
-        "sincerity-mcq-17": "本句指「謹啟／敬上」。",
-        "sincerity-mcq-16": "「真心相信」是「sincerely believe」的用法，與本句語境不同。",
-        "sincerity-mcq-18": "「不真誠的」是「insincere」的用法，與本句語境不同。",
-        "sincerity-mcq-15": "「衷心希望」是「sincerely hope」的用法，與本句語境不同。",
-        "sincerity-mcq-19": "「敷衍／不真誠的道歉」是「insincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-14": "「真誠道歉」是「sincerely apologise」的用法，與本句語境不同。"
+        "sincerity-mcq-17": "本句的「Yours sincerely」指「謹啟／敬上」。",
+        "sincerity-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-17"
     },
@@ -1636,11 +1458,8 @@ export default {
       "masked": "The apology sounded ____.",
       "options": [
         "sincerity-mcq-18",
-        "sincerity-mcq-17",
-        "sincerity-mcq-19",
-        "sincerity-mcq-16",
-        "sincerity-mcq-20",
-        "sincerity-mcq-15"
+        "sincerity-mcq-09",
+        "sincerity-mcq-17"
       ],
       "explanation": "本句的「insincere」指「不真誠的」。",
       "sentenceIndex": 37,
@@ -1649,12 +1468,9 @@ export default {
         "insincere"
       ],
       "optionReasons": {
-        "sincerity-mcq-18": "本句指「不真誠的」。",
-        "sincerity-mcq-17": "「謹啟／敬上」是「Yours sincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-19": "「敷衍／不真誠的道歉」是「insincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-16": "「真心相信」是「sincerely believe」的用法，與本句語境不同。",
-        "sincerity-mcq-20": "「不真誠地」是「insincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-15": "「衷心希望」是「sincerely hope」的用法，與本句語境不同。"
+        "sincerity-mcq-18": "本句的「insincere」指「不真誠的」。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-18"
     },
@@ -1666,11 +1482,8 @@ export default {
       "masked": "His smile seemed ____.",
       "options": [
         "sincerity-mcq-18",
-        "sincerity-mcq-17",
-        "sincerity-mcq-19",
-        "sincerity-mcq-16",
-        "sincerity-mcq-20",
-        "sincerity-mcq-15"
+        "sincerity-mcq-09",
+        "sincerity-mcq-17"
       ],
       "explanation": "本句的「insincere」指「不真誠的」。",
       "sentenceIndex": 38,
@@ -1679,12 +1492,9 @@ export default {
         "insincere"
       ],
       "optionReasons": {
-        "sincerity-mcq-18": "本句指「不真誠的」。",
-        "sincerity-mcq-17": "「謹啟／敬上」是「Yours sincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-19": "「敷衍／不真誠的道歉」是「insincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-16": "「真心相信」是「sincerely believe」的用法，與本句語境不同。",
-        "sincerity-mcq-20": "「不真誠地」是「insincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-15": "「衷心希望」是「sincerely hope」的用法，與本句語境不同。"
+        "sincerity-mcq-18": "本句的「insincere」指「不真誠的」。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-18"
     },
@@ -1696,11 +1506,9 @@ export default {
       "masked": "An ____ can make things worse.",
       "options": [
         "sincerity-mcq-19",
-        "sincerity-mcq-18",
-        "sincerity-mcq-20",
         "sincerity-mcq-17",
-        "sincerity-mcq-21",
-        "sincerity-mcq-16"
+        "sincerity-mcq-09",
+        "sincerity-mcq-12"
       ],
       "explanation": "本句的「insincere apology」指「敷衍／不真誠的道歉」。",
       "sentenceIndex": 39,
@@ -1709,12 +1517,10 @@ export default {
         "insincere apology"
       ],
       "optionReasons": {
-        "sincerity-mcq-19": "本句指「敷衍／不真誠的道歉」。",
-        "sincerity-mcq-18": "「不真誠的」是「insincere」的用法，與本句語境不同。",
-        "sincerity-mcq-20": "「不真誠地」是「insincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-17": "「謹啟／敬上」是「Yours sincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-21": "「不真誠；虛情假意」是「insincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-16": "「真心相信」是「sincerely believe」的用法，與本句語境不同。"
+        "sincerity-mcq-19": "本句的「insincere apology」指「敷衍／不真誠的道歉」。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-19"
     },
@@ -1726,11 +1532,9 @@ export default {
       "masked": "She rejected what she felt was an ____.",
       "options": [
         "sincerity-mcq-19",
-        "sincerity-mcq-18",
-        "sincerity-mcq-20",
         "sincerity-mcq-17",
-        "sincerity-mcq-21",
-        "sincerity-mcq-16"
+        "sincerity-mcq-09",
+        "sincerity-mcq-12"
       ],
       "explanation": "本句的「insincere apology」指「敷衍／不真誠的道歉」。",
       "sentenceIndex": 40,
@@ -1739,12 +1543,10 @@ export default {
         "insincere apology"
       ],
       "optionReasons": {
-        "sincerity-mcq-19": "本句指「敷衍／不真誠的道歉」。",
-        "sincerity-mcq-18": "「不真誠的」是「insincere」的用法，與本句語境不同。",
-        "sincerity-mcq-20": "「不真誠地」是「insincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-17": "「謹啟／敬上」是「Yours sincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-21": "「不真誠；虛情假意」是「insincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-16": "「真心相信」是「sincerely believe」的用法，與本句語境不同。"
+        "sincerity-mcq-19": "本句的「insincere apology」指「敷衍／不真誠的道歉」。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-19"
     },
@@ -1756,10 +1558,7 @@ export default {
       "masked": "He apologised ____.",
       "options": [
         "sincerity-mcq-20",
-        "sincerity-mcq-19",
-        "sincerity-mcq-21",
-        "sincerity-mcq-18",
-        "sincerity-mcq-22",
+        "sincerity-mcq-09",
         "sincerity-mcq-17"
       ],
       "explanation": "本句的「insincerely」指「不真誠地」。",
@@ -1769,12 +1568,9 @@ export default {
         "insincerely"
       ],
       "optionReasons": {
-        "sincerity-mcq-20": "本句指「不真誠地」。",
-        "sincerity-mcq-19": "「敷衍／不真誠的道歉」是「insincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-21": "「不真誠；虛情假意」是「insincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-18": "「不真誠的」是「insincere」的用法，與本句語境不同。",
-        "sincerity-mcq-22": "「不確定某人的說話、感受或承諾是否真心」是「7. doubt someone's sincerity — 懷疑某人的真誠」的用法，與本句語境不同。",
-        "sincerity-mcq-17": "「謹啟／敬上」是「Yours sincerely」的用法，與本句語境不同。"
+        "sincerity-mcq-20": "本句的「insincerely」指「不真誠地」。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-20"
     },
@@ -1786,11 +1582,8 @@ export default {
       "masked": "She smiled ____ and changed the subject.",
       "options": [
         "sincerity-mcq-20",
-        "sincerity-mcq-19",
-        "sincerity-mcq-21",
-        "sincerity-mcq-18",
-        "sincerity-mcq-22",
-        "sincerity-mcq-17"
+        "sincerity-mcq-17",
+        "sincerity-mcq-09"
       ],
       "explanation": "本句的「insincerely」指「不真誠地」。",
       "sentenceIndex": 42,
@@ -1799,12 +1592,9 @@ export default {
         "insincerely"
       ],
       "optionReasons": {
-        "sincerity-mcq-20": "本句指「不真誠地」。",
-        "sincerity-mcq-19": "「敷衍／不真誠的道歉」是「insincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-21": "「不真誠；虛情假意」是「insincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-18": "「不真誠的」是「insincere」的用法，與本句語境不同。",
-        "sincerity-mcq-22": "「不確定某人的說話、感受或承諾是否真心」是「7. doubt someone's sincerity — 懷疑某人的真誠」的用法，與本句語境不同。",
-        "sincerity-mcq-17": "「謹啟／敬上」是「Yours sincerely」的用法，與本句語境不同。"
+        "sincerity-mcq-20": "本句的「insincerely」指「不真誠地」。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-20"
     },
@@ -1816,11 +1606,9 @@ export default {
       "masked": "People quickly noticed the ____ in his apology.",
       "options": [
         "sincerity-mcq-21",
-        "sincerity-mcq-20",
-        "sincerity-mcq-22",
-        "sincerity-mcq-19",
-        "sincerity-mcq-23",
-        "sincerity-mcq-18"
+        "sincerity-mcq-09",
+        "sincerity-mcq-17",
+        "sincerity-mcq-12"
       ],
       "explanation": "本句的「insincerity」指「不真誠；虛情假意」。",
       "sentenceIndex": 43,
@@ -1829,12 +1617,10 @@ export default {
         "insincerity"
       ],
       "optionReasons": {
-        "sincerity-mcq-21": "本句指「不真誠；虛情假意」。",
-        "sincerity-mcq-20": "「不真誠地」是「insincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-22": "「不確定某人的說話、感受或承諾是否真心」是「7. doubt someone's sincerity — 懷疑某人的真誠」的用法，與本句語境不同。",
-        "sincerity-mcq-19": "「敷衍／不真誠的道歉」是「insincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-23": "「對自己的目標或意圖是真心認真的，而不是裝模作樣」是「23. sincerity of purpose — 目標／意圖的真誠」的用法，與本句語境不同。",
-        "sincerity-mcq-18": "「不真誠的」是「insincere」的用法，與本句語境不同。"
+        "sincerity-mcq-21": "本句的「insincerity」指「不真誠；虛情假意」。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-21"
     },
@@ -1846,11 +1632,9 @@ export default {
       "masked": "Her tone suggested ____.",
       "options": [
         "sincerity-mcq-21",
-        "sincerity-mcq-20",
-        "sincerity-mcq-22",
-        "sincerity-mcq-19",
-        "sincerity-mcq-23",
-        "sincerity-mcq-18"
+        "sincerity-mcq-09",
+        "sincerity-mcq-17",
+        "sincerity-mcq-12"
       ],
       "explanation": "本句的「insincerity」指「不真誠；虛情假意」。",
       "sentenceIndex": 44,
@@ -1859,12 +1643,10 @@ export default {
         "insincerity"
       ],
       "optionReasons": {
-        "sincerity-mcq-21": "本句指「不真誠；虛情假意」。",
-        "sincerity-mcq-20": "「不真誠地」是「insincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-22": "「不確定某人的說話、感受或承諾是否真心」是「7. doubt someone's sincerity — 懷疑某人的真誠」的用法，與本句語境不同。",
-        "sincerity-mcq-19": "「敷衍／不真誠的道歉」是「insincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-23": "「對自己的目標或意圖是真心認真的，而不是裝模作樣」是「23. sincerity of purpose — 目標／意圖的真誠」的用法，與本句語境不同。",
-        "sincerity-mcq-18": "「不真誠的」是「insincere」的用法，與本句語境不同。"
+        "sincerity-mcq-21": "本句的「insincerity」指「不真誠；虛情假意」。",
+        "sincerity-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-21"
     },
@@ -1876,11 +1658,9 @@ export default {
       "masked": "Nobody doubted her ____.",
       "options": [
         "sincerity-mcq-23",
-        "sincerity-mcq-22",
-        "sincerity-mcq-21",
-        "sincerity-mcq-20",
-        "sincerity-mcq-19",
-        "sincerity-mcq-18"
+        "sincerity-mcq-17",
+        "sincerity-mcq-05",
+        "sincerity-mcq-15"
       ],
       "explanation": "本句的「sincerity of purpose」指「對自己的目標或意圖是真心認真的，而不是裝模作樣」。",
       "sentenceIndex": 45,
@@ -1889,12 +1669,10 @@ export default {
         "sincerity of purpose"
       ],
       "optionReasons": {
-        "sincerity-mcq-23": "本句指「對自己的目標或意圖是真心認真的，而不是裝模作樣」。",
-        "sincerity-mcq-22": "「不確定某人的說話、感受或承諾是否真心」是「7. doubt someone's sincerity — 懷疑某人的真誠」的用法，與本句語境不同。",
-        "sincerity-mcq-21": "「不真誠；虛情假意」是「insincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-20": "「不真誠地」是「insincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-19": "「敷衍／不真誠的道歉」是「insincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-18": "「不真誠的」是「insincere」的用法，與本句語境不同。"
+        "sincerity-mcq-23": "本句的「sincerity of purpose」指「對自己的目標或意圖是真心認真的，而不是裝模作樣」。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-23"
     },
@@ -1906,11 +1684,9 @@ export default {
       "masked": "His actions demonstrated ____.",
       "options": [
         "sincerity-mcq-23",
-        "sincerity-mcq-22",
-        "sincerity-mcq-21",
-        "sincerity-mcq-20",
-        "sincerity-mcq-19",
-        "sincerity-mcq-18"
+        "sincerity-mcq-17",
+        "sincerity-mcq-15",
+        "sincerity-mcq-06"
       ],
       "explanation": "本句的「sincerity of purpose」指「對自己的目標或意圖是真心認真的，而不是裝模作樣」。",
       "sentenceIndex": 46,
@@ -1919,12 +1695,10 @@ export default {
         "sincerity of purpose"
       ],
       "optionReasons": {
-        "sincerity-mcq-23": "本句指「對自己的目標或意圖是真心認真的，而不是裝模作樣」。",
-        "sincerity-mcq-22": "「不確定某人的說話、感受或承諾是否真心」是「7. doubt someone's sincerity — 懷疑某人的真誠」的用法，與本句語境不同。",
-        "sincerity-mcq-21": "「不真誠；虛情假意」是「insincerity」的用法，與本句語境不同。",
-        "sincerity-mcq-20": "「不真誠地」是「insincerely」的用法，與本句語境不同。",
-        "sincerity-mcq-19": "「敷衍／不真誠的道歉」是「insincere apology」的用法，與本句語境不同。",
-        "sincerity-mcq-18": "「不真誠的」是「insincere」的用法，與本句語境不同。"
+        "sincerity-mcq-23": "本句的「sincerity of purpose」指「對自己的目標或意圖是真心認真的，而不是裝模作樣」。",
+        "sincerity-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sincerity-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sincerity-mcq-23"
     }
@@ -1936,5 +1710,7 @@ export default {
     "sha256": "ca316baa4f587a56e8fb5fccea8955dd486cbc8240dba5776aace52e4528f282",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

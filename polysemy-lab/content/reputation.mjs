@@ -166,7 +166,7 @@ export default {
     },
     {
       "id": "reputation-mcq-08",
-      "title": "表示名聲；既定印象",
+      "title": "名聲；既定印象",
       "form": "Related form: reputably",
       "en": "Related form: reputably",
       "zh": "表示名聲；既定印象",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "reputation-mcq-09",
-      "title": "表示建立名聲",
+      "title": "建立名聲",
       "form": "Useful construction: build/earn a reputation — 建立名聲",
       "en": "Useful construction: build/earn a reputation — 建立名聲",
       "zh": "表示建立名聲",
@@ -213,11 +213,7 @@ export default {
       "masked": "The book has a serious ____.",
       "options": [
         "reputation-mcq-01",
-        "reputation-mcq-02",
-        "reputation-mcq-03",
-        "reputation-mcq-04",
-        "reputation-mcq-05",
-        "reputation-mcq-06"
+        "reputation-mcq-03"
       ],
       "explanation": "本句的「reputation」指「大眾或某群體長期對某人／某事形成的整體看法、名聲或聲譽」。",
       "sentenceIndex": 0,
@@ -226,12 +222,8 @@ export default {
         "reputation"
       ],
       "optionReasons": {
-        "reputation-mcq-01": "本句指「大眾或某群體長期對某人／某事形成的整體看法、名聲或聲譽」。",
-        "reputation-mcq-02": "「因某種特點、行為或表現而廣為人知的名聲」是「reputation for something」的用法，與本句語境不同。",
-        "reputation-mcq-03": "「在某領域累積的名望或受尊重程度；屬於 general reputation義」是「reputation — prestige/standing」的用法，與本句語境不同。",
-        "reputation-mcq-04": "「因良好聲譽而值得信任、受到尊重的」是「reputable」的用法，與本句語境不同。",
-        "reputation-mcq-05": "「名聲差、不體面或不值得信任的」是「disreputable」的用法，與本句語境不同。",
-        "reputation-mcq-06": "「表現符合既有名聲和由此產生的期待」是「live up to a reputation」的用法，與本句語境不同。"
+        "reputation-mcq-01": "本句的「reputation」指「大眾或某群體長期對某人／某事形成的整體看法、名聲或聲譽」。",
+        "reputation-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-01"
     },
@@ -243,11 +235,7 @@ export default {
       "masked": "The restaurant has an excellent ____.",
       "options": [
         "reputation-mcq-01",
-        "reputation-mcq-02",
-        "reputation-mcq-03",
-        "reputation-mcq-04",
-        "reputation-mcq-05",
-        "reputation-mcq-06"
+        "reputation-mcq-03"
       ],
       "explanation": "本句的「reputation」指「大眾或某群體長期對某人／某事形成的整體看法、名聲或聲譽」。",
       "sentenceIndex": 1,
@@ -256,12 +244,8 @@ export default {
         "reputation"
       ],
       "optionReasons": {
-        "reputation-mcq-01": "本句指「大眾或某群體長期對某人／某事形成的整體看法、名聲或聲譽」。",
-        "reputation-mcq-02": "「因某種特點、行為或表現而廣為人知的名聲」是「reputation for something」的用法，與本句語境不同。",
-        "reputation-mcq-03": "「在某領域累積的名望或受尊重程度；屬於 general reputation義」是「reputation — prestige/standing」的用法，與本句語境不同。",
-        "reputation-mcq-04": "「因良好聲譽而值得信任、受到尊重的」是「reputable」的用法，與本句語境不同。",
-        "reputation-mcq-05": "「名聲差、不體面或不值得信任的」是「disreputable」的用法，與本句語境不同。",
-        "reputation-mcq-06": "「表現符合既有名聲和由此產生的期待」是「live up to a reputation」的用法，與本句語境不同。"
+        "reputation-mcq-01": "本句的「reputation」指「大眾或某群體長期對某人／某事形成的整體看法、名聲或聲譽」。",
+        "reputation-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-01"
     },
@@ -273,11 +257,7 @@ export default {
       "masked": "The company has built a strong ____ for quality.",
       "options": [
         "reputation-mcq-01",
-        "reputation-mcq-02",
-        "reputation-mcq-03",
-        "reputation-mcq-04",
-        "reputation-mcq-05",
-        "reputation-mcq-06"
+        "reputation-mcq-03"
       ],
       "explanation": "本句的「reputation」指「大眾或某群體長期對某人／某事形成的整體看法、名聲或聲譽」。",
       "sentenceIndex": 2,
@@ -286,12 +266,8 @@ export default {
         "reputation"
       ],
       "optionReasons": {
-        "reputation-mcq-01": "本句指「大眾或某群體長期對某人／某事形成的整體看法、名聲或聲譽」。",
-        "reputation-mcq-02": "「因某種特點、行為或表現而廣為人知的名聲」是「reputation for something」的用法，與本句語境不同。",
-        "reputation-mcq-03": "「在某領域累積的名望或受尊重程度；屬於 general reputation義」是「reputation — prestige/standing」的用法，與本句語境不同。",
-        "reputation-mcq-04": "「因良好聲譽而值得信任、受到尊重的」是「reputable」的用法，與本句語境不同。",
-        "reputation-mcq-05": "「名聲差、不體面或不值得信任的」是「disreputable」的用法，與本句語境不同。",
-        "reputation-mcq-06": "「表現符合既有名聲和由此產生的期待」是「live up to a reputation」的用法，與本句語境不同。"
+        "reputation-mcq-01": "本句的「reputation」指「大眾或某群體長期對某人／某事形成的整體看法、名聲或聲譽」。",
+        "reputation-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-01"
     },
@@ -303,11 +279,8 @@ export default {
       "masked": "He has a ____ being difficult to work with.",
       "options": [
         "reputation-mcq-02",
-        "reputation-mcq-01",
-        "reputation-mcq-03",
-        "reputation-mcq-04",
-        "reputation-mcq-05",
-        "reputation-mcq-06"
+        "reputation-mcq-07",
+        "reputation-mcq-04"
       ],
       "explanation": "本句的「reputation for」指「因某種特點、行為或表現而廣為人知的名聲」。",
       "sentenceIndex": 3,
@@ -316,12 +289,9 @@ export default {
         "reputation for"
       ],
       "optionReasons": {
-        "reputation-mcq-02": "本句指「因某種特點、行為或表現而廣為人知的名聲」。",
-        "reputation-mcq-01": "「大眾或某群體長期對某人／某事形成的整體看法、名聲或聲譽」是「reputation — general opinion」的用法，與本句語境不同。",
-        "reputation-mcq-03": "「在某領域累積的名望或受尊重程度；屬於 general reputation義」是「reputation — prestige/standing」的用法，與本句語境不同。",
-        "reputation-mcq-04": "「因良好聲譽而值得信任、受到尊重的」是「reputable」的用法，與本句語境不同。",
-        "reputation-mcq-05": "「名聲差、不體面或不值得信任的」是「disreputable」的用法，與本句語境不同。",
-        "reputation-mcq-06": "「表現符合既有名聲和由此產生的期待」是「live up to a reputation」的用法，與本句語境不同。"
+        "reputation-mcq-02": "本句的「reputation for」指「因某種特點、行為或表現而廣為人知的名聲」。",
+        "reputation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reputation-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-02"
     },
@@ -333,11 +303,8 @@ export default {
       "masked": "The school has a ____ academic excellence.",
       "options": [
         "reputation-mcq-02",
-        "reputation-mcq-01",
-        "reputation-mcq-03",
-        "reputation-mcq-04",
-        "reputation-mcq-05",
-        "reputation-mcq-06"
+        "reputation-mcq-07",
+        "reputation-mcq-04"
       ],
       "explanation": "本句的「reputation for」指「因某種特點、行為或表現而廣為人知的名聲」。",
       "sentenceIndex": 4,
@@ -346,12 +313,9 @@ export default {
         "reputation for"
       ],
       "optionReasons": {
-        "reputation-mcq-02": "本句指「因某種特點、行為或表現而廣為人知的名聲」。",
-        "reputation-mcq-01": "「大眾或某群體長期對某人／某事形成的整體看法、名聲或聲譽」是「reputation — general opinion」的用法，與本句語境不同。",
-        "reputation-mcq-03": "「在某領域累積的名望或受尊重程度；屬於 general reputation義」是「reputation — prestige/standing」的用法，與本句語境不同。",
-        "reputation-mcq-04": "「因良好聲譽而值得信任、受到尊重的」是「reputable」的用法，與本句語境不同。",
-        "reputation-mcq-05": "「名聲差、不體面或不值得信任的」是「disreputable」的用法，與本句語境不同。",
-        "reputation-mcq-06": "「表現符合既有名聲和由此產生的期待」是「live up to a reputation」的用法，與本句語境不同。"
+        "reputation-mcq-02": "本句的「reputation for」指「因某種特點、行為或表現而廣為人知的名聲」。",
+        "reputation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reputation-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-02"
     },
@@ -363,11 +327,8 @@ export default {
       "masked": "She has a considerable ____ in the academic world.",
       "options": [
         "reputation-mcq-03",
-        "reputation-mcq-02",
-        "reputation-mcq-04",
-        "reputation-mcq-01",
-        "reputation-mcq-05",
-        "reputation-mcq-06"
+        "reputation-mcq-07",
+        "reputation-mcq-05"
       ],
       "explanation": "本句的「reputation」指「在某領域累積的名望或受尊重程度；屬於 general reputation義」。",
       "sentenceIndex": 5,
@@ -376,12 +337,9 @@ export default {
         "reputation"
       ],
       "optionReasons": {
-        "reputation-mcq-03": "本句指「在某領域累積的名望或受尊重程度；屬於 general reputation義」。",
-        "reputation-mcq-02": "「因某種特點、行為或表現而廣為人知的名聲」是「reputation for something」的用法，與本句語境不同。",
-        "reputation-mcq-04": "「因良好聲譽而值得信任、受到尊重的」是「reputable」的用法，與本句語境不同。",
-        "reputation-mcq-01": "「大眾或某群體長期對某人／某事形成的整體看法、名聲或聲譽」是「reputation — general opinion」的用法，與本句語境不同。",
-        "reputation-mcq-05": "「名聲差、不體面或不值得信任的」是「disreputable」的用法，與本句語境不同。",
-        "reputation-mcq-06": "「表現符合既有名聲和由此產生的期待」是「live up to a reputation」的用法，與本句語境不同。"
+        "reputation-mcq-03": "本句的「reputation」指「在某領域累積的名望或受尊重程度；屬於 general reputation義」。",
+        "reputation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reputation-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-03"
     },
@@ -393,11 +351,8 @@ export default {
       "masked": "His international ____ continued to grow.",
       "options": [
         "reputation-mcq-03",
-        "reputation-mcq-02",
-        "reputation-mcq-04",
-        "reputation-mcq-01",
-        "reputation-mcq-05",
-        "reputation-mcq-06"
+        "reputation-mcq-07",
+        "reputation-mcq-05"
       ],
       "explanation": "本句的「reputation」指「在某領域累積的名望或受尊重程度；屬於 general reputation義」。",
       "sentenceIndex": 6,
@@ -406,12 +361,9 @@ export default {
         "reputation"
       ],
       "optionReasons": {
-        "reputation-mcq-03": "本句指「在某領域累積的名望或受尊重程度；屬於 general reputation義」。",
-        "reputation-mcq-02": "「因某種特點、行為或表現而廣為人知的名聲」是「reputation for something」的用法，與本句語境不同。",
-        "reputation-mcq-04": "「因良好聲譽而值得信任、受到尊重的」是「reputable」的用法，與本句語境不同。",
-        "reputation-mcq-01": "「大眾或某群體長期對某人／某事形成的整體看法、名聲或聲譽」是「reputation — general opinion」的用法，與本句語境不同。",
-        "reputation-mcq-05": "「名聲差、不體面或不值得信任的」是「disreputable」的用法，與本句語境不同。",
-        "reputation-mcq-06": "「表現符合既有名聲和由此產生的期待」是「live up to a reputation」的用法，與本句語境不同。"
+        "reputation-mcq-03": "本句的「reputation」指「在某領域累積的名望或受尊重程度；屬於 general reputation義」。",
+        "reputation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reputation-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-03"
     },
@@ -423,10 +375,7 @@ export default {
       "masked": "The city has a ____ for being expensive.",
       "options": [
         "reputation-mcq-07",
-        "reputation-mcq-06",
-        "reputation-mcq-08",
-        "reputation-mcq-05",
-        "reputation-mcq-09",
+        "reputation-mcq-02",
         "reputation-mcq-04"
       ],
       "explanation": "本句的「reputation」指「人們普遍形成的既定印象，未必完全符合事實」。",
@@ -436,12 +385,9 @@ export default {
         "reputation"
       ],
       "optionReasons": {
-        "reputation-mcq-07": "本句指「人們普遍形成的既定印象，未必完全符合事實」。",
-        "reputation-mcq-06": "「表現符合既有名聲和由此產生的期待」是「live up to a reputation」的用法，與本句語境不同。",
-        "reputation-mcq-08": "「表示名聲；既定印象」是「Related form: reputably」的用法，與本句語境不同。",
-        "reputation-mcq-05": "「名聲差、不體面或不值得信任的」是「disreputable」的用法，與本句語境不同。",
-        "reputation-mcq-09": "「表示建立名聲」是「Useful construction: build/earn a reputation — 建立名聲」的用法，與本句語境不同。",
-        "reputation-mcq-04": "「因良好聲譽而值得信任、受到尊重的」是「reputable」的用法，與本句語境不同。"
+        "reputation-mcq-07": "本句的「reputation」指「人們普遍形成的既定印象，未必完全符合事實」。",
+        "reputation-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reputation-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-07"
     },
@@ -453,10 +399,7 @@ export default {
       "masked": "He has an unfair ____ for being unfriendly.",
       "options": [
         "reputation-mcq-07",
-        "reputation-mcq-06",
-        "reputation-mcq-08",
-        "reputation-mcq-05",
-        "reputation-mcq-09",
+        "reputation-mcq-02",
         "reputation-mcq-04"
       ],
       "explanation": "本句的「reputation」指「人們普遍形成的既定印象，未必完全符合事實」。",
@@ -466,12 +409,9 @@ export default {
         "reputation"
       ],
       "optionReasons": {
-        "reputation-mcq-07": "本句指「人們普遍形成的既定印象，未必完全符合事實」。",
-        "reputation-mcq-06": "「表現符合既有名聲和由此產生的期待」是「live up to a reputation」的用法，與本句語境不同。",
-        "reputation-mcq-08": "「表示名聲；既定印象」是「Related form: reputably」的用法，與本句語境不同。",
-        "reputation-mcq-05": "「名聲差、不體面或不值得信任的」是「disreputable」的用法，與本句語境不同。",
-        "reputation-mcq-09": "「表示建立名聲」是「Useful construction: build/earn a reputation — 建立名聲」的用法，與本句語境不同。",
-        "reputation-mcq-04": "「因良好聲譽而值得信任、受到尊重的」是「reputable」的用法，與本句語境不同。"
+        "reputation-mcq-07": "本句的「reputation」指「人們普遍形成的既定印象，未必完全符合事實」。",
+        "reputation-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reputation-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-07"
     },
@@ -483,11 +423,8 @@ export default {
       "masked": "Always buy from a ____ seller.",
       "options": [
         "reputation-mcq-04",
-        "reputation-mcq-03",
-        "reputation-mcq-05",
-        "reputation-mcq-02",
-        "reputation-mcq-06",
-        "reputation-mcq-01"
+        "reputation-mcq-07",
+        "reputation-mcq-02"
       ],
       "explanation": "本句的「reputable」指「因良好聲譽而值得信任、受到尊重的」。",
       "sentenceIndex": 9,
@@ -496,12 +433,9 @@ export default {
         "reputable"
       ],
       "optionReasons": {
-        "reputation-mcq-04": "本句指「因良好聲譽而值得信任、受到尊重的」。",
-        "reputation-mcq-03": "「在某領域累積的名望或受尊重程度；屬於 general reputation義」是「reputation — prestige/standing」的用法，與本句語境不同。",
-        "reputation-mcq-05": "「名聲差、不體面或不值得信任的」是「disreputable」的用法，與本句語境不同。",
-        "reputation-mcq-02": "「因某種特點、行為或表現而廣為人知的名聲」是「reputation for something」的用法，與本句語境不同。",
-        "reputation-mcq-06": "「表現符合既有名聲和由此產生的期待」是「live up to a reputation」的用法，與本句語境不同。",
-        "reputation-mcq-01": "「大眾或某群體長期對某人／某事形成的整體看法、名聲或聲譽」是「reputation — general opinion」的用法，與本句語境不同。"
+        "reputation-mcq-04": "本句的「reputable」指「因良好聲譽而值得信任、受到尊重的」。",
+        "reputation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reputation-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-04"
     },
@@ -513,11 +447,8 @@ export default {
       "masked": "The article was published by a ____ journal.",
       "options": [
         "reputation-mcq-04",
-        "reputation-mcq-03",
-        "reputation-mcq-05",
-        "reputation-mcq-02",
-        "reputation-mcq-06",
-        "reputation-mcq-01"
+        "reputation-mcq-07",
+        "reputation-mcq-02"
       ],
       "explanation": "本句的「reputable」指「因良好聲譽而值得信任、受到尊重的」。",
       "sentenceIndex": 10,
@@ -526,12 +457,9 @@ export default {
         "reputable"
       ],
       "optionReasons": {
-        "reputation-mcq-04": "本句指「因良好聲譽而值得信任、受到尊重的」。",
-        "reputation-mcq-03": "「在某領域累積的名望或受尊重程度；屬於 general reputation義」是「reputation — prestige/standing」的用法，與本句語境不同。",
-        "reputation-mcq-05": "「名聲差、不體面或不值得信任的」是「disreputable」的用法，與本句語境不同。",
-        "reputation-mcq-02": "「因某種特點、行為或表現而廣為人知的名聲」是「reputation for something」的用法，與本句語境不同。",
-        "reputation-mcq-06": "「表現符合既有名聲和由此產生的期待」是「live up to a reputation」的用法，與本句語境不同。",
-        "reputation-mcq-01": "「大眾或某群體長期對某人／某事形成的整體看法、名聲或聲譽」是「reputation — general opinion」的用法，與本句語境不同。"
+        "reputation-mcq-04": "本句的「reputable」指「因良好聲譽而值得信任、受到尊重的」。",
+        "reputation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reputation-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-04"
     },
@@ -543,11 +471,7 @@ export default {
       "masked": "The firm is ____ well managed.",
       "options": [
         "reputation-mcq-08",
-        "reputation-mcq-07",
-        "reputation-mcq-09",
-        "reputation-mcq-06",
-        "reputation-mcq-05",
-        "reputation-mcq-04"
+        "reputation-mcq-03"
       ],
       "explanation": "本句的「reputably」指「表示名聲；既定印象」。",
       "sentenceIndex": 11,
@@ -556,12 +480,8 @@ export default {
         "reputably"
       ],
       "optionReasons": {
-        "reputation-mcq-08": "本句指「表示名聲；既定印象」。",
-        "reputation-mcq-07": "「人們普遍形成的既定印象，未必完全符合事實」是「4. reputation = known image, whether accurate or not（形象） — 名聲；既定印象」的用法，與本句語境不同。",
-        "reputation-mcq-09": "「表示建立名聲」是「Useful construction: build/earn a reputation — 建立名聲」的用法，與本句語境不同。",
-        "reputation-mcq-06": "「表現符合既有名聲和由此產生的期待」是「live up to a reputation」的用法，與本句語境不同。",
-        "reputation-mcq-05": "「名聲差、不體面或不值得信任的」是「disreputable」的用法，與本句語境不同。",
-        "reputation-mcq-04": "「因良好聲譽而值得信任、受到尊重的」是「reputable」的用法，與本句語境不同。"
+        "reputation-mcq-08": "本句的「reputably」指「表示名聲；既定印象」。",
+        "reputation-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-08"
     },
@@ -573,11 +493,8 @@ export default {
       "masked": "The area was once known for its ____ bars.",
       "options": [
         "reputation-mcq-05",
-        "reputation-mcq-04",
-        "reputation-mcq-06",
-        "reputation-mcq-03",
         "reputation-mcq-07",
-        "reputation-mcq-02"
+        "reputation-mcq-03"
       ],
       "explanation": "本句的「disreputable」指「名聲差、不體面或不值得信任的」。",
       "sentenceIndex": 12,
@@ -586,12 +503,9 @@ export default {
         "disreputable"
       ],
       "optionReasons": {
-        "reputation-mcq-05": "本句指「名聲差、不體面或不值得信任的」。",
-        "reputation-mcq-04": "「因良好聲譽而值得信任、受到尊重的」是「reputable」的用法，與本句語境不同。",
-        "reputation-mcq-06": "「表現符合既有名聲和由此產生的期待」是「live up to a reputation」的用法，與本句語境不同。",
-        "reputation-mcq-03": "「在某領域累積的名望或受尊重程度；屬於 general reputation義」是「reputation — prestige/standing」的用法，與本句語境不同。",
-        "reputation-mcq-07": "「人們普遍形成的既定印象，未必完全符合事實」是「4. reputation = known image, whether accurate or not（形象） — 名聲；既定印象」的用法，與本句語境不同。",
-        "reputation-mcq-02": "「因某種特點、行為或表現而廣為人知的名聲」是「reputation for something」的用法，與本句語境不同。"
+        "reputation-mcq-05": "本句的「disreputable」指「名聲差、不體面或不值得信任的」。",
+        "reputation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reputation-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-05"
     },
@@ -603,11 +517,8 @@ export default {
       "masked": "He dealt with a ____ company.",
       "options": [
         "reputation-mcq-05",
-        "reputation-mcq-04",
-        "reputation-mcq-06",
-        "reputation-mcq-03",
         "reputation-mcq-07",
-        "reputation-mcq-02"
+        "reputation-mcq-03"
       ],
       "explanation": "本句的「disreputable」指「名聲差、不體面或不值得信任的」。",
       "sentenceIndex": 13,
@@ -616,12 +527,9 @@ export default {
         "disreputable"
       ],
       "optionReasons": {
-        "reputation-mcq-05": "本句指「名聲差、不體面或不值得信任的」。",
-        "reputation-mcq-04": "「因良好聲譽而值得信任、受到尊重的」是「reputable」的用法，與本句語境不同。",
-        "reputation-mcq-06": "「表現符合既有名聲和由此產生的期待」是「live up to a reputation」的用法，與本句語境不同。",
-        "reputation-mcq-03": "「在某領域累積的名望或受尊重程度；屬於 general reputation義」是「reputation — prestige/standing」的用法，與本句語境不同。",
-        "reputation-mcq-07": "「人們普遍形成的既定印象，未必完全符合事實」是「4. reputation = known image, whether accurate or not（形象） — 名聲；既定印象」的用法，與本句語境不同。",
-        "reputation-mcq-02": "「因某種特點、行為或表現而廣為人知的名聲」是「reputation for something」的用法，與本句語境不同。"
+        "reputation-mcq-05": "本句的「disreputable」指「名聲差、不體面或不值得信任的」。",
+        "reputation-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reputation-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-05"
     },
@@ -633,10 +541,6 @@ export default {
       "masked": "The author built a ____ for careful research.",
       "options": [
         "reputation-mcq-09",
-        "reputation-mcq-08",
-        "reputation-mcq-07",
-        "reputation-mcq-06",
-        "reputation-mcq-05",
         "reputation-mcq-04"
       ],
       "explanation": "本句的「reputation」指「表示建立名聲」。",
@@ -646,12 +550,8 @@ export default {
         "reputation"
       ],
       "optionReasons": {
-        "reputation-mcq-09": "本句指「表示建立名聲」。",
-        "reputation-mcq-08": "「表示名聲；既定印象」是「Related form: reputably」的用法，與本句語境不同。",
-        "reputation-mcq-07": "「人們普遍形成的既定印象，未必完全符合事實」是「4. reputation = known image, whether accurate or not（形象） — 名聲；既定印象」的用法，與本句語境不同。",
-        "reputation-mcq-06": "「表現符合既有名聲和由此產生的期待」是「live up to a reputation」的用法，與本句語境不同。",
-        "reputation-mcq-05": "「名聲差、不體面或不值得信任的」是「disreputable」的用法，與本句語境不同。",
-        "reputation-mcq-04": "「因良好聲譽而值得信任、受到尊重的」是「reputable」的用法，與本句語境不同。"
+        "reputation-mcq-09": "本句的「reputation」指「表示建立名聲」。",
+        "reputation-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-09"
     },
@@ -663,11 +563,7 @@ export default {
       "masked": "She earned a ____ as a fair manager.",
       "options": [
         "reputation-mcq-09",
-        "reputation-mcq-08",
-        "reputation-mcq-07",
-        "reputation-mcq-06",
-        "reputation-mcq-05",
-        "reputation-mcq-04"
+        "reputation-mcq-03"
       ],
       "explanation": "本句的「reputation」指「表示建立名聲」。",
       "sentenceIndex": 15,
@@ -676,12 +572,8 @@ export default {
         "reputation"
       ],
       "optionReasons": {
-        "reputation-mcq-09": "本句指「表示建立名聲」。",
-        "reputation-mcq-08": "「表示名聲；既定印象」是「Related form: reputably」的用法，與本句語境不同。",
-        "reputation-mcq-07": "「人們普遍形成的既定印象，未必完全符合事實」是「4. reputation = known image, whether accurate or not（形象） — 名聲；既定印象」的用法，與本句語境不同。",
-        "reputation-mcq-06": "「表現符合既有名聲和由此產生的期待」是「live up to a reputation」的用法，與本句語境不同。",
-        "reputation-mcq-05": "「名聲差、不體面或不值得信任的」是「disreputable」的用法，與本句語境不同。",
-        "reputation-mcq-04": "「因良好聲譽而值得信任、受到尊重的」是「reputable」的用法，與本句語境不同。"
+        "reputation-mcq-09": "本句的「reputation」指「表示建立名聲」。",
+        "reputation-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-09"
     },
@@ -693,10 +585,6 @@ export default {
       "masked": "The restaurant really lived up to its ____.",
       "options": [
         "reputation-mcq-06",
-        "reputation-mcq-05",
-        "reputation-mcq-07",
-        "reputation-mcq-04",
-        "reputation-mcq-08",
         "reputation-mcq-03"
       ],
       "explanation": "本句的「reputation」指「表現符合既有名聲和由此產生的期待」。",
@@ -706,12 +594,8 @@ export default {
         "reputation"
       ],
       "optionReasons": {
-        "reputation-mcq-06": "本句指「表現符合既有名聲和由此產生的期待」。",
-        "reputation-mcq-05": "「名聲差、不體面或不值得信任的」是「disreputable」的用法，與本句語境不同。",
-        "reputation-mcq-07": "「人們普遍形成的既定印象，未必完全符合事實」是「4. reputation = known image, whether accurate or not（形象） — 名聲；既定印象」的用法，與本句語境不同。",
-        "reputation-mcq-04": "「因良好聲譽而值得信任、受到尊重的」是「reputable」的用法，與本句語境不同。",
-        "reputation-mcq-08": "「表示名聲；既定印象」是「Related form: reputably」的用法，與本句語境不同。",
-        "reputation-mcq-03": "「在某領域累積的名望或受尊重程度；屬於 general reputation義」是「reputation — prestige/standing」的用法，與本句語境不同。"
+        "reputation-mcq-06": "本句的「reputation」指「表現符合既有名聲和由此產生的期待」。",
+        "reputation-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-06"
     },
@@ -723,10 +607,6 @@ export default {
       "masked": "The film did not live up to its ____.",
       "options": [
         "reputation-mcq-06",
-        "reputation-mcq-05",
-        "reputation-mcq-07",
-        "reputation-mcq-04",
-        "reputation-mcq-08",
         "reputation-mcq-03"
       ],
       "explanation": "本句的「reputation」指「表現符合既有名聲和由此產生的期待」。",
@@ -736,12 +616,8 @@ export default {
         "reputation"
       ],
       "optionReasons": {
-        "reputation-mcq-06": "本句指「表現符合既有名聲和由此產生的期待」。",
-        "reputation-mcq-05": "「名聲差、不體面或不值得信任的」是「disreputable」的用法，與本句語境不同。",
-        "reputation-mcq-07": "「人們普遍形成的既定印象，未必完全符合事實」是「4. reputation = known image, whether accurate or not（形象） — 名聲；既定印象」的用法，與本句語境不同。",
-        "reputation-mcq-04": "「因良好聲譽而值得信任、受到尊重的」是「reputable」的用法，與本句語境不同。",
-        "reputation-mcq-08": "「表示名聲；既定印象」是「Related form: reputably」的用法，與本句語境不同。",
-        "reputation-mcq-03": "「在某領域累積的名望或受尊重程度；屬於 general reputation義」是「reputation — prestige/standing」的用法，與本句語境不同。"
+        "reputation-mcq-06": "本句的「reputation」指「表現符合既有名聲和由此產生的期待」。",
+        "reputation-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reputation-mcq-06"
     }
@@ -753,5 +629,7 @@ export default {
     "sha256": "40bdda35e01f53fdc56f81ecb4fcecd138a09de5a41daca3bab671ef4e5f7572",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

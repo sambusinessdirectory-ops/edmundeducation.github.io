@@ -184,11 +184,6 @@ export default {
       "note": "來源詞義：在特定文化背景中合宜／合適的",
       "examples": [
         [
-          "The court considered the appropriate remedy.",
-          "法院考慮甚麼才是適當的補救／救濟方式。",
-          "在特定文化背景中合宜／合適的"
-        ],
-        [
           "The materials should be culturally appropriate.",
           "材料應該在文化上合宜／適切。",
           "在特定文化背景中合宜／合適的"
@@ -590,6 +585,23 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "appropriate-reviewed-f76b282a00",
+      "title": "法律上適當",
+      "form": "appropriate · source section 22",
+      "en": "法律上適當",
+      "zh": "法律上適當",
+      "note": "對照原始教材第 22 節及例句核實。",
+      "examples": [
+        [
+          "The court considered the appropriate remedy.",
+          "法院考慮甚麼才是適當的補救／救濟方式。",
+          "法律上適當"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -601,11 +613,9 @@ export default {
       "masked": "Tutorial centres should rent ____.",
       "options": [
         "appropriate-mcq-01",
-        "appropriate-mcq-02",
-        "appropriate-mcq-03",
-        "appropriate-mcq-04",
-        "appropriate-mcq-05",
-        "appropriate-mcq-06"
+        "appropriate-mcq-28",
+        "appropriate-mcq-14",
+        "appropriate-mcq-30"
       ],
       "explanation": "本句的「appropriate premises」指「對特定用途、人士或情況而言合適的」。",
       "sentenceIndex": 0,
@@ -614,12 +624,10 @@ export default {
         "appropriate premises"
       ],
       "optionReasons": {
-        "appropriate-mcq-01": "本句指「對特定用途、人士或情況而言合適的」。",
-        "appropriate-mcq-02": "「符合社會、專業、制度或場合要求而恰當／得體的」與本句語境不同。",
-        "appropriate-mcq-03": "「適合 X 使用／適合某類人」與本句語境不同。",
-        "appropriate-mcq-04": "「與某情況、程度或語境相稱／切合」與本句語境不同。",
-        "appropriate-mcq-05": "「與情況相稱、既不過度亦不不足的恰當回應／行動」與本句語境不同。",
-        "appropriate-mcq-06": "「在用途、環境、設施等方面適合某項活動的處所」與本句語境不同。"
+        "appropriate-mcq-01": "本句的「appropriate premises」指「對特定用途、人士或情況而言合適的」。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-01"
     },
@@ -631,11 +639,9 @@ export default {
       "masked": "Wear ____ clothing for the weather.",
       "options": [
         "appropriate-mcq-01",
-        "appropriate-mcq-02",
-        "appropriate-mcq-03",
-        "appropriate-mcq-04",
-        "appropriate-mcq-05",
-        "appropriate-mcq-06"
+        "appropriate-mcq-23",
+        "appropriate-mcq-14",
+        "appropriate-mcq-28"
       ],
       "explanation": "本句的「appropriate」指「對特定用途、人士或情況而言合適的」。",
       "sentenceIndex": 1,
@@ -644,12 +650,10 @@ export default {
         "appropriate"
       ],
       "optionReasons": {
-        "appropriate-mcq-01": "本句指「對特定用途、人士或情況而言合適的」。",
-        "appropriate-mcq-02": "「符合社會、專業、制度或場合要求而恰當／得體的」與本句語境不同。",
-        "appropriate-mcq-03": "「適合 X 使用／適合某類人」與本句語境不同。",
-        "appropriate-mcq-04": "「與某情況、程度或語境相稱／切合」與本句語境不同。",
-        "appropriate-mcq-05": "「與情況相稱、既不過度亦不不足的恰當回應／行動」與本句語境不同。",
-        "appropriate-mcq-06": "「在用途、環境、設施等方面適合某項活動的處所」與本句語境不同。"
+        "appropriate-mcq-01": "本句的「appropriate」指「對特定用途、人士或情況而言合適的」。",
+        "appropriate-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-01"
     },
@@ -661,11 +665,9 @@ export default {
       "masked": "We need an ____ venue for the meeting.",
       "options": [
         "appropriate-mcq-01",
-        "appropriate-mcq-02",
-        "appropriate-mcq-03",
-        "appropriate-mcq-04",
-        "appropriate-mcq-05",
-        "appropriate-mcq-06"
+        "appropriate-mcq-23",
+        "appropriate-mcq-28",
+        "appropriate-mcq-14"
       ],
       "explanation": "本句的「appropriate」指「對特定用途、人士或情況而言合適的」。",
       "sentenceIndex": 2,
@@ -674,12 +676,10 @@ export default {
         "appropriate"
       ],
       "optionReasons": {
-        "appropriate-mcq-01": "本句指「對特定用途、人士或情況而言合適的」。",
-        "appropriate-mcq-02": "「符合社會、專業、制度或場合要求而恰當／得體的」與本句語境不同。",
-        "appropriate-mcq-03": "「適合 X 使用／適合某類人」與本句語境不同。",
-        "appropriate-mcq-04": "「與某情況、程度或語境相稱／切合」與本句語境不同。",
-        "appropriate-mcq-05": "「與情況相稱、既不過度亦不不足的恰當回應／行動」與本句語境不同。",
-        "appropriate-mcq-06": "「在用途、環境、設施等方面適合某項活動的處所」與本句語境不同。"
+        "appropriate-mcq-01": "本句的「appropriate」指「對特定用途、人士或情況而言合適的」。",
+        "appropriate-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-01"
     },
@@ -691,11 +691,9 @@ export default {
       "masked": "This book is ____ younger students.",
       "options": [
         "appropriate-pdf-001",
-        "appropriate-mcq-02",
-        "appropriate-mcq-04",
-        "appropriate-mcq-01",
-        "appropriate-mcq-05",
-        "appropriate-mcq-06"
+        "appropriate-mcq-14",
+        "appropriate-mcq-28",
+        "appropriate-mcq-30"
       ],
       "explanation": "本句的「appropriate for」指「對 X 的用途／人士而言合適」。",
       "sentenceIndex": 3,
@@ -704,12 +702,10 @@ export default {
         "appropriate for"
       ],
       "optionReasons": {
-        "appropriate-pdf-001": "本句指「對 X 的用途／人士而言合適」。",
-        "appropriate-mcq-02": "「符合社會、專業、制度或場合要求而恰當／得體的」與本句語境不同。",
-        "appropriate-mcq-04": "「與某情況、程度或語境相稱／切合」與本句語境不同。",
-        "appropriate-mcq-01": "「對特定用途、人士或情況而言合適的」與本句語境不同。",
-        "appropriate-mcq-05": "「與情況相稱、既不過度亦不不足的恰當回應／行動」與本句語境不同。",
-        "appropriate-mcq-06": "「在用途、環境、設施等方面適合某項活動的處所」與本句語境不同。"
+        "appropriate-pdf-001": "本句的「appropriate for」指「對 X 的用途／人士而言合適」。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-pdf-001"
     },
@@ -721,11 +717,9 @@ export default {
       "masked": "The room is not ____ for large classes.",
       "options": [
         "appropriate-pdf-001",
-        "appropriate-mcq-02",
-        "appropriate-mcq-04",
-        "appropriate-mcq-01",
-        "appropriate-mcq-05",
-        "appropriate-mcq-06"
+        "appropriate-mcq-28",
+        "appropriate-mcq-14",
+        "appropriate-mcq-30"
       ],
       "explanation": "本句的「appropriate」指「對 X 的用途／人士而言合適」。",
       "sentenceIndex": 4,
@@ -734,12 +728,10 @@ export default {
         "appropriate"
       ],
       "optionReasons": {
-        "appropriate-pdf-001": "本句指「對 X 的用途／人士而言合適」。",
-        "appropriate-mcq-02": "「符合社會、專業、制度或場合要求而恰當／得體的」與本句語境不同。",
-        "appropriate-mcq-04": "「與某情況、程度或語境相稱／切合」與本句語境不同。",
-        "appropriate-mcq-01": "「對特定用途、人士或情況而言合適的」與本句語境不同。",
-        "appropriate-mcq-05": "「與情況相稱、既不過度亦不不足的恰當回應／行動」與本句語境不同。",
-        "appropriate-mcq-06": "「在用途、環境、設施等方面適合某項活動的處所」與本句語境不同。"
+        "appropriate-pdf-001": "本句的「appropriate」指「對 X 的用途／人士而言合適」。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-pdf-001"
     },
@@ -751,11 +743,9 @@ export default {
       "masked": "The response should be ____ the seriousness of the problem.",
       "options": [
         "appropriate-mcq-04",
-        "appropriate-mcq-03",
-        "appropriate-mcq-05",
-        "appropriate-mcq-02",
-        "appropriate-mcq-06",
-        "appropriate-mcq-01"
+        "appropriate-mcq-12",
+        "appropriate-mcq-21",
+        "appropriate-mcq-14"
       ],
       "explanation": "本句的「appropriate to」指「與某情況、程度或語境相稱／切合」。",
       "sentenceIndex": 5,
@@ -764,12 +754,10 @@ export default {
         "appropriate to"
       ],
       "optionReasons": {
-        "appropriate-mcq-04": "本句指「與某情況、程度或語境相稱／切合」。",
-        "appropriate-mcq-03": "「適合 X 使用／適合某類人」與本句語境不同。",
-        "appropriate-mcq-05": "「與情況相稱、既不過度亦不不足的恰當回應／行動」與本句語境不同。",
-        "appropriate-mcq-02": "「符合社會、專業、制度或場合要求而恰當／得體的」與本句語境不同。",
-        "appropriate-mcq-06": "「在用途、環境、設施等方面適合某項活動的處所」與本句語境不同。",
-        "appropriate-mcq-01": "「對特定用途、人士或情況而言合適的」與本句語境不同。"
+        "appropriate-mcq-04": "本句的「appropriate to」指「與某情況、程度或語境相稱／切合」。",
+        "appropriate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-04"
     },
@@ -781,11 +769,9 @@ export default {
       "masked": "Choose language ____ to the audience.",
       "options": [
         "appropriate-mcq-04",
-        "appropriate-mcq-03",
-        "appropriate-mcq-05",
-        "appropriate-mcq-02",
-        "appropriate-mcq-06",
-        "appropriate-mcq-01"
+        "appropriate-mcq-12",
+        "appropriate-mcq-30",
+        "appropriate-mcq-28"
       ],
       "explanation": "本句的「appropriate」指「與某情況、程度或語境相稱／切合」。",
       "sentenceIndex": 6,
@@ -794,12 +780,10 @@ export default {
         "appropriate"
       ],
       "optionReasons": {
-        "appropriate-mcq-04": "本句指「與某情況、程度或語境相稱／切合」。",
-        "appropriate-mcq-03": "「適合 X 使用／適合某類人」與本句語境不同。",
-        "appropriate-mcq-05": "「與情況相稱、既不過度亦不不足的恰當回應／行動」與本句語境不同。",
-        "appropriate-mcq-02": "「符合社會、專業、制度或場合要求而恰當／得體的」與本句語境不同。",
-        "appropriate-mcq-06": "「在用途、環境、設施等方面適合某項活動的處所」與本句語境不同。",
-        "appropriate-mcq-01": "「對特定用途、人士或情況而言合適的」與本句語境不同。"
+        "appropriate-mcq-04": "本句的「appropriate」指「與某情況、程度或語境相稱／切合」。",
+        "appropriate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-04"
     },
@@ -811,11 +795,9 @@ export default {
       "masked": "The action was ____ in the circumstances.",
       "options": [
         "appropriate-mcq-05",
-        "appropriate-mcq-04",
-        "appropriate-mcq-06",
-        "appropriate-mcq-03",
-        "appropriate-mcq-07",
-        "appropriate-mcq-02"
+        "appropriate-mcq-23",
+        "appropriate-mcq-14",
+        "appropriate-mcq-21"
       ],
       "explanation": "本句的「appropriate」指「與情況相稱、既不過度亦不不足的恰當回應／行動」。",
       "sentenceIndex": 7,
@@ -824,12 +806,10 @@ export default {
         "appropriate"
       ],
       "optionReasons": {
-        "appropriate-mcq-05": "本句指「與情況相稱、既不過度亦不不足的恰當回應／行動」。",
-        "appropriate-mcq-04": "「與某情況、程度或語境相稱／切合」與本句語境不同。",
-        "appropriate-mcq-06": "「在用途、環境、設施等方面適合某項活動的處所」與本句語境不同。",
-        "appropriate-mcq-03": "「適合 X 使用／適合某類人」與本句語境不同。",
-        "appropriate-mcq-07": "「適合特定年齡層的」與本句語境不同。",
-        "appropriate-mcq-02": "「符合社會、專業、制度或場合要求而恰當／得體的」與本句語境不同。"
+        "appropriate-mcq-05": "本句的「appropriate」指「與情況相稱、既不過度亦不不足的恰當回應／行動」。",
+        "appropriate-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-05"
     },
@@ -841,11 +821,9 @@ export default {
       "masked": "That joke was not ____ for the occasion.",
       "options": [
         "appropriate-mcq-05",
-        "appropriate-mcq-04",
-        "appropriate-mcq-06",
-        "appropriate-mcq-03",
-        "appropriate-mcq-07",
-        "appropriate-mcq-02"
+        "appropriate-mcq-14",
+        "appropriate-mcq-23",
+        "appropriate-mcq-28"
       ],
       "explanation": "本句的「appropriate」指「與情況相稱、既不過度亦不不足的恰當回應／行動」。",
       "sentenceIndex": 8,
@@ -854,12 +832,10 @@ export default {
         "appropriate"
       ],
       "optionReasons": {
-        "appropriate-mcq-05": "本句指「與情況相稱、既不過度亦不不足的恰當回應／行動」。",
-        "appropriate-mcq-04": "「與某情況、程度或語境相稱／切合」與本句語境不同。",
-        "appropriate-mcq-06": "「在用途、環境、設施等方面適合某項活動的處所」與本句語境不同。",
-        "appropriate-mcq-03": "「適合 X 使用／適合某類人」與本句語境不同。",
-        "appropriate-mcq-07": "「適合特定年齡層的」與本句語境不同。",
-        "appropriate-mcq-02": "「符合社會、專業、制度或場合要求而恰當／得體的」與本句語境不同。"
+        "appropriate-mcq-05": "本句的「appropriate」指「與情況相稱、既不過度亦不不足的恰當回應／行動」。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-05"
     },
@@ -871,11 +847,9 @@ export default {
       "masked": "Please behave in an ____ manner.",
       "options": [
         "appropriate-mcq-05",
-        "appropriate-mcq-04",
-        "appropriate-mcq-06",
-        "appropriate-mcq-03",
-        "appropriate-mcq-07",
-        "appropriate-mcq-02"
+        "appropriate-mcq-23",
+        "appropriate-mcq-21",
+        "appropriate-mcq-14"
       ],
       "explanation": "本句的「appropriate」指「與情況相稱、既不過度亦不不足的恰當回應／行動」。",
       "sentenceIndex": 9,
@@ -884,12 +858,10 @@ export default {
         "appropriate"
       ],
       "optionReasons": {
-        "appropriate-mcq-05": "本句指「與情況相稱、既不過度亦不不足的恰當回應／行動」。",
-        "appropriate-mcq-04": "「與某情況、程度或語境相稱／切合」與本句語境不同。",
-        "appropriate-mcq-06": "「在用途、環境、設施等方面適合某項活動的處所」與本句語境不同。",
-        "appropriate-mcq-03": "「適合 X 使用／適合某類人」與本句語境不同。",
-        "appropriate-mcq-07": "「適合特定年齡層的」與本句語境不同。",
-        "appropriate-mcq-02": "「符合社會、專業、制度或場合要求而恰當／得體的」與本句語境不同。"
+        "appropriate-mcq-05": "本句的「appropriate」指「與情況相稱、既不過度亦不不足的恰當回應／行動」。",
+        "appropriate-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-05"
     },
@@ -901,11 +873,9 @@ export default {
       "masked": "Use ____ language in formal correspondence.",
       "options": [
         "appropriate-mcq-05",
-        "appropriate-mcq-04",
-        "appropriate-mcq-06",
-        "appropriate-mcq-03",
-        "appropriate-mcq-07",
-        "appropriate-mcq-02"
+        "appropriate-mcq-23",
+        "appropriate-mcq-14",
+        "appropriate-mcq-21"
       ],
       "explanation": "本句的「appropriate」指「與情況相稱、既不過度亦不不足的恰當回應／行動」。",
       "sentenceIndex": 10,
@@ -914,12 +884,10 @@ export default {
         "appropriate"
       ],
       "optionReasons": {
-        "appropriate-mcq-05": "本句指「與情況相稱、既不過度亦不不足的恰當回應／行動」。",
-        "appropriate-mcq-04": "「與某情況、程度或語境相稱／切合」與本句語境不同。",
-        "appropriate-mcq-06": "「在用途、環境、設施等方面適合某項活動的處所」與本句語境不同。",
-        "appropriate-mcq-03": "「適合 X 使用／適合某類人」與本句語境不同。",
-        "appropriate-mcq-07": "「適合特定年齡層的」與本句語境不同。",
-        "appropriate-mcq-02": "「符合社會、專業、制度或場合要求而恰當／得體的」與本句語境不同。"
+        "appropriate-mcq-05": "本句的「appropriate」指「與情況相稱、既不過度亦不不足的恰當回應／行動」。",
+        "appropriate-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-05"
     },
@@ -931,11 +899,9 @@ export default {
       "masked": "The organization must make an ____ to the risk.",
       "options": [
         "appropriate-mcq-05",
-        "appropriate-mcq-04",
-        "appropriate-mcq-06",
-        "appropriate-mcq-03",
-        "appropriate-mcq-07",
-        "appropriate-mcq-02"
+        "appropriate-mcq-21",
+        "appropriate-mcq-28",
+        "appropriate-mcq-23"
       ],
       "explanation": "本句的「appropriate response」指「與情況相稱、既不過度亦不不足的恰當回應／行動」。",
       "sentenceIndex": 11,
@@ -944,12 +910,10 @@ export default {
         "appropriate response"
       ],
       "optionReasons": {
-        "appropriate-mcq-05": "本句指「與情況相稱、既不過度亦不不足的恰當回應／行動」。",
-        "appropriate-mcq-04": "「與某情況、程度或語境相稱／切合」與本句語境不同。",
-        "appropriate-mcq-06": "「在用途、環境、設施等方面適合某項活動的處所」與本句語境不同。",
-        "appropriate-mcq-03": "「適合 X 使用／適合某類人」與本句語境不同。",
-        "appropriate-mcq-07": "「適合特定年齡層的」與本句語境不同。",
-        "appropriate-mcq-02": "「符合社會、專業、制度或場合要求而恰當／得體的」與本句語境不同。"
+        "appropriate-mcq-05": "本句的「appropriate response」指「與情況相稱、既不過度亦不不足的恰當回應／行動」。",
+        "appropriate-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-05"
     },
@@ -961,11 +925,9 @@ export default {
       "masked": "The programme uses age-____ materials.",
       "options": [
         "appropriate-mcq-07",
-        "appropriate-mcq-06",
-        "appropriate-mcq-08",
-        "appropriate-mcq-05",
-        "appropriate-mcq-09",
-        "appropriate-mcq-04"
+        "appropriate-mcq-23",
+        "appropriate-mcq-21",
+        "appropriate-mcq-28"
       ],
       "explanation": "本句的「appropriate」指「適合特定年齡層的」。",
       "sentenceIndex": 12,
@@ -974,12 +936,10 @@ export default {
         "appropriate"
       ],
       "optionReasons": {
-        "appropriate-mcq-07": "本句指「適合特定年齡層的」。",
-        "appropriate-mcq-06": "「在用途、環境、設施等方面適合某項活動的處所」與本句語境不同。",
-        "appropriate-mcq-08": "「符合特定發展階段需要／能力的」與本句語境不同。",
-        "appropriate-mcq-05": "「與情況相稱、既不過度亦不不足的恰當回應／行動」與本句語境不同。",
-        "appropriate-mcq-09": "「按病人情況和臨床判斷屬合適的」與本句語境不同。",
-        "appropriate-mcq-04": "「與某情況、程度或語境相稱／切合」與本句語境不同。"
+        "appropriate-mcq-07": "本句的「appropriate」指「適合特定年齡層的」。",
+        "appropriate-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-07"
     },
@@ -991,11 +951,9 @@ export default {
       "masked": "Teachers should provide developmentally ____ activities.",
       "options": [
         "appropriate-mcq-08",
-        "appropriate-mcq-07",
-        "appropriate-mcq-09",
-        "appropriate-mcq-06",
-        "appropriate-mcq-10",
-        "appropriate-mcq-05"
+        "appropriate-mcq-30",
+        "appropriate-mcq-23",
+        "appropriate-mcq-28"
       ],
       "explanation": "本句的「appropriate」指「符合特定發展階段需要／能力的」。",
       "sentenceIndex": 13,
@@ -1004,12 +962,10 @@ export default {
         "appropriate"
       ],
       "optionReasons": {
-        "appropriate-mcq-08": "本句指「符合特定發展階段需要／能力的」。",
-        "appropriate-mcq-07": "「適合特定年齡層的」與本句語境不同。",
-        "appropriate-mcq-09": "「按病人情況和臨床判斷屬合適的」與本句語境不同。",
-        "appropriate-mcq-06": "「在用途、環境、設施等方面適合某項活動的處所」與本句語境不同。",
-        "appropriate-mcq-10": "「在特定文化背景中合宜／合適的」與本句語境不同。",
-        "appropriate-mcq-05": "「與情況相稱、既不過度亦不不足的恰當回應／行動」與本句語境不同。"
+        "appropriate-mcq-08": "本句的「appropriate」指「符合特定發展階段需要／能力的」。",
+        "appropriate-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-08"
     },
@@ -1021,11 +977,9 @@ export default {
       "masked": "The patient should receive ____ treatment.",
       "options": [
         "appropriate-mcq-09",
-        "appropriate-mcq-08",
-        "appropriate-mcq-10",
-        "appropriate-mcq-07",
-        "appropriate-mcq-11",
-        "appropriate-mcq-06"
+        "appropriate-mcq-23",
+        "appropriate-mcq-30",
+        "appropriate-mcq-28"
       ],
       "explanation": "本句的「appropriate」指「按病人情況和臨床判斷屬合適的」。",
       "sentenceIndex": 14,
@@ -1034,44 +988,40 @@ export default {
         "appropriate"
       ],
       "optionReasons": {
-        "appropriate-mcq-09": "本句指「按病人情況和臨床判斷屬合適的」。",
-        "appropriate-mcq-08": "「符合特定發展階段需要／能力的」與本句語境不同。",
-        "appropriate-mcq-10": "「在特定文化背景中合宜／合適的」與本句語境不同。",
-        "appropriate-mcq-07": "「適合特定年齡層的」與本句語境不同。",
-        "appropriate-mcq-11": "「語言在社交／語用情境中使用得恰當的」與本句語境不同。",
-        "appropriate-mcq-06": "「在用途、環境、設施等方面適合某項活動的處所」與本句語境不同。"
+        "appropriate-mcq-09": "本句的「appropriate」指「按病人情況和臨床判斷屬合適的」。",
+        "appropriate-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-09"
     },
     {
       "id": "appropriate-22-0",
-      "sense": "appropriate-mcq-10",
+      "sense": "appropriate-reviewed-f76b282a00",
       "en": "The court considered the appropriate remedy.",
       "zh": "法院考慮甚麼才是適當的補救／救濟方式。",
       "masked": "The court considered the ____ remedy.",
       "options": [
-        "appropriate-mcq-10",
-        "appropriate-mcq-09",
-        "appropriate-mcq-11",
-        "appropriate-mcq-08",
-        "appropriate-mcq-12",
-        "appropriate-mcq-07"
+        "appropriate-reviewed-f76b282a00",
+        "appropriate-mcq-14",
+        "appropriate-mcq-23",
+        "appropriate-mcq-21"
       ],
-      "explanation": "本句的「appropriate」指「在特定文化背景中合宜／合適的」。",
+      "explanation": "對照完整句子：「法院考慮甚麼才是適當的補救／救濟方式。」。這裡的「appropriate」表示「法律上適當」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "appropriate"
       ],
       "optionReasons": {
-        "appropriate-mcq-10": "本句指「在特定文化背景中合宜／合適的」。",
-        "appropriate-mcq-09": "「按病人情況和臨床判斷屬合適的」與本句語境不同。",
-        "appropriate-mcq-11": "「語言在社交／語用情境中使用得恰當的」與本句語境不同。",
-        "appropriate-mcq-08": "「符合特定發展階段需要／能力的」與本句語境不同。",
-        "appropriate-mcq-12": "「在適當情況下」與本句語境不同。",
-        "appropriate-mcq-07": "「適合特定年齡層的」與本句語境不同。"
+        "appropriate-reviewed-f76b282a00": "對照完整句子：「法院考慮甚麼才是適當的補救／救濟方式。」。這裡的「appropriate」表示「法律上適當」。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "appropriate-mcq-10"
+      "correctOption": "appropriate-reviewed-f76b282a00",
+      "previousCorrectOption": "appropriate-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "appropriate-27-0",
@@ -1081,11 +1031,9 @@ export default {
       "masked": "Include supporting evidence where ____.",
       "options": [
         "appropriate-mcq-12",
-        "appropriate-mcq-11",
-        "appropriate-mcq-13",
-        "appropriate-mcq-10",
-        "appropriate-mcq-14",
-        "appropriate-mcq-09"
+        "appropriate-mcq-23",
+        "appropriate-mcq-30",
+        "appropriate-mcq-28"
       ],
       "explanation": "本句的「appropriate」指「在適當情況下」。",
       "sentenceIndex": 16,
@@ -1094,12 +1042,10 @@ export default {
         "appropriate"
       ],
       "optionReasons": {
-        "appropriate-mcq-12": "本句指「在適當情況下」。",
-        "appropriate-mcq-11": "「語言在社交／語用情境中使用得恰當的」與本句語境不同。",
-        "appropriate-mcq-13": "「如適合／如有需要」與本句語境不同。",
-        "appropriate-mcq-10": "「在特定文化背景中合宜／合適的」與本句語境不同。",
-        "appropriate-mcq-14": "「按情況需要／酌情」與本句語境不同。",
-        "appropriate-mcq-09": "「按病人情況和臨床判斷屬合適的」與本句語境不同。"
+        "appropriate-mcq-12": "本句的「appropriate」指「在適當情況下」。",
+        "appropriate-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-12"
     },
@@ -1111,11 +1057,9 @@ export default {
       "masked": "The information will be updated as ____.",
       "options": [
         "appropriate-mcq-14",
-        "appropriate-mcq-13",
-        "appropriate-mcq-15",
-        "appropriate-mcq-12",
-        "appropriate-mcq-16",
-        "appropriate-mcq-11"
+        "appropriate-mcq-01",
+        "appropriate-mcq-30",
+        "appropriate-mcq-28"
       ],
       "explanation": "本句的「appropriate」指「按情況需要／酌情」。",
       "sentenceIndex": 17,
@@ -1124,12 +1068,10 @@ export default {
         "appropriate"
       ],
       "optionReasons": {
-        "appropriate-mcq-14": "本句指「按情況需要／酌情」。",
-        "appropriate-mcq-13": "「如適合／如有需要」與本句語境不同。",
-        "appropriate-mcq-15": "「正式判斷某事為合適」與本句語境不同。",
-        "appropriate-mcq-12": "「在適當情況下」與本句語境不同。",
-        "appropriate-mcq-16": "「以符合目的／場合的適當方式」與本句語境不同。",
-        "appropriate-mcq-11": "「語言在社交／語用情境中使用得恰當的」與本句語境不同。"
+        "appropriate-mcq-14": "本句的「appropriate」指「按情況需要／酌情」。",
+        "appropriate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-14"
     },
@@ -1141,11 +1083,9 @@ export default {
       "masked": "Staff should respond ____.",
       "options": [
         "appropriate-mcq-16",
-        "appropriate-mcq-15",
-        "appropriate-mcq-17",
+        "appropriate-mcq-30",
         "appropriate-mcq-14",
-        "appropriate-mcq-18",
-        "appropriate-mcq-13"
+        "appropriate-mcq-28"
       ],
       "explanation": "本句的「appropriately」指「以符合目的／場合的適當方式」。",
       "sentenceIndex": 18,
@@ -1154,12 +1094,10 @@ export default {
         "appropriately"
       ],
       "optionReasons": {
-        "appropriate-mcq-16": "本句指「以符合目的／場合的適當方式」。",
-        "appropriate-mcq-15": "「正式判斷某事為合適」與本句語境不同。",
-        "appropriate-mcq-17": "「是否合適、合宜、得體的程度／適當性」與本句語境不同。",
-        "appropriate-mcq-14": "「按情況需要／酌情」與本句語境不同。",
-        "appropriate-mcq-18": "「不適合某用途／場合，或不符合社交／專業規範的」與本句語境不同。",
-        "appropriate-mcq-13": "「如適合／如有需要」與本句語境不同。"
+        "appropriate-mcq-16": "本句的「appropriately」指「以符合目的／場合的適當方式」。",
+        "appropriate-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-16"
     },
@@ -1171,11 +1109,9 @@ export default {
       "masked": "She was dressed ____ for the occasion.",
       "options": [
         "appropriate-mcq-16",
-        "appropriate-mcq-15",
-        "appropriate-mcq-17",
         "appropriate-mcq-14",
-        "appropriate-mcq-18",
-        "appropriate-mcq-13"
+        "appropriate-mcq-28",
+        "appropriate-mcq-23"
       ],
       "explanation": "本句的「appropriately」指「以符合目的／場合的適當方式」。",
       "sentenceIndex": 19,
@@ -1184,12 +1120,10 @@ export default {
         "appropriately"
       ],
       "optionReasons": {
-        "appropriate-mcq-16": "本句指「以符合目的／場合的適當方式」。",
-        "appropriate-mcq-15": "「正式判斷某事為合適」與本句語境不同。",
-        "appropriate-mcq-17": "「是否合適、合宜、得體的程度／適當性」與本句語境不同。",
-        "appropriate-mcq-14": "「按情況需要／酌情」與本句語境不同。",
-        "appropriate-mcq-18": "「不適合某用途／場合，或不符合社交／專業規範的」與本句語境不同。",
-        "appropriate-mcq-13": "「如適合／如有需要」與本句語境不同。"
+        "appropriate-mcq-16": "本句的「appropriately」指「以符合目的／場合的適當方式」。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-16"
     },
@@ -1201,10 +1135,8 @@ export default {
       "masked": "The committee questioned the ____ of the location.",
       "options": [
         "appropriate-mcq-17",
-        "appropriate-mcq-16",
-        "appropriate-mcq-18",
-        "appropriate-mcq-15",
-        "appropriate-mcq-19",
+        "appropriate-mcq-21",
+        "appropriate-mcq-23",
         "appropriate-mcq-14"
       ],
       "explanation": "本句的「appropriateness」指「是否合適、合宜、得體的程度／適當性」。",
@@ -1214,12 +1146,10 @@ export default {
         "appropriateness"
       ],
       "optionReasons": {
-        "appropriate-mcq-17": "本句指「是否合適、合宜、得體的程度／適當性」。",
-        "appropriate-mcq-16": "「以符合目的／場合的適當方式」與本句語境不同。",
-        "appropriate-mcq-18": "「不適合某用途／場合，或不符合社交／專業規範的」與本句語境不同。",
-        "appropriate-mcq-15": "「正式判斷某事為合適」與本句語境不同。",
-        "appropriate-mcq-19": "「不符合情況／規範的不當行為」與本句語境不同。",
-        "appropriate-mcq-14": "「按情況需要／酌情」與本句語境不同。"
+        "appropriate-mcq-17": "本句的「appropriateness」指「是否合適、合宜、得體的程度／適當性」。",
+        "appropriate-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-17"
     },
@@ -1231,11 +1161,9 @@ export default {
       "masked": "We need to assess the ____ of the response.",
       "options": [
         "appropriate-mcq-17",
-        "appropriate-mcq-16",
-        "appropriate-mcq-18",
-        "appropriate-mcq-15",
-        "appropriate-mcq-19",
-        "appropriate-mcq-14"
+        "appropriate-mcq-21",
+        "appropriate-mcq-14",
+        "appropriate-mcq-23"
       ],
       "explanation": "本句的「appropriateness」指「是否合適、合宜、得體的程度／適當性」。",
       "sentenceIndex": 21,
@@ -1244,12 +1172,10 @@ export default {
         "appropriateness"
       ],
       "optionReasons": {
-        "appropriate-mcq-17": "本句指「是否合適、合宜、得體的程度／適當性」。",
-        "appropriate-mcq-16": "「以符合目的／場合的適當方式」與本句語境不同。",
-        "appropriate-mcq-18": "「不適合某用途／場合，或不符合社交／專業規範的」與本句語境不同。",
-        "appropriate-mcq-15": "「正式判斷某事為合適」與本句語境不同。",
-        "appropriate-mcq-19": "「不符合情況／規範的不當行為」與本句語境不同。",
-        "appropriate-mcq-14": "「按情況需要／酌情」與本句語境不同。"
+        "appropriate-mcq-17": "本句的「appropriateness」指「是否合適、合宜、得體的程度／適當性」。",
+        "appropriate-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-17"
     },
@@ -1261,11 +1187,9 @@ export default {
       "masked": "A restaurant may be an ____ place for a long tutorial lesson.",
       "options": [
         "appropriate-mcq-19",
-        "appropriate-mcq-18",
-        "appropriate-mcq-20",
-        "appropriate-mcq-17",
+        "appropriate-mcq-14",
         "appropriate-mcq-21",
-        "appropriate-mcq-16"
+        "appropriate-mcq-23"
       ],
       "explanation": "本句的「inappropriate」指「不符合情況／規範的不當行為」。",
       "sentenceIndex": 22,
@@ -1274,12 +1198,10 @@ export default {
         "inappropriate"
       ],
       "optionReasons": {
-        "appropriate-mcq-19": "本句指「不符合情況／規範的不當行為」。",
-        "appropriate-mcq-18": "「不適合某用途／場合，或不符合社交／專業規範的」與本句語境不同。",
-        "appropriate-mcq-20": "「不恰當地／不得體地」與本句語境不同。",
-        "appropriate-mcq-17": "「是否合適、合宜、得體的程度／適當性」與本句語境不同。",
-        "appropriate-mcq-21": "「把某物拿來作自己用途；擅自佔用／據為己有」與本句語境不同。",
-        "appropriate-mcq-16": "「以符合目的／場合的適當方式」與本句語境不同。"
+        "appropriate-mcq-19": "本句的「inappropriate」指「不符合情況／規範的不當行為」。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-19"
     },
@@ -1291,11 +1213,9 @@ export default {
       "masked": "He was accused of ____ company property.",
       "options": [
         "appropriate-mcq-21",
-        "appropriate-mcq-20",
-        "appropriate-mcq-22",
-        "appropriate-mcq-19",
+        "appropriate-mcq-09",
         "appropriate-mcq-23",
-        "appropriate-mcq-18"
+        "appropriate-mcq-28"
       ],
       "explanation": "本句的「appropriating」指「把某物拿來作自己用途；擅自佔用／據為己有」。",
       "sentenceIndex": 23,
@@ -1304,12 +1224,10 @@ export default {
         "appropriating"
       ],
       "optionReasons": {
-        "appropriate-mcq-21": "本句指「把某物拿來作自己用途；擅自佔用／據為己有」。",
-        "appropriate-mcq-20": "「不恰當地／不得體地」與本句語境不同。",
-        "appropriate-mcq-22": "「把財物／資產據為己用或取得控制」與本句語境不同。",
-        "appropriate-mcq-19": "「不符合情況／規範的不當行為」與本句語境不同。",
-        "appropriate-mcq-23": "「借用、挪用並放入新的藝術／文化語境」與本句語境不同。",
-        "appropriate-mcq-18": "「不適合某用途／場合，或不符合社交／專業規範的」與本句語境不同。"
+        "appropriate-mcq-21": "本句的「appropriating」指「把某物拿來作自己用途；擅自佔用／據為己有」。",
+        "appropriate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-21"
     },
@@ -1321,11 +1239,9 @@ export default {
       "masked": "The group ____ the building for its own use.",
       "options": [
         "appropriate-mcq-21",
-        "appropriate-mcq-20",
-        "appropriate-mcq-22",
-        "appropriate-mcq-19",
-        "appropriate-mcq-23",
-        "appropriate-mcq-18"
+        "appropriate-mcq-07",
+        "appropriate-mcq-14",
+        "appropriate-mcq-04"
       ],
       "explanation": "本句的「appropriated」指「把某物拿來作自己用途；擅自佔用／據為己有」。",
       "sentenceIndex": 24,
@@ -1334,12 +1250,10 @@ export default {
         "appropriated"
       ],
       "optionReasons": {
-        "appropriate-mcq-21": "本句指「把某物拿來作自己用途；擅自佔用／據為己有」。",
-        "appropriate-mcq-20": "「不恰當地／不得體地」與本句語境不同。",
-        "appropriate-mcq-22": "「把財物／資產據為己用或取得控制」與本句語境不同。",
-        "appropriate-mcq-19": "「不符合情況／規範的不當行為」與本句語境不同。",
-        "appropriate-mcq-23": "「借用、挪用並放入新的藝術／文化語境」與本句語境不同。",
-        "appropriate-mcq-18": "「不適合某用途／場合，或不符合社交／專業規範的」與本句語境不同。"
+        "appropriate-mcq-21": "本句的「appropriated」指「把某物拿來作自己用途；擅自佔用／據為己有」。",
+        "appropriate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-21"
     },
@@ -1351,11 +1265,9 @@ export default {
       "masked": "The artist ____ images from advertising.",
       "options": [
         "appropriate-mcq-23",
-        "appropriate-mcq-22",
-        "appropriate-mcq-24",
+        "appropriate-mcq-17",
         "appropriate-mcq-21",
-        "appropriate-mcq-25",
-        "appropriate-mcq-20"
+        "appropriate-mcq-14"
       ],
       "explanation": "本句的「appropriated」指「借用、挪用並放入新的藝術／文化語境」。",
       "sentenceIndex": 25,
@@ -1364,12 +1276,10 @@ export default {
         "appropriated"
       ],
       "optionReasons": {
-        "appropriate-mcq-23": "本句指「借用、挪用並放入新的藝術／文化語境」。",
-        "appropriate-mcq-22": "「把財物／資產據為己用或取得控制」與本句語境不同。",
-        "appropriate-mcq-24": "「在特定社會權力／文化語境下對其他文化元素的挪用」與本句語境不同。",
-        "appropriate-mcq-21": "「把某物拿來作自己用途；擅自佔用／據為己有」與本句語境不同。",
-        "appropriate-mcq-25": "「有意使用／重新置入既有圖像、物件或作品的挪用藝術」與本句語境不同。",
-        "appropriate-mcq-20": "「不恰當地／不得體地」與本句語境不同。"
+        "appropriate-mcq-23": "本句的「appropriated」指「借用、挪用並放入新的藝術／文化語境」。",
+        "appropriate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-23"
     },
@@ -1381,11 +1291,9 @@ export default {
       "masked": "The legislature ____ funds for the project.",
       "options": [
         "appropriate-mcq-26",
-        "appropriate-mcq-25",
-        "appropriate-mcq-27",
-        "appropriate-mcq-24",
-        "appropriate-mcq-28",
-        "appropriate-mcq-23"
+        "appropriate-mcq-04",
+        "appropriate-mcq-30",
+        "appropriate-mcq-14"
       ],
       "explanation": "本句的「appropriated」指「正式撥出／授權一筆資金用於指定目的」。",
       "sentenceIndex": 26,
@@ -1394,12 +1302,10 @@ export default {
         "appropriated"
       ],
       "optionReasons": {
-        "appropriate-mcq-26": "本句指「正式撥出／授權一筆資金用於指定目的」。",
-        "appropriate-mcq-25": "「有意使用／重新置入既有圖像、物件或作品的挪用藝術」與本句語境不同。",
-        "appropriate-mcq-27": "「正式批准／指定的政府公共撥款」與本句語境不同。",
-        "appropriate-mcq-24": "「在特定社會權力／文化語境下對其他文化元素的挪用」與本句語境不同。",
-        "appropriate-mcq-28": "「批准公共支出的撥款法案」與本句語境不同。",
-        "appropriate-mcq-23": "「借用、挪用並放入新的藝術／文化語境」與本句語境不同。"
+        "appropriate-mcq-26": "本句的「appropriated」指「正式撥出／授權一筆資金用於指定目的」。",
+        "appropriate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-26"
     },
@@ -1411,11 +1317,9 @@ export default {
       "masked": "Money was ____ for school construction.",
       "options": [
         "appropriate-mcq-26",
-        "appropriate-mcq-25",
-        "appropriate-mcq-27",
-        "appropriate-mcq-24",
-        "appropriate-mcq-28",
-        "appropriate-mcq-23"
+        "appropriate-mcq-21",
+        "appropriate-mcq-14",
+        "appropriate-mcq-04"
       ],
       "explanation": "本句的「appropriated」指「正式撥出／授權一筆資金用於指定目的」。",
       "sentenceIndex": 27,
@@ -1424,12 +1328,10 @@ export default {
         "appropriated"
       ],
       "optionReasons": {
-        "appropriate-mcq-26": "本句指「正式撥出／授權一筆資金用於指定目的」。",
-        "appropriate-mcq-25": "「有意使用／重新置入既有圖像、物件或作品的挪用藝術」與本句語境不同。",
-        "appropriate-mcq-27": "「正式批准／指定的政府公共撥款」與本句語境不同。",
-        "appropriate-mcq-24": "「在特定社會權力／文化語境下對其他文化元素的挪用」與本句語境不同。",
-        "appropriate-mcq-28": "「批准公共支出的撥款法案」與本句語境不同。",
-        "appropriate-mcq-23": "「借用、挪用並放入新的藝術／文化語境」與本句語境不同。"
+        "appropriate-mcq-26": "本句的「appropriated」指「正式撥出／授權一筆資金用於指定目的」。",
+        "appropriate-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-26"
     },
@@ -1441,11 +1343,9 @@ export default {
       "masked": "The department received an annual ____.",
       "options": [
         "appropriate-mcq-28",
-        "appropriate-mcq-27",
-        "appropriate-mcq-29",
-        "appropriate-mcq-26",
-        "appropriate-mcq-30",
-        "appropriate-mcq-25"
+        "appropriate-mcq-04",
+        "appropriate-mcq-14",
+        "appropriate-mcq-12"
       ],
       "explanation": "本句的「appropriation」指「批准公共支出的撥款法案」。",
       "sentenceIndex": 28,
@@ -1454,12 +1354,10 @@ export default {
         "appropriation"
       ],
       "optionReasons": {
-        "appropriate-mcq-28": "本句指「批准公共支出的撥款法案」。",
-        "appropriate-mcq-27": "「正式批准／指定的政府公共撥款」與本句語境不同。",
-        "appropriate-mcq-29": "「原預算以外的追加撥款」與本句語境不同。",
-        "appropriate-mcq-26": "「正式撥出／授權一筆資金用於指定目的」與本句語境不同。",
-        "appropriate-mcq-30": "「取得、佔用或使用某物的行為」與本句語境不同。",
-        "appropriate-mcq-25": "「有意使用／重新置入既有圖像、物件或作品的挪用藝術」與本句語境不同。"
+        "appropriate-mcq-28": "本句的「appropriation」指「批准公共支出的撥款法案」。",
+        "appropriate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-28"
     },
@@ -1471,11 +1369,9 @@ export default {
       "masked": "The unauthorized ____ of company assets was investigated.",
       "options": [
         "appropriate-mcq-30",
-        "appropriate-mcq-29",
-        "appropriate-mcq-31",
-        "appropriate-mcq-28",
-        "appropriate-mcq-32",
-        "appropriate-mcq-27"
+        "appropriate-mcq-36",
+        "appropriate-mcq-04",
+        "appropriate-mcq-14"
       ],
       "explanation": "本句的「appropriation」指「取得、佔用或使用某物的行為」。",
       "sentenceIndex": 29,
@@ -1484,12 +1380,10 @@ export default {
         "appropriation"
       ],
       "optionReasons": {
-        "appropriate-mcq-30": "本句指「取得、佔用或使用某物的行為」。",
-        "appropriate-mcq-29": "「原預算以外的追加撥款」與本句語境不同。",
-        "appropriate-mcq-31": "「未經授權或不正當地挪用／侵吞財物、資金等」與本句語境不同。",
-        "appropriate-mcq-28": "「批准公共支出的撥款法案」與本句語境不同。",
-        "appropriate-mcq-32": "「不當／違法地挪用或使用」與本句語境不同。",
-        "appropriate-mcq-27": "「正式批准／指定的政府公共撥款」與本句語境不同。"
+        "appropriate-mcq-30": "本句的「appropriation」指「取得、佔用或使用某物的行為」。",
+        "appropriate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-30"
     },
@@ -1501,11 +1395,9 @@ export default {
       "masked": "The materials should be culturally ____.",
       "options": [
         "appropriate-mcq-10",
-        "appropriate-mcq-09",
-        "appropriate-mcq-11",
-        "appropriate-mcq-08",
-        "appropriate-mcq-12",
-        "appropriate-mcq-07"
+        "appropriate-mcq-21",
+        "appropriate-mcq-28",
+        "appropriate-mcq-14"
       ],
       "explanation": "本句的「appropriate」指「在特定文化背景中合宜／合適的」。",
       "sentenceIndex": 31,
@@ -1514,12 +1406,10 @@ export default {
         "appropriate"
       ],
       "optionReasons": {
-        "appropriate-mcq-10": "本句指「在特定文化背景中合宜／合適的」。",
-        "appropriate-mcq-09": "「按病人情況和臨床判斷屬合適的」與本句語境不同。",
-        "appropriate-mcq-11": "「語言在社交／語用情境中使用得恰當的」與本句語境不同。",
-        "appropriate-mcq-08": "「符合特定發展階段需要／能力的」與本句語境不同。",
-        "appropriate-mcq-12": "「在適當情況下」與本句語境不同。",
-        "appropriate-mcq-07": "「適合特定年齡層的」與本句語境不同。"
+        "appropriate-mcq-10": "本句的「appropriate」指「在特定文化背景中合宜／合適的」。",
+        "appropriate-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-10"
     },
@@ -1531,11 +1421,9 @@ export default {
       "masked": "It may be ____ to seek further advice.",
       "options": [
         "appropriate-mcq-36",
-        "appropriate-mcq-35",
-        "appropriate-mcq-34",
-        "appropriate-mcq-33",
-        "appropriate-mcq-32",
-        "appropriate-mcq-31"
+        "appropriate-mcq-28",
+        "appropriate-mcq-30",
+        "appropriate-mcq-14"
       ],
       "explanation": "本句的「appropriate」指「按地方資源、成本、環境和社會條件設計的適用技術」。",
       "sentenceIndex": 32,
@@ -1544,12 +1432,10 @@ export default {
         "appropriate"
       ],
       "optionReasons": {
-        "appropriate-mcq-36": "本句指「按地方資源、成本、環境和社會條件設計的適用技術」。",
-        "appropriate-mcq-35": "「已指定特定用途的保留盈餘」與本句語境不同。",
-        "appropriate-mcq-34": "「顯示利潤如何分配／撥用的會計帳」與本句語境不同。",
-        "appropriate-mcq-33": "「把利潤分配／指定用於股息、儲備等用途」與本句語境不同。",
-        "appropriate-mcq-32": "「不當／違法地挪用或使用」與本句語境不同。",
-        "appropriate-mcq-31": "「未經授權或不正當地挪用／侵吞財物、資金等」與本句語境不同。"
+        "appropriate-mcq-36": "本句的「appropriate」指「按地方資源、成本、環境和社會條件設計的適用技術」。",
+        "appropriate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "appropriate-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appropriate-mcq-36"
     }
@@ -1561,5 +1447,7 @@ export default {
     "sha256": "42fe334f21843e7ae50643715a74f9ef3bf36831296225a43e39a0b14bd20ced",
     "pages": 42
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

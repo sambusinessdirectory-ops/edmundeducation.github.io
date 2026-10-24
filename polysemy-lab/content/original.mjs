@@ -176,16 +176,6 @@ export default {
           "The original recording was made in 1965.",
           "原版錄音是在 1965 年錄製的。",
           "作品最初創作、錄製或發表時的語言／版本"
-        ],
-        [
-          "The gallery displayed both the copy and the original.",
-          "畫廊同時展示了複製品和原作。",
-          "作品最初創作、錄製或發表時的語言／版本"
-        ],
-        [
-          "Please send us the original, not a photocopy.",
-          "請寄給我們原件，不要影印本。",
-          "作品最初創作、錄製或發表時的語言／版本"
         ]
       ],
       "options": [],
@@ -377,6 +367,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "original-reviewed-720f2204a2",
+      "title": "被複製或改編所依據的原始作品／文件／物件",
+      "form": "original · source section 9",
+      "en": "被複製或改編所依據的原始作品／文件／物件",
+      "zh": "被複製或改編所依據的原始作品／文件／物件",
+      "note": "對照原始教材第 9 節及例句核實。",
+      "examples": [
+        [
+          "The gallery displayed both the copy and the original.",
+          "畫廊同時展示了複製品和原作。",
+          "被複製或改編所依據的原始作品／文件／物件"
+        ],
+        [
+          "Please send us the original, not a photocopy.",
+          "請寄給我們原件，不要影印本。",
+          "被複製或改編所依據的原始作品／文件／物件"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -388,11 +400,9 @@ export default {
       "masked": "The building still has its ____ doors.",
       "options": [
         "original-mcq-01",
-        "original-mcq-02",
-        "original-mcq-03",
-        "original-mcq-04",
+        "original-mcq-09",
         "original-mcq-05",
-        "original-mcq-06"
+        "original-mcq-04"
       ],
       "explanation": "本句的「original」指「在後來改動、替換或發展之前最早存在的版本／形式」。",
       "sentenceIndex": 0,
@@ -401,12 +411,10 @@ export default {
         "original"
       ],
       "optionReasons": {
-        "original-mcq-01": "本句指「在後來改動、替換或發展之前最早存在的版本／形式」。",
-        "original-mcq-02": "「真正的原件／原作，而不是複製、仿製或重製版本」是「original — authentic」的用法，與本句語境不同。",
-        "original-mcq-03": "「被複製、改編或重製所依據的真正原作／原件」是「the original」的用法，與本句語境不同。",
-        "original-mcq-04": "「不是抄襲或照搬，而是由自己創造並具有新意的」是「original — creative」的用法，與本句語境不同。",
-        "original-mcq-05": "「思路、設計或方法別出心裁、不落俗套的」是「original — inventive」的用法，與本句語境不同。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。"
+        "original-mcq-01": "本句的「original」指「在後來改動、替換或發展之前最早存在的版本／形式」。",
+        "original-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-01"
     },
@@ -418,11 +426,9 @@ export default {
       "masked": "The ____ plan was much simpler.",
       "options": [
         "original-mcq-01",
-        "original-mcq-02",
-        "original-mcq-03",
-        "original-mcq-04",
-        "original-mcq-05",
-        "original-mcq-06"
+        "original-mcq-10",
+        "original-mcq-11",
+        "original-mcq-03"
       ],
       "explanation": "本句的「original」指「在後來改動、替換或發展之前最早存在的版本／形式」。",
       "sentenceIndex": 1,
@@ -431,12 +437,10 @@ export default {
         "original"
       ],
       "optionReasons": {
-        "original-mcq-01": "本句指「在後來改動、替換或發展之前最早存在的版本／形式」。",
-        "original-mcq-02": "「真正的原件／原作，而不是複製、仿製或重製版本」是「original — authentic」的用法，與本句語境不同。",
-        "original-mcq-03": "「被複製、改編或重製所依據的真正原作／原件」是「the original」的用法，與本句語境不同。",
-        "original-mcq-04": "「不是抄襲或照搬，而是由自己創造並具有新意的」是「original — creative」的用法，與本句語境不同。",
-        "original-mcq-05": "「思路、設計或方法別出心裁、不落俗套的」是「original — inventive」的用法，與本句語境不同。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。"
+        "original-mcq-01": "本句的「original」指「在後來改動、替換或發展之前最早存在的版本／形式」。",
+        "original-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-01"
     },
@@ -448,11 +452,9 @@ export default {
       "masked": "The museum owns the ____.",
       "options": [
         "original-mcq-02",
-        "original-mcq-01",
-        "original-mcq-03",
         "original-mcq-04",
         "original-mcq-05",
-        "original-mcq-06"
+        "original-mcq-09"
       ],
       "explanation": "本句的「original painting」指「真正的原件／原作，而不是複製、仿製或重製版本」。",
       "sentenceIndex": 2,
@@ -461,12 +463,10 @@ export default {
         "original painting"
       ],
       "optionReasons": {
-        "original-mcq-02": "本句指「真正的原件／原作，而不是複製、仿製或重製版本」。",
-        "original-mcq-01": "「在後來改動、替換或發展之前最早存在的版本／形式」是「original — first form」的用法，與本句語境不同。",
-        "original-mcq-03": "「被複製、改編或重製所依據的真正原作／原件」是「the original」的用法，與本句語境不同。",
-        "original-mcq-04": "「不是抄襲或照搬，而是由自己創造並具有新意的」是「original — creative」的用法，與本句語境不同。",
-        "original-mcq-05": "「思路、設計或方法別出心裁、不落俗套的」是「original — inventive」的用法，與本句語境不同。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。"
+        "original-mcq-02": "本句的「original painting」指「真正的原件／原作，而不是複製、仿製或重製版本」。",
+        "original-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-02"
     },
@@ -478,11 +478,9 @@ export default {
       "masked": "Is this the ____ document or a copy?",
       "options": [
         "original-mcq-02",
-        "original-mcq-01",
-        "original-mcq-03",
-        "original-mcq-04",
-        "original-mcq-05",
-        "original-mcq-06"
+        "original-pdf-001",
+        "original-mcq-06",
+        "original-mcq-05"
       ],
       "explanation": "本句的「original」指「真正的原件／原作，而不是複製、仿製或重製版本」。",
       "sentenceIndex": 3,
@@ -491,12 +489,10 @@ export default {
         "original"
       ],
       "optionReasons": {
-        "original-mcq-02": "本句指「真正的原件／原作，而不是複製、仿製或重製版本」。",
-        "original-mcq-01": "「在後來改動、替換或發展之前最早存在的版本／形式」是「original — first form」的用法，與本句語境不同。",
-        "original-mcq-03": "「被複製、改編或重製所依據的真正原作／原件」是「the original」的用法，與本句語境不同。",
-        "original-mcq-04": "「不是抄襲或照搬，而是由自己創造並具有新意的」是「original — creative」的用法，與本句語境不同。",
-        "original-mcq-05": "「思路、設計或方法別出心裁、不落俗套的」是「original — inventive」的用法，與本句語境不同。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。"
+        "original-mcq-02": "本句的「original」指「真正的原件／原作，而不是複製、仿製或重製版本」。",
+        "original-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-02"
     },
@@ -508,10 +504,8 @@ export default {
       "masked": "The ____ is obviously out of the question.",
       "options": [
         "original-mcq-03",
-        "original-mcq-02",
-        "original-mcq-04",
-        "original-mcq-01",
-        "original-mcq-05",
+        "original-pdf-001",
+        "original-mcq-13",
         "original-mcq-06"
       ],
       "explanation": "本句的「original」指「被複製、改編或重製所依據的真正原作／原件」。",
@@ -521,12 +515,10 @@ export default {
         "original"
       ],
       "optionReasons": {
-        "original-mcq-03": "本句指「被複製、改編或重製所依據的真正原作／原件」。",
-        "original-mcq-02": "「真正的原件／原作，而不是複製、仿製或重製版本」是「original — authentic」的用法，與本句語境不同。",
-        "original-mcq-04": "「不是抄襲或照搬，而是由自己創造並具有新意的」是「original — creative」的用法，與本句語境不同。",
-        "original-mcq-01": "「在後來改動、替換或發展之前最早存在的版本／形式」是「original — first form」的用法，與本句語境不同。",
-        "original-mcq-05": "「思路、設計或方法別出心裁、不落俗套的」是「original — inventive」的用法，與本句語境不同。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。"
+        "original-mcq-03": "本句的「original」指「被複製、改編或重製所依據的真正原作／原件」。",
+        "original-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-03"
     },
@@ -538,11 +530,9 @@ export default {
       "masked": "The reproduction is cheaper than the ____.",
       "options": [
         "original-mcq-03",
-        "original-mcq-02",
-        "original-mcq-04",
-        "original-mcq-01",
-        "original-mcq-05",
-        "original-mcq-06"
+        "original-mcq-14",
+        "original-mcq-09",
+        "original-mcq-05"
       ],
       "explanation": "本句的「original」指「被複製、改編或重製所依據的真正原作／原件」。",
       "sentenceIndex": 5,
@@ -551,12 +541,10 @@ export default {
         "original"
       ],
       "optionReasons": {
-        "original-mcq-03": "本句指「被複製、改編或重製所依據的真正原作／原件」。",
-        "original-mcq-02": "「真正的原件／原作，而不是複製、仿製或重製版本」是「original — authentic」的用法，與本句語境不同。",
-        "original-mcq-04": "「不是抄襲或照搬，而是由自己創造並具有新意的」是「original — creative」的用法，與本句語境不同。",
-        "original-mcq-01": "「在後來改動、替換或發展之前最早存在的版本／形式」是「original — first form」的用法，與本句語境不同。",
-        "original-mcq-05": "「思路、設計或方法別出心裁、不落俗套的」是「original — inventive」的用法，與本句語境不同。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。"
+        "original-mcq-03": "本句的「original」指「被複製、改編或重製所依據的真正原作／原件」。",
+        "original-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-03"
     },
@@ -568,11 +556,9 @@ export default {
       "masked": "She presented an ____.",
       "options": [
         "original-mcq-04",
-        "original-mcq-03",
-        "original-mcq-05",
-        "original-mcq-02",
-        "original-mcq-06",
-        "original-mcq-01"
+        "original-mcq-11",
+        "original-mcq-01",
+        "original-mcq-03"
       ],
       "explanation": "本句的「original idea」指「不是抄襲或照搬，而是由自己創造並具有新意的」。",
       "sentenceIndex": 6,
@@ -581,12 +567,10 @@ export default {
         "original idea"
       ],
       "optionReasons": {
-        "original-mcq-04": "本句指「不是抄襲或照搬，而是由自己創造並具有新意的」。",
-        "original-mcq-03": "「被複製、改編或重製所依據的真正原作／原件」是「the original」的用法，與本句語境不同。",
-        "original-mcq-05": "「思路、設計或方法別出心裁、不落俗套的」是「original — inventive」的用法，與本句語境不同。",
-        "original-mcq-02": "「真正的原件／原作，而不是複製、仿製或重製版本」是「original — authentic」的用法，與本句語境不同。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。",
-        "original-mcq-01": "「在後來改動、替換或發展之前最早存在的版本／形式」是「original — first form」的用法，與本句語境不同。"
+        "original-mcq-04": "本句的「original idea」指「不是抄襲或照搬，而是由自己創造並具有新意的」。",
+        "original-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-04"
     },
@@ -598,10 +582,8 @@ export default {
       "masked": "The design is simple but highly ____.",
       "options": [
         "original-mcq-04",
-        "original-mcq-03",
-        "original-mcq-05",
-        "original-mcq-02",
-        "original-mcq-06",
+        "original-mcq-09",
+        "original-reviewed-720f2204a2",
         "original-mcq-01"
       ],
       "explanation": "本句的「original」指「不是抄襲或照搬，而是由自己創造並具有新意的」。",
@@ -611,12 +593,10 @@ export default {
         "original"
       ],
       "optionReasons": {
-        "original-mcq-04": "本句指「不是抄襲或照搬，而是由自己創造並具有新意的」。",
-        "original-mcq-03": "「被複製、改編或重製所依據的真正原作／原件」是「the original」的用法，與本句語境不同。",
-        "original-mcq-05": "「思路、設計或方法別出心裁、不落俗套的」是「original — inventive」的用法，與本句語境不同。",
-        "original-mcq-02": "「真正的原件／原作，而不是複製、仿製或重製版本」是「original — authentic」的用法，與本句語境不同。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。",
-        "original-mcq-01": "「在後來改動、替換或發展之前最早存在的版本／形式」是「original — first form」的用法，與本句語境不同。"
+        "original-mcq-04": "本句的「original」指「不是抄襲或照搬，而是由自己創造並具有新意的」。",
+        "original-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "original-reviewed-720f2204a2": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-04"
     },
@@ -628,11 +608,9 @@ export default {
       "masked": "That is a very ____ solution.",
       "options": [
         "original-mcq-05",
-        "original-mcq-04",
-        "original-mcq-06",
-        "original-mcq-03",
-        "original-mcq-07",
-        "original-mcq-02"
+        "original-mcq-11",
+        "original-mcq-13",
+        "original-mcq-03"
       ],
       "explanation": "本句的「original」指「思路、設計或方法別出心裁、不落俗套的」。",
       "sentenceIndex": 8,
@@ -641,12 +619,10 @@ export default {
         "original"
       ],
       "optionReasons": {
-        "original-mcq-05": "本句指「思路、設計或方法別出心裁、不落俗套的」。",
-        "original-mcq-04": "「不是抄襲或照搬，而是由自己創造並具有新意的」是「original — creative」的用法，與本句語境不同。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。",
-        "original-mcq-03": "「被複製、改編或重製所依據的真正原作／原件」是「the original」的用法，與本句語境不同。",
-        "original-mcq-07": "「最早參與、建立、擁有或使用某事物的」是「original — founding」的用法，與本句語境不同。",
-        "original-mcq-02": "「真正的原件／原作，而不是複製、仿製或重製版本」是「original — authentic」的用法，與本句語境不同。"
+        "original-mcq-05": "本句的「original」指「思路、設計或方法別出心裁、不落俗套的」。",
+        "original-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-05"
     },
@@ -658,11 +634,9 @@ export default {
       "masked": "Her approach was ____ and effective.",
       "options": [
         "original-mcq-05",
-        "original-mcq-04",
-        "original-mcq-06",
-        "original-mcq-03",
-        "original-mcq-07",
-        "original-mcq-02"
+        "original-mcq-12",
+        "original-mcq-01",
+        "original-mcq-03"
       ],
       "explanation": "本句的「original」指「思路、設計或方法別出心裁、不落俗套的」。",
       "sentenceIndex": 9,
@@ -671,12 +645,10 @@ export default {
         "original"
       ],
       "optionReasons": {
-        "original-mcq-05": "本句指「思路、設計或方法別出心裁、不落俗套的」。",
-        "original-mcq-04": "「不是抄襲或照搬，而是由自己創造並具有新意的」是「original — creative」的用法，與本句語境不同。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。",
-        "original-mcq-03": "「被複製、改編或重製所依據的真正原作／原件」是「the original」的用法，與本句語境不同。",
-        "original-mcq-07": "「最早參與、建立、擁有或使用某事物的」是「original — founding」的用法，與本句語境不同。",
-        "original-mcq-02": "「真正的原件／原作，而不是複製、仿製或重製版本」是「original — authentic」的用法，與本句語境不同。"
+        "original-mcq-05": "本句的「original」指「思路、設計或方法別出心裁、不落俗套的」。",
+        "original-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-05"
     },
@@ -688,11 +660,9 @@ export default {
       "masked": "The room has been restored to its ____.",
       "options": [
         "original-mcq-06",
-        "original-mcq-05",
+        "original-mcq-13",
         "original-mcq-07",
-        "original-mcq-04",
-        "original-mcq-08",
-        "original-mcq-03"
+        "original-mcq-05"
       ],
       "explanation": "本句的「original condition」指「某物一開始具有的狀態、形式或特徵」。",
       "sentenceIndex": 10,
@@ -701,12 +671,10 @@ export default {
         "original condition"
       ],
       "optionReasons": {
-        "original-mcq-06": "本句指「某物一開始具有的狀態、形式或特徵」。",
-        "original-mcq-05": "「思路、設計或方法別出心裁、不落俗套的」是「original — inventive」的用法，與本句語境不同。",
-        "original-mcq-07": "「最早參與、建立、擁有或使用某事物的」是「original — founding」的用法，與本句語境不同。",
-        "original-mcq-04": "「不是抄襲或照搬，而是由自己創造並具有新意的」是「original — creative」的用法，與本句語境不同。",
-        "original-mcq-08": "「作品最初創作、錄製或發表時的語言／版本」是「original — language/version」的用法，與本句語境不同。",
-        "original-mcq-03": "「被複製、改編或重製所依據的真正原作／原件」是「the original」的用法，與本句語境不同。"
+        "original-mcq-06": "本句的「original condition」指「某物一開始具有的狀態、形式或特徵」。",
+        "original-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-06"
     },
@@ -718,11 +686,9 @@ export default {
       "masked": "The painting retained most of its ____ colour.",
       "options": [
         "original-mcq-06",
-        "original-mcq-05",
         "original-mcq-07",
-        "original-mcq-04",
-        "original-mcq-08",
-        "original-mcq-03"
+        "original-mcq-05",
+        "original-mcq-13"
       ],
       "explanation": "本句的「original」指「某物一開始具有的狀態、形式或特徵」。",
       "sentenceIndex": 11,
@@ -731,12 +697,10 @@ export default {
         "original"
       ],
       "optionReasons": {
-        "original-mcq-06": "本句指「某物一開始具有的狀態、形式或特徵」。",
-        "original-mcq-05": "「思路、設計或方法別出心裁、不落俗套的」是「original — inventive」的用法，與本句語境不同。",
-        "original-mcq-07": "「最早參與、建立、擁有或使用某事物的」是「original — founding」的用法，與本句語境不同。",
-        "original-mcq-04": "「不是抄襲或照搬，而是由自己創造並具有新意的」是「original — creative」的用法，與本句語境不同。",
-        "original-mcq-08": "「作品最初創作、錄製或發表時的語言／版本」是「original — language/version」的用法，與本句語境不同。",
-        "original-mcq-03": "「被複製、改編或重製所依據的真正原作／原件」是「the original」的用法，與本句語境不同。"
+        "original-mcq-06": "本句的「original」指「某物一開始具有的狀態、形式或特徵」。",
+        "original-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-06"
     },
@@ -748,11 +712,9 @@ export default {
       "masked": "She was one of the ____ of the group.",
       "options": [
         "original-mcq-07",
+        "original-mcq-02",
         "original-mcq-06",
-        "original-mcq-08",
-        "original-mcq-05",
-        "original-mcq-09",
-        "original-mcq-04"
+        "original-mcq-09"
       ],
       "explanation": "本句的「original members」指「最早參與、建立、擁有或使用某事物的」。",
       "sentenceIndex": 12,
@@ -761,12 +723,10 @@ export default {
         "original members"
       ],
       "optionReasons": {
-        "original-mcq-07": "本句指「最早參與、建立、擁有或使用某事物的」。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。",
-        "original-mcq-08": "「作品最初創作、錄製或發表時的語言／版本」是「original — language/version」的用法，與本句語境不同。",
-        "original-mcq-05": "「思路、設計或方法別出心裁、不落俗套的」是「original — inventive」的用法，與本句語境不同。",
-        "original-mcq-09": "「個性、思想或風格非常獨特的人」是「an original」的用法，與本句語境不同。",
-        "original-mcq-04": "「不是抄襲或照搬，而是由自己創造並具有新意的」是「original — creative」的用法，與本句語境不同。"
+        "original-mcq-07": "本句的「original members」指「最早參與、建立、擁有或使用某事物的」。",
+        "original-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-07"
     },
@@ -778,11 +738,9 @@ export default {
       "masked": "The ____ owners sold the house years ago.",
       "options": [
         "original-mcq-07",
-        "original-mcq-06",
-        "original-mcq-08",
-        "original-mcq-05",
-        "original-mcq-09",
-        "original-mcq-04"
+        "original-reviewed-720f2204a2",
+        "original-mcq-11",
+        "original-mcq-13"
       ],
       "explanation": "本句的「original」指「最早參與、建立、擁有或使用某事物的」。",
       "sentenceIndex": 13,
@@ -791,12 +749,10 @@ export default {
         "original"
       ],
       "optionReasons": {
-        "original-mcq-07": "本句指「最早參與、建立、擁有或使用某事物的」。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。",
-        "original-mcq-08": "「作品最初創作、錄製或發表時的語言／版本」是「original — language/version」的用法，與本句語境不同。",
-        "original-mcq-05": "「思路、設計或方法別出心裁、不落俗套的」是「original — inventive」的用法，與本句語境不同。",
-        "original-mcq-09": "「個性、思想或風格非常獨特的人」是「an original」的用法，與本句語境不同。",
-        "original-mcq-04": "「不是抄襲或照搬，而是由自己創造並具有新意的」是「original — creative」的用法，與本句語境不同。"
+        "original-mcq-07": "本句的「original」指「最早參與、建立、擁有或使用某事物的」。",
+        "original-reviewed-720f2204a2": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-07"
     },
@@ -808,10 +764,8 @@ export default {
       "masked": "I read the book in the ____.",
       "options": [
         "original-mcq-08",
-        "original-mcq-07",
-        "original-mcq-09",
         "original-mcq-06",
-        "original-mcq-10",
+        "original-mcq-09",
         "original-mcq-05"
       ],
       "explanation": "本句的「original English」指「作品最初創作、錄製或發表時的語言／版本」。",
@@ -821,12 +775,10 @@ export default {
         "original English"
       ],
       "optionReasons": {
-        "original-mcq-08": "本句指「作品最初創作、錄製或發表時的語言／版本」。",
-        "original-mcq-07": "「最早參與、建立、擁有或使用某事物的」是「original — founding」的用法，與本句語境不同。",
-        "original-mcq-09": "「個性、思想或風格非常獨特的人」是「an original」的用法，與本句語境不同。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。",
-        "original-mcq-05": "「思路、設計或方法別出心裁、不落俗套的」是「original — inventive」的用法，與本句語境不同。"
+        "original-mcq-08": "本句的「original English」指「作品最初創作、錄製或發表時的語言／版本」。",
+        "original-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-08"
     },
@@ -838,11 +790,9 @@ export default {
       "masked": "The ____ recording was made in 1965.",
       "options": [
         "original-mcq-08",
-        "original-mcq-07",
         "original-mcq-09",
-        "original-mcq-06",
-        "original-mcq-10",
-        "original-mcq-05"
+        "original-mcq-05",
+        "original-mcq-06"
       ],
       "explanation": "本句的「original」指「作品最初創作、錄製或發表時的語言／版本」。",
       "sentenceIndex": 15,
@@ -851,74 +801,68 @@ export default {
         "original"
       ],
       "optionReasons": {
-        "original-mcq-08": "本句指「作品最初創作、錄製或發表時的語言／版本」。",
-        "original-mcq-07": "「最早參與、建立、擁有或使用某事物的」是「original — founding」的用法，與本句語境不同。",
-        "original-mcq-09": "「個性、思想或風格非常獨特的人」是「an original」的用法，與本句語境不同。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。",
-        "original-mcq-05": "「思路、設計或方法別出心裁、不落俗套的」是「original — inventive」的用法，與本句語境不同。"
+        "original-mcq-08": "本句的「original」指「作品最初創作、錄製或發表時的語言／版本」。",
+        "original-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-08"
     },
     {
       "id": "original-09-0",
-      "sense": "original-mcq-08",
+      "sense": "original-reviewed-720f2204a2",
       "en": "The gallery displayed both the copy and the original.",
       "zh": "畫廊同時展示了複製品和原作。",
       "masked": "The gallery displayed both the copy and the ____.",
       "options": [
-        "original-mcq-08",
-        "original-mcq-07",
+        "original-reviewed-720f2204a2",
+        "original-pdf-001",
         "original-mcq-09",
-        "original-mcq-06",
-        "original-mcq-10",
-        "original-mcq-05"
+        "original-mcq-13"
       ],
-      "explanation": "本句的「original」指「作品最初創作、錄製或發表時的語言／版本」。",
+      "explanation": "對照完整句子：「畫廊同時展示了複製品和原作。」。這裡的「original」表示「被複製或改編所依據的原始作品／文件／物件」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "original"
       ],
       "optionReasons": {
-        "original-mcq-08": "本句指「作品最初創作、錄製或發表時的語言／版本」。",
-        "original-mcq-07": "「最早參與、建立、擁有或使用某事物的」是「original — founding」的用法，與本句語境不同。",
-        "original-mcq-09": "「個性、思想或風格非常獨特的人」是「an original」的用法，與本句語境不同。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。",
-        "original-mcq-05": "「思路、設計或方法別出心裁、不落俗套的」是「original — inventive」的用法，與本句語境不同。"
+        "original-reviewed-720f2204a2": "對照完整句子：「畫廊同時展示了複製品和原作。」。這裡的「original」表示「被複製或改編所依據的原始作品／文件／物件」。",
+        "original-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "original-mcq-08"
+      "correctOption": "original-reviewed-720f2204a2",
+      "previousCorrectOption": "original-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "original-09-1",
-      "sense": "original-mcq-08",
+      "sense": "original-reviewed-720f2204a2",
       "en": "Please send us the original, not a photocopy.",
       "zh": "請寄給我們原件，不要影印本。",
       "masked": "Please send us the ____, not a photocopy.",
       "options": [
-        "original-mcq-08",
+        "original-reviewed-720f2204a2",
+        "original-mcq-05",
         "original-mcq-07",
-        "original-mcq-09",
-        "original-mcq-06",
-        "original-mcq-10",
-        "original-mcq-05"
+        "original-mcq-09"
       ],
-      "explanation": "本句的「original」指「作品最初創作、錄製或發表時的語言／版本」。",
+      "explanation": "對照完整句子：「請寄給我們原件，不要影印本。」。這裡的「original」表示「被複製或改編所依據的原始作品／文件／物件」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "original"
       ],
       "optionReasons": {
-        "original-mcq-08": "本句指「作品最初創作、錄製或發表時的語言／版本」。",
-        "original-mcq-07": "「最早參與、建立、擁有或使用某事物的」是「original — founding」的用法，與本句語境不同。",
-        "original-mcq-09": "「個性、思想或風格非常獨特的人」是「an original」的用法，與本句語境不同。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。",
-        "original-mcq-05": "「思路、設計或方法別出心裁、不落俗套的」是「original — inventive」的用法，與本句語境不同。"
+        "original-reviewed-720f2204a2": "對照完整句子：「請寄給我們原件，不要影印本。」。這裡的「original」表示「被複製或改編所依據的原始作品／文件／物件」。",
+        "original-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "original-mcq-08"
+      "correctOption": "original-reviewed-720f2204a2",
+      "previousCorrectOption": "original-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "original-10-0",
@@ -928,11 +872,9 @@ export default {
       "masked": "He was a true ____.",
       "options": [
         "original-mcq-09",
-        "original-mcq-08",
-        "original-mcq-10",
-        "original-mcq-07",
         "original-mcq-11",
-        "original-mcq-06"
+        "original-mcq-04",
+        "original-mcq-01"
       ],
       "explanation": "本句的「original」指「個性、思想或風格非常獨特的人」。",
       "sentenceIndex": 18,
@@ -941,12 +883,10 @@ export default {
         "original"
       ],
       "optionReasons": {
-        "original-mcq-09": "本句指「個性、思想或風格非常獨特的人」。",
-        "original-mcq-08": "「作品最初創作、錄製或發表時的語言／版本」是「original — language/version」的用法，與本句語境不同。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。",
-        "original-mcq-07": "「最早參與、建立、擁有或使用某事物的」是「original — founding」的用法，與本句語境不同。",
-        "original-mcq-11": "「在事情開始時；原本／起初」是「originally」的用法，與本句語境不同。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。"
+        "original-mcq-09": "本句的「original」指「個性、思想或風格非常獨特的人」。",
+        "original-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-09"
     },
@@ -958,11 +898,9 @@ export default {
       "masked": "She is one of those rare ____ who never follows trends.",
       "options": [
         "original-mcq-09",
-        "original-mcq-08",
-        "original-mcq-10",
-        "original-mcq-07",
-        "original-mcq-11",
-        "original-mcq-06"
+        "original-mcq-12",
+        "original-mcq-03",
+        "original-mcq-01"
       ],
       "explanation": "本句的「originals」指「個性、思想或風格非常獨特的人」。",
       "sentenceIndex": 19,
@@ -971,12 +909,10 @@ export default {
         "originals"
       ],
       "optionReasons": {
-        "original-mcq-09": "本句指「個性、思想或風格非常獨特的人」。",
-        "original-mcq-08": "「作品最初創作、錄製或發表時的語言／版本」是「original — language/version」的用法，與本句語境不同。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。",
-        "original-mcq-07": "「最早參與、建立、擁有或使用某事物的」是「original — founding」的用法，與本句語境不同。",
-        "original-mcq-11": "「在事情開始時；原本／起初」是「originally」的用法，與本句語境不同。",
-        "original-mcq-06": "「某物一開始具有的狀態、形式或特徵」是「original — condition」的用法，與本句語境不同。"
+        "original-mcq-09": "本句的「originals」指「個性、思想或風格非常獨特的人」。",
+        "original-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-09"
     },
@@ -988,11 +924,9 @@ export default {
       "masked": "The judges praised the ____ of the design.",
       "options": [
         "original-mcq-10",
-        "original-mcq-09",
-        "original-mcq-11",
-        "original-mcq-08",
         "original-mcq-12",
-        "original-mcq-07"
+        "original-mcq-01",
+        "original-mcq-03"
       ],
       "explanation": "本句的「originality」指「想法、作品或方法不模仿別人而具有的原創性」。",
       "sentenceIndex": 20,
@@ -1001,12 +935,10 @@ export default {
         "originality"
       ],
       "optionReasons": {
-        "original-mcq-10": "本句指「想法、作品或方法不模仿別人而具有的原創性」。",
-        "original-mcq-09": "「個性、思想或風格非常獨特的人」是「an original」的用法，與本句語境不同。",
-        "original-mcq-11": "「在事情開始時；原本／起初」是「originally」的用法，與本句語境不同。",
-        "original-mcq-08": "「作品最初創作、錄製或發表時的語言／版本」是「original — language/version」的用法，與本句語境不同。",
-        "original-mcq-12": "「某事物最初開始、產生或來自的來源」是「origin — source」的用法，與本句語境不同。",
-        "original-mcq-07": "「最早參與、建立、擁有或使用某事物的」是「original — founding」的用法，與本句語境不同。"
+        "original-mcq-10": "本句的「originality」指「想法、作品或方法不模仿別人而具有的原創性」。",
+        "original-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-10"
     },
@@ -1018,11 +950,9 @@ export default {
       "masked": "Her work lacks ____.",
       "options": [
         "original-mcq-10",
-        "original-mcq-09",
-        "original-mcq-11",
-        "original-mcq-08",
+        "original-mcq-01",
         "original-mcq-12",
-        "original-mcq-07"
+        "original-mcq-03"
       ],
       "explanation": "本句的「originality」指「想法、作品或方法不模仿別人而具有的原創性」。",
       "sentenceIndex": 21,
@@ -1031,12 +961,10 @@ export default {
         "originality"
       ],
       "optionReasons": {
-        "original-mcq-10": "本句指「想法、作品或方法不模仿別人而具有的原創性」。",
-        "original-mcq-09": "「個性、思想或風格非常獨特的人」是「an original」的用法，與本句語境不同。",
-        "original-mcq-11": "「在事情開始時；原本／起初」是「originally」的用法，與本句語境不同。",
-        "original-mcq-08": "「作品最初創作、錄製或發表時的語言／版本」是「original — language/version」的用法，與本句語境不同。",
-        "original-mcq-12": "「某事物最初開始、產生或來自的來源」是「origin — source」的用法，與本句語境不同。",
-        "original-mcq-07": "「最早參與、建立、擁有或使用某事物的」是「original — founding」的用法，與本句語境不同。"
+        "original-mcq-10": "本句的「originality」指「想法、作品或方法不模仿別人而具有的原創性」。",
+        "original-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-10"
     },
@@ -1048,11 +976,9 @@ export default {
       "masked": "The room was ____ a library.",
       "options": [
         "original-mcq-11",
-        "original-mcq-10",
-        "original-mcq-12",
+        "original-mcq-04",
         "original-mcq-09",
-        "original-mcq-13",
-        "original-mcq-08"
+        "original-mcq-13"
       ],
       "explanation": "本句的「originally」指「在事情開始時；原本／起初」。",
       "sentenceIndex": 22,
@@ -1061,12 +987,10 @@ export default {
         "originally"
       ],
       "optionReasons": {
-        "original-mcq-11": "本句指「在事情開始時；原本／起初」。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。",
-        "original-mcq-12": "「某事物最初開始、產生或來自的來源」是「origin — source」的用法，與本句語境不同。",
-        "original-mcq-09": "「個性、思想或風格非常獨特的人」是「an original」的用法，與本句語境不同。",
-        "original-mcq-13": "「人或物所來自的地點、族源或背景」是「origin — background」的用法，與本句語境不同。",
-        "original-mcq-08": "「作品最初創作、錄製或發表時的語言／版本」是「original — language/version」的用法，與本句語境不同。"
+        "original-mcq-11": "本句的「originally」指「在事情開始時；原本／起初」。",
+        "original-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-11"
     },
@@ -1078,11 +1002,9 @@ export default {
       "masked": "I ____ planned to buy a smaller print.",
       "options": [
         "original-mcq-11",
-        "original-mcq-10",
-        "original-mcq-12",
-        "original-mcq-09",
-        "original-mcq-13",
-        "original-mcq-08"
+        "original-mcq-04",
+        "original-mcq-05",
+        "original-mcq-13"
       ],
       "explanation": "本句的「originally」指「在事情開始時；原本／起初」。",
       "sentenceIndex": 23,
@@ -1091,12 +1013,10 @@ export default {
         "originally"
       ],
       "optionReasons": {
-        "original-mcq-11": "本句指「在事情開始時；原本／起初」。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。",
-        "original-mcq-12": "「某事物最初開始、產生或來自的來源」是「origin — source」的用法，與本句語境不同。",
-        "original-mcq-09": "「個性、思想或風格非常獨特的人」是「an original」的用法，與本句語境不同。",
-        "original-mcq-13": "「人或物所來自的地點、族源或背景」是「origin — background」的用法，與本句語境不同。",
-        "original-mcq-08": "「作品最初創作、錄製或發表時的語言／版本」是「original — language/version」的用法，與本句語境不同。"
+        "original-mcq-11": "本句的「originally」指「在事情開始時；原本／起初」。",
+        "original-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-11"
     },
@@ -1108,11 +1028,9 @@ export default {
       "masked": "The novel was ____ published in French.",
       "options": [
         "original-pdf-001",
-        "original-mcq-10",
-        "original-mcq-12",
-        "original-mcq-09",
+        "original-mcq-03",
         "original-mcq-13",
-        "original-mcq-08"
+        "original-mcq-09"
       ],
       "explanation": "本句的「originally」指「某事物在最初創作、發表或形成時」。",
       "sentenceIndex": 24,
@@ -1121,12 +1039,10 @@ export default {
         "originally"
       ],
       "optionReasons": {
-        "original-pdf-001": "本句指「某事物在最初創作、發表或形成時」。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。",
-        "original-mcq-12": "「某事物最初開始、產生或來自的來源」是「origin — source」的用法，與本句語境不同。",
-        "original-mcq-09": "「個性、思想或風格非常獨特的人」是「an original」的用法，與本句語境不同。",
-        "original-mcq-13": "「人或物所來自的地點、族源或背景」是「origin — background」的用法，與本句語境不同。",
-        "original-mcq-08": "「作品最初創作、錄製或發表時的語言／版本」是「original — language/version」的用法，與本句語境不同。"
+        "original-pdf-001": "本句的「originally」指「某事物在最初創作、發表或形成時」。",
+        "original-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-pdf-001"
     },
@@ -1138,11 +1054,9 @@ export default {
       "masked": "The work was ____ created for a private collection.",
       "options": [
         "original-pdf-001",
-        "original-mcq-10",
-        "original-mcq-12",
-        "original-mcq-09",
-        "original-mcq-13",
-        "original-mcq-08"
+        "original-mcq-02",
+        "original-mcq-05",
+        "original-mcq-13"
       ],
       "explanation": "本句的「originally」指「某事物在最初創作、發表或形成時」。",
       "sentenceIndex": 25,
@@ -1151,12 +1065,10 @@ export default {
         "originally"
       ],
       "optionReasons": {
-        "original-pdf-001": "本句指「某事物在最初創作、發表或形成時」。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。",
-        "original-mcq-12": "「某事物最初開始、產生或來自的來源」是「origin — source」的用法，與本句語境不同。",
-        "original-mcq-09": "「個性、思想或風格非常獨特的人」是「an original」的用法，與本句語境不同。",
-        "original-mcq-13": "「人或物所來自的地點、族源或背景」是「origin — background」的用法，與本句語境不同。",
-        "original-mcq-08": "「作品最初創作、錄製或發表時的語言／版本」是「original — language/version」的用法，與本句語境不同。"
+        "original-pdf-001": "本句的「originally」指「某事物在最初創作、發表或形成時」。",
+        "original-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-pdf-001"
     },
@@ -1168,10 +1080,8 @@ export default {
       "masked": "The exact ____ of the idea is unclear.",
       "options": [
         "original-mcq-12",
-        "original-mcq-11",
-        "original-mcq-13",
-        "original-mcq-10",
-        "original-mcq-14",
+        "original-mcq-03",
+        "original-mcq-05",
         "original-mcq-09"
       ],
       "explanation": "本句的「origin」指「某事物最初開始、產生或來自的來源」。",
@@ -1181,12 +1091,10 @@ export default {
         "origin"
       ],
       "optionReasons": {
-        "original-mcq-12": "本句指「某事物最初開始、產生或來自的來源」。",
-        "original-mcq-11": "「在事情開始時；原本／起初」是「originally」的用法，與本句語境不同。",
-        "original-mcq-13": "「人或物所來自的地點、族源或背景」是「origin — background」的用法，與本句語境不同。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。",
-        "original-mcq-14": "「某事物最初開始、出現或產生」是「originate」的用法，與本句語境不同。",
-        "original-mcq-09": "「個性、思想或風格非常獨特的人」是「an original」的用法，與本句語境不同。"
+        "original-mcq-12": "本句的「origin」指「某事物最初開始、產生或來自的來源」。",
+        "original-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-12"
     },
@@ -1198,10 +1106,8 @@ export default {
       "masked": "The word is French in ____.",
       "options": [
         "original-mcq-12",
-        "original-mcq-11",
-        "original-mcq-13",
-        "original-mcq-10",
-        "original-mcq-14",
+        "original-mcq-03",
+        "original-mcq-05",
         "original-mcq-09"
       ],
       "explanation": "本句的「origin」指「某事物最初開始、產生或來自的來源」。",
@@ -1211,12 +1117,10 @@ export default {
         "origin"
       ],
       "optionReasons": {
-        "original-mcq-12": "本句指「某事物最初開始、產生或來自的來源」。",
-        "original-mcq-11": "「在事情開始時；原本／起初」是「originally」的用法，與本句語境不同。",
-        "original-mcq-13": "「人或物所來自的地點、族源或背景」是「origin — background」的用法，與本句語境不同。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。",
-        "original-mcq-14": "「某事物最初開始、出現或產生」是「originate」的用法，與本句語境不同。",
-        "original-mcq-09": "「個性、思想或風格非常獨特的人」是「an original」的用法，與本句語境不同。"
+        "original-mcq-12": "本句的「origin」指「某事物最初開始、產生或來自的來源」。",
+        "original-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-12"
     },
@@ -1228,11 +1132,9 @@ export default {
       "masked": "The artist was French by ____.",
       "options": [
         "original-mcq-13",
-        "original-mcq-12",
-        "original-mcq-14",
-        "original-mcq-11",
-        "original-mcq-15",
-        "original-mcq-10"
+        "original-mcq-03",
+        "original-pdf-002",
+        "original-mcq-06"
       ],
       "explanation": "本句的「origin」指「人或物所來自的地點、族源或背景」。",
       "sentenceIndex": 28,
@@ -1241,12 +1143,10 @@ export default {
         "origin"
       ],
       "optionReasons": {
-        "original-mcq-13": "本句指「人或物所來自的地點、族源或背景」。",
-        "original-mcq-12": "「某事物最初開始、產生或來自的來源」是「origin — source」的用法，與本句語境不同。",
-        "original-mcq-14": "「某事物最初開始、出現或產生」是「originate」的用法，與本句語境不同。",
-        "original-mcq-11": "「在事情開始時；原本／起初」是「originally」的用法，與本句語境不同。",
-        "original-mcq-15": "「最先創造、提出或建立某個想法／方法」是「originate — transitive」的用法，與本句語境不同。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。"
+        "original-mcq-13": "本句的「origin」指「人或物所來自的地點、族源或背景」。",
+        "original-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "original-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-13"
     },
@@ -1258,11 +1158,9 @@ export default {
       "masked": "The museum records the ____ of each object.",
       "options": [
         "original-mcq-13",
-        "original-mcq-12",
-        "original-mcq-14",
+        "original-mcq-07",
         "original-mcq-11",
-        "original-mcq-15",
-        "original-mcq-10"
+        "original-mcq-09"
       ],
       "explanation": "本句的「origin」指「人或物所來自的地點、族源或背景」。",
       "sentenceIndex": 29,
@@ -1271,12 +1169,10 @@ export default {
         "origin"
       ],
       "optionReasons": {
-        "original-mcq-13": "本句指「人或物所來自的地點、族源或背景」。",
-        "original-mcq-12": "「某事物最初開始、產生或來自的來源」是「origin — source」的用法，與本句語境不同。",
-        "original-mcq-14": "「某事物最初開始、出現或產生」是「originate」的用法，與本句語境不同。",
-        "original-mcq-11": "「在事情開始時；原本／起初」是「originally」的用法，與本句語境不同。",
-        "original-mcq-15": "「最先創造、提出或建立某個想法／方法」是「originate — transitive」的用法，與本句語境不同。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。"
+        "original-mcq-13": "本句的「origin」指「人或物所來自的地點、族源或背景」。",
+        "original-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-13"
     },
@@ -1288,11 +1184,9 @@ export default {
       "masked": "The style ____ in France.",
       "options": [
         "original-mcq-14",
+        "original-mcq-03",
         "original-mcq-13",
-        "original-mcq-15",
-        "original-mcq-12",
-        "original-mcq-11",
-        "original-mcq-10"
+        "original-mcq-09"
       ],
       "explanation": "本句的「originated」指「某事物最初開始、出現或產生」。",
       "sentenceIndex": 30,
@@ -1301,12 +1195,10 @@ export default {
         "originated"
       ],
       "optionReasons": {
-        "original-mcq-14": "本句指「某事物最初開始、出現或產生」。",
-        "original-mcq-13": "「人或物所來自的地點、族源或背景」是「origin — background」的用法，與本句語境不同。",
-        "original-mcq-15": "「最先創造、提出或建立某個想法／方法」是「originate — transitive」的用法，與本句語境不同。",
-        "original-mcq-12": "「某事物最初開始、產生或來自的來源」是「origin — source」的用法，與本句語境不同。",
-        "original-mcq-11": "「在事情開始時；原本／起初」是「originally」的用法，與本句語境不同。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。"
+        "original-mcq-14": "本句的「originated」指「某事物最初開始、出現或產生」。",
+        "original-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-14"
     },
@@ -1319,10 +1211,8 @@ export default {
       "options": [
         "original-mcq-14",
         "original-mcq-13",
-        "original-mcq-15",
-        "original-mcq-12",
-        "original-mcq-11",
-        "original-mcq-10"
+        "original-mcq-03",
+        "original-mcq-09"
       ],
       "explanation": "本句的「originated」指「某事物最初開始、出現或產生」。",
       "sentenceIndex": 31,
@@ -1331,12 +1221,10 @@ export default {
         "originated"
       ],
       "optionReasons": {
-        "original-mcq-14": "本句指「某事物最初開始、出現或產生」。",
-        "original-mcq-13": "「人或物所來自的地點、族源或背景」是「origin — background」的用法，與本句語境不同。",
-        "original-mcq-15": "「最先創造、提出或建立某個想法／方法」是「originate — transitive」的用法，與本句語境不同。",
-        "original-mcq-12": "「某事物最初開始、產生或來自的來源」是「origin — source」的用法，與本句語境不同。",
-        "original-mcq-11": "「在事情開始時；原本／起初」是「originally」的用法，與本句語境不同。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。"
+        "original-mcq-14": "本句的「originated」指「某事物最初開始、出現或產生」。",
+        "original-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-mcq-14"
     },
@@ -1348,11 +1236,9 @@ export default {
       "masked": "The artist ____ a new technique.",
       "options": [
         "original-pdf-002",
-        "original-mcq-13",
-        "original-mcq-15",
-        "original-mcq-12",
-        "original-mcq-11",
-        "original-mcq-10"
+        "original-reviewed-720f2204a2",
+        "original-mcq-06",
+        "original-mcq-13"
       ],
       "explanation": "本句的「originated」指「成為某個想法、方法或做法的最初創造者」。",
       "sentenceIndex": 32,
@@ -1361,12 +1247,10 @@ export default {
         "originated"
       ],
       "optionReasons": {
-        "original-pdf-002": "本句指「成為某個想法、方法或做法的最初創造者」。",
-        "original-mcq-13": "「人或物所來自的地點、族源或背景」是「origin — background」的用法，與本句語境不同。",
-        "original-mcq-15": "「最先創造、提出或建立某個想法／方法」是「originate — transitive」的用法，與本句語境不同。",
-        "original-mcq-12": "「某事物最初開始、產生或來自的來源」是「origin — source」的用法，與本句語境不同。",
-        "original-mcq-11": "「在事情開始時；原本／起初」是「originally」的用法，與本句語境不同。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。"
+        "original-pdf-002": "本句的「originated」指「成為某個想法、方法或做法的最初創造者」。",
+        "original-reviewed-720f2204a2": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-pdf-002"
     },
@@ -1378,11 +1262,9 @@ export default {
       "masked": "The concept was ____ by a small research team.",
       "options": [
         "original-pdf-002",
-        "original-mcq-13",
-        "original-mcq-15",
-        "original-mcq-12",
-        "original-mcq-11",
-        "original-mcq-10"
+        "original-mcq-02",
+        "original-mcq-06",
+        "original-mcq-13"
       ],
       "explanation": "本句的「originated」指「成為某個想法、方法或做法的最初創造者」。",
       "sentenceIndex": 33,
@@ -1391,12 +1273,10 @@ export default {
         "originated"
       ],
       "optionReasons": {
-        "original-pdf-002": "本句指「成為某個想法、方法或做法的最初創造者」。",
-        "original-mcq-13": "「人或物所來自的地點、族源或背景」是「origin — background」的用法，與本句語境不同。",
-        "original-mcq-15": "「最先創造、提出或建立某個想法／方法」是「originate — transitive」的用法，與本句語境不同。",
-        "original-mcq-12": "「某事物最初開始、產生或來自的來源」是「origin — source」的用法，與本句語境不同。",
-        "original-mcq-11": "「在事情開始時；原本／起初」是「originally」的用法，與本句語境不同。",
-        "original-mcq-10": "「想法、作品或方法不模仿別人而具有的原創性」是「originality」的用法，與本句語境不同。"
+        "original-pdf-002": "本句的「originated」指「成為某個想法、方法或做法的最初創造者」。",
+        "original-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "original-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "original-pdf-002"
     }
@@ -1408,5 +1288,7 @@ export default {
     "sha256": "8579b17c7874e29ae314748cecabea7381876996656d6b0d989b6ba22ae4bd05",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

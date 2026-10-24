@@ -262,11 +262,9 @@ export default {
       "masked": "The man became ____ when the security officer asked him to leave.",
       "options": [
         "aggressive-mcq-01",
-        "aggressive-mcq-02",
         "aggressive-mcq-03",
-        "aggressive-mcq-04",
         "aggressive-mcq-05",
-        "aggressive-mcq-06"
+        "aggressive-mcq-07"
       ],
       "explanation": "本句的「aggressive」指「帶有敵意、威嚇性或攻擊傾向的」。",
       "sentenceIndex": 0,
@@ -275,12 +273,10 @@ export default {
         "aggressive"
       ],
       "optionReasons": {
-        "aggressive-mcq-01": "本句指「帶有敵意、威嚇性或攻擊傾向的」。",
-        "aggressive-mcq-02": "「以過分強勢、施壓式的方式推銷或說服」與本句語境不同。",
-        "aggressive-mcq-03": "「為達成目標而採取非常積極、進取和強力的做法」與本句語境不同。",
-        "aggressive-mcq-04": "「以快速搶佔市場或取得競爭優勢為目的的強勢策略」與本句語境不同。",
-        "aggressive-mcq-05": "「為追求較高潛在回報而承受較高風險的投資方式」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。"
+        "aggressive-mcq-01": "本句的「aggressive」指「帶有敵意、威嚇性或攻擊傾向的」。",
+        "aggressive-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-01"
     },
@@ -292,11 +288,9 @@ export default {
       "masked": "The dog can become ____ around strangers.",
       "options": [
         "aggressive-mcq-01",
-        "aggressive-mcq-02",
-        "aggressive-mcq-03",
-        "aggressive-mcq-04",
-        "aggressive-mcq-05",
-        "aggressive-mcq-06"
+        "aggressive-mcq-07",
+        "aggressive-mcq-06",
+        "aggressive-mcq-02"
       ],
       "explanation": "本句的「aggressive」指「帶有敵意、威嚇性或攻擊傾向的」。",
       "sentenceIndex": 1,
@@ -305,12 +299,10 @@ export default {
         "aggressive"
       ],
       "optionReasons": {
-        "aggressive-mcq-01": "本句指「帶有敵意、威嚇性或攻擊傾向的」。",
-        "aggressive-mcq-02": "「以過分強勢、施壓式的方式推銷或說服」與本句語境不同。",
-        "aggressive-mcq-03": "「為達成目標而採取非常積極、進取和強力的做法」與本句語境不同。",
-        "aggressive-mcq-04": "「以快速搶佔市場或取得競爭優勢為目的的強勢策略」與本句語境不同。",
-        "aggressive-mcq-05": "「為追求較高潛在回報而承受較高風險的投資方式」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。"
+        "aggressive-mcq-01": "本句的「aggressive」指「帶有敵意、威嚇性或攻擊傾向的」。",
+        "aggressive-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-01"
     },
@@ -322,11 +314,9 @@ export default {
       "masked": "It was not flashy, ____, or full of empty promises.",
       "options": [
         "aggressive-mcq-02",
-        "aggressive-mcq-01",
-        "aggressive-mcq-03",
-        "aggressive-mcq-04",
-        "aggressive-mcq-05",
-        "aggressive-mcq-06"
+        "aggressive-mcq-08",
+        "aggressive-mcq-06",
+        "aggressive-mcq-07"
       ],
       "explanation": "本句的「aggressive」指「以過分強勢、施壓式的方式推銷或說服」。",
       "sentenceIndex": 2,
@@ -335,12 +325,10 @@ export default {
         "aggressive"
       ],
       "optionReasons": {
-        "aggressive-mcq-02": "本句指「以過分強勢、施壓式的方式推銷或說服」。",
-        "aggressive-mcq-01": "「帶有敵意、威嚇性或攻擊傾向的」與本句語境不同。",
-        "aggressive-mcq-03": "「為達成目標而採取非常積極、進取和強力的做法」與本句語境不同。",
-        "aggressive-mcq-04": "「以快速搶佔市場或取得競爭優勢為目的的強勢策略」與本句語境不同。",
-        "aggressive-mcq-05": "「為追求較高潛在回報而承受較高風險的投資方式」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。"
+        "aggressive-mcq-02": "本句的「aggressive」指「以過分強勢、施壓式的方式推銷或說服」。",
+        "aggressive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-02"
     },
@@ -353,10 +341,8 @@ export default {
       "options": [
         "aggressive-mcq-02",
         "aggressive-mcq-01",
-        "aggressive-mcq-03",
-        "aggressive-mcq-04",
         "aggressive-mcq-05",
-        "aggressive-mcq-06"
+        "aggressive-mcq-07"
       ],
       "explanation": "本句的「aggressive」指「以過分強勢、施壓式的方式推銷或說服」。",
       "sentenceIndex": 3,
@@ -365,12 +351,10 @@ export default {
         "aggressive"
       ],
       "optionReasons": {
-        "aggressive-mcq-02": "本句指「以過分強勢、施壓式的方式推銷或說服」。",
-        "aggressive-mcq-01": "「帶有敵意、威嚇性或攻擊傾向的」與本句語境不同。",
-        "aggressive-mcq-03": "「為達成目標而採取非常積極、進取和強力的做法」與本句語境不同。",
-        "aggressive-mcq-04": "「以快速搶佔市場或取得競爭優勢為目的的強勢策略」與本句語境不同。",
-        "aggressive-mcq-05": "「為追求較高潛在回報而承受較高風險的投資方式」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。"
+        "aggressive-mcq-02": "本句的「aggressive」指「以過分強勢、施壓式的方式推銷或說服」。",
+        "aggressive-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-02"
     },
@@ -382,11 +366,9 @@ export default {
       "masked": "The company used an ____ advertising campaign to win new customers.",
       "options": [
         "aggressive-mcq-02",
-        "aggressive-mcq-01",
-        "aggressive-mcq-03",
-        "aggressive-mcq-04",
         "aggressive-mcq-05",
-        "aggressive-mcq-06"
+        "aggressive-mcq-08",
+        "aggressive-mcq-03"
       ],
       "explanation": "本句的「aggressive」指「以過分強勢、施壓式的方式推銷或說服」。",
       "sentenceIndex": 4,
@@ -395,12 +377,10 @@ export default {
         "aggressive"
       ],
       "optionReasons": {
-        "aggressive-mcq-02": "本句指「以過分強勢、施壓式的方式推銷或說服」。",
-        "aggressive-mcq-01": "「帶有敵意、威嚇性或攻擊傾向的」與本句語境不同。",
-        "aggressive-mcq-03": "「為達成目標而採取非常積極、進取和強力的做法」與本句語境不同。",
-        "aggressive-mcq-04": "「以快速搶佔市場或取得競爭優勢為目的的強勢策略」與本句語境不同。",
-        "aggressive-mcq-05": "「為追求較高潛在回報而承受較高風險的投資方式」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。"
+        "aggressive-mcq-02": "本句的「aggressive」指「以過分強勢、施壓式的方式推銷或說服」。",
+        "aggressive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-02"
     },
@@ -412,11 +392,9 @@ export default {
       "masked": "The company adopted an ____ expansion strategy.",
       "options": [
         "aggressive-mcq-03",
-        "aggressive-mcq-02",
-        "aggressive-mcq-04",
-        "aggressive-mcq-01",
         "aggressive-mcq-05",
-        "aggressive-mcq-06"
+        "aggressive-mcq-08",
+        "aggressive-mcq-02"
       ],
       "explanation": "本句的「aggressive」指「為達成目標而採取非常積極、進取和強力的做法」。",
       "sentenceIndex": 5,
@@ -425,12 +403,10 @@ export default {
         "aggressive"
       ],
       "optionReasons": {
-        "aggressive-mcq-03": "本句指「為達成目標而採取非常積極、進取和強力的做法」。",
-        "aggressive-mcq-02": "「以過分強勢、施壓式的方式推銷或說服」與本句語境不同。",
-        "aggressive-mcq-04": "「以快速搶佔市場或取得競爭優勢為目的的強勢策略」與本句語境不同。",
-        "aggressive-mcq-01": "「帶有敵意、威嚇性或攻擊傾向的」與本句語境不同。",
-        "aggressive-mcq-05": "「為追求較高潛在回報而承受較高風險的投資方式」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。"
+        "aggressive-mcq-03": "本句的「aggressive」指「為達成目標而採取非常積極、進取和強力的做法」。",
+        "aggressive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-03"
     },
@@ -442,11 +418,9 @@ export default {
       "masked": "The team took a more ____ approach in the second half.",
       "options": [
         "aggressive-mcq-03",
-        "aggressive-mcq-02",
-        "aggressive-mcq-04",
-        "aggressive-mcq-01",
-        "aggressive-mcq-05",
-        "aggressive-mcq-06"
+        "aggressive-mcq-10",
+        "aggressive-mcq-06",
+        "aggressive-mcq-02"
       ],
       "explanation": "本句的「aggressive」指「為達成目標而採取非常積極、進取和強力的做法」。",
       "sentenceIndex": 6,
@@ -455,12 +429,10 @@ export default {
         "aggressive"
       ],
       "optionReasons": {
-        "aggressive-mcq-03": "本句指「為達成目標而採取非常積極、進取和強力的做法」。",
-        "aggressive-mcq-02": "「以過分強勢、施壓式的方式推銷或說服」與本句語境不同。",
-        "aggressive-mcq-04": "「以快速搶佔市場或取得競爭優勢為目的的強勢策略」與本句語境不同。",
-        "aggressive-mcq-01": "「帶有敵意、威嚇性或攻擊傾向的」與本句語境不同。",
-        "aggressive-mcq-05": "「為追求較高潛在回報而承受較高風險的投資方式」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。"
+        "aggressive-mcq-03": "本句的「aggressive」指「為達成目標而採取非常積極、進取和強力的做法」。",
+        "aggressive-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-03"
     },
@@ -472,11 +444,8 @@ export default {
       "masked": "The airline introduced ____ pricing to attract more passengers.",
       "options": [
         "aggressive-mcq-04",
-        "aggressive-mcq-03",
         "aggressive-mcq-05",
-        "aggressive-mcq-02",
-        "aggressive-mcq-06",
-        "aggressive-mcq-01"
+        "aggressive-mcq-07"
       ],
       "explanation": "本句的「aggressive」指「以快速搶佔市場或取得競爭優勢為目的的強勢策略」。",
       "sentenceIndex": 7,
@@ -485,12 +454,9 @@ export default {
         "aggressive"
       ],
       "optionReasons": {
-        "aggressive-mcq-04": "本句指「以快速搶佔市場或取得競爭優勢為目的的強勢策略」。",
-        "aggressive-mcq-03": "「為達成目標而採取非常積極、進取和強力的做法」與本句語境不同。",
-        "aggressive-mcq-05": "「為追求較高潛在回報而承受較高風險的投資方式」與本句語境不同。",
-        "aggressive-mcq-02": "「以過分強勢、施壓式的方式推銷或說服」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。",
-        "aggressive-mcq-01": "「帶有敵意、威嚇性或攻擊傾向的」與本句語境不同。"
+        "aggressive-mcq-04": "本句的「aggressive」指「以快速搶佔市場或取得競爭優勢為目的的強勢策略」。",
+        "aggressive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-04"
     },
@@ -502,11 +468,8 @@ export default {
       "masked": "The company has set ____ growth targets.",
       "options": [
         "aggressive-mcq-04",
-        "aggressive-mcq-03",
         "aggressive-mcq-05",
-        "aggressive-mcq-02",
-        "aggressive-mcq-06",
-        "aggressive-mcq-01"
+        "aggressive-mcq-07"
       ],
       "explanation": "本句的「aggressive」指「以快速搶佔市場或取得競爭優勢為目的的強勢策略」。",
       "sentenceIndex": 8,
@@ -515,12 +478,9 @@ export default {
         "aggressive"
       ],
       "optionReasons": {
-        "aggressive-mcq-04": "本句指「以快速搶佔市場或取得競爭優勢為目的的強勢策略」。",
-        "aggressive-mcq-03": "「為達成目標而採取非常積極、進取和強力的做法」與本句語境不同。",
-        "aggressive-mcq-05": "「為追求較高潛在回報而承受較高風險的投資方式」與本句語境不同。",
-        "aggressive-mcq-02": "「以過分強勢、施壓式的方式推銷或說服」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。",
-        "aggressive-mcq-01": "「帶有敵意、威嚇性或攻擊傾向的」與本句語境不同。"
+        "aggressive-mcq-04": "本句的「aggressive」指「以快速搶佔市場或取得競爭優勢為目的的強勢策略」。",
+        "aggressive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-04"
     },
@@ -532,11 +492,9 @@ export default {
       "masked": "Younger investors may choose a more ____ investment strategy.",
       "options": [
         "aggressive-mcq-05",
-        "aggressive-mcq-04",
-        "aggressive-mcq-06",
-        "aggressive-mcq-03",
-        "aggressive-mcq-07",
-        "aggressive-mcq-02"
+        "aggressive-mcq-08",
+        "aggressive-mcq-02",
+        "aggressive-mcq-03"
       ],
       "explanation": "本句的「aggressive」指「為追求較高潛在回報而承受較高風險的投資方式」。",
       "sentenceIndex": 9,
@@ -545,12 +503,10 @@ export default {
         "aggressive"
       ],
       "optionReasons": {
-        "aggressive-mcq-05": "本句指「為追求較高潛在回報而承受較高風險的投資方式」。",
-        "aggressive-mcq-04": "「以快速搶佔市場或取得競爭優勢為目的的強勢策略」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。",
-        "aggressive-mcq-03": "「為達成目標而採取非常積極、進取和強力的做法」與本句語境不同。",
-        "aggressive-mcq-07": "「採用較強烈、密集或高強度手段的治療」與本句語境不同。",
-        "aggressive-mcq-02": "「以過分強勢、施壓式的方式推銷或說服」與本句語境不同。"
+        "aggressive-mcq-05": "本句的「aggressive」指「為追求較高潛在回報而承受較高風險的投資方式」。",
+        "aggressive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-05"
     },
@@ -562,10 +518,8 @@ export default {
       "masked": "The fund has an ____ portfolio with a high proportion of growth stocks.",
       "options": [
         "aggressive-mcq-05",
-        "aggressive-mcq-04",
-        "aggressive-mcq-06",
+        "aggressive-mcq-11",
         "aggressive-mcq-03",
-        "aggressive-mcq-07",
         "aggressive-mcq-02"
       ],
       "explanation": "本句的「aggressive」指「為追求較高潛在回報而承受較高風險的投資方式」。",
@@ -575,12 +529,10 @@ export default {
         "aggressive"
       ],
       "optionReasons": {
-        "aggressive-mcq-05": "本句指「為追求較高潛在回報而承受較高風險的投資方式」。",
-        "aggressive-mcq-04": "「以快速搶佔市場或取得競爭優勢為目的的強勢策略」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。",
-        "aggressive-mcq-03": "「為達成目標而採取非常積極、進取和強力的做法」與本句語境不同。",
-        "aggressive-mcq-07": "「採用較強烈、密集或高強度手段的治療」與本句語境不同。",
-        "aggressive-mcq-02": "「以過分強勢、施壓式的方式推銷或說服」與本句語境不同。"
+        "aggressive-mcq-05": "本句的「aggressive」指「為追求較高潛在回報而承受較高風險的投資方式」。",
+        "aggressive-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-05"
     },
@@ -592,11 +544,9 @@ export default {
       "masked": "Doctors discovered an ____ form of cancer.",
       "options": [
         "aggressive-mcq-06",
-        "aggressive-mcq-05",
-        "aggressive-mcq-07",
-        "aggressive-mcq-04",
-        "aggressive-mcq-08",
-        "aggressive-mcq-03"
+        "aggressive-mcq-03",
+        "aggressive-mcq-02",
+        "aggressive-mcq-10"
       ],
       "explanation": "本句的「aggressive」指「發展、惡化或擴散速度很快、病情較兇險的」。",
       "sentenceIndex": 11,
@@ -605,12 +555,10 @@ export default {
         "aggressive"
       ],
       "optionReasons": {
-        "aggressive-mcq-06": "本句指「發展、惡化或擴散速度很快、病情較兇險的」。",
-        "aggressive-mcq-05": "「為追求較高潛在回報而承受較高風險的投資方式」與本句語境不同。",
-        "aggressive-mcq-07": "「採用較強烈、密集或高強度手段的治療」與本句語境不同。",
-        "aggressive-mcq-04": "「以快速搶佔市場或取得競爭優勢為目的的強勢策略」與本句語境不同。",
-        "aggressive-mcq-08": "「以敵意、威嚇或攻擊性的方式行事」與本句語境不同。",
-        "aggressive-mcq-03": "「為達成目標而採取非常積極、進取和強力的做法」與本句語境不同。"
+        "aggressive-mcq-06": "本句的「aggressive」指「發展、惡化或擴散速度很快、病情較兇險的」。",
+        "aggressive-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-06"
     },
@@ -622,10 +570,8 @@ export default {
       "masked": "The disease can be particularly ____ in younger patients.",
       "options": [
         "aggressive-mcq-06",
-        "aggressive-mcq-05",
-        "aggressive-mcq-07",
-        "aggressive-mcq-04",
-        "aggressive-mcq-08",
+        "aggressive-mcq-10",
+        "aggressive-mcq-02",
         "aggressive-mcq-03"
       ],
       "explanation": "本句的「aggressive」指「發展、惡化或擴散速度很快、病情較兇險的」。",
@@ -635,12 +581,10 @@ export default {
         "aggressive"
       ],
       "optionReasons": {
-        "aggressive-mcq-06": "本句指「發展、惡化或擴散速度很快、病情較兇險的」。",
-        "aggressive-mcq-05": "「為追求較高潛在回報而承受較高風險的投資方式」與本句語境不同。",
-        "aggressive-mcq-07": "「採用較強烈、密集或高強度手段的治療」與本句語境不同。",
-        "aggressive-mcq-04": "「以快速搶佔市場或取得競爭優勢為目的的強勢策略」與本句語境不同。",
-        "aggressive-mcq-08": "「以敵意、威嚇或攻擊性的方式行事」與本句語境不同。",
-        "aggressive-mcq-03": "「為達成目標而採取非常積極、進取和強力的做法」與本句語境不同。"
+        "aggressive-mcq-06": "本句的「aggressive」指「發展、惡化或擴散速度很快、病情較兇險的」。",
+        "aggressive-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-06"
     },
@@ -652,11 +596,9 @@ export default {
       "masked": "The doctors recommended ____ treatment.",
       "options": [
         "aggressive-mcq-07",
-        "aggressive-mcq-06",
-        "aggressive-mcq-08",
-        "aggressive-mcq-05",
+        "aggressive-mcq-10",
         "aggressive-mcq-09",
-        "aggressive-mcq-04"
+        "aggressive-mcq-02"
       ],
       "explanation": "本句的「aggressive」指「採用較強烈、密集或高強度手段的治療」。",
       "sentenceIndex": 13,
@@ -665,12 +607,10 @@ export default {
         "aggressive"
       ],
       "optionReasons": {
-        "aggressive-mcq-07": "本句指「採用較強烈、密集或高強度手段的治療」。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。",
-        "aggressive-mcq-08": "「以敵意、威嚇或攻擊性的方式行事」與本句語境不同。",
-        "aggressive-mcq-05": "「為追求較高潛在回報而承受較高風險的投資方式」與本句語境不同。",
-        "aggressive-mcq-09": "「以非常積極、進取和強力的方式追求目標」與本句語境不同。",
-        "aggressive-mcq-04": "「以快速搶佔市場或取得競爭優勢為目的的強勢策略」與本句語境不同。"
+        "aggressive-mcq-07": "本句的「aggressive」指「採用較強烈、密集或高強度手段的治療」。",
+        "aggressive-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-07"
     },
@@ -682,11 +622,9 @@ export default {
       "masked": "Early ____ therapy helped control the condition.",
       "options": [
         "aggressive-mcq-07",
-        "aggressive-mcq-06",
-        "aggressive-mcq-08",
-        "aggressive-mcq-05",
-        "aggressive-mcq-09",
-        "aggressive-mcq-04"
+        "aggressive-mcq-10",
+        "aggressive-mcq-02",
+        "aggressive-mcq-09"
       ],
       "explanation": "本句的「aggressive」指「採用較強烈、密集或高強度手段的治療」。",
       "sentenceIndex": 14,
@@ -695,12 +633,10 @@ export default {
         "aggressive"
       ],
       "optionReasons": {
-        "aggressive-mcq-07": "本句指「採用較強烈、密集或高強度手段的治療」。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。",
-        "aggressive-mcq-08": "「以敵意、威嚇或攻擊性的方式行事」與本句語境不同。",
-        "aggressive-mcq-05": "「為追求較高潛在回報而承受較高風險的投資方式」與本句語境不同。",
-        "aggressive-mcq-09": "「以非常積極、進取和強力的方式追求目標」與本句語境不同。",
-        "aggressive-mcq-04": "「以快速搶佔市場或取得競爭優勢為目的的強勢策略」與本句語境不同。"
+        "aggressive-mcq-07": "本句的「aggressive」指「採用較強烈、密集或高強度手段的治療」。",
+        "aggressive-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-07"
     },
@@ -712,11 +648,9 @@ export default {
       "masked": "He spoke ____ to the receptionist.",
       "options": [
         "aggressive-mcq-08",
-        "aggressive-mcq-07",
-        "aggressive-mcq-09",
-        "aggressive-mcq-06",
-        "aggressive-mcq-10",
-        "aggressive-mcq-05"
+        "aggressive-mcq-03",
+        "aggressive-mcq-05",
+        "aggressive-mcq-02"
       ],
       "explanation": "本句的「aggressively」指「以敵意、威嚇或攻擊性的方式行事」。",
       "sentenceIndex": 15,
@@ -725,12 +659,10 @@ export default {
         "aggressively"
       ],
       "optionReasons": {
-        "aggressive-mcq-08": "本句指「以敵意、威嚇或攻擊性的方式行事」。",
-        "aggressive-mcq-07": "「採用較強烈、密集或高強度手段的治療」與本句語境不同。",
-        "aggressive-mcq-09": "「以非常積極、進取和強力的方式追求目標」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。",
-        "aggressive-mcq-10": "「對他人的敵意、威嚇或攻擊性行為」與本句語境不同。",
-        "aggressive-mcq-05": "「為追求較高潛在回報而承受較高風險的投資方式」與本句語境不同。"
+        "aggressive-mcq-08": "本句的「aggressively」指「以敵意、威嚇或攻擊性的方式行事」。",
+        "aggressive-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-08"
     },
@@ -742,11 +674,9 @@ export default {
       "masked": "The dog behaved ____ toward visitors.",
       "options": [
         "aggressive-mcq-08",
-        "aggressive-mcq-07",
-        "aggressive-mcq-09",
-        "aggressive-mcq-06",
-        "aggressive-mcq-10",
-        "aggressive-mcq-05"
+        "aggressive-mcq-05",
+        "aggressive-mcq-02",
+        "aggressive-mcq-07"
       ],
       "explanation": "本句的「aggressively」指「以敵意、威嚇或攻擊性的方式行事」。",
       "sentenceIndex": 16,
@@ -755,12 +685,10 @@ export default {
         "aggressively"
       ],
       "optionReasons": {
-        "aggressive-mcq-08": "本句指「以敵意、威嚇或攻擊性的方式行事」。",
-        "aggressive-mcq-07": "「採用較強烈、密集或高強度手段的治療」與本句語境不同。",
-        "aggressive-mcq-09": "「以非常積極、進取和強力的方式追求目標」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。",
-        "aggressive-mcq-10": "「對他人的敵意、威嚇或攻擊性行為」與本句語境不同。",
-        "aggressive-mcq-05": "「為追求較高潛在回報而承受較高風險的投資方式」與本句語境不同。"
+        "aggressive-mcq-08": "本句的「aggressively」指「以敵意、威嚇或攻擊性的方式行事」。",
+        "aggressive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-08"
     },
@@ -772,11 +700,9 @@ export default {
       "masked": "The company is expanding ____ overseas.",
       "options": [
         "aggressive-mcq-09",
-        "aggressive-mcq-08",
-        "aggressive-mcq-10",
-        "aggressive-mcq-07",
-        "aggressive-mcq-11",
-        "aggressive-mcq-06"
+        "aggressive-mcq-01",
+        "aggressive-mcq-06",
+        "aggressive-mcq-07"
       ],
       "explanation": "本句的「aggressively」指「以非常積極、進取和強力的方式追求目標」。",
       "sentenceIndex": 17,
@@ -785,12 +711,10 @@ export default {
         "aggressively"
       ],
       "optionReasons": {
-        "aggressive-mcq-09": "本句指「以非常積極、進取和強力的方式追求目標」。",
-        "aggressive-mcq-08": "「以敵意、威嚇或攻擊性的方式行事」與本句語境不同。",
-        "aggressive-mcq-10": "「對他人的敵意、威嚇或攻擊性行為」與本句語境不同。",
-        "aggressive-mcq-07": "「採用較強烈、密集或高強度手段的治療」與本句語境不同。",
-        "aggressive-mcq-11": "「對另一國家或群體發動的武力侵略／攻擊行為」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。"
+        "aggressive-mcq-09": "本句的「aggressively」指「以非常積極、進取和強力的方式追求目標」。",
+        "aggressive-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-09"
     },
@@ -802,11 +726,9 @@ export default {
       "masked": "The brand priced its products ____.",
       "options": [
         "aggressive-mcq-09",
-        "aggressive-mcq-08",
-        "aggressive-mcq-10",
-        "aggressive-mcq-07",
-        "aggressive-mcq-11",
-        "aggressive-mcq-06"
+        "aggressive-mcq-01",
+        "aggressive-mcq-06",
+        "aggressive-mcq-02"
       ],
       "explanation": "本句的「aggressively」指「以非常積極、進取和強力的方式追求目標」。",
       "sentenceIndex": 18,
@@ -815,12 +737,10 @@ export default {
         "aggressively"
       ],
       "optionReasons": {
-        "aggressive-mcq-09": "本句指「以非常積極、進取和強力的方式追求目標」。",
-        "aggressive-mcq-08": "「以敵意、威嚇或攻擊性的方式行事」與本句語境不同。",
-        "aggressive-mcq-10": "「對他人的敵意、威嚇或攻擊性行為」與本句語境不同。",
-        "aggressive-mcq-07": "「採用較強烈、密集或高強度手段的治療」與本句語境不同。",
-        "aggressive-mcq-11": "「對另一國家或群體發動的武力侵略／攻擊行為」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。"
+        "aggressive-mcq-09": "本句的「aggressively」指「以非常積極、進取和強力的方式追求目標」。",
+        "aggressive-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-09"
     },
@@ -832,11 +752,9 @@ export default {
       "masked": "The staff received training on how to deal with customer ____.",
       "options": [
         "aggressive-mcq-10",
+        "aggressive-mcq-02",
         "aggressive-mcq-09",
-        "aggressive-mcq-11",
-        "aggressive-mcq-08",
-        "aggressive-mcq-07",
-        "aggressive-mcq-06"
+        "aggressive-mcq-07"
       ],
       "explanation": "本句的「aggression」指「對他人的敵意、威嚇或攻擊性行為」。",
       "sentenceIndex": 19,
@@ -845,12 +763,10 @@ export default {
         "aggression"
       ],
       "optionReasons": {
-        "aggressive-mcq-10": "本句指「對他人的敵意、威嚇或攻擊性行為」。",
-        "aggressive-mcq-09": "「以非常積極、進取和強力的方式追求目標」與本句語境不同。",
-        "aggressive-mcq-11": "「對另一國家或群體發動的武力侵略／攻擊行為」與本句語境不同。",
-        "aggressive-mcq-08": "「以敵意、威嚇或攻擊性的方式行事」與本句語境不同。",
-        "aggressive-mcq-07": "「採用較強烈、密集或高強度手段的治療」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。"
+        "aggressive-mcq-10": "本句的「aggression」指「對他人的敵意、威嚇或攻擊性行為」。",
+        "aggressive-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-10"
     },
@@ -862,9 +778,7 @@ export default {
       "masked": "There was no physical ____ during the argument.",
       "options": [
         "aggressive-mcq-10",
-        "aggressive-mcq-09",
-        "aggressive-mcq-11",
-        "aggressive-mcq-08",
+        "aggressive-mcq-03",
         "aggressive-mcq-07",
         "aggressive-mcq-06"
       ],
@@ -875,12 +789,10 @@ export default {
         "aggression"
       ],
       "optionReasons": {
-        "aggressive-mcq-10": "本句指「對他人的敵意、威嚇或攻擊性行為」。",
-        "aggressive-mcq-09": "「以非常積極、進取和強力的方式追求目標」與本句語境不同。",
-        "aggressive-mcq-11": "「對另一國家或群體發動的武力侵略／攻擊行為」與本句語境不同。",
-        "aggressive-mcq-08": "「以敵意、威嚇或攻擊性的方式行事」與本句語境不同。",
-        "aggressive-mcq-07": "「採用較強烈、密集或高強度手段的治療」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。"
+        "aggressive-mcq-10": "本句的「aggression」指「對他人的敵意、威嚇或攻擊性行為」。",
+        "aggressive-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-10"
     },
@@ -892,11 +804,9 @@ export default {
       "masked": "The agreement was intended to discourage military ____.",
       "options": [
         "aggressive-mcq-11",
-        "aggressive-mcq-10",
-        "aggressive-mcq-09",
-        "aggressive-mcq-08",
-        "aggressive-mcq-07",
-        "aggressive-mcq-06"
+        "aggressive-mcq-02",
+        "aggressive-mcq-05",
+        "aggressive-mcq-07"
       ],
       "explanation": "本句的「aggression」指「對另一國家或群體發動的武力侵略／攻擊行為」。",
       "sentenceIndex": 21,
@@ -905,12 +815,10 @@ export default {
         "aggression"
       ],
       "optionReasons": {
-        "aggressive-mcq-11": "本句指「對另一國家或群體發動的武力侵略／攻擊行為」。",
-        "aggressive-mcq-10": "「對他人的敵意、威嚇或攻擊性行為」與本句語境不同。",
-        "aggressive-mcq-09": "「以非常積極、進取和強力的方式追求目標」與本句語境不同。",
-        "aggressive-mcq-08": "「以敵意、威嚇或攻擊性的方式行事」與本句語境不同。",
-        "aggressive-mcq-07": "「採用較強烈、密集或高強度手段的治療」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。"
+        "aggressive-mcq-11": "本句的「aggression」指「對另一國家或群體發動的武力侵略／攻擊行為」。",
+        "aggressive-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-11"
     },
@@ -922,11 +830,9 @@ export default {
       "masked": "The country condemned the act of ____.",
       "options": [
         "aggressive-mcq-11",
-        "aggressive-mcq-10",
-        "aggressive-mcq-09",
-        "aggressive-mcq-08",
+        "aggressive-mcq-02",
         "aggressive-mcq-07",
-        "aggressive-mcq-06"
+        "aggressive-mcq-05"
       ],
       "explanation": "本句的「aggression」指「對另一國家或群體發動的武力侵略／攻擊行為」。",
       "sentenceIndex": 22,
@@ -935,12 +841,10 @@ export default {
         "aggression"
       ],
       "optionReasons": {
-        "aggressive-mcq-11": "本句指「對另一國家或群體發動的武力侵略／攻擊行為」。",
-        "aggressive-mcq-10": "「對他人的敵意、威嚇或攻擊性行為」與本句語境不同。",
-        "aggressive-mcq-09": "「以非常積極、進取和強力的方式追求目標」與本句語境不同。",
-        "aggressive-mcq-08": "「以敵意、威嚇或攻擊性的方式行事」與本句語境不同。",
-        "aggressive-mcq-07": "「採用較強烈、密集或高強度手段的治療」與本句語境不同。",
-        "aggressive-mcq-06": "「發展、惡化或擴散速度很快、病情較兇險的」與本句語境不同。"
+        "aggressive-mcq-11": "本句的「aggression」指「對另一國家或群體發動的武力侵略／攻擊行為」。",
+        "aggressive-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "aggressive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aggressive-mcq-11"
     }
@@ -952,5 +856,7 @@ export default {
     "sha256": "49fcb5fbee45d1674f7b573e67f82bff00b4547a70b2462074834b5759f56c8c",
     "pages": 8
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

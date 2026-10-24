@@ -232,7 +232,7 @@ export default {
     },
     {
       "id": "wild-mcq-11",
-      "title": "表示瘋狂起來；極度興奮",
+      "title": "瘋狂起來；極度興奮",
       "form": "Useful expression: go wild — 瘋狂起來；極度興奮",
       "en": "Useful expression: go wild — 瘋狂起來；極度興奮",
       "zh": "表示瘋狂起來；極度興奮",
@@ -254,7 +254,7 @@ export default {
     },
     {
       "id": "wild-mcq-12",
-      "title": "表示瞎猜",
+      "title": "瞎猜",
       "form": "Useful expression: wild guess — 瞎猜",
       "en": "Useful expression: wild guess — 瞎猜",
       "zh": "表示瞎猜",
@@ -301,11 +301,9 @@ export default {
       "masked": "We saw several ____ animals near the forest.",
       "options": [
         "wild-mcq-01",
-        "wild-mcq-02",
-        "wild-mcq-03",
+        "wild-mcq-12",
         "wild-mcq-04",
-        "wild-mcq-05",
-        "wild-mcq-06"
+        "wild-mcq-11"
       ],
       "explanation": "本句的「wild」指「沒有人類馴養、栽培或控制，而在自然環境中生活／生長的；野生的」。",
       "sentenceIndex": 0,
@@ -314,12 +312,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-01": "本句指「沒有人類馴養、栽培或控制，而在自然環境中生活／生長的；野生的」。",
-        "wild-mcq-02": "「動物在自然環境中自由生活、不受人類圈養或控制的地方；野外」是「the wild」的用法，與本句語境不同。",
-        "wild-mcq-03": "「行為、動作、情況或天氣猛烈、混亂、不受控制的」是「wild — uncontrolled」的用法，與本句語境不同。",
-        "wild-mcq-04": "「情緒或熱情極其強烈、近乎狂熱的」是「wild — extremely excited/enthusiastic」的用法，與本句語境不同。",
-        "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。"
+        "wild-mcq-01": "本句的「wild」指「沒有人類馴養、栽培或控制，而在自然環境中生活／生長的；野生的」。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-01"
     },
@@ -331,11 +327,9 @@ export default {
       "masked": "These flowers grow ____ in the mountains.",
       "options": [
         "wild-mcq-01",
-        "wild-mcq-02",
-        "wild-mcq-03",
         "wild-mcq-04",
-        "wild-mcq-05",
-        "wild-mcq-06"
+        "wild-mcq-11",
+        "wild-mcq-12"
       ],
       "explanation": "本句的「wild」指「沒有人類馴養、栽培或控制，而在自然環境中生活／生長的；野生的」。",
       "sentenceIndex": 1,
@@ -344,12 +338,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-01": "本句指「沒有人類馴養、栽培或控制，而在自然環境中生活／生長的；野生的」。",
-        "wild-mcq-02": "「動物在自然環境中自由生活、不受人類圈養或控制的地方；野外」是「the wild」的用法，與本句語境不同。",
-        "wild-mcq-03": "「行為、動作、情況或天氣猛烈、混亂、不受控制的」是「wild — uncontrolled」的用法，與本句語境不同。",
-        "wild-mcq-04": "「情緒或熱情極其強烈、近乎狂熱的」是「wild — extremely excited/enthusiastic」的用法，與本句語境不同。",
-        "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。"
+        "wild-mcq-01": "本句的「wild」指「沒有人類馴養、栽培或控制，而在自然環境中生活／生長的；野生的」。",
+        "wild-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-01"
     },
@@ -361,11 +353,9 @@ export default {
       "masked": "I would love to see a sea turtle again, this time in the ____.",
       "options": [
         "wild-mcq-02",
-        "wild-mcq-01",
-        "wild-mcq-03",
-        "wild-mcq-04",
-        "wild-mcq-05",
-        "wild-mcq-06"
+        "wild-mcq-12",
+        "wild-mcq-11",
+        "wild-mcq-05"
       ],
       "explanation": "本句的「wild」指「動物在自然環境中自由生活、不受人類圈養或控制的地方；野外」。",
       "sentenceIndex": 2,
@@ -374,12 +364,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-02": "本句指「動物在自然環境中自由生活、不受人類圈養或控制的地方；野外」。",
-        "wild-mcq-01": "「沒有人類馴養、栽培或控制，而在自然環境中生活／生長的；野生的」是「wild — animal/plant」的用法，與本句語境不同。",
-        "wild-mcq-03": "「行為、動作、情況或天氣猛烈、混亂、不受控制的」是「wild — uncontrolled」的用法，與本句語境不同。",
-        "wild-mcq-04": "「情緒或熱情極其強烈、近乎狂熱的」是「wild — extremely excited/enthusiastic」的用法，與本句語境不同。",
-        "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。"
+        "wild-mcq-02": "本句的「wild」指「動物在自然環境中自由生活、不受人類圈養或控制的地方；野外」。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-02"
     },
@@ -391,11 +379,9 @@ export default {
       "masked": "The animals were released back into the ____.",
       "options": [
         "wild-mcq-02",
-        "wild-mcq-01",
-        "wild-mcq-03",
-        "wild-mcq-04",
+        "wild-mcq-12",
         "wild-mcq-05",
-        "wild-mcq-06"
+        "wild-mcq-04"
       ],
       "explanation": "本句的「wild」指「動物在自然環境中自由生活、不受人類圈養或控制的地方；野外」。",
       "sentenceIndex": 3,
@@ -404,12 +390,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-02": "本句指「動物在自然環境中自由生活、不受人類圈養或控制的地方；野外」。",
-        "wild-mcq-01": "「沒有人類馴養、栽培或控制，而在自然環境中生活／生長的；野生的」是「wild — animal/plant」的用法，與本句語境不同。",
-        "wild-mcq-03": "「行為、動作、情況或天氣猛烈、混亂、不受控制的」是「wild — uncontrolled」的用法，與本句語境不同。",
-        "wild-mcq-04": "「情緒或熱情極其強烈、近乎狂熱的」是「wild — extremely excited/enthusiastic」的用法，與本句語境不同。",
-        "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。"
+        "wild-mcq-02": "本句的「wild」指「動物在自然環境中自由生活、不受人類圈養或控制的地方；野外」。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-02"
     },
@@ -421,11 +405,9 @@ export default {
       "masked": "Very few of these animals remain in the ____.",
       "options": [
         "wild-mcq-02",
-        "wild-mcq-01",
-        "wild-mcq-03",
-        "wild-mcq-04",
-        "wild-mcq-05",
-        "wild-mcq-06"
+        "wild-mcq-12",
+        "wild-mcq-11",
+        "wild-mcq-04"
       ],
       "explanation": "本句的「wild」指「動物在自然環境中自由生活、不受人類圈養或控制的地方；野外」。",
       "sentenceIndex": 4,
@@ -434,12 +416,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-02": "本句指「動物在自然環境中自由生活、不受人類圈養或控制的地方；野外」。",
-        "wild-mcq-01": "「沒有人類馴養、栽培或控制，而在自然環境中生活／生長的；野生的」是「wild — animal/plant」的用法，與本句語境不同。",
-        "wild-mcq-03": "「行為、動作、情況或天氣猛烈、混亂、不受控制的」是「wild — uncontrolled」的用法，與本句語境不同。",
-        "wild-mcq-04": "「情緒或熱情極其強烈、近乎狂熱的」是「wild — extremely excited/enthusiastic」的用法，與本句語境不同。",
-        "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。"
+        "wild-mcq-02": "本句的「wild」指「動物在自然環境中自由生活、不受人類圈養或控制的地方；野外」。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-02"
     },
@@ -451,11 +431,9 @@ export default {
       "masked": "The celebration became ____.",
       "options": [
         "wild-mcq-03",
-        "wild-mcq-02",
-        "wild-mcq-04",
-        "wild-mcq-01",
         "wild-mcq-05",
-        "wild-mcq-06"
+        "wild-mcq-12",
+        "wild-mcq-11"
       ],
       "explanation": "本句的「wild」指「行為、動作、情況或天氣猛烈、混亂、不受控制的」。",
       "sentenceIndex": 5,
@@ -464,12 +442,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-03": "本句指「行為、動作、情況或天氣猛烈、混亂、不受控制的」。",
-        "wild-mcq-02": "「動物在自然環境中自由生活、不受人類圈養或控制的地方；野外」是「the wild」的用法，與本句語境不同。",
-        "wild-mcq-04": "「情緒或熱情極其強烈、近乎狂熱的」是「wild — extremely excited/enthusiastic」的用法，與本句語境不同。",
-        "wild-mcq-01": "「沒有人類馴養、栽培或控制，而在自然環境中生活／生長的；野生的」是「wild — animal/plant」的用法，與本句語境不同。",
-        "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。"
+        "wild-mcq-03": "本句的「wild」指「行為、動作、情況或天氣猛烈、混亂、不受控制的」。",
+        "wild-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-03"
     },
@@ -481,11 +457,9 @@ export default {
       "masked": "The horse became ____ with fear.",
       "options": [
         "wild-mcq-03",
-        "wild-mcq-02",
-        "wild-mcq-04",
-        "wild-mcq-01",
+        "wild-mcq-12",
         "wild-mcq-05",
-        "wild-mcq-06"
+        "wild-mcq-11"
       ],
       "explanation": "本句的「wild」指「行為、動作、情況或天氣猛烈、混亂、不受控制的」。",
       "sentenceIndex": 6,
@@ -494,12 +468,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-03": "本句指「行為、動作、情況或天氣猛烈、混亂、不受控制的」。",
-        "wild-mcq-02": "「動物在自然環境中自由生活、不受人類圈養或控制的地方；野外」是「the wild」的用法，與本句語境不同。",
-        "wild-mcq-04": "「情緒或熱情極其強烈、近乎狂熱的」是「wild — extremely excited/enthusiastic」的用法，與本句語境不同。",
-        "wild-mcq-01": "「沒有人類馴養、栽培或控制，而在自然環境中生活／生長的；野生的」是「wild — animal/plant」的用法，與本句語境不同。",
-        "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。"
+        "wild-mcq-03": "本句的「wild」指「行為、動作、情況或天氣猛烈、混亂、不受控制的」。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-03"
     },
@@ -511,11 +483,9 @@ export default {
       "masked": "The audience went ____ when the band appeared.",
       "options": [
         "wild-mcq-04",
-        "wild-mcq-03",
-        "wild-mcq-05",
         "wild-mcq-02",
-        "wild-mcq-06",
-        "wild-mcq-01"
+        "wild-mcq-12",
+        "wild-mcq-05"
       ],
       "explanation": "本句的「wild」指「情緒或熱情極其強烈、近乎狂熱的」。",
       "sentenceIndex": 7,
@@ -524,12 +494,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-04": "本句指「情緒或熱情極其強烈、近乎狂熱的」。",
-        "wild-mcq-03": "「行為、動作、情況或天氣猛烈、混亂、不受控制的」是「wild — uncontrolled」的用法，與本句語境不同。",
-        "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。",
-        "wild-mcq-02": "「動物在自然環境中自由生活、不受人類圈養或控制的地方；野外」是「the wild」的用法，與本句語境不同。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。",
-        "wild-mcq-01": "「沒有人類馴養、栽培或控制，而在自然環境中生活／生長的；野生的」是「wild — animal/plant」的用法，與本句語境不同。"
+        "wild-mcq-04": "本句的「wild」指「情緒或熱情極其強烈、近乎狂熱的」。",
+        "wild-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-04"
     },
@@ -541,11 +509,9 @@ export default {
       "masked": "She is ____ that singer.",
       "options": [
         "wild-mcq-04",
-        "wild-mcq-03",
-        "wild-mcq-05",
-        "wild-mcq-02",
-        "wild-mcq-06",
-        "wild-mcq-01"
+        "wild-mcq-01",
+        "wild-mcq-12",
+        "wild-mcq-11"
       ],
       "explanation": "本句的「wild about」指「情緒或熱情極其強烈、近乎狂熱的」。",
       "sentenceIndex": 8,
@@ -554,12 +520,10 @@ export default {
         "wild about"
       ],
       "optionReasons": {
-        "wild-mcq-04": "本句指「情緒或熱情極其強烈、近乎狂熱的」。",
-        "wild-mcq-03": "「行為、動作、情況或天氣猛烈、混亂、不受控制的」是「wild — uncontrolled」的用法，與本句語境不同。",
-        "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。",
-        "wild-mcq-02": "「動物在自然環境中自由生活、不受人類圈養或控制的地方；野外」是「the wild」的用法，與本句語境不同。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。",
-        "wild-mcq-01": "「沒有人類馴養、栽培或控制，而在自然環境中生活／生長的；野生的」是「wild — animal/plant」的用法，與本句語境不同。"
+        "wild-mcq-04": "本句的「wild about」指「情緒或熱情極其強烈、近乎狂熱的」。",
+        "wild-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-04"
     },
@@ -571,11 +535,9 @@ export default {
       "masked": "That is just a ____ guess.",
       "options": [
         "wild-mcq-05",
+        "wild-mcq-09",
         "wild-mcq-04",
-        "wild-mcq-06",
-        "wild-mcq-03",
-        "wild-mcq-07",
-        "wild-mcq-02"
+        "wild-mcq-11"
       ],
       "explanation": "本句的「wild」指「缺乏充分根據、非常大膽、離奇或不太合理的」。",
       "sentenceIndex": 9,
@@ -584,12 +546,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-05": "本句指「缺乏充分根據、非常大膽、離奇或不太合理的」。",
-        "wild-mcq-04": "「情緒或熱情極其強烈、近乎狂熱的」是「wild — extremely excited/enthusiastic」的用法，與本句語境不同。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。",
-        "wild-mcq-03": "「行為、動作、情況或天氣猛烈、混亂、不受控制的」是「wild — uncontrolled」的用法，與本句語境不同。",
-        "wild-mcq-07": "「失控地、猛烈地；亦可表示極其、非常」是「wildly」的用法，與本句語境不同。",
-        "wild-mcq-02": "「動物在自然環境中自由生活、不受人類圈養或控制的地方；野外」是「the wild」的用法，與本句語境不同。"
+        "wild-mcq-05": "本句的「wild」指「缺乏充分根據、非常大膽、離奇或不太合理的」。",
+        "wild-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-05"
     },
@@ -601,11 +561,9 @@ export default {
       "masked": "He came up with a ____ idea.",
       "options": [
         "wild-mcq-05",
-        "wild-mcq-04",
-        "wild-mcq-06",
-        "wild-mcq-03",
-        "wild-mcq-07",
-        "wild-mcq-02"
+        "wild-mcq-08",
+        "wild-mcq-12",
+        "wild-mcq-04"
       ],
       "explanation": "本句的「wild」指「缺乏充分根據、非常大膽、離奇或不太合理的」。",
       "sentenceIndex": 10,
@@ -614,12 +572,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-05": "本句指「缺乏充分根據、非常大膽、離奇或不太合理的」。",
-        "wild-mcq-04": "「情緒或熱情極其強烈、近乎狂熱的」是「wild — extremely excited/enthusiastic」的用法，與本句語境不同。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。",
-        "wild-mcq-03": "「行為、動作、情況或天氣猛烈、混亂、不受控制的」是「wild — uncontrolled」的用法，與本句語境不同。",
-        "wild-mcq-07": "「失控地、猛烈地；亦可表示極其、非常」是「wildly」的用法，與本句語境不同。",
-        "wild-mcq-02": "「動物在自然環境中自由生活、不受人類圈養或控制的地方；野外」是「the wild」的用法，與本句語境不同。"
+        "wild-mcq-05": "本句的「wild」指「缺乏充分根據、非常大膽、離奇或不太合理的」。",
+        "wild-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-05"
     },
@@ -631,11 +587,9 @@ export default {
       "masked": "His hair was ____ after the swim.",
       "options": [
         "wild-mcq-06",
-        "wild-mcq-05",
-        "wild-mcq-07",
+        "wild-mcq-12",
         "wild-mcq-04",
-        "wild-mcq-08",
-        "wild-mcq-03"
+        "wild-mcq-09"
       ],
       "explanation": "本句的「wild」指「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」。",
       "sentenceIndex": 11,
@@ -644,12 +598,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-06": "本句指「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」。",
-        "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。",
-        "wild-mcq-07": "「失控地、猛烈地；亦可表示極其、非常」是「wildly」的用法，與本句語境不同。",
-        "wild-mcq-04": "「情緒或熱情極其強烈、近乎狂熱的」是「wild — extremely excited/enthusiastic」的用法，與本句語境不同。",
-        "wild-mcq-08": "「野生、原始、狂野或不受控制的性質」是「wildness」的用法，與本句語境不同。",
-        "wild-mcq-03": "「行為、動作、情況或天氣猛烈、混亂、不受控制的」是「wild — uncontrolled」的用法，與本句語境不同。"
+        "wild-mcq-06": "本句的「wild」指「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-06"
     },
@@ -661,11 +613,9 @@ export default {
       "masked": "The coastline has a ____ beauty.",
       "options": [
         "wild-mcq-06",
-        "wild-mcq-05",
-        "wild-mcq-07",
-        "wild-mcq-04",
-        "wild-mcq-08",
-        "wild-mcq-03"
+        "wild-mcq-09",
+        "wild-mcq-11",
+        "wild-mcq-12"
       ],
       "explanation": "本句的「wild」指「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」。",
       "sentenceIndex": 12,
@@ -674,12 +624,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-06": "本句指「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」。",
-        "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。",
-        "wild-mcq-07": "「失控地、猛烈地；亦可表示極其、非常」是「wildly」的用法，與本句語境不同。",
-        "wild-mcq-04": "「情緒或熱情極其強烈、近乎狂熱的」是「wild — extremely excited/enthusiastic」的用法，與本句語境不同。",
-        "wild-mcq-08": "「野生、原始、狂野或不受控制的性質」是「wildness」的用法，與本句語境不同。",
-        "wild-mcq-03": "「行為、動作、情況或天氣猛烈、混亂、不受控制的」是「wild — uncontrolled」的用法，與本句語境不同。"
+        "wild-mcq-06": "本句的「wild」指「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」。",
+        "wild-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-06"
     },
@@ -691,11 +639,9 @@ export default {
       "masked": "They crossed a ____ mountain region.",
       "options": [
         "wild-pdf-001",
-        "wild-mcq-07",
-        "wild-mcq-09",
-        "wild-mcq-06",
-        "wild-mcq-10",
-        "wild-mcq-05"
+        "wild-mcq-12",
+        "wild-mcq-11",
+        "wild-mcq-04"
       ],
       "explanation": "本句的「wild」指「未經大量人類開發、管理或控制，仍保留原始自然狀態的」。",
       "sentenceIndex": 13,
@@ -704,12 +650,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-pdf-001": "本句指「未經大量人類開發、管理或控制，仍保留原始自然狀態的」。",
-        "wild-mcq-07": "「失控地、猛烈地；亦可表示極其、非常」是「wildly」的用法，與本句語境不同。",
-        "wild-mcq-09": "「在自然環境中生活的野生生物／野生動物」是「wildlife」的用法，與本句語境不同。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。",
-        "wild-mcq-10": "「天氣、風浪等非常猛烈、不穩定、難以控制的」是「8. wild = violent / stormy / rough weather or sea（天氣／海況） — 狂暴的；猛烈的」的用法，與本句語境不同。",
-        "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。"
+        "wild-pdf-001": "本句的「wild」指「未經大量人類開發、管理或控制，仍保留原始自然狀態的」。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-pdf-001"
     },
@@ -721,11 +665,9 @@ export default {
       "masked": "The island feels remote and ____.",
       "options": [
         "wild-pdf-001",
-        "wild-mcq-07",
-        "wild-mcq-09",
-        "wild-mcq-06",
-        "wild-mcq-10",
-        "wild-mcq-05"
+        "wild-mcq-04",
+        "wild-mcq-12",
+        "wild-mcq-11"
       ],
       "explanation": "本句的「wild」指「未經大量人類開發、管理或控制，仍保留原始自然狀態的」。",
       "sentenceIndex": 14,
@@ -734,12 +676,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-pdf-001": "本句指「未經大量人類開發、管理或控制，仍保留原始自然狀態的」。",
-        "wild-mcq-07": "「失控地、猛烈地；亦可表示極其、非常」是「wildly」的用法，與本句語境不同。",
-        "wild-mcq-09": "「在自然環境中生活的野生生物／野生動物」是「wildlife」的用法，與本句語境不同。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。",
-        "wild-mcq-10": "「天氣、風浪等非常猛烈、不穩定、難以控制的」是「8. wild = violent / stormy / rough weather or sea（天氣／海況） — 狂暴的；猛烈的」的用法，與本句語境不同。",
-        "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。"
+        "wild-pdf-001": "本句的「wild」指「未經大量人類開發、管理或控制，仍保留原始自然狀態的」。",
+        "wild-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-pdf-001"
     },
@@ -753,9 +693,7 @@ export default {
         "wild-mcq-10",
         "wild-mcq-09",
         "wild-mcq-11",
-        "wild-mcq-08",
-        "wild-mcq-12",
-        "wild-mcq-07"
+        "wild-mcq-12"
       ],
       "explanation": "本句的「wild」指「天氣、風浪等非常猛烈、不穩定、難以控制的」。",
       "sentenceIndex": 15,
@@ -764,12 +702,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-10": "本句指「天氣、風浪等非常猛烈、不穩定、難以控制的」。",
-        "wild-mcq-09": "「在自然環境中生活的野生生物／野生動物」是「wildlife」的用法，與本句語境不同。",
-        "wild-mcq-11": "「表示瘋狂起來；極度興奮」是「Useful expression: go wild — 瘋狂起來；極度興奮」的用法，與本句語境不同。",
-        "wild-mcq-08": "「野生、原始、狂野或不受控制的性質」是「wildness」的用法，與本句語境不同。",
-        "wild-mcq-12": "「表示瞎猜」是「Useful expression: wild guess — 瞎猜」的用法，與本句語境不同。",
-        "wild-mcq-07": "「失控地、猛烈地；亦可表示極其、非常」是「wildly」的用法，與本句語境不同。"
+        "wild-mcq-10": "本句的「wild」指「天氣、風浪等非常猛烈、不穩定、難以控制的」。",
+        "wild-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-10"
     },
@@ -782,10 +718,8 @@ export default {
       "options": [
         "wild-mcq-10",
         "wild-mcq-09",
-        "wild-mcq-11",
-        "wild-mcq-08",
         "wild-mcq-12",
-        "wild-mcq-07"
+        "wild-mcq-11"
       ],
       "explanation": "本句的「wild」指「天氣、風浪等非常猛烈、不穩定、難以控制的」。",
       "sentenceIndex": 16,
@@ -794,12 +728,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-10": "本句指「天氣、風浪等非常猛烈、不穩定、難以控制的」。",
-        "wild-mcq-09": "「在自然環境中生活的野生生物／野生動物」是「wildlife」的用法，與本句語境不同。",
-        "wild-mcq-11": "「表示瘋狂起來；極度興奮」是「Useful expression: go wild — 瘋狂起來；極度興奮」的用法，與本句語境不同。",
-        "wild-mcq-08": "「野生、原始、狂野或不受控制的性質」是「wildness」的用法，與本句語境不同。",
-        "wild-mcq-12": "「表示瞎猜」是「Useful expression: wild guess — 瞎猜」的用法，與本句語境不同。",
-        "wild-mcq-07": "「失控地、猛烈地；亦可表示極其、非常」是「wildly」的用法，與本句語境不同。"
+        "wild-mcq-10": "本句的「wild」指「天氣、風浪等非常猛烈、不穩定、難以控制的」。",
+        "wild-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-10"
     },
@@ -811,11 +743,9 @@ export default {
       "masked": "The branches moved ____ in the wind.",
       "options": [
         "wild-mcq-07",
-        "wild-mcq-06",
-        "wild-mcq-08",
-        "wild-mcq-05",
         "wild-mcq-09",
-        "wild-mcq-04"
+        "wild-mcq-12",
+        "wild-mcq-06"
       ],
       "explanation": "本句的「wildly」指「失控地、猛烈地；亦可表示極其、非常」。",
       "sentenceIndex": 17,
@@ -824,12 +754,10 @@ export default {
         "wildly"
       ],
       "optionReasons": {
-        "wild-mcq-07": "本句指「失控地、猛烈地；亦可表示極其、非常」。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。",
-        "wild-mcq-08": "「野生、原始、狂野或不受控制的性質」是「wildness」的用法，與本句語境不同。",
-        "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。",
-        "wild-mcq-09": "「在自然環境中生活的野生生物／野生動物」是「wildlife」的用法，與本句語境不同。",
-        "wild-mcq-04": "「情緒或熱情極其強烈、近乎狂熱的」是「wild — extremely excited/enthusiastic」的用法，與本句語境不同。"
+        "wild-mcq-07": "本句的「wildly」指「失控地、猛烈地；亦可表示極其、非常」。",
+        "wild-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-07"
     },
@@ -841,11 +769,9 @@ export default {
       "masked": "The estimates were ____ inaccurate.",
       "options": [
         "wild-mcq-07",
-        "wild-mcq-06",
-        "wild-mcq-08",
-        "wild-mcq-05",
+        "wild-mcq-12",
         "wild-mcq-09",
-        "wild-mcq-04"
+        "wild-mcq-11"
       ],
       "explanation": "本句的「wildly」指「失控地、猛烈地；亦可表示極其、非常」。",
       "sentenceIndex": 18,
@@ -854,12 +780,10 @@ export default {
         "wildly"
       ],
       "optionReasons": {
-        "wild-mcq-07": "本句指「失控地、猛烈地；亦可表示極其、非常」。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。",
-        "wild-mcq-08": "「野生、原始、狂野或不受控制的性質」是「wildness」的用法，與本句語境不同。",
-        "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。",
-        "wild-mcq-09": "「在自然環境中生活的野生生物／野生動物」是「wildlife」的用法，與本句語境不同。",
-        "wild-mcq-04": "「情緒或熱情極其強烈、近乎狂熱的」是「wild — extremely excited/enthusiastic」的用法，與本句語境不同。"
+        "wild-mcq-07": "本句的「wildly」指「失控地、猛烈地；亦可表示極其、非常」。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-07"
     },
@@ -871,11 +795,9 @@ export default {
       "masked": "The ____ of the landscape attracted hikers.",
       "options": [
         "wild-mcq-08",
-        "wild-mcq-07",
-        "wild-mcq-09",
-        "wild-mcq-06",
-        "wild-mcq-10",
-        "wild-mcq-05"
+        "wild-mcq-05",
+        "wild-mcq-12",
+        "wild-mcq-04"
       ],
       "explanation": "本句的「wildness」指「野生、原始、狂野或不受控制的性質」。",
       "sentenceIndex": 19,
@@ -884,12 +806,10 @@ export default {
         "wildness"
       ],
       "optionReasons": {
-        "wild-mcq-08": "本句指「野生、原始、狂野或不受控制的性質」。",
-        "wild-mcq-07": "「失控地、猛烈地；亦可表示極其、非常」是「wildly」的用法，與本句語境不同。",
-        "wild-mcq-09": "「在自然環境中生活的野生生物／野生動物」是「wildlife」的用法，與本句語境不同。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。",
-        "wild-mcq-10": "「天氣、風浪等非常猛烈、不穩定、難以控制的」是「8. wild = violent / stormy / rough weather or sea（天氣／海況） — 狂暴的；猛烈的」的用法，與本句語境不同。",
-        "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。"
+        "wild-mcq-08": "本句的「wildness」指「野生、原始、狂野或不受控制的性質」。",
+        "wild-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-08"
     },
@@ -901,11 +821,9 @@ export default {
       "masked": "There was a certain ____ in his behaviour.",
       "options": [
         "wild-mcq-08",
-        "wild-mcq-07",
-        "wild-mcq-09",
-        "wild-mcq-06",
-        "wild-mcq-10",
-        "wild-mcq-05"
+        "wild-mcq-12",
+        "wild-mcq-05",
+        "wild-mcq-11"
       ],
       "explanation": "本句的「wildness」指「野生、原始、狂野或不受控制的性質」。",
       "sentenceIndex": 20,
@@ -914,12 +832,10 @@ export default {
         "wildness"
       ],
       "optionReasons": {
-        "wild-mcq-08": "本句指「野生、原始、狂野或不受控制的性質」。",
-        "wild-mcq-07": "「失控地、猛烈地；亦可表示極其、非常」是「wildly」的用法，與本句語境不同。",
-        "wild-mcq-09": "「在自然環境中生活的野生生物／野生動物」是「wildlife」的用法，與本句語境不同。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。",
-        "wild-mcq-10": "「天氣、風浪等非常猛烈、不穩定、難以控制的」是「8. wild = violent / stormy / rough weather or sea（天氣／海況） — 狂暴的；猛烈的」的用法，與本句語境不同。",
-        "wild-mcq-05": "「缺乏充分根據、非常大膽、離奇或不太合理的」是「wild — guess/idea」的用法，與本句語境不同。"
+        "wild-mcq-08": "本句的「wildness」指「野生、原始、狂野或不受控制的性質」。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-08"
     },
@@ -931,11 +847,9 @@ export default {
       "masked": "The island is rich in ____.",
       "options": [
         "wild-mcq-09",
-        "wild-mcq-08",
-        "wild-mcq-10",
-        "wild-mcq-07",
-        "wild-mcq-11",
-        "wild-mcq-06"
+        "wild-mcq-12",
+        "wild-mcq-06",
+        "wild-mcq-07"
       ],
       "explanation": "本句的「wildlife」指「在自然環境中生活的野生生物／野生動物」。",
       "sentenceIndex": 21,
@@ -944,12 +858,10 @@ export default {
         "wildlife"
       ],
       "optionReasons": {
-        "wild-mcq-09": "本句指「在自然環境中生活的野生生物／野生動物」。",
-        "wild-mcq-08": "「野生、原始、狂野或不受控制的性質」是「wildness」的用法，與本句語境不同。",
-        "wild-mcq-10": "「天氣、風浪等非常猛烈、不穩定、難以控制的」是「8. wild = violent / stormy / rough weather or sea（天氣／海況） — 狂暴的；猛烈的」的用法，與本句語境不同。",
-        "wild-mcq-07": "「失控地、猛烈地；亦可表示極其、非常」是「wildly」的用法，與本句語境不同。",
-        "wild-mcq-11": "「表示瘋狂起來；極度興奮」是「Useful expression: go wild — 瘋狂起來；極度興奮」的用法，與本句語境不同。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。"
+        "wild-mcq-09": "本句的「wildlife」指「在自然環境中生活的野生生物／野生動物」。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-09"
     },
@@ -961,11 +873,9 @@ export default {
       "masked": "The area is important for ____ conservation.",
       "options": [
         "wild-mcq-09",
-        "wild-mcq-08",
-        "wild-mcq-10",
         "wild-mcq-07",
-        "wild-mcq-11",
-        "wild-mcq-06"
+        "wild-mcq-12",
+        "wild-mcq-11"
       ],
       "explanation": "本句的「wildlife」指「在自然環境中生活的野生生物／野生動物」。",
       "sentenceIndex": 22,
@@ -974,12 +884,10 @@ export default {
         "wildlife"
       ],
       "optionReasons": {
-        "wild-mcq-09": "本句指「在自然環境中生活的野生生物／野生動物」。",
-        "wild-mcq-08": "「野生、原始、狂野或不受控制的性質」是「wildness」的用法，與本句語境不同。",
-        "wild-mcq-10": "「天氣、風浪等非常猛烈、不穩定、難以控制的」是「8. wild = violent / stormy / rough weather or sea（天氣／海況） — 狂暴的；猛烈的」的用法，與本句語境不同。",
-        "wild-mcq-07": "「失控地、猛烈地；亦可表示極其、非常」是「wildly」的用法，與本句語境不同。",
-        "wild-mcq-11": "「表示瘋狂起來；極度興奮」是「Useful expression: go wild — 瘋狂起來；極度興奮」的用法，與本句語境不同。",
-        "wild-mcq-06": "「未經整理、馴化或人工控制，顯得原始、粗獷或蓬亂的」是「wild — landscape/appearance」的用法，與本句語境不同。"
+        "wild-mcq-09": "本句的「wildlife」指「在自然環境中生活的野生生物／野生動物」。",
+        "wild-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-09"
     },
@@ -991,11 +899,9 @@ export default {
       "masked": "The crowd went ____.",
       "options": [
         "wild-mcq-11",
-        "wild-mcq-10",
         "wild-mcq-12",
-        "wild-mcq-09",
-        "wild-mcq-08",
-        "wild-mcq-07"
+        "wild-mcq-03",
+        "wild-mcq-05"
       ],
       "explanation": "本句的「wild」指「表示瘋狂起來；極度興奮」。",
       "sentenceIndex": 23,
@@ -1004,12 +910,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-11": "本句指「表示瘋狂起來；極度興奮」。",
-        "wild-mcq-10": "「天氣、風浪等非常猛烈、不穩定、難以控制的」是「8. wild = violent / stormy / rough weather or sea（天氣／海況） — 狂暴的；猛烈的」的用法，與本句語境不同。",
-        "wild-mcq-12": "「表示瞎猜」是「Useful expression: wild guess — 瞎猜」的用法，與本句語境不同。",
-        "wild-mcq-09": "「在自然環境中生活的野生生物／野生動物」是「wildlife」的用法，與本句語境不同。",
-        "wild-mcq-08": "「野生、原始、狂野或不受控制的性質」是「wildness」的用法，與本句語境不同。",
-        "wild-mcq-07": "「失控地、猛烈地；亦可表示極其、非常」是「wildly」的用法，與本句語境不同。"
+        "wild-mcq-11": "本句的「wild」指「表示瘋狂起來；極度興奮」。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-11"
     },
@@ -1021,11 +925,9 @@ export default {
       "masked": "The children went ____ when they saw the presents.",
       "options": [
         "wild-mcq-11",
-        "wild-mcq-10",
         "wild-mcq-12",
         "wild-mcq-09",
-        "wild-mcq-08",
-        "wild-mcq-07"
+        "wild-mcq-10"
       ],
       "explanation": "本句的「wild」指「表示瘋狂起來；極度興奮」。",
       "sentenceIndex": 24,
@@ -1034,12 +936,10 @@ export default {
         "wild"
       ],
       "optionReasons": {
-        "wild-mcq-11": "本句指「表示瘋狂起來；極度興奮」。",
-        "wild-mcq-10": "「天氣、風浪等非常猛烈、不穩定、難以控制的」是「8. wild = violent / stormy / rough weather or sea（天氣／海況） — 狂暴的；猛烈的」的用法，與本句語境不同。",
-        "wild-mcq-12": "「表示瞎猜」是「Useful expression: wild guess — 瞎猜」的用法，與本句語境不同。",
-        "wild-mcq-09": "「在自然環境中生活的野生生物／野生動物」是「wildlife」的用法，與本句語境不同。",
-        "wild-mcq-08": "「野生、原始、狂野或不受控制的性質」是「wildness」的用法，與本句語境不同。",
-        "wild-mcq-07": "「失控地、猛烈地；亦可表示極其、非常」是「wildly」的用法，與本句語境不同。"
+        "wild-mcq-11": "本句的「wild」指「表示瘋狂起來；極度興奮」。",
+        "wild-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-11"
     },
@@ -1051,10 +951,8 @@ export default {
       "masked": "I’m just making a ____.",
       "options": [
         "wild-mcq-12",
-        "wild-mcq-11",
-        "wild-mcq-10",
-        "wild-mcq-09",
         "wild-mcq-08",
+        "wild-mcq-11",
         "wild-mcq-07"
       ],
       "explanation": "本句的「wild guess」指「表示瞎猜」。",
@@ -1064,12 +962,10 @@ export default {
         "wild guess"
       ],
       "optionReasons": {
-        "wild-mcq-12": "本句指「表示瞎猜」。",
-        "wild-mcq-11": "「表示瘋狂起來；極度興奮」是「Useful expression: go wild — 瘋狂起來；極度興奮」的用法，與本句語境不同。",
-        "wild-mcq-10": "「天氣、風浪等非常猛烈、不穩定、難以控制的」是「8. wild = violent / stormy / rough weather or sea（天氣／海況） — 狂暴的；猛烈的」的用法，與本句語境不同。",
-        "wild-mcq-09": "「在自然環境中生活的野生生物／野生動物」是「wildlife」的用法，與本句語境不同。",
-        "wild-mcq-08": "「野生、原始、狂野或不受控制的性質」是「wildness」的用法，與本句語境不同。",
-        "wild-mcq-07": "「失控地、猛烈地；亦可表示極其、非常」是「wildly」的用法，與本句語境不同。"
+        "wild-mcq-12": "本句的「wild guess」指「表示瞎猜」。",
+        "wild-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wild-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wild-mcq-12"
     }
@@ -1081,5 +977,7 @@ export default {
     "sha256": "21256d0c0fb5bf73435e79a6890b352ee37c3223e0d5d15aa5f9c02730b1a7a6",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

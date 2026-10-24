@@ -311,11 +311,9 @@ export default {
       "masked": "The ____ lasted for several days.",
       "options": [
         "battle-mcq-01",
-        "battle-mcq-02",
         "battle-mcq-03",
-        "battle-mcq-04",
-        "battle-mcq-05",
-        "battle-mcq-06"
+        "battle-mcq-09",
+        "battle-mcq-11"
       ],
       "explanation": "本句的「battle」指「軍隊之間在特定時間、地點進行的武裝戰鬥」。",
       "sentenceIndex": 0,
@@ -324,12 +322,10 @@ export default {
         "battle"
       ],
       "optionReasons": {
-        "battle-mcq-01": "本句指「軍隊之間在特定時間、地點進行的武裝戰鬥」。",
-        "battle-mcq-02": "「兩個人、團體或利益之間持續而激烈的對抗」與本句語境不同。",
-        "battle-mcq-03": "「為克服疾病、困難、習慣或逆境所作的艱苦努力」與本句語境不同。",
-        "battle-mcq-04": "「為達成目標而要克服的一連串困難／難關」與本句語境不同。",
-        "battle-mcq-05": "「關鍵部分已處理好，因此已克服整體困難中的很大一部分」與本句語境不同。",
-        "battle-mcq-06": "「與其他人競爭以取得某個位置、資源或目標」與本句語境不同。"
+        "battle-mcq-01": "本句的「battle」指「軍隊之間在特定時間、地點進行的武裝戰鬥」。",
+        "battle-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-01"
     },
@@ -341,11 +337,9 @@ export default {
       "masked": "Thousands of soldiers took part in the ____.",
       "options": [
         "battle-mcq-01",
-        "battle-mcq-02",
+        "battle-mcq-09",
         "battle-mcq-03",
-        "battle-mcq-04",
-        "battle-mcq-05",
-        "battle-mcq-06"
+        "battle-mcq-11"
       ],
       "explanation": "本句的「battle」指「軍隊之間在特定時間、地點進行的武裝戰鬥」。",
       "sentenceIndex": 1,
@@ -354,12 +348,10 @@ export default {
         "battle"
       ],
       "optionReasons": {
-        "battle-mcq-01": "本句指「軍隊之間在特定時間、地點進行的武裝戰鬥」。",
-        "battle-mcq-02": "「兩個人、團體或利益之間持續而激烈的對抗」與本句語境不同。",
-        "battle-mcq-03": "「為克服疾病、困難、習慣或逆境所作的艱苦努力」與本句語境不同。",
-        "battle-mcq-04": "「為達成目標而要克服的一連串困難／難關」與本句語境不同。",
-        "battle-mcq-05": "「關鍵部分已處理好，因此已克服整體困難中的很大一部分」與本句語境不同。",
-        "battle-mcq-06": "「與其他人競爭以取得某個位置、資源或目標」與本句語境不同。"
+        "battle-mcq-01": "本句的「battle」指「軍隊之間在特定時間、地點進行的武裝戰鬥」。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-01"
     },
@@ -371,11 +363,9 @@ export default {
       "masked": "The two companies are in a fierce ____ for customers.",
       "options": [
         "battle-mcq-02",
-        "battle-mcq-01",
-        "battle-mcq-03",
+        "battle-mcq-09",
         "battle-mcq-04",
-        "battle-mcq-05",
-        "battle-mcq-06"
+        "battle-mcq-10"
       ],
       "explanation": "本句的「battle」指「兩個人、團體或利益之間持續而激烈的對抗」。",
       "sentenceIndex": 2,
@@ -384,12 +374,10 @@ export default {
         "battle"
       ],
       "optionReasons": {
-        "battle-mcq-02": "本句指「兩個人、團體或利益之間持續而激烈的對抗」。",
-        "battle-mcq-01": "「軍隊之間在特定時間、地點進行的武裝戰鬥」與本句語境不同。",
-        "battle-mcq-03": "「為克服疾病、困難、習慣或逆境所作的艱苦努力」與本句語境不同。",
-        "battle-mcq-04": "「為達成目標而要克服的一連串困難／難關」與本句語境不同。",
-        "battle-mcq-05": "「關鍵部分已處理好，因此已克服整體困難中的很大一部分」與本句語境不同。",
-        "battle-mcq-06": "「與其他人競爭以取得某個位置、資源或目標」與本句語境不同。"
+        "battle-mcq-02": "本句的「battle」指「兩個人、團體或利益之間持續而激烈的對抗」。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-02"
     },
@@ -401,11 +389,8 @@ export default {
       "masked": "The legal ____ continued for years.",
       "options": [
         "battle-mcq-02",
-        "battle-mcq-01",
         "battle-mcq-03",
-        "battle-mcq-04",
-        "battle-mcq-05",
-        "battle-mcq-06"
+        "battle-mcq-09"
       ],
       "explanation": "本句的「battle」指「兩個人、團體或利益之間持續而激烈的對抗」。",
       "sentenceIndex": 3,
@@ -414,12 +399,9 @@ export default {
         "battle"
       ],
       "optionReasons": {
-        "battle-mcq-02": "本句指「兩個人、團體或利益之間持續而激烈的對抗」。",
-        "battle-mcq-01": "「軍隊之間在特定時間、地點進行的武裝戰鬥」與本句語境不同。",
-        "battle-mcq-03": "「為克服疾病、困難、習慣或逆境所作的艱苦努力」與本句語境不同。",
-        "battle-mcq-04": "「為達成目標而要克服的一連串困難／難關」與本句語境不同。",
-        "battle-mcq-05": "「關鍵部分已處理好，因此已克服整體困難中的很大一部分」與本句語境不同。",
-        "battle-mcq-06": "「與其他人競爭以取得某個位置、資源或目標」與本句語境不同。"
+        "battle-mcq-02": "本句的「battle」指「兩個人、團體或利益之間持續而激烈的對抗」。",
+        "battle-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-02"
     },
@@ -431,11 +413,9 @@ export default {
       "masked": "She faced a long ____ with illness.",
       "options": [
         "battle-mcq-03",
-        "battle-mcq-02",
-        "battle-mcq-04",
-        "battle-mcq-01",
-        "battle-mcq-05",
-        "battle-mcq-06"
+        "battle-mcq-13",
+        "battle-mcq-11",
+        "battle-mcq-01"
       ],
       "explanation": "本句的「battle」指「為克服疾病、困難、習慣或逆境所作的艱苦努力」。",
       "sentenceIndex": 4,
@@ -444,12 +424,10 @@ export default {
         "battle"
       ],
       "optionReasons": {
-        "battle-mcq-03": "本句指「為克服疾病、困難、習慣或逆境所作的艱苦努力」。",
-        "battle-mcq-02": "「兩個人、團體或利益之間持續而激烈的對抗」與本句語境不同。",
-        "battle-mcq-04": "「為達成目標而要克服的一連串困難／難關」與本句語境不同。",
-        "battle-mcq-01": "「軍隊之間在特定時間、地點進行的武裝戰鬥」與本句語境不同。",
-        "battle-mcq-05": "「關鍵部分已處理好，因此已克服整體困難中的很大一部分」與本句語境不同。",
-        "battle-mcq-06": "「與其他人競爭以取得某個位置、資源或目標」與本句語境不同。"
+        "battle-mcq-03": "本句的「battle」指「為克服疾病、困難、習慣或逆境所作的艱苦努力」。",
+        "battle-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-03"
     },
@@ -461,11 +439,9 @@ export default {
       "masked": "His ____ against addiction lasted years.",
       "options": [
         "battle-mcq-03",
-        "battle-mcq-02",
-        "battle-mcq-04",
+        "battle-mcq-09",
         "battle-mcq-01",
-        "battle-mcq-05",
-        "battle-mcq-06"
+        "battle-mcq-13"
       ],
       "explanation": "本句的「battle」指「為克服疾病、困難、習慣或逆境所作的艱苦努力」。",
       "sentenceIndex": 5,
@@ -474,12 +450,10 @@ export default {
         "battle"
       ],
       "optionReasons": {
-        "battle-mcq-03": "本句指「為克服疾病、困難、習慣或逆境所作的艱苦努力」。",
-        "battle-mcq-02": "「兩個人、團體或利益之間持續而激烈的對抗」與本句語境不同。",
-        "battle-mcq-04": "「為達成目標而要克服的一連串困難／難關」與本句語境不同。",
-        "battle-mcq-01": "「軍隊之間在特定時間、地點進行的武裝戰鬥」與本句語境不同。",
-        "battle-mcq-05": "「關鍵部分已處理好，因此已克服整體困難中的很大一部分」與本句語境不同。",
-        "battle-mcq-06": "「與其他人競爭以取得某個位置、資源或目標」與本句語境不同。"
+        "battle-mcq-03": "本句的「battle」指「為克服疾病、困難、習慣或逆境所作的艱苦努力」。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-03"
     },
@@ -491,11 +465,9 @@ export default {
       "masked": "Doing simple things extremely well is often ____.",
       "options": [
         "battle-mcq-04",
-        "battle-mcq-03",
-        "battle-mcq-05",
-        "battle-mcq-02",
-        "battle-mcq-06",
-        "battle-mcq-01"
+        "battle-mcq-13",
+        "battle-mcq-09",
+        "battle-mcq-08"
       ],
       "explanation": "本句的「half the battle」指「為達成目標而要克服的一連串困難／難關」。",
       "sentenceIndex": 6,
@@ -504,12 +476,10 @@ export default {
         "half the battle"
       ],
       "optionReasons": {
-        "battle-mcq-04": "本句指「為達成目標而要克服的一連串困難／難關」。",
-        "battle-mcq-03": "「為克服疾病、困難、習慣或逆境所作的艱苦努力」與本句語境不同。",
-        "battle-mcq-05": "「關鍵部分已處理好，因此已克服整體困難中的很大一部分」與本句語境不同。",
-        "battle-mcq-02": "「兩個人、團體或利益之間持續而激烈的對抗」與本句語境不同。",
-        "battle-mcq-06": "「與其他人競爭以取得某個位置、資源或目標」與本句語境不同。",
-        "battle-mcq-01": "「軍隊之間在特定時間、地點進行的武裝戰鬥」與本句語境不同。"
+        "battle-mcq-04": "本句的「half the battle」指「為達成目標而要克服的一連串困難／難關」。",
+        "battle-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-04"
     },
@@ -521,11 +491,9 @@ export default {
       "masked": "Getting customers to return is a major part of the ____.",
       "options": [
         "battle-mcq-04",
-        "battle-mcq-03",
-        "battle-mcq-05",
         "battle-mcq-02",
-        "battle-mcq-06",
-        "battle-mcq-01"
+        "battle-mcq-09",
+        "battle-mcq-10"
       ],
       "explanation": "本句的「battle」指「為達成目標而要克服的一連串困難／難關」。",
       "sentenceIndex": 7,
@@ -534,12 +502,10 @@ export default {
         "battle"
       ],
       "optionReasons": {
-        "battle-mcq-04": "本句指「為達成目標而要克服的一連串困難／難關」。",
-        "battle-mcq-03": "「為克服疾病、困難、習慣或逆境所作的艱苦努力」與本句語境不同。",
-        "battle-mcq-05": "「關鍵部分已處理好，因此已克服整體困難中的很大一部分」與本句語境不同。",
-        "battle-mcq-02": "「兩個人、團體或利益之間持續而激烈的對抗」與本句語境不同。",
-        "battle-mcq-06": "「與其他人競爭以取得某個位置、資源或目標」與本句語境不同。",
-        "battle-mcq-01": "「軍隊之間在特定時間、地點進行的武裝戰鬥」與本句語境不同。"
+        "battle-mcq-04": "本句的「battle」指「為達成目標而要克服的一連串困難／難關」。",
+        "battle-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-04"
     },
@@ -551,11 +517,9 @@ export default {
       "masked": "Knowing what customers want is ____.",
       "options": [
         "battle-mcq-05",
-        "battle-mcq-04",
         "battle-mcq-06",
-        "battle-mcq-03",
-        "battle-mcq-07",
-        "battle-mcq-02"
+        "battle-mcq-09",
+        "battle-mcq-13"
       ],
       "explanation": "本句的「half the battle」指「關鍵部分已處理好，因此已克服整體困難中的很大一部分」。",
       "sentenceIndex": 8,
@@ -564,12 +528,10 @@ export default {
         "half the battle"
       ],
       "optionReasons": {
-        "battle-mcq-05": "本句指「關鍵部分已處理好，因此已克服整體困難中的很大一部分」。",
-        "battle-mcq-04": "「為達成目標而要克服的一連串困難／難關」與本句語境不同。",
-        "battle-mcq-06": "「與其他人競爭以取得某個位置、資源或目標」與本句語境不同。",
-        "battle-mcq-03": "「為克服疾病、困難、習慣或逆境所作的艱苦努力」與本句語境不同。",
-        "battle-mcq-07": "「與敵人、對手或困難持續激烈對抗」與本句語境不同。",
-        "battle-mcq-02": "「兩個人、團體或利益之間持續而激烈的對抗」與本句語境不同。"
+        "battle-mcq-05": "本句的「half the battle」指「關鍵部分已處理好，因此已克服整體困難中的很大一部分」。",
+        "battle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-05"
     },
@@ -581,11 +543,9 @@ export default {
       "masked": "Starting early is half the ____.",
       "options": [
         "battle-mcq-05",
-        "battle-mcq-04",
         "battle-mcq-06",
-        "battle-mcq-03",
-        "battle-mcq-07",
-        "battle-mcq-02"
+        "battle-mcq-11",
+        "battle-mcq-09"
       ],
       "explanation": "本句的「battle」指「關鍵部分已處理好，因此已克服整體困難中的很大一部分」。",
       "sentenceIndex": 9,
@@ -594,12 +554,10 @@ export default {
         "battle"
       ],
       "optionReasons": {
-        "battle-mcq-05": "本句指「關鍵部分已處理好，因此已克服整體困難中的很大一部分」。",
-        "battle-mcq-04": "「為達成目標而要克服的一連串困難／難關」與本句語境不同。",
-        "battle-mcq-06": "「與其他人競爭以取得某個位置、資源或目標」與本句語境不同。",
-        "battle-mcq-03": "「為克服疾病、困難、習慣或逆境所作的艱苦努力」與本句語境不同。",
-        "battle-mcq-07": "「與敵人、對手或困難持續激烈對抗」與本句語境不同。",
-        "battle-mcq-02": "「兩個人、團體或利益之間持續而激烈的對抗」與本句語境不同。"
+        "battle-mcq-05": "本句的「battle」指「關鍵部分已處理好，因此已克服整體困難中的很大一部分」。",
+        "battle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-05"
     },
@@ -612,10 +570,8 @@ export default {
       "options": [
         "battle-mcq-06",
         "battle-mcq-05",
-        "battle-mcq-07",
-        "battle-mcq-04",
-        "battle-mcq-08",
-        "battle-mcq-03"
+        "battle-mcq-09",
+        "battle-mcq-11"
       ],
       "explanation": "本句的「battle」指「與其他人競爭以取得某個位置、資源或目標」。",
       "sentenceIndex": 10,
@@ -624,12 +580,10 @@ export default {
         "battle"
       ],
       "optionReasons": {
-        "battle-mcq-06": "本句指「與其他人競爭以取得某個位置、資源或目標」。",
-        "battle-mcq-05": "「關鍵部分已處理好，因此已克服整體困難中的很大一部分」與本句語境不同。",
-        "battle-mcq-07": "「與敵人、對手或困難持續激烈對抗」與本句語境不同。",
-        "battle-mcq-04": "「為達成目標而要克服的一連串困難／難關」與本句語境不同。",
-        "battle-mcq-08": "「與某個問題、疾病、壓力或對手抗爭」與本句語境不同。",
-        "battle-mcq-03": "「為克服疾病、困難、習慣或逆境所作的艱苦努力」與本句語境不同。"
+        "battle-mcq-06": "本句的「battle」指「與其他人競爭以取得某個位置、資源或目標」。",
+        "battle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-06"
     },
@@ -641,11 +595,9 @@ export default {
       "masked": "The teams are locked in a ____ for first place.",
       "options": [
         "battle-mcq-06",
+        "battle-mcq-09",
         "battle-mcq-05",
-        "battle-mcq-07",
-        "battle-mcq-04",
-        "battle-mcq-08",
-        "battle-mcq-03"
+        "battle-mcq-11"
       ],
       "explanation": "本句的「battle」指「與其他人競爭以取得某個位置、資源或目標」。",
       "sentenceIndex": 11,
@@ -654,12 +606,10 @@ export default {
         "battle"
       ],
       "optionReasons": {
-        "battle-mcq-06": "本句指「與其他人競爭以取得某個位置、資源或目標」。",
-        "battle-mcq-05": "「關鍵部分已處理好，因此已克服整體困難中的很大一部分」與本句語境不同。",
-        "battle-mcq-07": "「與敵人、對手或困難持續激烈對抗」與本句語境不同。",
-        "battle-mcq-04": "「為達成目標而要克服的一連串困難／難關」與本句語境不同。",
-        "battle-mcq-08": "「與某個問題、疾病、壓力或對手抗爭」與本句語境不同。",
-        "battle-mcq-03": "「為克服疾病、困難、習慣或逆境所作的艱苦努力」與本句語境不同。"
+        "battle-mcq-06": "本句的「battle」指「與其他人競爭以取得某個位置、資源或目標」。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-06"
     },
@@ -671,11 +621,8 @@ export default {
       "masked": "The soldiers ____ through the night.",
       "options": [
         "battle-mcq-07",
-        "battle-mcq-06",
-        "battle-mcq-08",
-        "battle-mcq-05",
         "battle-mcq-09",
-        "battle-mcq-04"
+        "battle-mcq-10"
       ],
       "explanation": "本句的「battled」指「與敵人、對手或困難持續激烈對抗」。",
       "sentenceIndex": 12,
@@ -684,12 +631,9 @@ export default {
         "battled"
       ],
       "optionReasons": {
-        "battle-mcq-07": "本句指「與敵人、對手或困難持續激烈對抗」。",
-        "battle-mcq-06": "「與其他人競爭以取得某個位置、資源或目標」與本句語境不同。",
-        "battle-mcq-08": "「與某個問題、疾病、壓力或對手抗爭」與本句語境不同。",
-        "battle-mcq-05": "「關鍵部分已處理好，因此已克服整體困難中的很大一部分」與本句語境不同。",
-        "battle-mcq-09": "「雙方都不願讓步的意志較量」與本句語境不同。",
-        "battle-mcq-04": "「為達成目標而要克服的一連串困難／難關」與本句語境不同。"
+        "battle-mcq-07": "本句的「battled」指「與敵人、對手或困難持續激烈對抗」。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-07"
     },
@@ -701,11 +645,8 @@ export default {
       "masked": "The two sides ____ for control of the area.",
       "options": [
         "battle-mcq-07",
-        "battle-mcq-06",
-        "battle-mcq-08",
-        "battle-mcq-05",
         "battle-mcq-09",
-        "battle-mcq-04"
+        "battle-mcq-10"
       ],
       "explanation": "本句的「battled」指「與敵人、對手或困難持續激烈對抗」。",
       "sentenceIndex": 13,
@@ -714,12 +655,9 @@ export default {
         "battled"
       ],
       "optionReasons": {
-        "battle-mcq-07": "本句指「與敵人、對手或困難持續激烈對抗」。",
-        "battle-mcq-06": "「與其他人競爭以取得某個位置、資源或目標」與本句語境不同。",
-        "battle-mcq-08": "「與某個問題、疾病、壓力或對手抗爭」與本句語境不同。",
-        "battle-mcq-05": "「關鍵部分已處理好，因此已克服整體困難中的很大一部分」與本句語境不同。",
-        "battle-mcq-09": "「雙方都不願讓步的意志較量」與本句語境不同。",
-        "battle-mcq-04": "「為達成目標而要克服的一連串困難／難關」與本句語境不同。"
+        "battle-mcq-07": "本句的「battled」指「與敵人、對手或困難持續激烈對抗」。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-07"
     },
@@ -732,10 +670,8 @@ export default {
       "options": [
         "battle-mcq-06",
         "battle-mcq-05",
-        "battle-mcq-07",
-        "battle-mcq-04",
-        "battle-mcq-08",
-        "battle-mcq-03"
+        "battle-mcq-09",
+        "battle-mcq-11"
       ],
       "explanation": "本句的「battling for」指「與其他人競爭以取得某個位置、資源或目標」。",
       "sentenceIndex": 16,
@@ -744,12 +680,10 @@ export default {
         "battling for"
       ],
       "optionReasons": {
-        "battle-mcq-06": "本句指「與其他人競爭以取得某個位置、資源或目標」。",
-        "battle-mcq-05": "「關鍵部分已處理好，因此已克服整體困難中的很大一部分」與本句語境不同。",
-        "battle-mcq-07": "「與敵人、對手或困難持續激烈對抗」與本句語境不同。",
-        "battle-mcq-04": "「為達成目標而要克服的一連串困難／難關」與本句語境不同。",
-        "battle-mcq-08": "「與某個問題、疾病、壓力或對手抗爭」與本句語境不同。",
-        "battle-mcq-03": "「為克服疾病、困難、習慣或逆境所作的艱苦努力」與本句語境不同。"
+        "battle-mcq-06": "本句的「battling for」指「與其他人競爭以取得某個位置、資源或目標」。",
+        "battle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-06"
     },
@@ -761,11 +695,9 @@ export default {
       "masked": "The team ____ for every point.",
       "options": [
         "battle-mcq-06",
+        "battle-mcq-09",
         "battle-mcq-05",
-        "battle-mcq-07",
-        "battle-mcq-04",
-        "battle-mcq-08",
-        "battle-mcq-03"
+        "battle-mcq-11"
       ],
       "explanation": "本句的「battled」指「與其他人競爭以取得某個位置、資源或目標」。",
       "sentenceIndex": 17,
@@ -774,12 +706,10 @@ export default {
         "battled"
       ],
       "optionReasons": {
-        "battle-mcq-06": "本句指「與其他人競爭以取得某個位置、資源或目標」。",
-        "battle-mcq-05": "「關鍵部分已處理好，因此已克服整體困難中的很大一部分」與本句語境不同。",
-        "battle-mcq-07": "「與敵人、對手或困難持續激烈對抗」與本句語境不同。",
-        "battle-mcq-04": "「為達成目標而要克服的一連串困難／難關」與本句語境不同。",
-        "battle-mcq-08": "「與某個問題、疾病、壓力或對手抗爭」與本句語境不同。",
-        "battle-mcq-03": "「為克服疾病、困難、習慣或逆境所作的艱苦努力」與本句語境不同。"
+        "battle-mcq-06": "本句的「battled」指「與其他人競爭以取得某個位置、資源或目標」。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-06"
     },
@@ -791,11 +721,9 @@ export default {
       "masked": "The company is ____ rising rent.",
       "options": [
         "battle-mcq-08",
-        "battle-mcq-07",
+        "battle-mcq-05",
         "battle-mcq-09",
-        "battle-mcq-06",
-        "battle-mcq-10",
-        "battle-mcq-05"
+        "battle-mcq-11"
       ],
       "explanation": "本句的「battling against」指「與某個問題、疾病、壓力或對手抗爭」。",
       "sentenceIndex": 18,
@@ -804,12 +732,10 @@ export default {
         "battling against"
       ],
       "optionReasons": {
-        "battle-mcq-08": "本句指「與某個問題、疾病、壓力或對手抗爭」。",
-        "battle-mcq-07": "「與敵人、對手或困難持續激烈對抗」與本句語境不同。",
-        "battle-mcq-09": "「雙方都不願讓步的意志較量」與本句語境不同。",
-        "battle-mcq-06": "「與其他人競爭以取得某個位置、資源或目標」與本句語境不同。",
-        "battle-mcq-10": "「因條件不利而極難成功的努力」與本句語境不同。",
-        "battle-mcq-05": "「關鍵部分已處理好，因此已克服整體困難中的很大一部分」與本句語境不同。"
+        "battle-mcq-08": "本句的「battling against」指「與某個問題、疾病、壓力或對手抗爭」。",
+        "battle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-08"
     },
@@ -821,11 +747,9 @@ export default {
       "masked": "He has been ____ with the problem for months.",
       "options": [
         "battle-mcq-08",
-        "battle-mcq-07",
+        "battle-mcq-05",
         "battle-mcq-09",
-        "battle-mcq-06",
-        "battle-mcq-10",
-        "battle-mcq-05"
+        "battle-mcq-11"
       ],
       "explanation": "本句的「battling」指「與某個問題、疾病、壓力或對手抗爭」。",
       "sentenceIndex": 19,
@@ -834,12 +758,10 @@ export default {
         "battling"
       ],
       "optionReasons": {
-        "battle-mcq-08": "本句指「與某個問題、疾病、壓力或對手抗爭」。",
-        "battle-mcq-07": "「與敵人、對手或困難持續激烈對抗」與本句語境不同。",
-        "battle-mcq-09": "「雙方都不願讓步的意志較量」與本句語境不同。",
-        "battle-mcq-06": "「與其他人競爭以取得某個位置、資源或目標」與本句語境不同。",
-        "battle-mcq-10": "「因條件不利而極難成功的努力」與本句語境不同。",
-        "battle-mcq-05": "「關鍵部分已處理好，因此已克服整體困難中的很大一部分」與本句語境不同。"
+        "battle-mcq-08": "本句的「battling」指「與某個問題、疾病、壓力或對手抗爭」。",
+        "battle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-08"
     },
@@ -851,11 +773,9 @@ export default {
       "masked": "The negotiation became a ____.",
       "options": [
         "battle-mcq-09",
-        "battle-mcq-08",
-        "battle-mcq-10",
-        "battle-mcq-07",
+        "battle-mcq-12",
         "battle-mcq-11",
-        "battle-mcq-06"
+        "battle-mcq-03"
       ],
       "explanation": "本句的「battle of wills」指「雙方都不願讓步的意志較量」。",
       "sentenceIndex": 20,
@@ -864,12 +784,10 @@ export default {
         "battle of wills"
       ],
       "optionReasons": {
-        "battle-mcq-09": "本句指「雙方都不願讓步的意志較量」。",
-        "battle-mcq-08": "「與某個問題、疾病、壓力或對手抗爭」與本句語境不同。",
-        "battle-mcq-10": "「因條件不利而極難成功的努力」與本句語境不同。",
-        "battle-mcq-07": "「與敵人、對手或困難持續激烈對抗」與本句語境不同。",
-        "battle-mcq-11": "「成功機會很低、形勢持續不利的鬥爭」與本句語境不同。",
-        "battle-mcq-06": "「與其他人競爭以取得某個位置、資源或目標」與本句語境不同。"
+        "battle-mcq-09": "本句的「battle of wills」指「雙方都不願讓步的意志較量」。",
+        "battle-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-09"
     },
@@ -881,11 +799,9 @@ export default {
       "masked": "It was a ____ of wills between the manager and the supplier.",
       "options": [
         "battle-mcq-09",
+        "battle-mcq-13",
         "battle-mcq-08",
-        "battle-mcq-10",
-        "battle-mcq-07",
-        "battle-mcq-11",
-        "battle-mcq-06"
+        "battle-mcq-10"
       ],
       "explanation": "本句的「battle」指「雙方都不願讓步的意志較量」。",
       "sentenceIndex": 21,
@@ -894,12 +810,10 @@ export default {
         "battle"
       ],
       "optionReasons": {
-        "battle-mcq-09": "本句指「雙方都不願讓步的意志較量」。",
-        "battle-mcq-08": "「與某個問題、疾病、壓力或對手抗爭」與本句語境不同。",
-        "battle-mcq-10": "「因條件不利而極難成功的努力」與本句語境不同。",
-        "battle-mcq-07": "「與敵人、對手或困難持續激烈對抗」與本句語境不同。",
-        "battle-mcq-11": "「成功機會很低、形勢持續不利的鬥爭」與本句語境不同。",
-        "battle-mcq-06": "「與其他人競爭以取得某個位置、資源或目標」與本句語境不同。"
+        "battle-mcq-09": "本句的「battle」指「雙方都不願讓步的意志較量」。",
+        "battle-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-09"
     },
@@ -911,11 +825,9 @@ export default {
       "masked": "Competing with large chains can be an ____.",
       "options": [
         "battle-mcq-10",
-        "battle-mcq-09",
-        "battle-mcq-11",
-        "battle-mcq-08",
-        "battle-mcq-12",
-        "battle-mcq-07"
+        "battle-mcq-13",
+        "battle-mcq-01",
+        "battle-mcq-09"
       ],
       "explanation": "本句的「uphill battle」指「因條件不利而極難成功的努力」。",
       "sentenceIndex": 22,
@@ -924,12 +836,10 @@ export default {
         "uphill battle"
       ],
       "optionReasons": {
-        "battle-mcq-10": "本句指「因條件不利而極難成功的努力」。",
-        "battle-mcq-09": "「雙方都不願讓步的意志較量」與本句語境不同。",
-        "battle-mcq-11": "「成功機會很低、形勢持續不利的鬥爭」與本句語境不同。",
-        "battle-mcq-08": "「與某個問題、疾病、壓力或對手抗爭」與本句語境不同。",
-        "battle-mcq-12": "「實際戰場；比喻激烈競爭發生的領域」與本句語境不同。",
-        "battle-mcq-07": "「與敵人、對手或困難持續激烈對抗」與本句語境不同。"
+        "battle-mcq-10": "本句的「uphill battle」指「因條件不利而極難成功的努力」。",
+        "battle-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-10"
     },
@@ -941,11 +851,9 @@ export default {
       "masked": "Changing public opinion is often an uphill ____.",
       "options": [
         "battle-mcq-10",
+        "battle-mcq-01",
         "battle-mcq-09",
-        "battle-mcq-11",
-        "battle-mcq-08",
-        "battle-mcq-12",
-        "battle-mcq-07"
+        "battle-mcq-13"
       ],
       "explanation": "本句的「battle」指「因條件不利而極難成功的努力」。",
       "sentenceIndex": 23,
@@ -954,12 +862,10 @@ export default {
         "battle"
       ],
       "optionReasons": {
-        "battle-mcq-10": "本句指「因條件不利而極難成功的努力」。",
-        "battle-mcq-09": "「雙方都不願讓步的意志較量」與本句語境不同。",
-        "battle-mcq-11": "「成功機會很低、形勢持續不利的鬥爭」與本句語境不同。",
-        "battle-mcq-08": "「與某個問題、疾病、壓力或對手抗爭」與本句語境不同。",
-        "battle-mcq-12": "「實際戰場；比喻激烈競爭發生的領域」與本句語境不同。",
-        "battle-mcq-07": "「與敵人、對手或困難持續激烈對抗」與本句語境不同。"
+        "battle-mcq-10": "本句的「battle」指「因條件不利而極難成功的努力」。",
+        "battle-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-10"
     },
@@ -971,11 +877,9 @@ export default {
       "masked": "Trying to keep every customer happy can be a ____.",
       "options": [
         "battle-mcq-11",
-        "battle-mcq-10",
-        "battle-mcq-12",
+        "battle-mcq-05",
         "battle-mcq-09",
-        "battle-mcq-13",
-        "battle-mcq-08"
+        "battle-mcq-06"
       ],
       "explanation": "本句的「losing battle」指「成功機會很低、形勢持續不利的鬥爭」。",
       "sentenceIndex": 24,
@@ -984,12 +888,10 @@ export default {
         "losing battle"
       ],
       "optionReasons": {
-        "battle-mcq-11": "本句指「成功機會很低、形勢持續不利的鬥爭」。",
-        "battle-mcq-10": "「因條件不利而極難成功的努力」與本句語境不同。",
-        "battle-mcq-12": "「實際戰場；比喻激烈競爭發生的領域」與本句語境不同。",
-        "battle-mcq-09": "「雙方都不願讓步的意志較量」與本句語境不同。",
-        "battle-mcq-13": "「各方激烈爭奪或爭論的領域／焦點」與本句語境不同。",
-        "battle-mcq-08": "「與某個問題、疾病、壓力或對手抗爭」與本句語境不同。"
+        "battle-mcq-11": "本句的「losing battle」指「成功機會很低、形勢持續不利的鬥爭」。",
+        "battle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-11"
     },
@@ -1001,11 +903,9 @@ export default {
       "masked": "They were fighting a losing ____ against rising costs.",
       "options": [
         "battle-mcq-11",
-        "battle-mcq-10",
-        "battle-mcq-12",
+        "battle-mcq-05",
         "battle-mcq-09",
-        "battle-mcq-13",
-        "battle-mcq-08"
+        "battle-mcq-01"
       ],
       "explanation": "本句的「battle」指「成功機會很低、形勢持續不利的鬥爭」。",
       "sentenceIndex": 25,
@@ -1014,12 +914,10 @@ export default {
         "battle"
       ],
       "optionReasons": {
-        "battle-mcq-11": "本句指「成功機會很低、形勢持續不利的鬥爭」。",
-        "battle-mcq-10": "「因條件不利而極難成功的努力」與本句語境不同。",
-        "battle-mcq-12": "「實際戰場；比喻激烈競爭發生的領域」與本句語境不同。",
-        "battle-mcq-09": "「雙方都不願讓步的意志較量」與本句語境不同。",
-        "battle-mcq-13": "「各方激烈爭奪或爭論的領域／焦點」與本句語境不同。",
-        "battle-mcq-08": "「與某個問題、疾病、壓力或對手抗爭」與本句語境不同。"
+        "battle-mcq-11": "本句的「battle」指「成功機會很低、形勢持續不利的鬥爭」。",
+        "battle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-11"
     },
@@ -1031,11 +929,9 @@ export default {
       "masked": "The town became a ____.",
       "options": [
         "battle-mcq-12",
-        "battle-mcq-11",
-        "battle-mcq-13",
-        "battle-mcq-10",
         "battle-mcq-09",
-        "battle-mcq-08"
+        "battle-mcq-03",
+        "battle-mcq-11"
       ],
       "explanation": "本句的「battlefield」指「實際戰場；比喻激烈競爭發生的領域」。",
       "sentenceIndex": 26,
@@ -1044,12 +940,10 @@ export default {
         "battlefield"
       ],
       "optionReasons": {
-        "battle-mcq-12": "本句指「實際戰場；比喻激烈競爭發生的領域」。",
-        "battle-mcq-11": "「成功機會很低、形勢持續不利的鬥爭」與本句語境不同。",
-        "battle-mcq-13": "「各方激烈爭奪或爭論的領域／焦點」與本句語境不同。",
-        "battle-mcq-10": "「因條件不利而極難成功的努力」與本句語境不同。",
-        "battle-mcq-09": "「雙方都不願讓步的意志較量」與本句語境不同。",
-        "battle-mcq-08": "「與某個問題、疾病、壓力或對手抗爭」與本句語境不同。"
+        "battle-mcq-12": "本句的「battlefield」指「實際戰場；比喻激烈競爭發生的領域」。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-12"
     },
@@ -1061,11 +955,9 @@ export default {
       "masked": "Price has become the main ____ for local businesses.",
       "options": [
         "battle-mcq-12",
-        "battle-mcq-11",
-        "battle-mcq-13",
-        "battle-mcq-10",
         "battle-mcq-09",
-        "battle-mcq-08"
+        "battle-mcq-03",
+        "battle-mcq-11"
       ],
       "explanation": "本句的「battlefield」指「實際戰場；比喻激烈競爭發生的領域」。",
       "sentenceIndex": 27,
@@ -1074,12 +966,10 @@ export default {
         "battlefield"
       ],
       "optionReasons": {
-        "battle-mcq-12": "本句指「實際戰場；比喻激烈競爭發生的領域」。",
-        "battle-mcq-11": "「成功機會很低、形勢持續不利的鬥爭」與本句語境不同。",
-        "battle-mcq-13": "「各方激烈爭奪或爭論的領域／焦點」與本句語境不同。",
-        "battle-mcq-10": "「因條件不利而極難成功的努力」與本句語境不同。",
-        "battle-mcq-09": "「雙方都不願讓步的意志較量」與本句語境不同。",
-        "battle-mcq-08": "「與某個問題、疾病、壓力或對手抗爭」與本句語境不同。"
+        "battle-mcq-12": "本句的「battlefield」指「實際戰場；比喻激烈競爭發生的領域」。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-12"
     },
@@ -1091,11 +981,9 @@ export default {
       "masked": "The neighbourhood has become a commercial ____.",
       "options": [
         "battle-mcq-13",
-        "battle-mcq-12",
-        "battle-mcq-11",
         "battle-mcq-10",
         "battle-mcq-09",
-        "battle-mcq-08"
+        "battle-mcq-04"
       ],
       "explanation": "本句的「battleground」指「各方激烈爭奪或爭論的領域／焦點」。",
       "sentenceIndex": 28,
@@ -1104,12 +992,10 @@ export default {
         "battleground"
       ],
       "optionReasons": {
-        "battle-mcq-13": "本句指「各方激烈爭奪或爭論的領域／焦點」。",
-        "battle-mcq-12": "「實際戰場；比喻激烈競爭發生的領域」與本句語境不同。",
-        "battle-mcq-11": "「成功機會很低、形勢持續不利的鬥爭」與本句語境不同。",
-        "battle-mcq-10": "「因條件不利而極難成功的努力」與本句語境不同。",
-        "battle-mcq-09": "「雙方都不願讓步的意志較量」與本句語境不同。",
-        "battle-mcq-08": "「與某個問題、疾病、壓力或對手抗爭」與本句語境不同。"
+        "battle-mcq-13": "本句的「battleground」指「各方激烈爭奪或爭論的領域／焦點」。",
+        "battle-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-13"
     },
@@ -1121,11 +1007,9 @@ export default {
       "masked": "Social media is now a major ____ for brands.",
       "options": [
         "battle-mcq-13",
-        "battle-mcq-12",
-        "battle-mcq-11",
-        "battle-mcq-10",
         "battle-mcq-09",
-        "battle-mcq-08"
+        "battle-mcq-04",
+        "battle-mcq-10"
       ],
       "explanation": "本句的「battleground」指「各方激烈爭奪或爭論的領域／焦點」。",
       "sentenceIndex": 29,
@@ -1134,12 +1018,10 @@ export default {
         "battleground"
       ],
       "optionReasons": {
-        "battle-mcq-13": "本句指「各方激烈爭奪或爭論的領域／焦點」。",
-        "battle-mcq-12": "「實際戰場；比喻激烈競爭發生的領域」與本句語境不同。",
-        "battle-mcq-11": "「成功機會很低、形勢持續不利的鬥爭」與本句語境不同。",
-        "battle-mcq-10": "「因條件不利而極難成功的努力」與本句語境不同。",
-        "battle-mcq-09": "「雙方都不願讓步的意志較量」與本句語境不同。",
-        "battle-mcq-08": "「與某個問題、疾病、壓力或對手抗爭」與本句語境不同。"
+        "battle-mcq-13": "本句的「battleground」指「各方激烈爭奪或爭論的領域／焦點」。",
+        "battle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "battle-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "battle-mcq-13"
     }
@@ -1151,5 +1033,7 @@ export default {
     "sha256": "a6b08b05014a9801eae8daf240943cae80ce229088684c415f06374cb863c13d",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

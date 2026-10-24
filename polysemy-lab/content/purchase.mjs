@@ -415,11 +415,8 @@ export default {
       "masked": "Many families cannot afford to ____ an electric car.",
       "options": [
         "purchase-mcq-01",
-        "purchase-mcq-02",
-        "purchase-mcq-03",
-        "purchase-mcq-04",
-        "purchase-mcq-05",
-        "purchase-mcq-06"
+        "purchase-mcq-20",
+        "purchase-mcq-04"
       ],
       "explanation": "本句的「purchase」指「以金錢正式／商業性地取得商品、服務、資產或權利」。",
       "sentenceIndex": 0,
@@ -428,12 +425,9 @@ export default {
         "purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-01": "本句指「以金錢正式／商業性地取得商品、服務、資產或權利」。",
-        "purchase-mcq-02": "「買入某物的行為或交易」與本句語境不同。",
-        "purchase-mcq-03": "「已經買下來的物品」與本句語境不同。",
-        "purchase-mcq-04": "「金額高、通常需要仔細考慮的大型購置」與本句語境不同。",
-        "purchase-mcq-05": "「消費者對是否／購買甚麼所作的決定」與本句語境不同。",
-        "purchase-mcq-06": "「消費者計劃／願意購買某物的程度」與本句語境不同。"
+        "purchase-mcq-01": "本句的「purchase」指「以金錢正式／商業性地取得商品、服務、資產或權利」。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-01"
     },
@@ -445,11 +439,8 @@ export default {
       "masked": "Customers can ____ the vehicle online.",
       "options": [
         "purchase-mcq-01",
-        "purchase-mcq-02",
-        "purchase-mcq-03",
-        "purchase-mcq-04",
-        "purchase-mcq-05",
-        "purchase-mcq-06"
+        "purchase-mcq-20",
+        "purchase-mcq-04"
       ],
       "explanation": "本句的「purchase」指「以金錢正式／商業性地取得商品、服務、資產或權利」。",
       "sentenceIndex": 1,
@@ -458,12 +449,9 @@ export default {
         "purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-01": "本句指「以金錢正式／商業性地取得商品、服務、資產或權利」。",
-        "purchase-mcq-02": "「買入某物的行為或交易」與本句語境不同。",
-        "purchase-mcq-03": "「已經買下來的物品」與本句語境不同。",
-        "purchase-mcq-04": "「金額高、通常需要仔細考慮的大型購置」與本句語境不同。",
-        "purchase-mcq-05": "「消費者對是否／購買甚麼所作的決定」與本句語境不同。",
-        "purchase-mcq-06": "「消費者計劃／願意購買某物的程度」與本句語境不同。"
+        "purchase-mcq-01": "本句的「purchase」指「以金錢正式／商業性地取得商品、服務、資產或權利」。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-01"
     },
@@ -475,11 +463,8 @@ export default {
       "masked": "A car is a ____ for most families.",
       "options": [
         "purchase-mcq-04",
-        "purchase-mcq-03",
-        "purchase-mcq-05",
-        "purchase-mcq-02",
-        "purchase-mcq-06",
-        "purchase-mcq-01"
+        "purchase-mcq-07",
+        "purchase-mcq-20"
       ],
       "explanation": "本句的「major purchase」指「金額高、通常需要仔細考慮的大型購置」。",
       "sentenceIndex": 6,
@@ -488,12 +473,9 @@ export default {
         "major purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-04": "本句指「金額高、通常需要仔細考慮的大型購置」。",
-        "purchase-mcq-03": "「已經買下來的物品」與本句語境不同。",
-        "purchase-mcq-05": "「消費者對是否／購買甚麼所作的決定」與本句語境不同。",
-        "purchase-mcq-02": "「買入某物的行為或交易」與本句語境不同。",
-        "purchase-mcq-06": "「消費者計劃／願意購買某物的程度」與本句語境不同。",
-        "purchase-mcq-01": "「以金錢正式／商業性地取得商品、服務、資產或權利」與本句語境不同。"
+        "purchase-mcq-04": "本句的「major purchase」指「金額高、通常需要仔細考慮的大型購置」。",
+        "purchase-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-04"
     },
@@ -505,11 +487,8 @@ export default {
       "masked": "Consumers often compare prices before making a major ____.",
       "options": [
         "purchase-mcq-04",
-        "purchase-mcq-03",
-        "purchase-mcq-05",
-        "purchase-mcq-02",
-        "purchase-mcq-06",
-        "purchase-mcq-01"
+        "purchase-mcq-07",
+        "purchase-mcq-20"
       ],
       "explanation": "本句的「purchase」指「金額高、通常需要仔細考慮的大型購置」。",
       "sentenceIndex": 7,
@@ -518,12 +497,9 @@ export default {
         "purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-04": "本句指「金額高、通常需要仔細考慮的大型購置」。",
-        "purchase-mcq-03": "「已經買下來的物品」與本句語境不同。",
-        "purchase-mcq-05": "「消費者對是否／購買甚麼所作的決定」與本句語境不同。",
-        "purchase-mcq-02": "「買入某物的行為或交易」與本句語境不同。",
-        "purchase-mcq-06": "「消費者計劃／願意購買某物的程度」與本句語境不同。",
-        "purchase-mcq-01": "「以金錢正式／商業性地取得商品、服務、資產或權利」與本句語境不同。"
+        "purchase-mcq-04": "本句的「purchase」指「金額高、通常需要仔細考慮的大型購置」。",
+        "purchase-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-04"
     },
@@ -535,11 +511,9 @@ export default {
       "masked": "Price strongly affects the ____.",
       "options": [
         "purchase-mcq-05",
-        "purchase-mcq-04",
-        "purchase-mcq-06",
-        "purchase-mcq-03",
-        "purchase-mcq-07",
-        "purchase-mcq-02"
+        "purchase-mcq-16",
+        "purchase-mcq-20",
+        "purchase-mcq-04"
       ],
       "explanation": "本句的「purchase decision」指「消費者對是否／購買甚麼所作的決定」。",
       "sentenceIndex": 10,
@@ -548,12 +522,10 @@ export default {
         "purchase decision"
       ],
       "optionReasons": {
-        "purchase-mcq-05": "本句指「消費者對是否／購買甚麼所作的決定」。",
-        "purchase-mcq-04": "「金額高、通常需要仔細考慮的大型購置」與本句語境不同。",
-        "purchase-mcq-06": "「消費者計劃／願意購買某物的程度」與本句語境不同。",
-        "purchase-mcq-03": "「已經買下來的物品」與本句語境不同。",
-        "purchase-mcq-07": "「買方為取得商品／資產所支付或同意支付的價格」與本句語境不同。",
-        "purchase-mcq-02": "「買入某物的行為或交易」與本句語境不同。"
+        "purchase-mcq-05": "本句的「purchase decision」指「消費者對是否／購買甚麼所作的決定」。",
+        "purchase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-05"
     },
@@ -565,11 +537,9 @@ export default {
       "masked": "Charging convenience may influence a buyer’s ____ decision.",
       "options": [
         "purchase-mcq-05",
-        "purchase-mcq-04",
-        "purchase-mcq-06",
-        "purchase-mcq-03",
-        "purchase-mcq-07",
-        "purchase-mcq-02"
+        "purchase-mcq-16",
+        "purchase-mcq-20",
+        "purchase-mcq-04"
       ],
       "explanation": "本句的「purchase」指「消費者對是否／購買甚麼所作的決定」。",
       "sentenceIndex": 11,
@@ -578,12 +548,10 @@ export default {
         "purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-05": "本句指「消費者對是否／購買甚麼所作的決定」。",
-        "purchase-mcq-04": "「金額高、通常需要仔細考慮的大型購置」與本句語境不同。",
-        "purchase-mcq-06": "「消費者計劃／願意購買某物的程度」與本句語境不同。",
-        "purchase-mcq-03": "「已經買下來的物品」與本句語境不同。",
-        "purchase-mcq-07": "「買方為取得商品／資產所支付或同意支付的價格」與本句語境不同。",
-        "purchase-mcq-02": "「買入某物的行為或交易」與本句語境不同。"
+        "purchase-mcq-05": "本句的「purchase」指「消費者對是否／購買甚麼所作的決定」。",
+        "purchase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-05"
     },
@@ -595,11 +563,9 @@ export default {
       "masked": "The survey measured consumers’ ____.",
       "options": [
         "purchase-mcq-06",
-        "purchase-mcq-05",
-        "purchase-mcq-07",
+        "purchase-mcq-20",
         "purchase-mcq-04",
-        "purchase-mcq-08",
-        "purchase-mcq-03"
+        "purchase-mcq-08"
       ],
       "explanation": "本句的「purchase intention」指「消費者計劃／願意購買某物的程度」。",
       "sentenceIndex": 12,
@@ -608,12 +574,10 @@ export default {
         "purchase intention"
       ],
       "optionReasons": {
-        "purchase-mcq-06": "本句指「消費者計劃／願意購買某物的程度」。",
-        "purchase-mcq-05": "「消費者對是否／購買甚麼所作的決定」與本句語境不同。",
-        "purchase-mcq-07": "「買方為取得商品／資產所支付或同意支付的價格」與本句語境不同。",
-        "purchase-mcq-04": "「金額高、通常需要仔細考慮的大型購置」與本句語境不同。",
-        "purchase-mcq-08": "「買方向供應商正式發出的訂購文件」與本句語境不同。",
-        "purchase-mcq-03": "「已經買下來的物品」與本句語境不同。"
+        "purchase-mcq-06": "本句的「purchase intention」指「消費者計劃／願意購買某物的程度」。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-06"
     },
@@ -625,11 +589,9 @@ export default {
       "masked": "Higher trust can increase ____ intention.",
       "options": [
         "purchase-mcq-06",
-        "purchase-mcq-05",
-        "purchase-mcq-07",
+        "purchase-mcq-20",
         "purchase-mcq-04",
-        "purchase-mcq-08",
-        "purchase-mcq-03"
+        "purchase-mcq-08"
       ],
       "explanation": "本句的「purchase」指「消費者計劃／願意購買某物的程度」。",
       "sentenceIndex": 13,
@@ -638,12 +600,10 @@ export default {
         "purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-06": "本句指「消費者計劃／願意購買某物的程度」。",
-        "purchase-mcq-05": "「消費者對是否／購買甚麼所作的決定」與本句語境不同。",
-        "purchase-mcq-07": "「買方為取得商品／資產所支付或同意支付的價格」與本句語境不同。",
-        "purchase-mcq-04": "「金額高、通常需要仔細考慮的大型購置」與本句語境不同。",
-        "purchase-mcq-08": "「買方向供應商正式發出的訂購文件」與本句語境不同。",
-        "purchase-mcq-03": "「已經買下來的物品」與本句語境不同。"
+        "purchase-mcq-06": "本句的「purchase」指「消費者計劃／願意購買某物的程度」。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-06"
     },
@@ -655,11 +615,8 @@ export default {
       "masked": "The ____ includes tax.",
       "options": [
         "purchase-mcq-07",
-        "purchase-mcq-06",
-        "purchase-mcq-08",
-        "purchase-mcq-05",
-        "purchase-mcq-09",
-        "purchase-mcq-04"
+        "purchase-mcq-04",
+        "purchase-mcq-20"
       ],
       "explanation": "本句的「purchase price」指「買方為取得商品／資產所支付或同意支付的價格」。",
       "sentenceIndex": 16,
@@ -668,12 +625,9 @@ export default {
         "purchase price"
       ],
       "optionReasons": {
-        "purchase-mcq-07": "本句指「買方為取得商品／資產所支付或同意支付的價格」。",
-        "purchase-mcq-06": "「消費者計劃／願意購買某物的程度」與本句語境不同。",
-        "purchase-mcq-08": "「買方向供應商正式發出的訂購文件」與本句語境不同。",
-        "purchase-mcq-05": "「消費者對是否／購買甚麼所作的決定」與本句語境不同。",
-        "purchase-mcq-09": "「規定買賣雙方權利義務的購買／買賣協議」與本句語境不同。",
-        "purchase-mcq-04": "「金額高、通常需要仔細考慮的大型購置」與本句語境不同。"
+        "purchase-mcq-07": "本句的「purchase price」指「買方為取得商品／資產所支付或同意支付的價格」。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-07"
     },
@@ -685,11 +639,8 @@ export default {
       "masked": "The buyer negotiated a lower ____ price.",
       "options": [
         "purchase-mcq-07",
-        "purchase-mcq-06",
-        "purchase-mcq-08",
-        "purchase-mcq-05",
-        "purchase-mcq-09",
-        "purchase-mcq-04"
+        "purchase-mcq-04",
+        "purchase-mcq-20"
       ],
       "explanation": "本句的「purchase」指「買方為取得商品／資產所支付或同意支付的價格」。",
       "sentenceIndex": 17,
@@ -698,12 +649,9 @@ export default {
         "purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-07": "本句指「買方為取得商品／資產所支付或同意支付的價格」。",
-        "purchase-mcq-06": "「消費者計劃／願意購買某物的程度」與本句語境不同。",
-        "purchase-mcq-08": "「買方向供應商正式發出的訂購文件」與本句語境不同。",
-        "purchase-mcq-05": "「消費者對是否／購買甚麼所作的決定」與本句語境不同。",
-        "purchase-mcq-09": "「規定買賣雙方權利義務的購買／買賣協議」與本句語境不同。",
-        "purchase-mcq-04": "「金額高、通常需要仔細考慮的大型購置」與本句語境不同。"
+        "purchase-mcq-07": "本句的「purchase」指「買方為取得商品／資產所支付或同意支付的價格」。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-07"
     },
@@ -715,10 +663,8 @@ export default {
       "masked": "The company issued a ____.",
       "options": [
         "purchase-mcq-08",
-        "purchase-mcq-07",
-        "purchase-mcq-09",
-        "purchase-mcq-06",
-        "purchase-mcq-10",
+        "purchase-mcq-20",
+        "purchase-mcq-04",
         "purchase-mcq-05"
       ],
       "explanation": "本句的「purchase order」指「買方向供應商正式發出的訂購文件」。",
@@ -728,12 +674,10 @@ export default {
         "purchase order"
       ],
       "optionReasons": {
-        "purchase-mcq-08": "本句指「買方向供應商正式發出的訂購文件」。",
-        "purchase-mcq-07": "「買方為取得商品／資產所支付或同意支付的價格」與本句語境不同。",
-        "purchase-mcq-09": "「規定買賣雙方權利義務的購買／買賣協議」與本句語境不同。",
-        "purchase-mcq-06": "「消費者計劃／願意購買某物的程度」與本句語境不同。",
-        "purchase-mcq-10": "「正式商業／法律語境中的買方」與本句語境不同。",
-        "purchase-mcq-05": "「消費者對是否／購買甚麼所作的決定」與本句語境不同。"
+        "purchase-mcq-08": "本句的「purchase order」指「買方向供應商正式發出的訂購文件」。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-08"
     },
@@ -745,11 +689,9 @@ export default {
       "masked": "The supplier received the ____ order yesterday.",
       "options": [
         "purchase-mcq-08",
-        "purchase-mcq-07",
-        "purchase-mcq-09",
-        "purchase-mcq-06",
-        "purchase-mcq-10",
-        "purchase-mcq-05"
+        "purchase-mcq-20",
+        "purchase-mcq-04",
+        "purchase-mcq-09"
       ],
       "explanation": "本句的「purchase」指「買方向供應商正式發出的訂購文件」。",
       "sentenceIndex": 21,
@@ -758,12 +700,10 @@ export default {
         "purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-08": "本句指「買方向供應商正式發出的訂購文件」。",
-        "purchase-mcq-07": "「買方為取得商品／資產所支付或同意支付的價格」與本句語境不同。",
-        "purchase-mcq-09": "「規定買賣雙方權利義務的購買／買賣協議」與本句語境不同。",
-        "purchase-mcq-06": "「消費者計劃／願意購買某物的程度」與本句語境不同。",
-        "purchase-mcq-10": "「正式商業／法律語境中的買方」與本句語境不同。",
-        "purchase-mcq-05": "「消費者對是否／購買甚麼所作的決定」與本句語境不同。"
+        "purchase-mcq-08": "本句的「purchase」指「買方向供應商正式發出的訂購文件」。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-08"
     },
@@ -775,11 +715,9 @@ export default {
       "masked": "Both parties signed the ____.",
       "options": [
         "purchase-mcq-09",
-        "purchase-mcq-08",
-        "purchase-mcq-10",
-        "purchase-mcq-07",
-        "purchase-mcq-11",
-        "purchase-mcq-06"
+        "purchase-mcq-20",
+        "purchase-mcq-16",
+        "purchase-mcq-04"
       ],
       "explanation": "本句的「purchase agreement」指「規定買賣雙方權利義務的購買／買賣協議」。",
       "sentenceIndex": 22,
@@ -788,12 +726,10 @@ export default {
         "purchase agreement"
       ],
       "optionReasons": {
-        "purchase-mcq-09": "本句指「規定買賣雙方權利義務的購買／買賣協議」。",
-        "purchase-mcq-08": "「買方向供應商正式發出的訂購文件」與本句語境不同。",
-        "purchase-mcq-10": "「正式商業／法律語境中的買方」與本句語境不同。",
-        "purchase-mcq-07": "「買方為取得商品／資產所支付或同意支付的價格」與本句語境不同。",
-        "purchase-mcq-11": "「組織為營運需要購買物資／服務的採購職能」與本句語境不同。",
-        "purchase-mcq-06": "「消費者計劃／願意購買某物的程度」與本句語境不同。"
+        "purchase-mcq-09": "本句的「purchase agreement」指「規定買賣雙方權利義務的購買／買賣協議」。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-09"
     },
@@ -805,11 +741,9 @@ export default {
       "masked": "The ____ agreement specifies the payment terms.",
       "options": [
         "purchase-mcq-09",
-        "purchase-mcq-08",
-        "purchase-mcq-10",
-        "purchase-mcq-07",
-        "purchase-mcq-11",
-        "purchase-mcq-06"
+        "purchase-mcq-16",
+        "purchase-mcq-20",
+        "purchase-mcq-04"
       ],
       "explanation": "本句的「purchase」指「規定買賣雙方權利義務的購買／買賣協議」。",
       "sentenceIndex": 23,
@@ -818,12 +752,10 @@ export default {
         "purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-09": "本句指「規定買賣雙方權利義務的購買／買賣協議」。",
-        "purchase-mcq-08": "「買方向供應商正式發出的訂購文件」與本句語境不同。",
-        "purchase-mcq-10": "「正式商業／法律語境中的買方」與本句語境不同。",
-        "purchase-mcq-07": "「買方為取得商品／資產所支付或同意支付的價格」與本句語境不同。",
-        "purchase-mcq-11": "「組織為營運需要購買物資／服務的採購職能」與本句語境不同。",
-        "purchase-mcq-06": "「消費者計劃／願意購買某物的程度」與本句語境不同。"
+        "purchase-mcq-09": "本句的「purchase」指「規定買賣雙方權利義務的購買／買賣協議」。",
+        "purchase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-09"
     },
@@ -835,10 +767,7 @@ export default {
       "masked": "She works in ____.",
       "options": [
         "purchase-mcq-11",
-        "purchase-mcq-10",
-        "purchase-mcq-12",
-        "purchase-mcq-09",
-        "purchase-mcq-13",
+        "purchase-mcq-20",
         "purchase-mcq-08"
       ],
       "explanation": "本句的「purchasing」指「組織為營運需要購買物資／服務的採購職能」。",
@@ -848,12 +777,9 @@ export default {
         "purchasing"
       ],
       "optionReasons": {
-        "purchase-mcq-11": "本句指「組織為營運需要購買物資／服務的採購職能」。",
-        "purchase-mcq-10": "「正式商業／法律語境中的買方」與本句語境不同。",
-        "purchase-mcq-12": "「一定收入／貨幣實際能購買多少商品和服務的能力」與本句語境不同。",
-        "purchase-mcq-09": "「規定買賣雙方權利義務的購買／買賣協議」與本句語境不同。",
-        "purchase-mcq-13": "「證明商品／服務已被購買的文件或紀錄」與本句語境不同。",
-        "purchase-mcq-08": "「買方向供應商正式發出的訂購文件」與本句語境不同。"
+        "purchase-mcq-11": "本句的「purchasing」指「組織為營運需要購買物資／服務的採購職能」。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-11"
     },
@@ -865,10 +791,7 @@ export default {
       "masked": "The ____ team negotiated with suppliers.",
       "options": [
         "purchase-mcq-11",
-        "purchase-mcq-10",
-        "purchase-mcq-12",
-        "purchase-mcq-09",
-        "purchase-mcq-13",
+        "purchase-mcq-20",
         "purchase-mcq-08"
       ],
       "explanation": "本句的「purchasing」指「組織為營運需要購買物資／服務的採購職能」。",
@@ -878,12 +801,9 @@ export default {
         "purchasing"
       ],
       "optionReasons": {
-        "purchase-mcq-11": "本句指「組織為營運需要購買物資／服務的採購職能」。",
-        "purchase-mcq-10": "「正式商業／法律語境中的買方」與本句語境不同。",
-        "purchase-mcq-12": "「一定收入／貨幣實際能購買多少商品和服務的能力」與本句語境不同。",
-        "purchase-mcq-09": "「規定買賣雙方權利義務的購買／買賣協議」與本句語境不同。",
-        "purchase-mcq-13": "「證明商品／服務已被購買的文件或紀錄」與本句語境不同。",
-        "purchase-mcq-08": "「買方向供應商正式發出的訂購文件」與本句語境不同。"
+        "purchase-mcq-11": "本句的「purchasing」指「組織為營運需要購買物資／服務的採購職能」。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-11"
     },
@@ -895,11 +815,9 @@ export default {
       "masked": "Inflation reduces consumers’ ____.",
       "options": [
         "purchase-mcq-12",
-        "purchase-mcq-11",
-        "purchase-mcq-13",
-        "purchase-mcq-10",
-        "purchase-mcq-14",
-        "purchase-mcq-09"
+        "purchase-mcq-16",
+        "purchase-mcq-20",
+        "purchase-mcq-04"
       ],
       "explanation": "本句的「purchasing power」指「一定收入／貨幣實際能購買多少商品和服務的能力」。",
       "sentenceIndex": 37,
@@ -908,12 +826,10 @@ export default {
         "purchasing power"
       ],
       "optionReasons": {
-        "purchase-mcq-12": "本句指「一定收入／貨幣實際能購買多少商品和服務的能力」。",
-        "purchase-mcq-11": "「組織為營運需要購買物資／服務的採購職能」與本句語境不同。",
-        "purchase-mcq-13": "「證明商品／服務已被購買的文件或紀錄」與本句語境不同。",
-        "purchase-mcq-10": "「正式商業／法律語境中的買方」與本句語境不同。",
-        "purchase-mcq-14": "「沒有充分預先計劃而突然作出的購買」與本句語境不同。",
-        "purchase-mcq-09": "「規定買賣雙方權利義務的購買／買賣協議」與本句語境不同。"
+        "purchase-mcq-12": "本句的「purchasing power」指「一定收入／貨幣實際能購買多少商品和服務的能力」。",
+        "purchase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-12"
     },
@@ -925,11 +841,9 @@ export default {
       "masked": "Higher wages can increase ____ power.",
       "options": [
         "purchase-mcq-12",
-        "purchase-mcq-11",
-        "purchase-mcq-13",
-        "purchase-mcq-10",
-        "purchase-mcq-14",
-        "purchase-mcq-09"
+        "purchase-mcq-16",
+        "purchase-mcq-04",
+        "purchase-mcq-20"
       ],
       "explanation": "本句的「purchasing」指「一定收入／貨幣實際能購買多少商品和服務的能力」。",
       "sentenceIndex": 38,
@@ -938,12 +852,10 @@ export default {
         "purchasing"
       ],
       "optionReasons": {
-        "purchase-mcq-12": "本句指「一定收入／貨幣實際能購買多少商品和服務的能力」。",
-        "purchase-mcq-11": "「組織為營運需要購買物資／服務的採購職能」與本句語境不同。",
-        "purchase-mcq-13": "「證明商品／服務已被購買的文件或紀錄」與本句語境不同。",
-        "purchase-mcq-10": "「正式商業／法律語境中的買方」與本句語境不同。",
-        "purchase-mcq-14": "「沒有充分預先計劃而突然作出的購買」與本句語境不同。",
-        "purchase-mcq-09": "「規定買賣雙方權利義務的購買／買賣協議」與本句語境不同。"
+        "purchase-mcq-12": "本句的「purchasing」指「一定收入／貨幣實際能購買多少商品和服務的能力」。",
+        "purchase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-12"
     },
@@ -955,11 +867,9 @@ export default {
       "masked": "Economists compare countries using ____.",
       "options": [
         "purchase-mcq-12",
-        "purchase-mcq-11",
-        "purchase-mcq-13",
-        "purchase-mcq-10",
-        "purchase-mcq-14",
-        "purchase-mcq-09"
+        "purchase-mcq-16",
+        "purchase-mcq-04",
+        "purchase-mcq-20"
       ],
       "explanation": "本句的「purchasing power parity」指「一定收入／貨幣實際能購買多少商品和服務的能力」。",
       "sentenceIndex": 39,
@@ -968,12 +878,10 @@ export default {
         "purchasing power parity"
       ],
       "optionReasons": {
-        "purchase-mcq-12": "本句指「一定收入／貨幣實際能購買多少商品和服務的能力」。",
-        "purchase-mcq-11": "「組織為營運需要購買物資／服務的採購職能」與本句語境不同。",
-        "purchase-mcq-13": "「證明商品／服務已被購買的文件或紀錄」與本句語境不同。",
-        "purchase-mcq-10": "「正式商業／法律語境中的買方」與本句語境不同。",
-        "purchase-mcq-14": "「沒有充分預先計劃而突然作出的購買」與本句語境不同。",
-        "purchase-mcq-09": "「規定買賣雙方權利義務的購買／買賣協議」與本句語境不同。"
+        "purchase-mcq-12": "本句的「purchasing power parity」指「一定收入／貨幣實際能購買多少商品和服務的能力」。",
+        "purchase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-12"
     },
@@ -985,11 +893,9 @@ export default {
       "masked": "You need ____ for a refund.",
       "options": [
         "purchase-mcq-13",
-        "purchase-mcq-12",
-        "purchase-mcq-14",
-        "purchase-mcq-11",
-        "purchase-mcq-15",
-        "purchase-mcq-10"
+        "purchase-mcq-20",
+        "purchase-mcq-16",
+        "purchase-mcq-04"
       ],
       "explanation": "本句的「proof of purchase」指「證明商品／服務已被購買的文件或紀錄」。",
       "sentenceIndex": 44,
@@ -998,12 +904,10 @@ export default {
         "proof of purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-13": "本句指「證明商品／服務已被購買的文件或紀錄」。",
-        "purchase-mcq-12": "「一定收入／貨幣實際能購買多少商品和服務的能力」與本句語境不同。",
-        "purchase-mcq-14": "「沒有充分預先計劃而突然作出的購買」與本句語境不同。",
-        "purchase-mcq-11": "「組織為營運需要購買物資／服務的採購職能」與本句語境不同。",
-        "purchase-mcq-15": "「一次大量購買／採購」與本句語境不同。",
-        "purchase-mcq-10": "「正式商業／法律語境中的買方」與本句語境不同。"
+        "purchase-mcq-13": "本句的「proof of purchase」指「證明商品／服務已被購買的文件或紀錄」。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-13"
     },
@@ -1015,11 +919,9 @@ export default {
       "masked": "The receipt serves as proof of ____.",
       "options": [
         "purchase-mcq-13",
-        "purchase-mcq-12",
-        "purchase-mcq-14",
-        "purchase-mcq-11",
-        "purchase-mcq-15",
-        "purchase-mcq-10"
+        "purchase-mcq-16",
+        "purchase-mcq-20",
+        "purchase-mcq-04"
       ],
       "explanation": "本句的「purchase」指「證明商品／服務已被購買的文件或紀錄」。",
       "sentenceIndex": 45,
@@ -1028,12 +930,10 @@ export default {
         "purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-13": "本句指「證明商品／服務已被購買的文件或紀錄」。",
-        "purchase-mcq-12": "「一定收入／貨幣實際能購買多少商品和服務的能力」與本句語境不同。",
-        "purchase-mcq-14": "「沒有充分預先計劃而突然作出的購買」與本句語境不同。",
-        "purchase-mcq-11": "「組織為營運需要購買物資／服務的採購職能」與本句語境不同。",
-        "purchase-mcq-15": "「一次大量購買／採購」與本句語境不同。",
-        "purchase-mcq-10": "「正式商業／法律語境中的買方」與本句語境不同。"
+        "purchase-mcq-13": "本句的「purchase」指「證明商品／服務已被購買的文件或紀錄」。",
+        "purchase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-13"
     },
@@ -1045,11 +945,9 @@ export default {
       "masked": "The shoes were an ____.",
       "options": [
         "purchase-mcq-14",
-        "purchase-mcq-13",
-        "purchase-mcq-15",
-        "purchase-mcq-12",
         "purchase-mcq-16",
-        "purchase-mcq-11"
+        "purchase-mcq-20",
+        "purchase-mcq-04"
       ],
       "explanation": "本句的「impulse purchase」指「沒有充分預先計劃而突然作出的購買」。",
       "sentenceIndex": 54,
@@ -1058,12 +956,10 @@ export default {
         "impulse purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-14": "本句指「沒有充分預先計劃而突然作出的購買」。",
-        "purchase-mcq-13": "「證明商品／服務已被購買的文件或紀錄」與本句語境不同。",
-        "purchase-mcq-15": "「一次大量購買／採購」與本句語境不同。",
-        "purchase-mcq-12": "「一定收入／貨幣實際能購買多少商品和服務的能力」與本句語境不同。",
-        "purchase-mcq-16": "「公共機構依法強制取得土地／物業的程序」與本句語境不同。",
-        "purchase-mcq-11": "「組織為營運需要購買物資／服務的採購職能」與本句語境不同。"
+        "purchase-mcq-14": "本句的「impulse purchase」指「沒有充分預先計劃而突然作出的購買」。",
+        "purchase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-14"
     },
@@ -1075,11 +971,9 @@ export default {
       "masked": "Discounts can encourage impulse ____.",
       "options": [
         "purchase-mcq-14",
-        "purchase-mcq-13",
-        "purchase-mcq-15",
-        "purchase-mcq-12",
         "purchase-mcq-16",
-        "purchase-mcq-11"
+        "purchase-mcq-20",
+        "purchase-mcq-04"
       ],
       "explanation": "本句的「purchases」指「沒有充分預先計劃而突然作出的購買」。",
       "sentenceIndex": 55,
@@ -1088,12 +982,10 @@ export default {
         "purchases"
       ],
       "optionReasons": {
-        "purchase-mcq-14": "本句指「沒有充分預先計劃而突然作出的購買」。",
-        "purchase-mcq-13": "「證明商品／服務已被購買的文件或紀錄」與本句語境不同。",
-        "purchase-mcq-15": "「一次大量購買／採購」與本句語境不同。",
-        "purchase-mcq-12": "「一定收入／貨幣實際能購買多少商品和服務的能力」與本句語境不同。",
-        "purchase-mcq-16": "「公共機構依法強制取得土地／物業的程序」與本句語境不同。",
-        "purchase-mcq-11": "「組織為營運需要購買物資／服務的採購職能」與本句語境不同。"
+        "purchase-mcq-14": "本句的「purchases」指「沒有充分預先計劃而突然作出的購買」。",
+        "purchase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-14"
     },
@@ -1105,11 +997,8 @@ export default {
       "masked": "The business received a discount for a ____.",
       "options": [
         "purchase-mcq-15",
-        "purchase-mcq-14",
         "purchase-mcq-16",
-        "purchase-mcq-13",
-        "purchase-mcq-17",
-        "purchase-mcq-12"
+        "purchase-mcq-20"
       ],
       "explanation": "本句的「bulk purchase」指「一次大量購買／採購」。",
       "sentenceIndex": 66,
@@ -1118,12 +1007,9 @@ export default {
         "bulk purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-15": "本句指「一次大量購買／採購」。",
-        "purchase-mcq-14": "「沒有充分預先計劃而突然作出的購買」與本句語境不同。",
-        "purchase-mcq-16": "「公共機構依法強制取得土地／物業的程序」與本句語境不同。",
-        "purchase-mcq-13": "「證明商品／服務已被購買的文件或紀錄」與本句語境不同。",
-        "purchase-mcq-17": "「在指定條件下享有購買某資產的權利」與本句語境不同。",
-        "purchase-mcq-12": "「一定收入／貨幣實際能購買多少商品和服務的能力」與本句語境不同。"
+        "purchase-mcq-15": "本句的「bulk purchase」指「一次大量購買／採購」。",
+        "purchase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-15"
     },
@@ -1135,11 +1021,8 @@ export default {
       "masked": "Bulk ____ can reduce unit cost.",
       "options": [
         "purchase-mcq-15",
-        "purchase-mcq-14",
-        "purchase-mcq-16",
-        "purchase-mcq-13",
-        "purchase-mcq-17",
-        "purchase-mcq-12"
+        "purchase-mcq-20",
+        "purchase-mcq-16"
       ],
       "explanation": "本句的「purchasing」指「一次大量購買／採購」。",
       "sentenceIndex": 67,
@@ -1148,12 +1031,9 @@ export default {
         "purchasing"
       ],
       "optionReasons": {
-        "purchase-mcq-15": "本句指「一次大量購買／採購」。",
-        "purchase-mcq-14": "「沒有充分預先計劃而突然作出的購買」與本句語境不同。",
-        "purchase-mcq-16": "「公共機構依法強制取得土地／物業的程序」與本句語境不同。",
-        "purchase-mcq-13": "「證明商品／服務已被購買的文件或紀錄」與本句語境不同。",
-        "purchase-mcq-17": "「在指定條件下享有購買某資產的權利」與本句語境不同。",
-        "purchase-mcq-12": "「一定收入／貨幣實際能購買多少商品和服務的能力」與本句語境不同。"
+        "purchase-mcq-15": "本句的「purchasing」指「一次大量購買／採購」。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-15"
     },
@@ -1166,10 +1046,7 @@ export default {
       "options": [
         "purchase-mcq-16",
         "purchase-mcq-15",
-        "purchase-mcq-17",
-        "purchase-mcq-14",
-        "purchase-mcq-18",
-        "purchase-mcq-13"
+        "purchase-mcq-20"
       ],
       "explanation": "本句的「compulsory purchase」指「公共機構依法強制取得土地／物業的程序」。",
       "sentenceIndex": 68,
@@ -1178,12 +1055,9 @@ export default {
         "compulsory purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-16": "本句指「公共機構依法強制取得土地／物業的程序」。",
-        "purchase-mcq-15": "「一次大量購買／採購」與本句語境不同。",
-        "purchase-mcq-17": "「在指定條件下享有購買某資產的權利」與本句語境不同。",
-        "purchase-mcq-14": "「沒有充分預先計劃而突然作出的購買」與本句語境不同。",
-        "purchase-mcq-18": "「企業為轉售／營運購入貨品的會計購貨項目」與本句語境不同。",
-        "purchase-mcq-13": "「證明商品／服務已被購買的文件或紀錄」與本句語境不同。"
+        "purchase-mcq-16": "本句的「compulsory purchase」指「公共機構依法強制取得土地／物業的程序」。",
+        "purchase-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-16"
     },
@@ -1195,11 +1069,9 @@ export default {
       "masked": "The land was acquired through compulsory ____.",
       "options": [
         "purchase-mcq-16",
-        "purchase-mcq-15",
-        "purchase-mcq-17",
-        "purchase-mcq-14",
-        "purchase-mcq-18",
-        "purchase-mcq-13"
+        "purchase-mcq-05",
+        "purchase-mcq-04",
+        "purchase-mcq-20"
       ],
       "explanation": "本句的「purchase」指「公共機構依法強制取得土地／物業的程序」。",
       "sentenceIndex": 69,
@@ -1208,12 +1080,10 @@ export default {
         "purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-16": "本句指「公共機構依法強制取得土地／物業的程序」。",
-        "purchase-mcq-15": "「一次大量購買／採購」與本句語境不同。",
-        "purchase-mcq-17": "「在指定條件下享有購買某資產的權利」與本句語境不同。",
-        "purchase-mcq-14": "「沒有充分預先計劃而突然作出的購買」與本句語境不同。",
-        "purchase-mcq-18": "「企業為轉售／營運購入貨品的會計購貨項目」與本句語境不同。",
-        "purchase-mcq-13": "「證明商品／服務已被購買的文件或紀錄」與本句語境不同。"
+        "purchase-mcq-16": "本句的「purchase」指「公共機構依法強制取得土地／物業的程序」。",
+        "purchase-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-16"
     },
@@ -1226,10 +1096,8 @@ export default {
       "options": [
         "purchase-mcq-17",
         "purchase-mcq-16",
-        "purchase-mcq-18",
-        "purchase-mcq-15",
-        "purchase-mcq-19",
-        "purchase-mcq-14"
+        "purchase-mcq-20",
+        "purchase-mcq-04"
       ],
       "explanation": "本句的「purchase option」指「在指定條件下享有購買某資產的權利」。",
       "sentenceIndex": 70,
@@ -1238,12 +1106,10 @@ export default {
         "purchase option"
       ],
       "optionReasons": {
-        "purchase-mcq-17": "本句指「在指定條件下享有購買某資產的權利」。",
-        "purchase-mcq-16": "「公共機構依法強制取得土地／物業的程序」與本句語境不同。",
-        "purchase-mcq-18": "「企業為轉售／營運購入貨品的會計購貨項目」與本句語境不同。",
-        "purchase-mcq-15": "「一次大量購買／採購」與本句語境不同。",
-        "purchase-mcq-19": "「接觸表面時可讓人／物抓穩、施力的抓力或著力點」與本句語境不同。",
-        "purchase-mcq-14": "「沒有充分預先計劃而突然作出的購買」與本句語境不同。"
+        "purchase-mcq-17": "本句的「purchase option」指「在指定條件下享有購買某資產的權利」。",
+        "purchase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-17"
     },
@@ -1255,11 +1121,9 @@ export default {
       "masked": "The tenant may exercise the ____ option later.",
       "options": [
         "purchase-mcq-17",
+        "purchase-mcq-20",
         "purchase-mcq-16",
-        "purchase-mcq-18",
-        "purchase-mcq-15",
-        "purchase-mcq-19",
-        "purchase-mcq-14"
+        "purchase-mcq-04"
       ],
       "explanation": "本句的「purchase」指「在指定條件下享有購買某資產的權利」。",
       "sentenceIndex": 71,
@@ -1268,12 +1132,10 @@ export default {
         "purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-17": "本句指「在指定條件下享有購買某資產的權利」。",
-        "purchase-mcq-16": "「公共機構依法強制取得土地／物業的程序」與本句語境不同。",
-        "purchase-mcq-18": "「企業為轉售／營運購入貨品的會計購貨項目」與本句語境不同。",
-        "purchase-mcq-15": "「一次大量購買／採購」與本句語境不同。",
-        "purchase-mcq-19": "「接觸表面時可讓人／物抓穩、施力的抓力或著力點」與本句語境不同。",
-        "purchase-mcq-14": "「沒有充分預先計劃而突然作出的購買」與本句語境不同。"
+        "purchase-mcq-17": "本句的「purchase」指「在指定條件下享有購買某資產的權利」。",
+        "purchase-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-17"
     },
@@ -1285,11 +1147,9 @@ export default {
       "masked": "His boots could not get enough ____ on the wet rock.",
       "options": [
         "purchase-mcq-20",
-        "purchase-mcq-19",
-        "purchase-mcq-18",
-        "purchase-mcq-17",
-        "purchase-mcq-16",
-        "purchase-mcq-15"
+        "purchase-mcq-06",
+        "purchase-mcq-08",
+        "purchase-mcq-04"
       ],
       "explanation": "本句的「purchase」指「能讓人更有效施力的支撐／槓桿作用」。",
       "sentenceIndex": 86,
@@ -1298,12 +1158,10 @@ export default {
         "purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-20": "本句指「能讓人更有效施力的支撐／槓桿作用」。",
-        "purchase-mcq-19": "「接觸表面時可讓人／物抓穩、施力的抓力或著力點」與本句語境不同。",
-        "purchase-mcq-18": "「企業為轉售／營運購入貨品的會計購貨項目」與本句語境不同。",
-        "purchase-mcq-17": "「在指定條件下享有購買某資產的權利」與本句語境不同。",
-        "purchase-mcq-16": "「公共機構依法強制取得土地／物業的程序」與本句語境不同。",
-        "purchase-mcq-15": "「一次大量購買／採購」與本句語境不同。"
+        "purchase-mcq-20": "本句的「purchase」指「能讓人更有效施力的支撐／槓桿作用」。",
+        "purchase-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-20"
     },
@@ -1315,11 +1173,9 @@ export default {
       "masked": "She dug her fingers into the edge to gain ____.",
       "options": [
         "purchase-mcq-20",
-        "purchase-mcq-19",
-        "purchase-mcq-18",
-        "purchase-mcq-17",
         "purchase-mcq-16",
-        "purchase-mcq-15"
+        "purchase-mcq-05",
+        "purchase-mcq-04"
       ],
       "explanation": "本句的「purchase」指「能讓人更有效施力的支撐／槓桿作用」。",
       "sentenceIndex": 87,
@@ -1328,12 +1184,10 @@ export default {
         "purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-20": "本句指「能讓人更有效施力的支撐／槓桿作用」。",
-        "purchase-mcq-19": "「接觸表面時可讓人／物抓穩、施力的抓力或著力點」與本句語境不同。",
-        "purchase-mcq-18": "「企業為轉售／營運購入貨品的會計購貨項目」與本句語境不同。",
-        "purchase-mcq-17": "「在指定條件下享有購買某資產的權利」與本句語境不同。",
-        "purchase-mcq-16": "「公共機構依法強制取得土地／物業的程序」與本句語境不同。",
-        "purchase-mcq-15": "「一次大量購買／採購」與本句語境不同。"
+        "purchase-mcq-20": "本句的「purchase」指「能讓人更有效施力的支撐／槓桿作用」。",
+        "purchase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-20"
     },
@@ -1345,11 +1199,9 @@ export default {
       "masked": "The rope gave them enough ____ to move the load.",
       "options": [
         "purchase-mcq-20",
-        "purchase-mcq-19",
-        "purchase-mcq-18",
-        "purchase-mcq-17",
+        "purchase-mcq-13",
         "purchase-mcq-16",
-        "purchase-mcq-15"
+        "purchase-mcq-04"
       ],
       "explanation": "本句的「purchase」指「能讓人更有效施力的支撐／槓桿作用」。",
       "sentenceIndex": 92,
@@ -1358,12 +1210,10 @@ export default {
         "purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-20": "本句指「能讓人更有效施力的支撐／槓桿作用」。",
-        "purchase-mcq-19": "「接觸表面時可讓人／物抓穩、施力的抓力或著力點」與本句語境不同。",
-        "purchase-mcq-18": "「企業為轉售／營運購入貨品的會計購貨項目」與本句語境不同。",
-        "purchase-mcq-17": "「在指定條件下享有購買某資產的權利」與本句語境不同。",
-        "purchase-mcq-16": "「公共機構依法強制取得土地／物業的程序」與本句語境不同。",
-        "purchase-mcq-15": "「一次大量購買／採購」與本句語境不同。"
+        "purchase-mcq-20": "本句的「purchase」指「能讓人更有效施力的支撐／槓桿作用」。",
+        "purchase-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-20"
     },
@@ -1375,11 +1225,8 @@ export default {
       "masked": "The handle provides extra ____.",
       "options": [
         "purchase-mcq-20",
-        "purchase-mcq-19",
-        "purchase-mcq-18",
-        "purchase-mcq-17",
-        "purchase-mcq-16",
-        "purchase-mcq-15"
+        "purchase-mcq-01",
+        "purchase-mcq-04"
       ],
       "explanation": "本句的「purchase」指「能讓人更有效施力的支撐／槓桿作用」。",
       "sentenceIndex": 93,
@@ -1388,12 +1235,9 @@ export default {
         "purchase"
       ],
       "optionReasons": {
-        "purchase-mcq-20": "本句指「能讓人更有效施力的支撐／槓桿作用」。",
-        "purchase-mcq-19": "「接觸表面時可讓人／物抓穩、施力的抓力或著力點」與本句語境不同。",
-        "purchase-mcq-18": "「企業為轉售／營運購入貨品的會計購貨項目」與本句語境不同。",
-        "purchase-mcq-17": "「在指定條件下享有購買某資產的權利」與本句語境不同。",
-        "purchase-mcq-16": "「公共機構依法強制取得土地／物業的程序」與本句語境不同。",
-        "purchase-mcq-15": "「一次大量購買／採購」與本句語境不同。"
+        "purchase-mcq-20": "本句的「purchase」指「能讓人更有效施力的支撐／槓桿作用」。",
+        "purchase-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "purchase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purchase-mcq-20"
     }
@@ -1405,5 +1249,7 @@ export default {
     "sha256": "c041e7eda5399ebcca2ab7cc315de4e3c22203c9f4cb2b7f3fe5b26f2248da77",
     "pages": 41
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

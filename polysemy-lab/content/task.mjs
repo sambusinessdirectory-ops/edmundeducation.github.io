@@ -480,11 +480,9 @@ export default {
       "masked": "I broke large ____ into smaller steps.",
       "options": [
         "task-mcq-01",
-        "task-mcq-02",
-        "task-mcq-03",
-        "task-mcq-04",
-        "task-mcq-05",
-        "task-mcq-06"
+        "task-mcq-14",
+        "task-mcq-11",
+        "task-mcq-13"
       ],
       "explanation": "本句的「tasks」指「任務；工作項目」。",
       "sentenceIndex": 0,
@@ -493,12 +491,10 @@ export default {
         "tasks"
       ],
       "optionReasons": {
-        "task-mcq-01": "本句指「任務；工作項目」。",
-        "task-mcq-02": "「完成任務」與本句語境不同。",
-        "task-mcq-03": "「執行任務」與本句語境不同。",
-        "task-mcq-04": "「執行工作」與本句語境不同。",
-        "task-mcq-05": "「困難任務」與本句語境不同。",
-        "task-mcq-06": "「例行工作」與本句語境不同。"
+        "task-mcq-01": "本句的「tasks」指「任務；工作項目」。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-01"
     },
@@ -510,11 +506,9 @@ export default {
       "masked": "I always do the hardest ____ first.",
       "options": [
         "task-mcq-01",
-        "task-mcq-02",
-        "task-mcq-03",
-        "task-mcq-04",
-        "task-mcq-05",
-        "task-mcq-06"
+        "task-mcq-12",
+        "task-mcq-14",
+        "task-mcq-16"
       ],
       "explanation": "本句的「task」指「任務；工作項目」。",
       "sentenceIndex": 1,
@@ -523,12 +517,10 @@ export default {
         "task"
       ],
       "optionReasons": {
-        "task-mcq-01": "本句指「任務；工作項目」。",
-        "task-mcq-02": "「完成任務」與本句語境不同。",
-        "task-mcq-03": "「執行任務」與本句語境不同。",
-        "task-mcq-04": "「執行工作」與本句語境不同。",
-        "task-mcq-05": "「困難任務」與本句語境不同。",
-        "task-mcq-06": "「例行工作」與本句語境不同。"
+        "task-mcq-01": "本句的「task」指「任務；工作項目」。",
+        "task-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-01"
     },
@@ -540,11 +532,9 @@ export default {
       "masked": "This ____ should take about an hour.",
       "options": [
         "task-mcq-01",
-        "task-mcq-02",
-        "task-mcq-03",
-        "task-mcq-04",
-        "task-mcq-05",
-        "task-mcq-06"
+        "task-mcq-13",
+        "task-mcq-10",
+        "task-mcq-14"
       ],
       "explanation": "本句的「task」指「任務；工作項目」。",
       "sentenceIndex": 2,
@@ -553,12 +543,10 @@ export default {
         "task"
       ],
       "optionReasons": {
-        "task-mcq-01": "本句指「任務；工作項目」。",
-        "task-mcq-02": "「完成任務」與本句語境不同。",
-        "task-mcq-03": "「執行任務」與本句語境不同。",
-        "task-mcq-04": "「執行工作」與本句語境不同。",
-        "task-mcq-05": "「困難任務」與本句語境不同。",
-        "task-mcq-06": "「例行工作」與本句語境不同。"
+        "task-mcq-01": "本句的「task」指「任務；工作項目」。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-01"
     },
@@ -570,11 +558,9 @@ export default {
       "masked": "I completed the ____ before lunch.",
       "options": [
         "task-mcq-02",
-        "task-mcq-01",
-        "task-mcq-03",
-        "task-mcq-04",
-        "task-mcq-05",
-        "task-mcq-06"
+        "task-mcq-11",
+        "task-mcq-14",
+        "task-mcq-16"
       ],
       "explanation": "本句的「task」指「完成任務」。",
       "sentenceIndex": 3,
@@ -583,12 +569,10 @@ export default {
         "task"
       ],
       "optionReasons": {
-        "task-mcq-02": "本句指「完成任務」。",
-        "task-mcq-01": "「任務；工作項目」與本句語境不同。",
-        "task-mcq-03": "「執行任務」與本句語境不同。",
-        "task-mcq-04": "「執行工作」與本句語境不同。",
-        "task-mcq-05": "「困難任務」與本句語境不同。",
-        "task-mcq-06": "「例行工作」與本句語境不同。"
+        "task-mcq-02": "本句的「task」指「完成任務」。",
+        "task-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-02"
     },
@@ -600,11 +584,9 @@ export default {
       "masked": "She stayed late to ____.",
       "options": [
         "task-mcq-02",
-        "task-mcq-01",
-        "task-mcq-03",
-        "task-mcq-04",
-        "task-mcq-05",
-        "task-mcq-06"
+        "task-mcq-12",
+        "task-mcq-15",
+        "task-mcq-14"
       ],
       "explanation": "本句的「finish the task」指「完成任務」。",
       "sentenceIndex": 4,
@@ -613,12 +595,10 @@ export default {
         "finish the task"
       ],
       "optionReasons": {
-        "task-mcq-02": "本句指「完成任務」。",
-        "task-mcq-01": "「任務；工作項目」與本句語境不同。",
-        "task-mcq-03": "「執行任務」與本句語境不同。",
-        "task-mcq-04": "「執行工作」與本句語境不同。",
-        "task-mcq-05": "「困難任務」與本句語境不同。",
-        "task-mcq-06": "「例行工作」與本句語境不同。"
+        "task-mcq-02": "本句的「finish the task」指「完成任務」。",
+        "task-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-02"
     },
@@ -630,11 +610,9 @@ export default {
       "masked": "Each team member had to ____.",
       "options": [
         "task-mcq-03",
-        "task-mcq-02",
-        "task-mcq-04",
-        "task-mcq-01",
-        "task-mcq-05",
-        "task-mcq-06"
+        "task-pdf-001",
+        "task-mcq-13",
+        "task-mcq-14"
       ],
       "explanation": "本句的「carry out a different task」指「執行任務」。",
       "sentenceIndex": 5,
@@ -643,12 +621,10 @@ export default {
         "carry out a different task"
       ],
       "optionReasons": {
-        "task-mcq-03": "本句指「執行任務」。",
-        "task-mcq-02": "「完成任務」與本句語境不同。",
-        "task-mcq-04": "「執行工作」與本句語境不同。",
-        "task-mcq-01": "「任務；工作項目」與本句語境不同。",
-        "task-mcq-05": "「困難任務」與本句語境不同。",
-        "task-mcq-06": "「例行工作」與本句語境不同。"
+        "task-mcq-03": "本句的「carry out a different task」指「執行任務」。",
+        "task-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-03"
     },
@@ -660,11 +636,9 @@ export default {
       "masked": "The machine can ____.",
       "options": [
         "task-mcq-03",
-        "task-mcq-02",
-        "task-mcq-04",
-        "task-mcq-01",
-        "task-mcq-05",
-        "task-mcq-06"
+        "task-mcq-13",
+        "task-pdf-001",
+        "task-mcq-14"
       ],
       "explanation": "本句的「carry out repetitive tasks」指「執行任務」。",
       "sentenceIndex": 6,
@@ -673,12 +647,10 @@ export default {
         "carry out repetitive tasks"
       ],
       "optionReasons": {
-        "task-mcq-03": "本句指「執行任務」。",
-        "task-mcq-02": "「完成任務」與本句語境不同。",
-        "task-mcq-04": "「執行工作」與本句語境不同。",
-        "task-mcq-01": "「任務；工作項目」與本句語境不同。",
-        "task-mcq-05": "「困難任務」與本句語境不同。",
-        "task-mcq-06": "「例行工作」與本句語境不同。"
+        "task-mcq-03": "本句的「carry out repetitive tasks」指「執行任務」。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "task-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-03"
     },
@@ -690,11 +662,9 @@ export default {
       "masked": "The software can ____.",
       "options": [
         "task-mcq-04",
-        "task-mcq-03",
-        "task-mcq-05",
-        "task-mcq-02",
-        "task-mcq-06",
-        "task-mcq-01"
+        "task-mcq-14",
+        "task-mcq-11",
+        "task-mcq-13"
       ],
       "explanation": "本句的「perform several tasks automatically」指「執行工作」。",
       "sentenceIndex": 7,
@@ -703,12 +673,10 @@ export default {
         "perform several tasks automatically"
       ],
       "optionReasons": {
-        "task-mcq-04": "本句指「執行工作」。",
-        "task-mcq-03": "「執行任務」與本句語境不同。",
-        "task-mcq-05": "「困難任務」與本句語境不同。",
-        "task-mcq-02": "「完成任務」與本句語境不同。",
-        "task-mcq-06": "「例行工作」與本句語境不同。",
-        "task-mcq-01": "「任務；工作項目」與本句語境不同。"
+        "task-mcq-04": "本句的「perform several tasks automatically」指「執行工作」。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-04"
     },
@@ -720,11 +688,9 @@ export default {
       "masked": "Employees are trained to ____.",
       "options": [
         "task-mcq-04",
-        "task-mcq-03",
-        "task-mcq-05",
-        "task-mcq-02",
-        "task-mcq-06",
-        "task-mcq-01"
+        "task-mcq-11",
+        "task-mcq-15",
+        "task-mcq-13"
       ],
       "explanation": "本句的「perform the task safely」指「執行工作」。",
       "sentenceIndex": 8,
@@ -733,12 +699,10 @@ export default {
         "perform the task safely"
       ],
       "optionReasons": {
-        "task-mcq-04": "本句指「執行工作」。",
-        "task-mcq-03": "「執行任務」與本句語境不同。",
-        "task-mcq-05": "「困難任務」與本句語境不同。",
-        "task-mcq-02": "「完成任務」與本句語境不同。",
-        "task-mcq-06": "「例行工作」與本句語境不同。",
-        "task-mcq-01": "「任務；工作項目」與本句語境不同。"
+        "task-mcq-04": "本句的「perform the task safely」指「執行工作」。",
+        "task-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-04"
     },
@@ -750,11 +714,9 @@ export default {
       "masked": "Writing the report was a ____.",
       "options": [
         "task-mcq-05",
-        "task-mcq-04",
-        "task-mcq-06",
-        "task-mcq-03",
-        "task-mcq-07",
-        "task-mcq-02"
+        "task-pdf-001",
+        "task-mcq-14",
+        "task-mcq-13"
       ],
       "explanation": "本句的「difficult task」指「困難任務」。",
       "sentenceIndex": 9,
@@ -763,12 +725,10 @@ export default {
         "difficult task"
       ],
       "optionReasons": {
-        "task-mcq-05": "本句指「困難任務」。",
-        "task-mcq-04": "「執行工作」與本句語境不同。",
-        "task-mcq-06": "「例行工作」與本句語境不同。",
-        "task-mcq-03": "「執行任務」與本句語境不同。",
-        "task-mcq-07": "「特定任務」與本句語境不同。",
-        "task-mcq-02": "「完成任務」與本句語境不同。"
+        "task-mcq-05": "本句的「difficult task」指「困難任務」。",
+        "task-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-05"
     },
@@ -780,11 +740,9 @@ export default {
       "masked": "Managing several deadlines at once can be a ____.",
       "options": [
         "task-mcq-05",
-        "task-mcq-04",
-        "task-mcq-06",
-        "task-mcq-03",
-        "task-mcq-07",
-        "task-mcq-02"
+        "task-mcq-12",
+        "task-mcq-14",
+        "task-mcq-15"
       ],
       "explanation": "本句的「challenging task」指「困難任務」。",
       "sentenceIndex": 10,
@@ -793,12 +751,10 @@ export default {
         "challenging task"
       ],
       "optionReasons": {
-        "task-mcq-05": "本句指「困難任務」。",
-        "task-mcq-04": "「執行工作」與本句語境不同。",
-        "task-mcq-06": "「例行工作」與本句語境不同。",
-        "task-mcq-03": "「執行任務」與本句語境不同。",
-        "task-mcq-07": "「特定任務」與本句語境不同。",
-        "task-mcq-02": "「完成任務」與本句語境不同。"
+        "task-mcq-05": "本句的「challenging task」指「困難任務」。",
+        "task-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-05"
     },
@@ -810,11 +766,9 @@ export default {
       "masked": "Checking emails is a ____ for many workers.",
       "options": [
         "task-mcq-06",
-        "task-mcq-05",
-        "task-mcq-07",
-        "task-mcq-04",
-        "task-mcq-08",
-        "task-mcq-03"
+        "task-mcq-10",
+        "task-mcq-15",
+        "task-mcq-13"
       ],
       "explanation": "本句的「routine task」指「例行工作」。",
       "sentenceIndex": 13,
@@ -823,12 +777,10 @@ export default {
         "routine task"
       ],
       "optionReasons": {
-        "task-mcq-06": "本句指「例行工作」。",
-        "task-mcq-05": "「困難任務」與本句語境不同。",
-        "task-mcq-07": "「特定任務」與本句語境不同。",
-        "task-mcq-04": "「執行工作」與本句語境不同。",
-        "task-mcq-08": "「當前任務」與本句語境不同。",
-        "task-mcq-03": "「執行任務」與本句語境不同。"
+        "task-mcq-06": "本句的「routine task」指「例行工作」。",
+        "task-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-06"
     },
@@ -840,11 +792,9 @@ export default {
       "masked": "The system automates several ____.",
       "options": [
         "task-mcq-06",
-        "task-mcq-05",
-        "task-mcq-07",
-        "task-mcq-04",
-        "task-mcq-08",
-        "task-mcq-03"
+        "task-mcq-15",
+        "task-mcq-14",
+        "task-mcq-11"
       ],
       "explanation": "本句的「routine tasks」指「例行工作」。",
       "sentenceIndex": 14,
@@ -853,12 +803,10 @@ export default {
         "routine tasks"
       ],
       "optionReasons": {
-        "task-mcq-06": "本句指「例行工作」。",
-        "task-mcq-05": "「困難任務」與本句語境不同。",
-        "task-mcq-07": "「特定任務」與本句語境不同。",
-        "task-mcq-04": "「執行工作」與本句語境不同。",
-        "task-mcq-08": "「當前任務」與本句語境不同。",
-        "task-mcq-03": "「執行任務」與本句語境不同。"
+        "task-mcq-06": "本句的「routine tasks」指「例行工作」。",
+        "task-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-06"
     },
@@ -870,11 +818,9 @@ export default {
       "masked": "Each tool is designed for a ____.",
       "options": [
         "task-mcq-07",
-        "task-mcq-06",
-        "task-mcq-08",
-        "task-mcq-05",
-        "task-mcq-09",
-        "task-mcq-04"
+        "task-mcq-16",
+        "task-pdf-001",
+        "task-mcq-13"
       ],
       "explanation": "本句的「specific task」指「特定任務」。",
       "sentenceIndex": 15,
@@ -883,12 +829,10 @@ export default {
         "specific task"
       ],
       "optionReasons": {
-        "task-mcq-07": "本句指「特定任務」。",
-        "task-mcq-06": "「例行工作」與本句語境不同。",
-        "task-mcq-08": "「當前任務」與本句語境不同。",
-        "task-mcq-05": "「困難任務」與本句語境不同。",
-        "task-mcq-09": "「重任」與本句語境不同。",
-        "task-mcq-04": "「執行工作」與本句語境不同。"
+        "task-mcq-07": "本句的「specific task」指「特定任務」。",
+        "task-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "task-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-07"
     },
@@ -900,11 +844,9 @@ export default {
       "masked": "I was given a ____ to complete.",
       "options": [
         "task-mcq-07",
-        "task-mcq-06",
-        "task-mcq-08",
-        "task-mcq-05",
-        "task-mcq-09",
-        "task-mcq-04"
+        "task-mcq-11",
+        "task-mcq-16",
+        "task-mcq-13"
       ],
       "explanation": "本句的「specific task」指「特定任務」。",
       "sentenceIndex": 16,
@@ -913,12 +855,10 @@ export default {
         "specific task"
       ],
       "optionReasons": {
-        "task-mcq-07": "本句指「特定任務」。",
-        "task-mcq-06": "「例行工作」與本句語境不同。",
-        "task-mcq-08": "「當前任務」與本句語境不同。",
-        "task-mcq-05": "「困難任務」與本句語境不同。",
-        "task-mcq-09": "「重任」與本句語境不同。",
-        "task-mcq-04": "「執行工作」與本句語境不同。"
+        "task-mcq-07": "本句的「specific task」指「特定任務」。",
+        "task-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-07"
     },
@@ -930,11 +870,9 @@ export default {
       "masked": "Let's focus on ____.",
       "options": [
         "task-mcq-08",
-        "task-mcq-07",
-        "task-mcq-09",
-        "task-mcq-06",
+        "task-mcq-16",
         "task-mcq-10",
-        "task-mcq-05"
+        "task-mcq-13"
       ],
       "explanation": "本句的「the task at hand」指「當前任務」。",
       "sentenceIndex": 17,
@@ -943,12 +881,10 @@ export default {
         "the task at hand"
       ],
       "optionReasons": {
-        "task-mcq-08": "本句指「當前任務」。",
-        "task-mcq-07": "「特定任務」與本句語境不同。",
-        "task-mcq-09": "「重任」與本句語境不同。",
-        "task-mcq-06": "「例行工作」與本句語境不同。",
-        "task-mcq-10": "「指派某人負責 X」與本句語境不同。",
-        "task-mcq-05": "「困難任務」與本句語境不同。"
+        "task-mcq-08": "本句的「the task at hand」指「當前任務」。",
+        "task-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-08"
     },
@@ -960,11 +896,9 @@ export default {
       "masked": "She ignored distractions and returned to ____.",
       "options": [
         "task-mcq-08",
-        "task-mcq-07",
-        "task-mcq-09",
-        "task-mcq-06",
+        "task-mcq-16",
         "task-mcq-10",
-        "task-mcq-05"
+        "task-mcq-14"
       ],
       "explanation": "本句的「the task at hand」指「當前任務」。",
       "sentenceIndex": 18,
@@ -973,12 +907,10 @@ export default {
         "the task at hand"
       ],
       "optionReasons": {
-        "task-mcq-08": "本句指「當前任務」。",
-        "task-mcq-07": "「特定任務」與本句語境不同。",
-        "task-mcq-09": "「重任」與本句語境不同。",
-        "task-mcq-06": "「例行工作」與本句語境不同。",
-        "task-mcq-10": "「指派某人負責 X」與本句語境不同。",
-        "task-mcq-05": "「困難任務」與本句語境不同。"
+        "task-mcq-08": "本句的「the task at hand」指「當前任務」。",
+        "task-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-08"
     },
@@ -990,11 +922,9 @@ export default {
       "masked": "Rebuilding trust was no easy ____.",
       "options": [
         "task-mcq-01",
-        "task-mcq-02",
-        "task-mcq-03",
-        "task-mcq-04",
-        "task-mcq-05",
-        "task-mcq-06"
+        "task-mcq-12",
+        "task-mcq-14",
+        "task-mcq-16"
       ],
       "explanation": "本句的「task」指「任務；工作項目」。",
       "sentenceIndex": 19,
@@ -1003,12 +933,10 @@ export default {
         "task"
       ],
       "optionReasons": {
-        "task-mcq-01": "本句指「任務；工作項目」。",
-        "task-mcq-02": "「完成任務」與本句語境不同。",
-        "task-mcq-03": "「執行任務」與本句語境不同。",
-        "task-mcq-04": "「執行工作」與本句語境不同。",
-        "task-mcq-05": "「困難任務」與本句語境不同。",
-        "task-mcq-06": "「例行工作」與本句語境不同。"
+        "task-mcq-01": "本句的「task」指「任務；工作項目」。",
+        "task-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-01"
     },
@@ -1020,11 +948,9 @@ export default {
       "masked": "Leading the team through the crisis was a huge ____.",
       "options": [
         "task-mcq-01",
-        "task-mcq-02",
-        "task-mcq-03",
-        "task-mcq-04",
-        "task-mcq-05",
-        "task-mcq-06"
+        "task-mcq-10",
+        "task-mcq-14",
+        "task-mcq-13"
       ],
       "explanation": "本句的「task」指「任務；工作項目」。",
       "sentenceIndex": 20,
@@ -1033,12 +959,10 @@ export default {
         "task"
       ],
       "optionReasons": {
-        "task-mcq-01": "本句指「任務；工作項目」。",
-        "task-mcq-02": "「完成任務」與本句語境不同。",
-        "task-mcq-03": "「執行任務」與本句語境不同。",
-        "task-mcq-04": "「執行工作」與本句語境不同。",
-        "task-mcq-05": "「困難任務」與本句語境不同。",
-        "task-mcq-06": "「例行工作」與本句語境不同。"
+        "task-mcq-01": "本句的「task」指「任務；工作項目」。",
+        "task-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-01"
     },
@@ -1050,11 +974,9 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "task-mcq-10",
-        "task-mcq-09",
-        "task-mcq-11",
-        "task-mcq-08",
-        "task-mcq-12",
-        "task-mcq-07"
+        "task-mcq-06",
+        "task-mcq-15",
+        "task-mcq-14"
       ],
       "explanation": "本句的「tasked me with preparing the report」指「指派某人負責 X」。",
       "sentenceIndex": 21,
@@ -1063,12 +985,10 @@ export default {
         "tasked me with preparing the report"
       ],
       "optionReasons": {
-        "task-mcq-10": "本句指「指派某人負責 X」。",
-        "task-mcq-09": "「重任」與本句語境不同。",
-        "task-mcq-11": "「被指派負責 X」與本句語境不同。",
-        "task-mcq-08": "「當前任務」與本句語境不同。",
-        "task-mcq-12": "「責備某人」與本句語境不同。",
-        "task-mcq-07": "「特定任務」與本句語境不同。"
+        "task-mcq-10": "本句的「tasked me with preparing the report」指「指派某人負責 X」。",
+        "task-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-10"
     },
@@ -1080,11 +1000,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "task-mcq-10",
-        "task-mcq-09",
-        "task-mcq-11",
-        "task-mcq-08",
-        "task-mcq-12",
-        "task-mcq-07"
+        "task-mcq-04",
+        "task-mcq-14",
+        "task-mcq-15"
       ],
       "explanation": "本句的「tasked with organising the event」指「指派某人負責 X」。",
       "sentenceIndex": 22,
@@ -1093,12 +1011,10 @@ export default {
         "tasked with organising the event"
       ],
       "optionReasons": {
-        "task-mcq-10": "本句指「指派某人負責 X」。",
-        "task-mcq-09": "「重任」與本句語境不同。",
-        "task-mcq-11": "「被指派負責 X」與本句語境不同。",
-        "task-mcq-08": "「當前任務」與本句語境不同。",
-        "task-mcq-12": "「責備某人」與本句語境不同。",
-        "task-mcq-07": "「特定任務」與本句語境不同。"
+        "task-mcq-10": "本句的「tasked with organising the event」指「指派某人負責 X」。",
+        "task-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-10"
     },
@@ -1110,11 +1026,9 @@ export default {
       "masked": "I was ____.",
       "options": [
         "task-mcq-11",
-        "task-mcq-10",
-        "task-mcq-12",
-        "task-mcq-09",
-        "task-mcq-13",
-        "task-mcq-08"
+        "task-mcq-19",
+        "task-mcq-16",
+        "task-mcq-14"
       ],
       "explanation": "本句的「tasked with checking the final slides」指「被指派負責 X」。",
       "sentenceIndex": 23,
@@ -1123,12 +1037,10 @@ export default {
         "tasked with checking the final slides"
       ],
       "optionReasons": {
-        "task-mcq-11": "本句指「被指派負責 X」。",
-        "task-mcq-10": "「指派某人負責 X」與本句語境不同。",
-        "task-mcq-12": "「責備某人」與本句語境不同。",
-        "task-mcq-09": "「重任」與本句語境不同。",
-        "task-mcq-13": "「專責小組」與本句語境不同。",
-        "task-mcq-08": "「當前任務」與本句語境不同。"
+        "task-mcq-11": "本句的「tasked with checking the final slides」指「被指派負責 X」。",
+        "task-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-11"
     },
@@ -1140,11 +1052,9 @@ export default {
       "masked": "The team was ____.",
       "options": [
         "task-mcq-11",
-        "task-mcq-10",
-        "task-mcq-12",
-        "task-mcq-09",
-        "task-mcq-13",
-        "task-mcq-08"
+        "task-mcq-19",
+        "task-mcq-14",
+        "task-mcq-16"
       ],
       "explanation": "本句的「tasked with finding a solution」指「被指派負責 X」。",
       "sentenceIndex": 24,
@@ -1153,12 +1063,10 @@ export default {
         "tasked with finding a solution"
       ],
       "optionReasons": {
-        "task-mcq-11": "本句指「被指派負責 X」。",
-        "task-mcq-10": "「指派某人負責 X」與本句語境不同。",
-        "task-mcq-12": "「責備某人」與本句語境不同。",
-        "task-mcq-09": "「重任」與本句語境不同。",
-        "task-mcq-13": "「專責小組」與本句語境不同。",
-        "task-mcq-08": "「當前任務」與本句語境不同。"
+        "task-mcq-11": "本句的「tasked with finding a solution」指「被指派負責 X」。",
+        "task-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-11"
     },
@@ -1170,11 +1078,9 @@ export default {
       "masked": "The committee ____.",
       "options": [
         "task-pdf-001",
-        "task-mcq-11",
-        "task-mcq-13",
-        "task-mcq-10",
-        "task-mcq-14",
-        "task-mcq-09"
+        "task-mcq-01",
+        "task-mcq-16",
+        "task-mcq-14"
       ],
       "explanation": "本句的「tasked him to review the report」指「正式要求某人負責完成 X」。",
       "sentenceIndex": 25,
@@ -1183,12 +1089,10 @@ export default {
         "tasked him to review the report"
       ],
       "optionReasons": {
-        "task-pdf-001": "本句指「正式要求某人負責完成 X」。",
-        "task-mcq-11": "「被指派負責 X」與本句語境不同。",
-        "task-mcq-13": "「專責小組」與本句語境不同。",
-        "task-mcq-10": "「指派某人負責 X」與本句語境不同。",
-        "task-mcq-14": "「特遣部隊」與本句語境不同。",
-        "task-mcq-09": "「重任」與本句語境不同。"
+        "task-pdf-001": "本句的「tasked him to review the report」指「正式要求某人負責完成 X」。",
+        "task-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-pdf-001"
     },
@@ -1200,11 +1104,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "task-pdf-001",
-        "task-mcq-11",
-        "task-mcq-13",
-        "task-mcq-10",
-        "task-mcq-14",
-        "task-mcq-09"
+        "task-mcq-20",
+        "task-mcq-15",
+        "task-mcq-14"
       ],
       "explanation": "本句的「tasked to investigate the issue」指「正式要求某人負責完成 X」。",
       "sentenceIndex": 26,
@@ -1213,12 +1115,10 @@ export default {
         "tasked to investigate the issue"
       ],
       "optionReasons": {
-        "task-pdf-001": "本句指「正式要求某人負責完成 X」。",
-        "task-mcq-11": "「被指派負責 X」與本句語境不同。",
-        "task-mcq-13": "「專責小組」與本句語境不同。",
-        "task-mcq-10": "「指派某人負責 X」與本句語境不同。",
-        "task-mcq-14": "「特遣部隊」與本句語境不同。",
-        "task-mcq-09": "「重任」與本句語境不同。"
+        "task-pdf-001": "本句的「tasked to investigate the issue」指「正式要求某人負責完成 X」。",
+        "task-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-pdf-001"
     },
@@ -1230,11 +1130,9 @@ export default {
       "masked": "The teacher ____ for arriving late.",
       "options": [
         "task-mcq-12",
-        "task-mcq-11",
-        "task-mcq-13",
-        "task-mcq-10",
+        "task-mcq-05",
         "task-mcq-14",
-        "task-mcq-09"
+        "task-mcq-15"
       ],
       "explanation": "本句的「took him to task」指「責備某人」。",
       "sentenceIndex": 27,
@@ -1243,12 +1141,10 @@ export default {
         "took him to task"
       ],
       "optionReasons": {
-        "task-mcq-12": "本句指「責備某人」。",
-        "task-mcq-11": "「被指派負責 X」與本句語境不同。",
-        "task-mcq-13": "「專責小組」與本句語境不同。",
-        "task-mcq-10": "「指派某人負責 X」與本句語境不同。",
-        "task-mcq-14": "「特遣部隊」與本句語境不同。",
-        "task-mcq-09": "「重任」與本句語境不同。"
+        "task-mcq-12": "本句的「took him to task」指「責備某人」。",
+        "task-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-12"
     },
@@ -1260,11 +1156,9 @@ export default {
       "masked": "She ____ over its poor service.",
       "options": [
         "task-mcq-12",
-        "task-mcq-11",
-        "task-mcq-13",
-        "task-mcq-10",
-        "task-mcq-14",
-        "task-mcq-09"
+        "task-mcq-05",
+        "task-mcq-15",
+        "task-mcq-14"
       ],
       "explanation": "本句的「took the company to task」指「責備某人」。",
       "sentenceIndex": 28,
@@ -1273,12 +1167,10 @@ export default {
         "took the company to task"
       ],
       "optionReasons": {
-        "task-mcq-12": "本句指「責備某人」。",
-        "task-mcq-11": "「被指派負責 X」與本句語境不同。",
-        "task-mcq-13": "「專責小組」與本句語境不同。",
-        "task-mcq-10": "「指派某人負責 X」與本句語境不同。",
-        "task-mcq-14": "「特遣部隊」與本句語境不同。",
-        "task-mcq-09": "「重任」與本句語境不同。"
+        "task-mcq-12": "本句的「took the company to task」指「責備某人」。",
+        "task-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-12"
     },
@@ -1290,11 +1182,9 @@ export default {
       "masked": "The company formed a ____ to deal with the problem.",
       "options": [
         "task-mcq-13",
-        "task-mcq-12",
-        "task-mcq-14",
-        "task-mcq-11",
-        "task-mcq-15",
-        "task-mcq-10"
+        "task-mcq-16",
+        "task-mcq-03",
+        "task-mcq-14"
       ],
       "explanation": "本句的「task force」指「專責小組」。",
       "sentenceIndex": 29,
@@ -1303,12 +1193,10 @@ export default {
         "task force"
       ],
       "optionReasons": {
-        "task-mcq-13": "本句指「專責小組」。",
-        "task-mcq-12": "「責備某人」與本句語境不同。",
-        "task-mcq-14": "「特遣部隊」與本句語境不同。",
-        "task-mcq-11": "「被指派負責 X」與本句語境不同。",
-        "task-mcq-15": "「同時處理多項事情」與本句語境不同。",
-        "task-mcq-10": "「指派某人負責 X」與本句語境不同。"
+        "task-mcq-13": "本句的「task force」指「專責小組」。",
+        "task-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-13"
     },
@@ -1320,11 +1208,9 @@ export default {
       "masked": "A special ____ was created to investigate the issue.",
       "options": [
         "task-mcq-13",
-        "task-mcq-12",
-        "task-mcq-14",
-        "task-mcq-11",
-        "task-mcq-15",
-        "task-mcq-10"
+        "task-mcq-01",
+        "task-mcq-16",
+        "task-mcq-14"
       ],
       "explanation": "本句的「task force」指「專責小組」。",
       "sentenceIndex": 30,
@@ -1333,12 +1219,10 @@ export default {
         "task force"
       ],
       "optionReasons": {
-        "task-mcq-13": "本句指「專責小組」。",
-        "task-mcq-12": "「責備某人」與本句語境不同。",
-        "task-mcq-14": "「特遣部隊」與本句語境不同。",
-        "task-mcq-11": "「被指派負責 X」與本句語境不同。",
-        "task-mcq-15": "「同時處理多項事情」與本句語境不同。",
-        "task-mcq-10": "「指派某人負責 X」與本句語境不同。"
+        "task-mcq-13": "本句的「task force」指「專責小組」。",
+        "task-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-13"
     },
@@ -1350,11 +1234,9 @@ export default {
       "masked": "A naval ____ was sent to the region.",
       "options": [
         "task-mcq-14",
-        "task-mcq-13",
-        "task-mcq-15",
-        "task-mcq-12",
-        "task-mcq-16",
-        "task-mcq-11"
+        "task-mcq-04",
+        "task-pdf-001",
+        "task-mcq-13"
       ],
       "explanation": "本句的「task force」指「特遣部隊」。",
       "sentenceIndex": 31,
@@ -1363,12 +1245,10 @@ export default {
         "task force"
       ],
       "optionReasons": {
-        "task-mcq-14": "本句指「特遣部隊」。",
-        "task-mcq-13": "「專責小組」與本句語境不同。",
-        "task-mcq-15": "「同時處理多項事情」與本句語境不同。",
-        "task-mcq-12": "「責備某人」與本句語境不同。",
-        "task-mcq-16": "「多工處理；一心多用」與本句語境不同。",
-        "task-mcq-11": "「被指派負責 X」與本句語境不同。"
+        "task-mcq-14": "本句的「task force」指「特遣部隊」。",
+        "task-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "task-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-14"
     },
@@ -1380,11 +1260,9 @@ export default {
       "masked": "The ____ included several ships.",
       "options": [
         "task-mcq-14",
-        "task-mcq-13",
-        "task-mcq-15",
-        "task-mcq-12",
-        "task-mcq-16",
-        "task-mcq-11"
+        "task-mcq-08",
+        "task-mcq-10",
+        "task-mcq-13"
       ],
       "explanation": "本句的「task force」指「特遣部隊」。",
       "sentenceIndex": 32,
@@ -1393,12 +1271,10 @@ export default {
         "task force"
       ],
       "optionReasons": {
-        "task-mcq-14": "本句指「特遣部隊」。",
-        "task-mcq-13": "「專責小組」與本句語境不同。",
-        "task-mcq-15": "「同時處理多項事情」與本句語境不同。",
-        "task-mcq-12": "「責備某人」與本句語境不同。",
-        "task-mcq-16": "「多工處理；一心多用」與本句語境不同。",
-        "task-mcq-11": "「被指派負責 X」與本句語境不同。"
+        "task-mcq-14": "本句的「task force」指「特遣部隊」。",
+        "task-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-14"
     },
@@ -1410,11 +1286,9 @@ export default {
       "masked": "I used to think I could ____ effectively.",
       "options": [
         "task-mcq-15",
-        "task-mcq-14",
-        "task-mcq-16",
-        "task-mcq-13",
-        "task-mcq-17",
-        "task-mcq-12"
+        "task-mcq-04",
+        "task-mcq-12",
+        "task-mcq-14"
       ],
       "explanation": "本句的「multitask」指「同時處理多項事情」。",
       "sentenceIndex": 33,
@@ -1423,12 +1297,10 @@ export default {
         "multitask"
       ],
       "optionReasons": {
-        "task-mcq-15": "本句指「同時處理多項事情」。",
-        "task-mcq-14": "「特遣部隊」與本句語境不同。",
-        "task-mcq-16": "「多工處理；一心多用」與本句語境不同。",
-        "task-mcq-13": "「專責小組」與本句語境不同。",
-        "task-mcq-17": "「工作程序；任務」與本句語境不同。",
-        "task-mcq-12": "「責備某人」與本句語境不同。"
+        "task-mcq-15": "本句的「multitask」指「同時處理多項事情」。",
+        "task-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-15"
     },
@@ -1441,9 +1313,7 @@ export default {
       "options": [
         "task-mcq-15",
         "task-mcq-14",
-        "task-mcq-16",
-        "task-mcq-13",
-        "task-mcq-17",
+        "task-mcq-19",
         "task-mcq-12"
       ],
       "explanation": "本句的「multitask」指「同時處理多項事情」。",
@@ -1453,12 +1323,10 @@ export default {
         "multitask"
       ],
       "optionReasons": {
-        "task-mcq-15": "本句指「同時處理多項事情」。",
-        "task-mcq-14": "「特遣部隊」與本句語境不同。",
-        "task-mcq-16": "「多工處理；一心多用」與本句語境不同。",
-        "task-mcq-13": "「專責小組」與本句語境不同。",
-        "task-mcq-17": "「工作程序；任務」與本句語境不同。",
-        "task-mcq-12": "「責備某人」與本句語境不同。"
+        "task-mcq-15": "本句的「multitask」指「同時處理多項事情」。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-15"
     },
@@ -1470,11 +1338,9 @@ export default {
       "masked": "Too much ____ can reduce concentration.",
       "options": [
         "task-mcq-16",
-        "task-mcq-15",
-        "task-mcq-17",
+        "task-mcq-11",
         "task-mcq-14",
-        "task-mcq-18",
-        "task-mcq-13"
+        "task-mcq-05"
       ],
       "explanation": "本句的「multitasking」指「多工處理；一心多用」。",
       "sentenceIndex": 35,
@@ -1483,12 +1349,10 @@ export default {
         "multitasking"
       ],
       "optionReasons": {
-        "task-mcq-16": "本句指「多工處理；一心多用」。",
-        "task-mcq-15": "「同時處理多項事情」與本句語境不同。",
-        "task-mcq-17": "「工作程序；任務」與本句語境不同。",
-        "task-mcq-14": "「特遣部隊」與本句語境不同。",
-        "task-mcq-18": "「工作管理員／任務管理工具」與本句語境不同。",
-        "task-mcq-13": "「專責小組」與本句語境不同。"
+        "task-mcq-16": "本句的「multitasking」指「多工處理；一心多用」。",
+        "task-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-16"
     },
@@ -1500,11 +1364,9 @@ export default {
       "masked": "____ is common in busy workplaces.",
       "options": [
         "task-mcq-16",
-        "task-mcq-15",
-        "task-mcq-17",
-        "task-mcq-14",
-        "task-mcq-18",
-        "task-mcq-13"
+        "task-pdf-001",
+        "task-mcq-13",
+        "task-mcq-14"
       ],
       "explanation": "本句的「Multitasking」指「多工處理；一心多用」。",
       "sentenceIndex": 36,
@@ -1513,12 +1375,10 @@ export default {
         "Multitasking"
       ],
       "optionReasons": {
-        "task-mcq-16": "本句指「多工處理；一心多用」。",
-        "task-mcq-15": "「同時處理多項事情」與本句語境不同。",
-        "task-mcq-17": "「工作程序；任務」與本句語境不同。",
-        "task-mcq-14": "「特遣部隊」與本句語境不同。",
-        "task-mcq-18": "「工作管理員／任務管理工具」與本句語境不同。",
-        "task-mcq-13": "「專責小組」與本句語境不同。"
+        "task-mcq-16": "本句的「Multitasking」指「多工處理；一心多用」。",
+        "task-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-16"
     },
@@ -1530,11 +1390,9 @@ export default {
       "masked": "The computer is running several ____ in the background.",
       "options": [
         "task-mcq-01",
-        "task-mcq-02",
-        "task-mcq-03",
-        "task-mcq-04",
-        "task-mcq-05",
-        "task-mcq-06"
+        "task-mcq-11",
+        "task-mcq-13",
+        "task-mcq-14"
       ],
       "explanation": "本句的「tasks」指「任務；工作項目」。",
       "sentenceIndex": 37,
@@ -1543,12 +1401,10 @@ export default {
         "tasks"
       ],
       "optionReasons": {
-        "task-mcq-01": "本句指「任務；工作項目」。",
-        "task-mcq-02": "「完成任務」與本句語境不同。",
-        "task-mcq-03": "「執行任務」與本句語境不同。",
-        "task-mcq-04": "「執行工作」與本句語境不同。",
-        "task-mcq-05": "「困難任務」與本句語境不同。",
-        "task-mcq-06": "「例行工作」與本句語境不同。"
+        "task-mcq-01": "本句的「tasks」指「任務；工作項目」。",
+        "task-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-01"
     },
@@ -1560,11 +1416,9 @@ export default {
       "masked": "This ____ is using a lot of memory.",
       "options": [
         "task-mcq-01",
-        "task-mcq-02",
-        "task-mcq-03",
-        "task-mcq-04",
-        "task-mcq-05",
-        "task-mcq-06"
+        "task-mcq-12",
+        "task-mcq-14",
+        "task-mcq-16"
       ],
       "explanation": "本句的「task」指「任務；工作項目」。",
       "sentenceIndex": 38,
@@ -1573,12 +1427,10 @@ export default {
         "task"
       ],
       "optionReasons": {
-        "task-mcq-01": "本句指「任務；工作項目」。",
-        "task-mcq-02": "「完成任務」與本句語境不同。",
-        "task-mcq-03": "「執行任務」與本句語境不同。",
-        "task-mcq-04": "「執行工作」與本句語境不同。",
-        "task-mcq-05": "「困難任務」與本句語境不同。",
-        "task-mcq-06": "「例行工作」與本句語境不同。"
+        "task-mcq-01": "本句的「task」指「任務；工作項目」。",
+        "task-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-01"
     },
@@ -1590,11 +1442,9 @@ export default {
       "masked": "Open the ____ to see which programs are running.",
       "options": [
         "task-mcq-18",
-        "task-mcq-17",
-        "task-mcq-19",
-        "task-mcq-16",
-        "task-mcq-20",
-        "task-mcq-15"
+        "task-mcq-11",
+        "task-mcq-13",
+        "task-mcq-14"
       ],
       "explanation": "本句的「Task Manager」指「工作管理員／任務管理工具」。",
       "sentenceIndex": 39,
@@ -1603,12 +1453,10 @@ export default {
         "Task Manager"
       ],
       "optionReasons": {
-        "task-mcq-18": "本句指「工作管理員／任務管理工具」。",
-        "task-mcq-17": "「工作程序；任務」與本句語境不同。",
-        "task-mcq-19": "「以任務為本的」與本句語境不同。",
-        "task-mcq-16": "「多工處理；一心多用」與本句語境不同。",
-        "task-mcq-20": "「任務為本學習」與本句語境不同。",
-        "task-mcq-15": "「同時處理多項事情」與本句語境不同。"
+        "task-mcq-18": "本句的「Task Manager」指「工作管理員／任務管理工具」。",
+        "task-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-18"
     },
@@ -1620,11 +1468,9 @@ export default {
       "masked": "I used a ____ to organise my daily work.",
       "options": [
         "task-mcq-18",
-        "task-mcq-17",
-        "task-mcq-19",
-        "task-mcq-16",
-        "task-mcq-20",
-        "task-mcq-15"
+        "task-mcq-13",
+        "task-mcq-11",
+        "task-mcq-14"
       ],
       "explanation": "本句的「task manager」指「工作管理員／任務管理工具」。",
       "sentenceIndex": 40,
@@ -1633,12 +1479,10 @@ export default {
         "task manager"
       ],
       "optionReasons": {
-        "task-mcq-18": "本句指「工作管理員／任務管理工具」。",
-        "task-mcq-17": "「工作程序；任務」與本句語境不同。",
-        "task-mcq-19": "「以任務為本的」與本句語境不同。",
-        "task-mcq-16": "「多工處理；一心多用」與本句語境不同。",
-        "task-mcq-20": "「任務為本學習」與本句語境不同。",
-        "task-mcq-15": "「同時處理多項事情」與本句語境不同。"
+        "task-mcq-18": "本句的「task manager」指「工作管理員／任務管理工具」。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-18"
     },
@@ -1650,11 +1494,9 @@ export default {
       "masked": "The course uses ____.",
       "options": [
         "task-mcq-19",
-        "task-mcq-18",
-        "task-mcq-20",
-        "task-mcq-17",
-        "task-mcq-16",
-        "task-mcq-15"
+        "task-mcq-15",
+        "task-mcq-11",
+        "task-mcq-14"
       ],
       "explanation": "本句的「task-based learning」指「以任務為本的」。",
       "sentenceIndex": 41,
@@ -1663,12 +1505,10 @@ export default {
         "task-based learning"
       ],
       "optionReasons": {
-        "task-mcq-19": "本句指「以任務為本的」。",
-        "task-mcq-18": "「工作管理員／任務管理工具」與本句語境不同。",
-        "task-mcq-20": "「任務為本學習」與本句語境不同。",
-        "task-mcq-17": "「工作程序；任務」與本句語境不同。",
-        "task-mcq-16": "「多工處理；一心多用」與本句語境不同。",
-        "task-mcq-15": "「同時處理多項事情」與本句語境不同。"
+        "task-mcq-19": "本句的「task-based learning」指「以任務為本的」。",
+        "task-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-19"
     },
@@ -1680,11 +1520,9 @@ export default {
       "masked": "The assessment is ____.",
       "options": [
         "task-mcq-19",
-        "task-mcq-18",
-        "task-mcq-20",
-        "task-mcq-17",
-        "task-mcq-16",
-        "task-mcq-15"
+        "task-mcq-14",
+        "task-mcq-13",
+        "task-mcq-11"
       ],
       "explanation": "本句的「task-based」指「以任務為本的」。",
       "sentenceIndex": 42,
@@ -1693,12 +1531,10 @@ export default {
         "task-based"
       ],
       "optionReasons": {
-        "task-mcq-19": "本句指「以任務為本的」。",
-        "task-mcq-18": "「工作管理員／任務管理工具」與本句語境不同。",
-        "task-mcq-20": "「任務為本學習」與本句語境不同。",
-        "task-mcq-17": "「工作程序；任務」與本句語境不同。",
-        "task-mcq-16": "「多工處理；一心多用」與本句語境不同。",
-        "task-mcq-15": "「同時處理多項事情」與本句語境不同。"
+        "task-mcq-19": "本句的「task-based」指「以任務為本的」。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-19"
     },
@@ -1710,11 +1546,9 @@ export default {
       "masked": "____ encourages students to use language for real purposes.",
       "options": [
         "task-mcq-20",
-        "task-mcq-19",
-        "task-mcq-18",
-        "task-mcq-17",
-        "task-mcq-16",
-        "task-mcq-15"
+        "task-mcq-13",
+        "task-mcq-14",
+        "task-mcq-16"
       ],
       "explanation": "本句的「Task-based learning」指「任務為本學習」。",
       "sentenceIndex": 43,
@@ -1723,12 +1557,10 @@ export default {
         "Task-based learning"
       ],
       "optionReasons": {
-        "task-mcq-20": "本句指「任務為本學習」。",
-        "task-mcq-19": "「以任務為本的」與本句語境不同。",
-        "task-mcq-18": "「工作管理員／任務管理工具」與本句語境不同。",
-        "task-mcq-17": "「工作程序；任務」與本句語境不同。",
-        "task-mcq-16": "「多工處理；一心多用」與本句語境不同。",
-        "task-mcq-15": "「同時處理多項事情」與本句語境不同。"
+        "task-mcq-20": "本句的「Task-based learning」指「任務為本學習」。",
+        "task-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-20"
     },
@@ -1740,11 +1572,9 @@ export default {
       "masked": "The lesson includes several ____.",
       "options": [
         "task-mcq-20",
-        "task-mcq-19",
-        "task-mcq-18",
-        "task-mcq-17",
-        "task-mcq-16",
-        "task-mcq-15"
+        "task-mcq-12",
+        "task-mcq-15",
+        "task-mcq-14"
       ],
       "explanation": "本句的「task-based activities」指「任務為本學習」。",
       "sentenceIndex": 44,
@@ -1753,12 +1583,10 @@ export default {
         "task-based activities"
       ],
       "optionReasons": {
-        "task-mcq-20": "本句指「任務為本學習」。",
-        "task-mcq-19": "「以任務為本的」與本句語境不同。",
-        "task-mcq-18": "「工作管理員／任務管理工具」與本句語境不同。",
-        "task-mcq-17": "「工作程序；任務」與本句語境不同。",
-        "task-mcq-16": "「多工處理；一心多用」與本句語境不同。",
-        "task-mcq-15": "「同時處理多項事情」與本句語境不同。"
+        "task-mcq-20": "本句的「task-based activities」指「任務為本學習」。",
+        "task-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "task-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "task-mcq-20"
     }
@@ -1770,5 +1598,7 @@ export default {
     "sha256": "c1da2eec30ec8131106357d1acc31ca0409de4e75e1a209ce5d556898e3ae8bb",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

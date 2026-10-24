@@ -602,11 +602,9 @@ export default {
       "masked": "I ____ immediately.",
       "options": [
         "recognise-mcq-01",
-        "recognise-mcq-02",
-        "recognise-mcq-03",
-        "recognise-mcq-04",
-        "recognise-mcq-05",
-        "recognise-mcq-06"
+        "recognise-mcq-23",
+        "recognise-mcq-20",
+        "recognise-mcq-15"
       ],
       "explanation": "本句的「recognised him」指「認出某人」。",
       "sentenceIndex": 0,
@@ -615,12 +613,10 @@ export default {
         "recognised him"
       ],
       "optionReasons": {
-        "recognise-mcq-01": "本句指「認出某人」。",
-        "recognise-mcq-02": "「認出樣貌／聲音」與本句語境不同。",
-        "recognise-mcq-03": "「識別模式」與本句語境不同。",
-        "recognise-mcq-04": "「意識到；承認」與本句語境不同。",
-        "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。"
+        "recognise-mcq-01": "本句的「recognised him」指「認出某人」。",
+        "recognise-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-01"
     },
@@ -632,11 +628,9 @@ export default {
       "masked": "She ____ on the phone.",
       "options": [
         "recognise-mcq-01",
-        "recognise-mcq-02",
         "recognise-mcq-03",
-        "recognise-mcq-04",
-        "recognise-mcq-05",
-        "recognise-mcq-06"
+        "recognise-mcq-15",
+        "recognise-mcq-10"
       ],
       "explanation": "本句的「recognised the voice」指「認出某人」。",
       "sentenceIndex": 1,
@@ -645,12 +639,10 @@ export default {
         "recognised the voice"
       ],
       "optionReasons": {
-        "recognise-mcq-01": "本句指「認出某人」。",
-        "recognise-mcq-02": "「認出樣貌／聲音」與本句語境不同。",
-        "recognise-mcq-03": "「識別模式」與本句語境不同。",
-        "recognise-mcq-04": "「意識到；承認」與本句語境不同。",
-        "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。"
+        "recognise-mcq-01": "本句的「recognised the voice」指「認出某人」。",
+        "recognise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-01"
     },
@@ -662,11 +654,9 @@ export default {
       "masked": "I barely ____ after the renovation.",
       "options": [
         "recognise-mcq-01",
-        "recognise-mcq-02",
-        "recognise-mcq-03",
-        "recognise-mcq-04",
-        "recognise-mcq-05",
-        "recognise-mcq-06"
+        "recognise-mcq-21",
+        "recognise-mcq-20",
+        "recognise-mcq-15"
       ],
       "explanation": "本句的「recognised the building」指「認出某人」。",
       "sentenceIndex": 2,
@@ -675,12 +665,10 @@ export default {
         "recognised the building"
       ],
       "optionReasons": {
-        "recognise-mcq-01": "本句指「認出某人」。",
-        "recognise-mcq-02": "「認出樣貌／聲音」與本句語境不同。",
-        "recognise-mcq-03": "「識別模式」與本句語境不同。",
-        "recognise-mcq-04": "「意識到；承認」與本句語境不同。",
-        "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。"
+        "recognise-mcq-01": "本句的「recognised the building」指「認出某人」。",
+        "recognise-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-01"
     },
@@ -692,11 +680,9 @@ export default {
       "masked": "I ____, but I couldn't remember her name.",
       "options": [
         "recognise-mcq-02",
-        "recognise-mcq-01",
-        "recognise-mcq-03",
-        "recognise-mcq-04",
-        "recognise-mcq-05",
-        "recognise-mcq-06"
+        "recognise-mcq-23",
+        "recognise-mcq-10",
+        "recognise-mcq-15"
       ],
       "explanation": "本句的「recognised her face」指「認出樣貌／聲音」。",
       "sentenceIndex": 3,
@@ -705,12 +691,10 @@ export default {
         "recognised her face"
       ],
       "optionReasons": {
-        "recognise-mcq-02": "本句指「認出樣貌／聲音」。",
-        "recognise-mcq-01": "「認出某人」與本句語境不同。",
-        "recognise-mcq-03": "「識別模式」與本句語境不同。",
-        "recognise-mcq-04": "「意識到；承認」與本句語境不同。",
-        "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。"
+        "recognise-mcq-02": "本句的「recognised her face」指「認出樣貌／聲音」。",
+        "recognise-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-02"
     },
@@ -722,11 +706,9 @@ export default {
       "masked": "He immediately ____.",
       "options": [
         "recognise-mcq-02",
-        "recognise-mcq-01",
-        "recognise-mcq-03",
-        "recognise-mcq-04",
-        "recognise-mcq-05",
-        "recognise-mcq-06"
+        "recognise-pdf-003",
+        "recognise-mcq-20",
+        "recognise-mcq-03"
       ],
       "explanation": "本句的「recognised his mother's voice」指「認出樣貌／聲音」。",
       "sentenceIndex": 4,
@@ -735,12 +717,10 @@ export default {
         "recognised his mother's voice"
       ],
       "optionReasons": {
-        "recognise-mcq-02": "本句指「認出樣貌／聲音」。",
-        "recognise-mcq-01": "「認出某人」與本句語境不同。",
-        "recognise-mcq-03": "「識別模式」與本句語境不同。",
-        "recognise-mcq-04": "「意識到；承認」與本句語境不同。",
-        "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。"
+        "recognise-mcq-02": "本句的「recognised his mother's voice」指「認出樣貌／聲音」。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-02"
     },
@@ -752,11 +732,9 @@ export default {
       "masked": "I hardly ____ after ten years.",
       "options": [
         "recognise-pdf-001",
-        "recognise-mcq-01",
-        "recognise-mcq-03",
-        "recognise-mcq-04",
-        "recognise-mcq-05",
-        "recognise-mcq-06"
+        "recognise-mcq-22",
+        "recognise-mcq-20",
+        "recognise-pdf-003"
       ],
       "explanation": "本句的「recognised the neighbourhood」指「因以前見過或到過而辨認出某個地方」。",
       "sentenceIndex": 5,
@@ -765,12 +743,10 @@ export default {
         "recognised the neighbourhood"
       ],
       "optionReasons": {
-        "recognise-pdf-001": "本句指「因以前見過或到過而辨認出某個地方」。",
-        "recognise-mcq-01": "「認出某人」與本句語境不同。",
-        "recognise-mcq-03": "「識別模式」與本句語境不同。",
-        "recognise-mcq-04": "「意識到；承認」與本句語境不同。",
-        "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。"
+        "recognise-pdf-001": "本句的「recognised the neighbourhood」指「因以前見過或到過而辨認出某個地方」。",
+        "recognise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-pdf-001"
     },
@@ -782,11 +758,9 @@ export default {
       "masked": "She ____ from a photograph.",
       "options": [
         "recognise-pdf-001",
-        "recognise-mcq-01",
-        "recognise-mcq-03",
-        "recognise-mcq-04",
-        "recognise-mcq-05",
-        "recognise-mcq-06"
+        "recognise-pdf-003",
+        "recognise-mcq-10",
+        "recognise-mcq-23"
       ],
       "explanation": "本句的「recognised the street」指「因以前見過或到過而辨認出某個地方」。",
       "sentenceIndex": 6,
@@ -795,12 +769,10 @@ export default {
         "recognised the street"
       ],
       "optionReasons": {
-        "recognise-pdf-001": "本句指「因以前見過或到過而辨認出某個地方」。",
-        "recognise-mcq-01": "「認出某人」與本句語境不同。",
-        "recognise-mcq-03": "「識別模式」與本句語境不同。",
-        "recognise-mcq-04": "「意識到；承認」與本句語境不同。",
-        "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。"
+        "recognise-pdf-001": "本句的「recognised the street」指「因以前見過或到過而辨認出某個地方」。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-pdf-001"
     },
@@ -812,11 +784,9 @@ export default {
       "masked": "Good managers can ____.",
       "options": [
         "recognise-mcq-03",
-        "recognise-mcq-02",
-        "recognise-mcq-04",
-        "recognise-mcq-01",
-        "recognise-mcq-05",
-        "recognise-mcq-06"
+        "recognise-mcq-07",
+        "recognise-mcq-15",
+        "recognise-mcq-19"
       ],
       "explanation": "本句的「recognise early signs of conflict」指「識別模式」。",
       "sentenceIndex": 7,
@@ -825,12 +795,10 @@ export default {
         "recognise early signs of conflict"
       ],
       "optionReasons": {
-        "recognise-mcq-03": "本句指「識別模式」。",
-        "recognise-mcq-02": "「認出樣貌／聲音」與本句語境不同。",
-        "recognise-mcq-04": "「意識到；承認」與本句語境不同。",
-        "recognise-mcq-01": "「認出某人」與本句語境不同。",
-        "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。"
+        "recognise-mcq-03": "本句的「recognise early signs of conflict」指「識別模式」。",
+        "recognise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-03"
     },
@@ -842,11 +810,9 @@ export default {
       "masked": "The software can ____ in the data.",
       "options": [
         "recognise-mcq-03",
-        "recognise-mcq-02",
-        "recognise-mcq-04",
         "recognise-mcq-01",
-        "recognise-mcq-05",
-        "recognise-mcq-06"
+        "recognise-mcq-15",
+        "recognise-mcq-20"
       ],
       "explanation": "本句的「recognise patterns」指「識別模式」。",
       "sentenceIndex": 8,
@@ -855,12 +821,10 @@ export default {
         "recognise patterns"
       ],
       "optionReasons": {
-        "recognise-mcq-03": "本句指「識別模式」。",
-        "recognise-mcq-02": "「認出樣貌／聲音」與本句語境不同。",
-        "recognise-mcq-04": "「意識到；承認」與本句語境不同。",
-        "recognise-mcq-01": "「認出某人」與本句語境不同。",
-        "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。"
+        "recognise-mcq-03": "本句的「recognise patterns」指「識別模式」。",
+        "recognise-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-03"
     },
@@ -872,11 +836,9 @@ export default {
       "masked": "We must ____.",
       "options": [
         "recognise-mcq-04",
-        "recognise-mcq-03",
-        "recognise-mcq-05",
-        "recognise-mcq-02",
-        "recognise-mcq-06",
-        "recognise-mcq-01"
+        "recognise-pdf-003",
+        "recognise-mcq-15",
+        "recognise-mcq-10"
       ],
       "explanation": "本句的「recognise that teamwork has difficulties」指「意識到；承認」。",
       "sentenceIndex": 9,
@@ -885,12 +847,10 @@ export default {
         "recognise that teamwork has difficulties"
       ],
       "optionReasons": {
-        "recognise-mcq-04": "本句指「意識到；承認」。",
-        "recognise-mcq-03": "「識別模式」與本句語境不同。",
-        "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。",
-        "recognise-mcq-02": "「認出樣貌／聲音」與本句語境不同。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。",
-        "recognise-mcq-01": "「認出某人」與本句語境不同。"
+        "recognise-mcq-04": "本句的「recognise that teamwork has difficulties」指「意識到；承認」。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-04"
     },
@@ -902,11 +862,9 @@ export default {
       "masked": "She eventually ____.",
       "options": [
         "recognise-mcq-04",
-        "recognise-mcq-03",
-        "recognise-mcq-05",
-        "recognise-mcq-02",
-        "recognise-mcq-06",
-        "recognise-mcq-01"
+        "recognise-mcq-11",
+        "recognise-mcq-10",
+        "recognise-mcq-20"
       ],
       "explanation": "本句的「recognised that she needed help」指「意識到；承認」。",
       "sentenceIndex": 10,
@@ -915,12 +873,10 @@ export default {
         "recognised that she needed help"
       ],
       "optionReasons": {
-        "recognise-mcq-04": "本句指「意識到；承認」。",
-        "recognise-mcq-03": "「識別模式」與本句語境不同。",
-        "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。",
-        "recognise-mcq-02": "「認出樣貌／聲音」與本句語境不同。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。",
-        "recognise-mcq-01": "「認出某人」與本句語境不同。"
+        "recognise-mcq-04": "本句的「recognised that she needed help」指「意識到；承認」。",
+        "recognise-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-04"
     },
@@ -932,11 +888,9 @@ export default {
       "masked": "The team failed to ____ early enough.",
       "options": [
         "recognise-mcq-05",
-        "recognise-mcq-04",
-        "recognise-mcq-06",
-        "recognise-mcq-03",
-        "recognise-mcq-07",
-        "recognise-mcq-02"
+        "recognise-pdf-003",
+        "recognise-mcq-20",
+        "recognise-mcq-15"
       ],
       "explanation": "本句的「recognise the problem」指「察覺／承認問題」。",
       "sentenceIndex": 11,
@@ -945,12 +899,10 @@ export default {
         "recognise the problem"
       ],
       "optionReasons": {
-        "recognise-mcq-05": "本句指「察覺／承認問題」。",
-        "recognise-mcq-04": "「意識到；承認」與本句語境不同。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。",
-        "recognise-mcq-03": "「識別模式」與本句語境不同。",
-        "recognise-mcq-07": "「公認價值」與本句語境不同。",
-        "recognise-mcq-02": "「認出樣貌／聲音」與本句語境不同。"
+        "recognise-mcq-05": "本句的「recognise the problem」指「察覺／承認問題」。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-05"
     },
@@ -962,11 +914,9 @@ export default {
       "masked": "The first step is to ____.",
       "options": [
         "recognise-mcq-05",
-        "recognise-mcq-04",
-        "recognise-mcq-06",
-        "recognise-mcq-03",
-        "recognise-mcq-07",
-        "recognise-mcq-02"
+        "recognise-mcq-11",
+        "recognise-mcq-23",
+        "recognise-mcq-10"
       ],
       "explanation": "本句的「recognise that a problem exists」指「察覺／承認問題」。",
       "sentenceIndex": 12,
@@ -975,12 +925,10 @@ export default {
         "recognise that a problem exists"
       ],
       "optionReasons": {
-        "recognise-mcq-05": "本句指「察覺／承認問題」。",
-        "recognise-mcq-04": "「意識到；承認」與本句語境不同。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。",
-        "recognise-mcq-03": "「識別模式」與本句語境不同。",
-        "recognise-mcq-07": "「公認價值」與本句語境不同。",
-        "recognise-mcq-02": "「認出樣貌／聲音」與本句語境不同。"
+        "recognise-mcq-05": "本句的「recognise that a problem exists」指「察覺／承認問題」。",
+        "recognise-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-05"
     },
@@ -992,11 +940,9 @@ export default {
       "masked": "Employers increasingly ____.",
       "options": [
         "recognise-mcq-06",
-        "recognise-mcq-05",
-        "recognise-mcq-07",
-        "recognise-mcq-04",
-        "recognise-mcq-08",
-        "recognise-mcq-03"
+        "recognise-mcq-23",
+        "recognise-mcq-11",
+        "recognise-mcq-10"
       ],
       "explanation": "本句的「recognise the importance of communication」指「承認價值」。",
       "sentenceIndex": 13,
@@ -1005,12 +951,10 @@ export default {
         "recognise the importance of communication"
       ],
       "optionReasons": {
-        "recognise-mcq-06": "本句指「承認價值」。",
-        "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。",
-        "recognise-mcq-07": "「公認價值」與本句語境不同。",
-        "recognise-mcq-04": "「意識到；承認」與本句語境不同。",
-        "recognise-mcq-08": "「廣泛公認」與本句語境不同。",
-        "recognise-mcq-03": "「識別模式」與本句語境不同。"
+        "recognise-mcq-06": "本句的「recognise the importance of communication」指「承認價值」。",
+        "recognise-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-06"
     },
@@ -1022,11 +966,9 @@ export default {
       "masked": "We should ____.",
       "options": [
         "recognise-mcq-06",
-        "recognise-mcq-05",
-        "recognise-mcq-07",
-        "recognise-mcq-04",
-        "recognise-mcq-08",
-        "recognise-mcq-03"
+        "recognise-mcq-10",
+        "recognise-mcq-03",
+        "recognise-pdf-003"
       ],
       "explanation": "本句的「recognise the value of different perspectives」指「承認價值」。",
       "sentenceIndex": 14,
@@ -1035,12 +977,10 @@ export default {
         "recognise the value of different perspectives"
       ],
       "optionReasons": {
-        "recognise-mcq-06": "本句指「承認價值」。",
-        "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。",
-        "recognise-mcq-07": "「公認價值」與本句語境不同。",
-        "recognise-mcq-04": "「意識到；承認」與本句語境不同。",
-        "recognise-mcq-08": "「廣泛公認」與本句語境不同。",
-        "recognise-mcq-03": "「識別模式」與本句語境不同。"
+        "recognise-mcq-06": "本句的「recognise the value of different perspectives」指「承認價值」。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-06"
     },
@@ -1052,11 +992,9 @@ export default {
       "masked": "Despite its ____, teamwork is often unpopular.",
       "options": [
         "recognise-mcq-07",
-        "recognise-mcq-06",
-        "recognise-mcq-08",
-        "recognise-mcq-05",
-        "recognise-mcq-09",
-        "recognise-mcq-04"
+        "recognise-mcq-22",
+        "recognise-mcq-11",
+        "recognise-mcq-10"
       ],
       "explanation": "本句的「recognised value」指「公認價值」。",
       "sentenceIndex": 15,
@@ -1065,12 +1003,10 @@ export default {
         "recognised value"
       ],
       "optionReasons": {
-        "recognise-mcq-07": "本句指「公認價值」。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。",
-        "recognise-mcq-08": "「廣泛公認」與本句語境不同。",
-        "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。",
-        "recognise-mcq-09": "「認定 A 為 B」與本句語境不同。",
-        "recognise-mcq-04": "「意識到；承認」與本句語境不同。"
+        "recognise-mcq-07": "本句的「recognised value」指「公認價值」。",
+        "recognise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-07"
     },
@@ -1082,11 +1018,9 @@ export default {
       "masked": "The method has ____ in professional training.",
       "options": [
         "recognise-mcq-07",
-        "recognise-mcq-06",
-        "recognise-mcq-08",
-        "recognise-mcq-05",
-        "recognise-mcq-09",
-        "recognise-mcq-04"
+        "recognise-mcq-15",
+        "recognise-pdf-003",
+        "recognise-mcq-22"
       ],
       "explanation": "本句的「recognised value」指「公認價值」。",
       "sentenceIndex": 16,
@@ -1095,12 +1029,10 @@ export default {
         "recognised value"
       ],
       "optionReasons": {
-        "recognise-mcq-07": "本句指「公認價值」。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。",
-        "recognise-mcq-08": "「廣泛公認」與本句語境不同。",
-        "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。",
-        "recognise-mcq-09": "「認定 A 為 B」與本句語境不同。",
-        "recognise-mcq-04": "「意識到；承認」與本句語境不同。"
+        "recognise-mcq-07": "本句的「recognised value」指「公認價值」。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-07"
     },
@@ -1112,11 +1044,9 @@ export default {
       "masked": "Communication is ____ as essential to teamwork.",
       "options": [
         "recognise-mcq-08",
-        "recognise-mcq-07",
-        "recognise-mcq-09",
-        "recognise-mcq-06",
-        "recognise-mcq-10",
-        "recognise-mcq-05"
+        "recognise-mcq-22",
+        "recognise-pdf-002",
+        "recognise-mcq-20"
       ],
       "explanation": "本句的「widely recognised」指「廣泛公認」。",
       "sentenceIndex": 17,
@@ -1125,12 +1055,10 @@ export default {
         "widely recognised"
       ],
       "optionReasons": {
-        "recognise-mcq-08": "本句指「廣泛公認」。",
-        "recognise-mcq-07": "「公認價值」與本句語境不同。",
-        "recognise-mcq-09": "「認定 A 為 B」與本句語境不同。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。",
-        "recognise-mcq-10": "「肯定貢獻」與本句語境不同。",
-        "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。"
+        "recognise-mcq-08": "本句的「widely recognised」指「廣泛公認」。",
+        "recognise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "recognise-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-08"
     },
@@ -1142,11 +1070,9 @@ export default {
       "masked": "Her expertise is ____.",
       "options": [
         "recognise-mcq-08",
-        "recognise-mcq-07",
-        "recognise-mcq-09",
-        "recognise-mcq-06",
         "recognise-mcq-10",
-        "recognise-mcq-05"
+        "recognise-pdf-003",
+        "recognise-mcq-22"
       ],
       "explanation": "本句的「internationally recognised」指「廣泛公認」。",
       "sentenceIndex": 18,
@@ -1155,12 +1081,10 @@ export default {
         "internationally recognised"
       ],
       "optionReasons": {
-        "recognise-mcq-08": "本句指「廣泛公認」。",
-        "recognise-mcq-07": "「公認價值」與本句語境不同。",
-        "recognise-mcq-09": "「認定 A 為 B」與本句語境不同。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。",
-        "recognise-mcq-10": "「肯定貢獻」與本句語境不同。",
-        "recognise-mcq-05": "「察覺／承認問題」與本句語境不同。"
+        "recognise-mcq-08": "本句的「internationally recognised」指「廣泛公認」。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-08"
     },
@@ -1172,11 +1096,9 @@ export default {
       "masked": "The problem is now ____.",
       "options": [
         "recognise-mcq-09",
-        "recognise-mcq-08",
-        "recognise-mcq-10",
-        "recognise-mcq-07",
-        "recognise-mcq-11",
-        "recognise-mcq-06"
+        "recognise-mcq-20",
+        "recognise-mcq-03",
+        "recognise-pdf-003"
       ],
       "explanation": "本句的「recognised as a serious risk」指「認定 A 為 B」。",
       "sentenceIndex": 19,
@@ -1185,12 +1107,10 @@ export default {
         "recognised as a serious risk"
       ],
       "optionReasons": {
-        "recognise-mcq-09": "本句指「認定 A 為 B」。",
-        "recognise-mcq-08": "「廣泛公認」與本句語境不同。",
-        "recognise-mcq-10": "「肯定貢獻」與本句語境不同。",
-        "recognise-mcq-07": "「公認價值」與本句語境不同。",
-        "recognise-mcq-11": "「因 X 表揚某人」與本句語境不同。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。"
+        "recognise-mcq-09": "本句的「recognised as a serious risk」指「認定 A 為 B」。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-09"
     },
@@ -1202,11 +1122,9 @@ export default {
       "masked": "He is widely ____.",
       "options": [
         "recognise-mcq-09",
-        "recognise-mcq-08",
-        "recognise-mcq-10",
-        "recognise-mcq-07",
         "recognise-mcq-11",
-        "recognise-mcq-06"
+        "recognise-mcq-20",
+        "recognise-mcq-21"
       ],
       "explanation": "本句的「recognised as an expert」指「認定 A 為 B」。",
       "sentenceIndex": 20,
@@ -1215,12 +1133,10 @@ export default {
         "recognised as an expert"
       ],
       "optionReasons": {
-        "recognise-mcq-09": "本句指「認定 A 為 B」。",
-        "recognise-mcq-08": "「廣泛公認」與本句語境不同。",
-        "recognise-mcq-10": "「肯定貢獻」與本句語境不同。",
-        "recognise-mcq-07": "「公認價值」與本句語境不同。",
-        "recognise-mcq-11": "「因 X 表揚某人」與本句語境不同。",
-        "recognise-mcq-06": "「承認價值」與本句語境不同。"
+        "recognise-mcq-09": "本句的「recognised as an expert」指「認定 A 為 B」。",
+        "recognise-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-09"
     },
@@ -1232,11 +1148,9 @@ export default {
       "masked": "Managers should ____.",
       "options": [
         "recognise-mcq-10",
-        "recognise-mcq-09",
-        "recognise-mcq-11",
-        "recognise-mcq-08",
-        "recognise-mcq-12",
-        "recognise-mcq-07"
+        "recognise-mcq-17",
+        "recognise-mcq-03",
+        "recognise-mcq-08"
       ],
       "explanation": "本句的「recognise employees' contributions」指「肯定貢獻」。",
       "sentenceIndex": 21,
@@ -1245,12 +1159,10 @@ export default {
         "recognise employees' contributions"
       ],
       "optionReasons": {
-        "recognise-mcq-10": "本句指「肯定貢獻」。",
-        "recognise-mcq-09": "「認定 A 為 B」與本句語境不同。",
-        "recognise-mcq-11": "「因 X 表揚某人」與本句語境不同。",
-        "recognise-mcq-08": "「廣泛公認」與本句語境不同。",
-        "recognise-mcq-12": "「辨認；識別」與本句語境不同。",
-        "recognise-mcq-07": "「公認價值」與本句語境不同。"
+        "recognise-mcq-10": "本句的「recognise employees' contributions」指「肯定貢獻」。",
+        "recognise-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-10"
     },
@@ -1262,11 +1174,9 @@ export default {
       "masked": "Her contribution was finally ____.",
       "options": [
         "recognise-mcq-10",
-        "recognise-mcq-09",
-        "recognise-mcq-11",
-        "recognise-mcq-08",
-        "recognise-mcq-12",
-        "recognise-mcq-07"
+        "recognise-mcq-20",
+        "recognise-mcq-22",
+        "recognise-mcq-19"
       ],
       "explanation": "本句的「recognised」指「肯定貢獻」。",
       "sentenceIndex": 22,
@@ -1275,12 +1185,10 @@ export default {
         "recognised"
       ],
       "optionReasons": {
-        "recognise-mcq-10": "本句指「肯定貢獻」。",
-        "recognise-mcq-09": "「認定 A 為 B」與本句語境不同。",
-        "recognise-mcq-11": "「因 X 表揚某人」與本句語境不同。",
-        "recognise-mcq-08": "「廣泛公認」與本句語境不同。",
-        "recognise-mcq-12": "「辨認；識別」與本句語境不同。",
-        "recognise-mcq-07": "「公認價值」與本句語境不同。"
+        "recognise-mcq-10": "本句的「recognised」指「肯定貢獻」。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-10"
     },
@@ -1292,11 +1200,9 @@ export default {
       "masked": "The award ____.",
       "options": [
         "recognise-pdf-002",
-        "recognise-mcq-10",
-        "recognise-mcq-12",
-        "recognise-mcq-09",
-        "recognise-mcq-13",
-        "recognise-mcq-08"
+        "recognise-mcq-03",
+        "recognise-mcq-05",
+        "recognise-mcq-07"
       ],
       "explanation": "本句的「recognises outstanding achievement」指「對某人的成就或付出給予肯定或表揚」。",
       "sentenceIndex": 23,
@@ -1305,12 +1211,10 @@ export default {
         "recognises outstanding achievement"
       ],
       "optionReasons": {
-        "recognise-pdf-002": "本句指「對某人的成就或付出給予肯定或表揚」。",
-        "recognise-mcq-10": "「肯定貢獻」與本句語境不同。",
-        "recognise-mcq-12": "「辨認；識別」與本句語境不同。",
-        "recognise-mcq-09": "「認定 A 為 B」與本句語境不同。",
-        "recognise-mcq-13": "「認可；肯定」與本句語境不同。",
-        "recognise-mcq-08": "「廣泛公認」與本句語境不同。"
+        "recognise-pdf-002": "本句的「recognises outstanding achievement」指「對某人的成就或付出給予肯定或表揚」。",
+        "recognise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-pdf-002"
     },
@@ -1322,10 +1226,8 @@ export default {
       "masked": "Good leaders ____, not just results.",
       "options": [
         "recognise-pdf-002",
-        "recognise-mcq-10",
-        "recognise-mcq-12",
-        "recognise-mcq-09",
-        "recognise-mcq-13",
+        "recognise-mcq-17",
+        "recognise-mcq-22",
         "recognise-mcq-08"
       ],
       "explanation": "本句的「recognise effort」指「對某人的成就或付出給予肯定或表揚」。",
@@ -1335,12 +1237,10 @@ export default {
         "recognise effort"
       ],
       "optionReasons": {
-        "recognise-pdf-002": "本句指「對某人的成就或付出給予肯定或表揚」。",
-        "recognise-mcq-10": "「肯定貢獻」與本句語境不同。",
-        "recognise-mcq-12": "「辨認；識別」與本句語境不同。",
-        "recognise-mcq-09": "「認定 A 為 B」與本句語境不同。",
-        "recognise-mcq-13": "「認可；肯定」與本句語境不同。",
-        "recognise-mcq-08": "「廣泛公認」與本句語境不同。"
+        "recognise-pdf-002": "本句的「recognise effort」指「對某人的成就或付出給予肯定或表揚」。",
+        "recognise-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-pdf-002"
     },
@@ -1352,11 +1252,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "recognise-mcq-11",
-        "recognise-mcq-10",
-        "recognise-mcq-12",
-        "recognise-mcq-09",
-        "recognise-mcq-13",
-        "recognise-mcq-08"
+        "recognise-mcq-14",
+        "recognise-mcq-23",
+        "recognise-mcq-10"
       ],
       "explanation": "本句的「recognised for her leadership」指「因 X 表揚某人」。",
       "sentenceIndex": 25,
@@ -1365,12 +1263,10 @@ export default {
         "recognised for her leadership"
       ],
       "optionReasons": {
-        "recognise-mcq-11": "本句指「因 X 表揚某人」。",
-        "recognise-mcq-10": "「肯定貢獻」與本句語境不同。",
-        "recognise-mcq-12": "「辨認；識別」與本句語境不同。",
-        "recognise-mcq-09": "「認定 A 為 B」與本句語境不同。",
-        "recognise-mcq-13": "「認可；肯定」與本句語境不同。",
-        "recognise-mcq-08": "「廣泛公認」與本句語境不同。"
+        "recognise-mcq-11": "本句的「recognised for her leadership」指「因 X 表揚某人」。",
+        "recognise-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-11"
     },
@@ -1382,10 +1278,8 @@ export default {
       "masked": "Employees were ____.",
       "options": [
         "recognise-mcq-11",
-        "recognise-mcq-10",
-        "recognise-mcq-12",
-        "recognise-mcq-09",
-        "recognise-mcq-13",
+        "recognise-mcq-05",
+        "recognise-mcq-21",
         "recognise-mcq-08"
       ],
       "explanation": "本句的「recognised for their contributions」指「因 X 表揚某人」。",
@@ -1395,12 +1289,10 @@ export default {
         "recognised for their contributions"
       ],
       "optionReasons": {
-        "recognise-mcq-11": "本句指「因 X 表揚某人」。",
-        "recognise-mcq-10": "「肯定貢獻」與本句語境不同。",
-        "recognise-mcq-12": "「辨認；識別」與本句語境不同。",
-        "recognise-mcq-09": "「認定 A 為 B」與本句語境不同。",
-        "recognise-mcq-13": "「認可；肯定」與本句語境不同。",
-        "recognise-mcq-08": "「廣泛公認」與本句語境不同。"
+        "recognise-mcq-11": "本句的「recognised for their contributions」指「因 X 表揚某人」。",
+        "recognise-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-11"
     },
@@ -1412,11 +1304,9 @@ export default {
       "masked": "Facial ____ was difficult in the dark.",
       "options": [
         "recognise-mcq-12",
-        "recognise-mcq-11",
-        "recognise-mcq-13",
-        "recognise-mcq-10",
-        "recognise-mcq-14",
-        "recognise-mcq-09"
+        "recognise-mcq-15",
+        "recognise-pdf-003",
+        "recognise-mcq-10"
       ],
       "explanation": "本句的「recognition」指「辨認；識別」。",
       "sentenceIndex": 27,
@@ -1425,12 +1315,10 @@ export default {
         "recognition"
       ],
       "optionReasons": {
-        "recognise-mcq-12": "本句指「辨認；識別」。",
-        "recognise-mcq-11": "「因 X 表揚某人」與本句語境不同。",
-        "recognise-mcq-13": "「認可；肯定」與本句語境不同。",
-        "recognise-mcq-10": "「肯定貢獻」與本句語境不同。",
-        "recognise-mcq-14": "「獲得認可」與本句語境不同。",
-        "recognise-mcq-09": "「認定 A 為 B」與本句語境不同。"
+        "recognise-mcq-12": "本句的「recognition」指「辨認；識別」。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-12"
     },
@@ -1442,11 +1330,9 @@ export default {
       "masked": "Voice ____ technology has improved.",
       "options": [
         "recognise-mcq-12",
-        "recognise-mcq-11",
-        "recognise-mcq-13",
-        "recognise-mcq-10",
-        "recognise-mcq-14",
-        "recognise-mcq-09"
+        "recognise-pdf-002",
+        "recognise-mcq-20",
+        "recognise-mcq-17"
       ],
       "explanation": "本句的「recognition」指「辨認；識別」。",
       "sentenceIndex": 28,
@@ -1455,12 +1341,10 @@ export default {
         "recognition"
       ],
       "optionReasons": {
-        "recognise-mcq-12": "本句指「辨認；識別」。",
-        "recognise-mcq-11": "「因 X 表揚某人」與本句語境不同。",
-        "recognise-mcq-13": "「認可；肯定」與本句語境不同。",
-        "recognise-mcq-10": "「肯定貢獻」與本句語境不同。",
-        "recognise-mcq-14": "「獲得認可」與本句語境不同。",
-        "recognise-mcq-09": "「認定 A 為 B」與本句語境不同。"
+        "recognise-mcq-12": "本句的「recognition」指「辨認；識別」。",
+        "recognise-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-12"
     },
@@ -1472,11 +1356,9 @@ export default {
       "masked": "She received ____ for her work.",
       "options": [
         "recognise-mcq-13",
-        "recognise-mcq-12",
-        "recognise-mcq-14",
+        "recognise-mcq-03",
         "recognise-mcq-11",
-        "recognise-mcq-15",
-        "recognise-mcq-10"
+        "recognise-mcq-20"
       ],
       "explanation": "本句的「recognition」指「認可；肯定」。",
       "sentenceIndex": 29,
@@ -1485,12 +1367,10 @@ export default {
         "recognition"
       ],
       "optionReasons": {
-        "recognise-mcq-13": "本句指「認可；肯定」。",
-        "recognise-mcq-12": "「辨認；識別」與本句語境不同。",
-        "recognise-mcq-14": "「獲得認可」與本句語境不同。",
-        "recognise-mcq-11": "「因 X 表揚某人」與本句語境不同。",
-        "recognise-mcq-15": "「為表揚……」與本句語境不同。",
-        "recognise-mcq-10": "「肯定貢獻」與本句語境不同。"
+        "recognise-mcq-13": "本句的「recognition」指「認可；肯定」。",
+        "recognise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-13"
     },
@@ -1502,11 +1382,9 @@ export default {
       "masked": "Many employees want greater ____.",
       "options": [
         "recognise-mcq-13",
-        "recognise-mcq-12",
-        "recognise-mcq-14",
         "recognise-mcq-11",
-        "recognise-mcq-15",
-        "recognise-mcq-10"
+        "recognise-mcq-22",
+        "recognise-mcq-20"
       ],
       "explanation": "本句的「recognition」指「認可；肯定」。",
       "sentenceIndex": 30,
@@ -1515,12 +1393,10 @@ export default {
         "recognition"
       ],
       "optionReasons": {
-        "recognise-mcq-13": "本句指「認可；肯定」。",
-        "recognise-mcq-12": "「辨認；識別」與本句語境不同。",
-        "recognise-mcq-14": "「獲得認可」與本句語境不同。",
-        "recognise-mcq-11": "「因 X 表揚某人」與本句語境不同。",
-        "recognise-mcq-15": "「為表揚……」與本句語境不同。",
-        "recognise-mcq-10": "「肯定貢獻」與本句語境不同。"
+        "recognise-mcq-13": "本句的「recognition」指「認可；肯定」。",
+        "recognise-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-13"
     },
@@ -1532,11 +1408,9 @@ export default {
       "masked": "The project gradually ____.",
       "options": [
         "recognise-mcq-14",
-        "recognise-mcq-13",
-        "recognise-mcq-15",
-        "recognise-mcq-12",
-        "recognise-mcq-16",
-        "recognise-mcq-11"
+        "recognise-mcq-22",
+        "recognise-mcq-20",
+        "recognise-mcq-10"
       ],
       "explanation": "本句的「gained recognition」指「獲得認可」。",
       "sentenceIndex": 31,
@@ -1545,12 +1419,10 @@ export default {
         "gained recognition"
       ],
       "optionReasons": {
-        "recognise-mcq-14": "本句指「獲得認可」。",
-        "recognise-mcq-13": "「認可；肯定」與本句語境不同。",
-        "recognise-mcq-15": "「為表揚……」與本句語境不同。",
-        "recognise-mcq-12": "「辨認；識別」與本句語境不同。",
-        "recognise-mcq-16": "「正式認可」與本句語境不同。",
-        "recognise-mcq-11": "「因 X 表揚某人」與本句語境不同。"
+        "recognise-mcq-14": "本句的「gained recognition」指「獲得認可」。",
+        "recognise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-14"
     },
@@ -1562,11 +1434,9 @@ export default {
       "masked": "She finally ____.",
       "options": [
         "recognise-mcq-14",
-        "recognise-mcq-13",
+        "recognise-mcq-21",
         "recognise-mcq-15",
-        "recognise-mcq-12",
-        "recognise-mcq-16",
-        "recognise-mcq-11"
+        "recognise-mcq-10"
       ],
       "explanation": "本句的「received recognition for her contribution」指「獲得認可」。",
       "sentenceIndex": 32,
@@ -1575,12 +1445,10 @@ export default {
         "received recognition for her contribution"
       ],
       "optionReasons": {
-        "recognise-mcq-14": "本句指「獲得認可」。",
-        "recognise-mcq-13": "「認可；肯定」與本句語境不同。",
-        "recognise-mcq-15": "「為表揚……」與本句語境不同。",
-        "recognise-mcq-12": "「辨認；識別」與本句語境不同。",
-        "recognise-mcq-16": "「正式認可」與本句語境不同。",
-        "recognise-mcq-11": "「因 X 表揚某人」與本句語境不同。"
+        "recognise-mcq-14": "本句的「received recognition for her contribution」指「獲得認可」。",
+        "recognise-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-14"
     },
@@ -1592,11 +1460,9 @@ export default {
       "masked": "She received an award ____.",
       "options": [
         "recognise-mcq-15",
-        "recognise-mcq-14",
-        "recognise-mcq-16",
+        "recognise-mcq-22",
         "recognise-mcq-13",
-        "recognise-mcq-17",
-        "recognise-mcq-12"
+        "recognise-pdf-003"
       ],
       "explanation": "本句的「in recognition of her service」指「為表揚……」。",
       "sentenceIndex": 33,
@@ -1605,12 +1471,10 @@ export default {
         "in recognition of her service"
       ],
       "optionReasons": {
-        "recognise-mcq-15": "本句指「為表揚……」。",
-        "recognise-mcq-14": "「獲得認可」與本句語境不同。",
-        "recognise-mcq-16": "「正式認可」與本句語境不同。",
-        "recognise-mcq-13": "「認可；肯定」與本句語境不同。",
-        "recognise-mcq-17": "「承認國家／政府」與本句語境不同。",
-        "recognise-mcq-12": "「辨認；識別」與本句語境不同。"
+        "recognise-mcq-15": "本句的「in recognition of her service」指「為表揚……」。",
+        "recognise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-15"
     },
@@ -1622,11 +1486,9 @@ export default {
       "masked": "The prize was given ____.",
       "options": [
         "recognise-mcq-15",
-        "recognise-mcq-14",
-        "recognise-mcq-16",
-        "recognise-mcq-13",
-        "recognise-mcq-17",
-        "recognise-mcq-12"
+        "recognise-mcq-06",
+        "recognise-mcq-02",
+        "recognise-mcq-20"
       ],
       "explanation": "本句的「in recognition of outstanding teamwork」指「為表揚……」。",
       "sentenceIndex": 34,
@@ -1635,12 +1497,10 @@ export default {
         "in recognition of outstanding teamwork"
       ],
       "optionReasons": {
-        "recognise-mcq-15": "本句指「為表揚……」。",
-        "recognise-mcq-14": "「獲得認可」與本句語境不同。",
-        "recognise-mcq-16": "「正式認可」與本句語境不同。",
-        "recognise-mcq-13": "「認可；肯定」與本句語境不同。",
-        "recognise-mcq-17": "「承認國家／政府」與本句語境不同。",
-        "recognise-mcq-12": "「辨認；識別」與本句語境不同。"
+        "recognise-mcq-15": "本句的「in recognition of outstanding teamwork」指「為表揚……」。",
+        "recognise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-15"
     },
@@ -1652,11 +1512,9 @@ export default {
       "masked": "The qualification has ____.",
       "options": [
         "recognise-mcq-16",
-        "recognise-mcq-15",
-        "recognise-mcq-17",
-        "recognise-mcq-14",
-        "recognise-mcq-18",
-        "recognise-mcq-13"
+        "recognise-mcq-22",
+        "recognise-pdf-002",
+        "recognise-mcq-20"
       ],
       "explanation": "本句的「official recognition」指「正式認可」。",
       "sentenceIndex": 35,
@@ -1665,12 +1523,10 @@ export default {
         "official recognition"
       ],
       "optionReasons": {
-        "recognise-mcq-16": "本句指「正式認可」。",
-        "recognise-mcq-15": "「為表揚……」與本句語境不同。",
-        "recognise-mcq-17": "「承認國家／政府」與本句語境不同。",
-        "recognise-mcq-14": "「獲得認可」與本句語境不同。",
-        "recognise-mcq-18": "「可辨認的」與本句語境不同。",
-        "recognise-mcq-13": "「認可；肯定」與本句語境不同。"
+        "recognise-mcq-16": "本句的「official recognition」指「正式認可」。",
+        "recognise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "recognise-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-16"
     },
@@ -1682,11 +1538,9 @@ export default {
       "masked": "The organisation is seeking ____.",
       "options": [
         "recognise-mcq-16",
-        "recognise-mcq-15",
-        "recognise-mcq-17",
-        "recognise-mcq-14",
-        "recognise-mcq-18",
-        "recognise-mcq-13"
+        "recognise-mcq-22",
+        "recognise-mcq-11",
+        "recognise-mcq-20"
       ],
       "explanation": "本句的「official recognition」指「正式認可」。",
       "sentenceIndex": 36,
@@ -1695,12 +1549,10 @@ export default {
         "official recognition"
       ],
       "optionReasons": {
-        "recognise-mcq-16": "本句指「正式認可」。",
-        "recognise-mcq-15": "「為表揚……」與本句語境不同。",
-        "recognise-mcq-17": "「承認國家／政府」與本句語境不同。",
-        "recognise-mcq-14": "「獲得認可」與本句語境不同。",
-        "recognise-mcq-18": "「可辨認的」與本句語境不同。",
-        "recognise-mcq-13": "「認可；肯定」與本句語境不同。"
+        "recognise-mcq-16": "本句的「official recognition」指「正式認可」。",
+        "recognise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-16"
     },
@@ -1712,11 +1564,9 @@ export default {
       "masked": "The qualification is ____.",
       "options": [
         "recognise-pdf-003",
-        "recognise-mcq-15",
-        "recognise-mcq-17",
-        "recognise-mcq-14",
-        "recognise-mcq-18",
-        "recognise-mcq-13"
+        "recognise-mcq-06",
+        "recognise-mcq-02",
+        "recognise-mcq-08"
       ],
       "explanation": "本句的「officially recognised」指「由有權力的機構正式接受 X 為有效或合法」。",
       "sentenceIndex": 37,
@@ -1725,12 +1575,10 @@ export default {
         "officially recognised"
       ],
       "optionReasons": {
-        "recognise-pdf-003": "本句指「由有權力的機構正式接受 X 為有效或合法」。",
-        "recognise-mcq-15": "「為表揚……」與本句語境不同。",
-        "recognise-mcq-17": "「承認國家／政府」與本句語境不同。",
-        "recognise-mcq-14": "「獲得認可」與本句語境不同。",
-        "recognise-mcq-18": "「可辨認的」與本句語境不同。",
-        "recognise-mcq-13": "「認可；肯定」與本句語境不同。"
+        "recognise-pdf-003": "本句的「officially recognised」指「由有權力的機構正式接受 X 為有效或合法」。",
+        "recognise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-pdf-003"
     },
@@ -1742,11 +1590,9 @@ export default {
       "masked": "The university is ____.",
       "options": [
         "recognise-pdf-003",
-        "recognise-mcq-15",
-        "recognise-mcq-17",
-        "recognise-mcq-14",
-        "recognise-mcq-18",
-        "recognise-mcq-13"
+        "recognise-mcq-10",
+        "recognise-pdf-001",
+        "recognise-mcq-15"
       ],
       "explanation": "本句的「recognised by the relevant authority」指「由有權力的機構正式接受 X 為有效或合法」。",
       "sentenceIndex": 38,
@@ -1755,12 +1601,10 @@ export default {
         "recognised by the relevant authority"
       ],
       "optionReasons": {
-        "recognise-pdf-003": "本句指「由有權力的機構正式接受 X 為有效或合法」。",
-        "recognise-mcq-15": "「為表揚……」與本句語境不同。",
-        "recognise-mcq-17": "「承認國家／政府」與本句語境不同。",
-        "recognise-mcq-14": "「獲得認可」與本句語境不同。",
-        "recognise-mcq-18": "「可辨認的」與本句語境不同。",
-        "recognise-mcq-13": "「認可；肯定」與本句語境不同。"
+        "recognise-pdf-003": "本句的「recognised by the relevant authority」指「由有權力的機構正式接受 X 為有效或合法」。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recognise-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-pdf-003"
     },
@@ -1772,11 +1616,9 @@ export default {
       "masked": "Several states formally ____.",
       "options": [
         "recognise-mcq-17",
-        "recognise-mcq-16",
-        "recognise-mcq-18",
         "recognise-mcq-15",
-        "recognise-mcq-19",
-        "recognise-mcq-14"
+        "recognise-mcq-03",
+        "recognise-pdf-003"
       ],
       "explanation": "本句的「recognised the new government」指「承認國家／政府」。",
       "sentenceIndex": 39,
@@ -1785,12 +1627,10 @@ export default {
         "recognised the new government"
       ],
       "optionReasons": {
-        "recognise-mcq-17": "本句指「承認國家／政府」。",
-        "recognise-mcq-16": "「正式認可」與本句語境不同。",
-        "recognise-mcq-18": "「可辨認的」與本句語境不同。",
-        "recognise-mcq-15": "「為表揚……」與本句語境不同。",
-        "recognise-mcq-19": "「無法辨認的」與本句語境不同。",
-        "recognise-mcq-14": "「獲得認可」與本句語境不同。"
+        "recognise-mcq-17": "本句的「recognised the new government」指「承認國家／政府」。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-17"
     },
@@ -1802,11 +1642,9 @@ export default {
       "masked": "Diplomatic recognition involves formally ____.",
       "options": [
         "recognise-mcq-17",
-        "recognise-mcq-16",
-        "recognise-mcq-18",
-        "recognise-mcq-15",
-        "recognise-mcq-19",
-        "recognise-mcq-14"
+        "recognise-mcq-03",
+        "recognise-mcq-11",
+        "recognise-mcq-20"
       ],
       "explanation": "本句的「recognising a state or government」指「承認國家／政府」。",
       "sentenceIndex": 40,
@@ -1815,12 +1653,10 @@ export default {
         "recognising a state or government"
       ],
       "optionReasons": {
-        "recognise-mcq-17": "本句指「承認國家／政府」。",
-        "recognise-mcq-16": "「正式認可」與本句語境不同。",
-        "recognise-mcq-18": "「可辨認的」與本句語境不同。",
-        "recognise-mcq-15": "「為表揚……」與本句語境不同。",
-        "recognise-mcq-19": "「無法辨認的」與本句語境不同。",
-        "recognise-mcq-14": "「獲得認可」與本句語境不同。"
+        "recognise-mcq-17": "本句的「recognising a state or government」指「承認國家／政府」。",
+        "recognise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-17"
     },
@@ -1832,11 +1668,9 @@ export default {
       "masked": "He was still ____ despite the disguise.",
       "options": [
         "recognise-mcq-18",
-        "recognise-mcq-17",
-        "recognise-mcq-19",
-        "recognise-mcq-16",
-        "recognise-mcq-20",
-        "recognise-mcq-15"
+        "recognise-pdf-003",
+        "recognise-mcq-10",
+        "recognise-mcq-03"
       ],
       "explanation": "本句的「recognisable」指「可辨認的」。",
       "sentenceIndex": 41,
@@ -1845,12 +1679,10 @@ export default {
         "recognisable"
       ],
       "optionReasons": {
-        "recognise-mcq-18": "本句指「可辨認的」。",
-        "recognise-mcq-17": "「承認國家／政府」與本句語境不同。",
-        "recognise-mcq-19": "「無法辨認的」與本句語境不同。",
-        "recognise-mcq-16": "「正式認可」與本句語境不同。",
-        "recognise-mcq-20": "「面目全非」與本句語境不同。",
-        "recognise-mcq-15": "「為表揚……」與本句語境不同。"
+        "recognise-mcq-18": "本句的「recognisable」指「可辨認的」。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-18"
     },
@@ -1862,10 +1694,8 @@ export default {
       "masked": "The building has a highly ____.",
       "options": [
         "recognise-mcq-18",
-        "recognise-mcq-17",
-        "recognise-mcq-19",
-        "recognise-mcq-16",
         "recognise-mcq-20",
+        "recognise-pdf-003",
         "recognise-mcq-15"
       ],
       "explanation": "本句的「recognisable design」指「可辨認的」。",
@@ -1875,12 +1705,10 @@ export default {
         "recognisable design"
       ],
       "optionReasons": {
-        "recognise-mcq-18": "本句指「可辨認的」。",
-        "recognise-mcq-17": "「承認國家／政府」與本句語境不同。",
-        "recognise-mcq-19": "「無法辨認的」與本句語境不同。",
-        "recognise-mcq-16": "「正式認可」與本句語境不同。",
-        "recognise-mcq-20": "「面目全非」與本句語境不同。",
-        "recognise-mcq-15": "「為表揚……」與本句語境不同。"
+        "recognise-mcq-18": "本句的「recognisable design」指「可辨認的」。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-18"
     },
@@ -1892,10 +1720,8 @@ export default {
       "masked": "The logo is ____.",
       "options": [
         "recognise-mcq-18",
-        "recognise-mcq-17",
-        "recognise-mcq-19",
-        "recognise-mcq-16",
         "recognise-mcq-20",
+        "recognise-mcq-22",
         "recognise-mcq-15"
       ],
       "explanation": "本句的「instantly recognisable」指「可辨認的」。",
@@ -1905,12 +1731,10 @@ export default {
         "instantly recognisable"
       ],
       "optionReasons": {
-        "recognise-mcq-18": "本句指「可辨認的」。",
-        "recognise-mcq-17": "「承認國家／政府」與本句語境不同。",
-        "recognise-mcq-19": "「無法辨認的」與本句語境不同。",
-        "recognise-mcq-16": "「正式認可」與本句語境不同。",
-        "recognise-mcq-20": "「面目全非」與本句語境不同。",
-        "recognise-mcq-15": "「為表揚……」與本句語境不同。"
+        "recognise-mcq-18": "本句的「instantly recognisable」指「可辨認的」。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-18"
     },
@@ -1922,11 +1746,9 @@ export default {
       "masked": "Her voice is ____.",
       "options": [
         "recognise-mcq-18",
-        "recognise-mcq-17",
-        "recognise-mcq-19",
-        "recognise-mcq-16",
+        "recognise-mcq-21",
         "recognise-mcq-20",
-        "recognise-mcq-15"
+        "recognise-mcq-11"
       ],
       "explanation": "本句的「instantly recognisable」指「可辨認的」。",
       "sentenceIndex": 44,
@@ -1935,12 +1757,10 @@ export default {
         "instantly recognisable"
       ],
       "optionReasons": {
-        "recognise-mcq-18": "本句指「可辨認的」。",
-        "recognise-mcq-17": "「承認國家／政府」與本句語境不同。",
-        "recognise-mcq-19": "「無法辨認的」與本句語境不同。",
-        "recognise-mcq-16": "「正式認可」與本句語境不同。",
-        "recognise-mcq-20": "「面目全非」與本句語境不同。",
-        "recognise-mcq-15": "「為表揚……」與本句語境不同。"
+        "recognise-mcq-18": "本句的「instantly recognisable」指「可辨認的」。",
+        "recognise-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-18"
     },
@@ -1952,11 +1772,9 @@ export default {
       "masked": "The building was almost ____ after the renovation.",
       "options": [
         "recognise-mcq-19",
-        "recognise-mcq-18",
-        "recognise-mcq-20",
-        "recognise-mcq-17",
         "recognise-mcq-21",
-        "recognise-mcq-16"
+        "recognise-mcq-15",
+        "recognise-mcq-10"
       ],
       "explanation": "本句的「unrecognisable」指「無法辨認的」。",
       "sentenceIndex": 45,
@@ -1965,12 +1783,10 @@ export default {
         "unrecognisable"
       ],
       "optionReasons": {
-        "recognise-mcq-19": "本句指「無法辨認的」。",
-        "recognise-mcq-18": "「可辨認的」與本句語境不同。",
-        "recognise-mcq-20": "「面目全非」與本句語境不同。",
-        "recognise-mcq-17": "「承認國家／政府」與本句語境不同。",
-        "recognise-mcq-21": "「人面識別」與本句語境不同。",
-        "recognise-mcq-16": "「正式認可」與本句語境不同。"
+        "recognise-mcq-19": "本句的「unrecognisable」指「無法辨認的」。",
+        "recognise-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-19"
     },
@@ -1982,11 +1798,9 @@ export default {
       "masked": "The area has changed beyond recognition and is nearly ____.",
       "options": [
         "recognise-mcq-19",
-        "recognise-mcq-18",
-        "recognise-mcq-20",
-        "recognise-mcq-17",
+        "recognise-mcq-10",
         "recognise-mcq-21",
-        "recognise-mcq-16"
+        "recognise-mcq-15"
       ],
       "explanation": "本句的「unrecognisable」指「無法辨認的」。",
       "sentenceIndex": 46,
@@ -1995,12 +1809,10 @@ export default {
         "unrecognisable"
       ],
       "optionReasons": {
-        "recognise-mcq-19": "本句指「無法辨認的」。",
-        "recognise-mcq-18": "「可辨認的」與本句語境不同。",
-        "recognise-mcq-20": "「面目全非」與本句語境不同。",
-        "recognise-mcq-17": "「承認國家／政府」與本句語境不同。",
-        "recognise-mcq-21": "「人面識別」與本句語境不同。",
-        "recognise-mcq-16": "「正式認可」與本句語境不同。"
+        "recognise-mcq-19": "本句的「unrecognisable」指「無法辨認的」。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-19"
     },
@@ -2012,11 +1824,9 @@ export default {
       "masked": "The old factory has changed ____.",
       "options": [
         "recognise-mcq-20",
-        "recognise-mcq-19",
-        "recognise-mcq-21",
-        "recognise-mcq-18",
+        "recognise-mcq-17",
         "recognise-mcq-22",
-        "recognise-mcq-17"
+        "recognise-pdf-003"
       ],
       "explanation": "本句的「beyond recognition」指「面目全非」。",
       "sentenceIndex": 47,
@@ -2025,12 +1835,10 @@ export default {
         "beyond recognition"
       ],
       "optionReasons": {
-        "recognise-mcq-20": "本句指「面目全非」。",
-        "recognise-mcq-19": "「無法辨認的」與本句語境不同。",
-        "recognise-mcq-21": "「人面識別」與本句語境不同。",
-        "recognise-mcq-18": "「可辨認的」與本句語境不同。",
-        "recognise-mcq-22": "「語音識別」與本句語境不同。",
-        "recognise-mcq-17": "「承認國家／政府」與本句語境不同。"
+        "recognise-mcq-20": "本句的「beyond recognition」指「面目全非」。",
+        "recognise-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-20"
     },
@@ -2042,11 +1850,9 @@ export default {
       "masked": "The neighbourhood was transformed ____.",
       "options": [
         "recognise-mcq-20",
-        "recognise-mcq-19",
-        "recognise-mcq-21",
-        "recognise-mcq-18",
-        "recognise-mcq-22",
-        "recognise-mcq-17"
+        "recognise-mcq-23",
+        "recognise-mcq-09",
+        "recognise-mcq-11"
       ],
       "explanation": "本句的「beyond recognition」指「面目全非」。",
       "sentenceIndex": 48,
@@ -2055,12 +1861,10 @@ export default {
         "beyond recognition"
       ],
       "optionReasons": {
-        "recognise-mcq-20": "本句指「面目全非」。",
-        "recognise-mcq-19": "「無法辨認的」與本句語境不同。",
-        "recognise-mcq-21": "「人面識別」與本句語境不同。",
-        "recognise-mcq-18": "「可辨認的」與本句語境不同。",
-        "recognise-mcq-22": "「語音識別」與本句語境不同。",
-        "recognise-mcq-17": "「承認國家／政府」與本句語境不同。"
+        "recognise-mcq-20": "本句的「beyond recognition」指「面目全非」。",
+        "recognise-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-20"
     },
@@ -2072,11 +1876,9 @@ export default {
       "masked": "The phone uses ____.",
       "options": [
         "recognise-mcq-21",
-        "recognise-mcq-20",
-        "recognise-mcq-22",
-        "recognise-mcq-19",
-        "recognise-mcq-23",
-        "recognise-mcq-18"
+        "recognise-pdf-001",
+        "recognise-mcq-15",
+        "recognise-mcq-10"
       ],
       "explanation": "本句的「face recognition」指「人面識別」。",
       "sentenceIndex": 49,
@@ -2085,12 +1887,10 @@ export default {
         "face recognition"
       ],
       "optionReasons": {
-        "recognise-mcq-21": "本句指「人面識別」。",
-        "recognise-mcq-20": "「面目全非」與本句語境不同。",
-        "recognise-mcq-22": "「語音識別」與本句語境不同。",
-        "recognise-mcq-19": "「無法辨認的」與本句語境不同。",
-        "recognise-mcq-23": "「模式識別」與本句語境不同。",
-        "recognise-mcq-18": "「可辨認的」與本句語境不同。"
+        "recognise-mcq-21": "本句的「face recognition」指「人面識別」。",
+        "recognise-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-21"
     },
@@ -2102,11 +1902,9 @@ export default {
       "masked": "____ software compares facial features.",
       "options": [
         "recognise-mcq-21",
-        "recognise-mcq-20",
-        "recognise-mcq-22",
-        "recognise-mcq-19",
-        "recognise-mcq-23",
-        "recognise-mcq-18"
+        "recognise-mcq-02",
+        "recognise-mcq-10",
+        "recognise-mcq-05"
       ],
       "explanation": "本句的「Face recognition」指「人面識別」。",
       "sentenceIndex": 50,
@@ -2115,12 +1913,10 @@ export default {
         "Face recognition"
       ],
       "optionReasons": {
-        "recognise-mcq-21": "本句指「人面識別」。",
-        "recognise-mcq-20": "「面目全非」與本句語境不同。",
-        "recognise-mcq-22": "「語音識別」與本句語境不同。",
-        "recognise-mcq-19": "「無法辨認的」與本句語境不同。",
-        "recognise-mcq-23": "「模式識別」與本句語境不同。",
-        "recognise-mcq-18": "「可辨認的」與本句語境不同。"
+        "recognise-mcq-21": "本句的「Face recognition」指「人面識別」。",
+        "recognise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-21"
     },
@@ -2132,11 +1928,9 @@ export default {
       "masked": "The device uses ____.",
       "options": [
         "recognise-mcq-22",
-        "recognise-mcq-21",
-        "recognise-mcq-23",
-        "recognise-mcq-20",
-        "recognise-mcq-19",
-        "recognise-mcq-18"
+        "recognise-pdf-003",
+        "recognise-mcq-06",
+        "recognise-pdf-001"
       ],
       "explanation": "本句的「speech recognition」指「語音識別」。",
       "sentenceIndex": 51,
@@ -2145,12 +1939,10 @@ export default {
         "speech recognition"
       ],
       "optionReasons": {
-        "recognise-mcq-22": "本句指「語音識別」。",
-        "recognise-mcq-21": "「人面識別」與本句語境不同。",
-        "recognise-mcq-23": "「模式識別」與本句語境不同。",
-        "recognise-mcq-20": "「面目全非」與本句語境不同。",
-        "recognise-mcq-19": "「無法辨認的」與本句語境不同。",
-        "recognise-mcq-18": "「可辨認的」與本句語境不同。"
+        "recognise-mcq-22": "本句的「speech recognition」指「語音識別」。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "recognise-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-22"
     },
@@ -2162,11 +1954,9 @@ export default {
       "masked": "Modern ____ can convert speech into text.",
       "options": [
         "recognise-mcq-22",
-        "recognise-mcq-21",
-        "recognise-mcq-23",
-        "recognise-mcq-20",
-        "recognise-mcq-19",
-        "recognise-mcq-18"
+        "recognise-pdf-001",
+        "recognise-pdf-003",
+        "recognise-mcq-07"
       ],
       "explanation": "本句的「speech recognition」指「語音識別」。",
       "sentenceIndex": 52,
@@ -2175,12 +1965,10 @@ export default {
         "speech recognition"
       ],
       "optionReasons": {
-        "recognise-mcq-22": "本句指「語音識別」。",
-        "recognise-mcq-21": "「人面識別」與本句語境不同。",
-        "recognise-mcq-23": "「模式識別」與本句語境不同。",
-        "recognise-mcq-20": "「面目全非」與本句語境不同。",
-        "recognise-mcq-19": "「無法辨認的」與本句語境不同。",
-        "recognise-mcq-18": "「可辨認的」與本句語境不同。"
+        "recognise-mcq-22": "本句的「speech recognition」指「語音識別」。",
+        "recognise-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-22"
     },
@@ -2192,11 +1980,9 @@ export default {
       "masked": "Humans are naturally good at ____.",
       "options": [
         "recognise-mcq-23",
-        "recognise-mcq-22",
-        "recognise-mcq-21",
-        "recognise-mcq-20",
-        "recognise-mcq-19",
-        "recognise-mcq-18"
+        "recognise-pdf-003",
+        "recognise-mcq-18",
+        "recognise-mcq-10"
       ],
       "explanation": "本句的「pattern recognition」指「模式識別」。",
       "sentenceIndex": 53,
@@ -2205,12 +1991,10 @@ export default {
         "pattern recognition"
       ],
       "optionReasons": {
-        "recognise-mcq-23": "本句指「模式識別」。",
-        "recognise-mcq-22": "「語音識別」與本句語境不同。",
-        "recognise-mcq-21": "「人面識別」與本句語境不同。",
-        "recognise-mcq-20": "「面目全非」與本句語境不同。",
-        "recognise-mcq-19": "「無法辨認的」與本句語境不同。",
-        "recognise-mcq-18": "「可辨認的」與本句語境不同。"
+        "recognise-mcq-23": "本句的「pattern recognition」指「模式識別」。",
+        "recognise-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-23"
     },
@@ -2222,11 +2006,9 @@ export default {
       "masked": "The software uses ____ to detect unusual behaviour.",
       "options": [
         "recognise-mcq-23",
-        "recognise-mcq-22",
-        "recognise-mcq-21",
-        "recognise-mcq-20",
-        "recognise-mcq-19",
-        "recognise-mcq-18"
+        "recognise-mcq-01",
+        "recognise-mcq-15",
+        "recognise-mcq-10"
       ],
       "explanation": "本句的「pattern recognition」指「模式識別」。",
       "sentenceIndex": 54,
@@ -2235,12 +2017,10 @@ export default {
         "pattern recognition"
       ],
       "optionReasons": {
-        "recognise-mcq-23": "本句指「模式識別」。",
-        "recognise-mcq-22": "「語音識別」與本句語境不同。",
-        "recognise-mcq-21": "「人面識別」與本句語境不同。",
-        "recognise-mcq-20": "「面目全非」與本句語境不同。",
-        "recognise-mcq-19": "「無法辨認的」與本句語境不同。",
-        "recognise-mcq-18": "「可辨認的」與本句語境不同。"
+        "recognise-mcq-23": "本句的「pattern recognition」指「模式識別」。",
+        "recognise-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "recognise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recognise-mcq-23"
     }
@@ -2252,5 +2032,7 @@ export default {
     "sha256": "bac2ca073f5983212db0bdd137203e5d8d1fb2bfa972d3c3c4c6a6346be79eca",
     "pages": 22
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

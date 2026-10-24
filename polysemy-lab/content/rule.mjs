@@ -1478,18 +1478,7 @@ export default {
       "en": "X rules!",
       "zh": "X 超棒／最強",
       "note": "來源詞義：X 超棒／最強",
-      "examples": [
-        [
-          "Players must know the rules of the game.",
-          "參賽者必須了解比賽規則。",
-          "X 超棒／最強"
-        ],
-        [
-          "The referee applies the rules.",
-          "裁判負責執行比賽規則。",
-          "X 超棒／最強"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1658,6 +1647,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "rule-reviewed-273c1798c5",
+      "title": "遊戲／比賽規則",
+      "form": "rule · source section 82",
+      "en": "遊戲／比賽規則",
+      "zh": "遊戲／比賽規則",
+      "note": "對照原始教材第 82 節及例句核實。",
+      "examples": [
+        [
+          "Players must know the rules of the game.",
+          "參賽者必須了解比賽規則。",
+          "遊戲／比賽規則"
+        ],
+        [
+          "The referee applies the rules.",
+          "裁判負責執行比賽規則。",
+          "遊戲／比賽規則"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1669,11 +1680,9 @@ export default {
       "masked": "Is our ____ proportionate for online fashion?",
       "options": [
         "rule-pdf-001",
-        "rule-mcq-02",
-        "rule-mcq-03",
-        "rule-mcq-04",
-        "rule-mcq-05",
-        "rule-mcq-06"
+        "rule-mcq-59",
+        "rule-mcq-62",
+        "rule-mcq-44"
       ],
       "explanation": "本句的「present rule」指「用來控制、要求或限制行為的正式規定」。",
       "sentenceIndex": 0,
@@ -1682,12 +1691,10 @@ export default {
         "present rule"
       ],
       "optionReasons": {
-        "rule-pdf-001": "本句指「用來控制、要求或限制行為的正式規定」。",
-        "rule-mcq-02": "「現行規定」與本句語境不同。",
-        "rule-mcq-03": "「嚴格規定」與本句語境不同。",
-        "rule-mcq-04": "「清晰規則」與本句語境不同。",
-        "rule-mcq-05": "「明文規定」與本句語境不同。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。"
+        "rule-pdf-001": "本句的「present rule」指「用來控制、要求或限制行為的正式規定」。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-pdf-001"
     },
@@ -1699,11 +1706,9 @@ export default {
       "masked": "The company introduced a new ____ on returns.",
       "options": [
         "rule-pdf-001",
-        "rule-mcq-02",
-        "rule-mcq-03",
-        "rule-mcq-04",
-        "rule-mcq-05",
-        "rule-mcq-06"
+        "rule-mcq-52",
+        "rule-mcq-57",
+        "rule-mcq-48"
       ],
       "explanation": "本句的「rule」指「用來控制、要求或限制行為的正式規定」。",
       "sentenceIndex": 1,
@@ -1712,12 +1717,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-pdf-001": "本句指「用來控制、要求或限制行為的正式規定」。",
-        "rule-mcq-02": "「現行規定」與本句語境不同。",
-        "rule-mcq-03": "「嚴格規定」與本句語境不同。",
-        "rule-mcq-04": "「清晰規則」與本句語境不同。",
-        "rule-mcq-05": "「明文規定」與本句語境不同。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。"
+        "rule-pdf-001": "本句的「rule」指「用來控制、要求或限制行為的正式規定」。",
+        "rule-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-pdf-001"
     },
@@ -1729,11 +1732,9 @@ export default {
       "masked": "Staff must understand the ____ before applying it.",
       "options": [
         "rule-pdf-001",
-        "rule-mcq-02",
-        "rule-mcq-03",
-        "rule-mcq-04",
-        "rule-mcq-05",
-        "rule-mcq-06"
+        "rule-mcq-44",
+        "rule-mcq-60",
+        "rule-mcq-57"
       ],
       "explanation": "本句的「rule」指「用來控制、要求或限制行為的正式規定」。",
       "sentenceIndex": 2,
@@ -1742,12 +1743,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-pdf-001": "本句指「用來控制、要求或限制行為的正式規定」。",
-        "rule-mcq-02": "「現行規定」與本句語境不同。",
-        "rule-mcq-03": "「嚴格規定」與本句語境不同。",
-        "rule-mcq-04": "「清晰規則」與本句語境不同。",
-        "rule-mcq-05": "「明文規定」與本句語境不同。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。"
+        "rule-pdf-001": "本句的「rule」指「用來控制、要求或限制行為的正式規定」。",
+        "rule-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-pdf-001"
     },
@@ -1759,11 +1758,9 @@ export default {
       "masked": "The ____ does not allow cash refunds.",
       "options": [
         "rule-mcq-02",
-        "rule-mcq-01",
-        "rule-mcq-03",
-        "rule-mcq-04",
-        "rule-mcq-05",
-        "rule-mcq-06"
+        "rule-mcq-59",
+        "rule-mcq-40",
+        "rule-pdf-007"
       ],
       "explanation": "本句的「present rule」指「現行規定」。",
       "sentenceIndex": 3,
@@ -1772,12 +1769,10 @@ export default {
         "present rule"
       ],
       "optionReasons": {
-        "rule-mcq-02": "本句指「現行規定」。",
-        "rule-mcq-01": "「規則；規定」與本句語境不同。",
-        "rule-mcq-03": "「嚴格規定」與本句語境不同。",
-        "rule-mcq-04": "「清晰規則」與本句語境不同。",
-        "rule-mcq-05": "「明文規定」與本句語境不同。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。"
+        "rule-mcq-02": "本句的「present rule」指「現行規定」。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-02"
     },
@@ -1789,11 +1784,9 @@ export default {
       "masked": "Management is reviewing the current ____.",
       "options": [
         "rule-mcq-02",
-        "rule-mcq-01",
-        "rule-mcq-03",
-        "rule-mcq-04",
-        "rule-mcq-05",
-        "rule-mcq-06"
+        "rule-mcq-43",
+        "rule-mcq-67",
+        "rule-pdf-008"
       ],
       "explanation": "本句的「rule」指「現行規定」。",
       "sentenceIndex": 4,
@@ -1802,12 +1795,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-02": "本句指「現行規定」。",
-        "rule-mcq-01": "「規則；規定」與本句語境不同。",
-        "rule-mcq-03": "「嚴格規定」與本句語境不同。",
-        "rule-mcq-04": "「清晰規則」與本句語境不同。",
-        "rule-mcq-05": "「明文規定」與本句語境不同。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。"
+        "rule-mcq-02": "本句的「rule」指「現行規定」。",
+        "rule-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-02"
     },
@@ -1819,11 +1810,9 @@ export default {
       "masked": "The store has a ____ against returning worn items.",
       "options": [
         "rule-mcq-03",
-        "rule-mcq-02",
-        "rule-mcq-04",
-        "rule-mcq-01",
-        "rule-mcq-05",
-        "rule-mcq-06"
+        "rule-mcq-33",
+        "rule-mcq-60",
+        "rule-mcq-43"
       ],
       "explanation": "本句的「strict rule」指「嚴格規定」。",
       "sentenceIndex": 5,
@@ -1832,12 +1821,10 @@ export default {
         "strict rule"
       ],
       "optionReasons": {
-        "rule-mcq-03": "本句指「嚴格規定」。",
-        "rule-mcq-02": "「現行規定」與本句語境不同。",
-        "rule-mcq-04": "「清晰規則」與本句語境不同。",
-        "rule-mcq-01": "「規則；規定」與本句語境不同。",
-        "rule-mcq-05": "「明文規定」與本句語境不同。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。"
+        "rule-mcq-03": "本句的「strict rule」指「嚴格規定」。",
+        "rule-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-03"
     },
@@ -1849,11 +1836,9 @@ export default {
       "masked": "Strict ____ can reduce abuse but may frustrate genuine customers.",
       "options": [
         "rule-mcq-03",
-        "rule-mcq-02",
-        "rule-mcq-04",
-        "rule-mcq-01",
-        "rule-mcq-05",
-        "rule-mcq-06"
+        "rule-mcq-61",
+        "rule-mcq-67",
+        "rule-mcq-41"
       ],
       "explanation": "本句的「rules」指「嚴格規定」。",
       "sentenceIndex": 6,
@@ -1862,12 +1847,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-03": "本句指「嚴格規定」。",
-        "rule-mcq-02": "「現行規定」與本句語境不同。",
-        "rule-mcq-04": "「清晰規則」與本句語境不同。",
-        "rule-mcq-01": "「規則；規定」與本句語境不同。",
-        "rule-mcq-05": "「明文規定」與本句語境不同。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。"
+        "rule-mcq-03": "本句的「rules」指「嚴格規定」。",
+        "rule-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-03"
     },
@@ -1879,11 +1862,9 @@ export default {
       "masked": "Every return should be governed by a ____.",
       "options": [
         "rule-mcq-04",
-        "rule-mcq-03",
-        "rule-mcq-05",
-        "rule-mcq-02",
-        "rule-mcq-06",
-        "rule-mcq-01"
+        "rule-mcq-48",
+        "rule-pdf-008",
+        "rule-pdf-005"
       ],
       "explanation": "本句的「clear rule」指「清晰規則」。",
       "sentenceIndex": 7,
@@ -1892,12 +1873,10 @@ export default {
         "clear rule"
       ],
       "optionReasons": {
-        "rule-mcq-04": "本句指「清晰規則」。",
-        "rule-mcq-03": "「嚴格規定」與本句語境不同。",
-        "rule-mcq-05": "「明文規定」與本句語境不同。",
-        "rule-mcq-02": "「現行規定」與本句語境不同。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。",
-        "rule-mcq-01": "「規則；規定」與本句語境不同。"
+        "rule-mcq-04": "本句的「clear rule」指「清晰規則」。",
+        "rule-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-04"
     },
@@ -1909,11 +1888,9 @@ export default {
       "masked": "Clear ____ reduce arguments.",
       "options": [
         "rule-mcq-04",
-        "rule-mcq-03",
-        "rule-mcq-05",
-        "rule-mcq-02",
-        "rule-mcq-06",
-        "rule-mcq-01"
+        "rule-pdf-008",
+        "rule-pdf-007",
+        "rule-mcq-60"
       ],
       "explanation": "本句的「rules」指「清晰規則」。",
       "sentenceIndex": 8,
@@ -1922,12 +1899,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-04": "本句指「清晰規則」。",
-        "rule-mcq-03": "「嚴格規定」與本句語境不同。",
-        "rule-mcq-05": "「明文規定」與本句語境不同。",
-        "rule-mcq-02": "「現行規定」與本句語境不同。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。",
-        "rule-mcq-01": "「規則；規定」與本句語境不同。"
+        "rule-mcq-04": "本句的「rules」指「清晰規則」。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-04"
     },
@@ -1939,11 +1914,9 @@ export default {
       "masked": "The condition should be stated as a ____.",
       "options": [
         "rule-mcq-05",
-        "rule-mcq-04",
-        "rule-mcq-06",
-        "rule-mcq-03",
-        "rule-mcq-07",
-        "rule-mcq-02"
+        "rule-mcq-51",
+        "rule-pdf-008",
+        "rule-mcq-67"
       ],
       "explanation": "本句的「written rule」指「明文規定」。",
       "sentenceIndex": 9,
@@ -1952,12 +1925,10 @@ export default {
         "written rule"
       ],
       "optionReasons": {
-        "rule-mcq-05": "本句指「明文規定」。",
-        "rule-mcq-04": "「清晰規則」與本句語境不同。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。",
-        "rule-mcq-03": "「嚴格規定」與本句語境不同。",
-        "rule-mcq-07": "「遵守規則」與本句語境不同。",
-        "rule-mcq-02": "「現行規定」與本句語境不同。"
+        "rule-mcq-05": "本句的「written rule」指「明文規定」。",
+        "rule-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-05"
     },
@@ -1969,11 +1940,9 @@ export default {
       "masked": "Written ____ are easier to apply consistently.",
       "options": [
         "rule-mcq-05",
-        "rule-mcq-04",
-        "rule-mcq-06",
-        "rule-mcq-03",
-        "rule-mcq-07",
-        "rule-mcq-02"
+        "rule-mcq-59",
+        "rule-mcq-48",
+        "rule-mcq-46"
       ],
       "explanation": "本句的「rules」指「明文規定」。",
       "sentenceIndex": 10,
@@ -1982,12 +1951,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-05": "本句指「明文規定」。",
-        "rule-mcq-04": "「清晰規則」與本句語境不同。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。",
-        "rule-mcq-03": "「嚴格規定」與本句語境不同。",
-        "rule-mcq-07": "「遵守規則」與本句語境不同。",
-        "rule-mcq-02": "「現行規定」與本句語境不同。"
+        "rule-mcq-05": "本句的「rules」指「明文規定」。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-05"
     },
@@ -1999,11 +1966,9 @@ export default {
       "masked": "There is an ____ that senior staff speak first.",
       "options": [
         "rule-mcq-06",
-        "rule-mcq-05",
-        "rule-mcq-07",
-        "rule-mcq-04",
-        "rule-mcq-08",
-        "rule-mcq-03"
+        "rule-mcq-63",
+        "rule-mcq-53",
+        "rule-mcq-44"
       ],
       "explanation": "本句的「unwritten rule」指「不成文規定」。",
       "sentenceIndex": 11,
@@ -2012,12 +1977,10 @@ export default {
         "unwritten rule"
       ],
       "optionReasons": {
-        "rule-mcq-06": "本句指「不成文規定」。",
-        "rule-mcq-05": "「明文規定」與本句語境不同。",
-        "rule-mcq-07": "「遵守規則」與本句語境不同。",
-        "rule-mcq-04": "「清晰規則」與本句語境不同。",
-        "rule-mcq-08": "「遵守規定」與本句語境不同。",
-        "rule-mcq-03": "「嚴格規定」與本句語境不同。"
+        "rule-mcq-06": "本句的「unwritten rule」指「不成文規定」。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-06"
     },
@@ -2029,11 +1992,9 @@ export default {
       "masked": "Every workplace has some unwritten ____.",
       "options": [
         "rule-mcq-06",
-        "rule-mcq-05",
-        "rule-mcq-07",
-        "rule-mcq-04",
-        "rule-mcq-08",
-        "rule-mcq-03"
+        "rule-pdf-008",
+        "rule-mcq-57",
+        "rule-mcq-45"
       ],
       "explanation": "本句的「rules」指「不成文規定」。",
       "sentenceIndex": 12,
@@ -2042,12 +2003,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-06": "本句指「不成文規定」。",
-        "rule-mcq-05": "「明文規定」與本句語境不同。",
-        "rule-mcq-07": "「遵守規則」與本句語境不同。",
-        "rule-mcq-04": "「清晰規則」與本句語境不同。",
-        "rule-mcq-08": "「遵守規定」與本句語境不同。",
-        "rule-mcq-03": "「嚴格規定」與本句語境不同。"
+        "rule-mcq-06": "本句的「rules」指「不成文規定」。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-06"
     },
@@ -2059,11 +2018,9 @@ export default {
       "masked": "Employees must ____.",
       "options": [
         "rule-mcq-07",
-        "rule-mcq-06",
-        "rule-mcq-08",
-        "rule-mcq-05",
-        "rule-mcq-09",
-        "rule-mcq-04"
+        "rule-mcq-60",
+        "rule-mcq-62",
+        "rule-mcq-53"
       ],
       "explanation": "本句的「follow the return rules」指「遵守規則」。",
       "sentenceIndex": 13,
@@ -2072,12 +2029,10 @@ export default {
         "follow the return rules"
       ],
       "optionReasons": {
-        "rule-mcq-07": "本句指「遵守規則」。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。",
-        "rule-mcq-08": "「遵守規定」與本句語境不同。",
-        "rule-mcq-05": "「明文規定」與本句語境不同。",
-        "rule-mcq-09": "「違反規則」與本句語境不同。",
-        "rule-mcq-04": "「清晰規則」與本句語境不同。"
+        "rule-mcq-07": "本句的「follow the return rules」指「遵守規則」。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-07"
     },
@@ -2089,11 +2044,9 @@ export default {
       "masked": "The customer followed all the ____.",
       "options": [
         "rule-mcq-07",
-        "rule-mcq-06",
-        "rule-mcq-08",
-        "rule-mcq-05",
-        "rule-mcq-09",
-        "rule-mcq-04"
+        "rule-mcq-53",
+        "rule-mcq-67",
+        "rule-mcq-45"
       ],
       "explanation": "本句的「rules」指「遵守規則」。",
       "sentenceIndex": 14,
@@ -2102,12 +2055,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-07": "本句指「遵守規則」。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。",
-        "rule-mcq-08": "「遵守規定」與本句語境不同。",
-        "rule-mcq-05": "「明文規定」與本句語境不同。",
-        "rule-mcq-09": "「違反規則」與本句語境不同。",
-        "rule-mcq-04": "「清晰規則」與本句語境不同。"
+        "rule-mcq-07": "本句的「rules」指「遵守規則」。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-07"
     },
@@ -2119,11 +2070,9 @@ export default {
       "masked": "Everyone is expected to ____.",
       "options": [
         "rule-mcq-08",
-        "rule-mcq-07",
-        "rule-mcq-09",
-        "rule-mcq-06",
-        "rule-mcq-10",
-        "rule-mcq-05"
+        "rule-mcq-33",
+        "rule-mcq-67",
+        "rule-mcq-53"
       ],
       "explanation": "本句的「obey the rules」指「遵守規定」。",
       "sentenceIndex": 15,
@@ -2132,12 +2081,10 @@ export default {
         "obey the rules"
       ],
       "optionReasons": {
-        "rule-mcq-08": "本句指「遵守規定」。",
-        "rule-mcq-07": "「遵守規則」與本句語境不同。",
-        "rule-mcq-09": "「違反規則」與本句語境不同。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。",
-        "rule-mcq-10": "「違規」與本句語境不同。",
-        "rule-mcq-05": "「明文規定」與本句語境不同。"
+        "rule-mcq-08": "本句的「obey the rules」指「遵守規定」。",
+        "rule-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-08"
     },
@@ -2149,11 +2096,9 @@ export default {
       "masked": "____ are effective only if people obey them.",
       "options": [
         "rule-mcq-08",
-        "rule-mcq-07",
-        "rule-mcq-09",
-        "rule-mcq-06",
-        "rule-mcq-10",
-        "rule-mcq-05"
+        "rule-mcq-59",
+        "rule-mcq-66",
+        "rule-pdf-008"
       ],
       "explanation": "本句的「Rules」指「遵守規定」。",
       "sentenceIndex": 16,
@@ -2162,12 +2107,10 @@ export default {
         "Rules"
       ],
       "optionReasons": {
-        "rule-mcq-08": "本句指「遵守規定」。",
-        "rule-mcq-07": "「遵守規則」與本句語境不同。",
-        "rule-mcq-09": "「違反規則」與本句語境不同。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。",
-        "rule-mcq-10": "「違規」與本句語境不同。",
-        "rule-mcq-05": "「明文規定」與本句語境不同。"
+        "rule-mcq-08": "本句的「Rules」指「遵守規定」。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-08"
     },
@@ -2179,11 +2122,9 @@ export default {
       "masked": "The customer did not ____.",
       "options": [
         "rule-mcq-09",
-        "rule-mcq-08",
-        "rule-mcq-10",
-        "rule-mcq-07",
-        "rule-mcq-06",
-        "rule-mcq-12"
+        "rule-mcq-51",
+        "rule-mcq-47",
+        "rule-mcq-60"
       ],
       "explanation": "本句的「break any rule」指「違反規則」。",
       "sentenceIndex": 17,
@@ -2192,12 +2133,10 @@ export default {
         "break any rule"
       ],
       "optionReasons": {
-        "rule-mcq-09": "本句指「違反規則」。",
-        "rule-mcq-08": "「遵守規定」與本句語境不同。",
-        "rule-mcq-10": "「違規」與本句語境不同。",
-        "rule-mcq-07": "「遵守規則」與本句語境不同。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。",
-        "rule-mcq-12": "「在規則範圍內」與本句語境不同。"
+        "rule-mcq-09": "本句的「break any rule」指「違反規則」。",
+        "rule-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-09"
     },
@@ -2209,11 +2148,9 @@ export default {
       "masked": "Repeatedly breaking the ____ may lead to penalties.",
       "options": [
         "rule-mcq-09",
-        "rule-mcq-08",
-        "rule-mcq-10",
-        "rule-mcq-07",
-        "rule-mcq-06",
-        "rule-mcq-12"
+        "rule-pdf-005",
+        "rule-mcq-62",
+        "rule-mcq-51"
       ],
       "explanation": "本句的「rules」指「違反規則」。",
       "sentenceIndex": 18,
@@ -2222,12 +2159,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-09": "本句指「違反規則」。",
-        "rule-mcq-08": "「遵守規定」與本句語境不同。",
-        "rule-mcq-10": "「違規」與本句語境不同。",
-        "rule-mcq-07": "「遵守規則」與本句語境不同。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。",
-        "rule-mcq-12": "「在規則範圍內」與本句語境不同。"
+        "rule-mcq-09": "本句的「rules」指「違反規則」。",
+        "rule-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-09"
     },
@@ -2239,11 +2174,9 @@ export default {
       "masked": "The seller was accused of ____.",
       "options": [
         "rule-mcq-10",
-        "rule-mcq-09",
-        "rule-mcq-08",
-        "rule-mcq-12",
-        "rule-mcq-07",
-        "rule-mcq-13"
+        "rule-mcq-52",
+        "rule-mcq-50",
+        "rule-mcq-44"
       ],
       "explanation": "本句的「violating consumer rules」指「違規」。",
       "sentenceIndex": 19,
@@ -2252,12 +2185,10 @@ export default {
         "violating consumer rules"
       ],
       "optionReasons": {
-        "rule-mcq-10": "本句指「違規」。",
-        "rule-mcq-09": "「違反規則」與本句語境不同。",
-        "rule-mcq-08": "「遵守規定」與本句語境不同。",
-        "rule-mcq-12": "「在規則範圍內」與本句語境不同。",
-        "rule-mcq-07": "「遵守規則」與本句語境不同。",
-        "rule-mcq-13": "「根據規則」與本句語境不同。"
+        "rule-mcq-10": "本句的「violating consumer rules」指「違規」。",
+        "rule-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-10"
     },
@@ -2269,11 +2200,9 @@ export default {
       "masked": "Returning worn clothing is ____.",
       "options": [
         "rule-mcq-11",
-        "rule-mcq-12",
-        "rule-mcq-09",
-        "rule-mcq-13",
-        "rule-mcq-08",
-        "rule-mcq-14"
+        "rule-pdf-008",
+        "rule-mcq-61",
+        "rule-mcq-45"
       ],
       "explanation": "本句的「against the rules」指「違規」。",
       "sentenceIndex": 20,
@@ -2282,12 +2211,10 @@ export default {
         "against the rules"
       ],
       "optionReasons": {
-        "rule-mcq-11": "本句指「違規」。",
-        "rule-mcq-12": "「在規則範圍內」與本句語境不同。",
-        "rule-mcq-09": "「違反規則」與本句語境不同。",
-        "rule-mcq-13": "「根據規則」與本句語境不同。",
-        "rule-mcq-08": "「遵守規定」與本句語境不同。",
-        "rule-mcq-14": "「執行規則」與本句語境不同。"
+        "rule-mcq-11": "本句的「against the rules」指「違規」。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-11"
     },
@@ -2299,11 +2226,9 @@ export default {
       "masked": "That is clearly against company ____.",
       "options": [
         "rule-mcq-11",
-        "rule-mcq-12",
-        "rule-mcq-09",
-        "rule-mcq-13",
-        "rule-mcq-08",
-        "rule-mcq-14"
+        "rule-mcq-41",
+        "rule-mcq-34",
+        "rule-mcq-67"
       ],
       "explanation": "本句的「rules」指「違規」。",
       "sentenceIndex": 21,
@@ -2312,12 +2237,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-11": "本句指「違規」。",
-        "rule-mcq-12": "「在規則範圍內」與本句語境不同。",
-        "rule-mcq-09": "「違反規則」與本句語境不同。",
-        "rule-mcq-13": "「根據規則」與本句語境不同。",
-        "rule-mcq-08": "「遵守規定」與本句語境不同。",
-        "rule-mcq-14": "「執行規則」與本句語境不同。"
+        "rule-mcq-11": "本句的「rules」指「違規」。",
+        "rule-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-11"
     },
@@ -2329,11 +2252,9 @@ export default {
       "masked": "Staff have some discretion ____.",
       "options": [
         "rule-mcq-12",
-        "rule-mcq-11",
-        "rule-mcq-13",
-        "rule-mcq-14",
-        "rule-mcq-09",
-        "rule-mcq-15"
+        "rule-mcq-59",
+        "rule-mcq-51",
+        "rule-mcq-66"
       ],
       "explanation": "本句的「within the rules」指「在規則範圍內」。",
       "sentenceIndex": 22,
@@ -2342,12 +2263,10 @@ export default {
         "within the rules"
       ],
       "optionReasons": {
-        "rule-mcq-12": "本句指「在規則範圍內」。",
-        "rule-mcq-11": "「違規」與本句語境不同。",
-        "rule-mcq-13": "「根據規則」與本句語境不同。",
-        "rule-mcq-14": "「執行規則」與本句語境不同。",
-        "rule-mcq-09": "「違反規則」與本句語境不同。",
-        "rule-mcq-15": "「套用／執行規則」與本句語境不同。"
+        "rule-mcq-12": "本句的「within the rules」指「在規則範圍內」。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-12"
     },
@@ -2359,11 +2278,9 @@ export default {
       "masked": "The customer acted within the ____.",
       "options": [
         "rule-mcq-12",
-        "rule-mcq-11",
-        "rule-mcq-13",
-        "rule-mcq-14",
-        "rule-mcq-09",
-        "rule-mcq-15"
+        "rule-mcq-47",
+        "rule-mcq-52",
+        "rule-mcq-67"
       ],
       "explanation": "本句的「rules」指「在規則範圍內」。",
       "sentenceIndex": 23,
@@ -2372,12 +2289,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-12": "本句指「在規則範圍內」。",
-        "rule-mcq-11": "「違規」與本句語境不同。",
-        "rule-mcq-13": "「根據規則」與本句語境不同。",
-        "rule-mcq-14": "「執行規則」與本句語境不同。",
-        "rule-mcq-09": "「違反規則」與本句語境不同。",
-        "rule-mcq-15": "「套用／執行規則」與本句語境不同。"
+        "rule-mcq-12": "本句的「rules」指「在規則範圍內」。",
+        "rule-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-12"
     },
@@ -2389,11 +2304,9 @@ export default {
       "masked": "____, the item qualifies for exchange.",
       "options": [
         "rule-mcq-13",
-        "rule-mcq-12",
-        "rule-mcq-14",
-        "rule-mcq-11",
-        "rule-mcq-15",
-        "rule-mcq-16"
+        "rule-pdf-006",
+        "rule-mcq-46",
+        "rule-mcq-48"
       ],
       "explanation": "本句的「Under the rules」指「根據規則」。",
       "sentenceIndex": 24,
@@ -2402,12 +2315,10 @@ export default {
         "Under the rules"
       ],
       "optionReasons": {
-        "rule-mcq-13": "本句指「根據規則」。",
-        "rule-mcq-12": "「在規則範圍內」與本句語境不同。",
-        "rule-mcq-14": "「執行規則」與本句語境不同。",
-        "rule-mcq-11": "「違規」與本句語境不同。",
-        "rule-mcq-15": "「套用／執行規則」與本句語境不同。",
-        "rule-mcq-16": "「解讀規則」與本句語境不同。"
+        "rule-mcq-13": "本句的「Under the rules」指「根據規則」。",
+        "rule-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-13"
     },
@@ -2419,11 +2330,9 @@ export default {
       "masked": "Refunds are allowed under the current ____.",
       "options": [
         "rule-mcq-13",
-        "rule-mcq-12",
-        "rule-mcq-14",
-        "rule-mcq-11",
-        "rule-mcq-15",
-        "rule-mcq-16"
+        "rule-mcq-57",
+        "rule-mcq-61",
+        "rule-pdf-006"
       ],
       "explanation": "本句的「rules」指「根據規則」。",
       "sentenceIndex": 25,
@@ -2432,12 +2341,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-13": "本句指「根據規則」。",
-        "rule-mcq-12": "「在規則範圍內」與本句語境不同。",
-        "rule-mcq-14": "「執行規則」與本句語境不同。",
-        "rule-mcq-11": "「違規」與本句語境不同。",
-        "rule-mcq-15": "「套用／執行規則」與本句語境不同。",
-        "rule-mcq-16": "「解讀規則」與本句語境不同。"
+        "rule-mcq-13": "本句的「rules」指「根據規則」。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-13"
     },
@@ -2449,11 +2356,9 @@ export default {
       "masked": "Managers must ____.",
       "options": [
         "rule-mcq-14",
-        "rule-mcq-13",
-        "rule-mcq-15",
-        "rule-mcq-12",
-        "rule-mcq-16",
-        "rule-mcq-11"
+        "rule-mcq-34",
+        "rule-pdf-005",
+        "rule-mcq-59"
       ],
       "explanation": "本句的「enforce the rules consistently」指「執行規則」。",
       "sentenceIndex": 26,
@@ -2462,12 +2367,10 @@ export default {
         "enforce the rules consistently"
       ],
       "optionReasons": {
-        "rule-mcq-14": "本句指「執行規則」。",
-        "rule-mcq-13": "「根據規則」與本句語境不同。",
-        "rule-mcq-15": "「套用／執行規則」與本句語境不同。",
-        "rule-mcq-12": "「在規則範圍內」與本句語境不同。",
-        "rule-mcq-16": "「解讀規則」與本句語境不同。",
-        "rule-mcq-11": "「違規」與本句語境不同。"
+        "rule-mcq-14": "本句的「enforce the rules consistently」指「執行規則」。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-14"
     },
@@ -2479,11 +2382,9 @@ export default {
       "masked": "A ____ that is never enforced becomes meaningless.",
       "options": [
         "rule-mcq-14",
-        "rule-mcq-13",
-        "rule-mcq-15",
-        "rule-mcq-12",
-        "rule-mcq-16",
-        "rule-mcq-11"
+        "rule-pdf-005",
+        "rule-mcq-44",
+        "rule-mcq-52"
       ],
       "explanation": "本句的「rule」指「執行規則」。",
       "sentenceIndex": 27,
@@ -2492,12 +2393,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-14": "本句指「執行規則」。",
-        "rule-mcq-13": "「根據規則」與本句語境不同。",
-        "rule-mcq-15": "「套用／執行規則」與本句語境不同。",
-        "rule-mcq-12": "「在規則範圍內」與本句語境不同。",
-        "rule-mcq-16": "「解讀規則」與本句語境不同。",
-        "rule-mcq-11": "「違規」與本句語境不同。"
+        "rule-mcq-14": "本句的「rule」指「執行規則」。",
+        "rule-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-14"
     },
@@ -2509,11 +2408,9 @@ export default {
       "masked": "The rule should be ____.",
       "options": [
         "rule-mcq-15",
-        "rule-mcq-14",
-        "rule-mcq-16",
-        "rule-mcq-13",
-        "rule-mcq-17",
-        "rule-mcq-12"
+        "rule-mcq-62",
+        "rule-mcq-59",
+        "rule-mcq-43"
       ],
       "explanation": "本句的「applied fairly」指「套用／執行規則」。",
       "sentenceIndex": 28,
@@ -2522,12 +2419,10 @@ export default {
         "applied fairly"
       ],
       "optionReasons": {
-        "rule-mcq-15": "本句指「套用／執行規則」。",
-        "rule-mcq-14": "「執行規則」與本句語境不同。",
-        "rule-mcq-16": "「解讀規則」與本句語境不同。",
-        "rule-mcq-13": "「根據規則」與本句語境不同。",
-        "rule-mcq-17": "「規則適用於 X」與本句語境不同。",
-        "rule-mcq-12": "「在規則範圍內」與本句語境不同。"
+        "rule-mcq-15": "本句的「applied fairly」指「套用／執行規則」。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-15"
     },
@@ -2539,11 +2434,9 @@ export default {
       "masked": "Staff need guidance on how to apply the ____.",
       "options": [
         "rule-mcq-15",
-        "rule-mcq-14",
-        "rule-mcq-16",
-        "rule-mcq-13",
-        "rule-mcq-17",
-        "rule-mcq-12"
+        "rule-pdf-005",
+        "rule-mcq-66",
+        "rule-mcq-67"
       ],
       "explanation": "本句的「rule」指「套用／執行規則」。",
       "sentenceIndex": 29,
@@ -2552,12 +2445,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-15": "本句指「套用／執行規則」。",
-        "rule-mcq-14": "「執行規則」與本句語境不同。",
-        "rule-mcq-16": "「解讀規則」與本句語境不同。",
-        "rule-mcq-13": "「根據規則」與本句語境不同。",
-        "rule-mcq-17": "「規則適用於 X」與本句語境不同。",
-        "rule-mcq-12": "「在規則範圍內」與本句語境不同。"
+        "rule-mcq-15": "本句的「rule」指「套用／執行規則」。",
+        "rule-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-15"
     },
@@ -2569,11 +2460,9 @@ export default {
       "masked": "Different staff members may ____.",
       "options": [
         "rule-mcq-16",
-        "rule-mcq-15",
-        "rule-mcq-17",
-        "rule-mcq-14",
-        "rule-mcq-18",
-        "rule-mcq-13"
+        "rule-mcq-59",
+        "rule-mcq-46",
+        "rule-pdf-005"
       ],
       "explanation": "本句的「interpret the rule differently」指「解讀規則」。",
       "sentenceIndex": 30,
@@ -2582,12 +2471,10 @@ export default {
         "interpret the rule differently"
       ],
       "optionReasons": {
-        "rule-mcq-16": "本句指「解讀規則」。",
-        "rule-mcq-15": "「套用／執行規則」與本句語境不同。",
-        "rule-mcq-17": "「規則適用於 X」與本句語境不同。",
-        "rule-mcq-14": "「執行規則」與本句語境不同。",
-        "rule-mcq-18": "「規則涵蓋 X」與本句語境不同。",
-        "rule-mcq-13": "「根據規則」與本句語境不同。"
+        "rule-mcq-16": "本句的「interpret the rule differently」指「解讀規則」。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-16"
     },
@@ -2599,11 +2486,9 @@ export default {
       "masked": "The rule ____.",
       "options": [
         "rule-mcq-17",
-        "rule-mcq-16",
-        "rule-mcq-18",
-        "rule-mcq-15",
-        "rule-mcq-19",
-        "rule-mcq-14"
+        "rule-pdf-008",
+        "rule-mcq-66",
+        "rule-mcq-67"
       ],
       "explanation": "本句的「applies to all final-sale items」指「規則適用於 X」。",
       "sentenceIndex": 31,
@@ -2612,12 +2497,10 @@ export default {
         "applies to all final-sale items"
       ],
       "optionReasons": {
-        "rule-mcq-17": "本句指「規則適用於 X」。",
-        "rule-mcq-16": "「解讀規則」與本句語境不同。",
-        "rule-mcq-18": "「規則涵蓋 X」與本句語境不同。",
-        "rule-mcq-15": "「套用／執行規則」與本句語境不同。",
-        "rule-mcq-19": "「規則要求 X」與本句語境不同。",
-        "rule-mcq-14": "「執行規則」與本句語境不同。"
+        "rule-mcq-17": "本句的「applies to all final-sale items」指「規則適用於 X」。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-17"
     },
@@ -2629,11 +2512,9 @@ export default {
       "masked": "Does the same ____ apply to online purchases?",
       "options": [
         "rule-mcq-17",
-        "rule-mcq-16",
-        "rule-mcq-18",
-        "rule-mcq-15",
-        "rule-mcq-19",
-        "rule-mcq-14"
+        "rule-mcq-63",
+        "rule-mcq-44",
+        "rule-mcq-50"
       ],
       "explanation": "本句的「rule」指「規則適用於 X」。",
       "sentenceIndex": 32,
@@ -2642,12 +2523,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-17": "本句指「規則適用於 X」。",
-        "rule-mcq-16": "「解讀規則」與本句語境不同。",
-        "rule-mcq-18": "「規則涵蓋 X」與本句語境不同。",
-        "rule-mcq-15": "「套用／執行規則」與本句語境不同。",
-        "rule-mcq-19": "「規則要求 X」與本句語境不同。",
-        "rule-mcq-14": "「執行規則」與本句語境不同。"
+        "rule-mcq-17": "本句的「rule」指「規則適用於 X」。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-17"
     },
@@ -2659,11 +2538,9 @@ export default {
       "masked": "The rule ____.",
       "options": [
         "rule-mcq-18",
-        "rule-mcq-17",
-        "rule-mcq-19",
-        "rule-mcq-16",
-        "rule-mcq-20",
-        "rule-mcq-15"
+        "rule-mcq-67",
+        "rule-mcq-34",
+        "rule-mcq-47"
       ],
       "explanation": "本句的「covers defective goods」指「規則涵蓋 X」。",
       "sentenceIndex": 33,
@@ -2672,12 +2549,10 @@ export default {
         "covers defective goods"
       ],
       "optionReasons": {
-        "rule-mcq-18": "本句指「規則涵蓋 X」。",
-        "rule-mcq-17": "「規則適用於 X」與本句語境不同。",
-        "rule-mcq-19": "「規則要求 X」與本句語境不同。",
-        "rule-mcq-16": "「解讀規則」與本句語境不同。",
-        "rule-mcq-20": "「規則禁止 X」與本句語境不同。",
-        "rule-mcq-15": "「套用／執行規則」與本句語境不同。"
+        "rule-mcq-18": "本句的「covers defective goods」指「規則涵蓋 X」。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-18"
     },
@@ -2689,11 +2564,9 @@ export default {
       "masked": "The rule ____.",
       "options": [
         "rule-mcq-19",
-        "rule-mcq-18",
-        "rule-mcq-20",
-        "rule-mcq-17",
-        "rule-mcq-21",
-        "rule-mcq-16"
+        "rule-mcq-62",
+        "rule-mcq-52",
+        "rule-mcq-34"
       ],
       "explanation": "本句的「requires customers to keep the receipt」指「規則要求 X」。",
       "sentenceIndex": 34,
@@ -2702,12 +2575,10 @@ export default {
         "requires customers to keep the receipt"
       ],
       "optionReasons": {
-        "rule-mcq-19": "本句指「規則要求 X」。",
-        "rule-mcq-18": "「規則涵蓋 X」與本句語境不同。",
-        "rule-mcq-20": "「規則禁止 X」與本句語境不同。",
-        "rule-mcq-17": "「規則適用於 X」與本句語境不同。",
-        "rule-mcq-21": "「規則容許 X」與本句語境不同。",
-        "rule-mcq-16": "「解讀規則」與本句語境不同。"
+        "rule-mcq-19": "本句的「requires customers to keep the receipt」指「規則要求 X」。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-19"
     },
@@ -2719,11 +2590,9 @@ export default {
       "masked": "The ____ require staff to inspect the item.",
       "options": [
         "rule-mcq-19",
-        "rule-mcq-18",
-        "rule-mcq-20",
-        "rule-mcq-17",
-        "rule-mcq-21",
-        "rule-mcq-16"
+        "rule-mcq-47",
+        "rule-mcq-63",
+        "rule-mcq-41"
       ],
       "explanation": "本句的「rules」指「規則要求 X」。",
       "sentenceIndex": 35,
@@ -2732,12 +2601,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-19": "本句指「規則要求 X」。",
-        "rule-mcq-18": "「規則涵蓋 X」與本句語境不同。",
-        "rule-mcq-20": "「規則禁止 X」與本句語境不同。",
-        "rule-mcq-17": "「規則適用於 X」與本句語境不同。",
-        "rule-mcq-21": "「規則容許 X」與本句語境不同。",
-        "rule-mcq-16": "「解讀規則」與本句語境不同。"
+        "rule-mcq-19": "本句的「rules」指「規則要求 X」。",
+        "rule-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-19"
     },
@@ -2749,11 +2616,9 @@ export default {
       "masked": "The rule ____.",
       "options": [
         "rule-mcq-20",
-        "rule-mcq-19",
-        "rule-mcq-21",
-        "rule-mcq-18",
-        "rule-mcq-22",
-        "rule-mcq-17"
+        "rule-mcq-62",
+        "rule-mcq-43",
+        "rule-mcq-59"
       ],
       "explanation": "本句的「prohibits returns after thirty days」指「規則禁止 X」。",
       "sentenceIndex": 36,
@@ -2762,12 +2627,10 @@ export default {
         "prohibits returns after thirty days"
       ],
       "optionReasons": {
-        "rule-mcq-20": "本句指「規則禁止 X」。",
-        "rule-mcq-19": "「規則要求 X」與本句語境不同。",
-        "rule-mcq-21": "「規則容許 X」與本句語境不同。",
-        "rule-mcq-18": "「規則涵蓋 X」與本句語境不同。",
-        "rule-mcq-22": "「更改規則」與本句語境不同。",
-        "rule-mcq-17": "「規則適用於 X」與本句語境不同。"
+        "rule-mcq-20": "本句的「prohibits returns after thirty days」指「規則禁止 X」。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-20"
     },
@@ -2779,11 +2642,9 @@ export default {
       "masked": "Company ____ prohibit unauthorised refunds.",
       "options": [
         "rule-mcq-20",
-        "rule-mcq-19",
-        "rule-mcq-21",
-        "rule-mcq-18",
-        "rule-mcq-22",
-        "rule-mcq-17"
+        "rule-pdf-007",
+        "rule-mcq-40",
+        "rule-mcq-57"
       ],
       "explanation": "本句的「rules」指「規則禁止 X」。",
       "sentenceIndex": 37,
@@ -2792,12 +2653,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-20": "本句指「規則禁止 X」。",
-        "rule-mcq-19": "「規則要求 X」與本句語境不同。",
-        "rule-mcq-21": "「規則容許 X」與本句語境不同。",
-        "rule-mcq-18": "「規則涵蓋 X」與本句語境不同。",
-        "rule-mcq-22": "「更改規則」與本句語境不同。",
-        "rule-mcq-17": "「規則適用於 X」與本句語境不同。"
+        "rule-mcq-20": "本句的「rules」指「規則禁止 X」。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-20"
     },
@@ -2809,11 +2668,9 @@ export default {
       "masked": "The revised rule ____.",
       "options": [
         "rule-mcq-21",
-        "rule-mcq-20",
-        "rule-mcq-22",
-        "rule-mcq-19",
-        "rule-mcq-23",
-        "rule-mcq-18"
+        "rule-pdf-008",
+        "rule-mcq-67",
+        "rule-pdf-006"
       ],
       "explanation": "本句的「allows one exchange」指「規則容許 X」。",
       "sentenceIndex": 38,
@@ -2822,12 +2679,10 @@ export default {
         "allows one exchange"
       ],
       "optionReasons": {
-        "rule-mcq-21": "本句指「規則容許 X」。",
-        "rule-mcq-20": "「規則禁止 X」與本句語境不同。",
-        "rule-mcq-22": "「更改規則」與本句語境不同。",
-        "rule-mcq-19": "「規則要求 X」與本句語境不同。",
-        "rule-mcq-23": "「修訂規則」與本句語境不同。",
-        "rule-mcq-18": "「規則涵蓋 X」與本句語境不同。"
+        "rule-mcq-21": "本句的「allows one exchange」指「規則容許 X」。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-21"
     },
@@ -2839,11 +2694,9 @@ export default {
       "masked": "The ____ allow store credit in some cases.",
       "options": [
         "rule-mcq-21",
-        "rule-mcq-20",
-        "rule-mcq-22",
-        "rule-mcq-19",
-        "rule-mcq-23",
-        "rule-mcq-18"
+        "rule-mcq-43",
+        "rule-mcq-57",
+        "rule-mcq-41"
       ],
       "explanation": "本句的「rules」指「規則容許 X」。",
       "sentenceIndex": 39,
@@ -2852,12 +2705,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-21": "本句指「規則容許 X」。",
-        "rule-mcq-20": "「規則禁止 X」與本句語境不同。",
-        "rule-mcq-22": "「更改規則」與本句語境不同。",
-        "rule-mcq-19": "「規則要求 X」與本句語境不同。",
-        "rule-mcq-23": "「修訂規則」與本句語境不同。",
-        "rule-mcq-18": "「規則涵蓋 X」與本句語境不同。"
+        "rule-mcq-21": "本句的「rules」指「規則容許 X」。",
+        "rule-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-21"
     },
@@ -2869,11 +2720,9 @@ export default {
       "masked": "Chris wants management to ____.",
       "options": [
         "rule-mcq-22",
-        "rule-mcq-21",
-        "rule-mcq-23",
-        "rule-mcq-20",
-        "rule-mcq-24",
-        "rule-mcq-19"
+        "rule-mcq-50",
+        "rule-mcq-44",
+        "rule-pdf-008"
       ],
       "explanation": "本句的「change the current rule」指「更改規則」。",
       "sentenceIndex": 40,
@@ -2882,12 +2731,10 @@ export default {
         "change the current rule"
       ],
       "optionReasons": {
-        "rule-mcq-22": "本句指「更改規則」。",
-        "rule-mcq-21": "「規則容許 X」與本句語境不同。",
-        "rule-mcq-23": "「修訂規則」與本句語境不同。",
-        "rule-mcq-20": "「規則禁止 X」與本句語境不同。",
-        "rule-mcq-24": "「引入規則」與本句語境不同。",
-        "rule-mcq-19": "「規則要求 X」與本句語境不同。"
+        "rule-mcq-22": "本句的「change the current rule」指「更改規則」。",
+        "rule-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-22"
     },
@@ -2899,11 +2746,9 @@ export default {
       "masked": "____ should be changed when they create avoidable harm.",
       "options": [
         "rule-mcq-22",
-        "rule-mcq-21",
-        "rule-mcq-23",
-        "rule-mcq-20",
-        "rule-mcq-24",
-        "rule-mcq-19"
+        "rule-mcq-53",
+        "rule-mcq-63",
+        "rule-mcq-50"
       ],
       "explanation": "本句的「Rules」指「更改規則」。",
       "sentenceIndex": 41,
@@ -2912,12 +2757,10 @@ export default {
         "Rules"
       ],
       "optionReasons": {
-        "rule-mcq-22": "本句指「更改規則」。",
-        "rule-mcq-21": "「規則容許 X」與本句語境不同。",
-        "rule-mcq-23": "「修訂規則」與本句語境不同。",
-        "rule-mcq-20": "「規則禁止 X」與本句語境不同。",
-        "rule-mcq-24": "「引入規則」與本句語境不同。",
-        "rule-mcq-19": "「規則要求 X」與本句語境不同。"
+        "rule-mcq-22": "本句的「Rules」指「更改規則」。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-22"
     },
@@ -2929,11 +2772,9 @@ export default {
       "masked": "The company plans to ____.",
       "options": [
         "rule-mcq-23",
-        "rule-mcq-22",
-        "rule-mcq-24",
-        "rule-mcq-21",
-        "rule-mcq-25",
-        "rule-mcq-20"
+        "rule-mcq-62",
+        "rule-mcq-47",
+        "rule-mcq-63"
       ],
       "explanation": "本句的「revise the rule」指「修訂規則」。",
       "sentenceIndex": 42,
@@ -2942,12 +2783,10 @@ export default {
         "revise the rule"
       ],
       "optionReasons": {
-        "rule-mcq-23": "本句指「修訂規則」。",
-        "rule-mcq-22": "「更改規則」與本句語境不同。",
-        "rule-mcq-24": "「引入規則」與本句語境不同。",
-        "rule-mcq-21": "「規則容許 X」與本句語境不同。",
-        "rule-mcq-25": "「放寬規則」與本句語境不同。",
-        "rule-mcq-20": "「規則禁止 X」與本句語境不同。"
+        "rule-mcq-23": "本句的「revise the rule」指「修訂規則」。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-23"
     },
@@ -2959,11 +2798,9 @@ export default {
       "masked": "The return ____ were revised after the pilot.",
       "options": [
         "rule-mcq-23",
-        "rule-mcq-22",
-        "rule-mcq-24",
-        "rule-mcq-21",
-        "rule-mcq-25",
-        "rule-mcq-20"
+        "rule-pdf-005",
+        "rule-mcq-44",
+        "rule-mcq-61"
       ],
       "explanation": "本句的「rules」指「修訂規則」。",
       "sentenceIndex": 43,
@@ -2972,12 +2809,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-23": "本句指「修訂規則」。",
-        "rule-mcq-22": "「更改規則」與本句語境不同。",
-        "rule-mcq-24": "「引入規則」與本句語境不同。",
-        "rule-mcq-21": "「規則容許 X」與本句語境不同。",
-        "rule-mcq-25": "「放寬規則」與本句語境不同。",
-        "rule-mcq-20": "「規則禁止 X」與本句語境不同。"
+        "rule-mcq-23": "本句的「rules」指「修訂規則」。",
+        "rule-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-23"
     },
@@ -2989,11 +2824,9 @@ export default {
       "masked": "Management introduced a ____ requiring photographic evidence.",
       "options": [
         "rule-mcq-24",
-        "rule-mcq-23",
-        "rule-mcq-25",
-        "rule-mcq-22",
-        "rule-mcq-26",
-        "rule-mcq-21"
+        "rule-pdf-005",
+        "rule-pdf-007",
+        "rule-mcq-63"
       ],
       "explanation": "本句的「rule」指「引入規則」。",
       "sentenceIndex": 44,
@@ -3002,12 +2835,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-24": "本句指「引入規則」。",
-        "rule-mcq-23": "「修訂規則」與本句語境不同。",
-        "rule-mcq-25": "「放寬規則」與本句語境不同。",
-        "rule-mcq-22": "「更改規則」與本句語境不同。",
-        "rule-mcq-26": "「收緊規則」與本句語境不同。",
-        "rule-mcq-21": "「規則容許 X」與本句語境不同。"
+        "rule-mcq-24": "本句的「rule」指「引入規則」。",
+        "rule-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-24"
     },
@@ -3019,11 +2850,9 @@ export default {
       "masked": "New ____ were introduced to prevent abuse.",
       "options": [
         "rule-mcq-24",
-        "rule-mcq-23",
-        "rule-mcq-25",
-        "rule-mcq-22",
-        "rule-mcq-26",
-        "rule-mcq-21"
+        "rule-mcq-53",
+        "rule-mcq-34",
+        "rule-pdf-008"
       ],
       "explanation": "本句的「rules」指「引入規則」。",
       "sentenceIndex": 45,
@@ -3032,12 +2861,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-24": "本句指「引入規則」。",
-        "rule-mcq-23": "「修訂規則」與本句語境不同。",
-        "rule-mcq-25": "「放寬規則」與本句語境不同。",
-        "rule-mcq-22": "「更改規則」與本句語境不同。",
-        "rule-mcq-26": "「收緊規則」與本句語境不同。",
-        "rule-mcq-21": "「規則容許 X」與本句語境不同。"
+        "rule-mcq-24": "本句的「rules」指「引入規則」。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-24"
     },
@@ -3049,11 +2876,9 @@ export default {
       "masked": "The proposal would ____.",
       "options": [
         "rule-mcq-25",
-        "rule-mcq-24",
-        "rule-mcq-26",
-        "rule-mcq-23",
-        "rule-mcq-27",
-        "rule-mcq-22"
+        "rule-mcq-59",
+        "rule-mcq-47",
+        "rule-pdf-007"
       ],
       "explanation": "本句的「relax the current rule」指「放寬規則」。",
       "sentenceIndex": 46,
@@ -3062,12 +2887,10 @@ export default {
         "relax the current rule"
       ],
       "optionReasons": {
-        "rule-mcq-25": "本句指「放寬規則」。",
-        "rule-mcq-24": "「引入規則」與本句語境不同。",
-        "rule-mcq-26": "「收緊規則」與本句語境不同。",
-        "rule-mcq-23": "「修訂規則」與本句語境不同。",
-        "rule-mcq-27": "「規則例外」與本句語境不同。",
-        "rule-mcq-22": "「更改規則」與本句語境不同。"
+        "rule-mcq-25": "本句的「relax the current rule」指「放寬規則」。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-25"
     },
@@ -3079,11 +2902,9 @@ export default {
       "masked": "Management may relax the ____ for defective goods.",
       "options": [
         "rule-mcq-25",
-        "rule-mcq-24",
-        "rule-mcq-26",
-        "rule-mcq-23",
-        "rule-mcq-27",
-        "rule-mcq-22"
+        "rule-mcq-62",
+        "rule-pdf-007",
+        "rule-mcq-53"
       ],
       "explanation": "本句的「rule」指「放寬規則」。",
       "sentenceIndex": 47,
@@ -3092,12 +2913,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-25": "本句指「放寬規則」。",
-        "rule-mcq-24": "「引入規則」與本句語境不同。",
-        "rule-mcq-26": "「收緊規則」與本句語境不同。",
-        "rule-mcq-23": "「修訂規則」與本句語境不同。",
-        "rule-mcq-27": "「規則例外」與本句語境不同。",
-        "rule-mcq-22": "「更改規則」與本句語境不同。"
+        "rule-mcq-25": "本句的「rule」指「放寬規則」。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-25"
     },
@@ -3109,11 +2928,9 @@ export default {
       "masked": "The company tightened the ____ after detecting abuse.",
       "options": [
         "rule-mcq-26",
-        "rule-mcq-25",
-        "rule-mcq-27",
-        "rule-mcq-24",
-        "rule-mcq-28",
-        "rule-mcq-23"
+        "rule-mcq-40",
+        "rule-mcq-34",
+        "rule-pdf-007"
       ],
       "explanation": "本句的「rules」指「收緊規則」。",
       "sentenceIndex": 48,
@@ -3122,12 +2939,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-26": "本句指「收緊規則」。",
-        "rule-mcq-25": "「放寬規則」與本句語境不同。",
-        "rule-mcq-27": "「規則例外」與本句語境不同。",
-        "rule-mcq-24": "「引入規則」與本句語境不同。",
-        "rule-mcq-28": "「通融／變通規則」與本句語境不同。",
-        "rule-mcq-23": "「修訂規則」與本句語境不同。"
+        "rule-mcq-26": "本句的「rules」指「收緊規則」。",
+        "rule-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-26"
     },
@@ -3139,11 +2954,9 @@ export default {
       "masked": "____ can be tightened without banning all returns.",
       "options": [
         "rule-mcq-26",
-        "rule-mcq-25",
-        "rule-mcq-27",
-        "rule-mcq-24",
-        "rule-mcq-28",
-        "rule-mcq-23"
+        "rule-mcq-51",
+        "rule-mcq-53",
+        "rule-mcq-45"
       ],
       "explanation": "本句的「Rules」指「收緊規則」。",
       "sentenceIndex": 49,
@@ -3152,12 +2965,10 @@ export default {
         "Rules"
       ],
       "optionReasons": {
-        "rule-mcq-26": "本句指「收緊規則」。",
-        "rule-mcq-25": "「放寬規則」與本句語境不同。",
-        "rule-mcq-27": "「規則例外」與本句語境不同。",
-        "rule-mcq-24": "「引入規則」與本句語境不同。",
-        "rule-mcq-28": "「通融／變通規則」與本句語境不同。",
-        "rule-mcq-23": "「修訂規則」與本句語境不同。"
+        "rule-mcq-26": "本句的「Rules」指「收緊規則」。",
+        "rule-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-26"
     },
@@ -3169,11 +2980,9 @@ export default {
       "masked": "Defective goods should be an ____.",
       "options": [
         "rule-mcq-27",
-        "rule-mcq-26",
-        "rule-mcq-28",
-        "rule-mcq-25",
-        "rule-mcq-29",
-        "rule-mcq-24"
+        "rule-mcq-60",
+        "rule-mcq-34",
+        "rule-pdf-008"
       ],
       "explanation": "本句的「exception to the rule」指「規則例外」。",
       "sentenceIndex": 50,
@@ -3182,12 +2991,10 @@ export default {
         "exception to the rule"
       ],
       "optionReasons": {
-        "rule-mcq-27": "本句指「規則例外」。",
-        "rule-mcq-26": "「收緊規則」與本句語境不同。",
-        "rule-mcq-28": "「通融／變通規則」與本句語境不同。",
-        "rule-mcq-25": "「放寬規則」與本句語境不同。",
-        "rule-mcq-29": "「按規矩辦事」與本句語境不同。",
-        "rule-mcq-24": "「引入規則」與本句語境不同。"
+        "rule-mcq-27": "本句的「exception to the rule」指「規則例外」。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-27"
     },
@@ -3199,11 +3006,9 @@ export default {
       "masked": "Every ____ may need carefully defined exceptions.",
       "options": [
         "rule-mcq-27",
-        "rule-mcq-26",
-        "rule-mcq-28",
-        "rule-mcq-25",
-        "rule-mcq-29",
-        "rule-mcq-24"
+        "rule-mcq-63",
+        "rule-mcq-67",
+        "rule-mcq-43"
       ],
       "explanation": "本句的「rule」指「規則例外」。",
       "sentenceIndex": 51,
@@ -3212,12 +3017,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-27": "本句指「規則例外」。",
-        "rule-mcq-26": "「收緊規則」與本句語境不同。",
-        "rule-mcq-28": "「通融／變通規則」與本句語境不同。",
-        "rule-mcq-25": "「放寬規則」與本句語境不同。",
-        "rule-mcq-29": "「按規矩辦事」與本句語境不同。",
-        "rule-mcq-24": "「引入規則」與本句語境不同。"
+        "rule-mcq-27": "本句的「rule」指「規則例外」。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-27"
     },
@@ -3229,11 +3032,9 @@ export default {
       "masked": "The manager decided to ____.",
       "options": [
         "rule-mcq-27",
-        "rule-mcq-26",
-        "rule-mcq-28",
-        "rule-mcq-25",
-        "rule-mcq-29",
-        "rule-mcq-24"
+        "rule-pdf-007",
+        "rule-mcq-52",
+        "rule-mcq-57"
       ],
       "explanation": "本句的「make an exception」指「規則例外」。",
       "sentenceIndex": 52,
@@ -3242,12 +3043,10 @@ export default {
         "make an exception"
       ],
       "optionReasons": {
-        "rule-mcq-27": "本句指「規則例外」。",
-        "rule-mcq-26": "「收緊規則」與本句語境不同。",
-        "rule-mcq-28": "「通融／變通規則」與本句語境不同。",
-        "rule-mcq-25": "「放寬規則」與本句語境不同。",
-        "rule-mcq-29": "「按規矩辦事」與本句語境不同。",
-        "rule-mcq-24": "「引入規則」與本句語境不同。"
+        "rule-mcq-27": "本句的「make an exception」指「規則例外」。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-27"
     },
@@ -3259,11 +3058,9 @@ export default {
       "masked": "Staff should not have to ____ secretly to help genuine customers.",
       "options": [
         "rule-mcq-28",
-        "rule-mcq-27",
-        "rule-mcq-29",
-        "rule-mcq-26",
-        "rule-mcq-30",
-        "rule-mcq-25"
+        "rule-mcq-67",
+        "rule-mcq-60",
+        "rule-mcq-51"
       ],
       "explanation": "本句的「bend the rules」指「通融／變通規則」。",
       "sentenceIndex": 53,
@@ -3272,12 +3069,10 @@ export default {
         "bend the rules"
       ],
       "optionReasons": {
-        "rule-mcq-28": "本句指「通融／變通規則」。",
-        "rule-mcq-27": "「規則例外」與本句語境不同。",
-        "rule-mcq-29": "「按規矩辦事」與本句語境不同。",
-        "rule-mcq-26": "「收緊規則」與本句語境不同。",
-        "rule-mcq-30": "「基本規則」與本句語境不同。",
-        "rule-mcq-25": "「放寬規則」與本句語境不同。"
+        "rule-mcq-28": "本句的「bend the rules」指「通融／變通規則」。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-28"
     },
@@ -3289,11 +3084,9 @@ export default {
       "masked": "The manager bent the ____ for an exceptional case.",
       "options": [
         "rule-mcq-28",
-        "rule-mcq-27",
-        "rule-mcq-29",
-        "rule-mcq-26",
-        "rule-mcq-30",
-        "rule-mcq-25"
+        "rule-mcq-44",
+        "rule-mcq-41",
+        "rule-mcq-57"
       ],
       "explanation": "本句的「rules」指「通融／變通規則」。",
       "sentenceIndex": 54,
@@ -3302,12 +3095,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-28": "本句指「通融／變通規則」。",
-        "rule-mcq-27": "「規則例外」與本句語境不同。",
-        "rule-mcq-29": "「按規矩辦事」與本句語境不同。",
-        "rule-mcq-26": "「收緊規則」與本句語境不同。",
-        "rule-mcq-30": "「基本規則」與本句語境不同。",
-        "rule-mcq-25": "「放寬規則」與本句語境不同。"
+        "rule-mcq-28": "本句的「rules」指「通融／變通規則」。",
+        "rule-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-28"
     },
@@ -3319,11 +3110,9 @@ export default {
       "masked": "Genuine customers who ____ should be treated fairly.",
       "options": [
         "rule-mcq-29",
-        "rule-mcq-28",
-        "rule-mcq-30",
-        "rule-mcq-27",
-        "rule-mcq-31",
-        "rule-mcq-26"
+        "rule-mcq-45",
+        "rule-pdf-008",
+        "rule-mcq-67"
       ],
       "explanation": "本句的「play by the rules」指「按規矩辦事」。",
       "sentenceIndex": 55,
@@ -3332,12 +3121,10 @@ export default {
         "play by the rules"
       ],
       "optionReasons": {
-        "rule-mcq-29": "本句指「按規矩辦事」。",
-        "rule-mcq-28": "「通融／變通規則」與本句語境不同。",
-        "rule-mcq-30": "「基本規則」與本句語境不同。",
-        "rule-mcq-27": "「規則例外」與本句語境不同。",
-        "rule-mcq-31": "「內部／場所規則」與本句語境不同。",
-        "rule-mcq-26": "「收緊規則」與本句語境不同。"
+        "rule-mcq-29": "本句的「play by the rules」指「按規矩辦事」。",
+        "rule-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-29"
     },
@@ -3349,11 +3136,9 @@ export default {
       "masked": "Everyone should play by the same ____.",
       "options": [
         "rule-mcq-29",
-        "rule-mcq-28",
-        "rule-mcq-30",
-        "rule-mcq-27",
-        "rule-mcq-31",
-        "rule-mcq-26"
+        "rule-mcq-66",
+        "rule-mcq-52",
+        "rule-mcq-41"
       ],
       "explanation": "本句的「rules」指「按規矩辦事」。",
       "sentenceIndex": 56,
@@ -3362,12 +3147,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-29": "本句指「按規矩辦事」。",
-        "rule-mcq-28": "「通融／變通規則」與本句語境不同。",
-        "rule-mcq-30": "「基本規則」與本句語境不同。",
-        "rule-mcq-27": "「規則例外」與本句語境不同。",
-        "rule-mcq-31": "「內部／場所規則」與本句語境不同。",
-        "rule-mcq-26": "「收緊規則」與本句語境不同。"
+        "rule-mcq-29": "本句的「rules」指「按規矩辦事」。",
+        "rule-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-29"
     },
@@ -3379,11 +3162,9 @@ export default {
       "masked": "The same ____ should apply to everyone.",
       "options": [
         "rule-mcq-29",
-        "rule-mcq-28",
-        "rule-mcq-30",
-        "rule-mcq-27",
-        "rule-mcq-31",
-        "rule-mcq-26"
+        "rule-mcq-55",
+        "rule-pdf-006",
+        "rule-mcq-67"
       ],
       "explanation": "本句的「rules」指「按規矩辦事」。",
       "sentenceIndex": 57,
@@ -3392,12 +3173,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-29": "本句指「按規矩辦事」。",
-        "rule-mcq-28": "「通融／變通規則」與本句語境不同。",
-        "rule-mcq-30": "「基本規則」與本句語境不同。",
-        "rule-mcq-27": "「規則例外」與本句語境不同。",
-        "rule-mcq-31": "「內部／場所規則」與本句語境不同。",
-        "rule-mcq-26": "「收緊規則」與本句語境不同。"
+        "rule-mcq-29": "本句的「rules」指「按規矩辦事」。",
+        "rule-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-29"
     },
@@ -3409,11 +3188,9 @@ export default {
       "masked": "Transparency requires staff to know when different ____ legitimately apply.",
       "options": [
         "rule-mcq-29",
-        "rule-mcq-28",
-        "rule-mcq-30",
-        "rule-mcq-27",
-        "rule-mcq-31",
-        "rule-mcq-26"
+        "rule-mcq-34",
+        "rule-mcq-67",
+        "rule-mcq-66"
       ],
       "explanation": "本句的「rules」指「按規矩辦事」。",
       "sentenceIndex": 58,
@@ -3422,12 +3199,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-29": "本句指「按規矩辦事」。",
-        "rule-mcq-28": "「通融／變通規則」與本句語境不同。",
-        "rule-mcq-30": "「基本規則」與本句語境不同。",
-        "rule-mcq-27": "「規則例外」與本句語境不同。",
-        "rule-mcq-31": "「內部／場所規則」與本句語境不同。",
-        "rule-mcq-26": "「收緊規則」與本句語境不同。"
+        "rule-mcq-29": "本句的「rules」指「按規矩辦事」。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-29"
     },
@@ -3439,11 +3214,9 @@ export default {
       "masked": "The team agreed on ____.",
       "options": [
         "rule-mcq-30",
-        "rule-mcq-29",
-        "rule-mcq-31",
-        "rule-mcq-28",
-        "rule-mcq-32",
-        "rule-mcq-27"
+        "rule-mcq-45",
+        "rule-mcq-34",
+        "rule-pdf-008"
       ],
       "explanation": "本句的「ground rules for discussion」指「基本規則」。",
       "sentenceIndex": 59,
@@ -3452,12 +3225,10 @@ export default {
         "ground rules for discussion"
       ],
       "optionReasons": {
-        "rule-mcq-30": "本句指「基本規則」。",
-        "rule-mcq-29": "「按規矩辦事」與本句語境不同。",
-        "rule-mcq-31": "「內部／場所規則」與本句語境不同。",
-        "rule-mcq-28": "「通融／變通規則」與本句語境不同。",
-        "rule-mcq-32": "「黃金法則」與本句語境不同。",
-        "rule-mcq-27": "「規則例外」與本句語境不同。"
+        "rule-mcq-30": "本句的「ground rules for discussion」指「基本規則」。",
+        "rule-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-30"
     },
@@ -3469,11 +3240,9 @@ export default {
       "masked": "Ground ____ can prevent meetings from becoming personal.",
       "options": [
         "rule-mcq-30",
-        "rule-mcq-29",
-        "rule-mcq-31",
-        "rule-mcq-28",
-        "rule-mcq-32",
-        "rule-mcq-27"
+        "rule-mcq-46",
+        "rule-mcq-61",
+        "rule-mcq-60"
       ],
       "explanation": "本句的「rules」指「基本規則」。",
       "sentenceIndex": 60,
@@ -3482,12 +3251,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-30": "本句指「基本規則」。",
-        "rule-mcq-29": "「按規矩辦事」與本句語境不同。",
-        "rule-mcq-31": "「內部／場所規則」與本句語境不同。",
-        "rule-mcq-28": "「通融／變通規則」與本句語境不同。",
-        "rule-mcq-32": "「黃金法則」與本句語境不同。",
-        "rule-mcq-27": "「規則例外」與本句語境不同。"
+        "rule-mcq-30": "本句的「rules」指「基本規則」。",
+        "rule-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-30"
     },
@@ -3499,11 +3266,9 @@ export default {
       "masked": "Managers should ____ before the pilot.",
       "options": [
         "rule-mcq-30",
-        "rule-mcq-29",
-        "rule-mcq-31",
-        "rule-mcq-28",
-        "rule-mcq-32",
-        "rule-mcq-27"
+        "rule-mcq-34",
+        "rule-mcq-53",
+        "rule-mcq-46"
       ],
       "explanation": "本句的「set clear ground rules」指「基本規則」。",
       "sentenceIndex": 61,
@@ -3512,12 +3277,10 @@ export default {
         "set clear ground rules"
       ],
       "optionReasons": {
-        "rule-mcq-30": "本句指「基本規則」。",
-        "rule-mcq-29": "「按規矩辦事」與本句語境不同。",
-        "rule-mcq-31": "「內部／場所規則」與本句語境不同。",
-        "rule-mcq-28": "「通融／變通規則」與本句語境不同。",
-        "rule-mcq-32": "「黃金法則」與本句語境不同。",
-        "rule-mcq-27": "「規則例外」與本句語境不同。"
+        "rule-mcq-30": "本句的「set clear ground rules」指「基本規則」。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-30"
     },
@@ -3529,11 +3292,9 @@ export default {
       "masked": "Ground ____ help everyone understand expectations.",
       "options": [
         "rule-mcq-30",
-        "rule-mcq-29",
-        "rule-mcq-31",
-        "rule-mcq-28",
-        "rule-mcq-32",
-        "rule-mcq-27"
+        "rule-mcq-51",
+        "rule-mcq-60",
+        "rule-mcq-67"
       ],
       "explanation": "本句的「rules」指「基本規則」。",
       "sentenceIndex": 62,
@@ -3542,12 +3303,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-30": "本句指「基本規則」。",
-        "rule-mcq-29": "「按規矩辦事」與本句語境不同。",
-        "rule-mcq-31": "「內部／場所規則」與本句語境不同。",
-        "rule-mcq-28": "「通融／變通規則」與本句語境不同。",
-        "rule-mcq-32": "「黃金法則」與本句語境不同。",
-        "rule-mcq-27": "「規則例外」與本句語境不同。"
+        "rule-mcq-30": "本句的「rules」指「基本規則」。",
+        "rule-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-30"
     },
@@ -3559,11 +3318,9 @@ export default {
       "masked": "Customers must follow the store's ____.",
       "options": [
         "rule-mcq-31",
-        "rule-mcq-30",
-        "rule-mcq-32",
-        "rule-mcq-29",
-        "rule-mcq-33",
-        "rule-mcq-28"
+        "rule-mcq-46",
+        "rule-mcq-63",
+        "rule-mcq-62"
       ],
       "explanation": "本句的「house rules」指「內部／場所規則」。",
       "sentenceIndex": 63,
@@ -3572,12 +3329,10 @@ export default {
         "house rules"
       ],
       "optionReasons": {
-        "rule-mcq-31": "本句指「內部／場所規則」。",
-        "rule-mcq-30": "「基本規則」與本句語境不同。",
-        "rule-mcq-32": "「黃金法則」與本句語境不同。",
-        "rule-mcq-29": "「按規矩辦事」與本句語境不同。",
-        "rule-mcq-33": "「經驗法則」與本句語境不同。",
-        "rule-mcq-28": "「通融／變通規則」與本句語境不同。"
+        "rule-mcq-31": "本句的「house rules」指「內部／場所規則」。",
+        "rule-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-31"
     },
@@ -3589,11 +3344,9 @@ export default {
       "masked": "Every venue has its own house ____.",
       "options": [
         "rule-mcq-31",
-        "rule-mcq-30",
-        "rule-mcq-32",
-        "rule-mcq-29",
-        "rule-mcq-33",
-        "rule-mcq-28"
+        "rule-mcq-46",
+        "rule-mcq-60",
+        "rule-mcq-40"
       ],
       "explanation": "本句的「rules」指「內部／場所規則」。",
       "sentenceIndex": 64,
@@ -3602,12 +3355,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-31": "本句指「內部／場所規則」。",
-        "rule-mcq-30": "「基本規則」與本句語境不同。",
-        "rule-mcq-32": "「黃金法則」與本句語境不同。",
-        "rule-mcq-29": "「按規矩辦事」與本句語境不同。",
-        "rule-mcq-33": "「經驗法則」與本句語境不同。",
-        "rule-mcq-28": "「通融／變通規則」與本句語境不同。"
+        "rule-mcq-31": "本句的「rules」指「內部／場所規則」。",
+        "rule-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-31"
     },
@@ -3619,11 +3370,9 @@ export default {
       "masked": "The ____ is to state return conditions clearly before payment.",
       "options": [
         "rule-mcq-32",
-        "rule-mcq-31",
-        "rule-mcq-33",
-        "rule-mcq-30",
-        "rule-mcq-34",
-        "rule-mcq-29"
+        "rule-mcq-53",
+        "rule-mcq-03",
+        "rule-mcq-63"
       ],
       "explanation": "本句的「golden rule」指「黃金法則」。",
       "sentenceIndex": 65,
@@ -3632,12 +3381,10 @@ export default {
         "golden rule"
       ],
       "optionReasons": {
-        "rule-mcq-32": "本句指「黃金法則」。",
-        "rule-mcq-31": "「內部／場所規則」與本句語境不同。",
-        "rule-mcq-33": "「經驗法則」與本句語境不同。",
-        "rule-mcq-30": "「基本規則」與本句語境不同。",
-        "rule-mcq-34": "「一般而言」與本句語境不同。",
-        "rule-mcq-29": "「按規矩辦事」與本句語境不同。"
+        "rule-mcq-32": "本句的「golden rule」指「黃金法則」。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-32"
     },
@@ -3649,11 +3396,9 @@ export default {
       "masked": "One golden ____ of customer service is to listen before responding.",
       "options": [
         "rule-mcq-32",
-        "rule-mcq-31",
-        "rule-mcq-33",
-        "rule-mcq-30",
-        "rule-mcq-34",
-        "rule-mcq-29"
+        "rule-mcq-63",
+        "rule-mcq-03",
+        "rule-mcq-53"
       ],
       "explanation": "本句的「rule」指「黃金法則」。",
       "sentenceIndex": 66,
@@ -3662,12 +3407,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-32": "本句指「黃金法則」。",
-        "rule-mcq-31": "「內部／場所規則」與本句語境不同。",
-        "rule-mcq-33": "「經驗法則」與本句語境不同。",
-        "rule-mcq-30": "「基本規則」與本句語境不同。",
-        "rule-mcq-34": "「一般而言」與本句語境不同。",
-        "rule-mcq-29": "「按規矩辦事」與本句語境不同。"
+        "rule-mcq-32": "本句的「rule」指「黃金法則」。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-32"
     },
@@ -3679,11 +3422,9 @@ export default {
       "masked": "As a ____, clearer product information reduces avoidable returns.",
       "options": [
         "rule-mcq-33",
-        "rule-mcq-32",
-        "rule-mcq-34",
-        "rule-mcq-31",
-        "rule-mcq-35",
-        "rule-mcq-30"
+        "rule-mcq-05",
+        "rule-mcq-51",
+        "rule-mcq-62"
       ],
       "explanation": "本句的「rule of thumb」指「經驗法則」。",
       "sentenceIndex": 67,
@@ -3692,12 +3433,10 @@ export default {
         "rule of thumb"
       ],
       "optionReasons": {
-        "rule-mcq-33": "本句指「經驗法則」。",
-        "rule-mcq-32": "「黃金法則」與本句語境不同。",
-        "rule-mcq-34": "「一般而言」與本句語境不同。",
-        "rule-mcq-31": "「內部／場所規則」與本句語境不同。",
-        "rule-mcq-35": "「文法規則」與本句語境不同。",
-        "rule-mcq-30": "「基本規則」與本句語境不同。"
+        "rule-mcq-33": "本句的「rule of thumb」指「經驗法則」。",
+        "rule-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-33"
     },
@@ -3709,11 +3448,9 @@ export default {
       "masked": "A ____ of thumb is useful, but it is not an exact law.",
       "options": [
         "rule-mcq-33",
-        "rule-mcq-32",
-        "rule-mcq-34",
-        "rule-mcq-31",
-        "rule-mcq-35",
-        "rule-mcq-30"
+        "rule-mcq-65",
+        "rule-mcq-48",
+        "rule-mcq-03"
       ],
       "explanation": "本句的「rule」指「經驗法則」。",
       "sentenceIndex": 68,
@@ -3722,12 +3459,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-33": "本句指「經驗法則」。",
-        "rule-mcq-32": "「黃金法則」與本句語境不同。",
-        "rule-mcq-34": "「一般而言」與本句語境不同。",
-        "rule-mcq-31": "「內部／場所規則」與本句語境不同。",
-        "rule-mcq-35": "「文法規則」與本句語境不同。",
-        "rule-mcq-30": "「基本規則」與本句語境不同。"
+        "rule-mcq-33": "本句的「rule」指「經驗法則」。",
+        "rule-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-33"
     },
@@ -3739,11 +3474,9 @@ export default {
       "masked": "____, damaged goods are inspected before refunds are issued.",
       "options": [
         "rule-mcq-34",
-        "rule-mcq-33",
-        "rule-mcq-35",
-        "rule-mcq-32",
-        "rule-mcq-36",
-        "rule-mcq-31"
+        "rule-mcq-63",
+        "rule-mcq-50",
+        "rule-mcq-33"
       ],
       "explanation": "本句的「As a rule」指「一般而言」。",
       "sentenceIndex": 69,
@@ -3752,12 +3485,10 @@ export default {
         "As a rule"
       ],
       "optionReasons": {
-        "rule-mcq-34": "本句指「一般而言」。",
-        "rule-mcq-33": "「經驗法則」與本句語境不同。",
-        "rule-mcq-35": "「文法規則」與本句語境不同。",
-        "rule-mcq-32": "「黃金法則」與本句語境不同。",
-        "rule-mcq-36": "「拼字規則」與本句語境不同。",
-        "rule-mcq-31": "「內部／場所規則」與本句語境不同。"
+        "rule-mcq-34": "本句的「As a rule」指「一般而言」。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-34"
     },
@@ -3769,11 +3500,9 @@ export default {
       "masked": "As a ____, customers prefer clear policies.",
       "options": [
         "rule-mcq-34",
-        "rule-mcq-33",
-        "rule-mcq-35",
-        "rule-mcq-32",
-        "rule-mcq-36",
-        "rule-mcq-31"
+        "rule-mcq-62",
+        "rule-mcq-50",
+        "rule-mcq-57"
       ],
       "explanation": "本句的「rule」指「一般而言」。",
       "sentenceIndex": 70,
@@ -3782,12 +3511,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-34": "本句指「一般而言」。",
-        "rule-mcq-33": "「經驗法則」與本句語境不同。",
-        "rule-mcq-35": "「文法規則」與本句語境不同。",
-        "rule-mcq-32": "「黃金法則」與本句語境不同。",
-        "rule-mcq-36": "「拼字規則」與本句語境不同。",
-        "rule-mcq-31": "「內部／場所規則」與本句語境不同。"
+        "rule-mcq-34": "本句的「rule」指「一般而言」。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-34"
     },
@@ -3799,11 +3526,9 @@ export default {
       "masked": "____, final-sale goods are non-returnable.",
       "options": [
         "rule-mcq-34",
-        "rule-mcq-33",
-        "rule-mcq-35",
-        "rule-mcq-32",
-        "rule-mcq-36",
-        "rule-mcq-31"
+        "rule-mcq-46",
+        "rule-mcq-16",
+        "rule-mcq-60"
       ],
       "explanation": "本句的「As a general rule」指「一般而言」。",
       "sentenceIndex": 71,
@@ -3812,12 +3537,10 @@ export default {
         "As a general rule"
       ],
       "optionReasons": {
-        "rule-mcq-34": "本句指「一般而言」。",
-        "rule-mcq-33": "「經驗法則」與本句語境不同。",
-        "rule-mcq-35": "「文法規則」與本句語境不同。",
-        "rule-mcq-32": "「黃金法則」與本句語境不同。",
-        "rule-mcq-36": "「拼字規則」與本句語境不同。",
-        "rule-mcq-31": "「內部／場所規則」與本句語境不同。"
+        "rule-mcq-34": "本句的「As a general rule」指「一般而言」。",
+        "rule-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-34"
     },
@@ -3829,11 +3552,9 @@ export default {
       "masked": "As a general ____, evidence should be checked before a claim is approved.",
       "options": [
         "rule-mcq-34",
-        "rule-mcq-33",
-        "rule-mcq-35",
-        "rule-mcq-32",
-        "rule-mcq-36",
-        "rule-mcq-31"
+        "rule-mcq-03",
+        "rule-pdf-006",
+        "rule-pdf-007"
       ],
       "explanation": "本句的「rule」指「一般而言」。",
       "sentenceIndex": 72,
@@ -3842,12 +3563,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-34": "本句指「一般而言」。",
-        "rule-mcq-33": "「經驗法則」與本句語境不同。",
-        "rule-mcq-35": "「文法規則」與本句語境不同。",
-        "rule-mcq-32": "「黃金法則」與本句語境不同。",
-        "rule-mcq-36": "「拼字規則」與本句語境不同。",
-        "rule-mcq-31": "「內部／場所規則」與本句語境不同。"
+        "rule-mcq-34": "本句的「rule」指「一般而言」。",
+        "rule-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-34"
     },
@@ -3859,11 +3578,9 @@ export default {
       "masked": "There are exceptions to almost every linguistic ____.",
       "options": [
         "rule-pdf-002",
-        "rule-mcq-02",
-        "rule-mcq-03",
-        "rule-mcq-04",
-        "rule-mcq-05",
-        "rule-mcq-06"
+        "rule-pdf-008",
+        "rule-mcq-62",
+        "rule-mcq-53"
       ],
       "explanation": "本句的「rule」指「描述某個系統一般如何運作的原則或規律」。",
       "sentenceIndex": 73,
@@ -3872,12 +3589,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-pdf-002": "本句指「描述某個系統一般如何運作的原則或規律」。",
-        "rule-mcq-02": "「現行規定」與本句語境不同。",
-        "rule-mcq-03": "「嚴格規定」與本句語境不同。",
-        "rule-mcq-04": "「清晰規則」與本句語境不同。",
-        "rule-mcq-05": "「明文規定」與本句語境不同。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。"
+        "rule-pdf-002": "本句的「rule」指「描述某個系統一般如何運作的原則或規律」。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-pdf-002"
     },
@@ -3889,11 +3604,9 @@ export default {
       "masked": "The ____ describes a regular pattern.",
       "options": [
         "rule-pdf-002",
-        "rule-mcq-02",
-        "rule-mcq-03",
-        "rule-mcq-04",
-        "rule-mcq-05",
-        "rule-mcq-06"
+        "rule-mcq-67",
+        "rule-mcq-61",
+        "rule-mcq-59"
       ],
       "explanation": "本句的「rule」指「描述某個系統一般如何運作的原則或規律」。",
       "sentenceIndex": 74,
@@ -3902,12 +3615,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-pdf-002": "本句指「描述某個系統一般如何運作的原則或規律」。",
-        "rule-mcq-02": "「現行規定」與本句語境不同。",
-        "rule-mcq-03": "「嚴格規定」與本句語境不同。",
-        "rule-mcq-04": "「清晰規則」與本句語境不同。",
-        "rule-mcq-05": "「明文規定」與本句語境不同。",
-        "rule-mcq-06": "「不成文規定」與本句語境不同。"
+        "rule-pdf-002": "本句的「rule」指「描述某個系統一般如何運作的原則或規律」。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-pdf-002"
     },
@@ -3919,11 +3630,9 @@ export default {
       "masked": "Learners often memorize ____.",
       "options": [
         "rule-mcq-35",
-        "rule-mcq-34",
-        "rule-mcq-36",
-        "rule-mcq-33",
-        "rule-mcq-37",
-        "rule-mcq-32"
+        "rule-mcq-51",
+        "rule-mcq-46",
+        "rule-mcq-43"
       ],
       "explanation": "本句的「grammar rules」指「文法規則」。",
       "sentenceIndex": 75,
@@ -3932,12 +3641,10 @@ export default {
         "grammar rules"
       ],
       "optionReasons": {
-        "rule-mcq-35": "本句指「文法規則」。",
-        "rule-mcq-34": "「一般而言」與本句語境不同。",
-        "rule-mcq-36": "「拼字規則」與本句語境不同。",
-        "rule-mcq-33": "「經驗法則」與本句語境不同。",
-        "rule-mcq-37": "「數學規則」與本句語境不同。",
-        "rule-mcq-32": "「黃金法則」與本句語境不同。"
+        "rule-mcq-35": "本句的「grammar rules」指「文法規則」。",
+        "rule-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-35"
     },
@@ -3949,11 +3656,9 @@ export default {
       "masked": "Some grammar ____ have exceptions.",
       "options": [
         "rule-mcq-35",
-        "rule-mcq-34",
-        "rule-mcq-36",
-        "rule-mcq-33",
-        "rule-mcq-37",
-        "rule-mcq-32"
+        "rule-mcq-59",
+        "rule-mcq-61",
+        "rule-mcq-47"
       ],
       "explanation": "本句的「rules」指「文法規則」。",
       "sentenceIndex": 76,
@@ -3962,12 +3667,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-35": "本句指「文法規則」。",
-        "rule-mcq-34": "「一般而言」與本句語境不同。",
-        "rule-mcq-36": "「拼字規則」與本句語境不同。",
-        "rule-mcq-33": "「經驗法則」與本句語境不同。",
-        "rule-mcq-37": "「數學規則」與本句語境不同。",
-        "rule-mcq-32": "「黃金法則」與本句語境不同。"
+        "rule-mcq-35": "本句的「rules」指「文法規則」。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-35"
     },
@@ -3979,11 +3682,9 @@ export default {
       "masked": "This spelling ____ applies to many verbs.",
       "options": [
         "rule-mcq-36",
-        "rule-mcq-35",
-        "rule-mcq-37",
-        "rule-mcq-34",
-        "rule-mcq-38",
-        "rule-mcq-33"
+        "rule-mcq-59",
+        "rule-mcq-44",
+        "rule-mcq-51"
       ],
       "explanation": "本句的「rule」指「拼字規則」。",
       "sentenceIndex": 77,
@@ -3992,12 +3693,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-36": "本句指「拼字規則」。",
-        "rule-mcq-35": "「文法規則」與本句語境不同。",
-        "rule-mcq-37": "「數學規則」與本句語境不同。",
-        "rule-mcq-34": "「一般而言」與本句語境不同。",
-        "rule-mcq-38": "「業務規則」與本句語境不同。",
-        "rule-mcq-33": "「經驗法則」與本句語境不同。"
+        "rule-mcq-36": "本句的「rule」指「拼字規則」。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-36"
     },
@@ -4009,11 +3708,9 @@ export default {
       "masked": "English spelling ____ are not perfectly regular.",
       "options": [
         "rule-mcq-36",
-        "rule-mcq-35",
-        "rule-mcq-37",
-        "rule-mcq-34",
-        "rule-mcq-38",
-        "rule-mcq-33"
+        "rule-pdf-006",
+        "rule-mcq-50",
+        "rule-pdf-008"
       ],
       "explanation": "本句的「rules」指「拼字規則」。",
       "sentenceIndex": 78,
@@ -4022,12 +3719,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-36": "本句指「拼字規則」。",
-        "rule-mcq-35": "「文法規則」與本句語境不同。",
-        "rule-mcq-37": "「數學規則」與本句語境不同。",
-        "rule-mcq-34": "「一般而言」與本句語境不同。",
-        "rule-mcq-38": "「業務規則」與本句語境不同。",
-        "rule-mcq-33": "「經驗法則」與本句語境不同。"
+        "rule-mcq-36": "本句的「rules」指「拼字規則」。",
+        "rule-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-36"
     },
@@ -4039,11 +3734,9 @@ export default {
       "masked": "Apply the ____ to each number.",
       "options": [
         "rule-mcq-37",
-        "rule-mcq-36",
-        "rule-mcq-38",
-        "rule-mcq-35",
-        "rule-mcq-39",
-        "rule-mcq-34"
+        "rule-pdf-006",
+        "rule-mcq-34",
+        "rule-mcq-48"
       ],
       "explanation": "本句的「rule」指「數學規則」。",
       "sentenceIndex": 79,
@@ -4052,12 +3745,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-37": "本句指「數學規則」。",
-        "rule-mcq-36": "「拼字規則」與本句語境不同。",
-        "rule-mcq-38": "「業務規則」與本句語境不同。",
-        "rule-mcq-35": "「文法規則」與本句語境不同。",
-        "rule-mcq-39": "「規則式系統」與本句語境不同。",
-        "rule-mcq-34": "「一般而言」與本句語境不同。"
+        "rule-mcq-37": "本句的「rule」指「數學規則」。",
+        "rule-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-37"
     },
@@ -4069,11 +3760,9 @@ export default {
       "masked": "The sequence follows a simple ____.",
       "options": [
         "rule-mcq-37",
-        "rule-mcq-36",
-        "rule-mcq-38",
-        "rule-mcq-35",
-        "rule-mcq-39",
-        "rule-mcq-34"
+        "rule-mcq-66",
+        "rule-mcq-57",
+        "rule-pdf-005"
       ],
       "explanation": "本句的「rule」指「數學規則」。",
       "sentenceIndex": 80,
@@ -4082,12 +3771,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-37": "本句指「數學規則」。",
-        "rule-mcq-36": "「拼字規則」與本句語境不同。",
-        "rule-mcq-38": "「業務規則」與本句語境不同。",
-        "rule-mcq-35": "「文法規則」與本句語境不同。",
-        "rule-mcq-39": "「規則式系統」與本句語境不同。",
-        "rule-mcq-34": "「一般而言」與本句語境不同。"
+        "rule-mcq-37": "本句的「rule」指「數學規則」。",
+        "rule-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-37"
     },
@@ -4099,11 +3786,9 @@ export default {
       "masked": "The observed pattern can be expressed as a simple ____.",
       "options": [
         "rule-mcq-37",
-        "rule-mcq-36",
-        "rule-mcq-38",
-        "rule-mcq-35",
-        "rule-mcq-39",
-        "rule-mcq-34"
+        "rule-mcq-52",
+        "rule-pdf-005",
+        "rule-mcq-44"
       ],
       "explanation": "本句的「rule」指「數學規則」。",
       "sentenceIndex": 81,
@@ -4112,12 +3797,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-37": "本句指「數學規則」。",
-        "rule-mcq-36": "「拼字規則」與本句語境不同。",
-        "rule-mcq-38": "「業務規則」與本句語境不同。",
-        "rule-mcq-35": "「文法規則」與本句語境不同。",
-        "rule-mcq-39": "「規則式系統」與本句語境不同。",
-        "rule-mcq-34": "「一般而言」與本句語境不同。"
+        "rule-mcq-37": "本句的「rule」指「數學規則」。",
+        "rule-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-37"
     },
@@ -4129,11 +3812,9 @@ export default {
       "masked": "In science, “law,” “principle,” and “____” are not always interchangeable.",
       "options": [
         "rule-mcq-37",
-        "rule-mcq-36",
-        "rule-mcq-38",
-        "rule-mcq-35",
-        "rule-mcq-39",
-        "rule-mcq-34"
+        "rule-mcq-52",
+        "rule-mcq-57",
+        "rule-mcq-66"
       ],
       "explanation": "本句的「rule」指「數學規則」。",
       "sentenceIndex": 82,
@@ -4142,12 +3823,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-37": "本句指「數學規則」。",
-        "rule-mcq-36": "「拼字規則」與本句語境不同。",
-        "rule-mcq-38": "「業務規則」與本句語境不同。",
-        "rule-mcq-35": "「文法規則」與本句語境不同。",
-        "rule-mcq-39": "「規則式系統」與本句語境不同。",
-        "rule-mcq-34": "「一般而言」與本句語境不同。"
+        "rule-mcq-37": "本句的「rule」指「數學規則」。",
+        "rule-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-37"
     },
@@ -4159,11 +3838,9 @@ export default {
       "masked": "The refund system follows several ____.",
       "options": [
         "rule-pdf-003",
-        "rule-mcq-37",
-        "rule-mcq-39",
-        "rule-mcq-36",
-        "rule-mcq-40",
-        "rule-mcq-35"
+        "rule-mcq-63",
+        "rule-mcq-62",
+        "rule-mcq-47"
       ],
       "explanation": "本句的「business rules」指「組織用來控制流程、資格、計算或決策邏輯的明確規則」。",
       "sentenceIndex": 83,
@@ -4172,12 +3849,10 @@ export default {
         "business rules"
       ],
       "optionReasons": {
-        "rule-pdf-003": "本句指「組織用來控制流程、資格、計算或決策邏輯的明確規則」。",
-        "rule-mcq-37": "「數學規則」與本句語境不同。",
-        "rule-mcq-39": "「規則式系統」與本句語境不同。",
-        "rule-mcq-36": "「拼字規則」與本句語境不同。",
-        "rule-mcq-40": "「法治」與本句語境不同。",
-        "rule-mcq-35": "「文法規則」與本句語境不同。"
+        "rule-pdf-003": "本句的「business rules」指「組織用來控制流程、資格、計算或決策邏輯的明確規則」。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-pdf-003"
     },
@@ -4189,11 +3864,9 @@ export default {
       "masked": "One business ____ may state that worn items cannot be refunded.",
       "options": [
         "rule-pdf-003",
-        "rule-mcq-37",
-        "rule-mcq-39",
-        "rule-mcq-36",
+        "rule-mcq-62",
         "rule-mcq-40",
-        "rule-mcq-35"
+        "rule-mcq-63"
       ],
       "explanation": "本句的「rule」指「組織用來控制流程、資格、計算或決策邏輯的明確規則」。",
       "sentenceIndex": 84,
@@ -4202,12 +3875,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-pdf-003": "本句指「組織用來控制流程、資格、計算或決策邏輯的明確規則」。",
-        "rule-mcq-37": "「數學規則」與本句語境不同。",
-        "rule-mcq-39": "「規則式系統」與本句語境不同。",
-        "rule-mcq-36": "「拼字規則」與本句語境不同。",
-        "rule-mcq-40": "「法治」與本句語境不同。",
-        "rule-mcq-35": "「文法規則」與本句語境不同。"
+        "rule-pdf-003": "本句的「rule」指「組織用來控制流程、資格、計算或決策邏輯的明確規則」。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-pdf-003"
     },
@@ -4219,11 +3890,9 @@ export default {
       "masked": "The company uses a ____ to flag unusual returns.",
       "options": [
         "rule-mcq-39",
-        "rule-mcq-38",
-        "rule-mcq-40",
-        "rule-mcq-37",
-        "rule-mcq-41",
-        "rule-mcq-36"
+        "rule-mcq-62",
+        "rule-mcq-59",
+        "rule-mcq-57"
       ],
       "explanation": "本句的「rule-based system」指「規則式系統」。",
       "sentenceIndex": 85,
@@ -4232,12 +3901,10 @@ export default {
         "rule-based system"
       ],
       "optionReasons": {
-        "rule-mcq-39": "本句指「規則式系統」。",
-        "rule-mcq-38": "「業務規則」與本句語境不同。",
-        "rule-mcq-40": "「法治」與本句語境不同。",
-        "rule-mcq-37": "「數學規則」與本句語境不同。",
-        "rule-mcq-41": "「多數決」與本句語境不同。",
-        "rule-mcq-36": "「拼字規則」與本句語境不同。"
+        "rule-mcq-39": "本句的「rule-based system」指「規則式系統」。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-39"
     },
@@ -4249,11 +3916,9 @@ export default {
       "masked": "A ____ system follows predefined conditions.",
       "options": [
         "rule-mcq-39",
-        "rule-mcq-38",
+        "rule-mcq-53",
         "rule-mcq-40",
-        "rule-mcq-37",
-        "rule-mcq-41",
-        "rule-mcq-36"
+        "rule-mcq-57"
       ],
       "explanation": "本句的「rule-based」指「規則式系統」。",
       "sentenceIndex": 86,
@@ -4262,12 +3927,10 @@ export default {
         "rule-based"
       ],
       "optionReasons": {
-        "rule-mcq-39": "本句指「規則式系統」。",
-        "rule-mcq-38": "「業務規則」與本句語境不同。",
-        "rule-mcq-40": "「法治」與本句語境不同。",
-        "rule-mcq-37": "「數學規則」與本句語境不同。",
-        "rule-mcq-41": "「多數決」與本句語境不同。",
-        "rule-mcq-36": "「拼字規則」與本句語境不同。"
+        "rule-mcq-39": "本句的「rule-based」指「規則式系統」。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-39"
     },
@@ -4279,11 +3942,9 @@ export default {
       "masked": "The platform uses a ____ to evaluate refund eligibility.",
       "options": [
         "rule-mcq-39",
-        "rule-mcq-38",
-        "rule-mcq-40",
-        "rule-mcq-37",
-        "rule-mcq-41",
-        "rule-mcq-36"
+        "rule-mcq-50",
+        "rule-mcq-52",
+        "rule-mcq-60"
       ],
       "explanation": "本句的「rule engine」指「規則式系統」。",
       "sentenceIndex": 87,
@@ -4292,12 +3953,10 @@ export default {
         "rule engine"
       ],
       "optionReasons": {
-        "rule-mcq-39": "本句指「規則式系統」。",
-        "rule-mcq-38": "「業務規則」與本句語境不同。",
-        "rule-mcq-40": "「法治」與本句語境不同。",
-        "rule-mcq-37": "「數學規則」與本句語境不同。",
-        "rule-mcq-41": "「多數決」與本句語境不同。",
-        "rule-mcq-36": "「拼字規則」與本句語境不同。"
+        "rule-mcq-39": "本句的「rule engine」指「規則式系統」。",
+        "rule-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-39"
     },
@@ -4309,11 +3968,9 @@ export default {
       "masked": "Business ____ can be updated without changing the whole application.",
       "options": [
         "rule-mcq-39",
-        "rule-mcq-38",
-        "rule-mcq-40",
-        "rule-mcq-37",
-        "rule-mcq-41",
-        "rule-mcq-36"
+        "rule-mcq-63",
+        "rule-pdf-008",
+        "rule-pdf-006"
       ],
       "explanation": "本句的「rules」指「規則式系統」。",
       "sentenceIndex": 88,
@@ -4322,12 +3979,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-39": "本句指「規則式系統」。",
-        "rule-mcq-38": "「業務規則」與本句語境不同。",
-        "rule-mcq-40": "「法治」與本句語境不同。",
-        "rule-mcq-37": "「數學規則」與本句語境不同。",
-        "rule-mcq-41": "「多數決」與本句語境不同。",
-        "rule-mcq-36": "「拼字規則」與本句語境不同。"
+        "rule-mcq-39": "本句的「rules」指「規則式系統」。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-39"
     },
@@ -4339,11 +3994,9 @@ export default {
       "masked": "The ____ requires public authorities to act according to law.",
       "options": [
         "rule-mcq-40",
-        "rule-mcq-39",
-        "rule-mcq-41",
-        "rule-mcq-38",
-        "rule-mcq-42",
-        "rule-mcq-37"
+        "rule-mcq-17",
+        "rule-mcq-60",
+        "rule-mcq-34"
       ],
       "explanation": "本句的「rule of law」指「法治」。",
       "sentenceIndex": 89,
@@ -4352,12 +4005,10 @@ export default {
         "rule of law"
       ],
       "optionReasons": {
-        "rule-mcq-40": "本句指「法治」。",
-        "rule-mcq-39": "「規則式系統」與本句語境不同。",
-        "rule-mcq-41": "「多數決」與本句語境不同。",
-        "rule-mcq-38": "「業務規則」與本句語境不同。",
-        "rule-mcq-42": "「統治」與本句語境不同。",
-        "rule-mcq-37": "「數學規則」與本句語境不同。"
+        "rule-mcq-40": "本句的「rule of law」指「法治」。",
+        "rule-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-40"
     },
@@ -4369,11 +4020,9 @@ export default {
       "masked": "____ of law is different from simply having many rules.",
       "options": [
         "rule-mcq-40",
-        "rule-mcq-39",
-        "rule-mcq-41",
-        "rule-mcq-38",
-        "rule-mcq-42",
-        "rule-mcq-37"
+        "rule-mcq-29",
+        "rule-mcq-19",
+        "rule-mcq-50"
       ],
       "explanation": "本句的「Rule」指「法治」。",
       "sentenceIndex": 90,
@@ -4382,12 +4031,10 @@ export default {
         "Rule"
       ],
       "optionReasons": {
-        "rule-mcq-40": "本句指「法治」。",
-        "rule-mcq-39": "「規則式系統」與本句語境不同。",
-        "rule-mcq-41": "「多數決」與本句語境不同。",
-        "rule-mcq-38": "「業務規則」與本句語境不同。",
-        "rule-mcq-42": "「統治」與本句語境不同。",
-        "rule-mcq-37": "「數學規則」與本句語境不同。"
+        "rule-mcq-40": "本句的「Rule」指「法治」。",
+        "rule-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-40"
     },
@@ -4399,11 +4046,9 @@ export default {
       "masked": "The committee operates by ____.",
       "options": [
         "rule-mcq-41",
-        "rule-mcq-40",
-        "rule-mcq-42",
-        "rule-mcq-39",
-        "rule-mcq-43",
-        "rule-mcq-38"
+        "rule-mcq-20",
+        "rule-mcq-34",
+        "rule-mcq-66"
       ],
       "explanation": "本句的「majority rule」指「多數決」。",
       "sentenceIndex": 91,
@@ -4412,12 +4057,10 @@ export default {
         "majority rule"
       ],
       "optionReasons": {
-        "rule-mcq-41": "本句指「多數決」。",
-        "rule-mcq-40": "「法治」與本句語境不同。",
-        "rule-mcq-42": "「統治」與本句語境不同。",
-        "rule-mcq-39": "「規則式系統」與本句語境不同。",
-        "rule-mcq-43": "「在 X 統治下」與本句語境不同。",
-        "rule-mcq-38": "「業務規則」與本句語境不同。"
+        "rule-mcq-41": "本句的「majority rule」指「多數決」。",
+        "rule-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-41"
     },
@@ -4429,11 +4072,9 @@ export default {
       "masked": "Majority ____ does not necessarily mean minority interests are irrelevant.",
       "options": [
         "rule-mcq-41",
-        "rule-mcq-40",
-        "rule-mcq-42",
-        "rule-mcq-39",
-        "rule-mcq-43",
-        "rule-mcq-38"
+        "rule-mcq-46",
+        "rule-mcq-03",
+        "rule-mcq-43"
       ],
       "explanation": "本句的「rule」指「多數決」。",
       "sentenceIndex": 92,
@@ -4442,12 +4083,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-41": "本句指「多數決」。",
-        "rule-mcq-40": "「法治」與本句語境不同。",
-        "rule-mcq-42": "「統治」與本句語境不同。",
-        "rule-mcq-39": "「規則式系統」與本句語境不同。",
-        "rule-mcq-43": "「在 X 統治下」與本句語境不同。",
-        "rule-mcq-38": "「業務規則」與本句語境不同。"
+        "rule-mcq-41": "本句的「rule」指「多數決」。",
+        "rule-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-41"
     },
@@ -4459,11 +4098,9 @@ export default {
       "masked": "The phrase ____ describes control by a numerical minority.",
       "options": [
         "rule-mcq-41",
+        "rule-mcq-07",
         "rule-mcq-40",
-        "rule-mcq-42",
-        "rule-mcq-39",
-        "rule-mcq-43",
-        "rule-mcq-38"
+        "rule-mcq-67"
       ],
       "explanation": "本句的「minority rule」指「多數決」。",
       "sentenceIndex": 93,
@@ -4472,12 +4109,10 @@ export default {
         "minority rule"
       ],
       "optionReasons": {
-        "rule-mcq-41": "本句指「多數決」。",
-        "rule-mcq-40": "「法治」與本句語境不同。",
-        "rule-mcq-42": "「統治」與本句語境不同。",
-        "rule-mcq-39": "「規則式系統」與本句語境不同。",
-        "rule-mcq-43": "「在 X 統治下」與本句語境不同。",
-        "rule-mcq-38": "「業務規則」與本句語境不同。"
+        "rule-mcq-41": "本句的「minority rule」指「多數決」。",
+        "rule-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-41"
     },
@@ -4489,11 +4124,9 @@ export default {
       "masked": "____” here means governance, not a behavioural instruction.",
       "options": [
         "rule-mcq-41",
-        "rule-mcq-40",
-        "rule-mcq-42",
-        "rule-mcq-39",
-        "rule-mcq-43",
-        "rule-mcq-38"
+        "rule-mcq-67",
+        "rule-mcq-28",
+        "rule-pdf-008"
       ],
       "explanation": "本句的「Rule」指「多數決」。",
       "sentenceIndex": 94,
@@ -4502,12 +4135,10 @@ export default {
         "Rule"
       ],
       "optionReasons": {
-        "rule-mcq-41": "本句指「多數決」。",
-        "rule-mcq-40": "「法治」與本句語境不同。",
-        "rule-mcq-42": "「統治」與本句語境不同。",
-        "rule-mcq-39": "「規則式系統」與本句語境不同。",
-        "rule-mcq-43": "「在 X 統治下」與本句語境不同。",
-        "rule-mcq-38": "「業務規則」與本句語境不同。"
+        "rule-mcq-41": "本句的「Rule」指「多數決」。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-41"
     },
@@ -4519,11 +4150,9 @@ export default {
       "masked": "The region changed greatly ____.",
       "options": [
         "rule-mcq-43",
-        "rule-mcq-42",
-        "rule-mcq-44",
-        "rule-mcq-41",
-        "rule-mcq-45",
-        "rule-mcq-40"
+        "rule-mcq-30",
+        "rule-mcq-51",
+        "rule-pdf-007"
       ],
       "explanation": "本句的「under his rule」指「在 X 統治下」。",
       "sentenceIndex": 97,
@@ -4532,12 +4161,10 @@ export default {
         "under his rule"
       ],
       "optionReasons": {
-        "rule-mcq-43": "本句指「在 X 統治下」。",
-        "rule-mcq-42": "「統治」與本句語境不同。",
-        "rule-mcq-44": "「統治國家」與本句語境不同。",
-        "rule-mcq-41": "「多數決」與本句語境不同。",
-        "rule-mcq-45": "「統治 X」與本句語境不同。",
-        "rule-mcq-40": "「法治」與本句語境不同。"
+        "rule-mcq-43": "本句的「under his rule」指「在 X 統治下」。",
+        "rule-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-43"
     },
@@ -4549,11 +4176,9 @@ export default {
       "masked": "Taxes increased under the new ____'s rule.",
       "options": [
         "rule-mcq-43",
-        "rule-mcq-42",
-        "rule-mcq-44",
-        "rule-mcq-41",
-        "rule-mcq-45",
-        "rule-mcq-40"
+        "rule-mcq-16",
+        "rule-mcq-67",
+        "rule-mcq-57"
       ],
       "explanation": "本句的「ruler」指「在 X 統治下」。",
       "sentenceIndex": 98,
@@ -4562,12 +4187,10 @@ export default {
         "ruler"
       ],
       "optionReasons": {
-        "rule-mcq-43": "本句指「在 X 統治下」。",
-        "rule-mcq-42": "「統治」與本句語境不同。",
-        "rule-mcq-44": "「統治國家」與本句語境不同。",
-        "rule-mcq-41": "「多數決」與本句語境不同。",
-        "rule-mcq-45": "「統治 X」與本句語境不同。",
-        "rule-mcq-40": "「法治」與本句語境不同。"
+        "rule-mcq-43": "本句的「ruler」指「在 X 統治下」。",
+        "rule-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-43"
     },
@@ -4579,11 +4202,9 @@ export default {
       "masked": "The region resisted ____.",
       "options": [
         "rule-mcq-43",
-        "rule-mcq-42",
-        "rule-mcq-44",
-        "rule-mcq-41",
-        "rule-mcq-45",
-        "rule-mcq-40"
+        "rule-mcq-34",
+        "rule-mcq-26",
+        "rule-mcq-61"
       ],
       "explanation": "本句的「foreign rule」指「在 X 統治下」。",
       "sentenceIndex": 99,
@@ -4592,12 +4213,10 @@ export default {
         "foreign rule"
       ],
       "optionReasons": {
-        "rule-mcq-43": "本句指「在 X 統治下」。",
-        "rule-mcq-42": "「統治」與本句語境不同。",
-        "rule-mcq-44": "「統治國家」與本句語境不同。",
-        "rule-mcq-41": "「多數決」與本句語境不同。",
-        "rule-mcq-45": "「統治 X」與本句語境不同。",
-        "rule-mcq-40": "「法治」與本句語境不同。"
+        "rule-mcq-43": "本句的「foreign rule」指「在 X 統治下」。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-43"
     },
@@ -4609,11 +4228,9 @@ export default {
       "masked": "The history covers a period of colonial ____.",
       "options": [
         "rule-mcq-43",
-        "rule-mcq-42",
-        "rule-mcq-44",
-        "rule-mcq-41",
-        "rule-mcq-45",
-        "rule-mcq-40"
+        "rule-mcq-26",
+        "rule-mcq-46",
+        "rule-mcq-57"
       ],
       "explanation": "本句的「rule」指「在 X 統治下」。",
       "sentenceIndex": 100,
@@ -4622,12 +4239,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-43": "本句指「在 X 統治下」。",
-        "rule-mcq-42": "「統治」與本句語境不同。",
-        "rule-mcq-44": "「統治國家」與本句語境不同。",
-        "rule-mcq-41": "「多數決」與本句語境不同。",
-        "rule-mcq-45": "「統治 X」與本句語境不同。",
-        "rule-mcq-40": "「法治」與本句語境不同。"
+        "rule-mcq-43": "本句的「rule」指「在 X 統治下」。",
+        "rule-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-43"
     },
@@ -4639,11 +4254,9 @@ export default {
       "masked": "The dynasty ____ for centuries.",
       "options": [
         "rule-mcq-44",
-        "rule-mcq-43",
-        "rule-mcq-45",
-        "rule-mcq-42",
-        "rule-mcq-46",
-        "rule-mcq-41"
+        "rule-mcq-51",
+        "rule-mcq-08",
+        "rule-mcq-29"
       ],
       "explanation": "本句的「ruled the country」指「統治國家」。",
       "sentenceIndex": 101,
@@ -4652,12 +4265,10 @@ export default {
         "ruled the country"
       ],
       "optionReasons": {
-        "rule-mcq-44": "本句指「統治國家」。",
-        "rule-mcq-43": "「在 X 統治下」與本句語境不同。",
-        "rule-mcq-45": "「統治 X」與本句語境不同。",
-        "rule-mcq-42": "「統治」與本句語境不同。",
-        "rule-mcq-46": "「執政黨」與本句語境不同。",
-        "rule-mcq-41": "「多數決」與本句語境不同。"
+        "rule-mcq-44": "本句的「ruled the country」指「統治國家」。",
+        "rule-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-44"
     },
@@ -4669,11 +4280,9 @@ export default {
       "masked": "She ____ the kingdom effectively.",
       "options": [
         "rule-mcq-44",
-        "rule-mcq-43",
-        "rule-mcq-45",
-        "rule-mcq-42",
-        "rule-mcq-46",
-        "rule-mcq-41"
+        "rule-mcq-13",
+        "rule-mcq-63",
+        "rule-mcq-34"
       ],
       "explanation": "本句的「ruled」指「統治國家」。",
       "sentenceIndex": 102,
@@ -4682,12 +4291,10 @@ export default {
         "ruled"
       ],
       "optionReasons": {
-        "rule-mcq-44": "本句指「統治國家」。",
-        "rule-mcq-43": "「在 X 統治下」與本句語境不同。",
-        "rule-mcq-45": "「統治 X」與本句語境不同。",
-        "rule-mcq-42": "「統治」與本句語境不同。",
-        "rule-mcq-46": "「執政黨」與本句語境不同。",
-        "rule-mcq-41": "「多數決」與本句語境不同。"
+        "rule-mcq-44": "本句的「ruled」指「統治國家」。",
+        "rule-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-44"
     },
@@ -4699,11 +4306,9 @@ export default {
       "masked": "The king ____.",
       "options": [
         "rule-mcq-45",
-        "rule-mcq-44",
-        "rule-mcq-46",
-        "rule-mcq-43",
-        "rule-mcq-47",
-        "rule-mcq-42"
+        "rule-mcq-63",
+        "rule-mcq-04",
+        "rule-mcq-60"
       ],
       "explanation": "本句的「ruled over a large territory」指「統治 X」。",
       "sentenceIndex": 103,
@@ -4712,12 +4317,10 @@ export default {
         "ruled over a large territory"
       ],
       "optionReasons": {
-        "rule-mcq-45": "本句指「統治 X」。",
-        "rule-mcq-44": "「統治國家」與本句語境不同。",
-        "rule-mcq-46": "「執政黨」與本句語境不同。",
-        "rule-mcq-43": "「在 X 統治下」與本句語境不同。",
-        "rule-mcq-47": "「統治階級」與本句語境不同。",
-        "rule-mcq-42": "「統治」與本句語境不同。"
+        "rule-mcq-45": "本句的「ruled over a large territory」指「統治 X」。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-45"
     },
@@ -4729,11 +4332,9 @@ export default {
       "masked": "The regime ____ over millions of people.",
       "options": [
         "rule-mcq-45",
-        "rule-mcq-44",
-        "rule-mcq-46",
-        "rule-mcq-43",
-        "rule-mcq-47",
-        "rule-mcq-42"
+        "rule-mcq-07",
+        "rule-mcq-57",
+        "rule-mcq-46"
       ],
       "explanation": "本句的「ruled」指「統治 X」。",
       "sentenceIndex": 104,
@@ -4742,12 +4343,10 @@ export default {
         "ruled"
       ],
       "optionReasons": {
-        "rule-mcq-45": "本句指「統治 X」。",
-        "rule-mcq-44": "「統治國家」與本句語境不同。",
-        "rule-mcq-46": "「執政黨」與本句語境不同。",
-        "rule-mcq-43": "「在 X 統治下」與本句語境不同。",
-        "rule-mcq-47": "「統治階級」與本句語境不同。",
-        "rule-mcq-42": "「統治」與本句語境不同。"
+        "rule-mcq-45": "本句的「ruled」指「統治 X」。",
+        "rule-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-45"
     },
@@ -4759,11 +4358,9 @@ export default {
       "masked": "The term ____ refers to a social group with dominant political/economic power.",
       "options": [
         "rule-mcq-47",
-        "rule-mcq-46",
-        "rule-mcq-48",
-        "rule-mcq-45",
-        "rule-mcq-49",
-        "rule-mcq-44"
+        "rule-mcq-60",
+        "rule-mcq-55",
+        "rule-pdf-007"
       ],
       "explanation": "本句的「ruling class」指「統治階級」。",
       "sentenceIndex": 105,
@@ -4772,12 +4369,10 @@ export default {
         "ruling class"
       ],
       "optionReasons": {
-        "rule-mcq-47": "本句指「統治階級」。",
-        "rule-mcq-46": "「執政黨」與本句語境不同。",
-        "rule-mcq-48": "「統治者」與本句語境不同。",
-        "rule-mcq-45": "「統治 X」與本句語境不同。",
-        "rule-mcq-49": "「裁定；判決」與本句語境不同。",
-        "rule-mcq-44": "「統治國家」與本句語境不同。"
+        "rule-mcq-47": "本句的「ruling class」指「統治階級」。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-47"
     },
@@ -4789,11 +4384,9 @@ export default {
       "masked": "The ____ class controlled much of the land.",
       "options": [
         "rule-mcq-47",
-        "rule-mcq-46",
-        "rule-mcq-48",
-        "rule-mcq-45",
-        "rule-mcq-49",
-        "rule-mcq-44"
+        "rule-mcq-02",
+        "rule-mcq-61",
+        "rule-mcq-34"
       ],
       "explanation": "本句的「ruling」指「統治階級」。",
       "sentenceIndex": 106,
@@ -4802,12 +4395,10 @@ export default {
         "ruling"
       ],
       "optionReasons": {
-        "rule-mcq-47": "本句指「統治階級」。",
-        "rule-mcq-46": "「執政黨」與本句語境不同。",
-        "rule-mcq-48": "「統治者」與本句語境不同。",
-        "rule-mcq-45": "「統治 X」與本句語境不同。",
-        "rule-mcq-49": "「裁定；判決」與本句語境不同。",
-        "rule-mcq-44": "「統治國家」與本句語境不同。"
+        "rule-mcq-47": "本句的「ruling」指「統治階級」。",
+        "rule-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-47"
     },
@@ -4819,11 +4410,9 @@ export default {
       "masked": "The ____ introduced the proposal.",
       "options": [
         "rule-mcq-46",
-        "rule-mcq-45",
-        "rule-mcq-47",
-        "rule-mcq-44",
-        "rule-mcq-48",
-        "rule-mcq-43"
+        "rule-mcq-30",
+        "rule-mcq-66",
+        "rule-mcq-33"
       ],
       "explanation": "本句的「ruling party」指「執政黨」。",
       "sentenceIndex": 107,
@@ -4832,12 +4421,10 @@ export default {
         "ruling party"
       ],
       "optionReasons": {
-        "rule-mcq-46": "本句指「執政黨」。",
-        "rule-mcq-45": "「統治 X」與本句語境不同。",
-        "rule-mcq-47": "「統治階級」與本句語境不同。",
-        "rule-mcq-44": "「統治國家」與本句語境不同。",
-        "rule-mcq-48": "「統治者」與本句語境不同。",
-        "rule-mcq-43": "「在 X 統治下」與本句語境不同。"
+        "rule-mcq-46": "本句的「ruling party」指「執政黨」。",
+        "rule-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-46"
     },
@@ -4849,11 +4436,9 @@ export default {
       "masked": "____ party” means the party currently exercising government power.",
       "options": [
         "rule-mcq-46",
-        "rule-mcq-45",
-        "rule-mcq-47",
-        "rule-mcq-44",
-        "rule-mcq-48",
-        "rule-mcq-43"
+        "rule-mcq-53",
+        "rule-mcq-37",
+        "rule-mcq-59"
       ],
       "explanation": "本句的「Ruling」指「執政黨」。",
       "sentenceIndex": 108,
@@ -4862,12 +4447,10 @@ export default {
         "Ruling"
       ],
       "optionReasons": {
-        "rule-mcq-46": "本句指「執政黨」。",
-        "rule-mcq-45": "「統治 X」與本句語境不同。",
-        "rule-mcq-47": "「統治階級」與本句語境不同。",
-        "rule-mcq-44": "「統治國家」與本句語境不同。",
-        "rule-mcq-48": "「統治者」與本句語境不同。",
-        "rule-mcq-43": "「在 X 統治下」與本句語境不同。"
+        "rule-mcq-46": "本句的「Ruling」指「執政黨」。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-46"
     },
@@ -4879,11 +4462,9 @@ export default {
       "masked": "The ____ introduced new laws.",
       "options": [
         "rule-mcq-48",
-        "rule-mcq-47",
-        "rule-mcq-49",
-        "rule-mcq-46",
-        "rule-mcq-50",
-        "rule-mcq-45"
+        "rule-pdf-003",
+        "rule-mcq-61",
+        "rule-mcq-51"
       ],
       "explanation": "本句的「ruler」指「統治者」。",
       "sentenceIndex": 109,
@@ -4892,12 +4473,10 @@ export default {
         "ruler"
       ],
       "optionReasons": {
-        "rule-mcq-48": "本句指「統治者」。",
-        "rule-mcq-47": "「統治階級」與本句語境不同。",
-        "rule-mcq-49": "「裁定；判決」與本句語境不同。",
-        "rule-mcq-46": "「執政黨」與本句語境不同。",
-        "rule-mcq-50": "「裁定……」與本句語境不同。",
-        "rule-mcq-45": "「統治 X」與本句語境不同。"
+        "rule-mcq-48": "本句的「ruler」指「統治者」。",
+        "rule-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-48"
     },
@@ -4909,11 +4488,9 @@ export default {
       "masked": "Historical ____ often relied on advisers.",
       "options": [
         "rule-mcq-48",
-        "rule-mcq-47",
-        "rule-mcq-49",
-        "rule-mcq-46",
-        "rule-mcq-50",
-        "rule-mcq-45"
+        "rule-mcq-02",
+        "rule-pdf-005",
+        "rule-mcq-29"
       ],
       "explanation": "本句的「rulers」指「統治者」。",
       "sentenceIndex": 110,
@@ -4922,12 +4499,10 @@ export default {
         "rulers"
       ],
       "optionReasons": {
-        "rule-mcq-48": "本句指「統治者」。",
-        "rule-mcq-47": "「統治階級」與本句語境不同。",
-        "rule-mcq-49": "「裁定；判決」與本句語境不同。",
-        "rule-mcq-46": "「執政黨」與本句語境不同。",
-        "rule-mcq-50": "「裁定……」與本句語境不同。",
-        "rule-mcq-45": "「統治 X」與本句語境不同。"
+        "rule-mcq-48": "本句的「rulers」指「統治者」。",
+        "rule-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-48"
     },
@@ -4939,11 +4514,9 @@ export default {
       "masked": "The court ____.",
       "options": [
         "rule-mcq-50",
-        "rule-mcq-49",
-        "rule-mcq-51",
-        "rule-mcq-48",
-        "rule-mcq-52",
-        "rule-mcq-47"
+        "rule-mcq-15",
+        "rule-mcq-63",
+        "rule-mcq-40"
       ],
       "explanation": "本句的「ruled that the claim was valid」指「裁定……」。",
       "sentenceIndex": 113,
@@ -4952,12 +4525,10 @@ export default {
         "ruled that the claim was valid"
       ],
       "optionReasons": {
-        "rule-mcq-50": "本句指「裁定……」。",
-        "rule-mcq-49": "「裁定；判決」與本句語境不同。",
-        "rule-mcq-51": "「就 X 作出裁決」與本句語境不同。",
-        "rule-mcq-48": "「統治者」與本句語境不同。",
-        "rule-mcq-52": "「判某方勝訴」與本句語境不同。",
-        "rule-mcq-47": "「統治階級」與本句語境不同。"
+        "rule-mcq-50": "本句的「ruled that the claim was valid」指「裁定……」。",
+        "rule-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-50"
     },
@@ -4969,11 +4540,9 @@ export default {
       "masked": "The judge ____ that the evidence was admissible.",
       "options": [
         "rule-mcq-50",
-        "rule-mcq-49",
-        "rule-mcq-51",
+        "rule-mcq-09",
         "rule-mcq-48",
-        "rule-mcq-52",
-        "rule-mcq-47"
+        "rule-mcq-32"
       ],
       "explanation": "本句的「ruled」指「裁定……」。",
       "sentenceIndex": 114,
@@ -4982,12 +4551,10 @@ export default {
         "ruled"
       ],
       "optionReasons": {
-        "rule-mcq-50": "本句指「裁定……」。",
-        "rule-mcq-49": "「裁定；判決」與本句語境不同。",
-        "rule-mcq-51": "「就 X 作出裁決」與本句語境不同。",
-        "rule-mcq-48": "「統治者」與本句語境不同。",
-        "rule-mcq-52": "「判某方勝訴」與本句語境不同。",
-        "rule-mcq-47": "「統治階級」與本句語境不同。"
+        "rule-mcq-50": "本句的「ruled」指「裁定……」。",
+        "rule-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-50"
     },
@@ -4999,11 +4566,9 @@ export default {
       "masked": "The court will ____ tomorrow.",
       "options": [
         "rule-mcq-51",
-        "rule-mcq-50",
-        "rule-mcq-52",
-        "rule-mcq-49",
-        "rule-mcq-53",
-        "rule-mcq-48"
+        "rule-mcq-12",
+        "rule-mcq-34",
+        "rule-mcq-43"
       ],
       "explanation": "本句的「rule on the application」指「就 X 作出裁決」。",
       "sentenceIndex": 115,
@@ -5012,12 +4577,10 @@ export default {
         "rule on the application"
       ],
       "optionReasons": {
-        "rule-mcq-51": "本句指「就 X 作出裁決」。",
-        "rule-mcq-50": "「裁定……」與本句語境不同。",
-        "rule-mcq-52": "「判某方勝訴」與本句語境不同。",
-        "rule-mcq-49": "「裁定；判決」與本句語境不同。",
-        "rule-mcq-53": "「判某方敗訴」與本句語境不同。",
-        "rule-mcq-48": "「統治者」與本句語境不同。"
+        "rule-mcq-51": "本句的「rule on the application」指「就 X 作出裁決」。",
+        "rule-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-51"
     },
@@ -5029,11 +4592,9 @@ export default {
       "masked": "A regulator may ____ on whether a practice complies with its rules.",
       "options": [
         "rule-mcq-51",
-        "rule-mcq-50",
-        "rule-mcq-52",
-        "rule-mcq-49",
-        "rule-mcq-53",
-        "rule-mcq-48"
+        "rule-mcq-22",
+        "rule-mcq-48",
+        "rule-mcq-46"
       ],
       "explanation": "本句的「rule」指「就 X 作出裁決」。",
       "sentenceIndex": 116,
@@ -5042,12 +4603,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-51": "本句指「就 X 作出裁決」。",
-        "rule-mcq-50": "「裁定……」與本句語境不同。",
-        "rule-mcq-52": "「判某方勝訴」與本句語境不同。",
-        "rule-mcq-49": "「裁定；判決」與本句語境不同。",
-        "rule-mcq-53": "「判某方敗訴」與本句語境不同。",
-        "rule-mcq-48": "「統治者」與本句語境不同。"
+        "rule-mcq-51": "本句的「rule」指「就 X 作出裁決」。",
+        "rule-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-51"
     },
@@ -5059,11 +4618,9 @@ export default {
       "masked": "The court ____.",
       "options": [
         "rule-mcq-52",
+        "rule-mcq-16",
         "rule-mcq-51",
-        "rule-mcq-53",
-        "rule-mcq-50",
-        "rule-mcq-54",
-        "rule-mcq-49"
+        "rule-mcq-59"
       ],
       "explanation": "本句的「ruled in favour of the customer」指「判某方勝訴」。",
       "sentenceIndex": 117,
@@ -5072,12 +4629,10 @@ export default {
         "ruled in favour of the customer"
       ],
       "optionReasons": {
-        "rule-mcq-52": "本句指「判某方勝訴」。",
-        "rule-mcq-51": "「就 X 作出裁決」與本句語境不同。",
-        "rule-mcq-53": "「判某方敗訴」與本句語境不同。",
-        "rule-mcq-50": "「裁定……」與本句語境不同。",
-        "rule-mcq-54": "「裁決；判決」與本句語境不同。",
-        "rule-mcq-49": "「裁定；判決」與本句語境不同。"
+        "rule-mcq-52": "本句的「ruled in favour of the customer」指「判某方勝訴」。",
+        "rule-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-52"
     },
@@ -5089,11 +4644,9 @@ export default {
       "masked": "The tribunal ____ in favour of the claimant.",
       "options": [
         "rule-mcq-52",
-        "rule-mcq-51",
-        "rule-mcq-53",
-        "rule-mcq-50",
-        "rule-mcq-54",
-        "rule-mcq-49"
+        "rule-mcq-07",
+        "rule-mcq-59",
+        "rule-mcq-32"
       ],
       "explanation": "本句的「ruled」指「判某方勝訴」。",
       "sentenceIndex": 118,
@@ -5102,12 +4655,10 @@ export default {
         "ruled"
       ],
       "optionReasons": {
-        "rule-mcq-52": "本句指「判某方勝訴」。",
-        "rule-mcq-51": "「就 X 作出裁決」與本句語境不同。",
-        "rule-mcq-53": "「判某方敗訴」與本句語境不同。",
-        "rule-mcq-50": "「裁定……」與本句語境不同。",
-        "rule-mcq-54": "「裁決；判決」與本句語境不同。",
-        "rule-mcq-49": "「裁定；判決」與本句語境不同。"
+        "rule-mcq-52": "本句的「ruled」指「判某方勝訴」。",
+        "rule-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-52"
     },
@@ -5119,11 +4670,9 @@ export default {
       "masked": "The court ____.",
       "options": [
         "rule-mcq-53",
-        "rule-mcq-52",
-        "rule-mcq-54",
-        "rule-mcq-51",
-        "rule-mcq-55",
-        "rule-mcq-50"
+        "rule-mcq-26",
+        "rule-mcq-59",
+        "rule-mcq-47"
       ],
       "explanation": "本句的「ruled against the retailer」指「判某方敗訴」。",
       "sentenceIndex": 119,
@@ -5132,12 +4681,10 @@ export default {
         "ruled against the retailer"
       ],
       "optionReasons": {
-        "rule-mcq-53": "本句指「判某方敗訴」。",
-        "rule-mcq-52": "「判某方勝訴」與本句語境不同。",
-        "rule-mcq-54": "「裁決；判決」與本句語境不同。",
-        "rule-mcq-51": "「就 X 作出裁決」與本句語境不同。",
-        "rule-mcq-55": "「法院裁決」與本句語境不同。",
-        "rule-mcq-50": "「裁定……」與本句語境不同。"
+        "rule-mcq-53": "本句的「ruled against the retailer」指「判某方敗訴」。",
+        "rule-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-53"
     },
@@ -5149,11 +4696,9 @@ export default {
       "masked": "The judge ____ against the application.",
       "options": [
         "rule-mcq-53",
-        "rule-mcq-52",
-        "rule-mcq-54",
-        "rule-mcq-51",
-        "rule-mcq-55",
-        "rule-mcq-50"
+        "rule-mcq-19",
+        "rule-mcq-67",
+        "rule-mcq-40"
       ],
       "explanation": "本句的「ruled」指「判某方敗訴」。",
       "sentenceIndex": 120,
@@ -5162,12 +4707,10 @@ export default {
         "ruled"
       ],
       "optionReasons": {
-        "rule-mcq-53": "本句指「判某方敗訴」。",
-        "rule-mcq-52": "「判某方勝訴」與本句語境不同。",
-        "rule-mcq-54": "「裁決；判決」與本句語境不同。",
-        "rule-mcq-51": "「就 X 作出裁決」與本句語境不同。",
-        "rule-mcq-55": "「法院裁決」與本句語境不同。",
-        "rule-mcq-50": "「裁定……」與本句語境不同。"
+        "rule-mcq-53": "本句的「ruled」指「判某方敗訴」。",
+        "rule-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-53"
     },
@@ -5179,11 +4722,9 @@ export default {
       "masked": "The court issued a ____.",
       "options": [
         "rule-pdf-004",
-        "rule-mcq-53",
-        "rule-mcq-55",
-        "rule-mcq-52",
-        "rule-mcq-56",
-        "rule-mcq-51"
+        "rule-mcq-65",
+        "rule-mcq-48",
+        "rule-mcq-63"
       ],
       "explanation": "本句的「ruling」指「法院、裁判機構或有權機構作出的正式決定」。",
       "sentenceIndex": 121,
@@ -5192,12 +4733,10 @@ export default {
         "ruling"
       ],
       "optionReasons": {
-        "rule-pdf-004": "本句指「法院、裁判機構或有權機構作出的正式決定」。",
-        "rule-mcq-53": "「判某方敗訴」與本句語境不同。",
-        "rule-mcq-55": "「法院裁決」與本句語境不同。",
-        "rule-mcq-52": "「判某方勝訴」與本句語境不同。",
-        "rule-mcq-56": "「推翻／駁回」與本句語境不同。",
-        "rule-mcq-51": "「就 X 作出裁決」與本句語境不同。"
+        "rule-pdf-004": "本句的「ruling」指「法院、裁判機構或有權機構作出的正式決定」。",
+        "rule-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-pdf-004"
     },
@@ -5209,11 +4748,9 @@ export default {
       "masked": "The ____ may affect other retailers.",
       "options": [
         "rule-pdf-004",
-        "rule-mcq-53",
-        "rule-mcq-55",
-        "rule-mcq-52",
-        "rule-mcq-56",
-        "rule-mcq-51"
+        "rule-mcq-60",
+        "rule-mcq-44",
+        "rule-mcq-29"
       ],
       "explanation": "本句的「ruling」指「法院、裁判機構或有權機構作出的正式決定」。",
       "sentenceIndex": 122,
@@ -5222,12 +4759,10 @@ export default {
         "ruling"
       ],
       "optionReasons": {
-        "rule-pdf-004": "本句指「法院、裁判機構或有權機構作出的正式決定」。",
-        "rule-mcq-53": "「判某方敗訴」與本句語境不同。",
-        "rule-mcq-55": "「法院裁決」與本句語境不同。",
-        "rule-mcq-52": "「判某方勝訴」與本句語境不同。",
-        "rule-mcq-56": "「推翻／駁回」與本句語境不同。",
-        "rule-mcq-51": "「就 X 作出裁決」與本句語境不同。"
+        "rule-pdf-004": "本句的「ruling」指「法院、裁判機構或有權機構作出的正式決定」。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-pdf-004"
     },
@@ -5239,11 +4774,9 @@ export default {
       "masked": "The ____ clarified the law.",
       "options": [
         "rule-mcq-55",
-        "rule-mcq-54",
-        "rule-mcq-56",
-        "rule-mcq-53",
-        "rule-mcq-57",
-        "rule-mcq-52"
+        "rule-mcq-62",
+        "rule-mcq-11",
+        "rule-mcq-47"
       ],
       "explanation": "本句的「court ruling」指「法院裁決」。",
       "sentenceIndex": 123,
@@ -5252,12 +4785,10 @@ export default {
         "court ruling"
       ],
       "optionReasons": {
-        "rule-mcq-55": "本句指「法院裁決」。",
-        "rule-mcq-54": "「裁決；判決」與本句語境不同。",
-        "rule-mcq-56": "「推翻／駁回」與本句語境不同。",
-        "rule-mcq-53": "「判某方敗訴」與本句語境不同。",
-        "rule-mcq-57": "「駁回反對」與本句語境不同。",
-        "rule-mcq-52": "「判某方勝訴」與本句語境不同。"
+        "rule-mcq-55": "本句的「court ruling」指「法院裁決」。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-55"
     },
@@ -5269,11 +4800,9 @@ export default {
       "masked": "The company complied with the ____.",
       "options": [
         "rule-mcq-55",
-        "rule-mcq-54",
-        "rule-mcq-56",
-        "rule-mcq-53",
-        "rule-mcq-57",
-        "rule-mcq-52"
+        "rule-mcq-43",
+        "rule-mcq-34",
+        "rule-mcq-67"
       ],
       "explanation": "本句的「ruling」指「法院裁決」。",
       "sentenceIndex": 124,
@@ -5282,12 +4811,10 @@ export default {
         "ruling"
       ],
       "optionReasons": {
-        "rule-mcq-55": "本句指「法院裁決」。",
-        "rule-mcq-54": "「裁決；判決」與本句語境不同。",
-        "rule-mcq-56": "「推翻／駁回」與本句語境不同。",
-        "rule-mcq-53": "「判某方敗訴」與本句語境不同。",
-        "rule-mcq-57": "「駁回反對」與本句語境不同。",
-        "rule-mcq-52": "「判某方勝訴」與本句語境不同。"
+        "rule-mcq-55": "本句的「ruling」指「法院裁決」。",
+        "rule-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-55"
     },
@@ -5299,11 +4826,9 @@ export default {
       "masked": "The ____ on refunds changed industry practice.",
       "options": [
         "rule-mcq-55",
-        "rule-mcq-54",
-        "rule-mcq-56",
         "rule-mcq-53",
-        "rule-mcq-57",
-        "rule-mcq-52"
+        "rule-mcq-63",
+        "rule-mcq-62"
       ],
       "explanation": "本句的「ruling」指「法院裁決」。",
       "sentenceIndex": 125,
@@ -5312,12 +4837,10 @@ export default {
         "ruling"
       ],
       "optionReasons": {
-        "rule-mcq-55": "本句指「法院裁決」。",
-        "rule-mcq-54": "「裁決；判決」與本句語境不同。",
-        "rule-mcq-56": "「推翻／駁回」與本句語境不同。",
-        "rule-mcq-53": "「判某方敗訴」與本句語境不同。",
-        "rule-mcq-57": "「駁回反對」與本句語境不同。",
-        "rule-mcq-52": "「判某方勝訴」與本句語境不同。"
+        "rule-mcq-55": "本句的「ruling」指「法院裁決」。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-55"
     },
@@ -5329,11 +4852,9 @@ export default {
       "masked": "Management reviewed the latest ____.",
       "options": [
         "rule-mcq-55",
-        "rule-mcq-54",
-        "rule-mcq-56",
-        "rule-mcq-53",
-        "rule-mcq-57",
-        "rule-mcq-52"
+        "rule-mcq-29",
+        "rule-mcq-67",
+        "rule-pdf-008"
       ],
       "explanation": "本句的「ruling」指「法院裁決」。",
       "sentenceIndex": 126,
@@ -5342,12 +4863,10 @@ export default {
         "ruling"
       ],
       "optionReasons": {
-        "rule-mcq-55": "本句指「法院裁決」。",
-        "rule-mcq-54": "「裁決；判決」與本句語境不同。",
-        "rule-mcq-56": "「推翻／駁回」與本句語境不同。",
-        "rule-mcq-53": "「判某方敗訴」與本句語境不同。",
-        "rule-mcq-57": "「駁回反對」與本句語境不同。",
-        "rule-mcq-52": "「判某方勝訴」與本句語境不同。"
+        "rule-mcq-55": "本句的「ruling」指「法院裁決」。",
+        "rule-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-55"
     },
@@ -5359,11 +4878,9 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "rule-pdf-005",
-        "rule-mcq-55",
-        "rule-mcq-57",
-        "rule-mcq-54",
-        "rule-mcq-58",
-        "rule-mcq-53"
+        "rule-pdf-008",
+        "rule-mcq-12",
+        "rule-mcq-44"
       ],
       "explanation": "本句的「overruled the employee's decision」指「有較高權力的人／機構否決或改變較低層原本的決定」。",
       "sentenceIndex": 127,
@@ -5372,12 +4889,10 @@ export default {
         "overruled the employee's decision"
       ],
       "optionReasons": {
-        "rule-pdf-005": "本句指「有較高權力的人／機構否決或改變較低層原本的決定」。",
-        "rule-mcq-55": "「法院裁決」與本句語境不同。",
-        "rule-mcq-57": "「駁回反對」與本句語境不同。",
-        "rule-mcq-54": "「裁決；判決」與本句語境不同。",
-        "rule-mcq-58": "「排除可能性」與本句語境不同。",
-        "rule-mcq-53": "「判某方敗訴」與本句語境不同。"
+        "rule-pdf-005": "本句的「overruled the employee's decision」指「有較高權力的人／機構否決或改變較低層原本的決定」。",
+        "rule-pdf-008": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-pdf-005"
     },
@@ -5389,11 +4904,9 @@ export default {
       "masked": "The judge ____.",
       "options": [
         "rule-mcq-57",
-        "rule-mcq-56",
-        "rule-mcq-58",
-        "rule-mcq-55",
-        "rule-mcq-59",
-        "rule-mcq-54"
+        "rule-mcq-27",
+        "rule-pdf-007",
+        "rule-mcq-67"
       ],
       "explanation": "本句的「overruled the objection」指「駁回反對」。",
       "sentenceIndex": 128,
@@ -5402,12 +4915,10 @@ export default {
         "overruled the objection"
       ],
       "optionReasons": {
-        "rule-mcq-57": "本句指「駁回反對」。",
-        "rule-mcq-56": "「推翻／駁回」與本句語境不同。",
-        "rule-mcq-58": "「排除可能性」與本句語境不同。",
-        "rule-mcq-55": "「法院裁決」與本句語境不同。",
-        "rule-mcq-59": "「排除可能」與本句語境不同。",
-        "rule-mcq-54": "「裁決；判決」與本句語境不同。"
+        "rule-mcq-57": "本句的「overruled the objection」指「駁回反對」。",
+        "rule-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-57"
     },
@@ -5419,11 +4930,9 @@ export default {
       "masked": "We should not ____ a limited refund system.",
       "options": [
         "rule-pdf-006",
-        "rule-mcq-57",
-        "rule-mcq-59",
-        "rule-mcq-56",
-        "rule-mcq-60",
-        "rule-mcq-55"
+        "rule-mcq-28",
+        "rule-mcq-67",
+        "rule-mcq-48"
       ],
       "explanation": "本句的「rule out」指「經考慮或檢查後判斷 X 不可能／不適用，因此不再考慮」。",
       "sentenceIndex": 129,
@@ -5432,12 +4941,10 @@ export default {
         "rule out"
       ],
       "optionReasons": {
-        "rule-pdf-006": "本句指「經考慮或檢查後判斷 X 不可能／不適用，因此不再考慮」。",
-        "rule-mcq-57": "「駁回反對」與本句語境不同。",
-        "rule-mcq-59": "「排除可能」與本句語境不同。",
-        "rule-mcq-56": "「推翻／駁回」與本句語境不同。",
-        "rule-mcq-60": "「排除疾病」與本句語境不同。",
-        "rule-mcq-55": "「法院裁決」與本句語境不同。"
+        "rule-pdf-006": "本句的「rule out」指「經考慮或檢查後判斷 X 不可能／不適用，因此不再考慮」。",
+        "rule-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-pdf-006"
     },
@@ -5449,11 +4956,9 @@ export default {
       "masked": "The evidence ____ out fraud.",
       "options": [
         "rule-pdf-006",
-        "rule-mcq-57",
-        "rule-mcq-59",
-        "rule-mcq-56",
-        "rule-mcq-60",
-        "rule-mcq-55"
+        "rule-mcq-12",
+        "rule-mcq-45",
+        "rule-mcq-34"
       ],
       "explanation": "本句的「ruled」指「經考慮或檢查後判斷 X 不可能／不適用，因此不再考慮」。",
       "sentenceIndex": 130,
@@ -5462,12 +4967,10 @@ export default {
         "ruled"
       ],
       "optionReasons": {
-        "rule-pdf-006": "本句指「經考慮或檢查後判斷 X 不可能／不適用，因此不再考慮」。",
-        "rule-mcq-57": "「駁回反對」與本句語境不同。",
-        "rule-mcq-59": "「排除可能」與本句語境不同。",
-        "rule-mcq-56": "「推翻／駁回」與本句語境不同。",
-        "rule-mcq-60": "「排除疾病」與本句語境不同。",
-        "rule-mcq-55": "「法院裁決」與本句語境不同。"
+        "rule-pdf-006": "本句的「ruled」指「經考慮或檢查後判斷 X 不可能／不適用，因此不再考慮」。",
+        "rule-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-pdf-006"
     },
@@ -5479,11 +4982,9 @@ export default {
       "masked": "Management has not ____ of extending the pilot.",
       "options": [
         "rule-mcq-59",
-        "rule-mcq-58",
-        "rule-mcq-60",
-        "rule-mcq-57",
-        "rule-mcq-61",
-        "rule-mcq-56"
+        "rule-mcq-26",
+        "rule-pdf-007",
+        "rule-mcq-66"
       ],
       "explanation": "本句的「ruled out the possibility」指「排除可能」。",
       "sentenceIndex": 131,
@@ -5492,12 +4993,10 @@ export default {
         "ruled out the possibility"
       ],
       "optionReasons": {
-        "rule-mcq-59": "本句指「排除可能」。",
-        "rule-mcq-58": "「排除可能性」與本句語境不同。",
-        "rule-mcq-60": "「排除疾病」與本句語境不同。",
-        "rule-mcq-57": "「駁回反對」與本句語境不同。",
-        "rule-mcq-61": "「用尺劃線」與本句語境不同。",
-        "rule-mcq-56": "「推翻／駁回」與本句語境不同。"
+        "rule-mcq-59": "本句的「ruled out the possibility」指「排除可能」。",
+        "rule-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-59"
     },
@@ -5509,11 +5008,9 @@ export default {
       "masked": "We cannot ____ out further changes.",
       "options": [
         "rule-mcq-59",
-        "rule-mcq-58",
-        "rule-mcq-60",
-        "rule-mcq-57",
-        "rule-mcq-61",
-        "rule-mcq-56"
+        "rule-mcq-47",
+        "rule-mcq-03",
+        "rule-mcq-67"
       ],
       "explanation": "本句的「rule」指「排除可能」。",
       "sentenceIndex": 132,
@@ -5522,12 +5019,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-59": "本句指「排除可能」。",
-        "rule-mcq-58": "「排除可能性」與本句語境不同。",
-        "rule-mcq-60": "「排除疾病」與本句語境不同。",
-        "rule-mcq-57": "「駁回反對」與本句語境不同。",
-        "rule-mcq-61": "「用尺劃線」與本句語境不同。",
-        "rule-mcq-56": "「推翻／駁回」與本句語境不同。"
+        "rule-mcq-59": "本句的「rule」指「排除可能」。",
+        "rule-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-59"
     },
@@ -5539,11 +5034,9 @@ export default {
       "masked": "The damaged tag ____.",
       "options": [
         "rule-mcq-60",
-        "rule-mcq-59",
-        "rule-mcq-61",
-        "rule-mcq-58",
-        "rule-mcq-62",
-        "rule-mcq-57"
+        "rule-mcq-29",
+        "rule-mcq-03",
+        "rule-mcq-40"
       ],
       "explanation": "本句的「rules the item out for resale」指「排除疾病」。",
       "sentenceIndex": 133,
@@ -5552,12 +5045,10 @@ export default {
         "rules the item out for resale"
       ],
       "optionReasons": {
-        "rule-mcq-60": "本句指「排除疾病」。",
-        "rule-mcq-59": "「排除可能」與本句語境不同。",
-        "rule-mcq-61": "「用尺劃線」與本句語境不同。",
-        "rule-mcq-58": "「排除可能性」與本句語境不同。",
-        "rule-mcq-62": "「橫線紙」與本句語境不同。",
-        "rule-mcq-57": "「駁回反對」與本句語境不同。"
+        "rule-mcq-60": "本句的「rules the item out for resale」指「排除疾病」。",
+        "rule-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-60"
     },
@@ -5569,11 +5060,9 @@ export default {
       "masked": "Lack of experience may ____ a candidate out.",
       "options": [
         "rule-mcq-60",
-        "rule-mcq-59",
-        "rule-mcq-61",
-        "rule-mcq-58",
-        "rule-mcq-62",
-        "rule-mcq-57"
+        "rule-mcq-07",
+        "rule-mcq-66",
+        "rule-pdf-006"
       ],
       "explanation": "本句的「rule」指「排除疾病」。",
       "sentenceIndex": 134,
@@ -5582,12 +5071,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-60": "本句指「排除疾病」。",
-        "rule-mcq-59": "「排除可能」與本句語境不同。",
-        "rule-mcq-61": "「用尺劃線」與本句語境不同。",
-        "rule-mcq-58": "「排除可能性」與本句語境不同。",
-        "rule-mcq-62": "「橫線紙」與本句語境不同。",
-        "rule-mcq-57": "「駁回反對」與本句語境不同。"
+        "rule-mcq-60": "本句的「rule」指「排除疾病」。",
+        "rule-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-60"
     },
@@ -5599,11 +5086,9 @@ export default {
       "masked": "Doctors ordered tests to ____.",
       "options": [
         "rule-mcq-60",
-        "rule-mcq-59",
-        "rule-mcq-61",
-        "rule-mcq-58",
-        "rule-mcq-62",
-        "rule-mcq-57"
+        "rule-mcq-44",
+        "rule-mcq-25",
+        "rule-mcq-65"
       ],
       "explanation": "本句的「rule out infection」指「排除疾病」。",
       "sentenceIndex": 135,
@@ -5612,12 +5097,10 @@ export default {
         "rule out infection"
       ],
       "optionReasons": {
-        "rule-mcq-60": "本句指「排除疾病」。",
-        "rule-mcq-59": "「排除可能」與本句語境不同。",
-        "rule-mcq-61": "「用尺劃線」與本句語境不同。",
-        "rule-mcq-58": "「排除可能性」與本句語境不同。",
-        "rule-mcq-62": "「橫線紙」與本句語境不同。",
-        "rule-mcq-57": "「駁回反對」與本句語境不同。"
+        "rule-mcq-60": "本句的「rule out infection」指「排除疾病」。",
+        "rule-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-60"
     },
@@ -5629,11 +5112,9 @@ export default {
       "masked": "Further tests may be needed to ____ out serious causes.",
       "options": [
         "rule-mcq-60",
-        "rule-mcq-59",
-        "rule-mcq-61",
-        "rule-mcq-58",
-        "rule-mcq-62",
-        "rule-mcq-57"
+        "rule-pdf-004",
+        "rule-mcq-34",
+        "rule-mcq-48"
       ],
       "explanation": "本句的「rule」指「排除疾病」。",
       "sentenceIndex": 136,
@@ -5642,12 +5123,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-60": "本句指「排除疾病」。",
-        "rule-mcq-59": "「排除可能」與本句語境不同。",
-        "rule-mcq-61": "「用尺劃線」與本句語境不同。",
-        "rule-mcq-58": "「排除可能性」與本句語境不同。",
-        "rule-mcq-62": "「橫線紙」與本句語境不同。",
-        "rule-mcq-57": "「駁回反對」與本句語境不同。"
+        "rule-mcq-60": "本句的「rule」指「排除疾病」。",
+        "rule-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-60"
     },
@@ -5659,11 +5138,9 @@ export default {
       "masked": "____ under the heading.",
       "options": [
         "rule-mcq-61",
-        "rule-mcq-60",
-        "rule-mcq-62",
-        "rule-mcq-59",
-        "rule-mcq-63",
-        "rule-mcq-58"
+        "rule-mcq-05",
+        "rule-pdf-007",
+        "rule-pdf-006"
       ],
       "explanation": "本句的「Rule a line」指「用尺劃線」。",
       "sentenceIndex": 137,
@@ -5672,12 +5149,10 @@ export default {
         "Rule a line"
       ],
       "optionReasons": {
-        "rule-mcq-61": "本句指「用尺劃線」。",
-        "rule-mcq-60": "「排除疾病」與本句語境不同。",
-        "rule-mcq-62": "「橫線紙」與本句語境不同。",
-        "rule-mcq-59": "「排除可能」與本句語境不同。",
-        "rule-mcq-63": "「尺；直尺」與本句語境不同。",
-        "rule-mcq-58": "「排除可能性」與本句語境不同。"
+        "rule-mcq-61": "本句的「Rule a line」指「用尺劃線」。",
+        "rule-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-61"
     },
@@ -5689,11 +5164,9 @@ export default {
       "masked": "The teacher asked students to ____ the page into columns.",
       "options": [
         "rule-mcq-61",
+        "rule-mcq-03",
         "rule-mcq-60",
-        "rule-mcq-62",
-        "rule-mcq-59",
-        "rule-mcq-63",
-        "rule-mcq-58"
+        "rule-mcq-53"
       ],
       "explanation": "本句的「rule」指「用尺劃線」。",
       "sentenceIndex": 138,
@@ -5702,12 +5175,10 @@ export default {
         "rule"
       ],
       "optionReasons": {
-        "rule-mcq-61": "本句指「用尺劃線」。",
-        "rule-mcq-60": "「排除疾病」與本句語境不同。",
-        "rule-mcq-62": "「橫線紙」與本句語境不同。",
-        "rule-mcq-59": "「排除可能」與本句語境不同。",
-        "rule-mcq-63": "「尺；直尺」與本句語境不同。",
-        "rule-mcq-58": "「排除可能性」與本句語境不同。"
+        "rule-mcq-61": "本句的「rule」指「用尺劃線」。",
+        "rule-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-61"
     },
@@ -5719,11 +5190,9 @@ export default {
       "masked": "Write your answer on ____.",
       "options": [
         "rule-mcq-62",
-        "rule-mcq-61",
-        "rule-mcq-63",
-        "rule-mcq-60",
-        "rule-mcq-64",
-        "rule-mcq-59"
+        "rule-mcq-44",
+        "rule-mcq-50",
+        "rule-pdf-003"
       ],
       "explanation": "本句的「ruled paper」指「橫線紙」。",
       "sentenceIndex": 139,
@@ -5732,12 +5201,10 @@ export default {
         "ruled paper"
       ],
       "optionReasons": {
-        "rule-mcq-62": "本句指「橫線紙」。",
-        "rule-mcq-61": "「用尺劃線」與本句語境不同。",
-        "rule-mcq-63": "「尺；直尺」與本句語境不同。",
-        "rule-mcq-60": "「排除疾病」與本句語境不同。",
-        "rule-mcq-64": "「難以控制的」與本句語境不同。",
-        "rule-mcq-59": "「排除可能」與本句語境不同。"
+        "rule-mcq-62": "本句的「ruled paper」指「橫線紙」。",
+        "rule-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-62"
     },
@@ -5749,11 +5216,9 @@ export default {
       "masked": "The notebook contains wide-____ pages.",
       "options": [
         "rule-mcq-62",
-        "rule-mcq-61",
-        "rule-mcq-63",
-        "rule-mcq-60",
-        "rule-mcq-64",
-        "rule-mcq-59"
+        "rule-mcq-31",
+        "rule-mcq-51",
+        "rule-pdf-006"
       ],
       "explanation": "本句的「ruled」指「橫線紙」。",
       "sentenceIndex": 140,
@@ -5762,12 +5227,10 @@ export default {
         "ruled"
       ],
       "optionReasons": {
-        "rule-mcq-62": "本句指「橫線紙」。",
-        "rule-mcq-61": "「用尺劃線」與本句語境不同。",
-        "rule-mcq-63": "「尺；直尺」與本句語境不同。",
-        "rule-mcq-60": "「排除疾病」與本句語境不同。",
-        "rule-mcq-64": "「難以控制的」與本句語境不同。",
-        "rule-mcq-59": "「排除可能」與本句語境不同。"
+        "rule-mcq-62": "本句的「ruled」指「橫線紙」。",
+        "rule-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-62"
     },
@@ -5779,11 +5242,9 @@ export default {
       "masked": "Use a ____ to measure the sleeve.",
       "options": [
         "rule-mcq-63",
-        "rule-mcq-62",
-        "rule-mcq-64",
-        "rule-mcq-61",
-        "rule-mcq-65",
-        "rule-mcq-60"
+        "rule-pdf-007",
+        "rule-mcq-60",
+        "rule-mcq-12"
       ],
       "explanation": "本句的「ruler」指「尺；直尺」。",
       "sentenceIndex": 141,
@@ -5792,12 +5253,10 @@ export default {
         "ruler"
       ],
       "optionReasons": {
-        "rule-mcq-63": "本句指「尺；直尺」。",
-        "rule-mcq-62": "「橫線紙」與本句語境不同。",
-        "rule-mcq-64": "「難以控制的」與本句語境不同。",
-        "rule-mcq-61": "「用尺劃線」與本句語境不同。",
-        "rule-mcq-65": "「不守規矩的行為」與本句語境不同。",
-        "rule-mcq-60": "「排除疾病」與本句語境不同。"
+        "rule-mcq-63": "本句的「ruler」指「尺；直尺」。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-63"
     },
@@ -5809,11 +5268,9 @@ export default {
       "masked": "Draw a straight line with a ____.",
       "options": [
         "rule-mcq-63",
-        "rule-mcq-62",
-        "rule-mcq-64",
-        "rule-mcq-61",
-        "rule-mcq-65",
-        "rule-mcq-60"
+        "rule-mcq-66",
+        "rule-pdf-002",
+        "rule-mcq-50"
       ],
       "explanation": "本句的「ruler」指「尺；直尺」。",
       "sentenceIndex": 142,
@@ -5822,12 +5279,10 @@ export default {
         "ruler"
       ],
       "optionReasons": {
-        "rule-mcq-63": "本句指「尺；直尺」。",
-        "rule-mcq-62": "「橫線紙」與本句語境不同。",
-        "rule-mcq-64": "「難以控制的」與本句語境不同。",
-        "rule-mcq-61": "「用尺劃線」與本句語境不同。",
-        "rule-mcq-65": "「不守規矩的行為」與本句語境不同。",
-        "rule-mcq-60": "「排除疾病」與本句語境不同。"
+        "rule-mcq-63": "本句的「ruler」指「尺；直尺」。",
+        "rule-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-63"
     },
@@ -5839,11 +5294,9 @@ export default {
       "masked": "An ____ caused disruption.",
       "options": [
         "rule-pdf-007",
-        "rule-mcq-63",
-        "rule-mcq-65",
-        "rule-mcq-62",
+        "rule-mcq-25",
         "rule-mcq-66",
-        "rule-mcq-61"
+        "rule-mcq-67"
       ],
       "explanation": "本句的「unruly crowd」指「不容易被控制、管理或約束的」。",
       "sentenceIndex": 143,
@@ -5852,12 +5305,10 @@ export default {
         "unruly crowd"
       ],
       "optionReasons": {
-        "rule-pdf-007": "本句指「不容易被控制、管理或約束的」。",
-        "rule-mcq-63": "「尺；直尺」與本句語境不同。",
-        "rule-mcq-65": "「不守規矩的行為」與本句語境不同。",
-        "rule-mcq-62": "「橫線紙」與本句語境不同。",
-        "rule-mcq-66": "「鐵腕統治」與本句語境不同。",
-        "rule-mcq-61": "「用尺劃線」與本句語境不同。"
+        "rule-pdf-007": "本句的「unruly crowd」指「不容易被控制、管理或約束的」。",
+        "rule-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-pdf-007"
     },
@@ -5869,11 +5320,9 @@ export default {
       "masked": "Clear ____ can reduce unruly behaviour.",
       "options": [
         "rule-mcq-65",
-        "rule-mcq-64",
-        "rule-mcq-66",
-        "rule-mcq-63",
-        "rule-mcq-67",
-        "rule-mcq-62"
+        "rule-mcq-61",
+        "rule-pdf-007",
+        "rule-mcq-57"
       ],
       "explanation": "本句的「rules」指「不守規矩的行為」。",
       "sentenceIndex": 144,
@@ -5882,12 +5331,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-65": "本句指「不守規矩的行為」。",
-        "rule-mcq-64": "「難以控制的」與本句語境不同。",
-        "rule-mcq-66": "「鐵腕統治」與本句語境不同。",
-        "rule-mcq-63": "「尺；直尺」與本句語境不同。",
-        "rule-mcq-67": "「掌權／說了算」與本句語境不同。",
-        "rule-mcq-62": "「橫線紙」與本句語境不同。"
+        "rule-mcq-65": "本句的「rules」指「不守規矩的行為」。",
+        "rule-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-65"
     },
@@ -5899,11 +5346,9 @@ export default {
       "masked": "The ruler ____.",
       "options": [
         "rule-mcq-66",
-        "rule-mcq-65",
-        "rule-mcq-67",
-        "rule-mcq-64",
-        "rule-mcq-68",
-        "rule-mcq-63"
+        "rule-pdf-001",
+        "rule-mcq-63",
+        "rule-pdf-006"
       ],
       "explanation": "本句的「ruled with an iron fist」指「鐵腕統治」。",
       "sentenceIndex": 145,
@@ -5912,12 +5357,10 @@ export default {
         "ruled with an iron fist"
       ],
       "optionReasons": {
-        "rule-mcq-66": "本句指「鐵腕統治」。",
-        "rule-mcq-65": "「不守規矩的行為」與本句語境不同。",
-        "rule-mcq-67": "「掌權／說了算」與本句語境不同。",
-        "rule-mcq-64": "「難以控制的」與本句語境不同。",
-        "rule-mcq-68": "「X 超棒／最強」與本句語境不同。",
-        "rule-mcq-63": "「尺；直尺」與本句語境不同。"
+        "rule-mcq-66": "本句的「ruled with an iron fist」指「鐵腕統治」。",
+        "rule-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-66"
     },
@@ -5929,11 +5372,9 @@ export default {
       "masked": "A manager who ____ with an iron fist may discourage honest feedback.",
       "options": [
         "rule-mcq-66",
-        "rule-mcq-65",
-        "rule-mcq-67",
-        "rule-mcq-64",
-        "rule-mcq-68",
-        "rule-mcq-63"
+        "rule-mcq-52",
+        "rule-mcq-20",
+        "rule-mcq-41"
       ],
       "explanation": "本句的「rules」指「鐵腕統治」。",
       "sentenceIndex": 146,
@@ -5942,12 +5383,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-66": "本句指「鐵腕統治」。",
-        "rule-mcq-65": "「不守規矩的行為」與本句語境不同。",
-        "rule-mcq-67": "「掌權／說了算」與本句語境不同。",
-        "rule-mcq-64": "「難以控制的」與本句語境不同。",
-        "rule-mcq-68": "「X 超棒／最強」與本句語境不同。",
-        "rule-mcq-63": "「尺；直尺」與本句語境不同。"
+        "rule-mcq-66": "本句的「rules」指「鐵腕統治」。",
+        "rule-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-66"
     },
@@ -5959,11 +5398,9 @@ export default {
       "masked": "In that department, one senior manager ____.",
       "options": [
         "rule-mcq-67",
-        "rule-mcq-66",
-        "rule-mcq-68",
-        "rule-mcq-65",
-        "rule-mcq-64",
-        "rule-mcq-63"
+        "rule-mcq-40",
+        "rule-mcq-30",
+        "rule-mcq-53"
       ],
       "explanation": "本句的「rules the roost」指「掌權／說了算」。",
       "sentenceIndex": 147,
@@ -5972,12 +5409,10 @@ export default {
         "rules the roost"
       ],
       "optionReasons": {
-        "rule-mcq-67": "本句指「掌權／說了算」。",
-        "rule-mcq-66": "「鐵腕統治」與本句語境不同。",
-        "rule-mcq-68": "「X 超棒／最強」與本句語境不同。",
-        "rule-mcq-65": "「不守規矩的行為」與本句語境不同。",
-        "rule-mcq-64": "「難以控制的」與本句語境不同。",
-        "rule-mcq-63": "「尺；直尺」與本句語境不同。"
+        "rule-mcq-67": "本句的「rules the roost」指「掌權／說了算」。",
+        "rule-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-67"
     },
@@ -5989,11 +5424,9 @@ export default {
       "masked": "She has ____ the roost for years.",
       "options": [
         "rule-mcq-67",
-        "rule-mcq-66",
-        "rule-mcq-68",
-        "rule-mcq-65",
-        "rule-mcq-64",
-        "rule-mcq-63"
+        "rule-mcq-53",
+        "rule-mcq-32",
+        "rule-mcq-65"
       ],
       "explanation": "本句的「ruled」指「掌權／說了算」。",
       "sentenceIndex": 148,
@@ -6002,12 +5435,10 @@ export default {
         "ruled"
       ],
       "optionReasons": {
-        "rule-mcq-67": "本句指「掌權／說了算」。",
-        "rule-mcq-66": "「鐵腕統治」與本句語境不同。",
-        "rule-mcq-68": "「X 超棒／最強」與本句語境不同。",
-        "rule-mcq-65": "「不守規矩的行為」與本句語境不同。",
-        "rule-mcq-64": "「難以控制的」與本句語境不同。",
-        "rule-mcq-63": "「尺；直尺」與本句語境不同。"
+        "rule-mcq-67": "本句的「ruled」指「掌權／說了算」。",
+        "rule-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-67"
     },
@@ -6019,11 +5450,9 @@ export default {
       "masked": "In informal speech, someone might say, “This band ____!",
       "options": [
         "rule-pdf-008",
-        "rule-mcq-67",
-        "rule-mcq-66",
-        "rule-mcq-65",
-        "rule-mcq-64",
-        "rule-mcq-63"
+        "rule-mcq-22",
+        "rule-mcq-46",
+        "rule-mcq-57"
       ],
       "explanation": "本句的「rules」指「informal/slang: X 非常出色、厲害」。",
       "sentenceIndex": 149,
@@ -6032,74 +5461,68 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-pdf-008": "本句指「informal/slang: X 非常出色、厲害」。",
-        "rule-mcq-67": "「掌權／說了算」與本句語境不同。",
-        "rule-mcq-66": "「鐵腕統治」與本句語境不同。",
-        "rule-mcq-65": "「不守規矩的行為」與本句語境不同。",
-        "rule-mcq-64": "「難以控制的」與本句語境不同。",
-        "rule-mcq-63": "「尺；直尺」與本句語境不同。"
+        "rule-pdf-008": "本句的「rules」指「informal/slang: X 非常出色、厲害」。",
+        "rule-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-pdf-008"
     },
     {
       "id": "rule-82-0",
-      "sense": "rule-mcq-68",
+      "sense": "rule-reviewed-273c1798c5",
       "en": "Players must know the rules of the game.",
       "zh": "參賽者必須了解比賽規則。",
       "masked": "Players must know the ____.",
       "options": [
-        "rule-mcq-68",
-        "rule-mcq-67",
-        "rule-mcq-66",
-        "rule-mcq-65",
-        "rule-mcq-64",
-        "rule-mcq-63"
+        "rule-reviewed-273c1798c5",
+        "rule-mcq-40",
+        "rule-mcq-59",
+        "rule-pdf-007"
       ],
-      "explanation": "本句的「rules of the game」指「X 超棒／最強」。",
+      "explanation": "對照完整句子：「參賽者必須了解比賽規則。」。這裡的「rules of the game」表示「遊戲／比賽規則」。",
       "sentenceIndex": 150,
       "sourcePractice": 1,
       "targets": [
         "rules of the game"
       ],
       "optionReasons": {
-        "rule-mcq-68": "本句指「X 超棒／最強」。",
-        "rule-mcq-67": "「掌權／說了算」與本句語境不同。",
-        "rule-mcq-66": "「鐵腕統治」與本句語境不同。",
-        "rule-mcq-65": "「不守規矩的行為」與本句語境不同。",
-        "rule-mcq-64": "「難以控制的」與本句語境不同。",
-        "rule-mcq-63": "「尺；直尺」與本句語境不同。"
+        "rule-reviewed-273c1798c5": "對照完整句子：「參賽者必須了解比賽規則。」。這裡的「rules of the game」表示「遊戲／比賽規則」。",
+        "rule-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "rule-mcq-68"
+      "correctOption": "rule-reviewed-273c1798c5",
+      "previousCorrectOption": "rule-mcq-68",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "rule-82-1",
-      "sense": "rule-mcq-68",
+      "sense": "rule-reviewed-273c1798c5",
       "en": "The referee applies the rules.",
       "zh": "裁判負責執行比賽規則。",
       "masked": "The referee applies the ____.",
       "options": [
-        "rule-mcq-68",
-        "rule-mcq-67",
-        "rule-mcq-66",
-        "rule-mcq-65",
-        "rule-mcq-64",
-        "rule-mcq-63"
+        "rule-reviewed-273c1798c5",
+        "rule-mcq-43",
+        "rule-pdf-007",
+        "rule-pdf-005"
       ],
-      "explanation": "本句的「rules」指「X 超棒／最強」。",
+      "explanation": "對照完整句子：「裁判負責執行比賽規則。」。這裡的「rules」表示「遊戲／比賽規則」。",
       "sentenceIndex": 151,
       "sourcePractice": 2,
       "targets": [
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-68": "本句指「X 超棒／最強」。",
-        "rule-mcq-67": "「掌權／說了算」與本句語境不同。",
-        "rule-mcq-66": "「鐵腕統治」與本句語境不同。",
-        "rule-mcq-65": "「不守規矩的行為」與本句語境不同。",
-        "rule-mcq-64": "「難以控制的」與本句語境不同。",
-        "rule-mcq-63": "「尺；直尺」與本句語境不同。"
+        "rule-reviewed-273c1798c5": "對照完整句子：「裁判負責執行比賽規則。」。這裡的「rules」表示「遊戲／比賽規則」。",
+        "rule-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "rule-mcq-68"
+      "correctOption": "rule-reviewed-273c1798c5",
+      "previousCorrectOption": "rule-mcq-68",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "rule-83-0",
@@ -6109,11 +5532,9 @@ export default {
       "masked": "The action is permitted ____.",
       "options": [
         "rule-mcq-13",
-        "rule-mcq-12",
-        "rule-mcq-14",
-        "rule-mcq-11",
-        "rule-mcq-15",
-        "rule-mcq-16"
+        "rule-mcq-34",
+        "rule-mcq-47",
+        "rule-pdf-006"
       ],
       "explanation": "本句的「under the rules of the competition」指「根據規則」。",
       "sentenceIndex": 152,
@@ -6122,12 +5543,10 @@ export default {
         "under the rules of the competition"
       ],
       "optionReasons": {
-        "rule-mcq-13": "本句指「根據規則」。",
-        "rule-mcq-12": "「在規則範圍內」與本句語境不同。",
-        "rule-mcq-14": "「執行規則」與本句語境不同。",
-        "rule-mcq-11": "「違規」與本句語境不同。",
-        "rule-mcq-15": "「套用／執行規則」與本句語境不同。",
-        "rule-mcq-16": "「解讀規則」與本句語境不同。"
+        "rule-mcq-13": "本句的「under the rules of the competition」指「根據規則」。",
+        "rule-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "rule-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-13"
     },
@@ -6139,11 +5558,9 @@ export default {
       "masked": "Different competitions may use different ____.",
       "options": [
         "rule-mcq-13",
-        "rule-mcq-12",
-        "rule-mcq-14",
-        "rule-mcq-11",
-        "rule-mcq-15",
-        "rule-mcq-16"
+        "rule-mcq-50",
+        "rule-mcq-63",
+        "rule-mcq-62"
       ],
       "explanation": "本句的「rules」指「根據規則」。",
       "sentenceIndex": 153,
@@ -6152,12 +5569,10 @@ export default {
         "rules"
       ],
       "optionReasons": {
-        "rule-mcq-13": "本句指「根據規則」。",
-        "rule-mcq-12": "「在規則範圍內」與本句語境不同。",
-        "rule-mcq-14": "「執行規則」與本句語境不同。",
-        "rule-mcq-11": "「違規」與本句語境不同。",
-        "rule-mcq-15": "「套用／執行規則」與本句語境不同。",
-        "rule-mcq-16": "「解讀規則」與本句語境不同。"
+        "rule-mcq-13": "本句的「rules」指「根據規則」。",
+        "rule-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rule-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rule-mcq-13"
     }
@@ -6169,5 +5584,7 @@ export default {
     "sha256": "a6e61ba7de942b88e0a25e5cf8821e1f77b950dbb3e81ce31717826372aa9336",
     "pages": 55
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

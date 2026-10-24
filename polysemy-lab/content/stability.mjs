@@ -492,11 +492,9 @@ export default {
       "masked": "She gives other people ____ and comfort.",
       "options": [
         "stability-mcq-01",
-        "stability-mcq-02",
-        "stability-mcq-03",
-        "stability-mcq-04",
-        "stability-mcq-05",
-        "stability-mcq-06"
+        "stability-mcq-12",
+        "stability-mcq-06",
+        "stability-mcq-19"
       ],
       "explanation": "本句的「stability」指「某人／關係持續可靠而令人感到安心、安全和不易動搖的狀態」。",
       "sentenceIndex": 0,
@@ -505,12 +503,10 @@ export default {
         "stability"
       ],
       "optionReasons": {
-        "stability-mcq-01": "本句指「某人／關係持續可靠而令人感到安心、安全和不易動搖的狀態」。",
-        "stability-mcq-02": "「情緒能保持相對平衡，不容易劇烈波動」與本句語境不同。",
-        "stability-mcq-03": "「不容易突然改變、惡化、失去平衡或失控的」與本句語境不同。",
-        "stability-mcq-04": "「性格／存在沉穩、可靠，能給別人安全感的」與本句語境不同。",
-        "stability-mcq-05": "「物體不容易傾倒、搖晃或失去平衡的性質」與本句語境不同。",
-        "stability-mcq-06": "「結構抵抗變形、傾倒或失效的能力」與本句語境不同。"
+        "stability-mcq-01": "本句的「stability」指「某人／關係持續可靠而令人感到安心、安全和不易動搖的狀態」。",
+        "stability-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-01"
     },
@@ -522,11 +518,9 @@ export default {
       "masked": "Children often need ____ at home.",
       "options": [
         "stability-mcq-01",
-        "stability-mcq-02",
-        "stability-mcq-03",
-        "stability-mcq-04",
-        "stability-mcq-05",
-        "stability-mcq-06"
+        "stability-mcq-12",
+        "stability-mcq-06",
+        "stability-mcq-19"
       ],
       "explanation": "本句的「stability」指「某人／關係持續可靠而令人感到安心、安全和不易動搖的狀態」。",
       "sentenceIndex": 1,
@@ -535,12 +529,10 @@ export default {
         "stability"
       ],
       "optionReasons": {
-        "stability-mcq-01": "本句指「某人／關係持續可靠而令人感到安心、安全和不易動搖的狀態」。",
-        "stability-mcq-02": "「情緒能保持相對平衡，不容易劇烈波動」與本句語境不同。",
-        "stability-mcq-03": "「不容易突然改變、惡化、失去平衡或失控的」與本句語境不同。",
-        "stability-mcq-04": "「性格／存在沉穩、可靠，能給別人安全感的」與本句語境不同。",
-        "stability-mcq-05": "「物體不容易傾倒、搖晃或失去平衡的性質」與本句語境不同。",
-        "stability-mcq-06": "「結構抵抗變形、傾倒或失效的能力」與本句語境不同。"
+        "stability-mcq-01": "本句的「stability」指「某人／關係持續可靠而令人感到安心、安全和不易動搖的狀態」。",
+        "stability-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-01"
     },
@@ -552,11 +544,9 @@ export default {
       "masked": "The relationship gave him a sense of ____.",
       "options": [
         "stability-mcq-01",
-        "stability-mcq-02",
-        "stability-mcq-03",
-        "stability-mcq-04",
-        "stability-mcq-05",
-        "stability-mcq-06"
+        "stability-mcq-06",
+        "stability-mcq-12",
+        "stability-mcq-13"
       ],
       "explanation": "本句的「stability」指「某人／關係持續可靠而令人感到安心、安全和不易動搖的狀態」。",
       "sentenceIndex": 2,
@@ -565,12 +555,10 @@ export default {
         "stability"
       ],
       "optionReasons": {
-        "stability-mcq-01": "本句指「某人／關係持續可靠而令人感到安心、安全和不易動搖的狀態」。",
-        "stability-mcq-02": "「情緒能保持相對平衡，不容易劇烈波動」與本句語境不同。",
-        "stability-mcq-03": "「不容易突然改變、惡化、失去平衡或失控的」與本句語境不同。",
-        "stability-mcq-04": "「性格／存在沉穩、可靠，能給別人安全感的」與本句語境不同。",
-        "stability-mcq-05": "「物體不容易傾倒、搖晃或失去平衡的性質」與本句語境不同。",
-        "stability-mcq-06": "「結構抵抗變形、傾倒或失效的能力」與本句語境不同。"
+        "stability-mcq-01": "本句的「stability」指「某人／關係持續可靠而令人感到安心、安全和不易動搖的狀態」。",
+        "stability-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-01"
     },
@@ -582,11 +570,9 @@ export default {
       "masked": "She remained calm and showed great ____.",
       "options": [
         "stability-mcq-02",
-        "stability-mcq-01",
-        "stability-mcq-03",
-        "stability-mcq-04",
-        "stability-mcq-05",
-        "stability-mcq-06"
+        "stability-mcq-15",
+        "stability-mcq-06",
+        "stability-mcq-20"
       ],
       "explanation": "本句的「emotional stability」指「情緒能保持相對平衡，不容易劇烈波動」。",
       "sentenceIndex": 3,
@@ -595,12 +581,10 @@ export default {
         "emotional stability"
       ],
       "optionReasons": {
-        "stability-mcq-02": "本句指「情緒能保持相對平衡，不容易劇烈波動」。",
-        "stability-mcq-01": "「某人／關係持續可靠而令人感到安心、安全和不易動搖的狀態」與本句語境不同。",
-        "stability-mcq-03": "「不容易突然改變、惡化、失去平衡或失控的」與本句語境不同。",
-        "stability-mcq-04": "「性格／存在沉穩、可靠，能給別人安全感的」與本句語境不同。",
-        "stability-mcq-05": "「物體不容易傾倒、搖晃或失去平衡的性質」與本句語境不同。",
-        "stability-mcq-06": "「結構抵抗變形、傾倒或失效的能力」與本句語境不同。"
+        "stability-mcq-02": "本句的「emotional stability」指「情緒能保持相對平衡，不容易劇烈波動」。",
+        "stability-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-02"
     },
@@ -612,11 +596,9 @@ export default {
       "masked": "A supportive environment can contribute to emotional ____.",
       "options": [
         "stability-mcq-02",
-        "stability-mcq-01",
-        "stability-mcq-03",
-        "stability-mcq-04",
-        "stability-mcq-05",
-        "stability-mcq-06"
+        "stability-mcq-20",
+        "stability-mcq-06",
+        "stability-mcq-15"
       ],
       "explanation": "本句的「stability」指「情緒能保持相對平衡，不容易劇烈波動」。",
       "sentenceIndex": 4,
@@ -625,12 +607,10 @@ export default {
         "stability"
       ],
       "optionReasons": {
-        "stability-mcq-02": "本句指「情緒能保持相對平衡，不容易劇烈波動」。",
-        "stability-mcq-01": "「某人／關係持續可靠而令人感到安心、安全和不易動搖的狀態」與本句語境不同。",
-        "stability-mcq-03": "「不容易突然改變、惡化、失去平衡或失控的」與本句語境不同。",
-        "stability-mcq-04": "「性格／存在沉穩、可靠，能給別人安全感的」與本句語境不同。",
-        "stability-mcq-05": "「物體不容易傾倒、搖晃或失去平衡的性質」與本句語境不同。",
-        "stability-mcq-06": "「結構抵抗變形、傾倒或失效的能力」與本句語境不同。"
+        "stability-mcq-02": "本句的「stability」指「情緒能保持相對平衡，不容易劇烈波動」。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-02"
     },
@@ -642,11 +622,9 @@ export default {
       "masked": "Her life is now more ____.",
       "options": [
         "stability-mcq-03",
-        "stability-mcq-02",
-        "stability-mcq-04",
-        "stability-mcq-01",
-        "stability-mcq-05",
-        "stability-mcq-06"
+        "stability-mcq-07",
+        "stability-mcq-20",
+        "stability-mcq-14"
       ],
       "explanation": "本句的「stable」指「不容易突然改變、惡化、失去平衡或失控的」。",
       "sentenceIndex": 6,
@@ -655,12 +633,10 @@ export default {
         "stable"
       ],
       "optionReasons": {
-        "stability-mcq-03": "本句指「不容易突然改變、惡化、失去平衡或失控的」。",
-        "stability-mcq-02": "「情緒能保持相對平衡，不容易劇烈波動」與本句語境不同。",
-        "stability-mcq-04": "「性格／存在沉穩、可靠，能給別人安全感的」與本句語境不同。",
-        "stability-mcq-01": "「某人／關係持續可靠而令人感到安心、安全和不易動搖的狀態」與本句語境不同。",
-        "stability-mcq-05": "「物體不容易傾倒、搖晃或失去平衡的性質」與本句語境不同。",
-        "stability-mcq-06": "「結構抵抗變形、傾倒或失效的能力」與本句語境不同。"
+        "stability-mcq-03": "本句的「stable」指「不容易突然改變、惡化、失去平衡或失控的」。",
+        "stability-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-03"
     },
@@ -672,11 +648,9 @@ export default {
       "masked": "He is a calm and ____.",
       "options": [
         "stability-mcq-04",
-        "stability-mcq-03",
-        "stability-mcq-05",
-        "stability-mcq-02",
+        "stability-mcq-08",
         "stability-mcq-06",
-        "stability-mcq-01"
+        "stability-mcq-16"
       ],
       "explanation": "本句的「stable person」指「性格／存在沉穩、可靠，能給別人安全感的」。",
       "sentenceIndex": 7,
@@ -685,12 +659,10 @@ export default {
         "stable person"
       ],
       "optionReasons": {
-        "stability-mcq-04": "本句指「性格／存在沉穩、可靠，能給別人安全感的」。",
-        "stability-mcq-03": "「不容易突然改變、惡化、失去平衡或失控的」與本句語境不同。",
-        "stability-mcq-05": "「物體不容易傾倒、搖晃或失去平衡的性質」與本句語境不同。",
-        "stability-mcq-02": "「情緒能保持相對平衡，不容易劇烈波動」與本句語境不同。",
-        "stability-mcq-06": "「結構抵抗變形、傾倒或失效的能力」與本句語境不同。",
-        "stability-mcq-01": "「某人／關係持續可靠而令人感到安心、安全和不易動搖的狀態」與本句語境不同。"
+        "stability-mcq-04": "本句的「stable person」指「性格／存在沉穩、可靠，能給別人安全感的」。",
+        "stability-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-04"
     },
@@ -703,10 +675,8 @@ export default {
       "options": [
         "stability-mcq-04",
         "stability-mcq-03",
-        "stability-mcq-05",
-        "stability-mcq-02",
-        "stability-mcq-06",
-        "stability-mcq-01"
+        "stability-mcq-08",
+        "stability-mcq-16"
       ],
       "explanation": "本句的「stable environment」指「性格／存在沉穩、可靠，能給別人安全感的」。",
       "sentenceIndex": 8,
@@ -715,12 +685,10 @@ export default {
         "stable environment"
       ],
       "optionReasons": {
-        "stability-mcq-04": "本句指「性格／存在沉穩、可靠，能給別人安全感的」。",
-        "stability-mcq-03": "「不容易突然改變、惡化、失去平衡或失控的」與本句語境不同。",
-        "stability-mcq-05": "「物體不容易傾倒、搖晃或失去平衡的性質」與本句語境不同。",
-        "stability-mcq-02": "「情緒能保持相對平衡，不容易劇烈波動」與本句語境不同。",
-        "stability-mcq-06": "「結構抵抗變形、傾倒或失效的能力」與本句語境不同。",
-        "stability-mcq-01": "「某人／關係持續可靠而令人感到安心、安全和不易動搖的狀態」與本句語境不同。"
+        "stability-mcq-04": "本句的「stable environment」指「性格／存在沉穩、可靠，能給別人安全感的」。",
+        "stability-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-04"
     },
@@ -732,11 +700,9 @@ export default {
       "masked": "The wide base gives the table greater ____.",
       "options": [
         "stability-mcq-05",
-        "stability-mcq-04",
-        "stability-mcq-06",
-        "stability-mcq-03",
-        "stability-mcq-07",
-        "stability-mcq-02"
+        "stability-mcq-12",
+        "stability-mcq-20",
+        "stability-mcq-14"
       ],
       "explanation": "本句的「stability」指「物體不容易傾倒、搖晃或失去平衡的性質」。",
       "sentenceIndex": 9,
@@ -745,12 +711,10 @@ export default {
         "stability"
       ],
       "optionReasons": {
-        "stability-mcq-05": "本句指「物體不容易傾倒、搖晃或失去平衡的性質」。",
-        "stability-mcq-04": "「性格／存在沉穩、可靠，能給別人安全感的」與本句語境不同。",
-        "stability-mcq-06": "「結構抵抗變形、傾倒或失效的能力」與本句語境不同。",
-        "stability-mcq-03": "「不容易突然改變、惡化、失去平衡或失控的」與本句語境不同。",
-        "stability-mcq-07": "「收入、支出、債務等維持可持續、安全狀態」與本句語境不同。",
-        "stability-mcq-02": "「情緒能保持相對平衡，不容易劇烈波動」與本句語境不同。"
+        "stability-mcq-05": "本句的「stability」指「物體不容易傾倒、搖晃或失去平衡的性質」。",
+        "stability-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-05"
     },
@@ -762,11 +726,9 @@ export default {
       "masked": "The structure needs more ____.",
       "options": [
         "stability-mcq-05",
-        "stability-mcq-04",
-        "stability-mcq-06",
-        "stability-mcq-03",
-        "stability-mcq-07",
-        "stability-mcq-02"
+        "stability-mcq-12",
+        "stability-mcq-14",
+        "stability-mcq-07"
       ],
       "explanation": "本句的「stability」指「物體不容易傾倒、搖晃或失去平衡的性質」。",
       "sentenceIndex": 10,
@@ -775,12 +737,10 @@ export default {
         "stability"
       ],
       "optionReasons": {
-        "stability-mcq-05": "本句指「物體不容易傾倒、搖晃或失去平衡的性質」。",
-        "stability-mcq-04": "「性格／存在沉穩、可靠，能給別人安全感的」與本句語境不同。",
-        "stability-mcq-06": "「結構抵抗變形、傾倒或失效的能力」與本句語境不同。",
-        "stability-mcq-03": "「不容易突然改變、惡化、失去平衡或失控的」與本句語境不同。",
-        "stability-mcq-07": "「收入、支出、債務等維持可持續、安全狀態」與本句語境不同。",
-        "stability-mcq-02": "「情緒能保持相對平衡，不容易劇烈波動」與本句語境不同。"
+        "stability-mcq-05": "本句的「stability」指「物體不容易傾倒、搖晃或失去平衡的性質」。",
+        "stability-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-05"
     },
@@ -792,11 +752,9 @@ export default {
       "masked": "Make sure the ladder is ____.",
       "options": [
         "stability-pdf-001",
-        "stability-mcq-04",
-        "stability-mcq-06",
-        "stability-mcq-03",
-        "stability-mcq-07",
-        "stability-mcq-02"
+        "stability-mcq-19",
+        "stability-mcq-16",
+        "stability-mcq-12"
       ],
       "explanation": "本句的「stable」指「物理上保持平衡、不容易移動／倒下」。",
       "sentenceIndex": 11,
@@ -805,12 +763,10 @@ export default {
         "stable"
       ],
       "optionReasons": {
-        "stability-pdf-001": "本句指「物理上保持平衡、不容易移動／倒下」。",
-        "stability-mcq-04": "「性格／存在沉穩、可靠，能給別人安全感的」與本句語境不同。",
-        "stability-mcq-06": "「結構抵抗變形、傾倒或失效的能力」與本句語境不同。",
-        "stability-mcq-03": "「不容易突然改變、惡化、失去平衡或失控的」與本句語境不同。",
-        "stability-mcq-07": "「收入、支出、債務等維持可持續、安全狀態」與本句語境不同。",
-        "stability-mcq-02": "「情緒能保持相對平衡，不容易劇烈波動」與本句語境不同。"
+        "stability-pdf-001": "本句的「stable」指「物理上保持平衡、不容易移動／倒下」。",
+        "stability-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-pdf-001"
     },
@@ -822,11 +778,9 @@ export default {
       "masked": "Engineers tested the building’s ____.",
       "options": [
         "stability-mcq-06",
-        "stability-mcq-05",
+        "stability-mcq-14",
         "stability-mcq-07",
-        "stability-mcq-04",
-        "stability-mcq-08",
-        "stability-mcq-03"
+        "stability-mcq-19"
       ],
       "explanation": "本句的「structural stability」指「結構抵抗變形、傾倒或失效的能力」。",
       "sentenceIndex": 12,
@@ -835,12 +789,10 @@ export default {
         "structural stability"
       ],
       "optionReasons": {
-        "stability-mcq-06": "本句指「結構抵抗變形、傾倒或失效的能力」。",
-        "stability-mcq-05": "「物體不容易傾倒、搖晃或失去平衡的性質」與本句語境不同。",
-        "stability-mcq-07": "「收入、支出、債務等維持可持續、安全狀態」與本句語境不同。",
-        "stability-mcq-04": "「性格／存在沉穩、可靠，能給別人安全感的」與本句語境不同。",
-        "stability-mcq-08": "「經濟狀況沒有劇烈、不可預測波動」與本句語境不同。",
-        "stability-mcq-03": "「不容易突然改變、惡化、失去平衡或失控的」與本句語境不同。"
+        "stability-mcq-06": "本句的「structural stability」指「結構抵抗變形、傾倒或失效的能力」。",
+        "stability-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-06"
     },
@@ -852,11 +804,9 @@ export default {
       "masked": "The supports improve structural ____.",
       "options": [
         "stability-mcq-06",
-        "stability-mcq-05",
-        "stability-mcq-07",
-        "stability-mcq-04",
         "stability-mcq-08",
-        "stability-mcq-03"
+        "stability-mcq-04",
+        "stability-mcq-19"
       ],
       "explanation": "本句的「stability」指「結構抵抗變形、傾倒或失效的能力」。",
       "sentenceIndex": 13,
@@ -865,12 +815,10 @@ export default {
         "stability"
       ],
       "optionReasons": {
-        "stability-mcq-06": "本句指「結構抵抗變形、傾倒或失效的能力」。",
-        "stability-mcq-05": "「物體不容易傾倒、搖晃或失去平衡的性質」與本句語境不同。",
-        "stability-mcq-07": "「收入、支出、債務等維持可持續、安全狀態」與本句語境不同。",
-        "stability-mcq-04": "「性格／存在沉穩、可靠，能給別人安全感的」與本句語境不同。",
-        "stability-mcq-08": "「經濟狀況沒有劇烈、不可預測波動」與本句語境不同。",
-        "stability-mcq-03": "「不容易突然改變、惡化、失去平衡或失控的」與本句語境不同。"
+        "stability-mcq-06": "本句的「stability」指「結構抵抗變形、傾倒或失效的能力」。",
+        "stability-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-06"
     },
@@ -882,11 +830,9 @@ export default {
       "masked": "The company needs greater ____.",
       "options": [
         "stability-mcq-08",
-        "stability-mcq-07",
-        "stability-mcq-09",
-        "stability-mcq-06",
-        "stability-mcq-10",
-        "stability-mcq-05"
+        "stability-mcq-03",
+        "stability-mcq-20",
+        "stability-mcq-11"
       ],
       "explanation": "本句的「financial stability」指「經濟狀況沒有劇烈、不可預測波動」。",
       "sentenceIndex": 14,
@@ -895,12 +841,10 @@ export default {
         "financial stability"
       ],
       "optionReasons": {
-        "stability-mcq-08": "本句指「經濟狀況沒有劇烈、不可預測波動」。",
-        "stability-mcq-07": "「收入、支出、債務等維持可持續、安全狀態」與本句語境不同。",
-        "stability-mcq-09": "「持續可靠、不容易突然失去的工作／收入」與本句語境不同。",
-        "stability-mcq-06": "「結構抵抗變形、傾倒或失效的能力」與本句語境不同。",
-        "stability-mcq-10": "「政治／社會局勢持續可預測而沒有嚴重動盪」與本句語境不同。",
-        "stability-mcq-05": "「物體不容易傾倒、搖晃或失去平衡的性質」與本句語境不同。"
+        "stability-mcq-08": "本句的「financial stability」指「經濟狀況沒有劇烈、不可預測波動」。",
+        "stability-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-08"
     },
@@ -912,11 +856,9 @@ export default {
       "masked": "Economic ____ encourages investment.",
       "options": [
         "stability-mcq-08",
-        "stability-mcq-07",
-        "stability-mcq-09",
         "stability-mcq-06",
-        "stability-mcq-10",
-        "stability-mcq-05"
+        "stability-mcq-20",
+        "stability-mcq-11"
       ],
       "explanation": "本句的「stability」指「經濟狀況沒有劇烈、不可預測波動」。",
       "sentenceIndex": 15,
@@ -925,12 +867,10 @@ export default {
         "stability"
       ],
       "optionReasons": {
-        "stability-mcq-08": "本句指「經濟狀況沒有劇烈、不可預測波動」。",
-        "stability-mcq-07": "「收入、支出、債務等維持可持續、安全狀態」與本句語境不同。",
-        "stability-mcq-09": "「持續可靠、不容易突然失去的工作／收入」與本句語境不同。",
-        "stability-mcq-06": "「結構抵抗變形、傾倒或失效的能力」與本句語境不同。",
-        "stability-mcq-10": "「政治／社會局勢持續可預測而沒有嚴重動盪」與本句語境不同。",
-        "stability-mcq-05": "「物體不容易傾倒、搖晃或失去平衡的性質」與本句語境不同。"
+        "stability-mcq-08": "本句的「stability」指「經濟狀況沒有劇烈、不可預測波動」。",
+        "stability-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-08"
     },
@@ -943,10 +883,8 @@ export default {
       "options": [
         "stability-mcq-07",
         "stability-mcq-06",
-        "stability-mcq-08",
-        "stability-mcq-05",
-        "stability-mcq-09",
-        "stability-mcq-04"
+        "stability-mcq-13",
+        "stability-mcq-20"
       ],
       "explanation": "本句的「financial stability」指「收入、支出、債務等維持可持續、安全狀態」。",
       "sentenceIndex": 16,
@@ -955,12 +893,10 @@ export default {
         "financial stability"
       ],
       "optionReasons": {
-        "stability-mcq-07": "本句指「收入、支出、債務等維持可持續、安全狀態」。",
-        "stability-mcq-06": "「結構抵抗變形、傾倒或失效的能力」與本句語境不同。",
-        "stability-mcq-08": "「經濟狀況沒有劇烈、不可預測波動」與本句語境不同。",
-        "stability-mcq-05": "「物體不容易傾倒、搖晃或失去平衡的性質」與本句語境不同。",
-        "stability-mcq-09": "「持續可靠、不容易突然失去的工作／收入」與本句語境不同。",
-        "stability-mcq-04": "「性格／存在沉穩、可靠，能給別人安全感的」與本句語境不同。"
+        "stability-mcq-07": "本句的「financial stability」指「收入、支出、債務等維持可持續、安全狀態」。",
+        "stability-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-07"
     },
@@ -972,11 +908,9 @@ export default {
       "masked": "The family is working toward greater financial ____.",
       "options": [
         "stability-mcq-07",
-        "stability-mcq-06",
-        "stability-mcq-08",
         "stability-mcq-05",
-        "stability-mcq-09",
-        "stability-mcq-04"
+        "stability-mcq-20",
+        "stability-mcq-12"
       ],
       "explanation": "本句的「stability」指「收入、支出、債務等維持可持續、安全狀態」。",
       "sentenceIndex": 17,
@@ -985,12 +919,10 @@ export default {
         "stability"
       ],
       "optionReasons": {
-        "stability-mcq-07": "本句指「收入、支出、債務等維持可持續、安全狀態」。",
-        "stability-mcq-06": "「結構抵抗變形、傾倒或失效的能力」與本句語境不同。",
-        "stability-mcq-08": "「經濟狀況沒有劇烈、不可預測波動」與本句語境不同。",
-        "stability-mcq-05": "「物體不容易傾倒、搖晃或失去平衡的性質」與本句語境不同。",
-        "stability-mcq-09": "「持續可靠、不容易突然失去的工作／收入」與本句語境不同。",
-        "stability-mcq-04": "「性格／存在沉穩、可靠，能給別人安全感的」與本句語境不同。"
+        "stability-mcq-07": "本句的「stability」指「收入、支出、債務等維持可持續、安全狀態」。",
+        "stability-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-07"
     },
@@ -1002,11 +934,9 @@ export default {
       "masked": "She wanted a ____.",
       "options": [
         "stability-mcq-09",
-        "stability-mcq-08",
-        "stability-mcq-10",
-        "stability-mcq-07",
-        "stability-mcq-11",
-        "stability-mcq-06"
+        "stability-mcq-16",
+        "stability-mcq-19",
+        "stability-mcq-12"
       ],
       "explanation": "本句的「stable job」指「持續可靠、不容易突然失去的工作／收入」。",
       "sentenceIndex": 18,
@@ -1015,12 +945,10 @@ export default {
         "stable job"
       ],
       "optionReasons": {
-        "stability-mcq-09": "本句指「持續可靠、不容易突然失去的工作／收入」。",
-        "stability-mcq-08": "「經濟狀況沒有劇烈、不可預測波動」與本句語境不同。",
-        "stability-mcq-10": "「政治／社會局勢持續可預測而沒有嚴重動盪」與本句語境不同。",
-        "stability-mcq-07": "「收入、支出、債務等維持可持續、安全狀態」與本句語境不同。",
-        "stability-mcq-11": "「表現持續維持相近水平，不忽高忽低」與本句語境不同。",
-        "stability-mcq-06": "「結構抵抗變形、傾倒或失效的能力」與本句語境不同。"
+        "stability-mcq-09": "本句的「stable job」指「持續可靠、不容易突然失去的工作／收入」。",
+        "stability-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-09"
     },
@@ -1032,11 +960,9 @@ export default {
       "masked": "The region experienced a period of ____.",
       "options": [
         "stability-mcq-10",
-        "stability-mcq-09",
-        "stability-mcq-11",
-        "stability-mcq-08",
-        "stability-mcq-12",
-        "stability-mcq-07"
+        "stability-mcq-13",
+        "stability-mcq-19",
+        "stability-mcq-06"
       ],
       "explanation": "本句的「political stability」指「政治／社會局勢持續可預測而沒有嚴重動盪」。",
       "sentenceIndex": 21,
@@ -1045,12 +971,10 @@ export default {
         "political stability"
       ],
       "optionReasons": {
-        "stability-mcq-10": "本句指「政治／社會局勢持續可預測而沒有嚴重動盪」。",
-        "stability-mcq-09": "「持續可靠、不容易突然失去的工作／收入」與本句語境不同。",
-        "stability-mcq-11": "「表現持續維持相近水平，不忽高忽低」與本句語境不同。",
-        "stability-mcq-08": "「經濟狀況沒有劇烈、不可預測波動」與本句語境不同。",
-        "stability-mcq-12": "「病情目前沒有明顯／快速惡化」與本句語境不同。",
-        "stability-mcq-07": "「收入、支出、債務等維持可持續、安全狀態」與本句語境不同。"
+        "stability-mcq-10": "本句的「political stability」指「政治／社會局勢持續可預測而沒有嚴重動盪」。",
+        "stability-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-10"
     },
@@ -1062,11 +986,9 @@ export default {
       "masked": "Social ____ can be affected by prolonged conflict.",
       "options": [
         "stability-mcq-10",
-        "stability-mcq-09",
-        "stability-mcq-11",
-        "stability-mcq-08",
-        "stability-mcq-12",
-        "stability-mcq-07"
+        "stability-mcq-03",
+        "stability-mcq-16",
+        "stability-mcq-19"
       ],
       "explanation": "本句的「stability」指「政治／社會局勢持續可預測而沒有嚴重動盪」。",
       "sentenceIndex": 22,
@@ -1075,12 +997,10 @@ export default {
         "stability"
       ],
       "optionReasons": {
-        "stability-mcq-10": "本句指「政治／社會局勢持續可預測而沒有嚴重動盪」。",
-        "stability-mcq-09": "「持續可靠、不容易突然失去的工作／收入」與本句語境不同。",
-        "stability-mcq-11": "「表現持續維持相近水平，不忽高忽低」與本句語境不同。",
-        "stability-mcq-08": "「經濟狀況沒有劇烈、不可預測波動」與本句語境不同。",
-        "stability-mcq-12": "「病情目前沒有明顯／快速惡化」與本句語境不同。",
-        "stability-mcq-07": "「收入、支出、債務等維持可持續、安全狀態」與本句語境不同。"
+        "stability-mcq-10": "本句的「stability」指「政治／社會局勢持續可預測而沒有嚴重動盪」。",
+        "stability-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-10"
     },
@@ -1092,11 +1012,9 @@ export default {
       "masked": "The country needs a ____.",
       "options": [
         "stability-mcq-11",
-        "stability-mcq-10",
-        "stability-mcq-12",
-        "stability-mcq-09",
-        "stability-mcq-13",
-        "stability-mcq-08"
+        "stability-mcq-16",
+        "stability-mcq-14",
+        "stability-mcq-06"
       ],
       "explanation": "本句的「stable government」指「表現持續維持相近水平，不忽高忽低」。",
       "sentenceIndex": 23,
@@ -1105,12 +1023,10 @@ export default {
         "stable government"
       ],
       "optionReasons": {
-        "stability-mcq-11": "本句指「表現持續維持相近水平，不忽高忽低」。",
-        "stability-mcq-10": "「政治／社會局勢持續可預測而沒有嚴重動盪」與本句語境不同。",
-        "stability-mcq-12": "「病情目前沒有明顯／快速惡化」與本句語境不同。",
-        "stability-mcq-09": "「持續可靠、不容易突然失去的工作／收入」與本句語境不同。",
-        "stability-mcq-13": "「物質不容易分解、反應或改變化學性質的程度」與本句語境不同。",
-        "stability-mcq-08": "「經濟狀況沒有劇烈、不可預測波動」與本句語境不同。"
+        "stability-mcq-11": "本句的「stable government」指「表現持續維持相近水平，不忽高忽低」。",
+        "stability-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-11"
     },
@@ -1122,11 +1038,9 @@ export default {
       "masked": "The team needs more ____.",
       "options": [
         "stability-mcq-11",
-        "stability-mcq-10",
         "stability-mcq-12",
-        "stability-mcq-09",
-        "stability-mcq-13",
-        "stability-mcq-08"
+        "stability-mcq-20",
+        "stability-mcq-16"
       ],
       "explanation": "本句的「stability in its performance」指「表現持續維持相近水平，不忽高忽低」。",
       "sentenceIndex": 24,
@@ -1135,12 +1049,10 @@ export default {
         "stability in its performance"
       ],
       "optionReasons": {
-        "stability-mcq-11": "本句指「表現持續維持相近水平，不忽高忽低」。",
-        "stability-mcq-10": "「政治／社會局勢持續可預測而沒有嚴重動盪」與本句語境不同。",
-        "stability-mcq-12": "「病情目前沒有明顯／快速惡化」與本句語境不同。",
-        "stability-mcq-09": "「持續可靠、不容易突然失去的工作／收入」與本句語境不同。",
-        "stability-mcq-13": "「物質不容易分解、反應或改變化學性質的程度」與本句語境不同。",
-        "stability-mcq-08": "「經濟狀況沒有劇烈、不可預測波動」與本句語境不同。"
+        "stability-mcq-11": "本句的「stability in its performance」指「表現持續維持相近水平，不忽高忽低」。",
+        "stability-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-11"
     },
@@ -1152,11 +1064,9 @@ export default {
       "masked": "The system has improved in speed and ____.",
       "options": [
         "stability-mcq-11",
-        "stability-mcq-10",
-        "stability-mcq-12",
-        "stability-mcq-09",
         "stability-mcq-13",
-        "stability-mcq-08"
+        "stability-mcq-08",
+        "stability-mcq-16"
       ],
       "explanation": "本句的「stability」指「表現持續維持相近水平，不忽高忽低」。",
       "sentenceIndex": 25,
@@ -1165,12 +1075,10 @@ export default {
         "stability"
       ],
       "optionReasons": {
-        "stability-mcq-11": "本句指「表現持續維持相近水平，不忽高忽低」。",
-        "stability-mcq-10": "「政治／社會局勢持續可預測而沒有嚴重動盪」與本句語境不同。",
-        "stability-mcq-12": "「病情目前沒有明顯／快速惡化」與本句語境不同。",
-        "stability-mcq-09": "「持續可靠、不容易突然失去的工作／收入」與本句語境不同。",
-        "stability-mcq-13": "「物質不容易分解、反應或改變化學性質的程度」與本句語境不同。",
-        "stability-mcq-08": "「經濟狀況沒有劇烈、不可預測波動」與本句語境不同。"
+        "stability-mcq-11": "本句的「stability」指「表現持續維持相近水平，不忽高忽低」。",
+        "stability-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-11"
     },
@@ -1182,11 +1090,9 @@ export default {
       "masked": "The machine delivers ____.",
       "options": [
         "stability-mcq-11",
-        "stability-mcq-10",
-        "stability-mcq-12",
-        "stability-mcq-09",
-        "stability-mcq-13",
-        "stability-mcq-08"
+        "stability-mcq-20",
+        "stability-mcq-06",
+        "stability-mcq-15"
       ],
       "explanation": "本句的「stable performance」指「表現持續維持相近水平，不忽高忽低」。",
       "sentenceIndex": 26,
@@ -1195,12 +1101,10 @@ export default {
         "stable performance"
       ],
       "optionReasons": {
-        "stability-mcq-11": "本句指「表現持續維持相近水平，不忽高忽低」。",
-        "stability-mcq-10": "「政治／社會局勢持續可預測而沒有嚴重動盪」與本句語境不同。",
-        "stability-mcq-12": "「病情目前沒有明顯／快速惡化」與本句語境不同。",
-        "stability-mcq-09": "「持續可靠、不容易突然失去的工作／收入」與本句語境不同。",
-        "stability-mcq-13": "「物質不容易分解、反應或改變化學性質的程度」與本句語境不同。",
-        "stability-mcq-08": "「經濟狀況沒有劇烈、不可預測波動」與本句語境不同。"
+        "stability-mcq-11": "本句的「stable performance」指「表現持續維持相近水平，不忽高忽低」。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-11"
     },
@@ -1213,10 +1117,8 @@ export default {
       "options": [
         "stability-mcq-12",
         "stability-mcq-11",
-        "stability-mcq-13",
-        "stability-mcq-10",
         "stability-mcq-14",
-        "stability-mcq-09"
+        "stability-mcq-19"
       ],
       "explanation": "本句的「stable condition」指「病情目前沒有明顯／快速惡化」。",
       "sentenceIndex": 27,
@@ -1225,12 +1127,10 @@ export default {
         "stable condition"
       ],
       "optionReasons": {
-        "stability-mcq-12": "本句指「病情目前沒有明顯／快速惡化」。",
-        "stability-mcq-11": "「表現持續維持相近水平，不忽高忽低」與本句語境不同。",
-        "stability-mcq-13": "「物質不容易分解、反應或改變化學性質的程度」與本句語境不同。",
-        "stability-mcq-10": "「政治／社會局勢持續可預測而沒有嚴重動盪」與本句語境不同。",
-        "stability-mcq-14": "「系統能長時間可靠運作而不崩潰、出錯或大幅波動」與本句語境不同。",
-        "stability-mcq-09": "「持續可靠、不容易突然失去的工作／收入」與本句語境不同。"
+        "stability-mcq-12": "本句的「stable condition」指「病情目前沒有明顯／快速惡化」。",
+        "stability-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-12"
     },
@@ -1242,11 +1142,9 @@ export default {
       "masked": "The doctors described him as ____.",
       "options": [
         "stability-mcq-12",
-        "stability-mcq-11",
-        "stability-mcq-13",
-        "stability-mcq-10",
-        "stability-mcq-14",
-        "stability-mcq-09"
+        "stability-mcq-02",
+        "stability-mcq-19",
+        "stability-mcq-15"
       ],
       "explanation": "本句的「stable」指「病情目前沒有明顯／快速惡化」。",
       "sentenceIndex": 28,
@@ -1255,12 +1153,10 @@ export default {
         "stable"
       ],
       "optionReasons": {
-        "stability-mcq-12": "本句指「病情目前沒有明顯／快速惡化」。",
-        "stability-mcq-11": "「表現持續維持相近水平，不忽高忽低」與本句語境不同。",
-        "stability-mcq-13": "「物質不容易分解、反應或改變化學性質的程度」與本句語境不同。",
-        "stability-mcq-10": "「政治／社會局勢持續可預測而沒有嚴重動盪」與本句語境不同。",
-        "stability-mcq-14": "「系統能長時間可靠運作而不崩潰、出錯或大幅波動」與本句語境不同。",
-        "stability-mcq-09": "「持續可靠、不容易突然失去的工作／收入」與本句語境不同。"
+        "stability-mcq-12": "本句的「stable」指「病情目前沒有明顯／快速惡化」。",
+        "stability-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-12"
     },
@@ -1272,11 +1168,9 @@ export default {
       "masked": "Heat can affect the compound’s ____.",
       "options": [
         "stability-mcq-13",
-        "stability-mcq-12",
         "stability-mcq-14",
-        "stability-mcq-11",
-        "stability-mcq-15",
-        "stability-mcq-10"
+        "stability-mcq-10",
+        "stability-mcq-20"
       ],
       "explanation": "本句的「stability」指「物質不容易分解、反應或改變化學性質的程度」。",
       "sentenceIndex": 29,
@@ -1285,12 +1179,10 @@ export default {
         "stability"
       ],
       "optionReasons": {
-        "stability-mcq-13": "本句指「物質不容易分解、反應或改變化學性質的程度」。",
-        "stability-mcq-12": "「病情目前沒有明顯／快速惡化」與本句語境不同。",
-        "stability-mcq-14": "「系統能長時間可靠運作而不崩潰、出錯或大幅波動」與本句語境不同。",
-        "stability-mcq-11": "「表現持續維持相近水平，不忽高忽低」與本句語境不同。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。",
-        "stability-mcq-10": "「政治／社會局勢持續可預測而沒有嚴重動盪」與本句語境不同。"
+        "stability-mcq-13": "本句的「stability」指「物質不容易分解、反應或改變化學性質的程度」。",
+        "stability-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-13"
     },
@@ -1302,11 +1194,9 @@ export default {
       "masked": "The material has good chemical ____.",
       "options": [
         "stability-mcq-13",
-        "stability-mcq-12",
         "stability-mcq-14",
         "stability-mcq-11",
-        "stability-mcq-15",
-        "stability-mcq-10"
+        "stability-mcq-20"
       ],
       "explanation": "本句的「stability」指「物質不容易分解、反應或改變化學性質的程度」。",
       "sentenceIndex": 30,
@@ -1315,12 +1205,10 @@ export default {
         "stability"
       ],
       "optionReasons": {
-        "stability-mcq-13": "本句指「物質不容易分解、反應或改變化學性質的程度」。",
-        "stability-mcq-12": "「病情目前沒有明顯／快速惡化」與本句語境不同。",
-        "stability-mcq-14": "「系統能長時間可靠運作而不崩潰、出錯或大幅波動」與本句語境不同。",
-        "stability-mcq-11": "「表現持續維持相近水平，不忽高忽低」與本句語境不同。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。",
-        "stability-mcq-10": "「政治／社會局勢持續可預測而沒有嚴重動盪」與本句語境不同。"
+        "stability-mcq-13": "本句的「stability」指「物質不容易分解、反應或改變化學性質的程度」。",
+        "stability-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-13"
     },
@@ -1332,11 +1220,9 @@ export default {
       "masked": "The compound is chemically ____.",
       "options": [
         "stability-mcq-13",
-        "stability-mcq-12",
-        "stability-mcq-14",
-        "stability-mcq-11",
-        "stability-mcq-15",
-        "stability-mcq-10"
+        "stability-mcq-08",
+        "stability-mcq-19",
+        "stability-mcq-11"
       ],
       "explanation": "本句的「stable」指「物質不容易分解、反應或改變化學性質的程度」。",
       "sentenceIndex": 31,
@@ -1345,12 +1231,10 @@ export default {
         "stable"
       ],
       "optionReasons": {
-        "stability-mcq-13": "本句指「物質不容易分解、反應或改變化學性質的程度」。",
-        "stability-mcq-12": "「病情目前沒有明顯／快速惡化」與本句語境不同。",
-        "stability-mcq-14": "「系統能長時間可靠運作而不崩潰、出錯或大幅波動」與本句語境不同。",
-        "stability-mcq-11": "「表現持續維持相近水平，不忽高忽低」與本句語境不同。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。",
-        "stability-mcq-10": "「政治／社會局勢持續可預測而沒有嚴重動盪」與本句語境不同。"
+        "stability-mcq-13": "本句的「stable」指「物質不容易分解、反應或改變化學性質的程度」。",
+        "stability-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-13"
     },
@@ -1362,10 +1246,8 @@ export default {
       "masked": "The update improved system ____.",
       "options": [
         "stability-mcq-14",
-        "stability-mcq-13",
         "stability-mcq-15",
-        "stability-mcq-12",
-        "stability-mcq-16",
+        "stability-mcq-19",
         "stability-mcq-11"
       ],
       "explanation": "本句的「stability」指「系統能長時間可靠運作而不崩潰、出錯或大幅波動」。",
@@ -1375,12 +1257,10 @@ export default {
         "stability"
       ],
       "optionReasons": {
-        "stability-mcq-14": "本句指「系統能長時間可靠運作而不崩潰、出錯或大幅波動」。",
-        "stability-mcq-13": "「物質不容易分解、反應或改變化學性質的程度」與本句語境不同。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。",
-        "stability-mcq-12": "「病情目前沒有明顯／快速惡化」與本句語境不同。",
-        "stability-mcq-16": "「由不穩定狀態轉為穩定狀態的過程」與本句語境不同。",
-        "stability-mcq-11": "「表現持續維持相近水平，不忽高忽低」與本句語境不同。"
+        "stability-mcq-14": "本句的「stability」指「系統能長時間可靠運作而不崩潰、出錯或大幅波動」。",
+        "stability-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-14"
     },
@@ -1392,11 +1272,9 @@ export default {
       "masked": "We are testing the software for ____.",
       "options": [
         "stability-mcq-14",
-        "stability-mcq-13",
-        "stability-mcq-15",
-        "stability-mcq-12",
-        "stability-mcq-16",
-        "stability-mcq-11"
+        "stability-mcq-03",
+        "stability-mcq-19",
+        "stability-mcq-15"
       ],
       "explanation": "本句的「stability」指「系統能長時間可靠運作而不崩潰、出錯或大幅波動」。",
       "sentenceIndex": 33,
@@ -1405,12 +1283,10 @@ export default {
         "stability"
       ],
       "optionReasons": {
-        "stability-mcq-14": "本句指「系統能長時間可靠運作而不崩潰、出錯或大幅波動」。",
-        "stability-mcq-13": "「物質不容易分解、反應或改變化學性質的程度」與本句語境不同。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。",
-        "stability-mcq-12": "「病情目前沒有明顯／快速惡化」與本句語境不同。",
-        "stability-mcq-16": "「由不穩定狀態轉為穩定狀態的過程」與本句語境不同。",
-        "stability-mcq-11": "「表現持續維持相近水平，不忽高忽低」與本句語境不同。"
+        "stability-mcq-14": "本句的「stability」指「系統能長時間可靠運作而不崩潰、出錯或大幅波動」。",
+        "stability-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-14"
     },
@@ -1422,10 +1298,8 @@ export default {
       "masked": "The latest version is more ____.",
       "options": [
         "stability-mcq-14",
-        "stability-mcq-13",
-        "stability-mcq-15",
-        "stability-mcq-12",
         "stability-mcq-16",
+        "stability-mcq-05",
         "stability-mcq-11"
       ],
       "explanation": "本句的「stable」指「系統能長時間可靠運作而不崩潰、出錯或大幅波動」。",
@@ -1435,12 +1309,10 @@ export default {
         "stable"
       ],
       "optionReasons": {
-        "stability-mcq-14": "本句指「系統能長時間可靠運作而不崩潰、出錯或大幅波動」。",
-        "stability-mcq-13": "「物質不容易分解、反應或改變化學性質的程度」與本句語境不同。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。",
-        "stability-mcq-12": "「病情目前沒有明顯／快速惡化」與本句語境不同。",
-        "stability-mcq-16": "「由不穩定狀態轉為穩定狀態的過程」與本句語境不同。",
-        "stability-mcq-11": "「表現持續維持相近水平，不忽高忽低」與本句語境不同。"
+        "stability-mcq-14": "本句的「stable」指「系統能長時間可靠運作而不崩潰、出錯或大幅波動」。",
+        "stability-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-14"
     },
@@ -1452,11 +1324,9 @@ export default {
       "masked": "The situation began to ____.",
       "options": [
         "stability-mcq-15",
-        "stability-mcq-14",
-        "stability-mcq-16",
-        "stability-mcq-13",
-        "stability-mcq-17",
-        "stability-mcq-12"
+        "stability-mcq-12",
+        "stability-pdf-001",
+        "stability-mcq-20"
       ],
       "explanation": "本句的「stabilize」指「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」。",
       "sentenceIndex": 36,
@@ -1465,12 +1335,10 @@ export default {
         "stabilize"
       ],
       "optionReasons": {
-        "stability-mcq-15": "本句指「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」。",
-        "stability-mcq-14": "「系統能長時間可靠運作而不崩潰、出錯或大幅波動」與本句語境不同。",
-        "stability-mcq-16": "「由不穩定狀態轉為穩定狀態的過程」與本句語境不同。",
-        "stability-mcq-13": "「物質不容易分解、反應或改變化學性質的程度」與本句語境不同。",
-        "stability-mcq-17": "「容易改變、失去平衡、惡化或失控的」與本句語境不同。",
-        "stability-mcq-12": "「病情目前沒有明顯／快速惡化」與本句語境不同。"
+        "stability-mcq-15": "本句的「stabilize」指「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」。",
+        "stability-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stability-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-15"
     },
@@ -1482,11 +1350,9 @@ export default {
       "masked": "The ____ of prices took several months.",
       "options": [
         "stability-mcq-16",
-        "stability-mcq-15",
+        "stability-mcq-10",
         "stability-mcq-17",
-        "stability-mcq-14",
-        "stability-mcq-18",
-        "stability-mcq-13"
+        "stability-mcq-14"
       ],
       "explanation": "本句的「stabilization」指「由不穩定狀態轉為穩定狀態的過程」。",
       "sentenceIndex": 40,
@@ -1495,12 +1361,10 @@ export default {
         "stabilization"
       ],
       "optionReasons": {
-        "stability-mcq-16": "本句指「由不穩定狀態轉為穩定狀態的過程」。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。",
-        "stability-mcq-17": "「容易改變、失去平衡、惡化或失控的」與本句語境不同。",
-        "stability-mcq-14": "「系統能長時間可靠運作而不崩潰、出錯或大幅波動」與本句語境不同。",
-        "stability-mcq-18": "「缺乏穩定、容易出現變化、動盪或波動的狀態」與本句語境不同。",
-        "stability-mcq-13": "「物質不容易分解、反應或改變化學性質的程度」與本句語境不同。"
+        "stability-mcq-16": "本句的「stabilization」指「由不穩定狀態轉為穩定狀態的過程」。",
+        "stability-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-16"
     },
@@ -1512,11 +1376,9 @@ export default {
       "masked": "The plan focused on ____.",
       "options": [
         "stability-mcq-16",
-        "stability-mcq-15",
-        "stability-mcq-17",
-        "stability-mcq-14",
-        "stability-mcq-18",
-        "stability-mcq-13"
+        "stability-mcq-06",
+        "stability-mcq-12",
+        "stability-mcq-14"
       ],
       "explanation": "本句的「economic stabilization」指「由不穩定狀態轉為穩定狀態的過程」。",
       "sentenceIndex": 41,
@@ -1525,12 +1387,10 @@ export default {
         "economic stabilization"
       ],
       "optionReasons": {
-        "stability-mcq-16": "本句指「由不穩定狀態轉為穩定狀態的過程」。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。",
-        "stability-mcq-17": "「容易改變、失去平衡、惡化或失控的」與本句語境不同。",
-        "stability-mcq-14": "「系統能長時間可靠運作而不崩潰、出錯或大幅波動」與本句語境不同。",
-        "stability-mcq-18": "「缺乏穩定、容易出現變化、動盪或波動的狀態」與本句語境不同。",
-        "stability-mcq-13": "「物質不容易分解、反應或改變化學性質的程度」與本句語境不同。"
+        "stability-mcq-16": "本句的「economic stabilization」指「由不穩定狀態轉為穩定狀態的過程」。",
+        "stability-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-16"
     },
@@ -1543,10 +1403,8 @@ export default {
       "options": [
         "stability-mcq-17",
         "stability-mcq-16",
-        "stability-mcq-18",
-        "stability-mcq-15",
-        "stability-mcq-19",
-        "stability-mcq-14"
+        "stability-mcq-08",
+        "stability-mcq-20"
       ],
       "explanation": "本句的「unstable」指「容易改變、失去平衡、惡化或失控的」。",
       "sentenceIndex": 42,
@@ -1555,12 +1413,10 @@ export default {
         "unstable"
       ],
       "optionReasons": {
-        "stability-mcq-17": "本句指「容易改變、失去平衡、惡化或失控的」。",
-        "stability-mcq-16": "「由不穩定狀態轉為穩定狀態的過程」與本句語境不同。",
-        "stability-mcq-18": "「缺乏穩定、容易出現變化、動盪或波動的狀態」與本句語境不同。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。",
-        "stability-mcq-19": "「用來飼養／安置馬匹的馬房／馬廄」與本句語境不同。",
-        "stability-mcq-14": "「系統能長時間可靠運作而不崩潰、出錯或大幅波動」與本句語境不同。"
+        "stability-mcq-17": "本句的「unstable」指「容易改變、失去平衡、惡化或失控的」。",
+        "stability-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-17"
     },
@@ -1572,11 +1428,9 @@ export default {
       "masked": "He seemed emotionally ____.",
       "options": [
         "stability-mcq-17",
+        "stability-mcq-14",
         "stability-mcq-16",
-        "stability-mcq-18",
-        "stability-mcq-15",
-        "stability-mcq-19",
-        "stability-mcq-14"
+        "stability-mcq-19"
       ],
       "explanation": "本句的「unstable」指「容易改變、失去平衡、惡化或失控的」。",
       "sentenceIndex": 43,
@@ -1585,12 +1439,10 @@ export default {
         "unstable"
       ],
       "optionReasons": {
-        "stability-mcq-17": "本句指「容易改變、失去平衡、惡化或失控的」。",
-        "stability-mcq-16": "「由不穩定狀態轉為穩定狀態的過程」與本句語境不同。",
-        "stability-mcq-18": "「缺乏穩定、容易出現變化、動盪或波動的狀態」與本句語境不同。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。",
-        "stability-mcq-19": "「用來飼養／安置馬匹的馬房／馬廄」與本句語境不同。",
-        "stability-mcq-14": "「系統能長時間可靠運作而不崩潰、出錯或大幅波動」與本句語境不同。"
+        "stability-mcq-17": "本句的「unstable」指「容易改變、失去平衡、惡化或失控的」。",
+        "stability-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-17"
     },
@@ -1602,11 +1454,9 @@ export default {
       "masked": "The ladder looks ____.",
       "options": [
         "stability-mcq-17",
+        "stability-mcq-20",
         "stability-mcq-16",
-        "stability-mcq-18",
-        "stability-mcq-15",
-        "stability-mcq-19",
-        "stability-mcq-14"
+        "stability-mcq-08"
       ],
       "explanation": "本句的「unstable」指「容易改變、失去平衡、惡化或失控的」。",
       "sentenceIndex": 44,
@@ -1615,12 +1465,10 @@ export default {
         "unstable"
       ],
       "optionReasons": {
-        "stability-mcq-17": "本句指「容易改變、失去平衡、惡化或失控的」。",
-        "stability-mcq-16": "「由不穩定狀態轉為穩定狀態的過程」與本句語境不同。",
-        "stability-mcq-18": "「缺乏穩定、容易出現變化、動盪或波動的狀態」與本句語境不同。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。",
-        "stability-mcq-19": "「用來飼養／安置馬匹的馬房／馬廄」與本句語境不同。",
-        "stability-mcq-14": "「系統能長時間可靠運作而不崩潰、出錯或大幅波動」與本句語境不同。"
+        "stability-mcq-17": "本句的「unstable」指「容易改變、失去平衡、惡化或失控的」。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-17"
     },
@@ -1632,10 +1480,8 @@ export default {
       "masked": "The economy remained ____.",
       "options": [
         "stability-mcq-17",
-        "stability-mcq-16",
-        "stability-mcq-18",
-        "stability-mcq-15",
         "stability-mcq-19",
+        "stability-mcq-10",
         "stability-mcq-14"
       ],
       "explanation": "本句的「unstable」指「容易改變、失去平衡、惡化或失控的」。",
@@ -1645,12 +1491,10 @@ export default {
         "unstable"
       ],
       "optionReasons": {
-        "stability-mcq-17": "本句指「容易改變、失去平衡、惡化或失控的」。",
-        "stability-mcq-16": "「由不穩定狀態轉為穩定狀態的過程」與本句語境不同。",
-        "stability-mcq-18": "「缺乏穩定、容易出現變化、動盪或波動的狀態」與本句語境不同。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。",
-        "stability-mcq-19": "「用來飼養／安置馬匹的馬房／馬廄」與本句語境不同。",
-        "stability-mcq-14": "「系統能長時間可靠運作而不崩潰、出錯或大幅波動」與本句語境不同。"
+        "stability-mcq-17": "本句的「unstable」指「容易改變、失去平衡、惡化或失控的」。",
+        "stability-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-17"
     },
@@ -1662,11 +1506,9 @@ export default {
       "masked": "The chemical is highly ____.",
       "options": [
         "stability-mcq-17",
-        "stability-mcq-16",
-        "stability-mcq-18",
-        "stability-mcq-15",
-        "stability-mcq-19",
-        "stability-mcq-14"
+        "stability-mcq-10",
+        "stability-mcq-14",
+        "stability-mcq-20"
       ],
       "explanation": "本句的「unstable」指「容易改變、失去平衡、惡化或失控的」。",
       "sentenceIndex": 46,
@@ -1675,12 +1517,10 @@ export default {
         "unstable"
       ],
       "optionReasons": {
-        "stability-mcq-17": "本句指「容易改變、失去平衡、惡化或失控的」。",
-        "stability-mcq-16": "「由不穩定狀態轉為穩定狀態的過程」與本句語境不同。",
-        "stability-mcq-18": "「缺乏穩定、容易出現變化、動盪或波動的狀態」與本句語境不同。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。",
-        "stability-mcq-19": "「用來飼養／安置馬匹的馬房／馬廄」與本句語境不同。",
-        "stability-mcq-14": "「系統能長時間可靠運作而不崩潰、出錯或大幅波動」與本句語境不同。"
+        "stability-mcq-17": "本句的「unstable」指「容易改變、失去平衡、惡化或失控的」。",
+        "stability-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-17"
     },
@@ -1692,11 +1532,9 @@ export default {
       "masked": "Economic ____ affected businesses.",
       "options": [
         "stability-mcq-18",
-        "stability-mcq-17",
         "stability-mcq-19",
-        "stability-mcq-16",
-        "stability-mcq-20",
-        "stability-mcq-15"
+        "stability-mcq-04",
+        "stability-mcq-06"
       ],
       "explanation": "本句的「instability」指「缺乏穩定、容易出現變化、動盪或波動的狀態」。",
       "sentenceIndex": 47,
@@ -1705,12 +1543,10 @@ export default {
         "instability"
       ],
       "optionReasons": {
-        "stability-mcq-18": "本句指「缺乏穩定、容易出現變化、動盪或波動的狀態」。",
-        "stability-mcq-17": "「容易改變、失去平衡、惡化或失控的」與本句語境不同。",
-        "stability-mcq-19": "「用來飼養／安置馬匹的馬房／馬廄」與本句語境不同。",
-        "stability-mcq-16": "「由不穩定狀態轉為穩定狀態的過程」與本句語境不同。",
-        "stability-mcq-20": "「由同一公司、訓練者或機構管理的一批馬匹、人才或產品」與本句語境不同。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。"
+        "stability-mcq-18": "本句的「instability」指「缺乏穩定、容易出現變化、動盪或波動的狀態」。",
+        "stability-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-18"
     },
@@ -1722,11 +1558,9 @@ export default {
       "masked": "The region experienced years of ____.",
       "options": [
         "stability-mcq-18",
-        "stability-mcq-17",
-        "stability-mcq-19",
-        "stability-mcq-16",
         "stability-mcq-20",
-        "stability-mcq-15"
+        "stability-mcq-11",
+        "stability-mcq-06"
       ],
       "explanation": "本句的「political instability」指「缺乏穩定、容易出現變化、動盪或波動的狀態」。",
       "sentenceIndex": 48,
@@ -1735,12 +1569,10 @@ export default {
         "political instability"
       ],
       "optionReasons": {
-        "stability-mcq-18": "本句指「缺乏穩定、容易出現變化、動盪或波動的狀態」。",
-        "stability-mcq-17": "「容易改變、失去平衡、惡化或失控的」與本句語境不同。",
-        "stability-mcq-19": "「用來飼養／安置馬匹的馬房／馬廄」與本句語境不同。",
-        "stability-mcq-16": "「由不穩定狀態轉為穩定狀態的過程」與本句語境不同。",
-        "stability-mcq-20": "「由同一公司、訓練者或機構管理的一批馬匹、人才或產品」與本句語境不同。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。"
+        "stability-mcq-18": "本句的「political instability」指「缺乏穩定、容易出現變化、動盪或波動的狀態」。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-18"
     },
@@ -1752,11 +1584,9 @@ export default {
       "masked": "Price ____ makes planning difficult.",
       "options": [
         "stability-mcq-18",
-        "stability-mcq-17",
-        "stability-mcq-19",
-        "stability-mcq-16",
         "stability-mcq-20",
-        "stability-mcq-15"
+        "stability-mcq-06",
+        "stability-mcq-11"
       ],
       "explanation": "本句的「instability」指「缺乏穩定、容易出現變化、動盪或波動的狀態」。",
       "sentenceIndex": 49,
@@ -1765,12 +1595,10 @@ export default {
         "instability"
       ],
       "optionReasons": {
-        "stability-mcq-18": "本句指「缺乏穩定、容易出現變化、動盪或波動的狀態」。",
-        "stability-mcq-17": "「容易改變、失去平衡、惡化或失控的」與本句語境不同。",
-        "stability-mcq-19": "「用來飼養／安置馬匹的馬房／馬廄」與本句語境不同。",
-        "stability-mcq-16": "「由不穩定狀態轉為穩定狀態的過程」與本句語境不同。",
-        "stability-mcq-20": "「由同一公司、訓練者或機構管理的一批馬匹、人才或產品」與本句語境不同。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。"
+        "stability-mcq-18": "本句的「instability」指「缺乏穩定、容易出現變化、動盪或波動的狀態」。",
+        "stability-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-18"
     },
@@ -1782,11 +1610,9 @@ export default {
       "masked": "The horses are in the ____.",
       "options": [
         "stability-mcq-19",
-        "stability-mcq-18",
-        "stability-mcq-20",
-        "stability-mcq-17",
-        "stability-mcq-16",
-        "stability-mcq-15"
+        "stability-mcq-12",
+        "stability-mcq-13",
+        "stability-mcq-14"
       ],
       "explanation": "本句的「stable」指「用來飼養／安置馬匹的馬房／馬廄」。",
       "sentenceIndex": 50,
@@ -1795,12 +1621,10 @@ export default {
         "stable"
       ],
       "optionReasons": {
-        "stability-mcq-19": "本句指「用來飼養／安置馬匹的馬房／馬廄」。",
-        "stability-mcq-18": "「缺乏穩定、容易出現變化、動盪或波動的狀態」與本句語境不同。",
-        "stability-mcq-20": "「由同一公司、訓練者或機構管理的一批馬匹、人才或產品」與本句語境不同。",
-        "stability-mcq-17": "「容易改變、失去平衡、惡化或失控的」與本句語境不同。",
-        "stability-mcq-16": "「由不穩定狀態轉為穩定狀態的過程」與本句語境不同。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。"
+        "stability-mcq-19": "本句的「stable」指「用來飼養／安置馬匹的馬房／馬廄」。",
+        "stability-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-19"
     },
@@ -1812,11 +1636,9 @@ export default {
       "masked": "The agency has a ____.",
       "options": [
         "stability-mcq-20",
-        "stability-mcq-19",
-        "stability-mcq-18",
-        "stability-mcq-17",
-        "stability-mcq-16",
-        "stability-mcq-15"
+        "stability-mcq-08",
+        "stability-mcq-11",
+        "stability-mcq-17"
       ],
       "explanation": "本句的「stable of talented actors」指「由同一公司、訓練者或機構管理的一批馬匹、人才或產品」。",
       "sentenceIndex": 52,
@@ -1825,12 +1647,10 @@ export default {
         "stable of talented actors"
       ],
       "optionReasons": {
-        "stability-mcq-20": "本句指「由同一公司、訓練者或機構管理的一批馬匹、人才或產品」。",
-        "stability-mcq-19": "「用來飼養／安置馬匹的馬房／馬廄」與本句語境不同。",
-        "stability-mcq-18": "「缺乏穩定、容易出現變化、動盪或波動的狀態」與本句語境不同。",
-        "stability-mcq-17": "「容易改變、失去平衡、惡化或失控的」與本句語境不同。",
-        "stability-mcq-16": "「由不穩定狀態轉為穩定狀態的過程」與本句語境不同。",
-        "stability-mcq-15": "「令原本不穩定的狀況變得較穩定，或本身逐漸穩定」與本句語境不同。"
+        "stability-mcq-20": "本句的「stable of talented actors」指「由同一公司、訓練者或機構管理的一批馬匹、人才或產品」。",
+        "stability-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stability-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stability-mcq-20"
     }
@@ -1842,5 +1662,7 @@ export default {
     "sha256": "c3a21154e081b392febe8b0c5b1db955b54ce647b42deb62d2709521e4cc0382",
     "pages": 31
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "communication-mcq-01",
-      "title": "表示溝通；交流；例句：「良好的溝通比使用艱深詞彙更重要。」",
+      "title": "溝通；交流",
       "form": "Passage anchor > “From then on, I stopped chasing perfection all the time and started focusing on clarity, honesty, and real communication.",
       "en": "Passage anchor > “From then on, I stopped chasing perfection all the time and started focusing on clarity, honesty, and real communication.",
       "zh": "表示溝通；交流；例句：「良好的溝通比使用艱深詞彙更重要。」",
@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "communication-mcq-02",
-      "title": "表示溝通；交流；傳達；例句：「良好的溝通對一段關係非常重要。」",
+      "title": "溝通；交流；傳達",
       "form": "communication — exchange of information, ideas, or feelings = the process of sharing information, thoughts, feelings, or meaning with another person or group 溝通；交流；傳達",
       "en": "communication — exchange of information, ideas, or feelings = the process of sharing information, thoughts, feelings, or meaning with another person or group 溝通；交流；傳達",
       "zh": "表示溝通；交流；傳達；例句：「良好的溝通對一段關係非常重要。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "communication-mcq-03",
-      "title": "表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」",
+      "title": "彼此之間的溝通；交流",
       "form": "communication between people / groups = the exchange of information or ideas between two or more parties 彼此之間的溝通；交流",
       "en": "communication between people / groups = the exchange of information or ideas between two or more parties 彼此之間的溝通；交流",
       "zh": "表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "communication-mcq-04",
-      "title": "表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」",
+      "title": "與某人的聯絡／溝通",
       "form": "communication with someone = the process or act of being in contact with and exchanging information with someone 與某人的聯絡／溝通",
       "en": "communication with someone = the process or act of being in contact with and exchanging information with someone 與某人的聯絡／溝通",
       "zh": "表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "communication-mcq-05",
-      "title": "表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」",
+      "title": "溝通技巧；溝通能力",
       "form": "communication skills = skills involved in expressing ideas clearly and understanding others 溝通技巧；溝通能力",
       "en": "communication skills = skills involved in expressing ideas clearly and understanding others 溝通技巧；溝通能力",
       "zh": "表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "communication-mcq-06",
-      "title": "表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」",
+      "title": "有效溝通",
       "form": "effective communication = communication that successfully conveys meaning and produces understanding 有效溝通",
       "en": "effective communication = communication that successfully conveys meaning and produces understanding 有效溝通",
       "zh": "表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "communication-mcq-07",
-      "title": "表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」",
+      "title": "清楚的溝通；明確表達",
       "form": "clear communication = communication that is easy to understand and not ambiguous 清楚的溝通；明確表達",
       "en": "clear communication = communication that is easy to understand and not ambiguous 清楚的溝通；明確表達",
       "zh": "表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "communication-mcq-08",
-      "title": "表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」",
+      "title": "開放式溝通；坦誠交流",
       "form": "open communication = honest and willing exchange of thoughts or concerns 開放式溝通；坦誠交流",
       "en": "open communication = honest and willing exchange of thoughts or concerns 開放式溝通；坦誠交流",
       "zh": "表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "communication-mcq-09",
-      "title": "表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」",
+      "title": "聯絡；通訊",
       "form": "communication — contact by phone, email, message, etc. = exchange of messages through a particular medium 聯絡；通訊",
       "en": "communication — contact by phone, email, message, etc. = exchange of messages through a particular medium 聯絡；通訊",
       "zh": "表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "communication-mcq-10",
-      "title": "表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」",
+      "title": "書面溝通；書面通訊",
       "form": "written communication = communication through writing 書面溝通；書面通訊",
       "en": "written communication = communication through writing 書面溝通；書面通訊",
       "zh": "表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "communication-mcq-11",
-      "title": "表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」",
+      "title": "口語溝通；言語溝通",
       "form": "verbal communication = communication using spoken language 口語溝通；言語溝通",
       "en": "verbal communication = communication using spoken language 口語溝通；言語溝通",
       "zh": "表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "communication-mcq-12",
-      "title": "表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」",
+      "title": "非語言溝通",
       "form": "non-verbal communication = communication through gestures, facial expressions, posture, eye contact, etc. 非語言溝通",
       "en": "non-verbal communication = communication through gestures, facial expressions, posture, eye contact, etc. 非語言溝通",
       "zh": "表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "communication-mcq-13",
-      "title": "表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」",
+      "title": "數位通訊；數位溝通",
       "form": "digital communication = communication using digital technologies 數位通訊；數位溝通",
       "en": "digital communication = communication using digital technologies 數位通訊；數位溝通",
       "zh": "表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "communication-mcq-14",
-      "title": "表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」",
+      "title": "訊息；來函；通知",
       "form": "a communication — a message, letter, or official notice = an individual message or piece of correspondence 訊息；來函；通知",
       "en": "a communication — a message, letter, or official notice = an individual message or piece of correspondence 訊息；來函；通知",
       "zh": "表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "communication-mcq-15",
-      "title": "表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」",
+      "title": "正式通知；官方通訊",
       "form": "official communication = an authorized formal message or notice 正式通知；官方通訊",
       "en": "official communication = an authorized formal message or notice 正式通知；官方通訊",
       "zh": "表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "communication-mcq-16",
-      "title": "表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」",
+      "title": "通訊；通信系統",
       "form": "communications — systems for transmitting information Plural communications can refer to technological systems and services used to send information. 通訊；通信系統",
       "en": "communications — systems for transmitting information Plural communications can refer to technological systems and services used to send information. 通訊；通信系統",
       "zh": "表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "communication-mcq-17",
-      "title": "表示通訊網路；例句：「該公司營運一個全球通訊網路。」",
+      "title": "通訊網路",
       "form": "communications network = a network used to transmit data, voice, or messages 通訊網路",
       "en": "communications network = a network used to transmit data, voice, or messages 通訊網路",
       "zh": "表示通訊網路；例句：「該公司營運一個全球通訊網路。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "communication-mcq-18",
-      "title": "表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」",
+      "title": "通訊系統",
       "form": "communication system = a system designed to transmit information 通訊系統",
       "en": "communication system = a system designed to transmit information 通訊系統",
       "zh": "表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "communication-mcq-19",
-      "title": "表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」",
+      "title": "聯絡；通訊聯繫",
       "form": "communication with a place / person = ability to establish contact or connection 聯絡；通訊聯繫",
       "en": "communication with a place / person = ability to establish contact or connection 聯絡；通訊聯繫",
       "zh": "表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "communication-mcq-20",
-      "title": "表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」",
+      "title": "建立聯絡；建立通訊",
       "form": "establish communication = successfully create a channel of contact 建立聯絡；建立通訊",
       "en": "establish communication = successfully create a channel of contact 建立聯絡；建立通訊",
       "zh": "表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "communication-mcq-21",
-      "title": "表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」",
+      "title": "交通聯絡線；補給／通訊線",
       "form": "communications — routes and means of transport/contact In older, military, or formal usage, communications can refer to routes or systems connecting places. 交通聯絡線；補給／通訊線",
       "en": "communications — routes and means of transport/contact In older, military, or formal usage, communications can refer to routes or systems connecting places. 交通聯絡線；補給／通訊線",
       "zh": "表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」",
@@ -469,7 +469,7 @@ export default {
     },
     {
       "id": "communication-mcq-22",
-      "title": "表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」",
+      "title": "傳播學；溝通學；傳播領域",
       "form": "communication — the study or professional field = an academic or professional field concerned with media, messaging, interpersonal communication, public relations, etc. 傳播學；溝通學；傳播領域",
       "en": "communication — the study or professional field = an academic or professional field concerned with media, messaging, interpersonal communication, public relations, etc. 傳播學；溝通學；傳播領域",
       "zh": "表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」",
@@ -491,7 +491,7 @@ export default {
     },
     {
       "id": "communication-mcq-23",
-      "title": "表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」",
+      "title": "傳播／公關溝通部門",
       "form": "communications — corporate/public relations function In organizations, communications often refers to the department or function responsible for public and internal messaging. 傳播／公關溝通部門",
       "en": "communications — corporate/public relations function In organizations, communications often refers to the department or function responsible for public and internal messaging. 傳播／公關溝通部門",
       "zh": "表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」",
@@ -513,7 +513,7 @@ export default {
     },
     {
       "id": "communication-mcq-24",
-      "title": "表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」",
+      "title": "細胞通訊；細胞訊息傳遞",
       "form": "cell communication = processes by which cells send and receive signals 細胞通訊；細胞訊息傳遞",
       "en": "cell communication = processes by which cells send and receive signals 細胞通訊；細胞訊息傳遞",
       "zh": "表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」",
@@ -535,7 +535,7 @@ export default {
     },
     {
       "id": "communication-mcq-25",
-      "title": "表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」",
+      "title": "動物溝通；動物訊息傳遞",
       "form": "animal communication = ways animals transmit information to one another through sound, movement, scent, etc. 動物溝通；動物訊息傳遞",
       "en": "animal communication = ways animals transmit information to one another through sound, movement, scent, etc. 動物溝通；動物訊息傳遞",
       "zh": "表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」",
@@ -557,7 +557,7 @@ export default {
     },
     {
       "id": "communication-mcq-26",
-      "title": "表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」",
+      "title": "溝通；傳達；交流",
       "form": "communicate = share or transmit information, thoughts, feelings, or meaning 溝通；傳達；交流",
       "en": "communicate = share or transmit information, thoughts, feelings, or meaning 溝通；傳達；交流",
       "zh": "表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」",
@@ -579,7 +579,7 @@ export default {
     },
     {
       "id": "communication-mcq-27",
-      "title": "表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」",
+      "title": "與某人溝通／聯絡",
       "form": "communicate with someone = exchange information or ideas with another person 與某人溝通／聯絡",
       "en": "communicate with someone = exchange information or ideas with another person 與某人溝通／聯絡",
       "zh": "表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」",
@@ -601,7 +601,7 @@ export default {
     },
     {
       "id": "communication-mcq-28",
-      "title": "表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」",
+      "title": "傳達；表達",
       "form": "communicate something = successfully express or convey an idea, feeling, message, etc. 傳達；表達",
       "en": "communicate something = successfully express or convey an idea, feeling, message, etc. 傳達；表達",
       "zh": "表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」",
@@ -623,7 +623,7 @@ export default {
     },
     {
       "id": "communication-mcq-29",
-      "title": "表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」",
+      "title": "溝通能力；交際能力",
       "form": "communicative competence = ability to use language appropriately and effectively in real communication 溝通能力；交際能力",
       "en": "communicative competence = ability to use language appropriately and effectively in real communication 溝通能力；交際能力",
       "zh": "表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」",
@@ -645,7 +645,7 @@ export default {
     },
     {
       "id": "communication-mcq-30",
-      "title": "表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」",
+      "title": "溝通者；善於溝通的人",
       "form": "communicator = a person who communicates, especially one who does it effectively 溝通者；善於溝通的人",
       "en": "communicator = a person who communicates, especially one who does it effectively 溝通者；善於溝通的人",
       "zh": "表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」",
@@ -667,7 +667,7 @@ export default {
     },
     {
       "id": "communication-mcq-31",
-      "title": "表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」",
+      "title": "溝通錯誤；溝通不良；誤會",
       "form": "miscommunication = failure to communicate correctly, leading to misunderstanding 溝通錯誤；溝通不良；誤會",
       "en": "miscommunication = failure to communicate correctly, leading to misunderstanding 溝通錯誤；溝通不良；誤會",
       "zh": "表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」",
@@ -689,7 +689,7 @@ export default {
     },
     {
       "id": "communication-mcq-32",
-      "title": "表示溝通不良；例句：「溝通不良造成了不必要的延誤。」",
+      "title": "溝通不良",
       "form": "poor communication = ineffective or unclear exchange of information 溝通不良",
       "en": "poor communication = ineffective or unclear exchange of information 溝通不良",
       "zh": "表示溝通不良；例句：「溝通不良造成了不必要的延誤。」",
@@ -711,7 +711,7 @@ export default {
     },
     {
       "id": "communication-mcq-33",
-      "title": "表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」",
+      "title": "溝通中斷；溝通失靈",
       "form": "breakdown in communication = a situation in which communication stops working effectively 溝通中斷；溝通失靈",
       "en": "breakdown in communication = a situation in which communication stops working effectively 溝通中斷；溝通失靈",
       "zh": "表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」",
@@ -733,7 +733,7 @@ export default {
     },
     {
       "id": "communication-mcq-34",
-      "title": "表示溝通管道；聯絡渠道；例句：「要保持溝通管道暢通。」",
+      "title": "溝通管道；聯絡渠道",
       "form": "line of communication = a channel through which information can pass 溝通管道；聯絡渠道",
       "en": "line of communication = a channel through which information can pass 溝通管道；聯絡渠道",
       "zh": "表示溝通管道；聯絡渠道；例句：「要保持溝通管道暢通。」",
@@ -755,7 +755,7 @@ export default {
     },
     {
       "id": "communication-mcq-35",
-      "title": "表示溝通障礙；例句：「語言差異可能形成溝通障礙。」",
+      "title": "溝通障礙",
       "form": "communication barrier = something that prevents or makes communication difficult 溝通障礙",
       "en": "communication barrier = something that prevents or makes communication difficult 溝通障礙",
       "zh": "表示溝通障礙；例句：「語言差異可能形成溝通障礙。」",
@@ -777,7 +777,7 @@ export default {
     },
     {
       "id": "communication-mcq-36",
-      "title": "表示溝通方式；通訊手段；例句：「電子郵件仍是重要的溝通方式。」",
+      "title": "溝通方式；通訊手段",
       "form": "means of communication = a method or medium used to communicate 溝通方式；通訊手段",
       "en": "means of communication = a method or medium used to communicate 溝通方式；通訊手段",
       "zh": "表示溝通方式；通訊手段；例句：「電子郵件仍是重要的溝通方式。」",
@@ -807,11 +807,7 @@ export default {
       "masked": "Good ____ matters more than using difficult vocabulary.",
       "options": [
         "communication-mcq-01",
-        "communication-mcq-02",
-        "communication-mcq-03",
-        "communication-mcq-04",
-        "communication-mcq-05",
-        "communication-mcq-06"
+        "communication-mcq-17"
       ],
       "explanation": "本句的「communication」指「表示溝通；交流；例句：「良好的溝通比使用艱深詞彙更重要。」」。",
       "sentenceIndex": 0,
@@ -820,12 +816,8 @@ export default {
         "communication"
       ],
       "optionReasons": {
-        "communication-mcq-01": "本句指「表示溝通；交流；例句：「良好的溝通比使用艱深詞彙更重要。」」。",
-        "communication-mcq-02": "「表示溝通；交流；傳達；例句：「良好的溝通對一段關係非常重要。」」是「communication — exchange of information, ideas, or feelings = the process of sharing information, thoughts, feelings, or meaning with another person or group 溝通；交流；傳達」的用法，與本句語境不同。",
-        "communication-mcq-03": "「表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」」是「communication between people / groups = the exchange of information or ideas between two or more parties 彼此之間的溝通；交流」的用法，與本句語境不同。",
-        "communication-mcq-04": "「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」是「communication with someone = the process or act of being in contact with and exchanging information with someone 與某人的聯絡／溝通」的用法，與本句語境不同。",
-        "communication-mcq-05": "「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」是「communication skills = skills involved in expressing ideas clearly and understanding others 溝通技巧；溝通能力」的用法，與本句語境不同。",
-        "communication-mcq-06": "「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」是「effective communication = communication that successfully conveys meaning and produces understanding 有效溝通」的用法，與本句語境不同。"
+        "communication-mcq-01": "本句的「communication」指「表示溝通；交流；例句：「良好的溝通比使用艱深詞彙更重要。」」。",
+        "communication-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-01"
     },
@@ -837,11 +829,7 @@ export default {
       "masked": "Clear ____ can prevent many misunderstandings.",
       "options": [
         "communication-mcq-01",
-        "communication-mcq-02",
-        "communication-mcq-03",
-        "communication-mcq-04",
-        "communication-mcq-05",
-        "communication-mcq-06"
+        "communication-mcq-17"
       ],
       "explanation": "本句的「communication」指「表示溝通；交流；例句：「良好的溝通比使用艱深詞彙更重要。」」。",
       "sentenceIndex": 1,
@@ -850,12 +838,8 @@ export default {
         "communication"
       ],
       "optionReasons": {
-        "communication-mcq-01": "本句指「表示溝通；交流；例句：「良好的溝通比使用艱深詞彙更重要。」」。",
-        "communication-mcq-02": "「表示溝通；交流；傳達；例句：「良好的溝通對一段關係非常重要。」」是「communication — exchange of information, ideas, or feelings = the process of sharing information, thoughts, feelings, or meaning with another person or group 溝通；交流；傳達」的用法，與本句語境不同。",
-        "communication-mcq-03": "「表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」」是「communication between people / groups = the exchange of information or ideas between two or more parties 彼此之間的溝通；交流」的用法，與本句語境不同。",
-        "communication-mcq-04": "「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」是「communication with someone = the process or act of being in contact with and exchanging information with someone 與某人的聯絡／溝通」的用法，與本句語境不同。",
-        "communication-mcq-05": "「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」是「communication skills = skills involved in expressing ideas clearly and understanding others 溝通技巧；溝通能力」的用法，與本句語境不同。",
-        "communication-mcq-06": "「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」是「effective communication = communication that successfully conveys meaning and produces understanding 有效溝通」的用法，與本句語境不同。"
+        "communication-mcq-01": "本句的「communication」指「表示溝通；交流；例句：「良好的溝通比使用艱深詞彙更重要。」」。",
+        "communication-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-01"
     },
@@ -867,11 +851,7 @@ export default {
       "masked": "Good ____ is essential in a relationship.",
       "options": [
         "communication-mcq-02",
-        "communication-mcq-01",
-        "communication-mcq-03",
-        "communication-mcq-04",
-        "communication-mcq-05",
-        "communication-mcq-06"
+        "communication-mcq-18"
       ],
       "explanation": "本句的「communication」指「表示溝通；交流；傳達；例句：「良好的溝通對一段關係非常重要。」」。",
       "sentenceIndex": 2,
@@ -880,12 +860,8 @@ export default {
         "communication"
       ],
       "optionReasons": {
-        "communication-mcq-02": "本句指「表示溝通；交流；傳達；例句：「良好的溝通對一段關係非常重要。」」。",
-        "communication-mcq-01": "「表示溝通；交流；例句：「良好的溝通比使用艱深詞彙更重要。」」是「Passage anchor > “From then on, I stopped chasing perfection all the time and started focusing on clarity, honesty, and real communication.」的用法，與本句語境不同。",
-        "communication-mcq-03": "「表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」」是「communication between people / groups = the exchange of information or ideas between two or more parties 彼此之間的溝通；交流」的用法，與本句語境不同。",
-        "communication-mcq-04": "「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」是「communication with someone = the process or act of being in contact with and exchanging information with someone 與某人的聯絡／溝通」的用法，與本句語境不同。",
-        "communication-mcq-05": "「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」是「communication skills = skills involved in expressing ideas clearly and understanding others 溝通技巧；溝通能力」的用法，與本句語境不同。",
-        "communication-mcq-06": "「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」是「effective communication = communication that successfully conveys meaning and produces understanding 有效溝通」的用法，與本句語境不同。"
+        "communication-mcq-02": "本句的「communication」指「表示溝通；交流；傳達；例句：「良好的溝通對一段關係非常重要。」」。",
+        "communication-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-02"
     },
@@ -897,11 +873,7 @@ export default {
       "masked": "The problem was caused by poor ____ between the teams.",
       "options": [
         "communication-mcq-02",
-        "communication-mcq-01",
-        "communication-mcq-03",
-        "communication-mcq-04",
-        "communication-mcq-05",
-        "communication-mcq-06"
+        "communication-mcq-18"
       ],
       "explanation": "本句的「communication」指「表示溝通；交流；傳達；例句：「良好的溝通對一段關係非常重要。」」。",
       "sentenceIndex": 3,
@@ -910,12 +882,8 @@ export default {
         "communication"
       ],
       "optionReasons": {
-        "communication-mcq-02": "本句指「表示溝通；交流；傳達；例句：「良好的溝通對一段關係非常重要。」」。",
-        "communication-mcq-01": "「表示溝通；交流；例句：「良好的溝通比使用艱深詞彙更重要。」」是「Passage anchor > “From then on, I stopped chasing perfection all the time and started focusing on clarity, honesty, and real communication.」的用法，與本句語境不同。",
-        "communication-mcq-03": "「表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」」是「communication between people / groups = the exchange of information or ideas between two or more parties 彼此之間的溝通；交流」的用法，與本句語境不同。",
-        "communication-mcq-04": "「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」是「communication with someone = the process or act of being in contact with and exchanging information with someone 與某人的聯絡／溝通」的用法，與本句語境不同。",
-        "communication-mcq-05": "「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」是「communication skills = skills involved in expressing ideas clearly and understanding others 溝通技巧；溝通能力」的用法，與本句語境不同。",
-        "communication-mcq-06": "「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」是「effective communication = communication that successfully conveys meaning and produces understanding 有效溝通」的用法，與本句語境不同。"
+        "communication-mcq-02": "本句的「communication」指「表示溝通；交流；傳達；例句：「良好的溝通對一段關係非常重要。」」。",
+        "communication-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-02"
     },
@@ -927,11 +895,7 @@ export default {
       "masked": "There needs to be better ____.",
       "options": [
         "communication-mcq-03",
-        "communication-mcq-02",
-        "communication-mcq-04",
-        "communication-mcq-01",
-        "communication-mcq-05",
-        "communication-mcq-06"
+        "communication-mcq-18"
       ],
       "explanation": "本句的「communication between teachers and parents」指「表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」」。",
       "sentenceIndex": 4,
@@ -940,12 +904,8 @@ export default {
         "communication between teachers and parents"
       ],
       "optionReasons": {
-        "communication-mcq-03": "本句指「表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」」。",
-        "communication-mcq-02": "「表示溝通；交流；傳達；例句：「良好的溝通對一段關係非常重要。」」是「communication — exchange of information, ideas, or feelings = the process of sharing information, thoughts, feelings, or meaning with another person or group 溝通；交流；傳達」的用法，與本句語境不同。",
-        "communication-mcq-04": "「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」是「communication with someone = the process or act of being in contact with and exchanging information with someone 與某人的聯絡／溝通」的用法，與本句語境不同。",
-        "communication-mcq-01": "「表示溝通；交流；例句：「良好的溝通比使用艱深詞彙更重要。」」是「Passage anchor > “From then on, I stopped chasing perfection all the time and started focusing on clarity, honesty, and real communication.」的用法，與本句語境不同。",
-        "communication-mcq-05": "「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」是「communication skills = skills involved in expressing ideas clearly and understanding others 溝通技巧；溝通能力」的用法，與本句語境不同。",
-        "communication-mcq-06": "「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」是「effective communication = communication that successfully conveys meaning and produces understanding 有效溝通」的用法，與本句語境不同。"
+        "communication-mcq-03": "本句的「communication between teachers and parents」指「表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」」。",
+        "communication-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-03"
     },
@@ -957,11 +917,7 @@ export default {
       "masked": "Regular meetings improved ____.",
       "options": [
         "communication-mcq-03",
-        "communication-mcq-02",
-        "communication-mcq-04",
-        "communication-mcq-01",
-        "communication-mcq-05",
-        "communication-mcq-06"
+        "communication-mcq-24"
       ],
       "explanation": "本句的「communication between departments」指「表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」」。",
       "sentenceIndex": 5,
@@ -970,12 +926,8 @@ export default {
         "communication between departments"
       ],
       "optionReasons": {
-        "communication-mcq-03": "本句指「表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」」。",
-        "communication-mcq-02": "「表示溝通；交流；傳達；例句：「良好的溝通對一段關係非常重要。」」是「communication — exchange of information, ideas, or feelings = the process of sharing information, thoughts, feelings, or meaning with another person or group 溝通；交流；傳達」的用法，與本句語境不同。",
-        "communication-mcq-04": "「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」是「communication with someone = the process or act of being in contact with and exchanging information with someone 與某人的聯絡／溝通」的用法，與本句語境不同。",
-        "communication-mcq-01": "「表示溝通；交流；例句：「良好的溝通比使用艱深詞彙更重要。」」是「Passage anchor > “From then on, I stopped chasing perfection all the time and started focusing on clarity, honesty, and real communication.」的用法，與本句語境不同。",
-        "communication-mcq-05": "「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」是「communication skills = skills involved in expressing ideas clearly and understanding others 溝通技巧；溝通能力」的用法，與本句語境不同。",
-        "communication-mcq-06": "「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」是「effective communication = communication that successfully conveys meaning and produces understanding 有效溝通」的用法，與本句語境不同。"
+        "communication-mcq-03": "本句的「communication between departments」指「表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」」。",
+        "communication-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-03"
     },
@@ -987,11 +939,7 @@ export default {
       "masked": "We have maintained close ____.",
       "options": [
         "communication-mcq-04",
-        "communication-mcq-03",
-        "communication-mcq-05",
-        "communication-mcq-02",
-        "communication-mcq-06",
-        "communication-mcq-01"
+        "communication-mcq-18"
       ],
       "explanation": "本句的「communication with the client」指「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」。",
       "sentenceIndex": 6,
@@ -1000,12 +948,8 @@ export default {
         "communication with the client"
       ],
       "optionReasons": {
-        "communication-mcq-04": "本句指「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」。",
-        "communication-mcq-03": "「表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」」是「communication between people / groups = the exchange of information or ideas between two or more parties 彼此之間的溝通；交流」的用法，與本句語境不同。",
-        "communication-mcq-05": "「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」是「communication skills = skills involved in expressing ideas clearly and understanding others 溝通技巧；溝通能力」的用法，與本句語境不同。",
-        "communication-mcq-02": "「表示溝通；交流；傳達；例句：「良好的溝通對一段關係非常重要。」」是「communication — exchange of information, ideas, or feelings = the process of sharing information, thoughts, feelings, or meaning with another person or group 溝通；交流；傳達」的用法，與本句語境不同。",
-        "communication-mcq-06": "「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」是「effective communication = communication that successfully conveys meaning and produces understanding 有效溝通」的用法，與本句語境不同。",
-        "communication-mcq-01": "「表示溝通；交流；例句：「良好的溝通比使用艱深詞彙更重要。」」是「Passage anchor > “From then on, I stopped chasing perfection all the time and started focusing on clarity, honesty, and real communication.」的用法，與本句語境不同。"
+        "communication-mcq-04": "本句的「communication with the client」指「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」。",
+        "communication-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-04"
     },
@@ -1017,11 +961,7 @@ export default {
       "masked": "Her ____ was clear and professional.",
       "options": [
         "communication-mcq-04",
-        "communication-mcq-03",
-        "communication-mcq-05",
-        "communication-mcq-02",
-        "communication-mcq-06",
-        "communication-mcq-01"
+        "communication-mcq-16"
       ],
       "explanation": "本句的「communication with the team」指「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」。",
       "sentenceIndex": 7,
@@ -1030,12 +970,8 @@ export default {
         "communication with the team"
       ],
       "optionReasons": {
-        "communication-mcq-04": "本句指「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」。",
-        "communication-mcq-03": "「表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」」是「communication between people / groups = the exchange of information or ideas between two or more parties 彼此之間的溝通；交流」的用法，與本句語境不同。",
-        "communication-mcq-05": "「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」是「communication skills = skills involved in expressing ideas clearly and understanding others 溝通技巧；溝通能力」的用法，與本句語境不同。",
-        "communication-mcq-02": "「表示溝通；交流；傳達；例句：「良好的溝通對一段關係非常重要。」」是「communication — exchange of information, ideas, or feelings = the process of sharing information, thoughts, feelings, or meaning with another person or group 溝通；交流；傳達」的用法，與本句語境不同。",
-        "communication-mcq-06": "「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」是「effective communication = communication that successfully conveys meaning and produces understanding 有效溝通」的用法，與本句語境不同。",
-        "communication-mcq-01": "「表示溝通；交流；例句：「良好的溝通比使用艱深詞彙更重要。」」是「Passage anchor > “From then on, I stopped chasing perfection all the time and started focusing on clarity, honesty, and real communication.」的用法，與本句語境不同。"
+        "communication-mcq-04": "本句的「communication with the team」指「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」。",
+        "communication-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-04"
     },
@@ -1047,11 +983,7 @@ export default {
       "masked": "Strong ____ are important in leadership.",
       "options": [
         "communication-mcq-05",
-        "communication-mcq-04",
-        "communication-mcq-06",
-        "communication-mcq-03",
-        "communication-mcq-07",
-        "communication-mcq-02"
+        "communication-mcq-18"
       ],
       "explanation": "本句的「communication skills」指「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」。",
       "sentenceIndex": 8,
@@ -1060,12 +992,8 @@ export default {
         "communication skills"
       ],
       "optionReasons": {
-        "communication-mcq-05": "本句指「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」。",
-        "communication-mcq-04": "「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」是「communication with someone = the process or act of being in contact with and exchanging information with someone 與某人的聯絡／溝通」的用法，與本句語境不同。",
-        "communication-mcq-06": "「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」是「effective communication = communication that successfully conveys meaning and produces understanding 有效溝通」的用法，與本句語境不同。",
-        "communication-mcq-03": "「表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」」是「communication between people / groups = the exchange of information or ideas between two or more parties 彼此之間的溝通；交流」的用法，與本句語境不同。",
-        "communication-mcq-07": "「表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」」是「clear communication = communication that is easy to understand and not ambiguous 清楚的溝通；明確表達」的用法，與本句語境不同。",
-        "communication-mcq-02": "「表示溝通；交流；傳達；例句：「良好的溝通對一段關係非常重要。」」是「communication — exchange of information, ideas, or feelings = the process of sharing information, thoughts, feelings, or meaning with another person or group 溝通；交流；傳達」的用法，與本句語境不同。"
+        "communication-mcq-05": "本句的「communication skills」指「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」。",
+        "communication-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-05"
     },
@@ -1077,11 +1005,7 @@ export default {
       "masked": "The course helps students improve their ____.",
       "options": [
         "communication-mcq-05",
-        "communication-mcq-04",
-        "communication-mcq-06",
-        "communication-mcq-03",
-        "communication-mcq-07",
-        "communication-mcq-02"
+        "communication-mcq-21"
       ],
       "explanation": "本句的「communication skills」指「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」。",
       "sentenceIndex": 9,
@@ -1090,12 +1014,8 @@ export default {
         "communication skills"
       ],
       "optionReasons": {
-        "communication-mcq-05": "本句指「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」。",
-        "communication-mcq-04": "「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」是「communication with someone = the process or act of being in contact with and exchanging information with someone 與某人的聯絡／溝通」的用法，與本句語境不同。",
-        "communication-mcq-06": "「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」是「effective communication = communication that successfully conveys meaning and produces understanding 有效溝通」的用法，與本句語境不同。",
-        "communication-mcq-03": "「表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」」是「communication between people / groups = the exchange of information or ideas between two or more parties 彼此之間的溝通；交流」的用法，與本句語境不同。",
-        "communication-mcq-07": "「表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」」是「clear communication = communication that is easy to understand and not ambiguous 清楚的溝通；明確表達」的用法，與本句語境不同。",
-        "communication-mcq-02": "「表示溝通；交流；傳達；例句：「良好的溝通對一段關係非常重要。」」是「communication — exchange of information, ideas, or feelings = the process of sharing information, thoughts, feelings, or meaning with another person or group 溝通；交流；傳達」的用法，與本句語境不同。"
+        "communication-mcq-05": "本句的「communication skills」指「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」。",
+        "communication-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-05"
     },
@@ -1107,11 +1027,7 @@ export default {
       "masked": "____ requires both speaking and listening.",
       "options": [
         "communication-mcq-06",
-        "communication-mcq-05",
-        "communication-mcq-07",
-        "communication-mcq-04",
-        "communication-mcq-08",
-        "communication-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Effective communication」指「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」。",
       "sentenceIndex": 10,
@@ -1120,12 +1036,8 @@ export default {
         "Effective communication"
       ],
       "optionReasons": {
-        "communication-mcq-06": "本句指「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」。",
-        "communication-mcq-05": "「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」是「communication skills = skills involved in expressing ideas clearly and understanding others 溝通技巧；溝通能力」的用法，與本句語境不同。",
-        "communication-mcq-07": "「表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」」是「clear communication = communication that is easy to understand and not ambiguous 清楚的溝通；明確表達」的用法，與本句語境不同。",
-        "communication-mcq-04": "「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」是「communication with someone = the process or act of being in contact with and exchanging information with someone 與某人的聯絡／溝通」的用法，與本句語境不同。",
-        "communication-mcq-08": "「表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」」是「open communication = honest and willing exchange of thoughts or concerns 開放式溝通；坦誠交流」的用法，與本句語境不同。",
-        "communication-mcq-03": "「表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」」是「communication between people / groups = the exchange of information or ideas between two or more parties 彼此之間的溝通；交流」的用法，與本句語境不同。"
+        "communication-mcq-06": "本句的「Effective communication」指「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-06"
     },
@@ -1137,11 +1049,7 @@ export default {
       "masked": "Trust depends partly on ____.",
       "options": [
         "communication-mcq-06",
-        "communication-mcq-05",
-        "communication-mcq-07",
-        "communication-mcq-04",
-        "communication-mcq-08",
-        "communication-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「effective communication」指「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」。",
       "sentenceIndex": 11,
@@ -1150,12 +1058,8 @@ export default {
         "effective communication"
       ],
       "optionReasons": {
-        "communication-mcq-06": "本句指「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」。",
-        "communication-mcq-05": "「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」是「communication skills = skills involved in expressing ideas clearly and understanding others 溝通技巧；溝通能力」的用法，與本句語境不同。",
-        "communication-mcq-07": "「表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」」是「clear communication = communication that is easy to understand and not ambiguous 清楚的溝通；明確表達」的用法，與本句語境不同。",
-        "communication-mcq-04": "「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」是「communication with someone = the process or act of being in contact with and exchanging information with someone 與某人的聯絡／溝通」的用法，與本句語境不同。",
-        "communication-mcq-08": "「表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」」是「open communication = honest and willing exchange of thoughts or concerns 開放式溝通；坦誠交流」的用法，與本句語境不同。",
-        "communication-mcq-03": "「表示彼此之間的溝通；交流；例句：「老師與家長之間需要有更好的溝通。」」是「communication between people / groups = the exchange of information or ideas between two or more parties 彼此之間的溝通；交流」的用法，與本句語境不同。"
+        "communication-mcq-06": "本句的「effective communication」指「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-06"
     },
@@ -1167,11 +1071,7 @@ export default {
       "masked": "____ reduces confusion.",
       "options": [
         "communication-mcq-07",
-        "communication-mcq-06",
-        "communication-mcq-08",
-        "communication-mcq-05",
-        "communication-mcq-09",
-        "communication-mcq-04"
+        "communication-mcq-16"
       ],
       "explanation": "本句的「Clear communication」指「表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」」。",
       "sentenceIndex": 12,
@@ -1180,12 +1080,8 @@ export default {
         "Clear communication"
       ],
       "optionReasons": {
-        "communication-mcq-07": "本句指「表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」」。",
-        "communication-mcq-06": "「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」是「effective communication = communication that successfully conveys meaning and produces understanding 有效溝通」的用法，與本句語境不同。",
-        "communication-mcq-08": "「表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」」是「open communication = honest and willing exchange of thoughts or concerns 開放式溝通；坦誠交流」的用法，與本句語境不同。",
-        "communication-mcq-05": "「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」是「communication skills = skills involved in expressing ideas clearly and understanding others 溝通技巧；溝通能力」的用法，與本句語境不同。",
-        "communication-mcq-09": "「表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」」是「communication — contact by phone, email, message, etc. = exchange of messages through a particular medium 聯絡；通訊」的用法，與本句語境不同。",
-        "communication-mcq-04": "「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」是「communication with someone = the process or act of being in contact with and exchanging information with someone 與某人的聯絡／溝通」的用法，與本句語境不同。"
+        "communication-mcq-07": "本句的「Clear communication」指「表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」」。",
+        "communication-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-07"
     },
@@ -1197,11 +1093,7 @@ export default {
       "masked": "Managers should encourage ____.",
       "options": [
         "communication-mcq-07",
-        "communication-mcq-06",
-        "communication-mcq-08",
-        "communication-mcq-05",
-        "communication-mcq-09",
-        "communication-mcq-04"
+        "communication-mcq-21"
       ],
       "explanation": "本句的「clear communication」指「表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」」。",
       "sentenceIndex": 13,
@@ -1210,12 +1102,8 @@ export default {
         "clear communication"
       ],
       "optionReasons": {
-        "communication-mcq-07": "本句指「表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」」。",
-        "communication-mcq-06": "「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」是「effective communication = communication that successfully conveys meaning and produces understanding 有效溝通」的用法，與本句語境不同。",
-        "communication-mcq-08": "「表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」」是「open communication = honest and willing exchange of thoughts or concerns 開放式溝通；坦誠交流」的用法，與本句語境不同。",
-        "communication-mcq-05": "「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」是「communication skills = skills involved in expressing ideas clearly and understanding others 溝通技巧；溝通能力」的用法，與本句語境不同。",
-        "communication-mcq-09": "「表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」」是「communication — contact by phone, email, message, etc. = exchange of messages through a particular medium 聯絡；通訊」的用法，與本句語境不同。",
-        "communication-mcq-04": "「表示與某人的聯絡／溝通；例句：「我們一直與客戶保持密切聯絡與溝通。」」是「communication with someone = the process or act of being in contact with and exchanging information with someone 與某人的聯絡／溝通」的用法，與本句語境不同。"
+        "communication-mcq-07": "本句的「clear communication」指「表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」」。",
+        "communication-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-07"
     },
@@ -1227,11 +1115,7 @@ export default {
       "masked": "Healthy teams encourage ____.",
       "options": [
         "communication-mcq-08",
-        "communication-mcq-07",
-        "communication-mcq-09",
-        "communication-mcq-06",
-        "communication-mcq-10",
-        "communication-mcq-05"
+        "communication-mcq-24"
       ],
       "explanation": "本句的「open communication」指「表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」」。",
       "sentenceIndex": 14,
@@ -1240,12 +1124,8 @@ export default {
         "open communication"
       ],
       "optionReasons": {
-        "communication-mcq-08": "本句指「表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」」。",
-        "communication-mcq-07": "「表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」」是「clear communication = communication that is easy to understand and not ambiguous 清楚的溝通；明確表達」的用法，與本句語境不同。",
-        "communication-mcq-09": "「表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」」是「communication — contact by phone, email, message, etc. = exchange of messages through a particular medium 聯絡；通訊」的用法，與本句語境不同。",
-        "communication-mcq-06": "「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」是「effective communication = communication that successfully conveys meaning and produces understanding 有效溝通」的用法，與本句語境不同。",
-        "communication-mcq-10": "「表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」」是「written communication = communication through writing 書面溝通；書面通訊」的用法，與本句語境不同。",
-        "communication-mcq-05": "「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」是「communication skills = skills involved in expressing ideas clearly and understanding others 溝通技巧；溝通能力」的用法，與本句語境不同。"
+        "communication-mcq-08": "本句的「open communication」指「表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」」。",
+        "communication-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-08"
     },
@@ -1257,11 +1137,7 @@ export default {
       "masked": "____ helped resolve the conflict.",
       "options": [
         "communication-mcq-08",
-        "communication-mcq-07",
-        "communication-mcq-09",
-        "communication-mcq-06",
-        "communication-mcq-10",
-        "communication-mcq-05"
+        "communication-mcq-18"
       ],
       "explanation": "本句的「Open communication」指「表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」」。",
       "sentenceIndex": 15,
@@ -1270,12 +1146,8 @@ export default {
         "Open communication"
       ],
       "optionReasons": {
-        "communication-mcq-08": "本句指「表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」」。",
-        "communication-mcq-07": "「表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」」是「clear communication = communication that is easy to understand and not ambiguous 清楚的溝通；明確表達」的用法，與本句語境不同。",
-        "communication-mcq-09": "「表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」」是「communication — contact by phone, email, message, etc. = exchange of messages through a particular medium 聯絡；通訊」的用法，與本句語境不同。",
-        "communication-mcq-06": "「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」是「effective communication = communication that successfully conveys meaning and produces understanding 有效溝通」的用法，與本句語境不同。",
-        "communication-mcq-10": "「表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」」是「written communication = communication through writing 書面溝通；書面通訊」的用法，與本句語境不同。",
-        "communication-mcq-05": "「表示溝通技巧；溝通能力；例句：「良好的溝通能力對領導工作很重要。」」是「communication skills = skills involved in expressing ideas clearly and understanding others 溝通技巧；溝通能力」的用法，與本句語境不同。"
+        "communication-mcq-08": "本句的「Open communication」指「表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」」。",
+        "communication-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-08"
     },
@@ -1287,11 +1159,7 @@ export default {
       "masked": "Most of our ____ is by email.",
       "options": [
         "communication-mcq-09",
-        "communication-mcq-08",
-        "communication-mcq-10",
-        "communication-mcq-07",
-        "communication-mcq-11",
-        "communication-mcq-06"
+        "communication-mcq-28"
       ],
       "explanation": "本句的「communication」指「表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」」。",
       "sentenceIndex": 16,
@@ -1300,12 +1168,8 @@ export default {
         "communication"
       ],
       "optionReasons": {
-        "communication-mcq-09": "本句指「表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」」。",
-        "communication-mcq-08": "「表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」」是「open communication = honest and willing exchange of thoughts or concerns 開放式溝通；坦誠交流」的用法，與本句語境不同。",
-        "communication-mcq-10": "「表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」」是「written communication = communication through writing 書面溝通；書面通訊」的用法，與本句語境不同。",
-        "communication-mcq-07": "「表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」」是「clear communication = communication that is easy to understand and not ambiguous 清楚的溝通；明確表達」的用法，與本句語境不同。",
-        "communication-mcq-11": "「表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」」是「verbal communication = communication using spoken language 口語溝通；言語溝通」的用法，與本句語境不同。",
-        "communication-mcq-06": "「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」是「effective communication = communication that successfully conveys meaning and produces understanding 有效溝通」的用法，與本句語境不同。"
+        "communication-mcq-09": "本句的「communication」指「表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」」。",
+        "communication-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-09"
     },
@@ -1317,11 +1181,7 @@ export default {
       "masked": "All official ____ should be sent in writing.",
       "options": [
         "communication-mcq-09",
-        "communication-mcq-08",
-        "communication-mcq-10",
-        "communication-mcq-07",
-        "communication-mcq-11",
-        "communication-mcq-06"
+        "communication-mcq-28"
       ],
       "explanation": "本句的「communication」指「表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」」。",
       "sentenceIndex": 17,
@@ -1330,12 +1190,8 @@ export default {
         "communication"
       ],
       "optionReasons": {
-        "communication-mcq-09": "本句指「表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」」。",
-        "communication-mcq-08": "「表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」」是「open communication = honest and willing exchange of thoughts or concerns 開放式溝通；坦誠交流」的用法，與本句語境不同。",
-        "communication-mcq-10": "「表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」」是「written communication = communication through writing 書面溝通；書面通訊」的用法，與本句語境不同。",
-        "communication-mcq-07": "「表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」」是「clear communication = communication that is easy to understand and not ambiguous 清楚的溝通；明確表達」的用法，與本句語境不同。",
-        "communication-mcq-11": "「表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」」是「verbal communication = communication using spoken language 口語溝通；言語溝通」的用法，與本句語境不同。",
-        "communication-mcq-06": "「表示有效溝通；例句：「有效溝通需要說與聽雙方配合。」」是「effective communication = communication that successfully conveys meaning and produces understanding 有效溝通」的用法，與本句語境不同。"
+        "communication-mcq-09": "本句的「communication」指「表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」」。",
+        "communication-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-09"
     },
@@ -1347,11 +1203,7 @@ export default {
       "masked": "Good ____ requires clarity and organization.",
       "options": [
         "communication-mcq-10",
-        "communication-mcq-09",
-        "communication-mcq-11",
-        "communication-mcq-08",
-        "communication-mcq-12",
-        "communication-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「written communication」指「表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」」。",
       "sentenceIndex": 18,
@@ -1360,12 +1212,8 @@ export default {
         "written communication"
       ],
       "optionReasons": {
-        "communication-mcq-10": "本句指「表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」」。",
-        "communication-mcq-09": "「表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」」是「communication — contact by phone, email, message, etc. = exchange of messages through a particular medium 聯絡；通訊」的用法，與本句語境不同。",
-        "communication-mcq-11": "「表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」」是「verbal communication = communication using spoken language 口語溝通；言語溝通」的用法，與本句語境不同。",
-        "communication-mcq-08": "「表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」」是「open communication = honest and willing exchange of thoughts or concerns 開放式溝通；坦誠交流」的用法，與本句語境不同。",
-        "communication-mcq-12": "「表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」」是「non-verbal communication = communication through gestures, facial expressions, posture, eye contact, etc. 非語言溝通」的用法，與本句語境不同。",
-        "communication-mcq-07": "「表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」」是「clear communication = communication that is easy to understand and not ambiguous 清楚的溝通；明確表達」的用法，與本句語境不同。"
+        "communication-mcq-10": "本句的「written communication」指「表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-10"
     },
@@ -1377,11 +1225,7 @@ export default {
       "masked": "The agreement should be confirmed through ____.",
       "options": [
         "communication-mcq-10",
-        "communication-mcq-09",
-        "communication-mcq-11",
-        "communication-mcq-08",
-        "communication-mcq-12",
-        "communication-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「written communication」指「表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」」。",
       "sentenceIndex": 19,
@@ -1390,12 +1234,8 @@ export default {
         "written communication"
       ],
       "optionReasons": {
-        "communication-mcq-10": "本句指「表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」」。",
-        "communication-mcq-09": "「表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」」是「communication — contact by phone, email, message, etc. = exchange of messages through a particular medium 聯絡；通訊」的用法，與本句語境不同。",
-        "communication-mcq-11": "「表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」」是「verbal communication = communication using spoken language 口語溝通；言語溝通」的用法，與本句語境不同。",
-        "communication-mcq-08": "「表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」」是「open communication = honest and willing exchange of thoughts or concerns 開放式溝通；坦誠交流」的用法，與本句語境不同。",
-        "communication-mcq-12": "「表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」」是「non-verbal communication = communication through gestures, facial expressions, posture, eye contact, etc. 非語言溝通」的用法，與本句語境不同。",
-        "communication-mcq-07": "「表示清楚的溝通；明確表達；例句：「清楚的溝通可以減少混亂。」」是「clear communication = communication that is easy to understand and not ambiguous 清楚的溝通；明確表達」的用法，與本句語境不同。"
+        "communication-mcq-10": "本句的「written communication」指「表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-10"
     },
@@ -1407,11 +1247,7 @@ export default {
       "masked": "____ is only one part of interaction.",
       "options": [
         "communication-mcq-11",
-        "communication-mcq-10",
-        "communication-mcq-12",
-        "communication-mcq-09",
-        "communication-mcq-13",
-        "communication-mcq-08"
+        "communication-mcq-18"
       ],
       "explanation": "本句的「Verbal communication」指「表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」」。",
       "sentenceIndex": 20,
@@ -1420,12 +1256,8 @@ export default {
         "Verbal communication"
       ],
       "optionReasons": {
-        "communication-mcq-11": "本句指「表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」」。",
-        "communication-mcq-10": "「表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」」是「written communication = communication through writing 書面溝通；書面通訊」的用法，與本句語境不同。",
-        "communication-mcq-12": "「表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」」是「non-verbal communication = communication through gestures, facial expressions, posture, eye contact, etc. 非語言溝通」的用法，與本句語境不同。",
-        "communication-mcq-09": "「表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」」是「communication — contact by phone, email, message, etc. = exchange of messages through a particular medium 聯絡；通訊」的用法，與本句語境不同。",
-        "communication-mcq-13": "「表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」」是「digital communication = communication using digital technologies 數位通訊；數位溝通」的用法，與本句語境不同。",
-        "communication-mcq-08": "「表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」」是「open communication = honest and willing exchange of thoughts or concerns 開放式溝通；坦誠交流」的用法，與本句語境不同。"
+        "communication-mcq-11": "本句的「Verbal communication」指「表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」」。",
+        "communication-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-11"
     },
@@ -1437,11 +1269,7 @@ export default {
       "masked": "Her ____ is confident and clear.",
       "options": [
         "communication-mcq-11",
-        "communication-mcq-10",
-        "communication-mcq-12",
-        "communication-mcq-09",
-        "communication-mcq-13",
-        "communication-mcq-08"
+        "communication-mcq-17"
       ],
       "explanation": "本句的「verbal communication」指「表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」」。",
       "sentenceIndex": 21,
@@ -1450,12 +1278,8 @@ export default {
         "verbal communication"
       ],
       "optionReasons": {
-        "communication-mcq-11": "本句指「表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」」。",
-        "communication-mcq-10": "「表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」」是「written communication = communication through writing 書面溝通；書面通訊」的用法，與本句語境不同。",
-        "communication-mcq-12": "「表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」」是「non-verbal communication = communication through gestures, facial expressions, posture, eye contact, etc. 非語言溝通」的用法，與本句語境不同。",
-        "communication-mcq-09": "「表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」」是「communication — contact by phone, email, message, etc. = exchange of messages through a particular medium 聯絡；通訊」的用法，與本句語境不同。",
-        "communication-mcq-13": "「表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」」是「digital communication = communication using digital technologies 數位通訊；數位溝通」的用法，與本句語境不同。",
-        "communication-mcq-08": "「表示開放式溝通；坦誠交流；例句：「健康的團隊鼓勵開放式溝通。」」是「open communication = honest and willing exchange of thoughts or concerns 開放式溝通；坦誠交流」的用法，與本句語境不同。"
+        "communication-mcq-11": "本句的「verbal communication」指「表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」」。",
+        "communication-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-11"
     },
@@ -1467,11 +1291,7 @@ export default {
       "masked": "Eye contact is an important part of ____.",
       "options": [
         "communication-mcq-12",
-        "communication-mcq-11",
-        "communication-mcq-13",
-        "communication-mcq-10",
-        "communication-mcq-14",
-        "communication-mcq-09"
+        "communication-mcq-16"
       ],
       "explanation": "本句的「non-verbal communication」指「表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」」。",
       "sentenceIndex": 22,
@@ -1480,12 +1300,8 @@ export default {
         "non-verbal communication"
       ],
       "optionReasons": {
-        "communication-mcq-12": "本句指「表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」」。",
-        "communication-mcq-11": "「表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」」是「verbal communication = communication using spoken language 口語溝通；言語溝通」的用法，與本句語境不同。",
-        "communication-mcq-13": "「表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」」是「digital communication = communication using digital technologies 數位通訊；數位溝通」的用法，與本句語境不同。",
-        "communication-mcq-10": "「表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」」是「written communication = communication through writing 書面溝通；書面通訊」的用法，與本句語境不同。",
-        "communication-mcq-14": "「表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」」是「a communication — a message, letter, or official notice = an individual message or piece of correspondence 訊息；來函；通知」的用法，與本句語境不同。",
-        "communication-mcq-09": "「表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」」是「communication — contact by phone, email, message, etc. = exchange of messages through a particular medium 聯絡；通訊」的用法，與本句語境不同。"
+        "communication-mcq-12": "本句的「non-verbal communication」指「表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」」。",
+        "communication-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-12"
     },
@@ -1497,11 +1313,7 @@ export default {
       "masked": "Much of emotion is expressed through ____.",
       "options": [
         "communication-mcq-12",
-        "communication-mcq-11",
-        "communication-mcq-13",
-        "communication-mcq-10",
-        "communication-mcq-14",
-        "communication-mcq-09"
+        "communication-mcq-18"
       ],
       "explanation": "本句的「non-verbal communication」指「表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」」。",
       "sentenceIndex": 23,
@@ -1510,12 +1322,8 @@ export default {
         "non-verbal communication"
       ],
       "optionReasons": {
-        "communication-mcq-12": "本句指「表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」」。",
-        "communication-mcq-11": "「表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」」是「verbal communication = communication using spoken language 口語溝通；言語溝通」的用法，與本句語境不同。",
-        "communication-mcq-13": "「表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」」是「digital communication = communication using digital technologies 數位通訊；數位溝通」的用法，與本句語境不同。",
-        "communication-mcq-10": "「表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」」是「written communication = communication through writing 書面溝通；書面通訊」的用法，與本句語境不同。",
-        "communication-mcq-14": "「表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」」是「a communication — a message, letter, or official notice = an individual message or piece of correspondence 訊息；來函；通知」的用法，與本句語境不同。",
-        "communication-mcq-09": "「表示聯絡；通訊；例句：「我們大部分的聯絡都是透過電子郵件。」」是「communication — contact by phone, email, message, etc. = exchange of messages through a particular medium 聯絡；通訊」的用法，與本句語境不同。"
+        "communication-mcq-12": "本句的「non-verbal communication」指「表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」」。",
+        "communication-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-12"
     },
@@ -1527,11 +1335,7 @@ export default {
       "masked": "____ has changed how people work.",
       "options": [
         "communication-mcq-13",
-        "communication-mcq-12",
-        "communication-mcq-14",
-        "communication-mcq-11",
-        "communication-mcq-15",
-        "communication-mcq-10"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Digital communication」指「表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」」。",
       "sentenceIndex": 24,
@@ -1540,12 +1344,8 @@ export default {
         "Digital communication"
       ],
       "optionReasons": {
-        "communication-mcq-13": "本句指「表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」」。",
-        "communication-mcq-12": "「表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」」是「non-verbal communication = communication through gestures, facial expressions, posture, eye contact, etc. 非語言溝通」的用法，與本句語境不同。",
-        "communication-mcq-14": "「表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」」是「a communication — a message, letter, or official notice = an individual message or piece of correspondence 訊息；來函；通知」的用法，與本句語境不同。",
-        "communication-mcq-11": "「表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」」是「verbal communication = communication using spoken language 口語溝通；言語溝通」的用法，與本句語境不同。",
-        "communication-mcq-15": "「表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」」是「official communication = an authorized formal message or notice 正式通知；官方通訊」的用法，與本句語境不同。",
-        "communication-mcq-10": "「表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」」是「written communication = communication through writing 書面溝通；書面通訊」的用法，與本句語境不同。"
+        "communication-mcq-13": "本句的「Digital communication」指「表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-13"
     },
@@ -1557,11 +1357,7 @@ export default {
       "masked": "Teams rely heavily on ____.",
       "options": [
         "communication-mcq-13",
-        "communication-mcq-12",
-        "communication-mcq-14",
-        "communication-mcq-11",
-        "communication-mcq-15",
-        "communication-mcq-10"
+        "contrast-purchase"
       ],
       "explanation": "本句的「digital communication」指「表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」」。",
       "sentenceIndex": 25,
@@ -1570,12 +1366,8 @@ export default {
         "digital communication"
       ],
       "optionReasons": {
-        "communication-mcq-13": "本句指「表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」」。",
-        "communication-mcq-12": "「表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」」是「non-verbal communication = communication through gestures, facial expressions, posture, eye contact, etc. 非語言溝通」的用法，與本句語境不同。",
-        "communication-mcq-14": "「表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」」是「a communication — a message, letter, or official notice = an individual message or piece of correspondence 訊息；來函；通知」的用法，與本句語境不同。",
-        "communication-mcq-11": "「表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」」是「verbal communication = communication using spoken language 口語溝通；言語溝通」的用法，與本句語境不同。",
-        "communication-mcq-15": "「表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」」是「official communication = an authorized formal message or notice 正式通知；官方通訊」的用法，與本句語境不同。",
-        "communication-mcq-10": "「表示書面溝通；書面通訊；例句：「良好的書面溝通需要清楚與有條理。」」是「written communication = communication through writing 書面溝通；書面通訊」的用法，與本句語境不同。"
+        "communication-mcq-13": "本句的「digital communication」指「表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-13"
     },
@@ -1587,11 +1379,7 @@ export default {
       "masked": "We received an official ____ from the university.",
       "options": [
         "communication-mcq-14",
-        "communication-mcq-13",
-        "communication-mcq-15",
-        "communication-mcq-12",
-        "communication-mcq-16",
-        "communication-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「communication」指「表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」」。",
       "sentenceIndex": 26,
@@ -1600,12 +1388,8 @@ export default {
         "communication"
       ],
       "optionReasons": {
-        "communication-mcq-14": "本句指「表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」」。",
-        "communication-mcq-13": "「表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」」是「digital communication = communication using digital technologies 數位通訊；數位溝通」的用法，與本句語境不同。",
-        "communication-mcq-15": "「表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」」是「official communication = an authorized formal message or notice 正式通知；官方通訊」的用法，與本句語境不同。",
-        "communication-mcq-12": "「表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」」是「non-verbal communication = communication through gestures, facial expressions, posture, eye contact, etc. 非語言溝通」的用法，與本句語境不同。",
-        "communication-mcq-16": "「表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」」是「communications — systems for transmitting information Plural communications can refer to technological systems and services used to send information. 通訊；通信系統」的用法，與本句語境不同。",
-        "communication-mcq-11": "「表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」」是「verbal communication = communication using spoken language 口語溝通；言語溝通」的用法，與本句語境不同。"
+        "communication-mcq-14": "本句的「communication」指「表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-14"
     },
@@ -1617,11 +1401,7 @@ export default {
       "masked": "All ____ from the company are confidential.",
       "options": [
         "communication-mcq-14",
-        "communication-mcq-13",
-        "communication-mcq-15",
-        "communication-mcq-12",
-        "communication-mcq-16",
-        "communication-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「communications」指「表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」」。",
       "sentenceIndex": 27,
@@ -1630,12 +1410,8 @@ export default {
         "communications"
       ],
       "optionReasons": {
-        "communication-mcq-14": "本句指「表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」」。",
-        "communication-mcq-13": "「表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」」是「digital communication = communication using digital technologies 數位通訊；數位溝通」的用法，與本句語境不同。",
-        "communication-mcq-15": "「表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」」是「official communication = an authorized formal message or notice 正式通知；官方通訊」的用法，與本句語境不同。",
-        "communication-mcq-12": "「表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」」是「non-verbal communication = communication through gestures, facial expressions, posture, eye contact, etc. 非語言溝通」的用法，與本句語境不同。",
-        "communication-mcq-16": "「表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」」是「communications — systems for transmitting information Plural communications can refer to technological systems and services used to send information. 通訊；通信系統」的用法，與本句語境不同。",
-        "communication-mcq-11": "「表示口語溝通；言語溝通；例句：「口語溝通只是互動的一部分。」」是「verbal communication = communication using spoken language 口語溝通；言語溝通」的用法，與本句語境不同。"
+        "communication-mcq-14": "本句的「communications」指「表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-14"
     },
@@ -1647,11 +1423,7 @@ export default {
       "masked": "No official ____ has been issued yet.",
       "options": [
         "communication-mcq-15",
-        "communication-mcq-14",
-        "communication-mcq-16",
-        "communication-mcq-13",
-        "communication-mcq-17",
-        "communication-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「communication」指「表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」」。",
       "sentenceIndex": 28,
@@ -1660,12 +1432,8 @@ export default {
         "communication"
       ],
       "optionReasons": {
-        "communication-mcq-15": "本句指「表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」」。",
-        "communication-mcq-14": "「表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」」是「a communication — a message, letter, or official notice = an individual message or piece of correspondence 訊息；來函；通知」的用法，與本句語境不同。",
-        "communication-mcq-16": "「表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」」是「communications — systems for transmitting information Plural communications can refer to technological systems and services used to send information. 通訊；通信系統」的用法，與本句語境不同。",
-        "communication-mcq-13": "「表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」」是「digital communication = communication using digital technologies 數位通訊；數位溝通」的用法，與本句語境不同。",
-        "communication-mcq-17": "「表示通訊網路；例句：「該公司營運一個全球通訊網路。」」是「communications network = a network used to transmit data, voice, or messages 通訊網路」的用法，與本句語境不同。",
-        "communication-mcq-12": "「表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」」是「non-verbal communication = communication through gestures, facial expressions, posture, eye contact, etc. 非語言溝通」的用法，與本句語境不同。"
+        "communication-mcq-15": "本句的「communication」指「表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-15"
     },
@@ -1677,11 +1445,7 @@ export default {
       "masked": "Please wait for further ____ from the office.",
       "options": [
         "communication-mcq-15",
-        "communication-mcq-14",
-        "communication-mcq-16",
-        "communication-mcq-13",
-        "communication-mcq-17",
-        "communication-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「communication」指「表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」」。",
       "sentenceIndex": 29,
@@ -1690,12 +1454,8 @@ export default {
         "communication"
       ],
       "optionReasons": {
-        "communication-mcq-15": "本句指「表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」」。",
-        "communication-mcq-14": "「表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」」是「a communication — a message, letter, or official notice = an individual message or piece of correspondence 訊息；來函；通知」的用法，與本句語境不同。",
-        "communication-mcq-16": "「表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」」是「communications — systems for transmitting information Plural communications can refer to technological systems and services used to send information. 通訊；通信系統」的用法，與本句語境不同。",
-        "communication-mcq-13": "「表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」」是「digital communication = communication using digital technologies 數位通訊；數位溝通」的用法，與本句語境不同。",
-        "communication-mcq-17": "「表示通訊網路；例句：「該公司營運一個全球通訊網路。」」是「communications network = a network used to transmit data, voice, or messages 通訊網路」的用法，與本句語境不同。",
-        "communication-mcq-12": "「表示非語言溝通；例句：「眼神接觸是非語言溝通的重要部分。」」是「non-verbal communication = communication through gestures, facial expressions, posture, eye contact, etc. 非語言溝通」的用法，與本句語境不同。"
+        "communication-mcq-15": "本句的「communication」指「表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-15"
     },
@@ -1707,11 +1467,7 @@ export default {
       "masked": "The storm disrupted ____ across the region.",
       "options": [
         "communication-mcq-16",
-        "communication-mcq-15",
-        "communication-mcq-17",
-        "communication-mcq-14",
-        "communication-mcq-18",
-        "communication-mcq-13"
+        "communication-mcq-28"
       ],
       "explanation": "本句的「communications」指「表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」」。",
       "sentenceIndex": 30,
@@ -1720,12 +1476,8 @@ export default {
         "communications"
       ],
       "optionReasons": {
-        "communication-mcq-16": "本句指「表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」」。",
-        "communication-mcq-15": "「表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」」是「official communication = an authorized formal message or notice 正式通知；官方通訊」的用法，與本句語境不同。",
-        "communication-mcq-17": "「表示通訊網路；例句：「該公司營運一個全球通訊網路。」」是「communications network = a network used to transmit data, voice, or messages 通訊網路」的用法，與本句語境不同。",
-        "communication-mcq-14": "「表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」」是「a communication — a message, letter, or official notice = an individual message or piece of correspondence 訊息；來函；通知」的用法，與本句語境不同。",
-        "communication-mcq-18": "「表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」」是「communication system = a system designed to transmit information 通訊系統」的用法，與本句語境不同。",
-        "communication-mcq-13": "「表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」」是「digital communication = communication using digital technologies 數位通訊；數位溝通」的用法，與本句語境不同。"
+        "communication-mcq-16": "本句的「communications」指「表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」」。",
+        "communication-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-16"
     },
@@ -1737,11 +1489,7 @@ export default {
       "masked": "Modern ____ depend heavily on digital networks.",
       "options": [
         "communication-mcq-16",
-        "communication-mcq-15",
-        "communication-mcq-17",
-        "communication-mcq-14",
-        "communication-mcq-18",
-        "communication-mcq-13"
+        "communication-mcq-28"
       ],
       "explanation": "本句的「communications」指「表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」」。",
       "sentenceIndex": 31,
@@ -1750,12 +1498,8 @@ export default {
         "communications"
       ],
       "optionReasons": {
-        "communication-mcq-16": "本句指「表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」」。",
-        "communication-mcq-15": "「表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」」是「official communication = an authorized formal message or notice 正式通知；官方通訊」的用法，與本句語境不同。",
-        "communication-mcq-17": "「表示通訊網路；例句：「該公司營運一個全球通訊網路。」」是「communications network = a network used to transmit data, voice, or messages 通訊網路」的用法，與本句語境不同。",
-        "communication-mcq-14": "「表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」」是「a communication — a message, letter, or official notice = an individual message or piece of correspondence 訊息；來函；通知」的用法，與本句語境不同。",
-        "communication-mcq-18": "「表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」」是「communication system = a system designed to transmit information 通訊系統」的用法，與本句語境不同。",
-        "communication-mcq-13": "「表示數位通訊；數位溝通；例句：「數位通訊改變了人們工作的方式。」」是「digital communication = communication using digital technologies 數位通訊；數位溝通」的用法，與本句語境不同。"
+        "communication-mcq-16": "本句的「communications」指「表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」」。",
+        "communication-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-16"
     },
@@ -1767,11 +1511,7 @@ export default {
       "masked": "The company operates a global ____.",
       "options": [
         "communication-mcq-17",
-        "communication-mcq-16",
-        "communication-mcq-18",
-        "communication-mcq-15",
-        "communication-mcq-19",
-        "communication-mcq-14"
+        "communication-mcq-28"
       ],
       "explanation": "本句的「communications network」指「表示通訊網路；例句：「該公司營運一個全球通訊網路。」」。",
       "sentenceIndex": 32,
@@ -1780,12 +1520,8 @@ export default {
         "communications network"
       ],
       "optionReasons": {
-        "communication-mcq-17": "本句指「表示通訊網路；例句：「該公司營運一個全球通訊網路。」」。",
-        "communication-mcq-16": "「表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」」是「communications — systems for transmitting information Plural communications can refer to technological systems and services used to send information. 通訊；通信系統」的用法，與本句語境不同。",
-        "communication-mcq-18": "「表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」」是「communication system = a system designed to transmit information 通訊系統」的用法，與本句語境不同。",
-        "communication-mcq-15": "「表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」」是「official communication = an authorized formal message or notice 正式通知；官方通訊」的用法，與本句語境不同。",
-        "communication-mcq-19": "「表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」」是「communication with a place / person = ability to establish contact or connection 聯絡；通訊聯繫」的用法，與本句語境不同。",
-        "communication-mcq-14": "「表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」」是「a communication — a message, letter, or official notice = an individual message or piece of correspondence 訊息；來函；通知」的用法，與本句語境不同。"
+        "communication-mcq-17": "本句的「communications network」指「表示通訊網路；例句：「該公司營運一個全球通訊網路。」」。",
+        "communication-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-17"
     },
@@ -1797,11 +1533,7 @@ export default {
       "masked": "The emergency damaged the local ____.",
       "options": [
         "communication-mcq-17",
-        "communication-mcq-16",
-        "communication-mcq-18",
-        "communication-mcq-15",
-        "communication-mcq-19",
-        "communication-mcq-14"
+        "communication-mcq-28"
       ],
       "explanation": "本句的「communications network」指「表示通訊網路；例句：「該公司營運一個全球通訊網路。」」。",
       "sentenceIndex": 33,
@@ -1810,12 +1542,8 @@ export default {
         "communications network"
       ],
       "optionReasons": {
-        "communication-mcq-17": "本句指「表示通訊網路；例句：「該公司營運一個全球通訊網路。」」。",
-        "communication-mcq-16": "「表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」」是「communications — systems for transmitting information Plural communications can refer to technological systems and services used to send information. 通訊；通信系統」的用法，與本句語境不同。",
-        "communication-mcq-18": "「表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」」是「communication system = a system designed to transmit information 通訊系統」的用法，與本句語境不同。",
-        "communication-mcq-15": "「表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」」是「official communication = an authorized formal message or notice 正式通知；官方通訊」的用法，與本句語境不同。",
-        "communication-mcq-19": "「表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」」是「communication with a place / person = ability to establish contact or connection 聯絡；通訊聯繫」的用法，與本句語境不同。",
-        "communication-mcq-14": "「表示訊息；來函；通知；例句：「我們收到大學的一份正式通知。」」是「a communication — a message, letter, or official notice = an individual message or piece of correspondence 訊息；來函；通知」的用法，與本句語境不同。"
+        "communication-mcq-17": "本句的「communications network」指「表示通訊網路；例句：「該公司營運一個全球通訊網路。」」。",
+        "communication-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-17"
     },
@@ -1827,11 +1555,7 @@ export default {
       "masked": "The aircraft has a modern ____.",
       "options": [
         "communication-mcq-18",
-        "communication-mcq-17",
-        "communication-mcq-19",
-        "communication-mcq-16",
-        "communication-mcq-20",
-        "communication-mcq-15"
+        "communication-mcq-28"
       ],
       "explanation": "本句的「communication system」指「表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」」。",
       "sentenceIndex": 34,
@@ -1840,12 +1564,8 @@ export default {
         "communication system"
       ],
       "optionReasons": {
-        "communication-mcq-18": "本句指「表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」」。",
-        "communication-mcq-17": "「表示通訊網路；例句：「該公司營運一個全球通訊網路。」」是「communications network = a network used to transmit data, voice, or messages 通訊網路」的用法，與本句語境不同。",
-        "communication-mcq-19": "「表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」」是「communication with a place / person = ability to establish contact or connection 聯絡；通訊聯繫」的用法，與本句語境不同。",
-        "communication-mcq-16": "「表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」」是「communications — systems for transmitting information Plural communications can refer to technological systems and services used to send information. 通訊；通信系統」的用法，與本句語境不同。",
-        "communication-mcq-20": "「表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」」是「establish communication = successfully create a channel of contact 建立聯絡；建立通訊」的用法，與本句語境不同。",
-        "communication-mcq-15": "「表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」」是「official communication = an authorized formal message or notice 正式通知；官方通訊」的用法，與本句語境不同。"
+        "communication-mcq-18": "本句的「communication system」指「表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」」。",
+        "communication-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-18"
     },
@@ -1857,11 +1577,7 @@ export default {
       "masked": "The building uses an internal ____.",
       "options": [
         "communication-mcq-18",
-        "communication-mcq-17",
-        "communication-mcq-19",
-        "communication-mcq-16",
-        "communication-mcq-20",
-        "communication-mcq-15"
+        "communication-mcq-28"
       ],
       "explanation": "本句的「communication system」指「表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」」。",
       "sentenceIndex": 35,
@@ -1870,12 +1586,8 @@ export default {
         "communication system"
       ],
       "optionReasons": {
-        "communication-mcq-18": "本句指「表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」」。",
-        "communication-mcq-17": "「表示通訊網路；例句：「該公司營運一個全球通訊網路。」」是「communications network = a network used to transmit data, voice, or messages 通訊網路」的用法，與本句語境不同。",
-        "communication-mcq-19": "「表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」」是「communication with a place / person = ability to establish contact or connection 聯絡；通訊聯繫」的用法，與本句語境不同。",
-        "communication-mcq-16": "「表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」」是「communications — systems for transmitting information Plural communications can refer to technological systems and services used to send information. 通訊；通信系統」的用法，與本句語境不同。",
-        "communication-mcq-20": "「表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」」是「establish communication = successfully create a channel of contact 建立聯絡；建立通訊」的用法，與本句語境不同。",
-        "communication-mcq-15": "「表示正式通知；官方通訊；例句：「目前尚未發出任何正式通知。」」是「official communication = an authorized formal message or notice 正式通知；官方通訊」的用法，與本句語境不同。"
+        "communication-mcq-18": "本句的「communication system」指「表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」」。",
+        "communication-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-18"
     },
@@ -1887,11 +1599,7 @@ export default {
       "masked": "The village lost ____.",
       "options": [
         "communication-mcq-19",
-        "communication-mcq-18",
-        "communication-mcq-20",
-        "communication-mcq-17",
-        "communication-mcq-21",
-        "communication-mcq-16"
+        "communication-mcq-28"
       ],
       "explanation": "本句的「communication with the outside world」指「表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」」。",
       "sentenceIndex": 36,
@@ -1900,12 +1608,8 @@ export default {
         "communication with the outside world"
       ],
       "optionReasons": {
-        "communication-mcq-19": "本句指「表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」」。",
-        "communication-mcq-18": "「表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」」是「communication system = a system designed to transmit information 通訊系統」的用法，與本句語境不同。",
-        "communication-mcq-20": "「表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」」是「establish communication = successfully create a channel of contact 建立聯絡；建立通訊」的用法，與本句語境不同。",
-        "communication-mcq-17": "「表示通訊網路；例句：「該公司營運一個全球通訊網路。」」是「communications network = a network used to transmit data, voice, or messages 通訊網路」的用法，與本句語境不同。",
-        "communication-mcq-21": "「表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」」是「communications — routes and means of transport/contact In older, military, or formal usage, communications can refer to routes or systems connecting places. 交通聯絡線；補給／通訊線」的用法，與本句語境不同。",
-        "communication-mcq-16": "「表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」」是「communications — systems for transmitting information Plural communications can refer to technological systems and services used to send information. 通訊；通信系統」的用法，與本句語境不同。"
+        "communication-mcq-19": "本句的「communication with the outside world」指「表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」」。",
+        "communication-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-19"
     },
@@ -1917,11 +1621,7 @@ export default {
       "masked": "Rescue teams were unable to establish ____.",
       "options": [
         "communication-mcq-19",
-        "communication-mcq-18",
-        "communication-mcq-20",
-        "communication-mcq-17",
-        "communication-mcq-21",
-        "communication-mcq-16"
+        "communication-mcq-28"
       ],
       "explanation": "本句的「communication with the crew」指「表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」」。",
       "sentenceIndex": 37,
@@ -1930,12 +1630,8 @@ export default {
         "communication with the crew"
       ],
       "optionReasons": {
-        "communication-mcq-19": "本句指「表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」」。",
-        "communication-mcq-18": "「表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」」是「communication system = a system designed to transmit information 通訊系統」的用法，與本句語境不同。",
-        "communication-mcq-20": "「表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」」是「establish communication = successfully create a channel of contact 建立聯絡；建立通訊」的用法，與本句語境不同。",
-        "communication-mcq-17": "「表示通訊網路；例句：「該公司營運一個全球通訊網路。」」是「communications network = a network used to transmit data, voice, or messages 通訊網路」的用法，與本句語境不同。",
-        "communication-mcq-21": "「表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」」是「communications — routes and means of transport/contact In older, military, or formal usage, communications can refer to routes or systems connecting places. 交通聯絡線；補給／通訊線」的用法，與本句語境不同。",
-        "communication-mcq-16": "「表示通訊；通信系統；例句：「暴風雨中斷了整個地區的通訊。」」是「communications — systems for transmitting information Plural communications can refer to technological systems and services used to send information. 通訊；通信系統」的用法，與本句語境不同。"
+        "communication-mcq-19": "本句的「communication with the crew」指「表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」」。",
+        "communication-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-19"
     },
@@ -1947,11 +1643,7 @@ export default {
       "masked": "The control centre finally ____ with the aircraft.",
       "options": [
         "communication-mcq-20",
-        "communication-mcq-19",
-        "communication-mcq-21",
-        "communication-mcq-18",
-        "communication-mcq-22",
-        "communication-mcq-17"
+        "communication-mcq-28"
       ],
       "explanation": "本句的「established communication」指「表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」」。",
       "sentenceIndex": 38,
@@ -1960,12 +1652,8 @@ export default {
         "established communication"
       ],
       "optionReasons": {
-        "communication-mcq-20": "本句指「表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」」。",
-        "communication-mcq-19": "「表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」」是「communication with a place / person = ability to establish contact or connection 聯絡；通訊聯繫」的用法，與本句語境不同。",
-        "communication-mcq-21": "「表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」」是「communications — routes and means of transport/contact In older, military, or formal usage, communications can refer to routes or systems connecting places. 交通聯絡線；補給／通訊線」的用法，與本句語境不同。",
-        "communication-mcq-18": "「表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」」是「communication system = a system designed to transmit information 通訊系統」的用法，與本句語境不同。",
-        "communication-mcq-22": "「表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」」是「communication — the study or professional field = an academic or professional field concerned with media, messaging, interpersonal communication, public relations, etc. 傳播學；溝通學；傳播領域」的用法，與本句語境不同。",
-        "communication-mcq-17": "「表示通訊網路；例句：「該公司營運一個全球通訊網路。」」是「communications network = a network used to transmit data, voice, or messages 通訊網路」的用法，與本句語境不同。"
+        "communication-mcq-20": "本句的「established communication」指「表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」」。",
+        "communication-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-20"
     },
@@ -1977,11 +1665,7 @@ export default {
       "masked": "It took several minutes to ____ with the remote station.",
       "options": [
         "communication-mcq-20",
-        "communication-mcq-19",
-        "communication-mcq-21",
-        "communication-mcq-18",
-        "communication-mcq-22",
-        "communication-mcq-17"
+        "communication-mcq-28"
       ],
       "explanation": "本句的「establish communication」指「表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」」。",
       "sentenceIndex": 39,
@@ -1990,12 +1674,8 @@ export default {
         "establish communication"
       ],
       "optionReasons": {
-        "communication-mcq-20": "本句指「表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」」。",
-        "communication-mcq-19": "「表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」」是「communication with a place / person = ability to establish contact or connection 聯絡；通訊聯繫」的用法，與本句語境不同。",
-        "communication-mcq-21": "「表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」」是「communications — routes and means of transport/contact In older, military, or formal usage, communications can refer to routes or systems connecting places. 交通聯絡線；補給／通訊線」的用法，與本句語境不同。",
-        "communication-mcq-18": "「表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」」是「communication system = a system designed to transmit information 通訊系統」的用法，與本句語境不同。",
-        "communication-mcq-22": "「表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」」是「communication — the study or professional field = an academic or professional field concerned with media, messaging, interpersonal communication, public relations, etc. 傳播學；溝通學；傳播領域」的用法，與本句語境不同。",
-        "communication-mcq-17": "「表示通訊網路；例句：「該公司營運一個全球通訊網路。」」是「communications network = a network used to transmit data, voice, or messages 通訊網路」的用法，與本句語境不同。"
+        "communication-mcq-20": "本句的「establish communication」指「表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」」。",
+        "communication-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-20"
     },
@@ -2007,11 +1687,7 @@ export default {
       "masked": "The army attempted to protect its ____.",
       "options": [
         "communication-mcq-21",
-        "communication-mcq-20",
-        "communication-mcq-22",
-        "communication-mcq-19",
-        "communication-mcq-23",
-        "communication-mcq-18"
+        "communication-mcq-28"
       ],
       "explanation": "本句的「lines of communication」指「表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」」。",
       "sentenceIndex": 40,
@@ -2020,12 +1696,8 @@ export default {
         "lines of communication"
       ],
       "optionReasons": {
-        "communication-mcq-21": "本句指「表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」」。",
-        "communication-mcq-20": "「表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」」是「establish communication = successfully create a channel of contact 建立聯絡；建立通訊」的用法，與本句語境不同。",
-        "communication-mcq-22": "「表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」」是「communication — the study or professional field = an academic or professional field concerned with media, messaging, interpersonal communication, public relations, etc. 傳播學；溝通學；傳播領域」的用法，與本句語境不同。",
-        "communication-mcq-19": "「表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」」是「communication with a place / person = ability to establish contact or connection 聯絡；通訊聯繫」的用法，與本句語境不同。",
-        "communication-mcq-23": "「表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」」是「communications — corporate/public relations function In organizations, communications often refers to the department or function responsible for public and internal messaging. 傳播／公關溝通部門」的用法，與本句語境不同。",
-        "communication-mcq-18": "「表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」」是「communication system = a system designed to transmit information 通訊系統」的用法，與本句語境不同。"
+        "communication-mcq-21": "本句的「lines of communication」指「表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」」。",
+        "communication-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-21"
     },
@@ -2037,11 +1709,7 @@ export default {
       "masked": "The region’s ____ were disrupted by flooding.",
       "options": [
         "communication-mcq-21",
-        "communication-mcq-20",
-        "communication-mcq-22",
-        "communication-mcq-19",
-        "communication-mcq-23",
-        "communication-mcq-18"
+        "communication-mcq-28"
       ],
       "explanation": "本句的「communications」指「表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」」。",
       "sentenceIndex": 41,
@@ -2050,12 +1718,8 @@ export default {
         "communications"
       ],
       "optionReasons": {
-        "communication-mcq-21": "本句指「表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」」。",
-        "communication-mcq-20": "「表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」」是「establish communication = successfully create a channel of contact 建立聯絡；建立通訊」的用法，與本句語境不同。",
-        "communication-mcq-22": "「表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」」是「communication — the study or professional field = an academic or professional field concerned with media, messaging, interpersonal communication, public relations, etc. 傳播學；溝通學；傳播領域」的用法，與本句語境不同。",
-        "communication-mcq-19": "「表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」」是「communication with a place / person = ability to establish contact or connection 聯絡；通訊聯繫」的用法，與本句語境不同。",
-        "communication-mcq-23": "「表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」」是「communications — corporate/public relations function In organizations, communications often refers to the department or function responsible for public and internal messaging. 傳播／公關溝通部門」的用法，與本句語境不同。",
-        "communication-mcq-18": "「表示通訊系統；例句：「這架飛機配有現代化的通訊系統。」」是「communication system = a system designed to transmit information 通訊系統」的用法，與本句語境不同。"
+        "communication-mcq-21": "本句的「communications」指「表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」」。",
+        "communication-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-21"
     },
@@ -2067,11 +1731,7 @@ export default {
       "masked": "She studied ____ at university.",
       "options": [
         "communication-mcq-22",
-        "communication-mcq-21",
-        "communication-mcq-23",
-        "communication-mcq-20",
-        "communication-mcq-24",
-        "communication-mcq-19"
+        "communication-mcq-18"
       ],
       "explanation": "本句的「communication」指「表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」」。",
       "sentenceIndex": 42,
@@ -2080,12 +1740,8 @@ export default {
         "communication"
       ],
       "optionReasons": {
-        "communication-mcq-22": "本句指「表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」」。",
-        "communication-mcq-21": "「表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」」是「communications — routes and means of transport/contact In older, military, or formal usage, communications can refer to routes or systems connecting places. 交通聯絡線；補給／通訊線」的用法，與本句語境不同。",
-        "communication-mcq-23": "「表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」」是「communications — corporate/public relations function In organizations, communications often refers to the department or function responsible for public and internal messaging. 傳播／公關溝通部門」的用法，與本句語境不同。",
-        "communication-mcq-20": "「表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」」是「establish communication = successfully create a channel of contact 建立聯絡；建立通訊」的用法，與本句語境不同。",
-        "communication-mcq-24": "「表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」」是「cell communication = processes by which cells send and receive signals 細胞通訊；細胞訊息傳遞」的用法，與本句語境不同。",
-        "communication-mcq-19": "「表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」」是「communication with a place / person = ability to establish contact or connection 聯絡；通訊聯繫」的用法，與本句語境不同。"
+        "communication-mcq-22": "本句的「communication」指「表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」」。",
+        "communication-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-22"
     },
@@ -2097,10 +1753,6 @@ export default {
       "masked": "He works in ____.",
       "options": [
         "communication-mcq-22",
-        "communication-mcq-21",
-        "communication-mcq-23",
-        "communication-mcq-20",
-        "communication-mcq-24",
         "communication-mcq-19"
       ],
       "explanation": "本句的「communication and media」指「表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」」。",
@@ -2110,12 +1762,8 @@ export default {
         "communication and media"
       ],
       "optionReasons": {
-        "communication-mcq-22": "本句指「表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」」。",
-        "communication-mcq-21": "「表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」」是「communications — routes and means of transport/contact In older, military, or formal usage, communications can refer to routes or systems connecting places. 交通聯絡線；補給／通訊線」的用法，與本句語境不同。",
-        "communication-mcq-23": "「表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」」是「communications — corporate/public relations function In organizations, communications often refers to the department or function responsible for public and internal messaging. 傳播／公關溝通部門」的用法，與本句語境不同。",
-        "communication-mcq-20": "「表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」」是「establish communication = successfully create a channel of contact 建立聯絡；建立通訊」的用法，與本句語境不同。",
-        "communication-mcq-24": "「表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」」是「cell communication = processes by which cells send and receive signals 細胞通訊；細胞訊息傳遞」的用法，與本句語境不同。",
-        "communication-mcq-19": "「表示聯絡；通訊聯繫；例句：「那個村莊與外界失去聯絡。」」是「communication with a place / person = ability to establish contact or connection 聯絡；通訊聯繫」的用法，與本句語境不同。"
+        "communication-mcq-22": "本句的「communication and media」指「表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」」。",
+        "communication-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-22"
     },
@@ -2127,11 +1775,7 @@ export default {
       "masked": "She works in corporate ____.",
       "options": [
         "communication-mcq-23",
-        "communication-mcq-22",
-        "communication-mcq-24",
-        "communication-mcq-21",
-        "communication-mcq-25",
-        "communication-mcq-20"
+        "communication-mcq-19"
       ],
       "explanation": "本句的「communications」指「表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」」。",
       "sentenceIndex": 44,
@@ -2140,12 +1784,8 @@ export default {
         "communications"
       ],
       "optionReasons": {
-        "communication-mcq-23": "本句指「表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」」。",
-        "communication-mcq-22": "「表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」」是「communication — the study or professional field = an academic or professional field concerned with media, messaging, interpersonal communication, public relations, etc. 傳播學；溝通學；傳播領域」的用法，與本句語境不同。",
-        "communication-mcq-24": "「表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」」是「cell communication = processes by which cells send and receive signals 細胞通訊；細胞訊息傳遞」的用法，與本句語境不同。",
-        "communication-mcq-21": "「表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」」是「communications — routes and means of transport/contact In older, military, or formal usage, communications can refer to routes or systems connecting places. 交通聯絡線；補給／通訊線」的用法，與本句語境不同。",
-        "communication-mcq-25": "「表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」」是「animal communication = ways animals transmit information to one another through sound, movement, scent, etc. 動物溝通；動物訊息傳遞」的用法，與本句語境不同。",
-        "communication-mcq-20": "「表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」」是「establish communication = successfully create a channel of contact 建立聯絡；建立通訊」的用法，與本句語境不同。"
+        "communication-mcq-23": "本句的「communications」指「表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」」。",
+        "communication-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-23"
     },
@@ -2157,11 +1797,7 @@ export default {
       "masked": "The ____ prepared the announcement.",
       "options": [
         "communication-mcq-23",
-        "communication-mcq-22",
-        "communication-mcq-24",
-        "communication-mcq-21",
-        "communication-mcq-25",
-        "communication-mcq-20"
+        "communication-mcq-18"
       ],
       "explanation": "本句的「communications team」指「表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」」。",
       "sentenceIndex": 45,
@@ -2170,12 +1806,8 @@ export default {
         "communications team"
       ],
       "optionReasons": {
-        "communication-mcq-23": "本句指「表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」」。",
-        "communication-mcq-22": "「表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」」是「communication — the study or professional field = an academic or professional field concerned with media, messaging, interpersonal communication, public relations, etc. 傳播學；溝通學；傳播領域」的用法，與本句語境不同。",
-        "communication-mcq-24": "「表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」」是「cell communication = processes by which cells send and receive signals 細胞通訊；細胞訊息傳遞」的用法，與本句語境不同。",
-        "communication-mcq-21": "「表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」」是「communications — routes and means of transport/contact In older, military, or formal usage, communications can refer to routes or systems connecting places. 交通聯絡線；補給／通訊線」的用法，與本句語境不同。",
-        "communication-mcq-25": "「表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」」是「animal communication = ways animals transmit information to one another through sound, movement, scent, etc. 動物溝通；動物訊息傳遞」的用法，與本句語境不同。",
-        "communication-mcq-20": "「表示建立聯絡；建立通訊；例句：「控制中心終於與飛機建立了聯絡。」」是「establish communication = successfully create a channel of contact 建立聯絡；建立通訊」的用法，與本句語境不同。"
+        "communication-mcq-23": "本句的「communications team」指「表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」」。",
+        "communication-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-23"
     },
@@ -2187,11 +1819,7 @@ export default {
       "masked": "Hormones play an important role in ____.",
       "options": [
         "communication-mcq-24",
-        "communication-mcq-23",
-        "communication-mcq-25",
-        "communication-mcq-22",
-        "communication-mcq-26",
-        "communication-mcq-21"
+        "communication-mcq-35"
       ],
       "explanation": "本句的「cell communication」指「表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」」。",
       "sentenceIndex": 46,
@@ -2200,12 +1828,8 @@ export default {
         "cell communication"
       ],
       "optionReasons": {
-        "communication-mcq-24": "本句指「表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」」。",
-        "communication-mcq-23": "「表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」」是「communications — corporate/public relations function In organizations, communications often refers to the department or function responsible for public and internal messaging. 傳播／公關溝通部門」的用法，與本句語境不同。",
-        "communication-mcq-25": "「表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」」是「animal communication = ways animals transmit information to one another through sound, movement, scent, etc. 動物溝通；動物訊息傳遞」的用法，與本句語境不同。",
-        "communication-mcq-22": "「表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」」是「communication — the study or professional field = an academic or professional field concerned with media, messaging, interpersonal communication, public relations, etc. 傳播學；溝通學；傳播領域」的用法，與本句語境不同。",
-        "communication-mcq-26": "「表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」」是「communicate = share or transmit information, thoughts, feelings, or meaning 溝通；傳達；交流」的用法，與本句語境不同。",
-        "communication-mcq-21": "「表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」」是「communications — routes and means of transport/contact In older, military, or formal usage, communications can refer to routes or systems connecting places. 交通聯絡線；補給／通訊線」的用法，與本句語境不同。"
+        "communication-mcq-24": "本句的「cell communication」指「表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」」。",
+        "communication-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-24"
     },
@@ -2217,11 +1841,7 @@ export default {
       "masked": "Researchers study how disease affects ____.",
       "options": [
         "communication-mcq-24",
-        "communication-mcq-23",
-        "communication-mcq-25",
-        "communication-mcq-22",
-        "communication-mcq-26",
-        "communication-mcq-21"
+        "communication-mcq-01"
       ],
       "explanation": "本句的「cell communication」指「表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」」。",
       "sentenceIndex": 47,
@@ -2230,12 +1850,8 @@ export default {
         "cell communication"
       ],
       "optionReasons": {
-        "communication-mcq-24": "本句指「表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」」。",
-        "communication-mcq-23": "「表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」」是「communications — corporate/public relations function In organizations, communications often refers to the department or function responsible for public and internal messaging. 傳播／公關溝通部門」的用法，與本句語境不同。",
-        "communication-mcq-25": "「表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」」是「animal communication = ways animals transmit information to one another through sound, movement, scent, etc. 動物溝通；動物訊息傳遞」的用法，與本句語境不同。",
-        "communication-mcq-22": "「表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」」是「communication — the study or professional field = an academic or professional field concerned with media, messaging, interpersonal communication, public relations, etc. 傳播學；溝通學；傳播領域」的用法，與本句語境不同。",
-        "communication-mcq-26": "「表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」」是「communicate = share or transmit information, thoughts, feelings, or meaning 溝通；傳達；交流」的用法，與本句語境不同。",
-        "communication-mcq-21": "「表示交通聯絡線；補給／通訊線；例句：「軍隊試圖保護其交通與補給聯絡線。」」是「communications — routes and means of transport/contact In older, military, or formal usage, communications can refer to routes or systems connecting places. 交通聯絡線；補給／通訊線」的用法，與本句語境不同。"
+        "communication-mcq-24": "本句的「cell communication」指「表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」」。",
+        "communication-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-24"
     },
@@ -2247,11 +1863,7 @@ export default {
       "masked": "Birdsong is one form of ____.",
       "options": [
         "communication-mcq-25",
-        "communication-mcq-24",
-        "communication-mcq-26",
-        "communication-mcq-23",
-        "communication-mcq-27",
-        "communication-mcq-22"
+        "communication-mcq-21"
       ],
       "explanation": "本句的「animal communication」指「表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」」。",
       "sentenceIndex": 48,
@@ -2260,12 +1872,8 @@ export default {
         "animal communication"
       ],
       "optionReasons": {
-        "communication-mcq-25": "本句指「表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」」。",
-        "communication-mcq-24": "「表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」」是「cell communication = processes by which cells send and receive signals 細胞通訊；細胞訊息傳遞」的用法，與本句語境不同。",
-        "communication-mcq-26": "「表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」」是「communicate = share or transmit information, thoughts, feelings, or meaning 溝通；傳達；交流」的用法，與本句語境不同。",
-        "communication-mcq-23": "「表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」」是「communications — corporate/public relations function In organizations, communications often refers to the department or function responsible for public and internal messaging. 傳播／公關溝通部門」的用法，與本句語境不同。",
-        "communication-mcq-27": "「表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」」是「communicate with someone = exchange information or ideas with another person 與某人溝通／聯絡」的用法，與本句語境不同。",
-        "communication-mcq-22": "「表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」」是「communication — the study or professional field = an academic or professional field concerned with media, messaging, interpersonal communication, public relations, etc. 傳播學；溝通學；傳播領域」的用法，與本句語境不同。"
+        "communication-mcq-25": "本句的「animal communication」指「表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」」。",
+        "communication-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-25"
     },
@@ -2277,11 +1885,7 @@ export default {
       "masked": "Scientists study chemical signals in insect ____.",
       "options": [
         "communication-mcq-25",
-        "communication-mcq-24",
-        "communication-mcq-26",
-        "communication-mcq-23",
-        "communication-mcq-27",
-        "communication-mcq-22"
+        "communication-mcq-21"
       ],
       "explanation": "本句的「communication」指「表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」」。",
       "sentenceIndex": 49,
@@ -2290,12 +1894,8 @@ export default {
         "communication"
       ],
       "optionReasons": {
-        "communication-mcq-25": "本句指「表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」」。",
-        "communication-mcq-24": "「表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」」是「cell communication = processes by which cells send and receive signals 細胞通訊；細胞訊息傳遞」的用法，與本句語境不同。",
-        "communication-mcq-26": "「表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」」是「communicate = share or transmit information, thoughts, feelings, or meaning 溝通；傳達；交流」的用法，與本句語境不同。",
-        "communication-mcq-23": "「表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」」是「communications — corporate/public relations function In organizations, communications often refers to the department or function responsible for public and internal messaging. 傳播／公關溝通部門」的用法，與本句語境不同。",
-        "communication-mcq-27": "「表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」」是「communicate with someone = exchange information or ideas with another person 與某人溝通／聯絡」的用法，與本句語境不同。",
-        "communication-mcq-22": "「表示傳播學；溝通學；傳播領域；例句：「她在大學主修傳播學。」」是「communication — the study or professional field = an academic or professional field concerned with media, messaging, interpersonal communication, public relations, etc. 傳播學；溝通學；傳播領域」的用法，與本句語境不同。"
+        "communication-mcq-25": "本句的「communication」指「表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」」。",
+        "communication-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-25"
     },
@@ -2307,11 +1907,7 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "communication-mcq-26",
-        "communication-mcq-25",
-        "communication-mcq-27",
-        "communication-mcq-24",
-        "communication-mcq-28",
-        "communication-mcq-23"
+        "communication-mcq-17"
       ],
       "explanation": "本句的「communicate more clearly」指「表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」」。",
       "sentenceIndex": 50,
@@ -2320,12 +1916,8 @@ export default {
         "communicate more clearly"
       ],
       "optionReasons": {
-        "communication-mcq-26": "本句指「表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」」。",
-        "communication-mcq-25": "「表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」」是「animal communication = ways animals transmit information to one another through sound, movement, scent, etc. 動物溝通；動物訊息傳遞」的用法，與本句語境不同。",
-        "communication-mcq-27": "「表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」」是「communicate with someone = exchange information or ideas with another person 與某人溝通／聯絡」的用法，與本句語境不同。",
-        "communication-mcq-24": "「表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」」是「cell communication = processes by which cells send and receive signals 細胞通訊；細胞訊息傳遞」的用法，與本句語境不同。",
-        "communication-mcq-28": "「表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」」是「communicate something = successfully express or convey an idea, feeling, message, etc. 傳達；表達」的用法，與本句語境不同。",
-        "communication-mcq-23": "「表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」」是「communications — corporate/public relations function In organizations, communications often refers to the department or function responsible for public and internal messaging. 傳播／公關溝通部門」的用法，與本句語境不同。"
+        "communication-mcq-26": "本句的「communicate more clearly」指「表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」」。",
+        "communication-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-26"
     },
@@ -2337,11 +1929,7 @@ export default {
       "masked": "She found it difficult to ____.",
       "options": [
         "communication-mcq-26",
-        "communication-mcq-25",
-        "communication-mcq-27",
-        "communication-mcq-24",
-        "communication-mcq-28",
-        "communication-mcq-23"
+        "communication-mcq-09"
       ],
       "explanation": "本句的「communicate her feelings」指「表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」」。",
       "sentenceIndex": 51,
@@ -2350,12 +1938,8 @@ export default {
         "communicate her feelings"
       ],
       "optionReasons": {
-        "communication-mcq-26": "本句指「表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」」。",
-        "communication-mcq-25": "「表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」」是「animal communication = ways animals transmit information to one another through sound, movement, scent, etc. 動物溝通；動物訊息傳遞」的用法，與本句語境不同。",
-        "communication-mcq-27": "「表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」」是「communicate with someone = exchange information or ideas with another person 與某人溝通／聯絡」的用法，與本句語境不同。",
-        "communication-mcq-24": "「表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」」是「cell communication = processes by which cells send and receive signals 細胞通訊；細胞訊息傳遞」的用法，與本句語境不同。",
-        "communication-mcq-28": "「表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」」是「communicate something = successfully express or convey an idea, feeling, message, etc. 傳達；表達」的用法，與本句語境不同。",
-        "communication-mcq-23": "「表示傳播／公關溝通部門；例句：「她從事企業公關傳播工作。」」是「communications — corporate/public relations function In organizations, communications often refers to the department or function responsible for public and internal messaging. 傳播／公關溝通部門」的用法，與本句語境不同。"
+        "communication-mcq-26": "本句的「communicate her feelings」指「表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」」。",
+        "communication-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-26"
     },
@@ -2367,11 +1951,7 @@ export default {
       "masked": "He communicates well ____.",
       "options": [
         "communication-mcq-27",
-        "communication-mcq-26",
-        "communication-mcq-28",
-        "communication-mcq-25",
-        "communication-mcq-29",
-        "communication-mcq-24"
+        "communication-mcq-18"
       ],
       "explanation": "本句的「with children」指「表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」」。",
       "sentenceIndex": 52,
@@ -2380,12 +1960,8 @@ export default {
         "with children"
       ],
       "optionReasons": {
-        "communication-mcq-27": "本句指「表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」」。",
-        "communication-mcq-26": "「表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」」是「communicate = share or transmit information, thoughts, feelings, or meaning 溝通；傳達；交流」的用法，與本句語境不同。",
-        "communication-mcq-28": "「表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」」是「communicate something = successfully express or convey an idea, feeling, message, etc. 傳達；表達」的用法，與本句語境不同。",
-        "communication-mcq-25": "「表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」」是「animal communication = ways animals transmit information to one another through sound, movement, scent, etc. 動物溝通；動物訊息傳遞」的用法，與本句語境不同。",
-        "communication-mcq-29": "「表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」」是「communicative competence = ability to use language appropriately and effectively in real communication 溝通能力；交際能力」的用法，與本句語境不同。",
-        "communication-mcq-24": "「表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」」是「cell communication = processes by which cells send and receive signals 細胞通訊；細胞訊息傳遞」的用法，與本句語境不同。"
+        "communication-mcq-27": "本句的「with children」指「表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」」。",
+        "communication-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-27"
     },
@@ -2397,11 +1973,7 @@ export default {
       "masked": "We usually ____.",
       "options": [
         "communication-mcq-27",
-        "communication-mcq-26",
-        "communication-mcq-28",
-        "communication-mcq-25",
-        "communication-mcq-29",
-        "communication-mcq-24"
+        "communication-mcq-16"
       ],
       "explanation": "本句的「communicate with clients by email」指「表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」」。",
       "sentenceIndex": 53,
@@ -2410,12 +1982,8 @@ export default {
         "communicate with clients by email"
       ],
       "optionReasons": {
-        "communication-mcq-27": "本句指「表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」」。",
-        "communication-mcq-26": "「表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」」是「communicate = share or transmit information, thoughts, feelings, or meaning 溝通；傳達；交流」的用法，與本句語境不同。",
-        "communication-mcq-28": "「表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」」是「communicate something = successfully express or convey an idea, feeling, message, etc. 傳達；表達」的用法，與本句語境不同。",
-        "communication-mcq-25": "「表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」」是「animal communication = ways animals transmit information to one another through sound, movement, scent, etc. 動物溝通；動物訊息傳遞」的用法，與本句語境不同。",
-        "communication-mcq-29": "「表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」」是「communicative competence = ability to use language appropriately and effectively in real communication 溝通能力；交際能力」的用法，與本句語境不同。",
-        "communication-mcq-24": "「表示細胞通訊；細胞訊息傳遞；例句：「荷爾蒙在細胞通訊中扮演重要角色。」」是「cell communication = processes by which cells send and receive signals 細胞通訊；細胞訊息傳遞」的用法，與本句語境不同。"
+        "communication-mcq-27": "本句的「communicate with clients by email」指「表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」」。",
+        "communication-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-27"
     },
@@ -2427,11 +1995,7 @@ export default {
       "masked": "The image ____.",
       "options": [
         "communication-mcq-28",
-        "communication-mcq-27",
-        "communication-mcq-29",
-        "communication-mcq-26",
-        "communication-mcq-30",
-        "communication-mcq-25"
+        "communication-mcq-19"
       ],
       "explanation": "本句的「communicates a sense of calm」指「表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」」。",
       "sentenceIndex": 54,
@@ -2440,12 +2004,8 @@ export default {
         "communicates a sense of calm"
       ],
       "optionReasons": {
-        "communication-mcq-28": "本句指「表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」」。",
-        "communication-mcq-27": "「表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」」是「communicate with someone = exchange information or ideas with another person 與某人溝通／聯絡」的用法，與本句語境不同。",
-        "communication-mcq-29": "「表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」」是「communicative competence = ability to use language appropriately and effectively in real communication 溝通能力；交際能力」的用法，與本句語境不同。",
-        "communication-mcq-26": "「表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」」是「communicate = share or transmit information, thoughts, feelings, or meaning 溝通；傳達；交流」的用法，與本句語境不同。",
-        "communication-mcq-30": "「表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」」是「communicator = a person who communicates, especially one who does it effectively 溝通者；善於溝通的人」的用法，與本句語境不同。",
-        "communication-mcq-25": "「表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」」是「animal communication = ways animals transmit information to one another through sound, movement, scent, etc. 動物溝通；動物訊息傳遞」的用法，與本句語境不同。"
+        "communication-mcq-28": "本句的「communicates a sense of calm」指「表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」」。",
+        "communication-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-28"
     },
@@ -2457,11 +2017,7 @@ export default {
       "masked": "She struggled to ____.",
       "options": [
         "communication-mcq-28",
-        "communication-mcq-27",
-        "communication-mcq-29",
-        "communication-mcq-26",
-        "communication-mcq-30",
-        "communication-mcq-25"
+        "communication-mcq-21"
       ],
       "explanation": "本句的「communicate her idea clearly」指「表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」」。",
       "sentenceIndex": 55,
@@ -2470,12 +2026,8 @@ export default {
         "communicate her idea clearly"
       ],
       "optionReasons": {
-        "communication-mcq-28": "本句指「表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」」。",
-        "communication-mcq-27": "「表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」」是「communicate with someone = exchange information or ideas with another person 與某人溝通／聯絡」的用法，與本句語境不同。",
-        "communication-mcq-29": "「表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」」是「communicative competence = ability to use language appropriately and effectively in real communication 溝通能力；交際能力」的用法，與本句語境不同。",
-        "communication-mcq-26": "「表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」」是「communicate = share or transmit information, thoughts, feelings, or meaning 溝通；傳達；交流」的用法，與本句語境不同。",
-        "communication-mcq-30": "「表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」」是「communicator = a person who communicates, especially one who does it effectively 溝通者；善於溝通的人」的用法，與本句語境不同。",
-        "communication-mcq-25": "「表示動物溝通；動物訊息傳遞；例句：「鳥鳴是動物溝通的一種形式。」」是「animal communication = ways animals transmit information to one another through sound, movement, scent, etc. 動物溝通；動物訊息傳遞」的用法，與本句語境不同。"
+        "communication-mcq-28": "本句的「communicate her idea clearly」指「表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」」。",
+        "communication-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-28"
     },
@@ -2487,11 +2039,7 @@ export default {
       "masked": "Language learning involves more than grammar; it also requires ____ competence.",
       "options": [
         "communication-mcq-29",
-        "communication-mcq-28",
-        "communication-mcq-30",
-        "communication-mcq-27",
-        "communication-mcq-31",
-        "communication-mcq-26"
+        "communication-mcq-19"
       ],
       "explanation": "本句的「communicative」指「表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」」。",
       "sentenceIndex": 56,
@@ -2500,12 +2048,8 @@ export default {
         "communicative"
       ],
       "optionReasons": {
-        "communication-mcq-29": "本句指「表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」」。",
-        "communication-mcq-28": "「表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」」是「communicate something = successfully express or convey an idea, feeling, message, etc. 傳達；表達」的用法，與本句語境不同。",
-        "communication-mcq-30": "「表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」」是「communicator = a person who communicates, especially one who does it effectively 溝通者；善於溝通的人」的用法，與本句語境不同。",
-        "communication-mcq-27": "「表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」」是「communicate with someone = exchange information or ideas with another person 與某人溝通／聯絡」的用法，與本句語境不同。",
-        "communication-mcq-31": "「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」是「miscommunication = failure to communicate correctly, leading to misunderstanding 溝通錯誤；溝通不良；誤會」的用法，與本句語境不同。",
-        "communication-mcq-26": "「表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」」是「communicate = share or transmit information, thoughts, feelings, or meaning 溝通；傳達；交流」的用法，與本句語境不同。"
+        "communication-mcq-29": "本句的「communicative」指「表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」」。",
+        "communication-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-29"
     },
@@ -2517,11 +2061,7 @@ export default {
       "masked": "The course aims to develop students’ ____.",
       "options": [
         "communication-mcq-29",
-        "communication-mcq-28",
-        "communication-mcq-30",
-        "communication-mcq-27",
-        "communication-mcq-31",
-        "communication-mcq-26"
+        "communication-mcq-09"
       ],
       "explanation": "本句的「communicative competence」指「表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」」。",
       "sentenceIndex": 57,
@@ -2530,12 +2070,8 @@ export default {
         "communicative competence"
       ],
       "optionReasons": {
-        "communication-mcq-29": "本句指「表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」」。",
-        "communication-mcq-28": "「表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」」是「communicate something = successfully express or convey an idea, feeling, message, etc. 傳達；表達」的用法，與本句語境不同。",
-        "communication-mcq-30": "「表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」」是「communicator = a person who communicates, especially one who does it effectively 溝通者；善於溝通的人」的用法，與本句語境不同。",
-        "communication-mcq-27": "「表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」」是「communicate with someone = exchange information or ideas with another person 與某人溝通／聯絡」的用法，與本句語境不同。",
-        "communication-mcq-31": "「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」是「miscommunication = failure to communicate correctly, leading to misunderstanding 溝通錯誤；溝通不良；誤會」的用法，與本句語境不同。",
-        "communication-mcq-26": "「表示溝通；傳達；交流；例句：「我們需要溝通得更清楚。」」是「communicate = share or transmit information, thoughts, feelings, or meaning 溝通；傳達；交流」的用法，與本句語境不同。"
+        "communication-mcq-29": "本句的「communicative competence」指「表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」」。",
+        "communication-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-29"
     },
@@ -2547,11 +2083,7 @@ export default {
       "masked": "She is an excellent ____.",
       "options": [
         "communication-mcq-30",
-        "communication-mcq-29",
-        "communication-mcq-31",
-        "communication-mcq-28",
-        "communication-mcq-32",
-        "communication-mcq-27"
+        "communication-mcq-24"
       ],
       "explanation": "本句的「communicator」指「表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」」。",
       "sentenceIndex": 58,
@@ -2560,12 +2092,8 @@ export default {
         "communicator"
       ],
       "optionReasons": {
-        "communication-mcq-30": "本句指「表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」」。",
-        "communication-mcq-29": "「表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」」是「communicative competence = ability to use language appropriately and effectively in real communication 溝通能力；交際能力」的用法，與本句語境不同。",
-        "communication-mcq-31": "「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」是「miscommunication = failure to communicate correctly, leading to misunderstanding 溝通錯誤；溝通不良；誤會」的用法，與本句語境不同。",
-        "communication-mcq-28": "「表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」」是「communicate something = successfully express or convey an idea, feeling, message, etc. 傳達；表達」的用法，與本句語境不同。",
-        "communication-mcq-32": "「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」是「poor communication = ineffective or unclear exchange of information 溝通不良」的用法，與本句語境不同。",
-        "communication-mcq-27": "「表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」」是「communicate with someone = exchange information or ideas with another person 與某人溝通／聯絡」的用法，與本句語境不同。"
+        "communication-mcq-30": "本句的「communicator」指「表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」」。",
+        "communication-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-30"
     },
@@ -2577,11 +2105,7 @@ export default {
       "masked": "Good leaders are often strong ____.",
       "options": [
         "communication-mcq-30",
-        "communication-mcq-29",
-        "communication-mcq-31",
-        "communication-mcq-28",
-        "communication-mcq-32",
-        "communication-mcq-27"
+        "communication-mcq-20"
       ],
       "explanation": "本句的「communicators」指「表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」」。",
       "sentenceIndex": 59,
@@ -2590,12 +2114,8 @@ export default {
         "communicators"
       ],
       "optionReasons": {
-        "communication-mcq-30": "本句指「表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」」。",
-        "communication-mcq-29": "「表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」」是「communicative competence = ability to use language appropriately and effectively in real communication 溝通能力；交際能力」的用法，與本句語境不同。",
-        "communication-mcq-31": "「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」是「miscommunication = failure to communicate correctly, leading to misunderstanding 溝通錯誤；溝通不良；誤會」的用法，與本句語境不同。",
-        "communication-mcq-28": "「表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」」是「communicate something = successfully express or convey an idea, feeling, message, etc. 傳達；表達」的用法，與本句語境不同。",
-        "communication-mcq-32": "「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」是「poor communication = ineffective or unclear exchange of information 溝通不良」的用法，與本句語境不同。",
-        "communication-mcq-27": "「表示與某人溝通／聯絡；例句：「他很會和孩子溝通。」」是「communicate with someone = exchange information or ideas with another person 與某人溝通／聯絡」的用法，與本句語境不同。"
+        "communication-mcq-30": "本句的「communicators」指「表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」」。",
+        "communication-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-30"
     },
@@ -2607,11 +2127,7 @@ export default {
       "masked": "The mistake was caused by a ____.",
       "options": [
         "communication-mcq-31",
-        "communication-mcq-30",
-        "communication-mcq-32",
-        "communication-mcq-29",
-        "communication-mcq-33",
-        "communication-mcq-28"
+        "communication-mcq-20"
       ],
       "explanation": "本句的「miscommunication」指「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」。",
       "sentenceIndex": 60,
@@ -2620,12 +2136,8 @@ export default {
         "miscommunication"
       ],
       "optionReasons": {
-        "communication-mcq-31": "本句指「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」。",
-        "communication-mcq-30": "「表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」」是「communicator = a person who communicates, especially one who does it effectively 溝通者；善於溝通的人」的用法，與本句語境不同。",
-        "communication-mcq-32": "「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」是「poor communication = ineffective or unclear exchange of information 溝通不良」的用法，與本句語境不同。",
-        "communication-mcq-29": "「表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」」是「communicative competence = ability to use language appropriately and effectively in real communication 溝通能力；交際能力」的用法，與本句語境不同。",
-        "communication-mcq-33": "「表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」」是「breakdown in communication = a situation in which communication stops working effectively 溝通中斷；溝通失靈」的用法，與本句語境不同。",
-        "communication-mcq-28": "「表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」」是「communicate something = successfully express or convey an idea, feeling, message, etc. 傳達；表達」的用法，與本句語境不同。"
+        "communication-mcq-31": "本句的「miscommunication」指「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」。",
+        "communication-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-31"
     },
@@ -2637,11 +2149,7 @@ export default {
       "masked": "Better documentation could prevent ____.",
       "options": [
         "communication-mcq-31",
-        "communication-mcq-30",
-        "communication-mcq-32",
-        "communication-mcq-29",
-        "communication-mcq-33",
-        "communication-mcq-28"
+        "communication-mcq-19"
       ],
       "explanation": "本句的「miscommunication」指「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」。",
       "sentenceIndex": 61,
@@ -2650,12 +2158,8 @@ export default {
         "miscommunication"
       ],
       "optionReasons": {
-        "communication-mcq-31": "本句指「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」。",
-        "communication-mcq-30": "「表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」」是「communicator = a person who communicates, especially one who does it effectively 溝通者；善於溝通的人」的用法，與本句語境不同。",
-        "communication-mcq-32": "「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」是「poor communication = ineffective or unclear exchange of information 溝通不良」的用法，與本句語境不同。",
-        "communication-mcq-29": "「表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」」是「communicative competence = ability to use language appropriately and effectively in real communication 溝通能力；交際能力」的用法，與本句語境不同。",
-        "communication-mcq-33": "「表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」」是「breakdown in communication = a situation in which communication stops working effectively 溝通中斷；溝通失靈」的用法，與本句語境不同。",
-        "communication-mcq-28": "「表示傳達；表達；例句：「這幅圖像傳達出一種平靜感。」」是「communicate something = successfully express or convey an idea, feeling, message, etc. 傳達；表達」的用法，與本句語境不同。"
+        "communication-mcq-31": "本句的「miscommunication」指「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」。",
+        "communication-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-31"
     },
@@ -2667,11 +2171,7 @@ export default {
       "masked": "____ caused unnecessary delays.",
       "options": [
         "communication-mcq-32",
-        "communication-mcq-31",
-        "communication-mcq-33",
-        "communication-mcq-30",
-        "communication-mcq-34",
-        "communication-mcq-29"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Poor communication」指「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」。",
       "sentenceIndex": 62,
@@ -2680,12 +2180,8 @@ export default {
         "Poor communication"
       ],
       "optionReasons": {
-        "communication-mcq-32": "本句指「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」。",
-        "communication-mcq-31": "「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」是「miscommunication = failure to communicate correctly, leading to misunderstanding 溝通錯誤；溝通不良；誤會」的用法，與本句語境不同。",
-        "communication-mcq-33": "「表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」」是「breakdown in communication = a situation in which communication stops working effectively 溝通中斷；溝通失靈」的用法，與本句語境不同。",
-        "communication-mcq-30": "「表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」」是「communicator = a person who communicates, especially one who does it effectively 溝通者；善於溝通的人」的用法，與本句語境不同。",
-        "communication-mcq-34": "「表示溝通管道；聯絡渠道；例句：「要保持溝通管道暢通。」」是「line of communication = a channel through which information can pass 溝通管道；聯絡渠道」的用法，與本句語境不同。",
-        "communication-mcq-29": "「表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」」是「communicative competence = ability to use language appropriately and effectively in real communication 溝通能力；交際能力」的用法，與本句語境不同。"
+        "communication-mcq-32": "本句的「Poor communication」指「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-32"
     },
@@ -2697,11 +2193,7 @@ export default {
       "masked": "Many workplace problems begin with ____.",
       "options": [
         "communication-mcq-32",
-        "communication-mcq-31",
-        "communication-mcq-33",
-        "communication-mcq-30",
-        "communication-mcq-34",
-        "communication-mcq-29"
+        "contrast-purchase"
       ],
       "explanation": "本句的「poor communication」指「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」。",
       "sentenceIndex": 63,
@@ -2710,12 +2202,8 @@ export default {
         "poor communication"
       ],
       "optionReasons": {
-        "communication-mcq-32": "本句指「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」。",
-        "communication-mcq-31": "「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」是「miscommunication = failure to communicate correctly, leading to misunderstanding 溝通錯誤；溝通不良；誤會」的用法，與本句語境不同。",
-        "communication-mcq-33": "「表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」」是「breakdown in communication = a situation in which communication stops working effectively 溝通中斷；溝通失靈」的用法，與本句語境不同。",
-        "communication-mcq-30": "「表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」」是「communicator = a person who communicates, especially one who does it effectively 溝通者；善於溝通的人」的用法，與本句語境不同。",
-        "communication-mcq-34": "「表示溝通管道；聯絡渠道；例句：「要保持溝通管道暢通。」」是「line of communication = a channel through which information can pass 溝通管道；聯絡渠道」的用法，與本句語境不同。",
-        "communication-mcq-29": "「表示溝通能力；交際能力；例句：「語言學習不只包括文法，也需要溝通能力。」」是「communicative competence = ability to use language appropriately and effectively in real communication 溝通能力；交際能力」的用法，與本句語境不同。"
+        "communication-mcq-32": "本句的「poor communication」指「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-32"
     },
@@ -2727,11 +2215,7 @@ export default {
       "masked": "The dispute resulted from a ____.",
       "options": [
         "communication-mcq-33",
-        "communication-mcq-32",
-        "communication-mcq-34",
-        "communication-mcq-31",
-        "communication-mcq-35",
-        "communication-mcq-30"
+        "communication-mcq-20"
       ],
       "explanation": "本句的「breakdown in communication」指「表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」」。",
       "sentenceIndex": 64,
@@ -2740,12 +2224,8 @@ export default {
         "breakdown in communication"
       ],
       "optionReasons": {
-        "communication-mcq-33": "本句指「表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」」。",
-        "communication-mcq-32": "「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」是「poor communication = ineffective or unclear exchange of information 溝通不良」的用法，與本句語境不同。",
-        "communication-mcq-34": "「表示溝通管道；聯絡渠道；例句：「要保持溝通管道暢通。」」是「line of communication = a channel through which information can pass 溝通管道；聯絡渠道」的用法，與本句語境不同。",
-        "communication-mcq-31": "「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」是「miscommunication = failure to communicate correctly, leading to misunderstanding 溝通錯誤；溝通不良；誤會」的用法，與本句語境不同。",
-        "communication-mcq-35": "「表示溝通障礙；例句：「語言差異可能形成溝通障礙。」」是「communication barrier = something that prevents or makes communication difficult 溝通障礙」的用法，與本句語境不同。",
-        "communication-mcq-30": "「表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」」是「communicator = a person who communicates, especially one who does it effectively 溝通者；善於溝通的人」的用法，與本句語境不同。"
+        "communication-mcq-33": "本句的「breakdown in communication」指「表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」」。",
+        "communication-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-33"
     },
@@ -2757,11 +2237,7 @@ export default {
       "masked": "A ____ between the teams caused confusion.",
       "options": [
         "communication-mcq-33",
-        "communication-mcq-32",
-        "communication-mcq-34",
-        "communication-mcq-31",
-        "communication-mcq-35",
-        "communication-mcq-30"
+        "communication-mcq-19"
       ],
       "explanation": "本句的「breakdown in communication」指「表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」」。",
       "sentenceIndex": 65,
@@ -2770,12 +2246,8 @@ export default {
         "breakdown in communication"
       ],
       "optionReasons": {
-        "communication-mcq-33": "本句指「表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」」。",
-        "communication-mcq-32": "「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」是「poor communication = ineffective or unclear exchange of information 溝通不良」的用法，與本句語境不同。",
-        "communication-mcq-34": "「表示溝通管道；聯絡渠道；例句：「要保持溝通管道暢通。」」是「line of communication = a channel through which information can pass 溝通管道；聯絡渠道」的用法，與本句語境不同。",
-        "communication-mcq-31": "「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」是「miscommunication = failure to communicate correctly, leading to misunderstanding 溝通錯誤；溝通不良；誤會」的用法，與本句語境不同。",
-        "communication-mcq-35": "「表示溝通障礙；例句：「語言差異可能形成溝通障礙。」」是「communication barrier = something that prevents or makes communication difficult 溝通障礙」的用法，與本句語境不同。",
-        "communication-mcq-30": "「表示溝通者；善於溝通的人；例句：「她是一位非常善於溝通的人。」」是「communicator = a person who communicates, especially one who does it effectively 溝通者；善於溝通的人」的用法，與本句語境不同。"
+        "communication-mcq-33": "本句的「breakdown in communication」指「表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」」。",
+        "communication-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-33"
     },
@@ -2787,11 +2259,7 @@ export default {
       "masked": "Keep the ____ open.",
       "options": [
         "communication-mcq-34",
-        "communication-mcq-33",
-        "communication-mcq-35",
-        "communication-mcq-32",
-        "communication-mcq-36",
-        "communication-mcq-31"
+        "communication-mcq-16"
       ],
       "explanation": "本句的「lines of communication」指「表示溝通管道；聯絡渠道；例句：「要保持溝通管道暢通。」」。",
       "sentenceIndex": 66,
@@ -2800,12 +2268,8 @@ export default {
         "lines of communication"
       ],
       "optionReasons": {
-        "communication-mcq-34": "本句指「表示溝通管道；聯絡渠道；例句：「要保持溝通管道暢通。」」。",
-        "communication-mcq-33": "「表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」」是「breakdown in communication = a situation in which communication stops working effectively 溝通中斷；溝通失靈」的用法，與本句語境不同。",
-        "communication-mcq-35": "「表示溝通障礙；例句：「語言差異可能形成溝通障礙。」」是「communication barrier = something that prevents or makes communication difficult 溝通障礙」的用法，與本句語境不同。",
-        "communication-mcq-32": "「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」是「poor communication = ineffective or unclear exchange of information 溝通不良」的用法，與本句語境不同。",
-        "communication-mcq-36": "「表示溝通方式；通訊手段；例句：「電子郵件仍是重要的溝通方式。」」是「means of communication = a method or medium used to communicate 溝通方式；通訊手段」的用法，與本句語境不同。",
-        "communication-mcq-31": "「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」是「miscommunication = failure to communicate correctly, leading to misunderstanding 溝通錯誤；溝通不良；誤會」的用法，與本句語境不同。"
+        "communication-mcq-34": "本句的「lines of communication」指「表示溝通管道；聯絡渠道；例句：「要保持溝通管道暢通。」」。",
+        "communication-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-34"
     },
@@ -2817,11 +2281,7 @@ export default {
       "masked": "We established a direct ____ with the supplier.",
       "options": [
         "communication-mcq-34",
-        "communication-mcq-33",
-        "communication-mcq-35",
-        "communication-mcq-32",
-        "communication-mcq-36",
-        "communication-mcq-31"
+        "communication-mcq-17"
       ],
       "explanation": "本句的「line of communication」指「表示溝通管道；聯絡渠道；例句：「要保持溝通管道暢通。」」。",
       "sentenceIndex": 67,
@@ -2830,12 +2290,8 @@ export default {
         "line of communication"
       ],
       "optionReasons": {
-        "communication-mcq-34": "本句指「表示溝通管道；聯絡渠道；例句：「要保持溝通管道暢通。」」。",
-        "communication-mcq-33": "「表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」」是「breakdown in communication = a situation in which communication stops working effectively 溝通中斷；溝通失靈」的用法，與本句語境不同。",
-        "communication-mcq-35": "「表示溝通障礙；例句：「語言差異可能形成溝通障礙。」」是「communication barrier = something that prevents or makes communication difficult 溝通障礙」的用法，與本句語境不同。",
-        "communication-mcq-32": "「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」是「poor communication = ineffective or unclear exchange of information 溝通不良」的用法，與本句語境不同。",
-        "communication-mcq-36": "「表示溝通方式；通訊手段；例句：「電子郵件仍是重要的溝通方式。」」是「means of communication = a method or medium used to communicate 溝通方式；通訊手段」的用法，與本句語境不同。",
-        "communication-mcq-31": "「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」是「miscommunication = failure to communicate correctly, leading to misunderstanding 溝通錯誤；溝通不良；誤會」的用法，與本句語境不同。"
+        "communication-mcq-34": "本句的「line of communication」指「表示溝通管道；聯絡渠道；例句：「要保持溝通管道暢通。」」。",
+        "communication-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-34"
     },
@@ -2847,11 +2303,7 @@ export default {
       "masked": "Language differences can create a ____.",
       "options": [
         "communication-mcq-35",
-        "communication-mcq-34",
-        "communication-mcq-36",
-        "communication-mcq-33",
-        "communication-mcq-32",
-        "communication-mcq-31"
+        "communication-mcq-19"
       ],
       "explanation": "本句的「communication barrier」指「表示溝通障礙；例句：「語言差異可能形成溝通障礙。」」。",
       "sentenceIndex": 68,
@@ -2860,12 +2312,8 @@ export default {
         "communication barrier"
       ],
       "optionReasons": {
-        "communication-mcq-35": "本句指「表示溝通障礙；例句：「語言差異可能形成溝通障礙。」」。",
-        "communication-mcq-34": "「表示溝通管道；聯絡渠道；例句：「要保持溝通管道暢通。」」是「line of communication = a channel through which information can pass 溝通管道；聯絡渠道」的用法，與本句語境不同。",
-        "communication-mcq-36": "「表示溝通方式；通訊手段；例句：「電子郵件仍是重要的溝通方式。」」是「means of communication = a method or medium used to communicate 溝通方式；通訊手段」的用法，與本句語境不同。",
-        "communication-mcq-33": "「表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」」是「breakdown in communication = a situation in which communication stops working effectively 溝通中斷；溝通失靈」的用法，與本句語境不同。",
-        "communication-mcq-32": "「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」是「poor communication = ineffective or unclear exchange of information 溝通不良」的用法，與本句語境不同。",
-        "communication-mcq-31": "「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」是「miscommunication = failure to communicate correctly, leading to misunderstanding 溝通錯誤；溝通不良；誤會」的用法，與本句語境不同。"
+        "communication-mcq-35": "本句的「communication barrier」指「表示溝通障礙；例句：「語言差異可能形成溝通障礙。」」。",
+        "communication-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-35"
     },
@@ -2877,11 +2325,7 @@ export default {
       "masked": "Fear can be a major ____.",
       "options": [
         "communication-mcq-35",
-        "communication-mcq-34",
-        "communication-mcq-36",
-        "communication-mcq-33",
-        "communication-mcq-32",
-        "communication-mcq-31"
+        "communication-mcq-18"
       ],
       "explanation": "本句的「barrier to communication」指「表示溝通障礙；例句：「語言差異可能形成溝通障礙。」」。",
       "sentenceIndex": 69,
@@ -2890,12 +2334,8 @@ export default {
         "barrier to communication"
       ],
       "optionReasons": {
-        "communication-mcq-35": "本句指「表示溝通障礙；例句：「語言差異可能形成溝通障礙。」」。",
-        "communication-mcq-34": "「表示溝通管道；聯絡渠道；例句：「要保持溝通管道暢通。」」是「line of communication = a channel through which information can pass 溝通管道；聯絡渠道」的用法，與本句語境不同。",
-        "communication-mcq-36": "「表示溝通方式；通訊手段；例句：「電子郵件仍是重要的溝通方式。」」是「means of communication = a method or medium used to communicate 溝通方式；通訊手段」的用法，與本句語境不同。",
-        "communication-mcq-33": "「表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」」是「breakdown in communication = a situation in which communication stops working effectively 溝通中斷；溝通失靈」的用法，與本句語境不同。",
-        "communication-mcq-32": "「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」是「poor communication = ineffective or unclear exchange of information 溝通不良」的用法，與本句語境不同。",
-        "communication-mcq-31": "「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」是「miscommunication = failure to communicate correctly, leading to misunderstanding 溝通錯誤；溝通不良；誤會」的用法，與本句語境不同。"
+        "communication-mcq-35": "本句的「barrier to communication」指「表示溝通障礙；例句：「語言差異可能形成溝通障礙。」」。",
+        "communication-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-35"
     },
@@ -2907,11 +2347,7 @@ export default {
       "masked": "Email remains an important ____.",
       "options": [
         "communication-mcq-36",
-        "communication-mcq-35",
-        "communication-mcq-34",
-        "communication-mcq-33",
-        "communication-mcq-32",
-        "communication-mcq-31"
+        "contrast-purchase"
       ],
       "explanation": "本句的「means of communication」指「表示溝通方式；通訊手段；例句：「電子郵件仍是重要的溝通方式。」」。",
       "sentenceIndex": 70,
@@ -2920,12 +2356,8 @@ export default {
         "means of communication"
       ],
       "optionReasons": {
-        "communication-mcq-36": "本句指「表示溝通方式；通訊手段；例句：「電子郵件仍是重要的溝通方式。」」。",
-        "communication-mcq-35": "「表示溝通障礙；例句：「語言差異可能形成溝通障礙。」」是「communication barrier = something that prevents or makes communication difficult 溝通障礙」的用法，與本句語境不同。",
-        "communication-mcq-34": "「表示溝通管道；聯絡渠道；例句：「要保持溝通管道暢通。」」是「line of communication = a channel through which information can pass 溝通管道；聯絡渠道」的用法，與本句語境不同。",
-        "communication-mcq-33": "「表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」」是「breakdown in communication = a situation in which communication stops working effectively 溝通中斷；溝通失靈」的用法，與本句語境不同。",
-        "communication-mcq-32": "「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」是「poor communication = ineffective or unclear exchange of information 溝通不良」的用法，與本句語境不同。",
-        "communication-mcq-31": "「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」是「miscommunication = failure to communicate correctly, leading to misunderstanding 溝通錯誤；溝通不良；誤會」的用法，與本句語境不同。"
+        "communication-mcq-36": "本句的「means of communication」指「表示溝通方式；通訊手段；例句：「電子郵件仍是重要的溝通方式。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-36"
     },
@@ -2937,11 +2369,7 @@ export default {
       "masked": "Writing was once the main long-distance ____.",
       "options": [
         "communication-mcq-36",
-        "communication-mcq-35",
-        "communication-mcq-34",
-        "communication-mcq-33",
-        "communication-mcq-32",
-        "communication-mcq-31"
+        "contrast-purchase"
       ],
       "explanation": "本句的「means of communication」指「表示溝通方式；通訊手段；例句：「電子郵件仍是重要的溝通方式。」」。",
       "sentenceIndex": 71,
@@ -2950,12 +2378,8 @@ export default {
         "means of communication"
       ],
       "optionReasons": {
-        "communication-mcq-36": "本句指「表示溝通方式；通訊手段；例句：「電子郵件仍是重要的溝通方式。」」。",
-        "communication-mcq-35": "「表示溝通障礙；例句：「語言差異可能形成溝通障礙。」」是「communication barrier = something that prevents or makes communication difficult 溝通障礙」的用法，與本句語境不同。",
-        "communication-mcq-34": "「表示溝通管道；聯絡渠道；例句：「要保持溝通管道暢通。」」是「line of communication = a channel through which information can pass 溝通管道；聯絡渠道」的用法，與本句語境不同。",
-        "communication-mcq-33": "「表示溝通中斷；溝通失靈；例句：「這場爭議源自溝通失靈。」」是「breakdown in communication = a situation in which communication stops working effectively 溝通中斷；溝通失靈」的用法，與本句語境不同。",
-        "communication-mcq-32": "「表示溝通不良；例句：「溝通不良造成了不必要的延誤。」」是「poor communication = ineffective or unclear exchange of information 溝通不良」的用法，與本句語境不同。",
-        "communication-mcq-31": "「表示溝通錯誤；溝通不良；誤會；例句：「這個錯誤是由一次溝通不良造成的。」」是「miscommunication = failure to communicate correctly, leading to misunderstanding 溝通錯誤；溝通不良；誤會」的用法，與本句語境不同。"
+        "communication-mcq-36": "本句的「means of communication」指「表示溝通方式；通訊手段；例句：「電子郵件仍是重要的溝通方式。」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "communication-mcq-36"
     }
@@ -2967,5 +2391,12 @@ export default {
     "sha256": "3a97e9f3a4722309c9d348c13665d6f299e633491948138ef36299f2587e256d",
     "pages": 19
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

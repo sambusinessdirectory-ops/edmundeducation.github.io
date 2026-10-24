@@ -237,7 +237,7 @@ export default {
     },
     {
       "id": "age-mcq-11",
-      "title": "表示年老的）",
+      "title": "年老的）",
       "form": "aged = old / elderly（年老的）",
       "en": "aged = old / elderly（年老的）",
       "zh": "表示年老的）",
@@ -276,7 +276,7 @@ export default {
     },
     {
       "id": "age-mcq-13",
-      "title": "表示達法定年齡／未達法定年齡",
+      "title": "達法定年齡／未達法定年齡",
       "form": "Fixed expression: of age / under age — 達法定年齡／未達法定年齡",
       "en": "Fixed expression: of age / under age — 達法定年齡／未達法定年齡",
       "zh": "表示達法定年齡／未達法定年齡",
@@ -306,11 +306,7 @@ export default {
       "masked": "At that ____, it meant the world to me.",
       "options": [
         "age-mcq-01",
-        "age-mcq-02",
-        "age-mcq-03",
-        "age-mcq-04",
-        "age-mcq-05",
-        "age-mcq-06"
+        "age-mcq-13"
       ],
       "explanation": "本句的「age」指「某人或某物從出生、形成或出現至今所經過的時間，通常以年計算」。",
       "sentenceIndex": 0,
@@ -319,12 +315,8 @@ export default {
         "age"
       ],
       "optionReasons": {
-        "age-mcq-01": "本句指「某人或某物從出生、形成或出現至今所經過的時間，通常以年計算」。",
-        "age-mcq-02": "「某人在生命發展中所處的年齡階段；與一般「年齡」義高度相關」是「age — life stage」的用法，與本句語境不同。",
-        "age-mcq-03": "「歷史上因共同技術、社會狀況或特徵而形成的一段時代」是「age — historical period」的用法，與本句語境不同。",
-        "age-mcq-04": "「很長的一段時間；很久」是「ages / for ages」的用法，與本句語境不同。",
-        "age-mcq-05": "「隨時間過去而年紀增加、逐漸變老」是「age — verb, person」的用法，與本句語境不同。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。"
+        "age-mcq-01": "本句的「age」指「某人或某物從出生、形成或出現至今所經過的時間，通常以年計算」。",
+        "age-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-01"
     },
@@ -336,11 +328,7 @@ export default {
       "masked": "Children of that ____ usually learn very quickly.",
       "options": [
         "age-mcq-01",
-        "age-mcq-02",
-        "age-mcq-03",
-        "age-mcq-04",
-        "age-mcq-05",
-        "age-mcq-06"
+        "age-mcq-13"
       ],
       "explanation": "本句的「age」指「某人或某物從出生、形成或出現至今所經過的時間，通常以年計算」。",
       "sentenceIndex": 1,
@@ -349,12 +337,8 @@ export default {
         "age"
       ],
       "optionReasons": {
-        "age-mcq-01": "本句指「某人或某物從出生、形成或出現至今所經過的時間，通常以年計算」。",
-        "age-mcq-02": "「某人在生命發展中所處的年齡階段；與一般「年齡」義高度相關」是「age — life stage」的用法，與本句語境不同。",
-        "age-mcq-03": "「歷史上因共同技術、社會狀況或特徵而形成的一段時代」是「age — historical period」的用法，與本句語境不同。",
-        "age-mcq-04": "「很長的一段時間；很久」是「ages / for ages」的用法，與本句語境不同。",
-        "age-mcq-05": "「隨時間過去而年紀增加、逐漸變老」是「age — verb, person」的用法，與本句語境不同。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。"
+        "age-mcq-01": "本句的「age」指「某人或某物從出生、形成或出現至今所經過的時間，通常以年計算」。",
+        "age-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-01"
     },
@@ -366,11 +350,7 @@ export default {
       "masked": "What ____ were you when you started school?",
       "options": [
         "age-mcq-01",
-        "age-mcq-02",
-        "age-mcq-03",
-        "age-mcq-04",
-        "age-mcq-05",
-        "age-mcq-06"
+        "age-mcq-13"
       ],
       "explanation": "本句的「age」指「某人或某物從出生、形成或出現至今所經過的時間，通常以年計算」。",
       "sentenceIndex": 2,
@@ -379,12 +359,8 @@ export default {
         "age"
       ],
       "optionReasons": {
-        "age-mcq-01": "本句指「某人或某物從出生、形成或出現至今所經過的時間，通常以年計算」。",
-        "age-mcq-02": "「某人在生命發展中所處的年齡階段；與一般「年齡」義高度相關」是「age — life stage」的用法，與本句語境不同。",
-        "age-mcq-03": "「歷史上因共同技術、社會狀況或特徵而形成的一段時代」是「age — historical period」的用法，與本句語境不同。",
-        "age-mcq-04": "「很長的一段時間；很久」是「ages / for ages」的用法，與本句語境不同。",
-        "age-mcq-05": "「隨時間過去而年紀增加、逐漸變老」是「age — verb, person」的用法，與本句語境不同。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。"
+        "age-mcq-01": "本句的「age」指「某人或某物從出生、形成或出現至今所經過的時間，通常以年計算」。",
+        "age-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-01"
     },
@@ -396,11 +372,7 @@ export default {
       "masked": "At her ____, she values stability more than excitement.",
       "options": [
         "age-mcq-02",
-        "age-mcq-01",
-        "age-mcq-03",
-        "age-mcq-04",
-        "age-mcq-05",
-        "age-mcq-06"
+        "age-mcq-09"
       ],
       "explanation": "本句的「age」指「某人在生命發展中所處的年齡階段；與一般「年齡」義高度相關」。",
       "sentenceIndex": 3,
@@ -409,12 +381,8 @@ export default {
         "age"
       ],
       "optionReasons": {
-        "age-mcq-02": "本句指「某人在生命發展中所處的年齡階段；與一般「年齡」義高度相關」。",
-        "age-mcq-01": "「某人或某物從出生、形成或出現至今所經過的時間，通常以年計算」是「age — how old someone/something is」的用法，與本句語境不同。",
-        "age-mcq-03": "「歷史上因共同技術、社會狀況或特徵而形成的一段時代」是「age — historical period」的用法，與本句語境不同。",
-        "age-mcq-04": "「很長的一段時間；很久」是「ages / for ages」的用法，與本句語境不同。",
-        "age-mcq-05": "「隨時間過去而年紀增加、逐漸變老」是「age — verb, person」的用法，與本句語境不同。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。"
+        "age-mcq-02": "本句的「age」指「某人在生命發展中所處的年齡階段；與一般「年齡」義高度相關」。",
+        "age-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-02"
     },
@@ -426,11 +394,7 @@ export default {
       "masked": "Children at that ____ need plenty of encouragement.",
       "options": [
         "age-mcq-02",
-        "age-mcq-01",
-        "age-mcq-03",
-        "age-mcq-04",
-        "age-mcq-05",
-        "age-mcq-06"
+        "age-mcq-09"
       ],
       "explanation": "本句的「age」指「某人在生命發展中所處的年齡階段；與一般「年齡」義高度相關」。",
       "sentenceIndex": 4,
@@ -439,12 +403,8 @@ export default {
         "age"
       ],
       "optionReasons": {
-        "age-mcq-02": "本句指「某人在生命發展中所處的年齡階段；與一般「年齡」義高度相關」。",
-        "age-mcq-01": "「某人或某物從出生、形成或出現至今所經過的時間，通常以年計算」是「age — how old someone/something is」的用法，與本句語境不同。",
-        "age-mcq-03": "「歷史上因共同技術、社會狀況或特徵而形成的一段時代」是「age — historical period」的用法，與本句語境不同。",
-        "age-mcq-04": "「很長的一段時間；很久」是「ages / for ages」的用法，與本句語境不同。",
-        "age-mcq-05": "「隨時間過去而年紀增加、逐漸變老」是「age — verb, person」的用法，與本句語境不同。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。"
+        "age-mcq-02": "本句的「age」指「某人在生命發展中所處的年齡階段；與一般「年齡」義高度相關」。",
+        "age-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-02"
     },
@@ -456,11 +416,7 @@ export default {
       "masked": "We live in the digital ____.",
       "options": [
         "age-mcq-03",
-        "age-mcq-02",
-        "age-mcq-04",
-        "age-mcq-01",
-        "age-mcq-05",
-        "age-mcq-06"
+        "age-mcq-13"
       ],
       "explanation": "本句的「age」指「歷史上因共同技術、社會狀況或特徵而形成的一段時代」。",
       "sentenceIndex": 5,
@@ -469,12 +425,8 @@ export default {
         "age"
       ],
       "optionReasons": {
-        "age-mcq-03": "本句指「歷史上因共同技術、社會狀況或特徵而形成的一段時代」。",
-        "age-mcq-02": "「某人在生命發展中所處的年齡階段；與一般「年齡」義高度相關」是「age — life stage」的用法，與本句語境不同。",
-        "age-mcq-04": "「很長的一段時間；很久」是「ages / for ages」的用法，與本句語境不同。",
-        "age-mcq-01": "「某人或某物從出生、形成或出現至今所經過的時間，通常以年計算」是「age — how old someone/something is」的用法，與本句語境不同。",
-        "age-mcq-05": "「隨時間過去而年紀增加、逐漸變老」是「age — verb, person」的用法，與本句語境不同。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。"
+        "age-mcq-03": "本句的「age」指「歷史上因共同技術、社會狀況或特徵而形成的一段時代」。",
+        "age-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-03"
     },
@@ -486,11 +438,7 @@ export default {
       "masked": "The discovery changed life during the industrial ____.",
       "options": [
         "age-mcq-03",
-        "age-mcq-02",
-        "age-mcq-04",
-        "age-mcq-01",
-        "age-mcq-05",
-        "age-mcq-06"
+        "age-mcq-11"
       ],
       "explanation": "本句的「age」指「歷史上因共同技術、社會狀況或特徵而形成的一段時代」。",
       "sentenceIndex": 6,
@@ -499,12 +447,8 @@ export default {
         "age"
       ],
       "optionReasons": {
-        "age-mcq-03": "本句指「歷史上因共同技術、社會狀況或特徵而形成的一段時代」。",
-        "age-mcq-02": "「某人在生命發展中所處的年齡階段；與一般「年齡」義高度相關」是「age — life stage」的用法，與本句語境不同。",
-        "age-mcq-04": "「很長的一段時間；很久」是「ages / for ages」的用法，與本句語境不同。",
-        "age-mcq-01": "「某人或某物從出生、形成或出現至今所經過的時間，通常以年計算」是「age — how old someone/something is」的用法，與本句語境不同。",
-        "age-mcq-05": "「隨時間過去而年紀增加、逐漸變老」是「age — verb, person」的用法，與本句語境不同。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。"
+        "age-mcq-03": "本句的「age」指「歷史上因共同技術、社會狀況或特徵而形成的一段時代」。",
+        "age-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-03"
     },
@@ -516,11 +460,7 @@ export default {
       "masked": "The cave remained hidden for ____.",
       "options": [
         "age-mcq-04",
-        "age-mcq-03",
-        "age-mcq-05",
-        "age-mcq-02",
-        "age-mcq-06",
-        "age-mcq-01"
+        "age-mcq-11"
       ],
       "explanation": "本句的「ages」指「很長的一段時間；很久」。",
       "sentenceIndex": 7,
@@ -529,12 +469,8 @@ export default {
         "ages"
       ],
       "optionReasons": {
-        "age-mcq-04": "本句指「很長的一段時間；很久」。",
-        "age-mcq-03": "「歷史上因共同技術、社會狀況或特徵而形成的一段時代」是「age — historical period」的用法，與本句語境不同。",
-        "age-mcq-05": "「隨時間過去而年紀增加、逐漸變老」是「age — verb, person」的用法，與本句語境不同。",
-        "age-mcq-02": "「某人在生命發展中所處的年齡階段；與一般「年齡」義高度相關」是「age — life stage」的用法，與本句語境不同。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。",
-        "age-mcq-01": "「某人或某物從出生、形成或出現至今所經過的時間，通常以年計算」是「age — how old someone/something is」的用法，與本句語境不同。"
+        "age-mcq-04": "本句的「ages」指「很長的一段時間；很久」。",
+        "age-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-04"
     },
@@ -546,11 +482,8 @@ export default {
       "masked": "It feels like ____ since we last met.",
       "options": [
         "age-mcq-04",
-        "age-mcq-03",
-        "age-mcq-05",
-        "age-mcq-02",
-        "age-mcq-06",
-        "age-mcq-01"
+        "age-mcq-07",
+        "age-mcq-12"
       ],
       "explanation": "本句的「ages」指「很長的一段時間；很久」。",
       "sentenceIndex": 8,
@@ -559,12 +492,9 @@ export default {
         "ages"
       ],
       "optionReasons": {
-        "age-mcq-04": "本句指「很長的一段時間；很久」。",
-        "age-mcq-03": "「歷史上因共同技術、社會狀況或特徵而形成的一段時代」是「age — historical period」的用法，與本句語境不同。",
-        "age-mcq-05": "「隨時間過去而年紀增加、逐漸變老」是「age — verb, person」的用法，與本句語境不同。",
-        "age-mcq-02": "「某人在生命發展中所處的年齡階段；與一般「年齡」義高度相關」是「age — life stage」的用法，與本句語境不同。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。",
-        "age-mcq-01": "「某人或某物從出生、形成或出現至今所經過的時間，通常以年計算」是「age — how old someone/something is」的用法，與本句語境不同。"
+        "age-mcq-04": "本句的「ages」指「很長的一段時間；很久」。",
+        "age-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "age-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-04"
     },
@@ -576,11 +506,7 @@ export default {
       "masked": "People ____ at different rates.",
       "options": [
         "age-mcq-05",
-        "age-mcq-04",
-        "age-mcq-06",
-        "age-mcq-03",
-        "age-mcq-07",
-        "age-mcq-02"
+        "age-mcq-13"
       ],
       "explanation": "本句的「age」指「隨時間過去而年紀增加、逐漸變老」。",
       "sentenceIndex": 9,
@@ -589,12 +515,8 @@ export default {
         "age"
       ],
       "optionReasons": {
-        "age-mcq-05": "本句指「隨時間過去而年紀增加、逐漸變老」。",
-        "age-mcq-04": "「很長的一段時間；很久」是「ages / for ages」的用法，與本句語境不同。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。",
-        "age-mcq-03": "「歷史上因共同技術、社會狀況或特徵而形成的一段時代」是「age — historical period」的用法，與本句語境不同。",
-        "age-mcq-07": "「年齡為某個數字或範圍的」是「aged + age range」的用法，與本句語境不同。",
-        "age-mcq-02": "「某人在生命發展中所處的年齡階段；與一般「年齡」義高度相關」是「age — life stage」的用法，與本句語境不同。"
+        "age-mcq-05": "本句的「age」指「隨時間過去而年紀增加、逐漸變老」。",
+        "age-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-05"
     },
@@ -606,11 +528,8 @@ export default {
       "masked": "He seems to have ____ considerably over the past few years.",
       "options": [
         "age-mcq-05",
-        "age-mcq-04",
-        "age-mcq-06",
-        "age-mcq-03",
         "age-mcq-07",
-        "age-mcq-02"
+        "age-mcq-12"
       ],
       "explanation": "本句的「aged」指「隨時間過去而年紀增加、逐漸變老」。",
       "sentenceIndex": 10,
@@ -619,12 +538,9 @@ export default {
         "aged"
       ],
       "optionReasons": {
-        "age-mcq-05": "本句指「隨時間過去而年紀增加、逐漸變老」。",
-        "age-mcq-04": "「很長的一段時間；很久」是「ages / for ages」的用法，與本句語境不同。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。",
-        "age-mcq-03": "「歷史上因共同技術、社會狀況或特徵而形成的一段時代」是「age — historical period」的用法，與本句語境不同。",
-        "age-mcq-07": "「年齡為某個數字或範圍的」是「aged + age range」的用法，與本句語境不同。",
-        "age-mcq-02": "「某人在生命發展中所處的年齡階段；與一般「年齡」義高度相關」是「age — life stage」的用法，與本句語境不同。"
+        "age-mcq-05": "本句的「aged」指「隨時間過去而年紀增加、逐漸變老」。",
+        "age-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "age-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-05"
     },
@@ -636,11 +552,7 @@ export default {
       "masked": "Wood changes colour as it ____.",
       "options": [
         "age-mcq-06",
-        "age-mcq-05",
-        "age-mcq-07",
-        "age-mcq-04",
-        "age-mcq-08",
-        "age-mcq-03"
+        "age-mcq-13"
       ],
       "explanation": "本句的「ages」指「某種物料、食品或產品隨時間發生老化、陳化或熟成」。",
       "sentenceIndex": 11,
@@ -649,12 +561,8 @@ export default {
         "ages"
       ],
       "optionReasons": {
-        "age-mcq-06": "本句指「某種物料、食品或產品隨時間發生老化、陳化或熟成」。",
-        "age-mcq-05": "「隨時間過去而年紀增加、逐漸變老」是「age — verb, person」的用法，與本句語境不同。",
-        "age-mcq-07": "「年齡為某個數字或範圍的」是「aged + age range」的用法，與本句語境不同。",
-        "age-mcq-04": "「很長的一段時間；很久」是「ages / for ages」的用法，與本句語境不同。",
-        "age-mcq-08": "「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」是「aged — matured product」的用法，與本句語境不同。",
-        "age-mcq-03": "「歷史上因共同技術、社會狀況或特徵而形成的一段時代」是「age — historical period」的用法，與本句語境不同。"
+        "age-mcq-06": "本句的「ages」指「某種物料、食品或產品隨時間發生老化、陳化或熟成」。",
+        "age-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-06"
     },
@@ -666,11 +574,7 @@ export default {
       "masked": "The cheese is ____ for several months before sale.",
       "options": [
         "age-mcq-06",
-        "age-mcq-05",
-        "age-mcq-07",
-        "age-mcq-04",
-        "age-mcq-08",
-        "age-mcq-03"
+        "age-mcq-13"
       ],
       "explanation": "本句的「aged」指「某種物料、食品或產品隨時間發生老化、陳化或熟成」。",
       "sentenceIndex": 12,
@@ -679,12 +583,8 @@ export default {
         "aged"
       ],
       "optionReasons": {
-        "age-mcq-06": "本句指「某種物料、食品或產品隨時間發生老化、陳化或熟成」。",
-        "age-mcq-05": "「隨時間過去而年紀增加、逐漸變老」是「age — verb, person」的用法，與本句語境不同。",
-        "age-mcq-07": "「年齡為某個數字或範圍的」是「aged + age range」的用法，與本句語境不同。",
-        "age-mcq-04": "「很長的一段時間；很久」是「ages / for ages」的用法，與本句語境不同。",
-        "age-mcq-08": "「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」是「aged — matured product」的用法，與本句語境不同。",
-        "age-mcq-03": "「歷史上因共同技術、社會狀況或特徵而形成的一段時代」是「age — historical period」的用法，與本句語境不同。"
+        "age-mcq-06": "本句的「aged」指「某種物料、食品或產品隨時間發生老化、陳化或熟成」。",
+        "age-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-06"
     },
@@ -696,9 +596,6 @@ export default {
       "masked": "Stress can ____ a person quickly.",
       "options": [
         "age-mcq-10",
-        "age-mcq-09",
-        "age-mcq-11",
-        "age-mcq-08",
         "age-mcq-12",
         "age-mcq-07"
       ],
@@ -709,12 +606,9 @@ export default {
         "age"
       ],
       "optionReasons": {
-        "age-mcq-10": "本句指「令某人或某物更快呈現老化或歲月痕跡」。",
-        "age-mcq-09": "「隨時間增加而變老或老化的過程」是「ageing / aging」的用法，與本句語境不同。",
-        "age-mcq-11": "「表示年老的）」是「aged = old / elderly（年老的）」的用法，與本句語境不同。",
-        "age-mcq-08": "「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」是「aged — matured product」的用法，與本句語境不同。",
-        "age-mcq-12": "「達到法律／社會上的成年階段；亦可比喻某項技術、產業或事物發展成熟」是「Fixed expression: come of age — 成年；成熟」的用法，與本句語境不同。",
-        "age-mcq-07": "「年齡為某個數字或範圍的」是「aged + age range」的用法，與本句語境不同。"
+        "age-mcq-10": "本句的「age」指「令某人或某物更快呈現老化或歲月痕跡」。",
+        "age-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "age-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-10"
     },
@@ -726,11 +620,7 @@ export default {
       "masked": "The harsh sunlight had ____ the paint.",
       "options": [
         "age-mcq-10",
-        "age-mcq-09",
-        "age-mcq-11",
-        "age-mcq-08",
-        "age-mcq-12",
-        "age-mcq-07"
+        "age-mcq-13"
       ],
       "explanation": "本句的「aged」指「令某人或某物更快呈現老化或歲月痕跡」。",
       "sentenceIndex": 14,
@@ -739,12 +629,8 @@ export default {
         "aged"
       ],
       "optionReasons": {
-        "age-mcq-10": "本句指「令某人或某物更快呈現老化或歲月痕跡」。",
-        "age-mcq-09": "「隨時間增加而變老或老化的過程」是「ageing / aging」的用法，與本句語境不同。",
-        "age-mcq-11": "「表示年老的）」是「aged = old / elderly（年老的）」的用法，與本句語境不同。",
-        "age-mcq-08": "「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」是「aged — matured product」的用法，與本句語境不同。",
-        "age-mcq-12": "「達到法律／社會上的成年階段；亦可比喻某項技術、產業或事物發展成熟」是「Fixed expression: come of age — 成年；成熟」的用法，與本句語境不同。",
-        "age-mcq-07": "「年齡為某個數字或範圍的」是「aged + age range」的用法，與本句語境不同。"
+        "age-mcq-10": "本句的「aged」指「令某人或某物更快呈現老化或歲月痕跡」。",
+        "age-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-10"
     },
@@ -756,11 +642,7 @@ export default {
       "masked": "The programme is for children ____ seven to ten.",
       "options": [
         "age-mcq-07",
-        "age-mcq-06",
-        "age-mcq-08",
-        "age-mcq-05",
-        "age-mcq-09",
-        "age-mcq-04"
+        "age-mcq-08"
       ],
       "explanation": "本句的「aged」指「年齡為某個數字或範圍的」。",
       "sentenceIndex": 15,
@@ -769,12 +651,8 @@ export default {
         "aged"
       ],
       "optionReasons": {
-        "age-mcq-07": "本句指「年齡為某個數字或範圍的」。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。",
-        "age-mcq-08": "「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」是「aged — matured product」的用法，與本句語境不同。",
-        "age-mcq-05": "「隨時間過去而年紀增加、逐漸變老」是「age — verb, person」的用法，與本句語境不同。",
-        "age-mcq-09": "「隨時間增加而變老或老化的過程」是「ageing / aging」的用法，與本句語境不同。",
-        "age-mcq-04": "「很長的一段時間；很久」是「ages / for ages」的用法，與本句語境不同。"
+        "age-mcq-07": "本句的「aged」指「年齡為某個數字或範圍的」。",
+        "age-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-07"
     },
@@ -786,10 +664,6 @@ export default {
       "masked": "The charity supports the ____.",
       "options": [
         "age-mcq-11",
-        "age-mcq-10",
-        "age-mcq-12",
-        "age-mcq-09",
-        "age-mcq-13",
         "age-mcq-08"
       ],
       "explanation": "本句的「aged」指「表示年老的）」。",
@@ -799,12 +673,8 @@ export default {
         "aged"
       ],
       "optionReasons": {
-        "age-mcq-11": "本句指「表示年老的）」。",
-        "age-mcq-10": "「令某人或某物更快呈現老化或歲月痕跡」是「7. age something（使老化／使顯老） — 使變老；使顯老」的用法，與本句語境不同。",
-        "age-mcq-12": "「達到法律／社會上的成年階段；亦可比喻某項技術、產業或事物發展成熟」是「Fixed expression: come of age — 成年；成熟」的用法，與本句語境不同。",
-        "age-mcq-09": "「隨時間增加而變老或老化的過程」是「ageing / aging」的用法，與本句語境不同。",
-        "age-mcq-13": "「表示達法定年齡／未達法定年齡」是「Fixed expression: of age / under age — 達法定年齡／未達法定年齡」的用法，與本句語境不同。",
-        "age-mcq-08": "「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」是「aged — matured product」的用法，與本句語境不同。"
+        "age-mcq-11": "本句的「aged」指「表示年老的）」。",
+        "age-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-11"
     },
@@ -816,11 +686,7 @@ export default {
       "masked": "They served ____ cheese.",
       "options": [
         "age-mcq-08",
-        "age-mcq-07",
-        "age-mcq-09",
-        "age-mcq-06",
-        "age-mcq-10",
-        "age-mcq-05"
+        "age-mcq-13"
       ],
       "explanation": "本句的「aged」指「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」。",
       "sentenceIndex": 17,
@@ -829,12 +695,8 @@ export default {
         "aged"
       ],
       "optionReasons": {
-        "age-mcq-08": "本句指「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」。",
-        "age-mcq-07": "「年齡為某個數字或範圍的」是「aged + age range」的用法，與本句語境不同。",
-        "age-mcq-09": "「隨時間增加而變老或老化的過程」是「ageing / aging」的用法，與本句語境不同。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。",
-        "age-mcq-10": "「令某人或某物更快呈現老化或歲月痕跡」是「7. age something（使老化／使顯老） — 使變老；使顯老」的用法，與本句語境不同。",
-        "age-mcq-05": "「隨時間過去而年紀增加、逐漸變老」是「age — verb, person」的用法，與本句語境不同。"
+        "age-mcq-08": "本句的「aged」指「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」。",
+        "age-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-08"
     },
@@ -846,11 +708,7 @@ export default {
       "masked": "The restaurant offers ____ beef.",
       "options": [
         "age-mcq-08",
-        "age-mcq-07",
-        "age-mcq-09",
-        "age-mcq-06",
-        "age-mcq-10",
-        "age-mcq-05"
+        "age-mcq-07"
       ],
       "explanation": "本句的「aged」指「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」。",
       "sentenceIndex": 18,
@@ -859,12 +717,8 @@ export default {
         "aged"
       ],
       "optionReasons": {
-        "age-mcq-08": "本句指「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」。",
-        "age-mcq-07": "「年齡為某個數字或範圍的」是「aged + age range」的用法，與本句語境不同。",
-        "age-mcq-09": "「隨時間增加而變老或老化的過程」是「ageing / aging」的用法，與本句語境不同。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。",
-        "age-mcq-10": "「令某人或某物更快呈現老化或歲月痕跡」是「7. age something（使老化／使顯老） — 使變老；使顯老」的用法，與本句語境不同。",
-        "age-mcq-05": "「隨時間過去而年紀增加、逐漸變老」是「age — verb, person」的用法，與本句語境不同。"
+        "age-mcq-08": "本句的「aged」指「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」。",
+        "age-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-08"
     },
@@ -876,11 +730,8 @@ export default {
       "masked": "The country has an ____.",
       "options": [
         "age-mcq-09",
-        "age-mcq-08",
-        "age-mcq-10",
         "age-mcq-07",
-        "age-mcq-11",
-        "age-mcq-06"
+        "age-mcq-12"
       ],
       "explanation": "本句的「ageing population」指「隨時間增加而變老或老化的過程」。",
       "sentenceIndex": 19,
@@ -889,12 +740,9 @@ export default {
         "ageing population"
       ],
       "optionReasons": {
-        "age-mcq-09": "本句指「隨時間增加而變老或老化的過程」。",
-        "age-mcq-08": "「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」是「aged — matured product」的用法，與本句語境不同。",
-        "age-mcq-10": "「令某人或某物更快呈現老化或歲月痕跡」是「7. age something（使老化／使顯老） — 使變老；使顯老」的用法，與本句語境不同。",
-        "age-mcq-07": "「年齡為某個數字或範圍的」是「aged + age range」的用法，與本句語境不同。",
-        "age-mcq-11": "「表示年老的）」是「aged = old / elderly（年老的）」的用法，與本句語境不同。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。"
+        "age-mcq-09": "本句的「ageing population」指「隨時間增加而變老或老化的過程」。",
+        "age-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "age-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-09"
     },
@@ -906,11 +754,7 @@ export default {
       "masked": "Scientists are studying the ____ process.",
       "options": [
         "age-mcq-09",
-        "age-mcq-08",
-        "age-mcq-10",
-        "age-mcq-07",
-        "age-mcq-11",
-        "age-mcq-06"
+        "age-mcq-13"
       ],
       "explanation": "本句的「ageing」指「隨時間增加而變老或老化的過程」。",
       "sentenceIndex": 20,
@@ -919,12 +763,8 @@ export default {
         "ageing"
       ],
       "optionReasons": {
-        "age-mcq-09": "本句指「隨時間增加而變老或老化的過程」。",
-        "age-mcq-08": "「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」是「aged — matured product」的用法，與本句語境不同。",
-        "age-mcq-10": "「令某人或某物更快呈現老化或歲月痕跡」是「7. age something（使老化／使顯老） — 使變老；使顯老」的用法，與本句語境不同。",
-        "age-mcq-07": "「年齡為某個數字或範圍的」是「aged + age range」的用法，與本句語境不同。",
-        "age-mcq-11": "「表示年老的）」是「aged = old / elderly（年老的）」的用法，與本句語境不同。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。"
+        "age-mcq-09": "本句的「ageing」指「隨時間增加而變老或老化的過程」。",
+        "age-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-09"
     },
@@ -936,11 +776,8 @@ export default {
       "masked": "She ____ during a period of major social change.",
       "options": [
         "age-mcq-12",
-        "age-mcq-11",
-        "age-mcq-13",
         "age-mcq-10",
-        "age-mcq-09",
-        "age-mcq-08"
+        "age-mcq-07"
       ],
       "explanation": "本句的「came of age」指「達到法律／社會上的成年階段；亦可比喻某項技術、產業或事物發展成熟」。",
       "sentenceIndex": 21,
@@ -949,12 +786,9 @@ export default {
         "came of age"
       ],
       "optionReasons": {
-        "age-mcq-12": "本句指「達到法律／社會上的成年階段；亦可比喻某項技術、產業或事物發展成熟」。",
-        "age-mcq-11": "「表示年老的）」是「aged = old / elderly（年老的）」的用法，與本句語境不同。",
-        "age-mcq-13": "「表示達法定年齡／未達法定年齡」是「Fixed expression: of age / under age — 達法定年齡／未達法定年齡」的用法，與本句語境不同。",
-        "age-mcq-10": "「令某人或某物更快呈現老化或歲月痕跡」是「7. age something（使老化／使顯老） — 使變老；使顯老」的用法，與本句語境不同。",
-        "age-mcq-09": "「隨時間增加而變老或老化的過程」是「ageing / aging」的用法，與本句語境不同。",
-        "age-mcq-08": "「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」是「aged — matured product」的用法，與本句語境不同。"
+        "age-mcq-12": "本句的「came of age」指「達到法律／社會上的成年階段；亦可比喻某項技術、產業或事物發展成熟」。",
+        "age-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "age-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-12"
     },
@@ -966,11 +800,8 @@ export default {
       "masked": "The technology has finally ____.",
       "options": [
         "age-mcq-12",
-        "age-mcq-11",
-        "age-mcq-13",
         "age-mcq-10",
-        "age-mcq-09",
-        "age-mcq-08"
+        "age-mcq-07"
       ],
       "explanation": "本句的「come of age」指「達到法律／社會上的成年階段；亦可比喻某項技術、產業或事物發展成熟」。",
       "sentenceIndex": 22,
@@ -979,12 +810,9 @@ export default {
         "come of age"
       ],
       "optionReasons": {
-        "age-mcq-12": "本句指「達到法律／社會上的成年階段；亦可比喻某項技術、產業或事物發展成熟」。",
-        "age-mcq-11": "「表示年老的）」是「aged = old / elderly（年老的）」的用法，與本句語境不同。",
-        "age-mcq-13": "「表示達法定年齡／未達法定年齡」是「Fixed expression: of age / under age — 達法定年齡／未達法定年齡」的用法，與本句語境不同。",
-        "age-mcq-10": "「令某人或某物更快呈現老化或歲月痕跡」是「7. age something（使老化／使顯老） — 使變老；使顯老」的用法，與本句語境不同。",
-        "age-mcq-09": "「隨時間增加而變老或老化的過程」是「ageing / aging」的用法，與本句語境不同。",
-        "age-mcq-08": "「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」是「aged — matured product」的用法，與本句語境不同。"
+        "age-mcq-12": "本句的「come of age」指「達到法律／社會上的成年階段；亦可比喻某項技術、產業或事物發展成熟」。",
+        "age-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "age-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-12"
     },
@@ -996,11 +824,7 @@ export default {
       "masked": "You must be ____ to sign the agreement yourself.",
       "options": [
         "age-mcq-13",
-        "age-mcq-12",
-        "age-mcq-11",
-        "age-mcq-10",
-        "age-mcq-09",
-        "age-mcq-08"
+        "age-mcq-10"
       ],
       "explanation": "本句的「of age」指「表示達法定年齡／未達法定年齡」。",
       "sentenceIndex": 23,
@@ -1009,12 +833,8 @@ export default {
         "of age"
       ],
       "optionReasons": {
-        "age-mcq-13": "本句指「表示達法定年齡／未達法定年齡」。",
-        "age-mcq-12": "「達到法律／社會上的成年階段；亦可比喻某項技術、產業或事物發展成熟」是「Fixed expression: come of age — 成年；成熟」的用法，與本句語境不同。",
-        "age-mcq-11": "「表示年老的）」是「aged = old / elderly（年老的）」的用法，與本句語境不同。",
-        "age-mcq-10": "「令某人或某物更快呈現老化或歲月痕跡」是「7. age something（使老化／使顯老） — 使變老；使顯老」的用法，與本句語境不同。",
-        "age-mcq-09": "「隨時間增加而變老或老化的過程」是「ageing / aging」的用法，與本句語境不同。",
-        "age-mcq-08": "「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」是「aged — matured product」的用法，與本句語境不同。"
+        "age-mcq-13": "本句的「of age」指「表示達法定年齡／未達法定年齡」。",
+        "age-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-13"
     },
@@ -1026,11 +846,7 @@ export default {
       "masked": "He was still ____ at the time.",
       "options": [
         "age-mcq-13",
-        "age-mcq-12",
-        "age-mcq-11",
-        "age-mcq-10",
-        "age-mcq-09",
-        "age-mcq-08"
+        "age-mcq-04"
       ],
       "explanation": "本句的「under age」指「表示達法定年齡／未達法定年齡」。",
       "sentenceIndex": 24,
@@ -1039,12 +855,8 @@ export default {
         "under age"
       ],
       "optionReasons": {
-        "age-mcq-13": "本句指「表示達法定年齡／未達法定年齡」。",
-        "age-mcq-12": "「達到法律／社會上的成年階段；亦可比喻某項技術、產業或事物發展成熟」是「Fixed expression: come of age — 成年；成熟」的用法，與本句語境不同。",
-        "age-mcq-11": "「表示年老的）」是「aged = old / elderly（年老的）」的用法，與本句語境不同。",
-        "age-mcq-10": "「令某人或某物更快呈現老化或歲月痕跡」是「7. age something（使老化／使顯老） — 使變老；使顯老」的用法，與本句語境不同。",
-        "age-mcq-09": "「隨時間增加而變老或老化的過程」是「ageing / aging」的用法，與本句語境不同。",
-        "age-mcq-08": "「經過一段時間儲存或處理，使味道、質地或品質發展成熟的」是「aged — matured product」的用法，與本句語境不同。"
+        "age-mcq-13": "本句的「under age」指「表示達法定年齡／未達法定年齡」。",
+        "age-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-13"
     },
@@ -1056,11 +868,8 @@ export default {
       "masked": "I haven’t seen him ____.",
       "options": [
         "age-mcq-04",
-        "age-mcq-03",
-        "age-mcq-05",
-        "age-mcq-02",
-        "age-mcq-06",
-        "age-mcq-01"
+        "age-mcq-07",
+        "age-mcq-12"
       ],
       "explanation": "本句的「for ages」指「很長的一段時間；很久」。",
       "sentenceIndex": 25,
@@ -1069,12 +878,9 @@ export default {
         "for ages"
       ],
       "optionReasons": {
-        "age-mcq-04": "本句指「很長的一段時間；很久」。",
-        "age-mcq-03": "「歷史上因共同技術、社會狀況或特徵而形成的一段時代」是「age — historical period」的用法，與本句語境不同。",
-        "age-mcq-05": "「隨時間過去而年紀增加、逐漸變老」是「age — verb, person」的用法，與本句語境不同。",
-        "age-mcq-02": "「某人在生命發展中所處的年齡階段；與一般「年齡」義高度相關」是「age — life stage」的用法，與本句語境不同。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。",
-        "age-mcq-01": "「某人或某物從出生、形成或出現至今所經過的時間，通常以年計算」是「age — how old someone/something is」的用法，與本句語境不同。"
+        "age-mcq-04": "本句的「for ages」指「很長的一段時間；很久」。",
+        "age-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "age-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-04"
     },
@@ -1086,11 +892,8 @@ export default {
       "masked": "We waited ____.",
       "options": [
         "age-mcq-04",
-        "age-mcq-03",
-        "age-mcq-05",
-        "age-mcq-02",
-        "age-mcq-06",
-        "age-mcq-01"
+        "age-mcq-07",
+        "age-mcq-12"
       ],
       "explanation": "本句的「for ages」指「很長的一段時間；很久」。",
       "sentenceIndex": 26,
@@ -1099,12 +902,9 @@ export default {
         "for ages"
       ],
       "optionReasons": {
-        "age-mcq-04": "本句指「很長的一段時間；很久」。",
-        "age-mcq-03": "「歷史上因共同技術、社會狀況或特徵而形成的一段時代」是「age — historical period」的用法，與本句語境不同。",
-        "age-mcq-05": "「隨時間過去而年紀增加、逐漸變老」是「age — verb, person」的用法，與本句語境不同。",
-        "age-mcq-02": "「某人在生命發展中所處的年齡階段；與一般「年齡」義高度相關」是「age — life stage」的用法，與本句語境不同。",
-        "age-mcq-06": "「某種物料、食品或產品隨時間發生老化、陳化或熟成」是「age — material/product」的用法，與本句語境不同。",
-        "age-mcq-01": "「某人或某物從出生、形成或出現至今所經過的時間，通常以年計算」是「age — how old someone/something is」的用法，與本句語境不同。"
+        "age-mcq-04": "本句的「for ages」指「很長的一段時間；很久」。",
+        "age-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "age-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "age-mcq-04"
     }
@@ -1116,5 +916,7 @@ export default {
     "sha256": "998f41ddc921eb7d0a1eaa8cb3ffe479517b02c91e23163f67f655576ea94ccc",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

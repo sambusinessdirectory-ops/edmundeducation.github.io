@@ -245,11 +245,9 @@ export default {
       "masked": "I usually wear the jacket on ____ outings.",
       "options": [
         "casual-mcq-01",
-        "casual-mcq-02",
-        "casual-mcq-03",
-        "casual-mcq-04",
-        "casual-mcq-05",
-        "casual-mcq-06"
+        "casual-mcq-07",
+        "casual-mcq-08",
+        "casual-mcq-02"
       ],
       "explanation": "本句的「casual」指「輕鬆、休閒、非正式的；不要求正式場合或正式打扮」。",
       "sentenceIndex": 0,
@@ -258,12 +256,10 @@ export default {
         "casual"
       ],
       "optionReasons": {
-        "casual-mcq-01": "本句指「輕鬆、休閒、非正式的；不要求正式場合或正式打扮」。",
-        "casual-mcq-02": "「態度隨意、不拘謹，有時顯得不太認真或不在意」與本句語境不同。",
-        "casual-mcq-03": "「偶爾參與、並非固定或經常性的」與本句語境不同。",
-        "casual-mcq-04": "「工時／聘用安排非固定、按需要工作的臨時性工作」與本句語境不同。",
-        "casual-mcq-05": "「關係、興趣或參與程度不深入、不長期承諾的」與本句語境不同。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。"
+        "casual-mcq-01": "本句的「casual」指「輕鬆、休閒、非正式的；不要求正式場合或正式打扮」。",
+        "casual-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-01"
     },
@@ -275,10 +271,8 @@ export default {
       "masked": "The restaurant has a ____ atmosphere.",
       "options": [
         "casual-mcq-01",
+        "casual-mcq-08",
         "casual-mcq-02",
-        "casual-mcq-03",
-        "casual-mcq-04",
-        "casual-mcq-05",
         "casual-mcq-06"
       ],
       "explanation": "本句的「casual」指「輕鬆、休閒、非正式的；不要求正式場合或正式打扮」。",
@@ -288,12 +282,10 @@ export default {
         "casual"
       ],
       "optionReasons": {
-        "casual-mcq-01": "本句指「輕鬆、休閒、非正式的；不要求正式場合或正式打扮」。",
-        "casual-mcq-02": "「態度隨意、不拘謹，有時顯得不太認真或不在意」與本句語境不同。",
-        "casual-mcq-03": "「偶爾參與、並非固定或經常性的」與本句語境不同。",
-        "casual-mcq-04": "「工時／聘用安排非固定、按需要工作的臨時性工作」與本句語境不同。",
-        "casual-mcq-05": "「關係、興趣或參與程度不深入、不長期承諾的」與本句語境不同。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。"
+        "casual-mcq-01": "本句的「casual」指「輕鬆、休閒、非正式的；不要求正式場合或正式打扮」。",
+        "casual-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-01"
     },
@@ -305,11 +297,9 @@ export default {
       "masked": "You can wear ____ clothes to the event.",
       "options": [
         "casual-mcq-01",
+        "casual-mcq-07",
         "casual-mcq-02",
-        "casual-mcq-03",
-        "casual-mcq-04",
-        "casual-mcq-05",
-        "casual-mcq-06"
+        "casual-mcq-08"
       ],
       "explanation": "本句的「casual」指「輕鬆、休閒、非正式的；不要求正式場合或正式打扮」。",
       "sentenceIndex": 2,
@@ -318,12 +308,10 @@ export default {
         "casual"
       ],
       "optionReasons": {
-        "casual-mcq-01": "本句指「輕鬆、休閒、非正式的；不要求正式場合或正式打扮」。",
-        "casual-mcq-02": "「態度隨意、不拘謹，有時顯得不太認真或不在意」與本句語境不同。",
-        "casual-mcq-03": "「偶爾參與、並非固定或經常性的」與本句語境不同。",
-        "casual-mcq-04": "「工時／聘用安排非固定、按需要工作的臨時性工作」與本句語境不同。",
-        "casual-mcq-05": "「關係、興趣或參與程度不深入、不長期承諾的」與本句語境不同。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。"
+        "casual-mcq-01": "本句的「casual」指「輕鬆、休閒、非正式的；不要求正式場合或正式打扮」。",
+        "casual-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-01"
     },
@@ -336,10 +324,8 @@ export default {
       "options": [
         "casual-mcq-02",
         "casual-mcq-01",
-        "casual-mcq-03",
-        "casual-mcq-04",
-        "casual-mcq-05",
-        "casual-mcq-06"
+        "casual-mcq-07",
+        "casual-mcq-03"
       ],
       "explanation": "本句的「casual」指「態度隨意、不拘謹，有時顯得不太認真或不在意」。",
       "sentenceIndex": 3,
@@ -348,12 +334,10 @@ export default {
         "casual"
       ],
       "optionReasons": {
-        "casual-mcq-02": "本句指「態度隨意、不拘謹，有時顯得不太認真或不在意」。",
-        "casual-mcq-01": "「輕鬆、休閒、非正式的；不要求正式場合或正式打扮」與本句語境不同。",
-        "casual-mcq-03": "「偶爾參與、並非固定或經常性的」與本句語境不同。",
-        "casual-mcq-04": "「工時／聘用安排非固定、按需要工作的臨時性工作」與本句語境不同。",
-        "casual-mcq-05": "「關係、興趣或參與程度不深入、不長期承諾的」與本句語境不同。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。"
+        "casual-mcq-02": "本句的「casual」指「態度隨意、不拘謹，有時顯得不太認真或不在意」。",
+        "casual-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-02"
     },
@@ -365,11 +349,9 @@ export default {
       "masked": "She sounded surprisingly ____ about the problem.",
       "options": [
         "casual-mcq-02",
-        "casual-mcq-01",
+        "casual-mcq-07",
         "casual-mcq-03",
-        "casual-mcq-04",
-        "casual-mcq-05",
-        "casual-mcq-06"
+        "casual-mcq-01"
       ],
       "explanation": "本句的「casual」指「態度隨意、不拘謹，有時顯得不太認真或不在意」。",
       "sentenceIndex": 4,
@@ -378,12 +360,10 @@ export default {
         "casual"
       ],
       "optionReasons": {
-        "casual-mcq-02": "本句指「態度隨意、不拘謹，有時顯得不太認真或不在意」。",
-        "casual-mcq-01": "「輕鬆、休閒、非正式的；不要求正式場合或正式打扮」與本句語境不同。",
-        "casual-mcq-03": "「偶爾參與、並非固定或經常性的」與本句語境不同。",
-        "casual-mcq-04": "「工時／聘用安排非固定、按需要工作的臨時性工作」與本句語境不同。",
-        "casual-mcq-05": "「關係、興趣或參與程度不深入、不長期承諾的」與本句語境不同。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。"
+        "casual-mcq-02": "本句的「casual」指「態度隨意、不拘謹，有時顯得不太認真或不在意」。",
+        "casual-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-02"
     },
@@ -397,9 +377,7 @@ export default {
         "casual-mcq-02",
         "casual-mcq-01",
         "casual-mcq-03",
-        "casual-mcq-04",
-        "casual-mcq-05",
-        "casual-mcq-06"
+        "casual-mcq-07"
       ],
       "explanation": "本句的「casual」指「態度隨意、不拘謹，有時顯得不太認真或不在意」。",
       "sentenceIndex": 5,
@@ -408,12 +386,10 @@ export default {
         "casual"
       ],
       "optionReasons": {
-        "casual-mcq-02": "本句指「態度隨意、不拘謹，有時顯得不太認真或不在意」。",
-        "casual-mcq-01": "「輕鬆、休閒、非正式的；不要求正式場合或正式打扮」與本句語境不同。",
-        "casual-mcq-03": "「偶爾參與、並非固定或經常性的」與本句語境不同。",
-        "casual-mcq-04": "「工時／聘用安排非固定、按需要工作的臨時性工作」與本句語境不同。",
-        "casual-mcq-05": "「關係、興趣或參與程度不深入、不長期承諾的」與本句語境不同。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。"
+        "casual-mcq-02": "本句的「casual」指「態度隨意、不拘謹，有時顯得不太認真或不在意」。",
+        "casual-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-02"
     },
@@ -427,9 +403,7 @@ export default {
         "casual-mcq-02",
         "casual-mcq-01",
         "casual-mcq-03",
-        "casual-mcq-04",
-        "casual-mcq-05",
-        "casual-mcq-06"
+        "casual-mcq-07"
       ],
       "explanation": "本句的「casual」指「態度隨意、不拘謹，有時顯得不太認真或不在意」。",
       "sentenceIndex": 6,
@@ -438,12 +412,10 @@ export default {
         "casual"
       ],
       "optionReasons": {
-        "casual-mcq-02": "本句指「態度隨意、不拘謹，有時顯得不太認真或不在意」。",
-        "casual-mcq-01": "「輕鬆、休閒、非正式的；不要求正式場合或正式打扮」與本句語境不同。",
-        "casual-mcq-03": "「偶爾參與、並非固定或經常性的」與本句語境不同。",
-        "casual-mcq-04": "「工時／聘用安排非固定、按需要工作的臨時性工作」與本句語境不同。",
-        "casual-mcq-05": "「關係、興趣或參與程度不深入、不長期承諾的」與本句語境不同。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。"
+        "casual-mcq-02": "本句的「casual」指「態度隨意、不拘謹，有時顯得不太認真或不在意」。",
+        "casual-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-02"
     },
@@ -455,11 +427,9 @@ export default {
       "masked": "He is only a ____ visitor to the museum.",
       "options": [
         "casual-mcq-03",
+        "casual-mcq-07",
         "casual-mcq-02",
-        "casual-mcq-04",
-        "casual-mcq-01",
-        "casual-mcq-05",
-        "casual-mcq-06"
+        "casual-mcq-08"
       ],
       "explanation": "本句的「casual」指「偶爾參與、並非固定或經常性的」。",
       "sentenceIndex": 7,
@@ -468,12 +438,10 @@ export default {
         "casual"
       ],
       "optionReasons": {
-        "casual-mcq-03": "本句指「偶爾參與、並非固定或經常性的」。",
-        "casual-mcq-02": "「態度隨意、不拘謹，有時顯得不太認真或不在意」與本句語境不同。",
-        "casual-mcq-04": "「工時／聘用安排非固定、按需要工作的臨時性工作」與本句語境不同。",
-        "casual-mcq-01": "「輕鬆、休閒、非正式的；不要求正式場合或正式打扮」與本句語境不同。",
-        "casual-mcq-05": "「關係、興趣或參與程度不深入、不長期承諾的」與本句語境不同。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。"
+        "casual-mcq-03": "本句的「casual」指「偶爾參與、並非固定或經常性的」。",
+        "casual-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-03"
     },
@@ -486,10 +454,8 @@ export default {
       "options": [
         "casual-mcq-03",
         "casual-mcq-02",
-        "casual-mcq-04",
-        "casual-mcq-01",
-        "casual-mcq-05",
-        "casual-mcq-06"
+        "casual-mcq-07",
+        "casual-mcq-08"
       ],
       "explanation": "本句的「casual」指「偶爾參與、並非固定或經常性的」。",
       "sentenceIndex": 8,
@@ -498,12 +464,10 @@ export default {
         "casual"
       ],
       "optionReasons": {
-        "casual-mcq-03": "本句指「偶爾參與、並非固定或經常性的」。",
-        "casual-mcq-02": "「態度隨意、不拘謹，有時顯得不太認真或不在意」與本句語境不同。",
-        "casual-mcq-04": "「工時／聘用安排非固定、按需要工作的臨時性工作」與本句語境不同。",
-        "casual-mcq-01": "「輕鬆、休閒、非正式的；不要求正式場合或正式打扮」與本句語境不同。",
-        "casual-mcq-05": "「關係、興趣或參與程度不深入、不長期承諾的」與本句語境不同。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。"
+        "casual-mcq-03": "本句的「casual」指「偶爾參與、並非固定或經常性的」。",
+        "casual-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-03"
     },
@@ -515,11 +479,8 @@ export default {
       "masked": "He found ____ work during the summer.",
       "options": [
         "casual-mcq-04",
-        "casual-mcq-03",
-        "casual-mcq-05",
-        "casual-mcq-02",
-        "casual-mcq-06",
-        "casual-mcq-01"
+        "casual-mcq-09",
+        "casual-mcq-07"
       ],
       "explanation": "本句的「casual」指「工時／聘用安排非固定、按需要工作的臨時性工作」。",
       "sentenceIndex": 9,
@@ -528,12 +489,9 @@ export default {
         "casual"
       ],
       "optionReasons": {
-        "casual-mcq-04": "本句指「工時／聘用安排非固定、按需要工作的臨時性工作」。",
-        "casual-mcq-03": "「偶爾參與、並非固定或經常性的」與本句語境不同。",
-        "casual-mcq-05": "「關係、興趣或參與程度不深入、不長期承諾的」與本句語境不同。",
-        "casual-mcq-02": "「態度隨意、不拘謹，有時顯得不太認真或不在意」與本句語境不同。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。",
-        "casual-mcq-01": "「輕鬆、休閒、非正式的；不要求正式場合或正式打扮」與本句語境不同。"
+        "casual-mcq-04": "本句的「casual」指「工時／聘用安排非固定、按需要工作的臨時性工作」。",
+        "casual-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-04"
     },
@@ -545,11 +503,8 @@ export default {
       "masked": "The café employs several ____ workers.",
       "options": [
         "casual-mcq-04",
-        "casual-mcq-03",
-        "casual-mcq-05",
-        "casual-mcq-02",
-        "casual-mcq-06",
-        "casual-mcq-01"
+        "casual-mcq-09",
+        "casual-mcq-07"
       ],
       "explanation": "本句的「casual」指「工時／聘用安排非固定、按需要工作的臨時性工作」。",
       "sentenceIndex": 10,
@@ -558,12 +513,9 @@ export default {
         "casual"
       ],
       "optionReasons": {
-        "casual-mcq-04": "本句指「工時／聘用安排非固定、按需要工作的臨時性工作」。",
-        "casual-mcq-03": "「偶爾參與、並非固定或經常性的」與本句語境不同。",
-        "casual-mcq-05": "「關係、興趣或參與程度不深入、不長期承諾的」與本句語境不同。",
-        "casual-mcq-02": "「態度隨意、不拘謹，有時顯得不太認真或不在意」與本句語境不同。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。",
-        "casual-mcq-01": "「輕鬆、休閒、非正式的；不要求正式場合或正式打扮」與本句語境不同。"
+        "casual-mcq-04": "本句的「casual」指「工時／聘用安排非固定、按需要工作的臨時性工作」。",
+        "casual-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-04"
     },
@@ -575,11 +527,9 @@ export default {
       "masked": "A ____ conversation led to the idea.",
       "options": [
         "casual-mcq-06",
-        "casual-mcq-05",
-        "casual-mcq-07",
-        "casual-mcq-04",
+        "casual-mcq-01",
         "casual-mcq-08",
-        "casual-mcq-03"
+        "casual-mcq-02"
       ],
       "explanation": "本句的「casual」指「沒有刻意安排、偶然或順便發生的」。",
       "sentenceIndex": 13,
@@ -588,12 +538,10 @@ export default {
         "casual"
       ],
       "optionReasons": {
-        "casual-mcq-06": "本句指「沒有刻意安排、偶然或順便發生的」。",
-        "casual-mcq-05": "「關係、興趣或參與程度不深入、不長期承諾的」與本句語境不同。",
-        "casual-mcq-07": "「沒有仔細或深入觀察、只是粗略看看的」與本句語境不同。",
-        "casual-mcq-04": "「工時／聘用安排非固定、按需要工作的臨時性工作」與本句語境不同。",
-        "casual-mcq-08": "「臨時工；部分語境下的名詞用法」與本句語境不同。",
-        "casual-mcq-03": "「偶爾參與、並非固定或經常性的」與本句語境不同。"
+        "casual-mcq-06": "本句的「casual」指「沒有刻意安排、偶然或順便發生的」。",
+        "casual-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-06"
     },
@@ -605,9 +553,7 @@ export default {
       "masked": "The discovery began with a ____ observation.",
       "options": [
         "casual-mcq-06",
-        "casual-mcq-05",
-        "casual-mcq-07",
-        "casual-mcq-04",
+        "casual-mcq-01",
         "casual-mcq-08",
         "casual-mcq-03"
       ],
@@ -618,12 +564,10 @@ export default {
         "casual"
       ],
       "optionReasons": {
-        "casual-mcq-06": "本句指「沒有刻意安排、偶然或順便發生的」。",
-        "casual-mcq-05": "「關係、興趣或參與程度不深入、不長期承諾的」與本句語境不同。",
-        "casual-mcq-07": "「沒有仔細或深入觀察、只是粗略看看的」與本句語境不同。",
-        "casual-mcq-04": "「工時／聘用安排非固定、按需要工作的臨時性工作」與本句語境不同。",
-        "casual-mcq-08": "「臨時工；部分語境下的名詞用法」與本句語境不同。",
-        "casual-mcq-03": "「偶爾參與、並非固定或經常性的」與本句語境不同。"
+        "casual-mcq-06": "本句的「casual」指「沒有刻意安排、偶然或順便發生的」。",
+        "casual-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-06"
     },
@@ -635,9 +579,6 @@ export default {
       "masked": "At a ____ glance, the two pictures look identical.",
       "options": [
         "casual-mcq-07",
-        "casual-mcq-06",
-        "casual-mcq-08",
-        "casual-mcq-05",
         "casual-mcq-09",
         "casual-mcq-04"
       ],
@@ -648,12 +589,9 @@ export default {
         "casual"
       ],
       "optionReasons": {
-        "casual-mcq-07": "本句指「沒有仔細或深入觀察、只是粗略看看的」。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。",
-        "casual-mcq-08": "「臨時工；部分語境下的名詞用法」與本句語境不同。",
-        "casual-mcq-05": "「關係、興趣或參與程度不深入、不長期承諾的」與本句語境不同。",
-        "casual-mcq-09": "「休閒地；隨意地；漫不經心地；偶然地」與本句語境不同。",
-        "casual-mcq-04": "「工時／聘用安排非固定、按需要工作的臨時性工作」與本句語境不同。"
+        "casual-mcq-07": "本句的「casual」指「沒有仔細或深入觀察、只是粗略看看的」。",
+        "casual-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-07"
     },
@@ -665,11 +603,9 @@ export default {
       "masked": "A ____ observer might not notice the difference.",
       "options": [
         "casual-mcq-07",
-        "casual-mcq-06",
-        "casual-mcq-08",
-        "casual-mcq-05",
         "casual-mcq-09",
-        "casual-mcq-04"
+        "casual-mcq-08",
+        "casual-mcq-03"
       ],
       "explanation": "本句的「casual」指「沒有仔細或深入觀察、只是粗略看看的」。",
       "sentenceIndex": 16,
@@ -678,12 +614,10 @@ export default {
         "casual"
       ],
       "optionReasons": {
-        "casual-mcq-07": "本句指「沒有仔細或深入觀察、只是粗略看看的」。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。",
-        "casual-mcq-08": "「臨時工；部分語境下的名詞用法」與本句語境不同。",
-        "casual-mcq-05": "「關係、興趣或參與程度不深入、不長期承諾的」與本句語境不同。",
-        "casual-mcq-09": "「休閒地；隨意地；漫不經心地；偶然地」與本句語境不同。",
-        "casual-mcq-04": "「工時／聘用安排非固定、按需要工作的臨時性工作」與本句語境不同。"
+        "casual-mcq-07": "本句的「casual」指「沒有仔細或深入觀察、只是粗略看看的」。",
+        "casual-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-07"
     },
@@ -695,11 +629,9 @@ export default {
       "masked": "The company hired extra ____ for the holiday period.",
       "options": [
         "casual-mcq-08",
+        "casual-mcq-03",
         "casual-mcq-07",
-        "casual-mcq-09",
-        "casual-mcq-06",
-        "casual-mcq-10",
-        "casual-mcq-05"
+        "casual-mcq-09"
       ],
       "explanation": "本句的「casuals」指「臨時工；部分語境下的名詞用法」。",
       "sentenceIndex": 17,
@@ -708,12 +640,10 @@ export default {
         "casuals"
       ],
       "optionReasons": {
-        "casual-mcq-08": "本句指「臨時工；部分語境下的名詞用法」。",
-        "casual-mcq-07": "「沒有仔細或深入觀察、只是粗略看看的」與本句語境不同。",
-        "casual-mcq-09": "「休閒地；隨意地；漫不經心地；偶然地」與本句語境不同。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。",
-        "casual-mcq-10": "「輕鬆隨意或漫不經心的性質」與本句語境不同。",
-        "casual-mcq-05": "「關係、興趣或參與程度不深入、不長期承諾的」與本句語境不同。"
+        "casual-mcq-08": "本句的「casuals」指「臨時工；部分語境下的名詞用法」。",
+        "casual-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-08"
     },
@@ -725,11 +655,8 @@ export default {
       "masked": "Everyone was dressed ____.",
       "options": [
         "casual-mcq-09",
-        "casual-mcq-08",
-        "casual-mcq-10",
-        "casual-mcq-07",
-        "casual-mcq-11",
-        "casual-mcq-06"
+        "casual-mcq-04",
+        "casual-mcq-07"
       ],
       "explanation": "本句的「casually」指「休閒地；隨意地；漫不經心地；偶然地」。",
       "sentenceIndex": 18,
@@ -738,12 +665,9 @@ export default {
         "casually"
       ],
       "optionReasons": {
-        "casual-mcq-09": "本句指「休閒地；隨意地；漫不經心地；偶然地」。",
-        "casual-mcq-08": "「臨時工；部分語境下的名詞用法」與本句語境不同。",
-        "casual-mcq-10": "「輕鬆隨意或漫不經心的性質」與本句語境不同。",
-        "casual-mcq-07": "「沒有仔細或深入觀察、只是粗略看看的」與本句語境不同。",
-        "casual-mcq-11": "「商務休閒服裝風格」與本句語境不同。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。"
+        "casual-mcq-09": "本句的「casually」指「休閒地；隨意地；漫不經心地；偶然地」。",
+        "casual-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-09"
     },
@@ -755,11 +679,8 @@ export default {
       "masked": "He ____ mentioned the problem.",
       "options": [
         "casual-mcq-09",
-        "casual-mcq-08",
-        "casual-mcq-10",
-        "casual-mcq-07",
-        "casual-mcq-11",
-        "casual-mcq-06"
+        "casual-mcq-04",
+        "casual-mcq-07"
       ],
       "explanation": "本句的「casually」指「休閒地；隨意地；漫不經心地；偶然地」。",
       "sentenceIndex": 19,
@@ -768,12 +689,9 @@ export default {
         "casually"
       ],
       "optionReasons": {
-        "casual-mcq-09": "本句指「休閒地；隨意地；漫不經心地；偶然地」。",
-        "casual-mcq-08": "「臨時工；部分語境下的名詞用法」與本句語境不同。",
-        "casual-mcq-10": "「輕鬆隨意或漫不經心的性質」與本句語境不同。",
-        "casual-mcq-07": "「沒有仔細或深入觀察、只是粗略看看的」與本句語境不同。",
-        "casual-mcq-11": "「商務休閒服裝風格」與本句語境不同。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。"
+        "casual-mcq-09": "本句的「casually」指「休閒地；隨意地；漫不經心地；偶然地」。",
+        "casual-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-09"
     },
@@ -785,11 +703,9 @@ export default {
       "masked": "Her ____ made the conversation feel comfortable.",
       "options": [
         "casual-mcq-10",
-        "casual-mcq-09",
-        "casual-mcq-11",
         "casual-mcq-08",
         "casual-mcq-07",
-        "casual-mcq-06"
+        "casual-mcq-03"
       ],
       "explanation": "本句的「casualness」指「輕鬆隨意或漫不經心的性質」。",
       "sentenceIndex": 20,
@@ -798,12 +714,10 @@ export default {
         "casualness"
       ],
       "optionReasons": {
-        "casual-mcq-10": "本句指「輕鬆隨意或漫不經心的性質」。",
-        "casual-mcq-09": "「休閒地；隨意地；漫不經心地；偶然地」與本句語境不同。",
-        "casual-mcq-11": "「商務休閒服裝風格」與本句語境不同。",
-        "casual-mcq-08": "「臨時工；部分語境下的名詞用法」與本句語境不同。",
-        "casual-mcq-07": "「沒有仔細或深入觀察、只是粗略看看的」與本句語境不同。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。"
+        "casual-mcq-10": "本句的「casualness」指「輕鬆隨意或漫不經心的性質」。",
+        "casual-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-10"
     },
@@ -815,11 +729,9 @@ export default {
       "masked": "The ____ of his response worried me.",
       "options": [
         "casual-mcq-10",
-        "casual-mcq-09",
-        "casual-mcq-11",
-        "casual-mcq-08",
         "casual-mcq-07",
-        "casual-mcq-06"
+        "casual-mcq-08",
+        "casual-mcq-03"
       ],
       "explanation": "本句的「casualness」指「輕鬆隨意或漫不經心的性質」。",
       "sentenceIndex": 21,
@@ -828,12 +740,10 @@ export default {
         "casualness"
       ],
       "optionReasons": {
-        "casual-mcq-10": "本句指「輕鬆隨意或漫不經心的性質」。",
-        "casual-mcq-09": "「休閒地；隨意地；漫不經心地；偶然地」與本句語境不同。",
-        "casual-mcq-11": "「商務休閒服裝風格」與本句語境不同。",
-        "casual-mcq-08": "「臨時工；部分語境下的名詞用法」與本句語境不同。",
-        "casual-mcq-07": "「沒有仔細或深入觀察、只是粗略看看的」與本句語境不同。",
-        "casual-mcq-06": "「沒有刻意安排、偶然或順便發生的」與本句語境不同。"
+        "casual-mcq-10": "本句的「casualness」指「輕鬆隨意或漫不經心的性質」。",
+        "casual-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "casual-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "casual-mcq-10"
     }
@@ -845,5 +755,7 @@ export default {
     "sha256": "d4d41611b74b0e3df1ce6d17960f9ce198911e2e2df74ebf4383d22a61761639",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

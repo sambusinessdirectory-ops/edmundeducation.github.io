@@ -567,7 +567,7 @@ export default {
     },
     {
       "id": "fact-mcq-24",
-      "title": "表示事實；案情事實",
+      "title": "事實；案情事實",
       "form": "12. fact — factual issue in law",
       "en": "12. fact — factual issue in law",
       "zh": "表示事實；案情事實",
@@ -589,7 +589,7 @@ export default {
     },
     {
       "id": "fact-mcq-25",
-      "title": "表示信念；相信的事情",
+      "title": "信念；相信的事情",
       "form": "15. fact vs belief",
       "en": "15. fact vs belief",
       "zh": "表示信念；相信的事情",
@@ -611,7 +611,7 @@ export default {
     },
     {
       "id": "fact-mcq-26",
-      "title": "表示已確立的事實；公認事實",
+      "title": "已確立的事實；公認事實",
       "form": "31. established fact",
       "en": "31. established fact",
       "zh": "表示已確立的事實；公認事實",
@@ -641,11 +641,8 @@ export default {
       "masked": "Good teaching is not just about giving students ____.",
       "options": [
         "fact-mcq-23",
-        "fact-mcq-22",
-        "fact-mcq-24",
-        "fact-mcq-21",
         "fact-mcq-25",
-        "fact-mcq-20"
+        "fact-mcq-14"
       ],
       "explanation": "本句的「facts」指「一味把大量事實／知識硬塞給別人」。",
       "sentenceIndex": 0,
@@ -654,12 +651,9 @@ export default {
         "facts"
       ],
       "optionReasons": {
-        "fact-mcq-23": "本句指「一味把大量事實／知識硬塞給別人」。",
-        "fact-mcq-22": "「查證事實真偽與準確性的過程」是「fact-checking」的用法，與本句語境不同。",
-        "fact-mcq-24": "「表示事實；案情事實」是「12. fact — factual issue in law」的用法，與本句語境不同。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。",
-        "fact-mcq-25": "「表示信念；相信的事情」是「15. fact vs belief」的用法，與本句語境不同。",
-        "fact-mcq-20": "「就實際事實而言；在事實層面」是「factually」的用法，與本句語境不同。"
+        "fact-mcq-23": "本句的「facts」指「一味把大量事實／知識硬塞給別人」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-23"
     },
@@ -671,11 +665,8 @@ export default {
       "masked": "She helped us understand the ideas behind the ____.",
       "options": [
         "fact-mcq-23",
-        "fact-mcq-22",
-        "fact-mcq-24",
-        "fact-mcq-21",
         "fact-mcq-25",
-        "fact-mcq-20"
+        "fact-mcq-14"
       ],
       "explanation": "本句的「facts」指「一味把大量事實／知識硬塞給別人」。",
       "sentenceIndex": 1,
@@ -684,12 +675,9 @@ export default {
         "facts"
       ],
       "optionReasons": {
-        "fact-mcq-23": "本句指「一味把大量事實／知識硬塞給別人」。",
-        "fact-mcq-22": "「查證事實真偽與準確性的過程」是「fact-checking」的用法，與本句語境不同。",
-        "fact-mcq-24": "「表示事實；案情事實」是「12. fact — factual issue in law」的用法，與本句語境不同。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。",
-        "fact-mcq-25": "「表示信念；相信的事情」是「15. fact vs belief」的用法，與本句語境不同。",
-        "fact-mcq-20": "「就實際事實而言；在事實層面」是「factually」的用法，與本句語境不同。"
+        "fact-mcq-23": "本句的「facts」指「一味把大量事實／知識硬塞給別人」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-23"
     },
@@ -701,11 +689,8 @@ export default {
       "masked": "It is a ____ that water freezes at 0°C under standard conditions.",
       "options": [
         "fact-mcq-01",
-        "fact-mcq-02",
-        "fact-mcq-03",
-        "fact-mcq-04",
-        "fact-mcq-05",
-        "fact-mcq-06"
+        "fact-mcq-14",
+        "fact-mcq-25"
       ],
       "explanation": "本句的「fact」指「實際存在、已發生或可以被證實為真的事情；事實」。",
       "sentenceIndex": 2,
@@ -714,12 +699,9 @@ export default {
         "fact"
       ],
       "optionReasons": {
-        "fact-mcq-01": "本句指「實際存在、已發生或可以被證實為真的事情；事實」。",
-        "fact-mcq-02": "「一項具體、可確認為真的資訊」是「a fact」的用法，與本句語境不同。",
-        "fact-mcq-03": "「多項真實、可核實的資訊／事實資料」是「facts — pieces of information」的用法，與本句語境不同。",
-        "fact-mcq-04": "「經證據或查證確認的事實」是「fact — verified information」的用法，與本句語境不同。",
-        "fact-mcq-05": "「以可核實事實為基礎的資訊」是「factual information」的用法，與本句語境不同。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。"
+        "fact-mcq-01": "本句的「fact」指「實際存在、已發生或可以被證實為真的事情；事實」。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-01"
     },
@@ -731,11 +713,8 @@ export default {
       "masked": "We need to separate ____ from opinion.",
       "options": [
         "fact-mcq-01",
-        "fact-mcq-02",
-        "fact-mcq-03",
-        "fact-mcq-04",
-        "fact-mcq-05",
-        "fact-mcq-06"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「fact」指「實際存在、已發生或可以被證實為真的事情；事實」。",
       "sentenceIndex": 3,
@@ -744,12 +723,9 @@ export default {
         "fact"
       ],
       "optionReasons": {
-        "fact-mcq-01": "本句指「實際存在、已發生或可以被證實為真的事情；事實」。",
-        "fact-mcq-02": "「一項具體、可確認為真的資訊」是「a fact」的用法，與本句語境不同。",
-        "fact-mcq-03": "「多項真實、可核實的資訊／事實資料」是「facts — pieces of information」的用法，與本句語境不同。",
-        "fact-mcq-04": "「經證據或查證確認的事實」是「fact — verified information」的用法，與本句語境不同。",
-        "fact-mcq-05": "「以可核實事實為基礎的資訊」是「factual information」的用法，與本句語境不同。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。"
+        "fact-mcq-01": "本句的「fact」指「實際存在、已發生或可以被證實為真的事情；事實」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-01"
     },
@@ -761,11 +737,7 @@ export default {
       "masked": "Let me give you an important ____.",
       "options": [
         "fact-mcq-02",
-        "fact-mcq-01",
-        "fact-mcq-03",
-        "fact-mcq-04",
-        "fact-mcq-05",
-        "fact-mcq-06"
+        "fact-mcq-14"
       ],
       "explanation": "本句的「fact」指「一項具體、可確認為真的資訊」。",
       "sentenceIndex": 4,
@@ -774,12 +746,8 @@ export default {
         "fact"
       ],
       "optionReasons": {
-        "fact-mcq-02": "本句指「一項具體、可確認為真的資訊」。",
-        "fact-mcq-01": "「實際存在、已發生或可以被證實為真的事情；事實」是「fact — something true」的用法，與本句語境不同。",
-        "fact-mcq-03": "「多項真實、可核實的資訊／事實資料」是「facts — pieces of information」的用法，與本句語境不同。",
-        "fact-mcq-04": "「經證據或查證確認的事實」是「fact — verified information」的用法，與本句語境不同。",
-        "fact-mcq-05": "「以可核實事實為基礎的資訊」是「factual information」的用法，與本句語境不同。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。"
+        "fact-mcq-02": "本句的「fact」指「一項具體、可確認為真的資訊」。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-02"
     },
@@ -791,11 +759,7 @@ export default {
       "masked": "That ____ changed how I understood the problem.",
       "options": [
         "fact-mcq-02",
-        "fact-mcq-01",
-        "fact-mcq-03",
-        "fact-mcq-04",
-        "fact-mcq-05",
-        "fact-mcq-06"
+        "fact-mcq-14"
       ],
       "explanation": "本句的「fact」指「一項具體、可確認為真的資訊」。",
       "sentenceIndex": 5,
@@ -804,12 +768,8 @@ export default {
         "fact"
       ],
       "optionReasons": {
-        "fact-mcq-02": "本句指「一項具體、可確認為真的資訊」。",
-        "fact-mcq-01": "「實際存在、已發生或可以被證實為真的事情；事實」是「fact — something true」的用法，與本句語境不同。",
-        "fact-mcq-03": "「多項真實、可核實的資訊／事實資料」是「facts — pieces of information」的用法，與本句語境不同。",
-        "fact-mcq-04": "「經證據或查證確認的事實」是「fact — verified information」的用法，與本句語境不同。",
-        "fact-mcq-05": "「以可核實事實為基礎的資訊」是「factual information」的用法，與本句語境不同。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。"
+        "fact-mcq-02": "本句的「fact」指「一項具體、可確認為真的資訊」。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-02"
     },
@@ -821,11 +781,8 @@ export default {
       "masked": "Students need to learn both ____ and concepts.",
       "options": [
         "fact-mcq-03",
-        "fact-mcq-02",
-        "fact-mcq-04",
-        "fact-mcq-01",
-        "fact-mcq-05",
-        "fact-mcq-06"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「facts」指「多項真實、可核實的資訊／事實資料」。",
       "sentenceIndex": 6,
@@ -834,12 +791,9 @@ export default {
         "facts"
       ],
       "optionReasons": {
-        "fact-mcq-03": "本句指「多項真實、可核實的資訊／事實資料」。",
-        "fact-mcq-02": "「一項具體、可確認為真的資訊」是「a fact」的用法，與本句語境不同。",
-        "fact-mcq-04": "「經證據或查證確認的事實」是「fact — verified information」的用法，與本句語境不同。",
-        "fact-mcq-01": "「實際存在、已發生或可以被證實為真的事情；事實」是「fact — something true」的用法，與本句語境不同。",
-        "fact-mcq-05": "「以可核實事實為基礎的資訊」是「factual information」的用法，與本句語境不同。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。"
+        "fact-mcq-03": "本句的「facts」指「多項真實、可核實的資訊／事實資料」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-03"
     },
@@ -851,11 +805,8 @@ export default {
       "masked": "The report contains useful ____ about the issue.",
       "options": [
         "fact-mcq-03",
-        "fact-mcq-02",
-        "fact-mcq-04",
-        "fact-mcq-01",
-        "fact-mcq-05",
-        "fact-mcq-06"
+        "fact-mcq-14",
+        "fact-mcq-25"
       ],
       "explanation": "本句的「facts」指「多項真實、可核實的資訊／事實資料」。",
       "sentenceIndex": 7,
@@ -864,12 +815,9 @@ export default {
         "facts"
       ],
       "optionReasons": {
-        "fact-mcq-03": "本句指「多項真實、可核實的資訊／事實資料」。",
-        "fact-mcq-02": "「一項具體、可確認為真的資訊」是「a fact」的用法，與本句語境不同。",
-        "fact-mcq-04": "「經證據或查證確認的事實」是「fact — verified information」的用法，與本句語境不同。",
-        "fact-mcq-01": "「實際存在、已發生或可以被證實為真的事情；事實」是「fact — something true」的用法，與本句語境不同。",
-        "fact-mcq-05": "「以可核實事實為基礎的資訊」是「factual information」的用法，與本句語境不同。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。"
+        "fact-mcq-03": "本句的「facts」指「多項真實、可核實的資訊／事實資料」。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-03"
     },
@@ -881,11 +829,8 @@ export default {
       "masked": "We should check the ____ before making a claim.",
       "options": [
         "fact-mcq-04",
-        "fact-mcq-03",
-        "fact-mcq-05",
-        "fact-mcq-02",
-        "fact-mcq-06",
-        "fact-mcq-01"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「facts」指「經證據或查證確認的事實」。",
       "sentenceIndex": 8,
@@ -894,12 +839,9 @@ export default {
         "facts"
       ],
       "optionReasons": {
-        "fact-mcq-04": "本句指「經證據或查證確認的事實」。",
-        "fact-mcq-03": "「多項真實、可核實的資訊／事實資料」是「facts — pieces of information」的用法，與本句語境不同。",
-        "fact-mcq-05": "「以可核實事實為基礎的資訊」是「factual information」的用法，與本句語境不同。",
-        "fact-mcq-02": "「一項具體、可確認為真的資訊」是「a fact」的用法，與本句語境不同。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。",
-        "fact-mcq-01": "「實際存在、已發生或可以被證實為真的事情；事實」是「fact — something true」的用法，與本句語境不同。"
+        "fact-mcq-04": "本句的「facts」指「經證據或查證確認的事實」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-04"
     },
@@ -911,11 +853,8 @@ export default {
       "masked": "The journalist confirmed the ____.",
       "options": [
         "fact-mcq-04",
-        "fact-mcq-03",
-        "fact-mcq-05",
-        "fact-mcq-02",
-        "fact-mcq-06",
-        "fact-mcq-01"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「facts」指「經證據或查證確認的事實」。",
       "sentenceIndex": 9,
@@ -924,12 +863,9 @@ export default {
         "facts"
       ],
       "optionReasons": {
-        "fact-mcq-04": "本句指「經證據或查證確認的事實」。",
-        "fact-mcq-03": "「多項真實、可核實的資訊／事實資料」是「facts — pieces of information」的用法，與本句語境不同。",
-        "fact-mcq-05": "「以可核實事實為基礎的資訊」是「factual information」的用法，與本句語境不同。",
-        "fact-mcq-02": "「一項具體、可確認為真的資訊」是「a fact」的用法，與本句語境不同。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。",
-        "fact-mcq-01": "「實際存在、已發生或可以被證實為真的事情；事實」是「fact — something true」的用法，與本句語境不同。"
+        "fact-mcq-04": "本句的「facts」指「經證據或查證確認的事實」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-04"
     },
@@ -941,11 +877,8 @@ export default {
       "masked": "The article provides mostly ____.",
       "options": [
         "fact-mcq-05",
-        "fact-mcq-04",
-        "fact-mcq-06",
-        "fact-mcq-03",
-        "fact-mcq-07",
-        "fact-mcq-02"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「factual information」指「以可核實事實為基礎的資訊」。",
       "sentenceIndex": 10,
@@ -954,12 +887,9 @@ export default {
         "factual information"
       ],
       "optionReasons": {
-        "fact-mcq-05": "本句指「以可核實事實為基礎的資訊」。",
-        "fact-mcq-04": "「經證據或查證確認的事實」是「fact — verified information」的用法，與本句語境不同。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。",
-        "fact-mcq-03": "「多項真實、可核實的資訊／事實資料」是「facts — pieces of information」的用法，與本句語境不同。",
-        "fact-mcq-07": "「強調實際情況或真相；事實上／其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "fact-mcq-02": "「一項具體、可確認為真的資訊」是「a fact」的用法，與本句語境不同。"
+        "fact-mcq-05": "本句的「factual information」指「以可核實事實為基礎的資訊」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-05"
     },
@@ -971,11 +901,8 @@ export default {
       "masked": "Students should distinguish ____ from personal opinion.",
       "options": [
         "fact-mcq-05",
-        "fact-mcq-04",
-        "fact-mcq-06",
-        "fact-mcq-03",
-        "fact-mcq-07",
-        "fact-mcq-02"
+        "fact-mcq-14",
+        "fact-mcq-25"
       ],
       "explanation": "本句的「factual information」指「以可核實事實為基礎的資訊」。",
       "sentenceIndex": 11,
@@ -984,12 +911,9 @@ export default {
         "factual information"
       ],
       "optionReasons": {
-        "fact-mcq-05": "本句指「以可核實事實為基礎的資訊」。",
-        "fact-mcq-04": "「經證據或查證確認的事實」是「fact — verified information」的用法，與本句語境不同。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。",
-        "fact-mcq-03": "「多項真實、可核實的資訊／事實資料」是「facts — pieces of information」的用法，與本句語境不同。",
-        "fact-mcq-07": "「強調實際情況或真相；事實上／其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "fact-mcq-02": "「一項具體、可確認為真的資訊」是「a fact」的用法，與本句語境不同。"
+        "fact-mcq-05": "本句的「factual information」指「以可核實事實為基礎的資訊」。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-05"
     },
@@ -1001,11 +925,8 @@ export default {
       "masked": "I thought the test would be easy. ____, it was quite difficult.",
       "options": [
         "fact-mcq-06",
-        "fact-mcq-05",
-        "fact-mcq-07",
-        "fact-mcq-04",
-        "fact-mcq-08",
-        "fact-mcq-03"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「In fact」指「用來補充、強調或修正前文所說內容；其實／事實上」。",
       "sentenceIndex": 12,
@@ -1014,12 +935,9 @@ export default {
         "In fact"
       ],
       "optionReasons": {
-        "fact-mcq-06": "本句指「用來補充、強調或修正前文所說內容；其實／事實上」。",
-        "fact-mcq-05": "「以可核實事實為基礎的資訊」是「factual information」的用法，與本句語境不同。",
-        "fact-mcq-07": "「強調實際情況或真相；事實上／其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "fact-mcq-04": "「經證據或查證確認的事實」是「fact — verified information」的用法，與本句語境不同。",
-        "fact-mcq-08": "「引出最重要的實際情況；事實是……」是「the fact is that...」的用法，與本句語境不同。",
-        "fact-mcq-03": "「多項真實、可核實的資訊／事實資料」是「facts — pieces of information」的用法，與本句語境不同。"
+        "fact-mcq-06": "本句的「In fact」指「用來補充、強調或修正前文所說內容；其實／事實上」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-06"
     },
@@ -1031,11 +949,8 @@ export default {
       "masked": "She did not just teach physics. ____, she changed the way I thought.",
       "options": [
         "fact-mcq-06",
-        "fact-mcq-05",
-        "fact-mcq-07",
-        "fact-mcq-04",
-        "fact-mcq-08",
-        "fact-mcq-03"
+        "fact-mcq-14",
+        "fact-mcq-25"
       ],
       "explanation": "本句的「In fact」指「用來補充、強調或修正前文所說內容；其實／事實上」。",
       "sentenceIndex": 13,
@@ -1044,12 +959,9 @@ export default {
         "In fact"
       ],
       "optionReasons": {
-        "fact-mcq-06": "本句指「用來補充、強調或修正前文所說內容；其實／事實上」。",
-        "fact-mcq-05": "「以可核實事實為基礎的資訊」是「factual information」的用法，與本句語境不同。",
-        "fact-mcq-07": "「強調實際情況或真相；事實上／其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "fact-mcq-04": "「經證據或查證確認的事實」是「fact — verified information」的用法，與本句語境不同。",
-        "fact-mcq-08": "「引出最重要的實際情況；事實是……」是「the fact is that...」的用法，與本句語境不同。",
-        "fact-mcq-03": "「多項真實、可核實的資訊／事實資料」是「facts — pieces of information」的用法，與本句語境不同。"
+        "fact-mcq-06": "本句的「In fact」指「用來補充、強調或修正前文所說內容；其實／事實上」。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-06"
     },
@@ -1061,11 +973,8 @@ export default {
       "masked": "Do you know her?” “____, I do.",
       "options": [
         "fact-mcq-07",
-        "fact-mcq-06",
-        "fact-mcq-08",
-        "fact-mcq-05",
-        "fact-mcq-09",
-        "fact-mcq-04"
+        "fact-mcq-14",
+        "fact-mcq-25"
       ],
       "explanation": "本句的「As a matter of fact」指「強調實際情況或真相；事實上／其實」。",
       "sentenceIndex": 14,
@@ -1074,12 +983,9 @@ export default {
         "As a matter of fact"
       ],
       "optionReasons": {
-        "fact-mcq-07": "本句指「強調實際情況或真相；事實上／其實」。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。",
-        "fact-mcq-08": "「引出最重要的實際情況；事實是……」是「the fact is that...」的用法，與本句語境不同。",
-        "fact-mcq-05": "「以可核實事實為基礎的資訊」是「factual information」的用法，與本句語境不同。",
-        "fact-mcq-09": "「指某件事確實存在或發生這一事實」是「the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-04": "「經證據或查證確認的事實」是「fact — verified information」的用法，與本句語境不同。"
+        "fact-mcq-07": "本句的「As a matter of fact」指「強調實際情況或真相；事實上／其實」。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-07"
     },
@@ -1091,11 +997,8 @@ export default {
       "masked": "____, we met years ago.",
       "options": [
         "fact-mcq-07",
-        "fact-mcq-06",
-        "fact-mcq-08",
-        "fact-mcq-05",
-        "fact-mcq-09",
-        "fact-mcq-04"
+        "fact-mcq-14",
+        "fact-mcq-25"
       ],
       "explanation": "本句的「As a matter of fact」指「強調實際情況或真相；事實上／其實」。",
       "sentenceIndex": 15,
@@ -1104,12 +1007,9 @@ export default {
         "As a matter of fact"
       ],
       "optionReasons": {
-        "fact-mcq-07": "本句指「強調實際情況或真相；事實上／其實」。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。",
-        "fact-mcq-08": "「引出最重要的實際情況；事實是……」是「the fact is that...」的用法，與本句語境不同。",
-        "fact-mcq-05": "「以可核實事實為基礎的資訊」是「factual information」的用法，與本句語境不同。",
-        "fact-mcq-09": "「指某件事確實存在或發生這一事實」是「the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-04": "「經證據或查證確認的事實」是「fact — verified information」的用法，與本句語境不同。"
+        "fact-mcq-07": "本句的「As a matter of fact」指「強調實際情況或真相；事實上／其實」。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-07"
     },
@@ -1121,11 +1021,8 @@ export default {
       "masked": "____ we need more time.",
       "options": [
         "fact-mcq-08",
-        "fact-mcq-07",
-        "fact-mcq-09",
-        "fact-mcq-06",
-        "fact-mcq-10",
-        "fact-mcq-05"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「The fact is that」指「引出最重要的實際情況；事實是……」。",
       "sentenceIndex": 16,
@@ -1134,12 +1031,9 @@ export default {
         "The fact is that"
       ],
       "optionReasons": {
-        "fact-mcq-08": "本句指「引出最重要的實際情況；事實是……」。",
-        "fact-mcq-07": "「強調實際情況或真相；事實上／其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "fact-mcq-09": "「指某件事確實存在或發生這一事實」是「the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。",
-        "fact-mcq-10": "「某事件中實際發生、存在的相關情況」是「facts of a case/situation」的用法，與本句語境不同。",
-        "fact-mcq-05": "「以可核實事實為基礎的資訊」是「factual information」的用法，與本句語境不同。"
+        "fact-mcq-08": "本句的「The fact is that」指「引出最重要的實際情況；事實是……」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-08"
     },
@@ -1151,11 +1045,8 @@ export default {
       "masked": "____ many students find the topic difficult.",
       "options": [
         "fact-mcq-08",
-        "fact-mcq-07",
-        "fact-mcq-09",
-        "fact-mcq-06",
-        "fact-mcq-10",
-        "fact-mcq-05"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「The fact is that」指「引出最重要的實際情況；事實是……」。",
       "sentenceIndex": 17,
@@ -1164,12 +1055,9 @@ export default {
         "The fact is that"
       ],
       "optionReasons": {
-        "fact-mcq-08": "本句指「引出最重要的實際情況；事實是……」。",
-        "fact-mcq-07": "「強調實際情況或真相；事實上／其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "fact-mcq-09": "「指某件事確實存在或發生這一事實」是「the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。",
-        "fact-mcq-10": "「某事件中實際發生、存在的相關情況」是「facts of a case/situation」的用法，與本句語境不同。",
-        "fact-mcq-05": "「以可核實事實為基礎的資訊」是「factual information」的用法，與本句語境不同。"
+        "fact-mcq-08": "本句的「The fact is that」指「引出最重要的實際情況；事實是……」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-08"
     },
@@ -1181,11 +1069,7 @@ export default {
       "masked": "____ helped everyone else relax.",
       "options": [
         "fact-mcq-09",
-        "fact-mcq-08",
-        "fact-mcq-10",
-        "fact-mcq-07",
-        "fact-mcq-11",
-        "fact-mcq-06"
+        "fact-mcq-25"
       ],
       "explanation": "本句的「The fact that she stayed calm」指「指某件事確實存在或發生這一事實」。",
       "sentenceIndex": 18,
@@ -1194,12 +1078,8 @@ export default {
         "The fact that she stayed calm"
       ],
       "optionReasons": {
-        "fact-mcq-09": "本句指「指某件事確實存在或發生這一事實」。",
-        "fact-mcq-08": "「引出最重要的實際情況；事實是……」是「the fact is that...」的用法，與本句語境不同。",
-        "fact-mcq-10": "「某事件中實際發生、存在的相關情況」是「facts of a case/situation」的用法，與本句語境不同。",
-        "fact-mcq-07": "「強調實際情況或真相；事實上／其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "fact-mcq-11": "「關於實際發生甚麼／甚麼是真實的事實問題」是「question of fact」的用法，與本句語境不同。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。"
+        "fact-mcq-09": "本句的「The fact that she stayed calm」指「指某件事確實存在或發生這一事實」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-09"
     },
@@ -1211,11 +1091,7 @@ export default {
       "masked": "We cannot ignore ____.",
       "options": [
         "fact-mcq-09",
-        "fact-mcq-08",
-        "fact-mcq-10",
-        "fact-mcq-07",
-        "fact-mcq-11",
-        "fact-mcq-06"
+        "fact-mcq-25"
       ],
       "explanation": "本句的「the fact that the results changed」指「指某件事確實存在或發生這一事實」。",
       "sentenceIndex": 19,
@@ -1224,12 +1100,8 @@ export default {
         "the fact that the results changed"
       ],
       "optionReasons": {
-        "fact-mcq-09": "本句指「指某件事確實存在或發生這一事實」。",
-        "fact-mcq-08": "「引出最重要的實際情況；事實是……」是「the fact is that...」的用法，與本句語境不同。",
-        "fact-mcq-10": "「某事件中實際發生、存在的相關情況」是「facts of a case/situation」的用法，與本句語境不同。",
-        "fact-mcq-07": "「強調實際情況或真相；事實上／其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "fact-mcq-11": "「關於實際發生甚麼／甚麼是真實的事實問題」是「question of fact」的用法，與本句語境不同。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。"
+        "fact-mcq-09": "本句的「the fact that the results changed」指「指某件事確實存在或發生這一事實」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-09"
     },
@@ -1241,11 +1113,8 @@ export default {
       "masked": "The decision was based on the ____.",
       "options": [
         "fact-mcq-08",
-        "fact-mcq-07",
-        "fact-mcq-09",
-        "fact-mcq-06",
-        "fact-mcq-10",
-        "fact-mcq-05"
+        "fact-mcq-14",
+        "fact-mcq-25"
       ],
       "explanation": "本句的「facts of the case」指「引出最重要的實際情況；事實是……」。",
       "sentenceIndex": 20,
@@ -1254,12 +1123,9 @@ export default {
         "facts of the case"
       ],
       "optionReasons": {
-        "fact-mcq-08": "本句指「引出最重要的實際情況；事實是……」。",
-        "fact-mcq-07": "「強調實際情況或真相；事實上／其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "fact-mcq-09": "「指某件事確實存在或發生這一事實」是「the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。",
-        "fact-mcq-10": "「某事件中實際發生、存在的相關情況」是「facts of a case/situation」的用法，與本句語境不同。",
-        "fact-mcq-05": "「以可核實事實為基礎的資訊」是「factual information」的用法，與本句語境不同。"
+        "fact-mcq-08": "本句的「facts of the case」指「引出最重要的實際情況；事實是……」。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-08"
     },
@@ -1271,11 +1137,8 @@ export default {
       "masked": "We need to understand the ____.",
       "options": [
         "fact-mcq-08",
-        "fact-mcq-07",
-        "fact-mcq-09",
-        "fact-mcq-06",
-        "fact-mcq-10",
-        "fact-mcq-05"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「facts surrounding the incident」指「引出最重要的實際情況；事實是……」。",
       "sentenceIndex": 21,
@@ -1284,12 +1147,9 @@ export default {
         "facts surrounding the incident"
       ],
       "optionReasons": {
-        "fact-mcq-08": "本句指「引出最重要的實際情況；事實是……」。",
-        "fact-mcq-07": "「強調實際情況或真相；事實上／其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "fact-mcq-09": "「指某件事確實存在或發生這一事實」是「the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-06": "「用來補充、強調或修正前文所說內容；其實／事實上」是「in fact」的用法，與本句語境不同。",
-        "fact-mcq-10": "「某事件中實際發生、存在的相關情況」是「facts of a case/situation」的用法，與本句語境不同。",
-        "fact-mcq-05": "「以可核實事實為基礎的資訊」是「factual information」的用法，與本句語境不同。"
+        "fact-mcq-08": "本句的「facts surrounding the incident」指「引出最重要的實際情況；事實是……」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-08"
     },
@@ -1301,11 +1161,8 @@ export default {
       "masked": "The court must determine the ____.",
       "options": [
         "fact-mcq-24",
-        "fact-mcq-23",
-        "fact-mcq-25",
-        "fact-mcq-22",
-        "fact-mcq-26",
-        "fact-mcq-21"
+        "fact-mcq-14",
+        "fact-mcq-25"
       ],
       "explanation": "本句的「facts」指「表示事實；案情事實」。",
       "sentenceIndex": 22,
@@ -1314,12 +1171,9 @@ export default {
         "facts"
       ],
       "optionReasons": {
-        "fact-mcq-24": "本句指「表示事實；案情事實」。",
-        "fact-mcq-23": "「一味把大量事實／知識硬塞給別人」是「Passage meaning」的用法，與本句語境不同。",
-        "fact-mcq-25": "「表示信念；相信的事情」是「15. fact vs belief」的用法，與本句語境不同。",
-        "fact-mcq-22": "「查證事實真偽與準確性的過程」是「fact-checking」的用法，與本句語境不同。",
-        "fact-mcq-26": "「表示已確立的事實；公認事實」是「31. established fact」的用法，與本句語境不同。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。"
+        "fact-mcq-24": "本句的「facts」指「表示事實；案情事實」。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-24"
     },
@@ -1331,11 +1185,8 @@ export default {
       "masked": "The dispute concerns a question of ____.",
       "options": [
         "fact-mcq-24",
-        "fact-mcq-23",
         "fact-mcq-25",
-        "fact-mcq-22",
-        "fact-mcq-26",
-        "fact-mcq-21"
+        "fact-mcq-14"
       ],
       "explanation": "本句的「fact」指「表示事實；案情事實」。",
       "sentenceIndex": 23,
@@ -1344,12 +1195,9 @@ export default {
         "fact"
       ],
       "optionReasons": {
-        "fact-mcq-24": "本句指「表示事實；案情事實」。",
-        "fact-mcq-23": "「一味把大量事實／知識硬塞給別人」是「Passage meaning」的用法，與本句語境不同。",
-        "fact-mcq-25": "「表示信念；相信的事情」是「15. fact vs belief」的用法，與本句語境不同。",
-        "fact-mcq-22": "「查證事實真偽與準確性的過程」是「fact-checking」的用法，與本句語境不同。",
-        "fact-mcq-26": "「表示已確立的事實；公認事實」是「31. established fact」的用法，與本句語境不同。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。"
+        "fact-mcq-24": "本句的「fact」指「表示事實；案情事實」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-24"
     },
@@ -1361,11 +1209,8 @@ export default {
       "masked": "Whether he was present is a ____.",
       "options": [
         "fact-mcq-11",
-        "fact-mcq-10",
-        "fact-mcq-12",
-        "fact-mcq-09",
-        "fact-mcq-13",
-        "fact-mcq-08"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「question of fact」指「關於實際發生甚麼／甚麼是真實的事實問題」。",
       "sentenceIndex": 24,
@@ -1374,12 +1219,9 @@ export default {
         "question of fact"
       ],
       "optionReasons": {
-        "fact-mcq-11": "本句指「關於實際發生甚麼／甚麼是真實的事實問題」。",
-        "fact-mcq-10": "「某事件中實際發生、存在的相關情況」是「facts of a case/situation」的用法，與本句語境不同。",
-        "fact-mcq-12": "「某件事情所有重要而真實的資料／實情」是「the facts」的用法，與本句語境不同。",
-        "fact-mcq-09": "「指某件事確實存在或發生這一事實」是「the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-13": "「查清或取得準確的事實資料」是「get the facts」的用法，與本句語境不同。",
-        "fact-mcq-08": "「引出最重要的實際情況；事實是……」是「the fact is that...」的用法，與本句語境不同。"
+        "fact-mcq-11": "本句的「question of fact」指「關於實際發生甚麼／甚麼是真實的事實問題」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-11"
     },
@@ -1391,11 +1233,8 @@ export default {
       "masked": "The jury decides many questions of ____.",
       "options": [
         "fact-mcq-11",
-        "fact-mcq-10",
-        "fact-mcq-12",
-        "fact-mcq-09",
-        "fact-mcq-13",
-        "fact-mcq-08"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「fact」指「關於實際發生甚麼／甚麼是真實的事實問題」。",
       "sentenceIndex": 25,
@@ -1404,12 +1243,9 @@ export default {
         "fact"
       ],
       "optionReasons": {
-        "fact-mcq-11": "本句指「關於實際發生甚麼／甚麼是真實的事實問題」。",
-        "fact-mcq-10": "「某事件中實際發生、存在的相關情況」是「facts of a case/situation」的用法，與本句語境不同。",
-        "fact-mcq-12": "「某件事情所有重要而真實的資料／實情」是「the facts」的用法，與本句語境不同。",
-        "fact-mcq-09": "「指某件事確實存在或發生這一事實」是「the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-13": "「查清或取得準確的事實資料」是「get the facts」的用法，與本句語境不同。",
-        "fact-mcq-08": "「引出最重要的實際情況；事實是……」是「the fact is that...」的用法，與本句語境不同。"
+        "fact-mcq-11": "本句的「fact」指「關於實際發生甚麼／甚麼是真實的事實問題」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-11"
     },
@@ -1421,11 +1257,8 @@ export default {
       "masked": "The class has thirty students” is a ____.",
       "options": [
         "fact-mcq-11",
-        "fact-mcq-10",
-        "fact-mcq-12",
-        "fact-mcq-09",
-        "fact-mcq-13",
-        "fact-mcq-08"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「fact」指「關於實際發生甚麼／甚麼是真實的事實問題」。",
       "sentenceIndex": 26,
@@ -1434,12 +1267,9 @@ export default {
         "fact"
       ],
       "optionReasons": {
-        "fact-mcq-11": "本句指「關於實際發生甚麼／甚麼是真實的事實問題」。",
-        "fact-mcq-10": "「某事件中實際發生、存在的相關情況」是「facts of a case/situation」的用法，與本句語境不同。",
-        "fact-mcq-12": "「某件事情所有重要而真實的資料／實情」是「the facts」的用法，與本句語境不同。",
-        "fact-mcq-09": "「指某件事確實存在或發生這一事實」是「the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-13": "「查清或取得準確的事實資料」是「get the facts」的用法，與本句語境不同。",
-        "fact-mcq-08": "「引出最重要的實際情況；事實是……」是「the fact is that...」的用法，與本句語境不同。"
+        "fact-mcq-11": "本句的「fact」指「關於實際發生甚麼／甚麼是真實的事實問題」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-11"
     },
@@ -1451,11 +1281,8 @@ export default {
       "masked": "This is the best class” is an ____.",
       "options": [
         "fact-mcq-11",
-        "fact-mcq-10",
-        "fact-mcq-12",
-        "fact-mcq-09",
-        "fact-mcq-13",
-        "fact-mcq-08"
+        "fact-mcq-14",
+        "fact-mcq-25"
       ],
       "explanation": "本句的「opinion」指「關於實際發生甚麼／甚麼是真實的事實問題」。",
       "sentenceIndex": 27,
@@ -1464,12 +1291,9 @@ export default {
         "opinion"
       ],
       "optionReasons": {
-        "fact-mcq-11": "本句指「關於實際發生甚麼／甚麼是真實的事實問題」。",
-        "fact-mcq-10": "「某事件中實際發生、存在的相關情況」是「facts of a case/situation」的用法，與本句語境不同。",
-        "fact-mcq-12": "「某件事情所有重要而真實的資料／實情」是「the facts」的用法，與本句語境不同。",
-        "fact-mcq-09": "「指某件事確實存在或發生這一事實」是「the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-13": "「查清或取得準確的事實資料」是「get the facts」的用法，與本句語境不同。",
-        "fact-mcq-08": "「引出最重要的實際情況；事實是……」是「the fact is that...」的用法，與本句語境不同。"
+        "fact-mcq-11": "本句的「opinion」指「關於實際發生甚麼／甚麼是真實的事實問題」。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-11"
     },
@@ -1481,11 +1305,7 @@ export default {
       "masked": "His ____ was sincere, but it was not supported by the facts.",
       "options": [
         "fact-mcq-25",
-        "fact-mcq-24",
-        "fact-mcq-26",
-        "fact-mcq-23",
-        "fact-mcq-22",
-        "fact-mcq-21"
+        "fact-mcq-12"
       ],
       "explanation": "本句的「belief」指「表示信念；相信的事情」。",
       "sentenceIndex": 28,
@@ -1494,12 +1314,8 @@ export default {
         "belief"
       ],
       "optionReasons": {
-        "fact-mcq-25": "本句指「表示信念；相信的事情」。",
-        "fact-mcq-24": "「表示事實；案情事實」是「12. fact — factual issue in law」的用法，與本句語境不同。",
-        "fact-mcq-26": "「表示已確立的事實；公認事實」是「31. established fact」的用法，與本句語境不同。",
-        "fact-mcq-23": "「一味把大量事實／知識硬塞給別人」是「Passage meaning」的用法，與本句語境不同。",
-        "fact-mcq-22": "「查證事實真偽與準確性的過程」是「fact-checking」的用法，與本句語境不同。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。"
+        "fact-mcq-25": "本句的「belief」指「表示信念；相信的事情」。",
+        "fact-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-25"
     },
@@ -1511,11 +1327,7 @@ export default {
       "masked": "We should distinguish belief from ____.",
       "options": [
         "fact-mcq-25",
-        "fact-mcq-24",
-        "fact-mcq-26",
-        "fact-mcq-23",
-        "fact-mcq-22",
-        "fact-mcq-21"
+        "fact-mcq-17"
       ],
       "explanation": "本句的「fact」指「表示信念；相信的事情」。",
       "sentenceIndex": 29,
@@ -1524,12 +1336,8 @@ export default {
         "fact"
       ],
       "optionReasons": {
-        "fact-mcq-25": "本句指「表示信念；相信的事情」。",
-        "fact-mcq-24": "「表示事實；案情事實」是「12. fact — factual issue in law」的用法，與本句語境不同。",
-        "fact-mcq-26": "「表示已確立的事實；公認事實」是「31. established fact」的用法，與本句語境不同。",
-        "fact-mcq-23": "「一味把大量事實／知識硬塞給別人」是「Passage meaning」的用法，與本句語境不同。",
-        "fact-mcq-22": "「查證事實真偽與準確性的過程」是「fact-checking」的用法，與本句語境不同。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。"
+        "fact-mcq-25": "本句的「fact」指「表示信念；相信的事情」。",
+        "fact-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-25"
     },
@@ -1541,11 +1349,7 @@ export default {
       "masked": "We do not yet know all the ____.",
       "options": [
         "fact-mcq-12",
-        "fact-mcq-11",
-        "fact-mcq-13",
-        "fact-mcq-10",
-        "fact-mcq-14",
-        "fact-mcq-09"
+        "fact-mcq-25"
       ],
       "explanation": "本句的「facts」指「某件事情所有重要而真實的資料／實情」。",
       "sentenceIndex": 30,
@@ -1554,12 +1358,8 @@ export default {
         "facts"
       ],
       "optionReasons": {
-        "fact-mcq-12": "本句指「某件事情所有重要而真實的資料／實情」。",
-        "fact-mcq-11": "「關於實際發生甚麼／甚麼是真實的事實問題」是「question of fact」的用法，與本句語境不同。",
-        "fact-mcq-13": "「查清或取得準確的事實資料」是「get the facts」的用法，與本句語境不同。",
-        "fact-mcq-10": "「某事件中實際發生、存在的相關情況」是「facts of a case/situation」的用法，與本句語境不同。",
-        "fact-mcq-14": "「對某件事有確切把握；確定知道」是「know for a fact」的用法，與本句語境不同。",
-        "fact-mcq-09": "「指某件事確實存在或發生這一事實」是「the fact that...」的用法，與本句語境不同。"
+        "fact-mcq-12": "本句的「facts」指「某件事情所有重要而真實的資料／實情」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-12"
     },
@@ -1571,11 +1371,7 @@ export default {
       "masked": "Let’s look at the ____ before deciding.",
       "options": [
         "fact-mcq-12",
-        "fact-mcq-11",
-        "fact-mcq-13",
-        "fact-mcq-10",
-        "fact-mcq-14",
-        "fact-mcq-09"
+        "fact-mcq-25"
       ],
       "explanation": "本句的「facts」指「某件事情所有重要而真實的資料／實情」。",
       "sentenceIndex": 31,
@@ -1584,12 +1380,8 @@ export default {
         "facts"
       ],
       "optionReasons": {
-        "fact-mcq-12": "本句指「某件事情所有重要而真實的資料／實情」。",
-        "fact-mcq-11": "「關於實際發生甚麼／甚麼是真實的事實問題」是「question of fact」的用法，與本句語境不同。",
-        "fact-mcq-13": "「查清或取得準確的事實資料」是「get the facts」的用法，與本句語境不同。",
-        "fact-mcq-10": "「某事件中實際發生、存在的相關情況」是「facts of a case/situation」的用法，與本句語境不同。",
-        "fact-mcq-14": "「對某件事有確切把握；確定知道」是「know for a fact」的用法，與本句語境不同。",
-        "fact-mcq-09": "「指某件事確實存在或發生這一事實」是「the fact that...」的用法，與本句語境不同。"
+        "fact-mcq-12": "本句的「facts」指「某件事情所有重要而真實的資料／實情」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-12"
     },
@@ -1601,11 +1393,8 @@ export default {
       "masked": "We need to ____ first.",
       "options": [
         "fact-mcq-13",
-        "fact-mcq-12",
-        "fact-mcq-14",
-        "fact-mcq-11",
-        "fact-mcq-15",
-        "fact-mcq-10"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「get the facts」指「查清或取得準確的事實資料」。",
       "sentenceIndex": 32,
@@ -1614,12 +1403,9 @@ export default {
         "get the facts"
       ],
       "optionReasons": {
-        "fact-mcq-13": "本句指「查清或取得準確的事實資料」。",
-        "fact-mcq-12": "「某件事情所有重要而真實的資料／實情」是「the facts」的用法，與本句語境不同。",
-        "fact-mcq-14": "「對某件事有確切把握；確定知道」是「know for a fact」的用法，與本句語境不同。",
-        "fact-mcq-11": "「關於實際發生甚麼／甚麼是真實的事實問題」是「question of fact」的用法，與本句語境不同。",
-        "fact-mcq-15": "「接受不一定令人愉快但真實存在的現實」是「face the facts」的用法，與本句語境不同。",
-        "fact-mcq-10": "「某事件中實際發生、存在的相關情況」是「facts of a case/situation」的用法，與本句語境不同。"
+        "fact-mcq-13": "本句的「get the facts」指「查清或取得準確的事實資料」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-13"
     },
@@ -1631,11 +1417,8 @@ export default {
       "masked": "The reporter spent days trying to ____.",
       "options": [
         "fact-mcq-13",
-        "fact-mcq-12",
-        "fact-mcq-14",
-        "fact-mcq-11",
-        "fact-mcq-15",
-        "fact-mcq-10"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「get the facts」指「查清或取得準確的事實資料」。",
       "sentenceIndex": 33,
@@ -1644,12 +1427,9 @@ export default {
         "get the facts"
       ],
       "optionReasons": {
-        "fact-mcq-13": "本句指「查清或取得準確的事實資料」。",
-        "fact-mcq-12": "「某件事情所有重要而真實的資料／實情」是「the facts」的用法，與本句語境不同。",
-        "fact-mcq-14": "「對某件事有確切把握；確定知道」是「know for a fact」的用法，與本句語境不同。",
-        "fact-mcq-11": "「關於實際發生甚麼／甚麼是真實的事實問題」是「question of fact」的用法，與本句語境不同。",
-        "fact-mcq-15": "「接受不一定令人愉快但真實存在的現實」是「face the facts」的用法，與本句語境不同。",
-        "fact-mcq-10": "「某事件中實際發生、存在的相關情況」是「facts of a case/situation」的用法，與本句語境不同。"
+        "fact-mcq-13": "本句的「get the facts」指「查清或取得準確的事實資料」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-13"
     },
@@ -1661,11 +1441,8 @@ export default {
       "masked": "I ____ that she was there.",
       "options": [
         "fact-mcq-14",
-        "fact-mcq-13",
-        "fact-mcq-15",
-        "fact-mcq-12",
-        "fact-mcq-16",
-        "fact-mcq-11"
+        "fact-mcq-24",
+        "fact-mcq-25"
       ],
       "explanation": "本句的「know for a fact」指「對某件事有確切把握；確定知道」。",
       "sentenceIndex": 34,
@@ -1674,12 +1451,9 @@ export default {
         "know for a fact"
       ],
       "optionReasons": {
-        "fact-mcq-14": "本句指「對某件事有確切把握；確定知道」。",
-        "fact-mcq-13": "「查清或取得準確的事實資料」是「get the facts」的用法，與本句語境不同。",
-        "fact-mcq-15": "「接受不一定令人愉快但真實存在的現實」是「face the facts」的用法，與本句語境不同。",
-        "fact-mcq-12": "「某件事情所有重要而真實的資料／實情」是「the facts」的用法，與本句語境不同。",
-        "fact-mcq-16": "「即使有其他因素，某件事仍然是真實的」是「the fact remains」的用法，與本句語境不同。",
-        "fact-mcq-11": "「關於實際發生甚麼／甚麼是真實的事實問題」是「question of fact」的用法，與本句語境不同。"
+        "fact-mcq-14": "本句的「know for a fact」指「對某件事有確切把握；確定知道」。",
+        "fact-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-14"
     },
@@ -1691,11 +1465,8 @@ export default {
       "masked": "Do you ____ that this is true?",
       "options": [
         "fact-mcq-14",
-        "fact-mcq-13",
-        "fact-mcq-15",
-        "fact-mcq-12",
-        "fact-mcq-16",
-        "fact-mcq-11"
+        "fact-mcq-24",
+        "fact-mcq-25"
       ],
       "explanation": "本句的「know for a fact」指「對某件事有確切把握；確定知道」。",
       "sentenceIndex": 35,
@@ -1704,12 +1475,9 @@ export default {
         "know for a fact"
       ],
       "optionReasons": {
-        "fact-mcq-14": "本句指「對某件事有確切把握；確定知道」。",
-        "fact-mcq-13": "「查清或取得準確的事實資料」是「get the facts」的用法，與本句語境不同。",
-        "fact-mcq-15": "「接受不一定令人愉快但真實存在的現實」是「face the facts」的用法，與本句語境不同。",
-        "fact-mcq-12": "「某件事情所有重要而真實的資料／實情」是「the facts」的用法，與本句語境不同。",
-        "fact-mcq-16": "「即使有其他因素，某件事仍然是真實的」是「the fact remains」的用法，與本句語境不同。",
-        "fact-mcq-11": "「關於實際發生甚麼／甚麼是真實的事實問題」是「question of fact」的用法，與本句語境不同。"
+        "fact-mcq-14": "本句的「know for a fact」指「對某件事有確切把握；確定知道」。",
+        "fact-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-14"
     },
@@ -1721,11 +1489,8 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "fact-mcq-15",
-        "fact-mcq-14",
-        "fact-mcq-16",
-        "fact-mcq-13",
-        "fact-mcq-17",
-        "fact-mcq-12"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「face the facts」指「接受不一定令人愉快但真實存在的現實」。",
       "sentenceIndex": 36,
@@ -1734,12 +1499,9 @@ export default {
         "face the facts"
       ],
       "optionReasons": {
-        "fact-mcq-15": "本句指「接受不一定令人愉快但真實存在的現實」。",
-        "fact-mcq-14": "「對某件事有確切把握；確定知道」是「know for a fact」的用法，與本句語境不同。",
-        "fact-mcq-16": "「即使有其他因素，某件事仍然是真實的」是「the fact remains」的用法，與本句語境不同。",
-        "fact-mcq-13": "「查清或取得準確的事實資料」是「get the facts」的用法，與本句語境不同。",
-        "fact-mcq-17": "「儘管某件事確實如此」是「despite the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-12": "「某件事情所有重要而真實的資料／實情」是「the facts」的用法，與本句語境不同。"
+        "fact-mcq-15": "本句的「face the facts」指「接受不一定令人愉快但真實存在的現實」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-15"
     },
@@ -1751,11 +1513,8 @@ export default {
       "masked": "He finally ____ that the plan had failed.",
       "options": [
         "fact-mcq-15",
-        "fact-mcq-14",
-        "fact-mcq-16",
-        "fact-mcq-13",
-        "fact-mcq-17",
-        "fact-mcq-12"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「faced the fact」指「接受不一定令人愉快但真實存在的現實」。",
       "sentenceIndex": 37,
@@ -1764,12 +1523,9 @@ export default {
         "faced the fact"
       ],
       "optionReasons": {
-        "fact-mcq-15": "本句指「接受不一定令人愉快但真實存在的現實」。",
-        "fact-mcq-14": "「對某件事有確切把握；確定知道」是「know for a fact」的用法，與本句語境不同。",
-        "fact-mcq-16": "「即使有其他因素，某件事仍然是真實的」是「the fact remains」的用法，與本句語境不同。",
-        "fact-mcq-13": "「查清或取得準確的事實資料」是「get the facts」的用法，與本句語境不同。",
-        "fact-mcq-17": "「儘管某件事確實如此」是「despite the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-12": "「某件事情所有重要而真實的資料／實情」是「the facts」的用法，與本句語境不同。"
+        "fact-mcq-15": "本句的「faced the fact」指「接受不一定令人愉快但真實存在的現實」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-15"
     },
@@ -1781,11 +1537,7 @@ export default {
       "masked": "The ____ that we are behind schedule.",
       "options": [
         "fact-mcq-16",
-        "fact-mcq-15",
-        "fact-mcq-17",
-        "fact-mcq-14",
-        "fact-mcq-18",
-        "fact-mcq-13"
+        "fact-mcq-25"
       ],
       "explanation": "本句的「fact remains」指「即使有其他因素，某件事仍然是真實的」。",
       "sentenceIndex": 38,
@@ -1794,12 +1546,8 @@ export default {
         "fact remains"
       ],
       "optionReasons": {
-        "fact-mcq-16": "本句指「即使有其他因素，某件事仍然是真實的」。",
-        "fact-mcq-15": "「接受不一定令人愉快但真實存在的現實」是「face the facts」的用法，與本句語境不同。",
-        "fact-mcq-17": "「儘管某件事確實如此」是「despite the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-14": "「對某件事有確切把握；確定知道」是「know for a fact」的用法，與本句語境不同。",
-        "fact-mcq-18": "「必須接受、往往無法避免的生活現實」是「fact of life」的用法，與本句語境不同。",
-        "fact-mcq-13": "「查清或取得準確的事實資料」是「get the facts」的用法，與本句語境不同。"
+        "fact-mcq-16": "本句的「fact remains」指「即使有其他因素，某件事仍然是真實的」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-16"
     },
@@ -1811,11 +1559,7 @@ export default {
       "masked": "Whatever the reason, the ____ that the mistake happened.",
       "options": [
         "fact-mcq-16",
-        "fact-mcq-15",
-        "fact-mcq-17",
-        "fact-mcq-14",
-        "fact-mcq-18",
-        "fact-mcq-13"
+        "fact-mcq-25"
       ],
       "explanation": "本句的「fact remains」指「即使有其他因素，某件事仍然是真實的」。",
       "sentenceIndex": 39,
@@ -1824,12 +1568,8 @@ export default {
         "fact remains"
       ],
       "optionReasons": {
-        "fact-mcq-16": "本句指「即使有其他因素，某件事仍然是真實的」。",
-        "fact-mcq-15": "「接受不一定令人愉快但真實存在的現實」是「face the facts」的用法，與本句語境不同。",
-        "fact-mcq-17": "「儘管某件事確實如此」是「despite the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-14": "「對某件事有確切把握；確定知道」是「know for a fact」的用法，與本句語境不同。",
-        "fact-mcq-18": "「必須接受、往往無法避免的生活現實」是「fact of life」的用法，與本句語境不同。",
-        "fact-mcq-13": "「查清或取得準確的事實資料」是「get the facts」的用法，與本句語境不同。"
+        "fact-mcq-16": "本句的「fact remains」指「即使有其他因素，某件事仍然是真實的」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-16"
     },
@@ -1841,11 +1581,7 @@ export default {
       "masked": "She remained calm ____.",
       "options": [
         "fact-mcq-17",
-        "fact-mcq-16",
-        "fact-mcq-18",
-        "fact-mcq-15",
-        "fact-mcq-19",
-        "fact-mcq-14"
+        "fact-mcq-25"
       ],
       "explanation": "本句的「despite the fact that she was under pressure」指「儘管某件事確實如此」。",
       "sentenceIndex": 40,
@@ -1854,12 +1590,8 @@ export default {
         "despite the fact that she was under pressure"
       ],
       "optionReasons": {
-        "fact-mcq-17": "本句指「儘管某件事確實如此」。",
-        "fact-mcq-16": "「即使有其他因素，某件事仍然是真實的」是「the fact remains」的用法，與本句語境不同。",
-        "fact-mcq-18": "「必須接受、往往無法避免的生活現實」是「fact of life」的用法，與本句語境不同。",
-        "fact-mcq-15": "「接受不一定令人愉快但真實存在的現實」是「face the facts」的用法，與本句語境不同。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。",
-        "fact-mcq-14": "「對某件事有確切把握；確定知道」是「know for a fact」的用法，與本句語境不同。"
+        "fact-mcq-17": "本句的「despite the fact that she was under pressure」指「儘管某件事確實如此」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-17"
     },
@@ -1871,11 +1603,7 @@ export default {
       "masked": "He continued ____.",
       "options": [
         "fact-mcq-17",
-        "fact-mcq-16",
-        "fact-mcq-18",
-        "fact-mcq-15",
-        "fact-mcq-19",
-        "fact-mcq-14"
+        "fact-mcq-25"
       ],
       "explanation": "本句的「despite the fact that the task was difficult」指「儘管某件事確實如此」。",
       "sentenceIndex": 41,
@@ -1884,12 +1612,8 @@ export default {
         "despite the fact that the task was difficult"
       ],
       "optionReasons": {
-        "fact-mcq-17": "本句指「儘管某件事確實如此」。",
-        "fact-mcq-16": "「即使有其他因素，某件事仍然是真實的」是「the fact remains」的用法，與本句語境不同。",
-        "fact-mcq-18": "「必須接受、往往無法避免的生活現實」是「fact of life」的用法，與本句語境不同。",
-        "fact-mcq-15": "「接受不一定令人愉快但真實存在的現實」是「face the facts」的用法，與本句語境不同。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。",
-        "fact-mcq-14": "「對某件事有確切把握；確定知道」是「know for a fact」的用法，與本句語境不同。"
+        "fact-mcq-17": "本句的「despite the fact that the task was difficult」指「儘管某件事確實如此」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-17"
     },
@@ -1901,11 +1625,7 @@ export default {
       "masked": "The event was delayed ____.",
       "options": [
         "fact-mcq-17",
-        "fact-mcq-16",
-        "fact-mcq-18",
-        "fact-mcq-15",
-        "fact-mcq-19",
-        "fact-mcq-14"
+        "fact-mcq-25"
       ],
       "explanation": "本句的「due to the fact that the equipment had failed」指「儘管某件事確實如此」。",
       "sentenceIndex": 42,
@@ -1914,12 +1634,8 @@ export default {
         "due to the fact that the equipment had failed"
       ],
       "optionReasons": {
-        "fact-mcq-17": "本句指「儘管某件事確實如此」。",
-        "fact-mcq-16": "「即使有其他因素，某件事仍然是真實的」是「the fact remains」的用法，與本句語境不同。",
-        "fact-mcq-18": "「必須接受、往往無法避免的生活現實」是「fact of life」的用法，與本句語境不同。",
-        "fact-mcq-15": "「接受不一定令人愉快但真實存在的現實」是「face the facts」的用法，與本句語境不同。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。",
-        "fact-mcq-14": "「對某件事有確切把握；確定知道」是「know for a fact」的用法，與本句語境不同。"
+        "fact-mcq-17": "本句的「due to the fact that the equipment had failed」指「儘管某件事確實如此」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-17"
     },
@@ -1931,11 +1647,7 @@ export default {
       "masked": "In most ordinary writing, ____ is more concise.",
       "options": [
         "fact-mcq-17",
-        "fact-mcq-16",
-        "fact-mcq-18",
-        "fact-mcq-15",
-        "fact-mcq-19",
-        "fact-mcq-14"
+        "fact-mcq-25"
       ],
       "explanation": "本句的「because」指「儘管某件事確實如此」。",
       "sentenceIndex": 43,
@@ -1944,12 +1656,8 @@ export default {
         "because"
       ],
       "optionReasons": {
-        "fact-mcq-17": "本句指「儘管某件事確實如此」。",
-        "fact-mcq-16": "「即使有其他因素，某件事仍然是真實的」是「the fact remains」的用法，與本句語境不同。",
-        "fact-mcq-18": "「必須接受、往往無法避免的生活現實」是「fact of life」的用法，與本句語境不同。",
-        "fact-mcq-15": "「接受不一定令人愉快但真實存在的現實」是「face the facts」的用法，與本句語境不同。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。",
-        "fact-mcq-14": "「對某件事有確切把握；確定知道」是「know for a fact」的用法，與本句語境不同。"
+        "fact-mcq-17": "本句的「because」指「儘管某件事確實如此」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-17"
     },
@@ -1961,11 +1669,8 @@ export default {
       "masked": "Stress is sometimes a ____.",
       "options": [
         "fact-mcq-18",
-        "fact-mcq-17",
-        "fact-mcq-19",
-        "fact-mcq-16",
-        "fact-mcq-20",
-        "fact-mcq-15"
+        "fact-mcq-14",
+        "fact-mcq-25"
       ],
       "explanation": "本句的「fact of life」指「必須接受、往往無法避免的生活現實」。",
       "sentenceIndex": 44,
@@ -1974,12 +1679,9 @@ export default {
         "fact of life"
       ],
       "optionReasons": {
-        "fact-mcq-18": "本句指「必須接受、往往無法避免的生活現實」。",
-        "fact-mcq-17": "「儘管某件事確實如此」是「despite the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。",
-        "fact-mcq-16": "「即使有其他因素，某件事仍然是真實的」是「the fact remains」的用法，與本句語境不同。",
-        "fact-mcq-20": "「就實際事實而言；在事實層面」是「factually」的用法，與本句語境不同。",
-        "fact-mcq-15": "「接受不一定令人愉快但真實存在的現實」是「face the facts」的用法，與本句語境不同。"
+        "fact-mcq-18": "本句的「fact of life」指「必須接受、往往無法避免的生活現實」。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-18"
     },
@@ -1991,11 +1693,8 @@ export default {
       "masked": "Change is a ____.",
       "options": [
         "fact-mcq-18",
-        "fact-mcq-17",
-        "fact-mcq-19",
-        "fact-mcq-16",
-        "fact-mcq-20",
-        "fact-mcq-15"
+        "fact-mcq-14",
+        "fact-mcq-25"
       ],
       "explanation": "本句的「fact of life」指「必須接受、往往無法避免的生活現實」。",
       "sentenceIndex": 45,
@@ -2004,12 +1703,9 @@ export default {
         "fact of life"
       ],
       "optionReasons": {
-        "fact-mcq-18": "本句指「必須接受、往往無法避免的生活現實」。",
-        "fact-mcq-17": "「儘管某件事確實如此」是「despite the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。",
-        "fact-mcq-16": "「即使有其他因素，某件事仍然是真實的」是「the fact remains」的用法，與本句語境不同。",
-        "fact-mcq-20": "「就實際事實而言；在事實層面」是「factually」的用法，與本句語境不同。",
-        "fact-mcq-15": "「接受不一定令人愉快但真實存在的現實」是「face the facts」的用法，與本句語境不同。"
+        "fact-mcq-18": "本句的「fact of life」指「必須接受、往往無法避免的生活現實」。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-18"
     },
@@ -2021,11 +1717,8 @@ export default {
       "masked": "Children gradually learn the ____.",
       "options": [
         "fact-mcq-18",
-        "fact-mcq-17",
-        "fact-mcq-19",
-        "fact-mcq-16",
-        "fact-mcq-20",
-        "fact-mcq-15"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「facts of life」指「必須接受、往往無法避免的生活現實」。",
       "sentenceIndex": 46,
@@ -2034,12 +1727,9 @@ export default {
         "facts of life"
       ],
       "optionReasons": {
-        "fact-mcq-18": "本句指「必須接受、往往無法避免的生活現實」。",
-        "fact-mcq-17": "「儘管某件事確實如此」是「despite the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。",
-        "fact-mcq-16": "「即使有其他因素，某件事仍然是真實的」是「the fact remains」的用法，與本句語境不同。",
-        "fact-mcq-20": "「就實際事實而言；在事實層面」是「factually」的用法，與本句語境不同。",
-        "fact-mcq-15": "「接受不一定令人愉快但真實存在的現實」是「face the facts」的用法，與本句語境不同。"
+        "fact-mcq-18": "本句的「facts of life」指「必須接受、往往無法避免的生活現實」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-18"
     },
@@ -2051,11 +1741,8 @@ export default {
       "masked": "The report contains several ____.",
       "options": [
         "fact-mcq-19",
-        "fact-mcq-18",
-        "fact-mcq-20",
-        "fact-mcq-17",
-        "fact-mcq-21",
-        "fact-mcq-16"
+        "fact-mcq-14",
+        "fact-mcq-25"
       ],
       "explanation": "本句的「factual errors」指「基於事實、包含事實或符合事實的」。",
       "sentenceIndex": 47,
@@ -2064,12 +1751,9 @@ export default {
         "factual errors"
       ],
       "optionReasons": {
-        "fact-mcq-19": "本句指「基於事實、包含事實或符合事實的」。",
-        "fact-mcq-18": "「必須接受、往往無法避免的生活現實」是「fact of life」的用法，與本句語境不同。",
-        "fact-mcq-20": "「就實際事實而言；在事實層面」是「factually」的用法，與本句語境不同。",
-        "fact-mcq-17": "「儘管某件事確實如此」是「despite the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。",
-        "fact-mcq-16": "「即使有其他因素，某件事仍然是真實的」是「the fact remains」的用法，與本句語境不同。"
+        "fact-mcq-19": "本句的「factual errors」指「基於事實、包含事實或符合事實的」。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-19"
     },
@@ -2081,11 +1765,8 @@ export default {
       "masked": "Please keep the description ____.",
       "options": [
         "fact-mcq-19",
-        "fact-mcq-18",
-        "fact-mcq-20",
-        "fact-mcq-17",
-        "fact-mcq-21",
-        "fact-mcq-16"
+        "fact-mcq-14",
+        "fact-mcq-25"
       ],
       "explanation": "本句的「factual」指「基於事實、包含事實或符合事實的」。",
       "sentenceIndex": 48,
@@ -2094,12 +1775,9 @@ export default {
         "factual"
       ],
       "optionReasons": {
-        "fact-mcq-19": "本句指「基於事實、包含事實或符合事實的」。",
-        "fact-mcq-18": "「必須接受、往往無法避免的生活現實」是「fact of life」的用法，與本句語境不同。",
-        "fact-mcq-20": "「就實際事實而言；在事實層面」是「factually」的用法，與本句語境不同。",
-        "fact-mcq-17": "「儘管某件事確實如此」是「despite the fact that...」的用法，與本句語境不同。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。",
-        "fact-mcq-16": "「即使有其他因素，某件事仍然是真實的」是「the fact remains」的用法，與本句語境不同。"
+        "fact-mcq-19": "本句的「factual」指「基於事實、包含事實或符合事實的」。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-19"
     },
@@ -2111,11 +1789,8 @@ export default {
       "masked": "The statement is ____.",
       "options": [
         "fact-mcq-20",
-        "fact-mcq-19",
-        "fact-mcq-21",
-        "fact-mcq-18",
-        "fact-mcq-22",
-        "fact-mcq-17"
+        "fact-mcq-14",
+        "fact-mcq-25"
       ],
       "explanation": "本句的「factually incorrect」指「就實際事實而言；在事實層面」。",
       "sentenceIndex": 49,
@@ -2124,12 +1799,9 @@ export default {
         "factually incorrect"
       ],
       "optionReasons": {
-        "fact-mcq-20": "本句指「就實際事實而言；在事實層面」。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。",
-        "fact-mcq-18": "「必須接受、往往無法避免的生活現實」是「fact of life」的用法，與本句語境不同。",
-        "fact-mcq-22": "「查證事實真偽與準確性的過程」是「fact-checking」的用法，與本句語境不同。",
-        "fact-mcq-17": "「儘管某件事確實如此」是「despite the fact that...」的用法，與本句語境不同。"
+        "fact-mcq-20": "本句的「factually incorrect」指「就實際事實而言；在事實層面」。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-20"
     },
@@ -2141,11 +1813,8 @@ export default {
       "masked": "The article is mostly ____.",
       "options": [
         "fact-mcq-20",
-        "fact-mcq-19",
-        "fact-mcq-21",
-        "fact-mcq-18",
-        "fact-mcq-22",
-        "fact-mcq-17"
+        "fact-mcq-14",
+        "fact-mcq-25"
       ],
       "explanation": "本句的「factually accurate」指「就實際事實而言；在事實層面」。",
       "sentenceIndex": 50,
@@ -2154,12 +1823,9 @@ export default {
         "factually accurate"
       ],
       "optionReasons": {
-        "fact-mcq-20": "本句指「就實際事實而言；在事實層面」。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。",
-        "fact-mcq-18": "「必須接受、往往無法避免的生活現實」是「fact of life」的用法，與本句語境不同。",
-        "fact-mcq-22": "「查證事實真偽與準確性的過程」是「fact-checking」的用法，與本句語境不同。",
-        "fact-mcq-17": "「儘管某件事確實如此」是「despite the fact that...」的用法，與本句語境不同。"
+        "fact-mcq-20": "本句的「factually accurate」指「就實際事實而言；在事實層面」。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-20"
     },
@@ -2171,11 +1837,8 @@ export default {
       "masked": "Journalists should ____ important claims.",
       "options": [
         "fact-mcq-21",
-        "fact-mcq-20",
-        "fact-mcq-22",
-        "fact-mcq-19",
-        "fact-mcq-23",
-        "fact-mcq-18"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「fact-check」指「核實某項說法中的事實是否準確」。",
       "sentenceIndex": 51,
@@ -2184,12 +1847,9 @@ export default {
         "fact-check"
       ],
       "optionReasons": {
-        "fact-mcq-21": "本句指「核實某項說法中的事實是否準確」。",
-        "fact-mcq-20": "「就實際事實而言；在事實層面」是「factually」的用法，與本句語境不同。",
-        "fact-mcq-22": "「查證事實真偽與準確性的過程」是「fact-checking」的用法，與本句語境不同。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。",
-        "fact-mcq-23": "「一味把大量事實／知識硬塞給別人」是「Passage meaning」的用法，與本句語境不同。",
-        "fact-mcq-18": "「必須接受、往往無法避免的生活現實」是「fact of life」的用法，與本句語境不同。"
+        "fact-mcq-21": "本句的「fact-check」指「核實某項說法中的事實是否準確」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-21"
     },
@@ -2201,11 +1861,8 @@ export default {
       "masked": "Always ____ information before sharing it.",
       "options": [
         "fact-mcq-21",
-        "fact-mcq-20",
-        "fact-mcq-22",
-        "fact-mcq-19",
-        "fact-mcq-23",
-        "fact-mcq-18"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「fact-check」指「核實某項說法中的事實是否準確」。",
       "sentenceIndex": 52,
@@ -2214,12 +1871,9 @@ export default {
         "fact-check"
       ],
       "optionReasons": {
-        "fact-mcq-21": "本句指「核實某項說法中的事實是否準確」。",
-        "fact-mcq-20": "「就實際事實而言；在事實層面」是「factually」的用法，與本句語境不同。",
-        "fact-mcq-22": "「查證事實真偽與準確性的過程」是「fact-checking」的用法，與本句語境不同。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。",
-        "fact-mcq-23": "「一味把大量事實／知識硬塞給別人」是「Passage meaning」的用法，與本句語境不同。",
-        "fact-mcq-18": "「必須接受、往往無法避免的生活現實」是「fact of life」的用法，與本句語境不同。"
+        "fact-mcq-21": "本句的「fact-check」指「核實某項說法中的事實是否準確」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-21"
     },
@@ -2231,11 +1885,8 @@ export default {
       "masked": "Good journalism requires careful ____.",
       "options": [
         "fact-mcq-22",
-        "fact-mcq-21",
-        "fact-mcq-23",
-        "fact-mcq-20",
-        "fact-mcq-24",
-        "fact-mcq-19"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「fact-checking」指「查證事實真偽與準確性的過程」。",
       "sentenceIndex": 53,
@@ -2244,12 +1895,9 @@ export default {
         "fact-checking"
       ],
       "optionReasons": {
-        "fact-mcq-22": "本句指「查證事實真偽與準確性的過程」。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。",
-        "fact-mcq-23": "「一味把大量事實／知識硬塞給別人」是「Passage meaning」的用法，與本句語境不同。",
-        "fact-mcq-20": "「就實際事實而言；在事實層面」是「factually」的用法，與本句語境不同。",
-        "fact-mcq-24": "「表示事實；案情事實」是「12. fact — factual issue in law」的用法，與本句語境不同。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。"
+        "fact-mcq-22": "本句的「fact-checking」指「查證事實真偽與準確性的過程」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-22"
     },
@@ -2261,11 +1909,8 @@ export default {
       "masked": "The article failed basic ____.",
       "options": [
         "fact-mcq-22",
-        "fact-mcq-21",
-        "fact-mcq-23",
-        "fact-mcq-20",
-        "fact-mcq-24",
-        "fact-mcq-19"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「fact-checking」指「查證事實真偽與準確性的過程」。",
       "sentenceIndex": 54,
@@ -2274,12 +1919,9 @@ export default {
         "fact-checking"
       ],
       "optionReasons": {
-        "fact-mcq-22": "本句指「查證事實真偽與準確性的過程」。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。",
-        "fact-mcq-23": "「一味把大量事實／知識硬塞給別人」是「Passage meaning」的用法，與本句語境不同。",
-        "fact-mcq-20": "「就實際事實而言；在事實層面」是「factually」的用法，與本句語境不同。",
-        "fact-mcq-24": "「表示事實；案情事實」是「12. fact — factual issue in law」的用法，與本句語境不同。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。"
+        "fact-mcq-22": "本句的「fact-checking」指「查證事實真偽與準確性的過程」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-22"
     },
@@ -2291,11 +1933,8 @@ export default {
       "masked": "She gave us three important ____.",
       "options": [
         "fact-mcq-22",
-        "fact-mcq-21",
-        "fact-mcq-23",
-        "fact-mcq-20",
-        "fact-mcq-24",
-        "fact-mcq-19"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「facts」指「查證事實真偽與準確性的過程」。",
       "sentenceIndex": 55,
@@ -2304,12 +1943,9 @@ export default {
         "facts"
       ],
       "optionReasons": {
-        "fact-mcq-22": "本句指「查證事實真偽與準確性的過程」。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。",
-        "fact-mcq-23": "「一味把大量事實／知識硬塞給別人」是「Passage meaning」的用法，與本句語境不同。",
-        "fact-mcq-20": "「就實際事實而言；在事實層面」是「factually」的用法，與本句語境不同。",
-        "fact-mcq-24": "「表示事實；案情事實」是「12. fact — factual issue in law」的用法，與本句語境不同。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。"
+        "fact-mcq-22": "本句的「facts」指「查證事實真偽與準確性的過程」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-22"
     },
@@ -2321,11 +1957,8 @@ export default {
       "masked": "The exercise asks students to distinguish ____.",
       "options": [
         "fact-mcq-22",
-        "fact-mcq-21",
-        "fact-mcq-23",
-        "fact-mcq-20",
-        "fact-mcq-24",
-        "fact-mcq-19"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「fact from opinion」指「查證事實真偽與準確性的過程」。",
       "sentenceIndex": 56,
@@ -2334,12 +1967,9 @@ export default {
         "fact from opinion"
       ],
       "optionReasons": {
-        "fact-mcq-22": "本句指「查證事實真偽與準確性的過程」。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。",
-        "fact-mcq-23": "「一味把大量事實／知識硬塞給別人」是「Passage meaning」的用法，與本句語境不同。",
-        "fact-mcq-20": "「就實際事實而言；在事實層面」是「factually」的用法，與本句語境不同。",
-        "fact-mcq-24": "「表示事實；案情事實」是「12. fact — factual issue in law」的用法，與本句語境不同。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。"
+        "fact-mcq-22": "本句的「fact from opinion」指「查證事實真偽與準確性的過程」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-22"
     },
@@ -2351,11 +1981,8 @@ export default {
       "masked": "Students need to know the ____ first.",
       "options": [
         "fact-mcq-22",
-        "fact-mcq-21",
-        "fact-mcq-23",
-        "fact-mcq-20",
-        "fact-mcq-24",
-        "fact-mcq-19"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「basic facts」指「查證事實真偽與準確性的過程」。",
       "sentenceIndex": 57,
@@ -2364,12 +1991,9 @@ export default {
         "basic facts"
       ],
       "optionReasons": {
-        "fact-mcq-22": "本句指「查證事實真偽與準確性的過程」。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。",
-        "fact-mcq-23": "「一味把大量事實／知識硬塞給別人」是「Passage meaning」的用法，與本句語境不同。",
-        "fact-mcq-20": "「就實際事實而言；在事實層面」是「factually」的用法，與本句語境不同。",
-        "fact-mcq-24": "「表示事實；案情事實」是「12. fact — factual issue in law」的用法，與本句語境不同。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。"
+        "fact-mcq-22": "本句的「basic facts」指「查證事實真偽與準確性的過程」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-22"
     },
@@ -2381,11 +2005,8 @@ export default {
       "masked": "These are the ____ of the case.",
       "options": [
         "fact-mcq-22",
-        "fact-mcq-21",
-        "fact-mcq-23",
-        "fact-mcq-20",
-        "fact-mcq-24",
-        "fact-mcq-19"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「basic facts」指「查證事實真偽與準確性的過程」。",
       "sentenceIndex": 58,
@@ -2394,12 +2015,9 @@ export default {
         "basic facts"
       ],
       "optionReasons": {
-        "fact-mcq-22": "本句指「查證事實真偽與準確性的過程」。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。",
-        "fact-mcq-23": "「一味把大量事實／知識硬塞給別人」是「Passage meaning」的用法，與本句語境不同。",
-        "fact-mcq-20": "「就實際事實而言；在事實層面」是「factually」的用法，與本句語境不同。",
-        "fact-mcq-24": "「表示事實；案情事實」是「12. fact — factual issue in law」的用法，與本句語境不同。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。"
+        "fact-mcq-22": "本句的「basic facts」指「查證事實真偽與準確性的過程」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-22"
     },
@@ -2412,10 +2030,7 @@ export default {
       "options": [
         "fact-mcq-26",
         "fact-mcq-25",
-        "fact-mcq-24",
-        "fact-mcq-23",
-        "fact-mcq-22",
-        "fact-mcq-21"
+        "fact-mcq-14"
       ],
       "explanation": "本句的「established fact」指「表示已確立的事實；公認事實」。",
       "sentenceIndex": 59,
@@ -2424,12 +2039,9 @@ export default {
         "established fact"
       ],
       "optionReasons": {
-        "fact-mcq-26": "本句指「表示已確立的事實；公認事實」。",
-        "fact-mcq-25": "「表示信念；相信的事情」是「15. fact vs belief」的用法，與本句語境不同。",
-        "fact-mcq-24": "「表示事實；案情事實」是「12. fact — factual issue in law」的用法，與本句語境不同。",
-        "fact-mcq-23": "「一味把大量事實／知識硬塞給別人」是「Passage meaning」的用法，與本句語境不同。",
-        "fact-mcq-22": "「查證事實真偽與準確性的過程」是「fact-checking」的用法，與本句語境不同。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。"
+        "fact-mcq-26": "本句的「established fact」指「表示已確立的事實；公認事實」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-26"
     },
@@ -2442,10 +2054,7 @@ export default {
       "options": [
         "fact-mcq-26",
         "fact-mcq-25",
-        "fact-mcq-24",
-        "fact-mcq-23",
-        "fact-mcq-22",
-        "fact-mcq-21"
+        "fact-mcq-14"
       ],
       "explanation": "本句的「established fact」指「表示已確立的事實；公認事實」。",
       "sentenceIndex": 60,
@@ -2454,12 +2063,9 @@ export default {
         "established fact"
       ],
       "optionReasons": {
-        "fact-mcq-26": "本句指「表示已確立的事實；公認事實」。",
-        "fact-mcq-25": "「表示信念；相信的事情」是「15. fact vs belief」的用法，與本句語境不同。",
-        "fact-mcq-24": "「表示事實；案情事實」是「12. fact — factual issue in law」的用法，與本句語境不同。",
-        "fact-mcq-23": "「一味把大量事實／知識硬塞給別人」是「Passage meaning」的用法，與本句語境不同。",
-        "fact-mcq-22": "「查證事實真偽與準確性的過程」是「fact-checking」的用法，與本句語境不同。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。"
+        "fact-mcq-26": "本句的「established fact」指「表示已確立的事實；公認事實」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-26"
     },
@@ -2471,11 +2077,8 @@ export default {
       "masked": "The lesson introduced several basic ____.",
       "options": [
         "fact-mcq-22",
-        "fact-mcq-21",
-        "fact-mcq-23",
-        "fact-mcq-20",
-        "fact-mcq-24",
-        "fact-mcq-19"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「scientific facts」指「查證事實真偽與準確性的過程」。",
       "sentenceIndex": 61,
@@ -2484,12 +2087,9 @@ export default {
         "scientific facts"
       ],
       "optionReasons": {
-        "fact-mcq-22": "本句指「查證事實真偽與準確性的過程」。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。",
-        "fact-mcq-23": "「一味把大量事實／知識硬塞給別人」是「Passage meaning」的用法，與本句語境不同。",
-        "fact-mcq-20": "「就實際事實而言；在事實層面」是「factually」的用法，與本句語境不同。",
-        "fact-mcq-24": "「表示事實；案情事實」是「12. fact — factual issue in law」的用法，與本句語境不同。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。"
+        "fact-mcq-22": "本句的「scientific facts」指「查證事實真偽與準確性的過程」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-22"
     },
@@ -2501,11 +2101,8 @@ export default {
       "masked": "A scientific theory and a ____ are not simply the same thing.",
       "options": [
         "fact-mcq-22",
-        "fact-mcq-21",
-        "fact-mcq-23",
-        "fact-mcq-20",
-        "fact-mcq-24",
-        "fact-mcq-19"
+        "fact-mcq-25",
+        "fact-mcq-14"
       ],
       "explanation": "本句的「scientific fact」指「查證事實真偽與準確性的過程」。",
       "sentenceIndex": 62,
@@ -2514,12 +2111,9 @@ export default {
         "scientific fact"
       ],
       "optionReasons": {
-        "fact-mcq-22": "本句指「查證事實真偽與準確性的過程」。",
-        "fact-mcq-21": "「核實某項說法中的事實是否準確」是「fact-check」的用法，與本句語境不同。",
-        "fact-mcq-23": "「一味把大量事實／知識硬塞給別人」是「Passage meaning」的用法，與本句語境不同。",
-        "fact-mcq-20": "「就實際事實而言；在事實層面」是「factually」的用法，與本句語境不同。",
-        "fact-mcq-24": "「表示事實；案情事實」是「12. fact — factual issue in law」的用法，與本句語境不同。",
-        "fact-mcq-19": "「基於事實、包含事實或符合事實的」是「factual」的用法，與本句語境不同。"
+        "fact-mcq-22": "本句的「scientific fact」指「查證事實真偽與準確性的過程」。",
+        "fact-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fact-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fact-mcq-22"
     }
@@ -2531,5 +2125,7 @@ export default {
     "sha256": "cc1b3f97cbf0f2f79d4acc714298eb36f38a1c8adedd6720c6ec41df01badf55",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

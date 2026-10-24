@@ -460,11 +460,8 @@ export default {
       "masked": "She is not the sort of person who tries to ____.",
       "options": [
         "dominate-mcq-01",
-        "dominate-mcq-02",
-        "dominate-mcq-03",
-        "dominate-mcq-04",
-        "dominate-mcq-05",
-        "dominate-mcq-06"
+        "dominate-mcq-09",
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominate a conversation」指「在談話中佔據大部分發言空間或控制話題，使其他人較難參與」。",
       "sentenceIndex": 0,
@@ -473,12 +470,9 @@ export default {
         "dominate a conversation"
       ],
       "optionReasons": {
-        "dominate-mcq-01": "本句指「在談話中佔據大部分發言空間或控制話題，使其他人較難參與」。",
-        "dominate-mcq-02": "「對某人／群體施加很強控制，使對方難以自由決定或行動」是「dominate a person/group」的用法，與本句語境不同。",
-        "dominate-mcq-03": "「在關係或共同決策中掌握過多控制權」是「dominate a relationship」的用法，與本句語境不同。",
-        "dominate-mcq-04": "「在市場份額、影響力或競爭地位上明顯超越其他競爭者」是「dominate a market/industry」的用法，與本句語境不同。",
-        "dominate-mcq-05": "「在比賽中明顯比對手更強並控制大部分局面」是「dominate a game/match」的用法，與本句語境不同。",
-        "dominate-mcq-06": "「在某個領域中佔據最重要或最具影響力的位置」是「dominate a field」的用法，與本句語境不同。"
+        "dominate-mcq-01": "本句的「dominate a conversation」指「在談話中佔據大部分發言空間或控制話題，使其他人較難參與」。",
+        "dominate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-01"
     },
@@ -490,11 +484,8 @@ export default {
       "masked": "He tends to ____ in meetings.",
       "options": [
         "dominate-mcq-01",
-        "dominate-mcq-02",
-        "dominate-mcq-03",
-        "dominate-mcq-04",
-        "dominate-mcq-05",
-        "dominate-mcq-06"
+        "dominate-mcq-09",
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominate discussions」指「在談話中佔據大部分發言空間或控制話題，使其他人較難參與」。",
       "sentenceIndex": 1,
@@ -503,12 +494,9 @@ export default {
         "dominate discussions"
       ],
       "optionReasons": {
-        "dominate-mcq-01": "本句指「在談話中佔據大部分發言空間或控制話題，使其他人較難參與」。",
-        "dominate-mcq-02": "「對某人／群體施加很強控制，使對方難以自由決定或行動」是「dominate a person/group」的用法，與本句語境不同。",
-        "dominate-mcq-03": "「在關係或共同決策中掌握過多控制權」是「dominate a relationship」的用法，與本句語境不同。",
-        "dominate-mcq-04": "「在市場份額、影響力或競爭地位上明顯超越其他競爭者」是「dominate a market/industry」的用法，與本句語境不同。",
-        "dominate-mcq-05": "「在比賽中明顯比對手更強並控制大部分局面」是「dominate a game/match」的用法，與本句語境不同。",
-        "dominate-mcq-06": "「在某個領域中佔據最重要或最具影響力的位置」是「dominate a field」的用法，與本句語境不同。"
+        "dominate-mcq-01": "本句的「dominate discussions」指「在談話中佔據大部分發言空間或控制話題，使其他人較難參與」。",
+        "dominate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-01"
     },
@@ -520,11 +508,8 @@ export default {
       "masked": "Try not to ____.",
       "options": [
         "dominate-mcq-01",
-        "dominate-mcq-02",
-        "dominate-mcq-03",
-        "dominate-mcq-04",
-        "dominate-mcq-05",
-        "dominate-mcq-06"
+        "dominate-mcq-12",
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominate the conversation」指「在談話中佔據大部分發言空間或控制話題，使其他人較難參與」。",
       "sentenceIndex": 2,
@@ -533,12 +518,9 @@ export default {
         "dominate the conversation"
       ],
       "optionReasons": {
-        "dominate-mcq-01": "本句指「在談話中佔據大部分發言空間或控制話題，使其他人較難參與」。",
-        "dominate-mcq-02": "「對某人／群體施加很強控制，使對方難以自由決定或行動」是「dominate a person/group」的用法，與本句語境不同。",
-        "dominate-mcq-03": "「在關係或共同決策中掌握過多控制權」是「dominate a relationship」的用法，與本句語境不同。",
-        "dominate-mcq-04": "「在市場份額、影響力或競爭地位上明顯超越其他競爭者」是「dominate a market/industry」的用法，與本句語境不同。",
-        "dominate-mcq-05": "「在比賽中明顯比對手更強並控制大部分局面」是「dominate a game/match」的用法，與本句語境不同。",
-        "dominate-mcq-06": "「在某個領域中佔據最重要或最具影響力的位置」是「dominate a field」的用法，與本句語境不同。"
+        "dominate-mcq-01": "本句的「dominate the conversation」指「在談話中佔據大部分發言空間或控制話題，使其他人較難參與」。",
+        "dominate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-01"
     },
@@ -550,11 +532,8 @@ export default {
       "masked": "He tried to ____ everyone around him.",
       "options": [
         "dominate-mcq-02",
-        "dominate-mcq-01",
-        "dominate-mcq-03",
-        "dominate-mcq-04",
-        "dominate-mcq-05",
-        "dominate-mcq-06"
+        "dominate-mcq-06",
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominate」指「對某人／群體施加很強控制，使對方難以自由決定或行動」。",
       "sentenceIndex": 3,
@@ -563,12 +542,9 @@ export default {
         "dominate"
       ],
       "optionReasons": {
-        "dominate-mcq-02": "本句指「對某人／群體施加很強控制，使對方難以自由決定或行動」。",
-        "dominate-mcq-01": "「在談話中佔據大部分發言空間或控制話題，使其他人較難參與」是「dominate a conversation」的用法，與本句語境不同。",
-        "dominate-mcq-03": "「在關係或共同決策中掌握過多控制權」是「dominate a relationship」的用法，與本句語境不同。",
-        "dominate-mcq-04": "「在市場份額、影響力或競爭地位上明顯超越其他競爭者」是「dominate a market/industry」的用法，與本句語境不同。",
-        "dominate-mcq-05": "「在比賽中明顯比對手更強並控制大部分局面」是「dominate a game/match」的用法，與本句語境不同。",
-        "dominate-mcq-06": "「在某個領域中佔據最重要或最具影響力的位置」是「dominate a field」的用法，與本句語境不同。"
+        "dominate-mcq-02": "本句的「dominate」指「對某人／群體施加很強控制，使對方難以自由決定或行動」。",
+        "dominate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-02"
     },
@@ -580,11 +556,9 @@ export default {
       "masked": "She refused to let anyone ____ her.",
       "options": [
         "dominate-mcq-02",
-        "dominate-mcq-01",
-        "dominate-mcq-03",
-        "dominate-mcq-04",
-        "dominate-mcq-05",
-        "dominate-mcq-06"
+        "dominate-mcq-20",
+        "dominate-mcq-13",
+        "dominate-mcq-18"
       ],
       "explanation": "本句的「dominate」指「對某人／群體施加很強控制，使對方難以自由決定或行動」。",
       "sentenceIndex": 4,
@@ -593,12 +567,10 @@ export default {
         "dominate"
       ],
       "optionReasons": {
-        "dominate-mcq-02": "本句指「對某人／群體施加很強控制，使對方難以自由決定或行動」。",
-        "dominate-mcq-01": "「在談話中佔據大部分發言空間或控制話題，使其他人較難參與」是「dominate a conversation」的用法，與本句語境不同。",
-        "dominate-mcq-03": "「在關係或共同決策中掌握過多控制權」是「dominate a relationship」的用法，與本句語境不同。",
-        "dominate-mcq-04": "「在市場份額、影響力或競爭地位上明顯超越其他競爭者」是「dominate a market/industry」的用法，與本句語境不同。",
-        "dominate-mcq-05": "「在比賽中明顯比對手更強並控制大部分局面」是「dominate a game/match」的用法，與本句語境不同。",
-        "dominate-mcq-06": "「在某個領域中佔據最重要或最具影響力的位置」是「dominate a field」的用法，與本句語境不同。"
+        "dominate-mcq-02": "本句的「dominate」指「對某人／群體施加很強控制，使對方難以自由決定或行動」。",
+        "dominate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-02"
     },
@@ -610,11 +582,9 @@ export default {
       "masked": "One partner should not ____ the relationship.",
       "options": [
         "dominate-mcq-03",
-        "dominate-mcq-02",
-        "dominate-mcq-04",
-        "dominate-mcq-01",
-        "dominate-mcq-05",
-        "dominate-mcq-06"
+        "dominate-mcq-13",
+        "dominate-mcq-07",
+        "dominate-mcq-08"
       ],
       "explanation": "本句的「dominate」指「在關係或共同決策中掌握過多控制權」。",
       "sentenceIndex": 5,
@@ -623,12 +593,10 @@ export default {
         "dominate"
       ],
       "optionReasons": {
-        "dominate-mcq-03": "本句指「在關係或共同決策中掌握過多控制權」。",
-        "dominate-mcq-02": "「對某人／群體施加很強控制，使對方難以自由決定或行動」是「dominate a person/group」的用法，與本句語境不同。",
-        "dominate-mcq-04": "「在市場份額、影響力或競爭地位上明顯超越其他競爭者」是「dominate a market/industry」的用法，與本句語境不同。",
-        "dominate-mcq-01": "「在談話中佔據大部分發言空間或控制話題，使其他人較難參與」是「dominate a conversation」的用法，與本句語境不同。",
-        "dominate-mcq-05": "「在比賽中明顯比對手更強並控制大部分局面」是「dominate a game/match」的用法，與本句語境不同。",
-        "dominate-mcq-06": "「在某個領域中佔據最重要或最具影響力的位置」是「dominate a field」的用法，與本句語境不同。"
+        "dominate-mcq-03": "本句的「dominate」指「在關係或共同決策中掌握過多控制權」。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-03"
     },
@@ -640,11 +608,9 @@ export default {
       "masked": "He tends to ____ group decisions.",
       "options": [
         "dominate-mcq-03",
-        "dominate-mcq-02",
-        "dominate-mcq-04",
-        "dominate-mcq-01",
-        "dominate-mcq-05",
-        "dominate-mcq-06"
+        "dominate-mcq-07",
+        "dominate-mcq-08",
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominate」指「在關係或共同決策中掌握過多控制權」。",
       "sentenceIndex": 6,
@@ -653,12 +619,10 @@ export default {
         "dominate"
       ],
       "optionReasons": {
-        "dominate-mcq-03": "本句指「在關係或共同決策中掌握過多控制權」。",
-        "dominate-mcq-02": "「對某人／群體施加很強控制，使對方難以自由決定或行動」是「dominate a person/group」的用法，與本句語境不同。",
-        "dominate-mcq-04": "「在市場份額、影響力或競爭地位上明顯超越其他競爭者」是「dominate a market/industry」的用法，與本句語境不同。",
-        "dominate-mcq-01": "「在談話中佔據大部分發言空間或控制話題，使其他人較難參與」是「dominate a conversation」的用法，與本句語境不同。",
-        "dominate-mcq-05": "「在比賽中明顯比對手更強並控制大部分局面」是「dominate a game/match」的用法，與本句語境不同。",
-        "dominate-mcq-06": "「在某個領域中佔據最重要或最具影響力的位置」是「dominate a field」的用法，與本句語境不同。"
+        "dominate-mcq-03": "本句的「dominate」指「在關係或共同決策中掌握過多控制權」。",
+        "dominate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-03"
     },
@@ -670,11 +634,9 @@ export default {
       "masked": "A few large companies ____.",
       "options": [
         "dominate-mcq-04",
-        "dominate-mcq-03",
-        "dominate-mcq-05",
         "dominate-mcq-02",
-        "dominate-mcq-06",
-        "dominate-mcq-01"
+        "dominate-mcq-12",
+        "dominate-mcq-20"
       ],
       "explanation": "本句的「dominate the market」指「在市場份額、影響力或競爭地位上明顯超越其他競爭者」。",
       "sentenceIndex": 7,
@@ -683,12 +645,10 @@ export default {
         "dominate the market"
       ],
       "optionReasons": {
-        "dominate-mcq-04": "本句指「在市場份額、影響力或競爭地位上明顯超越其他競爭者」。",
-        "dominate-mcq-03": "「在關係或共同決策中掌握過多控制權」是「dominate a relationship」的用法，與本句語境不同。",
-        "dominate-mcq-05": "「在比賽中明顯比對手更強並控制大部分局面」是「dominate a game/match」的用法，與本句語境不同。",
-        "dominate-mcq-02": "「對某人／群體施加很強控制，使對方難以自由決定或行動」是「dominate a person/group」的用法，與本句語境不同。",
-        "dominate-mcq-06": "「在某個領域中佔據最重要或最具影響力的位置」是「dominate a field」的用法，與本句語境不同。",
-        "dominate-mcq-01": "「在談話中佔據大部分發言空間或控制話題，使其他人較難參與」是「dominate a conversation」的用法，與本句語境不同。"
+        "dominate-mcq-04": "本句的「dominate the market」指「在市場份額、影響力或競爭地位上明顯超越其他競爭者」。",
+        "dominate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-04"
     },
@@ -700,11 +660,9 @@ export default {
       "masked": "The brand has ____ the industry for years.",
       "options": [
         "dominate-mcq-04",
-        "dominate-mcq-03",
-        "dominate-mcq-05",
         "dominate-mcq-02",
-        "dominate-mcq-06",
-        "dominate-mcq-01"
+        "dominate-mcq-12",
+        "dominate-mcq-20"
       ],
       "explanation": "本句的「dominated」指「在市場份額、影響力或競爭地位上明顯超越其他競爭者」。",
       "sentenceIndex": 8,
@@ -713,12 +671,10 @@ export default {
         "dominated"
       ],
       "optionReasons": {
-        "dominate-mcq-04": "本句指「在市場份額、影響力或競爭地位上明顯超越其他競爭者」。",
-        "dominate-mcq-03": "「在關係或共同決策中掌握過多控制權」是「dominate a relationship」的用法，與本句語境不同。",
-        "dominate-mcq-05": "「在比賽中明顯比對手更強並控制大部分局面」是「dominate a game/match」的用法，與本句語境不同。",
-        "dominate-mcq-02": "「對某人／群體施加很強控制，使對方難以自由決定或行動」是「dominate a person/group」的用法，與本句語境不同。",
-        "dominate-mcq-06": "「在某個領域中佔據最重要或最具影響力的位置」是「dominate a field」的用法，與本句語境不同。",
-        "dominate-mcq-01": "「在談話中佔據大部分發言空間或控制話題，使其他人較難參與」是「dominate a conversation」的用法，與本句語境不同。"
+        "dominate-mcq-04": "本句的「dominated」指「在市場份額、影響力或競爭地位上明顯超越其他競爭者」。",
+        "dominate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-04"
     },
@@ -730,11 +686,8 @@ export default {
       "masked": "The home team ____.",
       "options": [
         "dominate-mcq-05",
-        "dominate-mcq-04",
-        "dominate-mcq-06",
-        "dominate-mcq-03",
         "dominate-mcq-07",
-        "dominate-mcq-02"
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominated the game」指「在比賽中明顯比對手更強並控制大部分局面」。",
       "sentenceIndex": 9,
@@ -743,12 +696,9 @@ export default {
         "dominated the game"
       ],
       "optionReasons": {
-        "dominate-mcq-05": "本句指「在比賽中明顯比對手更強並控制大部分局面」。",
-        "dominate-mcq-04": "「在市場份額、影響力或競爭地位上明顯超越其他競爭者」是「dominate a market/industry」的用法，與本句語境不同。",
-        "dominate-mcq-06": "「在某個領域中佔據最重要或最具影響力的位置」是「dominate a field」的用法，與本句語境不同。",
-        "dominate-mcq-03": "「在關係或共同決策中掌握過多控制權」是「dominate a relationship」的用法，與本句語境不同。",
-        "dominate-mcq-07": "「因體積、位置或視覺效果而成為最突出元素」是「dominate a landscape/view」的用法，與本句語境不同。",
-        "dominate-mcq-02": "「對某人／群體施加很強控制，使對方難以自由決定或行動」是「dominate a person/group」的用法，與本句語境不同。"
+        "dominate-mcq-05": "本句的「dominated the game」指「在比賽中明顯比對手更強並控制大部分局面」。",
+        "dominate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-05"
     },
@@ -760,11 +710,8 @@ export default {
       "masked": "She ____ the match from the beginning.",
       "options": [
         "dominate-mcq-05",
-        "dominate-mcq-04",
         "dominate-mcq-06",
-        "dominate-mcq-03",
-        "dominate-mcq-07",
-        "dominate-mcq-02"
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominated」指「在比賽中明顯比對手更強並控制大部分局面」。",
       "sentenceIndex": 10,
@@ -773,12 +720,9 @@ export default {
         "dominated"
       ],
       "optionReasons": {
-        "dominate-mcq-05": "本句指「在比賽中明顯比對手更強並控制大部分局面」。",
-        "dominate-mcq-04": "「在市場份額、影響力或競爭地位上明顯超越其他競爭者」是「dominate a market/industry」的用法，與本句語境不同。",
-        "dominate-mcq-06": "「在某個領域中佔據最重要或最具影響力的位置」是「dominate a field」的用法，與本句語境不同。",
-        "dominate-mcq-03": "「在關係或共同決策中掌握過多控制權」是「dominate a relationship」的用法，與本句語境不同。",
-        "dominate-mcq-07": "「因體積、位置或視覺效果而成為最突出元素」是「dominate a landscape/view」的用法，與本句語境不同。",
-        "dominate-mcq-02": "「對某人／群體施加很強控制，使對方難以自由決定或行動」是「dominate a person/group」的用法，與本句語境不同。"
+        "dominate-mcq-05": "本句的「dominated」指「在比賽中明顯比對手更強並控制大部分局面」。",
+        "dominate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-05"
     },
@@ -791,10 +735,7 @@ export default {
       "options": [
         "dominate-mcq-06",
         "dominate-mcq-05",
-        "dominate-mcq-07",
-        "dominate-mcq-04",
-        "dominate-mcq-08",
-        "dominate-mcq-03"
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominates」指「在某個領域中佔據最重要或最具影響力的位置」。",
       "sentenceIndex": 11,
@@ -803,12 +744,9 @@ export default {
         "dominates"
       ],
       "optionReasons": {
-        "dominate-mcq-06": "本句指「在某個領域中佔據最重要或最具影響力的位置」。",
-        "dominate-mcq-05": "「在比賽中明顯比對手更強並控制大部分局面」是「dominate a game/match」的用法，與本句語境不同。",
-        "dominate-mcq-07": "「因體積、位置或視覺效果而成為最突出元素」是「dominate a landscape/view」的用法，與本句語境不同。",
-        "dominate-mcq-04": "「在市場份額、影響力或競爭地位上明顯超越其他競爭者」是「dominate a market/industry」的用法，與本句語境不同。",
-        "dominate-mcq-08": "「佔據某人大部分時間、注意力或思緒」是「dominate someone's life/thoughts」的用法，與本句語境不同。",
-        "dominate-mcq-03": "「在關係或共同決策中掌握過多控制權」是「dominate a relationship」的用法，與本句語境不同。"
+        "dominate-mcq-06": "本句的「dominates」指「在某個領域中佔據最重要或最具影響力的位置」。",
+        "dominate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-06"
     },
@@ -820,11 +758,8 @@ export default {
       "masked": "One style ____ fashion during that period.",
       "options": [
         "dominate-mcq-06",
-        "dominate-mcq-05",
-        "dominate-mcq-07",
-        "dominate-mcq-04",
-        "dominate-mcq-08",
-        "dominate-mcq-03"
+        "dominate-mcq-02",
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominated」指「在某個領域中佔據最重要或最具影響力的位置」。",
       "sentenceIndex": 12,
@@ -833,12 +768,9 @@ export default {
         "dominated"
       ],
       "optionReasons": {
-        "dominate-mcq-06": "本句指「在某個領域中佔據最重要或最具影響力的位置」。",
-        "dominate-mcq-05": "「在比賽中明顯比對手更強並控制大部分局面」是「dominate a game/match」的用法，與本句語境不同。",
-        "dominate-mcq-07": "「因體積、位置或視覺效果而成為最突出元素」是「dominate a landscape/view」的用法，與本句語境不同。",
-        "dominate-mcq-04": "「在市場份額、影響力或競爭地位上明顯超越其他競爭者」是「dominate a market/industry」的用法，與本句語境不同。",
-        "dominate-mcq-08": "「佔據某人大部分時間、注意力或思緒」是「dominate someone's life/thoughts」的用法，與本句語境不同。",
-        "dominate-mcq-03": "「在關係或共同決策中掌握過多控制權」是「dominate a relationship」的用法，與本句語境不同。"
+        "dominate-mcq-06": "本句的「dominated」指「在某個領域中佔據最重要或最具影響力的位置」。",
+        "dominate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-06"
     },
@@ -850,11 +782,9 @@ export default {
       "masked": "A large tower ____ the skyline.",
       "options": [
         "dominate-mcq-07",
-        "dominate-mcq-06",
+        "dominate-mcq-03",
         "dominate-mcq-08",
-        "dominate-mcq-05",
-        "dominate-mcq-09",
-        "dominate-mcq-04"
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominates」指「因體積、位置或視覺效果而成為最突出元素」。",
       "sentenceIndex": 13,
@@ -863,12 +793,10 @@ export default {
         "dominates"
       ],
       "optionReasons": {
-        "dominate-mcq-07": "本句指「因體積、位置或視覺效果而成為最突出元素」。",
-        "dominate-mcq-06": "「在某個領域中佔據最重要或最具影響力的位置」是「dominate a field」的用法，與本句語境不同。",
-        "dominate-mcq-08": "「佔據某人大部分時間、注意力或思緒」是「dominate someone's life/thoughts」的用法，與本句語境不同。",
-        "dominate-mcq-05": "「在比賽中明顯比對手更強並控制大部分局面」是「dominate a game/match」的用法，與本句語境不同。",
-        "dominate-mcq-09": "「成為某場討論／媒體內容的主要焦點」是「dominate debate/media」的用法，與本句語境不同。",
-        "dominate-mcq-04": "「在市場份額、影響力或競爭地位上明顯超越其他競爭者」是「dominate a market/industry」的用法，與本句語境不同。"
+        "dominate-mcq-07": "本句的「dominates」指「因體積、位置或視覺效果而成為最突出元素」。",
+        "dominate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-07"
     },
@@ -880,11 +808,8 @@ export default {
       "masked": "The mountain ____ the landscape.",
       "options": [
         "dominate-mcq-07",
-        "dominate-mcq-06",
-        "dominate-mcq-08",
         "dominate-mcq-05",
-        "dominate-mcq-09",
-        "dominate-mcq-04"
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominates」指「因體積、位置或視覺效果而成為最突出元素」。",
       "sentenceIndex": 14,
@@ -893,12 +818,9 @@ export default {
         "dominates"
       ],
       "optionReasons": {
-        "dominate-mcq-07": "本句指「因體積、位置或視覺效果而成為最突出元素」。",
-        "dominate-mcq-06": "「在某個領域中佔據最重要或最具影響力的位置」是「dominate a field」的用法，與本句語境不同。",
-        "dominate-mcq-08": "「佔據某人大部分時間、注意力或思緒」是「dominate someone's life/thoughts」的用法，與本句語境不同。",
-        "dominate-mcq-05": "「在比賽中明顯比對手更強並控制大部分局面」是「dominate a game/match」的用法，與本句語境不同。",
-        "dominate-mcq-09": "「成為某場討論／媒體內容的主要焦點」是「dominate debate/media」的用法，與本句語境不同。",
-        "dominate-mcq-04": "「在市場份額、影響力或競爭地位上明顯超越其他競爭者」是「dominate a market/industry」的用法，與本句語境不同。"
+        "dominate-mcq-07": "本句的「dominates」指「因體積、位置或視覺效果而成為最突出元素」。",
+        "dominate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-07"
     },
@@ -910,11 +832,9 @@ export default {
       "masked": "Work ____ his life.",
       "options": [
         "dominate-mcq-20",
-        "dominate-mcq-19",
-        "dominate-mcq-18",
-        "dominate-mcq-17",
-        "dominate-mcq-16",
-        "dominate-mcq-15"
+        "dominate-mcq-02",
+        "dominate-mcq-13",
+        "dominate-mcq-12"
       ],
       "explanation": "本句的「dominated」指「某件事佔用大部分時間、注意力、空間或內容」。",
       "sentenceIndex": 15,
@@ -923,12 +843,10 @@ export default {
         "dominated"
       ],
       "optionReasons": {
-        "dominate-mcq-20": "本句指「某件事佔用大部分時間、注意力、空間或內容」。",
-        "dominate-mcq-19": "「相比其他人／競爭者擁有明顯較高權力、影響力或優勢的位置」是「dominant position」的用法，與本句語境不同。",
-        "dominate-mcq-18": "「在某社會環境中使用程度或影響力最大的語言／文化」是「dominant language/culture」的用法，與本句語境不同。",
-        "dominate-mcq-17": "「日常活動中較常使用、控制力較好的那隻手」是「dominant hand」的用法，與本句語境不同。",
-        "dominate-mcq-16": "「對某人、群體、領域或局面施加強而持續的控制」是「domination」的用法，與本句語境不同。",
-        "dominate-mcq-15": "「在人際／群體關係中取得較高控制權或地位」是「dominance — social」的用法，與本句語境不同。"
+        "dominate-mcq-20": "本句的「dominated」指「某件事佔用大部分時間、注意力、空間或內容」。",
+        "dominate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-20"
     },
@@ -940,11 +858,9 @@ export default {
       "masked": "The issue ____ the news for several days.",
       "options": [
         "dominate-mcq-20",
-        "dominate-mcq-19",
-        "dominate-mcq-18",
-        "dominate-mcq-17",
-        "dominate-mcq-16",
-        "dominate-mcq-15"
+        "dominate-mcq-02",
+        "dominate-mcq-12",
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominated」指「某件事佔用大部分時間、注意力、空間或內容」。",
       "sentenceIndex": 16,
@@ -953,12 +869,10 @@ export default {
         "dominated"
       ],
       "optionReasons": {
-        "dominate-mcq-20": "本句指「某件事佔用大部分時間、注意力、空間或內容」。",
-        "dominate-mcq-19": "「相比其他人／競爭者擁有明顯較高權力、影響力或優勢的位置」是「dominant position」的用法，與本句語境不同。",
-        "dominate-mcq-18": "「在某社會環境中使用程度或影響力最大的語言／文化」是「dominant language/culture」的用法，與本句語境不同。",
-        "dominate-mcq-17": "「日常活動中較常使用、控制力較好的那隻手」是「dominant hand」的用法，與本句語境不同。",
-        "dominate-mcq-16": "「對某人、群體、領域或局面施加強而持續的控制」是「domination」的用法，與本句語境不同。",
-        "dominate-mcq-15": "「在人際／群體關係中取得較高控制權或地位」是「dominance — social」的用法，與本句語境不同。"
+        "dominate-mcq-20": "本句的「dominated」指「某件事佔用大部分時間、注意力、空間或內容」。",
+        "dominate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-20"
     },
@@ -970,11 +884,9 @@ export default {
       "masked": "The problem ____ her thoughts.",
       "options": [
         "dominate-mcq-08",
-        "dominate-mcq-07",
-        "dominate-mcq-09",
-        "dominate-mcq-06",
-        "dominate-mcq-10",
-        "dominate-mcq-05"
+        "dominate-mcq-12",
+        "dominate-mcq-03",
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominated」指「佔據某人大部分時間、注意力或思緒」。",
       "sentenceIndex": 17,
@@ -983,12 +895,10 @@ export default {
         "dominated"
       ],
       "optionReasons": {
-        "dominate-mcq-08": "本句指「佔據某人大部分時間、注意力或思緒」。",
-        "dominate-mcq-07": "「因體積、位置或視覺效果而成為最突出元素」是「dominate a landscape/view」的用法，與本句語境不同。",
-        "dominate-mcq-09": "「成為某場討論／媒體內容的主要焦點」是「dominate debate/media」的用法，與本句語境不同。",
-        "dominate-mcq-06": "「在某個領域中佔據最重要或最具影響力的位置」是「dominate a field」的用法，與本句語境不同。",
-        "dominate-mcq-10": "「經常主動控制別人、局面或決定；通常帶負面意味」是「dominating」的用法，與本句語境不同。",
-        "dominate-mcq-05": "「在比賽中明顯比對手更強並控制大部分局面」是「dominate a game/match」的用法，與本句語境不同。"
+        "dominate-mcq-08": "本句的「dominated」指「佔據某人大部分時間、注意力或思緒」。",
+        "dominate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-08"
     },
@@ -1000,11 +910,9 @@ export default {
       "masked": "One concern ____ the meeting.",
       "options": [
         "dominate-mcq-08",
-        "dominate-mcq-07",
         "dominate-mcq-09",
-        "dominate-mcq-06",
-        "dominate-mcq-10",
-        "dominate-mcq-05"
+        "dominate-mcq-03",
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominated」指「佔據某人大部分時間、注意力或思緒」。",
       "sentenceIndex": 18,
@@ -1013,12 +921,10 @@ export default {
         "dominated"
       ],
       "optionReasons": {
-        "dominate-mcq-08": "本句指「佔據某人大部分時間、注意力或思緒」。",
-        "dominate-mcq-07": "「因體積、位置或視覺效果而成為最突出元素」是「dominate a landscape/view」的用法，與本句語境不同。",
-        "dominate-mcq-09": "「成為某場討論／媒體內容的主要焦點」是「dominate debate/media」的用法，與本句語境不同。",
-        "dominate-mcq-06": "「在某個領域中佔據最重要或最具影響力的位置」是「dominate a field」的用法，與本句語境不同。",
-        "dominate-mcq-10": "「經常主動控制別人、局面或決定；通常帶負面意味」是「dominating」的用法，與本句語境不同。",
-        "dominate-mcq-05": "「在比賽中明顯比對手更強並控制大部分局面」是「dominate a game/match」的用法，與本句語境不同。"
+        "dominate-mcq-08": "本句的「dominated」指「佔據某人大部分時間、注意力或思緒」。",
+        "dominate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-08"
     },
@@ -1030,11 +936,9 @@ export default {
       "masked": "The economy ____ the debate.",
       "options": [
         "dominate-mcq-09",
-        "dominate-mcq-08",
-        "dominate-mcq-10",
-        "dominate-mcq-07",
-        "dominate-mcq-11",
-        "dominate-mcq-06"
+        "dominate-mcq-05",
+        "dominate-mcq-18",
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominated」指「成為某場討論／媒體內容的主要焦點」。",
       "sentenceIndex": 19,
@@ -1043,12 +947,10 @@ export default {
         "dominated"
       ],
       "optionReasons": {
-        "dominate-mcq-09": "本句指「成為某場討論／媒體內容的主要焦點」。",
-        "dominate-mcq-08": "「佔據某人大部分時間、注意力或思緒」是「dominate someone's life/thoughts」的用法，與本句語境不同。",
-        "dominate-mcq-10": "「經常主動控制別人、局面或決定；通常帶負面意味」是「dominating」的用法，與本句語境不同。",
-        "dominate-mcq-07": "「因體積、位置或視覺效果而成為最突出元素」是「dominate a landscape/view」的用法，與本句語境不同。",
-        "dominate-mcq-11": "「在權力、影響力、地位或表現上明顯超過其他人／事物」是「dominant — power/influence」的用法，與本句語境不同。",
-        "dominate-mcq-06": "「在某個領域中佔據最重要或最具影響力的位置」是「dominate a field」的用法，與本句語境不同。"
+        "dominate-mcq-09": "本句的「dominated」指「成為某場討論／媒體內容的主要焦點」。",
+        "dominate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-09"
     },
@@ -1060,11 +962,9 @@ export default {
       "masked": "The story ____ media coverage.",
       "options": [
         "dominate-mcq-09",
-        "dominate-mcq-08",
-        "dominate-mcq-10",
-        "dominate-mcq-07",
-        "dominate-mcq-11",
-        "dominate-mcq-06"
+        "dominate-mcq-19",
+        "dominate-mcq-03",
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominated」指「成為某場討論／媒體內容的主要焦點」。",
       "sentenceIndex": 20,
@@ -1073,12 +973,10 @@ export default {
         "dominated"
       ],
       "optionReasons": {
-        "dominate-mcq-09": "本句指「成為某場討論／媒體內容的主要焦點」。",
-        "dominate-mcq-08": "「佔據某人大部分時間、注意力或思緒」是「dominate someone's life/thoughts」的用法，與本句語境不同。",
-        "dominate-mcq-10": "「經常主動控制別人、局面或決定；通常帶負面意味」是「dominating」的用法，與本句語境不同。",
-        "dominate-mcq-07": "「因體積、位置或視覺效果而成為最突出元素」是「dominate a landscape/view」的用法，與本句語境不同。",
-        "dominate-mcq-11": "「在權力、影響力、地位或表現上明顯超過其他人／事物」是「dominant — power/influence」的用法，與本句語境不同。",
-        "dominate-mcq-06": "「在某個領域中佔據最重要或最具影響力的位置」是「dominate a field」的用法，與本句語境不同。"
+        "dominate-mcq-09": "本句的「dominated」指「成為某場討論／媒體內容的主要焦點」。",
+        "dominate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-09"
     },
@@ -1090,11 +988,9 @@ export default {
       "masked": "He has a very ____ personality.",
       "options": [
         "dominate-mcq-10",
-        "dominate-mcq-09",
-        "dominate-mcq-11",
-        "dominate-mcq-08",
-        "dominate-mcq-12",
-        "dominate-mcq-07"
+        "dominate-mcq-04",
+        "dominate-mcq-13",
+        "dominate-mcq-12"
       ],
       "explanation": "本句的「dominating」指「經常主動控制別人、局面或決定；通常帶負面意味」。",
       "sentenceIndex": 21,
@@ -1103,12 +999,10 @@ export default {
         "dominating"
       ],
       "optionReasons": {
-        "dominate-mcq-10": "本句指「經常主動控制別人、局面或決定；通常帶負面意味」。",
-        "dominate-mcq-09": "「成為某場討論／媒體內容的主要焦點」是「dominate debate/media」的用法，與本句語境不同。",
-        "dominate-mcq-11": "「在權力、影響力、地位或表現上明顯超過其他人／事物」是「dominant — power/influence」的用法，與本句語境不同。",
-        "dominate-mcq-08": "「佔據某人大部分時間、注意力或思緒」是「dominate someone's life/thoughts」的用法，與本句語境不同。",
-        "dominate-mcq-12": "「在一組元素中最突出、最強或最重要的」是「dominant — noticeable」的用法，與本句語境不同。",
-        "dominate-mcq-07": "「因體積、位置或視覺效果而成為最突出元素」是「dominate a landscape/view」的用法，與本句語境不同。"
+        "dominate-mcq-10": "本句的「dominating」指「經常主動控制別人、局面或決定；通常帶負面意味」。",
+        "dominate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-10"
     },
@@ -1120,11 +1014,9 @@ export default {
       "masked": "Her ____ behaviour made others uncomfortable.",
       "options": [
         "dominate-mcq-10",
-        "dominate-mcq-09",
-        "dominate-mcq-11",
-        "dominate-mcq-08",
         "dominate-mcq-12",
-        "dominate-mcq-07"
+        "dominate-mcq-04",
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominating」指「經常主動控制別人、局面或決定；通常帶負面意味」。",
       "sentenceIndex": 22,
@@ -1133,12 +1025,10 @@ export default {
         "dominating"
       ],
       "optionReasons": {
-        "dominate-mcq-10": "本句指「經常主動控制別人、局面或決定；通常帶負面意味」。",
-        "dominate-mcq-09": "「成為某場討論／媒體內容的主要焦點」是「dominate debate/media」的用法，與本句語境不同。",
-        "dominate-mcq-11": "「在權力、影響力、地位或表現上明顯超過其他人／事物」是「dominant — power/influence」的用法，與本句語境不同。",
-        "dominate-mcq-08": "「佔據某人大部分時間、注意力或思緒」是「dominate someone's life/thoughts」的用法，與本句語境不同。",
-        "dominate-mcq-12": "「在一組元素中最突出、最強或最重要的」是「dominant — noticeable」的用法，與本句語境不同。",
-        "dominate-mcq-07": "「因體積、位置或視覺效果而成為最突出元素」是「dominate a landscape/view」的用法，與本句語境不同。"
+        "dominate-mcq-10": "本句的「dominating」指「經常主動控制別人、局面或決定；通常帶負面意味」。",
+        "dominate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-10"
     },
@@ -1150,11 +1040,8 @@ export default {
       "masked": "The company has a ____ position in the market.",
       "options": [
         "dominate-mcq-11",
-        "dominate-mcq-10",
-        "dominate-mcq-12",
         "dominate-mcq-09",
-        "dominate-mcq-13",
-        "dominate-mcq-08"
+        "dominate-mcq-17"
       ],
       "explanation": "本句的「dominant」指「在權力、影響力、地位或表現上明顯超過其他人／事物」。",
       "sentenceIndex": 23,
@@ -1163,12 +1050,9 @@ export default {
         "dominant"
       ],
       "optionReasons": {
-        "dominate-mcq-11": "本句指「在權力、影響力、地位或表現上明顯超過其他人／事物」。",
-        "dominate-mcq-10": "「經常主動控制別人、局面或決定；通常帶負面意味」是「dominating」的用法，與本句語境不同。",
-        "dominate-mcq-12": "「在一組元素中最突出、最強或最重要的」是「dominant — noticeable」的用法，與本句語境不同。",
-        "dominate-mcq-09": "「成為某場討論／媒體內容的主要焦點」是「dominate debate/media」的用法，與本句語境不同。",
-        "dominate-mcq-13": "「即使只有一份相關基因也能在表型中表現出來的；顯性的」是「dominant — genetics」的用法，與本句語境不同。",
-        "dominate-mcq-08": "「佔據某人大部分時間、注意力或思緒」是「dominate someone's life/thoughts」的用法，與本句語境不同。"
+        "dominate-mcq-11": "本句的「dominant」指「在權力、影響力、地位或表現上明顯超過其他人／事物」。",
+        "dominate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-11"
     },
@@ -1180,11 +1064,9 @@ export default {
       "masked": "She became the ____ player in the match.",
       "options": [
         "dominate-mcq-11",
-        "dominate-mcq-10",
         "dominate-mcq-12",
-        "dominate-mcq-09",
-        "dominate-mcq-13",
-        "dominate-mcq-08"
+        "dominate-mcq-17",
+        "dominate-mcq-20"
       ],
       "explanation": "本句的「dominant」指「在權力、影響力、地位或表現上明顯超過其他人／事物」。",
       "sentenceIndex": 24,
@@ -1193,12 +1075,10 @@ export default {
         "dominant"
       ],
       "optionReasons": {
-        "dominate-mcq-11": "本句指「在權力、影響力、地位或表現上明顯超過其他人／事物」。",
-        "dominate-mcq-10": "「經常主動控制別人、局面或決定；通常帶負面意味」是「dominating」的用法，與本句語境不同。",
-        "dominate-mcq-12": "「在一組元素中最突出、最強或最重要的」是「dominant — noticeable」的用法，與本句語境不同。",
-        "dominate-mcq-09": "「成為某場討論／媒體內容的主要焦點」是「dominate debate/media」的用法，與本句語境不同。",
-        "dominate-mcq-13": "「即使只有一份相關基因也能在表型中表現出來的；顯性的」是「dominant — genetics」的用法，與本句語境不同。",
-        "dominate-mcq-08": "「佔據某人大部分時間、注意力或思緒」是「dominate someone's life/thoughts」的用法，與本句語境不同。"
+        "dominate-mcq-11": "本句的「dominant」指「在權力、影響力、地位或表現上明顯超過其他人／事物」。",
+        "dominate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-11"
     },
@@ -1210,11 +1090,9 @@ export default {
       "masked": "Blue is the ____ in the painting.",
       "options": [
         "dominate-mcq-12",
-        "dominate-mcq-11",
-        "dominate-mcq-13",
-        "dominate-mcq-10",
-        "dominate-mcq-14",
-        "dominate-mcq-09"
+        "dominate-mcq-04",
+        "dominate-mcq-20",
+        "dominate-mcq-17"
       ],
       "explanation": "本句的「dominant colour」指「在一組元素中最突出、最強或最重要的」。",
       "sentenceIndex": 25,
@@ -1223,12 +1101,10 @@ export default {
         "dominant colour"
       ],
       "optionReasons": {
-        "dominate-mcq-12": "本句指「在一組元素中最突出、最強或最重要的」。",
-        "dominate-mcq-11": "「在權力、影響力、地位或表現上明顯超過其他人／事物」是「dominant — power/influence」的用法，與本句語境不同。",
-        "dominate-mcq-13": "「即使只有一份相關基因也能在表型中表現出來的；顯性的」是「dominant — genetics」的用法，與本句語境不同。",
-        "dominate-mcq-10": "「經常主動控制別人、局面或決定；通常帶負面意味」是「dominating」的用法，與本句語境不同。",
-        "dominate-mcq-14": "「在權力、影響力或競爭表現上高於其他人的狀態」是「dominance — competitive/power」的用法，與本句語境不同。",
-        "dominate-mcq-09": "「成為某場討論／媒體內容的主要焦點」是「dominate debate/media」的用法，與本句語境不同。"
+        "dominate-mcq-12": "本句的「dominant colour」指「在一組元素中最突出、最強或最重要的」。",
+        "dominate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-12"
     },
@@ -1240,11 +1116,9 @@ export default {
       "masked": "Fear was the ____.",
       "options": [
         "dominate-mcq-12",
-        "dominate-mcq-11",
-        "dominate-mcq-13",
         "dominate-mcq-10",
-        "dominate-mcq-14",
-        "dominate-mcq-09"
+        "dominate-mcq-20",
+        "dominate-mcq-04"
       ],
       "explanation": "本句的「dominant emotion」指「在一組元素中最突出、最強或最重要的」。",
       "sentenceIndex": 26,
@@ -1253,12 +1127,10 @@ export default {
         "dominant emotion"
       ],
       "optionReasons": {
-        "dominate-mcq-12": "本句指「在一組元素中最突出、最強或最重要的」。",
-        "dominate-mcq-11": "「在權力、影響力、地位或表現上明顯超過其他人／事物」是「dominant — power/influence」的用法，與本句語境不同。",
-        "dominate-mcq-13": "「即使只有一份相關基因也能在表型中表現出來的；顯性的」是「dominant — genetics」的用法，與本句語境不同。",
-        "dominate-mcq-10": "「經常主動控制別人、局面或決定；通常帶負面意味」是「dominating」的用法，與本句語境不同。",
-        "dominate-mcq-14": "「在權力、影響力或競爭表現上高於其他人的狀態」是「dominance — competitive/power」的用法，與本句語境不同。",
-        "dominate-mcq-09": "「成為某場討論／媒體內容的主要焦點」是「dominate debate/media」的用法，與本句語境不同。"
+        "dominate-mcq-12": "本句的「dominant emotion」指「在一組元素中最突出、最強或最重要的」。",
+        "dominate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-12"
     },
@@ -1270,11 +1142,9 @@ export default {
       "masked": "Brown eyes may result from a ____.",
       "options": [
         "dominate-mcq-13",
-        "dominate-mcq-12",
-        "dominate-mcq-14",
-        "dominate-mcq-11",
-        "dominate-mcq-15",
-        "dominate-mcq-10"
+        "dominate-mcq-17",
+        "dominate-mcq-18",
+        "dominate-mcq-20"
       ],
       "explanation": "本句的「dominant gene」指「即使只有一份相關基因也能在表型中表現出來的；顯性的」。",
       "sentenceIndex": 27,
@@ -1283,12 +1153,10 @@ export default {
         "dominant gene"
       ],
       "optionReasons": {
-        "dominate-mcq-13": "本句指「即使只有一份相關基因也能在表型中表現出來的；顯性的」。",
-        "dominate-mcq-12": "「在一組元素中最突出、最強或最重要的」是「dominant — noticeable」的用法，與本句語境不同。",
-        "dominate-mcq-14": "「在權力、影響力或競爭表現上高於其他人的狀態」是「dominance — competitive/power」的用法，與本句語境不同。",
-        "dominate-mcq-11": "「在權力、影響力、地位或表現上明顯超過其他人／事物」是「dominant — power/influence」的用法，與本句語境不同。",
-        "dominate-mcq-15": "「在人際／群體關係中取得較高控制權或地位」是「dominance — social」的用法，與本句語境不同。",
-        "dominate-mcq-10": "「經常主動控制別人、局面或決定；通常帶負面意味」是「dominating」的用法，與本句語境不同。"
+        "dominate-mcq-13": "本句的「dominant gene」指「即使只有一份相關基因也能在表型中表現出來的；顯性的」。",
+        "dominate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-13"
     },
@@ -1300,10 +1168,7 @@ export default {
       "masked": "The ____ appears when only one copy of the gene is present.",
       "options": [
         "dominate-mcq-13",
-        "dominate-mcq-12",
-        "dominate-mcq-14",
-        "dominate-mcq-11",
-        "dominate-mcq-15",
+        "dominate-mcq-06",
         "dominate-mcq-10"
       ],
       "explanation": "本句的「dominant trait」指「即使只有一份相關基因也能在表型中表現出來的；顯性的」。",
@@ -1313,12 +1178,9 @@ export default {
         "dominant trait"
       ],
       "optionReasons": {
-        "dominate-mcq-13": "本句指「即使只有一份相關基因也能在表型中表現出來的；顯性的」。",
-        "dominate-mcq-12": "「在一組元素中最突出、最強或最重要的」是「dominant — noticeable」的用法，與本句語境不同。",
-        "dominate-mcq-14": "「在權力、影響力或競爭表現上高於其他人的狀態」是「dominance — competitive/power」的用法，與本句語境不同。",
-        "dominate-mcq-11": "「在權力、影響力、地位或表現上明顯超過其他人／事物」是「dominant — power/influence」的用法，與本句語境不同。",
-        "dominate-mcq-15": "「在人際／群體關係中取得較高控制權或地位」是「dominance — social」的用法，與本句語境不同。",
-        "dominate-mcq-10": "「經常主動控制別人、局面或決定；通常帶負面意味」是「dominating」的用法，與本句語境不同。"
+        "dominate-mcq-13": "本句的「dominant trait」指「即使只有一份相關基因也能在表型中表現出來的；顯性的」。",
+        "dominate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-13"
     },
@@ -1330,11 +1192,8 @@ export default {
       "masked": "The company’s market ____ continued.",
       "options": [
         "dominate-mcq-14",
-        "dominate-mcq-13",
-        "dominate-mcq-15",
-        "dominate-mcq-12",
-        "dominate-mcq-16",
-        "dominate-mcq-11"
+        "dominate-mcq-09",
+        "dominate-mcq-17"
       ],
       "explanation": "本句的「dominance」指「在權力、影響力或競爭表現上高於其他人的狀態」。",
       "sentenceIndex": 29,
@@ -1343,12 +1202,9 @@ export default {
         "dominance"
       ],
       "optionReasons": {
-        "dominate-mcq-14": "本句指「在權力、影響力或競爭表現上高於其他人的狀態」。",
-        "dominate-mcq-13": "「即使只有一份相關基因也能在表型中表現出來的；顯性的」是「dominant — genetics」的用法，與本句語境不同。",
-        "dominate-mcq-15": "「在人際／群體關係中取得較高控制權或地位」是「dominance — social」的用法，與本句語境不同。",
-        "dominate-mcq-12": "「在一組元素中最突出、最強或最重要的」是「dominant — noticeable」的用法，與本句語境不同。",
-        "dominate-mcq-16": "「對某人、群體、領域或局面施加強而持續的控制」是「domination」的用法，與本句語境不同。",
-        "dominate-mcq-11": "「在權力、影響力、地位或表現上明顯超過其他人／事物」是「dominant — power/influence」的用法，與本句語境不同。"
+        "dominate-mcq-14": "本句的「dominance」指「在權力、影響力或競爭表現上高於其他人的狀態」。",
+        "dominate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-14"
     },
@@ -1360,11 +1216,8 @@ export default {
       "masked": "The team showed complete ____.",
       "options": [
         "dominate-mcq-14",
-        "dominate-mcq-13",
-        "dominate-mcq-15",
-        "dominate-mcq-12",
-        "dominate-mcq-16",
-        "dominate-mcq-11"
+        "dominate-mcq-09",
+        "dominate-mcq-03"
       ],
       "explanation": "本句的「dominance」指「在權力、影響力或競爭表現上高於其他人的狀態」。",
       "sentenceIndex": 30,
@@ -1373,12 +1226,9 @@ export default {
         "dominance"
       ],
       "optionReasons": {
-        "dominate-mcq-14": "本句指「在權力、影響力或競爭表現上高於其他人的狀態」。",
-        "dominate-mcq-13": "「即使只有一份相關基因也能在表型中表現出來的；顯性的」是「dominant — genetics」的用法，與本句語境不同。",
-        "dominate-mcq-15": "「在人際／群體關係中取得較高控制權或地位」是「dominance — social」的用法，與本句語境不同。",
-        "dominate-mcq-12": "「在一組元素中最突出、最強或最重要的」是「dominant — noticeable」的用法，與本句語境不同。",
-        "dominate-mcq-16": "「對某人、群體、領域或局面施加強而持續的控制」是「domination」的用法，與本句語境不同。",
-        "dominate-mcq-11": "「在權力、影響力、地位或表現上明顯超過其他人／事物」是「dominant — power/influence」的用法，與本句語境不同。"
+        "dominate-mcq-14": "本句的「dominance」指「在權力、影響力或競爭表現上高於其他人的狀態」。",
+        "dominate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-14"
     },
@@ -1390,11 +1240,9 @@ export default {
       "masked": "The study looked at patterns of social ____.",
       "options": [
         "dominate-mcq-15",
-        "dominate-mcq-14",
-        "dominate-mcq-16",
-        "dominate-mcq-13",
-        "dominate-mcq-17",
-        "dominate-mcq-12"
+        "dominate-mcq-18",
+        "dominate-mcq-20",
+        "dominate-mcq-13"
       ],
       "explanation": "本句的「dominance」指「在人際／群體關係中取得較高控制權或地位」。",
       "sentenceIndex": 31,
@@ -1403,12 +1251,10 @@ export default {
         "dominance"
       ],
       "optionReasons": {
-        "dominate-mcq-15": "本句指「在人際／群體關係中取得較高控制權或地位」。",
-        "dominate-mcq-14": "「在權力、影響力或競爭表現上高於其他人的狀態」是「dominance — competitive/power」的用法，與本句語境不同。",
-        "dominate-mcq-16": "「對某人、群體、領域或局面施加強而持續的控制」是「domination」的用法，與本句語境不同。",
-        "dominate-mcq-13": "「即使只有一份相關基因也能在表型中表現出來的；顯性的」是「dominant — genetics」的用法，與本句語境不同。",
-        "dominate-mcq-17": "「日常活動中較常使用、控制力較好的那隻手」是「dominant hand」的用法，與本句語境不同。",
-        "dominate-mcq-12": "「在一組元素中最突出、最強或最重要的」是「dominant — noticeable」的用法，與本句語境不同。"
+        "dominate-mcq-15": "本句的「dominance」指「在人際／群體關係中取得較高控制權或地位」。",
+        "dominate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-15"
     },
@@ -1420,11 +1266,9 @@ export default {
       "masked": "His need for ____ affected the relationship.",
       "options": [
         "dominate-mcq-15",
-        "dominate-mcq-14",
-        "dominate-mcq-16",
         "dominate-mcq-13",
-        "dominate-mcq-17",
-        "dominate-mcq-12"
+        "dominate-mcq-12",
+        "dominate-mcq-18"
       ],
       "explanation": "本句的「dominance」指「在人際／群體關係中取得較高控制權或地位」。",
       "sentenceIndex": 32,
@@ -1433,12 +1277,10 @@ export default {
         "dominance"
       ],
       "optionReasons": {
-        "dominate-mcq-15": "本句指「在人際／群體關係中取得較高控制權或地位」。",
-        "dominate-mcq-14": "「在權力、影響力或競爭表現上高於其他人的狀態」是「dominance — competitive/power」的用法，與本句語境不同。",
-        "dominate-mcq-16": "「對某人、群體、領域或局面施加強而持續的控制」是「domination」的用法，與本句語境不同。",
-        "dominate-mcq-13": "「即使只有一份相關基因也能在表型中表現出來的；顯性的」是「dominant — genetics」的用法，與本句語境不同。",
-        "dominate-mcq-17": "「日常活動中較常使用、控制力較好的那隻手」是「dominant hand」的用法，與本句語境不同。",
-        "dominate-mcq-12": "「在一組元素中最突出、最強或最重要的」是「dominant — noticeable」的用法，與本句語境不同。"
+        "dominate-mcq-15": "本句的「dominance」指「在人際／群體關係中取得較高控制權或地位」。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-15"
     },
@@ -1450,10 +1292,8 @@ export default {
       "masked": "The team’s total ____ surprised everyone.",
       "options": [
         "dominate-mcq-16",
-        "dominate-mcq-15",
-        "dominate-mcq-17",
-        "dominate-mcq-14",
         "dominate-mcq-18",
+        "dominate-mcq-20",
         "dominate-mcq-13"
       ],
       "explanation": "本句的「domination」指「對某人、群體、領域或局面施加強而持續的控制」。",
@@ -1463,12 +1303,10 @@ export default {
         "domination"
       ],
       "optionReasons": {
-        "dominate-mcq-16": "本句指「對某人、群體、領域或局面施加強而持續的控制」。",
-        "dominate-mcq-15": "「在人際／群體關係中取得較高控制權或地位」是「dominance — social」的用法，與本句語境不同。",
-        "dominate-mcq-17": "「日常活動中較常使用、控制力較好的那隻手」是「dominant hand」的用法，與本句語境不同。",
-        "dominate-mcq-14": "「在權力、影響力或競爭表現上高於其他人的狀態」是「dominance — competitive/power」的用法，與本句語境不同。",
-        "dominate-mcq-18": "「在某社會環境中使用程度或影響力最大的語言／文化」是「dominant language/culture」的用法，與本句語境不同。",
-        "dominate-mcq-13": "「即使只有一份相關基因也能在表型中表現出來的；顯性的」是「dominant — genetics」的用法，與本句語境不同。"
+        "dominate-mcq-16": "本句的「domination」指「對某人、群體、領域或局面施加強而持續的控制」。",
+        "dominate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-16"
     },
@@ -1480,11 +1318,9 @@ export default {
       "masked": "The story is about political ____.",
       "options": [
         "dominate-mcq-16",
-        "dominate-mcq-15",
-        "dominate-mcq-17",
-        "dominate-mcq-14",
+        "dominate-mcq-13",
         "dominate-mcq-18",
-        "dominate-mcq-13"
+        "dominate-mcq-20"
       ],
       "explanation": "本句的「domination」指「對某人、群體、領域或局面施加強而持續的控制」。",
       "sentenceIndex": 34,
@@ -1493,12 +1329,10 @@ export default {
         "domination"
       ],
       "optionReasons": {
-        "dominate-mcq-16": "本句指「對某人、群體、領域或局面施加強而持續的控制」。",
-        "dominate-mcq-15": "「在人際／群體關係中取得較高控制權或地位」是「dominance — social」的用法，與本句語境不同。",
-        "dominate-mcq-17": "「日常活動中較常使用、控制力較好的那隻手」是「dominant hand」的用法，與本句語境不同。",
-        "dominate-mcq-14": "「在權力、影響力或競爭表現上高於其他人的狀態」是「dominance — competitive/power」的用法，與本句語境不同。",
-        "dominate-mcq-18": "「在某社會環境中使用程度或影響力最大的語言／文化」是「dominant language/culture」的用法，與本句語境不同。",
-        "dominate-mcq-13": "「即使只有一份相關基因也能在表型中表現出來的；顯性的」是「dominant — genetics」的用法，與本句語境不同。"
+        "dominate-mcq-16": "本句的「domination」指「對某人、群體、領域或局面施加強而持續的控制」。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-16"
     },
@@ -1510,11 +1344,9 @@ export default {
       "masked": "Her right hand is her ____.",
       "options": [
         "dominate-mcq-17",
-        "dominate-mcq-16",
-        "dominate-mcq-18",
-        "dominate-mcq-15",
-        "dominate-mcq-19",
-        "dominate-mcq-14"
+        "dominate-mcq-09",
+        "dominate-mcq-13",
+        "dominate-mcq-18"
       ],
       "explanation": "本句的「dominant hand」指「日常活動中較常使用、控制力較好的那隻手」。",
       "sentenceIndex": 35,
@@ -1523,12 +1355,10 @@ export default {
         "dominant hand"
       ],
       "optionReasons": {
-        "dominate-mcq-17": "本句指「日常活動中較常使用、控制力較好的那隻手」。",
-        "dominate-mcq-16": "「對某人、群體、領域或局面施加強而持續的控制」是「domination」的用法，與本句語境不同。",
-        "dominate-mcq-18": "「在某社會環境中使用程度或影響力最大的語言／文化」是「dominant language/culture」的用法，與本句語境不同。",
-        "dominate-mcq-15": "「在人際／群體關係中取得較高控制權或地位」是「dominance — social」的用法，與本句語境不同。",
-        "dominate-mcq-19": "「相比其他人／競爭者擁有明顯較高權力、影響力或優勢的位置」是「dominant position」的用法，與本句語境不同。",
-        "dominate-mcq-14": "「在權力、影響力或競爭表現上高於其他人的狀態」是「dominance — competitive/power」的用法，與本句語境不同。"
+        "dominate-mcq-17": "本句的「dominant hand」指「日常活動中較常使用、控制力較好的那隻手」。",
+        "dominate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-17"
     },
@@ -1540,11 +1370,9 @@ export default {
       "masked": "Try the exercise with your ____ hand.",
       "options": [
         "dominate-mcq-17",
-        "dominate-mcq-16",
-        "dominate-mcq-18",
-        "dominate-mcq-15",
-        "dominate-mcq-19",
-        "dominate-mcq-14"
+        "dominate-mcq-07",
+        "dominate-mcq-13",
+        "dominate-mcq-08"
       ],
       "explanation": "本句的「non-dominant」指「日常活動中較常使用、控制力較好的那隻手」。",
       "sentenceIndex": 36,
@@ -1553,12 +1381,10 @@ export default {
         "non-dominant"
       ],
       "optionReasons": {
-        "dominate-mcq-17": "本句指「日常活動中較常使用、控制力較好的那隻手」。",
-        "dominate-mcq-16": "「對某人、群體、領域或局面施加強而持續的控制」是「domination」的用法，與本句語境不同。",
-        "dominate-mcq-18": "「在某社會環境中使用程度或影響力最大的語言／文化」是「dominant language/culture」的用法，與本句語境不同。",
-        "dominate-mcq-15": "「在人際／群體關係中取得較高控制權或地位」是「dominance — social」的用法，與本句語境不同。",
-        "dominate-mcq-19": "「相比其他人／競爭者擁有明顯較高權力、影響力或優勢的位置」是「dominant position」的用法，與本句語境不同。",
-        "dominate-mcq-14": "「在權力、影響力或競爭表現上高於其他人的狀態」是「dominance — competitive/power」的用法，與本句語境不同。"
+        "dominate-mcq-17": "本句的「non-dominant」指「日常活動中較常使用、控制力較好的那隻手」。",
+        "dominate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-17"
     },
@@ -1570,11 +1396,9 @@ export default {
       "masked": "English is the ____ in the workplace.",
       "options": [
         "dominate-mcq-18",
-        "dominate-mcq-17",
-        "dominate-mcq-19",
-        "dominate-mcq-16",
-        "dominate-mcq-20",
-        "dominate-mcq-15"
+        "dominate-mcq-02",
+        "dominate-mcq-13",
+        "dominate-mcq-09"
       ],
       "explanation": "本句的「dominant language」指「在某社會環境中使用程度或影響力最大的語言／文化」。",
       "sentenceIndex": 37,
@@ -1583,12 +1407,10 @@ export default {
         "dominant language"
       ],
       "optionReasons": {
-        "dominate-mcq-18": "本句指「在某社會環境中使用程度或影響力最大的語言／文化」。",
-        "dominate-mcq-17": "「日常活動中較常使用、控制力較好的那隻手」是「dominant hand」的用法，與本句語境不同。",
-        "dominate-mcq-19": "「相比其他人／競爭者擁有明顯較高權力、影響力或優勢的位置」是「dominant position」的用法，與本句語境不同。",
-        "dominate-mcq-16": "「對某人、群體、領域或局面施加強而持續的控制」是「domination」的用法，與本句語境不同。",
-        "dominate-mcq-20": "「某件事佔用大部分時間、注意力、空間或內容」是「8. dominate = occupy most of something（佔據大部分） — 佔據；充斥」的用法，與本句語境不同。",
-        "dominate-mcq-15": "「在人際／群體關係中取得較高控制權或地位」是「dominance — social」的用法，與本句語境不同。"
+        "dominate-mcq-18": "本句的「dominant language」指「在某社會環境中使用程度或影響力最大的語言／文化」。",
+        "dominate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-18"
     },
@@ -1600,11 +1422,9 @@ export default {
       "masked": "The ____ strongly influenced the media.",
       "options": [
         "dominate-mcq-18",
-        "dominate-mcq-17",
-        "dominate-mcq-19",
-        "dominate-mcq-16",
-        "dominate-mcq-20",
-        "dominate-mcq-15"
+        "dominate-mcq-13",
+        "dominate-mcq-02",
+        "dominate-mcq-09"
       ],
       "explanation": "本句的「dominant culture」指「在某社會環境中使用程度或影響力最大的語言／文化」。",
       "sentenceIndex": 38,
@@ -1613,12 +1433,10 @@ export default {
         "dominant culture"
       ],
       "optionReasons": {
-        "dominate-mcq-18": "本句指「在某社會環境中使用程度或影響力最大的語言／文化」。",
-        "dominate-mcq-17": "「日常活動中較常使用、控制力較好的那隻手」是「dominant hand」的用法，與本句語境不同。",
-        "dominate-mcq-19": "「相比其他人／競爭者擁有明顯較高權力、影響力或優勢的位置」是「dominant position」的用法，與本句語境不同。",
-        "dominate-mcq-16": "「對某人、群體、領域或局面施加強而持續的控制」是「domination」的用法，與本句語境不同。",
-        "dominate-mcq-20": "「某件事佔用大部分時間、注意力、空間或內容」是「8. dominate = occupy most of something（佔據大部分） — 佔據；充斥」的用法，與本句語境不同。",
-        "dominate-mcq-15": "「在人際／群體關係中取得較高控制權或地位」是「dominance — social」的用法，與本句語境不同。"
+        "dominate-mcq-18": "本句的「dominant culture」指「在某社會環境中使用程度或影響力最大的語言／文化」。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-18"
     },
@@ -1630,11 +1448,9 @@ export default {
       "masked": "The company holds a ____ in the industry.",
       "options": [
         "dominate-mcq-19",
-        "dominate-mcq-18",
-        "dominate-mcq-20",
-        "dominate-mcq-17",
-        "dominate-mcq-16",
-        "dominate-mcq-15"
+        "dominate-mcq-12",
+        "dominate-mcq-13",
+        "dominate-mcq-03"
       ],
       "explanation": "本句的「dominant position」指「相比其他人／競爭者擁有明顯較高權力、影響力或優勢的位置」。",
       "sentenceIndex": 39,
@@ -1643,12 +1459,10 @@ export default {
         "dominant position"
       ],
       "optionReasons": {
-        "dominate-mcq-19": "本句指「相比其他人／競爭者擁有明顯較高權力、影響力或優勢的位置」。",
-        "dominate-mcq-18": "「在某社會環境中使用程度或影響力最大的語言／文化」是「dominant language/culture」的用法，與本句語境不同。",
-        "dominate-mcq-20": "「某件事佔用大部分時間、注意力、空間或內容」是「8. dominate = occupy most of something（佔據大部分） — 佔據；充斥」的用法，與本句語境不同。",
-        "dominate-mcq-17": "「日常活動中較常使用、控制力較好的那隻手」是「dominant hand」的用法，與本句語境不同。",
-        "dominate-mcq-16": "「對某人、群體、領域或局面施加強而持續的控制」是「domination」的用法，與本句語境不同。",
-        "dominate-mcq-15": "「在人際／群體關係中取得較高控制權或地位」是「dominance — social」的用法，與本句語境不同。"
+        "dominate-mcq-19": "本句的「dominant position」指「相比其他人／競爭者擁有明顯較高權力、影響力或優勢的位置」。",
+        "dominate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-19"
     },
@@ -1660,11 +1474,9 @@ export default {
       "masked": "The team moved into a ____ early in the match.",
       "options": [
         "dominate-mcq-19",
-        "dominate-mcq-18",
-        "dominate-mcq-20",
-        "dominate-mcq-17",
-        "dominate-mcq-16",
-        "dominate-mcq-15"
+        "dominate-mcq-09",
+        "dominate-mcq-13",
+        "dominate-mcq-03"
       ],
       "explanation": "本句的「dominant position」指「相比其他人／競爭者擁有明顯較高權力、影響力或優勢的位置」。",
       "sentenceIndex": 40,
@@ -1673,12 +1485,10 @@ export default {
         "dominant position"
       ],
       "optionReasons": {
-        "dominate-mcq-19": "本句指「相比其他人／競爭者擁有明顯較高權力、影響力或優勢的位置」。",
-        "dominate-mcq-18": "「在某社會環境中使用程度或影響力最大的語言／文化」是「dominant language/culture」的用法，與本句語境不同。",
-        "dominate-mcq-20": "「某件事佔用大部分時間、注意力、空間或內容」是「8. dominate = occupy most of something（佔據大部分） — 佔據；充斥」的用法，與本句語境不同。",
-        "dominate-mcq-17": "「日常活動中較常使用、控制力較好的那隻手」是「dominant hand」的用法，與本句語境不同。",
-        "dominate-mcq-16": "「對某人、群體、領域或局面施加強而持續的控制」是「domination」的用法，與本句語境不同。",
-        "dominate-mcq-15": "「在人際／群體關係中取得較高控制權或地位」是「dominance — social」的用法，與本句語境不同。"
+        "dominate-mcq-19": "本句的「dominant position」指「相比其他人／競爭者擁有明顯較高權力、影響力或優勢的位置」。",
+        "dominate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dominate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dominate-mcq-19"
     }
@@ -1690,5 +1500,7 @@ export default {
     "sha256": "e4cdbeb483e46bd2755ee7ec81c743bd40cf62e340730f013aa5da5eb57da5a5",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

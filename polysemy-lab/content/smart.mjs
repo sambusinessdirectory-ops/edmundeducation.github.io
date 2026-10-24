@@ -378,11 +378,9 @@ export default {
       "masked": "She is a very ____ student.",
       "options": [
         "smart-mcq-01",
-        "smart-mcq-02",
-        "smart-mcq-03",
         "smart-mcq-04",
-        "smart-mcq-05",
-        "smart-mcq-06"
+        "smart-mcq-07",
+        "smart-mcq-14"
       ],
       "explanation": "本句的「smart」指「理解、學習、判斷或解決問題能力強的」。",
       "sentenceIndex": 0,
@@ -391,12 +389,10 @@ export default {
         "smart"
       ],
       "optionReasons": {
-        "smart-mcq-01": "本句指「理解、學習、判斷或解決問題能力強的」。",
-        "smart-mcq-02": "「判斷明智、能有效取得好結果的；精明的」與本句語境不同。",
-        "smart-mcq-03": "「方法或設計巧妙、高效、能善用資源的」與本句語境不同。",
-        "smart-mcq-04": "「外表時尚、整潔、俐落而講究的」與本句語境不同。",
-        "smart-mcq-05": "「穿著得體、整齊，適合較正式場合的」與本句語境不同。",
-        "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。"
+        "smart-mcq-01": "本句的「smart」指「理解、學習、判斷或解決問題能力強的」。",
+        "smart-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-01"
     },
@@ -408,11 +404,9 @@ export default {
       "masked": "He is ____ enough to understand the problem quickly.",
       "options": [
         "smart-mcq-01",
-        "smart-mcq-02",
-        "smart-mcq-03",
-        "smart-mcq-04",
+        "smart-mcq-14",
         "smart-mcq-05",
-        "smart-mcq-06"
+        "smart-pdf-002"
       ],
       "explanation": "本句的「smart」指「理解、學習、判斷或解決問題能力強的」。",
       "sentenceIndex": 1,
@@ -421,12 +415,10 @@ export default {
         "smart"
       ],
       "optionReasons": {
-        "smart-mcq-01": "本句指「理解、學習、判斷或解決問題能力強的」。",
-        "smart-mcq-02": "「判斷明智、能有效取得好結果的；精明的」與本句語境不同。",
-        "smart-mcq-03": "「方法或設計巧妙、高效、能善用資源的」與本句語境不同。",
-        "smart-mcq-04": "「外表時尚、整潔、俐落而講究的」與本句語境不同。",
-        "smart-mcq-05": "「穿著得體、整齊，適合較正式場合的」與本句語境不同。",
-        "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。"
+        "smart-mcq-01": "本句的「smart」指「理解、學習、判斷或解決問題能力強的」。",
+        "smart-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "smart-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-01"
     },
@@ -438,11 +430,9 @@ export default {
       "masked": "The business succeeds through good products and ____.",
       "options": [
         "smart-pdf-001",
-        "smart-mcq-01",
-        "smart-mcq-03",
         "smart-mcq-04",
-        "smart-mcq-05",
-        "smart-mcq-06"
+        "smart-mcq-06",
+        "smart-mcq-10"
       ],
       "explanation": "本句的「smart focus」指「某個決定、策略或方法判斷得宜，而且很可能帶來好結果」。",
       "sentenceIndex": 2,
@@ -451,12 +441,10 @@ export default {
         "smart focus"
       ],
       "optionReasons": {
-        "smart-pdf-001": "本句指「某個決定、策略或方法判斷得宜，而且很可能帶來好結果」。",
-        "smart-mcq-01": "「理解、學習、判斷或解決問題能力強的」與本句語境不同。",
-        "smart-mcq-03": "「方法或設計巧妙、高效、能善用資源的」與本句語境不同。",
-        "smart-mcq-04": "「外表時尚、整潔、俐落而講究的」與本句語境不同。",
-        "smart-mcq-05": "「穿著得體、整齊，適合較正式場合的」與本句語境不同。",
-        "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。"
+        "smart-pdf-001": "本句的「smart focus」指「某個決定、策略或方法判斷得宜，而且很可能帶來好結果」。",
+        "smart-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-pdf-001"
     },
@@ -468,11 +456,9 @@ export default {
       "masked": "Opening near the station was a ____.",
       "options": [
         "smart-pdf-001",
-        "smart-mcq-01",
-        "smart-mcq-03",
-        "smart-mcq-04",
         "smart-mcq-05",
-        "smart-mcq-06"
+        "smart-mcq-14",
+        "smart-mcq-10"
       ],
       "explanation": "本句的「smart move」指「某個決定、策略或方法判斷得宜，而且很可能帶來好結果」。",
       "sentenceIndex": 3,
@@ -481,12 +467,10 @@ export default {
         "smart move"
       ],
       "optionReasons": {
-        "smart-pdf-001": "本句指「某個決定、策略或方法判斷得宜，而且很可能帶來好結果」。",
-        "smart-mcq-01": "「理解、學習、判斷或解決問題能力強的」與本句語境不同。",
-        "smart-mcq-03": "「方法或設計巧妙、高效、能善用資源的」與本句語境不同。",
-        "smart-mcq-04": "「外表時尚、整潔、俐落而講究的」與本句語境不同。",
-        "smart-mcq-05": "「穿著得體、整齊，適合較正式場合的」與本句語境不同。",
-        "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。"
+        "smart-pdf-001": "本句的「smart move」指「某個決定、策略或方法判斷得宜，而且很可能帶來好結果」。",
+        "smart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-pdf-001"
     },
@@ -498,11 +482,9 @@ export default {
       "masked": "The shop uses a ____ to make good use of the space.",
       "options": [
         "smart-mcq-03",
-        "smart-mcq-02",
-        "smart-mcq-04",
-        "smart-mcq-01",
-        "smart-mcq-05",
-        "smart-mcq-06"
+        "smart-mcq-09",
+        "smart-mcq-06",
+        "smart-mcq-13"
       ],
       "explanation": "本句的「smart layout」指「方法或設計巧妙、高效、能善用資源的」。",
       "sentenceIndex": 4,
@@ -511,12 +493,10 @@ export default {
         "smart layout"
       ],
       "optionReasons": {
-        "smart-mcq-03": "本句指「方法或設計巧妙、高效、能善用資源的」。",
-        "smart-mcq-02": "「判斷明智、能有效取得好結果的；精明的」與本句語境不同。",
-        "smart-mcq-04": "「外表時尚、整潔、俐落而講究的」與本句語境不同。",
-        "smart-mcq-01": "「理解、學習、判斷或解決問題能力強的」與本句語境不同。",
-        "smart-mcq-05": "「穿著得體、整齊，適合較正式場合的」與本句語境不同。",
-        "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。"
+        "smart-mcq-03": "本句的「smart layout」指「方法或設計巧妙、高效、能善用資源的」。",
+        "smart-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-03"
     },
@@ -528,11 +508,9 @@ export default {
       "masked": "That is a ____ solution to a difficult problem.",
       "options": [
         "smart-mcq-03",
-        "smart-mcq-02",
-        "smart-mcq-04",
-        "smart-mcq-01",
+        "smart-mcq-10",
         "smart-mcq-05",
-        "smart-mcq-06"
+        "smart-mcq-15"
       ],
       "explanation": "本句的「smart」指「方法或設計巧妙、高效、能善用資源的」。",
       "sentenceIndex": 5,
@@ -541,12 +519,10 @@ export default {
         "smart"
       ],
       "optionReasons": {
-        "smart-mcq-03": "本句指「方法或設計巧妙、高效、能善用資源的」。",
-        "smart-mcq-02": "「判斷明智、能有效取得好結果的；精明的」與本句語境不同。",
-        "smart-mcq-04": "「外表時尚、整潔、俐落而講究的」與本句語境不同。",
-        "smart-mcq-01": "「理解、學習、判斷或解決問題能力強的」與本句語境不同。",
-        "smart-mcq-05": "「穿著得體、整齊，適合較正式場合的」與本句語境不同。",
-        "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。"
+        "smart-mcq-03": "本句的「smart」指「方法或設計巧妙、高效、能善用資源的」。",
+        "smart-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-03"
     },
@@ -559,10 +535,8 @@ export default {
       "options": [
         "smart-mcq-04",
         "smart-mcq-03",
-        "smart-mcq-05",
-        "smart-mcq-02",
         "smart-mcq-06",
-        "smart-mcq-01"
+        "smart-mcq-10"
       ],
       "explanation": "本句的「smart」指「外表時尚、整潔、俐落而講究的」。",
       "sentenceIndex": 6,
@@ -571,12 +545,10 @@ export default {
         "smart"
       ],
       "optionReasons": {
-        "smart-mcq-04": "本句指「外表時尚、整潔、俐落而講究的」。",
-        "smart-mcq-03": "「方法或設計巧妙、高效、能善用資源的」與本句語境不同。",
-        "smart-mcq-05": "「穿著得體、整齊，適合較正式場合的」與本句語境不同。",
-        "smart-mcq-02": "「判斷明智、能有效取得好結果的；精明的」與本句語境不同。",
-        "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。",
-        "smart-mcq-01": "「理解、學習、判斷或解決問題能力強的」與本句語境不同。"
+        "smart-mcq-04": "本句的「smart」指「外表時尚、整潔、俐落而講究的」。",
+        "smart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-04"
     },
@@ -588,11 +560,9 @@ export default {
       "masked": "The café has a ____, modern interior.",
       "options": [
         "smart-mcq-04",
-        "smart-mcq-03",
-        "smart-mcq-05",
-        "smart-mcq-02",
-        "smart-mcq-06",
-        "smart-mcq-01"
+        "smart-mcq-07",
+        "smart-mcq-14",
+        "smart-mcq-11"
       ],
       "explanation": "本句的「smart」指「外表時尚、整潔、俐落而講究的」。",
       "sentenceIndex": 7,
@@ -601,12 +571,10 @@ export default {
         "smart"
       ],
       "optionReasons": {
-        "smart-mcq-04": "本句指「外表時尚、整潔、俐落而講究的」。",
-        "smart-mcq-03": "「方法或設計巧妙、高效、能善用資源的」與本句語境不同。",
-        "smart-mcq-05": "「穿著得體、整齊，適合較正式場合的」與本句語境不同。",
-        "smart-mcq-02": "「判斷明智、能有效取得好結果的；精明的」與本句語境不同。",
-        "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。",
-        "smart-mcq-01": "「理解、學習、判斷或解決問題能力強的」與本句語境不同。"
+        "smart-mcq-04": "本句的「smart」指「外表時尚、整潔、俐落而講究的」。",
+        "smart-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-04"
     },
@@ -618,11 +586,9 @@ export default {
       "masked": "Please wear something ____ to the event.",
       "options": [
         "smart-mcq-05",
-        "smart-mcq-04",
-        "smart-mcq-06",
-        "smart-mcq-03",
+        "smart-mcq-11",
         "smart-mcq-07",
-        "smart-mcq-02"
+        "smart-mcq-14"
       ],
       "explanation": "本句的「smart」指「穿著得體、整齊，適合較正式場合的」。",
       "sentenceIndex": 8,
@@ -631,12 +597,10 @@ export default {
         "smart"
       ],
       "optionReasons": {
-        "smart-mcq-05": "本句指「穿著得體、整齊，適合較正式場合的」。",
-        "smart-mcq-04": "「外表時尚、整潔、俐落而講究的」與本句語境不同。",
-        "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。",
-        "smart-mcq-03": "「方法或設計巧妙、高效、能善用資源的」與本句語境不同。",
-        "smart-mcq-07": "「動作迅速、敏捷、有精神的」與本句語境不同。",
-        "smart-mcq-02": "「判斷明智、能有效取得好結果的；精明的」與本句語境不同。"
+        "smart-mcq-05": "本句的「smart」指「穿著得體、整齊，適合較正式場合的」。",
+        "smart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-05"
     },
@@ -648,11 +612,9 @@ export default {
       "masked": "The restaurant has a ____ dress code.",
       "options": [
         "smart-mcq-05",
-        "smart-mcq-04",
-        "smart-mcq-06",
-        "smart-mcq-03",
-        "smart-mcq-07",
-        "smart-mcq-02"
+        "smart-mcq-14",
+        "smart-mcq-09",
+        "smart-mcq-13"
       ],
       "explanation": "本句的「smart」指「穿著得體、整齊，適合較正式場合的」。",
       "sentenceIndex": 9,
@@ -661,12 +623,10 @@ export default {
         "smart"
       ],
       "optionReasons": {
-        "smart-mcq-05": "本句指「穿著得體、整齊，適合較正式場合的」。",
-        "smart-mcq-04": "「外表時尚、整潔、俐落而講究的」與本句語境不同。",
-        "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。",
-        "smart-mcq-03": "「方法或設計巧妙、高效、能善用資源的」與本句語境不同。",
-        "smart-mcq-07": "「動作迅速、敏捷、有精神的」與本句語境不同。",
-        "smart-mcq-02": "「判斷明智、能有效取得好結果的；精明的」與本句語境不同。"
+        "smart-mcq-05": "本句的「smart」指「穿著得體、整齊，適合較正式場合的」。",
+        "smart-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-05"
     },
@@ -678,11 +638,9 @@ export default {
       "masked": "The building uses a ____ lighting system.",
       "options": [
         "smart-mcq-06",
-        "smart-mcq-05",
-        "smart-mcq-07",
-        "smart-mcq-04",
-        "smart-mcq-08",
-        "smart-mcq-03"
+        "smart-pdf-002",
+        "smart-mcq-11",
+        "smart-mcq-13"
       ],
       "explanation": "本句的「smart」指「能利用數碼技術、感應、網絡或自動化功能的」。",
       "sentenceIndex": 10,
@@ -691,12 +649,10 @@ export default {
         "smart"
       ],
       "optionReasons": {
-        "smart-mcq-06": "本句指「能利用數碼技術、感應、網絡或自動化功能的」。",
-        "smart-mcq-05": "「穿著得體、整齊，適合較正式場合的」與本句語境不同。",
-        "smart-mcq-07": "「動作迅速、敏捷、有精神的」與本句語境不同。",
-        "smart-mcq-04": "「外表時尚、整潔、俐落而講究的」與本句語境不同。",
-        "smart-mcq-08": "「程度明顯、猛烈或令人痛苦的」與本句語境不同。",
-        "smart-mcq-03": "「方法或設計巧妙、高效、能善用資源的」與本句語境不同。"
+        "smart-mcq-06": "本句的「smart」指「能利用數碼技術、感應、網絡或自動化功能的」。",
+        "smart-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-06"
     },
@@ -708,11 +664,9 @@ export default {
       "masked": "She controls the heating with a ____ device.",
       "options": [
         "smart-mcq-06",
-        "smart-mcq-05",
-        "smart-mcq-07",
         "smart-mcq-04",
-        "smart-mcq-08",
-        "smart-mcq-03"
+        "smart-mcq-03",
+        "smart-mcq-09"
       ],
       "explanation": "本句的「smart」指「能利用數碼技術、感應、網絡或自動化功能的」。",
       "sentenceIndex": 11,
@@ -721,12 +675,10 @@ export default {
         "smart"
       ],
       "optionReasons": {
-        "smart-mcq-06": "本句指「能利用數碼技術、感應、網絡或自動化功能的」。",
-        "smart-mcq-05": "「穿著得體、整齊，適合較正式場合的」與本句語境不同。",
-        "smart-mcq-07": "「動作迅速、敏捷、有精神的」與本句語境不同。",
-        "smart-mcq-04": "「外表時尚、整潔、俐落而講究的」與本句語境不同。",
-        "smart-mcq-08": "「程度明顯、猛烈或令人痛苦的」與本句語境不同。",
-        "smart-mcq-03": "「方法或設計巧妙、高效、能善用資源的」與本句語境不同。"
+        "smart-mcq-06": "本句的「smart」指「能利用數碼技術、感應、網絡或自動化功能的」。",
+        "smart-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-06"
     },
@@ -738,11 +690,9 @@ export default {
       "masked": "They moved at a ____.",
       "options": [
         "smart-mcq-07",
-        "smart-mcq-06",
-        "smart-mcq-08",
-        "smart-mcq-05",
-        "smart-mcq-09",
-        "smart-mcq-04"
+        "smart-mcq-03",
+        "smart-mcq-04",
+        "smart-mcq-01"
       ],
       "explanation": "本句的「smart pace」指「動作迅速、敏捷、有精神的」。",
       "sentenceIndex": 12,
@@ -751,12 +701,10 @@ export default {
         "smart pace"
       ],
       "optionReasons": {
-        "smart-mcq-07": "本句指「動作迅速、敏捷、有精神的」。",
-        "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。",
-        "smart-mcq-08": "「程度明顯、猛烈或令人痛苦的」與本句語境不同。",
-        "smart-mcq-05": "「穿著得體、整齊，適合較正式場合的」與本句語境不同。",
-        "smart-mcq-09": "「產生尖銳、灼熱或刺人的疼痛」與本句語境不同。",
-        "smart-mcq-04": "「外表時尚、整潔、俐落而講究的」與本句語境不同。"
+        "smart-mcq-07": "本句的「smart pace」指「動作迅速、敏捷、有精神的」。",
+        "smart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-07"
     },
@@ -768,10 +716,8 @@ export default {
       "masked": "The staff gave a ____ response to the sudden rush.",
       "options": [
         "smart-mcq-07",
-        "smart-mcq-06",
-        "smart-mcq-08",
-        "smart-mcq-05",
-        "smart-mcq-09",
+        "smart-mcq-01",
+        "smart-mcq-11",
         "smart-mcq-04"
       ],
       "explanation": "本句的「smart」指「動作迅速、敏捷、有精神的」。",
@@ -781,12 +727,10 @@ export default {
         "smart"
       ],
       "optionReasons": {
-        "smart-mcq-07": "本句指「動作迅速、敏捷、有精神的」。",
-        "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。",
-        "smart-mcq-08": "「程度明顯、猛烈或令人痛苦的」與本句語境不同。",
-        "smart-mcq-05": "「穿著得體、整齊，適合較正式場合的」與本句語境不同。",
-        "smart-mcq-09": "「產生尖銳、灼熱或刺人的疼痛」與本句語境不同。",
-        "smart-mcq-04": "「外表時尚、整潔、俐落而講究的」與本句語境不同。"
+        "smart-mcq-07": "本句的「smart」指「動作迅速、敏捷、有精神的」。",
+        "smart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-07"
     },
@@ -798,11 +742,9 @@ export default {
       "masked": "The company suffered a ____.",
       "options": [
         "smart-mcq-08",
-        "smart-mcq-07",
-        "smart-mcq-09",
-        "smart-mcq-06",
-        "smart-mcq-10",
-        "smart-mcq-05"
+        "smart-mcq-13",
+        "smart-mcq-15",
+        "smart-mcq-01"
       ],
       "explanation": "本句的「smart loss」指「程度明顯、猛烈或令人痛苦的」。",
       "sentenceIndex": 14,
@@ -811,12 +753,10 @@ export default {
         "smart loss"
       ],
       "optionReasons": {
-        "smart-mcq-08": "本句指「程度明顯、猛烈或令人痛苦的」。",
-        "smart-mcq-07": "「動作迅速、敏捷、有精神的」與本句語境不同。",
-        "smart-mcq-09": "「產生尖銳、灼熱或刺人的疼痛」與本句語境不同。",
-        "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。",
-        "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。",
-        "smart-mcq-05": "「穿著得體、整齊，適合較正式場合的」與本句語境不同。"
+        "smart-mcq-08": "本句的「smart loss」指「程度明顯、猛烈或令人痛苦的」。",
+        "smart-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-08"
     },
@@ -828,11 +768,9 @@ export default {
       "masked": "The team received a ____ defeat.",
       "options": [
         "smart-mcq-08",
-        "smart-mcq-07",
-        "smart-mcq-09",
-        "smart-mcq-06",
-        "smart-mcq-10",
-        "smart-mcq-05"
+        "smart-mcq-01",
+        "smart-mcq-03",
+        "smart-mcq-06"
       ],
       "explanation": "本句的「smart」指「程度明顯、猛烈或令人痛苦的」。",
       "sentenceIndex": 15,
@@ -841,12 +779,10 @@ export default {
         "smart"
       ],
       "optionReasons": {
-        "smart-mcq-08": "本句指「程度明顯、猛烈或令人痛苦的」。",
-        "smart-mcq-07": "「動作迅速、敏捷、有精神的」與本句語境不同。",
-        "smart-mcq-09": "「產生尖銳、灼熱或刺人的疼痛」與本句語境不同。",
-        "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。",
-        "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。",
-        "smart-mcq-05": "「穿著得體、整齊，適合較正式場合的」與本句語境不同。"
+        "smart-mcq-08": "本句的「smart」指「程度明顯、猛烈或令人痛苦的」。",
+        "smart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-08"
     },
@@ -858,11 +794,9 @@ export default {
       "masked": "My eyes ____ from the smoke.",
       "options": [
         "smart-mcq-09",
-        "smart-mcq-08",
-        "smart-mcq-10",
-        "smart-mcq-07",
-        "smart-mcq-11",
-        "smart-mcq-06"
+        "smart-mcq-03",
+        "smart-mcq-04",
+        "smart-mcq-07"
       ],
       "explanation": "本句的「smarted」指「產生尖銳、灼熱或刺人的疼痛」。",
       "sentenceIndex": 16,
@@ -871,12 +805,10 @@ export default {
         "smarted"
       ],
       "optionReasons": {
-        "smart-mcq-09": "本句指「產生尖銳、灼熱或刺人的疼痛」。",
-        "smart-mcq-08": "「程度明顯、猛烈或令人痛苦的」與本句語境不同。",
-        "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。",
-        "smart-mcq-07": "「動作迅速、敏捷、有精神的」與本句語境不同。",
-        "smart-mcq-11": "「以明智、有效或巧妙的方式」與本句語境不同。",
-        "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。"
+        "smart-mcq-09": "本句的「smarted」指「產生尖銳、灼熱或刺人的疼痛」。",
+        "smart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-09"
     },
@@ -888,11 +820,9 @@ export default {
       "masked": "The cut ____ when water touched it.",
       "options": [
         "smart-mcq-09",
-        "smart-mcq-08",
-        "smart-mcq-10",
+        "smart-mcq-03",
         "smart-mcq-07",
-        "smart-mcq-11",
-        "smart-mcq-06"
+        "smart-mcq-04"
       ],
       "explanation": "本句的「smarted」指「產生尖銳、灼熱或刺人的疼痛」。",
       "sentenceIndex": 17,
@@ -901,12 +831,10 @@ export default {
         "smarted"
       ],
       "optionReasons": {
-        "smart-mcq-09": "本句指「產生尖銳、灼熱或刺人的疼痛」。",
-        "smart-mcq-08": "「程度明顯、猛烈或令人痛苦的」與本句語境不同。",
-        "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。",
-        "smart-mcq-07": "「動作迅速、敏捷、有精神的」與本句語境不同。",
-        "smart-mcq-11": "「以明智、有效或巧妙的方式」與本句語境不同。",
-        "smart-mcq-06": "「能利用數碼技術、感應、網絡或自動化功能的」與本句語境不同。"
+        "smart-mcq-09": "本句的「smarted」指「產生尖銳、灼熱或刺人的疼痛」。",
+        "smart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-09"
     },
@@ -918,11 +846,9 @@ export default {
       "masked": "He was still ____ from the criticism.",
       "options": [
         "smart-mcq-10",
-        "smart-mcq-09",
-        "smart-mcq-11",
-        "smart-mcq-08",
-        "smart-mcq-12",
-        "smart-mcq-07"
+        "smart-pdf-001",
+        "smart-mcq-13",
+        "smart-mcq-14"
       ],
       "explanation": "本句的「smarting」指「因批評、失敗或損失而感到痛苦／受挫」。",
       "sentenceIndex": 18,
@@ -931,12 +857,10 @@ export default {
         "smarting"
       ],
       "optionReasons": {
-        "smart-mcq-10": "本句指「因批評、失敗或損失而感到痛苦／受挫」。",
-        "smart-mcq-09": "「產生尖銳、灼熱或刺人的疼痛」與本句語境不同。",
-        "smart-mcq-11": "「以明智、有效或巧妙的方式」與本句語境不同。",
-        "smart-mcq-08": "「程度明顯、猛烈或令人痛苦的」與本句語境不同。",
-        "smart-mcq-12": "「以整潔、時尚、得體的方式」與本句語境不同。",
-        "smart-mcq-07": "「動作迅速、敏捷、有精神的」與本句語境不同。"
+        "smart-mcq-10": "本句的「smarting」指「因批評、失敗或損失而感到痛苦／受挫」。",
+        "smart-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-10"
     },
@@ -948,11 +872,9 @@ export default {
       "masked": "The company was ____ from the recent loss.",
       "options": [
         "smart-mcq-10",
-        "smart-mcq-09",
-        "smart-mcq-11",
-        "smart-mcq-08",
-        "smart-mcq-12",
-        "smart-mcq-07"
+        "smart-mcq-04",
+        "smart-mcq-14",
+        "smart-pdf-001"
       ],
       "explanation": "本句的「smarting」指「因批評、失敗或損失而感到痛苦／受挫」。",
       "sentenceIndex": 19,
@@ -961,12 +883,10 @@ export default {
         "smarting"
       ],
       "optionReasons": {
-        "smart-mcq-10": "本句指「因批評、失敗或損失而感到痛苦／受挫」。",
-        "smart-mcq-09": "「產生尖銳、灼熱或刺人的疼痛」與本句語境不同。",
-        "smart-mcq-11": "「以明智、有效或巧妙的方式」與本句語境不同。",
-        "smart-mcq-08": "「程度明顯、猛烈或令人痛苦的」與本句語境不同。",
-        "smart-mcq-12": "「以整潔、時尚、得體的方式」與本句語境不同。",
-        "smart-mcq-07": "「動作迅速、敏捷、有精神的」與本句語境不同。"
+        "smart-mcq-10": "本句的「smarting」指「因批評、失敗或損失而感到痛苦／受挫」。",
+        "smart-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "smart-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-10"
     },
@@ -978,11 +898,9 @@ export default {
       "masked": "The business invested ____.",
       "options": [
         "smart-mcq-11",
+        "smart-mcq-06",
         "smart-mcq-10",
-        "smart-mcq-12",
-        "smart-mcq-09",
-        "smart-mcq-13",
-        "smart-mcq-08"
+        "smart-mcq-12"
       ],
       "explanation": "本句的「smartly」指「以明智、有效或巧妙的方式」。",
       "sentenceIndex": 20,
@@ -991,12 +909,10 @@ export default {
         "smartly"
       ],
       "optionReasons": {
-        "smart-mcq-11": "本句指「以明智、有效或巧妙的方式」。",
-        "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。",
-        "smart-mcq-12": "「以整潔、時尚、得體的方式」與本句語境不同。",
-        "smart-mcq-09": "「產生尖銳、灼熱或刺人的疼痛」與本句語境不同。",
-        "smart-mcq-13": "「以迅速、俐落的方式」與本句語境不同。",
-        "smart-mcq-08": "「程度明顯、猛烈或令人痛苦的」與本句語境不同。"
+        "smart-mcq-11": "本句的「smartly」指「以明智、有效或巧妙的方式」。",
+        "smart-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-11"
     },
@@ -1008,11 +924,9 @@ export default {
       "masked": "She used the small space ____.",
       "options": [
         "smart-mcq-11",
+        "smart-mcq-01",
         "smart-mcq-10",
-        "smart-mcq-12",
-        "smart-mcq-09",
-        "smart-mcq-13",
-        "smart-mcq-08"
+        "smart-mcq-04"
       ],
       "explanation": "本句的「smartly」指「以明智、有效或巧妙的方式」。",
       "sentenceIndex": 21,
@@ -1021,12 +935,10 @@ export default {
         "smartly"
       ],
       "optionReasons": {
-        "smart-mcq-11": "本句指「以明智、有效或巧妙的方式」。",
-        "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。",
-        "smart-mcq-12": "「以整潔、時尚、得體的方式」與本句語境不同。",
-        "smart-mcq-09": "「產生尖銳、灼熱或刺人的疼痛」與本句語境不同。",
-        "smart-mcq-13": "「以迅速、俐落的方式」與本句語境不同。",
-        "smart-mcq-08": "「程度明顯、猛烈或令人痛苦的」與本句語境不同。"
+        "smart-mcq-11": "本句的「smartly」指「以明智、有效或巧妙的方式」。",
+        "smart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-11"
     },
@@ -1038,11 +950,9 @@ export default {
       "masked": "The staff were ____.",
       "options": [
         "smart-mcq-12",
-        "smart-mcq-11",
-        "smart-mcq-13",
-        "smart-mcq-10",
-        "smart-mcq-14",
-        "smart-mcq-09"
+        "smart-mcq-09",
+        "smart-mcq-01",
+        "smart-mcq-11"
       ],
       "explanation": "本句的「smartly dressed」指「以整潔、時尚、得體的方式」。",
       "sentenceIndex": 22,
@@ -1051,12 +961,10 @@ export default {
         "smartly dressed"
       ],
       "optionReasons": {
-        "smart-mcq-12": "本句指「以整潔、時尚、得體的方式」。",
-        "smart-mcq-11": "「以明智、有效或巧妙的方式」與本句語境不同。",
-        "smart-mcq-13": "「以迅速、俐落的方式」與本句語境不同。",
-        "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。",
-        "smart-mcq-14": "「具有網絡、應用程式等電腦式功能的智能手機」與本句語境不同。",
-        "smart-mcq-09": "「產生尖銳、灼熱或刺人的疼痛」與本句語境不同。"
+        "smart-mcq-12": "本句的「smartly dressed」指「以整潔、時尚、得體的方式」。",
+        "smart-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-12"
     },
@@ -1068,11 +976,9 @@ export default {
       "masked": "He arrived ____ dressed in a dark suit.",
       "options": [
         "smart-mcq-12",
-        "smart-mcq-11",
+        "smart-mcq-06",
         "smart-mcq-13",
-        "smart-mcq-10",
-        "smart-mcq-14",
-        "smart-mcq-09"
+        "smart-mcq-11"
       ],
       "explanation": "本句的「smartly」指「以整潔、時尚、得體的方式」。",
       "sentenceIndex": 23,
@@ -1081,12 +987,10 @@ export default {
         "smartly"
       ],
       "optionReasons": {
-        "smart-mcq-12": "本句指「以整潔、時尚、得體的方式」。",
-        "smart-mcq-11": "「以明智、有效或巧妙的方式」與本句語境不同。",
-        "smart-mcq-13": "「以迅速、俐落的方式」與本句語境不同。",
-        "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。",
-        "smart-mcq-14": "「具有網絡、應用程式等電腦式功能的智能手機」與本句語境不同。",
-        "smart-mcq-09": "「產生尖銳、灼熱或刺人的疼痛」與本句語境不同。"
+        "smart-mcq-12": "本句的「smartly」指「以整潔、時尚、得體的方式」。",
+        "smart-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-12"
     },
@@ -1098,11 +1002,9 @@ export default {
       "masked": "She turned ____ and walked away.",
       "options": [
         "smart-mcq-13",
-        "smart-mcq-12",
-        "smart-mcq-14",
-        "smart-mcq-11",
-        "smart-mcq-15",
-        "smart-mcq-10"
+        "smart-pdf-002",
+        "smart-mcq-09",
+        "smart-mcq-05"
       ],
       "explanation": "本句的「smartly」指「以迅速、俐落的方式」。",
       "sentenceIndex": 24,
@@ -1111,12 +1013,10 @@ export default {
         "smartly"
       ],
       "optionReasons": {
-        "smart-mcq-13": "本句指「以迅速、俐落的方式」。",
-        "smart-mcq-12": "「以整潔、時尚、得體的方式」與本句語境不同。",
-        "smart-mcq-14": "「具有網絡、應用程式等電腦式功能的智能手機」與本句語境不同。",
-        "smart-mcq-11": "「以明智、有效或巧妙的方式」與本句語境不同。",
-        "smart-mcq-15": "「使用連網、感應及自動化裝置的智能家居系統」與本句語境不同。",
-        "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。"
+        "smart-mcq-13": "本句的「smartly」指「以迅速、俐落的方式」。",
+        "smart-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-13"
     },
@@ -1128,11 +1028,9 @@ export default {
       "masked": "The staff responded ____ to the problem.",
       "options": [
         "smart-mcq-13",
-        "smart-mcq-12",
-        "smart-mcq-14",
-        "smart-mcq-11",
-        "smart-mcq-15",
-        "smart-mcq-10"
+        "smart-mcq-05",
+        "smart-mcq-09",
+        "smart-mcq-15"
       ],
       "explanation": "本句的「smartly」指「以迅速、俐落的方式」。",
       "sentenceIndex": 25,
@@ -1141,12 +1039,10 @@ export default {
         "smartly"
       ],
       "optionReasons": {
-        "smart-mcq-13": "本句指「以迅速、俐落的方式」。",
-        "smart-mcq-12": "「以整潔、時尚、得體的方式」與本句語境不同。",
-        "smart-mcq-14": "「具有網絡、應用程式等電腦式功能的智能手機」與本句語境不同。",
-        "smart-mcq-11": "「以明智、有效或巧妙的方式」與本句語境不同。",
-        "smart-mcq-15": "「使用連網、感應及自動化裝置的智能家居系統」與本句語境不同。",
-        "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。"
+        "smart-mcq-13": "本句的「smartly」指「以迅速、俐落的方式」。",
+        "smart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-13"
     },
@@ -1158,11 +1054,9 @@ export default {
       "masked": "The dark uniform gives the staff a sense of ____.",
       "options": [
         "smart-pdf-002",
-        "smart-mcq-12",
-        "smart-mcq-14",
-        "smart-mcq-11",
         "smart-mcq-15",
-        "smart-mcq-10"
+        "smart-mcq-11",
+        "smart-mcq-13"
       ],
       "explanation": "本句的「smartness」指「外觀整潔、時尚、有型的特質」。",
       "sentenceIndex": 28,
@@ -1171,12 +1065,10 @@ export default {
         "smartness"
       ],
       "optionReasons": {
-        "smart-pdf-002": "本句指「外觀整潔、時尚、有型的特質」。",
-        "smart-mcq-12": "「以整潔、時尚、得體的方式」與本句語境不同。",
-        "smart-mcq-14": "「具有網絡、應用程式等電腦式功能的智能手機」與本句語境不同。",
-        "smart-mcq-11": "「以明智、有效或巧妙的方式」與本句語境不同。",
-        "smart-mcq-15": "「使用連網、感應及自動化裝置的智能家居系統」與本句語境不同。",
-        "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。"
+        "smart-pdf-002": "本句的「smartness」指「外觀整潔、時尚、有型的特質」。",
+        "smart-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-pdf-002"
     },
@@ -1188,11 +1080,9 @@ export default {
       "masked": "The room’s ____ comes from its clean design.",
       "options": [
         "smart-pdf-002",
-        "smart-mcq-12",
-        "smart-mcq-14",
-        "smart-mcq-11",
-        "smart-mcq-15",
-        "smart-mcq-10"
+        "smart-mcq-10",
+        "smart-pdf-001",
+        "smart-mcq-15"
       ],
       "explanation": "本句的「smartness」指「外觀整潔、時尚、有型的特質」。",
       "sentenceIndex": 29,
@@ -1201,12 +1091,10 @@ export default {
         "smartness"
       ],
       "optionReasons": {
-        "smart-pdf-002": "本句指「外觀整潔、時尚、有型的特質」。",
-        "smart-mcq-12": "「以整潔、時尚、得體的方式」與本句語境不同。",
-        "smart-mcq-14": "「具有網絡、應用程式等電腦式功能的智能手機」與本句語境不同。",
-        "smart-mcq-11": "「以明智、有效或巧妙的方式」與本句語境不同。",
-        "smart-mcq-15": "「使用連網、感應及自動化裝置的智能家居系統」與本句語境不同。",
-        "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。"
+        "smart-pdf-002": "本句的「smartness」指「外觀整潔、時尚、有型的特質」。",
+        "smart-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smart-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-pdf-002"
     },
@@ -1218,11 +1106,9 @@ export default {
       "masked": "She ordered the cake using her ____.",
       "options": [
         "smart-mcq-14",
-        "smart-mcq-13",
-        "smart-mcq-15",
-        "smart-mcq-12",
-        "smart-mcq-11",
-        "smart-mcq-10"
+        "smart-mcq-10",
+        "smart-mcq-04",
+        "smart-mcq-05"
       ],
       "explanation": "本句的「smartphone」指「具有網絡、應用程式等電腦式功能的智能手機」。",
       "sentenceIndex": 30,
@@ -1231,12 +1117,10 @@ export default {
         "smartphone"
       ],
       "optionReasons": {
-        "smart-mcq-14": "本句指「具有網絡、應用程式等電腦式功能的智能手機」。",
-        "smart-mcq-13": "「以迅速、俐落的方式」與本句語境不同。",
-        "smart-mcq-15": "「使用連網、感應及自動化裝置的智能家居系統」與本句語境不同。",
-        "smart-mcq-12": "「以整潔、時尚、得體的方式」與本句語境不同。",
-        "smart-mcq-11": "「以明智、有效或巧妙的方式」與本句語境不同。",
-        "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。"
+        "smart-mcq-14": "本句的「smartphone」指「具有網絡、應用程式等電腦式功能的智能手機」。",
+        "smart-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-14"
     },
@@ -1248,11 +1132,9 @@ export default {
       "masked": "Most customers check reviews on their ____.",
       "options": [
         "smart-mcq-14",
-        "smart-mcq-13",
-        "smart-mcq-15",
-        "smart-mcq-12",
-        "smart-mcq-11",
-        "smart-mcq-10"
+        "smart-mcq-03",
+        "smart-pdf-002",
+        "smart-mcq-01"
       ],
       "explanation": "本句的「smartphones」指「具有網絡、應用程式等電腦式功能的智能手機」。",
       "sentenceIndex": 31,
@@ -1261,12 +1143,10 @@ export default {
         "smartphones"
       ],
       "optionReasons": {
-        "smart-mcq-14": "本句指「具有網絡、應用程式等電腦式功能的智能手機」。",
-        "smart-mcq-13": "「以迅速、俐落的方式」與本句語境不同。",
-        "smart-mcq-15": "「使用連網、感應及自動化裝置的智能家居系統」與本句語境不同。",
-        "smart-mcq-12": "「以整潔、時尚、得體的方式」與本句語境不同。",
-        "smart-mcq-11": "「以明智、有效或巧妙的方式」與本句語境不同。",
-        "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。"
+        "smart-mcq-14": "本句的「smartphones」指「具有網絡、應用程式等電腦式功能的智能手機」。",
+        "smart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "smart-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-14"
     },
@@ -1278,11 +1158,9 @@ export default {
       "masked": "The apartment has a ____ system.",
       "options": [
         "smart-mcq-15",
-        "smart-mcq-14",
-        "smart-mcq-13",
-        "smart-mcq-12",
-        "smart-mcq-11",
-        "smart-mcq-10"
+        "smart-mcq-05",
+        "smart-mcq-01",
+        "smart-mcq-08"
       ],
       "explanation": "本句的「smart home」指「使用連網、感應及自動化裝置的智能家居系統」。",
       "sentenceIndex": 32,
@@ -1291,12 +1169,10 @@ export default {
         "smart home"
       ],
       "optionReasons": {
-        "smart-mcq-15": "本句指「使用連網、感應及自動化裝置的智能家居系統」。",
-        "smart-mcq-14": "「具有網絡、應用程式等電腦式功能的智能手機」與本句語境不同。",
-        "smart-mcq-13": "「以迅速、俐落的方式」與本句語境不同。",
-        "smart-mcq-12": "「以整潔、時尚、得體的方式」與本句語境不同。",
-        "smart-mcq-11": "「以明智、有效或巧妙的方式」與本句語境不同。",
-        "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。"
+        "smart-mcq-15": "本句的「smart home」指「使用連網、感應及自動化裝置的智能家居系統」。",
+        "smart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-15"
     },
@@ -1308,11 +1184,9 @@ export default {
       "masked": "____ home devices can control lighting automatically.",
       "options": [
         "smart-mcq-15",
-        "smart-mcq-14",
-        "smart-mcq-13",
-        "smart-mcq-12",
-        "smart-mcq-11",
-        "smart-mcq-10"
+        "smart-mcq-04",
+        "smart-mcq-01",
+        "smart-mcq-08"
       ],
       "explanation": "本句的「Smart」指「使用連網、感應及自動化裝置的智能家居系統」。",
       "sentenceIndex": 33,
@@ -1321,12 +1195,10 @@ export default {
         "Smart"
       ],
       "optionReasons": {
-        "smart-mcq-15": "本句指「使用連網、感應及自動化裝置的智能家居系統」。",
-        "smart-mcq-14": "「具有網絡、應用程式等電腦式功能的智能手機」與本句語境不同。",
-        "smart-mcq-13": "「以迅速、俐落的方式」與本句語境不同。",
-        "smart-mcq-12": "「以整潔、時尚、得體的方式」與本句語境不同。",
-        "smart-mcq-11": "「以明智、有效或巧妙的方式」與本句語境不同。",
-        "smart-mcq-10": "「因批評、失敗或損失而感到痛苦／受挫」與本句語境不同。"
+        "smart-mcq-15": "本句的「Smart」指「使用連網、感應及自動化裝置的智能家居系統」。",
+        "smart-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "smart-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smart-mcq-15"
     }
@@ -1338,5 +1210,7 @@ export default {
     "sha256": "1a4d5a4b8d998abf8911a571e5508613e49d693d2f025a7171f5d362844a637a",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

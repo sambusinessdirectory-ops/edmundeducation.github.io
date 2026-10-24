@@ -320,7 +320,7 @@ export default {
     },
     {
       "id": "rush-mcq-15",
-      "title": "表示倉促的；匆忙完成的",
+      "title": "倉促的；匆忙完成的",
       "form": "Domain-specific extension: rush / rushing — fraternity/sorority recruitment",
       "en": "Domain-specific extension: rush / rushing — fraternity/sorority recruitment",
       "zh": "表示倉促的；匆忙完成的",
@@ -350,11 +350,8 @@ export default {
       "masked": "She ____ to the station when she realised she was late.",
       "options": [
         "rush-mcq-01",
-        "rush-mcq-02",
-        "rush-mcq-03",
-        "rush-mcq-04",
-        "rush-mcq-05",
-        "rush-mcq-06"
+        "rush-mcq-15",
+        "rush-mcq-08"
       ],
       "explanation": "本句的「rushed」指「因時間緊迫、緊急情況或強烈反應而快速移動到某處」。",
       "sentenceIndex": 0,
@@ -363,12 +360,9 @@ export default {
         "rushed"
       ],
       "optionReasons": {
-        "rush-mcq-01": "本句指「因時間緊迫、緊急情況或強烈反應而快速移動到某處」。",
-        "rush-mcq-02": "「以很急促的速度完成事情，往往沒有充分時間、思考或注意力」是「rush — do something hurriedly」的用法，與本句語境不同。",
-        "rush-mcq-03": "「催促或施加壓力，使某人比適合或原本想要的速度更快行動」是「rush someone」的用法，與本句語境不同。",
-        "rush-mcq-04": "「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」是「a rush — surge/crowd/flow」的用法，與本句語境不同。",
-        "rush-mcq-05": "「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」是「a rush — intense feeling」的用法，與本句語境不同。",
-        "rush-mcq-06": "「因時間不足或過度趕急而倉促進行或完成的」是「rushed」的用法，與本句語境不同。"
+        "rush-mcq-01": "本句的「rushed」指「因時間緊迫、緊急情況或強烈反應而快速移動到某處」。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-01"
     },
@@ -380,11 +374,8 @@ export default {
       "masked": "He ____ out of the room without saying goodbye.",
       "options": [
         "rush-mcq-01",
-        "rush-mcq-02",
-        "rush-mcq-03",
-        "rush-mcq-04",
-        "rush-mcq-05",
-        "rush-mcq-06"
+        "rush-mcq-15",
+        "rush-mcq-08"
       ],
       "explanation": "本句的「rushed」指「因時間緊迫、緊急情況或強烈反應而快速移動到某處」。",
       "sentenceIndex": 1,
@@ -393,12 +384,9 @@ export default {
         "rushed"
       ],
       "optionReasons": {
-        "rush-mcq-01": "本句指「因時間緊迫、緊急情況或強烈反應而快速移動到某處」。",
-        "rush-mcq-02": "「以很急促的速度完成事情，往往沒有充分時間、思考或注意力」是「rush — do something hurriedly」的用法，與本句語境不同。",
-        "rush-mcq-03": "「催促或施加壓力，使某人比適合或原本想要的速度更快行動」是「rush someone」的用法，與本句語境不同。",
-        "rush-mcq-04": "「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」是「a rush — surge/crowd/flow」的用法，與本句語境不同。",
-        "rush-mcq-05": "「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」是「a rush — intense feeling」的用法，與本句語境不同。",
-        "rush-mcq-06": "「因時間不足或過度趕急而倉促進行或完成的」是「rushed」的用法，與本句語境不同。"
+        "rush-mcq-01": "本句的「rushed」指「因時間緊迫、緊急情況或強烈反應而快速移動到某處」。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-01"
     },
@@ -410,11 +398,8 @@ export default {
       "masked": "Busy doing what—living, or just ____?",
       "options": [
         "rush-mcq-02",
-        "rush-mcq-01",
-        "rush-mcq-03",
-        "rush-mcq-04",
         "rush-mcq-05",
-        "rush-mcq-06"
+        "rush-mcq-08"
       ],
       "explanation": "本句的「rushing」指「以很急促的速度完成事情，往往沒有充分時間、思考或注意力」。",
       "sentenceIndex": 2,
@@ -423,12 +408,9 @@ export default {
         "rushing"
       ],
       "optionReasons": {
-        "rush-mcq-02": "本句指「以很急促的速度完成事情，往往沒有充分時間、思考或注意力」。",
-        "rush-mcq-01": "「因時間緊迫、緊急情況或強烈反應而快速移動到某處」是「rush — move quickly」的用法，與本句語境不同。",
-        "rush-mcq-03": "「催促或施加壓力，使某人比適合或原本想要的速度更快行動」是「rush someone」的用法，與本句語境不同。",
-        "rush-mcq-04": "「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」是「a rush — surge/crowd/flow」的用法，與本句語境不同。",
-        "rush-mcq-05": "「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」是「a rush — intense feeling」的用法，與本句語境不同。",
-        "rush-mcq-06": "「因時間不足或過度趕急而倉促進行或完成的」是「rushed」的用法，與本句語境不同。"
+        "rush-mcq-02": "本句的「rushing」指「以很急促的速度完成事情，往往沒有充分時間、思考或注意力」。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-02"
     },
@@ -440,11 +422,8 @@ export default {
       "masked": "Don’t ____ your work just because you want to finish early.",
       "options": [
         "rush-mcq-02",
-        "rush-mcq-01",
-        "rush-mcq-03",
-        "rush-mcq-04",
         "rush-mcq-05",
-        "rush-mcq-06"
+        "rush-mcq-08"
       ],
       "explanation": "本句的「rush」指「以很急促的速度完成事情，往往沒有充分時間、思考或注意力」。",
       "sentenceIndex": 3,
@@ -453,12 +432,9 @@ export default {
         "rush"
       ],
       "optionReasons": {
-        "rush-mcq-02": "本句指「以很急促的速度完成事情，往往沒有充分時間、思考或注意力」。",
-        "rush-mcq-01": "「因時間緊迫、緊急情況或強烈反應而快速移動到某處」是「rush — move quickly」的用法，與本句語境不同。",
-        "rush-mcq-03": "「催促或施加壓力，使某人比適合或原本想要的速度更快行動」是「rush someone」的用法，與本句語境不同。",
-        "rush-mcq-04": "「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」是「a rush — surge/crowd/flow」的用法，與本句語境不同。",
-        "rush-mcq-05": "「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」是「a rush — intense feeling」的用法，與本句語境不同。",
-        "rush-mcq-06": "「因時間不足或過度趕急而倉促進行或完成的」是「rushed」的用法，與本句語境不同。"
+        "rush-mcq-02": "本句的「rush」指「以很急促的速度完成事情，往往沒有充分時間、思考或注意力」。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-02"
     },
@@ -470,11 +446,8 @@ export default {
       "masked": "I ____ through breakfast and left the house.",
       "options": [
         "rush-mcq-02",
-        "rush-mcq-01",
-        "rush-mcq-03",
-        "rush-mcq-04",
-        "rush-mcq-05",
-        "rush-mcq-06"
+        "rush-mcq-08",
+        "rush-mcq-05"
       ],
       "explanation": "本句的「rushed」指「以很急促的速度完成事情，往往沒有充分時間、思考或注意力」。",
       "sentenceIndex": 4,
@@ -483,12 +456,9 @@ export default {
         "rushed"
       ],
       "optionReasons": {
-        "rush-mcq-02": "本句指「以很急促的速度完成事情，往往沒有充分時間、思考或注意力」。",
-        "rush-mcq-01": "「因時間緊迫、緊急情況或強烈反應而快速移動到某處」是「rush — move quickly」的用法，與本句語境不同。",
-        "rush-mcq-03": "「催促或施加壓力，使某人比適合或原本想要的速度更快行動」是「rush someone」的用法，與本句語境不同。",
-        "rush-mcq-04": "「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」是「a rush — surge/crowd/flow」的用法，與本句語境不同。",
-        "rush-mcq-05": "「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」是「a rush — intense feeling」的用法，與本句語境不同。",
-        "rush-mcq-06": "「因時間不足或過度趕急而倉促進行或完成的」是「rushed」的用法，與本句語境不同。"
+        "rush-mcq-02": "本句的「rushed」指「以很急促的速度完成事情，往往沒有充分時間、思考或注意力」。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-02"
     },
@@ -500,11 +470,9 @@ export default {
       "masked": "The injured man was ____.",
       "options": [
         "rush-mcq-09",
-        "rush-mcq-08",
-        "rush-mcq-10",
+        "rush-mcq-15",
         "rush-mcq-07",
-        "rush-mcq-11",
-        "rush-mcq-06"
+        "rush-mcq-05"
       ],
       "explanation": "本句的「rushed to hospital」指「因情況緊急而迅速把某人或某物送到指定地方」。",
       "sentenceIndex": 5,
@@ -513,12 +481,10 @@ export default {
         "rushed to hospital"
       ],
       "optionReasons": {
-        "rush-mcq-09": "本句指「因情況緊急而迅速把某人或某物送到指定地方」。",
-        "rush-mcq-08": "「生長於水邊或潮濕地區的一類細長草本植物」是「rush — wetland plant」的用法，與本句語境不同。",
-        "rush-mcq-10": "「大量人同時迅速向某個方向移動或湧入某處」是「4. rush = suddenly move forward in large numbers（人群） — 湧向；一擁而上」的用法，與本句語境不同。",
-        "rush-mcq-07": "「大量人同時上下班／上學而令交通特別繁忙的高峰時段」是「rush hour」的用法，與本句語境不同。",
-        "rush-mcq-11": "「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」是「6. rush = period of intense busyness（工作／活動） — 忙碌高峰；一陣忙亂」的用法，與本句語境不同。",
-        "rush-mcq-06": "「因時間不足或過度趕急而倉促進行或完成的」是「rushed」的用法，與本句語境不同。"
+        "rush-mcq-09": "本句的「rushed to hospital」指「因情況緊急而迅速把某人或某物送到指定地方」。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-09"
     },
@@ -530,11 +496,9 @@ export default {
       "masked": "Doctors ____ the patient into surgery.",
       "options": [
         "rush-mcq-09",
-        "rush-mcq-08",
-        "rush-mcq-10",
         "rush-mcq-07",
-        "rush-mcq-11",
-        "rush-mcq-06"
+        "rush-mcq-05",
+        "rush-mcq-15"
       ],
       "explanation": "本句的「rushed」指「因情況緊急而迅速把某人或某物送到指定地方」。",
       "sentenceIndex": 6,
@@ -543,12 +507,10 @@ export default {
         "rushed"
       ],
       "optionReasons": {
-        "rush-mcq-09": "本句指「因情況緊急而迅速把某人或某物送到指定地方」。",
-        "rush-mcq-08": "「生長於水邊或潮濕地區的一類細長草本植物」是「rush — wetland plant」的用法，與本句語境不同。",
-        "rush-mcq-10": "「大量人同時迅速向某個方向移動或湧入某處」是「4. rush = suddenly move forward in large numbers（人群） — 湧向；一擁而上」的用法，與本句語境不同。",
-        "rush-mcq-07": "「大量人同時上下班／上學而令交通特別繁忙的高峰時段」是「rush hour」的用法，與本句語境不同。",
-        "rush-mcq-11": "「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」是「6. rush = period of intense busyness（工作／活動） — 忙碌高峰；一陣忙亂」的用法，與本句語境不同。",
-        "rush-mcq-06": "「因時間不足或過度趕急而倉促進行或完成的」是「rushed」的用法，與本句語境不同。"
+        "rush-mcq-09": "本句的「rushed」指「因情況緊急而迅速把某人或某物送到指定地方」。",
+        "rush-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-09"
     },
@@ -560,11 +522,9 @@ export default {
       "masked": "Fans ____ the stage after the concert.",
       "options": [
         "rush-mcq-10",
-        "rush-mcq-09",
-        "rush-mcq-11",
-        "rush-mcq-08",
-        "rush-mcq-12",
-        "rush-mcq-07"
+        "rush-mcq-15",
+        "rush-mcq-05",
+        "rush-mcq-08"
       ],
       "explanation": "本句的「rushed towards」指「大量人同時迅速向某個方向移動或湧入某處」。",
       "sentenceIndex": 7,
@@ -573,12 +533,10 @@ export default {
         "rushed towards"
       ],
       "optionReasons": {
-        "rush-mcq-10": "本句指「大量人同時迅速向某個方向移動或湧入某處」。",
-        "rush-mcq-09": "「因情況緊急而迅速把某人或某物送到指定地方」是「3. rush + person somewhere（緊急送往） — 急送；迅速送往」的用法，與本句語境不同。",
-        "rush-mcq-11": "「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」是「6. rush = period of intense busyness（工作／活動） — 忙碌高峰；一陣忙亂」的用法，與本句語境不同。",
-        "rush-mcq-08": "「生長於水邊或潮濕地區的一類細長草本植物」是「rush — wetland plant」的用法，與本句語境不同。",
-        "rush-mcq-12": "「液體、空氣或其他物質突然快速而大量地流動」是「8. rush of blood/air/water（液體／氣體） — 急流；突然湧動」的用法，與本句語境不同。",
-        "rush-mcq-07": "「大量人同時上下班／上學而令交通特別繁忙的高峰時段」是「rush hour」的用法，與本句語境不同。"
+        "rush-mcq-10": "本句的「rushed towards」指「大量人同時迅速向某個方向移動或湧入某處」。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-10"
     },
@@ -590,11 +548,9 @@ export default {
       "masked": "Shoppers ____ the store when the doors opened.",
       "options": [
         "rush-mcq-10",
-        "rush-mcq-09",
-        "rush-mcq-11",
-        "rush-mcq-08",
-        "rush-mcq-12",
-        "rush-mcq-07"
+        "rush-mcq-15",
+        "rush-mcq-05",
+        "rush-mcq-08"
       ],
       "explanation": "本句的「rushed into」指「大量人同時迅速向某個方向移動或湧入某處」。",
       "sentenceIndex": 8,
@@ -603,12 +559,10 @@ export default {
         "rushed into"
       ],
       "optionReasons": {
-        "rush-mcq-10": "本句指「大量人同時迅速向某個方向移動或湧入某處」。",
-        "rush-mcq-09": "「因情況緊急而迅速把某人或某物送到指定地方」是「3. rush + person somewhere（緊急送往） — 急送；迅速送往」的用法，與本句語境不同。",
-        "rush-mcq-11": "「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」是「6. rush = period of intense busyness（工作／活動） — 忙碌高峰；一陣忙亂」的用法，與本句語境不同。",
-        "rush-mcq-08": "「生長於水邊或潮濕地區的一類細長草本植物」是「rush — wetland plant」的用法，與本句語境不同。",
-        "rush-mcq-12": "「液體、空氣或其他物質突然快速而大量地流動」是「8. rush of blood/air/water（液體／氣體） — 急流；突然湧動」的用法，與本句語境不同。",
-        "rush-mcq-07": "「大量人同時上下班／上學而令交通特別繁忙的高峰時段」是「rush hour」的用法，與本句語境不同。"
+        "rush-mcq-10": "本句的「rushed into」指「大量人同時迅速向某個方向移動或湧入某處」。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-10"
     },
@@ -620,11 +574,8 @@ export default {
       "masked": "There was a sudden ____ of customers just before closing time.",
       "options": [
         "rush-mcq-04",
-        "rush-mcq-03",
-        "rush-mcq-05",
-        "rush-mcq-02",
-        "rush-mcq-06",
-        "rush-mcq-01"
+        "rush-mcq-08",
+        "rush-mcq-15"
       ],
       "explanation": "本句的「rush」指「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」。",
       "sentenceIndex": 9,
@@ -633,12 +584,9 @@ export default {
         "rush"
       ],
       "optionReasons": {
-        "rush-mcq-04": "本句指「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」。",
-        "rush-mcq-03": "「催促或施加壓力，使某人比適合或原本想要的速度更快行動」是「rush someone」的用法，與本句語境不同。",
-        "rush-mcq-05": "「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」是「a rush — intense feeling」的用法，與本句語境不同。",
-        "rush-mcq-02": "「以很急促的速度完成事情，往往沒有充分時間、思考或注意力」是「rush — do something hurriedly」的用法，與本句語境不同。",
-        "rush-mcq-06": "「因時間不足或過度趕急而倉促進行或完成的」是「rushed」的用法，與本句語境不同。",
-        "rush-mcq-01": "「因時間緊迫、緊急情況或強烈反應而快速移動到某處」是「rush — move quickly」的用法，與本句語境不同。"
+        "rush-mcq-04": "本句的「rush」指「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-04"
     },
@@ -650,11 +598,8 @@ export default {
       "masked": "The restaurant gets a lunchtime ____ every weekday.",
       "options": [
         "rush-mcq-04",
-        "rush-mcq-03",
-        "rush-mcq-05",
-        "rush-mcq-02",
-        "rush-mcq-06",
-        "rush-mcq-01"
+        "rush-mcq-08",
+        "rush-mcq-15"
       ],
       "explanation": "本句的「rush」指「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」。",
       "sentenceIndex": 10,
@@ -663,12 +608,9 @@ export default {
         "rush"
       ],
       "optionReasons": {
-        "rush-mcq-04": "本句指「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」。",
-        "rush-mcq-03": "「催促或施加壓力，使某人比適合或原本想要的速度更快行動」是「rush someone」的用法，與本句語境不同。",
-        "rush-mcq-05": "「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」是「a rush — intense feeling」的用法，與本句語境不同。",
-        "rush-mcq-02": "「以很急促的速度完成事情，往往沒有充分時間、思考或注意力」是「rush — do something hurriedly」的用法，與本句語境不同。",
-        "rush-mcq-06": "「因時間不足或過度趕急而倉促進行或完成的」是「rushed」的用法，與本句語境不同。",
-        "rush-mcq-01": "「因時間緊迫、緊急情況或強烈反應而快速移動到某處」是「rush — move quickly」的用法，與本句語境不同。"
+        "rush-mcq-04": "本句的「rush」指「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-04"
     },
@@ -680,11 +622,9 @@ export default {
       "masked": "The office is always busy during the end-of-month ____.",
       "options": [
         "rush-mcq-11",
-        "rush-mcq-10",
-        "rush-mcq-12",
-        "rush-mcq-09",
-        "rush-mcq-13",
-        "rush-mcq-08"
+        "rush-mcq-08",
+        "rush-mcq-03",
+        "rush-mcq-15"
       ],
       "explanation": "本句的「rush」指「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」。",
       "sentenceIndex": 11,
@@ -693,12 +633,10 @@ export default {
         "rush"
       ],
       "optionReasons": {
-        "rush-mcq-11": "本句指「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」。",
-        "rush-mcq-10": "「大量人同時迅速向某個方向移動或湧入某處」是「4. rush = suddenly move forward in large numbers（人群） — 湧向；一擁而上」的用法，與本句語境不同。",
-        "rush-mcq-12": "「液體、空氣或其他物質突然快速而大量地流動」是「8. rush of blood/air/water（液體／氣體） — 急流；突然湧動」的用法，與本句語境不同。",
-        "rush-mcq-09": "「因情況緊急而迅速把某人或某物送到指定地方」是「3. rush + person somewhere（緊急送往） — 急送；迅速送往」的用法，與本句語境不同。",
-        "rush-mcq-13": "「當時時間很緊迫，因此需要急忙行動」是「Fixed expression: in a rush — 很趕時間」的用法，與本句語境不同。",
-        "rush-mcq-08": "「生長於水邊或潮濕地區的一類細長草本植物」是「rush — wetland plant」的用法，與本句語境不同。"
+        "rush-mcq-11": "本句的「rush」指「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-11"
     },
@@ -710,11 +648,8 @@ export default {
       "masked": "We finished the project in a last-minute ____.",
       "options": [
         "rush-mcq-11",
-        "rush-mcq-10",
-        "rush-mcq-12",
         "rush-mcq-09",
-        "rush-mcq-13",
-        "rush-mcq-08"
+        "rush-mcq-15"
       ],
       "explanation": "本句的「rush」指「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」。",
       "sentenceIndex": 12,
@@ -723,12 +658,9 @@ export default {
         "rush"
       ],
       "optionReasons": {
-        "rush-mcq-11": "本句指「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」。",
-        "rush-mcq-10": "「大量人同時迅速向某個方向移動或湧入某處」是「4. rush = suddenly move forward in large numbers（人群） — 湧向；一擁而上」的用法，與本句語境不同。",
-        "rush-mcq-12": "「液體、空氣或其他物質突然快速而大量地流動」是「8. rush of blood/air/water（液體／氣體） — 急流；突然湧動」的用法，與本句語境不同。",
-        "rush-mcq-09": "「因情況緊急而迅速把某人或某物送到指定地方」是「3. rush + person somewhere（緊急送往） — 急送；迅速送往」的用法，與本句語境不同。",
-        "rush-mcq-13": "「當時時間很緊迫，因此需要急忙行動」是「Fixed expression: in a rush — 很趕時間」的用法，與本句語境不同。",
-        "rush-mcq-08": "「生長於水邊或潮濕地區的一類細長草本植物」是「rush — wetland plant」的用法，與本句語境不同。"
+        "rush-mcq-11": "本句的「rush」指「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」。",
+        "rush-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-11"
     },
@@ -740,11 +672,9 @@ export default {
       "masked": "She felt a ____ of excitement when she heard the news.",
       "options": [
         "rush-mcq-05",
-        "rush-mcq-04",
-        "rush-mcq-06",
-        "rush-mcq-03",
-        "rush-mcq-07",
-        "rush-mcq-02"
+        "rush-mcq-10",
+        "rush-mcq-15",
+        "rush-mcq-08"
       ],
       "explanation": "本句的「rush」指「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」。",
       "sentenceIndex": 13,
@@ -753,12 +683,10 @@ export default {
         "rush"
       ],
       "optionReasons": {
-        "rush-mcq-05": "本句指「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」。",
-        "rush-mcq-04": "「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」是「a rush — surge/crowd/flow」的用法，與本句語境不同。",
-        "rush-mcq-06": "「因時間不足或過度趕急而倉促進行或完成的」是「rushed」的用法，與本句語境不同。",
-        "rush-mcq-03": "「催促或施加壓力，使某人比適合或原本想要的速度更快行動」是「rush someone」的用法，與本句語境不同。",
-        "rush-mcq-07": "「大量人同時上下班／上學而令交通特別繁忙的高峰時段」是「rush hour」的用法，與本句語境不同。",
-        "rush-mcq-02": "「以很急促的速度完成事情，往往沒有充分時間、思考或注意力」是「rush — do something hurriedly」的用法，與本句語境不同。"
+        "rush-mcq-05": "本句的「rush」指「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」。",
+        "rush-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-05"
     },
@@ -770,11 +698,9 @@ export default {
       "masked": "Standing on the stage gave him an incredible ____.",
       "options": [
         "rush-mcq-05",
-        "rush-mcq-04",
-        "rush-mcq-06",
-        "rush-mcq-03",
-        "rush-mcq-07",
-        "rush-mcq-02"
+        "rush-mcq-15",
+        "rush-mcq-09",
+        "rush-mcq-07"
       ],
       "explanation": "本句的「rush」指「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」。",
       "sentenceIndex": 14,
@@ -783,12 +709,10 @@ export default {
         "rush"
       ],
       "optionReasons": {
-        "rush-mcq-05": "本句指「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」。",
-        "rush-mcq-04": "「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」是「a rush — surge/crowd/flow」的用法，與本句語境不同。",
-        "rush-mcq-06": "「因時間不足或過度趕急而倉促進行或完成的」是「rushed」的用法，與本句語境不同。",
-        "rush-mcq-03": "「催促或施加壓力，使某人比適合或原本想要的速度更快行動」是「rush someone」的用法，與本句語境不同。",
-        "rush-mcq-07": "「大量人同時上下班／上學而令交通特別繁忙的高峰時段」是「rush hour」的用法，與本句語境不同。",
-        "rush-mcq-02": "「以很急促的速度完成事情，往往沒有充分時間、思考或注意力」是「rush — do something hurriedly」的用法，與本句語境不同。"
+        "rush-mcq-05": "本句的「rush」指「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-05"
     },
@@ -800,11 +724,8 @@ export default {
       "masked": "She felt a ____ to her face.",
       "options": [
         "rush-mcq-12",
-        "rush-mcq-11",
-        "rush-mcq-13",
-        "rush-mcq-10",
-        "rush-mcq-14",
-        "rush-mcq-09"
+        "rush-mcq-06",
+        "rush-mcq-08"
       ],
       "explanation": "本句的「rush of blood」指「液體、空氣或其他物質突然快速而大量地流動」。",
       "sentenceIndex": 15,
@@ -813,12 +734,9 @@ export default {
         "rush of blood"
       ],
       "optionReasons": {
-        "rush-mcq-12": "本句指「液體、空氣或其他物質突然快速而大量地流動」。",
-        "rush-mcq-11": "「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」是「6. rush = period of intense busyness（工作／活動） — 忙碌高峰；一陣忙亂」的用法，與本句語境不同。",
-        "rush-mcq-13": "「當時時間很緊迫，因此需要急忙行動」是「Fixed expression: in a rush — 很趕時間」的用法，與本句語境不同。",
-        "rush-mcq-10": "「大量人同時迅速向某個方向移動或湧入某處」是「4. rush = suddenly move forward in large numbers（人群） — 湧向；一擁而上」的用法，與本句語境不同。",
-        "rush-mcq-14": "「沒有時間壓力，不需要急着完成」是「Fixed expression: no rush — 不用急」的用法，與本句語境不同。",
-        "rush-mcq-09": "「因情況緊急而迅速把某人或某物送到指定地方」是「3. rush + person somewhere（緊急送往） — 急送；迅速送往」的用法，與本句語境不同。"
+        "rush-mcq-12": "本句的「rush of blood」指「液體、空氣或其他物質突然快速而大量地流動」。",
+        "rush-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-12"
     },
@@ -830,11 +748,9 @@ export default {
       "masked": "A ____ entered when the door opened.",
       "options": [
         "rush-mcq-12",
-        "rush-mcq-11",
-        "rush-mcq-13",
-        "rush-mcq-10",
-        "rush-mcq-14",
-        "rush-mcq-09"
+        "rush-mcq-15",
+        "rush-mcq-08",
+        "rush-mcq-13"
       ],
       "explanation": "本句的「rush of cold air」指「液體、空氣或其他物質突然快速而大量地流動」。",
       "sentenceIndex": 16,
@@ -843,12 +759,10 @@ export default {
         "rush of cold air"
       ],
       "optionReasons": {
-        "rush-mcq-12": "本句指「液體、空氣或其他物質突然快速而大量地流動」。",
-        "rush-mcq-11": "「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」是「6. rush = period of intense busyness（工作／活動） — 忙碌高峰；一陣忙亂」的用法，與本句語境不同。",
-        "rush-mcq-13": "「當時時間很緊迫，因此需要急忙行動」是「Fixed expression: in a rush — 很趕時間」的用法，與本句語境不同。",
-        "rush-mcq-10": "「大量人同時迅速向某個方向移動或湧入某處」是「4. rush = suddenly move forward in large numbers（人群） — 湧向；一擁而上」的用法，與本句語境不同。",
-        "rush-mcq-14": "「沒有時間壓力，不需要急着完成」是「Fixed expression: no rush — 不用急」的用法，與本句語境不同。",
-        "rush-mcq-09": "「因情況緊急而迅速把某人或某物送到指定地方」是「3. rush + person somewhere（緊急送往） — 急送；迅速送往」的用法，與本句語境不同。"
+        "rush-mcq-12": "本句的「rush of cold air」指「液體、空氣或其他物質突然快速而大量地流動」。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-12"
     },
@@ -860,11 +774,9 @@ export default {
       "masked": "Don’t ____ me—I need time to think.",
       "options": [
         "rush-mcq-03",
-        "rush-mcq-02",
-        "rush-mcq-04",
-        "rush-mcq-01",
         "rush-mcq-05",
-        "rush-mcq-06"
+        "rush-mcq-07",
+        "rush-mcq-15"
       ],
       "explanation": "本句的「rush」指「催促或施加壓力，使某人比適合或原本想要的速度更快行動」。",
       "sentenceIndex": 17,
@@ -873,12 +785,10 @@ export default {
         "rush"
       ],
       "optionReasons": {
-        "rush-mcq-03": "本句指「催促或施加壓力，使某人比適合或原本想要的速度更快行動」。",
-        "rush-mcq-02": "「以很急促的速度完成事情，往往沒有充分時間、思考或注意力」是「rush — do something hurriedly」的用法，與本句語境不同。",
-        "rush-mcq-04": "「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」是「a rush — surge/crowd/flow」的用法，與本句語境不同。",
-        "rush-mcq-01": "「因時間緊迫、緊急情況或強烈反應而快速移動到某處」是「rush — move quickly」的用法，與本句語境不同。",
-        "rush-mcq-05": "「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」是「a rush — intense feeling」的用法，與本句語境不同。",
-        "rush-mcq-06": "「因時間不足或過度趕急而倉促進行或完成的」是「rushed」的用法，與本句語境不同。"
+        "rush-mcq-03": "本句的「rush」指「催促或施加壓力，使某人比適合或原本想要的速度更快行動」。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-03"
     },
@@ -890,11 +800,9 @@ export default {
       "masked": "They ____ her into making a decision.",
       "options": [
         "rush-mcq-03",
-        "rush-mcq-02",
-        "rush-mcq-04",
-        "rush-mcq-01",
         "rush-mcq-05",
-        "rush-mcq-06"
+        "rush-mcq-07",
+        "rush-mcq-08"
       ],
       "explanation": "本句的「rushed」指「催促或施加壓力，使某人比適合或原本想要的速度更快行動」。",
       "sentenceIndex": 18,
@@ -903,12 +811,10 @@ export default {
         "rushed"
       ],
       "optionReasons": {
-        "rush-mcq-03": "本句指「催促或施加壓力，使某人比適合或原本想要的速度更快行動」。",
-        "rush-mcq-02": "「以很急促的速度完成事情，往往沒有充分時間、思考或注意力」是「rush — do something hurriedly」的用法，與本句語境不同。",
-        "rush-mcq-04": "「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」是「a rush — surge/crowd/flow」的用法，與本句語境不同。",
-        "rush-mcq-01": "「因時間緊迫、緊急情況或強烈反應而快速移動到某處」是「rush — move quickly」的用法，與本句語境不同。",
-        "rush-mcq-05": "「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」是「a rush — intense feeling」的用法，與本句語境不同。",
-        "rush-mcq-06": "「因時間不足或過度趕急而倉促進行或完成的」是「rushed」的用法，與本句語境不同。"
+        "rush-mcq-03": "本句的「rushed」指「催促或施加壓力，使某人比適合或原本想要的速度更快行動」。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-03"
     },
@@ -920,11 +826,9 @@ export default {
       "masked": "The report felt ____ and incomplete.",
       "options": [
         "rush-mcq-06",
-        "rush-mcq-05",
-        "rush-mcq-07",
-        "rush-mcq-04",
         "rush-mcq-08",
-        "rush-mcq-03"
+        "rush-mcq-05",
+        "rush-mcq-10"
       ],
       "explanation": "本句的「rushed」指「因時間不足或過度趕急而倉促進行或完成的」。",
       "sentenceIndex": 19,
@@ -933,12 +837,10 @@ export default {
         "rushed"
       ],
       "optionReasons": {
-        "rush-mcq-06": "本句指「因時間不足或過度趕急而倉促進行或完成的」。",
-        "rush-mcq-05": "「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」是「a rush — intense feeling」的用法，與本句語境不同。",
-        "rush-mcq-07": "「大量人同時上下班／上學而令交通特別繁忙的高峰時段」是「rush hour」的用法，與本句語境不同。",
-        "rush-mcq-04": "「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」是「a rush — surge/crowd/flow」的用法，與本句語境不同。",
-        "rush-mcq-08": "「生長於水邊或潮濕地區的一類細長草本植物」是「rush — wetland plant」的用法，與本句語境不同。",
-        "rush-mcq-03": "「催促或施加壓力，使某人比適合或原本想要的速度更快行動」是「rush someone」的用法，與本句語境不同。"
+        "rush-mcq-06": "本句的「rushed」指「因時間不足或過度趕急而倉促進行或完成的」。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-06"
     },
@@ -951,10 +853,8 @@ export default {
       "options": [
         "rush-mcq-06",
         "rush-mcq-05",
-        "rush-mcq-07",
-        "rush-mcq-04",
         "rush-mcq-08",
-        "rush-mcq-03"
+        "rush-mcq-10"
       ],
       "explanation": "本句的「rushed」指「因時間不足或過度趕急而倉促進行或完成的」。",
       "sentenceIndex": 20,
@@ -963,12 +863,10 @@ export default {
         "rushed"
       ],
       "optionReasons": {
-        "rush-mcq-06": "本句指「因時間不足或過度趕急而倉促進行或完成的」。",
-        "rush-mcq-05": "「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」是「a rush — intense feeling」的用法，與本句語境不同。",
-        "rush-mcq-07": "「大量人同時上下班／上學而令交通特別繁忙的高峰時段」是「rush hour」的用法，與本句語境不同。",
-        "rush-mcq-04": "「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」是「a rush — surge/crowd/flow」的用法，與本句語境不同。",
-        "rush-mcq-08": "「生長於水邊或潮濕地區的一類細長草本植物」是「rush — wetland plant」的用法，與本句語境不同。",
-        "rush-mcq-03": "「催促或施加壓力，使某人比適合或原本想要的速度更快行動」是「rush someone」的用法，與本句語境不同。"
+        "rush-mcq-06": "本句的「rushed」指「因時間不足或過度趕急而倉促進行或完成的」。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-06"
     },
@@ -980,11 +878,9 @@ export default {
       "masked": "The trains are packed during ____.",
       "options": [
         "rush-mcq-07",
-        "rush-mcq-06",
+        "rush-mcq-03",
         "rush-mcq-08",
-        "rush-mcq-05",
-        "rush-mcq-09",
-        "rush-mcq-04"
+        "rush-mcq-05"
       ],
       "explanation": "本句的「rush hour」指「大量人同時上下班／上學而令交通特別繁忙的高峰時段」。",
       "sentenceIndex": 21,
@@ -993,12 +889,10 @@ export default {
         "rush hour"
       ],
       "optionReasons": {
-        "rush-mcq-07": "本句指「大量人同時上下班／上學而令交通特別繁忙的高峰時段」。",
-        "rush-mcq-06": "「因時間不足或過度趕急而倉促進行或完成的」是「rushed」的用法，與本句語境不同。",
-        "rush-mcq-08": "「生長於水邊或潮濕地區的一類細長草本植物」是「rush — wetland plant」的用法，與本句語境不同。",
-        "rush-mcq-05": "「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」是「a rush — intense feeling」的用法，與本句語境不同。",
-        "rush-mcq-09": "「因情況緊急而迅速把某人或某物送到指定地方」是「3. rush + person somewhere（緊急送往） — 急送；迅速送往」的用法，與本句語境不同。",
-        "rush-mcq-04": "「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」是「a rush — surge/crowd/flow」的用法，與本句語境不同。"
+        "rush-mcq-07": "本句的「rush hour」指「大量人同時上下班／上學而令交通特別繁忙的高峰時段」。",
+        "rush-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-07"
     },
@@ -1010,11 +904,9 @@ export default {
       "masked": "Try to avoid driving in the morning ____.",
       "options": [
         "rush-mcq-07",
-        "rush-mcq-06",
-        "rush-mcq-08",
         "rush-mcq-05",
         "rush-mcq-09",
-        "rush-mcq-04"
+        "rush-mcq-15"
       ],
       "explanation": "本句的「rush hour」指「大量人同時上下班／上學而令交通特別繁忙的高峰時段」。",
       "sentenceIndex": 22,
@@ -1023,12 +915,10 @@ export default {
         "rush hour"
       ],
       "optionReasons": {
-        "rush-mcq-07": "本句指「大量人同時上下班／上學而令交通特別繁忙的高峰時段」。",
-        "rush-mcq-06": "「因時間不足或過度趕急而倉促進行或完成的」是「rushed」的用法，與本句語境不同。",
-        "rush-mcq-08": "「生長於水邊或潮濕地區的一類細長草本植物」是「rush — wetland plant」的用法，與本句語境不同。",
-        "rush-mcq-05": "「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」是「a rush — intense feeling」的用法，與本句語境不同。",
-        "rush-mcq-09": "「因情況緊急而迅速把某人或某物送到指定地方」是「3. rush + person somewhere（緊急送往） — 急送；迅速送往」的用法，與本句語境不同。",
-        "rush-mcq-04": "「在短時間內突然出現大量人物、活動、需求、液體或其他快速流動」是「a rush — surge/crowd/flow」的用法，與本句語境不同。"
+        "rush-mcq-07": "本句的「rush hour」指「大量人同時上下班／上學而令交通特別繁忙的高峰時段」。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-07"
     },
@@ -1040,11 +930,9 @@ export default {
       "masked": "Sorry, I can’t talk—I’m ____.",
       "options": [
         "rush-mcq-13",
-        "rush-mcq-12",
-        "rush-mcq-14",
-        "rush-mcq-11",
-        "rush-mcq-15",
-        "rush-mcq-10"
+        "rush-mcq-05",
+        "rush-mcq-08",
+        "rush-mcq-15"
       ],
       "explanation": "本句的「in a rush」指「當時時間很緊迫，因此需要急忙行動」。",
       "sentenceIndex": 23,
@@ -1053,12 +941,10 @@ export default {
         "in a rush"
       ],
       "optionReasons": {
-        "rush-mcq-13": "本句指「當時時間很緊迫，因此需要急忙行動」。",
-        "rush-mcq-12": "「液體、空氣或其他物質突然快速而大量地流動」是「8. rush of blood/air/water（液體／氣體） — 急流；突然湧動」的用法，與本句語境不同。",
-        "rush-mcq-14": "「沒有時間壓力，不需要急着完成」是「Fixed expression: no rush — 不用急」的用法，與本句語境不同。",
-        "rush-mcq-11": "「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」是「6. rush = period of intense busyness（工作／活動） — 忙碌高峰；一陣忙亂」的用法，與本句語境不同。",
-        "rush-mcq-15": "「表示倉促的；匆忙完成的」是「Domain-specific extension: rush / rushing — fraternity/sorority recruitment」的用法，與本句語境不同。",
-        "rush-mcq-10": "「大量人同時迅速向某個方向移動或湧入某處」是「4. rush = suddenly move forward in large numbers（人群） — 湧向；一擁而上」的用法，與本句語境不同。"
+        "rush-mcq-13": "本句的「in a rush」指「當時時間很緊迫，因此需要急忙行動」。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-13"
     },
@@ -1070,11 +956,9 @@ export default {
       "masked": "She left the house ____ and forgot her bag.",
       "options": [
         "rush-mcq-13",
-        "rush-mcq-12",
-        "rush-mcq-14",
-        "rush-mcq-11",
-        "rush-mcq-15",
-        "rush-mcq-10"
+        "rush-mcq-08",
+        "rush-mcq-05",
+        "rush-mcq-15"
       ],
       "explanation": "本句的「in a rush」指「當時時間很緊迫，因此需要急忙行動」。",
       "sentenceIndex": 24,
@@ -1083,12 +967,10 @@ export default {
         "in a rush"
       ],
       "optionReasons": {
-        "rush-mcq-13": "本句指「當時時間很緊迫，因此需要急忙行動」。",
-        "rush-mcq-12": "「液體、空氣或其他物質突然快速而大量地流動」是「8. rush of blood/air/water（液體／氣體） — 急流；突然湧動」的用法，與本句語境不同。",
-        "rush-mcq-14": "「沒有時間壓力，不需要急着完成」是「Fixed expression: no rush — 不用急」的用法，與本句語境不同。",
-        "rush-mcq-11": "「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」是「6. rush = period of intense busyness（工作／活動） — 忙碌高峰；一陣忙亂」的用法，與本句語境不同。",
-        "rush-mcq-15": "「表示倉促的；匆忙完成的」是「Domain-specific extension: rush / rushing — fraternity/sorority recruitment」的用法，與本句語境不同。",
-        "rush-mcq-10": "「大量人同時迅速向某個方向移動或湧入某處」是「4. rush = suddenly move forward in large numbers（人群） — 湧向；一擁而上」的用法，與本句語境不同。"
+        "rush-mcq-13": "本句的「in a rush」指「當時時間很緊迫，因此需要急忙行動」。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-13"
     },
@@ -1100,11 +982,8 @@ export default {
       "masked": "There’s ____. Send it whenever you’re ready.",
       "options": [
         "rush-mcq-14",
-        "rush-mcq-13",
-        "rush-mcq-15",
         "rush-mcq-12",
-        "rush-mcq-11",
-        "rush-mcq-10"
+        "rush-mcq-08"
       ],
       "explanation": "本句的「no rush」指「沒有時間壓力，不需要急着完成」。",
       "sentenceIndex": 25,
@@ -1113,12 +992,9 @@ export default {
         "no rush"
       ],
       "optionReasons": {
-        "rush-mcq-14": "本句指「沒有時間壓力，不需要急着完成」。",
-        "rush-mcq-13": "「當時時間很緊迫，因此需要急忙行動」是「Fixed expression: in a rush — 很趕時間」的用法，與本句語境不同。",
-        "rush-mcq-15": "「表示倉促的；匆忙完成的」是「Domain-specific extension: rush / rushing — fraternity/sorority recruitment」的用法，與本句語境不同。",
-        "rush-mcq-12": "「液體、空氣或其他物質突然快速而大量地流動」是「8. rush of blood/air/water（液體／氣體） — 急流；突然湧動」的用法，與本句語境不同。",
-        "rush-mcq-11": "「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」是「6. rush = period of intense busyness（工作／活動） — 忙碌高峰；一陣忙亂」的用法，與本句語境不同。",
-        "rush-mcq-10": "「大量人同時迅速向某個方向移動或湧入某處」是「4. rush = suddenly move forward in large numbers（人群） — 湧向；一擁而上」的用法，與本句語境不同。"
+        "rush-mcq-14": "本句的「no rush」指「沒有時間壓力，不需要急着完成」。",
+        "rush-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-14"
     },
@@ -1130,10 +1006,8 @@ export default {
       "masked": "Take your time—there’s ____.",
       "options": [
         "rush-mcq-14",
-        "rush-mcq-13",
-        "rush-mcq-15",
-        "rush-mcq-12",
-        "rush-mcq-11",
+        "rush-mcq-05",
+        "rush-mcq-08",
         "rush-mcq-10"
       ],
       "explanation": "本句的「no rush」指「沒有時間壓力，不需要急着完成」。",
@@ -1143,12 +1017,10 @@ export default {
         "no rush"
       ],
       "optionReasons": {
-        "rush-mcq-14": "本句指「沒有時間壓力，不需要急着完成」。",
-        "rush-mcq-13": "「當時時間很緊迫，因此需要急忙行動」是「Fixed expression: in a rush — 很趕時間」的用法，與本句語境不同。",
-        "rush-mcq-15": "「表示倉促的；匆忙完成的」是「Domain-specific extension: rush / rushing — fraternity/sorority recruitment」的用法，與本句語境不同。",
-        "rush-mcq-12": "「液體、空氣或其他物質突然快速而大量地流動」是「8. rush of blood/air/water（液體／氣體） — 急流；突然湧動」的用法，與本句語境不同。",
-        "rush-mcq-11": "「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」是「6. rush = period of intense busyness（工作／活動） — 忙碌高峰；一陣忙亂」的用法，與本句語境不同。",
-        "rush-mcq-10": "「大量人同時迅速向某個方向移動或湧入某處」是「4. rush = suddenly move forward in large numbers（人群） — 湧向；一擁而上」的用法，與本句語境不同。"
+        "rush-mcq-14": "本句的「no rush」指「沒有時間壓力，不需要急着完成」。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-14"
     },
@@ -1160,11 +1032,8 @@ export default {
       "masked": "She decided to take part in sorority ____.",
       "options": [
         "rush-mcq-15",
-        "rush-mcq-14",
-        "rush-mcq-13",
-        "rush-mcq-12",
-        "rush-mcq-11",
-        "rush-mcq-10"
+        "rush-mcq-01",
+        "rush-mcq-08"
       ],
       "explanation": "本句的「rush」指「表示倉促的；匆忙完成的」。",
       "sentenceIndex": 27,
@@ -1173,12 +1042,9 @@ export default {
         "rush"
       ],
       "optionReasons": {
-        "rush-mcq-15": "本句指「表示倉促的；匆忙完成的」。",
-        "rush-mcq-14": "「沒有時間壓力，不需要急着完成」是「Fixed expression: no rush — 不用急」的用法，與本句語境不同。",
-        "rush-mcq-13": "「當時時間很緊迫，因此需要急忙行動」是「Fixed expression: in a rush — 很趕時間」的用法，與本句語境不同。",
-        "rush-mcq-12": "「液體、空氣或其他物質突然快速而大量地流動」是「8. rush of blood/air/water（液體／氣體） — 急流；突然湧動」的用法，與本句語境不同。",
-        "rush-mcq-11": "「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」是「6. rush = period of intense busyness（工作／活動） — 忙碌高峰；一陣忙亂」的用法，與本句語境不同。",
-        "rush-mcq-10": "「大量人同時迅速向某個方向移動或湧入某處」是「4. rush = suddenly move forward in large numbers（人群） — 湧向；一擁而上」的用法，與本句語境不同。"
+        "rush-mcq-15": "本句的「rush」指「表示倉促的；匆忙完成的」。",
+        "rush-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-15"
     },
@@ -1190,11 +1056,9 @@ export default {
       "masked": "Several students were ____ fraternities.",
       "options": [
         "rush-mcq-15",
-        "rush-mcq-14",
-        "rush-mcq-13",
-        "rush-mcq-12",
-        "rush-mcq-11",
-        "rush-mcq-10"
+        "rush-mcq-05",
+        "rush-mcq-09",
+        "rush-mcq-07"
       ],
       "explanation": "本句的「rushing」指「表示倉促的；匆忙完成的」。",
       "sentenceIndex": 28,
@@ -1203,12 +1067,10 @@ export default {
         "rushing"
       ],
       "optionReasons": {
-        "rush-mcq-15": "本句指「表示倉促的；匆忙完成的」。",
-        "rush-mcq-14": "「沒有時間壓力，不需要急着完成」是「Fixed expression: no rush — 不用急」的用法，與本句語境不同。",
-        "rush-mcq-13": "「當時時間很緊迫，因此需要急忙行動」是「Fixed expression: in a rush — 很趕時間」的用法，與本句語境不同。",
-        "rush-mcq-12": "「液體、空氣或其他物質突然快速而大量地流動」是「8. rush of blood/air/water（液體／氣體） — 急流；突然湧動」的用法，與本句語境不同。",
-        "rush-mcq-11": "「某段時間內工作、任務或活動突然非常集中而繁忙的狀態」是「6. rush = period of intense busyness（工作／活動） — 忙碌高峰；一陣忙亂」的用法，與本句語境不同。",
-        "rush-mcq-10": "「大量人同時迅速向某個方向移動或湧入某處」是「4. rush = suddenly move forward in large numbers（人群） — 湧向；一擁而上」的用法，與本句語境不同。"
+        "rush-mcq-15": "本句的「rushing」指「表示倉促的；匆忙完成的」。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-15"
     },
@@ -1220,11 +1082,9 @@ export default {
       "masked": "Tall ____ grew beside the pond.",
       "options": [
         "rush-mcq-08",
-        "rush-mcq-07",
-        "rush-mcq-09",
-        "rush-mcq-06",
         "rush-mcq-10",
-        "rush-mcq-05"
+        "rush-mcq-05",
+        "rush-mcq-15"
       ],
       "explanation": "本句的「rushes」指「生長於水邊或潮濕地區的一類細長草本植物」。",
       "sentenceIndex": 29,
@@ -1233,12 +1093,10 @@ export default {
         "rushes"
       ],
       "optionReasons": {
-        "rush-mcq-08": "本句指「生長於水邊或潮濕地區的一類細長草本植物」。",
-        "rush-mcq-07": "「大量人同時上下班／上學而令交通特別繁忙的高峰時段」是「rush hour」的用法，與本句語境不同。",
-        "rush-mcq-09": "「因情況緊急而迅速把某人或某物送到指定地方」是「3. rush + person somewhere（緊急送往） — 急送；迅速送往」的用法，與本句語境不同。",
-        "rush-mcq-06": "「因時間不足或過度趕急而倉促進行或完成的」是「rushed」的用法，與本句語境不同。",
-        "rush-mcq-10": "「大量人同時迅速向某個方向移動或湧入某處」是「4. rush = suddenly move forward in large numbers（人群） — 湧向；一擁而上」的用法，與本句語境不同。",
-        "rush-mcq-05": "「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」是「a rush — intense feeling」的用法，與本句語境不同。"
+        "rush-mcq-08": "本句的「rushes」指「生長於水邊或潮濕地區的一類細長草本植物」。",
+        "rush-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-08"
     },
@@ -1251,10 +1109,8 @@ export default {
       "options": [
         "rush-mcq-08",
         "rush-mcq-07",
-        "rush-mcq-09",
-        "rush-mcq-06",
-        "rush-mcq-10",
-        "rush-mcq-05"
+        "rush-mcq-05",
+        "rush-mcq-15"
       ],
       "explanation": "本句的「rushes」指「生長於水邊或潮濕地區的一類細長草本植物」。",
       "sentenceIndex": 30,
@@ -1263,12 +1119,10 @@ export default {
         "rushes"
       ],
       "optionReasons": {
-        "rush-mcq-08": "本句指「生長於水邊或潮濕地區的一類細長草本植物」。",
-        "rush-mcq-07": "「大量人同時上下班／上學而令交通特別繁忙的高峰時段」是「rush hour」的用法，與本句語境不同。",
-        "rush-mcq-09": "「因情況緊急而迅速把某人或某物送到指定地方」是「3. rush + person somewhere（緊急送往） — 急送；迅速送往」的用法，與本句語境不同。",
-        "rush-mcq-06": "「因時間不足或過度趕急而倉促進行或完成的」是「rushed」的用法，與本句語境不同。",
-        "rush-mcq-10": "「大量人同時迅速向某個方向移動或湧入某處」是「4. rush = suddenly move forward in large numbers（人群） — 湧向；一擁而上」的用法，與本句語境不同。",
-        "rush-mcq-05": "「突然出現的一股強烈興奮、恐懼、刺激或其他情緒／身體感受」是「a rush — intense feeling」的用法，與本句語境不同。"
+        "rush-mcq-08": "本句的「rushes」指「生長於水邊或潮濕地區的一類細長草本植物」。",
+        "rush-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rush-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rush-mcq-08"
     }
@@ -1280,5 +1134,7 @@ export default {
     "sha256": "c787509d4936f1f45e6e50fcdfa0228dd7eb675e4c5090e38ca5682c884efb3b",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

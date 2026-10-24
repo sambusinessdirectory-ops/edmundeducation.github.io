@@ -614,11 +614,7 @@ export default {
       "masked": "Kindness can be quiet, steady, and deeply ____.",
       "options": [
         "powerful-mcq-01",
-        "powerful-mcq-02",
-        "powerful-mcq-03",
-        "powerful-mcq-04",
-        "powerful-mcq-05",
-        "powerful-mcq-06"
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerful」指「能對人的思想、情感、行為或結果產生強烈而深刻影響的」。",
       "sentenceIndex": 0,
@@ -627,12 +623,8 @@ export default {
         "powerful"
       ],
       "optionReasons": {
-        "powerful-mcq-01": "本句指「能對人的思想、情感、行為或結果產生強烈而深刻影響的」。",
-        "powerful-mcq-02": "「擁有很大權力、地位、資源或影響力的」是「powerful — person/group」的用法，與本句語境不同。",
-        "powerful-mcq-03": "「在政治、經濟、商業等方面具有很強實力和影響力的」是「powerful — country/organization」的用法，與本句語境不同。",
-        "powerful-mcq-04": "「能產生很大物理力量或衝擊力的」是「powerful — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-05": "「能產生很大動力、輸出或運算能力的」是「powerful engine/machine」的用法，與本句語境不同。",
-        "powerful-mcq-06": "「功能或能力很強，能產生顯著效果的」是「powerful tool/technology」的用法，與本句語境不同。"
+        "powerful-mcq-01": "本句的「powerful」指「能對人的思想、情感、行為或結果產生強烈而深刻影響的」。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-01"
     },
@@ -644,11 +636,7 @@ export default {
       "masked": "A few kind words can be surprisingly ____.",
       "options": [
         "powerful-mcq-01",
-        "powerful-mcq-02",
-        "powerful-mcq-03",
-        "powerful-mcq-04",
-        "powerful-mcq-05",
-        "powerful-mcq-06"
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerful」指「能對人的思想、情感、行為或結果產生強烈而深刻影響的」。",
       "sentenceIndex": 1,
@@ -657,12 +645,8 @@ export default {
         "powerful"
       ],
       "optionReasons": {
-        "powerful-mcq-01": "本句指「能對人的思想、情感、行為或結果產生強烈而深刻影響的」。",
-        "powerful-mcq-02": "「擁有很大權力、地位、資源或影響力的」是「powerful — person/group」的用法，與本句語境不同。",
-        "powerful-mcq-03": "「在政治、經濟、商業等方面具有很強實力和影響力的」是「powerful — country/organization」的用法，與本句語境不同。",
-        "powerful-mcq-04": "「能產生很大物理力量或衝擊力的」是「powerful — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-05": "「能產生很大動力、輸出或運算能力的」是「powerful engine/machine」的用法，與本句語境不同。",
-        "powerful-mcq-06": "「功能或能力很強，能產生顯著效果的」是「powerful tool/technology」的用法，與本句語境不同。"
+        "powerful-mcq-01": "本句的「powerful」指「能對人的思想、情感、行為或結果產生強烈而深刻影響的」。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-01"
     },
@@ -674,11 +658,7 @@ export default {
       "masked": "Her example had a ____ effect on me.",
       "options": [
         "powerful-mcq-01",
-        "powerful-mcq-02",
-        "powerful-mcq-03",
-        "powerful-mcq-04",
-        "powerful-mcq-05",
-        "powerful-mcq-06"
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerful」指「能對人的思想、情感、行為或結果產生強烈而深刻影響的」。",
       "sentenceIndex": 2,
@@ -687,12 +667,8 @@ export default {
         "powerful"
       ],
       "optionReasons": {
-        "powerful-mcq-01": "本句指「能對人的思想、情感、行為或結果產生強烈而深刻影響的」。",
-        "powerful-mcq-02": "「擁有很大權力、地位、資源或影響力的」是「powerful — person/group」的用法，與本句語境不同。",
-        "powerful-mcq-03": "「在政治、經濟、商業等方面具有很強實力和影響力的」是「powerful — country/organization」的用法，與本句語境不同。",
-        "powerful-mcq-04": "「能產生很大物理力量或衝擊力的」是「powerful — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-05": "「能產生很大動力、輸出或運算能力的」是「powerful engine/machine」的用法，與本句語境不同。",
-        "powerful-mcq-06": "「功能或能力很強，能產生顯著效果的」是「powerful tool/technology」的用法，與本句語境不同。"
+        "powerful-mcq-01": "本句的「powerful」指「能對人的思想、情感、行為或結果產生強烈而深刻影響的」。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-01"
     },
@@ -704,11 +680,7 @@ export default {
       "masked": "He became one of the most ____ people in the company.",
       "options": [
         "powerful-mcq-02",
-        "powerful-mcq-01",
-        "powerful-mcq-03",
-        "powerful-mcq-04",
-        "powerful-mcq-05",
-        "powerful-mcq-06"
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「powerful」指「擁有很大權力、地位、資源或影響力的」。",
       "sentenceIndex": 3,
@@ -717,12 +689,8 @@ export default {
         "powerful"
       ],
       "optionReasons": {
-        "powerful-mcq-02": "本句指「擁有很大權力、地位、資源或影響力的」。",
-        "powerful-mcq-01": "「能對人的思想、情感、行為或結果產生強烈而深刻影響的」是「powerful — strong effect/influence」的用法，與本句語境不同。",
-        "powerful-mcq-03": "「在政治、經濟、商業等方面具有很強實力和影響力的」是「powerful — country/organization」的用法，與本句語境不同。",
-        "powerful-mcq-04": "「能產生很大物理力量或衝擊力的」是「powerful — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-05": "「能產生很大動力、輸出或運算能力的」是「powerful engine/machine」的用法，與本句語境不同。",
-        "powerful-mcq-06": "「功能或能力很強，能產生顯著效果的」是「powerful tool/technology」的用法，與本句語境不同。"
+        "powerful-mcq-02": "本句的「powerful」指「擁有很大權力、地位、資源或影響力的」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-02"
     },
@@ -734,11 +702,7 @@ export default {
       "masked": "The organization has several ____ supporters.",
       "options": [
         "powerful-mcq-02",
-        "powerful-mcq-01",
-        "powerful-mcq-03",
-        "powerful-mcq-04",
-        "powerful-mcq-05",
-        "powerful-mcq-06"
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「powerful」指「擁有很大權力、地位、資源或影響力的」。",
       "sentenceIndex": 4,
@@ -747,12 +711,8 @@ export default {
         "powerful"
       ],
       "optionReasons": {
-        "powerful-mcq-02": "本句指「擁有很大權力、地位、資源或影響力的」。",
-        "powerful-mcq-01": "「能對人的思想、情感、行為或結果產生強烈而深刻影響的」是「powerful — strong effect/influence」的用法，與本句語境不同。",
-        "powerful-mcq-03": "「在政治、經濟、商業等方面具有很強實力和影響力的」是「powerful — country/organization」的用法，與本句語境不同。",
-        "powerful-mcq-04": "「能產生很大物理力量或衝擊力的」是「powerful — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-05": "「能產生很大動力、輸出或運算能力的」是「powerful engine/machine」的用法，與本句語境不同。",
-        "powerful-mcq-06": "「功能或能力很強，能產生顯著效果的」是「powerful tool/technology」的用法，與本句語境不同。"
+        "powerful-mcq-02": "本句的「powerful」指「擁有很大權力、地位、資源或影響力的」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-02"
     },
@@ -764,11 +724,8 @@ export default {
       "masked": "It became a ____ trading nation.",
       "options": [
         "powerful-mcq-03",
-        "powerful-mcq-02",
-        "powerful-mcq-04",
-        "powerful-mcq-01",
-        "powerful-mcq-05",
-        "powerful-mcq-06"
+        "powerful-mcq-09",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerful」指「在政治、經濟、商業等方面具有很強實力和影響力的」。",
       "sentenceIndex": 5,
@@ -777,12 +734,9 @@ export default {
         "powerful"
       ],
       "optionReasons": {
-        "powerful-mcq-03": "本句指「在政治、經濟、商業等方面具有很強實力和影響力的」。",
-        "powerful-mcq-02": "「擁有很大權力、地位、資源或影響力的」是「powerful — person/group」的用法，與本句語境不同。",
-        "powerful-mcq-04": "「能產生很大物理力量或衝擊力的」是「powerful — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-01": "「能對人的思想、情感、行為或結果產生強烈而深刻影響的」是「powerful — strong effect/influence」的用法，與本句語境不同。",
-        "powerful-mcq-05": "「能產生很大動力、輸出或運算能力的」是「powerful engine/machine」的用法，與本句語境不同。",
-        "powerful-mcq-06": "「功能或能力很強，能產生顯著效果的」是「powerful tool/technology」的用法，與本句語境不同。"
+        "powerful-mcq-03": "本句的「powerful」指「在政治、經濟、商業等方面具有很強實力和影響力的」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-03"
     },
@@ -794,11 +748,8 @@ export default {
       "masked": "The company grew into a ____ global organization.",
       "options": [
         "powerful-mcq-03",
-        "powerful-mcq-02",
-        "powerful-mcq-04",
-        "powerful-mcq-01",
-        "powerful-mcq-05",
-        "powerful-mcq-06"
+        "powerful-mcq-09",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerful」指「在政治、經濟、商業等方面具有很強實力和影響力的」。",
       "sentenceIndex": 6,
@@ -807,12 +758,9 @@ export default {
         "powerful"
       ],
       "optionReasons": {
-        "powerful-mcq-03": "本句指「在政治、經濟、商業等方面具有很強實力和影響力的」。",
-        "powerful-mcq-02": "「擁有很大權力、地位、資源或影響力的」是「powerful — person/group」的用法，與本句語境不同。",
-        "powerful-mcq-04": "「能產生很大物理力量或衝擊力的」是「powerful — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-01": "「能對人的思想、情感、行為或結果產生強烈而深刻影響的」是「powerful — strong effect/influence」的用法，與本句語境不同。",
-        "powerful-mcq-05": "「能產生很大動力、輸出或運算能力的」是「powerful engine/machine」的用法，與本句語境不同。",
-        "powerful-mcq-06": "「功能或能力很強，能產生顯著效果的」是「powerful tool/technology」的用法，與本句語境不同。"
+        "powerful-mcq-03": "本句的「powerful」指「在政治、經濟、商業等方面具有很強實力和影響力的」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-03"
     },
@@ -824,11 +772,7 @@ export default {
       "masked": "The animal has ____ legs.",
       "options": [
         "powerful-mcq-04",
-        "powerful-mcq-03",
-        "powerful-mcq-05",
-        "powerful-mcq-02",
-        "powerful-mcq-06",
-        "powerful-mcq-01"
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「powerful」指「能產生很大物理力量或衝擊力的」。",
       "sentenceIndex": 7,
@@ -837,12 +781,8 @@ export default {
         "powerful"
       ],
       "optionReasons": {
-        "powerful-mcq-04": "本句指「能產生很大物理力量或衝擊力的」。",
-        "powerful-mcq-03": "「在政治、經濟、商業等方面具有很強實力和影響力的」是「powerful — country/organization」的用法，與本句語境不同。",
-        "powerful-mcq-05": "「能產生很大動力、輸出或運算能力的」是「powerful engine/machine」的用法，與本句語境不同。",
-        "powerful-mcq-02": "「擁有很大權力、地位、資源或影響力的」是「powerful — person/group」的用法，與本句語境不同。",
-        "powerful-mcq-06": "「功能或能力很強，能產生顯著效果的」是「powerful tool/technology」的用法，與本句語境不同。",
-        "powerful-mcq-01": "「能對人的思想、情感、行為或結果產生強烈而深刻影響的」是「powerful — strong effect/influence」的用法，與本句語境不同。"
+        "powerful-mcq-04": "本句的「powerful」指「能產生很大物理力量或衝擊力的」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-04"
     },
@@ -854,11 +794,7 @@ export default {
       "masked": "A ____ wave knocked him over.",
       "options": [
         "powerful-mcq-04",
-        "powerful-mcq-03",
-        "powerful-mcq-05",
-        "powerful-mcq-02",
-        "powerful-mcq-06",
-        "powerful-mcq-01"
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「powerful」指「能產生很大物理力量或衝擊力的」。",
       "sentenceIndex": 8,
@@ -867,12 +803,8 @@ export default {
         "powerful"
       ],
       "optionReasons": {
-        "powerful-mcq-04": "本句指「能產生很大物理力量或衝擊力的」。",
-        "powerful-mcq-03": "「在政治、經濟、商業等方面具有很強實力和影響力的」是「powerful — country/organization」的用法，與本句語境不同。",
-        "powerful-mcq-05": "「能產生很大動力、輸出或運算能力的」是「powerful engine/machine」的用法，與本句語境不同。",
-        "powerful-mcq-02": "「擁有很大權力、地位、資源或影響力的」是「powerful — person/group」的用法，與本句語境不同。",
-        "powerful-mcq-06": "「功能或能力很強，能產生顯著效果的」是「powerful tool/technology」的用法，與本句語境不同。",
-        "powerful-mcq-01": "「能對人的思想、情感、行為或結果產生強烈而深刻影響的」是「powerful — strong effect/influence」的用法，與本句語境不同。"
+        "powerful-mcq-04": "本句的「powerful」指「能產生很大物理力量或衝擊力的」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-04"
     },
@@ -884,11 +816,8 @@ export default {
       "masked": "The car has a very ____.",
       "options": [
         "powerful-mcq-05",
-        "powerful-mcq-04",
-        "powerful-mcq-06",
-        "powerful-mcq-03",
-        "powerful-mcq-07",
-        "powerful-mcq-02"
+        "powerful-mcq-09",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerful engine」指「能產生很大動力、輸出或運算能力的」。",
       "sentenceIndex": 9,
@@ -897,12 +826,9 @@ export default {
         "powerful engine"
       ],
       "optionReasons": {
-        "powerful-mcq-05": "本句指「能產生很大動力、輸出或運算能力的」。",
-        "powerful-mcq-04": "「能產生很大物理力量或衝擊力的」是「powerful — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-06": "「功能或能力很強，能產生顯著效果的」是「powerful tool/technology」的用法，與本句語境不同。",
-        "powerful-mcq-03": "「在政治、經濟、商業等方面具有很強實力和影響力的」是「powerful — country/organization」的用法，與本句語境不同。",
-        "powerful-mcq-07": "「能強烈支持某個結論並具有高度說服力的」是「powerful argument/evidence」的用法，與本句語境不同。",
-        "powerful-mcq-02": "「擁有很大權力、地位、資源或影響力的」是「powerful — person/group」的用法，與本句語境不同。"
+        "powerful-mcq-05": "本句的「powerful engine」指「能產生很大動力、輸出或運算能力的」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-05"
     },
@@ -914,11 +840,8 @@ export default {
       "masked": "You need a more ____ computer for this software.",
       "options": [
         "powerful-mcq-05",
-        "powerful-mcq-04",
-        "powerful-mcq-06",
-        "powerful-mcq-03",
-        "powerful-mcq-07",
-        "powerful-mcq-02"
+        "powerful-mcq-09",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerful」指「能產生很大動力、輸出或運算能力的」。",
       "sentenceIndex": 10,
@@ -927,12 +850,9 @@ export default {
         "powerful"
       ],
       "optionReasons": {
-        "powerful-mcq-05": "本句指「能產生很大動力、輸出或運算能力的」。",
-        "powerful-mcq-04": "「能產生很大物理力量或衝擊力的」是「powerful — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-06": "「功能或能力很強，能產生顯著效果的」是「powerful tool/technology」的用法，與本句語境不同。",
-        "powerful-mcq-03": "「在政治、經濟、商業等方面具有很強實力和影響力的」是「powerful — country/organization」的用法，與本句語境不同。",
-        "powerful-mcq-07": "「能強烈支持某個結論並具有高度說服力的」是「powerful argument/evidence」的用法，與本句語境不同。",
-        "powerful-mcq-02": "「擁有很大權力、地位、資源或影響力的」是「powerful — person/group」的用法，與本句語境不同。"
+        "powerful-mcq-05": "本句的「powerful」指「能產生很大動力、輸出或運算能力的」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-05"
     },
@@ -944,11 +864,8 @@ export default {
       "masked": "The internet is a ____ for learning.",
       "options": [
         "powerful-mcq-06",
-        "powerful-mcq-05",
-        "powerful-mcq-07",
-        "powerful-mcq-04",
-        "powerful-mcq-08",
-        "powerful-mcq-03"
+        "powerful-mcq-09",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerful tool」指「功能或能力很強，能產生顯著效果的」。",
       "sentenceIndex": 11,
@@ -957,12 +874,9 @@ export default {
         "powerful tool"
       ],
       "optionReasons": {
-        "powerful-mcq-06": "本句指「功能或能力很強，能產生顯著效果的」。",
-        "powerful-mcq-05": "「能產生很大動力、輸出或運算能力的」是「powerful engine/machine」的用法，與本句語境不同。",
-        "powerful-mcq-07": "「能強烈支持某個結論並具有高度說服力的」是「powerful argument/evidence」的用法，與本句語境不同。",
-        "powerful-mcq-04": "「能產生很大物理力量或衝擊力的」是「powerful — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-08": "「能引起強烈感情、思考或反應的」是「powerful message/story」的用法，與本句語境不同。",
-        "powerful-mcq-03": "「在政治、經濟、商業等方面具有很強實力和影響力的」是「powerful — country/organization」的用法，與本句語境不同。"
+        "powerful-mcq-06": "本句的「powerful tool」指「功能或能力很強，能產生顯著效果的」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-06"
     },
@@ -974,11 +888,8 @@ export default {
       "masked": "This software provides ____ editing features.",
       "options": [
         "powerful-mcq-06",
-        "powerful-mcq-05",
-        "powerful-mcq-07",
-        "powerful-mcq-04",
-        "powerful-mcq-08",
-        "powerful-mcq-03"
+        "powerful-mcq-09",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerful」指「功能或能力很強，能產生顯著效果的」。",
       "sentenceIndex": 12,
@@ -987,12 +898,9 @@ export default {
         "powerful"
       ],
       "optionReasons": {
-        "powerful-mcq-06": "本句指「功能或能力很強，能產生顯著效果的」。",
-        "powerful-mcq-05": "「能產生很大動力、輸出或運算能力的」是「powerful engine/machine」的用法，與本句語境不同。",
-        "powerful-mcq-07": "「能強烈支持某個結論並具有高度說服力的」是「powerful argument/evidence」的用法，與本句語境不同。",
-        "powerful-mcq-04": "「能產生很大物理力量或衝擊力的」是「powerful — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-08": "「能引起強烈感情、思考或反應的」是「powerful message/story」的用法，與本句語境不同。",
-        "powerful-mcq-03": "「在政治、經濟、商業等方面具有很強實力和影響力的」是「powerful — country/organization」的用法，與本句語境不同。"
+        "powerful-mcq-06": "本句的「powerful」指「功能或能力很強，能產生顯著效果的」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-06"
     },
@@ -1004,11 +912,7 @@ export default {
       "masked": "She made a ____ for change.",
       "options": [
         "powerful-mcq-07",
-        "powerful-mcq-06",
-        "powerful-mcq-08",
-        "powerful-mcq-05",
-        "powerful-mcq-09",
-        "powerful-mcq-04"
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerful argument」指「能強烈支持某個結論並具有高度說服力的」。",
       "sentenceIndex": 13,
@@ -1017,12 +921,8 @@ export default {
         "powerful argument"
       ],
       "optionReasons": {
-        "powerful-mcq-07": "本句指「能強烈支持某個結論並具有高度說服力的」。",
-        "powerful-mcq-06": "「功能或能力很強，能產生顯著效果的」是「powerful tool/technology」的用法，與本句語境不同。",
-        "powerful-mcq-08": "「能引起強烈感情、思考或反應的」是「powerful message/story」的用法，與本句語境不同。",
-        "powerful-mcq-05": "「能產生很大動力、輸出或運算能力的」是「powerful engine/machine」的用法，與本句語境不同。",
-        "powerful-mcq-09": "「程度非常高、難以忽視的情感」是「powerful emotion」的用法，與本句語境不同。",
-        "powerful-mcq-04": "「能產生很大物理力量或衝擊力的」是「powerful — physical force」的用法，與本句語境不同。"
+        "powerful-mcq-07": "本句的「powerful argument」指「能強烈支持某個結論並具有高度說服力的」。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-07"
     },
@@ -1034,11 +934,7 @@ export default {
       "masked": "The study provides ____.",
       "options": [
         "powerful-mcq-07",
-        "powerful-mcq-06",
-        "powerful-mcq-08",
-        "powerful-mcq-05",
-        "powerful-mcq-09",
-        "powerful-mcq-04"
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerful evidence」指「能強烈支持某個結論並具有高度說服力的」。",
       "sentenceIndex": 14,
@@ -1047,12 +943,8 @@ export default {
         "powerful evidence"
       ],
       "optionReasons": {
-        "powerful-mcq-07": "本句指「能強烈支持某個結論並具有高度說服力的」。",
-        "powerful-mcq-06": "「功能或能力很強，能產生顯著效果的」是「powerful tool/technology」的用法，與本句語境不同。",
-        "powerful-mcq-08": "「能引起強烈感情、思考或反應的」是「powerful message/story」的用法，與本句語境不同。",
-        "powerful-mcq-05": "「能產生很大動力、輸出或運算能力的」是「powerful engine/machine」的用法，與本句語境不同。",
-        "powerful-mcq-09": "「程度非常高、難以忽視的情感」是「powerful emotion」的用法，與本句語境不同。",
-        "powerful-mcq-04": "「能產生很大物理力量或衝擊力的」是「powerful — physical force」的用法，與本句語境不同。"
+        "powerful-mcq-07": "本句的「powerful evidence」指「能強烈支持某個結論並具有高度說服力的」。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-07"
     },
@@ -1064,11 +956,8 @@ export default {
       "masked": "The film sends a ____ about family.",
       "options": [
         "powerful-mcq-08",
-        "powerful-mcq-07",
-        "powerful-mcq-09",
-        "powerful-mcq-06",
-        "powerful-mcq-10",
-        "powerful-mcq-05"
+        "powerful-mcq-14",
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「powerful message」指「能引起強烈感情、思考或反應的」。",
       "sentenceIndex": 15,
@@ -1077,12 +966,9 @@ export default {
         "powerful message"
       ],
       "optionReasons": {
-        "powerful-mcq-08": "本句指「能引起強烈感情、思考或反應的」。",
-        "powerful-mcq-07": "「能強烈支持某個結論並具有高度說服力的」是「powerful argument/evidence」的用法，與本句語境不同。",
-        "powerful-mcq-09": "「程度非常高、難以忽視的情感」是「powerful emotion」的用法，與本句語境不同。",
-        "powerful-mcq-06": "「功能或能力很強，能產生顯著效果的」是「powerful tool/technology」的用法，與本句語境不同。",
-        "powerful-mcq-10": "「能在身體上產生強烈藥理作用的」是「powerful medicine」的用法，與本句語境不同。",
-        "powerful-mcq-05": "「能產生很大動力、輸出或運算能力的」是「powerful engine/machine」的用法，與本句語境不同。"
+        "powerful-mcq-08": "本句的「powerful message」指「能引起強烈感情、思考或反應的」。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-08"
     },
@@ -1094,11 +980,8 @@ export default {
       "masked": "It was a ____ about forgiveness.",
       "options": [
         "powerful-mcq-08",
-        "powerful-mcq-07",
-        "powerful-mcq-09",
-        "powerful-mcq-06",
-        "powerful-mcq-10",
-        "powerful-mcq-05"
+        "powerful-mcq-14",
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「powerful story」指「能引起強烈感情、思考或反應的」。",
       "sentenceIndex": 16,
@@ -1107,12 +990,9 @@ export default {
         "powerful story"
       ],
       "optionReasons": {
-        "powerful-mcq-08": "本句指「能引起強烈感情、思考或反應的」。",
-        "powerful-mcq-07": "「能強烈支持某個結論並具有高度說服力的」是「powerful argument/evidence」的用法，與本句語境不同。",
-        "powerful-mcq-09": "「程度非常高、難以忽視的情感」是「powerful emotion」的用法，與本句語境不同。",
-        "powerful-mcq-06": "「功能或能力很強，能產生顯著效果的」是「powerful tool/technology」的用法，與本句語境不同。",
-        "powerful-mcq-10": "「能在身體上產生強烈藥理作用的」是「powerful medicine」的用法，與本句語境不同。",
-        "powerful-mcq-05": "「能產生很大動力、輸出或運算能力的」是「powerful engine/machine」的用法，與本句語境不同。"
+        "powerful-mcq-08": "本句的「powerful story」指「能引起強烈感情、思考或反應的」。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-08"
     },
@@ -1124,11 +1004,8 @@ export default {
       "masked": "She felt a ____ sense of relief.",
       "options": [
         "powerful-mcq-09",
-        "powerful-mcq-08",
-        "powerful-mcq-10",
-        "powerful-mcq-07",
-        "powerful-mcq-11",
-        "powerful-mcq-06"
+        "powerful-mcq-03",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerful」指「程度非常高、難以忽視的情感」。",
       "sentenceIndex": 17,
@@ -1137,12 +1014,9 @@ export default {
         "powerful"
       ],
       "optionReasons": {
-        "powerful-mcq-09": "本句指「程度非常高、難以忽視的情感」。",
-        "powerful-mcq-08": "「能引起強烈感情、思考或反應的」是「powerful message/story」的用法，與本句語境不同。",
-        "powerful-mcq-10": "「能在身體上產生強烈藥理作用的」是「powerful medicine」的用法，與本句語境不同。",
-        "powerful-mcq-07": "「能強烈支持某個結論並具有高度說服力的」是「powerful argument/evidence」的用法，與本句語境不同。",
-        "powerful-mcq-11": "「控制事情、作決定或影響別人行動的能力／權力」是「power — authority/control」的用法，與本句語境不同。",
-        "powerful-mcq-06": "「功能或能力很強，能產生顯著效果的」是「powerful tool/technology」的用法，與本句語境不同。"
+        "powerful-mcq-09": "本句的「powerful」指「程度非常高、難以忽視的情感」。",
+        "powerful-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-09"
     },
@@ -1154,11 +1028,8 @@ export default {
       "masked": "Love can be a ____.",
       "options": [
         "powerful-mcq-09",
-        "powerful-mcq-08",
-        "powerful-mcq-10",
-        "powerful-mcq-07",
-        "powerful-mcq-11",
-        "powerful-mcq-06"
+        "powerful-mcq-18",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerful emotion」指「程度非常高、難以忽視的情感」。",
       "sentenceIndex": 18,
@@ -1167,12 +1038,9 @@ export default {
         "powerful emotion"
       ],
       "optionReasons": {
-        "powerful-mcq-09": "本句指「程度非常高、難以忽視的情感」。",
-        "powerful-mcq-08": "「能引起強烈感情、思考或反應的」是「powerful message/story」的用法，與本句語境不同。",
-        "powerful-mcq-10": "「能在身體上產生強烈藥理作用的」是「powerful medicine」的用法，與本句語境不同。",
-        "powerful-mcq-07": "「能強烈支持某個結論並具有高度說服力的」是「powerful argument/evidence」的用法，與本句語境不同。",
-        "powerful-mcq-11": "「控制事情、作決定或影響別人行動的能力／權力」是「power — authority/control」的用法，與本句語境不同。",
-        "powerful-mcq-06": "「功能或能力很強，能產生顯著效果的」是「powerful tool/technology」的用法，與本句語境不同。"
+        "powerful-mcq-09": "本句的「powerful emotion」指「程度非常高、難以忽視的情感」。",
+        "powerful-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-09"
     },
@@ -1184,11 +1052,8 @@ export default {
       "masked": "The photograph created a ____.",
       "options": [
         "powerful-mcq-26",
-        "powerful-mcq-25",
-        "powerful-mcq-27",
-        "powerful-mcq-24",
-        "powerful-mcq-23",
-        "powerful-mcq-22"
+        "powerful-mcq-14",
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「powerful image」指「對人的記憶或感受造成深刻而持久的影響」。",
       "sentenceIndex": 19,
@@ -1197,12 +1062,9 @@ export default {
         "powerful image"
       ],
       "optionReasons": {
-        "powerful-mcq-26": "本句指「對人的記憶或感受造成深刻而持久的影響」。",
-        "powerful-mcq-25": "「個人／群體獲得更多自主能力、資源、信心或決策權的過程」是「empowerment」的用法，與本句語境不同。",
-        "powerful-mcq-27": "「感官刺激的強度非常高，很容易被察覺」是「11. powerful smell/taste（氣味／味道） — 濃烈的；強烈的」的用法，與本句語境不同。",
-        "powerful-mcq-24": "「擁有或感受到足夠能力、權力和信心採取行動的」是「empowered」的用法，與本句語境不同。",
-        "powerful-mcq-23": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "powerful-mcq-22": "「缺乏控制、影響或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。"
+        "powerful-mcq-26": "本句的「powerful image」指「對人的記憶或感受造成深刻而持久的影響」。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-26"
     },
@@ -1214,11 +1076,8 @@ export default {
       "masked": "The experience left a ____.",
       "options": [
         "powerful-mcq-26",
-        "powerful-mcq-25",
-        "powerful-mcq-27",
-        "powerful-mcq-24",
-        "powerful-mcq-23",
-        "powerful-mcq-22"
+        "powerful-mcq-14",
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「powerful memory」指「對人的記憶或感受造成深刻而持久的影響」。",
       "sentenceIndex": 20,
@@ -1227,12 +1086,9 @@ export default {
         "powerful memory"
       ],
       "optionReasons": {
-        "powerful-mcq-26": "本句指「對人的記憶或感受造成深刻而持久的影響」。",
-        "powerful-mcq-25": "「個人／群體獲得更多自主能力、資源、信心或決策權的過程」是「empowerment」的用法，與本句語境不同。",
-        "powerful-mcq-27": "「感官刺激的強度非常高，很容易被察覺」是「11. powerful smell/taste（氣味／味道） — 濃烈的；強烈的」的用法，與本句語境不同。",
-        "powerful-mcq-24": "「擁有或感受到足夠能力、權力和信心採取行動的」是「empowered」的用法，與本句語境不同。",
-        "powerful-mcq-23": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "powerful-mcq-22": "「缺乏控制、影響或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。"
+        "powerful-mcq-26": "本句的「powerful memory」指「對人的記憶或感受造成深刻而持久的影響」。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-26"
     },
@@ -1244,11 +1100,7 @@ export default {
       "masked": "The cheese has a ____.",
       "options": [
         "powerful-mcq-27",
-        "powerful-mcq-26",
-        "powerful-mcq-25",
-        "powerful-mcq-24",
-        "powerful-mcq-23",
-        "powerful-mcq-22"
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerful smell」指「感官刺激的強度非常高，很容易被察覺」。",
       "sentenceIndex": 21,
@@ -1257,12 +1109,8 @@ export default {
         "powerful smell"
       ],
       "optionReasons": {
-        "powerful-mcq-27": "本句指「感官刺激的強度非常高，很容易被察覺」。",
-        "powerful-mcq-26": "「對人的記憶或感受造成深刻而持久的影響」是「10. powerful memory/image（記憶／形象） — 鮮明深刻的；震撼的」的用法，與本句語境不同。",
-        "powerful-mcq-25": "「個人／群體獲得更多自主能力、資源、信心或決策權的過程」是「empowerment」的用法，與本句語境不同。",
-        "powerful-mcq-24": "「擁有或感受到足夠能力、權力和信心採取行動的」是「empowered」的用法，與本句語境不同。",
-        "powerful-mcq-23": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "powerful-mcq-22": "「缺乏控制、影響或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。"
+        "powerful-mcq-27": "本句的「powerful smell」指「感官刺激的強度非常高，很容易被察覺」。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-27"
     },
@@ -1274,11 +1122,7 @@ export default {
       "masked": "The sauce has a ____.",
       "options": [
         "powerful-mcq-27",
-        "powerful-mcq-26",
-        "powerful-mcq-25",
-        "powerful-mcq-24",
-        "powerful-mcq-23",
-        "powerful-mcq-22"
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerful flavour」指「感官刺激的強度非常高，很容易被察覺」。",
       "sentenceIndex": 22,
@@ -1287,12 +1131,8 @@ export default {
         "powerful flavour"
       ],
       "optionReasons": {
-        "powerful-mcq-27": "本句指「感官刺激的強度非常高，很容易被察覺」。",
-        "powerful-mcq-26": "「對人的記憶或感受造成深刻而持久的影響」是「10. powerful memory/image（記憶／形象） — 鮮明深刻的；震撼的」的用法，與本句語境不同。",
-        "powerful-mcq-25": "「個人／群體獲得更多自主能力、資源、信心或決策權的過程」是「empowerment」的用法，與本句語境不同。",
-        "powerful-mcq-24": "「擁有或感受到足夠能力、權力和信心採取行動的」是「empowered」的用法，與本句語境不同。",
-        "powerful-mcq-23": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "powerful-mcq-22": "「缺乏控制、影響或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。"
+        "powerful-mcq-27": "本句的「powerful flavour」指「感官刺激的強度非常高，很容易被察覺」。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-27"
     },
@@ -1304,11 +1144,8 @@ export default {
       "masked": "This is a ____.",
       "options": [
         "powerful-mcq-10",
-        "powerful-mcq-09",
-        "powerful-mcq-11",
-        "powerful-mcq-08",
-        "powerful-mcq-12",
-        "powerful-mcq-07"
+        "powerful-mcq-14",
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「powerful painkiller」指「能在身體上產生強烈藥理作用的」。",
       "sentenceIndex": 23,
@@ -1317,12 +1154,9 @@ export default {
         "powerful painkiller"
       ],
       "optionReasons": {
-        "powerful-mcq-10": "本句指「能在身體上產生強烈藥理作用的」。",
-        "powerful-mcq-09": "「程度非常高、難以忽視的情感」是「powerful emotion」的用法，與本句語境不同。",
-        "powerful-mcq-11": "「控制事情、作決定或影響別人行動的能力／權力」是「power — authority/control」的用法，與本句語境不同。",
-        "powerful-mcq-08": "「能引起強烈感情、思考或反應的」是「powerful message/story」的用法，與本句語境不同。",
-        "powerful-mcq-12": "「控制政府、制定政策或作重大決策的政治權力」是「power — political authority」的用法，與本句語境不同。",
-        "powerful-mcq-07": "「能強烈支持某個結論並具有高度說服力的」是「powerful argument/evidence」的用法，與本句語境不同。"
+        "powerful-mcq-10": "本句的「powerful painkiller」指「能在身體上產生強烈藥理作用的」。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-10"
     },
@@ -1334,11 +1168,8 @@ export default {
       "masked": "The medicine can have ____ on the body.",
       "options": [
         "powerful-mcq-10",
-        "powerful-mcq-09",
-        "powerful-mcq-11",
-        "powerful-mcq-08",
-        "powerful-mcq-12",
-        "powerful-mcq-07"
+        "powerful-mcq-14",
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「powerful effects」指「能在身體上產生強烈藥理作用的」。",
       "sentenceIndex": 24,
@@ -1347,12 +1178,9 @@ export default {
         "powerful effects"
       ],
       "optionReasons": {
-        "powerful-mcq-10": "本句指「能在身體上產生強烈藥理作用的」。",
-        "powerful-mcq-09": "「程度非常高、難以忽視的情感」是「powerful emotion」的用法，與本句語境不同。",
-        "powerful-mcq-11": "「控制事情、作決定或影響別人行動的能力／權力」是「power — authority/control」的用法，與本句語境不同。",
-        "powerful-mcq-08": "「能引起強烈感情、思考或反應的」是「powerful message/story」的用法，與本句語境不同。",
-        "powerful-mcq-12": "「控制政府、制定政策或作重大決策的政治權力」是「power — political authority」的用法，與本句語境不同。",
-        "powerful-mcq-07": "「能強烈支持某個結論並具有高度說服力的」是「powerful argument/evidence」的用法，與本句語境不同。"
+        "powerful-mcq-10": "本句的「powerful effects」指「能在身體上產生強烈藥理作用的」。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-10"
     },
@@ -1364,11 +1192,8 @@ export default {
       "masked": "The manager has the ____ to make the final decision.",
       "options": [
         "powerful-mcq-11",
-        "powerful-mcq-10",
-        "powerful-mcq-12",
         "powerful-mcq-09",
-        "powerful-mcq-13",
-        "powerful-mcq-08"
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「power」指「控制事情、作決定或影響別人行動的能力／權力」。",
       "sentenceIndex": 25,
@@ -1377,12 +1202,9 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "powerful-mcq-11": "本句指「控制事情、作決定或影響別人行動的能力／權力」。",
-        "powerful-mcq-10": "「能在身體上產生強烈藥理作用的」是「powerful medicine」的用法，與本句語境不同。",
-        "powerful-mcq-12": "「控制政府、制定政策或作重大決策的政治權力」是「power — political authority」的用法，與本句語境不同。",
-        "powerful-mcq-09": "「程度非常高、難以忽視的情感」是「powerful emotion」的用法，與本句語境不同。",
-        "powerful-mcq-13": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-08": "「能引起強烈感情、思考或反應的」是「powerful message/story」的用法，與本句語境不同。"
+        "powerful-mcq-11": "本句的「power」指「控制事情、作決定或影響別人行動的能力／權力」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-11"
     },
@@ -1394,11 +1216,8 @@ export default {
       "masked": "Too much ____ can be dangerous.",
       "options": [
         "powerful-mcq-11",
-        "powerful-mcq-10",
-        "powerful-mcq-12",
         "powerful-mcq-09",
-        "powerful-mcq-13",
-        "powerful-mcq-08"
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「power」指「控制事情、作決定或影響別人行動的能力／權力」。",
       "sentenceIndex": 26,
@@ -1407,12 +1226,9 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "powerful-mcq-11": "本句指「控制事情、作決定或影響別人行動的能力／權力」。",
-        "powerful-mcq-10": "「能在身體上產生強烈藥理作用的」是「powerful medicine」的用法，與本句語境不同。",
-        "powerful-mcq-12": "「控制政府、制定政策或作重大決策的政治權力」是「power — political authority」的用法，與本句語境不同。",
-        "powerful-mcq-09": "「程度非常高、難以忽視的情感」是「powerful emotion」的用法，與本句語境不同。",
-        "powerful-mcq-13": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-08": "「能引起強烈感情、思考或反應的」是「powerful message/story」的用法，與本句語境不同。"
+        "powerful-mcq-11": "本句的「power」指「控制事情、作決定或影響別人行動的能力／權力」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-11"
     },
@@ -1424,11 +1240,8 @@ export default {
       "masked": "The new government came to ____.",
       "options": [
         "powerful-mcq-12",
-        "powerful-mcq-11",
-        "powerful-mcq-13",
-        "powerful-mcq-10",
-        "powerful-mcq-14",
-        "powerful-mcq-09"
+        "powerful-mcq-09",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「power」指「控制政府、制定政策或作重大決策的政治權力」。",
       "sentenceIndex": 27,
@@ -1437,12 +1250,9 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "powerful-mcq-12": "本句指「控制政府、制定政策或作重大決策的政治權力」。",
-        "powerful-mcq-11": "「控制事情、作決定或影響別人行動的能力／權力」是「power — authority/control」的用法，與本句語境不同。",
-        "powerful-mcq-13": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-10": "「能在身體上產生強烈藥理作用的」是「powerful medicine」的用法，與本句語境不同。",
-        "powerful-mcq-14": "「供機器、建築或設備運作所需的電力／能源」是「power — electricity/energy」的用法，與本句語境不同。",
-        "powerful-mcq-09": "「程度非常高、難以忽視的情感」是「powerful emotion」的用法，與本句語境不同。"
+        "powerful-mcq-12": "本句的「power」指「控制政府、制定政策或作重大決策的政治權力」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-12"
     },
@@ -1454,11 +1264,8 @@ export default {
       "masked": "The party remained in ____ for ten years.",
       "options": [
         "powerful-mcq-12",
-        "powerful-mcq-11",
-        "powerful-mcq-13",
-        "powerful-mcq-10",
-        "powerful-mcq-14",
-        "powerful-mcq-09"
+        "powerful-mcq-09",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「power」指「控制政府、制定政策或作重大決策的政治權力」。",
       "sentenceIndex": 28,
@@ -1467,12 +1274,9 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "powerful-mcq-12": "本句指「控制政府、制定政策或作重大決策的政治權力」。",
-        "powerful-mcq-11": "「控制事情、作決定或影響別人行動的能力／權力」是「power — authority/control」的用法，與本句語境不同。",
-        "powerful-mcq-13": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-10": "「能在身體上產生強烈藥理作用的」是「powerful medicine」的用法，與本句語境不同。",
-        "powerful-mcq-14": "「供機器、建築或設備運作所需的電力／能源」是「power — electricity/energy」的用法，與本句語境不同。",
-        "powerful-mcq-09": "「程度非常高、難以忽視的情感」是「powerful emotion」的用法，與本句語境不同。"
+        "powerful-mcq-12": "本句的「power」指「控制政府、制定政策或作重大決策的政治權力」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-12"
     },
@@ -1484,11 +1288,7 @@ export default {
       "masked": "The athlete hit the ball with great ____.",
       "options": [
         "powerful-mcq-13",
-        "powerful-mcq-12",
-        "powerful-mcq-14",
-        "powerful-mcq-11",
-        "powerful-mcq-15",
-        "powerful-mcq-10"
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「power」指「能產生動作、衝擊或物理效果的力量」。",
       "sentenceIndex": 29,
@@ -1497,12 +1297,8 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "powerful-mcq-13": "本句指「能產生動作、衝擊或物理效果的力量」。",
-        "powerful-mcq-12": "「控制政府、制定政策或作重大決策的政治權力」是「power — political authority」的用法，與本句語境不同。",
-        "powerful-mcq-14": "「供機器、建築或設備運作所需的電力／能源」是「power — electricity/energy」的用法，與本句語境不同。",
-        "powerful-mcq-11": "「控制事情、作決定或影響別人行動的能力／權力」是「power — authority/control」的用法，與本句語境不同。",
-        "powerful-mcq-15": "「機械／電氣系統產生或使用能量的能力／功率」是「power — machine output」的用法，與本句語境不同。",
-        "powerful-mcq-10": "「能在身體上產生強烈藥理作用的」是「powerful medicine」的用法，與本句語境不同。"
+        "powerful-mcq-13": "本句的「power」指「能產生動作、衝擊或物理效果的力量」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-13"
     },
@@ -1514,11 +1310,7 @@ export default {
       "masked": "The storm increased in ____.",
       "options": [
         "powerful-mcq-13",
-        "powerful-mcq-12",
-        "powerful-mcq-14",
-        "powerful-mcq-11",
-        "powerful-mcq-15",
-        "powerful-mcq-10"
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「power」指「能產生動作、衝擊或物理效果的力量」。",
       "sentenceIndex": 30,
@@ -1527,12 +1319,8 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "powerful-mcq-13": "本句指「能產生動作、衝擊或物理效果的力量」。",
-        "powerful-mcq-12": "「控制政府、制定政策或作重大決策的政治權力」是「power — political authority」的用法，與本句語境不同。",
-        "powerful-mcq-14": "「供機器、建築或設備運作所需的電力／能源」是「power — electricity/energy」的用法，與本句語境不同。",
-        "powerful-mcq-11": "「控制事情、作決定或影響別人行動的能力／權力」是「power — authority/control」的用法，與本句語境不同。",
-        "powerful-mcq-15": "「機械／電氣系統產生或使用能量的能力／功率」是「power — machine output」的用法，與本句語境不同。",
-        "powerful-mcq-10": "「能在身體上產生強烈藥理作用的」是「powerful medicine」的用法，與本句語境不同。"
+        "powerful-mcq-13": "本句的「power」指「能產生動作、衝擊或物理效果的力量」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-13"
     },
@@ -1544,11 +1332,8 @@ export default {
       "masked": "The storm caused a ____ failure.",
       "options": [
         "powerful-mcq-14",
-        "powerful-mcq-13",
-        "powerful-mcq-15",
-        "powerful-mcq-12",
-        "powerful-mcq-16",
-        "powerful-mcq-11"
+        "powerful-mcq-09",
+        "powerful-mcq-26"
       ],
       "explanation": "本句的「power」指「供機器、建築或設備運作所需的電力／能源」。",
       "sentenceIndex": 31,
@@ -1557,12 +1342,9 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "powerful-mcq-14": "本句指「供機器、建築或設備運作所需的電力／能源」。",
-        "powerful-mcq-13": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-15": "「機械／電氣系統產生或使用能量的能力／功率」是「power — machine output」的用法，與本句語境不同。",
-        "powerful-mcq-12": "「控制政府、制定政策或作重大決策的政治權力」是「power — political authority」的用法，與本句語境不同。",
-        "powerful-mcq-16": "「令某件事情發生、改變或產生效果的能力」是「power — capacity」的用法，與本句語境不同。",
-        "powerful-mcq-11": "「控制事情、作決定或影響別人行動的能力／權力」是「power — authority/control」的用法，與本句語境不同。"
+        "powerful-mcq-14": "本句的「power」指「供機器、建築或設備運作所需的電力／能源」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-14"
     },
@@ -1574,11 +1356,8 @@ export default {
       "masked": "The building lost ____.",
       "options": [
         "powerful-mcq-14",
-        "powerful-mcq-13",
-        "powerful-mcq-15",
-        "powerful-mcq-12",
-        "powerful-mcq-16",
-        "powerful-mcq-11"
+        "powerful-mcq-26",
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「power」指「供機器、建築或設備運作所需的電力／能源」。",
       "sentenceIndex": 32,
@@ -1587,12 +1366,9 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "powerful-mcq-14": "本句指「供機器、建築或設備運作所需的電力／能源」。",
-        "powerful-mcq-13": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-15": "「機械／電氣系統產生或使用能量的能力／功率」是「power — machine output」的用法，與本句語境不同。",
-        "powerful-mcq-12": "「控制政府、制定政策或作重大決策的政治權力」是「power — political authority」的用法，與本句語境不同。",
-        "powerful-mcq-16": "「令某件事情發生、改變或產生效果的能力」是「power — capacity」的用法，與本句語境不同。",
-        "powerful-mcq-11": "「控制事情、作決定或影響別人行動的能力／權力」是「power — authority/control」的用法，與本句語境不同。"
+        "powerful-mcq-14": "本句的「power」指「供機器、建築或設備運作所需的電力／能源」。",
+        "powerful-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-14"
     },
@@ -1604,11 +1380,7 @@ export default {
       "masked": "The engine produces more ____.",
       "options": [
         "powerful-mcq-15",
-        "powerful-mcq-14",
-        "powerful-mcq-16",
-        "powerful-mcq-13",
-        "powerful-mcq-17",
-        "powerful-mcq-12"
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「power」指「機械／電氣系統產生或使用能量的能力／功率」。",
       "sentenceIndex": 33,
@@ -1617,12 +1389,8 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "powerful-mcq-15": "本句指「機械／電氣系統產生或使用能量的能力／功率」。",
-        "powerful-mcq-14": "「供機器、建築或設備運作所需的電力／能源」是「power — electricity/energy」的用法，與本句語境不同。",
-        "powerful-mcq-16": "「令某件事情發生、改變或產生效果的能力」是「power — capacity」的用法，與本句語境不同。",
-        "powerful-mcq-13": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-17": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。",
-        "powerful-mcq-12": "「控制政府、制定政策或作重大決策的政治權力」是「power — political authority」的用法，與本句語境不同。"
+        "powerful-mcq-15": "本句的「power」指「機械／電氣系統產生或使用能量的能力／功率」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-15"
     },
@@ -1634,11 +1402,7 @@ export default {
       "masked": "The device uses very little ____.",
       "options": [
         "powerful-mcq-15",
-        "powerful-mcq-14",
-        "powerful-mcq-16",
-        "powerful-mcq-13",
-        "powerful-mcq-17",
-        "powerful-mcq-12"
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「power」指「機械／電氣系統產生或使用能量的能力／功率」。",
       "sentenceIndex": 34,
@@ -1647,12 +1411,8 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "powerful-mcq-15": "本句指「機械／電氣系統產生或使用能量的能力／功率」。",
-        "powerful-mcq-14": "「供機器、建築或設備運作所需的電力／能源」是「power — electricity/energy」的用法，與本句語境不同。",
-        "powerful-mcq-16": "「令某件事情發生、改變或產生效果的能力」是「power — capacity」的用法，與本句語境不同。",
-        "powerful-mcq-13": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。",
-        "powerful-mcq-17": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。",
-        "powerful-mcq-12": "「控制政府、制定政策或作重大決策的政治權力」是「power — political authority」的用法，與本句語境不同。"
+        "powerful-mcq-15": "本句的「power」指「機械／電氣系統產生或使用能量的能力／功率」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-15"
     },
@@ -1664,11 +1424,8 @@ export default {
       "masked": "Words have the ____ to change how people think.",
       "options": [
         "powerful-mcq-16",
-        "powerful-mcq-15",
-        "powerful-mcq-17",
-        "powerful-mcq-14",
-        "powerful-mcq-18",
-        "powerful-mcq-13"
+        "powerful-mcq-09",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「power」指「令某件事情發生、改變或產生效果的能力」。",
       "sentenceIndex": 35,
@@ -1677,12 +1434,9 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "powerful-mcq-16": "本句指「令某件事情發生、改變或產生效果的能力」。",
-        "powerful-mcq-15": "「機械／電氣系統產生或使用能量的能力／功率」是「power — machine output」的用法，與本句語境不同。",
-        "powerful-mcq-17": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。",
-        "powerful-mcq-14": "「供機器、建築或設備運作所需的電力／能源」是「power — electricity/energy」的用法，與本句語境不同。",
-        "powerful-mcq-18": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。",
-        "powerful-mcq-13": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。"
+        "powerful-mcq-16": "本句的「power」指「令某件事情發生、改變或產生效果的能力」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-16"
     },
@@ -1694,11 +1448,8 @@ export default {
       "masked": "Kindness has the ____ to comfort people.",
       "options": [
         "powerful-mcq-16",
-        "powerful-mcq-15",
-        "powerful-mcq-17",
-        "powerful-mcq-14",
-        "powerful-mcq-18",
-        "powerful-mcq-13"
+        "powerful-mcq-09",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「power」指「令某件事情發生、改變或產生效果的能力」。",
       "sentenceIndex": 36,
@@ -1707,12 +1458,9 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "powerful-mcq-16": "本句指「令某件事情發生、改變或產生效果的能力」。",
-        "powerful-mcq-15": "「機械／電氣系統產生或使用能量的能力／功率」是「power — machine output」的用法，與本句語境不同。",
-        "powerful-mcq-17": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。",
-        "powerful-mcq-14": "「供機器、建築或設備運作所需的電力／能源」是「power — electricity/energy」的用法，與本句語境不同。",
-        "powerful-mcq-18": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。",
-        "powerful-mcq-13": "「能產生動作、衝擊或物理效果的力量」是「power — physical force」的用法，與本句語境不同。"
+        "powerful-mcq-16": "本句的「power」指「令某件事情發生、改變或產生效果的能力」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-16"
     },
@@ -1724,10 +1472,7 @@ export default {
       "masked": "The book explores the ____.",
       "options": [
         "powerful-mcq-17",
-        "powerful-mcq-16",
-        "powerful-mcq-18",
-        "powerful-mcq-15",
-        "powerful-mcq-19",
+        "powerful-mcq-09",
         "powerful-mcq-14"
       ],
       "explanation": "本句的「power of kindness」指「某事物產生影響、改變或效果的能力」。",
@@ -1737,12 +1482,9 @@ export default {
         "power of kindness"
       ],
       "optionReasons": {
-        "powerful-mcq-17": "本句指「某事物產生影響、改變或效果的能力」。",
-        "powerful-mcq-16": "「令某件事情發生、改變或產生效果的能力」是「power — capacity」的用法，與本句語境不同。",
-        "powerful-mcq-18": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。",
-        "powerful-mcq-15": "「機械／電氣系統產生或使用能量的能力／功率」是「power — machine output」的用法，與本句語境不同。",
-        "powerful-mcq-19": "「電腦或處理器進行計算和處理資料的能力」是「computing power」的用法，與本句語境不同。",
-        "powerful-mcq-14": "「供機器、建築或設備運作所需的電力／能源」是「power — electricity/energy」的用法，與本句語境不同。"
+        "powerful-mcq-17": "本句的「power of kindness」指「某事物產生影響、改變或效果的能力」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-17"
     },
@@ -1754,10 +1496,7 @@ export default {
       "masked": "Never underestimate the ____.",
       "options": [
         "powerful-mcq-17",
-        "powerful-mcq-16",
-        "powerful-mcq-18",
-        "powerful-mcq-15",
-        "powerful-mcq-19",
+        "powerful-mcq-09",
         "powerful-mcq-14"
       ],
       "explanation": "本句的「power of a simple gesture」指「某事物產生影響、改變或效果的能力」。",
@@ -1767,12 +1506,9 @@ export default {
         "power of a simple gesture"
       ],
       "optionReasons": {
-        "powerful-mcq-17": "本句指「某事物產生影響、改變或效果的能力」。",
-        "powerful-mcq-16": "「令某件事情發生、改變或產生效果的能力」是「power — capacity」的用法，與本句語境不同。",
-        "powerful-mcq-18": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。",
-        "powerful-mcq-15": "「機械／電氣系統產生或使用能量的能力／功率」是「power — machine output」的用法，與本句語境不同。",
-        "powerful-mcq-19": "「電腦或處理器進行計算和處理資料的能力」是「computing power」的用法，與本句語境不同。",
-        "powerful-mcq-14": "「供機器、建築或設備運作所需的電力／能源」是「power — electricity/energy」的用法，與本句語境不同。"
+        "powerful-mcq-17": "本句的「power of a simple gesture」指「某事物產生影響、改變或效果的能力」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-17"
     },
@@ -1784,11 +1520,8 @@ export default {
       "masked": "Inflation reduces consumers’ purchasing ____.",
       "options": [
         "powerful-mcq-18",
-        "powerful-mcq-17",
-        "powerful-mcq-19",
-        "powerful-mcq-16",
-        "powerful-mcq-20",
-        "powerful-mcq-15"
+        "powerful-mcq-09",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「power」指「收入／貨幣實際可購買商品和服務的能力」。",
       "sentenceIndex": 39,
@@ -1797,12 +1530,9 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "powerful-mcq-18": "本句指「收入／貨幣實際可購買商品和服務的能力」。",
-        "powerful-mcq-17": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。",
-        "powerful-mcq-19": "「電腦或處理器進行計算和處理資料的能力」是「computing power」的用法，與本句語境不同。",
-        "powerful-mcq-16": "「令某件事情發生、改變或產生效果的能力」是「power — capacity」的用法，與本句語境不同。",
-        "powerful-mcq-20": "「以能產生強烈力量、影響或情感效果的方式」是「powerfully」的用法，與本句語境不同。",
-        "powerful-mcq-15": "「機械／電氣系統產生或使用能量的能力／功率」是「power — machine output」的用法，與本句語境不同。"
+        "powerful-mcq-18": "本句的「power」指「收入／貨幣實際可購買商品和服務的能力」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-18"
     },
@@ -1814,11 +1544,8 @@ export default {
       "masked": "Higher wages increased household buying ____.",
       "options": [
         "powerful-mcq-18",
-        "powerful-mcq-17",
-        "powerful-mcq-19",
-        "powerful-mcq-16",
-        "powerful-mcq-20",
-        "powerful-mcq-15"
+        "powerful-mcq-09",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「power」指「收入／貨幣實際可購買商品和服務的能力」。",
       "sentenceIndex": 40,
@@ -1827,12 +1554,9 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "powerful-mcq-18": "本句指「收入／貨幣實際可購買商品和服務的能力」。",
-        "powerful-mcq-17": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。",
-        "powerful-mcq-19": "「電腦或處理器進行計算和處理資料的能力」是「computing power」的用法，與本句語境不同。",
-        "powerful-mcq-16": "「令某件事情發生、改變或產生效果的能力」是「power — capacity」的用法，與本句語境不同。",
-        "powerful-mcq-20": "「以能產生強烈力量、影響或情感效果的方式」是「powerfully」的用法，與本句語境不同。",
-        "powerful-mcq-15": "「機械／電氣系統產生或使用能量的能力／功率」是「power — machine output」的用法，與本句語境不同。"
+        "powerful-mcq-18": "本句的「power」指「收入／貨幣實際可購買商品和服務的能力」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-18"
     },
@@ -1844,11 +1568,7 @@ export default {
       "masked": "Modern phones have enormous computing ____.",
       "options": [
         "powerful-mcq-19",
-        "powerful-mcq-18",
-        "powerful-mcq-20",
-        "powerful-mcq-17",
-        "powerful-mcq-21",
-        "powerful-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「power」指「電腦或處理器進行計算和處理資料的能力」。",
       "sentenceIndex": 41,
@@ -1857,12 +1577,8 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "powerful-mcq-19": "本句指「電腦或處理器進行計算和處理資料的能力」。",
-        "powerful-mcq-18": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。",
-        "powerful-mcq-20": "「以能產生強烈力量、影響或情感效果的方式」是「powerfully」的用法，與本句語境不同。",
-        "powerful-mcq-17": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。",
-        "powerful-mcq-21": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。",
-        "powerful-mcq-16": "「令某件事情發生、改變或產生效果的能力」是「power — capacity」的用法，與本句語境不同。"
+        "powerful-mcq-19": "本句的「power」指「電腦或處理器進行計算和處理資料的能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-19"
     },
@@ -1874,11 +1590,7 @@ export default {
       "masked": "The system requires more processing ____.",
       "options": [
         "powerful-mcq-19",
-        "powerful-mcq-18",
-        "powerful-mcq-20",
-        "powerful-mcq-17",
-        "powerful-mcq-21",
-        "powerful-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「power」指「電腦或處理器進行計算和處理資料的能力」。",
       "sentenceIndex": 42,
@@ -1887,12 +1599,8 @@ export default {
         "power"
       ],
       "optionReasons": {
-        "powerful-mcq-19": "本句指「電腦或處理器進行計算和處理資料的能力」。",
-        "powerful-mcq-18": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。",
-        "powerful-mcq-20": "「以能產生強烈力量、影響或情感效果的方式」是「powerfully」的用法，與本句語境不同。",
-        "powerful-mcq-17": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。",
-        "powerful-mcq-21": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。",
-        "powerful-mcq-16": "「令某件事情發生、改變或產生效果的能力」是「power — capacity」的用法，與本句語境不同。"
+        "powerful-mcq-19": "本句的「power」指「電腦或處理器進行計算和處理資料的能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-19"
     },
@@ -1904,11 +1612,7 @@ export default {
       "masked": "The story ____ expresses the importance of family.",
       "options": [
         "powerful-mcq-20",
-        "powerful-mcq-19",
-        "powerful-mcq-21",
-        "powerful-mcq-18",
-        "powerful-mcq-22",
-        "powerful-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「powerfully」指「以能產生強烈力量、影響或情感效果的方式」。",
       "sentenceIndex": 43,
@@ -1917,12 +1621,8 @@ export default {
         "powerfully"
       ],
       "optionReasons": {
-        "powerful-mcq-20": "本句指「以能產生強烈力量、影響或情感效果的方式」。",
-        "powerful-mcq-19": "「電腦或處理器進行計算和處理資料的能力」是「computing power」的用法，與本句語境不同。",
-        "powerful-mcq-21": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。",
-        "powerful-mcq-18": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。",
-        "powerful-mcq-22": "「缺乏控制、影響或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。",
-        "powerful-mcq-17": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。"
+        "powerful-mcq-20": "本句的「powerfully」指「以能產生強烈力量、影響或情感效果的方式」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-20"
     },
@@ -1934,11 +1634,7 @@ export default {
       "masked": "She spoke ____ about her experience.",
       "options": [
         "powerful-mcq-20",
-        "powerful-mcq-19",
-        "powerful-mcq-21",
-        "powerful-mcq-18",
-        "powerful-mcq-22",
-        "powerful-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「powerfully」指「以能產生強烈力量、影響或情感效果的方式」。",
       "sentenceIndex": 44,
@@ -1947,12 +1643,8 @@ export default {
         "powerfully"
       ],
       "optionReasons": {
-        "powerful-mcq-20": "本句指「以能產生強烈力量、影響或情感效果的方式」。",
-        "powerful-mcq-19": "「電腦或處理器進行計算和處理資料的能力」是「computing power」的用法，與本句語境不同。",
-        "powerful-mcq-21": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。",
-        "powerful-mcq-18": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。",
-        "powerful-mcq-22": "「缺乏控制、影響或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。",
-        "powerful-mcq-17": "「某事物產生影響、改變或效果的能力」是「the power of something」的用法，與本句語境不同。"
+        "powerful-mcq-20": "本句的「powerfully」指「以能產生強烈力量、影響或情感效果的方式」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-20"
     },
@@ -1964,11 +1656,8 @@ export default {
       "masked": "He felt ____ to change the situation.",
       "options": [
         "powerful-mcq-21",
-        "powerful-mcq-20",
-        "powerful-mcq-22",
-        "powerful-mcq-19",
-        "powerful-mcq-23",
-        "powerful-mcq-18"
+        "powerful-mcq-09",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerless」指「沒有足夠能力、權力或控制力去改變事情的」。",
       "sentenceIndex": 45,
@@ -1977,12 +1666,9 @@ export default {
         "powerless"
       ],
       "optionReasons": {
-        "powerful-mcq-21": "本句指「沒有足夠能力、權力或控制力去改變事情的」。",
-        "powerful-mcq-20": "「以能產生強烈力量、影響或情感效果的方式」是「powerfully」的用法，與本句語境不同。",
-        "powerful-mcq-22": "「缺乏控制、影響或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。",
-        "powerful-mcq-19": "「電腦或處理器進行計算和處理資料的能力」是「computing power」的用法，與本句語境不同。",
-        "powerful-mcq-23": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "powerful-mcq-18": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。"
+        "powerful-mcq-21": "本句的「powerless」指「沒有足夠能力、權力或控制力去改變事情的」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-21"
     },
@@ -1994,11 +1680,8 @@ export default {
       "masked": "The workers were ____ to stop the decision.",
       "options": [
         "powerful-mcq-21",
-        "powerful-mcq-20",
-        "powerful-mcq-22",
-        "powerful-mcq-19",
-        "powerful-mcq-23",
-        "powerful-mcq-18"
+        "powerful-mcq-09",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerless」指「沒有足夠能力、權力或控制力去改變事情的」。",
       "sentenceIndex": 46,
@@ -2007,12 +1690,9 @@ export default {
         "powerless"
       ],
       "optionReasons": {
-        "powerful-mcq-21": "本句指「沒有足夠能力、權力或控制力去改變事情的」。",
-        "powerful-mcq-20": "「以能產生強烈力量、影響或情感效果的方式」是「powerfully」的用法，與本句語境不同。",
-        "powerful-mcq-22": "「缺乏控制、影響或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。",
-        "powerful-mcq-19": "「電腦或處理器進行計算和處理資料的能力」是「computing power」的用法，與本句語境不同。",
-        "powerful-mcq-23": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "powerful-mcq-18": "「收入／貨幣實際可購買商品和服務的能力」是「purchasing power」的用法，與本句語境不同。"
+        "powerful-mcq-21": "本句的「powerless」指「沒有足夠能力、權力或控制力去改變事情的」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-21"
     },
@@ -2024,11 +1704,8 @@ export default {
       "masked": "The situation gave her a sense of ____.",
       "options": [
         "powerful-mcq-22",
-        "powerful-mcq-21",
-        "powerful-mcq-23",
-        "powerful-mcq-20",
-        "powerful-mcq-24",
-        "powerful-mcq-19"
+        "powerful-mcq-09",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerlessness」指「缺乏控制、影響或改變情況能力的狀態／感受」。",
       "sentenceIndex": 47,
@@ -2037,12 +1714,9 @@ export default {
         "powerlessness"
       ],
       "optionReasons": {
-        "powerful-mcq-22": "本句指「缺乏控制、影響或改變情況能力的狀態／感受」。",
-        "powerful-mcq-21": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。",
-        "powerful-mcq-23": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "powerful-mcq-20": "「以能產生強烈力量、影響或情感效果的方式」是「powerfully」的用法，與本句語境不同。",
-        "powerful-mcq-24": "「擁有或感受到足夠能力、權力和信心採取行動的」是「empowered」的用法，與本句語境不同。",
-        "powerful-mcq-19": "「電腦或處理器進行計算和處理資料的能力」是「computing power」的用法，與本句語境不同。"
+        "powerful-mcq-22": "本句的「powerlessness」指「缺乏控制、影響或改變情況能力的狀態／感受」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-22"
     },
@@ -2054,11 +1728,8 @@ export default {
       "masked": "People can experience ____ when they have no control over major decisions.",
       "options": [
         "powerful-mcq-22",
-        "powerful-mcq-21",
-        "powerful-mcq-23",
-        "powerful-mcq-20",
-        "powerful-mcq-24",
-        "powerful-mcq-19"
+        "powerful-mcq-09",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「powerlessness」指「缺乏控制、影響或改變情況能力的狀態／感受」。",
       "sentenceIndex": 48,
@@ -2067,12 +1738,9 @@ export default {
         "powerlessness"
       ],
       "optionReasons": {
-        "powerful-mcq-22": "本句指「缺乏控制、影響或改變情況能力的狀態／感受」。",
-        "powerful-mcq-21": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。",
-        "powerful-mcq-23": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "powerful-mcq-20": "「以能產生強烈力量、影響或情感效果的方式」是「powerfully」的用法，與本句語境不同。",
-        "powerful-mcq-24": "「擁有或感受到足夠能力、權力和信心採取行動的」是「empowered」的用法，與本句語境不同。",
-        "powerful-mcq-19": "「電腦或處理器進行計算和處理資料的能力」是「computing power」的用法，與本句語境不同。"
+        "powerful-mcq-22": "本句的「powerlessness」指「缺乏控制、影響或改變情況能力的狀態／感受」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-22"
     },
@@ -2084,11 +1752,7 @@ export default {
       "masked": "Education can ____ people.",
       "options": [
         "powerful-mcq-23",
-        "powerful-mcq-22",
-        "powerful-mcq-24",
-        "powerful-mcq-21",
-        "powerful-mcq-25",
-        "powerful-mcq-20"
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「empower」指「給予某人更多能力、資源、信心或決策權，使其能自行行動」。",
       "sentenceIndex": 49,
@@ -2097,12 +1761,8 @@ export default {
         "empower"
       ],
       "optionReasons": {
-        "powerful-mcq-23": "本句指「給予某人更多能力、資源、信心或決策權，使其能自行行動」。",
-        "powerful-mcq-22": "「缺乏控制、影響或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。",
-        "powerful-mcq-24": "「擁有或感受到足夠能力、權力和信心採取行動的」是「empowered」的用法，與本句語境不同。",
-        "powerful-mcq-21": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。",
-        "powerful-mcq-25": "「個人／群體獲得更多自主能力、資源、信心或決策權的過程」是「empowerment」的用法，與本句語境不同。",
-        "powerful-mcq-20": "「以能產生強烈力量、影響或情感效果的方式」是「powerfully」的用法，與本句語境不同。"
+        "powerful-mcq-23": "本句的「empower」指「給予某人更多能力、資源、信心或決策權，使其能自行行動」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-23"
     },
@@ -2114,11 +1774,7 @@ export default {
       "masked": "Good leaders ____ their teams to make decisions.",
       "options": [
         "powerful-mcq-23",
-        "powerful-mcq-22",
-        "powerful-mcq-24",
-        "powerful-mcq-21",
-        "powerful-mcq-25",
-        "powerful-mcq-20"
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「empower」指「給予某人更多能力、資源、信心或決策權，使其能自行行動」。",
       "sentenceIndex": 50,
@@ -2127,12 +1783,8 @@ export default {
         "empower"
       ],
       "optionReasons": {
-        "powerful-mcq-23": "本句指「給予某人更多能力、資源、信心或決策權，使其能自行行動」。",
-        "powerful-mcq-22": "「缺乏控制、影響或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。",
-        "powerful-mcq-24": "「擁有或感受到足夠能力、權力和信心採取行動的」是「empowered」的用法，與本句語境不同。",
-        "powerful-mcq-21": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。",
-        "powerful-mcq-25": "「個人／群體獲得更多自主能力、資源、信心或決策權的過程」是「empowerment」的用法，與本句語境不同。",
-        "powerful-mcq-20": "「以能產生強烈力量、影響或情感效果的方式」是「powerfully」的用法，與本句語境不同。"
+        "powerful-mcq-23": "本句的「empower」指「給予某人更多能力、資源、信心或決策權，使其能自行行動」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-23"
     },
@@ -2144,11 +1796,8 @@ export default {
       "masked": "She felt more ____ after learning the necessary skills.",
       "options": [
         "powerful-mcq-24",
-        "powerful-mcq-23",
-        "powerful-mcq-25",
-        "powerful-mcq-22",
-        "powerful-mcq-26",
-        "powerful-mcq-21"
+        "powerful-mcq-14",
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「empowered」指「擁有或感受到足夠能力、權力和信心採取行動的」。",
       "sentenceIndex": 51,
@@ -2157,12 +1806,9 @@ export default {
         "empowered"
       ],
       "optionReasons": {
-        "powerful-mcq-24": "本句指「擁有或感受到足夠能力、權力和信心採取行動的」。",
-        "powerful-mcq-23": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "powerful-mcq-25": "「個人／群體獲得更多自主能力、資源、信心或決策權的過程」是「empowerment」的用法，與本句語境不同。",
-        "powerful-mcq-22": "「缺乏控制、影響或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。",
-        "powerful-mcq-26": "「對人的記憶或感受造成深刻而持久的影響」是「10. powerful memory/image（記憶／形象） — 鮮明深刻的；震撼的」的用法，與本句語境不同。",
-        "powerful-mcq-21": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。"
+        "powerful-mcq-24": "本句的「empowered」指「擁有或感受到足夠能力、權力和信心採取行動的」。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-24"
     },
@@ -2174,11 +1820,8 @@ export default {
       "masked": "Employees feel ____ when their ideas are taken seriously.",
       "options": [
         "powerful-mcq-24",
-        "powerful-mcq-23",
-        "powerful-mcq-25",
-        "powerful-mcq-22",
-        "powerful-mcq-26",
-        "powerful-mcq-21"
+        "powerful-mcq-09",
+        "powerful-mcq-14"
       ],
       "explanation": "本句的「empowered」指「擁有或感受到足夠能力、權力和信心採取行動的」。",
       "sentenceIndex": 52,
@@ -2187,12 +1830,9 @@ export default {
         "empowered"
       ],
       "optionReasons": {
-        "powerful-mcq-24": "本句指「擁有或感受到足夠能力、權力和信心採取行動的」。",
-        "powerful-mcq-23": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "powerful-mcq-25": "「個人／群體獲得更多自主能力、資源、信心或決策權的過程」是「empowerment」的用法，與本句語境不同。",
-        "powerful-mcq-22": "「缺乏控制、影響或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。",
-        "powerful-mcq-26": "「對人的記憶或感受造成深刻而持久的影響」是「10. powerful memory/image（記憶／形象） — 鮮明深刻的；震撼的」的用法，與本句語境不同。",
-        "powerful-mcq-21": "「沒有足夠能力、權力或控制力去改變事情的」是「powerless」的用法，與本句語境不同。"
+        "powerful-mcq-24": "本句的「empowered」指「擁有或感受到足夠能力、權力和信心採取行動的」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "powerful-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-24"
     },
@@ -2204,11 +1844,7 @@ export default {
       "masked": "The programme focuses on community ____.",
       "options": [
         "powerful-mcq-25",
-        "powerful-mcq-24",
-        "powerful-mcq-26",
-        "powerful-mcq-23",
-        "powerful-mcq-27",
-        "powerful-mcq-22"
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「empowerment」指「個人／群體獲得更多自主能力、資源、信心或決策權的過程」。",
       "sentenceIndex": 53,
@@ -2217,12 +1853,8 @@ export default {
         "empowerment"
       ],
       "optionReasons": {
-        "powerful-mcq-25": "本句指「個人／群體獲得更多自主能力、資源、信心或決策權的過程」。",
-        "powerful-mcq-24": "「擁有或感受到足夠能力、權力和信心採取行動的」是「empowered」的用法，與本句語境不同。",
-        "powerful-mcq-26": "「對人的記憶或感受造成深刻而持久的影響」是「10. powerful memory/image（記憶／形象） — 鮮明深刻的；震撼的」的用法，與本句語境不同。",
-        "powerful-mcq-23": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "powerful-mcq-27": "「感官刺激的強度非常高，很容易被察覺」是「11. powerful smell/taste（氣味／味道） — 濃烈的；強烈的」的用法，與本句語境不同。",
-        "powerful-mcq-22": "「缺乏控制、影響或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。"
+        "powerful-mcq-25": "本句的「empowerment」指「個人／群體獲得更多自主能力、資源、信心或決策權的過程」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-25"
     },
@@ -2234,11 +1866,7 @@ export default {
       "masked": "Education can contribute to personal ____.",
       "options": [
         "powerful-mcq-25",
-        "powerful-mcq-24",
-        "powerful-mcq-26",
-        "powerful-mcq-23",
-        "powerful-mcq-27",
-        "powerful-mcq-22"
+        "powerful-mcq-09"
       ],
       "explanation": "本句的「empowerment」指「個人／群體獲得更多自主能力、資源、信心或決策權的過程」。",
       "sentenceIndex": 54,
@@ -2247,12 +1875,8 @@ export default {
         "empowerment"
       ],
       "optionReasons": {
-        "powerful-mcq-25": "本句指「個人／群體獲得更多自主能力、資源、信心或決策權的過程」。",
-        "powerful-mcq-24": "「擁有或感受到足夠能力、權力和信心採取行動的」是「empowered」的用法，與本句語境不同。",
-        "powerful-mcq-26": "「對人的記憶或感受造成深刻而持久的影響」是「10. powerful memory/image（記憶／形象） — 鮮明深刻的；震撼的」的用法，與本句語境不同。",
-        "powerful-mcq-23": "「給予某人更多能力、資源、信心或決策權，使其能自行行動」是「empower」的用法，與本句語境不同。",
-        "powerful-mcq-27": "「感官刺激的強度非常高，很容易被察覺」是「11. powerful smell/taste（氣味／味道） — 濃烈的；強烈的」的用法，與本句語境不同。",
-        "powerful-mcq-22": "「缺乏控制、影響或改變情況能力的狀態／感受」是「powerlessness」的用法，與本句語境不同。"
+        "powerful-mcq-25": "本句的「empowerment」指「個人／群體獲得更多自主能力、資源、信心或決策權的過程」。",
+        "powerful-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "powerful-mcq-25"
     }
@@ -2264,5 +1888,12 @@ export default {
     "sha256": "c405ce106e70c43713aea73f17d02d9de5fc5fa518755e7e613f12971a29949a",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };
